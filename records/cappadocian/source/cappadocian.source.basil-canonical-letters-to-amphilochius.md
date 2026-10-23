@@ -18,6 +18,7 @@ author: Basil of Caesarea
 work: Basil's canonical letters as a body, addressed to Amphilochius of Iconium (Epp. 188, 199, 217)
 edition: 'Nicene and Post-Nicene Fathers, 2nd series, vol. 8 (Basil: Letters and Select Works), ed. Schaff,
   vendored as cic/texts/npnf208_basil-letters-select-works.xml'
+citation: 'Basil of Caesarea, canonical letters to Amphilochius of Iconium (Epp. 188, 199, 217), Nicene and Post-Nicene Fathers, 2nd series, vol. 8 (Basil: Letters and Select Works), ed. Schaff'
 kind: vendored
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed

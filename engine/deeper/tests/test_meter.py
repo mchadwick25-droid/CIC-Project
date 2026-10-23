@@ -4,7 +4,7 @@ from datetime import date
 import pytest
 
 from engine.deeper import codes
-from engine.deeper.meter import NOTE_KINDS, AlreadyMinted, Meter, PaymentVoided, week_of
+from engine.deeper.meter import NOTE_KINDS, AlreadyMinted, Meter, MintLimit, PaymentVoided, week_of
 
 
 class Clock:
@@ -336,7 +336,7 @@ def test_reserve_refuses_a_count_below_one(meter):
         meter.reserve(code, 0)
 
 
-# ---- funds: what raises the door's ceiling ------------------------------------------
+# ---- funds: the money that came in ------------------------------------------
 
 def test_funds_add_by_kind_and_sum_over_the_last_seven_days(meter):
     meter.add_funds("gift", 2500, "pi_a")
@@ -426,23 +426,19 @@ def test_a_refused_mint_counts_nothing(meter):
     assert meter.measures(1)[0]["codes_single"] == 1
 
 
-def test_refusals_and_the_door_peak_are_kept_by_day(meter, clock):
+def test_refusals_are_kept_by_day(meter, clock):
     meter.measure("refused_no_code")
     meter.measure("refused_no_code", 2)
-    meter.measure_peak("door_stage", 2)
-    meter.measure_peak("door_stage", 1)
     clock.day = date(2026, 10, 6)
     meter.measure("refused_spent")
     today, yesterday = meter.measures(2)
     assert (today["day"], today["refused_spent"], today["refused_no_code"]) == (clock.day.isoformat(), 1, 0)
-    assert (yesterday["refused_no_code"], yesterday["door_stage"]) == (3, 2)
+    assert yesterday["refused_no_code"] == 3
 
 
 def test_an_unknown_measure_is_refused(meter):
     with pytest.raises(ValueError):
         meter.measure("visitors")
-    with pytest.raises(ValueError):
-        meter.measure_peak("refused_no_code", 1)
 
 
 def test_measures_with_nothing_to_show_are_an_empty_list(meter):
@@ -504,3 +500,173 @@ def test_owed_carries_no_code_and_no_hash(meter):
     (code,) = meter.mint("single", 40, "pi_x")
     text = str(meter.owed()).lower()
     assert code.lower() not in text and "hash" not in text
+
+
+# ---- tester codes: a grant with a last day -------------------------------------------------
+
+def make_tester(meter, tokens=20000, days=30, grant="tester_a", **kw):
+    (code,) = meter.mint("single", tokens, grant, source="tester", expires_in_days=days, **kw)
+    return code
+
+
+def test_a_tester_code_works_through_its_last_day_utc_and_is_refused_as_spent_the_next(meter, clock):
+    code = make_tester(meter, days=30)
+    assert meter.status(code).expires_on == str(date(2026, 11, 4))
+    clock.day = date(2026, 11, 4)
+    assert meter.verify(code) and meter.status(code).remaining == 20000
+    admission = meter.reserve(code, 50)
+    assert admission.ok
+    assert meter.settle(admission.reservation, True) == 19950
+    clock.day = date(2026, 11, 5)
+    assert not meter.verify(code)
+    status = meter.status(code)
+    assert (status.status, status.remaining, status.expired, status.tokens_used) == ("spent", 0, True, 50)
+    assert meter.reserve(code, 1).reason == "spent"
+    assert meter.status(code).tokens_used == 50
+    assert meter._reserved == {}
+
+
+def test_a_turn_held_across_the_last_day_spends_nothing(meter, clock):
+    code = make_tester(meter, days=1)
+    clock.day = date(2026, 10, 6)
+    reservation = meter.reserve(code, 20).reservation
+    clock.day = date(2026, 10, 7)
+    assert meter.settle(reservation, True) is None
+    assert meter.status(code).tokens_used == 0
+    assert meter._reserved == {}
+    assert all(day["tokens_spent"] == 0 for day in meter.measures(7))
+
+
+def test_a_released_turn_after_the_last_day_reports_nothing_left(meter, clock):
+    code = make_tester(meter, days=1)
+    reservation = meter.reserve(code, 20).reservation
+    clock.day = date(2026, 10, 7)
+    assert meter.settle(reservation, False) == 0
+
+
+def test_a_code_without_a_last_day_is_unaffected_by_time(meter, clock):
+    (paid,) = meter.mint("single", 100, "pi_forever")
+    (granted,) = meter.mint("single", 100, "admin_forever", source="admin")
+    clock.day = date(2036, 10, 5)
+    for code in (paid, granted):
+        status = meter.status(code)
+        assert (status.expires_on, status.expired, status.remaining) == (None, False, 100)
+        assert meter.settle(meter.reserve(code, 10).reservation, True) == 90
+
+
+def test_only_a_tester_grant_has_a_last_day_and_it_needs_one(meter):
+    with pytest.raises(ValueError):
+        meter.mint("single", 100, "pi_x", expires_in_days=30)
+    with pytest.raises(ValueError):
+        meter.mint("single", 100, "admin_x", source="admin", expires_in_days=30)
+    for days in (None, 0, -1, True, 1.5):
+        with pytest.raises(ValueError):
+            meter.mint("single", 100, "tester_x", source="tester", expires_in_days=days)
+    with pytest.raises(ValueError):
+        meter.mint("batch", 100, "tester_x", 2, source="tester", expires_in_days=30)
+    with pytest.raises(ValueError):
+        meter.mint("group", 100, "tester_x", source="tester", expires_in_days=30)
+    with pytest.raises(ValueError):
+        meter.mint("single", 100, "admin_x", source="tester", expires_in_days=30)
+    with pytest.raises(ValueError):
+        meter.mint("single", 100, "tester_x")
+    assert meter._conn.execute("SELECT COUNT(*) FROM meter").fetchone() == (0,)
+
+
+def test_the_days_tester_codes_stop_at_their_limit_count_when_voided_and_reset_tomorrow(meter, clock):
+    make_tester(meter, grant="tester_1", daily_code_limit=2)
+    make_tester(meter, grant="tester_2", daily_code_limit=2)
+    meter.void("tester_2")
+    with pytest.raises(MintLimit):
+        make_tester(meter, grant="tester_3", daily_code_limit=2)
+    assert meter.reconciliation(1)[0]["tester_codes_minted"] == 2
+    meter.mint("single", 100, "admin_other", source="admin", daily_code_limit=2)
+    clock.day = date(2026, 10, 6)
+    make_tester(meter, grant="tester_3", daily_code_limit=2)
+
+
+def test_two_tester_codes_at_once_never_pass_the_days_limit(meter):
+    barrier = threading.Barrier(8)
+    made, refused = [], []
+
+    def attempt(n):
+        barrier.wait()
+        try:
+            made.append(make_tester(meter, grant=f"tester_{n}", daily_code_limit=2))
+        except MintLimit:
+            refused.append(n)
+
+    threads = [threading.Thread(target=attempt, args=(n,)) for n in range(8)]
+    for t in threads:
+        t.start()
+    for t in threads:
+        t.join()
+    assert (len(made), len(refused)) == (2, 6)
+    assert meter._conn.execute("SELECT COUNT(*) FROM meter").fetchone() == (2,)
+
+
+def test_a_tester_grant_is_never_a_payment_a_sale_or_owed(meter):
+    make_tester(meter)
+    day = meter.reconciliation(1)[0]
+    assert (day["payments_seen"], day["payments_minted"], day["codes_minted"], day["gap"]) == (0, 0, 0, 0)
+    assert (day["tester_codes_minted"], day["admin_codes_minted"], day["pilot_codes_minted"]) == (1, 0, 0)
+    row = meter.measures(1)[0]
+    assert (row["tokens_granted"], row["tokens_sold"], row["codes_single"]) == (20000, 0, 0)
+    assert meter.owed() == []
+
+
+def test_a_tester_grant_is_cancelled_by_its_id_expired_or_not(meter, clock):
+    live = make_tester(meter, grant="tester_live")
+    old = make_tester(meter, grant="tester_old", days=1)
+    clock.day = date(2026, 10, 7)
+    assert meter.void("tester_live") == 1 and meter.void("tester_old") == 1
+    for code in (live, old):
+        assert (meter.status(code).status, meter.status(code).remaining) == ("void", 0)
+        assert meter.reserve(code).reason == "void"
+
+
+def test_the_grants_list_shows_a_tester_codes_last_day(meter):
+    make_tester(meter, grant="tester_g", days=10)
+    meter.mint("single", 100, "admin_g", source="admin")
+    rows = {row["grant_id"]: row for row in meter.grants(2)}
+    assert rows["tester_g"]["expires_on"] == str(date(2026, 10, 15)) and rows["tester_g"]["tokens"] == 20000
+    assert rows["admin_g"]["expires_on"] is None
+
+
+def test_a_tester_code_is_its_own_code_beside_another_one_held(meter, clock):
+    (paid,) = meter.mint("single", 100, "pi_held")
+    code = make_tester(meter, days=1)
+    clock.day = date(2026, 10, 7)
+    assert meter.reserve(code).reason == "spent"
+    assert meter.status(paid).remaining == 100 and meter.status(paid).expires_on is None
+    assert meter.settle(meter.reserve(paid, 10).reservation, True) == 90
+
+
+def test_purge_deletes_a_tester_code_thirty_days_after_its_last_day_whatever_it_held(meter, clock):
+    code = make_tester(meter, days=1)
+    (paid,) = meter.mint("single", 5, "pi_stays")
+    clock.day = date(2026, 11, 4)
+    assert meter.purge() == 0 and meter.status(code) is not None
+    clock.day = date(2026, 11, 5)
+    assert meter.purge() == 1
+    assert meter.status(code) is None and meter.status(paid) is not None
+
+
+def test_an_older_meter_table_gains_the_last_day_column_and_its_codes_keep_working(tmp_path, clock):
+    import sqlite3
+
+    path = str(tmp_path / "old.db")
+    code = codes.generate()
+    conn = sqlite3.connect(path)
+    conn.execute(
+        "CREATE TABLE meter (code_hash TEXT PRIMARY KEY, kind TEXT NOT NULL, tokens_total INTEGER NOT NULL, tokens_used INTEGER NOT NULL DEFAULT 0,"
+        " payment_id TEXT NOT NULL, day_created TEXT NOT NULL, week_last_used TEXT, status TEXT NOT NULL DEFAULT 'live', daily_ceiling INTEGER) WITHOUT ROWID"
+    )
+    conn.execute("INSERT INTO meter (code_hash, kind, tokens_total, payment_id, day_created) VALUES (?, 'single', 30, 'pi_old', ?)", (codes.hash_code(code), str(date(2026, 1, 1))))
+    conn.commit()
+    conn.close()
+    meter = Meter(path, clock=clock)
+    assert meter.status(code).expires_on is None and meter.status(code).remaining == 30
+    assert meter.settle(meter.reserve(code, 5).reservation, True) == 25
+    assert make_tester(meter)
+    meter.close()

@@ -608,3 +608,297 @@ Closes the Jerome item of "Voice errors found in the record pass staging reading
 **Gates.** `python -m engine.m10.cli records hal` and `python -m engine.m10.cli regate hal --base origin/main`: pass. `python -m engine.m2.cli determinism-check hal`: pass. `python -m engine.m2.cli staleness-check`: no world stale. `python -m engine.m9.cli check`: clean after the hal readability waiver in `engine/m9/enforce.py` went stale and was tightened from 161 to 159 (the `cautions` rewrite cleared two failures); `python -m pytest engine/m9/tests`: pass. `tools/check_paths.py` against its baseline and `tools/check_live_commentary.py --base origin/main --enforce`: pass. Package rebuilt after the last record edit: `records/worlds/hal.yaml` pins `packages/hal/2026-10-09T00-26-08Z`, `manifest_hash` `sha256:3523f325311735e6882f19ae7032858aa660edee89ef8d848ca5d86a19ec226a`.
 
 Status: CLOSED for the Jerome item. The 9 October entry stays OPEN for its other items.
+
+## OG-19. Record wording pass on hal's spoken fields and source citations, 2026-10-13.
+
+Method: every spoken field audited against the record's cited source and the vendored text; fixes applied by record; two Opus reviews (`Build/Ministry/Operations/Audits/hal_record_audit_fixes_review_round1_2026-10-13.md`, `..._round2_2026-10-13.md`). All changed spoken fields score FK 10 or below and FRE 60 or above. Quote `text` is unchanged in every record. Build records (force, gravity, voice_craft, world_core, contested_claim) are not changed. Waivers: `m1:readability/hal` tightened from 159 to 102 (what remains is in `positions`, force, gravity, contested_claim, world_core and voice_craft fields, which this pass does not change); `m9:source-citation/hal` (28) deleted.
+
+**Source records.** All 28 `hal.source.*` records gain a one-line `citation:`; the `m9:source-citation/hal` waiver is deleted.
+
+**Changed, by record** (record | fields | category | source checked).
+
+- hal.dw.apostolic | text | drift (minor), tell | Ep 22 secs 21, 36; Ep 127 sec 5; Against Jovinianus Bk I; Ep 48 intro (friends thought virginity was set above marriage). Claim that baptism, eucharist and scriptures were "traced to the apostles" cut entirely (audit proposed softening it to "we took them as the apostles' gift"; no cited passage supports even that, so the more conservative option was taken). "Went beyond scripture" replaced by the Ep 48 wording. Two stacked not-X-but-Y lines merged.
+- hal.dw.authority | text | drift, tell | Apology (vi.xii) and Rufinus (vi.xi) checked for how the quarrel ended (nothing) and for Nicaea (no hit); Apology Bk II sec 5 line 146 "You confess a Trinity in one Godhead. The whole world now confesses this." Cut: "ended by exhaustion and death"; "council rejected a new teaching". "exactly" trimmed.
+- hal.dw.believe | text | drift, tell | Ep 22 sec 30 (after the dream he read God's books with greater zeal); Ep 77 secs 3, 4, 6 (censure of the second marriage; "all Rome" belongs to the penance; sold property, founded hospital, carried the sick). Cut: "beginning of his life with God"; "all Rome knew it"; the quotable "not an argument" closer was replaced by a plain statement.
+- hal.dw.church-failure | text, sources[] (added hal.source.vulgate-prefaces, hal.source.jerome-ep45) | drift, confidence, tell | Ep 22 sec 28; Apology Bk I line 54 ("if I am a little too sharp upon heretics"; "You should rejoice in my invectives"); Ep 45; Ep 135 intro ("pillaged and partially burned"); attack-letters-416 (attackers' number Inferential-Thin). "driven out of Rome by slander, as he told it" hedged; "mob" became "other Christians". Cut: "most of it"; "clay jars" closer.
+- hal.dw.doubt | text | contradiction, drift | Ep 39 secs 5-6 (rebukes as well as pardons the grief); Ep 127 sec 7 (Marcella; "to learn the answers to those objections which might, as she saw, be made"). "Most learned woman in Rome" replaced by "Marcella, a widow in Rome". Letter now pardons the tears and also asks her to hold the grief in check.
+- hal.dw.empire | text, sources[] (added hal.source.jerome-vita-malchi, hal.source.jerome-ep108) | drift | Ep 22 sec 28; Vita Malchi prologue sec 1 (vi.iii: church grew by persecution, then in wealth, decreased in virtue); Sulpitius Dial. I.8-9 (one traveler, six months); Ep 108 secs 3-4, 19, 27; Ep 127 sec 2. Cut: "bishops ate dinner with senators"; "crowded"; "grandparents"; "inheritances from widows"; "most eligible"; "senators' daughters".
+- hal.dw.hell | text, sources[] locus (apology-rufinus) | confidence, drift, tell | Apology Bk I secs 25-27 (charge and answer); Bk II sec 12 (renunciation); Against the Pelagians (vi.ix) sec 28 ("mercy is sometimes blended with the threatenings of God"; penitence "a copy of the grace of baptism"; no sitting in judgment before the day). Rufinus's charge now stated as a charge. Cut: "one certainty was hope"; "no lists of the lost"; "pearl"; "map" closer.
+- hal.dw.inner-life | text, sources[] locus (jerome-ep22 now includes sec 37) | drift, tell | Ep 22 secs 7, 37; Ep 125 sec 11 (verbatim: work for the hands; love the knowledge of scripture). Cut: "banquets and dancing girls" (now Ep 22 sec 7 wording); "we prayed through deaths we had begged God to prevent"; not-X-but-Y pivots and moral tag.
+- hal.dw.jesus | text | tense, tell, drift | Ep 108 sec 10 (Paula: "I could behold with the eyes of faith the infant Lord"; "Hail Bethlehem, house of bread"). Past tense for community belief. Cut: "deepest devotion has the shape of that choice"; "doctor who receives the broken" (Apology Bk I sec 26 is about restoring the Church, not penitents). "within sight" became "near the cave"; Paula's sight now attributed to Jerome.
+- hal.dw.marriage-ending | text, sources[] locus (jerome-ep77 now secs. 2-6, 11) | drift, contradiction (minor), locus | Ep 77 secs 2, 3, 4, 11 (funeral). Cut: "a senator's daughter"; "above almost everyone"; "did not defend herself / unforced" (now "She confessed her fault herself").
+- hal.dw.practices | text, sources[] (added hal.source.jerome-ep22 sec 30, hal.source.jerome-ep77 sec 4, hal.source.jerome-against-pelagians) | contradiction, drift, locus | BORN AGAIN: the sources support the phrase as the world's own word for baptism. Against the Pelagians (vi.ix): "by being born again and incorporated into our Lord", John 3:3 quoted; also Ep 125 "born again in Christ", Ep 22 "I am born anew in Christ", Against Jovinianus "born again in baptism". The text now says "Born again was our word for baptism." The demo applier should match: the old line "Born again is not our phrase" is wrong and must not survive in the demo. Also: "tenth would sound timid", "giving was a direction", "urged to decide for more" cut ("We did not tithe" kept as an absence; no hit for tithe in the volume); Ezekiel preface (vii.iv line 63) checked; "translating" became "writing".
+- hal.dw.record | text | drift, tell | Ep 108 secs 9-10; prefaces. "three and a half centuries" became "more than three centuries"; cut "No one among us had ever known an eyewitness"; "unbroken" dropped; "Nothing was received passively" cut; "We knew the resurrection" recast as "We held the resurrection to be true".
+- hal.dw.sin-grace | text, sources[] (added hal.source.jerome-against-jovinianus, Book II) | drift, tell, locus | Against Jovinianus Bk II (vi.vi): "guilty of the body and blood of the Lord"; Against the Pelagians (vi.ix) for Adam and infant baptism. Cut: "received with fear and love"; "grace against the proud and works against the idle"; "We refused both easy halves."
+- hal.dw.suffering | text | confidence, contradiction, drift | Ep 39 secs 5-6 ("killed with fasting" is the crowd's whisper; whispers to drive out, stone, or throw monks in the Tiber; rebukes the grief as well as pardons it); Ep 127 sec 13 ("she is said to have": hearsay, hence "or so Jerome was told"); Ep 135 intro ("pillaged and partially burned"); Ep 127 sec 14 (Marcella dies smiling); hal.story.rome-crisis not_for (no certain cause of Blaesilla's death). Cut: "never called the weeping faithlessness"; "grieving hardest"; "on purpose".
+- hal.dw.was-jesus-god | text, sources[] locus (apology-rufinus) | locus, drift | Apology Bk II secs 3-5, 15 (Trinity exchange; homoousion), Bk I sec 26 (true physician); Ep 22 sec 25; Ep 108 sec 10; Ep 22 for "redeemed by the blood of Christ". Cut: "ransom", "debt of sin paid", "a penitent as her physician", "dying woman" (Paula greets Bethlehem alive; now "a widow"). Locus 'Book I' corrected.
+- hal.story.attack-416 | text | tell (coined closer removed) + drift; readability | Ep. 137 (clemency; "untold the name and motive"), Ep. 138, Ep. 139, Ep. 136. Ends on the attested gap (only the pope's account).
+- hal.story.ciceronian-dream | text | drift (invented "whole life" claim, imagery) + tell | Ep. 22 sec. 30; Rufinus Apology vi.xi (the jibe about Cicero).
+- hal.story.day-at-monastery | text, tellable_as, sources[0].locus ("secs. 19-20" -> "secs. 14, 20") | drift (wool-work, distaff, bells, dictation, visitors, senators' daughters invented) + contradiction (discipline case, sick allowed meat); readability | Ep. 108 secs. 14, 20; Sulpitius Dialogues I.9. Text states no hours, so it stays consistent with the existing claim_guard.
+- hal.story.desert-romances | text, tellable_as | drift + confidence (romance-genre and read-aloud claims removed, per lead decision); readability | Vita Malchi (npnf206 vi.iii: "history of chastity for the chaste"); Hilarion headnote (vi.ii).
+- hal.story.journey-to-bethlehem | text, tellable_as, sources[0].locus ("secs. 7-14" -> "secs. 6-14") | drift + tell + locus; mismatch (tellable_as named Jerome); readability | Ep. 108 secs. 6, 7, 10, 14, 35.
+- hal.story.marcella-death | text | drift (invented hope, shared grave, "thirty years", garbled thanksgiving) | Ep. 127 secs. 12-14. One audit clause ("since her poverty was her own choice") dropped on re-read as not in the letter.
+- hal.story.marcella-standing | text, sources[0].locus ("secs. 2-8" -> "secs. 2-10") | confidence + drift + locus | Ep. 127 secs. 2, 7, 9-10.
+- hal.story.oea-gourd | text, tellable_as | drift + tell (invented aphorism and closing verdict removed); readability | Augustine Ep. 71 sec. 5; Jerome reply = Letter LXXV sec. 22 (npnf101).
+- hal.story.paula-epitaph | text, tellable_as | contradiction ("not one coin" reversed: she died in debt) + drift (age 32, stewards, "poor of the countryside"); readability | Ep. 108 secs. 1, 2, 5, 15, 26, 30, 31.
+- hal.story.rome-crisis | text, tellable_as | tell (coined closer) + drift ("never saw Rome again" removed); readability | Ep. 39 secs. 1, 6; Ep. 45 secs. 2-3; Ep. 108 sec. 6.
+- hal.story.rufinus-rupture | text, tellable_as | drift + tell + readability (FK 14.4 -> 6.8) | hal.figure.rufinus; Rufinus Apology; Jerome Apology (npnf203); Rufinus volume headnote.
+- hal.story.translating-a-book | text, tellable_as | contradiction (Ep. 57 excepts scripture from sense-for-sense) + drift (twenty years, patron's purse, invented request wording); readability | Ep. 57 sec. 5; Vulgate OT dates (npnf206 vii.iii); Apology Against Rufinus (Baraninas, night, expense). Audit's invented request wording ("translate this book again, from the Hebrew") dropped as unsourced; "at great cost to the translator" kept.
+- hal.limit.f5-enslaved | statement | drift (overstated silence) + contradiction ("held many people" vs "small" household) | Ep. 108 secs. 2, 10; Ep. 39 sec. 1.
+- hal.limit.f5-women-own-words | statement | contradiction + confidence (Ep. 46 survives under their names, held to be his) | Ep. 46; Ep. 137; hal.contested.ep46-authorship.
+- hal.limit.martyrdom | statement | contradiction (minor; "one attack" count) | Ep. 137; hal.story.marcella-death (Ep. 127 secs. 13-14).
+- hal.demo.believe | exchange[1] (representative) | tell, drift | Ep. 22 sec. 30 (Judge, Cicero, treasure); Ep. 77 secs. 4, 6 (Fabiola). Removed invented opener and the unsourced "beginning of his life with God" reading; replaced with the sourced act (he gave himself to the Scriptures); shortened a repeated "not an argument" line.
+- hal.demo.born-again | exchange[1] (representative) | contradiction, drift, tell | hal.dw.practices; Ep. 108 secs. 3, 6; Pelagians dialogue (vi.ix), Ep. 22, Against Jovinianus. Removed unsupported "close to how we would put it" and "Born again is not our phrase" (sources show the phrase was used for baptism). Now: "Born again was our word for baptism, the washing that makes a person new." Managers became relatives (Ep. 108 sec. 6); removed coined "two halves" line and the "honest version" hand-back.
+- hal.demo.born-again | exchange[3] (representative) | contradiction, drift, tell | Ep. 22 sec. 30; hal.story.ciceronian-dream. "Our founder" became "Our teacher Jerome"; "way to the desert" became "way to Jerusalem", "could not give up his library"; removed invented closers ("put to work inside the new life", "Nobody among us stopped struggling").
+- hal.demo.hell | exchange[1] (representative) | tense | hal.dw.hell. "we do not apologize" became "we never apologized".
+- hal.demo.jesus | exchange[1] (representative) | tense | Ep. 108 sec. 10 (quote checked, accurate). Community devotion put in past tense; "He was" became "He is".
+- hal.demo.marriage-ending | exchange[1] (representative) | drift | Ep. 77 sec. 2. "a senator's daughter" became "a woman of the old Fabian family".
+- hal.demo.someone-like-me | exchange[1] (representative) | drift, tell | Ep. 39 (crowd's charge of death by fasting); Ep. 77 secs. 6, 10; Ep. 108 sec. 14. Death-by-fasting charge given to the crowd, "her teachers had praised" removed; "voices in the crowd"; Egypt/Parthia/Britain line attributed to Jerome without same-year claim; unattested "asked nothing of anyone's learning" replaced with a statement of what the records say; coined closer replaced.
+- hal.demo.suffering | exchange[1] (representative) | tell | hal.dw.suffering; Ep. 127 sec. 12; Ep. 137; Ep. 139. Filler "we tell you honestly" removed.
+- hal.demo.woman-authority | exchange[1] (representative) | confidence, drift, tell | Ep. 127 sec. 7 (single post-mortem source, Contested). Framed as "The one account we have says"; "house" removed; "citing" became "mindful of"; overclaims reworded.
+- hal.demo.women-own-words | exchange[1] (representative) | drift, tell | Ep. 127 sec. 7; Ep. 108 sec. 26. "her house" removed; "you deserve it stated" replaced.
+- hal.figure.augustine | bridge_line | readability, tell | Ep. 112; hal.source.jerome-augustine-letters
+- hal.figure.blaesilla | bridge_line | drift, readability | Ep. 108 sec. 3; Ep. 39 ("eldest" removed; "severe fasting" reworded)
+- hal.figure.damasus | bridge_line | drift, readability | Gospels preface (a.d. 383); figure body (protection ended with his death)
+- hal.figure.eustochium | bridge_line | tell, readability | Ep. 22; Ep. 108
+- hal.figure.fabiola | bridge_line | readability, tell | Ep. 77 secs. 4-6
+- hal.figure.jerome | bridge_line | readability, tell | hal.gravity.patronage-authority ("never on a bishop's seat")
+- hal.figure.marcella | bridge_line | confidence, readability | Ep. 127 sec. 7; figure body (attributed to Jerome; "the one" and flat founder claim removed)
+- hal.figure.pammachius | bridge_line | readability | Ep. 66; Ep. 77 sec. 10
+- hal.figure.paula-younger | bridge_line; names[0] (in-world name "Paula" became "Paula the younger", per lead decision) | drift, readability; contradiction (label collision with hal.figure.paula) | Ep. 107; Ep. 137
+- hal.figure.paula | bridge_line | confidence, readability | Ep. 108 (attributed "By Jerome's account")
+- hal.figure.rufinus | bridge_line | drift, readability | NPNF headnote v.vi.vii; Apology; hal.story.rufinus-rupture
+- hal.term.bibliotheca | plain_meaning, quick_meaning, senses.personal, senses.translational | readability; tell; drift | Vulgate prefaces (npnf206 vii.iii/iv); divergence_note and use_note (no size claimed)
+- hal.term.epistula | quick_meaning, senses.personal, senses.translational | readability; tell; drift | Ep 22, 45, 77, 108, 127 (npnf206); no "far from everyone I love" line, no source for "written to be copied and shared"
+- hal.term.epitaphium | quick_meaning, senses.translational | readability; confidence; tell | Ep 108, Ep 127 (no source for "ancestor to all three")
+- hal.term.exegesis-as-practiced-authority | plain_meaning, quick_meaning, senses.personal, senses.translational | confidence; tell; readability | Ep 127 sec. 7 (npnf206); divergence_note (single witness)
+- hal.term.grammaticus | plain_meaning, quick_meaning, sources[] locus | readability; locus | Apology against Rufinus I ch. 16 (npnf203 div vi.xii), "my master Donatus". Added hal.source.jerome-apology-rufinus with locus "Book I, ch. 16 ('my master Donatus' on Virgil)"; hal.source.jerome-de-viris locus re-described as "ch. 135, Jerome's own entry listing his works (does not mention Donatus)"
+- hal.term.hebraica-veritas | plain_meaning, quick_meaning | tense; readability; confidence | use_note not_for (Jerome's single voice)
+- hal.term.matrona | senses.translational | drift; readability | Ep 108 secs 1, 3-4; Ep 127 secs 1-2 (no legal status stated)
+- hal.term.monasterium | plain_meaning, quick_meaning, senses.personal | drift; readability; contradiction | Ep 108 sec. 10 (cave, Jerome prays there), sec. 20 (monastery for men; virgins in three companies meeting for psalm-singing and prayer), sec. 23. plain_meaning uses the audit's suggested wording (men's house, women's house in three companies, one project; Paula then Eustochium led the women; Jerome-as-men's-leader claim removed). quick_meaning shortened to "It had a men's house and a women's house, under one project" (drops "linked").
+- hal.term.nosocomium | senses.personal, senses.translational | drift; tell | Ep 77 sec. 6; sec. 6 "first person to found a hospital"
+- hal.term.patrocinium | senses.personal | drift; confidence; tell | Ep 45 secs 2-3 (Damasus; "worthy of the episcopate"); letter header Aug 385, Ostia
+- hal.term.pelagianism | plain_meaning, quick_meaning, senses.personal, senses.translational | drift | Epp. 135-139; Ep 137 ("These ladies tell me"; ravages, murders, fires); Ep 138 (Jerome chose to leave); hal.source.attack-letters-416. Kept "words" (not "letter") per lead.
+- hal.term.peregrinatio | quick_meaning, senses.personal, senses.translational | readability; drift; tell | Ep 108 secs 7-14 (sec. 10 "eyes of faith" at the manger; sec. 14 "accompanied by Eustochium and many")
+- hal.term.praeceptor | plain_meaning, senses.personal, sources[] locus | readability; drift; tell; locus | Apology against Rufinus I ch. 16 (npnf203 div vi.xii). Added hal.source.jerome-apology-rufinus with locus "Book I, ch. 16 ('my master Donatus' on Virgil)"; de-viris locus re-described as for grammaticus
+- hal.term.praefatio | quick_meaning, senses.personal, senses.translational | readability; confidence; tell | Vulgate prefaces (npnf206 vii.iii/iv); evidential sense and use_note (single-voice source)
+- hal.term.propositum | quick_meaning, senses.personal | readability; confidence; tell | Ep 22; evidential sense (term not used in Ep 22); Dominant Modern Reconstruction
+- hal.term.scriptorium | plain_meaning, senses.personal | readability; confidence | Ep 108 (no room named); Dominant Modern Reconstruction
+- hal.term.vidua | plain_meaning | contradiction | Ep 77 secs 2-6 (Fabiola remarried, widowed again); Ep 127 sec. 2 (Marcella refused Cerealis); Ep 108 (Paula)
+- hal.term.virginitas | plain_meaning, quick_meaning | readability | no source change
+- hal.term.vulgata | senses.personal | drift | Vulgate prefaces (npnf206 vii.iii/iv); editor note, preface to Paula and Eustochium, c. 391
+- hal.term.xenodochium | plain_meaning, senses.personal | readability; drift | Ep 77 sec. 10 (Portus); Ep 108 sec. 14 (guest house, cells, monastic buildings); Ep 84 (Hebrew teachers' cost was Jerome's own)
+- hal.quote.a-follower-of-cicero-and-not-of-christ | modern_rendering | dropped words, dropped closing ellipsis, 27-word sentence | npnf206 Ep. 22 sec. 30, lines 6480-6484
+- hal.quote.a-man-truly-catholic | modern_rendering | overstatement ("almost"), "at first" lost, misleading modern sense ("Catholic" rendered "orthodox" per lead decision) | npnf211 Sulpitius Dial. I.7, div ii.iv.i.vii
+- hal.quote.detestable-monks | modern_rendering | "all along" for "often" | npnf206 Ep. 39 sec. 6
+- hal.quote.dispute-to-learn | modern_rendering | words added from outside the excerpt ("about the scriptures" removed, "them" kept per lead decision), 30-word sentence, "acquiesce" | npnf206 Ep. 127 sec. 7 area (line 26165 is the sentence before the excerpt)
+- hal.quote.ever-let-the-bridegroom-sport-with-you | modern_rendering | 40-word sentence, dropped closing ellipsis, ungrammatical phrase | npnf206 Ep. 22 (Bridegroom passage)
+- hal.quote.eyes-of-faith | modern_rendering | padding and changed attribution ("protested in my hearing"), added words | npnf206 Ep. 108 sec. 10
+- hal.quote.fabiola-hospital | modern_rendering | purpose clause turned into fact, misleading modern sense ("want" -> "poverty") | npnf206 Ep. 77 (Fabiola hospital passage)
+- hal.quote.hindered-by-jerome | modern_rendering | readability fail (FRE 58.5 -> 77.6), added "instead" | palladius_lausiac-history_clarke1918.txt line 475
+- hal.quote.innocent-ravages | modern_rendering | readability fail (FRE 53.1 -> 63.2), misleading modern sense ("deplored" -> "lamented"), causal "for" reversed | npnf206 Ep. 137 (div v.CXXXVII)
+- hal.quote.they-have-left-untold-the-name | modern_rendering | readability fail (FRE 56.3 -> 63.2), "deplored" lost, causal "for" reversed; same text as innocent-ravages, same replacement | npnf206 Ep. 137 (div v.CXXXVII)
+- hal.quote.no-one-preferred-to-the-seventy | modern_rendering | AI-tell framing pivot ("judge one thing:"), added emphasis, 36-word sentence | npnf102 City of God XVIII.43, line 36742
+- hal.quote.oea-tumult | modern_rendering | 38-word sentence with dash insert | npnf101 Aug. Ep. 71 Chap. III sec. 5, line 32550
+- hal.quote.paula-escaped-his-envy | modern_rendering | dropped "to such a degree that" | palladius_paradise-v1-syriac_budge1907.txt line 1233
+- hal.quote.recourse-to-marcella | modern_rendering | asserted an outcome the source does not give | npnf206 (Marcella recourse passage)
+- hal.quote.rome-resounded | modern_rendering | readability fail (FRE 55.2 -> 68.8) | npnf206 Ep. 45 sec. 3
+- hal.quote.rufinus-writes-because-rome-is-where-the-news-is | modern_rendering | AI-tell framing pivot ("one thing:"), added causal link ("and so"), dropped "favourably" | npnf203 div vi.ix sec. 1
+- hal.quote.she-put-on-sackcloth | modern_rendering | "yoke of restraint" for "yoke of servitude", added "instead", two 32-33-word sentences | npnf206 Ep. 77 sec. 4
+- hal.quote.let-her-be-brought-up-in-a-monastery | sources[0].locus (secs. 4-7 -> sec. 13) | locus | npnf206 line 20723 (v.CVII-p74, "13.") and line 20730
+
+**Changed after review round 1** (record | field | change).
+
+- hal.story.journey-to-bethlehem | text | BLOCKING: removed unsourced spring clause; harbor at Portus
+- hal.dw.practices | text | NB1: born-again now a thing that happens in baptism
+- hal.dw.practices | sources[against-pelagians].locus | NB1: narrowed locus
+- hal.demo.born-again | exchange[1] | NB1: matched dw.practices wording
+- hal.demo.born-again | exchange[3] | NB2: cut coined closer
+- hal.demo.someone-like-me | exchange[1] | NB3: ascetic life; crowd said fasting killed her
+- hal.demo.someone-like-me | exchange[1] | NB3: cut redundant open-to-stranger sentence
+- hal.dw.was-jesus-god | text | NB4: cut true-physician sentence
+- hal.dw.was-jesus-god | sources[apology-rufinus].locus | NB4: dropped Book I sec. 26
+- hal.dw.was-jesus-god | sources[jerome-ep22].locus | NB4: added sec. 39
+- hal.dw.inner-life | text | NB5: cut Ep125 sentence
+- hal.dw.empire | text | NB6: with the sun
+- hal.dw.empire | text | NB6: one woman, not a class
+- hal.demo.hell | exchange[1] | NB7: matched dw.hell (charge and answer)
+- hal.demo.suffering | exchange[1] | NB7: pillaged and partly burned
+- hal.demo.suffering | exchange[1] | NB7: Marcella thanks wording per Ep127 sec 13
+- hal.demo.jesus | exchange[1] | NB7: cut unsourced doctor sentence
+- hal.demo.marriage-ending | exchange[1] | NB7: matched dw.marriage-ending
+- hal.story.rome-crisis | text | NB7: dropped eldest
+- hal.story.oea-gourd | sources[augustine-letters].locus | NB8: proposed locus
+- hal.story.oea-gourd | sources[jerome-augustine-letters].locus | NB8: reduced locus
+- hal.figure.marcella | bridge_line | NB9: softened Roman clergy
+- hal.term.monasterium | plain_meaning | NB10: reworded
+- hal.term.monasterium | sources[jerome-ep108].locus | NB10: added sec. 10
+- hal.story.desert-romances | text | NB11: cut repeated closer
+- hal.term.grammaticus | sources[jerome-de-viris].locus | NB12: removed reviewer note
+- hal.term.praeceptor | sources[jerome-de-viris].locus | NB12: removed reviewer note
+- hal.quote.rufinus-writes-because-rome-is-where-the-news-is | modern_rendering | NB13: restored hedge
+
+Round 2 (targeted recheck, Opus): passed, 0 blocking. Two non-blocking items, double spaces in three spoken fields (fixed) and two unlogged build-field alignments (logged in OG-20).
+
+Status: CLOSED for the fields listed; the open items are in OG-20.
+
+## OG-20. Items found in the hal record wording pass and not fixed, 2026-10-13.
+
+Each item is outside the fields this pass may change (build records, `positions`, `use_note`, `informational`, source records, body paragraphs) or needs a source record or a decision. Entry numbers cited elsewhere are by subject and date.
+
+- hal.dw.apostolic | sources[] | The friends' objection rests on Ep 48 (Pammachius and friends); no records/hal/source record exists for Ep 48 (nearest: jerome-ep45, jerome-ep46, jerome-ep57). Source record needed; not created.
+- hal.dw.apostolic | positions[1], tensions, use_note | Repeat "went beyond scripture", which the Ep 48 intro does not support. Out of scope (not spoken). Owner to align.
+- hal.dw.inner-life | sources[] | Ep 125 sec 11 carries "work for the hands" and "love the knowledge of scripture" (verified verbatim) but has no source record. Needs a new source record; not created.
+- hal.dw.practices | sources[] | hal.source.jerome-ep107 (secs. 4-13) is still listed although the audit found the text does not use it. Left in place (removing a source is a judgment for the owner; conservative option). Also: "Against Jovinianus ... born again in baptism" and Ep 125 / Ep 22 "born anew" are corroboration only; the Against the Pelagians locus is given as a descriptive phrase because the audit gives no section number.
+- hal.dw.practices | positions[0], use_note | Say "born again" was carried by other words. Contradicts the text now. Out of scope (positions not spoken); needs aligning. positions[1] "never a tithe system" is unsourced (no hit for tithe), same status.
+- hal.dw.doubt | positions[1], use_note ("not condemnation") | Ep 39 rebukes the grief as well as pardoning it. Out of scope; owner to align.
+- hal.dw.suffering | positions[1] ("never condemned as unbelief") | Contradicted by Ep 39. Out of scope.
+- hal.dw.hell | positions[1] ("hope in every particular case") | No source. Out of scope.
+- hal.dw.was-jesus-god | positions[1] ("redemption and healing") | Fine, but "ransom" is not attested in the sources. Out of scope.
+- hal.dw.sin-grace | positions[3] ("against idleness") | Unsourced. Out of scope.
+- hal.dw.one-church | text | Audit note only: the definition of "Catholic", "Latin monastery in a Greek-speaking province" and "ended within a generation" are world-level framing, not in the cited loci. Low risk; no change.
+- hal.dw.one-church | sources[] jerome-apology-rufinus locus "the professions of catholic faith throughout" | Audit found no such professions in Book I; the audit proposed no fix for this record. Left; needs a locus check by the owner.
+- hal.dw.church-failure | text "mocked a former friend after the man had died" | Rests on the Ezekiel Bk I preface (vii.iv, "the scorpion lies beneath the ground"); the editor identifies the Scorpion as Rufinus only at the Bk X preface. The identification is an inference. Kept per the audit, locus added; owner may wish to tag it.
+- hal.dw.* positions | the 26 optional readability replacements in the audit | Not applied (outside scope: `text` only).
+- hal.story.oea-gourd | sources[1].locus ("Ep. 112 (the reply)") | Not edited, per lead instruction to list the oea-gourd locus fix as unfixed. Audit's suggested locus: "Ep. 112 (= Augustine collection Ep. 75), sec. 22; text vendored at cic/texts/npnf101_augustine-confessions-letters.xml, Letter LXXV". Note the string sits in the story record's sources[]; it can be applied there on instruction. The source record hal.source.jerome-augustine-letters (edition field npnf206 v.CXII, a headnote only) also needs its owner to correct it.
+- hal.story.day-at-monastery | absent_detail, claim_guards, modern_contrast, narrative_tier_justification, use_note | Build fields, out of scope. They say no hours are attested, but Ep. 108 sec. 20 names the hours (dawn, third, sixth, ninth, evening, midnight). They also list "wool-work", which Ep. 108 does not support. Owner to resolve. Story text states no hours meanwhile.
+- hal.story.translating-a-book | use_note (and any other field repeating "sense-for-sense is Ep. 57's own stated theory") | Build field, out of scope; Ep. 57 sec. 5 excepts scripture.
+- hal.story.desert-romances | modern_contrast, absent_detail, use_note (and formation_confidence Inferential-Thin) | Build fields, out of scope; they repeat the romance-genre claim, which the vendored edition cuts against (Hilarion headnote: "destitute of foundation"; Malchus: "history of chastity"). Governance question for the owner: can "consciously literary romances" stand?
+- hal.limit.f5-material-remains | statement | No change; verified against Ep. 108 secs. 14, 30, 34. Flag: the negative claim ("no stone, coin, or record traced with certainty") cannot be checked from vendored texts or hal records, and the cited hal.search.bethlehem-archaeology record does not exist under records/hal. Burial "beneath the church" (sec. 30) could be added to the locus.
+- Loci not checkable at passage level ("whole work", "whole letter", "passim"): desert-romances, rufinus-rupture, paula-epitaph, translating-a-book, rome-crisis Ep. 45, f5-enslaved ("household narratives"). Left as is.
+- hal.figure.damasus | sources[0].locus | The locus "the Rome-period letters (the Damasus correspondence sits alongside them, Epp. 15-36 range)" is cited to hal.source.jerome-marcella-letters, which covers only letters to Marcella (Epp. 23-29, 32, 34, 37-38, 40-44, 59, 97) and does not carry the Damasus letters. The audit's proposed locus (Epp. 15, 16, 18-21, 35, 36; npnf206 div ids v.XV-v.XXI, v.XXXV-v.XXXVI) needs a new source record or a re-pointed existing one. Unfixed: needs a source record.
+- hal.demo.someone-like-me | sources locus for hal.term.xenodochium ("the hospice open to any traveler") | the term record says "A hostel for travelers" (no "any"); audit marked this a label note only. Not changed.
+- hal.demo.* and hal.figure.* body paragraphs | process commentary (e.g. "matching alx.demo...") | not spoken fields; body paragraphs not to be edited in this pass. CLAUDE.md treats commentary in records/ as corruption: needs separate cleanup.
+- Source records outside this scope that the demos were adapted from; if not corrected, demos can drift back: hal.dw.marriage-ending text ("a senator's daughter", no source); hal.dw.suffering text ("died young of the very discipline her teachers had praised"; the fasting cause is the crowd's charge); hal.story.paula-epitaph ("stewards", Ep. 108 sec. 6 has relatives); hal.story.marcella-standing ("to her house they came", Ep. 127 sec. 7 has no house); hal.dw.believe text ("the beginning of his life with God", not in Ep. 22 sec. 30); hal.dw.practices ("Born again is not our phrase" contradicts the Pelagians dialogue, Ep. 22, Against Jovinianus; fixed in parallel).
+- hal.demo.born-again exchange[1]: the sentence "Born again was our word for baptism" depends on the parallel dw.practices fix; the turn stays within Ep. 108 and the dw/source evidence (Pelagians dialogue vi.ix, Ep. 22, Against Jovinianus). It makes no claim either way about whether the participant's phrasing is "close to how we would put it".
+- hal.demo.someone-like-me exchange[1]: the sentence "Our records describe these as open to the stranger and the sick poor, and they mention no test at the door" is the audit's wording (an absence statement from the term records); kept, flagged for review as it speaks about "records" from inside the voice.
+- hal.term.monasterium | informational, use_note, and other records (hal.core and others) | "two linked houses" framing conflicts with Ep 108 sec. 20 (women in three companies); outside the allowed fields. Fleet-level; grep of records/hal for "three companies" finds nothing. Needs a lead/fleet decision.
+- hal.term.monasterium | plain_meaning | audit gave no replacement; the audit's suggested wording was applied on the lead's instruction. It was not separately scored by the audit; scored in this pass (passes).
+- hal.term.exegesis-as-practiced-authority | senses.informational | says clergy "came to her own house"; Ep 127 sec. 7 has no "own house" (only that many, "including sometimes priests", questioned her). Not in scope.
+- hal.term.grammaticus | senses.evidential | says rhetoric is not attributed to Donatus; Fremantle's editor's introduction in npnf206 (div iv.III) says Jerome "studied rhetoric ... under Ælius Donatus". Not in scope; needs a decision on what "standard accounts" means.
+- hal.term.patrocinium | senses.informational and hal.gravity.patronage-authority (line 51) | say Paula's fortune funded "his Hebrew teachers"; no cited source (Ep 84 gives it as Jerome's own expense). Not in scope (informational; build record).
+- hal.dw.church-failure (line 37) and hal.term.pelagianism use_note.means | "mob" / "documented mob attack" not supported by the letters (attackers' number is Inferential-Thin per hal.source.attack-letters-416). Not in scope (build record; use_note).
+- hal.term.pelagianism | senses.translational and source/quote records (hal.quote.innocent-ravages, source note) | describe a lost "letter" from the women; vendored Ep 137 never says a letter was written. "words" kept here; the carried-forward "letter" wording in those records is unchanged and needs review.
+- hal.term.grammaticus and hal.term.praeceptor | sources[] hal.source.jerome-de-viris entry | kept with a corrected locus rather than dropped; confidence.divergence_note text on grammaticus ("not re-collated to a single locus") and praeceptor verification_state left as is.
+- Pattern, not changed: other personal/informational senses that call the community "this world" were changed only where the sentence had another defect.
+- hal.quote.rufinus-writes-because-rome-is-where-the-news-is | sources[0].source_id (hal.source.rufinus-apology) | The quote is from Rufinus's Apology to Anastasius (npnf203 div vi.ix, line 45886). The source record's edition names div vi.xi and its citation names "Apologia contra Hieronymum"; div vi.xi is the Apology addressed to Apronianus. Needs a source record: either widen hal.source.rufinus-apology to cover vi.ix, or add a separate source record for the Apology to Anastasius and repoint the quote. The quote's locus text is correct and was left as is.
+- hal.source.sulpitius-dialogues | edition | Lists divs ii.iv.i.viii-ix, but a-man-truly-catholic is cited from I.7 (div ii.iv.i.vii, line 2834). Source record, out of scope.
+- hal.quote.city-taken and hal.quote.the-city-which-had-taken-the-whole-world | text | Identical `text` (Ep. 127.12) with different renderings; flagged for dedup consideration.
+- hal.quote.innocent-ravages and hal.quote.they-have-left-untold-the-name | text | Identical `text` (Ep. 137); both now carry the same rendering. Flagged for dedup consideration.
+- hal.quote.hindered-by-jerome | verification_state | Still `verified-via-authority`, but direct verification is now possible (hand-verified at palladius_lausiac-history_clarke1918.txt line 475). The sweep tool reports a false FAIL because the footnote call "276" is glued to "Paula,"; this is a gap in the tool's apparatus stripping for this edition, not a record defect. Field left unchanged (not a spoken field).
+- hal.quote.dispute-to-learn | text | The bare "them" is opaque out of context. If the referent matters, extend the `text` excerpt back to "a student of the scriptures"; the lead ruled to add nothing from outside the excerpt, so left as is.
+- hal.quote.a-man-truly-catholic | modern_rendering | Audit option for Mark: lowercase emic "catholic" instead of "orthodox". Lead decided "orthodox"; applied.
+- hal.source.* | missing records | No source record exists for Jerome's Ep. 48 (hal.dw.apostolic) or Ep. 125 (hal.dw.inner-life, and the Ep. 125 sentence removed from the text). A source record for each, with the vendored div ids, is needed before those claims can be cited.
+- hal.dw.jesus | positions[1] | Still says "physician to the penitent"; this pass removed the claim from the spoken text because the cited passage does not support it as the community's own view.
+- hal.dw.practices | positions[0], use_note | Still say "born again" was carried by other words; the spoken text now says the community spoke of being born again in baptism (Against the Pelagians III.15, III.19). Align in the build fields.
+- hal.demo.* and hal.figure.* | body paragraphs | Carry build commentary (for example "matching alx.demo..."). Not spoken fields, so not changed here; CLAUDE.md treats commentary in `records/` as corruption.
+- hal.figure.paula-younger | names[0] | "Paula the younger" is a convenience tag; the sources call her "little Paula" (Ep. 107) or "Paula" (Ep. 137).
+
+Status: OPEN.
+
+## OG-21. Corrections to OG-19 and OG-20 and further hal wording fixes after independent review, 2026-10-13.
+
+Corrects OG-19 and OG-20 (their merged text is not edited) and records the fixes made after the independent review of the hal wording pass. Every touched field passes the readability limits. `m1:readability/hal` stays at 102: none of the fields below was in that count.
+
+**Corrections to OG-19 and OG-20.**
+- `hal.demo.born-again` exchange[1] and `hal.dw.practices` text: OG-19 and OG-20 quote the wording "Born again was our word for baptism". That is not the final text. After review round 1 both say "We spoke of being born again in baptism", and the `hal.source.jerome-against-pelagians` locus on `hal.dw.practices` is narrowed to Book III secs. 15 and 19 (the newly baptized "born again"; John 3:5).
+- `hal.demo.someone-like-me` exchange[1]: OG-20 quotes "Our records describe these as open to the stranger and the sick poor, and they mention no test at the door". That sentence is not in the final text. The final text says "Nothing we kept speaks of a test at the door", and "taking up hard fasting" became "taking up the ascetic life" because only the crowd, not Ep. 39, says fasting killed her.
+- OG-20 lists four records as not fixed that are fixed in OG-19: `hal.dw.marriage-ending` ("a senator's daughter"), `hal.dw.suffering` ("teachers had praised"), `hal.story.paula-epitaph` ("stewards") and `hal.story.marcella-standing` ("her house"). Those items are closed. `hal.dw.believe` ("the beginning of his life with God") is also fixed in OG-19.
+- OG-20 states the `hal.dw.practices` and `hal.dw.jesus` open items twice (once from the change logs, once added). The open items are one each: `hal.dw.practices` positions[0] and `use_note` still say "born again" was carried by other words, and `hal.dw.jesus` positions[1] still says "physician to the penitent". Both are build fields outside this pass.
+- Source entries added to `sources[]`, with the reason (each cited passage is in the vendored text and is used by the corrected spoken text, and no hal source record covered it): `hal.dw.church-failure` (`hal.source.vulgate-prefaces` for the Ezekiel preface, `hal.source.jerome-ep45`), `hal.dw.empire` (`hal.source.jerome-vita-malchi`, `hal.source.jerome-ep108`), `hal.dw.practices` (`hal.source.jerome-ep22` sec. 30, `hal.source.jerome-ep77` sec. 4, `hal.source.jerome-against-pelagians`), `hal.dw.sin-grace` (`hal.source.jerome-against-jovinianus`, Book II), `hal.dw.was-jesus-god` (`hal.source.jerome-ep108` sec. 10), and `hal.term.grammaticus` and `hal.term.praeceptor` (`hal.source.jerome-apology-rufinus`, Book I ch. 16, "my master Donatus", which `hal.source.jerome-de-viris` does not carry).
+
+**Changed after the independent review** (record | field | change).
+- hal.story.attack-416 | text | "wrote to the bishop of Rome and told him" became "told the bishop of Rome what had been done"; we-voice last line replaced with "the pope's account is all that survives"
+- hal.story.paula-epitaph | text | staccato rejoined with semicolons and "and"; "led... learned... nursed" restored as one list
+- hal.story.marcella-death | text | clauses rejoined (pointed to dress, but they did not believe her and beat her; took the two women...; thankful too); no claims added
+- hal.story.day-at-monastery | text | clauses rejoined with "and", semicolons, colon; content unchanged
+- hal.story.rome-crisis | text | clauses rejoined; crowd mutter restored as a semicolon list; slander and ship sentences joined
+- hal.term.bibliotheca | plain_meaning | two sentences joined with "which his standing as a scholar rested on"
+- hal.term.bibliotheca | quick_meaning | same rejoin
+- hal.term.epitaphium | quick_meaning | "The letter for the dead, which mourned them and taught the living what a holy life looked like."
+- hal.term.grammaticus | quick_meaning | "Latin school under Donatus, which was the base for all of Jerome's later work."
+- hal.term.peregrinatio | quick_meaning | joined with semicolon: "Pilgrimage, or devout travel to the holy places; for us it ended in the choice to stay."
+- hal.story.rufinus-rupture | tellable_as | "...over Origen. They had been friends for years, and it ended in angry, rival answers."
+- hal.story.day-at-monastery | tellable_as | "a day at Bethlehem... It is a rebuilt picture, not a timetable." ("ordinary" dropped for FRE)
+- hal.story.desert-romances | tellable_as | "They are not history" replaced by "They are the stories we told, and we make no claim that each event happened." ("desert" dropped from "hero-tales" for FRE)
+- hal.limit.f5-women-own-words | statement | "held to be his work, not theirs" replaced by "He wrote the one letter sent in their names."
+- hal.dw.church-failure | text | "He mocked a former friend after the man had died" became "He wrote a preface that seems to mock a former friend after the man had died"
+- hal.demo.women-own-words | exchange[1] representative turn | "a report of a fire" became "a report of the attack"
+- hal.quote.hindered-by-jerome | modern_rendering | Rewritten by Opus: the staccato version rejoined so every clause of `text` is rendered, nothing added (FK 8.1, FRE 69.8).
+
+Status: CLOSED for the fields listed.
+
+## OG-22. use_note.means checked against the corrected spoken fields, 2026-10-13.
+
+Per Mark's ruling of 13 October, `use_note.means` is in scope where it contradicts the corrected spoken fields or the source, because `engine/m4/evidence.py` puts it into the evidence block the voice reads. All 99 hal records that carry a `means` were compared with their corrected fields, their cited source and their confidence level: 30 quotes (a 31st quote has none), 23 terms, 16 doctrinal witnesses, 12 stories, 4 honest limits, 6 gravities and 7 contested claims. Five were changed; the other 94 were left as they were. `not_for` and `years` are untouched. `means` is not readability-graded, so no waiver count moves.
+
+**Changed** (record | field | before | after | why).
+- hal.term.pelagianism | use_note.means | before: "The dispute over grace and human capacity, which reached this community as a documented mob attack in 416." | after: "The dispute over grace and human capacity, which reached this community as a documented attack in 416." | why: corrected spoken fields drop "mob" (plain_meaning, quick_meaning, personal)
+- hal.limit.f5-women-own-words | use_note.means | before: "Nothing the four women wrote survives, though they demonstrably wrote, so what remains of them is what one man wrote about them." | after: "Nothing the four women wrote survives, though they demonstrably wrote, so what remains of them is what men wrote about them, above all one man." | why: corrected statement: "what men wrote about them, above all one man"
+- hal.limit.f5-enslaved | use_note.means | before: "The sources are silent on the enslaved and dependent people in the great households, never naming or voicing a single one." | after: "The sources say almost nothing about the enslaved and dependent people in the great households, and name or voice none of them." | why: corrected statement: "our record says almost nothing ... mention them only in passing"
+- hal.dw.church-failure | use_note.means | before: "This witness holds that the record openly names church failures, including clergy corruption seen from inside and Christian violence against Christians, both dealt and suffered." | after: "This witness holds that the record openly names church failures, including clergy corruption seen from inside and wounds Christians dealt one another, which the community both gave and took." | why: Corrected text says the community "used the church's power against Christians" and "dealt some and took some"; the only violence in it (burned out of buildings) was suffered, so "violence ... dealt" overreached.
+- hal.story.desert-romances | use_note.means | before: "Jerome's hagiographic romances of Malchus and Hilarion, evidence of what this world imagined formation could look like and not of events." | after: "Jerome's lives of Malchus and Hilarion, which show what this community imagined a formed life could look like; whether each event happened is left open." | why: the story's corrected `tellable_as` and text make no claim that the events did or did not happen, and the vendored Malchus text calls the life a "history of chastity"; "romances" and "not of events" stated more than the record's Inferential-Thin confidence.
+
+**Checked and left as they were, by request.** `hal.dw.church-failure`'s scorpion wording is not in its means (the change above concerns the violence wording only), and `hal.story.attack-416` (the means speaks of the women's lost report and does not say they wrote a letter), `hal.quote.detestable-monks` (the fasting claim stays with the crowd).
+
+Status: CLOSED.
+
+## OG-23. Atlas story pass: shorter story, nine card stories with tellings, highlights, 2026-10-17.
+
+The project lead asked for each built tradition's Atlas story to run four to five minutes, with the other episodes moved into stories on the card. He approved the Bethlehem Circle story and card list, then the tellings, then a sample recording. `orientation.story` is now 9 units and 691 words, down from 11 units and about 1,150 words. `documented_stories` shows nine story records in date order. Each of those records gained a `telling`, which the card shows and plays. `orientation.highlights` adds 17 short notes; place notes cite Pleiades for modern locations (checked 2026-10-17). Episodes cut with no story record of their own stay in their records: Fabiola and the Portus hostel, Palladius's counter-account, the Hebrew-fluency question, and family resistance to Paula's leaving. Review: `Build/Ministry/Operations/Audits/hal_atlas_story_pass_review_round1_2026-10-17.md` (PASS). Package rebuilt and repinned: `packages/hal/2026-10-17T13-45-54Z`, `manifest_hash` `sha256:f9ca759df95602a5ce7717a7f084083bf83e8f560fd84dde8617866202a63641`. This pin supersedes the previous one. The story and the nine tellings were recorded in the existing voice.
+
+**Open:**
+- The package change makes the next promotion's admission stale. The project lead rules on that run.
+
+## OG-24. Record disagreements found during the Atlas story pass, 2026-10-17.
+
+The pass followed the more cautious record in each case and changed no record. Each needs a ruling on which wording is right:
+- `hal.story.ciceronian-dream` gives `use_note.years` 384 to 384, while `hal.quote.a-follower-of-cicero-and-not-of-christ` locates the dream in the illness of 374. The card dates the dream about 374, told in a letter of 384.
+- `hal.story.paula-epitaph` `use_note.not_for` asks for a closing acknowledgment that her own voice was not kept. Under the project lead's ruling on add-on endings, the telling opens with it instead; he approved that telling on 2026-10-17. The record's wording should follow.
+- `hal.contested.paula-jerome-relationship` gives Paula nineteen years at Bethlehem, while `hal.figure.paula` gives 386 to 404. The story gives no count.
+- `hal.quote.no-one-preferred-to-the-seventy` text has Augustine grant that the Jews call Jerome's work faithful, while its lens note says he "gives away every point". The story follows the quote text.
+- `hal.figure.marcella` bridge_line calls the Aventine household a circle before Jerome came, while `hal.force.marcella-household` rates a multi-woman household as a modern reconstruction. The story and note follow the force record.
+
+Status: OPEN for the project lead.
+
+## OG-25. Other world_front sections keep AI tells and "this world" wording, 2026-10-17.
+
+The Atlas story pass touched only the story, the card stories and the highlights. `voices` and their hedges, `floor_note`, `legacy`, `relations_summary`, `sourcing`, `read_first` and `narrative.who_speaks` still use "this world" wording and dash asides. The same holds for the Alexandria and Cappadocia records.
+
+Status: OPEN for the project lead to schedule.
+
+## OG-26. Atlas final-check fixes, 2026-10-17.
+
+Three independent readers checked the live page (reviews `Build/Ministry/Operations/Audits/fleet_atlas_final_check_*_2026-10-17.md`). The project lead approved every blocking and should-fix finding, with three rulings: a tradition's own voice hedges emically ("we cannot be sure"), never with "scholars"; old-translation Wittenberg quotes are told as reported speech for now; House Churches keeps its "we" voice throughout.
+
+Fixed: the tile now says no one held a bishop's office (not any church office), attributes Marcella's standing to Jerome, and no longer claims everything comes through Jerome's pen; tile rhythm, build wording and long highlight notes trimmed. No record changed.
+
+Status: CLOSED for this review.
+
+The same two claims in the census copy (`cic-website/data/world-census.json`, `index.html`, `atlas-v3.html` and the tradition page) were corrected in the recheck: Marcella's standing is now attributed to Jerome.
+
+## OG-27. Unclear honest-limit endings, 2026-10-17.
+
+Fleet sweep (project lead ruling, 2026-10-17): honest-limit sentences that put the object first and ended on a bare verb, so the ending did not say what is unknown. Each now puts the subject first and ends on what is not known. Wording and facts are the records' own; nothing was added.
+
+- `records/hal/story/hal.story.day-at-monastery.md`: "Which psalms they sang, and how the two houses shared their worship, no one wrote down, or nothing that was written survived." -> "Either no one wrote down which psalms they sang and how the two houses shared their worship, or nothing that was written survived."
+
+Status: CLOSED for this review.
+
+## OG-28. Voice-craft record still cites the registry's role_label, 2026-10-20.
+
+Mark's ruling of 2026-10-20 removed the Representative's role label from the registry, the compiled packages, the Facilitator's welcome and the site. `records/hal/voice_craft/hal.voice.craft.md` (line 64) still says Albina's naming is "true to the registry's role_label in spirit without restating it recognizably". The field no longer exists, so the sentence points at nothing. A voice-craft record is a canonical record and goes through its own review, so it was not edited in the removal. It needs a reworded line that keeps the naming-collision ruling without the field.
+
+Status: OPEN.
+
+## OG-29. Live-reply claim check, 2026-10-19.
+
+Opus claim check of the six recorded 13 October live replies (`engine/m4/reports/live-turn-report-hal-2026-10-13-eleven-world-test.json`) against this world's records and the vendored texts. Counts: 43 own-voice, 2 outsider's account, 8 unsupported, 0 unverified. Reviewer findings, not yet re-confirmed. Record defects, logged and not edited:
+- `records/hal/doctrinal_witness/hal.dw.suffering.md` lines 48 and 56 ("grief itself honored, never condemned as unbelief") are contradicted by Jerome's Letter 39 ("unbelieving tears").
+- `records/hal/world_core/hal.core.hieronymian.md` lines 44 to 45 and `records/hal/voice_craft/hal.voice.craft.md` line 25: the fasting comparison carries no source.
+- `records/hal/doctrinal_witness/hal.dw.record.md` line 29 ("the Hebrew we held truest") conflicts with the term record's ban on presenting the principle as the world's consensus.
+- `records/hal/honest_limit/hal.limit.f5-women-own-words.md` line 28 states Epistle 46 authorship as settled; `hal.contested.ep46-authorship` forbids that.
+
+Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md`.
+
+Status: OPEN.

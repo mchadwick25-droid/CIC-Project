@@ -1,0 +1,32 @@
+source_file: hoby_diary-1599-1605_meads1930.txt
+
+assignments:
+  - row_id: hoby_diary-1599-1605_meads1930--diary-of-lady-margaret-hoby-1599-1605
+    work: "Diary of Lady Margaret Hoby, 1599-1605 (B.M. MS. Egerton 2614)"
+    author: hoby
+    locus: "the diary itself from the heading THE DIARY (B.M. MS. Egerton 2614) at file line 3349 to the last surviving entry at about line 13269; Meads's introduction (line 351) and notes (after the diary) are editorial"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: assigned
+    note: >
+      The earliest known diary by an Englishwoman: a godly Yorkshire
+      gentlewoman's daily record of private prayer, sermon repetition,
+      reading, household work and conscience, 1599-1605, in her own
+      spelling. Primary voice, ready to quote once verified against the
+      scan; the OCR is clean. The census names this diary as a
+      first-tier source for the world.
+  - row_id: hoby_diary-1599-1605_meads1930--diary-of-lady-margaret-hoby-1599-1605-2
+    work: "Diary of Lady Margaret Hoby, 1599-1605 (B.M. MS. Egerton 2614)"
+    author: hoby
+    locus: "the diary itself from file line 3349 to about line 13269"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: context
+    confidence: provisional
+    note: >
+      A conforming parishioner's record of Elizabethan church life as
+      lived (sermons, the lecture, public prayers, the sacrament) in the
+      years of the settlement. Placed on window and place; the diary was
+      read for its Puritan devotional practice, not for its view of the
+      establishment, so the fit for this entry is provisional.

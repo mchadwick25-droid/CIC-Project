@@ -136,3 +136,46 @@ def test_network_of_keeps_ipv4_mapped_addresses_apart_as_their_ipv4():
     from engine.api.ratelimit import network_of
 
     assert network_of("::ffff:1.2.3.4") == "1.2.3.4" != network_of("::ffff:5.6.7.8")
+
+
+def test_rotating_ipv6_addresses_inside_one_block_shares_one_create_limit(store, usage_store, world_loader, registry):
+    client = _app(rate_limit=True, store=store, usage_store=usage_store, world_loader=world_loader, registry=registry)
+    _, max_creates = CREATE_LIMIT
+    codes = [
+        client.post("/api/session", json={"world_key": "fix"}, headers={"x-forwarded-for": f"2001:db8:1:2::{n + 1:x}"}).status_code
+        for n in range(max_creates + 1)
+    ]
+    assert codes[-1] == 429
+    other_block = client.post("/api/session", json={"world_key": "fix"}, headers={"x-forwarded-for": "2001:db8:1:3::1"})
+    assert other_block.status_code == 201
+
+
+def test_messages_that_will_only_be_screened_and_refused_have_their_own_tight_limit(store, usage_store, world_loader, registry):
+    from engine.api import wiring
+    from engine.api.ratelimit import REFUSED_MESSAGE_LIMIT
+
+    client = _app(rate_limit=True, store=store, usage_store=usage_store, world_loader=world_loader, registry=registry)
+    created = client.post("/api/session", json={"world_key": "fix"}).json()
+    headers = {"Authorization": f"Session {created['session_code']}"}
+    url = f"/api/session/{created['session_id']}/message"
+    too_long = "a" * (wiring.MAX_MESSAGE_LENGTH + 1)
+    _, max_refused = REFUSED_MESSAGE_LIMIT
+    codes = [client.post(url, headers=headers, json={"text": too_long}).status_code for _ in range(max_refused + 1)]
+    assert 429 not in codes[:-1] and codes[-1] == 429
+    assert client.post(url, headers=headers, json={"text": too_long}).json()["detail"] == RETRY_DETAIL
+    assert client.post(url, headers=headers, json={"text": "Who was Origen?"}).status_code == 200
+
+
+def test_the_refused_message_limit_is_ten_a_minute():
+    from engine.api.ratelimit import REFUSED_MESSAGE_LIMIT
+
+    assert REFUSED_MESSAGE_LIMIT == (60.0, 10)
+
+
+def test_bound_network_of_counts_an_ipv6_home_as_one_and_leaves_the_rest_alone():
+    from engine.api.ratelimit import bound_network_of
+
+    assert bound_network_of("2001:db8:1:2::1") == bound_network_of("2001:db8:1:ff:ffff::9") == "2001:db8:1::/56"
+    assert bound_network_of("2001:db8:1:100::1") != bound_network_of("2001:db8:1:2::1")
+    assert bound_network_of("::ffff:203.0.113.9") == "203.0.113.9"
+    assert bound_network_of("203.0.113.9") == "203.0.113.9" and bound_network_of("unknown") == "unknown"

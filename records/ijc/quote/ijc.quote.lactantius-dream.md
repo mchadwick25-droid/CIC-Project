@@ -22,10 +22,9 @@ text: Constantine was directed in a dream to cause the heavenly sign to be delin
   shields the letter Χ, with a perpendicular line drawn through it and turned round thus at the top,
   being the cipher of Christ.
 modern_rendering: >-
-  In a dream, Constantine was told to have the heavenly sign drawn on his soldiers'
-  shields, and so to go into battle. He did as he had been commanded. He marked on their
-  shields the letter Χ, with a vertical line drawn through it and bent round at the top
-  like this — the cipher of Christ.
+  Constantine was told in a dream to have the heavenly sign drawn on his soldiers' shields, and so to
+  go into battle. He did as he had been commanded. He marked the letter Χ on their shields, with an
+  upright line drawn through it and bent round at the top, like this. It was the monogram of Christ.
 speaker_or_author: "Lactantius, De Mortibus Persecutorum"
 license: verbatim
 modern_lens_note: >-

@@ -12,8 +12,9 @@ Thumbs.db
 *.swp
 *.swo
 
-# Claude Code local config (machine-specific, never shared)
-.claude/
+# Claude Code machine-local config (never shared); .claude/settings.json and .claude/hooks/ are shared project config
+.claude/settings.local.json
+.claude/*.local.*
 four_checkpoints_2026-08-09.log
 variance_probe.log
 cross_world.log

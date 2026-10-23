@@ -17,6 +17,7 @@ relations: []
 author: S. Y. Rudberg
 work: Scholarship on the manuscript families and growth of Basil's letter collection
 edition: In-copyright modern scholarship, not vendored
+citation: S. Y. Rudberg, on the manuscript families and growth of Basil's letter collection
 kind: unvendored
 rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed

@@ -1,0 +1,32 @@
+source_file: cranmer_miscellaneous-writings-and-letters_cox1846.txt
+
+assignments:
+  - row_id: cranmer_miscellaneous-writings-and-letters_cox1846--miscellaneous-writings-of-thomas-cranmer
+    work: "Miscellaneous Writings of Thomas Cranmer (the Confutation of Unwritten Verities; the Preface to the Bible, 1540; the Homilies of Salvation, Faith and Good Works; the visitation articles of 1548 and 1550; the Answer to the Fifteen Articles of the Devonshire Rebels, 1549; the Examination before Brokes, 1555)"
+    author: cranmer
+    locus: "contents from file line 159; 'Confutation of Unwritten Verities' from line 945; the Preface to the Bible from line 12171 ('PROLOGUE OR PREFACE'); 'HOMILY OF SALVATION' from line 12935; the Answer to the Devonshire rebels from line 16010 ('FIFTEEN ARTICLES OF THE REBELS, DEVON, ANNO 1549'); the Examination at Oxford before Brokes from line 20499"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: tradition
+    confidence: assigned
+    note: >
+      The Prayer Book's author in his own prose outside the liturgy: the Bible
+      preface that told the ploughman to read, the 1549 answer to the Devon and
+      Cornwall rebels who wanted the Latin mass back ("O ignorant men of
+      Devonshire and Cornwall"), the Oxford examination of 1555. Primary voice,
+      ready to quote once verified against this file.
+
+  - row_id: cranmer_miscellaneous-writings-and-letters_cox1846--letters-of-thomas-cranmer
+    work: "Letters of Thomas Cranmer, 1533-1556"
+    author: cranmer
+    locus: "from file line 22261 (heading 'LETTERS'; the first letter, 'I. TO THE RIGHT HONOURABLE, AND MY SINGULAR GOOD LORD', at line 22273), numbered through the prison letters; the Latin record of his process follows in appendix"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: tradition
+    confidence: assigned
+    note: >
+      Cranmer's letters to Cromwell, Henry VIII, the Council and Edward's
+      ministers, with the letters from prison to Queen Mary and to a lawyer
+      friend: the archbishop's working and private voice across the whole
+      Henrician and Edwardian change. Primary voice, ready to quote once verified
+      against this file; Cox's marginal source references are noisier in the OCR.

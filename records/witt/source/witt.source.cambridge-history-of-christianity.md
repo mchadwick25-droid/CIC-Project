@@ -17,6 +17,7 @@ relations: []
 author: n/a -- no individual author named for this work in the Source Registry row
 work: Cambridge History of Christianity
 edition: vol. 6, ch. 1 "Martin Luther, reformer" (Hendrix), ch. 2 (Brady), ch. 4 (Lehmann)
+citation: Cambridge History of Christianity, vol. 6, ch. 1 "Martin Luther, reformer" (Hendrix), ch. 2 (Brady), ch. 4 (Lehmann)
 kind: unvendored
 rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
 attribution_status: anonymous-or-institutional (no individual author named in the Source Registry row)

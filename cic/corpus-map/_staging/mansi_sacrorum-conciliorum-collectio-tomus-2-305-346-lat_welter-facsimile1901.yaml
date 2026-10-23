@@ -1,0 +1,40 @@
+source_file: mansi_sacrorum-conciliorum-collectio-tomus-2-305-346-lat_welter-facsimile1901.txt
+
+authors_ruled:
+  council-of-arles-314:
+    kind: anonymous
+    evidence: 'Mansi tom. 2 prints "CONCILIUM ARELATENSE" as a council text (file line 430: canons, synodal letter to Silvester); no individual author is named.'
+  council-of-nicaea-325:
+    kind: anonymous
+    evidence: 'Mansi tom. 2 prints "CONCILIUM NICAENUM GENERALE" as a council text (file line 599: creed, canons, synodal letter, Constantine letters, subscriptions); no individual author is named.'
+
+assignments:
+  - row_id: mansi_sacrorum-conciliorum-collectio-tomus-2-305-346-lat_welter-facsimile1901--council-of-arles-314-in-mansi-tom-2
+    work: "Council of Arles (314): canons and synodal letter, in Mansi tom. 2"
+    author: council-of-arles-314
+    locus: "heading CONCILIUM ARELATENSE at file line 430; syllabus entries at file lines 439-500"
+    atlas_ids:
+      - donatism
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch. The Latin acts of the council that heard the Donatist
+      appeal after Rome 313. Latin and Greek conciliar collection in the 1901 Welter
+      facsimile of the 18th-century edition; long s rendered as f in the OCR, so quotations
+      need the page image.
+  - row_id: mansi_sacrorum-conciliorum-collectio-tomus-2-305-346-lat_welter-facsimile1901--council-of-nicaea-325-in-mansi-tom-2
+    work: "Council of Nicaea (325): creed, canons, synodal letter, Constantine's letters and the subscriptions, in Mansi tom. 2"
+    author: council-of-nicaea-325
+    locus: "heading CONCILIUM NICAENUM GENERALE at file line 599; syllabus 'Symbolum Concilii' and 'Canones xx. Niceni' at file lines 624-626"
+    atlas_ids:
+      - imperial-juridical-christianity
+      - alexandria-catechetical
+    role: context
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch. The whole-collection witness to the Nicene documents in
+      Greek and Latin with the editors' dissertations; the volume also carries Ancyra,
+      Neocaesarea, Gangra, Antioch, Tyre 335, Jerusalem 335, Rome 341 and Antioch 341.
+      Verify every quotation against the page image (long s as f; Greek column recovery not
+      checked line by line).

@@ -7,9 +7,11 @@
  * authoritative. A server that answers with plain JSON is handled the same
  * way, with no sentences.
  */
+import { noteShelved } from './accounts';
 import { codeHeaders, currentCode, freeLeftFromHeader, remainingFromHeader, reportBalance, reportFreeLeft } from './deeper';
 import type { CreateSessionResponse, MessageResponse, TableMessageResponse, TranscriptResponse, WorldListResponse } from '../types/conversation';
 import type { StreamedSentence } from './streamedReply';
+import { internalField } from './ours';
 
 const API_BASE = '/api';
 
@@ -59,7 +61,7 @@ function participantMessage(status: number, detail: string): { message: string; 
     // own promise ("try again in a moment") instead of leaving only
     // "Leave for now" (see App.tsx's isEmbedded handling of
     // onRestart/onEnd).
-    return { message: "This world's records are briefly unavailable — try again in a moment.", recoverable: true };
+    return { message: "This Christian tradition's records are briefly unavailable — try again in a moment.", recoverable: true };
   }
   return { message: "That didn't go through. Try again in a moment, or begin a new conversation.", recoverable: false };
 }
@@ -102,12 +104,14 @@ export async function createSession(worldKey: string): Promise<CreateSessionResp
   const response = await fetch(`${API_BASE}/session`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', ...codeHeaders() },
-    body: JSON.stringify({ world_key: worldKey }),
+    body: JSON.stringify({ world_key: worldKey, ...internalField() }),
   });
   if (!response.ok) {
     throw new ApiRequestError(response.status, await readErrorDetail(response));
   }
-  return response.json();
+  const created: CreateSessionResponse = await response.json();
+  noteShelved(created.shelved);
+  return created;
 }
 
 // 2-3 distinct world keys convene a table session (Artifact-7 SS1/SS6) -
@@ -116,12 +120,14 @@ export async function createTableSession(worldKeys: string[]): Promise<CreateSes
   const response = await fetch(`${API_BASE}/session`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', ...codeHeaders() },
-    body: JSON.stringify({ world_keys: worldKeys }),
+    body: JSON.stringify({ world_keys: worldKeys, ...internalField() }),
   });
   if (!response.ok) {
     throw new ApiRequestError(response.status, await readErrorDetail(response));
   }
-  return response.json();
+  const created: CreateSessionResponse = await response.json();
+  noteShelved(created.shelved);
+  return created;
 }
 
 // The participant's own deletion request: the server removes the
@@ -130,6 +136,72 @@ export async function deleteSession(sessionId: string, sessionCode: string): Pro
   const response = await fetch(`${API_BASE}/session/${sessionId}`, {
     method: 'DELETE',
     headers: { ...authHeader(sessionCode) },
+  });
+  if (!response.ok) {
+    throw new ApiRequestError(response.status, await readErrorDetail(response));
+  }
+}
+
+export type FlagReason = 'fact_wrong' | 'source_mismatch' | 'overcertain' | 'unclear';
+
+export type TurnFeedbackBody =
+  | { kind: 'like'; turn_index: number; sentence_index: null; reason: null; text: null; email: null }
+  | { kind: 'flag'; turn_index: number; sentence_index: number | null; reason: FlagReason; text: string | null; email: string | null };
+
+export type QuoteConsent = 'no' | 'anonymous' | 'first_name';
+
+export interface ExperienceFeedbackBody {
+  kind: 'comment';
+  page: string;
+  text: string;
+  quote_consent: QuoteConsent;
+  first_name: string | null;
+  email: string | null;
+}
+
+export type PageReportReason = 'accuracy' | 'craft';
+
+export type PageFeedbackBody =
+  | { kind: 'like'; page: string }
+  | { kind: 'report'; page: string; reason: PageReportReason; text: string; email: string | null };
+
+// A like or a flag on one stored turn, authorised by the session code.
+export async function sendTurnFeedback(sessionId: string, sessionCode: string, body: TurnFeedbackBody): Promise<void> {
+  const response = await fetch(`${API_BASE}/session/${sessionId}/feedback`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', ...authHeader(sessionCode) },
+    body: JSON.stringify(body),
+  });
+  if (!response.ok) {
+    throw new ApiRequestError(response.status, await readErrorDetail(response));
+  }
+}
+
+// A comment about the experience; needs no session.
+export async function sendExperienceFeedback(body: ExperienceFeedbackBody): Promise<void> {
+  const response = await fetch(`${API_BASE}/feedback`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  });
+  if (!response.ok) {
+    throw new ApiRequestError(response.status, await readErrorDetail(response));
+  }
+}
+
+// The id a page-level like or report names its page by: letters, digits and
+// / _ . : - only, at most 120 characters.
+export function pageFeedbackId(prefix: string, keys: string[]): string {
+  const id = `${prefix}:${keys.join('-')}`.replace(/[^A-Za-z0-9/_.:-]/g, '-');
+  return id.length <= 120 ? id : prefix;
+}
+
+// A like or a report on a whole page; needs no session.
+export async function sendPageFeedback(body: PageFeedbackBody): Promise<void> {
+  const response = await fetch(`${API_BASE}/feedback`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
   });
   if (!response.ok) {
     throw new ApiRequestError(response.status, await readErrorDetail(response));

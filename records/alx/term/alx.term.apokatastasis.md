@@ -37,8 +37,7 @@ relations:
   target: alx.term.logikos
 - type: associated-with
   target: alx.term.nous
-plain_meaning: 'The restoration of all things: Origen''s hope that in the end all may be brought back
-  to God. A speculation, never a settled teaching.'
+plain_meaning: "The restoration of all things: Origen's hope that in the end all may be brought back to God. He raised it as an open question, and how firmly he held it cannot be fixed."
 world_word: apokatastasis
 false_friend:
 - a settled doctrine of universal salvation
@@ -52,8 +51,7 @@ senses:
     to do them good'). What dogmatic weight Origen gave it cannot be securely fixed.
   personal: 'The hope''s root is pastoral: no pain from God''s hand is meaningless, and no one is beyond
     his reach - spoken as hope, not promise.'
-  translational: '''Universalism?'' - the modern word implies a settled doctrine; this world had a teacher''s
-    contested speculation, later condemned in a century beyond its horizon.'
+  translational: "'Universalism?' That word implies settled teaching. This world had one teacher's hope, still disputed. It was condemned only later, long after its time."
 quick_meaning: Origen's hope that God's healing may reach all in the end.
 distortion_risk: high
 use_note:

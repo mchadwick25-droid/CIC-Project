@@ -20,6 +20,7 @@ sources: []
 author: "Sulpicius Severus (c. 363-425), Aquitanian ascetic and Martin of Tours' biographer"
 work: "Chronica (The Sacred History), completed c. 403 - a world chronicle from creation to 400, used here for the Priscillian affair of 385: the first execution of Christians for heresy by a Christian state, and the division it opened among the bishops"
 edition: "trans. Alexander Roberts, Nicene and Post-Nicene Fathers ser. 2 vol. 11 (1894), vendored as cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (Sacred History div2 at line 6915; the Priscillian narrative from line 11463, the Martin passage at 11649)"
+citation: Sulpicius Severus, Chronica (The Sacred History), trans. Alexander Roberts, Nicene and Post-Nicene Fathers, series 2, vol. 11 (1894)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed
@@ -50,14 +51,6 @@ a promise from the emperor, and the executions followed once he had
 gone. Ithacius, the bishop who had brought the accusation, withdrew from
 the capital trial when he saw what it would cost him among his
 colleagues, and a treasury advocate was appointed in his place.
-
-THIS IS THE COUNTER-CASE TO THE CORRECTION OF THE DONATISTS, and this
-world now holds both. Augustine argues that the church may use the
-state's coercive power against schismatics; Martin argues thirty years
-earlier that it may not use it at all in a matter of doctrine, and the
-bishops split over it. A world about church and empire that carried only
-one of those arguments would be making a case rather than showing a
-period.
 
 WHAT IS NOT DRAWN FROM THIS FILE HERE. Sulpicius' Life of Martin and the
 Dialogues, in the same volume, carry their own Priscillian material

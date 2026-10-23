@@ -1,0 +1,4150 @@
+Title: Synod Brzeski: namowa posłów Króla J. M. i obrona Synodu Brzeskiego (The Synod of Brest: the address of the King's envoys and the Defence of the Synod of Brest), a reprint of the 1597 text
+Creator: Piotr Skarga, S.J. (the 1596-1597 text); reprinted with a preface signed L. Rzepecki, Poznan, 5 March 1874 (file lines 66-69)
+Publisher: Poznan: printed and sold by Tytus Daszkiewicz; L. Rzepecki
+Publication Date: 1874
+Rights: Public Domain (published 1874, more than 95 years before 2026; the Internet Archive item's rights field reads 'Public Domain')
+Language: pol
+Source: Internet Archive item rcin.org.pl.WA248_275734_F-5641_skarga-synod_o_240101, file WA248_275734_F-5641_skarga-synod_o_djvu.txt, fetched directly (curl, raw bytes) by the library/source-research thread (Era VII session, second pass, VI.20 world agent), 2026-10-23; host rights statement: the item's rights field reads 'Public Domain' (collection polishpublicdomain, contributor Library of the Institute of Literary Research PAS, mirrored from rcin.org.pl document 240101); the rights basis is also the 1874 imprint, read in the dated preface in the OCR (file line 66)
+Provenance note: Header prepended; the OCR text follows unchanged (no characters altered, nothing retyped, dropped or corrected; the file contains 0 long-s glyphs; the OCR's doubled spaces between words are left as scanned). Rights basis restated: a book printed at Poznan in 1874, reprinting a text of 1597, is public domain in the United States by date under the 95-year rule. File line numbers cited in this header are counted in the OCR text alone, before this header: add 10 to find a cited line in this file.
+Content note: Order in the file: Rzepecki's 1874 preface (to file line 303, with a note on Skarga's writings at the end of the volume, about file line 4100), then the reprint of Skarga's Synod Brzeski (SYNOD BRZESKI, file line 304, the account of the synod of October 1596 and the royal envoys' address, 'Namowa Posłow Krola I. M.' at file line 470) and the Obrona Synodu Brzeskiego (OBRONA, file line 1301, the Defence against the Orthodox counter-synod), with the original pagination kept in the margins. The same two texts are in the vendored Russkaia istoricheskaia biblioteka vol. 7 (russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt), where the Polish is badly garbled; this file is the clean Polish witness. OCR sampled at five points: readable Polish with scattered stray characters and some old-spelling forms kept. A nineteenth-century reprint, not the 1597 print; check quotations against the page images.
+---
+RE KET е TE 
+el PAE ора 
+
+
+zy 
+
+
+Е а z zm a ać i, ет Nié, „wszak ci to о р бы LA SANA 
+-szych kart tój żywej epopeji, co choć się już tak długo pisze, to jednak dziś zaledwie 
+до jedenśstej dopisanś księgi, księgi czerwonój, w której najpiękniejszć wspomnie- 
+53 nid wiary, zapału, sławy i dumy naszćj przeszłych wieków, w dziwną splotły się 
+_ całość z nieopisanym cierpieniem, poniżeniem; ledwie że nié zwątpieniem i TOZpa= гу. 
+
+_ czą teraźniejszości. 
+2 Składam tu do rąk Czytelnika åkt i obronę Uniji, prówda, że nić tak 
+głośnej, jak lubelska, lecz w każdym razie akt wielki, który się jednym może 
+= zdá Pandory puszką, drugiému być Kadmejowym szyszakiem, w rzeczywistości zaś był | 
+
+
+umową mimowiednégo poświęceniń i poniewolnégo trzywiekowógo konanid, trzy- 
+dniowej politycznej śmierci, po której, jak Bóg na niebie, nadejdzie, ba, już nadchodzi, 
+blizkić nam tak 121514) zmartwychwstanić i wcielenić się idei większej, szczytniejszćj, 
+płodniejszej od wszystkich, co kiedykolwiek dotąd nasz Wschód ożywiały. 
+
+Lecz nić wzmágájmy ogni i tak już może zbytnio roznieconych. 
+zł Wydaję ponownie Synod Brzeski, ráz jako dokument historyczny, wá- 
+my zaprawdę, jeżeli według świadectwa Kuleszy piórwszć jego wydanić z roku 159760 
+we dwa tygodnie wykupiła schizmą. Mimo drugiégo wydaniń w roku 1600, dziś 
+już bardzo rzadki, dobrze, gdy dokument ten przypomni się przynajmniej tej czę- 
+ści narodu, którń nić jęczy pod schizmy cenzurą. 
+
+Akt to dalej i społeczno-politycznej doniosłości, bez niego trudno bo- 
+
+
+wiém znóleźć klucz do dzisiejszych krwawych wypddkéw w Dyecezyji Chełmskiej, 
+
+
+do zaślepionćj złości prześladowców, do bohatyrstwa cierpiących. Oby te kartki 
+niemć zechciał ożywić wielki duch Rahozy, i jak przemówił do serca X. Metropo- 
+lity Sembratowicza, tak wreszcie skutecznie zakołátáł i do sprzedanych sumnień Ju- 
+
+
+_ daszów-Popielów i całej niemśl góry и $. Jura, nam zaś, dalekim od męczeńskićgo 
+
+
+theatrum, powiedział, gdzie nasze posłannictwo, gdzie śmierć lub zwycięztwo nasze. 
+Маш nadzieję, że Synod u kaznodziejów i literatów polskich nównię mi- 
+1650 dozná przyjęciń, jako utwór nieśmiertelnćgo Piotra Skargi Pawęskiegó: 816 s 
+wielkiej gwiazdy na firmamencie narodowćj teologiji, apostolstwa i sławy. 
+Żeby go ostatecznie i lingwistom, gramatykom, a nawet biblomanom 
+
+
+uczynić powabnym, to z wyjątkiem tym, że szwAbdche zastąpiłem antykwą i króskę 
+
+
+z a jasnégo przeniósłem na pochylonć, zrobiłem wydanić to tak dalece wiernym od- 
+biciem wydaniń z roku 1600, przyłączonćgo do Kdzdń przygodnych, jiz surona na 
+stronę, wiersz na wiersz, litera рада na literę, a więc z zachowaniem wszelkich włó- 
+ściwości oryginału. 
+
+
+W tym też celu, iżeby nić przerywać toku, przypiski wszelkić sA a> 
+na końcu przedruku. 
+
+
+W Poznaniu dnia 5. Marca 1874. 
+
+
+L. Rzepecki. 
+
+
+http://rGih.org.pl 
+
+
+nosi nastepny tytuł w ани 
+azdnid о Siedmi Sakramentach Kostiola 4 tint а Do kory SĘ sq. T 
+dane Кагата Przygodne, о rozmaitych ndbożeństwach wedle czasu, jek task чурі 
+sany na przodku Hagelin, Czynione y napisane od X. и SAR Z 
+
+
+_ La dozwoleniem Starszych. Cum Gratia et Priutlegio. мее te 
+
+
+W Drukarniey Andrzeia оаа Roku Pańskiego Se ae 
+ай niejednégo ciekawym. | 5 
+Leży przedemną eksemplirz będący własnością ks. Franc. Хау. Malinowskićgo. | Ж 
+
+
+Karta tytułowa obwiedzion ramą 16stu obrazków (drzeworytów). Те przedstawiają 
+
+
+w czterech rogach czterech Ewangielistéw, a mianowicie: 1) górą w lewo jest ś. Łukósz, 
+2) w prawo 5. Mateusz, dołem 3) z lewój 6. Marek, 4) s prawej ś. Jan. W górze między 
+Ewangielistami, od lewd począwszy, 5) narodzenić, 6) obrzezanić Pana Jezusa, 7) korono- 
+wanić N. M. Panny, dołem podobnie trzy: 8) spowiódź, czyli Sakrament Pokuty 5. (ksiądz 
+w konfesyjonśle i szlachcie spowiadający się), 9) król Dawid klęczący, nad nim aniół z obłoku 
+się spuszczający i ofiarujący mu miecz, palmę i jabłko; 10) Chrystus wskrzeszający Łazarza. 
+Pod ś. Łukńszem z góry па dół, 11) 6. Piotr apostół, pod nim, 12) Zwiastowanić N. М. 
+Pannie i 13) jakiś Święty s księgą w ręku obok stósu drew gorejącego. Pod ś. Mateu- 
+szem, 14) $. Paweł apostół, niżćj, 15) Адогасуја Trzech Króli i i 16) jakiś Święty z topor- 
+kiem na ramieniu. 
+
+Na odwrotnéj karcie tytułowój wielki herb koronny 0 4ch tórczach, ze snopem na 
+5tój tórczy Srodkowéj, herbem Wazów. 
+
+Karta druga, czyli strona 3еја, zawièrá dedykacyją Zygmuntowi Imu, pisaną w W ar- 
+szawie w dzień Nowégo Lata 1600., a obejmującą stron cztery: Ма stronie 5téj 
+drugié ofiarowanić, i to Wysoce narodzonómu Panu Jędrzeiowi Boboli z Piaskow, 
+Sekretarzowi Króla Jego Mil, stron dwie, Następnie na stronie 9tćj przemowa Do 
+Czytelnika Łaskawógo, па 104) Regestr kazań w tych księgach, na 12stdj 
+Errata. 
+
+Wszystkie dotychczasowć strony są bez liczb, i dopiero odtąd strony | liczbowanć, 
+poczynając od liczby 1. Po Кахашасћ o Siedmi Sakramentach jidą te którć się do 40g0- 
+wa ją odnoszą nabożeństwa, dalej rozmajite przygodne, osiem sejmowych, o miłosierdziu, 
+о. w£% dusznémi nieprzyjacioly, pogrzebne trzy, nadto na pogrzebie Anny Jagiełówny, 
+Аппу z ‘Rakus. o śmierci, o sądzie po śmierci do strony 430, poczym O mękach piekiel- 
+nych, o chwśle i radości niebieskiej, i kazanie krótkić o Męce Pańskiej, do strony 442. 
+Strony 431 do 442 w tym eksemplarzu wydartć zupełnie. Kończy się wszystko Regestrem 
+rzeczy przednieyszych w tych kózanińch kart 4. 
+
+Za tym Regestrem dopiéro rozpoczynń się dołem nowá paginacyją, a b с itd., górą 
+zaś ciagnie dali. od strony 444 tak, że praw strona książki, czyli przedniń strona karty, 
+wyjątkowo cyfrę tę pźrzystą 444 na sobie nosi, i kończy na stronie 529, tj. na niepa- 
+rzystćj. Będzie to błąd typograficzny, chyba żeby Krótkić kazanié o Męce Pańskiej 
+kończyło się na 443ciéj. W dodźtku tym mieszczą się: 
+
+1, Upominanie do Ewangelików у innych Niekatholików, z strony Zboru krako- 
+wskiego, zburzonego Roku Pańskiego 1591. y przestrogą do Katholików 0 za- 
+chowaniu się z nimi (do str. 467), 
+
+Proces na Confeederacia (468 do 503), 
+Synod Brzeski (504, dołem Л, do 511) i wreszcie 
+Obrona SOA Brzeskiego (522, dołem 2, do 529)... 
+
+
+пега rae 
+
+
+> 
+
+
+http://rci n.org.pl 
+
+
+Chociaż to wydanić nić jest таван он to jednak | jego bibliograficzny mote рые : 
+
+
+Wstęp historyczny. 
+
+
+Dla zrozumienia dziejów Synodu Brzeskiego słów kilka: 
+Ta jest różnica między Kościołem katolickim, zachodnim, a schizma, że tamten pro- 
+о wadzi do wolności, ta do absolutyzmu. 
+
+Kościół katolieki zgodzi się na każdą formę rządu, byle s tym rządem był Chry- 
+stus, a rząd s Chrystusem. Rzeczpospolita Equador może z równą swobodą pracować 
+nad urzeczywistnieniem Królestwa Bożego na ziemi, jak jedynowładne cesarstwo Karóla 
+Wielkiego, konstytucyjna monarchijia Burbonów, lub Polska krélewsko-duchowno-szlache- 
+ска. Schizma wolności znićść nie może, bo wolność, wszakże to przedewszystkim wolność 
+
+
+sumnienia, a w cóżby się obróciły uchwały petersburskiego Synodu, gdyby tylko było wolno | 
+
+
+porzucić prawosławie? 'Tym się tłumaczyła dążność bizantyńskich Cezarów, żeby mióć po- 
+słuszne duchowieństwo na swoje rozkazy, a z nim i umysły i sumnienia ludu w ciągłćj 
+trzymać niewoli. 
+
+
+Wzrastające ze strony Turków niebezpieczeństwo, którzy europejskie wschodnich ce- _ 
+
+
+sarzów posiadłości coraz to ciaśniejszym otaczali pierścieniem, zdawało się zbliżać Carogród 
+do Rzymu, a Emanuel Paleolog i syn Jego Jan poczynili w tym względzie kroki tak 
+stanowcze, że tylko spór Soboru bazylejskiego s papieżem 了 ulogiuszem wykonanie jich 
+zamiarów utrudniał. Wreszcie wyznaczył Papież sobór powszechny do Ferrary (8 stycznia 
+1438), a gdy ten do Florencyji przeniesionym został, stanęli tamże sam cesarz Jan Pa- 
+leolog, Józef, patryarcha carogrodzki, Bessarion, metropolita nicejski, i kilkunastu jin- 
+nych. Że Polska sprawę tę gorąco popierała, dowodem tego, jiż z ziem jéj ruskich po- 
+ciągnął do Florencyji Izydor. metropolita Rusi, s pocztem 100 osób wyższego duchowień- 
+stwa. Nareszcie stanął w dniu 6 lipca r. 1439g0 akt uniji podpisany ze strony unitów 
+przez cesarza Jana, trzech patryarchów i siedemnastu metropolitów. 
+
+Nie podobało się jednak Opatrzności, żeby już wtenczas pomódz do zupełnego ро- 
+godzenia się dwóch kościołów. W Konstantynopolu wnet przyszło do odstępstwa, Mos- 
+kwa uwięziła Izydora, powracającego w godności papiezkiego legata, a nawet w Polsce, 
+gdzie następca Izydora, Grzegórz Bułharyn, metropolita kijowski, pozostał w wierności dla 
+Rzymu, i gdzie dnia 19. Kwietnia r. 1443go Władysław III. wszystkie prawa grecko-uni- 
+ckiego kościoła potwierdził, równając go zupełnie z katolickim, gdzie nawet Ormianie 
+z kościołem powszechnym się połączyli, jeszcze całych 156 lat czekać było trzeba na rze- 
+czywistą i szczórą, a co ważniejsza, skuteczną zgodę. 
+
+Powody do tego były rozmajite: Moskwa wiedziała, co to znaczyło, poddać się pod 
+powagę Rzymu; było to dla nićj to samo, co abdykować z ambitnych swych celów 
+i rozpłynąć się w cywilizacyji europejskićj. Patryarchat carogrodzki, choć pod jarzmem ma- 
+hometańskim, ale chciwy zawsze pieniędzy-na okup godności, także pieniędzmi sobie zdoby- 
+wanćj, święcił na Rusi biskupów, jilu tylko mógł, byle zarobić dużo, byle nie utracić 
+wpływu coraz wiecéj nadwątlonego. A choć Moskwa sama wyzwoliła się z pod wpływu 
+carogrodzkiego, nie to jednak nie pomogło uniji; przeciwnie, odtąd z dwóch stron, od.pół- 
+nocy i z południa razem była kuszoną. 
+
+Z drugićj strony śmierć Władysława Шоо, dwuletnie bezkrólewie, słabe rządy Ka- 
+zimiérza Jagiellończyka, obojętność wyższego katolickiego duchowieństwa, wnoszone do kra- 
+ju herezyje, schizmatycki bunt Glińskiego, ustawiczne porozumiewania się i konowania 
+władyków ruskich ze schizmatycką Wołoszą, wszystko to sprawiało, że unija florencka po- 
+szła w zapomnienie, i żadnych trwałych po sobie nie zostawiła śladów. 
+
+Czego jednak nie zrobiły władze, to zrobiła miłość. Panowie ruscy. widząc, że 
+choć schizmatycy, jednak najwyższe w kraju posiadają godności, zetknąwszy się na dwo- 
+rze królewskim z obrządkiem zachodnim, poznawszy na zachodzie większe światło, maje- 
+stat większy i wykwintniejszy obyczaj, zgorszeni poniekąd wichrzeniem :tych со z Witem- 
+
+
+bergi przynosili zarazę, chcąc niejako wspólnéj ojczyznie przysporzyć pociechy, kiedy starsi « 
+
+
+synowie serce jéj i wnętrzności tylko ranić umieli, pociągnięci łagodnemi rządami dwóch 
+Zygmuntów, przechodzić poczęli na katolicyzm, uprzedzając tym samym sam fakt uniji, 
+z drugićj strony przygotowywanćj sis pd gm ruskie duchowieństwo, Do tak „nawróconych 
+
+
+http cin.org:pl SB E 
+
+
++ 
+
+
+liczym па AR Wiśniowieckich, байо, Zbaroskich, Olelkowiczów, Stuckich, 
+
+
+Koreckich, Tyszkiewiczów, Ostrogskiego Janusza, a za nimi cały tłum krewnych, klien- _ we 
+
+
+tów, dworzan, popleczników. 
+
+
+Nie mało przyczyniły się do tego i usiłowania Jezuitów, których nawróceni panowie 
+
+
+ruscy, zapraszali na misyje, a którym ks. Piotr Skarga dostarczył dzielnéj broni ducho- 
+уќ), napisawszy w roku 1577. ważne na one czasy dzieło O jedności Kościoła. _ 
+| Mimo tak dobrze przygotowaną rolą, ziarno misyji ше byłoby może jeszcze długo 
+zeszło, gdyby nie zdarzenie całkiem przypadkowe. Ta sama chciwość carogrodzka, która 
+dotąd uniji przeszkadzała, dziś zrządzeniem Bożym przyśpieszyła jéj dokonanie. — 
+Jeremijasz, patryjarcha carogrodzki, wypędzony z krajów sułtana Amurata, przy- 
+szedł w r. 1588. do Polski, gdzie na metropolitę wyświęcił niejakiego Michała Raho zę, 
+męża szlachetnego rodu, niegdyś ucznia Jezuitów. Gdy mu wszakże tenże. Rahoza nie zło- 
+żył zato żądanego haraczu, poszedł Jeremijasz do Moskwy, gdzie Jobowi, moskiewskiemu 
+
+
+patryarsze, odstąpił swego nibyć prawa zwiórzchnictwa nad Rusią, mianując go рада 
+
+
+całćj Rusi, i to odtąd zupełnie niepodległym żadnemu jinnemu zwićrzchnictwu. 
+
+Politycznym następstwem tego mianowania, gdyby było miało zostać uznanym przez 
+Polskę, byłoby poddanie wszystkich schizmatyków polskich pod wszechwładne rządy Joba, 
+a raczéj samego Borysa Godunowa. 
+
+Zrozumieli to światlejsi Rusini, zrozumieli zwłaszcza dwaj arcybiskupi, tak zwani 
+władycy, Hipacy Pociej i Cyryl Terlecki. 
+
+Pierwszy mianowicie z nich, syn Lwa Pocieja, podskarbiego wielkiego litewskiego, 
+za młodu dworzanin Zygmunta Augusta, następnie kasztelan brzeski, po śmierci żony r. 
+1590. otrzymał episkopat włodzimićrsko-brzeski, i nie mógł zapomnićć swojich dawnych 
+z legatem Kommendonim stosunków; dla tego razem z Terleckim, władyką łuckim, skło- 
+nił Rahozę do synodu w Brześciu na dzień 24, Czerwca r. 1590. Nie był to jeszcze 
+synod ów powszechny i główny, ale wstępny tylko, tak jak i drugi jeszcze, i trzeci do 
+Lwowa r. 1593. i do Łucka tegoż roku, a wreszcie czwarty, znowu do Brześcia, na dzień 
+2. Grudnia r. 1594. zwołane. Na tym ostatnim przyszło do ostatecznego porozumienia, 
+tak że zaraz roku 1595. Pociej i Terlecki pojechali do Rzymu. Tam od Klemensa ХШ. 
+z radością przyjęci, otrzymawszy przyrzeczenie, że w obrządkach i w symbolu wiary ża- 
+dne zmiany nie zajdą, że nawet kalendarz grecki zachowanym będzie, przywieźli z wielką 
+Rzymu i сајеј Rusi radością опе zgodę, co wszystkie ciosy przetrwała, * nawet i polityczny 
+Polski upadek. 
+
+Na potwierdzenie téj zgody wyznaczono dzień 6. Października 1596. roku, i jego to 
+opis daje nam ksiądz Skarga. Pod nazwą wojewody kijowskiego rozumić się książę K on- 
+stanty Ostrogski, który, jak dawniéj gorliwie uniją popierał, tak zobaczywszy, że się 
+bez niego dokonała, teraz nagle gwałtownym jéj stał się przeciwnikiem. W +6) chwili, 
+gdy dwa wielkie Kościoły, dwa szczepy słowiańskie, łączyły się w sojusz duchowy, on za- 
+więzywał stosunki ze wszystkimi dyssydentami Korony i Litwy i z Niceforem, kanclerzem 
+Jeremijasza, który do niego się schronił, z dwoma nadto biskupami, którzy do uniji nie 
+przystąpili, Bałabanem lwowskim, i Kopystyńskim, przemyskim władykami; a zje- 
+chawszy się z nimi także do Brześcia, zebrał niechętnych w tamtejszym zborze kalwińskim, 
+otworzył parodyją anty-synodu i wyklął unitów, co jim ci znowu odpłacili na odwet, 
+skutkiem czego Zygmunt III. schizmatykom odebrał zajmowane przez nich posady. 
+
+Tyle do zrozumienia Synodu nadmieniwszy, dalszych uniji losów już nie dotykamy, 
+jako należących do dziejów, a nie do chwili, którą X. Skarga opisuje. Ciekawszych od- 
+syłamy do małćj popularnéj książeczki z Wydawnictwa ks. Bażyńskiego pod tytułem: Ru- 
+sin, Moskal i Polak, czyli Kościół Unicki a Schizma, Poznań, czcionkami i w komisie 
+Tytusa Daszkiewicza. W nićj znajdzie czytelnik krótki i treściwy obraz dziejów ko- 
+ścioła ruskiego aż po dzień dzisiejszy. 
+
+
+7. agi ја a: 
+
+
+1504. | 
+
+
+SYNOD BRZESKI. 
+
+
+21 A Metropolit) Kijowski, 
+EYJA YOy Halicki, у wszytkiey 
+Ruśi, Michał Rahoza: Hipacyus Proto- 
+tron Włodźimirski y Brzeski: Cyrillus 
+Terlecki, Exarcha Lucki*) у Ostrowski: 
+Hermohen Archiepiscop Połocki y Wi- 
+tepski: Jan Hohot Piński y Turowski: 
+Dyonizy Zbieroski, Chełmski y Bełski, 
+Wiadykowie abo Episcopi obrządku 
+Greckiego, w Brześćiu na dźień Sy- 
+nodu naznaczony 6. dnia Oktobra, we- 
+dle starego Kalenddrza, Roku P. 1596. 
+maiąc przy sobie posły przeświętego 
+Оуса Klemensa osmego, Papieża Rzym- 
+skiego: Przewielebne oyce, Jana Dy- 
+mitra Solikowskiego Arcybiskupa Liwo- 
+wskiego, Bernata Maćieiowskiego Lu- 
+ckiego, Stanisława  Gomolińskiego 
+Chełmskiego, Biskupy: za pozwoleniem 
+Nśiaśnieyszego Zygmunta  Trzećiego, 
+Krola Polskiego y Szwedzkiego, etc. 
+Pana naszego Miło. Y za wiadomo- 
+śćią y pozwolenim J. M. X. Arcybi- 
+skupa  Gnieznieńskiego, _ Stanisława 
+Karnkowskiego, iako Prymasa w tym 
+Krolestwie, y nawyzszego*) w duchowień- 
+stwie przełożonego. 
+
+Odprawiwszy zwyczayne modli- 
+twy у wzywaniń Ducha $. dźień ieden 
+do zaczęćiń Synodu na posły К. J. M. 
+czekali, 414 tego nawięcey, iż niektorzy 
+panowie świeccy z wielką liczbą zbroy- 
+nych, iako до woyny przyiachawszy, 
+y czas Synodu vprzedźiwszy, postrachy 
+у pogrożki oycom zgromadzonym czy- 
+nili. Aż dnia drugiego w dźień Czwar- 
+tkowy ziechali się Posłowie K. J. M. 
+Oswięcony Mikołańy Chrysztof Radźi- 
+wił Xiąże na Ołyce y Nieświeżu, Wo- 
+iewoda Trocki: Jaśnie Wielmozny 
+Leo Sapiha*) Kanclerz: y Dymitr Cha- 
+lecki Podskarbi W. X. L. Starosta 
+Brzeski: ktorych przewielebni oycowie 
+
+
+Gromadzeni w i- 
+mię Chrystusa Jezusa | |] 
+Pana y Boga naszego, 
+przewielebni Oycowie, 
+
+
+Biskupi zaraz prośili, aby władzą Kro- 
+a J. M. z powinnośći swey, na ktorą 
+posłani są, opatrzyli pokoy, iakoby bez 
+rozruchow, y wrzaskow, y hukow, y po- 
+strachow, wolno duchowne swoie spra- 
+wy odprawić mogli. 
+
+Nie mieszkaiąc Jch M. panowie 
+Posłowie, z J. M. panem Woiewodą 
+Kijowskim mowili, żałuiąc się na to, iż 
+nad obietnice swoie, nad rozkdzanie 
+Krola J. M. y nad prośbę swoię, kto- 
+rą mało przedtym, śląc do Warszawy 
+do K. J. M. pana Malińskiego, czynili, 
+z taką gromadą ludźi woiennych, y z 
+taką kupą heretykow, ktorym żadnego 
+mieysca na tym Synodzie nie dáno, у z 
+taką liczbą popow prostych у mało го- 
+zumnych, więcey poddanych swoich, 
+ktorzy do Synodu nie пега, przyia- 
+chali. Nakoniec przywiedli ludźie z so- 
+bą wywołane y postronne, wszytkiey 
+Rzeczyposp: podeyrzane, z obcych nie- 
+przyiaćielskich państw. Sprawuiąc się 
+J. М. pan Woiewoda Kijowski, у do 
+pokoiu y zgodnego traktowania obie- 
+{пісе vczynił,*) prosząc, aby się na kondy- 
+cye spokoynego Syno du namowili. 
+
+Z tym odszedszy*) Jch M. panowie 
+Posłowie do Jch M. X. Biskupow, o 
+kondycyach pókoiu Synodalskiego z ni- 
+mi rozmówiali. Putgodziny nie wy- 
+szło, gdy im dáno znać, iż koło iakieś z 
+swym Marszałkiem, od zgromadzeniń 
+ludźi rożnych religiy, posły swoie do 
+Metropolita z poselstwem wyprawili, 
+у iuż ie w domu oyca Włądyki Wło- 
+dźimirskiego sprawowali. Szli zardz 
+Jch M. panowie Posłowie K. J. M. 
+do Metropolity, y tam zastali one po- 
+sły: a pytaiąc się od kogo у z czym po- 
+słani są: dowiedźieli się iż z karty czy- 
+tali takie słowa, ktoremi Metropolita”) 
+ganili iż z Rzymiany przestaie, iż się z 
+nimi nie porozumidwszy Synod złożył, 
+iz im do Siebie przystępu nie dół, nie- 
+chcąc nic o tym Synodźie wiedźieć, y 
+posłuszeństwo Metropoli¢ie wypowie- | 
+
+
+daiąc, czym 
+
+
+daiąc, czym mu gorszym groźili, to iest 
+wyklinanim*) у złożenim z stolice Me- 
+tropolickiey. Co vsłyszawszy Jch M. 
+panowie Posłowie K. J. M. szli do J. 
+M. pana Woiewody Kijowskiego, py- 
+taiąc go iesli o tym poselstwie wie, y co 
+za kartę tam czytano, y co Metropoli- 
+《ie powiedźiano. Przyznał się do wszy- 
+tkiego, iż przy tymże stoi, y z wolą iego 
+wszytko się dźiśło. 4 
+
+Zatym żałować się na J. M. po- 
+częli, iż kondycye spokoynego Synodu 
+namawiać przyzwolił, a Synod wszy- 
+stek poselstwem takim z strony swey 
+rozrywa; у onym pogźrdzą, iż pierwey 
+pogrożki Władykom czyni, niżli spra- 
+wy słuchá, iz sobie przećiwne schadzki 
+
+i, zakázane prawem pospolitym, 
+gdyż koła żadnego у Marszáłkow w nich 
+czynić się nie godźi, iedno na porząd- 
+nych Seymikach: iż to iest z vbliżenim 
+dostoynośći K. J. M. ktory posły swe 
+tu wyprawił, aby Marszdtkami byli, a 
+pokoy Synodu opatrowali: iż się wda- 
+ле w rzeczy duchowne, człowiek świe- 
+cki Synodmi rządząc, ktoremi y sam 
+Krol J. M. rządźić niechce, ani się go- 
+dźi: gdyż to iest samych duchownych 
+własny sąd, nie iako na Seymach, gdźie 
+świeccy rzeczy świeckie odprawuią. A 
+co naćiężey у nagrubiey, iz Metropoli- 
+ta z swemi towarzyszmi chce składać, y 
+
+
+Ako wszyscy rozumni ludźie ko- 
+
+so chaia się w zgodźie у iednośći, 
+ktora jest wszytkiego dobrego ma- 
+
+_ tka: tak у Krol J. M. ród był tey 
+nowinie, ktorą do J. K. M. przed trze- 
+ma laty od oyca Metropolity у Włądy- 
+kow wszytkich zgodnie, у od wás dwu, 
+od W. M. oycze Władyka Lwowski, у 
+od W. M. oycze Władyka Przemysłki, 
+iako podpisy ręku waszych własnych 
+pokazuią, przynieśioną była: iż podda- 
+ni K. J. M. Greckiey religiey, ziedno- 
+czyć się chcą z Katholikami, y do gło- 
+wy y Pasterza kośćioła wszytkiego przy- 
+
+
+505. Synod Brzeski. 
+
+
+Namowa Posłow Krola I. М, do oddżielonych w Brzesciu, ktorzy 
+Synod S. rozrywać chcieli, 
+
+
+takie pogrożki czyni, "czego się i Krol| 
+J. M. ktory sam iest patronem у poda-| - 
+
+
+wea, wszytkich Wiadyctw, bez rozsąd- 
+ku duchownych nie waży. Co iest nie 
+tylo przećiw BOgu, przećiw nauce 
+Chrześćiańskiey, przećiw prawu, prze- 
+ćiw rozumowi, przećiw kanonom oy- 
+cow Świętych: Ale i przećiw dostoyno- | 
+śći Krola J. M. y inemi*) słowy do ba- 
+czeniá lepszego przywodząc J. M. pana 
+Woiewodę. 
+
+Jeszcze mieli nadźieię Jch M. pa- 
+nowie Posłowie, iż się miało do dobre- 
+go przywieść, gdy im też зат J. M. 
+pan Woiewoda słowną taką otuchę 
+czynił. У na tym on dźień Czwartko- 
+wy strówili. W Piątek zaś zeszli się y 
+prośili Jch M. panowie. Posłowie Je- 
+go M. pana Wojewody Kijowskiego, 
+aby mowić mogli z temi duchownemi 
+y świeckiemi z iego strony, iesliby kto- 
+rzy byli religiey Greckiey, spodźiewa- 
+iąc się vpamiętaniń ich. Tedy z po- 
+śrzodku swego obrali niektore pany 
+Szlachty heretyckiey, aby z nimi Ji 
+M. panowie Posłowie K. J. M. mo- 
+wili. У gdy się zeszli, prośili pano- 
+wie Posłowie aby przy tym byli dwa 
+Упадукоме, Przemysłki у Lwowski, 
+ktore tam do Siebie poćiągnęli. У przy- 
+szli obadwa z kiląnaśćie popow, у tam- 
+że taką namowę do nich czynili. 
+
+
+stąpić, odszczepieństwa y odstępstwa 
+nowym Grekom y Patryarchom Caro- 
+grodzkim daley pomagać niechcąc. Do 
+czego Krol J. M. żadnych im па- 
+mow nie czynił, a daleko mniey, niko- 
+goż żadnym у namnieyszym obyczaiem 
+nie przymuszół. Lecz temu barzo”) тад 
+był, iż takim ziednoczeniem wiary wie- 
+lom się ludźiom do zbawienia pomoc, '') 
+у chwóła się Boża rozszerzyć, у zgoda a 
+iedność, ktorą krolestwa stoią, w pań- 
+stwach J. К. M. vmocnić'?) się miała. 
+
+Wiedźiśł też о tym К. J. M. iż o ta- 
+ką iedność przed kiląnśśćie lát starat się 
+
+
+J. M. pan 
+
+
+о“. 
+
+
+Synod Brzeski. 
+
+
+J. M. Pan Woiewoda Kijowski, ktory 
+tu z nami беда, u Grzegorza 13. Phpie- 
+ża, przez X. Possewina, *) aby mi szczęśli- 
+wie wykonać mogła. Pomniśł też na 
+to, iż przodkowie K. J. M. Krolowie 
+Polscy, taką jedność iuż byli, po Con- 
+cilium Florenckim, w tych państwach v- 
+czynili. ktorą ochotnie јако rzecz świę- 
+tą y zbawienną ożywić y odnowić, ma 
+sobie za wielką P. Bogu у К. P.'*) posła- 
+gę. Y gdy daley rzeczy poszły, a posło- 
+wie oycow Włádykow z Rzymu się wro- 
+Gili: prośił barzo pilnie Jego M. Pan 
+Woiewoda Kijowski, y na Seymie prze- 
+szłym, Krola J. М. o ten Synod tera- 
+Źnieyszy, obiecuiąc do tey zgody pomoc. 
+Co. Krol Jego M. vczynił. y gdy ieszcze 
+nań odwłoki czasu prośił, y sim mieysce 
+to y czas namienił: y z tego się K. J. M. 
+wymowić nie róczył. 
+| A gdy czas ten nadchodźił, posłał 
+
+J. M. Pan Wojewoda, przed kilą nie- 
+dźiel, z iną szlachtą Wołyńską do Kro- 
+la J. M. pana Мабіеја Malińskiego, 
+
+pana Lawryna Drywińskiego, dźię- 
+
+iąc Krolowi J. M. za złożenie Sy- 
+nodu, a prosząc о te cztery rzeczy. 1. Ná- 
+przod, aby nikt zbroyno na ten Synod 
+у z ludźmi żołnierskiemi nie iachół, a 
+| pokoy у beśpieczeństwo na nim dla wol- 
+nośći namow całe było. 2. Druga, 
+aby każdemu tam wolno było przyiachać, 
+choć rożnych маг ludźiom. 3. Ab 
+tam na Synodźie być mogł Nikifor'5) 
+
+Greczyn, ktory z Rożwanem w Woło- 
+szech poimany, z więźienia Choćimskie- 
+go zamku vćiekł. 4. Jesliby się nie 
+zgodźili na Synodźie, aby się z tą ro- 
+mica па Seym walny Koronny убес 
+mogli. Na co, y na pismie ktore pod 
+pieczęćią vkazuiem, daná im iest taka 
+odprawa od Krola J Na pierw- 
+szą prośbę nie tylo К. J. M. zezwala, 
+ale ią roskazuie, y dla tego posły tam 
+swoje wysyła, aby się wszytko spokoynie 
+y z wielką wolnośćią duchownych Sy- 
+nod odprawił. Wtorey rzeczy nie po- 
+zwolił Krol J. M. gdyż Synod złożon 
+iest na zgodę Grekom z Katholika- 
+mi, iako iest na Vniwersdle. Trzećiey 
+także prośby Krol J. M. odmáwiáł, 
+oznaymuiąc co to za Nikifor, iako do 
+Wołoch Rozwana przywiodł, у z Tur- 
+ki się porozumiewal, na szkodę wszytkie- 
+go krolestwą y Rzeczyp: z ktorym za- 
+
+
+śiadać y społki iakie mieć żadnemu się 
+nie godźiło. Qzwśrtey także Krol Je- 
+go M. nie dopuśćił, daiąc znać iż 10524 
+iest rzecz Synod, a inszą Seym, na kto- 
+rym duchowne rzeczy mieysca ani 24- 
+dnych sądow nie maią. 
+
+Temu wszytkiemu widźimy barzo 
+nierządne sprzećiwienie. Bo 6i co pro- 
+Sili o Synod, pierwey niżli się zaczął, 
+Synodu odstąpili, y niewiemy iakim 
+duchem przyiachaliśćie tu W. M. w ta- 
+kich pocztach pieszych y iezdnych, cze- 
+gośćie się sami zarzekli, y podpis wasz, 
+to iest szlachty Wołyńskiey, na ktorą tu 
+patrzym, przez pana Malińskiego przy- 
+nieśiony, vkazuiemy. Kogoż tym woy- 
+skiem straszyć chcećle? Jakoż słowu 
+swemu у przystoynośći dosyć ezyni¢ie? 
+Na namowę braterską nie na woynę 
+tuśmy się ziechali: na Synod, nie na 
+nieprzyiśćielskie granice: na zgodę nie 
+na zwady. Jesli Biskupy у: Władyki у 
+ine duchowne odstraszyć chcećie, od wol- 
+nego wotowani у sądow ich duchow- 
+nych: tego wam nie dopuśćim, a my 
+pirwey za wielebne oyce nasze vmrzem. 
+My na słowo у prośbę waszę spuśćiw- 
+szy się, z pokorąsmy iako do kośćioła 
+WAZA wiedząc iż na Synody gdźie 
+
+uch 6. rządźi, a wielebni у święći 
+Biskupi słudzy Boży zaśiadaią, takiego 
+үпіхепі&, do пмейдеша prawdy у po- 
+koiu kośćioła Bożego, . potrzeba. Le- 
+piey wżdy było о to nie prośić о czy- 
+meśćie nie myślili, a nas nie zawodźić, 
+gdyśćie o pokoy prosząc iako na woynę 
+przyiechali. 16) 
+
+Y dufaiąc swoiey gromadźie y go- 
+towośći, ani rozmówiaiąc, ani dyspu- 
+tuiąc, ani nakoniec pytaigc, schadzkę- 
+śćie sobie, у zaraz schismę у oddźielenie 
+uczynili, y Seymik niedozwolony prze- 
+ćiw prawu zebrali, Marszałka na nim 
+obieraiąc, a na zwierzchność Krola 
+J. M. nie pamiętaiąc, ktory tu nas na 
+to posłać raczył, abysmy porządku y 
+pokoiu przestrzegaiąc, vrząd Marszół- 
+kowski odprawowali. Przypuśćiliśćie do 
+śiebie nie tylo rożnych wiar ludźie, 
+ale у ludźie wywołane у na czći pokara- 
+ne. A co ieszcze gorzey, tey gromady 
+swey vczyniliśćie głową Nikifora Gre- 
+czyna, tak podeyrzanego u Krola J. M. 
+ktory nie dawno z wiezienid vćiekł, y o 
+zdradę Korony wszytkiey, y porozumie- 
+
+
+nie się z Tur- - 
+
+
+507. Synod Brzeski. 
+
+
+nie się z Turki, у z inszemi nieprzyiśćio- 
+ły koronnemi, obwiniony iest. ktory 
+sprośnie przećiw Krolowi J. M. mie- 
+dzy wami bluźnił, czegoby mu żaden 
+z W. M. ćierpieć nie mid. 
+
+Przetoż ta schadzka wasza nie tylo 
+Synodem się zwać nie może, ale ani 
+Seymikiem szlacheckim, na ktorym się 
+z pozwoleniem Krola J. M. zbieraią. 
+y zwać się inaczey nie może, iedno sprze- 
+ćiwieniem vrzędom od Boga postano- 
+wionym, y samym nieposłuszeństwem. 
+ktory grzech do bałwochwalstwa Pi- 
+smo 6. przyrownywa. Metropolit Sy- 
+nod złożył, nie Nikifor, ani Balaban, 
+ani Kopistyński: nie w domu heretyc- 
+twem pomazanym, ale w Cerkwi abo 
+w Kośćiele Synodom mieysca są. Wzgar- 
+dźiliśćie przełożonemi swemi ducho- 
+wnemi wam od Boga danemi, у przez 
+posły swoie posłuszeństwo im wypo- 
+wiadacie, у onych z stolice у dosto- 
+ieństw ich składśćie : skąd taka moc ko- 
+śćielną у krolewską przywłaszczać so- 
+bie możecie? Ludźieśćie zacnośći świe- 
+ckiey iako у my. Zódney kapłańskiey 
+mocy i iurisdycyey '7) bez vporu wielkiego 
+y zuchwalstwa przywłaszczać sobie nie 
+możećie. Synod iest własny duchow- 
+nych sądow trybunał, na ktorym świe- 
+ckie żadne, y krolewskie nakoniec dosto- 
+ieństwo, władzy żadney nie ma, у iako- 
+smy słyszeli iż wasz Grecki S. Athanasius 
+Cesarza Constancyusa, ktory się w są- 
+dy Synodalskie Biskupić wdawał, An- 
+tychrystem nazwśł, gromiąc go aby 
+swe miasta у zamki у krolestwa rządźił, 
+a w sprawach kapłanom od Boga po- 
+ruczonych żadnego sobie sądu nie przy- 
+czytół. A iesli to mowił wszytkiego 
+świata Monarsze; coby mowił ktoremu 
+z W. Mezi? 
+
+Sam Krol J. M. Włádyki podaie 
+јако nawyższy ich patron: ktoby ie bez 
+iego wiadomośći y porządnego vrzędu 
+turbować chćińł, mocby sobie więcey 
+niżli krolewską przyczytół. Hieremias 
+Patryarcha gdy tu był, a Włádyki od- 
+mieniać chćiáł, dozwoleniń К. J. M. 
+na to ргоѕй. A W. M. poddanemi Kro- 
+la J. M. będąc, у żądney barwy mocy 
+duchowney nie maiąc, tak się vpornie 
+|na regalia К. J. M. targać, у Włądyki 
+| składać chcećie? Pamiętayćie na co się 
+zawodźićie y drugie przy sobie. 
+
+
+Wielkie na starsze swoie, Metro-| _ 
+
+
+polita у Włádyki grzechy ktadzie¢ie! 
+Zgody, prawi, chcą, y iednośći Chrze- 
+śćiańskiey szukaią, z Laéinniki się po- 
+rozumiewaią, Patryarchę Carogrodzkie- 
+go opuszczają, у (ФА tego dostoień- 
+stwa y mieysca swoie tracą. Jesli to 
+grzech niezgodne iednać ,. miłość Chrze- 
+śćiańską spaiać, pokoy kośćioła Chry- 
+stusowego vmacniać, у duszom do zba- 
+
+
+wienia pomagać: toé-odplata у cnota |. 
+
+
+wielką będźie, rosterki miedzy braćią 
+siać, suknią Chrystusową rozdźierać, 
+iedność vczniow iego targać, y wszy- 
+tkiego złego za niezgodę przyczyną być. 
+To wy sobie podobno chwślićie. A co 
+na świećie Bogu milszego, у ludźiom у 
+Rzeczomposp:  pożytecznieyszego być 
+może, iako iedność, zgoda, y miłość 
+spolna? А ona zwłąszcza ktorą nam 
+Chrystus testamentem swoim zalećił, у 
+roskazół, у pogroźił iesli iey mieć nie b 
+dźiem, abysmy się vezniami iego nie 
+zwali. Nie może być zwany ani Chrze- 
+śćianinem, ani vczniem Chrystusowym, 
+kto od zgody y iednośći ćiała y kośćioła 
+Chrystusowego убека, abo się o ше 
+сіле może nie stará. 
+
+A my Katholicy, czemusmy wam 
+tak brzydcy, iż o ziednoczenie z nami 
+tak się barzo na swe starsze gniewdcie? 
+Gdyby się z heretyki 'ziednoczyli, y do 
+ich potępionych błędow przystali, po- 
+dobnobyśćie im dźiękowali. Pytać się 
+wżdy pierwey było, czemu to czynią, a 
+od Patryarchy Carogrodzkiego odstę- 
+рша. Powiedźieliby wam z Pisma Ś. у 
+z Oycow SS. Doktorow wschodnych 
+у zachodnych, у z Kánonow у prawidt 
+świętych soborow, y z pism waszych Ru- 
+skich, iż zbawion być nikt nie może kto 
+w iednośći kośćielney nie zostaie. iż Pio- 
+tra Ś. y potomki iego vczynił P. Bog 
+pasterzem wszytkich owiec swoich, kto- 
+rego kto nie słucha, owcą Chrystusową 
+nie jest: iż od początku kośćioła $. у od 
+Apostołow Rzymski Biskup iako Pio- 
+tra Ś. potomek, miał у má zwierzchność 
+na wszytkiego świata kośćioły. y daliby 
+
+
+wam takie dowody, na ktorebyśćie po- |- 
+
+
+wiedźieć nic ше vmieli. у teraz gotowi 
+są to wam pokazać, iesli się w tę rozmo- 
+wę z naszemi duchownemi y dysputa- 
+cyą wdać chcećie, oto oni gotowi y tu 
+niektorzy na to z nami przyszli. 
+
+
+A iż Ca- 
+
+
+: _А iż Carogrodzkich Patryarchow 
+Włódykowie odstępuią; słusznie to czy- 
+nią. Bo oni od Boga у prawdy у iedno- 
+śći Kośćioła Bożego odstąpili, a do 
+niey się przywieść niechcą, abo 414 Tu- 
+reckiey niewoli nie mogą. Dlá nich gi- 
+nąć, a zgody y iednośći Chrześćiańskiey 
+niechćieć, byłaby. wielkń niezbożność y 
+głupstwo. Ta Patryarchiń Carogrodz- 
+КА у inne, iako iest zepsowand, poniżo- 
+
+| па, у od Pana "Вова przeklęta, skąd 
+inąd dowiedźieć się mozecie. To pe- 
+wnie wie¢ie, iż żaden na niey bez święto- 
+kupstwa nie śiedźi, każdy mieysce ono 
+v Turka kupić muśi, kogo Turek po- 
+święćić na ше każe, ten ono mieysce 
+mó. A nie każe aż dobrze zapłaći. у ta- 
+kim obyezaiem żaden tam prawym у 
+prawdziwym Patryarchą nie iest. Bo 
+wedle praw Bożych y kośćielnych, swię- 
+tokupca y Simoniacus traći y pienią- 
+
+|dze, y dostoieństwo kośćielne ktore ku- 
+pił. Takie przeklęctwo má ta Patryar- 
+chiń, iż z niey ieden drugiego pieniądzmi 
+przesadzaiąc spycha, у drugdy '®) żywych 
+Patryarchow będźie trzey abo czte- 
+rzey, у ona oblubienica má trzech mę- 
+żow, cudzołożnica z cudzołożniki mie- 
+szkaiąc. Duchowni tey Patryarchiey, 
+Czerncy y Humienowie vstawicznie się 
+Turczą y besurmanią, y po krainach 
+cudzych się włocząc Chrześćiany wy- 
+daią y zdradzaią. Tu do Ruskich kra- 
+iow zachodzą, pieczęći sobie od Patry- 
+archow fałszuiąc, gdźie ieszcze y Złotni- 
+ki, co im w tym służyli, żywe naydźie, y 
+inych wiele przeklęctw, za wyklinanim 
+Papieskim у mocą kośćielnych kluczy 
+Piotrowi Ś. danych, na nie padło, za 
+| grzech ich odszczepieństwa у vporu, od 
+ktorego nie vćiekać a ich naśladować, 
+wielkaby była o zbawieniu У) niedbałość. 
+Starszy waszy у sami о sobie у о wás ra- 
+dzą, nie do złego wam drogę vkazuią, 
+ale do zbawieniń wiecznego, ktore bez 
+zgody y iednośći kośćielney być nie mo- 
+że. O czym szerzey duchowni waszy”°) was 
+nauczyć chcą. My się na to przed Bo- 
+giem na was żałuiemy,?') iż sobie na star- 
+
+sze wasze moc y sądzenie przyczytać, a 
+
+nie przesądzone?) potępiać chcećie. Obo- 
+
+1223) rzecz tak niesłuszną у niesprawiedli- 
+
+wś, iż samym tylo tyraństwem у sedy- 
+
+cyą?*) nazywać się má. 
+A zwłószcza gdy wás widźimy, że- 
+
+
+h iij 
+
+
+Syn od Brzeski; 
+
+
+śćie prawie wszyscy, od wielkich począ- 
+wszy, iney religiey ludźie, a Greckiego 
+nabożeństwa nie tylo nie zazywadie, a- 
+le ie burzyćie i Cerkwie puste zostawia- 
+iąc, do Nowochrzczeństwa y inych błę- 
+dow vdawać się nie boićie. Za co iesli 
+się wy karać nie dopuśćićie, a Confede- 
+racyą się bronićie, aby nikogoż о wiarę 
+nie penowóno :25) iako ine karać cheećie, 
+y 0 to ie z vrzędow składać, ktorzy nie 
+do herezyi iako wy, ale do podpory -pra- || 
+wdy y źrzodła czystego nauki Chrystu- 
+sowey idą? Azaż tu nie przećiw swey 
+własney Confederacyey czynićie? wám 
+to nie wadźi, iż Greckiey religiey odstę- 
+puiecie: a onym wadźić ma iż Grecką 
+religią vmńcniaią, taką iednośćią nic 
+nie odmieniaiąc, ani w wierze oycow 
+Grekow starych, ani w ceremoniach y 
+służbie kośćielney, y zwyczaiach nabo- 
+gnych kośćioła wschodnego. iakoż ie о 
+to karać chcećie, a sami o swoie odstęp- 
+stwa karania żadnego ćierpieć niechce- 
+бе? Oni są starszy waszy, oni by wás ka- 
+rać o złą naukę y herezye mieli. Bo im 
+samym to zlecono iest, oni są pasterze a 
+wy owce, oni przełożeni a wy poddani: 
+z ich ust naukę wim Рап Bog brać, у 
+posłusznemi być iako starszych roskázáł. 
+
+Przetoż prośimy wroććie się do bá- 
+czeniń y rozumu, a temu Synodowi nie 
+przeszkadzaiac, у tych schadzek niepo- 
+rządnych zaniechawszy, podźmy wszy- 
+всу do Cerkwie, słuchńymy iako о zba- 
+wieniu naszym starszy naszy radźić bę- 
+dą. Oni za раз liczbę P. Bogu dadzą, 
+a my się na ich nauce nie omylim. bo ma- 
+ią przy sobie obiecanego od Chrystusa 
+nauczyciela у mistrza prawdy Ducha 8. 
+maią оуса 5. Pasterza wszytkiego świa- 
+ta, у Piotra 5. błogosławieństwo y 
+zwierzchność, maią święte y vezone 
+Biskupy, maią starożytność Greckich 
+Doktorow, y wszytki wywody prawdy. 
+Nie rozumieyćie abysmy się tu na sta- 
+nowienie nowey wiary ziachali, aby co 
+nowego 12146 się tą vniją**) miało. ZAd- 
+ney odmiany od starego Greckiego y 
+Laćińskiego kośćioła nie wnośim, zgo- 
+dy chcemy, miłośći chcemy. 
+
+А wy mizerni dwa Władykowie, у 
+Popowie wszyscy, iako swego złego nie 
+widźićie? iako się z heretyki kupićie, у 
+w ich nie tylo radźie przećiw pismu y 
+woli Bożey śiedźićie, ale rządow ich у 
+
+
+namow słu- 
+
+
+namow słuchaćie, y posłuszeństwo im 
+niebacznie oddaiećle? Niechcąc star- 
+szych prawowiernych słuchać, błędni- 
+Кох") stucha¢ie: słusznym skśraniem Bo- 
+skim, gdy prawdy nie przyimuiąc, fáł- 
+szom wiarę daiećie. Wielkie z nich má- 
+бе przyiaćioły, ktorzy wam w samym 
+Nowogrodzkim  Woiewodztwie, iako 
+wiadomość iest, sześć set у pięćdziesiąt 
+Cerkiew?) у służbę Bożą w nich spusto- 
+szyli, gdzie od sześći set y daley domow 
+szlacheckich religiey Greckiey, ledwie 
+szesnaśćie abo coś mniey zostało, ktorzy 
+heretyckiey Nowochrzczeńskiey zarazy 
+vszli. Teraz się synami waszemi y posłu- 
+szniki?*) zowią. Ale gdy ich spytaćle iako 
+wierzą, gdźie się spowiadaią y Sakra- 
+menta przyimuia: zęby wam wilcze v- 
+każą, y do końca was y owce wasze ro- 
+sproszą. O ślepoto wasza, tymeśćie przy- 
+chylnieyszy, ktorzy was y wiarę waszę y 
+kośćioły wasze gubią, а od tych убека- 
+ćie, ktorzy wam wszytkiego w cale do- 
+chować, y obronę spolney pomocy dać 
+ofiaruią. 
+
+Lecz y was cne Rycerstwo żałuie- 
+my, iż tak wielki grzech swoy przećiw 
+Bogu у pomazańcu iego popełnińćie, 
+nieposłuszeństwem się ku Panu swemu 
+mażećie, rosterki miedzy braćią śieiećie, 
+zgody у miłośći nieprzyidcioly się być 
+pokazuiećie, o prawdźie się y drogach 
+zbawiennych pytać niechcećie, Ducho- 
+wnemi swemi gardźićie, Synody rozry- 
+майе, na Krola у mandáty iego nie- 
+dbáćie: iako to má być odpuszczono? 
+Pewnie P. Bog na wás pomstę włoży, 
+a Boże by nie taką, w ktorey y my w 
+grzechach waszych vwichłani*) zosta- 
+niem. Lecz się oświadczamy tobie Bo- 
+że nasz, iżesmy krwie waszey y zguby nie 
+winni, aile z пазз!) było, vrząd К. J. M. 
+odprawuiąc, braterskie vpominaniem 
+y rozumnymi wywódy wiedziem was 
+do miłośći y zgody kośćioła Bożego, w 
+ktorym zbawienie swoie wieczne opa- 
+trzćie, do dobrego у całośći Rzeczyp: 
+ktora náwięcey zgodą у miłośćią Fd 
+śiedzką stoi, pomoc wielką дабје, w kto- 
+rey sami Siebie у domy swe у dźiśtki 
+swoie przy Boskim błogosławieństwie 
+zachowatie. Patrzćie abyśćie temi ro- 
+sterkami swemi Seymow nie zatrud- 
+niali, a do obrony przećiw mocy Таге- 
+ckiey, ktorá nad nami wisi, przeszkod 
+
+
+| Synod Brzeski. 
+
+
+nie czynili, abyśćie w niewolą Pogań- 
+ską, z odszczepieńcy Greki у z inemi he- | 
+retyki nie wpadli. Poty słowa Jch M. 
+panow Posłow. , 
+
+
+А gdy rzecz taką swoię skończy 
+Jch M. Panowie Posłowie K. J. M. 
+
+
+.|spodźiewali się iż ie па dysputacyą, о. 
+
+
+iednośći Kośćielney, јако iest potrze- 
+bną do zbawienid, wyćiągnąć mogli. у 
+914 tego przyzwali kaznodźieię Krola 
+J. M. X. Skargę, o ktorego sami Kro- 
+la J. M. aby na ten Synod posłany był, 
+prośili, у towarzysza iego,™) ktore przy 
+sobie mieli. Lecz oni żadney dysputacyey 
+czynić niechcąc, ani sprawy 0 sobie da- 
+iąc, prośili aby. się tylo rozmowić mo- 
+gli, coby Posłom Krola J. M. za od-|- 
+powiedź dać mieli. Tegoż wieczora da- 
+li taką odpowiedź z koła onego, Po- 
+stom К. J. М. iz to około ziednoczeniń 
+kośćioła Greckiego z Laćińskim, wiel- 
+kie są rzeczy y głębokie, a v nich głowy 
+są miałkie: wdawać się w niwecz nie- 
+chcą: kuśili się, prawi, o to wielcy Kro- 
+lowie a dowieść nie mogli, y my temu 
+dosyć nie vczynim. Ty*3) były słowa ich. 
+
+Zwątpiwszy Jch M. panowie Po- 
+słowie o wszytkiey dobrey woley zgro- 
+madzonych onych у oddźielonych, iz 
+zgoła zgody у miłośći od Boga roska- 
+zaney, y od Pana Jezusa Chrystusa na 
+testamenćie odkazaney, czynić, ani się 
+мас w nic niechćieli. Bo wszytko tam 
+Aryśni, Nowochrzczeńcy, у inszy here- 
+tycy byli y oni rządźili, ledwie kilku nie 
+odstępnych prawych Greckiey religiey 
+ludźi szlacheckich naleść się miedzy ni- 
+mi mogło. 
+
+Nazaiutrz w Sobotę Јећ M. pa- 
+nowie Posłowie vpomnieli Biskupy y 
+Wiadyki, aby swe czynili, na co ie Рап 
+Bog zebrał, na onę się stronę więcey 
+heretycką niżli Grecką nie oglądając. 
+У zaráz Jch M. X. Biskupi у Włądy- 
+kowie vbrani w swoie Jnfuły, у kośćiel- 
+ne i czći godne vbiory, z wielkim пађо- | - 
+żeństwem i miłośćią Chrystusowey zgo- 
+dy, i kośćioła iego iednośći zapźle- 
+ni, z innemi duchownemi, Protopami y 
+Popami, Archimandryty у Humienia- 
+mi tegoz Ducha pelnemi, weszli do Cer- 
+kwie 8. Mikolaia, wszytkim ogłośiwszy 
+przez dzwony y głosy, z wielką liczbą 
+panow świeckich y ludu pospolitego. y 
+
+
+tam mo- 
+
+
+| pi ; Synod. Brzeski. 
+
+
+tam modłę spolną Panu BOgu y po- 
+Коп pokorny oddáwszy, a о zgodę y ie- 
+dność Chrześćiaństwa prośiwszy, miey- 
+sca swoje zaśiedli, po iedney stronie po- 
+słowie Papiescy y Krolewscy, po dru- 
+giey Metropolit z Włádykami. Y wy- 
+
+
+АР WY И We, RABY PIT ~. 了 本 rr 
+
+
+#54 А Є тв М 
+Ј 7 У 
+
+
+JE R 
+
+
+510. 
+stąpił wielebny Hermogen Archiepiscop 
+Połocki, maiąc list па pargaminie 
+podpisany y pieczętowany, wstąpiwszy 
+na wyższe mieysce czytał głośną у zna- 
+czną mową w te słowa. = 
+
+
+LIST VNIEY SWIETEY. 
+
+
+$ - Jmię Boga w Troycy iedyne- 
+in A go, na cześć y świętą chwałę 
+NN) iego, y ludzkiego zbawienią a 
+wiary ś. Chrześćiańskiey Katho- 
+lickiey wzmocnienie у podwyższenie, 
+wszytkim ktorym to wiedZieé będźie ná- 
+leżało, my w Bogu na Synodźie porzą- 
+dnym w Brześćiu Litewskim, Roku P. 
+1596. 9. dnia mieśiąca Oktobra, wedle 
+starego Kalendśrza, w Cerkwi 6. Miko- 
+łaia zebrani, Metropolit у Wlidykowie 
+obrzędu Greckiego, niżey podpisani, o- 
+znaymuiem na wieczną pamiątkę: Jz 
+my bacząc iako Monarchia kośćioła 
+Bożego w Ewangeliey, y vsty Pana y 
+Boga naszego Jezusa Chrystusa fun- 
+dowanś iest: aby na iednym Pietrze, 
+iako opoce, kośćioł Chrystusow mocnie 
+stoiac, od iednego rządzony у sprawo- 
+wany był: aby у iednego ćiała iedna 
+głowa, w iednym domu ieden gospo- 
+darz y szafarz obrokow Bożych nad cze- 
+ladka, postawiony, rząd у dobre wszy- 
+tkich obmyślał. y tak ten rząd kośćioła 
+Bożego od czasow Apostolskich zaczę- 
+ty trwał po wszytki wieki: 这 wszytkie 
+Patryarchije**) do iednego się potomka 
+Piotra ś. Papy Rzymskiego, zawżdy w 
+nauce wiary, y w braniu mocy duchow- 
+ney, y w sądach Biskupich, y appellacy- 
+ach, vćiekali. Jako się to z Soborow y 
+kanonow abo prawidł oycow świętych 
+pokazuie, y nasze Słowieńskie pisma z 
+Greckich z starodawna przełożone, do- 
+statecznie to w prawidłach oycow swię- 
+tych oznaymuią. y starzy święći oyco- 
+wie wschodney Cerkwie to świadczą, 
+ktorzy tę Piotra §. stolicę y zwierzch- 
+ność a władzą iey nad Biskupy wszyt- 
+kiego świata, znaią. 
+
+Nie mniey też Carogrodzcy 了 Pa- 
+tryarchowie, od ktorych ta strona Ru- 
+ská wiarę Świętą wźięła, tę zwierz- 
+chność stolice Rzymskiey Piotra §. dłu- 
+
+
+go znali, y iey podlegali, y od niey bło- 
+gosławieństwo brali. Od ktorey wiele- 
+kroć odstępowali: ale się zaś z nią ied- 
+nali, у do posłuszeństwa iey wracali: a 
+ostatnie na Koncylium abo Soborze 
+Florenckim Roku P. 1489. przez Jo- 
+zefa Patryarchę y Cesarza Carogrodz- 
+kiego Jana Paleologa, zupełnie się do 
+tego posłuszeństwa wroćjli, wyznawa- 
+iąc iż Rzymski Papa oycem iest y mi- 
+strzem, у sprawcą wszytkiego Chrześći- 
+aństwa, у prawym Piotra 6. następni- 
+kiem. Na ktorym też Florenckim So- 
+borze był nasz Kijowski у wszey Ruśi 
+Metropolit Jsydorus, ktory to ziedno- 
+czenie Patryarchiey Carogrodzkiey y 
+wszytkich kośćiołow do niey należących 
+przyniosł, y te kraie Ruskie w tymże 
+posłuszeństwie y zwierzchnośći kośćio- 
+ła Rzymskiego vtwierdźił. Dla czego 
+Krolowie Polscy, a mianowićie Wła- 
+dysław Krol Polski у Węgierski, у inni, 
+dali przywiley Duchowieństwu obrzą- 
+dku Greckiego, ktorym na walnym 
+Seymie wolnośći im kośćioła Katho- 
+lickiego Rzymskiego nadali. Od kto- 
+rego ziednoczeniń kośćielnego gdy Ca- 
+rogrodzcy Patryarchowie zaś odstą- 
+pili, a za taki srogi grzech odszczepień- 
+stwa у rozerwanią iednośći kośćielney, 
+w moc pogańską y Turecką wpadli, za 
+czym wiele błędow y złych postępkow 
+ich, y zaniechania dozoru prawego tych 
+kraiow Ruskich, y wiele brzydkiego 
+świętokupstwa nastąpiło, iż się here- 
+zye rozśiały, y prawie wszytkę Ruś o- 
+panowały, Cerkwie pustosząc, у chwá- 
+łę Bożą psuiąc. My niechcąc być v- 
+czestnicy*5) grzechu tak wielkiego, у nie- 
+wolstwa pogańskiego ktore zatym przy- 
+szło, Carogrodzkich Patryarchow, y 
+niechcąc im odszczepieństwa. у rozer- 
+чаша kośćielney świętey iednośći po- 
+magać: y zabiegaiąc spustoszeniu ko- 
+
+
+śćiołow, y 
+
+
+ү 82-5 
+
+
+511. | Synod Brzeski. 
+
+
+kośćiołow y zgubie dusz ludzkich przez 
+herezye, ktore się teraz podniosły, maiąc 
+о to sumnienie у niebeśpieczeństwo zba- 
+wieniń swego, у trzody nam od Pana 
+Boga poruczoney: roku przeszłego wy- 
+prawilismy do `Оуса §. Clemensa osme- 
+po Papy Rzymskiego Posty nasze Prze- 
+wielebne, Hipatego Prototrona Włá- 
+dykę Włodźimirskiego y Brzeskiego, 
+у Cyrilla Terleckiego Władykę Luckie- 
+go y Ostrowskiego, za wiadomośćią y 
+pozwolenim y przyczyną K. J. M. Pol- 
+skiego Zygmunta Trzećlego, pana po- 
+bożnego, ktoremu day Boże szczęśliwe 
+y wieczne krolowanie: prosząc aby nds 
+do swego posłuszeństwa, јако nówyższy 
+Pasterz kośćioła powszechnego Katho- 
+lickiego przyiął, y od zwierzchnośći 
+Patryarchow Carogrodzkich wyzwolił 
+у rozgrzeszył, zachowuiąc nam ob- 
+rządki у Cerymonie kośćiołow wscho- 
+dnych Greckich, a żadney odmiany w 
+Cerkwiach naszych nie czyniąc. Co iż 
+vezynit, y na to swoie przywileie y pi- 
+sma posłał, roskazuiąc, abysmy się na 
+Synod zwoławszy wyznanie wiary 6. 
+vezynili, y posłuszeństwo stolice Rzym- 
+skiey Piotra $. Clemensowi ҮШ. у iego 
+potomkom oddali. Tosmy dźiś na tym 
+Synodźie Yczynili, iako to listy nasze y 
+podpisanie własne ręku naszych, y przy- 
+ćiśnienienie pieczęći naszych swiadczą, 
+ktoresmy do rąk Postow Oyca $. P4- 
+pieża Clemensa na ten Synod posła- 
+nych, to iest Przewielebnemu Arcybi- 
+skupowi Lwowskiemu Janowi Dymi- 
+trowi Solikowskiemu, y Bernatowi Ma- 
+ćieiowskiemu Biskupowi Luckiemu, y 
+Stanisławowi Gomoliiskiemu Biskupowi 
+Cełmskiemu, 26) oddali. Przy bytnośći Po- 
+słow Krola J. M. Zygmunta Trzećiego, 
+Oświeconego Mikołaia Krysztofa Radźi- 
+wiła, Xiążęćia na Ołyce y Nieświeżu, 
+Woiewody Trockiego: y Kanclerza W. 
+X. Litewskiego Leona Sapihę, y Dymi- 
+tra Chaleckiego, tegoż W. X. Litew- 
+skiego Podskarbiego, Starosty Brze- 
+skiego, y innych wiele przytomnych du- 
+chownych y świeckich. 
+
+
+Podpisy rąk własnych. 
+
+
+Zatym rzućili się do pocałowaniń 
+Biskupi kośćioła Zachodnego, do Bi- 
+skupow kośćioła Wschodnego, у w 
+Bogu się obłapiaiąc, y zgodę Świętą 
+y miłość sobie daiąc, pokoy Cbrystu- 
+sow z sobą vmocnili у utwierdźili. Z 
+czego z Anyoły niewidomemi raduiąc 
+się, zaśpiewali pieśń, Chwały Bogu 
+w Troycy iedynemu. Potym w tychże 
+vbiorach, y z onym wszytkich wiernych 
+skupienim, poszli do Kośćioła Panny 
+Maryey Laćińskiego obrzędu, y tam z 
+wielkim nabożeństwem wszyscy dźię- 
+kuiąc, y Te Deum laudamus Spiewa- 
+iąc, Bogu Chrystusowi onę świętą ie- 
+dność poruczyli, aby ią on sám vmá- 
+cniał у trzymół, na powstanie zelżoney 
+y poniżoney sławy Chrześćiańskiey, na 
+pohańbienie błędow y fałszow heretyc- 
+kich, na postrach niewiernemu Pogań- 
+stwu, y na zmocnienie Krolestwa tego 
+przećiw wszytkim domowym rosterkom 
+y niezgodom. Na co patrząc wszytek 
+lud wierny, hoynie łzy wylewal, dźiwu- 
+iąc się tak szczęśliwey, y dawno żąda- 
+ney od przodkow naszych godźinie y ła- 
+sce Pana Boga naszego, ktory rospro- 
+szone zgromádzá, a pokorne podwyzsza, 
+y od kośćioła swego, ktory odkupił 
+krwią swoią, miłośierdźią swego ше 
+oddala. 
+
+Nazaiutrz w Niedźielę Jch M. 
+X. Biskupi Laćińscy, wespoł z posły K. 
+J. M. y z inemi kośćioła Rzymskiego 
+Chrześćiany, szli do Cerkwie $. Miko- 
+Тада, у tam z Władykami у duchowień- 
+stwem Greckiego kośćioła, Liturgiey 
+ś. słuchali, y nachwalebney oney służby 
+y ofiary, y obrządkow zgody z Laćińską 
+Mszą pełnych, z radośćią y nabożeń- 
+stwem zażywali. Tamże kaznodzieia 
+Krola J. M. kázanie o iednośći Ko- 
+śćioła Bożego, у o tey szczęśliwey zgo- 
+аде у pokoiu Chrystusowym czynił. Z 
+tym się, opatrzywszy pismem y pieczę- 
+ćiami, co było potrzeba, w wielkiey 
+miłośći roziechali, chwaląc Boga w 
+Troycy iedynego. Ktory żyie y kroluie 
+na wieki. Amen. 
+
+
+Sekretarz y Pisarze 
+
+
+$. Synodu, za ro- 
+skazaniem starszych. 
+
+
+OBRONA 
+
+
+http://rcin.org.pl 
+
+
+13 
+
+
+Obrona Synodu Brzeskiego. 
+
+
+— _ 
+
+
+512. 
+
+
+OBRONA SYNODU BRZESKIEGO. 
+
+
+brá у змей má swoie 
+sprzećiwniki, a wszędźie 
+nieprzyiaćiel miedzy psze- 
+пісе swoy Како! podśie- 
+<a да: tak у Święte Gene- 
+
+ynody duchownych, na kto- 
+rych się prawda Boża, у zgoda zba- 
+wienná Chrześćiańska vtwierdzi, ni- 
+gdy bez obmowcow у potwśrcow nie 
+były. Przetoż nie dźiw, iż y ten Synod 
+Prowincyalski Brzeski шА też swoie 
+podsiewacze, ktorzy czystą pszenicę ie- 
+go chcą sprosnym naśienim powieśći y 
+vdawaniń omylnego zaraźić. Jako się 
+dźiało w prawdźie, у bez żadnego przy- 
+mieszaniń omylnego słowa, iuż się po- 
+wiedźiało. Mam w Panu Bogu na- 
+dźieię, iż każdy báczeniá pobożnego у 
+mądrego prędszy będźie do wiary temu, 
+co tak święći у mądrzy kapłani Boży у 
+Biskupi oboyga kośćioła zachodnego 
+y wschodnego przynoszą: y tak wielcy 
+zacni y pobożni Posłowie K. J. M. o- 
+znaymuią. Jednak na obronę tego to 
+Synodu, zdało się nieco przełożyć wier- 
+nemu Chrześćiaństwu, ktorzy do koń- 
+ca praw kośćielnych y postępkow iego 
+starych, z Grekami zwłaszcza, świado- 
+mi nie są, a kśiąg nie maią, abo czytać 
+praw y historyi kośćielnych nie mogą. 
+
+
+Iż ten Synod porządnie y prawnie 
+zgromadzony był. Rozdział 1. 
+
+
+Porządnie y wedle Boga y praw 
+Bożych y Kośćielnych, ten ś. Synod 
+Brzeski w Chrystuśie zgromadzony był. 
+Bo roskazany iest od nawyższego Pa- 
+sterza wszystkiego?) Chrześćiaństwa 
+Papieża Clemensa osmego, ktory sam, 
+nie tylo takie, ale y generalne Synody 
+wszytkich na świećle Biskupow, skła- 
+dá, у one potwierdza: bez ktorego przy- 
+zwoleniń, żaden Synod porządny у moc 
+maiący być nie może. Dźiśł się też 
+ten Synod z wiadomośćią Jego M. X. 
+Arcybiskupa Gnieźnieńskiego, Stani- 
+sława Kśrnkowskiego, iako Prymasa 
+y nawyższego w tym krolestwie ducho- 
+
+
+os Ако każdń rzecz do-| | 
+
+
+wnego przełożonego. Przystąpiło do 
+tego dozwolenie Krola J. M. bez kto- 
+rego w państwie iego żadnemu podda- 
+nemu ziazdow у gromad czynić się ле 
+сода. A ше tylo przyzwolenie, ale у 
+wyprawa Posłow na ten Synod, dla 
+spokoynego rzeczy duchownych odpra- 
+wowania. 
+
+Były też na nim osoby do Synodu 
+włósnie należące. То iest, Biskupi abo 
+Włądykowie, ktorzy sami prawem Bo- 
+żym na tym trybunśle Synodalskim iu- 
+risdicyą maią. Bo oni sami są, iako 
+pismo mowi, Асо: 20. od Ducha ś. 
+postawieni, aby rządźili - Kośćiołem 
+Bożym, ktory odkupił krwią swoią. 
+Jne też z sobą kapliny у presbytery v- 
+czone у pobożne przywiedli, nie dla są- 
+dow у zasiadania, ale ФА pomocy у ra- 
+dy. Byli też na nim у świeccy z ramie- 
+nia Krola J. M. y imni dobrowolnie 
+przyiezdżaiący. — 
+
+Zebrał się też ten Synod na rzecz 
+świętą, y zbawienną, y potrzebną. Nie 
+iżby wiarę stanowił, abo o artykułach 
+iey меду dówśł: bo to samym gene- 
+ralnym Synodom, y ze wszytkiego Chrze- 
+śćiaństwa zebranym Biskupom, służy: 
+ale żeby to wykonali, co przez posły swo- 
+ie do oyca $. Papieża wskazali, у co im 
+poruczono było. To iest, aby ziachaw- 
+szy się, wiarę $. Katholicką у wszystkie 
+iey artykuły y członki wyznali, y ręką 
+swoią podpisali: chcąc tak nauczać, 
+јако od Apostołow 8. podano, у w pi- 
+śmie 6. vmocniono, у od oycow świę- 
+tych starożytnych Greckich y Laćiń- 
+skich successyą y wstępowaniem porzą- 
+dnym zostawiono. Odmiataiac nowi- 
+ny у nauki heretyckie, zdawna od oy- 
+cow świętych potępione, y ine iakokol- 
+wiek przećiw powszechney у staroży- 
+tney nauce Katholickiey powstaiące. 
+A ktemu aby oddali posłuszeństwo ná- 
+wyższemu pasterzowi potomkowi Apo- 
+stoła Piotra 8. у napotym strzegąc się 
+odszczepieństwa, w iednośći ćiała koś- 
+ćioła Bożego żyli. Nakoniec aby wźię. 
+li rozgrzeszenie od schismy Patryar. 
+chow Carogrodzkich, a na potym ро. 
+
+
+ki się z ko- 
+
+
+|513. | ~ 
+
+
+ki się z kośćiołem 5. nie złączą у nie zie- 
+dnaią, w ślady y przykłady przodkow 
+swoich starodawnych wstępuiąc, aby 
+z nimi społkow żódnych nie mieli. 
+Na te trzy święte rzeczy zgromadzony 
+ten Synod, vczynił wszytkim dosyć, 
+гь, pomocą Bożą to statecznie wy- 
+onół. 
+
+
+А iż przećiwnicy пађаглеу na to 
+krzyczą, iż od Patryarchy Carogrodz- 
+kiego odstąpili, a z tym się świeckim lu- 
+dźiom y pospolitym nie opowiedźieli: 
+dá się im sprawa stateczną o tym у do- 
+wodną. То tylo przełożywszy, iako w 
+prawdźie iest: iż ći sprzećiwnicy о to 
+niedbaia, y nie to ich boli, iż od Caro- 
+grodzkiego Patryarchy Władykowie od- 
+stąpili: Bo wiedzą y nazbyt wiedzą, 
+iaki tam nierząd, y zniszczenie, y nie- 
+wolstwo, у grzechy, iż stamtąd żadney 
+„pociechy y pomocy do spraw kośćiel- 
+nych nie maią, iż na tey stolicy sami 
+świętokupcy śledzą, a do nich nigdy 
+żadnego vczonego у pobożnego słać 
+nie mogą. Bo ich nie maią, iedno gło- 
+dne na pieniądze a vbogie, a drugdy 
+szalbierze, v ktorych za trochę złota y 
+sukna kupi wszytkę wiarę, y dostoień- 
+stwa, у Włádyctwa, у rozgrzeszenia, ia- 
+kich komu potrzeba, у ktorzy posłami 
+się od Patryarchy czynią, anie są: 0- 
+brony żądney do wiary, у nauki, у rzą- 
+dow kośćielnych zatrzymania nie da- 
+iąc. Ale raczey wszytko łakomstwem y 
+dla pieniędzy mieszaiąc, a drugdy Chrze- 
+śćiańskie sprawy Turkom  wydaiąc. 
+Lecz im o to idźie, y to ich boli, iż się 
+Wiadykowie złączyli z Kościołem &. 
+Rzymskim, gdźie nauka y pobożność 
+Chrześćiańska kwitnie.. Bo ći wszyscy 
+co się spisali, okrom mało rozumnych 
+popow y czerncow, dawno nie tylo sto- 
+licę Carogrodzką, ale y wiarę Grecką 
+porzucili, iawnie ią у cerkwie iey, у po- 
+py bałamutnią у  bałwochwalstwem 
+zowiąc, a nowe sobie wiary y rożne 
+zmacniaiac, na obalenie Greckiey у 
+wszytkiey Chrześćiańskiey. Druga ich 
+rzecz boli, iż się ich w tym przystaniu 
+do kośćioła Włádykowie ше radźili, 
+ani ich przyzwolenia czekali, przywłś- 
+szczaiąc sobie w tym duchowną zwierz- 
+chność у władzę, у z tego sobie słą- 
+wę czyniąc do czego nie nie maią, 
+
+
+a саде у na czym prawdźiwey sławy. 
+
+
+држава Synodu Brzeskiego. 
+
+
+.| wtorzył, 
+
+
+гс: ОГО. 
+
+
+szukać nie widzą. baie na to sę ES 
+im pierwey powie. 
+
+
+Iz nie była winnó rzecz AR sig : 
+z taką опа opowiedać. Кога: 2.38) 
+
+
+Artykuł wiary jest, Wierzę ieden 
+swięty Kośćioł Apostolski powszechny, 
+abo Katholicki: О ktorym widely M 
+czynić, у rozumieniń zbawienne dawać | 
+samym duchownym у Biskupom паје- 
+ży. Włśdykowie у Biskupi z nauki 
+Katholickiey tak ten artykuł rozumie- 
+ią: iż ieden kośćioł być nie może na 
+еті, gdy iednego sprawce nie ша,| | 
+ktoryby iednę wiarę zatrzymówśł, y| 
+wszytkie Chrześćiany w iednośći za- 
+chowśł, у rosterki Chrześćiańskie po- 
+име у iednał. Ten ieden nie iest 
+inszy iedno Piotr $. z potomkami swoi- 
+mi Biskupy Rzymskimi, iako to święći 
+Oycowie wykładaią, y niżey się słowa 
+ich położą: z ktorym społeczność mieć, 
+y iego iako głowy słuchać, powinność 
+iest zbawienną, Biskupow  zwłdszcza 
+Chrześćiańskich. Do takiey nauki y 
+rozsądku maiąli iakie prawo ludźie 
+świeccy, aby bez nich wierzyć się to y 
+nauczać y zachować nie miało, niech 
+każdy rozezná. 
+
+Sądy o nauce w prawie Bożym y 
+w piśmie kapłanom się daią, iako iest У 
+Moyzesza Deut: 17, Gdzie P. Bog to 
+prawo stawi, aby z wątpliwośćiami 0 
+nauce у zakonie Bożym, znośić się do 
+kapłana wszyscy winni byli, у wyroku 
+iego słuchali, у nieposłusznego- у w ro- 
+zumie hardego, ktoryby na wyroku ka- 
+płańskim nie przestśwał srodze karać 
+roskazuie. Co y Prorok Ezechiel po- 
+mowiąc: [Kapłani lud moy 
+nauczać będą, co za rozność miedzy 
+świętym y nieświętym, miedzy czy- 
+stym y nieczystym, vkazować im będą. 
+a gdy prza**) abo controwersyń ai 
+staną na sądźiech moich y osądzą. 
+Malachińsz Prorok iasnie rzekł: к 
+kapłańskie nauki przestrzegają, у z vst 
+ich o zakonie się pytać maią, bo Anyoł 
+iest Pana zastępow.] Y krol Jozaphat 
+2. Par: 19. Sądow świeckich z ducho- 
+wnemi, z tegoż prawa Bożego nauczo- 
+ny, nieśmińł zmieszać: ale do m 
+mowi: [Gdźie iest pytanie o zakonie, o 
+roskazaniu Bożym, о ceremoniach, o 
+ysprawiedliwieniu vkazuyćie  ludźiom, 
+
+
+aby przećiw 
+
+
+а Чаи 
+4272, ŚW 
+
+
+~ 
+
+
+ae м 
+. 
+
+
+EŃ 
+
+
+Тл E Obrona Synodu Brzeskiego. 
+
+
+aby przećiw Panu Bogu nie grzeszyli.] | 
+
+
+|a osobno do sędźiow świeckich mowi: 
+[tak a tak sądźćie, darow nie bierzćie.] 
+Napisńł Metaphrastes Grecki w 
+żywoćie $. Nicety o- obrazy vmęczone- 
+go, iż do Cesarza Armenika obrazo- 
+borce te słowa mowił Theodorus kazno- 
+dźieia: [Sluchdy Cesarzu, nie wdawdy 
+się w rzeczy kośćielne, y rządu ich nie 
+przewracay: Postawił Pan Bog w 
+kośćiele, mowi Paweł $. 7. Cor: 12. ná- 
+przod Apostoły, potym Proroki, potym 
+Pasterze y Doktory, na doskonałość 
+świętych: a krolow nigdźiesz nie wspo- 
+тіпа. Tobie Cesarzu świeckie państwo 
+y woysko zlecone iest, tegoż ty pilnuy, a 
+sprawy kośćielne pasterzom у Dokto- 
+{rom ;pozostaw.] Cozby tym panom у 
+szlachćie pospolitey rzekł, ktorzy się o to 
+gniewaią, iż się ich około nauki у arty- 
+kułow wiary Włądykowie starszy ich 
+nie radźili? Rzekłby im był, y my to 
+mowim: Patrzćie swoich R. P. у żoł- 
+nierskich spraw: rządźćie domami swe- 
+mi, nie nauką kośćielną, ani starszemi 
+waszemi, o ktorych wam roskázáł Pan 
+Bog przez Apostoła, mowiąc: [Pom- 
+nićie na przełożone wasze ktorzy wam 
+słowo Boże opowiedźieli, patrzćie na 
+obcowanie ich, a wiary ich naśladuy- 
+Gie. Posłuszni bądźćie starszym waszym, 
+y podlegayćie im, bo oni czuią (strze- 
+gąc was) tak iakoby za dusze wasze li- 
+czbę vczynili.] Patrzćież со wam Pan 
+Bog roskazuie: [wiary, prawi, przeło- 
+żonych swoich naśladuyćie.] Oni zbłą- 
+dźić nie mogą, -bo od Boga posłani są, 
+у Ducha 6. na to maią. Jesliby zbłą- 
+ЧАН (co iest niepodobno) wybyśćie 
+byli wymowieni, a oniby byli potępie- 
+ni. Bo gdy im Pan Bog wierzyć y słu- 
+chać ich roskazał, samby nds zawiodł, 
+gdyby błędnikow słuchać kázáł. Pew- 
+nie im, gdy przy kośćiele y głowie, y na- 
+wyższym Pasterzu kośćielnym 86018, 
+błądźić nie dopuśći. Owca za paste- 
+rzem idźie, nie pasterz za owcą, on rzą- 
+dźi y wiedźie, nie owca rządźi y wodzem 
+ięst. Grecki Doktor Nazyanzenus na- 
+pisał: [Jako rożny iest człowiek od by- 
+Феба; tak Biskup abo Pleban rożny 
+iest od swoich świeckich vezniow, kto- 
+rzy nie swoim rozumem, ale rozumem 
+pasterzow swoich w rzeczach duchow- 
+nych sprawować się, y swego dobrego 
+
+
+415. 
+
+
+zbawiennego z ich nauki szukać maią.] 
+Dla tegoż Apostoł do Biskupa mowi: 
+[Tak naucz4y у vpomindy, у karz ze 
+wszytkim roskazowaniem, niech tobą 
+nikt nie pogardza. Tit: 2. 
+
+Moglić Włądykowie świeckim się 
+też w tey mierze owcom swoim 0p0- 
+wiedźieć, iakoż opowiedali tym, o kto- 
+rych rozumieli iż ich nauce y rozumie- 
+niu sprzećiwiać się nie mieli. y wiele ich 
+z łaski Bożey za sobą poćiągnęli. Ale 
+tym nie winni byli tego swego przed- 
+sięwźięćiń opowiadać, o ktorych wie- 
+dźieli, iż do iednośći przeszkody czynić 
+mieli, y z heretykami się spisowali. Bo 
+nikt swego przećiwnika do rady nie 
+bierze: a lepiey vpornego minąć, niżli 
+go przećiw sobie ostrzyć, iako pismo 
+mowi: [Kto nauczą naśmiewcę, sim 
+sobie krzywdę czyni: a kto karze niezbo- 
+żnego, sim się maze. Prou: 9.] Pew- 
+nie ći co z heretykami trzymaią, do ie- 
+dnośći nie pomogą. Bo heretycy gdźie 
+mogą zgodę ś. kośćielną targaią, aby 
+owce rosproszone łacniey okrom kupy 
+y pasterza poimać ў pożerać mogli. А 
+co się odstąpieniń Patryarchy dotycze, 
+na to nie tym przećiwnikom herety- 
+kom, ktorzy go dńwno odstąpili; ale 
+wiernym wschodnego kośćioła ludźiom 
+sprawę daiem, z samychże Greckich 
+Doktorow y Historykow, Laćińskich na 
+ten czas zaniechawszy. 
+
+
+Јако Monarchid, abo Iedynowłddz- 
+two Kościelne w Ewangeliey fun- 
+dowane test. Rozdzidt 3. 
+
+
+Kto wierzy Ewangeliey, a ślepo- 
+ty heretyckiey nie przypuszcza, widźi у 
+ledwie nie palcem domacać się może, 
+iż Pan Chrystus Piotra $. starszym у 
+naypierwszym  vrzędnikiem  Kośćioła 
+swego nad ine Apostoły vczynił. Jzóli 
+to prozne słowa Pańskie do Piotra są 5. 
+[Na tobie zbuduię kośćioł moy: boś 
+ty iest opoka y kamień.] Jako funda- 
+ment napierwszą iest rzecz, ktorá wszy- 
+tko budowanie trzym4: tak Piotr 8. 
+napierwszq iest głową kośćioła Boże- 
+go, na ktorym się wszytek wspierń. Co 
+znaczniey ieszcze Pan JEzus dat znać, 
+gdy rzekł: [Tobie, a nie innemu, dam 
+klucze krolestwa niebieskiego.] Komu 
+od miasta klucze oddaią, za nawyższe- 
+
+
+go vrzędni- 
+
+
+go vrzędnika przyznawaią go. У kto 
+wszytkim co w domu iest wiidnie, ten 
+gospodarzem iest wszytkiey czeladki, 
+ktory pod swym kluczem wszytko cho- 
+wá. A ndznaczniey iest, że уступи Pan 
+Piotra pasterzem wszytkich owiec swo- 
+ich, gdy rzekł: [Paś owce moie: pas 
+barany moie.] То Ewangeliń: ktoż 
+iey wierzyć niechce, sńm tylo Poganin 
+у Zyd? Słuchayże na te słowa Pańskie 
+o Pietrze 8. swoich Greckich Doktorow 
+y pisarzow. 
+
+Origenes in cap: 6. ad Rom. [Gdy 
+nawyższy rząd у przełożeństwo о paśie- 
+niu owiec Piotrowi dawano, aby na 
+nim iako na grunćie fundowany był 
+kośćioł: żádney iney cnoty wyznaniń 
+od niego nie wyćiągaią, iedno miłość.] 
+
+Basilius serm: de iudicio Dei. [On, 
+prawi, błogosławiony Piotr, ktory nad 
+ine vcznie przełożony iest, ktoremu 
+klucze krolestwa niebieskiego poruczo- 
+
+
+ne są, | 
+azianzenus oratione de moderati- 
+
+one in disputationibus seruanda. [Patrz 
+iako miedzy vczniami Chrystusowemi, 
+ktorzy wszyscy byli wielcy у obrani go- 
+dni, ten opoką nazwany iest, y funda- 
+menty kośćielne wierze swey powierzo- 
+ne ma. A drudzy vezniowie iż zaniecha- 
+ni są, spokoynie to ar og 
+
+Epiphanius haeresi: 51. |Piotra, pra- 
+wi, obrał, aby był wodzem vczniow.] 
+Et in Ancorato: [Ten iest, mowi, Piotr, 
+ktory vsłyszał: Paś owce moie: ktore- 
+mu powierzoną iest owczarniń.] 
+
+Cyrillus Hierozolimski Cateches: 2. 
+Piotra §. kśiążęćiem Apostolskim zo- 
+wie. Y Cyrillus Alexandryiski tak mo- 
+wi: in Ioan: cap: 64. [Jako przełożo- 
+ny y głowa inych pierwszy Piotr zawo- 
+łał: Tyś iest Chrystus Syn Boży.] 
+
+Chrysostomus hom: 11. in Matth: 
+[Piotra, prawi, kośćioła przyszłego pa- 
+sterzem vczynił.] у niżey: [Sám to Pan 
+Bog sprawić mogł, iż kośćioł przyszły, 
+gdy nan takie у tak wielkie nawałnośći 
+biły, cały у niezruszony zostół, ktorego 
+pasterz y głowa człowiek rybołow y po- 
+dły iest.] у niżey: [Hieremidsza nad ie- 
+dnym národem przełożył Pan Bog: a 
+Piotra nad wszystkim światem Chry- 
+stus postąwił.] у 
+
+Theophilactus in сар: 22. Lucae 
+na one słowa: Potwierdzńy braćią swo- 
+
+
+Obrona Synodu Brzeskiego. 
+
+
+|16: tak mowi: [Jasne 
+
+
+iest rozumienie| — 
+tych słow: Mam 《ie za kśiążę*%) у prze- 
+łożonego nad memi vczniami, gdy po 
+zaprzeniu pokutować y płakać bedziesz, 
+potwierdzay braćią. Bo to tobie паје- 
+ży, ktoryś po mnie iest opoką kośćielną 
+y fundamentem.] Dobrze rzekł: po 
+mnie. Bo Chrystus iest kośćioła 8. 0- 
+рока у fundamentem, iako Paweł 5. 
+mowi: ale јако pryncypół do zbawie- 
+nid, у niewidomey łaski dawaniń. A 
+Piotr 8. też iest opoką у fundamen- 
+tem, ale do rządzeniń zwierzchnegoż 
+у do nauki, iako sługa у namiestnik 
+Chrystusow. 
+
+Gennadius Scholarius Patryarcha 
+Carogrodzki, tak tez pisze: De pri- 
+matu cap: 2. [Jako Pan JEZVS na źie- 
+mi był głową, Panem, y mistrzem y- 
+czniow swoich, oycem y pasterzem: 
+tak, gdy postanowił na stolicę oycow- 
+ską wstąpić, Piotra im dół za przeło- 
+żonego, za oyca у mistrza: у iednym sło- 
+wem mowiąc, dit go za namiestnika 
+swego.] To Patryarcha Carogrodzki 
+przećiw Grekom. Przestań na tych Gre- 
+ckich oycach braćie nie vporny, a wierz 
+iż Pan ZEZVS w kościele swym chójśł | 
+mieć Jedynowładztwo, abo Monarchią, 
+AE ieden wszystkiego doglądał y rza- 
+
+ił. 
+
+
+ldko rząd у przełożeństwo iednego 
+
+pasterza, z Piotrem 8. nie vmarlo, 
+
+ale na Rzymskich Biskupach у Pá- 
+pieżach stanęło. Rozdział 4. 
+
+
+To przełożeństwo Piotra §. Śmier- 
+ćią iego vstać nie mogło. Bo kośćioł 
+Boży y owce Chrystusowe trwaią, aż 
+do końca Świata, у muszą mieć takie о- 
+patrzenie у rząd dla zbawieniń swego. 
+Każda zwierzchność, nie dla tego iest 
+co па niey чеда, ale dla tych ktoremi 
+rządźi. Jesliz za czasu Piotra §. kośćioł 
+takiego starszego iakiego Chrystus po- 
+stawił potrzebował: daleko więcey po 
+śmierći Piotra $. gdy się na wszystek 
+świat rozszerzół. У Фа tego onych 
+słow, ktore Pan do Piotra mowił: Paś 
+owce moie: nie może być inaksze rozu- 
+mienie, iedno iż ten vrząd pasterstwa, 
+у na potomki Piotrowe śćiągać się má, 
+Co Chryzostom 5. dół znać, gdy mowi, 
+lib: 2. de Sacerdotio: [Za owce swoie 
+
+
+Chrystus 
+
+
+_ | Chrystus krew’ swoię rozlał, ktore sta- 
+тапи Piotrowemu у ndstepnikow iego 
+poruczył. ] 
+
+Ten potomek у następnik Piotra 5: 
+nie iest inszy iedno Biskup Rzymski, y 
+to mieysce, na ktorym Piotr 5. vmę- 
+czon y vmarł, przywileie swoie tego 
+mieysca Biskupom zostawuiac. 
+Greccy Doktorowie rozumieli, y wszy- 
+че Sobory abo Копсуна Biskupow 
+świata wszytkiego. 
+
+Naprzod pisze Zrenaeus lib: 3. cap: 
+3. [Do kośćioła, prawi, od Piotra y Pa- 
+wła w Rzymie fundowanego, dlá mo- 
+cnieyszego iego przełożeństwa, muszą 
+się wszytkie ine kośćioły schodźić, to iest 
+wszyscy wierni. Во w nim zawżdy iest 
+dochowane podanie abo nauka, ta kto- 
+rá iest od Apostołow.] widźisz iakie prze- 
+łożeństwo temu Rzymskiemu kośćioło- 
+wi przypisuie, y wierne dochowanie 
+nauki Apostolskiey, y kto około niey błą- 
+dźić niechce, tam się vćiekać y o niey py- 
+tać każe. Ten Doktor żył około roku 
+Pańskiego, 150. 
+
+
+-Epiphanius 0 Biskupach wscho- | 
+
+
+dnych stron tak pisze, heres: 68. [Vrsa- 
+
+cyus у Valens żałuiąc za grzech swoy, 
+
+z pismem swoim poiachali do $. Bisku- 
+
+pa Rzymskiego Juliusza, aby mu się 
+
+sprawili z błędow у grzechow swoich. | 
+
+Po cożby ieźdźili tak z daleka ze wscho- 
+
+dnych stron na sprawę у oczyśćienie*') 
+
+swoie, gdyby zwierzchnośći Rzymskiego 
+
+Biskupa nie znali? 
+
+Athanasius wielki Doktor Grecki 
+
+w liśćie do Papieżu Felixa mowi: [014 
+
+tego was y przodki wasze, to iest Apo- 
+
+stolskie Biskupy (Pan Bog) na wyso- 
+kośći zamku postawił, y staranie wam 
+
+о wszytkich kośćiołach roskazał, abyśćie 
+
+nám рошасаН.] gdy im heretycy Ary- 
+
+áni byli ćiężcy. 
+
+__ Basilius wielki Doktor Grecki, w 
+|liśćie do Athanazyusza pisze, Epist: 52. 
+[Zdało się nam słuszno, abysmy pisali 
+do Biskupa Rzymskiego, aby on rze- 
+czom się naszym przypatrzył, a wyroku 
+swego rozsądek wydał. A iż z trudno- 
+śćią stamtąd za zdaniem Concilium 
+posłany być kto może, on niechdy dá tę 
+moe wybranym niektorym mężom, kto- 
+rzyby prace podrożne wytrwali, a ła- 
+skawośćią у przyiemnośćią obyczaiow, 
+y mądrą a snadną mową vpomnieć 
+
+
+Obrona Synodu Brzeskiego. 
+
+
+iij 
+
+
+| tych mogli, ktorzy z dobrey drogi sstą- 
+
+
+pili: у ktorzyby dźieie Concilium Ату- 
+mińskiego przynieśli, aby ie zepsowa- 
+по, у to eo się tam przez moc dźiśło.] 
+Tu wyznówa iż Biskup Rzymski, у 
+przez posły swoie, iako nawyższy pasterz 
+wschodne kośćioły wizytować, у па» 
+prawować mogł. A co więcey, iż on 
+sim złe y fałszywe Sobory heretyckie 
+psować mogł. | ) 
+
+Gregorius Nazianzenus w wierszach: 
+o żywoćie swoim pisze: Rzymski ko- 
+śćioł zawżdy zachowáł о Panu Bo- 
+gu práwdźiwą naukę, iako takiemu 
+miastu przystało, ktore na wszytek swiat 
+zwierzchność mó4.] Nie mowi о świe- 
+ckim państwie y zwierzchnośći Rzym- 
+skiey: bo iuż była do Carogrodu prze- 
+nieśionń, ale о duchowney Piotra 8. 
+zwierzchnośći, iż przy biskupach Rzym- 
+skich została. 
+
+Qyrillus Alexandryiski Patryarcha, 
+tn Thesauris, iako kładźie słowa ie- 
+go Gennadius de primat: cap: 12. tak 
+pisze: [Muśim iako członkowie za gło- 
+wą: to iest, za Rzymskim Biskupem y 
+stolicą Apostolską, od ktorey pytać się 
+mámy iako wierzyć у trzymać. Bo ie- 
+go to samego vrzad iest: odmiatać, 
+rządźić, karać, .potwierdzać, stanowić, 
+związać, y rozwiązać. 
+
+Chryzostom ś. do Papieża Jnno- 
+cencyusza pisze, Epist: 1. [Proszę cię 
+abyś pisáł, żeby tak niesprawiedliwe po- 
+stępki mocy nie miały: a ¢i ktorzy źle 
+vezynili, byli kośćielnym prawem kérani.] 
+vćiekł się był do niego, na Theophilusa 
+Patryarchę: Alexandryiskiego, żałuiąc 
+się, gay go z stolice iego nieprzystoynie 
+składał, у potępiał, do Rzymskiego Bi- 
+Skupa iako do nawyźszego sędźiego wszy- 
+tkich- Biskupow. 
+
+Theodoretus pisze w liśćie do Leo- 
+na Papieża: [Já czekam wyroku Apo- 
+stolskiey waszey stolice, y proszę waszey 
+świątobliwośći, aby mi pomoc dała 
+temu, ktorym do waszego sprawiedli- 
+wego rozsądku appellował.] Y do Re- 
+nata kapłóna tenże pisze: [Stolica Rzym- 
+ská trzyma rządzenie kośćiołow wszy- 
+tkiego Świata, у dlń inych przyczyn у 
+prze*) te, iż była zawżdy od smrodow 
+heretyckich prożną, a nikt na niey nie 
+śiedźiał, ktoryby źle o wierze $. trzymół. 
+Gennadius  Scholarius  Patryar- 
+
+
+cha Caro- 
+
+
+cha Carogrodzki, lib: de primatu ca: 7. 
+pisze: [Biskup Rzymski iest głową wszy- 
+tkiego kośćioła, y mistrzem. iemu tylo 
+dáno iest o wierze sąd у wybadanie czy- 
+nić, y rządźić wszystkim światem, he- 
+retyki z ich плеуве wyganiać, a prawo- 
+wierne przywracać.] To Patryarcha Ca- 
+
+rekom. Tenże ni- 
+
+
+rogrodzki swoim 
+zey mowi tamże: [Wschodni**) Bisku- 
+pi nie mieli się do kogo inego vćiekać 
+w krzywdach swych iedno do Biskupa 
+Rzymskiego, przypominając mu sło- 
+wo to Pańskie do Piotra §. rzeczone: 
+Potwierdzay braćią swoię. у przypo- 
+mini Chyyzostoma §. ktory do Jnno- 
+cencyusza w swoich krzywdach appello- 
+wół. у inne. 
+
+enże tak mowi w rozdź: 16. [Bi- 
+skup Rzymski, iest następnik $. Piotra, 
+y namiestnik Zbawićiela naszego Jezu- 
+sa Chrystusa, у on sim má moc nawyż- 
+szą rządźić kośćioł, zwięzować y roz- 
+więzować, karać y błogosławić, y wy- 
+klinać, naprawować y leczyć, y on sam 
+ша moc 0 wierze у o kapłaństwie wypy- 
+tywać się.] Y przywodźi starego y wiel- 
+kiego y świętego v Grekow Theodora 
+Studytę, ktory tak do Papieża Pa- 
+schala pisze у mowi: [Stuchdy głowo 
+Apostolską od Boga wybraną, paste- 
+гла owiec Chrystusowych, kluczniku 
+krolestwa niebieskiego, opoko wiary, 
+przez ktorą zbudowany iest Katholicki 
+kośćioł Boś ty iest Piotr Piotrowę 
+stolicę okraszaiacy у rządzący. Tu, pra- 
+wi, przyidźi**) (do Carogrodu przećiw 
+heretykom obrazoborcom: żył ten Stu- 
+dites około roku P. 820.) od zachodu 
+słońca, a ше odmiatńy nas do końca. 
+Bo do kiebie rzekł Chrystus Bog nasz: 
+Ty  nawrocony  potwierdzaąy  braćią 
+
+
+Wo) 
+
+enże Theodorus Studites do 
+Michała Cesarza obrazoborce*5) pisze: 
+[Ziachawszy się, iakośćie roskazali, Bi- 
+skupi y inni przełożeni, waszesmy wąt- 
+pliwośći rozwiązali. ale iesli ieszcze w 
+czym wątpi abo nie wierzy wielmoż- 
+ność wasza: prośćie о wykład Papieża. 
+Ręka wasza od Boga vmocnionś, po- 
+spolitego pożytku pragnąca, niech ro- 
+skize od starego Rzymu wźiąć obia- 
+śnienie. Bo tak nám od początku od 
+oycow naszych podano. Ta stolica sta- 
+rego Rzymu, о naśladowco Chrystu- 
+
+
+http://rcin.org.pl 
+
+
+sow Cesarzu, miedzy inemi wszytkiemi М 
+
+
+Piotr pierwszą trzymół stolicę, do kto- 
+rego Рап rzekł: Tyś iest opoka, a na 
+
+
+tey opoce zbuduię kośćioł moy, a brany*5) | 
+
+
+piekielne nie przemogą go.] - 
+
+Stuchaymy co pisze Justynińnus 
+Cesarz do Epiphaniusza Patryarchy 
+Carogrodzkiego, tamże w Carogrodźie, 
+a ten list kładźie Gennadius Caro- 
+grodzki Patryarcha, w rozdźińle osmym 
+o zwierzchnośći: [We wszytkim zacho- 
+wuiemy postanowienie iednośći prze- 
+świętych kośćiołow, ktore się z prze- 
+naświętszym Рара у Patryarchą sta- 
+rego Rzymu sstało,*?) do ktorego toż 
+piszem, iż my tego nie dopuśćim , aby | 
+wszytkie sprawy do stanu kośćielnego 
+służące, do iego błogosławieństwa ia- 
+ko do głowy wszytkich przeświętych 
+Карлом, przynoszone być nie miały. | _ 
+A iż po wszytkie czasy, gdy w tych stro- 
+nach heretycy powstawali, wyrokiem y 
+rozsądkiem*) oney cz6i godney stolice o- 
+degnani są: y nam się to godźi mowić, 
+y tak zamknąć: iż ći wszyscy ktorzy go 
+chcą mieć у maią za głowę, to iest Pá- 
+pieża, są Święći i prawdźiwi Boży ka- 
+płáni у słudzy wierni, a ktorzy niechcą 
+ani go za głowę swoię maią, nie są 
+Boży kapłani.] Obaczże każdy powá- 
+gę tych słow, co starzy Patryarchowie 
+y Cesarze Carogrodzcy, o tey Ś. stolicy 
+trzymali. у za temi słowy przykłada to 
+Gennadius pomieniony: [Ktorzy, pra- 
+wi, nie idą za stolicą Piotra $. Rzym- 
+ską, odszczepieńcy są, у w herezyą урд- 
+daią, y cokolwiek czynią, wszytko iest 
+zfółszowane у niepożyteczne.] То Grek 
+do swoich Grekow. 
+
+
+Iż tey zwierzchnośći swoiey Rzymski 
+Biskup viywdl nad wszytkiego swia- 
+ta kośćioły, świadectwo Greckich 
+Doktorow. Rozdział 3. 
+
+
+Swieżo skoro po Apostolech**) oko- 
+ło roku P. 190. Wiktor Papież mę- 
+ezennik,. roskázáł kośćiołom w Azyey, 
+aby Wielkieynocy nie święćili z Zyda- 
+mi 14. dnia po nastaniu mieśiąca pier- 
+wszego, ale w Niedźielę za tym dniem 
+idącą. Czego gdy vczynić niechćieli, on 
+ie wyklął у duchowną mocą pokdrét.™) 
+To pisze Husebius Grecki lib: 5. hist. 
+
+
+cap: 24, 
+
+
+kośćioły nówyższe má mieysce, gdźie| | | 
+
+
+ea iż 
+
+
+Zł Obrona Synodu Brzeskiego. 
+cap: 24. Prawda iż iego skwapliwośći 
+
+
+przyganił Trenaeus: ale mocy у iurisdi- 
+|cyey nie przół. й 
+
+Athanazyusza Alexandryiskiego Pa- 
+tryarchę, niesłusznie z stolice od Атуд- 
+now złożonego, Papież Julius przywro- 
+Gil. To pisze Zozomenus lib: 3. cap: 7. 
+
+Theophila także Alexandryiskiego 
+Patryarchę Znnocentius pierwszy Pá- 
+pież z stolice zrzućł, o krzywdę $. Chry- 
+zostoma. у Arkadyusza Cesarza dla tey- 
+
+|że przyczyny y żonę iego Eudoxyą wy- 
+klął. To pisze Grecki Меерћ: lib: 13. 
+cap: 34. 
+
+Celestinus Papież Carogrodzkiego 
+Patryarchę Nestoryusza wyklął, y z 
+stolice złożył. Conc: Eph. у Cyrillus. 
+
+Тео Papież. pierwszy, Dyoszkora 
+Alexandryiskiego, y Juwenśla Hierozo- 
+limskiego Patryarchy, iako heretyki po- 
+{ери у z stolice złożył. Pisze Nicepho- 
+rus Grecki. у Foelix Pipa, Piotra An- 
+tyoskiego Patryarchę potępił у zło- 
+żył: tenże Nicephorus „pisze. 
+
+Agapitus Papież, Antyma Cargroo- 
+dzkiego dlń herezyey, sam do Carogro- 
+du przyiachawszy z stolice złożył, a sám 
+ręką swoią Mennę na toż Biskupstwo 
+poświęćił у wsadźił, choć Cesdrz Justi- 
+
+
+nianus za Antymem się wstawiał. To 
+pisze Zonaras in vita lustiniant. 
+Ośm innych Patryarchow Caro- 
+
+
+grodzkich wyliczi Mikołańy pierwszy 
+Pópież, ktore Rzymscy Biskupi dla he- 
+rezyi złożyli, a inne na ich mieysca pra- 
+wowierne postawili. Тос znać iz moc 
+a zwierzchność nad nimi mieli. 
+Damasus Papież, pisze Theodore- 
+tus Grecki lib: 5. hist. cap: 23. złożył 
+Flawińna Patryarche Antyoskiego z 
+iego stolice, у 106141 ieźdźić do Rzymu 
+sprawuiąc się o heretyctwo.51) Kto chce 
+więcey tych przykladow  vżywaniń 
+zwierzchnośći Papieskiey nad Biskupy 
+swiata wszytkiego, czytáy*?) książki o tym 
+po Polsku pisane: O rządźie kośćielnym. 
+
+
+lako Biskupi ze wszytkiego Chrześći- 
+aństwa do Rzymu appellowali, y o 
+
+
+prawie kośćielnym 0 tym napisanym 
+
+
+yw Ruskich prawidlach oycow SS. 
+nalezionym. Rozdział 6. 
+
+
+У po tym nawyższą moc у zwierz- 
+chność Papieska три Ff Biskupy 
+
+
+518. 
+
+
+poznać, iż do nich, iako przedniey sto- 
+
+
+lice Piotra $. ze wszytkiego świata ap- 
+pellacye czyniono, na ich się rozsądek 
+
+
+daiąc, у nawyższy trybunał kośćielny | 
+Piotra Ś. w nich wyznawaiąc. O слут |. 
+
+
+są y prawa kośćielne, y Concilium Sar- 
+dyceńskie 330. Biskupow tak w czwśr- 
+tym Капоше mowi: [Gdy ktory Bi- 
+skup złożony będźie za rozsądkiem5*) tych 
+Biskupow, ktorzy w sasiedztwie miesz- 
+kaią, a odwoływać się będźie z sprawą 
+swoią do Rzymu, шпесо) Biskupa na 
+stolicę złożonego stawić nie maią po 
+tym gdy appellowdt, aż się iego spra- 
+wa rozsądkiem Biskupa Rzymskiego 
+skończy. 
+
+O czym w Ruskich Słowieńskiego 
+ięzyka prawidłach oycow świętych takie 
+się pisma nalazły. 
+
+W Soborze Chartagińskim,*5) rozdź: 
+138. Presbytera Sobor z iego dostoy- 
+nośći złożył: on potym do Celestyna 
+Papy Rzymskiego vćiekł się, od ktore- 
+go był przyięt,5*)y list ой71ег241, aby 
+iemu zaś przywierniono iego Prestol. 
+
+Antyoskiego Soboru  prawidło 
+ezwarte y piąte. Złożonemu 了 piscopu 
+abo Presbyteru od wśich57) Episcopow 
+appellacyń nie idźie, tolko do własneho 
+Papy Rzymskiego. 
+
+Tamże prawidło czwśrte. Episcopa 
+złożonego, па iego mieysce nie sta- 
+wiać inego, iesli Rzymski nie roskéze. 
+Tot bowiem rozeznaiet, abo posłowie 
+iego. 
+
+W Soborze Chalcedońskim prawidło 
+dźiewiąte. Episcop z Episcopem, ie- 
+sliby midt przą, do cudzego Episcopa 
+nie mogą się vdawać, bo to Rzymskie- 
+mu osudźić należy. 
+
+W świętym Wseleńskim Soborze 
+Niceńskim wtorym. esy | Episcop, 
+iesli nie polubit sudu ich, a budet apo- 
+lowaty, tedy maiet ten Sobor осо: 
+Mitropolit у Episcopi odsyłaiący do 
+Rzymskiego, ten wszytek sąd wypisać, 
+dla czego у iako osudźili iego. ' 
+
+
+O Grekach y Patryarchach Caro- 
+grodzkich, tako długo w iednośći Ko- 
+śćielney, у pod posłuszeństwem Pdpie- 
+skim żyli, у tako się od niego od- 
+rywaiąc, zasię итасаћ. 
+Rozdzidł 7. 
+Przez ty- 
+„2% 
+
+
+519. Obrona 
+` Przez tysiąc lat blisko Grekowie z 
+swoim Patryarchą w iednośći kośćiel- 
+ney y pod posłuszeństwem Biskupow 
+Rzymskich zostawali (okrom czasów 
+heretyckich, Aryańskich y obrazobor- 
+skich, w ktorych niespokoyne zamieszki, 
+ale nie długie barzo, bywały.) Bo śiedm 
+Soborow powszechnych spolnie z sobą 
+w zgodzie y iednośći odprawili, tak 
+wschodni iako у zachodni Biskupi. Sio* 
+dmy przećiw obrazoborcom  Niceński 
+'|wtory, czynili Roku P. 790. za czasu 
+Adryńna Papieza. Na wszytkich śie- 
+dmi тј ch Soborach55) pierwsze miey- 
+sce miał, у posłowie iego, Papież, у 
+on za pozwolenim Cesarzow wszytki 
+Sobory składał, у ziachać się na nie ro- 
+skazowśł, у co postanowili oycowie oni, 
+na to potwierdzeniń iego zawżdy pro- 
+Sili. Co się z dźieiow tych Soborow ia- 
+snie barzo pokazuie. 
+Po siodmym Soborze około Roku 
+Р. 860. Jgnacyus Patryarcha Caro- 
+grodzki у wszytkich Grekow za świę- 
+tego poczytany, Bardę przemożnego ра- 
+na, ktory v Cesarza Michała syna The- 
+ofila, wszytkim rządźił, wyklął, у do 
+kośćioła nie puśćił, o sprosne iego ka- 
+źirodztwo, у własney żony opuszczenie. 
+Czym rozgniewany, Jgnacego za ná- 
+mową Cesarską nie tylo z stolice zrzu- 
+Gił, ale go do więźieniń w grob®) iakis 
+podół, у potym do Mityleny. wyspu wy- 
+gnół, a Phocyusza człowieka świeckie- 
+go, ale barzo vczonego, na iego miey- 
+sce posadźił. Czym obrażony Mikołáy 
+pierwszy Papież, wysłał swoie posły do 
+Carogrodu tylo na wźięćie sprawy, у 
+na scrutinium rzeczy oney. Lecz posło- 
+wie iego od Bardy oszukani, niesłusznie 
+Phocyusza na stolicy potwierdźili, y J- 
+gnacego potępili. О czym wźiąwszy 
+Papież Mikołay lepszą у prawdźiwą 
+sprawę,5%) Concilium w Rzymie zebrół, у 
+na nim posły swoie pokśrół,*') dostoień- 
+stwa im odeymuiac. У przywroćił na 
+stolicę Carogrodzką Jgnacego, a Pho- 
+cyusza zrzućjł. Pisze Gennadius lib: 5. 
+сар: 16. iż sam Mikołay Pópież dla о- 
+ney potrzeby kośćielney do Carogrodu 
+ieżdźił, у Michała Cesarza od Phocyu- 
+sza odstraszył, y przywroćił Jgnacego. 
+Lecz zaś wygnany był Jgnacyus, aż 
+Roku P. 868. Адгуда wtory Pópież 
+Concilium abo Sobor w Carogrodźie 
+
+
+http:/rcin.org.pl 
+
+
+Synodu Brzeskiego. — 
+
+
+` | Gil, naiachół, у mocą ie Cesarską do te- 
+
+
+złożył, ktory osmym Laćinnicy zowią 
+ZA CZASOW оу Maośdoiia Osan! 
+rza, ytam Phocyusza ze wszytkimi oycy 
+zebranymi znowu z stolice ОБО. 
+kiey 717061}, у posadźił Jgnacego. 
+
+W tym roziadły Phocyusz wiele 
+szkodliwego pisma wydawał, potwarza- 
+iąc kośćioł Rzymski, у przygśniaiąc 
+mu o wiarę, około pochodzenia Ducha 
+$. yo przasny®) chleb w ofierześ. у іпе| - 
+szczere potwarzy zmyślaiąc, srodze Gre- 
+ki wszytki na kośćioł $. obiątrzył. У od 
+onego czasu wzwasnieni byli Grekowie 
+na kośćioł Rzymski. Y gdy Jgnacyus 
+Patryarcha vmarł, zaś Phocyusza na 
+iego mieysce wtrąćili, ktory wi 
+nieprzyiaćielem Rzymskim Biskupom zo- 
+staiąc, a zawżdy przećiw im**) pisząc, у 
+na swoie następniki y wszytkę Grecyą 
+а on gniewu у potwśrzy swoich му. 
+
+d onego czasu Patryarchy Caro- 
+grodzkie Cesarze ich, iako y kiedy chćie- 
+li podawali y składali, y tegoż samego 
+Phocyusza Leo Philozoph Cesśrz z sto- 
+lice zrzućił, y ine po nim, iako chéieli y 
+roskazowali, na prawa kośćielne, na 
+kánony, у na stan biskupi nic niedbaiąc. 
+Во gdy od prawdźiwego duchownego 
+starszego swego Pópieża Patryarchowie 
+Carogrodzcy odstąpili, w ręce y w rząd 
+świeckich panow, słusznym od Boga 
+karanim wpadli. Na co się stary pis 
+Grecki historyk Coniatas lb: 6. cap: 5. 
+żałuie. Jednakże ieszcze byli iawnie od 
+posłuszeństwa Papieskiego nie odpadli. 
+Błędy Laćinnikom przyczytali,®*) ale ich 
+nie wyklinali, ani za heretyki mieli. 
+
+Aż dopiero nieszczęśliwy y nad ine 
+iadowity y száleńszy Michał Patryarcha 
+Carogrodzki Roku P. 1053. począł På- 
+pieże wyklinać, у Laćińskie klasztory z 
+Carogrodu wymiatać, y kośćioły im 0- 
+deymować, у Bulgiry ktore Mikołáy 
+Papież do wiary 8. przez у; rylla у Ме- 
+thodyusza Biskupy Słowieńskie nawro- 
+
+
+go przymuszał, aby Laćińskich kapla- 
+now odstąpili, a do Greckich przystali: 
+y przewiodł to, iż skie duchowień- 
+stwo stamtąd wygnół. О co się Papież 
+Leo dźiewiąty zawziawszy, list pisał do 
+Michała barzo vczony y dźielny, ktory 
+po dźiś dźień czytamy, y posły swe do 
+niego posłał, przez ktore się vspokoił, 
+
+do posłuszeństwa kośćioła Rzymskiego 
+
+
+2 swoimi 
+
+
+Obrona Synodu Brzeskiego. 
+
+
+z swoimi Grekami у Cesarzmi wroćił. 
+
+
+W tym Ruskie kraie wiarę świętą 
+Chrześćiańską, a polskie mało co przed 
+tym przyjęły, Ruś do Carogrodu, a Po- 
+lacy do u, iako ktorym byto bli- 
+zey, posły swoie wysłali, o kaplany y 
+biskupy prosząc. Była na ten czas zgo- 
+da y iedność, co po prawidłach oycow 
+świętych Słowieńskiego y Bulgarskiego 
+ięzyka v Ruśi dobrze znać, w ktorych 
+przełożeństwo nad kośćioły wszytkiemi 
+Pźpieżowi дала, у appellacyą do niego 
+vtwierdzaią. Bo nowi Grekowie takie 
+rzeczy z kśiąg swoich starych wymia- 
+(аја, у wymazuią. } к i 
+
+W roku zaś Pańskim 1088. ziachali 
+się Grekowie y Laćinnicy w Barze, y 
+
+
+tam znowu iedność $. vtwierdźili, у 0- | 
+
+
+nę praygang, o pochodzeniu Ducha 5. у 
+od Syna, z kośćjoła 8. znieśli, у staro- 
+wieczne posłuszeństwo Vrbanowi wto- 
+remu oddali. Na tym Concilium był 
+nasz Laćiński zacny Doktor у Biskup 
+Anselmus Kantuaryeński. Pod ten czas 
+vczony barzo Greczyn Vgo*5) Eterianus 
+abo Heterianus, napisał kśięgi о pocho- 
+dzeniu Ducha §. y od Syna, przećiw 
+swoim Grekom, Laćiński kos¢iot od 
+nich spotwśrzony oczyśćiaiąc. w tych 
+kśięgach lib: 9. cap: 17. ty słowa ma: 
+[2 tych, prawi, iasnych wywodow wi- 
+
+ieć się może, iż Piotra 8. у iego po- 
+tomki vczynił Chrystus na wszytkie wie- 
+ki przełożonemi, y głowę nie tylo La- 
+ćinnikom, ale у Grekom, zachodnym у 
+pułnocnym kraiom wszytkim, y Ormia- 
+nom, y Arabom, y Zydom Madyanitom, 
+у wszytkim wschodnym у pułdniowym”%) 
+stronom.] 
+
+‚ Potym roku P. 1139. wszyscy spo- 
+łem Grekowie y Laćinnicy ziachali się 
+do Rzymu na Laterańskie Concilium, 
+za Papieża Jnnocencyusa wtorego. Na 
+tym Concilium był sam [Patryarcha Ca- 
+rogrodzki, y tam posłuszeństwo oddali, 
+y zwierzchność Papieską nad sobą przy- 
+znali. Co się z listu $. Bernata poka- 
+zuie Epist: 126. 
+
+Roku zaś 1180. gdy Alexius Ce- 
+sarz Carogrodzki barzo Papieza у ko- 
+śćioł Rzymski cz¢it, у w Laćinnikach 
+się barzo zakochół, Grekowie to w nim 
+ganiąc, onego pana swego zabili, y po- 
+sła Papieskiego śćiętego po rynku wło- 
+czyli, у głowę iego у psa vwiązawszy, 
+
+
+http://rcin.org.pl 
+U м2 “І 
+
+
+AWA = 
+
+
+k 
+
+
+` 520. 
+
+
+okrućieństwo wielkie y nad inemi La- 
+ćinniki czynili. О ezym napisał ich 
+Coniata у Guilhelmus Tyrius. Гау 
+tegoż czasu Turcy krolestwo swoie za- 
+częli, y z Otomańskiego domu y fami- 
+liey pierwszego sobie krola obrali, na 
+zgubę onego Greckiego państwa. _· 
+
+Potym za staranim Papieżow, kto- 
+rzy przedsię*?) o Greckie się zbawienie, у 
+do kośćioła przywrocenie starali, у 24- 
+cne posły y ludźie vczone do Carogro- 
+du posyłali, na ich one szaleństwa nied- | 
+baiąc, rychło się zaś vpamiętali. Во 
+roku P, 1273. Grzegorz dźiesiąty Pá- 
+pież vczynił Sobor w Lugdunie, na 
+ktory Greki przyzwał, сале 500. Bi- 
+skupow było, у sam Cesarz Carogro- 
+dzki, јако drudzy piszą, Michał Pale- 
+ologus był na tym Concilium. y tam zaś 
+z Greki wszytko vspokoili, у one swary 
+o pochodzeniu Ducha $. у znowu się 
+ziednoczywszy posłuszeństwo oddali. 0 
+czym pisze Nicep: Gregoras li: 5. y Pa- 
+chimeres lib: 5. Grekowie obadwa. 
+
+W ten czas па Carogrodzkiey sto- 
+licy SiedZiat Becus, barzo wielki tey ie- 
+dnośći miłośnik, ktory się z serca o nię**) 
+staráł. со о nim пара Gregoras у 
+Glicas Grekowie. 
+
+W ten czas też żył barzo vezony у 
+swięty Greczyn Nicephor Blemmidas, 
+ktory przećiw swoim Grekom у barzo 
+vczone kśięgi wydáł , broniąc Papieskiey 
+zwierzchnośći, у całośći 6. wiary, O 
+świadczy Gregoras, acz nieprzyiaciel 
+Laćinnikow, y nasz Guilhelmus Duran- 
+dus, ktory w tym wieku iego był ro- 
+wiennik. W ten czas też Laćinnicy 
+ChrzeS¢ianie wyprawili się na Turki y 
+Saraceny do Bożego grobu, у ośmdźie- 
+Siat lát trzymali Carogrod, w iednośći 
+kośćielney y posłuszeństwie Greki za- 
+trzymówaiąc.5*) 
+
+Rychło się zaś Grekowie do swo- 
+iego odszczepieństwa wroćili, y roku 
+P. 1882. za Adronika mnieyszego Pa- 
+leologa Cesarza Carogrodzkiego, pisze 
+Gregoras Greczyn, iż Papież posłał do 
+Carogrodu dwu Biskupow, ktorzy Gre- 
+kow vpominali, y na dysputacye wy- 
+
+
+zywali, Ale nikt się z nimi wdać w 
+rozmowę опе nieśmiśł. bo żądny się, 
+mowi Gregoras, rowny im w nauce nie 
+181424. А roku P. 1888. Barlaamus 
+
+
+mnich z Kalabryey, przez trzy lata mie- 
+szkaiąc У 
+
+
+szkaiąc w Carogrodźie, a na Greki wo- 
+łaiąc, y one na dysputacye wyzywaiąc, 
+nic nie sprawił, y wygnany stamtąd, 
+do domu się wroćił. To tenże pisze 
+Gregoras. 
+
+Nakoniec pisze Gennadius Carogro- 
+dzki Patr: lib: 5. cap: 15. ktory mogł żyć 
+mało co po tych czaśiech około roku P. 
+1400. iż pamięta, gdy w Carogrodźie 
+młodym będąc posła Papieskiego sły- 
+3241 dysputuiacego z Barlaem mnichem, 
+o Papieskim przełożeństwie, tak mowę 
+swoię zamykał: Ја wasze wymowki 
+у гадамаша vmiem rozwiązać у ro- 
+strzygnąć: ale wy tylo plotkami się y 
+kłamstwem bawićie. Dla tegoż to mo- 
+wię, co mi y innym Grekom mowić 
+roskazńno: Pópież tak mowi: Jesli 
+chcećie a słuchać będźiećie, dobrego na 
+źiemi zażyiećie: a jesli піесһсебе, a 
+nie vsłuchaćie, od miecza росіпіейе. 
+czytóy, mowi ten Patryarcha, a zndy 
+iesli się tak sstało. 
+
+Trwała niezgoda Greckiego odszcze- 
+pieństwa aż do Concilium Florenckie- 
+go, ktore było roku P. 1439. na kto- 
+rym ostatnie było ziednoczenie y v- 
+spokoienie, o ktorym się mowić będźie, 
+to powiedźiawszy. Naprzod rzec się 
+może, iż Grekowie iakoby zawżdy byli 
+pod posłuszeństwem kośćielnym: Во 
+przez tyśiąc y sto lat vstawicznie w nim 
+trwali. Przez cztery sta lat często się 
+odrywali, ale się zaś wracali. У żódne- 
+go sta lat nie było, żeby co się v nich o 
+tey 8. iednośći nie wznowiło. w ktorey 
+iż byli niestateczni, Ката) ich tym Рап 
+Bog: iż gdy od Papieżow odstępowali, 
+у panow у Cesarzow swoich w tyrań- 
+ską moc урадан, ktorzy Patryarchy 
+y inne Biskupy dawali y składali iako 
+chéieli, y wierzyć im, y nauczać wedle 
+swey myśli kazali. О czym napisał 
+ich Coniata lib: 6. cap: 5. iz Cesarzo- 
+wie Greccy wźięli sobie moc na ducho- 
+wne у na kośćioły, prawa im stawiąc 
+iako chéieli. Co się y dźiś w Moskwie 
+dźieie: co każe Hospodar, to być muśi, 
+y w wierze y w kośćiele. Y tu w Ruśi 
+takąż kaźń Pan Bog na ше puśćił, iż 
+świeccy duchownemi rządzą, y nie ow- 
+ce za pasterzmi, ale pasterze za owcami 
+idą: со iest karanie odstąpienia od włá- 
+snych starszych swoich przełożonych. 
+Bo kto własnego swego przełożonego 
+
+
+http://rcin 
+
+
+521. Obrona Synodu Brzeskiego. 
+
+
+nie słucha, iego też iemu pod egli nie | 
+słuchają. Jako Pźpieżowi pa | 
+
+
+.org.pl 
+
+
+stwo wypowiedzieli: tak ie swoim swie- 
+ckim czynić y poniewolnie oddawać mu- 
+szą: a nie tylo swoim świeckim, ale 
+dźiś y poganom. czego się żal Boże. 
+
+
+O ostatnim ziednoczeniu Grekow na 
+Synodzie Florenckim. Rozdz: 8. 
+
+
+Nie vstaiąca у gorącń miłość Pá- 
+ieżow świętych ku zbawieniu ludz- 
+Bia, у vspokoieniu Chrześćiaństwa, 
+nigdy około nawrocenia Grekow ше 
+proznowała. Eugenius czwarty z wiel- 
+ką pracą y nakładem obwieśćił wszy- 
+tki na świećie Chrześćiany,”') nie tylo 
+Greki, ale y inne Patryarchy, y Or- 
+miany, y Murzyny, y Jacobity: prosząc 
+aby się do Ferśrza ziachali, skąd się po- 
+tym do Florencyey przenieśli, roku P. 
+1438. у 1489. Przyiachał na ten wiel- 
+ki barzo Synod sám Grecki Cesśrz Ján 
+Paleologus z Patryarchą swym Joze- 
+fem, y z przednieyszemi y vczeńszemi 
+Biskupy: y cały rok na rozmowach y 
+dysputacyach z Laćinniki trwaiąc, pi 
+znali prawdę, ktorą Apostolski К »S¢iot 
+Piotra 6. zawżdy trzymóśł у podáwáł. 
+A zwłószcza około onych piąći artyku- 
+łach ,?2) w ktorych Grekowie niesłusznie 
+kośćiołowi Rzymskiemu przyganiali: iż 
+Duch ś. pochodźi y od Syna: iż tak 
+w przasnym iako w kwaśnym chlebie 
+chwalebne iest przenńświętszego Sa- 
+kramentu poświącanie у ofiarowanie: 
+iż święći Boży iuż w niebie zardz ро 
+wyszćiu”*) z ćiała patrzą па twarz Bożą: 
+iż Czyśćiec iest: iż Rzymski Biskup n 
+miestnik iest Chrystusow, у nóstępnik 
+Piotra 8. у głową wszytkiego Chrze- 
+śćiaństwa , ktoremu w Pietrze $. dana") 
+iest zupełną moc, na rządzenie wszyt- 
+kiego Kośćioła. Tę świętą iedność spol- 
+nie tam skończywszy, spisdwszy у za- 
+pieczętowawszy, roziachali się. A Jo- 
+zeph Patryarcha, po skończeniu wszyt- 
+kiego będąc starym tamże vmarł, taki 
+testament prawie przed skonanim napi- 
+sdwszy. 
+
+[Jozeph 2  miłośierdźia Bożego 
+Carogrodzki y nowego Rzymu Arcy- 
+biskup, у  Ekumenicki  Patryarcha. 
+Jżem ku końcu żywota mego przy- 
+szedł, dlá tego z powinnośći mey synom 
+
+
+miłym, 
+
+
+miłym z łaski Bożey, moie wyznanie 
+tym listem oznaymuię: iż to co Katho- 
+Пекі у Apostolski Pana ЈЕДУ Chrystu- 
+sow Kośćioł Rzymu starego trzymá у 
+święći, to id wszytko trzymam у wyzną- 
+wim, y na nim wielce przestaię. Prze- 
+błogosławionego też oyca oycow, у ná- 
+wyższego Biskupa Rzymu starego Pá- 
+pieza, przyznawam być Pana naszego 
+IEZVSA Chrystusa namiestnikiem: 
+tudźież też, iż Czyśćiec duszny iest, nie 
+przę. Dán we Florencyey osmego dnia 
+mieśiąca Czerwca, roku P. 1439.] 
+Ма się ieden Marek Epheski 
+Biskup, ktory będąc na Synodźie v- 
+por trzymół, a na wywody у prawdę 
+nic mowić nie vmiał Co na każdym 
+prawie Synodźie Generalskim bywa- 
+ło, iż kila abo kilanaśćie Biskupow he- 
+retyckich z więtszą się у lepszą częśćią 
+oycow Świętych nie zgadzało, a tu ie- 
+den tylo sim smiśł się tak wielkiey gro- 
+madźie oycow świętych sprzećiwić. О 
+co nie niedbali święći oni oycowie, z 
+урога się iego śmieiąc. О nim пара! 
+ennadius (Grecki Patryarcha Caro- 
+grodzki, ktory z nim na tym Synodźie 
+był we Florencyey, ieszcze człowiekiem 
+świeckim, te słowa: [Wierzkie nam, 
+do Grekow swych, lib: 1. de Spiritu S. 
+cap: 1. mowi, iż wam dobrze radzim, y 
+owszem nie wim ale prawdźie, a nie 
+tak hardo na nás się żałuyćie, iakoby- 
+сату z prostoty. y niewiadomośći Sy- 
+nodu vstuchali. Bosmy tam święte 
+ludzie widźieli, y wywodami ich zwy- 
+ćiężeni, za Laćinnikamismy poszli, у 
+owszem nie za Laćinnikami, ale za stá- 
+łą y prawą opoką Piotra, y za wiarą 
+zdrową Theologow, y nauką onych 
+Boskich mężow, ktorzy na tym Syno- 
+dźie przodkowali. przed ktoremi Ephe- 
+ski Marek, niewiedząc co się z nim 
+dźieie, y zadawaniu ich odpowiedźi im 
+dać nievmieiąc, vćiekł (do swey gospo- 
+dy.) y gdy go brat Jan (Turecremata) 
+ktory z nim dysputowśł, wołał, a mo- 
+wil:  Przywiedźóie tu  Epheskiego, 
+niech słyszym co na to powie. Y przy- 
+zwáł go Synod, (to iest oycowie oni) 
+aby przyszedł, a on niemoc sobie zadźł. 
+"| У na drugiey sessyey brat Jan mowił: 
+Niech tu przyidźie Epheskil, niech przyi 
+dźie: nie przystoi mu mowić, (w kąćie) 
+
+
+a naszych odpowiedźi nie słuchać. Dru- 
+
+
+т 了 党 
+
+
+7 
+
+
+Obrona Synodu Brzeskiego. 522. 
+
+
+gi raz go zaś Synod iuż prawnie przy- 
+zwśł, abo рогу, ale przyść niechéiat. 
+У tak gdy nie vsłuchał, Synod dekret 
+yezynit. A on się sprzećiwiśł nie iaw- 
+nie, ale pokątnie. Y tak go za nieprzy- 
+iaćiela 8. Soboru osądzono. Lecz iuż 
+vmarł, a iako gęba ona, ktorá na $. Sy- 
+nod warczała, y z iaką sromotą przy 
+czasu skonaniń swego żywota skończy- 
+ła, Gi wiedzą ktorzy się nauczyli praw- 
+dy mowić.) Poty Gennadius. 
+
+Był na tym Florenckim Synodźie 
+znaczny barzo у vczony Metropolita 
+Kijowski”5) у wszystkiey Бибі Jsidorus, 
+ktory z strony Ruskich kraiow nie tylo 
+na Synodalską zgodę у wiarę zezwa- 
+lat: ale iey miedzy swoią Ruśią, y w 
+Moskwie mocno popierół.?$) у w Grecy- 
+ey innym prawowiernym wiele pomá- 
+gat. W Sączu gdy się wrácáł, w na~ 
+szym kośćiele Laćińskim Mong ś. abo 
+Liturgią miał, y tam od Zbigniewa 
+Biskupa Krakowskiego z wielką czóią 
+przyięty iest, iako pisze nasz Miechowi- 
+ta. Y v krola Władysława Polskiego 
+y Węgierskiego przywiley swoiey Ru- 
+$i otrzymół. Co się po Synodźie w 
+Grecyey 121410, powie nám tenże Gen- 
+nadius. : 
+
+Terdz słowa drugiego Greczyna, 
+co o tym Synodźie Florenckim, y o 
+swoich Grekow vporze y złośći napi- 
+sat, położę.  Laonicus  Calcocondila 
+pisze de rebus Turcicis lib: 1. [Rzy- 
+mianie, ромада, у nawyższy Biskup 
+ich żadney pogody” anie opuszczaiąc, po- 
+syłali do Grekow, aby się ziachAwszy na 
+iedno mieysce, y Concilium abo Sobor 
+czyniąc, zgodę z strony wiary Świętey 
+miedzy sobą spoili. Lecz Grekowie 
+przez wiele 146 зугагу '%) przećiw Rzymia- 
+nom wszczynaiąc, niechćieli oycowskie- 
+go nabożeństwa swego zamieszać. Na- 
+koniec Jan Paleologus krol Grecki, 
+nabrawszy w Carogrodźie Biskupow у 
+vczonych Grekow, ziachał się z Bisku- 
+pem Rzymskim, Eugeniuszem czwśr- 
+tym. Tedy Grekowie y Rzymianie z 
+strony rzeczy w wierze 6. służących, 
+zgodźili się: Ale Grekowie ktorzy byli 
+doma zostali, niechćieli tego chować, 
+co się we Włoszech na Synodźie stano- 
+wiło. Stąd znać, powiada, iż Greko- 
+wie z strony wiary §. vstawicznie nie- 
+zgody Sidli у mnożyli.] To ten Greczyn. 
+
+
+k ij Położę y 
+
+
+т 
+
+
+httn://rAin ra | 
+Nnttp:/7/FCIN-OFG.pl 
+
+
+АК. 
+OZZIE 
+
+
+5285 0 _ Obrona Synodu Brzeskiego. Z 
+
+
+als $ 
+
+
+__ Położę у słowa Cesarza Greckiego 
+Jana Paleologa, ktore na tym Syno- 
+аде mowił: [J4, powiadń, ten święty 
+Generalski Synod nie mnieyszy być ro- 
+zumiem nad inne, ktore się abo więtszą 
+liczbą oycow, abo Grzegorzami, Cy- 
+rillami, у innemi zacnemi Doktorami 
+zalecały, у poważne były. rozumiem iż 
+też ten Synod niemniey iest pobo- 
+my, у święty, у nie mnieyszą та у mnie 
+vczćiwość, przeto iż na nim trudniey- 
+sze wątpienie rozbierane iest: y ludźie 
+przez ktore się to dźieie, wielkiey czéi 
+godni są: a zwłąszcza nawyższy Biskup 
+у Кети Patryarcha nasz przendswiet- 
+szy. Gdy tedy ten Zbor taki iest, у tak 
+wielki, iá z łaski Bożey Cesarz przesta- 
+wać chcę со on postanowi, у to co 053- 
+dźi, abo to na czym więtszą część oy- 
+cow przestanie, wedle zwyczaiu moich 
+przodkow, у wedle możnośći świętego 
+Cesarstwa, bez żadney wymowki bro- 
+nić tego obiecuię, у ФА tych przyczyn 
+przerzeczonych, у ФА tego iż tak rozu- 
+miem: iż gdźie na wielkich y General- 
+skich Synodach o nauce Bożey stano- 
+wią, wedle pospolitego oycow zdaniń, 
+Kośćioł Boży zbłądźić nigdy nie mo- 
+że. Bo być może, iż dwa abo trzey y 
+więcey, rzecz iaką iednę vwśżaiąc za- 
+błądźić mogą: Lecz kośćioł powszech- 
+ny, o ktorym Pán rzekł: Tyś iest opo- 
+ka, a na tey opoce zbuduię kośćioł moy, 
+y brany piekielne iego nie przemogą: 
+zbłądźić nigdy nie może. Bo inaczey 
+słowa Zbawićiela naszego prozneby*) 
+były, y wiaraby nasza vpadła. Co iżby 
+była wielką szkoda: wierzyć raczey má- 
+my, iż Kośćioł Boży omylić się nigdy 
+nie może. A tak, iakom rzekł, muśi Ce- 
+sarski maiestat kośćielnych wyrokow 
+bronić.] poty są słowa Cesarskie. 
+
+
+Co sig działo z Greki у z Carogrodz- 
+kim państwem po Synodzie Floren- 
+ckim, powieść Gennadyusza Pa- 
+tryarchy Carogrodzkiego. 
+Rozdzidł 9. 
+
+Gdy się Grekowie z Soboru Flo- 
+renckiego do domu wroćili: Marek 
+Epheski lud prosty, y Czernce, y Hu- 
+meny, y inne niewiadome a głupie pro- 
+staki poburzywszy, aby się onemu wszyt- 
+kiemu co spolnie z Ducha ś. y za zgodą 
+
+
+Chrystusowey miłośći postanowiono by- 
+ło, sprzećiwili: wielką przeszkodę do 
+wykonania oney 6. iednośći vczynił. 
+Jednak Cesirz stał mocnie,*9) у inni Bi- 
+skupi pospolstwu się vstraszyć nie dali. 
+Aż po śmierći Cesarza Jana Paleolo- 
+ga, gdy brat iego rodzony, Constanti- 
+nus AWA nazwany, ostatni Cesdrz 
+Carogrodzki, na państwo nastąpił, 
+schismę onę y odszczepieństwo odnowił. 
+Posłał był swoje розу do Papieża Mi- 
+kołaia piątego, na słowach go y obie- 
+tnicach swoich wieszaiąc:*') iż опе zgodę 
+y iedność kośćielną na Soborze Gene- 
+ralnym odnowioną у vczynioną po- 
+twierdźić, у do skutku przywieść miśł. 
+Lecz Papież widźińł chytrośći iego, у 
+przez one posły, mowi Gennadius w 
+księgach 5. w rozdź: 14. napisół list 
+pełny boiaźni y strachu, w ktorym iaw- 
+nie у z przeklinanim prorokuie, урадек 
+y zgubę ostatnią nieszczęśliwych Gre- 
+kow. W tym liśćie, po inych rzeczach, 
+gdy się dowićdźiał, iakie potwśrzy у 
+naśmiewiska Grekowie vstawicznie у 
+niewstydliwie czynili, to dźiwnie po- 
+wiedźiał: [Wszytkie národy wyrok, 
+ktory iest vczyniony, przyięły: Greko- 
+wie nie przyięli, у nie masz nadzieie aby 
+kiedy to przyjęli, co się o zgodźie у iedno- 
+śći postanowiło: odwłoki za odwłoką 
+czyniąc, wymowki y odpowiedźi na 
+rzecz każdą. Niech nie rozumieią Gre- 
+kowie, aby Rzymski Biskup tak był bez- 
+rozumny, y w. k zachodny kośćioł, 
+aby nie rozumiáł iako na każdey odwło- 
+ce kłamaią. Wiemy wszytko barzo do- 
+brze, ale ćierpim y znośim patrząc na 
+IEZVSA wiecznego Kapłana y Pa- 
+na, ktory ono niepłodne Figowe drze- 
+wo do trzećiego roku zachować kézal, 
+gdy gospodśrz iuż był śiekierę na wy- 
+Себе nagotował.] О мека nedzo. 
+Roku Pańskiego 1451. ten list napisał, 
+a Roku Pańskiego 1453. Carogrod iest 
+wźięty. [Jzóli możećie mowić (mowi 
+do swoich Grekow) że to nie prawda? 
+Nie możećie. bo tak to iest iawno, iż 
+rzęcz sama mowi. Trzy lata, prawi, 
+
+
+czekać będźiem, azá się od schismy у od- | | 
+
+
+szczepieństwa nawroćićie, y do wyroku 
+przystaniećie, 
+о drzewie Figowym roskdzanié. A ie- 
+sli się nie nawroćićie, wytną wás, aby 
+ziemia prozną у niepożyteczną nie by- 
+
+
+Attn 
+
+
+ја] Toć 
+
+
+:[femin arn NI 
+nttp://rcin.org.pl 
+
+
+wedle  Zbawićielowego | 
+
+
+Obrona Synodu Brzeskiego. 
+
+
+_ |1ај Тоб iest cud nad cudy wielki, iz 
+| Ga о pisze w liśćie swoim Mikolay 
+ара) Grecki narod on wielki y stra- 
+
+szliwy, y mądry, sławny y mocny, ktory 
+
+świat opanował, za pomstą Boską od 
+dźikich ludźi w niewolą poimany iest. 
+
+У niżey mowi tenże Patryarcha: ca: 15. 
+
+[Carogrod wźięty, płakać, у wołać, у 
+
+ryczeć, tylo na to wspomniawszy, mu- 
+
+szę: ołtarze pomazane, kośćioł pode- 
+ptamy, krew rozláná, mniszki pogwal- 
+сопе, panny pokażone, dźieći wyśćina- 
+ne, panowie wybići, mniszy, kapłani, 
+niewiasty, małżeństwa rozerwane, ná- 
+czynia święte połamane, obrazy prze- 
+śliczne podeptane, y ślinami oszpecone. 
+
+О iá nieszczęśliwy у nędzny. a kto może 
+
+ten vpadek wypowiedźieć. Wszytko 
+
+Machomet pożarł. Nie tylo krolowa 
+
+midst w ich, ale y do niey służące 
+
+krainy, co dźień więtsze y gorsze rzeczy 
+ćierpią, o ktorych słyszym, у na ше pa- 
+
++ | лут. Ale dlá czego to wżdy? Mo- 
+wićie, 014 grzechow naszych. А iá mo- 
+wię, nie licy my a niżli inne narody 
+Ohrześćiańskie Boga obrażamy. у ow- 
+szem więtsze v nich grzechy, czemuż ich 
+tak P. Bog ше kárze, iako nieszczęśli- 
+wy у mizerny narod nasz kárze? Nie- 
+stetyż mnie nędznemu. Muszę płakać 
+9 a pytać się o przyczynę dla 
+
+orey to ćierpim. Ja inszey nie mogę 
+naleść, (bo narod nasz w спобе nad in- 
+sze narody pośledni nie iest, y owszem 
+
+lepszy, ktory ine narody w cnoćie y w 0- 
+byczaiach przechodźi.) Jnszą tedy nie 
+iest przyczyna vpadku naszego, iedno 
+
+{schisma у odszczepieństwo, iż się oddali- 
+li od posłuszeństwa y poddaństwa Rzym- 
+skiego kośćioła. Tę samę nayduię być 
+przyczynę zguby naszey. Bo skorosmy 
+się oddźielili od niego, wźięlismy prze- 
+klęctwo, y.to ćierpim co ćierpim. A ie- 
+dnak nie żałuiem, ale gorszemi zosta- 
+iem, y złorzeczym temuż kośćiołowi.] 
+poty Gennadius. 
+
+
+Vpominanie tegoż Gennadyusza do 
+swoich Grekow, у zatym do пато- 
+dow Ruskich, y innych. 
+Rozdział 10. 
+
+Вгаба moi w Chrystuśie, opuść- 
+
+
+my tę rospacz, przystąpmy do Chrze- 
+śćiańskiey iednośći, pozniymy grzech 
+
+
+524. 
+
+
+nasz, abysmy nie byli gorszy niżli Zydo- | 
+wie; dla fałszywego у złośliwego oszu- | 
+Ката , ше zatuldymy vszu, Zebysmy sły- 
+szeć nie mieli, у nie rozumieli. Słuchóy- 
+my Chrystusa na Apostoły wołaiącego : 
+[Kto was słucha, mnie słucha: kto wa- 
+mi gardźi, mną gardźi, A kto mną 
+gardźi, tym gardźi kto mię posłół.] 
+Prówdźiwie się mowić godźi: Kto Pá- 
+pieża stuchi, Pana Chrystusa słucha: 
+a kto Papieża nie słucha, Pana nie słu- 
+cha: a kto Pana nie słucha, poimań- 
+cow у mieczem zwoiowanych stucha. 
+у niżey w Rozdź: 17. ‚Со mowi Cyril- 
+lus, gdy na Soborze trzećim czytać ká- | 
+zał list Celestyna Papieża: Oycowie 
+święći z odkrytemi głowami у ze cz¢ig 
+słuchali, у pochwalili. а na czwśrtym 
+tak rzekli: Aby przebłogosławiony Bi- 
+skup Rzymski, ktorego kapłaństwo nad 
+ine wszytkie starzy oycowie mieć chćie- 
+li, miał moc y wolność o wierze, y o ka- 
+płaniech wyroki у rozsądki czynić. Gdy 
+tedy o wierze у o kapłaniech má moc 
+rozsądki czynić: słusznie iest głową y 
+mistrzem wszytkich. Chrystusowych ko- 
+śćiołow. у my się onemu kłaniamy, у 
+onego czćimy, y posłuszeństwo oddaie- 
+my, у oddawać będźiemy pokismy żywi: 
+pomniąc na ono co mowi Apostoł: [Po- 
+słuszni bądźćie przełożonych waszych, y 
+polegáyćie im:**) bo oni ше spią, aby za 
+dusze wasze liczbę oddali.] Y nigdy tey 
+stolice Rzymskiey we Mszy $; у w mo- 
+dlitwach nie zapomniem,**) wedle poda- 
+niń świętych naszych, abysmy za błędy 
+nie idąc, od statecznośći prawowierney 
+wiary nie odpadli. Zapewne to maiąc, 
+iż ten ktory Papieżowi poddany nie 
+iest, nigdy zbawion być nie może. Y ten 
+ktory go nie wspomina (we Mszy) nie 
+iest kapłanem, ani godźien mieć kaplan 
+skiey mocy. 
+
+У nizey mowi tenże w Rozdź: 17. 
+Vpamietay¢ie się braćiń, a daley się nie 
+sprzećiwáyćie prawdźie, ani z pasterz- 
+mi dusz waszych woyny podnośćie. Bo 
+trudno, y głupiego rzecz iest gołą nogą 
+na ostre żelazo nalegać. Bo ten kośćioł 
+głowy wasze potrze, iako kamień iayca. 
+Głowy się wasze pogruchocą od tego 
+kośćioła. Bo kośćioł iest kamieniem. 
+Y Chrystus rzekł do Piotra: Tyś iest 
+kamień, a na tym kamieniu zbuduię 
+kośćioł moy. 9577 
+
+
+k ў 
+
+
+А wyższey 
+
+
+Tee “А She Pe > РА" ЈУ PETR Р У “А м 4/4 ~ ње“ Ур 
+
+
+Ja? у 
+
+
+> | 525: 
+
+
+_ А wyższey®*) w Rozdźiśle 12. mowi:| |taiemnice: ten iest heretyk, y zbawion || 
+
+
+Ci co wierzą y wyznáwaią, iż ieden iest 
+Kośćioł 5, Katholicki Apostolski, mu- 
+szą wżdy wiedźieć, ktory to iest. Bo 
+musi być abo wschodny abo zachodny. 
+co tak iest, iakoby rzekł: abo Laćiński, 
+abo Grecki. Bo inych nie naleść okrom 
+tych. y inne są okrom tych zabobońskie 
+fałszywe Synagogi y kacerstwa pełne. 
+Wylicziyze pilnie a patrz: Jesli mnie- 
+masz iż Grecki kośćioł iest ten, o ktorym 
+mowisz w Symbolum abo w Kredźie: 
+toć w niwecz Piotrowe wyznanie obro- 
+(182: Przećiw ktoremu brany piekielne 
+nie przemogą; mowi Chrystus. Bo 
+wszytek Grecki kośćioł, y owszem wszy- 
+tek wschodny od Machometa pozarty 
+iest. .ZAż ше widźim, iż wszyscy Patry- 
+archowie у Biskupi у Kapłani w moc 
+przyszli Machometowę ,*5%) у od niego na 
+kapłaństwo dozwoleniń proszą, у do 
+nog iego przypadaią, y zań się ponie- 
+wolnie modlą. Na ktorymże mieyscu 
+położysz, iż bramy piekielne, to iest vsta 
+heretyckie przećiw kośćiołowi Chrystu- 
+sowemu nie przemogą? Jzali na tym 
+mieyscu gdźie nie tylo vsta heretyckie 
+panuią: ale też y niezbożni y obcy pań- 
+stwo trzymaią? 
+
+Y niżey: Tam iest kośćioł, z ktore- 
+go nawyższy Biskup kaznodźieie na 
+wszytek świat posyła, па. opowiadanie 
+słowa Bożego, iako z Reguły ś. Fran- 
+ćiszka, у 5. Dominika, у z innych, do 
+wszytkich narodow z Ewangelią wycho- 
+dzą. Tam wyznawać kośćioł mamy, 
+gdźie nie masz herezyey, ani złośći, ani 
+niedowiarstwa: ale wiara mocną y nie 
+dobytá. у niżey w Rozdź: 19. przywo- 
+dząc Mataphrasta, јако, Chryzostom 
+widźiśł Piotra 5. z kluczami tak napi- 
+sal: Wierzćie iż bez posłuszeństwa ku 
+Piotrowi zbawieni być nie. możećie. а 
+to słusznie: bo on iest wrotami zbawie- 
+nia. kto przezeń do wiadomośći wiary 
+nie wchodźi, a nie zna go za namiestni- 
+ka Chrystusowego, nigdy zbawienia 
+dostąpić nie może. Bo iako rzekł Chry- 
+stus: Jam iest wrotami: kto nie wcho- 
+dźi wrotami, ale inędy właźi, złodźiey 
+iest у rozboynik. Tak у Piotr iego ná- 
+miestnik mowi: Kto przez mię w Sy- 
+na nie wierzy, iż iest niewidomego Bo- 
+ga y Oyca w ćiele vrodzony, ktory v- 
+mari, у zmśrtwychwstół, у inne wiary 
+
+
+Obrona Synodu Brzeskiego. = 
+
+
+być nigdy nie może. Tak trzymaiąc, | 
+iako tego świętych Doktorow pisma| 
+są pełne, kośćiołowi się poddawśymy, | 
+у w nim trwaymy, у w posłuszeństwie 
+iego trwać na wieki pragniem, abysmy 
+łaskawego Boga na dźień straszliwey | 
+zapłaty mieć mogli. Sstań się, sstań 
+się. poty Gennadius. ; 
+
+
+Vpominanie Chrześćiańskie do Ru-| 
+skich ndrodow. Rozdział 11. 
+
+
+Niechze 《ie wzruszy dostąpienie 
+zbawienia twego, Ruski nabożny ná- 
+rodźie, ktorego bez iednośći $. Katho- 
+lickiego kośćioła mieć nie możesz. Bo 
+iesli ieden kośćioł iest, тако w Kredźie**) 
+wyznawa¢ie, a u Grekow iuż od Tur- 
+ka za ich odstępstwo, iako ten Genna- 
+dius mowi, zwoiowanych, ten kośćioł, 
+ktory brany piekielne przemogły, być 
+nie może: muśić ten kośćioł gdźie in- 
+dźiey przebywać, tam сале Piotra &. 
+iest następnik, tam gdźie fundament 
+iest у opoka kośćielna, ktorego brany 
+piekielne nie przemogły, ani przemogą. 
+ktorego się nie trzymać, a od niego się 
+wyłączać, zguba iest wieczną, y cząstka 
+z przeklętymi. 
+
+Nie vćiekayćie od zgody у iedno- 
+śći: bo to iest nie tylo nie Chrześćiań- 
+skie, ale ani pogańskie, ani rozumne ser- 
+ce. Nie masz tak głupich na świećie, 
+ani tak dźikich ludźi, ktorzyby niewie- 
+dźieli, iż dobre ich, y zatrzymanie wszy- 
+tkiego 52076518 ich, na zgodźie у iedno- 
+śći vmysłow zawisło. Kto od zgody v- 
+бека, iako vczniem Chrystusowym być 
+może? ktory nam miłość y pokoy swoy 
+testamentem swoim zostawił, y na to 
+vmarł, wielki Bog y miłośnik ludzki, 
+aby syny rosproszone, iako mowi Jan $. 
+zgromadził do iednośći. У dla tego 
+kośćioł iego zowie się w pismie ćiałem, 
+w ktorym członki dźiwną  miłośćią 
+spoione są. y domem iednym, y owczar- 
+nią iedną, у woyskiem iednym, у Кога- 
+biem iednym: gdźie zgoda wszytko trzy- 
+ma, a niezgoda wszytko rosprasza у gubi. 
+
+Patrzkie iako P. Bog Grecki у kro- 
+lestwa ich o to pokśrół, iż tę zgodę od 
+Chrystusa Pana naszego  roskńzaną 
+targali. О iako się ich Chrystus za- 
+przół, mowiąc: Nie moi to vczniowie, 
+
+
+ktorzy mi- 
+
+
+м 
+
+
+|ktorzy miłośći spolney nie maią. Od- 
+
+
+stępuię ich, bierz Turku, zabijńy**) poga- 
+ninie у rospraszay, bo oni rospraszali, a 
+moią się iednośćią brzydźili. О inne 
+grzechy káráł ie Pan Bog, iako у nás 
+karze, głodem, morem, у леп") plága- 
+mi: ale o ten, spustoszeniem y mieczem, 
+y wyćięćiem korzenia v tego niepłod- 
+nego drzewa, na ktorym owocu miło- 
+‚| $@ у zgody przez tyle lat nie naydowśł. 
+Dobrze rzekł Gennadius: iż Grekowie 
+inne cnoty y pobożnośći mieli: tey sa- 
+mey zgody y iednośći kośćielney, y mi- 
+łośći Chrześćiańskiey nie maiąc, pogi- 
+пећ. у za to samo зкагаш, w mocy po- 
+gańskiey stękaią. | 
+Patrzkie na przeklęctwo Caro- 
+grodzkiey Patryarchiey, od ktorego sa- 
+mego moglibyśćie vćiekać, у nim się 
+zastraszyć, iako od Chore, Datana, 
+у Abyrona, gdy ie źiemia pożerała. Zá- 
+dnego Patryarchy nie má, ktoryby się 
+na iey stolicę wyżebranemi у wyfółszo- 
+wanemi drugdy**) pieniądzmi nie wku- 
+р 9) ieden drugiego na niey za poda- 
+niem Turkom wietszych®’) pieniędzy, spy- 
+cha: drugdy trzech, drugdy czterech 
+żywych má Patryarchow, a żadnego 
+nie ша prawdziwego, iedno wszytko 
+świętokupce. ktorzy wedle praw Bo- 
+żych y kośćielnych, y pieniądze y dosto- 
+ieństwa kośćielne tracą, tym samym 
+skoro w ten grzech wpadną. Nauka 
+Bożą у nich zginęła: złość się wiel- 
+k& y niezbożność miedzy ich ducho- 
+wne у Czernce??) rozkrzewiła, iż się ich 
+wiele Turczy y bisurmani. Niezgoda y 
+wasn miedzy nimi taka, iż dla ich ro- 
+sterkow?*) kośćioł Patryarchalny, do kto- 
+rego po wźięćiu Carogrodu z kośćioła 
+Zophiey 8. wygnani byli, w mieśćie 
+Carogrodzkim Turcy im odięli, y inny 
+na przedmieśćiu w kąćie podły podali. 
+Poćiechy żadney swoim posłusznym 
+Chrześćianom nie podaią: ani w nau- 
+ce, bo iey nie maią: ani w doyzrzeniu®) 
+rządu, bo go sami mieć nie mogą: ani 
+w obronie przećiw heretykom: ani w 
+miłośći ku zbawieniu ludzkiemu. Bo 
+miłość ich w odszczepieństwie zgasła. 
+Co tu ша@е za poćiechę у pomoc 
+z nich, gdy kogo od Siebie posyłaią? 
+więcey zamieszani -przynoszą, у złych 
+przykładow.  Przedńią  dostoieństwa: 
+pieniądze zbieraią, iako głodni: roz- 
+
+
+Obrona Synodu Brzeskiego. 
+
+
+| pisáł do iednego z Episcopow Ruskich: 
+
+
+596. | _ 
+
+
+grzeszaia, przedaiac dary Boże, dwu 
+żon żywych pozwalaig, a drudzy zdra- 
+dzaią fałszywemi pieczęćiami. Drudzy 
+y wszytko Chrześćiaństwo iako szpiego- 
+wie у zdráycy naszy przedaią nas. У z 
+Jeremiey95) ktory tu był wźięliśćie poćie- 
+chę. nabrawszy pieniędzy poszedł. 
+
+gdy co chćiał kto sobie pod drugim zie- 
+dnać, у drugiego z Włádyctwa zep- 
+chnąć: dół złoto, a on napisał: [Po- 
+wiedźiano nam, y vwierzylismy, żeś ta- 
+ki a taki: przetoż ćię składamy.] O nie 
+lada sprawiedliwość y sprawa sądow- 
+na. A gdy się wroćił miedzy Turki, na- 
+
+
+[Nie dółeś mi nic za poświęcenie, 
+gdym 《ie ręką swoią poświęcał: iesli 
+mi 12. tysięcy złotych nie poślesz, dosto- 
+ieństwo straćisz.] O iaki to sprawca 
+trzody Bożey, y przełożonych nad nią. 
+Do czegoż tesknićie za nimi, a со za po- 
+żytek duchowny z nich ma¢ie? 
+
+Mowićie: [Niechcemy  przodkow 
+naszych nabożeństwa odstępować, ani 
+wiary nowey sławić.] A kto wam kaze 
+abo radźi? Jzáli was do nowey wiary 
+у nowey Ewangeliey wiedźiem? Jzóli 
+co w kośćiołach waszych odmienić ra- 
+dźim? Nie radźim. y owszem wiarę sta- 
+rych oycow waszych y naszych zmocnić, 
+y od heretyctwa y błędow nowych Gre- 
+‘kow obronić chcemy. Jzáli to nowina 
+iednać się Grekom z świętą stolicą 
+Rzymską? Nie nowina: wypowiedźieli- 
+smy јако się przez pułtora tysiąca lát z 
+nimi dźińło. Starzy śś. Grekowie w 
+tey iednośći mieszkali, y o niey pisali, ia- | 
+ko się wyższey powiedźiało. Dawnesz'%) 
+to czasy pułtora stą lat, iako się ta ied- 
+ność wznowiła, у tu w Ruśi po Jsy- 
+dorze długo trwała. 
+
+Rzeczećie: [Nie może trwać to 
+ziednoczenie iako y inne nie trwały.] A 
+kto wie darow Bożych hoyność y sza- 
+fowanie? Dali Bog ta będźie trwała. 
+Bo ша Grekowie у Patryarchowie 
+Carogrodzcy, czego się Boże ро, 
+poniżeni barzo od Pana Boga, zapą- 
+lać was y burzyć do odszczepieństwa 
+iuż nie mogą. W iednym krolestwie, 
+pod iednym Panem z Katholiki będąc, 
+łacno się w zgodźie świętey dochowa- 
+бе. W one czasy gdy Greccy Cesarze у 
+Carogrodzcy Patryarchowie państwo 
+mieli, moc mieli, dostatki mieli, łacna 
+
+
+k 
+
+
+Ш im była 
+
+
+1527. Obrona Synodu Brzeskiego. Z) SE 
+
+
+im była pycha, у podniegienie, у niepo- 
+słuszeństwo: teraz niebożęta obćięte 
+maią skrzydła. y barzo wierzę, że zatym 
+poniżenim świeckim, do pokory ducho- 
+wney przychodzą, у do vpamietanid. 
+У radźiby się ziednoczyli z kośćiołem 8. 
+y mogli, a niewolstwo im Tureckie 
+dopuśćiło. A wy gdy możećie z łaski 
+Bożey, у takie do tego pomocy шаёе, 
+czemu łaską Boską у zbawieniem?’) 
+swoim gardźićie 2 
+
+Znayćie wżdy szczęśćie swoie, у na- 
+wiedzenie światłośći Bożey ktorą was 
+oświeca, у do łaski swoiey wzywa. Nic 
+nie vtraćićie, wszytko wam cale**) zostaie, 
+w hauce prawowieryey, у w ceremoni- 
+ach, y obrządkach, y zwyczaiach koś- 
+броја. waszego Greckiego. То wam przy- 
+рума, iżeśćie zbawienid, w iednośći 
+kośćioła Bożego, y w posłuszeństwie 
+Piotra 6. ktoremu was Chrystus poru- 
+czył, pewni, byleśćie pobożnie żyli. Bo 
+krom miłośći spolney Chrześćiańskiey, 
+żadne wam, iako Apostoł mowi, dobre 
+vczynki, ani posty, ani iałmużny, ani 
+wszytkie cnoty nawiętsze nie pomogą: 
+na potępienie z nimi krom miłośći 
+Chrystusowey  poydźiećie.  Przybywś 
+wam yvtwierdzenie у wrocenie nauki у 
+wiadomośći rzeczy Boskich, ktorá iako 
+у у Grekow tak у у wás zginęła. Z tey 
+iednośći у ten ma¢ie pożytek, iż kapłań- 
+stwo wasze lepiey będźie przy Katholi- 
+kach vezczone. 
+
+Ale się o to panowie waszy świeccy 
+gniewaią, у dla tego drudzy tey się ied- 
+nośći sprzećiwiaią, aby popi ich, ktorzy 
+teraz są iako poddani ich у kmiećie, nie 
+byli iako Plebani Rzymscy. Nie maią 
+0 co się gniewać. Pokiśćie byli kośćio- 
+łowi Bożemu, у starszym swoim nawyż- 
+szym Piotra 5. następnikom nieposłu- 
+szni ; potyśćie to karanie na sobie odno- 
+Śili, iż was świeccy rządźili, gdyśćie 
+się wy starszym własnym rządźić nie 
+dali. Lecz teraz P. Bog znieśie z was 
+to przeklęctwo, у naydźiećie v nich ta- 
+ką łaskę y miłość, iaką my Katholicy v 
+dobrych swoich dźieći mámy. Bo Pán 
+Bog za pokorą waszą odmieni serca 
+ich, у cz6i6 was będą iako sługi у ka- 
+płany Boże. Choć teraz tak się obru- 
+57819: ale gdy wy dobremi у posłusznemi 
+synmi kośćioła Bożego, a vrzędy swo- 
+ie świętobliwie odprawować w nauce 
+
+
+Pa EPT 
+| ЦОЈ LOH. 
+
+
+ег ni л і 
+
+
+Га. 0! 
+
+
+у trzeźwośći będźiećie, у serce swoie| | 
+wam dadzą, a iako mowi Apostoł, 
+
+Galat: 4. Przyimą was iako Anyoły 
+Boże, y by było podobno, oczy swoie 
+wyłupiwszy daliby ie wam. Bądźmy ie-| 
+dno nabożni, a święći kapłani niepo- Ме. 
+kalani, у bez przygany, skruszy P. Вог | 5 
+serca świeckich naszych, iż za nas у vm- 5 
+
+
+глеб będą chćieli. Coz za krzywdę ma- МУ 
+ią У nas w kośćiele Rzymskim świeccy | w 
+od duchownych? więcey duchowni od и 
+nich. A gdysmy dobrzy у przykładni,| ~~ о 
+wszytko v nich mamy co chcemy, y mi- А 
+łuią nas iako posłańce Boże, у pomo- 
+cniki zbawieniń swego. у daia nam 
+hoynie wszytkie potrzeby, iako dobre 
+dźiećj oycom swoim duchownym. 
+A nam Katholikom, co z waszego 
+tego ziednoczenié z nami przybywa? 
+Nic a nic: okrom duchowney робје- 
+chy, у weselé Anyelskiego, ktorym się z 
+nimi z owiec nalezionych raduiemy. 
+Coz my z wás korzyśćić,”*) со za pożytki 
+świeckie z was mieć chcemy? Zadnych. 
+Nic nam nie przystępuie iedno wesele z 
+więtszey chwały Bożey: iż się Chrześći- 
+anie zgadzaią: iż się габа, iednego 
+Oyca niebieskiego dźieći, miłuią: iż po- 
+strach będźie heretykom, y Turkom, 
+ktorzy się o rozerwanie Chrześćiańskie 
+dźiestaraią. Znaćie vprzeymą, у żadnego 
+pożytku nie szukaiącą, naszę ku sobie 
+miłość, gdy się o same dobre wasze zba- 
+Wiennelo0) staramy, a nic swego Swie- 
+ckiego nie szukamy, ani po was się spo- 
+машу. Dźiękuyćie pobożnemu у wiel- 
+kich cnot y miłośći ku Bogu Krolowi 
+swemu, y Biskupom świętym, y inym, 
+iż wam do tych wiecznych dobr tak v- 
+przeymie pomagaią, a niechćieyćie być 
+niewdźięcznikami grubemi, ktorzy do- 
+brodźieiow swoich nie znaią, abo brać 
+od nich tak drogich y zbawiennych 
+skarbow niechcą. 
+
+
+Przestroga na ройваггу. przeciwni- 
+kow Synodu Brzeskiego. Rozd: 12. 
+
+
+Przestrzeżćie 516,10!) proszę, na 
+vprzeymość, y postrachy, y potwarzy 
+przećiwnikow Synodu Brzeskiego. 
+
+Mowią, iż Synod swoy w Brześ- 
+ćiu mieli y odprawili. To sprosne wy- 
+mysły y niewstyd. Nie Synod, na kto- 
+rym Biskupi zasiddaig: ale Seymik 
+
+
+swoy od 
+
+
+к КРА. 
+Mas FA" А 
+
+
+Ў 1 у mh ’ , С 
+А NEA , ae ， Ex 
+/ 
+
+
+szóałkiem heretykiem mieli. Nie w koś- 
+
+
+%, Giele јако Synody bywają: ale w do- 
+
+
+mu, w ktorym za 8421056102) heretyckich 
+bluźnierstwa przećiw Bogu mieszkały, 
+у teraz mieszkaią. Nie z osobami do Sy- 
+nodu nélezacemi: ale z heretyki у z wywo- 
+łańcy; 03) у z postronnemi z innych kro- 
+lestw zbiegami, y z wyklętymi, społki 
+mieli. Ktoż im ten Synod złożył? Ni- 
+|kifor, czyli Balaban, czyli Kopystyń- 
+ski?) Nie. Złożył Synod Metropolit, 
+za Krola J. M. dozwoleniem. Do nie- 
+goż się skupić, y iego za głowę mieć na 
+Synodźie mieli, ktorzy do Synodu ná- 
+leżeli, iako to dobrzy y święći Episcopi 
+vczynili. Ale byli na nim dwa Włódy- 
+kowie? Byli: nie na Synodźie, ale na 
+Seymiku heretyckim. Byli: ale się star- 
+szego swego, у Synodu od niego złożo- 
+nego zaprzeli, y własnego podpisu rąk 
+swoich odstąpili. Ci dwa Synodu v- 
+czynić nie mogli. Bo tego żadne pra- 
+wo, ani Boże, ani kośćielne, ani zadny 
+rozum nie dopuszczą: aby ten Synod 
+роступа у sprawowśł, ktory go nie 
+składśł: aby dwa niższy 5) więcey wá- 
+żyli, niżli Metropolit z piąćią Wiadykow 
+swoich, aby synowie na oyca prawo sta- 
+wili, a poddani zwierzchnego swego 
+przełożonego sądźić mieli. 
+
+Ale było tam popow wiele y czern- 
+cow? By ich było dwa tyśiąca, do Sy- 
+nodow iedney odrobiny prawa nie ma- 
+ią. Samych to Biskupow Trybunał, 
+y nikt tam głosu nie ma, iedno ći koś- 
+Gielni Senatorowie у sprawcy ludu Bo- 
+zego. °°) Co wszytkie kanony у prawa 
+kośćielne vkazuią. 
+
+Ale tam był od Patryarchy Niki- 
+for? Był: ale nie od Patryarchy, iedno 
+od koronnych nieprzyińćjoł, ktory Ro- 
+zwana do Wołoch prowadźił, у tam poi- 
+many z więżieniń Choćimskiego vćiekł, 
+у od Krola J. M. zaręczony iest.'7) 
+A tak Synodem się ta schądzka w ka- 
+mienicy Brzeskiey zwać, ani żadnych 
+aktow Synodalskich odprawować, nie 
+mogła. 
+
+Dano tam, prawi, klątwę 5) na Me- 
+tropolita, у na inne Włádyki, na tym 
+kamienicznym z heretykow zebranym 
+Zborzyszczu?!9%) Podobno dano: ale tak 
+wśżyła, iako gdyby kmieć starostę swe- 
+
+
+go, Woiewoda biskupa swego wyklindl, 
+
+
+Obrona Synodu Brzeskiego. | 
+
+
+атоу od Krola J. M. zakńzany, z Mar 
+
+
+528. 
+
+
+abo gdyby Biskup Patryarchę, abo 
+Patryarcha Papieża do śiebie pozywat 
+у wyklinał. O nierządźie! Bluźnienie 
+tam było, nie klątwa. Bo tym mieczem 
+nie świeccy, nie poddani duchowni, ale 
+ndwyzszi moc kośćielnń włádnie. O 
+tym głupstwie szkoda więcey mowić. 
+Barźiey się dźiwuię, iż się tak bezrozu- 
+mny kto nayduie, ktory tey klątwie moc 
+у wśżność даје. 
+
+Ale Nikifor miał poruczenie od 
+Patryarchy, aby ie wyklął? Nie miáł: 
+ani tego pokázáł: ami żadnego praw- 
+nego postępku czynić nie śmiał. Boby |. 
+pod tytułem Patryarchy ta klątwa by- 
+ła. Ale żadney głowy у vrzędnika nie 
+má. A byt!) dobrze Patryarcha Włady- 
+ki wyklął: tedy iuż starszy nad Patryar- 
+cha, Papież, rozgrzeszył. Patryarsze 
+gdy Papież у Piotra 8. stolica moc o- 
+deymie, iuż żądney duchowney władzy 
+nie mó. > 
+
+Potepili Włádyki, у Władyctwa im 
+wźiąć, y zrzućić ich z dostoieństwa ich 
+kazali? Kazali: Ale iaki sędźia, takie 
+też roskazanie. Świeccy duchowną, 
+poddani krolewską moc sobie przypi- |. 
+suią. O niestatku! Bez sądu iako kto 
+traćić ma swoię dostoyność ? Jzali tam 
+własni sędźiowie ich byli? Byli herety- 
+cy, ktorzy nie tylo Władykom, ale у 
+wszytkim naszym Biskupom radźiby Bi- 
+skupstwa wydarli: Jeremias gdy tu 
+był, choć mniemany sędźiń, Wiidykow 
+bez dozwoleniń Krola J. M. iako pa- 
+trona у podawce!!') wszytkich Włádyctw, 
+żadnego z mieysca ruśić ше śmiáł. A а 
+ludźie świeccy, vporni, nie maiący mo- 
+cy żądney, ani mniemaney, ani malowa- 
+ney, Smieia'!) się w tak wielkie угледу 
+Papieskie y Krolewskie wdawać? 0 
+śmiałośći у wszetecznośći bezbożną! 
+
+Ale się spisuią, у wielka ich groma- 
+da, y wiele prostych ludźi do śiebie na- 
+mawiaig у buntuią? Nie boyćie się. 
+Marka to Epheskiego heretyckie sztu- 
+ki. Gdy iawną prawdą, y dysputacyą 
+na Synodziech z vczonemi kapłany 
+Bożemi, у proroki od ‘Boga posłane- 
+mi, у wywodami z pisma $. у Doktorow 
+nie wygrawaią: w kąćie przed pospol- 
+stwem swoie rzeczy zaocznie stawią , y 
+mocnią: do rozruchu y tumultu nie- 
+wiadome prostaki, y do sedycyi na vrzę- 
+dy od Boga postanowione, lud niewin- 
+
+
+ny przywo- 
+
+
+ przywodząc. Tacno to | 
+
+
+dawać: [Włódykowie zaklęći, do La- 
+ćiny przystali, strzeżćie się ich, ani im 
+oddayćie posłuszeństwa.] Bo ći wszy- 
+всу barzo dobrze rozumieją, у na tym się 
+znaią co klątwa, kto ią władnie, kto ią 
+daie, у dlá ktorych przyczyn być może. 
+Niewiedzą ći iako rożna iest moc Me- 
+tropolita od Władykow, у Władykow 
+od Popow: niewiedzą co Synod, co 
+nie Synod, kto prawnie y prawdźiwie 
+_ |wyklęty, a kto ше wyklęty, kto heretyk, 
+
+a kto prawowierny, tego ći prostacy 
+niewiedzą. 
+
+Tak czynili heretycy, y on Diosco- 
+rus, ktory па Epheskie Concilium ty- 
+ас mnichow przywiodł, ktoremi Con- 
+cilium у oyce święte rozgromił, i skła- 
+dał z vrzedu kogo chćiáł; у Flawiśna 
+Carogrodzkiego Patryarche z nimi za- 
+bił, ty inne Biskupy pomordowśł, у 
+broiłby był daléj, by mu byli potym Pa- 
+pieżowie odporu nie dali, Tak czynią 
+buntownicy co prawdy nie maią. 
+
+A heretyki barzo łacniey'!*) na Ka- 
+tholiki spisowaé. Bo ći tak Chrześći- 
+ańskiey zgodźie radźi, iako Turcy, gdy 
+się na nie Chrześćianie zmawiaią. Jako 
+sami zgody miedzy!) sobą nigdy nie 
+maią, tak iey kośćiołowi Bożemu nie 
+życzą, ani Rzeczyposp: podać mogą. 
+Rosproszy P. Bog, iako Psalm mowi, 
+rady panow i ludźi niezbożnych. Nie 
+boy¢ie się, vćichną wiatry, bunty, у 
+podpisy ich, gdy prawda głowę pod- 
+niesie, a Pan prawdy гозкайе. Co nie z 
+Boga, nie potrwa, nie boyćie się. Prze- 
+śladować nás mogą: ale do fałszu у 
+błędow swoich nie przywiodą. Sami 
+‚| rychło poginą, ći co z Bogiem i praw- 
+dą iego wólczą. 
+
+Prawom się, powiadaią, naszym 
+Ruskim krzywda алеје, у wolnośćiom 
+się vwłoczy, iż Władykowie do pokoiu 
+
+
+О ON 
+
+
+http://rcin.org.pl 
+
+
+Bik opom у bur- 
+mistrzom Ruskim, у rzemięśnikom, 9) 
+|y niewiastom, у innemu motłochowi v- 
+
+
+.|służył.] Potwarzy się tey nie wstydzą. 
+
+
+|byli, aby do iednośći kośćie 
+przystępowali, y o zbawienie sw. 
+| Бай. Мамай na to prawo, | 
+|zgody miedzy braćią ЧАН, a nigd 
+Chrześćiańskiey miłośći у iedn 
+wiary nie przychodźili. Mam za to," 
+nie maią: boby to piekielne były d 
+belskie przywileie, bo sim czart рор: 
+wić się nigdy i dobrym być nie może 
+Gdy Ruśi prawa nadano, aby w swym| 
+nabożeństwie przeszkody nie mieli: nie} 
+zakázáno im, aby się z kośćiołem 5. у Z| — 
+Chrześćiaństwem nie zgźdzali, a Ka-| 
+tholiki z schismatykow nie zostawali. | 
+Jzili gdy zostaia, у do Rzymskiego się| — 
+Kośćioła obracają, prawa gwśłcą?| — ў 
+Owi prawa суса, ktorzy do herety-| Ai 
+Ком idą: bo im tego prawo pod srogim 
+karanim zakazuie. 
+Puszczaią у podmiataią kartelusze 
+o cudach w Brześćiu, [iż się przy Mszy 
+wino w wodę odmieniło, gdy ieden 
+tam Jezuita w Cerkwi ś. Mikołaia 
+
+
+Zaden tam ieszcze Jezuita ani kapłan 
+Rzymski Mszey ше miáł. a jesli się Gre-| 
+kowi, ktory w ten czas służył to trafiło, | 
+iż w kielich miasto wina z omyłki wody 
+па: cuda!!") żadnego nie masz. | 
+się to y v pilnych y nabożnych. To cud, 
+iż шале rozumni у Chrześćiańscy tak 
+sprosne kłamstwo mowią, abo wierzyć | 
+śmieją. ў о 
+О miłosnicy Boży, ktorzy sobie zba- 
+wieniń wiecznego życzyćie, zmiluydie) | 
+się sami nad sobą. Słuchayćle Boga,) = 
+słuchayćie Prorokow iego, y Pasterzow 
+swoich, iako pismo mowi, y nawyższego 
+nad trzodą Piotra. za ich rozumem 
+idźćie, a wilki у zwadźce a rosterki šie- | 
+iące znaiąc, pokoy y prawdę miłuyćie. 
+A Bog pokoiu y miłośći Chrze- 
+śćiańskiey z wami będźie. 
+AMEN. 
+
+
+vi 
+
+
+ve demnastym ee życia swego zał A do лава krakowskićj, w którój po dwuch leciech 
+
+
+świadectwo jawne ćwiczenia swojego, to jest primam lauream otrzymał, Roku 1563g0 e 
+jest subdyjakonem i kaznodzieją, a za dyspensą Pawła Tarły, arcybiskupa lwowskiego, МА, 
+staje wkrótce na kapłana wyświęcony we Lwowie, poczóm niebawem mianowany probo- 
+
+
+szezem rohatyńskim, następnie kanonikiem i kaznodzieją katedralnym lwowskim. Tu gdy sześć 
+lat gorąco na ambonie pracował, i gdy mu nie tyle prace, ile godności pomienione nie sma- 
+
+
+kowały, pogardziwszy światem, puścił się do Rzymu i tam roku 1569. dnia 2. Lutego, 
+w miesiąc po szczęśliwćj śmierci błogosławionego Stanisława Kostki, wstąpił do zakonu św. 
+Ф Ignacego Loyoli. Odprawiwszy nowicyjat w Rzymie i pewien czas na słuchaniu teologiji 
+tamże strawiwszy, w roku 1571. odesłany był do Polski w urzędzie kaznodzieji, który to 
+zawód rozpoczął w Putłusku, а dalój prowadził w Wilnie, gdzie roku 1574. został wicere- 
+
+
+ktorem tamtejszćj jezuickićj akademiji. Tu tóż rozpoczął Skarga polemiczny swój zawód 
+z jinnowiercami, a mianowicie przeciwko Andrzejowi Wolanowi, głowie litewskich kalwinów. 
+W roku 1577. wydał znakomite dzieło: ,,O jedności Kościoła Bożego pod jednym paste- 
+rzem i greckim od téjze jedności odstąpieniu, z przestrogą i upominaniem do narodów ru- 
+skich.“ Jest to niejako manifest teologiczny przeciw schismie ruskiéj, z którą niebawem 
+unija miała walczyć. Jego „Żywoty świętych Pańskich na każdy dzień przez cały rok we- 
+dług kalendarza rzymskiego podzielone“ wyszły jako przekład z łacińskiego języka po raz 
+piérwszy roku 1583. za szezodrobliwością książęcia Mikołaja Krzysztofa Radziwiłła, naon- 
+czas wielkiego marszałka litewskiego; w roku 1585. lepićj przejrzane i rozszérzone wy- 
+szły one po raz drugi w-Krakowie, dokąd Skargę 1584. roku przeniesiono, i to na dwór 
+Stefana Batorego, gdzie posadę kaznodzieji objąwszy, zajmował ją przez lat blizko trzydzie- 
+ści. Z tego tóż czasu datuje się największa liczba pism jego, częścią kaznodziejskich, czę- 
+scią polemicznych i religijno-politycznych. Do główniejszych liczą się Kazania na niedziele 
+i święta całego roku (1595.), Kazania o siedmi sakramentach i sejmowe, żołnierskie na- 
+bożeństwo, Kazania przygodne, zawstydzenie Aryjanów, wzywanie do pokuty obywatelów 
+korony, wzywanie do jednéj-zbawiennéj wiary itd. Wydał także: Roczne dzieje kościelne 
+podług Kardynała Baroniusza, zkąd sam polskim Baroniuszem nazwany. Ku schyłkowi 2y- 
+cia ogłosił ostatnie dziełko: „Treny i lament Teofila Orthologa (tj. Meleciusza Smotryc- 
+kiego), do Rusi greckiego obrządku przestroga* w ktéréj pominionego autora dzieło mo- 
+
+
+cnemi zbiwszy dowodami z gruntu obalił i wielu czytelnikom z rąk wytrącił. 
+
+
+Koniec swój już na osiem lat naprzód przewidywał, pisze bowiem Poszakowski w ka- 
+lendarzu jezujickim większym pod dniem 27. Września, że w roku 1604. Skarga w cho- 
+robie widział sobie przytomnych św. Ignacego, fundatora swego zakonu, św. Franciszka 
+z Pauli, i ks, Stanisława Warszewickiego zmarłego roku 1591., który ostatni mu radził, 
+aby Boga prosił o przedłużenie życia na pomnożenie chwały jego. Przed swoją śmiercią 
+
+
+własną swoją ręką zrobił świćcę z białego wosku i tę do Częstochowy posłał, aby przed 
+
+
+obrazem Najświętszój Panny zapaloną postawiono; która skoro zgorzała, wraz i życie jego 
+na ziemi zgasło. Umarł w Krakowie dnia 27. Września 1612., mając lat 76 wieku a 43 
+życia zakonnego i e Ww kościele śś. Piotra i Pawła нат. 
+
+
+(NB. w braku postaci 4 używamy franc. 4.) 
+1) Forma nasza metropolit, zamiast poźniej używanćj żeńskiej metropolita, stąd 
+
+
+tè poniżej biernik: metropolita zamiàst metropolitę. — 2) Mà być Łucki. Czytelnika 
+
+
+uderzy niedokładność w oddaniu liter większógo abecadła. Będziemy widzieli stale L, 
+
+
+http://rcin.org.pl 
+
+
+miany często pan a ee лий uczynić do czego, ты później тама, ан ; * 
+nić używany. — 6) Zwràcàmy tu uwagę na to, że forma ta u pisirzów Zygmunto 
+była bez wsuwki 2, którą dopiero 6. p. X. Kopczyński na szkodę języka wymyślił, 
+| ту Zobacz przypisek 1szy. — 8) Obok narzędników wyklinanim у złożenim znójdziem 
+| już tutaj formy ze wsuwką e, tj. wyklinaniem itp. — 9) Skarga ma w tym _zajimku | 
+
+jeszcze pojedyńczć m, na wzór czeskiégo jiny, którć dopitro za Stanisława Augusta pfze- R 
+
+szło w jinny. Podobnie używa zwyczajnógo tylo, nietylo, zamiast zdrobniałógo tylko, nie- th 
+` tylko. — 10) Zygmuntowscy pisali bar-zo, bar-zidj, со w ludzie wielkopolskim przemie- = 
+nilo się na ba-rzdj; klasy wyksztdlconé przyjęły: stopień równy bar-dzo, stąd tes bardziej. SJ et 
+
+_ 11) Pisownia pomoc, zamiast pomódz, oczywiście fonetyczna — jak często jeszcze pisano i» + 
+
+wówczas wyszszy, lucki, zamidst wyższy, ludzki Ир. — nić usprawiedliwia Mikłosiczowógo | sąd 
+rodowodu od pitrwidstku: rzekomégo ротой, jak tego i Małecki błędnie uczy. — 12) Dziwna" 
+składnia rządu; się miała służy tu również nieosobistómu jimiesłowowi do zbawienia po- = 
+moc, jak i osobowym chwała rozszerzyć у zgoda umocnił. — 13) Znany legit papiezki, ` 
+który z rozkazu papieża „wstrzymał zwycięzki pochód Stefana Batorego w kraju Iwana 0 
+Groźnógo. Chytry car zdurzył i Rzym i jego wysłańca, bo ledwie sobie odetchnął, aliści. 
+i Polskę na nowo niepokojić i w kościele wschodnim wichrzyć począł, aż go nić opano- | 
+wały szaleństwo i śmierć stósunkowo bardzo wczesna. — 14) Czytaj: Koronie Polskiej. — | 
+~ 15) Jest to, ten sam Nicefor, kanclérz Jeremijasza, który narobiwszy długów па rzecz ` ме 
+swego patryarchy, zaprzeddwszy Turkom wspaniałą cerkiew Pantokratora, stawszy się ` 
+; przyczyną zrzucenia hospodara woloskiégo, zbiegł do Konstantego Ostrogskiego i został = 
+duszą jego knowań przeciw uniji, — 16) Skarga już obydwóch form używa: przytachak = 
+i przyiechali. — 17) Pisze tu Skarga iwrisdycyey, zamińst jurisdykcyji, z umyślnym — у 
+opuszczeniem spółgłoski k. — 18) Przysłówek drugdy odnosi się tu do czasu i znaczy tyló | 
+co kiedy jindzièj. Dziwna składnia: będzie trzej, abo czterzej. — 19) Niedbałość o żba- 
+
+ł wieniu, my dziś mówim: o zbawienie. — 20) Skarga pisze naszy, waszy, a nić nasi, "w „а 
+wasi, co jest poźniejszym i oczywiście tylko dla eufoniji zaprowadzonym. — 21) Żałować "s 
+
+się na kogo, tylé co skarżyć, było więc kiedyś słowem zwrotnym. — 22) Przesq- 2 
+dzony znaczy tutdj 4916 co osądzony, i to w znaczeniu niekorzystnym, 4716 co przekonany ` 
+o zbrodnią, tj. potepiony. — 23) Zajimka обод, obojd, обоје dziś już nić używamy, 
+sądzę, że ze szkodą dla języka. — 24) Sedycyd znaczyło tylé, со powstanić, bunt, ro- 
+kosz. — 25) Penować, z łacińskićgo poena, kara, znaczy więc to samo co karać. — 
+
+26) Skarga wyraźnie pisze uniją, zwràcàmy na to uwagę przyjaciół i przeciwników Ke. 
+
+Fr. Хау. Malinowskićgo. — 27) Błędników nić znaczy tu np. fałszywych wniosków, = 
+syllogizmów, więc mylników, jak je Trentowski zowie, lecz po prostu ludzi błądzącyhh = 
+a może i tych, co drugich w błąd wwodzą. — 28) Ten dopełniacz cerkiew” każe się do-* A 
+myślać mianownika cerkwid, jak np. glownid, głowien, studnid, studzien ; forma cerkiew”, 
+
+cerkwi zdaje się być późniejszą. — 29) Posłuszniki tylé co zwolennikami, uczniami, ad- dej 
+herentami. — 30) Uwichłani zdradza pitrwidstek wichł, skąd wichłacz, słowo mà terz 
+pierwiastek mocniejszy wikł, wikłać. — 31) Ilé z nds było; słowo być łączyło się za it 
+Zygmuntów w dwa sposoby mówienia, któró dziś już nić używanć: Bylo mnie z to, tj. „о | 
+
+
+Be, 
+
+
+X ~ 
+
+
+było mnie na to stać, leżało to w mój możności, w mej mocy; ale i było to ze mnie, Pea ps 
+było to z nds, zależało to odemnie, od nas. — 32) W oryginale stoji wyraźnie towarzysza; KEY 
+jeżeli więc: nić jest omyłką typograficzną, wtenczas mamy tu wyraźnie liczbę pi - 
+
+
+http://rein.org.pl 
+
+
+Ę +78 -一 40) Wyraźnie to zk tego książęcia, рњ. 9 т: рМ аи 
+mi 的 i świeckich książąt tytułowano. — 41) Oczyśćienie, zamidst dzisiejszógo oczy- 
+. — 42) prze, tylé co dzisiejszé przez. — 43) Wschodny, zdchodny, 1 wschodnégo, 
+(био, lecz w liczbie mnogićj regularnie wschodni, zachodni. — 44) Bardzo wyra- 
+
+
+rwotna forma na tryb rozkazujący z końcówką starodawng ji. Tak jeszcze w pie . 
+
+
+Wojciecha „Вода Rodzica“ czytamy: Maryja, dziewica, prosi (tj. proś) Syna 
+45) Dopełniacz to bardzo częsty z zakończeniem e. — 46) brána, dzisiaj wszę< 
+
+
+ma. — 47) wyraźnie i wszędzie przez dwa s: sstdé się, słowo dokonané, s przy- ч 
+
+
+| s (so), podobné do dzisiejszógo rozciąglejszógo zostać czym. — 48) Przyjimek ^ 
+ze się tu rozmajicie: etymologicznie 702 i fonetycznie ros; pod tym względem zdaje 
+
+
+typografowi była pozostawiona dowolność, lub korrekta nie była ściśle przeprowa- . 
+
+
+— 49) Tak jeszcze 4245} po kilku leciech, zamidst latach. — 50) Jeżeli to nić 
+'ukarski, to jest jistotnie ciekawą, skąd oba 4 pochylonć w trybie bezokolicznym, 
+lotąd wszędzie było jasné w oznajmującym. Lud mówi dotąd káráł, Катаб. 一 
+‚ stronie 516, kolumnie lewéj, czytaliśmy: aby mu się sprawili z bledow y grze- 
+woich, tutaj: sprawić się о heretyctwo. Tak jeszcze wahał się język w wyborze. 一 
+to chce, ezytóy, i to dziś nić uchodzi; albo kto chcesz, czytdj, albo kto chce, | 
+ytd. — 58) Tylé со za wyrokiem. — 54) Tu już po kilkakroć podwójnć n w za- 
+jinny. — 55) Tu ch јак k czytać należy. — 56) Przyjęt, stary jimiesłów bezpo- 
+‚ jak np. nalezion, odniesion, często u Wujka napotykané. 一 57) W wich 
+4 foremnie utworzony dopełniacz liczby mn. od zajimka wśi, wśid, 10410, dziś jeszcze 
+iewsku всё, czytdj wsio, i po rusku wsio. Ustęp ten i następny jest mięszaniną 
+ny 4 ruszczyzny, aby tym bardzićj przekonywająco mówić do unitów, — 58) Na 
+Soborach, oczywista mięszanina deklinacyji; powinno być na siedmi czego? — So- 
+albo na siedmiu soborach, takbyśmy przynajmnidj dziś pisać musieli. — 59) Grób 
+więc w owych czasach nić tylko to co 42458}, lecz w ogóle dół jakiś wykopany 
+, niemięckić Grube. — 60) wziąć sprawę, niezwyczajné wyrażenić, zamidst nabrać 
+іёепій, zbadać. — 61) Tu już wyraźnie i poprawnie czytamy pokdrdl. — 62) Ma 
+iście przaśny, gdyż w druku tak zwanym gotyckim używano i u паз wszędzie 
+s, tak na początku, jak i w środku wyrazów, krótkićgo zaś s i ś tylko rzadko 
+le w końcu, skąd często obàczymy tu skażone wyrazy jesli, abysmy itd., którć 
+oczywiście tak јак i my czytał i pisół: jeśli, abyśmy itp. Z drugiej strony skła- 
+lograf śiedzidł przez krótkić $, sie przez długie s itd. Wyraz przaśny znaczy tylé 
+lki, przyjemny, niekwaszony. Kościół wschodni używał zawsze kiszonégo chleba do 
+Mazy $. — 63) Bardzo wàżné miejsce. Ти Skarga wyraźnie wymawiał przeciw 
+óźnićj to j przeszło w №, i dziś piszómy preciv yim. — 64) Przyczytali znaczy 
+Мише przyliczyli; mybyśmy powiedzieli: przypisali. — 65) Czytáj Ugo, czyli Ни- 
+- 66) pułdniowym odpowiednio do pulnocnym. — 67) Nasze dzisiejszć przecie, 
+3 jest zmianą tego zygmuntowskiégo przed się. — 68) Niech tu Szanowni Panowie 
+усу i Literaci zechcą przypomnićć sobie bierniki żeńskie na е, moje, twoję, swoję 
+\wasze, nie (ama ję) tę, onę, owę, samę, wszystkę, od zajimków kończących 
+pó: ， on, sim mój, itd., oraz i od liczebnika jedna, jednę, a nić uczą juź 
+http://rein.org.pl - _--3 
+
+
+| ў 
+
+
+pen баі é, 5 4 na Raan wiaziłam jedną 
+
+
+“t па К. — 92) Czerniec, chodzący w. czarnój odzieży, czyli po rusku mnich. — 93) Mian | 
+«nownikiem jest tu więe »ożterk, rozterku, jak Wtorek, Wtorku. = 94) Tu wyraźnie 4 
+
+
+`108) Dać klątwę, tylć co rzucić. — 109) Zborzyszcze pod zboru, tak jak b 
+
+
+miedzy nami, a nadto w wyrazie miedza, tj. granica między polami. — 116) 
+
+
+stotliwó zatrzymówać, | dziś zatrzymywać, "zasługuje 
+„а. — 71) Bardzo wàžny zwrot: obwieścić kogo, :a nić, jak 
+coś komu. — 72) Znowu jak wyżej 0 piaci artykułach, ni jak с 
+73) wyszóie, nasze wyjście, тастбј wyście. ` Tu Jiśeie, «ово, utraciło swoje. 
+јасб samogłoskę pierwotną i piórwiastku” ideę: — 74) powinno być daná; 
+
+ficzny. — 75) Kijowski; oto’ "ту cić - Јону wyraźnć i niedwuznacznó. — 7 
+zgody i wiary, a więc 02690, ` bardzo poprawnie; starzy” mówili np. popierać j 
+misława, co późniejsi gramatycy wzięli za” ‘biernik, i teraz: tego przypadku wyw. 
+77) pogoda tylé co czas sposobny. — 78) 4 pochylonć: w "шату, zasługuje na um 
+79) $ tylokrotnych przypadkéw wnosić trzeba stanowczo, że wyrdż ten u Zygmuntowskich. 
+wymawiał się jistotnie: prózny, a nié próżny. — 80) mocnie, zupełnie regularnie, a- nić. 
+"mocno. — 81) Zwrot godny pamięci i naśladówania : wieszać kogo na słowach i obietni- С 
+cach. — 82) Posłuszni z dopełniaczem, zupełnie po łacinie; polegdycie komu, tylé co — 
+
+
+ufdjcie; i to niezwyklé. — 83) Niezwykła forma, zamiast niezapomnim. — 84) Oczy- 
+
+
+wątpliwie błąd typografiezay; końcówki biernika przymiotnikowégo na е, nić ma w całym 
+wieku złotym. — 86): Ponowné to użycić tego miejscownika Kredzie dowodzi miano- | 
+wnika zupełnie spolszezonégo kredo, kreda, kredu itd. — 87) I tu wyraźnie jota © 
+w miejsce używanógo zwykle  krótkiógo. — 88) Co dopiéro inne i teraz znów inemi. — — 
+89) Tu drugdy oznaczd miejsce, jak gdzie jindzidj, lub skąd inąd. — 90) Wkupić* 
+па co, zwrot dzisiaj nić używany. — 91) Od tego to pidrwidstku więź — stopnia wyż 
+tworzy. się tóż i przysłówek wigcdj, jak od krot, krócej; nasze większy zawiéra przemi 
+
+
+| 
+
+У 
+
+wisty pleonism, bo znamieniem stopnia wyższćgo w przysłówku jest samo éj. — 85) Nie >. $ 
+| 
+
+
+już występuje jota; od pidrwidstku 27 jest 2266, potym "spoźrzóć, tu nawet dojźrzóć, 
+wreszcie dojrzóć. — 95) Dopełniacz Jeremiey jest tak niezwykły, że zapisać go konie- 
+czna; dziś brzmidł by on z Jeremii, jak Zofiji, więc od mianownika Jeremija, jak np. 1 
+„Ла, książę Ostrogskić (Górnicki). — 96) Oczywiście fonetyczna pisownia za ddwneż, — ^ 
+97) Co dopióro poniżenim, a teraz znów zbawieniem. — 98) Tak jak od dobry, zły - 
+
+utworzono dobrze, źle, tak od cały, cale; my używamy w całe, tj. jakoby miejscownika. | 
+
+99) Zatraconć ` zupelnie słowo; dziś zyskać, - korzyść brać. — 100) Same dobre wasze № 
+
+
+"zbawienne, dziwnd pomyłka; powinno być со najmnidj samo, jeżeli juź nić i dobro wa- 
+
+
+sze, — 101) Przestrzódz się na co, dziś jużby tak nikt nić powiedział, — 102) Za g 
+starost, więc i w liczbie mnogićj -forma żeńska. — 108) Wywołaniec, bardzo pięknć tłu = 
+maczenie wyrazu bannita.. — 104) Tu już poprawnie czytamy Kopystyński; a nić, jak 了 
+wyżćj, Kopistyński ; nić trzeba więc tak zupełnie spuszczać się na pisownią starych dru- ` 
+ków, gdzie także ludzie omylni robili korrektę i wiele błędów przepuszezali w pośpiechu. == 
+105) Dwa niższy, liczba podwójna z nieosobową ' mnogą; dziś używa się dwaj тога 一 了 
+106) Tu oczywiście kropka stać nić powinna, bo następującć zdanić względnć odnosi się 2. 
+do senatorów i spraweów. — 107) Zareczony ma tu to samo znaczenić co łacińskić | 
+vadatus, vadimonto - obstrictus, tj. królowi ktoś zaręczył, że Nikifor nić dopuści się ni- 0 
+czego przeciw prawom koronnym, pod karą na niego, lub na poręczyciela spaść mającą, — 1 
+
+
+od бода. — 110) A choćby nawet w spósób prawny i należyty itd. — 111) Poddwca, | 
+tj. ten, który je daje. — 112) Śmieję; 'dziś juz tylko śmićm, śmią. — 113) Rzemięśnik, | 
+rzemieśnik, rzemieślnik, jakoby од rzemień, a więc jakoby rymdrz z niemiecka, — | 
+114) Tj. wielć łatwićj, — 115) To e utrzymało się dziś jeszcze u ludu, który tóż miy $ 
+
+
+to, tylé co rozumićm, twierdzę, mniemdm. — 117) Dziś używamy w d aczu GP ‘A 
+
+
+p i У U i Ri 4 
+cówki u, cudu. | http://rćin.Grg.pL =. a JA | 
+
+
++ 
+
+
+A http://rcin.org.pl 
+
+
+LDŹ 
+
+
+Noa J у ; $ asthe’ У 
+
+
+py $ $ 4 
+| 3 + 
+
+
+Di) Oot ИМРЕ Rona 
+
+
+http://rein.org.pl 
+
+
+OAL мя 3% “ 
+И IZY 
+
+
++, 
+
+
+t 
+
+
+Бао 2526-65. 
+
+
+% 
+я 
+Sy 
+
+
+me 
+
+
+гора 
+
+
+PF 
+
+

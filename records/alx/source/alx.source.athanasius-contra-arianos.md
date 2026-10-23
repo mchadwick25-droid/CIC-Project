@@ -16,6 +16,7 @@ sources: []
 author: "Athanasius of Alexandria (c. 296-373 CE)"
 work: "Orationes contra Arianos (Four Discourses Against the Arians), written after Nicaea. Discourse IV carries a distinct authenticity caveat: this edition's own 'Excursus C' states it 'stands on a footing of its own... it is not quoted in antiquity, as the first three are, as part of the work of Ath. against the Arians,' casting doubt on its inclusion in the Pentabiblus. Any citation to Discourse IV specifically carries this caveat; Discourses I-III do not need it."
 edition: "trans. John Henry Newman, revised Archibald Robertson, NPNF series 2 vol. 4 (1892) - the volume's known Newman/Robertson translator split; re-confirm per discourse at first quote; vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+citation: Athanasius of Alexandria, Orationes contra Arianos (Four Discourses Against the Arians), trans. John Henry Newman, revised Archibald Robertson, Nicene and Post-Nicene Fathers ser. 2 vol. 4 (1892)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

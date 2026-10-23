@@ -1,0 +1,48 @@
+source_file: ecthesis-chronica_with-chronicon-athenarum-grc_lambros1902.txt
+
+authors_ruled:
+  chronicon-athenarum:
+    kind: anonymous
+    evidence: >
+      The volume prints two anonymous chronicles under their own titles; the file's leading
+      slug is the first work's, so the second work, the Chronicon Athenarum (Greek title
+      'Chronikon Athenon' at file line 5574), gets its own work slug as author.
+    from_file: ecthesis-chronica_with-chronicon-athenarum-grc_lambros1902.txt
+
+assignments:
+  - row_id: ecthesis-chronica_with-chronicon-athenarum-grc_lambros1902--ecthesis-chronica-greek-chronicle-of-sultans-and-patriarchs
+    work: "Ecthesis chronica (Ekthesis chronike): an anonymous Greek chronicle of the Ottoman sultans and the Patriarchs of Constantinople, to 1543"
+    author: ecthesis-chronica
+    locus: "Greek text with apparatus from file line 617 (heading 'EKTHESIS CHRONIKE') to about 5573, running heads 'ECTHESIS CHRONICA' with printed page numbers; Lambros's Latin preface at 449; indices from 5673"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: tradition
+    confidence: assigned
+    note: >
+      A sixteenth-century Greek chronicle, in simple Greek, and the fuller form of the text that Crusius printed as the Historia politica (vendored in Bekker's Bonn edition, 1849), of the sultans and the patriarchs
+      after the fall of the city (Gennadius Scholarius is marked in the margin as first
+      patriarch after the capture, apparatus at about line 1673); an inside witness to the
+      patriarchate's own succession story in the world's own window. Clean polytonic OCR:
+      primary original-language voice, ready to quote once verified against the page images.
+  - row_id: ecthesis-chronica_with-chronicon-athenarum-grc_lambros1902--ecthesis-chronica-greek-chronicle-of-sultans-and-patriarchs-2
+    work: "Ecthesis chronica (Ekthesis chronike): an anonymous Greek chronicle of the Ottoman sultans and the Patriarchs of Constantinople, to 1543"
+    author: ecthesis-chronica
+    locus: "Greek text from file line 617 to about 5573; the opening pages are the reign of Manuel II Palaiologos"
+    atlas_ids:
+      - byzantine-church-palaiologan
+    role: context
+    confidence: provisional
+    note: >
+      The chronicle opens in the reign of Manuel II Palaiologos and runs through the last Palaiologan decades before 1453;
+      placed on window only, the pre-1453 pages not read for this placement.
+  - row_id: ecthesis-chronica_with-chronicon-athenarum-grc_lambros1902--chronicon-athenarum-greek
+    work: "Chronicon Athenarum (Chronikon Athenon), a short Greek chronicle of Athens under the Turks"
+    author: chronicon-athenarum
+    locus: "from file line 5574 (heading 'CHRONIKON ATHENON') to about 5672, running heads 'CHRONICON ATHENARUM'"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: context
+    confidence: provisional
+    note: >
+      A short local chronicle of Athens printed at the end of the same volume; placed on place
+      and window, not read in full. Clean Greek OCR.

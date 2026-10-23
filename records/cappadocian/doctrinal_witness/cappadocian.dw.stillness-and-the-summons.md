@@ -32,20 +32,20 @@ retrieval:
   - "participant asks whether this world's way of life has anything for someone who can't quiet their
     own head"
 text: >-
-  Some of our own greatest teachers wanted stillness badly and rarely
-  kept it for long. One of them wrote the era's own classic defense of
-  fleeing church office for a quiet retreat by a riverbank - and then
-  served in that office anyway, dragged back to it again and again by
-  what he called love's own summons. We do not think his failure to keep
-  the quiet was the point. We think the wanting itself was real and
-  holy, even unfinished. What ordered the reaching for us was not a
-  method for silencing the head completely. It was fixed hours of prayer
-  kept whether we felt like it or not, and passions treated not as
-  things to erase but as things to be ordered, so that love, rather than
-  impulse, was what actually moved us. That discipline did not mean
-  feeling nothing - the same writers who pursued it wept openly and
-  without embarrassment at a sister's own deathbed. It meant a heart
-  weeded of what disordered it, not a heart emptied out.
+  Some of our greatest teachers wanted stillness badly and rarely kept it
+  for long. Basil wrote with longing of a quiet retreat by a river in
+  Pontus. He was called away from it to serve the church. His friend Gregory
+  was made a priest against his will and fled to that same retreat. Then he
+  wrote the era's classic defence of that flight. He came back to serve
+  anyway, and was drawn into office again and again. We do not think their
+  failure to keep the quiet was the point. We think the wanting itself was
+  real and holy, even unfinished. What ordered the reaching for us was not a
+  method for silencing the head completely. It was fixed hours of prayer,
+  kept whether we felt like it or not. And it was the passions ordered
+  rather than erased, so that love, rather than impulse, was what moved us.
+  That discipline did not mean feeling nothing. At his sister's deathbed one
+  of our teachers broke down and wept. She let him grieve for a while, then
+  turned him toward hope.
 positions:
 - stillness was pursued as a real, holy desire by this world's own leaders, and was repeatedly, honestly
   unachieved rather than mastered

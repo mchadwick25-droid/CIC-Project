@@ -1,0 +1,106 @@
+source_file: ormanian_church-of-armenia_gregory1912.txt
+
+assignments:
+  - row_id: ormanian_church-of-armenia_gregory1912--church-of-armenia
+    work: "The Church of Armenia (Ormanian; Gregory's English translation, 1912): chapters XV-XVI"
+    author: ormanian
+    locus: "chapter XV 'The Return to Etchmiadzin' (file line 3913), the sixteenth-century patriarchs under Persian rule, the 1512 printing and the Amsterdam Bible of 1666 (lines about 4084-4134); chapter XVI 'The Patriarchate of Constantinople' (line 4122)"
+    atlas_ids:
+      - armenian-christianity-new-julfa
+    role: context
+    confidence: assigned
+    note: >
+      An overview by a former Armenian patriarch of Constantinople, translated into English
+      in 1912. It gives the see's return to Etchmiadzin (1441), the disorder of the sixteenth
+      century under Persian khans, the start of Armenian printing and the 1666 Amsterdam
+      Bible. It does not tell the deportation of 1604-05 or New Julfa. A twentieth-century
+      synthesis, not a source from the period; he writes as a Constantinople churchman, so
+      his judgement of Etchmiadzin is not neutral. Clean OCR; passages read at the lines
+      cited.
+  - row_id: ormanian_church-of-armenia_gregory1912--church-of-armenia-2
+    work: "The Church of Armenia (Ormanian; Gregory's English translation, 1912): chapters I-VI, the origin and the fourth-century church"
+    author: ormanian
+    locus: "chapters I-VI (file lines 1253-2100)"
+    atlas_ids:
+      - armenian-christianity-conversion-era
+    role: context
+    confidence: provisional
+    note: >
+      The same author's account of the conversion and the fourth-century church, for a
+      twentieth-century reader. Placed on the chapter list; chapters not read.
+  - row_id: ormanian_church-of-armenia_gregory1912--church-of-armenia-3
+    work: "The Church of Armenia (Ormanian; Gregory's English translation, 1912): chapters VII-X, the fifth and sixth centuries"
+    author: ormanian
+    locus: "chapters VII-X (file lines 2101-2970), including the Council of Chalcedon and the quarrels that followed"
+    atlas_ids:
+      - armenian-christianity-after-avarayr
+    role: context
+    confidence: provisional
+    note: >
+      Placed on the chapter list ('The Council of Chalcedon', 'A Succession of Quarrels');
+      chapters not read.
+  - row_id: ormanian_church-of-armenia_gregory1912--church-of-armenia-4
+    work: "The Church of Armenia (Ormanian; Gregory's English translation, 1912): chapter XI, the patriarchs' wanderings and the Paulicians"
+    author: ormanian
+    locus: "chapter XI (file lines 2973-3203); the Paulicians at about lines 3103-3124"
+    atlas_ids:
+      - bagratid-armenian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Placed on the chapter list ('Peregrinations of Patriarchs'); chapter not read beyond
+      the Paulician lines.
+  - row_id: ormanian_church-of-armenia_gregory1912--church-of-armenia-5
+    work: "The Church of Armenia (Ormanian; Gregory's English translation, 1912): chapter XI, the Paulicians"
+    author: ormanian
+    locus: "file lines about 3103-3124"
+    atlas_ids:
+      - paulicians
+    role: context
+    confidence: provisional
+    note: >
+      Two short passages on the Paulicians who were hostile to outward rites and the
+      measures taken against them. A twentieth-century churchman's view of a movement the
+      church opposed; read at the lines cited only.
+  - row_id: ormanian_church-of-armenia_gregory1912--church-of-armenia-6
+    work: "The Church of Armenia (Ormanian; Gregory's English translation, 1912): chapter XII, the patriarchal seat in Cilicia"
+    author: ormanian
+    locus: "chapter XII (file lines 3203-3339)"
+    atlas_ids:
+      - armenian-cilicia
+    role: context
+    confidence: provisional
+    note: >
+      Placed on the chapter list ('The Patriarchal Seat in Cilicia'); chapter not read.
+  - row_id: ormanian_church-of-armenia_gregory1912--church-of-armenia-7
+    work: "The Church of Armenia (Ormanian; Gregory's English translation, 1912): chapters XIII-XV, attempts at union and the return to Etchmiadzin"
+    author: ormanian
+    locus: "chapters XIII-XV (file lines 3339-4122); the transfer from Sis to Etchmiadzin (1441) at about line 3872"
+    atlas_ids:
+      - armenian-cilicia-after-the-kingdom
+    role: context
+    confidence: provisional
+    note: >
+      The 1300-1441 window ends with the see's transfer to Etchmiadzin, which this chapter
+      narrates. Read at the cited line only.
+  - row_id: ormanian_church-of-armenia_gregory1912--church-of-armenia-8
+    work: "The Church of Armenia (Ormanian; Gregory's English translation, 1912): chapters XVII-XVIII, awakening and the eighteenth century"
+    author: ormanian
+    locus: "chapters XVII-XVIII (file lines 4235-4870)"
+    atlas_ids:
+      - armenian-christianity-era-8
+    role: context
+    confidence: provisional
+    note: >
+      Placed on the chapter list ('A Period of Awakening', 'A Survey of the Eighteenth
+      Century'); chapters not read.
+  - row_id: ormanian_church-of-armenia_gregory1912--church-of-armenia-9
+    work: "The Church of Armenia (Ormanian; Gregory's English translation, 1912): chapter XIX, the nineteenth century"
+    author: ormanian
+    locus: "chapter XIX (between chapters XVIII and XX, file lines about 4421-4869)"
+    atlas_ids:
+      - armenian-christianity-zartonk
+    role: context
+    confidence: provisional
+    note: >
+      Placed on the chapter list ('A Survey of the Nineteenth Century'); chapter not read.

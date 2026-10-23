@@ -19,7 +19,9 @@ confidence:
     confessional voice's own article, not the household catechism's.
 sources:
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: "Article IX: Of Baptism (cic:melanchthon_augsburg-confession_anon-pg275.txt lines 307-315): 'children are to be baptized who, being offered to God through Baptism are received into God's grace'"
+  locus: >-
+    Article IX: Of Baptism: 'children are to be baptized who, being offered to God through Baptism are
+    received into God's grace'
   license: public-domain
 retrieval:
   tier: 1
@@ -47,11 +49,11 @@ modern_lens_note: >-
   the other side, that no one, of any age, is born already trusting God, and that the remedy is God's gift
   before it is anyone's own choice.
 modern_rendering: >-
-  We teach this: baptism is necessary for salvation. Through baptism, God offers his grace. Children
-  should be baptized. Offered to God through baptism, they are received into his grace.
+  They teach this about baptism: it is necessary for salvation. Through baptism, the grace of God is offered.
+  Children are to be baptized. Offered to God through baptism, they are received into God's grace.
 
-  We reject what the Anabaptists teach. They reject the baptism of children. They say children are saved
-  without it.
+  They condemn the Anabaptists, who reject the baptism of children and say that children are saved without
+  baptism.
 relations:
 - type: associated-with
   target: witt.dw.a-death-begun-that-a-child-receives

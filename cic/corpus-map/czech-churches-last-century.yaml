@@ -3,6 +3,17 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: czech-churches-last-century
 works:
+- row_id: bohemian-estates_apologie-druha-1618-ces_subert1862--apologie-druh-stav-v-kr-lovstv-esk-ho-1618-ubert-s-edition-of-1862
+  work: Apologie druhá stavův království Českého (1618), Šubert's edition of 1862
+  author: bohemian-estates
+  locus: the editor's preface dated 4 May 1862 at file line 214; Seznam příloh at file line
+    221
+  role: tradition
+  confidence: assigned
+  note: 'The Bohemian Protestant estates'' Second Apology of 1618 in Czech, with its documents:
+    the estates sub utraque speaking for themselves at the revolt. Readable but noisy OCR;
+    quotable once checked against the page image. Role tradition.'
+  source_file: bohemian-estates_apologie-druha-1618-ces_subert1862.txt
 - row_id: comenius_historia-fratrum-bohemorum-lat_1702--historia-fratrum-bohemorum-eorum-ordo-et-disciplina-2
   work: Historia Fratrum Bohemorum, eorum ordo et disciplina ecclesiastica (Comenius)
   author: comenius
@@ -15,3 +26,146 @@ works:
     against a clean Latin vocabulary 0.42). A cleaner scan of Comenius''s own text (1649-1660
     manuscripts) would serve as the quotable witness.'
   source_file: comenius_historia-fratrum-bohemorum-lat_1702.txt
+- row_id: comenius_labyrint-sveta-a-raj-srdce-ces_1809--labirynt-sw-ta-a-r-g-srdce-czech-original-1809-printing
+  work: Labirynt swěta a rág srdce (Czech original, 1809 printing)
+  author: comenius
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: The Czech text of Comenius's Labyrinth in a blackletter printing. Second witness because
+    the OCR reads blackletter poorly; the English of Lutzow (comenius_labyrinth-of-the-world_lutzow1901.txt)
+    is the readable witness. Check every wording against the page image.
+  source_file: comenius_labyrint-sveta-a-raj-srdce-ces_1809.txt
+- row_id: comenius_labyrinth-of-the-world_lutzow1901--the-labyrinth-of-the-world-and-the-paradise-of-the-heart-eng
+  work: The Labyrinth of the World and the Paradise of the Heart (English, Lutzow)
+  author: comenius
+  locus: whole volume; introduction from file line 521; chapters from line 171
+  role: tradition
+  confidence: assigned
+  note: Comenius's allegory in Lutzow's English, with Lutzow's introduction. Written by the
+    Unity's last bishop in 1623, in the first years of the suppression. Readable witness,
+    quotable once each wording is checked against the page image. The Czech original is in
+    comenius_labyrint-sveta-a-raj-srdce-ces_1809.txt.
+  source_file: comenius_labyrinth-of-the-world_lutzow1901.txt
+- row_id: kralice-bible_biblj-svata-kralicka-ces_bfbs1887--bible-of-kralice-text-of-the-1613-edition-printed-1887
+  work: Bible of Kralice, text of the 1613 edition (printed 1887)
+  author: kralice-bible
+  locus: whole volume; Old Testament contents at file line 72, New Testament list at 125253
+  role: tradition
+  confidence: assigned
+  note: The Unity's Czech Bible, translated from the original languages, in the text of its
+    last Kralice edition (1613), printed in 1887. It is not the 1579-93 first edition. Readable
+    Czech with marginal-reference noise. Quotable once each wording is checked against the
+    page image.
+  source_file: kralice-bible_biblj-svata-kralicka-ces_bfbs1887.txt
+- row_id: lasicki_obraz-jednoty-ceskobratrske-ces_1869--obraz-jednoty-eskobratrsk-lasicki-s-history-book-viii-on-the
+  work: 'Obraz Jednoty českobratrské: Lasicki''s history, Book VIII, on the Unity''s customs
+    and orders (Comenius, Leszno 1649)'
+  author: lasicki
+  locus: whole volume; Kapitola I from file line 981; Comenius's Předmluva at line 398
+  role: tradition
+  confidence: assigned
+  note: The Unity's account of its own customs and orders, published by its last bishop in
+    1649, in a clean 1869 Czech edition. Primary original evidence for the Unity's discipline
+    in its last century, quotable once each wording is checked against the page image. The
+    Latin 1649 original is not vendored. Placed on the title page and chapter headings; the
+    chapters were not read in full.
+  source_file: lasicki_obraz-jednoty-ceskobratrske-ces_1869.txt
+- row_id: niemeyer_collectio-confessionum-lat_niemeyer1840--confessio-bohemica-of-1535-the-confession-of-the-bohemian-ba
+  work: Confessio Bohemica of 1535, the confession of the Bohemian barons and nobles to King
+    Ferdinand (Additamentum 2)
+  author: niemeyer
+  locus: from about file line 47952 (preface to Ferdinand from about 47917; running head 'Confessio
+    Bohoemica'), to about line 49850
+  role: tradition
+  confidence: assigned
+  note: 'The Brethren-led Bohemian confession of 1535 in Latin, in Niemeyer''s 1840 collection.
+    Niemeyer''s own note (file line 4067) records that it was sent to Wittenberg and approved
+    by Luther, Melanchthon and others, so it also bears on the Lutheran world. Second witness
+    for now, not quotable: the Latin OCR has systematic letter misreads (Bohoemica for Bohemica).
+    Check every wording against the page image.'
+  source_file: niemeyer_collectio-confessionum-lat_niemeyer1840.txt
+- row_id: niemeyer_collectio-confessionum-lat_niemeyer1840--confessio-bohemica-of-1575-latin-frankfurt-1619-printing-add
+  work: Confessio Bohemica of 1575 (Latin, Frankfurt 1619 printing; Additamentum 3)
+  author: niemeyer
+  locus: from file line 49855 (running head 'Confessio Bohemica') to the end of the volume's
+    text
+  role: tradition
+  confidence: assigned
+  note: 'The confession of the three estates of Bohemia that take the sacrament in both kinds,
+    offered to Maximilian II in 1575 and to Rudolf II in 1608, in a Latin translation printed
+    at Frankfurt in 1619. The census names the Confession of 1575 as a primary source. This
+    is a translation from the Czech, not the Czech text. Second witness for now, not quotable:
+    noisy OCR. The Czech text is a lead (dossier section 3).'
+  source_file: niemeyer_collectio-confessionum-lat_niemeyer1840.txt
+- row_id: niemeyer_collectio-confessionum-lat_niemeyer1840--consensus-of-sendomir-1570-between-the-polish-reformed-luthe
+  work: Consensus of Sendomir (1570) between the Polish Reformed, Lutherans and the Bohemian
+    Brethren
+  author: niemeyer
+  locus: '''Consensus Mutuus'' from file line 36123'
+  role: context
+  confidence: provisional
+  note: 'The agreement of 1570 in which the Brethren of Great Poland joined the Lutherans
+    and Reformed. Placed here because the Brethren are a party; the Czech church''s own voice
+    is not in it. Provisional: placed on the headings and the editor''s notes, relevant passages
+    not read. Second witness, noisy OCR.'
+  source_file: niemeyer_collectio-confessionum-lat_niemeyer1840.txt
+- row_id: skala_historie-ceska-1619-1620-ces_tieftrunk1867--pavla-sk-ly-ze-zho-e-historie-esk-d-l-iii-1619-to-march-1620
+  work: Pavla Skály ze Zhoře Historie česká, díl III (1619 to March 1620)
+  author: skala
+  locus: whole volume; contents at file line 127
+  role: context
+  confidence: assigned
+  note: A Protestant eyewitness history of the revolt, with the documents it prints, in clean
+    Czech. It is a lay chronicle, not the church's own confession, so role is context. Quotable
+    once each wording is checked against the page image. Only volume III is vendored.
+  source_file: skala_historie-ceska-1619-1620-ces_tieftrunk1867.txt
+- row_id: slavata_pameti-1608-1619-dil1-ces_jirecek1866--pam-ti-vil-ma-slavaty-d-l-i-1608-1609-and-1618-1619
+  work: Paměti Viléma Slavaty, díl I (1608-1609 and 1618-1619)
+  author: slavata
+  locus: whole volume; contents at file line 159
+  role: context
+  confidence: assigned
+  note: 'The Catholic Chancellor''s memoirs of the Letter of Majesty years and the revolt:
+    a hostile witness to the Czech church''s last settlement. Readable Czech with some misread
+    diacritics; check wording against the page image. The Tridentine placement is on the author''s
+    side only and is provisional.'
+  source_file: slavata_pameti-1608-1619-dil1-ces_jirecek1866.txt
+- row_id: unity-of-the-brethren_dekrety-jednoty-bratrske-ces_gindely1865--dekrety-jednoty-bratrsk-the-unity-s-decrees-and-synod-ruling
+  work: Dekrety Jednoty bratrské (the Unity's decrees and synod rulings)
+  author: unity-of-the-brethren
+  locus: whole volume; contents list at file line 238
+  role: tradition
+  confidence: assigned
+  note: 'The Unity''s own rulings on order and discipline in Czech, from the manuscripts:
+    its origin, the rulings of 1488, 1499 and 1504, the office of bishop, priest and deacon,
+    and the sacraments. Primary original evidence, quotable once each wording is checked against
+    the page image. The contents list shows much of it dates before 1517, so it serves the
+    Hussite world as well. Placed on the Czech contents list; the volume was not read in full.
+    OCR clean.'
+  source_file: unity-of-the-brethren_dekrety-jednoty-bratrske-ces_gindely1865.txt
+- row_id: unity-of-the-brethren_historie-tezkych-protivenstvi-cirkve-ceske-ces_1890--historie-o-t-k-ch-protivenstv-ch-c-rkve-esk-894-1632-with-th
+  work: Historie o těžkých protivenstvích církve české, 894-1632 (with the Waldensian persecution
+    of 1655)
+  author: unity-of-the-brethren
+  locus: whole volume; sections for 1618 onward from file line 7043 ('Léta 1618'); Adam Hartmann
+    named at line 7529
+  role: tradition
+  confidence: assigned
+  note: The Czech exiles' history of their church's sufferings to the suppression under Ferdinand
+    II, in a clean 1890 edition. Primary original evidence for the suppression, quotable once
+    each wording is checked against the page image. Authorship is the host catalogue's ascription
+    to Comenius with Adam Hartmann; the title page names no author, so the author slug is
+    the Unity. Placed on headings and a year-index read; not read in full.
+  source_file: unity-of-the-brethren_historie-tezkych-protivenstvi-cirkve-ceske-ces_1890.txt
+- row_id: utraquist-consistory_jednani-a-dopisy-konsistore-pod-oboji-1562-1570-ces_pazout1906--jedn-n-a-dopisy-konsisto-e-pod-oboj-1562-1570-pa-out-1906
+  work: Jednání a dopisy konsistoře pod obojí, 1562-1570 (Pažout, 1906)
+  author: utraquist-consistory
+  locus: title page at file line 88; Předmluva at file line 146; a consistory act of 1 September
+    1564 (no. 176) at file line 5912
+  role: tradition
+  confidence: assigned
+  note: 'The Utraquist consistory''s own acts and letters, 1562-1570, in clean Czech: the
+    first Utraquist institutional voice in the corpus, filling the thinness the dossier named.
+    Primary evidence, quotable once checked against the page image. Role tradition.'
+  source_file: utraquist-consistory_jednani-a-dopisy-konsistore-pod-oboji-1562-1570-ces_pazout1906.txt

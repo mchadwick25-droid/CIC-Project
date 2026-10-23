@@ -38,8 +38,8 @@ text: >-
   might escape from his envy...
 modern_rendering: >-
   A certain elder named Hieronymus lived in these parts. He was extremely skilled in the
-  art and practice of grammar and eloquence. He was also greatly skilled in the Latin
-  language. But he had the vices of envy and evil-eyedness. These vices entirely hid the
+  art and practice of grammar and eloquence, and greatly skilled in the Latin language.
+  But his vices of envy and evil-eyedness were so great that they entirely hid the
   excellence of his very great skill and ability. The blessed man Possidonius had lived
   with him for many days. He told me that the free-woman Paula, who had taken care of him,
   left this world before her time in order to escape his envy...

@@ -19,6 +19,7 @@ work: "Memorial (Relatio 3) to the Emperor Valentinian II, pleading for the rest
   Victory to the Senate house"
 edition: "trans. H. de Romestin, printed alongside Ambrose's replies in Nicene and Post-Nicene Fathers
   series 2 vol. 10 (1896), vendored as cic/texts/npnf210_ambrose-select-works-letters.xml"
+citation: Quintus Aurelius Symmachus, Memorial (Relatio 3) to the Emperor Valentinian II, trans. H. de Romestin, Nicene and Post-Nicene Fathers, series 2, vol. 10 (1896)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

@@ -30,8 +30,8 @@ dates:
     during the Macarian repression of 347-348, and dead of the beating; his body thrown into the sea with
     Maximianus and recovered by the congregation
 narratable: true
-bridge_line: Flogged beside Maximianus, and in the middle of it he called the men holding the whips traditores
-  and told them to come and see what the madness of their unity had done.
+bridge_line: Flogged beside Maximianus. Macrobius says he called out to the traditores, the men who
+  gave up the scriptures, and told them to come and heal their madness of unity.
 relations:
 - type: associated-with
   target: don.story.macrobius-letter

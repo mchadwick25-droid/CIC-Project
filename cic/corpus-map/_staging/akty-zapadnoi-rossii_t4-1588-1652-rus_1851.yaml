@@ -1,0 +1,66 @@
+source_file: akty-zapadnoi-rossii_t4-1588-1652-rus_1851.txt
+authors_ruled:
+  akty-zapadnoi-rossii:
+    kind: anonymous
+    evidence: 'A documentary series: the title page (file lines 11-18) names only the Archaeographic Commission
+      as collector and publisher, and each document carries its own issuer in its heading. Treated as
+      a work-entity, as the vendored Akty arkheograficheskoi ekspeditsii already is.'
+assignments:
+- row_id: akty-zapadnoi-rossii_t4-1588-1652-rus_1851--akty-zapadnoi-rossii-vol-4-the-union-documents-of-1594-1597
+  work: 'Akty Zapadnoi Rossii vol. 4: the union documents of 1594-1597 and the two Brest synods of October
+    1596, in Ruthenian and Polish'
+  author: akty-zapadnoi-rossii
+  locus: documents 47 to 90 from file line 6587 (the synodal letters and articles of 1594-1595, the royal
+    grants, the protests of Ostrozky and the brotherhoods) and documents 105 to 117 from file line 14101
+    (the synod acts of 8-10 October 1596, the pastoral letters of both sides, the royal decrees); the
+    table of contents at file line 53993
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: tradition
+  confidence: assigned
+  note: 'The union''s own documents in the languages they were written in, which the vendored Theiner
+    volume gives only in contemporary Latin versions: the bishops'' synodal letters, the articles of 1595,
+    the Brest synod decree and the counter-synod''s protest, the royal confirmations and the first persecutions.
+    The first-pass dossier left these as an open lead; this volume closes it. Clean OCR with doubled spaces;
+    quote after a page-image check.'
+- row_id: akty-zapadnoi-rossii_t4-1588-1652-rus_1851--akty-zapadnoi-rossii-vol-4-the-orthodox-hierarchy-restored
+  work: 'Akty Zapadnoi Rossii vol. 4: the Orthodox hierarchy restored under Patriarch Theophanes (1620-1621),
+    the brotherhoods and the metropolitans to Peter Mohyla (1620-1652)'
+  author: akty-zapadnoi-rossii
+  locus: from about file line 50818 (document 221, the 1621 oath) to the end of the documents at about
+    file line 53990; Mohyla is named in 82 lines of the file, the brotherhoods in 227
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: tradition
+  confidence: assigned
+  note: The 1620 restoration of the Orthodox hierarchy by Patriarch Theophanes, the Kyiv and Lutsk brotherhoods,
+    the 1632-1633 settlement under Wladyslaw IV and Mohyla's own years as metropolitan, in the chancery
+    Ruthenian of the time. The documentary spine the census's 'academy records, brotherhood statutes'
+    points to, as far as a printed public-domain series carries it. Clean OCR; read the headings (numbered
+    and dated) to find a document.
+- row_id: akty-zapadnoi-rossii_t4-1588-1652-rus_1851--akty-zapadnoi-rossii-vol-4-patriarch-jeremias-ii-s-acts-in
+  work: 'Akty Zapadnoi Rossii vol. 4: Patriarch Jeremias II''s acts in Lithuania and Kyiv, 1589-1590'
+  author: akty-zapadnoi-rossii
+  locus: documents 16 to 26 from file line 2109 to about file line 3600 (the circular of July 1589, the
+    patriarchal letters of August 1589, the 1590 synod of Brest)
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-parish-millet-and-n
+  role: context
+  confidence: provisional
+  note: 'Patriarch Jeremias II of Constantinople, on his way home from creating the Moscow patriarchate,
+    deposed Metropolitan Onesiphorus, consecrated Michael Rahoza and gave the Lviv brotherhood its stauropegial
+    charter: the Patriarchate acting in the Ruthenian church. Context for the Greek Church under the Ottomans;
+    the acts are in Ruthenian, not Greek.'
+- row_id: akty-zapadnoi-rossii_t4-1588-1652-rus_1851--akty-zapadnoi-rossii-vol-4-letters-between-the-lithuanian
+  work: 'Akty Zapadnoi Rossii vol. 4: letters between the Lithuanian Rus'' and Muscovy in the Time of
+    Troubles, and the Lithuanian side of the 1589 patriarchal journey'
+  author: akty-zapadnoi-rossii
+  locus: the 1589 patriarchal documents from file line 2109; the Time of Troubles letters at about file
+    lines 27000-30000 (a letter on Boris Godunov and the pretender read at the 50 percent sample point)
+  atlas_ids:
+  - russian-church-stoglav-to-nikon
+  role: context
+  confidence: provisional
+  note: The western half of the 1589 journey that founded the Moscow patriarchate, and Lithuanian correspondence
+    about Boris and the false Dmitry. Placed on sampled passages, not a full reading; the Russian thread
+    decides its weight.

@@ -38,8 +38,8 @@ dates:
     named in the 320 proceedings before Zenophilus as the source of the money. Birth, death and family
     unrecorded.
 narratable: true
-bridge_line: A rich laywoman of Carthage who kissed a martyr's bone before communion, was publicly rebuked
-  for it, and whose money paid for the bishop consecrated against the man who rebuked her.
+bridge_line: A rich woman of Carthage who kissed a martyr's bone before communion. She was rebuked
+  for it. Optatus says her money paid for the bishop set up against the man who rebuked her.
 relations:
 - type: associated-with
   target: don.story.lucilla-affair

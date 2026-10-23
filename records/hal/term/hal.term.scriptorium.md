@@ -28,7 +28,7 @@ retrieval:
   prefer_instead:
   - presenting this as a documented, named institution rather than a reasonable inference
 relations: []
-plain_meaning: A guessed space for copying books at Bethlehem. Never named directly in what survives.
+plain_meaning: "A guessed space for copying books at Bethlehem. No surviving source names it."
 world_word: scriptorium
 false_friend:
 - a formally documented, named institution
@@ -40,8 +40,7 @@ senses:
   evidential: Jerome's epitaph letter for Paula describes the community's daily discipline in general
     terms; it does not name a scriptorium specifically, which is why this entry carries the old system's
     own highest thin-evidence flag.
-  personal: Someone imagining a named, purpose-built copying room at Bethlehem is picturing something
-    real work made necessary, not something any surviving letter actually describes.
+  personal: "Picturing a purpose-built copying room at Bethlehem goes beyond the record. The amount of work suggests some plan for it. No surviving letter describes one."
   translational: >-
     Wasn't there obviously a scriptorium at a scholarly monastery like this? Probably something like one
     existed, given the volume of text produced - but no surviving source names it, so this stays an

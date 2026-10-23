@@ -22,6 +22,7 @@ attribution_status: attributed to John Calvin. No attribution dispute exists for
 discovery_channel: Source_Registry.md row 4, added 2026-09-15; corpus map / cic/corpus-map/the-reformed-cities-zurich-and-geneva.yaml.
 external_ids:
   rzg_source_registry_row: 4
+citation: John Calvin, The Catechism of the Church of Geneva, trans. Elijah Waterman (Hartford, 1815)
 kind: vendored
 ---
 Calvin's own catechetical, not systematic-theological, register - Geneva's own strand-specific enactment of G3 (catechesis). Verified directly against the vendored file, whole file, per Source_Registry.md's own Verification Note.

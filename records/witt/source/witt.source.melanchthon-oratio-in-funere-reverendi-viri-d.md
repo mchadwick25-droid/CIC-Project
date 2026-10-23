@@ -20,6 +20,7 @@ edition: '(Wittenberg, 22 February 1546) and his Preface to the second Wittenber
   Latin works (1546) — the earliest Vita of Luther. Latin PD; English in Luther''s Works Companion Volume:
   Contemporary Biography (Concordia; in copyright) and, for the oration, a 1546 English rendering attributed
   to John Bale (search result, not examined) — NOT VENDORED'
+citation: Melanchthon, Oratio in funere reverendi viri D. Martini Lutheri (Wittenberg, 22 February 1546) and his Preface to the second Wittenberg volume of Luther's Latin works (1546)
 kind: unvendored
 rights_status: "In-copyright; not vendored - access blocked"
 attribution_status: attributed

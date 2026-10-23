@@ -1,0 +1,41 @@
+source_file: sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1.txt
+
+assignments:
+  - row_id: sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1--chronica-vita-martini-epistulae-dialogi-latin
+    work: "Chronica, Vita Martini, Epistulae, Dialogi (CSEL 1), Latin"
+    author: sulpiciusseverus
+    locus: "Chronica from file line 497; book II on Ariminum at 5388, Seleucia at 5451, Phoebadius at 5582, Hilary's return at 5664"
+    atlas_ids:
+      - gallic-nicene-episcopate
+    role: tradition
+    confidence: provisional
+    note: >
+      The Latin original behind npnf211_sulpitius-severus-vincent-lerins-cassian.xml: the
+      Aquitanian memory of Ariminum (the Gallic and British bishops who refused the
+      emperor's rations), Seleucia and Hilary's exile, written about 403. Primary
+      original-language voice of the Gallic Nicene world; Google OCR with letter errors,
+      verify against the page image.
+  - row_id: sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1--chronica-book-ii-on-the-arian-crisis-latin
+    work: "Chronica, book II, on the councils of 355-360, Latin"
+    author: sulpiciusseverus
+    locus: "file lines 5388-5664"
+    atlas_ids:
+      - imperial-juridical-christianity
+    role: context
+    confidence: provisional
+    note: >
+      A near-contemporary Western narrative of Constantius II's councils and their coercion,
+      one generation after the events: the imperial-juridical world seen from the Gallic
+      side. Context, not its voice.
+  - row_id: sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1--chronica-book-ii-on-ariminum-and-the-homoian-victory-latin
+    work: "Chronica, book II, on Ariminum, Seleucia and the Homoian victory of 359-360, Latin"
+    author: sulpiciusseverus
+    locus: "file lines 5388-5460"
+    atlas_ids:
+      - homoian-arian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      A Nicene narrative of the Homoian party's victory at Ariminum (Valens, Ursacius, the
+      deceived legates): the view from outside the Homoian world, by a hostile
+      near-contemporary. Context.

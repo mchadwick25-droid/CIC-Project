@@ -19,17 +19,19 @@ sources:
   locus: the Ninety-Five Theses, denying indulgences as the merits of Christ and the saints
   license: public-domain
 - source_id: witt.source.luther-treatise-on-christian-liberty
-  locus: Christian Liberty, cited among this entry's Registry rows (Doc_06 SS5 entry 2.4)
+  locus: Christian Liberty
   license: public-domain
 - source_id: witt.source.luther-deutsche-geistliche-lieder-the-hymns
   locus: the hymns -- 'Naught building on my merit'
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession -- justified 'not by their own strength, merits, or works'
+  locus: >-
+    the Augsburg Confession -- men cannot be justified 'by their own strength, merits, or works'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology, read this pass -- 'their feigning a distinction between meritum congrui and meritum
-    condigni is only an artifice'
+  locus: >-
+    the Apology -- 'their feigning a distinction between meritum congrui and meritum condigni is only
+    an artifice'
   license: public-domain
 retrieval:
   tier: 2

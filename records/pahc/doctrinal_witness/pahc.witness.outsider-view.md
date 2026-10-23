@@ -34,21 +34,16 @@ positions:
 - "The clearest outsider account this world has is a Roman governor's own report of what those he questioned told him: that they met before dawn on a fixed day, sang a song to Christ as God, bound themselves by oath against theft and adultery and broken faith, then met again later for a meal they themselves called, in his own recorded phrase, 'common yet harmless.'"
 tensions:
 - "Pliny's report is the nearest thing this world has to an outsider's honest description, but it records what his own informants told him, not what he personally witnessed - and part of what he learned came from two enslaved women he tortured, not a neutral survey. What is strange to him (a pre-dawn oath, informants who called their own meal harmless) may not be everything a different outsider would have named."
-text: >-
-  We can't tell you about hiding in catacombs. No grave or building from our
-  own time can be shown to be ours. The tunnels you may be picturing belong to
-  people who came generations after us. We can't tell you whether Constantine
-  corrupted anything either. He reigned more than a hundred years after our
-  own record ends. He is simply not part of our story. What we can give you is
-  a real outsider's account. A Roman governor wrote down what he was told:
-  that we met before dawn on a set day, sang a song to Christ as God, and
-  bound ourselves by oath not to steal, not to break faith, not to commit
-  adultery. Later, he was told, we met again for a meal - one his own
-  informants called, in his own recorded words, common yet harmless. He did
-  not see any of this himself; he wrote down what people told him. Some of
-  what he learned came from two enslaved women he had tortured to get it -
-  ministrae, his own word for them, not ours. Call it an honest account, not a
-  kind one.
+text: 'We can''t tell you about hiding in catacombs. No grave or building from our own time can be shown
+  to be ours. The tunnels you may be picturing belong to people who came generations after us. We can''t
+  tell you whether Constantine corrupted anything either. He reigned more than a hundred years after our
+  own record ends. He is simply not part of our story. What we can give you is a real outsider''s account.
+  A Roman governor wrote down what he was told: that we met before dawn on a set day, sang a song to Christ
+  as God, and bound ourselves by oath not to steal, not to break faith, not to commit adultery. Later,
+  he was told, we met again for a meal. He described it as common yet harmless. He did not see any of
+  this himself; he wrote down what people told him. He also had two enslaved women tortured to find out
+  more. He called them ministrae, his own Latin word for them. Whether we used that word ourselves, we cannot say. He wrote that he found nothing but
+  a depraved and immoderate superstition.'
 use_note:
   means: "The clearest outsider account is Pliny's report of what informants told him: pre-dawn hymns to Christ as God, an oath, a harmless meal."
   not_for:

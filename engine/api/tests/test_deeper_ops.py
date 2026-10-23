@@ -34,14 +34,20 @@ def test_the_token_rates_and_packs_are_the_ruled_ones():
         solo_open=50, solo_round=20, solo_round_later=25,
         table_open_per_seat=50, table_round_two=60, table_round_three=100,
         table_round_two_later=75, table_round_three_later=125,
-        later_rounds_from=4, free_window=550, free_window_days=30, free_rounds=3,
+        later_rounds_from=4, free_window=550, free_window_days=30, example_rounds=3, free_network_window=2750,
     )
     assert ops.packs == (Pack(7, 1100), Pack(15, 2750), Pack(30, 6600))
 
 
+def test_the_visitor_bound_numbers_are_the_ruled_ones():
+    ops = load_ops()
+    assert (ops.unanswered_messages_per_visitor, ops.unanswered_messages_per_network) == (100, 200)
+    assert ops.rates.free_network_window == 5 * ops.rates.free_window == 2750
+
+
 def test_all_wording_reads_at_the_target_level():
     ops = load_ops()
-    for text in (ops.limit_text, *ops.notes.values(), *ops.door_words.values()):
+    for text in (ops.limit_text, *ops.notes.values()):
         assert score_turn(text).passed, text
 
 
@@ -57,25 +63,33 @@ def test_the_stored_pause_names_no_code_and_no_money():
         lambda d: d["limits"].update(low_balance_at=0),
         lambda d: d["limits"].pop("low_balance_at"),
         lambda d: d["limits"].update(extra=1),
+        lambda d: d["limits"].update(unanswered_messages_per_visitor=0),
+        lambda d: d["limits"].pop("unanswered_messages_per_network"),
         lambda d: d["words"]["notes"].pop("spent"),
         lambda d: d["words"]["notes"].update(spent="  "),
         lambda d: d["words"].update(limit=""),
-        lambda d: d["words"].pop("door"),
-        lambda d: d["words"]["door"].pop("limited"),
-        lambda d: d["words"]["door"].update(paused=" "),
+        lambda d: d["words"].update(door={"limited": "x"}),
+        lambda d: d.update(door={"base_weekly_usd": 12}),
         lambda d: d.pop("paid"),
         lambda d: d["paid"].update(round_cap=0),
         lambda d: d["paid"].update(round_cap=True),
         lambda d: d["paid"].update(provisional="yes"),
         lambda d: d["paid"].pop("provisional"),
-        lambda d: d["door"].pop("observe"),
-        lambda d: d["door"].update(observe="yes"),
         lambda d: d.pop("admin"),
         lambda d: d["admin"].pop("mint_max_tokens_per_day"),
         lambda d: d["admin"].update(mint_max_tokens_per_request=0),
         lambda d: d["admin"].update(mint_max_tokens_per_day=True),
         lambda d: d["admin"].update(mint_max_tokens_per_request=99999),
         lambda d: d["admin"].update(extra=1),
+        lambda d: d.pop("tester"),
+        lambda d: d["tester"].pop("max_per_day"),
+        lambda d: d["tester"].update(extra=1),
+        lambda d: d["tester"].update(default_tokens=0),
+        lambda d: d["tester"].update(max_days=True),
+        lambda d: d["tester"].update(max_tokens="20000"),
+        lambda d: d["tester"].update(default_tokens=20001),
+        lambda d: d["tester"].update(default_days=91),
+        lambda d: d["tester"].update(default_tokens=1_000_001, max_tokens=1_000_001),
         lambda d: d.pop("pilot"),
         lambda d: d["pilot"].pop("audiences"),
         lambda d: d["pilot"].pop("pilot_end_date"),
@@ -92,6 +106,11 @@ def test_the_stored_pause_names_no_code_and_no_money():
         lambda d: d["pilot"]["audiences"]["general"].update(per_address=True),
         lambda d: d["pilot"]["audiences"]["general"].update(pilot_end_date="2026-12-31"),
         lambda d: d["pilot"]["audiences"]["general"].update(extra=1),
+        lambda d: d["pilot"]["audiences"]["general"].pop("questionnaire_url"),
+        lambda d: d["pilot"]["audiences"]["general"].update(pilot_open=True, questionnaire_url=None),
+        lambda d: d["pilot"]["audiences"]["general"].update(pilot_open=True, questionnaire_url="http://example.org/q"),
+        lambda d: d["pilot"]["audiences"]["general"].update(pilot_open=True, questionnaire_url="https://"),
+        lambda d: d["pilot"]["audiences"]["general"].update(questionnaire_url=7),
         lambda d: d["pilot"].update(pack_usd=9),
         lambda d: d["pilot"].update(extra=1),
     ],
@@ -115,6 +134,8 @@ def test_a_malformed_file_is_refused(tmp_path, change):
         lambda d: d["tokens"]["table"].update(round_three_seats=59),
         lambda d: d["tokens"]["table"].pop("open_per_seat"),
         lambda d: d["tokens"]["free"].update(daily=-1),
+        lambda d: d["tokens"]["free"].update(network_window_allowances=0),
+        lambda d: d["tokens"]["free"].pop("network_window_allowances"),
         lambda d: d["tokens"].update(packs=[]),
         lambda d: d["tokens"].update(packs=[{"price_usd": 5, "tokens": 800}]),
         lambda d: d["tokens"].update(packs=[{"price_usd": 15, "tokens": 2750}, {"price_usd": 7, "tokens": 1100}]),
@@ -150,56 +171,9 @@ def test_the_flag_on_refuses_to_start_on_a_bad_file(tmp_path, monkeypatch):
         deeper_routes.build_runtime(config, {"CIC_DEEPER_WEBHOOK_SECRET": "whsec_x", "CIC_API_ANON_CAP_ENABLED": "1", "CIC_DEEPER_FREE_KEY": "k" * 40})
 
 
-def test_the_shipped_door_is_the_documented_default():
-    from engine.deeper.door import Stage
-
-    door = load_ops().door
-    assert (door.base_usd, door.gift_share, door.purchase_share, door.invoice_factor) == (150.0, 0.8, 0.5, 1.35)
-    assert door.stages == (
-        Stage(at=0.66, table_free_rounds=1),
-        Stage(at=0.75, solo_free_rounds=2, free_share=0.5),
-        Stage(at=0.90, table_free_rounds=0),
-        Stage(at=0.95, free_voice=False),
-        Stage(at=1.00, paid_voice=False),
-    )
-
-
-@pytest.mark.parametrize(
-    "change",
-    [
-        lambda d: d.pop("door"),
-        lambda d: d["door"].pop("base_weekly_usd"),
-        lambda d: d["door"].update(extra=1),
-        lambda d: d["door"].update(base_weekly_usd=0),
-        lambda d: d["door"].update(base_weekly_usd="150"),
-        lambda d: d["door"].update(gift_share=1.5),
-        lambda d: d["door"].update(purchase_share=-0.1),
-        lambda d: d["door"].update(invoice_factor=0.9),
-        lambda d: d["door"].update(stages=[]),
-        lambda d: d["door"].update(stages=[{"table_free_rounds": 1}]),
-        lambda d: d["door"].update(stages=[{"at": 0.5, "unknown": 1}]),
-        lambda d: d["door"].update(stages=[{"at": 0.7, "free_voice": False}, {"at": 0.6, "paid_voice": False}]),
-        lambda d: d["door"].update(stages=[{"at": 0.5, "free_voice": False}, {"at": 0.5, "paid_voice": False}]),
-        lambda d: d["door"].update(stages=[{"at": 0.5, "free_voice": True}]),
-        lambda d: d["door"].update(stages=[{"at": 0.5, "paid_voice": False}]),
-        lambda d: d["door"].update(stages=[{"at": 0.5, "table_free_rounds": 1}, {"at": 0.6, "table_free_rounds": 2}]),
-        lambda d: d["door"].update(stages=[{"at": 0.5, "free_share": 0.5}, {"at": 0.6, "free_share": 0.8}]),
-        lambda d: d["door"].update(stages=[{"at": 0.5, "solo_free_rounds": -1}]),
-        lambda d: d["door"].update(stages=[{"at": 0.5, "solo_free_rounds": True}]),
-        lambda d: d["door"].update(stages=[{"at": 0.5, "free_share": 2}]),
-        lambda d: d["door"].update(stages=[{"at": 0.5, "free_share": 0}]),
-    ],
-)
-def test_a_malformed_door_is_refused(tmp_path, change):
-    data = _good()
-    change(data)
-    with pytest.raises(OpsFileError):
-        load_ops(_write(tmp_path, data))
-
-
-def test_the_shipped_door_starts_in_observe_mode_and_the_paid_cap_is_provisional():
+def test_the_shipped_file_has_no_door_and_the_paid_cap_is_provisional():
     ops = load_ops()
-    assert ops.door_observe is True
+    assert not hasattr(ops, "door") and not hasattr(ops, "door_words")
     assert (ops.paid_round_cap, ops.paid_round_cap_provisional) == (40, True)
 
 
@@ -207,6 +181,12 @@ def test_the_shipped_mint_limits_hold_at_least_the_largest_pack():
     ops = load_ops()
     assert ops.admin_mint_max_tokens_per_request >= max(p.tokens for p in ops.packs)
     assert ops.admin_mint_max_tokens_per_request <= ops.admin_mint_max_tokens_per_day
+
+
+def test_the_shipped_tester_section_holds_the_stated_defaults():
+    ops = load_ops()
+    assert (ops.tester_default_tokens, ops.tester_max_tokens) == (20000, 20000)
+    assert (ops.tester_default_days, ops.tester_max_days, ops.tester_max_per_day) == (30, 90, 2)
 
 
 @pytest.mark.parametrize("key", [None, "", "short"])
@@ -261,8 +241,16 @@ def test_a_real_runtime_rebuilt_on_the_same_file_and_key_does_not_refill_a_visit
         second.claims.close()
 
 
-def test_the_shipped_pilot_names_its_audiences_all_closed():
+def test_the_shipped_pilot_opens_no_audience_without_its_questionnaire():
     ops = load_ops()
     assert set(ops.pilot_audiences) == {"general", "pastors", "historians"}
-    assert not any(a.pilot_open for a in ops.pilot_audiences.values())
+    assert all(a.questionnaire_url for a in ops.pilot_audiences.values() if a.pilot_open)
     assert [a.public for a in ops.pilot_audiences.values()] == [True, False, False]
+    assert (ops.pilot_audiences["general"].pilot_cap, ops.pilot_audiences["general"].per_address) == (100, 1)
+
+
+def test_an_audience_opens_once_it_has_a_questionnaire(tmp_path):
+    data = _good()
+    data["pilot"]["audiences"]["general"].update(pilot_open=True, questionnaire_url="https://forms.example.org/pilot")
+    general = load_ops(_write(tmp_path, data)).pilot_audiences["general"]
+    assert (general.pilot_open, general.questionnaire_url) == (True, "https://forms.example.org/pilot")

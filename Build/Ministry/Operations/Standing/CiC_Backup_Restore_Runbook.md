@@ -91,9 +91,15 @@ idle-close threads in `_build_real_app()`) runs once a day, backs up both
 DBs, verifies each with `PRAGMA integrity_check`, uploads to
 `db-backups/<service>/<events|usage>/<timestamp>.db` in the service's own
 bucket, and prunes objects older than 14 days. Its last outcome is on disk at
-`/data/backups-staging/last_run.json` (readable via `render ssh`, below) —
-not yet surfaced through `/api/admin/pilot-summary` or any other endpoint;
-that is a reasonable small follow-on, not built this pass.
+`/data/backups-staging/last_run.json` (readable via `render ssh`, below).
+The public `/health` route reports two facts from it: whether every database
+the last pass found reached the bucket (`backup.uploaded`), and when that pass
+ran (`backup.last_run_at`). It shows no names, keys or errors. A pass that
+backs up without uploading also logs a warning. The Live watch workflow
+(`.github/workflows/live-watch.yml`) reads `/health` every 15 minutes and
+fails, emailing you, when the last pass did not upload or is more than 26
+hours old. Until the one-time setup above is done it fails on every run: that
+is the alert doing its job.
 
 To check on it or list what's backed up, from a local checkout with the R2
 credentials exported:
@@ -200,6 +206,16 @@ including a dedicated case (`test_backup_one_survives_a_live_wal_writer`)
 that holds a second connection open with an uncommitted write while the
 backup runs, proving the online-backup-vs-file-copy distinction this runbook
 argues for above rather than just asserting it.
+
+## First production upload and restore drill, 2026-10-16
+
+Run by Mark in the `cic-engine` Shell. No model calls.
+
+- **Upload:** the first manual `backup` pass sent all three databases to `cic-db-backups` (events 6,287,360 bytes, usage 208,896, meter 45,056). `/health` then showed `"uploaded": true`.
+- **Drill:** each newest object was downloaded with `restore --from-key` into a scratch folder (`/tmp/drill`), never over a live file. Every download passed `integrity_check` twice (on download and on copy).
+- **Row counts, backup against live:** `session_events` 1503 / 1503; `usage_log` 535 / 535; meter `daily` 6 / 6, `free_window` 1 / 1, `state` 1 / 1, and `funds`, `meter`, `pilot_joined`, `reconcile`, `voided_payments` 0 / 0. No table missing on either side.
+- **Why production, not staging:** resuming `cic-engine-staging` costs money, and a restore into a scratch path reads the bucket without touching the live databases.
+- **Not yet run for real:** the full sequence above (suspend, overwrite the live files, resume). The RTO estimate stays an estimate until that runs.
 
 ## What this does not cover
 

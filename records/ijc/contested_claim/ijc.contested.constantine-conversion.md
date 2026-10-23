@@ -18,13 +18,12 @@ sources:
   locus: I.28-31 (the mid-day vision, told at second hand, decades later)
   license: public-domain
 - source_id: ijc.source.lactantius-de-mortibus
-  locus: '44 (the dream the night before battle, written within a few years)'
+  locus: '44 (the dream, written within a few years)'
   license: public-domain
 claim: Constantine genuinely converted to Christianity at the Milvian Bridge, on the strength of a
   heaven-sent sign - the vision of a cross of light with the words "Conquer by this."
 held_against:
-- 'The two earliest accounts do not agree: Lactantius, writing close to the events, reports a DREAM the
-  night before battle; Eusebius, writing after Constantine''s death, reports a mid-day VISION seen by
+- 'The two earliest accounts do not agree: Lactantius, writing close to the events, reports a DREAM before battle; Eusebius, writing after Constantine''s death, reports a mid-day VISION seen by
   the whole army - told to him by Constantine "long afterwards" and confirmed by oath. The details are
   not reconcilable into one clean story, and the vendored edition''s own notes say as much'
 - What Constantine himself believed, and when, is not directly recoverable - his religious language stays

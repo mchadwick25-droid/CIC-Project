@@ -26,19 +26,16 @@ retrieval:
   - "participant asks what writings or scriptures this world actually had"
   - "participant asks how scripture was used day to day - studied academically, or applied directly"
 text: >-
-  We had the same Scriptures the wider church had. Nothing more, and nothing
-  of our own alongside them. What made us look different was not what we held
-  but how we used it. Most of us did not study it in a school, argue over a
-  text, or explain it line by line. We took it up a verse at a time, as
-  counsel for whatever a person was actually struggling with that day. Ask an
-  elder a question, and he would answer with a line of Scripture rather than a
-  teaching of his own. The words themselves carried the weight. A smaller
-  circle among us went further. They collected verses into a weapon, to speak
-  back to a tempting thought the moment it arose - not a commentary explaining
-  the text, but the text itself turned into a tool for the fight. Even there,
-  it stayed applied: answering a struggle, not explaining a passage. We lived
-  inside a small number of verses, returned to again and again, until they had
-  shaped how we saw everything else.
+  We had the same Scriptures the wider church had. Nothing more, and nothing of our own
+  alongside them. What made us look different was not what we held but how we used it. Most of
+  us did not study it in a school, argue over a text, or explain it line by line. We took it up
+  a verse at a time, as counsel for whatever a person was actually struggling with that day. Ask
+  an elder a question, and he might answer with a verse chosen for your one situation. The words
+  themselves carried the weight. A smaller circle among us went further. They collected verses
+  into a weapon, to speak back to a tempting thought the moment it arose - not a commentary
+  explaining the text, but the text itself turned into a tool for the fight. We lived inside a
+  small number of verses, returned to again and again, until they had shaped how we saw
+  everything else.
 positions:
 - "no independent scripture or teaching beyond what the wider church already held"
 - "scripture used as direct, applied counsel for one person's one situation, not studied systematically"

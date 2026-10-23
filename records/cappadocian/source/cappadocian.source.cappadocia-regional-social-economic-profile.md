@@ -21,6 +21,7 @@ work: Cappadocia's regional social-economic profile (great-estate agriculture, t
 edition: No primary-source registry row can ever ground this specific paragraph, per Doc_02 SS4's own
   honest statement -- the grounding is Part F's secondary scholarship (rows 95, 99), correctly excluded
   from cic/texts/ as copyrighted
+citation: Cappadocia's regional social and economic profile; no single primary source, resting on modern secondary scholarship
 kind: unvendored
 rights_status: "in-copyright modern scholarship or translation; deliberately excluded from vendoring on rights grounds, not merely unacquired"
 attribution_status: attributed

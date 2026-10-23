@@ -30,8 +30,10 @@ dates:
     and employed him as secretary and scriptural adviser from 382; his death removed the
     clerical protection that had made Jerome''s Roman position tenable'
 narratable: true
-bridge_line: the pope whose commission began the translation work and whose protection
-  made Rome possible - and whose death, in the same season as Blaesilla's, ended both
+bridge_line: >-
+  the pope whose commission began the translation work and whose protection
+  let Jerome stay in Rome. He died in December 384, in the same season as
+  Blaesilla, and the protection ended with him
 ---
 Figure of the world's initiating and crisis forces (hal.force.jerome-
 arrival, hal.force.clerical-precarity). The correspondence between Jerome

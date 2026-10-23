@@ -8,22 +8,35 @@ import { useEffect, useRef, useState } from 'react';
 import { acceptClaim, addCode, closePanel, declineClaim, deeperEnabled, formatCode, getCodeUrl, openGetCode, openPanel, removeCode, useDeeper } from '../lib/deeper';
 import { deeperCopy, pilotCopy } from '../lib/deeperCopy';
 import { dismissPilot, usePilot } from '../lib/pilot';
+import { peakBalance } from '../lib/balancePeak';
+import { accountsEnabled, closeSignIn, openHome, openSignIn, useAccount } from '../lib/accounts';
+import { accountsCopy } from '../lib/accountsCopy';
+import { SignInSteps } from './SignInSteps';
+
+const LOW_AT = 100;
 
 export function GoDeeperPanel() {
   const { codes, remaining, low, freeLeft, claim, panelOpen } = useDeeper();
   const pilot = usePilot();
+  const account = useAccount();
   const held = codes.length > 0;
+  const accountBalance = accountsEnabled && account.status === 'in' ? account.balance : null;
+  const count = accountBalance ? accountBalance.free_left + accountBalance.code_tokens : held ? remaining : freeLeft;
   const [entering, setEntering] = useState(false);
   const [text, setText] = useState('');
   const [bad, setBad] = useState(false);
   const [revealed, setRevealed] = useState(false);
   const toggleRef = useRef<HTMLButtonElement>(null);
   const wasOpen = useRef(false);
+  const headRef = useRef<HTMLHeadingElement>(null);
 
   // A code on screen never outlives the panel: closing hides it, so a panel that
   // opens itself later at a limit starts with the code out of sight.
   useEffect(() => {
-    if (!panelOpen) setRevealed(false);
+    if (!panelOpen) {
+      setRevealed(false);
+      closeSignIn();
+    }
     // Closing returns the person to the control that opened it.
     if (wasOpen.current && !panelOpen) toggleRef.current?.focus();
     wasOpen.current = panelOpen;
@@ -37,6 +50,11 @@ export function GoDeeperPanel() {
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
   }, [panelOpen]);
+
+  const signingIn = deeperEnabled && accountsEnabled && account.signInOpen && account.status !== 'in';
+  useEffect(() => {
+    if (signingIn) headRef.current?.focus();
+  }, [signingIn]);
 
   if (!deeperEnabled) return null;
 
@@ -57,30 +75,39 @@ export function GoDeeperPanel() {
 
   return (
     <div className="go-deeper sans">
-      <div className="go-deeper__bar">
-        {held && remaining !== null && (
-          <span className="go-deeper__count" role="status">
-            {deeperCopy.balance(remaining)}
-            {low ? ` ${deeperCopy.low}` : ''}
-          </span>
-        )}
-        {!held && freeLeft !== null && (
-          <span className="go-deeper__count" role="status">
-            {deeperCopy.freeLeft(freeLeft)}
+      <div className="go-deeper__ribbon">
+        {count !== null && (
+          <span className={count < LOW_AT ? 'go-deeper__count go-deeper__count--low' : 'go-deeper__count'} role="status">
+            {deeperCopy.left(count)}
           </span>
         )}
         <button ref={toggleRef} type="button" aria-expanded={panelOpen} aria-controls="go-deeper-panel" onClick={panelOpen ? closePanel : openPanel}>
           {deeperCopy.open}
         </button>
+        {count !== null && <i className="go-deeper__line" style={{ width: `${Math.min(100, (count / peakBalance(count)) * 100)}%` }} />}
       </div>
       {panelOpen && (
         <aside id="go-deeper-panel" className="go-deeper__panel" aria-label={deeperCopy.heading}>
           <div className="go-deeper__head">
-            <h2>{deeperCopy.heading}</h2>
-            <button type="button" onClick={closePanel}>
-              {deeperCopy.close}
-            </button>
+            <h2 ref={headRef} tabIndex={-1}>{signingIn ? accountsCopy.signInOrUp : deeperCopy.heading}</h2>
+            {signingIn ? (
+              <button type="button" onClick={closeSignIn}>
+                {accountsCopy.back}
+              </button>
+            ) : (
+              <button type="button" onClick={closePanel}>
+                {deeperCopy.close}
+              </button>
+            )}
           </div>
+          {signingIn && (
+            <SignInSteps
+              onSignedIn={() => {
+                closeSignIn();
+                closePanel();
+              }}
+            />
+          )}
           {pilot.status && (
             <div className="go-deeper__section" role="group" aria-label={pilotCopy.group}>
               {pilot.status === 'joining' && <p role="status">{pilotCopy.joining}</p>}
@@ -100,7 +127,7 @@ export function GoDeeperPanel() {
               {pilot.status === 'failed' && <p role="alert">{pilotCopy.failed}</p>}
             </div>
           )}
-          {claim ? (
+          {!signingIn && (claim ? (
             <div className="go-deeper__section" role="group" aria-label={deeperCopy.claimAsk}>
               <p>
                 {deeperCopy.claimAsk}
@@ -122,7 +149,7 @@ export function GoDeeperPanel() {
             </div>
           ) : (
             <>
-              <p>{deeperCopy.intro}</p>
+              <p>{held ? deeperCopy.introHeld : deeperCopy.intro}</p>
               {held && remaining !== null && (
                 <p className="go-deeper__count">
                   {deeperCopy.balance(remaining)}
@@ -174,6 +201,23 @@ export function GoDeeperPanel() {
                 </div>
               )}
             </>
+          ))}
+          {!signingIn && !claim && accountsEnabled && account.status !== 'off' && account.status !== 'unknown' && (
+            <div className="go-deeper__section go-deeper__account">
+              {account.status === 'out' ? (
+                <>
+                  <h3>{accountsCopy.keepHeading}</h3>
+                  <p>{accountsCopy.keepBody}</p>
+                  <button type="button" onClick={openSignIn}>
+                    {accountsCopy.signInOrUp}
+                  </button>
+                </>
+              ) : (
+                <button type="button" onClick={() => { closePanel(); openHome(); }}>
+                  {accountsCopy.menuHome}
+                </button>
+              )}
+            </div>
           )}
         </aside>
       )}

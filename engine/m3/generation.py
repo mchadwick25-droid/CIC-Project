@@ -31,7 +31,12 @@ from engine.m4 import evidence as m4_evidence
 from engine.m4.generation import stream_voice_turn
 from engine.m4.quote_placement import PlacementContext
 from engine.m4.turn import apply_net
+from engine.m4.story_placement import with_placeable_stories
 from engine.m4.world_loader import LoadedWorld
+
+# A live probe whose reply stream fails is asked again, so one dropped
+# connection costs one probe and not the world run; each attempt is a recorded call.
+_VOICE_CALL_ATTEMPTS = 3
 
 _TYPE_PRIORITY = ["doctrinal_witness", "quote", "story", "term"]
 
@@ -179,10 +184,15 @@ class LiveModelAnswerer:
             repository_records=self.repository_records,
             thin_topics=self.thin_topics,
         )
+        if self.world.frame.get("story_placement"):
+            turn_evidence = with_placeable_stories(turn_evidence, self.repository_records)
         evidence_block = m4_evidence.render_evidence_block(turn_evidence)
         user_message = f"{evidence_block}\n{probe_text}" if turn_evidence["candidates"] else probe_text
 
-        stream_outcome = stream_voice_turn(self.client, self.model_id, system_prompt=self.world.prompt_text, message=user_message)
+        for _attempt in range(_VOICE_CALL_ATTEMPTS):
+            stream_outcome = stream_voice_turn(self.client, self.model_id, system_prompt=self.world.prompt_text, message=user_message)
+            if stream_outcome.status == "ok":
+                break
         if stream_outcome.status != "ok":
             raise RuntimeError(f"LiveModelAnswerer: voice generation call failed: {stream_outcome.status} {stream_outcome.value}")
 
@@ -192,7 +202,10 @@ class LiveModelAnswerer:
         # receive from the same draft.
         text, citation_entries, _net_result = apply_net(
             stream_outcome.value.text, repository_records=self.repository_records, thin_topics=self.thin_topics,
-            quotable_texts=[probe_text], placement=PlacementContext.for_evidence(turn_evidence["candidates"]),
+            quotable_texts=[probe_text], placement=PlacementContext.for_evidence(
+                turn_evidence["candidates"],
+                offered_stories=frozenset(c["id"] for c in turn_evidence["candidates"] if c.get("placeable")),
+            ),
         )
         citations = sorted({rid for entry in citation_entries for rid in entry["record_ids"]})
 

@@ -14,8 +14,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
-  locus: the 411 Conference acts read directly - the mandate roll-call and bishop counts, the naming contest,
-    and Marcellinus's own statement that the rescript had already assigned the name; Registry row 55
+  locus: 'the 411 Conference acts: the mandate roll-call and bishop counts, the naming contest, and Marcellinus''s own statement that the rescript had already assigned the name'
   license: public-domain
 - source_id: don.source.optatus-against-the-donatists
   locus: Book III - the petition signed by bishops "of the party of Donatus", turned into the charge that

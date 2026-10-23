@@ -15,11 +15,57 @@ doorway_description: >-
   It closes at the Council of Chalcedon in 451.
 card_name: "Church and Empire"
 app: {order: 6, accent_color: "#B67D50", portrait: "/images/portraits/thumb/empire.webp"}
-representative: {name: Marius, role_label: "Deacon of the Letters"}
+representative: {name: Marius}
 state: admitted
 census_id: "imperial-juridical-christianity"
 package:
-  manifest_hash: "sha256:98a56b096d7c0c346118b691ab3e6f21aa619a60a5ce194691b9ee479ad5088e"
-  location: "packages/ijc/2026-10-09T14-40-50Z"
+  manifest_hash: "sha256:a6634cb891ef42c283b04ec2d6655ff6d0526ac2e3c2150cb5459b257794ec39"
+  location: "packages/ijc/2026-10-20T13-27-15Z"
 thinness_statement: "Richest in councils, canons, letters, and the contest over who holds final authority in the church; thinner on ordinary believers' daily lives, women's own words, and the defeated Homoian side's own voice."
 living_tradition_flag: true
+story_placement: false
+card:
+  portrait: "assets/portraits/empire.png"
+  intro: Marius is a representative voice for the imperial church of Rome, Milan and Constantinople (c. 312–451 CE). Bishops went from a hunted church to a seat beside the throne.
+  shaped:
+  - Constantine
+  - Ambrose
+  - Leo
+  summary: Between 312 and 451 CE, the church in Rome, Constantinople, and Milan went from a hunted community to a partner of the emperor's power. Bishops now met in councils that an emperor called and paid for. The church gained legal standing, wealth, and a seat near the throne. It also had to decide what that nearness would cost. Rome traced its standing to Peter. Constantinople claimed rank because the emperor reigned there. Ambrose of Milan argued that the emperor stood inside the church, not above it.
+  record_holds: Rich in councils, canons and letters. Thin on daily life and the defeated side's own voice.
+  topics:
+  - word: Baptism
+    note: Baptism was the decisive threshold; some famous men, Constantine among them, put it off.
+  - word: Communion
+    note: Ambrose taught the newly baptized that blessing changes the bread into Christ's body.
+  - word: Hymns and music
+    note: Milan began Eastern-style hymn singing while people guarded their church with Ambrose.
+  - word: The Bible and how to read it
+    note: This Christian tradition read scripture as binding authority to settle questions of office and law.
+  - word: Jesus
+    note: Jesus is truly God and truly man, one Christ in two natures.
+  - word: The Trinity
+    note: Councils declared the Son one being with the Father and the Spirit fully divine.
+  - word: Creeds
+    note: 'The Nicene creed of 325 set exact words: God of God, begotten, not made.'
+  - word: Tradition and authority
+    note: They appealed to ancient custom, yet their record openly dates some practices as new.
+  - word: Money and the poor
+    note: Leo preached giving to the poor as a duty, measured by each person's means.
+  - word: Marriage and family
+    note: Teachers called marriage lawful and good, but ranked it below virginity and widowhood.
+  - word: Church leaders
+    note: Ambrose held that a bishop could refuse an emperor, and made one do penance.
+  - word: The emperor and the state
+    note: From Constantine on, church office became state-linked power, backed and governed by law.
+  - word: Heresy and false teaching
+    note: Emperors and bishops used state power to police belief, and reversed course twice.
+  - word: Church councils
+    note: Councils, usually called by the emperor, issued rules meant to bind the whole church.
+  - word: The pope and Rome
+    note: Rome's bishops claimed enforceable authority from Peter; Constantinople claimed rank from the emperor's city.
+  keywords:
+  - nicaea
+  - council of nicaea
+  - christian empire
+  - roman empire

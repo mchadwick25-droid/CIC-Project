@@ -25,13 +25,12 @@ text: He made known by this law his intention of leading all his subjects to the
   Persons of the Trinity, and that those individuals who entertained opposite opinions should be treated
   as heretics, regarded with contempt, and delivered over to punishment.
 modern_rendering: >-
-  Through this law, he made known his intention: he wanted to lead all his subjects to
-  accept the faith. Peter, the chief of the apostles, had preached that faith to the
-  Romans from the beginning. Damasus, bishop of Rome, and Peter, bishop of Alexandria,
-  professed that same faith. He decreed that the title 'Catholic Church' should belong
-  only to those who paid equal honor to the Three Persons of the Trinity. He also decreed
-  that anyone who held different views should be treated as heretics, held in contempt,
-  and handed over to punishment.
+  By this law he made known his intention to lead all his subjects to accept that faith. It was the
+  faith which Peter, the chief of the apostles, had preached to the Romans from the beginning. It was
+  also the faith professed by Damasus, bishop of Rome, and by Peter, bishop of Alexandria. He decreed
+  that the title of "Catholic Church" should belong only to those who gave equal honor to the Three
+  Persons of the Trinity. He also decreed that those who held the opposite opinions should be treated
+  as heretics, regarded with contempt, and handed over for punishment.
 speaker_or_author: "Sozomen, Ecclesiastical History VII.4 (reporting Theodosius's law of 380)"
 license: verbatim
 modern_lens_note: >-

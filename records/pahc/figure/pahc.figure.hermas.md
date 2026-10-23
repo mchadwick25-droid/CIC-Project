@@ -25,7 +25,8 @@ dates:
   display: "the Shepherd was composed c. 90-150, possibly in stages"
   note: "these bound the WORK, not the man - his own dates are not attested"
 narratable: true
-bridge_line: "A freedman in Rome who wrote down his own visions - about failure, doubt, and whether mercy is used up."
+bridge_line: A man in Rome who says he was once sold as a slave. He wrote down the visions he reported
+  - about failure, doubt, and whether mercy runs out.
 ---
 Strand B's second witness and this world's best window into ordinary
 anxiety: the doubt question (the double-minded soul, Commandment 9), the

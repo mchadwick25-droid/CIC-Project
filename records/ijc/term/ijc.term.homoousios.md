@@ -50,11 +50,7 @@ senses:
   evidential: 'The creed''s text survives in the conciliar record; so does the hesitation: Eusebius of
     Caesarea, present at Nicaea, wrote home explaining the caution with which he signed - contemporary
     evidence that the word''s meaning was contested at the moment of its adoption, not only later.'
-  personal: For bishops exiled once the Homoian settlement became imperial policy (357 onward), this word
-    was what exile was for - not a technicality but the difference, as they held it, between confessing
-    the Son as God and confessing something less. Earlier exiles in this same contest (Athanasius's own,
-    repeatedly, from 335) came under the broader anti-Nicene coalition of his day, not yet a specifically
-    Homoian one.
+  personal: "For bishops exiled once the Homoian settlement became imperial policy (357 onward), this word was what exile was for. They held it to be the line between saying the Son is God and saying less. Athanasius was exiled earlier, many times from 335. Those exiles came under a wider anti-Nicene group, not yet a Homoian one."
   translational: '"Do you believe in the Trinity?" - this word is the working heart of this world''s answer:
     Father and Son of one being, the Spirit worshiped with them; the century''s whole argument was over
     exactly this.'

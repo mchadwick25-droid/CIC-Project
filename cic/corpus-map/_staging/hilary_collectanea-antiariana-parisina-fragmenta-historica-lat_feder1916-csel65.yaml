@@ -1,0 +1,44 @@
+source_file: hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65.txt
+
+assignments:
+  - row_id: hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65--collectanea-antiariana-parisina-fragmenta-historica-latin
+    work: "Collectanea antiariana Parisina (Fragmenta historica), with Liber I and II ad Constantium and Hymni (CSEL 65), Latin"
+    author: hilary_poit
+    locus: "whole file; the series tables at file lines 1159-1208; Liber I ad Constantium at 6685 and 14728; Hymni from 15789"
+    atlas_ids:
+      - gallic-nicene-episcopate
+    role: tradition
+    confidence: provisional
+    note: >
+      Hilary of Poitiers's own dossier of the Arian controversy (356-367), in the Latin
+      original: the Gallic Nicene bishop's compilation and framing notes. Primary
+      original-language voice; the OCR is rough in the preface and usable in the text, so
+      verify any quotation against the page image. Latin only, no public-domain English.
+  - row_id: hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65--eastern-encyclical-of-sardica-philippopolis-343-and-the-ariminum-documents
+    work: "Eastern bishops' encyclical from Sardica/Philippopolis (343) and the Ariminum 359 documents preserved in the Collectanea, Latin"
+    author: hilary_poit
+    locus: "the Eastern encyclical from file line 10432 ('congregauerunt ex diuersis prouinciis ... in Serdicensium ciuitatem'); Ariminum material at 6820 and 6912; Liberius letters at 13390, 14196, 14423"
+    atlas_ids:
+      - homoian-arian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Embedded voice: the anti-Athanasian Eastern bishops of 343, Germinius of Sirmium,
+      Valens and Ursacius and the Ariminum majority speak in their own documents, but they
+      survive only inside a Nicene compiler's hostile dossier, so the containing work stays
+      Hilary's and the relation to the Homoian world is context, not its own voice (the
+      corpus-map README's embedded-voice rule). Still the fullest surviving statement of the
+      Eastern case against Athanasius in any vendored file.
+  - row_id: hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65--collectanea-antiariana-parisina-imperial-church-documents
+    work: "Collectanea antiariana Parisina: letters of Liberius, of the synods of Sardica and Ariminum, and to Constantius II, Latin"
+    author: hilary_poit
+    locus: "Series A and B, file lines 1159-1208 (tables) and the texts that follow"
+    atlas_ids:
+      - imperial-juridical-christianity
+    role: context
+    confidence: provisional
+    note: >
+      The document trail of Constantius II's management of the councils (Sardica, Sirmium,
+      Ariminum, Constantinople 360) and of a Roman bishop's capitulation and recovery, told
+      from inside the losing Nicene party: the imperial-juridical world's own question seen
+      by its sharpest Western opponent. Context, not the ijc world's voice.

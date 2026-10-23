@@ -28,16 +28,16 @@ text: For he who holds possessions, and gold, and silver, and houses, as the gif
   of heaven, not one who could not live rich.
 modern_rendering: >-
   Consider someone who holds possessions - gold, silver, houses - as gifts
-  from God. He ministers from them to the God who gave them, for the
-  salvation of others. He knows he holds them more for the sake of the
-  community than for himself. He is superior to the possession of them,
-  not a slave to the things he possesses. He does not carry them around in
-  his soul or let them hem in and define his life. Instead, he is always
-  at work on some good and God-given task. Even if he should one day be
-  forced to lose them, he is able, with a cheerful mind, to bear their
-  removal just as he bears their abundance. This is the one the Lord
-  blesses, the one called poor in spirit - a fit heir of the kingdom of
-  heaven, not one who could not live rich.
+  of God. From them he serves the God who gives them, for the salvation of
+  others. He knows he owns them more for the sake of his fellow believers
+  than for his own. He is master of what he owns, not a slave to the
+  things he owns. He does not carry them around in his soul. He does not
+  bind his life within them or fence it in. Instead, he is always at work
+  on some good and divine task. One day he may be forced to lose them.
+  Even then, he can bear their loss with a cheerful mind, just as he bears
+  their abundance. This is the one the Lord blesses, the one called poor
+  in spirit. He is a fit heir of the kingdom of heaven, not one who could
+  not live rich.
 speaker_or_author: alx.figure.clement
 license: verbatim
 modern_lens_note: >

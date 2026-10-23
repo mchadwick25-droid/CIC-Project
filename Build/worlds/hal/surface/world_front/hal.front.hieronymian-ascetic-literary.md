@@ -17,169 +17,157 @@ export:
 skim:
   tile:
     text: >-
-      Between 382 and 420 CE, a scholar and a circle of Roman women built a
-      new kind of Christian life. It was built on scripture, on giving
-      things up, and on the written word. Jerome came to Rome in 382. He
-      joined a household of ascetic women. The widow Marcella had already
-      gathered them. He brought Hebrew learning. They brought money,
-      conviction, and their own hard questions about scripture. The
-      partnership moved to Bethlehem. There, the widow Paula and her
-      daughter Eustochium built monasteries. They also built a guesthouse
-      for travelers. Jerome spent decades there. He turned the Old
-      Testament into Latin, straight from the Hebrew it was first written
-      in. Marcella stayed in Rome. Clergy still brought her their hardest
-      questions about scripture. No one here held church office. Authority
-      ran on learning and money instead. Fierce arguments tested this
-      world. One was with an old friend, over a condemned teacher. One was
-      with a fellow scholar, over a single changed word. One was an armed
-      attack that burned the Bethlehem monasteries. Not one word survives
-      in the women's own hand. Everything we know of them comes through
-      Jerome's own pen.
+      Between 382 and 420 CE, a scholar and a circle of Roman women
+      built a new kind of Christian life. It joined the study of
+      scripture with giving things up. Jerome came to Rome in 382 and
+      joined a household of ascetic women that the widow Marcella had
+      already gathered. He brought Hebrew learning. They brought money
+      and conviction, and hard questions of their own about scripture.
+      The partnership moved to Bethlehem. There the widow Paula and
+      her daughter Eustochium built monasteries and a guesthouse for
+      travelers. Jerome spent decades there. He turned the Old
+      Testament into Latin, straight from the Hebrew it was first
+      written in. Marcella stayed in Rome. Jerome says priests were
+      sometimes among those who brought her hard questions about
+      scripture. No one here held a bishop's office. Authority ran on
+      learning and money instead. Fierce arguments tested the circle.
+      Jerome broke with an old friend over a condemned teacher, and
+      quarreled with a fellow scholar over one changed word. In 416,
+      armed men burned the Bethlehem monasteries. Not one word
+      survives in the women's own hand. Nearly everything we know of
+      them comes through Jerome's pen.
     grounded_in: [hal.core.hieronymian]
 orientation:
   story:
   - text: >-
-      This world's own record runs from 382 to 420 CE. Its center was Rome
-      and Bethlehem. It opens when a trained scholar, Jerome, reaches Rome.
-      He comes as secretary to Pope Damasus. There he meets a household the
-      widow Marcella had already built. On the Aventine hill, her women
-      lived plainly. They fasted. They studied scripture together. This was
-      years before Jerome ever arrived. Jerome brought one skill that
-      household lacked: training in the biblical languages. Without that
-      meeting, there is no translation project. There is no community at
-      Bethlehem either. The household came first. The scholar came second.
-    grounded_in: [hal.core.hieronymian, hal.force.jerome-arrival, hal.force.marcella-household]
+      This circle's story runs from 382 to 420 CE, in Rome and in
+      Bethlehem. In 382 a scholar named Jerome reached Rome as secretary
+      and scriptural adviser to Pope Damasus. There he met a household
+      that already existed. The widow Marcella had made her house on the
+      Aventine hill a place of fasting and scripture study. Historians
+      think other women had joined her before Jerome came. He brought
+      the scholar's training in texts that the household lacked.
+    grounded_in: [hal.core.hieronymian, hal.force.jerome-arrival, hal.force.marcella-household, hal.figure.damasus, hal.figure.marcella]
   - text: >-
-      At the center of this world's life stood one choice. Give up wealth,
-      marriage, and rank on purpose. Do it as an act of devotion. Paula was
-      a widow of the oldest Roman blood. She gave away a fortune. She spent
-      it building monasteries and a hospice at Bethlehem. Fabiola was
-      another Roman widow. She spent her own fortune gathering the sick in
-      from the streets of Rome. Marcella lived plainly in her own house on
-      the Aventine. She dressed and ate like her poorest neighbor. She did
-      this years before anyone called it a movement. The choice was not
-      free. Paula's own family fought her leaving. Her eldest daughter,
-      Blaesilla, took up severe fasting and died young, within months. All
-      Rome noticed.
-    grounded_in: [hal.gravity.ascetic-renunciation]
+      The women of the circle gave up wealth, marriage prospects, and
+      rank on purpose, as devotion to Christ. For them, this giving up
+      was itself how a Christian life took shape. Jerome says Marcella
+      turned down a rich suitor and chose a plain life.
+    grounded_in: [hal.gravity.ascetic-renunciation, hal.term.renuntiatio, hal.story.marcella-standing, hal.force.marcella-household]
   - text: >-
-      No one here held church office. Jerome was only a presbyter, under
-      Jerusalem's own bishop. His standing rested on his good name and on
-      the patrons who paid him, nothing more. Paula's fortune paid for his
-      travel, his Hebrew teachers, and the whole Bethlehem foundation. That
-      setup had a real cost. If one patron's favor failed, the whole
-      project could nearly fall apart. It happened once already, in Rome,
-      before Bethlehem was ever built. Authority here ran on trust and
-      free-given money. It never ran on an office that could simply pass
-      to the next person.
-    grounded_in: [hal.gravity.patronage-authority]
+      In 384 Blaesilla, the daughter of the widow Paula, died in Rome at
+      about twenty. She had been widowed young and had taken up a severe
+      ascetic discipline only months before. Jerome reports the funeral
+      crowd saying that fasting had killed her. He says they asked why
+      the detestable monks were not stoned or thrown into the Tiber.
+      That December Pope Damasus died, and the protection he had given
+      Jerome ended with him. In August 385 Jerome sailed east. From the
+      ship he wrote that all Rome had praised him before he knew Paula's
+      house, and that now he was called infamous.
+    grounded_in: [hal.story.rome-crisis, hal.force.clerical-precarity, hal.figure.blaesilla, hal.figure.damasus, hal.quote.detestable-monks, hal.quote.rome-resounded]
   - text: >-
-      The community's central labor was translation. Jerome believed the
-      Hebrew text of scripture held the truth closest to its start. Over
-      decades he turned the Old Testament into Latin from that Hebrew,
-      book by book. Each book got its own preface, defending every hard
-      choice he made. It was not calm work. One whole congregation, in a
-      North African town, rioted when a single word changed in the book of
-      Jonah. Augustine was a fellow scholar across the sea. For years he
-      warned by letter: unsettle a people's prayed-over Bible, and you
-      risk more than you gain. Neither man ever gave in.
-    grounded_in: [hal.gravity.hebraica-veritas, hal.story.oea-gourd]
+      Paula followed him east and settled in Bethlehem. She founded a
+      community of women there and led it until she died in 404. Jerome
+      writes that her fortune paid for houses for monks and for virgins,
+      and for a hostel for travelers. Jerome was only a presbyter, under
+      the bishop of Jerusalem. After Paula's death her daughter
+      Eustochium led the women.
+    grounded_in: [hal.story.journey-to-bethlehem, hal.story.paula-epitaph, hal.figure.paula, hal.figure.eustochium, hal.term.monasterium, hal.term.xenodochium, hal.contested.paula-jerome-relationship, hal.gravity.patronage-authority, hal.core.hieronymian]
   - text: >-
-      The letter held this whole world together. Rome and Bethlehem sat on
-      opposite shores of one sea. A letter was how teaching, correction,
-      argument, and grief all crossed that distance. Jerome wrote a young
-      Eustochium a whole program for the ascetic life, before she ever left
-      Rome. He answered a dozen or more of Marcella's own hard questions
-      about scripture, back when they were still neighbors in the same
-      city. Later, every finished book of translation traveled to Rome as
-      a letter too. Each one was dedicated to the very households whose
-      questions, and money, had asked for it.
-    grounded_in: [hal.gravity.epistolary-formation]
+      Jerome held that the Hebrew text of scripture stood closest to
+      what God said, closer than the Greek version the church had long
+      used. At Bethlehem he spent years turning the Old Testament into
+      Latin from the Hebrew, book by book. Nearly every book came with a
+      short, fighting preface that defended his choices against critics.
+      By Jerome's account, Paula's fortune also paid for his Hebrew
+      teachers.
+    grounded_in: [hal.gravity.hebraica-veritas, hal.term.hebraica-veritas, hal.term.vulgata, hal.term.praefatio, hal.force.transmission-ongoing, hal.gravity.patronage-authority]
   - text: >-
-      One current in this world runs against the grain of everything
-      above. Jerome left Rome for Bethlehem. After that, disputed
-      questions about scripture went to Marcella's own house, not to any
-      bishop's. He wrote, years later, that whenever people argued over
-      what scripture said, they went to her to settle it. This is a real
-      counter-current: a woman's own scriptural judgment, honored outside
-      any office. She held it from a place that needed no one's
-      patronage. But this rests on one source alone. It is Jerome's own
-      memorial for her, written two years after she died, for reasons
-      modern scholars think were partly his own. What she carried was
-      real. How much of it was hers alone cannot now be settled.
-    grounded_in: [hal.gravity.marcella-authority, hal.contested.marcella-agency]
+      Around 403, in the North African town of Oea, a bishop read the
+      prophet Jonah aloud from the new translation. The familiar version
+      said a gourd had shaded the prophet. The new one said ivy. The
+      congregation erupted. Augustine, bishop of Hippo, told Jerome what
+      happened. The bishop of Oea, close to losing his people, asked the
+      town's Jewish residents about the Hebrew. They backed the old
+      word, Augustine reports, and the bishop corrected the reading.
+      Augustine feared that setting aside the old Greek text would put
+      the church's unity at risk. He wrote that the story made him think
+      Jerome might sometimes be mistaken. Jerome answered point by
+      point. Neither man conceded, and their courteous letters kept
+      crossing for years.
+    grounded_in: [hal.story.oea-gourd, hal.quote.oea-tumult, hal.force.augustine-dispute, hal.figure.augustine]
   - text: >-
-      Favor in Rome could vanish overnight, and it did. Blaesilla's death
-      in 384, after months of the severe discipline Jerome taught her,
-      brought public fury down on his circle - a crowd at her funeral
-      called for the monks to be thrown into the Tiber. That winter, Pope
-      Damasus died, and the protection that had shielded Jerome in Rome
-      died with him. Within a year, hostile whispers had turned into open
-      slander, and Jerome sailed for the East, never to return. The
-      community's answer to the crisis was not to fight for its standing
-      in Rome. It was Bethlehem.
-    grounded_in: [hal.force.clerical-precarity, hal.story.rome-crisis]
+      Marcella stayed in Rome. Jerome wrote after her death that, once
+      he left, people in Rome brought their disputes about scripture to
+      her to settle. Many men put hard questions to her, he adds, and
+      priests were sometimes among them. She gave her answers as if they
+      came from him or someone else. In 410 Alaric's Goths took Rome. As
+      Jerome heard it, soldiers came to Marcella's house demanding gold.
+      They did not believe her when she pointed to her plain dress, and
+      they beat her. She died a few days later.
+    grounded_in: [hal.story.marcella-standing, hal.quote.recourse-to-marcella, hal.contested.marcella-agency, hal.story.marcella-death, hal.force.sack-of-rome, hal.core.hieronymian]
   - text: >-
-      Doctrinal argument tested this world almost from start to end.
-      Jerome and Rufinus had been close friends since their student years.
-      Both men had once translated the work of a great teacher from
-      Alexandria, Origen. Then parts of Origen's teaching came under
-      attack. The friendship did not survive the question of who still
-      owed him loyalty. Each man wrote a furious public defense of
-      himself. Each accused the other of betraying the faith. The quarrel
-      outlived Rufinus himself. Was the fight really about doctrine? Or
-      was it mostly about two proud men and their rival reputations? This
-      world's own record cannot settle that either way.
-    grounded_in: [hal.gravity.controversy-pressure, hal.story.rufinus-rupture, hal.contested.origenist-substance]
+      In 416 a quarrel over the teaching of Pelagius reached the
+      Bethlehem monasteries as an attack. Pope Innocent wrote that
+      Eustochium and her young niece, also named Paula, had reported
+      murders and fires to him. He added that they would not name the
+      man behind it. Jerome wrote that the Bethlehem house had lost its
+      earthly wealth but was still filled with spiritual riches.
+    grounded_in: [hal.story.attack-416, hal.force.pelagian-attack, hal.quote.innocent-ravages, hal.quote.house-destroyed, hal.term.pelagianism, hal.figure.paula-younger]
   - text: >-
-      The community's oldest doctrinal fight followed it almost to the
-      end. In 416, an argument over the teachings of Pelagius arrived at
-      the Bethlehem monasteries not as a letter but as an attack:
-      buildings burned, and the record speaks of deaths, though it never
-      says how many or names who struck the blow. Eustochium and her
-      young niece, also called Paula, wrote to the pope in Rome to report
-      it. He praised them for one thing above all: they had chosen not to
-      name the man responsible. Jerome, writing afterward, said only that
-      his own house had been destroyed, so far as its worldly wealth went.
-    grounded_in: [hal.force.pelagian-attack, hal.story.attack-416]
-  - text: >-
-      Rome itself did not survive this world's own span untouched. In
-      410, Alaric's soldiers broke into Marcella's house on the Aventine,
-      looking for treasure her household had already given away years
-      before. She showed them her plain dress as proof, and they did not
-      believe her. They beat her. She is said to have begged, not for
-      herself, but for the young woman in her care. She died a short time
-      later, in a church that had become a refuge. Her death removed
-      Rome's last independent center from this world for good; its final
-      decade belonged to Bethlehem alone.
-    grounded_in: [hal.force.sack-of-rome, hal.story.marcella-death]
-  - text: >-
-      No one ever replaced the one man who did this translation work, or
-      the one woman who, in Rome, had been its counter-current. Eustochium
-      led the Bethlehem women until the very end, in a year - 418, 419,
-      or 420 - this world's own record never quite settles. Jerome died
-      in 420 too, by the accepted count. The two deaths cluster too
-      closely, and too uncertainly, to say which one truly closed this
-      world. After them, the labor those years produced kept traveling;
-      the living argument that had shaped and defended it, book by book,
-      did not.
-    grounded_in: [hal.force.transmission-ending, hal.contested.chronology, hal.figure.eustochium]
+      Jerome died in 420, by the accepted count. Eustochium died in 418,
+      419, or 420. Years later Augustine called Jerome a most learned
+      man who had translated the scriptures from the Hebrew. Even the
+      Jews, he granted, called the work faithful. Still, he said, the
+      churches of Christ judged that no one should be preferred to the
+      authority of the Septuagint translators.
+    grounded_in: [hal.figure.jerome, hal.contested.chronology, hal.figure.eustochium, hal.quote.no-one-preferred-to-the-seventy]
   documented_stories:
+  - story_id: hal.story.ciceronian-dream
+    title: "Jerome's Dream of the Judge"
+    when: "Told in a letter of 384, of a dream years before (c. 374)"
+    teaser: "Jerome tells Eustochium of a fever so deep that his funeral is being prepared. He dreams that a Judge calls him a follower of Cicero, and not of Christ."
+    grounded_in: [hal.story.ciceronian-dream, hal.quote.a-follower-of-cicero-and-not-of-christ, hal.figure.eustochium]
+  - story_id: hal.story.marcella-standing
+    title: "The Widow Who Questioned Jerome"
+    when: "382 to 410 (told in Jerome's memorial of 412)"
+    teaser: "Marcella, a widow in Rome, presses Jerome with questions about scripture. After she dies, he writes that she argued with his answers to learn. He says people in Rome later brought their disputes to her."
+    grounded_in: [hal.story.marcella-standing, hal.figure.marcella, hal.quote.dispute-to-learn, hal.quote.recourse-to-marcella]
+  - story_id: hal.story.paula-epitaph
+    title: "Paula, as Jerome's Memorial Remembers Her"
+    when: "382 to 404 (told in Jerome's memorial of 404)"
+    teaser: "Jerome's memorial tells of a Roman widow who turns her grief toward God and spends her fortune at Bethlehem. It says she learns Hebrew well enough to chant the psalms in it."
+    grounded_in: [hal.story.paula-epitaph, hal.figure.paula, hal.quote.paula-hebrew-psalms]
   - story_id: hal.story.rome-crisis
     title: "Blaesilla's Funeral, and the Crowd That Blamed the Monks"
     when: "384 (Blaesilla's death) to August 385 (Jerome's departure from Rome)"
-    teaser: "A young widow takes up the fasting her mother's teacher preached, and is dead within months. The funeral crowd draws its own conclusion."
-    grounded_in: [hal.story.rome-crisis, hal.figure.jerome]
+    teaser: "Blaesilla, a young widow and Paula's daughter, takes up a strict ascetic life and dies within months. At her funeral, Jerome reports, the crowd says fasting killed her."
+    grounded_in: [hal.story.rome-crisis, hal.figure.blaesilla, hal.quote.detestable-monks]
+  - story_id: hal.story.journey-to-bethlehem
+    title: "Paula Leaves Rome for the Holy Places"
+    when: "385 to 386 (told in Jerome's memorial of 404)"
+    teaser: "Jerome's memorial says Paula sails from Portus with her children on the shore. She tours the holy places and Egypt, then turns back to stay at Bethlehem."
+    grounded_in: [hal.story.journey-to-bethlehem, hal.figure.paula]
+  - story_id: hal.story.rufinus-rupture
+    title: "The Friend Jerome Lost Over Origen"
+    when: "c. 393 to 403 (Rufinus's preface of 397; the Apologies of 401 to 403)"
+    teaser: "Jerome and Rufinus have been friends since student days, and both translate Origen. When Origen's ideas are attacked, each man writes a public defense and says the other betrayed the faith."
+    grounded_in: [hal.story.rufinus-rupture, hal.figure.rufinus, hal.force.origenist-controversy]
   - story_id: hal.story.oea-gourd
-    title: "One Word Changes in Jonah, and a Congregation Riots"
+    title: "One Word Changes in Jonah, and a Congregation Erupts"
     when: "c. 403"
-    teaser: "A North African bishop reads scripture from the new translation, and his own congregation nearly turns on him over a single word."
-    grounded_in: [hal.story.oea-gourd, hal.figure.jerome]
+    teaser: "Augustine tells Jerome of a bishop in North Africa who reads Jonah from the new translation. One word, ivy instead of gourd, starts an uproar."
+    grounded_in: [hal.story.oea-gourd, hal.figure.augustine, hal.quote.oea-tumult]
   - story_id: hal.story.marcella-death
     title: "Marcella and the Soldiers in Her House"
-    when: "August 410, the Gothic sack of Rome"
-    teaser: "The widow who gathered this whole circle before Jerome ever arrived is beaten by soldiers demanding treasure she had given away years before."
-    grounded_in: [hal.story.marcella-death, hal.figure.marcella]
+    when: "410, the Gothic sack of Rome"
+    teaser: "Goths take Rome, and soldiers come to Marcella's house demanding gold. As Jerome heard it, they beat her, and she dies a few days later."
+    grounded_in: [hal.story.marcella-death, hal.figure.marcella, hal.force.sack-of-rome]
+  - story_id: hal.story.attack-416
+    title: "The Attack on the Bethlehem Monasteries"
+    when: "416"
+    teaser: "Men attack the monasteries at Bethlehem, and buildings burn. Pope Innocent writes that Eustochium and her young niece Paula would not name the man behind it."
+    grounded_in: [hal.story.attack-416, hal.quote.innocent-ravages, hal.force.pelagian-attack]
   voices:
   - figure: hal.figure.jerome
     text: >-
@@ -283,6 +271,87 @@ orientation:
     note: "The memorial for Marcella, written two years after her death - the sole source for the single strongest claim of an independent woman's own scriptural authority anywhere in this world's surviving record."
   - source: hal.source.palladius-lausiac
     note: "The one substantial outside witness to this circle, hostile to Jerome and disagreeing with his own account of the Paula partnership at exactly the point that matters most."
+  highlights:
+  - phrase: "Rome"
+    kind: place
+    note: "The Roman capital, in Latin Roma. Its site lies in modern Rome, Italy. Jerome reached it in 382, and Marcella's household stood here."
+    url: https://pleiades.stoa.org/places/423025
+    verified_on: "2026-10-17"
+    grounded_in: [hal.force.jerome-arrival, hal.force.marcella-household]
+  - phrase: "Bethlehem"
+    kind: place
+    note: "An ancient town whose site is today Beit Lahm, in the West Bank. Paula settled here, and Jerome worked here."
+    url: https://pleiades.stoa.org/places/687856
+    verified_on: "2026-10-17"
+    grounded_in: [hal.figure.paula, hal.figure.jerome]
+  - phrase: "Aventine hill"
+    kind: place
+    note: "One of the seven hills of Rome, called Monte Aventino today. Marcella's house stood here."
+    url: https://pleiades.stoa.org/places/865014139
+    verified_on: "2026-10-17"
+    grounded_in: [hal.force.marcella-household, hal.story.marcella-death]
+  - phrase: "Oea"
+    kind: place
+    note: "Oea began as a Phoenician town. Its site is now Tripoli, in Libya. The uproar over Jonah took place here."
+    url: https://pleiades.stoa.org/places/344456
+    verified_on: "2026-10-17"
+    grounded_in: [hal.story.oea-gourd]
+  - phrase: "Hippo"
+    label: "Hippo Regius"
+    kind: place
+    note: "The Phoenicians founded this colony. Its site is now Annaba, in Algeria. Augustine was bishop here until he died in 430."
+    url: https://pleiades.stoa.org/places/305090
+    verified_on: "2026-10-17"
+    grounded_in: [hal.figure.augustine]
+  - phrase: "Jerome"
+    kind: person
+    note: "A Christian scholar who lived in Rome, then Bethlehem, and died in 420. His letters carry nearly everything we know of this circle."
+    grounded_in: [hal.figure.jerome]
+  - phrase: "Damasus"
+    kind: person
+    note: "Bishop of Rome from 366 to 384. He gave Jerome work as secretary and adviser on scripture. He died in December 384."
+    grounded_in: [hal.figure.damasus]
+  - phrase: "Marcella"
+    kind: person
+    note: "A widow of Rome who died in 410. Her Aventine house was already a place of fasting and scripture study when Jerome arrived."
+    grounded_in: [hal.figure.marcella]
+  - phrase: "Blaesilla"
+    kind: person
+    note: "Paula's daughter. What we know of her comes from Jerome's letters."
+    grounded_in: [hal.figure.blaesilla]
+  - phrase: "Paula"
+    kind: person
+    note: "A Roman widow who founded and led the women's community at Bethlehem. She died there in 404. Her granddaughter, Paula the younger, shares her name."
+    grounded_in: [hal.figure.paula, hal.figure.paula-younger]
+  - phrase: "Eustochium"
+    kind: person
+    note: "Paula's daughter, vowed to a virgin's life from her youth. She led the Bethlehem women after her mother died."
+    grounded_in: [hal.figure.eustochium]
+  - phrase: "Augustine"
+    kind: person
+    note: "Bishop of Hippo, 354 to 430. He wrote to Jerome for about twenty-five years, arguing against giving up the old Greek text."
+    grounded_in: [hal.figure.augustine, hal.force.augustine-dispute]
+  - phrase: "Alaric"
+    kind: person
+    note: "The Gothic leader whose forces took Rome in 410."
+    grounded_in: [hal.force.sack-of-rome]
+  - phrase: "Pelagius"
+    kind: person
+    note: "He gave his name to the Pelagian controversy, a fight over grace, free will, and whether people can live without sin."
+    grounded_in: [hal.term.pelagianism]
+  - phrase: "Pope Innocent"
+    label: "Innocent"
+    kind: person
+    note: "Bishop of Rome in 416. His letters about the attack on Bethlehem survive."
+    grounded_in: [hal.source.attack-letters-416, hal.story.attack-416]
+  - phrase: "ascetic"
+    kind: term
+    note: "A strict life of self-denial, lived as devotion to Christ. In this circle it included fasting and giving up wealth."
+    grounded_in: [hal.force.marcella-household, hal.term.renuntiatio]
+  - phrase: "Septuagint"
+    kind: term
+    note: "The Greek version of the Old Testament that the church had long used. Augustine argued it should keep its authority."
+    grounded_in: [hal.term.hebraica-veritas, hal.force.augustine-dispute, hal.quote.no-one-preferred-to-the-seventy]
 narrative:
   who_speaks:
     text: >-

@@ -1,0 +1,132 @@
+source_file: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt
+
+authors_ruled:
+  zakaria:
+    kind: metadata-omission
+    evidence: >
+      The volume's title page names Zakaria of Kanaker (deacon) as the author of the Memoires; the file name carries no author slug beyond the editor's title.
+    from_file: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt
+  abraham-of-crete:
+    kind: metadata-omission
+    evidence: >
+      The volume prints the Histoire de Nadir-Chah by the catholicos Abraham of Crete, whose own account of himself opens it (file line about 14180).
+    from_file: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt
+  samuel-of-ani:
+    kind: metadata-omission
+    evidence: >
+      The volume prints the Tables chronologiques of Samuel of Ani in Brosset's French, as its work heading states (file line about 18531).
+    from_file: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt
+  hasan-dchalaliants:
+    kind: metadata-omission
+    evidence: >
+      The volume prints the Histoire d'Aghovanie by the catholicos Hasan Dchalaliants, whose notice dates his installation to 1701-02 (file line about 10683).
+    from_file: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt
+
+
+assignments:
+  - row_id: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876--memoires-historiques-sur-les-sofis
+    work: "Mémoires historiques sur les Sofis, par le diacre Zakaria de Kanaker (Brosset's French translation, 1876)"
+    author: zakaria
+    locus: "file lines about 470-8670; the catholicos Mosès at ch. XXX (line 2492), Khatchatour Késaratsi's press at Julfa at ch. XXXVII (lines about 5660-5680), the catholicoi Philippos (ch. XIX), Jacob (ch. XXXV, XLVI) and Eghiazar (ch. LII), the Safavid shahs and the khans of Erivan throughout"
+    atlas_ids:
+      - armenian-christianity-new-julfa
+    role: tradition
+    confidence: assigned
+    note: >
+      An Armenian deacon of Kanaker, near Erivan, writing at Hovhannavank and Etchmiadzin
+      in the second half of the seventeenth century (Brosset's preface: entered the monastery
+      about 1639, died 1699). The world's own voice on the see, the catholicoi, the Julfa
+      press and life under the Safavids, and the only Armenian-church narrative of the
+      period in the corpus. Much of it runs after 1650; the Julfa press chapter and the life
+      of Mosès fall inside the window. It is Brosset's French, not Zakaria's Armenian, with
+      Brosset's notes citing Arakel of Tabriz by chapter. OCR is readable with errors in
+      names; check each quotation against the page image. No public-domain English
+      translation exists (the English is Bournoutian, 2004, in copyright).
+  - row_id: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876--cartulaire-du-s-asile-de-iohannou-vank
+    work: "Cartulaire du S. Asile de Iohannou-Vank, par le diacre Zakaria (Brosset's French translation)"
+    author: zakaria
+    locus: "file lines about 8677-10690"
+    atlas_ids:
+      - armenian-christianity-new-julfa
+    role: tradition
+    confidence: provisional
+    note: >
+      Zakaria's register of the monastery of Hovhannavank, which Brosset's note places a quarter
+      of an hour from the village of Carbi (as printed), on a plateau above the Kasagh. The opening page was read
+      (Zakaria says he lived there 47 years); the contents were not read, so which of its
+      records fall in 1517-1650 is not yet known.
+  - row_id: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876--memoires-historiques-sur-les-sofis-2
+    work: "Mémoires historiques sur les Sofis, par le diacre Zakaria de Kanaker (Brosset's French translation, 1876)"
+    author: zakaria
+    locus: "file lines about 470-8670, the chapters on the 1690s"
+    atlas_ids:
+      - armenian-christianity-era-8
+    role: antecedent
+    confidence: provisional
+    note: >
+      The chronicle ends about 1699 and the entry starts about 1700 (and sits in Constantinople,
+      Venice and Mount Lebanon, where Zakaria writes of Erivan and Etchmiadzin), so it is
+      the Etchmiadzin background to that entry, not its voice. Placed on dates, not read for
+      that entry.
+  - row_id: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876--histoire-de-nadir-chah-par-abraham-de-crete
+    work: "Histoire de Nadir-Chah, par le catholicos Abraham de Crète (Brosset's French translation)"
+    author: abraham-of-crete
+    locus: "file lines about 14180-18520; chapter 1 gives the author's own account of himself and of the accession of Nadir Shah on 20 February 1736"
+    atlas_ids:
+      - armenian-christianity-era-8
+    role: tradition
+    confidence: provisional
+    note: >
+      The catholicos of Etchmiadzin's own account of Nadir Shah (Brosset's preface says the
+      author attended the accession ceremony of 20 February 1736). An Armenian
+      church leader's voice in the next window, but from Etchmiadzin rather than the
+      entry's Constantinople, Venice and Lebanon; the match of place is provisional. Not
+      read beyond the preface.
+  - row_id: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876--tables-chronologiques-de-samouel-d-ani
+    work: "Tables chronologiques de Samouel d'Ani (Brosset's French translation, year by year to 1179 with a continuation to 1348)"
+    author: samuel-of-ani
+    locus: "file lines about 18531-28860"
+    atlas_ids:
+      - armenian-cilicia
+    role: context
+    confidence: provisional
+    note: >
+      A twelfth-century Armenian year-table, with a continuation to 1348, and Brosset's
+      notes that cross-refer to the other Armenian historians. Placed on dates for the
+      Cilician window (about 1080-1300); not read. Brosset omitted the first part of the
+      chronicle (the Eusebian summary) and translated only the year-tables.
+  - row_id: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876--tables-chronologiques-de-samouel-d-ani-2
+    work: "Tables chronologiques de Samouel d'Ani (Brosset's French translation, year by year to 1179 with a continuation to 1348)"
+    author: samuel-of-ani
+    locus: "file lines about 18531-28860, the continuation to 1348"
+    atlas_ids:
+      - armenian-cilicia-after-the-kingdom
+    role: context
+    confidence: provisional
+    note: >
+      The continuation of the tables to 1348 falls in the entry's window (1300-1441).
+      Placed on dates; not read.
+  - row_id: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876--tables-chronologiques-de-samouel-d-ani-3
+    work: "Tables chronologiques de Samouel d'Ani (Brosset's French translation, year by year to 1179 with a continuation to 1348)"
+    author: samuel-of-ani
+    locus: "file lines about 18531-28860, the tenth and eleventh centuries"
+    atlas_ids:
+      - bagratid-armenian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Year-table entries for the Bagratid kingdom (884-1045) written a century later at Ani.
+      Placed on dates; not read.
+  - row_id: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876--histoire-d-aghovanie-par-le-catholicos-hasan-dchalaliants
+    work: "Histoire d'Aghovanie, par le catholicos Hasan Dchalaliants (Brosset's French translation)"
+    author: hasan-dchalaliants
+    locus: "file lines about 10683-12150; the author's notice, which dates his installation as catholicos of Aghovanie to 1701-02, opens it"
+    atlas_ids:
+      - church-of-caucasian-albania
+    role: context
+    confidence: provisional
+    note: >
+      An eighteenth-century catholicos of the Albanian see, writing the history of his own
+      church; Brosset calls it interesting for Georgia at the start of the eighteenth
+      century. The Albanian window is 451-705, so this is late memory of the church, not its
+      voice. Not read beyond the notice.

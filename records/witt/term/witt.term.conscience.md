@@ -16,16 +16,17 @@ confidence:
     Apology's most repeated adjective, 'terrified,' occurs 29 times.
 sources:
 - source_id: witt.source.luther-discussion-of-confession
-  locus: Confession, cited among this entry's Registry rows (Doc_06 SS5 entry 2.8)
+  locus: Confession
   license: public-domain
 - source_id: witt.source.luther-eight-wittenberg-sermons
-  locus: the Eight Wittenberg Sermons -- liberty preached only to 'poor, humble, captive consciences'
+  locus: >-
+    the Eight Wittenberg Sermons -- liberty preached only to 'poor, humble, captive consciences'
   license: public-domain
 - source_id: witt.source.luther-that-doctrines-of-men-are
   locus: That Doctrines of Men Are to Be Rejected -- consciences burdened wrongly
   license: public-domain
 - source_id: witt.source.luther-magnificat-translated-and-explained
-  locus: the Magnificat, footnote only, cited among this entry's Registry rows (Doc_06 SS5 entry 2.8)
+  locus: the Magnificat, footnote only
   license: public-domain
 - source_id: witt.source.luther-large-catechism
   locus: the Large Catechism -- false worship as what 'concerns the conscience alone'
@@ -34,11 +35,12 @@ sources:
   locus: the Table Talk -- 'the pope is a mere tormentor of the conscience' (Contested as verbatim)
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession XX -- 'this whole doctrine is to be referred to that conflict of the
-    terrified conscience'
+  locus: >-
+    the Augsburg Confession XX -- 'this whole doctrine is to be referred to that conflict of the terrified
+    conscience'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology IV, XII, read this pass
+  locus: the Apology IV, XII
   license: public-domain
 retrieval:
   tier: 1
@@ -86,23 +88,26 @@ world_word: conscience -- 'terrified,' 'anxious,' 'captive'; the court where our
 false_friend:
 - conscience heard as a moral compass, an inner voice telling right from wrong to be followed
 senses:
-  informational: '''God-fearing and anxious consciences find by experience that it brings the greatest
-    consolation, because consciences cannot be set at rest through any works, but only by faith... this
-    whole doctrine is to be referred to that conflict of the terrified conscience.'' That is our confession''s
-    own statement of where its teaching lives. Under the Law the conscience is terrified -- ''the Law
-    always accuses and terrifies consciences'' -- and under the promise it is comforted -- ''we must have
-    many absolutions, so that we may strengthen our timid consciences and despairing hearts against the
-    devil and against God.'' What binds it wrongly is our test for what is wicked: ''consciences are not
-    to be burdened''; Christian liberty is preached ''only to poor, humble, captive consciences.'' Even
-    false worship is defined here: it ''concerns the conscience alone that seeks in its own works help,
-    consolation, and salvation.'''
-  evidential: The Apology's most repeated adjective in this connection, 'terrified,' occurs 29 times;
-    attested in every register we use.
-  personal: This is where every one of our doctrines lands -- G1 is referred to it, absolutions exist
-    for it, liberty is preached to it, our two governments are distinguished for its comfort.
-  translational: Do not hear 'conscience' as a moral compass that guides right from wrong; we mean the
-    place where a person stands accused and is made sure -- terrified by the Law, comforted by the promise,
-    not a guide but a court.
+  informational: >-
+    'God-fearing and anxious consciences find by experience that it brings the greatest consolation, because
+    consciences cannot be set at rest through any works, but only by faith... this whole doctrine is to
+    be referred to that conflict of the terrified conscience.' That is our confession's own statement
+    of where its teaching lives. Under the Law the conscience is terrified -- 'the Law always accuses
+    and terrifies consciences' -- and under the promise it is comforted -- 'we must have many absolutions,
+    so that we may strengthen our timid consciences and despairing hearts against the devil and against
+    God.' What binds it wrongly is our test for what is wicked: 'consciences are not to be burdened';
+    Christian liberty is preached 'only to poor, humble, captive consciences.' Even false worship is defined
+    here: it 'concerns the conscience alone that seeks in its own works help, consolation, and salvation.'
+  evidential: >-
+    The Apology's most repeated adjective in this connection, 'terrified,' occurs 29 times; attested in
+    every register we use.
+  personal: >-
+    This is where all of our teaching landed. We referred justification by faith to it. We gave absolution
+    for it. We preached liberty to it. We told the two governments apart for its comfort.
+  translational: >-
+    Do not hear 'conscience' as a moral compass that guides right from wrong; we mean the place where
+    a person stands accused and is made sure -- terrified by the Law, comforted by the promise, not a
+    guide but a court.
 quick_meaning: The inner court terrified by the Law and comforted by the promise. Not a guide -- a court.
 distortion_risk: high
 use_note:

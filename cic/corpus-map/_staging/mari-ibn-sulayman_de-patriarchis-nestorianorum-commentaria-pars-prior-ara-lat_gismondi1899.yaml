@@ -1,0 +1,27 @@
+source_file: mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt
+
+authors_ruled:
+  mari-ibn-sulayman:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The
+      author is real and named: Mari ibn Sulayman (twelfth century), whose Kitab al-Majdal
+      carries the section on the patriarchs of the East that Gismondi edits ("Maris Ibn
+      Salomonis", file line 16163). Gismondi is editor and translator. A mechanical
+      index-coverage gap, not an attribution dispute.
+
+assignments:
+  - row_id: mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899--lives-of-the-catholicoi-latin-version
+    work: "De patriarchis Nestorianorum commentaria (Mari), the lives of the catholicoi of the East, Gismondi's Latin version; the Arabic text not recovered"
+    author: mari-ibn-sulayman
+    locus: "Latin version, file lines about 9280 to 16306, pages in reverse order; Tomarsa 15065, Isaac 14915, Ahai 14918, Yahballaha 14932"
+    atlas_ids:
+      - persian-church-of-the-east-early
+      - the-church-of-the-east-under-persia
+    role: tradition
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch (worker C). A twelfth-century Church of the East memory
+      witness built from older Syriac histories: the tradition's own later account of its
+      catholicoi, never evidence of 410 or 424 on its own. Only the Latin is usable from
+      this OCR, and its pages run backwards.

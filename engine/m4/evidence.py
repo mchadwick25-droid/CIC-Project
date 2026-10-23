@@ -42,7 +42,7 @@ from engine.m1.canon import entity_cells, cell_keywords, retrieval_hint_keywords
 from engine.prose import FALLBACK_EXCLUDED_KEYS as _FALLBACK_EXCLUDED_KEYS
 from engine.prose import all_text, content_words, overlap_coefficient, retrieval_words
 from engine.m4.citation_cards import _quote_speaker_label
-from engine.m4.grounding_net import scope_completion
+from engine.m4.grounding_net import QuotationIndex, scope_completion
 from engine.m4.rhythm import RhythmTally
 from engine.m5.routing import QUESTION_KINDS
 
@@ -606,7 +606,52 @@ def match_asks_to_cells(
     if len(matches) < top_n and len(query_words) == 1 and hinted:
         matches = _fill(matches, hinted, allow_single=True, matched_by="single-word-hint")
 
+    # The question word, for a short question that reached nothing. "Who is
+    # Jesus?" has one content word, `jesus`, in five cells: too common to
+    # decide one alone, and too common in a world's records for the
+    # full-text fallback, so the opening question of a conversation reached
+    # no ground in nine of eleven worlds on 13 October. Its question word
+    # is the rest of what it asks: `who` with `jesus` is two words, shared
+    # only by the cells whose canon questions ask who Jesus is. Last, into
+    # an empty result only, for a question of one content word (with two,
+    # "What was the scriptorium like?", the question word would decide
+    # between the other word's cells by noise), never a question word
+    # alone, and only against the canon questions' own wording, one
+    # question at a time: both words
+    # stand in one canon question, as "Who was Jesus, to you and your
+    # people?" holds them.
+    if not matches and len(query_words) == 1:
+        asked = _question_words(message, asks) - query_words
+        if asked:
+            own, query_words = query_words, query_words | asked
+            ranked = _rank(_canon_question_words(canon_questions, canon_words))
+            query_words = own
+            for match in ranked:
+                cell = match["cell"].split("|", 1)[0]
+                if set(match["shared_words"]) - asked and cell not in {m["cell"] for m in matches}:
+                    matches.append({**match, "cell": cell, "matched_by": "question-word"})
+            matches = matches[:top_n]
+
     return _add_entity_cell(matches[:top_n], query_words, repository_records, canon_words)
+
+
+_QUESTION_WORDS = frozenset({"who", "what", "why", "how", "when", "where", "which"})
+
+
+def _question_words(message: str, asks: list[dict] | None) -> set[str]:
+    text = " ".join([message or ""] + [a.get("text", "") for a in (asks or [])])
+    return set(re.findall(r"[a-z]+", text.lower())) & _QUESTION_WORDS
+
+
+def _canon_question_words(canon_questions: dict[str, dict], canon_words: dict[str, set[str]]) -> dict[str, set[str]]:
+    """Each canon question's own content and question words, keyed
+    "<cell>|<question id>", for the cells the canon vocabulary knows."""
+    out = {}
+    for rid, record in sorted(canon_questions.items()):
+        text = record.get("text") or ""
+        if record.get("record_type") == "canon_question" and record.get("cell") in canon_words:
+            out[f"{record['cell']}|{rid}"] = content_words(text) | _question_words(text, None)
+    return out
 
 
 # Entity routing (added on a measured failure - see
@@ -945,7 +990,10 @@ def apply_session_exclusion(*, selected: list[dict], already_told_ids: set[str] 
 # Chains resolve to the last SELF-STANDING question, not the last message,
 # so "Say more about that." followed by "And then?" both inherit from the
 # real question that opened the thread rather than from each other.
-_BACK_REFERENCE = {"that", "this", "those", "these", "it", "there", "then"}
+# A person pronoun points back as surely: "What did he do?", after "Who is
+# Jesus?", is about Jesus. It has no content word at all, and a message
+# with a back-reference and nothing of its own is the plainest follow-up.
+_BACK_REFERENCE = {"that", "this", "those", "these", "it", "there", "then", "he", "she", "him", "his", "her"}
 _FOLLOW_UP_MASS = 1.30
 
 
@@ -953,8 +1001,10 @@ def _looks_like_follow_up(message: str, asks, canon_questions, repository_record
     """A back-reference with no subject of its own - see the block above for
     the measurement behind both halves of the test."""
     words = _query_words(message, asks)
-    if not words or not (_BACK_REFERENCE & set(re.findall(r"[a-z']+", (message or "").lower()))):
+    if not (_BACK_REFERENCE & set(re.findall(r"[a-z']+", (message or "").lower()))):
         return False
+    if not words:
+        return True
     matches = match_asks_to_cells(
         message=message, asks=asks, canon_questions=canon_questions,
         repository_records=repository_records, top_n=1,
@@ -1113,7 +1163,11 @@ def assemble_evidence(
     # or hint match by construction - it knows the question is ABOUT
     # someone, not what is being asked - so it widens the ground without
     # claiming the fallback is no longer needed.
-    if not [m for m in cell_matches if not m.get("from_entity")]:
+    # A question-word match is as weak a signal, for the same reason: it
+    # knows "Who is Jesus?" asks who, not which of the world's records hold
+    # the answer, and a world whose coverage of those cells is empty still
+    # needs the fallback.
+    if not [m for m in cell_matches if not m.get("from_entity") and m.get("matched_by") != "question-word"]:
         for candidate in _fulltext_fallback_candidates(query_words=_query_words(message, asks), repository_records=repository_records):
             if candidate["id"] in seen_ids:
                 continue
@@ -1167,7 +1221,14 @@ def _with_quote_index(candidate: dict, repository_records: dict[str, dict]) -> d
         return candidate
     record = repository_records.get(candidate["id"]) or {}
     gist = " ".join(((record.get("use_note") or {}).get("means") or "").split())
-    return {**candidate, "speaker": _quote_speaker_label(record, repository_records) or "unattributed", "gist": gist}
+    name = QuotationIndex(repository_records).speaker_name(record) or "unattributed"
+    label = _quote_speaker_label(record, repository_records) or "unattributed"
+    head = label.split()[0]
+    if (repository_records.get(head) or {}).get("record_type") == "source":
+        # a source record's id stands for its writer: show the name, keep the note
+        label = name + label[len(head):]
+    # speaker_name: the name the placed-quote check looks for in the marker's sentence
+    return {**candidate, "speaker": label, "gist": gist, "speaker_name": name}
 
 
 def _quote_line(candidate: dict, descriptors: list[str]) -> str:
@@ -1259,7 +1320,10 @@ def render_evidence_block(evidence: dict) -> str:
             descriptors.append(f"{how} in round {round_no}")
         elif candidate.get("already_told_this_session"):
             descriptors.append("already told this session")
-        line = f"- [[{candidate['id']}]] {', '.join(descriptors)} — {head}"
+        if candidate.get("placeable"):
+            line = f"- [[story:{candidate['id']}]] {', '.join(descriptors)} to place (cite as [[{candidate['id']}]]) — {head}"
+        else:
+            line = f"- [[{candidate['id']}]] {', '.join(descriptors)} — {head}"
         if candidate.get("means"):
             line += f" | means: {candidate['means']}"
         guards = candidate.get("claim_guards")

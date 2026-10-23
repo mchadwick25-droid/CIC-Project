@@ -1,0 +1,12 @@
+source_file: skala_historie-ceska-1619-1620-ces_tieftrunk1867.txt
+
+assignments:
+  - row_id: "skala_historie-ceska-1619-1620-ces_tieftrunk1867--pavla-sk-ly-ze-zho-e-historie-esk-d-l-iii-1619-to-march-1620"
+    work: "Pavla Skály ze Zhoře Historie česká, díl III (1619 to March 1620)"
+    author: skala
+    locus: "whole volume; contents at file line 127"
+    atlas_ids:
+      - czech-churches-last-century
+    role: context
+    confidence: assigned
+    note: "A Protestant eyewitness history of the revolt, with the documents it prints, in clean Czech. It is a lay chronicle, not the church's own confession, so role is context. Quotable once each wording is checked against the page image. Only volume III is vendored."

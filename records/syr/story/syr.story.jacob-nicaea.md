@@ -45,6 +45,7 @@ text: >-
   confessed the Son as true God. The lists that record the council's signers were pieced together by later hands. They carry his name among the assembled bishops.
   His own city remembered him afterward as its father and guardian, and
   Ephrem's hymns for Nisibis sing of Jacob first among its bishops.
+telling: "Jacob, bishop of Nisibis, is remembered among the bishops at the great council of Nicaea. In the year 325, bishops from the whole world gathered there to answer Arius. Our tradition holds Jacob to be one voice from our Syriac-speaking frontier. He stood with those who confessed the Son as true God.\n\nNothing survives of what Jacob said or did at the council. The lists of its signers were pieced together by later hands, and they carry his name among the assembled bishops. Theodoret of Cyrus, a Greek church historian of the next century, also counts him among them. No document from the fourth century itself confirms that he was there.\n\nAt home in Nisibis, Ephrem praised Jacob as the city's wall."
 absent_detail: No account of what Jacob said or did at the council survives - only the memory of his presence
   and his stand. The signature lists are late, composite reconstructions, and the telling keeps 'the tradition
   remembers' audible rather than claiming a contemporary document.

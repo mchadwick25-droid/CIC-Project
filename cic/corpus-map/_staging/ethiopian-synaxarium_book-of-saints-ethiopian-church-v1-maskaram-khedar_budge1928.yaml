@@ -1,0 +1,38 @@
+source_file: ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt
+
+authors_ruled:
+  ethiopian-synaxarium:
+    kind: anonymous
+    evidence: >
+      The Ethiopic Synaxarium (Mashafa Senkesar) is an anonymous liturgical compilation, a
+      translation and expansion of the Arabic Synaxarium of the Coptic church; the title page
+      names only the translator, E. A. Wallis Budge (file lines 93-115). A work, not a person;
+      Budge is the translator, not the author.
+
+assignments:
+  - row_id: ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928--ethiopic-synaxarium-maskaram-tekemt-khedar-english
+    work: "The Ethiopic Synaxarium, volume I (Maskaram, Tekemt, Khedar), English translation by Budge"
+    author: ethiopian-synaxarium
+    locus: "whole volume; the months at file line 106"
+    atlas_ids:
+      - the-ethiopian-monastic-flowering
+    role: tradition
+    confidence: provisional
+    note: >
+      The Ethiopian church's own book of the saints, in its liturgical order, as Budge
+      translated it in 1928 from two British Museum manuscripts. Placed with the monastic
+      flowering, the era in which the Synaxarium was rendered into Ethiopic and expanded with
+      Ethiopian saints; the dating of that translation is the builders' to confirm, so this is
+      a provisional shelf assignment.
+  - row_id: ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928--ethiopic-synaxarium-maskaram-tekemt-khedar-english-2
+    work: "The Ethiopic Synaxarium, volume I (Maskaram, Tekemt, Khedar), English translation by Budge"
+    author: ethiopian-synaxarium
+    locus: "the Tekemt commemoration of Theophilus of Alexandria (file line 13717, his anathema on Origen's books at file lines 13850-13857); the Khedar commemoration of the translation of John Chrysostom's body (file lines 17887-17931)"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: context
+    confidence: provisional
+    note: >
+      Late Ethiopian liturgical memory of Theophilus's campaign against Origen and of John
+      Chrysostom's relics. A reception witness that names its own standpoint; never evidence
+      of the events of 400-403 themselves.

@@ -24,7 +24,9 @@ names:
 dates:
   display: "c. 56-c. 120 (standard reference dates, not from this world's own record); the Annals passage written c. 116, describing 64"
 narratable: true
-bridge_line: "A Roman historian, not a Christian. He recorded Nero blaming Christians for the great fire - with open contempt for them and for Nero alike."
+bridge_line: A Roman historian, not a Christian. He wrote that Nero blamed Christians for the great fire.
+  He despised Christians, yet he wrote that people came to pity them, since they seemed to die for one
+  man's cruelty.
 ---
 Outside witness for the generative event (Nero's scapegoating, the
 deaths of the first generation's pillars). The Shaw/Jones debate -

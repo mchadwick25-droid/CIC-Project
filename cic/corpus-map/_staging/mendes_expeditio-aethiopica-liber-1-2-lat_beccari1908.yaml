@@ -1,0 +1,27 @@
+source_file: mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt
+assignments:
+- row_id: >-
+    mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908--expeditio-aethiopica-books-i-and-ii-mend
+  work: Expeditio Aethiopica, Books I and II (Mendes), Latin text edited by Beccari
+  author: mendes
+  locus: Liber primus from file line 4165, Liber secundus from 9305; the chapter index at 20503
+  atlas_ids:
+  - ethiopian-christianity-gragn-to-fasilides
+  role: context
+  confidence: assigned
+  note: >-
+    The Catholic Patriarch Afonso Mendes's account of his mission, which, on a sample at the 70 percent
+    point of the file, reaches the unrest of December 1629. A Jesuit witness, outside the Ethiopian church.
+    Latin, readable OCR, with Beccari's notes. No public-domain English found.
+- row_id: >-
+    mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908--expeditio-aethiopica-books-i-and-ii-mend-2
+  work: Expeditio Aethiopica, Books I and II (Mendes), Latin text edited by Beccari
+  author: mendes
+  locus: Liber primus from file line 4165, Liber secundus from 9305
+  atlas_ids:
+  - the-society-of-jesus
+  role: tradition
+  confidence: provisional
+  note: >-
+    The Jesuit patriarch's own account of the mission. Placed on window and subject without reading the
+    whole volume.

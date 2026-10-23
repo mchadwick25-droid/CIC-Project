@@ -34,8 +34,9 @@ dates:
   display: a deacon deposed by Primian at Carthage; elected rival primate by the council of Cebarsussi
     in 393; condemned by the council of Bagai in 394. Nothing of his life before or after is recorded.
 narratable: true
-bridge_line: The deacon whose supporters made him a rival primate against Primian in 393 - and whose party
-  a council of three hundred and ten bishops condemned in language about bodies that cannot find burial.
+bridge_line: The deacon whose supporters made him a rival primate against Primian in 393. A council
+  of three hundred and ten bishops condemned his party, in words about bodies that cannot find
+  burial.
 relations:
 - type: associated-with
   target: don.story.bagai-reconciliation

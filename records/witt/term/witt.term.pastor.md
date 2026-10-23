@@ -16,11 +16,12 @@ confidence:
     account of clerical marriage.
 sources:
 - source_id: witt.source.luther-eight-wittenberg-sermons
-  locus: the Eight Wittenberg Sermons, cited among this entry's Registry rows (Doc_06 SS5 entry 6.5)
+  locus: the Eight Wittenberg Sermons
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism -- addressed 'to all pastors and preachers, that they should daily exercise
-    themselves in the catechism'
+  locus: >-
+    the Large Catechism -- addressed 'to all pastors and preachers, that they should daily exercise themselves
+    in the catechism'
   license: public-domain
 - source_id: witt.source.luther-small-catechism
   locus: the Small Catechism -- 'what hearers owe their pastors'
@@ -29,11 +30,11 @@ sources:
   locus: the Table Talk -- 'shepherds of souls are worthy of double honour' (Contested as verbatim)
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession -- 'our priests were desirous to avoid these open scandals, they married
-    wives'
+  locus: >-
+    the Augsburg Confession -- 'our priests were desirous to avoid these open scandals, they married wives'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology XV, cited among this entry's Registry rows (Doc_06 SS5 entry 6.5)
+  locus: the Apology XV
   license: public-domain
 retrieval:
   tier: 2
@@ -66,8 +67,9 @@ relations:
   target: witt.term.congregation
 - type: associated-with
   target: witt.term.obedience
-plain_meaning: A pastor is called and usually married. Our own catechism openly rebukes lazy pastors.
-  We also say a congregation owes its pastor honor and a decent living.
+plain_meaning: >-
+  A pastor is called to the work and is usually married. Our catechism rebukes lazy pastors. The people
+  owe him honor and a living.
 world_word: pastor / preacher -- the office the catechism addresses and rebukes
 false_friend:
 - the pastor heard as a settled professional clergyman rather than a called, married, often-underpaid

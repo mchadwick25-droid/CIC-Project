@@ -90,10 +90,10 @@ relations:
 - type: associated-with
   target: gallic.term.the-deposit
 plain_meaning: >-
-  The prior generations from whom everything legitimate among us is received and never invented. For
-  Cassian, the Egyptian old men he sat with. For Vincent, the doctors whose collated writings form "a
-  consentient council." For Martin, the presbyters who can say whether a tradition "had come down from
-  antiquity."
+  The earlier generations who handed us everything legitimate. We received it from them and never
+  invented it. For Cassian, they were the Egyptian old men he sat with. For Vincent, they were the
+  doctors whose writings, set side by side, form "a consentient council." For Martin, they were the
+  presbyters who could say whether a tradition "had come down from antiquity."
 world_word: the Fathers / the elders
 false_friend:
 - a settled patristic library - the "Church Fathers" as a canon of authors to be quoted
@@ -130,8 +130,8 @@ senses:
     clergy who remembered what came down from antiquity - in every case, the reason a teaching is not
     one's own.
 quick_meaning: >-
-  Those we receive from and never invent beyond. Living old men for Cassian; collated doctors for
-  Vincent; for Martin, the clergy who remember.
+  Those we received from, never inventing beyond them. For Cassian, living old men. For Vincent,
+  doctors whose writings were set side by side. For Martin, the clergy who remembered.
 distortion_risk: medium
 use_note:
   means: "The fathers meant the prior generations, as persons, from whom all legitimate teaching is received: living old men for Cassian, collated doctors for Vincent, remembering clergy for Martin."

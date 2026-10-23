@@ -1,0 +1,34 @@
+source_file: melville-james_autobiography-and-diary_pitcairn1842.txt
+
+assignments:
+  - row_id: melville-james_autobiography-and-diary_pitcairn1842--autobiography-and-diary-of-james-melville-1556-1601
+    work: "The Autobiography and Diary of Mr James Melvill, 1556-1601"
+    author: melville-james
+    locus: "Pitcairn's Prefatory Notice from file line 1243 with its Appendix of Documents at 1701; 'MR JAMES MELVILL'S DIARY' at 2960 and 'THE AUTHOR'S INTRODUCTION' (Anstruther, 10 August 1600) at 2968, the Diary running to the Continuation at 24236"
+    atlas_ids:
+      - the-scottish-reformation-and-kirk
+    role: tradition
+    confidence: assigned
+    note: >
+      A minister's own life in the Kirk: his schooling, his uncle Andrew
+      Melville's return from Geneva, the St Andrews college, the presbytery
+      of Kilrenny, the Armada year, the fights with the King and the bishops,
+      told in warm Scots prose. The ordinary-minister voice between Knox and
+      the Covenant. Primary voice; OCR legible but with a systematic w to
+      'Av' scan artifact, so every quote must be checked against the page
+      image, and a cleaner scan (archive.org autobiographyan01pitcgoog) may
+      replace this file.
+  - row_id: melville-james_autobiography-and-diary_pitcairn1842--true-narration-of-the-declining-age-of-the-kirk-1596-1610
+    work: "A True Narratioune of the Declyneing Aige of the Kirk of Scotland, from 1596 to 1610 (the Continuation of the Diary)"
+    author: melville-james
+    locus: "'CONTINUATION' at file line 24236, 'A True Narratioune of the Declyneing Aige of the Kirk of Scotland' from the following heading, running to the Index at 36688"
+    atlas_ids:
+      - the-scottish-reformation-and-kirk
+    role: tradition
+    confidence: assigned
+    note: >
+      Melville's account of the Kirk's defeat under James VI: the riot of
+      1596, the Hampton Court summons of 1606, Andrew Melville's imprisonment,
+      and the restoration of bishops. A presbyterian partisan's narrative of
+      the episcopal turn; Pitcairn's Prefatory Notice establishes Melville's
+      authorship. Same OCR caution as the Diary.

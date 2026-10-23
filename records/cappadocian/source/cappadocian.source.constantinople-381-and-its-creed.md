@@ -18,6 +18,7 @@ author: The Council of Constantinople (381, collective conciliar record)
 work: Constantinople 381 and its creed
 edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 14 (The Seven Ecumenical Councils), ed. Schaff,
   vendored as cic/texts/npnf214_seven-ecumenical-councils.xml
+citation: The Council of Constantinople (381) and its creed, Nicene and Post-Nicene Fathers, 2nd series, vol. 14 (The Seven Ecumenical Councils), ed. Schaff and Wace
 kind: vendored
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed

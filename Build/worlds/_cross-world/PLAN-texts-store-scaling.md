@@ -67,12 +67,12 @@ first," below — that benefit isn't free either.
 
 ## The trigger
 
-Re-open this plan at **1 GB** in `cic/texts/` (check with
-`python cic/engine/texts_registry.py`, which prints this figure every run —
-see "the mechanical check," below) — early enough that the migration itself
-can be unhurried, the way this project prefers to handle anything with a real
-cost to getting it wrong. 1.5 GB is treated as the point where it is overdue,
-not the point to start thinking about it. Until then `cic/texts/` stays in
+Re-open this plan at **4 GB** in `cic/texts/`. Check the size with
+`python cic/engine/texts_registry.py`, which prints it on every run (see "the
+mechanical check," below). 5 GB, where GitHub starts to warn, is the point
+where acting is overdue. The repository is public, so plain git storage costs
+nothing at any size. What grows with it is the time every fresh session takes
+to clone the repository. Until then `cic/texts/` stays in
 plain git.
 
 The size of `cic/texts/` is not the only cost of a large repository. Every
@@ -110,8 +110,8 @@ behavior — a project-level call, when the trigger fires, not before.
 ## The mechanical check
 
 `python cic/engine/texts_registry.py` now prints the live total size of
-`cic/texts/` on every run, with a note once it passes 1 GB and again past
-1.5 GB, naming this file. Advisory only — same "derived, not asserted"
+`cic/texts/` on every run, with a note once it passes 4 GB and again past
+5 GB, naming this file. Advisory only — same "derived, not asserted"
 discipline as the rest of this layer, and deliberately not a gate: crossing
 either number is a planning cue, not a defect.
 

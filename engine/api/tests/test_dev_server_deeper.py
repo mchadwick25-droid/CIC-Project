@@ -1,6 +1,7 @@
 """The no-spend dev server mounts Go Deeper only when the flag is on, and
 keeps the real server's refusals to start."""
 import pytest
+from fastapi import FastAPI
 from fastapi.testclient import TestClient
 
 from engine.api import dev_server
@@ -32,8 +33,13 @@ def deeper_paths(app):
     return [p for p in (getattr(r, "path", "") for r in app.routes) if p.startswith(("/api/deeper", "/api/admin/deeper"))]
 
 
-def test_the_module_level_app_builds_under_the_default_environment():
-    assert callable(dev_server.app)
+def test_importing_the_module_builds_no_app():
+    assert not any(isinstance(value, FastAPI) for value in vars(dev_server).values())
+
+
+def test_the_factory_builds_the_app_under_the_default_environment(dev_env, tmp_path):
+    assert isinstance(dev_server.build_dev_app(), FastAPI)
+    assert (tmp_path / "cic_api_usage.db").exists()
 
 
 def test_flag_off_passes_no_deeper_argument_and_writes_nothing(dev_env, tmp_path):
@@ -62,7 +68,7 @@ def test_flag_on_mounts_the_webhook_and_admin_routes(dev_env, tmp_path):
     try:
         paths = set(deeper_paths(app))
         assert {
-            "/api/deeper/webhook", "/api/deeper/claim", "/api/deeper/balance", "/api/deeper/door",
+            "/api/deeper/webhook", "/api/deeper/claim", "/api/deeper/balance",
             "/api/admin/deeper/pause", "/api/admin/deeper/reconciliation", "/api/admin/deeper/funds",
         } <= paths
         assert app.state.deeper.webhook_secret == SECRET

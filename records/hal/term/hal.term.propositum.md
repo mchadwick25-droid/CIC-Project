@@ -41,13 +41,12 @@ senses:
   evidential: Jerome's letter to Eustochium exhorting her toward the ascetic life develops the same
     vowed-resolve idea at length, though it does not use this specific Latin term for her by name in
     what survives.
-  personal: Someone taking up this way of life was not making a private resolution alone - they were
-    entering a recognized, named commitment the wider ascetic culture had a word for.
+  personal: "Taking up this way of life meant a named commitment, on the wider evidence of the period. It was more than a private choice."
   translational: >-
     Wasn't this just a personal choice, undocumented and informal? The wider period had a real, named
     word for this vowed commitment - though it is not directly quoted for these four women specifically,
     so it is applied here by reasonable analogy, not direct attestation.
-quick_meaning: A vowed ascetic way of life - real period wording, not directly quoted for these women.
+quick_meaning: "A vowed ascetic way of life. It is real period wording, but it is not quoted for these women."
 distortion_risk: medium
 use_note:
   means: "The vowed ascetic resolve, real period vocabulary whose application to these four women is not confirmed in their community's own letters."

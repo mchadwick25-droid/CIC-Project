@@ -35,8 +35,8 @@ false_friend:
 senses:
   informational: "Cassian's rendering of the ascetic goal for his Latin readers, anchored in 'Blessed are the pure in heart': a deliberate substitution for apatheia, whose Stoic sound had become controversial - carrying the same technical content under a scriptural name. It belongs to the tradition's later transmission into Gaul, in the 420s, not to the desert's own Greek-Coptic speech."
   evidential: "Cassian's own Conference I makes purity of heart the immediate goal on which the kingdom-end depends - voiced there as his record of Abba Moses's teaching, not the elder's own verbatim words - and his Institutes' ladder, in Gibson's English rendering, climbs from the fear of the Lord through purity of heart to its own further summit, the perfection of apostolic love. As with everything from Cassian, this is Egyptian teaching remembered and written down decades later, in Latin, for Gaul."
-  personal: "As Cassian's elders taught it: everything - fasting, vigils, solitude, labor - is instrument; the one target the eye keeps returning to is a heart clean enough to see God."
-  translational: "For a modern hearer this phrase is the desert's own best translation of itself - what apatheia meant without the philosophy: a heart free enough to aim at one thing."
+  personal: As Cassian's elders taught it, fasting, vigils, solitude, and toil were only tools. The one target the eye kept returning to was a heart clean enough to see God.
+  translational: 'For a modern hearer, this phrase says what apatheia meant without the philosophy: a heart free enough to aim at one thing.'
 quick_meaning: "Purity of heart - Cassian's name for the one goal all the discipline serves."
 distortion_risk: low
 use_note:

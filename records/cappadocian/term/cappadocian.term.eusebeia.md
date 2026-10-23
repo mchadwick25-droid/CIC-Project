@@ -45,9 +45,10 @@ relations:
   target: cappadocian.term.philoptochia
 - type: associated-with
   target: cappadocian.term.pleonexia
-plain_meaning: 'We had one word for our whole aim: eusebeia, reverence. The same word covers a
-  careful, exact confession of God and a right, generous use of money and power. Getting a doctrine wrong
-  and hoarding grain from the hungry were, in our own accusation, failures of the same virtue.'
+plain_meaning: >-
+  Eusebeia, reverence, was a wide word for us. We used it for a careful,
+  exact confession of God. We also used it for right living, money and power
+  included.
 world_word: eusebeia
 false_friend:
 - piety meaning private devotional feeling
@@ -69,8 +70,8 @@ senses:
     world the two were never separable: the tongue schooled to say neither more nor less of God than is
     given, and the estate schooled to hold neither more nor less bread than is just, were one trained
     reverence, not two virtues.'
-quick_meaning: 'Reverence: getting God''s truth exactly right and living rightly, as one and the same
-  virtue.'
+quick_meaning: >-
+  Reverence: right confession of God and right living, held under one word.
 distortion_risk: high
 use_note:
   means: "Eusebeia meant reverence, one virtue covering both exact confession of God and just use of money and power."

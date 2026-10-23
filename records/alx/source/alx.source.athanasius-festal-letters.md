@@ -16,6 +16,7 @@ sources: []
 author: "Athanasius of Alexandria (c. 296-373 CE)"
 work: "Festal Letters (the surviving set, preserved in Syriac; including an extract of Letter 39's canon-list section (367 CE), not the whole letter). The edition's own heading reads 'From the thirty-ninth Letter of Holy Athanasius... wherein he defines canonically what are the divine books,' and elsewhere notes 'the remainder of the thirty-ninth Letter has long been before the world' - that is, the rest of the letter is not given here."
 edition: "NPNF series 2 vol. 4 (1892, ed. Robertson; the Festal Letters translation derives from the 1854 Library-of-the-Fathers rendering of the Syriac corpus - per-work translator credit to be re-read from the division's own front matter at first quote), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
+citation: Athanasius of Alexandria, Festal Letters, ed. Robertson, Nicene and Post-Nicene Fathers ser. 2 vol. 4 (1892)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

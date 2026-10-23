@@ -16,6 +16,7 @@ sources: []
 author: "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine"
 work: "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)"
 edition: "ed. and trans. Henry R. Percival, The Seven Ecumenical Councils, Nicene and Post-Nicene Fathers series 2 vol. 14 (1900), vendored as cic/texts/npnf214_seven-ecumenical-councils.xml"
+citation: The Council of Nicaea (325), Creed and Canons, ed. and trans. Henry R. Percival, The Seven Ecumenical Councils, Nicene and Post-Nicene Fathers, series 2, vol. 14 (1900)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

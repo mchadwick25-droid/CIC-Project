@@ -22,7 +22,7 @@ confidence:
     is carried inside the Martyr/Martyrdom and Refusal of Imperial Legitimacy entries.'
 sources:
 - source_id: don.source.acta-saturnini-abitinian-martyrs
-  locus: the 304 Diocletianic persecution, transmitted forward by both parties
+  locus: the 304 Diocletianic persecution, whether a Donatist or a Catholic hand passed the text on is unsettled
   license: public-domain
 - source_id: don.source.passio-marculi
   locus: the Macarian repression of 347-348
@@ -47,9 +47,9 @@ relations:
   target: don.term.refusal-of-imperial-legitimacy
 - type: associated-with
   target: don.term.agonistici
-plain_meaning: We hold two persecutions in memory, and we do not let them blur into one. The first came from the
-  empire, and our eventual rival suffered it beside us. The second came at that rival's own urging, through the
-  emperor whose favour they had and we did not.
+plain_meaning: We held two persecutions in memory, and we did not let them blur into one. The first came
+  from the empire, and our eventual rival suffered it beside us. The second came at that rival's own urging,
+  through the emperor whose favour they had and we did not.
 world_word: persecutio
 false_friend:
 - persecution of Christians by pagan Rome, the story most readers already have
@@ -65,11 +65,11 @@ senses:
     repression produced its own commemorative literature, and the two strata are visible in what got written when.
     Holding them apart as a deliberate act of memory is the build's reading of that pattern rather than a claim
     any single text makes.
-  personal: 'The difference between the two is the whole case in miniature: suffered once alongside the rival,
-    and suffered since because of the rival. Collapsing them would remove the point.'
-  translational: '''The Romans persecuted the Christians'' -- true of the first, and it is the second that this
-    communion is actually formed by. Christians using imperial force against Christians is not a footnote to the
-    story here; it is the story.'
+  personal: The difference between the two is the whole case in small. We suffered once alongside the rival,
+    and later because of the rival. Blurring them would remove the point.
+  translational: '''The Romans persecuted the Christians'' -- true of the first, and it is the second that
+    formed this communion. Christians using imperial force against Christians was the center of the story
+    here.'
 quick_meaning: 'Two persecutions, kept apart: one from the empire, one at our rival''s urging.'
 distortion_risk: medium
 use_note:

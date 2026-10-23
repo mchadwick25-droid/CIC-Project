@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 /**
  * Narrate a built world's own long-form text in that world's Representative
- * voice: the world story (orientation.story), each documented story, and the
- * legacy piece. Text only; never a teaser, caveat, hedge or bio.
+ * voice: the world story (orientation.story), each documented story's
+ * telling, and the legacy piece. Never a teaser, caveat, hedge or bio, and
+ * never a story's source wording (`text`), which the site JSON does not carry.
  *
- * Output: cic-website/audio/worlds/<census-id>/{story,docstory-<n>,legacy}.mp3
+ * Output: cic-website/audio/worlds/<census-id>/{story,docstory-<story id>,legacy}.mp3
  * and cic-website/audio/worlds/manifest.json, which the Atlas panel and the
  * static tradition pages read to decide which players to show. A story longer
  * than the model's per-request limit is sent in parts and joined into one file.
@@ -13,10 +14,20 @@
  * Usage:
  *   ELEVENLABS_API_KEY=... node Build/tools/generate_world_narration.mjs \
  *     --world <census-id> --voice-id <id> --model <model_id> \
- *     --api-speed <n> --tempo <n> --settings-json '<voice_settings>' [--prefix '[audio tag] '] [--dry-run] [--force]
+ *     --api-speed <n> --tempo <n> --settings-json '<voice_settings>' \
+ *     --approved-run "<name>" --char-cap <n> [--prefix '[audio tag] '] [--only <key,...>] [--dry-run] [--force]
+ *
+ * --approved-run (the run Mark approved after hearing its sample) and
+ * --char-cap (its character limit, counting the prefix on every request) are
+ * required except with --dry-run; a run that plans more refuses to start.
  *
  * --prefix puts an instruction (e.g. an accent tag) in front of every request's
  * text; it is printed and recorded in the manifest.
+ *
+ * A piece already in the manifest is skipped. --only names the pieces to
+ * record (story, legacy, docstory-<story id>), whether or not they are in
+ * the manifest, so a changed text is re-recorded without paying for the
+ * rest; --force records every piece.
  *
  * Voice, model, settings, speed and tempo are all required (except --dry-run)
  * and never read from the environment; the run prints what it sends and the
@@ -27,7 +38,7 @@ import path from 'path';
 import os from 'os';
 import { execFileSync } from 'child_process';
 import { fileURLToPath } from 'url';
-import { NARRATION_BITRATE, NARRATION_OUTPUT_FORMAT, requirePaidSettings, synthesizeWithCost, worldsDataDir } from './generate_tree_narration.mjs';
+import { NARRATION_BITRATE, NARRATION_OUTPUT_FORMAT, requireApprovedRun, requirePaidSettings, synthesizeWithCost, worldsDataDir } from './generate_tree_narration.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..', '..');
@@ -36,7 +47,7 @@ export const worldManifestPath = path.join(worldAudioDir, 'manifest.json');
 export const MAX_CHARS_PER_REQUEST = 4500;
 
 export function parseArgs(argv) {
-  const o = { world: null, voiceId: null, model: null, apiSpeed: null, tempo: null, settingsJson: null, prefix: '', dryRun: false, force: false };
+  const o = { world: null, voiceId: null, model: null, apiSpeed: null, tempo: null, settingsJson: null, prefix: '', only: null, dryRun: false, force: false, approvedRun: null, charCap: null };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--dry-run') o.dryRun = true;
@@ -48,6 +59,9 @@ export function parseArgs(argv) {
     else if (a === '--tempo') o.tempo = Number(argv[++i]);
     else if (a === '--settings-json') o.settingsJson = argv[++i];
     else if (a === '--prefix') o.prefix = argv[++i];
+    else if (a === '--only') o.only = argv[++i].split(',').map((k) => k.trim()).filter(Boolean);
+    else if (a === '--approved-run') o.approvedRun = argv[++i];
+    else if (a === '--char-cap') o.charCap = Number(argv[++i]);
     else throw new Error(`unrecognized argument: ${a}`);
   }
   return o;
@@ -74,9 +88,9 @@ export function worldPieces(compiled) {
   const pieces = [];
   const story = (o.story || []).map((u) => u.text).filter(Boolean);
   if (story.length) pieces.push({ key: 'story', parts: splitParagraphs(story) });
-  (o.documented_stories || []).forEach((s, i) => {
-    if (s.text && s.text.trim()) pieces.push({ key: `docstory-${i}`, parts: splitParagraphs([s.text]) });
-  });
+  for (const s of o.documented_stories || []) {
+    if (s.telling && s.telling.trim()) pieces.push({ key: `docstory-${s.story_id}`, parts: splitParagraphs(s.telling.split(/\n\n+/)) });
+  }
   const legacy = (o.legacy || []).map((u) => u.text).filter(Boolean);
   if (legacy.length) pieces.push({ key: 'legacy', parts: splitParagraphs(legacy) });
   return pieces;
@@ -90,11 +104,23 @@ function tempoFile(inFiles, outFile, tempo) {
   fs.rmSync(dir, { recursive: true, force: true });
 }
 
+/** Characters the run will send: the pieces it does not skip, each request with its prefix. */
+export function billableChars(pieces, entry, { prefix = '', force = false, only = null } = {}) {
+  return pieces
+    .filter((p) => !(entry[p.key] && !force && !only))
+    .reduce((n, p) => n + p.parts.reduce((m, t) => m + prefix.length + t.length, 0), 0);
+}
+
 async function run() {
   const opts = parseArgs(process.argv.slice(2));
   if (!opts.world) throw new Error('--world is required');
   const compiled = JSON.parse(fs.readFileSync(path.join(worldsDataDir, `${opts.world}.json`), 'utf-8'));
-  const pieces = worldPieces(compiled);
+  const all = worldPieces(compiled);
+  if (opts.only) {
+    const unknown = opts.only.filter((k) => !all.some((p) => p.key === k));
+    if (unknown.length) throw new Error(`--only names no such piece: ${unknown.join(', ')}`);
+  }
+  const pieces = opts.only ? all.filter((p) => opts.only.includes(p.key)) : all;
   const manifest = fs.existsSync(worldManifestPath) ? JSON.parse(fs.readFileSync(worldManifestPath, 'utf-8')) : {};
   const chars = pieces.reduce((n, p) => n + p.parts.reduce((m, t) => m + t.length, 0), 0);
   console.log(`=== World narration ${opts.dryRun ? '(dry run)' : ''}: ${opts.world} ===`);
@@ -103,6 +129,7 @@ async function run() {
   if (opts.dryRun) return;
 
   requirePaidSettings(opts);
+  requireApprovedRun(opts, billableChars(pieces, manifest[opts.world] || {}, opts));
   for (const [flag, v] of [['--api-speed', opts.apiSpeed], ['--tempo', opts.tempo], ['--settings-json', opts.settingsJson]]) {
     if (!v) throw new Error(`${flag} is required and is never read from the environment.`);
   }
@@ -113,6 +140,7 @@ async function run() {
   fs.mkdirSync(outDir, { recursive: true });
 
   console.log('=== PAID RUN, settings as actually used ===');
+  console.log(`approved run : ${opts.approvedRun}   char cap: ${opts.charCap}`);
   console.log(`voice id : ${opts.voiceId}\nmodel    : ${opts.model}\nsettings : ${JSON.stringify(settings)}\nprefix   : ${opts.prefix ? JSON.stringify(opts.prefix) : '(none)'}\nformat   : ${NARRATION_OUTPUT_FORMAT}, re-encoded at ${NARRATION_BITRATE} mono\ntempo    : ${opts.tempo}x after synthesis\nchars    : ${chars}`);
   console.log('===========================================');
 
@@ -120,7 +148,7 @@ async function run() {
   let credits = 0;
   for (const p of pieces) {
     const finalPath = path.join(outDir, `${p.key}.mp3`);
-    if (entry[p.key] && !opts.force) { console.log(`  skip (in manifest): ${p.key}`); continue; }
+    if (entry[p.key] && !opts.force && !opts.only) { console.log(`  skip (in manifest): ${p.key}`); continue; }
     const partFiles = [];
     for (const [i, text] of p.parts.entries()) {
       const { audio, cost } = await synthesizeWithCost(opts.prefix + text, { apiKey, voiceId: opts.voiceId, modelId: opts.model, voiceSettings: settings, outputFormat: NARRATION_OUTPUT_FORMAT });

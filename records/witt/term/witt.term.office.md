@@ -19,10 +19,10 @@ sources:
   locus: Christian Nobility -- 'a priest in Christendom is nothing else than an office-holder'
   license: public-domain
 - source_id: witt.source.luther-babylonian-captivity-of-the-church
-  locus: Babylonian Captivity, cited among this entry's Registry rows (Doc_06 SS5 entry 6.3)
+  locus: Babylonian Captivity
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism, cited among this entry's Registry rows (Doc_06 SS5 entry 6.3)
+  locus: the Large Catechism
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
   locus: the Augsburg Confession -- the sword as 'another office than the ministry of the Gospel'
@@ -51,8 +51,9 @@ relations:
   target: witt.term.good-works
 - type: associated-with
   target: witt.term.congregation
-plain_meaning: An office is a task, not a permanent rank. A pastor removed from office becomes an ordinary
-  person again, like anyone else. Every trade has its own office too.
+plain_meaning: >-
+  An office is a task, not a permanent rank. A pastor who is removed becomes an ordinary person again,
+  like anyone else. Every trade has its own office too.
 world_word: office -- the only difference among us; 'when deposed, a peasant like the rest'
 false_friend:
 - '''office'' heard as a position of rank or a physical room'

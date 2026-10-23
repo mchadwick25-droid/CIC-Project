@@ -75,7 +75,9 @@ per-edition apparatus only, never a blanket substitution.
 from __future__ import annotations
 
 import re
+from array import array
 from dataclasses import dataclass, field
+from functools import lru_cache
 from pathlib import Path
 
 from engine.m1.registry import formation_world_keys
@@ -298,7 +300,11 @@ def normalize_archaic_letterforms(text: str) -> tuple[str, set[str]]:
     return text, used
 
 
-def _normalize_archaic_letterforms_with_offsets(text: str) -> tuple[str, list[int]]:
+_ARCHAIC_LETTERFORM_RE = re.compile("[ſþÞðÐ]")
+
+
+@lru_cache(maxsize=2)
+def _normalize_archaic_letterforms_with_offsets(text: str) -> tuple[str, array]:
     """Same substitution as normalize_archaic_letterforms, but also
     returns offset_map: offset_map[i] is the index into the ORIGINAL
     `text` that normalized position i traces back to. Long s is a
@@ -307,21 +313,23 @@ def _normalize_archaic_letterforms_with_offsets(text: str) -> tuple[str, list[in
     raw index. Lets a caller recover which raw characters behind a
     normalized-text MATCH actually needed the substitution, rather than
     only knowing the substitution ran somewhere in the whole text."""
-    out_chars: list[str] = []
-    offset_map: list[int] = []
-    for i, c in enumerate(text):
-        if c == "ſ":
-            out_chars.append("s")
-            offset_map.append(i)
-        elif c in "þÞðÐ":
-            out_chars.append("t")
-            offset_map.append(i)
-            out_chars.append("h")
+    pieces: list[str] = []
+    offset_map = array("q")
+    pos = 0
+    for m in _ARCHAIC_LETTERFORM_RE.finditer(text):
+        i = m.start()
+        pieces.append(text[pos:i])
+        offset_map.extend(range(pos, i))
+        if text[i] == "ſ":
+            pieces.append("s")
             offset_map.append(i)
         else:
-            out_chars.append(c)
-            offset_map.append(i)
-    return "".join(out_chars), offset_map
+            pieces.append("th")
+            offset_map.extend((i, i))
+        pos = i + 1
+    pieces.append(text[pos:])
+    offset_map.extend(range(pos, len(text)))
+    return "".join(pieces), offset_map
 
 
 # A cited path can be hard-wrapped mid-filename in a record's free-text
@@ -473,12 +481,17 @@ def _nearest_context(segment: str, source_full: str, window: int = 30) -> str:
     return source_full[start:end]
 
 
+@lru_cache(maxsize=2)
+def _clean_source(source_raw: str, source_is_xml: bool) -> str:
+    source_full = strip_xml_markup(source_raw) if source_is_xml else source_raw
+    source_full = collapse_linewrap_hyphens(source_full)
+    return strip_apparatus(source_full)
+
+
 def verify_quote_text(
     quote_text: str, source_raw: str, *, source_is_xml: bool, apply_letterform_normalization: bool = True
 ) -> VerifyResult:
-    source_full = strip_xml_markup(source_raw) if source_is_xml else source_raw
-    source_full = collapse_linewrap_hyphens(source_full)
-    source_full = strip_apparatus(source_full)
+    source_full = _clean_source(source_raw, source_is_xml)
     # Kept alongside the normalized text (never reassigned below) so a
     # letterform class can be credited from the RAW span a match actually
     # covers, not from wherever in the whole file the letterform happens
@@ -492,7 +505,7 @@ def verify_quote_text(
         # raw-span-crediting logic below still works unchanged; it will
         # simply never find a letterform class to credit, because neither
         # side of the comparison was normalized.
-        source_offset_map = list(range(len(source_full)))
+        source_offset_map = range(len(source_full))
     quote_raw_for_letterforms = quote_text
     if apply_letterform_normalization:
         quote_text, _ = normalize_archaic_letterforms(quote_text)

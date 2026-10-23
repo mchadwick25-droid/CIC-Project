@@ -14,3 +14,17 @@ assignments:
     the scan is legible with occasional letter-level misreads. Word-form coverage against a clean Latin
     vocabulary is 0.64; the Spanish, Italian and Portuguese passages and the notes lower it, so the figure
     is a comparison across files and not a measure of accuracy.'
+
+- row_id: nadal_epistolae-v2-lat_1899--borromeo-and-the-milan-college-1563
+  work: Nadal's letter from Trent, 14 March 1563 (Borromeo and the founding of the Milan Jesuit college)
+  author: nadal
+  locus: letter headed 'TRIDENTI, 14 MARTII 1563' at file line 12325, summary item 5 at line 12329
+  atlas_ids:
+  - tridentine-parish-renewal-borromean-milan
+  role: context
+  confidence: provisional
+  note: 'A Jesuit witness to Borromeo''s first moves for Milan while he was still at Rome and the Council
+    was sitting. Placed on the editors'' summary line only; the letter itself was not read for this pass,
+    so the fit is provisional. Context, not this world''s own voice.
+
+      '

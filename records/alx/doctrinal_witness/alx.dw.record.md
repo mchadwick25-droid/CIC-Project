@@ -40,8 +40,7 @@ text: >-
   historian's selection. The majority who could not write left almost
   nothing. And some of the greatest teacher's works survive only in
   translations made by men with a stake in the outcome. What is claimed
-  is claimed from named books a person can check. Where the ground
-  thins, the thinness is said.
+  is claimed from named books a person can check.
 positions:
 - The tradition's core texts are public, early, and still here, so its claims can be checked.
 - the tradition itself practiced source-criticism (authorship, manuscripts, tiers of testimony)

@@ -2,6 +2,8 @@ limits:
   group_daily_ceiling: 6000
   group_burst_multiplier: 6
   low_balance_at: 100
+  unanswered_messages_per_visitor: 100
+  unanswered_messages_per_network: 200
 tokens:
   solo:
     open: 50
@@ -16,48 +18,46 @@ tokens:
   free:
     window_tokens: 550
     window_days: 30
-    rounds_per_conversation: 3
+    example_conversation_rounds: 3
+    network_window_allowances: 5
   packs:
     - {price_usd: 7, tokens: 1100}
     - {price_usd: 15, tokens: 2750}
     - {price_usd: 30, tokens: 6600}
-door:
-  observe: true
-  base_weekly_usd: 150
-  gift_share: 0.8
-  purchase_share: 0.5
-  invoice_factor: 1.35
-  stages:
-    - {at: 0.66, table_free_rounds: 1}
-    - {at: 0.75, free_share: 0.5, solo_free_rounds: 2}
-    - {at: 0.90, table_free_rounds: 0}
-    - {at: 0.95, free_voice: false}
-    - {at: 1.00, paid_voice: false}
 paid:
   round_cap: 40
   provisional: true
 admin:
   mint_max_tokens_per_request: 6600
   mint_max_tokens_per_day: 13200
+tester:
+  default_tokens: 20000
+  max_tokens: 20000
+  default_days: 30
+  max_days: 90
+  max_per_day: 2
 pilot:
   pack_usd: 7
   pilot_end_date: 2026-12-31
   audiences:
     general:
-      pilot_open: false
-      pilot_cap: 50
-      per_address: 2
+      pilot_open: true
+      pilot_cap: 100
+      per_address: 1
       public: true
+      questionnaire_url: https://tally.so/r/68Xe1e
     pastors:
       pilot_open: false
       pilot_cap: 25
       per_address: 2
       public: false
+      questionnaire_url: null
     historians:
       pilot_open: false
       pilot_cap: 25
       per_address: 2
       public: false
+      questionnaire_url: null
 words:
   limit: "This is the Facilitator. This sitting has reached its limit for now. Nothing in it is lost."
   notes:
@@ -68,7 +68,3 @@ words:
     daily_ceiling: "Your code has reached its limit for today. It works again tomorrow."
     paused: "Codes are paused for now. Your code is safe."
     in_use: "Your tokens are in use by another conversation. Try again in a moment."
-  door:
-    limited: "Free conversations are limited this week. Gifts keep them open — give at Get Involved."
-    paused: "Free conversations are paused until the week turns."
-    code_still_works: "A code still works."

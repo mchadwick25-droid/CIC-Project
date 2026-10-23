@@ -15,28 +15,25 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.socrates-he
-  locus: I.8 (Eusebius's letter to his church, npnf202 from line 2972)
+  locus: I.8
   license: public-domain
 - source_id: ijc.source.hilary-de-synodis
-  locus: the argued formulae - a century of unfinished persuasion
+  locus: De Synodis
   license: public-domain
 retrieval:
   tier: 1
   retrieve_when: []
 text: >-
-  There is documented room for hesitation, at
-  the highest level, about the deepest things. Eusebius of Caesarea signed the
-  creed at Nicaea and then wrote home to his own church. He explained,
-  carefully, why he had hesitated over its defining word and what he
-  understood it to mean. That is a bishop, at the founding council, publishing
-  his own reservations so that no one would 'impugn his motives.' For decades
-  afterward, serious men confessed differently about the Son and argued their
-  case from scripture. The question was not closed by pretending no one
-  doubted. What our record will not show is a private believer's
-  quiet doubt. Our doubters are bishops with pens. And what happened to doubt
-  depended on whichever settlement was in power. Hesitation could be explained
-  in a letter. But refusing the enforced confession could cost a man his
-  position, under any of this era's governments. So there was room for doubt - at a price that rose and fell with the law.
+  There is documented room for hesitation, at the highest level, about the deepest things. Eusebius of
+  Caesarea signed the creed at Nicaea and then wrote home to his own church. He explained, carefully,
+  why he had hesitated over its defining word and what he understood it to mean. Socrates says he
+  wrote so that no one would 'impugn his motives.' That is a bishop, at the founding council,
+  explaining his own reservations. For decades afterward, serious men confessed differently about the
+  Son and argued their case from scripture. The question was not closed by pretending no one doubted.
+  What our record will not show is a private believer's quiet doubt. Our doubters are bishops with
+  pens. And what happened to doubt depended on whichever settlement was in power. Hesitation could be
+  explained in a letter. But refusing the enforced confession could cost a man his position, under any
+  of this era's governments. So there was room for doubt, but its price depended on who held power.
 positions:
 - hesitation about the church's defining word is documented at the founding council itself, in the
   hesitater's own letter

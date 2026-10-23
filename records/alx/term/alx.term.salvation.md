@@ -30,7 +30,7 @@ retrieval:
   - asking narrowly about the ongoing mechanism of change (retrieve alx.term.transformation)
   - the therapeutic, non-forensic frame has already been surfaced this turn
 relations: []
-plain_meaning: Not a not-guilty verdict, but healing - the soul's own direction turned back toward God.
+plain_meaning: "Not only a not-guilty verdict, but healing: the soul's own direction turned back toward God."
 world_word: salvation (soteria)
 false_friend:
 - acquittal, a not-guilty verdict from a judge
@@ -42,15 +42,12 @@ senses:
   evidential: Athanasius describes the Logos entering human nature to reverse it from within, not to
     settle a legal claim; Clement casts Christ as physician and teacher healing and forming the soul at
     once.
-  personal: A soul that has been declared not-guilty but still wants the same lesser things has not been
-    saved in the sense this world means - the direction itself has to change, not just the record.
-  translational: >-
-    Isn't being saved mainly about having your guilt forgiven? This world answered a different question:
-    not a courtroom verdict, but a soul's actual direction healed and turned back toward God.
-quick_meaning: Not a verdict of not-guilty - the soul's direction healed and turned back to God.
+  personal: "A soul declared not guilty that still wanted the same lesser things had not been saved, as we understood it. The direction itself had to change, not only the record."
+  translational: "Isn't being saved mainly about having your guilt forgiven? This world saw more than a courtroom verdict: healing, the soul's own direction turned back toward God."
+quick_meaning: "Not only a verdict of not-guilty: the soul's direction healed and turned back to God."
 distortion_risk: high
 use_note:
-  means: "Salvation meant healing, the soul's direction turned back toward God by the Logos from within, not a not-guilty verdict."
+  means: "Salvation meant healing, with the Logos turning the soul back to God from within, and not only a not-guilty verdict."
   not_for:
     - "describing it as acquittal or a wiped legal record"
     - "adding Origen's universal-restoration reading"

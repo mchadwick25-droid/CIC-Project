@@ -31,8 +31,8 @@ retrieval:
 relations:
 - type: associated-with
   target: rzg.term.sola-scriptura
-plain_meaning: A catechism is a fixed, memorizable statement of doctrine. We teach it to our whole population.
-  We hold more than one. They are not all the same voice.
+plain_meaning: A catechism is a fixed, memorizable statement of doctrine. We taught it to our whole population.
+  We held more than one. They were not all the same voice.
 world_word: Catechism
 false_friend:
 - a single, uniform genre repeated identically across every Reformed city, rather than several distinct
@@ -43,12 +43,12 @@ senses:
     is worth naming as a real plurality, not one uniform genre repeated three times.'
   evidential: Calvin's Geneva Catechism survives in full in our own vendored record; the Heidelberg Catechism
     survives separately, from the Palatinate.
-  personal: At Geneva especially, this is how understanding is built up in the whole population, not only
-    in trained pastors - article resting on article, taught patiently.
-  translational: This is not a dry list of facts to memorize for its own sake. It is how we hand our own
-    convictions on to those who come after us without letting them drift.
-quick_meaning: A fixed statement of doctrine, taught to our whole population. We hold at least three distinct
-  catechetical voices, not one.
+  personal: At Geneva most of all, the whole people were taught, not only trained pastors. One article rested
+    on the next, taught with patience.
+  translational: This was not a dry list of facts to memorize for its own sake. It was how we handed our
+    convictions on to those who came after us without letting them drift.
+quick_meaning: A fixed statement of doctrine, taught to our whole population. We had more than one catechism,
+  in more than one voice.
 distortion_risk: low
 use_note:
   means: "A catechism is a fixed, memorizable statement of doctrine taught to the whole population, and these cities held several distinct catechetical voices."

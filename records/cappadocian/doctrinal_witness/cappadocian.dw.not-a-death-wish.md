@@ -19,13 +19,14 @@ confidence:
     Source Registry - carried forward honestly, not upgraded.
 sources:
 - source_id: cappadocian.story.forty-sebaste
-  locus: "the one who broke and the guard who took his place, held together honestly"
+  locus: the one who broke and the guard who took his place, held together
   license: public-domain
 - source_id: cappadocian.figure.forty-of-sebaste
-  locus: "condemned for the faith, not seeking death"
+  locus: condemned for the faith, not seeking death
   license: public-domain
 - source_id: cappadocian.figure.eupsychius
-  locus: "executed under Julian for refusing to deny the faith; his feast kept annually"
+  locus: martyred under Julian; his feast kept annually; a later historian ties his death to the temple
+    of Fortune
   license: public-domain
 retrieval:
   tier: 2
@@ -34,36 +35,38 @@ retrieval:
     death wish"
 text: >-
   We did not go looking for it. The martyrs we honored most were soldiers
-  condemned under one of the last empire-wide persecutions and left to
-  freeze, stripped, through a winter night on a lake - offered a warm bath
-  on the shore as the one thing waiting for whoever would deny the faith
-  and step out of the cold. Tradition holds that one of them broke before
-  the night ended, and that the guard set to watch them, moved by what he
-  saw, took off his own clothes and joined the others, so the number
-  stayed the same. That story is not, in our own telling, a celebration of
-  wanting to die. It is a story about one man's very human failure and
-  another man's very sudden change of heart, kept together rather than
-  smoothed into a single lesson about courage. Decades later, one of our
-  own bishops was executed under the last persecuting emperor - not
-  because he sought death, but because he would not deny the faith when
-  denial was the alternative offered. We kept his feast every year.
-  Wanting to die was never the virtue we named. Refusing to deny what we
-  held, when denial was the one way out offered, was.
+  condemned in one of the last persecutions, in the eastern provinces. They
+  were left to freeze, stripped, through a winter night on a lake. A warm
+  bath waited on the shore for any man who would deny the faith and step out
+  of the cold. Tradition holds that one of them broke before the night
+  ended. The guard set to watch them, moved by what he saw, took off his own
+  clothes and joined the others, so the number stayed the same. In our
+  telling, that story does not celebrate wanting to die. It keeps together
+  one man's very human failure and another man's sudden change of heart.
+  Decades later, under the last persecuting emperor, one of our own,
+  Eupsychius of Caesarea, was put to death. A later church writer believed
+  he was condemned for his part in pulling down the temple of Fortune in our
+  city. We kept his feast every year. Wanting to die was never the virtue we
+  named. The virtue we named in those soldiers was refusing to deny the
+  faith when denial was the one way out.
 positions:
-- the Forty of Sebaste's own tradition includes one who broke under the cold and one who took his place,
-  held together honestly rather than smoothed into pure heroism
-- martyrdom in this world's own record is consistently framed as refusal under threat, not as death
-  sought for its own sake
+- The Forty of Sebaste's story has one who broke in the cold and one who took his place. We kept both
+  in the story. We did not smooth it into pure heroism.
+- martyrdom in this world's own record is framed as refusal under threat, not as death sought for its
+  own sake
 tensions:
 - the specific passion details (the lake, the guard's change of heart) are tradition, preached within a
   century of the events, not eyewitness reporting - we hold them at that strength, not higher
 use_note:
-  means: "This witness says martyrdom meant refusing to deny the faith under threat, citing the Forty of Sebaste and Eupsychius, not seeking death."
+  means: This witness says martyrdom meant refusing to deny the faith under threat, as the Forty of Sebaste
+    did, not seeking death; it also names Eupsychius, whose feast was kept.
   not_for:
-    - "the lake and the guard's conversion as eyewitness reporting rather than preached tradition"
-    - "the Forty of Sebaste as martyred within this world's own span, when tradition places them before it"
-    - "a claim that this world's members faced routine execution"
-  years: {from: 320, to: 362}
+  - the lake and the guard's conversion as eyewitness reporting rather than preached tradition
+  - the Forty of Sebaste as martyred within this world's own span, when tradition places them before it
+  - a claim that this world's members faced routine execution
+  years:
+    from: 320
+    to: 362
   status: reviewed
 ---
 Closes F6-E on the martyrdom-death-wish variant, the strongest fit for

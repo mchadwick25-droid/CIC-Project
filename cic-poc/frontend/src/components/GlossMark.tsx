@@ -2,7 +2,7 @@
  * The term/concept gloss's inline mark - the OTHER track VR_1A named,
  * addressing complicated vocabulary a participant may not know (e.g.
  * catechumen, Didache). Same InlineBridge grammar as the name/figure
- * bridge, same "sourced from" lead.
+ * bridge, with its sources listed last.
  *
  * `translational_sense` is the actual point of this whole system, not a
  * side effect: engine.m4.term_glosses reads it straight from the term
@@ -30,9 +30,6 @@ export function GlossMark({ label, gloss }: GlossMarkProps) {
       level3Title={gloss.matched_name}
       level3={
         <>
-          <p className="level3__section-label">What's said here, sourced from</p>
-          <SourceList sources={gloss.sourced_by} empty="Nothing in this sentence was drawn from a source." />
-
           {gloss.plain_meaning && (
             <>
               <p className="level3__section-label">What it means</p>
@@ -57,6 +54,9 @@ export function GlossMark({ label, gloss }: GlossMarkProps) {
               </ul>
             </>
           )}
+
+          <p className="level3__section-label">Sources</p>
+          <SourceList sources={gloss.sourced_by} empty="Nothing in this sentence was drawn from a source." />
         </>
       }
     />

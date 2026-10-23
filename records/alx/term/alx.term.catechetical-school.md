@@ -68,12 +68,8 @@ senses:
     text), not ancient History text itself, or refers to a different Didymus, the addressee of
     Dionysius''s letters at HE VII.11/VII.20; Didymus is instead attested here by Socrates, HE IV.25,
     Palladius, Lausiac History ch. IV, and Jerome, De Viris Illustribus 109.'
-  personal: A student who found a teacher whose formed wisdom they could see, and read Scripture beside
-    them, was genuinely being taught - whatever the answer to the institutional question turns out to be.
-  translational: >-
-    Wasn't the "Catechetical School of Alexandria" a documented ancient university, with a founding date
-    and a faculty? What is actually attested is looser and more personal - teachers, students, and a
-    remembered line of names; the institutional form is a live historical question, not a settled fact.
+  personal: "A student who found a teacher with visible wisdom, and read Scripture beside that teacher, was truly being taught. This held whatever the answer to the question of a formal school."
+  translational: "Wasn't the \"Catechetical School\" a real university, with a founding date and a faculty? The sources show less. They show teachers, students, and a remembered line of names. Whether a formal school stood behind them is still argued."
 quick_meaning: Real teachers and real students - whether it was a formal school is disputed.
 distortion_risk: high
 use_note:

@@ -16,23 +16,25 @@ confidence:
     of invocation.
 sources:
 - source_id: witt.source.luther-disputation-on-the-power-and-efficacy
-  locus: the Ninety-Five Theses, cited among this entry's Registry rows (Doc_06 SS5 entry 8.7)
+  locus: the Ninety-Five Theses
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism -- 'if he was afraid of fire, he chose St. Lawrence as his helper in need'
+  locus: >-
+    the Large Catechism -- 'if he was afraid of fire, he chose St. Lawrence as his helper in need'
   license: public-domain
 - source_id: witt.source.luther-ein-neues-lied-wir-heben
-  locus: Hymn V, cited among this entry's Registry rows (Doc_06 SS5 entry 8.7)
+  locus: Hymn V
   license: public-domain
 - source_id: witt.source.luther-selections-from-the-table-talk
   locus: the Table Talk -- 'Fie on thee, Leonard' (Contested as verbatim)
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession -- 'the memory of saints may be set before us, that we may follow their
-    faith and good works'
+  locus: >-
+    the Augsburg Confession -- 'the memory of saints may be set before us, that we may follow their faith
+    and good works'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology, read this pass -- 'from invocation the next step was to images'
+  locus: the Apology -- 'from invocation the next step was to images'
   license: public-domain
 retrieval:
   tier: 2

@@ -1,0 +1,29 @@
+source_file: rilliet_calvin-and-servetus_tweedie1846.txt
+
+assignments:
+  - row_id: rilliet_calvin-and-servetus_tweedie1846--calvin-and-servetus
+    work: "Calvin and Servetus: the Reformer's Share in the Trial of Michael Servetus (Rilliet, trans. Tweedie, 1846)"
+    author: rilliet
+    locus: "Contents from file line 62; translated extracts from the Geneva Registers introduced by the translator's note at 3588; a footnote at 6574 on where the parts of the written debate are found translated"
+    atlas_ids:
+      - anti-trinitarian-currents-servetus-polish-brethr
+    role: context
+    confidence: assigned
+    note: >
+      Nineteenth-century scholarship, not a primary source: a Genevan
+      historian's narrative of the 1553 process with English translations
+      of extracts from the Geneva registers and of the debate. The nearest
+      public-domain English to the French and Latin trial papers in
+      calvin_opera-omnia-vol8-lat-fra_baum-cunitz1870.txt. Clean OCR.
+  - row_id: rilliet_calvin-and-servetus_tweedie1846--calvin-and-servetus-2
+    work: "Calvin and Servetus: the Reformer's Share in the Trial of Michael Servetus (Rilliet, trans. Tweedie, 1846)"
+    author: rilliet
+    locus: "Contents from file line 62; translated Geneva register extracts from 3588"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: context
+    confidence: provisional
+    note: >
+      The Genevan historian's account of how the Geneva council and Calvin
+      handled the 1553 process, for the Reformed cities world. Placed on
+      subject and place; the Reformed cities thread decides its weight.

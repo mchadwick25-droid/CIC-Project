@@ -1,9 +1,10 @@
 export const deeperCopy = {
-  heading: 'Go deeper',
-  intro: 'Tokens pay for each new conversation and each round. Add more any time. Your conversation stays open.',
-  open: 'Go deeper',
+  heading: 'Get more conversations',
+  introHeld: 'Tokens pay for each new conversation and each round. Add more any time. Your conversation stays open.',
+  intro: 'Every conversation starts free. You have 550 free tokens every 30 days: 50 to launch a new conversation, 20 to 25 for each question.',
+  open: 'Get more conversations',
   close: 'Close',
-  getMore: 'Get more tokens',
+  getMore: 'Get more conversations',
   haveCode: 'I have a code',
   low: 'Your tokens are running low.',
   fieldLabel: 'Your code',
@@ -19,6 +20,7 @@ export const deeperCopy = {
   showCode: 'Show my code',
   hideCode: 'Hide my code',
   yourCode: (code: string) => `Your code is ${code}. Keep it safe. Enter it on another device to use your tokens there.`,
+  left: (n: number) => `${n.toLocaleString('en-US')} tokens left`,
   balance: (n: number) => `${n.toLocaleString('en-US')} tokens left.`,
   freeLeft: (n: number) => `${n.toLocaleString('en-US')} free tokens left.`,
 };

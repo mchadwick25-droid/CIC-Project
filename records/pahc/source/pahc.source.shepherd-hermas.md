@@ -16,6 +16,7 @@ sources: []
 author: "Hermas (Rome; names himself as narrator and recipient of the visions in his own text)"
 work: "The Shepherd of Hermas; composite, multi-stage composition roughly 90-150 CE (Brox, Leutzsch, Osiek) - no single date can be assigned to the whole work; the traditional mid-2nd-century date rests partly on the Muratorian Fragment's 'brother of Pius' claim, itself undercut if Sundberg/Hahneman's 4th-century-Eastern dating of the Fragment is right"
 edition: "Ante-Nicene Fathers vol. 2 (1885), trans. F. Crombie, vendored as cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml (div1 ii, 'The Pastor of Hermas')"
+citation: The Shepherd of Hermas, trans. F. Crombie, Ante-Nicene Fathers vol. 2 (1885)
 kind: vendored
 rights_status: public-domain
 attribution_status: self-attested
@@ -30,7 +31,7 @@ documented forgery-adjacent complication in its transmission, the
 Simonides episode of 1855-56; P.Mich. 129 for Similitudes 2-9; Bodmer 38
 for Visions 1-3; the ending of Similitudes 9-10 rests on Latin alone).
 Cited as scripture by Irenaeus, Clement of Alexandria, and Origen;
-included in Codex Sinaiticus; later excluded by Athanasius - its
+included in Codex Sinaiticus; later placed by Athanasius outside the canon, among books read to newcomers - its
 canonical status was genuinely fluid.
 
 WEIGHT: Strand B's second witness - Vision 2.4.3's plural "presbyters

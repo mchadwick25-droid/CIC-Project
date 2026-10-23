@@ -16,23 +16,25 @@ confidence:
     by this word.
 sources:
 - source_id: witt.source.luther-disputation-on-the-power-and-efficacy
-  locus: the Ninety-Five Theses, Thesis 62 -- 'the true treasure of the Church is the Most Holy Gospel'
+  locus: >-
+    the Ninety-Five Theses, Thesis 62 -- 'the true treasure of the Church is the Most Holy Gospel'
   license: public-domain
 - source_id: witt.source.luther-treatise-on-christian-liberty
-  locus: Christian Liberty, cited among this entry's Registry rows (Doc_06 SS5 entry 3.2)
+  locus: Christian Liberty
   license: public-domain
 - source_id: witt.source.luther-earnest-exhortation-for-all-christians-warning
-  locus: Earnest Exhortation, cited among this entry's Registry rows (Doc_06 SS5 entry 3.2)
+  locus: Earnest Exhortation
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism, cited among this entry's Registry rows (Doc_06 SS5 entry 3.2)
+  locus: the Large Catechism
   license: public-domain
 - source_id: witt.source.luther-four-hymnal-prefaces-to-walters-gesangb
   locus: the hymnal prefaces -- 'the blessed Gospel, which by God's grace hath again risen'
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession VII -- the Church as 'the congregation of saints, in which the Gospel
-    is rightly taught'
+  locus: >-
+    the Augsburg Confession VII -- the Church as 'the congregation of saints, in which the Gospel is rightly
+    taught'
   license: public-domain
 retrieval:
   tier: 2
@@ -58,15 +60,18 @@ world_word: the Gospel -- 'the true treasure of the Church,' risen again in our 
 false_friend:
 - '''the Gospel'' heard as the four biblical books, or as Christianity in general'
 senses:
-  informational: '''The true treasure of the Church is the Most Holy Gospel of the glory and the grace
-    of God'' -- set against the pope''s treasury of pardons. It is what our own Church is defined by:
-    ''the congregation of saints, in which the Gospel is rightly taught.'' We believe we have recovered
-    it: ''the blessed Gospel, which by God''s grace hath again risen.'''
+  informational: >-
+    'The true treasure of the Church is the Most Holy Gospel of the glory and the grace of God' -- set
+    against the pope's treasury of pardons. It is what our own Church is defined by: 'the congregation
+    of saints, in which the Gospel is rightly taught.' We believe we have recovered it: 'the blessed Gospel,
+    which by God's grace hath again risen.'
   evidential: Attested from the founding Theses through the confession's own definition of the Church.
-  personal: This is the treasure the indulgence-sellers had buried, and a light we experienced as risen
-    again in our own lifetime.
-  translational: Do not hear 'the Gospel' as the four books or Christianity in general; we mean the specific
-    promise of forgiveness for Christ's sake.
+  personal: >-
+    This is the true treasure of the Church, set against the pope's treasury of pardons. We believed it
+    had risen again in our own lifetime.
+  translational: >-
+    Do not hear 'the Gospel' as the four books or Christianity in general; we mean the specific promise
+    of forgiveness for Christ's sake.
 quick_meaning: 'The good news of Christ: forgiveness for his sake. Our own treasure, risen again.'
 distortion_risk: high
 use_note:

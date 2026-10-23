@@ -59,7 +59,7 @@ claim_guards:
 names:
 - name: Doctor Martin Luther
   tag: in-world
-- name: Martin Luther (letter dated 1517; no birth or death date attested in this library)
+- name: Martin Luther (letter to Albrecht of Mainz dated 1517)
   tag: scholarly
 dates:
   display: Directly attested in this library's own sources from 31 October 1517 (the letter to Albrecht)
@@ -67,10 +67,12 @@ dates:
     is understood to run into 1546, per this world's own already-established closing boundary - a boundary
     this record treats as given, not independently re-derived from any source of its own.
 narratable: true
-bridge_line: The friar who wrote privately to an archbishop about indulgences in 1517, stood before a
-  cardinal and then an emperor rather than take his own words back, came home from hiding to preach his
-  own congregation back from its excesses, wrote a ballad for two young monks burned at Brussels, worked
-  out a German Mass tone by tone with his own musician, and led his whole town in prayer through a drought.
+bridge_line: >-
+  The friar who wrote privately to an archbishop about indulgences in 1517. He is remembered standing
+  before a cardinal and then an emperor rather than take back his words, and after hiding, he came home
+  to preach his congregation back from its excesses. He wrote a ballad for two young monks burned at Brussels,
+  and he worked out a German Mass tone by tone with his musician. He also led his town in prayer through
+  a drought.
 relations:
 - type: associated-with
   target: witt.story.letter-to-albrecht-and-theses-circulation

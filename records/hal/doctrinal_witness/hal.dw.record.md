@@ -27,18 +27,16 @@ text: >-
   First and above everything, we had the writings about Jesus. The
   Gospels and the whole of scripture were copied, compared, corrected,
   and translated from the Hebrew we held truest - the Hebraica veritas.
-  Nothing was received passively. We worked over the text word by word,
-  because we believed the writings were the true treasure handed down,
-  worth a lifetime of exactness. More than three and a half centuries
-  stood between us and the events. No one among us had ever known an
-  eyewitness, and no one pretended otherwise. Our confidence stood on
-  three things: the apostles' writings as received, the unbroken worship
-  of the churches, and - unusually - the places themselves. We could
-  walk to the cave of the birth. The land itself we treated as a kind of
-  witness, and our founders crossed the sea to live inside it. We knew
-  the resurrection really happened from the writings we trusted enough
-  to spend a life correcting. We knew it from a hope strong enough that
-  people gave away fortunes on it.
+  We worked over the text word by word, because we believed the writings
+  were the true treasure handed down, worth a lifetime of exactness.
+  More than three centuries stood between us and the events. Our
+  confidence stood on three things: the apostles' writings as received,
+  the worship of the churches, and - unusually - the places themselves.
+  We could walk to the cave of the birth. The land itself we treated as
+  a kind of witness, and our founders crossed the sea to live inside it.
+  We held the resurrection to be true on the strength of the writings we
+  trusted enough to spend a life correcting, and on a hope strong enough
+  that people gave away fortunes on it.
 positions:
 - the scriptures are the deposit about Jesus, and their exact wording matters enough to
   spend a life on

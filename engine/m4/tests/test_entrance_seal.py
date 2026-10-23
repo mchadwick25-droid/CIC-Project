@@ -60,3 +60,15 @@ def test_open_session_omits_visitor_id_when_not_given(tmp_path):
     sid = str(uuid.uuid4())
     _open(store, sid)
     assert "visitor_id" not in store.read_events(sid)[0].payload
+
+
+def test_open_session_marks_internal_only_when_true(tmp_path):
+    store = Store(tmp_path / "events.db")
+    marked, plain = str(uuid.uuid4()), str(uuid.uuid4())
+    open_session(
+        store, session_id=marked, event_uuid=str(uuid.uuid4()), world_key="fix", mode="interview", frame=None,
+        code_hash="deadbeef", package_manifest_hash="sha256:deadbeef", internal=True,
+    )
+    _open(store, plain)
+    assert store.read_events(marked)[0].payload["internal"] is True
+    assert "internal" not in store.read_events(plain)[0].payload

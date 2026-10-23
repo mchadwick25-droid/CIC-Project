@@ -59,25 +59,30 @@ name: "The late-Roman army and civil rank as the 'before' of every founding biog
 kind: initiating
 matrix_cell: 1A
 description: >-
-  Each founding narrative at each house begins with a departure from Roman service or rank. Martin,
-  a soldier, is discharged before Caesar at the moment the barbarians were rushing within the two
-  divisions of Gaul: he tells Caesar that he has served him as a soldier, and asks leave to become
-  a soldier of God, since he is the soldier of Christ and it is not lawful for him to fight (Vita
-  IV). Vincent comes from the manifold and deplorable tempests of secular warfare to cast anchor in
-  the harbour of religion (Comm. ch. 1). Honoratus and his brother, in Hilary's Latin, could not
-  reach obscurity because their nobility would not permit it. Cassian's junior at Marseilles is a
-  man whose worldly clothes the steward keeps until, by different trials, they can recognize the
-  excellence of his progress and life and endurance (Inst. IV.6). The renunciant did not stop being
-  a soldier; he changed service. He had taken the oath of allegiance to Christ, as he had once taken
-  Caesar's; his dress was armour and his day a campaign; a fault was a combat and cooling was
-  desertion. The world he left was kept in a cupboard against the day he might want it back. Rank,
-  too, had to be forced down: nobles had forced themselves down to this same degree of humility
-  (Vita X). FORMATION IMPACT (Layer 3): gave both nodes their idiom (G8 - literal at Tours,
-  dress-mysticism at Marseilles) and gave G1 its first half, the entry act of renunciation. It made
-  the formed person's self-understanding a change of allegiance rather than a change of nature - the
-  north's biography hinges on a discharge, the south's manual opens by calling a monk a soldier of
-  Christ. It is also the reason the world's withdrawal is modest and its exit an office: a man who
-  changes service does not leave the service; he can be posted.
+  At Tours, the founding story begins with a discharge from the army. Hilary's Latin, which survives
+  only in a rough copy, tells the same of the nobles of Lérins. The rule the south received
+  kept a novice's worldly clothes in case he left.
+
+  Martin, a soldier, was discharged before Caesar at the moment the barbarians were rushing within
+  the two divisions of Gaul. He told Caesar that he had served him as a soldier. He asked leave to
+  become a soldier of God. He was the soldier of Christ, he said, and it was not lawful for him to
+  fight (Vita IV). Vincent came from the manifold and deplorable tempests of secular warfare to cast
+  anchor in the harbour of religion (Comm. ch. 1). Honoratus and his brother, in Hilary's Latin,
+  could not reach obscurity because their nobility would not permit it. In the rule Cassian set
+  down, the steward keeps a novice's worldly clothes. He keeps them until, by different trials,
+  they can recognize the excellence of his progress and life and endurance (Inst. IV.6).
+
+  The renunciant did not stop being a soldier; he changed service. He had taken the oath of
+  allegiance to Christ, as he had once taken Caesar's. His dress was armour and his day a campaign.
+  A fault was a combat, and cooling was desertion. The world he left was kept by the steward against
+  the day he might want it back. Rank, too, had to be forced down: nobles had forced themselves down
+  to this degree of humility (Vita X).
+
+  This force gave both houses the idiom of the soldier of Christ. It was literal at Tours and worked
+  into dress at Marseilles. It also gave the monk-bishop pattern its first step, the act of
+  renunciation. The formed person saw himself as changing allegiance, not changing nature. The
+  north's Life hinges on a discharge. The south's manual opens by calling a monk a soldier of
+  Christ.
 manifestations:
 - "Martin's discharge before Caesar - 'allow me now to become a soldier to God' (Vita IV) - the biography's hinge"
 - "Vincent's harbour reached out of 'the tempests of secular warfare' (Comm. ch. 1 [2])"

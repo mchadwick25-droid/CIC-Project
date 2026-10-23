@@ -33,3 +33,36 @@ assignments:
       same text is role context instead: this world's own doctrinal
       anchor as the Jesuits implemented it, not the Society's own
       composed voice.
+
+  - row_id: council-of-trent_canons-and-decrees_waterworth1848--canons-and-decrees-borromean-milan
+    work: The Canons and Decrees of the Sacred and Oecumenical Council of Trent
+    author: council-of-trent
+    locus: whole volume; the reform decrees of Sessions XXI-XXV (seminaries, residence, visitation, synods)
+      are the parts the Milan legislation executes
+    atlas_ids:
+    - tridentine-parish-renewal-borromean-milan
+    role: antecedent
+    confidence: assigned
+    note: 'The authority this world''s own legislation argues from: the Acta Ecclesiae Mediolanensis names
+      the Council of Trent 256 times and frames its councils and synods as carrying out Trent''s decrees.
+      Antecedent, not tradition: Trent is the-tridentine-church''s own voice (native claim there, per the
+      Tridentine dossier), and the Borromean texts are its application to one province.
+
+      '
+
+  - row_id: council-of-trent_canons-and-decrees_waterworth1848--session-xxv-on-regulars-and-nuns
+    work: Canons and Decrees of the Council of Trent, Session XXV, Decree on Regulars and Nuns (property,
+      revenues, enclosure of nuns)
+    author: council-of-trent
+    locus: Session XXV from line 21861; "ON REGULARS AND NUNS" at line 22049; chapter II on property at
+      line 22099; the chapter permitting real property at about line 22140; chapter V on the enclosure of
+      nuns at line 22208
+    atlas_ids:
+    - carmelite-reform-and-spanish-mystics
+    role: antecedent
+    confidence: provisional
+    note: The vendored Teresa texts argue from this decree by name. In the Foundations (teresa-of-avila_book-of-foundations_lewis1913.txt)
+      she reports that the Council allowed convents to hold revenues and founds with an endowment on that
+      ground (lines 7135-7140 and 11413), a hermit group is swept into the orders by the Council (line 10025),
+      and the editor cites the decree on enclosure (line 7312). That meets the antecedent rule (the entry's
+      own sources argue from the text). Provisional until a build reads the decree against her passages.

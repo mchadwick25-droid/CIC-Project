@@ -35,9 +35,8 @@ text: >-
   simple story both ways. The empire backed Nicaea, and exiled him five
   times for defending it. Imperial favor built churches, and imperial
   politics filled them with rival bishops. The record does not show
-  purity corrupted. It shows power arriving with both hands. It brought
-  protection and interference at once. And it shows a church that had
-  chosen neither, learning to survive both.
+  purity corrupted. It shows power arriving. It brought protection and
+  interference at once. And it shows a church learning to survive both.
 positions:
 - the pre-Constantinian church's authority was persuasion under intermittent lethal pressure
 - After 325 the church gained protection and lost its distance from power. Both are documented.

@@ -35,8 +35,8 @@ relations:
   target: rzg.contested.sign-and-the-thing-signified
 - type: associated-with
   target: rzg.witness.one-supper-two-poles
-plain_meaning: In 1549, Zurich and Geneva agreed on exact words for the Lord's Supper. We distinguish
-  the bread from the reality it points to. We never disjoin the two. This settled, in words, what neither
+plain_meaning: In 1549, Zurich and Geneva agreed on exact words for the Lord's Supper. We distinguished
+  the bread from the reality it points to. We never disjoined the two. This settled, in words, what neither
   city's own earlier statement had settled alone.
 world_word: Sign and the Thing Signified
 false_friend:
@@ -54,16 +54,15 @@ senses:
     own two signatories - the Ministers of the Church of Zurich, and John Calvin, Minister of the Church
     of Geneva - stood behind it together, each recognizing in the other's own confession something they
     could not disown as their own.
-  personal: Whether this formula is a genuine theological synthesis or a diplomatically elastic form of
-    words is a live contest we do not settle ourselves. But we did not treat it as empty diplomacy when
-    we signed it. It was the specific, hard-won language each side judged it could actually mean, not
-    merely sign.
+  personal: Whether this formula was a true synthesis or a form of words stretched for diplomacy is a live
+    question that we do not settle ourselves. But we did not treat it as empty diplomacy when we agreed
+    to it. Each side judged that it could mean these words.
   translational: That very suspicion - that this was more compromise than conviction - is a real, unresolved
     question about our own record, not one we can wave away. What we can say is that neither side treated
     the words as empty.
-quick_meaning: The exact words both our cities agreed to in 1549. We distinguish the bread from the reality
-  it points to, but never separate the two. Whether this was real agreement or careful diplomacy is a
-  live, unsettled question in our own record.
+quick_meaning: The exact words our cities agreed to in 1549. We told the bread apart from the reality
+  it points to, but never split the two. Whether this was real agreement or careful diplomacy is a live
+  question in our record.
 distortion_risk: high
 use_note:
   means: "In 1549 Zurich and Geneva agreed words for the Lord's Supper that distinguish the bread from the reality it points to without ever disjoining the two."

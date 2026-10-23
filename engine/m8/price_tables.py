@@ -124,8 +124,7 @@ def route_factor(provider: str, model_id: str) -> float:
 
 
 def price_for_route(call_kind: str, model_id: str, provider: str) -> PriceTable | None:
-    """price_for_call scaled to what the route bills. The door keeps calling
-    price_for_call (list price) and applies its own invoice factor."""
+    """price_for_call scaled to what the route bills."""
     table = price_for_call(call_kind, model_id)
     factor = route_factor(provider, model_id)
     if table is None or factor == 1.0:
@@ -138,3 +137,16 @@ def price_for_route(call_kind: str, model_id: str, provider: str) -> PriceTable 
         cache_read_per_token=table.cache_read_per_token * factor,
         source=f"{table.source}; x{factor} Bedrock regional-profile premium (Billing Audit measurement)",
     )
+
+
+_APPROVED = (SONNET_4_5_PRICE_TABLE, SONNET_5_5_PRICE_TABLE, OPUS_5_5_PRICE_TABLE, HAIKU_4_5_PRICE_TABLE)
+
+# What a call on a model with no approved price is counted at, so an unpriced model can
+# only make a total larger.
+DEAREST = PriceTable(
+    input_per_token=max(t.input_per_token for t in _APPROVED),
+    output_per_token=max(t.output_per_token for t in _APPROVED),
+    cache_write_per_token=max(t.cache_write_per_token for t in _APPROVED),
+    cache_read_per_token=max(t.cache_read_per_token for t in _APPROVED),
+    source="the dearest approved price in each category, for a call whose model has no approved row",
+)

@@ -1,0 +1,79 @@
+source_file: perrin_history-ancient-christians-valleys-alps_1847.txt
+
+authors_ruled:
+  boyer:
+    kind: metadata-omission
+    evidence: >
+      The volume's own preface to its Part III (file lines 17058-17083) says
+      the History of the Vaudois is 'given from Boyer' with additions from
+      Henri Arnaud, and the host catalogue names only Perrin; the author of
+      Part III is Pierre Boyer, The History of the Vaudois (London, 1692),
+      supplied here from the volume's own statement.
+    from_file: perrin_history-ancient-christians-valleys-alps_1847.txt
+
+assignments:
+  - row_id: perrin_history-ancient-christians-valleys-alps_1847--perrin-history-of-the-old-waldenses-and-albigenses-english
+    work: "History of the Old Waldenses anterior to the Reformation and History of the Old Albigenses, with the third part on their doctrine, discipline and catechism (Perrin, in the English translation first printed 1624; Philadelphia 1847)"
+    author: perrin
+    locus: "Part I Book I at line 1489, Book II at line 3782; Part II Book I at line 8031, Book II at line 10422, Book III at line 12950; the doctrine and discipline part with the catechism in eight parts from line 13080 to the Part III title page before line 17058; the 1532 resolution and the synod with Farel around lines 5232-5698"
+    atlas_ids:
+      - the-waldensian-reformed-union
+    role: tradition
+    confidence: assigned
+    note: >
+      The English of Perrin's 1619 history, from the 1624 London translation
+      (reprinted at Philadelphia with a letter by Samuel Miller). Perrin wrote
+      for the valleys' synod inside the window. The French of Part I is in
+      perrin_histoire-des-vaudois-fra_1619.txt; this file is the only
+      witness in the corpus to Parts II and III. OCR clean; ready to quote
+      once verified against the page image, noting it is a translation.
+  - row_id: perrin_history-ancient-christians-valleys-alps_1847--perrin-history-of-the-old-waldenses-and-albigenses-english-2
+    work: "History of the Old Waldenses anterior to the Reformation (Perrin, English), with the ancient catechism and discipline"
+    author: perrin
+    locus: "Part I from line 1489; the catechism and discipline from line 13080"
+    atlas_ids:
+      - waldensians-in-the-alps
+    role: tradition
+    confidence: provisional
+    note: >
+      Perrin's account of the fifteenth-century valleys and his English
+      rendering of the ancient catechism. The same later-than-window question
+      as the French file. Provisional, read in part.
+  - row_id: perrin_history-ancient-christians-valleys-alps_1847--perrin-history-of-the-old-waldenses-and-albigenses-english-3
+    work: "History of the Old Waldenses anterior to the Reformation (Perrin, English), Book I on Waldo and the origins"
+    author: perrin
+    locus: "Part I Book I from line 1489"
+    atlas_ids:
+      - the-waldensians
+    role: context
+    confidence: provisional
+    note: >
+      A 1619 Reformed account of Waldo in English. Context for the origins
+      entry.
+  - row_id: perrin_history-ancient-christians-valleys-alps_1847--perrin-history-of-the-old-waldenses-and-albigenses-english-4
+    work: "History of the Old Albigenses (Perrin, English), Part II Books I-III"
+    author: perrin
+    locus: "Part II Book I at line 8031 to the end of Book III after line 12950"
+    atlas_ids:
+      - cathars-albigensians
+    role: context
+    confidence: provisional
+    note: >
+      Perrin treats the Albigenses as Waldenses, a view the sources do not
+      support; a seventeenth-century Protestant reading of the crusade,
+      drawn from the monk of Vaux-de-Cernay and other chroniclers. Context
+      only, placed on the subject without reading the books.
+  - row_id: perrin_history-ancient-christians-valleys-alps_1847--boyer-history-of-the-vaudois-with-additions-from-arnaud
+    work: "History of the Vaudois (Pierre Boyer, 1692, with additions from Henri Arnaud), Part III of the volume, Books I-III"
+    author: boyer
+    locus: "Part III preface from line 17058, Book I at line 17199, Book II at line 21221, Book III at line 23363 to the end of the file; the persecution of 1655 in Book II"
+    atlas_ids:
+      - the-waldensian-reformed-union
+    role: context
+    confidence: assigned
+    note: >
+      A French Protestant minister's English narrative of the valleys from
+      their origin through 1655 and 1686 to the return of 1689, written in
+      the London refuge. Outside voice, after the window, but the one
+      public-domain English narrative that carries 1655 and its sequel in
+      one place. The 1689 journal near the end is garbled in the OCR.

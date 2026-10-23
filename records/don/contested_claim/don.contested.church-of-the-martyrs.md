@@ -18,25 +18,24 @@ sources:
     witnesses argue against on two different questions
   license: public-domain
 - source_id: don.source.optatus-against-the-donatists
-  locus: cic/texts/optatus_against-the-donatists.txt, lines 2064-2096 - the argument that the deaths were
-    deserved punishment for schism, on the model of Phineas, Moses and Elijah
+  locus: 'Book III: the argument that the deaths were deserved punishment for schism, on the model of Phineas, Moses and Elijah'
   license: public-domain
 - source_id: don.source.augustine-answer-to-petilian
   locus: Answer to the Letters of Petilian II.45-46 - the separate and different dispute over whether the
     deaths were self-sought, and so whether the word martyr applies at all
   license: public-domain
 - source_id: don.source.passio-donati-sermon
-  locus: the earliest Donatist-authored text in this corpus; its admonitio describing an annual commemoration
+  locus: 'the sermon on the anniversary day kept for the dead'
   license: public-domain
 - source_id: don.source.deo-laudes-acclamation
   locus: CIL VIII 17732, with 20482, 17368, 18669 - the acclamation cut in stone, never textual to begin
     with
   license: public-domain
 claim: >-
-  We are the Church of the Martyrs: the pure, persecuted, true church, and what we have suffered is the
-  proof that the claim is sincerely held rather than asserted for advantage. Our dead are held by name,
-  at the grave, on the appointed day, their accounts read aloud - and the community that produced Marculus
-  and Isaac and Maximianus is not the community that surrendered the scriptures.
+  We saw ourselves as the pure, persecuted, true church: the church of the martyrs. What we have suffered
+  proves that the claim is sincerely held. It is not asserted for advantage. Our dead are held by name, at
+  the grave, on the appointed day. Their accounts are read aloud. The community that produced Marculus and
+  Isaac and Maximianus is not the community that surrendered the scriptures.
 held_against:
 - Optatus concedes the killings and denies their meaning. Arguing on the model of Phineas, Moses and Elijah,
   he reads the deaths of Marculus and Donatus as deserved punishment for schism rather than as martyrdom

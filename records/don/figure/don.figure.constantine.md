@@ -35,8 +35,8 @@ dates:
     that year and a council at Arles in 314; he orders the inquiry into Felix of Aptungi that concludes
     in 314 or 315; coercive measures follow
 narratable: true
-bridge_line: The emperor our own side petitioned in 313 and then spent a century refusing to recognise
-  as a judge of the church at all.
+bridge_line: The emperor our side petitioned in 313. For a century after that, we refused to accept
+  the emperor as a judge of the church at all.
 relations:
 - type: associated-with
   target: don.story.acta-purgationis-felicis

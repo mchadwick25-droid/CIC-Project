@@ -20,6 +20,7 @@ author: Augustine of Hippo
 work: The Correction of the Donatists (De correctione Donatistarum, Letter 185, c. 417), addressed to
   the tribune Boniface
 edition: Nicene and Post-Nicene Fathers, Series I, vol. IV, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml
+citation: Augustine of Hippo, The Correction of the Donatists (De correctione Donatistarum, Letter 185), Nicene and Post-Nicene Fathers, Series I, vol. IV
 kind: vendored
 rights_status: "public-domain; vendored as part of the shared patristic library, rights basis established (the file's own provenance header states Public Domain)"
 attribution_status: attributed

@@ -22,6 +22,7 @@ author: Basil of Caesarea (contested; see attribution_status)
 work: Basil, canonical Epistle 38 (on ousia/hypostasis) -- this world's flagship Tier 1 lexicon citation
 edition: 'Nicene and Post-Nicene Fathers, 2nd series, vol. 8 (Basil: Letters and Select Works), ed. Schaff,
   vendored as cic/texts/npnf208_basil-letters-select-works.xml'
+citation: 'Basil of Caesarea (attribution contested), Epistle 38, on ousia and hypostasis, Nicene and Post-Nicene Fathers, 2nd series, vol. 8 (Basil: Letters and Select Works), ed. Schaff'
 kind: vendored
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: contested (transmitted under both Basil's and his brother Gregory of Nyssa's names;

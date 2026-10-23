@@ -24,6 +24,7 @@ author: William K. Boyd
 work: The Ecclesiastical Edicts of the Theodosian Code (Studies in History, Economics and Public Law,
   Columbia University, Vol. XXIV)
 edition: 'New York: Columbia University Press / Macmillan, 1905; vendored as cic/texts/boyd_ecclesiastical-edicts-theodosian-code_1905.txt'
+citation: 'William K. Boyd, The Ecclesiastical Edicts of the Theodosian Code, Studies in History, Economics and Public Law, Columbia University, Vol. XXIV (New York: Columbia University Press / Macmillan, 1905)'
 kind: vendored
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: attributed. Confirmed a genuine 1905 Columbia University monograph, bound together

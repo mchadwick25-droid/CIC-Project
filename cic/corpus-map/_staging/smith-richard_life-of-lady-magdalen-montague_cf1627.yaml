@@ -1,0 +1,18 @@
+source_file: smith-richard_life-of-lady-magdalen-montague_cf1627.txt
+
+assignments:
+  - row_id: smith-richard_life-of-lady-magdalen-montague_cf1627--life-of-lady-magdalen-viscountess-montague
+    work: "The Life of the Most Honourable and Vertuous Lady the La. Magdalen Viscountesse Montague (Smith's Latin Life of 1609 in the 1627 English translation by 'C. F.')"
+    author: smith-richard
+    locus: "whole volume: the translator's dedication to Viscount Montague, Smith's preface to the devout reader, the Life in chapters, closing with her death"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: tradition
+    confidence: assigned
+    note: >
+      SECOND WITNESS, not quotable from the file (Mark's OCR ruling): the
+      microfilm OCR is garbled throughout and no clean public-domain scan exists; the
+      long s has been normalised, nothing else. Vendored because the census names it and
+      it is the one contemporary life of a recusant noblewoman who kept a chaplained
+      Catholic household under Elizabeth and James, written by her confessor. Any quote must be verified against the archive.org page images before
+      use. The 1954 Southern edition is in copyright.

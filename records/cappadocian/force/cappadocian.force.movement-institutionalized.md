@@ -26,15 +26,15 @@ name: "The movement institutionalized [3B - ending/internal]"
 kind: ending
 matrix_cell: 3B
 description: >-
-  The ascetic movement's experimental phase closes as the brotherhood-form stabilizes: the Rules pass
-  from live question-and-answer toward fixed legislation; the communities become the church's normal
-  institutions and, increasingly, its leadership pipeline (Doc_08 Cell 3B, Force 3B-3). WORLD'S OWN
-  EXPERIENCE (Layer 2): what had been a fire and then a hearth became a house: the questions the brothers
-  once asked at meeting were now answers written in a book, and the young no longer remembered the years
-  when it was all being worked out. FORMATION IMPACT (Layer 3): ends Tensional 10/Gravity 10's live phase
-  (the ferment's energy domesticated); converts Primary 2/Gravity 2's experimental institution into the
-  successor age's standard equipment; the transition from argument to inheritance is the world's ending in
-  miniature.
+  The movement's time of trial and error closed as the brotherhood settled
+  into its form. The Rules moved from live question and answer toward fixed
+  law. The communities became the church's normal houses and, more and more,
+  the source of its leaders. Questions the brothers once asked at meetings
+  were now answers written in a book. The young no longer remembered the
+  years when it was all being worked out. This force ended the live phase of
+  the pull between giving things up and keeping order. It turned a trial
+  into the next age's standard tools. The move from argument to inheritance
+  mirrors the ending of the whole world.
 manifestations:
 - the Rules passing from live question-and-answer toward fixed legislation
 - the recension history from the Small Asketikon toward the Great Asketikon (Longer/Shorter Rules)

@@ -18,7 +18,7 @@ from engine.api.deeper_routes import DeeperConfigError, DeeperRuntime, Product, 
 from engine.deeper import codes
 from engine.deeper.claims import ClaimStore
 from engine.deeper.config import DeeperConfig
-from engine.deeper.meter import Meter
+from engine.deeper.meter import PILOT_ROLES, Meter
 
 FREE_KEY = "k" * 40
 SECRET = "whsec_test_secret"
@@ -105,11 +105,9 @@ def test_flag_off_mounts_no_deeper_route(store, usage_store, world_loader, regis
     assert http.post("/api/deeper/webhook", content=b"{}").status_code == 404
     assert http.post("/api/deeper/claim", json={"reference": REF}).status_code == 404
     assert http.get("/api/deeper/balance").status_code == 404
-    assert http.get("/api/deeper/door").status_code == 404
     assert http.post("/api/admin/deeper/pause", json={"on": True}, headers=admin()).status_code == 404
     assert http.get("/api/admin/deeper/reconciliation", headers=admin()).status_code == 404
     assert http.get("/api/admin/deeper/funds", headers=admin()).status_code == 404
-    assert http.get("/api/admin/deeper/door", headers=admin()).status_code == 404
     assert http.get("/api/admin/deeper/owed", headers=admin()).status_code == 404
     assert http.post("/api/admin/deeper/void", json={"payment_id": "pi_x"}, headers=admin()).status_code == 404
     assert http.get("/api/admin/deeper/measures", headers=admin()).status_code == 404
@@ -119,10 +117,11 @@ def test_flag_on_mounts_every_route(store, usage_store, world_loader, registry, 
     app = make_app(store, usage_store, world_loader, registry, deeper=runtime)
     paths = {getattr(r, "path", "") for r in app.routes}
     assert {
-        "/api/deeper/webhook", "/api/deeper/claim", "/api/deeper/balance", "/api/deeper/door",
+        "/api/deeper/webhook", "/api/deeper/claim", "/api/deeper/balance",
         "/api/admin/deeper/pause", "/api/admin/deeper/reconciliation",
-        "/api/admin/deeper/funds", "/api/admin/deeper/funds/{entry_id}/reverse", "/api/admin/deeper/door", "/api/admin/deeper/measures", "/api/admin/deeper/owed", "/api/admin/deeper/void",
+        "/api/admin/deeper/funds", "/api/admin/deeper/funds/{entry_id}/reverse", "/api/admin/deeper/measures", "/api/admin/deeper/owed", "/api/admin/deeper/void",
     } <= paths
+    assert not [p for p in paths if "door" in p]
 
 
 # ---- signature ---------------------------------------------------------------
@@ -574,7 +573,7 @@ def test_a_refunded_code_is_not_served_by_the_claim_route(http, runtime):
     assert claim(http).status_code == 404
 
 
-# ---- the door's funds: gifts, purchases and adjustments ------------------------------
+# ---- the funds: gifts, purchases and adjustments ------------------------------
 
 @pytest.fixture
 def gift_runtime(runtime):
@@ -690,65 +689,6 @@ def test_a_link_cannot_be_both_a_gift_and_a_product():
             deeper_routes.parse_gift_links(bad, products)
 
 
-# ---- the door's route and its wiring --------------------------------------------------
-
-def test_the_door_route_reports_nothing_without_a_door_and_the_state_with_one(http, runtime, tmp_path):
-    assert http.get("/api/admin/deeper/door", headers=admin()).json() == {"door": None}
-    from engine.deeper import door as door_module
-
-    class Stub:
-        def state(self):
-            return door_module.DoorState(stage=3, ratio=0.91234, ceiling_usd=150.0, table_free_rounds=0, free_voice=True, paid_voice=True)
-
-    runtime.door = Stub()
-    assert http.get("/api/admin/deeper/door", headers=admin()).json() == {
-        "door": {"stage": 3, "ratio": 0.912, "ceiling_usd": 150.0, "free_voice": True, "paid_voice": True, "observe": False}
-    }
-
-
-def test_the_door_route_needs_the_admin_credential(http):
-    assert http.get("/api/admin/deeper/door").status_code == 404
-    assert http.get("/api/admin/deeper/door", headers=admin("wrong")).status_code == 404
-
-
-def test_the_runtime_gets_a_door_only_when_given_the_usage_log(tmp_path):
-    from engine.m8.log_store import UsageLogStore
-
-    config = DeeperConfig(True, str(tmp_path / "m.db"), str(tmp_path / "c.db"))
-    env = {"CIC_DEEPER_WEBHOOK_SECRET": SECRET, "CIC_API_ANON_CAP_ENABLED": "1", "CIC_DEEPER_FREE_KEY": FREE_KEY}
-    without = deeper_routes.build_runtime(config, env)
-    assert without.door is None
-    without.meter.close()
-    without.claims.close()
-    config = DeeperConfig(True, str(tmp_path / "m2.db"), str(tmp_path / "c2.db"))
-    with_log = deeper_routes.build_runtime(config, env, usage_store=UsageLogStore(tmp_path / "usage.db"))
-    assert with_log.door is not None and with_log.door.state().stage == 0
-    with_log.meter.close()
-    with_log.claims.close()
-
-
-def test_a_restart_with_the_usage_log_down_still_finds_the_door_where_it_was_left(tmp_path):
-    from engine.api.deeper_door import STATE_KEY, _encode
-    from engine.deeper import door as door_module
-
-    meter_path = str(tmp_path / "m.db")
-    closed = door_module.DoorState(stage=4, ratio=0.97, ceiling_usd=150.0, table_free_rounds=0, free_voice=False)
-    first = Meter(meter_path)
-    first.set_state(STATE_KEY, _encode(closed))
-    first.close()
-
-    class Broken:
-        def read_since(self, _since):
-            raise RuntimeError("usage log down")
-
-    config = DeeperConfig(True, meter_path, str(tmp_path / "c.db"))
-    runtime = deeper_routes.build_runtime(config, {"CIC_DEEPER_WEBHOOK_SECRET": SECRET, "CIC_API_ANON_CAP_ENABLED": "1", "CIC_DEEPER_FREE_KEY": FREE_KEY}, usage_store=Broken())
-    state = runtime.door.state()
-    assert (state.stage, state.free_voice, state.table_free_rounds) == (4, False, 0)
-    runtime.meter.close()
-    runtime.claims.close()
-
-
 # ---- the standing measure's route ------------------------------------------------------------
 
 def test_the_measures_route_needs_the_admin_credential(http):
@@ -766,39 +706,6 @@ def test_the_measures_route_shows_daily_totals_and_the_reconciliation_and_no_key
     assert not any(word in json.dumps(body).lower() for word in ("session", "visitor", "hash"))
 
 
-def test_the_door_monitor_reports_each_stage_it_reaches_to_be_counted(tmp_path):
-    from datetime import datetime, timezone
-
-    from engine.api.deeper_door import DoorMonitor
-    from engine.api.deeper_ops import load_ops
-    from engine.m8.log_store import UsageLogStore
-
-    seen = []
-    monitor = DoorMonitor(
-        load_ops().door, UsageLogStore(tmp_path / "usage.db"), lambda: {},
-        clock=lambda: datetime(2026, 10, 5, tzinfo=timezone.utc), observe=lambda state: seen.append(state.stage),
-    )
-    monitor.state()
-    assert seen == [0]
-
-
-def test_a_measure_that_fails_never_touches_the_door(tmp_path):
-    from datetime import datetime, timezone
-
-    from engine.api.deeper_door import DoorMonitor
-    from engine.api.deeper_ops import load_ops
-    from engine.m8.log_store import UsageLogStore
-
-    def broken(_state):
-        raise RuntimeError("meter down")
-
-    monitor = DoorMonitor(
-        load_ops().door, UsageLogStore(tmp_path / "usage.db"), lambda: {},
-        clock=lambda: datetime(2026, 10, 5, tzinfo=timezone.utc), observe=broken,
-    )
-    assert monitor.state().stage == 0
-
-
 def test_the_dashboard_section_is_hidden_until_the_route_answers_and_names_every_measure():
     from pathlib import Path
 
@@ -811,51 +718,6 @@ def test_the_dashboard_section_is_hidden_until_the_route_answers_and_names_every
         assert f"refused_{reason}:" in page, reason
     for name in SUM_MEASURES:
         assert name in page or name.startswith("refused_"), name
-
-
-# ---- the public door line ----------------------------------------------------------------
-
-def _public_door(http, runtime, **fields):
-    from engine.deeper import door as door_module
-
-    from engine.api.deeper_ops import load_ops
-
-    runtime.ops = load_ops()
-
-    stage = fields.pop("stage", 1)
-
-    class Stub:
-        def state(self):
-            return door_module.DoorState(stage=stage, ratio=0.8, ceiling_usd=150.0, **fields)
-
-    runtime.door = Stub()
-    return http.get("/api/deeper/door")
-
-
-def test_the_public_door_line_is_silent_while_the_door_is_wide_open(http, runtime):
-    assert http.get("/api/deeper/door").json() == {"state": "open", "line": None}
-    assert _public_door(http, runtime, stage=0).json() == {"state": "open", "line": None}
-
-
-def test_the_public_door_line_says_limited_then_paused_in_mark_s_words(http, runtime):
-    limited = _public_door(http, runtime, solo_free_rounds=2)
-    words = runtime.ops.door_words
-    assert limited.json() == {"state": "limited", "line": words["limited"]}
-    paused = _public_door(http, runtime, stage=4, free_voice=False)
-    assert paused.json() == {"state": "paused", "line": words["paused"] + " " + words["code_still_works"]}
-
-
-def test_the_public_door_line_never_says_a_code_works_once_codes_are_refused(http, runtime):
-    body = _public_door(http, runtime, stage=5, free_voice=False, paid_voice=False).json()
-    assert body == {"state": "paused", "line": runtime.ops.door_words["paused"]}
-    assert "code" not in body["line"].lower()
-
-
-def test_the_public_door_line_carries_words_only_and_may_be_kept_a_minute(http, runtime):
-    response = _public_door(http, runtime, stage=4, free_voice=False)
-    assert set(response.json()) == {"state", "line"}
-    assert response.headers["cache-control"] == "public, max-age=60"
-    assert not any(key in response.text for key in ("ratio", "ceiling", "stage"))
 
 
 # ---- the balances owed ---------------------------------------------------------------------------
@@ -914,49 +776,6 @@ def test_the_webhook_refund_and_the_admin_void_do_the_same_thing(http, runtime):
     assert runtime.meter.status(code).status == "void"
 
 
-def test_in_observe_mode_the_public_door_line_says_nothing_even_at_a_closed_door(http, runtime):
-    runtime.door_observe = True
-    assert _public_door(http, runtime, stage=4, free_voice=False).json() == {"state": "open", "line": None}
-
-
-def test_the_admin_door_route_says_whether_the_door_is_only_observing(http, runtime):
-    from engine.deeper import door as door_module
-
-    class Stub:
-        def state(self):
-            return door_module.DoorState(stage=2, ratio=0.8, ceiling_usd=150.0)
-
-    runtime.door = Stub()
-    runtime.door_observe = True
-    assert http.get("/api/admin/deeper/door", headers=admin()).json()["door"]["observe"] is True
-
-
-def test_the_door_monitor_keeps_the_days_peak_stage_ratio_and_spend(runtime):
-    from engine.api.deeper_routes import _count_door
-    from engine.deeper import door as door_module
-
-    _count_door(runtime.meter, door_module.DoorState(stage=2, ratio=0.8, ceiling_usd=150.0))
-    _count_door(runtime.meter, door_module.DoorState(stage=1, ratio=0.5, ceiling_usd=150.0))
-    (day,) = runtime.meter.measures(1)
-    assert (day["door_stage"], day["door_ratio_permille"], day["door_spend_cents"]) == (2, 800, 12000)
-
-
-def test_a_runtime_built_for_real_keeps_the_doors_peaks_as_the_door_is_read(tmp_path):
-    from engine.m8.log_store import UsageLogStore
-
-    config = DeeperConfig(True, str(tmp_path / "m.db"), str(tmp_path / "c.db"))
-    env = {"CIC_DEEPER_WEBHOOK_SECRET": SECRET, "CIC_API_ANON_CAP_ENABLED": "1", "CIC_DEEPER_FREE_KEY": FREE_KEY}
-    rt = deeper_routes.build_runtime(config, env, usage_store=UsageLogStore(tmp_path / "usage.db"))
-    try:
-        assert rt.door_observe is True and rt.paid_round_cap == 40
-        rt.door.state()
-        (day,) = rt.meter.measures(1)
-        assert (day["door_stage"], day["door_ratio_permille"], day["door_spend_cents"]) == (0, 0, 0)
-    finally:
-        rt.meter.close()
-        rt.claims.close()
-
-
 # ---- admin mint (S13) ----------------------------------------------------------
 
 @pytest.fixture
@@ -1003,9 +822,9 @@ def test_mint_is_never_a_payment_or_a_sale(http, minting):
     assert minting.meter.owed() == []
 
 
-def test_mint_counts_toward_the_door_as_a_gift_of_the_packs_price(http, minting):
+def test_mint_counts_nothing_toward_the_funds(http, minting):
     mint(http, count=3)
-    assert minting.meter.net_funds(7)["gift"] == 2100
+    assert minting.meter.net_funds(7).get("gift", 0) == 0
 
 
 def test_mint_refuses_what_is_not_a_pack_a_bad_mode_or_too_much(http, minting):
@@ -1025,10 +844,10 @@ def test_mint_stops_at_the_days_token_limit_and_resets_tomorrow(tmp_path, http, 
     refused = mint(http, count=1)
     assert refused.status_code == 429
     assert minting.meter.reconciliation(1)[0]["admin_codes_minted"] == 2
-    assert minting.meter.net_funds(7)["gift"] == 6000
+    assert minting.meter.net_funds(7).get("gift", 0) == 0
 
 
-def test_a_mint_is_voided_by_its_id_and_its_gift_leaves_the_door(http, minting):
+def test_a_mint_is_voided_by_its_id(http, minting):
     made = mint(http, count=2).json()
     voided = http.post("/api/admin/deeper/void", json={"payment_id": made["mint_id"]}, headers=admin()).json()
     assert voided["voided"] == 2
@@ -1056,8 +875,8 @@ def test_a_grant_id_cannot_be_used_by_a_purchase_or_the_wrong_source(minting):
 
 def test_status_shows_the_live_day_read_only(http, minting):
     body = http.get("/api/admin/deeper/status", headers=admin()).json()
-    assert body["paused"] is False and body["door"] is None
-    assert body["free_grant"] == {"baseline_tokens": 550, "window_days": 30, "rounds_per_conversation": 3, "now_tokens": 550}
+    assert body["paused"] is False and "door" not in body
+    assert body["free_grant"] == {"baseline_tokens": 550, "window_days": 30, "now_tokens": 550}
     assert [p["price_usd"] for p in body["packs"]] == [7, 15, 30]
     assert body["mint_limits"] == {"tokens_per_request": 6600, "tokens_per_day": 13200}
     assert http.get("/api/admin/deeper/status").status_code == 404
@@ -1103,6 +922,110 @@ def test_the_grants_list_names_each_grant_without_its_codes(http, minting):
     assert http.get("/api/admin/deeper/grants").status_code == 404
 
 
+# ---- tester codes ----------------------------------------------------------------
+
+def make_tester(http, headers=None, **body):
+    return http.post("/api/admin/deeper/tester", json=body, headers=headers or admin())
+
+
+def test_a_tester_code_needs_the_admin_credential(http, minting):
+    assert http.post("/api/admin/deeper/tester", json={}).status_code == 404
+    assert make_tester(http, headers=admin("wrong")).status_code == 404
+    assert minting.meter.reconciliation(1) == []
+
+
+def test_a_tester_code_takes_the_files_defaults_one_code_twenty_thousand_tokens_thirty_days(http, minting):
+    got = make_tester(http)
+    assert got.status_code == 200 and got.headers["cache-control"] == "no-store"
+    made = got.json()
+    assert set(made) == {"mint_id", "tokens", "expires_on", "code"}
+    assert made["mint_id"].startswith("tester_") and made["tokens"] == 20000 and made["expires_on"] == str(date(2026, 11, 4))
+    status = minting.meter.status(made["code"])
+    assert (status.kind, status.tokens_total, status.expires_on) == ("single", 20000, str(date(2026, 11, 4)))
+
+
+def test_the_operator_chooses_fewer_tokens_and_the_days(http, minting):
+    made = make_tester(http, tokens=5000, days=90).json()
+    assert (made["tokens"], made["expires_on"]) == (5000, str(date(2027, 1, 3)))
+    assert minting.meter.status(made["code"]).tokens_total == 5000
+
+
+@pytest.mark.parametrize(
+    "body",
+    [{"tokens": 20001}, {"tokens": 0}, {"tokens": -5}, {"days": 0}, {"days": 91}, {"tokens": "lots"}, {"tokens": True}, {"days": "30"}, {"days": 1.5}],
+)
+def test_a_tester_code_out_of_range_is_refused_and_makes_nothing(http, minting, body):
+    assert make_tester(http, **body).status_code == 422
+    assert minting.meter.reconciliation(1) == [] and minting.meter.net_funds(7)["gift"] == 0
+
+
+def test_tester_codes_stop_at_two_a_day_even_when_one_is_cancelled(http, minting):
+    first = make_tester(http).json()
+    assert make_tester(http).status_code == 200
+    http.post("/api/admin/deeper/void", json={"payment_id": first["mint_id"]}, headers=admin())
+    refused = make_tester(http)
+    assert refused.status_code == 429
+    assert minting.meter.reconciliation(1)[0]["tester_codes_minted"] == 2
+    assert mint(http).status_code == 200
+
+
+def test_a_tester_code_is_a_gift_never_a_payment_a_sale_or_owed(http, minting):
+    make_tester(http)
+    day = minting.meter.reconciliation(1)[0]
+    assert (day["payments_seen"], day["payments_minted"], day["codes_minted"], day["gap"]) == (0, 0, 0, 0)
+    assert (day["tester_codes_minted"], day["admin_codes_minted"]) == (1, 0)
+    row = minting.meter.measures(1)[0]
+    assert (row["tokens_granted"], row["tokens_sold"]) == (20000, 0)
+    assert minting.meter.owed() == []
+    assert minting.meter.list_funds(1) == []
+
+
+def test_a_tester_code_is_cancelled_by_its_mint_id_and_never_counts_toward_the_funds(http, minting):
+    made = make_tester(http).json()
+    voided = http.post("/api/admin/deeper/void", json={"payment_id": made["mint_id"]}, headers=admin()).json()
+    assert voided["voided"] == 1
+    assert minting.meter.status(made["code"]).status == "void"
+    assert minting.meter.net_funds(7)["gift"] == 0
+    assert minting.meter.reconciliation(1)[0]["refunds_applied"] == 0
+    assert http.get("/api/deeper/balance", headers={"x-cic-code": made["code"]}).status_code == 404
+
+
+def test_after_its_last_day_a_tester_code_reads_as_a_spent_one_does(http, minting):
+    made = make_tester(http, days=1).json()
+    day = [date(2026, 10, 6)]
+    minting.meter._clock = lambda: day[0]
+    assert http.get("/api/deeper/balance", headers={"x-cic-code": made["code"]}).json()["remaining"] == 20000
+    day[0] = date(2026, 10, 7)
+    got = http.get("/api/deeper/balance", headers={"x-cic-code": made["code"]})
+    assert got.status_code == 200 and got.json() == {"kind": "single", "remaining": 0, "paused": False}
+
+
+def test_a_tester_code_is_never_logged(http, minting, caplog):
+    caplog.set_level(logging.DEBUG)
+    made = make_tester(http).json()
+    assert made["code"].replace(" ", "") not in caplog.text and made["code"] not in caplog.text
+
+
+def test_the_grants_list_and_status_show_the_tester_code(http, minting):
+    made = make_tester(http).json()
+    (row,) = http.get("/api/admin/deeper/grants", headers=admin()).json()["grants"]
+    assert (row["grant_id"], row["codes"], row["tokens"], row["expires_on"]) == (made["mint_id"], 1, 20000, str(date(2026, 11, 4)))
+    assert made["code"].replace(" ", "") not in json.dumps(row)
+    body = http.get("/api/admin/deeper/status", headers=admin()).json()
+    assert body["tester"] == {"default_tokens": 20000, "max_tokens": 20000, "default_days": 30, "max_days": 90, "per_day": 2}
+
+
+def test_the_dashboard_makes_one_tester_code_with_a_confirm_and_shows_its_last_day():
+    from pathlib import Path
+
+    page = (Path(deeper_routes.__file__).parent / "static" / "admin_dashboard.html").read_text()
+    section = page[page.index("Make codes (no payment)"):page.index('id="mint-result"')]
+    assert 'id="tester-tokens"' in section and 'id="tester-days"' in section and 'id="tester-submit"' in section
+    assert 'id="t-deeper-tester"' in page and "tester_codes_minted" in page
+    maker = page[page.index("async function makeTesterCode"):page.index("async function voidPayment")]
+    assert "window.confirm(" in maker and "/api/admin/deeper/tester" in maker and "made.expires_on" in maker
+
+
 # ---- pilot join (S12) ----------------------------------------------------------
 
 LINK_KEYS = {"pastors": "pastors-link-key-0123456789", "historians": "historians-link-key-012345"}
@@ -1111,7 +1034,7 @@ LINK_KEYS = {"pastors": "pastors-link-key-0123456789", "historians": "historians
 def open_pilot(runtime, audience="general", **changes):
     import dataclasses
 
-    ops = runtime.ops or load_ops()
+    ops = runtime.ops or close_pilot(runtime).ops
     audiences = dict(ops.pilot_audiences)
     end = changes.pop("pilot_end_date", ops.pilot_end_date)
     audiences[audience] = dataclasses.replace(audiences[audience], pilot_open=True, **changes)
@@ -1120,15 +1043,34 @@ def open_pilot(runtime, audience="general", **changes):
     return runtime
 
 
-def join(http, ip="203.0.113.7", audience="general", link=None, **headers):
+def close_pilot(runtime):
+    import dataclasses
+
+    ops = load_ops()
+    audiences = {name: dataclasses.replace(a, pilot_open=False) for name, a in ops.pilot_audiences.items()}
+    runtime.ops = dataclasses.replace(ops, pilot_audiences=audiences)
+    return runtime
+
+
+def join(http, ip="203.0.113.7", audience="general", link=None, role="curious", **headers):
     key = link if link is not None else LINK_KEYS.get(audience, audience)
-    return http.post("/api/deeper/pilot-join", json={"link": key}, headers={"x-forwarded-for": ip, **headers})
+    body = {"link": key} if role is None else {"link": key, "role": role}
+    return http.post("/api/deeper/pilot-join", json=body, headers={"x-forwarded-for": ip, **headers})
 
 
-def test_the_shipped_pilot_is_closed_and_the_route_then_does_not_exist_to_a_visitor(http, minting):
-    assert not any(a.pilot_open for a in load_ops().pilot_audiences.values())
+def test_a_closed_pilot_route_does_not_exist_to_a_visitor(http, runtime):
+    close_pilot(runtime)
     assert join(http).status_code == 404
-    assert minting.meter.reconciliation(1) == []
+    assert runtime.meter.reconciliation(1) == []
+
+
+def test_the_shipped_pilot_opens_general_only_with_a_hundred_places_one_each(http, minting):
+    audiences = load_ops().pilot_audiences
+    assert {name for name, a in audiences.items() if a.pilot_open} == {"general"}
+    general = audiences["general"]
+    assert (general.pilot_cap, general.per_address, general.public) == (100, 1, True)
+    assert general.questionnaire_url == "https://tally.so/r/68Xe1e"
+    assert join(http, link="pastors").status_code == 404 and join(http, link="historians").status_code == 404
 
 
 def test_a_press_gives_one_ordinary_pack_code_shown_once(http, runtime):
@@ -1142,13 +1084,13 @@ def test_a_press_gives_one_ordinary_pack_code_shown_once(http, runtime):
     assert runtime.meter.reserve(body["code"]).ok
 
 
-def test_a_pilot_code_is_a_gift_not_a_payment_or_a_sale(http, runtime):
+def test_a_pilot_code_is_a_grant_not_a_payment_or_a_sale_and_counts_nothing_toward_the_funds(http, runtime):
     open_pilot(runtime)
     join(http)
     day = runtime.meter.reconciliation(1)[0]
     assert (day["pilot_codes_minted"], day["admin_codes_minted"], day["payments_seen"], day["gap"]) == (1, 0, 0, 0)
     assert runtime.meter.measures(1)[0]["tokens_granted"] == 1100 and runtime.meter.measures(1)[0]["tokens_sold"] == 0
-    assert runtime.meter.net_funds(7)["gift"] == 700
+    assert runtime.meter.net_funds(7).get("gift", 0) == 0
     assert runtime.meter.owed() == []
     assert [g["grant_id"][:6] for g in runtime.meter.grants(1)] == ["pilot_"]
 
@@ -1192,10 +1134,11 @@ def test_a_failed_mint_keeps_the_address_count_and_the_total_unspent(runtime):
     open_pilot(runtime)
     with pytest.raises(ValueError):
         runtime.meter.join_pilot(
-            "general", "203.0.113.5", 1100, "pi_wrong", open_=True, end_date=date(2026, 12, 31), cap=5, per_address=2,
+            "general", "203.0.113.5", 1100, "pi_wrong", role="academic", open_=True, end_date=date(2026, 12, 31), cap=5, per_address=2,
         )
     assert runtime.meter.pilot_total("general") == 0
     assert runtime.meter._conn.execute("SELECT COUNT(*) FROM pilot_joined").fetchone()[0] == 0
+    assert runtime.meter.pilot_roles("general")["academic"] == 0
 
 
 def test_the_pilot_join_answers_the_site_and_no_other_origin(http, runtime):
@@ -1212,10 +1155,14 @@ def test_the_status_reports_the_pilot_against_its_cap(http, runtime):
     status = http.get("/api/admin/deeper/status", headers=admin()).json()["pilot"]
     assert status["end_date"] == runtime.ops.pilot_end_date.isoformat()
     pilot = {row["audience"]: row for row in status["audiences"]}
+    roles = pilot["general"].pop("roles")
     assert pilot["general"] == {
         "audience": "general", "open": True, "cap": 10, "given": 1,
-        "per_address": 2, "public": True, "link_set": False,
+        "per_address": 1, "public": True, "link_set": False,
     }
+    assert roles == [
+        {"role": role, "label": label, "count": 1 if role == "curious" else 0} for role, label in PILOT_ROLES.items()
+    ]
     assert pilot["pastors"]["open"] is False and pilot["pastors"]["given"] == 0
 
 
@@ -1238,7 +1185,7 @@ def test_an_address_row_is_kept_for_ninety_days_and_then_deleted(runtime):
     from engine.deeper.meter import PILOT_RETENTION_DAYS
 
     meter = runtime.meter
-    meter.join_pilot("general", "203.0.113.5", 1100, "pilot_a", open_=True, end_date=date(2027, 1, 1), cap=5, per_address=2)
+    meter.join_pilot("general", "203.0.113.5", 1100, "pilot_a", role="curious", open_=True, end_date=date(2027, 1, 1), cap=5, per_address=2)
     assert PILOT_RETENTION_DAYS == 90
     first = date(2026, 10, 5)
     for days, kept in ((PILOT_RETENTION_DAYS - 1, 1), (PILOT_RETENTION_DAYS, 0)):
@@ -1289,6 +1236,7 @@ def test_a_public_audience_is_joined_by_its_name_and_a_private_key_is_not_a_publ
 
 
 def test_a_closed_unnamed_and_missing_link_all_answer_alike_with_a_404(http, runtime):
+    close_pilot(runtime)
     assert join(http, link="general").status_code == 404
     open_pilot(runtime, "pastors")
     assert join(http, link="general").status_code == 404
@@ -1315,11 +1263,11 @@ def test_one_address_across_every_audience_is_bounded_by_their_counts(http, runt
         open_pilot(runtime, name, per_address=2, pilot_cap=50)
     made = [join(http, ip="203.0.113.70", audience=name).status_code for name in ("general", "pastors", "historians") for _ in range(4)]
     assert made.count(200) == 6
-    assert runtime.meter.net_funds(7)["gift"] == 6 * 700
+    assert runtime.meter.net_funds(7).get("gift", 0) == 0
 
 
 def test_the_pilot_preflight_is_a_404_while_no_audience_is_open_and_answers_once_one_is(http, runtime):
-    runtime.ops = load_ops()
+    close_pilot(runtime)
     assert http.options("/api/deeper/pilot-join", headers={"origin": "https://site.example"}).status_code == 404
     open_pilot(runtime, "pastors")
     assert http.options("/api/deeper/pilot-join", headers={"origin": "https://site.example"}).status_code == 204
@@ -1350,6 +1298,97 @@ def test_the_old_single_pilot_total_is_dropped_when_the_file_opens(tmp_path):
     meter = Meter(path, clock=lambda: date(2026, 10, 5))
     assert meter.get_state("pilot_total") is None
     meter.close()
+
+
+def _role_counts(runtime, audience="general"):
+    return {role: n for role, n in runtime.meter.pilot_roles(audience).items() if n}
+
+
+def test_the_role_is_required_and_must_be_one_of_the_fixed_list(http, runtime):
+    open_pilot(runtime)
+    for bad in (None, "", "Curious", "pastor_or_teacher", "pastors", "x" * 64, "curious "):
+        refused = join(http, role=bad)
+        assert refused.status_code == 400, bad
+        assert "role must be one of" in refused.json()["detail"]
+    assert join(http, role="x" * 65).status_code == 422
+    assert runtime.meter.pilot_total("general") == 0
+    assert runtime.meter.reconciliation(1) == []
+    assert runtime.meter._conn.execute("SELECT COUNT(*) FROM pilot_joined").fetchone()[0] == 0
+    assert _role_counts(runtime) == {}
+    assert runtime.meter.net_funds(7)["gift"] == 0
+
+
+def test_every_role_on_the_list_joins_and_counts_one(http, runtime):
+    open_pilot(runtime, per_address=1, pilot_cap=100)
+    for n, role in enumerate(PILOT_ROLES):
+        assert join(http, ip=f"198.51.100.{100 + n}", role=role).status_code == 200, role
+    assert _role_counts(runtime) == {role: 1 for role in PILOT_ROLES}
+    assert runtime.meter.pilot_total("general") == len(PILOT_ROLES)
+
+
+def test_a_role_count_rises_only_on_a_join_that_made_a_code(http, runtime):
+    open_pilot(runtime, per_address=1, pilot_cap=2)
+    assert join(http, ip="198.51.100.1", role="academic").status_code == 200
+    assert join(http, ip="198.51.100.1", role="academic").json()["reason"] == "address_limit"
+    assert join(http, ip="198.51.100.2", role="academic").status_code == 200
+    assert join(http, ip="198.51.100.3", role="curious").json()["reason"] == "full"
+    assert _role_counts(runtime) == {"academic": 2}
+    open_pilot(runtime, per_address=1, pilot_cap=5, pilot_end_date=date(2026, 10, 4))
+    assert join(http, ip="198.51.100.4", role="curious").json()["reason"] == "ended"
+    close_pilot(runtime)
+    assert join(http, ip="198.51.100.5", role="curious").status_code == 404
+    assert _role_counts(runtime) == {"academic": 2}
+    assert runtime.meter.pilot_total("general") == 2
+
+
+def test_the_role_is_counted_per_audience(http, runtime):
+    open_pilot(runtime, "general")
+    open_pilot(runtime, "pastors")
+    join(http, ip="198.51.100.20", audience="general", role="re_examining")
+    join(http, ip="198.51.100.20", audience="pastors", role="pastor")
+    assert _role_counts(runtime, "general") == {"re_examining": 1}
+    assert _role_counts(runtime, "pastors") == {"pastor": 1}
+
+
+def test_the_role_is_kept_only_as_a_count_tied_to_no_code_or_address(http, runtime):
+    open_pilot(runtime)
+    made = join(http, ip="203.0.113.80", role="another_faith").json()
+    keys = [row[0] for row in runtime.meter._conn.execute("SELECT key FROM state WHERE key LIKE 'pilot_role:%'")]
+    assert keys == ["pilot_role:general:another_faith"]
+    assert runtime.meter.get_state("pilot_role:general:another_faith") == "1"
+    dump = "\n".join(runtime.meter._conn.iterdump())
+    assert dump.count("another_faith") == 1
+    assert codes.hash_code(codes.normalize(made["code"])) not in runtime.meter._conn.execute(
+        "SELECT group_concat(value) FROM state"
+    ).fetchone()[0]
+    for table, column in (("meter", "payment_id"), ("pilot_joined", "key_hash")):
+        values = [row[0] for row in runtime.meter._conn.execute(f"SELECT {column} FROM {table}")]
+        assert values and not any("another_faith" in v for v in values)
+
+
+def test_the_meter_refuses_a_role_off_the_list_before_anything_is_written(runtime):
+    with pytest.raises(ValueError):
+        runtime.meter.join_pilot(
+            "general", "203.0.113.5", 1100, "pilot_x", role="clergy", open_=True, end_date=date(2026, 12, 31), cap=5, per_address=2,
+        )
+    assert runtime.meter.pilot_total("general") == 0 and runtime.meter.reconciliation(1) == []
+
+
+def test_the_cap_of_a_hundred_holds_and_the_role_counts_stop_with_it(http, runtime):
+    open_pilot(runtime, pilot_cap=100, per_address=2)
+    statuses = [join(http, ip=f"10.0.{n // 200}.{n % 200}", role="curious").status_code for n in range(101)]
+    assert statuses.count(200) == 100 and statuses[-1] == 409
+    assert runtime.meter.pilot_total("general") == 100
+    assert _role_counts(runtime) == {"curious": 100}
+
+
+def test_the_dashboard_shows_the_role_counts_beside_the_pilot_totals():
+    from pathlib import Path
+
+    page = (Path(deeper_routes.__file__).parent / "static" / "admin_dashboard.html").read_text()
+    tiles = page[page.index('id="t-deeper-pilot"'):page.index('id="t-deeper-free"')]
+    assert 'id="t-deeper-pilot-roles"' in tiles
+    assert "a.roles.map((r) => r.label" in page and "r.count" in page
 
 
 def test_a_link_key_equal_to_a_long_audience_name_is_refused_at_start():

@@ -23,7 +23,7 @@ of promotion. See "How things move" for the promotion path.
 
 | entry | module | read by |
 |---|---|---|
-| `engine/` | interview engine, table engine, facilitator (m5), build engine (m1–m3), audit and cost (m7, m8), API, `deeper/` (the pay-as-you-go meter, switched off) | Render (Docker COPY), CI, engine |
+| `engine/` | interview engine, table engine, facilitator (m5), build engine (m1–m3), audit and cost (m7, m8), API, `deeper/` (the pay-as-you-go meter, switched off), `accounts/` (the account store and sign-in, switched off) | Render (Docker COPY), CI, engine |
 | `records/` | world truth — one directory per world by registry code, holding what the world's package carries; `worlds/<code>.yaml` is the registry, one file per world. Fleet records live with the engine module that owns each kind (`engine/shape/records/`, `engine/canon/records/`, `engine/m5/records/`) | Render, CI, engine |
 | `packages/` | compiled world packages, derived from `records/`; only pinned manifests are tracked | Render, CI, engine |
 | `canon/` | sealed admission probes (fleet-shared) | CI, engine |
@@ -36,9 +36,10 @@ of promotion. See "How things move" for the promotion path.
 ## Build — everything that builds or governs the system, not itself part of what runs it
 
 Moved under one top-level `Build/` (2026-09-26, Live/Build split) so the root shows only
-the Live zone plus `Archive/` by default. `tools/` splits across this line: the 5 scripts
-CI actually runs (`check_paths.py`, `check_live_commentary.py`,
-`check_no_embedded_world_data.py`, `repin_stale_worlds.py`, `validate-census.mjs`) stay at
+the Live zone plus `Archive/` by default. `tools/` splits across this line: the 6 scripts
+GitHub workflows actually run (`check_paths.py`, `check_live_commentary.py`,
+`check_no_embedded_world_data.py`, `repin_stale_worlds.py`, `validate-census.mjs`, and
+`live_watch.py`, the scheduled check on the production engine) stay at
 root `tools/`; everything else in `tools/` — scripts nothing in CI invokes — moved to
 `Build/tools/` with the rest below.
 

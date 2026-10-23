@@ -34,19 +34,19 @@ narrative_tier_justification: 'Tier 3 (attributed tradition): an autobiographica
   formation tension, while the dream as a literally-reported event is thin.'
 tellable_as: Jerome's dream of the Judge - the war between the books he loved and the
   book he served, as he himself told it
-text: 'He told the story against himself, in a letter meant to teach. On the way to his
-  desert years he could give up everything, he said, except his library. He fasted - and
-  then read Cicero. He wept over his sins - and then picked up his beloved authors again;
-  and when he made himself return to the prophets, their style seemed rough and
-  unpolished after all that marble prose. Then, in a fever so deep his funeral was being
-  prepared, he was dragged in spirit before the judgment seat. Asked who he was, he
-  answered: a Christian. And the Judge said: you lie - you are a follower of Cicero, and
-  not of Christ; for where your treasure is, there will your heart be also. He was
-  flogged, he said - but worse was his conscience burning; and he swore an oath that if
-  he ever again possessed worldly books he would have denied his Lord. He woke with his
-  eyes drenched, and gave himself to the divine books - he tells us - with more zeal than
-  he had ever given to the books of men. He kept telling this story his whole life. His
-  enemies later noted, not unfairly, that his pages never did stop quoting the classics.'
+text: 'He told the story against himself, in a letter meant to teach. On the road to Jerusalem
+  he could give up everything, he said, except his library. He fasted, and then read Cicero.
+  He wept over his sins, and then took up Plautus again. When he made himself return to the
+  prophets, their style seemed rude and repellent. Then, in a fever so deep his funeral was
+  being prepared, he was dragged in spirit before the judgment seat. Asked who he was, he
+  answered: a Christian. And the Judge said: you lie. You are a follower of Cicero, and not
+  of Christ; for where your treasure is, there will your heart be also. He was flogged, he
+  said, and his conscience burned worse than the lash. He swore an oath that if he ever again
+  possessed worldly books, he would have denied his Lord. He woke with his eyes drenched.
+  From then on, he tells us, he read the divine books with more zeal than he had ever given
+  to the books of men. His enemies later pointed out that his pages never did stop quoting
+  the classics.'
+telling: "On the road to Jerusalem, Jerome could give up everything except his library. So he said in a letter meant to teach. He told the story against himself.\n\nHe fasted, and then he read Cicero. He wept over his sins, and then he took up Plautus again. When he made himself go back to the prophets, their style seemed crude to him, and it repelled him.\n\nThen a fever took him, so deep that his funeral was being prepared. In spirit, he said, he was dragged before the judgment seat. Asked who he was, he answered that he was a Christian. The Judge told him that he lied. You are a follower of Cicero and not of Christ, the Judge said, for where your treasure is, there your heart will be also.\n\nJerome said he was flogged, and his conscience burned worse than the lash. He swore an oath that if he ever again owned worldly books, he would have denied his Lord. He woke with his eyes drenched. From then on, he tells us, he read the divine books with more zeal than he had ever given to the books of men.\n\nHis enemies, Rufinus among them, later mocked him over the dream and the oath. They pointed out that his pages never stopped quoting the classics."
 absent_detail: 'Whether the dream happened as told - or at all, as more than a literary
   conversion-scene - cannot be established; Rufinus later mocked him with exactly that
   question, and with the oath''s apparent breach. What the story reliably attests is the

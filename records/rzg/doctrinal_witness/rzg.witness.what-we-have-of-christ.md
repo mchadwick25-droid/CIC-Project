@@ -41,8 +41,8 @@ tensions:
   at all.
 text: 'What we actually have of Christ is not a living chain. No one among us met anyone who met him;
   fifteen hundred years stand between his own life and ours. What we have is the text, and we hold that
-  it is enough on its own terms. Our own founder said so of himself, and we hold it as our own rule still:
-  where we have not rightly understood the Scriptures, we will be taught better -- but only from the Scriptures
+  it is enough on its own terms. Our own founder said so of himself, and we made it our own rule: where
+  we have not rightly understood the Scriptures, we will be taught better -- but only from the Scriptures
   themselves, not from a chain of memory we do not possess and do not need.'
 use_note:
   means: "We claim no living chain of memory back to Jesus, only Scripture, held sufficient and corrected only by itself."

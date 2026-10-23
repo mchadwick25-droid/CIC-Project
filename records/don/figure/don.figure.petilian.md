@@ -26,8 +26,8 @@ sources:
   locus: the three books quoting him clause by clause
   license: public-domain
 - source_id: don.source.migne-pl11-collatio-carthaginiensis
-  locus: 'cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt, read directly for this record:
-    acts 29, 48, 54, 93, 95, 106, 110, 145 and the roll-call retort at line 124029'
+  locus: Gesta of the Conference of Carthage (411), chapters 29, 48, 54, 93, 95, 106, 110 and 145,
+    and his retort during the roll-call of mandates
   license: public-domain
 names:
 - name: Petilian, our bishop at Constantina
@@ -39,9 +39,9 @@ dates:
     in three books around 400-403; one of the seven Donatist pleaders at the 411 Conference of Carthage
     and, with Emeritus, one of the two principal voices there
 narratable: true
-bridge_line: The bishop of Constantina whose letters survive only inside the book written to demolish them
-  - and who, at Carthage in 411, refused the judge's offered chair because Christ had stood before his
-  own governor.
+bridge_line: The bishop of Constantina whose letters survive only inside the book written to answer
+  them. At Carthage in 411 he refused the judge's offered chair. Christ, he said, had stood before
+  his own governor.
 relations:
 - type: associated-with
   target: don.story.conference-of-carthage-411

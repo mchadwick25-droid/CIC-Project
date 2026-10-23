@@ -29,8 +29,7 @@ dates:
   died: '457 - beyond this world''s own close'
   floruit: Eastern emperor from 450; with Pulcheria convened Chalcedon 451
 narratable: true
-bridge_line: the emperor who called the council meant to settle everything - the alliance's convening
-  power at the world's own closing scene
+bridge_line: "The emperor who called the council meant to settle everything. In our closing scene, he was the alliance at work: the power to call bishops together."
 ---
 Chalcedon's imperial convener. His reign past 451's immediate aftermath
 is outside the window. His role carries the world's standing pattern to

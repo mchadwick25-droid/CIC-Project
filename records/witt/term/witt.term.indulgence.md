@@ -19,7 +19,7 @@ confidence:
     in this lexicon.
 sources:
 - source_id: witt.source.luther-selections-from-luthers-prefaces-to-his
-  locus: the 1539 preface, cited among this entry's Registry rows (Doc_06 SS5 entry 1.1)
+  locus: the 1539 preface
   license: public-domain
 - source_id: witt.source.luther-disputation-on-the-power-and-efficacy
   locus: the Ninety-Five Theses (Jacobs's English), Theses 21, 27, 36, 53
@@ -28,11 +28,10 @@ sources:
   locus: Babylonian Captivity's account of satisfaction and the sacraments
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism, 3805-3807 -- indulgences remembered as a defunct practice
+  locus: the Large Catechism -- indulgences remembered as a defunct practice
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology XII and VI on satisfactions and indulgences, read entire this pass (Ap 6365-6378,
-    10406-10409)
+  locus: the Apology XII and VI on satisfactions and indulgences
   license: public-domain
 retrieval:
   tier: 2
@@ -60,8 +59,9 @@ relations:
   target: witt.term.gospel
 - type: associated-with
   target: witt.term.pope-and-antichrist
-plain_meaning: An indulgence is a letter that once promised less penalty for sin, in exchange for money.
-  We do not sell these anymore. By 1517 we were already arguing against the whole trade.
+plain_meaning: >-
+  An indulgence is a letter that once promised less penalty for sin, in exchange for money. We do not
+  sell these anymore. By 1517 we were already arguing against it.
 world_word: indulgence, or pardon -- a 'letter of pardon'
 false_friend:
 - hearing 'indulgence' as self-gratification rather than a canonical remission of penalty

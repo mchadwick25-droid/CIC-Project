@@ -1994,7 +1994,7 @@ Four MEDIUM findings also applied: the Doc_08-informs-thinness-mapping instructi
 
 ### 2026-09-23 — Phase Two (Formation Calibration) drafted, reviewed, and disposed
 
-**Context.** This dedicated Representative-construction build thread was launched by the Go-Live Pipeline Coordinator thread, per `Build/Ministry/Operations/Standing/Launch-Prompts/CiC_lpc_Representative_Construction_Thread_Launch_2026-09-23.md`, to run Phase Two through world-freeze gates end-to-end under `cic-build-cycle` and `cic-validation-suite` discipline, self-governing exactly as those skills specify.
+**Context.** This dedicated Representative-construction build thread was launched by the Go-Live Pipeline Coordinator thread, per `Archive/Superseded-Launch-Prompts-2026-10/CiC_lpc_Representative_Construction_Thread_Launch_2026-09-23.md`, to run Phase Two through world-freeze gates end-to-end under `cic-build-cycle` and `cic-validation-suite` discipline, self-governing exactly as those skills specify.
 
 **Phase Two (Formation Calibration) drafted** at `Build/worlds/lpc/Representative/lpc_Rep_Phase2_Formation_Calibration.md`, per RCF V3.2 Part Four. Grounds the 2026-09-15 identity/image decision (Datus, Bishop of the Kept Flock) in the ecology without reopening it; states the temporal horizon *c.* 246–430 and treats the 133-year interval as an internal silence distinct from the horizon's own outer edges, per Doc_01 §5's own disclosed extension of RCF's "natural quiet" rule; calibrates depth per domain directly against Doc_04's candidate gravities and Doc_08's force IDs.
 

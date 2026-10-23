@@ -26,10 +26,12 @@ sources:
   locus: "named for completeness as a further hostile witness; not independently located as a vendored
     text this session, per this source's own rights_status"
 claim: >-
-  The Eustathian-circle ascetic radicals censured at Gangra were the dangerous, disorderly opposite of
-  Basil's later ordered brotherhoods - marriage-dissolvers, incitors of enslaved persons to defy their
-  households, sabbath-fasters, schismatic conventiclers - fairly described by the council's twenty
-  canons and by Basil's own account of his rupture with their circle's leader.
+  The ascetic radicals around Eustathius were censured at the council of
+  Gangra. On this view they were the wild, dangerous opposite of the ordered
+  brotherhoods Basil later built. They broke up marriages. They urged slaves
+  to defy their owners. They fasted on Sundays and held their own meetings.
+  The view holds that the council's twenty canons, and Basil's own account
+  of his break with their leader, describe them fairly.
 held_against:
 - The radicals' own voice does not survive at all - everything known of what they actually taught and
   practiced comes through the canons that censured them (Gangra) and the letters of the man who broke

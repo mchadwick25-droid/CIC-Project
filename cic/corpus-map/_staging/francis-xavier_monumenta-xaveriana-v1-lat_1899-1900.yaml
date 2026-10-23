@@ -14,3 +14,19 @@ assignments:
     once each wording is checked against the page image: the scan is legible with occasional letter-level
     misreads. Word-form coverage against a clean Latin vocabulary is 0.54; the Spanish, Italian and Portuguese
     passages and the notes lower it, so the figure is a comparison across files and not a measure of accuracy.'
+
+- row_id: francis-xavier_monumenta-xaveriana-v1-lat_1899-1900--monumenta-xaveriana-tomus-i-xavier-s-letters-and-other-2
+  work: 'Monumenta Xaveriana, Tomus I: Xavier''s letters and other writings'
+  author: francis-xavier
+  locus: the letters written from Japan, 1549-1552 (the letter dated 'Cangoxima 3 Novembris 1549' at file
+    line 29054 and those that follow), and Valignano's Life on the Japan years (Cangoxima at line 5424)
+  atlas_ids:
+  - mission-born-christianities-kirishitan-japan-kon
+  role: context
+  confidence: assigned
+  note: 'The original-language text (Spanish and Portuguese, with the Latin of the editors) of the Japan
+    letters that the Coleridge volume translates: the first Jesuit account of Japanese converts, from
+    the missionary''s side. CORPUS-USE tier: same time-place. Quotable once each wording is checked against
+    the page image, as the existing row says.
+
+    '

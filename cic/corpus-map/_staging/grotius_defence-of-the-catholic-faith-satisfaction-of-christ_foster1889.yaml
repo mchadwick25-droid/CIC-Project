@@ -1,0 +1,31 @@
+source_file: grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt
+
+assignments:
+  - row_id: grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889--a-defence-of-the-catholic-faith-concerning-the-satisfaction
+    work: "A Defence of the Catholic Faith concerning the Satisfaction of Christ, against Faustus Socinus (Grotius, Leiden 1617; Foster's English, 1889)"
+    author: grotius
+    locus: "GROTIUS'S DEFENCE, ten chapters from file line 2471 (CHAPTER I at 2471, II at 4527, V at 6525, VII at 8018, VIII at 8750, IX at 9502); Foster's Historical Introduction from about line 474 and his notes from 12478 are the translator's"
+    atlas_ids:
+      - the-remonstrants-and-dort
+    role: tradition
+    confidence: provisional
+    note: >
+      Grotius is a census-named voice of this world and this is his theological work of the
+      quarrel years, written at Leiden in 1617 as the States' jurist on the Remonstrant side.
+      Provisional rather than assigned because the book argues against Socinus on the satisfaction
+      of Christ, not for the Five Points; it shows what a Remonstrant-side thinker held on the
+      atonement while the charge of Socinianism was being laid against the party. Clean OCR,
+      quotable once checked against the page image; Foster's introduction and notes are a
+      nineteenth-century Calvinist's and are not the world's voice.
+  - row_id: grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889--a-defence-of-the-catholic-faith-concerning-the-satisfaction-2
+    work: "A Defence of the Catholic Faith concerning the Satisfaction of Christ, against Faustus Socinus (Grotius, Leiden 1617; Foster's English, 1889)"
+    author: grotius
+    locus: "whole file; Foster's Historical Introduction (from about line 474) on Socinus's doctrine and the controversy"
+    atlas_ids:
+      - anti-trinitarian-currents-servetus-polish-brethr
+    role: context
+    confidence: provisional
+    note: >
+      A leading Dutch Protestant's refutation of Socinus on the satisfaction, in English: the
+      opposing view of the anti-Trinitarian current, from the generation after Socinus. Placed on
+      that relation; the anti-Trinitarian world's build decides its weight. Clean OCR.

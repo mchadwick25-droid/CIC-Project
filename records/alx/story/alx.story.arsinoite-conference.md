@@ -38,13 +38,13 @@ narrative_tier: 1
 narrative_tier_justification: 'Tier 1 (documented historical narrative): Dionysius''s own first-person
   account from his book On the Promises, quoted by Eusebius (HE VII.24) - the participant''s own record
   of the event.'
-tellable_as: Bishop Dionysius's own account of the three days in the Arsinoite villages
+tellable_as: Bishop Dionysius's own account of three days spent with the village churches near Arsinoe
 text: >-
   In the villages of the Arsinoite district, the churches followed the
   teaching of Nepos, a bishop they loved. He had written a book against the
   allegorists. The promises in Scripture, he said, meant a thousand-year
   kingdom of plenty on this earth, plainly read. Nepos had died, and his book
-  ruled whole congregations. Dionysius did not send a condemnation. He went
+  ruled whole congregations. Dionysius went
   out to the villages. He called together the elders and the teachers, with
   any of the people who wished to come, and sat with them for three days,
   morning to evening, examining the book argument by argument. He wrote
@@ -54,8 +54,8 @@ text: >-
   willingness to reconsider, as they weighed the arguments together, point
   by point. The leader of the other side, Coracion, was persuaded, and said
   so in front of everyone. Some of the other brethren, the account says,
-  were glad at the spirit of agreement all had shown: it ended not in a
-  split, but in agreement reached in the open.
+  were glad at the spirit of agreement all had shown.
+telling: "The village churches near Arsinoe loved a bishop named Nepos. He had written a book against the allegorists. The promises in Scripture, he said, meant a thousand-year kingdom of plenty on this earth, plainly read. Nepos had died, and his book now ruled whole congregations. That book is lost. We know it only from the bishop who answered it.\n\nOur bishop Dionysius went out to the villages. He told the story himself, in his book On the Promises, and Eusebius later quoted it. He called together the elders and the teachers, and any of the people who wished to come. For three days, from morning to evening, he sat with them and examined the book, argument by argument.\n\nHe wrote afterward that he loved Nepos for his faith, his hard work in the Scriptures and his psalms. Even so, he wrote, \"the truth should be loved and honored most of all.\" He rejoiced in the constancy and sincerity of the believers, and in their willingness to reconsider as they weighed the arguments together.\n\nAt the end, Coracion, the leader of the other side, was persuaded. He said so in front of everyone. Some of the other believers, the account says, were glad at the spirit of agreement all had shown."
 absent_detail: The arguments exchanged across the three days are summarized by Dionysius, not transcribed;
   the villagers' own voices survive only in his report of their patience and honesty. Nepos's book itself
   is lost - it is known only through the man who refuted it, and a telling should say so.

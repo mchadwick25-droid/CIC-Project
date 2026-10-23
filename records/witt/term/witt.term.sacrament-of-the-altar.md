@@ -26,17 +26,18 @@ sources:
   locus: Babylonian Captivity -- the sacrament as Christ's testament
   license: public-domain
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism, entire -- 'in and under the bread and wine'; the examination gate and its
-    freedom
+  locus: >-
+    the Large Catechism, entire -- 'in and under the bread and wine'; the examination gate and its freedom
   license: public-domain
 - source_id: witt.source.luther-small-catechism
-  locus: the Small Catechism -- 'the true body and blood of our Lord Jesus Christ under bread and wine'
+  locus: >-
+    the Small Catechism -- 'the true body and blood of our Lord Jesus Christ under bread and wine'
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
   locus: the Augsburg Confession X, XXIV -- 'the Body and Blood of Christ are truly present'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology XXIV, cited among this entry's Registry rows (Doc_06 SS5 entry 5.3)
+  locus: the Apology XXIV
   license: public-domain
 retrieval:
   tier: 1
@@ -77,7 +78,7 @@ relations:
 - type: associated-with
   target: witt.term.the-ban
 plain_meaning: At this table, Christ's body and blood are truly present, in and under bread and wine.
-  We do not explain how. We simply take him at his word. This meal feeds us for our daily struggle.
+  We do not explain how they are present. We simply take him at his word. This meal feeds us for our daily struggle.
 world_word: the Sacrament of the Altar -- Christ's body and blood 'in and under' bread and wine
 false_friend:
 - the Supper heard as a memorial meal only
@@ -104,7 +105,7 @@ senses:
 quick_meaning: Christ's body and blood, truly present, given for us. Food for our daily struggle.
 distortion_risk: high
 use_note:
-  means: "The Sacrament of the Altar meant Christ's body and blood truly present in and under bread and wine, taken at his word without explaining how."
+  means: "The Sacrament of the Altar meant Christ's body and blood truly present in and under bread and wine, taken at his word without explaining how they are present."
   not_for:
     - "the Supper as a memorial meal only"
     - "'consubstantiation' as a word or theory the world used"

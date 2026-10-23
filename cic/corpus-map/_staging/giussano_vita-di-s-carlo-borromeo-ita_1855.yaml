@@ -1,0 +1,23 @@
+source_file: giussano_vita-di-s-carlo-borromeo-ita_1855.txt
+
+assignments:
+  - row_id: giussano_vita-di-s-carlo-borromeo-ita_1855--vita-di-s-carlo-borromeo
+    work: "Vita di S. Carlo Borromeo (Italian original, 1855 Naples reprint of the 1610 text)"
+    author: giussano
+    locus: "author's address to the reader near file line 330; 'LIBRO PRIMO' at line 345, 'LIBRO SECONDO' 3162 (OCR 'SEGOMO'), 'LIBRO TERZO' 11397, 'LIBRO QUARTO' 14194; the first volume's index around lines 21939-22166; 'LIBRO SESTO' 22392 (the 'LIBRO QUINTO' heading is not legible in the OCR), 'LIBRO SETTIMO' 26817, second volume's index around 44367, 'LIBRO OTTAVO' 44537"
+    atlas_ids:
+      - tridentine-parish-renewal-borromean-milan
+    role: tradition
+    confidence: assigned
+    note: >
+      The Italian original of the 1884 English Life, in an 1855 Naples reprint chosen because the 1610 Rome first edition scan is garbled. The witness for exact wording behind the English quotes, and the voice Giussano actually wrote in. Not the first printing: wording verified here is the 1855 edition's. Legible OCR with scattered broken words.
+  - row_id: giussano_vita-di-s-carlo-borromeo-ita_1855--vita-di-s-carlo-borromeo-2
+    work: "Vita di S. Carlo Borromeo (Italian original, 1855 Naples reprint of the 1610 text)"
+    author: giussano
+    locus: "as above"
+    atlas_ids:
+      - the-tridentine-church
+    role: context
+    confidence: assigned
+    note: >
+      Italian original of the English Life assigned to this bucket as context; see the giussano_life-of-st-charles-borromeo rows.

@@ -1,0 +1,18 @@
+source_file: hefele_history-of-the-councils-v1-to-nicaea_clark1872.txt
+
+assignments:
+  - row_id: hefele_history-of-the-councils-v1-to-nicaea_clark1872--history-of-the-councils-vol-1
+    work: "Hefele, A History of the Councils of the Church, vol. 1 (to Nicaea 325 (Arles 314 at section 15; Book II on Nicaea from file line 492)), English translation, 1872"
+    author: hefele
+    locus: "whole file; to Nicaea 325 (Arles 314 at section 15; Book II on Nicaea from file line 492)"
+    atlas_ids:
+      - imperial-juridical-christianity
+      - donatism
+    role: context
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch. Nineteenth-century Roman Catholic scholarly reconstruction
+      of the pre-Nicene synods, Arles 314 and the Council of Nicaea, in Clark's English
+      series. Secondary: a finding aid to the primary documents and a witness to nineteenth-
+      century reading of the councils, never evidence of the events. Same footing as the
+      hefele-leclercq French slices already in the map.

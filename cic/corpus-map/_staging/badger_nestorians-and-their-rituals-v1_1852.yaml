@@ -1,0 +1,47 @@
+source_file: badger_nestorians-and-their-rituals-v1_1852.txt
+
+authors_ruled:
+  badger:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The title page in the OCR
+      reads "The Nestorians and their Rituals ... by the Rev. George Percy Badger" (file lines 40-60); the host
+      catalogue gives Badger, George Percy, 1815-1888. A mechanical index-coverage gap, not an attribution dispute.
+
+assignments:
+  - row_id: badger_nestorians-and-their-rituals-v1_1852--chapter-xi-the-patriarchate-and-the-schism-of-1552
+    work: "The Nestorians and their Rituals, volume I (Badger, 1852), chapter XI: the history of the Nestorian patriarchate, the hereditary succession, the election of Sulaka and his murder"
+    author: badger
+    locus: "chapter XI from file line 7313; the schism at about 7780-7920 (Sulaka 'earnestly desired by' one party at 7780, the bishops at Mosul electing Sulaka at 7899, the Turks incited to his murder at 7914); index entry 'Sulaka, proposed and consecrated patriarch' at 26240"
+    atlas_ids:
+      - church-of-the-east-schism-of-1552
+    role: context
+    confidence: assigned
+    note: >
+      An Anglican missionary who lived among the Nestorians in 1842-44 retells the schism from
+      Mosheim, Gibbon, the Roman accounts and a Mutran Hanna autobiography of 1778, and calls
+      the Roman accounts contradictory. A reception witness and finding aid for 1552, three
+      centuries after; a direct witness for the mountain church of the 1840s. Read at the lines
+      cited. Clean OCR.
+  - row_id: badger_nestorians-and-their-rituals-v1_1852--chapter-xi-the-patriarchate-and-the-schism-of-1552-2
+    work: "The Nestorians and their Rituals, volume I (Badger, 1852): the narrative of the mission of 1842-44 and the visit of 1850, the Nestorians of Hakkari and Mosul, the Chaldeans, the Jacobites and the Yezidis"
+    author: badger
+    locus: "chapters I to XXV from file line 1258; the Roman missions and the Chaldeans of Mosul in the chapters on Mosul"
+    atlas_ids:
+      - church-of-the-east-chaldean-consolidation
+    role: context
+    confidence: provisional
+    note: >
+      The fullest English outside witness to both lines in the 1840s, inside the consolidation
+      entry's window (1815-1906). Placed on dates and subject; not read for that entry.
+  - row_id: badger_nestorians-and-their-rituals-v1_1852--chapter-xi-the-patriarchate-and-the-schism-of-1552-3
+    work: "The Nestorians and their Rituals, volume I (Badger, 1852), chapter XI: the hereditary patriarchate from 1450"
+    author: badger
+    locus: "chapter XI from file line 7313 to the schism at 7780"
+    atlas_ids:
+      - church-of-the-east-timur-to-hakkari
+    role: context
+    confidence: provisional
+    note: >
+      Badger's account of the hereditary law and the shrinking church before 1552. Placed on the
+      chapter; not read for that entry.

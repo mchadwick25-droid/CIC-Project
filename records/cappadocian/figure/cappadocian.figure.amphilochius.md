@@ -27,7 +27,10 @@ names:
 dates:
   display: "c. 340/345 - after 394; bishop of Iconium; addressee of On the Holy Spirit and of Basil's canonical letters; named in the 381 communion law for the Asian diocese"
 narratable: true
-bridge_line: "The junior member of the circle whose request for a fuller answer became On the Holy Spirit - and whose own province, Iconium, is itself part of this world's own geographic scope, not merely a source it happens to cite."
+bridge_line: >-
+  A younger member of the circle. His request for a fuller answer became
+  Basil's On the Holy Spirit. He was bishop of Iconium, a city within this
+  world's region.
 relations:
 - type: associated-with
   target: cappadocian.story.doxology-stand

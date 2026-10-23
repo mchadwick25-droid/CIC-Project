@@ -1,0 +1,55 @@
+source_file: synod-of-dort_articles-with-history-of-events_scott1831.txt
+
+assignments:
+  - row_id: synod-of-dort_articles-with-history-of-events_scott1831--the-preface-of-the-synod-of-dort-to-the-reformed-churches
+    work: "The Preface of the Synod of Dort to the Reformed Churches: the history of the controversies before the Synod, English from the Latin (Scott, 1831)"
+    author: synod-of-dort
+    locus: "from \"THE PREFACE. TO THE REFORMED CHURCHES OF CHRIST\" at line 703 to \"ARTICLES OF THE SYNOD OF DORT\" at line 4966; the Remonstrance of 1610 is described around lines 2420-2440"
+    atlas_ids:
+      - the-remonstrants-and-dort
+    role: tradition
+    confidence: assigned
+    note: >
+      The Synod's own telling, as published by the authority of the States-General, of how the
+      quarrel with the Remonstrants arose, in the English of a Calvinist translator who adds
+      footnotes on the Synod's side. It is the Dort half of this world's voice, and the
+      Remonstrants are described, not heard, in it. English from the Latin Acta; clean OCR.
+  - row_id: synod-of-dort_articles-with-history-of-events_scott1831--the-articles-of-the-synod-of-dort-and-its-rejection-of
+    work: "The Articles of the Synod of Dort and its Rejection of Errors (the Canons of Dort), English from the Latin (Scott, 1831)"
+    author: synod-of-dort
+    locus: "\"ARTICLES OF THE SYNOD OF DORT\" from line 4966 to \"CONFESSIONS OF FAITH\" at line 7915; five chapters, each with its Rejection of Errors (Chapter I from line 5026, II from 5641, III and IV from 5934, V from 6501)"
+    atlas_ids:
+      - the-remonstrants-and-dort
+    role: tradition
+    confidence: assigned
+    note: >
+      The Canons of Dort in an English made from the Latin text directly, beside the 1840 English
+      already staged for this world from the Reformed Dutch Church volume (a second Expression of
+      the same Work). The Rejection of Errors names the Remonstrant positions the Synod condemned.
+      Clean OCR, quotable once each quote is checked against the page image.
+  - row_id: synod-of-dort_articles-with-history-of-events_scott1831--the-articles-of-the-synod-of-dort-and-its-rejection-of-2
+    work: "The Articles of the Synod of Dort and its Rejection of Errors (the Canons of Dort), English from the Latin (Scott, 1831)"
+    author: synod-of-dort
+    locus: "lines 4966-7915"
+    atlas_ids:
+      - dutch-further-reformation-and-refuge-culture
+    role: tradition
+    confidence: provisional
+    note: >
+      The doctrinal settlement of 1619 that bound every minister of the Dutch church, including
+      the precisianist preachers of this world; placed on that relation, mirroring the 1840 Canons
+      row.
+  - row_id: synod-of-dort_articles-with-history-of-events_scott1831--the-articles-of-the-synod-of-dort-and-its-rejection-of-3
+    work: "The Articles of the Synod of Dort and its Rejection of Errors (the Canons of Dort), English from the Latin (Scott, 1831)"
+    author: synod-of-dort
+    locus: "lines 4966-7915"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: context
+    confidence: provisional
+    note: >
+      The Synod seated delegates from Geneva, Switzerland, the Palatinate and other Reformed
+      churches, and its Canons restate the Genevan doctrine of predestination against the
+      Remonstrants. Placed on that continuity with the Reformed Cities tradition; the volume also
+      carries a Harmony of Confessions (from line 7915) that includes the Helvetic Confession
+      among others.

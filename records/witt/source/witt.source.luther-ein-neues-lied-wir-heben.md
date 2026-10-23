@@ -18,6 +18,7 @@ author: Luther
 work: Ein neues Lied wir heben an
 edition: (1523), hymn V — "A Song of the Two Christian Martyrs burnt at Brussels by the Sophists of Louvain";
   vendored as cic/texts/luther_hymns_bacon-allen.txt
+citation: Luther, Ein neues Lied wir heben an (1523), hymn V, "A Song of the Two Christian Martyrs burnt at Brussels by the Sophists of Louvain"
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

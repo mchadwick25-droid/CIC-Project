@@ -41,12 +41,8 @@ senses:
   evidential: Clement and Athanasius both attest a change whose source is the encounter with God, not
     self-produced effort; the same conviction runs through catechesis, illumination, and the whole formation
     sequence.
-  personal: A person can improve their conduct while still wanting the same lesser things underneath - that
-    is not transformation, only better behavior over an unchanged direction.
-  translational: >-
-    Isn't spiritual growth just becoming a better version of yourself? This world located the change
-    somewhere else: not self-improvement, but a soul actually reordered by an encounter it did not produce
-    on its own.
+  personal: "Someone could improve their conduct and still want the same lesser things. That was not transformation, only better behavior with the same direction."
+  translational: "Isn't spiritual growth just becoming a better version of yourself? This world placed the change elsewhere, in a soul reordered by an encounter it did not produce on its own."
 quick_meaning: The soul reordered by contact with God, not self-improvement.
 distortion_risk: high
 use_note:

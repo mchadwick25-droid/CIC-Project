@@ -23,12 +23,11 @@ retrieval:
   - "participant asks if that specific modern phrase was ever actually used"
 text: >-
   At least one of us spoke of being born again: Philoromus - from Galatia rather than Egypt, but
-  living the same discipline - put it in exactly those words once, late in his life. From the day
-  I was initiated and born again, he said, until today, I have never eaten another's bread for
-  nothing. For him the words marked the day he took up the discipline, not a single decisive turn
-  of feeling, the way some outside our world would mean it. But he did use that language, of
-  himself, without anyone asking him to. How many others would have agreed with him, we cannot
-  say.
+  living the same discipline - put it in exactly those words once, late in his life. From the
+  time I was initiated and born again, he said, until today, I have never eaten another's bread
+  for nothing. He seems to have meant the day he took up the discipline, not a single decisive
+  turn of feeling, the way some outside our world would mean it. How many others would have
+  agreed with him, we cannot say.
 positions:
 - "the phrase 'born again' does occur in this world's own broader circle, in one ascetic's own reported first-person words - it is not simply absent from our vocabulary"
 - "where it occurs, it marks entry into the discipline itself, not a separate inward experience distinct from taking up the life"

@@ -2,7 +2,8 @@
 
 The meter keys on a hash of the code. It stores no session id, visitor id,
 session-code hash, IP address, name, email or text, and no timestamp finer
-than a day: the day a code was made and the week it was last used. It keeps
+than a day: the day a code was made, the week it was last used, and for a
+tester code the last day it works. It keeps
 the Stripe payment id, so a refund or dispute can void a code and a sponsor's
 batch can be voided in one step.
 
@@ -36,27 +37,25 @@ KINDS = ("single", "batch", "group")
 LIVE, SPENT, VOID = "live", "spent", "void"
 
 TALLY_FIELDS = ("payments_seen", "payments_minted", "payments_voided_first", "codes_minted", "refunds_applied", "partial_refunds_ignored")
-SOURCES = ("purchase", "admin", "pilot")
-GRANT_PREFIXES = {"admin": "admin_", "pilot": "pilot_"}
-MINT_COUNT_FIELDS = {"admin": "admin_codes_minted", "pilot": "pilot_codes_minted"}
+SOURCES = ("purchase", "admin", "pilot", "tester")
+GRANT_PREFIXES = {"admin": "admin_", "pilot": "pilot_", "tester": "tester_"}
+MINT_COUNT_FIELDS = {"admin": "admin_codes_minted", "pilot": "pilot_codes_minted", "tester": "tester_codes_minted"}
 REPORT_FIELDS = (*TALLY_FIELDS, *MINT_COUNT_FIELDS.values())
 RECONCILE_RETENTION_DAYS = 90
 MEASURE_RETENTION_DAYS = 90
 REFUSAL_REASONS = (
     "no_code", "code_not_accepted", "spent", "too_few", "daily_ceiling", "paused", "in_use",
-    "free_rounds_done", "free_allowance_spent", "door_free_closed", "door_paid_closed", "paid_round_cap",
+    "free_rounds_done", "free_allowance_spent", "paid_round_cap",
 )
 SUM_MEASURES = (
     "codes_single", "codes_batch", "codes_group", "tokens_sold", "tokens_granted", "tokens_spent",
     *(f"refused_{reason}" for reason in REFUSAL_REASONS),
-    "observed_free_refused", "observed_paid_refused",
 )
-MAX_MEASURES = ("door_stage", "door_ratio_permille", "door_spend_cents")
 FUNDS_KINDS = ("gift", "purchase", "adjustment")
 FUNDS_RETENTION_DAYS = 90
 MAX_FUNDS_CENTS = 10_000_000
 # What a funds entry's note may say. A fixed list, so a name typed by hand can never land in the
-# meter's file. The first four are for an adjustment made by hand; the last two are written by the
+# meter's file. The first four are for an adjustment made by hand; the last three are written by the
 # app itself for the grants it counts.
 NOTE_KINDS = ("cash gift", "check gift", "other gift", "correction", "pilot grant", "admin grant")
 
@@ -64,6 +63,19 @@ MAX_TOKENS_PER_CODE = 1_000_000
 MAX_BATCH_COUNT = 1_000
 RETENTION_DAYS = 30
 PILOT_RETENTION_DAYS = 90
+# The perspective a person names when they join the pilot: the feedback form's own six answers.
+# Only a count per audience per perspective is kept, never tied to a code or an address.
+PILOT_ROLES = {
+    "curious": "Curious",
+    "pastor": "Pastor",
+    "teacher": "Teacher",
+    "academic": "Academic",
+    "re_examining": "Re-examining Faith",
+    "another_faith": "Another Faith",
+    "atheist_or_agnostic": "Atheist or Agnostic",
+    "other": "Other",
+    "prefer_not_to_say": "Prefer Not to Say",
+}
 DEFAULT_FREE_WINDOW_DAYS = 30
 
 _SCHEMA = """
@@ -76,7 +88,8 @@ CREATE TABLE IF NOT EXISTS meter (
     day_created TEXT NOT NULL,
     week_last_used TEXT,
     status TEXT NOT NULL DEFAULT 'live' CHECK (status IN ('live', 'spent', 'void')),
-    daily_ceiling INTEGER CHECK (daily_ceiling IS NULL OR daily_ceiling > 0)
+    daily_ceiling INTEGER CHECK (daily_ceiling IS NULL OR daily_ceiling > 0),
+    expires_on TEXT
 ) WITHOUT ROWID;
 CREATE INDEX IF NOT EXISTS meter_payment ON meter (payment_id);
 CREATE TABLE IF NOT EXISTS voided_payments (
@@ -92,7 +105,8 @@ CREATE TABLE IF NOT EXISTS reconcile (
     refunds_applied INTEGER NOT NULL DEFAULT 0,
     partial_refunds_ignored INTEGER NOT NULL DEFAULT 0,
     admin_codes_minted INTEGER NOT NULL DEFAULT 0,
-    pilot_codes_minted INTEGER NOT NULL DEFAULT 0
+    pilot_codes_minted INTEGER NOT NULL DEFAULT 0,
+    tester_codes_minted INTEGER NOT NULL DEFAULT 0
 ) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS funds (
     entry TEXT PRIMARY KEY,
@@ -112,6 +126,11 @@ CREATE TABLE IF NOT EXISTS daily (
 CREATE TABLE IF NOT EXISTS free_window (
     key_hash TEXT PRIMARY KEY,
     first_day TEXT NOT NULL,
+    spent INTEGER NOT NULL CHECK (spent >= 0)
+) WITHOUT ROWID;
+CREATE TABLE IF NOT EXISTS account_window (
+    key_hash TEXT PRIMARY KEY,
+    window_start TEXT NOT NULL,
     spent INTEGER NOT NULL CHECK (spent >= 0)
 ) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS pilot_joined (
@@ -147,12 +166,25 @@ class PilotRefused(DeeperError):
 
 
 class MintLimit(DeeperError):
-    """A grant would take the day's tokens in admin or pilot codes past its limit."""
+    """A grant would take the day's tokens, or the day's codes, of its source past its limit."""
 
 
 def is_grant(payment_id: str) -> bool:
-    """True for the id of a code made without a payment (an admin or pilot grant)."""
+    """True for the id of a code made without a payment (an admin, pilot or tester grant)."""
     return payment_id.startswith(tuple(GRANT_PREFIXES.values()))
+
+
+def _like_prefix(prefix: str) -> str:
+    return prefix.replace("_", "\\_") + "%"
+
+
+_GRANT_IDS = " OR ".join("payment_id LIKE ? ESCAPE '\\'" for _ in GRANT_PREFIXES)
+_GRANT_PATTERNS = tuple(_like_prefix(prefix) for prefix in GRANT_PREFIXES.values())
+
+
+def _expired(expires_on: str | None, today: date) -> bool:
+    """A code with a last day works to the end of that day, UTC, and not after."""
+    return expires_on is not None and today > date.fromisoformat(expires_on)
 
 
 @dataclass(frozen=True)
@@ -162,10 +194,12 @@ class CodeStatus:
     tokens_total: int
     tokens_used: int
     daily_ceiling: int | None
+    expires_on: str | None = None
+    expired: bool = False
 
     @property
     def remaining(self) -> int:
-        return 0 if self.status == VOID else self.tokens_total - self.tokens_used
+        return 0 if self.status == VOID or self.expired else self.tokens_total - self.tokens_used
 
 
 class Reservation:
@@ -226,11 +260,13 @@ class Meter:
         self._migrate()
 
     def _migrate(self) -> None:
-        """Adds the grant columns to a reconcile table made before they existed."""
+        """Adds the grant columns to a reconcile table, and the last-day column to a meter table, made before they existed."""
         have = {row[1] for row in self._conn.execute("PRAGMA table_info(reconcile)")}
         for column in MINT_COUNT_FIELDS.values():
             if column not in have:
                 self._conn.execute(f"ALTER TABLE reconcile ADD COLUMN {column} INTEGER NOT NULL DEFAULT 0")
+        if "expires_on" not in {row[1] for row in self._conn.execute("PRAGMA table_info(meter)")}:
+            self._conn.execute("ALTER TABLE meter ADD COLUMN expires_on TEXT")
         # The pilot's total was once one number; each audience now keeps its own.
         self._conn.execute("DELETE FROM state WHERE key = 'pilot_total'")
 
@@ -249,6 +285,8 @@ class Meter:
         prepared: list[str] | None = None,
         source: str = "purchase",
         daily_token_limit: int | None = None,
+        daily_code_limit: int | None = None,
+        expires_in_days: int | None = None,
         within: Callable[[sqlite3.Connection, str], None] | None = None,
     ) -> list[str]:
         """Makes the codes for one payment and returns them in plain form, the
@@ -259,11 +297,17 @@ class Meter:
         safe, so a crash between the two steps loses nothing. The payment's
         reconciliation counts commit in the same transaction as its codes.
 
-        source: "purchase" (the default) is a Stripe payment. "admin" and "pilot"
-        are grants, made with no payment: their payment id must carry the
+        source: "purchase" (the default) is a Stripe payment. "admin", "pilot" and
+        "tester" are grants, made with no payment: their payment id must carry the
         grant's prefix, they count in their own reconciliation column and never
         as a payment, and daily_token_limit caps the tokens such codes may hold for the day,
-        checked inside the same transaction so two requests cannot both pass.
+        daily_code_limit the number of such codes made that day, both checked inside
+        the same transaction so two requests cannot both pass. A voided grant still
+        counts toward its day.
+
+        expires_in_days: a tester grant's code, and only a tester grant's, has a last
+        day: the day it is made plus this many days. It works to the end of that
+        day, UTC; from the next day it is refused as spent and nothing is spent from it.
 
         within: called inside that transaction, before any code is made, with the
         connection and today's day. It raises to refuse the mint, and what it
@@ -276,6 +320,13 @@ class Meter:
             raise ValueError(f"a {source} grant's id must start with {GRANT_PREFIXES[source]!r}")
         if kind not in KINDS:
             raise ValueError(f"unknown kind {kind!r}")
+        if source == "tester":
+            if kind != "single" or count != 1:
+                raise ValueError("a tester grant makes exactly one single code")
+            if isinstance(expires_in_days, bool) or not isinstance(expires_in_days, int) or expires_in_days < 1:
+                raise ValueError("a tester grant needs a number of days of 1 or more")
+        elif expires_in_days is not None:
+            raise ValueError("only a tester grant's code has a last day")
         if not isinstance(tokens, int) or not 0 < tokens <= MAX_TOKENS_PER_CODE:
             raise ValueError("tokens out of range")
         if not payment_id:
@@ -301,23 +352,27 @@ class Meter:
                     raise PaymentVoided(payment_id)
                 if self._conn.execute("SELECT 1 FROM meter WHERE payment_id = ? LIMIT 1", (payment_id,)).fetchone():
                     raise AlreadyMinted(payment_id)
-                today = self._clock().isoformat()
-                if source != "purchase" and daily_token_limit is not None:
-                    made_today = self._conn.execute(
-                        "SELECT COALESCE(SUM(tokens_total), 0) FROM meter WHERE day_created = ? AND payment_id LIKE ? ESCAPE '\\'",
-                        (today, GRANT_PREFIXES[source].replace("_", "\\_") + "%"),
-                    ).fetchone()[0]
-                    if made_today + tokens * count > daily_token_limit:
+                day = self._clock()
+                today = day.isoformat()
+                if source != "purchase" and (daily_token_limit is not None or daily_code_limit is not None):
+                    tokens_today, codes_today = self._conn.execute(
+                        "SELECT COALESCE(SUM(tokens_total), 0), COUNT(*) FROM meter WHERE day_created = ? AND payment_id LIKE ? ESCAPE '\\'",
+                        (today, _like_prefix(GRANT_PREFIXES[source])),
+                    ).fetchone()
+                    if daily_token_limit is not None and tokens_today + tokens * count > daily_token_limit:
                         raise MintLimit(source)
+                    if daily_code_limit is not None and codes_today + count > daily_code_limit:
+                        raise MintLimit(source)
+                expires_on = (day + timedelta(days=expires_in_days)).isoformat() if expires_in_days is not None else None
                 if within is not None:
                     within(self._conn, today)
                 made: list[str] = []
                 while len(made) < count:
                     code = prepared[len(made)] if prepared is not None else codes.generate()
                     inserted = self._conn.execute(
-                        "INSERT OR IGNORE INTO meter (code_hash, kind, tokens_total, payment_id, day_created, daily_ceiling)"
-                        " VALUES (?, ?, ?, ?, ?, ?)",
-                        (codes.hash_code(code), kind, tokens, payment_id, today, ceiling),
+                        "INSERT OR IGNORE INTO meter (code_hash, kind, tokens_total, payment_id, day_created, daily_ceiling, expires_on)"
+                        " VALUES (?, ?, ?, ?, ?, ?, ?)",
+                        (codes.hash_code(code), kind, tokens, payment_id, today, ceiling, expires_on),
                     ).rowcount
                     if inserted:
                         made.append(code)
@@ -347,7 +402,7 @@ class Meter:
 
     def _row(self, code_hash: str):
         return self._conn.execute(
-            "SELECT code_hash, kind, tokens_total, tokens_used, status, daily_ceiling FROM meter WHERE code_hash = ?",
+            "SELECT code_hash, kind, tokens_total, tokens_used, status, daily_ceiling, expires_on FROM meter WHERE code_hash = ?",
             (code_hash,),
         ).fetchone()
 
@@ -363,35 +418,60 @@ class Meter:
             return None
         return row
 
+    def _left(self, row) -> int:
+        """What a row still holds: nothing once it is void or past its last day."""
+        return 0 if row[4] == VOID or _expired(row[6], self._clock()) else row[2] - row[3]
+
     def verify(self, code: str | None) -> bool:
         with self._lock:
             row = self._lookup(code)
-        return row is not None and row[4] == LIVE and row[3] < row[2]
+            return row is not None and row[4] == LIVE and self._left(row) > 0
 
     def status(self, code: str | None) -> CodeStatus | None:
+        """A code past its last day reads as spent, with nothing left, whatever it still held."""
         with self._lock:
-            row = self._lookup(code)
+            return self._status_of(self._lookup(code))
+
+    def status_of_hash(self, code_hash: str) -> CodeStatus | None:
+        """The same for a code known by its hash, as an account holds it."""
+        with self._lock:
+            return self._status_of(self._row(code_hash))
+
+    def _status_of(self, row) -> CodeStatus | None:
         if row is None:
             return None
-        return CodeStatus(kind=row[1], status=row[4], tokens_total=row[2], tokens_used=row[3], daily_ceiling=row[5])
+        expired = row[4] != VOID and _expired(row[6], self._clock())
+        return CodeStatus(
+            kind=row[1], status=SPENT if expired else row[4], tokens_total=row[2], tokens_used=row[3],
+            daily_ceiling=row[5], expires_on=row[6], expired=expired,
+        )
 
     def reserve(self, code: str | None, count: int = 1) -> Admission:
         """Holds count tokens (what the turn would draw),
         or says why not. Reasons: paused, unknown, void, spent, insufficient
         (fewer than count remain), in_use (the rest are held by sittings in
-        flight), daily_ceiling (a group code's day is full)."""
+        flight), daily_ceiling (a group code's day is full). A code past its
+        last day is refused as spent."""
+        with self._lock:
+            return self._reserve_row(self._lookup(code), count)
+
+    def reserve_hash(self, code_hash: str, count: int = 1) -> Admission:
+        """The same for a code known by its hash, as an account holds it."""
+        with self._lock:
+            return self._reserve_row(self._row(code_hash), count)
+
+    def _reserve_row(self, row, count: int) -> Admission:
         if count < 1:
             raise ValueError("count must be at least 1")
         with self._lock:
             if self.is_paused():
                 return Admission(False, "paused")
-            row = self._lookup(code)
             if row is None:
                 return Admission(False, "unknown")
-            code_hash, _kind, total, used, status, ceiling = row
+            code_hash, _kind, total, used, status, ceiling, expires_on = row
             if status == VOID:
                 return Admission(False, "void")
-            if used >= total:
+            if used >= total or _expired(expires_on, self._clock()):
                 return Admission(False, "spent")
             if total - used < count:
                 return Admission(False, "insufficient")
@@ -410,7 +490,8 @@ class Meter:
 
     def settle(self, reservation: Reservation, ok: bool) -> int | None:
         """Spends the held tokens when ok, returns it when not. Returns what
-        the code has left, or None if the code was voided while held."""
+        the code has left, or None if the code was voided, or passed its last
+        day, while held: then nothing is spent."""
         with self._lock:
             if reservation.done:
                 return None
@@ -422,13 +503,14 @@ class Meter:
                 self._reserved.pop(reservation.code_hash, None)
             if not ok:
                 row = self._row(reservation.code_hash)
-                return None if row is None or row[4] == VOID else row[2] - row[3]
+                return None if row is None or row[4] == VOID else self._left(row)
             today = self._clock()
             updated = self._conn.execute(
                 "UPDATE meter SET tokens_used = tokens_used + ?, week_last_used = ?,"
                 " status = CASE WHEN tokens_used + ? >= tokens_total THEN 'spent' ELSE status END"
-                " WHERE code_hash = ? AND status != 'void' AND tokens_used + ? <= tokens_total",
-                (reservation.count, week_of(today), reservation.count, reservation.code_hash, reservation.count),
+                " WHERE code_hash = ? AND status != 'void' AND tokens_used + ? <= tokens_total"
+                " AND (expires_on IS NULL OR expires_on >= ?)",
+                (reservation.count, week_of(today), reservation.count, reservation.code_hash, reservation.count, today.isoformat()),
             ).rowcount
             if not updated:
                 return None
@@ -437,8 +519,7 @@ class Meter:
                 (day, count + reservation.count) if day == today.isoformat() else (today.isoformat(), reservation.count)
             )
             self._count("tokens_spent", reservation.count, today.isoformat())
-            row = self._row(reservation.code_hash)
-            return row[2] - row[3]
+            return self._left(self._row(reservation.code_hash))
 
     def release(self, reservation: Reservation) -> None:
         self.settle(reservation, False)
@@ -473,7 +554,7 @@ class Meter:
         logger.warning("codes %s", "paused" if on else "unpaused")
 
     def set_state(self, key: str, value: str) -> None:
-        """Keeps one named value that must survive a restart (the pause, the door's last stage)."""
+        """Keeps one named value that must survive a restart (the pause)."""
         with self._lock:
             self._conn.execute(
                 "INSERT INTO state (key, value) VALUES (?, ?) ON CONFLICT (key) DO UPDATE SET value = excluded.value", (key, value)
@@ -523,6 +604,64 @@ class Meter:
         what was drawn is not remembered across a restart (tests and local use)."""
         return hmac.new(self._free_secret, visitor.encode("utf-8"), hashlib.sha256).hexdigest()[:32]
 
+    def live_code_hashes(self) -> list[str]:
+        """The hash of every code that is live with tokens left and not past its last day, for an
+        account to find its own."""
+        today = self._clock().isoformat()
+        with self._lock:
+            return [r[0] for r in self._conn.execute(
+                "SELECT code_hash FROM meter WHERE status = 'live' AND tokens_used < tokens_total"
+                " AND (expires_on IS NULL OR expires_on >= ?)", (today,)
+            )]
+
+    def code_generation(self) -> tuple[int, int]:
+        """(rows, live rows): changes when a code is minted, spent, voided or purged, even when the
+        live count alone would stay the same."""
+        with self._lock:
+            row = self._conn.execute("SELECT COUNT(*), COALESCE(SUM(status = 'live'), 0) FROM meter").fetchone()
+        return (row[0], row[1])
+
+    def account_window_start(self, refill_day: int) -> date:
+        """The most recent refill day on or before today. A refill day is 1 to 28, so every month has it."""
+        today = self._clock()
+        if today.day >= refill_day:
+            return today.replace(day=refill_day)
+        last_month = today.replace(day=1) - timedelta(days=1)
+        return last_month.replace(day=refill_day)
+
+    def account_window_spent(self, key_hash: str, refill_day: int) -> int:
+        """What this account has drawn since its last refill day; 0 in a new window."""
+        start = self.account_window_start(refill_day).isoformat()
+        with self._lock:
+            row = self._conn.execute("SELECT window_start, spent FROM account_window WHERE key_hash = ?", (key_hash,)).fetchone()
+        return row[1] if row is not None and row[0] == start else 0
+
+    def account_window_spend(self, key_hash: str, refill_day: int, amount: int, window_start: date | None = None) -> None:
+        """Adds a settled draw to the window it was reserved in. If that window has ended since,
+        the turn was carried by it and nothing is taken from the new one."""
+        start = self.account_window_start(refill_day).isoformat()
+        if window_start is not None and window_start.isoformat() != start:
+            return
+        with self._lock:
+            self._conn.execute(
+                "INSERT INTO account_window (key_hash, window_start, spent) VALUES (?, ?, ?)"
+                " ON CONFLICT (key_hash) DO UPDATE SET"
+                " spent = CASE WHEN window_start = excluded.window_start THEN spent + excluded.spent ELSE excluded.spent END,"
+                " window_start = excluded.window_start",
+                (key_hash, start, amount),
+            )
+
+    def account_window_seed(self, key_hash: str, refill_day: int, spent: int) -> None:
+        """A new account starts with what is left of its browser's window: the amount that browser
+        had already drawn is entered as spent, once, and never overwrites a window already begun."""
+        if spent < 1:
+            return
+        start = self.account_window_start(refill_day).isoformat()
+        with self._lock:
+            self._conn.execute(
+                "INSERT OR IGNORE INTO account_window (key_hash, window_start, spent) VALUES (?, ?, ?)", (key_hash, start, spent)
+            )
+
     def free_window_spent(self, key_hash: str) -> int:
         """What this key has drawn in its current window; 0 once the window has ended."""
         with self._lock:
@@ -556,8 +695,9 @@ class Meter:
         with self._lock:
             rows = self._conn.execute(
                 "SELECT payment_id, kind, COUNT(*), SUM(tokens_total), SUM(tokens_used), MIN(day_created)"
-                " FROM meter WHERE status != 'void' AND payment_id NOT LIKE 'admin\\_%' ESCAPE '\\' AND payment_id NOT LIKE 'pilot\\_%' ESCAPE '\\'"
-                " GROUP BY payment_id ORDER BY MIN(day_created), payment_id"
+                f" FROM meter WHERE status != 'void' AND NOT ({_GRANT_IDS})"
+                " GROUP BY payment_id ORDER BY MIN(day_created), payment_id",
+                _GRANT_PATTERNS,
             ).fetchall()
         return [
             {"payment_id": pid, "kind": kind, "codes": codes_n, "tokens_bought": total, "tokens_left": total - used, "day_bought": day}
@@ -567,31 +707,37 @@ class Meter:
 
     def grants(self, days: int = 2) -> list[dict]:
         """The grants made on the last few days, by grant id, so one whose response was lost can be cancelled.
-        Ids, counts and token totals only; the codes stay hashed."""
+        Ids, counts, token totals and a tester code's last day only; the codes stay hashed."""
         since = (self._clock() - timedelta(days=days - 1)).isoformat()
         with self._lock:
             rows = self._conn.execute(
-                "SELECT payment_id, COUNT(*), SUM(tokens_total), SUM(tokens_used), MIN(day_created), SUM(status = 'void')"
-                " FROM meter WHERE day_created >= ? AND (payment_id LIKE 'admin\\_%' ESCAPE '\\' OR payment_id LIKE 'pilot\\_%' ESCAPE '\\')"
+                "SELECT payment_id, COUNT(*), SUM(tokens_total), SUM(tokens_used), MIN(day_created), SUM(status = 'void'), MAX(expires_on)"
+                f" FROM meter WHERE day_created >= ? AND ({_GRANT_IDS})"
                 " GROUP BY payment_id ORDER BY MIN(day_created) DESC, payment_id",
-                (since,),
+                (since, *_GRANT_PATTERNS),
             ).fetchall()
         return [
-            {"grant_id": pid, "codes": n, "tokens": total, "tokens_used": used, "day": day, "codes_void": voided}
-            for pid, n, total, used, day, voided in rows
+            {"grant_id": pid, "codes": n, "tokens": total, "tokens_used": used, "day": day, "codes_void": voided, "expires_on": last}
+            for pid, n, total, used, day, voided, last in rows
         ]
 
     def join_pilot(
-        self, audience: str, address: str, tokens: int, grant_id: str, *, open_: bool, end_date: date, cap: int, per_address: int,
+        self, audience: str, address: str, tokens: int, grant_id: str, *,
+        role: str, open_: bool, end_date: date, cap: int, per_address: int,
     ) -> str:
         """Gives one pilot code to an address, or raises PilotRefused. Each
         audience has its own cap and its own count per address. The checks,
-        the count and the code commit together, so two joins at once cannot both
-        take the last place. The address is kept only as a keyed hash, with how
-        many codes it has had and the day of its first; each audience's total
-        given is one number that outlives those rows."""
+        the counts and the code commit together, so two joins at once cannot both
+        take the last place, and a refused join counts nothing. The address is
+        kept only as a keyed hash, with how many codes it has had and the day of
+        its first; each audience's total given, and its count for each role in
+        PILOT_ROLES, are plain numbers that outlive those rows and name no code
+        or address."""
+        if role not in PILOT_ROLES:
+            raise ValueError(f"unknown pilot role {role!r}")
         key = self.free_key(f"pilot:{audience}:{address}")
         total_key = f"pilot_total:{audience}"
+        role_key = f"pilot_role:{audience}:{role}"
 
         def gate(conn: sqlite3.Connection, today: str) -> None:
             if not open_:
@@ -614,6 +760,11 @@ class Meter:
                 "INSERT INTO state (key, value) VALUES (?, ?) ON CONFLICT (key) DO UPDATE SET value = excluded.value",
                 (total_key, str(total + 1)),
             )
+            role_row = conn.execute("SELECT value FROM state WHERE key = ?", (role_key,)).fetchone()
+            conn.execute(
+                "INSERT INTO state (key, value) VALUES (?, ?) ON CONFLICT (key) DO UPDATE SET value = excluded.value",
+                (role_key, str((int(role_row[0]) if role_row else 0) + 1)),
+            )
 
         (code,) = self.mint("single", tokens, grant_id, 1, source="pilot", within=gate)
         return code
@@ -621,6 +772,14 @@ class Meter:
     def pilot_total(self, audience: str) -> int:
         value = self.get_state(f"pilot_total:{audience}")
         return int(value) if value else 0
+
+    def pilot_roles(self, audience: str) -> dict[str, int]:
+        """How many joins of an audience named each role, with every role listed."""
+        counts = {}
+        for role in PILOT_ROLES:
+            value = self.get_state(f"pilot_role:{audience}:{role}")
+            counts[role] = int(value) if value else 0
+        return counts
 
     def _add(self, measure: str, amount: int, day: str) -> None:
         self._conn.execute(
@@ -644,17 +803,6 @@ class Meter:
         with self._lock:
             self._add(name, amount, self._clock().isoformat())
 
-    def measure_peak(self, name: str, value: int) -> None:
-        """Keeps today's highest value for a measure that is a level, not a count."""
-        if name not in MAX_MEASURES:
-            raise ValueError(f"unknown measure {name!r}")
-        with self._lock:
-            self._conn.execute(
-                "INSERT INTO daily (day, measure, total) VALUES (?, ?, ?)"
-                " ON CONFLICT (day, measure) DO UPDATE SET total = MAX(total, excluded.total)",
-                (self._clock().isoformat(), name, value),
-            )
-
     def measures(self, days: int = 14) -> list[dict]:
         """Daily totals, newest day first; a measure with nothing that day reads 0."""
         since = (self._clock() - timedelta(days=days - 1)).isoformat()
@@ -664,12 +812,12 @@ class Meter:
         for day, name, total in rows:
             by_day.setdefault(day, {})[name] = total
         return [
-            {"day": day, **{name: by_day[day].get(name, 0) for name in (*SUM_MEASURES, *MAX_MEASURES)}}
+            {"day": day, **{name: by_day[day].get(name, 0) for name in SUM_MEASURES}}
             for day in sorted(by_day, reverse=True)
         ]
 
     def add_funds(self, kind: str, cents: int, payment_id: str | None = None, note: str | None = None) -> str | None:
-        """Records money that raises the door's ceiling: a gift or a go-deeper
+        """Records money that came in: a gift or a go-deeper
         purchase from Stripe (keyed by its payment id, so a replayed event adds
         nothing and a payment refunded first adds nothing), or an adjustment by
         hand. Returns the entry's id (random, so the order entries were made in is
@@ -729,7 +877,8 @@ class Meter:
 
     def purge(self) -> int:
         """Deletes spent and void rows 30 days after the end of the week they
-        were last used, and the void memory on the same rule."""
+        were last used, and the void memory on the same rule. A code with a
+        last day is deleted 30 days after it, whatever it still held."""
         today = self._clock()
         cutoff = today - timedelta(days=RETENTION_DAYS)
         removed = 0
@@ -745,6 +894,9 @@ class Meter:
                         self._conn.execute(f"DELETE FROM {table} WHERE {key} = ?", (key_value,))
                         removed += 1
             removed += self._conn.execute(
+                "DELETE FROM meter WHERE expires_on IS NOT NULL AND expires_on <= ?", (cutoff.isoformat(),)
+            ).rowcount
+            removed += self._conn.execute(
                 "DELETE FROM reconcile WHERE day <= ?", ((today - timedelta(days=RECONCILE_RETENTION_DAYS)).isoformat(),)
             ).rowcount
             removed += self._conn.execute(
@@ -752,6 +904,9 @@ class Meter:
             ).rowcount
             removed += self._conn.execute(
                 "DELETE FROM free_window WHERE first_day <= ?", ((today - timedelta(days=self._free_window_days)).isoformat(),)
+            ).rowcount
+            removed += self._conn.execute(
+                "DELETE FROM account_window WHERE window_start <= ?", ((today - timedelta(days=62)).isoformat(),)
             ).rowcount
             removed += self._conn.execute(
                 "DELETE FROM daily WHERE day <= ?", ((today - timedelta(days=MEASURE_RETENTION_DAYS)).isoformat(),)

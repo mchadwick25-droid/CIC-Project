@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep108
-  locus: secs. 14, 19-20 (the paired communities and their discipline)
+  locus: secs. 10, 14, 19-20 (the paired communities and their discipline)
   license: public-domain
 - source_id: hal.source.sulpitius-dialogues
   locus: Dialogue I.8-9 (the community seen from outside)
@@ -28,8 +28,7 @@ retrieval:
   - who led whom at Bethlehem
 claim_guards:
 - do not supply schedule-level daily detail (not attested)
-plain_meaning: The monastery. At Bethlehem it meant two linked houses under one project. Jerome led
-  the men's house; Paula, then Eustochium, led the women's.
+plain_meaning: "The monastery. At Bethlehem it meant a men's house and a women's house under one project. The women lived in three companies that met to pray. Paula, then Eustochium, led the women."
 world_word: monasterium
 false_friend:
 - '"double monastery" as a formal institution (that label belongs to later medieval arrangements;
@@ -41,13 +40,10 @@ senses:
     - all raised and sustained from Paula''s fortune.'
   evidential: The general arrangement is well attested; specific daily-life and schedule details
     are modern reconstruction from one letter plus analogy, and are never to be presented as documented.
-  personal: 'Its site was its meaning: within sight of the cave the tradition held to be the place
-    of the Nativity. A prayer said elsewhere and the same prayer said there were, in this world''s
-    own reckoning, not quite the same act.'
+  personal: "The site was part of the meaning. The monastery lay near the cave that tradition named as the place of Christ's birth, and Jerome wrote that he prayed there himself."
   translational: 'Not an order with a written rule: a household discipline under a founder, on the
     pattern the founders had seen in Egypt, adapted into something Latin and literary.'
-quick_meaning: 'The Bethlehem monastery: two linked houses, one for men and one for women, under
-  one project.'
+quick_meaning: "The Bethlehem monastery. It had a men's house and a women's house, under one project."
 distortion_risk: medium
 use_note:
   means: "At Bethlehem, two linked households under one project, the men led by Jerome and the women by Paula and then Eustochium, funded from Paula's fortune."

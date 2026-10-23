@@ -29,11 +29,49 @@ doorway_description: >-
   English Puritanism.
 card_name: "The Reformed Cities"
 app: {order: 10, accent_color: "#8787A1", portrait: "/images/portraits/thumb/theophilus.webp"}
-representative: {name: Theophilus, role_label: Pastor}
+representative: {name: Theophilus}
 census_id: "the-reformed-cities-zurich-and-geneva"
-thinness_statement: "Richest in confessional and doctrinal content: Calvin's Institutes and Catechism, Zwingli's own founding statements and later writings, the Consensus Tigurinus, the Second Helvetic Confession - all directly vendored and verified. Thin to silent on ordinary lived practice and daily texture: no surviving account of what an ordinary Sunday service, a Consistory summons, or an ordinary citizen's own experience of either Reformation actually felt like - a genre asymmetry between richly vendored doctrinal content and almost entirely absent daily-practice content, not a gap filled with invention. No Tier 2, 3, or 4 story material survives or is built - this world's own confessional core actively refuses the devotional genre hagiography belongs to, and the absence is evidence the refusal worked, not a missing source. Three of this world's own most consequential documented events - the Marburg Colloquy (1529), the Bolsec controversy (1551), and the Perrinist crisis (1555) - have no vendored primary narrative source comparable to this world's own three built stories. Geneva's own specific institutional detail (the Consistory's weekly case-by-case operation) remains Confidence E pending the Ecclesiastical Ordinances' own acquisition; Calvin's own vendored corpus runs roughly four times Zwingli's, a disclosed Author-Gravity concentration distinct from the genre asymmetry above."
+thinness_statement: "Richest in confessional and doctrinal content: Calvin's Institutes and Catechism, Zwingli's own founding statements and later writings, the Consensus Tigurinus, the Second Helvetic Confession - all directly vendored and verified. Thin to silent on ordinary lived practice and daily texture: no surviving account of what an ordinary Sunday service, a Consistory summons, or an ordinary citizen's own experience of either Reformation actually felt like - a genre asymmetry between richly vendored doctrinal content and almost entirely absent daily-practice content, not a gap filled with invention. No Tier 2, 3, or 4 story material survives or is built - this Christian tradition's own confessional core actively refuses the devotional genre hagiography belongs to, and the absence is evidence the refusal worked, not a missing source. Three of this tradition's own most consequential documented events - the Marburg Colloquy (1529), the Bolsec controversy (1551), and the Perrinist crisis (1555) - have no vendored primary narrative source comparable to this tradition's own three built stories. Geneva's own specific institutional detail (the Consistory's weekly case-by-case operation) remains Confidence E pending the Ecclesiastical Ordinances' own acquisition; Calvin's own vendored corpus runs roughly four times Zwingli's, a disclosed Author-Gravity concentration distinct from the genre asymmetry above."
 living_tradition_flag: true
 state: admitted
 package:
-  manifest_hash: "sha256:0c1cf6d62cdc480075e764dab5516811050abf434574299d4cf535d3479db832"
-  location: "packages/rzg/2026-10-12T16-11-03Z"
+  manifest_hash: "sha256:0aa98e62afc26a958cc94ed5d63da167ec791193ff5a83feea5e3d3647c5d613"
+  location: "packages/rzg/2026-10-20T15-54-44Z"
+story_placement: false
+card:
+  portrait: "assets/portraits/theophilus.jpg"
+  intro: Theophilus is a representative voice for the Christian tradition of Zurich and Geneva (1519–1650). Scripture alone was held to test every church practice.
+  shaped:
+  - Zwingli
+  - Calvin
+  - Bullinger
+  summary: 'Two Swiss cities tested every church practice against one test: what Scripture truly warrants. At Zurich in 1519, Zwingli began preaching straight through Matthew, not the church calendar. At Geneva, where Calvin joined in 1536, doctrine was taught article by article through a Catechism. A Consistory of pastors and lay elders judged daily conduct by it. Zwingli and Calvin never met. The record is rich in doctrine. It says almost nothing of an ordinary Sunday.'
+  record_holds: Rich in doctrine and confessions. Thin to silent on what an ordinary Sunday or a Consistory summons felt like.
+  topics:
+  - word: Baptism
+    note: 'They baptised infants: Scripture''s covenant takes in a whole believing city, children included.'
+  - word: Communion
+    note: At the Supper the Spirit truly gives Christ, not a body in the bread.
+  - word: The Bible and how to read it
+    note: 'Scripture alone decides: Zurich argued it in public, Geneva taught it by catechism.'
+  - word: Saints and holy places
+    note: The cities refused saints' cults and the reverence that saints' lives aim to produce.
+  - word: Salvation and grace
+    note: God's free choice before creation decides who is saved, and grounds a settled life.
+  - word: Free will and predestination
+    note: Election is God's free choice; true faith is the only evidence given.
+  - word: Tradition and authority
+    note: Scripture alone, not church custom or a pope's decree, settles belief and church order.
+  - word: Learning and education
+    note: The cities taught the whole population fixed catechisms to learn by heart.
+  - word: Church leaders
+    note: Geneva held conduct to account through pastors and lay elders sitting as a Consistory.
+  - word: The emperor and the state
+    note: 'The cities never agreed: Zurich''s council ruled the church; Geneva''s Consistory won independence.'
+  - word: Heresy and false teaching
+    note: They held Rome, Wittenberg and the Anabaptists wrong by Scripture's test; this is contested.
+  - word: Church splits
+    note: The Anabaptists broke from Zurich's own circle; its council answered them with civil force.
+  keywords:
+  - calvinist
+  - calvinism

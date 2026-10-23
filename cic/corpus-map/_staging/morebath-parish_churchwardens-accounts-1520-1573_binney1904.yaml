@@ -1,0 +1,36 @@
+source_file: morebath-parish_churchwardens-accounts-1520-1573_binney1904.txt
+
+assignments:
+  - row_id: morebath-parish_churchwardens-accounts-1520-1573_binney1904--the-accounts-of-the-wardens-of-the-parish-of-morebath-1520-1573
+    work: "The Accounts of the Wardens of the Parish of Morebath, Devon, 1520-1573"
+    author: morebath-parish
+    locus: "Binney's introduction from file line 126; the accounts from line 274 (heading 'THE ACCOUNTS OF THE WARDENS of the PARISH OF MOREBATH'; the manuscript opens in 1526 with a summary of 1520 onward, as Binney notes there), year by year to 1573; Weaver's biographical index at the tail"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: tradition
+    confidence: assigned
+    note: >
+      One parish's own voice across the whole change, written by its vicar
+      Christopher Trychay: the stores and lights of St Sidwell, St George and the
+      rest in the 1520s, the church ales, the sale of the vestments, the 1549
+      commotion as the accounts record it, the rood under Mary and after. The only vendored source in which ordinary
+      parishioners are named doing the Reformation. SECOND WITNESS for exact
+      wording (OCR of early-modern orthography and abbreviations is unreliable;
+      see the file header); readable and searchable, but a quote must be checked
+      against the page images.
+
+  - row_id: morebath-parish_churchwardens-accounts-1520-1573_binney1904--the-accounts-of-the-wardens-of-the-parish-of-morebath-1520-1573-2
+    work: "The Accounts of the Wardens of the Parish of Morebath, Devon, 1520-1573 (the pre-1536 accounts)"
+    author: morebath-parish
+    locus: "the accounts from file line 274 to the Henrician injunctions of 1536-38, the first decade of the record"
+    atlas_ids:
+      - late-medieval-lay-parish-piety
+    role: tradition
+    confidence: provisional
+    note: >
+      The first ten years of the accounts (1520-1535) show late-medieval parish
+      piety in working order: the stores of Our Lady, St George and St Sidwell,
+      the lights, the church ales, the gifts of sheep and bees. The atlas window
+      for that world closes at 1517, three years before the record begins, so
+      this is placed on substance rather than date and left provisional for that
+      world's own reading. Same OCR caveat as above.

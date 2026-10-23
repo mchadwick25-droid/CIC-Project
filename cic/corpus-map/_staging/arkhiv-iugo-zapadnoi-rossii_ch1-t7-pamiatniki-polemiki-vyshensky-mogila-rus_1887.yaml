@@ -1,0 +1,86 @@
+source_file: arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887.txt
+authors_ruled:
+  mogila:
+    kind: metadata-omission
+    evidence: The file name carries the series title; the contents list (about file line 34710) and the
+      section heading at file line 2462 read 'Собственноручныя записки Петра Могилы' (Peter Mohyla's autograph
+      notes), with the editor's notes marking what is 'не рукою Могилы'.
+  vyshensky:
+    kind: metadata-omission
+    evidence: The section heading at file line 1244 reads 'Неизданныя сочиненія и посланія Іоанна Вишенскаго'
+      and the contents list repeats it; supplied from the volume.
+  vilnius-orthodox-brotherhood:
+    kind: anonymous
+    evidence: The contents list (about file line 34710) describes items VIII, IX, XI, XII and XIII as
+      published by the Vilnius Orthodox brotherhood and item X as published by the Latin-Uniates in 1621,
+      without personal authors; treated as a work-entity for the group, with the Uniate item named in
+      the note.
+assignments:
+- row_id: arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887--peter-mohyla-s-autograph-notes-tales-of-miracles-and-notable
+  work: 'Peter Mohyla''s autograph notes: tales of miracles and notable events in the Orthodox church,
+    canons and hymns, reflections on the monastic life, notes on gifts for St Sophia and the Tithe church,
+    book catalogues of 1632-1633'
+  author: mogila
+  locus: 'section IV from file line 2462 (''Собственноручныя записки Петра Могилы''): the tales from file
+    line 2464, the reflections on monastic life at file line 7637, the notes on gifts at file line 8038,
+    then the household notes and book catalogues (contents list at about file line 34710)'
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: tradition
+  confidence: assigned
+  note: 'Mohyla in his own hand: the stories of miracles he collected, the canons he composed, his reasoning
+    on the monastic life, what he spent on St Sophia and what books he bought in Warsaw and Krakow in
+    1632-1633. The friendly inside voice the first-pass dossier said was thin. Readable Cyrillic OCR with
+    the editor''s notes marking what is not in Mohyla''s hand; quote after a page-image check.'
+- row_id: arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887--ivan-vyshensky-unpublished-writings-and-epistles-the
+  work: Ivan Vyshensky, unpublished writings and epistles (the Exposure of the devil, the epistle to the
+    Lviv brotherhood, to the nun Domnikiia, to Iov Kniahynytsky, the Mental Spectacle of 1614-1616)
+  author: vyshensky
+  locus: section III from file line 1244 to file line 2461
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: antecedent
+  confidence: provisional
+  note: 'The Athonite Ruthenian monk''s letters of about 1600-1616 to the Lviv brotherhood and others,
+    written against the union and against Latin learning: the ascetic Orthodox voice the Kyiv school both
+    inherited and answered. Before the window (1615); the Kyiv thread may prefer context.'
+- row_id: arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887--ivan-vyshensky-unpublished-writings-and-epistles-the-2
+  work: Ivan Vyshensky, unpublished writings and epistles (the Exposure of the devil, the epistle to the
+    Lviv brotherhood, to the nun Domnikiia, to Iov Kniahynytsky, the Mental Spectacle of 1614-1616)
+  author: vyshensky
+  locus: section III from file line 1244 to file line 2461
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: context
+  confidence: assigned
+  note: An Orthodox monk's voice against the union in its first generation, including the epistle to the
+    Lviv brotherhood; the other side of the Brest argument in a personal register. Readable OCR.
+- row_id: arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887--the-vilnius-pamphlets-of-1621-1632-verificatia-niewinnosci
+  work: The Vilnius pamphlets of 1621-1632 (Verificatia niewinnosci and its Obrona, the Uniate Sowita
+    wina, Iustificatia niewinnosci, the Synopsis of 1632 and its Supplementum), with the Key of the Kingdom
+    of Heaven (1587), Potii's 1605 publication of Misail's letter, and the 1616 reply to the Vilnius Uniates
+  author: vilnius-orthodox-brotherhood
+  locus: sections V to XIII, after the Mohyla notes (from about file line 8300 to the indexes at about
+    file line 32000); exact lines not located because the Polish OCR is garbled; the contents list at
+    about file line 34710 gives the printed pages 193-649
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: tradition
+  confidence: provisional
+  note: 'The Vilnius brotherhood''s defence of the hierarchy that Patriarch Theophanes restored in 1620,
+    and its 1632 pleas at the election diet: the Orthodox case in Polish, with the Uniate reply (Sowita
+    wina) between them. Second witness only: the OCR read the Latin type as Cyrillic look-alikes. Provisional
+    because the texts could not be sampled as text.'
+- row_id: arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887--the-vilnius-pamphlets-of-1621-1632-verificatia-niewinnosci-2
+  work: The Vilnius pamphlets of 1621-1632 (Verificatia niewinnosci and its Obrona, the Uniate Sowita
+    wina, Iustificatia niewinnosci, the Synopsis of 1632 and its Supplementum), with the Key of the Kingdom
+    of Heaven (1587), Potii's 1605 publication of Misail's letter, and the 1616 reply to the Vilnius Uniates
+  author: vilnius-orthodox-brotherhood
+  locus: same as the Kyiv row
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: tradition
+  confidence: provisional
+  note: Both sides of the 1621-1622 pamphlet war over the restored Orthodox hierarchy, and Potii's 1605
+    publication of the 1476 Misail letter as a union precedent (section V). The Uniate item (Sowita wina)
+    is the union's own voice; the rest is the Orthodox answer. Second witness, Polish garbled.

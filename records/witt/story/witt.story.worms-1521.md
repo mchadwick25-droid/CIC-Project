@@ -22,15 +22,16 @@ confidence:
     must carry that provenance and disclose that its verbatim authenticity is contested in the wider scholarship.
 sources:
 - source_id: witt.source.luther-selections-from-the-table-talk
-  locus: '"Of Luther''s Journey and Proceedings at the Imperial Diet at Worms, Anno 1520" [Table Talk''s
-    own heading date; the Diet itself was 1521] - the herald, the "tiles" saying, Bucer''s warning, the
-    Landgrave of Hesse, and the exchange with Dr. Eck before the assembled Empire, verified verbatim at
-    this locus'
+  locus: >-
+    "Of Luther's Journey and Proceedings at the Imperial Diet at Worms, Anno 1520" [Table Talk's own heading
+    date; the Diet itself was 1521] - the herald, the "tiles" saying, Bucer's warning, the Landgrave of
+    Hesse, and the exchange with Dr. Eck before the assembled Empire
   license: public-domain
 - source_id: witt.source.coleridge-heine
-  locus: Carlyle's rendering of the Worms saying, including "Here I stand - I cannot do otherwise - God
-    be my help, Amen," as quoted in Bacon's Introduction - cited only to disclose its separate, weaker
-    provenance, never voiced as this library's own primary wording
+  locus: >-
+    Carlyle's rendering of the Worms saying, including "Here I stand - I cannot do otherwise - God be
+    my help, Amen," as quoted in Bacon's Introduction - cited only to show its separate, weaker provenance,
+    not as Luther's recorded wording
   license: public-domain
 retrieval:
   tier: 1
@@ -56,25 +57,27 @@ narrative_tier_justification: 'Tier 2, Collected and Traditional Material, on id
   event''s general shape (the summons, the Diet, the refusal to recant) is Widely Accepted; the specific
   wording, including the sentence popular memory most associates with this story, is Contested (Doc_09
   witt-S03).'
-tellable_as: Warned that he has already been condemned before he even arrives, and that the road to Worms
-  may end in fire, a young friar answers that he will go anyway - "though there were as many devils in
-  Worms as there are tiles on the houses" - and stands, the next day, before the Emperor and the assembled
-  princes of the Empire, refusing to take back what he has written unless he can be shown from Scripture
-  that he is wrong.
-text: 'This is how Luther himself told the story of Worms, years afterward, to the students gathered at
-  his table.
+tellable_as: >-
+  Warned on the road that he is already condemned at Worms, Luther answers that he will go anyway, "although
+  in Worms there were as many devils as there are tiles on the houses." Warned again that he may be burned,
+  he goes on. Before the Emperor and the assembled Empire he says he cannot give up his books of doctrine.
+  The next day, before the Bishops, he says he will accept instruction in everything except what touches
+  the Holy Scriptures.
+text: >-
+  This is how Luther himself told the story of Worms, years afterward, to the students gathered at his
+  table.
 
   He had been cited to appear before the Diet, he said, carrying an imperial safe-conduct - and that safe-conduct
   was broken within a day of his leaving, when he was condemned at Worms and his books were burned, before
   he had even arrived. By the time he reached Erfurt, on the road, word had already spread that he was
-  condemned; the herald who rode with him asked whether he still meant to go on. "Although I was somewhat
-  astonished at the news," Luther told his students, "yet I answered the herald, and said, although in
-  Worms there were as many devils as there are tiles on the houses, yet, God willing, I will go thither."
+  condemned; the herald asked whether he still meant to go on. "Although I was somewhat astonished at
+  the news," Luther told his students, "yet I answered the herald, and said, although in Worms there were
+  as many devils as there are tiles on the houses, yet, God willing, I will go thither."
 
-  Near Worms, at Oppenheim, Martin Bucer came to warn him off the city entirely - the Emperor''s own confessor,
+  Near Worms, at Oppenheim, Martin Bucer came to warn him off the city entirely - the Emperor's own confessor,
   Bucer said, had heard that Luther would be burned, and urged him to hide instead with a nearby gentleman.
   Luther went on anyway, in what he called "all simplicity," and was received into lodging by two men
-  sent at the Elector''s own command. A young Landgrave of Hesse, hearing he had come, told him plainly:
+  sent at the Elector's own command. The young Landgrave of Hesse, who wanted him heard, told him openly:
   "Sir, is your cause just and upright, then I beseech God to assist you."
 
   Then he was called before the Senate House, where the Emperor and the Electors themselves sat assembled.
@@ -85,23 +88,23 @@ text: 'This is how Luther himself told the story of Worms, years afterward, to t
   controversial ones, he said, he was willing to be corrected, and asked for time to consider. He was
   given one day and one night.
 
-  The next day he was called again, before the Bishops appointed to press him on his revocation. "God''s
+  The next day he was called again, before the Bishops appointed to press him on his revocation. "God's
   Word is not my word," he told them, "therefore I know not how to give it away; but in whatsoever is
-  therein, besides the same, I will show obedience." Pressed to refer the whole matter to the Emperor''s
-  own judgment, he refused - "I durst not presume so to do" - and when they asked whether he trusted them,
-  as fellow Christians, to conclude the cause uprightly, he answered plainly that he did not, "who even
-  now have cast and condemned me, being under safe-conduct"; yet, to show his own good faith, he offered
-  to give up the safe-conduct itself and let them do with him as they pleased. The princes themselves
-  judged it enough, "if not too much." Pressed once more to yield on some articles, he held the same
-  line: whatever did not touch the Holy Scriptures, he would not stand against. Word reached the Emperor,
-  wrongly, that he had recanted after all; a Bishop was sent to ask whether he had referred the cause to
-  Imperial judgment. He had not, he said, and never intended to.
+  therein, besides the same, I will show obedience." They pressed him to refer the whole matter to the
+  Emperor's judgment. He refused: "I durst not presume so to do." They asked whether he trusted them,
+  as fellow Christians, to settle the cause uprightly. He said plainly that he did not, "who even now
+  have cast and condemned me, being under safe-conduct." To show his good faith, he offered to give up
+  the safe-conduct and let them do with him as they pleased. The princes themselves judged it enough,
+  "if not too much." Pressed once more to yield on some articles, he held the same line: whatever did
+  not touch the Holy Scriptures, he would not stand against. Word reached the Emperor, wrongly, that he
+  had recanted after all; a Bishop was sent to ask whether he had referred the cause to Imperial judgment.
+  He had not, he said, and never intended to.
 
-  The sentence most people today know this story by, "Here I stand,
-  I cannot do otherwise, God help me," does not appear anywhere in Luther''s own account as this library
-  holds it - not at this moment or any other. It reaches this library only secondhand, through a
-  nineteenth-century writer''s own translation, quoted by a hymn-book editor generations later - not from
-  Luther''s own retelling at his table.'
+  The sentence most people today know this story by does not appear anywhere in Luther's own account in
+  the Table Talk, at this moment or any other. The nearest wording we hold is "Here I stand - I cannot
+  do otherwise - God be my help, Amen." It reaches us only secondhand, through a nineteenth-century writer's
+  translation, quoted by a hymn-book editor later still.
+telling: "At Erfurt, on the road to Worms, a herald asked Luther whether he still meant to go on. Word had spread that he was condemned.\n\nSo Luther told it, years later, to the students at his table. He had been summoned to the Diet under an imperial safe-conduct, and within a day of his leaving it was broken. His books were burned at Worms before he arrived. He answered the herald that he would go, \"although in Worms there were as many devils as there are tiles on the houses.\"\n\nBefore the Emperor and Electors, Dr. Eck asked whether the books on the table were his. He said they were his. Some were books of doctrine, and those he could not recant. He asked for time to consider, and was given one day and one night.\n\nThe next day the Bishops pressed him. God's Word, he told them, was not his word, so he did not know how to give it away. In whatever did not touch the Holy Scriptures, he would obey.\n\nWord reached the Emperor, wrongly, that he had recanted. A Bishop came to ask if he had left his cause to the Emperor. He had not, Luther said, and never meant to."
 absent_detail: This library's own text of Luther's retelling does not include the words "Here I stand,
   I cannot do otherwise" in any form, at the moment of his final refusal or anywhere else - it does go on
   to quote his actual answer the next day at length ("God's Word is not my word..." and the exchange that
@@ -115,13 +118,19 @@ modern_contrast: A modern reader almost certainly knows Worms through one senten
   road toward it. The two sayings serve the same function in memory - defiance in the face of danger -
   but only one of them is this library's own directly attested wording from Luther's own mouth.
 use_note:
-  means: "Luther told how he went to Worms despite warnings, and next day refused to recant unless shown from Scripture that he was wrong."
+  means: >-
+    Luther told how he went to Worms despite warnings, and next day said he would accept correction in
+    everything except what touches the Holy Scriptures.
   not_for:
-    - "'Here I stand, I cannot do otherwise' as Luther's own recorded words, since it reaches the library only through Carlyle"
-    - "the earlier confrontation at Augsburg, which sits in witt.story.augsburg-before-cajetan"
-    - "a contemporary transcript of the Diet, this being Luther's later retelling"
-    - "the Table Talk chapter heading's 'Anno 1520' as the date of Worms"
-  years: {from: 1521, to: 1546}
+  - >-
+    'Here I stand, I cannot do otherwise' as Luther's own recorded words, since it reaches the library
+    only through Carlyle
+  - the earlier confrontation at Augsburg, which sits in witt.story.augsburg-before-cajetan
+  - a contemporary transcript of the Diet, this being Luther's later retelling
+  - the Table Talk chapter heading's 'Anno 1520' as the date of Worms
+  years:
+    from: 1521
+    to: 1546
   status: reviewed
 ---
 Converted at B-4 from Doc_09 witt-S03 (witt_Doc_09_Story_Inventory.md SS2), including that document's

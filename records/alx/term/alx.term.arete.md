@@ -30,10 +30,10 @@ retrieval:
   - asking about wisdom specifically (retrieve alx.term.sophia)
   - asking about love specifically (retrieve alx.term.agape)
 relations: []
-plain_meaning: Not a habit built by effort, but the visible fruit of a soul truly changed.
+plain_meaning: "The fruit of a soul truly changed. Clement held that training and the exercise of will had a part, but the lasting result was a changed soul."
 world_word: arete
 false_friend:
-- excellence built through repeated practice, as in Aristotle
+- excellence that practice alone produces
 - correct moral decisions made through good reasoning
 senses:
   informational: On the inherited Greek account, virtue is a skill built by habituated practice - courage
@@ -42,17 +42,12 @@ senses:
   evidential: Clement holds virtue, love, and knowledge of God together as one thing in the mature
     believer, not three separate achievements; Athanasius's account of Antony shows virtue as what a
     lifetime of formation leaves visible in a person.
-  personal: Two people can perform the same courageous act - one because they decided to, one because
-    formation has actually reordered what they want. Only the second is virtue in the sense this world
-    means.
-  translational: >-
-    Isn't virtue just excellence built through practice, like Aristotle taught? This world located virtue
-    somewhere else - not a skill the soul builds, but the visible fruit of a soul formation has already
-    changed.
-quick_meaning: Not a habit built by effort - the fruit of a soul truly changed.
+  personal: "Courage that came out of a soul changed by formation was what we called virtue. Training and will had their part, but they were not the whole."
+  translational: "Isn't virtue just excellence built through practice, like Aristotle taught? Practice had a place in Clement's account, but this world located virtue in the soul that formation has changed. Virtue was the visible fruit of that change."
+quick_meaning: "The fruit of a soul truly changed, with training and will playing a part."
 distortion_risk: high
 use_note:
-  means: "Arete meant virtue as something a soul receives, the visible fruit of desire reordered by formation, not a skill built by habituated practice."
+  means: "Arete meant virtue as the fruit of a soul changed by formation, with training and will playing a part."
   not_for:
     - "describing it as Aristotelian excellence built through repeated practice"
     - "presenting it as correct moral choices reached by good reasoning"

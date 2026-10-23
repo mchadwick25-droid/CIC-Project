@@ -1,0 +1,56 @@
+source_file: gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt
+
+assignments:
+  - row_id: gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881--histoire-ecclesiastique-des-eglises-vaudoises-tome-i
+    work: "Histoire ecclésiastique des Églises Vaudoises de l'an 1160 au 1643, Tome premier (chapters I-XXXVIII)"
+    author: gilles
+    locus: "whole file; 'CHAPITRE PREMIER' at line 383, the account of the 1532 synod and Farel's visit in the chapters around line 2447, chapter XIV at line 5254, chapter XXXVIII at the end"
+    atlas_ids:
+      - the-waldensian-reformed-union
+    role: tradition
+    confidence: assigned
+    note: >
+      Pierre Gilles, pastor of La Tour, wrote the valleys' own history at the
+      synod's request and printed it at Geneva in 1644; this is the 1881
+      Pignerol re-edition. Tome I runs from the origins to the 1580s, so the
+      union of 1532, the Olivetan Bible, the wars of 1560-61 and the first
+      Reformed generation are in this volume. Primary voice in French, OCR
+      clean; ready to quote once each quote is verified against the page
+      image. No public-domain English translation exists.
+  - row_id: gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881--histoire-ecclesiastique-des-eglises-vaudoises-tome-i-2
+    work: "Histoire ecclésiastique des Églises Vaudoises, Tome premier, the chapters on the valleys before 1532"
+    author: gilles
+    locus: "from 'CHAPITRE PREMIER' at line 383 to the chapters on the synod of 1532 around line 2447"
+    atlas_ids:
+      - waldensians-in-the-alps
+    role: tradition
+    confidence: provisional
+    note: >
+      The community's own account of its medieval past, written in the 1640s
+      from documents and memory. The same community a century later; a build
+      decides whether that is voice or context for the medieval window.
+      Placed on content read in part, so provisional.
+  - row_id: gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881--histoire-ecclesiastique-des-eglises-vaudoises-tome-i-3
+    work: "Histoire ecclésiastique des Églises Vaudoises, Tome premier, the opening chapters on the origins"
+    author: gilles
+    locus: "'CHAPITRE PREMIER' at line 383 and the chapters following"
+    atlas_ids:
+      - the-waldensians
+    role: context
+    confidence: provisional
+    note: >
+      A 1644 statement of the valleys' own origin tradition (the claim of a
+      church older than Waldo). Context for the origins entry, not evidence
+      for the twelfth century.
+  - row_id: gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881--histoire-ecclesiastique-des-eglises-vaudoises-tome-i-4
+    work: "Histoire ecclésiastique des Églises Vaudoises, Tome premier, the chapters on the synod of 1532 and the Geneva connection"
+    author: gilles
+    locus: "the chapters around line 2447 (Farel and Saunier at the 1532 synod) and the chapters following on the French Bible"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: context
+    confidence: provisional
+    note: >
+      The valleys' side of the 1532 meeting with Farel and Saunier and of the
+      Bible the valleys paid for. Placed on the window and the named figures
+      without reading the whole chapter.

@@ -21,10 +21,9 @@ text: I, I say, have no cause for a charge of contumacy against you, but have ca
   offer the sacrifice if you intend to be present. Is that which is not allowed after shedding the blood
   of one innocent person, allowed after shedding the blood of many? I do not think so.
 modern_rendering: >-
-  I have no reason, I say, to charge you with defiance; but I do have reason
-  to fear. I dare not offer the sacrifice if you intend to be present. Is
-  something that is not allowed after the blood of one innocent person has
-  been shed, allowed after the blood of many? I do not think so.
+  I, I say, have no reason to charge you with defiance, but I have reason to fear. I dare not offer
+  the sacrifice if you intend to be present. Is what is not allowed after shedding one innocent
+  person's blood allowed after shedding the blood of many? I do not think so.
 speaker_or_author: ijc.figure.ambrose
 license: verbatim
 modern_lens_note: >-

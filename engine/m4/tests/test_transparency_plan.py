@@ -29,7 +29,7 @@ STORY_ID = next(rid for rid, r in REPO.items() if r.get("record_type") == "story
 QUOTE_ID = "alx.quote.a-doctrine-they-would-not-have-taught"
 WITNESS_ID = next(rid for rid, r in REPO.items() if r.get("record_type") == "doctrinal_witness")
 GRAVITY_ID = next(rid for rid, r in REPO.items() if r.get("record_type") == "gravity")
-QUOTED_WORDS = "his disciples committed themselves to teaching a doctrine"
+QUOTED_WORDS = "gave themselves to teaching a doctrine"
 # A quotation the voice actually speaks is checked against modern_rendering,
 # never text (item 3, the modern_rendering-required gate: text is never
 # voiced). This phrase is drawn from the record's own modern_rendering

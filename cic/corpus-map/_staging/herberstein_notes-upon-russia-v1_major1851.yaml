@@ -1,0 +1,31 @@
+source_file: herberstein_notes-upon-russia-v1_major1851.txt
+
+assignments:
+  - row_id: herberstein_notes-upon-russia-v1_major1851--notes-upon-russia-herberstein-s-rerum-moscoviticarum
+    work: Notes upon Russia (Herberstein's Rerum Moscoviticarum Commentarii, Major's translation), Vol.
+      I (1851)
+    author: herberstein
+    locus: Major's introduction from file line 1241; how metropolitans and bishops are chosen from 9800;
+      'Canons of ... a Metropolitan called the Prophet' at 10334; the bull on baptism among the Russians
+      at 10688; volume ends at 12437
+    atlas_ids:
+    - russian-church-stoglav-to-nikon
+    role: context
+    confidence: assigned
+    note: A Catholic imperial envoy's account of Muscovy and its church in the first half of the sixteenth
+      century, the earliest Western description of the Russian church in the window. Outside witness; the
+      passages on the Metropolitan, the canons and baptism are in the last third of the volume. Clean English,
+      rougher in the Latin and German passages of the introduction. Volume II is not vendored.
+  - row_id: herberstein_notes-upon-russia-v1_major1851--notes-upon-russia-herberstein-s-rerum-moscoviticarum-2
+    work: Notes upon Russia (Herberstein's Rerum Moscoviticarum Commentarii, Major's translation), Vol.
+      I (1851)
+    author: herberstein
+    locus: Major's introduction from file line 1241; how metropolitans and bishops are chosen from 9800;
+      'Canons of ... a Metropolitan called the Prophet' at 10334; the bull on baptism among the Russians
+      at 10688; volume ends at 12437
+    atlas_ids:
+    - the-kyiv-mohyla-orthodox-revival
+    role: antecedent
+    confidence: provisional
+    note: The same section names Kyiv twice and prints Latin and Greek church material; placed on window
+      and place for the later Kyivan revival, not read for it.

@@ -17,6 +17,7 @@ relations: []
 author: Luther
 work: Ein' feste Burg ist unser Gott
 edition: (1529), hymn XXVI, German text with Bacon's version; vendored as cic/texts/luther_hymns_bacon-allen.txt
+citation: Luther, Ein' feste Burg ist unser Gott (1529), hymn XXVI, German text with Bacon's version
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

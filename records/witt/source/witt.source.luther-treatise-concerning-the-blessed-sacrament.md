@@ -17,6 +17,7 @@ relations: []
 author: Luther
 work: A Treatise Concerning the Blessed Sacrament… and Concerning the Brotherhoods
 edition: (1519), intro./trans. Schindel, vol. II; vendored as cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt
+citation: Luther, A Treatise Concerning the Blessed Sacrament… and Concerning the Brotherhoods (1519), intro./trans. Schindel, vol. II
 kind: vendored
 rights_status: "Vendored; rights basis recorded in this world's own Source Acquisition Manifest, not independently re-checked at the rights level"
 attribution_status: attributed

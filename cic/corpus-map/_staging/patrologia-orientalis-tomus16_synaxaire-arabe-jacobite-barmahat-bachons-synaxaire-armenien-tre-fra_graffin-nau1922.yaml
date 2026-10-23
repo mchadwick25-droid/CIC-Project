@@ -1,0 +1,72 @@
+source_file: patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt
+
+authors_ruled:
+  copto-arabic-synaxarium:
+    kind: anonymous
+    evidence: >
+      Basset prints 'Le Synaxaire arabe jacobite (rédaction copte)' as an anonymous medieval
+      compilation of the Coptic Church (heading at file line 10402); its own preface names
+      compilers of parts (Michael of Malij and other fathers, file line 10470) but no
+      single author.
+  ter-israel:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md (generated from CCEL XML markup
+      only) has not seen the author. The Armenian Synaxarion is printed under the name of
+      Ter Israel (thirteenth century) by its editor G. Bayan ('Le Synaxaire arménien de Ter
+      Israël, IV: mois de Tré', file lines 61 and 93-96), the traditional compiler the
+      edition itself credits.
+
+assignments:
+  - row_id: patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922--synaxaire-arabe-jacobite-barmahat-barmoudah-bachons-french
+    work: "Le Synaxaire arabe jacobite (rédaction copte), IV: les mois de Barmahat, Barmoudah et Bachons (Basset, French translation)"
+    author: copto-arabic-synaxarium
+    locus: "from file line 10402; the commemoration of Athanasius on 7 Bachons at 18317-18400"
+    atlas_ids:
+      - coptic-christianity-under-early-islam
+    role: tradition
+    confidence: provisional
+    note: >
+      The Coptic Church's own liturgical calendar of saints, compiled in Arabic in the
+      Middle Ages: the tradition's own voice about its past. Only the French translation is
+      recovered in this OCR; the Arabic column is not, so this is a readable witness, not
+      the original text. Reception source for the fourth-century saints it commemorates.
+  - row_id: patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922--synaxaire-arabe-jacobite-commemoration-of-athanasius-7-bachons-french
+    work: "Le Synaxaire arabe jacobite, the commemoration of Athanasius the Apostolic (7 Bachons), French"
+    author: copto-arabic-synaxarium
+    locus: "file lines 18317-18400"
+    atlas_ids:
+      - alexandria-catechetical
+    role: context
+    confidence: provisional
+    note: >
+      Medieval Coptic memory of the fourth-century Alexandrian bishop: his exile under the
+      Arian Constantius, the intrusion of George, his imprisonment 'avec le pape de Rome et
+      le patriarche d'Antioche', his flight under Julian. Later memory of the Alexandrian
+      world, not its contemporary voice; dated and placed, never evidence of the events.
+  - row_id: patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922--synaxaire-armenien-de-ter-israel-mois-de-tre-french
+    work: "Le Synaxaire arménien de Ter Israël, IV: mois de Tré (Bayan, French translation)"
+    author: ter-israel
+    locus: "from file line 93"
+    atlas_ids:
+      - armenian-cilicia
+    role: tradition
+    confidence: provisional
+    note: >
+      The thirteenth-century Armenian liturgical synaxarion compiled in Cilicia, in French
+      translation only (the Armenian column is not recovered). The Cilician Armenian
+      church's own calendar of saints; reception source. The other three works in the
+      volume (Jugie's Byzantine Marian homilies, Périer's Perle précieuse, Severus of
+      Antioch's homily 77) are not assigned here and are for the corpus-assignment thread.
+
+  - row_id: patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922--synaxaire-armenien-de-ter-israel-vi28
+    work: 'Le Synaxaire arménien de Ter Israël, IV: mois de Tré (Bayan, French translation)'
+    author: ter-israel
+    locus: from file line 93 (month of Tré)
+    atlas_ids:
+    - armenian-christianity-new-julfa
+    role: context
+    confidence: provisional
+    note: Out of the window (the compilation is the thirteenth century) but the Armenian church's own calendar
+      of saints, which the Etchmiadzin church kept through the Safavid period. Placed on the tradition;
+      not read for this entry. Existing row for the Cilician entry is unchanged.

@@ -18,7 +18,7 @@ def _registry():
             "census_id": "abc-census-id",
             "time_window": {"start": 100, "end": 200},
             "living_tradition_flag": True,
-            "representative": {"name": "Rep", "role_label": "Role Label"},
+            "representative": {"name": "Rep"},
         },
         "notyet": {
             "state": "built",
@@ -27,7 +27,7 @@ def _registry():
             "census_id": "notyet-census-id",
             "time_window": {"start": 300, "end": 400},
             "living_tradition_flag": False,
-            "representative": {"name": "Rep2", "role_label": "Role2"},
+            "representative": {"name": "Rep2"},
         },
         "noncensus": {
             "state": "admitted",
@@ -36,7 +36,7 @@ def _registry():
             "census_id": None,
             "time_window": {"start": 1, "end": 2},
             "living_tradition_flag": False,
-            "representative": {"name": "Rep3", "role_label": "Role3"},
+            "representative": {"name": "Rep3"},
         },
     }
 
@@ -89,12 +89,11 @@ def test_admitted_world_advances_to_live_and_populates_derived_fields():
     assert entry["end"] == 200
     assert entry["entry"] == {
         "representativeName": "Rep",
-        "representativeTitle": "Role Label",
         "worldName": "The Friendly Name",
     }
     assert {c["field"] for c in changes if c["world"] == "abc"} == {
         "status", "chip", "glyph", "statusWord", "statusDescription", "start", "end",
-        "entry.representativeName", "entry.representativeTitle", "entry.worldName",
+        "entry.representativeName", "entry.worldName",
     }
 
 
@@ -189,3 +188,44 @@ def test_real_repo_data_is_currently_in_sync():
     census = json.loads(CENSUS_PATH.read_text(encoding="utf-8"))
     _new_census, changes = sync_census(registry, census)
     assert changes == [], changes
+
+
+def test_card_block_syncs_to_entry_fields():
+    registry, census = _registry(), _census()
+    registry["abc"]["card"] = {
+        "intro": "An intro line.",
+        "summary": "A longer back text.",
+        "shaped": ["A", "B", "C"],
+        "record_holds": "What the record holds.",
+        "matches": [{"term": "Augustine", "why": "argued against this church"}],
+        "portrait": "assets/portraits/abc.png",
+        "topics": [{"word": "Baptism", "note": "A note."}],
+        "aliases": [{"name": "Abcists", "kind": "outsider", "note": "A caution."}],
+        "keywords": ["abcism"],
+    }
+    new_census, changes = sync_census(registry, census)
+    entry = _by_id(new_census, "abc-census-id")["entry"]
+    assert entry["intro"] == "An intro line."
+    assert entry["summary"] == "A longer back text."
+    assert entry["shaped"] == ["A", "B", "C"]
+    assert entry["recordHolds"] == "What the record holds."
+    assert entry["matches"] == [{"term": "Augustine", "why": "argued against this church"}]
+    assert entry["portrait"] == "assets/portraits/abc.png"
+    assert entry["topics"] == [{"word": "Baptism", "note": "A note."}]
+    assert entry["aliases"] == [{"name": "Abcists", "kind": "outsider", "note": "A caution."}]
+    assert entry["keywords"] == ["abcism"]
+    assert {"entry.intro", "entry.summary", "entry.shaped", "entry.recordHolds", "entry.matches", "entry.portrait", "entry.topics", "entry.aliases", "entry.keywords"} <= {c["field"] for c in changes}
+
+
+def test_absent_card_block_adds_no_card_fields():
+    registry, census = _registry(), _census()
+    new_census, _ = sync_census(registry, census)
+    entry = _by_id(new_census, "abc-census-id")["entry"]
+    assert not {"intro", "summary", "shaped", "recordHolds", "matches", "portrait", "topics", "aliases", "keywords"} & set(entry)
+
+
+def test_card_block_on_unadmitted_world_is_ignored():
+    registry, census = _registry(), _census()
+    registry["notyet"]["card"] = {"intro": "Should not appear."}
+    new_census, _ = sync_census(registry, census)
+    assert _by_id(new_census, "notyet-census-id")["entry"] is None

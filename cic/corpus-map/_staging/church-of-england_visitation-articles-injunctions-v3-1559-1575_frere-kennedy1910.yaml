@@ -1,0 +1,63 @@
+source_file: church-of-england_visitation-articles-injunctions-v3-1559-1575_frere-kennedy1910.txt
+
+assignments:
+  - row_id: church-of-england_visitation-articles-injunctions-v3-1559-1575_frere-kennedy1910--elizabethan-visitation-articles-and-injunctions-1559-1575
+    work: "Visitation Articles and Injunctions, Vol. III, 1559-1575: the Royal Articles and Royal Injunctions of 1559, the Interpretations of the Bishops (1560-61), Archbishop Parker's Advertisements (1566) and the Elizabethan episcopal articles and injunctions to 1575"
+    author: church-of-england
+    locus: "'The Royal Articles of Queen Elizabeth [1559' at file line 342 (contents from line 49); 'The Royal Injunctions of Queen Elizabeth [1559' at line 788; 'The Interpretations of the Bishops' at line 3263; 'Archbishop Parker's Advertisements' at line 8968; the episcopal documents (Grindal, Jewel, Parkhurst, Bentham, Guest, Sandys, Cox) run to the end"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: tradition
+    confidence: assigned
+    note: >
+      The Settlement enforced: the 1559 Injunctions (the table in the chancel, the
+      Bible and Paraphrases, the licensing of preachers, the register of
+      recusants), the bishops' articles of inquiry year by year. The questions put
+      to churchwardens are the clearest window on what was expected of an
+      ordinary parish. Primary institutional voice, ready to quote once verified
+      against this file; Latin in places.
+
+  - row_id: church-of-england_visitation-articles-injunctions-v3-1559-1575_frere-kennedy1910--elizabethan-visitation-articles-and-injunctions-1559-1575-2
+    work: "Visitation Articles and Injunctions, Vol. III, 1559-1575"
+    author: church-of-england
+    locus: "as above; Parker's Advertisements (1566) at file line 8968 are the vestiarian controversy's own trigger"
+    atlas_ids:
+      - puritanism
+    role: context
+    confidence: provisional
+    note: >
+      The Advertisements of 1566 that suspended the London ministers who refused
+      the surplice, and the articles that asked churchwardens to present
+      nonconforming ministers: the establishment's orders that the Puritan
+      movement resisted. Placed as the opponent's own text; provisional, on
+      window and place.
+
+  - row_id: church-of-england_visitation-articles-injunctions-v3-1559-1575_frere-kennedy1910--elizabethan-visitation-articles-and-injunctions-1559-1575-3
+    work: "Visitation Articles and Injunctions, Vol. III, 1559-1575"
+    author: church-of-england
+    locus: "as above; the articles of inquiry asking whether any refuse to come to church, keep popish books or images, or harbour priests"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: context
+    confidence: provisional
+    note: >
+      The questions by which recusancy was detected and presented; the
+      establishment's own net. Placed as the opponent's text; provisional, on
+      window and place.
+
+  - row_id: church-of-england_visitation-articles-injunctions-v3-1559-1575_frere-kennedy1910--parker-s-advertisements-and-the-vestiarian-enforcement-puritanism
+    work: Archbishop Parker's Advertisements (1566) and the Elizabethan visitation articles enforcing the
+      surplice and ceremonies, 1559-1575
+    author: church-of-england
+    locus: Parker's Advertisements listed as item XXXVII in the contents (file line 159); the surplice and
+      cope enforcement at about line 3402
+    atlas_ids:
+    - puritanism
+    role: context
+    confidence: provisional
+    note: 'The enforcement documents of the vestiarian controversy, the moment the word ''puritan'' was
+      coined for the London ministers who refused the surplice in 1566. The establishment''s own orders,
+      placed as context on the window; the volume was not read for this purpose beyond its contents list.
+      Cross-link tier: same time and place.
+
+      '

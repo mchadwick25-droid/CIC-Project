@@ -30,9 +30,10 @@ relations:
   target: cappadocian.term.philoptochia
 - type: associated-with
   target: cappadocian.term.theosis
-plain_meaning: We used one word for what God did in becoming human and for the virtue that copies
-  it at the poorhouse door. Rulers of the time also claimed this word as a civic virtue; we deliberately
-  out-bid that claim.
+plain_meaning: >-
+  We used one word for what God did in becoming human and for the virtue
+  that copies it at the poorhouse door. Rulers of the time also claimed this
+  word as a civic virtue.
 world_word: philanthrōpia
 false_friend:
 - '''philanthropy'' meaning elite giving by the wealthy'
@@ -50,12 +51,15 @@ senses:
 quick_meaning: God's own love for humankind, and the virtue that copies it.
 distortion_risk: medium
 use_note:
-  means: "Philanthropia meant God's love for humankind shown in the incarnation and the virtue that copies it, a civic word claimed by the church."
+  means: Philanthropia meant God's love for humankind shown in the incarnation and the virtue that copies
+    it at the poorhouse door, a word the rulers of the time also claimed as a civic virtue.
   not_for:
-    - "elite giving by the wealthy"
-    - "the teaching that the poor bear God's image, which sits in cappadocian.term.philoptochia"
-    - "the poorhouse itself, which sits in cappadocian.term.basileias"
-  years: {from: 325, to: 394}
+  - elite giving by the wealthy
+  - the teaching that the poor bear God's image, which sits in cappadocian.term.philoptochia
+  - the poorhouse itself, which sits in cappadocian.term.basileias
+  years:
+    from: 325
+    to: 394
   status: reviewed
 ---
 Built from Doc_06 entry 22 (Tier 2).

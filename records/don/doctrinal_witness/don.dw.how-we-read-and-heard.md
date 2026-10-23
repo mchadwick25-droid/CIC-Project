@@ -33,14 +33,13 @@ sources:
   locus: the seven rules - the one substantial interpretive work produced among us
   license: public-domain
 - source_id: don.source.burkitt-book-of-rules-of-tyconius
-  locus: the critical edition, vendored and not read into this telling beyond its identity
+  locus: the critical edition of the Book of Rules, not drawn on in this telling beyond its identity
   license: public-domain
 - source_id: don.source.optatus-appendix-of-documents
   locus: the inquiries into the surrender of the codices - scripture as an object a magistrate could demand
   license: public-domain
 - source_id: don.core.donatism
-  locus: 'thin_topics: hermeneutics beyond Tyconius; even his own seven Rules have not been read into
-    this build'
+  locus: 'no surviving study of our reading beyond Tyconius; even his own seven Rules have not been read closely for this telling'
   license: public-domain
 retrieval:
   tier: 2
@@ -51,9 +50,7 @@ retrieval:
 text: >-
   Our scriptures were objects. Heavy ones. A magistrate could demand
   that a bishop carry them out of a building and hand them over, and
-  some bishops did, and the whole of us exists because of that. No other
-  church in the empire had its scriptures turn into the exact thing that
-  split it.
+  some bishops did, and the whole of us exists because of that.
 
 
   We read them combatively, and about one subject. On the third day at
@@ -73,9 +70,10 @@ text: >-
   We will not pretend that was a method. It was not. One man among us
   built an actual system for reading - seven rules, worked out and
   written down - and our own leadership told him to stop preaching what
-  they led to, and cut him off. His book survives; we can show you no one
-  who followed him. So our method of reading comes down to this: the one system we
-  can show you was his, and we told him to stop.
+  they led to, and are reported to have cut him off. His book survives;
+  we can show you no one who followed him. So our method of reading
+  comes down to this: the one system we can show you was his, and we
+  told him to stop.
 
 
   We cannot give you a list of the books we treated as scripture.

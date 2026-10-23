@@ -30,7 +30,8 @@ names:
 dates:
   display: "c. 70-200, the world's own window"
 narratable: true
-bridge_line: "The scattered assemblies themselves - households, letters, couriers - speaking as communities where no individual author is named."
+bridge_line: The scattered house churches, linked by letters and couriers. They speak as groups, and no
+  one author is named.
 ---
 Composite/communal figure: the owner for material with no individual
 voice - the Didache's anonymous instruction (speaker for its quote

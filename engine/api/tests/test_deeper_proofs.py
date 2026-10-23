@@ -24,7 +24,7 @@ from engine.api.tests.test_deeper_seam import (  # noqa: F401
 from engine.deeper import codes
 
 ENGINE = Path(__file__).resolve().parents[2]
-EDGE_FILES = {"app.py", "deeper_routes.py", "deeper_admission.py", "deeper_door.py", "deeper_ops.py"}
+EDGE_FILES = {"app.py", "deeper_routes.py", "deeper_admission.py", "deeper_ops.py", "account_admission.py"}
 MONEY_WORDS = re.compile(r"\b(stripe|payment|meter|x-cic)\b", re.I)
 ENGINE_CORE = [
     *(ENGINE / name for name in ("m1", "m2", "m3", "m4", "m5", "m6", "m7", "m8", "m9", "m10", "provider", "canon")),
@@ -107,7 +107,7 @@ def test_the_grant_types_know_only_numbers():
     assert not names & {"code", "price", "balance", "payment", "stripe", "money"}
     # the only words a grant carries are the ones the caller handed it
     assert {f.name for f in __import__("dataclasses").fields(__import__("engine.m4.grants", fromlist=["TurnGrant"]).TurnGrant)} == {
-        "cap", "facilitator_only", "limit_text",
+        "cap", "limit_text",
     }
 
 
@@ -217,9 +217,13 @@ REQUIRED = {
         "test_an_ordinary_message_at_a_limit_gets_a_pause_and_no_voice_call",
         "test_admission_is_decided_before_the_voice_and_never_during_it",
         "test_twenty_five_students_behind_one_address_all_get_through_on_a_group_code",
-        "test_a_visitor_past_the_session_limit_gets_one_facilitator_only_sitting_a_day",
-        "test_a_spent_code_does_not_lift_the_session_limit",
-        "test_an_extra_sitting_opened_by_a_live_code_draws_down_from_its_first_turn",
+        "test_a_visitor_with_free_tokens_left_is_never_closed_by_how_many_conversations_they_opened",
+        "test_a_conversation_whose_first_voice_reply_fails_uses_nothing_up",
+        "test_a_crisis_message_past_the_count_gets_the_redirect_from_code_and_no_model_call",
+        "test_every_kind_of_message_past_the_count_gets_the_same_fixed_line",
+        "test_a_code_with_tokens_is_outside_the_count",
+        "test_a_network_reaches_its_count_whatever_cookie_each_visitor_holds",
+        "test_visitors_with_new_cookies_draw_from_the_networks_pool_and_then_are_paused",
         "test_the_stored_pause_is_the_same_words_for_a_free_sitting_and_a_paid_one_and_the_reason_is_never_stored",
         "test_a_code_entered_after_the_pause_continues_the_same_conversation",
     ],

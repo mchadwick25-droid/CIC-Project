@@ -558,3 +558,22 @@ def test_cli_main_exit_code_signals_defects(tmp_path, capsys):
     # the table seed carries review/info findings but no defect
     code = main(["audit", "--events-db", str(tmp_path / "clean.db"), "--out", str(tmp_path / "o2")])
     assert code == 0
+
+
+def test_canon_candidates_leave_internal_sessions_out(tmp_path):
+    from engine.m7.report import write_canon_candidates
+    audits = [
+        {"session_id": "a", "internal": False, "canon_asks": ["why fast", "why fast"]},
+        {"session_id": "b", "canon_asks": ["why pray"]},
+        {"session_id": "c", "internal": True, "canon_asks": ["why pray", "why fast"]},
+    ]
+    doc = json.loads(write_canon_candidates(tmp_path, audits).read_text())
+    assert doc["internal_sessions_left_out"] == 1
+    assert doc["lineage_session_ids"] == ["a", "b"]
+    assert doc["candidates"] == [{"ask": "why fast", "count": 2, "session_ids": ["a"]}]
+
+
+def test_run_all_carries_the_internal_mark(tmp_path):
+    from engine.m7.instruments import run_all
+    store, i_sid, _ = _sessions(tmp_path)
+    assert run_all(read_session(store, i_sid))["internal"] is False

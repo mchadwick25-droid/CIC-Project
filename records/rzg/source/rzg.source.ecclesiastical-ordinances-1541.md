@@ -26,6 +26,7 @@ discovery_channel: Source_Registry.md row 14, added 2026-09-15; Schaff's History
   an unverified third-party 'Public Domain Mark' was not accepted at face value (Doc_02 SS9 item 2).
 external_ids:
   rzg_source_registry_row: 14
+citation: Geneva city council and John Calvin, John Calvin's 'Ecclesiastical Ordinances' of 1541
 kind: unvendored
 ---
 Consistory authority-structure claims (Doc_01 SS5 Strand Determination limb 2), once acquired - not currently usable for any claim (Confidence E). T1's own Geneva pole (the Consistory's own founding instrument) currently rests on Doc_01's general historical account rather than this text directly.

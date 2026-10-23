@@ -1,0 +1,13 @@
+source_file: hubmaier_grund-und-ursach-deu_1527.txt
+assignments:
+- row_id: hubmaier_grund-und-ursach-deu_1527--grund-und-ursach-nikolsburg-1527-with-further-1527-pieces
+  work: Grund und Ursach (Nikolsburg, 1527), with further 1527 pieces
+  author: hubmaier
+  locus: title page "ein yedlicher mensch der gleich in seiner Kindheit getaufft" at file line 202; "1527" read near the end at file line 6777
+  atlas_ids:
+  - the-anabaptist-movements
+  role: tradition
+  confidence: assigned
+  note: 'Hubmaier on baptism in the original 1527 print. SECOND WITNESS: microfilm OCR of blackletter, about 0.73
+    of the text windows read as words; nothing quotable until read on the page images. Role tradition: the theologian''s
+    own voice. German; no public-domain English exists.'

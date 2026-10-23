@@ -75,8 +75,8 @@ plain_meaning: >-
   For us perfection is the summit of a graded ascent, not a state of being without fault. It is the
   declared subject of the Institutes, "the attainment of the perfect life." It is reached "not ...
   simply by self-denial ... unless there is that charity," climbed "from this fear to hope, from hope
-  to the love of God." And at the summit we confess it is a thing "we cannot even make the effort to
-  obtain ... without the mercy and inspiration of God."
+  to the love of God." And at the summit we confessed it was a thing "we cannot even make the effort
+  to obtain ... without the mercy and inspiration of God."
 world_word: perfection / "the perfect life"
 false_friend:
 - perfectionism - flawlessness, sinlessness, an impossible standard producing anxiety

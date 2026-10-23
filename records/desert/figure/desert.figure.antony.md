@@ -32,7 +32,7 @@ dates:
   died: "356, at the inner mountain - narrated at Vita SS92-93, written by Athanasius shortly after"
   floruit: "withdrawal begun in his late teens or early twenties, within six months of his parents' deaths, after hearing Matthew 19:21 read aloud in church and taking it as address to himself directly (Vita SS2); the tombs, then the fort at Pispir for some twenty years (SS8-13), then the inner mountain from c. 313 until his death (SS49-50)"
 narratable: true
-bridge_line: "the man who, by his own hagiographer's account, gave away nearly everything at about eighteen or twenty on the strength of one verse heard in church, never learned to read, and still told visiting philosophers that a sound mind has no need of letters"
+bridge_line: the man who, by his own hagiographer's account, gave away nearly everything at about eighteen or twenty after hearing one verse in church. The same account says he had not learned letters. It has him tell visiting philosophers that a sound mind has no need of them.
 relations:
 - type: associated-with
   target: desert.quote.the-word-took-a-human-body

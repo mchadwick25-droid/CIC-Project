@@ -23,10 +23,11 @@ confidence:
     field literature, not on the text.'
 sources:
 - source_id: don.source.passio-marculi
-  locus: cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt, lines 664-1359 (the Passio entire)
+  locus: Passio Marculi, the whole text, in Monumenta Vetera ad Donatistarum historiam
+    pertinentia (Migne, Patrologia Latina 8)
   license: public-domain
 - source_id: don.source.optatus-against-the-donatists
-  locus: cic/texts/optatus_against-the-donatists.txt, lines 2064-2096 - the argument against the alleged
+  locus: Optatus, Against the Donatists III.6, the argument against the alleged
     Donatist martyrs
   license: public-domain
 - source_id: don.source.augustine-answer-to-petilian
@@ -63,37 +64,37 @@ narrative_tier_justification: 'Tier 3, and the closest thing in our corpus to th
   waived: the general portrait carries Contested confidence, corroborated even by hostile witnesses for
   the bare fact of the killing; the visionary and miraculous details carry Inferential-Thin confidence.
   The formation ideal is the evidence here. The cliff-top vision is not.'
-tellable_as: Marculus is shown a cup, a crown and a palm four days before he is thrown from a cliff - and
-  the tradition says his body came down gently and a light settled over the place until the brethren found
-  him.
+tellable_as: On the last night of his four days at Novapetra, after a day of fasting, Marculus is shown a cup, a
+  crown and a palm. Before dawn he is thrown from a cliff. The tradition says his
+  body came down gently, and a bright cloud showed the brethren where he lay.
 text: >-
   We remember Marculus as a man who had already given up what the world
   offers before persecution ever reached him - a life of unusual virtue, a
   refusal of worldly advancement, given instead to the church.
 
-  When Macarius's persecution came into Numidia, ten bishops were sent
-  either to persuade Marculus's own community to submit or, as the
-  tradition tells us happened, to join the resistance themselves instead.
-  Marculus was seized at a place called Vegesela. He was bound to columns
-  and flogged, and - so the account insists - bore it without visible
-  pain, praising God the whole time, as though the whips could not reach
-  the part of him that mattered. He was paraded through several Numidian
-  towns as a spectacle, then held for four days at a cliff called
-  Novapetra.
+  When Macarius's persecution came into Numidia, ten of our bishops were
+  sent to Macarius, either to turn him back from his crime or, as the
+  tradition tells us happened, to face the struggle before their flock
+  did. Marculus was among them. Marculus was seized at a place called
+  Vegesela. He was bound to columns and flogged, and - so the account
+  insists - bore it without visible pain, praising God the whole time, as
+  though the whips could not reach the part of him that mattered. He was
+  paraded through several Numidian towns as a spectacle, then held for
+  four days at a cliff called Novapetra.
 
   In that waiting, the account says, he fasted, and was given a vision: a
-  cup, a crown and a palm, shown to him together, the way we remember
-  such things being shown to those about to complete a formed life.
-  Before dawn he was thrown from the cliff. The tradition holds that his
-  body did not break on the fall - that it descended gently, as though
-  something were carrying it down rather than dropping it - and that a
-  light settled over the place afterward, bright enough that the brethren
-  could find him and take him for burial before anyone could stop them
-  and deny it.
+  cup, a crown and a palm, shown to him together, the way we remember such
+  things being shown to those about to complete a formed life. Before dawn
+  he was thrown from the cliff. The tradition holds that his body did not
+  break on the fall - that it descended gently, as though something were
+  carrying it down rather than dropping it - and that a bright cloud
+  covered his body, with flashes of light that showed the brethren where
+  he lay, so that they could take him for burial.
 
   This is how we remember Marculus: not as a man who died, but as a man
   shown, in advance, what completing his own formation would look like,
   and then given exactly that.
+telling: "We remember Marculus as a man who had already turned from worldly advancement and given his life to the church. Our account of his suffering, the Passio Marculi, names no author. It gives a day but no year.\n\nWhen Macarius's persecution came into Numidia, ten of our bishops were sent to meet him, and Marculus was among them. He was seized at Vegesela, bound to columns and flogged. The account says he bore it without visible pain and praised God the whole time. Then he was paraded through several towns of Numidia and held four days at a cliff called Novapetra.\n\nThere, the account says, he fasted and was given a vision. A cup, a crown and a palm were shown to him together. Before dawn he was thrown from the cliff.\n\nWe hold that his body did not break in the fall. It came down gently, we say, as though something carried it. A bright cloud covered it, and flashes of light showed the brothers where he lay, so that they could take him for burial."
 absent_detail: The Passio names no author and gives no year - only a day. Nothing survives of what Marculus
   himself said under interrogation in his own words, and no independent witness confirms the vision, the
   fall, or the light. What the hostile record supplies is only that he was killed, and an argument about
@@ -115,27 +116,3 @@ use_note:
   years: {from: 347, to: 348}
   status: reviewed
 ---
-Compiled from World-Builds/Donatism/Story-Chunks/donstory002_passio-
-marculi.md (Doc_09 story index row donstory002, Tier 3), whose narrative
-text is carried forward rather than re-derived.
-
-THE TWO HOSTILE WITNESSES DISPUTE DIFFERENT THINGS AND MUST NOT BE
-MERGED. It is not a citation chain: Optatus
-argues, on the model of Phineas, Moses and Elijah, that the deaths were
-deserved punishment for schism - conceding the killing; Augustine
-separately argues, on the different question of whether the men threw
-themselves down or were thrown, that the label martyrdom does not apply.
-Two authors, two arguments, two works, as carried in sources[] above.
-
-ANOTHER DONATUS, NOT DONATUS THE GREAT. Optatus's passage argues about
-"the deaths of Marculus and Donatus" together. Which Donatus that is, is
-not resolved here and is not asserted; the story text above deliberately
-does not name him, and don.figure.donatus does not claim him.
-
-THE DATING IS THE FIELD'S, NOT THE TEXT'S - don.core.donatism cautions
-item 6. The Passio's own heading reads "INCIPIT PASSIO BENEDICTI
-MARTYRIS MARCULI. 8 (al. die 5) kal. decembris" - a day only. The
-"ANNO DOMINI 348" printed above the catalogue entry is the volume's own
-dated section marker, and the descriptive rubric calling Marculus a
-Donatist priest is Mabillon's and Migne's, not the Passio's self-
-description.

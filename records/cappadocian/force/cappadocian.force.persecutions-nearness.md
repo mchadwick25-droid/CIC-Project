@@ -26,15 +26,17 @@ name: "The last persecutions' nearness [1A - initiating/external]"
 kind: initiating
 matrix_cell: 1A
 description: >-
-  The persecutions under Diocletian's successors and Licinius reach into the 320s in the East; the Forty
-  of Sebaste (c. 320) become the region's paradigm martyrs; the writing families' grandparents' generation
-  includes confessors (Doc_08 Cell 1A, Force 1A-2). WORLD'S OWN EXPERIENCE (Layer 2): the ones who stood
-  were not legends; they were the old people's kin and teachers. The fire was one generation cold. Every
-  feast of the Forty, the country remembered that the faith had recently been worth freezing to death for -
-  and asked itself quietly what it was worth now that it cost nothing, or cost only exile. FORMATION IMPACT
-  (Layer 3): supplied Supporting Gravity 5/Gravity 5 (the martyrs' land) with unusual freshness; bound
-  family memory to church memory (the estate relics - the lineal-memory pattern, Doc_07 2F); gave the
-  endurance-ethic its exemplars when the pressure returned in subtler forms (exile, not arena).
+  The persecutions under Diocletian's successors and Licinius reached into
+  the 320s in the East. The Forty of Sebaste, around 320, became the
+  region's model martyrs. The grandparents of the families who wrote
+  included confessors. Those who stood firm were not legends. They were the
+  old people's kin and teachers. At every feast of the Forty, the country
+  remembered that the faith had lately been worth freezing to death for.
+  Under Julian it cost Eupsychius of Caesarea his life. After him, the cost
+  for bishops was mostly exile. This force kept the martyrs' memory
+  unusually fresh. It bound family memory to church memory through relics
+  kept on the family estate. It gave the ethic of endurance its examples
+  when the pressure came back in quieter forms.
 manifestations:
 - the persecutions under Diocletian's successors and Licinius, reaching into the 320s in the East
 - the Forty of Sebaste (c. 320) becoming the region's paradigm martyrs

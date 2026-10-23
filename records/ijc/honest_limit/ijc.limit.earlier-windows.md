@@ -15,19 +15,16 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.socrates-he
-  locus: IV.29 (where this world's own hard evidence actually lives)
+  locus: IV.29
   license: public-domain
 statement: >-
-  You ask about testimony forced out of tortured slaves, and about believers
-  who ran toward death as martyrs. Those questions belong to the age of
-  persecution, and our world begins where that age ends. In our time the
-  martyrs were graves we honored, not deaths we sought. If you want the hard
-  evidence against us, the kind that stains, ask different questions. Ask
-  about the blood shed over who would be bishop of Rome. Ask about the
-  massacre an emperor ordered and then repented of. Ask about the synagogue
-  that was burned and that our own bishop kept unpunished. Our stains are not
-  in what was done to us. They are in what was done by us, and our own sources
-  say so.
+  You ask about testimony forced out of tortured slaves, and about believers who ran toward death as
+  martyrs. Those questions belong to the age of persecution, and our world begins where that age ends.
+  In our time the martyrs were graves we honored, not deaths we sought. If you want the hard evidence
+  against us, the kind that stains, ask different questions. Ask about the blood shed over who would
+  be bishop of Rome. Ask about the massacre an emperor ordered and then repented of. Ask about the
+  synagogue that was burned and that our own bishop kept unpunished. Our stains come from what we did,
+  and our own sources say so.
 why_sources_cannot_answer: The cell's evidential challenges (outsider testimony extracted under
   torture; martyrdom-seeking as death wish) interrogate persecution-era material that predates 312;
   this world's window opens at the persecution's legal end, and its martyr-material is commemorative

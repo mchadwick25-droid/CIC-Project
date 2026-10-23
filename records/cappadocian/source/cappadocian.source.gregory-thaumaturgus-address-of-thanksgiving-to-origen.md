@@ -18,6 +18,7 @@ author: Traditionally Gregory Thaumaturgus (attribution questioned)
 work: Gregory Thaumaturgus, the Address of Thanksgiving to Origen
 edition: Ante-Nicene Fathers, vol. 6 (Gregory Thaumaturgus, Dionysius, Julius Africanus, Methodius, Arnobius),
   ed. Roberts & Donaldson, vendored as cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
+citation: Traditionally Gregory Thaumaturgus (attribution questioned), Address of Thanksgiving to Origen, Ante-Nicene Fathers, vol. 6 (Gregory Thaumaturgus, Dionysius, Julius Africanus, Methodius, Arnobius), ed. Roberts and Donaldson
 kind: vendored
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: contested (attribution questioned in recent scholarship, per Doc_02 SS1.6/SS9)

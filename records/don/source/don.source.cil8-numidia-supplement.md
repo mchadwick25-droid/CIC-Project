@@ -19,6 +19,7 @@ work: 'Corpus Inscriptionum Latinarum, vol. VIII, Supplementum, Pars II: Inscrip
   Latinarum Supplementum (Berlin: Reimer, 1894)'
 edition: Corpus Inscriptionum Latinarum, vol. VIII, Supplementum, Pars II (Numidia), ed. Cagnat & Schmidt
   (Berlin, 1894), vendored as cic/texts/cil8-supplementum-numidiae_cagnat-schmidt1894.txt
+citation: 'Corpus Inscriptionum Latinarum, vol. VIII, Supplementum, Pars II: Inscriptionum Provinciae Numidiae Latinarum Supplementum, ed. R. Cagnat and J. Schmidt (Berlin: Reimer, 1894)'
 kind: vendored
 rights_status: "public-domain; vendored, each cited file's own provenance header directly checked and confirmed Public Domain, not assumed"
 attribution_status: attributed

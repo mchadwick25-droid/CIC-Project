@@ -3,6 +3,36 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: persian-church-of-the-east-early
 works:
+- row_id: amr-ibn-matta_de-patriarchis-nestorianorum-pars-altera-textus-ara_gismondi1896--lives-of-the-patriarchs-arabic-text
+  work: De patriarchis Nestorianorum (Amr and Sliba), the lives of the patriarchs of the East,
+    Arabic text
+  author: amr-ibn-matta
+  locus: whole file; the synod of forty bishops under Isaac and Marutha in Yazdgard's eleventh
+    year at file lines 4813 to 4818; the vacancy after Isaac at 4788
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (worker C). Primary original-language witness for the Arabic
+    patriarchal histories of the Church of the East, a fourteenth-century memory of the catholicoi;
+    never evidence of 410 or 424 on its own. Arabic OCR has frequent errors; verify against
+    the page image before quotation.
+
+    '
+  source_file: amr-ibn-matta_de-patriarchis-nestorianorum-pars-altera-textus-ara_gismondi1896.txt
+- row_id: amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897--lives-of-the-patriarchs-latin-version
+  work: De patriarchis Nestorianorum commentaria (Amr and Sliba), the lives of the patriarchs
+    of the East, Gismondi's Latin version; the Arabic text not recovered
+  author: amr-ibn-matta
+  locus: Latin version, pages in reverse order; Dadisho 14072 to 14097, Yazdgard's death 14166,
+    Isaac 14185 to 14188, Ahai 14189, Yahballaha 14223
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (worker C). Fourteenth-century Church of the East memory
+    witnesses: the tradition''s own later account of its catholicoi, never evidence of 410
+    or 424 on its own. Only the Latin is usable from this OCR; the Arabic of the same part
+    is vendored separately from a Beth Mardutho scan.
+
+    '
+  source_file: amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt
 - row_id: aphrahat_demonstrations-2-7_hallock1932--demonstration-ii-on-love-2
   work: 'Demonstration II: On Love'
   author: aphrahat
@@ -41,6 +71,84 @@ works:
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
+- row_id: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725--dated-series-of-the-patriarchs-sulaka-to-abdisho-2
+  work: 'Bibliotheca Orientalis III.1 (Assemani, 1725): the catalogue of the Syriac writers
+    of the Church of the East, built on Abdisho of Nisibis''s catalogue of books'
+  author: assemani
+  locus: whole file; Abdisho's catalogue with Assemani's notes runs under the running head
+    'Catalogus Libror. Syror. Ebedjesu' from file line 4305 to about 63161, with Abdisho's
+    own entry ('EBEDJESU SOBENSIS') at 63715; the series of patriarchs from about 101030
+  role: context
+  confidence: provisional
+  note: 'The eighteenth-century reference catalogue of the East Syriac writers from the fourth
+    century onward, with Assemani''s dated notes. Placed on subject for the early Persian
+    church entry, whose open seed row names the same book in another scan (india.history.resource.71763,
+    fetched and compared, not cleaner). Not read for that entry.
+
+    '
+  source_file: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt
+- row_id: chronicle-of-arbela_die-chronik-von-arbela-deu_sachau1915--chronicle-of-arbela-german-translation
+  work: Die Chronik von Arbela (the Chronicle of Arbela attributed to Mshiha-zkha), German
+    translation
+  author: chronicle-of-arbela
+  locus: whole file; the bishop Ishaq of Arbela at file line 1963; Sachau's notes citing canon
+    21 of the synod of Isaac (410) at 800 and 938
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (worker C). AUTHENTICITY CONTESTED: an uncertain witness
+    that can never carry a claim alone; any use must say so. If genuine, the Persian church''s
+    own local history of Adiabene; if not, a modern composition. The German is cleanly recovered;
+    Mingana''s Syriac edition was not vendored (its French column is not recovered by the
+    OCR).
+
+    '
+  source_file: chronicle-of-arbela_die-chronik-von-arbela-deu_sachau1915.txt
+- row_id: chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910--chronicle-of-seert-first-part-fasc-2
+  work: Chronicle of Seert (Histoire nestorienne), first part, fascicle 2, Arabic text with
+    French translation
+  author: chronicle-of-seert
+  locus: file lines 10710 to about 15846; Yazdgard 15411; Mar Isaac, fourteenth catholicos,
+    15433 and 15454; Marutha's embassy and the council at Seleucia-Ctesiphon 15501 to 15518;
+    Isaac's death 15548
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (worker C). The Church of the East''s own compiled memory
+    of its early centuries, in Arabic with Scher''s French; the French is recovered (accents
+    dropped), the Arabic is not. A later memory witness drawing on lost Syriac histories,
+    never evidence of 410 on its own; the lost portion that followed covered Dadisho, so 424
+    is absent.
+
+    '
+  source_file: chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt
+- row_id: elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910--opus-chronologicum-latin-translation
+  work: Opus chronologicum (Chronography of Elias of Nisibis, 1018/19), Latin translation,
+    both parts
+  author: elias-of-nisibis
+  locus: whole file; the synod of Isaac and Marutha dated A.Gr. 721 at file line 5089; Dadyeshu
+    in the catalogue of catholicoi at 3519
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (worker C). An eleventh-century Church of the East chronicler''s
+    dated tables, each entry naming its source: the tradition''s own later memory of its early
+    synods and catholicoi, never evidence of the events on its own. Latin translation only;
+    the Syriac text volumes are not in this file. OCR middling.
+
+    '
+  source_file: elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt
+- row_id: labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904--le-christianisme-dans-l-empire-perse
+  work: Le christianisme dans l'empire perse sous la dynastie sassanide, 224-632 (1904)
+  author: labourt
+  locus: whole file; 'Le concile de Séleucie (410)' 5728; Dadisho's synod at Markabta (424)
+    7162; the Papa affair as the 424 acts tell it 1912 to 1974
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (worker C). Secondary, 1904, French, Roman Catholic standpoint:
+    the standard older narrative of the Persian church built directly on the Synodicon, the
+    Chronicle of Seert and the Arabic histories, and a finding aid to them, never evidence
+    of the events.
+
+    '
+  source_file: labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt
 - row_id: anf07_lactantius-apostolic-constitutions-didache-liturgies--the-liturgy-of-the-blessed-apostles-adaeus-and-maris
   work: The Liturgy of the Blessed Apostles (Adaeus and Maris)
   author: liturgy-of-addai-and-mari
@@ -58,6 +166,80 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+- row_id: mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899--lives-of-the-catholicoi-latin-version
+  work: De patriarchis Nestorianorum commentaria (Mari), the lives of the catholicoi of the
+    East, Gismondi's Latin version; the Arabic text not recovered
+  author: mari-ibn-sulayman
+  locus: Latin version, file lines about 9280 to 16306, pages in reverse order; Tomarsa 15065,
+    Isaac 14915, Ahai 14918, Yahballaha 14932
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (worker C). A twelfth-century Church of the East memory
+    witness built from older Syriac histories: the tradition''s own later account of its catholicoi,
+    never evidence of 410 or 424 on its own. Only the Latin is usable from this OCR, and its
+    pages run backwards.
+
+    '
+  source_file: mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt
+- row_id: maruta-of-maipherqat_de-sancta-nicaena-synodo-syrische-texte-deu_braun1898--syriac-nicene-dossier-german-2
+  work: 'De sancta Nicaena synodo: the Syriac texts on the Council of Nicaea attributed to
+    Marutha of Maipherqat, German translation'
+  author: maruta-of-maipherqat
+  locus: whole file
+  role: transmission
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (worker C). The Persian synod of 410 received these "canons
+    of the Western Fathers" from Marutha and the East Syriac canonical collections are why
+    the dossier survives: custody of a work that originates outside the entry, per the corpus-map
+    README''s transmission rule. Reception witness for what Nicaea meant in Persia, not a
+    document of 325.
+
+    '
+  source_file: maruta-of-maipherqat_de-sancta-nicaena-synodo-syrische-texte-deu_braun1898.txt
+- row_id: michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901--chronicle-books-viii-to-xi-french-2
+  work: 'Chronique de Michel le Syrien, tome II: Books VIII to XI, French translation'
+  author: michael-the-syrian
+  locus: 'Book VIII, chapter 1: Marutha and the Persian Christians 161 and 228; the death
+    of Yazdgard 927'
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (worker C). A twelfth-century West Syriac memory of the
+    Persian church''s peace under Yazdgard I through Marutha, drawing on Socrates; the synods
+    of 410 and 424 are not narrated. The view from a neighbouring tradition, never evidence
+    of the events.
+
+    '
+  source_file: michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt
+- row_id: persian-martyr-acts_ausgewahlte-akten-persischer-martyrer-bkv22-deu_braun1915--selected-persian-martyr-acts-german
+  work: 'Ausgewählte Akten persischer Märtyrer: selected Syriac acts of the Persian martyrs
+    in German, with an appendix on East Syriac monastic life'
+  author: persian-martyr-acts
+  locus: whole file; contents 81; Yazdgard I in the introduction 488; 'Abda and Narse 562;
+    Jakob der Notar 819; Yazdgard II 595 and 830
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (worker C). The Persian church''s own martyr acts in German
+    (Bibliothek der Kirchenväter 22, 1915), including the martyrs at the end of Yazdgard I''s
+    peace and under Yazdgard II: context for the synods of 410 and 424, not a record of them.
+    Hagiography, written after the events.
+
+    '
+  source_file: persian-martyr-acts_ausgewahlte-akten-persischer-martyrer-bkv22-deu_braun1915.txt
+- row_id: persian-martyr-acts_auszuge-aus-syrischen-akten-persischer-martyrer-deu_hoffmann1880--excerpts-from-the-syriac-persian-martyr-acts-german
+  work: 'Auszüge aus syrischen Akten persischer Märtyrer: German excerpts from the Syriac
+    acts of the Persian martyrs with topographical commentary'
+  author: persian-martyr-acts
+  locus: whole file; Narsai 2038; acts in the days of King Yazdgard 2042; Karka de Beth Slokh
+    under Yazdgard II from 2799
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (worker C). The Persian church''s own voice about its martyrs,
+    in German excerpt: hagiography written after the events, shaped for veneration. Context
+    for the peace of Yazdgard I and the persecutions around the synods of 410 and 424; not
+    a record of the synods. Hoffmann''s commentary is nineteenth-century secondary work.
+
+    '
+  source_file: persian-martyr-acts_auszuge-aus-syrischen-akten-persischer-martyrer-deu_hoffmann1880.txt
 - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--the-ecclesiastical-history-of-sozomen-2
   work: The Ecclesiastical History of Sozomen
   author: sozomen
@@ -75,3 +257,47 @@ works:
 
     '
   source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
+- row_id: synodicon-orientale_das-buch-der-synhados-deu_braun1900--synods-of-isaak-410-and-dadiso-424-german
+  work: 'Das Buch der Synhados: the synods of Isaak (410), Jahballaha (420) and Dadiso (424),
+    German translation'
+  author: synodicon-orientale
+  locus: file lines 282 (Erste Synode, Mar Isaak) to 1790; Jahballaha 1793; Dadiso 2242 to
+    about 2972
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (worker C). German translation (1900) of the same acts
+    vendored in Syriac and French from Chabot; a second translation for cross-checking, with
+    Braun''s own dating notes. The Persian church''s own voice in translation.
+
+    '
+  source_file: synodicon-orientale_das-buch-der-synhados-deu_braun1900.txt
+- row_id: synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902--synods-of-isaac-410-yahbalaha-420-and-dadisho-424
+  work: 'Synodicon Orientale: the synods of Isaac (410), Yahbalaha (420) and Dadisho (424),
+    Syriac text and French translation'
+  author: synodicon-orientale
+  locus: 'Syriac from file line 1883 (synod of Isaac opens 1883, closes 3150; Yahbalaha 3173;
+    Dadisho about 3497); French: synod of Isaac 16074-17925, Yahbalaha 17934, Dadisho 18551-19431'
+  role: tradition
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (worker C). Primary original-language voice: the Persian
+    church''s own synodal acts, with the Nicene creed as received (16819), the censure of
+    Batai of Mashmahig (17809) and the 424 definition that Easterners may not appeal to the
+    Western patriarchs (19304-19313). Syriac OCR must be checked against the page image before
+    quotation; the French is clean.
+
+    '
+  source_file: synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt
+- row_id: wigram_introduction-to-the-history-of-the-assyrian-church-100-640_1910--introduction-to-the-history-of-the-assyrian-church
+  work: An Introduction to the History of the Assyrian Church, 100-640 A.D. (1910)
+  author: wigram
+  locus: whole file; chapter V, Council of Mar Isaac (410), 3882; chapter VI, the Councils
+    of Yahb-Alaha and Dad-Ishu, 5168; the Council of Dad-Ishu 6027
+  role: context
+  confidence: provisional
+  note: 'Shared-Events Era 2 batch (worker C). Secondary, early twentieth century, English,
+    Anglican missionary standpoint: a finding aid to the Syriac sources and a witness to how
+    the Church of the East''s synods were read in 1910, never evidence of the events. Same
+    footing as the Hefele volumes already in the map.
+
+    '
+  source_file: wigram_introduction-to-the-history-of-the-assyrian-church-100-640_1910.txt

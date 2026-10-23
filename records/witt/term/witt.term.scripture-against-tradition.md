@@ -20,21 +20,22 @@ sources:
   locus: the 1539 preface -- 'the Bible has come to lie forgotten in the dust under the bench'
   license: public-domain
 - source_id: witt.source.luther-open-letter-to-the-christian-nobility
-  locus: Christian Nobility -- 'if we are all priests... why should we not also have the power to test
-    and judge'
+  locus: >-
+    Christian Nobility -- 'if we are all priests... why should we not also have the power to test and
+    judge'
   license: public-domain
 - source_id: witt.source.luther-that-doctrines-of-men-are
-  locus: That Doctrines of Men Are to Be Rejected, cited among this entry's Registry rows (Doc_06 SS5
-    entry 3.3)
+  locus: That Doctrines of Men Are to Be Rejected
   license: public-domain
 - source_id: witt.source.luther-answer-to-the-superchristian-superspiritual
-  locus: Answer to Emser, cited among this entry's Registry rows (Doc_06 SS5 entry 3.3)
+  locus: Answer to Emser
   license: public-domain
 - source_id: witt.source.luther-selections-from-the-table-talk
-  locus: the Table Talk, cited among this entry's Registry rows (Doc_06 SS5 entry 3.3)
+  locus: the Table Talk
   license: public-domain
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: the Augsburg Confession -- doctrine that varies 'from the Scriptures, or from the Church Catholic,
+  locus: >-
+    the Augsburg Confession -- doctrine that varies 'from the Scriptures, or from the Church Catholic,
     or from the Church of Rome as known from its writers'
   license: public-domain
 retrieval:
@@ -65,18 +66,20 @@ false_friend:
 - '''Scripture alone'' heard as a slogan meaning the Fathers and councils are worthless -- no such Latin
   formula occurs in any of our own texts'
 senses:
-  informational: '''All other writings should point to the Scriptures, as John pointed to Christ''; ''the
-    Bible has come to lie forgotten in the dust under the bench.'' Against those who claim to be the only
-    masters of Scripture: ''if we are all priests... why should we not also have the power to test and
-    judge what is correct or incorrect in matters of faith?'' Our confession keeps the rule and changes
-    its pitch: doctrine with ''nothing that varies from the Scriptures, or from the Church Catholic, or
-    from the Church of Rome as known from its writers.'''
-  evidential: The sharp form is the founder's own, single-register; the confession attests a milder, additive
-    form separately.
-  personal: We hold the Fathers as witnesses to be judged by Scripture's light, not as authorities in
-    their own right.
-  translational: Do not hear 'Scripture alone' as a fixed slogan dismissing every other voice; we state
-    the rule two ways -- one sharp, one additive -- and never as a Latin formula.
+  informational: >-
+    'All other writings should point to the Scriptures, as John pointed to Christ'; 'the Bible has come
+    to lie forgotten in the dust under the bench.' Against those who claim to be the only masters of Scripture:
+    'if we are all priests... why should we not also have the power to test and judge what is correct
+    or incorrect in matters of faith?' Our confession keeps the rule and changes its pitch: doctrine with
+    'nothing that varies from the Scriptures, or from the Church Catholic, or from the Church of Rome
+    as known from its writers.'
+  evidential: >-
+    The sharp form is the founder's own, single-register; the confession attests a milder, additive form
+    separately.
+  personal: We test the Fathers by Scripture and do not treat them as authorities in their own right.
+  translational: >-
+    Do not hear 'Scripture alone' as a fixed slogan dismissing every other voice; we state the rule two
+    ways -- one sharp, one additive -- and never as a Latin formula.
 quick_meaning: Scripture judges popes, councils, and fathers. Said sharply by one voice, gently by another.
 distortion_risk: high
 use_note:

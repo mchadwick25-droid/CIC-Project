@@ -1,0 +1,43 @@
+source_file: marnix_beehive-of-the-romish-church_gilpin1623.txt
+
+assignments:
+  - row_id: marnix_beehive-of-the-romish-church_gilpin1623--the-bee-hive-of-the-romish-church-gilpin-s-english-of-the
+    work: "The Bee Hive of the Romish Church (Gilpin's English of the Bijenkorf, 1579; the 1623 printing)"
+    author: marnix
+    locus: "whole file; Gilpin's dedication to Philip Sidney from file line 49; the satire's chapters follow (headings mostly lost in the black-letter OCR)"
+    atlas_ids:
+      - dutch-further-reformation-and-refuge-culture
+    role: tradition
+    confidence: assigned
+    note: >
+      The public-domain English beside the vendored Dutch original of 1569 (the 1858 edition).
+      Marnix's satire on the Roman church, written by the Dutch Revolt's leading Reformed layman a
+      year before this world's window opens, placed on the same ground as the Dutch file (the
+      author's place in the movement, the date stated). SECOND WITNESS for exact wording: black-
+      letter microfilm OCR at about 0.73 after long-s normalisation; the Dutch 1858 text is the
+      primary wording and this English is checked against the page image before use.
+  - row_id: marnix_beehive-of-the-romish-church_gilpin1623--the-bee-hive-of-the-romish-church-gilpin-s-english-of-the-2
+    work: "The Bee Hive of the Romish Church (Gilpin's English of the Bijenkorf, 1579; the 1623 printing)"
+    author: marnix
+    locus: "whole file"
+    atlas_ids:
+      - the-tridentine-church
+    role: context
+    confidence: provisional
+    note: >
+      A Reformed satire on the Roman church of the Tridentine generation, in the English through
+      which Elizabethan readers met it. Mirrors the context row staged for the Dutch file; not
+      read against that world's Doc_02. Second witness.
+  - row_id: marnix_beehive-of-the-romish-church_gilpin1623--the-bee-hive-of-the-romish-church-gilpin-s-english-of-the-3
+    work: "The Bee Hive of the Romish Church (Gilpin's English of the Bijenkorf, 1579; the 1623 printing)"
+    author: marnix
+    locus: "Gilpin's dedication to Philip Sidney from file line 49; the whole translation"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: context
+    confidence: provisional
+    note: >
+      An English translation of 1579 dedicated to Philip Sidney, reprinted in 1598, 1623 and 1636:
+      a Dutch Reformed polemic in English circulation across the Elizabethan and Jacobean church.
+      Placed on the translation's English readership only; the Elizabethan world's build decides
+      whether it needs it. Second witness.

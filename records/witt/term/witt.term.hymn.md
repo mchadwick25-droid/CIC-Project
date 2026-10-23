@@ -20,7 +20,7 @@ confidence:
     carries Reported-Experience Status for the same reason.'
 sources:
 - source_id: witt.source.luther-large-catechism
-  locus: the Large Catechism, cited among this entry's Registry rows (Doc_06 SS5 entry 4.9)
+  locus: the Large Catechism
   license: public-domain
 - source_id: witt.source.luther-small-catechism
   locus: the Small Catechism -- 'go about your work and perhaps sing a song'
@@ -35,14 +35,15 @@ sources:
   locus: the Augsburg Confession XXIV -- German hymns 'added to teach the people'
   license: public-domain
 - source_id: witt.source.melanchthon-apology-of-the-augsburg-confession
-  locus: the Apology XV, XXIV, read this pass
+  locus: the Apology XV, XXIV
   license: public-domain
 - source_id: witt.source.johann-letter-of-reminiscence-on-luther-as
-  locus: Walter's late reminiscence -- 'he kept me three weeks long at Wittenberg... until the first German
+  locus: >-
+    Walter's late reminiscence -- 'he kept me three weeks long at Wittenberg... until the first German
     Mass was sung'
   license: public-domain
 - source_id: witt.source.cyriacus-preface-to-the-cithara-lutheri
-  locus: Spangenberg's preface, cited among this entry's Registry rows (Doc_06 SS5 entry 4.9)
+  locus: Spangenberg's preface
   license: public-domain
 retrieval:
   tier: 1

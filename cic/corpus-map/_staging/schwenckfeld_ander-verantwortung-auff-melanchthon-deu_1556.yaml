@@ -1,0 +1,12 @@
+source_file: schwenckfeld_ander-verantwortung-auff-melanchthon-deu_1556.txt
+assignments:
+- row_id: schwenckfeld_ander-verantwortung-auff-melanchthon-deu_1556--die-ander-verantwortung-auff-philippi-melanthonis-beschuldigung-1556
+  work: Die ander Verantwortung auff Philippi Melanthonis Beschuldigung (1556)
+  author: schwenckfeld
+  locus: title in capitals at the head at file line 11; "M. D. LVI" on the title page at file line 68
+  atlas_ids:
+  - schwenckfelders
+  role: tradition
+  confidence: assigned
+  note: 'Schwenckfeld answering Melanchthon in 1556, inside the window. SECOND WITNESS: Google OCR of Fraktur, garbled
+    throughout; nothing quotable until read on the page images. Role tradition. German; no English exists.'

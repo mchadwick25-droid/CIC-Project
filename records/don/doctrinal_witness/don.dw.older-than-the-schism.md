@@ -18,8 +18,7 @@ confidence:
     to argue explicitly that Cyprian is not a canonical authority, which is negative attestation that
     the appeal was pressing. It is not an apostolic pedigree, and this record does not upgrade it into
     one: the counter-argument our opponents made, that Cyprian himself never broke communion over it,
-    is real and is carried in tensions rather than answered. Nothing in this compilation traces any practice
-    of ours past the mid-third century.
+    is real and is carried in tensions rather than answered. The earliest precedent in this compilation is the council under Agrippinus, early in the third century, whose date is disputed; nothing traces any practice of ours further back.
 sources:
 - source_id: don.source.seventh-council-of-carthage-256-anf05
   locus: the Seventh Council of Carthage, September 256 - eighty-seven bishops on the baptism of heretics
@@ -50,14 +49,14 @@ text: >-
 
   Half a century before there was any quarrel between us and the other
   party, eighty-seven African bishops sat in council at Carthage under
-  Cyprian, and ruled that what is given outside the true church is
-  not given at all - so anyone coming in from outside is baptized, not
-  re-baptized. That is not our invention. That is the settled mind of the
-  African church before either of our two hierarchies existed. When our
-  opponents told us we had made something up in the year of Caecilian's
-  consecration, our answer was that we had changed nothing, and they had.
-  We were holding the old African position; they had moved off it to keep
-  the peace with Rome.
+  Cyprian, and ruled that what is given outside the true church is not
+  given at all - so anyone coming in from outside is baptized, not
+  re-baptized. That was not our invention. It was the settled mind of
+  the African church before either of the two rival hierarchies existed.
+  When our opponents told us we had made something up in the year of
+  Caecilian's consecration, our answer was that we had changed nothing,
+  and they had. We were holding the old African position, and they had
+  moved off it.
 
 
   You can measure how much that argument weighed by how hard it had to be
@@ -71,9 +70,11 @@ text: >-
 
   Here is the honest end of it. Cyprian ruled as we ruled and did not do
   what we did. He never broke communion over it. That is the strongest
-  thing our opponents had, and we would not pretend it is weak. And
-  beyond him we cannot take you. We can show you an African council in
-  the middle of the third century. We cannot show you the apostles.
+  thing our opponents had, and we would not pretend it is weak. Beyond
+  him we can take you only a little way. Cyprian himself pointed back to
+  an earlier council under Bishop Agrippinus, early in the
+  third century, though its date is disputed. Past that we cannot go. We
+  cannot show you the apostles.
 positions:
 - we did not claim an unbroken apostolic pedigree for our practice; the claim we made was that it was
   the settled African position, ruled on by eighty-seven bishops under Cyprian half a century before the
@@ -85,8 +86,7 @@ positions:
 tensions:
 - Cyprian ruled as we ruled and never broke communion over it, which is the strongest argument our opponents
   had and is not answered here
-- nothing in our record traces any practice of ours past the middle of the third century, so an apostolic
-  claim is not available to us even if we had wanted to make one
+- nothing in our record traces any practice of ours past the early third century and the disputed council under Agrippinus, so an apostolic claim is not available to us even if we had wanted to make one
 relations: []
 use_note:
   means: "Donatists traced their rebaptism to the ruling of Cyprian's council of eighty-seven bishops at Carthage, an African rather than apostolic pedigree, while conceding Cyprian never broke communion over it."

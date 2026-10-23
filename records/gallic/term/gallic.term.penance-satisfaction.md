@@ -72,8 +72,9 @@ relations:
 - type: associated-with
   target: gallic.term.virtus
 plain_meaning: >-
-  The public discipline of our house. For a fault, a monk lies on the ground until the Abbot bids
-  him rise, or is barred from prayer with the brethren. No priest is needed to restore him.
+  The public discipline Cassian set out from the Egyptian houses. For a fault, a monk lay on the
+  ground until the Abbot bade him rise, or was barred from prayer with the brethren. No priest was
+  needed to restore him.
 world_word: penance / satisfaction ("suspended from prayer")
 false_friend:
 - sacramental penance - private confession to a priest, absolution by formula, assigned penances
@@ -107,12 +108,13 @@ senses:
     excluded from the brethren's prayer, beaten or expelled for the worst - and, at Tours, a
     repentance brought about by the master's prayer.
 quick_meaning: >-
-  The house's public discipline. For a small fault, on the ground until the Abbot bids you rise;
-  for more, barred from prayer with the brethren; for the worst, stripes or expulsion. At Tours,
-  the master's prayer brings the sinner back.
+  The public discipline of the Egyptian houses, as Cassian set it out. For a small fault, a monk lay
+  on the ground until the Abbot bade him rise. For more, he was barred from prayer with the
+  brethren. For the worst, stripes or expulsion. At Tours, the master's prayer brought the sinner
+  back.
 distortion_risk: high
 use_note:
-  means: "Penance meant the house's public discipline: lying on the ground until the Abbot bids rise, or barred from prayer, with no priest needed to restore the monk."
+  means: "Penance meant the public discipline of the Egyptian houses as Cassian set it out: lying on the ground until the Abbot bade the monk rise, or being barred from prayer, with no priest needed to restore him."
   not_for:
     - "sacramental penance as private confession with absolution by formula"
     - "penance as self-punishment, or satisfaction as a scholastic category"

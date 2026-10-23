@@ -21,12 +21,10 @@ sources:
   license: public-domain
 text: >-
   For Moses is more ancient than all the Greek writers. And whatever both philosophers and poets have said concerning the immortality of the soul, or punishments after death, or contemplation of things heavenly, or doctrines of the like kind, they have received such suggestions from the prophets as have enabled them to understand and interpret these things.
-modern_rendering: >-
-  Moses is more ancient than all the Greek writers. Both philosophers and poets have said
-  many things about the immortality of the soul, about punishments after death, about
-  contemplation of heavenly things, and about teachings of that kind. Whatever they said
-  on all of this, they received as suggestions from the prophets. Those suggestions let
-  them understand and explain these things.
+modern_rendering: Moses is older than all the Greek writers. Philosophers and poets have spoken of the
+  undying soul, of punishment after death, of the study of heavenly things, and of teachings like these.
+  Whatever they said, they received such hints from the prophets. Those hints let them understand and
+  explain these things.
 speaker_or_author: Justin Martyr, First Apology
 license: verbatim
 modern_lens_note: >-

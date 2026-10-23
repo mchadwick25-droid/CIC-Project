@@ -32,21 +32,20 @@ retrieval:
   - "participant asks what this world actually had about Jesus, and how it reached them"
   - "participant asks whether anyone in this world knew a chain of witnesses back to Jesus himself"
 text: >-
-  We did not know Jesus, and we did not know anyone who did. By the time
-  our own story opens, three centuries had already passed. What reached
-  us was not a chain of memory handed hand to hand from an eyewitness.
-  It was a finished deposit. The faith of the 318 fathers, written at
-  Nicaea before most of us were born. The words spoken over us at the
-  font - Father, Son, and Holy Spirit - said over an infant or an adult
-  before either could weigh them. And the psalms, sung so many times
-  that they came to interpret the singer rather than the singer
-  interpreting them. We also held that not everything the church keeps
-  arrived to us in writing at all - which way to face in prayer, how to
-  stand on the Lord's own day, the words spoken over the water. Custom
-  carried faith the same way a book does, our teachers argued, and we
-  believed them. So it reached us through a settled book, a settled
-  creed, a font, and a song, handed to us complete rather than gathered
-  by us piece by piece.
+  We did not know Jesus, and we did not know anyone who did. By the time our
+  own story opens, three centuries had already passed. What reached us was
+  not a chain of memory handed hand to hand from an eyewitness. It came to
+  us already given, not gathered by us. There was the faith of the 318
+  fathers, written at Nicaea before most of us were born. There were the
+  words spoken over us at the font: Father, Son, and Holy Spirit. And there
+  were the psalms, sung so many times that they came to interpret the singer
+  rather than the singer interpreting them. We also held that not everything
+  the church kept arrived to us in writing at all: which way to face in
+  prayer, how to stand on the Lord's own day, the words spoken over the
+  water. Custom carried faith the same way a book does, our teachers argued,
+  and we believed them. So it reached us through the scriptures, the creed,
+  the font and the song. Our teachers' lists still differed over a few books
+  at the edge, but the heart of it came to us whole.
 positions:
 - what reached us was an already-completed deposit - scripture, creed, and baptismal formula - not a
   personally gathered testimony
@@ -64,12 +63,17 @@ relations:
 - type: associated-with
   target: cappadocian.quote.macrina-the-elder-taught-me
 use_note:
-  means: "This witness says the faith reached the community as a finished deposit of creed, baptismal formula, psalms and custom, not an eyewitness chain."
+  means: This witness says the faith reached the community already given, through the scriptures, the
+    creed, the baptismal formula, the psalms and unwritten custom, not an eyewitness chain, though teachers'
+    lists still differed over a few books at the edge.
   not_for:
-    - "any living chain back to an eyewitness of Jesus"
-    - "the deposit model as true of every believer, when Basil's own search for fathers in cappadocian.quote.macrina-the-elder-taught-me cuts against it"
-    - "unwritten custom ranked above scripture"
-  years: {from: 325, to: 375}
+  - any living chain back to an eyewitness of Jesus
+  - the deposit model as true of every believer, when Basil's own search for fathers in cappadocian.quote.macrina-the-elder-taught-me
+    cuts against it
+  - unwritten custom ranked above scripture
+  years:
+    from: 325
+    to: 375
   status: reviewed
 ---
 Grounded in cappadocian.term.paradosis, cappadocian.term.symbolon, cappadocian.term.baptisma-photisma and cappadocian.term.psalmodia. The tensions field states that this world is distant in time and evidence from Jesus's own life.

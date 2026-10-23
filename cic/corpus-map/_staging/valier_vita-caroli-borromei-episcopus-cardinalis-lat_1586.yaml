@@ -1,0 +1,41 @@
+source_file: valier_vita-caroli-borromei-episcopus-cardinalis-lat_1586.txt
+assignments:
+- row_id: valier_vita-caroli-borromei-episcopus-cardinalis-lat_1586--vita-caroli-borromei
+  work: Vita Caroli Borromei (Valier, Verona 1586), the earliest printed Life
+  author: valier
+  locus: the printer's note and Silvio Antoniano's dedication to Cardinal Andrea Bathory from line 157;
+    the Life with running head "CARD. S. PRAX." from about line 1094 to about line 3000 (Milan named at
+    lines 223-266 and 828 onward)
+  atlas_ids:
+  - tridentine-parish-renewal-borromean-milan
+  role: tradition
+  confidence: assigned
+  note: 'The first Life of Borromeo, written two years after his death by his friend Agostino Valier, bishop
+    of Verona, who had sat in his provincial councils: an insider''s Latin portrait of the model bishop,
+    older than Giussano, Bascape and Possevino. Legible OCR with the long s read as f; quote only after
+    checking the page image. The printer''s note and Antoniano''s dedication are not Valier''s.'
+- row_id: valier_vita-caroli-borromei-episcopus-cardinalis-lat_1586--episcopus-et-cardinalis
+  work: Episcopus and Cardinalis, Valier's two treatises on the office of a bishop and of a cardinal, printed
+    with the Life
+  author: valier
+  locus: '"CARDINALIS" heading at line 3047 and "EPISCOPVS" headings at lines 4339, 4734 and 5376; running
+    head "AVG. VAL." from line 3381 to the end (line 6983)'
+  atlas_ids:
+  - tridentine-parish-renewal-borromean-milan
+  role: tradition
+  confidence: assigned
+  note: 'The ideal of the reforming bishop stated by a bishop of the Borromean circle, with Borromeo as the
+    worked example: the theory behind the Milan practice the Acta legislate. Same OCR caveat as the Life.
+    The order of the two opuscula in the OCR (Cardinalis before Episcopus) should be checked against the
+    page images.'
+- row_id: valier_vita-caroli-borromei-episcopus-cardinalis-lat_1586--vita-tridentine
+  work: Vita Caroli Borromei with Episcopus and Cardinalis (Valier, 1586)
+  author: valier
+  locus: whole file
+  atlas_ids:
+  - the-tridentine-church
+  role: context
+  confidence: provisional
+  note: 'The model bishop of the Tridentine reform described by a fellow Tridentine bishop; placed for the
+    whole-church world as context on the same footing as the other Borromeo Lives, pending the Borromean
+    Milan ruling in that dossier.'

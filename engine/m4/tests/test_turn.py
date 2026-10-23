@@ -95,7 +95,7 @@ def _world():
         quotes={"quotes": []},
         figures={},
         coverage={},
-        frame={"representative": {"name": "Vera", "role_label": "Witness"}},
+        frame={"representative": {"name": "Vera"}},
     )
 
 
@@ -277,7 +277,7 @@ def test_etic_turn_speaks_for_the_class_that_was_pressed():
     result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="what about the Reformation", pressed={"later_age": True}, anachronistic_term_ids=set())
     assert result.routing_action == "etic_turn"
     assert result.voice_event is None
-    assert "this world's own witnesses stop" in result.facilitator_events[0]["text"]
+    assert "this Christian tradition's own witnesses stop" in result.facilitator_events[0]["text"]
 
 
 def _participant_text(content) -> str:
@@ -514,7 +514,7 @@ def test_a_sentence_that_fails_verification_loses_its_citation_not_its_existence
     client = FakeBedrockClient(
         safety_response=_safety("NO_SIGNAL"),
         reader_response=_reader(asks=[{"order": 1, "text": "who is jesus"}]),
-        stream_chunks=["We received the community's own memory of Jesus [[fix.witness.who-is-jesus]]. "
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]. "
                        "Athanasius said it plainly [[fix.nonexistent.record]]."],
     )
     result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=world, participant_message="who is jesus", pressed={}, anachronistic_term_ids=set())
@@ -813,7 +813,8 @@ def test_figures_used_is_populated_from_a_name_in_the_finished_answer():
     client = FakeBedrockClient(
         safety_response=_safety("NO_SIGNAL"),
         reader_response=_reader(),
-        stream_chunks=["We were led by the Elder, who spoke for us [[fix.witness.who-is-jesus]]."],
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]. "
+                       "We were led by the Elder, who spoke for us [[fix.witness.who-is-jesus]]."],
     )
     result = run_turn(
         session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
@@ -1423,13 +1424,13 @@ def test_build_turn_directive_threads_the_r37_inputs():
 # case below; stream_scripts' second entry is always the self-revision
 # call's own output, never a second draft.
 
-_DRAFT_WITH_A_TAG = "We did not see him with our own eyes, but the elders told us so [[fix.witness.who-is-jesus]]."
+_DRAFT_WITH_A_TAG = "We did not claim to have seen him with our own eyes, but the elders told us so [[fix.witness.who-is-jesus]]."
 
 
 def test_self_revision_runs_only_on_other_tradition_first_asks():
     client = FakeBedrockClient(
         safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
-        stream_scripts=[[_DRAFT_WITH_A_TAG], ["We were told this by our elders [[fix.witness.who-is-jesus]]."]],
+        stream_scripts=[[_DRAFT_WITH_A_TAG], ["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."]],
     )
     voice_event, _usage = run_voice_turn_for_world(
         voice_client=client, voice_model_id="m", world=_world(),
@@ -1438,7 +1439,7 @@ def test_self_revision_runs_only_on_other_tradition_first_asks():
     )
     assert len(client.messages.captured_stream_calls) == 2  # draft, then the revision pass
     assert voice_event["attempts_meta"]["self_revision"]["ran"] is True
-    assert voice_event["text"] == "We were told this by our elders."  # the REVISED text, tag stripped - not the draft's
+    assert voice_event["text"] == "We did not claim to have seen him ourselves."  # the REVISED text, tag stripped - not the draft's
 
 
 def test_self_revision_never_runs_on_an_ordinary_turn():
@@ -1452,7 +1453,7 @@ def test_self_revision_never_runs_on_an_ordinary_turn():
     )
     assert len(client.messages.captured_stream_calls) == 1  # no second call at all
     assert voice_event["attempts_meta"]["self_revision"]["ran"] is False
-    assert voice_event["text"] == "We did not see him with our own eyes, but the elders told us so."
+    assert voice_event["text"] == "We did not claim to have seen him with our own eyes, but the elders told us so."
 
 
 def test_self_revision_kill_switch_bypasses_it_even_on_an_other_tradition_turn():
@@ -1467,7 +1468,7 @@ def test_self_revision_kill_switch_bypasses_it_even_on_an_other_tradition_turn()
     )
     assert len(client.messages.captured_stream_calls) == 1  # kill-switch: never even attempted
     assert voice_event["attempts_meta"]["self_revision"]["ran"] is False
-    assert voice_event["text"] == "We did not see him with our own eyes, but the elders told us so."
+    assert voice_event["text"] == "We did not claim to have seen him with our own eyes, but the elders told us so."
 
 
 def test_self_revision_an_empty_response_falls_back_to_the_draft_not_a_blank_turn():
@@ -1487,7 +1488,7 @@ def test_self_revision_an_empty_response_falls_back_to_the_draft_not_a_blank_tur
     assert self_revision_meta["fallback_reason"] == "empty_response"
     # The DRAFT's own real text, never blank - the participant reads the
     # draft, exactly as if self-revision had never run this turn.
-    assert voice_event["text"] == "We did not see him with our own eyes, but the elders told us so."
+    assert voice_event["text"] == "We did not claim to have seen him with our own eyes, but the elders told us so."
 
 
 def test_self_revision_a_draft_with_no_tags_never_spends_a_call():

@@ -1,0 +1,33 @@
+source_file: allen-william_true-sincere-and-modest-defence-v1_1914.txt
+
+assignments:
+  - row_id: allen-william_true-sincere-and-modest-defence-v1_1914--a-true-sincere-and-modest-defence-of-english-catholics-1584-vol-i-pref
+    work: "A True, Sincere and Modest Defence of English Catholics (1584), Vol. I: Preface to the Reader and chapters I-IV (that the Catholics suffer for religion and not treason; the 'bloody questions'; the seminaries; the priests' conduct)"
+    author: allen-william
+    locus: "the Preface to the Reader from file line 363; CHAPTER I at 695, II at 1399, III at 2109, IV at 3166 to the end of the volume"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: tradition
+    confidence: assigned
+    note: >
+      Allen's answer to Burghley's Execution of Justice: the community's own
+      political apologia, in which the leader of the exiles denies that the
+      priests are traitors, describes the examinations and the 'bloody questions'
+      put to them, and defends the seminaries. Written for Europe in English and
+      Latin in the year of Campion's trial's aftermath. Primary voice (modernised
+      spelling, 1914), clean OCR, ready to quote once verified against this file;
+      Cardinal Bourne's 1914 preface is not Allen's.
+  - row_id: allen-william_true-sincere-and-modest-defence-v1_1914--a-true-sincere-and-modest-defence-of-english-catholics-1584-vol-i-pref-2
+    work: "A True, Sincere and Modest Defence of English Catholics (1584), Vol. I: Preface to the Reader and chapters I-IV (that the Catholics suffer for religion and not treason; the 'bloody questions'; the seminaries; the priests' conduct)"
+    author: allen-william
+    locus: "the Preface to the Reader from file line 363; CHAPTER I at 695, II at 1399, III at 2109, IV at 3166 to the end of the volume"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: context
+    confidence: provisional
+    note: >
+      The Catholic exiles' reply to the Settlement's own statement of why it
+      executed priests: the other side of the argument the English Reformation
+      world's sources make from Jewel onward. Context, provisional; the first-pass
+      dossier for VI.4 asked whether that world wants a hostile Catholic witness.
+      Burghley's own tract is not vendored (EEBO microfilm only).

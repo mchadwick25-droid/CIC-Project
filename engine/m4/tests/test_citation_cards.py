@@ -61,10 +61,11 @@ def test_resolves_a_real_term_to_its_real_underlying_source():
         "alx.source.eusebius-historia-ecclesiastica",
     }
     philocalia = next(s for s in card["sources"] if s["source_id"] == "alx.source.origen-philocalia")
-    assert philocalia["author"].startswith("Origen")
-    assert philocalia["work"]
+    assert philocalia["citation"].startswith("Origen, Philocalia")
+    assert philocalia["author"] is None
+    assert philocalia["work"] is None
     assert philocalia["locus"] == "I"
-    assert philocalia["rights_status"] == "public-domain"
+    assert philocalia["rights_status"] is None
 
 
 def test_a_record_with_no_sources_resolves_to_an_empty_list_not_a_guess():
@@ -188,7 +189,7 @@ def test_a_quote_with_sources_labels_source_first_speaker_as_attribution():
     card = resolve_source_card("pahc.quote.ignatius-truly-born", repo)
     assert card["label"].startswith("The seven letters, middle recension, Trallians 9")
     assert card["label"].endswith("— Ignatius, bishop of Antioch")
-    assert card["sources"][0]["work"].startswith("The seven letters")  # full apparatus preserved below the headline
+    assert card["sources"][0]["citation"].startswith("Ignatius of Antioch, the seven letters")  # the source line below the headline
 
 
 def test_a_quote_card_carries_the_modern_rendering_and_source_reference_and_no_original_wording():
@@ -199,7 +200,7 @@ def test_a_quote_card_carries_the_modern_rendering_and_source_reference_and_no_o
     assert card["spoken_rendering"] == record["modern_rendering"]
     assert card["speaker"] == "Ignatius, bishop of Antioch"
     source = card["sources"][0]
-    assert source["work"] and source["author"] and source["locus"]
+    assert source["citation"] and source["locus"]
     assert "edition" in source
     assert record["text"] not in json.dumps(card)
 

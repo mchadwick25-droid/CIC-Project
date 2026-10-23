@@ -1,0 +1,41 @@
+source_file: southwell_funeral-tears-triumphs-epistle-of-comfort_walter1822.txt
+
+assignments:
+  - row_id: southwell_funeral-tears-triumphs-epistle-of-comfort_walter1822--an-epistle-of-comfort
+    work: "An Epistle of Comfort, to the Reverend Priests and to the Honourable, Worshipful and Other of the Lay Sort Restrained in Durance for the Catholic Faith (Walter's 1822 reprint)"
+    author: southwell
+    locus: "heading 'AN EPISTLE OF COMFORT.' at file line 5364 to the end of the file"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: tradition
+    confidence: assigned
+    note: >
+      Primary voice ready to quote once verified: Southwell's exhortation to the
+      imprisoned Catholics, written on the mission (the editor dates it 1584 from an
+      internal reference) and printed on the secret press. The devotional equipment of the
+      households, in the author's own English in modernised spelling; whether Walter's
+      text is complete against the 16th-century edition was not checked.
+  - row_id: southwell_funeral-tears-triumphs-epistle-of-comfort_walter1822--an-epistle-of-comfort-2
+    work: "An Epistle of Comfort (Walter's 1822 reprint)"
+    author: southwell
+    locus: "file line 5364 to the end"
+    atlas_ids:
+      - the-society-of-jesus
+    role: tradition
+    confidence: assigned
+    note: >
+      A Jesuit of the English mission writing to prisoners for the faith; the Society's
+      own pastoral voice in England.
+  - row_id: southwell_funeral-tears-triumphs-epistle-of-comfort_walter1822--mary-magdalens-funeral-tears-and-triumphs-over-death
+    work: "Mary Magdalen's Funeral Tears, and The Triumphs over Death (Walter's 1822 reprint)"
+    author: southwell
+    locus: "Walter's preface from file line 128; 'MARY MAGDALEN'S' heading at file line 269; 'TRIUMPHS OVER DEATH.' from file line 3747 to the Epistle at 5364"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: tradition
+    confidence: assigned
+    note: >
+      Southwell's two shorter prose works: a meditation on the Magdalen at the tomb, and
+      a consolatory epistle addressed to the Honourable Robert Sackville on the death of a
+      lady of his family named Margaret (Walter's preface, file line about 172). Devotional prose the households read; same text caveat as
+      the Epistle.

@@ -283,7 +283,7 @@ FLEET_RETRANSLATIONS = (
     ("desert", "From the fear of the Lord comes compunction, from compunction renunciation, from owning nothing humility is born, and from humility the death of desires."),
     ("alx", "These books are fountains of salvation, so whoever thirsts may be filled with the living words in them; let no one add to them or take anything from them."),
     ("gallic", "The Lord Jesus never promised to return in purple with a shining crown; I will not believe Christ has come unless he shows the marks of his wounds from the cross."),
-    ("ijc", "I told them I cannot give up the basilica, but neither may I fight."),
+    ("ijc", "I said I cannot give up the basilica, but I must not fight."),
     ("cappadocian", "My grandmother, the well-known Macrina, raised me; she taught me the words of the blessed Gregory, which she had kept as memory carried them down to her day."),
     ("witt", "Baptism is necessary for salvation; through it God offers grace, children should be baptized, and we reject the Anabaptists who say children are saved without it."),
     ("hal", "You are lying: you follow Cicero, not Christ, for where your treasure is, your heart will be too."),
@@ -480,15 +480,21 @@ def test_a_reply_cut_whole_is_replaced_by_the_worlds_answer_record_without_a_sec
 # ---- every quote record in the fleet ------------------------------------------
 
 def test_every_quote_record_in_the_fleet_places_word_for_word():
+    # The lead-in names the speaker as the turn's directive lists it
+    # (engine.m4.turn_prep._quote_lines), so every quote the voice is offered
+    # can be placed by following the directive.
     from engine.m1.loader import RECORDS_ROOT, load_world_records
+    from engine.m4.evidence import _with_quote_index
+    from engine.m4.turn_prep import _offered_speaker
 
     unplaced = set()
     for world_dir in sorted(p for p in RECORDS_ROOT.iterdir() if (p / "quote").is_dir()):
         records = load_world_records(world_dir.name)
         for record in (r for r in records.values() if r.get("record_type") == "quote"):
             context = PlacementContext(offered=frozenset({record["id"]}))
+            speaker = _offered_speaker(_with_quote_index({"id": record["id"], "record_type": "quote"}, records))
             text, _c, net_result = apply_net(
-                f"We read it [[quote:{record['id']}]].", repository_records=records, thin_topics=None, placement=context,
+                f"{speaker} wrote: [[quote:{record['id']}]]", repository_records=records, thin_topics=None, placement=context,
             )
             rendering = " ".join(record["modern_rendering"].split())
             if net_result["reply_shape"]["placed"] != [record["id"]] or rendering not in " ".join(text.split()):

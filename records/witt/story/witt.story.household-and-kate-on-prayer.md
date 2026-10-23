@@ -19,10 +19,11 @@ confidence:
     only Luther''s.'
 sources:
 - source_id: witt.source.luther-selections-from-the-table-talk
-  locus: '"I must have patience with Kate my wife... my whole life is nothing but patience" and Katharina
-    von Bora''s one recorded question, "Sir! how is it, that in Popedom they pray so often with great
-    vehemence, but we are very cold and careless in praying?" with Luther''s answer, all verified verbatim
-    at these loci'
+  locus: >-
+    "That Patience is necessary in every Particular" ("I must have patience with Kate my wife... my whole
+    life is nothing but patience") and "Of the Power of Prayer" (Katharina von Bora's question, "Sir!
+    how is it, that in Popedom they pray so often with great vehemence, but we are very cold and careless
+    in praying?", with Luther's answer)
   license: public-domain
 retrieval:
   tier: 1
@@ -55,25 +56,26 @@ narrative_tier_justification: 'Tier 2, Collected and Traditional Material - the 
   intimate and least independently corroborable material this library holds, resting on a chain of transmission
   (Lauterbach or a companion, to Aurifaber, to Bell, to Morley, with an intervening reviser) with no second
   witness anywhere in the library to check it against (Doc_09 witt-S08).'
-tellable_as: At his own table, Luther told his students that his whole life was patience - patience with
-  the Pope, with heretics, with servants, "with Kate my wife" - and, in the one moment this library holds
-  Katharina von Bora's own words, she is remembered asking him why the old church prayed with such vehemence
-  while their own household prayed cold and careless.
-text: 'Among the sayings his students recorded at Luther''s own table is one about patience. "I must have
-  patience with the Pope," Luther told them; "I must have patience with heretics and seducers; I must
-  have patience with the roaring courtiers; I must have patience with my servants: I must have patience
-  with Kate my wife; to conclude, the patiences are so many, that my whole life is nothing but patience."
+tellable_as: >-
+  At his table, Luther told his students that his whole life was patience. He needed it with the Pope,
+  with heretics, with servants, and "with Kate my wife." In another talk, Katharina von Bora is remembered
+  asking why the old church prayed so hard while their own household prayed cold and careless.
+text: >-
+  His students recorded one saying about patience at Luther's own table. "I must have patience with the
+  Pope," Luther told them; "I must have patience with heretics and seducers; I must have patience with
+  the roaring courtiers; I must have patience with my servants: I must have patience with Kate my wife;
+  to conclude, the patiences are so many, that my whole life is nothing but patience."
 
-  In another remembered conversation, Luther told of a time his wife had been sick, and how he had prayed
-  for her recovery - a prayer he believed God had answered, giving the household besides a good farm and
-  a fruitful year. It was around that same telling that Katharina herself is remembered asking him a question:
-  "Sir! how is it, that in Popedom they pray so often with great vehemence, but we are very cold and careless
-  in praying?" Luther''s answer, as his students recorded it, was that the devil drives on his own servants
-  continually, diligent in their false worship, "but we, indeed, are ice cold therein, and negligent."
+  In another remembered conversation, Luther told how his wife had been sick and how he had prayed for
+  her recovery. He believed God answered that prayer, and gave the household a good farm and a fruitful
+  year besides. At that time, Katharina herself is remembered asking him this: "Sir! how is it, that in
+  Popedom they pray so often with great vehemence, but we are very cold and careless in praying?" Luther's
+  answer, as his students recorded it, was that the devil drives on his own servants continually. They
+  are diligent in their false worship, "but we, indeed, are ice cold therein, and negligent."
 
-  This is the only place in this whole library where Katharina von Bora''s own words are recorded at all
-  - one question, remembered by a student, set down years after it was asked, filtered again through later
-  editors before it reached this library. It is not a portrait of her; it is a single sentence.'
+  Katharina von Bora's words are recorded here and nowhere else we hold: one question, set down by a student
+  and passed through later editors. It tells us little about her. It is a single sentence.
+telling: "His students wrote down what Luther said one day at table about patience. \"I must have patience with the Pope,\" he told them. He went on to heretics and seducers, to the roaring courtiers, and to his own servants. \"I must have patience with Kate my wife; to conclude, the patiences are so many, that my whole life is nothing but patience.\"\n\nIn another conversation, Luther told how his wife had been sick, and how he had prayed for her to recover. He believed God answered that prayer, and gave the household a good farm and a fruitful year besides.\n\nAt that time, Katharina herself is remembered asking him a question. She asked him why, under the Pope, people prayed so often and so hard, while their own household was cold and careless in prayer.\n\nLuther answered, as his students recorded it, that the devil drives his own servants on continually. They are diligent in their false worship, while we are ice cold and negligent in prayer."
 absent_detail: This library holds no other recorded words from Katharina von Bora anywhere - no letter
   of her own, no second conversation, nothing beyond this one question. The exchange's exact date is not
   given, and it reaches this library through several hands (a student's own notes, Aurifaber's collection,

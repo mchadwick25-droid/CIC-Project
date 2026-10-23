@@ -27,7 +27,14 @@
 .code-list li{display:flex;flex-wrap:wrap;align-items:center;gap:.8rem;min-width:0}
 .code-value{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:1.25rem;letter-spacing:.08em;overflow-wrap:anywhere}
 .state[hidden]{display:none}
+form.pilot-join{max-width:32rem;margin:1.4rem auto 0;text-align:left}
+form.pilot-join label{display:block;font-family:'Alegreya Sans',sans-serif;font-size:.98rem;font-weight:600;margin:0 0 .4rem}
+form.pilot-join .hint{font-family:'Alegreya Sans',sans-serif;font-size:.86rem;color:#B8AEA1;font-weight:400;display:block;margin-top:.15rem}
+form.pilot-join select{width:100%;font-family:'Alegreya',Georgia,serif;font-size:1rem;padding:.7rem .8rem;border:1px solid var(--rule);border-radius:5px;background:#1E1913;color:#F1E9DD}
+form.pilot-join .hero-actions{justify-content:center}
+button.btn{cursor:pointer}
 </style>
+<link rel="stylesheet" href="assets/feedback.css">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -48,6 +55,7 @@
       <a class="feature-btn" href="index.html#who">Conversation with One</a>
       <a class="feature-btn" href="table.html">Build a Table</a>
     </nav>
+    <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
     <div class="menu">
       <button type="button" class="menu-toggle" id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="site-menu">
         Menu
@@ -66,11 +74,26 @@
     <p class="eyebrow">The pilot</p>
     <h1>Join the pilot</h1>
     <p>Go Deeper lets you keep talking after a free conversation ends. Join the pilot and we give you one free pack: <span data-ops="pilot-tokens">1,100</span> tokens, about <span data-ops="pilot-conversations">ten</span> conversations.</p>
-    <p>In return, we ask you to answer a short questionnaire after <span data-pilot-end>31 December 2026</span>. You do not need to give your name or email.</p>
-    <p>Places are limited.</p>
-    <div class="hero-actions" style="margin:1.2rem 0 1rem;">
-      <a class="btn primary" id="pilot-button" href="#">Get my free pack</a>
-    </div>
+    <p>Try a few conversations and explore the Church Family Tree. Then tell us what you found in <a href="https://tally.so/r/68Xe1e" rel="noopener">a short questionnaire</a>. It is open now and stays open until <span data-pilot-end>31 December 2026</span>. You do not need to give your name or email.</p>
+    <p>Places are limited to <span data-ops="pilot-cap">100</span>. One pack per person.</p>
+    <form class="pilot-join" id="pilot-form">
+      <label for="pilot-role">Which of these describes you best?<span class="hint">We keep only a count of each answer, not who gave it.</span></label>
+      <select id="pilot-role" name="role" required>
+        <option value="" selected disabled>Choose one</option>
+        <option value="curious">Curious</option>
+        <option value="pastor">Pastor</option>
+        <option value="teacher">Teacher</option>
+        <option value="academic">Academic</option>
+        <option value="re_examining">Re-examining Faith</option>
+        <option value="another_faith">Another Faith</option>
+        <option value="atheist_or_agnostic">Atheist or Agnostic</option>
+        <option value="other">Other</option>
+        <option value="prefer_not_to_say">Prefer Not to Say</option>
+      </select>
+      <div class="hero-actions" style="margin:1.2rem 0 1rem;">
+        <button type="submit" class="btn primary" id="pilot-button">Get my free pack</button>
+      </div>
+    </form>
   </section>
   <noscript><section class="page-section"><p class="fine-print">This page needs JavaScript.</p></section></noscript>
 </main>
@@ -81,7 +104,6 @@
     <span>&copy; 2026 Church in Conversation. A ministry in formation.</span>
     <nav>
       <a href="about.html">About</a>
-      <a href="pilot-feedback.html">Feedback</a>
       <a href="privacy.html">Privacy</a>
       <a href="mailto:info@churchinconversation.com">Contact</a>
     </nav>
@@ -117,5 +139,6 @@ if (menu && menuToggle) {
 }
 })();
 </script>
+<script src="assets/feedback.js" defer></script>
 </body>
 </html>

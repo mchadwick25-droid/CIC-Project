@@ -1,0 +1,23 @@
+source_file: susza_saulus-et-paulus-lat_rome1666.txt
+assignments:
+- row_id: susza_saulus-et-paulus-lat_rome1666--saulus-et-paulus-ruthenae-unionis-the-life-of-meletij
+  work: Saulus et Paulus Ruthenae unionis (the life of Meletij Smotryc'kyj), the 1666 Rome printing
+  author: susza
+  locus: the whole file; title page at file line 11-50, the dedication and the life following
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: tradition
+  confidence: assigned
+  note: The original printing of the life the corpus already holds in Martinov's 1864 re-edition (susza_saulus-et-paulus-ruthenae-unionis-lat_martynov1864.txt),
+    which calls itself emended and enlarged; a build can now separate Susza's own words from the editor's.
+    Long s read as f throughout; second witness for exact wording until checked on the page images.
+- row_id: susza_saulus-et-paulus-lat_rome1666--saulus-et-paulus-ruthenae-unionis-the-life-of-meletij-2
+  work: Saulus et Paulus Ruthenae unionis (the life of Meletij Smotryc'kyj), the 1666 Rome printing
+  author: susza
+  locus: the whole file
+  atlas_ids:
+  - the-kyiv-mohyla-orthodox-revival
+  role: context
+  confidence: provisional
+  note: The union's account of the Kyiv polemicist who crossed over; mirrors the provisional Kyiv row
+    on the 1864 edition.

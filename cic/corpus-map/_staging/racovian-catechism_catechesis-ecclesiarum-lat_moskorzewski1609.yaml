@@ -1,0 +1,19 @@
+source_file: racovian-catechism_catechesis-ecclesiarum-lat_moskorzewski1609.txt
+
+assignments:
+  - row_id: racovian-catechism_catechesis-ecclesiarum-lat_moskorzewski1609--catechesis-ecclesiarum-racow-1609
+    work: "Catechesis Ecclesiarum quae in Regno Poloniae ... affirmant (the Racovian Catechism, first Latin edition, Racow 1609)"
+    author: racovian-catechism
+    locus: "Praefatio to King James I from file line 84; the catechism proper opens with De Via Salutis at 917; running heads De Persona (from 2616), De Ecclesia (11463) and De Officio Christi (12372)"
+    atlas_ids:
+      - anti-trinitarian-currents-servetus-polish-brethr
+    role: tradition
+    confidence: assigned
+    note: >
+      The first Latin edition of the Polish Brethren's catechism, with its
+      preface to James I. The earlier recension: Rees's English
+      (racovian-catechism_racovian-catechism_rees1818.txt) translates the
+      1680 revision, so the two texts differ. Second witness for exact
+      wording: the scan is readable but noisy (long-s read as f, stray
+      Cyrillic-looking glyphs, word-like share about 0.86), until a cleaner
+      scan is found (Mark's OCR ruling).

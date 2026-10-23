@@ -1,0 +1,28 @@
+source_file: amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt
+
+authors_ruled:
+  amr-ibn-matta:
+    kind: metadata-omission
+    evidence: >
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The
+      work is named for Amr ibn Matta of Tirhan (fourteenth century), whose text Gismondi
+      prints together with the recension of Sliba ibn Yuhanna of Mosul, marking Sliba's
+      additions in brackets (Gismondi's preface, file lines 6388 to 6400). Ruled under
+      Amr's name as the primary author, with Sliba named here. A mechanical index-coverage
+      gap, not an attribution dispute.
+
+assignments:
+  - row_id: amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897--lives-of-the-patriarchs-latin-version
+    work: "De patriarchis Nestorianorum commentaria (Amr and Sliba), the lives of the patriarchs of the East, Gismondi's Latin version; the Arabic text not recovered"
+    author: amr-ibn-matta
+    locus: "Latin version, pages in reverse order; Dadisho 14072 to 14097, Yazdgard's death 14166, Isaac 14185 to 14188, Ahai 14189, Yahballaha 14223"
+    atlas_ids:
+      - persian-church-of-the-east-early
+      - the-church-of-the-east-under-persia
+    role: tradition
+    confidence: provisional
+    note: >
+      Shared-Events Era 2 batch (worker C). Fourteenth-century Church of the East memory
+      witnesses: the tradition's own later account of its catholicoi, never evidence of
+      410 or 424 on its own. Only the Latin is usable from this OCR; the Arabic of the same
+      part is vendored separately from a Beth Mardutho scan.

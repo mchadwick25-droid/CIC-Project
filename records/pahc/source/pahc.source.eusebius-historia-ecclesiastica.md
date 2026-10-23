@@ -16,6 +16,7 @@ sources: []
 author: "Eusebius of Caesarea (c. 260-339 CE - writing well over a century after this world's close)"
 work: "Historia Ecclesiastica; a LATER WITNESS, not a voice of this world: quotes and preserves earlier documents (Polycarp's Philippians ch. 13 in Greek at HE III.36.13-15; the Lyons/Vienne martyrs' letter at V.1; the anonymous anti-Montanist at V.16-17; Hegesippus and Papias fragments) while imposing its own tidy-succession framing on the period"
 edition: "Nicene and Post-Nicene Fathers series 2, vol. 1 (1890), trans. Arthur Cushman McGiffert, vendored as cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml (the Church History portion; the volume's two works have different translators, checked per-work)"
+citation: Eusebius of Caesarea, Historia Ecclesiastica, trans. Arthur Cushman McGiffert, Nicene and Post-Nicene Fathers, 2nd series, vol. 1 (1890)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

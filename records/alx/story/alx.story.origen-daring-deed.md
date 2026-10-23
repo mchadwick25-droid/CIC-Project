@@ -39,18 +39,15 @@ narrative_tier_justification: 'Tier 2 (collected traditional material): Eusebius
   VI.8), written decades after the event from Alexandrian church memory, not a first-person account. The
   structural sequence is Widely Accepted as what Eusebius reports; whether the underlying act is historical
   fact is Contested, per the confidence block above.'
-tellable_as: The remembered account of a hard verse that Origen once took at its word and acted on. Later his own bishop turned it against him.
+tellable_as: The remembered account, as Eusebius tells it, of a hard verse that Origen took at its word and acted on. Later his own bishop turned it against him. Some scholars doubt the act ever happened.
 text: 'While Origen was still young and teaching the faith in Alexandria, he did something Eusebius calls
   both immature and a proof of unusual faith. He took a hard verse from Matthew - about those who "have
   made themselves eunuchs for the kingdom of heaven''s sake" - in the most literal sense possible, and
   acted on it himself. He taught men and women together, day and night, and wanted no one to accuse him
   of wrongdoing because of it. He tried to keep the act secret. He could not. When his bishop, Demetrius,
-  learned of it, he admired the young man''s daring and his faith, and urged him to keep teaching. Years
-  later, once Origen had grown famous far beyond Alexandria, the same Demetrius turned that same youthful
-  act against him: he wrote to bishops everywhere denouncing it as foolish, at the same time using Origen''s
-  ordination by the bishops of Caesarea and Jerusalem - given without Demetrius''s own consent - as fresh
-  grounds for attack. Origen himself later judged the verse differently, and wrote against reading it so
-  literally.'
+  learned of it, he admired the young man''s daring and his faith, and urged him to keep teaching. Soon
+  afterward, once Origen had grown famous far beyond Alexandria, the same Demetrius turned that youthful act against him. He wrote to bishops everywhere denouncing it as foolish. At the same time, he used Origen''s ordination by the bishops of Caesarea and Jerusalem as fresh grounds for attack. Origen himself later judged the verse differently. He wrote against reading it so literally.'
+telling: "Origen was still young, and teaching the faith in Alexandria. He taught men and women together, day and night.\n\nEusebius alone tells what Origen did then, and no account from Origen himself describes it. Eusebius says Origen wanted no one to accuse him of wrong, so he took a hard verse from Matthew in the most literal sense. It speaks of those who \"have made themselves eunuchs for the kingdom of heaven's sake.\" By this account he acted on it himself, and tried to keep it secret, but he could not. Eusebius calls the act immature, and in the same breath a proof of unusual faith.\n\nWhen his bishop, Demetrius, learned of it, he admired the young man's daring and faith, and urged him to keep teaching. Later, once Origen had grown famous beyond Alexandria, the same Demetrius turned that youthful act against him. He wrote to bishops everywhere calling it foolish. He also attacked Origen's ordination by the bishops of Caesarea and Jerusalem.\n\nSome have doubted that it happened at all, and thought the report grew from Origen's own figures of speech. Others see no reason to doubt it.\n\nOrigen himself later judged the verse differently. He wrote against reading it so literally."
 absent_detail: 'Eusebius alone reports this; no first-person account from Origen himself describes the
   act, only his later Commentary on Matthew arguing against a literal reading of the same verse. Whether
   the act happened exactly as told, happened at all, or grew out of a misunderstanding of Origen''s own

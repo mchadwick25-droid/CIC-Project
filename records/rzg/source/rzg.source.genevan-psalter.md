@@ -24,6 +24,7 @@ discovery_channel: Source_Registry.md row 15, added 2026-09-15; not searched thi
   citation already in the census's own `sources` field.
 external_ids:
   rzg_source_registry_row: 15
+citation: Clement Marot and Theodore Beza (versification), The Genevan Psalter (complete 1562)
 kind: unvendored
 ---
 Practice-limb (congregational singing) claims (Doc_01 SS5), once acquired - not currently usable for any claim (Confidence E). Grounds the World Capsule Core's own Geneva-worship characterization ('the whole of your praise was set to meter and tune') at general-knowledge confidence only, disclosed rather than upgraded.

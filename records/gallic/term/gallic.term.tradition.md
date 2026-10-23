@@ -73,10 +73,10 @@ relations:
 - type: associated-with
   target: gallic.term.the-deposit
 plain_meaning: >-
-  For us tradition is what has been received from predecessors and must be passed on unchanged.
+  For us tradition was what had been received from predecessors and had to be passed on unchanged.
   Vincent's second criterion of truth after Scripture, "the Tradition of the Catholic Church." Pope
   Stephen's rule, "nothing but what has been handed down." Cassian's "traditions of the Elders" by
-  which thoughts are judged. And the "steady tradition ... from antiquity" without which Martin will
+  which thoughts are judged. And the "steady tradition ... from antiquity" without which Martin would
   not honour a tomb.
 world_word: tradition / "handed down"
 false_friend:

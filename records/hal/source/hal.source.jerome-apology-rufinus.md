@@ -16,6 +16,7 @@ sources: []
 author: "Jerome (c. 331/347-420 CE)"
 work: "Apologia adversus libros Rufini (401-403): Jerome's answer in the Origenist controversy - his account of the broken friendship, his own early use of Origen, and his defense against the charge of inconsistency; addressed to Pammachius and Marcella"
 edition: "trans. W.H. Fremantle, NPNF2-03 (1892), vendored as cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml, div id vi.xii"
+citation: Jerome, Apologia adversus libros Rufini, trans. W.H. Fremantle, Nicene and Post-Nicene Fathers, 2nd series, vol. 3 (1892)
 kind: vendored
 rights_status: public-domain
 attribution_status: attributed

@@ -18,7 +18,7 @@ confidence:
     and no established published English translation was consulted.
 sources:
 - source_id: don.source.passio-isaac-et-maximiani
-  locus: the letter entire, preserved twice in the vendored file from two manuscripts
+  locus: the letter entire, preserved in two manuscript versions
   license: public-domain
 names:
 - name: Macrobius, our bishop, writing to his own people
@@ -30,8 +30,8 @@ dates:
   display: bishop over the Carthage congregation he addresses, writing in the immediate aftermath of the
     deaths of Isaac and Maximianus during the Macarian repression of 347-348
 narratable: true
-bridge_line: A bishop who wrote to his own congregation about two of their number tortured to death, and
-  ended by telling them the same might be asked of any of them.
+bridge_line: A bishop who wrote to the church at Carthage about two of their number put to death.
+  He ended by telling the readers that the two were waiting for them, and that they should hurry after them.
 relations:
 - type: associated-with
   target: don.story.macrobius-letter

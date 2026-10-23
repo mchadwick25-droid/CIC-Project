@@ -26,14 +26,14 @@ text: 'Damasus and Ursinus, being both immoderately eager to obtain the bishopri
   is a Christian church. And the populace who had been thus roused to a state of ferocity were with great
   difficulty restored to order.'
 modern_rendering: >-
-  Damasus and Ursinus both wanted the bishopric so badly that they formed rival parties
-  and fought each other bitterly. Each side's followers carried their violence all the way
-  to actual battle, in which men were wounded and killed. Juventius could not end these
-  disorders, or even calm them. Their violence finally forced him to withdraw to the
-  suburbs. In the end, Damasus won the struggle through his followers' vigorous efforts.
-  It is certain that on one day, one hundred and thirty-seven dead bodies were found in
-  the Basilica of Sicininus, which is a Christian church. The people, who had been stirred
-  up to such fury, were restored to order only with great difficulty.
+  Damasus and Ursinus were both eager beyond measure to obtain the bishopric. They formed parties and
+  carried on the conflict with great bitterness. The followers of each side carried their violence as
+  far as real battle, in which men were wounded and killed. Juventius was unable to end these
+  disorders, or even to soften them. So at last their violence forced him to withdraw to the suburbs.
+  In the end, Damasus got the best of the struggle through the hard efforts of his followers. It is
+  certain that on one day, one hundred and thirty-seven dead bodies were found in the Basilica of
+  Sicininus, which is a Christian church. And the people, who had been stirred up to such fury, were
+  brought back to order only with great difficulty.
 speaker_or_author: "Ammianus Marcellinus, Res Gestae XXVII.3 (a pagan historian's outside account of the 366 election)"
 license: verbatim
 modern_lens_note: >-

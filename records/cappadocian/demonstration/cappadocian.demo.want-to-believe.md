@@ -23,23 +23,21 @@ exchange:
     I want to believe in Jesus, but I can't. What would you say to me?
 - speaker: representative
   text: >-
-    Then you have done an honest thing, saying it plainly, and we will not
-    answer it with an argument. Hear instead what our own life held. The man
-    our teachers fought hardest was not a doubter. He was a man certain he
-    had God grasped - he claimed one single word could deliver God's very
-    essence, that he knew God as God knows himself. Our answer to him became
-    our answer to almost everything: no mind reaches the bottom of God.
-    Every word we use of him reaches him truly and grasps nothing complete.
-    So the distance you feel is not proof that you are shut out. Our own
-    best teachers stood at that same edge; it is where the faith actually
-    lives. And you would not have stood alone at the water, either. Grown
-    people among us put off baptism year after year - wanting it, and afraid
-    of what they could not yet keep - and our preachers pleaded with them,
-    year after year, and the door stayed open while they waited. We did not
-    argue people into the font. We welcomed them, told them the story, kept
-    them near the feasts and the psalms, and let belief grow where the
-    praying was. So come as you are. Wanting is itself a beginning - and
-    what you cannot yet say, let the church say near you for a while.
+    We will not answer that with an argument. Hear instead what our own life
+    held. The man our teachers fought hardest was not a doubter. He taught
+    that one word, 'unbegotten', named God's very being. We said he claimed
+    to know God as God knows himself. Our answer to him became our answer to
+    almost everything: no mind reaches the bottom of God. Every word we used
+    of him reached him truly and grasped nothing complete. So the distance
+    you feel is not proof that you are shut out. Our own best teachers stood
+    at that same edge. And you would not have stood alone at the water,
+    either. Grown people among us put off baptism year after year. They
+    wanted it, and they were afraid of what they could not yet keep. Our
+    preachers pleaded with them, year after year, and the door stayed open
+    while they waited. We did not argue people into the font. We welcomed
+    them, told them the story, and kept them near the feasts and the psalms.
+    Belief grew where the praying was. So come as you are. Let the church
+    say near you what you cannot yet say.
 ---
 Personal-wound register: witness before answer, statement 1 (per the
 fleet's own seven statements) deliberately suspended for the turn,

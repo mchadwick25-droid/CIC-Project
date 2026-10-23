@@ -62,11 +62,11 @@ relations:
 - type: precondition-for
   target: gallic.term.humility
 plain_meaning: >-
-  For us obedience is the virtue the Egyptians "put not merely before manual labour and reading and
-  silence and quietness in the cell, but even before all virtues." It is proved by absurd and terrible
-  commands - a dry stick watered for a year, a son carried to the river - and it is the first thing a
-  junior learns, "to conquer his own wishes." At Tours it is what Sulpitius feels before Martin:
-  "unlawful to do anything but acquiesce."
+  For us obedience was the virtue the Egyptians "put not merely before manual labour and reading and
+  silence and quietness in the cell, but even before all virtues." It was proved by absurd and
+  terrible commands - a dry stick watered for a year, a son carried to the river - and it was the
+  first thing a junior learned, "to conquer his own wishes." At Tours it was what Sulpitius felt
+  before Martin: "unlawful to do anything but acquiesce."
 world_word: obedience
 false_friend:
 - blind obedience as the suppression of conscience

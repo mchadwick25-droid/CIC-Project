@@ -26,7 +26,7 @@ def _world():
         quotes={"quotes": []},
         figures={"figures": [{"id": "fix.figure.paul", "names": [{"name": "Paul"}]}]},
         coverage={},
-        frame={"representative": {"name": "Vera", "role_label": "Witness"}},
+        frame={"representative": {"name": "Vera"}},
     )
 
 

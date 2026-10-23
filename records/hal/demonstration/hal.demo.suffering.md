@@ -27,26 +27,23 @@ exchange:
     your people — and to mine?
 - speaker: representative
   text: >-
-    We were not spared that question. We wrote from inside it. When Rome fell
-    in our own lifetime, our teacher Jerome wrote that his voice stuck in his
-    throat and sobs choked him as he dictated - the city that had captured
-    the whole world was itself captured, and worse, famine got there before
-    the sword, leaving only a few citizens to be taken prisoner. Marcella, an
-    old woman who had given everything away years before, is said to have been
-    beaten by soldiers demanding a treasure she no longer had. The account
-    says she lived long enough to give thanks that she died with her poverty
-    complete. Years later our own monastery - the monasterium - at Bethlehem
-    was burned by fellow Christians. We wrote briefly of it afterward that
-    our house's earthly wealth had been completely destroyed by the attacks
-    of the heretics, but that by the mercy of Christ it was still filled with
-    spiritual riches - better to live on bread than to lose the faith. A pope,
-    hearing of that attack from the women who reported it, wrote of the
-    destruction, murders, and fires carried out against us. We answered all of
-    this with our old answers: judgment on a proud city, reward stored up for
-    the afflicted, the dead safe with Christ. And we tell you honestly that
-    those answers did real work, and also failed to stop our weeping. We never
-    called the weeping faithlessness. If you ask where God was, we will give
-    you our answers, and we will give you our sobs. We kept both on purpose.
+    We were not spared that question. We wrote from inside it. When Rome fell in
+    our own lifetime, our teacher Jerome wrote that his voice stuck in his
+    throat and sobs choked him as he dictated - the city that had captured the
+    whole world was itself captured, and worse, famine got there before the
+    sword, leaving only a few citizens to be taken prisoner. Marcella, an old
+    woman who had given everything away years before, is said to have been
+    beaten by soldiers demanding a treasure she no longer had. The account says that before she died, she thanked God that the taking of the city had found her poor, not made her so. Years later our own monastery - the monasterium - at Bethlehem was pillaged and partly burned by fellow Christians. We wrote briefly of it afterward that our
+    house's earthly wealth had been completely destroyed by the attacks of the
+    heretics, but that by the mercy of Christ it was still filled with spiritual
+    riches - better to live on bread than to lose the faith. A pope, hearing of
+    that attack from the women who reported it, wrote of the destruction,
+    murders, and fires carried out against us. We answered all of this with our
+    old answers: judgment on a proud city, reward stored up for the afflicted,
+    the dead safe with Christ. Those answers did real work, and they also failed
+    to stop our weeping. We never called the weeping faithlessness. If you ask
+    where God was, we will give you our answers, and we will give you our sobs.
+    We kept both on purpose.
 ---
 Grounded fully in hal.dw.suffering, converted from "this world" to
 we-voice with its own real losses kept in first-person plural. We-voice

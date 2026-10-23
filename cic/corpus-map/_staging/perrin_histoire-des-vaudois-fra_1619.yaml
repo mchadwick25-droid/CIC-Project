@@ -1,0 +1,56 @@
+source_file: perrin_histoire-des-vaudois-fra_1619.txt
+
+assignments:
+  - row_id: perrin_histoire-des-vaudois-fra_1619--histoire-des-vaudois-premiere-partie
+    work: "Histoire des Vaudois (1619), Part I: origin, belief and persecutions of the Waldenses, with the 1532 articles of the ministers"
+    author: perrin
+    locus: "front matter and table of all three parts from line 19; Part I from 'CHAPITRE I' at line 1177; the 1532 articles (numbered I-XVII) around line 12113; the file ends with the 1545 massacre of Cabrières and Mérindol in Provence"
+    atlas_ids:
+      - the-waldensian-reformed-union
+    role: tradition
+    confidence: assigned
+    note: >
+      Jean Paul Perrin, Reformed pastor at Nyons in Dauphiné, wrote at the
+      commission of the synod of the valleys from their own papers, and
+      dedicated the book to Lesdiguières. Written inside the window (1619) by
+      a pastor of the union's own churches. This scan holds Part I only; Parts
+      II and III are in the English compilation
+      perrin_history-ancient-christians-valleys-alps_1847.txt, which also
+      carries Part I in English. The OCR renders long s as f: second witness
+      for wording until a cleaner scan is vendored.
+  - row_id: perrin_histoire-des-vaudois-fra_1619--histoire-des-vaudois-premiere-partie-2
+    work: "Histoire des Vaudois, Part I, the medieval chapters (Waldo's disciples in the Alps, the persecutions of the fifteenth century, the ancient books)"
+    author: perrin
+    locus: "Part I from line 1177 to the chapters on 1532 around line 12113"
+    atlas_ids:
+      - waldensians-in-the-alps
+    role: tradition
+    confidence: provisional
+    note: >
+      The Reformed valleys' own 1619 account of their medieval past, from the
+      papers the synod handed Perrin. Later than the window; a build decides
+      whether voice or context. Provisional, read in part.
+  - row_id: perrin_histoire-des-vaudois-fra_1619--histoire-des-vaudois-premiere-partie-3
+    work: "Histoire des Vaudois, Part I, the chapters on Waldo and the origins"
+    author: perrin
+    locus: "Part I Book I from 'CHAPITRE I' at line 1177"
+    atlas_ids:
+      - the-waldensians
+    role: context
+    confidence: provisional
+    note: >
+      A 1619 Reformed account of Waldo and of the names given to the
+      Waldenses. Context for the origins entry.
+  - row_id: perrin_histoire-des-vaudois-fra_1619--histoire-des-vaudois-premiere-partie-4
+    work: "Histoire des Vaudois, Part I, the Provence chapters (the Vaudois of Provence to the massacre of 1545) and the dedication to Lesdiguières"
+    author: perrin
+    locus: "dedication after line 19; the Provence chapters at the end of the file"
+    atlas_ids:
+      - the-huguenots
+    role: context
+    confidence: provisional
+    note: >
+      Perrin was a pastor of the French Reformed church in Dauphiné and wrote
+      under the patronage of its Protestant governor; the Provençal Vaudois
+      became French Reformed congregations. Placed on place and author without
+      reading these chapters for the Huguenot question.

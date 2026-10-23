@@ -37,13 +37,13 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): a conte
   the events, Eusebius''s strong mode (document quotation, not construction).'
 tellable_as: A true account from Bishop Dionysius's own letter. He wrote it while the plague was still raging.
 text: 'When the great sickness came to Alexandria, about the year 260, every house had its dead. Dionysius,
-  the bishop, wrote to the churches at festival time. He did not write of victory over the disease. He
+  the bishop, wrote to the churches at festival time. He
   wrote that most of the brothers and sisters had not run: they visited the sick without fear, tended
   them day after day, and served them in Christ. Many caught the sickness from those they nursed and died
   of it - and he wrote that they died most joyfully, as if drawing their neighbors'' pain onto themselves.
   The pagans, he said in the same letter, thrust away their own sick at the first sign of illness and
-  fled even from their dearest. The church buried its dead with open hands. That difference - not an argument,
-  a practice - was what the city saw.'
+  fled even from their dearest. The church buried its dead with open hands.'
+telling: "A great sickness came to Alexandria about the year 260, and every house had its dead. Our bishop Dionysius wrote to the churches at festival time, while the plague still raged.\n\nMost of the brothers and sisters did not run, he wrote. They visited the sick without fear, tended them day after day and served them in Christ.\n\nMany caught the sickness from those they nursed, and they died of it. He wrote that they died most joyfully, as if drawing their neighbors' pain onto themselves. Our church buried its dead with open hands.\n\nIn the same letter, he said the pagans thrust away their own sick at the first sign of illness, and fled even from their dearest."
 absent_detail: Dionysius names no individuals among the dead; how many died, and the disease's identity,
   are not recoverable. His letter contrasts the community's conduct with 'the heathen' - a bishop's rhetorical
   frame written for his own churches, which a telling should not sharpen further.
