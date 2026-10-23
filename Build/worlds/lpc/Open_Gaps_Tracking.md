@@ -1665,3 +1665,21 @@ Logged 2026-10-23. `lpc_Claims_Register.md` now lists the 102 absence or exclusi
 ### OG-42. The embedded atlas is out of step with the census; `lpc`'s `living` change adds to existing drift (2026-10-23).
 
 Logged 2026-10-23. `python -m engine.m6.cli atlas-check` failed before this thread's edit, with `entry` drift on 11 worlds (post-apostolic-house-church, alexandria-catechetical, syriac-edessa-nisibis, desert-monasticism, donatism, cappadocian, imperial-juridical, hieronymian, gallic, lutheran-wittenberg, reformed-cities). After the census `living` edit for `lpc` it also reports `lpc`'s `living` (false to true). CI runs `m6 check` only, which passes. `atlas-sync` would rewrite every drifted entry in the atlas HTML, which is not this thread's to do. Owner: whoever owns the atlas (Library eras and Family Tree are parked). Fleet-level: needs an ACCEPTED_OPEN waiver or a sync by the owning thread. Closes when `atlas-check` passes.
+
+### OG-43. Handoff checks 2, 9 and 11: census status in Step 0, two dossier questions, nine narration sites (2026-10-23).
+
+Logged 2026-10-23 from `python -m engine.m10.cli handoff lpc`.
+
+- **Check 2.** Step 0 does not record the movement's status in `cic-website/data/world-census.json`. Fix by change order to Step 0, citing the census entry `latin-pastoral-congregational-christianity` (atlas I.8).
+- **Check 9, Optatus's world placement.** The dossier §5 names three options (re-home to Donatism, hold here as the Catholic-side tradition, or double-place). It is open and cross-world; the project lead decides. Not decided here. Bears on the Doc_02 §7 restatement ruled 2026-10-23.
+- **Check 9, the resolved IJC boundary item.** The dossier notes, as resolved, the fix to two IJC quote records citing *Confessions* material outside IJC's licence (`Build/worlds/ijc/Open_Gaps_Tracking.md` item 16). Recorded here as closed so the check finds it; nothing to do.
+- **Check 11.** Process narration at Step 0 lines 108 and 110, Doc_01 lines 20 and 114, and the cross-world dossier lines 12 and 68 to 71. To be cleared by the change order, keeping every fact and moving history to the Decision Log. The dossier is the source-research thread's file; its sites are routed there.
+- **Owner.** The `lpc` build thread, except Optatus (project lead) and the dossier (source-research thread).
+
+### OG-44. Handoff check 4: 55 holdings files and two corpus-map works have no Source Registry line (2026-10-23).
+
+Logged 2026-10-23 from `handoff lpc`. 55 files the holdings report marks "in scope, unread" or "not yet assessed" for this world have no `Source_Registry.md` line; most belong to other traditions (Syriac, Cappadocian, Julian, Basil, Gregory Nazianzen, Evagrius and others). Two corpus-map works have no line: Augustine's *Soliloquies* and the Council of Arles (314) canons in Mansi tom. 2. Registry lines are issued with the Library's corpus-map rows; a build thread does not invent a `row_id`. Owner: the source-research (Library) thread, to give each file a line or mark it out of scope for `lpc`. Closes when check 4 passes.
+
+### OG-45. Handoff check 8: 194 quotations in Steps 0 to 2 not found word for word (2026-10-23).
+
+Logged 2026-10-23 from `handoff lpc` (288 quotations of five or more words checked; 27 taken from project documents; 0 confirmed inside a cited `cic:<file>:<locus>` division). Findings by file: Step 0, 55; Doc_01, 44; Doc_02, 15; `Source_Registry.md`, 80. Many appear to quote project documents rather than vendored texts. An independent triage is running into `Review-Artifacts/L1_Quote_Triage_2026-10-23.md`. Owner: the `lpc` build thread. Closes when check 8 passes and every quotation not found is corrected or withdrawn.
