@@ -1,0 +1,22 @@
+source_file: cennick_life-of-mr-j-cennick_1745.txt
+assignments:
+- row_id: cennick_life-of-mr-j-cennick_1745--the-life-of-mr-j-cennick-written-by-himself-1745
+  work: The Life of Mr. J. Cennick, written by himself (1745)
+  author: cennick
+  locus: whole work
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: tradition
+  confidence: assigned
+  note: A member's own conversion narrative, the printed cousin of the manuscript Lebensläufe; written
+    as he joined the Brethren.
+- row_id: cennick_life-of-mr-j-cennick_1745--the-life-of-mr-j-cennick-written-by-himself-1745-2
+  work: The Life of Mr. J. Cennick, written by himself (1745)
+  author: cennick
+  locus: the narrative of his years with Wesley at Kingswood and with Whitefield at the Tabernacle
+  atlas_ids:
+  - the-methodist-revival
+  role: context
+  confidence: provisional
+  note: The Kingswood schoolmaster and lay preacher who broke with Wesley in 1741 over predestination,
+    telling it himself. Provisional.

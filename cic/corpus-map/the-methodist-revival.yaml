@@ -82,6 +82,15 @@ works:
 
     '
   source_file: calder_memoirs-of-simon-episcopius_1838.txt
+- row_id: cennick_life-of-mr-j-cennick_1745--the-life-of-mr-j-cennick-written-by-himself-1745-2
+  work: The Life of Mr. J. Cennick, written by himself (1745)
+  author: cennick
+  locus: the narrative of his years with Wesley at Kingswood and with Whitefield at the Tabernacle
+  role: context
+  confidence: provisional
+  note: The Kingswood schoolmaster and lay preacher who broke with Wesley in 1741 over predestination,
+    telling it himself. Provisional.
+  source_file: cennick_life-of-mr-j-cennick_1745.txt
 - row_id: wesley-j_journal-v1_curnock1909--the-journal-of-the-rev-john-wesley-a-m-curnock-edition-vol-i-2
   work: The Journal of the Rev. John Wesley, A.M. (Curnock edition), Vol. I -- Curnock's own
     Editorial Introduction
@@ -104,6 +113,15 @@ works:
   note: Wesley abridged and reprinted this tract repeatedly from 1739; the full text behind
     his extracts. Provisional until a meth source record argues from it.
   source_file: francke_nicodemus-against-fear-of-man_1801.txt
+- row_id: moravian-church_collection-of-hymns-children-of-god_1754--a-collection-of-hymns-of-the-children-of-god-in-all-ages-2
+  work: A Collection of Hymns of the Children of God in all Ages (1754)
+  author: moravian-church
+  locus: the hymns translated from the German Herrnhut books
+  role: context
+  confidence: provisional
+  note: The Moravian hymn repertoire the Wesleys drew on and translated from; the shared song
+    of the two revivals. Provisional.
+  source_file: moravian-church_collection-of-hymns-children-of-god_1754.txt
 - row_id: wesley-c_hymns-methodists_1780--a-collection-of-hymns-for-the-use-of-the-people-called-2
   work: A Collection of Hymns, for the Use of the People Called Methodists - the hymns themselves
     (Charles Wesley, principal author)
@@ -139,6 +157,15 @@ works:
 
     '
   source_file: wesley-j_sermons-v1_1771.txt
+- row_id: wesley-j_queries-humbly-proposed-to-count-zinzendorf_1755--queries-humbly-proposed-to-count-zinzendorf-1755-2
+  work: Queries humbly proposed to Count Zinzendorf (1755)
+  author: wesley-j
+  locus: whole pamphlet
+  role: tradition
+  confidence: assigned
+  note: Wesley's own words on the Moravians fifteen years after the Fetter Lane separation;
+    the Methodist side of the breach.
+  source_file: wesley-j_queries-humbly-proposed-to-count-zinzendorf_1755.txt
 - row_id: wesley-c_hymns-methodists_1780--a-collection-of-hymns-for-the-use-of-the-people-called
   work: A Collection of Hymns, for the Use of the People Called Methodists - Preface
   author: wesley-john

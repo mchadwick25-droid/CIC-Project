@@ -163,6 +163,24 @@ works:
   note: The Ephrata prior writing in his own English to Franklin about the community and its
     founder.
   source_file: beissel_mystical-proverbs-and-millers-letter-to-franklin_sachse1912.txt
+- row_id: petersen-jw_leben-deu_1717--das-leben-jo-wilhelmi-petersen-von-ihm-selbst-beschrieben-2
+  work: Das Leben Jo. Wilhelmi Petersen, von ihm selbst beschrieben (1717)
+  author: petersen-jw
+  locus: whole work
+  role: context
+  confidence: provisional
+  note: The Petersens' millenarian 'Wiederbringung aller Dinge' was read in the radical circles
+    the Brethren came from. Provisional.
+  source_file: petersen-jw_leben-deu_1717.txt
+- row_id: reitz_historie-der-wiedergebohrnen-t2-deu_1717--historie-der-wiedergebohrnen-ii-theil-1717-2
+  work: Historie der Wiedergebohrnen, II. Theil (1717)
+  author: reitz
+  locus: whole part
+  role: context
+  confidence: provisional
+  note: Reitz stood on the radical side of Pietism and his collection circulated among the
+    Schwarzenau and Pennsylvania Germans; the shared devotional library. Provisional.
+  source_file: reitz_historie-der-wiedergebohrnen-t2-deu_1717.txt
 - row_id: sachse_music-of-ephrata-cloister-beissel-treatise_1903--the-music-of-the-ephrata-cloister-sachse-s-monograph
   work: The Music of the Ephrata Cloister (Sachse's monograph)
   author: sachse
@@ -180,3 +198,14 @@ works:
   note: The Germantown printer, a member of the radical-Pietist milieu, in his own voice against
     the Ephrata Vorsteher; inside the world's own quarrel, from Sauer's side.
   source_file: sauer-christopher_quarrel-with-beissel-1739_pennypacker1888.txt
+- row_id: zinzendorf_sammlung-oeffentlicher-reden-pennsylvania-deu_buedingen1746--eine-sammlung-offentlicher-reden-pennsylvania-discourses-of-2
+  work: Eine Sammlung öffentlicher Reden (Pennsylvania discourses of 1742; Büdingen 1746,
+    part 1)
+  author: zinzendorf
+  locus: whole part
+  role: context
+  confidence: provisional
+  note: Preached to the mixed German religious meetings of Pennsylvania in the year of Zinzendorf's
+    union synods, which the Brethren and Ephrata declined; the other side of that encounter.
+    Provisional.
+  source_file: zinzendorf_sammlung-oeffentlicher-reden-pennsylvania-deu_buedingen1746.txt

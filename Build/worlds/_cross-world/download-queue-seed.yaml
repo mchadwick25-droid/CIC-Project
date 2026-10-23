@@ -10495,3 +10495,424 @@ queue:
       read; djvu fetched (93 KB) and sampled, clean (0.86); first page read (JSTOR cover sheet, Harvard
       Theological Review, Jan. 1923).'
     status: not-yet-downloaded
+
+  - title: "Sixteen Discourses on the Redemption of Man (English, 1740)"
+    author: "Nikolaus Ludwig von Zinzendorf"
+    translator: "unnamed"
+    year: "1740"
+    world: "the-moravian-church-at-herrnhut"
+    why: >
+      Zinzendorf's own preaching in the English that the Fetter Lane
+      society read in the year of Wesley's visit to Herrnhut; the first of
+      his works printed in England.
+    url: "https://archive.org/details/bim_eighteenth-century_sixteen-discourses-on-th_zinzendorf-nicolaus-lud_1740"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "zinzendorf_sixteen-discourses-redemption-berlin_1740.txt"
+
+  - title: "Sixteen Discourses on Jesus Christ our Lord (English, 2nd ed. 1750)"
+    author: "Nikolaus Ludwig von Zinzendorf"
+    translator: "unnamed"
+    year: "1750"
+    world: "the-moravian-church-at-herrnhut"
+    why: >
+      The second Berlin series in a corrected English edition;
+      Zinzendorf's christology in his own sentences.
+    url: "https://archive.org/details/bim_eighteenth-century_sixteen-discourses-on-je_zinzendorf-nicolaus-lud_1750"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "zinzendorf_sixteen-discourses-on-jesus-christ_1750.txt"
+
+  - title: "Seven Sermons on the Godhead of the Lamb (English, 1742)"
+    author: "Nikolaus Ludwig von Zinzendorf"
+    translator: "unnamed"
+    year: "1742"
+    world: "the-moravian-church-at-herrnhut"
+    why: >
+      Herrnhaag preaching of 1741 at the start of the decade the Sifting
+      Time belongs to, dated sermon by sermon.
+    url: "https://archive.org/details/bim_eighteenth-century_seven-sermons-on-the-god_zinzendorf-nicolaus-lud_1742"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "zinzendorf_seven-sermons-godhead-of-the-lamb_1742.txt"
+
+  - title: "A Manual of Doctrine (English, 1742)"
+    author: "Nikolaus Ludwig von Zinzendorf"
+    translator: "unnamed"
+    year: "1742"
+    world: "the-moravian-church-at-herrnhut"
+    why: >
+      The Brethren's catechism in the form the English societies learned
+      it; scripture-answer teaching in Zinzendorf's arrangement.
+    url: "https://archive.org/details/bim_eighteenth-century_a-manual-of-doctrine-or_zinzendorf-nicolaus-lud_1742"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "zinzendorf_manual-of-doctrine_1742.txt"
+
+  - title: "Twenty One Discourses upon the Augsburg Confession (English, 1753)"
+    author: "Nikolaus Ludwig von Zinzendorf"
+    translator: "Francis Okely"
+    year: "1753"
+    world: "the-moravian-church-at-herrnhut"
+    why: >
+      The Brethren's confessional self-placement in Zinzendorf's own
+      lectures, printed in London in the year of Rimius's attack.
+    url: "https://archive.org/details/bim_eighteenth-century_twenty-one-discourses-or_zinzendorf-nicolaus-lud_1753"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "zinzendorf_twenty-one-discourses-augsburg-confession_okely1753.txt"
+
+  - title: "Maxims, Theological Ideas and Sentences (Gambold, 1751)"
+    author: "Nikolaus Ludwig von Zinzendorf"
+    translator: "John Gambold"
+    year: "1751"
+    world: "the-moravian-church-at-herrnhut"
+    why: >
+      The English Brethren's own digest of Zinzendorf's teaching from 1738
+      to 1747, with his letter of approval; topical access to his thought.
+    url: "https://archive.org/details/maxims-theological-ideas-and-sentences"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "zinzendorf_maxims-theological-ideas-and-sentences_gambold1751.txt"
+
+  - title: "Berlinische Reden (German, 1757 edition)"
+    author: "Nikolaus Ludwig von Zinzendorf"
+    translator: "none (original language)"
+    year: "1757"
+    world: "the-moravian-church-at-herrnhut"
+    why: >
+      The German original of the Berlin discourses, author-revised, for
+      verifying the two English printings word by word.
+    url: "https://archive.org/details/10464802bsb"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "zinzendorf_berlinische-reden-deu_clemens1757.txt"
+
+  - title: "Eine Sammlung öffentlicher Reden, Pennsylvania 1742 (German, 1746)"
+    author: "Nikolaus Ludwig von Zinzendorf"
+    translator: "none (original language)"
+    year: "1746"
+    world: "the-moravian-church-at-herrnhut"
+    why: >
+      Zinzendorf's American preaching of 1742 in its own German; the
+      Pennsylvania year the English sources only report.
+    url: "https://archive.org/details/einesammlungoffe00zinz"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "zinzendorf_sammlung-oeffentlicher-reden-pennsylvania-deu_buedingen1746.txt"
+
+  - title: "Acta Fratrum Unitatis in Anglia (1749)"
+    author: "Unitas Fratrum (Moravian Church)"
+    translator: "the church's own English where given"
+    year: "1749"
+    world: "the-moravian-church-at-herrnhut"
+    why: >
+      The church's official self-presentation to Parliament in 1749:
+      attestations, synodal acts and doctrinal articles in the Brethren's
+      own documents.
+    url: "https://archive.org/details/bim_eighteenth-century_acta-fratrum-unitatis-in_united-brethren-in-chris_1749"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "moravian-church_acta-fratrum-unitatis-in-anglia_1749.txt"
+
+  - title: "A Collection of Hymns of the Children of God in all Ages (English, 1754)"
+    author: "Moravian Church (Brethren's Church)"
+    translator: "the Brethren's own translators, unnamed"
+    year: "1754"
+    world: "the-moravian-church-at-herrnhut"
+    why: >
+      Hymnody in actual use: the 1754 English hymnal is the sung form of
+      the Brethren's theology, and the medium the census names first.
+    url: "https://archive.org/details/acollectionhymn00churgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "moravian-church_collection-of-hymns-children-of-god_1754.txt"
+
+  - title: "A Collection of Hymns for the Use of the Protestant Church of the United Brethren (1789)"
+    author: "Moravian Church (United Brethren)"
+    translator: "the Brethren's own translators, unnamed"
+    year: "1789"
+    world: "the-moravian-church-at-herrnhut"
+    why: >
+      The revised hymnal of 1789; with the 1754 book it shows what the
+      congregations kept and what they let go after Zinzendorf.
+    url: "https://archive.org/details/cbrethn00mora"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "moravian-church_collection-of-hymns_1789.txt"
+
+  - title: "Periodical Accounts relating to the Missions of the United Brethren, vol. I (1790)"
+    author: "Moravian Church (Brethren's Society for the Furtherance of the Gospel)"
+    translator: "the Society's own English"
+    year: "1790"
+    world: "the-moravian-church-at-herrnhut"
+    why: >
+      Mission diaries in the church's own serial: the missionaries'
+      letters and diary extracts printed as they arrived, the genre the
+      census names.
+    url: "https://archive.org/details/bim_eighteenth-century_periodical-accounts-rela_united-brethren-in-chris_1790"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "moravian-church_periodical-accounts-missions-v1_1790.txt"
+
+  - title: "An Exposition of Christian Doctrine (Idea Fidei Fratrum, English 1784)"
+    author: "August Gottlieb Spangenberg"
+    translator: "unnamed; preface by Benjamin La Trobe"
+    year: "1784"
+    world: "the-moravian-church-at-herrnhut"
+    why: >
+      The church's settled doctrine after Zinzendorf, in the English its
+      own bishop prefaced; the correction of the Sifting Time in doctrinal
+      form.
+    url: "https://archive.org/details/bim_eighteenth-century_an-exposition-of-christi_spangenberg-august-gott_1784"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "spangenberg_exposition-of-christian-doctrine_latrobe1784.txt"
+
+  - title: "The Life of Count Zinzendorf (Spangenberg, English 1838)"
+    author: "August Gottlieb Spangenberg"
+    translator: "Samuel Jackson"
+    year: "1838"
+    world: "the-moravian-church-at-herrnhut"
+    why: >
+      The church's own biography of its founder by a bishop who worked
+      beside him, with Herrnhut's founding and the 1727 renewal told from
+      the archives; the only English of Spangenberg's Leben.
+    url: "https://archive.org/details/lifeofnicholasle00span"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "spangenberg_life-of-zinzendorf_jackson1838.txt"
+
+  - title: "The Ancient and Modern History of the Brethren (Cranz, English 1780)"
+    author: "David Cranz"
+    translator: "unnamed; edited by Benjamin La Trobe"
+    year: "1780"
+    world: "the-moravian-church-at-herrnhut"
+    why: >
+      The church's own official history of Herrnhut's first fifty years,
+      paragraph by numbered paragraph, in the English its London bishop
+      edited.
+    url: "https://archive.org/details/ancientmodernhis00cran"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt"
+
+  - title: "The History of Greenland, vol. I (Cranz, English 1767)"
+    author: "David Cranz"
+    translator: "unnamed"
+    year: "1767"
+    world: "the-moravian-church-at-herrnhut"
+    why: >
+      The Greenland mission from the missionaries' own diaries, the
+      mission the census names second after St Thomas.
+    url: "https://archive.org/details/historyofgreenla01cran"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "cranz_history-of-greenland-v1_1767.txt"
+
+  - title: "A Succinct View of the Missions established among the Heathen (1771)"
+    author: "Benjamin La Trobe"
+    translator: "none"
+    year: "1771"
+    world: "the-moravian-church-at-herrnhut"
+    why: >
+      The church's own one-sitting survey of all its missions in 1771; a
+      map of the mission record for the build.
+    url: "https://archive.org/details/succinctviewofmi00latr"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "latrobe-benjamin_succinct-view-of-the-missions_1771.txt"
+
+  - title: "History of the Mission of the United Brethren among the Indians in North America (1794)"
+    author: "George Henry Loskiel"
+    translator: "Christian Ignatius La Trobe"
+    year: "1794"
+    world: "the-moravian-church-at-herrnhut"
+    why: >
+      The Shekomeko and Bethlehem Native congregations the census names,
+      in the church's own official history compiled from the mission
+      diaries.
+    url: "https://archive.org/details/historyofmission1794losk"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "loskiel_history-of-mission-among-indians_latrobe1794.txt"
+
+  - title: "A Narrative of the Mission among the Delaware and Mohegan Indians, 1740-1808 (1820)"
+    author: "John Heckewelder"
+    translator: "none"
+    year: "1820"
+    world: "the-moravian-church-at-herrnhut"
+    why: >
+      A missionary's first-person narrative of the Native congregations to
+      1808; the mission diary genre in a participant's own retrospect.
+    url: "https://archive.org/details/narrativeofmissi00heck"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "heckewelder_narrative-of-mission-delaware-mohegan_1820.txt"
+
+  - title: "Geschichte der Mission auf den caraibischen Inseln, Erster Theil (German, 1777)"
+    author: "Christian Georg Andreas Oldendorp"
+    translator: "none (original language)"
+    year: "1777"
+    world: "the-moravian-church-at-herrnhut"
+    why: >
+      The St Thomas mission the census names first, in the church's own
+      eighteenth-century history; the only Oldendorp available in the
+      public domain.
+    url: "https://archive.org/details/11129612bsb"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "oldendorp_geschichte-der-mission-caraibische-inseln-v1-deu_bossart1777.txt"
+
+  - title: "The Life of Mr. J. Cennick, written by himself (1745)"
+    author: "John Cennick"
+    translator: "none"
+    year: "1745"
+    world: "the-moravian-church-at-herrnhut"
+    why: >
+      An English convert's own Lebenslauf in print, by the man who carried
+      the Brethren into Wiltshire and Ireland; the memoir genre the census
+      calls the world's unusual strength.
+    url: "https://archive.org/details/bim_eighteenth-century_the-life-of-mr-j-cenni_cennick-john_1745"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "cennick_life-of-mr-j-cennick_1745.txt"
+
+  - title: "A Candid Narrative of the Rise and Progress of the Herrnhuters (Rimius, 1753)"
+    author: "Henry Rimius"
+    translator: "none"
+    year: "1753"
+    world: "the-moravian-church-at-herrnhut"
+    why: >
+      The hostile witness of 1753, whose quotations from the Sifting Time
+      hymns drove the Brethren's own public corrections; needed to read
+      the controversy from both sides.
+    url: "https://archive.org/details/candidnarrativeo00rimi"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "rimius_candid-narrative-of-the-herrnhuters_1753.txt"
+
+  - title: "Queries humbly proposed to Count Zinzendorf (Wesley, 1755)"
+    author: "John Wesley"
+    translator: "none"
+    year: "1755"
+    world: "the-moravian-church-at-herrnhut"
+    why: >
+      The Methodist-Moravian breach in Wesley's own public questions of
+      1755; the outside Protestant witness the census's relations line
+      points to.
+    url: "https://archive.org/details/bim_eighteenth-century_queries-humbly-proposed-_wesley-john_1755"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "wesley-j_queries-humbly-proposed-to-count-zinzendorf_1755.txt"
+
+  - title: "Die täglichen Loosungen der Brüder-Gemeine für das Jahr 1766"
+    author: "Moravian Church (Brüdergemeine)"
+    translator: "none (original language)"
+    year: "1766"
+    world: "the-moravian-church-at-herrnhut"
+    why: >
+      The Losungen, printed annually since 1731 and named by the census as
+      part of the congregational record; one in-window year as the
+      congregation itself printed it.
+    url: "https://archive.org/details/10264724bsb"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "moravian-church_taegliche-loosungen-1766-deu_barby1766.txt"
+
+  - title: "Die Fußstapffen des noch lebenden und waltenden Gottes (German, 1701)"
+    author: "August Hermann Francke"
+    translator: "none (original language)"
+    year: "1701"
+    world: "german-pietism-spener-francke-halle"
+    why: >
+      The German original of the Halle orphan-house narrative, named by
+      the census; the English printings were vendored first and this is
+      the text behind them.
+    url: "https://archive.org/details/10477841bsb"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "francke_fussstapffen-des-noch-lebenden-gottes-deu_glaucha1701.txt"
+
+  - title: "Historie der Wiedergebohrnen, II. Theil (German, 1717)"
+    author: "Johann Henrich Reitz"
+    translator: "none (original language)"
+    year: "1717"
+    world: "german-pietism-spener-francke-halle"
+    why: >
+      The lay conversion-narrative genre in the compilation the census
+      names; women's and lay voices as Pietism itself collected them.
+    url: "https://archive.org/details/10070752bsb"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "reitz_historie-der-wiedergebohrnen-t2-deu_1717.txt"
+
+  - title: "Historie der Wiedergebohrnen, IV. Theil (German, 1717)"
+    author: "Johann Henrich Reitz"
+    translator: "none (original language)"
+    year: "1717"
+    world: "german-pietism-spener-francke-halle"
+    why: >
+      Continues the Reitz collection; the census-named lay conversion
+      narratives.
+    url: "https://archive.org/details/10070754bsb"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "reitz_historie-der-wiedergebohrnen-t4-deu_1717.txt"
+
+  - title: "Historie der Wiedergebohrnen, V. Theil (German, 1715)"
+    author: "Johann Henrich Reitz"
+    translator: "none (original language)"
+    year: "1715"
+    world: "german-pietism-spener-francke-halle"
+    why: >
+      Continues the Reitz collection; the census-named lay conversion
+      narratives.
+    url: "https://archive.org/details/10070755bsb"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "reitz_historie-der-wiedergebohrnen-t5-deu_1715.txt"
+
+  - title: "Das Leben Jo. Wilhelmi Petersen, von ihm selbst beschrieben (German, 1717)"
+    author: "Johann Wilhelm Petersen"
+    translator: "none (original language)"
+    year: "1717"
+    world: "german-pietism-spener-francke-halle"
+    why: >
+      A Pietist autobiography of the conversion-narrative kind by the
+      husband of Johanna Eleonora Petersen; the nearest public-domain
+      approach to the household the census names, until her own Leben is
+      found.
+    url: "https://archive.org/details/10071488bsb"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "petersen-jw_leben-deu_1717.txt"

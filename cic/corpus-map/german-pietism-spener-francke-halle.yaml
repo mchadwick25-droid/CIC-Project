@@ -73,6 +73,16 @@ works:
   confidence: assigned
   note: Francke on reading all Scripture for Christ; own voice.
   source_file: francke_christ-the-sum-and-substance-of-scripture_1732.txt
+- row_id: francke_fussstapffen-des-noch-lebenden-gottes-deu_glaucha1701--die-fustapffen-des-noch-lebenden-und-waltenden-gottes-halle
+  work: Die Fußstapffen des noch lebenden und waltenden Gottes (Halle narrative to Easter
+    1701)
+  author: francke
+  locus: whole work
+  role: tradition
+  confidence: assigned
+  note: Francke's own German of the providential narrative; the original to check the two
+    English printings against.
+  source_file: francke_fussstapffen-des-noch-lebenden-gottes-deu_glaucha1701.txt
 - row_id: francke_faith-in-christ-sermon_1709--faith-in-christ-inconsistent-with-a-sollicitous-concern
   work: Faith in Christ inconsistent with a sollicitous Concern about the Things of this World
     (Halle sermon, 1708; English 1709)
@@ -162,6 +172,52 @@ works:
   note: The radical wing's confession, from a preacher formed at Halle under Francke and then
     separated from the church; the view from Halle's radical edge, not Halle's own.
   source_file: brumbaugh_history-german-baptist-brethren_1899.txt
+- row_id: petersen-jw_leben-deu_1717--das-leben-jo-wilhelmi-petersen-von-ihm-selbst-beschrieben
+  work: Das Leben Jo. Wilhelmi Petersen, von ihm selbst beschrieben (1717)
+  author: petersen-jw
+  locus: whole work
+  role: tradition
+  confidence: provisional
+  note: A radical-Pietist theologian's own life, from the Spener circle's margins; provisional
+    because the chiliast Petersen stood at the edge of the Halle-Spener mainstream the entry
+    centres on.
+  source_file: petersen-jw_leben-deu_1717.txt
+- row_id: reitz_historie-der-wiedergebohrnen-t2-deu_1717--historie-der-wiedergebohrnen-ii-theil-1717
+  work: Historie der Wiedergebohrnen, II. Theil (1717)
+  author: reitz
+  locus: whole part
+  role: tradition
+  confidence: assigned
+  note: Pietism's own anthology of conversion narratives, lay and learned, women and men;
+    the genre in the movement's own hands.
+  source_file: reitz_historie-der-wiedergebohrnen-t2-deu_1717.txt
+- row_id: reitz_historie-der-wiedergebohrnen-t4-deu_1717--historie-der-wiedergebohrnen-iv-theil-1717
+  work: Historie der Wiedergebohrnen, IV. Theil (1717)
+  author: reitz
+  locus: whole part
+  role: tradition
+  confidence: assigned
+  note: Further conversion narratives from Pietism's own anthology.
+  source_file: reitz_historie-der-wiedergebohrnen-t4-deu_1717.txt
+- row_id: reitz_historie-der-wiedergebohrnen-t5-deu_1715--historie-der-wiedergebohrnen-v-theil-1715
+  work: Historie der Wiedergebohrnen, V. Theil (1715)
+  author: reitz
+  locus: whole part
+  role: tradition
+  confidence: assigned
+  note: Further conversion narratives from Pietism's own anthology.
+  source_file: reitz_historie-der-wiedergebohrnen-t5-deu_1715.txt
+- row_id: spangenberg_life-of-zinzendorf_jackson1838--the-life-of-nicholas-lewis-count-zinzendorf-spangenberg-1772-2
+  work: The Life of Nicholas Lewis, Count Zinzendorf (Spangenberg, 1772-1775; abridged English
+    1838)
+  author: spangenberg
+  locus: the chapters on Zinzendorf's schooling at Halle under Francke and his dealings with
+    Halle afterward
+  role: context
+  confidence: provisional
+  note: Halle seen through its most famous pupil and later rival; the Moravian memory of Francke's
+    school. Provisional.
+  source_file: spangenberg_life-of-zinzendorf_jackson1838.txt
 - row_id: spener_geistliches-priesterthum-deu_steinkopf1851--das-geistliche-priesterthum-siebenzig-fragen-und-antworten
   work: Das geistliche Priesterthum (Siebenzig Fragen und Antworten, 1677)
   author: spener

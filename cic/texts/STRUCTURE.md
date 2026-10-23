@@ -1846,6 +1846,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 243,508 | 243,508 | catholic-record-society_unpublished-documents-english-martyrs-v1_pollen1908 |
 
+## `cennick_life-of-mr-j-cennick_1745.txt`
+
+1 section(s) to level 2 · ~13,569 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 13,569 | 13,569 | cennick_life-of-mr-j-cennick_1745 |
+
 ## `challoner_memoirs-of-missionary-priests_pollen1924.txt`
 
 1 section(s) to level 2 · ~306,327 words of text · ~0 words of apparatus
@@ -2093,6 +2101,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 474,314 | 474,314 | cranmer_miscellaneous-writings-and-letters_cox1846 |
+
+## `cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt`
+
+1 section(s) to level 2 · ~240,256 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 240,256 | 240,256 | cranz_ancient-and-modern-history-of-the-brethren_latrobe1780 |
+
+## `cranz_history-of-greenland-v1_1767.txt`
+
+1 section(s) to level 2 · ~176,650 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 176,650 | 176,650 | cranz_history-of-greenland-v1_1767 |
 
 ## `crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889.txt`
 
@@ -2758,6 +2782,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 49,562 | 49,562 | francke_footsteps-of-divine-providence_1788 |
 
+## `francke_fussstapffen-des-noch-lebenden-gottes-deu_glaucha1701.txt`
+
+1 section(s) to level 2 · ~29,040 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 29,040 | 29,040 | francke_fussstapffen-des-noch-lebenden-gottes-deu_glaucha1701 |
+
 ## `francke_nicodemus-against-fear-of-man_1801.txt`
 
 1 section(s) to level 2 · ~36,165 words of text · ~0 words of apparatus
@@ -3085,6 +3117,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 87,370 | 87,370 | harris_odes-and-psalms-of-solomon_harris1911 |
+
+## `heckewelder_narrative-of-mission-delaware-mohegan_1820.txt`
+
+1 section(s) to level 2 · ~113,386 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 113,386 | 113,386 | heckewelder_narrative-of-mission-delaware-mohegan_1820 |
 
 ## `hefele-leclercq_histoire-des-conciles-tome1-1-cyprien-novatiens-baptheme-slice-fra_1907.txt`
 
@@ -4134,6 +4174,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 256,771 | 256,771 | latimer_sermons_corrie1844 |
 
+## `latrobe-benjamin_succinct-view-of-the-missions_1771.txt`
+
+1 section(s) to level 2 · ~8,606 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 8,606 | 8,606 | latrobe-benjamin_succinct-view-of-the-missions_1771 |
+
 ## `lauchert_kanones-altkirchlichen-concilien-lat-grc_1896.txt`
 
 1 section(s) to level 2 · ~82,385 words of text · ~0 words of apparatus
@@ -4189,6 +4237,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 43,238 | 43,238 | lobo_voyage-to-abyssinia_johnson1735 |
+
+## `loskiel_history-of-mission-among-indians_latrobe1794.txt`
+
+1 section(s) to level 2 · ~242,198 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 242,198 | 242,198 | loskiel_history-of-mission-among-indians_latrobe1794 |
 
 ## `lubieniecki_historia-reformationis-polonicae-lat_1685.txt`
 
@@ -4677,6 +4733,46 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 14,578 | 14,578 | monumenta-vetera-donatistarum_migne-pl8 |
+
+## `moravian-church_acta-fratrum-unitatis-in-anglia_1749.txt`
+
+1 section(s) to level 2 · ~107,245 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 107,245 | 107,245 | moravian-church_acta-fratrum-unitatis-in-anglia_1749 |
+
+## `moravian-church_collection-of-hymns-children-of-god_1754.txt`
+
+1 section(s) to level 2 · ~342,217 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 342,217 | 342,217 | moravian-church_collection-of-hymns-children-of-god_1754 |
+
+## `moravian-church_collection-of-hymns_1789.txt`
+
+1 section(s) to level 2 · ~151,254 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 151,254 | 151,254 | moravian-church_collection-of-hymns_1789 |
+
+## `moravian-church_periodical-accounts-missions-v1_1790.txt`
+
+1 section(s) to level 2 · ~134,203 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 134,203 | 134,203 | moravian-church_periodical-accounts-missions-v1_1790 |
+
+## `moravian-church_taegliche-loosungen-1766-deu_barby1766.txt`
+
+1 section(s) to level 2 · ~29,927 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 29,927 | 29,927 | moravian-church_taegliche-loosungen-1766-deu_barby1766 |
 
 ## `morebath-parish_churchwardens-accounts-1520-1573_binney1904.txt`
 
@@ -7921,6 +8017,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 199,126 | 199,126 | olavus-petri_samlade-skrifter-v2-swe_hesselman1915 |
 
+## `oldendorp_geschichte-der-mission-caraibische-inseln-v1-deu_bossart1777.txt`
+
+1 section(s) to level 2 · ~116,620 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 116,620 | 116,620 | oldendorp_geschichte-der-mission-caraibische-inseln-v1-deu_bossart1777 |
+
 ## `olearius_voyages-and-travels-of-the-ambassadors_davies1662.txt`
 
 1 section(s) to level 2 · ~562,111 words of text · ~0 words of apparatus
@@ -8177,6 +8281,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 133,960 | 133,960 | persian-martyr-acts_auszuge-aus-syrischen-akten-persischer-martyrer-deu_hoffmann1880 |
 
+## `petersen-jw_leben-deu_1717.txt`
+
+1 section(s) to level 2 · ~65,617 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 65,617 | 65,617 | petersen-jw_leben-deu_1717 |
+
 ## `philostorgius_ecclesiastical-history_walford1855.txt`
 
 1 section(s) to level 2 · ~43,865 words of text · ~0 words of apparatus
@@ -8417,6 +8529,30 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 67,145 | 67,145 | reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840 |
 
+## `reitz_historie-der-wiedergebohrnen-t2-deu_1717.txt`
+
+1 section(s) to level 2 · ~41,462 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 41,462 | 41,462 | reitz_historie-der-wiedergebohrnen-t2-deu_1717 |
+
+## `reitz_historie-der-wiedergebohrnen-t4-deu_1717.txt`
+
+1 section(s) to level 2 · ~82,213 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 82,213 | 82,213 | reitz_historie-der-wiedergebohrnen-t4-deu_1717 |
+
+## `reitz_historie-der-wiedergebohrnen-t5-deu_1715.txt`
+
+1 section(s) to level 2 · ~106,180 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 106,180 | 106,180 | reitz_historie-der-wiedergebohrnen-t5-deu_1715 |
+
 ## `remonstrants_confession-or-declaration_anon1676.txt`
 
 1 section(s) to level 2 · ~64,574 words of text · ~0 words of apparatus
@@ -8464,6 +8600,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 73,075 | 73,075 | rilliet_calvin-and-servetus_tweedie1846 |
+
+## `rimius_candid-narrative-of-the-herrnhuters_1753.txt`
+
+1 section(s) to level 2 · ~51,238 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 51,238 | 51,238 | rimius_candid-narrative-of-the-herrnhuters_1753 |
 
 ## `rogers-john_displaying-of-an-horrible-secte_bishop1579.txt`
 
@@ -8928,6 +9072,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 285,726 | 285,726 | sozomen_historia-ecclesiastica-tomus2-libri-5-9-grc-lat_hussey1860 |
+
+## `spangenberg_exposition-of-christian-doctrine_latrobe1784.txt`
+
+1 section(s) to level 2 · ~182,548 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 182,548 | 182,548 | spangenberg_exposition-of-christian-doctrine_latrobe1784 |
+
+## `spangenberg_life-of-zinzendorf_jackson1838.txt`
+
+1 section(s) to level 2 · ~213,526 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 213,526 | 213,526 | spangenberg_life-of-zinzendorf_jackson1838 |
 
 ## `spener_geistliches-priesterthum-deu_steinkopf1851.txt`
 
@@ -9417,6 +9577,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 22,555 | 22,555 | wesley-j_large-minutes_1850 |
 
+## `wesley-j_queries-humbly-proposed-to-count-zinzendorf_1755.txt`
+
+1 section(s) to level 2 · ~6,224 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 6,224 | 6,224 | wesley-j_queries-humbly-proposed-to-count-zinzendorf_1755 |
+
 ## `wesley-j_sermons-v1_1771.txt`
 
 1 section(s) to level 2 · ~90,210 words of text · ~0 words of apparatus
@@ -9592,6 +9760,70 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 117,103 | 117,103 | ziegenbalg_propagation-of-the-gospel-in-the-east_boehm1718 |
+
+## `zinzendorf_berlinische-reden-deu_clemens1757.txt`
+
+1 section(s) to level 2 · ~51,862 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 51,862 | 51,862 | zinzendorf_berlinische-reden-deu_clemens1757 |
+
+## `zinzendorf_manual-of-doctrine_1742.txt`
+
+1 section(s) to level 2 · ~62,815 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 62,815 | 62,815 | zinzendorf_manual-of-doctrine_1742 |
+
+## `zinzendorf_maxims-theological-ideas-and-sentences_gambold1751.txt`
+
+1 section(s) to level 2 · ~117,342 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 117,342 | 117,342 | zinzendorf_maxims-theological-ideas-and-sentences_gambold1751 |
+
+## `zinzendorf_sammlung-oeffentlicher-reden-pennsylvania-deu_buedingen1746.txt`
+
+1 section(s) to level 2 · ~147,771 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 147,771 | 147,771 | zinzendorf_sammlung-oeffentlicher-reden-pennsylvania-deu_buedingen1746 |
+
+## `zinzendorf_seven-sermons-godhead-of-the-lamb_1742.txt`
+
+1 section(s) to level 2 · ~17,801 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 17,801 | 17,801 | zinzendorf_seven-sermons-godhead-of-the-lamb_1742 |
+
+## `zinzendorf_sixteen-discourses-on-jesus-christ_1750.txt`
+
+1 section(s) to level 2 · ~62,234 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 62,234 | 62,234 | zinzendorf_sixteen-discourses-on-jesus-christ_1750 |
+
+## `zinzendorf_sixteen-discourses-redemption-berlin_1740.txt`
+
+1 section(s) to level 2 · ~52,169 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 52,169 | 52,169 | zinzendorf_sixteen-discourses-redemption-berlin_1740 |
+
+## `zinzendorf_twenty-one-discourses-augsburg-confession_okely1753.txt`
+
+1 section(s) to level 2 · ~120,036 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 120,036 | 120,036 | zinzendorf_twenty-one-discourses-augsburg-confession_okely1753 |
 
 ## `zurich-council_actensammlung-zuercher-reformation-deu_egli1879.txt`
 

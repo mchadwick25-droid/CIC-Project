@@ -1,0 +1,22 @@
+source_file: wesley-j_queries-humbly-proposed-to-count-zinzendorf_1755.txt
+assignments:
+- row_id: wesley-j_queries-humbly-proposed-to-count-zinzendorf_1755--queries-humbly-proposed-to-count-zinzendorf-1755
+  work: Queries humbly proposed to Count Zinzendorf (1755)
+  author: wesley-j
+  locus: whole pamphlet
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: context
+  confidence: assigned
+  note: Wesley's public interrogation of the Brethren's doctrine and hymns; an outside witness who had
+    once been inside Fetter Lane.
+- row_id: wesley-j_queries-humbly-proposed-to-count-zinzendorf_1755--queries-humbly-proposed-to-count-zinzendorf-1755-2
+  work: Queries humbly proposed to Count Zinzendorf (1755)
+  author: wesley-j
+  locus: whole pamphlet
+  atlas_ids:
+  - the-methodist-revival
+  role: tradition
+  confidence: assigned
+  note: Wesley's own words on the Moravians fifteen years after the Fetter Lane separation; the Methodist
+    side of the breach.

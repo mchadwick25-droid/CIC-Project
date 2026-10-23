@@ -30,6 +30,15 @@ works:
     vocabulary 0.42). A cleaner scan of Comenius''s own text (1649-1660 manuscripts) would
     serve as the quotable witness.'
   source_file: comenius_historia-fratrum-bohemorum-lat_1702.txt
+- row_id: cranz_ancient-and-modern-history-of-the-brethren_latrobe1780--the-ancient-and-modern-history-of-the-brethren-bruder-2
+  work: The Ancient and Modern History of the Brethren (Brüder-Historie, 1771; English 1780)
+  author: cranz
+  locus: the ancient history, the old Unity to 1627 and the hidden seed to 1722
+  role: transmission
+  confidence: provisional
+  note: How the renewed church of the eighteenth century narrated the old Czech Unity as its
+    own past; the continuity claim in the claimant's words. Provisional for both.
+  source_file: cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt
 - row_id: foxe_acts-and-monuments-v3_cattley-townsend1837--the-acts-and-monuments-of-john-foxe-vol-iii-cattley-townsend-2
   work: The Acts and Monuments of John Foxe, Vol. III (Cattley/Townsend edition), the Hus
     section

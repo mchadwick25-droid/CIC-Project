@@ -8,8 +8,8 @@
   "scope": "vendored coverage only - see this script's own docstring for why the acquirable/purchasable/no-edition-exists breakdown is not included here",
   "counts": {
     "total_entries": 292,
-    "entries_with_coverage": 135,
-    "entries_zero_coverage": 157
+    "entries_with_coverage": 136,
+    "entries_zero_coverage": 156
   },
   "entries": {
     "post-apostolic-house-church": {
@@ -11790,6 +11790,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "The Ancient and Modern History of the Brethren (Brüder-Historie, 1771; English 1780)",
+          "author": "cranz",
+          "role": "transmission",
+          "confidence": "provisional",
+          "source_file": "cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt",
+          "rights": "Public Domain (published 1780, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
           "work": "The Acts and Monuments of John Foxe, Vol. III (Cattley/Townsend edition), the Hus section",
           "author": "foxe",
           "role": "context",
@@ -12614,6 +12622,14 @@
           "confidence": "needs-ruling",
           "source_file": "yelverton_mass-in-sweden-lat-swe-eng_yelverton1920.txt",
           "rights": "Public Domain (published 1920; public domain by date)"
+        },
+        {
+          "work": "Twenty One Discourses upon the Augsburg Confession (English, 1753)",
+          "author": "zinzendorf",
+          "role": "transmission",
+          "confidence": "provisional",
+          "source_file": "zinzendorf_twenty-one-discourses-augsburg-confession_okely1753.txt",
+          "rights": "Public Domain (published 1753, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         }
       ]
     },
@@ -17850,6 +17866,14 @@
           "rights": "Public Domain (published 1901; pd-us-by-date)"
         },
         {
+          "work": "The Ancient and Modern History of the Brethren (Brüder-Historie, 1771; English 1780)",
+          "author": "cranz",
+          "role": "transmission",
+          "confidence": "provisional",
+          "source_file": "cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt",
+          "rights": "Public Domain (published 1780, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
           "work": "Bible of Kralice, text of the 1613 edition (printed 1887)",
           "author": "kralice-bible",
           "role": "tradition",
@@ -17864,6 +17888,14 @@
           "confidence": "assigned",
           "source_file": "lasicki_obraz-jednoty-ceskobratrske-ces_1869.txt",
           "rights": "Public Domain (published 1869; pd-us-by-date)"
+        },
+        {
+          "work": "Acta Fratrum Unitatis in Anglia (1749)",
+          "author": "moravian-church",
+          "role": "transmission",
+          "confidence": "provisional",
+          "source_file": "moravian-church_acta-fratrum-unitatis-in-anglia_1749.txt",
+          "rights": "Public Domain (published 1749, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         },
         {
           "work": "Confessio Bohemica of 1535, the confession of the Bohemian barons and nobles to King Ferdinand (Additamentum 2)",
@@ -18713,6 +18745,14 @@
           "rights": "Public Domain (published 1732, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"NOT_IN_COPYRIGHT\")"
         },
         {
+          "work": "Die Fußstapffen des noch lebenden und waltenden Gottes (Halle narrative to Easter 1701)",
+          "author": "francke",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "francke_fussstapffen-des-noch-lebenden-gottes-deu_glaucha1701.txt",
+          "rights": "Public Domain (published 1701, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
           "work": "Faith in Christ inconsistent with a sollicitous Concern about the Things of this World (Halle sermon, 1708; English 1709)",
           "author": "francke",
           "role": "tradition",
@@ -18791,6 +18831,46 @@
           "confidence": "provisional",
           "source_file": "brumbaugh_history-german-baptist-brethren_1899.txt",
           "rights": "Public Domain (published 1899, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"NOT_IN_COPYRIGHT\")"
+        },
+        {
+          "work": "Das Leben Jo. Wilhelmi Petersen, von ihm selbst beschrieben (1717)",
+          "author": "petersen-jw",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "petersen-jw_leben-deu_1717.txt",
+          "rights": "Public Domain (published 1717, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Historie der Wiedergebohrnen, II. Theil (1717)",
+          "author": "reitz",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "reitz_historie-der-wiedergebohrnen-t2-deu_1717.txt",
+          "rights": "Public Domain (published 1717, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Historie der Wiedergebohrnen, IV. Theil (1717)",
+          "author": "reitz",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "reitz_historie-der-wiedergebohrnen-t4-deu_1717.txt",
+          "rights": "Public Domain (published 1717, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Historie der Wiedergebohrnen, V. Theil (1715)",
+          "author": "reitz",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "reitz_historie-der-wiedergebohrnen-t5-deu_1715.txt",
+          "rights": "Public Domain (published 1715, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "The Life of Nicholas Lewis, Count Zinzendorf (Spangenberg, 1772-1775; abridged English 1838)",
+          "author": "spangenberg",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "spangenberg_life-of-zinzendorf_jackson1838.txt",
+          "rights": "Public Domain (published 1838, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
         },
         {
           "work": "Das geistliche Priesterthum (Siebenzig Fragen und Antworten, 1677)",
@@ -18967,6 +19047,22 @@
           "rights": "Public Domain (published 1912, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         },
         {
+          "work": "Das Leben Jo. Wilhelmi Petersen, von ihm selbst beschrieben (1717)",
+          "author": "petersen-jw",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "petersen-jw_leben-deu_1717.txt",
+          "rights": "Public Domain (published 1717, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Historie der Wiedergebohrnen, II. Theil (1717)",
+          "author": "reitz",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "reitz_historie-der-wiedergebohrnen-t2-deu_1717.txt",
+          "rights": "Public Domain (published 1717, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
           "work": "The Music of the Ephrata Cloister (Sachse's monograph)",
           "author": "sachse",
           "role": "context",
@@ -18981,6 +19077,14 @@
           "confidence": "assigned",
           "source_file": "sauer-christopher_quarrel-with-beissel-1739_pennypacker1888.txt",
           "rights": "Public Domain (published 1888, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Eine Sammlung öffentlicher Reden (Pennsylvania discourses of 1742; Büdingen 1746, part 1)",
+          "author": "zinzendorf",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "zinzendorf_sammlung-oeffentlicher-reden-pennsylvania-deu_buedingen1746.txt",
+          "rights": "Public Domain (published 1746, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         }
       ]
     },
@@ -18989,12 +19093,28 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "A History of New Sweden (1759; Reynolds's English 1874) -- the sections on Zinzendorf's Pennsylvania visit and on Pietism and Moravianism in Sweden",
+          "author": "acrelius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "acrelius_history-of-new-sweden_reynolds1874.txt",
+          "rights": "Public Domain (published 1874, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
           "work": "True Christianity (Wahres Christentum), Böhm-Schaeffer English 1868",
           "author": "arndt",
           "role": "antecedent",
           "confidence": "provisional",
           "source_file": "arndt_true-christianity_boehm-schaeffer1868.txt",
           "rights": "Public Domain (Project Gutenberg eBook #34736, released as public domain in the USA; the underlying edition was published 1868, more than 95 years ago)"
+        },
+        {
+          "work": "The Life of Mr. J. Cennick, written by himself (1745)",
+          "author": "cennick",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "cennick_life-of-mr-j-cennick_1745.txt",
+          "rights": "Public Domain (published 1745, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         },
         {
           "work": "Historia Fratrum Bohemorum, eorum ordo et disciplina ecclesiastica (Comenius)",
@@ -19013,12 +19133,36 @@
           "rights": "Public Domain (published 1901; pd-us-by-date)"
         },
         {
+          "work": "The Ancient and Modern History of the Brethren (Brüder-Historie, 1771; English 1780)",
+          "author": "cranz",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt",
+          "rights": "Public Domain (published 1780, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "The History of Greenland, vol. I (1767)",
+          "author": "cranz",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "cranz_history-of-greenland-v1_1767.txt",
+          "rights": "Public Domain (published 1767, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
           "work": "Geist-reiches Gesang-Buch (Halle, 1730 edition)",
           "author": "freylinghausen",
           "role": "antecedent",
           "confidence": "provisional",
           "source_file": "freylinghausen_geistreiches-gesangbuch-deu_halle1730.txt",
           "rights": "Public Domain (published 1730, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"http://creativecommons.org/publicdomain/mark/1.0/\")"
+        },
+        {
+          "work": "A Narrative of the Mission of the United Brethren among the Delaware and Mohegan Indians, 1740-1808 (1820)",
+          "author": "heckewelder",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "heckewelder_narrative-of-mission-delaware-mohegan_1820.txt",
+          "rights": "Public Domain (published 1820, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         },
         {
           "work": "The Schwenkfelders in Pennsylvania (1904), Chapter VIII on Zinzendorf",
@@ -19045,12 +19189,100 @@
           "rights": "Public Domain (published 1869; pd-us-by-date)"
         },
         {
+          "work": "A Succinct View of the Missions established among the Heathen (1771)",
+          "author": "latrobe-benjamin",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "latrobe-benjamin_succinct-view-of-the-missions_1771.txt",
+          "rights": "Public Domain (published 1771, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "History of the Mission of the United Brethren among the Indians in North America (1794)",
+          "author": "loskiel",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "loskiel_history-of-mission-among-indians_latrobe1794.txt",
+          "rights": "Public Domain (published 1794, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "A Collection of Hymns for the Use of the Protestant Church of the United Brethren (1789)",
+          "author": "moravian-church",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "moravian-church_collection-of-hymns_1789.txt",
+          "rights": "Public Domain (published 1789, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "A Collection of Hymns of the Children of God in all Ages (1754)",
+          "author": "moravian-church",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "moravian-church_collection-of-hymns-children-of-god_1754.txt",
+          "rights": "Public Domain (published 1754, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "Acta Fratrum Unitatis in Anglia (1749)",
+          "author": "moravian-church",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "moravian-church_acta-fratrum-unitatis-in-anglia_1749.txt",
+          "rights": "Public Domain (published 1749, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Die täglichen Loosungen der Brüder-Gemeine für das Jahr 1766",
+          "author": "moravian-church",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "moravian-church_taegliche-loosungen-1766-deu_barby1766.txt",
+          "rights": "Public Domain (published 1766, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Periodical Accounts relating to the Missions of the United Brethren, vol. I (1790)",
+          "author": "moravian-church",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "moravian-church_periodical-accounts-missions-v1_1790.txt",
+          "rights": "Public Domain (published 1790, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Geschichte der Mission der evangelischen Brüder auf den caraibischen Inseln, erster Theil (1777)",
+          "author": "oldendorp",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "oldendorp_geschichte-der-mission-caraibische-inseln-v1-deu_bossart1777.txt",
+          "rights": "Public Domain (published 1777, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "A Candid Narrative of the Rise and Progress of the Herrnhuters (1753)",
+          "author": "rimius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "rimius_candid-narrative-of-the-herrnhuters_1753.txt",
+          "rights": "Public Domain (published 1753, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
           "work": "Erläuterung für Herrn Caspar Schwenckfeld (1830), passages on Zinzendorf and the Moravians",
           "author": "schultz-christopher",
           "role": "context",
           "confidence": "provisional",
           "source_file": "schultz-christopher_erlaeuterung-fuer-caspar-schwenckfeld-deu_benner1830.txt",
           "rights": "Public Domain (1830 imprint read on the title page in the OCR; public domain by date; host possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "An Exposition of Christian Doctrine (Idea Fidei Fratrum, 1779; English 1784)",
+          "author": "spangenberg",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "spangenberg_exposition-of-christian-doctrine_latrobe1784.txt",
+          "rights": "Public Domain (published 1784, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "The Life of Nicholas Lewis, Count Zinzendorf (Spangenberg, 1772-1775; abridged English 1838)",
+          "author": "spangenberg",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "spangenberg_life-of-zinzendorf_jackson1838.txt",
+          "rights": "Public Domain (published 1838, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
         },
         {
           "work": "Pia Desideria (1675), German, Leipzig 1841 edition",
@@ -19075,6 +19307,94 @@
           "confidence": "provisional",
           "source_file": "unity-of-the-brethren_historie-tezkych-protivenstvi-cirkve-ceske-ces_1890.txt",
           "rights": "Public Domain (published 1890; pd-us-by-date)"
+        },
+        {
+          "work": "Queries humbly proposed to Count Zinzendorf (1755)",
+          "author": "wesley-j",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "wesley-j_queries-humbly-proposed-to-count-zinzendorf_1755.txt",
+          "rights": "Public Domain (published 1755, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "The Journal of the Rev. John Wesley, A.M. (Curnock edition), Vol. I -- the Georgia years and the Moravians",
+          "author": "wesley-j",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "wesley-j_journal-v1_curnock1909.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "A Manual of Doctrine (Zinzendorf's second catechism; English 1742)",
+          "author": "zinzendorf",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "zinzendorf_manual-of-doctrine_1742.txt",
+          "rights": "Public Domain (published 1742, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Berlinische Reden (Berlin discourses of 1738; author-revised edition, 1757)",
+          "author": "zinzendorf",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "zinzendorf_berlinische-reden-deu_clemens1757.txt",
+          "rights": "Public Domain (published 1757, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Dedication to the Archbishops, Bishops and Clergy, with some account of the Moravian Brethren (1740)",
+          "author": "zinzendorf",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "zinzendorf_sixteen-discourses-redemption-berlin_1740.txt",
+          "rights": "Public Domain (published 1740, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Eine Sammlung öffentlicher Reden (Pennsylvania discourses of 1742; Büdingen 1746, part 1)",
+          "author": "zinzendorf",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "zinzendorf_sammlung-oeffentlicher-reden-pennsylvania-deu_buedingen1746.txt",
+          "rights": "Public Domain (published 1746, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Maxims, Theological Ideas and Sentences (1751)",
+          "author": "zinzendorf",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "zinzendorf_maxims-theological-ideas-and-sentences_gambold1751.txt",
+          "rights": "Public Domain (published 1751, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Seven Sermons on the Godhead of the Lamb (Herrnhaag, 1741; English 1742)",
+          "author": "zinzendorf",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "zinzendorf_seven-sermons-godhead-of-the-lamb_1742.txt",
+          "rights": "Public Domain (published 1742, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Sixteen Discourses on Jesus Christ our Lord (second Berlin series; English 1750)",
+          "author": "zinzendorf",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "zinzendorf_sixteen-discourses-on-jesus-christ_1750.txt",
+          "rights": "Public Domain (published 1750, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Sixteen Discourses on the Redemption of Man (Berlin discourses, 1738; English 1740)",
+          "author": "zinzendorf",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "zinzendorf_sixteen-discourses-redemption-berlin_1740.txt",
+          "rights": "Public Domain (published 1740, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Twenty One Discourses upon the Augsburg Confession (English, 1753)",
+          "author": "zinzendorf",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "zinzendorf_twenty-one-discourses-augsburg-confession_okely1753.txt",
+          "rights": "Public Domain (published 1753, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         }
       ]
     },
@@ -19131,6 +19451,14 @@
           "rights": "Public Domain (published 1838; public domain by date)"
         },
         {
+          "work": "The Life of Mr. J. Cennick, written by himself (1745)",
+          "author": "cennick",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "cennick_life-of-mr-j-cennick_1745.txt",
+          "rights": "Public Domain (published 1745, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
           "work": "The Journal of the Rev. John Wesley, A.M. (Curnock edition), Vol. I -- Curnock's own Editorial Introduction",
           "author": "curnock-nehemiah",
           "role": "context",
@@ -19147,6 +19475,14 @@
           "rights": "Public Domain (published 1801, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights field reads \"NOT_IN_COPYRIGHT\")"
         },
         {
+          "work": "A Collection of Hymns of the Children of God in all Ages (1754)",
+          "author": "moravian-church",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "moravian-church_collection-of-hymns-children-of-god_1754.txt",
+          "rights": "Public Domain (published 1754, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
           "work": "A Collection of Hymns, for the Use of the People Called Methodists - the hymns themselves (Charles Wesley, principal author)",
           "author": "wesley-charles",
           "role": "tradition",
@@ -19161,6 +19497,14 @@
           "confidence": "assigned",
           "source_file": "wesley-j_sermons-v1_1771.txt",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Queries humbly proposed to Count Zinzendorf (1755)",
+          "author": "wesley-j",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "wesley-j_queries-humbly-proposed-to-count-zinzendorf_1755.txt",
+          "rights": "Public Domain (published 1755, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         },
         {
           "work": "A Collection of Hymns, for the Use of the People Called Methodists - Preface",
@@ -19215,7 +19559,16 @@
     "the-evangelical-awakening-in-new-england": {
       "name": "The Evangelical Awakening in New England",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "History of the Mission of the United Brethren among the Indians in North America (1794)",
+          "author": "loskiel",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "loskiel_history-of-mission-among-indians_latrobe1794.txt",
+          "rights": "Public Domain (published 1794, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        }
+      ]
     },
     "the-old-believers": {
       "name": "The Old Believers",
@@ -19606,12 +19959,36 @@
           "rights": "Public Domain (published 1705, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         },
         {
+          "work": "Acta Fratrum Unitatis in Anglia (1749)",
+          "author": "moravian-church",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "moravian-church_acta-fratrum-unitatis-in-anglia_1749.txt",
+          "rights": "Public Domain (published 1749, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "A Candid Narrative of the Rise and Progress of the Herrnhuters (1753)",
+          "author": "rimius",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "rimius_candid-narrative-of-the-herrnhuters_1753.txt",
+          "rights": "Public Domain (published 1753, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
           "work": "Propagation of the Gospel in the East: the Tranquebar missionaries' letters (English, 1718)",
           "author": "ziegenbalg",
           "role": "context",
           "confidence": "provisional",
           "source_file": "ziegenbalg_propagation-of-the-gospel-in-the-east_boehm1718.txt",
           "rights": "Public Domain (published 1718, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Dedication to the Archbishops, Bishops and Clergy, with some account of the Moravian Brethren (1740)",
+          "author": "zinzendorf",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "zinzendorf_sixteen-discourses-redemption-berlin_1740.txt",
+          "rights": "Public Domain (published 1740, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         }
       ]
     },

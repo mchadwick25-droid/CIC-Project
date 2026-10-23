@@ -1,0 +1,22 @@
+source_file: zinzendorf_twenty-one-discourses-augsburg-confession_okely1753.txt
+assignments:
+- row_id: zinzendorf_twenty-one-discourses-augsburg-confession_okely1753--twenty-one-discourses-upon-the-augsburg-confession-english
+  work: Twenty One Discourses upon the Augsburg Confession (English, 1753)
+  author: zinzendorf
+  locus: the twenty-one discourses and the prefixed Synodal Writing
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: tradition
+  confidence: assigned
+  note: How the Brethren read the Lutheran confession as their own; the doctrinal defence of 1753 in the
+    founder's words.
+- row_id: zinzendorf_twenty-one-discourses-augsburg-confession_okely1753--twenty-one-discourses-upon-the-augsburg-confession-english-2
+  work: Twenty One Discourses upon the Augsburg Confession (English, 1753)
+  author: zinzendorf
+  locus: whole work
+  atlas_ids:
+  - lutheran-wittenberg-and-its-congregations
+  role: transmission
+  confidence: provisional
+  note: An eighteenth-century reception of the Augsburg Confession by a church that claimed it; out of
+    window for Wittenberg, so transmission, provisional.

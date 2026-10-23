@@ -1146,6 +1146,15 @@ authors:
 
       '
     from_file: labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt
+  latrobe-benjamin:
+    kind: anonymous
+    evidence: 'The title page names no author (''in a letter to a friend''); the host''s metadata
+      and the standard Moravian bibliography assign it to Benjamin La Trobe, then the Brethren''s
+      secretary in London. Plain-text vendored file, so cic/texts/AUTHORS.md has not seen
+      the slug yet.
+
+      '
+    from_file: latrobe-benjamin_succinct-view-of-the-missions_1771.txt
   letter-churches-lyons-vienne:
     kind: anonymous
     evidence: 'div2 10.16 "Pseud-Irenaeus" — the section itself explains the piece is the
@@ -1360,6 +1369,16 @@ authors:
 
       '
     from_file: beissel_mystical-proverbs-and-millers-letter-to-franklin_sachse1912.txt
+  moravian-church:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+      The volume is the Unitas Fratrum''s own collection of its instruments, with no personal
+      author; the host names ''United Brethren in Christ'' as creator. A new institutional
+      slug for the renewed church of 1722 onward, kept distinct from unity-of-the-brethren
+      (the old Czech Unity).
+
+      '
+    from_file: moravian-church_acta-fratrum-unitatis-in-anglia_1749.txt
   morris-john:
     kind: metadata-omission
     evidence: 'The title page (file line 1 header; Gutenberg transcription of the 1871 title

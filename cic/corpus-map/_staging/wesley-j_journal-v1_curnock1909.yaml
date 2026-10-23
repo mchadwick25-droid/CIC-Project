@@ -52,3 +52,17 @@ assignments:
     note: >
       Editorial (Curnock's own voice, not Wesley's) - useful as
       context/orientation for Doc_02, never citable as Wesley's own words.
+
+  - row_id: wesley-j_journal-v1_curnock1909--the-journal-of-the-rev-john-wesley-a-m-curnock-edition-vol-i-3
+    work: The Journal of the Rev. John Wesley, A.M. (Curnock edition), Vol. I -- the Georgia years and the
+      Moravians
+    author: wesley-j
+    locus: 'the voyage on the Simmonds and the Georgia journal, 1735-1737: the Moravian emigrants aboard,
+      the conversations with Spangenberg at Savannah, and the Moravian ordination Wesley witnessed'
+    atlas_ids:
+    - the-moravian-church-at-herrnhut
+    role: context
+    confidence: assigned
+    note: 'An outside witness inside the Brethren''s own meetings: Wesley''s first encounter with the Moravians,
+      in Georgia, told day by day in his own journal. Cross-link found by header search of cic/texts (CORPUS-USE
+      tier, same time-place).'

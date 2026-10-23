@@ -41,6 +41,24 @@ works:
   note: Published by the SPCK's printer Downing for an English readership; the Halle model
     as the English voluntary societies received it. Provisional placement.
   source_file: francke_pietas-hallensis_1705.txt
+- row_id: moravian-church_acta-fratrum-unitatis-in-anglia_1749--acta-fratrum-unitatis-in-anglia-1749-3
+  work: Acta Fratrum Unitatis in Anglia (1749)
+  author: moravian-church
+  locus: whole work
+  role: context
+  confidence: provisional
+  note: The documents behind the Act of 1749 by which Parliament recognised the Brethren as
+    an ancient Protestant episcopal church; the establishment's dealings with them. Provisional.
+  source_file: moravian-church_acta-fratrum-unitatis-in-anglia_1749.txt
+- row_id: rimius_candid-narrative-of-the-herrnhuters_1753--a-candid-narrative-of-the-rise-and-progress-of-the-2
+  work: A Candid Narrative of the Rise and Progress of the Herrnhuters (1753)
+  author: rimius
+  locus: the dedication to the Archbishop of Canterbury and the observations on their politics
+  role: context
+  confidence: provisional
+  note: An appeal to the established church against a newly recognised rival; the Georgian
+    church's anti-Moravian moment. Provisional.
+  source_file: rimius_candid-narrative-of-the-herrnhuters_1753.txt
 - row_id: ziegenbalg_propagation-of-the-gospel-in-the-east_boehm1718--propagation-of-the-gospel-in-the-east-the-tranquebar-2
   work: 'Propagation of the Gospel in the East: the Tranquebar missionaries'' letters (English,
     1718)'
@@ -50,3 +68,14 @@ works:
   confidence: provisional
   note: The Halle-SPCK-SPG connection as the English church received it; provisional.
   source_file: ziegenbalg_propagation-of-the-gospel-in-the-east_boehm1718.txt
+- row_id: zinzendorf_sixteen-discourses-redemption-berlin_1740--dedication-to-the-archbishops-bishops-and-clergy-with-some
+  work: Dedication to the Archbishops, Bishops and Clergy, with some account of the Moravian
+    Brethren (1740)
+  author: zinzendorf
+  locus: the dedication and the account of the Brethren before the discourses
+  role: context
+  confidence: provisional
+  note: The English editor's appeal to the established clergy on the Brethren's behalf; the
+    Brethren explaining themselves to the Church of England in 1740. Provisional for the Georgian
+    church.
+  source_file: zinzendorf_sixteen-discourses-redemption-berlin_1740.txt

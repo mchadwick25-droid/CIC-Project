@@ -1,0 +1,12 @@
+source_file: moravian-church_periodical-accounts-missions-v1_1790.txt
+assignments:
+- row_id: moravian-church_periodical-accounts-missions-v1_1790--periodical-accounts-relating-to-the-missions-of-the-united
+  work: Periodical Accounts relating to the Missions of the United Brethren, vol. I (1790)
+  author: moravian-church
+  locus: whole volume
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: tradition
+  confidence: assigned
+  note: The missionaries' own letters and diary extracts, printed by their own Society; the mission record
+    at first hand.

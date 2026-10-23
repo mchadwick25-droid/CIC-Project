@@ -11,3 +11,17 @@ assignments:
   confidence: assigned
   note: A Swedish Lutheran provost's first-hand description of Beissel, the Solitary's dress and worship,
     and his argument with the brethren; outside witness, not the community's voice.
+
+- row_id: acrelius_history-of-new-sweden_reynolds1874--a-history-of-new-sweden-1759-reynolds-s-english-1874-the
+  work: A History of New Sweden (1759; Reynolds's English 1874) -- the sections on Zinzendorf's Pennsylvania
+    visit and on Pietism and Moravianism in Sweden
+  author: acrelius
+  locus: the sections headed Whitfield and Zinzendorff and Pietism and Moravianism in Sweden, file lines
+    about 14760-14960, with the Swedish pastors' dealings with the Herrnhuters in the Delaware congregations
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: context
+  confidence: assigned
+  note: A Swedish Lutheran provost's hostile contemporary account of the Moravians among the Delaware
+    Swedes and of Zinzendorf's 1742 visit; outside witness, not the community's voice. Cross-link found
+    by header search of cic/texts (same time-place).
