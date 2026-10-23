@@ -1388,8 +1388,11 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # load-bearing pipeline-state content that section now protects, so
     # it moved from a hand-labelled ROUTE (a genuinely open placement
     # question the tool used to read as REWRITE) to PROTECTED, the
-    # correct category under the new rule.
-    ("Build/worlds/lpc/Doc_04_Gravity_Discovery.md", 259, "PROTECTED"),
+    # correct category under the new rule. Refreshed 2026-10-23: the lpc
+    # change order removed the old line 259 as review history; line 268 is
+    # the "Carried open" bullet of the same Disposition section, flagged
+    # by the same route cue.
+    ("Build/worlds/lpc/Doc_04_Gravity_Discovery.md", 268, "PROTECTED"),
     # Refreshed 2026-09-26 (_is_doc_construction_file generalized): line
     # 1754 sits inside this file's own "## 12. Document log" section, now
     # correctly PROTECTED.
