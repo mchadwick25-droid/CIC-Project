@@ -31,8 +31,8 @@ def test_the_offer_is_the_words_mark_approved():
     blocks = _text_of(PAGE.read_text())
     assert "Join the pilot" in blocks
     assert any(
-        b.startswith("Go Deeper lets you keep talking after a free conversation ends. Join the pilot and we give you one free pack:")
-        and b.endswith("conversations.")
+        b.startswith("Tokens let you keep talking when your free tokens run out. Join the pilot and we give you one free pack:")
+        and b.endswith("tokens.")
         for b in blocks
     )
     assert any(b.startswith("Try a few conversations and explore the Church Family Tree. Then tell us what you found in a short questionnaire. It is open now and stays open until") and b.endswith("You do not need to give your name or email.") for b in blocks)
