@@ -1,0 +1,46 @@
+# Vendored for Atlas VI.10 (The Waldensian-Reformed Union) by the Era VII library session, second pass, 2026-10-23; see that world's Source Readiness Dossier.
+source_file: crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885.txt
+
+assignments:
+  - row_id: crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885--histoire-des-martyrs-1619-edition-tome-1-ceux-de-merindol-et
+    work: "Histoire des martyrs (1619 edition), Tome 1: 'Ceux de Merindol et Cabriere', the Provencal Vaudois, their declarations to the Parlement of Provence and the massacre of 1545"
+    author: crespin
+    locus: "the section headed 'CEUX DE MERINDOL & CABRIERE' from file line 60035, running heads MERINDOL ET CABRIERE from 60266 (the table at line 113276 gives pages 529-534); the Merindol declarations are also cited in Livre Premier at about line 11870"
+    atlas_ids:
+      - the-waldensian-reformed-union
+    role: tradition
+    confidence: provisional
+    note: >
+      The Genevan martyrologist's record of the Provencal Vaudois of Merindol and Cabrieres, who
+      had joined the Reformed union of 1532 and were destroyed in 1545; the world's region line
+      names them to 1545 and no vendored file carried Crespin's own text of their declarations
+      until this tome. Provisional because the first-pass dossier left open whether a Genevan
+      martyrologist is this world's own voice or context; Crespin prints the Vaudois' own
+      declarations, which is the ground for tradition. SECOND WITNESS for exact wording (f for
+      long s in the OCR of the reprinted 1619 text), like Tome 3.
+  - row_id: crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885--histoire-des-martyrs-1619-edition-tome-1-livres-i-iv-the
+    work: "Histoire des martyrs (1619 edition), Tome 1: Livres I-IV, the French martyrs from 1523 to the mid-1540s with Benoit's introduction"
+    author: crespin
+    locus: "LIVRE PREMIER from about file line 3456, LIVRE SECOND from 18568, LIVRE TROISIEME from 46938, LIVRE QUATRIEME from 77274; Benoit's introduction from line 130"
+    atlas_ids:
+      - the-huguenots
+    role: antecedent
+    confidence: provisional
+    note: >
+      The martyrs of the French churches before the first national synod of 1559, where this
+      world's window opens: the prehistory the 1559 churches remembered through Crespin's book,
+      which the first-pass dossier placed as tradition in its Tome 3 (1559 onward). Placed as
+      antecedent on the window alone; Doc_01 decides whether the pre-1559 martyr churches count as
+      the world's own past. Second witness for exact wording.
+  - row_id: crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885--histoire-des-martyrs-1619-edition-tome-1-livre-premier-the
+    work: "Histoire des martyrs (1619 edition), Tome 1, Livre Premier: the medieval witnesses, including the Vaudois"
+    author: crespin
+    locus: "Livre Premier, from about file line 3456 to 18568; the Vaudois passages around line 11860-11880"
+    atlas_ids:
+      - the-waldensians
+    role: context
+    confidence: provisional
+    note: >
+      Crespin's sixteenth-century Protestant reading of the medieval Vaudois as witnesses to the
+      Gospel driven into the Alps, Calabria, Bohemia and Poland. Placed as context for the
+      medieval Waldensian entry, as a later reading rather than a medieval source. Second witness.

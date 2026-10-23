@@ -1,0 +1,37 @@
+source_file: kurbsky_perepiska-s-tsarem-ioannom-groznym-rus_arkheograficheskaia-kommissiia1914.txt
+authors_ruled:
+  ivan-iv:
+    kind: metadata-omission
+    evidence: The file name carries Kurbsky alone; the title page (file line 11-16) names the correspondence
+      as 'with Tsar Ivan the Terrible', and the tsar's epistles are headed 'ПОСЛАНIЕ ЦАРЯ IОАННА ВАСИЛЬЕВИЧА'
+      (file line 966 and running heads). Supplied from the title page.
+assignments:
+- row_id: kurbsky_perepiska-s-tsarem-ioannom-groznym-rus_arkheograficheskaia-kommissiia1914--kurbsky-s-three-epistles-to-tsar-ivan-iv-1564-1579-russian
+  work: Kurbsky's three epistles to Tsar Ivan IV (1564-1579), Russian text of the 1914 Commission edition
+  author: kurbsky
+  locus: first epistle from file line 517 (ЭПИСТОЛIЯ ПЕРВАЯ); the short answer at file line 9071 (КРАТКОЕ
+    ОТВѢЩАНIЕ); the long answer to the tsar of Moscow from about file line 10522 (ОТВѢЩАНIЕ ЦАРЕВИ МОСКОВСКОМУ)
+    to the end of the text
+  atlas_ids:
+  - russian-church-stoglav-to-nikon
+  role: tradition
+  confidence: assigned
+  note: A boyar and voevoda who fled to Lithuania in 1564 and wrote to the tsar as a wronged Orthodox
+    Christian, naming the tsar's victims as martyrs and invoking the 'strong in Israel'; the church-and-tsar
+    quarrel of Ivan's reign in a lay voice. Primary text in sixteenth-century Russian, readable OCR; quote
+    only after a page-image check. The authenticity and dating of the whole correspondence are contested
+    (Keenan 1971), so a build must carry a contested_claim record; this edition prints it as genuine.
+- row_id: kurbsky_perepiska-s-tsarem-ioannom-groznym-rus_arkheograficheskaia-kommissiia1914--tsar-ivan-iv-s-two-epistles-to-prince-kurbsky-1564-and-1577
+  work: Tsar Ivan IV's two epistles to Prince Kurbsky (1564 and 1577), Russian text of the 1914 Commission
+    edition
+  author: ivan-iv
+  locus: the tsar's first epistle in two redactions on facing columns from file line 966 (ПОСЛАНIЕ ЦАРЯ
+    IОАННА ВАСИЛЬЕВИЧА); the second epistle before Kurbsky's long answer, from about file line 9100
+  atlas_ids:
+  - russian-church-stoglav-to-nikon
+  role: tradition
+  confidence: assigned
+  note: The tsar's own theology of autocracy, written against the 'priest-ruled' order of Sylvester and
+    Adashev, with long scriptural and patristic quotation (Dionysius to Demophilus); the most voluble
+    lay-ruler statement on church and crown in the window. Same contested authenticity as the Kurbsky
+    rows. Readable OCR; Greek and Latin quotations in the apparatus garbled.

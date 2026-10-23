@@ -30,6 +30,18 @@ works:
 
     '
   source_file: chamich_history-of-armenia-v2_avdall1827.txt
+- row_id: chardin_travels-in-persia-v1_lloyd1720--julfa-the-armenian-suburb-of-isfahan-2
+  work: Sir John Chardin's Travels in Persia, volume I (Lloyd's English, 1720)
+  author: chardin
+  locus: the Julfa passages at file lines 6541, 6957, 7199 and 14811; the account of the Persian
+    court and religion throughout
+  role: context
+  confidence: provisional
+  note: 'The Armenian merchant diaspora of New Julfa as it stood in the 1670s, which is the
+    background to the eighteenth-century entry. Placed on date; not read for that entry.
+
+    '
+  source_file: chardin_travels-in-persia-v1_lloyd1720.txt
 - row_id: ormanian_church-of-armenia_gregory1912--church-of-armenia-8
   work: 'The Church of Armenia (Ormanian; Gregory''s English translation, 1912): chapters
     XVII-XVIII, awakening and the eighteenth century'

@@ -8960,18 +8960,23 @@
   supplied_by: 'Project Gutenberg eBook #16119 (Jeroen Hellingman, Tamiko I. Camacho and PG Distributed
     Proofreaders), fetched by the Era VII library thread'
   date_added: '2026-10-16'
-  notes: 'The first book printed in the Philippines (Manila 1593), Library of Congress 1947 facsimile
-    with Edwin Wolf 2nd''s essay, as a proofread Gutenberg transcription with the Tagalog script rendered
-    as capitals. Rights: 1593 original public domain by date; 1947 edition under Gutenberg''s no-US-copyright
-    declaration and the Library of Congress ''not aware of any U.S. copyright'' statement; the NYPL renewal
-    data could not be reached to run a renewal check. READER: sections — Wolf''s essay with numbered notes
-    at the end under NOTES; the Doctrina in the book''s own order (syllabary, abecedario, Pater noster,
-    Ave Maria, Credo, articles, commandments, sacraments, question-and-answer catechism), each piece Spanish
-    then Tagalog in roman letters then Tagalog script as capitals ; credit — "Doctrina Christiana, the
-    first book printed in the Philippines, Manila 1593, facsimile of the Library of Congress copy with
-    an essay by Edwin Wolf 2nd, Library of Congress 1947; digital text from Project Gutenberg eBook #16119"
-    ; republish — passages only: the 1947 edition''s essay and notes are a later work whose copyright
-    status could not be renewal-checked; the 1593 text itself is public domain by date.'
+  notes: >-
+    The first book printed in the Philippines (Manila 1593), Library of Congress 1947 facsimile
+    with Edwin Wolf 2nd's essay, as a proofread Gutenberg transcription with the Tagalog script
+    rendered as capitals. Rights: 1593 original public domain by date; 1947 edition under
+    Gutenberg's no-US-copyright declaration and the Library of Congress 'not aware of any U.S.
+    copyright' statement; the NYPL renewal data could not be reached to run a renewal check.
+    READER: sections — Wolf's essay with numbered notes at the end under NOTES; the Doctrina in
+    the book's own order (syllabary, abecedario, Pater noster, Ave Maria, Credo, articles,
+    commandments, sacraments, question-and-answer catechism), each piece Spanish then Tagalog in
+    roman letters then Tagalog script as capitals ; credit — "Doctrina Christiana, the first
+    book printed in the Philippines, Manila 1593, facsimile of the Library of Congress copy with
+    an essay by Edwin Wolf 2nd, Library of Congress 1947; digital text from Project Gutenberg
+    eBook #16119" ; republish — passages only: the 1947 edition's essay and notes are a later
+    work whose copyright status could not be renewal-checked; the 1593 text itself is public
+    domain by date.
+
+    Renewal check, October 2026 (second-pass agent w2_catholic): the NYPL cce-renewals data for the renewal years 1974 and 1975 (raw.githubusercontent.com/NYPL/cce-renewals/master/data/1974-1.tsv and 1975-1.tsv, which carry the renewals of 1946-1948 registrations) was searched in title, author and full text for "Doctrina Christiana", "Wolf, Edwin" and "first book printed in the Philippines": no renewal found. The 1947 Library of Congress essay and notes therefore show no renewal in the years a 1947 registration would have been renewed; the 1976 file (1948-1949 registrations) was also searched with no hit. Whether this lifts the passages-only limit is the lead's ruling.
 - filename: blair-robertson_philippine-islands-v07_1903.txt
   supplied_by: 'Project Gutenberg eBook #13701, fetched by the Era VII library thread'
   date_added: '2026-10-16'
@@ -10862,3 +10867,639 @@
     Episcopius, Frederick Calder, London: Hayward and Moore, 1838; digital text from Internet Archive
     item memoirsofsimonep00cald (contributor Princeton Theological Seminary Library)" ; republish - whole
     text, public domain by date.'
+- filename: luis-de-granada_of-prayer-and-meditation_hopkins1582.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, second-pass agent w2_catholic)
+  date_added: '2026-10-23'
+  notes: 'Of Prayer, and Meditation, Luis de Granada, O.P., English (Paris: Thomas Brumeau, 1582), the
+    translator read from garbled OCR as Richard Hopkins (dedication to the Inns of Court; running head
+    "The Translatours"). RIGHTS: public domain by date (1582 read off the title page, "M.D. LXXXI1I" in
+    the OCR; host catalogue 1582; no rights field, no access restriction). Fetched directly (curl, raw
+    bytes) from Internet Archive item bim_early-english-books-1475-1640_of-prayer-and-meditatio_luis-de-granada_1582
+    (Early English Books microfilm scan, contributor Internet Archive), the item''s own _djvu.txt derivative;
+    header prepended; long s normalised to s (20855 occurrences), nothing else changed. Whole volume,
+    about 175,000 words: the translator''s epistle, the fourteen meditations for the seven days (morning
+    and night), the treatise on prayer with its "aduises", and the Table. The lay devotional voice the
+    Tridentine dossier named as waiting. OCR readable with microfilm misreads; quote only after checking
+    the page image. READER: sections - running heads by day and time ("Mondaie morninge.", "Frydaie nighte."),
+    the treatise by numbered "aduise" and "S." paragraphs, the Table at the end with folio numbers ; credit
+    - "Of Prayer, and Meditation, Luis de Granada, translated into English (Richard Hopkins), Paris, Thomas
+    Brumeau, 1582; digital text from Internet Archive item bim_early-english-books-1475-1640_of-prayer-and-meditatio_luis-de-granada_1582
+    (contributor Internet Archive)" ; republish - whole text, public domain by date.'
+- filename: pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, second-pass agent w2_catholic)
+  date_added: '2026-10-23'
+  notes: 'Istoria del Concilio di Trento, Sforza Pallavicino, Tomo III (Libri XVII-XXIV), in the Biblioteca
+    Classica Sacra edited by Ottavio Gigli (Roma: Editore de'' Classici Sacri, 1846; Italian). RIGHTS:
+    public domain by date (1846 read off the title page in the OCR); host licence Public Domain Mark 1.0.
+    Fetched directly (curl, raw bytes) from Internet Archive item sforza-pallavicino-istoria-del-concilio-di-trento-1845-46
+    (Google Books scan, stamp of the Bibliotheque de la Faculte de Theologie, Les Fontaines, Chantilly),
+    the item''s file "Sforza Pallavicino, Istoria del Concilio di Trento (1845-46) - Volume 3_djvu.txt";
+    header prepended, body unaltered. Whole volume, about 337,000 words, OCR clean (word-shaped share
+    0.98). Vendored as the clean witness for the books the 1664 Parte terza file carries in a garbled
+    scan; modernised 1846 orthography. READER: sections - "LIBRO DECIMOSETTIMO" to "LIBRO VIGESIMOQUARTO"
+    as running heads, each book opening with "ARGOMENTO" and numbered chapters, with the editor''s footnotes
+    and page numbers kept ; credit - "Istoria del Concilio di Trento, Sforza Pallavicino, Tomo III, Biblioteca
+    Classica Sacra, Rome, Editore de'' Classici Sacri, 1846; digital text from Internet Archive item sforza-pallavicino-istoria-del-concilio-di-trento-1845-46
+    (Google Books scan)" ; republish - whole text, public domain by date.'
+- filename: valier_vita-caroli-borromei-episcopus-cardinalis-lat_1586.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, second-pass agent w2_catholic)
+  date_added: '2026-10-23'
+  notes: 'Vita Caroli Borromei, item opuscula duo Episcopus et Cardinalis, Agostino Valier, cardinal and
+    bishop of Verona (Verona: Hieronymus Discipulus, 1586; Latin), with the printer''s note and Silvio
+    Antoniano''s dedication to Cardinal Andrea Bathory. RIGHTS: public domain by date (1586; "M D L X
+    X X V X." in the OCR of the title page for MDLXXXVI; host catalogue 1586); host licence Public Domain
+    Mark 1.0. Fetched directly (curl, raw bytes) from Internet Archive item bub_gb_5TK48P22VQsC (Google
+    Books scan, contributor National Central Library of Rome), the item''s own _djvu.txt derivative, chosen
+    over three other scans of the edition for the cleanest OCR; header prepended, body unaltered (long
+    s rendered as f by the OCR, left as it stands). Whole volume, about 38,000 words: the earliest Life
+    of Borromeo and Valier''s two treatises on the bishop and the cardinal. Legible; quote only after
+    checking the page image. READER: sections - the Life under the running head "CARD. S. PRAX.", the
+    treatises "CARDINALIS" and "EPISCOPVS" under "AVG. VAL.", with page numbers kept ; credit - "Vita
+    Caroli Borromei, item opuscula duo Episcopus et Cardinalis, Agostino Valier, Verona, Hieronymus Discipulus,
+    1586; digital text from Internet Archive item bub_gb_5TK48P22VQsC (contributor National Central Library
+    of Rome)" ; republish - whole text, public domain by date.'
+- filename: pena-francisco_relatione-sommaria-vita-canonizatione-s-carlo-borromeo-ita_1610.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, second-pass agent w2_catholic)
+  date_added: '2026-10-23'
+  notes: 'Relatione sommaria della vita, santita, miracoli et atti della canonizatione di S. Carlo Borromeo,
+    cavata fedelmente dai processi autentici, Francisco Pena, dean of the Rota (Rome: stamperia della
+    Camera Apostolica, 1610; Italian). RIGHTS: public domain by date (1610; the imprint line is garbled
+    in the OCR, host catalogue 1610); host licence Public Domain Mark 1.0. Fetched directly (curl, raw
+    bytes) from Internet Archive item bub_gb_YJpWaqE55B0C (Google Books scan, contributor National Central
+    Library of Rome), the item''s own _djvu.txt derivative; header prepended, body unaltered (long s rendered
+    as f by the OCR). Whole pamphlet, about 26,000 words: the summary of the canonisation cause and the
+    acts and ceremonies of 1610. Legible with noise on the preliminaries; quote only after checking the
+    page image. READER: sections - the life and virtues, the miracles, then the canonisation acts with
+    chapter headings such as "Paramenti dell''Altare di S. Pietro, Cap." and page numbers kept ; credit
+    - "Relatione sommaria della vita, santita, miracoli et atti della canonizatione di S. Carlo Borromeo,
+    Francisco Pena, Rome, Camera Apostolica, 1610; digital text from Internet Archive item bub_gb_YJpWaqE55B0C
+    (contributor National Central Library of Rome)" ; republish - whole text, public domain by date.'
+- filename: gibbings_records-of-the-roman-inquisition-minorite-friar_1853.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, second-pass agent w2_catholic)
+  date_added: '2026-10-23'
+  notes: 'Records of the Roman Inquisition: Case of a Minorite Friar who was sentenced by S. Charles Borromeo
+    to be walled up, edited with an English translation, notes and facsimiles by Richard Gibbings (Dublin:
+    James McGlashan; London: F. and J. Rivington, 1853). RIGHTS: public domain by date (1853 read off
+    the title page; advertisement dated 16 February 1853); the Cornell scan carries "no known copyright
+    restrictions in the United States". Fetched directly (curl, raw bytes) from Internet Archive item
+    cu31924029393463 (contributor Cornell University Library), the item''s own _djvu.txt derivative; header
+    prepended, body unaltered. Whole pamphlet, about 7,900 words, OCR clean: the Italian and Latin sentence
+    of 16 December 1564 in Borromeo''s name with Gibbings''s parallel English, his hostile notes, and
+    the record of the friar''s burning in effigy. READER: sections - the editor''s Advertisement, then
+    the sentence in parallel Italian and English columns, then the notes and the effigy record, with page
+    numbers kept ; credit - "Records of the Roman Inquisition: Case of a Minorite Friar, edited and translated
+    by Richard Gibbings, Dublin, James McGlashan, 1853; digital text from Internet Archive item cu31924029393463
+    (contributor Cornell University Library)" ; republish - whole text, public domain by date.'
+- filename: john-of-the-cross_ascent-of-mount-carmel_lewis1906.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, second-pass agent w2_catholic)
+  date_added: '2026-10-23'
+  notes: 'The Ascent of Mount Carmel, St. John of the Cross, translated by David Lewis, with corrections
+    and a prefatory essay on the development of mysticism in the Carmelite Order by Benedict Zimmerman,
+    O.C.D. (London: Thomas Baker, 1906). RIGHTS: public domain by date (1906, "MDCCCCVI." on the title
+    page and imprimi potest of 22 February 1906 in the OCR); host licence Public Domain Mark 1.0. Fetched
+    directly (curl, raw bytes) from Internet Archive item TheAscentOfMountCarmel (Google Books scan, no
+    contributor stated), the item''s own _djvu.txt derivative; header prepended; body unaltered apart
+    from the collapse of runs of spaces between words (the host OCR doubles every word space); Google
+    front matter left in place. Whole volume, about 125,000 words, OCR clean: Zimmerman''s essay, then
+    the Ascent in three books. Completes John''s major works beside the 1891 Lewis volume. READER: sections
+    - "BOOK I." to "BOOK III." with "CHAPTER I." onward, numbered paragraphs, running heads "THE ASCENT"
+    and page numbers kept; the prefatory essay and contents come first ; credit - "The Ascent of Mount
+    Carmel, St. John of the Cross, translated by David Lewis, corrected by Benedict Zimmerman, London,
+    Thomas Baker, 1906; digital text from Internet Archive item TheAscentOfMountCarmel (Google Books scan)"
+    ; republish - whole text, public domain by date.'
+- filename: teresa-of-avila_way-of-perfection_stanbrook1919.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, second-pass agent w2_catholic)
+  date_added: '2026-10-23'
+  notes: 'The Way of Perfection, Saint Teresa of Jesus, translated from the autograph by the Benedictines
+    of Stanbrook, including all the variants from the Escorial and Valladolid editions, revised with notes
+    and an introduction by Benedict Zimmerman, O.C.D., second edition with additional notes by the translator
+    (London: Thomas Baker, 1919; imprimatur 29 January 1911, reimprimatur 21 March 1919 in the OCR). RIGHTS:
+    public domain by date (1919 read off the title page); host possible-copyright-status NOT_IN_COPYRIGHT.
+    Fetched directly (curl, raw bytes) from Internet Archive item thewayofperfecti00tereuoft (contributor
+    Kelly, University of Toronto), the item''s own _djvu.txt derivative; header prepended; body unaltered
+    apart from the collapse of runs of spaces between words (the host OCR doubles every word space). Whole
+    volume, about 91,000 words, OCR clean. The one major work of Teresa the corpus lacked. READER: sections
+    - the editor''s Introduction, Teresa''s Protestation and Prologue, then "CHAPTER I" onward with chapter
+    summaries and numbered paragraphs, the translator''s variant footnotes, running heads and page numbers
+    kept, index at the end ; credit - "The Way of Perfection, Saint Teresa of Jesus, translated by the
+    Benedictines of Stanbrook, revised by Benedict Zimmerman O.C.D., second edition, London, Thomas Baker,
+    1919; digital text from Internet Archive item thewayofperfecti00tereuoft (contributor Kelly, University
+    of Toronto)" ; republish - whole text, public domain by date.'
+- filename: teresa-of-avila_libro-de-la-vida-spa_silverio1915.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, second-pass agent w2_catholic)
+  date_added: '2026-10-23'
+  notes: 'Obras de Santa Teresa de Jesus, tomo I, Libro de la Vida, edited and annotated by Silverio de
+    Santa Teresa, C.D., Biblioteca Mistica Carmelitana 1 (Burgos: Tipografia de "El Monte Carmelo", 1915;
+    Spanish). RIGHTS: public domain by date (1915 read off the title page; licence of the Discalced general
+    dated 4 October 1914); the host record carries no rights field and no access restriction. Fetched
+    directly (curl, raw bytes) from Internet Archive item obrasdesantatere01tere (contributor Princeton
+    Theological Seminary Library), the item''s own _djvu.txt derivative; header prepended; body unaltered
+    apart from the collapse of runs of spaces between words (the host OCR doubles every word space). Whole
+    volume, about 208,000 words, OCR clean (word-shaped share 0.98). The Spanish original of the Life
+    vendored in English (Lewis 1904); primary evidence under the ruling of September 2026. READER: sections
+    - the editor''s "Advertencia previa" and "Introduccion", then "CAPITULO PRIMERO" to "CAPITULO XL"
+    with chapter summaries, the editor''s footnotes, and the indexes at the end ; credit - "Obras de Santa
+    Teresa de Jesus, tomo I, Libro de la Vida, edited by Silverio de Santa Teresa, Burgos, El Monte Carmelo,
+    1915; digital text from Internet Archive item obrasdesantatere01tere (contributor Princeton Theological
+    Seminary Library)" ; republish - whole text, public domain by date.'
+- filename: john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, second-pass agent w2_catholic)
+  date_added: '2026-10-23'
+  notes: 'Obras del Mistico Doctor San Juan de la Cruz, edicion critica, tomo tercero, with introductions
+    and notes by Gerardo de San Juan de la Cruz, O.C.D., and an epilogue by Juan Vazquez de Mella (Toledo:
+    Viuda e Hijos de J. Pelaez, 1914; Spanish). RIGHTS: public domain by date (1914 read off the title
+    page, "TOLEDO-1914"; tomos I-II are 1912; host catalogue dates the set 1912); the host record carries
+    no rights field and no access restriction. Fetched directly (curl, raw bytes) from Internet Archive
+    item obrasedicincr03john (contributor Robarts, University of Toronto), the item''s own _djvu.txt derivative;
+    header prepended; body unaltered apart from the collapse of runs of spaces between words (the host
+    OCR doubles every word space). Whole volume, about 261,000 words, OCR clean (word-shaped share 0.97):
+    John''s Cautelas, Avisos y sentencias, Dictamenes, twenty-five Cartas, documents and professions,
+    the Poesias (authentic and attributed, as the editor marks them), then attributed and doubtful works,
+    two treatises by Cecilia del Nacimiento, Carmelite apologetic appendices, the editor''s corrections,
+    the epilogue and indexes. Vendored for the poems in John''s Spanish; the Silverio poetry volume is
+    1931 and past the cutoff. READER: sections - by treatise heading ("CAUTELAS", "AVISOS Y SENTENCIAS",
+    "DICTAMENES DE ESPIRITU", "CARTAS ESPIRITUALES" with "CARTA I" onward, "PROFESIONES", "POESIAS" with
+    each poem''s title, "COLOQUIOS", "TRATADO BREVE", "APENDICE I" onward), with running heads and page
+    numbers kept and the contents table at the end ; credit - "Obras del Mistico Doctor San Juan de la
+    Cruz, edicion critica, tomo III, edited by Gerardo de San Juan de la Cruz, Toledo, Viuda e Hijos de
+    J. Pelaez, 1914; digital text from Internet Archive item obrasedicincr03john (contributor Robarts,
+    University of Toronto)" ; republish - whole text, public domain by date.'
+- filename: cocks_diary-v1_thompson1883.txt
+  supplied_by: 'Project Gutenberg eBook #46803, fetched by the second-pass agent w2_catholic (Era VII
+    library thread)'
+  date_added: '2026-10-23'
+  notes: 'Diary of Richard Cocks, Cape-Merchant in the English Factory in Japan, 1615-1622, with Correspondence,
+    edited by Edward Maunde Thompson, vol. I (London: Hakluyt Society, First Series no. LXVI, 1883). RIGHTS:
+    public domain by date (1883, "MDCCCLXXXIII" on the series title in the transcription); Project Gutenberg''s
+    own public-domain-in-the-United-States declaration; the transcription was made from the undated Burt
+    Franklin reprint (New York, "reprinted by permission"), which adds no text of its own. Fetched directly
+    (curl, raw bytes) as pg46803.txt; Gutenberg licence boilerplate cut at the file''s own START and END
+    markers, CRLF converted to LF, nothing else changed. Whole first volume, about 133,000 words, proofread
+    and clean: Thompson''s preface and introduction, then the diary from 1 June 1615 to 31 December 1617
+    with the editor''s footnotes. An English Protestant outside witness to the Japan mission under persecution.
+    READER: sections - the editor''s Preface and Introduction, then the diary by day ("_June 1._" onward)
+    under the year, with numbered footnotes gathered after the text ; credit - "Diary of Richard Cocks,
+    Cape-Merchant in the English Factory in Japan, 1615-1622, edited by Edward Maunde Thompson, vol. I,
+    Hakluyt Society, 1883; digital text from Project Gutenberg eBook #46803" ; republish - whole text,
+    public domain by date.'
+- filename: tyndale_doctrinal-treatises_walter1848.txt
+  supplied_by: Claude (library/source-research thread (Era VII session, second pass, English and Scottish
+    worlds agent))
+  date_added: '2026-10-23'
+  notes: 'William Tyndale, Doctrinal Treatises and Introductions to Different Portions of the Holy Scriptures,
+    ed. Henry Walter for the Parker Society (Cambridge: University Press, 1848): the Pathway, the Wicked
+    Mammon, the Obedience of a Christian Man, the Brief Declaration of the Sacraments, and the prefaces
+    and prologues to his Bible translations, with Walter''s biographical notice. RIGHTS: public domain
+    by date (1848); archive.org possible-copyright-status NOT_IN_COPYRIGHT. Fetched directly (curl, raw
+    bytes) from Internet Archive item doctrinaltreatis00tynduoft (Kelly Library, University of Toronto),
+    the item''s own _djvu.txt; header prepended, body unaltered (0 long-s glyphs; doubled spaces left
+    as scanned). Clean OCR at five sample points. Second pass, October 2026: the first pass verified this
+    lead and left Tyndale''s placement to the lead (prelude to VI.4 or a world of his own); vendored now
+    as the one early evangelical voice the English Reformation dossier named as missing, with the placement
+    marked needs-ruling in the staging file. READER: sections - the works under their own titles as running
+    heads ("A PATHWAY INTO THE HOLY SCRIPTURE", "THE WICKED MAMMON", "THE OBEDIENCE OF A CHRISTIAN MAN",
+    "PREFACE TO THE FIVE BOOKS OF MOSES", the Prologues by book); Walter''s Biographical Notice runs by
+    year in its running heads; printed page numbers kept ; credit - "Doctrinal Treatises and Introductions
+    to Different Portions of the Holy Scriptures, by William Tyndale, ed. Henry Walter, Parker Society,
+    Cambridge University Press, 1848; digital text from Internet Archive item doctrinaltreatis00tynduoft
+    (contributor Kelly Library, University of Toronto)" ; republish - whole text, public domain by date.'
+- filename: zurich-letters_first-series-1558-1579_robinson1842.txt
+  supplied_by: Claude (library/source-research thread (Era VII session, second pass, English and Scottish
+    worlds agent))
+  date_added: '2026-10-23'
+  notes: 'The Zurich Letters, first series, 1558-1579: the Elizabethan bishops and divines (Jewel, Parkhurst,
+    Grindal, Sandys, Cox, Horne, Sampson, Humphrey and others) writing to Bullinger, Peter Martyr and
+    Gualter, in Robinson''s English with the Latin originals at the back, ed. and tr. Hastings Robinson
+    for the Parker Society (Cambridge: University Press, 1842). RIGHTS: public domain by date (1842);
+    archive.org possible-copyright-status NOT_IN_COPYRIGHT. Fetched directly (curl, raw bytes) from Internet
+    Archive item thezurichletters43unknuoft (Robarts Library, University of Toronto), the item''s own
+    _djvu.txt; header prepended, body unaltered (0 long-s glyphs; doubled spaces left as scanned). Clean
+    OCR at five sample points, English and Latin. The second series (1845, archive.org zurichletterssec00pearrich,
+    NOT_IN_COPYRIGHT) is not vendored. READER: sections - letters numbered "LETTER I." to the end of the
+    English series, each with writer, addressee, place and date in its heading; "APPENDIX." for the Zurich
+    replies; "INDEX."; the Latin originals as "EPISTOLA I." onward under the running head EPISTOLAE TIGURINAE;
+    printed page numbers kept ; credit - "The Zurich Letters, first series, ed. and tr. Hastings Robinson,
+    Parker Society, Cambridge University Press, 1842; digital text from Internet Archive item thezurichletters43unknuoft
+    (contributor Robarts Library, University of Toronto)" ; republish - whole text, public domain by date.'
+- filename: bradford-john_writings-v1_townsend1848.txt
+  supplied_by: Claude (library/source-research thread (Era VII session, second pass, English and Scottish
+    worlds agent))
+  date_added: '2026-10-23'
+  notes: 'The Writings of John Bradford, Vol. I (Sermons, Meditations, Examinations), ed. Aubrey Townsend
+    for the Parker Society (Cambridge: University Press, 1848): the Sermon on Repentance, the Sermon on
+    the Lord''s Supper, the Godly Meditations, the private prayers, the meditations from his Tyndale Testament,
+    his prison letters and his 1555 examinations. RIGHTS: public domain by date (1848); archive.org possible-copyright-status
+    NOT_IN_COPYRIGHT. Fetched directly (curl, raw bytes) from Internet Archive item writingsofjohnbr01braduoft
+    (Robarts Library, University of Toronto), the item''s own _djvu.txt; header prepended, body unaltered
+    (0 long-s glyphs; doubled spaces left as scanned). Clean OCR at five sample points. Vol. II (writingsofjohnbr02braduoft,
+    NOT_IN_COPYRIGHT) not vendored. Author slug bradford-john, because a slug bradford would collide with
+    William Bradford of Plymouth (a verified lead for Puritanism). READER: sections - the pieces under
+    their own titles as running heads ("SERMON ON REPENTANCE", "SERMON ON THE LORD''S SUPPER", "MEDITATION
+    ON THE LORD''S PRAYER", the prayers by hour of the day, the examinations by date); the Contents list
+    at the head gives printed page numbers, which are kept ; credit - "The Writings of John Bradford,
+    Vol. I, ed. Aubrey Townsend, Parker Society, Cambridge University Press, 1848; digital text from Internet
+    Archive item writingsofjohnbr01braduoft (contributor Robarts Library, University of Toronto)" ; republish
+    - whole text, public domain by date.'
+- filename: jewel_apologia-ecclesiae-anglicanae-lat_1838.txt
+  supplied_by: Claude (library/source-research thread (Era VII session, second pass, English and Scottish
+    worlds agent))
+  date_added: '2026-10-23'
+  notes: 'John Jewel, Apologia Ecclesiae Anglicanae (1562), Latin, the 1838 Cambridge edition (Stevenson;
+    Parker; Rivington and Hatchard) with the Epistola ad Scipionem de Concilio Tridentino appended; no
+    editor named on the title page. RIGHTS: public domain by date (1838); archive.org possible-copyright-status
+    NOT_IN_COPYRIGHT. Fetched directly (curl, raw bytes) from Internet Archive item apologiaecclesi00jewegoog
+    (Google scan, Oxford University copy), the item''s own _djvu.txt; header prepended, body unaltered
+    (0 long-s glyphs; Google''s front matter kept). SECOND WITNESS: Google OCR with Italian-locale accent
+    noise on Latin vowels and the ae ligature misread; readable, but any quotation must be checked against
+    the page image. Vendored as the Latin original of Lady Bacon''s 1564 English already in the library
+    (jewel_apology-of-the-church-of-england_bacon-morley1888.txt); the two are one Work in two Expressions
+    (works_fragment). READER: sections - the Apologia in its six parts under the running head "ECCLESIAE
+    ANGLICANAE" with printed page numbers; then "EPISTOLA" ad Scipionem ; credit - "Apologia Ecclesiae
+    Anglicanae, by John Jewel, Cambridge, T. Stevenson, 1838; digital text from Internet Archive item
+    apologiaecclesi00jewegoog (Google scan, contributor Oxford University)" ; republish - passages only:
+    Google OCR with systematic accent and ligature errors, so a passage is republished only after checking
+    against the page image.'
+- filename: calderwood_history-of-the-kirk-v3-1570-1583_thomson1843.txt
+  supplied_by: Claude (library/source-research thread (Era VII session, second pass, English and Scottish
+    worlds agent))
+  date_added: '2026-10-23'
+  notes: 'David Calderwood, The History of the Kirk of Scotland, Vol. III (1570-1583), ed. Thomas Thomson
+    for the Wodrow Society (Edinburgh, 1843): the Assemblies and the struggle over bishops under Morton,
+    the making of the policy, and a clean text of the Second Book of Discipline (1578/1581) at its registration.
+    RIGHTS: public domain by date (1843); archive.org possible-copyright-status NOT_IN_COPYRIGHT. Fetched
+    directly (curl, raw bytes) from Internet Archive item historyofkirkofs03calduoft (Robarts Library,
+    University of Toronto), the item''s own _djvu.txt; header prepended, body unaltered (0 long-s glyphs;
+    doubled spaces left as scanned). Clean OCR at five sample points. Vendored this volume only, chosen
+    because the first-pass dossier recorded the Second Book of Discipline''s opening pages as garbled
+    in the Peterkin 1839 volume and named Calderwood vol. III as the clean witness; the two are one Work
+    in two Expressions (works_fragment). Vols. I-II and IV-VIII stay leads. READER: sections - by year
+    in the running heads ("1571. OF THE KIRK OF SCOTLAND."), with each General Assembly, document and
+    letter under its own capitalised heading, and the Second Book of Discipline under "THE SECOND BUIK
+    OF DISCIPLINE" with "CHAP. I." to "CHAP. XIII."; printed page numbers kept ; credit - "The History
+    of the Kirk of Scotland, by David Calderwood, vol. III, ed. Thomas Thomson, Wodrow Society, Edinburgh,
+    1843; digital text from Internet Archive item historyofkirkofs03calduoft (contributor Robarts Library,
+    University of Toronto)" ; republish - whole text, public domain by date.'
+- filename: kirk-of-scotland_psalms-of-david-in-metre-1650_1833.txt
+  supplied_by: Claude (library/source-research thread (Era VII session, second pass, English and Scottish
+    worlds agent))
+  date_added: '2026-10-23'
+  notes: 'The Psalms of David in Metre (the Scottish Psalter of 1650), the Church of Scotland''s authorised
+    version, in an 1833 Philadelphia printing (Towar; Hogan and Thompson). RIGHTS: public domain by date
+    (1833); archive.org possible-copyright-status NOT_IN_COPYRIGHT. Fetched directly (curl, raw bytes)
+    from Internet Archive item psalmsofdavid00chur (Princeton Theological Seminary Library), the item''s
+    own _djvu.txt; header prepended, body unaltered (0 long-s glyphs; doubled spaces left as scanned).
+    Clean OCR at five sample points; the title-page year is readable. Closes the first-pass lead ''find
+    a cleaner dated scan'' (the 1854 New York scan was garbled, the Library of Congress copy undated,
+    the 1886 Oxford copy clean but undated in its OCR). READER: sections - "PSALM 1." to "PSALM 150."
+    with verse numbers, second versions marked as in the 1650 book, index of first lines at the end ;
+    credit - "The Psalms of David in Metre, allowed by the General Assembly of the Kirk of Scotland (1650),
+    Philadelphia, Alex. Towar, 1833; digital text from Internet Archive item psalmsofdavid00chur (contributor
+    Princeton Theological Seminary Library)" ; republish - whole text, public domain by date.'
+- filename: spottiswood_history-of-the-church-of-scotland-v3-1596-1625_russell-napier1850.txt
+  supplied_by: Claude (library/source-research thread (Era VII session, second pass, English and Scottish
+    worlds agent))
+  date_added: '2026-10-23'
+  notes: 'John Spottiswood, The History of the Church of Scotland, Vol. III (1596-1625), ed. Michael Russell
+    and Mark Napier for the Spottiswoode Society (Edinburgh, 1850): the archbishop''s own account of the
+    Jacobean settlement of the Kirk, the counter-narrative to Calderwood, Row and Melville. RIGHTS: public
+    domain by date (1850); archive.org possible-copyright-status NOT_IN_COPYRIGHT. Fetched directly (curl,
+    raw bytes) from Internet Archive item historyofchur93203spotuoft (University of Guelph), the item''s
+    own _djvu.txt; header prepended, body unaltered (0 long-s glyphs; doubled spaces left as scanned).
+    Clean OCR at five sample points. Vendored as the one outside-the-presbyterian-Kirk witness the first-pass
+    dossier named and had not vendored; vols. I-II (historyofchurc9301spotuoft, historyofchurcho02spot)
+    stay leads. READER: sections - "THE SIXTH BOOK CONTINUED" and "THE SEVENTH BOOK", the year in each
+    page''s running head ("A. D. 1596."), printed page numbers kept, Index to the three volumes at the
+    end ; credit - "The History of the Church of Scotland, by John Spottiswood, vol. III, ed. Michael
+    Russell and Mark Napier, Spottiswoode Society, Edinburgh, 1850; digital text from Internet Archive
+    item historyofchur93203spotuoft (contributor University of Guelph)" ; republish - whole text, public
+    domain by date.'
+- filename: young-alexander_chronicles-of-the-first-planters-1623-1636_1846.txt
+  supplied_by: Claude (library/source-research thread (Era VII session, second pass, English and Scottish
+    worlds agent))
+  date_added: '2026-10-23'
+  notes: 'Alexander Young (comp.), Chronicles of the First Planters of the Colony of Massachusetts Bay,
+    1623-1636 (Boston: Little and Brown, 1846): twenty-four founding documents in their own words (White,
+    the Company''s records and instructions, Higginson''s journal, the Humble Request, Dudley''s letter,
+    Clap''s memoirs, Cotton''s letters, Mather''s journal, Shepard''s memoir), with Young''s notes. RIGHTS:
+    public domain by date (1846); archive.org possible-copyright-status NOT_IN_COPYRIGHT. Fetched directly
+    (curl, raw bytes) from Internet Archive item chroniclesoffirs00younuoft (Robarts Library, University
+    of Toronto), the item''s own _djvu.txt; header prepended, body unaltered (0 long-s glyphs; doubled
+    spaces left as scanned). Clean OCR at five sample points; the footnotes'' two columns sometimes interleave.
+    The first-pass dossier called this the strongest unvendored lead for the New England half of Puritanism.
+    Author slug young-alexander names the compiler, as morris-john does for the Troubles series; each
+    document''s own writer is named in the staging rows. READER: sections - "CHAPTER I." to "CHAPTER XXIV.",
+    one document per chapter under its own title, with the Contents list at the head; Young''s footnotes
+    numbered per page; printed page numbers kept; Index at the end ; credit - "Chronicles of the First
+    Planters of the Colony of Massachusetts Bay, 1623-1636, ed. Alexander Young, Little and Brown, Boston,
+    1846; digital text from Internet Archive item chroniclesoffirs00younuoft (contributor Robarts Library,
+    University of Toronto)" ; republish - whole text, public domain by date.'
+- filename: cambridge-synod_cambridge-platform-1648-and-confession-1680_1850.txt
+  supplied_by: Claude (library/source-research thread (Era VII session, second pass, English and Scottish
+    worlds agent))
+  date_added: '2026-10-23'
+  notes: 'The Cambridge Platform of Church Discipline (1648) and the Confession of Faith of 1680 (Boston:
+    Perkins and Whipple, 1850): the New England churches'' own statement of the congregational way, with
+    the later confession. RIGHTS: public domain by date (1850); archive.org possible-copyright-status
+    NOT_IN_COPYRIGHT. Fetched directly (curl, raw bytes) from Internet Archive item cambridgeplatfor00cong
+    (New York Public Library), the item''s own _djvu.txt; header prepended, body unaltered (0 long-s glyphs;
+    doubled spaces left as scanned). Clean OCR at five sample points; small. The first-pass dossier verified
+    it and left it for file-budget reasons. READER: sections - the Platform in "CHAPTER I." to "CHAPTER
+    XVII." with numbered sections and scripture proofs; the 1680 Confession under its own "PREFACE." and
+    chapters ; credit - "The Cambridge Platform of Church Discipline, adopted in 1648, and the Confession
+    of Faith adopted in 1680, Perkins and Whipple, Boston, 1850; digital text from Internet Archive item
+    cambridgeplatfor00cong (contributor New York Public Library)" ; republish - whole text, public domain
+    by date.'
+- filename: marprelate_tracts-1588-1589_pierce1911.txt
+  supplied_by: Claude (library/source-research thread (Era VII session, second pass, English and Scottish
+    worlds agent))
+  date_added: '2026-10-23'
+  notes: 'The Marprelate Tracts, 1588, 1589, ed. William Pierce (London: James Clarke, 1911): the seven
+    anonymous Puritan satires against the bishops (the Epistle, the Epitome, the Minerals, Hay any Work
+    for Cooper, Theses Martinianae, the Just Censure, the Protestation) in modernised spelling with Pierce''s
+    notes. RIGHTS: public domain by date (1911, London); no copyright-status field on the archive.org
+    item. Fetched directly (curl, raw bytes) from Internet Archive item marprelatetracts0000will (University
+    of Arizona Library), the item''s own _djvu.txt; header prepended, body unaltered (0 long-s glyphs).
+    OCR: clean on the text pages, but blank versos and facsimile pages were OCR''d as mirrored garbage
+    between tracts; stated in the header. Census-named; the first pass verified and left it. READER: sections
+    - the seven tracts under their own titles as running heads ("THE EPISTLE", "THE EPITOME", "THE MINERALLS",
+    "HAY ANY WORKE FOR COOPER", "THESES MARTINIANAE", "THE JUST CENSURE", "THE PROTESTATYON"), Pierce''s
+    notes numbered beneath each page, printed page numbers kept, Index at the end ; credit - "The Marprelate
+    Tracts, 1588, 1589, ed. William Pierce, James Clarke, London, 1911; digital text from Internet Archive
+    item marprelatetracts0000will (contributor University of Arizona Library)" ; republish - whole text,
+    public domain by date.'
+- filename: baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925.txt
+  supplied_by: Claude (library/source-research thread (Era VII session, second pass, English and Scottish
+    worlds agent))
+  date_added: '2026-10-23'
+  notes: 'The Autobiography of Richard Baxter, being the Reliquiae Baxterianae (1696) abridged, ed. J.
+    M. Lloyd Thomas, Everyman''s Library (London: Dent, 1925): Baxter''s own narrative of his life from
+    1615 through Kidderminster, the Civil War, the Restoration, the Savoy Conference, his ejection and
+    the years of persecution, in a clean modernised abridgement. RIGHTS: public domain by date (1925,
+    London); no copyright-status field on the archive.org item. Fetched directly (curl, raw bytes) from
+    Internet Archive item autobiographyofr0000jmll (Graduate Theological Union), the item''s own _djvu.txt;
+    header prepended, body unaltered (0 long-s glyphs). Clean OCR at five sample points. ABRIDGEMENT:
+    the editor''s selection, so a passage missing here may be in the 1696 folio (reliquiaebaxteri00baxt,
+    long-s OCR, a lead). Vendored because the first pass found only the folio and the Calamy abridgements,
+    all long-s OCR, and the lead asked for Baxter; the world that owns his voice is a portfolio question
+    (staging rows needs-ruling). READER: sections - "PART ONE", "PART TWO", "PART THREE" with "CHAPTER
+    I" onward in each, chapter titles and dates in the Contents; editor''s appendices and Index at the
+    end; printed page numbers kept ; credit - "The Autobiography of Richard Baxter, abridged from the
+    Reliquiae Baxterianae (1696), ed. J. M. Lloyd Thomas, Everyman''s Library, J. M. Dent, London, 1925;
+    digital text from Internet Archive item autobiographyofr0000jmll (contributor Graduate Theological
+    Union)" ; republish - whole text, public domain by date.'
+- filename: allen-william_true-sincere-and-modest-defence-v1_1914.txt
+  supplied_by: Claude (library/source-research thread (Era VII session, second pass, English and Scottish
+    worlds agent))
+  date_added: '2026-10-23'
+  notes: 'William Allen, A True, Sincere and Modest Defence of English Catholics that suffer for their
+    faith both at home and abroad, against a false, seditious and slanderous libel entitled ''The Execution
+    of Justice in England'' (1584), Vol. I (the Preface to the Reader and chapters I-IV), the Catholic
+    Library reprint (London: Manresa Press; St Louis: Herder, 1914), modernised spelling, with Cardinal
+    Bourne''s preface in vol. I. RIGHTS: public domain by date (1914); archive.org possible-copyright-status
+    NOT_IN_COPYRIGHT. Fetched directly (curl, raw bytes) from Internet Archive item truesinceremodes01alleuoft
+    (Kelly Library, University of Toronto), the item''s own _djvu.txt; header prepended, body unaltered
+    (0 long-s glyphs; doubled spaces left as scanned). Clean OCR at five sample points; small. The first-pass
+    dossier put this first in line for the next intake. Burghley''s Execution of Justice (1583), the tract
+    Allen answers, exists on the host only as EEBO microfilm items and the 1965 Kingdon edition; recorded
+    in the dossier as a gap for VI.4. READER: sections - "CHAPTER I." to "CHAPTER IX." across the two
+    volumes, each with a long descriptive title in the Contents; printed page numbers kept ; credit -
+    "A True, Sincere and Modest Defence of English Catholics, by William Allen (1584), vol. I, Catholic
+    Library, Manresa Press, London, 1914; digital text from Internet Archive item truesinceremodes01alleuoft
+    (contributor Kelly Library, University of Toronto)" ; republish - whole text, public domain by date.'
+- filename: allen-william_true-sincere-and-modest-defence-v2_1914.txt
+  supplied_by: Claude (library/source-research thread (Era VII session, second pass, English and Scottish
+    worlds agent))
+  date_added: '2026-10-23'
+  notes: 'William Allen, A True, Sincere and Modest Defence of English Catholics that suffer for their
+    faith both at home and abroad, against a false, seditious and slanderous libel entitled ''The Execution
+    of Justice in England'' (1584), Vol. II (chapters V-IX), the Catholic Library reprint (London: Manresa
+    Press; St Louis: Herder, 1914), modernised spelling, with Cardinal Bourne''s preface in vol. I. RIGHTS:
+    public domain by date (1914); archive.org possible-copyright-status NOT_IN_COPYRIGHT. Fetched directly
+    (curl, raw bytes) from Internet Archive item truesinceremodes02alleuoft (Kelly Library, University
+    of Toronto), the item''s own _djvu.txt; header prepended, body unaltered (0 long-s glyphs; doubled
+    spaces left as scanned). Clean OCR at five sample points; small. The first-pass dossier put this first
+    in line for the next intake. Burghley''s Execution of Justice (1583), the tract Allen answers, exists
+    on the host only as EEBO microfilm items and the 1965 Kingdon edition; recorded in the dossier as
+    a gap for VI.4. READER: sections - "CHAPTER I." to "CHAPTER IX." across the two volumes, each with
+    a long descriptive title in the Contents; printed page numbers kept ; credit - "A True, Sincere and
+    Modest Defence of English Catholics, by William Allen (1584), vol. II, Catholic Library, Manresa Press,
+    London, 1914; digital text from Internet Archive item truesinceremodes02alleuoft (contributor Kelly
+    Library, University of Toronto)" ; republish - whole text, public domain by date.'
+- filename: archpriest-controversy_documents-v1-1597-1601_law1896.txt
+  supplied_by: Claude (library/source-research thread (Era VII session, second pass, English and Scottish
+    worlds agent))
+  date_added: '2026-10-23'
+  notes: 'The Archpriest Controversy: Documents relating to the Dissensions of the Roman Catholic Clergy,
+    1597-1602, ed. Thomas Graves Law from the Petyt MSS of the Inner Temple, Vol. I (Camden Society, new
+    series LVI, 1896): the Appellant seculars'' and the Jesuits'' own letters, memorials and narratives
+    in the quarrel over Blackwell''s archpriestship, the Wisbech stirs, the Clink letters and Watson''s
+    Thirty Reasons. RIGHTS: public domain by date (1896); archive.org possible-copyright-status NOT_IN_COPYRIGHT.
+    Fetched directly (curl, raw bytes) from Internet Archive item archpriestcont01camduoft (Robarts Library,
+    University of Toronto; the first attempt returned a host 500 error, the retry succeeded), the item''s
+    own _djvu.txt; header prepended, body unaltered (0 long-s glyphs; doubled spaces left as scanned).
+    Clean OCR at five sample points. Vendored because the first-pass dossier recorded the Appellant side
+    as the world''s missing voice (''a build will need one for balance''). Author slug archpriest-controversy
+    names the collection, as admonition-to-parliament and catholic-record-society do; each document''s
+    writer is in its heading. READER: sections - documents numbered within Roman-numeral groups as in
+    the Table of Contents ("I. THE QUARREL WITH THE JESUITS" and so on), each with writer, addressee and
+    date in its heading; Law''s notes beneath; printed page numbers kept; Index ; credit - "The Archpriest
+    Controversy, vol. I, ed. Thomas Graves Law, Camden Society, Westminster, 1896; digital text from Internet
+    Archive item archpriestcont01camduoft (contributor Robarts Library, University of Toronto)" ; republish
+    - whole text, public domain by date.'
+- filename: archpriest-controversy_documents-v2-1601-1603_law1898.txt
+  supplied_by: Claude (library/source-research thread (Era VII session, second pass, English and Scottish
+    worlds agent))
+  date_added: '2026-10-23'
+  notes: 'The Archpriest Controversy: Documents relating to the Dissensions of the Roman Catholic Clergy,
+    1597-1602, ed. Thomas Graves Law from the Petyt MSS of the Inner Temple, Vol. II (Camden Society,
+    new series LVIII, 1898): the Appellant seculars'' and the Jesuits'' own letters, memorials and narratives
+    in the quarrel over Blackwell''s archpriestship, Mush''s diary of the appeal at Rome, the Latin memorials
+    and the 1603 Protestation of Allegiance. RIGHTS: public domain by date (1898); archive.org possible-copyright-status
+    NOT_IN_COPYRIGHT. Fetched directly (curl, raw bytes) from Internet Archive item archpriestcontr02camduoft
+    (Robarts Library, University of Toronto; the first attempt returned a host 500 error, the retry succeeded),
+    the item''s own _djvu.txt; header prepended, body unaltered (0 long-s glyphs; doubled spaces left
+    as scanned). Clean OCR at five sample points. Vendored because the first-pass dossier recorded the
+    Appellant side as the world''s missing voice (''a build will need one for balance''). Author slug
+    archpriest-controversy names the collection, as admonition-to-parliament and catholic-record-society
+    do; each document''s writer is in its heading. READER: sections - documents numbered within Roman-numeral
+    groups as in the Table of Contents ("I. THE QUARREL WITH THE JESUITS" and so on), each with writer,
+    addressee and date in its heading; Law''s notes beneath; printed page numbers kept; Index ; credit
+    - "The Archpriest Controversy, vol. II, ed. Thomas Graves Law, Camden Society, London, Longmans, 1898;
+    digital text from Internet Archive item archpriestcontr02camduoft (contributor Robarts Library, University
+    of Toronto)" ; republish - whole text, public domain by date.'
+- filename: chardin_travels-in-persia-v1_lloyd1720.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, second pass, eastern-churches
+    agent)
+  date_added: '2026-10-23'
+  notes: 'Sir John Chardin''s Travels in Persia, volume I, English translation credited "By Edm. Lloyd,
+    Esq." (London: printed for J. Smith, 1720; title page read in the OCR). English. RIGHTS: public domain
+    by date (1720); the archive.org item carries no possible-copyright-status value and is not access-restricted.
+    Fetched directly (curl, raw bytes) from Internet Archive item bim_eighteenth-century_sir-john-chardins-trave_chardin-john-sir_1720_1
+    (Eighteenth Century collection microfilm scan), the item''s own _djvu.txt; header prepended; the only
+    change is the long s (U+017F) to s, 7,927 occurrences. Outside witness to the Armenian suburb of Julfa
+    at Isfahan in 1672-73 (file lines 6541, 6957, 7199, 14811). Volume II (item ..._1720_2) was fetched,
+    searched and not vendored (no Julfa passage). Microfilm OCR with broken words: second witness for
+    exact wording. READER: sections - "INTRODUCTION" (file line 1087) then the court narrative, with running
+    heads "The Introduction" and printed page numbers kept; no chapter numbering in this volume beyond
+    a few "CHAP." marks ; credit - "Sir John Chardin''s Travels in Persia, vol. I, trans. Edmund Lloyd,
+    London: J. Smith, 1720; digital text from Internet Archive item bim_eighteenth-century_sir-john-chardins-trave_chardin-john-sir_1720_1
+    (contributor Internet Archive, Eighteenth Century collection)" ; republish - whole text, public domain
+    by date.'
+- filename: almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, second pass, eastern-churches
+    agent)
+  date_added: '2026-10-23'
+  notes: 'Rerum Aethiopicarum Scriptores Occidentales Inediti, vol. VI: P. Emmanuelis d''Almeida S.I.
+    Historia Aethiopiae, Liber V-VIII, ed. Camillo Beccari (Rome: C. de Luigi, 1907; title page read in
+    the OCR; the host catalogue date 1903 is the series'' first volume). Non-English (por, with Beccari''s
+    Latin introduction, margins and notes). RIGHTS: public domain by date (1907); host NOT_IN_COPYRIGHT.
+    Fetched directly (curl, raw bytes) from Internet Archive item rerumaethiopica00unkngoog (Google digitisation,
+    University of Michigan copy), the item''s own _djvu.txt; header prepended, body unaltered (0 long-s
+    glyphs). Books V-VIII: the reign of Susenyos, the Catholic years and the expulsion, in the Jesuit
+    mission''s own history. OCR readable at five points, with some Latin margin text run into the Portuguese.
+    No public-domain English exists; Tellez 1710 (vendored) is the English abridgement. READER: sections
+    - "LIVRO V, CAPITULO I" and so on as running heads with printed page numbers, Beccari''s Latin critical
+    introduction first, "INDEX CAPITUM LIBRI V-VIII" at the end ; credit - "Rerum Aethiopicarum Scriptores
+    Occidentales Inediti, vol. VI: Manuel de Almeida, Historia Aethiopiae, Liber V-VIII, ed. Camillo Beccari,
+    Rome: C. de Luigi, 1907; digital text from Internet Archive item rerumaethiopica00unkngoog (Google
+    digitisation, contributor University of Michigan)" ; republish - whole text, public domain by date.'
+- filename: ludolf_new-history-of-ethiopia_jp1682.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, second pass, eastern-churches
+    agent)
+  date_added: '2026-10-23'
+  notes: 'A New History of Ethiopia, being a full and accurate description of the Kingdom of Abessinia,
+    in four books, by Job Ludolphus, "Made English by J. P. Gent." (London: printed for Samuel Smith,
+    1682; title page read in the OCR). English. RIGHTS: public domain by date (1682); the archive.org
+    item carries no possible-copyright-status value and is not access-restricted. Fetched directly (curl,
+    raw bytes) from Internet Archive item bim_early-english-books-1641-1700_a-new-history-of-ethiopi_ludolf-hiob_1682_0
+    (Early English Books microfilm scan), the item''s own _djvu.txt; header prepended; the only change
+    is the long s (U+017F) to s, 13,029 occurrences. The 1684 second edition scan (bub_gb_buNBAQAAMAAJ)
+    reads long s as f and was not vendored. Contents at file lines about 391-520; "BOOK III" (the church)
+    at 14092 (OCR "BOOK HL"). Does not print the Confession of Claudius. Microfilm OCR with broken words:
+    second witness for exact wording. READER: sections - "The Contents" then four books with "Chap." headings
+    as printed, running heads and printed page numbers kept ; credit - "A New History of Ethiopia, Job
+    Ludolphus, made English by J. P., London: Samuel Smith, 1682; digital text from Internet Archive item
+    bim_early-english-books-1641-1700_a-new-history-of-ethiopi_ludolf-hiob_1682_0 (contributor Internet
+    Archive, Early English Books collection)" ; republish - whole text, public domain by date.'
+- filename: gouvea_jornada-do-arcebispo-de-goa-por_1606.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, second pass, eastern-churches
+    agent)
+  date_added: '2026-10-23'
+  notes: 'Jornada do Arcebispo de Goa Dom Frey Aleixo de Menezes Primaz da India Oriental, by Frey Antonio
+    de Gouvea, O.E.S.A. (Coimbra: Diogo Gomez Loureyro, 1606; title page "Anno Dni 1606" read in the text).
+    Non-English (por). RIGHTS: public domain by date (1606); the host, the Biblioteca Nacional de Portugal,
+    marks the digital object "PUBLIC DOMAIN ... Public Domain Mark". Fetched directly (curl) from the
+    Biblioteca Nacional Digital, record 87431, persistent id http://purl.pt/17493, copy hg-1029-1-v: the
+    host''s full PDF (851017_0000_rosto-152v_t24-C-R0150.pdf, 316 pages) carries its own OCR text layer,
+    extracted mechanically with pdftotext (poppler, default reading order; page-break characters kept);
+    header prepended, text unaltered (0 long-s glyphs; the host''s OCR reads long s as f). The first printed
+    account of the Synod of Diamper and the book the acts were translated from (Geddes 1694, Raulin 1745,
+    vendored). Rough OCR (two-column contents interleaved, words run together, accents lost): second witness
+    for exact wording until checked against the host''s page images. No public-domain English exists (Malekandathil
+    2003 is in copyright). READER: sections - contents list with folio numbers, then "LIVRO" and "CAPITVLO"
+    headings as printed ("CAPITVLO PRIMEYRO" at file line 629, "CAPITVLO VLTIMO" at 22802), page breaks
+    marked by form feeds ; credit - "Jornada do Arcebispo de Goa Dom Frey Aleixo de Menezes, Frey Antonio
+    de Gouvea, Coimbra: Diogo Gomez Loureyro, 1606; digital text from the Biblioteca Nacional de Portugal,
+    Biblioteca Nacional Digital, purl.pt/17493 (Public Domain Mark)" ; republish - whole text, public
+    domain by date.'
+- filename: philipos_syrian-christians-of-malabar_howard1869.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, second pass, eastern-churches
+    agent)
+  date_added: '2026-10-23'
+  notes: 'The Syrian Christians of Malabar, otherwise called the Christians of S. Thomas, by the Rev.
+    Edavalikel Philipos, Chorepiscopus, Cathanar of the Great Church at Cottayam, edited by the Rev. G.
+    B. Howard (Oxford and London: James Parker and Co., 1869; title page read in the OCR; the author wrote
+    it in Malayalam and made the English himself, editor''s preface at file line about 475). English.
+    RIGHTS: public domain by date (1869); host NOT_IN_COPYRIGHT. Fetched directly (curl, raw bytes) from
+    Internet Archive item syrianchristians00philuoft (University of Toronto, Robarts Library), the item''s
+    own _djvu.txt; header prepended, body unaltered (0 long-s glyphs). Eighty-two numbered answers ("Q.
+    1." at 602 to "Q. 82." at 2501) on the church''s belief and history; the Portuguese and Menezes at
+    about 2115-2185. An inside voice of the Jacobite Syrian side, written in 1869. Clean OCR, sampled
+    at five points. READER: sections - editor''s preface and postscript, then "Q. 1." to "Q. 82." as printed,
+    with the editor''s footnotes marked "ED." and printed page numbers kept ; credit - "The Syrian Christians
+    of Malabar, Edavalikel Philipos, ed. G. B. Howard, Oxford and London: James Parker and Co., 1869;
+    digital text from Internet Archive item syrianchristians00philuoft (contributor University of Toronto,
+    Robarts Library)" ; republish - whole text, public domain by date.'
+- filename: howard_christians-of-st-thomas-and-their-liturgies_1864.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, second pass, eastern-churches
+    agent)
+  date_added: '2026-10-23'
+  notes: 'The Christians of St. Thomas and their Liturgies, comprising the anaphorae of St. James, St.
+    Peter, the Twelve Apostles, Mar Dionysius, Mar Xystus and Mar Evannis, together with the Ordo Communis,
+    translated from Syriac MSS. obtained in Travancore, by the Rev. George Broadley Howard (Oxford and
+    London: John Henry and James Parker, 1864; imprint read in the OCR at file line about 170). English.
+    RIGHTS: public domain by date (1864); host licence Public Domain Mark 1.0. Fetched directly (curl,
+    raw bytes) from Internet Archive item TheChristiansOfStThomas (Google digitisation of the New York
+    Public Library copy, Folkscanomy Religion collection), the item''s own _djvu.txt; header prepended,
+    body unaltered including the Google notice and page markers (0 long-s glyphs). Chapter I from 843,
+    Chapter II (the Synod of Diamper) from 1948, Chapter III from 3000, Appendix A from 9216, the Ordo
+    Communis from 11139, the Anaphora of St. James from 12974. The front matter of the scan is garbled;
+    the body is readable (sampled at five points). READER: sections - "CHAPTER I." to "CHAPTER IV.", "APPENDIX
+    A." to "C.", then "ORDO COMMUNIS." and "THE ANAPHORA OF ..." as running heads with printed page numbers
+    kept ; credit - "The Christians of St. Thomas and their Liturgies, George Broadley Howard, Oxford
+    and London: J. H. and J. Parker, 1864; digital text from Internet Archive item TheChristiansOfStThomas
+    (Google digitisation, New York Public Library copy)" ; republish - whole text, public domain by date.'
+- filename: assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, second pass, eastern-churches
+    agent)
+  date_added: '2026-10-23'
+  notes: 'Bibliotheca Orientalis Clementino-Vaticana, Tomi Tertii Pars Prima: De Scriptoribus Syris Nestorianis,
+    by Joseph Simonius Assemanus (Rome: Typis Sacrae Congregationis de Propaganda Fide, 1725; "MDCCXXV"
+    read in the OCR). Non-English (lat, with Syriac and Arabic the OCR cannot read). RIGHTS: public domain
+    by date (1725); host licence Public Domain Mark 1.0. Fetched directly (curl, raw bytes) from Internet
+    Archive item bub_gb_dqIBok_FOLEC (Google digitisation, National Library of Naples), the item''s own
+    _djvu.txt; header prepended, body unaltered (0 long-s glyphs; the OCR reads long s as f). Two other
+    scans (de-scriptoribus-syris-nestorianis, india.history.resource.71763) were fetched and read no better.
+    The dated series of patriarchs with the Roman chronology of Sulaka and Abdisho (1552-1562) at file
+    lines about 101030-101110; the index from 101538. Noisy OCR: second witness for exact wording. READER:
+    sections - numbered "Caput" entries per writer with running heads "Bibliotheca Orientalis" and "Catalogus
+    Libror. Syror. Ebedjesu", the series of patriarchs and an index at the end, printed page numbers kept
+    ; credit - "Bibliotheca Orientalis Clementino-Vaticana, tomus III pars 1, Giuseppe Simone Assemani,
+    Rome: Propaganda Fide, 1725; digital text from Internet Archive item bub_gb_dqIBok_FOLEC (Google digitisation,
+    contributor National Library of Naples)" ; republish - whole text, public domain by date.'
+- filename: badger_nestorians-and-their-rituals-v1_1852.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, second pass, eastern-churches
+    agent)
+  date_added: '2026-10-23'
+  notes: 'The Nestorians and their Rituals, with the narrative of a mission to Mesopotamia and Coordistan
+    in 1842-1844, volume I, by the Rev. George Percy Badger (London: Joseph Masters, 1852; "MDCCCLII"
+    read in the OCR). English. RIGHTS: public domain by date (1852); the archive.org item carries no possible-copyright-status
+    value and is not access-restricted. Fetched directly (curl, raw bytes) from Internet Archive item
+    nestorianstheirr01badg (Princeton Theological Seminary Library), the item''s own _djvu.txt; header
+    prepended, body unaltered (0 long-s glyphs). Chapter XI (the patriarchate and the schism of 1552)
+    from file line 7313, Sulaka at about 7780-7920. Clean OCR, sampled at five points. READER: sections
+    - "CHAPTER I." to "CHAPTER XXV." as printed, with running heads and printed page numbers kept and
+    an index at the end ; credit - "The Nestorians and their Rituals, vol. I, George Percy Badger, London:
+    Joseph Masters, 1852; digital text from Internet Archive item nestorianstheirr01badg (contributor
+    Princeton Theological Seminary Library)" ; republish - whole text, public domain by date.'
+- filename: badger_nestorians-and-their-rituals-v2_1852.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, second pass, eastern-churches
+    agent)
+  date_added: '2026-10-23'
+  notes: 'The Nestorians and their Rituals, volume II (the rituals, doctrine and synodal documents of
+    the Church of the East, translated from the Syriac), by the Rev. George Percy Badger (London: Joseph
+    Masters, 1852; "MDCCCLII" read in the OCR). English. RIGHTS: public domain by date (1852); the archive.org
+    item carries no possible-copyright-status value and is not access-restricted. Fetched directly (curl,
+    raw bytes) from Internet Archive item nestorianstheirr02badg (Princeton Theological Seminary Library),
+    the item''s own _djvu.txt; header prepended, body unaltered (0 long-s glyphs). Forty chapters listed
+    at file lines 187-462; the synod of 1317 and the election of a patriarch at about 6774-8767. Clean
+    OCR, sampled at five points. READER: sections - "CHAPTER I." to "CHAPTER XL." as printed, then appendices,
+    with running heads and printed page numbers kept ; credit - "The Nestorians and their Rituals, vol.
+    II, George Percy Badger, London: Joseph Masters, 1852; digital text from Internet Archive item nestorianstheirr02badg
+    (contributor Princeton Theological Seminary Library)" ; republish - whole text, public domain by date.'
+- filename: maclean-browne_catholicos-of-the-east-and-his-people_1892.txt
+  supplied_by: Claude (library/source-research thread, Era VII session, second pass, eastern-churches
+    agent)
+  date_added: '2026-10-23'
+  notes: 'The Catholicos of the East and his People, by Arthur John Maclean and William Henry Browne (London:
+    Society for Promoting Christian Knowledge, 1892; title page read in the OCR). English. RIGHTS: public
+    domain by date (1892); host licence Public Domain Mark 1.0. Fetched directly (curl, raw bytes) from
+    Internet Archive item TheCatholicosOfTheEastAndHisPeople (a Google digitisation in the Community Texts
+    collection), file The_Catholicos_of_the_East_and_His_Peopl_djvu.txt; header prepended, body unaltered
+    including the Google notice and page markers (0 long-s glyphs). The Beth Mardutho scan (catholicosofeast0000arth)
+    prepends an unsigned modern introduction and was not vendored. The sixteenth-century division into
+    the Uniat Chaldean Church and the Nestorians at file lines 809-830. Clean OCR, sampled at five points.
+    READER: sections - "CHAPTER I." to "CHAPTER XIV." as printed, contents at about 350-620, running heads
+    and printed page numbers kept ; credit - "The Catholicos of the East and his People, A. J. Maclean
+    and W. H. Browne, London: SPCK, 1892; digital text from Internet Archive item TheCatholicosOfTheEastAndHisPeople
+    (Google digitisation)" ; republish - whole text, public domain by date.'

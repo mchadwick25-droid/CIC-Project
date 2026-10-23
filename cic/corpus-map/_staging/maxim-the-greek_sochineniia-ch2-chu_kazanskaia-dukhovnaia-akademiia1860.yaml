@@ -1,0 +1,17 @@
+source_file: maxim-the-greek_sochineniia-ch2-chu_kazanskaia-dukhovnaia-akademiia1860.txt
+assignments:
+- row_id: maxim-the-greek_sochineniia-ch2-chu_kazanskaia-dukhovnaia-akademiia1860--maxim-the-greek-moral-writings-the-slavonic-text-of-the
+  work: Maxim the Greek, moral writings, the Slavonic text of the Kazan Academy edition, part 2 (1860)
+  author: maxim-the-greek
+  locus: 'each writing headed in capitals: the discourse of mind to soul at file line 51, the dialogue
+    of soul and mind at file line 3000, the dispute on monastic possessions at about file line 4879, on
+    repentance at file line 8037, the chapters for Orthodox rulers at file line 8455, on God''s providence
+    and against usurers at file line 9668'
+  atlas_ids:
+  - russian-church-stoglav-to-nikon
+  role: tradition
+  confidence: assigned
+  note: 'Maxim''s own Slavonic wording, the text a quote record should hold, with the 1910 Russian translation
+    beside it for sense. OCR readable at four of five sampled points and garbled at one, yat misread throughout:
+    ready to quote only after a page-image check, and a second witness where the page is bad. Part 3 of
+    the edition (1862) is on the host and part 1 was not found.'

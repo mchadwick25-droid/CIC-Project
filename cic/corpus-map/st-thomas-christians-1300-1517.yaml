@@ -16,6 +16,32 @@ works:
 
     '
   source_file: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt
+- row_id: gouvea_jornada-do-arcebispo-de-goa-por_1606--jornada-do-arcebispo-de-goa-the-serra-and-the-synod-of-diamper-3
+  work: 'Jornada do Arcebispo de Goa (Gouvea, 1606): the state of the Christians of St. Thomas
+    before 1599 as the Portuguese described it'
+  author: gouvea
+  locus: Book I, from 'CAPITVLO PRIMEYRO' at file line 629, the chapters on the origin, bishops
+    and errors of the Christians of St. Thomas
+  role: context
+  confidence: provisional
+  note: 'The Portuguese description of the community''s bishops from Babylon, its rite and
+    its books, written to justify their removal; a hostile witness to the state of the church
+    before the window of this entry ended. Placed on subject without a close read.
+
+    '
+  source_file: gouvea_jornada-do-arcebispo-de-goa-por_1606.txt
+- row_id: howard_christians-of-st-thomas-and-their-liturgies_1864--chapter-ii-the-synod-of-diamper-4
+  work: 'The Christians of St. Thomas and their Liturgies (Howard, 1864), chapter I: the early
+    traditions and history to 1502'
+  author: howard
+  locus: Chapter I from file line 843 to 1947
+  role: context
+  confidence: provisional
+  note: 'A nineteenth-century Anglican summary of the medieval traditions of the community.
+    Placed on the chapter title; not read for that entry.
+
+    '
+  source_file: howard_christians-of-st-thomas-and-their-liturgies_1864.txt
 - row_id: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745--historia-synodi-diamperitanae-caput-i-the-malabar-church
   work: Historia Synodi Diamperitanae, Caput I (the Malabar church before the Portuguese)
   author: raulin

@@ -1,0 +1,27 @@
+source_file: gibbings_records-of-the-roman-inquisition-minorite-friar_1853.txt
+assignments:
+- row_id: gibbings_records-of-the-roman-inquisition-minorite-friar_1853--sentence-of-1564
+  work: Sentence of the Roman Inquisition against Fra Tommaso de Fabianis of Mileto, given in the name of
+    Cardinal Carlo Borromeo, Rome, 16 December 1564, Italian and Latin with Gibbings's English
+  author: gibbings
+  locus: the sentence from line 167 (date at lines 167 and 185; "Carlo Borromeo" at line 203) in parallel
+    columns of Italian and English; the record of the burning in effigy from about line 1192 to the end
+  atlas_ids:
+  - tridentine-parish-renewal-borromean-milan
+  role: context
+  confidence: assigned
+  note: 'The one document in Borromeo''s own name available in English in the library, from his Roman years
+    before Milan, printed by a hostile Protestant editor in 1853 with his own notes and advertisement (lines
+    137 onward). The document is Inquisition routine in the cardinal-nephew''s name, not his pastoral voice;
+    the editor''s framing is an opponent''s. Clean OCR.'
+- row_id: gibbings_records-of-the-roman-inquisition-minorite-friar_1853--sentence-tridentine
+  work: Sentence of the Roman Inquisition against a Minorite friar, 1564 (Gibbings, 1853)
+  author: gibbings
+  locus: whole file
+  atlas_ids:
+  - the-tridentine-church
+  role: context
+  confidence: provisional
+  note: 'A Roman Inquisition sentence of 1564 with its list of the friar''s heresies, in English: a small
+    outside witness to the Holy Office in the year the Council closed. Placed provisionally; the editor''s
+    polemic is not a source.'

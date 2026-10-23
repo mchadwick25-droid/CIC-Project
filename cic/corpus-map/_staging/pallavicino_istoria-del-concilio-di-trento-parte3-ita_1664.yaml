@@ -8,9 +8,14 @@ assignments:
   - the-tridentine-church
   role: context
   confidence: assigned
-  note: 'Cardinal Pallavicino''s Counter-Reformation answer to Sarpi''s history of the Council, in the
-    author''s revised Italian text of 1664. A pro-Curia narrative written after the Council, so context,
-    never the council''s own voice. Closes the dossier''s earlier finding that no English exists: the
-    Italian original is public domain and is now in the corpus; there is still no English translation.
-    Scan quality: garbled in the later half; second witness. Parts 1 and 2 are the clean witnesses; for
-    the Libri XVII-XXIV (Trent''s last period, 1562-63) a cleaner scan of this volume is a standing want.'
+  note: >
+    Cardinal Pallavicino's Counter-Reformation answer to Sarpi's history of the Council, in the
+    author's revised Italian text of 1664. A pro-Curia narrative written after the Council, so
+    context, never the council's own voice. Closes the dossier's earlier finding that no English
+    exists: the Italian original is public domain and is now in the corpus; there is still no
+    English translation. Scan quality: garbled in the later half; second witness. Parts 1 and 2 are
+    the clean witnesses; for the Libri XVII-XXIV (Trent's last period, 1562-63) a cleaner scan of
+    this volume is a standing want. The clean witness for Libri XVII-XXIV is now vendored as
+    pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt (1846
+    reprint, modernised orthography); this 1664 scan stays the wording witness, checked against its
+    page images.

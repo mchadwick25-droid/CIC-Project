@@ -3,6 +3,8 @@
 See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is and
 why it exists.
 
+**Second pass, October 2026** (Era VII library session, second-pass agent). Five more files were vendored and staged: the Kurbsky-Ivan IV correspondence (1914), two chronicle volumes of the Polnoe sobranie russkikh letopisei (vol. 13 part 2, 1906; vol. 14 part 1, 1910), and Maxim the Greek in the Slavonic (Kazan 1860, part 2) and in the 1910 Lavra Russian translation (part 1). The condition the first pass put on its recommendation (a second pass on the chronicles and a cleaner Maxim) is met, and the recommendation stays **build** with the fallback withdrawn (§6). Vendored leads moved from §3 to §1; leads run down and closed are in §4.
+
 **Atlas ID:** VI.23
 **Corpus-map slug:** `russian-church-stoglav-to-nikon`
 **Time window:** 1517–1650

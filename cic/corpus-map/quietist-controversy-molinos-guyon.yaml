@@ -3,6 +3,28 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: quietist-controversy-molinos-guyon
 works:
+- row_id: john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914--quietism
+  work: Cautelas, Avisos and the apologetic appendices on contemplation (Gerardo 1914)
+  author: john-of-the-cross
+  locus: the appendix of Jose de Jesus Maria on John's guidance of souls to contemplation,
+    from about line 27898
+  role: antecedent
+  confidence: needs-ruling
+  note: Seventeenth-century Carmelite defence of John's teaching on contemplation, the ground
+    the quietist controversy fought over; placed as antecedent on the same needs-ruling footing
+    as the English volumes.
+  source_file: john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914.txt
+- row_id: john-of-the-cross_ascent-of-mount-carmel_lewis1906--quietism
+  work: The Ascent of Mount Carmel, Book II on faith as the proximate means of union and on
+    visions and locutions
+  author: john-of-the-cross
+  locus: Book II from line 4348
+  role: antecedent
+  confidence: needs-ruling
+  note: The text the quietist controversy later argued over; placed as antecedent on the same
+    needs-ruling footing as the 1891 volume, since that entry has no vendored source arguing
+    from John yet.
+  source_file: john-of-the-cross_ascent-of-mount-carmel_lewis1906.txt
 - row_id: john-of-the-cross_dark-night-canticle-living-flame_lewis1891--quietism
   work: The Dark Night, Spiritual Canticle and Living Flame (as the books the Quietists and
     their opponents argued over)

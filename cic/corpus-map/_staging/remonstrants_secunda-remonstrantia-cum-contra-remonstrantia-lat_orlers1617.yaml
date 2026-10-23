@@ -1,0 +1,47 @@
+# Vendored for Atlas VI.26 (The Remonstrants and Dort) by the Era VII library session, second pass, 2026-10-23; see that world's Source Readiness Dossier.
+source_file: remonstrants_secunda-remonstrantia-cum-contra-remonstrantia-lat_orlers1617.txt
+
+assignments:
+  - row_id: remonstrants_secunda-remonstrantia-cum-contra-remonstrantia-lat_orlers1617--secunda-remonstrantia-of-the-remonstrant-ministers-of
+    work: "Secunda Remonstrantia of the Remonstrant ministers of Holland and West Friesland to the States, April 1617 (Latin from the Dutch, Leiden 1617)"
+    author: remonstrants
+    locus: "from the title page (file line 25) to the start of the Responsio at line 943"
+    atlas_ids:
+      - the-remonstrants-and-dort
+    role: tradition
+    confidence: assigned
+    note: >
+      The Remonstrants' second formal petition to the States of Holland, at the height of the
+      quarrel, in the Latin made from the Dutch in the same year: the party's own voice as a body,
+      a year before Dort. The host catalogue names Uytenbogaert's Dutch 'Copye van seker vertooch'
+      as the original. A primary original-language witness under the September 2026 ruling, but a
+      SECOND WITNESS for exact wording: the OCR reads the long s as f and misreads ligatures
+      (about 0.47 of tokens matched against a patristic Latin baseline); verify against the page
+      image before rendering.
+  - row_id: remonstrants_secunda-remonstrantia-cum-contra-remonstrantia-lat_orlers1617--secunda-contra-remonstrantia-the-responsio-of-the-reformed
+    work: "Secunda Contra-Remonstrantia: the Responsio of the Reformed ministers of Holland and West Friesland to the Second Remonstrance, August 1617 (Latin from the Dutch, Leiden 1617)"
+    author: remonstrants
+    locus: "RESPONSIO REFORMATORUM ECCLESIARUM MINISTRORUM from file line 943 to the end (about line 7500), running heads 'II. Contra-Remonstrantia'"
+    atlas_ids:
+      - the-remonstrants-and-dort
+    role: tradition
+    confidence: assigned
+    note: >
+      The Contra-Remonstrant ministers' answer, 'in which it is shown that the Remonstrants bring
+      a new doctrine into the Reformed churches', printed with the Remonstrance it answers: the
+      other party of this world in its own formal words, before the Synod. The host catalogue
+      names Trigland's 'Klaer ende grondich teghen-vertoogh' and Taurinus. The file is slugged by
+      the volume, not by the Contra-Remonstrant authors; a build cites the Responsio by its own
+      title. Second witness for exact wording, as above.
+  - row_id: remonstrants_secunda-remonstrantia-cum-contra-remonstrantia-lat_orlers1617--secunda-remonstrantia-and-secunda-contra-remonstrantia-1617
+    work: "Secunda Remonstrantia and Secunda Contra-Remonstrantia, 1617 (Latin from the Dutch)"
+    author: remonstrants
+    locus: "whole file"
+    atlas_ids:
+      - dutch-further-reformation-and-refuge-culture
+    role: context
+    confidence: provisional
+    note: >
+      The quarrel inside the Dutch church in 1617 as both parties put it to the States: the
+      Contra-Remonstrant half is the party of the precisianist pulpit this world describes.
+      Mirrors the context placement of the other Remonstrant files on this world. Second witness.

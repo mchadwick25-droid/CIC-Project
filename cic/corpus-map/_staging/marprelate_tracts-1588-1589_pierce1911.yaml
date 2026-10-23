@@ -1,0 +1,33 @@
+source_file: marprelate_tracts-1588-1589_pierce1911.txt
+
+assignments:
+  - row_id: marprelate_tracts-1588-1589_pierce1911--the-marprelate-tracts-1588-1589-the-epistle-the-epitome-the-minerals-h
+    work: "The Marprelate Tracts (1588-1589): the Epistle, the Epitome, the Minerals, Hay any Work for Cooper, Theses Martinianae, the Just Censure, the Protestation"
+    author: marprelate
+    locus: "the Epistle's title page at about file line 2525; the Epitome from about 12746; Hay any Work from about 21605; Theses Martinianae from about 28587; the Just Censure and the Protestation following, to the Index at 41471; Pierce's introduction from about 407 is editorial"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: assigned
+    note: >
+      The secret press's own voice: the Puritan case against the bishops made as
+      popular satire, naming Whitgift, Aylmer, Bridges and Cooper, with the demand
+      for a preaching ministry and discipline behind the jokes. Pseudonymous; the
+      slug is the mask's name, and the editor's attribution argument is his.
+      Primary voice in modernised spelling, ready to quote once verified against
+      this file; the stretches of mirrored garbage between tracts are scan noise
+      from blank versos, and Pierce's notes are not Martin's words.
+  - row_id: marprelate_tracts-1588-1589_pierce1911--the-marprelate-tracts-1588-1589
+    work: "The Marprelate Tracts (1588-1589)"
+    author: marprelate
+    locus: "as above, file lines about 2525 to 41471"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: context
+    confidence: provisional
+    note: >
+      The attack the Settlement's bishops answered (Cooper's Admonition,
+      Bancroft's Paul's Cross sermon, the 1589 proclamation): the Elizabethan
+      church seen by its sharpest in-house enemy. Context for the English
+      Reformation world; provisional, placed from the Puritan side without that
+      world's own reading.

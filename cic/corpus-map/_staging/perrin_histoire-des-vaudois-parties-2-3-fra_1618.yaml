@@ -1,0 +1,46 @@
+# Vendored for Atlas VI.10 (The Waldensian-Reformed Union) by the Era VII library session, second pass, 2026-10-23; see that world's Source Readiness Dossier.
+source_file: perrin_histoire-des-vaudois-parties-2-3-fra_1618.txt
+
+assignments:
+  - row_id: perrin_histoire-des-vaudois-parties-2-3-fra_1618--histoire-des-vaudois-part-iii-1618-the-doctrine-and-the
+    work: "Histoire des Vaudois, Part III (1618): the doctrine and the discipline the Vaudois held in common, with the old Vaudois texts printed in their own tongue and in French"
+    author: perrin
+    locus: "TROISIEME PARTIE, Liure I (doctrine) from file line 7317; LIVRE SECOND DE LA TROISIESME PARTIE (discipline) from line 11169, parallel columns from 11176"
+    atlas_ids:
+      - the-waldensian-reformed-union
+    role: tradition
+    confidence: assigned
+    note: >
+      The French original of the doctrine and discipline section that the vendored 1847 English
+      (the 1624 translation) renders, printed by a Dauphine pastor of the union's own generation
+      with the medieval texts beside his French. Perrin writes as the union's apologist, so the
+      selection and the French rendering are his; the Vaudois-tongue columns are the valleys' own
+      texts as he had them. SECOND WITNESS for exact wording: the OCR interleaves the two columns
+      and reads the long s as f; verify against the page image, and for the Vaudois tongue use the
+      page image only.
+  - row_id: perrin_histoire-des-vaudois-parties-2-3-fra_1618--histoire-des-vaudois-part-iii-1618-the-doctrine-and-the-2
+    work: "Histoire des Vaudois, Part III (1618): the doctrine and the discipline the Vaudois held in common, with the old Vaudois texts printed in their own tongue and in French"
+    author: perrin
+    locus: "file lines 7317 to the end"
+    atlas_ids:
+      - waldensians-in-the-alps
+    role: tradition
+    confidence: provisional
+    note: >
+      The medieval treatises and the Discipline as printed in 1618; the texts themselves belong to
+      the valleys before the union, their dating is the contested point the first-pass dossier
+      names, and Perrin's framing is the union's. Mirrors the provisional placement of the 1619
+      Part I and the 1847 English on this entry. Second witness.
+  - row_id: perrin_histoire-des-vaudois-parties-2-3-fra_1618--histoire-des-chrestiens-albigeois-part-ii-of-perrin-s
+    work: "Histoire des Chrestiens Albigeois (Part II of Perrin's Histoire des Vaudois, 1618)"
+    author: perrin
+    locus: "from the Part II title page at file line 1 to the start of Part III at line 7317; running heads 'Albigeois. Liure I.' and following"
+    atlas_ids:
+      - cathars-albigensians
+    role: context
+    confidence: provisional
+    note: >
+      Perrin's history of the Albigenses, which treats them as Waldenses, a claim the sources do
+      not bear out (first-pass dossier). The French original of the Part II that the vendored 1847
+      English carries; placed as a seventeenth-century Protestant reading of the crusade,
+      mirroring the 1847 row. Second witness.

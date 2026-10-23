@@ -1,0 +1,12 @@
+source_file: schwenckfeld_auslegung-ersten-capitels-zacharias-deu_1547.txt
+assignments:
+- row_id: schwenckfeld_auslegung-ersten-capitels-zacharias-deu_1547--au-legung-des-ersten-capitels-des-propheten-zacharia-1547
+  work: Außlegung des Ersten Capitels des Propheten Zacharia (1547)
+  author: schwenckfeld
+  locus: title page at file line 147
+  atlas_ids:
+  - schwenckfelders
+  role: tradition
+  confidence: assigned
+  note: Schwenckfeld expounding Zechariah 1 of Christ, 1547, inside the window. Readable microfilm OCR (about 0.8
+    word-like); quotable once checked against the page image. Role tradition. German; no English exists.

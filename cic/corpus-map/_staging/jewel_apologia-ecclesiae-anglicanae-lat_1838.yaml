@@ -1,0 +1,49 @@
+source_file: jewel_apologia-ecclesiae-anglicanae-lat_1838.txt
+
+assignments:
+  - row_id: jewel_apologia-ecclesiae-anglicanae-lat_1838--apologia-ecclesiae-anglicanae-1562-the-latin-original
+    work: "Apologia Ecclesiae Anglicanae (1562), the Latin original"
+    author: jewel
+    locus: "from about file line 237 (title 'APOLOGIA') to the Epistola at about 5562"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: tradition
+    confidence: assigned
+    note: >
+      Jewel's own Latin of the Elizabethan church's official self-defence, the
+      text Lady Bacon translated in 1564 (vendored as
+      jewel_apology-of-the-church-of-england_bacon-morley1888.txt). Primary
+      original-language voice, but a SECOND WITNESS for exact wording: Google OCR
+      with Italian-locale accents on Latin vowels and misread ae ligatures, so a
+      Latin quotation must be verified against the page image; the English
+      translation and this Latin check each other.
+  - row_id: jewel_apologia-ecclesiae-anglicanae-lat_1838--epistola-ad-virum-nobilem-d-scipionem-patricium-venetum-de-concilio-tr
+    work: "Epistola ad virum nobilem D. Scipionem, patricium Venetum, de Concilio Tridentino (1562)"
+    author: jewel
+    locus: "from about file line 5562 to the end of the file"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+      - the-tridentine-church
+    role: tradition
+    confidence: provisional
+    note: >
+      Jewel's Latin letter explaining why the English church would not attend
+      Trent: the English side's own statement to a Venetian correspondent.
+      Tradition for the English Reformation (its own bishop writing), context in
+      substance for the Tridentine Church as a contemporary Protestant refusal of
+      the council; a single row with both entries, provisional, because the
+      Tridentine world's thread has not read it. Same second-witness OCR caveat as
+      the Apologia.
+  - row_id: jewel_apologia-ecclesiae-anglicanae-lat_1838--apologia-ecclesiae-anglicanae-1562-the-latin-original-2
+    work: "Apologia Ecclesiae Anglicanae (1562), the Latin original"
+    author: jewel
+    locus: "from about file line 237 to about 5562"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: context
+    confidence: provisional
+    note: >
+      The Latin that Thomas Harding answered from Louvain, the opening of the
+      controversy that shaped the first generation of English Catholic exile
+      writing. The opponent's book; provisional, mirroring the placement of the
+      English translation. Second-witness OCR.

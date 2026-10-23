@@ -27,6 +27,39 @@ works:
 
     '
   source_file: allen-william_briefe-historie-of-twelve-reverend-priests_pollen1908.txt
+- row_id: allen-william_true-sincere-and-modest-defence-v1_1914--a-true-sincere-and-modest-defence-of-english-catholics-1584-vol-i-pref-2
+  work: 'A True, Sincere and Modest Defence of English Catholics (1584), Vol. I: Preface to
+    the Reader and chapters I-IV (that the Catholics suffer for religion and not treason;
+    the ''bloody questions''; the seminaries; the priests'' conduct)'
+  author: allen-william
+  locus: the Preface to the Reader from file line 363; CHAPTER I at 695, II at 1399, III at
+    2109, IV at 3166 to the end of the volume
+  role: context
+  confidence: provisional
+  note: 'The Catholic exiles'' reply to the Settlement''s own statement of why it executed
+    priests: the other side of the argument the English Reformation world''s sources make
+    from Jewel onward. Context, provisional; the first-pass dossier for VI.4 asked whether
+    that world wants a hostile Catholic witness. Burghley''s own tract is not vendored (EEBO
+    microfilm only).
+
+    '
+  source_file: allen-william_true-sincere-and-modest-defence-v1_1914.txt
+- row_id: allen-william_true-sincere-and-modest-defence-v2_1914--a-true-sincere-and-modest-defence-of-english-catholics-1584-vol-ii-cha-2
+  work: 'A True, Sincere and Modest Defence of English Catholics (1584), Vol. II: chapters
+    V-IX (the deposing power, the pope as arbiter between princes and peoples, the Irish wars,
+    the realm''s fall from the Church as the cause of its fears, the conclusion with a motion
+    for toleration)'
+  author: allen-william
+  locus: CHAPTER V at file line 141, VI at 1355, VII at 2101, VIII at 3279, IX at 5378 to
+    the end of the volume
+  role: context
+  confidence: provisional
+  note: 'The deposing power argued by the Catholic leader himself: what the Settlement''s
+    oath and the ''bloody questions'' were written against. Context for the English Reformation
+    world, provisional.
+
+    '
+  source_file: allen-william_true-sincere-and-modest-defence-v2_1914.txt
 - row_id: morris-john_troubles-of-our-catholic-forefathers-ser3_1877--ancient-editors-note-book-2
   work: An Ancient Editor's Note Book
   author: ancient-editor-note-book
@@ -85,6 +118,38 @@ works:
 
     '
   source_file: barlow-william_summe-and-substance-hampton-court-conference_1804.txt
+- row_id: bradford-john_writings-v1_townsend1848--bradford-s-prison-letters-farewells-and-his-examinations-and-conferenc
+  work: Bradford's prison letters, farewells, and his Examinations and conferences of 1555
+  author: bradford-john
+  locus: from about file line 23623 (letters and farewells) and the Examinations from about
+    25066 to the end of the volume
+  role: tradition
+  confidence: assigned
+  note: 'A Marian martyr''s own record of his hearings before Gardiner and the commissioners
+    and of his conferences with Bonner''s chaplains and the Spanish friars, beside the farewells
+    he wrote to Lancashire, Cambridge and London. Bradford''s own account, not Foxe''s frame;
+    Foxe printed much of it, and this is the Parker Society text from the earliest printings.
+    Primary voice, clean OCR.
+
+    '
+  source_file: bradford-john_writings-v1_townsend1848.txt
+- row_id: bradford-john_writings-v1_townsend1848--bradford-s-sermons-and-meditations-the-sermon-on-repentance-1553-the-s
+  work: 'Bradford''s sermons and meditations: the Sermon on Repentance (1553), the Sermon
+    on the Lord''s Supper, the Godly Meditations on the Lord''s Prayer, the Belief and the
+    Ten Commandments, and the private prayers for the hours of the day'
+  author: bradford-john
+  locus: Sermon on Repentance from file line 2337; Sermon on the Lord's Supper from 4422;
+    Meditations from 6573; Private Prayers from about 11940; to the prison letters at about
+    23623
+  role: tradition
+  confidence: assigned
+  note: 'The Edwardian preacher''s own pulpit and closet: the sermon that called England to
+    repentance in 1553, and the meditations and hourly prayers that were reprinted for a century.
+    Primary voice, clean OCR, ready to quote once verified against this file; the editor''s
+    notes are not Bradford''s words.
+
+    '
+  source_file: bradford-john_writings-v1_townsend1848.txt
 - row_id: calvin_letters-vol2_bonnet1858--letters-to-somerset-edward-vi-and-cranmer-1548-1552
   work: 'Letters of John Calvin, Vol. II: the letters to the Protector Somerset (CCXXIX, CCLVII),
     to Edward VI (CCLXXIV) and to Archbishop Cranmer (CCXCVIII, CCCXIV), 1548-1552'
@@ -337,6 +402,18 @@ works:
 
     '
   source_file: cranmer_miscellaneous-writings-and-letters_cox1846.txt
+- row_id: family-of-love_supplication-examined-and-confuted_1606--a-supplication-of-the-family-of-love-examined-and-confuted-1606-2
+  work: A Supplication of the Family of Love, examined and confuted (1606)
+  author: family-of-love
+  locus: first "The Families Supplication" head with "The Examination" at file line 106; the
+    Familists disclaim the charged errors at file line 168; the examiner on H. N. as a German
+    author at file line 1090
+  role: context
+  confidence: provisional
+  note: A Jacobean anti-Familist tract with the Familists' petition to James I; placed provisionally
+    beside the 1579 polemics already proposed there. The English Reformation thread decides
+    its weight.
+  source_file: family-of-love_supplication-examined-and-confuted_1606.txt
 - row_id: foxe_acts-and-monuments-v7_cattley-townsend1837--the-acts-and-monuments-vol-vii-the-marian-persecution-of-1555
   work: 'The Acts and Monuments of John Foxe, Vol. VII (Cattley/Townsend edition): the Marian
     persecution of 1555, with the examinations and letters of Bradford, Ridley, Latimer, Philpot
@@ -426,6 +503,37 @@ works:
 
     '
   source_file: hooker_laws-of-ecclesiastical-polity-books-1-5_keble1850.txt
+- row_id: jewel_apologia-ecclesiae-anglicanae-lat_1838--apologia-ecclesiae-anglicanae-1562-the-latin-original
+  work: Apologia Ecclesiae Anglicanae (1562), the Latin original
+  author: jewel
+  locus: from about file line 237 (title 'APOLOGIA') to the Epistola at about 5562
+  role: tradition
+  confidence: assigned
+  note: 'Jewel''s own Latin of the Elizabethan church''s official self-defence, the text Lady
+    Bacon translated in 1564 (vendored as jewel_apology-of-the-church-of-england_bacon-morley1888.txt).
+    Primary original-language voice, but a SECOND WITNESS for exact wording: Google OCR with
+    Italian-locale accents on Latin vowels and misread ae ligatures, so a Latin quotation
+    must be verified against the page image; the English translation and this Latin check
+    each other.
+
+    '
+  source_file: jewel_apologia-ecclesiae-anglicanae-lat_1838.txt
+- row_id: jewel_apologia-ecclesiae-anglicanae-lat_1838--epistola-ad-virum-nobilem-d-scipionem-patricium-venetum-de-concilio-tr
+  work: Epistola ad virum nobilem D. Scipionem, patricium Venetum, de Concilio Tridentino
+    (1562)
+  author: jewel
+  locus: from about file line 5562 to the end of the file
+  role: tradition
+  confidence: provisional
+  note: 'Jewel''s Latin letter explaining why the English church would not attend Trent: the
+    English side''s own statement to a Venetian correspondent. Tradition for the English Reformation
+    (its own bishop writing), context in substance for the Tridentine Church as a contemporary
+    Protestant refusal of the council; a single row with both entries, provisional, because
+    the Tridentine world''s thread has not read it. Same second-witness OCR caveat as the
+    Apologia.
+
+    '
+  source_file: jewel_apologia-ecclesiae-anglicanae-lat_1838.txt
 - row_id: jewel_apology-of-the-church-of-england_bacon-morley1888--the-apology-of-the-church-of-england-lady-bacon-s-translation
   work: The Apology of the Church of England (Apologia Ecclesiae Anglicanae, 1562), Lady Anne
     Bacon's translation of 1564
@@ -538,6 +646,33 @@ works:
 
     '
   source_file: latimer_sermons_corrie1844.txt
+- row_id: marnix_beehive-of-the-romish-church_gilpin1623--the-bee-hive-of-the-romish-church-gilpin-s-english-of-the-3
+  work: The Bee Hive of the Romish Church (Gilpin's English of the Bijenkorf, 1579; the 1623
+    printing)
+  author: marnix
+  locus: Gilpin's dedication to Philip Sidney from file line 49; the whole translation
+  role: context
+  confidence: provisional
+  note: 'An English translation of 1579 dedicated to Philip Sidney, reprinted in 1598, 1623
+    and 1636: a Dutch Reformed polemic in English circulation across the Elizabethan and Jacobean
+    church. Placed on the translation''s English readership only; the Elizabethan world''s
+    build decides whether it needs it. Second witness.
+
+    '
+  source_file: marnix_beehive-of-the-romish-church_gilpin1623.txt
+- row_id: marprelate_tracts-1588-1589_pierce1911--the-marprelate-tracts-1588-1589
+  work: The Marprelate Tracts (1588-1589)
+  author: marprelate
+  locus: as above, file lines about 2525 to 41471
+  role: context
+  confidence: provisional
+  note: 'The attack the Settlement''s bishops answered (Cooper''s Admonition, Bancroft''s
+    Paul''s Cross sermon, the 1589 proclamation): the Elizabethan church seen by its sharpest
+    in-house enemy. Context for the English Reformation world; provisional, placed from the
+    Puritan side without that world''s own reading.
+
+    '
+  source_file: marprelate_tracts-1588-1589_pierce1911.txt
 - row_id: morebath-parish_churchwardens-accounts-1520-1573_binney1904--the-accounts-of-the-wardens-of-the-parish-of-morebath-1520-1573
   work: The Accounts of the Wardens of the Parish of Morebath, Devon, 1520-1573
   author: morebath-parish
@@ -598,6 +733,58 @@ works:
     proclamations and appendix papers of the Settlement church. Read at the Family of Love
     chapters only; the rest placed on window and place.'
   source_file: strype_annals-of-the-reformation-v2-pt2_1824.txt
+- row_id: tyndale_doctrinal-treatises_walter1848--tyndale-s-doctrinal-treatises-a-pathway-into-the-holy-scripture-1525-3
+  work: 'Tyndale''s doctrinal treatises: A Pathway into the Holy Scripture (1525-32), The
+    Parable of the Wicked Mammon (1527), The Obedience of a Christian Man (1527-8), A Brief
+    Declaration of the Sacraments (1536)'
+  author: tyndale
+  locus: Pathway running heads from about file line 4232; Wicked Mammon from about 5043; Obedience
+    from about 10625 to the Sacraments treatise, which ends before the Epistle to the Reader
+    (about 25569)
+  role: tradition
+  confidence: needs-ruling
+  note: 'The first English evangelical voice: justification by faith, the authority of the
+    vernacular Scripture, obedience to the king against the pope, in Tyndale''s own English
+    (modernised spelling, Walter''s edition). The census window for VI.4 opens in the 1530s
+    and Tyndale wrote from exile in 1525-1536, before the Settlement and before the break
+    with Rome was complete; the first-pass dossier left his placement to the lead (prelude
+    of this world, or a world of his own). Placed here as tradition with needs-ruling for
+    that reason. Primary voice, clean OCR, ready to quote once verified against this file;
+    Walter''s footnotes are editorial.
+
+    '
+  source_file: tyndale_doctrinal-treatises_walter1848.txt
+- row_id: tyndale_doctrinal-treatises_walter1848--tyndale-s-prefaces-and-prologues-to-his-bible-translations-the-epistle
+  work: 'Tyndale''s prefaces and prologues to his Bible translations: the Epistle to the Reader
+    (1526 New Testament), the Preface to the Five Books of Moses and the Prologues to Genesis,
+    Exodus, Leviticus, Numbers, Deuteronomy (1530), Jonas (1531) and Matthew (1525)'
+  author: tyndale
+  locus: from the Epistle to the Reader (about file line 25569) and the Preface to the Five
+    Books of Moses at 25611, the Prologue to Genesis at 25940, Jonas at 28900, Matthew at
+    30711, to the end of the volume
+  role: tradition
+  confidence: needs-ruling
+  note: 'The translator''s own account of why the Scripture must be in English and how it
+    is to be read: the prologues that travelled with the smuggled Testaments and Pentateuch.
+    Same placement question as the treatises above (Tyndale precedes the window the census
+    gives this world); needs-ruling. Primary voice, clean OCR.
+
+    '
+  source_file: tyndale_doctrinal-treatises_walter1848.txt
+- row_id: tyndale_doctrinal-treatises_walter1848--walter-s-biographical-notice-of-william-tyndale-1848
+  work: Walter's Biographical Notice of William Tyndale (1848)
+  author: walter-henry
+  locus: from file line 317 to the Pathway (about 4209)
+  role: context
+  confidence: provisional
+  note: 'The editor''s 1848 life of Tyndale, which prints and discusses the letters and the
+    records of his arrest and death. Nineteenth-century editorial narrative, not a primary
+    voice; placed as context only for the documents it quotes. Author slug walter-henry is
+    a metadata-omission ruling: Walter is named on the title page as editor, and the Notice
+    is his own composition.
+
+    '
+  source_file: tyndale_doctrinal-treatises_walter1848.txt
 - row_id: hooker_laws-of-ecclesiastical-polity-books-1-5_keble1850--walton-s-life-of-hooker
   work: Izaak Walton, The Life of Mr. Richard Hooker (1665)
   author: walton
@@ -620,3 +807,32 @@ works:
   confidence: provisional
   note: Placed on window and place; the English Reformation thread decides its weight.
   source_file: wilkinson-william_confutation-of-certaine-articles_daye1579.txt
+- row_id: zurich-letters_first-series-1558-1579_robinson1842--epistolae-tigurinae-the-latin-originals-of-the-first-series-zurich-let
+  work: 'Epistolae Tigurinae: the Latin originals of the first-series Zurich Letters'
+  author: zurich-letters
+  locus: from EPISTOLA I at about file line 20811 to the end of the file
+  role: tradition
+  confidence: assigned
+  note: 'The same letters in the writers'' own Latin, printed from the Zurich autograph copies.
+    Primary original-language voice; a quote record can hold the Latin verified against this
+    file with Robinson''s English as the cross-check. Clean OCR.
+
+    '
+  source_file: zurich-letters_first-series-1558-1579_robinson1842.txt
+- row_id: zurich-letters_first-series-1558-1579_robinson1842--the-zurich-letters-first-series-letters-of-the-elizabethan-bishops-and
+  work: 'The Zurich Letters, first series: letters of the Elizabethan bishops and divines
+    to Bullinger, Peter Martyr and Gualter, 1558-1579 (Robinson''s English)'
+  author: zurich-letters
+  locus: LETTER I at file line 867 to the end of the English series before the APPENDIX at
+    about 17282; the Index from 18577
+  role: tradition
+  confidence: assigned
+  note: 'The Settlement as its makers described it in private: Jewel on the state of religion
+    in 1559, the bishops on the vestments and the queen''s crucifix, Sampson and Humphrey
+    on the surplice, Cox and Horne on discipline. The author slug names the collection because
+    the letters have many writers, each named in the heading of the letter quoted. Primary
+    voice in Robinson''s 1842 English; the Latin originals are in the same file (next row)
+    for checking any quotation. Clean OCR.
+
+    '
+  source_file: zurich-letters_first-series-1558-1579_robinson1842.txt

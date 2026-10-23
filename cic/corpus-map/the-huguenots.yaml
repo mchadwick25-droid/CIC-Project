@@ -20,6 +20,26 @@ works:
 
     '
   source_file: aubigne_les-tragiques-fra_lalanne1857.txt
+- row_id: beza_histoire-ecclesiastique-t2-fra_baum-cunitz1884--histoire-ecclesiastique-des-eglises-reformees-au-royaume-de
+  work: Histoire ecclesiastique des eglises reformees au royaume de France (Antwerp 1580),
+    Tome deuxieme, Livres VI-IX (the first war of religion, 1562-1563, by province)
+  author: beza
+  locus: the reprinted 1580 half-title at file line 148; LIVRE VI from line 158 (the massacre
+    of Vassy and the rising of Paris, March 1562), LIVRE VII from 21400, LIVRE VIII from 35640,
+    LIVRE IX from 44540 to the end (about line 50340); editors' footnotes at the foot of each
+    page
+  role: tradition
+  confidence: assigned
+  note: 'The French Reformed churches'' own narrative of the first war of religion, compiled
+    church by church from the reports the churches sent to Geneva and published anonymously
+    in 1580 under Beza''s name (the attribution is the editors'' and the catalogue''s). The
+    continuation of the vendored Tome 1, which ends in 1561; this tome and Tome 3 carry the
+    churches through Vassy, the Edict of January, the taking of the towns and the war to 1563.
+    Second witness for exact wording (f for long s in the OCR of the 1580 text). No public-domain
+    English translation exists.
+
+    '
+  source_file: beza_histoire-ecclesiastique-t2-fra_baum-cunitz1884.txt
 - row_id: beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883--histoire-ecclesiastique-des-eglises-reformees-tome-premier
   work: Histoire ecclesiastique des eglises reformees au royaume de France (Antwerp 1580),
     Tome premier, Livres I-IV
@@ -38,6 +58,42 @@ works:
 
     '
   source_file: beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt
+- row_id: beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889--histoire-ecclesiastique-des-eglises-reformees-au-royaume-de
+  work: Histoire ecclesiastique des eglises reformees au royaume de France (Antwerp 1580),
+    Tome troisieme, Livre X to the end (1562-1563), with Reuss's preface, introduction and
+    index
+  author: beza
+  locus: the reprinted 1580 text from after Reuss's introduction (about line 720) to the start
+    of the TABLE ALPHABETIQUE at line 35715; the OCR catches the headings LIVRE XI (read as
+    'XL', line 16938) and LIVRE XIIII (line 28884)
+  role: tradition
+  confidence: assigned
+  note: 'The last tome of the churches'' own narrative: the first war by province to the Edict
+    of Amboise (1563), where the 1580 work ends. Second witness for exact wording (f for long
+    s in the OCR of the 1580 text). Reuss''s preface (line 115), introduction (from about
+    line 358, on the 1580 printing and the question of authorship) and alphabetical index
+    (from line 35715) are nineteenth-century editorial matter, clean OCR, and useful for finding
+    a church or a name across all three tomes; they are not the churches'' voice. No public-domain
+    English translation exists.
+
+    '
+  source_file: beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889.txt
+- row_id: crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885--histoire-des-martyrs-1619-edition-tome-1-livres-i-iv-the
+  work: 'Histoire des martyrs (1619 edition), Tome 1: Livres I-IV, the French martyrs from
+    1523 to the mid-1540s with Benoit''s introduction'
+  author: crespin
+  locus: LIVRE PREMIER from about file line 3456, LIVRE SECOND from 18568, LIVRE TROISIEME
+    from 46938, LIVRE QUATRIEME from 77274; Benoit's introduction from line 130
+  role: antecedent
+  confidence: provisional
+  note: 'The martyrs of the French churches before the first national synod of 1559, where
+    this world''s window opens: the prehistory the 1559 churches remembered through Crespin''s
+    book, which the first-pass dossier placed as tradition in its Tome 3 (1559 onward). Placed
+    as antecedent on the window alone; Doc_01 decides whether the pre-1559 martyr churches
+    count as the world''s own past. Second witness for exact wording.
+
+    '
+  source_file: crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885.txt
 - row_id: crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889--histoire-des-martyrs-tome-troisieme-livres-viii-xii
   work: Histoire des martyrs persecutez et mis a mort pour la verite de l'Evangile (1619 recension),
     Tome troisieme, Livres VIII-XII
@@ -128,6 +184,46 @@ works:
 
     '
   source_file: quick_synodicon-in-gallia-reformata_1692.txt
+- row_id: french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710--the-despatches-of-the-papal-nuncio-prospero-santa-croce-from
+  work: The despatches of the papal nuncio Prospero Santa Croce from the French court on the
+    Reformed churches (Italian with French facing), printed by Aymon as 'lettres politiques'
+    in Tome 1
+  author: french-reformed-synods
+  locus: LETTRES ... du NONCE DU PAPE PIE IV from file line 701 to the TABLE at 25643; Aymon's
+    preface (from line 193) explains why he printed them
+  role: context
+  confidence: provisional
+  note: 'The Catholic court''s view of the same churches in the years of the first synods,
+    given by Aymon beside the synod acts. The slug follows the volume, not the letter-writer;
+    a build that uses these letters should cite the nuncio by name. Not read beyond the headings
+    and the sample points; the Italian is less well read by the OCR than the French.
+
+    '
+  source_file: french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt
+- row_id: french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710--tous-les-synodes-nationaux-des-eglises-reformees-de-france
+  work: 'Tous les synodes nationaux des Eglises reformees de France, Tome premier: the Discipline
+    of 1559 and the acts of the national synods, Paris 1559 to Privas 1612, in French (Aymon,
+    1710)'
+  author: french-reformed-synods
+  locus: the synods from 'Synode national tenu a Paris le 25 mai 1559' at file line 28459
+    to Privas 1612 near the end; Poitiers at 29129, Orleans at 29666, Lyon at 30149, Paris
+    at 31605, Vertueil at 32311, La Rochelle at 33692, Nimes at 34488, Sainte-Foy at 35253,
+    Figeac at 35910, La Rochelle at 36365, Vitre at 36867, Montauban at 37867, Saumur at 39061,
+    Montpellier at 40154, Gergeau at 41358, Gap at 42626, La Rochelle at 46403, Saint-Maixent
+    at 49540, Privas at 51973; the TABLE of all the synods at 25643
+  role: tradition
+  confidence: assigned
+  note: 'The French of the national synod acts and the Discipline (the Confession is referred
+    to, not printed), printed by Aymon at The Hague in 1710 from the churches'' manuscript
+    record: the original-language witness beside Quick''s Synodicon (1692, vendored), which
+    the first pass named as the thin spot in this world''s sourcing. Primary in the churches''
+    own language under the September 2026 ruling, but a SECOND WITNESS for exact wording because
+    the OCR reads the 1710 long s as f throughout and misreads accents; locate an article
+    here and check it against the page image or Quick''s English before quoting. Tome 2 (Tonneins
+    1614 to Loudun 1659) is a lead, not vendored.
+
+    '
+  source_file: french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt
 - row_id: gilles_histoire-ecclesiastique-eglises-vaudoises-v2-fra_1881--histoire-ecclesiastique-des-eglises-vaudoises-tome-ii-2
   work: Histoire ecclésiastique des Églises Vaudoises, Tome deuxième, the passages on the
     valleys under the French crown (Pragela, Val Cluson, the Dauphiné edicts)

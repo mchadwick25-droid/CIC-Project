@@ -3,6 +3,35 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-malankara-churches-orthodox-and-jacobite
 works:
+- row_id: howard_christians-of-st-thomas-and-their-liturgies_1864--chapter-ii-the-synod-of-diamper-2
+  work: 'The Christians of St. Thomas and their Liturgies (Howard, 1864): the Ordo Communis
+    and six anaphorae translated from Syriac manuscripts obtained in Travancore'
+  author: howard
+  locus: Appendix C (analysis of the Ordo Communis) from file line 9772; the translation of
+    the Ordo Communis from 11139; 'The Anaphora of St. James' from 12974, then the anaphorae
+    of St. Peter, the Twelve Apostles, Mar Dionysius, Mar Xystus and Mar Evannis
+  role: tradition
+  confidence: provisional
+  note: 'The West Syriac rite of the Malankara Jacobites as used in Travancore in the 1860s,
+    in English from local manuscripts: the church''s own liturgy in that entry''s window.
+    Placed on the translations'' source and date; not read for that entry.
+
+    '
+  source_file: howard_christians-of-st-thomas-and-their-liturgies_1864.txt
+- row_id: philipos_syrian-christians-of-malabar_howard1869--answers-on-the-belief-and-history-of-the-syrian-christians-2
+  work: 'The Syrian Christians of Malabar (Philipos, 1869): the church''s belief, sacraments,
+    fasts and orders in its own priest''s words'
+  author: philipos
+  locus: '''Q. 1.'' at file line 602 onward; the questions on the Antiochene connection, Mar
+    Athanasius and the Travancore government from about 2400'
+  role: tradition
+  confidence: provisional
+  note: 'A Jacobite Syrian priest of Cottayam in 1869 stating his church''s faith and its
+    dispute with Mar Athanasius Matthew: the Malankara church''s own voice in its own window.
+    Placed on date and author; not read for that entry.
+
+    '
+  source_file: philipos_syrian-christians-of-malabar_howard1869.txt
 - row_id: whitehouse_lingerings-of-light-in-a-dark-land_1873--lingerings-of-light-in-a-dark-land-chapters-xii-xv-the-turn
   work: Lingerings of Light in a Dark Land, chapters XII-XV (the turn to the Jacobite patriarch)
   author: whitehouse

@@ -1,0 +1,14 @@
+source_file: hubmaier_form-des-nachtmals-bann-freiheit-des-willens-deu_1527.txt
+assignments:
+- row_id: hubmaier_form-des-nachtmals-bann-freiheit-des-willens-deu_1527--ein-form-des-nachtmals-christi-von-dem-christlichen-bann-von-der-freih
+  work: Ein Form des Nachtmals Christi, Von dem christlichen Bann, Von der Freiheit des Willens (Nikolsburg, 1527)
+  author: hubmaier
+  locus: Nachtmal order "was Form solch Nachtmal ze Nicolspurg gehalten" at file line 2146; the Bann treatise at
+    file line 3875; the Freiheit des Willens treatise at file line 4769
+  atlas_ids:
+  - the-anabaptist-movements
+  role: tradition
+  confidence: assigned
+  note: 'The Lord''s Supper order, the ban and the freedom of the will in Hubmaier''s own 1527 prints. SECOND WITNESS:
+    microfilm OCR of blackletter, about 0.84 of the text windows read as words; nothing quotable until read on the
+    page images. Role tradition. German; no public-domain English exists.'

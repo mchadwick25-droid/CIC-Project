@@ -23,9 +23,13 @@ assignments:
   - carmelite-reform-and-spanish-mystics
   role: tradition
   confidence: assigned
-  note: John's own instructions and precautions for the soul, his letters, the last dated Madrid, 6 July
-    1591, and his judgment on the prayer of one of the nuns of his order. Primary voice in English; ready
-    to quote once verified against the page image.
+  note: >
+    John's own instructions and precautions for the soul, his letters, the last dated Madrid, 6 July
+    1591, and his judgment on the prayer of one of the nuns of his order. Primary voice in English;
+    ready to quote once verified against the page image. The Spanish originals of the Instructions
+    and Precautions, letters and Maxims, with the poems in Spanish, are vendored as john-of-the-
+    cross_cautelas-avisos-cartas-poesias-spa_gerardo1914.txt.
+
 - row_id: john-of-the-cross_dark-night-canticle-living-flame_lewis1891--quietism
   work: The Dark Night, Spiritual Canticle and Living Flame (as the books the Quietists and their opponents
     argued over)

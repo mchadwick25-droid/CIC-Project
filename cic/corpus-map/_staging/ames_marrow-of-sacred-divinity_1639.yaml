@@ -1,0 +1,32 @@
+# Vendored for Atlas VI.9 (Dutch Further Reformation and Refuge Culture) by the Era VII library session, second pass, 2026-10-23; see that world's Source Readiness Dossier.
+source_file: ames_marrow-of-sacred-divinity_1639.txt
+
+assignments:
+  - row_id: ames_marrow-of-sacred-divinity_1639--the-marrow-of-sacred-divinity-the-english-of-ames-s-medulla
+    work: "The Marrow of Sacred Divinity (the English of Ames's Medulla theologiae), 1639"
+    author: ames
+    locus: "whole file; the two books in numbered chapters ('Chapter II.' at file line 344, 'Chapter V.' at 921, fifty chapter headings survive); the tables at the end"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: provisional
+    note: >
+      The Puritan system of divinity by the English divine who taught at Franeker in Friesland
+      (title page), in the English printed by order of the House of Commons in 1639. The first-
+      pass VI.9 dossier passed Ames to the Puritanism agent, who did not vendor him, so this row
+      is provisional for that world to confirm. SECOND WITNESS for exact wording: f for long s in
+      the OCR, about 0.75 of tokens read as words; verify against the page image.
+  - row_id: ames_marrow-of-sacred-divinity_1639--the-marrow-of-sacred-divinity-the-english-of-ames-s-medulla-2
+    work: "The Marrow of Sacred Divinity (the English of Ames's Medulla theologiae), 1639"
+    author: ames
+    locus: "whole file; the title page names Ames as sometime professor of divinity at Franeker in Friesland (file lines 70-80)"
+    atlas_ids:
+      - dutch-further-reformation-and-refuge-culture
+    role: context
+    confidence: provisional
+    note: >
+      The English exile's theology, taught inside the Dutch Republic at Franeker (title page): the
+      refuge half of this world seen from one of its sheltered guests. Placed as refuge-culture
+      context on the first-pass dossier's own ruling that the English exiles' primary home is
+      Puritanism; a Doc_02 that reads Ames as part of the Dutch school may raise it. Second
+      witness.

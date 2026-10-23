@@ -185,6 +185,22 @@ works:
 
     '
   source_file: council-of-trent_canons-and-decrees_waterworth1848.txt
+- row_id: gibbings_records-of-the-roman-inquisition-minorite-friar_1853--sentence-of-1564
+  work: Sentence of the Roman Inquisition against Fra Tommaso de Fabianis of Mileto, given
+    in the name of Cardinal Carlo Borromeo, Rome, 16 December 1564, Italian and Latin with
+    Gibbings's English
+  author: gibbings
+  locus: the sentence from line 167 (date at lines 167 and 185; "Carlo Borromeo" at line 203)
+    in parallel columns of Italian and English; the record of the burning in effigy from about
+    line 1192 to the end
+  role: context
+  confidence: assigned
+  note: The one document in Borromeo's own name available in English in the library, from
+    his Roman years before Milan, printed by a hostile Protestant editor in 1853 with his
+    own notes and advertisement (lines 137 onward). The document is Inquisition routine in
+    the cardinal-nephew's name, not his pastoral voice; the editor's framing is an opponent's.
+    Clean OCR.
+  source_file: gibbings_records-of-the-roman-inquisition-minorite-friar_1853.txt
 - row_id: giussano_life-of-st-charles-borromeo-v1_1884--life-of-st-charles-borromeo-vol-i
   work: The Life of St. Charles Borromeo, Cardinal Archbishop of Milan, Vol. I (Books I-IV)
   author: giussano
@@ -251,6 +267,23 @@ works:
 
     '
   source_file: nadal_epistolae-v2-lat_1899.txt
+- row_id: pena-francisco_relatione-sommaria-vita-canonizatione-s-carlo-borromeo-ita_1610--relatione-sommaria
+  work: Relatione sommaria della vita, santita, miracoli et atti della canonizatione di S.
+    Carlo Borromeo, cavata dai processi autentici (Pena, Rome 1610)
+  author: pena-francisco
+  locus: title at line 50; the address to the city of Milan follows; the life and virtues
+    (the provincial councils named around lines 702-754, the plague at line 1945); the miracles
+    from about line 2553; the acts and ceremonies of the canonisation from about line 3643,
+    with the vestments and offerings around lines 4121-4712 and the procession to the end
+    (line 5872)
+  role: tradition
+  confidence: assigned
+  note: 'The nearest public-domain witness to the canonisation process of 1604-1610 that the
+    census names: a summary drawn, by its title, from the authentic processes, by the Rota
+    judge deputed for the cause, printed at Rome in the canonisation year. Not the process
+    itself, which is unprinted. Legible OCR with the long s read as f and noise on the preliminaries;
+    quote only after checking the page image.'
+  source_file: pena-francisco_relatione-sommaria-vita-canonizatione-s-carlo-borromeo-ita_1610.txt
 - row_id: possevino-giovanni-battista_discorsi-della-vita-di-carlo-borromeo-ita_1591--discorsi-della-vita-et-attioni-di-carlo-borromeo
   work: Discorsi della vita, et attioni di Carlo Borromeo
   author: possevino-giovanni-battista
@@ -267,3 +300,30 @@ works:
 
     '
   source_file: possevino-giovanni-battista_discorsi-della-vita-di-carlo-borromeo-ita_1591.txt
+- row_id: valier_vita-caroli-borromei-episcopus-cardinalis-lat_1586--episcopus-et-cardinalis
+  work: Episcopus and Cardinalis, Valier's two treatises on the office of a bishop and of
+    a cardinal, printed with the Life
+  author: valier
+  locus: '"CARDINALIS" heading at line 3047 and "EPISCOPVS" headings at lines 4339, 4734 and
+    5376; running head "AVG. VAL." from line 3381 to the end (line 6983)'
+  role: tradition
+  confidence: assigned
+  note: 'The ideal of the reforming bishop stated by a bishop of the Borromean circle, with
+    Borromeo as the worked example: the theory behind the Milan practice the Acta legislate.
+    Same OCR caveat as the Life. The order of the two opuscula in the OCR (Cardinalis before
+    Episcopus) should be checked against the page images.'
+  source_file: valier_vita-caroli-borromei-episcopus-cardinalis-lat_1586.txt
+- row_id: valier_vita-caroli-borromei-episcopus-cardinalis-lat_1586--vita-caroli-borromei
+  work: Vita Caroli Borromei (Valier, Verona 1586), the earliest printed Life
+  author: valier
+  locus: the printer's note and Silvio Antoniano's dedication to Cardinal Andrea Bathory from
+    line 157; the Life with running head "CARD. S. PRAX." from about line 1094 to about line
+    3000 (Milan named at lines 223-266 and 828 onward)
+  role: tradition
+  confidence: assigned
+  note: 'The first Life of Borromeo, written two years after his death by his friend Agostino
+    Valier, bishop of Verona, who had sat in his provincial councils: an insider''s Latin
+    portrait of the model bishop, older than Giussano, Bascape and Possevino. Legible OCR
+    with the long s read as f; quote only after checking the page image. The printer''s note
+    and Antoniano''s dedication are not Valier''s.'
+  source_file: valier_vita-caroli-borromei-episcopus-cardinalis-lat_1586.txt

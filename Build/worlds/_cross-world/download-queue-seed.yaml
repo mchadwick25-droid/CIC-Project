@@ -3110,7 +3110,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: 'library/source-research thread, October 2026: both items NOT_IN_COPYRIGHT (Kelly Library,
       Toronto); Manresa Press / Herder 1914; OCR sampled at five points, clean'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "allen-william_true-sincere-and-modest-defence-v1_1914.txt; allen-william_true-sincere-and-modest-defence-v2_1914.txt"
   - title: The Letters and Memorials of William, Cardinal Allen (1532-1594)
     author: William Allen
     translator: T. F. Knox (editor; Records of the English Catholics, vol. 2)
@@ -3660,7 +3661,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: 'Borromean Milan library agent, October 2026: metadata fetched (Public Domain Mark, University
       of Turin), five-point OCR sample'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "valier_vita-caroli-borromei-episcopus-cardinalis-lat_1586.txt"
   - title: Relatione sommaria della vita, santita, miracoli, et atti dalla canonizatione di S. Carlo Borromeo,
       cavata fedelmente dai processi autentici
     author: Francisco Pena
@@ -3676,7 +3678,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: 'Borromean Milan library agent, October 2026: metadata fetched (Public Domain Mark, BNCR),
       five-point OCR sample'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "pena-francisco_relatione-sommaria-vita-canonizatione-s-carlo-borromeo-ita_1610.txt"
   - title: Instructionum fabricae et supellectilis ecclesiasticae libri II (standalone 1577 printing)
     author: Carlo Borromeo
     translator: none (Latin original)
@@ -3764,7 +3767,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: 'Borromean Milan library agent, October 2026: metadata fetched (Cornell copy, ''no known
       copyright restrictions'' notice inside the scan), opening read'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "gibbings_records-of-the-roman-inquisition-minorite-friar_1853.txt"
   - title: Vita di S. Carlo Borromeo (Rome, 1610 first edition)
     author: Giovanni Pietro Giussano
     translator: none (Italian original)
@@ -4055,7 +4059,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: 'library/source-research thread, October 2026: metadata API (NOT_IN_COPYRIGHT), title page
       year in the OCR (M.DCCC.XLVIII)'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "tyndale_doctrinal-treatises_walter1848.txt"
   - title: The Prayer-Book of Queen Elizabeth, 1559, to which are appended some occasional forms of prayer
       issued in her reign (original spelling)
     author: Church of England
@@ -4100,7 +4105,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: 'library/source-research thread, October 2026: advancedsearch result (NOT_IN_COPYRIGHT, 1848;
       Vol. II is writingsofjohnbr02braduoft); metadata and OCR not yet read'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "bradford-john_writings-v1_townsend1848.txt"
   - title: The Zurich Letters, comprising the correspondence of several English bishops and others with
       some of the Helvetian reformers (first and second series)
     author: Jewel, Parkhurst, Grindal, Sandys, Cox, Horne and others
@@ -4116,7 +4122,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: 'library/source-research thread, October 2026: advancedsearch result (NOT_IN_COPYRIGHT, 1842;
       second series zurichletterssec00pearrich, 1845); metadata and OCR not yet read'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "zurich-letters_first-series-1558-1579_robinson1842.txt"
   - title: Original Letters relative to the English Reformation, written during the reigns of Henry VIII,
       Edward VI and Queen Mary, Vols. I and II
     author: Hooper, Bradford, Cranmer, Bucer, Martyr, Bullinger and others
@@ -5080,7 +5087,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: 'VI.8 one-world agent, October 2026: NOT_IN_COPYRIGHT on the item; OCR downloaded and sampled
       (clean, with two-column notes interleaved)'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "young-alexander_chronicles-of-the-first-planters-1623-1636_1846.txt"
   - title: The Works of Anne Bradstreet in Prose and Verse
     author: Anne Bradstreet
     translator: John Harvard Ellis (editor)
@@ -5108,7 +5116,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: 'VI.8 one-world agent, October 2026: NOT_IN_COPYRIGHT on the item; OCR downloaded and sampled;
       1850 imprint read'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "cambridge-synod_cambridge-platform-1648-and-confession-1680_1850.txt"
   - title: The Marprelate Tracts, 1588, 1589
     author: Martin Marprelate (pseudonym)
     translator: William Pierce (editor)
@@ -5123,7 +5132,8 @@ queue:
     url: https://archive.org/details/marprelatetracts0000will
     rights_basis: pd-us-by-date
     verified_by: 'VI.8 one-world agent, October 2026: metadata and OCR read'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "marprelate_tracts-1588-1589_pierce1911.txt"
   - title: 'Reliquiae Baxterianae: or, Mr. Richard Baxter''s Narrative of the Most Memorable Passages of
       his Life and Times'
     author: Richard Baxter
@@ -5419,7 +5429,8 @@ queue:
     url: https://archive.org/details/historyofthekirk01calduoft
     rights_basis: pd-us-by-date
     verified_by: VI.5 world agent, advancedsearch and metadata API for vols. 1 and 3, October 2026
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "calderwood_history-of-the-kirk-v3-1570-1583_thomson1843.txt"
   - title: The Letters and Journals of Robert Baillie, 1637-1662, 3 vols. (Bannatyne Club)
     author: Robert Baillie
     translator: David Laing (editor)
@@ -5463,7 +5474,8 @@ queue:
     url: https://archive.org/details/historyofchur93203spotuoft
     rights_basis: pd-us-by-date
     verified_by: VI.5 world agent, advancedsearch and metadata API for vol. 3, October 2026
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "spottiswood_history-of-the-church-of-scotland-v3-1596-1625_russell-napier1850.txt"
   - title: A Collection of Confessions of Faith, Catechisms, Directories, Books of Discipline, etc., of
       publick authority in the Church of Scotland, 2 vols.
     author: Church of Scotland
@@ -5510,7 +5522,8 @@ queue:
     url: https://archive.org/details/psalmsdavidinme00scotgoog
     rights_basis: pd-us-by-date
     verified_by: VI.5 world agent, metadata API and direct fetch of both djvu.txt files, October 2026
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "kirk-of-scotland_psalms-of-david-in-metre-1650_1833.txt"
   - title: Diary of Sir Archibald Johnston, Lord Wariston, 1639, with The Preservation of the Honours of
       Scotland 1651-52 (Scottish History Society Miscellany)
     author: Archibald Johnston, Lord Wariston
@@ -5678,7 +5691,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: VI.13 world agent, metadata API (NOT_IN_COPYRIGHT), October 2026; vol. 2 is diaryrichardcoc01thomgoog
       or diaryofrichardco02cock
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "cocks_diary-v1_thompson1883.txt"
   - title: The History of that Great and Renowned Monarchy of China
     author: Alvaro Semedo, S.J.
     translator: English, 1655 (translator not named on the item)
@@ -7542,7 +7556,8 @@ queue:
     url: https://archive.org/details/TheChristiansOfStThomas
     rights_basis: pd-us-by-date; host Public Domain Mark 1.0
     verified_by: VI.18 world agent, metadata API only (title, year, rights field read), October 2026
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "howard_christians-of-st-thomas-and-their-liturgies_1864.txt"
   - title: The Syrian Christians of Malabar, otherwise called the Christians of S. Thomas
     author: Edavalikel Philipos (Cathanar), ed. G. B. Howard
     translator: null
@@ -7554,7 +7569,8 @@ queue:
     url: https://archive.org/details/syrianchristians00philuoft
     rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT
     verified_by: VI.18 world agent, metadata API only (title, year, rights field read), October 2026
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "philipos_syrian-christians-of-malabar_howard1869.txt"
   - title: A true and exact description of the most celebrated East-India coasts of Malabar and Coromandel
     author: Philippus Baldaeus (Churchill's Voyages)
     translator: null
@@ -8776,7 +8792,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: direct fetch of metadata (NOT_IN_COPYRIGHT) and the OCR, five-point sample readable Portuguese,
       October 2026
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt"
   - title: A New History of Ethiopia (English translation of Ludolf's Historia Aethiopica)
     author: Hiob Ludolf
     translator: J. P. (Gent.)
@@ -8789,7 +8806,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: 'direct fetch of metadata (Public Domain Mark 1.0; published London: Samuel Smith, 1684)
       and of the OCR, searched for Confession and Claudius, October 2026'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "ludolf_new-history-of-ethiopia_jp1682.txt"
   - title: Travels to Discover the Source of the Nile (Gutenberg, the volume with the chapter on Claudius,
       or Atzenaf Segued)
     author: James Bruce
@@ -8915,7 +8933,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: 'one-world agent (the-tridentine-church), October 2026: metadata fetched (no rights field);
       full text downloaded (1 MB); five-point OCR sample readable'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "luis-de-granada_of-prayer-and-meditation_hopkins1582.txt"
   - title: Magnum Bullarium Romanum, Tomus Tertius (Clement VIII to Gregory XV)
     author: Roman Catholic Church (papal constitutions)
     translator: none (Latin original)
@@ -9383,7 +9402,8 @@ queue:
       read (''By EDM. LLOYD''); four Julfa passages found in vol. 1 (the Provost of the Armenians of Julpha,
       e.g. file line 6532) in an account of events of 1670-73; not vendored: after the window, and Tavernier
       and Olearius already cover Julfa'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "chardin_travels-in-persia-v1_lloyd1720.txt"
   - title: The Travels of Sig. Pietro della Valle (1665)
     author: Pietro della Valle
     translator: anonymous English translator (the host gives none)
@@ -9483,7 +9503,8 @@ queue:
     verified_by: one-world agent for VI.29, direct fetch of archive.org metadata and full text, five-point
       OCR sample, October 2026; title page and nihil obstat "Die 22 Feb. 1906" read in the OCR; host licenseurl
       http://creativecommons.org/publicdomain/mark/1.0/
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "john-of-the-cross_ascent-of-mount-carmel_lewis1906.txt"
   - title: The Way of Perfection
     author: Teresa of Avila
     translator: Benedictines of Stanbrook, ed. Benedict Zimmerman
@@ -9495,7 +9516,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: one-world agent for VI.29, direct fetch of archive.org metadata and full text, October 2026;
       title page read in the OCR (reimprimatur 21 March 1919); host possible-copyright-status NOT_IN_COPYRIGHT
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "teresa-of-avila_way-of-perfection_stanbrook1919.txt"
   - title: The Letters of Saint Teresa, a complete edition, vol. II
     author: Teresa of Avila
     translator: Benedictines of Stanbrook, introduction Cardinal Gasquet
@@ -9535,7 +9557,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: one-world agent for VI.29, direct fetch of archive.org metadata and full text, October 2026;
       title pages of tomos I-VI read in the OCR; host carries no rights field
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "teresa-of-avila_libro-de-la-vida-spa_silverio1915.txt"
   - title: Obras de San Juan de la Cruz, Doctor de la Iglesia, tomo II, Subida y Noche oscura (Biblioteca
       Mistica Carmelitana)
     author: John of the Cross
@@ -9728,7 +9751,8 @@ queue:
     verified_by: 'Era VII one-world agent for VI.30: title page read in the OCR (Tomi Tertii Pars Prima,
       De Scriptoribus Syris Nestorianis, MDCCXXV), metadata licenseurl Public Domain Mark 1.0, contributor
       National Library of Naples, djvu.txt fetched in full, October 2026.'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt"
   - title: The Nestorians and their Rituals, volumes I and II
     author: George Percy Badger
     translator: ''
@@ -9745,7 +9769,8 @@ queue:
     verified_by: 'Era VII one-world agent for VI.30: title pages of both volumes read in the OCR (Joseph
       Masters, London, MDCCCLII); volume II is item nestorianstheirr02badg; no rights field, Princeton Theological
       Seminary Library; djvu.txt of both fetched in full, October 2026.'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "badger_nestorians-and-their-rituals-v1_1852.txt and badger_nestorians-and-their-rituals-v2_1852.txt"
   - title: The Catholicos of the East and his People
     author: Arthur John Maclean and William Henry Browne
     translator: ''
@@ -9762,7 +9787,8 @@ queue:
     verified_by: 'Era VII one-world agent for VI.30: title page read in the OCR (SPCK, London, 1892); item
       has no rights field and no access restriction (contributor Beth Mardutho: The Syriac Institute); djvu.txt
       fetched in full, October 2026.'
-    status: not-yet-downloaded
+    status: downloaded
+    vendored_as: "maclean-browne_catholicos-of-the-east-and-his-people_1892.txt"
   - title: Elementa linguae Chaldaicae, quibus accedit series Patriarcharum Chaldaeorum, a Josepho Guriel
       exarata
     author: Joseph Guriel
@@ -10060,4 +10086,171 @@ queue:
     verified_by: 'library/source-research thread (Era VII session, VI.26 world agent), October 2026: metadata
       read; djvu fetched (93 KB) and sampled, clean (0.86); first page read (JSTOR cover sheet, Harvard
       Theological Review, Jan. 1923).'
+    status: not-yet-downloaded
+
+  - title: Istoria del Concilio di Trento, con aggiunte inedite e note tratte da varii autori, Tomo III
+      (Libri XVII-XXIV), Biblioteca Classica Sacra
+    author: Sforza Pallavicino
+    translator: none (Italian); series editor Ottavio Gigli
+    year: 1846
+    world: the-tridentine-church
+    why: The clean witness for Libri XVII-XXIV, which the vendored 1664 Parte terza carries in a garbled
+      scan; a standing want in the Tridentine dossier since October 2026. Modernised 1846 orthography.
+    url: https://archive.org/details/sforza-pallavicino-istoria-del-concilio-di-trento-1845-46
+    rights_basis: pd-us-by-date
+    verified_by: second-pass agent w2_catholic, direct fetch of archive.org metadata and the volume 3 text,
+      title page read in the OCR (Roma 1846), five-point OCR sample (word-shaped share 0.98), 2026-10-23;
+      host licence Public Domain Mark 1.0
+    status: downloaded
+    vendored_as: pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt
+  - title: Obras del Mistico Doctor San Juan de la Cruz, edicion critica, tomo tercero (Cautelas, Avisos,
+      Dictamenes, Cartas, Poesias, attributed works, Cecilia del Nacimiento, appendices)
+    author: John of the Cross
+    translator: none (Spanish); ed. Gerardo de San Juan de la Cruz, C.D., epilogue by Juan Vazquez de Mella
+      (Toledo, Viuda e Hijos de J. Pelaez)
+    year: 1914
+    world: carmelite-reform-and-spanish-mystics
+    why: The poems and minor works in John's own Spanish, public domain by date. Vendored instead of Silverio's
+      tomo IV (Llama, Cautelas, Avisos, Cartas, Poesias), whose title page reads Burgos 1931, after the
+      1930 cutoff. Tomo I (1912) of this set is already a queued lead; tomo II is 1912.
+    url: https://archive.org/details/obrasedicincr03john
+    rights_basis: pd-us-by-date
+    verified_by: second-pass agent w2_catholic, direct fetch of archive.org metadata and full text, title
+      page read in the OCR (TOLEDO-1914), contents table read, five-point OCR sample (word-shaped share
+      0.97), 2026-10-23; host carries no rights field
+    status: downloaded
+    vendored_as: john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914.txt
+  - title: Extirpacion de la idolatria del Piru (Lima, 1621)
+    author: Pablo Jose de Arriaga, S.J.
+    translator: none (Spanish, with Quechua terms)
+    year: 1621
+    world: mission-born-christianities-kirishitan-japan-kon
+    why: The hostile mission-pen evidence on Andean religion the census names, now sampled. The John Carter
+      Brown scan's OCR reads the long s as f but is legible (word-shaped share 0.93 at five points), unlike
+      the 1584 Lima catechism scan. Not vendored this pass (a Jesuit's voice about the converts, not a convert
+      voice; file budget); a build on the Andes strand may want it. A second JCB scan is extirpaciondelai01arri.
+    url: https://archive.org/details/extirpaciondelai00arri
+    rights_basis: pd-us-by-date
+    verified_by: second-pass agent w2_catholic, direct fetch of archive.org metadata and full text, title
+      page read in the OCR ("En Lima, por Geronymo de Contreras, 1621"), five-point OCR sample, 2026-10-23;
+      host carries no rights field (contributor John Carter Brown Library)
+    status: not-yet-downloaded
+  - title: Historia eclesiastica indiana, obra escrita a fines del siglo XVI (facsimile of the 1870 Garcia
+      Icazbalceta edition)
+    author: Geronimo de Mendieta, O.F.M.
+    translator: none (Spanish); ed. Joaquin Garcia Icazbalceta (1870)
+    year: 1971 (facsimile of 1870)
+    world: mission-born-christianities-kirishitan-japan-kon
+    why: Named in the task brief. The only scan found on archive.org is the 1971 Editorial Porrua (Mexico)
+      facsimile of the 1870 edition, marked NOT_IN_COPYRIGHT by the host (Harvard copy, Google scan), with
+      a new 1971 concordance table (pages xxxvii-xlv) by the reprint's editors. The 1870 text is public
+      domain by date; the 1971 Mexican volume is a foreign publication after 1930 and its own additions
+      are not. Lead only until a ruling on vendoring the 1870 text out of a 1971 facsimile, or a scan of
+      the 1870 edition itself is found (not on archive.org; Google Books could not be queried this pass,
+      API quota exceeded).
+    url: https://archive.org/details/historiaeclesis00mendgoog
+    rights_basis: unsettled (1870 text public domain by date; 1971 facsimile with new front matter)
+    verified_by: second-pass agent w2_catholic, archive.org metadata and the opening of the OCR (Google
+      front matter only read), 2026-10-23
+    status: not-yet-downloaded
+
+  - title: Apologia Ecclesiae Anglicanae; huic novae editioni accedit Epistola celeberrima ad D. Scipionem
+      de Concilio Tridentino
+    author: John Jewel
+    translator: none (Latin original; 1838 Cambridge edition, no editor named)
+    year: 1838
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'The Latin original of Lady Bacon''s 1564 Apology already vendored (the first-pass dossier recorded
+      ''no Latin original vendored'' as a gap). Google OCR with Italian-locale accent noise: second witness
+      for exact wording. Found by advancedsearch on creator jewel and title apologia; the 1812 Pontefract
+      edition (apologiaecclesi01jewegoog) is far worse.'
+    url: https://archive.org/details/apologiaecclesi00jewegoog
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread (Era VII session, second pass, English and Scottish worlds
+      agent), 2026-10-23: metadata read; title page year MDCCCXXXVIII read in the OCR; djvu fetched and
+      sampled at five points (readable Latin with systematic accent and ligature faults)'
+    status: downloaded
+    vendored_as: jewel_apologia-ecclesiae-anglicanae-lat_1838.txt
+  - title: The Autobiography of Richard Baxter, being the Reliquiae Baxterianae abridged from the folio
+      (1696), with introduction, appendices and notes (Everyman's Library)
+    author: Richard Baxter
+    translator: J. M. Lloyd Thomas (editor)
+    year: 1925
+    world: puritanism
+    why: A clean modernised abridgement of the Reliquiae, the only public-domain Baxter autobiography found
+      that is not long-s OCR (the 1696 folio and the 1702/1713 Calamy abridgements are all long-s). Found
+      by advancedsearch on the title; the item is in an internetarchivebooks collection but served its text
+      without restriction and is not marked access-restricted. Abridged by the editor, so the 1696 folio
+      remains the complete witness.
+    url: https://archive.org/details/autobiographyofr0000jmll
+    rights_basis: pd-us-by-date (1925 London; no rights field on the item)
+    verified_by: 'library/source-research thread (Era VII session, second pass, English and Scottish worlds
+      agent), 2026-10-23: metadata read; title page (MCMXXV, Dent) and the editor''s dated note read in
+      the OCR; djvu fetched and sampled at five points, clean'
+    status: downloaded
+    vendored_as: baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925.txt
+  - title: 'The Archpriest Controversy: Documents relating to the Dissensions of the Roman Catholic Clergy,
+      1597-1602, Vol. I (Camden Society)'
+    author: Appellant secular priests, the Archpriest Blackwell, Garnet, Parsons and others
+    translator: Thomas Graves Law (editor)
+    year: 1896
+    world: recusant-english-catholicism
+    why: 'The Appellant side of the Archpriest controversy, which the first-pass dossier recorded as the
+      world''s missing voice. Found by advancedsearch on title archpriest; Toronto scan NOT_IN_COPYRIGHT,
+      clean OCR. Other scans of the same volume: archpriestcontr00lawgoog and archpriestcontr01lawgoog (Google,
+      NOT_IN_COPYRIGHT), archpriestcontro01lawt (Princeton, no status field).'
+    url: https://archive.org/details/archpriestcont01camduoft
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread (Era VII session, second pass, English and Scottish worlds
+      agent), 2026-10-23: metadata read; title page year read in the OCR; djvu fetched and sampled at five
+      points, clean; Table of Contents read'
+    status: downloaded
+    vendored_as: archpriest-controversy_documents-v1-1597-1601_law1896.txt
+  - title: 'The Archpriest Controversy: Documents relating to the Dissensions of the Roman Catholic Clergy,
+      1597-1602, Vol. II (Camden Society)'
+    author: Appellant secular priests, the Archpriest Blackwell, Garnet, Parsons and others
+    translator: Thomas Graves Law (editor)
+    year: 1898
+    world: recusant-english-catholicism
+    why: 'The Appellant side of the Archpriest controversy, which the first-pass dossier recorded as the
+      world''s missing voice. Found by advancedsearch on title archpriest; Toronto scan NOT_IN_COPYRIGHT,
+      clean OCR. Other scans of the same volume: archpriestcontro02lawt (Princeton, no status field).'
+    url: https://archive.org/details/archpriestcontr02camduoft
+    rights_basis: pd-us-by-date; possible-copyright-status NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread (Era VII session, second pass, English and Scottish worlds
+      agent), 2026-10-23: metadata read; title page year read in the OCR; djvu fetched and sampled at five
+      points, clean; Table of Contents read'
+    status: downloaded
+    vendored_as: archpriest-controversy_documents-v2-1601-1603_law1898.txt
+
+  - title: Jornada do Arcebispo de Goa Dom Frey Aleixo de Menezes Primaz da India Oriental
+    author: Frey Antonio de Gouvea (Gouveia), O.E.S.A.
+    translator: none (Portuguese)
+    year: '1606'
+    world: st-thomas-christians-under-portuguese-pressure-d (VI.18)
+    why: The census's "fullest contemporary description" of the Synod of Diamper and the book the acts were
+      translated from; closed in the first pass as not on a reachable host, found in the second pass at
+      the Biblioteca Nacional de Portugal with an OCR text layer in the host's PDF.
+    url: http://purl.pt/17493 (https://bndigital.bnportugal.gov.pt/idurl/1/87431)
+    rights_basis: pd-us-by-date (1606 title page read); host statement "PUBLIC DOMAIN ... Public Domain
+      Mark"
+    verified_by: 'Era VII second-pass eastern-churches agent, 2026-10-23: host record read (imprint Coimbra,
+      Diogo Gomez Loureyro, 1606; copy hg-1029-1-v), full PDF fetched, text layer extracted and sampled
+      at five points'
+    status: downloaded
+    vendored_as: gouvea_jornada-do-arcebispo-de-goa-por_1606.txt
+  - title: Chronique de Galâwdêwos (Claudius), roi d'Éthiopie (Ge'ez text and French translation)
+    author: ed. and trans. William Eliot Conzelman
+    translator: Conzelman (French)
+    year: '1895'
+    world: ethiopian-christianity-gragn-to-fasilides (VI.25)
+    why: 'The royal chronicle of the reign the census''s story turns on, not found on archive.org in the
+      first pass. Google Books holds two full-view scans (ids 2yqOkO70vSoC and BHtsUZ1CA3MC, Paris: E. Bouillon,
+      1895, viewability "all pages", openAccess enabled). From this network the page images load but the
+      plain-text and epub downloads and the text-mode page view are answered with a captcha, so no text
+      could be fetched; a session that can read Google Books text should take it.'
+    url: https://books.google.com/books?id=2yqOkO70vSoC (also https://books.google.com/books?id=BHtsUZ1CA3MC)
+    rights_basis: pd-us-by-date (1895; Google full view)
+    verified_by: 'Era VII second-pass eastern-churches agent, 2026-10-23: Google Books volume feed read
+      for both ids (title, publisher, 1895, full view); text not fetched'
     status: not-yet-downloaded

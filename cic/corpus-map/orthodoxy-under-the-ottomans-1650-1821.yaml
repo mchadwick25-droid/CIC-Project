@@ -3,6 +3,19 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: orthodoxy-under-the-ottomans-1650-1821
 works:
+- row_id: dallam-covel_early-voyages-and-travels-in-the-levant_bent1893--extracts-from-the-diaries-of-dr-john-covel-1670-1679
+  work: Extracts from the diaries of Dr John Covel, 1670-1679 (Constantinople, the Greek church,
+    Adrianople, Asia Minor)
+  author: covel
+  locus: from file line 6484 (DR. COVEL'S DIARY) to file line 14022; the consecration of a
+    Patriarch at about file line 8331; the Patriarchate's state in Bent's note at about file
+    line 8364
+  role: context
+  confidence: assigned
+  note: 'An English chaplain who sat through Greek services in the 1670s and wrote down what
+    he saw, with his own opinions: the outside witness beside Rycaut and Smith. Clean OCR;
+    Covel''s own spelling kept.'
+  source_file: dallam-covel_early-voyages-and-travels-in-the-levant_bent1893.txt
 - row_id: sathas_mesaionike-bibliotheke-v3-grc_1872--dapontes-chronographos-and-historikos-katalogos
   work: Kaisarios Dapontes, Chronographos (section A) and Historikos Katalogos andron episemon,
     1700-1784 (section B), Greek
@@ -29,6 +42,19 @@ works:
   note: Placed on the entry's window (1650-1821). The Synod of Jerusalem of 1672 opens this
     entry's window; English version.
   source_file: dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt
+- row_id: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843--acts-of-the-synod-of-jerusalem-1672-and-the-confession-of
+  work: Acts of the Synod of Jerusalem (1672) and the confession of Dositheus, Greek with
+    Latin (Kimmel 1843)
+  author: dositheus
+  locus: Synodus Hierosolymitana from about file line 40197 to about file line 59770
+  role: tradition
+  confidence: assigned
+  note: 'The 1672 acts and Dositheus''s confession, Greek and Latin. This 1843 first printing
+    holds the same texts as the vendored Kimmel 1850 and is a second scan of the Greek: at
+    the sampled points its Greek column is read whole where the 1850 OCR cuts it, though it
+    holds fewer Greek letters overall. Use whichever scan reads cleanly at the passage, and
+    check against the page images.'
+  source_file: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt
 - row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--acts-of-the-synod-of-jerusalem-1672-greek-with-latin-2
   work: Acts of the Synod of Jerusalem (1672), Greek with Latin
   author: dositheus
@@ -196,3 +222,17 @@ works:
 
     '
   source_file: smith-thomas_de-graecae-ecclesiae-hodierno-statu-lat_halma1698.txt
+- row_id: williams-george_orthodox-church-of-the-east-in-the-eighteenth-century_1868--the-correspondence-between-the-eastern-patriarchs-and-the
+  work: The correspondence between the Eastern Patriarchs and the Nonjuring bishops, 1716-1725,
+    in English
+  author: williams-george
+  locus: 'CORRESPONDENCE from file line 2835 to file line 8860: the Nonjurors'' proposals
+    at file line 3564, the Patriarchs'' answers of 1718 and 1723 with the Jerusalem confession,
+    the reply and the closing letter of 1725'
+  role: tradition
+  confidence: provisional
+  note: The Patriarchs of Constantinople, Alexandria and Jerusalem answering an Anglican approach
+    in their own terms, printed in the eighteenth-century English translation the Nonjurors
+    used; Williams is the editor, not the voice. Provisional until the later Ottoman thread
+    rules whether an English rendering of a Greek original counts as tradition. Clean OCR.
+  source_file: williams-george_orthodox-church-of-the-east-in-the-eighteenth-century_1868.txt

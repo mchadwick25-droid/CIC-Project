@@ -1,0 +1,32 @@
+# Vendored for Atlas VI.6 (The Huguenots) by the Era VII library session, second pass, 2026-10-23; see that world's Source Readiness Dossier.
+source_file: beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889.txt
+
+assignments:
+  - row_id: beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889--histoire-ecclesiastique-des-eglises-reformees-au-royaume-de
+    work: "Histoire ecclesiastique des eglises reformees au royaume de France (Antwerp 1580), Tome troisieme, Livre X to the end (1562-1563), with Reuss's preface, introduction and index"
+    author: beza
+    locus: "the reprinted 1580 text from after Reuss's introduction (about line 720) to the start of the TABLE ALPHABETIQUE at line 35715; the OCR catches the headings LIVRE XI (read as 'XL', line 16938) and LIVRE XIIII (line 28884)"
+    atlas_ids:
+      - the-huguenots
+    role: tradition
+    confidence: assigned
+    note: >
+      The last tome of the churches' own narrative: the first war by province to the Edict of
+      Amboise (1563), where the 1580 work ends. Second witness for exact wording (f for long s in
+      the OCR of the 1580 text). Reuss's preface (line 115), introduction (from about line 358, on
+      the 1580 printing and the question of authorship) and alphabetical index (from line 35715)
+      are nineteenth-century editorial matter, clean OCR, and useful for finding a church or a
+      name across all three tomes; they are not the churches' voice. No public-domain English
+      translation exists.
+  - row_id: beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889--histoire-ecclesiastique-des-eglises-reformees-au-royaume-de-2
+    work: "Histoire ecclesiastique des eglises reformees au royaume de France (Antwerp 1580), Tome troisieme, Livre X to the end (1562-1563), with Reuss's preface, introduction and index"
+    author: beza
+    locus: "whole volume"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: context
+    confidence: provisional
+    note: >
+      Compiled in Geneva from the French churches' reports; placed on authorship and place,
+      mirroring the Tome 1 and Tome 2 rows. Reuss's introduction discusses the Geneva printing
+      under an Antwerp imprint.

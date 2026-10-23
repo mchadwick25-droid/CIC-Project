@@ -16,6 +16,12 @@ reads "Moderate: colophons, the New Julfa church-building record,
 merchant-network documents, Arakel of Tabriz (Davrizhetsi)'s history from the
 1660s, and material on Etchmiadzin under Safavid rule."
 
+**Second pass, October 2026.** One more file vendored (Chardin, volume I)
+and a further search for Arakel in Brosset's French on the hosts the first
+pass could not reach well (Google Books, loc.gov). Arakel is still not in
+usable public-domain form on any reachable host; the details are in
+sections 3, 4 and 6. The recommendation is unchanged.
+
 ## 1. Already assigned
 
 Nothing was assigned to this world before this pass. A grep of every
@@ -35,6 +41,7 @@ below were vendored this pass and staged.
 | History of the Armenians in India (Seth, 1897): the Julfa deportation tradition and the merchant diaspora | seth | context | assigned | ~0.45M chars, English | `seth_history-of-the-armenians-in-india_1897.txt` |
 | The Church of Armenia (Ormanian; Gregory 1912), chapters XV-XVI | ormanian | context | assigned | ~0.57M chars, English | `ormanian_church-of-armenia_gregory1912.txt` |
 | The Six Voyages of Tavernier (1678): Julfa, New Julfa, the Armenian religion | tavernier | context | assigned | ~2.4M chars, English | `tavernier_six-voyages-through-turky-into-persia-and-the-east-indies_phillips1678.txt` |
+| Sir John Chardin's Travels in Persia, vol. I (Lloyd's English, 1720): the provost, merchants, clergy and patriarch of Julfa in 1672-73 (second pass, October 2026) | chardin | context | assigned | ~0.38M chars, English; microfilm OCR, long s normalised, second witness | `chardin_travels-in-persia-v1_lloyd1720.txt` |
 
 The same files carry further rows for sibling entries. `armenian-christianity-era-8`
 (VII.24): Zakaria's 1690s as `antecedent`, Abraham of Crete's History of
@@ -116,7 +123,7 @@ are in `seed_fragment.yaml`.
 | The Six Voyages of John Baptista Tavernier | J.-B. Tavernier | John Phillips (host catalogue; not printed in the OCR) | 1678 | `archive.org/details/sixvoyagesofjohn00tave` | pd-us-by-date; host "Not in copyright" (BHL); Smithsonian Libraries copy | metadata and title page read; VENDORED |
 | The Church of Armenia | Malachia Ormanian | G. Marcar Gregory | 1912 | `archive.org/details/thechurchofarmen00ormauoft` | pd-us-by-date; host NOT_IN_COPYRIGHT; Toronto copy | metadata, title page and the dated introduction read; VENDORED |
 | Collection d'historiens arméniens, tome II (Google scan, Oxford copy) | as above | Brosset | 1876 (catalogued 1874) | `archive.org/details/collectiondhist00arhagoog` | pd-us-by-date; NOT_IN_COPYRIGHT | fetched and compared; OCR reads worse; not vendored. A fallback for a doubtful reading. |
-| Sir John Chardin's Travels in Persia, vols. 1 and 2 | John Chardin | Edmund Lloyd (OCR title page) | 1720 | `archive.org/details/bim_eighteenth-century_sir-john-chardins-trave_chardin-john-sir_1720_1` and `..._1720_2` | pd-us-by-date; no rights field | metadata fetched; four Julfa passages in vol. 1 read (events of 1670-73). Not vendored: after the window, and Tavernier and Olearius cover Julfa. |
+| Sir John Chardin's Travels in Persia, vol. 2 | John Chardin | Edmund Lloyd | 1720 | `archive.org/details/bim_eighteenth-century_sir-john-chardins-trave_chardin-john-sir_1720_2` | pd-us-by-date; no rights field | second pass, October 2026: fetched and searched; names Armenians only in passing, no Julfa passage. Not vendored. Volume 1 was vendored in the second pass (section 1). |
 | The Travels of Sig. Pietro della Valle | Pietro della Valle | not named by the host | 1665 | `archive.org/details/bim_early-english-books-1641-1700_the-travels-of-sig-piet_della-valle-pietro_1665` | pd-us-by-date; no rights field | metadata only; a search of the OCR for Julfa spellings found none, so relevance to this world is unconfirmed. |
 | History of the Armenians in India, other scans | Seth | none | 1897 / 1895 | `historyarmenian01sethgoog` (Michigan copy, 1897); `india.history.resource.106107` (Calcutta printing catalogued 1895) | pd-us-by-date; no rights field on the Calcutta item | metadata and size compared; not vendored (same book) |
 
@@ -130,7 +137,9 @@ the same events. Recorded as a gap, not a failure to search.
 | candidate | why it looked promising | why it's closed |
 |---|---|---|
 | Arakel of Tabriz (Davrizhetsi), Book of History, the Armenian text (item `india.history.resource.117162`, host title "Girk' Patmut'eants'", catalogued Oscan Yerevants, Amsterdam, 1669, language arm) | The census's named main source; the host calls it the 1669 printing | The OCR is Tesseract run in Armenian over what is mostly unreadable text (the 155,000 tokens are dominated by single letters and noise). The OCR has no title page, so the edition is not identified by the file (it could be the 1669 print or a later reprint) and the 1669 date rests on the catalogue alone. Unusable as a quotable text and the date cannot be confirmed. A clean re-scan or a transcription is needed. |
-| Arakel de Tauriz, Livre d'histoires, in Brosset's French (Collection d'historiens arméniens, tome I, 1874) | Brosset translated Arakel in volume I; his footnotes in volume II cite Arakel by chapter | Volume I was not found on archive.org. The Google item `collectiondhist00arhagoog` has a volume-I description but holds volume II (title page "1876"). Title and creator searches (Arakel, Arhakel, Davrizhetsi, Ardzrouni, "historiens arméniens", Brosset) and guessed Google identifiers returned nothing else. HathiTrust and Gallica are blocked. Volume I would be public domain by date (1874). |
+| Arakel de Tauriz, Livre d'histoires, in Brosset's French (Collection d'historiens arméniens, tome I, 1874) | Brosset translated Arakel in volume I; his footnotes in volume II cite Arakel by chapter | Volume I was not found on archive.org. The Google item `collectiondhist00arhagoog` has a volume-I description but holds volume II (title page "1876"). Title and creator searches (Arakel, Arhakel, Davrizhetsi, Ardzrouni, "historiens arméniens", Brosset) and guessed Google identifiers returned nothing else. HathiTrust and Gallica are blocked. Volume I would be public domain by date (1874). Second pass, October 2026: archive.org searched again by title and creator (nothing new); the Google Books volume feed searched for the title, for Brosset with Arakel and Tauriz, and for Ardzrouni (no record of tome I; the only Arakel record is the 1873 extract below); loc.gov searched (nothing). Library catalogues confirm the edition (St. Petersburg, 1874, Arakel at pages 267-608) but no reachable host has it. Still closed as not found. |
+| Arakel de Tauriz, Registre chronologique, annoté par M. Brosset (an extract from the Mémoires de l'Académie impériale des sciences de St.-Pétersbourg, 1873) | Brosset's French of Arakel's chronological table, the one part of Arakel Brosset published before tome I | Second pass, October 2026: a Google Books record exists (id `UShwMwEACAAJ`, 1873) with no preview and no download; the Mémoires volume was not found on archive.org by title or creator. Brosset's own "Revue de la littérature historique de l'Arménie" (Mélanges asiatiques VIII, 1877, a PDF on orientalstudies.ru) names the Registre but is a bibliographic review, not the text. Not found on a reachable host. |
+| Google Books as a host for the 1874 and 1876 volumes | The brief named it as reachable | Second pass, October 2026: the Google Books volume feed answers searches and the page-image viewer loads, but the plain-text and epub downloads and the text-mode page view are answered with a captcha from this network, so no text can be fetched from Google Books here. Recorded so the next pass does not repeat the attempt without a different route. |
 | Arakel of Tabriz, Book of History, trans. Bournoutian (Costa Mesa, 2010) (`arakel-of-tabriz-2010-bournoutian`) | The only English; the census cites it | In copyright (2010). The item sits in a patron-library collection with no rights field. Not vendored. |
 | Zakaria of Kanaker, Chronicle, trans. Bournoutian (2004-07) | English for Zakaria | In copyright; not on the host. The vendored Brosset French covers the same author. |
 | Simeon of Poland (Simeon Lehatsi), Travel Accounts, trans. Bournoutian (2007) (`bournoutian-2007-simeon-of-poland`) | A travelling Armenian priest of the early 1600s | In copyright (2007). The Armenian original or Brosset's translation was not found by transliteration or Armenian-script searches. |
@@ -211,3 +220,10 @@ build. A ruling from the project lead is needed on whether to build on Zakaria w
 secondaries, or to hold the build until a readable Arakel (a clean Armenian
 re-scan, or Brosset's volume I) is found. This is a recommendation for Mark,
 not a decision.
+
+**Second pass, October 2026: recommendation unchanged.** The pass added one
+outside witness (Chardin, volume I) and ran the Arakel search on Google Books
+and loc.gov as well as archive.org. Nothing changed on the point the
+recommendation turns on: Arakel's history is still not on a reachable host in
+a form that can be read, and the colophons are not either. The question for
+Mark is the same one.

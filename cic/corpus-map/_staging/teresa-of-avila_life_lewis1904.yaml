@@ -11,10 +11,13 @@ assignments:
   - carmelite-reform-and-spanish-mystics
   role: tradition
   confidence: assigned
-  note: Teresa's own account, written at her confessors' command, of her life, her prayer and the founding
-    of the first house of her reform. The reform's founder speaking in her own words, in David Lewis's
-    English of the Spanish; ready to quote once each quote is verified against the page image. The Spanish
-    original (Silverio de Santa Teresa, 1915) is not vendored; see the dossier.
+  note: >
+    Teresa's own account, written at her confessors' command, of her life, her prayer and the
+    founding of the first house of her reform. The reform's founder speaking in her own words, in
+    David Lewis's English of the Spanish; ready to quote once each quote is verified against the
+    page image. The Spanish original is vendored as teresa-of-avila_libro-de-la-vida-
+    spa_silverio1915.txt.
+
 - row_id: teresa-of-avila_life_lewis1904--life-tridentine
   work: The Life of St. Teresa of Jesus, written by herself, the chapters on the Inquisition, the confessors
     and the Jesuit directors

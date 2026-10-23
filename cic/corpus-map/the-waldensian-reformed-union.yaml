@@ -61,6 +61,26 @@ works:
 
     '
   source_file: calvin_letters-vol4_bonnet1858.txt
+- row_id: crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885--histoire-des-martyrs-1619-edition-tome-1-ceux-de-merindol-et
+  work: 'Histoire des martyrs (1619 edition), Tome 1: ''Ceux de Merindol et Cabriere'', the
+    Provencal Vaudois, their declarations to the Parlement of Provence and the massacre of
+    1545'
+  author: crespin
+  locus: the section headed 'CEUX DE MERINDOL & CABRIERE' from file line 60035, running heads
+    MERINDOL ET CABRIERE from 60266 (the table at line 113276 gives pages 529-534); the Merindol
+    declarations are also cited in Livre Premier at about line 11870
+  role: tradition
+  confidence: provisional
+  note: 'The Genevan martyrologist''s record of the Provencal Vaudois of Merindol and Cabrieres,
+    who had joined the Reformed union of 1532 and were destroyed in 1545; the world''s region
+    line names them to 1545 and no vendored file carried Crespin''s own text of their declarations
+    until this tome. Provisional because the first-pass dossier left open whether a Genevan
+    martyrologist is this world''s own voice or context; Crespin prints the Vaudois'' own
+    declarations, which is the ground for tradition. SECOND WITNESS for exact wording (f for
+    long s in the OCR of the reprinted 1619 text), like Tome 3.
+
+    '
+  source_file: crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885.txt
 - row_id: crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889--histoire-des-martyrs-tome-troisieme-livres-viii-xii-2
   work: Histoire des martyrs persecutez et mis a mort pour la verite de l'Evangile (1619 recension),
     Tome troisieme, Livres VIII-XII
@@ -76,6 +96,24 @@ works:
 
     '
   source_file: crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889.txt
+- row_id: gilles_histoire-ecclesiastique-eglises-reformees-vallees-de-piemont-fra_1644--histoire-ecclesiastique-des-eglises-reformees-des-valees-de
+  work: 'Histoire ecclesiastique des Eglises Reformees des Valees de Piedmont, autrefois appelees
+    Eglises Vaudoises, 1160 to 1643: the first printing, Geneva 1644'
+  author: gilles
+  locus: whole file; the dedication to the valleys' pastors, elders and deacons from about
+    line 60; the 1532 Angrogna synod and the confirmation of its conclusion around line 2831;
+    no chapter headings survive in the OCR
+  role: tradition
+  confidence: assigned
+  note: 'The first printing of the insider history already vendored in the clean 1881 re-edition
+    (two volumes). Vendored as the wording witness for the 1644 text: a quote taken from the
+    1881 edition is confirmed here against the first printing''s own spelling, with the page
+    image as the check. SECOND WITNESS only: the OCR reads the long s as f, interchanges u
+    and v, and loses every chapter heading, so passages are found by phrase, not by chapter.
+    The 1881 edition remains the quotable text.
+
+    '
+  source_file: gilles_histoire-ecclesiastique-eglises-reformees-vallees-de-piemont-fra_1644.txt
 - row_id: gilles_histoire-ecclesiastique-eglises-vaudoises-v2-fra_1881--histoire-ecclesiastique-des-eglises-vaudoises-tome-ii
   work: Histoire ecclésiastique des Églises Vaudoises de l'an 1160 au 1643, Tome deuxième
     (chapters XXXIX-LXII)
@@ -209,6 +247,24 @@ works:
 
     '
   source_file: perrin_histoire-des-vaudois-fra_1619.txt
+- row_id: perrin_histoire-des-vaudois-parties-2-3-fra_1618--histoire-des-vaudois-part-iii-1618-the-doctrine-and-the
+  work: 'Histoire des Vaudois, Part III (1618): the doctrine and the discipline the Vaudois
+    held in common, with the old Vaudois texts printed in their own tongue and in French'
+  author: perrin
+  locus: TROISIEME PARTIE, Liure I (doctrine) from file line 7317; LIVRE SECOND DE LA TROISIESME
+    PARTIE (discipline) from line 11169, parallel columns from 11176
+  role: tradition
+  confidence: assigned
+  note: 'The French original of the doctrine and discipline section that the vendored 1847
+    English (the 1624 translation) renders, printed by a Dauphine pastor of the union''s own
+    generation with the medieval texts beside his French. Perrin writes as the union''s apologist,
+    so the selection and the French rendering are his; the Vaudois-tongue columns are the
+    valleys'' own texts as he had them. SECOND WITNESS for exact wording: the OCR interleaves
+    the two columns and reads the long s as f; verify against the page image, and for the
+    Vaudois tongue use the page image only.
+
+    '
+  source_file: perrin_histoire-des-vaudois-parties-2-3-fra_1618.txt
 - row_id: perrin_history-ancient-christians-valleys-alps_1847--perrin-history-of-the-old-waldenses-and-albigenses-english
   work: History of the Old Waldenses anterior to the Reformation and History of the Old Albigenses,
     with the third part on their doctrine, discipline and catechism (Perrin, in the English

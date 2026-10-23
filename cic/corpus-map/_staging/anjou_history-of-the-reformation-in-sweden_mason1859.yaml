@@ -1,0 +1,31 @@
+# Vendored for Atlas VI.27 (The Scandinavian Reformation Kingdoms) by the Era VII library session, second pass, 2026-10-23; see that world's Source Readiness Dossier.
+source_file: anjou_history-of-the-reformation-in-sweden_mason1859.txt
+
+assignments:
+  - row_id: anjou_history-of-the-reformation-in-sweden_mason1859--the-history-of-the-reformation-in-sweden-anjou-1850-mason-s
+    work: "The History of the Reformation in Sweden (Anjou, 1850; Mason's English, 1859)"
+    author: anjou
+    locus: "whole file; CONTENTS from file line 162 (Book I to 1527, Book II from the diet of Vasteras 1527); Olaus Petri's writings and the diet acts quoted in Mason's English throughout"
+    atlas_ids:
+      - scandinavian-reformation-kingdoms
+    role: context
+    confidence: assigned
+    note: >
+      A nineteenth-century Swedish churchman's narrative of the Swedish Reformation in the only
+      public-domain English the passes found: the English a build can set beside the vendored
+      Swedish originals (Olavus Petri's Samlade skrifter, the Mass, the Uppsala decision) and
+      check its Opus renderings against. Context, not voice: secondary narrative by an insider of
+      the later church, quoting the reformers at length. Clean OCR, quotable once checked against
+      the page image.
+  - row_id: anjou_history-of-the-reformation-in-sweden_mason1859--the-history-of-the-reformation-in-sweden-anjou-1850-mason-s-2
+    work: "The History of the Reformation in Sweden (Anjou, 1850; Mason's English, 1859)"
+    author: anjou
+    locus: "Book I, chapters III-IV (Olaus Petri 'the friend and pupil of Luther', the first news of Wittenberg; CONTENTS at file line 162 gives pp. 61-86)"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: context
+    confidence: provisional
+    note: >
+      Wittenberg's pupils carrying the reform to Sweden, as a Swedish historian tells it. Placed
+      on that relation only, mirroring the needs-ruling rows the first pass staged for the Swedish
+      originals; secondary.

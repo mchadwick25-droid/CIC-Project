@@ -65,6 +65,30 @@ works:
     Thomas Christians agreed with the Church of England. Secondary, polemical, but early and
     close to the Portuguese sources.
   source_file: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt
+- row_id: gouvea_jornada-do-arcebispo-de-goa-por_1606--jornada-do-arcebispo-de-goa-the-serra-and-the-synod-of-diamper
+  work: 'Jornada do Arcebispo de Goa Dom Frey Aleixo de Menezes (Gouvea, Coimbra 1606): the
+    journey to the Serra and the Synod of Diamper'
+  author: gouvea
+  locus: the contents list with folio numbers at file lines about 400-480 (the synod called
+    at Diamper, fol. 55; its celebration, fol. 63 onward); 'CAPITVLO PRIMEYRO' at 629; book
+    headings in the body at about 617 and 11411; 'CAPITVLO VLTIMO' at 22802; the synod named
+    through the text (for example 23429)
+  role: context
+  confidence: assigned
+  note: 'The census''s "fullest contemporary description" and the book the acts of Diamper
+    were later translated from (Geddes 1694, Raulin 1745, vendored): the archbishop''s journey,
+    the errors and customs the Portuguese found among the Christians of St. Thomas, the synod
+    and the visitation of the churches, compiled at Goa by an Augustinian from the accounts
+    of those present and printed in 1606. The conqueror''s own record, hostile and triumphant,
+    in the original Portuguese; the community''s practices appear as the things it condemned.
+    The host''s OCR text layer is rough (long s read as f, two-column pages interleaved in
+    the contents, accents lost): second witness for exact wording until a passage is checked
+    against the page images on the host''s viewer (purl.pt/17493). Role context, not tradition:
+    the voice is the Portuguese archbishop''s party, not the community''s. No public-domain
+    English exists.
+
+    '
+  source_file: gouvea_jornada-do-arcebispo-de-goa-por_1606.txt
 - row_id: hough_history-of-christianity-in-india-v2_1839--book-iv-the-synod-of-diamper-hough-s-narrative-and
   work: Book IV, the Synod of Diamper (Hough's narrative and commentary)
   author: hough
@@ -86,6 +110,51 @@ works:
     travel books. Its Book VI table of contents names the Jesuit prelates, the revolt and
     the Carmelite arrival. Use as a guide to the sources, not as a voice.
   source_file: hough_history-of-christianity-in-india-v2_1839.txt
+- row_id: hough_history-of-christianity-in-india-v2_1839--gouvea-cited-as-the-source-of-the-diamper-acts
+  work: 'History of Christianity in India, vol. II (Hough, 1839): the account of the Synod
+    of Diamper drawn from Gouvea and Geddes'
+  author: hough
+  locus: the Diamper narrative in Book IV and Appendix A, where Hough names Gouvea's Jornada
+    (Coimbra 1606) as the book Geddes translated the acts from and says a copy is in the British
+    Museum
+  role: context
+  confidence: provisional
+  note: 'Cross-reference only: the Portuguese original Hough cites is now vendored as gouvea_jornada-do-arcebispo-de-goa-por_1606.txt,
+    so a build can check Geddes''s and Hough''s English against it. Hough''s own placement
+    is unchanged.'
+  source_file: hough_history-of-christianity-in-india-v2_1839.txt
+- row_id: howard_christians-of-st-thomas-and-their-liturgies_1864--chapter-ii-the-synod-of-diamper
+  work: 'The Christians of St. Thomas and their Liturgies (Howard, 1864), chapters I-III:
+    the early history, the Synod of Diamper, the later history'
+  author: howard
+  locus: Chapter I (the traditions and history to 1502) from file line 843; Chapter II (the
+    Synod of Diamper, Archbishop Menezes, Mar Abraham's death, Archdeacon George) from 1948;
+    Chapter III (the subsequent history, the Church Missionary Society at Cottayam) from 3000
+  role: context
+  confidence: assigned
+  note: 'An Anglican clergyman''s narrative of 1599-1653 written from Geddes, Raulin and the
+    Syrian manuscripts, with the community''s own liturgical books in hand. A secondary witness;
+    read at the chapter headings and the Menezes passages (lines about 1948-2250). Clean body
+    OCR; the scanned front matter is garbled.
+
+    '
+  source_file: howard_christians-of-st-thomas-and-their-liturgies_1864.txt
+- row_id: howard_christians-of-st-thomas-and-their-liturgies_1864--chapter-ii-the-synod-of-diamper-3
+  work: 'The Christians of St. Thomas and their Liturgies (Howard, 1864): the liturgies of
+    the community after the separation of 1653'
+  author: howard
+  locus: the translation of the Ordo Communis from file line 11139 and the anaphorae from
+    12974; Appendix A on doctrine from 9216
+  role: context
+  confidence: provisional
+  note: 'The rite the separated (Jacobite) party came to use after 1653 is the West Syriac
+    rite brought by Mar Gregorios in 1665, not the East Syriac rite the Synod of Diamper revised
+    (Raulin''s Latin and Neale''s English, vendored, carry that). Useful to a build as the
+    liturgical outcome of the oath, two centuries on; a record of the rite, not of the window.
+    Placed on content without a close read.
+
+    '
+  source_file: howard_christians-of-st-thomas-and-their-liturgies_1864.txt
 - row_id: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745--liturgia-malabarica-menesiana-the-malabar-mass-as-revised
   work: Liturgia Malabarica Menesiana (the Malabar Mass as revised at Diamper)
   author: liturgy-of-malabar
@@ -120,6 +189,25 @@ works:
     and a half after the events and in translation, so treat as community memory, not contemporary
     record.
   source_file: whitehouse_lingerings-of-light-in-a-dark-land_1873.txt
+- row_id: philipos_syrian-christians-of-malabar_howard1869--answers-on-the-belief-and-history-of-the-syrian-christians
+  work: 'The Syrian Christians of Malabar, otherwise called the Christians of S. Thomas (Philipos,
+    1869): a Malabar priest''s answers to 82 questions on his church''s belief and history'
+  author: philipos
+  locus: '''Q. 1.'' at file line 602 to ''Q. 82.'' at 2501; the questions on the Portuguese,
+    Archbishop Menezes, the synod and the separation at about 2115-2185; the author''s letter
+    to the editor at about 546; the editor''s preface on the author''s own English at about
+    475'
+  role: tradition
+  confidence: provisional
+  note: 'The one inside voice of the community found on a reachable host: a cathanar of Cottayam
+    answering, in his own English from his own Malayalam, what the Syrians believe and how
+    the Portuguese, "Alexius de Menezes", made them embrace Popery and how they broke away.
+    Written in 1869, two centuries after the window; a witness to the Jacobite side''s own
+    memory of 1599-1653, not to the events, and the builders must say so. Clean OCR. Role
+    tradition and confidence provisional for that reason.
+
+    '
+  source_file: philipos_syrian-christians-of-malabar_howard1869.txt
 - row_id: polanco_chronicon-v6-lat_1898--polanco-chronicon-volume-6
   work: Polanco, Chronicon (volume 6)
   author: polanco
