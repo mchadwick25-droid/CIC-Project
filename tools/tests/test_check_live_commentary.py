@@ -1425,7 +1425,7 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # this same line from 127 to 108; refreshed 2026-10-04: Go Deeper S5d
     # (commit a5df3f70) added a line above it, so it is now 109. Same text,
     # same label.
-    ("cic-website/support.html", 111, "KEEP"),
+    ("cic-website/support.html", 110, "KEEP"),
     ("Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md", 463, "REWRITE"),
     # Refreshed 2026-09-26 (Phase 3b worlds/ cleanup, commit 84e4987d):
     # the original _cross-world example was cleaned by that effort.
