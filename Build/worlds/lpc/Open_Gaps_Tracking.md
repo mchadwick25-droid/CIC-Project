@@ -1646,3 +1646,14 @@ Logged 2026-10-23 from `Review-Artifacts/L0_Doc02_Registry_Check_2026-10-23.md` 
 - **Sermon change order.** Doc_02 lines 7, 13, 17, 29, 47, 108, 135, 136/154 and 150 need the change order of OG-28.
 - **Owner.** The project lead for the §7 decision; the `lpc` build thread for the rest.
 - **Closes when** the project lead rules on §7 and an independent check confirms the corrected counts and rows.
+
+### OG-40. Doc_08 and the Force Index: Phase L0 check returned "substantial revision required" — open (2026-10-23).
+
+Logged 2026-10-23 from `Review-Artifacts/L0_Doc08_Generator_Check_2026-10-23.md` (2 high, 5 medium, 9 low, 2 cosmetic).
+
+- **What holds.** `lpc_Force_Index.md` matches Doc_08 exactly (17 forces, 15 connections, 8 gravities); the generator reproduces it byte for byte on a copy. All 17 force records and 8 gravity records match the Index. No finding changes their links or confidence.
+- **The two high findings.** Round 8's H2 still prints a false "CLEARED" and Doc_08's Disposition says that defect is fixed; a "Not disposed" Doc_08 prints as "Approved to proceed". Both still reproduce.
+- **Errors that reach records.** The 411 *Gesta* is called "unread/open" in the G5 record and Doc_09, though Doc_04 closed that question. The 2B-5 record gives the interval as "a century and a half"; Doc_08 says "a century and a third"; the reviewer puts the real gap at about 170 years. One Doc_01 quotation has an added word ("own").
+- **Round count.** Doc_08 already has eight review files. The reviewer counts this check as a tenth against the cap of three. The Rebaseline Declaration accepted the earlier count; whether an L0 check counts is for the project lead to confirm.
+- **Owner.** The project lead for the review route; the `lpc` build thread for the corrections, with the change order of OG-38.
+- **Closes when** the project lead rules on the route and an independent check confirms each corrected site.
