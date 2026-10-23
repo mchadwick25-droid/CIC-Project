@@ -42,6 +42,11 @@ CREATE TABLE IF NOT EXISTS linked_sign_ins (
   provider     TEXT NOT NULL,
   UNIQUE (account_id, provider)
 ) WITHOUT ROWID;
+CREATE TABLE IF NOT EXISTS erased_sessions (
+  session_hash TEXT PRIMARY KEY,
+  qc_tokens    TEXT NOT NULL,
+  expires_on   TEXT NOT NULL
+) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS shelf (
   session_id TEXT PRIMARY KEY,
   account_id TEXT NOT NULL,
@@ -248,6 +253,14 @@ class AccountStore:
                 "SELECT sealed FROM shelf WHERE account_id = ? AND session_id = ?", (account_id, session_id)
             ).fetchone()
         return row[0] if row else None
+
+    def shelf_reseal(self, account_id: str, session_id: str, sealed: str) -> None:
+        with self._lock:
+            self._d.execute("UPDATE shelf SET sealed = ? WHERE account_id = ? AND session_id = ?", (sealed, account_id, session_id))
+
+    def shelf_on_older_keys(self, key_id: str) -> int:
+        with self._lock:
+            return self._d.execute("SELECT COUNT(*) FROM shelf WHERE sealed NOT LIKE ?", (key_id + ":%",)).fetchone()[0]
 
     def shelf_remove(self, account_id: str, session_id: str) -> bool:
         with self._lock:
@@ -618,7 +631,17 @@ class AccountStore:
 
     def purge_durable(self, today: str) -> int:
         with self._lock:
-            return self._d.execute("DELETE FROM deletion_ledger WHERE expires_on < ?", (today,)).rowcount
+            removed = self._d.execute("DELETE FROM deletion_ledger WHERE expires_on < ?", (today,)).rowcount
+            removed += self._d.execute("DELETE FROM erased_sessions WHERE expires_on < ?", (today,)).rowcount
+            return removed
+
+    def note_erased(self, session_hash: str, qc_tokens: str, expires_on: str) -> None:
+        with self._lock:
+            self._d.execute("INSERT OR REPLACE INTO erased_sessions VALUES (?, ?, ?)", (session_hash, qc_tokens, expires_on))
+
+    def erased_rows(self) -> dict[str, str]:
+        with self._lock:
+            return {h: t for h, t in self._d.execute("SELECT session_hash, qc_tokens FROM erased_sessions")}
 
     # challenges ---------------------------------------------------------------
 

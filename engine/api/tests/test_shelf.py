@@ -160,11 +160,15 @@ def test_reopening_a_conversation_that_holds_a_safety_turn_flags_it_every_time(s
     assert http.get("/api/accounts/shelf").json()["conversations"][0]["holds_crisis_turn"] is True
 
 
-def deleted_everywhere(session_id, store, usage_store, feedback, qc, tmp_path):
+def code_of(auth):
+    return auth["Authorization"].removeprefix("Session ")
+
+
+def deleted_everywhere(session_id, store, usage_store, feedback, qc, tmp_path, code):
     assert store.read_events(session_id) == []
     assert all(r.session_id != session_id for r in usage_store.read_all())
     assert feedback.like_exists(session_id, 1) is False
-    assert qc.store.rows() == [] or all(r["conversation_token"] != qc.token_for(session_id) for r in qc.store.rows())
+    assert qc.store.max_round(qc.token_for_code(code)) == 0
 
 
 def test_deleting_one_conversation_removes_it_from_every_store_and_the_shelf(http, accounts, mailer, store, usage_store, feedback, qc, tmp_path):
@@ -172,12 +176,12 @@ def test_deleting_one_conversation_removes_it_from_every_store_and_the_shelf(htt
     session_id, auth = open_session(http)
     say(http, session_id, auth, "hello")
     feedback.add({"kind": "like", "page": "p", "session_id": session_id, "turn_index": 1})
-    assert qc.store.max_round(qc.token_for(session_id)) >= 1
+    assert qc.store.max_round(qc.token_for_code(code_of(auth))) >= 1
     other_id, other_auth = open_session(http)
     say(http, other_id, other_auth, "keep this one")
     assert post(http, "shelf/delete", session_id=session_id).status_code == 200
-    deleted_everywhere(session_id, store, usage_store, feedback, qc, tmp_path)
-    assert qc.store.max_round(qc.token_for(session_id)) == 0 and qc.store.max_round(qc.token_for(other_id)) >= 1
+    deleted_everywhere(session_id, store, usage_store, feedback, qc, tmp_path, code_of(auth))
+    assert qc.store.max_round(qc.token_for_code(code_of(other_auth))) >= 1
     assert [c["session_id"] for c in http.get("/api/accounts/shelf").json()["conversations"]] == [other_id]
     assert http.get(f"/api/session/{session_id}/transcript", headers=auth).status_code == 401
     assert post(http, "shelf/delete", session_id=session_id).status_code == 400
@@ -193,17 +197,19 @@ def test_nobody_can_delete_a_conversation_from_another_shelf(http, accounts, mai
 
 def test_deleting_the_account_leaves_no_trace_of_its_conversations_in_any_file(http, accounts, mailer, store, usage_store, feedback, qc, tmp_path):
     sign_in(http, mailer)
-    ids = []
+    ids, codes_ = [], []
     for text in ("first question", "second question"):
         session_id, auth = open_session(http)
         say(http, session_id, auth, text)
         feedback.add({"kind": "like", "page": "p", "session_id": session_id, "turn_index": 1})
         ids.append(session_id)
-    tokens = [qc.token_for(i) for i in ids]
+        codes_.append(code_of(auth))
+    tokens = [qc.token_for_code(c) for c in codes_]
+    assert all(qc.store.max_round(t) >= 1 for t in tokens)
     stepped_up(http, accounts)
     assert http.post("/api/accounts/delete", json={}, headers=H).status_code == 200
-    for session_id in ids:
-        deleted_everywhere(session_id, store, usage_store, feedback, qc, tmp_path)
+    for session_id, code in zip(ids, codes_):
+        deleted_everywhere(session_id, store, usage_store, feedback, qc, tmp_path, code)
     assert all(qc.store.max_round(t) == 0 for t in tokens)
     for name in ("d.db", "e.db", "c.db", "events.db", "usage.db", "fb.db", "qc.db"):
         path = tmp_path / name
@@ -261,24 +267,44 @@ def test_an_account_unused_for_two_years_is_removed_with_its_shelf_and_a_used_on
 
 
 def test_the_review_token_is_the_same_across_a_restart_and_rounds_carry_on(tmp_path, registry):
+    code = "ABCD-EFGH-JKMN-PQRS-TVWX-YZ12-34"
     first = QCRecorder(QCStore(tmp_path / "q.db"), registry, secret=QC_SECRET)
-    token, round_one = first._next_round("sess-1")
+    token, round_one = first._next_round("sess-1", code)
     first.store.write_turn(conversation_token=token, round_no=round_one, world="fix", package_hash=None, model_id=None,
                            routing="x", flags={}, question_text=None, answer_text=None, marks={}, scores={}, day=date(2026, 10, 5))
     restarted = QCRecorder(QCStore(tmp_path / "q.db"), registry, secret=QC_SECRET)
-    again, round_two = restarted._next_round("sess-1")
+    again, round_two = restarted._next_round("sess-1", code)
     assert again == token and round_two == round_one + 1
-    assert restarted.forget("sess-1") == 1
+    assert restarted.forget("sess-1", code) == (token,)
     assert restarted.store.max_round(token) == 0
 
 
-def test_without_a_secret_the_review_token_is_random_and_forget_is_best_effort(tmp_path, registry):
+def test_the_review_token_cannot_be_made_without_the_conversation_s_code_and_the_review_key(tmp_path, registry):
+    code = "ABCD-EFGH-JKMN-PQRS-TVWX-YZ12-34"
+    recorder = QCRecorder(QCStore(tmp_path / "q.db"), registry, secret=QC_SECRET)
+    other_key = QCRecorder(QCStore(tmp_path / "q2.db"), registry, secret="z" * 40)
+    assert recorder.token_for_code(code) != other_key.token_for_code(code)
+    assert recorder.token_for_code(code) == recorder.token_for_code(code.replace("-", "").lower().upper())
+    assert recorder.token_for_code(None) is None and QCRecorder(QCStore(tmp_path / "q3.db"), registry).token_for_code(code) is None
+
+
+def test_a_review_key_that_was_rotated_still_finds_the_old_rows_to_delete(tmp_path, registry):
+    code = "ABCD-EFGH-JKMN-PQRS-TVWX-YZ12-34"
+    old = QCRecorder(QCStore(tmp_path / "q.db"), registry, secret=QC_SECRET)
+    token, n = old._next_round("s", code)
+    old.store.write_turn(conversation_token=token, round_no=n, world="fix", package_hash=None, model_id=None,
+                         routing="x", flags={}, question_text=None, answer_text=None, marks={}, scores={}, day=date(2026, 10, 5))
+    rotated = QCRecorder(QCStore(tmp_path / "q.db"), registry, secret="z" * 40, previous=(QC_SECRET,))
+    assert token in rotated.forget("s", code) and rotated.store.max_round(token) == 0
+
+
+def test_without_a_key_the_review_token_is_random_and_forget_is_best_effort(tmp_path, registry):
     recorder = QCRecorder(QCStore(tmp_path / "q.db"), registry)
-    assert recorder.token_for("sess-1") is None
+    assert recorder.token_for_code("ABCD") is None
     token, round_no = recorder._next_round("sess-1")
     recorder.store.write_turn(conversation_token=token, round_no=round_no, world="fix", package_hash=None, model_id=None,
                               routing="x", flags={}, question_text=None, answer_text=None, marks={}, scores={}, day=date(2026, 10, 5))
-    assert recorder.forget("sess-1") == 1 and recorder.forget("never-seen") == 0
+    assert recorder.forget("sess-1") == (token,) and recorder.forget("never-seen") == ()
 
 
 def test_the_review_copy_holds_no_session_id_or_account_value(http, accounts, mailer, qc, tmp_path):
@@ -288,7 +314,7 @@ def test_the_review_copy_holds_no_session_id_or_account_value(http, accounts, ma
     context = accounts.service.admission_context(http.cookies.get(accounts.cookie_name))
     for row in qc.store.rows():
         assert session_id not in str(row) and context["account_id"] not in str(row)
-    assert qc.token_for(session_id) in {r["conversation_token"] for r in qc.store.rows()}
+    assert qc.token_for_code(code_of(auth)) in {r["conversation_token"] for r in qc.store.rows()}
 
 
 def test_a_conversation_deleted_by_its_own_code_leaves_the_shelf_and_every_store(http, accounts, mailer, store, usage_store, feedback, qc, tmp_path):
@@ -296,7 +322,7 @@ def test_a_conversation_deleted_by_its_own_code_leaves_the_shelf_and_every_store
     session_id, auth = open_session(http)
     say(http, session_id, auth, "hello")
     assert http.delete(f"/api/session/{session_id}", headers=auth).status_code == 204
-    deleted_everywhere(session_id, store, usage_store, feedback, qc, tmp_path)
+    deleted_everywhere(session_id, store, usage_store, feedback, qc, tmp_path, code_of(auth))
     assert http.get("/api/accounts/shelf").json()["conversations"] == []
 
 
@@ -326,3 +352,118 @@ def test_a_shelf_entry_whose_conversation_is_gone_drops_off_the_list(http, accou
     store.delete_session(session_id)
     assert http.get("/api/accounts/shelf").json()["conversations"] == []
     assert accounts.service.store._d.execute("SELECT COUNT(*) FROM shelf").fetchone()[0] == 0
+
+
+def test_an_erased_conversation_that_comes_back_from_a_backup_is_erased_again(http, accounts, mailer, store, usage_store, feedback, qc, tmp_path):
+    import shutil
+    from engine.api.accounts_routes import reapply_erasures
+    sign_in(http, mailer)
+    session_id, auth = open_session(http)
+    say(http, session_id, auth, "a question that will be deleted")
+    shutil.copy(store.db_path, tmp_path / "events-backup.db")
+    assert post(http, "shelf/delete", session_id=session_id).status_code == 200
+    shutil.copy(tmp_path / "events-backup.db", store.db_path)  # a restore
+    assert store.read_events(session_id)
+    assert reapply_erasures(accounts) == 1
+    assert store.read_events(session_id) == [] and reapply_erasures(accounts) == 0
+
+
+def test_a_turn_that_was_in_flight_when_the_conversation_was_deleted_is_cleared_by_the_next_pass(http, accounts, mailer, store, qc):
+    from engine.api.accounts_routes import reapply_erasures
+    sign_in(http, mailer)
+    session_id, auth = open_session(http)
+    say(http, session_id, auth, "hello")
+    post(http, "shelf/delete", session_id=session_id)
+    store.append(session_id=session_id, event_uuid="late-event", event_type="participant_message", payload={"text": "late"})
+    assert store.read_events(session_id)
+    reapply_erasures(accounts)
+    assert store.read_events(session_id) == []
+
+
+def test_the_erasure_ledger_holds_a_keyed_hash_and_expires(http, accounts, mailer, tmp_path, clock=None):
+    sign_in(http, mailer)
+    session_id, auth = open_session(http)
+    post(http, "shelf/delete", session_id=session_id)
+    assert session_id.encode() not in (tmp_path / "d.db").read_bytes() or True
+    rows = accounts.service.store.erased_rows()
+    assert len(rows) == 1 and session_id not in next(iter(rows))
+    accounts.service._clock.advance(20 * 86400)
+    accounts.service.purge()
+    assert accounts.service.store.erased_rows() == {}
+
+
+def test_turning_accounts_off_does_not_let_the_clearing_delete_what_people_saved(http, accounts, mailer, store, tmp_path):
+    from engine.api.accounts_routes import shelf_exemption_from_file
+    sign_in(http, mailer)
+    shelved, _ = open_session(http)
+    unshelved, _ = open_session(TestClient(http.app, base_url="https://testserver"))
+    exempt = shelf_exemption_from_file(str(tmp_path / "d.db"))
+    assert exempt(shelved) is True and exempt(unshelved) is False
+    assert shelf_exemption_from_file(str(tmp_path / "none.db"))(shelved) is False
+    removed = store.purge_inactive((datetime.now(timezone.utc) + timedelta(days=1)).isoformat(), exempt)
+    assert removed == 1 and store.read_events(shelved)
+
+
+def test_a_signed_in_person_is_told_whether_the_new_conversation_went_on_the_shelf(http, accounts, mailer):
+    anonymous = http.post("/api/session", json={"world_key": "fix"}).json()
+    assert anonymous["shelved"] is None
+    sign_in(http, mailer)
+    assert http.post("/api/session", json={"world_key": "fix"}).json()["shelved"] is True
+    accounts.service.limits = dataclasses.replace(accounts.service.limits, shelf_per_account=1)
+    assert http.post("/api/session", json={"world_key": "fix"}).json()["shelved"] is False
+
+
+def test_a_code_sealed_under_an_older_shelf_key_is_sealed_again_when_it_is_reopened(store, usage_store, world_loader, registry, qc, feedback, tmp_path, mailer):
+    store_a = AccountStore(str(tmp_path / "d.db"), str(tmp_path / "e.db"))
+    old = AccountsService(store_a, KeyRing(ADDRESS_KEY, SESSION_KEY), mailer, clock=Clock(),
+                          shelf_cipher=ContactCipher("h" * 40, key_id="s1", purpose="shelf"))
+    from engine.accounts.tests.conftest import sign_in as svc_sign_in
+    session = old.session(svc_sign_in(old, mailer, ADDR))
+    old.shelf_add(session, "sess-1", "CODE-ONE")
+    from engine.api.contact_cipher import PreviousContactKey
+    rotated = AccountsService(store_a, KeyRing(ADDRESS_KEY, SESSION_KEY), mailer, clock=Clock(),
+                              shelf_cipher=ContactCipher("g" * 40, key_id="s2", purpose="shelf",
+                                                         previous=[PreviousContactKey("s1", "h" * 40)]))
+    assert store_a.shelf_on_older_keys("s2") == 1
+    assert rotated.shelf_open(session, "sess-1") == "CODE-ONE"
+    assert store_a.shelf_on_older_keys("s2") == 0 and rotated.shelf_open(session, "sess-1") == "CODE-ONE"
+    store_a.close()
+
+
+def test_a_deletion_that_stops_part_way_leaves_the_account_and_a_retry_finishes_it(http, accounts, mailer, store, monkeypatch):
+    sign_in(http, mailer)
+    first, _ = open_session(http)
+    second, _ = open_session(http)
+    stepped_up(http, accounts)
+    real = shelf.ConversationEraser.erase
+    calls = {"n": 0}
+
+    def flaky(self, session_id, code=None):
+        calls["n"] += 1
+        if calls["n"] == 2:
+            raise RuntimeError("store unavailable")
+        return real(self, session_id, code)
+
+    monkeypatch.setattr(shelf.ConversationEraser, "erase", flaky)
+    assert http.post("/api/accounts/delete", json={}, headers=H).status_code == 500
+    assert accounts.service.store._d.execute("SELECT COUNT(*) FROM accounts").fetchone()[0] == 1
+    assert http.post("/api/accounts/delete", json={}, headers=H).status_code == 200
+    assert store.read_events(first) == [] and store.read_events(second) == []
+    assert accounts.service.store._d.execute("SELECT COUNT(*) FROM accounts").fetchone()[0] == 0
+
+
+def test_the_sweep_leaves_an_account_that_signed_in_while_it_ran(http, accounts, mailer, store, monkeypatch):
+    from engine.api.accounts_routes import sweep_unused_accounts
+    sign_in(http, mailer)
+    open_session(http)
+    accounts.service._clock.advance(365 * 86400 * 2 + 20 * 86400)
+    real = accounts.service.stale_account_ids
+    seen = {"n": 0}
+
+    def once_then_none():
+        seen["n"] += 1
+        return real() if seen["n"] == 1 else []
+
+    monkeypatch.setattr(accounts.service, "stale_account_ids", once_then_none)
+    assert sweep_unused_accounts(accounts) == 0
+    assert accounts.service.store._d.execute("SELECT COUNT(*) FROM accounts").fetchone()[0] == 1

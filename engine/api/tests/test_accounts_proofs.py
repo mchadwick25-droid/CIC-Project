@@ -114,6 +114,11 @@ REQUIRED = {
         "test_an_anonymous_conversation_is_never_shelved_and_a_signed_in_one_is_shelved_once_when_carried_over",
         "test_nobody_can_delete_a_conversation_from_another_shelf",
         "test_the_review_copy_holds_no_session_id_or_account_value",
+        "test_the_review_token_cannot_be_made_without_the_conversation_s_code_and_the_review_key",
+        "test_an_erased_conversation_that_comes_back_from_a_backup_is_erased_again",
+        "test_a_turn_that_was_in_flight_when_the_conversation_was_deleted_is_cleared_by_the_next_pass",
+        "test_turning_accounts_off_does_not_let_the_clearing_delete_what_people_saved",
+        "test_a_deletion_that_stops_part_way_leaves_the_account_and_a_retry_finishes_it",
     ],
     "engine/api/tests/test_contact_cipher.py": [
         "test_a_sealed_address_opens_with_its_key_and_context_only",

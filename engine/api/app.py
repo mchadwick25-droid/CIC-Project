@@ -243,6 +243,8 @@ class SessionCreateResponse(BaseModel):
     # applies); the table session round cap for a table session - so the
     # frontend can render the real configured number instead of guessing.
     round_cap: int | None = None
+    # Set only for a signed-in person: whether the conversation went on their shelf.
+    shelved: bool | None = None
 
 
 # The hard bound on what the API accepts at all, against a payload attack.
@@ -446,6 +448,13 @@ class WorldSummary(BaseModel):
 
 class WorldListResponse(BaseModel):
     worlds: list[WorldSummary]
+
+
+def _qc_for(deps, authorization: str | None):
+    """The review recorder for one turn, with the conversation's code in hand so its row gets the
+    conversation's own token."""
+    bind = getattr(deps.qc_recorder, "bound_to", None)
+    return bind(_extract_code(authorization)) if bind else deps.qc_recorder
 
 
 def _extract_code(authorization: str | None) -> str | None:
@@ -675,8 +684,8 @@ def create_app(
                 logger.warning("table session refused: package unavailable worlds=%s", req.world_keys)
                 raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
             logger.info("session created session=%s mode=table worlds=%s", session_id, ",".join(req.world_keys))
-            accounts_routes.shelve_new_session(request, session_id, code)
-            return SessionCreateResponse(session_id=session_id, session_code=code, round_cap=table_wiring.round_cap_for("table"))
+            shelved = accounts_routes.shelve_new_session(request, session_id, code)
+            return SessionCreateResponse(session_id=session_id, session_code=code, round_cap=table_wiring.round_cap_for("table"), shelved=shelved)
         if req.world_key is None:
             # POST {} must not fall through to default_world_key -
             # configured in production as the synthetic fixture world,
@@ -700,8 +709,8 @@ def create_app(
             logger.warning("session refused: package unavailable world=%s", world_key)
             raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
         logger.info("session created session=%s mode=interview world=%s", session_id, world_key)
-        accounts_routes.shelve_new_session(request, session_id, code)
-        return SessionCreateResponse(session_id=session_id, session_code=code)
+        shelved = accounts_routes.shelve_new_session(request, session_id, code)
+        return SessionCreateResponse(session_id=session_id, session_code=code, shelved=shelved)
 
     @app.post("/api/session/{session_id}/message", response_model=MessageResponse | TableMessageResponse)
     def send_message(
@@ -746,7 +755,7 @@ def create_app(
             r27_enforce=deps.r27_enforce,
             self_revision_enabled=deps.self_revision_enabled,
             citation_attach_enabled=deps.citation_attach_enabled,
-            qc_recorder=deps.qc_recorder,
+            qc_recorder=_qc_for(deps, authorization),
             grant_for=admission.provider if admission is not None else None,
         )
         started = time.monotonic()
@@ -818,7 +827,7 @@ def create_app(
             safety_client=deps.safety_client, safety_model_id=deps.safety_model_id,
             session_id=session_id, package_cache_dir=deps.package_cache_dir, r27_enforce=deps.r27_enforce,
             self_revision_enabled=deps.self_revision_enabled, citation_attach_enabled=deps.citation_attach_enabled,
-            qc_recorder=deps.qc_recorder,
+            qc_recorder=_qc_for(deps, authorization),
         )
         if deps.streaming_enabled and "text/event-stream" in request.headers.get("accept", ""):
             return _stream_turn(
@@ -856,10 +865,11 @@ def create_app(
         is also taken off its shelf."""
         deps: Deps = request.app.state.deps
         _authenticate(deps.store, session_id, authorization)
-        counts = shelf.ConversationEraser(
-            deps.store, deps.usage_store, request.app.state.feedback_store, deps.qc_recorder, deps.m7_audit_root
-        ).erase(session_id)
         accounts = getattr(request.app.state, "accounts", None)
+        counts = shelf.ConversationEraser(
+            deps.store, deps.usage_store, request.app.state.feedback_store, deps.qc_recorder, deps.m7_audit_root,
+            on_erased=accounts.service.note_erased if accounts is not None else None,
+        ).erase(session_id, _extract_code(authorization))
         if accounts is not None:
             accounts.service.store.shelf_forget_session(session_id)
         logger.info("session deleted session=%s %s", session_id, " ".join(f"{k}={v}" for k, v in counts.items()))
@@ -1109,9 +1119,16 @@ def _build_real_app() -> FastAPI:
     # The anonymous quality-control store and the daily retention job
     # (System Hub decision 34): conversations inactive for 90 days leave
     # the event log; QC answer text older than 90 days is deleted.
-    qc_recorder = QCRecorder(QCStore(settings.qc_db_path), full_registry, secret=settings.anon_visitor_secret)
+    qc_key = os.environ.get("CIC_QC_TOKEN_KEY") or None
+    if accounts_runtime is not None and (not qc_key or len(qc_key) < 32):
+        raise accounts_routes.AccountsConfigError(
+            "CIC_ACCOUNTS_ENABLED is on but CIC_QC_TOKEN_KEY is missing or short: a deleted conversation's review rows could not be found"
+        )
+    previous_qc_keys = tuple(k for k in (os.environ.get("CIC_QC_TOKEN_KEYS_PREVIOUS") or "").split(",") if k.strip())
+    qc_recorder = QCRecorder(QCStore(settings.qc_db_path), full_registry, secret=qc_key, previous=previous_qc_keys)
     feedback_store = FeedbackStore(settings.feedback_db_path)
-    exempt = {"is_exempt": accounts_runtime.service.is_shelved} if accounts_runtime is not None else {}
+    exempt = {"is_exempt": accounts_runtime.service.is_shelved if accounts_runtime is not None
+              else accounts_routes.shelf_exemption_from_file(accounts_config.durable_db_path)}
     retention.start_background_scheduler(
         settings.events_db_path, settings.qc_db_path, Path(settings.events_db_path).parent / "retention",
         audit_root=Path(settings.events_db_path).parent / "m7-audits",

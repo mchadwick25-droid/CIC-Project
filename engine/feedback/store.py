@@ -19,6 +19,8 @@ import uuid
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+from engine import sqlite_scrub as scrub
+
 KINDS = ("like", "flag", "comment", "report")
 REASONS = ("fact_wrong", "source_mismatch", "overcertain", "unclear", "accuracy", "craft")
 QUOTE_CONSENTS = ("no", "anonymous", "first_name")
@@ -167,7 +169,7 @@ class FeedbackStore:
         with self._connect() as conn:
             deleted = conn.execute("DELETE FROM feedback WHERE session_id = ?", (session_id,)).rowcount
             conn.commit()
-            conn.execute("PRAGMA wal_checkpoint(TRUNCATE)")
+            scrub.truncate_wal(conn)
             return deleted
 
     def purge_closed_older_than(self, days: int = CLOSED_RETENTION_DAYS, now: datetime | None = None) -> int:

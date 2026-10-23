@@ -16,6 +16,7 @@ from dataclasses import asdict
 from datetime import datetime, timezone
 from pathlib import Path
 
+from engine import sqlite_scrub as scrub
 from engine.provider.bedrock import NormalizedUsage
 
 from .usage import UsageRecord
@@ -101,7 +102,7 @@ class UsageLogStore:
                 "UPDATE usage_log SET session_id = 'deleted' WHERE session_id = ?", (session_id,)
             ).rowcount
             conn.commit()
-            conn.execute("PRAGMA wal_checkpoint(TRUNCATE)")
+            scrub.truncate_wal(conn)
             return changed
 
     def read_all(self) -> list[UsageRecord]:

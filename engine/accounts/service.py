@@ -785,11 +785,20 @@ class AccountsService:
         return self.store.shelf_rows(session.account_id)
 
     def shelf_open(self, session: Session, session_id) -> str | None:
-        """The conversation's code, for the account that shelved it and no one else."""
+        """The conversation's code, for the account that shelved it and no one else. A code sealed
+        under an older shelf key is sealed again under the current one."""
         if self.shelf_cipher is None or not isinstance(session_id, str):
             return None
-        sealed = self.store.shelf_sealed(session.account_id, session_id)
-        return self.shelf_cipher.decrypt(sealed, self._shelf_context(session.account_id, session_id)) if sealed else None
+        return self._unseal(session.account_id, session_id)
+
+    def _unseal(self, account_id: str, session_id: str) -> str | None:
+        sealed = self.store.shelf_sealed(account_id, session_id)
+        if not sealed or self.shelf_cipher is None:
+            return None
+        code = self.shelf_cipher.decrypt(sealed, self._shelf_context(account_id, session_id))
+        if code is not None and sealed.partition(":")[0] != self.shelf_cipher.key_id:
+            self.store.shelf_reseal(account_id, session_id, self.shelf_cipher.encrypt(code, self._shelf_context(account_id, session_id)))
+        return code
 
     def shelf_has(self, session: Session, session_id) -> bool:
         return isinstance(session_id, str) and self.store.shelf_sealed(session.account_id, session_id) is not None
@@ -803,6 +812,30 @@ class AccountsService:
 
     def shelf_ids(self, account_id: str) -> list[str]:
         return [session_id for session_id, _ in self.store.shelf_rows(account_id)]
+
+    def shelf_items(self, account_id: str) -> list[tuple[str, str | None]]:
+        """(conversation id, its code or None when it cannot be opened), for removing them."""
+        return [(session_id, self._unseal(account_id, session_id)) for session_id in self.shelf_ids(account_id)]
+
+    def note_erased(self, session_id: str, qc_tokens=()) -> None:
+        """Records that a conversation was erased, so a restored backup or a turn that was in flight
+        cannot bring it back. Only a keyed hash of the id and the review tokens are kept, for the
+        length of the backup window and a margin."""
+        expires = (self.today() + timedelta(days=self.limits.ledger_days)).isoformat()
+        self.store.note_erased(self.keys.secret_hash("erased", session_id), ",".join(qc_tokens), expires)
+
+    def erased_matches(self, session_ids) -> list[tuple[str, tuple[str, ...]]]:
+        """(conversation id, review tokens) for each given id the ledger says was erased."""
+        ledger = self.store.erased_rows()
+        if not ledger:
+            return []
+        found = []
+        for session_id in session_ids:
+            for candidate in self.keys.secret_candidates("erased", session_id):
+                if candidate in ledger:
+                    found.append((session_id, tuple(t for t in ledger[candidate].split(",") if t)))
+                    break
+        return found
 
     def stale_account_ids(self) -> list[str]:
         """Accounts unused for two years."""
@@ -847,10 +880,17 @@ class AccountsService:
 
     def purge_account(self, account_id: str, before=None) -> Result:
         if before is not None:
+            done: set[str] = set()
             try:
-                before(self.shelf_ids(account_id))
-            except Exception:  # noqa: BLE001 - nothing of the account is touched
-                logger.exception("an account's conversations could not be removed; the account is kept")
+                # Repeats until nothing new has been put on the shelf while it was being cleared.
+                for _ in range(3):
+                    items = [(i, c) for i, c in self.shelf_items(account_id) if i not in done]
+                    if not items:
+                        break
+                    before(items)
+                    done.update(i for i, _ in items)
+            except Exception:  # noqa: BLE001 - the account is kept, and a retry removes the rest
+                logger.exception("an account's conversations could not all be removed; the account is kept")
                 return Result("delete_failed")
         expires = (self.today() + timedelta(days=self.limits.ledger_days)).isoformat()
         account = self.store.account(account_id)

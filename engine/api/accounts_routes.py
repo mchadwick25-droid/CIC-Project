@@ -60,7 +60,7 @@ MESSAGES = {
     "codes_unavailable": "Codes cannot be added right now.",
     "shelf_taken": "That conversation is already on another account's shelf.",
     "shelf_full": "Your shelf is full. Delete a conversation to make room.",
-    "delete_failed": "We could not remove everything, so nothing was deleted. Please try again.",
+    "delete_failed": "We could not finish deleting. Please try again.",
     "code_taken": "That code belongs to another account.",
     "codes_full": "This account holds as many codes as it can.",
     "provider_cannot_use": "That sign-in cannot be added to this account.",
@@ -80,8 +80,11 @@ class AccountsRuntime:
     secure_cookie: bool = True
     miss_delay_seconds: float = MISS_DELAY_SECONDS
     start_floor_seconds: float = START_FLOOR_SECONDS
-    # Removes one conversation from every store that holds it; set when the app is built.
-    erase_conversation: Callable[[str], object] | None = None
+    # Set when the app is built: removes one conversation (given its id and, when known, its code)
+    # from every store that holds it, again by recorded review tokens, and lists the conversations.
+    erase_conversation: Callable[..., object] | None = None
+    erase_again: Callable[..., object] | None = None
+    list_conversations: Callable[[], list[str]] | None = None
 
     @property
     def cookie_name(self) -> str:
@@ -178,24 +181,61 @@ def sweep_unused_accounts(runtime: AccountsRuntime) -> int:
         return 0
     removed = 0
     for account_id in runtime.service.stale_account_ids():
-        if runtime.service.purge_account(account_id, lambda ids: [erase_one(i) for i in ids]).status == "ok":
+        # Checked again just before, so a person who signed in while the sweep ran keeps everything.
+        if account_id not in runtime.service.stale_account_ids():
+            continue
+        if runtime.service.purge_account(account_id, lambda items: [erase_one(i, c) for i, c in items]).status == "ok":
             removed += 1
     return removed
 
 
-def shelve_new_session(request: Request, session_id: str, code: str) -> None:
-    """A conversation opened while signed in goes on the shelf at once. A fault never fails the
-    opening of the conversation."""
+def reapply_erasures(runtime: AccountsRuntime) -> int:
+    """Erases again any conversation the ledger says was erased and that is back in the log, such
+    as one restored from a backup or written to by a turn that was in flight when it was deleted."""
+    if runtime.list_conversations is None or runtime.erase_again is None:
+        return 0
+    matches = runtime.service.erased_matches(runtime.list_conversations())
+    for session_id, tokens in matches:
+        runtime.erase_again(session_id, tokens)
+    return len(matches)
+
+
+def shelf_exemption_from_file(path: str):
+    """The exemption from the 90-day clearing, read straight from the account file when accounts are
+    switched off, so turning the flag off cannot delete what people saved. With no file, nothing is exempt."""
+    import os
+    import sqlite3
+
+    def _is_shelved(session_id: str) -> bool:
+        if not os.path.exists(path):
+            return False
+        conn = sqlite3.connect(f"file:{path}?mode=ro", uri=True, timeout=5.0)
+        try:
+            return conn.execute("SELECT 1 FROM shelf WHERE session_id = ?", (session_id,)).fetchone() is not None
+        except sqlite3.OperationalError:
+            return False  # a file made before the shelf existed holds no shelf
+        finally:
+            conn.close()
+
+    return _is_shelved
+
+
+def shelve_new_session(request: Request, session_id: str, code: str) -> bool | None:
+    """A conversation opened while signed in goes on the shelf at once. True when it did, False when
+    the person is signed in and it did not (so the app can say so), None when not signed in. A fault
+    never fails the opening of the conversation."""
     runtime = getattr(request.app.state, "accounts", None)
     cookie = request.cookies.get(runtime.cookie_name) if runtime is not None else None
     if not cookie:
-        return
+        return None
     try:
         session = runtime.service.session(cookie)
-        if session is not None:
-            runtime.service.shelf_add(session, session_id, code)
+        if session is None:
+            return None
+        return runtime.service.shelf_add(session, session_id, code).status == "ok"
     except Exception:  # noqa: BLE001
         logger.exception("a new conversation could not be put on the shelf")
+        return False
 
 
 def start_retention_thread(runtime: AccountsRuntime, *, every_seconds: int = 3600) -> None:
@@ -211,6 +251,12 @@ def start_retention_thread(runtime: AccountsRuntime, *, every_seconds: int = 360
                     removed = sweep_unused_accounts(runtime)
                     if removed:
                         logger.info("accounts unused for two years removed: %d", removed)
+                if reapply_erasures(runtime):
+                    logger.info("erased conversations found again and erased")
+                if runtime.service.shelf_cipher is not None:
+                    older = runtime.service.store.shelf_on_older_keys(runtime.service.shelf_cipher.key_id)
+                    if older:
+                        logger.info("shelved codes still sealed under an older key: %d", older)
                 older = runtime.service.store.accounts_on_older_keys(runtime.service.keys.key_id)
                 if older:
                     logger.info("accounts still on an older address key: %d", older)
@@ -293,17 +339,20 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         if deps is None:
             return None
         return shelf.ConversationEraser(
-            deps.store, deps.usage_store, getattr(app.state, "feedback_store", None), deps.qc_recorder, deps.m7_audit_root
+            deps.store, deps.usage_store, getattr(app.state, "feedback_store", None), deps.qc_recorder, deps.m7_audit_root,
+            on_erased=service.note_erased,
         )
 
-    def _erase_all(ids: list[str]) -> None:
+    def _erase_all(items: list[tuple[str, str | None]]) -> None:
         eraser = _eraser()
-        if eraser is None and ids:
+        if eraser is None and items:
             raise RuntimeError("no way to erase a conversation")
-        for session_id in ids:
-            eraser.erase(session_id)
+        for session_id, code in items:
+            eraser.erase(session_id, code)
 
-    runtime.erase_conversation = lambda session_id: _erase_all([session_id])
+    runtime.erase_conversation = lambda session_id, code=None: _erase_all([(session_id, code)])
+    runtime.erase_again = lambda session_id, tokens=(): _eraser().erase_again(session_id, tokens)
+    runtime.list_conversations = lambda: app.state.deps.store.list_session_ids()
 
     def _seed_allowance(request: Request, result: Result) -> None:
         """A new account starts with what is left of its browser's free window, so signing up
@@ -506,8 +555,9 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
                     service.shelf_remove(session, body.session_id)  # the conversation is gone
                 return None
             described = shelf.describe(deps.store, deps.registry, body.session_id)
+            # When it cannot be read, the resources line is shown: caution is the default.
             return {"session_id": body.session_id, "session_code": code,
-                    "holds_crisis_turn": bool(described and described["holds_crisis_turn"])}
+                    "holds_crisis_turn": True if described is None else described["holds_crisis_turn"]}
 
         opened = await run_in_threadpool(_open)
         if opened is None:
@@ -523,7 +573,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         def _delete():
             if not service.shelf_has(session, body.session_id):
                 return False
-            _erase_all([body.session_id])
+            _erase_all([(body.session_id, service.shelf_open(session, body.session_id))])
             service.shelf_remove(session, body.session_id)
             return True
 
@@ -690,9 +740,13 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
             out = []
             for session_id, saved in service.shelf_list(session):
                 described = shelf.describe(deps.store, deps.registry, session_id)
-                if described is not None:
-                    state = wiring.get_transcript(deps.store, session_id)
-                    out.append({**described, "saved": saved, "transcript": state.transcript})
+                if described is None:
+                    continue
+                try:
+                    transcript = wiring.get_transcript(deps.store, session_id).transcript
+                except wiring.SessionNotFound:
+                    continue
+                out.append({**described, "saved": saved, "transcript": transcript})
             return out
 
         return {"status": "ok", "account": result.data, "conversations": await run_in_threadpool(_conversations)}

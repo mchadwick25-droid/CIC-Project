@@ -14,6 +14,8 @@ import sqlite3
 from datetime import date, timedelta
 from pathlib import Path
 
+from engine import sqlite_scrub as scrub
+
 DDL = """
 CREATE TABLE IF NOT EXISTS qc_turn (
   conversation_token TEXT    NOT NULL,
@@ -81,7 +83,7 @@ class QCStore:
         with self._connect() as conn:
             deleted = conn.execute("DELETE FROM qc_turn WHERE conversation_token = ?", (conversation_token,)).rowcount
             conn.commit()
-            conn.execute("PRAGMA wal_checkpoint(TRUNCATE)")
+            scrub.truncate_wal(conn)
         return deleted
 
     def expire_answers(self, today: date) -> int:

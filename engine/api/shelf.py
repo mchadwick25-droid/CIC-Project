@@ -63,17 +63,22 @@ class ConversationEraser:
     feedback rows that name it, the quality-control rows (found by their keyed token) and its id on
     the usage rows (the token counts stay, for the cost record). Each step is safe to repeat."""
 
-    def __init__(self, store, usage_store, feedback_store, qc_recorder, audit_root):
+    def __init__(self, store, usage_store, feedback_store, qc_recorder, audit_root, on_erased=None):
+        self.on_erased = on_erased
         self.store = store
         self.usage_store = usage_store
         self.feedback_store = feedback_store
         self.qc_recorder = qc_recorder
         self.audit_root = Path(audit_root) if audit_root else None
 
-    def erase(self, session_id: str) -> dict:
+    def erase(self, session_id: str, code: str | None = None) -> dict:
+        """Erases one conversation. With its code the review rows are found by their keyed token;
+        without it only a conversation the process still remembers can be."""
         counts = {}
+        tokens: tuple[str, ...] = ()
         if self.qc_recorder is not None:
-            counts["qc_rows"] = self.qc_recorder.forget(session_id)
+            tokens = self.qc_recorder.forget(session_id, code)
+            counts["qc_tokens"] = len(tokens)
         if self.feedback_store is not None:
             counts["feedback_rows"] = self.feedback_store.delete_session(session_id)
         if self.usage_store is not None:
@@ -81,4 +86,13 @@ class ConversationEraser:
         if self.audit_root is not None:
             counts["audit_files"] = erase.erase_session(self.audit_root, session_id)
         counts["events"] = self.store.delete_session(session_id)
+        if self.on_erased is not None:
+            self.on_erased(session_id, tokens)
+        return counts
+
+    def erase_again(self, session_id: str, qc_tokens: tuple[str, ...] = ()) -> dict:
+        """Erases a conversation that came back (from a restored backup) or was written to while
+        its deletion ran, by the tokens the first deletion recorded."""
+        counts = {"qc_rows": sum(self.qc_recorder.forget_token(t) for t in qc_tokens) if self.qc_recorder is not None else 0}
+        counts.update(self.erase(session_id))
         return counts

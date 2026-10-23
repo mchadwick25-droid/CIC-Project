@@ -19,6 +19,8 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 
+from engine import sqlite_scrub as scrub
+
 DDL = """
 CREATE TABLE IF NOT EXISTS session_events (
   session_id  TEXT    NOT NULL,
@@ -131,7 +133,7 @@ class Store:
         with self._connect() as conn:
             deleted = conn.execute("DELETE FROM session_events WHERE session_id = ?", (session_id,)).rowcount
             conn.commit()
-            conn.execute("PRAGMA wal_checkpoint(TRUNCATE)")  # the deleted rows leave the journal file too
+            scrub.truncate_wal(conn)  # the deleted rows leave the journal file too
         return deleted
 
     def purge_inactive(self, cutoff: str, is_exempt: Callable[[str], bool] = lambda _sid: False) -> int:
@@ -149,6 +151,8 @@ class Store:
             for sid in stale:
                 conn.execute("DELETE FROM session_events WHERE session_id = ?", (sid,))
             conn.commit()
+            if stale:
+                scrub.truncate_wal(conn)
         return len(stale)
 
     def list_session_ids(self, since: str | None = None) -> list[str]:
