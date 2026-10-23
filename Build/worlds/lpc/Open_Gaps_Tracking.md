@@ -1538,3 +1538,124 @@ Logged 2026-10-23 by the `lpc` build thread after the project lead's rulings (De
 - **Rendering spend.** Modern-English renderings are authored by Opus 5.5 and checked by a separate Opus pass. No rendering run may start without a live test Mark approves by name with a cap. Open.
 - **Library page.** Deferred under D5. It depends on the parked Library work. Open.
 - **Authenticity.** Which sermons are Augustine's, and which belong to the doubtful appendix or to Morin's finds, must be set per sermon with a confidence tag. Open.
+
+### OG-29. Doc_03's governance question: Part II tags at the candidate stage, and [CT] without a Contest Type — open, portfolio-level, no ruling (2026-10-23).
+
+Logged 2026-10-23 from `Review-Artifacts/L0_Docs03-05-06-07_Recheck_2026-10-23.md`. It gives the item named in one clause of OG-22 (Phase L0 checks, 2026-09-29) its own entry.
+
+- **The question.** Doc_03's Notes ("Tags") and its escalation assessment log two questions for a coach/System-Hub pass. (1) Should every Doc_03 carry Interpretive Lexicon Development Framework V2.1 Part II tags at candidate stage, or is that a Step 6 duty? (2) May [CT] be assigned at candidate stage without its Contest Type, which Part II requires wherever [CT] is applied?
+- **Why it is portfolio-level.** Two worlds took different routes. Imperial-Juridical deferred all tags. `lpc` applied tags and deferred only the Contest Type.
+- **State.** No ruling in `lpc_Decision_Log.md` or the System Hub Decision Log. For `lpc`, question (2) is discharged in substance: Doc_06 §3 supplies the Contest Type for all three [CT] terms (*grace*, *schism*, *"compel them to come in"*). The portfolio question stays open.
+- **Owner.** The project lead (governance/methodology). Not this build thread.
+- **Closes when** a ruling is recorded in the System Hub Decision Log and this entry cites it.
+
+### OG-30. Doc_03's two discovery gaps — the Manichaean *Elect*/*Hearers* lead and the epidemic/mortality absence — open (2026-10-23).
+
+Logged 2026-10-23 from the Phase L0 recheck of the same date.
+
+- **Manichaean half of the grace/purity candidate (Registry row 22).** Doc_03 names *Elect* and *Hearers* as leads located but not checked. In `npnf104_augustine-anti-manichaean-anti-donatist.xml`, *hearers* occurs 12 times case-insensitively and 4 times capitalised; *Elect* occurs 31 times, mixed with ordinary theological use. Neither has been read in context. Related: Doc_05 §11 item 5 (Doc_04 §7 item 4), where the anti-Manichaean candidate was never tested on its own. Also open.
+- **Epidemic/mortality (row 5, *De Mortalitate*).** Doc_03 records an absence: no specific recurring headword beyond ordinary words for the plague. That is a finding, not an unfinished search. It still needs to be carried so that no later pass treats the lexicon as having missed it.
+- **Owner.** The `lpc` build thread.
+- **Closes when** the *Elect*/*Hearers* leads are read in context and either proposed as candidates or recorded as not this world's vocabulary. Note that opponent-characterising vocabulary is Article 23's under Doc_03's own routing. And the epidemic absence must be recorded as an absence record (`honest_limit` or `kind: absence`), or confirmed already recorded.
+
+### OG-31. Doc_03's unswept rows (1, 19, 21) and the diminishing-returns point not reached — open, and widened by the sermon-scope decision (2026-10-23).
+
+Logged 2026-10-23 from the Phase L0 recheck of the same date.
+
+- **What Doc_03 says.** Its discovery pass did not sweep every Registry row and does not claim the diminishing-returns point. It names rows 1, 19 and 21 as next. It counts "212 rows"; the merged Registry now has 308.
+- **What has overtaken it.** Doc_06 §2.4 added *certificates* (`lpclex019`). The 2026-09-19 liturgical reads propose seven candidates (OG-34). Neither went through Doc_03.
+- **What widens it.** OG-28 (scope expansion to all of Augustine's sermons, 2026-10-23, D1). Row 19 is the NPNF body of about 97 sermons. The world's sermon scope is now the whole corpus, so a sweep of row 19 alone no longer covers it.
+- **Owner.** The `lpc` build thread, after the Doc_01/Doc_02 scope change order in OG-28.
+- **Closes when** rows 1, 19 and 21, and the sermon corpus as OG-28 defines it, have been swept with the matching rule stated (OG-36). Any new candidate must be added by a named change order to Doc_03 or Doc_06, since both are Approved to proceed.
+
+### OG-32. Doc_06's carried Round 2 and Round 3 findings — M-N3 (now in two term records), L-N2 residue, L-N3, C-N1, M-R2 residue — open (2026-10-23).
+
+Logged 2026-10-23 from the Phase L0 recheck of the same date. It expands the lexicon bullet of OG-22 (Phase L0 checks, 2026-09-29). Doc_06 is at the three-round cap, so a fix reviewed as a Doc_06 round would be a fourth and must go to the project lead. The other route is to fix at the record layer and check it under the record review.
+
+- **M-N3 (P1).** `lpclex017`, `lpclex018`, Doc_06 §2.3 and Doc_03's "correct source (row 8, not row 2)" say *libelli* and *libellatici*/*sacrificati* rest on a gloss or an editorial endnote. The term records `lpc.term.libelli.md` and `lpc.term.libellatici-sacrificati.md` carry `formation_confidence: Inferential-Thin`, and their spoken `senses.evidential` field repeats the claim in build vocabulary. Cyprian names both classes in his own text. ANF Ep. LI (row 1): *"those who receive certificates are to be put on a par with those who have sacrificed"*. Hartel Ep. 55 (row 39): *"libellaticos cum sacrificatis aequari"*, *"libellaticos interim admitti, sacrificatis in exitu subueniri"*. Only the claim that the Latin headword is absent from the English holds. *Fix:* cite rows 1 and 39, re-set `formation_confidence`, strip build vocabulary from `senses.evidential`, then align the chunks.
+- **L-N2 residue (P2).** Review-round narration in deployment chunks: `lpclex012` Key Sources ("across all nine of Doc_01's review rounds"), `lpclex016` Key Sources ("re-verified across …"), and `lpclex019`'s correction paragraph in Key Sources. `lpclex019`'s Final Assembly line calls that paragraph a "bracketed block", though it has no brackets. The index header (line 5) and §§3–6 (lines 92, 104, 110, 129) narrate Rounds 1–3.
+- **L-N3 (P2).** The zero-Tier-3 result (Doc_06 §2.3, index §2) rests on a premise Doc_03 does not state ("generated from gravity-bearing vocabulary"). Round 2 found the conclusion survives. *Fix:* restate the ground from the tier test itself.
+- **C-N1 (P2).** `lpclex019` World Meaning prints *Designate by name…* and *Certificates are so given…*. The ANF reads lower-case, mid-sentence. *Fix:* restore the source's case or mark the change.
+- **M-R2 residue (P2).** Doc_06 §5 item 7 gives "42 times" without the 38 that remain once the 4 `<note>` hits are removed. §2.4 and `lpclex019` give both.
+- **Owner.** The `lpc` build thread, for the chunks and the two records. The project lead decides the review route at the cap.
+- **Closes when** each site above is corrected and an independent check confirms it.
+
+### OG-33. The *suffrage* entry carries no [DR] although Doc_06 names it a captured-sense distortion — open (2026-10-23).
+
+Logged 2026-10-23 from the Phase L0 recheck of the same date.
+
+- **The tension.** Doc_06 §4 shape 2 names *suffrage* with *confessor* as a word captured by a later sense ("a franchise, where this world has acclamation without procedure"). `lpclex011` and index row 11 carry [AS] only. Index §3 (line 92) records it as "Carried from Round 2, unresolved".
+- **Why it matters.** [DR] is the correction set at runtime (LDF Part V). An untagged distortion is not in the set the Representative is steered by.
+- **Owner.** The `lpc` build thread. Doc_06's round cap applies (OG-32).
+- **Closes when** either [DR] is added to `lpclex011`, the index row and the term record, or the entry states why the distortion falls below the [DR] threshold and Doc_06 §4 is aligned with it.
+
+### OG-34. The liturgical-read lexicon candidates of 2026-09-19 have not been integrated or ruled on — open (2026-10-23).
+
+Logged 2026-10-23 from the Phase L0 recheck of the same date.
+
+- **The candidates.** `Review-Artifacts/Liturgical_Evidence_Read_Cyprian_2026-09-19.md` §3: A *manus impositio* (the reconciling rite), B *exomologesis* (the public-confession stage), C *chrisma*/*unctio* (post-baptismal anointing), D *interrogatio* (the baptismal questioning). `Review-Artifacts/Liturgical_Evidence_Read_Augustine_2026-09-19.md` §3: 1 *manus impositio* (reconciling one baptized outside), 2 *renuntiatio* (the renunciation formula), 3 *sacramentum salis* (offered as weaker). A and 1 overlap.
+- **State.** None is in any chunk, in the index, in Doc_06 or in `records/lpc/term/`. Context chunks `lpcctx002`–`004` already draw on the reads. Doc_05 §11 item 7, Doc_06 §5 item 3 and Doc_07 §8 item 8 still say the reading has not been done.
+- **One fidelity point for integration.** The Augustine read gives Candidate 3's name a confidence of "Not Attested". That is not a confidence level. The absence of the name in Augustine's own words must be modelled as an absence record (`honest_limit` / `absent_detail` / `kind: absence`), with the practice tagged separately.
+- **Owner.** The project lead decides scope: new terms, an amendment to Doc_06 by change order, or neither. Doc_03 and Doc_06 are Approved to proceed, and Doc_06 is at the round cap. Then the `lpc` build thread.
+- **Closes when** the scope decision is recorded and either the terms are built and checked, or the decision not to add them is recorded with its reason, and the three stale sentences are corrected.
+
+### OG-35. Doc_05 §11 item 13 — Article 20's against-the-grain condition applied to personal correspondence — awaiting the project lead (2026-10-23).
+
+Logged 2026-10-23 from the Phase L0 recheck of the same date. OG-22 (2026-09-29) refers to it only as one of "Doc_05 §11 items".
+
+- **The question.** Doc_05 §1.4 discharges Article 20's secondary prong on the Hippo congregation of 411, read against the grain. §11 item 13 says the reading extends the condition to a genre the Framework does not name, and flags it "for the project lead to confirm or reject".
+- **What depends on it.** If rejected, §1.4's bounded reconstruction falls and the secondary prong reverts to undischarged for `lpc` (Doc_02 §9 items 4 and 5). Doc_05 §11 item 6 directs Doc_07 to build on the same crowd.
+- **State.** No ruling in either Decision Log.
+- **Owner.** The project lead (methodology).
+- **Closes when** a confirm-or-reject ruling is recorded and Doc_05 §11 item 13 cites it.
+
+### OG-36. Discovery method and matching rule — Doc_06 §5 items 5 and 7, Doc_05 §11 item 14 — open (2026-10-23).
+
+Logged 2026-10-23 from the Phase L0 recheck of the same date.
+
+- **Discovery method (Doc_06 §5 item 7).** A headword sweep in the original language cannot find a term the vendored corpus only names in translation. Doc_03 swept *libelli*, found it absent from the English, and missed *certificate(s)* (42 hits in the Cyprian `div1`, 38 outside `<note>`). Every frequency-based discovery judgement in Doc_03 rests on that method. Flagged for the project lead as a method question that bears on every world whose corpus is a translation.
+- **Matching rule (Doc_05 §11 item 14; Doc_06 §5 item 5).** Doc_03 gives counts without a rule. The flock/shepherd/pastor figure gives 113 by substring and 109 by word boundary. Its counts also include the NPNF/ANF apparatus: in the Cyprian `div1`, *confessor(s)* 150 → 139, *the lapsed* 96 → 91, *flock/shepherd/pastor* 113 → 106 with notes removed (2026-09-29 check, P2-3). The *Hearers* figure (12) is case-insensitive; 4 are capitalised. No tier changes.
+- **Owner.** The project lead for the method question (governance/methodology, possibly portfolio). The `lpc` build thread for stating the rule in Doc_03 by change order.
+- **Closes when** the method question is ruled and Doc_03's counts state their rule and their `<note>` treatment.
+
+### OG-37. Doc_07 §8 item 10 — the condensing pass on §2 — open (2026-10-23).
+
+Logged 2026-10-23 from the Phase L0 recheck of the same date.
+
+- **The item.** Doc_07 §8 item 10 says the document runs about 12% over the L4 template's word target, and that the overage grew across two fix passes. §1 gives "about 6,650 prose words". The 2026-09-29 check counted 6,452 before the Document Log and 6,961 for the whole file, so the two figures do not agree.
+- **State.** No condensing pass has been run.
+- **Owner.** The `lpc` build thread, in the same targeted pass that closes the Doc_07 items in OG-22 (NEW-L2, L4, L5, C2; §2F; the V1.3 citation; the stale §8.8 and §8.9).
+- **Closes when** §2 is condensed or the overage is accepted with a stated reason, and §1 and §8.10 agree on one measured figure with its rule.
+
+---
+
+## What goes to the project lead
+
+1. The Doc_05 lens spine: options A to D in (2).
+2. Doc_06 at the cap: the review route for OG-32 and OG-33.
+3. OG-34's scope decision on the liturgical candidates.
+4. OG-35, Article 20 applied to personal correspondence.
+5. OG-29 and OG-36, both methodology questions.
+
+Everything else is mechanical: one targeted fix pass per document and the OGT appends.
+
+
+### OG-38. Doc_04's stale pointers to closed Open Items 6 and 8, repeated in approved downstream files — open, needs one change order (2026-10-23).
+
+Logged 2026-10-23 from `Review-Artifacts/L0_Doc04_Carried_Open_Check_2026-10-23.md` (finding F1, substantial).
+
+- **The defect.** Open Items 6 and 8 of Doc_04 closed on 2026-09-15, but Doc_04 lines 97, 105, 208 and 266 still treat them as open. Approved files repeat it: Doc_05 lines 25, 173, 317, 354 and 355 (line 317 says the *Gesta* could change G5, which the precedent rules out), Doc_07 lines 94, 234 and 250, Doc_08 line 358, the G5 gravity record lines 85 and 86, and the 411 limit record.
+- **No downstream gravity, classification or force link changes.** The review found none.
+- **Smaller findings (P2), same file:** F2 correction narration copied into the G1 record; F3 Doc_04 lines 7 and 212 out of date after row 65 was amended; F4 world core caution 9 says "thirteen" without the floor row 65 asks for; F5 the OCR string quoted for act 158 differs from the file; F6 process narration in two record bodies.
+- **Owner.** The `lpc` build thread, by one named change order that also carries the sermon-scope change of OG-28.
+- **Closes when** every site is corrected and an independent check sweeps outward from each.
+
+### OG-39. Doc_02 and Source Registry: five P1 findings and the 258 to 391 gap decision — open (2026-10-23).
+
+Logged 2026-10-23 from `Review-Artifacts/L0_Doc02_Registry_Check_2026-10-23.md` (verdict: not clear; 0 P0, 5 P1, 6 P2).
+
+- **P1 findings.** Seven Registry rows (215 to 219, 221, 222) say "not assigned" for files the corpus map now assigns; Doc_02 §3 says "fifteen works, seventeen files" against about 20 works in 29 files; Doc_02 line 47 omits the vendored PL 38, PL 39 and Morin 1930 sermon files; the corpus map says "fourteen" acts of the 411 Conference while row 65 says thirteen; the §7 gap claim.
+- **The §7 gap claim (line 120).** Contradicted by Optatus (rows 27, 64, 300, 301) and by rows 22, 25, 223, 228, 235, 59, 44 and 88, which OG-25 does not name. The reviewer sets out four options and recommends restating §7 to Doc_01's narrower test (no surviving ordinary-pastoral voice). The project lead decides; not decided here.
+- **Sermon change order.** Doc_02 lines 7, 13, 17, 29, 47, 108, 135, 136/154 and 150 need the change order of OG-28.
+- **Owner.** The project lead for the §7 decision; the `lpc` build thread for the rest.
+- **Closes when** the project lead rules on §7 and an independent check confirms the corrected counts and rows.
