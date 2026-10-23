@@ -17,6 +17,7 @@ import shutil
 import threading
 import time
 from dataclasses import asdict, dataclass
+from datetime import datetime, timezone
 from pathlib import Path
 
 from fastapi import FastAPI, Header, HTTPException, Request
@@ -25,7 +26,7 @@ from fastapi.responses import FileResponse, JSONResponse, Response, StreamingRes
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from engine.api import accounts_routes, admin_auth, anon_cap, db_backup, deeper_admission, deeper_routes, feedback_routes, ratelimit, required_secrets, table_wiring, wiring
+from engine.api import accounts_routes, admin_auth, anon_cap, cost_report, db_backup, deeper_admission, deeper_routes, feedback_routes, ratelimit, required_secrets, table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings, normalize_environ
 from engine.accounts.config import AccountsConfig
 from engine.deeper.config import DeeperConfig
@@ -906,6 +907,15 @@ def create_app(
         _authenticate_admin(deps.admin_token, authorization, session_token=request.cookies.get(admin_auth.SESSION_COOKIE_NAME))
         summary = wiring.get_usage_summary(deps.store, deps.usage_store, since=since, m7_audit_root=deps.m7_audit_root)
         return UsageSummaryResponse(**asdict(summary))
+
+    @app.get("/api/admin/cost-report")
+    def get_cost_report_endpoint(request: Request, authorization: str | None = Header(default=None)):
+        """Operator-only, same gate as usage-summary: what a voiced round and a
+        safety check cost, from the usage log. Aggregate numbers only; see
+        engine.api.cost_report for how a round is rebuilt from the log."""
+        deps: Deps = request.app.state.deps
+        _authenticate_admin(deps.admin_token, authorization, session_token=request.cookies.get(admin_auth.SESSION_COOKIE_NAME))
+        return cost_report.report_for(deps.store, deps.usage_store, datetime.now(timezone.utc))
 
     @app.get("/api/admin/auth-status", response_model=AdminAuthStatusResponse)
     def get_admin_auth_status(request: Request):
