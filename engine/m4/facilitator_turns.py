@@ -222,11 +222,9 @@ def session_cap_turn(representative_name: str, limit_text: str | None = None) ->
     return {"kind": SESSION_CAP.kind, "text": SESSION_CAP.text}
 
 
-# The monthly bound on messages that get a safety check and no Representative
-# reply. Past it a message is not read by any model: this fixed line is the
-# whole reply, and the redirect to real people is part of it every time, so a
-# person in crisis who sends a message past the bound still sees it. DRAFT
-# words, for Mark's approval before they ship.
+# The reply past the monthly bound on messages that get a safety check and no
+# Representative reply. No model reads the message; this fixed line is the whole
+# reply, and the redirect to real people is part of it every time.
 VISITOR_BOUND = FacilitatorTurn(
     kind="limit",
     text=(

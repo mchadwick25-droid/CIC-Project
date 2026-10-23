@@ -195,13 +195,17 @@ def test_the_access_log_filter_drops_accounts_lines_only():
 
 def test_start_up_refuses_with_no_key_a_short_key_or_no_mail(tmp_path, mailer):
     config = AccountsConfig.from_env(str(tmp_path))
-    contact_key = "c" * 40
-    env = {"CIC_ACCOUNTS_KEY": ADDRESS_KEY, "CIC_ACCOUNTS_SESSION_KEY": SESSION_KEY, "CIC_ACCOUNTS_CONTACT_KEY": contact_key}
+    contact_key, shelf_key = "c" * 40, "h" * 40
+    env = {"CIC_ACCOUNTS_KEY": ADDRESS_KEY, "CIC_ACCOUNTS_SESSION_KEY": SESSION_KEY, "CIC_ACCOUNTS_CONTACT_KEY": contact_key,
+           "CIC_ACCOUNTS_SHELF_KEY": shelf_key}
     with pytest.raises(AccountsConfigError):
         build_runtime(config, {}, mailer)
     for bad in ("", "short", ADDRESS_KEY, SESSION_KEY):
         with pytest.raises(AccountsConfigError, match="contact key"):
             build_runtime(config, {**env, "CIC_ACCOUNTS_CONTACT_KEY": bad}, mailer)
+    for bad in ("", "short", ADDRESS_KEY, SESSION_KEY, contact_key):
+        with pytest.raises(AccountsConfigError, match="shelf key"):
+            build_runtime(config, {**env, "CIC_ACCOUNTS_SHELF_KEY": bad}, mailer)
     with pytest.raises(AccountsConfigError):
         build_runtime(config, {**env, "CIC_ACCOUNTS_KEY": "short"}, mailer)
     with pytest.raises(AccountsConfigError):
