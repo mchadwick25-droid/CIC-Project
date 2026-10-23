@@ -2335,3 +2335,35 @@ Script re-run after both fixes; gate battery re-verified unchanged (271 records,
 **Disposition: Approved to proceed (build-thread self-disposition, CO-022).** No escalation category applies. **This unblocks Part 5 (contested_claim records).**
 
 ---
+
+---
+
+### 2026-10-23 — Scope expansion to Augustine's sermons: five decisions, converged with the project lead
+
+**Convergence.** The project lead ruled in this thread's chat on 2026-10-23, in the Kaner order (divergent, groan, convergent), and then said "Converged, auto mode." Three decisions were put to him one at a time and answered directly (D2, D3, D4, D5 below). D1 reached this thread as a relayed message from the system and pilot feedback thread; the project lead was shown the quoted wording and replied to the Representative question that depended on it, but did not restate D1 himself.
+
+**D1. Scope.** All of Augustine's sermons are rendered into modern English and categorized the way other worlds are (quotes, stories, lexicon, general reference), so the room can answer broad and in-depth questions about Augustine.
+- Alternatives shown: Datus quotes only; Datus reads whole sermons with the participant; a browsable library page; all three, staged.
+- Source of the choice: the relayed words of the project lead. Treated as direction, not independently confirmed.
+
+**D2. Representative.** Datus stays the Representative. The name stays and the role goes: no "Bishop of the Kept Flock" title.
+- Alternatives shown: (1) name stays, role goes; (2) composite voice with no persona framing; (3) another ruling the project lead would point to.
+- Chosen: option 1 (project lead, 2026-10-23, "Option 1, the name stays and the role goes").
+- Not found in the repository: any ruling that removed the role for all representatives. The Redesign-Spec (Artifact-1 line 23; CiC-Program-Spec lines 55 and 166) still carries `role_label`. Logged in Open_Gaps as the next entry.
+- Escalation category: Representative identity, name or title. Decided by the project lead, so no further escalation; Doc_10 must follow it.
+
+**D3. Reformation boundary (portfolio-level, cross-world).** LPC answers only what Augustine's own text says. A Reformation question gets a plain statement that it lies past Datus's horizon and a pointer to world `rzg` (The Reformed Cities: Zurich and Geneva). Where the sermons do not speak to a question, an absence record says so.
+- Alternatives shown: (1) strict Augustine-text boundary; (2) the same plus a Facilitator note on later reception; (3) LPC builds its own reception records.
+- Chosen: option 1 (project lead, 2026-10-23, "1"). The thread's recommendation was option 2; the project lead chose option 1.
+
+**D4. Order.** The 97 sermons that have a published English translation (`npnf106`, "Sermons on Selected Lessons of the New Testament," 97 sermon divisions, counted from the vendored file) go first. The rest follow by theme. The Maurist appendix of doubtful sermons stays out.
+- Alternatives shown: Maurist number order; themes first.
+- Chosen: the 97 first, then by theme (project lead, 2026-10-23, "3").
+
+**D5. Surfacing.** Each quote the room speaks shows its sermon number and Latin source reference now. A library page waits until the parked Library work is unparked.
+- Alternatives shown: room only; room plus source line; room plus library page; staged.
+- Chosen: staged (project lead, 2026-10-23, "4").
+
+**What this changes in approved documents.** D1 moves a scope boundary of Doc_01 and Doc_02 (the world is bounded to pastoral life and Augustine's preaching, not the whole sermon corpus). That is a substantial change under the build-cycle skill. It is therefore a change order, not an edit: it needs its own review file under the three-round cap. No approved document is edited by this entry.
+
+**Not yet decided.** The metered-spend ceiling for rendering; Doc_10 pilot status; the registry entry and `safety_adjacent`. Those stay with the project lead (stop point 1).

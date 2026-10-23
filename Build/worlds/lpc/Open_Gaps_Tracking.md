@@ -1524,3 +1524,17 @@ Logged 2026-09-30 by the Library thread. It updates the `records/lpc` bullet of 
 - **Corrected.** `source/lpc.source.lancel-actes-de-la-conference-de-carthage-411.md`: `rights_status` now says Lancel's edition is in copyright and consultation-only, and the *Gesta* text is public domain by date in the Migne PL 11 and Mansi tom. 4 printings; the act count is thirteen (act 158 is a subscription); and the record says Doc_04 relies on act 158. `honest_limit/lpc.limit.411-gesta-unread.md`: the source's `license` is `in-copyright-consultation`.
 - **World core corrected.** `world_core/lpc.core.latin-pastoral-congregational-christianity.md` (the horizon and caution 9) now says thirteen acts and names the one fact drawn from the *Gesta*, that act 158 is a signature on the mandate.
 - **Still open.** Three readability findings predate these edits and are unchanged: the 411-Gesta limit record's statement scores FRE 55.2, and the world core's horizon and formation_logic score FRE 55.1 and 56.4, against the floor of 60.
+
+
+### OG-28. Scope expansion to all of Augustine's sermons: what it changes and what stays open (2026-10-23).
+
+Logged 2026-10-23 by the `lpc` build thread after the project lead's rulings (Decision Log entry of the same date, D1 to D5).
+
+- **Doc_01 and Doc_02 scope boundary.** D1 widens the world from pastoral life to the whole sermon corpus. A change order is needed, with its own review file. Open.
+- **Representative role.** D2 removes the role from Datus, but no repository ruling "removing the role for all representatives" was found (Redesign-Spec still carries `role_label`). Doc_10, the Permanent Prompt, the Capsule Core and `lpc_World_Profile.md` still use "Bishop of the Kept Flock". Term propagation across every file is needed once Doc_10 is drafted. Open. Ask the System Hub thread where the fleet-wide ruling lives.
+- **Reformation boundary (portfolio-level).** D3 is cross-world with `rzg`. `rzg` Doc_01, Doc_03 and Doc_08 already name Augustine as an inherited source. Check that the two worlds do not contradict each other. Open.
+- **Latin source quality.** The PL 38 file (`augustine_sermones-1-340-lat_migne-pl38.txt`) is an OCR scan of a Google Books copy. Its sermon headings read "SERMO PRIMUS", "SERMO 11", "SERMO Ili", "SERMO IV" more than once. Quote verification against it will meet OCR errors, and heading numbers cannot be trusted for the inventory. Open until a clean sermon inventory is built and the OCR error rate on quoted passages is measured.
+- **English translation.** Only 97 sermons have a published English translation (`npnf106`). The other sermons have none, so every modern rendering is new work.
+- **Rendering spend.** Modern-English renderings are authored by Opus 5.5 and checked by a separate Opus pass. No rendering run may start without a live test Mark approves by name with a cap. Open.
+- **Library page.** Deferred under D5. It depends on the parked Library work. Open.
+- **Authenticity.** Which sermons are Augustine's, and which belong to the doubtful appendix or to Morin's finds, must be set per sermon with a confidence tag. Open.
