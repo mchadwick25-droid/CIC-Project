@@ -28,3 +28,14 @@ assignments:
       quote-verified against the file (a task for whoever next cites them
       specifically); only their presence in the vendored file's own
       contents listing is confirmed.
+
+  - row_id: philoxenus-of-mabbug_discourses_budge1894--egyptian-communion-context
+    work: "The Discourses of Philoxenus (a Syrian bishop of the same anti-Chalcedonian communion)"
+    author: philoxenus-of-mabbug
+    locus: "whole file"
+    atlas_ids:
+      - cyrilline-miaphysite-egyptian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      A sister church's ascetic teaching; tier 3, provisional.

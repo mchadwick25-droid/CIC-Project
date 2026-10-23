@@ -1,0 +1,28 @@
+source_file: cosmas-indicopleustes_christian-topography_mccrindle1897.txt
+
+assignments:
+  - row_id: cosmas-indicopleustes_christian-topography_mccrindle1897--books-ii-iii-adulis-aksum
+    work: "Christian Topography, Books II-III (Adulis, the Aksumite king Elesbaan and the Himyarite expedition; the churches of Ethiopia, Persia and India)"
+    author: cosmas-indicopleustes
+    locus: "Book II (raw lines ~4050-4055) and Book III (~7244-7246)"
+    atlas_ids:
+      - aksumite-christianity
+      - st-thomas-christians-of-india
+    role: context
+    confidence: assigned
+    note: >
+      A merchant's own visit to Adulis c. 525 and his survey of the churches of the Indian
+      Ocean world: the only contemporary outside witness to Aksum in English.
+
+  - row_id: cosmas-indicopleustes_christian-topography_mccrindle1897--whole-work-alexandrian-cosmography
+    work: "Christian Topography (whole work): an Alexandrian layman's cosmography of the 550s"
+    author: cosmas-indicopleustes
+    locus: "whole text"
+    atlas_ids:
+      - cyrilline-miaphysite-egyptian-christianity
+      - the-church-of-the-east-under-persia
+    role: context
+    confidence: provisional
+    note: >
+      Cosmas's teacher was the East Syrian Mar Aba; scholarship treats his confession as
+      Nestorian-leaning. Provisional on his affiliation.

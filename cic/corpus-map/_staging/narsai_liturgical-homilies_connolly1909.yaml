@@ -1,0 +1,22 @@
+source_file: narsai_liturgical-homilies_connolly1909.txt
+
+authors_ruled:
+  narsai:
+    kind: metadata-omission
+    evidence: >
+      The volume's title page names Narsai as the homilist; the host record names him in its
+      creator field but the corpus-map has no earlier ruling for the slug.
+    from_file: narsai_liturgical-homilies_connolly1909.txt
+
+assignments:
+  - row_id: narsai_liturgical-homilies_connolly1909--liturgical-homilies
+    work: "Narsai, Liturgical Homilies XVII (A), XXII (B), XXI (C), XXXII (D)"
+    author: narsai
+    locus: "the English translation, raw lines ~5130-9483"
+    atlas_ids:
+      - the-church-of-the-east-under-persia
+    role: tradition
+    confidence: assigned
+    note: >
+      The master of Nisibis on the liturgy c. 500, in the church's own voice; one of the
+      four homilies is doubtfully authentic by Connolly's own reckoning.

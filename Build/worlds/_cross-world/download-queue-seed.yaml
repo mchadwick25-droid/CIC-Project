@@ -2988,40 +2988,6 @@ queue:
     status: downloaded
     vendored_as: "zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt"
 
-  - title: "Petrus der Iberer (Syriac Life of Peter the Iberian with German translation)"
-    author: "John Rufus of Maiuma (attrib.)"
-    translator: "Richard Raabe"
-    year: 1895
-    world: "chalcedonian-monasticism-judean-desert-and-gaza"
-    why: >
-      Era III Library pass (2026-10-16): the one Life of the anti-Chalcedonian leader of
-      Gaza-Maiuma in a public-domain translation; serves the Gaza, Georgian and West Syriac
-      entries.
-    url: "https://archive.org/details/petrusderiberer00raabgoog"
-    rights_basis: pd-us-by-date
-    verified_by: >-
-      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT;
-      Hinrichs 1895), 2026-10-16
-    status: downloaded
-    vendored_as: "john-rufus_petrus-der-iberer-vita-syr-deu_raabe1895.txt"
-
-  - title: "Patrologia Orientalis VIII: Jean Rufus, Plérophories (with Severus, Homiliae cathedrales LVIII-LXIX)"
-    author: "John Rufus of Maiuma; Severus of Antioch"
-    translator: "F. Nau; M. Brière (Syriac with French)"
-    year: 1912
-    world: "chalcedonian-monasticism-judean-desert-and-gaza"
-    why: >
-      Era III Library pass (2026-10-16): the anti-Chalcedonian Gaza circle's own testimony
-      collection, the rival voice the Chalcedonian Gaza entry must reckon with; also
-      Severus's homilies, a West Syriac dossier lead.
-    url: "https://archive.org/details/patrologiaorient08pariuoft"
-    rights_basis: pd-us-by-date
-    verified_by: >-
-      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT);
-      'PLEROPHORIES' title read in the fetched text, 2026-10-16
-    status: downloaded
-    vendored_as: "john-rufus_plerophories-po8-syr-fra_nau1912.txt"
-
   - title: "Analecta Bollandiana 7 (1888): Antony of Choziba, Vita sancti Georgii Chozibitae"
     author: "Antony of Choziba"
     translator: "C. Houze (ed., Greek)"
@@ -11066,3 +11032,403 @@ queue:
       five-point OCR sample'
     status: downloaded
     vendored_as: williams-george_orthodox-church-of-the-east-in-the-eighteenth-century_1868.txt
+
+  - title: "Coptic Apocrypha in the Dialect of Upper Egypt (with the Life of Bishop Pisentius)"
+    author: "John the Elder and anonymous"
+    translator: "E. A. Wallis Budge"
+    year: 1913
+    world: "cyrilline-miaphysite-egyptian-christianity"
+    why: >
+      Era III Library pass (2026-10-23): a Coptic bishop's Life written by his own disciple
+      inside the window, in public-domain English.
+    url: "https://archive.org/details/copticapocryphai00budguoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT;
+      British Museum 1913); the Pisentius Life located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt"
+
+  - title: "Miscellaneous Coptic Texts in the Dialect of Upper Egypt (with the Encomium of Theodosius of Alexandria on St Michael)"
+    author: "Theodosius of Alexandria (attrib.); Timothy (attrib.); anonymous"
+    translator: "E. A. Wallis Budge"
+    year: 1915
+    world: "cyrilline-miaphysite-egyptian-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the one text under Patriarch Theodosius's own name
+      in public-domain English, attribution flagged contested.
+    url: "https://archive.org/details/miscellaneouscop00budguoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT;
+      British Museum 1915); the Theodosius encomium located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "miscellaneous-coptic-texts-upper-egypt_budge1915.txt"
+
+  - title: "The Monastery of Epiphanius at Thebes, Part II: Coptic Ostraca and Papyri"
+    author: "monks of the monastery of Epiphanius; Patriarch Damian; Bishop Pesynthius"
+    translator: "W. E. Crum; H. G. Evelyn White"
+    year: 1926
+    world: "cyrilline-miaphysite-egyptian-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the everyday documents of a Coptic monastery c. 600
+      in English, with a patriarch's festal letter among them.
+    url: "https://archive.org/details/monasteryofepiph02winl"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1926; no copyright
+      field); the Damian text no. 53 located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "monastery-of-epiphanius-thebes-pt2-coptic-ostraca_crum1926.txt"
+
+  - title: "Patrologia Orientalis I: Le Synaxaire arabe jacobite (Tout, Babeh); Le Synaxaire ethiopien (Sane)"
+    author: "Coptic and Ethiopian Synaxaria (anonymous)"
+    translator: "R. Basset; I. Guidi (French)"
+    year: 1907
+    world: "cyrilline-miaphysite-egyptian-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the Coptic church's own calendar of its saints and
+      patriarchs, months not in the PO 16 or PO 17 fascicles already vendored.
+    url: "https://archive.org/details/patrologiaorient01pari"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Firmin-Didot 1907; no
+      copyright field), 2026-10-23
+    status: downloaded
+    vendored_as: "synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt"
+
+  - title: "Patrologia Orientalis XI: Le Synaxaire arabe jacobite (Toubeh, Amchir)"
+    author: "Coptic Synaxarion (anonymous)"
+    translator: "R. Basset (French)"
+    year: 1916
+    world: "cyrilline-miaphysite-egyptian-christianity"
+    why: >
+      Era III Library pass (2026-10-23): two more months of the Coptic calendar.
+    url: "https://archive.org/details/patrologiaorient11pariuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT);
+      Basset's title line read in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt"
+
+  - title: "The Origins of the Islamic State (Kitab Futuh al-Buldan), vol. I"
+    author: "al-Baladhuri"
+    translator: "Philip Khuri Hitti"
+    year: 1916
+    world: "nubian-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the earliest account of the Arab-Nubian treaty (the
+      baqt) and of the conquest of Egypt in public-domain English.
+    url: "https://archive.org/details/originsislamics00hittgoog"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT;
+      Columbia 1916); the Nubia chapter located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt"
+
+  - title: "The Christian Topography of Cosmas, an Egyptian Monk"
+    author: "Cosmas Indicopleustes"
+    translator: "J. W. McCrindle"
+    year: 1897
+    world: "aksumite-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the one Greek eyewitness of Aksum in Kaleb's reign,
+      in public-domain English.
+    url: "https://archive.org/details/christiantopogra00cosm"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Hakluyt 1897; no
+      copyright field); the Adulis/Elesbaan passage located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "cosmas-indicopleustes_christian-topography_mccrindle1897.txt"
+
+  - title: "The Library of Photius, vol. I"
+    author: "Photius"
+    translator: "J. H. Freese"
+    year: 1920
+    world: "aksumite-christianity"
+    why: >
+      Era III Library pass (2026-10-23): Nonnosus's lost report of Justinian's embassy to
+      the Aksumite king survives only in Photius's summary.
+    url: "https://archive.org/details/libraryofphotius00phot"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; SPCK
+      1920); codex 3 located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "photius_library-v1_freese1920.txt"
+
+  - title: "The Book of the Himyarites (Syriac fragments with English translation)"
+    author: "anonymous (6th-century Syriac)"
+    translator: "Axel Moberg"
+    year: 1924
+    world: "aksumite-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the fullest contemporary narrative of the Najran
+      martyrs and Kaleb's war, with the king's reported prayer.
+    url: "https://archive.org/details/bookofhimyarites0000axel"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1924; no copyright
+      field); the Prayer of King Kaleb located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "book-of-the-himyarites-syr-eng_moberg1924.txt"
+
+  - title: "The Book of the Saints of the Ethiopian Church (Ethiopic Synaxarium), vols. II-IV (microform scan)"
+    author: "Ethiopian Synaxarium (anonymous)"
+    translator: "E. A. Wallis Budge"
+    year: 1928
+    world: "aksumite-christianity"
+    why: >
+      Era III Library pass (2026-10-23): completes the Synaxarium past the vols. I-II files
+      already vendored; Kaleb's entry (20 Genbot) is in it.
+    url: "https://archive.org/details/bookofsaintsofet00yait"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1928; no copyright
+      field); the VOLUME TWO/THREE/FOUR headings located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt"
+
+  - title: "The Queen of Sheba and her only son Menyelek (Kebra Nagast)"
+    author: "Kebra Nagast (anonymous)"
+    translator: "E. A. Wallis Budge"
+    year: 1922
+    world: "aksumite-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the Ethiopian national epic's memory of Kaleb;
+      late, transmission only.
+    url: "https://archive.org/details/queenofshebahero00budgrich"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; Medici
+      Society 1922), 2026-10-23
+    status: downloaded
+    vendored_as: "kebra-nagast_queen-of-sheba-and-menyelek_budge1922.txt"
+
+  - title: "Vitae sanctorum antiquiorum I: Acta Yared et Pantalewon (CSCO, Latin)"
+    author: "anonymous Ge'ez hagiographers"
+    translator: "Carlo Conti Rossini (Latin)"
+    year: 1904
+    world: "aksumite-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the Lives of Yared and of the Nine Saints'
+      Pantalewon, who counselled Kaleb; Latin only.
+    url: "https://archive.org/details/vitaesanctoruman00cont"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Rome 1904; no copyright
+      field); the Pantalewon Life located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904.txt"
+
+  - title: "Recueil des inscriptions grecques-chretiennes d'Egypte"
+    author: "anonymous (Christian inscriptions of Egypt and Nubia)"
+    translator: "Gustave Lefebvre (ed., Greek with French)"
+    year: 1907
+    world: "nubian-christianity"
+    why: >
+      Era III Library pass (2026-10-23): Nubia's only own-voice texts from the window are
+      inscriptions (Silko, Philae); this is their public-domain corpus.
+    url: "https://archive.org/details/recueildesinscri00egyp"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (IFAO 1907; no copyright
+      field), 2026-10-23
+    status: downloaded
+    vendored_as: "lefebvre_recueil-inscriptions-grecques-chretiennes-egypte-grc-fra_1907.txt"
+
+  - title: "The Liturgical Homilies of Narsai"
+    author: "Narsai"
+    translator: "R. H. Connolly"
+    year: 1909
+    world: "the-church-of-the-east-under-persia"
+    why: >
+      Era III Library pass (2026-10-23): the Church of the East's first named theologian of
+      the Persian period, in public-domain English.
+    url: "https://archive.org/details/liturgicalhomili00narsuoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; CUP
+      1909); the homilies located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "narsai_liturgical-homilies_connolly1909.txt"
+
+  - title: "Patrologia Orientalis XIII: Chronique de Seert, seconde partie (II.2)"
+    author: "Chronicle of Seert (anonymous)"
+    translator: "Addai Scher (French)"
+    year: 1919
+    world: "the-church-of-the-east-under-persia"
+    why: >
+      Era III Library pass (2026-10-23): the later chapters of the East Syrian church's own
+      history, which the PO 5 volume already vendored does not reach.
+    url: "https://archive.org/details/patrologiaorien13pari"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Firmin-Didot; no
+      copyright field); the Seert chapters located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt"
+
+  - title: "Patrologia Orientalis IV: Barhadbeshabba, La Cause de la fondation des ecoles"
+    author: "Barhadbeshabba 'Arbaya"
+    translator: "Addai Scher (French)"
+    year: 1908
+    world: "the-church-of-the-east-under-persia"
+    why: >
+      Era III Library pass (2026-10-23): the school of Nisibis's own account of its
+      founding, the text the census names through Becker's English.
+    url: "https://archive.org/details/patrologiaorien00unkngoog"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT;
+      Firmin-Didot 1908); the Cause located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt"
+
+  - title: "The Book of Governors (Thomas of Marga), vol. II, English"
+    author: "Thomas of Marga"
+    translator: "E. A. Wallis Budge"
+    year: 1893
+    world: "the-church-of-the-east-under-persia"
+    why: >
+      Era III Library pass (2026-10-23): the main English narrative of East Syrian
+      monasticism and Babai the Great.
+    url: "https://archive.org/details/bookgovernorshi00thomgoog"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; Kegan
+      Paul 1893), 2026-10-23
+    status: downloaded
+    vendored_as: "thomas-of-marga_book-of-governors-v2-english_budge1893.txt"
+
+  - title: "Gli statuti della Scuola di Nisibi (Giornale della Societa Asiatica Italiana 4)"
+    author: "School of Nisibis (anonymous)"
+    translator: "Ignazio Guidi (ed., Syriac with Italian)"
+    year: 1890
+    world: "the-church-of-the-east-under-persia"
+    why: >
+      Era III Library pass (2026-10-23): the school's constitution, named in the census;
+      Syriac only.
+    url: "https://archive.org/details/GiornaleDellaSocietaAsiaticaItaliana4"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1890; CC Public Domain
+      Mark 1.0), 2026-10-23
+    status: downloaded
+    vendored_as: "school-of-nisibis_statuti-della-scuola-di-nisibi-syr-ita_guidi1890.txt"
+
+  - title: "Chronica minora, pars prior (CSCO Scriptores Syri), Latin version"
+    author: "anonymous Syriac chroniclers"
+    translator: "Ignazio Guidi (ed.)"
+    year: 1903
+    world: "the-church-of-the-east-under-persia"
+    why: >
+      Era III Library pass (2026-10-23): the nearest contemporary East Syrian narrative of
+      the 7th-century Persian church, Latin.
+    url: "https://archive.org/details/chronicaminorapa00guid"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Guidi 1903; no copyright
+      field), 2026-10-23
+    status: downloaded
+    vendored_as: "chronica-minora-pars-prior-versio-lat_guidi1903.txt"
+
+  - title: "The History of Vartan and of the Battle of the Armenians"
+    author: "Eghishe (Elishe)"
+    translator: "Charles Friedrich Neumann"
+    year: 1830
+    world: "armenian-christianity-after-avarayr"
+    why: >
+      Era III Library pass (2026-10-23): Elishe, the census's first named voice, complete in
+      public-domain English.
+    url: "https://archive.org/details/thehistoryofvartan"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (1830; CC Public Domain
+      Mark 1.0); title page read in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "eghishe_history-of-vartan-and-the-armenian-war_neumann1830.txt"
+
+  - title: "Collection des historiens anciens et modernes de l'Armenie, tome II"
+    author: "Koriun; Moses of Khoren; Elishe; Lazar of Parp; Eznik"
+    translator: "Victor Langlois (ed.); Emine; Ghesarian (French)"
+    year: 1869
+    world: "armenian-christianity-after-avarayr"
+    why: >
+      Era III Library pass (2026-10-23): Lazar of Parp and Koriun, the entry's other named
+      voices, in the only public-domain translation located (French).
+    url: "https://archive.org/details/collectiondeshi02langgoog"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT;
+      Firmin-Didot 1869); contents list read in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "langlois_collection-historiens-armenie-tome2-fra_1869.txt"
+
+  - title: "Rituale Armenorum (with the Old Armenian Lectionary)"
+    author: "Armenian Church (anonymous)"
+    translator: "F. C. Conybeare (ed.)"
+    year: 1905
+    world: "armenian-christianity-after-avarayr"
+    why: >
+      Era III Library pass (2026-10-23): the Armenian church's liturgical texts and the
+      lectionary that carries the Jerusalem rite into Armenia, in English.
+    url: "https://archive.org/details/ritualearmenorum00cony"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Clarendon 1905; no
+      copyright field); Appendix II located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "rituale-armenorum-lectionary_conybeare1905.txt"
+
+  - title: "Histoire d'Heraclius par l'eveque Sebeos"
+    author: "Sebeos"
+    translator: "Frederic Macler (French)"
+    year: 1904
+    world: "armenian-christianity-after-avarayr"
+    why: >
+      Era III Library pass (2026-10-23): the 7th-century Armenian historian, covering the
+      Caucasus and Persia after the entry's window.
+    url: "https://archive.org/details/HistoireDheracliusParLevequeSebeos"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (no date or copyright
+      field); the OCR title page MDCCCCIV and Macler's name read in the fetched text,
+      2026-10-23
+    status: downloaded
+    vendored_as: "sebeos_histoire-d-heraclius-fra_macler1904.txt"
+
+  - title: "Studia Biblica et Ecclesiastica V.1: The Life of St Nino"
+    author: "Georgian Life of Nino (anonymous)"
+    translator: "Marjory and Oliver Wardrop"
+    year: 1903
+    world: "georgian-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the Georgian church's own conversion narrative, in
+      public-domain English.
+    url: "https://archive.org/details/studiabiblicaete05oxfouoft"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; the
+      series date 1885-96); the Life of Nino located in the fetched text, 2026-10-23
+    status: downloaded
+    vendored_as: "studia-biblica-et-ecclesiastica-v5-life-of-st-nino_wardrop1903.txt"
+
+  - title: "Histoire de la Georgie, premiere partie"
+    author: "Georgian chronicles (Kartlis Tskhovreba)"
+    translator: "Marie-Felicite Brosset (French)"
+    year: 1849
+    world: "georgian-christianity"
+    why: >
+      Era III Library pass (2026-10-23): the Georgian chronicle tradition's account of
+      Vakhtang Gorgasali's reign, in French.
+    url: "https://archive.org/details/bub_gb_TmtpAAAAMAAJ"
+    rights_basis: pd-us-by-date
+    verified_by: >-
+      Claude (Library thread, Era III): archive.org /metadata read (Brosset 1849; CC Public
+      Domain Mark 1.0), 2026-10-23
+    status: downloaded
+    vendored_as: "brosset_histoire-de-la-georgie-pt1-fra_1849.txt"

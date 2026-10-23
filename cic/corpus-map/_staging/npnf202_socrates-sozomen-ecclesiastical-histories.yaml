@@ -136,3 +136,39 @@ assignments:
       Sozomen Book III, chs. 3, 5, 17, all on Julian's measures against
       Christians) but was not checked against a specific quoted claim, so
       it is noted rather than separately asserted as verified content.
+
+  - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--frumentius-socrates-i-19-sozomen-ii-24
+    work: "Socrates I.19 and Sozomen II.24 (the conversion of the Indians/Ethiopians by Frumentius)"
+    author: socrates
+    locus: "div ii.iv.xix (raw ~4285) and iii.vii.xxiv (~29831)"
+    atlas_ids:
+      - aksumite-christianity
+    role: antecedent
+    confidence: provisional
+    note: >
+      Fifth-century accounts of Aksum's 4th-century conversion; antecedent, provisional (see
+      the Athanasius row). Author slug names the first of the two historians.
+
+  - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--iberians-socrates-i-20-sozomen-ii-7
+    work: "Socrates I.20 and Sozomen II.7 (the conversion of the Iberians by a captive woman)"
+    author: socrates
+    locus: "div ii.iv.xx (raw ~4426) and iii.vii.vii"
+    atlas_ids:
+      - georgian-christianity
+    role: context
+    confidence: assigned
+    note: >
+      The oldest accounts of the conversion Georgian tradition ascribes to Nino, centuries
+      earlier than the Georgian versions.
+
+  - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--persian-christians-socrates-vii-8-21
+    work: "Socrates VII.8 (Maruthas and the Persian king), VII.18 and VII.21 (Acacius of Amida ransoms the Persian captives)"
+    author: socrates
+    locus: "div ii.x.viii, ii.x.xviii, ii.x.xxi (raw ~19903)"
+    atlas_ids:
+      - the-church-of-the-east-under-persia
+    role: context
+    confidence: assigned
+    note: >
+      Roman-side witnesses to Persian Christians in 410-422, the decade before the synod of
+      424.

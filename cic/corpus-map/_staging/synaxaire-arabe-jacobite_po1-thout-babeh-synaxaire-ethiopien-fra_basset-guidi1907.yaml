@@ -1,0 +1,40 @@
+source_file: synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt
+
+authors_ruled:
+  synaxaire-arabe-jacobite:
+    kind: anonymous
+    evidence: >
+      A church calendar compiled anonymously in the 13th century; the edition names only its
+      translator.
+    from_file: synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt
+  synaxaire-ethiopien:
+    kind: anonymous
+    evidence: >
+      The Ethiopian Synaxarion is an anonymous Ge'ez compilation; Guidi's fascicle names no
+      author.
+    from_file: synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt
+
+assignments:
+  - row_id: synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907--synaxaire-arabe-tout-babeh
+    work: "Le Synaxaire arabe jacobite, I (months of Tout and Babeh), with French"
+    author: synaxaire-arabe-jacobite
+    locus: "Basset's fascicle (PO 1.3)"
+    atlas_ids:
+      - cyrilline-miaphysite-egyptian-christianity
+    role: transmission
+    confidence: assigned
+    note: >
+      The Coptic church's medieval calendar preserving notices of its 5th-7th-century
+      patriarchs and martyrs; transmission, confidence tags required.
+
+  - row_id: synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907--synaxaire-ethiopien-sane
+    work: "Le Synaxaire ethiopien, I (month of Sane), with French"
+    author: synaxaire-ethiopien
+    locus: "Guidi's fascicle (PO 1.5)"
+    atlas_ids:
+      - aksumite-christianity
+    role: transmission
+    confidence: provisional
+    note: >
+      The Ethiopian church's calendar, centuries later than the Aksumite window; Budge's
+      English Synaxarium is the copy to use.

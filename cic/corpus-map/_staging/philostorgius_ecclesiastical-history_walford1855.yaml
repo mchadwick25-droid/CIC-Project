@@ -69,3 +69,14 @@ assignments:
     at IV.12 Philostorgius' own party is coerced into subscribing the
     Homoian formula. Full reasoning at
     records/ijc/search_record/ijc.search.philostorgius-homoian-fit.md.
+
+- row_id: philostorgius_ecclesiastical-history_walford1855--iii-4-6-theophilus-auxumitae
+  work: "Ecclesiastical History III.4-6 (Theophilus the Indian's mission and the Aethiopians called Auxumitae)"
+  author: philostorgius
+  locus: "Book III ch. 4-6 (raw ~156-160)"
+  atlas_ids:
+    - aksumite-christianity
+  role: antecedent
+  confidence: provisional
+  note: >
+    The Homoian historian's 4th-century notice of Aksum; antecedent, provisional.

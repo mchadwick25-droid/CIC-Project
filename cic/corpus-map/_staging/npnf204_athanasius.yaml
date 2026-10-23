@@ -469,3 +469,16 @@ assignments:
     to the monks) - the bishop''s side of the Alexandria-desert axis the Vita also evidences.
 
     '
+
+- row_id: npnf204_athanasius--apol-const-29-31-frumentius
+  work: "Apologia ad Constantium 29-31 (Constantius's letter to the princes of Auxumis concerning Frumentius)"
+  author: athanasius
+  locus: "div3 xviii.ii.xxix-xxxi (raw lines ~36002-36110)"
+  atlas_ids:
+    - aksumite-christianity
+  role: antecedent
+  confidence: provisional
+  note: >
+    The 4th-century foundation of the Aksumite church in the only contemporary document;
+    antecedent, provisional on the corpus-map rule until the entry has own-voice sources
+    that argue from it.
