@@ -42,7 +42,7 @@ sources:
   locus: whole work, per this record's own body
   license: see body
 - source_id: rzg.source.calvin-letters-vol2
-  locus: letter CCLXXXV, To the Ministers of Switzerland (Bolsec controversy, October 1551); the letters to and about Amy Perrin
+  locus: letter CCLXXXV, To the Ministers of Switzerland (Bolsec controversy, October 1551); the letters to and about Amy Perrin, 1546 to 1553 (letters CLXIV, CLXXIII; this volume ends in 1553, before the 1555 crisis)
   license: public-domain
 relations: []
 time_window:
@@ -96,7 +96,7 @@ thinness: 'The record is richest in confession and doctrine. It has Calvin''s In
   core of these confessions refuses the kind of devotion that saints'' lives belong to, with its image veneration
   and cultic memory. The gap is evidence the refusal worked. It is not a missing source. Three of this world''s
   most important documented events are the Marburg Colloquy (1529), the Bolsec controversy (1551) and the Perrinist
-  crisis (1555). Calvin''s own letters give first-hand accounts of Bolsec and of the Perrin conflict. They are one side''s view. For Marburg, no primary narrative is on hand like those behind the three built stories. Detail
+  crisis (1555). Calvin''s own letters give first-hand accounts of Bolsec and of the earlier Perrin quarrels, up to 1553. They are one side''s view. For Marburg, no primary narrative is on hand like those behind the three built stories. Detail
   on Geneva''s own church bodies rests on thin evidence. The sources for it are not yet in hand. That covers
   the Consistory''s weekly discipline, case by case. It also covers why the census chose this world. The general
   teaching is well attested. The vivid detail that formed this world, and that it was chosen for, has no source

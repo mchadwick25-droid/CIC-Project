@@ -19,7 +19,7 @@ sources:
     the Perrin conflict; for Marburg, no primary narrative is on hand like those behind the three built stories'
   license: public-domain
 - source_id: rzg.source.calvin-letters-vol2
-  locus: letter CCLXXXV, To the Ministers of Switzerland, Statement of the controversy with Bolsec regarding Election, Geneva, October 1551; the letters to and about Amy Perrin
+  locus: letter CCLXXXV, To the Ministers of Switzerland, Statement of the controversy with Bolsec regarding Election, Geneva, October 1551; the letters to and about Amy Perrin, 1546 to 1553 (letters CLXIV, CLXXIII; this volume ends in 1553, before the 1555 crisis)
   license: public-domain
 relations:
 - type: associated-with
@@ -33,7 +33,7 @@ statement: You ask when belief was disputed among us, and who had the right to d
   two sides could not agree on the Supper. The second is the Bolsec controversy in 1551, when a public
   challenge to our doctrine of election was raised at Geneva. The third is the Perrinist crisis, fought
   out at Geneva and largely settled by 1555. All three happened. All three mattered. For the Bolsec dispute and the
-  Perrin conflict we have Calvin's own letters, written as he lived them. They give one man's side, not a
+  earlier Perrin quarrels, up to 1553, we have Calvin's own letters, written as he lived them. They give one man's side, not a
   full record. For Marburg, no account from anyone who was there has reached us. We cannot walk you through
   it the way we can walk you through the First Disputation at Zurich.
 why_sources_cannot_answer: 'Doc_09_Story_Inventory.md SS6/SS7 item 3 states this directly: all three events

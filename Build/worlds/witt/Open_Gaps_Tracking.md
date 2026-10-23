@@ -2708,3 +2708,17 @@ Opus claim check of the six recorded 13 October live replies (`engine/m4/reports
 Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md`.
 
 Status: OPEN.
+
+## OG-78. Live-reply claim check findings re-confirmed and fixed, 2026-10-23.
+
+Follows the 2026-10-19 "Live-reply claim check" entry. Re-confirmed independently against the vendored texts on 2026-10-23, then fixed. Drafted by Sonnet, reviewed by Opus over two rounds (`Build/Ministry/Operations/Audits/2026-10-23_live-reply-record-fixes_Review_Round1.md`, `Build/Ministry/Operations/Audits/2026-10-23_live-reply-record-fixes_Review_Round2.md`). Packages rebuilt and repinned.
+
+Fixed:
+- "We did not dispute the how": the founder offered the picture of iron heated in fire (1520) while binding no one to a theory. Corrected in `witt.term.sacrament-of-the-altar`, `witt.term.transubstantiation`, `witt.dw.born-in-sin-fed-at-the-table`, `witt.demo.bread-and-cup` and `witt.voice.craft`.
+- "No other teaching of ours appears in so many of our writings" and "the most widely attested word in our whole lexicon" were a project word count stated as history. Cut from `witt.dw.born-in-sin-fed-at-the-table` and `witt.term.faith`.
+- `witt.quote.second-article-of-the-creed`: the catechism is "prescribed for every household"; how far households took it up is Contested (`witt.contested.household-catechism-reception`).
+- Brussels martyrs: the song's heading says 1522; editors date the burning 1 July 1523. That provenance now sits in metadata; `witt.story.brussels-martyrs` and `witt.dw.true-priests-of-gods-own-making` give the date plainly.
+
+Still open: `witt.figure.brussels-martyrs-john-and-henry` `bridge_line` still says "in 1523" without the note; its other fields already explain the date's origin.
+
+Status: CLOSED for the claim check findings.

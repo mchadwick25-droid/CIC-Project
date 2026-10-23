@@ -919,3 +919,18 @@ Opus claim check of the six recorded 13 October live replies (`engine/m4/reports
 Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md`.
 
 Status: OPEN.
+
+### OG-53. Live-reply claim check findings re-confirmed and fixed, 2026-10-23.
+
+Follows the 2026-10-19 "Live-reply claim check" entry. Re-confirmed independently against the vendored texts on 2026-10-23, then fixed. Drafted by Sonnet, reviewed by Opus over two rounds (`Build/Ministry/Operations/Audits/2026-10-23_live-reply-record-fixes_Review_Round1.md`, `Build/Ministry/Operations/Audits/2026-10-23_live-reply-record-fixes_Review_Round2.md`). Packages rebuilt and repinned.
+
+Fixed:
+- `cappadocian.force.movement-institutionalized`: deleted the unsourced "The young no longer remembered the years when it was all being worked out."
+- The love-of-the-poor homilies are not in `npnf205` (only a prolegomena mention). New record `cappadocian.source.gregory-nyssa-de-pauperibus-amandis` (`kind: unvendored`) carries them; `cappadocian.source.gregory-nyssa-love-of-the-poor-lepers-consolation` now covers only On Infants' Early Deaths and On Pilgrimages, which are vendored. `cappadocian.term.philoptochia` and `cappadocian.story.poorhouse-famine-month` cite the new record.
+- `kind: vendored` corrected to `unvendored`, with rights and discovery fields aligned, on `basil-against-eunomius`, `gregory-nyssa-in-xl-martyres-ii`, `gregory-nazianzus-de-vita-sua` and `gregory-nazianzus-on-the-mamas-festival` (none is in `cic/texts/`).
+- `cappadocian.quote.basil-against-eunomius-ant`: the ant passage is Basil's Letter XVI, not the treatise. Its source is now `basil-letters-general-corpus`, Letter XVI; the quote text was rechecked verbatim against npnf208.
+- `cappadocian.term.epektasis`: re-sourced to Nyssa, Against Eunomius VIII (NPNF numbering), which is vendored. Widely Accepted stands.
+
+Still open: records that cite the four sources now marked unvendored still carry their earlier verification states (e.g. the nine records citing De vita sua). They need a pass to set what each can claim without a vendored text.
+
+Status: OPEN for the follow-on pass. CLOSED for the claim check findings.

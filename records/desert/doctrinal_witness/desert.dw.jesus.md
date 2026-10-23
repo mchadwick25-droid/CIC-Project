@@ -33,7 +33,7 @@ text: >-
   to test him, and see that the deeds of Christ prove him to be God come to earth for our
   salvation. Antony said the cross had already done something. The old oracles fell silent
   when it rose. The knowledge of God spread. And death came to be despised. When
-  persecution ended, Athanasius says, Antony went back to his cell and was there daily a martyr
+  persecution ended, Athanasius says, Antony went back to his cell. There he was daily a martyr
   to his conscience, and contending in the conflicts of faith. And the enemy Antony fought there was one Christ had already beaten. Antony told the
   monks how Satan once came to his cell door. He told Satan that the coming of Christ had made
   him weak, cast him down, and stripped him. Antony would not call the healings his own.

@@ -360,3 +360,15 @@ Status: CLOSED for the three documents and the Marburg cross-reference; OPEN for
    Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md`.
 
    Status: OPEN.
+
+77. **Live-reply claim check findings re-confirmed and fixed, 2026-10-23.** Follows the 2026-10-19 "Live-reply claim check" entry. Re-confirmed independently against the vendored texts on 2026-10-23, then fixed. Drafted by Sonnet, reviewed by Opus over two rounds (`Build/Ministry/Operations/Audits/2026-10-23_live-reply-record-fixes_Review_Round1.md`, `Build/Ministry/Operations/Audits/2026-10-23_live-reply-record-fixes_Review_Round2.md`). Packages rebuilt and repinned.
+
+   Fixed:
+   - `rzg.contested.anabaptist-schism-legitimacy`: Zwingli's own Refutation records that "the senate decreed that he should be drowned who rebaptized another." The record now says so.
+   - `rzg.limit.marburg-bolsec-perrinist-narrative` and `rzg.core.the-reformed-cities-zurich-and-geneva`: "found no mention of Bolsec" was false. Calvin's letters (vol. II, letter CCLXXXV, October 1551) give his account of Bolsec, and letters of 1546 to 1553 cover the Perrin conflict before the 1555 crisis. Only Marburg lacks a primary narrative. New source record `rzg.source.calvin-letters-vol2`.
+   - The image polemic was cited to Article XVIII, which is about the Mass. Re-cited to the Second Helvetic Confession, ch. IV, in `rzg.witness.triple-refusal`, `rzg.limit.hagiography-refused`, `rzg.witness.a-narrow-true-church`, `rzg.witness.what-a-stranger-would-notice`, `rzg.limit.material-culture-and-worship-space` and `rzg.ambient.emptied-worship-space`.
+   - `rzg.term.providence`: names Zwingli's On the Providence of God (not held) and quotes the vendored Commentary on True and False Religion. New source record `rzg.source.zwingli-latin-works-vol3`.
+
+   Still open, and larger than the 2026-10-19 entry said: not two but 24 rzg records (all 19 force records, plus one gravity, three demonstration and one voice-craft record) carry `sources: []` while marked `verified-direct`. The same pattern runs fleet-wide (over 300 records in every built world, the fixture world included). Whether these record types may carry `verified-direct` without sources is a methodology question for the project lead.
+
+   Status: OPEN for the empty-sources item. CLOSED for the rest.

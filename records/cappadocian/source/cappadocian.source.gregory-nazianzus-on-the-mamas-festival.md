@@ -20,7 +20,7 @@ edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 7 (Cyril of Jerusalem,
   Schaff (cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml covers the Orations; among
   the ~245 letters, only Epp. 101, 102, 202). A direct text search of that file finds no occurrence of
   'Mamas', so this work is not within the vendored edition.
-citation: Gregory of Nazianzus, on the Mamas festival, Nicene and Post-Nicene Fathers, 2nd series, vol. 7 (Cyril of Jerusalem, Gregory Nazianzen), ed. Schaff
+citation: Gregory of Nazianzus, on the Mamas festival
 kind: unvendored
 rights_status: "not independently verified; not yet acquired as an open text - named for completeness (every source a claim rests on gets a row, acquired or not)"
 attribution_status: attributed

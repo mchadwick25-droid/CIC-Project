@@ -979,3 +979,20 @@ Opus claim check of the six recorded 13 October live replies (`engine/m4/reports
 Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md`.
 
 Status: OPEN.
+
+### OG-38. Live-reply claim check findings re-confirmed and fixed, 2026-10-23.
+
+Follows the 2026-10-19 "Live-reply claim check" entry. Re-confirmed independently against the vendored texts on 2026-10-23, then fixed. Drafted by Sonnet, reviewed by Opus over two rounds (`Build/Ministry/Operations/Audits/2026-10-23_live-reply-record-fixes_Review_Round1.md`, `Build/Ministry/Operations/Audits/2026-10-23_live-reply-record-fixes_Review_Round2.md`). Packages rebuilt and repinned.
+
+Already fixed before this pass: `desert.dw.god` (refusal credited to Antony), `desert.dw.the-heart-and-the-spirit`, `desert.dw.strangest` ("outside his house"), `desert.force.martyrdom-unavailable` (now Inferential-Thin).
+
+Fixed now:
+- `desert.demo.quiet-head`: "the homilies we carried" said desert monks carried the Macarian homilies. Now: Greek homilies our record holds, from the eastern monasteries, not from our own desert.
+- `desert.dw.jesus`: one figure's words were made a rule for all ("One command reordered our lives"; "we never spoke of the healings among us as ours"). Now credited to Antony as Athanasius reports him (Life 80).
+- `desert.force.martyrdom-unavailable` description and `desert.dw.strangest`: the martyrdom-successor reading is scoped to Athanasius on Antony (Life 46-47); the wider reading is marked as the record's inference.
+
+Still open:
+- `desert.core.desert` `formation_logic` still says "Formation as martyrdom's invented successor" as the world's own view. The field is one 220-word paragraph that fails the readability gate as a whole, so a scoped edit cannot pass; it needs a full rewrite.
+- Register of the Life of Antony quote records (all `register: emic`, though Athanasius was a bishop in Alexandria), and `speaker_or_author: desert.figure.antony` on narrated or indirect speech (e.g. `desert.quote.antony-nicene-formula`, `desert.quote.he-healed-by-the-name`). Whether a sympathetic outsider's report counts as emic is a fleet-wide methodology question for the project lead.
+
+Status: OPEN for the two items above. CLOSED for the rest.

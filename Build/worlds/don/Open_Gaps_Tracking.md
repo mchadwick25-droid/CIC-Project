@@ -2022,3 +2022,17 @@ Record defects, logged and not edited (see also OG-42, which already logs the 27
 Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md` (branch `claude/gracious-knuth-pf8u7m`).
 
 Status: OPEN.
+
+### OG-46. Live-reply claim check findings re-confirmed and closed, 2026-10-23.
+
+Follows the 2026-10-19 "Live-reply claim check" entry and the Atlas story pass entry (2026-10-17). Re-confirmed independently against the vendored texts on 2026-10-23, then fixed. Drafted by Sonnet, reviewed by Opus over two rounds (`Build/Ministry/Operations/Audits/2026-10-23_live-reply-record-fixes_Review_Round1.md`, `Build/Ministry/Operations/Audits/2026-10-23_live-reply-record-fixes_Review_Round2.md`). Packages rebuilt and repinned.
+
+Already fixed before this pass (checked on 2026-10-23, no change needed): the 279 bishops "stood for three days"; "in the same Latin words"; "spends its whole length"; On Baptism I.5.6 (now V.5.6); "calls itself the Church of the Martyrs".
+
+Fixed now:
+- `don.dw.the-creed-we-shared`: "There was no doctrinal difference to point at" contradicted the record's own report (Augustine, Letter 185) that some called the Son inferior. Now: the creed was not what the two churches fought over.
+- `don.dw.becoming-one-of-us` (tensions) and `don.contested.maximianist-reception`: Cresconius's reason reaches us only through Augustine's answer to him; the quoted words are marked as the NPNF editor's summary of Contra Cresconium Book III.
+
+Still open: the record-level defects listed in the Atlas story pass entry (2026-10-17). The old citation "De baptismo I.5.6" stays in `don_Decision_Log.md` as history.
+
+Status: CLOSED for the live-reply claim check findings.

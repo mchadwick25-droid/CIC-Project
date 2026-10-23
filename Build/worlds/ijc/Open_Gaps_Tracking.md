@@ -400,3 +400,12 @@ Status: OPEN for the project lead to schedule.
    Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md`.
 
    Status: OPEN.
+
+43. **Live-reply claim check findings re-confirmed and fixed, 2026-10-23.** Follows the 2026-10-19 "Live-reply claim check" entry. Re-confirmed independently against the vendored texts on 2026-10-23, then fixed. Drafted by Sonnet, reviewed by Opus over two rounds (`Build/Ministry/Operations/Audits/2026-10-23_live-reply-record-fixes_Review_Round1.md`, `Build/Ministry/Operations/Audits/2026-10-23_live-reply-record-fixes_Review_Round2.md`). Packages rebuilt and repinned.
+
+   Fixed:
+   - `ijc.dw.jesus` and `ijc.demo.who-was-jesus`: the unsourced "what he gives is not truly God's to give" is replaced by Leo's own reasoning in the Tome (Ep. XXVIII): it was "equally perilous" to believe Christ only God without man, or only man without God.
+   - `ijc.story.tome-that-would-not-bend` and `ijc.demo.never-settled`: "settled who Christ is" now reads "defined who Christ is"; the story notes Egypt rejected the definition at once (`ijc.force.chalcedon-failed-consensus`).
+   - The same story no longer puts the Tome and Canon 28 in one session: Canon 28 came later at the same council.
+
+   Status: CLOSED.

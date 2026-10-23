@@ -182,3 +182,14 @@ Status: OPEN for the project lead.
    Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md`.
 
    Status: OPEN.
+
+41. **Live-reply claim check findings re-confirmed and fixed, 2026-10-23.** Follows the 2026-10-19 "Live-reply claim check" entry. Re-confirmed independently against the vendored texts on 2026-10-23, then fixed. Drafted by Sonnet, reviewed by Opus over two rounds (`Build/Ministry/Operations/Audits/2026-10-23_live-reply-record-fixes_Review_Round1.md`, `Build/Ministry/Operations/Audits/2026-10-23_live-reply-record-fixes_Review_Round2.md`). Packages rebuilt and repinned.
+
+   Fixed:
+   - Women's choirs "in every church" and "what our own years attest": no in-window text in `cic/texts/` says the daughters of the covenant sang in choirs; the only vendored statement is the 1898 editor's introduction. Now attributed to later accounts, without "every", in `syr.limit.f5-women-own-words`, `syr.demo.woman-authority` (rated Widely Accepted), `syr.story.choirs-tradition`, `syr.gravity.covenant-life`, `syr.term.qyama`, `syr.term.madrasha`, `syr.story.qyama-morning` and `syr.core.syriac`.
+   - `syr.core.syriac`: "in verse rather than treatise" is scoped to Ephrem's hymns; Aphrahat's Demonstrations and Ephrem's prose refutations are prose.
+   - `syr.term.ihidaya`: the pairing of the solitaries with the Only Begotten is kept as Aphrahat's own (Demonstration 6); that the double sense was deliberate is a modern reading, moved to `divergence_note`.
+
+   Still open: `syr.core.syriac` `thinness` still says the daughters' singing is "attested only through men's texts"; `syr.limit.f5-women-own-words` keeps Documented for a statement now partly resting on later accounts.
+
+   Status: OPEN for the two items above. CLOSED for the rest.

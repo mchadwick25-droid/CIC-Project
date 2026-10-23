@@ -902,3 +902,15 @@ Opus claim check of the six recorded 13 October live replies (`engine/m4/reports
 Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md`.
 
 Status: OPEN.
+
+## OG-30. Live-reply claim check findings re-confirmed and fixed, 2026-10-23.
+
+Follows the 2026-10-19 "Live-reply claim check" entry. Re-confirmed independently against the vendored texts on 2026-10-23, then fixed. Drafted by Sonnet, reviewed by Opus over two rounds (`Build/Ministry/Operations/Audits/2026-10-23_live-reply-record-fixes_Review_Round1.md`, `Build/Ministry/Operations/Audits/2026-10-23_live-reply-record-fixes_Review_Round2.md`). Packages rebuilt and repinned.
+
+Fixed:
+- `hal.dw.suffering` and `hal.dw.doubt`: "grief honored, never condemned as unbelief" contradicted Jerome, Letter 39 ("unbelieving tears; for they know no limits"). Now: grief was allowed; grief without limit was rebuked as unbelief. The not_for line that barred this is removed.
+- `hal.core.hieronymian` and `hal.voice.craft`: the unsourced fasting comparison now rests on Letter 125 §12, where Jerome took up Hebrew when fasting alone did not calm his mind. New source record `hal.source.jerome-ep125`.
+- `hal.dw.record`: the Gospels were revised against the Greek; the Old Testament was translated from the Hebrew, "which Jerome held truest" (the principle is Jerome's own, per `hal.term.hebraica-veritas`).
+- `hal.limit.f5-women-own-words`: the letter sent in Paula's and Eustochium's names "is held to be Jerome's own work", not stated as settled.
+
+Status: CLOSED.
