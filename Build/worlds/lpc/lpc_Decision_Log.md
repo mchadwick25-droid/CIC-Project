@@ -2545,3 +2545,11 @@ Alternatives shown: (1) one revision pass fixing the P0 and every P1, each fix v
 **Question** (`Review-Artifacts/Doc_02_ChangeOrder_Review_Round36.md` P1-2). D4 excluded "the Maurist appendix of doubtful sermons", which could mean the *Sermones dubii* (Classis V, Sermones 364 to 396; row 265 line 117124) or the Appendix of *Sermones supposititii* (PL 39 col. 1735; row 265 from about line 124389). Registry row 265 already says the Classis V sermons are not licensed as Augustine's.
 **Alternatives shown.** (1) exclude both; (2) exclude only the Appendix, tagging 364 to 396 Contested for authorship and changing row 265; (3) exclude only the *dubii*.
 **Chosen.** 1 (project lead, 2026-10-23, "1"). The scope is the Maurist Sermones 1 to 363 (Classes I to IV) plus the post-Maurist finds. A doubtful sermon can come back in only by a named change order showing its authorship. Applied in Doc_01 §2 and Doc_02 (lines 7, 13, 19, 49).
+
+---
+
+### 2026-10-23 — Sermon scope is every public-domain sermon held; Dolbeau's 26 named and not used (project lead's ruling)
+
+**Question** (`Review-Artifacts/Doc_01_ChangeOrder_Review_Round13.md` P1-3). "All of Augustine's sermons" omitted Dolbeau's 26 (Registry row 50, in copyright, not vendored), so an absence record could claim more than the evidence holds.
+**Alternatives shown.** (1) say plainly that the scope is the sermons the vendored editions hold, name Dolbeau's 26 as known and not used, and limit every absence record to the sermons held; (2) pursue rights to Dolbeau's edition; (3) leave them out without mention.
+**Chosen.** 1 (project lead, 2026-10-23, "1, alll public domain sermons"). The scope is every sermon of Augustine in a public-domain edition held in the Library, less the two doubtful blocks; absence records speak only for the sermons held. Applied in Doc_01 §2 and Doc_02.
