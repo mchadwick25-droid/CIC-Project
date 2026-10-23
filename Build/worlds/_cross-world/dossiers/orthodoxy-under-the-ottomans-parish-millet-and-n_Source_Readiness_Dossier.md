@@ -1,0 +1,141 @@
+# Source Readiness Dossier - Orthodoxy under the Ottomans - Parish, Millet & Neomartyrs
+
+See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
+
+**Update October 2026 (Era VII library session, one-world agent; resumed October 2026 after a usage stop):** there was no dossier for this world before. It is written here from the bucket that already existed (seventeen files vendored on September 2026) and from a new search for the gaps. Seven more files were vendored and staged in `cic/corpus-map/_staging/` (§1). Every other lead the brief named was run down and is either in §3 or closed in §4.
+
+**Atlas ID:** VI.17 (census id `orthodoxy-under-the-ottomans-parish-millet-and-n`, truncated, and the real id)
+**Corpus-map slug:** `orthodoxy-under-the-ottomans-parish-millet-and-n`
+**Time window:** 1453-1650
+**Region(s):** Anatolia, Balkans, Greek islands (census regions: Asia Minor, Mediterranean; lane 3, Greek East and Orthodoxy)
+**Dossier author / date:** source-research thread (one-world agent), October 2026, completed October 2026
+**Corpus-map / `cic/texts/` state as of:** October 2026. Seventeen files are merged into the bucket. Seven more are vendored and staged, pending the lead's merge. The registry fragments for them are in the agent's scratch folder.
+
+## 1. Already assigned
+
+**Merged into `cic/corpus-map/orthodoxy-under-the-ottomans-parish-millet-and-n.yaml` (seventeen files, twenty-two rows listed below).** Scale is the file's size, not a word count, because most are Greek or Latin.
+
+| work | author | role | confidence | approx. scale | source file |
+|---|---|---|---|---|---|
+| Confessiones I and II of Gennadius Scholarius, Greek with Latin | gennadius-scholarius | tradition | assigned | about 1,400 lines in Kimmel | `monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt` |
+| Confession of Cyril Lucaris, Greek with Latin | lucaris | tradition | assigned | about 2,200 lines | same file |
+| The Orthodox Confession (Mogila), Greek with Latin | mogila | tradition | assigned | about 28,000 lines | same file |
+| Acts of the Synod of Jerusalem (1672), Greek with Latin | dositheus | tradition | assigned | from about line 35949 | same file |
+| The Orthodox Confession, English version (Overbeck 1898) | mogila | tradition | assigned | whole file, three parts | `mogila_orthodox-confession_overbeck1898.txt` |
+| Acts and Decrees of the Synod of Jerusalem (Shield of Orthodoxy), English | dositheus | tradition | assigned | whole file | `dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt` |
+| The Confession of Cyril Lucar, eighteen chapters, in Robertson's appendix | lucaris | tradition | assigned | from line 6841 | same file |
+| Confessio Christianae fidei (Latin), Cyril Lucaris | lucaris | tradition | assigned | lines 367-2360 | `lucaris_confessio-and-synodal-censures-lat_1645.txt` |
+| Synodal Censures (Cyril of Berrhoea 1639, Parthenius 1642), Latin | synodal-censures-of-lucaris | tradition | assigned | from line 2369 | same file |
+| Lettres anecdotes de Cyrille Lucar (Amsterdam 1718) | lucaris | context | assigned | about 42,000 lines, French with Latin and Italian | `lucaris_lettres-anecdotes-fra_amsterdam1718.txt` |
+| Patriarch Jeremias II's replies to the Wirtemberg theologians (1576-81), Latin | jeremias-ii | tradition | assigned | three rounds, lines 9677 to the end | `acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt` |
+| The Wirtemberg theologians' letters and Augsburg Confession (Latin) | acta-et-scripta-wirtembergensium | context | assigned | lines 432-9670 | same file |
+| Patriarchica Constantinopoleos historia 1454-1578, Greek with Latin | historia-politica-et-patriarchica-constantinopoleos | tradition | assigned | about 7,600 lines | `historia-politica-et-patriarchica-constantinopoleos_grc-lat_bekker1849.txt` |
+| Historia politica Constantinopoleos 1391-1578, Greek with Latin | same | context | provisional | lines 186-4680 | same file |
+| Pedalion (canon law with the commentary of Agapios and Nikodemos), Greek | nikodemos-hagiorite | tradition | provisional | about 68,000 lines | `nikodemos-hagiorite_pedalion-canons-grc_1886.txt` |
+| Synaxaristes of the Twelve Months, volumes 1 and 2, Greek | nikodemos-hagiorite | tradition | provisional | two volumes, garbled OCR | `nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt`, `..._vol2-mar-aug-grc_1900.txt` |
+| Euchologion to mega (Venice 1862), Greek | euchologion-to-mega | tradition | provisional | whole file | `euchologion-to-mega_second-edition-grc_zerbos1862.txt` |
+| Horologion to mega (Venice, catalogued 1851), Greek | horologion-to-mega | tradition | provisional | whole file; year not legible, see §5 | `horologion-to-mega_venice-edition-grc_koutloumousianos1851.txt` |
+| A Description of the Present State of Samos, Nicaria, Patmos, and Mount Athos (1678) | georgirenes | tradition | assigned | whole file | `georgirenes_present-state-samos-nicaria-patmos-athos_denton1678.txt` |
+| The Present State of the Greek and Armenian Churches (Rycaut 1679) | rycaut | context | assigned | chapters from line 1297 | `rycaut_present-state-greek-armenian-churches_1679.txt` |
+| An Account of the Greek Church (Smith 1680) | smith-thomas | context | assigned | whole file | `smith-thomas_account-of-the-greek-church_1680.txt` |
+| Chronicon of Sphrantzes; Cananus; Anagnostes (Bonn 1838), Greek with Latin | sphrantzes, cananus, anagnostes | context | assigned | lines 192-27162 on | `sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838.txt` |
+| Historia Byzantina of Doukas (Bonn 1834), Greek with Latin | doukas | context | assigned | from line 554 | `doukas_historia-byzantina-grc-lat_bekker1834.txt` |
+
+**Vendored and staged October 2026 (seven files, pending merge).**
+
+| work | author | role | confidence | approx. scale | source file |
+|---|---|---|---|---|---|
+| Ecthesis chronica (anonymous Greek chronicle of the sultans and patriarchs), with the Chronicon Athenarum, ed. Lambros 1902 | ecthesis-chronica | tradition | assigned | about 5,000 lines of Greek, clean OCR | `ecthesis-chronica_with-chronicon-athenarum-grc_lambros1902.txt` |
+| Stephan Gerlach, Tage-Buch (Constantinople 1573-1578), 1674 | gerlach | context | assigned | about 65,000 lines, Fraktur, second witness | `gerlach_tage-buch-deu_1674.txt` |
+| Censura Orientalis Ecclesiae: Jeremias II's first Answer, Latin by Socolovius, Cracow 1582 | jeremias-ii | tradition | assigned | about 10,800 lines, second witness | `jeremias-ii_censura-orientalis-ecclesiae-lat_socolovius1582.txt` |
+| Collectanea de Cyrillo Lucario (Smith 1707): life, letters of Lucaris, an Ottoman command in Italian | smith-thomas, lucaris | context; tradition for the letters | assigned | about 10,800 lines, second witness | `smith-thomas_collectanea-de-cyrillo-lucario-lat_1707.txt` |
+| De Graecae Ecclesiae hodierno statu epistola (Smith, Latin, 1698) | smith-thomas | context | assigned | about 7,800 lines | `smith-thomas_de-graecae-ecclesiae-hodierno-statu-lat_halma1698.txt` |
+| The Orthodox Confession, the 1762 English | mogila | tradition | assigned | about 11,000 lines | `mogila_orthodox-confession_anon1762.txt` |
+| Sathas, Mesaionike Bibliotheke vol. 3: Dapontes, Makraios, patriarchal acts from 1568, catalogue of martyrs 1453-1811 | sathas and others | context (martyrs, acts); tradition provisional (Dapontes, Makraios) | assigned / provisional | about 32,900 lines, readable Greek | `sathas_mesaionike-bibliotheke-v3-grc_1872.txt` |
+
+Two things to say plainly about what the bucket now holds.
+
+**The confessional and Lucaris genres are well covered, and in the church's own languages.** The Lucaris dispute is in the corpus from both sides in primary texts: his Confession (Greek, Latin), the 1638 and 1642 synodal rejections (Latin in the 1645 volume and English in Robertson, who prints "the year of salvation 1638" decree at about line 3440 and the Jassy acts of 1642 at line 3563), the Synod of Jerusalem (English and Greek), and Mogila's Confession (Greek, Latin, two English states). The Patriarch's three Answers to Tübingen are there only in Latin, in two independent renderings, and no Greek text is in the corpus.
+
+**The census's "ordinary interior voice" genres are the thin ones.** The neomartyrologies are not in the corpus at all (§4). What stands in for them is Sathas's list of the martyrs by name, date and place, and the Synaxaristes in garbled Greek. Parish registers and berats were not found on any reachable host (§4). The census itself says the interior voice is thinner mid-period; the corpus agrees.
+
+## 2. Cross-link opportunities
+
+Checked October 2026 by searching the `Title:` and `Creator:` lines of every file in `cic/texts/` and then the bodies for "Lucar", "Hieremias", "Jeremias II", "Mogila", "Mohila" and "Scholarius", and opening the files with the most hits. Every hit outside this world's own files was noise: the Hebrew prophet Jeremiah, the Spanish place San Lucar de Barrameda, and the Latin word "salutaris". No genuine cross-link was found, and `crosslink_fragment.yaml` says so.
+
+What is already cross-linked, from the September 2026 Library ruling (not repeated here as new work): Mogila to `the-kyiv-mohyla-orthodox-revival` and `the-union-of-brest-and-ruthenian-greek-catholic-`; Lucaris to `the-reformed-cities-zurich-and-geneva`; the 1584 Acta to `lutheran-wittenberg-and-its-congregations`; Dositheus, Georgirenes, Rycaut, Smith and the later Greek books to `orthodoxy-under-the-ottomans-1650-1821`; Nikodemos to `the-kollyvades-and-greek-renewal`; the Byzantine chronicles to `byzantine-church-palaiologan`.
+
+New placements in this pass (all in the staging files, tier "same time-place" unless noted):
+
+- **The 1762 Mogila English** goes to Kyiv-Mohyla (tradition, assigned) and the Union of Brest (context, provisional), the same as the other two editions of the Confession.
+- **Gerlach's diary and Socolovius's Censura** go to `lutheran-wittenberg-and-its-congregations` as provisional context, beside the 1584 Acta (same time-different-region: Tübingen is not Wittenberg).
+- **Smith's Collectanea** goes to `the-reformed-cities-zurich-and-geneva` as provisional context, beside Aymon's Lucaris letters.
+- **Smith's Latin letter of 1698** goes to `orthodoxy-under-the-ottomans-1650-1821` beside Smith's English and Rycaut.
+- **Sathas** goes to `orthodoxy-under-the-ottomans-1650-1821` (the martyrs' catalogue and the acts from 1650 to 1811; Dapontes and Makraios are eighteenth-century).
+- **The Ecthesis chronica** goes to `byzantine-church-palaiologan` as provisional context, on window only.
+- **Rycaut and Smith serve the later entry.** They were already placed there on September 2026. Dositheus and Rycaut are the two the brief names; both are in the later entry's bucket already.
+
+**The Ecthesis and the Historia politica are one chronicle in two forms.** Lambros's preface says the text Martin Crusius printed in his Turcograecia (1584) as the "Historia politica Constantinopoleos" is the shorter form, from a manuscript Theodosios Zygomalas corrected, and that the fuller form survives in an Athos manuscript (Dionysiou 263, seventeenth century) which stops at 1543. The Bonn edition of the shorter form is already vendored. So the Turcograecia text is in the corpus in the Bonn reprint and now in the fuller Greek; only Crusius's own notes and the other seven books of the work are not.
+
+## 3. Verified acquisition leads
+
+Every row was checked on archive.org by metadata fetch and, where marked, by reading the OCR. The first seven are now vendored (§1).
+
+| title | author | translator/ed. | year | url | rights basis | verified by |
+|---|---|---|---|---|---|---|
+| Ecthesis Chronica and Chronicon Athenarum | anon., ed. Spyridon P. Lambros | none | 1902 | archive.org `ecthesischronic00lampgoog` (Michigan, Google scan; the Universal Digital Library copy `ecthesischronica037607mbp` is the same book) | pd-us-by-date; host NOT_IN_COPYRIGHT | direct fetch, title page read, five-point sample clean, October 2026. **Vendored.** |
+| Stephan Gerlachs Tage-Buch | Stephan Gerlach | none | 1674 | archive.org `10330416bsb` (Bayerische Staatsbibliothek) | pd-us-by-date (1674 imprint read); no rights field in the item | direct fetch, five-point sample readable word by word, columns interleaved, October 2026. **Vendored as second witness.** |
+| Censura Orientalis Ecclesiae | Jeremias II | Stanislaus Socolovius | 1582 | archive.org `bub_gb_HBBAiEghEYQC` (also `bub_gb_6oO2_dTPxhQC`, a Mayer printing; `kpbc.umk.pl.Publikacja-WiMBP-070585_204205` with host rights "Domena publiczna"; `sucho-id-censura-orientalis-ecclesiae`) | pd-us-by-date; host Public Domain Mark 1.0 | direct fetch, title page read, five-point sample (roman body readable, italic front matter garbled), October 2026. **Vendored as second witness.** |
+| Collectanea de Cyrillo Lucario | Thomas Smith | none | 1707 | archive.org `bim_eighteenth-century_collectanea-de-cyrillo-l_smith-thomas_1707` | pd-us-by-date; no rights field | direct fetch, five-point sample readable, October 2026. **Vendored as second witness.** |
+| De Graecae Ecclesiae hodierno statu epistola | Thomas Smith | none | 1698 | archive.org `degraecaeecclesi00smit` (Getty); also 1676 `bim_early-english-books-1641-1700_de-graecae-ecclesiae-_smith-thomas-of-magdal_1676`, 1678 `bub_gb__e_-OODHhmIC`, `bub_gb_PGj5ifUgpKQC` | pd-us-by-date; no rights field | direct fetch, title page read, five-point sample readable, October 2026. **Vendored** (the 1698 scan is the most readable; the 1676 scan carries a ProQuest watermark notice and the 1678 Google OCR is garbled). |
+| The Orthodox Confession ... faithfully translated from the originals | Peter Mogila | anon. (Lodvill per Robertson) | 1762 | archive.org `bim_eighteenth-century_the-orthodox-confession-_greek-orthodox-church_1762` | pd-us-by-date; no rights field | direct fetch, title page read, five-point sample readable, October 2026. **Vendored.** |
+| Mesaionike Bibliotheke, vol. 3 | K. N. Sathas | none | 1872 | archive.org `bub_gb_C6PaY5ZGN5UC` (vol. 3). Vol. 1 `bub_gb_oWp2KA6sQG0C`; the set `satha-mesaionike-bibliotheke` (seven volumes, community upload) | pd-us-by-date; host Public Domain Mark 1.0 | direct fetch, title page read, five-point sample readable, October 2026. **Vendored.** |
+| Early Voyages and Travels in the Levant (Covel diaries 1670-79) | J. Theodore Bent (ed.) | none | 1893 | archive.org `earlyvoyagestrav00dallrich` (also `earlyvoyagesand00bentgoog`) | pd-us-by-date; host NOT_IN_COPYRIGHT | metadata only, October 2026. Not vendored: a third English outside witness in the window; the world has Rycaut and Smith. |
+| The Orthodox Church of the East in the Eighteenth Century | George Williams (ed.) | none | 1868 | archive.org `orthodoxchurchof00willuoft` | pd-us-by-date; host NOT_IN_COPYRIGHT | metadata only, October 2026. Not vendored: patriarchal letters of the 1710s-20s, for the later entry `orthodoxy-under-the-ottomans-1650-1821`. |
+| Libri symbolici Ecclesiae Orientalis (1843) | E. J. Kimmel | none | 1843 | archive.org `librisymbolicie00kimmgoog` (Harvard, Google scan) | pd-us-by-date; host NOT_IN_COPYRIGHT | direct fetch, headings and five-point sample read, October 2026. Not vendored: the same texts as Kimmel 1850 in the same layout, and its OCR holds fewer Greek letters (about 338,000 against about 436,000). Keep as a second scan if the 1850 Greek fails a page-image check. |
+
+## 4. Checked and closed
+
+| candidate | why it looked promising | why it's closed |
+|---|---|---|
+| Jeremias II's three Answers in public-domain English | The census names Mastrantonis (1982) as the English | Mastrantonis, *Augsburg and Constantinople* (Holy Cross, 1982), is in copyright. No older English was found: archive.org searches on the Answers, "Augsburg and Constantinople" and the Patriarch's name found none, and web searches found only Mastrantonis and later studies (October 2026). Schaff's *Creeds of Christendom* (1877) discusses the Answers in its history volume; that is scholarship about them, and CCEL, where the web search found it, is a blocked host. The public-domain route is the Latin, now in two renderings (§1). The Greek is in neither Latin witness. |
+| Jeremias II's Greek text (Crusius, *Acta et scripta*, 1584, Greek column) | The Greek column of the vendored Acta | The vendored OCR has no Greek characters (checked in the existing header). The 1582 Cracow OCR holds no Greek script either (zero Greek letters). No second scan with Greek was found. |
+| Crusius, *Turcograeciae libri octo* (Basel 1584) | Named in the brief; the source of the Historia politica and of the Greek letters | Not on archive.org (advancedsearch for "turcograecia", "turcograeciae", "turcogr*" and Crusius by creator, October 2026: no hit). The one digital copy found by web search is Tübingen University Library (`opendigi.ub.uni-tuebingen.de/opendigi/FoXVI18_fol_1`, shelfmark Fo XVI 18.2); that host returned a proxy 403 from this session, so the page was not read and nothing was verified. Google Books answered with a quota error. Recorded as a lead with its URL, not a verified one. The Historia politica text is already in hand (§2). |
+| Neon Martyrologion (Nikodemos, Venice 1799) and Neon Leimonarion (Venice 1819) | The census's first primary source | Not on archive.org (searches on the title in Greek and Latin letters, by Nikodemos as creator, "martyrolog*" and "neomartyr*": no scan). The web search found a 1961 Athens transcription (not public domain) and no 1799 or 1819 scan on a reachable host. Closed for this host October 2026. Sathas's list (§1) names the martyrs the two books describe. |
+| Vaporis, *Witnesses for Christ* (SVS, 2000) | The census's English access to the neomartyrs | Published 2000, in copyright, and access-restricted on archive.org (`witnessesforchri0000vapo`). Closed. |
+| Papadopoulos, *Hoi neomartyres* (Athens, 1934) | A Greek book on the neomartyrs | Foreign 1934 publication, in copyright, and access-restricted (`hoineomartyres0000papa`). Closed. |
+| "Trois Néomartyrs de Jannina" (`TroisNeomartyrsDeJannina`) | A French account of three neomartyrs | A modern retyping of an *Echos d'Orient* article of 1913 with the retyper's footnotes added (the notes mention that a church became "Aghios Georgios in 1927"), with no rights statement; the three martyrs died in 1838 and later, outside the window. Closed. |
+| Neomartyr lives in 19th-century collections | Brief: look for English | None found. archive.org searches on "neomartyr*", "new martyrs" with Greek/Orthodox/Turk, and "martyrologion" returned only the items above and modern works. |
+| Synod of Constantinople 1638, in English | Named in the brief | Already in hand. Robertson's *Acts and Decrees* prints "the decree of the Synod holden in Constantinople" against Lucar's chapters (from about file line 3022; the dating clause at about line 3440 reads "in the year of salvation 1638, on the 24th"), and the Jassy acts of 1642 (line 3563). The Latin censures of 1639 and 1642 are in the 1645 volume. No separate search was needed. |
+| Gennadius Scholarius in English | Named in the brief | Two Greek-with-Latin Confessions are in Kimmel (§1). The only English found is *Gennadius Scholarius Complete Works*, volumes 1-4 on archive.org (`gennadius-scholarius-complete-works-volume-1_202502` and kin, uploaded 2025 by a community uploader), an English rendering of the French critical edition (*Oeuvres completes*, 1928-36); the item records give no rights statement for the translation or the French edition, so it cannot be vendored. Volumes 5-8 are Italian. Closed October 2026. |
+| Gennadius Scholarius, *Syntagma* (Greek, printed 1625-26) | An early printed Gennadius | `bim_early-english-books-1475-1640_-_gennadios-ii-patriarch-_1625-26`: the OCR is noise at all five points (Greek read as Latin letters and symbols). Closed. |
+| Meletios Pegas | Named in the brief; Patriarch of Alexandria and a Lucaris-era voice | Two items found. `bim_early-english-books-1475-1640_-_pegas-meletios-patriar_1625` (Greek, 1625): OCR is noise at all five points. `ned-kbn-all-00026361-001` (Latin, 1598): a short consolatory letter to Janus Dousa, followed by a catalogue of Greek manuscripts; not church life, and the sample is rough. Sathas's prologue quotes Pegas in Greek (a quotation of the patriarch on the war against the Greek language), which is the only Pegas text in the corpus. Closed. |
+| Maximos Margounios | Named in the brief | Archive.org search ("margunius OR margounios OR margunio") returned only a modern Italian study of his commentary on Augustine (`massimo-margunio-e-il-suo-commento-al-de-trinitate-di-s-agostino-1588`) and a 1574 Aristotle. No primary text found. Closed. |
+| Metrophanes Kritopoulos's Confession (Helmstedt 1661) | A Greek Orthodox confession of the 1620s-30s, named in the Kimmel volume | Not on archive.org (search "critopul*", "kritopoulos", "confessio catholicae et apostolicae in oriente": no scan; only Davey's 1987 *Pioneer for Unity*, restricted). The vendored Kimmel 1850 lists Gennadius, Lucaris, Mogila and Dositheus in its contents, not Kritopoulos. Web search found no digital copy. Closed. |
+| Dorotheos of Monemvasia, *Biblion historikon* (Venice 1818) | A Greek history of the patriarchate | `10007265bsb`: the Greek OCR is garbled Latin-letter noise at all five points. Closed. |
+| Rycaut, *The Present State of the Greek and Armenian Churches* (1679) | Named; check if vendored | Already vendored (§1). No second scan was found (archive.org title and creator searches). Rycaut's other works (`The Present State of the Ottoman Empire`, 1668 and 1670, for example `b30329139` with Public Domain Mark, `presentstateofot00ryca`) cover the Turkish state and religion, not the Greek Church; not vendored. "Paul Ricaut" (the brief's other spelling) returned nothing as creator. |
+| Thomas Smith, *Account of the Greek Church* | Named; check if vendored | Already vendored (§1), and the Latin original is now beside it. |
+| Patriarchal berats, kadi-court records, parish and monastic registers, Athonite archives | The census's "parish/millet texture" layer | Searched archive.org for "berat" with "patriarch*", "firman*" with "greek church" and "patriarcat" histories (October 2026): no hit. These are archive documents, not printed books; nothing on a reachable host. Sathas's regesta of patriarchal acts (§1) is the nearest printed trace. |
+| Sathas, *Tourkokratoumene Hellas* (1869) | Sathas's index of Greek writers under the Turks, cited in the Sathas regesta | Not found (creator and title searches, October 2026). |
+| Runciman, *The Great Church in Captivity* (1968) and Legrand, *Bibliographie hellenique* | The census's secondary reading and the standard bibliography | Runciman is in copyright and restricted. Legrand's *Bibliographie hellenique* is a bibliography, not a source, and its 1963 reprints are restricted. Closed. |
+| Kimmel 1850, the 1843 edition and the Greek behind the English | Brief: for each Greek text look for an English | Done for the confessions: Mogila (English 1762 and 1898), Dositheus (English 1899), Lucaris (English in Robertson's appendix), Gennadius (none, above), Jeremias (none, above). For the later Greek books (Pedalion, Synaxaristes, Euchologion, Horologion, Sathas, the Ecthesis, Dapontes) no public-domain English was located; those searches were short, so this is recorded as a gap, not as a proven absence. |
+
+## 5. Open cross-world questions
+
+- **Mogila, three expressions.** The Confession is now in the corpus in Kimmel's Greek and Latin (1850), the 1762 English and Overbeck's modernised 1898 English. `works_fragment.yaml` proposes one Work with three Expressions. Kyiv-Mohyla (VI.21) holds the charter claim, the Union of Brest (VI.20) the provisional one; this dossier decides neither.
+- **Jeremias II and the Lutheran worlds.** The Patriarch's three Answers sit in this world's bucket (tradition) and, provisionally, in `lutheran-wittenberg-and-its-congregations` (context). Whether Tübingen theologians belong to a Wittenberg world is the Lutheran thread's question.
+- **Lucaris, Calvinist or not.** The Reformed Cities rows (VI.2) are provisional context. Whether Lucaris was a Calvinist is disputed (the Synod of Jerusalem says the Eastern Church never admitted the Confession). A build must tag it `Contested`, per the project's confidence vocabulary.
+- **The Horologion's year.** `horologion-to-mega_venice-edition-grc_koutloumousianos1851.txt` has no legible printed year. The registry header already flags it. The READER trailer in the append fragment says "passages only" until the title page image is checked.
+- **Nikodemos and the window.** The Pedalion and Synaxaristes are 1800-era books in 1886 and 1868 printings; they are a late witness to this world's practice and law, and are provisional on this world, tradition-weighted on the Kollyvades and the later Ottoman Orthodoxy entry.
+- **Two garbled Greek files and their clean alternatives.** None of the Greek files in the bucket has a cleaner twin to replace it. The Ecthesis (clean), Sathas (readable) and Euchologion/Horologion (partly garbled) are the Greek the corpus can quote after a page-image check. The Gerlach, Socolovius and Smith Latin/German files are second witnesses.
+- **- **Rycaut in 1668 and 1670.** Outside witnesses on the Ottoman state, not the church. Left for the build thread to ask for.
+
+## 6. Step 0 scope notes and recommendation
+
+**Floor question (census `floorNote`: "No question").** The census says the floor is not in doubt, and nothing in the corpus argues otherwise: this is the Eastern Orthodox Church, Nicene and Chalcedonian, and its own confessions (Gennadius, Mogila, the Synod of Jerusalem) are in the corpus. The one doctrinal dispute inside the window is the Lucaris Confession of 1629, which the Orthodox synods of 1638, 1642 and 1672 rejected as Calvinist-sounding; it is a boundary contest inside the church, not a floor failure, and the corpus holds both sides.
+
+**Uniqueness and overlap with sibling worlds.** The Kyiv-Mohyla revival (VI.21) and the Union of Brest (VI.20) share Mogila's Confession and the Jassy approval of 1642, but they tell a Ruthenian, Commonwealth-bound story; this world is the Greek Church under the sultan. The later `orthodoxy-under-the-ottomans-1650-1821` entry shares Dositheus, Georgirenes, Rycaut and Smith and continues the story. The Byzantine Church under the Palaiologoi stops at 1453. Nobody else tells neomartyrdom under Ottoman law, the millet arrangement, or the Lucaris affair from the Patriarchate's side.
+
+**Scale.** Twenty-four files, a few million words of mixed Greek, Latin, German, French and English. About four fifths is not English. The English is the Mogila editions, Robertson's Acts and Decrees and Lucaris appendix, and the three outside accounts (Georgirenes, Rycaut, Smith).
+
+**Recommendation, for Mark to decide, not a decision: build.** Floor (A1) clears on the census and on the church's own confessions. Sourcing (B1) is lopsided but deep where it counts: the confessional layer is rich in the church's own voice (Gennadius, Lucaris, Mogila, Dositheus, the Patriarch's Answers in Latin), the patriarchal succession is told from inside (the Ecthesis and the Patriarchica), and the Lucaris dispute is documented from both sides. Ecology (B2) is thin where the census says it is: the neomartyrs are indexed (Sathas) but not narrated, and parish and millet texture is only in Sathas's regesta, so the build should state both as absences rather than fill them, as the September 2026 ruling already asks. Uniqueness (B3) holds. Audiences (B4) and scale (B5) were argued by the census and the September 2026 ruling that let this world proceed first on a lopsided ecology. One condition for the build: most of the Greek is second-witness quality, so the quotable core is the Ecthesis, Sathas, the Latin of the confessions and the two English editions of Mogila, each checked against page images before quoting.

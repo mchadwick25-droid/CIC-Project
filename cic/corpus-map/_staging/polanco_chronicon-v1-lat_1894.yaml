@@ -19,3 +19,16 @@ assignments:
       file, since it is primary to the movement regardless of language;
       the scan is clean, not flagged as garbled under the Library's own
       OCR-quality rule.
+
+  - row_id: polanco_chronicon-v1-lat_1894--ethiopian-mission
+    work: 'Polanco''s Chronicon, Tomus V (1555): the Jesuit mission to Ethiopia'
+    author: polanco
+    locus: Ethiopia passages at file lines 224-321, 28147-28182, 31325-31479, 31575-31688 (found by searching
+      the words Aethiop-, Abyssin-, etiop-; not read in full)
+    atlas_ids:
+    - ethiopian-christianity-gragn-to-fasilides
+    role: context
+    confidence: provisional
+    note: 'Jesuit chronicle with a consultation on whether Ethiopian circumcision and Greek-rite customs
+      could be tolerated (file lines 31325-31332 read), from outside the Ethiopian church. Tier: same time-place.
+      The file''s staging row calls this volume Tomus V (1555).'

@@ -3,6 +3,23 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-anabaptist-movements
 works:
+- row_id: ausbund_etliche-schoene-christliche-lieder-deu_baer1856--ausbund-das-ist-etliche-schoene-christliche-lieder-1856
+  work: 'Ausbund, das ist: Etliche schöne christliche Lieder (Lancaster, 1856 printing)'
+  author: ausbund
+  locus: 'whole volume: Vorrede at file line 93; hymns headed ''Das 1 Lied.'' (line 250) onward;
+    Register of first lines at 38321; CONFESSIO of Thomas von Imbroich at 38814; the Bericht
+    of the Swiss Brethren follows it; ''Sechs schöne geistliche Lieder'' appendix from 41903'
+  role: tradition
+  confidence: assigned
+  note: 'The movement''s own hymnal, the prison hymns the census names, in a clean Fraktur
+    OCR (0.90 of word tokens read as words against 0.53 in the 1846 file, sampled at five
+    points). This is the witness to quote from, verified against its page images; the 1846
+    file stays as the record of its own scan. Primary voice, in German. The appended Confessio
+    of Thomas von Imbroich (martyred Cologne 1558) is a distinct work bound in; a later pass
+    may split it out. No public-domain English translation exists.
+
+    '
+  source_file: ausbund_etliche-schoene-christliche-lieder-deu_baer1856.txt
 - row_id: ausbund_lancaster1846-deu--ausbund-das-ist-etliche-schoene-christliche-lieder
   work: 'Ausbund, das ist: etliche schoene christliche Lieder'
   author: ausbund
@@ -16,6 +33,57 @@ works:
 
     '
   source_file: ausbund_lancaster1846-deu.txt
+- row_id: book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911--formula-of-concord-article-xii-anabaptists
+  work: The Formula of Concord, Article XII, the Erroneous Articles of the Anabaptists
+  author: book-of-concord
+  locus: Epitome Chapter XII Anabaptists from file line 27717; Solid Declaration Chapter XII
+    from 35372
+  role: context
+  confidence: assigned
+  note: Lutheran confessional condemnation of the Anabaptists, the hostile contemporary frame
+    for the movement; read at the article.
+  source_file: book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt
+- row_id: schaff_second-helvetic-confession-heidelberg-catechism_1919--second-helvetic-confession-against-the-anabaptists
+  work: 'The Second Helvetic Confession (1566): the passages against the Anabaptists'
+  author: bullinger
+  locus: file lines 1222 (ministers' maintenance), 1294 ('We are therefore no Anabaptists'),
+    1571 (the magistracy)
+  role: context
+  confidence: assigned
+  note: 'The Swiss Reformed confession''s explicit condemnations of the Anabaptists on baptism
+    and the magistracy, from the same Swiss lands a generation after Schleitheim. Same time
+    and place. Read at the loci given. Author slug as the existing staging file uses it for
+    this confession; if that file uses another slug, use that one.
+
+    '
+  source_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
+- row_id: calvin_institutes-christian-religion-vol1_beveridge1845--institutes-book-ii-against-the-anabaptists-on-oaths
+  work: Institutes of the Christian Religion, Book II.8.26-27 (the Anabaptists' rejection
+    of oaths refuted) and II.10 (the Anabaptists on the Old Testament)
+  author: calvin
+  locus: II.8 section 26 summary at file line 23729; II.10 summary naming Servetus and the
+    Anabaptists at 27053, text at 27196
+  role: context
+  confidence: assigned
+  note: 'Calvin against the Anabaptist refusal of the oath (Schleitheim article 7) and their
+    reading of the two testaments. Same time, different region.
+
+    '
+  source_file: calvin_institutes-christian-religion-vol1_beveridge1845.txt
+- row_id: calvin_institutes-christian-religion-vol3_beveridge1845--institutes-book-iv-against-the-anabaptists
+  work: 'Institutes of the Christian Religion, Book IV: the passages against the Anabaptists
+    (IV.1 on the church''s purity, IV.16 on infant baptism, IV.20 on civil government)'
+  author: calvin
+  locus: IV.1 at file line 1472; IV.16 arguments of the Anabaptists from line 15307 (sections
+    10 and 16 at 15710 and 15732); IV.20 on civil government, the Anabaptists' objections,
+    from line 23300
+  role: context
+  confidence: assigned
+  note: 'Calvin''s sustained refutation of Anabaptist positions on the church, paedobaptism
+    and the magistracy (1559 text, Beveridge''s English). Same time, different region (Geneva).
+
+    '
+  source_file: calvin_institutes-christian-religion-vol3_beveridge1845.txt
 - row_id: dirk-philips_enchiridion_kolb1910--enchiridion-or-hand-book-a-hand-book-of-the-christian
   work: 'Enchiridion, or Hand Book: A Hand Book of the Christian Doctrine and Religion'
   author: dirk-philips
@@ -42,6 +110,42 @@ works:
 
     '
   source_file: dordrecht-confession_ministers-manual_elkhart1890.txt
+- row_id: mcglothlin_baptist-confessions-of-faith_1911--the-waterlander-confession-c-1580-and-the-dordrecht-confession-1632
+  work: The Waterlander (Ries and Gerrits) Confession, c. 1580, and the Dordrecht Confession,
+    1632, in McGlothlin's English
+  author: dordrecht-confession
+  locus: '''THE MENNONITES'' heading at file line 1400; ''I. Earliest Confession c. 1580''
+    at 1427; the Dordrecht confession introduced at about line 2630'
+  role: tradition
+  confidence: provisional
+  note: 'The same volume already assigned for the Schleitheim articles also prints the two
+    Dutch Mennonite confessions, which the staging note says were not reviewed. Provisional:
+    the headings were read, the texts not checked against the Dutch. The Dordrecht text is
+    a second English expression beside the 1890 Elkhart edition already vendored; the Waterlander
+    confession is new to the corpus. The author slug follows the corpus map''s existing slug
+    for Dordrecht; the Waterlander text may want its own slug (ries-and-gerrits) if split
+    out.
+
+    '
+  source_file: mcglothlin_baptist-confessions-of-faith_1911.txt
+- row_id: hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883--die-geschichts-buecher-der-wiedertaeufer-in-oesterreich-ungarn
+  work: Die Geschichts-Bücher der Wiedertäufer in Oesterreich-Ungarn, 1526-1785 (Beck, 1883)
+  author: hutterite-brethren
+  locus: 'whole volume: Beck''s Vorrede from file line 135, Inhalt from 1918, the chronicle
+    text in Bücher and Abschnitte with ''Anno'' year entries from about line 3120 (Anno 1519
+    at 3193) to Anno 1722 at 32162; Beilage A (the Schleitheim articles, abridged) at 4768;
+    Beilage B (the Brethren''s 1545 Rechenschaft to the lords of Moravia, abridged) at 11182'
+  role: tradition
+  confidence: assigned
+  note: 'The Hutterite Brethren''s own chronicles in Beck''s 1883 edition, the first printed
+    edition of this material and the one Wolkan''s 1923 edition answers. Primary voice of
+    the Moravian wing: martyr accounts, the communal order, the Brethren''s letters to the
+    Moravian lords. Readable Antiqua OCR with scattered character errors, sampled at five
+    points; quote only after checking the page images. The two Beilagen are marked abridged
+    by Beck himself. No public-domain English translation exists.
+
+    '
+  source_file: hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt
 - row_id: hutterite-brethren_geschichtbuch_wolkan1923-deu--geschicht-buch-der-hutterischen-brueder-chronicle-of-the
   work: Geschicht-Buch der Hutterischen Brueder (Chronicle of the Hutterian Brethren)
   author: hutterite-brethren
@@ -55,6 +159,37 @@ works:
 
     '
   source_file: hutterite-brethren_geschichtbuch_wolkan1923-deu.txt
+- row_id: hutterite-brethren_geschicht-buch-deu_wolkan1923--geschicht-buch-der-hutterischen-brueder-clean-scan
+  work: Geschicht-Buch der Hutterischen Brüder (Wolkan, 1923), clean scan
+  author: hutterite-brethren
+  locus: 'whole text: the Brethren''s Vorrede an den Leser at file line 2840 (OCR ''Lefer''),
+    the chronicle under year headings from Anno 1527 (line 5888) to Anno 1665 (line 44636),
+    then the editor''s variant notes'
+  role: tradition
+  confidence: assigned
+  note: 'The same 1923 Wolkan edition as the file already assigned to this world, from a different
+    scan (Internet Archive 2025) whose Fraktur OCR is clean: 0.93 of word tokens read as words
+    against 0.57 in the earlier file, sampled at five points. This is the witness to quote
+    from, verified against its page images; the earlier file stays as the record of its own
+    scan. Primary voice of the Moravian wing, in German. No public-domain English translation
+    exists (Plough 1987 is in copyright).
+
+    '
+  source_file: hutterite-brethren_geschicht-buch-deu_wolkan1923.txt
+- row_id: melanchthon_augsburg-confession_anon-pg275--augsburg-confession-condemnations-of-the-anabaptists
+  work: 'The Augsburg Confession (1530): the condemnations of the Anabaptists in Articles
+    V, IX, XII, XVI and XVII'
+  author: melanchthon
+  locus: the sentences beginning 'They condemn the Anabaptists' at file lines 253, 314, 351,
+    418 and 440
+  role: context
+  confidence: assigned
+  note: 'The Lutheran estates'' formal condemnation of the Anabaptists by name on the Spirit,
+    infant baptism, perseverance, civil office and the millennium: the hostile confessional
+    frame the movement lived under in the Empire. Same time, different region.
+
+    '
+  source_file: melanchthon_augsburg-confession_anon-pg275.txt
 - row_id: menno-simons_complete-works_funk1871--the-complete-works-of-menno-simon-s
   work: The Complete Works of Menno Simon(s)
   author: menno-simons
@@ -67,6 +202,41 @@ works:
 
     '
   source_file: menno-simons_complete-works_funk1871.txt
+- row_id: riedemann_rechenschaft-deu_berne1902--rechenschaft-unsrer-religion-lehre-und-glaubens
+  work: Rechenschaft unsrer Religion, Lehre und Glaubens (Riedemann; Berne, Indiana reprint,
+    1902)
+  author: riedemann
+  locus: 'whole volume: publishers'' note on the Huterische Brüder-Gemeine from file line
+    41, Riedemann''s Vorrede and the Rechenschaft in sections headed ''Von ...'' after it
+    (headings garbled in the OCR; page-numbered running heads)'
+  role: tradition
+  confidence: assigned
+  note: 'Peter Riedemann''s confession of faith for the Hutterite Brethren (written in prison
+    in Hesse, 1540-41; printed 1565), the Moravian wing''s fullest doctrinal statement, in
+    the Brethren''s own 1902 American reprint. SECOND WITNESS for scan quality under Mark''s
+    OCR ruling: the Fraktur OCR is garbled throughout, so nothing is quotable from this file
+    until a cleaner scan is vendored or each passage is read on the page images. German; the
+    English translations (1950, 1970) are in copyright.
+
+    '
+  source_file: riedemann_rechenschaft-deu_berne1902.txt
+- row_id: boehmer_urkunden-bauernkrieg-wiedertaeufer-deu_1910--die-sieben-artikel-von-schlatt-am-randen-schleitheim-1527
+  work: Die sieben Artikel von Schlatt am Randen (the Schleitheim articles, 1527), German
+    text
+  author: swiss-brethren
+  locus: 'section IV from file line 1711 to the end of the file (line 2441): Böhmer''s introduction
+    and notes in Antiqua, the articles themselves in Fraktur'
+  role: tradition
+  confidence: assigned
+  note: 'The German original of the Swiss Brethren''s founding confession, which the corpus
+    so far held only once removed (McGlothlin 1911 and Jackson 1901 both render Zwingli''s
+    Latin). SECOND WITNESS for scan quality under Mark''s OCR ruling: the Fraktur text of
+    the articles is garbled, so it serves to check the English against the page images, not
+    to quote from directly. Sections I-III of the same file (the peasants'' Twelve Articles
+    and related documents, 1525) are the peasants'' war and are not assigned.
+
+    '
+  source_file: boehmer_urkunden-bauernkrieg-wiedertaeufer-deu_1910.txt
 - row_id: mcglothlin_baptist-confessions-of-faith_1911--the-schleitheim-confession-1527
   work: The Schleitheim Confession (1527)
   author: swiss-brethren
@@ -83,6 +253,27 @@ works:
 
     '
   source_file: mcglothlin_baptist-confessions-of-faith_1911.txt
+- row_id: taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930--quellen-zur-geschichte-der-wiedertaeufer-i-herzogtum-wuerttemberg
+  work: 'Quellen zur Geschichte der Wiedertäufer, I. Band: Herzogtum Württemberg (Bossert,
+    1930)'
+  author: taeuferakten-wuerttemberg
+  locus: 'whole volume: Vorwort from file line 259, Einleitung from 392, the 1,256 numbered
+    documents in year order from about line 1300 to the last number (1256.) at line 55585,
+    then Nachträge, Personenregister from 70311 and Sachregister from 76572'
+  role: tradition
+  confidence: assigned
+  note: 'The Täuferakten volume for the duchy of Württemberg: ducal mandates, visitation and
+    interrogation reports, the prisoners'' own confessions and answers, and lists of Täufer,
+    1521/1527 to 1641, in German. Primary voice for the court-testimony genre the census names,
+    read with the caution the census itself gives (testimony under interrogation is coerced
+    speech, and the authorities'' regesta are the hostile frame around it). Clean Antiqua
+    OCR, sampled at five points; ready to quote once each passage is verified against the
+    page images. No public-domain English translation exists. The scan reproduces the 1971
+    Johnson Reprint of the 1930 Leipzig edition; the rights basis is the 1930 publication
+    date.
+
+    '
+  source_file: taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt
 - row_id: van-braght_martyrs-mirror_sohm1886--the-bloody-theater-or-martyrs-mirror-of-the-defenseless
   work: The Bloody Theater, or Martyrs' Mirror of the Defenseless Christians
   author: van-braght
@@ -115,3 +306,38 @@ works:
 
     '
   source_file: vedder_balthasar-hubmaier_1905.txt
+- row_id: zurich-council_actensammlung-zuercher-reformation-deu_egli1879--actensammlung-zur-geschichte-der-zuercher-reformation-1519-1533
+  work: Actensammlung zur Geschichte der Zürcher Reformation in den Jahren 1519-1533 (Egli,
+    1879)
+  author: zurich-council
+  locus: the Täufer documents within the year sections 1525 (heading at file line 17205) through
+    1533 (first heading at 51850); numbered documents Nr. 1-2001, the last (2001.) at line
+    54089; the Personenregister follows from line 60107
+  role: tradition
+  confidence: assigned
+  note: 'Zurich''s council, court and chancery records of the first Anabaptists: mandates
+    against rebaptism, interrogations, trial records and sentences of Grebel, Manz, Blaurock
+    and the Zollikon and Grüningen groups, 1525 onward, in sixteenth-century Swiss German
+    with Egli''s regesta. Primary voice for the court-testimony genre, coerced speech inside
+    a hostile frame, as the census warns. Clean Antiqua OCR, sampled at five points; ready
+    to quote once verified against the page images. No public-domain English translation (Harder
+    1985 is in copyright).
+
+    '
+  source_file: zurich-council_actensammlung-zuercher-reformation-deu_egli1879.txt
+- row_id: zwingli_selected-works_jackson1901--refutation-of-the-tricks-of-the-catabaptists-1527-anabaptists
+  work: Refutation of the Tricks of the Catabaptists (In catabaptistarum strophas elenchus,
+    1527), with the Schleitheim articles embedded
+  author: zwingli
+  locus: running heads 'REFUTATION OF BAPTIST TRICKS' from file line 5032; address to the
+    ministers at 5037; 'SECOND PART' at 7241 with 'TITLE OF THE CONSTITUTION OF THE SECT OF
+    THE CATABAPTISTS' at 7254 (Zwingli's Latin of the seven Schleitheim articles, in English);
+    'PART THIRD' at 8882
+  role: context
+  confidence: assigned
+  note: 'Zwingli''s own 1527 polemic against the Zurich Anabaptists, the hostile witness that
+    preserved the Schleitheim articles in Latin; McGlothlin''s 1911 English of the articles
+    is a translation of this same Latin. Same time and place as the world (Zurich, 1525-1527).
+
+    '
+  source_file: zwingli_selected-works_jackson1901.txt

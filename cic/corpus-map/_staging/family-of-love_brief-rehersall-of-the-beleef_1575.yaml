@@ -1,0 +1,23 @@
+source_file: family-of-love_brief-rehersall-of-the-beleef_1575.txt
+authors_ruled:
+  family-of-love:
+    kind: anonymous
+    evidence: The print names no author; the title page reads "A brief Rehersall of the Beleef of the
+      Goodwilling in Englande, which are named the Familie of Loue"; the host catalogue gives the corporate
+      creator "Family of Love"; file line 12.
+    from_file: family-of-love_brief-rehersall-of-the-beleef_1575.txt
+assignments:
+- row_id: family-of-love-brief-rehersall-of-the-beleef-1575-a-brief-rehersall-of-the-beleef-of-the-goodwilling-in-englan
+  work: A brief Rehersall of the Beleef of the Goodwilling in Englande, which are named the Familie of
+    Loue, 1575
+  author: family-of-love
+  locus: the whole pamphlet, file lines 1-407
+  atlas_ids:
+  - family-of-love-and-spiritualists-franck-niclaes
+  role: tradition
+  confidence: assigned
+  note: 'The English Familists'' own short statement of belief, professing the Apostles'' Creed and answering
+    their accusers: the one English community text in the corpus that is not by Niclaes or against him.
+    Short (about 1,900 words); left margin cut off on many lines. SECOND WITNESS for exact wording: EEBO
+    microfilm OCR (about 0.82 of tokens read as words at five sample points), so locate passages here
+    and verify against the page images before quoting (Mark''s OCR ruling). '

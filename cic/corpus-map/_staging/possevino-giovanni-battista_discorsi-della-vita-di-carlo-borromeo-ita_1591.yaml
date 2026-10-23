@@ -1,0 +1,23 @@
+source_file: possevino-giovanni-battista_discorsi-della-vita-di-carlo-borromeo-ita_1591.txt
+
+assignments:
+  - row_id: possevino-giovanni-battista_discorsi-della-vita-di-carlo-borromeo-ita_1591--discorsi-della-vita-et-attioni-di-carlo-borromeo
+    work: "Discorsi della vita, et attioni di Carlo Borromeo"
+    author: possevino-giovanni-battista
+    locus: "dedication to Cesare Speciano from the head of the file; chapter headings 'Cap. ...' from line 1346 ('Cap. VI.', earlier chapter headings missed by the OCR) to line 10709 ('Cap. XXXI.'); 'TAVOLA' (table of chapters) at line 10724"
+    atlas_ids:
+      - tridentine-parish-renewal-borromean-milan
+    role: tradition
+    confidence: assigned
+    note: >
+      An early Life in topical discourses by a member of Borromeo's household, Giovanni Battista Possevino of Mantua (not the Jesuit Antonio Possevino), who says in the dedication that he served the cardinal for many months and was called to his deathbed; dedicated to Cesare Speciano, Borromeo's former Roman agent. Legible OCR with the long s read as f throughout; verify any quotation against the page images. No English translation exists.
+  - row_id: possevino-giovanni-battista_discorsi-della-vita-di-carlo-borromeo-ita_1591--discorsi-della-vita-et-attioni-di-carlo-borromeo-2
+    work: "Discorsi della vita, et attioni di Carlo Borromeo"
+    author: possevino-giovanni-battista
+    locus: "as above"
+    atlas_ids:
+      - the-tridentine-church
+    role: context
+    confidence: provisional
+    note: >
+      Placed on window and subject only: a 1591 Life of the model Tridentine bishop. The file was not read for what it says of the whole church, so the fit is provisional.

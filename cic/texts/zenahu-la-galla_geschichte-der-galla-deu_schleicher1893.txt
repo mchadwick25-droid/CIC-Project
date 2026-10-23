@@ -1,0 +1,2826 @@
+Title: Geschichte der Galla: Bericht eines abessinischen Mönches über die Invasion der Galla im sechzehnten Jahrhundert. Text und Übersetzung
+Creator: Anonymous in this edition (the host catalogue lists the work's own title, Zenahu la-Galla, as creator); edited and translated into German by A. W. Schleicher
+Publisher: Berlin: Verlag von Theod. Fröhlich
+Publication Date: 1893 (title page; the preface is dated Berlin, 30 December 1893)
+Rights: Public Domain (published 1893, more than 95 years ago; the host marks the item NOT_IN_COPYRIGHT)
+Language: deu (German translation and notes; the Ethiopic-script text is printed in parallel, which the host catalogue labels Amharic, and the OCR renders it as noise)
+Source: Internet Archive item geschichtederga00schlgoog, file geschichtederga00schlgoog_djvu.txt, fetched directly by the library/source-research thread (Era VII session), 2026-10-23; host rights statement: possible-copyright-status NOT_IN_COPYRIGHT; digitized by Google; contributor unknown library
+Provenance note: Header prepended; the OCR text follows unchanged, including the Google Books notice at the front (no long s present). Rights basis: an 1893 Berlin publication, public domain by date.
+Content note: A short work (about 2,800 OCR lines, about 40 pages): the sixteenth-century account of the Galla invasion, in an abridged manuscript text, with Schleicher's German and notes. German is clean; the Ethiopic is noise. Sampled at five points: the German passages are readable; two samples fell in the Ethiopic column. The same work is also in the Sarsa Dengel volume (Guidi's French). Neither edition names the author; the attribution to Abba Bahrey is recorded in the staging file.
+---
+Google 
+
+
+This is a digital copy of a book that was preserved for generations on library shelves before it was carefully scanned by Google as part of a project 
+to make the world’s books discoverable online. 
+
+It has survived long enough for the copyright to expire and the book to enter the public domain. A public domain book is one that was never subject 
+to copyright or whose legal copyright term has expired. Whether a book is in the public domain may vary country to country. Public domain books 
+are our gateways to the past, representing a wealth of history, culture and knowledge that’s often difficult to discover. 
+
+Marks, notations and other marginalia present in the original volume will appear in this file - a reminder of this book’s long journey from the 
+publisher to a library and finally to you. 
+
+
+Usage guidelines 
+
+
+Google is proud to partner with libraries to digitize public domain materials and make them widely accessible. Public domain books belong to the 
+public and we are merely their custodians. Nevertheless, this work is expensive, so in order to keep providing this resource, we have taken steps to 
+prevent abuse by commercial parties, including placing technical restrictions on automated querying. 
+
+‘We also ask that you: 
+
+
++ Make non-commercial use of the files We designed Google Book Search for use by individuals, and we request that you use these files for 
+personal, non-commercial purposes. 
+
+
++ Refrain from automated querying Do not send automated queries of any sort to Google’s system: If you are conducting research on machine 
+translation, optical character recognition or other areas where access to a large amount of text is helpful, please contact us. We encourage the 
+use of public domain materials for these purposes and may be able to help. 
+
+
++ Maintain attribution The Google “watermark” you see on each file is essential for informing people about this project and helping them find 
+additional materials through Google Book Search. Please do not remove it. 
+
+
++ Keep it legal Whatever your use, remember that you are responsible for ensuring that what you are doing is legal. Do not assume that just 
+because we believe a book is in the public domain for users in the United States, that the work is also in the public domain for users in other 
+countries. Whether a book is still in copyright varies from country to country, and we can’t offer guidance on whether any specific use of 
+any specific book is allowed. Please do not assume that a book’s appearance in Google Book Search means it can be used in any manner 
+anywhere in the world. Copyright infringement liability can be quite severe. 
+
+
+About Google Book Search 
+
+
+Google’s mission is to organize the world’s information and to make it universally accessible and useful. Google Book Search helps readers 
+discover the world’s books while helping authors and publishers reach new audiences. You can search through the full text of this book on the web 
+alkttp: / /55655 . google. com/] 
+
+
+Google 
+
+
+Über dieses Buch 
+
+
+Dies ist ein digitales Exemplar eines Buches, das seit Generationen in den Regalen der Bibliotheken aufbewahrt wurde, bevor es von Google im 
+Rahmen eines Projekts, mit dem die Bücher dieser Welt online verfügbar gemacht werden sollen, sorgfältig gescannt wurde. 
+
+Das Buch hat das Urheberrecht überdauert und kann nun öffentlich zugänglich gemacht werden. Ein öffentlich zugängliches Buch ist ein Buch, 
+das niemals Urheberrechten unterlag oder bei dem die Schutzfrist des Urheberrechts abgelaufen ist. Ob ein Buch öffentlich zugänglich ist, kann 
+von Land zu Land unterschiedlich sein. Öffentlich zugängliche Bücher sind unser Tor zur Vergangenheit und stellen ein geschichtliches, kulturelles 
+und wissenschaftliches Vermögen dar, das häufig nur schwierig zu entdecken ist. 
+
+Gebrauchsspuren, Anmerkungen und andere Randbemerkungen, die im Originalband enthalten sind, finden sich auch in dieser Datei — eine Erin- 
+nerung an die lange Reise, die das Buch vom Verleger zu einer Bibliothek und weiter zu Ihnen hinter sich gebracht hat. 
+
+
+Nutzungsrichtlinien 
+
+
+Google ist stolz, mit Bibliotheken in partnerschaftlicher Zusammenarbeit öffentlich zugängliches Material zu digitalisieren und einer breiten Masse 
+zugänglich zu machen. Öffentlich zugängliche Bücher gehören der Öffentlichkeit, und wir sind nur ihre Hüter. Nichtsdestotrotz ist diese 
+Arbeit kostspielig. Um diese Ressource weiterhin zur Verfügung stellen zu können, haben wir Schritte unternommen, um den Missbrauch durch 
+kommerzielle Parteien zu verhindern. Dazu gehören technische Einschränkungen für automatisierte Abfragen. 
+
+Wir bitten Sie um Einhaltung folgender Richtlinien: 
+
+
++ Nutzung der Dateien zu nichtkommerziellen Zwecken Wir haben Google Buchsuche für Endanwender konzipiert und möchten, dass Sie diese 
+Dateien nur für persönliche, nichtkommerzielle Zwecke verwenden. 
+
+
++ Keine automatisierten Abfragen Senden Sie keine automatisierten Abfragen irgendwelcher Art an das Google-System. Wenn Sie Recherchen 
+über maschinelle Übersetzung, optische Zeichenerkennung oder andere Bereiche durchführen, in denen der Zugang zu Text in großen Mengen 
+nützlich ist, wenden Sie sich bitte an uns. Wir fördern die Nutzung des öffentlich zugänglichen Materials für diese Zwecke und können Ihnen 
+unter Umständen helfen. 
+
+
++ Beibehaltung von Google-Markenelementen Das "Wasserzeichen" von Google, das Sie in jeder Datei finden, ist wichtig zur Information über 
+dieses Projekt und hilft den Anwendern weiteres Material über Google Buchsuche zu finden. Bitte entfernen Sie das Wasserzeichen nicht. 
+
+
++ Bewegen Sie sich innerhalb der Legalität Unabhängig von Ihrem Verwendungszweck müssen Sie sich Ihrer Verantwortung bewusst sein, 
+sicherzustellen, dass Ihre Nutzung legal ist. Gehen Sie nicht davon aus, dass ein Buch, das nach unserem Dafürhalten für Nutzer in den USA 
+öffentlich zugänglich ist, auch für Nutzer in anderen Ländern öffentlich zugänglich ist. Ob ein Buch noch dem Urheberrecht unterliegt, ist 
+von Land zu Land verschieden. Wir können keine Beratung leisten, ob eine bestimmte Nutzung eines bestimmten Buches gesetzlich zulässig 
+ist. Gehen Sie nicht davon aus, dass das Erscheinen eines Buchs in Google Buchsuche bedeutet, dass es in jeder Form und überall auf der 
+Welt verwendet werden kann. Eine Urheberrechtsverletzung kann schwerwiegende Folgen haben. 
+
+
+Über Google Buchsuche 
+
+
+Das Ziel von Google besteht darin, die weltweiten Informationen zu organisieren und allgemein nutzbar und zugänglich zu machen. Google 
+Buchsuche hilft Lesern dabei, die Bücher dieser Welt zu entdecken, und unterstützt Autoren und Verleger dabei, neue Zielgruppen zu erreichen. 
+Den gesamten Buchtext können Sie im Internet unter|'http: //books .google.comldurchsuchen. 
+
+
+GESCHICHTE DER GALLA 
+ዜናሁ፥፤ለጋላ። 
+
+
+BERICHT EINES ABESSINISCHEN MÖNCHES 
+
+
+ÜBER DIE 
+
+
+INVASION DER GALLA 1M SECHZEHNTEN JAHRHUNDERT 
+
+
+el km ፡-፡- ው መጨ ቁ ልፁ 
+
+
+TEXT UND ÜBERSETZUNG 
+
+
+HERAUSGEGEBEN VON 
+
+
+A, W. SCHLEICHER 
+
+
+BERLIN 
+
+
+VERLAG VON THEOD. FRÖHLICH 
+
+
+1893. 
+
+
+Druck von Adolf Holzhausen, 
+k. k. Hof: und Universitäts-Buchdrucker ın Wien. 
+
+
+VORWORT. 
+
+
+-:. ን 
+
+
+Zeitgenössische Nachrichten über afrikanische Völker und 
+deren Bewegungen in vergangenen Zeiten sind so knapp be- 
+messen, dass die Veröffentlichung der vorliegenden Fragmente 
+einer Geschichte der Galla!) aus dem 16. Jahrhundert keinerlei 
+Motivirung bedarf. Ist auch der Text oft verderbt, verstümmelt 
+und daher unverständlich, so darf uns das nicht abschrecken, 
+denn etwas besseres als die «Zenähü la-Gällä» liegt bisher 
+nicht vor. In den dickbändigen äthiopischen Chroniken -der 
+Oxforder Bibliothek habe ich in den Regierungsberichten der 
+abessinischen Herrscher des 16. Jahrhunderts über die Galla 
+nichts als allgemeine Redensarten oder Vertröstungen auf ein 
+anderes Buch gefunden, wie z. B. folgende typische Stelle über 
+die Regierung des Königs Minas:?) «Und viele Dinge geschahen 
+in seinen Tagen, wie z. B. die Ankunft der Portugiesen, der 
+Einfall der Türken, der Somali und der Galla aus elendem 
+Sklavengeschlecht, welche Menschen und Vieh er- 
+
+
+1) Oriental 534 des Katalogs der Bibliothek des British Museum 
+zu London. Nr. 55 der Magdala Collection of Ethiopie Manuscripts. 
+ጋ Codex XXIX, fol. 56, 601. 8, Zeile 14, 
+
+
+IV 
+
+
+würgten. Was nicht beschrieben ist in dieser Chronik, haben 
+wir unterlassen zu schreiben, weil es schon beschrieben ist in 
+der Chronik des Senna-Krestos. Friede über ihm! Gott er- 
+barme sich seiner Seele!» u. 8. w. Selbstverständlich können 
+dergleichen Schreibereien unsere Kenntnisse nicht fördern. 
+Dagegen liefert uns die Zenähü la-Gaällä ein Stamm- und 
+Geschlechtsregister der Galla, eine Chronik ihrer Führer und 
+Feldzüge, eine Schilderung ihrer republikanischen Verfassung, 
+eine kurze Beschreibung ihrer Sitten und Einiges aus ihrer 
+damaligen Sprache. 
+
+Den äthiopischen Text habe ich bis auf die Orthographie 
+unverändert wiedergegeben, selbst wo er keinen Sinn giebt und 
+offenbare Nachlässigkeiten der Schreiber vorliegen; desto freier 
+jedoch habe ich die Uebersetzung gehalten, um dieselbe auch 
+für Nichtsemitisten brauchbar und geniessbar zu machen. 
+
+Vielen, die mich bei dieser kleinen Arbeit unterstützt 
+haben, bin ich zu Dank verpflichtet, so Herrn Bibliothekar 
+Dr. Neubauer in Oxford, den Herren Drs. E. Budge und 
+Bezold am British Museunı zu London, meinem Lehrer Herrn 
+Dr. Winckler, Herrn Missionar Flad und insbesondere Herrn 
+Professor Dillmann, ohne dessen Hilfe mir manches dunkel 
+
+
+geblieben wäre. 
+
+
+Berlin, den 30. December 1893. 
+
+
+A. W. Schleicher. 
+
+
+EINLEITUNG. 
+
+
+Zu Anfang des 16. Jahrhunderts stand das äthiopisch- 
+christliche Reich unter dem Könige David (Etana Dengel) auf 
+dem Gipfelpunkt seiner Macht. Das islamitische Land 88 81- 
+ed-din’s, das Adela Regnum der alten Geographen, zahlte an 
+Abessinien Tribut und in kleineren islamitischen Ländern war 
+ausserdem der Gebrauch von Waffen und Sätteln verboten. Es 
+handelte sich eben um afrikanische Völkerschaften, denen jede 
+Anlage zur Staatenbildung abging, und ihre Uneinigkeit erleich- 
+terte den Christen den Sieg und die Herrschaft über sie. 
+
+Ueber die damaligen Verhältnisse Nordostafrikas sind wir, 
+abgesehen von portugiesischen und äthiopischen recht unvoll- 
+kommenen Berichten, besonders durch die Erzählung eines 
+arabischen Begleiters des Imam von Harar (Gran der Portu- 
+
+
+giesen) unterrichtet.!) Der ፌዴሬኤሕ1 7.5 berichtet kurz über die 
+
+
+፤) Obschon sich mindestens zwei Handschriften derselben in den 
+Händen europäischer Gelehrter (d’Abbadie und Prideaux) befinden, ist. 
+bisher nur eine freie Uebersetzung ins Italienische von Nerazzini 
+herausgegeben, «La conquista dell’ Ethiopia. Roma 1891», auf welche 
+
+
+hier Bezug genommen wird. 
+
+
+-- 9 _ 
+
+
+Vorgänger des Haupthelden dieser Periode, schildert dann die 
+Kimpfe Graä’s und seiner Somalihorden, ihre Niederlagen und 
+ihre Erfolge bis zur Eroberung Tigres und bricht ab in dem 
+Moment, wo die Portugiesen dem bedrängten König von Aethio- 
+pien zu Hilfe eilen, und das Kriegsglück die Somali verlässt. 
+Trotzdem Graü Abessinien von Bali ከ18 Tigr& und von Dawaro 
+bis Quara oft durchzog, und sogar zum Islam bekehrte, trotz 
+aller Versuche, das Land durch die Somalı zu colonisiren, hatten 
+seine fast zwanzigjährigen Bemühungen keinen dauernden Erfolg. 
+
+Selbst wenn 68 Graü!) gelungen wäre, alle Somali nach 
+Abessinien zu schaffen, so wäre deren Zahl im Vergleich zu 
+den Christen eine so verschwindende gewesen, dass eine dau- 
+ernde Beeinflussung durch ein trotz des Islam viel tiefer stehen- 
+des Völkchen unmöglich gewesen wäre. Brachte er es auch 
+dahin, dass ihm einmal sogar der am Cap Guardafui sitzende 
+Stamm der Migerten nach dem fernen Abessinien folgte, so 
+war doch das Misstrauen der einzelnen Somalistämme unter- 
+einander zu gross, um einen gemeinsam unternommenen Äus- 
+wanderungszug zu ermöglichen. Hatte er daher eine Provinz 
+erobert, geplündert, zum Islam bekehrt und einige Muham- 
+medaner zurückgelassen, so trat, sobald man den schrecklichen 
+Eroberer weit genug glaubte, wieder Alles zum Christenthum 
+
+
+፤) Dass Graii selbst ein Somali war, geht aus Nerazzini nicht 
+ganz sicher hervor, doch war er mit mehreren Somalihäuptlingen «nahe 
+verwandt». Sein Geschichtsschreiber schweigt, wohl mit gutem Bedacht, 
+über seine Abstammung. Zur Bedienung seiner Kanonen hatte er ein 
+paar Araber und Türken bei sich. Ein einziges Mal wird eine grössere 
+Anzahl arabischer Bogenschützen erwähnt. Gran selbst jedoch war 
+
+
+gewiss kein Araber, wie man bisher anzunehmen geneigt war. 
+
+
+-- 4 --- 
+
+
+Brüdern im Süden durch das christliche Schoa getrennt, sich 
+den Abessiniern assimiliren zu wollen schienen, und die am- 
+harische Sprache annahmen. Heute jedoch, wo sie dem Islam 
+verfallen sind, mögen selbst unter den Abessiniern nur Wenige 
+sein, welche die Hofinung auf eine Wiederherstellung und Ver- 
+
+
+einigung des altäthiopischen Reiches nicht aufgeben. 
+
+
+Geschichte der Galla. 
+
+
+Ich beginne die «Geschichte 
+der Galla» zu schreiben,!) um 
+
+
+ዜናሁ፣፤ለጋላ። 
+
+
+ወጠንኩ፣እጽሕፍ፤ዜናሁ፤ለ 
+ጋላ፡ከመ፣፤አእምር፣፤ጉልቄ፡ነ 
+
+
+ገዱ፤ወግብረ፣፤ትጋሁ፣ለቀቲለ፤ 
+5 ነፍሳት ፣ ወተአንስሶዕተ ፣፡ግዕዙ። 
+ወለአመቦ፣ዘይብለኒ። 
+
+
+ለምንት፣ጸሐፈ፣ዜናሁ፣ለእ 
+ኩይ፣፤ከመ ፡ ዜና፣ሠናያን ፡ኣገ 
+፤9 ብእ፤ሎቱ፣ተሰጥዎ፣ወአብሉሎ። 
+ዓሥሥ፣ውስተ፣0መጻሕፍት፣ 
+
+
+ወትሬኢ ፡ከመ ፡ ተጽሕፈ ዜና 
+ሁ፡ለመሐመድ፡፣ወዜና፣ነገሥቶ 
+
+
+(daraus) die Zahl ihrer Stämme, 
+die Thaten®) ihrer Mordlust und 
+die viehische Rohheit ihres We- 
+sens zu erkennen. 
+
+Sollte Jemand mir sagen: 
+wozu schreibt er Berichte über 
+die Gottlosen, wie man über die 
+Gottesfürchtigen schreibt, so er- 
+widere ich und antworte: Suche 
+in den Büchern, so wirst Du 
+
+
+3) Dass diese «Geschichte der Galla» hier nur stark verkürzt 
+wiedergegeben wird, wird auf den ersten Blick durch die zahlreichen 
+Punktreihen und Striche im Manuscript klar, welche der Schreiber an- 
+zubringen für gut befunden hat. An mehreren Stellen jedoch hat der 
+Schreiber etwas ausgelassen, ohne es im Manuscript anzudeuten. Um 
+wie viel umfangreicher das Original der «Geschichte der Gallas ge- 
+wesen ist, ergibt sich am deutlichsten an den Textstellen Seite 22, 
+Zeile 5: «Es wurde eingesetzt Robale ein Sohn Mudänäs, dessen 
+Name im sechsten Capitel erwähnt worden 151», und Seite 27, Zeile 8: 
+«Wenn die Galla beschnitten werden, legen sie ihren bisherigen Namen 
+ab, wie wir das am Anfang des vierten Capitels schon gesagt haben.» 
+Diese Stellen können sich nur auf Seite 16, Zeile 4 und Seite 17, Zeile 14 
+beziehen. Demnach sind uns zwischen dem Anfang des vierten ('6- 
+pitels und dem sechsten Capitel nur vierzig Worte erhalten geblieben. 
+
+5) Wörtlich: das Thun ihres auf Hinmordung von Seelen ge- 
+richteten Eifers. = 
+
+
+ሠ 
+
+
+10 
+
+
+ሙ፤ለተንበላት፣፤እንዘ፣፤ፀር፣፤ለነ፤ 
+እሙንቱ ፡በሃይማኖት ። 
+ወጊዮርጊስኒ ፤ወልደ ፤ አሚ 
+ድ ፤ ጸሐፈ ፤፡ ዜናሆሙ ፡ ለነገሥ 
+ተ ፡አጀም ፡ ዝንጉዓን ፡ዘውእቶ 
+ሙ ፤እለ ፡ አፈሪዶን ፡ ወካልኣኒ 
+ሆሙ፣፤ ነገሥተ ፤ፋርስ ፡ወይሰም 
+ይዎሙ ፤በዝንቱ፣ዘመን፣፤ሰፈ። 
+
+
+sehen, wie die Geschichte Mu- 
+hammeds und der Khalifen be- 
+schrieben worden ist, trotzdem 
+sie unseren Glauben bekämpft 
+haben, und wie Georg,') der 
+Sohn "Amid’s, die Geschichte 
+der persischen Barbarenkönige 
+
+
+geschrieben hat, darunter Ella 
+
+
+‚fridon?) und andere Könige 
+
+
+Persiens, die man zu dieser 
+Zeit »Safla> *) nennt. 
+ይቤ፣በዓለ፣፡መጽሐፍ፣፤ጋላሰ፡ Es berichtet der Autor: 
+. ወፅአ፡‹እምዕራብ፣፤ወዐደወ፣እም- Die Galla kamen von Osten‘) 
+
+
+1, 
+
+
+ፈለገ፡፤ብሔሩ፣ዘይብልዎ ፤፣ገላና፡ und überschritten einen Fluss 
+ኀኅበ፡ጽንፈ፣ባሊ፤፡በመዋዕለ፡፤ሐፄ፡ 
+
+
+ወነግ፣ሰገድ። 
+
+
+ihres Landes,5) welcher Ga- 
+
+
+lana heisst, an der Grenze 
+
+
+፤1) Georg der Sohn  ዲዝበ10በ'ጸ wird meist als Autorität, als አብ፣ 
+ክቡር ፡ወትሩፍ ፡ጊዮርጊስ ፡ ወልደ ፡ ዐሚድ ፡ ዘብሔር ፡ ግብጽ ፣ 
+von den Chronisten eitirt. Hier ist zweifellos die Uebersetzung seines 
+Geschichtswerkes gemeint. Ein Exemplar desselben befindet sich im 
+Britischen Museum. Oriental 814, Nummer 333 der Magdala Col- 
+lcetion. 
+
+።) Ella-Afridon, Ifridun, ein legendürer König der Perser. 
+
+°ı Die Dynastie der Saffiden; von 1501 an, 
+
+! Der Text sagt «Westen». Dass dies ein Lapsus ist, geht her- 
+vor aus der Angabe Ludolf’s in seiner Historia Aecthiopica «Balia, 
+reynum maxime orientale, quod Gallani primum occupaverunt, et ex eo 
+tantis postea «ladibus affecerunt>, aus dem arabischen Bericht über die 
+Froberung Aethiopiens durch den Imam Ahmed von Harar (Graf), 
+vergl. Ces. Nerazzini’s Vebersetzung, Roma 1891, und schliesslich aus 
+der Karte des Puter Tellez, welche beiden eben citirten Werken ከር1- 
+gegeben ist. 
+
+5) Dieser Fluss ist nach unserem Text Seite 17, Zeile 15 unstreitig 
+der Wabbi (heute Wobbi). Galuna ist das Gulla-Wort für Fluss. 
+
+
+ወክልኤቱ፡ነገድ፣ውእቱ፣ዘ 
+ይሰመዩ፣በረይቱማ፣ወቦረን። 
+
+ወወለደ ፡ በረይቱማ ፡ ስድስ 
+ተ፡ውሉደ። በኩሩ ፡ይሰመይ፣፤ 
+ከረዩ። 
+
+ወዳግም፣መረዋ። 
+
+ወሣልስ፤ኢቱ። 
+
+ወራብዕ፣አከቹ፣ወኃምስ፤ወ 
+ረንጢሻ። 
+
+
+von Bali!) zur Zeit der Regie- 
+rung des Kaisers Wanag Sa- 
+gad.?) Und es giebt zwei Arten 
+Galla,®) die man Baraytuma 
+und Boran nennt. Baraytuma 
+(der Stammvater der Ersteren) 
+zeugte sechs Söhne. Sein Erst- 
+geborner hiess Karayu, der 
+zweite Marawa, der dritte Itu, 
+
+
+ወሳድስ፣ሁምበና። der vierte Akadu, der fünfte 
+
+
+?) Nach Paulitschke's «Harar> Seite 222 und der Karte seiner 
+Anthropologie und Ethnographie der Somali, Galla und Harar würde 
+die Südostgrenze der Provinz Bali auf eirca 8" n. Br. und 430%6, L. 
+zu suchen sein. 
+
+#) David Wanag Sagad 1505—1540. Der genane Zeitpunkt des 
+Einfalls der Galla ist uns durch zeitgenössische Portugiesen, Bermudez, 
+Tellez und Alvarez auf 1537 angegeben. So Bermudez (nach Paulitschke): 
+Os Gallas, de quam se faz mengam enträram nos Reynos de Elhiopia por 
+Ballüi, pelos unnos de mil ዐ quinhttos e trinta ደ set. Bali war acht Jahre 
+vorher durch den «Veziers Addili des Imam Ahmed und ein Heer von 
+Somali gründlich verwüstet worden, und drei Jahre später (Juli 1532) 
+wurde Adilo, welcher die Männer von Bali zu einem letzten Wider- 
+stand aufgereizt hatte, günzlich besiegt. Nerazzini Op. eit., p. 1886. 
+
+5) Die Eintheilung der Galla in zwei «Nationes» hat Ludolf auch. 
+Er nennt sie Bartuma und Boren. Die Ersteren werden hier bald 
+Baraytuma, bald Bartuma genannt; einmal Barantuma, letztere Form 
+ist nach Paulitschke die heute in Harar gebräuchliche. Die französische 
+Karte Afrika’s von d’Anville (1749) hat Bresoma. Die Bartuma, welche 
+auf der Karte des Tellez das östliche Gebiet der Galla einnehmen, sind 
+in der Auflösung begriffen. Ein Theil derselben, die Wollo-Stimme 
+zum Beispiel, sprechen heute amharisch und sind Muhammedaner ge- 
+worden. Die Boran hingegen sind heute noch grossentheils Heiden 
+und von fremden Einflüssen ziemlich frei. Die folgenden Geschlechts- 
+register haben nur indireeten Werth. Ludolf sagt von den Stämmen 
+und Familien der Galla: septuaginta et ultra esse dieunt. 
+
+
+ወለቦረን ፤ ይሰመይ ፡ አቡሆ 
+
+ሙ፥፡ሰሏራ። ወሰሏራ ፡ወለዶ፣ 
+
+5 ለዳጨ፡ወዳጨ፡ወለዶ፡ለመጨ። 
+
+ወመጨ፣፡ወለዶሙ፡፤ለዳአሌ፡ 
+ወለጂዳ። 
+
+
+(ሀ: ወክልኤሆሙ ፡ አኀው ፡ ወለ 
+
+ዱ፣ብዙኃነ፣አንጋደ። 
+
+ዘውእቶሙ፣ውሉደ፡ዳአሌ፤ 
+[በዙሩ፣ሆኮ፣፤ወዳግም፣ጭሌ፣ 
+ወሣልስ፣፤ኦቦ፣ወራብዕ፤ሱባ። 
+
+ወጂዳ፣ወለዶሙ፡ለሐካኮ፣በ 
+ዙዮሮ። 
+
+ወለኾጐድሩ ፡ክልኡ ፡ ወለሊበ 
+ን፤ሣልሱ። 
+
+ወክዕበ ፡ ወለዶሙ ፡ ዳጨ፣፡ለ 
+ዳጨ፣ ወሰመዮሙ ፡ በስመ ፣ዚ 
+አሁ ፡ ወለኮኖ ፡ ወለባቾ ፡ ወለ 
+ጅሌ። 
+
+
+Warantiößa und በርዮ sechste 
+Humbana.!) 
+
+Und der Stammvater der 
+Boran heisst Sapira. Sapira 
+zeugte den Dada, Dada zeugte 
+den Maca und Muda zeugte 
+den Da’ale und den (1108. 
+Und diese zwei Brüder zeug- 
+ten zahlreiche Stimme. 
+
+Die Kinder des Da’ale sind: 
+sein Aeltester Hoko, der Zweite 
+Öle, der Dritte Obo, der Vierte 
+Suba. Und Gida zeugte den 
+lJakako, seinen Erstgebornen, 
+den Gudru,®) seinen Zweiten, 
+und den Liban, seinen Dritten. 
+Und andrerseits zeugte Dada 
+die Da&a(-Galla) und nannte sie 
+nach seinem Namen, und den 
+Kono, den ከ8860 und den Gile. 
+
+
+፡) Humbana nennt heute noch nach Paulitschke der Somali jeden 
+Galla. Siehe «Harar>, p. 421. Die Karayu Galla wohnen nach Nerazzini 
+
+
+südlich von Ankober. 
+
+
+5) Der Borana-Stamm der Gudru ist derjenige, bei welchem 
+
+
+d’Abbadie sich Jahre hindurch aufhalten konnte. 
+
+
+Siehe «Sur les 
+
+
+Oromos», grande nation afrieaine, Annales de la soci6t6 seientifique de 
+1880, p. 167 ፳. d’Abbadie ist wohl der einzige Europäer, welcher die 
+Sitten der vom arabischen Islam und äthiopischen Christenthum noch 
+einigermassen freien Galla auf ihrem eigenen Gebiet lüugere Zeit hin- 
+durch hat beobachten dürfen, und nur durch seinen Artikel über die 
+Oromo werden mehrere Stellen unseres verstümmelten Textes deutlich 
+und sicher, 
+
+
+ወእሉሂ፣ወለዱ፣አንጋደ፡ብ 
+ዙኃነ፣ወዘውእአቱ ፡ አስማቲሆ 
+ሙ።፡፤ለደቂቀ፣፤ባቾ፡ዑሩ፡፤ወ 
+ኢሉ። 
+
+ወደቂቀ፣ዳጨ፡፣ሰዶ፣፤ኣቦ፡ጋ 
+ላን። 
+
+ወውሉድደ ፡ኮኖ፡፣ሰቅሰቅ ፡ሊ 
+በን። 
+
+ወውሎደ ፡ጅሌ፡፣ኤላ፣ኣቦ፣ 
+9) ወልኢስ። 
+
+እሉ፣ኩሉሙ፣ይሰመዩ፣ቱ 
+ለማ ፡ እስመ ፡ ብዙኃን ፡ እሙ 
+ንቱ። 
+
+ወኮኑ፣ይጸብኡ፣0ኅቡረ። 
+
+ወእምድኅረ፣ጉንዱይ፣መዋ 
+ፅል፤ተጋአዙ፣ወተፋለጡ፤በበ 
+ይናቲሆሙ፣በከመ፤ተፋለጡ፤አ 
+ብርሃም ፡ወሉጥ ፡ ሶዕበ ፡በዝኀ፣ 
+እንስሳሆሙ፡እስከ፣ተባሀሉ። 
+
+ንትፋለጥ። 
+
+አመ፡፣፡አኮ፣አንተ፣የማነ፡ወ 
+አነ፤ፀጋመ፣ወአመ፡አነ፡፤የማነ፥፣ 
+ወአንተ፣ፀጋመ።'?) 
+
+ወኮነ፡በከመ፣ኮነ። 
+
+ወካከዕበ፣ነገደ፣ዳአሌ፣ክልኤ 
+ቱ፤፡ዘውአቶሙ፡፣ጭሌ፡ወሆክ። 
+
+
+5 
+
+
+15 
+
+
+20 
+
+
+25 
+
+
+9 
+
+
+Diese erzeugten zahlreiche 
+Stämme. Und die Namen der 
+Kinder Ba&o’s sind "Uru und 
+118. Die Kinder 133688 sind 
+die Sado und Abo-Gallan, die 
+Kinder Kono's sind die Saq- 
+saq und die Liban, und die 
+Kinder Gile's sind die Ela, 
+die Abo und die Leis. Alle 
+diese nennt man Tulama,?) 
+denn ihrer sind viele. 
+
+
+“Und sie pflegten gemeinsam 
+in den Krieg zu ziehen, aber 
+nach langer Zeit veruneinigten 
+sie sich und trennten sich von 
+einander, gerade so wie Abra- 
+ham und Lot sieh trennten, 
+als ihrer Viehs viel wurde, so 
+dass sie sich sagten: «Trennen 
+wir uns, gehst Du zur Rech- 
+ten, so gehe ich zur Linken, 
+und willst Du zur Linken, so 
+gehe ich zur Rechten;» und 
+so geschah es auch. Und an- 
+
+
+') Genesis 13, 9; nach Dillmann’s Oetateuchus Aethiopieus: 
+
+
+እማእኮ፣የማነ፣አንተ፣ወአነ፣ፀጋመ፡፣ወአማአኮ፣አንተ፡፣፡ፀጋመ፣ 
+
+
+ወአነ፤የጣነ። 
+
+
+8) Ob Tulama wirklich als Passivum des Gallu Verbums tula 
+«häufen» (siche Tutschek's Galla-Wörterbuch, p. 88) aufzufassen ist, ist 
+zweifelhaft genug; jedenfalls hat der Galla, von welchem der Autor seine 
+Information direet oder indireet bezog, an die Wurzel tula gedacht. 
+
+
+EAN — 
+
+
+ወዓዲ፤ክልኤሆሙ።፣፤ነገደ፣ጂ drerseits zogen aus die beiden 
+ዳ፤ሊበን፤ወገ*1ድሩ፡ተፋለጡ፤እ Diale-Stämme der Örle und 
+ምአንዊሆሙ ፡ወተሰናአዉ፡ወ der Hoko. Und auch die zwei 
+ተሰምዩ ፡አፍሬ፣በዘመነ፣ሉበ፡ Gida-Stimme der Liban und 
+
+5 ዘይሰመዮ፣ሮባሌ፣ቦረን፣ወበር der Gudru trennten sich von 
+ቱማ፣፤ይሰመዮ፣አምቢሰ። ihren Brüdern und verbün- 
+ወክዕበ፣ተሰናአዉ፡ሐካኮ፤ወ deten sich unter dem Namen 
+ልደ፣፤ጂዳ፣ወደቂቀ፤ዳአሌ፤ኦ Afre zur Zeit!) des Luba, 
+ቦ፡ወሱባ፣ወተሰምዩ፡፣ሰደቻ፡ den die Boran Robale und 
+10 በዘመነ ፡ሉበ ፡ዘይሰመይ ፡ቢር die Bartuma Ambisa nennen, 
+መጄ። und ausserdem verbündeten 
+sich die Hakako, die Söhne 
+
+Gida’s, und die Kinder Da’ale’s 
+
+die Obo und Suba und nann- 
+
+ten sich Sadada zur Zeit 
+
+des Luba, welcher Birmage?) 
+
+
+hiess. 
+
+
+OA: DAS: Nr Und alle diese zeugten zahl- 
+ንጋደ። reiche Stämme. Die Namen der 
+
+
+፡) Die Zeitpunkte der weiter unten folgenden Chronik mit unserer 
+Zeitrechnung zu verbinden, fällt nicht schwer, Wir erfahren durch 
+unseren Text Seite 17, Zeile 10, dass zur Zeit der ersten Invasion Bali's 
+durch die Galla, also im Jahre 1537 nach Ludolf und den Portugiesen, 
+das Staatsoberhaupt der Galla der Familie Melbah (heute nach Abb, 
+op. eit. Malba) angehörte. Abbadie berichtet ausserdem von einem Re- 
+gierungswechsel der Luba der Boran «qui eut lieu en septembre 1846 
+pour n’&tre renouveld que hwit ans plus tard». (Op. eit.) Wenn nun nach 
+dem vorliegenden Text und nach d’Abbadie die jedesmalige Regierungs- 
+dauer des Luba acht Jahre betrügt, so entfullen auf die Zeit zwischen 
+1846 und 1537 38 Regierungsperioden von acht Jahren und fünf 
+Jahre. Der damalige Melbah hatte daher, als er in Bali einfiel, schon 
+drei Juhre regiert. Die Regierungszeit des hier erwähnten Luba Ro- 
+bale war 1582—1590. 
+
+5) 1590— 1598. 
+
+
+ወዝአስማቲሆሙ፣፤ለውሉደ፣፤ 
+ጭሌ፡ገሳም፣፤ወቦ። 
+
+ወውሉደ፣ሆኮ፤፣ኪረሞ፤፣እሙ 
+ሩ፣ጂዳ። 
+
+5 ወውሉደ፡ሊበን ፡ዋሊሶ፤ዙ 
+IB: አምዬ ፡ ወውሉደ ፡ ጐድ 
+ሩ፣ሲርባ፣መሎል፤፡ጨረቃ፣ወ 
+ነገደ ፡ ሐካኮ ፡ An: ሐርሱ : A, 
+ሙ። 
+
+10 ወነገደ ፡ ሱባ ፡ሐገለ፣ባቦ፣ 
+ጩራ። 
+ወነገደ፡ኦቦ፣ሰዩ፣አቦኖ፣ቱ 
+ምኤ፡ሌቃ። 
+ወእሉ፣ዙሉሙ፡ሶበ፣ተፋ 
+15 ቀሩ ፡ ይሰመዩ ፡ መጨ ፡ ወሶበ ፣ 
+ተጻልኡ፣ይትባሀሉ፣አፍሬ፣ወ 
+ሰደቻ። 
+ወለአመ፣፡ዙሎሙ፣፡ኀበሩ፤፡ም 
+ስለ፣ቱለማ፣ይሰመዩ፣ሰጺራ። 
+፡9 ወፀረንሂ፡ወለደ፡ዐሠርተ፣ወ 
+አሐደ፣ደቂቀ። 
+በዙሩ፣፡ደጨ። 
+ወዳግም፣፡ጅሌ። 
+ወሣልስ፤ኮኖ። 
+ወራብዕ፣በቾ። 
+አሉ፣ይሰመዩ፣ቱለማ። 
+ኃምስ፣፤ሐካኮ። 
+ሳድስ፤ኦቦ። 
+ወሳብፅ፣ሱባ፣፡እሉ፡ይሰመዩ፣፤ 
+9 ሰደቻ። 
+
+
+Kinder Ölle's sind Gasam und 
+Wabo, die Kinder Hoko’s Ki- 
+ramo, Emuru und Gida, die 
+Kinder Liban’s Waliso, Ku- 
+tawe und Amye, die Kinder 
+Gudrw’s Sirba, Malol und Ca- 
+raqa. Die Stimme der Häkako 
+sind die Abo, Harsu und Limu, 
+die Stäinme der Suba sind die 
+Hagala, Babo und Cura, und 
+die Stämme der Obo sind die 
+Sayu, die Abono, die Tum’e 
+und die Lega. Alle diese 
+Stämme heissen als Bundes- 
+genossen Ma&a, wenn sie sich 
+aber untereinander bekämpfen, 
+heissen sie Afre und Sadata. 
+Wenn alle mit den Tulama ver- 
+einigt sind, so heissen sie Sapira. 
+
+Boran zeugte elf Kinder, sein 
+ältestes Kind hiess Data, das 
+zweite (316, das dritte Kono, 
+das vierte Bado, diese Vier 
+nennt man Tulama; das fünfte 
+Hakako, das sechste Obo, das 
+siebente Suba, die heissen Sa- 
+በ866; das achte Cile, das neunte 
+Liban, das zehnte Gudru, das 
+elfte Hoko, die nennt man 
+ላኩዩ . . . Die Dawe!) aber, 
+
+
+3] Der Sieg über den Bater oder Zan Amora fällt erst unter die 
+Herzschaft des Luba Mesule (vergl, weiter unten im Text Seite 18, 
+
+
+ሳምን፤ጭሌ። 
+ታስዕ፣ሊበን፣ወዓሥር፣፤ኾ 
+ድሩ። 
+ዐሠርቱ፣ወአሐዱ፣፤ሆኮ። 
+አእሉ፣ይሰመዩ፣አፍሬ። 
+ወዳዌ፣ዘአጥፍኦ፡ለበጥረ፣አ 
+ሞራ፤አእምሰብአ፡፣ቦረን፤፡ውእቱ። 
+ወቦ ዘይቤ አእምካልእ፣፤ረከ 
+በ፡ምክንያተ ፡በእንተ ፡ተጻብ 
+10 ኦቱ፣ምስለ፡ቦረን። 
+ዝንቱሰ፣ዜና፣ይየውሀ፣ወኢ 
+ኮነ፡ጻድቀ። 
+መጠይቅሰ፣ይብል። 
+አመ ፡ወፅኡ ፡እምሀገሮሙ፣፡ 
+15 አኮ ፡፣ኩሎሙ። 
+
+
+5 
+
+
+12 
+
+
+አላ፤፡ተርፈ፡፤ዘፈቀደ፣፤ወወፅአ፡- 
+
+
+ዘፈቀደ፣፤እስመ፤አልቦ፤እግዚእ፤ 
+
+ዘይኤዝዞ፡አላ፤፡ዘአደሞ፣ልቡ፤ 
+
+ይገብር። 
+ወእሉ፣ዘተርፉ፣፤እምቦረን፤ወ 
+
+ፅኡ ፡እምሀገሮሙ፣በፍኖተ፣፤ 
+a 
+
+
+20 
+
+
+welche den Bater Amora ver- 
+nichteten, gehören zu den Bo- 
+ran, Einige haben gesagt, dass 
+(Fasil?) eine andere Veranlas- 
+sung als diese hatte, die Boran 
+zu bekämpfen, doch das ist 
+eine Beschönigung und ent- 
+spricht nicht der Wahrheit. 
+Der das Genauere hat, sagt 
+darüber: Als (die Galla) aus 
+ihren Sitzen auswanderten, 
+waren es nicht Alle, sondern 
+es blieb zurück, wer wollte, und 
+zog aus, wer wollte; denn sie 
+haben keinen Herrn, welcher 
+ihnen Befehle ertheilt, sondern 
+jeder thut, was seinem Herzen 
+gefüllt. Solche aber von den 
+Boran, die zurückgeblieben 
+waren, verliessen ihre Sitze in 
+der Richtung auf ...rä. Da 
+griff Fasil?) sie an, und sie 
+
+
+Zeile 21). Was den Schreiber vermocht hat, diese Episode mitten 
+unter die Geschlechts- und Stammesregister zu setzen, wird nicht klar, 
+Ein Dawe-Stamm der Galla ist auch Prof. Paulitschke nicht bekannt. 
+Die Stelle Seite 10, Zeile 24 zeigt, dass der Name Dawe keine eigene 
+Bezeichnung der Galla war, wenn auch die Seite 10, Zeile 25 gegebene 
+Erklärung, Dawe-Landplage, mehr naiv als richtig sein dürfte. 
+
+3) Der erste Buchstabe ist unleserlich. Vielleicht 9} 
+
+*) Fasil bei Ludolf Basilides, Bruder des Königs Sersa-Dengel 
+und Neffe des Asnaf-Sagad, wird in der Regentenliste Ludolt’s auf- 
+geführt mit der Bemerkung, dass er epugnans contra Gallanos» ge- 
+
+
+fallen sei. 
+
+
+ወመረደ፣ቦሙ፣0ፈሲሷል፣፡ወቀ 
+ተልዎ። 
+ወአሜሃ፣፤ወጠነ፤ዳዌ፣ጸቢአ፡፣ 
+ክርስቲያን። 
+ተነበየ፣ጸሓፌ፣፤ዝንቱ ፡ ታሪ 
+ክ፡እንዘ፡ይብል። 
+እፈርሆ፣ለቀታሌ፣፤ፈሲል እ 
+ስመ፣ጥዕመ፤ደመ፡፤ክርስቲያን። 
+ወውአቱ፣አጥፍኦ፣፡ለበጥረ፣ 
+10 አሞራ፣፡ወወጅ። 
+ወኮነ፣በከመ፣ቃሉ፡አስመ፣ 
+መንፈሰ ፣ትንቢት')፤ኢይርሕ 
+ቅ፣0እምካህናት። 
+ወለዝንቱ ፡ ነቢይ ፡ሰደዶ፣ዳ 
+15 ዌ፣ወአጥፍአ፤ሀገሮ፣ዘገሞ፣ወ 
+ማህረከ፣ኩሎ፣ዘአጥረየ። 
+
+
+5 
+
+
+ንግባእኬ፤ኀበ፣ዜና፣በረይቱ 
+
+50 ማ፤ናሁ፣፤እስከዝ፣ጊዜ። 
+
+ወወለደ፣ክረዩ፣ስድስተ፤ው 
+ሉደ፡ወኮኑ-አንጋደ ፣ብዙኃነ፡ 
+ወኀያላነ። 
+
+ቀዳማዊ ፣ሊበን። 
+
+ወዳግም፣ወሎ። 
+
+ወሣልስ፤ጅሌ፤ወራብዕ፣ኦቦ፣ 
+ወኃምስ፣፤ሱባ፣ወሳድስ፣በላእ። 
+
+ወወለደ፡ወሎ፣ስድስተ፣ው 
+ሉደ፡ዘውእቶሙ፡።፣ወረ፣ቡኮ፣ 
+
+
+55 
+
+
+13 
+
+
+tödteten ihn, und zu der Zeit 
+begannen die Dawe die Chri- 
+sten zu bekämpfen 
+Der Autor der Chronik pro- 
+phezeit, indem er sagt: «Ich 
+fürchte die Mörder Fasil’s, 
+weil sie das Blut der Christen 
+gekostet haben! Und der(Dawe- 
+Stamm) ist es, der den Bater 
+Emora und Wag verheert hat!» 
+
+
+Und es geschah nach seinem 
+Worte. Denn der Geist der 
+Weissagung weicht nieht von 
+den Priestern, und die Dawe 
+verjagten Propheten, 
+verheerten sein Land Zagamo 
+und nahmen ihm seine ganze 
+Habe... 
+
+Kommen wir nun zurück 
+zur Geschichte der Baraytuma 
+bis auf diese Zeit. Karayı 
+hatte sechs Söhne, welche zu 
+zahlreichen mächtigen Stäm- 
+men wurden. Der erste ist 
+Liban, der zweite Wallo, der 
+dritte Gile, der vierte Obo, der 
+fünfte Suba, der sechste Bala’. 
+
+Wallo aber zeugte sechs*) 
+Söhne. Dazu gehören die Wara 
+
+
+diesen 
+
+
+፤| Im ext steht ትፅቢት ; ein schlimmer Lapsus. 
+5) «The Wollo-Gallas, composed of seven tribes» sagt Krapf in seinen 
+'Travels ete., London 1860, p. 82, da er aber die Numen der Stämme 
+
+
+ወረ፤ጐራእ፤ወረኖሌኤሉ። 
+እሉ፣ሀለዉ፣፤በስመ፣ወሉሎ። 
+ወረ፤ከረዩ፤ወረ፡ኢሰ፣ወረ፡ 
+ኖሌአሊ። 
+
+5» እሉሂ፣፤የ፻፣ይሰመዩ ፡ሰዳቻ። 
+
+ወተፋለጡ፣፤እምአመ፣፤ቀተል 
+ዎ፤ለአቦሊ። 
+
+ወይእዜ፡ገብሩ ፤ዕርቀ ፡ በላዕ 
+ሌነ፤ተሰካተዩ ፣ወተካየዱ።በ 
+
+10 More. መመ 
+ረዋ፤አያ፤፡ወለዶሙ፣፤ለአኖ፣ወ 
+ለዑሩ፣ወለአባጢ፣ወከማሁ፤በ 
+ዝኀ ደቂቆሙ ፡፣ወደቂቀ፤ደቂ 
+ቆሙ። 
+
+15 ወኮኑ ፡አንጋደ ፡ብዙኃነ፡ወ 
+ይሰመዩ ፡ አስማቲሆሙ ፡ በበነገ 
+ዶሙ። 
+
+ወአልቦመ፣ንጉሠ፣ወኢአግ 
+ዚአ፣፡ከመ፣ክከክልእ፣ሕዝብ። 
+
+» አላ፡ይትኤዘዙ ፡ በሉበ ፡ እስ 
+ከ፡፳፤፡ዓመት። 
+
+ወድኅረ፤፡ቿ፡ዓመት ፡፣፡ይሰመ 
+ይ፤ከልእ፤፡ሉበ፣ወይሰዐር፣ቀዳ 
+ማዊ።ከመዝ፡፣ይገብሩ፣በበዘመ 
+
+5 ኑ፤ወብሂለ፡ሉበሰ ፡ ዘተገዝሩ፣ 
+በኔ፤፡ዘመን። 
+
+
+Buko, die Wara Gura’ und die 
+Wara Nole-Elu, welche den 
+Namen Wallo beibehalten ha- 
+ben; die Wara Karayu, Wara 
+Isa und Wara Nole-Ali, die 
+drei heissen Sadala; sie trenn- 
+ten sich seit der Ermordung 
+des Aboli, aber jetzt haben sie 
+Freundschaft geschlossen, sich 
+verbündet und verschworen 
+gegen uns. In... Und Ma- 
+rawa Aya zeugte Ano, "Uru 
+und Abati, und es vermehrten 
+sieh ihre Kinder und Kindes- 
+kinder, so dass sie zu zahl- 
+reichen Stämmen wurden, wel- 
+che jeder des Stammvaters Na- 
+men führte .. . 
+
+
+Und sie (die Galla) haben 
+keinen König, noch Herrn, wie 
+ein anderes Volk, sondern sie 
+
+
+werden beherrscht von einem 
+Luba®) acht Jahre lang; und 
+
+
+nicht aufzählt, ist es wohl möglich, dass bei ihm ein Irrtum vorliegt. 
+Der Galla-Ausdruck «Wara» bedeutet Haus, Familie; vergl. Tutschek, 
+Lexikon der Galla-Sprache, München 1844, p. 149. 
+
+1) Hier ist im Text eine Lücke. 
+
+5) Ueber die Luba der Galla berichtet Lndolf in seiner Historia 
+Acthiopiae Lib. I, enp. XVI, wie folgt: «Oectonis Annis Ducem tanquam 
+Hipparcham aliquem ereant, ያዜ dieitur, eujus imperio Phylarchi parent, 
+
+
+- | 
+
+
+ወሥርዐተ ፡ ግዝረቆሙ፣ከመ. nach acht Jahren wird ein 
+ዝ፣፡ውእቱ። Anderer zum Luba ernannt, 
+እስመ፡ሶበ፣ይሰዐር፣ሉበ፡ያ und sein Vorgänger wird ab- 
+ወፅአ-፡ስመ፣ለርእአሶሙ ኩሎ gesetzt. So thuen sie Jedem 
+5ሙ፣በርቱማ፣፤ወቦረን፣በከመ፣፡ zu seiner Zeit; und die Bedeu- 
+ይሰመዩ፣ሐራ፤ንጉሥ፣ሥሉስ፡፤ tung von Luba ist die zu glei- 
+cher Zeit Beschnittenen') .. . ,, 
+
+
+sed nonnisi in bello. Primum ejus facinus est cogere plebem et Habessiniam 
+irrumpere, praedae et gloriae parandae causa.» Die schon erwähnte fran- 
+zösische Karte Afrika’s vom Jahre 1749 führt eine Reibe Völker Ost- 
+Afrika’s an, welche «sous un chef electiv nomme Lubo» vereinigt seien. 
+Von den heutigen Gewährsmännern kennt nur noch Krapf (op. eit., 
+፲6) den Luba, und zwar als Priester der Galla. « The Luba lets his 
+hair float wildiy, carries a bell in his hand, and a copper frontlet encircles 
+his brows». Aus den Eingeweiden der Opferthiere erkennt er, ob die 
+Gulla oder die Sidama (Christen) siegen werden. Bei d’Abbadie und 
+Tutschek kommt der Luba nicht vor. 
+
+1) Trotzdem der Text manchmal den Eindruck zu machen ge- 
+eignet ist, als ob nur ein Luba gewählt würde, so zeigt die Stelle: die 
+Bedeutung von Luba ist «die zu gleicher Zeit Beschnittenen», klar, dass 
+mehrere Männer die Regierung führten, wobei die Mögliehkeit nicht aus- 
+geschlossen ist, dass Einer derselben mehr Macht hatte als die Anderen. 
+Den heutigen Zustand der Dinge beschreibt d’Abbadie in seinem Vortrag 
+«Sur les Oromos grande nation afrienine, Annales de 18 soeiet& seienti- 
+fique de Bruxelles» 1880, ሀ. 125ff. «Zeur gouvernement est une oligarchie 
+ressemblant de loin & celle de Uaneienne Venise. On sait que dans cette fa- 
+meuse r&publique il fallait meitre en mouvement des rouager nombreuz pour 
+‚parvenir ü la nomination d'un doge. Dans U’Afrique orientale on a &tabli 
+des regles au moins aussi complexes, et malgr& une longue enquöte je ne me 
+flatte pas de les savoir toutes, car les vieillards Oromo se contredisaient 
+ይወ/ኮ 6 cet «ሀወ . .. L'entree au pouvoir d'une elasse est accompagnee 
+de c£rdmonies minutieuses et surtout d'un sacrifice solennel .... Il est defendu, 
+sous peine de mort, ሰ tout dtranger d’assister ይ ce sacrifice, qui eut lieu en 
+septembre 1846 pour n'ötre renowveld que huit ans plus tard. Quatre anndes 
+apres leur entröe en fometions tous les membres du gouvernement se 
+font eirconeire». Wir können daher annehmen, dass man unter Luba 
+
+
+-- 16 — 
+
+
+ኃይሌ ፡ በድል ፡ፀሐይ ፡ወጊዮር und so ist die Ordnung!) ihrer 
+ጊስ፣፡ኃይሌ፡ወ›››››0፣.› Beschneidung. Denn, wenn ein 
+Luba abgesetzt wird, legen alle 
+ihren eigentlichen Namen ab, 
+
+
+«tous les membres du gouverneneni» auch damals verstanden hat, 
+wenn das auch unserem äthiopischen Autor nicht immer klar gewosen 
+Rein mag. 
+
+1) Die Ordnung oder Reihenfolge ihrer Beschneidung hat der 
+Schreiber leider fortgelassen. Glücklicher Weise ist uns aber durch 
+Tutschek (op.eit.) und d’Abbadie (op. cit.) über diese Ordnung einiges 
+berichtet, und spätere Textstellen Seite 6, Zeile 5 ff. und die Namen 
+der Luba mit Angabe der Namen ihres «Vaters» bestätigen uns, dass 
+cs sich im 16. Jahrhundert bei den Galla in der Hauptsache mit der 
+Regierungsfolge gerade so verhielt wie heute. Tutschek (op. 61.) führt 
+z.B. p. 34 kilole, p. 155 robale, ከ. 104 dulo auf, als Bezeichnungen für 
+den vierten, dritten oder fünften «Stamm der Galla» in Hinsicht auf 
+die Rangordnung bei der Beschneidung, Namen, die unser Text (Seite 5, 
+Zeile 2 ff.) auch als Lubanamen aufführt. d’Abbadie (op. eit., p. 175) 
+basirt die Regierungsfolge der Galla auf eine «Division en cing dtablie 
+par la ህዐ/0ቨ/ሪ divine» nach folgendem Schema: 
+
+
+Birmaji Malba Mudunu Robale Dulo 
+Aldada Horata Bifole Suabayga Kirole. 
+
+
+Diese fünf Paare von Namen stellen Kasten oder Familien vor, welche 
+abwechselnd regieren, und zwar so, dass in UÜebereinstimmung mit 
+unserem Text Scite 6, Zeile 5 «un fils ne peut remplacer son pere que 
+trente-deux ans apres que ce dernier a quitt& le pouvorr». Ziehen wir d’Ab- 
+badie’s Bedenken in Betracht: «Je me suis donne beaucoup de peine pour 
+savoir comment on 8’y prend pour represenler une classe quand le fils mangqıe, 
+mais #/ m'a ሪ/ሪ impossible d’obtenir lu lumiere sur ce point» (p. 175) und 
+seine Erzählung (p. 176), wie ein nicht zu den oben aufgezühlten 
+Kasten gehöriger Plebejer Kuti Bose zur Herrschaft gelangte, so können 
+die Abweichungen der Reogentenliste unseres Textes von den Angaben 
+d’Abbadie’s und Tutscheok’s keinerlei Bedenken erregen. Im Gegen- 
+theil werden wir uns wundern müssen, dass es den Galla drei Jahr- 
+hunderte hindurch gelungen ist, ihre Beschneidungs- und Herrscher- 
+ordnung einigermassen durchzuführen. 
+
+
+ወራብዕ፣ሉበ፣ተሰምየ፣ቢ 
+ፎሌ፣ወውእቱ፡ዘአጥፍኦ፡ለደ 
+ዋሮ፣በምልኡ ወወጠነ፤ተጻብ 
+ኦተ፣ፈጠጋር፤ወወጠነ፤ፄውዎ 
+›ተ፡ሰብእ፣ወረሰዮሙ፡፤አግብ 
+ርተ፣፡ወሰመዮሙ፡፣ገበረ። 
+ወወጠነ፣ሰትየ፣ኮሶዕ።..›» 
+ቀዳማውያንሰ፤ሉበ፡ዘዘከርና 
+ሆሙ፡ይቀትሉ፤ሰብአ፡ተባዕተ፤ 
+10 ወአንስተ፡ወይቀትሉ፤አፍራሰ፤ 
+ወአብቅልተ፣፤ወኢያትረፉ፣ዘእ 
+ንበለ፤፣አባግዕ፣ወአጣሌ፣ወአል 
+ህምት። 
+ወኢይቀትሉ፣በመድንኒት፣ 
+15 አርዌ፣፡ክርሦሙ፣አላ፣፡ይውሕ 
+ዝ፤በአቀ ያጺሆሙ ፡ከመ፤እን 
+ስሳ። 
+
+
+20 
+
+
+ወኃምስ፣ሉበ፣ተሰምየ፡ም 
+ሰሌ። ሂ 
+
+ውእቱ፣ዘቀተሎ፤ለዣን፣አ 
+ሞራ፤ወተጻብኦ፣ለሐመልማል፤ 
+
+
+18 
+
+
+ler. Der vierte Luba hiess Bi- 
+fole,!) er verheerte Dawaro in 
+seiner ganzen Ausdehnung und 
+fing an, Fatagar zu bekriegen 
+und die Einwohner gefangen 
+fortzuführen, und er machte 
+sie zu Selaven und nannte sie 
+«gabara».*) Und er fing an, 
+Kusso zu trinken ..... Denn 
+die bisherigen Luba, welche 
+wir aufgeführt haben, pflegten 
+Männer und Weiber, Pferde 
+und Maulthiere zu erwürgen 
+und nur Schafe, Ziegen nnd 
+Rinder am Leben zu lassen; 
+doch tödteten sie sich den 
+Bandwurm®) nicht durch Arz- 
+neimittel, sondern er hing ihnen 
+an den Sehenkeln herab wie 
+beim Vieh, 
+
+Der fünfte Luba aber hiess 
+Mesale, er ist es, der den 
+Herrn Amora*) tödtete, Ha- 
+malmal Badago bekämpfte und 
+
+
+1) Bifole, Kastenname bei d’Abbadie. 
+
+5) gabara bedeutet im Galla die Morgengabe un Rindern, welche 
+der Galla-Brüntigam entrichten muss. Vielleicht soll hier ausgedrückt 
+werden, dass 016 Galla die gefangenen Abessinier wie Vich behandelten. 
+
+
+5) Wörtlich «das Thier ihres Lei 
+
+
+. Der Bandwurm ist in 
+
+
+Nordost-Afrika allgemein verbreitet, und das Kusso, welcher Bifole 
+bei den Galla einführte (1558— 1566), noch heute das allgemein ge- 
+brauchte Mittel gegen Bandwürmer. 
+
+«) Vergl. oben im Text Seite 11, Zeile 30. 
+
+
+— 19 
+
+
+በደጎ፡ወአጥፍኦሙ፣፤ለኩሎሙ፡፤ 
+አህጉራት፣ወተሠልጠ ፡ላዕሌሆ 
+ሙ።፡ወቦአ፡ምስለ፣፡እንስሳሁ። 
+ወቅድመሰ፡ጋላ፡ኮነ፤ይጸብእ፡ 
+5 ወቂኦ፡እምወቢ፣ወይትመየጥ፣ 
+ሀየ። 
+ወኪያሁ፤ ጸብኡ ፡ ንጉሥነ፣፤ 
+አጽናፍ፣፤ሰገድ፣ተንሚኦሙ፣፤ዓ 
+ሣ፡፤ዘነብ። ›፡።ብብብብብ-፦.ብ.፣ 
+19. ወአመ፣ይወርድ፣0ኑር፡ሀገሮ፡ 
+እምድኅረ፣ዘገብረ፣ውአቱ፤ተ 
+ራከቦ፤በቅሩበ፣ንዘሎ፤ወቀተለ፤ 
+መብዝኅተ፣ሰራዊቱ፣፤ዘአልቦ፤ 
+ጐልቁ። 
+1:5. ወእምአመ፣ወፅኡ፡ጋላ፡ሀ 
+ገረነ፤አልቦ፣ዘሞቱ፣ዘከመ፣ሞ 
+ቱ፣፤አሜሃ። 
+
+
+ወእምሰራዊተ፣፤አውሣ፡ዘሀለ 
+ውነ፤ንዘክሮሙ፣በጊዜሁ ፡ይበ 
+30 ዝጉ፤፣ሰራዊተ፣ኑር፡ዘተቀትሉ፤ 
+አሜሃ። 
+እስመ፣ፈደዮሙ ፤እግዚአብ 
+ሔር፡፤በቀለ፣ደሞሙ፣ለአግብር 
+ቲሁ፣ዘከዐዉ፣በወጅ። 
+
+
+alle Oerter zerstörte; und er 
+machte sich zum Herrn über 
+sie und zog ein mit seinem 
+Vieh. Denn vorher pflegten 
+die Galla nur vom Wabbi her 
+in das Land zu fallen und wie- 
+der sich zurückzuziehen. Ge- 
+gen ihn zog aus unser König 
+Asnaf Sagad bei seinem Auf- 
+bruch nach Asa Zanab ... 
+Und als Nur in sein Land 
+hinabzog, nachdem er das ge- 
+than hatte, begegnete er Me- 
+sale in der Nähe von Hazalo 
+und tödtete den grössten Theil 
+seiner zahllosen Krieger. Seit- 
+dem die Galla in unser Land 
+auswanderten, fielen nicht so 
+viele wie damals, und die 
+Leute des Nur, welche damals 
+umkamen, waren zahlreicher 
+als das Heer von Aussa, von 
+welchem wir seinerzeit berich- 
+ten werden.!) Denn Gott 
+
+
+!) Ueber das Heer von Aussa und die Armee des Nur wird uns 
+hier leider nichts berichtet. Mit Aussa wird wohl Aussa-Gurele am 
+Hawaäfluss, die Hauptstadt des Reiches Adal, gemeint sein. Der Luba 
+Mesale, welcher von Nur angeblich mit grosser Noth besiegt wurde, 
+regierte 1566— 1574. Nach Paulitschke's Chronik der Emire von Harar 
+(siehe auch dessen Anthropologie und Ethnographie der Somali und 
+Galla, p. 8) waren die Galla 1567 nach Adal gezogen und bedrängten 
+Harar. 1572—1573 erschienen sie zum zweiten Male vor Harar und 
+belagerten die Stadt. Emir Nur scheint bestündig im Kampf mit den 
+
+
+፦ 
+
+
+in, 
+
+
+፡. 
+
+
+ወዝንቱ፣፤ምሰሌ ፡ወጠነ፣፤ተጽ sühnte das Blut seiner Diener, 
+ፅኖ፣ፈረስ፣ወበቅል ፡፣፤፡ዘኢኮነ፣ welches sie in Wag vergossen 
+እምቅድሜሁ፤እስከ፡'ይቤሎሙ፤፡ hatten... Und dieser (Luba) 
+ለሉበ ፡ዘቀደምዎ ። Mesale fing an, Pferde und 
+ለአለ፣፤ኮኑ፣የሐውሩ፤በ፻ወርቦ Maulthiere zu reiten, was vor 
+አግር፤፡ረሰይክዎሙ፤ይሖሩ፣በ8 ihm nicht (Brauch) gewesen 
+እግር። war,?) so dass er zu den Luba, 
+ወብሂሎቱሰ፤በር፻፡፤እአእግር፤በእ welche vor ihm waren, sagte: 
+ንተ ፡ዘይትመረጐዙ ı በኩናቶ «Diejenigen, welche früher auf 
+a ?) ሶበ፡ደክሙ፤በፍኖቆሙ። zwei oder drei Füssen gingen, 
+habe ich auf vier Füssen ge- 
+
+hen machen!» Seine Bemer- 
+kung «auf drei Füssen» bezog | 
+sich darauf, dass die Galla bei 
+ihren Zügen, wenn sie ınüde 
+wurden, auf ihre Lanze sich 
+
+
+zu stützen pflegten. 
+
+
+- .» 
+
+
+Galla gewesen zu sein. Siehe Paulitschke’s Harar, ኮ. 515. «Nüir starb 
+
+. an der Pest mitten in der Hungermoth . . . . nach seiner Rück- 
+kehr vom Feldzug gegen die Galla u. 8. w.> Die (ialla bedrängten seit- 
+dem das islamische Reich nicht weniger als das christliche Abessinien. 
+Das Letzte, welches uns aus jener Zeit bekannt wird, ist, dass ein Galla 
+im Jahre 1583 in Aussa den Emir Muhammed Ibrahim tödtete. Von 
+da an bis zur Thronbesteigung Emir Ali’s im Jahre 1647 ist uns nichts 
+berichtet. Paulitschke’s Harar, Seite 226. Es ist daher umso mehr zu 
+bedauern, dass unser Autor oder vielmehr der Abschreiber dieser Chronik 
+uns nur diesen einen Satz über das Verhältniss der Galla zu Adal und 
+dem Nachfolger Graäi’s erhalten hat. 
+
+!) Im Text ዮኞናዶሙ ohne fl: 
+
+5) Ludolf, Lib. I, cap. 16: «Olim pedites fere pugnabant, nunc vero 
+requentius equites. Equos enim habent, sed sminime generosos.» Diese 
+Stelle, zusammen mit Text Seite 18, Zeile 10 ergiebt, dass bis zum 
+16. Jahrbundert Abessinien die Südgrenze des Pferdes in Afrika ge- 
+bildet hat. 
+
+
+ሙ> 21 
+
+
+ወኅምስቱሰ ፡ ሉበ፡አለ፣ዘከ 
+ርናሆሙ፣፤ኩነኑ ፡ጓዓመተ፤ወ 
+አኢተገዝሩ፣ውሉዶሙ፡ወነበሩ፣ 
+አንዘ፣፤![ኢ]ይወግሩ፤ቄላፋነ፡ው 
+5 ሉድ፣፡ወአዋልድ፣እስመ፡ከመ 
+ዝ፣፡ሕጎሙ። 
+ወሶበ ፡ ተገዝሩ፣የሐፅኑ፣ው 
+ሉደ። 
+ወአዋልደሰ፣0ዓዲ፡፣ይወግርዎ 
+19 ን፡እስከ፡፻የ፣፥5ዓንመት፣እምድኅረ፡ 
+ተገዝሩ። 
+ወእምድኅረ፤፳፤ሉበ፣ተገዝ 
+ሩ፡ውሉዱ፣ለሜልበሕ፤ወተሰ 
+ምዩ፤ሐርሙፋ። 
+[05 ወውእቱ ፡ ቀተሎሙ፣፡ለጊዮ 
+ርጊስ፣ኃይሌ፣በቀጭኖ። 
+ወቦረንሂ፣ይሰምዮ፣ዱሉ። 
+
+
+ውእቱ፣ዘአጥፍኦሙ፡፣ለገፒ፣ 
+ወለአንጐት፣ወለአምሐራ። 
+20. ውእቱ፡ዘወጠነ፤ጸቢኦቱ፤ለበ 
+ጌምድር። 
+
+
+2. ወሐርሙፋ፡፣ዘበርቱማ፤ጸብኦ፡ 
+ለበጌምድር፣ወቀተሎ፣ለቀካ፣ 
+አጉሁ፡ለሐርቦ። 
+
+ወአሜሃ፤ነበበ፡፣ሐርሙፋ፣ቃ 
+ለ፡ትዕፅይርት፣ወይቤ። 
+
+
+Diese fünf Luba aber, die 
+wir aufgezählt haben, regierten 
+40 Jahre, ohne dass ihre Söhne 
+beschnitten wurden, und. sie 
+verbrachten diese Zeit, ohne 
+die unbeschnittenen Söhne und 
+Töchter zu entfernen; denn so 
+ist ihre Sitte. Nachdem sie be- 
+schnitten sind, verpflegen sie 
+ihre Söhne (bei sich) und thun 
+die Mädchen von sich drei 
+Jahre lang nach ihrer Be- 
+schneidung ... Und nach den 
+fünf Luba wurden die Kinder 
+Melbah’s beschnitten und (von 
+den Baraytuma) Harmufa ge- 
+nannt. Ein Harmufa(-Luba) ist 
+es, der den Giyorgis-Hayle 
+schlug in Qa&ıno, und die Bo- 
+ran nennen ihn Dulu.') Er ist 
+es auch, der (die Provinzen) 
+Gaüi, Angot und Amhara ver- 
+heerte und anfıng, Bagemeder 
+zu bekriegen. 
+
+Und der Harmufa der Bar- 
+tuma verheerte Bagemeder und 
+tödtete den Qakä, den Bruder 
+des Harbo. Damals sprach Har- 
+mufa das Hohnwort: «Die Si- 
+
+
+dama,?) welche am Meere 
+
+
+፤) Dulo bei Tutschek und d’Abbadie. 
+*) Die Sidama sind Völkerschaften, welche (nach d’Abbadie, loc. 
+
+
+ለስዳመ ፡ እለ ፡ ይለብሱ ፡ ባሕ 
+ረ፤አጽደፍክዎሙ ፡ ባሕረ ። 
+ወእምድኅረ፤ቿ ዓመት ፡ተስዕ 
+ረ፣ሐርሙፋ፣ወተሠይመ፣፤ሮባ 
+5 ሌ፡ወልደ፡ሙዳና፣ወተጽሕፈ፤ 
+ስሙ፣በክፍል ፡ስድስቱ። 
+ውእቱ፣0ዘአጥፍኣ፣0ለሸዋ። 
+ወመጠነ፤ጸቢኦታ፡ለጐዣም። 
+ወሎቱ፣ጸብእዎ፣ ሐፄጌ፣በዝ 
+10 ወይ። 
+ወቀተሉ፣ብዙኃነ፣አምኔሁ፣፤ 
+ወማሀረኩ፣፤አልህምቲሁ፤ወኮኑ፤ 
+ብዙኃን፣አብዕልተ፣እምነ፤፡ው 
+አቱ፤ምህርካ። 
+ወውአቱ፣ቀተሎ፣0ለአዝማች፤ 
+ዘርአ ፡ዮሐንስ፣ርእሰ፣መኳንን 
+ት፤ላዕሌሁ።፡ሰላም። 
+ወበውእቱ፣መዋዕል፡፤(0ካነ፡ሰ 
+ሊ፣፤ወቢዳሮ፣አኢላላ፣በነገደ፣ሱ 
+ባ፣፡ዘቦረን። 
+ወእምድኅረ፡በ፳ዓመት፤ጸብ 
+እዎ ፡ሐፄጌ፣ለሮባሌ፣ዘአበጢ፡ 
+
+
+22 
+
+
+wohnen, habe ich ins Meer ge- 
+worfen !» 
+
+Und nach acht Jahren wurde 
+abgesetzt Harmufa und einge- 
+setzt Robale, ein Sohn Muda- 
+na’s, dessen Namen wir im 
+sechsten Capitel erwähnt ha- 
+ben. Er ist es, der Schon ver- 
+heerte und anfing, GoZam zu 
+bekriegen . . . Gegen ihn un- 
+ternahm Seine Majestät einen 
+Feldzug in Zeway und tödtete 
+viele seiner Leute und erbeu- 
+tete ihre Rinder. Und Viele 
+wurden reich von dieser Bente. 
+
+. Und er (Robale) tödtete 
+den Heerführer Zar'a-Yohan- 
+nes, den Obersten der Beam- 
+ten, Friede über ihn! . , , Und 
+zu der Zeit waren Sali und 
+Bidaro 11618. im Suba-Stamm 
+der Boran!) ... Und nach 
+
+
+fünf Jahren zog zu Felde Seine 
+
+
+eit,, p. 170) damals von den Galla nach Kuffa gedrängt wurden. Heute 
+nennt der Gulla jeden Christen «Sidama>, im Gegensatz zu sich selbst 
+und den «Islamas. Diese Bezeichnung scheint nach unserem Text 
+schon damals gebräuchlich gewesen zu sein. Vergl. bei Krapf «Travels 
+and researches>, p. 77 dus Gebet der Gallu: «ዐ Wak, help us alay our 
+'ennemies who make war upon us, the Sidama (Christiane) and the Islama 
+(Mohammedans) !» 
+
+?) Eine Unterabtheilung der Bortuma-Stämme wird Seite 18, 
+Zeile 27 aufgezühlt, welche den Suba-Stamm enthült. Tin Boran-Stamm 
+der Suba kommt Seite 8, Zeile 14 vor. 
+
+
+= 
+
+
+በወይና፣ደገንዓ፣ወቀተልዎ፤እን 
+
+በለ፣አትርፎ። 
+ቦዘይቤ፣ተርፉ፣ዘይበዝጉ፣፤እ 
+
+ም፲፤ወበጽሑ፡፤ሀገሮሙ፡ለዜና። 
+
+
+ወእምድኅረቿዓመት፣ተሠይ 
+መ፣፡ቢርመጄ፣ወልደ፣ኪሎሌ፤ 
+ዘአጥፍኣ፣ለደዋሮ። 
+
+ወዝንቱ ፡ ቢርመጄ ፡ዘቦረን፣ 
+ገብረ ፡ ወልታ ፣ዘአነዳ ፡ ላህም ፣ 
+መጠነ፤ቆሙ።፣ወጸብኦሙ፣ለማ 
+ያ፡ሰብአ፡ቀስት። 
+
+
+ወሞኦሙ፡፤ሶዕበ፣ንጥኡ፣0ዘይ 
+ነድፍዎ ፡ እስመ፣ ተወልተወ፣ 
+:)አነዳ፣ላሀም ፣ይቡስ።›››› 
+ወአጽዐቆ፣ለአዝማች፣ደኅር 
+ጎት፡መልአክ፣፤ንይሉ፤ለንጉሥ። 
+
+
+25 
+
+
+Majestät gegen den Robale vom 
+(Stamme der) Abati im Hoch- 
+land und schlug ihn, dass Kei- 
+ner übrig blieb. Einige haben 
+gesagt, dass mehr als zehn 
+Mann übrig blieben und in ihr 
+Land kamen, »die Botschaft 
+(ihrer Niederlage) zu bringen. 
+
+Und nach acht Jahren ward 
+eingesetzt Birmage, der Sohn 
+(jenes) Kilole, welcher Dawaro 
+verheert hatte. Und dieser Bir- 
+mage der Boran machte (sich) 
+einen Schild aus Ochsenhaut?) 
+von Mannesgrösse und stritt 
+wider die Maya,?) ein Volk von 
+Bogenschützen. 
+
+Und da Diejenigen, welche 
+auf ihn zielten, ihn nicht tra- 
+fen, besiegte er sie; denn die 
+trockene Rindshaut schützte 
+1ከ8 . . . Und er bedrängte den 
+
+
+3) Hier ist ein f} zu ergänzen. Vergl. Dillmann, Wörterbuch, 
+
+
+ኮ. 888, 
+
+
+2) Nach Ludolf kämpfen die Galla «eminus hastis atque ይበ» und 
+selavis aut sudidus praeustis claro documento animis fortius quam manibus 
+Pugnari. Scuta faciunt ex corüs boum aut bubalorum sylvestriums. 
+
+3) Die Maya, ein Volk von Bogenschützen mit vergifteten Pfeilen, 
+spielen im siebenten Capitel von Grad’s Eroberung Abessiniens eine 
+wichtige Rolle. Siehe dort p. 112, 116, 119, 121—123. Sie standen 
+auf Seiten der Christen, traten uber später Alle zum Islam über. Als 
+sie gegen die Galla kämpften, waren sie jedenfalls wie die meisten von 
+Gran’s Proselyten wieder Christen geworden, 
+
+
+ወቀተሉሙ ፤ለእለ፣ዜናይ። 
+ወወዓልያኒሁ። 
+ቅድመሰ፣፤ኮነ፣ይመውእ፣ብ 
+ዙኀ፤ጊዜ። 
+ባሕቱ፤በፈቃደ፣እግዚአብሔ 
+ር፤ኮነ፤በአንተ ፣፡ዘተፈጸመ፣ዕ 
+ዳሆሙ፣፤ለክርስቲያን ፡ተሞአ፣ 
+መዋኢ። 
+ወአጥፍኣ፣ለአርአኘ፡፣ሀገሩ፣ 
+10 ወቀተሎሙ ፤ለእአለ ፡ ጋቶ፣ወበ 
+ትሮ፣ወበድሎ ፡ ወዐምዶ ፡ ወክ 
+ልኣኒሆሙ። 
+ወኮኑ፤በድወ፡፣፪፣አህጉር፣ዘ 
+ኩሎሙ፣ነዳያን፣ይብዕሉ፡፣በኀ 
+15 ቤሆሙ። 
+ወቢርመጄ፡ዘበርቱማ፤ጸብኦ፣ 
+ለድምብያ፤፡ወቀተሎ፤ለአቦሊ፣ 
+እምዘመደ ፣ መንግሥት ፣፡ ወለሠ 
+ምረ፣አብ፣ባሕር፣ነገሸ፣፤ወካል 
+20 እኒሁ። 
+ወዝንቱ፣፤ኮነ፤ኀበ፣ኢሀለዉ፡ 
+ንጉሥነ፤ዘኀያል፤በምግባሮሙ፡፣ 
+ወጠቢብ፣በምክሮሙ። 
+
+
+5 
+
+
+30. ዕበሰ፤ነበሩ፤በድምብያ፣፤እም 
+በጽሖ፣ለቢርመጄ፣ዘበጽሖ፣ለ 
+
+
+ሮባሌ። 
+
+
+24 
+
+
+General Dahregot, den Heer- 
+führer des Königs, und tödtete 
+Seine königliche Hoheit Zenay 
+und Ihre Leibwache. Zuerst 
+war er oft siegreich, allein 
+nach Gottes Rathschlag ge 
+schah es, dass der Sieger be- 
+siegt wurde, weil die Schuld 
+der Christen vollendet 6ኛ... . 
+Und er (Birmage?) zerstürte 
+Ar’eü, seine Landschaft, und 
+tödtete Seine königliche Hoheit 
+Gato und den Batro, den Ba- 
+delo und den "Amdo n. ላ. m. 
+Und es wurden zur Wüste 
+zwei Provinzen, so dass alle 
+Armen (ihrer Feinde) reich bei 
+ihnen wurden Und der 
+Birmaße Bartuma  be- 
+kriegte Dembea und tödtete 
+den Aboli königlichen 
+Geschlecht und den Samra-Ab, 
+Gouverneur von Tigre, ኳ. A. m. 
+
+Und das (Alles) geschah, 
+während unser König, der 
+thatkräftig Unter- 
+nehmungen und weise in sei- 
+nen Rathschlägen ist, nicht zu- 
+
+
+der 
+
+
+von 
+
+
+in seinen 
+
+
+gegen war. 
+Wäre er in Dembea zugegen 
+
+gewesen, 80 wäre dem Birmage 
+
+begegnet, was dem Robale be- 
+
+
+gegnete. Aber damit das Sie- 
+
+
+ባሕቱ፣ከመ፣ይኩን፡፤መዊእ፡ 
+በተባርዮ፤አርትዐ፡እግዚአብሔ 
+ር፤ፍኖቶሙ ፡ለንጉሥነ N: 
+ዳሞት፣ወረክቡ፣ንበ፣፡ሖሩ። 
+ወተመውኡ፡፤መኳንንት፡፤ኀበ፣ 
+ኢሀለዉ። 
+ወቢርመጄ፡፣ዘቦረን ፡አዕገታ፣ 
+ለምድረ፤ዳሞት። 
+ወፄወወ፣፡ሰብአ፡ወአንስሳ፣፤ሶ 
+10 በ፣ረከባ፣ለሀገር። 
+እንዘ፤አልቦ፣፡ዘያድኅን፣ወዘ 
+ይባልሕ። . 
+ወአሜሃ፤ኮነ፤፡ድጅ፣አዝማች፤ 
+ፀካቦ። 
+ወተማከረ፣፤ምስለ ፣አኀዊሁ። 
+ወአሰተጋብአ፣ሰራዊተ፤ወዴ 
+ገኖ፣ወበጽሐ፣ኀበ፣ሀለወ፣ይት 
+ካፈል ፣ምሀርካሁ። 
+ወዐፀገትዎ፣ኅሩያን፣ወመስተ 
+፡9 ጽፅዕናን፡፣በመሥለስት፣ዝብሂል፡፤ 
+ዐገቶሙ፣በየአውራሪ። 
+ወጐየ፣ጋላ፣ወተቀተለ። 
+ወመብዝኅቱ፣ተንብአ፤ውስ 
+ተ፡፣በአት፣ስፉሕ። 
+ወአስተጋብኡ፡ዕፀወ ፡ወአን 
+ደዱ፣፤ውስተ፣አፈ፡፣በአት፣ወብ 
+ዙኃን፣ወፅኡ፣፤እምፍርሀተ፥፤እ 
+ሳት፣ወተአስሩ። 
+እስከ፡አምጽኡ፣ሉሎቱ፣ወወ 
+፡0 ሀብዎ፣ለወልደ፤መንግሥት፣ዘ 
+ተፄወወ፣ምስለ፣ብዙኃን፣ሂው 
+ዋን። 
+
+
+5 
+
+
+15 
+
+
+25 
+
+
+25 
+
+
+gen nun zum Wechseln käme, 
+richtete Gott den Weg des 
+Königs nach Damot, und er 
+hatte Erfolg, wohin er auch 
+z0g; die Statthalter jedoch 
+wurden besiegt, wo der König 
+nieht dabei war... Und der 
+Birmage der Boran liess Da- 
+mot umstellen und führte ge- 
+fangen Menschen und Vieh, 
+als er hineindrang, und war 
+Niemand, der (sie) beschützte 
+oder errettete. Und zu der 
+Zeit war "Akabo Feldmarschall, 
+und er berietlı sich mit seinen 
+Brüdern. Und er sammelte ein 
+Heer und folgte (den Galla) und 
+kam dahin, wo sie sich in den 
+Raub theilten. Und es umring- 
+ten sie das auserwählte (Fuss- 
+volk) und die Reiterei dreifach, 
+d. ከ. es umstellte sie mit drei 
+Heeresabtheilungen. Da flohen 
+die Galla und wurden getöd- 
+tet. Die Mehrzahl aber ver- 
+bargen sich in einer ausge- 
+dehnten 110116. Und (die Abes- 
+sinier) sammelten Holz und 
+zündeten es an im Eingang 
+der Höhle. Da kamen Viele 
+heraus aus Furcht vor dem 
+Feuer und wurden gefangen. 
+
+Zuletzt brachten sie dem 
+
+
+ወለእለ፡ሞቱ፣መተሩ፡፤አርአእ 
+ስቲሆሙ ፡ወበዝጐ ፡እምጐል 
+Pr: DON: UNE = 
+
+
+ወእምድኅረዝ፣፤እስከ፣አመ፣ 
+
+10 የኀልፉ፣፤መዋዕለ ፡ እብሬቱ፣ለ 
+ቢርመጄ፣ወእደ፣እግዚአብሔ 
+ር፤ዓዲሃ፣ልዕፅልት ፡ወእስከ፣ዓ 
+ዲ፣፤አታፈጸመ፣ዕዳሆሙ፣፤ለክር 
+ስቲያን። 
+
+15 እመኒ፣ተዓቀቡ ፡በመዋዕለ፣ 
+ቢርመጄ ፤ሀለወ ı ያጠፍኦሙ፣ 
+ዳኅራዊ ፡ሉበ፣ዘንዜክሮ፣ድኅ 
+ረ፤በገጸ፣፤መክኑ። 
+
+ወእምዝ፣ተስዕረ፣ቢርመጄ፣ 
+
+2 ወተሠይመ፣ሙልኣታ፤ወልደ፣፤ 
+ቢፎሌ። 
+
+ወገብረ፡፣ዱለጉቶ፣በጐዣም። 
+ወፍካሬሁ፣፤ለዱለጉቶ፤ጸብአ፤ 
+ጐትያ፣ውእቱ። 
+
+
+25 
+
+
+"ላዜ8ከ0 und überlieferten ihm 
+den Kronprinzen des Reiches, 
+der in Gefangenschaft gerathen 
+war,undvieleandereGefangene; 
+Den Todten aber schnitt mandie 
+Köpfe ab, und es waren ihrer 
+mehr, als man zählen konnte. 
+Underbeschützte seine Provinz. 
+
+Und darnach, bis die Tage 
+der Amtsführung Birmage's 
+vorüber waren, blieb des Herrn 
+Hand ausgestreckt!) (zu stra- 
+fen), und bis dahin war die 
+Schuld der Christen noch nicht 
+voll. Vermochten sie sich auch 
+zu vertheidigen zur Zeit Bir- 
+mage’s, so richtete sie der fol- 
+gende Luba zu Grunde, den 
+
+
+wir nachher am Anfange des 
+ihm gewidmeten Abschnittes 
+... Da wurde 
+Birmage abgesetzt und Mul’ata, 
+ein Sohn Bifole’s, (zum Luba) 
+ernannt. Und er machte einen 
+«Dulaguto»*?) in GoZam; und 
+
+
+nennen werden 
+
+
+!) Jesaja 5, 25. Nach Bachmann’s Angabe: መእዴሁ ፤ ለእግ" ፥ 
+
+
+ዓዲሃ ፡ልዕልት። 
+
+
+#] Die Wörter Dulaguto und Gutya sind weder Aethiopisch noch 
+Ambarisch. Dagegen findet sich bei Tutschek, op. eit., p. 62 ein Galla- 
+Verbum, gola, Kriegsübungen vornehmen, exereiren im militärischen 
+Sinne und das nahe verwandte Somali (siehe Hunter, Somali Grammar, 
+ኮ. 167) hat das Nomen «guto army». Mir ist nur im Somali gutyo ከው 
+kannt, ein Bente- oder Rachezug, im Gegensatz zu ol, welches einen 
+
+
+ሐፄጌ፣ከመ፣ይሖሩ፤ምድረ፡ዳ 
+ሞት። 
+ወእንዘ፣0ሀለዉ፣በፍኖት፣0ሰ 
+ምፁ፤ከመ፡ጸብአ፡፣ጋላ፣ምድረ፡ 
+›» ጐም፤ወከመ፤ዐርጉ፤፡እሞሙ፡ 
+ንግሥት፣ደብረ፣አብረሃም፣፤0ይ 
+ጸወኑ፣ህየ፣ወዌዘሮ፣ቴዎዳዳ፣ 
+እኀተ፣አበዊሆሙ፣ነገሥት፣0አ 
+ጽናፍ፣ሰገድ፣ወአደማስ፣ላዕሌ 
+10 ሆሙ፣ሰላም። 
+ወሶበ፣በጽሐ፣ንቤሆመ፤ጋላ፡፣ 
+ግብተ ፣በጊዜ፣ኢተሐዘብዎ፡ደ 
+ንገፁ፤ዙሎሙ፡፣ሰብአ፣ሀገር፣ 
+ወተዘርዉ፣ሰራዊቶሙ። 
+ወውሉዶሙሰ፣ዘይልህሀቁ፤ተ 
+ኀየሉ፣ላዕለ፡ጋላ፣፤እለ፣ቀርቡ፣ 
+ኀበ፡ዕሙ፣ሰደዶሙ። 
+እስመ፣ወሬዛ፣ውእቱ፣ወይ 
+ትዌደስ፣፤በኀይሉ። 
+=: ወተመይጠ፣ወአኀዘ፡አያ፡ፅ 
+ሙ።፣፡ወአዕፅረጎሙ፣ንበ፣ደብር፣ 
+ነዋኅ፤ዘስሙ፣ጅበከ። 
+ወሐፄጌሰ፣ኀደጉ፣ፍኖቆሙ፣ 
+ወተመይጡ፤በጐጉኣ፣ኀበ፣ሀ 
+2 ሎ : ጋላ ፡ ወቦኡ ፡ ምስለ ፡ ሰራ 
+ዊት። 
+
+
+15 
+
+
+2። 
+
+
+drauf aus, uns zu tödten ... 
+Und in den Tagen beschlossen 
+Seine Majestät, nach der Pro- 
+vinz Damot zu ziehen. Und 
+als man unterwegs war, erfuhr 
+man, die Galla seien in GoZam 
+eingefallen, und dass Seiner 
+Majestät Mutter, die Königin, 
+zum Abrahamskloster herauf- 
+zöge, um dort Zuflucht zu neh- 
+men mit Waizaro!) Tewdada, 
+der Schwester seines Vaters 
+und seines Onkels, der Könige 
+Asnaf Sagad und Ademas Sa- 
+gad, Friede über ihnen!) Und 
+als die Galla plötzlich, zu einer 
+Zeit, wo man es nicht erwar- 
+tete, erschienen, erschraken 
+alle Leute der Provinz, und 
+die Armee des Künigs zer- 
+streute sich. Aber ihre (?) äl- 
+teren Söhne ermannten sich 
+gegen die heranziehenden Galla 
+an einem Punkte, wohin "Emu 
+sie schiekte; denn 'Emu war 
+ein wegen seiner Körperkräfte 
+
+
+1) Nach d’Abbadie's amharischem Wörterbuch, p. 680 ist Waizaro 
+sowohl ein: stitre des femmes de haut rang» als ein «titre applique & toute 
+femme & peu prös comme notre madame». 
+
+
+®) Clandius Asnaf Sagad war seit 1559 und sein Bruder Ademas 
+Sagad seit 1563 todt. «Seine Majestät» ist für den Verfasser Sersa 
+Dengel, welcher fast bis zum Schluss der Chronik (bis 1596) regierte, 
+
+
+ለጋሎች፣ወመልኡ፣፤ውስተ፤ኣ 
+ዶራ፣ዘውእቱ፣መካን፣ስፉሕ። 
+ወአውረድዎሙ፤ለኢቴጌ፤ወ 
+ለዌዘሮ፣ቴዎዳዳ፤እምነ፣አድዓ 
+፡ ራት፣ዘኮኑ፣፤፣ውስቴቱ፣ወተቀበ 
+ልዎሙ፡፤በክብር። 
+ወሶበ፣ርአዩ፡ብዝፕሙ፣ለአ 
+ርእስተ፤ፀር፤አለ፣፡ተመትሩ፤ተ 
+ፈሥሑ፤ዐቢየ፤ፍሥሓ፡፤ወአእ 
+10 ኮትዎ ፤፡ ለእግዚአበሔር ፡ ዘ% 
+መ፣መንፈሰ፣፤መዊእ፤ላዕለ፡መ 
+ሲሑ። ሪ 
+ወአልህምትሰ፣፤ዘአንገፉ፣ላዕ 
+ለ፡ጋላ፡ሜጡ፤ሉሙ፤ለአለ፣ 
+15 ተማሀረኩ። 
+
+
+ወአምድኅረዝ ፡ መከሩ ፡ንጉ 
+30 ሥነ፡ያርትፁ፤፡ፍኖቶሙ-፣፤እስመ፤ 
+ይገብሩ፤በከመ፣ኀለዩ፣ወይፌ 
+ጽሙ፣፡በከመ፣፡ነበቡ። 
+ወሖሩ፤ወጅ፣፤ለጸቢኦ፡ጋላ፣ 
+ዘስሙ ፡ዳዌ። 
+55. ወጋላሰ፤ይሰምዮ ፡ጋላ፣ዘድ 
+ኅረ። 
+
+
+mit einen «Adora» !) ባ, 1. ein 
+grosser Raum, füllte. Dann 
+liess der König herabkommen 
+die Königin und die Prinzessin 
+Tewdada aus dem Schutzorte, 
+an welchem sie sich aufhielt, 
+und empfing sie mit Ehren- 
+bezeigungen. Und als sie sa- 
+hen die grosse Zahl der ab- 
+geschnittenen Häupter der 
+Feinde, freuten sie sich sehr 
+und priesen den Herrn, wel- 
+cher den Geist des Siegens auf 
+seinen Gesalbten hatte kommen 
+lassen; und die Rinder, welche 
+sie den Galla genommen hat- 
+ten, gaben sie denen zurück, 
+welchen esgeraubt worden war. 
+
+Und darnach beschloss unser 
+König, seinen Weg richtig zu 
+machen, denn er führte aus, 
+
+
+was er plante, und vollendete, 
+was er redete. Und er zog 
+nach (der Provinz) Wag, um 
+die Galla, die man Dawe nennt, 
+zu bekämpfen. Die Galla zwar _ 
+
+
+፤) Wie አዶራ und das gleich darauf folgende አድዓራች zu ver- 
+stehen sind, ist schwer zu sagen. Hat der Autor vielleicht einen ge- 
+brochenen Plural von dem syrischen Fremdwort ጄር «Kloster» (Dillmann, 
+Wörterbuch 1124) bilden wollen? Die Bemerkung, «Das ist ein grosser 
+Ort» ist augenscheinlich eine Glosse des Schreibers, welcher zu erklären 
+versucht, was ihm selbst unklar war. Vielleicht wurden die Schüdel 
+der Galla im Kloster verwahrt und gesammelt. 
+
+
+ወሰብእሰ ፡ይሰምይዎ፣ናዳዌ፣ 
+በእአንተ፣ዘአድወዮሙ። 
+ወምክንያተ ፡ ሐዊሮቶሙሰ፣ 
+ሀየ፣አስመ፣መሰሎመ፡ዘይሁቦ 
+5 ሙ፤፡ሰልፈ፣ወኢይጐይይ። 
+ወሶበ፣በጽሑ፣፤0ኀበ፣ይቤልዎ 
+ሙ። 
+ሀሎ፣ዝየ። 
+ኀጥእዎ። 
+ኀሠጮሥ።፤ወኢረከቡ፣መካኖ፣ 
+ወዕበ፣ኀጥኡ፣ምህርካ፣እንስሳ 
+ዌ፣ወጸብአ፤፡ሥጋዌ፣መከሩ፣ከ 
+መ፣ይጸብኡ፣ምስለ፣ሰይጣን። 
+ወይማህሀርኩ፤አሜሃ፡ነፍሳተ፣ 
+15 አሕዛብ፡ጸውዕዎሙ፣ለአናርያ፡ 
+ወለቦሸ፣0ወለጎመር። 
+ወይቤልዎሙ። 
+ኩኑ፡ክርስቲያነ፤ወኮኑ፣ወተ 
+ጠምቁ፡በጥምቀተ፡፣ክርስትና። 
+
+
+10 
+
+
+20 
+
+
+55 
+ወሙልኣታ፡፣ዘወረ፡፤ድአያ'፡ 
+ሶበ፣ጸብአ፣ሀገሮ፣ለራስ፣ወል 
+ደ፣ክርስቶስ፣ሞኦ፡ወኦንገፈ፣ 
+
+
+9) Im Test ወርድአያ፣ 
+
+
+31 
+
+
+nennen sie die hinteren Galla, 
+aber die Leute (Abessiniens) 
+nennen sie Dawe, weil sie 
+ihnen zur Plage waren. Die 
+Ursache von des Königs Feld- 
+zug dorthin war, dass ihm 
+schien, dass sie ihm eine 
+Schlacht liefern würden und 
+sich nicht zurückziehen. Als 
+aber der König dort hinkam, 
+wo man ihm gesagt hatte, dass 
+sie sich aufbielten, fand er sie 
+nicht, und suchte, ohne ihren 
+Aufenthaltsort finden zu kön- 
+nen. Da er nun verfehlte, Vieh 
+zu erbeuten oder gegen Fleisch 
+und Blut zu kämpfen, beschloss 
+er, gegen den Satanas zu käm- 
+pfen, und erbeutete damals die 
+Seelen der Völker, die man 
+Enarya, 33858 und Gomar nennt. 
+Zu denen sagte man: «Werdet 
+Christen!» Und sie wurden es 
+und wurden getauft mit der 
+christlichen Taufe.?) 
+
+Als Mul’ata vom Stamme 
+der De’aya die Provinz des 
+Ras Walde-Chrestos verheerte, 
+
+
+5) Auch Ludolf berichtet von dem Zuge des Sersa Dengel nach 
+Enarya und sagt (Lib. 1, eap. 6): «Enaream subegit ejus que Regulum 
+
+
+Ohristo addixit,» 
+
+
+PVChV- ፣፡ወቀተለ፤ብዙኃነ፤እ 
+ምኔሁ። 
+ወለመንፈቁ፣፤ዴገኖሙ-እስከ፡፤ 
+ተነፅጉ፣በጸድፍ። 
+5 ወዐቀበ፡ሀገረ፡አስከ፣፡ይትመ 
+የጡ፤ሐፄጌ። 
+ረከብዎ፣ለሀገር፤፣ዕቅብተ፣በ 
+ትጋሁ፤ለወልደ ፡ክርስቶስ፤ወ 
+በተጻብኦቱ፤ወበእንተዝ፣ረሰይ 
+10 ዎ፣አገዚአ ፡ለቤቱ፣ወአኩነኖ፣ 
+ላዕለ፣መንግሥቱ። 
+
+
+ወሙልኣታ፣ዘቦረን፣አጽሐ 
+ቦሙ*ልክርስቲያን፡፤ዘዳሞት፤ወዘ 
+
+
+ረውዎሙ-፡ወአጥፍአ፤ሀገሮሙ፡ 
+ወኮኑ፤በድወ፣በዘመኑ፣ምድረ፡፣ 
+20 ሸዋ፣ወዳሞት። 
+ወዘጸሐፍኩሰ፣፤ምዕረ፡መዊኦ 
+ተ፡ጋላ፣ወምፅረ፤፣መዊአ፡ክር 
+ስቲያን፣ልማደ፣መጽሐፍ፤'ው 
+እቱ፡ዘይቤ፣፡ዮም፣፡ለከ፣ወጌሠ 
+5 ም፣ለክልእከ፣፡ወመዊአኒ፣ትከ 
+
+
+besiegte ihn der Letztere, nahm 
+ihm seinen Raub ab und töd- 
+tete viele seiner Leute. Die 
+Hälfte von ihnen verfolgte er, 
+bis sie in einen Abgrund stürz- 
+ten, und vertheidigte seine Pro- 
+vinz bis zur Rückkehr Seiner 
+Majestät. Und da der König 
+das Land (so) wohl verthei- 
+digt fand durch die Wach- 
+samkeit und Kriegstüchtigkeit 
+des Walde-Chrestos, ernannte 
+er ihn zum Herrn seines Lan- 
+des und machte ihn zum ober- 
+sten Beamten seines Reiches. 
+
+Und Mul’ata der Boran plagte 
+die Christen von Damot,. er 
+zerstreute sie und verheerte 
+ihr Land, so dass zu seiner 
+Zeit die Provinzen Damot und 
+Schoa zur Wüste wurden. Was 
+ich aber schon berichtet habe 
+buld über die Siege der Galla, 
+und bald über die Siege der 
+Christen,t) ist nach Art des 
+
+
+1) Trotz der vielen Siege über die Galla, von denen hier berichtet 
+
+
+wird, hat Sersa Dengel ihnen gegenüil 
+
+
+or einen schlimmen Stand gehabt. 
+
+
+Ladolf (Lib. 11, cap. 6) berichtet, Sersa Dengel sei überall siegreich 
+gewesen «si Gallanos excipias». Von dem letzteren heisst es: «Hi vi- 
+
+
+ginti quinque annorum rapinis, dum Habessini tot aliis bellis alque turbis 
+
+
+distinentur, in lantum ereverant, ዘሪ jam non lumultaria manu, sed Justin 
+exeroitibus Habessinam incursarent. Proinde toto vitae tempore, prosper alias 
+ይህ cum ሀ/ህ luotatus fuit.» Uebrigens gehört erst un diese Stelle der 
+
+
+ውን፣፤ጊዜ፣፤ለዝንቱ፣ወጊዜ፡ላ 
+ዝክቱ። 
+ወዘይመውእሰ፡፣ኩሎ፡፤ጊዜ፡8 
+እግዚአብሔር፤ዘላዕለ፣ዙሉ፣፤ 
+ወሀገርሰ፣ገብአት፣ውስተ፤እ 
+ዴሁ፡ወአልቦ፡ዘተርፈ። 
+
+
+5 
+
+
+ወእምአመ፡፤ተጽሕፈ፤ዝንቱ፤ 
+መጽሐፍ፤ኮነ፤፻የ፡ዓመተ፡ሚ 
+መቱ ፣ለሙልኣታ ፡ወልደ፡ቢ 
+ፎሌ። 
+
+ዓዲሆሙ ፤ድልዋን ፡ለተገዝ 
+15ሮ። 
+
+ወሚመተ፣፤ዘደቂቀ፤]ምሰሌ፣፤ 
+ወዘይከውን፣በዘመኖሙ፤እምነ፡ 
+አጽባእት፣ወቀትል፣ለአመ፡፣ሐ 
+ዮኩ፡፤፡አእጽሕፎ፣፤ድኅረ። 
+
+ወለአመ፣ሞትኩ፤ከልኣን፤ይ 
+ጽሕፉ፣፡ዜናየ፣ወዜና፡፣ሉበ፡ዘ 
+ይመጽእ። 
+
+
+10 
+
+
+20 
+
+
+55. ወበሕቱ፡ብፁዕ ፡ ዘሞተ ፡እስ 
+
+
+መ፡፤አዕረፈ። 
+
+
+88 -- 
+
+
+Schriftwortes, welches lautet: 
+Heute Dir und morgen einem 
+Anderen, und der Sieg fällt 
+bald Diesem, bald Jenem zu; 
+der aber, welcher immer siegt, 
+ist nur der einigeGott, der über 
+Alles (herrscht). Das Land aber 
+kam in seine Hand zurück und 
+ist nichts davon übrig geblieben. 
+Seit diese Chronik geschrieben 
+wurde, sind drei Jahre nach 
+dem Amtsantritte des Mul’ata, 
+des Sohnes Bifole’s, Noch steht 
+ihnen die Beschneidung bevor.!) 
+Den Amtsantritt aber und die 
+Einsetzung der Söhne Mesale’s 
+und was sich zu ihrer Zeit an 
+Kümpfen und Morden ereig- 
+nen wird, das Alles werde ich 
+später berichten, falls ich noch 
+leben sollte; sollte ich aber ge- 
+storben sein, 80 werden Andere 
+meine Geschichte fortführen und 
+über zukünftige Luba schreiben. 
+Glücklich aber ist nur, wer todt 
+ist, denn er hat Ruhe. 
+
+(Nun) fragen sich aber oft 
+die Gelehrten und sagen: Wie 
+war es möglich, dass uns die 
+
+
+«ገጸ ፡መክኑ ፡» des Mul’ata, welcher erst um 1598 Luba wurde, während 
+Sersa Dongel schon Ende August 1596 starb. Vergl. Text Seite 26, Zeilo 19. 
+1) Vergl. oben Seite 15: Quatre anndes apris leur entree en fonctions 
+
+
+tous les membres du gouvernement se 
+
+
+Font eirconcire. 
+8 
+
+
+ወይትኃሠሥ።፡ማእምራን፤ተ 
+ኃሥሦተ፣፤ብዙኃነ፣፤ወይብሉ። 
+በአፎ፣ይመውእነ፡፤ጋላ፤እን 
+ዘ፤ንሕነ፤ብዙኃን፡፣ንዋየ፣ጸብ 
+5 እነ። 
+ቦእለ፣ይቤሉ፣አብሖ፣፡እግዚ 
+አብሔር፣፤በእንተ፣ኀጢአትነ። 
+ወቦ፣ዘይቤ ፤በአንተ፣ተከፍ 
+ሎተ፣፤ሰብእነ፤ኀበ፣፤ጾታ፣ኢ 
+
+10 ይቀርቡ፤ኀበ፣፡ጸብእ፣ወኢየን 
+ፍሩ፤በፍርሃቶሙ፣ወባሕቱ፤ዓ 
+ሥራይ፤ጾታ፤ይጸብእ፤ወይትቃ 
+ተል ፣መጠነ፤ተክህሎ። 
+
+ወለእመ፣ብዙኅ፣፤ጉጐልቀ'ነ፤ 
+
+15 ውኑዳን፡አሙንቱ፤አለ፡ይክሉ፡ 
+ተጻብኦ፤ወብዙኃን፣እለ፤ኢይ 
+ቀርቡ፤ኀበ፣ጸብእ። 
+
+፳8እምኔሆሙ›ነገደ፡መነኮሳት፡ 
+እአለ፣አልቦሙ፣ጉጭልቂ። 
+
+50 ዐዘይመነኩስ ፡ በናአሱ ፤ሶዕበ፣ 
+ጥዎ፣መነኮሳት፣በጊዜ፣ትም 
+ሀርቱ፣ከመ፣ጸሓፌ፤ዝንቱ፤ታ 
+ሪክ፤ወአለ፣ከመሁ። 
+
+ወቦ ፡ዘይመነኩስ ፡እምፍርሃ 
+5 ተ፡ጸብእ። 
+ክልእ፡፤ነገድ ፤ይሰመዩ ፤ደብ 
+ተራ፤ይትመሀሩ፤መጻሕፍተ፤ወ 
+ዙሎ፣፤ግብረ፤ካህናት። 
+ይጠፍሑ፤በአደዊሆሙ፤ወያ 
+
+80 ፅሕሱ ፡በአገሪሆሙ ፣ወኢየኀፍ 
+
+ሩ፤በአንተ፣ፍርሃቶሙ። 
+
+
+Galla besiegen konnten, wo 
+wir ihnen doch in Bezug auf 
+die Kriegsausrüstung überlegen 
+waren?! Einige haben gesagt: 
+«Der Herr hat das um unserer 
+Sünden willen zugelassen.» An- 
+dere gibt es, welche gesagt 
+haben: Die Ursache ist die 
+Theilung unseres Volkes in 
+zehn Classen, (von welchen 
+neun) nicht in den Kampf zie- 
+hen und sich ihrer Feigheit 
+nicht schämen und nur die 
+zehnte kämpft und sich schlägt, 
+so gut sie es vermag. Wenn 
+auch unsere Zahl gross ist, so 
+sind doch der kriegsfähigen 
+Männer wenige und Viele, die 
+nicht zu Felde ziehen. Eine 
+dieser (zehn Classen) ist die 
+der Mönche, welche nicht zu 
+zählen sind; die Einen werden 
+Mönche von Kind an, wenn 
+sie die Mönche dazu überreden 
+zur Zeit des Schulbesuches, 
+wie der Schreiber dieser Chro- 
+nik und die seinesgleichen; die 
+Anderen werden Mönche aus 
+Furcht vor dem Kriege. Eine 
+andere Classe nennt sich Deb- 
+tera, sie studiren die Schrift 
+und alle priesterlichen Ange- 
+legenheiten. Sie klatschen und 
+
+
+ወይነሥኡ፡አርአያ፣፡እምሌዋ 
+ውያን፣ወእምካሀናት ፤ዘውእቶ 
+ሙ ፥፣ደቂቀ፡አሮን። 
+ሣልስ፤ነገድ፣፡ይሰመዩ፣ዣን፡፤ 
+5 ሕጻና፣፡ወዣን፣መአሠሬ። 
+የዐቅቡ፣ፍትሐ፤ወይትዐቀቡ፣ 
+እምተጻብኦ። 
+ራብዕ፣ነገደ፣ደጋፎች፣ዘአን 
+ስትያ፤ወመኳንንት ፡ወዌዛዝር፣፤ 
+19 ዕደው፣ኀያላን ፡፣ወወራዙት፣ጽ 
+ኑዓን፣ኢይቀርብ፤ኀበ፡ጸብእ፣፡ 
+ወይብሉ። 
+ወዓልያነ፣አንስት፣፤ንሕነ። 
+ኃምስ፣ነገድ፣ይሰመዩ፤ሽሸማ 
+15 ግሌ፣ወጊዜ፣ወበዓለ፡ርስት፣ይ 
+ከፍሉ፤ምድሮሙ ፡ ለመስተገብ 
+ር፤ወይኤዝዝዎ፣ወኢየኀፍሩ፤ 
+በእንተ፤ፍርሃቆቶሙ። 
+ሳድስ፤ነገድ፣መስተገብራን፤ 
+9 ወይውዕሉ ፡ ኀበ ፡ገራሀት፣ወአ 
+ልቦሙ፣ኀልዮ፣ለተጻብኦ። 
+
+
+trampeln Beifall mit Händen 
+und Füssen, schämen sich aber 
+nicht ihrer (Kriegs)furcht. Sie 
+nehmen zum Vorbild die Le- 
+viten und Priester, die Kin- 
+der Aarons. Die dritte Classe 
+nennen sich Zan Hasana und 
+Zan Ma’asare,!) sie hüten das 
+Recht und hüten sich, zu käm- 
+pfen. Die vierte Classe bilden 
+die Dagafo& der Weiber,?) der 
+höchsten Beamten und Prin- 
+zessinnen, starke, kräftige Leute 
+im besten Mannesalter; sie hal- 
+ten sich ferne vom Kampfe 
+und sprechen: Wir bewachen 
+die Weiber! Die fünfte Classe 
+nennt man Sachverständige?) 
+und Aelteste*) und Erbherren. 
+Sie vertheilen ihre Lünder un- 
+ter die Arbeiter (zur Beacke- 
+
+
+1) Nach d’Abbadie's ambarischem Wörterbuch bedeutet Zan 
+Mäsare «/’'un des offieiers du roi», Mäsare Serag «ያዝክ des grands juges», 
+desgleichen Zan Hasan «Tun des offieiers de la maison royales. Die 
+ursprüngliche Bedeutung war jedenfalls «Herr der Bande» und «Herr 
+
+
+der Eisen», 
+
+
+2) Nach der brieflichen Mittheilung des Herrn Flad sind diese 
+Dagafo& meist grosse Münner, welche die Frauen beim Reiten auf 
+Maulthieren unterstützen und die Schirme über ihnen halten. 
+
+2) Der Portugiese Alvarez verstand darunter noch Adelige, 
+d’Abbadie (Wörterbuch 216) «vieillard, ancien, prud’homme, arbitrer, 
+
+
+Flad, «verstündige ültere Münners. 
+
+
+*) Hier ist vermuthlich ein በዓለ ausgefallen. 
+
+
+3* 
+
+
+ሳብዕ፤ነገድ፤፣እለ፡፣ይትበቀዑ፤ 
+በነጊድ፡ወይረብሑ፤ለርእሶሙ። 
+ሳምን ፣ነገድ ፡ጠቢባን ፡ነሀብ 
+ት ፤ወጸሐፍት፣ወሰፋይያን፣ወ 
+› ጸረብት። 
+ወእለ፣ይመስልዎመ። 
+ኢያአምሩ፡ተጻብኦ። 
+ታስዕ፣ጾታ፣አዝማሮቺ፡፤ወበ 
+ዓለኗቀንድ፣!ወበዓለ፣|ከበሮ፣ወ 
+10 በዓለ፣በገና፣እለ፣ይሬስይዎ፤ተ 
+ግባረ፣ለስኢል። 
+ይባርክዎ ፡ለዘወሀቦሙ፣ወይ 
+ሁብዎ፤ስብሐተ፡፤ብጡለ፤[ወ)ው 
+ዳሴ፣፤ፅሩዐ። 
+15 ወለእመኒ፣፤ ረገምዎ፣ለዘከል 
+ኦሙ። 
+ኢይከዎኖ፣ዕዳ፤እስመ፣ይብ 
+ሉ፣ሕግ።፣ብነ። 
+ወነዋኀ ፡ይረኅቁ፣አምጸብእ። 
+50: ዓሥራይ፤ጾታ፡አእለ፤ይእኅዙ፣፤ 
+ዙናተ፤፡ወወልታ፤ወአለ፡ይክሉ፣ 
+ተጻብኦ ፣ወይተልዉ፤አሠረ፤ን 
+ጉሥ፣ለረዊድ። 
+ወበእንተ፣ውኅደቶሙ፤ለእ 
+35 ሉ፣ጠፍአት፣፤ሀገርነ። 
+
+
+rung) und befehlen ihnen, aber 
+ihrer Feigheit schämen sie sich 
+nicht. 
+
+Die sechste Abtheilung bil- 
+det die arbeitende Classe; sie 
+bleiben bei ihrer Feldarbeit, 
+und es fällt ihnen nicht ein, 
+zu kämpfen. Die siebente 
+Classe sind solche, die aus 
+dem Handel Nutzen ziehen und 
+sich bereichern. Die achte 
+Classe bilden die Techniker, 
+die Handwerker, die Schrei- 
+ber, die Schneider, Zimmer- 
+leute u. dgl., und die verstehen 
+nichts vom Kriegführen. 
+
+Die neunte (18886 sind die 
+Sänger, Pfeifer, Trommler und 
+Geiger, die den Bettel zu ihrem 
+Geschäft machen;?) sie seg- 
+nen, die ihnen (etwas) geben, 
+und überhäufen sie mit eitlen 
+Lobpreisungen und leeren Ruh- 
+mesworten; wenn sie aber den, 
+welcher ihnen nichts geben will, 
+verfluchen, so gereicht es ihm 
+nicht zur Schuld, denn sie sa- 
+gen: Das ist bei uns Brauch! 
+Auch diese sind weit entfernt 
+
+
+1) Ueber diese «Musikbanden, welche in Abessinien herumziehen 
+
+
+um sich Geld zu verdienen» schreibt mir Flad: 
+
+
+«Sie wollen keine 
+
+
+Bettler sein, das wäre Ehrenkränkung für sie; im Grunde aber sind sie’s 
+
+
+doch.» 
+
+
+ጋላሰ ፡ አልቦ ፡ በኀቤሁ ፡እም 
+እሉ፪ጾታ ፡እለ፣ዘከርናሆሙ፣ 
+ወኩሎሙ፡ይክሉ፣ጸብአ፣፤እም 
+ንእሱ፣0እስከ፣ዐቢዩ። 
+በእንተዝ፣ያጠፍአነ፣ወይቀ 
+15 ትለነ። » 
+ወለአለሰ፣ይብሉ። 
+ይቀትለነ፣በትእዛዘ፣እግዚአ 
+ብሔር፤ነሥኡ፣፡ምክንያተ፣እም 
+ተመውኦተ፡፤ደቂቀ፤እስራኤል፣ 
+20 ወ[አጥፍኦቆሙ፣በእደ፣ነገሥ 
+ተ፡ፋርስ፡ወበቢሎን፣፡ወይብሉ። 
+እመሰ፣መስተጻብእ፣ይመው 
+እ፡መኑ፡እምሰአለ፣ረድኤተ፤እግ 
+ዚአብሔር ፤ክቡር፣ወልዑል። 
+ወእመኒ ፡ ብዙኅ ፡ይመውኦ፣፤ 
+ለውጉድ። 
+እምኮነ፣ብጡለ፣ቃለ፣መጽ 
+ሐፍ፡ዘይቤ፣፤8ያነትዕዎሙ፤ለ፣ 
+፲፻፣ወክልኤቱ፣ይሰድድዎሙ፣ 
+30 ለእልፍ። 
+ወለእአመ፡አሙን፣ቃሎሙ፡ 
+ለመስተጋእዛን ፡ ቀዳማውያን ፤ 
+
+
+10 
+
+
+25 
+
+
+37 
+
+
+davon, in den Krieg zu ziehen. 
+Die zehnte Classe sind diejeni- 
+gen, welehe zu Speer und Schild 
+
+
+-greifen, sich aufs Kämpfen ver- 
+
+
+stehen und den Spuren des 
+Königs folgen, um (den Feind) 
+anzugreifen, und weil dieser 
+so wenige sind, ist unser Land 
+verheert worden. 
+
+Bei den Galla aber existiren 
+jene (ersten) neun Classen nicht, 
+die wir aufgezählt haben, und 
+Alle verstehen sich aufs Käm- 
+pfen von dem Kleinsten bis 
+zum Grössten. Deshalb schla- 
+gen sie uns und richten uns 
+zu Grunde. Diejenigen aber, 
+welche sagen, dass sie uns auf 
+Befehl des Herrn besiegen, be- 
+gründen (ihre Ansicht) mit der 
+Niederlage der Kinder Israels 
+und ihrer Aufreibung durch 
+die Könige Assyriens und Ba- 
+bylons und sprechen: Wenn 
+der Sieg (immer) dem Kriegs- 
+tüchtigen zufiele, wer würde 
+dann (noch) um die Hilfe Got- 
+tes, des Allmächtigen und Aller- 
+höchsten, bitten? Und wenn 
+(immer) die grosse Zahl die 
+geringe Zahl besiegte, so wäre 
+ja eitel das Wort der Schrift, 
+
+
+welches lautet: «Einer wird 
+
+
+Ale 
+
+
+አው፡፤ለዳኅራውያን፣አንትሙ፡፤ tausend in die Flucht schlagen 
+ታአምሩ፣፤እማእምራን። und zwei werden zehntausend 
+verjagen.“'). Ob die Ansicht 
+der ersteren Partei oder der 
+letzteren die richtige sei, wer- 
+det ihr von den Weisen er- 
+
+fahren. 
+ንግበእኬ፤ኀበ፤ዜናሁ፤ለጋላ። Kehren wir zu unserem Be- 
+ለንኡስ፤ሕፃናት፣ይሰምዮሙ፡፤ richte über በ16 Galla zurück. 
+10 ሙጨዕ፣፤ወለአለ፣ይልህቁ፤ይሰ Die ganz kleinen Kinder nen- 
+ምዮሙ፣፤ኤልማን። nen sie Muda'?) und die etwas 
+ወእምነ ፡ አሉሂ፤፡እለ፤፡ይልሀ grösseren Elınan.°) Solche der 
+ቁ፣ይሰምዮሙ።፣ጐርበእ። Letzteren, die etwas älter ge- 
+ዘይወጥኑ ፡ተጻብኦ። worden sind, heissen sie Gur- 
+15 ወለወራዙት፤አለ፣፤ኢተገዝሩ፤ ba) Diejenigen, welche an- 
+ይሰምዮሙ፣፤ቂፄንደለ። fangen, (mit) zu kämpfen, und 
+[ወለ]አለ፣፤ይገብሩ ፡ሥዕርተ፤ die jungen Männer, welche 
+ርእሶሙ፣ከመ፣ሐራ፡፤ይሰምይ moch nicht beschnitten sind, 
+ዎ፥፤ከለለ። nennen sie (10ከ0818,*)- und 
+20 solche, die sich die Haare 
+nach Art der Krieger zurecht 
+machen, heissen Kalala.°) 816 
+
+
+') Ley. 26, 8. መወንምስቱ፤ እምኔክሙ ፤ ያነትፅዎሙ ፤፡ለምእተ፤ 
+ወምእት፣እአእምኔክሙ፣ያነትፅዎሙ፣፤ለእልፍ፣፤፡፡ Dillmann's Octateuch. 
+
+8) Vergl, bei Tutschek, op. eit., p. 22: mutsha a new born child as 
+long as it is suckled. Das auslautende “ayn ist ubgefallen. 
+
+5) Vorgl. Tutschek, p. 20: Uma, pl. ilmam child (in general), 
+
+#) Vorgl. Tutschek, p. 70: gurba, Knabe, Burscho etwa bis zu 
+18 Jahren. ((66ርከ1 III, 184 ragazo faneiullo, giovane impubere. 
+
+5) Vergl. Tutschek, p. 66 ፥ gondala, 11619, tapferer Krieger oder Jüger. 
+
+®) Vielleicht ist dieser Ausdruck Kalala verwandt mit Tutschek’s 
+kalala, p.31 (Aman gab diesen Namen jeder Schlingpflanze, Winde 
+ete,) und bezieht sich auf den Büschel Haare, den die Krieger trugen. 
+
+
+ወለአመ፣ቀተሉ፣ሰብአ፣ወነ 
+ጌ፤ወአንበሳ፣ወአርዌ፣ወሐሪሰ፣ 
+ወጐሽሸ።፣ይትላጸዩ፡!አንበለ፣ ንስ 
+ቲተ፣ሥዕርተ፣0መእከለ ፣፡ድማ 
+5 ሐሙ።»። 
+ወዘኢቀተለሰ፣ኢይትላጸይ። 
+ወለአመ፣ነሥኡ፣አንስቲያ፣ 
+ኢይትላጸዩ ፡እመ ፡ኢቀተሉ። 
+
+
+10 
+
+
+ወበመዋዕለ፣ሙልኣታ፣በል 
+ዑ፡ጐሸ። 
+ወይቤሉ ፡ እመሰ ፡በላዕናሁ፣፤ 
+15 ላሀም፣ውእቱ ፡አንትላጸይ፣፤ር 
+አሰነ፡እመ፣ቀተልናሁ። 
+ወመንፈቆሙ፡፤ይቤሉ፤በቃለ፡ 
+ትዕይርት ፡ኢንትላጸይ ፡ርእሰነ፤ 
+አመ፣ቀተልናሆሙ፤ለሰብአ፤ሸ 
+© ዋ፡ወአምሐራ፣፤አስመ፣አልህም 
+ት፤ነባብያን፡፤እሙንቱ፤፣ወኢይክ 
+ሉ፡ተጻብኦ። 
+
+
+ወኩሉ፣ጋላ፣አመኒ፡ሉበ፣ወ 
+እመኒ፣ቄንደለ፣ዘኢነሥኡ፣ብ 
+Ahr: Php: be = 
+30 
+
+
+89 -- 
+
+
+scheeren sich (nämlich) bis auf 
+einen Büschel oben auf dem 
+Kopfe, wenn sie einen Men- 
+schen, Elephanten, Löwen, 
+Schlange, Nashorn oder Büffel 
+‚getödtet haben. Weraber (noch) 
+nichts erlegt hat, scheert sich 
+nieht, selbst solche, die ver- 
+heiratet sind, thun es nicht, 
+so lange sie nichts getödtet 
+haben. 
+
+Zur Zeit Mul’ata's verzehr- 
+ten (Galla-Krieger) einen Büf- 
+fel und sprachen: «Wenn wir 
+den verzehren, so ist das (für 
+uns) ein Ochse, und wir schee- 
+ren uns nicht, weil wir ihn 
+getödtet haben!» Da sagte die 
+Hälfte von ihnen höhnend: 
+«Und wir werden unsere Häup- 
+ter nicht mehr scheeren, wenn 
+wir Schoaner oder Amharer 
+tödten, denn sie sind (für uns 
+nur) sprechende Ochsen und 
+verstehen nicht, sich zu schla- 
+gen.» 
+
+Alle unverheirateten Galla, 
+sie seien Luba oder Qondala, 
+heissen @ero'!) und wohnen 
+in einem Hause die Qero der 
+
+
+1) Vergl. Tutschok, p. 46: gero, junger unverheirateter Mann unter 
+
+
+25 Jahren, 
+
+
+— 40 
+
+
+ወየኀድሩ፤በ፳፤ቤት፤ቄሮ፣ 
+ዘሉበ፣ምስለ፣ሉበ። 
+ወዘቁንደለ፣፤ምስለ፣፤ቁንደለ፣፤ 
+ወቄሮ፣፤ዘገበረ፤ምስለ ፡፤ገበረ። 
+5. ወይሠየሙ፣መጠነ፤፡፳፤ሰብ 
+እ፤፡አምኔሆሙ፤ለሰሪሐ ፡ሰዬላ፣ 
+ወይሰምይዎሙ፡አጅርቱ። 
+ዓዲ ፡ ይሠይምዎሙ ፡ ለጠቢ 
+ሐ፤አልሀምት፣ወይሰመዩ፣፤ቀል 
+10 ቻ፣ወክዕበ፣ይሠይሙ፤፪ሰበአ፣ 
+እለ፣ይጠብሱ፣ሥጋ፣ወይመት 
+ሩ፡ወይሁቡ፣፤ለዙሉ፡፤ዕሩየ፤ለ 
+ለምታር፣ወይብልምሙ።፣ዋጆ። 
+ወክዕበ፣ይሠይሙ፣፤ሮጽዕዳወ፣ 
+15 ለሐሊበ፣ወትወት፣እምአልሀም 
+ት፣ኩሉ፣፤ወስሞሙ።፡ሐለብዶ። 
+
+
+Luba bei den Luba, die der 
+Qondala bei den Qondala und 
+die Gurba bei den Gurba.t) 
+
+Bis zu Zwanzig von ihnen 
+erhalten den Auftrag, ein vier- 
+eckiges Haus?) zu bauen, und 
+die nennt man Agertu.?) Ausser- 
+dem (wählen sie [፻] Männer 
+und) übertragen ihnen das 
+Amt, Rinder zu schlachten, 
+und nennen sie Qaliea;*) zwei 
+Männer ernennen sie, die das 
+Fleisch rösten und Jedem ein 
+gleich grosses Stück abschnei- 
+den und zutheilen, und die 
+nennen sie Wago.°) Fünf Mäün- 
+
+
+3) Im Text steht ግበረ, welches aber keinen Sinn ergiebt. 
+
+®) Das Wort ሰቄላ, welches sich bei d’Abbadie nicht findet, be- 
+deutet nach Flad «ein längliches (nicht rund) gebautes Haus>. Ab- 
+bildungen der runden Hütten der Galla bringt Krapf, op. eit. und Pau- 
+litschke, op. eit. Ueber grössere, für mehr als eine Familie bestimmte 
+Bauten, finde ich in der modernen Litteratur über die Galla nichts. 
+
+2) Bei Tutschek, p. 4: adyera und idjera, ein Dach auf das Haus 
+machen, p. 17 bauen, und das Reflexivum idyarada, ein Haus, eine 
+Hütte bauen, Adyertu, Dachdecker; über die Bildung der Nomina 
+agentis auf -18, deren noch mehrere hier vorkommen, vergl. Prätorius, 
+Zur Grammatik der Galla-Sprache, Berlin 1898, p. 210. 
+
+4) Bei Tutschek calitsha, eine eigene Gattung Opferpriester und 
+ealiti, Opferpriesterinnen, Eigentlich Schlächter von cala, schlachten, 
+Somali gal, schlachten. Krapf, op. eit., p. 76 sagt von den «Kalijas»: 
+they are their magicians, exoreists and medicine-men. 
+
+5) Die Wurzel wada (vergl. Tutschek, p. 147) bedeutet braten, 
+Ob das dort erwähnte wadjo, eine Unterabtheilung der Secte (sie) der 
+Boranna-Galla, zu der auch Aman gehört, mit unserem «wajo» etwas zu 
+thun hat, ist nieht sicher zu stellen, 
+
+
+ዓዲ፡ይሠይሙ፤፪ለቀዲሐ፤ወ 
+ትወት፣ወይሁቡ፣፤ለለ8፡8በመ 
+ስፈርት፣ወስሞሙ፣ጭጊቶ። 
+ወከዕበ ፣ይሠይሙ፡፣የ ሰበአ፣ 
+5 ለአእትዎ፣አልሀምት፣ወየኅሥ 
+ጮ፥ዘጠፍአ፤፡ ወስሞሙ፣፡በር 
+በዶ። 
+
+
+10 
+
+
+ወዓዲ፣፤የኀርዩ፣እምኔሆሙ፣፤ 
+ወይሠይምዎሙ ፡ዕደወ ዛቫከመ፤ 
+15 ይገሥጹ፣ወይቅሥፉ፤ለዘየሐው 
+ር፤ኀበ፣ብእሲት፣ወይሰመዩ፤ጎ 
+ch» 
+ወዝንቱ፣ተዓቅቦቶሙ፡፤አኮ፣ 
+ለጽድቅ ፡[አላ ከመ : ይኩኑ፣፤ 
+50 ንቁሃነ ፡፣ወትጉሃነ ፡ለተቃትሎ። 
+ወዘሰ፣አውሰበ፣ይቴሊ፡ለዘ 
+ያሠምራ፡፣ለብእሲቱ። 
+
+
+41 
+
+
+nern geben sie das Amt, alles 
+Vieh zu melken, und ihr Name 
+ist Halabdo;!) zwei beauftra- 
+gen sie, die Milch auszuschö- 
+pfen und jedem Einzelnen von 
+ihnen nach bestimmtem Masse 
+zu geben, die heissen Öehito.#) 
+Drei Männer müssen das Vieh 
+heimtreiben (von der Weide) 
+und was abhanden kommt 
+suchen; deren Benennung: ist 
+Barbado.®) 
+
+Ausserdem erwählen sie und 
+ernennen sie (Männer), um 
+solche, die mit Weibern ver- 
+kehren, zu strafen und zu 
+schlagen, und nennen sie Gor- 
+so,‘) und diese Vorkehrung 
+bezweckt nicht etwa (grössere) 
+Sittlichkeit, (sondern) dass die 
+(Jünglinge) wachsam und be- 
+dacht aufs Kämpfen sein sol- 
+len. Denn wer verheiratet ist, 
+
+
+1) Halabdo scheint gerade so wenig Galla, wie das ንቁሥ፣ 1 des 
+Gregor bei Ludolf Lib. I, 685. 15. Der Chronist hat wohl hier aus der 
+Noth eine Tugend gemacht, und aus dem gut semitischen ሐለበ ein 
+Galla Nomen agentis zu bilden versucht. Man vergleiche jedoch Reinisch, 
+Bedanye-Sprache II, p. 33 unten und beobachte die für einen Abessinier 
+auffällige Beobachtung der Galla-Lautregel: t nach ዕ wird zu d. Prü- 
+
+
+torius, op. eit. 35. 
+
+
+5) Cehito müsste nach unserem Text «zertheilen» bedeuten. Tu- 
+tschek führt ein Verbum ichita an, zerreissen, sich zertheilen. 
+
+5) Von barbada, suchen; Tutschek, ሀ. 131. 
+
+4) Bei Tatschek gorza, ermahnen, warnen, p. 64, op. eit. 
+
+
+ወክዕበ፣ይሠይሙ ፡፤መጠነ፤ 
+፲ ሰበእ፣ለነዲአ፣አልሀምት፣፤ወ 
+5 ስሞሙ፣፡ጠውቱ። 
+ወዘፈቀደ ፡ እምኔሆሙ ፤ ነሚ 
+ኦ፥፡ብአሲሷተ ፡ይትፈለጥ፣ወይነ 
+ብር፣በቤቱ፣ወይሰምይዎ፤ጅ 
+ልሂኮ። 
+0 ወለአረጋዊ፣ይሰምይዎ፣ወል 
+ጐዶ። 
+ውአቱ፡ኢያዐርፍ፤ለተጻብኦ፤ 
+ለእመ፣ኢደክመ፣በሕቁ፣ከመ፣ 
+አኀዊነ፣፤ዘጳ፤ወኣበ፣ሐራ። 
+15 
+
+
+ወአልቦ፤፡ከማነ፤ዘረከበ፣ፀረ፣ 
+ዘይተግህ፣፤ለገቢረ፣፡እኩይ። 
+ወአልቦ፣ከማነ፣ዘረከበ፣እግ 
+50 ዚአ ፡ወንጉሠ፣፤ዘይተግህ፣፤ለገቢ 
+ረ፤ሠናይ። 
+እግዚአብሔር ፡ይዕቀቦ፣ለገ 
+ብሩ። 
+
+
+der ist auf das bedacht, was 
+seinem Weibe gefällt. 
+
+Dann ernennen sie bis zu 
+zehn Männern zu Rindertrei- 
+bern, und die heissen «Taw- 
+tu».!) Wer sich aber verhei- 
+raten will, der trennt sich (von 
+den Junggesellen) und wohnt 
+im eigenen Hause unter dem 
+
+
+Namen eines «Gelhiko».?) Die 
+
+
+Greise nennen sie «Wale- 
+gudo».?) 816 lassen nicht ab 
+vom Kriegshandwerk, so lange 
+sie nicht ganz schwach sind, 
+wie unsere Brüder, die Zapa (?) 
+und Aba Hara.t) 
+
+Und Keiner hat einen Feind 
+gefunden wie wir, der (so) 
+drauf aus ist, Böses zu thun, 
+und Niemand hat einen Herrn 
+und König gefunden, der (so) 
+drauf aus wäre, Gates zu thun, 
+wie wir. Möge Gott seinen 
+Diener schützen! 
+
+
+3) Dass wir es hier wieder mit einem Nomen agentis auf -Zu zu 
+thun haben, ist klar. Eine Verbalwurzel taw finde ich aber nirgends. 
+5) Vielleicht nach Tutschek’s Schreibweise: dyal-hico (vergl. 
+Seite 82 und 198) ein Relativsatz mit der Bedeutung: Einer der sich 
+
+
+zurückzieht, ein Reservist. 
+
+
+5) Wale gudo, einer der des Ruhmes voll, der ehrwürdig ist. 
+
+
+Siehe bei Tutschek ware und guda. 
+
+
+*) Hier scheint der Text verstümmelt. 
+
+
+nad 
+
+

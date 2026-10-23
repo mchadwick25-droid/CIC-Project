@@ -14,3 +14,14 @@ assignments:
       Xavier-Ignatius correspondence and Xavier's own letters from the
       India/Fishery Coast and Malacca/Moluccas mission. Companion to
       Vol. II (Japan/China years).
+
+  - work: The Life and Letters of St. Francis Xavier, Vol. I
+    author: francis-xavier
+    locus: Cranganor college and the Malabar priests at about lines 15224, 15733, 15765, 16878, 17063
+    atlas_ids:
+    - st-thomas-christians-under-portuguese-pressure-d
+    role: antecedent
+    confidence: provisional
+    note: Xavier in the 1540s on the Cranganore college and the 'Malabar priests'. Same place, a half-century
+      before the window; antecedent to the Jesuit position at Diamper. Not read through.
+    row_id: francis-xavier_life-and-letters-v1_coleridge1872--the-life-and-letters-of-st-francis-xavier-vol-i-2

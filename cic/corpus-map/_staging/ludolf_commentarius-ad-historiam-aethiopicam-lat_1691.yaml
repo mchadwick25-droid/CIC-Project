@@ -1,0 +1,40 @@
+source_file: ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt
+authors_ruled:
+  galawdewos:
+    kind: metadata-omission
+    evidence: >-
+      The Confession is printed inside Ludolf's Commentarius as Numerus XXIX, headed 'Confessio Fidei
+      Claudii Regis Aethiopiae' (file line 24072). Claudius is the Latin name for Emperor Galawdewos.
+      The author is the emperor named in the heading; the file-name prefix is Ludolf, the editor.
+assignments:
+- row_id: >-
+    ludolf_commentarius-ad-historiam-aethiopicam-lat_1691--confession-of-faith-of-king-claudius-gal
+  work: Confession of Faith of King Claudius (Galawdewos) of Ethiopia, Ge'ez with Ludolf's Latin
+  author: galawdewos
+  locus: >-
+    Numerus XXIX, 'CONFESSIO FIDEI CLAUDII REGIS AETHIOPIAE', at file line 24072; the discussion of whether
+    it is genuine at 27531 ('De Confessione Fidei Regis Claudii an sit legitima')
+  atlas_ids:
+  - ethiopian-christianity-gragn-to-fasilides
+  role: tradition
+  confidence: assigned
+  note: >-
+    The confession of Emperor Galawdewos (Claudius), which the census dates to 1555, in Ludolf's Latin
+    with the Ge'ez printed beside it. The emperor's own statement of faith, so a primary voice of the
+    world. Second witness for exact wording: the Ge'ez script is noise in the OCR and the Latin has f
+    for s, so any quotation must be checked against the page image. Ludolf himself weighs whether it is
+    genuine (see the locus); the Confession's authorship and date belong to the world's builders to confirm,
+    not to this note.
+- row_id: >-
+    ludolf_commentarius-ad-historiam-aethiopicam-lat_1691--commentarius-ad-suam-historiam-aethiopic
+  work: Commentarius ad suam Historiam Aethiopicam (Ludolf, 1691), whole work
+  author: ludolf
+  locus: Whole work; the chapter index at the front; Latin commentary on the Historia Aethiopica
+  atlas_ids:
+  - ethiopian-christianity-gragn-to-fasilides
+  role: context
+  confidence: provisional
+  note: >-
+    Ludolf's seventeenth-century scholarly commentary on Ethiopia, its church and its history. Outside,
+    scholarly witness, later than the world; useful as the printed source of the Confession. Placed on
+    subject without reading beyond the Confession; OCR is a second witness.

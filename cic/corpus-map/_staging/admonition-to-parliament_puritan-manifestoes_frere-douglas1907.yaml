@@ -1,0 +1,71 @@
+source_file: admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt
+
+assignments:
+  - row_id: admonition-to-parliament_puritan-manifestoes_frere-douglas1907--an-admonition-to-the-parliament-1572
+    work: "An Admonition to the Parliament (1572), with its address To the Reader and the annexed View of Popish Abuses yet remaining in the English Church"
+    author: admonition-to-parliament
+    locus: "from TO THE READER at file line 1553; running heads AN ADMONITION TO THE PARLIAMENT from line 1867; the View of Popish Abuses follows within the same reprint, ending before AN EXHORTATION TO THE BYSHOPS at line 4203"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: assigned
+    note: >
+      The founding manifesto of the Elizabethan Puritan movement, in the
+      1572 spelling: the demand for a preaching ministry, discipline by
+      elders, and the removal of 'popish abuses' from the Prayer Book.
+      The editors attribute it to John Field and Thomas Wilcox, who were
+      imprisoned for it; the slug is the work's own name because the
+      tract was issued anonymously. Primary voice; OCR clean.
+  - row_id: admonition-to-parliament_puritan-manifestoes_frere-douglas1907--an-exhortation-to-the-bishops-1572
+    work: "An Exhortation to the Bishops to deal brotherly with their brethren, and An Exhortation to the Bishops and their Clergy (1572)"
+    author: admonition-to-parliament
+    locus: "from AN EXHORTATION TO THE BYSHOPS at file line 4203 to A SECOND ADMONITION at line 5135"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: assigned
+    note: >
+      Two short anonymous tracts printed with the Admonition's later
+      editions, answering the bishops' first reaction; same voice and
+      press as the Admonition. Primary voice; OCR clean.
+  - row_id: admonition-to-parliament_puritan-manifestoes_frere-douglas1907--a-second-admonition-to-the-parliament-1572
+    work: "A Second Admonition to the Parliament (1572)"
+    author: admonition-to-parliament
+    locus: "from A SECOND ADMONITION TO THE PARLIAMENT at file line 5135 to CERTAINE ARTICLES at line 8252"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: assigned
+    note: >
+      The fuller presbyterian programme (consistory, conference, synod)
+      issued after the first Admonition. Anonymous as printed; the
+      editors review and doubt the old attribution to Thomas Cartwright,
+      so the work keeps the corporate slug. Primary voice; OCR clean.
+  - row_id: admonition-to-parliament_puritan-manifestoes_frere-douglas1907--certaine-articles-1572
+    work: "Certaine Articles, collected and taken (as it is thought) by the Bishops out of a little book entitled an Admonition to the Parliament, with an answer to the same (1572)"
+    author: admonition-to-parliament
+    locus: "from CERTAINE ARTICLES at file line 8252 to the appendix at line 8939"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: assigned
+    note: >
+      The Puritan authors' point-by-point reply to the bishops' extracted
+      charges, printing the charge and the answer together; the
+      appendix that follows (a 1572 bill, letters of Speaker Bell and
+      Bishop Sandys, the 1573 proclamation, lines 8939 onward) is the
+      establishment's own paper trail and is not separately rowed. OCR
+      clean.
+  - row_id: admonition-to-parliament_puritan-manifestoes_frere-douglas1907--an-admonition-to-the-parliament-1572-2
+    work: "An Admonition to the Parliament (1572) and the Second Admonition"
+    author: admonition-to-parliament
+    locus: "as the first and third rows (file lines 1553-8252)"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: context
+    confidence: assigned
+    note: >
+      The settlement read from its sharpest internal opponents: the
+      documents the bishops answered and Parliament proscribed in 1572-73
+      (the appendix prints the proclamation). Context for that entry, by
+      the corpus's 'contemporary opponent' rule.

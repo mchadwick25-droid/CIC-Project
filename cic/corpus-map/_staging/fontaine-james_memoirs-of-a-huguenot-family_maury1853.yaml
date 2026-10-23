@@ -1,0 +1,77 @@
+source_file: fontaine-james_memoirs-of-a-huguenot-family_maury1853.txt
+
+authors_ruled:
+  henry-iv-france:
+    kind: metadata-omission
+    evidence: >
+      Not CCEL-derived markup. The Edict of Nantes in the appendix opens
+      "Henry, by the Grace of God, King of France and Navarre" and is
+      dated "Given at Nantes, April, 1598" in the file itself; a royal act,
+      so a slug for the issuing king, on the pattern of corporate and
+      state authors already in the map.
+  louis-xiv-france:
+    kind: metadata-omission
+    evidence: >
+      Not CCEL-derived markup. The Edict of Revocation in the appendix
+      opens "Louis, by the grace of God King of France and Navarre" and
+      the file heads it "Edict of the King, which revokes that of Nantes"
+      (Fontainebleau, October 1685).
+
+assignments:
+  - row_id: fontaine-james_memoirs-of-a-huguenot-family_maury1853--autobiography-of-the-rev-james-fontaine
+    work: "The autobiography of the Rev. James Fontaine (b. 1658), written for his children, chapters I-XVI (Ann Maury's translation)"
+    author: fontaine-james
+    locus: "CHAPTER I at file line 535 to line 9247 (the Journal of John Fontaine begins at 9248)"
+    atlas_ids:
+      - the-huguenots
+    role: tradition
+    confidence: assigned
+    note: >
+      A pastor's son from Saintonge on his father's ministry under the
+      Edict, his own imprisonment, the dragonnades and his escape to
+      England in 1685; then his life in the refuge. English translation
+      only; the French manuscript is a family document and no printed
+      French original was found. The census's "refugee narratives" in
+      a clean scan.
+
+  - row_id: fontaine-james_memoirs-of-a-huguenot-family_maury1853--autobiography-of-the-rev-james-fontaine-2
+    work: "The autobiography of the Rev. James Fontaine (b. 1658), written for his children, chapters I-XVI (Ann Maury's translation)"
+    author: fontaine-james
+    locus: "CHAPTER I at file line 535 to line 9247"
+    atlas_ids:
+      - church-of-the-desert-huguenots
+    role: tradition
+    confidence: provisional
+    note: >
+      The refuge in England and Ireland after 1685 fills the later
+      chapters; the first-generation refugee experience that world's
+      census names. Placed on window; no vendored sources there yet.
+
+  - row_id: fontaine-james_memoirs-of-a-huguenot-family_maury1853--the-edict-of-nantes-1598-english
+    work: "The King's Edict, given at Nantes, April 1598 (the Edict of Nantes, Ann Maury's translation), with the following royal declarations"
+    author: henry-iv-france
+    locus: "APPENDIX at file line 17046; the Edict from line 17052 to the Revocation heading at line 19607"
+    atlas_ids:
+      - the-huguenots
+    role: context
+    confidence: assigned
+    note: >
+      The crown's legal settlement of the churches' existence, in an 1853
+      English rendering: the outside, civil frame of the whole window.
+      Context, not the movement's own voice. No earlier public-domain
+      English printing of the full Edict was found on a reachable host.
+
+  - row_id: fontaine-james_memoirs-of-a-huguenot-family_maury1853--the-edict-of-revocation-1685-english
+    work: "Edict of the King, which revokes that of Nantes (the Edict of Fontainebleau, October 1685, Ann Maury's translation)"
+    author: louis-xiv-france
+    locus: "from file line 19607 to the end of the appendix"
+    atlas_ids:
+      - the-huguenots
+      - church-of-the-desert-huguenots
+    role: context
+    confidence: assigned
+    note: >
+      The act that closes this world's window and opens the Desert's. A
+      1686 London printing of the same edict in English exists
+      (archive.org edictoffrenchkin00unknuoft) but its OCR reads f for
+      long s throughout; this clean 1853 rendering is vendored instead.

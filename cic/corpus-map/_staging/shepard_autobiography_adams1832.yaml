@@ -1,0 +1,34 @@
+source_file: shepard_autobiography_adams1832.txt
+
+assignments:
+  - row_id: shepard_autobiography_adams1832--the-autobiography-of-thomas-shepard
+    work: "The Autobiography of Thomas Shepard (written for his son, c. 1646)"
+    author: shepard
+    locus: "Shepard's own text follows Adams's Advertisement (file line 81), running heads MEMOIRS OF / THOMAS SHEPARD, from about line 99 to about line 2209; Adams's additional notices follow to the end of the file"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: assigned
+    note: >
+      The Cambridge, Massachusetts minister's own account of his
+      conversion at Emmanuel College, his silencing by Laud, his flight
+      and the crossing of 1635, printed in his spelling from the
+      manuscript. The census names Shepard's conversion-narrative
+      material as a first-tier source; this is his own narrative, not
+      the congregation's relations (those, in the McGiffert and
+      Selement-Woolley editions, are in copyright; see the dossier).
+      Primary voice; OCR clean.
+  - row_id: shepard_autobiography_adams1832--adams-s-additional-notices-of-shepard-s-life
+    work: "Nehemiah Adams's additional notices of Shepard's life and character, with a record of the gathering of the Cambridge church"
+    author: shepard
+    locus: "from about file line 2209 to the end"
+    atlas_ids:
+      - puritanism
+    role: context
+    confidence: provisional
+    note: >
+      Nineteenth-century editorial matter, filed under the volume's
+      author slug by the corpus's compiler convention; it quotes earlier
+      records (the gathering of the church, Stiles's 1772 letter) but is
+      not a seventeenth-century voice. Context only; provisional because
+      its embedded documents were not checked one by one.

@@ -1,0 +1,64 @@
+source_file: knappen_two-elizabethan-puritan-diaries_1933.txt
+
+assignments:
+  - row_id: knappen_two-elizabethan-puritan-diaries_1933--the-diary-of-richard-rogers
+    work: "The Diary of Richard Rogers (1587-1590)"
+    author: rogers-richard
+    locus: "heading THE DIARY OF RICHARD ROGERS at file line 3323, entries from Feb. 28, 1586/7, running to the heading of Ward's diary at line 6087; Knappen's Life of Richard Rogers (line 1433) is editorial"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: assigned
+    note: >
+      The Wethersfield preacher's private diary of his own spiritual
+      state, fasts, study and conferences with other ministers, printed
+      from the Dr. Williams's Library manuscript in his own spelling.
+      Primary voice, ready to quote once verified against the scan; OCR
+      clean. The same man's Seven Treatises is vendored separately
+      (rogers-richard_seven-treatises_1610.txt).
+  - row_id: knappen_two-elizabethan-puritan-diaries_1933--the-diary-of-samuel-ward
+    work: "The Diary of Samuel Ward (1595-1632), with Historical Notes from his MS. Adversaria"
+    author: ward-samuel
+    locus: "heading THE DIARY OF SAMUEL WARD at file line 6087, entries from 1595; HISTORICAL NOTES FROM DR. WARD'S MS. ADVERSARIA at line 7497; the index follows from line 8329"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: assigned
+    note: >
+      The Cambridge student's self-examining diary (pride, 'wearisomnes
+      in Godes service', sins of the day) kept at Christ's College in the
+      1590s, continued more thinly to 1632 when he was Master of Sidney
+      Sussex. Primary voice; OCR clean. The census names this diary
+      directly.
+
+  - row_id: knappen_two-elizabethan-puritan-diaries_1933--samuel-ward-at-the-synod-of-dort-in-knappen-s-life-of-ward
+    work: Samuel Ward at the Synod of Dort, in Knappen's life of Ward (1933)
+    author: knappen
+    locus: Knappen's life of Samuel Ward, file lines 2990-3003 and 3140-3150 (Ward one of the English representatives
+      at Dort in 1619, subscribed the canons, and was called by Episcopius the most learned of the English
+      divines there); Ward's own note at line 8094 that he was sent by the king to the Synod
+    atlas_ids:
+    - the-remonstrants-and-dort
+    role: context
+    confidence: provisional
+    note: 'A modern (1933) editor''s account of one English delegate to the Synod, with Ward''s own mention
+      of the mission. Secondary prose except for the Ward note; useful as a pointer to the English delegation,
+      whose letters are in the Hales file. Read at the loci given only; the diary entries themselves were
+      not read for Dort.
+
+      '
+
+authors_ruled:
+  ward-samuel:
+    kind: metadata-omission
+    evidence: >
+      The volume's own title page (file lines 84-99) names the two
+      diarists, 'Richard Rogers and Samuel Ward', with M. M. Knappen as
+      editor; the file is named for the editor because it carries two
+      authors' diaries, so neither diarist is the file-name prefix.
+      Samuel Ward (1572-1643), Master of Sidney Sussex College,
+      Cambridge, and a member of the Westminster Assembly, is identified
+      in Knappen's Life of Samuel Ward (line 2552). Richard Rogers takes
+      the slug rogers-richard, which is the file-name prefix of
+      rogers-richard_seven-treatises_1610.txt, vendored the same day.
+    from_file: knappen_two-elizabethan-puritan-diaries_1933.txt

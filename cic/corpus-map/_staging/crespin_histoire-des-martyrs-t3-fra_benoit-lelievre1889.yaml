@@ -1,0 +1,61 @@
+source_file: crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889.txt
+
+assignments:
+  - row_id: crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889--histoire-des-martyrs-tome-troisieme-livres-viii-xii
+    work: "Histoire des martyrs persecutez et mis a mort pour la verite de l'Evangile (1619 recension), Tome troisieme, Livres VIII-XII"
+    author: crespin
+    locus: "Livre VIII from file line 206, IX from 61943, X from 100385, XI from 114065, XII from 125454; Index historique from 140143; the editors' Avertissement (editorial, 1889) precedes Livre VIII"
+    atlas_ids:
+      - the-huguenots
+    role: tradition
+    confidence: assigned
+    note: >
+      The Reformed martyrology in its own French, in the volume covering
+      1559 onward: letters and confessions of the condemned set in
+      Crespin's and Goulart's partisan frame, the genre the census names.
+      Second witness for exact wording because the OCR substitutes f for
+      the old long s; readable, and the editors' notes date each notice.
+      No public-domain English translation of Crespin exists. Tomes 1-2
+      (to 1559) are not vendored.
+
+  - row_id: crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889--histoire-des-martyrs-tome-troisieme-livres-viii-xii-2
+    work: "Histoire des martyrs persecutez et mis a mort pour la verite de l'Evangile (1619 recension), Tome troisieme, Livres VIII-XII"
+    author: crespin
+    locus: "the notices on the Waldensians of Calabria (1560-61) in Livre VIII, around file lines 5220-6330 (grep 'vaudois', 'Negrin')"
+    atlas_ids:
+      - the-waldensian-reformed-union
+    role: context
+    confidence: provisional
+    note: >
+      A Genevan martyrologist's account of the Calabrian Waldensians'
+      destruction, an outside Reformed voice on that world's people.
+      Placed on the notices found by search; not read in full against
+      that world's own sources. Tome 1 of this edition (not vendored)
+      carries the Merindol and Cabrieres material of 1545.
+
+  - row_id: crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889--histoire-des-martyrs-tome-troisieme-livres-viii-xii-3
+    work: "Histoire des martyrs persecutez et mis a mort pour la verite de l'Evangile (1619 recension), Tome troisieme, Livres VIII-XII"
+    author: crespin
+    locus: "whole volume"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: context
+    confidence: provisional
+    note: >
+      Compiled and printed in Geneva by a Genevan printer; the book the
+      Reformed cities sent back into France. Placed on that relation only.
+
+  - row_id: crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889--servetists-and-blandrata
+    work: 'Histoire des martyrs (Crespin), tome 3: passage on the Servetists and Blandrata'
+    author: crespin
+    locus: running head 'afflicted by the Servetists' at file line 61682; Blandrata and his editor's note
+      at 61750 to 61816; index entries at 141433 (Blandrata) and 148959 (Servet)
+    atlas_ids:
+    - anti-trinitarian-currents-servetus-polish-brethr
+    role: context
+    confidence: provisional
+    note: 'The Reformed martyr book''s account of the troubles caused by the Servetists and Blandrata, with
+      the editor''s note on Blandrata. A hostile Reformed witness; placed after reading a few lines at the
+      loci given, not the whole passage.
+
+      '

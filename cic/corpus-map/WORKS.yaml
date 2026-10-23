@@ -207,3 +207,550 @@ works:
       internal div markers; Budge's is one of the still-unmodeled
       multi-work compilations noted under athanasius-vita-antonii above) --
       narrowing them to real loci is future work, not done here.
+
+  - work_id: perrin-histoire-des-vaudois
+    title: Histoire des Vaudois (History of the Old Waldenses and Albigenses)
+    author: perrin
+    original_language: French
+    composed: 1618-1619
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (original)
+      year: 1619
+      language: French
+      recension: Geneva 1619 printing, Part I only in the vendored scan
+      items:
+      - cic:perrin_histoire-des-vaudois-fra_1619.txt:part-i
+    - translator: the 1624 London translation (catalogued as Samuel Lennard's; not read off the vendored
+        OCR), reprinted Philadelphia 1847
+      year: 1847
+      language: English
+      recension: all three parts
+      items:
+      - cic:perrin_history-ancient-christians-valleys-alps_1847.txt:parts-i-ii-and-doctrine
+    notes: 'The French scan holds Part I only; the English holds all three parts. The 1847 volume also carries
+      Boyer''s History of the Vaudois as its Part III, which is a different work and is not part of this
+      entry.
+
+      '
+
+  - work_id: schleitheim-confession
+    title: The Schleitheim Confession (Brüderliche Vereinigung etlicher Kinder Gottes, sieben Artikel betreffend)
+    author: swiss-brethren
+    original_language: German
+    composed: 24 February 1527, Schleitheim (Schlatt am Randen)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: Heinrich Böhmer (editor)
+      year: 1910
+      language: German
+      recension: German text with variants
+      items:
+      - cic:boehmer_urkunden-bauernkrieg-wiedertaeufer-deu_1910.txt:section-iv
+    - translator: Josef Beck (editor)
+      year: 1883
+      language: German
+      recension: German text from a Pressburg manuscript, abridged by the editor
+      items:
+      - cic:hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt:beilage-a
+    - translator: W. J. McGlothlin (from Zwingli's Latin)
+      year: 1911
+      language: English
+      recension: Zwingli's Latin version (Elenchus, 1527)
+      items:
+      - cic:mcglothlin_baptist-confessions-of-faith_1911.txt:the-anabaptists
+    - translator: Henry Preble and George W. Gilmore (the Latin pieces), in Samuel Macauley Jackson's Selected
+        Works (from Zwingli's Latin)
+      year: 1901
+      language: English
+      recension: Zwingli's Latin version, embedded in the Refutation of Baptist Tricks
+      items:
+      - cic:zwingli_selected-works_jackson1901.txt:refutation-second-part
+    notes: 'Four expressions in the corpus: two German (Böhmer''s full text, Fraktur and
+      garbled in the OCR; Beck''s abridged text, Antiqua and readable) and two English, both of which render
+      Zwingli''s hostile Latin translation rather than the German. Any quote record should say which expression
+      it rests on, and the English should be checked against the German on the page images. The translator
+      credit for the 1901 volume follows its own preface (file lines 49-51 and 109-110): the Latin pieces
+      by Henry Preble and George W. Gilmore, the Zurich German pieces by Lawrence A. McLouth.
+
+      '
+
+  - work_id: giussano-vita-di-s-carlo-borromeo
+    title: Vita di S. Carlo Borromeo (The Life of St. Charles Borromeo)
+    author: giussano
+    original_language: Italian
+    composed: 1610 (Rome)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: null
+      year: 1855
+      language: Italian
+      recension: 1855 Naples reprint (Tipografia Arcivescovile)
+      items:
+      - cic:giussano_vita-di-s-carlo-borromeo-ita_1855.txt:whole-file
+    - translator: not named on the title page (English version issued by the Oblates of St. Charles, Westminster,
+        with preface by H. E. Manning)
+      year: 1884
+      language: English
+      recension: 1884 Burns and Oates edition, 2 vols.
+      items:
+      - cic:giussano_life-of-st-charles-borromeo-v1_1884.txt:whole-file
+      - cic:giussano_life-of-st-charles-borromeo-v2_1884.txt:whole-file
+    notes: 'Same Work, two Expressions: the Italian text (in an 1855 reprint chosen because the 1610 first-edition
+      scan on archive.org is garbled) and the 1884 English translation in two volumes. The English is the
+      quotable witness; the Italian is the wording check behind it, with the caveat that it is the 1855
+      edition''s wording, not the 1610 printing''s.
+
+      '
+
+  - work_id: gallican-confession-1559
+    title: The French Confession of Faith (Confessio Gallicana, Confession de La Rochelle)
+    author: french-reformed-synods
+    original_language: French
+    composed: 1559 (Synod of Paris); reaffirmed 1571 (Synod of La Rochelle)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: John Quick
+      year: 1692
+      language: English
+      recension: the forty-article text as the synods printed it, with the synods' observations
+      items:
+      - cic:quick_synodicon-in-gallia-reformata_1692.txt:lines-1009-1774
+    - translator: Emily O. Butler (English); French text in modern spelling from the Toulouse 1864 edition
+      year: 1877
+      language: French and English
+      recension: the forty-article text with the Preface in its original form (Schaff's headnote)
+      items:
+      - cic:schaff_gallican-confession-fra-eng_1877.txt:whole-file
+    notes: 'Two independent English renderings of the same confession, one of them printed beside the French.
+      Quick''s is the older and the one the synod acts themselves refer to; Butler''s is the clean nineteenth-
+      century text. The French in the Schaff extract is the primary wording for quotation; the 1559 old-spelling
+      French is in Beze''s Histoire ecclesiastique, tome 1 (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt,
+      lines 10569-11546), a second witness because of its OCR.
+
+      '
+  - work_id: mornay-charlotte-memoires
+    title: Memoirs of Madame de Mornay (the life of Philippe du Plessis-Mornay, written by his wife for
+      their son)
+    author: mornay-charlotte
+    original_language: French
+    composed: 1584-1606 (the dedication to her son; continued to her death)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (French original, ed. Madame de Witt from the manuscripts)
+      year: 1868
+      language: French
+      recension: de Witt's edition, tome 1 (the memoirs; tome 2 holds the letters, not vendored)
+      items:
+      - cic:mornay-charlotte_memoires-de-madame-de-mornay-t1-fra_de-witt1868.txt:whole-file
+    - translator: Lucy Crump
+      year: 1926
+      language: English
+      recension: translated from the de Witt 1868 edition (host catalogue note for the Claremont copy)
+      items:
+      - cic:mornay-charlotte_huguenot-family-in-the-xvi-century_crump1926.txt:lines-3611-12433
+    notes: 'Original and translation vendored side by side; the French is the primary wording, the English
+      a published cross-check on any Opus rendering.
+
+      '
+  - work_id: migault-journal
+    title: Journal of Jean Migault, schoolmaster (the dragonnades in Poitou, 1681-1688)
+    author: migault
+    original_language: French
+    composed: 1688 onward (written in exile for his children, per the text)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (French original, first edition from the original text, ed. N. Weiss and H. Clouzot)
+      year: 1910
+      language: French
+      recension: the original text (the editors' claim on the title page)
+      items:
+      - cic:migault_journal-fra_weiss-clouzot1910.txt:lines-1871-end
+    - translator: William Anderson
+      year: 1852
+      language: English
+      recension: from an earlier printed French text, not the 1910 edition (Anderson's introduction)
+      items:
+      - cic:migault_trials-of-a-french-protestant-family_anderson1852.txt:narrative
+    notes: 'The two expressions rest on different French bases, so the English may not match the 1910 wording
+      passage for passage; the 1910 French is the primary witness.
+
+      '
+
+  - work_id: schurman-dissertatio-de-ingenii-muliebris
+    title: Dissertatio de ingenii muliebris ad doctrinam et meliores litteras aptitudine (Whether a Christian
+      woman should be educated)
+    author: schurman
+    original_language: Latin
+    composed: 1638-1641 (first printed Paris 1638; Leiden 1641)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: null
+      year: 1648
+      language: Latin
+      recension: 'the Elzevier Opuscula printing, headed ''Problema practicum: Num foeminae Christianae
+        conveniat studium litterarum'''
+      items:
+      - cic:schurman_opuscula-lat_spanheim1648.txt:Problema practicum (line 1305) to the Epistolae (line 2464)
+    - translator: anonymous (not named on the 1659 title page)
+      year: 1659
+      language: English
+      recension: null
+      items:
+      - cic:schurman_learned-maid_1659.txt:A Logicall Exercise (line 280) to the letters (line 1946)
+  - work_id: heidelberg-catechism
+    title: The Heidelberg Catechism (1563)
+    author: ursinus-olevianus
+    original_language: German (with an authorised Latin text)
+    composed: '1563'
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: Philip Schaff's edition (the English translation it prints)
+      year: 1919
+      language: English
+      recension: Schaff, Creeds of Christendom vol. III, sec. 69
+      items:
+      - cic:schaff_second-helvetic-confession-heidelberg-catechism_1919.txt:sec. 69 (line 1598 onward)
+    - translator: not named (the Reformed Dutch Church of North America's official text)
+      year: 1840
+      language: English
+      recension: the Dutch church's own English, with the Compendium
+      items:
+      - cic:reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840.txt:Catechism (line
+        2703) to the Confession of Faith (line 5151)
+
+  - work_id: synod-of-diamper-acts-and-decrees
+    title: Acts and Decrees of the Synod of Diamper (1599)
+    author: synod-of-diamper
+    original_language: Portuguese
+    composed: 1599, printed in Gouvea's Jornada (Coimbra 1606)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: Johannes Facundus Raulin
+      year: 1745
+      language: Latin
+      recension: Portuguese
+      items:
+      - cic:raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745.txt:lines-5062-18817
+    - translator: Michael Geddes
+      year: 1694
+      language: English
+      recension: Portuguese
+      items:
+      - cic:geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt:lines-9602-end-of-decrees
+      - cic:hough_history-of-christianity-in-india-v2_1839.txt:lines-29882-40113
+    notes: 'Two Expressions in the corpus: Raulin''s Latin and Geddes''s English. Hough 1839 Appendix A
+      is Geddes''s English reprinted in modern type with the heading of each decree restored from the Portuguese
+      (Hough''s own statement), so it is listed under Geddes, not as a third translation. The Portuguese
+      archetype (Gouvea 1606) is not in the corpus. Item addresses are line ranges because none of the three
+      files carries structural markers; Geddes''s end line was not fixed this pass. Hough judges Geddes
+      literal and in agreement with Raulin''s Latin; that is Hough''s claim, not checked here.
+
+      '
+
+  - work_id: mogila-orthodox-confession
+    title: The Orthodox Confession of the Catholic and Apostolic Eastern Church (Confessio Orthodoxa)
+    author: mogila
+    original_language: Greek
+    composed: 1640 (approved at Jassy 1642; reaffirmed at Jerusalem 1672)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: Greek with Latin parallel text, edited by Ernst Julius Kimmel
+      year: 1850
+      language: Greek
+      recension: Kimmel 1850 (Greek and Latin in parallel)
+      items:
+      - cic:monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt:orthodox-confession
+    - translator: not named on the title page (attributed to Philip Lodvill in Robertson's 1898 notice)
+      year: 1762
+      language: English
+      recension: first English printing
+      items:
+      - cic:mogila_orthodox-confession_anon1762.txt:whole-file
+    - translator: J. J. Overbeck (editor; the 1762 English with spelling and some expressions altered)
+      year: 1898
+      language: English
+      recension: 1762 English, lightly modernised
+      items:
+      - cic:mogila_orthodox-confession_overbeck1898.txt:whole-file
+    notes: 'One work, three expressions in the corpus. The two English files are one translation in two
+      states (the 1898 edition says it alters ''some archaisms in spelling and a few inexact expressions''
+      of the 1762 text), so a quote should rest on the 1762 file where the exact English wording matters.
+      The Greek and Latin are in the Kimmel volume. Item addresses are file-level placeholders.
+
+      '
+  - work_id: jeremias-ii-first-answer-augsburg-confession
+    title: Patriarch Jeremias II's first Answer to the Tuebingen theologians on the Augsburg Confession
+      (15 May 1576)
+    author: jeremias-ii
+    original_language: Greek
+    composed: '1576'
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: Stanislaus Socolovius (Latin, printed Cracow)
+      year: 1582
+      language: Latin
+      recension: Socolovius's Latin of the Greek
+      items:
+      - cic:jeremias-ii_censura-orientalis-ecclesiae-lat_socolovius1582.txt:whole-file
+    - translator: the Tuebingen theologians (Latin, printed Wittenberg)
+      year: 1584
+      language: Latin
+      recension: the theologians' Latin of the Greek
+      items:
+      - cic:acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt:primum-patriarchae-responsum
+    notes: 'The same Answer in two independent Latin renderings, one by a Catholic and one by the Lutheran
+      recipients. No Greek text and no public-domain English is in the corpus. The second and third Answers
+      (1579, 1581) are in the 1584 file only. Item addresses are file-level placeholders.
+
+      '
+  - work_id: smith-account-of-the-greek-church
+    title: Thomas Smith on the present state of the Greek Church (De Graecae Ecclesiae hodierno statu epistola;
+      An Account of the Greek Church)
+    author: smith-thomas
+    original_language: Latin
+    composed: 1676 (Latin); enlarged 1678 and 1698; English 1680
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: Thomas Smith (Latin original, third edition)
+      year: 1698
+      language: Latin
+      recension: Utrecht 1698, 'editio nova, auctior et emendatior'
+      items:
+      - cic:smith-thomas_de-graecae-ecclesiae-hodierno-statu-lat_halma1698.txt:whole-file
+    - translator: Thomas Smith (English)
+      year: 1680
+      language: English
+      recension: London 1680
+      items:
+      - cic:smith-thomas_account-of-the-greek-church_1680.txt:whole-file
+    notes: 'The 1680 English refers to ''the Latine Edition'' without naming it, and the item record for
+      the Latin says it was printed in 1676 and 1678 before the 1698 edition. The two files are therefore
+      related but not word for word. Not checked page by page.
+
+      '
+
+  - work_id: comenius-labyrinth-of-the-world
+    title: Labyrint světa a ráj srdce (The Labyrinth of the World and the Paradise of the Heart)
+    author: comenius
+    original_language: Czech
+    composed: 1623 (per Lutzow's introduction)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: null
+      year: 1809
+      language: Czech
+      recension: Czech
+      items:
+      - cic:comenius_labyrint-sveta-a-raj-srdce-ces_1809.txt:whole-file
+    - translator: Count Lutzow
+      year: 1901
+      language: English
+      recension: Czech
+      items:
+      - cic:comenius_labyrinth-of-the-world_lutzow1901.txt:whole-file
+    notes: 'Czech original (blackletter OCR, second witness) and Lutzow''s English translation, which is
+      the readable witness. The date of composition is Lutzow''s, not independently checked.
+
+      '
+
+  - work_id: racovian-catechism
+    title: The Racovian Catechism (Catechesis Ecclesiarum quae in Regno Poloniae ...)
+    author: racovian-catechism
+    original_language: Polish (first published 1605), Latin (1609 and later recensions)
+    composed: 1605 Polish; Latin version 1609, Racow; revised recension 1680 (Rees's source)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: Hieronim Moskorzewski (Latin version of the Polish)
+      year: 1609
+      language: Latin
+      recension: first Latin edition, Racow 1609
+      items:
+      - cic:racovian-catechism_catechesis-ecclesiarum-lat_moskorzewski1609.txt:whole-file
+    - translator: Thomas Rees
+      year: 1818
+      language: English
+      recension: quarto Latin of 1680, Schlichting's revision, per Rees's own footnote to his Preface
+      items:
+      - cic:racovian-catechism_racovian-catechism_rees1818.txt:the-catechism-sections-i-viii
+    notes: 'Two Expressions of one Work, but of different recensions: the 1609 Latin is the earlier text,
+      and Rees''s English translates the 1680 revision (his own statement), so a quote from one cannot be
+      checked against the other without comparing the passage. The Polish 1605 original is not in the corpus.
+      The census note says Rees translates the 1680 recension, and Rees''s footnote confirms it.
+
+      '
+  - work_id: socinus-de-auctoritate-sacrae-scripturae
+    title: De Auctoritate Sacrae Scripturae (An Argument for the Authority of Holy Scripture)
+    author: socinus
+    original_language: Latin
+    composed: Steinfurt printing 1611
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (Latin original)
+      year: 1656
+      language: Latin
+      recension: Opera omnia, Bibliotheca Fratrum Polonorum, 1656
+      items:
+      - cic:socinus_opera-omnia-exegetica-lat_1656.txt:de-auctoritate
+    - translator: not named on the title page (dedication signed Edward Combe)
+      year: 1731
+      language: English
+      recension: after the Steinfurt copy (1611), per the title page
+      items:
+      - cic:socinus_argument-authority-holy-scripture_1731.txt:the-argument
+    notes: 'The Latin is the 1656 text; the 1731 English is made from the 1611 Steinfurt copy, so the two
+      may differ in wording.
+
+      '
+  - work_id: socinus-vita-authoris
+    title: The Life of Faustus Socinus by a Polonian Knight (Vita Authoris)
+    author: przypkowski
+    original_language: Latin
+    composed: printed 1636 (separate printing); reprinted in the 1656 Bibliotheca
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: none (Latin original)
+      year: 1656
+      language: Latin
+      recension: Vita Authoris in the Bibliotheca Fratrum Polonorum
+      items:
+      - cic:socinus_opera-omnia-exegetica-lat_1656.txt:vita-authoris
+    - translator: John Bidle
+      year: 1653
+      language: English
+      recension: English of the Vita, with a Discourse and Catalogue
+      items:
+      - cic:przypkowski_life-of-faustus-socinus_bidle1653.txt:whole-file
+    notes: 'The English of 1653 is older than the 1656 Bibliotheca, so it was made from the 1636 Latin printing
+      (or a manuscript), not from the 1656 text; wording may differ. The author is "a Polish knight"; the
+      host record of the 1636 printing names Samuel Przypkowski.
+
+      '
+
+  - work_id: zenahu-la-galla-history-of-the-galla
+    title: History of the Galla (Zenahu la-Galla)
+    author: null
+    original_language: Ge'ez
+    composed: sixteenth century (not dated in the vendored editions)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: Ignazio Guidi
+      year: 1907
+      language: French
+      recension: Ge'ez text of the Guidi edition (CSCO Scriptores Aethiopici II.3)
+      items:
+      - cic:sarsa-dengel_historia-regis-sarsa-dengel-gez-fra_conti-rossini1907.txt:historia-gentis-galla-french-from-line-18384
+    - translator: A. W. Schleicher
+      year: 1893
+      language: German
+      recension: abridged manuscript text, Schleicher's edition
+      items:
+      - cic:zenahu-la-galla_geschichte-der-galla-deu_schleicher1893.txt:whole-file
+    notes: 'Two independent translations of the same sixteenth-century monk''s report on the Galla invasion,
+      from two Ethiopic texts: Guidi''s French from his Ge''ez edition, and Schleicher''s German from an
+      abridged manuscript text (Schleicher''s own note says the manuscript is shortened). Neither edition
+      names the author; the usual attribution to Abba Bahrey is from outside the files. No public-domain
+      English was found.'
+
+  - work_id: canons-of-dort
+    title: The Canons of the Synod of Dort (1619), with the Rejection of Errors
+    author: synod-of-dort
+    original_language: Latin (the Acta of the Synod, Leiden 1620)
+    composed: 1619 (read in the Great Church at Dordrecht on 6 May 1619)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: not named (the Reformed Dutch Church of North America's official text)
+      year: 1840
+      language: English
+      recension: the Dutch church's own English, with the Catechism, Confession and Liturgy
+      items:
+      - cic:reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840.txt:Canons (line
+        6242) to the Liturgy (line 7089)
+    - translator: Thomas Scott (translated from the Latin, with notes)
+      year: 1831
+      language: English
+      recension: Scott's translation, 1831 printing (his preface is dated 15 March 1818), with the Synod's
+        preface and a Harmony of Confessions
+      items:
+      - cic:synod-of-dort_articles-with-history-of-events_scott1831.txt:Articles of the Synod (line 4966)
+        to the Confessions of Faith (line 7915)
+    - translator: Hermann Agathon Niemeyer (editor; Latin text)
+      year: 1840
+      language: Latin
+      recension: Niemeyer's Collectio confessionum, Latin text of the Synod's Sententia with the signatures
+        (OCR garbled, second witness)
+      items:
+      - cic:niemeyer_collectio-confessionum-lat_niemeyer1840.txt:Sententia de divina praedestinatione (line
+        44015) to the Synod's closing Sententia (line 45673)

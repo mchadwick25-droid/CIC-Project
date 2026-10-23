@@ -1,0 +1,44 @@
+source_file: church-of-england_two-liturgies-1549-1552_ketley1844.txt
+
+assignments:
+  - row_id: church-of-england_two-liturgies-1549-1552_ketley1844--the-book-of-common-prayer-1549-with-the-order-of-communion-1548
+    work: "The Book of Common Prayer (1549), with the Order of the Communion (1548)"
+    author: church-of-england
+    locus: "Order of the Communion from file line 945 (heading 'THE ORDER OF THE COMMUNION'); the 1549 book follows, its Matins at line 1812; the 1549 book runs to about line 13330"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: tradition
+    confidence: assigned
+    note: >
+      The first English Prayer Book, the words the whole realm was ordered to say
+      from Whitsunday 1549, in the Parker Society's modernised-spelling text with
+      variant readings. Primary voice, ready to quote once each quote is verified
+      against this file. Cranmer's own prefaces ("Of Ceremonies, why some be
+      abolished") are inside it.
+
+  - row_id: church-of-england_two-liturgies-1549-1552_ketley1844--the-book-of-common-prayer-1552
+    work: "The Book of Common Prayer (1552)"
+    author: church-of-england
+    locus: "from about file line 13331 (the 1552 book's own title and Act of Uniformity reference), its Order for Morning Prayer at line 13506, running to the Primer at line 20373"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: tradition
+    confidence: assigned
+    note: >
+      The second Edwardian book, the more plainly Reformed revision that the 1559
+      Settlement book restored with small changes. Primary voice, ready to quote
+      once verified against this file.
+
+  - row_id: church-of-england_two-liturgies-1549-1552_ketley1844--the-primer-1553-the-catechism-and-the-forty-two-articles-1553
+    work: "The Primer (1553); A Short Catechism and the Forty-two Articles (1553); Catechismus Brevis (Latin, 1553)"
+    author: church-of-england
+    locus: "Primer from file line 20373 (heading 'THE PRIMER'); Catechism from line 31323 (running head 'THE CATECHISM'), the Articles following it; Catechismus Brevis from line 33621"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: tradition
+    confidence: assigned
+    note: >
+      The Edwardian household prayer book, the short catechism and the Forty-two
+      Articles of 1553 (the direct parent of the Thirty-nine Articles of 1571), in
+      the same volume. The Latin Catechismus Brevis is the original of the English
+      catechism printed beside it. Primary voice, ready to quote once verified.

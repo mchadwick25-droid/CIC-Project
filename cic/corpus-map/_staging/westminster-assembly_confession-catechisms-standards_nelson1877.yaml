@@ -1,0 +1,69 @@
+source_file: westminster-assembly_confession-catechisms-standards_nelson1877.txt
+
+assignments:
+  - row_id: westminster-assembly_confession-catechisms-standards_nelson1877--the-westminster-confession-of-faith-1647
+    work: "The Westminster Confession of Faith (1646-47), with the Scripture-proofs at large"
+    author: westminster-assembly
+    locus: "THE CONFESSION OF FAITH from file line 1286 (33 chapters, each proof text printed in full beneath its chapter) to THE LARGER CATECHISM at line 12906"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: assigned
+    note: >
+      The doctrinal standard the English Puritan divines produced at the
+      height of their power (1643-47), here in the Scottish printing
+      with every proof text set out. Primary text; OCR clean.
+  - row_id: westminster-assembly_confession-catechisms-standards_nelson1877--the-westminster-larger-and-shorter-catechisms-1647-48
+    work: "The Westminster Larger Catechism and Shorter Catechism (1647-48), with the Scripture-proofs at large"
+    author: westminster-assembly
+    locus: "THE LARGER CATECHISM from file line 12906; THE SHORTER CATECHISM from line 30604 to THE SUM OF SAVING KNOWLEDGE at line 34334"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: assigned
+    note: >
+      The catechisms by which the standards were taught in households
+      and congregations ('What is the chief end of man?'). Primary text;
+      OCR clean.
+  - row_id: westminster-assembly_confession-catechisms-standards_nelson1877--the-westminster-confession-of-faith-1647-2
+    work: "The Westminster Confession of Faith and the Larger and Shorter Catechisms"
+    author: westminster-assembly
+    locus: "file lines 1286-34334, as the first two rows"
+    atlas_ids:
+      - the-scottish-reformation-and-kirk
+    role: tradition
+    confidence: assigned
+    note: >
+      Adopted by the General Assembly of the Church of Scotland (1647-48)
+      and printed here 'of publick authority in the Church of Scotland'
+      with the Assembly's approving acts; the Kirk's standards from that
+      date to this. Primary text for that entry.
+  - row_id: westminster-assembly_confession-catechisms-standards_nelson1877--the-scottish-standards-sum-of-saving-knowledge-covenants-directories
+    work: "The Sum of Saving Knowledge; the National Covenant (1638); the Solemn League and Covenant (1643); the Acknowledgment of Sins and Engagement to Duties (1648); the Directory for the Publick Worship of God; the Directory for Family-Worship (1647); the Form of Presbyterial Church-Government; Acts of Assembly and Parliament"
+    author: westminster-assembly
+    locus: "THE SUM OF SAVING KNOWLEDGE from file line 34334; THE NATIONAL COVENANT from line 35680; THE SOLEMN LEAGUE AND COVENANT from line 36068; the Directory for Publick Worship, the DIRECTORY FOR FAMILY-WORSHIP (line 40262), the Form of Presbyterial Church-Government and the acts follow to the end of the file"
+    atlas_ids:
+      - the-scottish-reformation-and-kirk
+    role: tradition
+    confidence: assigned
+    note: >
+      The rest of the Scottish standards as printed with the Confession:
+      the covenants the Kirk swore, the public and family worship
+      directories, and the presbyterial form of government, with the
+      Assembly's acts. Primary texts for that entry; the Sum of Saving
+      Knowledge and the National Covenant are Scottish compositions, not
+      Westminster's.
+  - row_id: westminster-assembly_confession-catechisms-standards_nelson1877--the-directory-for-publick-worship-and-form-of-church-government
+    work: "The Directory for the Publick Worship of God (1645) and the Form of Presbyterial Church-Government (1645), with the Solemn League and Covenant (1643)"
+    author: westminster-assembly
+    locus: "THE SOLEMN LEAGUE AND COVENANT from file line 36068; the Directory for the Publick Worship of God and the Form of Presbyterial Church-Government in the final part of the file after the Directory for Family-Worship (line 40262)"
+    atlas_ids:
+      - puritanism
+    role: tradition
+    confidence: provisional
+    note: >
+      Westminster Assembly products ordered by the English Parliament in
+      1645 to replace the Prayer Book and episcopacy, the Puritan
+      church-order programme as enacted. Provisional: the file's final
+      part was located by headings and the 90 per cent sample, not read
+      through.

@@ -1,0 +1,147 @@
+source_file: quick_synodicon-in-gallia-reformata_1692.txt
+
+authors_ruled:
+  french-reformed-synods:
+    kind: metadata-omission
+    evidence: >
+      Not CCEL-derived markup (a plain-text archive.org OCR extract), so
+      no automatic author slug exists. The Confession of Faith, the
+      Discipline and the synod acts in this volume are corporate acts of
+      the national synods of the Reformed Churches of France (Paris 1559
+      to Loudun 1659), translated by John Quick from manuscript acts;
+      Quick is the compiler, not the author of those acts. A corporate
+      slug on the pattern of council-of-trent and synod-of-dort.
+
+assignments:
+  - row_id: quick_synodicon-in-gallia-reformata_1692--the-confession-of-faith-of-the-reformed-churches-of-france
+    work: "The Confession of Faith, held and professed by the Reformed Churches of France (1559), English version"
+    author: french-reformed-synods
+    locus: "heading at file line 1009, running to the Discipline heading at line 1775"
+    atlas_ids:
+      - the-huguenots
+    role: tradition
+    confidence: assigned
+    note: >
+      The Gallican Confession in Quick's 1692 English, the older of the two
+      English versions. Primary voice for this world's doctrine; quotable
+      only after a check against the page image, because the OCR is
+      letter-noisy (long s normalised, other misreads left). The French
+      text in modern spelling, with a second English version, is in
+      schaff_gallican-confession-fra-eng_1877.txt.
+
+  - row_id: quick_synodicon-in-gallia-reformata_1692--the-discipline-of-the-reformed-churches-of-france
+    work: "The Discipline of the Reformed Churches of France (the Discipline ecclesiastique, with the synods' observations), English version"
+    author: french-reformed-synods
+    locus: "heading at file line 1775, running to the First National Synod heading at line 13432"
+    atlas_ids:
+      - the-huguenots
+    role: tradition
+    confidence: assigned
+    note: >
+      The church order the French synods adopted in 1559 and amended
+      synod by synod, printed by Quick with the observations of later
+      synods under each canon. Primary voice for this world's authority
+      structure (consistory, colloquy, provincial and national synod).
+      The French original is not vendored; Aymon's 1710 Tous les synodes
+      nationaux (archive.org touslessynodesna01gl, 02gl) holds it.
+
+  - row_id: quick_synodicon-in-gallia-reformata_1692--acts-of-the-national-synods-of-the-reformed-churches-of-france
+    work: "The Acts, Decisions, Decrees and Canons of the National Synods of the Reformed Churches of France, Paris 1559 to Loudun 1659 (Vol. I and Vol. II)"
+    author: french-reformed-synods
+    locus: "First National Synod heading at file line 13432 to the end of the file; Vol. I ends at line 51881, Vol. II begins at line 51882, its second part at line 71894"
+    atlas_ids:
+      - the-huguenots
+    role: tradition
+    confidence: assigned
+    note: >
+      The national church's own record of itself across the whole window:
+      deputies, moderators, censures, cases of conscience, letters, and
+      the running amendment of the Discipline. Primary voice; the OCR is
+      letter-noisy and the synod headings are often garbled, so quotations
+      need the page image.
+
+  - row_id: quick_synodicon-in-gallia-reformata_1692--quick-s-history-of-the-rise-growth-perfection-and-decay
+    work: "A most faithful and impartial history of the rise, growth, perfection and decay of the Reformation in that kingdom, with its fatal catastrophe upon the Revocation of the Edict of Nantes (Quick's own introductory history, 1692)"
+    author: quick
+    locus: "from the dedication near file line 312 to the Confession heading at line 1009"
+    atlas_ids:
+      - the-huguenots
+    role: context
+    confidence: assigned
+    note: >
+      An English nonconformist minister's sympathetic retrospective
+      (1692), written from outside the French churches after their
+      dissolution. Context, not the world's own voice, though it quotes
+      the synods it introduces.
+
+  - row_id: quick_synodicon-in-gallia-reformata_1692--the-confession-of-faith-of-the-reformed-churches-of-france-2
+    work: "The Confession of Faith, held and professed by the Reformed Churches of France (1559), English version"
+    author: french-reformed-synods
+    locus: "heading at file line 1009, running to the Discipline heading at line 1775"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: context
+    confidence: provisional
+    note: >
+      The daughter church's confession, drafted on a Genevan model (Schaff's
+      headnote credits Calvin and Chandieu); Beza presided at the synod of
+      La Rochelle 1571 that reaffirmed it (Quick, near line 5339). Placed on
+      that relation, not read against the Reformed Cities' own sources.
+
+  - row_id: quick_synodicon-in-gallia-reformata_1692--the-discipline-of-the-reformed-churches-of-france-2
+    work: "The Discipline of the Reformed Churches of France (the Discipline ecclesiastique, with the synods' observations), English version"
+    author: french-reformed-synods
+    locus: "heading at file line 1775, running to the First National Synod heading at line 13432"
+    atlas_ids:
+      - church-of-the-desert-huguenots
+    role: tradition
+    confidence: provisional
+    note: >
+      The Discipline the Desert synods (from 1715) re-adopted as their own
+      constitution. Placed on that continuity; that world has no vendored
+      sources yet to confirm the use.
+
+  - row_id: quick_synodicon-in-gallia-reformata_1692--quick-s-history-of-the-rise-growth-perfection-and-decay-2
+    work: "A most faithful and impartial history of the rise, growth, perfection and decay of the Reformation in that kingdom, with its fatal catastrophe upon the Revocation of the Edict of Nantes (Quick's own introductory history, 1692)"
+    author: quick
+    locus: "from the dedication near file line 312 to the Confession heading at line 1009"
+    atlas_ids:
+      - church-of-the-desert-huguenots
+    role: context
+    confidence: provisional
+    note: >
+      Quick's 1692 account of the Revocation and its aftermath is a
+      contemporary outside witness to that world's opening years. Placed
+      on window; not read against that world's own sources.
+
+  - row_id: quick_synodicon-in-gallia-reformata_1692--french-synods-and-the-socinians
+    work: 'Synodicon in Gallia Reformata: the French synods'' dealings with the Socinians'
+    author: quick
+    locus: file lines 17403 (a chapter heading naming Socinians), 62655 and 84313
+    atlas_ids:
+    - anti-trinitarian-currents-servetus-polish-brethr
+    role: context
+    confidence: provisional
+    note: 'The Huguenot synods name the Socinians in a few places; three hits only, placed on the lines
+      named and not read beyond them.
+
+      '
+
+  - row_id: quick_synodicon-in-gallia-reformata_1692--the-canons-of-dort-adopted-by-the-french-national-synod-of
+    work: The Canons of Dort adopted by the French national synod of Alez (1620), with the deputies' oath
+      against Arminianism
+    author: quick
+    locus: contents at lines 52027-52030 (Chap. XI, The Cannons of the Synod of Dort incorporated with those
+      of the Churches of France; Chap. XII, The Oath taken by the Deputies against Arminianisme); the text
+      of the Alez synod's adoption of the Dort articles from line 54977, the oath from line 55030
+    atlas_ids:
+    - the-remonstrants-and-dort
+    role: context
+    confidence: provisional
+    note: 'The French Reformed churches took the Canons of Dort into their own discipline in 1620, read
+      the articles in full synod, approved them, and bound their deputies by oath against the Arminian errors.
+      The Huguenot response to the Remonstrant controversy in its own synod acts, in a 1692 English translation
+      by Quick. Placed on the locus read; the volume is staged for the Huguenots as tradition, and this
+      row only adds the Dutch controversy as the thing they were answering. Tier: same time, different region.
+
+      '

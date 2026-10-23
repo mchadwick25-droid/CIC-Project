@@ -1,0 +1,115 @@
+source_file: sathas_mesaionike-bibliotheke-v3-grc_1872.txt
+
+authors_ruled:
+  dapontes:
+    kind: metadata-omission
+    evidence: >
+      The title page names 'Kaisarios Dapontes' first among the volume's authors; the file's
+      leading slug is the editor's, so the author of sections A and B is supplied from the
+      title page and the running heads 'KAISARIOU DAPONTE'.
+    from_file: sathas_mesaionike-bibliotheke-v3-grc_1872.txt
+  makraios:
+    kind: metadata-omission
+    evidence: >
+      The title page names 'Sergios Makraios'; the section heading 'SERGIOU MAKRAIOU
+      HYPOMNEMATA' stands at file line 13524.
+    from_file: sathas_mesaionike-bibliotheke-v3-grc_1872.txt
+  gordios:
+    kind: metadata-omission
+    evidence: >
+      The title page names 'Anastasios Gordios'; the section heading 'ANASTASIOU GORDIOU'
+      stands at file line 22595.
+    from_file: sathas_mesaionike-bibliotheke-v3-grc_1872.txt
+  prokopiou:
+    kind: metadata-omission
+    evidence: >
+      The title page names 'Demetrios Prokopiou'; the section heading 'DEMETRIOU PROKOPIOU'
+      stands at file line 25243.
+    from_file: sathas_mesaionike-bibliotheke-v3-grc_1872.txt
+
+assignments:
+  - row_id: sathas_mesaionike-bibliotheke-v3-grc_1872--catalogue-of-martyrs-from-the-fall-of-constantinople-to-1811
+    work: "Catalogue of those martyred for the Christian faith from the fall of Constantinople to 1811 (Sathas's list of the neomartyrs, Greek)"
+    author: sathas
+    locus: "from file line 30477 (heading 'Katalogos ton apo tes haloseos tes Konstantinoupoleos mechri tou 1811 etous ... martyresanton') to the end of the volume, one entry per martyr with year, day and place"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: context
+    confidence: assigned
+    note: >
+      Not the lives: a nineteenth-century editor's one-line-per-martyr list, compiled by his
+      own note from the Neon Martyrologion (Venice 1799) and the Neon Leimonarion (Venice
+      1819), neither of which is in the corpus. Gives the in-window neomartyrs by name, date
+      and place (for example John of Ioannina, 18 April 1526; Philothei of Athens, 19 February
+      1589) and so indexes what the missing martyrology holds. Readable Greek OCR.
+  - row_id: sathas_mesaionike-bibliotheke-v3-grc_1872--catalogue-of-martyrs-from-the-fall-of-constantinople-to-1811-2
+    work: "Catalogue of those martyred for the Christian faith from the fall of Constantinople to 1811 (Sathas's list of the neomartyrs, Greek)"
+    author: sathas
+    locus: "from file line 30477 to the end of the volume"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-1650-1821
+    role: context
+    confidence: assigned
+    note: >
+      The same list, whose entries from 1650 to 1811 fall in this entry's window. An editor's
+      index, not the martyrs' own lives.
+  - row_id: sathas_mesaionike-bibliotheke-v3-grc_1872--patriarchal-documents-regesta-from-1568
+    work: "Patriarchika engrapha: Sathas's regesta of patriarchal acts of Constantinople from 1568 onward (Greek summaries)"
+    author: sathas
+    locus: "from file line 27987 (heading 'PATRIARCHIKA ENGRAPHA') to about 30476, each act summarised under the patriarch's name with its year of the world, indiction and month"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-parish-millet-and-n
+    role: context
+    confidence: assigned
+    note: >
+      Summaries, not the acts' own text: sigillia, synodal acts, depositions and appointments
+      of bishops from Metrophanes III (1568) through Jeremias II, Matthew II and their
+      successors, in the editor's words with the documents' own dating formulas. The parish
+      and millet texture the census asks for, at one remove. Readable Greek OCR.
+  - row_id: sathas_mesaionike-bibliotheke-v3-grc_1872--patriarchal-documents-regesta-from-1568-2
+    work: "Patriarchika engrapha: Sathas's regesta of patriarchal acts of Constantinople from 1568 onward (Greek summaries)"
+    author: sathas
+    locus: "from file line 27987 to about 30476; the acts dated 1650 and later are the greater part"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-1650-1821
+    role: context
+    confidence: assigned
+    note: >
+      The same regesta; most of the dated acts (1650s to 1680s by count) fall in this entry's
+      window.
+  - row_id: sathas_mesaionike-bibliotheke-v3-grc_1872--dapontes-chronographos-and-historikos-katalogos
+    work: "Kaisarios Dapontes, Chronographos (section A) and Historikos Katalogos andron episemon, 1700-1784 (section B), Greek"
+    author: dapontes
+    locus: "section A under running heads 'CHRONOGRAPHOS' from about file line 4438 to 8057; section B from line 8058 (heading 'ISTORIKOS KATALOGOS ANDRON EPISEMON, 1700-1784') to about 13523"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-1650-1821
+    role: tradition
+    confidence: provisional
+    note: >
+      An eighteenth-century chronicle and a catalogue of notable figures of
+      1700-1784, in vernacular Greek: inside voice for the entry's window, placed on author and
+      dates without a full reading. Readable Greek OCR with accent errors.
+  - row_id: sathas_mesaionike-bibliotheke-v3-grc_1872--makraios-hypomnemata-ekklesiastikes-historias
+    work: "Sergios Makraios, Hypomnemata ekklesiastikes historias (memoirs of church history, 1750-1800), Greek"
+    author: makraios
+    locus: "from file line 13524 (heading 'SERGIOU MAKRAIOU HYPOMNEMATA') to about 22594"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-1650-1821
+    role: tradition
+    confidence: provisional
+    note: >
+      A memoir of church history that Sathas's prologue dates 1750-1800 (an eyewitness account); placed on author and dates without a full reading. The world's
+      builders should check its treatment of the Kollyvades dispute before any further
+      placement. Readable Greek OCR.
+  - row_id: sathas_mesaionike-bibliotheke-v3-grc_1872--gordios-prokopiou-tyrnavites-and-letter-catalogues
+    work: "Anastasios Gordios, Demetrios Prokopiou, Alexandros Tyrnavites and the catalogues of unpublished letters (Greek)"
+    author: gordios
+    locus: "Gordios from file line 22595; Prokopiou from 25243; Tyrnavites and the letter catalogues between Prokopiou and the patriarchal documents at 27987"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-1650-1821
+    role: tradition
+    confidence: provisional
+    note: >
+      Shorter pieces by Gordios and Prokopiou, and the editor's catalogues of letters, from the
+      same volume; placed on window only, not read. The row's author
+      slug names the first of them; Prokopiou has his own authors_ruled entry for a later split.

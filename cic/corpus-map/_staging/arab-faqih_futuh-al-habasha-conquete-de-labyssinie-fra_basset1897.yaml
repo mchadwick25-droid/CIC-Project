@@ -1,0 +1,19 @@
+source_file: arab-faqih_futuh-al-habasha-conquete-de-labyssinie-fra_basset1897.txt
+assignments:
+- row_id: >-
+    arab-faqih_futuh-al-habasha-conquete-de-labyssinie-fra_basset1897--futuh-al-habasha-conquest-of-abyssinia-f
+  work: Futuh al-Habasha (Conquest of Abyssinia), French translation by Basset
+  author: arab-faqih
+  locus: >-
+    French translation from file line 392 ('[F° 1]. Louange à Dieu'); title pages at 167 and 285; Basset's
+    notes follow the text on each page
+  atlas_ids:
+  - ethiopian-christianity-gragn-to-fasilides
+  role: context
+  confidence: assigned
+  note: >-
+    The Muslim chronicle of the Gragn campaigns by a participant, in Basset's French with his notes. The
+    enemy's own account of the destruction the census names, so a hostile outside voice that is also an
+    eyewitness. French translation only; the Arabic is not in the file and no public-domain English was
+    found. The extent of this scan (about 35,000 words) against the whole work was not established. The
+    OCR is readable.

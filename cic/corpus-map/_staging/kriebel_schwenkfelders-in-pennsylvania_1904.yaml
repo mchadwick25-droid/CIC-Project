@@ -1,0 +1,25 @@
+source_file: kriebel_schwenkfelders-in-pennsylvania_1904.txt
+assignments:
+- row_id: kriebel_schwenkfelders-in-pennsylvania_1904--schwenkfelders-in-pennsylvania
+  work: 'The Schwenkfelders in Pennsylvania: A Historical Sketch (1904)'
+  author: kriebel
+  locus: Preface from file line 150; Chapter I (Caspar Schwenkfeld) 495; II 1063; III 1427; IV 1759; V
+    2627; VI 3368; VII 3725; VIII (Zinzendorf) 4622; IX 5259; X 6189; XI 6960; XII 7780; XIII 8681; Appendix
+    A 8801; Appendix B 9354; Index 9576
+  atlas_ids:
+  - schwenckfelders
+  role: context
+  confidence: assigned
+  note: English scholarship by a Schwenkfelder descendant with translated documents embedded (Appendices
+    A and B, bibliography of the community's printings). Context, not inside voice; the footnotes to sources
+    are omitted by the author's own statement.
+- row_id: kriebel_schwenkfelders-in-pennsylvania_1904--schwenkfelders-in-pennsylvania-2
+  work: The Schwenkfelders in Pennsylvania (1904), Chapter VIII on Zinzendorf
+  author: kriebel
+  locus: Chapter VIII from file line 4622
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: context
+  confidence: provisional
+  note: Chapter title read in the contents ('Relation between the Schwenkfelders and Zinzendorf in Pennsylvania');
+    body not read.

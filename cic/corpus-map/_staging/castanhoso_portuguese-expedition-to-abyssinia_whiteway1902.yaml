@@ -1,0 +1,73 @@
+source_file: castanhoso_portuguese-expedition-to-abyssinia_whiteway1902.txt
+authors_ruled:
+  bermudez:
+    kind: metadata-omission
+    evidence: >-
+      The file's creator line names Castanhoso as first author. Bermudez's short account is a separate
+      work inside the volume, headed 'BERMUDEZ.' (file lines 11572, 336 in the table of contents, and
+      66 on the title page 'THE SHORT ACCOUNT OF BERMUDEZ'). The author is not in doubt; the file-name
+      prefix cannot hold him.
+  correa:
+    kind: metadata-omission
+    evidence: >-
+      The title page (file line 66-68) reads 'AND CERTAIN EXTRACTS FROM CORREA'. The extracts are a separate
+      section with running heads 'EXTRACTS FROM CORREA' (file lines 17013, 17029). The author is not in
+      doubt; the file-name prefix cannot hold him.
+assignments:
+- row_id: >-
+    castanhoso_portuguese-expedition-to-abyssinia_whiteway1902--castanhoso-s-narrative-of-the-portuguese
+  work: >-
+    Castanhoso's narrative of the Portuguese expedition to Abyssinia, 1541-1543 (English, Whiteway)
+  author: castanhoso
+  locus: >-
+    Castanhoso, chapter I from file line 6439 (the heading at 6353), through chapter XXVI at 10369; Whiteway's
+    introduction from 759 and bibliography at 6313
+  atlas_ids:
+  - ethiopian-christianity-gragn-to-fasilides
+  role: context
+  confidence: assigned
+  note: >-
+    Eyewitness narrative by a Portuguese soldier of the expedition that helped Ethiopia against Ahmad
+    Gragn's invasion (the Wayna Daga campaign), first published at Lisbon in 1564. Outside witness: a
+    Portuguese Catholic describes the Ethiopian court and church from the field. English translation only;
+    the Portuguese is not in the file. Primary voice of the Portuguese side, ready to quote once verified
+    against the scan; the OCR was sampled clean.
+- row_id: >-
+    castanhoso_portuguese-expedition-to-abyssinia_whiteway1902--contemporary-letters-of-1541-1546-printe
+  work: Contemporary letters of 1541-1546 printed with Castanhoso (English, Whiteway)
+  author: castanhoso
+  locus: Letters I to V from file line 10986 (I), 11059 (II), 11108 (III), 11334 (IV), 11472 (V)
+  atlas_ids:
+  - ethiopian-christianity-gragn-to-fasilides
+  role: context
+  confidence: assigned
+  note: >-
+    Contemporary letters printed with Castanhoso in Whiteway's English, among them a letter dated 13 March
+    1546 from King Joao III. The senders are named in each letter; the author slug is the book's lead
+    author because the letters have no author of their own in the file. Not read in full.
+- row_id: >-
+    castanhoso_portuguese-expedition-to-abyssinia_whiteway1902--short-account-of-the-abyssinian-expediti
+  work: Short account of the Abyssinian expedition by Bermudez (English, Whiteway)
+  author: bermudez
+  locus: From the heading at file line 11572, chapter I at 11653 through chapter XXXI at 13993
+  atlas_ids:
+  - ethiopian-christianity-gragn-to-fasilides
+  role: context
+  confidence: assigned
+  note: >-
+    Joao Bermudez's short account of the events of the expedition, as the title page calls it. A Portuguese
+    participant, so an outside voice from inside the story; his own role is described in Whiteway's introduction.
+    English translation only. Not read in full.
+- row_id: >-
+    castanhoso_portuguese-expedition-to-abyssinia_whiteway1902--extracts-from-correa-on-the-abyssinian-e
+  work: Extracts from Correa on the Abyssinian expedition (English, Whiteway)
+  author: correa
+  locus: >-
+    Heading at file line 17013, extracts from 17029 onward (running heads 'EXTRACTS FROM CORREA')
+  atlas_ids:
+  - ethiopian-christianity-gragn-to-fasilides
+  role: context
+  confidence: provisional
+  note: >-
+    Extracts from the chronicler Gaspar Correa on the same events, as selected by Whiteway. Placed on
+    window and place without reading the extracts closely; weigh as a later account against Castanhoso.

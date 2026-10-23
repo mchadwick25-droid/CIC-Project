@@ -1,0 +1,28 @@
+source_file: sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt
+assignments:
+- row_id: sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622--hohe-geistreiche-lehren-hohes-lied
+  work: Hohe geistreiche Lehren vnd Erklärungen vber die fürnembsten Sprüche dess Hohen Lieds Salomonis
+    (Sudermann, 1620s)
+  author: sudermann
+  locus: Opening 'Vom Hohen Lied Salomonis schreibet ein Christlicher Lehrer' at file line 88; meditations
+    headed 'im Hohen Lied Salomonis am 1. Cap.' through 'am 8. Cap.' (the 8th from about 15051); errata
+    list and colophon about 18860-18881
+  atlas_ids:
+  - schwenckfelders
+  role: tradition
+  confidence: provisional
+  note: 'A Strasbourg follower of Schwenckfeld, writing in the community''s inward, Christ-centred register,
+    about 1620. Provisional: the file does not itself name the Schwenkfelder connection (the host catalogue
+    and Schneider''s 1857 study do), and the movement''s own 17th-century voice here is a spiritualist
+    devotional author, not a church document. Second witness for scan quality (Fraktur OCR, 0.74-0.79
+    word share).'
+- row_id: sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622--hohe-geistreiche-lehren-hohes-lied-2
+  work: Sudermann, Hohe geistreiche Lehren (1620s)
+  author: sudermann
+  locus: Whole file
+  atlas_ids:
+  - family-of-love-and-spiritualists-franck-niclaes
+  role: context
+  confidence: provisional
+  note: Spiritualist devotional literature of the same wing; placed on window and genre only, without
+    reading for Family of Love.

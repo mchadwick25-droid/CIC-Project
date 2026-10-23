@@ -1,0 +1,82 @@
+source_file: teresa-of-avila_book-of-foundations_lewis1913.txt
+assignments:
+- row_id: teresa-of-avila_book-of-foundations_lewis1913--foundations
+  work: The Book of the Foundations of S. Teresa of Jesus (Libro de las fundaciones), Lewis translation,
+    new and revised edition 1913
+  author: teresa-of-avila
+  locus: from the prologue (line 3733) through the foundation chapters to the end of the narrative; contents
+    table from line 137; the bishop Don Alvaro de Mendoza at line 738; the Rule and Constitutions and
+    the visitation paper are separate rows
+  atlas_ids:
+  - carmelite-reform-and-spanish-mystics
+  role: tradition
+  confidence: assigned
+  note: Teresa's own narrative of the reform's spread, house by house, from Avila and Medina del Campo
+    to Burgos, with the quarrels with the provincials of the mitigated Rule and her dealings with Father
+    Gracian. The nearest thing in the corpus to a chronicle of the reform by its founder. Primary first-person
+    voice in English; ready to quote once each quote is verified against the page image. Zimmerman's introduction
+    and notes are the editor's voice, not Teresa's.
+- row_id: teresa-of-avila_book-of-foundations_lewis1913--rule-constitutions
+  work: Teresa's paper on the visitation of nunneries, the Rule of the Order of Our Lady of Mount Carmel,
+    and the Constitutions for the sisters (appended to the Foundations in this edition)
+  author: teresa-of-avila
+  locus: the visitation paper from line 20874; the Carmelite Rule from about line 21960; the rule of the
+    nuns from line 22050 and the Constitutions for the sisters from line 22424 to the index
+  atlas_ids:
+  - carmelite-reform-and-spanish-mystics
+  role: tradition
+  confidence: assigned
+  note: 'The reform''s own legislation: the paper Teresa wrote to guide her visitors, the primitive Rule,
+    and the Constitutions of the sisters. Primary and normative; the nearest English text to the Constitutions
+    of the Discalced named in the task. The notes in front of the Constitutions on how the text was obtained
+    are the editor''s. Ready to quote once each quote is verified against the page image.'
+- row_id: teresa-of-avila_book-of-foundations_lewis1913--foundations-tridentine
+  work: The Book of the Foundations, Teresa's reference to the Council of Trent and the hermits, and the
+    editor's note on Trent and enclosure
+  author: teresa-of-avila
+  locus: Teresa's own words at line 10025 ("When the holy Council of Trent had been held ...") and on
+    the Council allowing endowments (lines 7135-7140 and 11413); the introduction at line 1183 on the
+    Council legislating for the religious; the notes at lines 2081, 4237 and 15890
+  atlas_ids:
+  - the-tridentine-church
+  role: context
+  confidence: provisional
+  note: 'The reform seen as a response to Trent: at line 10025 the Council''s decree sending hermits into
+    the regular orders drives a foundation, and the editor''s introduction and notes cite the Council
+    on enclosure and on the Brief of Pius IV. Placed on those passages and word counts, not read through,
+    so provisional; a build decides whether this is the Tridentine Church''s own voice or context for
+    it.'
+- row_id: teresa-of-avila_book-of-foundations_lewis1913--foundations-jesuits
+  work: The Book of the Foundations, the passages on the Jesuits who helped found houses
+  author: teresa-of-avila
+  locus: passages naming the Society of Jesus or the Jesuits, for example lines 1171, 5036 and 7528
+  atlas_ids:
+  - the-society-of-jesus
+  role: context
+  confidence: provisional
+  note: Jesuit fathers appear as helpers and counsellors in the foundation stories. Placed on word searches
+    only, so provisional.
+- row_id: teresa-of-avila_book-of-foundations_lewis1913--foundations-carmelites
+  work: The Book of the Foundations, Teresa on the mitigated Rule and the order's Generals
+  author: teresa-of-avila
+  locus: the General of the Order's visit to Avila (contents at line 141) and the pages on the primitive
+    Rule through the book
+  atlas_ids:
+  - the-carmelites
+  role: context
+  confidence: provisional
+  note: The reform seen from its founder, in conflict with the order's mitigated branch. The Carmelites
+    entry covers c. 1206-1300, so this is sixteenth-century reception. Placed on the contents table, so
+    provisional.
+- row_id: teresa-of-avila_book-of-foundations_lewis1913--foundations-colonial
+  work: The Book of the Foundations, the chapter on her brother Lorenzo's return from the Indies
+  author: teresa-of-avila
+  locus: contents entry at line 13901 and the text at line 13989 (Lorenzo de Cepeda, back from the Indies
+    after thirty-four years, helps the nuns find a house)
+  atlas_ids:
+  - colonial-latin-american-devotional-catholicism
+  role: context
+  confidence: needs-ruling
+  note: 'A brother back from the Indies funds a foundation: the American money behind the reform. A few
+    pages only, and outside this entry''s window of c. 1600-1810; needs a ruling on whether it belongs
+    at all.'

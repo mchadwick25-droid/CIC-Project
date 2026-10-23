@@ -1,0 +1,50 @@
+source_file: foxe_acts-and-monuments-v8_cattley-townsend1837.txt
+
+assignments:
+  - row_id: foxe_acts-and-monuments-v8_cattley-townsend1837--the-acts-and-monuments-vol-viii-1556-1558-cranmer-and-the-later-marian-martyrs
+    work: "The Acts and Monuments of John Foxe, Vol. VIII (Cattley/Townsend edition): 1556-1558, Cranmer's process and burning, the Colchester, Guernsey and Sussex martyrs, the last burnings and Elizabeth's accession"
+    author: foxe
+    locus: "whole volume; the contents table from file line 75; Cranmer's life and examinations open the volume, his letters from line 7585 ('LETTERS OF DR. THOMAS CRANMER, ARCHBISHOP OF ...'); 'LETTERS OF WILLIAM TYMS' from line 9459; 'THE STORY OF THREE GUERNSEY WOMEN' from line 18851; 'THE STORY OF RICHARD WOODMAN, MARTYR' from line 26876; 'THE LADY ELIZABETH IN QUEEN MARY'S DAYS' from line 48413; appendix and index follow"
+    atlas_ids:
+      - the-english-reformation-and-elizabethan-settleme
+    role: tradition
+    confidence: assigned
+    note: >
+      Continues Vol. VII: Cranmer's recantations and his last words at Oxford as
+      Foxe reports them; then the examinations of ordinary believers before Bonner
+      (Tyms the curate, Rose Allin, the Colchester six, Richard Woodman the
+      ironmaker with his long self-recorded examinations, the blind and lame
+      martyrs), the Guernsey burning, and Foxe's account of Elizabeth under Mary.
+      Same two-voice caution as Vol. VII: Foxe's frame is this world's voice; the
+      examinations are documentary at one remove. Ready to quote once verified
+      against this file.
+
+  - row_id: foxe_acts-and-monuments-v8_cattley-townsend1837--the-acts-and-monuments-vol-viii-1556-1558-cranmer-and-the-later-marian-martyrs-2
+    work: "The Acts and Monuments of John Foxe, Vol. VIII (Cattley/Townsend edition): 1556-1558"
+    author: foxe
+    locus: "whole volume, as above"
+    atlas_ids:
+      - recusant-english-catholicism
+    role: context
+    confidence: provisional
+    note: >
+      As for Vol. VII: the hostile Protestant record of the Marian church that the
+      recusant community inherited and wrote against, carrying the Marian
+      authorities' own articles and sentences inside it. Provisional, on window and
+      place.
+
+  - row_id: foxe_acts-and-monuments-v8_cattley-townsend1837--the-marian-martyrs-as-read-by-the-godly-household-puritanism
+    work: The Acts and Monuments of John Foxe, Vol. VIII (the Marian martyrs, 1555-1558)
+    author: foxe
+    locus: as the VI.4 rows
+    atlas_ids:
+    - puritanism
+    role: context
+    confidence: provisional
+    note: 'The Book of Martyrs is the one book Lady Hoby''s diary records being read aloud to her household
+      (hoby_diary-1599-1605_meads1930.txt, file line 9984, ''hard one read of the Booke of Marters''; Meads''s
+      note at line 14952 on Bright''s abridgement). Whether this makes Foxe an antecedent for VI.8 under
+      the README''s ''argues from'' rule, or context only, is an open question for the lead (dossier section
+      5); placed as context, provisional, until ruled. Cross-link tier: same time and place.
+
+      '

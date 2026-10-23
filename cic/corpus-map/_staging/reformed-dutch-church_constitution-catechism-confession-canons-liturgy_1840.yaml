@@ -1,0 +1,102 @@
+source_file: reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840.txt
+
+assignments:
+  - row_id: reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840--the-confession-of-faith-belgic-confession
+    work: "The Confession of Faith (Belgic Confession, 1561, revised at Dort 1619), English, 1840 printing"
+    author: reformed-dutch-church
+    locus: "'The Confession of Faith' from line 5151 to the Canons at line 6242 (original pages 40-59)"
+    atlas_ids:
+      - dutch-further-reformation-and-refuge-culture
+    role: tradition
+    confidence: assigned
+    note: >
+      The Dutch Reformed church's own confession, in the English of the Reformed Dutch Church
+      of North America's official 1840 standards. Filed under the publishing church's slug;
+      the confession itself is de Bres's work as revised at Dort. A nineteenth-century
+      rendering, not the French or Latin text: primary for the confession's content, second
+      witness for exact wording. Clean OCR.
+  - row_id: reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840--the-confession-of-faith-belgic-confession-2
+    work: "The Confession of Faith (Belgic Confession), English, 1840 printing"
+    author: reformed-dutch-church
+    locus: "lines 5151-6241"
+    atlas_ids:
+      - the-remonstrants-and-dort
+    role: context
+    confidence: provisional
+    note: >
+      The confession the Remonstrants were required to subscribe and the Synod of Dort
+      revised; placed on that relation only.
+  - row_id: reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840--the-confession-of-faith-belgic-confession-3
+    work: "The Confession of Faith (Belgic Confession), English, 1840 printing"
+    author: reformed-dutch-church
+    locus: "lines 5151-6241"
+    atlas_ids:
+      - the-huguenots
+    role: context
+    confidence: provisional
+    note: >
+      The Belgic Confession was modelled on the French (Gallican) Confession of 1559; placed
+      on that filiation, not read for French matter.
+  - row_id: reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840--the-heidelberg-catechism-and-compendium
+    work: "The Heidelberg Catechism, with the Compendium of the Christian Religion, English, 1840 printing"
+    author: reformed-dutch-church
+    locus: "the Catechism from line 2703 ('Table of Contents' at line 2627), the Compendium from about line 4601, to the Confession at line 5151 (original pages 3-39)"
+    atlas_ids:
+      - dutch-further-reformation-and-refuge-culture
+    role: tradition
+    confidence: assigned
+    note: >
+      The catechism the Dutch synods adopted (Emden 1571, Dort 1574 and 1619) in the Dutch
+      church's own English rendering, with the Compendium used for admission to the Lord's
+      Supper. A second English expression beside Schaff's (schaff_second-helvetic-confession-
+      heidelberg-catechism_1919.txt). Filed under the publishing church's slug; the catechism
+      is Ursinus and Olevianus's. Clean OCR.
+  - row_id: reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840--the-canons-of-the-synod-of-dordrecht
+    work: "The Canons of the Synod of Dordrecht (1619), English, 1840 printing"
+    author: reformed-dutch-church
+    locus: "'Canons' from line 6242 to 'The Liturgy' at line 7089 (original pages 60-75)"
+    atlas_ids:
+      - the-remonstrants-and-dort
+    role: tradition
+    confidence: provisional
+    note: >
+      The Synod of Dort's own decisions in English, bundled in this volume. The Remonstrants-
+      and-Dort world has its own library agent working the canons and acts; this row records
+      what this file carries and leaves the placement to that agent to confirm.
+  - row_id: reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840--the-canons-of-the-synod-of-dordrecht-2
+    work: "The Canons of the Synod of Dordrecht (1619), English, 1840 printing"
+    author: reformed-dutch-church
+    locus: "lines 6242-7088"
+    atlas_ids:
+      - dutch-further-reformation-and-refuge-culture
+    role: tradition
+    confidence: provisional
+    note: >
+      The Dutch church's own doctrinal settlement of 1619, binding on every Nadere Reformatie
+      preacher; placed on that relation.
+  - row_id: reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840--the-liturgy-of-the-reformed-dutch-church
+    work: "The Liturgy of the Reformed Dutch Church (prayers, forms for baptism, the Lord's Supper, discipline, ordination and marriage), English, 1840 printing"
+    author: reformed-dutch-church
+    locus: "'The Liturgy' from line 7089 to the end (original pages 76 onward; the volume's own 'Table of Contents' at line 2627 lists each form)"
+    atlas_ids:
+      - dutch-further-reformation-and-refuge-culture
+    role: tradition
+    confidence: assigned
+    note: >
+      The Dutch Reformed forms of worship and discipline, descended from Dathenus's 1566
+      liturgy and fixed by the sixteenth-century synods, in the church's own English. The
+      words a Dutch congregation heard at every baptism, communion and excommunication inside
+      the window. A nineteenth-century rendering: primary for content, second witness for
+      exact wording. Clean OCR.
+  - row_id: reformed-dutch-church_constitution-catechism-confession-canons-liturgy_1840--the-constitution-of-the-reformed-dutch-church-of-north-america
+    work: "The Constitution of the Reformed Dutch Church of North America, with formularies and rules of the General Synod (1840)"
+    author: reformed-dutch-church
+    locus: "line 239 to the 'Appendix' and formularies ending before line 2612"
+    atlas_ids:
+      - dutch-neo-calvinism-secession-churches
+    role: context
+    confidence: provisional
+    note: >
+      The American Dutch church whose order the 1847-57 Secession emigrants first joined and
+      then, in 1857, partly left. Out of every sixteenth- and seventeenth-century window; kept
+      because the volume is vendored whole. Placed on that later relation only.

@@ -37,6 +37,20 @@ works:
     voice, not the church's own. Placed on the entry's window; the file's own treatment of
     the church was not checked for this placement.
   source_file: doukas_historia-byzantina-grc-lat_bekker1834.txt
+- row_id: ecthesis-chronica_with-chronicon-athenarum-grc_lambros1902--ecthesis-chronica-greek-chronicle-of-sultans-and-patriarchs-2
+  work: 'Ecthesis chronica (Ekthesis chronike): an anonymous Greek chronicle of the Ottoman
+    sultans and the Patriarchs of Constantinople, to 1543'
+  author: ecthesis-chronica
+  locus: Greek text from file line 617 to about 5573; the opening pages are the reign of Manuel
+    II Palaiologos
+  role: context
+  confidence: provisional
+  note: 'The chronicle opens in the reign of Manuel II Palaiologos and runs through the last
+    Palaiologan decades before 1453; placed on window only, the pre-1453 pages not read for
+    this placement.
+
+    '
+  source_file: ecthesis-chronica_with-chronicon-athenarum-grc_lambros1902.txt
 - row_id: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838--chronicon-of-george-sphrantzes-phrantzes-greek-with-latin-2
   work: Chronicon of George Sphrantzes (Phrantzes), Greek with Latin
   author: sphrantzes
