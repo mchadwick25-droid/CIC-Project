@@ -38,6 +38,17 @@ works:
   note: Placed on the entry's window (1650-1821). Greek and Latin text of the 1672 Synod;
     second witness for exact Greek because of scan layout.
   source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
+- row_id: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878--the-confession-of-dositheus-or-the-eighteen-decrees-of-the
+  work: The Confession of Dositheus, or the Eighteen Decrees of the Synod of Jerusalem, 1672
+    (Greek and Latin)
+  author: dositheus
+  locus: headnote and text from about file line 34637
+  role: tradition
+  confidence: assigned
+  note: Schaff's reprint of the Synod's confession; the Synod reaffirmed Mogila's Confession.
+    A second witness beside Kimmel 1850 and Robertson 1899 (English); Greek OCR with accent
+    errors.
+  source_file: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt
 - row_id: euchologion-to-mega_second-edition-grc_zerbos1862--euchologion-to-mega-the-great-euchologion-venice-second-2
   work: Euchologion to mega (the Great Euchologion), Venice second edition, Greek
   author: euchologion-to-mega

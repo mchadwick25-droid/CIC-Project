@@ -253,6 +253,13 @@ authors:
     kind: metadata-omission
     evidence: div2 10.4 'Aristo of Pella' names the author; DC.Creator omits him.
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  artemii-starets:
+    kind: pseudonymous
+    evidence: 'The editors'' preface (about file line 262) calls these ''poslaniia, pripisyvaemyia
+      starttsu Artemiiu'': epistles ascribed to the elder Artemii, tried at the Stoglav council;
+      running heads read ''Poslaniia startsa Artemiia, XVI veka'' (about file line 81026).
+      The attribution is the editors'' own hedge and is carried here.'
+    from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878.txt
   asbury-francis:
     kind: metadata-omission
     evidence: 'Plain-text intake file with no CCEL DC.Creator. Its header names Francis Asbury
@@ -795,6 +802,12 @@ authors:
 
       '
     from_file: collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt
+  filippovich-afanasii:
+    kind: metadata-omission
+    evidence: The contents list (about file line 334) names the diary of the Brest hegumen
+      Afanasii Filippovich, 1646; running heads read 'Diarush Afanasiia Filippovicha, 1646
+      goda' (from about file line 4693). The author is supplied from the contents list.
+    from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878.txt
   fowler_brothers:
     kind: metadata-omission
     evidence: 'The file is plain text and carries no markup to hold a creator, so the extractor
@@ -1033,6 +1046,26 @@ authors:
 
       '
     from_file: anf01_apostolic-fathers-justin-irenaeus.xml
+  kopystenskij:
+    kind: metadata-omission
+    evidence: The volume's table of contents (about file line 336) lists 'Palinodiia. Sochinenie
+      Kievskago ieromonakha Zakharii Kopystenskago, 1621-1622 goda'; the file name carries
+      the series title, so the author is supplied here from the contents list and the running
+      heads (from about file line 20642).
+    from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878.txt
+  krevza:
+    kind: metadata-omission
+    evidence: The contents list (about file line 337) names 'Oborona uni. Sochinenie Vilenskago
+      arkhimandrita Lva Krevzy'; running heads read 'Oborona uni, soch. Lva Krevzy, 1617 goda'
+      (from about file line 10994). The author is supplied from the contents list because
+      the file name carries the series title.
+    from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878.txt
+  kyiv-council-1640-sakovych-account:
+    kind: anonymous
+    evidence: 'Running heads (about file line 1285) read ''Kievskii sobor 1640 goda, po razskazu
+      Sakovicha'': the council''s acts are printed as reported by Sakovych, not as a text
+      of the council itself; treated as a work-entity, not an author''s work.'
+    from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878.txt
   labourt:
     kind: metadata-omission
     evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
@@ -1369,6 +1402,13 @@ authors:
       Greek pen-name form 'lover of truth'; the preface portion read does not name a real
       author, so the slug follows the printed name.
     from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+  philaret:
+    kind: metadata-omission
+    evidence: The volume's table of contents (about file line 232) and Schaff's headnote (about
+      line 38380) name 'The Longer Catechism of the Russian Church, prepared by Philaret';
+      the file name carries Schaff's compendium title, so the author is supplied from the
+      contents list and the headnote.
+    from_file: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt
   phoebadius-of-agen:
     kind: metadata-omission
     evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md (generated from CCEL XML

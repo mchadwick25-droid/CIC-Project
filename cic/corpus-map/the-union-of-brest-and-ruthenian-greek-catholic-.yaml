@@ -3,6 +3,37 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-union-of-brest-and-ruthenian-greek-catholic-
 works:
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878--diarush-diary-of-afanasii-filippovich-hegumen-of-brest-1646
+  work: Diarush (diary) of Afanasii Filippovich, hegumen of Brest, 1646
+  author: filippovich-afanasii
+  locus: title at about file line 3360; running heads from about line 4693 (columns 49-156)
+  role: context
+  confidence: assigned
+  note: An Orthodox hegumen's first-person account of life under the union, written before
+    his execution by the Poles in 1646 (editors' preface). Ruthenian, readable OCR with errors;
+    second witness for quotation.
+  source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878.txt
+- row_id: golubev_petr-mogila-i-ego-spodvizhniki-t1-rus_1883--kievskii-mitropolit-petr-mogila-i-ego-spodvizhniki-vol-1-2
+  work: Kievskii mitropolit Petr Mogila i ego spodvizhniki, vol. 1 (Golubev, narrative)
+  author: golubev
+  locus: the sejm chapters in the contents list (about file lines 340-430)
+  role: context
+  confidence: provisional
+  note: The chapters on the 1632 election sejm and the commission on Orthodox and Uniate quarrels
+    describe the Uniate side of the Brest settlement from the Orthodox metropolitan's court.
+    Placed from the chapter list, not read through; the Union of Brest thread rules on weight.
+  source_file: golubev_petr-mogila-i-ego-spodvizhniki-t1-rus_1883.txt
+- row_id: golubev_petr-mogila-i-ego-spodvizhniki-t2-rus_1898--kievskii-mitropolit-petr-mogila-i-ego-spodvizhniki-vol-2-2
+  work: Kievskii mitropolit Petr Mogila i ego spodvizhniki, vol. 2 (Golubev, narrative)
+  author: golubev
+  locus: the chapters on the sejms of 1635-1641 and the reconciliation projects (about file
+    lines 410-475 in the chapter list)
+  role: context
+  confidence: provisional
+  note: 'Orthodox-Uniate relations in the 1630s and 1640s from the Orthodox metropolitan''s
+    side: sejm disputes, Wladyslaw IV''s reconciliation projects, the Roman see''s replies.
+    Placed from the chapter list; the Union of Brest thread rules on weight.'
+  source_file: golubev_petr-mogila-i-ego-spodvizhniki-t2-rus_1898.txt
 - row_id: guepin_apotre-de-l-union-des-eglises-fra_1897--un-apotre-de-l-union-des-eglises
   work: 'Un apôtre de l''union des Églises au XVIIe siècle: Saint Josaphat et l''Église gréco-slave
     en Pologne et en Russie (2nd edition, two volumes)'
@@ -50,6 +81,27 @@ works:
     it so the reader can judge it. Provisional because the date is not settled in the OCR
     and the author is outside Ruthenia.
   source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878--palinodiia-ili-kniga-oborony-katholicheskoi-palinodia-or-the-2
+  work: Palinodiia, ili kniga oborony katholicheskoi (Palinodia, or the Book of Defence of
+    the Catholic Church), 1621-1622
+  author: kopystenskij
+  locus: same as the Kyiv row
+  role: context
+  confidence: provisional
+  note: The Orthodox answer to the Uniate Oborona uni (same volume). Placed from the editors'
+    preface; the Union of Brest thread rules on weight.
+  source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878.txt
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878--oborona-uni-defence-of-the-union-by-lev-krevza-1617
+  work: Oborona uni (Defence of the Union), by Lev Krevza, 1617
+  author: krevza
+  locus: running heads from about file line 10953 (columns 157-312; detailed contents at columns
+    309-312)
+  role: tradition
+  confidence: assigned
+  note: The Uniate archimandrite of Vilnius's own defence of the union, 1617, printed in Ruthenian.
+    The inside voice of the other side of the settlement, and the text the Palinodiia answers.
+    Readable OCR with scattered errors; second witness for quotation.
+  source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878.txt
 - row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--the-orthodox-confession-confessio-orthodoxa-greek-with-latin-3
   work: The Orthodox Confession (Confessio Orthodoxa), Greek with Latin
   author: mogila
@@ -132,6 +184,30 @@ works:
     Its Polish passages in Latin script are badly garbled in this OCR. Second witness; the
     Apokrisis in the same file answers it.
   source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+- row_id: smotrycki_apologia-peregrinatiey-pol_1628--apologia-peregrinatiey-pol_1628
+  work: Meletij Smotryc'kyj, Apologia of my journey to the Eastern lands (Polish, 1628)
+  author: smotrycki
+  locus: the whole file; title page at the head; dedication to Tomasz Zamoyski after it; imprint
+    at about file line 11785
+  role: tradition
+  confidence: assigned
+  note: Smotryc'kyj's own account and defence of his turn to the union, in his own voice,
+    1628, in Polish. Garbled OCR; second witness for exact wording until quotes are checked
+    on the page images. No public-domain English found.
+  source_file: smotrycki_apologia-peregrinatiey-pol_1628.txt
+- row_id: smotrycki_threnos-pol_1610--threnos-pol_1610-2
+  work: Meletij Smotryc'kyj, Threnos, that is the Lament of the one holy universal apostolic
+    Eastern Church (Polish text, 1610)
+  author: smotrycki
+  locus: the whole file; title page at the head; dedication to Michal Wisniowiecki after it;
+    colophon 'w Wilnie' at about file line 4403
+  role: context
+  confidence: assigned
+  note: 'The Orthodox counter-voice to Brest: the lament of the church the union left, in
+    Polish, by the man who later joined the union. Primary for the Orthodox view of the union
+    in 1610; second witness for exact wording because the OCR of the print is garbled. No
+    public-domain English found.'
+  source_file: smotrycki_threnos-pol_1610.txt
 - row_id: susza_cursus-vitae-josaphat-kuncevicii-lat_martynov1865--cursus-vitae-et-certamen-martyrii-of-josaphat-kuntsevych
   work: Cursus vitae et certamen martyrii B. Josaphat Kuncevicii (the life and martyrdom of
     Josaphat Kuntsevych)

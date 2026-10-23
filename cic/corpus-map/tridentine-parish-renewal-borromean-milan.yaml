@@ -148,6 +148,18 @@ works:
 
     '
   source_file: borromeo_terza-raccolta-lettere-ita_agnelli1763.txt
+- row_id: bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini--papal-constitutions-pius-iv-to-innocent-ix-2
+  work: 'Magnum Bullarium Romanum, Tomus Secundus: papal constitutions of Pius IV to Innocent
+    IX'
+  author: bullarium-romanum
+  locus: as above; the constitutions touching Milan and the reform of bishops are not yet
+    located
+  role: context
+  confidence: provisional
+  note: Placed on window and subject only (the volume covers the pontificates of Borromeo's
+    uncle Pius IV and of Pius V, Gregory XIII and Sixtus V, 1559-1591); not read for Milan-specific
+    matter.
+  source_file: bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt
 - row_id: council-of-trent_roman-catechism_mchugh-callan1923--roman-catechism-borromean-milan
   work: Catechism of the Council of Trent for Parish Priests
   author: council-of-trent

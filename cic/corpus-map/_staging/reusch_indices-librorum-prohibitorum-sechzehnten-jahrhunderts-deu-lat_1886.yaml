@@ -1,0 +1,28 @@
+source_file: reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886.txt
+assignments:
+- row_id: reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886--sixteenth-century-index-texts
+  work: The sixteenth-century Indices librorum prohibitorum as printed by Reusch (1559 Index of Paul IV;
+    1564 Tridentine Index of Pius IV; further indices)
+  author: reusch
+  locus: 'the index texts by section: section 13 Index of Paul IV (1559) and section 15 Index of Pius
+    IV (1564, "der sogenannte Trienter index"), headings at file lines 39767-39771 in the contents list
+    and 15714 in the body; Reusch''s own introduction and notes are scholarship'
+  atlas_ids:
+  - the-tridentine-church
+  role: tradition
+  confidence: provisional
+  note: 'The Index named in the census, in the only edition found on a reachable host that prints the
+    1564 text: Reusch''s 1886 scholarly edition. The Latin index texts are the primary evidence; the OCR
+    is noisy but legible and is a second witness for exact wording until checked against the page images.
+    Provisional because the placement was made from the contents list and five-point sampling, without
+    reading the 1564 section through. No public-domain English translation found.'
+- row_id: reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886--reusch-introduction-and-notes
+  work: Reusch's German introduction and commentary on the sixteenth-century indices
+  author: reusch
+  locus: 'German prose around the printed index texts: introduction near the start and notes throughout'
+  atlas_ids:
+  - the-tridentine-church
+  role: context
+  confidence: assigned
+  note: Nineteenth-century Catholic scholarship (Reusch was an Old Catholic professor) on the history
+    of the Index. Context, never the church's own voice.

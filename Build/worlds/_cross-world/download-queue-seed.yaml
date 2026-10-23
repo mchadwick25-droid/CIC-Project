@@ -7915,3 +7915,182 @@ queue:
     verified_by: direct fetch of the metadata (Jena, Hochhausen, 1843; possible-copyright-status NOT_IN_COPYRIGHT)
       and the OCR, five-point sample, 2026-10-16
     status: not-yet-downloaded
+
+  - title: Collectio confessionum in ecclesiis reformatis publicatarum
+    author: H. A. Niemeyer (ed.)
+    translator: none (Latin and German originals)
+    year: '1840'
+    world: czech-churches-last-century
+    why: Carries the Bohemian confessions of 1535 and 1575 in Latin and the Consensus of Sendomir; the census
+      names the Confession of 1575.
+    url: https://archive.org/details/collectioconfes00niemgoog
+    rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread, 2026-10-16: archive.org metadata API read directly, djvu.txt
+      fetched and sampled at five points (10/30/50/70/90 percent); no access restriction on the item; Bohemian
+      sections located by file line'
+    status: downloaded
+    vendored_as: niemeyer_collectio-confessionum-lat_niemeyer1840.txt
+  - title: Dekrety Jednoty bratrské
+    author: Antonín Gindely (ed.)
+    translator: none (Czech)
+    year: '1865'
+    world: czech-churches-last-century
+    why: The Unity's own decrees and discipline, named in the census as 'Unity of the Brethren discipline
+      records'.
+    url: https://archive.org/details/dekretyjednotybr00ginduoft
+    rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread, 2026-10-16: archive.org metadata API read directly, djvu.txt
+      fetched and sampled at five points (10/30/50/70/90 percent); no access restriction on the item'
+    status: downloaded
+    vendored_as: unity-of-the-brethren_dekrety-jednoty-bratrske-ces_gindely1865.txt
+  - title: Obraz Jednoty českobratrské (Lasicki, Book VIII, ed. Comenius 1649)
+    author: Jan Lasicki; Comenius
+    translator: none (Czech edition of 1869)
+    year: '1869'
+    world: czech-churches-last-century
+    why: The Unity's own account of its customs and orders in its last century.
+    url: https://archive.org/details/obrazjednotyesko00lasi
+    rights_basis: pd-us-by-date (1869 imprint; no rights field on the item)
+    verified_by: 'library/source-research thread, 2026-10-16: archive.org metadata API read directly, djvu.txt
+      fetched and sampled at five points (10/30/50/70/90 percent); no access restriction on the item'
+    status: downloaded
+    vendored_as: lasicki_obraz-jednoty-ceskobratrske-ces_1869.txt
+  - title: Historie o těžkých protivenstvích církve české, 894-1632
+    author: ascribed on the host to Comenius, with Adam Hartmann
+    translator: none (Czech)
+    year: '1890'
+    world: czech-churches-last-century
+    why: The Czech exiles' own history of the suppression under Ferdinand II.
+    url: https://archive.org/details/historieotezkych00come
+    rights_basis: 'pd-us-by-date; host: Library of Congress is unaware of any copyright restrictions'
+    verified_by: 'library/source-research thread, 2026-10-16: archive.org metadata API read directly, djvu.txt
+      fetched and sampled at five points (10/30/50/70/90 percent); no access restriction on the item'
+    status: downloaded
+    vendored_as: unity-of-the-brethren_historie-tezkych-protivenstvi-cirkve-ceske-ces_1890.txt
+  - title: Historie česká od r. 1602 do r. 1623, díl III
+    author: Pavel Skála ze Zhoře
+    translator: Karel Tieftrunk (ed.)
+    year: '1867'
+    world: czech-churches-last-century
+    why: Protestant eyewitness chronicle of the revolt; only vol. III vendored.
+    url: https://archive.org/details/historieeskodr03sk
+    rights_basis: pd-us-by-date (1867 title page; no rights field on the item)
+    verified_by: 'library/source-research thread, 2026-10-16: archive.org metadata API read directly, djvu.txt
+      fetched and sampled at five points (10/30/50/70/90 percent); no access restriction on the item'
+    status: downloaded
+    vendored_as: skala_historie-ceska-1619-1620-ces_tieftrunk1867.txt
+  - title: Paměti nejvyššího kancléře Viléma Slavaty, díl I
+    author: Vilém Slavata
+    translator: Josef Jireček (ed.)
+    year: '1866'
+    world: czech-churches-last-century
+    why: Catholic opposing witness to the Letter of Majesty and the revolt.
+    url: https://archive.org/details/pamtinejvyhokan00jiregoog
+    rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread, 2026-10-16: archive.org metadata API read directly, djvu.txt
+      fetched and sampled at five points (10/30/50/70/90 percent); no access restriction on the item'
+    status: downloaded
+    vendored_as: slavata_pameti-1608-1619-dil1-ces_jirecek1866.txt
+  - title: The Labyrinth of the World and the Paradise of the Heart
+    author: Comenius
+    translator: Count Lutzow
+    year: '1901'
+    world: czech-churches-last-century
+    why: Comenius's allegory of 1623, English, named in the census as Comenius's writing.
+    url: https://archive.org/details/thelabyrinthofth00comeuoft
+    rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread, 2026-10-16: archive.org metadata API read directly, djvu.txt
+      fetched and sampled at five points (10/30/50/70/90 percent); no access restriction on the item'
+    status: downloaded
+    vendored_as: comenius_labyrinth-of-the-world_lutzow1901.txt
+  - title: Labirynt swěta a rág srdce (Czech, 1809 printing)
+    author: Comenius
+    translator: none (Czech original)
+    year: '1809'
+    world: czech-churches-last-century
+    why: Czech original beside Lutzow's English; blackletter OCR, second witness.
+    url: https://archive.org/details/labyrintsvtaarj00comegoog
+    rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread, 2026-10-16: archive.org metadata API read directly, djvu.txt
+      fetched and sampled at five points (10/30/50/70/90 percent); no access restriction on the item'
+    status: downloaded
+    vendored_as: comenius_labyrint-sveta-a-raj-srdce-ces_1809.txt
+  - title: Biblí svatá, text of the Kralice edition of 1613 (printed 1887)
+    author: Bible of Kralice (Unity of the Brethren)
+    translator: none (Czech)
+    year: '1887'
+    world: czech-churches-last-century
+    why: The census names the Kralice Bible as the primary source.
+    url: https://archive.org/details/biblsvataneb00vpra
+    rights_basis: pd-us-by-date (1887 imprint; no rights field on the item)
+    verified_by: 'library/source-research thread, 2026-10-16: archive.org metadata API read directly, djvu.txt
+      fetched and sampled at five points (10/30/50/70/90 percent); no access restriction on the item'
+    status: downloaded
+    vendored_as: kralice-bible_biblj-svata-kralicka-ces_bfbs1887.txt
+  - title: Akty Jednoty bratrské, vol. I
+    author: Jaroslav Bidlo (ed.)
+    translator: none (Czech)
+    year: '1915'
+    world: czech-churches-last-century
+    why: The Unity's acts from its origins; the sampled passages are 15th-century. Mainly the Hussite world's
+      window.
+    url: https://archive.org/details/aktyjednotybratr01bidluoft
+    rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread, 2026-10-16: metadata read, djvu.txt (2.8 MB) sampled at
+      five points: clean Czech. Not vendored.'
+    status: not-yet-downloaded
+  - title: Akty Jednoty bratrské, vol. II (contains a treatise against Rokycana and Matthew of Janov paraphrases)
+    author: Jaroslav Bidlo (ed.)
+    translator: none (Czech)
+    year: '1923'
+    world: czech-churches-last-century
+    why: 15th-century material; belongs to the Hussite world.
+    url: https://archive.org/details/aktyjednotybratr02bidl
+    rights_basis: pd-us-by-date (1923 imprint; no rights field)
+    verified_by: 'library/source-research thread, 2026-10-16: metadata read, djvu.txt (1.2 MB) sampled at
+      five points: clean Czech. Not vendored.'
+    status: not-yet-downloaded
+  - title: Geschichte der Gegenreformation in Böhmen
+    author: Anton Gindely; ed. Theodor Tupetz
+    translator: none (German)
+    year: '1894'
+    world: czech-churches-last-century
+    why: Scholarly account with archival documents of the 1620s suppression (secondary, German).
+    url: https://archive.org/details/geschichtedergeg00ginduoft
+    rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT
+    verified_by: 'library/source-research thread, 2026-10-16: metadata read, djvu.txt (1.7 MB) sampled at
+      five points: clean German. Not vendored: scholarship, and the corpus is near its size trigger.'
+    status: not-yet-downloaded
+  - title: Geschichte der Böhmischen Brüder (vol. II, Prague 1858 per the OCR)
+    author: Anton Gindely
+    translator: none (German, with Latin and Czech documents)
+    year: 1858 (host record gives a 1968 Osnabrück reprint)
+    world: czech-churches-last-century
+    why: Gindely's documentary history of the Brethren to the Rudolfine years.
+    url: https://archive.org/details/geschichtederbh00gindgoog
+    rights_basis: pd-us-by-date if the 1858 Prague imprint is the scanned book; host NOT_IN_COPYRIGHT, but
+      its catalogue date is 1968
+    verified_by: 'library/source-research thread, 2026-10-16: metadata read, djvu.txt (1.45 MB) sampled
+      at five points: Fraktur garbled (the Latin documents read). Not vendored: second witness only.'
+    status: not-yet-downloaded
+  - title: Confessio Bohemica Evangelica, das ist Böhmische Confession (German)
+    author: Bohemian Estates
+    translator: none (German of 1621)
+    year: '1621'
+    world: czech-churches-last-century
+    why: The 1575 Confession in German; second witness beside Niemeyer's Latin.
+    url: https://archive.org/details/bub_gb_uVxVAAAAcAAJ
+    rights_basis: pd-us-by-date (1621 imprint; no rights field on the item)
+    verified_by: 'library/source-research thread, 2026-10-16: metadata read, djvu.txt (240 KB) sampled at
+      five points: Fraktur unreadable at every point. Not vendored.'
+    status: not-yet-downloaded
+  - title: History of the Bohemian and Moravian Brethren
+    author: Ami Bost
+    translator: none (English)
+    year: '1834'
+    world: czech-churches-last-century
+    why: English secondary history of the Brethren (translated from the French); possible English counterweight.
+    url: https://archive.org/details/historyofbohemia00bost
+    rights_basis: 'pd-us-by-date; host: Library of Congress is unaware of any copyright restrictions'
+    verified_by: 'library/source-research thread, 2026-10-16: metadata read only; text not opened. Not vendored.'
+    status: not-yet-downloaded

@@ -3,6 +3,21 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-tridentine-church
 works:
+- row_id: bacci_life-of-st-philip-neri-v1_faber1847--life-of-saint-philip-neri-vol-1
+  work: The Life of Saint Philip Neri, Apostle of Rome, and Founder of the Congregation of
+    the Oratory, Vol. 1 (Books I-III to Chapter VI)
+  author: bacci
+  locus: '"BOOK FIRST" at file line 613 (chapters from 632), "BOOK THE SECOND" at 5913, "BOOK
+    THE THIRD" at 14350, ending at Chapter VI (line 16389); the series prospectus and Google
+    notice before line 613 are not Bacci'
+  role: tradition
+  confidence: assigned
+  note: The Oratory is one of the new bodies the census names. Bacci was a priest of Philip's
+    Oratory writing a devotional Life, so this is the Oratory's own account of its founder,
+    in Faber's 1847 English. Close hagiographic witness, not Philip's own words; quotes are
+    Bacci's report of what Philip said. Volume 1 only; the later books are not in the file.
+    Clean scan.
+  source_file: bacci_life-of-st-philip-neri-v1_faber1847.txt
 - row_id: barlow_brutum-fulmen_1681--brutum-fulmen-pius-v-s-bull-regnans-in-excelsis-against
   work: Brutum Fulmen (Pius V's bull Regnans in Excelsis against Elizabeth I, 1570, with Paul
     III's bull against Henry VIII annexed)
@@ -114,6 +129,27 @@ works:
 
     '
   source_file: borromeo_acta-ecclesiae-mediolanensis-lat_1599.txt
+- row_id: bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini--papal-constitutions-pius-iv-to-innocent-ix
+  work: 'Magnum Bullarium Romanum, Tomus Secundus: papal constitutions of Pius IV, Pius V,
+    Gregory XIII, Sixtus V, Gregory XIV and Innocent IX'
+  author: bullarium-romanum
+  locus: whole volume. Table of popes and constitution counts at file lines 75-82; Pius V
+    section running heads from line 49721; Gregory XIII from line 102239; Sixtus V, including
+    constitution 74 Immensa aeterni Dei ("LXXIV. Institutio quindecim Congregationum"), text
+    from line 170829 and line 171354; Gregory XIV from line 193929. The editors' rubrics,
+    summaries and scholia around each constitution are the compilers' commentary, not the
+    popes' words
+  role: tradition
+  confidence: assigned
+  note: Primary Latin text of the papal acts that carried Trent into the whole church, as
+    the 1727 Luxembourg reprint of the Roman Bullarium prints them. Ready to quote once verified
+    against the file. The scan is a clean Latin print (long s as f), not flagged as garbled.
+    Immensa (Sixtus V, 1588) is the founding act of the Roman Curia's fifteen Congregations,
+    named in the census block as the reorganised curia. No public-domain English translation
+    found. The Profession of Faith of Pius IV and Pius V's Regnans in Excelsis were searched
+    for and not located by OCR spelling variants, so a build should open the volume on the
+    page images rather than assume they are there.
+  source_file: bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt
 - row_id: bellarmine_notes-of-the-church_1688--the-notes-of-the-church-de-notis-ecclesiae-examined-a-church
   work: The Notes of the Church (De Notis Ecclesiae) EXAMINED - a Church of England tract
     series refuting Bellarmine's own Notes of the Church
@@ -145,6 +181,17 @@ works:
 
     '
   source_file: council-of-trent_roman-catechism_mchugh-callan1923.txt
+- row_id: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878--profession-of-the-tridentine-faith-creed-of-pius-iv-1564
+  work: Profession of the Tridentine Faith (Creed of Pius IV), 1564, Latin and English
+  author: council-of-trent
+  locus: contents entry at about file line 6872; text from about line 18254
+  role: context
+  confidence: provisional
+  note: The creed every Catholic cleric swore after Trent, in Latin with Schaff's English.
+    Placed from the contents list; the Tridentine Church thread already holds the Canons and
+    the Catechism, and Schaff also prints the Canons and Decrees of Trent in Latin and English
+    from about line 6897 (a second witness beside Waterworth).
+  source_file: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt
 - row_id: council-of-trent_canons-and-decrees_waterworth1848--the-canons-and-decrees-of-the-sacred-and-oecumenical-council-2
   work: The Canons and Decrees of the Sacred and Oecumenical Council of Trent
   author: council-of-trent
@@ -222,6 +269,67 @@ works:
 
     '
   source_file: marnix_bijenkorf-der-h-roomsche-kerke-nld_1858.txt
+- row_id: pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664--istoria-del-concilio-di-trento-parte-1
+  work: Istoria del Concilio di Trento (Pallavicino, 1664), Parte prima, Libri I-VIII
+  author: pallavicino
+  locus: whole volume; books marked "LIBRO" in the OCR headings
+  role: context
+  confidence: assigned
+  note: 'Cardinal Pallavicino''s Counter-Reformation answer to Sarpi''s history of the Council,
+    in the author''s revised Italian text of 1664. A pro-Curia narrative written after the
+    Council, so context, never the council''s own voice. Closes the dossier''s earlier finding
+    that no English exists: the Italian original is public domain and is now in the corpus;
+    there is still no English translation. Scan quality: clean.'
+  source_file: pallavicino_istoria-del-concilio-di-trento-parte1-ita_1664.txt
+- row_id: pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664--istoria-del-concilio-di-trento-parte-2
+  work: Istoria del Concilio di Trento (Pallavicino, 1664), Parte seconda, Libri IX-XVI
+  author: pallavicino
+  locus: whole volume; books marked "LIBRO" in the OCR headings
+  role: context
+  confidence: assigned
+  note: 'Cardinal Pallavicino''s Counter-Reformation answer to Sarpi''s history of the Council,
+    in the author''s revised Italian text of 1664. A pro-Curia narrative written after the
+    Council, so context, never the council''s own voice. Closes the dossier''s earlier finding
+    that no English exists: the Italian original is public domain and is now in the corpus;
+    there is still no English translation. Scan quality: clean except the closing index.'
+  source_file: pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt
+- row_id: pallavicino_istoria-del-concilio-di-trento-parte3-ita_1664--istoria-del-concilio-di-trento-parte-3
+  work: Istoria del Concilio di Trento (Pallavicino, 1664), Parte terza, Libri XVII-XXIV
+  author: pallavicino
+  locus: whole volume; books marked "LIBRO" in the OCR headings
+  role: context
+  confidence: assigned
+  note: 'Cardinal Pallavicino''s Counter-Reformation answer to Sarpi''s history of the Council,
+    in the author''s revised Italian text of 1664. A pro-Curia narrative written after the
+    Council, so context, never the council''s own voice. Closes the dossier''s earlier finding
+    that no English exists: the Italian original is public domain and is now in the corpus;
+    there is still no English translation. Scan quality: garbled in the later half; second
+    witness. Parts 1 and 2 are the clean witnesses; for the Libri XVII-XXIV (Trent''s last
+    period, 1562-63) a cleaner scan of this volume is a standing want.'
+  source_file: pallavicino_istoria-del-concilio-di-trento-parte3-ita_1664.txt
+- row_id: pius-iv_profession-of-catholick-faith_anon1734--grounds-of-the-controverted-articles
+  work: The "chief Grounds of the controverted Articles" by question and answer (1734)
+  author: pius-iv
+  locus: everything after the Profession, to the end of the file
+  role: context
+  confidence: assigned
+  note: An eighteenth-century English Catholic apologetic written long after the window; it
+    shows how the Profession was taught to converts, not what the Tridentine church said in
+    1564. Context only.
+  source_file: pius-iv_profession-of-catholick-faith_anon1734.txt
+- row_id: pius-iv_profession-of-catholick-faith_anon1734--profession-of-faith
+  work: The Profession of Catholic Faith extracted out of the Council of Trent by Pius IV
+    (English text)
+  author: pius-iv
+  locus: the Profession opens the text, beginning "I N. with a firm Faith believe and profess
+    all and every one of those Things" at file line 97
+  role: tradition
+  confidence: assigned
+  note: The English text of the 1564 Profession of Faith, as used for receiving converts in
+    1734. The wording is the 1734 printing's own English, not Pius IV's Latin; treat as a
+    primary witness to the content of the Profession in English and a second witness for the
+    exact words. The Latin of the Profession is not in this file.
+  source_file: pius-iv_profession-of-catholick-faith_anon1734.txt
 - row_id: pius-v_apostolicarum-epistolarum-lat_1640--apostolicarum-pii-quinti-pont-max-epistolarum-libri-quinque
   work: Apostolicarum Pii Quinti Pont. Max. Epistolarum Libri Quinque
   author: pius-v
@@ -263,6 +371,48 @@ works:
 
     '
   source_file: possevino-giovanni-battista_discorsi-della-vita-di-carlo-borromeo-ita_1591.txt
+- row_id: propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907--collectanea-propaganda-fide-v1
+  work: Collectanea S. Congregationis de Propaganda Fide, Volume I (Ann. 1622-1866, NN. 1-1299)
+  author: propaganda-fide
+  locus: whole volume; the founding constitution Inscrutabili divinae providentiae (Gregory
+    XV, 22 June 1622) at file line 795; entry 135, the 1659 Instruction to the vicars apostolic
+    ("Instr. S. C. de Propag. Fide 1659"), at line 8153. Only entries dated 1622-1650 fall
+    in the window; the rest of the volume runs to 1866
+  role: tradition
+  confidence: assigned
+  note: The census names Propaganda Fide's archive; this is the Congregation's own printed
+    collection of decrees, instructions and replies, in Latin, from its founding year. Primary
+    voice for the 1622-1650 entries once verified against the file; later entries are out
+    of window. Clean Latin scan. No public-domain English translation found. The Iuris pontificii
+    de propaganda fide (1888, Harvard copies) is a second collection of the same Congregation's
+    acts and is recorded in the dossier, not vendored.
+  source_file: propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt
+- row_id: reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886--reusch-introduction-and-notes
+  work: Reusch's German introduction and commentary on the sixteenth-century indices
+  author: reusch
+  locus: 'German prose around the printed index texts: introduction near the start and notes
+    throughout'
+  role: context
+  confidence: assigned
+  note: Nineteenth-century Catholic scholarship (Reusch was an Old Catholic professor) on
+    the history of the Index. Context, never the church's own voice.
+  source_file: reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886.txt
+- row_id: reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886--sixteenth-century-index-texts
+  work: The sixteenth-century Indices librorum prohibitorum as printed by Reusch (1559 Index
+    of Paul IV; 1564 Tridentine Index of Pius IV; further indices)
+  author: reusch
+  locus: 'the index texts by section: section 13 Index of Paul IV (1559) and section 15 Index
+    of Pius IV (1564, "der sogenannte Trienter index"), headings at file lines 39767-39771
+    in the contents list and 15714 in the body; Reusch''s own introduction and notes are scholarship'
+  role: tradition
+  confidence: provisional
+  note: 'The Index named in the census, in the only edition found on a reachable host that
+    prints the 1564 text: Reusch''s 1886 scholarly edition. The Latin index texts are the
+    primary evidence; the OCR is noisy but legible and is a second witness for exact wording
+    until checked against the page images. Provisional because the placement was made from
+    the contents list and five-point sampling, without reading the 1564 section through. No
+    public-domain English translation found.'
+  source_file: reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886.txt
 - row_id: roman-breviary_bute1908--the-roman-breviary-reformed-by-order-of-the-council-of-trent
   work: The Roman Breviary (reformed by order of the Council of Trent; published by Pius V;
     revised by Clement VIII, Urban VIII, and Leo XIII)

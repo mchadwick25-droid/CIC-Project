@@ -226,6 +226,18 @@ works:
 
     '
   source_file: paiva-manso_historia-do-congo-documentos-por_1877.txt
+- row_id: propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907--collectanea-propaganda-fide-v1-2
+  work: 'Collectanea S. Congregationis de Propaganda Fide, Volume I: decrees and instructions
+    on missions'
+  author: propaganda-fide
+  locus: as above
+  role: context
+  confidence: provisional
+  note: 'Placed on subject: the Congregation''s replies to missionaries and vicars apostolic
+    in Asia and the Americas, 1622 onward, including the 1659 Instruction against forcing
+    European customs on the peoples evangelised. Not read for the specific mission fields
+    of that world.'
+  source_file: propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt
 - row_id: purchas_hakluytus-posthumus-pilgrimes-v12_1906--the-jesuit-china-mission-in-english-trigault-ricci-and-pantoja-chapters-v-viii
   work: 'The Jesuit China mission in English: Purchas''s 1625 abridgement of Trigault''s De
     Christiana expeditione (from Ricci) and Pantoja''s letter from Peking of 1602 (Chapters

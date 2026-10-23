@@ -6281,6 +6281,8 @@
     with the long s read as f throughout and many word-level misreads (word-form coverage against
     a clean Latin vocabulary 0.42). A cleaner scan of Comenius's own text (1649-1660 manuscripts)
     would serve as the quotable witness.
+
+    READER: sections - the title and Buddeus's preface, then the printed parts "HISTORIOLA." (file line 1269), "RATIO DISCIPLINAE" (1241, 9932), "PANEGERSIA" (5219) and "LECTORI AMICO" (4120), long s read as f throughout, printed page numbers in the OCR ; credit - "Historia Fratrum Bohemorum, eorum ordo et disciplina ecclesiastica, Jan Amos Comenius, preface by Johann Franz Buddeus, Halle, Orphanotrophium, 1702; digital text from Internet Archive item bub_gb_WoZLAAAAcAAJ (Google Books digitisation, Bavarian State Library)" ; republish - whole text, public domain by date.
 - filename: chelcicky_sit-viry-ces_smetanka1912.txt
   supplied_by: >-
     Claude library/source-research thread (Library acquisition worker), fetched directly from
@@ -9486,3 +9488,118 @@
     kept ; credit - "Mesaionike Bibliotheke, volume 3, edited by Konstantinos N. Sathas, Typois tou Chronou,
     Venice, 1872; digital text from Internet Archive item bub_gb_C6PaY5ZGN5UC (National Library of Naples,
     Google scan)" ; republish - whole text, public domain by date.'
+- filename: niemeyer_collectio-confessionum-lat_niemeyer1840.txt
+  supplied_by: Claude library/source-research thread (Era VII session, one-world agent for VI.24), fetched
+    directly from archive.org
+  date_added: '2026-10-16'
+  notes: 'Niemeyer, Collectio confessionum in ecclesiis reformatis publicatarum (Leipzig, 1840), Latin.
+    Internet Archive item collectioconfes00niemgoog. Carries the Bohemian confession of 1535 (Additamentum
+    2) and the Bohemian confession of 1575 (Additamentum 3, Latin of Frankfurt 1619), the Consensus of
+    Sendomir, and the Reformed confessions of Zurich, Geneva, France, the Netherlands, Scotland and England.
+    Second witness for now, not quotable: the Latin OCR has systematic letter-level misreads and one German
+    blackletter text is garbled; check every wording against the page image. READER: sections - each confession
+    under its own capitalised title (''CONSENSUS TIGURINUS'', ''CONFESSIO BOHEMICA''), the Bohemian texts
+    under the editor''s ''ADDIT.'' numbers, running heads with printed page numbers (for example ''Confessio
+    Bohoemica. Praefatio. 771''), editor''s Latin introductions before each text ; credit - "Collectio
+    confessionum in ecclesiis reformatis publicatarum, ed. H. A. Niemeyer, J. Klinkhardt, Leipzig, 1840;
+    digital text from Internet Archive item collectioconfes00niemgoog (contributor Harvard University,
+    scanned by Google)" ; republish - whole text, public domain by date.'
+- filename: unity-of-the-brethren_dekrety-jednoty-bratrske-ces_gindely1865.txt
+  supplied_by: Claude library/source-research thread (Era VII session, one-world agent for VI.24), fetched
+    directly from archive.org
+  date_added: '2026-10-16'
+  notes: 'Dekrety Jednoty bratrské, ed. Antonín Gindely (Prague, 1865), Czech. Internet Archive item dekretyjednotybr00ginduoft.
+    The Unity''s own decrees and synod rulings on its order and discipline, from the manuscripts. Primary
+    original evidence in Czech, quotable once each wording is checked against the page image. Clean OCR.
+    READER: sections - the decrees under their own Czech headings listed in the OBSAH with page numbers
+    (''O původu Jednoty'', ''Moc biskupa''), printed page numbers kept ; credit - "Dekrety Jednoty bratrské,
+    ed. Antonín Gindely, I. L. Kober, Prague, 1865; digital text from Internet Archive item dekretyjednotybr00ginduoft
+    (contributor Robarts, University of Toronto)" ; republish - whole text, public domain by date.'
+- filename: lasicki_obraz-jednoty-ceskobratrske-ces_1869.txt
+  supplied_by: Claude library/source-research thread (Era VII session, one-world agent for VI.24), fetched
+    directly from archive.org
+  date_added: '2026-10-16'
+  notes: 'Lasicki, Obraz Jednoty českobratrské, Book VIII on the Unity''s customs and orders, as published
+    by Comenius at Leszno in 1649, Czech edition of 1869. Internet Archive item obrazjednotyesko00lasi.
+    Primary original evidence in Czech for the Unity''s discipline in its last century, quotable once
+    each wording is checked against the page image. Clean OCR. READER: sections - chapters headed ''Kapitola
+    I.'' and so on, numbered paragraphs inside each chapter, Comenius''s Předmluva before them, printed
+    page numbers kept ; credit - "Obraz Jednoty českobratrské čili Jana Lasitského Historie o původu a
+    činech Bratří českých, kniha osmá, ed. Spolek Komenského, Prague, 1869; digital text from Internet
+    Archive item obrazjednotyesko00lasi (contributor Robarts, University of Toronto)" ; republish - whole
+    text, public domain by date.'
+- filename: unity-of-the-brethren_historie-tezkych-protivenstvi-cirkve-ceske-ces_1890.txt
+  supplied_by: Claude library/source-research thread (Era VII session, one-world agent for VI.24), fetched
+    directly from archive.org
+  date_added: '2026-10-16'
+  notes: 'Historie o těžkých protivenstvích církve české, 894 to 1632 (Prague, 1890), Czech. Internet
+    Archive item historieotezkych00come. The exiles'' history of the Czech church''s sufferings to the
+    suppression under Ferdinand II; authorship is the host catalogue''s ascription to Comenius with Adam
+    Hartmann. Primary original evidence in Czech, quotable once each wording is checked against the page
+    image. Clean OCR. READER: sections - ''Kapitola I.'' and following, entries by year (''Léta 1618.''),
+    the Waldensian persecution of 1655 appended, printed page numbers kept ; credit - "Historie o těžkých
+    protivenstvích církve české, Dr. Ed. Grégr for the česká evangelická reformovaná církev pražská, Prague,
+    1890; digital text from Internet Archive item historieotezkych00come (contributor Library of Congress)"
+    ; republish - whole text, public domain by date.'
+- filename: skala_historie-ceska-1619-1620-ces_tieftrunk1867.txt
+  supplied_by: Claude library/source-research thread (Era VII session, one-world agent for VI.24), fetched
+    directly from archive.org
+  date_added: '2026-10-16'
+  notes: 'Pavel Skála ze Zhoře, Historie česká od r. 1602 do r. 1623, volume III (1619 to March 1620),
+    ed. Karel Tieftrunk (Prague, 1867), Czech. Internet Archive item historieeskodr03sk. A Protestant
+    eyewitness chronicle of the revolt with the documents it prints. Quotable once each wording is checked
+    against the page image. Clean OCR. READER: sections - ''Obsah dílu III'' listing the year''s events
+    and documents with page numbers, then ''Příběhové l. P. 1619'' and ''Příběhové l. P. 1620'', printed
+    page numbers kept ; credit - "Pavla Skály ze Zhoře Historie česká, díl III, ed. Karel Tieftrunk (Staré
+    paměti dějin českých, II, ed. Antonín Gindely), I. L. Kober, Prague, 1867; digital text from Internet
+    Archive item historieeskodr03sk (contributor Robarts, University of Toronto)" ; republish - whole
+    text, public domain by date.'
+- filename: slavata_pameti-1608-1619-dil1-ces_jirecek1866.txt
+  supplied_by: Claude library/source-research thread (Era VII session, one-world agent for VI.24), fetched
+    directly from archive.org
+  date_added: '2026-10-16'
+  notes: 'Vilém Slavata, Paměti, volume I (1608-1609 and 1618-1619), ed. Josef Jireček (Prague, 1866),
+    Czech with German and Latin passages. Internet Archive item pamtinejvyhokan00jiregoog. A Catholic
+    opposing witness to the Letter of Majesty and the revolt. Quotable once each wording is checked against
+    the page image; some diacritics are misread. READER: sections - ''Obsah'' listing the memoir''s parts
+    with page numbers, Jireček''s introduction on Slavata, the memoir by year, printed page numbers kept
+    ; credit - "Paměti nejvyššího kancléře království českého Viléma hraběte Slavaty, díl I, ed. Josef
+    Jireček, I. L. Kober, Prague, 1866; digital text from Internet Archive item pamtinejvyhokan00jiregoog
+    (scanned by Google; contributing library not named)" ; republish - whole text, public domain by date.'
+- filename: comenius_labyrinth-of-the-world_lutzow1901.txt
+  supplied_by: Claude library/source-research thread (Era VII session, one-world agent for VI.24), fetched
+    directly from archive.org
+  date_added: '2026-10-16'
+  notes: 'Comenius, The Labyrinth of the World and the Paradise of the Heart, ed. and trans. Count Lutzow
+    (London, 1901), English. Internet Archive item thelabyrinthofth00comeuoft. Comenius''s allegory of
+    1623 with Lutzow''s introduction. Readable witness, quotable once each wording is checked against
+    the page image. Czech original in comenius_labyrint-sveta-a-raj-srdce-ces_1809.txt. READER: sections
+    - chapters headed ''CHAPTER I.'' and following, with ''CONTENTS'' and Lutzow''s ''INTRODUCTION'' before
+    them, printed page numbers kept ; credit - "The Labyrinth of the World and the Paradise of the Heart,
+    by John Amos Komensky (Comenius), ed. and trans. Count Lutzow, Swan Sonnenschein & Co., London, 1901;
+    digital text from Internet Archive item thelabyrinthofth00comeuoft (contributor Robarts, University
+    of Toronto)" ; republish - whole text, public domain by date.'
+- filename: comenius_labyrint-sveta-a-raj-srdce-ces_1809.txt
+  supplied_by: Claude library/source-research thread (Era VII session, one-world agent for VI.24), fetched
+    directly from archive.org
+  date_added: '2026-10-16'
+  notes: 'Comenius, Labirynt swěta a rág srdce, Czech, 1809 printing. Internet Archive item labyrintsvtaarj00comegoog.
+    The Czech original of the Labyrinth. Second witness for now, not quotable: the OCR reads blackletter
+    poorly (5865 long-s characters converted to s; many letters and diacritics wrong). Lutzow''s English
+    is the readable witness. READER: sections - no reliable divisions in the garbled OCR; running heads
+    and printed page numbers only ; credit - "Labirynt swěta a rág srdce, by Jan Amos Komenský, Czech
+    edition of 1809; digital text from Internet Archive item labyrintsvtaarj00comegoog (contributor Harvard
+    University, scanned by Google)" ; republish - whole text, public domain by date.'
+- filename: kralice-bible_biblj-svata-kralicka-ces_bfbs1887.txt
+  supplied_by: Claude library/source-research thread (Era VII session, one-world agent for VI.24), fetched
+    directly from archive.org
+  date_added: '2026-10-16'
+  notes: 'Biblí svatá, text of the last Kralice edition of 1613, printed for the British and Foreign Bible
+    Society (Prague, 1887), Czech. Internet Archive item biblsvataneb00vpra. The Unity''s Czech Bible
+    in its 1613 text; not the 1579-93 first edition. Quotable once each wording is checked against the
+    page image. Readable OCR with marginal-reference noise. READER: sections - the books under their own
+    Czech titles listed in the ''POŘÁDEK KNIH'' contents, chapters and numbered verses, marginal cross-references
+    printed inline in the OCR ; credit - "Biblí svatá aneb všecka svatá písma Starého i Nového zákona,
+    podlé posledního vydání kralického z roku 1613, Britická i Zahraniční Společnost Biblická, Prague,
+    1887; digital text from Internet Archive item biblsvataneb00vpra (contributor Robarts, University
+    of Toronto)" ; republish - whole text, public domain by date.'

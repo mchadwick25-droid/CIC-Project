@@ -1,0 +1,32 @@
+source_file: bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt
+assignments:
+- row_id: bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini--papal-constitutions-pius-iv-to-innocent-ix
+  work: 'Magnum Bullarium Romanum, Tomus Secundus: papal constitutions of Pius IV, Pius V, Gregory XIII,
+    Sixtus V, Gregory XIV and Innocent IX'
+  author: bullarium-romanum
+  locus: whole volume. Table of popes and constitution counts at file lines 75-82; Pius V section running
+    heads from line 49721; Gregory XIII from line 102239; Sixtus V, including constitution 74 Immensa
+    aeterni Dei ("LXXIV. Institutio quindecim Congregationum"), text from line 170829 and line 171354;
+    Gregory XIV from line 193929. The editors' rubrics, summaries and scholia around each constitution
+    are the compilers' commentary, not the popes' words
+  atlas_ids:
+  - the-tridentine-church
+  role: tradition
+  confidence: assigned
+  note: Primary Latin text of the papal acts that carried Trent into the whole church, as the 1727 Luxembourg
+    reprint of the Roman Bullarium prints them. Ready to quote once verified against the file. The scan
+    is a clean Latin print (long s as f), not flagged as garbled. Immensa (Sixtus V, 1588) is the founding
+    act of the Roman Curia's fifteen Congregations, named in the census block as the reorganised curia.
+    No public-domain English translation found. The Profession of Faith of Pius IV and Pius V's Regnans
+    in Excelsis were searched for and not located by OCR spelling variants, so a build should open the
+    volume on the page images rather than assume they are there.
+- row_id: bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini--papal-constitutions-pius-iv-to-innocent-ix-2
+  work: 'Magnum Bullarium Romanum, Tomus Secundus: papal constitutions of Pius IV to Innocent IX'
+  author: bullarium-romanum
+  locus: as above; the constitutions touching Milan and the reform of bishops are not yet located
+  atlas_ids:
+  - tridentine-parish-renewal-borromean-milan
+  role: context
+  confidence: provisional
+  note: Placed on window and subject only (the volume covers the pontificates of Borromeo's uncle Pius
+    IV and of Pius V, Gregory XIII and Sixtus V, 1559-1591); not read for Milan-specific matter.

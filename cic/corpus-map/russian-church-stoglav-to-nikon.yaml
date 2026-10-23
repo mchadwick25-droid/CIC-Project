@@ -17,6 +17,17 @@ works:
     1.5 million characters); whether a given document is his own letter or an account of it
     must be checked on the page. Good OCR. No public-domain English translation of these acts.'
   source_file: akty-arkheograficheskoi-ekspeditsii_akty-t2-1598-1615-rus_1836.txt
+- row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878--poslaniia-startsa-artemiia-epistles-ascribed-to-the-elder
+  work: Poslaniia startsa Artemiia (epistles ascribed to the elder Artemii)
+  author: artemii-starets
+  locus: running heads from about file line 81023 (columns 1201-1448)
+  role: tradition
+  confidence: provisional
+  note: Epistles ascribed to the Muscovite elder Artemii, tried at the Stoglav council of
+    1551 and later a refugee in Lithuania (editors' preface). Placed on the Russian Church
+    entry's window; the attribution is the editors' own hedge, and the epistles were written
+    in Lithuania, so a build thread may prefer to rule it context.
+  source_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878.txt
 - row_id: domostroi_domostroi-rus_yakovlev1867--domostroi-household-and-devotional-discipline-manual-from
   work: Domostroi (household and devotional discipline manual), from the manuscripts of the
     Imperial Public Library (Yakovlev 1867)

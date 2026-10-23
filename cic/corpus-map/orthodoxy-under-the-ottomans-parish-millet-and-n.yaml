@@ -374,6 +374,14 @@ works:
 
     '
   source_file: mogila_orthodox-confession_anon1762.txt
+- row_id: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878--the-orthodox-confession-of-the-eastern-church-part-i-faith-2
+  work: The Orthodox Confession of the Eastern Church, Part I (Faith), Greek with Latin
+  author: mogila
+  locus: same as the Kyiv row
+  role: tradition
+  confidence: assigned
+  note: Same text and placement as the Kimmel and Overbeck rows for this entry.
+  source_file: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt
 - row_id: nikodemos-hagiorite_pedalion-canons-grc_1886--pedalion-the-rudder-the-holy-and-divine-canons-with-the
   work: 'Pedalion (the Rudder): the holy and divine canons with the commentary of Agapios
     and Nikodemos, Greek'

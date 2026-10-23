@@ -1129,7 +1129,7 @@ works:
     and the notes lower it, so the figure is a comparison across files and not a measure of
     accuracy.'
   source_file: lainez_epistolae-et-acta-v8-lat_1917.txt
-- row_id: lobo_voyage-to-abyssinia_johnson1735--a-voyage-to-abyssinia-lobo-english-johnson-2
+- row_id: lobo_voyage-to-abyssinia_johnson1735--a-voyage-to-abyssinia-lobo-english-johns-2
   work: A Voyage to Abyssinia, Lobo (English, Johnson)
   author: lobo
   locus: Whole work
@@ -1138,7 +1138,7 @@ works:
   note: A Jesuit's own account of the Ethiopian mission in the last years before the expulsion.
     Placed on window and subject; the Jesuit world's builders will weigh it.
   source_file: lobo_voyage-to-abyssinia_johnson1735.txt
-- row_id: mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908--expeditio-aethiopica-books-i-and-ii-mendes-latin-text-edited-by-beccar-2
+- row_id: mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908--expeditio-aethiopica-books-i-and-ii-mend-2
   work: Expeditio Aethiopica, Books I and II (Mendes), Latin text edited by Beccari
   author: mendes
   locus: Liber primus from file line 4165, Liber secundus from 9305
@@ -1257,7 +1257,7 @@ works:
 
     '
   source_file: nadal_scholia-in-constitutiones-lat_1883.txt
-- row_id: paez_historia-aethiopiae-liber-3-4-por_beccari1906--historia-da-etiopia-books-iii-and-iv-paez-portuguese-text-edited-by-be-2
+- row_id: paez_historia-aethiopiae-liber-3-4-por_beccari1906--historia-da-etiopia-books-iii-and-iv-pae-2
   work: Historia da Etiopia, Books III and IV (Paez), Portuguese text edited by Beccari
   author: paez
   locus: Livro III from file line 766, Livro IV from 13917
@@ -1539,15 +1539,15 @@ works:
     run by the Jesuit-advised archbishop of Goa; the Society's part is in Hough and Whitehouse
     as well.
   source_file: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt
-- row_id: telles_travels-of-the-jesuits-in-ethiopia_1710--the-travels-of-the-jesuits-in-ethiopia-english-1710-2
+- row_id: telles_travels-of-the-jesuits-in-ethiopia_1710--the-travels-of-the-jesuits-in-ethiopia-e-2
   work: The Travels of the Jesuits in Ethiopia (English, 1710)
   author: telles
   locus: Whole work
   role: context
   confidence: provisional
-  note: The same account as the Jesuits' own mission narrative in Ethiopia, 1555-1634. Placed
-    on window and subject without reading the whole; a mission history written about Jesuit
-    work and attributed to a Jesuit author.
+  note: The same account, read as the Jesuits' own mission narrative in Ethiopia. Placed on
+    window and subject without reading the whole; a mission history written about Jesuit work
+    and attributed to a Jesuit author.
   source_file: telles_travels-of-the-jesuits-in-ethiopia_1710.txt
 - row_id: trigault_de-christiana-expeditione-apud-sinas-lat_1615--de-christiana-expeditione-apud-sinas-trigault-from-ricci
   work: De Christiana expeditione apud Sinas (Trigault, from Ricci)

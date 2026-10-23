@@ -577,3 +577,31 @@ works:
       related but not word for word. Not checked page by page.
 
       '
+
+  - work_id: comenius-labyrinth-of-the-world
+    title: Labyrint světa a ráj srdce (The Labyrinth of the World and the Paradise of the Heart)
+    author: comenius
+    original_language: Czech
+    composed: 1623 (per Lutzow's introduction)
+    external_ids:
+      cpg: null
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+    - translator: null
+      year: 1809
+      language: Czech
+      recension: Czech
+      items:
+      - cic:comenius_labyrint-sveta-a-raj-srdce-ces_1809.txt:whole-file
+    - translator: Count Lutzow
+      year: 1901
+      language: English
+      recension: Czech
+      items:
+      - cic:comenius_labyrinth-of-the-world_lutzow1901.txt:whole-file
+    notes: 'Czech original (blackletter OCR, second witness) and Lutzow''s English translation, which is
+      the readable witness. The date of composition is Lutzow''s, not independently checked.
+
+      '
