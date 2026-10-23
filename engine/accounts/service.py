@@ -721,14 +721,21 @@ class AccountsService:
         if not self._allow("attach_net", self.keys.network_key(network), 900, self.limits.attaches_per_network_15min):
             return Result("throttled")
         if not isinstance(code_hash, str) or not 0 < len(code_hash) <= 128:
-            return Result("wrong")
+            return Result("wrong")  # a code the edge did not find; counted above, so guessing is limited
         held_as = self.keys.secret_candidates("code", code_hash)
         outcome = self.store.attach_code(
             session.account_id, held_as[0], held_as, self.today().isoformat(), self.limits.codes_per_account
         )
         if outcome in ("ok", "mine"):
             return Result("ok")
-        return Result("code_taken" if outcome == "taken" else "codes_full")
+        return Result({"taken": "code_taken", "gone": "gone"}.get(outcome, "codes_full"))
+
+    def rescramble_code(self, account_id: str, old: str, new: str) -> None:
+        """A held code is found under an older key; it is kept under the current one from now on."""
+        self.store.rescramble_code(account_id, old, new)
+
+    def drop_code_links(self, account_id: str, scrambles: list[str]) -> int:
+        return self.store.drop_code_links(account_id, scrambles)
 
     def admission_context(self, cookie) -> dict | None:
         """What the admission seam needs of a signed-in request: the account id, its refill day

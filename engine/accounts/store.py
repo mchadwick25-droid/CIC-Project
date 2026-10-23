@@ -223,6 +223,8 @@ class AccountStore:
                     (scramble, day, account_id),
                 ).rowcount == 1:
                     outcome = "ok"
+                elif self._d.execute("SELECT 1 FROM accounts WHERE account_id = ?", (account_id,)).fetchone() is None:
+                    outcome = "gone"
                 else:
                     outcome = "taken"
                 self._d.execute("COMMIT")
@@ -230,6 +232,25 @@ class AccountStore:
                 self._d.execute("ROLLBACK")
                 raise
             return outcome
+
+    def rescramble_code(self, account_id: str, old: str, new: str) -> None:
+        """Moves a held code's scramble to the current key. If the account already holds the new
+        form, the old row is simply dropped."""
+        with self._lock:
+            try:
+                self._d.execute("UPDATE account_codes SET scramble = ? WHERE scramble = ? AND account_id = ?", (new, old, account_id))
+            except sqlite3.IntegrityError:
+                self._d.execute("DELETE FROM account_codes WHERE scramble = ? AND account_id = ?", (old, account_id))
+
+    def drop_code_links(self, account_id: str, scrambles: list[str]) -> int:
+        """Removes held-code links that no longer name a live code."""
+        if not scrambles:
+            return 0
+        marks = ",".join("?" * len(scrambles))
+        with self._lock:
+            return self._d.execute(
+                f"DELETE FROM account_codes WHERE account_id = ? AND scramble IN ({marks})", (account_id, *scrambles)
+            ).rowcount
 
     def code_scrambles_of(self, account_id: str) -> list[str]:
         with self._lock:

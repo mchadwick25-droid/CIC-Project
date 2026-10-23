@@ -94,6 +94,10 @@ REQUIRED = {
         "test_the_account_file_holds_a_scramble_of_the_code_hash_never_the_hash",
         "test_a_signed_in_sitting_builds_the_same_voice_request_as_an_anonymous_one",
         "test_a_safety_turn_is_answered_for_a_signed_in_person_and_draws_nothing",
+        "test_a_browser_with_no_visitor_cookie_seeds_nothing_from_its_network",
+        "test_held_codes_survive_a_rotation_of_the_address_key_and_its_retirement",
+        "test_a_group_a_spent_and_a_made_up_code_cannot_be_attached",
+        "test_a_turn_reserved_in_one_window_is_not_charged_to_the_next",
     ],
     "engine/api/tests/test_contact_cipher.py": [
         "test_a_sealed_address_opens_with_its_key_and_context_only",

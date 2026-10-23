@@ -233,7 +233,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         """A new account starts with what is left of its browser's free window, so signing up
         is not a second allowance. A fault here never fails the sign-in."""
         deeper = getattr(request.app.state, "deeper", None)
-        visitor = getattr(request.state, "visitor_id", None) or f"ip:{network_of(client_ip(request))}"
+        visitor = getattr(request.state, "visitor_id", None)  # a verified cookie only, never the address
         if not result.new_account or deeper is None or deeper.free is None or not visitor:
             return
         try:
@@ -282,7 +282,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
     async def _refuse(result: Result, *, delay: bool) -> None:
         if delay:
             await asyncio.sleep(runtime.miss_delay_seconds)
-        status = {"throttled": 429, "paused": 503, "send_failed": 503, "not_available": 404, "codes_unavailable": 404}.get(result.status, 400)
+        status = {"throttled": 429, "paused": 503, "send_failed": 503, "not_available": 404, "codes_unavailable": 404, "gone": 401}.get(result.status, 400)
         raise HTTPException(status_code=status, detail=MESSAGES.get(result.status, "That did not work."))
 
     @app.post("/api/accounts/sign-in/start")
@@ -370,9 +370,13 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         if deeper is None:
             await _refuse(Result("codes_unavailable"), delay=False)
         code_hash = await run_in_threadpool(real_code_hash, body.code, deeper)
-        if code_hash is None:
-            await _refuse(Result("wrong"), delay=True)
         result = await run_in_threadpool(service.attach_code, session, code_hash, _network(request))
+        if result.status == "codes_full":
+            # Links that name no live code are dead weight; clear them and try once more.
+            context = await run_in_threadpool(account_context, request, deeper)
+            if context is not None and context.unresolved:
+                await run_in_threadpool(service.drop_code_links, session.account_id, context.unresolved)
+                result = await run_in_threadpool(service.attach_code, session, code_hash, _network(request))
         if result.status != "ok":
             await _refuse(result, delay=True)
         index = code_index(request, deeper)
@@ -382,27 +386,32 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
 
     @app.get("/api/accounts/balance")
     async def balance(request: Request):
-        session = await run_in_threadpool(service.session, request.cookies.get(runtime.cookie_name))
+        """The account's own free window and the codes it holds. The free figure is the account's
+        window alone; a turn is also bounded by the network window and the door, as the header says."""
         deeper = getattr(request.app.state, "deeper", None)
-        if session is None:
+        if not request.cookies.get(runtime.cookie_name):
             return {"signed_in": False}
         if deeper is None or deeper.free is None:
             return {"signed_in": True, "available": False}
         context = await run_in_threadpool(account_context, request, deeper)
         if context is None:
             return {"signed_in": False}
-        free = deeper.free
-        held = [deeper.meter.status_of_hash(h) for h in context.code_hashes]
-        start = deeper.meter.account_window_start(context.refill_day)
-        refill_on = (start.replace(day=1) + timedelta(days=32)).replace(day=context.refill_day)
-        return {
-            "signed_in": True, "available": True,
-            "free_left": free.account_left(context.account_id, context.refill_day),
-            "free_total": free.window_amount,
-            "refill_on": refill_on.isoformat(),
-            "codes_held": len(context.code_hashes),
-            "code_tokens": sum(i.remaining for i in held if i is not None and i.status != "void"),
-        }
+        try:
+            free = deeper.free
+            held = [deeper.meter.status_of_hash(h) for h in context.code_hashes]
+            start = deeper.meter.account_window_start(context.refill_day)
+            refill_on = (start.replace(day=1) + timedelta(days=32)).replace(day=context.refill_day)
+            return {
+                "signed_in": True, "available": True,
+                "free_left": free.account_left(context.account_id, context.refill_day),
+                "free_total": free.window_amount,
+                "refill_on": refill_on.isoformat(),
+                "codes_held": len(context.code_hashes),
+                "code_tokens": sum(i.remaining for i in held if i is not None and i.status == "live"),
+            }
+        except Exception:  # noqa: BLE001
+            logger.exception("the account balance could not be read")
+            return {"signed_in": True, "available": False}
 
     @app.get("/api/accounts/me")
     async def me(request: Request):

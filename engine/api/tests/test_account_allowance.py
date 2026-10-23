@@ -1,6 +1,8 @@
 """A2: the account's monthly allowance and the codes it holds, at the admission seam."""
 from datetime import date, timedelta
 
+import dataclasses
+
 import pytest
 from fastapi.testclient import TestClient
 
@@ -94,7 +96,9 @@ def test_a_signed_in_person_draws_the_account_window_and_leaves_the_browser_wind
     spent = solo_charge(runtime, 1)
     assert runtime.free.account_left(context["account_id"], context["refill_day"]) == runtime.free.window_amount - spent
     assert reply.headers["x-cic-free-left"] == str(runtime.free.window_amount - spent)
-    assert runtime.meter.free_window_spent(runtime.meter.free_key("ip:testclient")) == 0
+    visitor = http.cookies.get("cic_visitor").split(".")[0]
+    assert runtime.meter.free_window_spent(runtime.meter.free_key(visitor)) == 0  # the browser's window is untouched
+    assert runtime.meter.free_window_spent(runtime.meter.free_key("network:testclient")) == spent  # the network's is drawn
 
 
 def test_a_new_account_starts_with_what_is_left_of_its_browser_window(setup, runtime, accounts, mailer):
@@ -300,3 +304,128 @@ def test_signing_in_reads_the_visitor_cookie_and_mints_none(setup, mailer):
     http, client = setup
     done = sign_in(http, mailer)
     assert "cic_visitor" not in done.headers.get("set-cookie", "") and http.cookies.get("cic_visitor") is None
+
+
+def test_a_browser_with_no_visitor_cookie_seeds_nothing_from_its_network(setup, runtime, accounts, mailer):
+    http, client = setup
+    runtime.free.settle(runtime.free.reserve("ip:testclient", 400), True)  # cookie-less traffic behind the same network
+    sign_in(http, mailer)  # no conversation was opened first, so no cookie
+    context = me_account(accounts, http)
+    assert runtime.free.account_left(context["account_id"], context["refill_day"]) == runtime.free.window_amount
+
+
+def test_held_codes_survive_a_rotation_of_the_address_key_and_its_retirement(setup, runtime, accounts, mailer):
+    from engine.accounts.keys import PreviousKey
+    http, client = setup
+    sign_in(http, mailer)
+    code = code_with(runtime, 5000)
+    attach(http, code)
+    service = accounts.service
+    service.keys = KeyRing("b" * 40, SESSION_KEY, key_id="k2", previous=[PreviousKey("k1", ADDRESS_KEY, date(2099, 1, 1))])
+    http.app.state.account_code_index = None
+    assert http.get("/api/accounts/balance").json()["codes_held"] == 1  # found under the old key, moved to the new
+    assert service.store.code_scrambles_of(me_account(accounts, http)["account_id"])[0].startswith("k2:")
+    assert service.store._d.execute("SELECT COUNT(*) FROM account_codes WHERE scramble NOT LIKE 'k2:%'").fetchone()[0] == 0
+    service.keys = KeyRing("b" * 40, SESSION_KEY, key_id="k2")  # the old key retires
+    http.app.state.account_code_index = None
+    assert http.get("/api/accounts/balance").json()["codes_held"] == 1
+    other = TestClient(http.app, base_url="https://testserver")
+    sign_in(other, mailer, "bob@example.org")
+    assert attach(other, code).status_code == 400  # still one holder
+
+
+def test_a_group_a_spent_and_a_made_up_code_cannot_be_attached(setup, runtime, accounts, mailer):
+    http, client = setup
+    sign_in(http, mailer)
+    group = code_with(runtime, 1000, kind="group")
+    spent = code_with(runtime, 5)
+    runtime.meter.settle(runtime.meter.reserve(spent, 5).reservation, True)
+    assert attach(http, group).status_code == 400
+    assert attach(http, spent).status_code == 400
+    assert http.get("/api/accounts/balance").json()["codes_held"] == 0
+
+
+def test_links_that_name_no_live_code_are_cleared_when_the_account_is_full(setup, runtime, accounts, mailer):
+    http, client = setup
+    sign_in(http, mailer)
+    accounts.service.limits = dataclasses.replace(accounts.service.limits, codes_per_account=2)
+    first, second, third = code_with(runtime, 100), code_with(runtime, 100), code_with(runtime, 100)
+    assert attach(http, first).status_code == 200 and attach(http, second).status_code == 200
+    assert attach(http, third).status_code == 400  # full, and both still live
+    runtime.meter.settle(runtime.meter.reserve(first, 100).reservation, True)  # the first is spent
+    assert attach(http, third).status_code == 200
+    assert http.get("/api/accounts/balance").json()["codes_held"] == 2
+
+
+def test_attaching_is_throttled_before_the_code_is_looked_at(setup, accounts, mailer):
+    http, client = setup
+    sign_in(http, mailer)
+    accounts.service.limits = dataclasses.replace(accounts.service.limits, attaches_per_network_15min=3)
+    statuses = [attach(http, codes.generate()).status_code for _ in range(5)]
+    assert statuses[:3] == [400, 400, 400] and statuses[3:] == [429, 429]
+
+
+def test_a_code_on_the_request_pays_first_and_the_account_s_codes_are_not_touched(setup, runtime, accounts, mailer):
+    http, client = setup
+    sign_in(http, mailer)
+    held = code_with(runtime, 5000)
+    attach(http, held)
+    header = code_with(runtime, 5000)
+    context = me_account(accounts, http)
+    runtime.free.settle(runtime.free.account_reserve(context["account_id"], context["refill_day"],
+                                                     runtime.free.account_left(context["account_id"], context["refill_day"])), True)
+    session_id, auth = open_session(http, **{"X-Cic-Code": header})
+    replies = [say(http, session_id, auth, f"q{i}") for i in range(FREE_CAP + 1)]
+    assert replies[-1].json()["voice"] is not None
+    assert runtime.meter.status(held).remaining == 5000 and runtime.meter.status(header).remaining < 5000
+
+
+def test_the_first_held_code_that_can_carry_the_turn_pays_and_the_nearest_reason_is_given_when_none_can(setup, runtime, accounts, mailer):
+    http, client = setup
+    sign_in(http, mailer)
+    small, big = code_with(runtime, 1), code_with(runtime, 5000)
+    attach(http, small)
+    attach(http, big)
+    context = me_account(accounts, http)
+    runtime.free.settle(runtime.free.account_reserve(context["account_id"], context["refill_day"],
+                                                     runtime.free.account_left(context["account_id"], context["refill_day"])), True)
+    say(http, *open_session(http), "hello")
+    assert runtime.meter.status(small).remaining == 1 and runtime.meter.status(big).remaining < 5000
+
+
+def test_a_turn_reserved_in_one_window_is_not_charged_to_the_next(runtime):
+    free = runtime.free
+    runtime.meter._clock = lambda: date(2026, 10, 14)
+    held = free.account_reserve("acct-r", 15, 100)
+    runtime.meter._clock = lambda: date(2026, 10, 15)  # the refill day arrives while the turn is in flight
+    free.settle(held, True)
+    assert free.account_left("acct-r", 15) == free.window_amount
+
+
+def test_an_account_code_exempts_a_message_from_the_monthly_bound(setup, runtime, accounts, mailer):
+    from types import SimpleNamespace
+    from engine.api import deeper_admission
+    http, client = setup
+    sign_in(http, mailer)
+    code = code_with(runtime, 100)
+    attach(http, code)
+    request = SimpleNamespace(
+        app=http.app, cookies={accounts.cookie_name: http.cookies.get(accounts.cookie_name)},
+        state=SimpleNamespace(), headers={},
+    )
+    assert deeper_admission.code_holds_tokens(runtime, request) is True
+    bare = SimpleNamespace(app=http.app, cookies={}, state=SimpleNamespace(), headers={})
+    assert deeper_admission.code_holds_tokens(runtime, bare) is False
+
+
+def test_the_balance_survives_a_meter_fault_and_says_so(setup, runtime, accounts, mailer, monkeypatch):
+    http, client = setup
+    sign_in(http, mailer)
+    attach(http, code_with(runtime, 100))
+
+    def broken(*a, **k):
+        raise RuntimeError("meter unavailable")
+
+    monkeypatch.setattr(runtime.meter, "status_of_hash", broken)
+    body = http.get("/api/accounts/balance").json()
+    assert body["signed_in"] is True and body["available"] is False

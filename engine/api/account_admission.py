@@ -25,6 +25,7 @@ class AccountContext:
     account_id: str
     refill_day: int
     code_hashes: list[str] = field(default_factory=list)
+    unresolved: list[str] = field(default_factory=list)  # held links that name no live code
 
 
 class CodeIndex:
@@ -36,7 +37,7 @@ class CodeIndex:
         self._clock = clock
         self._lock = threading.Lock()
         self._by_scramble: dict[str, str] = {}
-        self._generation: int | None = None
+        self._generation = None
         self._built_at = 0.0
 
     def _rebuild(self) -> None:
@@ -53,13 +54,26 @@ class CodeIndex:
             for scramble in self._keys.secret_candidates("code", code_hash):
                 self._by_scramble[scramble] = code_hash
 
-    def hashes_for(self, scrambles: list[str]) -> list[str]:
+    def resolve(self, scrambles: list[str]) -> list[tuple[str, str]]:
+        """(stored scramble, meter hash) for each held link that names a live code."""
         if not scrambles:
             return []
         with self._lock:
             if self._clock() - self._built_at > REFRESH_SECONDS or self._generation != self._meter.code_generation():
                 self._rebuild()
-            return [self._by_scramble[s] for s in scrambles if s in self._by_scramble]
+            return [(s, self._by_scramble[s]) for s in scrambles if s in self._by_scramble]
+
+
+def _move_to_current_key(service, account_id: str, found: list[tuple[str, str]]) -> None:
+    """A held code found under an older address key is kept under the current one from now on,
+    as an address is re-keyed at its owner's next sign-in. Best effort; a fault changes nothing."""
+    try:
+        for stored, code_hash in found:
+            current = service.keys.secret_hash("code", code_hash)
+            if stored != current:
+                service.rescramble_code(account_id, stored, current)
+    except Exception:  # noqa: BLE001
+        logger.exception("a held code could not be moved to the current key")
 
 
 def real_code_hash(raw, runtime) -> str | None:
@@ -70,7 +84,8 @@ def real_code_hash(raw, runtime) -> str | None:
         return None
     code_hash = codes.hash_code(code)
     info = runtime.meter.status_of_hash(code_hash)
-    return code_hash if info is not None and info.status != "void" else None
+    live = info is not None and info.status == "live" and info.remaining > 0 and info.kind != "group"
+    return code_hash if live else None
 
 
 def code_index(request, runtime) -> CodeIndex | None:
@@ -108,7 +123,13 @@ def _read_context(request, runtime) -> AccountContext | None:
         if held is None:
             return None
         index = code_index(request, runtime)
-        return AccountContext(held["account_id"], held["refill_day"], index.hashes_for(held["scrambles"]) if index else [])
+        found = index.resolve(held["scrambles"]) if index else []
+        context = AccountContext(held["account_id"], held["refill_day"], [h for _, h in found])
+        resolved = {s for s, _ in found}
+        context.unresolved = [s for s in held["scrambles"] if s not in resolved]
+        if index is not None:
+            _move_to_current_key(accounts.service, held["account_id"], found)
+        return context
     except Exception:  # noqa: BLE001 - admission must not break the free path
         logger.exception("deeper admission could not read the account")
         return None

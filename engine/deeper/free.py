@@ -31,13 +31,15 @@ from engine.deeper.meter import Meter
 
 
 class FreeReservation:
-    __slots__ = ("key", "amount", "done", "network_key", "refill_day")
+    __slots__ = ("key", "amount", "done", "network_key", "refill_day", "window_start")
 
-    def __init__(self, key: str, amount: int, network_key: str | None = None, refill_day: int | None = None):
+    def __init__(self, key: str, amount: int, network_key: str | None = None, refill_day: int | None = None,
+                 window_start=None):
         self.key = key
         self.amount = amount
         self.network_key = network_key
         self.refill_day = refill_day
+        self.window_start = window_start
         self.done = False
 
 
@@ -102,7 +104,7 @@ class FreeAllowance:
             self._held[key] = self._held.get(key, 0) + amount
             if nkey is not None:
                 self._held[nkey] = self._held.get(nkey, 0) + amount
-            return FreeReservation(key, amount, nkey, refill_day)
+            return FreeReservation(key, amount, nkey, refill_day, self._meter.account_window_start(refill_day))
 
     def seed_account(self, account_id: str, refill_day: int, visitor: str) -> None:
         """A new account starts with what is left of its browser's window: what the browser
@@ -162,6 +164,6 @@ class FreeAllowance:
                     self._held.pop(key, None)
                 if ok:
                     if key == reservation.key and reservation.refill_day is not None:
-                        self._meter.account_window_spend(key, reservation.refill_day, reservation.amount)
+                        self._meter.account_window_spend(key, reservation.refill_day, reservation.amount, reservation.window_start)
                     else:
                         self._meter.free_window_spend(key, reservation.amount)

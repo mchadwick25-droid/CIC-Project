@@ -613,10 +613,12 @@ class Meter:
                 "SELECT code_hash FROM meter WHERE status = 'live' AND tokens_used < tokens_total"
             )]
 
-    def code_generation(self) -> int:
-        """A number that changes when a code is added to or leaves the live set."""
+    def code_generation(self) -> tuple[int, int]:
+        """(rows, live rows): changes when a code is minted, spent, voided or purged, even when the
+        live count alone would stay the same."""
         with self._lock:
-            return self._conn.execute("SELECT COUNT(*) FROM meter WHERE status = 'live'").fetchone()[0]
+            row = self._conn.execute("SELECT COUNT(*), COALESCE(SUM(status = 'live'), 0) FROM meter").fetchone()
+        return (row[0], row[1])
 
     def account_window_start(self, refill_day: int) -> date:
         """The most recent refill day on or before today. A refill day is 1 to 28, so every month has it."""
@@ -633,9 +635,12 @@ class Meter:
             row = self._conn.execute("SELECT window_start, spent FROM account_window WHERE key_hash = ?", (key_hash,)).fetchone()
         return row[1] if row is not None and row[0] == start else 0
 
-    def account_window_spend(self, key_hash: str, refill_day: int, amount: int) -> None:
-        """Adds a settled draw to the account's current window; a new window starts from nothing."""
+    def account_window_spend(self, key_hash: str, refill_day: int, amount: int, window_start: date | None = None) -> None:
+        """Adds a settled draw to the window it was reserved in. If that window has ended since,
+        the turn was carried by it and nothing is taken from the new one."""
         start = self.account_window_start(refill_day).isoformat()
+        if window_start is not None and window_start.isoformat() != start:
+            return
         with self._lock:
             self._conn.execute(
                 "INSERT INTO account_window (key_hash, window_start, spent) VALUES (?, ?, ?)"

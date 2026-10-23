@@ -207,7 +207,7 @@ class Admission:
             if computed.free_voice and completed < rounds:
                 return
             # The free path would have been closed to this turn; a code would have carried it.
-            if self._code is None:
+            if self._code is None and not self._holds_codes():
                 self._observed = "free"
             elif not computed.paid_voice:
                 self._observed = "paid"
