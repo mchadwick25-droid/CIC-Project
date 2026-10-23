@@ -29,3 +29,18 @@ assignments:
     confidence: provisional
     note: Written of the church on the eve of Nikon's reforms; placed on window and place, not read for
       that entry.
+
+  - row_id: olearius_voyages-and-travels-of-the-ambassadors_davies1662--armenian-quarter-of-julfa-at-isfahan
+    work: 'The Voyages and Travels of the Ambassadors from the Duke of Holstein to the Great Duke of Muscovy
+      and the King of Persia (Olearius, Davies 1662): the Persian embassy, Isfahan and Julfa'
+    author: olearius
+    locus: burial in the Armenian churchyard at Julfa (file line 23659); the embassy received at the Armenian
+      church in the suburb of Tzulfa by the patriarch of the place (line 24095); Julfa as the Armenian suburb
+      with twelve churches and over three thousand houses (line 26003)
+    atlas_ids:
+    - armenian-christianity-new-julfa
+    role: context
+    confidence: provisional
+    note: 'Same time-place, outside witness. A German envoy in the Holstein embassy of 1633-39 meets the
+      Armenian church and quarter at Julfa a generation after the founding. Read at the three cited passages
+      only. The OCR reads long s as f with heavy margin noise: second witness for wording.'

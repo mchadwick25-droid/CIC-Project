@@ -23,6 +23,34 @@ works:
 
     '
   source_file: chamich_history-of-armenia-v2_avdall1827.txt
+- row_id: harasiewicz_annales-ecclesiae-ruthenae-lat_1862--armenian-archbishopric-of-lviv
+  work: 'Annales Ecclesiae Ruthenae (Harasiewicz): the Armenian-rite archbishopric of Lviv'
+  author: harasiewicz
+  locus: the contents entry "De Archieppatu ritus armeni" (file line 758) and the editor's
+    note that the Armenian bishop of Lviv, Nicolaus Torosowicz, accepted union with Rome in
+    1634 and took the archbishop's title (lines 4802-4806)
+  role: context
+  confidence: provisional
+  note: 'Same time, different region: the Armenian diaspora church in Poland-Lithuania and
+    its union with Rome, a Latin-language, Greek-Catholic canon''s secondary account. Read
+    at the two cited passages only.'
+  source_file: harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt
+- row_id: olearius_voyages-and-travels-of-the-ambassadors_davies1662--armenian-quarter-of-julfa-at-isfahan
+  work: 'The Voyages and Travels of the Ambassadors from the Duke of Holstein to the Great
+    Duke of Muscovy and the King of Persia (Olearius, Davies 1662): the Persian embassy, Isfahan
+    and Julfa'
+  author: olearius
+  locus: burial in the Armenian churchyard at Julfa (file line 23659); the embassy received
+    at the Armenian church in the suburb of Tzulfa by the patriarch of the place (line 24095);
+    Julfa as the Armenian suburb with twelve churches and over three thousand houses (line
+    26003)
+  role: context
+  confidence: provisional
+  note: 'Same time-place, outside witness. A German envoy in the Holstein embassy of 1633-39
+    meets the Armenian church and quarter at Julfa a generation after the founding. Read at
+    the three cited passages only. The OCR reads long s as f with heavy margin noise: second
+    witness for wording.'
+  source_file: olearius_voyages-and-travels-of-the-ambassadors_davies1662.txt
 - row_id: ormanian_church-of-armenia_gregory1912--church-of-armenia
   work: 'The Church of Armenia (Ormanian; Gregory''s English translation, 1912): chapters
     XV-XVI'
@@ -41,6 +69,19 @@ works:
 
     '
   source_file: ormanian_church-of-armenia_gregory1912.txt
+- row_id: rycaut_present-state-greek-armenian-churches_1679--armenian-church-chapters-etchmiadzin
+  work: 'The Present State of the Greek and Armenian Churches, Anno Christi 1678 (Rycaut):
+    the Armenian Church chapters'
+  author: rycaut
+  locus: the Armenian chapters from "Of the Armenian Church in general" (file line 16692)
+    to the Armenian feasts and doctrine (about line 19200); the see of Etchmiadzin named at
+    about line 17730
+  role: context
+  confidence: provisional
+  note: 'Same place, a generation after the window (1678): an English consul on the Armenian
+    church, its patriarchs and Etchmiadzin as Ottoman-side observers saw them. Outside witness,
+    not read beyond the chapter openings and the line cited; the OCR is uneven (second witness).'
+  source_file: rycaut_present-state-greek-armenian-churches_1679.txt
 - row_id: seth_history-of-the-armenians-in-india_1897--history-of-the-armenians-in-india
   work: History of the Armenians in India from the Earliest Times to the Present Day (1897)
   author: seth
@@ -78,6 +119,17 @@ works:
 
     '
   source_file: tavernier_six-voyages-through-turky-into-persia-and-the-east-indies_phillips1678.txt
+- row_id: patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922--synaxaire-armenien-de-ter-israel-vi28
+  work: 'Le Synaxaire arménien de Ter Israël, IV: mois de Tré (Bayan, French translation)'
+  author: ter-israel
+  locus: from file line 93 (month of Tré)
+  role: context
+  confidence: provisional
+  note: Out of the window (the compilation is the thirteenth century) but the Armenian church's
+    own calendar of saints, which the Etchmiadzin church kept through the Safavid period.
+    Placed on the tradition; not read for this entry. Existing row for the Cilician entry
+    is unchanged.
+  source_file: patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt
 - row_id: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876--cartulaire-du-s-asile-de-iohannou-vank
   work: Cartulaire du S. Asile de Iohannou-Vank, par le diacre Zakaria (Brosset's French translation)
   author: zakaria

@@ -21,6 +21,13 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  abraham-of-crete:
+    kind: metadata-omission
+    evidence: 'The volume prints the Histoire de Nadir-Chah by the catholicos Abraham of Crete,
+      whose own account of himself opens it (file line about 14180).
+
+      '
+    from_file: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt
   acta-cypriani:
     kind: anonymous
     evidence: Gebhardt prints "Acta S. Cypriani episcopi et martyris" (XI) as an anonymous
@@ -286,6 +293,13 @@ authors:
 
       '
     from_file: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt
+  avdall:
+    kind: metadata-omission
+    evidence: 'The title page names Johannes Avdall as translator and continuer of the narrative;
+      placed as the translator''s own added matter.
+
+      '
+    from_file: chamich_history-of-armenia-v2_avdall1827.txt
   bancroft:
     kind: metadata-omission
     evidence: 'The host''s own creator field names ''Bancroft, Richard, 1544-1610'' beside
@@ -417,6 +431,13 @@ authors:
 
       '
     from_file: capitulatio-de-partibus-saxoniae_pertz1881.txt
+  chamich:
+    kind: metadata-omission
+    evidence: 'The title page names Michael Chamich as author of the History and Johannes
+      Avdall as translator.
+
+      '
+    from_file: chamich_history-of-armenia-v2_avdall1827.txt
   chirino:
     kind: metadata-omission
     evidence: The volume's own contents list reads 'Relacion de las Islas Filipinas (to be
@@ -954,6 +975,13 @@ authors:
       without a named author; the preface says only that, like item II, it was written by
       a Uniate; about file lines 10503-13367.
     from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+  hasan-dchalaliants:
+    kind: metadata-omission
+    evidence: 'The volume prints the Histoire d''Aghovanie by the catholicos Hasan Dchalaliants,
+      whose notice dates his installation to 1701-02 (file line about 10683).
+
+      '
+    from_file: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt
   hegesippus:
     kind: metadata-omission
     evidence: div2 10.6 'Hegesippus' names the author.
@@ -1569,6 +1597,13 @@ authors:
     kind: metadata-omission
     evidence: div2 10.8 'Rhodon' names the author.
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  samuel-of-ani:
+    kind: metadata-omission
+    evidence: 'The volume prints the Tables chronologiques of Samuel of Ani in Brosset''s
+      French, as its work heading states (file line about 18531).
+
+      '
+    from_file: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt
   scher:
     kind: metadata-omission
     evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
@@ -1912,6 +1947,13 @@ authors:
 
       '
     from_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
+  zakaria:
+    kind: metadata-omission
+    evidence: 'The volume''s title page names Zakaria of Kanaker (deacon) as the author of
+      the Memoires; the file name carries no author slug beyond the editor''s title.
+
+      '
+    from_file: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt
   zenahu-la-galla:
     kind: anonymous
     evidence: 'Neither this volume nor Schleicher''s 1893 edition (file zenahu-la-galla_geschichte-der-galla-deu_schleicher1893.txt)

@@ -9306,3 +9306,315 @@ queue:
       English, NOT_IN_COPYRIGHT, Harvard, Google scan), "COPYRIGHT, 1918" read in the OCR, text fetched.
       Not vendored.'
     status: not-yet-downloaded
+
+  - title: Collection d'historiens arméniens, tome II (Zakaria of Kanaker, Mémoires historiques sur les
+      Sofis, and other works)
+    author: Zakaria of Kanaker (translated by M.-F. Brosset)
+    translator: M.-F. Brosset (French)
+    year: '1876'
+    world: armenian-christianity-new-julfa (VI.28)
+    why: 'The one readable contemporary Armenian-church voice of the Safavid period in the corpus: the catholicoi,
+      the Julfa press, Mosès, life under the shahs.'
+    url: https://archive.org/details/collection-d-historiens-armeniens-1886-2-717
+    rights_basis: pd-us-by-date (1876 title page read; item has no rights field)
+    verified_by: 'Era VII VI.28 world agent, 2026-10-23: archive.org metadata fetched, title page and five-point
+      OCR sample read, compared against the Google/Oxford scan'
+    status: downloaded
+    vendored_as: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt
+  - title: History of the Armenians in India from the Earliest Times to the Present Day
+    author: Mesrovb J. Seth
+    translator: none (English)
+    year: '1897'
+    world: armenian-christianity-new-julfa (VI.28)
+    why: New Julfa's merchant diaspora and the Julfa deportation tradition, by an Armenian born at New Julfa.
+    url: https://archive.org/details/historyarmenian00sethgoog
+    rights_basis: pd-us-by-date (host NOT_IN_COPYRIGHT)
+    verified_by: 'Era VII VI.28 world agent, 2026-10-23: archive.org metadata fetched, title page and five-point
+      OCR sample read'
+    status: downloaded
+    vendored_as: seth_history-of-the-armenians-in-india_1897.txt
+  - title: The Six Voyages of John Baptista Tavernier
+    author: Jean-Baptiste Tavernier
+    translator: John Phillips (host catalogue; not printed in the OCR)
+    year: '1678'
+    world: armenian-christianity-new-julfa (VI.28)
+    why: Outside witness to Julfa, New Julfa and the Armenian religion on the Persian road.
+    url: https://archive.org/details/sixvoyagesofjohn00tave
+    rights_basis: 'pd-us-by-date (host: Not in copyright, BHL)'
+    verified_by: 'Era VII VI.28 world agent, 2026-10-23: archive.org metadata fetched, title page and five-point
+      OCR sample read'
+    status: downloaded
+    vendored_as: tavernier_six-voyages-through-turky-into-persia-and-the-east-indies_phillips1678.txt
+  - title: 'The Church of Armenia: her history, doctrine, rule, discipline, liturgy, literature, and existing
+      condition'
+    author: Malachia Ormanian
+    translator: G. Marcar Gregory
+    year: '1912'
+    world: armenian-christianity-new-julfa (VI.28)
+    why: Clean-OCR English overview of the Armenian church across the whole window, by a former patriarch.
+    url: https://archive.org/details/thechurchofarmen00ormauoft
+    rights_basis: pd-us-by-date (host NOT_IN_COPYRIGHT)
+    verified_by: 'Era VII VI.28 world agent, 2026-10-23: archive.org metadata fetched, title page and five-point
+      OCR sample read'
+    status: downloaded
+    vendored_as: ormanian_church-of-armenia_gregory1912.txt
+  - title: History of Armenia (Chamich), volume II, with Avdall's continuation
+    author: Michael Chamich
+    translator: Johannes Avdall
+    year: '1827'
+    world: armenian-christianity-new-julfa (VI.28)
+    why: English narrative of the Persian conquest, the expatriation and New Julpha from an Armenian priest-historian.
+    url: https://archive.org/details/india.history.resource.35267
+    rights_basis: pd-us-by-date (1827 title page read; item has no rights field)
+    verified_by: 'Era VII VI.28 world agent, 2026-10-23: archive.org metadata fetched, title page and five-point
+      OCR sample read, compared with the second scan'
+    status: downloaded
+    vendored_as: chamich_history-of-armenia-v2_avdall1827.txt
+  - title: Sir John Chardin's Travels in Persia (1720), volumes 1 and 2
+    author: Sir John Chardin
+    translator: Edmund Lloyd (from the host's title statement 'By Edm. Lloyd')
+    year: '1720'
+    world: armenian-christianity-new-julfa (VI.28)
+    why: Outside witness to the Armenian quarter of Julfa at Isfahan in the early 1670s; clean long-s OCR.
+    url: https://archive.org/details/bim_eighteenth-century_sir-john-chardins-trave_chardin-john-sir_1720_1
+      and ..._1720_2
+    rights_basis: pd-us-by-date (no rights field)
+    verified_by: 'Era VII VI.28 world agent, 2026-10-23: archive.org metadata fetched; the OCR title page
+      read (''By EDM. LLOYD''); four Julfa passages found in vol. 1 (the Provost of the Armenians of Julpha,
+      e.g. file line 6532) in an account of events of 1670-73; not vendored: after the window, and Tavernier
+      and Olearius already cover Julfa'
+    status: not-yet-downloaded
+  - title: The Travels of Sig. Pietro della Valle (1665)
+    author: Pietro della Valle
+    translator: anonymous English translator (the host gives none)
+    year: '1665'
+    world: armenian-christianity-new-julfa (VI.28)
+    why: Italian pilgrim at Isfahan 1617-21; possible outside witness to the Armenians of Julfa.
+    url: https://archive.org/details/bim_early-english-books-1641-1700_the-travels-of-sig-piet_della-valle-pietro_1665
+    rights_basis: pd-us-by-date (no rights field)
+    verified_by: 'Era VII VI.28 world agent, 2026-10-23: archive.org metadata fetched only; a search of
+      the OCR for Julfa spellings found none, so relevance unconfirmed'
+    status: not-yet-downloaded
+  - title: Collection d'historiens arméniens, tome II (Google scan, Oxford copy)
+    author: Brosset (translator)
+    translator: M.-F. Brosset
+    year: 1876 (catalogued 1874)
+    world: armenian-christianity-new-julfa (VI.28)
+    why: Second scan of the volume vendored from the individual upload; useful to check a doubtful reading.
+    url: https://archive.org/details/collectiondhist00arhagoog
+    rights_basis: pd-us-by-date (host NOT_IN_COPYRIGHT)
+    verified_by: 'Era VII VI.28 world agent, 2026-10-23: archive.org metadata fetched, full text fetched
+      and compared; OCR reads worse than the vendored scan'
+    status: not-yet-downloaded
+
+  - title: The Life of St. Teresa of Jesus, of the Order of Our Lady of Carmel, written by herself
+    author: Teresa of Avila
+    translator: David Lewis (3rd ed. enlarged, Zimmerman)
+    year: 1904
+    world: carmelite-reform-and-spanish-mystics
+    why: The founder's own account of her life, prayer and the first foundation; the reform's central first-person
+      source in English.
+    url: https://archive.org/details/lifeofstteresaof00tere_0
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent for VI.29, direct fetch of archive.org metadata and full text, five-point
+      OCR sample, 2026-10-23; title page read in the OCR; host carries no rights field
+    status: downloaded
+    vendored_as: teresa-of-avila_life_lewis1904.txt
+  - title: The Interior Castle, or The Mansions
+    author: Teresa of Avila
+    translator: Benedictines of Stanbrook, rev. Benedict Zimmerman
+    year: 1912
+    world: carmelite-reform-and-spanish-mystics
+    why: Her treatise on prayer for her nuns, in the Stanbrook translation from the autograph.
+    url: https://archive.org/details/TheInteriorCastle2ndEd1912
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent for VI.29, direct fetch of archive.org metadata and full text, five-point
+      OCR sample, 2026-10-23; title page read in the OCR; host licenseurl http://creativecommons.org/publicdomain/mark/1.0/
+    status: downloaded
+    vendored_as: teresa-of-avila_interior-castle_stanbrook1912.txt
+  - title: The Book of the Foundations of S. Teresa of Jesus, with the Visitation of Nunneries, the Rule
+      and Constitutions
+    author: Teresa of Avila
+    translator: David Lewis (new and revised ed., Zimmerman)
+    year: 1913
+    world: carmelite-reform-and-spanish-mystics
+    why: The reform's spread house by house in the founder's words, with the Carmelite Rule and Teresa's
+      Constitutions for the sisters in English.
+    url: https://archive.org/details/bookoffoundation00tereuoft
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent for VI.29, direct fetch of archive.org metadata and full text, five-point
+      OCR sample, 2026-10-23; title page read in the OCR; host possible-copyright-status NOT_IN_COPYRIGHT
+    status: downloaded
+    vendored_as: teresa-of-avila_book-of-foundations_lewis1913.txt
+  - title: The Dark Night of the Soul, Spiritual Canticle, and The Living Flame of Love
+    author: John of the Cross
+    translator: David Lewis (2nd ed. revised)
+    year: 1891
+    world: carmelite-reform-and-spanish-mystics
+    why: The Discalced friar's own poems and commentaries, with his letters and maxims.
+    url: https://archive.org/details/darknightofsouls00sain
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent for VI.29, direct fetch of archive.org metadata and full text, five-point
+      OCR sample, 2026-10-23; title page read in the OCR; host carries no rights field
+    status: downloaded
+    vendored_as: john-of-the-cross_dark-night-canticle-living-flame_lewis1891.txt
+  - title: The Life of Saint John of the Cross, of the Order of Our Lady of Mount Carmel
+    author: compiled from Fra Joseph of Jesus and Mary (host catalogue credits David Lewis)
+    translator: n/a (English compilation)
+    year: 1873
+    world: carmelite-reform-and-spanish-mystics
+    why: A later Carmelite narrative of John's imprisonment and the quarrel with the mitigated friars; hagiographic
+      outside-the-period witness.
+    url: https://archive.org/details/TheLifeOfSaintJohnOfTheCross
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent for VI.29, direct fetch of archive.org metadata and full text, five-point
+      OCR sample, 2026-10-23; title page read in the OCR; host licenseurl http://creativecommons.org/publicdomain/mark/1.0/
+    status: downloaded
+    vendored_as: john-of-the-cross_life_lewis1873.txt
+  - title: The Ascent of Mount Carmel (The Works of St. John of the Cross)
+    author: John of the Cross
+    translator: David Lewis, rev. Benedict Zimmerman
+    year: 1906
+    world: carmelite-reform-and-spanish-mystics
+    why: 'The prose treatise paired with the Dark Night; not in the 1891 volume. Lead for a later pass (size:
+      about 0.8 MB).'
+    url: https://archive.org/details/TheAscentOfMountCarmel
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent for VI.29, direct fetch of archive.org metadata and full text, five-point
+      OCR sample, 2026-10-23; title page and nihil obstat "Die 22 Feb. 1906" read in the OCR; host licenseurl
+      http://creativecommons.org/publicdomain/mark/1.0/
+    status: not-yet-downloaded
+  - title: The Way of Perfection
+    author: Teresa of Avila
+    translator: Benedictines of Stanbrook, ed. Benedict Zimmerman
+    year: 1919
+    world: carmelite-reform-and-spanish-mystics
+    why: Her Way of Perfection in the Stanbrook translation from the autograph, with the variants of the
+      Escorial and Valladolid editions; imprimatur 29 January 1911, reimprimatur 21 March 1919.
+    url: https://archive.org/details/thewayofperfecti00tereuoft
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent for VI.29, direct fetch of archive.org metadata and full text, 2026-10-23;
+      title page read in the OCR (reimprimatur 21 March 1919); host possible-copyright-status NOT_IN_COPYRIGHT
+    status: not-yet-downloaded
+  - title: The Letters of Saint Teresa, a complete edition, vol. II
+    author: Teresa of Avila
+    translator: Benedictines of Stanbrook, introduction Cardinal Gasquet
+    year: 1921
+    world: carmelite-reform-and-spanish-mystics
+    why: The second volume of the complete Stanbrook edition of her letters; items letterst02tere (host
+      date 1919) and lettersofstteres0002unse (host date 1921) both carry volume II, imprimatur 24 February
+      1921.
+    url: https://archive.org/details/lettersofstteres0002unse
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent for VI.29, direct fetch of archive.org metadata and full text, 2026-10-23;
+      title page read in the OCR; host carries no rights field
+    status: not-yet-downloaded
+  - title: The Letters of Saint Teresa, a complete edition, vol. III
+    author: Teresa of Avila
+    translator: Benedictines of Stanbrook
+    year: 1922
+    world: carmelite-reform-and-spanish-mystics
+    why: 'Letters 201 onward, from December 1577, among them letters to Philip II and Father Gracian (chronological
+      list in the OCR); title page reads London: Thomas Baker, MCMXXII.'
+    url: https://archive.org/details/lettersofsaintte03tere
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent for VI.29, direct fetch of archive.org metadata and full text, 2026-10-23;
+      title page read in the OCR; host possible-copyright-status NOT_IN_COPYRIGHT (host date field says
+      1921)
+    status: not-yet-downloaded
+  - title: Obras de Santa Teresa de Jesus, tomo I, Libro de la vida (Biblioteca Mistica Carmelitana)
+    author: Teresa of Avila
+    translator: ed. Silverio de Santa Teresa, C.D. (Burgos, El Monte Carmelo)
+    year: 1915
+    world: carmelite-reform-and-spanish-mystics
+    why: The Spanish original of the Life, critical edition. Tomos III (Camino de perfeccion), IV (Moradas,
+      Conceptos, Exclamaciones), V (Fundaciones, printed 1918) and VI (Constituciones, Poesias) are items
+      obrasdesantatere03tere to obrasdesantatere06tere, same set; tomo II is obrasdesantatere02tere (Relaciones
+      espirituales). Each 1.3-1.7 MB.
+    url: https://archive.org/details/obrasdesantatere01tere
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent for VI.29, direct fetch of archive.org metadata and full text, 2026-10-23;
+      title pages of tomos I-VI read in the OCR; host carries no rights field
+    status: not-yet-downloaded
+  - title: Obras de San Juan de la Cruz, Doctor de la Iglesia, tomo II, Subida y Noche oscura (Biblioteca
+      Mistica Carmelitana)
+    author: John of the Cross
+    translator: ed. Silverio de Santa Teresa, O.C.D. (Burgos, El Monte Carmelo)
+    year: 1929
+    world: carmelite-reform-and-spanish-mystics
+    why: The Spanish original of the Ascent and Dark Night. Tomo III (Canticos espiritual) is obrasdesanjuande03john,
+      tomo IV (Llama de amor viva) obrasdesanjuande04john, tomo I (Preliminares) obrasdesanjuande01john,
+      tomo V (Procesos de beatificacion y canonizacion, I) obrasdesanjuande05john, all 1929; the Procesos
+      are contemporaries' sworn testimony on John.
+    url: https://archive.org/details/obrasdesanjuande02john
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent for VI.29, direct fetch of archive.org metadata and full text, 2026-10-23;
+      title pages of tomos I-V read in the OCR (Burgos 1929); host carries no rights field
+    status: not-yet-downloaded
+  - title: Obras del Mistico Doctor San Juan de la Cruz, edicion critica, tomo primero
+    author: John of the Cross
+    translator: ed. Gerardo de San Juan de la Cruz, C.D., epilogue by Menendez y Pelayo (Toledo, Viuda e
+      Hijos de J. Pelaez)
+    year: 1912
+    world: carmelite-reform-and-spanish-mystics
+    why: An earlier critical Spanish edition; tomos II and III are obrasedicincr02john and obrasedicincr03john.
+      Alternative to Silverio 1929 if one Spanish set is wanted.
+    url: https://archive.org/details/obrasedicincr01john
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent for VI.29, direct fetch of archive.org metadata and full text, 2026-10-23;
+      title page read in the OCR (Toledo 1912); host carries no rights field
+    status: not-yet-downloaded
+  - title: Sermon predicado en el religiosissimo convento de las monjas Carmelitas Descalzas de Sevilla
+      ... en las solemnissimas fiestas ... a la Canonizacion de la Gloriosa Madre Santa Teresa de Iesus
+    author: Fr. Juan Salvador, of the Order of Our Lady of Carmel
+    translator: none
+    year: 1622
+    world: carmelite-reform-and-spanish-mystics
+    why: 'A contemporary sermon at the Seville Discalced convent for Teresa''s canonisation, 7 October 1622:
+      the world''s endpoint, in Spanish; about 70 KB.'
+    url: https://archive.org/details/A11207207
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent for VI.29, direct fetch of archive.org metadata and full text, 2026-10-23;
+      title page read in the OCR; host licenseurl http://creativecommons.org/publicdomain/mark/1.0/ (Biblioteca
+      de la Universidad de Sevilla)
+    status: not-yet-downloaded
+  - title: 'Vida de Santa Teresa de Jesus (Francisco de Ribera, Barcelona: Gustavo Gili, 1908 edition)'
+    author: Francisco de Ribera, S.J.
+    translator: none (Spanish)
+    year: 1908
+    world: carmelite-reform-and-spanish-mystics
+    why: 'The first full Life of Teresa, by a Jesuit who knew her; the outside witness the census names.
+      Spanish only: no public-domain English translation found (see the dossier). 2.3 MB, Google-digitised
+      OCR.'
+    url: https://archive.org/details/vidadesantatere00ribegoog
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent for VI.29, direct fetch of archive.org metadata and full text, 2026-10-23;
+      title page read in the OCR (Barcelona, Gustavo Gili editor); host possible-copyright-status NOT_IN_COPYRIGHT
+    status: not-yet-downloaded
+  - title: Regla primitiva, y constituciones de los religiosos descalzos de la orden de la bienaventurada
+      virgen del monte Carmelo, de la primitiva observancia, de la congregacion de Espana
+    author: 'host attribution: San Alberto de Jerusalen (the Rule); the Constitutions of the Discalced friars'
+    translator: none (Spanish)
+    year: 1736
+    world: carmelite-reform-and-spanish-mystics
+    why: The Discalced friars' own Rule and Constitutions, in a 1736 printing (not the 1581 text); the nuns'
+      Constitutions are already in the Lewis 1913 volume. About 0.55 MB.
+    url: https://archive.org/details/regla_202106
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent for VI.29, direct fetch of archive.org metadata and full text, 2026-10-23;
+      host record read (title, date 1736, size); title page not read; host licenseurl http://creativecommons.org/publicdomain/mark/1.0/
+    status: not-yet-downloaded
+  - title: Breue relacion de las ceremonias hechas en la canonizacion de los SS. Isidro Labrador, Ignacio
+      de Loyola, Francisco Xauier, Teresa de Iesus y Phelippe Neri, canonizados por Gregorio Papa XV en
+      12 dias del mes de Marzo, ano de 1622
+    author: Juan Rene (printer, host attribution)
+    translator: none (Spanish)
+    year: 1622
+    world: carmelite-reform-and-spanish-mystics
+    why: A contemporary short account of the 1622 canonisation ceremony that closes this world's window;
+      about 12 KB, the OCR is rough.
+    url: https://archive.org/details/breuerelaciondelasceremoniashechasenlacanonizaciondelos-ss.-isidro-labrador-igna
+    rights_basis: pd-us-by-date
+    verified_by: one-world agent for VI.29, direct fetch of archive.org metadata and full text, 2026-10-23;
+      title page read in the OCR (rough); host licenseurl https://creativecommons.org/publicdomain/mark/1.0/
+    status: not-yet-downloaded

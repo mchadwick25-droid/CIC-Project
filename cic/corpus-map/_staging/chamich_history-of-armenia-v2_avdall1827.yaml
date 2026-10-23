@@ -1,5 +1,18 @@
 source_file: chamich_history-of-armenia-v2_avdall1827.txt
 
+authors_ruled:
+  chamich:
+    kind: metadata-omission
+    evidence: >
+      The title page names Michael Chamich as author of the History and Johannes Avdall as translator.
+    from_file: chamich_history-of-armenia-v2_avdall1827.txt
+  avdall:
+    kind: metadata-omission
+    evidence: >
+      The title page names Johannes Avdall as translator and continuer of the narrative; placed as the translator's own added matter.
+    from_file: chamich_history-of-armenia-v2_avdall1827.txt
+
+
 assignments:
   - row_id: chamich_history-of-armenia-v2_avdall1827--history-of-armenia-part-vii-the-expatriated-state
     work: "History of Armenia (Chamich; Avdall's English translation, 1827), volume II, Part VII: the Persian conquest, the expatriation and New Julfa"

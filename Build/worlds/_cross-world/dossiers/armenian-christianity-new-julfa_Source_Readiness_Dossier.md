@@ -1,4 +1,4 @@
-# Source Readiness Dossier — Armenian Christianity: Etchmiadzin and New Julfa
+# Source Readiness Dossier: Armenian Christianity, Etchmiadzin and New Julfa
 
 See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is and
 why it exists.
@@ -99,9 +99,6 @@ Russian officer's memoir) serves other entries. Most of Tavernier is India.
   lines 4923-4925 on the Armenians who never submitted to Rome, citing Galanus
   and Asseman). A Protestant historian's passing note; no row proposed. Tier:
   out-of-window.
-- **Purchas, Hakluytus Posthumus vol. XII** (`purchas_hakluytus-posthumus-pilgrimes-v12_1906.txt`,
-  line 2895 and following). The Armenian village on the coast near the Jenkinson
-  voyage; a passing mention in a Muscovy volume. No row proposed.
 - The existing Armenian entries (conversion era, after Avarayr, Cilicia) hold
   no text from this window.
 
@@ -144,8 +141,8 @@ the same events. Recorded as a gap, not a failure to search.
 | Galanus, Conciliatio ecclesiae armenae cum romana (Rome, 1658) (`pts_conciliationisecclesiae_1608_1`, `_1609_2`) | A Catholic missionary's long account of the Armenian church, published at the window's end | Both volumes are public domain by date (host NOT_IN_COPYRIGHT) but the OCR is Tesseract in Armenian over Latin text and reads as noise (sampled at the opening). The two files are 2.1M and 4.6M chars. Unusable until re-OCR'd; not vendored. |
 | Herbert, Some Yeares Travels (1638) (`bub_gb_hNn7DbdAKVAC`) | An English traveller at Isfahan in 1627-29 | Full text fetched; a search for Julfa spellings found no hit. |
 | Tavernier, second scan `sixvoyagesofjohn00tave_0` (Getty) | A second copy of the same translation | Fetched and compared; the same long-s-as-f OCR and 16% larger; the Smithsonian scan was vendored. |
-| Chamich, vol. I (`historyofarmenia0002unse`) and the DLI second scan of vol. II | The earlier volume and a second scan | Vol. I stops before the window (Parts I-IV); the second scan of vol. II reads slightly worse. Neither vendored. |
-| Urbatagirk (Venice, 1512) and the Amsterdam Bible of 1666 | Named in the brief as printing records | Searches by title found no archive.org item. Ormanian (line 4098 of the vendored file) records the 1512 and 1666 imprints; record only, nothing to vendor. |
+| Chamich, vol. I (`historyofarmenia0002unse`) and the DLI second scan of vol. II | The earlier volume and a second scan | Vol. I stops before Part V (the Bagratids), well before the window; the second scan of vol. II reads slightly worse. Neither vendored. |
+| Urbatagirk (Venice, 1512) and the Amsterdam Bible of 1666 | Named in the brief as printing records | Searches by title found no archive.org item. Ormanian (lines 4111 and 4119 of the vendored file) records the 1512 and 1666 imprints; record only, nothing to vendor. |
 | Seth's "History of the Armenians in India", 1895 Calcutta printing (`india.history.resource.106107`) | The brief names 1895 | The Luzac 1897 scan was vendored because its title page and rights field are readable; the Calcutta item has no rights field. |
 | Chardin and Tavernier in French (`voyagesduchevali*`, `lessixvoyages*`) | The original French of both outside witnesses | Many scans on archive.org; the English translations carry the same Julfa passages. Not opened. |
 
@@ -158,8 +155,8 @@ the same events. Recorded as a gap, not a failure to search.
   Chamich's Parts VI-VII to 1780, so the same texts serve both. Whoever builds
   either should settle, once, which entry reads Zakaria and Chamich as voice
   and which as context.
-- **Zakaria's date.** About three-fifths of the Mémoires (Shah Abbas II, 1642-66,
-  and after) fall after 1650. The census window ends in 1650. The `assigned`
+- **Zakaria's date.** A large part of the Mémoires (Shah Abbas II, 1642-66,
+  and after) falls after 1650; the share was not counted. The census window ends in 1650. The `assigned`
   row on this entry rests on the Julfa press chapter, the life of the
   catholicos Mosès and the Abbas-era reports. A reader may rule that the
   window is too early for the main voice.

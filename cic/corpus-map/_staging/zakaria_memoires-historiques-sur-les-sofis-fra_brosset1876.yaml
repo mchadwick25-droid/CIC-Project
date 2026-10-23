@@ -1,5 +1,28 @@
 source_file: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt
 
+authors_ruled:
+  zakaria:
+    kind: metadata-omission
+    evidence: >
+      The volume's title page names Zakaria of Kanaker (deacon) as the author of the Memoires; the file name carries no author slug beyond the editor's title.
+    from_file: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt
+  abraham-of-crete:
+    kind: metadata-omission
+    evidence: >
+      The volume prints the Histoire de Nadir-Chah by the catholicos Abraham of Crete, whose own account of himself opens it (file line about 14180).
+    from_file: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt
+  samuel-of-ani:
+    kind: metadata-omission
+    evidence: >
+      The volume prints the Tables chronologiques of Samuel of Ani in Brosset's French, as its work heading states (file line about 18531).
+    from_file: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt
+  hasan-dchalaliants:
+    kind: metadata-omission
+    evidence: >
+      The volume prints the Histoire d'Aghovanie by the catholicos Hasan Dchalaliants, whose notice dates his installation to 1701-02 (file line about 10683).
+    from_file: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt
+
+
 assignments:
   - row_id: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876--memoires-historiques-sur-les-sofis
     work: "Mémoires historiques sur les Sofis, par le diacre Zakaria de Kanaker (Brosset's French translation, 1876)"

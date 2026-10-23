@@ -3,6 +3,53 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: carmelite-reform-and-spanish-mystics
 works:
+- row_id: bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini--gregory-xiii-discalced-carmelites
+  work: 'Gregory XIII, constitution for the Discalced Carmelites of Spain (incipit as OCR''d:
+    "Ia confidcratione Romanum decet Pontificem"), with the compiler''s note naming Teresa
+    as foundress'
+  author: bullarium-romanum
+  locus: compiler's note on the two Carmelite congregations at lines 125190-125230 (naming
+    "Teresia Hispana" as foundress at line 125223); the constitution from line 125228 (King
+    Philip, the Discalced, the history from Innocent IV and Eugenius IV, the foundations of
+    1565, the separate province) to about line 125600; running heads give the year 1580 at
+    lines 125411 and 125674
+  role: context
+  confidence: assigned
+  note: 'The papal act that recognised the Discalced as a body distinct from the mitigated
+    friars: Rome speaking, in Latin, about the reform from outside it. Read at the loci given;
+    the text is a long-s OCR of the Cherubini Bullarium and its running-head year reads 1590
+    at one place and 1580 at others, so confirm the date against the page image before citing.
+    The same volume holds further Carmelite material (for example lines 113540-113667, on
+    the order''s property) not read here.'
+  source_file: bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt
+- row_id: council-of-trent_canons-and-decrees_waterworth1848--session-xxv-on-regulars-and-nuns
+  work: Canons and Decrees of the Council of Trent, Session XXV, Decree on Regulars and Nuns
+    (property, revenues, enclosure of nuns)
+  author: council-of-trent
+  locus: Session XXV from line 21861; "ON REGULARS AND NUNS" at line 22049; chapter II on
+    property at line 22099; the chapter permitting real property at about line 22140; chapter
+    V on the enclosure of nuns at line 22208
+  role: antecedent
+  confidence: provisional
+  note: The vendored Teresa texts argue from this decree by name. In the Foundations (teresa-of-avila_book-of-foundations_lewis1913.txt)
+    she reports that the Council allowed convents to hold revenues and founds with an endowment
+    on that ground (lines 7135-7140 and 11413), a hermit group is swept into the orders by
+    the Council (line 10025), and the editor cites the decree on enclosure (line 7312). That
+    meets the antecedent rule (the entry's own sources argue from the text). Provisional until
+    a build reads the decree against her passages.
+  source_file: council-of-trent_canons-and-decrees_waterworth1848.txt
+- row_id: ignatius-loyola_spiritual-exercises_mullan1914--the-spiritual-exercises-of-st-ignatius-2
+  work: The Spiritual Exercises of St. Ignatius (as the Spanish prayer discipline beside which
+    the Teresian reform grew)
+  author: ignatius-loyola
+  locus: whole text
+  role: context
+  confidence: needs-ruling
+  note: 'Placed on the shared window and country, not on a passage: the vendored Teresa texts
+    show Jesuit confessors directing her (Life from line 1838, Foundations at lines 5036 and
+    7528) but none cite the Exercises by name. Whether the Exercises are context for the Carmelite
+    reform is a ruling for the build, not the library.'
+  source_file: ignatius-loyola_spiritual-exercises_mullan1914.txt
 - row_id: john-of-the-cross_dark-night-canticle-living-flame_lewis1891--letters
   work: Instructions and Precautions, Letters I-XVIII, censure of a nun's prayer, and Spiritual
     Maxims of John of the Cross, in the same volume
