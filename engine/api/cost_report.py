@@ -21,10 +21,10 @@ import statistics
 from collections import defaultdict
 from datetime import datetime, timedelta
 
-from engine.api.deeper_door import DEAREST
 from engine.m8 import price_tables
 from engine.m8.cost import estimate_cost
 from engine.m7.session_reader import read_session
+from engine.m8.price_tables import DEAREST
 from engine.m8.usage import SYSTEM_SESSION_ID, UsageRecord
 
 ROUND_COLUMNS = 10
