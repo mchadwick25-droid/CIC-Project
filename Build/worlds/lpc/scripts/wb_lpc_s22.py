@@ -178,8 +178,8 @@ not silently resolved.
 CT CONTEST TYPE FINDING (schema-forced placement, same finding don's own
 script names for `don.term.agonistici`). `term` has no dedicated
 CT-Contest-Type field. Doc_06 SS3 specifies a real contest type for each of
-the three CT-tagged terms (grace, schism, "compel them to come in"), never
-templated -- Round 1 "verified all three as specific and non-templated." All
+the three CT-tagged terms (grace, schism, "compel them to come in"), each
+specific and never templated. All
 three are folded into `senses.informational` as a distinctly separated
 closing paragraph naming the contest type verbatim from Doc_06 SS3 and
 stating, per the chunk's own words, what the entry therefore does not do.
@@ -480,10 +480,11 @@ def build_tier1_terms() -> list[str]:
                 "evidential": (
                     "Cyprian's own words carry this image throughout, directly quoted and "
                     "re-verified at source: 'it is the shepherd that is chiefly wounded in the wound "
-                    "of his flock,' and the charge to keep watch over the flock or answer for "
-                    "neglect, as those before us did. A full sweep of Cyprian's own vendored corpus "
-                    "returns 113 combined occurrences of flock, shepherd, and pastor language. "
-                    "Augustine's own Sermons carry the cognate fold image, though far less densely. "
+                    "of his flock,' and that a portion of the flock is assigned to each pastor, who "
+                    "must give account of his doing to the Lord (Epistle LIV 14). A whole-word count "
+                    "over the Cyprian volume of the vendored edition, with editorial notes excluded, "
+                    "returns 102 occurrences of flock, shepherd, and pastor. Augustine's own "
+                    "Sermons carry the cognate fold image, though far less densely. "
                     "The dense verbal evidence is Cyprian's; our cross-phase claim rests on "
                     "conduct, not on comparable word-counts."
                 ),

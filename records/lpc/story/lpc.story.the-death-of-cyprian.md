@@ -61,56 +61,58 @@ narrative_tier_justification: 'Widely Accepted. Tier 1 on the core that Pontius 
   convention shapes them. The two texts differ on who tied the cloths over Cyprian''s eyes.'
 tellable_as: How two early texts tell our first great bishop's death, and where they differ
 text: 'This is how two early texts tell the death of our first great bishop. One is by his deacon, Pontius,
-  who wrote it in the form of a saint''s life. The other is the Acta Proconsularia, an early Christian
-  compilation built around the records of his hearings. Its compiler is unnamed. Where both texts agree,
-  we say so plainly. Where only one speaks, we say which.
+  who wrote it in the form of a saint''s life. The other is the Acta Proconsularia, an early Christian compilation
+  built around the records of his hearings. Its compiler is unnamed. Where both texts agree, we say so plainly.
+  Where only one speaks, we say which.
 
 
-  The night before the sentence, Cyprian was held in an officer''s house. Pontius says that he and the
-  other friends "were as usual in his company." The people stayed outside. Pontius writes that they, "in
-  anxiety that nothing should be done throughout the night without their knowledge, kept watch before
-  the officer''s door." The Acta says the same in fewer words: the whole people of the brothers came together
-  there, and all of them stayed in the street before the door.
+  The night before the sentence, Cyprian was held in an officer''s house. Pontius says that he and the other
+  friends "were as usual in his company." The people stayed outside. Pontius writes that they, "in anxiety
+  that nothing should be done throughout the night without their knowledge, kept watch before the officer''s
+  door." The Acta says the same in fewer words: "the whole people of the brethren came there." All of them
+  "had stayed in the street, before the door of the officer''s lodging."
 
 
-  In the morning a great crowd went with him. Pontius says he went out "walled in on all sides by the
-  ranks of a mingled multitude." The Acta says a large crowd came together at the place called Sexti,
-  and that after the sentence a large crowd followed him out.
+  In the morning a great crowd went with him. Pontius says he went out "walled in on all sides by the ranks
+  of a mingled multitude." The Acta says that "a large crowd gathered at Sextus''s place, as
+  the proconsul Galerius Maximus had ordered."
 
 
   The proconsul read the sentence from a tablet. Pontius reports that it called Cyprian "a standard-bearer
-  of the sect, and an enemy of the gods, and one who was to be an example to his people; and that with
-  his blood discipline would begin to be established." The Acta gives the sentence in nearly the same
-  words. On the sentence the two texts are not independent witnesses. Only the Acta gives Cyprian''s answer:
-  Deo gratias, "Thanks be to God."
+  of the sect, and an enemy of the gods, and one who was to be an example to his people; and that with his
+  blood discipline would begin to be established." The Acta gives the sentence in nearly the same words. On
+  the sentence the two texts are not independent witnesses. Only the Acta gives Cyprian''s answer: Deo gratias,
+  "Thanks be to God."
 
 
-  Then the crowd called out. The Acta gives their words: Et nos cum ipso decollemur, "Let us too be beheaded
-  with him." Pontius does not quote the cry. He says the people''s "general wish" was "that the entire
+  Then the crowd of the brethren called out. The Acta gives their words: Et nos cum ipso decollemur, "Let us
+  too be beheaded with him." It goes on: "Because of this an uproar rose among the brethren, and a large crowd
+  followed him." Pontius does not quote the cry. He says the people''s "general wish" was "that the entire
   congregation should suffer at once in the fellowship of a like glory," and he calls them blessed because
   they, "in outspoken words, suffered with such a bishop as theirs."
 
 
-  Both texts say he covered his own eyes, and they differ on the cloths. Pontius says that, "having with
-  his own hands bound his eyes," he tried to hurry the executioner. The Acta says Cyprian covered his
-  eyes with his own hand, and that when he could not tie the hand-cloths himself, the presbyter Julianus
-  and the subdeacon Julianus tied them for him. We do not choose between the two.
+  Both texts say he covered his own eyes, and they differ on the cloths. Pontius says that, "having with his
+  own hands bound his eyes," he tried to hurry the executioner. The Acta says: "Then the blessed Cyprian covered
+  his eyes with his own hand. When he could not tie the strips of cloth on himself, the presbyter Julianus
+  and the subdeacon Julianus tied them for him." We do not choose between the two.
 
 
-  Only the Acta tells what came before the blow: he knelt and prayed, gave his outer robe to his deacons,
-  and told his people to give the executioner twenty-five gold pieces. Only the Acta tells the burial:
-  his body was taken up in the night and carried with candles and torches to the grounds of Macrobius
-  Candidianus on the Mappalian road, "with great prayer and triumph."
+  Only the Acta tells what came before the blow. He knelt on the ground and bowed down in prayer to the Lord.
+  He handed his tunic to the deacons and stood in his linen garment. He told his own people to give the executioner
+  twenty-five gold pieces. Only the Acta tells the burial. By night his body was taken up with candles and
+  torches. With prayer and great triumph, it was brought to the grounds of the procurator Macrobius Candidianus,
+  on the Mappalian road.
 
 
-  Pontius adds things the Acta does not mention, and they are his. He says the ground was "level, so that
-  it affords a noble spectacle, with its trees thickly planted on all sides." People who could not see
-  "had climbed up into the branches of the trees, that there might not even be wanting to him (what happened
-  in the case of Zacchæus), that he was gazed upon from the trees." He writes that the executioner "with
-  difficulty clasped the blade in his failing right hand with trembling fingers, until the mature hour
-  of glorification strengthened the hand of the centurion with power granted from above." The Latin of
-  that sentence can be read two ways. The Acta calls the executioner a spiculator and says nothing of
-  any strengthening. We tell that part as Pontius''s reading.'
+  Pontius adds things the Acta does not mention, and they are his. He says the ground was "level, so that it
+  affords a noble spectacle, with its trees thickly planted on all sides." People who could not see "had climbed
+  up into the branches of the trees, that there might not even be wanting to him (what happened in the case
+  of Zacchæus), that he was gazed upon from the trees." He writes that the executioner "with difficulty clasped
+  the blade in his failing right hand with trembling fingers, until the mature hour of glorification strengthened
+  the hand of the centurion with power granted from above." The Latin of that sentence can be read two ways.
+  The Acta calls the executioner a spiculator and says nothing of any strengthening. We tell that part as Pontius''s
+  reading.'
 absent_detail: 'What cannot be told is what any one person in the crowd made of it, because no spectator
   left an account of his own. What the crowd said as a body, the Acta records: Et nos cum ipso decollemur.
   Pontius himself points the reader to the Acts, at the end of his account of the banishment hearing of

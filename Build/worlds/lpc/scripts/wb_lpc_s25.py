@@ -56,7 +56,7 @@ INPUTS, mapped to OUTPUTS, precisely:
     considered and not advanced), §3 (Per-Candidate Testing, all eight
     subsections read in full), §4 (Classification Summary), §5 (Article 21
     Status Check -- this world's own strand-singular, phase-testing
-    substitute discipline), §6 (Interaction Matrix), §7 (Open Items) -> the
+    substitute discipline), §6 (Interaction Matrix), §7 (items carried forward) -> the
     8 `gravity` records below, one per classified candidate (G1-G8, Doc_04's
     Candidate 1-8). classification is copied directly from Doc_04 §4's own
     summary table (never re-derived, including Candidate 5's own
@@ -173,7 +173,7 @@ states for itself, applied here:
     -- the one candidate whose own six-test profile is narrow throughout,
     whose classification required a project-lead ruling rather than the
     document's own verdict, and whose Confidence/Gravity Cross-Check
-    divergence Doc_04 itself carries forward as an open item (§7 item 1) --
+    divergence Doc_04 itself carries forward at §7 item 1 --
     "contested" states that reality plainly rather than filing it as
     load-bearing like the other seven.
   - sources[]: AUTHORED per record, resolved to the specific lpc.source.*
@@ -696,52 +696,60 @@ def build_gravities() -> None:
     emit_gravity(
         G5, "Conciliar Authority Theory (Egalitarian vs. Hierarchical) [SUPPORTING]",
         "supporting",
-        "Doc_04 §3 Candidate 5: the one gravity in this world whose classification Doc_04 itself did "
-        "not reach on its own six-test evidence -- 'Alone among the eight candidates, this line does "
-        "not record this document's own verdict on the evidence' (Doc_04 §3). Classified SUPPORTING "
-        "BY A RULING OUTSIDE DOC_04'S OWN SIX-TEST EVIDENCE, after repeated re-classification "
-        "across several review rounds and a named gapped-formation precedent instructing the build to "
-        "stop revising it further (Doc_04 §7 items 7-8). Author Gravity risk flagged at generation: "
-        "each pole is attested within each bishop's own single locus. Repetition: passes narrowly and "
-        "locally -- Cyprian's egalitarian formula recurs once, at length, in the 256 preface (Row 4); "
-        "Augustine's hierarchical formula recurs internally within On Baptism (Row 13, 'plenary' 31 "
-        "times) but is not independently restated in a second Augustine-authored work drawn on here. "
-        "Dependency: passes narrowly -- Doc_01's own strand-singular finding is the one place in this "
-        "world's construction record that depends on this axis at all. Formation: DOES NOT CLEARLY "
-        "PASS -- this document finds no evidence that ordinary believers, catechumens, or most clergy "
-        "in either phase were formed by, or even aware of, this specific theoretical question. "
-        "Explanatory: passes narrowly -- explains the specific shape of the Cyprian/Stephen rebaptism "
-        "dispute and Augustine's own extended argument against Cyprian's ruling, but no other, "
-        "independent aspect of the wider ecology. PERSISTENCE: DOES NOT PASS AT THE WORLD LEVEL, on a "
-        "disclosed search bound rather than an unqualified absence -- within what this document has "
-        "validly read, there is no evidence either bishop's theory was independently visible outside "
-        "the one locus each is drawn from. THIN ACROSS THE SPAN, NOT BOUNDED WITHIN IT (Doc_04 §5's "
-        "own distinction from Candidate 7's phase-boundedness): visible in both phases, at one locus "
-        "each, 'between two bishops at two moments separated by over a century.' Interaction: passes "
-        "narrowly -- interacts demonstrably with Candidates 1 (weakly), 3, and 6. CONFIDENCE/GRAVITY "
-        "CROSS-CHECK -- DIVERGENCE FLAGGED, NOT RESOLVED: evidence for the EXISTENCE of both formulas, "
-        "in their own words, reaches Documented; the evidential support for their ORGANIZING BREADTH "
-        "does not reach the same level, this candidate's six-test profile being narrow at best -- CF "
-        "V7.4: 'gravity strength and evidential confidence are distinct properties that can diverge.' "
-        "Carried forward at Doc_04 §7 Open Item 1 as unresolved, and NOT reopened by the 411 Gesta "
-        "(unread; §7 Open Item 6) or by nine further review rounds (§7 Open Item 8, a sixth attempt at "
-        "a cleaner classification, whose own argument Doc_04 records rather than pursues). "
-        "FORCES-CONNECTION (Doc_08 §5): THE WEAKEST FORCE-CONNECTION IN THE MATRIX, and Doc_08 says so "
-        "rather than padding it -- connected to 1B-1 (the conciliar setting), 2A-3 (the Donatist "
-        "appeal that supplies the occasion), 2B-4 (the engagement itself), but 'every force touching "
-        "G5 touches it through a third party's citation of a text, not through a pressure on the "
-        "world's own practice' -- consistent with Doc_04's own finding that no evidence shows the "
-        "question reached ordinary formation. Doc_08 §5 quotes the Forces Framework directly: 'a "
-        "gravity that cannot be connected to the forces acting on the world is a gravity whose ecology "
-        "is incomplete.' Carried, not resolved.",
+        "This is one of this world's real concerns, though an unusual one to weigh. That two "
+        "competing theories of conciliar authority existed, in each bishop's own words, is "
+        "solidly attested. Whether they organized much of the world is a separate question, "
+        "and the evidence for that is far thinner. We treat this as a secondary concern, "
+        "disclosed as genuinely uncertain rather than settled.\n"
+        "\n"
+        "The concern names two competing theories of conciliar authority. Cyprian's is "
+        "egalitarian. In the preface to the Council of 256 he says no bishop sets himself up "
+        "as \"a bishop of bishops.\" Augustine's is hierarchical. In On Baptism he appeals to "
+        "\"the authority of plenary Councils,\" and the word \"plenary\" occurs 31 times in that "
+        "treatise.\n"
+        "\n"
+        "A real limit sits here too. In the texts weighed, each theory is attested at only one "
+        "place in each bishop's writings. Cyprian's formula appears once, at length, in the "
+        "256 preface. Augustine's recurs within On Baptism. He also speaks of plenary Councils "
+        "in two of his letters, Letter 43, section 19, and Letter 54, section 1. Those two "
+        "passages were found and were not weighed in the six tests.\n"
+        "\n"
+        "Its reach is narrow in every direction. Only one finding depends on it: that the "
+        "world forms a single strand. There is no evidence that ordinary believers, "
+        "catechumens, or most clergy in either phase were shaped by this question, or even "
+        "knew of it. It explains the shape of the rebaptism dispute between Cyprian and "
+        "Stephen, and Augustine's long argument against Cyprian's ruling. It explains nothing "
+        "else in the wider world. It connects clearly with collegial communion and sacramental "
+        "validity, and weakly with pastoral office.\n"
+        "\n"
+        "It does not carry across the whole world. Within the texts weighed, neither bishop's "
+        "theory is visible outside its one source. This is a limit of the search so far, not a "
+        "proven absence. It runs thin across the whole span, not confined to one phase. It "
+        "appears in both phases, at one source each -- between two bishops, at two moments "
+        "separated by over a century. That sets it apart from grace and human incapacity, "
+        "which belongs to one phase only.\n"
+        "\n"
+        "The uncertainty here is disclosed, not resolved. That both formulas exist, in their "
+        "own words, is solidly attested. The evidence that they organized much of the world is "
+        "much weaker. How central a concern is, and how confident we can be in the evidence, "
+        "are two separate things, and here they diverge. So the record stays cautious about "
+        "how central this is. We do not ask the 411 Gesta, the proceedings of that year, to "
+        "settle it. They have not been read in full.\n"
+        "\n"
+        "Of everything in this world, this concern connects least to the forces acting on it. "
+        "It links to the council setting of the organized Carthaginian church. It links to the "
+        "Donatist appeal that supplied the occasion, and to Augustine's engagement with "
+        "Cyprian's conciliar acts. But each of these reaches it only through someone quoting a "
+        "text, not through pressure on how the church actually lived. That fits the finding "
+        "that the question never reached ordinary formation.\n"
+        "\n"
+        "A concern this loosely connected to the pressures acting on the world leaves our own "
+        "picture of that world incomplete here. That gap is carried, not resolved.",
         [
-            "the 256 Council preface's own egalitarian formula, \"neither does any of us set himself "
-            "up as a bishop of bishops\" (Registry row 4)",
-            "Augustine's own hierarchical formula in On Baptism II.3, invoking \"the authority of "
-            "plenary Councils\" (Registry row 13, the word occurring 31 times within the treatise)",
-            "a ruling outside Doc_04's own six-test evidence, classifying this candidate Supporting after "
-            "Doc_04's own six-test assessment did not reach a verdict on the evidence (Doc_04 §3, §7 "
-            "items 7-8)",
+            "Cyprian's egalitarian formula in the preface to the Council of 256: \"neither does any "
+            "of us set himself up as a bishop of bishops\"",
+            "Augustine's hierarchical formula in On Baptism II.3, invoking \"the authority of "
+            "plenary Councils\" (the word \"plenary\" occurs 31 times in the treatise)",
         ],
         conf("B", "verified-via-authority", "contested", "Inferential-Thin",
              "Doc_04 §3 Candidate 5: divergence flagged, not resolved -- the sharpest such divergence "
@@ -928,32 +936,38 @@ def build_forces() -> None:
     emit_force(
         F1A1, "The Decian Persecution and the *libelli* System (250)",
         "initiating", "1A",
-        "Doc_08 Cell 1A, Force 1A-1. LAYER 1 -- HISTORICAL EVENT: the first systematically enforced, "
-        "empire-wide persecution, administered through certificates recording that the holder had "
-        "sacrificed. It did not principally demand renunciation; it demanded a documented act of "
-        "compliance, obtainable by performing the sacrifice or by paying to have it recorded. "
-        "Documented -- Doc_01 §2; Doc_02 §1; the crisis correspondence itself (Registry row 1, "
-        "Confidence A) and De Lapsis (row 2, Confidence B). LAYER 2 -- WORLD'S OWN EXPERIENCE: not an "
-        "attack from outside so much as a table emptied one certificate at a time. The demand reached "
-        "each person singly and left the congregation sorted into those who had stood and those who "
-        "had not -- and both were still ours, still in the room. \"[I]t is the shepherd that is "
-        "chiefly wounded in the wound of his flock.\" LAYER 3 -- FORMATION IMPACT: this force created "
-        "the category the entire penitential system exists to process. There were no lapsed before "
-        "there was a certificate to obtain, and no confessors with a claim on anything before there "
-        "was an interrogation to survive. It produces G2 directly and G8 as G2's own counter-pressure; "
-        "it intensifies G1, since a bishop's answerability becomes acute precisely when his people "
-        "fail; and it generates this world's own densest crisis vocabulary -- the lapsed, "
-        "reconciliation, confessor, and the certificates of both kinds. CROSS-CELL CONNECTIONS (Doc_08 "
-        "§4): -> Force 2B-1 (produces) -- the Decian edict creates the category of the failed member "
-        "the ongoing internal contest is about; without this force there is no 2B-1. -> Force 2B-2 "
-        "(produces) -- the same edict creates confessors as a class with a claim; 2B-2 has no "
-        "claimants without it. <- Force 2A-1 (reacted to by) -- the Valerianic persecution repeats "
-        "this test on a community that has by then built a discipline for it.",
+        "The Decian persecution was the first empire-wide persecution to be enforced in a "
+        "planned way. It worked through certificates recording that the holder had sacrificed. "
+        "It did not mainly demand that Christians give up their faith. It demanded a recorded "
+        "act of compliance. A person could get one by performing the sacrifice, or by paying "
+        "to have it recorded. This is documented in Cyprian's crisis correspondence, which "
+        "carries the higher citation grade (A), and in his De Lapsis, which carries the lower "
+        "grade (B).\n"
+        "\n"
+        "It was felt less as an attack from outside than as a table emptied one certificate at "
+        "a time. The demand reached each person alone. It sorted the congregation into those "
+        "who had stood and those who had not. Both groups still belonged, still in the room. "
+        'In Cyprian\'s words, "[I]t is the shepherd that is chiefly wounded in the wound of his '
+        'flock."\n'
+        "\n"
+        "This force made common the group that the whole penitential system exists to deal "
+        "with. In one year, many lapsed and many confessors stood in one congregation. The "
+        "certificate was a new way to fall. The pattern was not new, though. Tertullian, in On "
+        "Modesty, already tells of sinners who ask imprisoned martyrs for peace. So the force "
+        "produced two things at once. One was the ongoing contest over members who had failed, "
+        "and the discipline for restoring them. The other was the confessors' rival claim to "
+        "grant peace, which pushes against it.\n"
+        "\n"
+        "It also sharpened the bishop's answerability, which is sharpest when his people fail. "
+        "And it gave this world its densest crisis vocabulary: the lapsed, reconciliation, "
+        "confessor, and the certificates of both kinds.\n"
+        "\n"
+        "The later Valerianic persecution repeated this test. By then the community had built "
+        "a discipline to meet it.",
         [
-            "the libelli, certificates recording that the holder had sacrificed, obtainable by "
+            "the libelli: certificates recording that the holder had sacrificed, obtainable by "
             "performing the sacrifice or by paying to have it recorded",
-            "\"[I]t is the shepherd that is chiefly wounded in the wound of his flock\" (Cyprian, "
-            "quoted directly at Doc_08 Force 1A-1 Layer 2)",
+            '"[I]t is the shepherd that is chiefly wounded in the wound of his flock" (Cyprian)',
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
              "Doc_08 §3 Force 1A-1: Documented, attested across Doc_01's own founding-boundary "

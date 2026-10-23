@@ -47,10 +47,12 @@ held_against:
   of a saint's life... the death as completion of a formed life').
 - This world's own build record states, at full strength, that 'once the account tells you it is patterning
   itself on Scripture, the specific details can no longer be separated from the pattern by a reader who
-  has no independent witness' -- and this build has no independent witness, because the Acta Proconsularia,
-  the strictly documentary record of the trial Pontius himself points readers toward, is vendored in Latin
-  only and has not been read in this build (Doc_09 §6 item 2, §8 item 1; Story-Chunks/lpcstory006, Absent
-  Story Note).
+  has no independent witness' -- and for some details there is still no independent witness. The Acta Proconsularia, vendored in
+  Latin (Hartel's edition, in three printings), confirms the crowd, the night vigil, 'Deo gratias', the
+  kneeling, the brothers' cry and Cyprian's own hand over his eyes. It does not give the trees, Zacchaeus,
+  the hurried executioner or the hand 'strengthened... from above'; those rest on Pontius alone. It also
+  says the presbyter and the subdeacon Julianus tied the cloths, where Pontius says Cyprian did. The Acta
+  itself carries Christian framing, so it is not a purely official record (Story-Chunks/lpcstory006).
 - 'This world''s own Doc_09 names this exact question as an unresolved escalation, not settled: ''the
   escalation at §8 item 7 -- which half of CF V7.4''s Tier 3 definition governs when its genus clause and
   its hagiographic-convention clause point opposite ways at lpcstory006 -- remains open.'''
