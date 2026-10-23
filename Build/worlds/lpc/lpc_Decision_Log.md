@@ -2392,3 +2392,11 @@ Script re-run after both fixes; gate battery re-verified unchanged (271 records,
 **Question.** Completion Standard V1.4 §F says Doc_05 and Doc_07 carry the seven-dimension spine; Doc_05 follows the older CF V7.4 Step 5 text and does not ask Narrative/Mythic, Ethical/Legal (required), Material (required) or Doctrinal as lenses (`Review-Artifacts/L0_Docs03-05-06-07_Recheck_2026-10-23.md`, section 2).
 **Alternatives shown.** (A) ruling or waiver, Doc_07's spine serves both; (B) a spine pass on Doc_05, about 1,500 to 2,000 words and the last review round under the cap; (C) a crosswalk table beside §0.7 mapping each dimension to the Doc_05 or Doc_07 section that answers it, with a one-line yield and the naming choice, about 300 words and one targeted recheck; (D) settle CF Step 5 against §F at portfolio level first.
 **Chosen.** C (project lead, 2026-10-23, "c"). The thread recommended C, as did the 2026-09-29 check. The crosswalk is a change to an approved document and goes through the change order with the OG-38 and OG-39 corrections; its targeted recheck is Doc_05's last round under the cap. The portfolio divergence between CF V7.4 Step 5 and V1.4 §F stays open for the System Hub.
+
+---
+
+### 2026-10-23 — Lexicon discovery method and matching rule (project lead's ruling, OG-36)
+
+**Question.** A Latin headword sweep misses a term the corpus carries only in translation (*libelli* swept, *certificates* missed: 38 hits outside `<note>`), and Doc_03's counts state no matching rule (flock/shepherd/pastor: 113 by substring, 109 by word boundary, 106 with notes removed).
+**Alternatives shown.** (1) Sweep the Latin headword and its English equivalents under one stated rule: whole words, case-insensitive, editorial and translators' notes excluded, every count giving its rule and the note-free number; for OCR Latin, allow for spelling noise and report what may be missed; (2) Latin headword only, limit disclosed; (3) English only.
+**Chosen.** 1 for `lpc` (project lead, 2026-10-23, "1"). Applied to the sermon sweeps and, by change order, to Doc_03's counts. The fleet-wide form is logged as a proposal in the System Hub Decision Log, not ruled for other worlds.

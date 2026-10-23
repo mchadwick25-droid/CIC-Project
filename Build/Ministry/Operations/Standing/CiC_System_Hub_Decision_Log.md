@@ -6859,3 +6859,7 @@ Cap ruling. On 2026-10-22 the project lead was told that slice A1a of the accoun
 ## 2026-10-23 - Cap ruling: lpc Doc_08, one targeted recheck after the corrections
 
 `lpc` Doc_08 holds eight review files plus the targeted check of 2026-09-29, past the cap of three, accepted by the rebaseline declaration of 2026-09-29. The Phase L0 check of 2026-10-23 (`Build/worlds/lpc/Review-Artifacts/L0_Doc08_Generator_Check_2026-10-23.md`) found two high findings that still reproduce and errors that reach records. The project lead ruled option 1 of the route put to him: the corrections go in one change order, and one targeted Opus recheck of those corrections follows, not a new revision round. The recheck is `Doc_08_CapRuling_Recheck_Round10.md` in `Build/worlds/lpc/Review-Artifacts/`. It is the only review this ruling covers.
+
+## 2026-10-23 - Proposal (not ruled): one lexicon discovery method and matching rule for every world
+
+Raised by the `lpc` build thread. For `lpc` the project lead ruled (lpc Decision Log, 2026-10-23, "Lexicon discovery method and matching rule"): sweep the original-language headword and its translation equivalents; match whole words, case-insensitive; exclude editorial and translators' notes; every count states its rule and its note-free number; on OCR text, allow for spelling noise and report what may be missed. The same gap bears on every world whose corpus is a translation (`lpc` OG-36). Whether to adopt it fleet-wide is a governance decision for the project lead. Until he rules, no other world is bound by it.
