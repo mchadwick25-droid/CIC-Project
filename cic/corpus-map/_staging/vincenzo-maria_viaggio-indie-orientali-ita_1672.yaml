@@ -1,0 +1,40 @@
+source_file: vincenzo-maria_viaggio-indie-orientali-ita_1672.txt
+assignments:
+- row_id: vincenzo-maria_viaggio-indie-orientali-ita_1672--il-viaggio-all-indie-orientali-libro-secondo-the-christians
+  work: Il viaggio all'Indie Orientali, Libro Secondo (the Christians of St. Thomas)
+  author: vincenzo-maria
+  locus: 'Libro Secondo, table of chapters at file line 808; the book itself from about line 8750 (the
+    table lists chapters 1-25: origin, history to 1599, customs and church order, relapse, the negotiations
+    of 1657-1658)'
+  atlas_ids:
+  - st-thomas-christians-under-portuguese-pressure-d
+  role: context
+  confidence: assigned
+  note: >-
+    Carmelite eyewitness, companion of Sebastiani on the first mission (1656-1658). Book Two gives the
+    community's origin story, customs and church order as the Carmelites understood them, then the negotiations
+    with the Archdeacon. Primary but hostile to the Archdeacon's party. Italian, no public-domain English
+    found. Second witness for exact wording: OCR rough.
+- row_id: vincenzo-maria_viaggio-indie-orientali-ita_1672--il-viaggio-all-indie-orientali-libro-secondo-the-christians-2
+  work: Il viaggio all'Indie Orientali, Libro Secondo (the Christians of St. Thomas)
+  author: vincenzo-maria
+  locus: Libro Secondo from about line 8750
+  atlas_ids:
+  - st-thomas-christians-of-india
+  role: antecedent
+  confidence: provisional
+  note: >-
+    The book's chapters 1-3 give the Carmelites' version of the apostle tradition and the history to 1599;
+    placed on subject, not read through.
+- row_id: vincenzo-maria_viaggio-indie-orientali-ita_1672--il-viaggio-all-indie-orientali-libro-primo-and-libro-quinto
+  work: Il viaggio all'Indie Orientali, Libro Primo and Libro Quinto (the journey through the Levant,
+    Mesopotamia and Persia)
+  author: vincenzo-maria
+  locus: Libro Primo from file line 1206; Libro Quinto from 24866
+  atlas_ids:
+  - church-of-the-east-schism-of-1552
+  role: context
+  confidence: provisional
+  note: >-
+    Overland route through Aleppo, Nineveh, Baghdad and Basra, meeting the Chaldean church; placed on
+    route, not read for that material.

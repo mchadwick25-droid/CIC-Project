@@ -329,6 +329,15 @@ works:
 
     '
   source_file: kirk-of-scotland_records-of-the-kirk-1638-1654_peterkin1838.txt
+- row_id: knewstub-john-confutation-of-monstrous-heresies-familie-of-loue-dawson1579-a-confutation-of-monstrous-and-horr-2
+  work: A Confutation of monstrous and horrible Heresies (1579)
+  author: knewstub-john
+  locus: as the first row
+  role: context
+  confidence: provisional
+  note: Knewstub was a Puritan-leaning Suffolk preacher; placed on window and place, pending
+    the Puritanism thread's ruling on his weight there.
+  source_file: knewstub-john_confutation-of-monstrous-heresies-familie-of-loue_dawson1579.txt
 - row_id: perkins_golden-chaine-and-treatises_legat1600--a-golden-chaine-or-the-description-of-theologie
   work: 'A Golden Chaine: or, the Description of Theologie (with Beza''s table for comforting
     afflicted consciences)'

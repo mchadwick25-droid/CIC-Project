@@ -15,6 +15,20 @@ works:
     (Andreae, Crusius and others), not Wittenberg''s faculty, and the volume was printed at
     Wittenberg in 1584; so the fit to this entry is provisional. Latin only in this file.'
   source_file: acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt
+- row_id: book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911--book-of-concord-whole-volume
+  work: 'The Book of Concord (Jacobs 1911): Creeds, Augsburg Confession, Apology, Smalcald
+    Articles, Catechisms, Formula of Concord'
+  author: book-of-concord
+  locus: Part I Creeds from file line 1160; Part II Augsburg Confession 1374; Apology 3270;
+    Part IV Smalcald Articles 15675; Part V Small Catechism 18375; Large Catechism 19583;
+    Formula of Concord Epitome 25352, Solid Declaration 25403; Part VIII analyses and indexes
+    35627
+  role: tradition
+  confidence: assigned
+  note: The Lutheran confessional corpus in one English volume; a second expression of the
+    Augsburg Confession, Apology and the two Catechisms already vendored, and the corpus's
+    only text of the Smalcald Articles and the Formula of Concord. English only.
+  source_file: book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt
 - row_id: gerlach_tage-buch-deu_1674--tage-buch-diary-at-constantinople-1573-1578-german-2
   work: 'Stephan Gerlach''s Tage-Buch: the diary of the Tuebingen chaplain to the imperial
     embassy at Constantinople, 1573-1578 (German)'

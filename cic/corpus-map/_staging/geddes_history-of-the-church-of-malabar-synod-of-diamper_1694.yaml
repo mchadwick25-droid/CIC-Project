@@ -1,0 +1,73 @@
+source_file: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt
+authors_ruled:
+  synod-of-diamper:
+    kind: anonymous
+    evidence: 'The acts and decrees are the corporate work of the diocesan Synod of Diamper (1599) convened
+      by Aleixo de Menezes; the translations carry the translator''s name (Geddes, Raulin) but no individual
+      author of the decrees themselves. Geddes''s title page: ''Done out of Portugueze into English'';
+      Raulin''s: ''nunc primum e Lusitano in Latinum versa''.'
+    from_file: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt
+assignments:
+- row_id: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694--the-acts-and-decrees-of-the-synod-of-diamper-1599-english
+  work: The Acts and Decrees of the Synod of Diamper (1599), English
+  author: synod-of-diamper
+  locus: profession of faith from file line 9602; Actions III-IX under 'The Acts and Decrees' running
+    heads from about line 10725 (Action III) and 16245 (Action V) to the end of the Decrees
+  atlas_ids:
+  - st-thomas-christians-under-portuguese-pressure-d
+  role: tradition
+  confidence: assigned
+  note: >-
+    The Synod's decrees in Geddes's English ('done out of Portugueze'); Hough 1839 judges the translation
+    literal and checked it against Raulin's Latin. Primary for what Rome ordered and what it condemned
+    in the Syriac church, a hostile hand on the community's practice. Second witness for exact wording:
+    OCR is readable but carries f-for-long-s and broken words.
+- row_id: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694--the-acts-and-decrees-of-the-synod-of-diamper-1599-english-2
+  work: The Acts and Decrees of the Synod of Diamper (1599), English
+  author: synod-of-diamper
+  locus: profession of faith from file line 9602; Actions III-IX under 'The Acts and Decrees' running
+    heads from about line 10725 (Action III) and 16245 (Action V) to the end of the Decrees
+  atlas_ids:
+  - st-thomas-christians-1300-1517
+  role: context
+  confidence: provisional
+  note: >-
+    Placed on window and place without a close read of the relevant part. The synod ends the Syriac church's
+    old jurisdiction that the 1300-1517 entry describes; its decrees condemn books and customs of that
+    earlier period.
+- row_id: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694--the-acts-and-decrees-of-the-synod-of-diamper-1599-english-3
+  work: The Acts and Decrees of the Synod of Diamper (1599), English
+  author: synod-of-diamper
+  locus: profession of faith from file line 9602; Actions III-IX under 'The Acts and Decrees' running
+    heads from about line 10725 (Action III) and 16245 (Action V) to the end of the Decrees
+  atlas_ids:
+  - the-society-of-jesus
+  role: context
+  confidence: provisional
+  note: >-
+    Placed on window and place without a close read of the relevant part. The synod was run by the Jesuit-advised
+    archbishop of Goa; the Society's part is in Hough and Whitehouse as well.
+- row_id: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694--a-short-history-of-the-church-of-malabar-geddes-with
+  work: A Short History of the Church of Malabar (Geddes), with Remarks on the Synod
+  author: geddes
+  locus: '''Short Hiftory'' heading at line 2338; Remarks upon passages of the decrees marked at lines
+    8483 and 8539'
+  atlas_ids:
+  - st-thomas-christians-under-portuguese-pressure-d
+  role: context
+  confidence: assigned
+  note: >-
+    Geddes (Anglican, 1694) tells the Portuguese arrival to the Synod and argues the St. Thomas Christians
+    agreed with the Church of England. Secondary, polemical, but early and close to the Portuguese sources.
+- row_id: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694--a-short-history-of-the-church-of-malabar-geddes-with-2
+  work: A Short History of the Church of Malabar (Geddes), with Remarks on the Synod
+  author: geddes
+  locus: '''Short Hiftory'' heading at line 2338; Remarks upon passages of the decrees marked at lines
+    8483 and 8539'
+  atlas_ids:
+  - the-society-of-jesus
+  role: context
+  confidence: provisional
+  note: >-
+    Anglican polemic against Jesuit and Roman method in Malabar; second-hand for the Society, read as
+    an outside witness.

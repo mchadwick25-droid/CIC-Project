@@ -178,6 +178,51 @@ works:
 
     '
   source_file: challoner_memoirs-of-missionary-priests_pollen1924.txt
+- row_id: chirino_relacion-islas-filipinas-spa_manila1890--chirino-relacion-spanish-2
+  work: Relacion de las Islas Filipinas y de lo que en ellas han trabajado los Padres de la
+    Compania de Jesus (Roma 1604), Manila 1890 reprint
+  author: chirino
+  locus: whole text from the title at file line 134; the printed table of contents of eighty-two
+    chapters is at the end of the file
+  role: tradition
+  confidence: assigned
+  note: The Society's own first account of its Philippine mission, in the Spanish written.
+  source_file: chirino_relacion-islas-filipinas-spa_manila1890.txt
+- row_id: blair-robertson_philippine-islands-v12_1904--chirino-relacion-part-1-2
+  work: 'The Philippine Islands, Vol. XII (1601-1604): Chirino''s Relacion de las Islas Filipinas
+    (first part) and the documents of 1601-1603'
+  author: chirino
+  locus: Chirino's Relacion from file line 4110 to the Bibliographical Data at 7925; documents
+    of 1601-1602 from 555 and of 1603 from 1946 (Sangley insurrection, Benavides, Acuna)
+  role: tradition
+  confidence: assigned
+  note: Chirino was the Society's own procurator and first Jesuit voice in the islands; his
+    Relacion is the Society's account of its Philippine mission to 1604.
+  source_file: blair-robertson_philippine-islands-v12_1904.txt
+- row_id: blair-robertson_philippine-islands-v13_1904--chirino-relacion-part-2-2
+  work: 'The Philippine Islands, Vol. XIII (1604-1605): Chirino''s Relacion de las Islas Filipinas
+    (concluded) and the documents of 1604-1605'
+  author: chirino
+  locus: Chirino's Relacion concluded from file line 547 to 5571; documents of 1604 from 5571
+    (decrees on religious orders 6205, Chirino's grant for the Jesuit seminary at Cebu 6301),
+    of 1605 from 6718 (Augustinian friars' letters 7284); Bibliographical Data at 7879
+  role: tradition
+  confidence: assigned
+  note: Second half of the Society's own account of its first Philippine decades, and Chirino's
+    grant for the Jesuit seminary at Cebu.
+  source_file: blair-robertson_philippine-islands-v13_1904.txt
+- row_id: colin_labor-evangelica-t1-spa_pastells1900--colin-labor-evangelica-tomo-1-2
+  work: Labor evangelica (Madrid 1663), Parte primera, drawn from Chirino's manuscripts, Pastells's
+    edition of 1900, Tomo I
+  author: colin
+  locus: dedication at file line 99; 'LIBRO PRIMERO' at 56461 (the islands and their peoples);
+    'LIBRO SEGVNDO' at 73221 (the Society's first years); the whole-work alphabetical index
+    fills roughly lines 1491 to 54305
+  role: tradition
+  confidence: assigned
+  note: The Society's own history of its Philippine province, by its provincial, in the Spanish
+    written.
+  source_file: colin_labor-evangelica-t1-spa_pastells1900.txt
 - row_id: council-of-trent_canons-and-decrees_waterworth1848--the-canons-and-decrees-of-the-sacred-and-oecumenical-council
   work: The Canons and Decrees of the Sacred and Oecumenical Council of Trent
   author: council-of-trent
@@ -258,6 +303,16 @@ works:
 
     '
   source_file: francis-xavier_life-and-letters-v2_coleridge1872.txt
+- row_id: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694--a-short-history-of-the-church-of-malabar-geddes-with-2
+  work: A Short History of the Church of Malabar (Geddes), with Remarks on the Synod
+  author: geddes
+  locus: '''Short Hiftory'' heading at line 2338; Remarks upon passages of the decrees marked
+    at lines 8483 and 8539'
+  role: context
+  confidence: provisional
+  note: Anglican polemic against Jesuit and Roman method in Malabar; second-hand for the Society,
+    read as an outside witness.
+  source_file: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt
 - row_id: gerard-john_condition-of-catholics-under-james-i_morris1871--narrative-of-the-gunpowder-plot-2
   work: A Narrative of the Gunpowder Plot (John Gerard's own English account, written c. 1606,
     printed from the Stonyhurst autograph)
@@ -283,6 +338,15 @@ works:
 
     '
   source_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
+- row_id: hough_history-of-christianity-in-india-v2_1839--book-v-the-jesuit-missions-and-menezes-s-visitation-hough
+  work: Book V, the Jesuit missions and Menezes's visitation (Hough)
+  author: hough
+  locus: Book V from line 10383
+  role: context
+  confidence: provisional
+  note: Placed on window and place; Hough's account of the Jesuit prelates of Malabar is hostile
+    to the Society and was not checked line by line.
+  source_file: hough_history-of-christianity-in-india-v2_1839.txt
 - row_id: ignatius-loyola_scripta-de-sancto-ignatio-tomus01-lat-spa-ita_1904--acta-p-ignatii-the-autobiography-original-spanish-and
   work: Acta P. Ignatii (the Autobiography, original Spanish and Italian) and early writings
     on Ignatius
@@ -1412,6 +1476,29 @@ works:
 
     '
   source_file: southwell_funeral-tears-triumphs-epistle-of-comfort_walter1822.txt
+- row_id: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745--synodus-diamperitana-actio-i-ix-the-acts-and-decrees-in-2
+  work: Synodus Diamperitana, Actio I-IX (the acts and decrees in Latin)
+  author: synod-of-diamper
+  locus: '''SYNODUS'' at file line 5062; Actio I 5362, III 5874, IV 8495, V 9898, VI 11464,
+    VII 12478, VIII 14903, IX 16860; the Bishop of Cochin''s letter and the Synod''s reply
+    from 18817'
+  role: context
+  confidence: provisional
+  note: Same text as the main row; the Jesuit share of the synod is in Raulin's history and
+    notes. Placed on window and place.
+  source_file: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745.txt
+- row_id: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694--the-acts-and-decrees-of-the-synod-of-diamper-1599-english-3
+  work: The Acts and Decrees of the Synod of Diamper (1599), English
+  author: synod-of-diamper
+  locus: profession of faith from file line 9602; Actions III-IX under 'The Acts and Decrees'
+    running heads from about line 10725 (Action III) and 16245 (Action V) to the end of the
+    Decrees
+  role: context
+  confidence: provisional
+  note: Placed on window and place without a close read of the relevant part. The synod was
+    run by the Jesuit-advised archbishop of Goa; the Society's part is in Hough and Whitehouse
+    as well.
+  source_file: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt
 - row_id: trigault_de-christiana-expeditione-apud-sinas-lat_1615--de-christiana-expeditione-apud-sinas-trigault-from-ricci
   work: De Christiana expeditione apud Sinas (Trigault, from Ricci)
   author: trigault
@@ -1440,3 +1527,12 @@ works:
 
     '
   source_file: morris-john_troubles-of-our-catholic-forefathers-ser2_1875.txt
+- row_id: whitehouse_lingerings-of-light-in-a-dark-land_1873--lingerings-of-light-in-a-dark-land-chapters-x-xii-the
+  work: Lingerings of Light in a Dark Land, chapters X-XII (the Jesuits in Malabar)
+  author: whitehouse
+  locus: Chapter X from line 9262, XI 10369
+  role: context
+  confidence: provisional
+  note: Hostile outside account of the Jesuit colleges and prelates; placed on subject, not
+    read through.
+  source_file: whitehouse_lingerings-of-light-in-a-dark-land_1873.txt

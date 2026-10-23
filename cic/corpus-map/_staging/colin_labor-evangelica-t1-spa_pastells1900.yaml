@@ -1,0 +1,41 @@
+source_file: colin_labor-evangelica-t1-spa_pastells1900.txt
+assignments:
+- row_id: colin_labor-evangelica-t1-spa_pastells1900--colin-labor-evangelica-tomo-1
+  work: Labor evangelica (Madrid 1663), Parte primera, drawn from Chirino's manuscripts, Pastells's edition
+    of 1900, Tomo I
+  author: colin
+  locus: dedication at file line 99; 'LIBRO PRIMERO' at 56461 (the islands and their peoples); 'LIBRO
+    SEGVNDO' at 73221 (the Society's first years); the whole-work alphabetical index fills roughly lines
+    1491 to 54305
+  atlas_ids:
+  - philippine-catholicism
+  role: tradition
+  confidence: assigned
+  note: Colin's history of the Jesuit mission, built from Chirino's papers and Pastells's added documents.
+    Spanish only; no public-domain English. A Jesuit chronicle written in 1663, after the window, so a
+    later witness to its events. Primary Spanish evidence once quotes are checked against the page image.
+    Tomos II and III (to 1616 and the documents) are not vendored.
+- row_id: colin_labor-evangelica-t1-spa_pastells1900--colin-labor-evangelica-tomo-1-2
+  work: Labor evangelica (Madrid 1663), Parte primera, drawn from Chirino's manuscripts, Pastells's edition
+    of 1900, Tomo I
+  author: colin
+  locus: dedication at file line 99; 'LIBRO PRIMERO' at 56461 (the islands and their peoples); 'LIBRO
+    SEGVNDO' at 73221 (the Society's first years); the whole-work alphabetical index fills roughly lines
+    1491 to 54305
+  atlas_ids:
+  - the-society-of-jesus
+  role: tradition
+  confidence: assigned
+  note: The Society's own history of its Philippine province, by its provincial, in the Spanish written.
+- row_id: colin_labor-evangelica-t1-spa_pastells1900--colin-labor-evangelica-tomo-1-3
+  work: Labor evangelica (Madrid 1663), Parte primera, drawn from Chirino's manuscripts, Pastells's edition
+    of 1900, Tomo I
+  author: colin
+  locus: dedication at file line 99; 'LIBRO PRIMERO' at 56461 (the islands and their peoples); 'LIBRO
+    SEGVNDO' at 73221 (the Society's first years); the whole-work alphabetical index fills roughly lines
+    1491 to 54305
+  atlas_ids:
+  - mission-born-christianities-kirishitan-japan-kon
+  role: context
+  confidence: provisional
+  note: As the Chirino rows.

@@ -1,0 +1,35 @@
+source_file: knewstub-john_confutation-of-monstrous-heresies-familie-of-loue_dawson1579.txt
+assignments:
+- row_id: knewstub-john-confutation-of-monstrous-heresies-familie-of-loue-dawson1579-a-confutation-of-monstrous-and-horr
+  work: A Confutation of monstrous and horrible Heresies, taught by H. N. and embraced of a number, who
+    call themselves the Familie of Loue
+  author: knewstub-john
+  locus: the confutation from the head of the file, quoting the Evangelium Regni; "A Confutation of the
+    Doctrine of David George" at file lines 10841 and 11001
+  atlas_ids:
+  - family-of-love-and-spiritualists-franck-niclaes
+  role: context
+  confidence: assigned
+  note: 'Hostile witness that quotes Niclaes''s Evangelium in English; Fuller''s editor notes that Knewstub
+    translated a great part of it. SECOND WITNESS for exact wording: EEBO microfilm OCR (about 0.89 of
+    tokens read as words at five sample points), so locate passages here and verify against the page images
+    before quoting (Mark''s OCR ruling, 2026-09-25). Role context.'
+- row_id: knewstub-john-confutation-of-monstrous-heresies-familie-of-loue-dawson1579-a-confutation-of-monstrous-and-horr-2
+  work: A Confutation of monstrous and horrible Heresies (1579)
+  author: knewstub-john
+  locus: as the first row
+  atlas_ids:
+  - puritanism
+  role: context
+  confidence: provisional
+  note: Knewstub was a Puritan-leaning Suffolk preacher; placed on window and place, pending the Puritanism
+    thread's ruling on his weight there.
+- row_id: knewstub-john-confutation-of-monstrous-heresies-familie-of-loue-dawson1579-a-confutation-of-monstrous-and-horr-3
+  work: 'A Confutation of monstrous and horrible Heresies (1579) '
+  author: knewstub-john
+  locus: as the first row
+  atlas_ids:
+  - the-english-reformation-and-elizabethan-settleme
+  role: context
+  confidence: provisional
+  note: Placed on window and place as an Elizabethan anti-sectarian tract.

@@ -480,6 +480,14 @@ works:
 
     '
   source_file: kirk-of-scotland_records-of-the-kirk-1638-1654_peterkin1838.txt
+- row_id: knewstub-john-confutation-of-monstrous-heresies-familie-of-loue-dawson1579-a-confutation-of-monstrous-and-horr-3
+  work: 'A Confutation of monstrous and horrible Heresies (1579) '
+  author: knewstub-john
+  locus: as the first row
+  role: context
+  confidence: provisional
+  note: Placed on window and place as an Elizabethan anti-sectarian tract.
+  source_file: knewstub-john_confutation-of-monstrous-heresies-familie-of-loue_dawson1579.txt
 - row_id: knox_works-v2_laing1895--history-of-the-reformation-book-third-english-intervention
   work: 'The History of the Reformation in Scotland, Book Third (1559-1561): the English intervention
     and the Treaty of Edinburgh'
@@ -561,6 +569,26 @@ works:
 
     '
   source_file: perkins_golden-chaine-and-treatises_legat1600.txt
+- row_id: rogers-john-displaying-of-an-horrible-secte-bishop1579-the-displaying-of-an-horrible-secte-1579
+  work: The Displaying of an horrible secte (1579)
+  author: rogers-john
+  locus: as the first row
+  role: context
+  confidence: provisional
+  note: 'Placed on window and place: an Elizabethan anti-heresy tract by a London minister.
+    The parts on the English Familist households were read; the English Reformation thread
+    decides its weight there.'
+  source_file: rogers-john_displaying-of-an-horrible-secte_bishop1579.txt
+- row_id: strype-annals-of-the-reformation-v2-pt2-1824-annals-of-the-reformation-vol-ii-part-2-1576-1580
+  work: Annals of the Reformation, vol. II part 2 (1576-1580)
+  author: strype
+  locus: the whole volume; Book II chapters for 1576-1580
+  role: context
+  confidence: assigned
+  note: 'Strype''s Elizabethan annals for 1576 to 1580: the bishops'' letters, visitations,
+    proclamations and appendix papers of the Settlement church. Read at the Family of Love
+    chapters only; the rest placed on window and place.'
+  source_file: strype_annals-of-the-reformation-v2-pt2_1824.txt
 - row_id: hooker_laws-of-ecclesiastical-polity-books-1-5_keble1850--walton-s-life-of-hooker
   work: Izaak Walton, The Life of Mr. Richard Hooker (1665)
   author: walton
@@ -575,3 +603,11 @@ works:
 
     '
   source_file: hooker_laws-of-ecclesiastical-polity-books-1-5_keble1850.txt
+- row_id: wilkinson-william-confutation-of-certaine-articles-daye1579-a-confutation-of-certaine-articles-delivered-unto-2
+  work: A Confutation of Certaine Articles delivered unto the Familye of Love (1579)
+  author: wilkinson-william
+  locus: as the first row
+  role: context
+  confidence: provisional
+  note: Placed on window and place; the English Reformation thread decides its weight.
+  source_file: wilkinson-william_confutation-of-certaine-articles_daye1579.txt

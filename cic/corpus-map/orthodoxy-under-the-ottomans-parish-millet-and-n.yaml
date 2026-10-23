@@ -94,18 +94,20 @@ works:
   source_file: doukas_historia-byzantina-grc-lat_bekker1834.txt
 - row_id: ecthesis-chronica_with-chronicon-athenarum-grc_lambros1902--ecthesis-chronica-greek-chronicle-of-sultans-and-patriarchs
   work: 'Ecthesis chronica (Ekthesis chronike): an anonymous Greek chronicle of the Ottoman
-    sultans and the Patriarchs of Constantinople, 1391-1543'
+    sultans and the Patriarchs of Constantinople, to 1543'
   author: ecthesis-chronica
   locus: Greek text with apparatus from file line 617 (heading 'EKTHESIS CHRONIKE') to about
     5573, running heads 'ECTHESIS CHRONICA' with printed page numbers; Lambros's Latin preface
     at 449; indices from 5673
   role: tradition
   confidence: assigned
-  note: 'A sixteenth-century Greek chronicle, in simple Greek, of the sultans and the patriarchs
-    after the fall of the city (Gennadius Scholarius is marked in the margin as first patriarch
-    after the capture, apparatus at about line 1673); an inside witness to the patriarchate''s
-    own succession story in the world''s own window. Clean polytonic OCR: primary original-language
-    voice, ready to quote once verified against the page images.
+  note: 'A sixteenth-century Greek chronicle, in simple Greek, and the fuller form of the
+    text that Crusius printed as the Historia politica (vendored in Bekker''s Bonn edition,
+    1849), of the sultans and the patriarchs after the fall of the city (Gennadius Scholarius
+    is marked in the margin as first patriarch after the capture, apparatus at about line
+    1673); an inside witness to the patriarchate''s own succession story in the world''s own
+    window. Clean polytonic OCR: primary original-language voice, ready to quote once verified
+    against the page images.
 
     '
   source_file: ecthesis-chronica_with-chronicon-athenarum-grc_lambros1902.txt
@@ -465,6 +467,22 @@ works:
 
     '
   source_file: smith-thomas_account-of-the-greek-church_1680.txt
+- row_id: smith-thomas_de-graecae-ecclesiae-hodierno-statu-lat_halma1698--de-graecae-ecclesiae-hodierno-statu-epistola
+  work: De Graecae Ecclesiae hodierno statu epistola (Smith's Latin letter on the present
+    state of the Greek Church)
+  author: smith-thomas
+  locus: publisher's address from about file line 20; the Epistola from about line 722 to
+    the Index rerum et verborum at 7720
+  role: context
+  confidence: assigned
+  note: 'The Latin original of the account of Greek doctrine and rites already in the corpus
+    in English (Smith 1680). An Oxford divine''s outside description, third and enlarged edition
+    (Utrecht, 1698); the 1680 English refers to ''the Latine Edition'' without naming it,
+    so wording may differ. Second witness: readable Latin with long s read as f; Greek words
+    garbled.
+
+    '
+  source_file: smith-thomas_de-graecae-ecclesiae-hodierno-statu-lat_halma1698.txt
 - row_id: smith-thomas_collectanea-de-cyrillo-lucario-lat_1707--narratio-de-vita-studiis-gestis-et-martyrio-cyrilli-lucarii
   work: Narratio de vita, studiis, gestis et martyrio Cyrilli Lucarii (Smith's Latin life
     of Cyril Lucaris), with the tracts De veteris Graecae Ecclesiae hymnis and Theologica

@@ -7154,3 +7154,262 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "Shared-Events source-research thread, Era 2 worker A: djvu.txt fetched to scratch and title page read ('Tomus II ... MCMVII'), 2026-10-17"
     status: not-yet-downloaded
+
+  - title: 'Doctrina Christiana: The First Book Printed in the Philippines, Manila, 1593'
+    author: anon.; Edwin Wolf 2nd (essay)
+    translator: null
+    year: 1947
+    world: philippine-catholicism
+    why: First Philippine imprint; the census names it as the world's first primary source.
+    url: https://www.gutenberg.org/ebooks/16119
+    rights_basis: pd-us-by-date (1593 original); 1947 edition under Gutenberg's no-US-copyright declaration
+    verified_by: direct fetch of the Gutenberg file and the loc.gov records 47031748 and 48031307, 2026-10-16
+    status: downloaded
+    vendored_as: doctrina-christiana_manila-1593-tgl-spa_wolf1947.txt
+  - title: The Philippine Islands, 1493-1898, Vol. VII
+    author: Blair and Robertson (eds.)
+    translator: Emma Helen Blair, James Alexander Robertson
+    year: 1903
+    world: philippine-catholicism
+    why: Plasencia on the Customs of the Tagalogs.
+    url: https://www.gutenberg.org/ebooks/13701
+    rights_basis: pd-us-by-date; Gutenberg declaration; archive.org mirror NOT_IN_COPYRIGHT
+    verified_by: direct fetch, five-point sample clean, 2026-10-16
+    status: downloaded
+    vendored_as: blair-robertson_philippine-islands-v07_1903.txt
+  - title: The Philippine Islands, 1493-1898, Vol. XII
+    author: Blair and Robertson (eds.)
+    translator: Emma Helen Blair, James Alexander Robertson
+    year: 1904
+    world: philippine-catholicism
+    why: Chirino's Relacion, first part.
+    url: https://www.gutenberg.org/ebooks/15022
+    rights_basis: pd-us-by-date; Gutenberg declaration; archive.org mirror NOT_IN_COPYRIGHT
+    verified_by: direct fetch, 2026-10-16
+    status: downloaded
+    vendored_as: blair-robertson_philippine-islands-v12_1904.txt
+  - title: The Philippine Islands, 1493-1898, Vol. XIII
+    author: Blair and Robertson (eds.)
+    translator: Emma Helen Blair, James Alexander Robertson
+    year: 1904
+    world: philippine-catholicism
+    why: Chirino's Relacion, concluded.
+    url: https://www.gutenberg.org/ebooks/15184
+    rights_basis: pd-us-by-date; Gutenberg declaration; archive.org mirror NOT_IN_COPYRIGHT
+    verified_by: direct fetch, 2026-10-16
+    status: downloaded
+    vendored_as: blair-robertson_philippine-islands-v13_1904.txt
+  - title: The Philippine Islands, 1493-1898, Vol. XXXIV
+    author: Blair and Robertson (eds.)
+    translator: Emma Helen Blair, James Alexander Robertson
+    year: 1906
+    world: philippine-catholicism
+    why: Earliest Augustinian, Franciscan and Dominican letters, 1565-1605.
+    url: https://www.gutenberg.org/ebooks/47927
+    rights_basis: pd-us-by-date; Gutenberg declaration; archive.org mirror NOT_IN_COPYRIGHT
+    verified_by: direct fetch, 2026-10-16
+    status: downloaded
+    vendored_as: blair-robertson_philippine-islands-v34_1906.txt
+  - title: History of the Philippine Islands (Morga), 2 vols.
+    author: Antonio de Morga
+    translator: Emma Helen Blair, James Alexander Robertson
+    year: 1907
+    world: philippine-catholicism
+    why: English of Morga's Sucesos (series vols. XV-XVI).
+    url: https://www.gutenberg.org/ebooks/7001
+    rights_basis: pd-us-by-date; Gutenberg declaration; archive.org mirror NOT_IN_COPYRIGHT
+    verified_by: direct fetch, 2026-10-16
+    status: downloaded
+    vendored_as: morga_sucesos-islas-filipinas_blair-robertson1907.txt
+  - title: Sucesos de las Islas Filipinas (Rizal's edition)
+    author: Antonio de Morga
+    translator: none (Spanish; edited by Jose Rizal)
+    year: 1890
+    world: philippine-catholicism
+    why: Spanish original of Morga.
+    url: https://archive.org/details/ahz9387.0001.001.umich.edu
+    rights_basis: pd-us-by-date (1890 imprint read in the OCR; no rights field)
+    verified_by: direct fetch, five-point sample clean, 2026-10-16
+    status: downloaded
+    vendored_as: morga_sucesos-islas-filipinas-spa_rizal1890.txt
+  - title: Relacion de las Islas Filipinas (Manila 1890)
+    author: Pedro Chirino, S.J.
+    translator: none (Spanish)
+    year: 1890
+    world: philippine-catholicism
+    why: Census-named principal mission account; Spanish beside the English of B&R XII-XIII.
+    url: https://archive.org/details/relaciondelasis00chirgoog
+    rights_basis: pd-us-by-date; host NOT_IN_COPYRIGHT
+    verified_by: direct fetch, five-point sample, 2026-10-16
+    status: downloaded
+    vendored_as: chirino_relacion-islas-filipinas-spa_manila1890.txt
+  - title: Labor evangelica, Tomo I (Pastells 1900)
+    author: Francisco Colin, S.J.
+    translator: none (Spanish)
+    year: 1900
+    world: philippine-catholicism
+    why: Jesuit history of the Philippine mission, from Chirino's papers.
+    url: https://archive.org/details/laborevangelicam01coli
+    rights_basis: pd-us-by-date (1900 imprint; no rights field)
+    verified_by: direct fetch, five-point sample readable, 2026-10-16
+    status: downloaded
+    vendored_as: colin_labor-evangelica-t1-spa_pastells1900.txt
+  - title: Manga Panalanging Pagtatagobilin ... with the Tagalog verse Passion (1760)
+    author: Gaspar Aquino de Belen
+    translator: none
+    year: 1760
+    world: philippine-catholicism
+    why: Earliest surviving pasyon in print form; second witness only, out of window.
+    url: https://archive.org/details/magapanalagingpa00vill
+    rights_basis: pd-us-by-date (1760; no rights field)
+    verified_by: direct fetch, OCR garbled, 2026-10-16
+    status: downloaded
+    vendored_as: aquino-de-belen_pasyon-and-manga-panalangin-tgl_manila1760.txt
+  - title: Labor evangelica, Tomos II and III (Pastells 1900)
+    author: Francisco Colin, S.J.
+    translator: none (Spanish)
+    year: 1900
+    world: philippine-catholicism
+    why: Remainder of Colin's history (Libros III-IV, to 1616, and documents).
+    url: https://archive.org/details/laborevangelicam02coli (and laborevangelicam03coli)
+    rights_basis: pd-us-by-date (1900 imprint; no rights field)
+    verified_by: source-research agent, archive.org metadata fetch 2026-10-16; metadata and Tomo I sample
+      only; volumes not opened
+    status: not-yet-downloaded
+  - title: The Philippine Islands, 1493-1898, Vol. XXIII-XXIV (Medina, History of the Augustinian order,
+      1630)
+    author: Juan de Medina, O.S.A.
+    translator: Blair and Robertson
+    year: 1905
+    world: philippine-catholicism
+    why: 'The Augustinian chronicle, in English; also holds Vol. XXXV''s Franciscan, Dominican and Recollect
+      mission extracts (gutenberg #45101).'
+    url: https://www.gutenberg.org/ebooks/16451 ; /18102 ; /45101
+    rights_basis: pd-us-by-date; Gutenberg declaration
+    verified_by: Gutenberg files fetched and contents tables read 2026-10-16; text not otherwise read
+    status: not-yet-downloaded
+  - title: Chronicas de la apostolica Provincia de S. Gregorio (Franciscans)
+    author: Juan Francisco de San Antonio, O.F.M.
+    translator: none (Spanish)
+    year: 1738
+    world: philippine-catholicism
+    why: The Franciscan chronicle the brief names; out of window in composition, covers it.
+    url: https://archive.org/details/chronicasdelaapo00sana
+    rights_basis: pd-us-by-date (1738 imprint; no rights field)
+    verified_by: direct fetch; OCR reads long s as f, second witness only, 2026-10-16
+    status: not-yet-downloaded
+  - title: Sucesos de las Islas Filipinas (Retana 1909, with Morga's unpublished writings)
+    author: Antonio de Morga
+    translator: W. E. Retana (ed.)
+    year: 1909
+    world: philippine-catholicism
+    why: Fuller Spanish edition; second Spanish witness.
+    url: https://archive.org/details/sucesosdelasisla00morg_0
+    rights_basis: pd-us-by-date (1909 imprint; no rights field)
+    verified_by: direct fetch, five-point sample readable, 2026-10-16
+    status: not-yet-downloaded
+
+  - title: A Study of the Earliest Letters of Caspar Schwenckfeld von Ossig (Corpus Schwenckfeldianorum
+      vol. I)
+    author: Caspar Schwenckfeld
+    translator: Chester David Hartranft (editor)
+    year: 1907
+    world: VI.15 schwenckfelders
+    why: Only Corpus volume found on a reachable host; German with English translation.
+    url: https://archive.org/details/astudyearliestl00churgoog
+    rights_basis: pd-us-by-date
+    verified_by: VI.15 world agent, metadata API and direct fetch of the djvu.txt, 2026-10-16 (NOT_IN_COPYRIGHT)
+    status: downloaded
+    vendored_as: schwenckfeld_corpus-schwenckfeldianorum-v1-earliest-letters-deu-eng_hartranft1907.txt
+  - title: Erläuterung für Herrn Caspar Schwenckfeld (2nd ed.)
+    author: Schwenkfelder emigrants (Christopher Schultz per host)
+    translator: null
+    year: 1830
+    world: VI.15 schwenckfelders
+    why: The community own apologia and history.
+    url: https://archive.org/details/erluterungfrher00schugoog
+    rights_basis: pd-us-by-date
+    verified_by: VI.15 world agent, metadata API and direct fetch of the djvu.txt, 2026-10-16 (NOT_IN_COPYRIGHT)
+    status: downloaded
+    vendored_as: schultz-christopher_erlaeuterung-fuer-caspar-schwenckfeld-deu_benner1830.txt
+  - title: The Schwenkfelders in Pennsylvania
+    author: Howard Wiegner Kriebel
+    translator: null
+    year: 1904
+    world: VI.15 schwenckfelders
+    why: English history with translated documents.
+    url: https://archive.org/details/schwenkfeldersin13krie
+    rights_basis: pd-us-by-date
+    verified_by: VI.15 world agent, metadata API and direct fetch of the djvu.txt, 2026-10-16 (no rights
+      field; 1904 imprint)
+    status: downloaded
+    vendored_as: kriebel_schwenkfelders-in-pennsylvania_1904.txt
+  - title: The Book of Concord (People's Edition)
+    author: Evangelical Lutheran Church
+    translator: Henry Eyster Jacobs
+    year: 1911
+    world: VI.15 schwenckfelders
+    why: Formula of Concord Article XII on the Schwenckfeldians.
+    url: https://archive.org/details/thebookofconcord00unknuoft
+    rights_basis: pd-us-by-date
+    verified_by: VI.15 world agent, metadata API and direct fetch of the djvu.txt, 2026-10-16 (NOT_IN_COPYRIGHT)
+    status: downloaded
+    vendored_as: book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt
+  - title: Short Questions concerning the Christian Doctrine of Faith
+    author: Christopher Schultz
+    translator: I. Daniel Rupp
+    year: 1863
+    world: VI.15 schwenckfelders
+    why: The Schwenkfelder catechism in English.
+    url: https://archive.org/details/shortquestionsc00ruppgoog
+    rights_basis: pd-us-by-date
+    verified_by: VI.15 world agent, metadata API and direct fetch of the djvu.txt, 2026-10-16 (NOT_IN_COPYRIGHT)
+    status: downloaded
+    vendored_as: schultz-christopher_short-questions-christian-doctrine_rupp1863.txt
+  - title: The Heavenly Balm and the Divine Physician
+    author: Caspar Schwenckfeld
+    translator: F. R. Anspach
+    year: 1858
+    world: VI.15 schwenckfelders
+    why: Schwenckfeld devotional treatise in English; 2024 re-setting, flagged.
+    url: https://archive.org/details/the-heavenly-balm-and-the-divine-physician
+    rights_basis: pd-us-by-date
+    verified_by: VI.15 world agent, metadata API and direct fetch of the djvu.txt, 2026-10-16 (no rights
+      field; publisher states public domain)
+    status: downloaded
+    vendored_as: schwenckfeld_heavenly-balm-divine-physician_anspach1858.txt
+  - title: Hohe geistreiche Lehren ... des Hohen Lieds Salomonis
+    author: Daniel Sudermann
+    translator: null
+    year: 1622
+    world: VI.15 schwenckfelders
+    why: Schwenckfeldian devotional author near the window.
+    url: https://archive.org/details/hohegeistreichel00sude
+    rights_basis: pd-us-by-date
+    verified_by: VI.15 world agent, metadata API and direct fetch of the djvu.txt, 2026-10-16 (no rights
+      field)
+    status: downloaded
+    vendored_as: sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt
+  - title: Neu-eingerichtetes Gesang-Buch (Schwenkfelder hymnal)
+    author: Schwenkfelder Church (Christopher Schultz, compiler)
+    translator: null
+    year: 1762
+    world: VI.15 schwenckfelders
+    why: 'The 1762 Germantown hymnal named in the brief; three scans (also neueingerich00schw, neueingerichtete00schu).
+      Fraktur OCR 0.76-0.84 word share, about 340,000 words, columns interleaved. Not vendored: second-witness
+      scan and the hymns are 17th-18th century, outside the window. A later pass may vendor it.'
+    url: https://archive.org/details/neueingerichtete00unkn
+    rights_basis: pd-us-by-date
+    verified_by: VI.15 world agent, metadata and OCR sample, 2026-10-16 (no rights field on the item)
+    status: not-yet-downloaded
+  - title: Die ander Verantwortung auff Philippi Melanthonis Beschuldigung (1556)
+    author: Caspar Schwenckfeld
+    translator: null
+    year: 1556
+    world: VI.15 schwenckfelders
+    why: 'Schwenckfeld own 1556 reply to Melanchthon, inside the window; Austrian National Library scan.
+      Not vendored: about 4,700 words and the Fraktur OCR is garbled (0.54-0.62 word share); no clean witness.'
+    url: https://archive.org/details/bub_gb_95VbAAAAcAAJ
+    rights_basis: pd-us-by-date
+    verified_by: VI.15 world agent, metadata and OCR sample, 2026-10-16 (no rights field; 1556 imprint)
+    status: not-yet-downloaded

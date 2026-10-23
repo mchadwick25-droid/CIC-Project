@@ -1,0 +1,17 @@
+# Vendored by the library/source-research thread (Era VII session, one-world agent for schwenckfelders, 2026-10-16).
+source_file: schultz-christopher_short-questions-christian-doctrine_rupp1863.txt
+assignments:
+- row_id: schultz-christopher_short-questions-christian-doctrine_rupp1863--short-questions-schultz
+  work: Short Questions concerning the Christian Doctrine of Faith (Schultz, English by Rupp, 1863)
+  author: schultz-christopher
+  locus: Preface from file line 104; Contents 359; Part I Of the Divine Being from 366; III Of Redemption
+    1493; IV Of Sanctification 1983; V Of the Word of God 3705; VI Of the Institutions of Christ (Baptism
+    4160, the Supper 4247); VII Of the Three Principal Conditions 4610; Of Eternal Life 5693
+  atlas_ids:
+  - schwenckfelders
+  role: tradition
+  confidence: provisional
+  note: The Schwenkfelder catechism in English, an eighteenth-century Pennsylvania statement of the community's
+    own doctrine (Christ's person, the Word, the sacraments). Outside the census window; provisional on
+    window. Translation of Schultz's German Kurze Fragen; the German is not vendored. Check Rupp's rendering
+    against a German edition before quoting.

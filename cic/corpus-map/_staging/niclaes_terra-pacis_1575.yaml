@@ -1,0 +1,16 @@
+source_file: niclaes_terra-pacis_1575.txt
+assignments:
+- row_id: niclaes-terra-pacis-1575-terra-pacis-a-true-testification-of-the-spiritual-land-of-peace-1575
+  work: 'Terra Pacis: a true testification of the spiritual Land of Peace, 1575'
+  author: niclaes
+  locus: title page at the head; fifty-eight chapters headed "The N. Chap." (Second at 1162, LVIII at
+    8906); chapter headings caught for about two thirds
+  atlas_ids:
+  - family-of-love-and-spiritualists-franck-niclaes
+  role: tradition
+  confidence: assigned
+  note: 'Niclaes''s allegory of the pilgrim''s way to the land of peace, the best-known Familist work
+    in England (the census names it). SECOND WITNESS for exact wording: EEBO microfilm OCR (about 0.82
+    of tokens read as words at five sample points), so locate passages here and verify against the page
+    images before quoting (Mark''s OCR ruling, 2026-09-25). Black-letter misreads are systematic (r-rotunda,
+    virgules). A 1649 reprint is on archive.org (see dossier section 3).'

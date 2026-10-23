@@ -33,6 +33,16 @@ works:
 
     '
   source_file: ausbund_lancaster1846-deu.txt
+- row_id: book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911--formula-of-concord-article-xii-anabaptists
+  work: The Formula of Concord, Article XII, the Erroneous Articles of the Anabaptists
+  author: book-of-concord
+  locus: Epitome Chapter XII Anabaptists from file line 27717; Solid Declaration Chapter XII
+    from 35372
+  role: context
+  confidence: assigned
+  note: Lutheran confessional condemnation of the Anabaptists, the hostile contemporary frame
+    for the movement; read at the article.
+  source_file: book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt
 - row_id: schaff_second-helvetic-confession-heidelberg-catechism_1919--second-helvetic-confession-against-the-anabaptists
   work: 'The Second Helvetic Confession (1566): the passages against the Anabaptists'
   author: bullinger

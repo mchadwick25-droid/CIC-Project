@@ -16,3 +16,15 @@ assignments:
     rubrics, clean apart from occasional letter-level misreads and line-end hyphens read as a stray sign.
     Word-form coverage against a clean Latin vocabulary is 0.86, the same range as the machine-corrected
     TEI files. Quote after checking the page image.'
+
+- work: Institutum Societatis Iesu, vol. 1 (Latin), passages naming the Philippines and Manila
+  atlas_ids:
+  - philippine-catholicism
+  role: context
+  confidence: provisional
+  locus: file lines 51400, 53788, 53892 ('Luzoniis seu Philippinis', 'in insulis Philippinis', 'Maniliae
+    in insulis Philippinis'); not read beyond the matching lines
+  note: Placed on three matching lines only; the Society's own constitutional documents naming the Philippine
+    province. Tier same time-different-region.
+  row_id: society-of-jesus_institutum-societatis-iesu-v1-lat_1892--institutum-societatis-iesu-vol-1-latin-passages-naming-the-p
+  author: society-of-jesus

@@ -1,0 +1,84 @@
+source_file: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745.txt
+authors_ruled:
+  synod-of-diamper:
+    kind: anonymous
+    evidence: 'The acts and decrees are the corporate work of the diocesan Synod of Diamper (1599) convened
+      by Aleixo de Menezes; the translations carry the translator''s name (Geddes, Raulin) but no individual
+      author of the decrees themselves. Geddes''s title page: ''Done out of Portugueze into English'';
+      Raulin''s: ''nunc primum e Lusitano in Latinum versa''.'
+    from_file: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745.txt
+  liturgy-of-malabar:
+    kind: anonymous
+    evidence: The Malabar Mass is the East-Syriac rite as used by the St. Thomas Christians and revised
+      at Diamper; no author is claimed (see the Neale staging file's own ruling).
+    from_file: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745.txt
+assignments:
+- row_id: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745--synodus-diamperitana-actio-i-ix-the-acts-and-decrees-in
+  work: Synodus Diamperitana, Actio I-IX (the acts and decrees in Latin)
+  author: synod-of-diamper
+  locus: '''SYNODUS'' at file line 5062; Actio I 5362, III 5874, IV 8495, V 9898, VI 11464, VII 12478,
+    VIII 14903, IX 16860; the Bishop of Cochin''s letter and the Synod''s reply from 18817'
+  atlas_ids:
+  - st-thomas-christians-under-portuguese-pressure-d
+  role: tradition
+  confidence: assigned
+  note: >-
+    The Synod's decrees rendered into Latin from the Portuguese archetype of Gouvea (Coimbra 1606), with
+    Raulin's notes. Primary Latin witness to the acts; the English is in Geddes 1694 and Hough 1839. Second
+    witness for exact wording: OCR is rough (many broken words).
+- row_id: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745--synodus-diamperitana-actio-i-ix-the-acts-and-decrees-in-2
+  work: Synodus Diamperitana, Actio I-IX (the acts and decrees in Latin)
+  author: synod-of-diamper
+  locus: '''SYNODUS'' at file line 5062; Actio I 5362, III 5874, IV 8495, V 9898, VI 11464, VII 12478,
+    VIII 14903, IX 16860; the Bishop of Cochin''s letter and the Synod''s reply from 18817'
+  atlas_ids:
+  - the-society-of-jesus
+  role: context
+  confidence: provisional
+  note: >-
+    Same text as the main row; the Jesuit share of the synod is in Raulin's history and notes. Placed
+    on window and place.
+- row_id: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745--historia-synodi-diamperitanae-chapters-i-iv-raulin-s-history
+  work: Historia Synodi Diamperitanae, chapters I-IV (Raulin's history)
+  author: raulin
+  locus: '''HISTORIA'' at line 1549; Caput I 1607, II 2653, III 3914, IV after it'
+  atlas_ids:
+  - st-thomas-christians-under-portuguese-pressure-d
+  role: context
+  confidence: assigned
+  note: >-
+    Eighteenth-century Roman history of the Malabar church before, during and after the Synod, mainly
+    from Gouvea. Secondary, pro-Rome, with documents quoted in the notes.
+- row_id: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745--historia-synodi-diamperitanae-caput-i-the-malabar-church
+  work: Historia Synodi Diamperitanae, Caput I (the Malabar church before the Portuguese)
+  author: raulin
+  locus: Caput I from line 1607
+  atlas_ids:
+  - st-thomas-christians-1300-1517
+  role: context
+  confidence: provisional
+  note: >-
+    Placed on window and place: the first chapter surveys the older church and its Chaldean bishops; not
+    read in detail.
+- row_id: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745--liturgia-malabarica-menesiana-the-malabar-mass-as-revised
+  work: Liturgia Malabarica Menesiana (the Malabar Mass as revised at Diamper)
+  author: liturgy-of-malabar
+  locus: '''SACRUM'' at file line 19242, with Raulin''s Admonitio before it'
+  atlas_ids:
+  - st-thomas-christians-under-portuguese-pressure-d
+  role: context
+  confidence: assigned
+  note: >-
+    The rite as corrected by Menezes, with Raulin's notes that claim to mark the Synod's changes. Neale's
+    English of the Malabar rite is in the Neale volume; compare, since Neale doubts Raulin marks every
+    change.
+- row_id: raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo-lat_1745--dissertationes-i-v-on-the-apostolate-and-relics-of-st
+  work: Dissertationes I-V on the apostolate and relics of St. Thomas and the Malabar church
+  author: raulin
+  locus: Dissertatio III at line 24902, IV 26039, V 27672
+  atlas_ids:
+  - st-thomas-christians-of-india
+  role: context
+  confidence: provisional
+  note: >-
+    Eighteenth-century Roman scholarship on the Thomas tradition; placed on subject, not read through.

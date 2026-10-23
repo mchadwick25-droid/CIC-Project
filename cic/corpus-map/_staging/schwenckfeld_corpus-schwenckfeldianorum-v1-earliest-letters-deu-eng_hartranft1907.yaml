@@ -1,0 +1,28 @@
+# Vendored by the library/source-research thread (Era VII session, one-world agent for schwenckfelders, 2026-10-16).
+source_file: schwenckfeld_corpus-schwenckfeldianorum-v1-earliest-letters-deu-eng_hartranft1907.txt
+assignments:
+- row_id: schwenckfeld_corpus-schwenckfeldianorum-v1-earliest-letters-deu-eng_hartranft1907--earliest-letters-1520-1524
+  work: 'Corpus Schwenckfeldianorum, vol. I: A Study of the Earliest Letters of Caspar Schwenckfeld von
+    Ossig (Documents i-vii, 1520-1524)'
+  author: schwenckfeld
+  locus: Table of Contents from file line 121; Advertisement 207; Introduction 636; Document Four (1523)
+    running heads from 7842; Document Six from 13801; Document Seven (1524) from 34292; Index 42845
+  atlas_ids:
+  - schwenckfelders
+  role: tradition
+  confidence: assigned
+  note: 'Schwenckfeld''s own earliest letters, German text with Hartranft''s English translation or analysis
+    beside each. Window caveat: 1520-1524 lies before the census window (1540s-1650), so these show the
+    man before the movement. The German document texts are garbled Fraktur OCR (second witness until checked
+    against page images); the English translations and editorial matter are clean. Volume I only; the
+    1540 Great Confession is in a later volume not found on a reachable host.'
+- row_id: schwenckfeld_corpus-schwenckfeldianorum-v1-earliest-letters-deu-eng_hartranft1907--earliest-letters-1520-1524-2
+  work: Corpus Schwenckfeldianorum, vol. I (earliest letters, 1520-1524)
+  author: schwenckfeld
+  locus: Introduction from file line 636, on the Schwenckfeldian system and the Reformation
+  atlas_ids:
+  - family-of-love-and-spiritualists-franck-niclaes
+  role: context
+  confidence: provisional
+  note: Placed on the Spiritualist-wing relation the census names for both entries, without reading the
+    relevant part for Family of Love; a build thread should confirm or drop.

@@ -1,0 +1,59 @@
+source_file: hough_history-of-christianity-in-india-v2_1839.txt
+authors_ruled:
+  synod-of-diamper:
+    kind: anonymous
+    evidence: 'The acts and decrees are the corporate work of the diocesan Synod of Diamper (1599) convened
+      by Aleixo de Menezes; the translations carry the translator''s name (Geddes, Raulin) but no individual
+      author of the decrees themselves. Geddes''s title page: ''Done out of Portugueze into English'';
+      Raulin''s: ''nunc primum e Lusitano in Latinum versa''.'
+    from_file: hough_history-of-christianity-in-india-v2_1839.txt
+assignments:
+- row_id: hough_history-of-christianity-in-india-v2_1839--the-acts-and-decrees-of-the-synod-of-diamper-sessions-i-ix
+  work: The Acts and Decrees of the Synod of Diamper, Sessions I-IX (Geddes's English reprinted)
+  author: synod-of-diamper
+  locus: Appendix A at file line 29882; Sessions I-IX from 29973, 30310, 30860, 32788, 33860, 35189, 36074,
+    37684, 39215
+  atlas_ids:
+  - st-thomas-christians-under-portuguese-pressure-d
+  role: tradition
+  confidence: assigned
+  note: >-
+    Geddes's 1694 translation reprinted in modern type with the heading of each decree restored from the
+    Portuguese original (Hough's own statement, Book IV chapter I). Cleaner scan than Geddes 1694 and
+    the better text to quote from once checked against the page images. A hostile hand on the community;
+    the decrees are Rome's, not the Syrians'.
+- row_id: hough_history-of-christianity-in-india-v2_1839--book-iv-the-synod-of-diamper-hough-s-narrative-and
+  work: Book IV, the Synod of Diamper (Hough's narrative and commentary)
+  author: hough
+  locus: Book IV from line 2336
+  atlas_ids:
+  - st-thomas-christians-under-portuguese-pressure-d
+  role: context
+  confidence: assigned
+  note: >-
+    Session-by-session narrative of the Synod with Hough's Anglican commentary and his account of the
+    church's tenets before the synod. Secondary, written against Rome.
+- row_id: hough_history-of-christianity-in-india-v2_1839--books-v-and-vi-menezes-s-visitation-the-jesuit-archbishops
+  work: 'Books V and VI: Menezes''s visitation, the Jesuit archbishops, the revolt of 1653 and the Carmelite
+    mission'
+  author: hough
+  locus: Book V from line 10383; Book VI from 18240 (Archdeacon Thomas and the revolt about line 18415)
+  atlas_ids:
+  - st-thomas-christians-under-portuguese-pressure-d
+  role: context
+  confidence: assigned
+  note: >-
+    Secondary account of 1599-1665 drawing on Gouvea, Raulin, La Croze and the Carmelite travel books.
+    Its Book VI table of contents names the Jesuit prelates, the revolt and the Carmelite arrival. Use
+    as a guide to the sources, not as a voice.
+- row_id: hough_history-of-christianity-in-india-v2_1839--book-v-the-jesuit-missions-and-menezes-s-visitation-hough
+  work: Book V, the Jesuit missions and Menezes's visitation (Hough)
+  author: hough
+  locus: Book V from line 10383
+  atlas_ids:
+  - the-society-of-jesus
+  role: context
+  confidence: provisional
+  note: >-
+    Placed on window and place; Hough's account of the Jesuit prelates of Malabar is hostile to the Society
+    and was not checked line by line.

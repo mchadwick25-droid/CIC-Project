@@ -174,3 +174,15 @@ works:
   note: Placed on the entry's window (1650-1821). An Anglican chaplain's outside account of
     1680.
   source_file: smith-thomas_account-of-the-greek-church_1680.txt
+- row_id: smith-thomas_de-graecae-ecclesiae-hodierno-statu-lat_halma1698--de-graecae-ecclesiae-hodierno-statu-epistola-2
+  work: De Graecae Ecclesiae hodierno statu epistola (Smith's Latin letter on the present
+    state of the Greek Church)
+  author: smith-thomas
+  locus: the Epistola from about file line 722 to 7719
+  role: context
+  confidence: assigned
+  note: 'Same placement as Smith''s English account of 1680 and Rycaut 1679 in this entry;
+    written in 1676 and enlarged in 1698, so it falls across this entry''s opening decades.
+
+    '
+  source_file: smith-thomas_de-graecae-ecclesiae-hodierno-statu-lat_halma1698.txt

@@ -384,6 +384,12 @@ authors:
 
       '
     from_file: capitulatio-de-partibus-saxoniae_pertz1881.txt
+  chirino:
+    kind: metadata-omission
+    evidence: The volume's own contents list reads 'Relacion de las Islas Filipinas (to be
+      concluded). Pedro Chirino, S.J.; Roma, 1604', and the file's leading name slug is the
+      editors' series, so the author of the Relacion is supplied here from the contents list.
+    from_file: blair-robertson_philippine-islands-v12_1904.txt
   chronicle-of-arbela:
     kind: pseudonymous
     evidence: 'The chronicle is attributed to Mshiha-zkha (sixth century) in Mingana''s 1907
@@ -760,6 +766,12 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  family-of-love:
+    kind: anonymous
+    evidence: The print names no author; the title page reads "A brief Rehersall of the Beleef
+      of the Goodwilling in Englande, which are named the Familie of Loue"; the host catalogue
+      gives the corporate creator "Family of Love"; file line 12.
+    from_file: family-of-love_brief-rehersall-of-the-beleef_1575.txt
   faustinus-and-marcellinus:
     kind: metadata-omission
     evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md (generated from CCEL XML
@@ -1094,6 +1106,14 @@ authors:
 
       '
     from_file: sathas_mesaionike-bibliotheke-v3-grc_1872.txt
+  malabar-syrians:
+    kind: anonymous
+    evidence: Whitehouse Appendix D is headed 'Abstract of a brief history of the Syrians
+      in Malabar, preserved among themselves as their genuine history' (reprinted from the
+      Church Missionary Society Report for 1818-19); Appendix E is 'The document signed by
+      all the Church people of Malankara ... assembled in the Large Church of Angamale' in
+      1787. Both are community documents with no individual author named.
+    from_file: whitehouse_lingerings-of-light-in-a-dark-land_1873.txt
   mara-bar-serapion:
     kind: metadata-omission
     evidence: 'div2 9.17 "A Letter of Mara, Son of Serapion" — the title names the author,
@@ -1522,6 +1542,14 @@ authors:
 
       '
     from_file: npnf214_seven-ecumenical-councils.xml
+  synod-of-diamper:
+    kind: anonymous
+    evidence: 'The acts and decrees are the corporate work of the diocesan Synod of Diamper
+      (1599) convened by Aleixo de Menezes; the translations carry the translator''s name
+      (Geddes, Raulin) but no individual author of the decrees themselves. Geddes''s title
+      page: ''Done out of Portugueze into English''; Raulin''s: ''nunc primum e Lusitano in
+      Latinum versa''.'
+    from_file: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt
   synod-of-laodicea:
     kind: anonymous
     evidence: 'div2 title "Synod of Laodicea." under div1 8; no DC.Creator in the volume.
@@ -1638,6 +1666,12 @@ authors:
     evidence: div2 title 'The Canonical Answers of Timothy the Most Holy Bishop of Alexandria,
       Who was One of the CL Fathers'; npnf214 carries no DC.Creator.
     from_file: npnf214_seven-ecumenical-councils.xml
+  tobias-familist:
+    kind: pseudonymous
+    evidence: The title page reads "Published by Tobias a Fellow Elder with H. N. in the Household
+      of Love"; no surname is given; the host catalogue repeats "Tobias, fellow elder with
+      H. Niclas". The slug names the signature, not a known person.
+    from_file: tobias-familist_mirabilia-opera-dei_1650.txt
   two-epistles-on-virginity:
     kind: pseudonymous
     evidence: 'div1 5; the section''s Introductory Notice heads it "Attributed to Clement
