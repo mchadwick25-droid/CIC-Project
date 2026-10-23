@@ -1,0 +1,11 @@
+source_file: edwards_selected-sermons_gardiner1904.txt
+assignments:
+- row_id: edwards_selected-sermons_gardiner1904--selected-sermons-of-jonathan-edwards-seven-sermons-1731-1750
+  work: Selected Sermons of Jonathan Edwards (seven sermons, 1731-1750)
+  author: edwards
+  locus: the seven sermons; Gardiner's introduction and notes excluded
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: tradition
+  confidence: assigned
+  note: Edwards's preaching from before the revival to his dismissal, in a clean text.

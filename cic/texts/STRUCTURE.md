@@ -1550,6 +1550,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 118,357 | 118,357 | blair-robertson_philippine-islands-v34_1906 |
 
+## `blair-samuel_short-and-faithful-narrative-of-the-revival-at-new-londonderry_1744.txt`
+
+1 section(s) to level 2 · ~9,674 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 9,674 | 9,674 | blair-samuel_short-and-faithful-narrative-of-the-revival-at-new-londonderry_1744 |
+
 ## `boehmer_urkunden-bauernkrieg-wiedertaeufer-deu_1910.txt`
 
 1 section(s) to level 2 · ~17,465 words of text · ~0 words of apparatus
@@ -1669,6 +1677,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 161,034 | 161,034 | boyd_ecclesiastical-edicts-theodosian-code_1905 |
+
+## `brainerd_mirabilia-dei-inter-indicos-journal_bradford1746.txt`
+
+1 section(s) to level 2 · ~66,921 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 66,921 | 66,921 | brainerd_mirabilia-dei-inter-indicos-journal_bradford1746 |
 
 ## `broet_epistolae-broeti-jaji-codurii-rodericii-lat_1903.txt`
 
@@ -1910,6 +1926,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 128,269 | 128,269 | chamich_history-of-armenia-v2_avdall1827 |
 
+## `chauncy_seasonable-thoughts-on-the-state-of-religion-in-new-england_1743.txt`
+
+1 section(s) to level 2 · ~148,669 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 148,669 | 148,669 | chauncy_seasonable-thoughts-on-the-state-of-religion-in-new-england_1743 |
+
 ## `chelcicky_sit-viry-ces_smetanka1912.txt`
 
 1 section(s) to level 2 · ~144,026 words of text · ~0 words of apparatus
@@ -1925,6 +1949,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 89,596 | 89,596 | chirino_relacion-islas-filipinas-spa_manila1890 |
+
+## `christian-history_weekly-accounts-of-the-revival_prince1744.txt`
+
+1 section(s) to level 2 · ~175,949 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 175,949 | 175,949 | christian-history_weekly-accounts-of-the-revival_prince1744 |
 
 ## `chronica-minora-liber-genealogus_mommsen1892.txt`
 
@@ -2382,6 +2414,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 29,262 | 29,262 | danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537 |
 
+## `davies_sermons-on-important-subjects-v3_allen1792.txt`
+
+1 section(s) to level 2 · ~169,148 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 169,148 | 169,148 | davies_sermons-on-important-subjects-v3_allen1792 |
+
 ## `dedham-classis_minute-book_usher1905.txt`
 
 1 section(s) to level 2 · ~56,855 words of text · ~0 words of apparatus
@@ -2517,6 +2557,70 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 37,810 | 37,810 | edwards-morgan_materials-history-of-baptists-pennsylvania_1770 |
+
+## `edwards_account-of-the-life-of-david-brainerd_worcester1793.txt`
+
+1 section(s) to level 2 · ~144,945 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 144,945 | 144,945 | edwards_account-of-the-life-of-david-brainerd_worcester1793 |
+
+## `edwards_distinguishing-marks-of-a-work-of-the-spirit-of-god_1742.txt`
+
+1 section(s) to level 2 · ~42,455 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 42,455 | 42,455 | edwards_distinguishing-marks-of-a-work-of-the-spirit-of-god_1742 |
+
+## `edwards_faithful-narrative-of-the-surprising-work-of-god_1737.txt`
+
+1 section(s) to level 2 · ~38,245 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 38,245 | 38,245 | edwards_faithful-narrative-of-the-surprising-work-of-god_1737 |
+
+## `edwards_selected-sermons_gardiner1904.txt`
+
+1 section(s) to level 2 · ~74,681 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 74,681 | 74,681 | edwards_selected-sermons_gardiner1904 |
+
+## `edwards_sinners-in-the-hands-of-an-angry-god_1745.txt`
+
+1 section(s) to level 2 · ~10,122 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 10,122 | 10,122 | edwards_sinners-in-the-hands-of-an-angry-god_1745 |
+
+## `edwards_some-thoughts-concerning-the-present-revival_kneeland1742.txt`
+
+1 section(s) to level 2 · ~113,318 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 113,318 | 113,318 | edwards_some-thoughts-concerning-the-present-revival_kneeland1742 |
+
+## `edwards_treatise-concerning-religious-affections_kneeland1746.txt`
+
+1 section(s) to level 2 · ~198,680 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 198,680 | 198,680 | edwards_treatise-concerning-religious-affections_kneeland1746 |
+
+## `edwards_works-v1-memoir-personal-narrative-resolutions-diary_dwight1830.txt`
+
+1 section(s) to level 2 · ~411,497 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 411,497 | 411,497 | edwards_works-v1-memoir-personal-narrative-resolutions-diary_dwight1830 |
 
 ## `egeria_pilgrimage-of-etheria_mcclure-feltoe1919.txt`
 
@@ -8209,6 +8313,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | `18.4` | 2 | 126 | 126 | German Words and Phrases |
 | `18.5` | 2 | 636 | 636 | *Index of Pages of the Print Edition* (apparatus) |
 
+## `occom_sermon-at-the-execution-of-moses-paul_1788.txt`
+
+1 section(s) to level 2 · ~13,014 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 13,014 | 13,014 | occom_sermon-at-the-execution-of-moses-paul_1788 |
+
 ## `odes-of-solomon_harris-mingana1920.txt`
 
 1 section(s) to level 2 · ~159,165 words of text · ~0 words of apparatus
@@ -8304,6 +8416,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 81,364 | 81,364 | ormanian_church-of-armenia_gregory1912 |
+
+## `osborn-sarah_familiar-letters-with-susanna-anthony_1807.txt`
+
+1 section(s) to level 2 · ~36,799 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 36,799 | 36,799 | osborn-sarah_familiar-letters-with-susanna-anthony_1807 |
+
+## `osborn-sarah_memoirs-compiled-from-her-diaries_hopkins1799.txt`
+
+1 section(s) to level 2 · ~111,514 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 111,514 | 111,514 | osborn-sarah_memoirs-compiled-from-her-diaries_hopkins1799 |
 
 ## `pachomius_rules-ethiopic_schodde1885.txt`
 
@@ -9569,6 +9697,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 140,548 | 140,548 | telles_travels-of-the-jesuits-in-ethiopia_1710 |
 
+## `tennent-gilbert_twenty-three-sermons_bradford1744.txt`
+
+1 section(s) to level 2 · ~150,541 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 150,541 | 150,541 | tennent-gilbert_twenty-three-sermons_bradford1744 |
+
 ## `teresa-of-avila_book-of-foundations_lewis1913.txt`
 
 1 section(s) to level 2 · ~202,798 words of text · ~0 words of apparatus
@@ -9960,6 +10096,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 309,593 | 309,593 | westminster-assembly_confession-catechisms-standards_nelson1877 |
+
+## `wheatley_poems-on-various-subjects-religious-and-moral_bell1773.txt`
+
+1 section(s) to level 2 · ~17,366 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 17,366 | 17,366 | wheatley_poems-on-various-subjects-religious-and-moral_bell1773 |
 
 ## `whitefield_two-first-parts-of-his-life-with-journals_1756.txt`
 

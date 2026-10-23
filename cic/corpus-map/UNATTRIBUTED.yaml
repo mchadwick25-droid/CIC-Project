@@ -180,6 +180,14 @@ authors:
 
       '
     from_file: anf05_hippolytus-cyprian-caius-novatian.xml
+  anthony-susanna:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is osborn-sarah; the second correspondent,
+      Susanna Anthony, is named on the title page (file lines about 8-12) and signs her letters
+      in the text. cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: osborn-sarah_familiar-letters-with-susanna-anthony_1807.txt
   anti-donatist-dossier:
     kind: anonymous
     evidence: 'The volume''s DC.Creator names only `optatus`, but Appendices I-XVI are official
@@ -791,6 +799,15 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  edwards-jonathan-jr:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is occom; the appended Observations
+      on the Language of the Muhhekaneew Indians are by Jonathan Edwards the younger, named
+      on the title page (file lines about 20-25). cic/texts/AUTHORS.md has not seen the slug
+      yet.
+
+      '
+    from_file: occom_sermon-at-the-execution-of-moses-paul_1788.txt
   elias-of-nisibis:
     kind: metadata-omission
     evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
@@ -1073,6 +1090,15 @@ authors:
 
       '
     from_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
+  hopkins-samuel:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is osborn-sarah, the diarist whose
+      words the volume quotes; the compiler Samuel Hopkins is named on the title page (file
+      lines about 20-30) and his connecting narrative is assigned under his own slug. cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+    from_file: osborn-sarah_memoirs-compiled-from-her-diaries_hopkins1799.txt
   ignatius:
     kind: metadata-omission
     evidence: 'div1 5 title "IGNATIUS" over the epistles in shorter, longer and Syriac recensions;

@@ -121,6 +121,15 @@ works:
   note: The Kingswood schoolmaster and lay preacher who broke with Wesley in 1741 over predestination,
     telling it himself. Provisional.
   source_file: cennick_life-of-mr-j-cennick_1745.txt
+- row_id: christian-history_weekly-accounts-of-the-revival_prince1744--the-christian-history-prince-1743-1744-the-accounts-from
+  work: 'The Christian History (Prince, 1743-1744): the accounts from Scotland and England'
+  author: christian-history
+  locus: the letters and accounts from Great Britain reprinted in the numbers
+  role: context
+  confidence: provisional
+  note: The British revivals as New England read them in 1743; the transatlantic exchange
+    from the American side. Provisional.
+  source_file: christian-history_weekly-accounts-of-the-revival_prince1744.txt
 - row_id: coke_extracts-of-journals-five-visits-to-america_1793--extracts-of-the-journals-of-the-rev-dr-coke-s-five-visits-to
   work: Extracts of the Journals of the Rev. Dr. Coke's Five Visits to America (1793)
   author: coke
@@ -461,6 +470,15 @@ works:
 
     '
   source_file: wesley-j_large-minutes_1850.txt
+- row_id: wheatley_poems-on-various-subjects-religious-and-moral_bell1773--poems-on-various-subjects-religious-and-moral-wheatley-1773-2
+  work: Poems on Various Subjects, Religious and Moral (Wheatley, 1773)
+  author: wheatley
+  locus: the elegy on the death of the Rev. Mr. George Whitefield (1770)
+  role: context
+  confidence: provisional
+  note: Whitefield mourned by a Boston poet he never met in person; outside witness to his
+    American standing. Provisional.
+  source_file: wheatley_poems-on-various-subjects-religious-and-moral_bell1773.txt
 - row_id: whitefield_two-first-parts-of-his-life-with-journals_1756--the-two-first-parts-of-his-life-with-his-journals-whitefield
   work: The Two First Parts of his Life, with his Journals (Whitefield, 1756 revision)
   author: whitefield

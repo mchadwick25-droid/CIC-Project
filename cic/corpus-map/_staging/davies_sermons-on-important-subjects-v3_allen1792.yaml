@@ -1,0 +1,12 @@
+source_file: davies_sermons-on-important-subjects-v3_allen1792.txt
+assignments:
+- row_id: davies_sermons-on-important-subjects-v3_allen1792--sermons-on-important-subjects-vol-iii-davies-1792
+  work: Sermons on Important Subjects, vol. III (Davies, 1792)
+  author: davies
+  locus: whole volume
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: tradition
+  confidence: provisional
+  note: The southern strand's preacher in his own sermons; provisional because the census itself leaves
+    open whether Virginia belongs to this world.

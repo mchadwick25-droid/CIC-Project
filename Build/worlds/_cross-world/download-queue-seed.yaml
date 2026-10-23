@@ -11600,3 +11600,257 @@ queue:
     verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
     status: downloaded
     vendored_as: "lee-jarena_religious-experience-and-journal_1836.txt"
+
+  - title: "The Works of President Edwards, vol. I: Dwight's Memoir with the Personal Narrative, Resolutions and Diary (1830)"
+    author: "Jonathan Edwards"
+    translator: "none; compiled by Sereno E. Dwight"
+    year: "1830"
+    world: "the-evangelical-awakening-in-new-england"
+    why: >
+      Edwards's Personal Narrative, Resolutions and Diary, and the 1742
+      narrative of his wife's experience, in the only public-domain
+      printing from the manuscripts.
+    url: "https://archive.org/details/worksofpresidents01edwa"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "edwards_works-v1-memoir-personal-narrative-resolutions-diary_dwight1830.txt"
+
+  - title: "A Faithful Narrative of the Surprizing Work of God (Edwards, London 1737)"
+    author: "Jonathan Edwards"
+    translator: "none"
+    year: "1737"
+    world: "the-evangelical-awakening-in-new-england"
+    why: >
+      The census's first-named text, in its first printing; the case
+      histories of ordinary people that define the world's own
+      documentation.
+    url: "https://archive.org/details/bim_eighteenth-century_a-faithful-narrative-of-_edwards-jonathan_1737"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "edwards_faithful-narrative-of-the-surprising-work-of-god_1737.txt"
+
+  - title: "The Distinguishing Marks of a Work of the Spirit of God (Edwards, 1742 printing)"
+    author: "Jonathan Edwards"
+    translator: "none"
+    year: "1742"
+    world: "the-evangelical-awakening-in-new-england"
+    why: >
+      The census's second-named Edwards text; the revival judged by its
+      own theologian's marks.
+    url: "https://archive.org/details/bim_eighteenth-century_the-distinguishing-marks_edwards-jonathan_1742_0"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "edwards_distinguishing-marks-of-a-work-of-the-spirit-of-god_1742.txt"
+
+  - title: "Some Thoughts concerning the present Revival of Religion in New-England (Edwards, 1742)"
+    author: "Jonathan Edwards"
+    translator: "none"
+    year: "1742"
+    world: "the-evangelical-awakening-in-new-england"
+    why: >
+      The awakening's own account of its excesses and its truth, written
+      at its height, with Sarah Edwards's experience inside it.
+    url: "https://archive.org/details/somethought00edwa"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "edwards_some-thoughts-concerning-the-present-revival_kneeland1742.txt"
+
+  - title: "A Treatise concerning Religious Affections (Edwards, 1746)"
+    author: "Jonathan Edwards"
+    translator: "none"
+    year: "1746"
+    world: "the-evangelical-awakening-in-new-england"
+    why: >
+      Religious Affections in its first printing; the census's third-named
+      Edwards text.
+    url: "https://archive.org/details/bim_eighteenth-century_a-treatise-concerning-re_edwards-jonathan_1746"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "edwards_treatise-concerning-religious-affections_kneeland1746.txt"
+
+  - title: "Sinners in the Hands of an Angry God (Edwards, 1745 printing)"
+    author: "Jonathan Edwards"
+    translator: "none"
+    year: "1745"
+    world: "the-evangelical-awakening-in-new-england"
+    why: >
+      The Enfield sermon in a printing of Edwards's lifetime, beside the
+      proofread text.
+    url: "https://archive.org/details/bim_eighteenth-century_sinners-in-the-hands-of-_edwards-jonathan_1745"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "edwards_sinners-in-the-hands-of-an-angry-god_1745.txt"
+
+  - title: "Selected Sermons of Jonathan Edwards (Gardiner, 1904)"
+    author: "Jonathan Edwards"
+    translator: "none; edited by H. Norman Gardiner"
+    year: "1904"
+    world: "the-evangelical-awakening-in-new-england"
+    why: >
+      Seven of Edwards's sermons across the window in a proofread, reader-
+      ready text.
+    url: "https://www.gutenberg.org/ebooks/34632"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "edwards_selected-sermons_gardiner1904.txt"
+
+  - title: "An Account of the Life of the Reverend David Brainerd (Edwards, 1749; 1793 printing)"
+    author: "Jonathan Edwards (from Brainerd's diary)"
+    translator: "none"
+    year: "1793"
+    world: "the-evangelical-awakening-in-new-england"
+    why: >
+      The Life of Brainerd the census names, in an eighteenth-century
+      printing with the Journal extracts.
+    url: "https://archive.org/details/accountoflifeofr179300edwa"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "edwards_account-of-the-life-of-david-brainerd_worcester1793.txt"
+
+  - title: "Mirabilia Dei inter Indicos: Brainerd's Journal among the Indians (1746)"
+    author: "David Brainerd"
+    translator: "none"
+    year: "1746"
+    world: "the-evangelical-awakening-in-new-england"
+    why: >
+      Brainerd's own published Journal of the Delaware awakening, beside
+      Edwards's Life of him; the mission record at first hand.
+    url: "https://archive.org/details/mirabiliadeiinte00brai"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "brainerd_mirabilia-dei-inter-indicos-journal_bradford1746.txt"
+
+  - title: "The Christian History (Prince, Boston, 1743-1744)"
+    author: "The Christian History (Thomas Prince, junior)"
+    translator: "none"
+    year: "1744"
+    world: "the-evangelical-awakening-in-new-england"
+    why: >
+      The census-named Christian History, the awakening's weekly self-
+      documentation, in its bound volume.
+    url: "https://archive.org/details/christianhistor00unkngoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "christian-history_weekly-accounts-of-the-revival_prince1744.txt"
+
+  - title: "Twenty-three Sermons preach'd at Philadelphia (Gilbert Tennent, 1744)"
+    author: "Gilbert Tennent"
+    translator: "none"
+    year: "1744"
+    world: "the-evangelical-awakening-in-new-england"
+    why: >
+      The middle-colony strand the census names through the Tennents, in
+      Gilbert Tennent's own sermons of 1743.
+    url: "https://archive.org/details/twentythreesermo00tenn"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "tennent-gilbert_twenty-three-sermons_bradford1744.txt"
+
+  - title: "A Short and Faithful Narrative of the Revival at New-Londonderry (Blair, 1744)"
+    author: "Samuel Blair"
+    translator: "none"
+    year: "1744"
+    world: "the-evangelical-awakening-in-new-england"
+    why: >
+      A Pennsylvania revival narrative in the Edwards genre, from the
+      middle-colony strand.
+    url: "https://archive.org/details/bim_eighteenth-century_a-short-and-faithful-n_blair-samuel-minister-_1744"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "blair-samuel_short-and-faithful-narrative-of-the-revival-at-new-londonderry_1744.txt"
+
+  - title: "Sermons on Important Subjects, vol. III (Davies, 1792 edition)"
+    author: "Samuel Davies"
+    translator: "none"
+    year: "1792"
+    world: "the-evangelical-awakening-in-new-england"
+    why: >
+      The Hanover, Virginia revival the census names, in Davies's own
+      sermons.
+    url: "https://archive.org/details/sermonsonimporta03davi"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "davies_sermons-on-important-subjects-v3_allen1792.txt"
+
+  - title: "Seasonable Thoughts on the State of Religion in New-England (Chauncy, 1743)"
+    author: "Charles Chauncy"
+    translator: "none"
+    year: "1743"
+    world: "the-evangelical-awakening-in-new-england"
+    why: >
+      The census-named hostile source, the Old Light case against the
+      revival with its documents.
+    url: "https://archive.org/details/seasonablethou00chaurich"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "chauncy_seasonable-thoughts-on-the-state-of-religion-in-new-england_1743.txt"
+
+  - title: "Memoirs of the Life of Mrs. Sarah Osborn, from her diaries (Hopkins, 1799)"
+    author: "Sarah Osborn"
+    translator: "none; compiled by Samuel Hopkins"
+    year: "1799"
+    world: "the-evangelical-awakening-in-new-england"
+    why: >
+      Osborn's diaries and memoir, named by the census; the women's voice
+      of the awakening in the only public-domain edition.
+    url: "https://archive.org/details/memoirsoflifeofm1799hopk"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "osborn-sarah_memoirs-compiled-from-her-diaries_hopkins1799.txt"
+
+  - title: "Familiar Letters of Sarah Osborn and Susanna Anthony (1807)"
+    author: "Sarah Osborn and Susanna Anthony"
+    translator: "none"
+    year: "1807"
+    world: "the-evangelical-awakening-in-new-england"
+    why: >
+      Two laywomen's letters across the window; the women's religious
+      society in its own correspondence.
+    url: "https://archive.org/details/familiarlettersw00osbo"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "osborn-sarah_familiar-letters-with-susanna-anthony_1807.txt"
+
+  - title: "A Sermon at the Execution of Moses Paul (Occom, 1772; 1788 printing)"
+    author: "Samson Occom"
+    translator: "none"
+    year: "1788"
+    world: "the-evangelical-awakening-in-new-england"
+    why: >
+      Occom's sermon, the census-named Native voice, in a contemporary
+      printing.
+    url: "https://archive.org/details/sermonatexecutio01occo"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "occom_sermon-at-the-execution-of-moses-paul_1788.txt"
+
+  - title: "Poems on Various Subjects, Religious and Moral (Wheatley, 1773)"
+    author: "Phillis Wheatley"
+    translator: "none"
+    year: "1773"
+    world: "the-evangelical-awakening-in-new-england"
+    why: >
+      Wheatley's Poems in the 1773 first edition, with the Whitefield
+      elegy; the census-named Black voice.
+    url: "https://archive.org/details/poemsonvariouss00whea"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "wheatley_poems-on-various-subjects-religious-and-moral_bell1773.txt"

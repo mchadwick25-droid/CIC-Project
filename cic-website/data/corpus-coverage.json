@@ -19764,6 +19764,14 @@
           "rights": "Public Domain (published 1745, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         },
         {
+          "work": "The Christian History (Prince, 1743-1744): the accounts from Scotland and England",
+          "author": "christian-history",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "christian-history_weekly-accounts-of-the-revival_prince1744.txt",
+          "rights": "Public Domain (published 1744, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
           "work": "Extracts of the Journals of the Rev. Dr. Coke's Five Visits to America (1793)",
           "author": "coke",
           "role": "tradition",
@@ -20020,6 +20028,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Poems on Various Subjects, Religious and Moral (Wheatley, 1773)",
+          "author": "wheatley",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "wheatley_poems-on-various-subjects-religious-and-moral_bell1773.txt",
+          "rights": "Public Domain (published 1773, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'Not in copyright. The Library knows of no copyright restrictions on this item.')"
+        },
+        {
           "work": "The Two First Parts of his Life, with his Journals (Whitefield, 1756 revision)",
           "author": "whitefield",
           "role": "tradition",
@@ -20050,12 +20066,188 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "Familiar Letters of Susanna Anthony (1807)",
+          "author": "anthony-susanna",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "osborn-sarah_familiar-letters-with-susanna-anthony_1807.txt",
+          "rights": "Public Domain (published 1807, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "A Short and Faithful Narrative of the late remarkable Revival of Religion at New-Londonderry (Blair, 1744)",
+          "author": "blair-samuel",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "blair-samuel_short-and-faithful-narrative-of-the-revival-at-new-londonderry_1744.txt",
+          "rights": "Public Domain (published 1744, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Mirabilia Dei inter Indicos: the Rise and Progress of a remarkable Work of Grace amongst the Indians (Brainerd, 1746)",
+          "author": "brainerd",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "brainerd_mirabilia-dei-inter-indicos-journal_bradford1746.txt",
+          "rights": "Public Domain (published 1746, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Seasonable Thoughts on the State of Religion in New-England (Chauncy, 1743)",
+          "author": "chauncy",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "chauncy_seasonable-thoughts-on-the-state-of-religion-in-new-england_1743.txt",
+          "rights": "Public Domain (published 1743, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "The Christian History (Prince, 1743-1744): the ministers' accounts of the revival in their own towns",
+          "author": "christian-history",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "christian-history_weekly-accounts-of-the-revival_prince1744.txt",
+          "rights": "Public Domain (published 1744, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "Sermons on Important Subjects, vol. III (Davies, 1792)",
+          "author": "davies",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "davies_sermons-on-important-subjects-v3_allen1792.txt",
+          "rights": "Public Domain (published 1792, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "A Faithful Narrative of the Surprizing Work of God (Edwards, 1737)",
+          "author": "edwards",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "edwards_faithful-narrative-of-the-surprising-work-of-god_1737.txt",
+          "rights": "Public Domain (published 1737, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "A Treatise concerning Religious Affections (Edwards, 1746)",
+          "author": "edwards",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "edwards_treatise-concerning-religious-affections_kneeland1746.txt",
+          "rights": "Public Domain (published 1746, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "An Account of the Life of the Reverend David Brainerd, from his diary (Edwards, 1749)",
+          "author": "edwards",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "edwards_account-of-the-life-of-david-brainerd_worcester1793.txt",
+          "rights": "Public Domain (published 1793, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "Edwards's Resolutions, Diary, Personal Narrative and letters, as printed in Dwight's Memoir (1830)",
+          "author": "edwards",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "edwards_works-v1-memoir-personal-narrative-resolutions-diary_dwight1830.txt",
+          "rights": "Public Domain (published 1830, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "Memoir of the Life of President Edwards (Dwight, 1830)",
+          "author": "edwards",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "edwards_works-v1-memoir-personal-narrative-resolutions-diary_dwight1830.txt",
+          "rights": "Public Domain (published 1830, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "Selected Sermons of Jonathan Edwards (seven sermons, 1731-1750)",
+          "author": "edwards",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "edwards_selected-sermons_gardiner1904.txt",
+          "rights": "Public Domain (Project Gutenberg eBook #34632, released as public domain in the USA; the underlying edition was published 1904, more than 95 years ago)"
+        },
+        {
+          "work": "Sinners in the Hands of an Angry God (Edwards, Enfield 1741; 1745 printing)",
+          "author": "edwards",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "edwards_sinners-in-the-hands-of-an-angry-god_1745.txt",
+          "rights": "Public Domain (published 1745, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Some Thoughts concerning the present Revival of Religion in New-England (Edwards, 1742)",
+          "author": "edwards",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "edwards_some-thoughts-concerning-the-present-revival_kneeland1742.txt",
+          "rights": "Public Domain (published 1742, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "The Distinguishing Marks of a Work of the Spirit of God (Edwards, 1741)",
+          "author": "edwards",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "edwards_distinguishing-marks-of-a-work-of-the-spirit-of-god_1742.txt",
+          "rights": "Public Domain (published 1742, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Observations on the Language of the Muhhekaneew Indians (Jonathan Edwards the younger, 1788)",
+          "author": "edwards-jonathan-jr",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "occom_sermon-at-the-execution-of-moses-paul_1788.txt",
+          "rights": "Public Domain (published 1788, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Memoirs of the Life of Mrs. Sarah Osborn (Hopkins's compiling narrative, 1799)",
+          "author": "hopkins-samuel",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "osborn-sarah_memoirs-compiled-from-her-diaries_hopkins1799.txt",
+          "rights": "Public Domain (published 1799, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
           "work": "History of the Mission of the United Brethren among the Indians in North America (1794)",
           "author": "loskiel",
           "role": "context",
           "confidence": "provisional",
           "source_file": "loskiel_history-of-mission-among-indians_latrobe1794.txt",
           "rights": "Public Domain (published 1794, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "A Sermon at the Execution of Moses Paul, an Indian (Occom, 1772)",
+          "author": "occom",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "occom_sermon-at-the-execution-of-moses-paul_1788.txt",
+          "rights": "Public Domain (published 1788, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Familiar Letters of Sarah Osborn (1807)",
+          "author": "osborn-sarah",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "osborn-sarah_familiar-letters-with-susanna-anthony_1807.txt",
+          "rights": "Public Domain (published 1807, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Sarah Osborn's diaries and memoir, as quoted in Hopkins's Memoirs (1799)",
+          "author": "osborn-sarah",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "osborn-sarah_memoirs-compiled-from-her-diaries_hopkins1799.txt",
+          "rights": "Public Domain (published 1799, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Twenty-three Sermons preach'd at Philadelphia, 1743 (Gilbert Tennent, 1744)",
+          "author": "tennent-gilbert",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "tennent-gilbert_twenty-three-sermons_bradford1744.txt",
+          "rights": "Public Domain (published 1744, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "Poems on Various Subjects, Religious and Moral (Wheatley, 1773)",
+          "author": "wheatley",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "wheatley_poems-on-various-subjects-religious-and-moral_bell1773.txt",
+          "rights": "Public Domain (published 1773, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'Not in copyright. The Library knows of no copyright restrictions on this item.')"
         },
         {
           "work": "The Two First Parts of his Life, with his Journals (Whitefield, 1756 revision)",
