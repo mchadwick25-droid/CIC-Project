@@ -78,3 +78,22 @@ works:
   note: 'Placed on window and place: the 1551 discipline that Nikon''s reforms of the 1650s
     revised. The relevant chapters were not read for this entry.'
   source_file: stoglav_stoglav-chu_kozhanchikov1863.txt
+- row_id: subbotin_materialy-dlia-istorii-raskola-v1-dokumenty-rus_1874--materialy-dlia-istorii-raskola-vol-i-documents-on-the
+  work: 'Materialy dlia istorii raskola, vol. I: documents on the Nikonian reform and its
+    first opponents (1874)'
+  author: subbotin
+  locus: the numbered documents; Subbotin's introduction excluded
+  role: context
+  confidence: assigned
+  note: The reform and its first opposition in the documents themselves; mostly the establishment's
+    side, hence context for the Old Believers and for the Russian Church of the same years.
+  source_file: subbotin_materialy-dlia-istorii-raskola-v1-dokumenty-rus_1874.txt
+- row_id: subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875--the-1666-67-council-s-investigations-of-avvakum-lazar-and
+  work: The 1666-67 council's investigations of Avvakum, Lazar and Deacon Fyodor (in Materialy,
+    vol. II, 1875)
+  author: subbotin
+  locus: the council and interrogation documents
+  role: context
+  confidence: assigned
+  note: The schism documented by its judges; coerced testimony, to be read as such.
+  source_file: subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875.txt

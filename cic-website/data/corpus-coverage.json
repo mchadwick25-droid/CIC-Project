@@ -20272,12 +20272,52 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
+          "work": "The monk Avraamii's Christianoopasnyi shchit very, petition and other writings (Materialy, vol. VII, 1885)",
+          "author": "avraamii-inok",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "avraamii-inok_khristianoopasnyi-shchit-very-materialy-v7-rus_subbotin1885.txt",
+          "rights": "Public Domain (published 1885, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Avvakum's letters to Morozova and to his family, and his petitions from Pustozersk (in Barskov, 1912)",
+          "author": "avvakum",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912.txt",
+          "rights": "Public Domain (published 1912, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'http://creativecommons.org/publicdomain/mark/1.0/')"
+        },
+        {
+          "work": "Avvakum's petitions, epistles and letters (Materialy, vol. V, 1879)",
+          "author": "avvakum",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "avvakum_sochineniia-materialy-v5-rus_subbotin1879.txt",
+          "rights": "Public Domain (published 1879, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Newly found works of Avvakum (Materialy, vol. VIII, 1887)",
+          "author": "avvakum",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "subbotin_materialy-dlia-istorii-raskola-v8-avvakum-zhitie-morozovoi-rus_1887.txt",
+          "rights": "Public Domain (published 1887, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
           "work": "The Life of the Archpriest Avvakum by Himself",
           "author": "avvakum",
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt",
           "rights": "Public Domain (pre-1930 publication by date; >95 years as of 2026, project's own rolling PD-by-date rule)"
+        },
+        {
+          "work": "Zhitie protopopa Avvakuma, im samim napisannoe (first printed edition, Tikhonravov 1861)",
+          "author": "avvakum",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "avvakum_zhitie-rus_tikhonravov-kozhanchikov1861.txt",
+          "rights": "Public Domain (published 1861, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         },
         {
           "work": "Zhitie protopopa Avvakuma, im samim napisannoe (original-language text)",
@@ -20288,12 +20328,100 @@
           "rights": "Public Domain (17th-century composition, PD by date under any jurisdiction; the Wikisource page's own infobox states \"LICENZIYA = PD-old\")"
         },
         {
+          "work": "The Solovki petition, interrogations and case papers (in Barskov, 1912)",
+          "author": "barskov",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912.txt",
+          "rights": "Public Domain (published 1912, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'http://creativecommons.org/publicdomain/mark/1.0/')"
+        },
+        {
+          "work": "Russian Dissenters (Conybeare, 1921)",
+          "author": "conybeare",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "conybeare_russian-dissenters_1921.txt",
+          "rights": "Public Domain (published 1921, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "Pomorskie otvety, the answers of the Vyg community to the Synod's questions (1723)",
+          "author": "denisov-andrei",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "denisov-andrei_pomorskie-otvety-rus_1911.txt",
+          "rights": "Public Domain (published 1911, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
           "work": "Domostroi (household and devotional discipline manual), from the manuscripts of the Imperial Public Library (Yakovlev 1867)",
           "author": "domostroi",
           "role": "antecedent",
           "confidence": "provisional",
           "source_file": "domostroi_domostroi-rus_yakovlev1867.txt",
           "rights": "Public Domain (printed 1867, more than 95 years before 2026; Internet Archive possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "Deacon Fyodor Ivanov's writings (Materialy, vol. VI, 1881)",
+          "author": "fedor-ivanov-diakon",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "fedor-ivanov-diakon_sochineniia-materialy-v6-rus_subbotin1881.txt",
+          "rights": "Public Domain (published 1881, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Istoriia Vygovskoi staroobriadcheskoi pustyni (Ivan Filippov, to c. 1744)",
+          "author": "filippov-ivan",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "filippov-ivan_istoriia-vygovskoi-staroobriadcheskoi-pustyni-rus_kozhanchikov1862.txt",
+          "rights": "Public Domain (published 1862, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "The priest Lazar's petition and writings (in Materialy, vol. IV, 1878)",
+          "author": "lazar-romanov",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "subbotin_materialy-dlia-istorii-raskola-v4-chelobitnye-rus_1878.txt",
+          "rights": "Public Domain (published 1878, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Boyarynia Feodosia Morozova's letters to Avvakum and his family (in Barskov, 1912)",
+          "author": "morozova",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912.txt",
+          "rights": "Public Domain (published 1912, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'http://creativecommons.org/publicdomain/mark/1.0/')"
+        },
+        {
+          "work": "The Life of Boyarynia Feodosia Morozova (anonymous; in Materialy, vol. VIII, 1887)",
+          "author": "morozova-zhitie",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "subbotin_materialy-dlia-istorii-raskola-v8-avvakum-zhitie-morozovoi-rus_1887.txt",
+          "rights": "Public Domain (published 1887, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Ivan Neronov's letters and petitions (in Materialy, vol. II, 1875)",
+          "author": "neronov",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875.txt",
+          "rights": "Public Domain (published 1875, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Nikita Dobrynin's petition to Tsar Alexei (in Materialy, vol. IV, 1878)",
+          "author": "nikita-dobrynin",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "subbotin_materialy-dlia-istorii-raskola-v4-chelobitnye-rus_1878.txt",
+          "rights": "Public Domain (published 1878, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "The Solovetsky Monastery's petitions and papers, 1666-1676 (in Materialy, vol. III, 1876)",
+          "author": "solovetsky-monastery",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "subbotin_materialy-dlia-istorii-raskola-v3-dokumenty-solovki-rus_1876.txt",
+          "rights": "Public Domain (published 1876, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         },
         {
           "work": "Le Stoglav ou les Cent Chapitres (1551), French translation with introduction and commentary (Duchesne 1920)",
@@ -20310,6 +20438,38 @@
           "confidence": "assigned",
           "source_file": "stoglav_stoglav-chu_kozhanchikov1863.txt",
           "rights": "Public Domain (printed 1863, more than 95 years before 2026; title page of the scan reads '1863')"
+        },
+        {
+          "work": "Archimandrite Antonii's petition and other writings (in Materialy, vol. VIII, 1887)",
+          "author": "subbotin",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "subbotin_materialy-dlia-istorii-raskola-v8-avvakum-zhitie-morozovoi-rus_1887.txt",
+          "rights": "Public Domain (published 1887, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Government papers on the Solovki siege (in Materialy, vol. III, 1876)",
+          "author": "subbotin",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "subbotin_materialy-dlia-istorii-raskola-v3-dokumenty-solovki-rus_1876.txt",
+          "rights": "Public Domain (published 1876, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "Materialy dlia istorii raskola, vol. I: documents on the Nikonian reform and its first opponents (1874)",
+          "author": "subbotin",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "subbotin_materialy-dlia-istorii-raskola-v1-dokumenty-rus_1874.txt",
+          "rights": "Public Domain (published 1874, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "The 1666-67 council's investigations of Avvakum, Lazar and Deacon Fyodor (in Materialy, vol. II, 1875)",
+          "author": "subbotin",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875.txt",
+          "rights": "Public Domain (published 1875, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         }
       ]
     },
@@ -20740,6 +20900,22 @@
           "confidence": "provisional",
           "source_file": "stoglav_stoglav-chu_kozhanchikov1863.txt",
           "rights": "Public Domain (printed 1863, more than 95 years before 2026; title page of the scan reads '1863')"
+        },
+        {
+          "work": "Materialy dlia istorii raskola, vol. I: documents on the Nikonian reform and its first opponents (1874)",
+          "author": "subbotin",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "subbotin_materialy-dlia-istorii-raskola-v1-dokumenty-rus_1874.txt",
+          "rights": "Public Domain (published 1874, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "The 1666-67 council's investigations of Avvakum, Lazar and Deacon Fyodor (in Materialy, vol. II, 1875)",
+          "author": "subbotin",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875.txt",
+          "rights": "Public Domain (published 1875, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         }
       ]
     },

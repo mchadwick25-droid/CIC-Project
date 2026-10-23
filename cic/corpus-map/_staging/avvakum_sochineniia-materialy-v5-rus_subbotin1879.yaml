@@ -1,0 +1,12 @@
+source_file: avvakum_sochineniia-materialy-v5-rus_subbotin1879.txt
+assignments:
+- row_id: avvakum_sochineniia-materialy-v5-rus_subbotin1879--avvakum-s-petitions-epistles-and-letters-materialy-vol-v
+  work: Avvakum's petitions, epistles and letters (Materialy, vol. V, 1879)
+  author: avvakum
+  locus: the numbered works; Subbotin's introduction and notes excluded
+  atlas_ids:
+  - the-old-believers
+  role: tradition
+  confidence: assigned
+  note: The archpriest's letters from the earthen prison to the Tsar, to Morozova and to his flock, in
+    the original.

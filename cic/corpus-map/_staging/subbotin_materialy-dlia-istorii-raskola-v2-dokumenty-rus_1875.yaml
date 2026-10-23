@@ -1,0 +1,30 @@
+source_file: subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875.txt
+authors_ruled:
+  neronov:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is the editor subbotin; Ivan (in monastic
+      profession Grigorii) Neronov''s letters and petitions are printed under his name in the documents
+      (file lines from about 300 on). cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875--ivan-neronov-s-letters-and-petitions-in-materialy-vol-ii
+  work: Ivan Neronov's letters and petitions (in Materialy, vol. II, 1875)
+  author: neronov
+  locus: the Neronov documents, headed under his name
+  atlas_ids:
+  - the-old-believers
+  role: tradition
+  confidence: assigned
+  note: The first leader of the zealots' opposition in his own letters to the Tsar and the Patriarch.
+- row_id: subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875--the-1666-67-council-s-investigations-of-avvakum-lazar-and
+  work: The 1666-67 council's investigations of Avvakum, Lazar and Deacon Fyodor (in Materialy, vol. II,
+    1875)
+  author: subbotin
+  locus: the council and interrogation documents
+  atlas_ids:
+  - the-old-believers
+  - russian-church-nikon-to-holy-synod
+  role: context
+  confidence: assigned
+  note: The schism documented by its judges; coerced testimony, to be read as such.

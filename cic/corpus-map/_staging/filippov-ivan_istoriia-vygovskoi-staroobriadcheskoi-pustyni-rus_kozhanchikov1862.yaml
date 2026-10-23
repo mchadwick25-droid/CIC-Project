@@ -1,0 +1,11 @@
+source_file: filippov-ivan_istoriia-vygovskoi-staroobriadcheskoi-pustyni-rus_kozhanchikov1862.txt
+assignments:
+- row_id: filippov-ivan_istoriia-vygovskoi-staroobriadcheskoi-pustyni-rus_kozhanchikov1862--istoriia-vygovskoi-staroobriadcheskoi-pustyni-ivan-filippov
+  work: Istoriia Vygovskoi staroobriadcheskoi pustyni (Ivan Filippov, to c. 1744)
+  author: filippov-ivan
+  locus: whole work
+  atlas_ids:
+  - the-old-believers
+  role: tradition
+  confidence: assigned
+  note: The Vyg community's history from inside, by the abbot who succeeded the Denisovs.

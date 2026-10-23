@@ -3,6 +3,41 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-old-believers
 works:
+- row_id: avraamii-inok_khristianoopasnyi-shchit-very-materialy-v7-rus_subbotin1885--the-monk-avraamii-s-christianoopasnyi-shchit-very-petition
+  work: The monk Avraamii's Christianoopasnyi shchit very, petition and other writings (Materialy,
+    vol. VII, 1885)
+  author: avraamii-inok
+  locus: the works; Subbotin's introduction excluded
+  role: tradition
+  confidence: assigned
+  note: The Moscow underground of the 1660s in one of its martyrs' own writings.
+  source_file: avraamii-inok_khristianoopasnyi-shchit-very-materialy-v7-rus_subbotin1885.txt
+- row_id: barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912--avvakum-s-letters-to-morozova-and-to-his-family-and-his
+  work: Avvakum's letters to Morozova and to his family, and his petitions from Pustozersk
+    (in Barskov, 1912)
+  author: avvakum
+  locus: documents 11, 12, 16, 18, 20, 22 and 23
+  role: tradition
+  confidence: assigned
+  note: Avvakum's side of the correspondence and two petitions to the Tsar, from the manuscripts.
+  source_file: barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912.txt
+- row_id: avvakum_sochineniia-materialy-v5-rus_subbotin1879--avvakum-s-petitions-epistles-and-letters-materialy-vol-v
+  work: Avvakum's petitions, epistles and letters (Materialy, vol. V, 1879)
+  author: avvakum
+  locus: the numbered works; Subbotin's introduction and notes excluded
+  role: tradition
+  confidence: assigned
+  note: The archpriest's letters from the earthen prison to the Tsar, to Morozova and to his
+    flock, in the original.
+  source_file: avvakum_sochineniia-materialy-v5-rus_subbotin1879.txt
+- row_id: subbotin_materialy-dlia-istorii-raskola-v8-avvakum-zhitie-morozovoi-rus_1887--newly-found-works-of-avvakum-materialy-vol-viii-1887
+  work: Newly found works of Avvakum (Materialy, vol. VIII, 1887)
+  author: avvakum
+  locus: section 1, the newly found works
+  role: tradition
+  confidence: assigned
+  note: More of Avvakum's own epistles and commentaries.
+  source_file: subbotin_materialy-dlia-istorii-raskola-v8-avvakum-zhitie-morozovoi-rus_1887.txt
 - row_id: avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924--the-life-of-the-archpriest-avvakum-by-himself
   work: The Life of the Archpriest Avvakum by Himself
   author: avvakum
@@ -17,6 +52,15 @@ works:
 
     '
   source_file: avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt
+- row_id: avvakum_zhitie-rus_tikhonravov-kozhanchikov1861--zhitie-protopopa-avvakuma-im-samim-napisannoe-first-printed
+  work: Zhitie protopopa Avvakuma, im samim napisannoe (first printed edition, Tikhonravov
+    1861)
+  author: avvakum
+  locus: whole work
+  role: tradition
+  confidence: assigned
+  note: The Life in its first printed edition from the manuscripts.
+  source_file: avvakum_zhitie-rus_tikhonravov-kozhanchikov1861.txt
 - row_id: avvakum_zhitie-protopopa-avvakuma-orv_wikisource-transcription-nd--zhitie-protopopa-avvakuma-im-samim-napisannoe-original
   work: Zhitie protopopa Avvakuma, im samim napisannoe (original-language text)
   author: avvakum
@@ -36,6 +80,32 @@ works:
 
     '
   source_file: avvakum_zhitie-protopopa-avvakuma-orv_wikisource-transcription-nd.txt
+- row_id: barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912--the-solovki-petition-interrogations-and-case-papers-in
+  work: The Solovki petition, interrogations and case papers (in Barskov, 1912)
+  author: barskov
+  locus: documents 6-10 and 24-26 and the rest
+  role: context
+  confidence: assigned
+  note: The monastery's petition beside the interrogations and case papers; mixed voices,
+    context.
+  source_file: barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912.txt
+- row_id: conybeare_russian-dissenters_1921--russian-dissenters-conybeare-1921
+  work: Russian Dissenters (Conybeare, 1921)
+  author: conybeare
+  locus: Book I, the Old Believers
+  role: context
+  confidence: assigned
+  note: An English scholar's account of 1921 with his own translations of passages; context,
+    never the sources' voice.
+  source_file: conybeare_russian-dissenters_1921.txt
+- row_id: denisov-andrei_pomorskie-otvety-rus_1911--pomorskie-otvety-the-answers-of-the-vyg-community-to-the
+  work: Pomorskie otvety, the answers of the Vyg community to the Synod's questions (1723)
+  author: denisov-andrei
+  locus: the preface and the numbered answers
+  role: tradition
+  confidence: assigned
+  note: The priestless community's founding apology, written at Vyg in answer to the Synod.
+  source_file: denisov-andrei_pomorskie-otvety-rus_1911.txt
 - row_id: domostroi_domostroi-rus_yakovlev1867--domostroi-household-and-devotional-discipline-manual-from-2
   work: Domostroi (household and devotional discipline manual), from the manuscripts of the
     Imperial Public Library (Yakovlev 1867)
@@ -47,6 +117,75 @@ works:
   note: The household piety the Old Believers later defended as the old way; placed on window
     and place. The edition's chapters were not read against the Old Believers' own texts.
   source_file: domostroi_domostroi-rus_yakovlev1867.txt
+- row_id: fedor-ivanov-diakon_sochineniia-materialy-v6-rus_subbotin1881--deacon-fyodor-ivanov-s-writings-materialy-vol-vi-1881
+  work: Deacon Fyodor Ivanov's writings (Materialy, vol. VI, 1881)
+  author: fedor-ivanov-diakon
+  locus: the works; Subbotin's introduction excluded
+  role: tradition
+  confidence: assigned
+  note: The deacon who shared Avvakum's prison and argued with him; the movement's first internal
+    dispute in its own words.
+  source_file: fedor-ivanov-diakon_sochineniia-materialy-v6-rus_subbotin1881.txt
+- row_id: filippov-ivan_istoriia-vygovskoi-staroobriadcheskoi-pustyni-rus_kozhanchikov1862--istoriia-vygovskoi-staroobriadcheskoi-pustyni-ivan-filippov
+  work: Istoriia Vygovskoi staroobriadcheskoi pustyni (Ivan Filippov, to c. 1744)
+  author: filippov-ivan
+  locus: whole work
+  role: tradition
+  confidence: assigned
+  note: The Vyg community's history from inside, by the abbot who succeeded the Denisovs.
+  source_file: filippov-ivan_istoriia-vygovskoi-staroobriadcheskoi-pustyni-rus_kozhanchikov1862.txt
+- row_id: subbotin_materialy-dlia-istorii-raskola-v4-chelobitnye-rus_1878--the-priest-lazar-s-petition-and-writings-in-materialy-vol-iv
+  work: The priest Lazar's petition and writings (in Materialy, vol. IV, 1878)
+  author: lazar-romanov
+  locus: Lazar's works under his name
+  role: tradition
+  confidence: assigned
+  note: One of the Pustozersk prisoners in his own petition.
+  source_file: subbotin_materialy-dlia-istorii-raskola-v4-chelobitnye-rus_1878.txt
+- row_id: barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912--boyarynia-feodosia-morozova-s-letters-to-avvakum-and-his
+  work: Boyarynia Feodosia Morozova's letters to Avvakum and his family (in Barskov, 1912)
+  author: morozova
+  locus: documents 13, 14, 15 and 19
+  role: tradition
+  confidence: assigned
+  note: The noblewoman martyr in her own letters; the women's voice of the first generation.
+  source_file: barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912.txt
+- row_id: subbotin_materialy-dlia-istorii-raskola-v8-avvakum-zhitie-morozovoi-rus_1887--the-life-of-boyarynia-feodosia-morozova-anonymous-in
+  work: The Life of Boyarynia Feodosia Morozova (anonymous; in Materialy, vol. VIII, 1887)
+  author: morozova-zhitie
+  locus: the Life under its own title
+  role: tradition
+  confidence: assigned
+  note: The noblewoman who died for the old rite in 1675, in the movement's own hagiography.
+  source_file: subbotin_materialy-dlia-istorii-raskola-v8-avvakum-zhitie-morozovoi-rus_1887.txt
+- row_id: subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875--ivan-neronov-s-letters-and-petitions-in-materialy-vol-ii
+  work: Ivan Neronov's letters and petitions (in Materialy, vol. II, 1875)
+  author: neronov
+  locus: the Neronov documents, headed under his name
+  role: tradition
+  confidence: assigned
+  note: The first leader of the zealots' opposition in his own letters to the Tsar and the
+    Patriarch.
+  source_file: subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875.txt
+- row_id: subbotin_materialy-dlia-istorii-raskola-v4-chelobitnye-rus_1878--nikita-dobrynin-s-petition-to-tsar-alexei-in-materialy-vol
+  work: Nikita Dobrynin's petition to Tsar Alexei (in Materialy, vol. IV, 1878)
+  author: nikita-dobrynin
+  locus: Nikita's petition and its introduction's quotations
+  role: tradition
+  confidence: assigned
+  note: The most detailed early case against the corrected books, by the priest the establishment
+    called Pustosviat.
+  source_file: subbotin_materialy-dlia-istorii-raskola-v4-chelobitnye-rus_1878.txt
+- row_id: subbotin_materialy-dlia-istorii-raskola-v3-dokumenty-solovki-rus_1876--the-solovetsky-monastery-s-petitions-and-papers-1666-1676-in
+  work: The Solovetsky Monastery's petitions and papers, 1666-1676 (in Materialy, vol. III,
+    1876)
+  author: solovetsky-monastery
+  locus: the monastery's petitions and letters with their signatures
+  role: tradition
+  confidence: assigned
+  note: The monastery's own statement of its case, signed by its priests and monks; the census's
+    Solovki petitions.
+  source_file: subbotin_materialy-dlia-istorii-raskola-v3-dokumenty-solovki-rus_1876.txt
 - row_id: stoglav_stoglav-fra_duchesne1920--le-stoglav-ou-les-cent-chapitres-1551-french-translation-2
   work: Le Stoglav ou les Cent Chapitres (1551), French translation with introduction and
     commentary (Duchesne 1920)
@@ -73,3 +212,39 @@ works:
     a note at line 3673 gives the three-finger sign of the cross. Antecedent: the 1551 text
     is the older discipline the later schism fought over.'
   source_file: stoglav_stoglav-chu_kozhanchikov1863.txt
+- row_id: subbotin_materialy-dlia-istorii-raskola-v8-avvakum-zhitie-morozovoi-rus_1887--archimandrite-antonii-s-petition-and-other-writings-in
+  work: Archimandrite Antonii's petition and other writings (in Materialy, vol. VIII, 1887)
+  author: subbotin
+  locus: the remaining works of the volume
+  role: tradition
+  confidence: provisional
+  note: Further first-generation writings collected in the volume; provisional until each
+    is placed under its own author.
+  source_file: subbotin_materialy-dlia-istorii-raskola-v8-avvakum-zhitie-morozovoi-rus_1887.txt
+- row_id: subbotin_materialy-dlia-istorii-raskola-v3-dokumenty-solovki-rus_1876--government-papers-on-the-solovki-siege-in-materialy-vol-iii
+  work: Government papers on the Solovki siege (in Materialy, vol. III, 1876)
+  author: subbotin
+  locus: the Moscow side's orders and reports
+  role: context
+  confidence: assigned
+  note: The siege from the besiegers' papers.
+  source_file: subbotin_materialy-dlia-istorii-raskola-v3-dokumenty-solovki-rus_1876.txt
+- row_id: subbotin_materialy-dlia-istorii-raskola-v1-dokumenty-rus_1874--materialy-dlia-istorii-raskola-vol-i-documents-on-the
+  work: 'Materialy dlia istorii raskola, vol. I: documents on the Nikonian reform and its
+    first opponents (1874)'
+  author: subbotin
+  locus: the numbered documents; Subbotin's introduction excluded
+  role: context
+  confidence: assigned
+  note: The reform and its first opposition in the documents themselves; mostly the establishment's
+    side, hence context for the Old Believers and for the Russian Church of the same years.
+  source_file: subbotin_materialy-dlia-istorii-raskola-v1-dokumenty-rus_1874.txt
+- row_id: subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875--the-1666-67-council-s-investigations-of-avvakum-lazar-and
+  work: The 1666-67 council's investigations of Avvakum, Lazar and Deacon Fyodor (in Materialy,
+    vol. II, 1875)
+  author: subbotin
+  locus: the council and interrogation documents
+  role: context
+  confidence: assigned
+  note: The schism documented by its judges; coerced testimony, to be read as such.
+  source_file: subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875.txt

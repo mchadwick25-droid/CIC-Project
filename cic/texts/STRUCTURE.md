@@ -1286,6 +1286,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 103,946 | 103,946 | auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899 |
 
+## `avraamii-inok_khristianoopasnyi-shchit-very-materialy-v7-rus_subbotin1885.txt`
+
+1 section(s) to level 2 · ~104,904 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 104,904 | 104,904 | avraamii-inok_khristianoopasnyi-shchit-very-materialy-v7-rus_subbotin1885 |
+
 ## `avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt`
 
 1 section(s) to level 2 · ~36,938 words of text · ~0 words of apparatus
@@ -1294,6 +1302,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 36,938 | 36,938 | avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924 |
 
+## `avvakum_sochineniia-materialy-v5-rus_subbotin1879.txt`
+
+1 section(s) to level 2 · ~101,747 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 101,747 | 101,747 | avvakum_sochineniia-materialy-v5-rus_subbotin1879 |
+
 ## `avvakum_zhitie-protopopa-avvakuma-orv_wikisource-transcription-nd.txt`
 
 1 section(s) to level 2 · ~20,660 words of text · ~0 words of apparatus
@@ -1301,6 +1317,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 20,660 | 20,660 | avvakum_zhitie-protopopa-avvakuma-orv_wikisource-transcription-nd |
+
+## `avvakum_zhitie-rus_tikhonravov-kozhanchikov1861.txt`
+
+1 section(s) to level 2 · ~20,786 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 20,786 | 20,786 | avvakum_zhitie-rus_tikhonravov-kozhanchikov1861 |
 
 ## `bacci_life-of-st-philip-neri-v1_faber1847.txt`
 
@@ -1365,6 +1389,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 117,858 | 117,858 | barlow_brutum-fulmen_1681 |
+
+## `barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912.txt`
+
+1 section(s) to level 2 · ~149,103 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 149,103 | 149,103 | barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912 |
 
 ## `bascape_de-vita-et-rebus-gestis-caroli-lat_1592.txt`
 
@@ -2150,6 +2182,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 41,709 | 41,709 | constantius-lyon_vita-germani_levison1920 |
 
+## `conybeare_russian-dissenters_1921.txt`
+
+1 section(s) to level 2 · ~135,589 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 135,589 | 135,589 | conybeare_russian-dissenters_1921 |
+
 ## `council-of-ephesus-449_akten-der-ephesinischen-synode-449-deu_flemming-hoffmann1917.txt`
 
 1 section(s) to level 2 · ~89,094 words of text · ~0 words of apparatus
@@ -2437,6 +2477,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 128,928 | 128,928 | delehaye_passions-martyrs-genres-litteraires-fra_1921 |
+
+## `denisov-andrei_pomorskie-otvety-rus_1911.txt`
+
+1 section(s) to level 2 · ~148,323 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 148,323 | 148,323 | denisov-andrei_pomorskie-otvety-rus_1911 |
 
 ## `dhuoda_liber-manualis_bondurand1887.txt`
 
@@ -2830,6 +2878,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 200,476 | 200,476 | faustus-riez_de-gratia-and-collected-works_engelbrecht1891 |
 
+## `fedor-ivanov-diakon_sochineniia-materialy-v6-rus_subbotin1881.txt`
+
+1 section(s) to level 2 · ~82,303 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 82,303 | 82,303 | fedor-ivanov-diakon_sochineniia-materialy-v6-rus_subbotin1881 |
+
 ## `fell_brief-collection-of-remarkable-passages-works_1710.txt`
 
 1 section(s) to level 2 · ~224,048 words of text · ~0 words of apparatus
@@ -2853,6 +2909,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 45,170 | 45,170 | field-john_piety-promoted-dying-sayings-of-quakers_1728 |
+
+## `filippov-ivan_istoriia-vygovskoi-staroobriadcheskoi-pustyni-rus_kozhanchikov1862.txt`
+
+1 section(s) to level 2 · ~132,885 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 132,885 | 132,885 | filippov-ivan_istoriia-vygovskoi-staroobriadcheskoi-pustyni-rus_kozhanchikov1862 |
 
 ## `fixture-synthetic_later-summary.txt`
 
@@ -9560,6 +9624,46 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 281,663 | 281,663 | strype_annals-of-the-reformation-v2-pt2_1824 |
+
+## `subbotin_materialy-dlia-istorii-raskola-v1-dokumenty-rus_1874.txt`
+
+1 section(s) to level 2 · ~103,933 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 103,933 | 103,933 | subbotin_materialy-dlia-istorii-raskola-v1-dokumenty-rus_1874 |
+
+## `subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875.txt`
+
+1 section(s) to level 2 · ~82,447 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 82,447 | 82,447 | subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875 |
+
+## `subbotin_materialy-dlia-istorii-raskola-v3-dokumenty-solovki-rus_1876.txt`
+
+1 section(s) to level 2 · ~94,824 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 94,824 | 94,824 | subbotin_materialy-dlia-istorii-raskola-v3-dokumenty-solovki-rus_1876 |
+
+## `subbotin_materialy-dlia-istorii-raskola-v4-chelobitnye-rus_1878.txt`
+
+1 section(s) to level 2 · ~77,377 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 77,377 | 77,377 | subbotin_materialy-dlia-istorii-raskola-v4-chelobitnye-rus_1878 |
+
+## `subbotin_materialy-dlia-istorii-raskola-v8-avvakum-zhitie-morozovoi-rus_1887.txt`
+
+1 section(s) to level 2 · ~99,915 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 99,915 | 99,915 | subbotin_materialy-dlia-istorii-raskola-v8-avvakum-zhitie-morozovoi-rus_1887 |
 
 ## `sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt`
 

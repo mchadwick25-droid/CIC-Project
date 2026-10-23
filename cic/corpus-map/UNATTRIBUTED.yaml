@@ -759,6 +759,16 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  denisov-andrei:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file; the title leaves are lost in the scan, and the authorship
+      of Andrei Denisov with Semyon Denisov and Trifon Petrov is the standard attribution
+      recorded by the host''s catalogue tradition and in the obel world''s Doc_02 (Pomorskie
+      otvety entry). The answers speak for the Vyg community in the first person plural. cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+    from_file: denisov-andrei_pomorskie-otvety-rus_1911.txt
   didache:
     kind: anonymous
     evidence: 'div1 8 "The Teaching of the Twelve Apostles"; anf07 DC.Creator lists only asterius,
@@ -1190,6 +1200,14 @@ authors:
 
       '
     from_file: latrobe-benjamin_succinct-view-of-the-missions_1771.txt
+  lazar-romanov:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is the editor subbotin; the priest
+      Lazar''s petition and writings are printed under his name in the volume. cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+    from_file: subbotin_materialy-dlia-istorii-raskola-v4-chelobitnye-rus_1878.txt
   letter-churches-lyons-vienne:
     kind: anonymous
     evidence: 'div2 10.16 "Pseud-Irenaeus" — the section itself explains the piece is the
@@ -1430,6 +1448,24 @@ authors:
 
       '
     from_file: moravian-church_acta-fratrum-unitatis-in-anglia_1749.txt
+  morozova:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is the editor barskov; Boyarynia
+      Feodosia Prokopievna Morozova''s letters are printed under her name as documents 13,
+      14, 15 and 19 (table of contents, file lines about 30-45). cic/texts/AUTHORS.md has
+      not seen the slug yet.
+
+      '
+    from_file: barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912.txt
+  morozova-zhitie:
+    kind: anonymous
+    evidence: 'The Life (Povest'') of Boyarynia Feodosia Morozova is anonymous in the manuscripts;
+      Subbotin prints it under its title in this volume (contents at file lines about 60-120).
+      The standard attribution to a member of her household (often to her brother Fyodor Sokovnin)
+      is scholarly, not from the text. An anonymous-work slug.
+
+      '
+    from_file: subbotin_materialy-dlia-istorii-raskola-v8-avvakum-zhitie-morozovoi-rus_1887.txt
   morris-john:
     kind: metadata-omission
     evidence: 'The title page (file line 1 header; Gutenberg transcription of the 1871 title
@@ -1463,6 +1499,15 @@ authors:
 
       '
     from_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
+  neronov:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is the editor subbotin; Ivan (in
+      monastic profession Grigorii) Neronov''s letters and petitions are printed under his
+      name in the documents (file lines from about 300 on). cic/texts/AUTHORS.md has not seen
+      the slug yet.
+
+      '
+    from_file: subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875.txt
   nicene-creed:
     kind: anonymous
     evidence: 'div1 11 "The Nicene Creed"; no DC.Creator. A conciliar text, not a person''s
@@ -1470,6 +1515,15 @@ authors:
 
       '
     from_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+  nikita-dobrynin:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is the editor subbotin; Nikita
+      Dobrynin''s petition is printed under his name with Subbotin''s introduction (''Челобитная
+      Никиты''), file lines from about 100 on. cic/texts/AUTHORS.md has not seen the slug
+      yet.
+
+      '
+    from_file: subbotin_materialy-dlia-istorii-raskola-v4-chelobitnye-rus_1878.txt
   odes-of-solomon:
     kind: anonymous
     evidence: 'The Odes'' own authorship is anonymous - see syr.source.odes-of-solomon''s
@@ -1758,6 +1812,15 @@ authors:
 
       '
     from_file: jesuit-constitutions_constitutiones-societatis-iesu-lat_1606.txt
+  solovetsky-monastery:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is the editor subbotin; the petitions
+      are the Solovetsky brethren''s collective documents, signed by name (''Поп Кирилъ руку
+      приложилъ ...''), file lines from about 400 on. An institutional slug. cic/texts/AUTHORS.md
+      has not seen it yet.
+
+      '
+    from_file: subbotin_materialy-dlia-istorii-raskola-v3-dokumenty-solovki-rus_1876.txt
   sphrantzes:
     kind: metadata-omission
     evidence: 'The title page names ''Georgius Phrantzes'' first among the three chroniclers

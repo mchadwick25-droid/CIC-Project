@@ -11854,3 +11854,184 @@ queue:
     verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
     status: downloaded
     vendored_as: "wheatley_poems-on-various-subjects-religious-and-moral_bell1773.txt"
+
+  - title: "Materialy dlia istorii raskola, vol. I: documents, part 1 (Subbotin, 1874)"
+    author: "various; ed. N. I. Subbotin"
+    translator: "none (original language)"
+    year: "1874"
+    world: "the-old-believers"
+    why: >
+      The standard printed collection of the schism's first documents,
+      from the Synodal archive; the census's establishment record and the
+      first dissenters' papers.
+    url: "https://archive.org/details/Materialydljaistoriiraskolazapervoevremj44_"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "subbotin_materialy-dlia-istorii-raskola-v1-dokumenty-rus_1874.txt"
+
+  - title: "Materialy dlia istorii raskola, vol. II: documents, part 2 (Subbotin, 1875)"
+    author: "various; ed. N. I. Subbotin"
+    translator: "none (original language)"
+    year: "1875"
+    world: "the-old-believers"
+    why: >
+      Neronov's own letters and the council's interrogation of the
+      founding dissenters.
+    url: "https://archive.org/details/Materialydljaistoriiraskolazapervoevremj48_"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875.txt"
+
+  - title: "Materialy dlia istorii raskola, vol. III: the Solovki documents (Subbotin, 1876)"
+    author: "Solovetsky Monastery and others; ed. N. I. Subbotin"
+    translator: "none (original language)"
+    year: "1876"
+    world: "the-old-believers"
+    why: >
+      The Solovki petitions the census names, with the monks' own
+      signatures, in the standard printed collection.
+    url: "https://archive.org/details/Materialydljaistoriiraskolazapervoevremj17_"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "subbotin_materialy-dlia-istorii-raskola-v3-dokumenty-solovki-rus_1876.txt"
+
+  - title: "Materialy dlia istorii raskola, vol. IV: petitions of the first schism-teachers (Subbotin, 1878)"
+    author: "Nikita Dobrynin, Lazar and others; ed. N. I. Subbotin"
+    translator: "none (original language)"
+    year: "1878"
+    world: "the-old-believers"
+    why: >
+      The founding petitions for the old rite in their authors' words.
+    url: "https://archive.org/details/materialydljaistoriiraskolazapervoevremj63"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "subbotin_materialy-dlia-istorii-raskola-v4-chelobitnye-rus_1878.txt"
+
+  - title: "Avvakum's Works: petitions, epistles and letters (Materialy, vol. V, Subbotin 1879)"
+    author: "Avvakum Petrov"
+    translator: "none (original language)"
+    year: "1879"
+    world: "the-old-believers"
+    why: >
+      Avvakum's Pustozersk letters and petitions, named by the census
+      beside the Life; the world's central voice in his other writings.
+    url: "https://archive.org/details/materialydljaistoriiraskolazapervoevremj47"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "avvakum_sochineniia-materialy-v5-rus_subbotin1879.txt"
+
+  - title: "Deacon Fyodor Ivanov's Works (Materialy, vol. VI, Subbotin 1881)"
+    author: "Deacon Fyodor Ivanov"
+    translator: "none (original language)"
+    year: "1881"
+    world: "the-old-believers"
+    why: >
+      The second Pustozersk voice, with the prisoners' quarrel over
+      doctrine.
+    url: "https://archive.org/details/materialydljaistoriiraskolazapervoevremj51"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "fedor-ivanov-diakon_sochineniia-materialy-v6-rus_subbotin1881.txt"
+
+  - title: "The monk Avraamii's Shield of the Faith and other works (Materialy, vol. VII, Subbotin 1885)"
+    author: "the monk Avraamii"
+    translator: "none (original language)"
+    year: "1885"
+    world: "the-old-believers"
+    why: >
+      A Moscow follower of Avvakum, burned in 1672, in his own treatise
+      and petition.
+    url: "https://archive.org/details/materialydljaistoriiraskolazapervoevremj41"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "avraamii-inok_khristianoopasnyi-shchit-very-materialy-v7-rus_subbotin1885.txt"
+
+  - title: "Materialy dlia istorii raskola, vol. VIII: newly found Avvakum and the Life of Morozova (Subbotin, 1887)"
+    author: "Avvakum and others; ed. N. I. Subbotin"
+    translator: "none (original language)"
+    year: "1887"
+    world: "the-old-believers"
+    why: >
+      The Life of Boyarynia Morozova named by the census, with newly found
+      works of Avvakum.
+    url: "https://archive.org/details/Materialydljaistoriiraskolazapervoevremj14_"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "subbotin_materialy-dlia-istorii-raskola-v8-avvakum-zhitie-morozovoi-rus_1887.txt"
+
+  - title: "Pamiatniki pervykh let russkogo staroobriadchestva (Barskov, 1912)"
+    author: "Avvakum, Morozova and others; ed. Ia. L. Barskov"
+    translator: "none (original language)"
+    year: "1912"
+    world: "the-old-believers"
+    why: >
+      Morozova's own letters to Avvakum, the census-named women's voice,
+      with Avvakum's replies and the Solovki papers.
+    url: "https://archive.org/details/pamiatneyki_pervykh_let_russkogo_staroobriadchestva"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912.txt"
+
+  - title: "Zhitie protopopa Avvakuma, im samim napisannoe (Tikhonravov's first edition, 1861)"
+    author: "Avvakum Petrov"
+    translator: "none (original language)"
+    year: "1861"
+    world: "the-old-believers"
+    why: >
+      The first printed edition of the Life, a dated and edited witness
+      behind the Wikisource transcription the obel thread vendored.
+    url: "https://archive.org/details/zhitieprotopopaavvakumaimsamimnapisanno90"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "avvakum_zhitie-rus_tikhonravov-kozhanchikov1861.txt"
+
+  - title: "Pomorskie otvety (Denisov and others, 1723; 1911 printing)"
+    author: "Andrei Denisov and others"
+    translator: "none (original language)"
+    year: "1911"
+    world: "the-old-believers"
+    why: >
+      The bespopovtsy self-defence the census names, in full.
+    url: "https://archive.org/details/pomorskieotvety24"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "denisov-andrei_pomorskie-otvety-rus_1911.txt"
+
+  - title: "Istoriia Vygovskoi staroobriadcheskoi pustyni (Ivan Filippov, 1862 edition)"
+    author: "Ivan Filippov"
+    translator: "none (original language)"
+    year: "1862"
+    world: "the-old-believers"
+    why: >
+      The Vyg community's own chronicle by its abbot; the priestless
+      community writing itself down.
+    url: "https://archive.org/details/istorijavygovskojstaroobrjadcheskojpusty61"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "filippov-ivan_istoriia-vygovskoi-staroobriadcheskoi-pustyni-rus_kozhanchikov1862.txt"
+
+  - title: "Russian Dissenters (Conybeare, 1921)"
+    author: "F. C. Conybeare"
+    translator: "none"
+    year: "1921"
+    world: "the-old-believers"
+    why: >
+      The only public-domain English scholarship with translated extracts
+      from the Old Believer sources beyond the Life.
+    url: "https://archive.org/details/russiandissenter00conyuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Claude (Library thread, Era VIII pass): research worker located the edition; host metadata and rights independently re-fetched by the intake script before vendoring, 2026-10-23"
+    status: downloaded
+    vendored_as: "conybeare_russian-dissenters_1921.txt"
