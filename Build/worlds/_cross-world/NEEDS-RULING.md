@@ -124,7 +124,7 @@ Five are shelves for material the corpus carries *about* a movement, registered 
 > Ends just before Avarayr; the work's own date (5th or 8th century) is Contested, so antecedent needs-ruling.
 
 **Chronicle Book II.5 (Proclus of Constantinople's Tome to the Armenians, c. 435, given in full)** · `zachariah-rhetor` · `zachariah-rhetor`
-> The doctrinal text the Armenian church argued from against Chalcedon. Antecedent by the corpus-map's own rule only once the Armenian entry's own vendored sources (Elishe, Lazar) are shown to argue from it; needs-ruling until then. Era III Library pass, 2026-10-16.
+> The doctrinal text the Armenian church argued from against Chalcedon. Antecedent by the corpus-map's own rule only once the Armenian entry's own vendored sources (Elishe, Lazar) are shown to argue from it; needs-ruling until then. Era III Library pass, October 2026.
 
 
 ## `puritanism` — 2 work(s)
@@ -244,7 +244,7 @@ Five are shelves for material the corpus carries *about* a movement, registered 
 ## `nubian-christianity` — 1 work(s)
 
 **Ecclesiastical History Part III, Book IV.6-9 and IV.49-54 (the mission of Julian to the Nobadae, 543; Longinus's journey to Alodia; the letters of the kings of Alodia and of the Nobadae)** · `john-ephesus` · `john-ephesus`
-> The whole surviving narrative of Nubia's conversion, with two royal letters quoted. Context for John's own narrative; whether the quoted letters count as Nubia's own voice (tradition) is a needs-ruling named in the Nubian dossier. Tier 1, Era III Library pass, 2026-10-16.
+> The whole surviving narrative of Nubia's conversion, with two royal letters quoted. Context for John's own narrative; whether the quoted letters count as Nubia's own voice (tradition) is a needs-ruling named in the Nubian dossier. Tier 1, Era III Library pass, October 2026.
 
 
 ## `palestinian-church-pre-constantinian` — 1 work(s)

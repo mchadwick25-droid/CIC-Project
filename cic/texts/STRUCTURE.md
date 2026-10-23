@@ -2600,11 +2600,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `cyril-scythopolis_vita-euthymii-cotelier-monumenta-v2-grc-lat_1681.txt`
 
-1 section(s) to level 2 · ~229,414 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~229,325 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 229,414 | 229,414 | cyril-scythopolis_vita-euthymii-cotelier-monumenta-v2-grc-lat_1681 |
+| `1` | 0 | 229,325 | 229,325 | cyril-scythopolis_vita-euthymii-cotelier-monumenta-v2-grc-lat_1681 |
 
 ## `dales_theologie-de-saint-cyprien-fra_1922.txt`
 
@@ -4224,11 +4224,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt`
 
-1 section(s) to level 2 · ~541,031 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~540,979 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 541,031 | 541,031 | john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3 |
+| `1` | 0 | 540,979 | 540,979 | john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3 |
 
 ## `john-nikiu_chronicle_charles1916.txt`
 

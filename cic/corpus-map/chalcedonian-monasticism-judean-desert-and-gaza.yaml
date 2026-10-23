@@ -62,7 +62,8 @@ works:
   role: context
   confidence: assigned
   note: 'The imperial condemnation that ended the Origenist party of the Palestinian New Laura
-    (Cyril of Scythopolis''s Vita Sabae tells the local story). Era III Library pass, 2026-10-16.
+    (Cyril of Scythopolis''s Vita Sabae tells the local story). Era III Library pass, October
+    2026.
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
@@ -76,8 +77,8 @@ works:
     for this entry: tradition, not the context the earlier row gave it. SECOND WITNESS ONLY:
     Cotelier''s Latin translation is what the OCR reads, and this 17th-century scan is heavily
     corrupted; eye-verification against page images is required for any quotation. The "Vita
-    Sabae" row that stood beside this one from 2026-09-25 to 2026-10-16 is withdrawn: that
-    Life is not in this volume (it is in Cotelier''s tomus III, 1686, an open acquisition
+    Sabae" row that stood beside this one from September 2026 to October 2026 is withdrawn:
+    that Life is not in this volume (it is in Cotelier''s tomus III, 1686, an open acquisition
     lead).
 
     '
@@ -104,7 +105,7 @@ works:
   role: context
   confidence: assigned
   note: 'The only vendored English words about Barsanuphius the Egyptian recluse near Gaza,
-    and Zosimas; a Chalcedonian lawyer''s outside view. Era III Library pass, 2026-10-16.
+    and Zosimas; a Chalcedonian lawyer''s outside view. Era III Library pass, October 2026.
 
     '
   source_file: evagrius-scholasticus_ecclesiastical-history_walford1846.txt
@@ -142,7 +143,7 @@ works:
     by a monk of St Theodosius and the New Laura of St Sabas: the entry''s own voice at its
     close. SECOND WITNESS ONLY (Latin column readable, Greek garbled); no public-domain English
     exists. This row replaces the "Dorotheus, Doctrinae Diversae, whole file" row that described
-    this file wrongly from 2026-09-25 to 2026-10-16.
+    this file wrongly from September 2026 to October 2026.
 
     '
   source_file: john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt
@@ -213,7 +214,8 @@ works:
   role: context
   confidence: assigned
   note: 'The rival side''s account of the revolt the Chalcedonian lauras lived through, by
-    a native of Gaza; Peter the Iberian''s episcopate at Maiuma. Era III Library pass, 2026-10-16.
+    a native of Gaza; Peter the Iberian''s episcopate at Maiuma. Era III Library pass, October
+    2026.
 
     '
   source_file: zachariah-rhetor_chronicle_hamiltonbrooks1899.txt

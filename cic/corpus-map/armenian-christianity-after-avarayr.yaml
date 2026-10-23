@@ -42,7 +42,7 @@ works:
   role: context
   confidence: provisional
   note: 'Just after the entry''s 554 close; the Armenian revolt against Persian fire-worship
-    seen from Antioch. Provisional on the window. Era III Library pass, 2026-10-16.
+    seen from Antioch. Provisional on the window. Era III Library pass, October 2026.
 
     '
   source_file: evagrius-scholasticus_ecclesiastical-history_walford1846.txt
@@ -64,7 +64,7 @@ works:
   role: context
   confidence: provisional
   note: 'Just after the entry''s window; the Armenian church''s stance on Chalcedon as a sympathetic
-    Syrian saw it. Provisional on the window. Era III Library pass, 2026-10-16.
+    Syrian saw it. Provisional on the window. Era III Library pass, October 2026.
 
     '
   source_file: john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt
@@ -79,7 +79,7 @@ works:
     Armenian Synaxarion before the Lives, and it carries the only vendored notice of Shushanik.
     Transmission (a medieval Armenian calendar preserving the 5th-century martyr''s memory);
     the author slug is the file''s, not the work''s, which this note records plainly. Era
-    III Library pass, 2026-10-16.
+    III Library pass, October 2026.
 
     '
   source_file: john-ephesus_lives-eastern-saints-po18_brooks1924.txt
@@ -185,7 +185,8 @@ works:
   confidence: needs-ruling
   note: 'The doctrinal text the Armenian church argued from against Chalcedon. Antecedent
     by the corpus-map''s own rule only once the Armenian entry''s own vendored sources (Elishe,
-    Lazar) are shown to argue from it; needs-ruling until then. Era III Library pass, 2026-10-16.
+    Lazar) are shown to argue from it; needs-ruling until then. Era III Library pass, October
+    2026.
 
     '
   source_file: zachariah-rhetor_chronicle_hamiltonbrooks1899.txt
@@ -200,7 +201,7 @@ works:
   note: 'A geographical survey written c. 555 naming the Armenian Catholicos Gregory at Dvin,
     Georgia''s Christian prince under Persia, Albania ("Arran") as a baptized people whose
     bishop Kardutsat went to the Huns, and the Persian Catholicos Joseph as the king''s physician.
-    One short chapter serving four worlds. Era III Library pass, 2026-10-16.
+    One short chapter serving four worlds. Era III Library pass, October 2026.
 
     '
   source_file: zachariah-rhetor_chronicle_hamiltonbrooks1899.txt

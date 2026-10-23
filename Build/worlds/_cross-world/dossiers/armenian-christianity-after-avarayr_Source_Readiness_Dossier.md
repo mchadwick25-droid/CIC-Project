@@ -8,13 +8,13 @@ why it exists.
 **Time window:** 451-554
 **Region(s):** Armenia
 **Dossier author / date:** source-research thread (Library, Era III), 2026-10-23
-**Corpus-map / `cic/texts/` state as of:** branch `library/era-iii-2026-10` after the Era III vendoring, merged with `origin/main` of 2026-10-23 (checked at `469dd9b2` and the commits that follow it on this branch)
+**Corpus-map / `cic/texts/` state as of:** branch `library/era-iii-2026-10` after the Era III vendoring, merged with `origin/main` of October 2026 (checked at `9675d7e3` and the commits that follow it on this branch)
 
 **This entry's status.** Census status: Pre-Survey Candidate. The sibling `armenian-christianity-conversion-era` holds Moses of Khoren in Italian (1850) and the ANF 8 extract. Another thread vendored Ormanian's Church of Armenia (1912) and Timothy Aelurus's Refutation (an Armenian text), both now assigned here.
 
 ## 1. Already assigned
 
-Every work the corpus map listed for this entry before this pass (`origin/main`, 2026-10-23).
+Every work the corpus map listed for this entry before this pass (`origin/main`, October 2026).
 
 | work | author | role | confidence | approx. scale | source file |
 |---|---|---|---|---|---|
@@ -39,11 +39,11 @@ Public-domain editions not previously vendored, each confirmed against its host 
 
 | title (vendored file) | author | translator / editor | year | url | rights basis | verified by (method + date) |
 |---|---|---|---|---|---|---|
-| Rituale Armenorum (with the Old Armenian Lectionary) (`rituale-armenorum-lectionary_conybeare1905.txt`) | Armenian Church (anonymous) | F. C. Conybeare (ed.) | 1905 | https://archive.org/details/ritualearmenorum00cony | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (Clarendon 1905; no copyright field); Appendix II located in the fetched text, 2026-10-23 |
-| Collection des historiens anciens et modernes de l'Armenie, tome II (`langlois_collection-historiens-armenie-tome2-fra_1869.txt`) | Koriun; Moses of Khoren; Elishe; Lazar of Parp; Eznik | Victor Langlois (ed.); Emine; Ghesarian (French) | 1869 | https://archive.org/details/collectiondeshi02langgoog | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; Firmin-Didot 1869); contents list read in the fetched text, 2026-10-23 |
-| The History of Vartan and of the Battle of the Armenians (`eghishe_history-of-vartan-and-the-armenian-war_neumann1830.txt`) | Eghishe (Elishe) | Charles Friedrich Neumann | 1830 | https://archive.org/details/thehistoryofvartan | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (1830; CC Public Domain Mark 1.0); title page read in the fetched text, 2026-10-23 |
-| History of the Wars, Books I and II: The Persian War (`procopius_wars-1-2-persian_dewing1914.txt`) | Procopius of Caesarea | H. B. Dewing | 1914 | https://www.gutenberg.org/ebooks/16764 | pd-us-by-date | Claude (Library thread, Era III): Gutenberg book page and text fetched directly; 'First Printed 1914' and PD statement read, 2026-10-16 |
-| Histoire d'Heraclius par l'eveque Sebeos (`sebeos_histoire-d-heraclius-fra_macler1904.txt`) | Sebeos | Frederic Macler (French) | 1904 | https://archive.org/details/HistoireDheracliusParLevequeSebeos | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (no date or copyright field); the OCR title page MDCCCCIV and Macler's name read in the fetched text, 2026-10-23 |
+| Rituale Armenorum (with the Old Armenian Lectionary) (`rituale-armenorum-lectionary_conybeare1905.txt`) | Armenian Church (anonymous) | F. C. Conybeare (ed.) | 1905 | https://archive.org/details/ritualearmenorum00cony | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (Clarendon 1905; no copyright field); Appendix II located in the fetched text, October 2026 |
+| Collection des historiens anciens et modernes de l'Armenie, tome II (`langlois_collection-historiens-armenie-tome2-fra_1869.txt`) | Koriun; Moses of Khoren; Elishe; Lazar of Parp; Eznik | Victor Langlois (ed.); Emine; Ghesarian (French) | 1869 | https://archive.org/details/collectiondeshi02langgoog | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; Firmin-Didot 1869); contents list read in the fetched text, October 2026 |
+| The History of Vartan and of the Battle of the Armenians (`eghishe_history-of-vartan-and-the-armenian-war_neumann1830.txt`) | Eghishe (Elishe) | Charles Friedrich Neumann | 1830 | https://archive.org/details/thehistoryofvartan | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (1830; CC Public Domain Mark 1.0); title page read in the fetched text, October 2026 |
+| History of the Wars, Books I and II: The Persian War (`procopius_wars-1-2-persian_dewing1914.txt`) | Procopius of Caesarea | H. B. Dewing | 1914 | https://www.gutenberg.org/ebooks/16764 | pd-us-by-date | Claude (Library thread, Era III): Gutenberg book page and text fetched directly; 'First Printed 1914' and PD statement read, October 2026 |
+| Histoire d'Heraclius par l'eveque Sebeos (`sebeos_histoire-d-heraclius-fra_macler1904.txt`) | Sebeos | Frederic Macler (French) | 1904 | https://archive.org/details/HistoireDheracliusParLevequeSebeos | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (no date or copyright field); the OCR title page MDCCCCIV and Macler's name read in the fetched text, October 2026 |
 
 Verified and **not** vendored (duplicate, redundant or low value), so nobody re-verifies them:
 

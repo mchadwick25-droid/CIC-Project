@@ -11,24 +11,20 @@ Rights basis: A Migne Patrologia Graeca printing of 1860, out of US copyright by
     confirmed from the Internet Archive scan (identifier bim_early-english-books-1641-1700_patrologiae-cursus-completus-_1860_88), per the original 2026-09-25 intake.
 Language: grc (Greek with Latin; the Latin columns are what the OCR reads, the Greek is
     garbled - SECOND WITNESS ONLY)
-Source: Internet Archive item bim_early-english-books-1641-1700_patrologiae-cursus-completus-
-    _1860_88 (archive.org/details/bim_early-english-books-1641-1700_patrologiae-cursus-completus-_1860_88), the item's own _djvu.txt full-text file, vendored 2026-09-25 by the
-    tech-readiness build thread under the name dorotheus-gaza_doctrinae-instructiones-grc-lat_migne-pg88.txt; renamed 2026-10-16 by the Library thread (Era III) after its contents
-    were checked.
-Provenance note: CORRECTION OF RECORD, 2026-10-16. This file was vendored as "Dorotheus of
-    Gaza, Doctrinae diversae, PG 88". It is not. The host's "Vol 88" counts physical volumes
-    in a serial run, not Migne's tomus numbers: the neighbouring items in the same run carry
-    the running heads of PG 87.2 (Procopius of Gaza on Isaiah) and PG 89 (Anastasius of
-    Sinai), and this file's own running heads are "PROCOPII GAZEI" (to raw line ~2872),
-    "JOANNES MOSCHUS" (from raw line ~3369, the Notitia, to ~25000), "EPISTOLA SYNODICA AD
-    SERGIUM CP." (raw line ~26355) and the other Sophronius works, then Alexander Monachus
-    (~95000). The name Dorotheus occurs only in passing (seventeen times, e.g. "in coenobium
-    abbatis Dorothei prope Gazam"); none of his Doctrinae is here. The real PG 88 is now
-    vendored separately as dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_
-    migne-pg88.txt. The body text below is unchanged from the 2026-09-25 vendoring: raw djvu
-    OCR, runs of 2+ spaces collapsed, no wording altered. Sections: Migne column numbers in
-    the running text; the Pratum by its numbered chapters (Latin "Caput"); Sophronius by
-    work. Credit line: "Patrologia Graeca 87.3 (Migne, 1860)". Whole text republishable
+Source: Internet Archive item bim_early-english-books-1641-1700_patrologiae-cursus-completus-_1860_88
+    (archive.org/details/bim_early-english-books-1641-1700_patrologiae-cursus-completus-_1860_88), the
+    item's own _djvu.txt full-text file.
+Provenance note: This file is Patrologia Graeca 87 part 3, not PG 88, and contains no Dorotheus. The host's
+    "Vol 88" counts physical volumes in a serial run, not Migne's tomus numbers: neighbouring items
+    in the same run carry the running heads of PG 87.2 (Procopius of Gaza on Isaiah) and PG 89
+    (Anastasius of Sinai), and this file's own running heads are "PROCOPII GAZEI" (to raw line
+    ~2872), "JOANNES MOSCHUS" (from ~3369, the Notitia, to ~25000), "EPISTOLA SYNODICA AD SERGIUM
+    CP." (~26355) and the other Sophronius works, then Alexander Monachus (~95000). The name
+    Dorotheus occurs only in passing (seventeen times, e.g. "in coenobium abbatis Dorothei prope
+    Gazam"). The real PG 88 is vendored as dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-
+    grc-lat_migne-pg88.txt. Raw djvu OCR, runs of 2+ spaces collapsed, no wording altered. Sections:
+    Migne column numbers in the running text; the Pratum by its numbered chapters (Latin "Caput");
+    Sophronius by work. Credit line: "Patrologia Graeca 87.3 (Migne, 1860)". Whole text republishable
     (Latin column); no public-domain English of the Pratum or of Sophronius exists.
 Content note: The Pratum Spirituale is the great collection of monastic stories from the
     Judean desert, Sinai, Egypt and Syria c. 600 by a monk of St Theodosius and the laura

@@ -8,13 +8,13 @@ why it exists.
 **Time window:** c. 330-609
 **Region(s):** Caucasus
 **Dossier author / date:** source-research thread (Library, Era III), 2026-10-23
-**Corpus-map / `cic/texts/` state as of:** branch `library/era-iii-2026-10` after the Era III vendoring, merged with `origin/main` of 2026-10-23 (checked at `469dd9b2` and the commits that follow it on this branch)
+**Corpus-map / `cic/texts/` state as of:** branch `library/era-iii-2026-10` after the Era III vendoring, merged with `origin/main` of October 2026 (checked at `9675d7e3` and the commits that follow it on this branch)
 
 **This entry's status.** Census status: Pre-Survey Candidate. Another thread vendored Raabe's Peter the Iberian, assigned here as context. The window opens c. 330, in era 2.
 
 ## 1. Already assigned
 
-Every work the corpus map listed for this entry before this pass (`origin/main`, 2026-10-23).
+Every work the corpus map listed for this entry before this pass (`origin/main`, October 2026).
 
 | work | author | role | confidence | approx. scale | source file |
 |---|---|---|---|---|---|
@@ -35,11 +35,11 @@ Public-domain editions not previously vendored, each confirmed against its host 
 
 | title (vendored file) | author | translator / editor | year | url | rights basis | verified by (method + date) |
 |---|---|---|---|---|---|---|
-| Studia Biblica et Ecclesiastica V.1: The Life of St Nino (`studia-biblica-et-ecclesiastica-v5-life-of-st-nino_wardrop1903.txt`) | Georgian Life of Nino (anonymous) | Marjory and Oliver Wardrop | 1903 | https://archive.org/details/studiabiblicaete05oxfouoft | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; the series date 1885-96); the Life of Nino located in the fetched text, 2026-10-23 |
-| Histoire de la Georgie, premiere partie (`brosset_histoire-de-la-georgie-pt1-fra_1849.txt`) | Georgian chronicles (Kartlis Tskhovreba) | Marie-Felicite Brosset (French) | 1849 | https://archive.org/details/bub_gb_TmtpAAAAMAAJ | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (Brosset 1849; CC Public Domain Mark 1.0), 2026-10-23 |
-| History of the Wars, Books I and II: The Persian War (`procopius_wars-1-2-persian_dewing1914.txt`) | Procopius of Caesarea | H. B. Dewing | 1914 | https://www.gutenberg.org/ebooks/16764 | pd-us-by-date | Claude (Library thread, Era III): Gutenberg book page and text fetched directly; 'First Printed 1914' and PD statement read, 2026-10-16 |
-| Procopius, History of the Wars, Books VII.36-VIII (Loeb vol. V) (`procopius_wars-7-36-8-gothic-grc-eng_dewing1928.txt`) | Procopius of Caesarea | H. B. Dewing | 1928 | https://archive.org/details/procopiuswitheng05procuoft | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT); the volume's own 'First printed 1928' leaf read in the fetched text, 2026-10-16 |
-| Histoire d'Heraclius par l'eveque Sebeos (`sebeos_histoire-d-heraclius-fra_macler1904.txt`) | Sebeos | Frederic Macler (French) | 1904 | https://archive.org/details/HistoireDheracliusParLevequeSebeos | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (no date or copyright field); the OCR title page MDCCCCIV and Macler's name read in the fetched text, 2026-10-23 |
+| Studia Biblica et Ecclesiastica V.1: The Life of St Nino (`studia-biblica-et-ecclesiastica-v5-life-of-st-nino_wardrop1903.txt`) | Georgian Life of Nino (anonymous) | Marjory and Oliver Wardrop | 1903 | https://archive.org/details/studiabiblicaete05oxfouoft | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; the series date 1885-96); the Life of Nino located in the fetched text, October 2026 |
+| Histoire de la Georgie, premiere partie (`brosset_histoire-de-la-georgie-pt1-fra_1849.txt`) | Georgian chronicles (Kartlis Tskhovreba) | Marie-Felicite Brosset (French) | 1849 | https://archive.org/details/bub_gb_TmtpAAAAMAAJ | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (Brosset 1849; CC Public Domain Mark 1.0), October 2026 |
+| History of the Wars, Books I and II: The Persian War (`procopius_wars-1-2-persian_dewing1914.txt`) | Procopius of Caesarea | H. B. Dewing | 1914 | https://www.gutenberg.org/ebooks/16764 | pd-us-by-date | Claude (Library thread, Era III): Gutenberg book page and text fetched directly; 'First Printed 1914' and PD statement read, October 2026 |
+| Procopius, History of the Wars, Books VII.36-VIII (Loeb vol. V) (`procopius_wars-7-36-8-gothic-grc-eng_dewing1928.txt`) | Procopius of Caesarea | H. B. Dewing | 1928 | https://archive.org/details/procopiuswitheng05procuoft | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT); the volume's own 'First printed 1928' leaf read in the fetched text, October 2026 |
+| Histoire d'Heraclius par l'eveque Sebeos (`sebeos_histoire-d-heraclius-fra_macler1904.txt`) | Sebeos | Frederic Macler (French) | 1904 | https://archive.org/details/HistoireDheracliusParLevequeSebeos | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (no date or copyright field); the OCR title page MDCCCCIV and Macler's name read in the fetched text, October 2026 |
 
 Verified and **not** vendored (duplicate, redundant or low value), so nobody re-verifies them:
 

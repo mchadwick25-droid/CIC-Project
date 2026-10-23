@@ -8,13 +8,13 @@ why it exists.
 **Time window:** c. 451-705
 **Region(s):** Caucasian Albania (modern Azerbaijan/Dagestan)
 **Dossier author / date:** source-research thread (Library, Era III), 2026-10-23
-**Corpus-map / `cic/texts/` state as of:** branch `library/era-iii-2026-10` after the Era III vendoring, merged with `origin/main` of 2026-10-23 (checked at `469dd9b2` and the commits that follow it on this branch)
+**Corpus-map / `cic/texts/` state as of:** branch `library/era-iii-2026-10` after the Era III vendoring, merged with `origin/main` of October 2026 (checked at `9675d7e3` and the commits that follow it on this branch)
 
 **This entry's status.** Census status: Pre-Survey Candidate. The census entry has no `sources` field. Another thread's staging assigned Zakaria of Sofis (Brosset 1876) here.
 
 ## 1. Already assigned
 
-Every work the corpus map listed for this entry before this pass (`origin/main`, 2026-10-23).
+Every work the corpus map listed for this entry before this pass (`origin/main`, October 2026).
 
 | work | author | role | confidence | approx. scale | source file |
 |---|---|---|---|---|---|
@@ -34,8 +34,8 @@ Public-domain editions not previously vendored, each confirmed against its host 
 
 | title (vendored file) | author | translator / editor | year | url | rights basis | verified by (method + date) |
 |---|---|---|---|---|---|---|
-| Collection des historiens anciens et modernes de l'Armenie, tome II (`langlois_collection-historiens-armenie-tome2-fra_1869.txt`) | Koriun; Moses of Khoren; Elishe; Lazar of Parp; Eznik | Victor Langlois (ed.); Emine; Ghesarian (French) | 1869 | https://archive.org/details/collectiondeshi02langgoog | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; Firmin-Didot 1869); contents list read in the fetched text, 2026-10-23 |
-| Histoire d'Heraclius par l'eveque Sebeos (`sebeos_histoire-d-heraclius-fra_macler1904.txt`) | Sebeos | Frederic Macler (French) | 1904 | https://archive.org/details/HistoireDheracliusParLevequeSebeos | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (no date or copyright field); the OCR title page MDCCCCIV and Macler's name read in the fetched text, 2026-10-23 |
+| Collection des historiens anciens et modernes de l'Armenie, tome II (`langlois_collection-historiens-armenie-tome2-fra_1869.txt`) | Koriun; Moses of Khoren; Elishe; Lazar of Parp; Eznik | Victor Langlois (ed.); Emine; Ghesarian (French) | 1869 | https://archive.org/details/collectiondeshi02langgoog | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; Firmin-Didot 1869); contents list read in the fetched text, October 2026 |
+| Histoire d'Heraclius par l'eveque Sebeos (`sebeos_histoire-d-heraclius-fra_macler1904.txt`) | Sebeos | Frederic Macler (French) | 1904 | https://archive.org/details/HistoireDheracliusParLevequeSebeos | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (no date or copyright field); the OCR title page MDCCCCIV and Macler's name read in the fetched text, October 2026 |
 
 **Gaps (no public-domain English, or no own voice):**
 

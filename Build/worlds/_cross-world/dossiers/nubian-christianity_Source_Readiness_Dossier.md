@@ -8,13 +8,13 @@ why it exists.
 **Time window:** 543-652
 **Region(s):** Nile Sudan (Makuria, Nobadia)
 **Dossier author / date:** source-research thread (Library, Era III), 2026-10-23
-**Corpus-map / `cic/texts/` state as of:** branch `library/era-iii-2026-10` after the Era III vendoring, merged with `origin/main` of 2026-10-23 (checked at `469dd9b2` and the commits that follow it on this branch)
+**Corpus-map / `cic/texts/` state as of:** branch `library/era-iii-2026-10` after the Era III vendoring, merged with `origin/main` of October 2026 (checked at `9675d7e3` and the commits that follow it on this branch)
 
 **This entry's status.** Census status: Pre-Survey Candidate. No corpus-map bucket and no staging row existed before this pass.
 
 ## 1. Already assigned
 
-Every work the corpus map listed for this entry before this pass (`origin/main`, 2026-10-23).
+Every work the corpus map listed for this entry before this pass (`origin/main`, October 2026).
 
 None. No bucket file and no staging row named this entry before this pass.
 
@@ -33,10 +33,10 @@ Public-domain editions not previously vendored, each confirmed against its host 
 
 | title (vendored file) | author | translator / editor | year | url | rights basis | verified by (method + date) |
 |---|---|---|---|---|---|---|
-| The Origins of the Islamic State (Kitab Futuh al-Buldan), vol. I (`baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt`) | al-Baladhuri | Philip Khuri Hitti | 1916 | https://archive.org/details/originsislamics00hittgoog | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; Columbia 1916); the Nubia chapter located in the fetched text, 2026-10-23 |
-| Recueil des inscriptions grecques-chretiennes d'Egypte (`lefebvre_recueil-inscriptions-grecques-chretiennes-egypte-grc-fra_1907.txt`) | anonymous (Christian inscriptions of Egypt and Nubia) | Gustave Lefebvre (ed., Greek with French) | 1907 | https://archive.org/details/recueildesinscri00egyp | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (IFAO 1907; no copyright field), 2026-10-23 |
-| Chronica minora II (MGH Auctores antiquissimi 11): Marcellinus Comes, Victor of Tunnuna, John of Biclaro, Isidore, Marius of Avenc (`chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt`) | Marcellinus Comes; Victor of Tunnuna; John of Biclaro; Isidore of Sevi | Theodor Mommsen (ed.) | 1894 | https://archive.org/details/chronicaminorasa11momm | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (Weidmann 1894; no copyright field); the Marcellinus, Victor and Biclaro headings located in the fetched text, 2026-10-16 |
-| History of the Wars, Books I and II: The Persian War (`procopius_wars-1-2-persian_dewing1914.txt`) | Procopius of Caesarea | H. B. Dewing | 1914 | https://www.gutenberg.org/ebooks/16764 | pd-us-by-date | Claude (Library thread, Era III): Gutenberg book page and text fetched directly; 'First Printed 1914' and PD statement read, 2026-10-16 |
+| The Origins of the Islamic State (Kitab Futuh al-Buldan), vol. I (`baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt`) | al-Baladhuri | Philip Khuri Hitti | 1916 | https://archive.org/details/originsislamics00hittgoog | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (NOT_IN_COPYRIGHT; Columbia 1916); the Nubia chapter located in the fetched text, October 2026 |
+| Recueil des inscriptions grecques-chretiennes d'Egypte (`lefebvre_recueil-inscriptions-grecques-chretiennes-egypte-grc-fra_1907.txt`) | anonymous (Christian inscriptions of Egypt and Nubia) | Gustave Lefebvre (ed., Greek with French) | 1907 | https://archive.org/details/recueildesinscri00egyp | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (IFAO 1907; no copyright field), October 2026 |
+| Chronica minora II (MGH Auctores antiquissimi 11): Marcellinus Comes, Victor of Tunnuna, John of Biclaro, Isidore, Marius of Avenc (`chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt`) | Marcellinus Comes; Victor of Tunnuna; John of Biclaro; Isidore of Sevi | Theodor Mommsen (ed.) | 1894 | https://archive.org/details/chronicaminorasa11momm | pd-us-by-date | Claude (Library thread, Era III): archive.org /metadata read (Weidmann 1894; no copyright field); the Marcellinus, Victor and Biclaro headings located in the fetched text, October 2026 |
+| History of the Wars, Books I and II: The Persian War (`procopius_wars-1-2-persian_dewing1914.txt`) | Procopius of Caesarea | H. B. Dewing | 1914 | https://www.gutenberg.org/ebooks/16764 | pd-us-by-date | Claude (Library thread, Era III): Gutenberg book page and text fetched directly; 'First Printed 1914' and PD statement read, October 2026 |
 
 Verified and **not** vendored (duplicate, redundant or low value), so nobody re-verifies them:
 
