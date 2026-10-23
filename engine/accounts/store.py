@@ -15,6 +15,7 @@ they do, and are left out of backups.
 
 Both files use secure_delete, so a deleted row's bytes are overwritten.
 """
+import logging
 import sqlite3
 import threading
 from dataclasses import dataclass
@@ -28,6 +29,8 @@ ACCOUNTS_TABLE = """(
   week_last_used TEXT NOT NULL,
   age_band      TEXT NOT NULL
 ) WITHOUT ROWID"""
+
+logger = logging.getLogger("cic.accounts")
 
 DURABLE_DDL = f"""
 DROP TABLE IF EXISTS recovery_codes;
@@ -240,6 +243,7 @@ class AccountStore:
             try:
                 self._d.execute("UPDATE account_codes SET scramble = ? WHERE scramble = ? AND account_id = ?", (new, old, account_id))
             except sqlite3.IntegrityError:
+                logger.warning("a held code was already held under the current key; the older link is dropped")
                 self._d.execute("DELETE FROM account_codes WHERE scramble = ? AND account_id = ?", (old, account_id))
 
     def drop_code_links(self, account_id: str, scrambles: list[str]) -> int:

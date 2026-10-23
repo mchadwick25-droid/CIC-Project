@@ -360,9 +360,45 @@ def test_links_that_name_no_live_code_are_cleared_when_the_account_is_full(setup
 def test_attaching_is_throttled_before_the_code_is_looked_at(setup, accounts, mailer):
     http, client = setup
     sign_in(http, mailer)
-    accounts.service.limits = dataclasses.replace(accounts.service.limits, attaches_per_network_15min=3)
+    accounts.service.limits = dataclasses.replace(accounts.service.limits, attaches_per_account_15min=3)
     statuses = [attach(http, codes.generate()).status_code for _ in range(5)]
     assert statuses[:3] == [400, 400, 400] and statuses[3:] == [429, 429]
+
+
+def test_other_people_s_misses_on_a_shared_network_never_hold_back_a_right_code(setup, runtime, accounts, mailer):
+    http, client = setup
+    accounts.service.limits = dataclasses.replace(
+        accounts.service.limits, attaches_per_account_15min=3, attach_misses_per_network_15min=4
+    )
+    owner = TestClient(http.app, base_url="https://testserver")
+    sign_in(owner, mailer, "owner@example.org")
+    for i in range(2):
+        other = TestClient(http.app, base_url="https://testserver")
+        sign_in(other, mailer, f"other{i}@example.org")
+        for _ in range(3):
+            attach(other, codes.generate())
+    assert attach(owner, codes.generate()).status_code == 429  # the network's misses are used up
+    assert attach(owner, code_with(runtime, 100)).status_code == 200  # a right code still gets in
+
+
+def test_an_expired_code_does_not_hold_a_slot_and_is_cleared_when_full(setup, runtime, accounts, mailer):
+    http, client = setup
+    sign_in(http, mailer)
+    accounts.service.limits = dataclasses.replace(accounts.service.limits, codes_per_account=1)
+    live = code_with(runtime, 100)
+    runtime.meter._clock = lambda: date(2026, 9, 1)
+    tester = runtime.meter.mint("single", 100, "tester_x", source="tester", expires_in_days=10)[0]
+    assert attach(http, tester).status_code == 200
+    runtime.meter._clock = lambda: date(2026, 10, 5)
+    assert attach(http, live).status_code == 200  # the expired link was cleared to make room
+    assert http.get("/api/accounts/balance").json()["codes_held"] == 1
+
+
+def test_the_balance_does_not_call_a_forged_cookie_signed_in_when_codes_are_unavailable(setup, accounts, runtime):
+    http, client = setup
+    http.app.state.deeper = None
+    http.cookies.set(accounts.cookie_name, "forged.cookie")
+    assert http.get("/api/accounts/balance").json() == {"signed_in": False}
 
 
 def test_a_code_on_the_request_pays_first_and_the_account_s_codes_are_not_touched(setup, runtime, accounts, mailer):

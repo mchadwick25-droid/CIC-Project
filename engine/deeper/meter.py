@@ -607,10 +607,13 @@ class Meter:
         return hmac.new(self._free_secret, visitor.encode("utf-8"), hashlib.sha256).hexdigest()[:32]
 
     def live_code_hashes(self) -> list[str]:
-        """The hash of every code that is live with tokens left, for an account to find its own."""
+        """The hash of every code that is live with tokens left and not past its last day, for an
+        account to find its own."""
+        today = self._clock().isoformat()
         with self._lock:
             return [r[0] for r in self._conn.execute(
                 "SELECT code_hash FROM meter WHERE status = 'live' AND tokens_used < tokens_total"
+                " AND (expires_on IS NULL OR expires_on >= ?)", (today,)
             )]
 
     def code_generation(self) -> tuple[int, int]:

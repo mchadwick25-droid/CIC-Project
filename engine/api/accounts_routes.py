@@ -389,10 +389,12 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         """The account's own free window and the codes it holds. The free figure is the account's
         window alone; a turn is also bounded by the network window and the door, as the header says."""
         deeper = getattr(request.app.state, "deeper", None)
-        if not request.cookies.get(runtime.cookie_name):
+        cookie = request.cookies.get(runtime.cookie_name)
+        if not cookie:
             return {"signed_in": False}
         if deeper is None or deeper.free is None:
-            return {"signed_in": True, "available": False}
+            live = await run_in_threadpool(service.session, cookie)
+            return {"signed_in": True, "available": False} if live is not None else {"signed_in": False}
         context = await run_in_threadpool(account_context, request, deeper)
         if context is None:
             return {"signed_in": False}

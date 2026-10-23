@@ -75,7 +75,8 @@ class Limits:
     nonce_ttl_seconds: int = 600
     recovery_wait_days: int = 7
     codes_per_account: int = 50
-    attaches_per_network_15min: int = 20
+    attaches_per_account_15min: int = 20
+    attach_misses_per_network_15min: int = 60
 
 
 @dataclass
@@ -718,10 +719,14 @@ class AccountsService:
         """Makes a code the account's. The edge has already checked the code is real; here it is
         kept only as a keyed scramble of its hash, so the account file holds nothing the meter
         holds. A code belongs to one account; attaching it again to the same account counts once."""
-        if not self._allow("attach_net", self.keys.network_key(network), 900, self.limits.attaches_per_network_15min):
+        if not self._allow("attach_acct", session.account_id, 900, self.limits.attaches_per_account_15min):
             return Result("throttled")
         if not isinstance(code_hash, str) or not 0 < len(code_hash) <= 128:
-            return Result("wrong")  # a code the edge did not find; counted above, so guessing is limited
+            # A code the edge did not find. Each account is limited, and misses also count against a
+            # larger ceiling for the network; a right code is never held back by other people's misses.
+            if not self._allow("attach_miss_net", self.keys.network_key(network), 900, self.limits.attach_misses_per_network_15min):
+                return Result("throttled")
+            return Result("wrong")
         held_as = self.keys.secret_candidates("code", code_hash)
         outcome = self.store.attach_code(
             session.account_id, held_as[0], held_as, self.today().isoformat(), self.limits.codes_per_account
