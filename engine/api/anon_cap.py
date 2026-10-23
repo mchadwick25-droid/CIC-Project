@@ -86,7 +86,10 @@ def install(app, *, secret: str):
         is_turn = request.method == "POST" and request.url.path.startswith("/api/session/") and (
             request.url.path.endswith("/message") or request.url.path.endswith("/continue")
         )
-        if not (is_create or is_turn):
+        # A sign-in that finishes reads the visitor id, and mints nothing, so a new account can
+        # begin with what is left of its browser's free window.
+        reads_only = request.method == "POST" and request.url.path.startswith("/api/accounts/") and request.url.path.endswith("/finish")
+        if not (is_create or is_turn or reads_only):
             return await call_next(request)
 
         raw_cookie = request.cookies.get(COOKIE_NAME)

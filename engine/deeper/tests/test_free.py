@@ -217,3 +217,70 @@ def test_a_share_narrows_the_window(free):
 def test_a_share_outside_zero_to_one_is_refused(free, share):
     with pytest.raises(ValueError):
         free.reserve("v", 10, share=share)
+
+
+# ---- the network window ------------------------------------------------------
+
+NETWORK_WINDOW = 3 * WINDOW
+
+
+def test_visitors_behind_one_network_draw_from_one_pool(meter):
+    free = FreeAllowance(meter, WINDOW, NETWORK_WINDOW)
+    for visitor in ("a", "b", "c"):
+        held = free.reserve(visitor, WINDOW, network="203.0.113.9")
+        assert held is not None
+        free.settle(held, True)
+    assert free.reserve("d", 1, network="203.0.113.9") is None
+    assert free.reserve("d", 1, network="203.0.113.10") is not None
+
+
+def test_a_draw_must_fit_the_visitors_window_and_the_networks(meter):
+    free = FreeAllowance(meter, WINDOW, NETWORK_WINDOW)
+    draw(free, "a", WINDOW)
+    assert free.reserve("a", 1, network="n") is None
+    assert free.remaining("a", "n") == 0
+    assert free.remaining("b", "n") == WINDOW
+
+
+def test_what_is_left_is_the_smaller_of_the_two_windows(meter):
+    free = FreeAllowance(meter, WINDOW, NETWORK_WINDOW)
+    for visitor in ("a", "b", "c"):
+        held = free.reserve(visitor, 500, network="n")
+        free.settle(held, True)
+    assert free.left("d", network="n") == NETWORK_WINDOW - 1500
+    assert free.left("d", 0.5, network="n") == 0, "half the network window is already drawn"
+
+
+def test_a_reservation_that_is_given_back_frees_both_windows(meter):
+    free = FreeAllowance(meter, WINDOW, NETWORK_WINDOW)
+    held = free.reserve("a", 300, network="n")
+    assert free.remaining("b", "n") == WINDOW and free.left("a", network="n") == WINDOW - 300
+    free.settle(held, False)
+    assert free.left("a", network="n") == WINDOW and meter.free_window_spent(meter.free_key("network:n")) == 0
+
+
+def test_without_a_network_given_only_the_visitors_window_applies(meter):
+    free = FreeAllowance(meter, WINDOW, NETWORK_WINDOW)
+    assert free.reserve("a", WINDOW) is not None
+
+
+def test_the_network_window_cannot_be_smaller_than_one_visitors(meter):
+    with pytest.raises(ValueError):
+        FreeAllowance(meter, WINDOW, WINDOW - 1)
+
+
+def test_the_network_window_ends_with_its_thirty_days(meter, clock):
+    free = FreeAllowance(meter, WINDOW, NETWORK_WINDOW)
+    for visitor in ("a", "b", "c"):
+        free.settle(free.reserve(visitor, WINDOW, network="n"), True)
+    assert free.reserve("d", 1, network="n") is None
+    clock.day = date(2026, 11, 5)
+    assert free.reserve("d", 1, network="n") is not None
+
+
+def test_the_network_row_is_a_scrambled_key_and_a_number(meter):
+    free = FreeAllowance(meter, WINDOW, NETWORK_WINDOW)
+    free.settle(free.reserve("a", 50, network="203.0.113.9"), True)
+    rows = meter._conn.execute("SELECT key_hash, first_day, spent FROM free_window").fetchall()
+    assert len(rows) == 2
+    assert all("203.0.113.9" not in str(row) for row in rows)

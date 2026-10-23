@@ -47,6 +47,10 @@ class Problem:
 # engine.api.deeper_routes.build_runtime (DeeperConfigError).
 NEEDS: dict[str, tuple[Need, ...]] = {
     "CIC_API_ANON_CAP_ENABLED": (Need("CIC_API_ANON_VISITOR_SECRET"),),
+    "CIC_ACCOUNTS_ENABLED": (
+        Need("CIC_ACCOUNTS_KEY", min_length=MIN_KEY_LENGTH),
+        Need("CIC_ACCOUNTS_SESSION_KEY", min_length=MIN_KEY_LENGTH),
+    ),
     "CIC_DEEPER_ENABLED": (
         Need("CIC_DEEPER_WEBHOOK_SECRET"),
         Need("CIC_DEEPER_FREE_KEY", min_length=MIN_KEY_LENGTH),

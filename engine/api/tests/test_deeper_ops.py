@@ -34,9 +34,15 @@ def test_the_token_rates_and_packs_are_the_ruled_ones():
         solo_open=50, solo_round=20, solo_round_later=25,
         table_open_per_seat=50, table_round_two=60, table_round_three=100,
         table_round_two_later=75, table_round_three_later=125,
-        later_rounds_from=4, free_window=550, free_window_days=30, free_rounds=3,
+        later_rounds_from=4, free_window=550, free_window_days=30, example_rounds=3, free_network_window=2750,
     )
     assert ops.packs == (Pack(7, 1100), Pack(15, 2750), Pack(30, 6600))
+
+
+def test_the_visitor_bound_numbers_are_the_ruled_ones():
+    ops = load_ops()
+    assert (ops.unanswered_messages_per_visitor, ops.unanswered_messages_per_network) == (100, 200)
+    assert ops.rates.free_network_window == 5 * ops.rates.free_window == 2750
 
 
 def test_all_wording_reads_at_the_target_level():
@@ -57,6 +63,8 @@ def test_the_stored_pause_names_no_code_and_no_money():
         lambda d: d["limits"].update(low_balance_at=0),
         lambda d: d["limits"].pop("low_balance_at"),
         lambda d: d["limits"].update(extra=1),
+        lambda d: d["limits"].update(unanswered_messages_per_visitor=0),
+        lambda d: d["limits"].pop("unanswered_messages_per_network"),
         lambda d: d["words"]["notes"].pop("spent"),
         lambda d: d["words"]["notes"].update(spent="  "),
         lambda d: d["words"].update(limit=""),
@@ -132,6 +140,8 @@ def test_a_malformed_file_is_refused(tmp_path, change):
         lambda d: d["tokens"]["table"].update(round_three_seats=59),
         lambda d: d["tokens"]["table"].pop("open_per_seat"),
         lambda d: d["tokens"]["free"].update(daily=-1),
+        lambda d: d["tokens"]["free"].update(network_window_allowances=0),
+        lambda d: d["tokens"]["free"].pop("network_window_allowances"),
         lambda d: d["tokens"].update(packs=[]),
         lambda d: d["tokens"].update(packs=[{"price_usd": 5, "tokens": 800}]),
         lambda d: d["tokens"].update(packs=[{"price_usd": 15, "tokens": 2750}, {"price_usd": 7, "tokens": 1100}]),
