@@ -44,3 +44,16 @@ assignments:
     and the Observants related. Scholars' articles in German around printed Latin documents; the Spirituals and
     their opponents speak in the documents, Ehrle and Denifle frame them. The Latin is readable OCR, so the documents
     are primary-grade once checked against the scan. No public-domain English translation found.
+- row_id: ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd4-deu-lat_1888--ehrle-archiv-fur-literatur-und-kirchengeschichte-des
+  work: 'Ehrle, Archiv für Literatur- und Kirchengeschichte des Mittelalters, Bd 4 (1888): Beguins and
+    the Avignon poverty quarrel'
+  author: ehrle-denifle
+  locus: whole volume
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  - inquisition-record-sects-adamites-and-kin
+  role: context
+  confidence: provisional
+  note: 'Ehrle''s conclusion of the Spirituals study, with the Beguins'' confessions drawn from the Toulouse
+    register (file lines 306-503) and papal documents (Avignon, 82 mentions; the Templars, 14). A scholar''s
+    edition around hostile and papal records. Already assigned to the Franciscan entries. Tier: same time-place.'

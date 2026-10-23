@@ -44,3 +44,17 @@ assignments:
     documents; the Spirituals and their opponents speak in the documents, Ehrle and Denifle frame them. The Latin
     is readable OCR, so the documents are primary-grade once checked against the scan. No public-domain English
     translation found.
+- row_id: ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887--ehrle-archiv-fur-literatur-und-kirchengeschichte-des
+  work: 'Ehrle, Archiv für Literatur- und Kirchengeschichte des Mittelalters, Bd 3 (1887): Vienne and
+    the Beghini of Provence'
+  author: ehrle-denifle
+  locus: whole volume
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  - inquisition-record-sects-adamites-and-kin
+  role: context
+  confidence: provisional
+  note: 'Latin papal-court documents: the preparation of the Council of Vienne (''Zur Vorgeschichte des
+    Concils von Vienne'', about 140 mentions of Vienne) and papers on the Beghini of Provence (file lines
+    746 and 931). Avignon-era documents in a scholar''s edition. Already assigned to the Franciscan entries.
+    Tier: same time-place.'

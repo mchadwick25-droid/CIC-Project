@@ -15,3 +15,14 @@ assignments:
       Bethlehem Chapel, and his final imprisonment and trial at
       Constance. This candidate had no prior
       Source Readiness Dossier or corpus-map presence before this file.
+  - row_id: hus_letters_workman-pope1904--the-letters-of-john-hus-workman-and-pope-1904-the-letters
+    work: 'The Letters of John Hus (Workman and Pope, 1904): the letters from Constance'
+    author: hus
+    locus: whole volume
+    atlas_ids:
+    - latin-papal-church-avignon-to-lateran-v
+    role: context
+    confidence: provisional
+    note: 'Hus''s letters from his imprisonment at Constance, with Gerson named in eleven places (for example
+      the index entry ''Gerson''s charges'', file line 877). The council seen from the defendant''s cell.
+      Already assigned to the Hussite entry as tradition. Tier: same time-place.'

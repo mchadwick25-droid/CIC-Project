@@ -45,3 +45,18 @@ assignments:
   confidence: provisional
   note: >-
     Placed on the handbook's subject matter without a full read. Inquisitor's view of the sects he examined.
+- row_id: bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926--bernard-gui-manuel-de-l-inquisiteur-tome-i-the-waldensian
+  work: 'Bernard Gui, Manuel de l''Inquisiteur, tome I: the Waldensian section and the Beguins'' errors'
+  author: bernard-gui
+  locus: whole volume
+  atlas_ids:
+  - waldensians-in-the-alps
+  - inquisition-record-sects-adamites-and-kin
+  role: context
+  confidence: provisional
+  note: 'Hostile inquisitor''s handbook of the 1320s. For the Alps: the section ''[DE SECTA VALDENSIUM]''
+    (file line 4807) and the passages on ''Valdensium seu Pauperum de Lugduno'' (file lines 2154-2162,
+    3411). For the Free Spirit entry: ''Erreurs des Béguins'' (p. 153) and the Beguins'' evasive answers
+    (p. 188), the template-shaped description the entry''s depositions follow. Languedoc, not the Alps;
+    Tier: same time-different-region. Already placed on the Waldensians entry (the-waldensians) by the
+    Franciscan pass.'

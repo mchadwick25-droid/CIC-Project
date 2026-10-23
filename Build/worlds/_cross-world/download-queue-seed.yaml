@@ -11925,3 +11925,580 @@ queue:
     status: not-yet-downloaded
     vendored_as: null
     hold_note: 'Not vendored: scholarship, not a source; available if Doc_02 wants an English survey.'
+
+  - title: La noble leçon des Vaudois du Piémont. Texte critique, introduction et glossaire
+    author: Antonino De Stefano (editor)
+    translator: none (Old Occitan with French)
+    year: 1909
+    world: waldensians-in-the-alps
+    why: The barbes' own verse, in the manuscripts' Old Occitan, in a clean critical edition.
+    url: https://archive.org/details/LaNobleLeconDesVaudoisDeStefa
+    rights_basis: pd-us-by-date; Public Domain Mark 1.0 on the item
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: waldensians_nobla-leicon-pro_destefano1909.txt
+  - title: La Noble leçon (Montet edition)
+    author: Édouard Montet (editor)
+    translator: none (Old Occitan with French)
+    year: 1888
+    world: waldensians-in-the-alps
+    why: The standard older edition of the Waldensian poem, with a French translation.
+    url: https://archive.org/details/lanobleleontex00mont
+    rights_basis: pd-us-by-date
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: waldensians_nobla-leicon-pro_montet1888.txt
+  - title: Histoire littéraire des Vaudois du Piémont
+    author: Édouard Montet
+    translator: none (French)
+    year: 1885
+    world: waldensians-in-the-alps
+    why: Describes and prints extracts of the barbes' manuscripts (La Barca, Novel Sermon, Payre eternal
+      and others).
+    url: https://archive.org/details/histoirelittrai00montgoog
+    rights_basis: pd-us-by-date; NOT_IN_COPYRIGHT on the item
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt
+  - title: Die Katechismen der Waldenser und Böhmischen Brüder
+    author: Gerhard von Zezschwitz
+    translator: none (German with Old Occitan)
+    year: 1863
+    world: waldensians-in-the-alps
+    why: Critical text of the Waldensian catechism.
+    url: https://archive.org/details/diekatechismende00zezs
+    rights_basis: pd-us-by-date
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt
+  - title: The Romaunt Version of the Gospel according to St John
+    author: William Stephen Gilly (editor)
+    translator: none (Old Occitan)
+    year: 1848
+    world: waldensians-in-the-alps
+    why: The Waldensian vernacular Gospel of John.
+    url: https://archive.org/details/MN41506ucmf_5
+    rights_basis: pd-us-by-date
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: waldensians_romaunt-gospel-of-john-pro_gilly1848.txt
+  - title: Über die Inquisition gegen die Waldenser in Pommern und der Mark Brandenburg
+    author: Wilhelm Wattenbach
+    translator: none (German with Latin)
+    year: 1886
+    world: waldensians-in-the-alps
+    why: Inquisition record of German Waldensians of the 1390s.
+    url: https://archive.org/details/gtu_32400002864738
+    rights_basis: pd-us-by-date
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: wattenbach_inquisition-gegen-die-waldenser-in-pommern-deu_1886.txt
+  - title: Waldenserthum und Inquisition im südöstlichen Deutschland
+    author: Herman Haupt
+    translator: none (German with Latin)
+    year: 1890
+    world: waldensians-in-the-alps
+    why: Inquisition records of Waldensians in Bavaria, Austria and Bohemia.
+    url: https://archive.org/details/waldenserthumund00haup
+    rights_basis: pd-us-by-date
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: haupt_waldenserthum-und-inquisition-im-suedoestlichen-deutschland-deu_1890.txt
+  - title: Valdesi, Catari e Streghe in Piemonte dal secolo XIV al XVI
+    author: Ferdinando Gabotto
+    translator: none (Italian)
+    year: 1900
+    world: waldensians-in-the-alps
+    why: New archive documents on Waldensians in Piedmont.
+    url: https://archive.org/details/gabotto-valdesi-catari-streghe
+    rights_basis: pd-us-by-date
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: gabotto_valdesi-catari-streghe-in-piemonte-ita_1900.txt
+  - title: Geschichtschreiber der husitischen Bewegung in Böhmen, Theil I (FRA Scriptores II)
+    author: Constantin von Höfler (editor)
+    translator: none (Latin)
+    year: 1856
+    world: taborite-radicalism
+    why: Hussite chronicles and the Picard articles.
+    url: https://archive.org/details/bub_gb_3fyRbn_1No4C
+    rights_basis: pd-us-by-date; Public Domain Mark 1.0 on the item
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: hofler_geschichtschreiber-husitischen-bewegung-v1-lat_1856.txt
+  - title: Geschichtschreiber der husitischen Bewegung in Böhmen, Theil II (FRA Scriptores VI), with the
+      Chronicon Taboritarum
+    author: Constantin von Höfler (editor); Nicholas of Pelhřimov and John of Lukavec
+    translator: none (Latin)
+    year: 1865
+    world: taborite-radicalism
+    why: The Taborite priests' own chronicle and replies.
+    url: https://archive.org/details/bub_gb_AnOWDr0KmJYC
+    rights_basis: pd-us-by-date; Public Domain Mark 1.0 on the item
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: hofler_geschichtschreiber-husitischen-bewegung-v2-lat_1865.txt
+  - title: Prameny k synodám strany pražské a táborské (vznik Husitské konfesse) v létech 1441-1444
+    author: Zdeněk Nejedlý (editor)
+    translator: none (Czech with Latin)
+    year: 1900
+    world: taborite-radicalism
+    why: Taborite priests' replies to the Prague party in Czech, 1441-1444.
+    url: https://archive.org/details/pramenyksynodm00nejeuoft
+    rights_basis: pd-us-by-date; NOT_IN_COPYRIGHT on the item
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: nejedly_prameny-k-synodam-strany-prazske-a-taborske-ces_1900.txt
+  - title: Quellen und Untersuchungen zur Geschichte der Böhmischen Brüder, I
+    author: Jaroslav Goll
+    translator: none (German with Latin and Czech)
+    year: 1878
+    world: the-hussite-and-bohemian-brethren-movement
+    why: Brethren documents and their contact with Waldensians.
+    url: https://archive.org/details/quellenundunters01goll
+    rights_basis: pd-us-by-date
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: goll_quellen-bohmische-bruder-v1-deu_1878.txt
+  - title: Quellen und Untersuchungen zur Geschichte der Böhmischen Brüder, II
+    author: Jaroslav Goll
+    translator: none (German with Latin and Czech)
+    year: 1882
+    world: the-hussite-and-bohemian-brethren-movement
+    why: The Brethren's early apologetic writings.
+    url: https://archive.org/details/quellenundunters02goll
+    rights_basis: pd-us-by-date
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: goll_quellen-bohmische-bruder-v2-deu_1882.txt
+  - title: Über die Secte der Brüder vom freien Geiste (Sitzungsberichte der Berliner Akademie, 1887)
+    author: Wilhelm Wattenbach
+    translator: none (German with Latin)
+    year: 1887
+    world: inquisition-record-sects-adamites-and-kin
+    why: Prints the deposition of John of Brünn.
+    url: https://archive.org/details/sitzungsberichte1887deutsch
+    rights_basis: pd-us-by-date
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt
+  - title: Zeitschrift für Kirchengeschichte, Band VII (1885), with H. Haupt, Beiträge zur Geschichte der
+      Sekte vom freien Geiste
+    author: Herman Haupt
+    translator: none (German with Latin)
+    year: 1885
+    world: inquisition-record-sects-adamites-and-kin
+    why: The Free Spirit error-lists and Haupt's comparison.
+    url: https://archive.org/details/bub_gb_dyUMAAAAIAAJ
+    rights_basis: pd-us-by-date; Public Domain Mark 1.0 on the item
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: haupt_beitraege-sekte-vom-freien-geiste-zeitschrift-kirchengeschichte-bd7-deu_1885.txt
+  - title: The Dialogue of the Seraphic Virgin Catherine of Siena
+    author: Catherine of Siena
+    translator: Algar Thorold
+    year: 1896
+    world: latin-papal-church-avignon-to-lateran-v
+    why: Catherine's own Dialogue in English.
+    url: https://archive.org/details/seraphicvirginca00cathuoft
+    rights_basis: pd-us-by-date; NOT_IN_COPYRIGHT on the item
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: catherine-of-siena_dialogue_thorold1896.txt
+  - title: Saint Catherine of Siena as seen in her Letters
+    author: Catherine of Siena
+    translator: Vida D. Scudder
+    year: 1905
+    world: latin-papal-church-avignon-to-lateran-v
+    why: Catherine's letters, including to Gregory XI.
+    url: https://archive.org/details/saintcatherineof00cath
+    rights_basis: pd-us-by-date
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: catherine-of-siena_selected-letters_scudder1905.txt
+  - title: The Revelations of Saint Birgitta (EETS OS 178)
+    author: Birgitta of Sweden
+    translator: Middle English version, edited by W. P. Cumming
+    year: 1929
+    world: latin-papal-church-avignon-to-lateran-v
+    why: Birgitta's Revelations in English.
+    url: https://archive.org/details/revelationsofstb0000wpcu
+    rights_basis: pd-us-by-date (1929)
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: birgitta_revelations-enm_cumming1929.txt
+  - title: Reuelationes S. Brigittae (Torquemada recension, Duranti), 1628
+    author: Birgitta of Sweden
+    translator: none (Latin)
+    year: 1628
+    world: latin-papal-church-avignon-to-lateran-v
+    why: Birgitta's Latin Revelations.
+    url: https://archive.org/details/bub_gb_YuOOiMxohKEC
+    rights_basis: pd-us-by-date; Public Domain Mark 1.0 on the item
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: birgitta_revelationes-lat_duranti1628.txt
+  - title: Joannis Gersonii Opera omnia, Tomus II, Pars I (Du Pin, 1706)
+    author: Jean Gerson
+    translator: none (Latin)
+    year: 1706
+    world: latin-papal-church-avignon-to-lateran-v
+    why: Gerson's treatises on the Schism.
+    url: https://archive.org/details/JoannisGersoniiOperaOmnia17062
+    rights_basis: pd-us-by-date; Public Domain Mark 1.0 on the item
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: gerson_opera-omnia-tomus-2-pars-1-tractatus-ad-schisma-lat_dupin1706.txt
+  - title: Acta Concilii Constanciensis, Band 2
+    author: Heinrich Finke (editor)
+    translator: none (Latin with German)
+    year: 1923
+    world: latin-papal-church-avignon-to-lateran-v
+    why: Council diaries, sermons and reform papers of Constance.
+    url: https://archive.org/details/actaconciliicons02counuoft
+    rights_basis: pd-us-by-date; NOT_IN_COPYRIGHT on the item
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt
+  - title: Acta Concilii Constanciensis, Band 3
+    author: Heinrich Finke (editor)
+    translator: none (Latin with German)
+    year: 1926
+    world: latin-papal-church-avignon-to-lateran-v
+    why: The three obediences at Constance.
+    url: https://archive.org/details/actaconciliicons03counuoft
+    rights_basis: pd-us-by-date; NOT_IN_COPYRIGHT on the item
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: council-of-constance_acta-concilii-constanciensis-bd3-lat_finke1926.txt
+  - title: Sacrorum conciliorum nova et amplissima collectio, tomus 27 (1409-1418)
+    author: Giovanni Domenico Mansi
+    translator: none (Latin)
+    year: 1902
+    world: latin-papal-church-avignon-to-lateran-v
+    why: Pisa and Constance acts, including the decrees of conciliar authority.
+    url: https://archive.org/details/sacrorumconcilio0027joan
+    rights_basis: pd-us-by-date (1784 edition; Welter facsimile)
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt
+  - title: Sacrorum conciliorum nova et amplissima collectio, tomus 32 (1438-1549; Lateran V)
+    author: Giovanni Domenico Mansi
+    translator: none (Latin)
+    year: 1901
+    world: latin-papal-church-avignon-to-lateran-v
+    why: Lateran V acts.
+    url: https://archive.org/details/sacrorumconcilio0032joan
+    rights_basis: pd-us-by-date (Welter facsimile 1901)
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: mansi_sacrorum-conciliorum-collectio-tomus-32-1438-1549-lat_welter-facsimile1901.txt
+  - title: The Defensor Pacis of Marsilius of Padua (Previté-Orton)
+    author: Marsilius of Padua
+    translator: none (Latin)
+    year: 1928
+    world: latin-papal-church-avignon-to-lateran-v
+    why: Marsilius's attack on papal plenitude of power.
+    url: https://archive.org/details/bwb_P9-CDQ-678
+    rights_basis: pd-us-by-date (1928 title page)
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: marsilius-of-padua_defensor-pacis-lat_previte-orton1928.txt
+  - title: Quellen zur Geschichte des Papsttums und des römischen Katholizismus, 3rd ed.
+    author: Carl Mirbt
+    translator: none (German headings; documents in Latin and other languages)
+    year: 1911
+    world: latin-papal-church-avignon-to-lateran-v
+    why: Unam sanctam, Clericis laicos, Constance and Pragmatic Sanction in the original languages.
+    url: https://archive.org/details/quellenzurgeschi00mirb
+    rights_basis: pd-us-by-date; NOT_IN_COPYRIGHT on the item
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt
+  - title: Ulrichs von Richental Chronik des Constanzer Concils 1414 bis 1418
+    author: Ulrich von Richental
+    translator: none (German)
+    year: 1882
+    world: latin-papal-church-avignon-to-lateran-v
+    why: The layman's eyewitness account of Constance.
+    url: https://archive.org/details/ulrichsvonriche00richgoog
+    rights_basis: pd-us-by-date; NOT_IN_COPYRIGHT on the item
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: richental_chronik-des-constanzer-concils-gmh_buck1882.txt
+  - title: Vitae paparum Avenionensium (Mollat's new edition)
+    author: Étienne Baluze; ed. Guillaume Mollat
+    translator: none (Latin)
+    year: 1921
+    world: latin-papal-church-avignon-to-lateran-v
+    why: The contemporary Lives of the Avignon popes.
+    url: https://archive.org/details/vitaepaparumave00balugoog
+    rights_basis: pd-us-by-date; NOT_IN_COPYRIGHT on the item
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: baluze_vitae-paparum-avenionensium-v1-lat_mollat1921.txt
+  - title: Johannis Burchardi Diarium, Tome II (1492-1499), ed. Thuasne
+    author: Johann Burchard
+    translator: none (Latin)
+    year: 1884
+    world: latin-papal-church-avignon-to-lateran-v
+    why: The papal master of ceremonies' diary.
+    url: https://archive.org/details/johannisburchard02burc
+    rights_basis: pd-us-by-date (1883 or 1884)
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: burchard_diarium-tome-2-1492-1499-lat_thuasne1884.txt
+  - title: Libro della divina dottrina (Dialogo della divina provvidenza), ed. Matilde Fiorilli
+    author: Catherine of Siena
+    translator: none (Italian)
+    year: 1912
+    world: latin-papal-church-avignon-to-lateran-v
+    why: Catherine's Dialogue in her own Italian, clean.
+    url: https://www.gutenberg.org/ebooks/26961
+    rights_basis: pd-us-by-date (1912 title page); Project Gutenberg licence on the file
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR; full-text file fetched directly and sampled at opening, middle and end.'
+    status: downloaded
+    vendored_as: catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt
+  - title: Acta Concilii Constanciensis, Band 1 (union negotiations and council plans, 1410-1414)
+    author: Heinrich Finke (editor)
+    translator: none (Latin with German)
+    year: 1896
+    world: latin-papal-church-avignon-to-lateran-v
+    why: Opens the Constance record before the council met.
+    url: https://archive.org/details/actaconciliicons01counuoft
+    rights_basis: pd-us-by-date; NOT_IN_COPYRIGHT on the item
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page and contents
+      read; 1.17 MB file fetched and sampled (readable).'
+    status: not-yet-downloaded
+    hold_note: Verified and fetched, not vendored; Bände 2 and 3 carry the diaries and the three obediences.
+      Next in line if the build wants the lead-up.
+  - title: Acta Concilii Constanciensis, Band 4 (Aragon and Castile, the tyrannicide trials, Hus and Bohemia,
+      reform tracts including Dietrich of Niem)
+    author: Heinrich Finke (editor)
+    translator: none (Latin with German)
+    year: 1928
+    world: latin-papal-church-avignon-to-lateran-v
+    why: Holds Dietrich of Niem's Avisamenta (the only Niem text found), the Petit and Falkenberg trials
+      and the Hus papers.
+    url: https://archive.org/details/actaconciliicons04counuoft
+    rights_basis: pd-us-by-date (1928); NOT_IN_COPYRIGHT on the item
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; contents read; 3.2 MB
+      file fetched and sampled (patchy, word-form coverage about 0.3 to 0.6).'
+    status: not-yet-downloaded
+    hold_note: 'Verified and fetched, not vendored: size, and the OCR is patchy, so it would be a second
+      witness over 3 MB.'
+  - title: Sacrorum conciliorum collectio (Mansi), tomus 25 (Council of Vienne, 1311-1312)
+    author: Giovanni Domenico Mansi (editor)
+    translator: none (Latin)
+    year: 1782
+    world: inquisition-record-sects-adamites-and-kin
+    why: Looked for the decree Ad nostrum.
+    url: https://archive.org/details/sacrorumconcilio0025joan
+    rights_basis: pd-us-by-date (1782 edition, Welter reprint)
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; 3.6 MB file fetched and
+      searched for Ad nostrum.'
+    status: not-yet-downloaded
+    hold_note: 'Not vendored: it prints Antoninus of Florence''s summary of the eight errors of the Beguines
+      and Beghards, not the decree. The decree is in the Clementines (Friedberg, Corpus iuris canonici II),
+      which is not on the host.'
+  - title: Sacrorum conciliorum collectio (Mansi), tomi 29, 30, 31 (Basel, Ferrara-Florence)
+    author: Giovanni Domenico Mansi (editor)
+    translator: none (Latin)
+    year: 1904
+    world: latin-papal-church-avignon-to-lateran-v
+    why: The Basel and Florence acts after Constance.
+    url: https://archive.org/details/sacrorumconcilio0029vari
+    rights_basis: pd-us-by-date (1904 Welter reprint; tomus 31 is dated 1798 on the host)
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; sizes read from the host
+      listing (4.3, 4.0 and 3.2 MB); not fetched.'
+    status: not-yet-downloaded
+    hold_note: Not fetched. Tomus 30 is item sacrorumconcilio0030joan and tomus 31 is sacrorumconcilio0031jonn.
+  - title: Opera omnia (Du Pin, 1706), Tomi 1, 3, 4 and 5
+    author: Jean Gerson
+    translator: none (Latin)
+    year: 1706
+    world: latin-papal-church-avignon-to-lateran-v
+    why: The other four volumes of the set whose Tomus II Pars I is vendored.
+    url: https://archive.org/details/JoannisGersoniiOperaOmnia17061
+    rights_basis: pd-us-by-date; Public Domain Mark 1.0 on the items
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; sizes read from the host
+      listing (4.6, 5.6, 6.9 and 3.6 MB; items ...17061, ...17063, ...17064, ...17065); not fetched.'
+    status: not-yet-downloaded
+    hold_note: 'Not fetched: size. A 1728 reprint of the set is on the host (items IoannisGersoniiOperaOmnia17282
+      to 17285 were seen).'
+  - title: Magnum oecumenicum Constantiense concilium de universali Ecclesiae reformatione, unione et fide
+      (Hardt)
+    author: Hermann von der Hardt (editor)
+    translator: none (Latin)
+    year: 1697
+    world: latin-papal-church-avignon-to-lateran-v
+    why: Hardt's collection of Constance documents.
+    url: https://archive.org/details/bub_gb_qcxM9D4ss7MC
+    rights_basis: pd-us-by-date
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; nine Google scans found
+      (for example bub_gb_qcxM9D4ss7MC, bub_gb_RpE_Au0fHicC, bub_gb_nm2nYdYvLYUC) with titles dated 1697
+      to 1700.'
+    status: not-yet-downloaded
+    hold_note: 'Found, not fetched or opened: Finke and Mansi 27 cover the same council from better-edited
+      sources.'
+  - title: Enchiridion symbolorum definitionum et declarationum de rebus fidei et morum (Denzinger-Bannwart)
+    author: Heinrich Denzinger; Clemens Bannwart (editor)
+    translator: none (Latin)
+    year: 1911
+    world: latin-papal-church-avignon-to-lateran-v
+    why: Doctrinal definitions of the window (Florence, Constance, Lateran V) in Latin.
+    url: https://archive.org/details/enchiridionsymbo01denz
+    rights_basis: pd-us-by-date (1911 title page)
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; 1.67 MB file fetched and
+      sampled (readable, word-form coverage about 0.64 to 0.73); Laetentur caeli located.'
+    status: not-yet-downloaded
+    hold_note: 'Not vendored: overlaps Mirbt and the Mansi volumes; doctrinal compilation.'
+  - title: Johannis Burchardi Diarium, Tome III (1500-1506), ed. Thuasne
+    author: Johann Burchard
+    translator: none (Latin)
+    year: 1883
+    world: latin-papal-church-avignon-to-lateran-v
+    why: Burchard's diary under Pius III, Julius II and the last years of Alexander VI.
+    url: https://archive.org/details/johannisbruchard03burc
+    rights_basis: pd-us-by-date
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read (Tome
+      troisième, 1500-1506; the year is not legible in the opening pages, so the catalogue date 1883 on
+      the host record is used); 1.9 MB file fetched and sampled.'
+    status: not-yet-downloaded
+    hold_note: Not vendored in this pass; tome II (1492-1499) is. Tome I (1483-1492) was not located.
+  - title: The lives of the popes (Platina), Rycaut's English of 1685
+    author: Bartolomeo Platina
+    translator: Paul Rycaut
+    year: 1685
+    world: latin-papal-church-avignon-to-lateran-v
+    why: Platina's lives run to Paul II (1471); the court humanist's voice on the papacy of the fifteenth
+      century.
+    url: https://archive.org/details/bim_early-english-books-1641-1700_the-lives-of-the-popes-_platina-bartolomeo_1685
+    rights_basis: pd-us-by-date
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; host listing read (EEBO
+      microfilm item); not fetched or opened.'
+    status: not-yet-downloaded
+    hold_note: Found, not opened. The 1900 Benham edition (thelivesofthepop02platuoft) ends with Gregory
+      VII, outside the window; the 1898 set (livesofpopes0001plat) was not checked.
+  - title: Le lettere di S. Caterina da Siena, ridotte a miglior lezione e in ordine nuovo disposte (Tommaseo),
+      vols. II, III, IV
+    author: Catherine of Siena; Niccolò Tommaseo (editor)
+    translator: none (Italian)
+    year: 1860
+    world: latin-papal-church-avignon-to-lateran-v
+    why: Catherine's letters, including those to Gregory XI and Urban VI, in Italian.
+    url: https://archive.org/details/bub_gb_A_r3oPdTyRUC
+    rights_basis: pd-us-by-date; Public Domain Mark 1.0 on the Google scans
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; volume numbers read in
+      the OCR of each scan: vol. II bub_gb_wQpImD6wCLwC (also leletterediscat00tommgoog), vol. III bub_gb_A_r3oPdTyRUC,
+      vol. IV bub_gb_XLs_RgRP2h8C (also leletterediscat02tommgoog); vol. I not located; contents not opened.'
+    status: not-yet-downloaded
+    hold_note: Not fetched. Which volume holds the letters to the popes is not checked.
+  - title: Revelations of St. Bridget on the life and passion of Our Lord and the life of His Blessed Mother
+    author: Birgitta of Sweden
+    translator: none stated (English)
+    year: 1862
+    world: latin-papal-church-avignon-to-lateran-v
+    why: A nineteenth-century English selection of the Revelations.
+    url: https://archive.org/details/RevelationsOfStBridget
+    rights_basis: pd-us-by-date; Public Domain Mark 1.0 on the item
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; 196 KB text file listed;
+      not opened.'
+    status: not-yet-downloaded
+    hold_note: 'Not opened: a devotional selection (Our Lord''s life and passion), not the messages to popes
+      and kings.'
+  - title: History of the Waldenses of Italy, from their origin to the Reformation (Comba)
+    author: Emilio Comba
+    translator: Teofilo Ernest Comba
+    year: 1889
+    world: waldensians-in-the-alps
+    why: Standard English history of the Italian Waldensians.
+    url: https://archive.org/details/historyofwaldens00comb
+    rights_basis: pd-us-by-date (1889); the item carries no rights field
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; 1.16 MB file fetched and
+      sampled (clean, word-form coverage about 0.83 to 0.9). A second scan is cu31924029440512.'
+    status: not-yet-downloaded
+    hold_note: 'Not vendored: scholarship, not a source.'
+  - title: The Israel of the Alps (Muston), Montgomery's translation
+    author: Alexis Muston
+    translator: John Montgomery
+    year: 1866
+    world: waldensians-in-the-alps
+    why: A complete history of the Waldenses of Piedmont, with the 1487 crusade.
+    url: https://archive.org/details/israelalpsacomp00montgoog
+    rights_basis: pd-us-by-date; NOT_IN_COPYRIGHT on the item
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; 1.66 MB text file listed;
+      not fetched.'
+    status: not-yet-downloaded
+    hold_note: 'Not vendored: scholarship, not a source.'
+  - title: Waldensian Researches during a second visit to the Vaudois of Piemont (Gilly)
+    author: William Stephen Gilly
+    translator: none (English)
+    year: 1831
+    world: waldensians-in-the-alps
+    why: Nineteenth-century English inquiry into the antiquity of the Waldensian manuscripts.
+    url: https://archive.org/details/waldensianresear00gill
+    rights_basis: pd-us-by-date (1831 title page on the host record)
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; 971 KB file fetched and
+      sampled (clean, 0.76 to 0.86).'
+    status: not-yet-downloaded
+    hold_note: 'Not vendored: a traveller''s inquiry and argument; the Waldensian texts it quotes are in
+      the files already on the shelf.'
+  - title: 'Beiträge zur Sektengeschichte des Mittelalters, II: Dokumente vornehmlich zur Geschichte der
+      Waldenser und Katharer'
+    author: Ignaz von Döllinger
+    translator: none (German with Latin)
+    year: 1890
+    world: inquisition-record-sects-adamites-and-kin
+    why: Documents on Waldensians, Cathars and Free Spirit heretics.
+    url: https://archive.org/details/beitrgezursekt02dl
+    rights_basis: pd-us-by-date (1890)
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; metadata read (1.77 MB;
+      first volume beitrgezursekt01dl 0.58 MB).'
+    status: not-yet-downloaded
+    hold_note: 'Shared lead: the Franciscan pass had this item in its download folder at the time of the
+      check. Grep the shelf before relying on it.'
+  - title: Fontes rerum Bohemicarum / Prameny dějin českých, tom. V (Pulkava, Březová and the Hussite chronicles
+      in Czech)
+    author: Historický klub, Prague
+    translator: none (Latin and Czech)
+    year: 1873
+    world: taborite-radicalism
+    why: Hussite chronicles in a Czech edition.
+    url: https://archive.org/details/fontesrerumbohe00goog
+    rights_basis: pd-us-by-date; NOT_IN_COPYRIGHT on the item
+    verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; title page read in the
+      OCR (tom. V, Pulkava and Laurentius of Březová); 3.4 MB file listed, not opened further.'
+    status: not-yet-downloaded
+    hold_note: 'Not opened: Březová is already on the shelf in Goll''s 1893 edition (the Hussite world''s
+      file).'

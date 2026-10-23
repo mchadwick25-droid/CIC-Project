@@ -43,3 +43,15 @@ assignments:
   role: context
   confidence: provisional
   note: Placed on the handbook's subject matter without a full read.
+- row_id: bernard-gui_manuel-inquisiteur-t2-lat-fra_mollat1927--bernard-gui-manuel-de-l-inquisiteur-tome-ii-how-waldensians
+  work: 'Bernard Gui, Manuel de l''Inquisiteur, tome II: how Waldensians abjure'
+  author: bernard-gui
+  locus: whole volume
+  atlas_ids:
+  - waldensians-in-the-alps
+  role: context
+  confidence: provisional
+  note: 'The inquisitor''s forms for abjuring the Waldensian sect (''DE MODO VALDENSIUM SECTAM ABJURANDI'',
+    file line 1880; the abjuration formula near line 1902). A hostile, institutional voice on the same
+    community in Languedoc in the 1320s. Tier: same time-different-region. Already placed on the Waldensians
+    entry (the-waldensians) by the Franciscan pass.'

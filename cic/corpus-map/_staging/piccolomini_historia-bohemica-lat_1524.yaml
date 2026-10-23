@@ -15,3 +15,15 @@ assignments:
     long s as ſ, but the OCR misreads many letters within words (for example de read as dc and nati as
     nai; word-form coverage against a clean Latin vocabulary 0.60, about the same as the 1592 printing).
     It does not by itself supply a clean witness; check every wording against the page image.'
+- row_id: piccolomini_historia-bohemica-lat_1524--aeneas-sylvius-piccolomini-historia-bohemica-cologne-1524
+  work: Aeneas Sylvius Piccolomini, Historia Bohemica (Cologne, 1524 printing)
+  author: piccolomini
+  locus: whole volume
+  atlas_ids:
+  - taborite-radicalism
+  - inquisition-record-sects-adamites-and-kin
+  role: context
+  confidence: provisional
+  note: 'A later outside observer on Tábor and on the Adamites (''De Adamitis Hereticis'' heading (file
+    line 300) and 26 mentions of the Taborites). OCR is poor (see the Hussite dossier), so this is a second
+    witness. Already assigned to the Hussite entry. Tier: same time-place.'

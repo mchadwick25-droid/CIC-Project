@@ -35,3 +35,17 @@ assignments:
   note: >-
     Placed on the register's subject matter (sentences against Waldensians appear in the sample). Second witness
     for exact wording: long s read as 'f'.
+- row_id: toulouse-inquisition_liber-sententiarum-lat_limborch1692--liber-sententiarum-inquisitionis-tholosanae-limborch-1692-3
+  work: 'Liber sententiarum inquisitionis Tholosanae (Limborch, 1692): sentences on Waldensians and Beguins'
+  author: toulouse-inquisition
+  locus: whole volume
+  atlas_ids:
+  - waldensians-in-the-alps
+  - inquisition-record-sects-adamites-and-kin
+  role: context
+  confidence: provisional
+  note: 'Sentences of the Toulouse inquisition under Bernard Gui. For the Alps: Waldensian (''pauperes
+    de Lugduno'') depositions at file lines 22265-25522. For the Free Spirit entry: the section ''Culpe
+    beguinorum'' (file line 34571) and the Beguins'' recantations. Coerced answers recorded by their judges;
+    second witness for wording (long s read as f). Tier: same time-different-region. Already placed on
+    the Waldensians entry (the-waldensians) by the Franciscan pass.'

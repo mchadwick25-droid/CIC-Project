@@ -61,3 +61,14 @@ assignments:
     note: 'The same Constitution is addressed to parsons, vicars, chaplains, clerks in parish churches and
       ''all laymen'' (the address at about line 19780). Placed for the parish on that address without reading
       the thirteen articles for parish practice; left provisional. Tier: same time-place.'
+  - row_id: foxe_acts-and-monuments-v3_cattley-townsend1837--foxe-acts-and-monuments-vol-iii-the-hus-section-constance
+    work: 'Foxe, Acts and Monuments, vol. III: the Hus section (Constance proceedings)'
+    author: foxe
+    locus: whole volume
+    atlas_ids:
+    - latin-papal-church-avignon-to-lateran-v
+    role: context
+    confidence: provisional
+    note: 'The Hus section (file lines 30742-46807) carries the Constance proceedings, the petitions of
+      the Bohemian nobles and a papal inquisitor''s testimonial, in an English Protestant martyrology. Context
+      for the council. Already assigned to the Hussite and Lollardy entries. Tier: same time-place.'

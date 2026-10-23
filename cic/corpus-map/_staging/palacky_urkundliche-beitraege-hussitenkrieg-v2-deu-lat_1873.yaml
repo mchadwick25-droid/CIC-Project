@@ -15,3 +15,27 @@ assignments:
     the page image: the Latin and German read legibly (word-form coverage against a clean Latin vocabulary
     0.54, lowered by the German and Czech), with occasional letter-level misreads. Documents are by many
     writers and are not one voice; the editor''s German summaries are Palacký''s.'
+- row_id: palacky_urkundliche-beitraege-hussitenkrieg-v2-deu-lat_1873--palacky-urkundliche-beitrage-zur-geschichte-des
+  work: 'Palacký, Urkundliche Beiträge zur Geschichte des Hussitenkrieges, Band II: 1429-1436'
+  author: palacky
+  locus: whole volume
+  atlas_ids:
+  - taborite-radicalism
+  role: context
+  confidence: provisional
+  note: 'Documents of the wars from Hussite, Taborite, Catholic and royal hands, with the editor''s German
+    summaries of the Taborite documents (the Taborite texts themselves are mostly summaries, not their
+    own words). About 31 mentions of the Taborites. Already assigned to the Hussite entry. Tier: same
+    time-place.'
+- row_id: palacky_urkundliche-beitraege-hussitenkrieg-v2-deu-lat_1873--palacky-urkundliche-beitrage-band-ii-1429-1436-the-council
+  work: 'Palacký, Urkundliche Beiträge, Band II (1429-1436): the Council of Basel and the Compactata'
+  author: palacky
+  locus: whole volume
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: context
+  confidence: provisional
+  note: 'About 165 mentions of Basel: the council''s letters and negotiations with the Hussites and the
+    Compactata of 1433-1436 (for example file lines 18194 and 18621). The conciliar contest seen through
+    its dealings with Bohemia, in Latin and German. Already assigned to the Hussite entry. Tier: same
+    time-place.'
