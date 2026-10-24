@@ -1763,3 +1763,12 @@ Logged 2026-10-23. Recheck files in `Review-Artifacts/` under the Cap ruling "lp
 ### OG-54. Assess the nine tractatus in Morin 1917 ascribed to Optatus and others of Augustine's school (2026-10-23).
 
 Logged 2026-10-23 (Decision Log, "The 133-year silence qualified"). `augustine_sermones-guelferbytani-lat_morin1917.txt` from line 10297 prints nine tractatus headed "SS. Optati Milevitani, Quodvultdei Carthaginiensis episcoporum aliorumque ex Augustini schola"; a manuscript titles one a sermon of Optatus for the feast of the Holy Innocents (lines 10849 to 10850). Registry row 267 covers only the 33 Augustine sermons. Owner: the `lpc` build thread with the Library for the Registry rows. Closes when each of the nine has an ascription with a confidence tag and a Registry row or a recorded exclusion, and the silence claim is confirmed or changed by change order.
+
+### OG-55. Change order CO-LPC-1: rechecks complete for seven of nine documents; what is left (2026-10-24).
+
+Logged 2026-10-24.
+
+- **Approved to proceed after recheck:** Step 0 (Round 7), Doc_04 (Round 16), Doc_05 (Round 5), Doc_06 (Round 5), Doc_07 (Round 4), Doc_08 (Round 12), Doc_09 (Round 11).
+- **One P1 each, fixed by the build thread, not yet independently confirmed:** Doc_01 (Round 14: generator scripts `wb_lpc_s21`, `s25`, `s28` still write the silence unqualified; being aligned under the project lead's ruling to keep and clean the scripts) and Doc_02 (Round 37: lines 7 and 13 now state the public-domain scope).
+- **P2 carried for Phase L2:** Doc_04 Round 16 ("one congregation" reads unclearly; Phase 2 voice file line ~49 keeps "every congregation" and an unbounded absence; `wb_lpc_s25.py` old wording); Doc_05 Round 5 (§0.3 sentence; the `s22` generator drops `canon_cells`); Doc_09 Round 11 (the tablet decree "gladio animadverti placet" unrendered; a death clause under an Acta-only heading; "more briefly" now false); Doc_07 Round 4 (Document Log wording; length figure 13%); Doc_08 Round 12 (review count).
+- **Owner.** The `lpc` build thread.
