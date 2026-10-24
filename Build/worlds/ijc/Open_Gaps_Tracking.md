@@ -416,6 +416,6 @@ Status: OPEN for the project lead to schedule.
 
    Status: OPEN for B7 until the round 2 recheck. CLOSED for the other claim check findings.
 
-45. **Independent recheck round 2 passed, 2026-10-24.** Follows the "Independent recheck of the live-reply claim check fixes" entry (2026-10-24). The separate Opus recheck thread confirmed B7 against https://github.com/mchadwick25-droid/CIC-Project/pull/1102 (the round 2 recheck report in https://github.com/mchadwick25-droid/CIC-Project/pull/1099). No round 3 is needed.
+45. **Independent recheck round 2 passed, 2026-10-24.** Follows the "Independent recheck of the live-reply claim check fixes" entry (2026-10-24). The separate Opus recheck thread confirmed B7 against https://github.com/mchadwick25-droid/CIC-Project/pull/1102 (`Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Independent-Recheck_Round1.md` and `Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Independent-Recheck_Round2.md`, merged in https://github.com/mchadwick25-droid/CIC-Project/pull/1099). No round 3 is needed.
 
    Status: CLOSED for the live-reply claim check findings.
