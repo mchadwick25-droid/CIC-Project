@@ -7,6 +7,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { acceptClaim, addCode, closePanel, declineClaim, deeperEnabled, formatCode, getCodeUrl, openGetCode, openPanel, refreshBalances, refreshFreeLeft, removeCode, useDeeper } from '../lib/deeper';
 import { deeperCopy, pilotCopy } from '../lib/deeperCopy';
+import { giftLinks } from '../lib/giftLinks';
 import { dismissPilot, usePilot } from '../lib/pilot';
 import { peakBalance } from '../lib/balancePeak';
 import { accountsEnabled, closeSignIn, openHome, openSignIn, useAccount } from '../lib/accounts';
@@ -227,6 +228,22 @@ export function GoDeeperPanel({ panelOnly = false }: { panelOnly?: boolean } = {
               )}
             </>
           ))}
+          {!signingIn && !claim && (
+            <div className="go-deeper__section go-deeper__give">
+              <p className="go-deeper__eyebrow">{deeperCopy.giveEyebrow}</p>
+              <h3>{deeperCopy.giveHeading}</h3>
+              <p>{deeperCopy.giveBody}</p>
+              <div className="go-deeper__actions">
+                <a href={giftLinks.once} target="_blank" rel="noopener noreferrer">
+                  {deeperCopy.giveOnce}
+                </a>
+                <a href={giftLinks.monthly} target="_blank" rel="noopener noreferrer">
+                  {deeperCopy.giveMonthly}
+                </a>
+              </div>
+              <p className="go-deeper__fine">{deeperCopy.giveFine}</p>
+            </div>
+          )}
           {!signingIn && !claim && accountsEnabled && account.status !== 'off' && account.status !== 'unknown' && (
             <div className="go-deeper__section go-deeper__account">
               {account.status === 'out' ? (

@@ -370,3 +370,8 @@ def test_the_landing_page_drawer_ships_off_until_the_app_that_draws_it_is_live()
     config = (SITE / "assets" / "go-deeper-config.js").read_text()
     assert re.search(r"\bdrawer:\s*false\b", config)
     assert "cfg.drawer" in (SITE / "assets" / "more-conversations.js").read_text()
+
+
+def test_the_app_panel_offers_the_same_two_gift_links_as_the_support_page():
+    ts = (REPO / "cic-poc" / "frontend" / "src" / "lib" / "giftLinks.ts").read_text()
+    assert re.findall(r"'(https://(?:donate|buy)\.stripe\.com/[^']+)'", ts) == SUPPORT_LINKS

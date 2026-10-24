@@ -186,7 +186,7 @@ and ends by itself. If it persists, switch accounts off.
 **A restore is needed.** Follow the Backup & Restore Runbook, "The accounts files: sealed
 before upload". Restore the durable and contact files from the same pass. At start-up the
 app reads the outside copy of the deletion ledger from the backup bucket and removes any
-account deleted since the backup. If the bucket cannot be read at that moment the log says
+account deleted since the backup, and the hourly job erases again any conversation erased since. If the bucket cannot be read at that moment the log says
 so, and the hourly job tries again; do not switch accounts on for visitors until it has.
 
 **Telling people.** We hold an encrypted address for each account and nothing else that
