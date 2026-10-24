@@ -32,7 +32,7 @@ works:
   work: 'Shakers: Compendium (1859)'
   author: evans-frederick
   locus: whole work
-  role: transmission
+  role: context
   confidence: assigned
   note: The Society's own later self-description; reception of the founding period, not a
     witness to it.
@@ -50,7 +50,7 @@ works:
   work: The Shakers' Covenant (1873) -- Grosvenor's introduction and outline of Shaker history
   author: grosvenor
   locus: the Introduction and the outline of Shaker history
-  role: transmission
+  role: context
   confidence: assigned
   note: A former office-holder's later account of the founders.
   source_file: grosvenor_shakers-covenant-with-a-brief-outline-of-shaker-history_1873.txt
