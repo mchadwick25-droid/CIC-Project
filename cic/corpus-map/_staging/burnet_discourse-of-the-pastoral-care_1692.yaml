@@ -1,0 +1,11 @@
+source_file: burnet_discourse-of-the-pastoral-care_1692.txt
+assignments:
+- row_id: burnet_discourse-of-the-pastoral-care_1692--a-discourse-of-the-pastoral-care-1692
+  work: A Discourse of the Pastoral Care (1692)
+  author: burnet
+  locus: whole work
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: tradition
+  confidence: assigned
+  note: A Williamite bishop's standard for the clergy, read as the ordination handbook of the century.

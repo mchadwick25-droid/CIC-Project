@@ -1,0 +1,12 @@
+source_file: calamy_historical-account-of-my-own-life-v2_rutt1829.txt
+assignments:
+- row_id: calamy_historical-account-of-my-own-life-v2_rutt1829--an-historical-account-of-my-own-life-vol-ii-1703-1731
+  work: An Historical Account of My Own Life, vol. II (1703-1731)
+  author: calamy
+  locus: Calamy's text; Rutt's notes excluded
+  atlas_ids:
+  - english-old-dissent
+  role: tradition
+  confidence: assigned
+  note: The second generation of Dissent and the 1719 subscription crisis in the words of a leading non-subscribing
+    minister.

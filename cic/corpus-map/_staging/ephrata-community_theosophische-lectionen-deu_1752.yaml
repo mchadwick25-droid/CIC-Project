@@ -1,0 +1,12 @@
+source_file: ephrata-community_theosophische-lectionen-deu_1752.txt
+assignments:
+- row_id: ephrata-community_theosophische-lectionen-deu_1752--theosophische-lectionen-erster-theil-ephrata-1752
+  work: Theosophische Lectionen, Erster Theil (Ephrata, 1752)
+  author: ephrata-community
+  locus: whole volume; numbered Lectionen
+  atlas_ids:
+  - radical-pietism-and-the-brethren-dunkers-ephrata
+  role: tradition
+  confidence: assigned
+  note: Anonymous members' statements of their spiritual state, the closest Ephrata comes to the member-memoir
+    genre; German original, Fraktur OCR, no PD English.

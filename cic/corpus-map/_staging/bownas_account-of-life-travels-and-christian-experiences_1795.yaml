@@ -1,0 +1,11 @@
+source_file: bownas_account-of-life-travels-and-christian-experiences_1795.txt
+assignments:
+- row_id: bownas_account-of-life-travels-and-christian-experiences_1795--an-account-of-the-life-travels-and-christian-experiences-of
+  work: An Account of the Life, Travels, and Christian Experiences of Samuel Bownas (1756)
+  author: bownas
+  locus: whole work
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: assigned
+  note: An eighteenth-century ministering Friend's own journal, Britain and America.

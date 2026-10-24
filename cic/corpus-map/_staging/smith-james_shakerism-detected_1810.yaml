@@ -1,0 +1,19 @@
+source_file: smith-james_shakerism-detected_1810.txt
+authors_ruled:
+  smith-james:
+    kind: metadata-omission
+    evidence: 'The body names ''col. James Smith'' as author of the pieces reprinted; the host catalogue
+      names James Smith as creator. Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the
+      slug yet.
+
+      '
+assignments:
+- row_id: smith-james_shakerism-detected_1810--shakerism-detected-1810
+  work: Shakerism Detected (1810)
+  author: smith-james
+  locus: whole work
+  atlas_ids:
+  - shakers
+  role: context
+  confidence: assigned
+  note: Hostile outside witness from the Ohio and Kentucky societies in 1810.

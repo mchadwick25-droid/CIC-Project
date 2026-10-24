@@ -1,0 +1,31 @@
+source_file: jones-thomas_cofiant-thomas-charles-cym_1816.txt
+authors_ruled:
+  charles-thomas:
+    kind: metadata-omission
+    evidence: 'The title page names Thomas Charles as the subject and says the work was ''wedi ei gyfieithu
+      a''i gasglu'' (translated and collected) by Thomas Jones; Charles''s diary entries and letters are
+      printed in the first person throughout the life. The host lists both men as creators. cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+assignments:
+- row_id: jones-thomas_cofiant-thomas-charles-cym_1816--thomas-charles-s-diary-and-letters-as-translated-in-the
+  work: Thomas Charles's diary and letters, as translated in the Cofiant (1816)
+  author: charles-thomas
+  locus: the diary entries and letters set into the life
+  atlas_ids:
+  - the-welsh-revival-tradition
+  role: tradition
+  confidence: assigned
+  note: The organiser of the revival's second generation in his own first person, in Welsh translation;
+    a census-named voice.
+- row_id: jones-thomas_cofiant-thomas-charles-cym_1816--cofiant-neu-hanes-bywyd-a-marwolaeth-thomas-charles-1816
+  work: Cofiant, neu Hanes Bywyd a Marwolaeth Thomas Charles (1816)
+  author: jones-thomas
+  locus: the compiler's narrative and the elegy
+  atlas_ids:
+  - the-welsh-revival-tradition
+  role: tradition
+  confidence: provisional
+  note: A fellow Calvinistic Methodist minister's life of Charles, written inside the movement; provisional
+    because it falls one year past the window's end.

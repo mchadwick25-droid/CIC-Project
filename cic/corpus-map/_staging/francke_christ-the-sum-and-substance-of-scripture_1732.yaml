@@ -1,0 +1,21 @@
+source_file: francke_christ-the-sum-and-substance-of-scripture_1732.txt
+assignments:
+- row_id: francke_christ-the-sum-and-substance-of-scripture_1732--christ-the-sum-and-substance-of-all-the-holy-scriptures-1732
+  work: Christ the Sum and Substance of all the Holy Scriptures (1732 English)
+  author: francke
+  locus: the numbered Sections
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: tradition
+  confidence: assigned
+  note: Francke on reading all Scripture for Christ; own voice.
+- row_id: francke_christ-the-sum-and-substance-of-scripture_1732--preface-drawn-from-francke-s-own-account-of-his-early-life
+  work: Preface drawn from Francke's own account of his early life (the 1687 Lüneburg conversion)
+  author: francke
+  locus: the preface, roman-numbered pages
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: tradition
+  confidence: provisional
+  note: First-person quotations from the Lebenslauf inside an anonymous preface; provisional because paraphrase
+    and quotation alternate and the German original is not vendored.

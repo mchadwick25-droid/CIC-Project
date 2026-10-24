@@ -1,0 +1,11 @@
+source_file: zinzendorf_manual-of-doctrine_1742.txt
+assignments:
+- row_id: zinzendorf_manual-of-doctrine_1742--a-manual-of-doctrine-zinzendorf-s-second-catechism-english
+  work: A Manual of Doctrine (Zinzendorf's second catechism; English 1742)
+  author: zinzendorf
+  locus: whole work
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: tradition
+  confidence: assigned
+  note: The community's own teaching instrument; what a member was expected to know, in scripture answers.

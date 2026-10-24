@@ -1,0 +1,15 @@
+source_file: palou_relacion-historica-vida-junipero-serra-spa_1787.txt
+assignments:
+- row_id: palou_relacion-historica-vida-junipero-serra-spa_1787--relacion-historica-de-la-vida-de-fray-junipero-serra-1787
+  work: Relación histórica de la vida de Fray Junípero Serra (1787)
+  author: palou
+  locus: whole text
+  atlas_ids:
+  - colonial-latin-american-devotional-catholicism
+  role: tradition
+  confidence: assigned
+  note: 'A Franciscan missionary''s own account of his order''s California missions and of his teacher,
+    written as a life of a holy man. The missionaries'' voice; the Native Californians appear only through
+    it.
+
+    '

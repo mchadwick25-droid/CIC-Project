@@ -1,0 +1,41 @@
+source_file: innocent-xii_cum-alias-with-fenelon-mandement-lat-fra_1699.txt
+authors_ruled:
+  fenelon:
+    kind: metadata-omission
+    evidence: 'The file''s leading token is innocent-xii; the title page lists ''Le Mandement de Mgr.
+      l''Archevêque Duc de Cambrai, Sa Lettre au Pape'' (file lines about 10-20), and the Mandement and
+      letter are headed by name at file lines about 535-900. Plain-text vendored file, so cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+assignments:
+- row_id: innocent-xii_cum-alias-with-fenelon-mandement-lat-fra_1699--cum-alias-12-march-1699-with-the-assemblies-proces-verbaux
+  work: Cum alias (12 March 1699), with the assemblies' procès-verbaux
+  author: innocent-xii
+  locus: the brief in Latin and French, the Systema, the procès-verbaux, the King's Declaration and the
+    Paris Mandement
+  atlas_ids:
+  - quietist-controversy-molinos-guyon
+  role: context
+  confidence: assigned
+  note: The institutional condemnation, a hostile source by the census's own terms; it also records how
+    the French church received it.
+- row_id: innocent-xii_cum-alias-with-fenelon-mandement-lat-fra_1699--fenelon-mandement-of-submission-and-letter-to-innocent-xii
+  work: Fénelon, Mandement of submission and letter to Innocent XII (1699)
+  author: fenelon
+  locus: the Mandement and the letter to the Pope
+  atlas_ids:
+  - quietist-controversy-molinos-guyon
+  role: tradition
+  confidence: assigned
+  note: Fénelon's own words of submission, the census's closing scene.
+- row_id: innocent-xii_cum-alias-with-fenelon-mandement-lat-fra_1699--cum-alias-and-the-french-reception-of-it-1699
+  work: Cum alias and the French reception of it (1699)
+  author: innocent-xii
+  locus: the brief, the procès-verbaux and the King's Declaration
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: context
+  confidence: provisional
+  note: The Gallican machinery of receiving a papal brief, assembly by assembly; serves the ancien-régime
+    church entry as an instance of its own procedure.

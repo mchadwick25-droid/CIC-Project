@@ -1,0 +1,23 @@
+source_file: ken_prose-works-with-letters_round1838.txt
+assignments:
+- row_id: ken_prose-works-with-letters_round1838--prose-works-of-thomas-ken-devotional-and-catechetical-works
+  work: 'Prose Works of Thomas Ken: devotional and catechetical works and sermons'
+  author: ken
+  locus: the prose works
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: tradition
+  confidence: assigned
+  note: Restoration Anglican devotion at its most loved, by the bishop whose morning and evening hymns
+    the church sang for two centuries.
+- row_id: ken_prose-works-with-letters_round1838--letters-of-thomas-ken-as-a-deprived-bishop-with-his-account
+  work: Letters of Thomas Ken as a deprived bishop, with his account of his examination before the Privy
+    Council
+  author: ken
+  locus: the numbered letters and the account of the examination before the Council; Hawkins's life is
+    a separate witness
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: tradition
+  confidence: assigned
+  note: The nonjuring schism from inside, in letters to Lloyd of Norwich, Archbishop Tenison and friends.

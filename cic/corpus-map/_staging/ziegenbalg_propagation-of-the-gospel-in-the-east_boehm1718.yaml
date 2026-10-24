@@ -1,0 +1,21 @@
+source_file: ziegenbalg_propagation-of-the-gospel-in-the-east_boehm1718.txt
+assignments:
+- row_id: ziegenbalg_propagation-of-the-gospel-in-the-east_boehm1718--propagation-of-the-gospel-in-the-east-the-tranquebar
+  work: 'Propagation of the Gospel in the East: the Tranquebar missionaries'' letters (English, 1718)'
+  author: ziegenbalg
+  locus: whole work; numbered letters in three parts
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: tradition
+  confidence: assigned
+  note: Halle Pietism's first mission in the missionaries' own letters; the institutional reach the census
+    names.
+- row_id: ziegenbalg_propagation-of-the-gospel-in-the-east_boehm1718--propagation-of-the-gospel-in-the-east-the-tranquebar-2
+  work: 'Propagation of the Gospel in the East: the Tranquebar missionaries'' letters (English, 1718)'
+  author: ziegenbalg
+  locus: the dedication to Archbishop Wake and the SPG
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: context
+  confidence: provisional
+  note: The Halle-SPCK-SPG connection as the English church received it; provisional.

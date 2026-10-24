@@ -1,0 +1,12 @@
+source_file: avraamii-inok_khristianoopasnyi-shchit-very-materialy-v7-rus_subbotin1885.txt
+assignments:
+- row_id: avraamii-inok_khristianoopasnyi-shchit-very-materialy-v7-rus_subbotin1885--the-monk-avraamii-s-christianoopasnyi-shchit-very-petition
+  work: The monk Avraamii's Christianoopasnyi shchit very, petition and other writings (Materialy, vol.
+    VII, 1885)
+  author: avraamii-inok
+  locus: the works; Subbotin's introduction excluded
+  atlas_ids:
+  - the-old-believers
+  role: tradition
+  confidence: assigned
+  note: The Moscow underground of the 1660s in one of its martyrs' own writings.

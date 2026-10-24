@@ -1,0 +1,12 @@
+source_file: chauncy_seasonable-thoughts-on-the-state-of-religion-in-new-england_1743.txt
+assignments:
+- row_id: chauncy_seasonable-thoughts-on-the-state-of-religion-in-new-england_1743--seasonable-thoughts-on-the-state-of-religion-in-new-england
+  work: Seasonable Thoughts on the State of Religion in New-England (Chauncy, 1743)
+  author: chauncy
+  locus: whole work
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: context
+  confidence: assigned
+  note: The opposition from inside the New England ministry; context, not the revival's voice, and the
+    answer Edwards's Some Thoughts drew.

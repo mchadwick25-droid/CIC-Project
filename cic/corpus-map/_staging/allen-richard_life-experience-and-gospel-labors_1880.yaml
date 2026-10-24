@@ -1,0 +1,12 @@
+source_file: allen-richard_life-experience-and-gospel-labors_1880.txt
+assignments:
+- row_id: allen-richard_life-experience-and-gospel-labors_1880--the-life-experience-and-gospel-labors-of-the-rt-rev-richard
+  work: The Life, Experience, and Gospel Labors of the Rt. Rev. Richard Allen, written by himself
+  author: allen-richard
+  locus: whole work
+  atlas_ids:
+  - the-methodist-revival
+  role: tradition
+  confidence: provisional
+  note: Allen's conversion and Methodist years fall inside the window; the AME founding of 1816 and the
+    writing itself fall just outside it. Provisional, as the census's own 'era's edge' note signals.

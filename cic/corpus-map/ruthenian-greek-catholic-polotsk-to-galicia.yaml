@@ -13,6 +13,24 @@ works:
   note: Same volume; its Austrian-era sections reach the 1860s, the end of this entry's neighbour
     window. Placed on the contents, not on a reading.
   source_file: harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902--synodus-provincialis-ruthenorum-1720-later-reception
+  work: Synodus provincialis Ruthenorum (1720), later reception
+  author: mansi
+  locus: the synod's decrees
+  role: antecedent
+  confidence: provisional
+  note: Zamość remained the Galician church's legal frame in the nineteenth century; provisional,
+    not checked against that entry's own texts.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt
+- row_id: mouravieff_history-of-the-church-of-russia_blackmore1842--translator-s-documents-the-synod-s-acts-of-1839-on-the
+  work: 'Translator''s documents: the Synod''s acts of 1839 on the reunion of the Greek Uniates'
+  author: mouravieff
+  locus: the documents printed at the end of the translator's notes
+  role: context
+  confidence: provisional
+  note: The Polotsk reunion of 1839 in the Synod's own papers; the author slug follows the
+    file, the documents are the Synod's and Blackmore's selection.
+  source_file: mouravieff_history-of-the-church-of-russia_blackmore1842.txt
 - row_id: pelesz_geschichte-der-union-bd2-deu_1880--geschichte-der-union-der-ruthenischen-kirche-mit-rom-vol-2-3
   work: Geschichte der Union der ruthenischen Kirche mit Rom, Vol. 2 (1596-1879)
   author: pelesz

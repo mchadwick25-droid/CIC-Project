@@ -33,6 +33,7 @@ cic_dev_deeper/
 # byte-different on every rebuild even with identical content (SQLite
 # metadata). Regenerate with: python cic/engine/corpus_index.py --build
 cic/texts/INDEX.sqlite
+cic/texts/INDEX.sqlite-journal
 
 # Compiled world packages are DERIVED, not source. records/ is the source of
 # truth; `python -m engine.m2.cli build <world>` regenerates a package

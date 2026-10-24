@@ -1,0 +1,21 @@
+source_file: whitefield_two-first-parts-of-his-life-with-journals_1756.txt
+assignments:
+- row_id: whitefield_two-first-parts-of-his-life-with-journals_1756--the-two-first-parts-of-his-life-with-his-journals-whitefield
+  work: The Two First Parts of his Life, with his Journals (Whitefield, 1756 revision)
+  author: whitefield
+  locus: whole work
+  atlas_ids:
+  - the-methodist-revival
+  role: tradition
+  confidence: assigned
+  note: Whitefield's conversion, Georgia voyages and first field preaching in his own revised Journals.
+- row_id: whitefield_two-first-parts-of-his-life-with-journals_1756--the-two-first-parts-of-his-life-with-his-journals-whitefield-2
+  work: The Two First Parts of his Life, with his Journals (Whitefield, 1756 revision)
+  author: whitefield
+  locus: the Journal entries of 1739-1741 on the American preaching tours
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: context
+  confidence: provisional
+  note: The itinerant whose 1740 New England tour the Awakening's own sources describe, in his own journal;
+    provisional, the New England world may want it as tradition.

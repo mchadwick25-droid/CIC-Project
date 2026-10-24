@@ -27,3 +27,17 @@ assignments:
     as f throughout and many word-level misreads (word-form coverage against a clean Latin vocabulary
     0.42). A cleaner scan of Comenius''s own text (1649-1660 manuscripts) would serve as the quotable
     witness.'
+- row_id: comenius_historia-fratrum-bohemorum-lat_1702--historia-fratrum-bohemorum-eorum-ordo-et-disciplina-3
+  work: "Historia Fratrum Bohemorum, eorum ordo et disciplina ecclesiastica (Comenius)"
+  author: comenius
+  locus: "whole volume; preface by Buddeus"
+  atlas_ids:
+    - the-moravian-church-at-herrnhut
+  role: antecedent
+  confidence: assigned
+  note: >
+    The 1702 Halle printing of Comenius's history and Ratio Disciplinae of the old Unity is the
+    book Zinzendorf read in 1727 and from which Herrnhut took its 'Statutes' and understood itself
+    as the old Unity renewed; the renewed church's own founding documents argue from this text.
+    Latin; OCR of this scan is weak (see the file's own note), so a second witness until a cleaner
+    scan is vendored.

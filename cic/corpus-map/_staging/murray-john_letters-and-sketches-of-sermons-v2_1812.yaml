@@ -1,0 +1,11 @@
+source_file: murray-john_letters-and-sketches-of-sermons-v2_1812.txt
+assignments:
+- row_id: murray-john_letters-and-sketches-of-sermons-v2_1812--letters-and-sketches-of-sermons-vol-ii-1812
+  work: Letters, and Sketches of Sermons, vol. II (1812)
+  author: murray-john
+  locus: whole volume
+  atlas_ids:
+  - early-american-unitarians-universalists
+  role: tradition
+  confidence: assigned
+  note: The Universalist founder's own teaching, continued.

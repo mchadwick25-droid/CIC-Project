@@ -1,0 +1,55 @@
+source_file: mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt
+authors_ruled:
+  melkite-church:
+    kind: metadata-omission
+    evidence: 'The volume''s title is ''Synodi Melchitarum, 1716-1902''; the synod acts printed in it
+      (for example ''Synodus in monasterio Sancti Salvatoris, 1736 martii 26'', about raw scan line 26213)
+      carry the Melkite patriarch''s and bishops'' names. The host names only Mansi.
+
+      '
+assignments:
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911--melkite-synods-and-episcopal-documents-1716-1815-mansi-46
+  work: Melkite synods and episcopal documents, 1716-1815 (Mansi 46)
+  author: melkite-church
+  locus: the synods of Saint Saviour of 1730, 1736, 1751 and 1756 (from about raw scan line 19050), the
+    synods of 1790, 1806 and 1811, and the Melkite patriarchs' and bishops' letters and professions printed
+    in the appendices
+  atlas_ids:
+  - melkite-greek-catholic-church
+  role: tradition
+  confidence: assigned
+  note: The new church legislating for itself and writing to Rome in its first ninety years; the closest
+    thing to its own institutional voice in print.
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911--congregations-of-propaganda-and-papal-acts-on-the-melkites
+  work: Congregations of Propaganda and papal acts on the Melkites, 1716-1815 (Mansi 46)
+  author: mansi
+  locus: the particular congregations of 1729 on Cyril VI's election (from about raw scan line 2512),
+    the congregations of 1772, 1781 and 1784, and the papal briefs and constitutions in the appendices
+  atlas_ids:
+  - melkite-greek-catholic-church
+  role: context
+  confidence: assigned
+  note: Rome's side of the correspondence and its rulings on the election, rite and discipline; the authority
+    the Melkites answered to, not their own voice.
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911--melkite-synods-and-documents-after-1815-mansi-46
+  work: Melkite synods and documents after 1815 (Mansi 46)
+  author: melkite-church
+  locus: from the synod of 1831 at the Annunciation monastery, Zuq Mikhail (about raw scan line 90763),
+    to the synod of 1902
+  atlas_ids:
+  - melkite-greek-catholic-church
+  role: transmission
+  confidence: provisional
+  note: The church's nineteenth-century synods, past the window's end; no later Melkite entry exists in
+    the census yet.
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911--documents-on-the-orthodox-patriarch-sylvester-and-the
+  work: Documents on the Orthodox patriarch Sylvester and the Ottoman authorities' measures against the
+    Catholic party (Mansi 46)
+  author: mansi
+  locus: the passages and documents of 1724-1760s reporting Sylvester's actions and the Porte's orders
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-1650-1821
+  role: context
+  confidence: provisional
+  note: The Orthodox side of the split seen through Catholic and Roman reports; context for Ottoman-era
+    Orthodoxy, provisional and one-sided.

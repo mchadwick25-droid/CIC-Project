@@ -16,16 +16,3 @@ assignments:
     account of pre-Christian practice, so the mission's voice about the converts; the Spanish originals
     are not in the corpus. Quotable once verified against the vendored text; the translator's wording,
     not Plasencia's.
-- row_id: blair-robertson_philippine-islands-v07_1903--plasencia-customs-of-the-tagalogs-2
-  work: 'The Philippine Islands, Vol. VII (1588-1591): Plasencia''s Customs of the Tagalogs, and the documents
-    of 1588-1591'
-  author: blair-robertson
-  locus: Plasencia's two relations headed 'Customs of the Tagalogs' at file line 4367; Bishop Salazar's
-    memorial and the documents of 1588 from line 560, of 1589 from 1831, of 1590 from 4968; Bibliographical
-    Data at 8145
-  atlas_ids:
-  - mission-born-christianities-kirishitan-japan-kon
-  role: context
-  confidence: provisional
-  note: Missionary description of a people before and during conversion, as a comparison case for the
-    mission-born entry; placed on genre and window.

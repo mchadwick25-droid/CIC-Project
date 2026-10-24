@@ -1,0 +1,16 @@
+source_file: blair-robertson_philippine-islands-v49_1907.txt
+assignments:
+- row_id: blair-robertson_philippine-islands-v49_1907--the-philippine-islands-vol-xlix-1762-1765-the-documents
+  work: 'The Philippine Islands, vol. XLIX (1762-1765): the documents'
+  author: blair-robertson
+  locus: Rojo's journal and narrative, Anda's letters, and the Jesuit letters; the British papers as the
+    enemy's view
+  atlas_ids:
+  - philippine-catholicism-era-8
+  role: tradition
+  confidence: assigned
+  note: 'Friars'', bishops'' and officials'' own documents in the editors'' English translation; the colonial
+    church''s voice, not Filipino lay Christians''. Quotations are the translators'' wording and need
+    the Spanish where the corpus has it.
+
+    '

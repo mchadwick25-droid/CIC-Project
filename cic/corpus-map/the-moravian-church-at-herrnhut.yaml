@@ -3,6 +3,51 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-moravian-church-at-herrnhut
 works:
+- row_id: acrelius_history-of-new-sweden_reynolds1874--a-history-of-new-sweden-1759-reynolds-s-english-1874-the
+  work: A History of New Sweden (1759; Reynolds's English 1874) -- the sections on Zinzendorf's
+    Pennsylvania visit and on Pietism and Moravianism in Sweden
+  author: acrelius
+  locus: the sections headed Whitfield and Zinzendorff and Pietism and Moravianism in Sweden,
+    file lines about 14760-14960, with the Swedish pastors' dealings with the Herrnhuters
+    in the Delaware congregations
+  role: context
+  confidence: assigned
+  note: A Swedish Lutheran provost's hostile contemporary account of the Moravians among the
+    Delaware Swedes and of Zinzendorf's 1742 visit; outside witness, not the community's voice.
+    Cross-link found by header search of cic/texts (same time-place).
+  source_file: acrelius_history-of-new-sweden_reynolds1874.txt
+- row_id: arndt_true-christianity_boehm-schaeffer1868--true-christianity-wahres-christentum-bohm-schaeffer-english-2
+  work: True Christianity (Wahres Christentum), Böhm-Schaeffer English 1868
+  author: arndt
+  locus: whole work
+  role: antecedent
+  confidence: provisional
+  note: Read at Herrnhut as in every Pietist household; provisional until a Moravian source
+    record argues from it.
+  source_file: arndt_true-christianity_boehm-schaeffer1868.txt
+- row_id: cennick_life-of-mr-j-cennick_1745--the-life-of-mr-j-cennick-written-by-himself-1745
+  work: The Life of Mr. J. Cennick, written by himself (1745)
+  author: cennick
+  locus: whole work
+  role: tradition
+  confidence: assigned
+  note: A member's own conversion narrative, the printed cousin of the manuscript Lebensläufe;
+    written as he joined the Brethren.
+  source_file: cennick_life-of-mr-j-cennick_1745.txt
+- row_id: comenius_historia-fratrum-bohemorum-lat_1702--historia-fratrum-bohemorum-eorum-ordo-et-disciplina-3
+  work: Historia Fratrum Bohemorum, eorum ordo et disciplina ecclesiastica (Comenius)
+  author: comenius
+  locus: whole volume; preface by Buddeus
+  role: antecedent
+  confidence: assigned
+  note: 'The 1702 Halle printing of Comenius''s history and Ratio Disciplinae of the old Unity
+    is the book Zinzendorf read in 1727 and from which Herrnhut took its ''Statutes'' and
+    understood itself as the old Unity renewed; the renewed church''s own founding documents
+    argue from this text. Latin; OCR of this scan is weak (see the file''s own note), so a
+    second witness until a cleaner scan is vendored.
+
+    '
+  source_file: comenius_historia-fratrum-bohemorum-lat_1702.txt
 - row_id: comenius_labyrinth-of-the-world_lutzow1901--the-labyrinth-of-the-world-and-the-paradise-of-the-heart-eng-2
   work: The Labyrinth of the World and the Paradise of the Heart (English, Lutzow)
   author: comenius
@@ -14,6 +59,43 @@ works:
     quotable once each wording is checked against the page image. The Czech original is in
     comenius_labyrint-sveta-a-raj-srdce-ces_1809.txt.
   source_file: comenius_labyrinth-of-the-world_lutzow1901.txt
+- row_id: cranz_ancient-and-modern-history-of-the-brethren_latrobe1780--the-ancient-and-modern-history-of-the-brethren-bruder
+  work: The Ancient and Modern History of the Brethren (Brüder-Historie, 1771; English 1780)
+  author: cranz
+  locus: the modern history, Herrnhut from 1722 onward, in its numbered paragraphs
+  role: tradition
+  confidence: assigned
+  note: The renewed church's official history of itself, written from the Unity's archives
+    by order of its synod.
+  source_file: cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt
+- row_id: cranz_history-of-greenland-v1_1767--the-history-of-greenland-vol-i-1767
+  work: The History of Greenland, vol. I (1767)
+  author: cranz
+  locus: the books relating the mission at New Herrnhut and Lichtenfels
+  role: tradition
+  confidence: assigned
+  note: The Greenland mission narrated from its own diaries by a member of the church sent
+    to examine it.
+  source_file: cranz_history-of-greenland-v1_1767.txt
+- row_id: freylinghausen_geistreiches-gesangbuch-deu_halle1730--geist-reiches-gesang-buch-halle-1730-edition-2
+  work: Geist-reiches Gesang-Buch (Halle, 1730 edition)
+  author: freylinghausen
+  locus: whole volume
+  role: antecedent
+  confidence: provisional
+  note: Herrnhut's first hymnody drew on the Halle book; provisional until the Moravian hymnals
+    vendored show the dependence.
+  source_file: freylinghausen_geistreiches-gesangbuch-deu_halle1730.txt
+- row_id: heckewelder_narrative-of-mission-delaware-mohegan_1820--a-narrative-of-the-mission-of-the-united-brethren-among-the
+  work: A Narrative of the Mission of the United Brethren among the Delaware and Mohegan Indians,
+    1740-1808 (1820)
+  author: heckewelder
+  locus: whole work
+  role: tradition
+  confidence: assigned
+  note: A missionary's own account of seventy years of the Native congregations, written from
+    his diaries; published five years after the window closes, about events inside it.
+  source_file: heckewelder_narrative-of-mission-delaware-mohegan_1820.txt
 - row_id: kriebel_schwenkfelders-in-pennsylvania_1904--schwenkfelders-in-pennsylvania-2
   work: The Schwenkfelders in Pennsylvania (1904), Chapter VIII on Zinzendorf
   author: kriebel
@@ -23,6 +105,15 @@ works:
   note: Chapter title read in the contents ('Relation between the Schwenkfelders and Zinzendorf
     in Pennsylvania'); body not read.
   source_file: kriebel_schwenkfelders-in-pennsylvania_1904.txt
+- row_id: lamech-agrippa_chronicon-ephratense_hark1889--chronicon-ephratense-english-translation-hark-1889-2
+  work: Chronicon Ephratense (English translation, Hark 1889)
+  author: lamech-agrippa
+  locus: the chapters on the 1741-42 Pennsylvania synods and Zinzendorf's visit
+  role: context
+  confidence: provisional
+  note: An Ephrata eyewitness view of Zinzendorf's 1742 Pennsylvania synods and of the Moravians
+    as rivals; the view from a neighbouring community, never the Moravians' own voice.
+  source_file: lamech-agrippa_chronicon-ephratense_hark1889.txt
 - row_id: lasicki_obraz-jednoty-ceskobratrske-ces_1869--obraz-jednoty-eskobratrsk-lasicki-s-history-book-viii-on-the-3
   work: 'Obraz Jednoty českobratrské: Lasicki''s history, Book VIII, on the Unity''s customs
     and orders (Comenius, Leszno 1649)'
@@ -36,6 +127,88 @@ works:
     Latin 1649 original is not vendored. Placed on the title page and chapter headings; the
     chapters were not read in full.
   source_file: lasicki_obraz-jednoty-ceskobratrske-ces_1869.txt
+- row_id: latrobe-benjamin_succinct-view-of-the-missions_1771--a-succinct-view-of-the-missions-established-among-the
+  work: A Succinct View of the Missions established among the Heathen (1771)
+  author: latrobe-benjamin
+  locus: whole pamphlet
+  role: tradition
+  confidence: assigned
+  note: The London secretary's survey of the missions for English supporters; the church's
+    own account, by its own officer.
+  source_file: latrobe-benjamin_succinct-view-of-the-missions_1771.txt
+- row_id: loskiel_history-of-mission-among-indians_latrobe1794--history-of-the-mission-of-the-united-brethren-among-the
+  work: History of the Mission of the United Brethren among the Indians in North America (1794)
+  author: loskiel
+  locus: parts two and three, the mission narrative 1735-1787
+  role: tradition
+  confidence: assigned
+  note: The church's official account of its Native American congregations, compiled from
+    the missionaries' own diaries.
+  source_file: loskiel_history-of-mission-among-indians_latrobe1794.txt
+- row_id: moravian-church_collection-of-hymns_1789--a-collection-of-hymns-for-the-use-of-the-protestant-church
+  work: A Collection of Hymns for the Use of the Protestant Church of the United Brethren
+    (1789)
+  author: moravian-church
+  locus: whole work
+  role: tradition
+  confidence: assigned
+  note: The settled English hymnal of the later window; its preface records the church's own
+    editing of its earlier song.
+  source_file: moravian-church_collection-of-hymns_1789.txt
+- row_id: moravian-church_collection-of-hymns-children-of-god_1754--a-collection-of-hymns-of-the-children-of-god-in-all-ages
+  work: A Collection of Hymns of the Children of God in all Ages (1754)
+  author: moravian-church
+  locus: both parts, the numbered hymns
+  role: tradition
+  confidence: assigned
+  note: The congregations' own hymnbook; what they sang, in the year the English congregations
+    were at their height.
+  source_file: moravian-church_collection-of-hymns-children-of-god_1754.txt
+- row_id: moravian-church_acta-fratrum-unitatis-in-anglia_1749--acta-fratrum-unitatis-in-anglia-1749
+  work: Acta Fratrum Unitatis in Anglia (1749)
+  author: moravian-church
+  locus: the numbered documents and the doctrinal articles
+  role: tradition
+  confidence: assigned
+  note: The church's official record of itself in the year of its parliamentary recognition.
+  source_file: moravian-church_acta-fratrum-unitatis-in-anglia_1749.txt
+- row_id: moravian-church_taegliche-loosungen-1766-deu_barby1766--die-taglichen-loosungen-der-bruder-gemeine-fur-das-jahr-1766
+  work: Die täglichen Loosungen der Brüder-Gemeine für das Jahr 1766
+  author: moravian-church
+  locus: whole year
+  role: tradition
+  confidence: assigned
+  note: The congregation's daily watchwords for one year, drawn by lot and printed by the
+    church; the practice in its own printed form.
+  source_file: moravian-church_taegliche-loosungen-1766-deu_barby1766.txt
+- row_id: moravian-church_periodical-accounts-missions-v1_1790--periodical-accounts-relating-to-the-missions-of-the-united
+  work: Periodical Accounts relating to the Missions of the United Brethren, vol. I (1790)
+  author: moravian-church
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: The missionaries' own letters and diary extracts, printed by their own Society; the
+    mission record at first hand.
+  source_file: moravian-church_periodical-accounts-missions-v1_1790.txt
+- row_id: oldendorp_geschichte-der-mission-caraibische-inseln-v1-deu_bossart1777--geschichte-der-mission-der-evangelischen-bruder-auf-den
+  work: Geschichte der Mission der evangelischen Brüder auf den caraibischen Inseln, erster
+    Theil (1777)
+  author: oldendorp
+  locus: whole part
+  role: tradition
+  confidence: assigned
+  note: The church's own history of its first mission, gathered on the islands by a member;
+    the German the census cites, with no public-domain English.
+  source_file: oldendorp_geschichte-der-mission-caraibische-inseln-v1-deu_bossart1777.txt
+- row_id: rimius_candid-narrative-of-the-herrnhuters_1753--a-candid-narrative-of-the-rise-and-progress-of-the
+  work: A Candid Narrative of the Rise and Progress of the Herrnhuters (1753)
+  author: rimius
+  locus: whole work
+  role: context
+  confidence: assigned
+  note: The chief English attack of the 1750s, by an outsider; context, not the community's
+    voice, and the text the Brethren's defences answer.
+  source_file: rimius_candid-narrative-of-the-herrnhuters_1753.txt
 - row_id: schultz-christopher_erlaeuterung-fuer-caspar-schwenckfeld-deu_benner1830--erlaeuterung-1771-2nd-ed-1830-2
   work: Erläuterung für Herrn Caspar Schwenckfeld (1830), passages on Zinzendorf and the Moravians
   author: schultz-christopher
@@ -45,6 +218,48 @@ works:
   note: Placed on one keyword hit (Zinzendorff at line 345) without reading the relevant chapters;
     Kriebel (1904) chapter VIII treats the relation in English.
   source_file: schultz-christopher_erlaeuterung-fuer-caspar-schwenckfeld-deu_benner1830.txt
+- row_id: spangenberg_exposition-of-christian-doctrine_latrobe1784--an-exposition-of-christian-doctrine-idea-fidei-fratrum-1779
+  work: An Exposition of Christian Doctrine (Idea Fidei Fratrum, 1779; English 1784)
+  author: spangenberg
+  locus: the numbered chapters and paragraphs
+  role: tradition
+  confidence: assigned
+  note: Spangenberg's systematic account of the Brethren's faith; the church's own second
+    voice beside Zinzendorf's.
+  source_file: spangenberg_exposition-of-christian-doctrine_latrobe1784.txt
+- row_id: spangenberg_life-of-zinzendorf_jackson1838--the-life-of-nicholas-lewis-count-zinzendorf-spangenberg-1772
+  work: The Life of Nicholas Lewis, Count Zinzendorf (Spangenberg, 1772-1775; abridged English
+    1838)
+  author: spangenberg
+  locus: whole work
+  role: tradition
+  confidence: assigned
+  note: An insider's life of the founder from the Unity's records; the community telling its
+    own origin story, documents quoted.
+  source_file: spangenberg_life-of-zinzendorf_jackson1838.txt
+- row_id: spener_pia-desideria-deu_koehler1841--pia-desideria-1675-german-leipzig-1841-edition-2
+  work: Pia Desideria (1675), German, Leipzig 1841 edition
+  author: spener
+  locus: whole work
+  role: antecedent
+  confidence: provisional
+  note: Zinzendorf was Spener's godson and Herrnhut's conventicle pattern descends from the
+    collegia pietatis Spener proposes here; provisional until the Moravian sources vendored
+    show how they argue from it.
+  source_file: spener_pia-desideria-deu_koehler1841.txt
+- row_id: unity-of-the-brethren_church-constitution_seifferth1866--church-constitution-of-the-bohemian-and-moravian-brethren-2
+  work: Church Constitution of the Bohemian and Moravian Brethren (Ratio Disciplinae, 1632/33)
+  author: unity-of-the-brethren
+  locus: whole volume
+  role: antecedent
+  confidence: assigned
+  note: 'English translation of the Ratio Disciplinae (1632/33), the old Unity''s order of
+    discipline that Herrnhut adopted in 1727 as the pattern for its own; the authority the
+    renewed church argued from. Seifferth''s 1866 translation was made for the Moravian Church
+    itself.
+
+    '
+  source_file: unity-of-the-brethren_church-constitution_seifferth1866.txt
 - row_id: unity-of-the-brethren_historie-tezkych-protivenstvi-cirkve-ceske-ces_1890--historie-o-t-k-ch-protivenstv-ch-c-rkve-esk-894-1632-with-th-3
   work: Historie o těžkých protivenstvích církve české, 894-1632 (with the Waldensian persecution
     of 1655)
@@ -59,3 +274,127 @@ works:
     to Comenius with Adam Hartmann; the title page names no author, so the author slug is
     the Unity. Placed on headings and a year-index read; not read in full.
   source_file: unity-of-the-brethren_historie-tezkych-protivenstvi-cirkve-ceske-ces_1890.txt
+- row_id: wesley-j_queries-humbly-proposed-to-count-zinzendorf_1755--queries-humbly-proposed-to-count-zinzendorf-1755
+  work: Queries humbly proposed to Count Zinzendorf (1755)
+  author: wesley-j
+  locus: whole pamphlet
+  role: context
+  confidence: assigned
+  note: Wesley's public interrogation of the Brethren's doctrine and hymns; an outside witness
+    who had once been inside Fetter Lane.
+  source_file: wesley-j_queries-humbly-proposed-to-count-zinzendorf_1755.txt
+- row_id: wesley-j_journal-v1_curnock1909--the-journal-of-the-rev-john-wesley-a-m-curnock-edition-vol-i-3
+  work: The Journal of the Rev. John Wesley, A.M. (Curnock edition), Vol. I -- the Georgia
+    years and the Moravians
+  author: wesley-j
+  locus: 'the voyage on the Simmonds and the Georgia journal, 1735-1737: the Moravian emigrants
+    aboard, the conversations with Spangenberg at Savannah, and the Moravian ordination Wesley
+    witnessed'
+  role: context
+  confidence: assigned
+  note: 'An outside witness inside the Brethren''s own meetings: Wesley''s first encounter
+    with the Moravians, in Georgia, told day by day in his own journal. Cross-link found by
+    header search of cic/texts (CORPUS-USE tier, same time-place).'
+  source_file: wesley-j_journal-v1_curnock1909.txt
+- row_id: wesley-j_journal-v2_curnock1909--the-journal-of-the-rev-john-wesley-standard-edition-vol-ii-2
+  work: The Journal of the Rev. John Wesley, Standard Edition vol. II (from September 1738)
+  author: wesley-j
+  locus: the entries of 1738-1740 on the Fetter Lane society, Molther's stillness and the
+    separation from the Moravians
+  role: context
+  confidence: assigned
+  note: The Fetter Lane breach of 1740 told from Wesley's side, day by day; outside witness
+    to the London Moravians.
+  source_file: wesley-j_journal-v2_curnock1909.txt
+- row_id: zinzendorf_manual-of-doctrine_1742--a-manual-of-doctrine-zinzendorf-s-second-catechism-english
+  work: A Manual of Doctrine (Zinzendorf's second catechism; English 1742)
+  author: zinzendorf
+  locus: whole work
+  role: tradition
+  confidence: assigned
+  note: The community's own teaching instrument; what a member was expected to know, in scripture
+    answers.
+  source_file: zinzendorf_manual-of-doctrine_1742.txt
+- row_id: zinzendorf_berlinische-reden-deu_clemens1757--berlinische-reden-berlin-discourses-of-1738-author-revised
+  work: Berlinische Reden (Berlin discourses of 1738; author-revised edition, 1757)
+  author: zinzendorf
+  locus: whole work
+  role: tradition
+  confidence: assigned
+  note: The founder's own German, revised in his own hand; the original behind the English
+    discourses.
+  source_file: zinzendorf_berlinische-reden-deu_clemens1757.txt
+- row_id: zinzendorf_sixteen-discourses-redemption-berlin_1740--dedication-to-the-archbishops-bishops-and-clergy-with-some
+  work: Dedication to the Archbishops, Bishops and Clergy, with some account of the Moravian
+    Brethren (1740)
+  author: zinzendorf
+  locus: the dedication and the account of the Brethren before the discourses
+  role: context
+  confidence: provisional
+  note: The English editor's appeal to the established clergy on the Brethren's behalf; the
+    Brethren explaining themselves to the Church of England in 1740. Provisional for the Georgian
+    church.
+  source_file: zinzendorf_sixteen-discourses-redemption-berlin_1740.txt
+- row_id: zinzendorf_sammlung-oeffentlicher-reden-pennsylvania-deu_buedingen1746--eine-sammlung-offentlicher-reden-pennsylvania-discourses-of
+  work: Eine Sammlung öffentlicher Reden (Pennsylvania discourses of 1742; Büdingen 1746,
+    part 1)
+  author: zinzendorf
+  locus: whole part
+  role: tradition
+  confidence: assigned
+  note: Zinzendorf preaching in Pennsylvania in 1742, dated and placed, in his own German.
+  source_file: zinzendorf_sammlung-oeffentlicher-reden-pennsylvania-deu_buedingen1746.txt
+- row_id: zinzendorf_maxims-theological-ideas-and-sentences_gambold1751--maxims-theological-ideas-and-sentences-1751
+  work: Maxims, Theological Ideas and Sentences (1751)
+  author: zinzendorf
+  locus: the numbered maxims under their topical headings, and the author's letter
+  role: tradition
+  confidence: assigned
+  note: Zinzendorf's sentences in Gambold's selection and English; the author's annexed letter
+    makes it his own.
+  source_file: zinzendorf_maxims-theological-ideas-and-sentences_gambold1751.txt
+- row_id: zinzendorf_seven-sermons-godhead-of-the-lamb_1742--seven-sermons-on-the-godhead-of-the-lamb-herrnhaag-1741
+  work: Seven Sermons on the Godhead of the Lamb (Herrnhaag, 1741; English 1742)
+  author: zinzendorf
+  locus: whole work
+  role: tradition
+  confidence: assigned
+  note: Dated Herrnhaag sermons from the 1740s; the devotional idiom the community later named
+    and corrected.
+  source_file: zinzendorf_seven-sermons-godhead-of-the-lamb_1742.txt
+- row_id: zinzendorf_sixteen-discourses-on-jesus-christ_1750--sixteen-discourses-on-jesus-christ-our-lord-second-berlin
+  work: Sixteen Discourses on Jesus Christ our Lord (second Berlin series; English 1750)
+  author: zinzendorf
+  locus: whole work
+  role: tradition
+  confidence: assigned
+  note: The Brethren's christology from its founder's mouth, in the edition the English congregations
+    used.
+  source_file: zinzendorf_sixteen-discourses-on-jesus-christ_1750.txt
+- row_id: zinzendorf_sixteen-discourses-redemption-berlin_1740--sixteen-discourses-on-the-redemption-of-man-berlin
+  work: Sixteen Discourses on the Redemption of Man (Berlin discourses, 1738; English 1740)
+  author: zinzendorf
+  locus: the sixteen discourses
+  role: tradition
+  confidence: assigned
+  note: Zinzendorf's own voice on the atonement, the Brethren's central theme, as London first
+    heard it.
+  source_file: zinzendorf_sixteen-discourses-redemption-berlin_1740.txt
+- row_id: zinzendorf_twenty-one-discourses-augsburg-confession_okely1753--twenty-one-discourses-upon-the-augsburg-confession-english
+  work: Twenty One Discourses upon the Augsburg Confession (English, 1753)
+  author: zinzendorf
+  locus: the twenty-one discourses and the prefixed Synodal Writing
+  role: tradition
+  confidence: assigned
+  note: How the Brethren read the Lutheran confession as their own; the doctrinal defence
+    of 1753 in the founder's words.
+  source_file: zinzendorf_twenty-one-discourses-augsburg-confession_okely1753.txt
+- row_id: zinzendorf_un-ymadrodd-ar-bumtheg-cym_williams1760--un-ymadrodd-ar-bumtheg-ynghylch-jesu-grist-welsh-1760
+  work: Un Ymadrodd ar bumtheg ynghylch Jesu Grist (Welsh, 1760)
+  author: zinzendorf
+  locus: the sixteen discourses
+  role: tradition
+  confidence: assigned
+  note: Zinzendorf's own discourses, the same series vendored in English, in a Welsh translation
+    for the Brethren's Welsh hearers.
+  source_file: zinzendorf_un-ymadrodd-ar-bumtheg-cym_williams1760.txt

@@ -1,0 +1,12 @@
+source_file: zinzendorf_maxims-theological-ideas-and-sentences_gambold1751.txt
+assignments:
+- row_id: zinzendorf_maxims-theological-ideas-and-sentences_gambold1751--maxims-theological-ideas-and-sentences-1751
+  work: Maxims, Theological Ideas and Sentences (1751)
+  author: zinzendorf
+  locus: the numbered maxims under their topical headings, and the author's letter
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: tradition
+  confidence: assigned
+  note: Zinzendorf's sentences in Gambold's selection and English; the author's annexed letter makes it
+    his own.

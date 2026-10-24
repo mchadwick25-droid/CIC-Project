@@ -1,0 +1,11 @@
+source_file: shakers_millennial-praises-gospel-hymns_1813.txt
+assignments:
+- row_id: shakers_millennial-praises-gospel-hymns_1813--millennial-praises-1813
+  work: Millennial Praises (1813)
+  author: shakers
+  locus: the Preface and the four parts of hymns
+  atlas_ids:
+  - shakers
+  role: tradition
+  confidence: assigned
+  note: The Society's own hymnal, approved by the Ministry; worship in its own words.

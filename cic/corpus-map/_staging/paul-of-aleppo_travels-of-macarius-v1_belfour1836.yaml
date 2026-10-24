@@ -1,0 +1,35 @@
+source_file: paul-of-aleppo_travels-of-macarius-v1_belfour1836.txt
+assignments:
+- row_id: paul-of-aleppo_travels-of-macarius-v1_belfour1836--the-travels-of-macarius-paul-of-aleppo-vol-1-aleppo-to
+  work: 'The Travels of Macarius (Paul of Aleppo), vol. 1: Aleppo to Constantinople, Moldavia and Wallachia'
+  author: paul-of-aleppo
+  locus: Books I-IV; the translator's dedication excluded
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-1650-1821
+  role: tradition
+  confidence: assigned
+  note: An Orthodox archdeacon describing the Orthodox millet's patriarchate, bishops, Phanariot-era princes
+    and worship from inside, in the early 1650s.
+- row_id: paul-of-aleppo_travels-of-macarius-v1_belfour1836--the-travels-of-macarius-paul-of-aleppo-vol-1
+  work: The Travels of Macarius (Paul of Aleppo), vol. 1
+  author: paul-of-aleppo
+  locus: the Aleppo and Syrian opening books and every passage on the Antiochian patriarchate
+  atlas_ids:
+  - melkite-greek-catholic-church
+  role: antecedent
+  confidence: provisional
+  note: The Arabic-speaking Byzantine-rite church of Antioch two generations before the 1724 split, in
+    its own patriarch's household's words; provisional because the Melkite world's own texts are not yet
+    shown to draw on it.
+- row_id: paul-of-aleppo_travels-of-macarius-v1_belfour1836--the-travels-of-macarius-paul-of-aleppo-vol-1-the-cossack
+  work: 'The Travels of Macarius (Paul of Aleppo), vol. 1: the Cossack country, Kiev and the arrival in
+    Moscow'
+  author: paul-of-aleppo
+  locus: Books V-VIII
+  atlas_ids:
+  - russian-church-nikon-to-holy-synod
+  - the-kyiv-mohyla-orthodox-revival
+  role: context
+  confidence: provisional
+  note: Kiev's monasteries and Nikon's Moscow seen by an Eastern patriarch's archdeacon; context for the
+    Russian and Kyivan worlds, provisional.

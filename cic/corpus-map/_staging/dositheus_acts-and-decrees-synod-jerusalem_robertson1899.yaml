@@ -57,6 +57,18 @@ assignments:
     note: Placed on
       the entry's window (1650-1821). The Synod of Jerusalem of 1672 opens this entry's window; English
       version.
+  - row_id: dositheus_acts-and-decrees-synod-jerusalem_robertson1899--the-confession-of-cyril-lucar-eighteen-chapters-and-four-3
+    work: "The Confession of Cyril Lucar (eighteen chapters and four questions), as printed in Robertson's appendix"
+    author: lucaris
+    locus: "Appendix from file line 6841, the Confession from 6845, Chapter I at 6868, Chapter XVIII at 7751"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-1650-1821
+    role: context
+    confidence: assigned
+    note: >
+      The Lucar Confession as Robertson prints it in the appendix to the 1672 Synod's acts: the
+      text the Synod's own decrees answer one by one. Context for the entry's opening act, in
+      English.
 
   - work: Synodal decree of Constantinople against Lucar's chapters, with Mogila's signature for the Church
       in Little Russia

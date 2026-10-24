@@ -1,0 +1,33 @@
+source_file: williams-pantycelyn_gweithiau-v2-hymnau-a-rhyddiaith-cym_cynhafal-jones1891.txt
+assignments:
+- row_id: williams-pantycelyn_gweithiau-v2-hymnau-a-rhyddiaith-cym_cynhafal-jones1891--the-hymns-aleluia-y-mor-o-wydr-ffarwel-weledig-gloria-in
+  work: 'The hymns: Aleluia, Y Môr o Wydr, Ffarwel Weledig, Gloria in Excelsis, Rhai Hymnau Newyddion,
+    Hosannah to the Son of David'
+  author: williams-pantycelyn
+  locus: the hymn collections
+  atlas_ids:
+  - the-welsh-revival-tradition
+  role: tradition
+  confidence: assigned
+  note: The revival's hymnody as Williams printed it for the societies, Welsh and English; the census's
+    'national songbook'.
+- row_id: williams-pantycelyn_gweithiau-v2-hymnau-a-rhyddiaith-cym_cynhafal-jones1891--templum-experientiae-apertum-neu-ddrws-y-society-profiad
+  work: Templum Experientiae Apertum, neu Ddrws y Society Profiad (1777)
+  author: williams-pantycelyn
+  locus: Drws y Society Profiad, seven dialogues
+  atlas_ids:
+  - the-welsh-revival-tradition
+  role: tradition
+  confidence: assigned
+  note: The movement's own manual for the experience meeting, its rules, questions and discipline; the
+    census's central structural source.
+- row_id: williams-pantycelyn_gweithiau-v2-hymnau-a-rhyddiaith-cym_cynhafal-jones1891--llythyr-martha-philopur-ateb-philo-evangelius-the-sermons
+  work: Llythyr Martha Philopur, Ateb Philo Evangelius, the sermons and other prose
+  author: williams-pantycelyn
+  locus: the remaining prose works and sermons
+  atlas_ids:
+  - the-welsh-revival-tradition
+  role: tradition
+  confidence: assigned
+  note: Williams writing in the persons of a convert (Martha Philopur) and a minister (Philo Evangelius)
+    about the revival and its experience; the movement explaining itself.

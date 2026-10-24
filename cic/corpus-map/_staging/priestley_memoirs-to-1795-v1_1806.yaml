@@ -1,0 +1,21 @@
+source_file: priestley_memoirs-to-1795-v1_1806.txt
+assignments:
+- row_id: priestley_memoirs-to-1795-v1_1806--memoirs-of-dr-joseph-priestley-to-the-year-1795-written-by
+  work: Memoirs of Dr. Joseph Priestley to the year 1795, written by himself
+  author: priestley
+  locus: the memoir to 1795
+  atlas_ids:
+  - english-old-dissent
+  role: tradition
+  confidence: assigned
+  note: The Dissenting academies and the drift from orthodoxy, in the words of a minister the census names.
+- row_id: priestley_memoirs-to-1795-v1_1806--memoirs-of-dr-joseph-priestley-the-american-years
+  work: Memoirs of Dr. Joseph Priestley, the American years
+  author: priestley
+  locus: the memoir's last pages and the son's continuation
+  atlas_ids:
+  - early-american-unitarians-universalists
+  role: context
+  confidence: provisional
+  note: Priestley's emigration and preaching in Pennsylvania; provisional for the American Unitarian world.
+    The continuation is his son's, not his.

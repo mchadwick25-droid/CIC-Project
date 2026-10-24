@@ -1,0 +1,22 @@
+source_file: cheap-repository_tracts-v1-1795_marshall1797.txt
+assignments:
+- row_id: cheap-repository_tracts-v1-1795_marshall1797--cheap-repository-tracts-published-during-the-year-1795-vol-i
+  work: Cheap Repository Tracts, published during the year 1795, vol. I
+  author: cheap-repository
+  locus: whole volume; per-tract authorship not attributed
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: tradition
+  confidence: assigned
+  note: The evangelical Anglican tract enterprise led by Hannah More, in its first year; mixed authorship,
+    More's tracts signed 'Z'.
+- row_id: cheap-repository_tracts-v1-1795_marshall1797--cheap-repository-tracts-published-during-the-year-1795-vol-i-2
+  work: Cheap Repository Tracts, published during the year 1795, vol. I
+  author: cheap-repository
+  locus: the Sunday readings
+  atlas_ids:
+  - the-sunday-school-and-bible-institute-movement
+  role: antecedent
+  confidence: provisional
+  note: Cheap religious reading for the newly literate poor, the readership the Sunday-school movement
+    made; provisional for the later world.

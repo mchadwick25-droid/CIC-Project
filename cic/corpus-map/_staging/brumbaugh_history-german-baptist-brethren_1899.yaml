@@ -1,0 +1,43 @@
+source_file: brumbaugh_history-german-baptist-brethren_1899.txt
+authors_ruled:
+  hochmann:
+    kind: metadata-omission
+    evidence: 'Chapter VI prints "Hochmann''s Confession of Faith, written in prison at Detmold in 1702"
+      in German facsimile and in Brumbaugh''s literal translation, naming Ernst Christoph Hochmann von
+      Hochenau as its author; the file''s leading name slug is Brumbaugh, the volume''s compiler.
+
+      '
+    from_file: brumbaugh_history-german-baptist-brethren_1899.txt
+assignments:
+- row_id: brumbaugh_history-german-baptist-brethren_1899--hochmann-von-hochenau-confession-of-faith-detmold-1702
+  work: Hochmann von Hochenau, Confession of Faith (Detmold, 1702), German facsimile with literal English
+  author: hochmann
+  locus: chapter VI, from printed page 83; the German facsimile precedes the English
+  atlas_ids:
+  - radical-pietism-and-the-brethren-dunkers-ephrata
+  role: tradition
+  confidence: assigned
+  note: The radical Pietist preacher whose confession, written in prison, shaped Mack's circle at Schwarzenau;
+    his own words in English. German facsimile garbled in this scan.
+- row_id: brumbaugh_history-german-baptist-brethren_1899--hochmann-von-hochenau-confession-of-faith-detmold-1702-2
+  work: Hochmann von Hochenau, Confession of Faith (Detmold, 1702), German facsimile with literal English
+  author: hochmann
+  locus: chapter VI, from printed page 83
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: context
+  confidence: provisional
+  note: The radical wing's confession, from a preacher formed at Halle under Francke and then separated
+    from the church; the view from Halle's radical edge, not Halle's own.
+- row_id: brumbaugh_history-german-baptist-brethren_1899--early-germantown-brethren-records-and-mack-family-documents
+  work: Early Germantown Brethren records and Mack family documents as printed by Brumbaugh
+  author: brumbaugh
+  locus: 'the chapters on Germantown: Mack''s letters and will, the Germantown Poor Book, Annual Meeting
+    minute extracts'
+  atlas_ids:
+  - radical-pietism-and-the-brethren-dunkers-ephrata
+  role: tradition
+  confidence: provisional
+  note: Congregational and family documents reproduced in English inside a scholarly history; provisional
+    because the surrounding narrative is Brumbaugh's and each document's wording must be checked against
+    his stated source.

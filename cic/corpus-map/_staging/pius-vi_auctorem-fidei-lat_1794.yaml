@@ -1,0 +1,21 @@
+source_file: pius-vi_auctorem-fidei-lat_1794.txt
+assignments:
+- row_id: pius-vi_auctorem-fidei-lat_1794--auctorem-fidei-28-august-1794
+  work: Auctorem fidei (28 August 1794)
+  author: pius-vi
+  locus: whole constitution
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: tradition
+  confidence: assigned
+  note: The Holy See against the Synod of Pistoia; the propositions quoted in it give the reformers' positions
+    in condemned form.
+- row_id: pius-vi_auctorem-fidei-lat_1794--auctorem-fidei-28-august-1794-2
+  work: Auctorem fidei (28 August 1794)
+  author: pius-vi
+  locus: whole constitution
+  atlas_ids:
+  - church-of-utrecht
+  role: context
+  confidence: provisional
+  note: Pistoia drew on the Utrecht appellant milieu; the condemnation reached that church's allies.

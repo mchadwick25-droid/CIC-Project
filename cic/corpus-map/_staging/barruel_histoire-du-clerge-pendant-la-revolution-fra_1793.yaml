@@ -1,0 +1,12 @@
+source_file: barruel_histoire-du-clerge-pendant-la-revolution-fra_1793.txt
+assignments:
+- row_id: barruel_histoire-du-clerge-pendant-la-revolution-fra_1793--histoire-du-clerge-pendant-la-revolution-francoise-1793
+  work: Histoire du clergé pendant la Révolution françoise (1793)
+  author: barruel
+  locus: whole work
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: tradition
+  confidence: assigned
+  note: The non-juring clergy telling their persecution; partisan and written within a year of the massacres,
+    which is both its value and its limit.

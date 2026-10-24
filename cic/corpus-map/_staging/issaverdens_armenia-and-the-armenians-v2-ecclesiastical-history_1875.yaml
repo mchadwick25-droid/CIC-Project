@@ -1,0 +1,23 @@
+source_file: issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt
+assignments:
+- row_id: issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875--armenia-and-the-armenians-vol-ii-the-eighteenth-century
+  work: 'Armenia and the Armenians, vol. II: the eighteenth-century chapters (Mechitar, the patriarchs
+    at Constantinople, the catholicoi)'
+  author: issaverdens
+  locus: the last third of the volume (the passages dated 1700 to the 1750s)
+  atlas_ids:
+  - armenian-christianity-era-8
+  role: tradition
+  confidence: provisional
+  note: The Mechitarist congregation's own retelling of its founding period, a century and more later;
+    provisional as tradition because it is retrospective.
+- row_id: issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875--armenia-and-the-armenians-vol-ii-1875-as-a-zartonk-era
+  work: Armenia and the Armenians, vol. II (1875), as a Zartonk-era Mechitarist work
+  author: issaverdens
+  locus: whole volume
+  atlas_ids:
+  - armenian-christianity-zartonk
+  role: tradition
+  confidence: provisional
+  note: Printed at San Lazzaro in 1875, inside the Zartonk window; the congregation presenting the national
+    church to English readers.

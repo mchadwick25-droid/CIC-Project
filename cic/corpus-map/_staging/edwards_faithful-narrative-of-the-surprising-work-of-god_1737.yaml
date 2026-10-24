@@ -1,0 +1,12 @@
+source_file: edwards_faithful-narrative-of-the-surprising-work-of-god_1737.txt
+assignments:
+- row_id: edwards_faithful-narrative-of-the-surprising-work-of-god_1737--a-faithful-narrative-of-the-surprizing-work-of-god-edwards
+  work: A Faithful Narrative of the Surprizing Work of God (Edwards, 1737)
+  author: edwards
+  locus: whole work; the Hutchinson and Bartlet case histories under their names
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: tradition
+  confidence: assigned
+  note: The Northampton revival of 1734-35 in Edwards's own account, with its case histories of a young
+    woman and a child.

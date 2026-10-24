@@ -1,0 +1,12 @@
+source_file: molinos_spiritual-guide_1688.txt
+assignments:
+- row_id: molinos_spiritual-guide_1688--the-spiritual-guide-english-translation-1688
+  work: The Spiritual Guide, English translation (1688)
+  author: molinos
+  locus: the Guide and the Treatise of daily communion; the translator's preface excluded
+  atlas_ids:
+  - quietist-controversy-molinos-guyon
+  role: tradition
+  confidence: assigned
+  note: The same book in contemporary English; the anonymous translator's preface is an English Protestant
+    reading of the affair and stays outside the assignment.

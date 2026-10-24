@@ -1,0 +1,22 @@
+source_file: rimius_candid-narrative-of-the-herrnhuters_1753.txt
+assignments:
+- row_id: rimius_candid-narrative-of-the-herrnhuters_1753--a-candid-narrative-of-the-rise-and-progress-of-the
+  work: A Candid Narrative of the Rise and Progress of the Herrnhuters (1753)
+  author: rimius
+  locus: whole work
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: context
+  confidence: assigned
+  note: The chief English attack of the 1750s, by an outsider; context, not the community's voice, and
+    the text the Brethren's defences answer.
+- row_id: rimius_candid-narrative-of-the-herrnhuters_1753--a-candid-narrative-of-the-rise-and-progress-of-the-2
+  work: A Candid Narrative of the Rise and Progress of the Herrnhuters (1753)
+  author: rimius
+  locus: the dedication to the Archbishop of Canterbury and the observations on their politics
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: context
+  confidence: provisional
+  note: An appeal to the established church against a newly recognised rival; the Georgian church's anti-Moravian
+    moment. Provisional.

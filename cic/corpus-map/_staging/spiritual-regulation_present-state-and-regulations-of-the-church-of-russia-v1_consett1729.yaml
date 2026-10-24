@@ -1,0 +1,27 @@
+source_file: spiritual-regulation_present-state-and-regulations-of-the-church-of-russia-v1_consett1729.txt
+authors_ruled:
+  consett:
+    kind: metadata-omission
+    evidence: The title page reads 'By Tho. Consett, M.A., Late Chaplain to the British Factory in Russia';
+      his preface follows the errata. The host names the church as creator.
+assignments:
+- row_id: spiritual-regulation_present-state-and-regulations-of-the-church-of-russia-v1_consett1729--the-spiritual-regulation-1721-and-its-appendix-1722-english
+  work: The Spiritual Regulation (1721) and its Appendix (1722), English of 1729
+  author: spiritual-regulation
+  locus: the Regulation, the signatories and the Appendix; Consett's preface excluded
+  atlas_ids:
+  - russian-church-nikon-to-holy-synod
+  role: tradition
+  confidence: assigned
+  note: The law under which the church was governed from 1721; Feofan Prokopovich drafted it and the bishops
+    signed it, so it speaks for the Synodal church itself.
+- row_id: spiritual-regulation_present-state-and-regulations-of-the-church-of-russia-v1_consett1729--consett-s-preface-to-the-present-state-and-regulations-of
+  work: Consett's preface to The Present State and Regulations of the Church of Russia (1729)
+  author: consett
+  locus: the preface
+  atlas_ids:
+  - russian-church-nikon-to-holy-synod
+  role: context
+  confidence: assigned
+  note: An English chaplain at St Petersburg describing the church and Peter's reform as he saw them in
+    the 1720s.

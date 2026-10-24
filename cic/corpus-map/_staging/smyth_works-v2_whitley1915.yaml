@@ -1,0 +1,24 @@
+source_file: smyth_works-v2_whitley1915.txt
+assignments:
+- row_id: smyth_works-v2_whitley1915--the-character-of-the-beast-1609-and-paralleles-censures
+  work: The Character of the Beast (1609) and Paralleles, Censures, Observations (1609)
+  author: smyth
+  locus: the two works of 1609
+  atlas_ids:
+  - the-baptists
+  role: tradition
+  confidence: assigned
+  note: The founding argument for believers' baptism, written by the man who began the first English Baptist
+    congregation.
+- row_id: smyth_works-v2_whitley1915--corde-credimus-propositions-and-conclusions-defence-of-ries
+  work: Corde Credimus, Propositions and Conclusions, Defence of Ries' Confession, Retractations and Confirmations
+    (1610-1612)
+  author: smyth
+  locus: the later confessions and the Retractations
+  atlas_ids:
+  - the-baptists
+  - the-anabaptist-movements
+  role: tradition
+  confidence: provisional
+  note: Smyth's move toward the Waterlander Mennonites and his last words; the documents on which the
+    census's contested question of Anabaptist contact turns. Provisional for the Anabaptist world.

@@ -1,0 +1,35 @@
+source_file: french-reformed-synods_synodes-du-desert-t1-fra_hugues1885.txt
+authors_ruled:
+  french-reformed-synods:
+    kind: metadata-omission
+    evidence: 'The title page presents the acts of the synods of the Reformed churches of France held
+      in the Desert, with no personal author. The institutional slug already used in the corpus map for
+      the French Reformed synods (the-huguenots); not yet in cic/texts/AUTHORS.md as a file creator.
+
+      '
+  hugues-edmond:
+    kind: metadata-omission
+    evidence: 'The title page reads ''publiés avec une introduction par Edmond Hugues''. Plain-text vendored
+      file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: french-reformed-synods_synodes-du-desert-t1-fra_hugues1885--actes-et-reglements-des-synodes-du-desert-1715-1750
+  work: Actes et règlements des synodes du Désert, 1715-1750
+  author: french-reformed-synods
+  locus: the acts; Hugues's introduction as a separate row below
+  atlas_ids:
+  - church-of-the-desert-huguenots
+  role: tradition
+  confidence: assigned
+  note: The church governing itself in hiding, synod by synod; its own decisions in its own words.
+- row_id: french-reformed-synods_synodes-du-desert-t1-fra_hugues1885--introduction-to-les-synodes-du-desert-1885
+  work: Introduction to Les Synodes du Désert (1885)
+  author: hugues-edmond
+  locus: the introduction in roman pages before the acts
+  atlas_ids:
+  - church-of-the-desert-huguenots
+  role: context
+  confidence: assigned
+  note: Hugues's history of the restoration from the synodal record; scholarship, kept because it frames
+    the acts.

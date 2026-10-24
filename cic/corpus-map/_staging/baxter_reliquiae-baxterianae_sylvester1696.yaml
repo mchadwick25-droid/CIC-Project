@@ -1,0 +1,33 @@
+source_file: baxter_reliquiae-baxterianae_sylvester1696.txt
+assignments:
+- row_id: baxter_reliquiae-baxterianae_sylvester1696--reliquiae-baxterianae-part-ii-iii-the-restoration-the-savoy
+  work: 'Reliquiae Baxterianae, Part II-III: the Restoration, the Savoy Conference, the ejection of 1662
+    and the Nonconformists'' sufferings'
+  author: baxter
+  locus: the narrative from 1660 onward
+  atlas_ids:
+  - english-old-dissent
+  role: tradition
+  confidence: assigned
+  note: The Great Ejection and the first generation of Dissent, told by the minister the census names
+    first.
+- row_id: baxter_reliquiae-baxterianae_sylvester1696--reliquiae-baxterianae-part-i-the-civil-war-and-interregnum
+  work: 'Reliquiae Baxterianae, Part I: the Civil War and Interregnum'
+  author: baxter
+  locus: Part I
+  atlas_ids:
+  - puritanism
+  role: tradition
+  confidence: provisional
+  note: Baxter's Puritan ministry at Kidderminster and the army years, before the world's window opens
+    in 1662; provisional for the Puritanism world.
+- row_id: baxter_reliquiae-baxterianae_sylvester1696--reliquiae-baxterianae-the-conference-papers-with-the-bishops
+  work: 'Reliquiae Baxterianae: the conference papers with the bishops (1660-1662)'
+  author: baxter
+  locus: the Savoy Conference and related papers
+  atlas_ids:
+  - english-old-dissent
+  - restoration-georgian-church-of-england
+  role: context
+  confidence: provisional
+  note: The Restoration settlement from the losing side; provisional for the Restoration church.

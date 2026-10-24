@@ -30,7 +30,7 @@ text: >-
   To us Jesus is the Logos - God's own Word, through whom all things
   were made - come in flesh. Clement opens with him as the New Song that
   makes men out of stones and puts the world back in tune. Athanasius,
-  still a young man and writing about 318, put the same conviction in
+  in a book usually dated about 318, put the same conviction in
   one sentence: he was made man that we might be made God. Jesus is God's own self-expression, entering what
   he made in order to remake it. His death is the doctor entering the
   sickness. His resurrection - the anastasis - is unbreakable life let

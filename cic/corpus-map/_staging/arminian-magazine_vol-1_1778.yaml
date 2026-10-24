@@ -1,0 +1,21 @@
+source_file: arminian-magazine_vol-1_1778.txt
+assignments:
+- row_id: arminian-magazine_vol-1_1778--the-arminian-magazine-vol-i-1778-the-lay-narratives-letters
+  work: 'The Arminian Magazine, vol. I (1778): the lay narratives, letters and preachers'' lives'
+  author: arminian-magazine
+  locus: the lives, letters and experience accounts in the twelve numbers
+  atlas_ids:
+  - the-methodist-revival
+  role: tradition
+  confidence: assigned
+  note: Ordinary Methodists and their preachers in their own letters and accounts, as Wesley printed them
+    month by month.
+- row_id: arminian-magazine_vol-1_1778--the-arminian-magazine-vol-i-1778-the-treatises-on-universal
+  work: 'The Arminian Magazine, vol. I (1778): the treatises on Universal Redemption'
+  author: arminian-magazine
+  locus: the treatise extracts opening each number
+  atlas_ids:
+  - the-methodist-revival
+  role: tradition
+  confidence: assigned
+  note: The connexion's Arminian polemic as Wesley chose to print it; the doctrinal programme of the magazine.

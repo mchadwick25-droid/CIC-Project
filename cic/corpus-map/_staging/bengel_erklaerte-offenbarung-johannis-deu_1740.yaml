@@ -1,0 +1,12 @@
+source_file: bengel_erklaerte-offenbarung-johannis-deu_1740.txt
+assignments:
+- row_id: bengel_erklaerte-offenbarung-johannis-deu_1740--erklarte-offenbarung-johannis-1740
+  work: Erklärte Offenbarung Johannis (1740)
+  author: bengel
+  locus: whole work; by Revelation chapter and verse
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: tradition
+  confidence: assigned
+  note: Württemberg Pietism's eschatology in Bengel's own words; rough Fraktur OCR, edition year to be
+    confirmed against the scan.

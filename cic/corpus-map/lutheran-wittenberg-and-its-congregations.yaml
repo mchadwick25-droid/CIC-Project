@@ -28,6 +28,15 @@ works:
 
     '
   source_file: anjou_history-of-the-reformation-in-sweden_mason1859.txt
+- row_id: arndt_true-christianity_boehm-schaeffer1868--true-christianity-wahres-christentum-bohm-schaeffer-english-3
+  work: True Christianity (Wahres Christentum), Böhm-Schaeffer English 1868
+  author: arndt
+  locus: whole work
+  role: context
+  confidence: provisional
+  note: Arndt (1555-1621) is Lutheran orthodoxy's own devotional writer, born within that
+    world's window and writing just after it closes; provisional placement for a later pass.
+  source_file: arndt_true-christianity_boehm-schaeffer1868.txt
 - row_id: bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912--konkordieboken-in-swedish
   work: Konkordieboken (the Book of Concord, Concordia pia) in the Swedish tradition of Broocman's
     1730 translation, as revised for Bensow's 1912 edition
@@ -601,3 +610,12 @@ works:
 
     '
   source_file: yelverton_mass-in-sweden-lat-swe-eng_yelverton1920.txt
+- row_id: zinzendorf_twenty-one-discourses-augsburg-confession_okely1753--twenty-one-discourses-upon-the-augsburg-confession-english-2
+  work: Twenty One Discourses upon the Augsburg Confession (English, 1753)
+  author: zinzendorf
+  locus: whole work
+  role: transmission
+  confidence: provisional
+  note: An eighteenth-century reception of the Augsburg Confession by a church that claimed
+    it; out of window for Wittenberg, so transmission, provisional.
+  source_file: zinzendorf_twenty-one-discourses-augsburg-confession_okely1753.txt

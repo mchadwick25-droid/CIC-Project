@@ -1,0 +1,22 @@
+source_file: zinzendorf_un-ymadrodd-ar-bumtheg-cym_williams1760.txt
+assignments:
+- row_id: zinzendorf_un-ymadrodd-ar-bumtheg-cym_williams1760--un-ymadrodd-ar-bumtheg-ynghylch-jesu-grist-welsh-1760
+  work: Un Ymadrodd ar bumtheg ynghylch Jesu Grist (Welsh, 1760)
+  author: zinzendorf
+  locus: the sixteen discourses
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: tradition
+  confidence: assigned
+  note: Zinzendorf's own discourses, the same series vendored in English, in a Welsh translation for the
+    Brethren's Welsh hearers.
+- row_id: zinzendorf_un-ymadrodd-ar-bumtheg-cym_williams1760--un-ymadrodd-ar-bumtheg-welsh-1760-as-read-in-wales
+  work: Un Ymadrodd ar bumtheg (Welsh, 1760) as read in Wales
+  author: zinzendorf
+  locus: whole work, with the added hymns
+  atlas_ids:
+  - the-welsh-revival-tradition
+  role: context
+  confidence: needs-ruling
+  note: Whether the Moravian mission in Wales belongs inside the Welsh revival world or only beside it
+    is a placement question for the lead; named, not decided.

@@ -42,3 +42,30 @@ assignments:
     note: Written in
       the Orthodox Kyivan church that the Union of Brest (1596) divided. Placed on the entry's window and
       place; the file's own text was not checked for its treatment of the union, so the fit is provisional.
+  - row_id: mogila_orthodox-confession_overbeck1898--the-orthodox-confession-of-the-catholic-and-apostolic-4
+    work: "The Orthodox Confession of the Catholic and Apostolic Eastern Church (Confessio Orthodoxa), English version"
+    author: mogila
+    locus: "Part I (Faith) from file line 472, Part II (Hope) from 4036, Part III (Charity) from 5444; Robertson's notice (line 107) and Overbeck's preface (line 145) are editorial"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-1650-1821
+    role: tradition
+    confidence: assigned
+    note: >
+      The Orthodox Confession approved at Jassy (1642) and by the four patriarchs; the Synod of
+      Jerusalem of 1672, which opens this entry's window, receives it as the Eastern Church's
+      confession (Robertson's 1899 translation of the Synod's acts, vendored, carries that
+      reception). The confession the Greek church taught and printed through this whole window.
+      English version of 1898.
+  - row_id: mogila_orthodox-confession_overbeck1898--the-orthodox-confession-of-the-catholic-and-apostolic-5
+    work: "The Orthodox Confession of the Catholic and Apostolic Eastern Church (Confessio Orthodoxa), English version"
+    author: mogila
+    locus: "Part I (Faith) from file line 472, Part II (Hope) from 4036, Part III (Charity) from 5444; Robertson's notice (line 107) and Overbeck's preface (line 145) are editorial"
+    atlas_ids:
+      - russian-church-nikon-to-holy-synod
+    role: tradition
+    confidence: provisional
+    note: >
+      The Confession was translated into Church Slavonic and printed at Moscow in 1696 under
+      Patriarch Adrian, and served the Russian Church as its standard confession through the
+      Synodal period. Placed on that reception; the vendored file is the Greek-based English
+      version, and the Moscow 1696 text itself is not vendored, so the fit is provisional.

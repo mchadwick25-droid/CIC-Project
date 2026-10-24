@@ -1,0 +1,18 @@
+source_file: hargrove_sermon-on-the-leading-doctrines-of-the-new-jerusalem-church_1803.txt
+authors_ruled:
+  hargrove:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By John Hargrove, Minister of the New Jerusalem Church, Baltimore''.
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: hargrove_sermon-on-the-leading-doctrines-of-the-new-jerusalem-church_1803--the-substance-of-a-sermon-on-the-leading-doctrines-of-the
+  work: The Substance of a Sermon on the Leading Doctrines of the New Jerusalem Church (1803)
+  author: hargrove
+  locus: whole work
+  atlas_ids:
+  - swedenborgian-new-church
+  role: tradition
+  confidence: assigned
+  note: The Baltimore church's minister speaking for the New Church in America.

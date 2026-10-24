@@ -1,0 +1,39 @@
+source_file: church-of-utrecht_recueil-de-divers-temoignages-fra_1763.txt
+authors_ruled:
+  meindaerts:
+    kind: metadata-omission
+    evidence: 'The file''s leading token is church-of-utrecht; the pastoral letter that opens the volume
+      is headed ''Pierre Jean Meindarts, par la grâce de Dieu, Archevêque d''Utrecht'' (file lines about
+      40-60). Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: church-of-utrecht_recueil-de-divers-temoignages-fra_1763--recueil-de-divers-temoignages-1763-preface-precis-and-the
+  work: 'Recueil de divers témoignages (1763): preface, précis and the volume as compiled'
+  author: church-of-utrecht
+  locus: the Préface sur le schisme, the Précis and the list of writings
+  atlas_ids:
+  - church-of-utrecht
+  role: tradition
+  confidence: assigned
+  note: The church's own account of its breach with Rome and of who stood with it; advocacy, to be read
+    as such.
+- row_id: church-of-utrecht_recueil-de-divers-temoignages-fra_1763--meindaerts-pastoral-letter-presenting-the-recueil-1763
+  work: Meindaerts, pastoral letter presenting the Recueil (1763)
+  author: meindaerts
+  locus: the LETTRE PASTORALE at the head of the volume
+  atlas_ids:
+  - church-of-utrecht
+  role: tradition
+  confidence: assigned
+  note: The archbishop of Utrecht addressing his clergy and people in the year of the provincial council.
+- row_id: church-of-utrecht_recueil-de-divers-temoignages-fra_1763--recueil-de-divers-temoignages-1763-the-french-and-other
+  work: 'Recueil de divers témoignages (1763): the French and other foreign testimonies'
+  author: church-of-utrecht
+  locus: the testimonies of bishops, universities, faculties and canonists outside the Dutch church
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: context
+  confidence: provisional
+  note: Voices from the wider Catholic church on Utrecht's side, many of them likely French; provisional,
+    since each testimony's author, country and date needs checking piece by piece.

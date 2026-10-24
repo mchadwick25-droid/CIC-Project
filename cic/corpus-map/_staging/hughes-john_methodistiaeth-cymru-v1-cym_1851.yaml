@@ -1,0 +1,22 @@
+source_file: hughes-john_methodistiaeth-cymru-v1-cym_1851.txt
+assignments:
+- row_id: hughes-john_methodistiaeth-cymru-v1-cym_1851--methodistiaeth-cymru-vol-i-the-early-association-minutes-and
+  work: 'Methodistiaeth Cymru, vol. I: the early association minutes and society documents printed in
+    it'
+  author: hughes-john
+  locus: the documents quoted in the chapters on the beginnings and the associations
+  atlas_ids:
+  - the-welsh-revival-tradition
+  role: tradition
+  confidence: provisional
+  note: Minutes and records of the revival's own meetings, in the form a later minister printed them;
+    provisional until each quoted document is checked against its manuscript or earlier print.
+- row_id: hughes-john_methodistiaeth-cymru-v1-cym_1851--methodistiaeth-cymru-vol-i-hughes-s-history
+  work: 'Methodistiaeth Cymru, vol. I: Hughes''s history'
+  author: hughes-john
+  locus: the narrative history
+  atlas_ids:
+  - the-welsh-revival-tradition
+  role: transmission
+  confidence: assigned
+  note: The connexion's mid-nineteenth-century history of itself; reception by the movement's heirs.

@@ -1,0 +1,13 @@
+source_file: fenelon_maxims-of-the-saints_1698.txt
+assignments:
+- row_id: fenelon_maxims-of-the-saints_1698--the-maxims-of-the-saints-explained-english-translation-1698
+  work: The Maxims of the Saints explained, English translation (1698)
+  author: fenelon
+  locus: the Maxims and Fénelon's letter to the Pope; the Issy articles, the bishops' Declaration and
+    the King's letter as the opposing party's documents
+  atlas_ids:
+  - quietist-controversy-molinos-guyon
+  role: tradition
+  confidence: assigned
+  note: Both parties' documents in contemporary English; the Declaration and the King's letter are Bossuet's
+    side and should be read as such.

@@ -1,0 +1,11 @@
+source_file: jones-griffith_galwad-at-orseddfaingc-y-gras-cym_1750.txt
+assignments:
+- row_id: jones-griffith_galwad-at-orseddfaingc-y-gras-cym_1750--galwad-at-orseddfaingc-y-gras-dialogues-on-prayer-2nd-ed
+  work: Galwad at Orseddfaingc y Gras (dialogues on prayer, 2nd ed.)
+  author: jones-griffith
+  locus: whole work
+  atlas_ids:
+  - the-welsh-revival-tradition
+  role: antecedent
+  confidence: provisional
+  note: The schools' Welsh devotional teaching, alongside and before the revival; provisional as antecedent.

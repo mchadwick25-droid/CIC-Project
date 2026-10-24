@@ -1,0 +1,11 @@
+source_file: merck_captivite-et-mort-de-pie-vi-fra_1814.txt
+assignments:
+- row_id: merck_captivite-et-mort-de-pie-vi-fra_1814--la-captivite-et-la-mort-de-pie-vi-1814
+  work: La Captivité et la mort de Pie VI (1814)
+  author: merck
+  locus: whole memoir
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: context
+  confidence: assigned
+  note: The French officer's account of the pope's last weeks; a witness from the side that held him.

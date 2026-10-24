@@ -1,0 +1,12 @@
+source_file: liguori_glories-of-mary_1852.txt
+assignments:
+- row_id: liguori_glories-of-mary_1852--the-glories-of-mary-1750-english-1852
+  work: The Glories of Mary (1750; English, 1852)
+  author: liguori
+  locus: the author's text; the American preface excluded
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: tradition
+  confidence: assigned
+  note: Liguori's Marian devotion for the people of the missions; the eighteenth-century Catholic heart,
+    not its controversies.

@@ -1,0 +1,36 @@
+source_file: subbotin_materialy-dlia-istorii-raskola-v4-chelobitnye-rus_1878.txt
+authors_ruled:
+  nikita-dobrynin:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is the editor subbotin; Nikita Dobrynin''s
+      petition is printed under his name with Subbotin''s introduction (''Челобитная Никиты''), file lines
+      from about 100 on. cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+  lazar-romanov:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is the editor subbotin; the priest Lazar''s
+      petition and writings are printed under his name in the volume. cic/texts/AUTHORS.md has not seen
+      the slug yet.
+
+      '
+assignments:
+- row_id: subbotin_materialy-dlia-istorii-raskola-v4-chelobitnye-rus_1878--nikita-dobrynin-s-petition-to-tsar-alexei-in-materialy-vol
+  work: Nikita Dobrynin's petition to Tsar Alexei (in Materialy, vol. IV, 1878)
+  author: nikita-dobrynin
+  locus: Nikita's petition and its introduction's quotations
+  atlas_ids:
+  - the-old-believers
+  role: tradition
+  confidence: assigned
+  note: The most detailed early case against the corrected books, by the priest the establishment called
+    Pustosviat.
+- row_id: subbotin_materialy-dlia-istorii-raskola-v4-chelobitnye-rus_1878--the-priest-lazar-s-petition-and-writings-in-materialy-vol-iv
+  work: The priest Lazar's petition and writings (in Materialy, vol. IV, 1878)
+  author: lazar-romanov
+  locus: Lazar's works under his name
+  atlas_ids:
+  - the-old-believers
+  role: tradition
+  confidence: assigned
+  note: One of the Pustozersk prisoners in his own petition.

@@ -1,0 +1,21 @@
+source_file: moss_sermon-before-the-spg-1772_1772.txt
+assignments:
+- row_id: moss_sermon-before-the-spg-1772_1772--sermon-before-the-s-p-g-21-february-1772
+  work: Sermon before the S.P.G., 21 February 1772
+  author: moss
+  locus: the sermon
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: tradition
+  confidence: assigned
+  note: A bishop preaching the Society's annual sermon, the genre the census story names.
+- row_id: moss_sermon-before-the-spg-1772_1772--the-s-p-g-abstract-of-proceedings-for-1771-72-with-the
+  work: The S.P.G. abstract of proceedings for 1771-72, with the Barbados accounts
+  author: moss
+  locus: the abstract and accounts printed after the sermon
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: tradition
+  confidence: assigned
+  note: The Society's own record of its missions and of the Barbados college and plantations it held,
+    printed with the sermon; the author slug follows the file, the abstract is the Society's.

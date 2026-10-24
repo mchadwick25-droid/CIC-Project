@@ -1,0 +1,28 @@
+source_file: winchester-elhanan_universal-restoration-in-dialogues_1788.txt
+authors_ruled:
+  winchester-elhanan:
+    kind: metadata-omission
+    evidence: 'The title page names Elhanan Winchester. Plain-text vendored file, so cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+assignments:
+- row_id: winchester-elhanan_universal-restoration-in-dialogues_1788--the-universal-restoration-1788
+  work: The Universal Restoration (1788)
+  author: winchester-elhanan
+  locus: whole work
+  atlas_ids:
+  - early-american-unitarians-universalists
+  role: tradition
+  confidence: assigned
+  note: The restorationist wing of early Universalism in its founder's own dialogues.
+- row_id: winchester-elhanan_universal-restoration-in-dialogues_1788--the-universal-restoration-1788-2
+  work: The Universal Restoration (1788)
+  author: winchester-elhanan
+  locus: whole work
+  atlas_ids:
+  - the-baptists
+  role: context
+  confidence: provisional
+  note: Winchester came out of the Philadelphia Baptists; a Baptist minister's break into Universalism.
+    Provisional.

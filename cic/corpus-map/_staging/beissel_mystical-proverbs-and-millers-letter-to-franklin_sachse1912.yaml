@@ -1,0 +1,29 @@
+source_file: beissel_mystical-proverbs-and-millers-letter-to-franklin_sachse1912.txt
+authors_ruled:
+  miller-peter:
+    kind: metadata-omission
+    evidence: 'The title page names Rev. Peter Miller (Brother Jabez), Prior of the Ephrata Community,
+      as author of the manuscript letter written for Benjamin Franklin and as translator of the proverbs;
+      the file''s leading name slug is Beissel, author of the proverbs themselves.
+
+      '
+    from_file: beissel_mystical-proverbs-and-millers-letter-to-franklin_sachse1912.txt
+assignments:
+- row_id: beissel_mystical-proverbs-and-millers-letter-to-franklin_sachse1912--mystische-und-sehr-geheyme-spruche-99-mystical-proverbs-1730
+  work: Mystische und sehr geheyme Sprüche (99 Mystical Proverbs, 1730), German with Miller's English
+  author: beissel
+  locus: the numbered proverbs 1-99 (German) and 1-99 (English)
+  atlas_ids:
+  - radical-pietism-and-the-brethren-dunkers-ephrata
+  role: tradition
+  confidence: assigned
+  note: Beissel's earliest printed words, with the contemporary English made by his own prior.
+- row_id: beissel_mystical-proverbs-and-millers-letter-to-franklin_sachse1912--peter-miller-s-letter-to-benjamin-franklin-1771
+  work: Peter Miller's letter to Benjamin Franklin (1771)
+  author: miller-peter
+  locus: the letter prefixed to the proverbs
+  atlas_ids:
+  - radical-pietism-and-the-brethren-dunkers-ephrata
+  role: tradition
+  confidence: assigned
+  note: The Ephrata prior writing in his own English to Franklin about the community and its founder.

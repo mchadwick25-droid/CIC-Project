@@ -1,0 +1,13 @@
+source_file: neale_history-so-called-jansenist-church-of-holland_1858.txt
+assignments:
+- row_id: neale_history-so-called-jansenist-church-of-holland_1858--a-history-of-the-so-called-jansenist-church-of-holland-1858
+  work: A History of the So-called Jansenist Church of Holland (1858)
+  author: neale
+  locus: the chapters on the seventeenth and eighteenth centuries and the appendices; the medieval sketch
+    as background
+  atlas_ids:
+  - church-of-utrecht
+  role: context
+  confidence: assigned
+  note: Sympathetic Anglican scholarship of 1858; its translated documents should be checked against the
+    originals before quoting.

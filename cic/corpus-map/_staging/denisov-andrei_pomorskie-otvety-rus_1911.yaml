@@ -1,0 +1,21 @@
+source_file: denisov-andrei_pomorskie-otvety-rus_1911.txt
+authors_ruled:
+  denisov-andrei:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file; the title leaves are lost in the scan, and the authorship of
+      Andrei Denisov with Semyon Denisov and Trifon Petrov is the standard attribution recorded by the
+      host''s catalogue tradition and in the obel world''s Doc_02 (Pomorskie otvety entry). The answers
+      speak for the Vyg community in the first person plural. cic/texts/AUTHORS.md has not seen the slug
+      yet.
+
+      '
+assignments:
+- row_id: denisov-andrei_pomorskie-otvety-rus_1911--pomorskie-otvety-the-answers-of-the-vyg-community-to-the
+  work: Pomorskie otvety, the answers of the Vyg community to the Synod's questions (1723)
+  author: denisov-andrei
+  locus: the preface and the numbered answers
+  atlas_ids:
+  - the-old-believers
+  role: tradition
+  confidence: assigned
+  note: The priestless community's founding apology, written at Vyg in answer to the Synod.

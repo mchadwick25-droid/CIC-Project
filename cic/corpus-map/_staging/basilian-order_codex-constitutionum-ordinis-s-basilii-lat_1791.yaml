@@ -1,0 +1,18 @@
+source_file: basilian-order_codex-constitutionum-ordinis-s-basilii-lat_1791.txt
+authors_ruled:
+  basilian-order:
+    kind: metadata-omission
+    evidence: The title page names the work as the code of constitutions of the Order of St Basil the
+      Great, collected from the decrees of the chapters of the Congregation of the Ruthenians, printed
+      at the Basilian monastery of Pochaiv; no individual author is named.
+assignments:
+- row_id: basilian-order_codex-constitutionum-ordinis-s-basilii-lat_1791--codex-constitutionum-ordinis-s-basilii-m-1791
+  work: Codex Constitutionum Ordinis S. Basilii M. (1791)
+  author: basilian-order
+  locus: whole work
+  atlas_ids:
+  - ruthenian-uniate-18th-century
+  role: tradition
+  confidence: assigned
+  note: The order's own law, compiled from its chapters; the Basilians in their own words at the end of
+    the Polish-Lithuanian period.

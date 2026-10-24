@@ -1,0 +1,11 @@
+source_file: henry-philip_diaries-and-letters_lee1882.txt
+assignments:
+- row_id: henry-philip_diaries-and-letters_lee1882--diaries-and-letters-of-philip-henry-1631-1696
+  work: Diaries and Letters of Philip Henry, 1631-1696
+  author: henry-philip
+  locus: the diaries and letters; the editor's preface and notes excluded
+  atlas_ids:
+  - english-old-dissent
+  role: tradition
+  confidence: assigned
+  note: The first generation of Dissent in a minister's own daily writing, ejection and after.

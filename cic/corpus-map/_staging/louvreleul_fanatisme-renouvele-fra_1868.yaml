@@ -1,0 +1,12 @@
+source_file: louvreleul_fanatisme-renouvele-fra_1868.txt
+assignments:
+- row_id: louvreleul_fanatisme-renouvele-fra_1868--le-fanatisme-renouvele-and-l-obstination-confondue-1704-1706
+  work: Le Fanatisme renouvelé and L'Obstination confondue (1704-1706; 1868 edition)
+  author: louvreleul
+  locus: the four tomes; the 1868 introduction excluded
+  atlas_ids:
+  - camisard-prophetism
+  role: context
+  confidence: assigned
+  note: Hostile contemporary witness from a priest whose parish was in the war; records the killings of
+    clergy that the Protestant sources pass over.

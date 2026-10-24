@@ -1,0 +1,11 @@
+source_file: avvakum_zhitie-rus_tikhonravov-kozhanchikov1861.txt
+assignments:
+- row_id: avvakum_zhitie-rus_tikhonravov-kozhanchikov1861--zhitie-protopopa-avvakuma-im-samim-napisannoe-first-printed
+  work: Zhitie protopopa Avvakuma, im samim napisannoe (first printed edition, Tikhonravov 1861)
+  author: avvakum
+  locus: whole work
+  atlas_ids:
+  - the-old-believers
+  role: tradition
+  confidence: assigned
+  note: The Life in its first printed edition from the manuscripts.

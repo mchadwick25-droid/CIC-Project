@@ -1,0 +1,11 @@
+source_file: edwards_treatise-concerning-religious-affections_kneeland1746.txt
+assignments:
+- row_id: edwards_treatise-concerning-religious-affections_kneeland1746--a-treatise-concerning-religious-affections-edwards-1746
+  work: A Treatise concerning Religious Affections (Edwards, 1746)
+  author: edwards
+  locus: whole work; the twelve signs of Part III
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: tradition
+  confidence: assigned
+  note: The revival's theologian on true and false experience, after the fact.

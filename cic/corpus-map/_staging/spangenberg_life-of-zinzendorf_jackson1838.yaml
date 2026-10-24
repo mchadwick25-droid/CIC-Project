@@ -1,0 +1,22 @@
+source_file: spangenberg_life-of-zinzendorf_jackson1838.txt
+assignments:
+- row_id: spangenberg_life-of-zinzendorf_jackson1838--the-life-of-nicholas-lewis-count-zinzendorf-spangenberg-1772
+  work: The Life of Nicholas Lewis, Count Zinzendorf (Spangenberg, 1772-1775; abridged English 1838)
+  author: spangenberg
+  locus: whole work
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: tradition
+  confidence: assigned
+  note: An insider's life of the founder from the Unity's records; the community telling its own origin
+    story, documents quoted.
+- row_id: spangenberg_life-of-zinzendorf_jackson1838--the-life-of-nicholas-lewis-count-zinzendorf-spangenberg-1772-2
+  work: The Life of Nicholas Lewis, Count Zinzendorf (Spangenberg, 1772-1775; abridged English 1838)
+  author: spangenberg
+  locus: the chapters on Zinzendorf's schooling at Halle under Francke and his dealings with Halle afterward
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: context
+  confidence: provisional
+  note: Halle seen through its most famous pupil and later rival; the Moravian memory of Francke's school.
+    Provisional.

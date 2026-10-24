@@ -1,0 +1,18 @@
+source_file: dunlavy_manifesto-declaration-of-the-doctrines-and-practice-of-the-church-of-christ_1818.txt
+authors_ruled:
+  dunlavy:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By John Dunlavy''. Plain-text vendored file, so cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+assignments:
+- row_id: dunlavy_manifesto-declaration-of-the-doctrines-and-practice-of-the-church-of-christ_1818--the-manifesto-1818
+  work: The Manifesto (1818)
+  author: dunlavy
+  locus: whole work
+  atlas_ids:
+  - shakers
+  role: tradition
+  confidence: assigned
+  note: A Shaker theologian's own systematic account of the faith.

@@ -1,0 +1,12 @@
+source_file: fox_collection-of-epistles_1698.txt
+assignments:
+- row_id: fox_collection-of-epistles_1698--a-collection-of-many-select-and-christian-epistles-letters
+  work: A Collection of Many Select and Christian Epistles, Letters and Testimonies (Fox, 1698)
+  author: fox
+  locus: the numbered epistles
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: assigned
+  note: Fox's letters to the meetings over forty years; the movement's government and counsel in its founder's
+    words.

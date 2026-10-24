@@ -13,6 +13,19 @@ with no history in the document, lives in the file it governs (here,
 
 ---
 
+## 2026-10-23 — Era VIII library pass: scope, the reader trailer, corpus size, and placements left to Mark
+
+**Scope.** The Era VIII pass (branch `library/era-viii-2026-10`) covers all 29 census worlds of the era (VII.1-VII.29), including the two A5 worlds (VII.14 Quietists, VII.15 Camisards). Mark widened the launch scope on 16 October 2026 to include the two Era VIII worlds that already had a Doc_02, the Methodist Revival (VII.5, `meth`) and the Old Believers (VII.7, `obel`), in his words: "the methodists and old believers may have an old doc 2, but we are better at finding sources and may be incomplete, we need to ensure they are as robust as the other worlds in the new system". For those two worlds the pass refreshed the dossier, vendored the open leads and logged the closures in each world's `Open_Gaps_Tracking.md` (meth entry 36, obel entry 26). Neither world's Doc_02 or `records/` was edited.
+
+**Reader trailer: one format.** The Era VII and Era VIII sessions each chose a registry-notes trailer for the Source Library's reader facts on the same day. Era VII's entry above (16 October 2026) was logged and merged first, as `READER: sections - ... ; credit - "..." ; republish - ...`. This pass first wrote its 140 entries as `SECTIONS (Source Library): ... CREDIT LINE: ... REPUBLICATION: ...`. Before merge, those 140 unmerged entries were rewritten to the Era VII form, word for word, so the registry carries one trailer format. No merged entry was touched.
+
+**Corpus size.** `cic/texts/` was about 1.1 GB at the start of this pass's second session (after the Era VII merge) and about 1.34 GB of vendored text after all 29 Era VIII worlds (376 new files, 1,173 in all); the whole tracked directory, indexes included, is about 1.5 GB. `PLAN-texts-store-scaling.md` sets its re-open point at 4 GB and calls 5 GB overdue; the 1 GB figure was the blueprint's original planning note, not the plan's trigger. The store is below the trigger. Nothing was moved or changed here; Mark decides whether to act.
+
+**Slugs.** The renewed Moravian Church (1722 onward) has its own institutional author slug, `moravian-church`, kept distinct from `unity-of-the-brethren` (the old Czech Unity), so the continuity claim stays a claim the texts make rather than a fact the index asserts. The Methodist bucket now carries two Wesley slug conventions (the meth thread's `wesley-john`, `wesley-charles`; the Library's filename slugs `wesley-j`, `wesley-c`); reconciling them is flagged in the Methodist dossier for that world's thread.
+
+**Shared file.** A. N. Mouravieff's History of the Church of Russia (Blackmore, 1842) was vendored by this pass and, in the same hours, by the Era VI pass (V.8). One file, one registry entry: the Era VI file and entry stand, and this pass keeps its seed row and its two Era VIII assignments beside the Era VI rows. This pass's own nikon-to-holy-synod row was dropped because the Era VI rows already place the file there as context, which is also what Mark's Era VII ruling 6 asks of a post-window account.
+
+**Placements left for Mark.** Cross-world rows are staged `provisional` where the fit is arguable; each dossier's section 5 names the open questions, among them Whitefield's allocation (VII.5, VII.6, VII.10), whether the middle and southern colonies belong to VII.6, the AME edge of VII.5 (Allen, Jarena Lee), the Czech succession claim of VII.4, and missions with no census home (the Danish West Indies, Greenland, Tranquebar).
 ## 2026-10-24 — Borromeo's pastoral voice is co-owned by Borromean Milan and the Tridentine Church
 
 **Ruling, Mark's answer** to three options put to him in the session: (1) co-owned,

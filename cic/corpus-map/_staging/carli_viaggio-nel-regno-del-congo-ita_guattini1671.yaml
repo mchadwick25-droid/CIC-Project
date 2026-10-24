@@ -1,0 +1,33 @@
+source_file: carli_viaggio-nel-regno-del-congo-ita_guattini1671.txt
+authors_ruled:
+  guattini:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is carli; Michelangelo Guattini is named on
+      the title page (file lines about 7-10) as co-author of the narrative. cic/texts/AUTHORS.md has not
+      seen the slug yet.
+
+      '
+assignments:
+- row_id: carli_viaggio-nel-regno-del-congo-ita_guattini1671--viaggio-nel-regno-del-congo-1671-carli-s-narrative
+  work: Viaggio nel regno del Congo (1671), Carli's narrative
+  author: carli
+  locus: Carli's narrative after Guattini's death
+  atlas_ids:
+  - the-antonian-movement-in-kongo
+  role: context
+  confidence: assigned
+  note: 'Capuchin eyewitness to the Kongo church of the late 1660s: baptisms, the court at Sao Salvador
+    and the province of Bamba. Outside witness.
+
+    '
+- row_id: carli_viaggio-nel-regno-del-congo-ita_guattini1671--viaggio-nel-regno-del-congo-1671-the-joint-part-of-the
+  work: Viaggio nel regno del Congo (1671), the joint part of the narrative
+  author: guattini
+  locus: the opening part of the narrative, before Carli writes alone
+  atlas_ids:
+  - the-antonian-movement-in-kongo
+  role: context
+  confidence: assigned
+  note: 'The co-author''s share of the narrative; same mission, same outside view.
+
+    '

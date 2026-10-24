@@ -1,0 +1,29 @@
+source_file: subbotin_materialy-dlia-istorii-raskola-v3-dokumenty-solovki-rus_1876.txt
+authors_ruled:
+  solovetsky-monastery:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is the editor subbotin; the petitions are
+      the Solovetsky brethren''s collective documents, signed by name (''Поп Кирилъ руку приложилъ ...''),
+      file lines from about 400 on. An institutional slug. cic/texts/AUTHORS.md has not seen it yet.
+
+      '
+assignments:
+- row_id: subbotin_materialy-dlia-istorii-raskola-v3-dokumenty-solovki-rus_1876--the-solovetsky-monastery-s-petitions-and-papers-1666-1676-in
+  work: The Solovetsky Monastery's petitions and papers, 1666-1676 (in Materialy, vol. III, 1876)
+  author: solovetsky-monastery
+  locus: the monastery's petitions and letters with their signatures
+  atlas_ids:
+  - the-old-believers
+  role: tradition
+  confidence: assigned
+  note: The monastery's own statement of its case, signed by its priests and monks; the census's Solovki
+    petitions.
+- row_id: subbotin_materialy-dlia-istorii-raskola-v3-dokumenty-solovki-rus_1876--government-papers-on-the-solovki-siege-in-materialy-vol-iii
+  work: Government papers on the Solovki siege (in Materialy, vol. III, 1876)
+  author: subbotin
+  locus: the Moscow side's orders and reports
+  atlas_ids:
+  - the-old-believers
+  role: context
+  confidence: assigned
+  note: The siege from the besiegers' papers.

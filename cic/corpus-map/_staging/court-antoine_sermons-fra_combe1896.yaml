@@ -1,0 +1,27 @@
+source_file: court-antoine_sermons-fra_combe1896.txt
+authors_ruled:
+  combe-ernest:
+    kind: metadata-omission
+    evidence: 'The title page reads ''Antoine Court et ses sermons, par Ernest Combe, professeur''. Plain-text
+      vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: court-antoine_sermons-fra_combe1896--sermons-d-antoine-court-1718-and-manuscripts-combe-s-edition
+  work: Sermons d'Antoine Court (1718 and manuscripts; Combe's edition, 1896)
+  author: court-antoine
+  locus: from 'Sermons d'Antoine Court' to the end
+  atlas_ids:
+  - church-of-the-desert-huguenots
+  role: tradition
+  confidence: assigned
+  note: Court's preaching to the Desert assemblies; spelling modernised by the editor, wording kept.
+- row_id: court-antoine_sermons-fra_combe1896--antoine-court-a-biography-combe-1896
+  work: Antoine Court, a biography (Combe, 1896)
+  author: combe-ernest
+  locus: the biography before the sermons
+  atlas_ids:
+  - church-of-the-desert-huguenots
+  role: context
+  confidence: assigned
+  note: A short nineteenth-century life of Court; scholarship framing the sermons.

@@ -1,0 +1,12 @@
+source_file: coquerel-charles_histoire-des-eglises-du-desert-t1-fra_1841.txt
+assignments:
+- row_id: coquerel-charles_histoire-des-eglises-du-desert-t1-fra_1841--histoire-des-eglises-du-desert-t-i-1841
+  work: Histoire des églises du désert, t. I (1841)
+  author: coquerel-charles
+  locus: the narrative chapters and the pièces justificatives
+  atlas_ids:
+  - church-of-the-desert-huguenots
+  role: context
+  confidence: assigned
+  note: Nineteenth-century Protestant history; its appendices print the Desert's own letters and memorials,
+    to be cited as documents in Coquerel's transcription.

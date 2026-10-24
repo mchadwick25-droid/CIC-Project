@@ -1,0 +1,22 @@
+source_file: paisius-velichkovsky_vostorgnutye-klasy-chu_optina1849.txt
+assignments:
+- row_id: paisius-velichkovsky_vostorgnutye-klasy-chu_optina1849--vostorgnutye-klasy-paisius-s-slavonic-translations-of
+  work: Vostorgnutye klasy (Paisius's Slavonic translations of Chrysostom, Palamas, Mark the Ascetic and
+    others; Optina 1849)
+  author: paisius-velichkovsky
+  locus: whole volume
+  atlas_ids:
+  - the-hesychast-revival-paisius-and-the-philokalia
+  role: tradition
+  confidence: assigned
+  note: The translation work the census counts as formation evidence; the choice of texts and the Slavonic
+    are Paisius's, the originals older.
+- row_id: paisius-velichkovsky_vostorgnutye-klasy-chu_optina1849--vostorgnutye-klasy-the-whole-book-as-an-optina-publication
+  work: 'Vostorgnutye klasy: the whole book as an Optina publication'
+  author: paisius-velichkovsky
+  locus: whole volume
+  atlas_ids:
+  - the-optina-elders-and-russian-ascetic-renewal
+  role: transmission
+  confidence: provisional
+  note: Optina's second Paisius volume, printed for Russian readers.

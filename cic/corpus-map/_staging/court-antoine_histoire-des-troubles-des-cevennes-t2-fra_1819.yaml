@@ -1,0 +1,20 @@
+source_file: court-antoine_histoire-des-troubles-des-cevennes-t2-fra_1819.txt
+assignments:
+- row_id: court-antoine_histoire-des-troubles-des-cevennes-t2-fra_1819--histoire-des-troubles-des-cevennes-t-ii-1760-1819-edition
+  work: Histoire des troubles des Cévennes, t. II (1760; 1819 edition)
+  author: court-antoine
+  locus: books six to twelve
+  atlas_ids:
+  - church-of-the-desert-huguenots
+  role: tradition
+  confidence: assigned
+  note: Court's history continued.
+- row_id: court-antoine_histoire-des-troubles-des-cevennes-t2-fra_1819--histoire-des-troubles-des-cevennes-t-ii-1760-1819-edition-2
+  work: Histoire des troubles des Cévennes, t. II (1760; 1819 edition)
+  author: court-antoine
+  locus: books six to twelve
+  atlas_ids:
+  - camisard-prophetism
+  role: context
+  confidence: assigned
+  note: The war at its height in the first Protestant history.

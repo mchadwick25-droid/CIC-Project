@@ -1,0 +1,31 @@
+source_file: francke_pietas-hallensis_1705.txt
+assignments:
+- row_id: francke_pietas-hallensis_1705--pietas-hallensis-the-orphan-house-narrative-1705-english
+  work: 'Pietas Hallensis: the orphan-house narrative (1705 English)'
+  author: francke
+  locus: the narrative sections and the appended privileges
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: tradition
+  confidence: assigned
+  note: Francke's first-person account of the Halle foundations and their providential funding.
+- row_id: francke_pietas-hallensis_1705--the-translator-s-preface-with-a-short-history-of-pietism
+  work: The translator's preface with a short history of Pietism (1705)
+  author: francke
+  locus: the preface before the narrative; its heading 'Pietists'
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: context
+  confidence: assigned
+  note: An English sympathiser's account of Spener and the Pietist controversies as of 1705; the view
+    from London, not Halle's own.
+- row_id: francke_pietas-hallensis_1705--pietas-hallensis-the-orphan-house-narrative-1705-english-2
+  work: 'Pietas Hallensis: the orphan-house narrative (1705 English)'
+  author: francke
+  locus: whole work
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: context
+  confidence: provisional
+  note: Published by the SPCK's printer Downing for an English readership; the Halle model as the English
+    voluntary societies received it. Provisional placement.

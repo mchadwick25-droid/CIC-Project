@@ -1,0 +1,19 @@
+source_file: universalist-church_hymns-composed-by-order-of-the-general-convention_1808.txt
+authors_ruled:
+  universalist-church:
+    kind: metadata-omission
+    evidence: 'The title page names the General Convention of Universalists as the body that ordered the
+      hymnal; the preface names the committee. An institutional slug for the Universalist convention and
+      its successors. Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: universalist-church_hymns-composed-by-order-of-the-general-convention_1808--hymns-composed-by-different-authors-by-order-of-the-general
+  work: Hymns composed by different authors, by order of the General Convention of Universalists (1808)
+  author: universalist-church
+  locus: preface and hymns
+  atlas_ids:
+  - early-american-unitarians-universalists
+  role: tradition
+  confidence: assigned
+  note: The Universalist Convention's own hymnal.

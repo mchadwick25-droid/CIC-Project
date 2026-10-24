@@ -1,0 +1,21 @@
+source_file: early-baptists_persecution-for-religion-judgd-and-condemnd_1662.txt
+authors_ruled:
+  early-baptists:
+    kind: anonymous
+    evidence: 'The title page names no author; it presents the tracts only as ''printed in the years 1615
+      and 1620, and now reprinted''. The host''s creator field reads ''Helwys, Thomas.'' A collective
+      slug is used rather than a disputed personal attribution. cic/texts/AUTHORS.md has not seen the
+      slug yet.
+
+      '
+assignments:
+- row_id: early-baptists_persecution-for-religion-judgd-and-condemnd_1662--persecution-for-religion-judg-d-and-condemn-d-1615-and-an
+  work: Persecution for Religion Judg'd and Condemn'd (1615) and An Humble Supplication (1620)
+  author: early-baptists
+  locus: whole work
+  atlas_ids:
+  - the-baptists
+  role: tradition
+  confidence: assigned
+  note: The earliest English Baptist pleas for liberty of conscience, from the congregation Helwys brought
+    back to London; authorship to be ruled, not the placement.

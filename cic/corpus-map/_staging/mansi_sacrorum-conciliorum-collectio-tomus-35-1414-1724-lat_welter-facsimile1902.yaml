@@ -1,0 +1,43 @@
+source_file: mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt
+assignments:
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902--synodus-provincialis-ruthenorum-habita-in-civitate-zamosciae
+  work: Synodus provincialis Ruthenorum habita in civitate Zamosciae anno 1720 (acts, decrees, professions
+    of faith, Metropolitan Kiszka's letters)
+  author: mansi
+  locus: columns 1437-1538 (from about file line 133890 to Mansi's monitum near line 143600)
+  atlas_ids:
+  - ruthenian-uniate-18th-century
+  role: tradition
+  confidence: assigned
+  note: The Uniate church's own synodal legislation of 1720 with the metropolitan's dedication; the text
+    that set its discipline and rite for the century.
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902--synodus-provincialis-ruthenorum-1720-papal-confirmation-and
+  work: Synodus provincialis Ruthenorum (1720), papal confirmation and Propaganda's decrees
+  author: mansi
+  locus: the approbation by Benedict XIII and the Roman decrees printed with the synod (columns 1439-1441,
+    1469)
+  atlas_ids:
+  - ruthenian-uniate-18th-century
+  role: context
+  confidence: assigned
+  note: Rome's ratification of the synod, the outside authority's voice beside the synod's own.
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902--synodus-provincialis-ruthenorum-1720-later-reception
+  work: Synodus provincialis Ruthenorum (1720), later reception
+  author: mansi
+  locus: the synod's decrees
+  atlas_ids:
+  - ruthenian-greek-catholic-polotsk-to-galicia
+  role: antecedent
+  confidence: provisional
+  note: Zamość remained the Galician church's legal frame in the nineteenth century; provisional, not
+    checked against that entry's own texts.
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902--mansi-vol-35-the-supplements-to-constance-florence-and
+  work: 'Mansi vol. 35: the supplements to Constance, Florence and Lateran V'
+  author: mansi
+  locus: the volume outside columns 1437-1538
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: needs-ruling
+  note: The volume's other texts belong to the fifteenth- and sixteenth-century Latin church; placed so
+    they are not orphaned, for that entry to rule on.

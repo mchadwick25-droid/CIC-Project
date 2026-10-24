@@ -2722,3 +2722,11 @@ Fixed:
 Still open: `witt.figure.brussels-martyrs-john-and-henry` `bridge_line` still says "in 1523" without the note; its other fields already explain the date's origin.
 
 Status: FIXED 2026-10-23/24, awaiting an independent recheck by a separate Opus thread (CLAUDE.md: a blocking finding does not clear by self-certification); fix list: `Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Fix-List.md`.
+
+## OG-79. Independent recheck of the live-reply claim check fixes, 2026-10-24.
+
+Independent recheck, round 1 (the round 1 recheck report in https://github.com/mchadwick25-droid/CIC-Project/pull/1099): the other fixes in this world for the "Live-reply claim check findings re-confirmed" entry (2026-10-23) are confirmed. Blocking, fixed on 2026-10-24 and awaiting the round 2 recheck:
+- B6. The body of `witt.quote.second-article-of-the-creed` still said every household said the words weekly. It now matches the frontmatter: the words were prescribed; uptake is Contested.
+
+
+Status: OPEN for B6 until the round 2 recheck. CLOSED for the other claim check findings.

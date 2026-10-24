@@ -1,0 +1,32 @@
+source_file: bunyan_grace-abounding-relation-of-imprisonment-pilgrims-progress_brown1907.txt
+assignments:
+- row_id: bunyan_grace-abounding-relation-of-imprisonment-pilgrims-progress_brown1907--grace-abounding-to-the-chief-of-sinners-1666-text-of-1688
+  work: Grace Abounding to the Chief of Sinners (1666; text of 1688)
+  author: bunyan
+  locus: Grace Abounding
+  atlas_ids:
+  - the-baptists
+  role: tradition
+  confidence: assigned
+  note: The Bedford pastor's own conversion narrative, the model the census names for his congregation's
+    members.
+- row_id: bunyan_grace-abounding-relation-of-imprisonment-pilgrims-progress_brown1907--a-relation-of-the-imprisonment-of-mr-john-bunyan-written
+  work: A Relation of the Imprisonment of Mr. John Bunyan (written 1660s; printed 1765)
+  author: bunyan
+  locus: the Relation of the Imprisonment
+  atlas_ids:
+  - the-baptists
+  - english-old-dissent
+  role: tradition
+  confidence: provisional
+  note: Bunyan's own account of his examination before the justices after the Restoration; the persecution
+    of 1660-1672 that Baptists shared with the ejected ministers. Provisional for Old Dissent.
+- row_id: bunyan_grace-abounding-relation-of-imprisonment-pilgrims-progress_brown1907--the-pilgrim-s-progress-1678-1684
+  work: The Pilgrim's Progress (1678, 1684)
+  author: bunyan
+  locus: The Pilgrim's Progress, both parts
+  atlas_ids:
+  - the-baptists
+  role: tradition
+  confidence: assigned
+  note: The allegory the census names; the gathered churches' picture of the Christian life.

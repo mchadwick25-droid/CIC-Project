@@ -1,0 +1,31 @@
+source_file: general-baptist-assembly_minutes-v2-1731-1811_whitley1910.txt
+authors_ruled:
+  general-baptist-assembly:
+    kind: metadata-omission
+    evidence: 'Institutional slug for the body whose minutes these are; the title page reads ''Minutes
+      of the General Assembly of the General Baptist Churches in England'', and the host''s creator field
+      names ''General Association of General Baptists. General Assembly''. cic/texts/AUTHORS.md has not
+      seen the slug yet.
+
+      '
+assignments:
+- row_id: general-baptist-assembly_minutes-v2-1731-1811_whitley1910--minutes-of-the-general-assembly-of-the-general-baptist
+  work: Minutes of the General Assembly of the General Baptist Churches, 1731-1811
+  author: general-baptist-assembly
+  locus: the minutes; Whitley's introduction excluded
+  atlas_ids:
+  - the-baptists
+  role: tradition
+  confidence: assigned
+  note: The General Baptist wing's own record through the eighteenth century.
+- row_id: general-baptist-assembly_minutes-v2-1731-1811_whitley1910--minutes-1731-1811-the-assembly-s-handling-of-socinian-and
+  work: 'Minutes, 1731-1811: the assembly''s handling of Socinian and Unitarian opinion'
+  author: general-baptist-assembly
+  locus: the minutes touching doctrine and the departure of the New Connexion
+  atlas_ids:
+  - the-baptists
+  - english-old-dissent
+  role: context
+  confidence: provisional
+  note: The same drift toward Unitarian belief that the Old Dissent census entry names for the Presbyterians,
+    seen inside a Baptist body. Provisional for Old Dissent.

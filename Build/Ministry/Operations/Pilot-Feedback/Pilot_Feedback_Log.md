@@ -225,3 +225,11 @@ Read from the four review threads' final messages and draft PRs 1089 (https://gi
 - **Found:** the ribbon showed the code's 1,100 tokens alone instead of 520 free plus 1,100. Display only: the engine spends the free window first. Fixed (Go Deeper Decision-Log, ruling 73).
 - **Also on live since 01:30 UTC:** the free count on a fresh page (PR 1098, https://github.com/mchadwick25-droid/CIC-Project/pull/1098); the live engine reports 689c5d3e.
 - **Open:** whether the code appeared on the return page and whether reconciliation showed one payment, one code and a gap of zero; the replay; the refund and `refunds_applied`.
+
+## Market review findings — 2026-10-24
+From draft PR 1088 (now merged), the reviewer's findings, not re-verified here:
+- Blocking: real Stripe links were live on the public buy page while the project's own gates were unmet (no recorded Stripe stored-value answer, no expiry or refund line at purchase, accounts off, legal and tax questions open). Mark's ruling: keep unlisted and unadvertised until met (Pilot_Feedback_Decisions.md).
+- Blocking: the repo records that the IP assignment was signed against an incorporation date six days before the company existed. Whether it was fixed is held privately and not checked by the reviewer or by this thread. Not asked of Mark yet.
+- Blocking: there is no Terms of Use page. Not asked of Mark yet.
+- The reviewer notes the legal questions are named for a lawyer and are not legal advice.
+- Open for Mark: the AWS budget check (tomorrow); a name and cap for the pushback test (deferred until the safety-reply batch is merged); the arrival-text readability rewrite (offered, not chosen).

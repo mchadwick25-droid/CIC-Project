@@ -1,0 +1,12 @@
+source_file: cranz_history-of-greenland-v1_1767.txt
+assignments:
+- row_id: cranz_history-of-greenland-v1_1767--the-history-of-greenland-vol-i-1767
+  work: The History of Greenland, vol. I (1767)
+  author: cranz
+  locus: the books relating the mission at New Herrnhut and Lichtenfels
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: tradition
+  confidence: assigned
+  note: The Greenland mission narrated from its own diaries by a member of the church sent to examine
+    it.

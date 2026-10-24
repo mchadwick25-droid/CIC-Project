@@ -1,0 +1,11 @@
+source_file: ashbridge_some-account-of-the-forepart-of-the-life_curtis1904.txt
+assignments:
+- row_id: ashbridge_some-account-of-the-forepart-of-the-life_curtis1904--some-account-of-the-forepart-of-the-life-of-elizabeth
+  work: Some Account of the Forepart of the Life of Elizabeth Ashbridge (c. 1755)
+  author: ashbridge
+  locus: the narrative; Curtis's introduction excluded
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: assigned
+  note: A woman Friend's spiritual autobiography; servitude, marriage and convincement in her own words.

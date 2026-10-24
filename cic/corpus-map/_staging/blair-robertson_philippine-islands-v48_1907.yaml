@@ -1,0 +1,15 @@
+source_file: blair-robertson_philippine-islands-v48_1907.txt
+assignments:
+- row_id: blair-robertson_philippine-islands-v48_1907--the-philippine-islands-vol-xlviii-1751-1765-the-documents
+  work: 'The Philippine Islands, vol. XLVIII (1751-1765): the documents'
+  author: blair-robertson
+  locus: the documents of 1751-1762 and Viana's memorial
+  atlas_ids:
+  - philippine-catholicism-era-8
+  role: tradition
+  confidence: assigned
+  note: 'Friars'', bishops'' and officials'' own documents in the editors'' English translation; the colonial
+    church''s voice, not Filipino lay Christians''. Quotations are the translators'' wording and need
+    the Spanish where the corpus has it.
+
+    '

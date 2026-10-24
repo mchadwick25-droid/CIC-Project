@@ -1,0 +1,11 @@
+source_file: wesley-j_journal-v3_curnock1909.txt
+assignments:
+- row_id: wesley-j_journal-v3_curnock1909--the-journal-of-the-rev-john-wesley-standard-edition-vol-iii
+  work: The Journal of the Rev. John Wesley, Standard Edition vol. III (1742 onward)
+  author: wesley-j
+  locus: the dated Journal entries; Curnock's notes excluded
+  atlas_ids:
+  - the-methodist-revival
+  role: tradition
+  confidence: assigned
+  note: The itinerancy of the 1740s in Wesley's own record.

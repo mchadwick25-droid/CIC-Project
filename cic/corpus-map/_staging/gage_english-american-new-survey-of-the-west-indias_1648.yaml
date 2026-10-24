@@ -1,0 +1,15 @@
+source_file: gage_english-american-new-survey-of-the-west-indias_1648.txt
+assignments:
+- row_id: gage_english-american-new-survey-of-the-west-indias_1648--the-english-american-or-a-new-survey-of-the-west-indies-1648
+  work: The English-American, or A New Survey of the West Indies (1648)
+  author: gage
+  locus: the chapters on Mexico City and on Guatemala's Indian towns, their feasts, images and confraternities
+  atlas_ids:
+  - colonial-latin-american-devotional-catholicism
+  role: context
+  confidence: assigned
+  note: 'Hostile witness: an apostate friar writing for an English Protestant public at war with Spain.
+    Rich on confraternity feasts and image devotion; every judgement in it is polemic, and its facts need
+    a second witness.
+
+    '

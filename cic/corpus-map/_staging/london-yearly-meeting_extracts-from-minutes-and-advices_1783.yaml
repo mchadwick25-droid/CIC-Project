@@ -1,0 +1,11 @@
+source_file: london-yearly-meeting_extracts-from-minutes-and-advices_1783.txt
+assignments:
+- row_id: london-yearly-meeting_extracts-from-minutes-and-advices_1783--extracts-from-the-minutes-and-advices-of-the-yearly-meeting
+  work: Extracts from the Minutes and Advices of the Yearly Meeting of Friends held in London (1783)
+  author: london-yearly-meeting
+  locus: whole work
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: assigned
+  note: The Society governing itself; standing church government in its own printed minutes.

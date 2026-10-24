@@ -1,0 +1,12 @@
+source_file: london-yearly-meeting_collection-of-epistles-1675-1805_baltimore1806.txt
+assignments:
+- row_id: london-yearly-meeting_collection-of-epistles-1675-1805_baltimore1806--a-collection-of-the-epistles-from-the-yearly-meeting-of
+  work: A Collection of the Epistles from the Yearly Meeting of Friends in London, 1675-1805 (1806)
+  author: london-yearly-meeting
+  locus: the dated epistles
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: assigned
+  note: The yearly epistles read in every meeting; the body speaking as a body, year by year through the
+    window.

@@ -152,6 +152,12 @@ export async function refreshFreeLeft() {
   }
 }
 
+/** What the server says each held code has left, asked when the page opens so the count shows before any reply. */
+export async function refreshBalances() {
+  if (!deeperEnabled) return;
+  await Promise.all(state.codes.filter((code) => state.balances[code] === undefined).map((code) => refreshBalance(code)));
+}
+
 function setBalanceOf(code: string, remaining: number) {
   if (!state.codes.includes(code)) return;
   let codes = state.codes;

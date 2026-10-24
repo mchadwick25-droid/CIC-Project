@@ -1,0 +1,11 @@
+source_file: penn_some-fruits-of-solitude_gosse1901.txt
+assignments:
+- row_id: penn_some-fruits-of-solitude_gosse1901--some-fruits-of-solitude-in-reflections-and-maxims-penn-1693
+  work: Some Fruits of Solitude in Reflections and Maxims (Penn, 1693)
+  author: penn
+  locus: the preface and the numbered maxims of both parts; Gosse's introduction excluded
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: assigned
+  note: Penn's own maxims, numbered; the aphoristic register of Quaker moral teaching.

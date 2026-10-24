@@ -1,0 +1,29 @@
+source_file: misson_cry-from-the-desart_lacy1707.txt
+authors_ruled:
+  lacy-john:
+    kind: metadata-omission
+    evidence: 'The title page names John Lacy as translator and author of the preface; Lacy is the leading
+      slug of another file in this spec (lacy-john_warnings-of-the-eternal-spirit_1707.txt) and not yet
+      in cic/texts/AUTHORS.md.
+
+      '
+assignments:
+- row_id: misson_cry-from-the-desart_lacy1707--a-cry-from-the-desart-english-of-the-theatre-sacre-1707
+  work: A Cry from the Desart (English of the Théâtre sacré, 1707)
+  author: misson
+  locus: the testimonies; Lacy's preface as a separate locus below
+  atlas_ids:
+  - camisard-prophetism
+  role: tradition
+  confidence: assigned
+  note: The same sworn testimonies in contemporary English.
+- row_id: misson_cry-from-the-desart_lacy1707--preface-to-a-cry-from-the-desart-1707
+  work: Preface to A Cry from the Desart (1707)
+  author: lacy-john
+  locus: Lacy's preface
+  atlas_ids:
+  - camisard-prophetism
+  role: transmission
+  confidence: assigned
+  note: An English convert presenting the Cévennes prophets to London; the movement's reception among
+    its English followers.

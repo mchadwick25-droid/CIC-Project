@@ -1,0 +1,12 @@
+source_file: evans-and-cheevers_short-relation-of-cruel-sufferings-malta_1662.txt
+assignments:
+- row_id: evans-and-cheevers_short-relation-of-cruel-sufferings-malta_1662--this-is-a-short-relation-of-some-of-the-cruel-sufferings-of
+  work: This is a Short Relation of some of the Cruel Sufferings of Katharine Evans and Sarah Chevers
+    in the Inquisition in Malta (1662)
+  author: evans-and-cheevers
+  locus: the relation and letters; Baker's epistle as the publisher's frame
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: assigned
+  note: Two women Friends' own prison narrative, printed while they were still in the Inquisition's hands.

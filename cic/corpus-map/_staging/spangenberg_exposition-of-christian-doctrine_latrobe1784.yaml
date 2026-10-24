@@ -1,0 +1,12 @@
+source_file: spangenberg_exposition-of-christian-doctrine_latrobe1784.txt
+assignments:
+- row_id: spangenberg_exposition-of-christian-doctrine_latrobe1784--an-exposition-of-christian-doctrine-idea-fidei-fratrum-1779
+  work: An Exposition of Christian Doctrine (Idea Fidei Fratrum, 1779; English 1784)
+  author: spangenberg
+  locus: the numbered chapters and paragraphs
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: tradition
+  confidence: assigned
+  note: Spangenberg's systematic account of the Brethren's faith; the church's own second voice beside
+    Zinzendorf's.

@@ -1,0 +1,11 @@
+source_file: pius-vi_bref-sur-la-constitution-civile-du-clerge-fra_1791.txt
+assignments:
+- row_id: pius-vi_bref-sur-la-constitution-civile-du-clerge-fra_1791--quod-aliquantum-10-march-1791-french
+  work: Quod aliquantum (10 March 1791), French
+  author: pius-vi
+  locus: whole brief
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: tradition
+  confidence: assigned
+  note: The pope's condemnation of the Civil Constitution; the text that made the oath a matter of communion.
