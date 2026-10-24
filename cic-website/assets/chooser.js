@@ -198,10 +198,17 @@ function init(mount, census) {
 
     var body = el("div", { class: "bbody", tabindex: "0", role: "group", "aria-label": "About " + w.world + ". Press Enter to turn the card back." },
       [w.summary ? el("p", { text: w.summary }) : null]);
+    var spoken = census.cardAudio && census.cardAudio[w.id]
+      ? el("div", { class: "narration" }, [
+          el("audio", { controls: "", preload: "none", src: "audio/cards/" + w.id + ".mp3" }),
+          el("p", { class: "narration-disclosure", text: "Synthesized voice \u2014 not a recording." })
+        ])
+      : null;
     var backFace = el("div", { class: "face back", inert: true }, [
       el("div", { class: "band" }, [el("span", { text: bandText }), el("span", { text: e.dates })]),
       el("p", { class: "btitle", text: w.subtitle || w.name }),
       body,
+      spoken,
       el("div", { class: "acts" }, [about])
     ]);
 
@@ -217,7 +224,7 @@ function init(mount, census) {
     });
     seat.addEventListener("click", function () { toggleSeat(w.id); });
     backFace.addEventListener("click", function (ev) {
-      if (ev.target.closest("a")) return;
+      if (ev.target.closest("a, .narration")) return;
       turn(card, false);
     });
     body.addEventListener("keydown", function (ev) {
@@ -234,6 +241,8 @@ function init(mount, census) {
       backFace.querySelector(".bbody").focus();
     } else {
       backFace.setAttribute("inert", ""); frontFace.removeAttribute("inert");
+      var player = backFace.querySelector("audio");
+      if (player) player.pause();
       if (!quiet) card.querySelector(".cfront").focus();
     }
   }
@@ -526,7 +535,9 @@ function boot() {
   var mounts = document.querySelectorAll("[data-chooser]");
   if (!mounts.length) return;
   var src = mounts[0].getAttribute("data-census") || "data/world-census.json";
+  var cardAudio = fetch("audio/cards/manifest.json").then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; });
   fetch(src).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (census) { return cardAudio.then(function (audio) { census.cardAudio = audio; return census; }); })
     .then(function (census) { [].forEach.call(mounts, function (m) { init(m, census); m.setAttribute("data-ready", ""); }); })
     .catch(function () {
       [].forEach.call(mounts, function (m) {

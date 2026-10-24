@@ -634,6 +634,15 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 
 **Checked.** In a headless browser at 1440, 820 and 390 pixels wide, with the card tilt switched off to measure: all eleven cards end the same distance below "Flip". Before and after pictures of the centre card and the shorter cards were shown to Mark. Not checked: Safari on a real phone.
 
+## 2026-10-24 — Voice on the back of the cards (Mark, small projects thread)
+
+**Mark's words.** "putting voice to the backside of the cards". He chose one narrator for all eleven (the site and tree narrator already in the audio manifests), approved the Theon sample by ear, and approved the other ten by name, "card-back-run-10", with a cap of 5,000 characters.
+
+**What changed.** Each back face carries the site's existing player ("Listen", with the line "Synthesized voice — not a recording.") when `audio/cards/manifest.json` lists that world. The player stops when the card turns back, and clicking it does not turn the card. Audio reads the card's own back summary and nothing else. Clips are `cic-website/audio/cards/<census id>.mp3`, made by `Build/tools/generate_card_narration.mjs`; its manifest records a fingerprint of each summary with the voice, model and settings, and a test fails if a summary changes without its clip. No new participant-facing words.
+
+**Spend.** Sample "card-back-sample-theon": 430 characters, 208 credits. "card-back-run-10": 4,969 characters, 2,409 credits, under the 5,000 cap. Voice pqHfZKP75CvOlQylNhV4, model eleven_v4, mp3_44100_64, stability 0.55, similarity 0.8, style 0.1, speaker boost on. Checked after the run: the printed settings, the manifest and the eleven files agree, each hash matches its summary, and each clip runs 31 to 48 seconds.
+
+**Left open (see Later_List.md).** Per-world voices; the Wittenberg summary differs between the site and the approved card words.
 ## 2026-10-24 — Wittenberg's back summary: the site text stands (Mark, small projects thread)
 
 **Mark's words.** "use the site text for Wittenberg".
