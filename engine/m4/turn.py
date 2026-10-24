@@ -1110,7 +1110,8 @@ def safety_route_facilitator_events(gate_run, *, representative_name: str, track
     safety call could not run) gets the fixed line with the redirect. One owner for these
     turns, so a message the service would otherwise refuse unread (a
     closed session, an open table round, an over-long message - decision
-    35) gets exactly what an ordinary turn would."""
+    35) gets exactly what an ordinary turn would, except that a message
+    nothing could read is refused as before."""
     action = gate_run.gate_result.routing.action
     if action == "check_in_turn":
         return [facilitator_turns.check_in_turn()]

@@ -122,7 +122,9 @@ def screen_refused_message(
 ) -> "MessageResult | None":
     """System Hub decision 35: a message the service is about to refuse
     unread (a closed session, an over-long message) goes through the safety
-    call first. When the safety call routes it to the Facilitator, the
+    call first. When the safety call routes it to the Facilitator (a call
+    that could not run is not such a route: the message is refused as
+    before), the
     message, the gate decision and the Facilitator's safety turn are
     recorded and returned like any turn, and the session's state is
     otherwise unchanged (a closed session stays closed). Otherwise None,

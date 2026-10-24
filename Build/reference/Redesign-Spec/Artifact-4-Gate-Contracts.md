@@ -50,7 +50,7 @@ The directive is assembled by code from the schema — never free-composed by a 
 
 - Budget: both calls dispatched concurrently; **p95 ≤ 2.5 s, hard timeout 4 s** each.
 - **Reader fails/times out** → pass-through: the voice answers the raw message with no directive (the pre-guard state); `gate_decision.degraded = true`; turn flagged for priority audit.
-- **Safety call fails/times out** → the Facilitator's fixed line for a message that could not be read (`safety_unread_turn`), whatever the reader returned; `degraded = true`. It says the message was not read, gives the redirect to real people as an "if", and asks nothing of the participant. No model call, no safety track, no recorded safety state, no round or turn counted, no count against the monthly bound. The voice never answers a message no one has read for risk.
+- **Safety call fails/times out** → the Facilitator's fixed line for a message that could not be read (`safety_unread_turn`), whatever the reader returned; `degraded = true`. It says the message was not read, gives the redirect to real people as an "if", and asks nothing of the participant. No model call, no safety track, no recorded safety state, no Table round used, no count against the monthly bound on a normal turn. The voice never answers a message no one has read for risk.
 - **Both fail** → the fixed line for a message that could not be read, as for a safety failure; two consecutive degraded turns page the operator (Artifact 6).
 - Structured-output parse failure = failure (no salvage parsing).
 

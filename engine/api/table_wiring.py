@@ -624,7 +624,9 @@ def _close_round(
     store: Store, state: SessionState, *, reason: str, turns: int, selector_reason: str | None = None, counts: bool = True,
 ) -> int:
     """round_closed + turn_committed, in that order - a round, not a voice
-    turn, is the committed unit (Artifact-7 SS2). Returns the turn_no.
+    turn, is the committed unit (Artifact-7 SS2). Returns the turn_no. A round
+    for a message the safety check could not read (counts=False) closes
+    without turn_committed: it was not answered, so it is not a round used.
 
     Every close carries the deterministic governance summary (C5,
     engine.m4.table_governance): per-voice word/turn shares and any
@@ -1082,7 +1084,8 @@ def _screen_refused_table_message(
 ) -> TableMessageResult | None:
     """System Hub decision 35, at the table: a message about to be refused
     unread (a closed session, an open round, an over-long message) goes
-    through the safety call first. On a safety route, an open round is
+    through the safety call first. On a safety route (not the fixed line for
+    a message nothing could read, which is refused as before), an open round is
     closed (reason "safety", no further voice speaks in it) and the message
     becomes a governed round whose whole content is the Facilitator's safety
     turn, exactly as an opening message would; a closed session stays
@@ -1116,7 +1119,7 @@ def _screen_refused_table_message(
         events.validate("facilitator_turn", fe)
         store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="facilitator_turn", payload=fe)
     governed_state = project_fresh(session_id, store)
-    turn_no = _close_round(store, governed_state, reason="selector_closed", turns=0, counts=opening.routing_action != SAFETY_FAILED.action)
+    turn_no = _close_round(store, governed_state, reason="selector_closed", turns=0)
     return TableMessageResult(
         round_no=governed_state.round_no, round_open=False, routing_action=opening.routing_action,
         routing_reason=opening.routing_reason, degraded=opening.degraded,
