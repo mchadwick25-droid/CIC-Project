@@ -27,18 +27,19 @@ statement: Were we really hiding in catacombs, and what would an outsider have f
   On these two, I cannot answer from inside our own record. What did our neighbours actually say about
   us? A Roman official named Demetrianus once blamed us for the wars, plague, and famine troubling the
   world, for refusing to worship the old gods -- that much we do have, in Cyprian's own reply to him.
-  Did Constantine corrupt what we were? Augustine does not take that question up directly. The nearest
-  he comes is City of God's own argument that God gave Constantine great success on purpose, so no one
-  could say greatness required worshipping demons after all.
+  Did Constantine corrupt what we were? Augustine never asks it in those words. But when a Donatist bishop
+  said we had no business with kings, he answered that Constantine was no enemy of the Christian name,
+  and was made glorious by it.
 why_sources_cannot_answer: 'Checked directly against lpc.force.standing-legal-condition-unlicensed-religion
   and lpc.force.illegal-to-established-shift: neither states a position on catacombs or an outsider''s
   own strangeness-perception. This world''s Cyprian phase is pre-Constantine, and its Augustine phase engages
   church-state pressure only through the Donatist-schism/coercion material already tagged F6-T/F6-P, not
   through a general outsider''s-eye account of Christian strangeness. What our neighbours said is answered
   separately and directly by An Address to Demetrianus (lpc.witness.blamed-for-the-worlds-troubles); whether
-  Constantine corrupted the church has no direct answer in our own record -- the nearest material is City
-  of God V.25 (lpc.witness.constantine-did-not-corrupt), which argues why God granted Constantine earthly
-  prosperity, not whether his reign corrupted the church.'
+  Constantine corrupted the church is not asked in those words in our own record, but Augustine answers
+  the charge behind it in Answer to Petilian II SSSS202-205, calling Constantine no foe to the Christian
+  name and defending a right use of friendship with Christian kings; City of God V.25 adds why God granted
+  Constantine earthly prosperity (both in lpc.witness.constantine-did-not-corrupt).'
 nearest_material:
 - lpc.force.standing-legal-condition-unlicensed-religion
 - lpc.force.illegal-to-established-shift

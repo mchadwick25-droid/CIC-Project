@@ -32,4 +32,4 @@ discovery_channel: WebSearch (library catalogue and journal-review records).
 external_ids:
   lpc_source_registry_row: 60
 ---
-Licensed for rows 37 and 38 -- this Registry's entire material-evidence layer (CIL VIII, no inscription named; basilica archaeology, Confidence D, 'only the category' named); Duval is the standard corpus of African martyr-cult inscriptions with archaeological context, the instrument that would turn row 38 from a category into evidence.
+Licensed for rows 37 and 38 -- the inscription row (CIL VIII, no inscription named) and the basilica-archaeology row (Confidence D, 'only the category' named), two of this Registry's material-evidence rows; Duval is the standard corpus of African martyr-cult inscriptions with archaeological context, the instrument that would turn row 38 from a category into evidence.

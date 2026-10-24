@@ -122,7 +122,7 @@ and daughter, and others each appear in exactly one chunk and are not built):
       the shape here is friendly rather than hostile mediation): Pontius the
       Deacon, source for lpcstory001, 002 and 006 (three of the seven, all
       of Cyprian's own Phase One narrative material), and Possidius, bishop
-      of Calama, the sole source for lpcstory007 (the whole of Phase Two)
+      of Calama, the principal source for lpcstory007 (the whole of Phase Two)
       and, independently, the quote this script builds at lpc.quote.
       clamour-and-tears (see QUOTE SET below) -- this world's Author-Gravity
       problem for its two mediating witnesses is the mirror image of don's:
@@ -351,11 +351,14 @@ RELATION_PAIRS: list[tuple[str, str]] = [
     ("lpc.story.election-of-cyprian", "lpc.quote.ancient-venom-against-my-episcopate"),
     ("lpc.story.the-plague-and-the-enemies", "lpc.figure.cyprian"),
     ("lpc.story.the-plague-and-the-enemies", "lpc.figure.pontius"),
+    ("lpc.story.the-plague-and-the-enemies", "lpc.witness.restless-heart-and-the-unrepentant-enemy"),
     ("lpc.story.numidicus", "lpc.figure.numidicus"),
     ("lpc.story.numidicus", "lpc.figure.cyprian"),
     ("lpc.story.hundred-thousand-sesterces", "lpc.figure.cyprian"),
+    ("lpc.story.hundred-thousand-sesterces", "lpc.witness.almsgiving-quenches-sin"),
     ("lpc.story.celerinus-writes-to-lucian", "lpc.figure.celerinus"),
     ("lpc.story.celerinus-writes-to-lucian", "lpc.figure.lucian"),
+    ("lpc.story.the-death-of-cyprian", "lpc.contested.cyprian-death-genre"),
     ("lpc.story.the-death-of-cyprian", "lpc.figure.cyprian"),
     ("lpc.story.the-death-of-cyprian", "lpc.figure.pontius"),
     ("lpc.story.the-psalms-on-the-wall", "lpc.figure.augustine"),
@@ -374,6 +377,11 @@ RELATION_PAIRS: list[tuple[str, str]] = [
     ("lpc.figure.augustine", "lpc.quote.clamour-and-tears"),
     ("lpc.figure.augustine", "lpc.quote.longing-expectation-is-a-prayer-for-me"),
 ]
+
+
+# Edge targets that live in records this script does not emit (the hand-maintained
+# doctrinal_witness records and the s26 contested_claim records).
+EXTERNAL_RELATION_TYPES = {"witness", "contested"}
 
 
 def relations_for(rid: str) -> list[dict]:
@@ -550,35 +558,30 @@ def build_stories() -> None:
          "participant raises questions of authority, qualification, or whether a leader is 'ready'",
          "conversation reaches the pastoral office or collegial communion"],
         ["participant asks specifically about martyrdom or the end of Cyprian's own life -- ask "
-         "about the death of Cyprian instead, which is differently tiered",
+         "about the death of Cyprian instead",
          "participant asks about modern church governance or ordination procedure, which this "
          "account cannot speak to"],
         [],
-        "Mapped directly from Story-Chunks/lpcstory001_election-of-cyprian.md's own Story Text, "
-        "Tier Justification and Usage Guidance sections, recast from third-person report into this "
-        "world's own first-person register (see script docstring, REGISTER). The core quotation "
-        "('by the judgment of God and the favour of the people... a neophyte') is independently "
-        "re-located this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line "
-        "27820 (the word 'neophyte' itself) and the surrounding lines through 27823 -- verification_"
-        "state held at verified-direct on that basis. Ep. LXVII's own corroborating locus is carried "
-        "from the chunk's own Tier Justification and not independently re-opened this session (its "
-        "own quoted phrase, 'suffrage of the whole brotherhood', was located this session at the "
-        "same vendored file, confirmed present); the closing sentence's own second reference to "
-        "Cyprian's own words in Ep. XXXIX is this record's own addition, connecting forward to lpc."
-        "quote.ancient-venom-against-my-episcopate (see QUOTE SET), and is not itself in the "
-        "Story-Chunk.",
+        "Derived from Story-Chunks/lpcstory001_election-of-cyprian.md, recast from third-person "
+        "report into first-person register. The core quotation ('by the judgment of God and the "
+        "favour of the people... a neophyte') is at "
+        "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 27820 (the word 'neophyte') and "
+        "the lines through 27823. The phrase 'suffrage of the whole brotherhood' from Ep. LXVII is "
+        "present in the same file. The closing sentence's second reference to Cyprian's own words in "
+        "Ep. XXXIX is this record's own addition, connecting to "
+        "lpc.quote.ancient-venom-against-my-episcopate, and is not in the chunk.",
     )
 
     emit_story(
         "the-plague-and-the-enemies", 1,
-        "Widely Accepted. Tier 1 at the narrative level, Widely Accepted rather than Documented (Doc_09 SS3). "
-        "Pontius is a named eyewitness within the horizon, and the epidemic itself is independently "
-        "attested -- Cyprian's own De mortalitate was written into it. The confidence is stepped "
-        "down one band because the content of the address reaches us only through Pontius, "
-        "reconstructing a sermon he heard, in a work written to praise the man who preached it -- a "
-        "reported speech inside a biography of praise is not the same evidentiary object as a "
-        "letter in the man's own hand. Not Tier 3: there is no miracle and no providential "
-        "intervention, and the death-as-completion pattern absent because nobody dies here.",
+        "Widely Accepted. Tier 1 at the narrative level, Widely Accepted rather than Documented "
+        "(Doc_09 SS3). Pontius is a named eyewitness within the horizon, and the epidemic itself is "
+        "independently attested -- Cyprian's own De mortalitate was written into it. The confidence "
+        "is stepped down one band because the content of the address reaches us only through "
+        "Pontius, reconstructing a sermon he heard, in a work written to praise the man who preached "
+        "it -- a reported speech inside a biography of praise is not the same evidentiary object as "
+        "a letter in the man's own hand. Not Tier 3: there is no miracle and no providential "
+        "intervention, and the death-as-completion pattern is absent because nobody dies here.",
         "How our bishop met a plague by teaching us to care for the very people persecuting us",
         "Pontius, writing as a deacon who was there, described the epidemic without any of the "
         "consolation he might have reached for. \"There broke out a dreadful plague,\" he wrote, "
@@ -604,7 +607,7 @@ def build_stories() -> None:
         "pagan Carthaginian of ours left a word about being helped by us during this epidemic.",
         "A modern listener may hear 'love your enemies' as a maxim available anywhere. What is not "
         "available everywhere is the specific setting: said to a frightened congregation, in a city "
-        "where the dead were left where they fell, by a bishop who would himself be executed eight "
+        "where the dead were left where they fell, by a bishop who would himself be executed a few "
         "years later.",
         conf("A", "verified-direct", "load-bearing", "Widely Accepted",
              "Widely Accepted rather than Documented because the address's own content reaches us "
@@ -627,12 +630,11 @@ def build_stories() -> None:
          "persecution, and treating it as one misreads this account",
          "participant asks about healing or miracle, which this account does not contain"],
         [],
-        "Mapped directly from Story-Chunks/lpcstory002_the-plague-and-the-enemies.md, recast into "
-        "first-person register. 'Dreadful plague' and 'a neophyte'-adjacent material independently "
-        "re-located this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml (the "
-        "epidemic description and Cyprian's own reported address, in the same Life and Passion "
-        "Pontius text as lpcstory001, several thousand lines further on); verification_state held "
-        "at verified-direct on that basis rather than only on the chunk's own prior citation.",
+        "Derived from Story-Chunks/lpcstory002_the-plague-and-the-enemies.md, recast into "
+        "first-person register. The epidemic description and Cyprian's reported address are in the "
+        "Life and Passion of Cyprian by Pontius, in "
+        "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, several thousand lines after the "
+        "passage lpcstory001 uses.",
     )
 
     emit_story(
@@ -686,23 +688,22 @@ def build_stories() -> None:
          "-- ask about Celerinus's letter to Lucian instead, which carries the lapsed question "
          "directly"],
         [],
-        "Mapped directly from Story-Chunks/lpcstory003_numidicus.md, recast into first-person "
-        "register (Cyprian's own letter is already first-person in the chunk; the surrounding "
-        "narration here is recast from 'Cyprian writes to the clergy and people of Carthage' to "
-        "'Cyprian wrote to us'). 'Half consumed, overwhelmed with stones' independently re-located "
-        "this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml; verification_state "
-        "held at verified-direct on that basis.",
+        "Derived from Story-Chunks/lpcstory003_numidicus.md, recast into first-person register (the "
+        "chunk gives Cyprian's letter in the first person; the surrounding narration changes from "
+        "'Cyprian writes to the clergy and people of Carthage' to 'Cyprian wrote to us'). 'Half "
+        "consumed, overwhelmed with stones' is in "
+        "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml.",
     )
 
     emit_story(
         "hundred-thousand-sesterces", 1,
-        "Documented. Tier 1, Documented (Doc_09 SS3). Cyprian's own letter, first person, naming its eight "
-        "recipients, stating an amount and a mechanism -- named author, exact social location, "
-        "datable horizon, and a claim of the most ordinarily verifiable kind. One evidentiary "
-        "discipline applies here: the "
-        "ANF edition prints an Argument above the letter which is nineteenth-century editorial "
-        "matter, not Cyprian; this record cites SS3 of the letter's own body, where Cyprian states "
-        "the sum in his own voice, not the Argument that happens to carry the same true figure.",
+        "Documented. First-person testimony from Cyprian's own letter, naming its eight recipients, "
+        "stating an amount and a mechanism -- named author, exact social location, datable horizon, "
+        "and a claim of the most ordinarily verifiable kind. One citation discipline is worth "
+        "flagging directly: the ANF edition prints an Argument above the letter, which is "
+        "nineteenth-century editorial matter, not Cyprian's own words. This record cites SS3 of the "
+        "letter's own body, where Cyprian states the sum in his own voice, rather than the Argument, "
+        "which happens to carry the same true figure.",
         "How we sent a hundred thousand sesterces to ransom people most of us had never met",
         "Word reached us that fellow believers in the Numidian towns had been carried off by "
         "raiders. Cyprian's reply to the eight bishops who told us -- Januarius, Maximus, Proculus, "
@@ -741,14 +742,11 @@ def build_stories() -> None:
         ["do not invent a modern-currency conversion for the hundred thousand sesterces -- no "
          "source of ours licenses one, and the purchasing-power comparison is contested among "
          "specialists"],
-        "Mapped directly from Story-Chunks/lpcstory004_hundred-thousand-sesterces.md, recast into "
-        "first-person register. 'Hundred thousand sesterces' independently re-located this session "
-        "at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 36082 -- the same line "
-        "this record's own sources[].locus field cites; verification_state held at "
-        "verified-direct on that basis. The claim_guards entry converts the chunk's own 'the "
-        "Representative should resist converting the sum into modern currency' Usage Guidance line "
-        "into the live schema's own barred-claim field, per this script's own field-mapping "
-        "discipline (see docstring).",
+        "Recast into first-person register from Cyprian's own Epistle LIX. \"Hundred thousand "
+        "sesterces\" is verified directly at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, "
+        "line 36082, the same line this record's own sources[].locus field cites. The claim_guards "
+        "entry bars inventing a modern-currency conversion for the sum, which no source of ours "
+        "licenses.",
     )
 
     emit_story(
@@ -810,101 +808,141 @@ def build_stories() -> None:
          "either usurpers or heroes",
          "no source of ours preserves anything Numeria, Candida, or Celerinus's own sister wrote or "
          "said -- do not invent words for any of the three"],
-        "Mapped directly from Story-Chunks/lpcstory005_celerinus-writes-to-lucian.md, recast into "
-        "first-person register (Celerinus/Lucian's own letters are already first-person; the "
-        "surrounding narration is recast). 'Put to death by hunger and thirst' independently "
-        "re-located this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line "
-        "30706; verification_state held at verified-direct on that basis. Both claim_guards "
-        "entries convert Usage Guidance lines the chunk already states ('the Representative must "
-        "not resolve the tension...'; 'not one of these women speaks for herself') into the live "
-        "schema's own barred-claim field.",
+        "Derived from Story-Chunks/lpcstory005_celerinus-writes-to-lucian.md, recast into "
+        "first-person register (the letters of Celerinus and Lucian are already first-person; the "
+        "surrounding narration is recast). 'Put to death by hunger and thirst' is at "
+        "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 30706. Both claim_guards "
+        "entries turn Usage Guidance lines of the chunk ('the Representative must not resolve the "
+        "tension...'; 'not one of these women speaks for herself') into the schema's barred-claim "
+        "field.",
     )
 
     emit_story(
-        "the-death-of-cyprian", 3,
-        "Contested for the portrait; Inferential-Thin for details shaped by convention. "
-        "Tier 3, and the tier turns on genre rather than on the author (Doc_09 SS3-4). Pontius "
-        "meets Tier 1's own author test -- eyewitness deacon, identifiable location, within the "
-        "horizon -- and lpcstory001/002 assign him Tier 1 on that basis. This story is different on "
-        "the face of the text: the Zacchaeus parallel is an authorial aside, not a reader's "
-        "inference, and the executioner's failing hand strengthened 'with power granted from "
-        "above' is a providential intervention at the climax. CF V7.4's own genus clause ('resting "
-        "on collected tradition rather than direct documentation') would exclude an eyewitness like "
-        "Pontius; its hagiographic-convention clause describes this story exactly. Doc_09 assigns "
-        "Tier 3 on the convention and against the genus clause, and carries the tension to the "
-        "project lead as an open item rather than resolving it quietly -- unchanged here.",
-        "How our tradition remembered our first great bishop's death as a life fully given, "
-        "completed",
-        "This is how our own tradition remembered the death of our first great bishop -- an "
-        "account written by his own deacon, in the form of a saint's life, showing what we believed "
-        "a life fully given to the pastoral office could become. We offer it as that portrait, not "
-        "as a report of what a bystander would have seen.\n\n"
-        "In Pontius's telling, the crowd that came out for the execution could not all see, so "
-        "people climbed. \"Persons who favoured him had climbed up into the branches of the "
-        "trees.\" Pontius tells us what that resembled: \"that there might not even be wanting to "
-        "him (what happened in the case of Zacchæus), that he was gazed upon from the "
-        "trees.\"\n\n"
-        "Then the bishop bound his own eyes. \"Having with his own hands bound his eyes, he tried "
-        "to hasten the slowness of the executioner.\" The executioner could not do it easily -- the "
-        "man needed, in Pontius's account, help from above: \"until the mature hour of "
-        "glorification strengthened the hand of the centurion with power granted from above.\"\n\n"
-        "The portrait we kept, then, is of a man more composed than the soldier killing him, in a "
-        "crowd arranged like a scene from Scripture -- a life that ends the way we believed a "
-        "formed life ends: ready before anyone else in the clearing is.",
-        "What cannot be told is what the crowd made of it -- not one of them left an account of "
-        "their own. What can be told is that the official version exists: the Acta Proconsularia, "
-        "the court's own record of the proceedings, is vendored in this world's own corpus and "
-        "Pontius himself points to it, but we have not read it. Reading it would likely move this "
-        "story to Tier 1.",
-        "A modern listener asking 'did that really happen?' deserves three things at once, not "
-        "one: that Cyprian was certainly executed under Valerian in 258; that the account we have "
-        "is written in praise by his own deacon, in a form that patterns deaths on Scripture; and "
-        "that a strictly documentary record of the trial exists and we have not read it.",
-        conf("B", "verified-direct", "load-bearing", "Contested",
-             "Contested for the general portrait; Inferential-Thin for the specific details shaped "
-             "by hagiographic convention (the Zacchaeus typology, the strengthened hand) -- CF "
-             "V7.4's own Tier 3 confidence rule, and the tier assignment itself is disclosed as "
-             "resting on the hagiographic-convention clause against the genus clause, an open "
-             "escalation carried to the project lead rather than resolved here (Doc_09 SS8 item 7; "
-             "Story-Chunks/lpcstory006, Tier Justification)."),
+        "the-death-of-cyprian", 1,
+        "Widely Accepted. Tier 1 on the core that Pontius and the Acta Proconsularia both attest "
+        "(Doc_09 SS3-4). Pontius meets Tier 1's author test: a named deacon with an identifiable "
+        "place in the community, within the horizon, with Cyprian on the last night. The Acta is an "
+        "early Christian compilation built around the hearing records, its compiler unnamed and its "
+        "edition one (Hartel's, in three printings), so it corroborates a named author and does not "
+        "carry the author test alone. The details only Pontius gives are marked as his and carry "
+        "Contested confidence, or Inferential-Thin where hagiographic convention shapes them. The "
+        "two texts differ on who tied the cloths over Cyprian's eyes.",
+        "How two early texts tell our first great bishop's death, and where they differ",
+        "This is how two early texts tell the death of our first great bishop. One is by his deacon, "
+        "Pontius, who wrote it in the form of a saint's life. The other is the Acta Proconsularia, "
+        "an early Christian compilation built around the records of his hearings. Its compiler is "
+        "unnamed. Where both texts agree, we say so plainly. Where only one speaks, we say which.\n"
+        "\n"
+        "The night before the sentence, Cyprian was held in an officer's house. Pontius says that he "
+        "and the other friends \"were as usual in his company.\" The people stayed outside. Pontius "
+        "writes that they, \"in anxiety that nothing should be done throughout the night without "
+        "their knowledge, kept watch before the officer's door.\" The Acta tells it more briefly, and "
+        "it adds one detail: \"The whole people of the brethren came there. When holy Cyprian learned "
+        "of this, he ordered the young women to be guarded. He did so because all of them had stayed "
+        "in the street, before the door of the officer's lodging.\"\n"
+        "\n"
+        "In the morning a great crowd went with him. Pontius says he went out \"walled in on all "
+        "sides by the ranks of a mingled multitude.\" The Acta says that \"a large crowd gathered at "
+        "Sextus's place, as the proconsul Galerius Maximus had ordered.\"\n"
+        "\n"
+        "The proconsul read the sentence from a tablet. Pontius reports that it called Cyprian \"a "
+        "standard-bearer of the sect, and an enemy of the gods, and one who was to be an example to "
+        "his people; and that with his blood discipline would begin to be established.\" The Acta "
+        "gives the sentence in nearly the same words. On the sentence the two texts are not "
+        "independent witnesses. Only the Acta gives Cyprian's answer: Deo gratias, \"Thanks be to "
+        "God.\"\n"
+        "\n"
+        "Then the crowd of the brethren called out. The Acta gives their words: Et nos cum ipso "
+        "decollemur, \"Let us too be beheaded with him.\" It goes on: \"Because of this an uproar rose "
+        "among the brethren, and a large crowd followed him.\" Pontius does not quote the cry. He "
+        "says the people's \"general wish\" was \"that the entire congregation should suffer at once in "
+        "the fellowship of a like glory,\" and he calls them blessed because they, \"in outspoken "
+        "words, suffered with such a bishop as theirs.\"\n"
+        "\n"
+        "Only the Acta tells what came before the blow. Cyprian was led out into the field of "
+        "Sextus. There he took off his cloak. He knelt on the ground and bowed down in prayer to the "
+        "Lord. He took off his tunic and handed it to the deacons. He stood in his linen garment and "
+        "began to wait for the executioner. When the executioner came, Cyprian told his own people "
+        "to give him twenty-five gold pieces. The brethren laid linen cloths and hand-cloths before "
+        "him.\n"
+        "\n"
+        "Both texts say he covered his own eyes, and they differ on the cloths. Pontius says that, "
+        "\"having with his own hands bound his eyes,\" he tried to hurry the executioner. The Acta "
+        "says: \"Then the blessed Cyprian covered his eyes with his own hand. When he could not tie "
+        "the strips of cloth on himself, the presbyter Julianus and the subdeacon Julianus tied them "
+        "for him.\" We do not choose between the two.\n"
+        "\n"
+        "Only the Acta tells the burial. So the blessed Cyprian suffered martyrdom. Because the "
+        "pagans were curious, his body was laid nearby. By night it was taken up from there with "
+        "candles and torches. With prayer and great triumph, it was brought to the grounds of the "
+        "procurator Macrobius Candidianus. These lie on the Mappalian road, beside the pools.\n"
+        "\n"
+        "Pontius adds things the Acta does not mention, and they are his. He says the ground was "
+        "\"level, so that it affords a noble spectacle, with its trees thickly planted on all sides.\" "
+        "People who could not see \"had climbed up into the branches of the trees, that there might "
+        "not even be wanting to him (what happened in the case of Zacchæus), that he was gazed upon "
+        "from the trees.\" He writes that the executioner \"with difficulty clasped the blade in his "
+        "failing right hand with trembling fingers, until the mature hour of glorification "
+        "strengthened the hand of the centurion with power granted from above.\" The Latin of that "
+        "sentence can be read two ways. The Acta calls the executioner a spiculator and says nothing "
+        "of any strengthening. We tell that part as Pontius's reading.",
+        "What cannot be told is what any one person in the crowd made of it, because no spectator "
+        "left an account of his own. What the crowd said as a body, the Acta records: Et nos cum "
+        "ipso decollemur. Pontius himself points the reader to the Acts, at the end of his account "
+        "of the banishment hearing of 257.",
+        "A modern listener asking \"did that really happen?\" deserves three things at once. Cyprian "
+        "was executed under Valerian and Gallienus on 14 September 258. Two early texts agree on the "
+        "core of how it happened. And they disagree on one detail, who tied the cloths over his eyes.",
+        conf("B", "verified-direct", "load-bearing", "Widely Accepted",
+             "Widely Accepted rather than Documented, because the corroborating text is an early "
+             "compilation whose compiler is unnamed, and vendored scholarship argues over how it "
+             "relates to Pontius. The details only Pontius gives (the trees, the comparison to "
+             "Zacchaeus, the trembling fingers, the hand strengthened from above) carry Contested "
+             "confidence, and Inferential-Thin where hagiographic convention shapes them. The two "
+             "texts differ on who tied the cloths over Cyprian's eyes. Which clause of CF V7.4's "
+             "Tier 3 definition governs when they conflict is an open governance question (Doc_09 "
+             "SS8 item 7), and this story does not rest on it."),
         [{"source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
           "locus": "SSSS15-19; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines "
-                   "28100-28260",
+                   "28161-28303; Latin in "
+                   "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines "
+                   "41243-41366",
           "license": "public-domain"},
          {"source_id": "lpc.source.acta-proconsularia-sancti-cypriani",
-          "locus": "the strictly documentary witness, vendored in Latin only and not read in this "
-                   "build; named here rather than silently omitted",
+          "locus": "Acta 2-6, an early compilation with an unnamed compiler, in one edition (Hartel) "
+                   "printed three times; "
+                   "cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt, lines "
+                   "4877-4958, quoted here; the same text in the Hartel volume, lines 41509-41626, "
+                   "and in Gebhardt no. XI",
           "license": "public-domain"}],
         2,
         ["participant asks how we understood a life completed",
+         "participant asks how Cyprian died, or how his people met his death",
          "participant asks what we believed formation finally produced",
          "conversation reaches the pastoral office or the confessor tension"],
-        ["participant wants to know what historically happened at Cyprian's own trial -- this "
-         "account is not the right instrument, and the Acta has not been read"],
+        ["participant wants a transcript of Cyprian's trial -- the Acta is a Christian compilation "
+         "built around the hearing records, and is not a court transcript"],
         ["this account must not be presented as historical fact that the executioner's hand was "
-         "strengthened from above -- we report only that this is how the tradition told it"],
-        "Mapped directly from Story-Chunks/lpcstory006_the-death-of-cyprian.md, recast into "
-        "first-person register except the opening framing sentence, kept close to the chunk's own "
-        "explicit 'this is how this world's tradition remembered' framing (recast to 'this is how "
-        "our own tradition remembered', avoiding the literal phrase 'this world' per gate_voice_"
-        "perspective). 'Bound his eyes' independently re-located this session at cic/texts/"
-        "anf05_hippolytus-cyprian-caius-novatian.xml; verification_state held at verified-direct on "
-        "that basis. retrieval.tier set to 2 (a specialized, hagiographic-register companion case "
-        "to the six Tier 1 documentary stories), matching don's own precedent for its own Tier 3 "
-        "story.",
+         "strengthened from above -- we report only that this is how Pontius told it",
+         "the two texts differ on who tied the cloths over Cyprian's eyes -- we state the "
+         "difference and do not resolve it"],
+        "Derived from Story-Chunks/lpcstory006_the-death-of-cyprian.md, recast into first-person "
+        "register. Quotations from Pontius are in "
+        "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 28160-28303, and the English "
+        "renderings of the Acta are this build's own.",
     )
 
     emit_story(
         "the-psalms-on-the-wall", 1,
-        "Documented. Tier 1, Documented (Doc_09 SS3). Possidius was a bishop in his own right, Augustine's "
-        "friend for close to forty years, and -- decisively for the tier -- physically present: "
-        "one of those Augustine 'asked of us who were present,' writing 'while we stood by and "
-        "watched and prayed.' The distinction from lpcstory006, where both accounts are bishops' "
-        "deaths written by admirers, is the presence or absence of the genre's own machinery: "
-        "Pontius supplies a scriptural typology and a providential intervention; Possidius supplies "
-        "sheets of paper on a wall, a request not to be disturbed, and an inventory of what the "
-        "dead man did not own. The test applied is CF V7.4's own three Tier 3 markers, and this "
-        "account carries none of them.",
+        "Documented. Tier 1, Documented (Doc_09 SS3). Possidius was a bishop in his own right, "
+        "Augustine's friend for close to forty years, and -- decisively for the tier -- physically "
+        "present: one of those Augustine 'asked of us who were present,' writing 'while we stood by "
+        "and watched and prayed.' Like lpcstory006, this is a bishop's death written by an admirer. "
+        "The difference is the presence or absence of the genre's own machinery: Pontius supplies a "
+        "scriptural typology and a providential intervention, which lpcstory006 marks as his alone; "
+        "Possidius supplies sheets of paper on a wall, a request not to be disturbed, and an "
+        "inventory of what the dead man did not own. The test applied is CF V7.4's own three Tier 3 "
+        "markers, and this account carries none of them.",
         "How the one who spent his life adjudicating others' penitence was watched doing his own",
         "Possidius had been Augustine's friend for nearly forty years, and he was in the house.\n\n"
         "He records something Augustine had said often, in private conversation: that even after "
@@ -950,10 +988,9 @@ def build_stories() -> None:
          "not carry",
          "immediately after the death of Cyprian -- two deathbeds in succession flattens both"],
         [],
-        "Mapped directly from Story-Chunks/lpcstory007_the-psalms-on-the-wall.md, recast into "
-        "first-person register. 'Shortest penitential Psalms' independently re-located this session "
-        "at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 4925; verification_state "
-        "held at verified-direct on that basis.",
+        "Derived from Story-Chunks/lpcstory007_the-psalms-on-the-wall.md, recast into first-person "
+        "register. 'Shortest penitential Psalms' is at "
+        "cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 4925.",
     )
 
 
@@ -1062,11 +1099,13 @@ def build_figures() -> None:
           "locus": "the whole Vita Augustini, and its own closing first-person account of "
                    "Augustine's own last illness and death",
           "license": "public-domain"}],
-        "The sole source for the whole of Phase Two's one built story, and the source of lpc.quote."
-        "clamour-and-tears -- the mirror of Pontius's own role for Phase One, a friendly rather "
-        "than hostile mediating eyewitness whose own presence in the room (rather than only his "
-        "own social location) is what the Tier Justification for lpc.story.the-psalms-on-the-wall "
-        "rests its Tier 1 finding on.",
+        "The principal source for Phase Two's one built story, and its only witness to the sickroom "
+        "(Prosper's Chronicon corroborates the death, its date and the siege, and adds that he was "
+        "still answering Julian, but says nothing of the sickroom), and the source of "
+        "lpc.quote.clamour-and-tears -- the mirror of Pontius's own role for Phase One, a friendly "
+        "rather than hostile mediating eyewitness whose own presence in the room (rather than only "
+        "his own social location) is what the Tier Justification for "
+        "lpc.story.the-psalms-on-the-wall rests its Tier 1 finding on.",
     )
 
     emit_figure(
@@ -1155,9 +1194,12 @@ def build_quotes() -> None:
         "principle about separated powers among equal branches. We mean neither. It is a working "
         "statement of how a council among us proceeds, said by the man presiding, inside a shared "
         "conviction that the episcopate is one undivided office rather than a hierarchy of ranks.",
-        "No one of us stands over the other bishops, and none forces another to obey through fear. "
-        "Each bishop has his own right to judge for himself, and answers for it only to Christ, who "
-        "alone has the power to judge us all.",
+        "None of us sets himself up as a bishop over other bishops, and none of us uses a tyrant's "
+        "terror to force a colleague into obedience. Every bishop has his own right to judge, in "
+        "keeping with the freedom and power allowed to him. He can no more be judged by another "
+        "bishop than he himself can judge another. Instead, let us all wait for the judgment of our "
+        "Lord Jesus Christ. He is the only one who has the power both to place us in the government "
+        "of His Church and to judge how we conduct ourselves there.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.cyprian-seventh-council-of-carthage",
           "locus": "the 256 Council preface; independently re-located and re-read this session at "
@@ -1203,8 +1245,10 @@ def build_quotes() -> None:
         "personally so much as at the act by which he became bishop at all -- our own suffrage, "
         "joined to what he calls God's own judgment. Rejecting him, on his own reading, meant "
         "rejecting that acclamation itself.",
-        "They still carry that old poison against me as bishop. That means against your own vote, "
-        "and God's own judgment. So they attack me again, the same way as before.",
+        "For they have not forgotten their conspiracy. They still carry that old venom against my "
+        "office as bishop, which means against your vote and against God's judgment. They are "
+        "renewing their old attack on me, and once again they are starting their sacrilegious plots "
+        "with their usual cunning.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.cyprian-epistles",
           "locus": "Ep. XXXIX SS1; independently re-located and re-read this session at cic/texts/"
@@ -1247,9 +1291,11 @@ def build_quotes() -> None:
         "of speaking. Cyprian states it as a claim about his own office's own nature: a shepherd's "
         "own wound is not sympathy offered from outside the flock's own suffering, but the same "
         "wound, felt at its own worst point.",
-        "I grieve with you, and I will not let my own safety comfort me out of it, because it is "
-        "the shepherd who is hurt worst by the wound to his own flock. I carry each of you in my "
-        "own chest. I wail with those who wail, I weep with those who weep.",
+        "I grieve, brothers, I grieve with you. My own integrity and my personal soundness do not "
+        "lure me into soothing my griefs. That is because it is the shepherd who is wounded most "
+        "deeply when his flock is wounded. I hold each one of you close to my heart, and I share the "
+        "heavy burden of sorrow and mourning. I wail with those who wail, I weep with those who "
+        "weep...",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.cyprian-de-lapsis",
           "locus": "De Lapsis SS4; independently re-located and re-read this session at cic/texts/"
@@ -1294,15 +1340,17 @@ def build_quotes() -> None:
         "was done, while he wept -- the same congregational-acclamation pattern lpc.story.election-"
         "of-cyprian shows for Cyprian, a century and a half earlier, recurring at Hippo for "
         "Augustine.",
-        "We already knew Augustine's own life and teaching, so we took hold of him -- he was "
-        "standing right there among us, with no idea what was coming. We brought him to the bishop "
-        "to be ordained, because all of us together wanted it done. We demanded it, loudly, while "
-        "he wept.",
+        "The Catholics already knew the life and teaching of the holy Augustine, and they seized "
+        "him. He was standing there among the people, feeling safe and unaware of what was about to "
+        "happen... So they seized him and, as is the custom in such cases, brought him to the bishop "
+        "to be ordained. They did this because all of them, with one accord, wanted it done and "
+        "carried through. They demanded it with great eagerness and loud shouting, while he wept "
+        "freely.",
         conf("A", "verified-direct", "load-bearing", "Documented",
              "The vendored Weiskotten scan carries a single OCR artifact inside this quotation -- "
              "'ancf' for 'and' -- reproduced here exactly as the scan gives it (matching this "
-             "record's own text against the raw file precisely, per this step's own discipline), "
-             "not silently corrected; modern_rendering gives the plain sense ('We demanded it...') "
+             "record's own text against the raw file precisely, per this step's own discipline), not "
+             "silently corrected; modern_rendering gives the plain sense ('they demanded it...') "
              "rather than reproducing the artifact."),
         [{"source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
           "locus": "Vita Augustini IV; independently re-located and re-read this session at cic/"
@@ -1347,9 +1395,9 @@ def build_quotes() -> None:
         "means something more exact: the congregation's own act of showing up and waiting to hear "
         "him is itself, for him, a form of intercession on his behalf -- not a compliment to them, "
         "but a claim about what their attention does for the man who has to speak.",
-        "I know you're here because you want to hear this, not because you have to. So I'm not "
-        "talking to people who won't listen. Your own waiting, right now, is itself a prayer for "
-        "me.",
+        "But now I imagine that no one has come here except those who want to hear. So I am not "
+        "speaking to deaf hearts, or to minds that will look down on the word. Instead, this longing "
+        "expectation of yours is a prayer for me.",
         conf("A", "verified-direct", "load-bearing", "Documented",
              "Independently re-located this session by direct keyword search of the vendored file "
              "-- corrects this script's own earlier draft, which had claimed the same search "
@@ -1359,9 +1407,13 @@ def build_quotes() -> None:
              "corrected before commit, not carried forward."),
         [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
           "locus": "Sermon I [LI, Benedictine], 'Of the agreement of the evangelists Matthew and "
-                   "Luke in the generations of the Lord,' delivered at the matins of the Nativity "
-                   "festival; independently re-located this session at cic/texts/npnf106_augustine-"
-                   "sermon-mount-harmony-gospels-homilies.xml, line 9398",
+                   "Luke in the generations of the Lord' -- delivered some time after the Nativity "
+                   "festival's own matins, not at the matins itself; the sermon's own opening "
+                   "recalls that at matins Augustine had put off the question he now resolves (\"it "
+                   "was in the matins of the festival of the Lord's Nativity, that I put off the "
+                   "question which I had proposed for resolution\"); independently re-located this "
+                   "session at "
+                   "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 9398",
           "license": "public-domain"}],
         1,
         ["participant asks what preaching meant to this world, or what a congregation's own "
@@ -1375,14 +1427,15 @@ def build_quotes() -> None:
          "not be reached for outside that register"],
         [],
         "Named directly in the Permanent Prompt's own 'what our own life actually gave us' "
-        "paragraph, its final named image: 'A preacher naming, to the very people gathered in "
-        "front of him, that their own waiting is itself a kind of prayer for him.' This is the "
-        "fifth of the Permanent Prompt's seven candidate images to be built as a quote record -- "
-        "the other two (the certificate/wide-door contrast and the two-answers-on-baptism "
-        "contrast) remain synthesized prose without a single quotable sentence, disclosed as such "
-        "in this script's own docstring rather than built. Sermon I is undated within this "
-        "world's own construction record beyond 'delivered at the matins of the festival of the "
-        "Lord's Nativity' (the sermon's own words) -- no further narrowing is attempted here.",
+        "paragraph, its final named image: 'A preacher naming, to the very people gathered in front "
+        "of him, that their own waiting is itself a kind of prayer for him.' This is the fifth of "
+        "the Permanent Prompt's seven candidate images to be built as a quote record -- the other "
+        "two (the certificate/wide-door contrast and the two-answers-on-baptism contrast) remain "
+        "synthesized prose without a single quotable sentence, disclosed as such in this script's "
+        "own docstring rather than built. Sermon I's own delivery date is undated within this "
+        "world's own construction record beyond the sermon's own words placing it after the Nativity "
+        "festival's matins, at which Augustine had deferred this same question. No further narrowing "
+        "of the actual delivery date is attempted here.",
     )
 
 
@@ -1413,7 +1466,9 @@ def main() -> None:
     all_ids = {Path(p).stem for p in WRITTEN}
     for a, b in RELATION_PAIRS:
         assert a in all_ids, f"RELATION_PAIRS references {a!r}, never emitted"
-        assert b in all_ids, f"RELATION_PAIRS references {b!r}, never emitted"
+        assert b in all_ids or b.split(".")[1] in EXTERNAL_RELATION_TYPES, (
+            f"RELATION_PAIRS references {b!r}, never emitted"
+        )
 
     print(f"Wrote {len(WRITTEN)} records: {len(story_files)} story, {len(figure_files)} figure, "
           f"{len(quote_files)} quote.")
