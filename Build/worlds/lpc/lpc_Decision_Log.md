@@ -2633,3 +2633,9 @@ Alternatives shown: (1) fix all six P1s with a sweep of the Permanent Prompt, Ca
 ### 2026-10-24 — CO-LPC-3 round 3: one Capsule line and ten leftovers, then a small recheck (project lead's ruling)
 
 Alternatives shown: (1) the reviewer's one-line Capsule fix and all ten P2s, then a small Opus 5.5 recheck of those lines; (2) the P1 only, the P2s logged; (3) no recheck. Chosen: 1 (project lead, 2026-10-24). Cap ruling in the System Hub Decision Log.
+
+---
+
+### 2026-10-24 — Sermon quote batches: by gravity, Primary first (project lead's ruling)
+
+Alternatives shown: (1) by gravity, Primary first: batch 1 of about 12 passages from the 97 NPNF sermons, chosen by reading, carrying the Primary gravities, then the Supporting gravities, then thin canon cells; (2) by participant question, starting from empty or thin canon cells; (3) straight through the 97 in NPNF order. Chosen: 1 (project lead, 2026-10-24). The Primary gravities per Doc_04 are the pastoral office, penitential discipline, collegial communion and sacramental and ordination validity; the question as put also listed preaching and catechesis, which Doc_04 classes Supporting, so it goes to the second batch. Each quote is checked word for word, rendered by Opus and reviewed by Opus.
