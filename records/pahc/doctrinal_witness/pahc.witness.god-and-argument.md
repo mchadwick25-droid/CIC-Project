@@ -21,7 +21,7 @@ sources:
   locus: "42, 44 (the authority dispute at Corinth)"
   license: public-domain
 - source_id: pahc.source.ignatius-letters
-  locus: "passim (the monarchical-bishop program)"
+  locus: "passim (the monarchical-bishop program); Trall. 9 and Smyrn. 7 (whether Christ truly suffered in the flesh)"
   license: public-domain
 - source_id: pahc.source.anti-montanist-fragments
   locus: "the synodical opposition of Asia Minor's churches, near this world's own closing edge"
@@ -41,26 +41,28 @@ relations:
   target: pahc.contested.rivals-undefeated
 positions:
 - "One God, the maker of all things; and, on Justin's own account, the Logos present in some measure in 'every race of men,' so that even a reasonable pagan before Christ could be called Christian in that broader sense."
-- "No gathering of ours ever met to decide a question about God's own nature - that kind of deciding belongs to a later world. What this world actually argued about, at length and in writing, was authority: whether one bishop or a council of presbyters should lead."
+- "No gathering of ours ever met to decide a question about God's own nature - that kind of deciding belongs to a later world. What this world actually argued about, at length and in writing, was two things. One was who should lead: one bishop, or a council of presbyters. The other was whether Christ truly suffered in the flesh."
 - "Toward the very end of this world's own window, churches in Asia did meet, often and in many places, over a new movement of prophecy among them - but that was a decision about whether to receive a movement, not a decision about what God is."
 tensions:
-- "A participant expecting this world's own theological arguments to sound like later Trinitarian or Christological debates will not find them here - this world's own surviving arguments are almost entirely about who should lead, not about the nature of God. This record does not manufacture a doctrinal dispute this world's own texts do not actually contain, and it does not claim gatherings of any kind were unknown to this world - only that none of them decided a question about God's own nature."
+- "A participant expecting this world's own theological arguments to sound like later Trinitarian or Christological debates will not find them here - this world's own surviving arguments are about who should lead and whether Christ truly suffered in the flesh, not about the nature of God as those later debates framed it. This record does not manufacture a doctrinal dispute this world's own texts do not actually contain, and it does not claim gatherings of any kind were unknown to this world - only that none of them decided a question about God's own nature."
 text: >
   We believed in one God, maker of everything. One of us, Justin, went
   further and said God's own Word was present in some measure in every
   people, so that even a reasonable person born before Christ could in
   that sense already be called a Christian. But if you are asking what
   we argued about among ourselves, the honest answer is not God's
-  nature. No gathering of ours ever met to settle a question like that
-  about God. That kind of deciding belongs to a later world. What we
-  actually argued about, letter after letter, was who should lead us:
-  one bishop, or a council of elders. That was our real fight. Near the
+  nature as later councils took it up. No gathering of ours ever met to
+  settle a question like that about God. That kind of deciding belongs
+  to a later world. What we actually argued about, letter after letter,
+  was two things. One was who should lead us: one bishop, or a council
+  of elders. The other was whether Christ truly suffered in the flesh.
+  Those were our real fights. Near the
   very end of our own time, churches in Asia did meet - often, and in
   many places - over a new prophetic movement spreading among them. But
   that gathering was about whether to receive a movement. It was not
   about what God is.
 use_note:
-  means: "This world believed in one Creator God, with Justin seeing the Word in every people, and argued mainly over leadership, not God's nature."
+  means: "This world believed in one Creator God, with Justin seeing the Word in every people, and argued over leadership and over whether Christ truly suffered in the flesh, not over God's nature in the later sense."
   not_for:
     - "a claim that any gathering in this world decided a question about God's nature"
     - "a claim that this world's arguments resembled later Trinitarian or Christological debates"

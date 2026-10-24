@@ -20,7 +20,7 @@ sources:
   locus: "the sayings tradition's own recurring combat idiom, applied cross-strand (compiler-mediated, per this source's own compiler screen)"
 name: "The end of persecution, closing off martyrdom as an available path [1A - initiating/external]"
 kind: initiating
-description: "The last empire-wide persecution (303-311/313) ended. Constantine's toleration then removed the political conditions that had made martyrdom a live path. It had been a structurally available way for a Christian to give all. In the world's own experience, this was not a neutral relief. The tradition speaks of demonic combat and inner war. Antony's struggle at the tombs and in the fort is one case. This record infers that the world chose this as its own link to martyrdom. The total confrontation moved from an outside persecutor to the inner life. It was not an analogy from outside the tradition."
+description: "The last empire-wide persecution (303-311/313) ended. Constantine's toleration then ended the conditions that had made martyrdom a live path. It had been an open way for a Christian to give all. In the world's own experience, this was not a neutral relief. The tradition speaks of demonic combat and inner war. Antony's struggle at the tombs and in the fort is one case. Athanasius links this to martyrdom once, for Antony alone. This record reads the link as wider, by inference. The total confrontation moved from an outside persecutor to the inner life."
 matrix_cell: 1A
 manifestations:
 - "the systematic persecution's own end, c. 311-313, removing an external total-offering path that had previously existed"

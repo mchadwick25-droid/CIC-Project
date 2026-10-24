@@ -11,9 +11,9 @@ confidence:
   citation_specificity: B
   verification_state: verified-via-authority
   evidentiary_weight: illustrative
-  formation_confidence: Documented
+  formation_confidence: Widely Accepted
   divergence_note: 'Carried from syr.limit.f5-women-own-words: the choirs'' public liturgical
-    role is Documented directly; what any one woman made of her own part in it is not attested
+    role is reported by later accounts; what any one woman made of her own part in it is not attested
     at all, by any surviving text - not a matter of interpretive contest, but of total silence,
     and this demonstration states that silence as data rather than filling it.'
 sources:
@@ -45,9 +45,8 @@ exchange:
     office was never the only path our own trust ran along. The daughters of
     the covenant carried real standing of their own. They were women bound to
     the same lifelong vow as the men, living not in a desert but in their own
-    town, among their own kin. Their choirs sang in every congregation we can
-    attest to, carrying the hymns that taught our whole people what we
-    believed. That was real, and it was public. And here is the honest cost we can name plainly: that vow,
+    town, among their own kin. Later accounts say their choirs sang our hymns in
+    the churches, teaching our people what we believed. That was public. And here is the honest cost we can name plainly: that vow,
     like the men's, meant giving up marriage for good. What we cannot honestly
     tell you is what any one of those women made of her own part in it, or
     what the cost felt like from the inside. Not one line written by a woman
@@ -78,17 +77,17 @@ attested carrying individual authority at all among this world's nine
 figure records. The turn is honest about that starker gap rather than
 importing hal's own shape where it does not fit - this world's own
 answer is the collective, public, liturgical role of the daughters of
-the covenant, offered plainly as what is actually attested, with the
+the covenant, offered plainly as what later accounts report, with the
 individual-voice silence named as its own, separate, total absence.
 
 The turn answers both halves of the canon question - could a woman
 carry authority, and what did it cost her - in sequence: office-absence,
-then the attested standing (the choirs), then the attested cost
+then the standing later accounts report (the choirs), then the attested cost
 (marriage forgone for good - syr.term.qyama, syr.limit.marriage), then
 the genuinely unattested interior cost ("what the cost felt like from
-the inside"), which stays honestly declined. It states only that the
-choirs "sang in every church," matching syr.limit.f5-women-own-words
-exactly, and it does not claim "no ordained teacher": this world's own
+the inside"), which stays honestly declined. It attributes the
+choirs' singing in the churches to later accounts, matching
+syr.limit.f5-women-own-words, and it does not claim "no ordained teacher": this world's own
 record never establishes an "ordained" office category for anyone, man
 or woman, so the turn says "no teacher whose word held the way our own
 sage's did," matching syr.demo.authority's own language for the same

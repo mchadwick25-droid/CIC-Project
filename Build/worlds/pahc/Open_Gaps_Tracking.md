@@ -835,3 +835,17 @@ Opus claim check of the six recorded 13 October live replies (`engine/m4/reports
 Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md`.
 
 Status: OPEN.
+
+### OG-39. Live-reply claim check findings re-confirmed and fixed, 2026-10-23.
+
+Follows the 2026-10-19 "Live-reply claim check" entry. Re-confirmed independently against the vendored texts on 2026-10-23, then fixed. Drafted by Sonnet, reviewed by Opus over two rounds (`Build/Ministry/Operations/Audits/2026-10-23_live-reply-record-fixes_Review_Round1.md`, `Build/Ministry/Operations/Audits/2026-10-23_live-reply-record-fixes_Review_Round2.md`). Packages rebuilt and repinned.
+
+Fixed:
+- `pahc.quote.the-memoirs-of-the-apostles-are-read` modern_lens_note: "he does not call them that" was false. In 1 Apology 66 Justin says the memoirs "are called Gospels." The note now says so.
+- `pahc.story.quintus-recantation`: "names someone else first" was false (the letter praises Polycarp in ch. 1 and Germanicus in ch. 3; Quintus is ch. 4). Now: before it tells of Polycarp's flight and arrest, it tells of a different man.
+- `pahc.witness.god-and-argument`: "our real fight was who should lead" left out the fight over whether Christ truly suffered in the flesh (Ignatius, Trallians 9, Smyrnaeans 7), which `pahc.force.boundary-drawing` records. Now two fights.
+- `pahc.force.neronian-persecution`: the structural point now cites 1 Clement 44; the unsourced felt-urgency sentence is cut.
+
+Still open: nine other pahc force records carry the same unsourced "world's own experience" prose (transmission-network, alexandria-emergence, authority-consolidation, roman-mediterranean-world, monepiscopacy-consolidation, systematic-theological-mode-elsewhere, martyrdom-meaning, two-ways-catechetical-inheritance, boundary-drawing).
+
+Status: OPEN for the nine force records. The claim check findings FIXED 2026-10-23/24, awaiting an independent recheck by a separate Opus thread (CLAUDE.md: a blocking finding does not clear by self-certification); fix list: `Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Fix-List.md`.

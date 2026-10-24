@@ -21,17 +21,17 @@ sources:
   locus: the structural finding
   license: in-copyright-consultation
 statement: 'You ask what the women among us said of their own lives. The writings we
-  have are men''s. The daughters of the covenant sang our teaching in every church. Their voices carried our faith. Yet not one line written by one of them was kept. We can tell you how men praised them.
+  have are men''s. Later accounts say the daughters of the covenant sang our teaching in the churches. Their voices carried our faith. Yet not one line written by one of them was kept. We can tell you how men praised them.
   We cannot give you their own words.'
 why_sources_cannot_answer: No text composed by a bnat qyama woman - or any woman of this world - survives
-  from the window. The women's singing, vows, and service are attested only through Aphrahat's and Ephrem's
-  texts and later men's accounts.
+  from the window. Their vows and service reach us only through Aphrahat's and Ephrem's
+  texts. Their singing in the churches is reported only by later men's accounts.
 nearest_material:
 - syr.term.qyama
 - syr.term.ihidaya
 - syr.force.transmission-ongoing
 use_note:
-  means: "The surviving writings are all men's: the daughters of the covenant sang the teaching in the churches, but no text by any woman of this world survives."
+  means: "The surviving writings are all men's: later accounts say the daughters of the covenant sang the teaching in the churches, but no text by any woman of this world survives."
   not_for:
     - "a quotation or paraphrase presented as a woman's own words"
     - "a claim that the record shows how women felt about their lives"

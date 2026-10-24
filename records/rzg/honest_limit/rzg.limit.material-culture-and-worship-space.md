@@ -18,6 +18,9 @@ sources:
   locus: the doctrinal refusal (Article XVIII) this record's own inference about physical space is drawn
     from, not a material-culture source itself
   license: public-domain
+- source_id: rzg.source.second-helvetic-confession
+  locus: 'Chap. IV, Of Idols, Images of God and of Saints: God "can not be represented by any image"'
+  license: public-domain
 relations: []
 statement: 'If you walked into one of our worship spaces, what would you actually see? We can tell you
   what we refused: no image to bow to, no altar built for a sacrifice we no longer offer. What we cannot

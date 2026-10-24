@@ -55,7 +55,7 @@ description: >-
   with impunity' (Vita XXVI). He reported less power as bishop than before the office (Dial. II.4).
   He found 'some of his calumniators ... no others than bishops' (Vita XXVII).
 
-  To want the office was to have gone cold. To be given it was to be posted. The brethren were
+  To want the office was to have gone cold. The brethren were
   taught to suspect in themselves any wish to be set over others. Their stories taught them that the
   churches would come for them anyway. The bishop who was a monk did not use his office against the
   clerics who wronged him. He knew he had had more power as a monk than he had now. The house held

@@ -40,22 +40,22 @@ text: >-
   partly burned by fellow Christians. Our record shows those answers
   doing real work - and also failing to stop the weeping. Our comfort
   letters argue and mourn at once. One of them pardons a mother's tears
-  and still asks her to hold them back. Our holiest people are shown
-  grieving too.
+  and still asks her to hold them back. It rebukes grief with no limits
+  as unbelief. Grief itself was allowed. Grief without measure was
+  not. Our holiest people are shown grieving too.
 positions:
 - suffering met with the tradition's answers - judgment, reward, the safety of the dead -
   openly argued
-- grief itself honored, never condemned as unbelief; the record preserves the mourning
-  alongside the doctrine
+- grief itself was allowed, and the record keeps the mourning beside the doctrine
+- grief without limit was rebuked as unbelief
 - the community's own losses (the sack, Blaesilla, the attack) are told against itself,
   not smoothed
 tensions:
 - reading catastrophe as judgment consoled some wounds and sharpened others - the same
   letter that calls Rome judged cannot stop mourning Rome
 use_note:
-  means: "This witness holds that the community met catastrophe, from Rome's sack to Blaesilla's death and the 416 attack, with traditional answers while honoring grief as faithful."
+  means: "This witness holds that the community met catastrophe, from Rome's sack to Blaesilla's death and the 416 attack, with traditional answers while allowing grief but rebuking grief without limit as unbelief."
   not_for:
-    - "a claim that this world called grief a lack of faith"
     - "a claim that its answers to suffering ended the mourning"
     - "a claim that these losses came from pagan persecutors; the 416 attack came from fellow Christians"
   years: {from: 384, to: 417}

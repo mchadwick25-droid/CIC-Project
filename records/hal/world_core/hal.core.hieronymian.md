@@ -22,6 +22,9 @@ sources:
 - source_id: hal.source.jerome-ep22
   locus: whole letter (the formation ideal, Rome period)
   license: public-domain
+- source_id: hal.source.jerome-ep125
+  locus: sec. 12 (Jerome takes up Hebrew study beside fasting)
+  license: public-domain
 - source_id: hal.source.vulgate-prefaces
   locus: passim (the scholarly project defended in its own voice)
   license: public-domain
@@ -38,15 +41,7 @@ horizon: 'Bethlehem and Rome, c. 382-420 CE: the ascetic-literary formation ecol
   (the double monastic community and pilgrim hospice) and Rome (the Aventine circle, an
   independent center of scriptural counsel) held together by letters, dedications, and
   patronage across the sea. The final decade narrows to Bethlehem alone.'
-formation_logic: 'Formation as textual asceticism: ascetic renunciation (fasting, continence,
-  the deliberate unmaking of aristocratic wealth and standing) and scholarly-literary labor
-  (Hebrew study, translation, commentary, sustained correspondence) practiced as one
-  discipline, not two. A person entering this life was formed as much by the correction of
-  a word against the Hebrew as by fasting; wealth was converted into text, hospitality, and
-  care for the sick; the letter itself was a formation event, carrying direction, argument,
-  and belonging across the distance between the two poles. Authority ran through recognized
-  scriptural learning and voluntary patronage - never through episcopal office or territorial
-  jurisdiction.'
+formation_logic: 'Formation as textual asceticism. Two things were practiced as one discipline. One was renunciation: fasting, continence, and giving up rank and wealth. The other was learned work on texts: Hebrew study, translation, commentary, and constant letters. A person entering this life was formed by fasting and by fixing a word against the Hebrew. Jerome took up Hebrew as a remedy beside fasting, when fasting alone did not calm his mind. Wealth was turned into books, shelter for guests, and care for the sick. The letter itself shaped people. It carried direction, argument, and belonging across the sea between the two poles. Authority came from known learning in scripture and from free patronage. It never came from church office or rule over land.'
 thinness: 'Richest in Jerome''s own letters, translation prefaces, and polemic, and in the
   remembered lives of the women - Paula, Marcella, Eustochium, Fabiola - as he chose to
   commemorate them. Thin-to-silent, structurally: no text composed by any of the women

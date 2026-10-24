@@ -16,10 +16,14 @@ confidence:
     pass at Doc_06 - this world's own disclosed deferral (Doc_06 SS0) for the eleven non-Tier-1 candidates.
     The underlying doctrine is Documented in the cited source, but this specific record's own citation
     was not independently re-verified against the vendored file this pass, hence verified-via-authority
-    rather than verified-direct.
+    rather than verified-direct. The Zwingli quotation alone was read directly in the vendored Latin Works
+    vol. 3 (On True and False Religion, ch. [24] Merit).
 sources:
 - source_id: rzg.source.calvin-institutes-book1
   locus: Book I
+  license: public-domain
+- source_id: rzg.source.zwingli-latin-works-vol3
+  locus: On True and False Religion, ch. [24] Merit ("providence is the mother of predestination, as it were")
   license: public-domain
 retrieval:
   tier: 2
@@ -39,7 +43,9 @@ senses:
     ground Predestination and Election name for our own salvation specifically, applied here to the whole
     created order.
   evidential: Calvin's Institutes, Book I, states this doctrine at length. It is present in Zwingli's
-    own earlier theology too, though not developed to the same degree in what our own record preserves.
+    earlier theology too. He wrote a whole treatise, On the Providence of God, but our record does not hold it.
+    His Commentary on True and False Religion, which we do hold, says that "providence is the mother of
+    predestination, as it were".
   personal: 'We rested on this as we rested on our own election: not as a fact we proved, but as a ground
     we stood on.'
   translational: This does not mean that God's reasons lie open to us. Calvin taught that God cares for

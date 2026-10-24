@@ -33,10 +33,10 @@ edition: 'No open edition of the complete treatise acquired -- no open-license E
   three-book Against Eunomius exists in cic/texts/ or elsewhere in this project''s manifest (world_core
   cautions #6; Source Registry rows 14, 24, both naming DelCogliano & Radde-Gallwitz 2011 as the only
   complete translation, copyrighted and excluded). Not to be confused with Epistle XVI ("Against Eunomius
-  the heretic"), a distinct, shorter letter genuinely vendored within cic/texts/npnf208_basil-letters-select-works.xml''s
+  the heretic"), a distinct, shorter letter genuinely vendored within the vendored file npnf208_basil-letters-select-works.xml''s
   Letters division, covering adjacent epistemological ground in Basil''s own voice.'
 citation: Basil of Caesarea, Against Eunomius (books 1-3)
-kind: vendored
+kind: unvendored
 rights_status: "not applicable to the treatise itself - no text of it is vendored or acquired to hold rights over (a separately vendored epistle by the same author carries public-domain status)"
 attribution_status: attributed
 discovery_channel: 'Direct inspection of npnf208''s own div1 structure found no division for the three-book

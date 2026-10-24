@@ -24,7 +24,7 @@ retrieval:
   - "participant asks what this world held about the incarnation, the cross, or the resurrection"
   - "participant asks what difference Jesus made, or what he saves a person from"
 text: >-
-  One command reordered our lives, heard as though it were spoken straight to you: sell what you
+  One command turned Antony's life, heard as though it were spoken straight to him: sell what you
   have, give it to the poor, and follow me. Not a saying to be studied - an order to be obeyed.
   The one who gave it is Christ, the Word of God. Athanasius reports that Antony argued this when pressed to. The
   Word of God was not changed, but took a human body for our salvation, so that by sharing human
@@ -33,12 +33,11 @@ text: >-
   to test him, and see that the deeds of Christ prove him to be God come to earth for our
   salvation. Antony said the cross had already done something. The old oracles fell silent
   when it rose. The knowledge of God spread. And death came to be despised. When
-  persecution ended, Athanasius says, Antony went back to his cell and was there daily a martyr
-  to his conscience. We read that as the same fight moving inward, against our own thoughts
-  rather than against the sword. And the enemy we fought there was one Christ had already beaten. Antony told the
+  persecution ended, Athanasius says, Antony went back to his cell. There he was daily a martyr
+  to his conscience, and contending in the conflicts of faith. And the enemy Antony fought there was one Christ had already beaten. Antony told the
   monks how Satan once came to his cell door. He told Satan that the coming of Christ had made
-  him weak, cast him down, and stripped him. That is why we never spoke of the healings among us
-  as ours. We are not the doers of these things, one of us told the philosophers who had just
+  him weak, cast him down, and stripped him. Antony would not call the healings his own.
+  We are not the doers of these things, he told the philosophers who had just
   watched him sign the cross over sufferers. It is Christ who works them, by means of those who
   believe in him.
 positions:

@@ -770,3 +770,15 @@ Opus claim check of the six recorded 13 October live replies (`engine/m4/reports
 Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md`.
 
 Status: OPEN.
+
+### OG-33. Live-reply claim check findings re-confirmed and fixed, 2026-10-23.
+
+Follows the 2026-10-19 "Live-reply claim check" entry. Re-confirmed independently against the vendored texts on 2026-10-23, then fixed. Drafted by Sonnet, reviewed by Opus over two rounds (`Build/Ministry/Operations/Audits/2026-10-23_live-reply-record-fixes_Review_Round1.md`, `Build/Ministry/Operations/Audits/2026-10-23_live-reply-record-fixes_Review_Round2.md`). Packages rebuilt and repinned.
+
+Fixed:
+- `alx.dw.jesus`: "Athanasius closes the era with the same conviction" misplaced On the Incarnation, which the NPNF editor dates "in or shortly before 318 A.D." Now: Athanasius, still a young man and writing about 318. The use_note's endpoint framing is gone. The date is added to `alx.source.athanasius-de-incarnatione`.
+- `alx.figure.gregory-thaumaturgus` and `alx.source.gregory-address-to-origen` disagreed on whether Nautin's doubt about the Address is upheld. Neither consensus claim can be checked in the vendored texts. Both now say Nautin disputed its authorship and date and rate that Contested.
+
+Still open: Doc_02 says most later scholarship upholds the c. 238 date. If a modern source for that is vendored or registered, the two records can say so.
+
+Status: FIXED 2026-10-23/24, awaiting an independent recheck by a separate Opus thread (CLAUDE.md: a blocking finding does not clear by self-certification); fix list: `Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Fix-List.md`.

@@ -35,7 +35,7 @@ text: >-
   outside his house to discipline, confirmed in his purpose not to return to the abode of his fathers. And then the disappearing: years spent inside an old fort with its entrance walled up,
   seen by almost no one, while acquaintances kept coming and spent days and nights outside the
   wall. To most people that would look like throwing a life away. We understood it as the
-  opposite: a way to give the whole of a life rather than a part of it. We read it as martyrdom's
+  opposite: a way to give the whole of a life rather than a part of it. Athanasius reads Antony's life as martyrdom's
   successor, once dying for the faith was no longer asked.
 positions:
 - "total renunciation of property, given away in two distinct steps rather than a single act"

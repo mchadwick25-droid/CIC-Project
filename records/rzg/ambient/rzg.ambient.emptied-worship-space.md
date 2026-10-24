@@ -17,6 +17,9 @@ sources:
   locus: Article XVIII's own refusal of the Mass's sacrificial character, the doctrine this record's own
     physical inference is drawn from
   license: public-domain
+- source_id: rzg.source.second-helvetic-confession
+  locus: 'Chap. IV, Of Idols, Images of God and of Saints: God "can not be represented by any image"'
+  license: public-domain
 retrieval:
   tier: 3
   retrieve_when: []

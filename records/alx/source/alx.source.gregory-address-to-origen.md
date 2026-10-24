@@ -10,11 +10,12 @@ confidence:
   citation_specificity: A
   verification_state: verified-direct
   evidentiary_weight: load-bearing
-  formation_confidence: Documented
-  divergence_note: null
+  formation_confidence: Contested
+  divergence_note: The text's existence and its place in the vendored edition are Documented; its authorship and
+    date are Contested (Nautin disputed both).
 sources: []
 author: "Gregory Thaumaturgus (c. 213-270 CE)"
-work: "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - its authenticity and dating are doubted by Nautin, and later scholarship has reaffirmed the doubt"
+work: "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - Nautin disputed its authenticity and dating; the matter is contested"
 edition: "trans. S.D.F. Salmond, Ante-Nicene Fathers vol. 6 (1886), vendored as cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
 citation: Gregory Thaumaturgus, Oration and Panegyric Addressed to Origen (Address of Thanksgiving), trans. S.D.F. Salmond, Ante-Nicene Fathers vol. 6 (1886)
 kind: vendored
