@@ -152,6 +152,48 @@ this section is for Bedrock going down *after* a successful boot).
    this runbook can only relieve, not fix at the root — that fix is Package
    6's job, named here so it isn't lost.
 
+## Accounts incidents
+
+The accounts feature has one switch, `CIC_ACCOUNTS_ENABLED`. Off, the product is the
+codes product exactly, and no account file is touched or deleted. Turning it off is the
+first move for any incident below that is not a plain mail outage. Render redeploys on a
+settings change.
+
+**A key may have leaked.** Treat a leaked key as an incident even without proof of use.
+Switch accounts off first, then rotate that key, then switch on.
+
+| Key | What a holder can do | Rotation |
+|---|---|---|
+| `CIC_ACCOUNTS_KEY` (address key) | With the account file, test whether a given address has an account | New key as `CIC_ACCOUNTS_KEY` with a new `CIC_ACCOUNTS_KEY_ID`; the old one into `CIC_ACCOUNTS_KEYS_PREVIOUS` as `id:secret`. An account moves to the new key the next time its owner signs in. The log counts accounts still on the old one |
+| `CIC_ACCOUNTS_SESSION_KEY` | Forge a session cookie or a sign-in challenge | Replace it. Everyone is signed out. No account is orphaned |
+| `CIC_ACCOUNTS_CONTACT_KEY` | With the contact file, read sign-in addresses | New key and id; the old one into `CIC_ACCOUNTS_CONTACT_KEYS_PREVIOUS`. Each address is sealed again at its owner's next sign-in. If the contact file itself also leaked, the addresses in it are exposed whatever the key, and the breach-notice question applies |
+| `CIC_ACCOUNTS_SHELF_KEY` | With the account file, open the session codes of saved conversations | New key and id, old one into `CIC_ACCOUNTS_SHELF_KEYS_PREVIOUS` |
+| `CIC_ACCOUNTS_BACKUP_KEY` | With a bucket copy, open a sealed accounts backup | New key and id, old one into `CIC_ACCOUNTS_BACKUP_KEYS_PREVIOUS` until the last backup made under it is 14 days old. Backups already in the bucket stay readable by whoever holds the old key until then |
+| `CIC_ACCOUNTS_SES_SECRET_ACCESS_KEY` | Send mail as us | Make a new access key for the `cic-accounts-mailer` user in IAM, put it in Render, delete the old one |
+
+Keep the two ids distinct and the secrets different from each other: start-up refuses
+a reused one.
+
+**Sign-in mail is down, or SES has suspended sending.** Nobody can sign in who is not
+already signed in; the codes product is unaffected. Check the SES account page for a
+suspension notice and the reputation dashboard for bounce and complaint rates. Do not
+switch accounts off for a mail outage alone.
+
+**Many accounts look farmed, or sign-in is being hammered.** The per-address, per-network
+and global send limits answer first; a full global cap pauses sign-in with a plain notice
+and ends by itself. If it persists, switch accounts off.
+
+**A restore is needed.** Follow the Backup & Restore Runbook, "The accounts files: sealed
+before upload". Restore the durable and contact files from the same pass. At start-up the
+app reads the outside copy of the deletion ledger from the backup bucket and removes any
+account deleted since the backup. If the bucket cannot be read at that moment the log says
+so, and the hourly job tries again; do not switch accounts on for visitors until it has.
+
+**Telling people.** We hold an encrypted address for each account and nothing else that
+names anyone. Whether a loss of the contact file needs a breach notice, and to whom, is an
+open question for a professional (question 17 of the Go Deeper Decision-Log). Until it is
+answered, a suspected loss of the contact file goes to the project lead the same day.
+
 ## Who is paged
 
 Mark, always — every path above. This is a one-operator project; there is no

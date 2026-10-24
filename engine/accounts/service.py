@@ -122,8 +122,12 @@ class AccountsService:
         verifier: ProviderVerifier | None = None,
         contacts: ContactStore | None = None,
         shelf_cipher: "Cipher | None" = None,
+        ledger_publisher: Callable[[str, str], bool] | None = None,
+        ledger_source: Callable[[], list[tuple[str, str]]] | None = None,
     ):
         self.store = store
+        self.ledger_publisher = ledger_publisher
+        self.ledger_source = ledger_source
         self.keys = keys
         self.mailer = mailer
         self.limits = limits
@@ -987,7 +991,35 @@ class AccountsService:
             self.store.forget_address(account.address_hash)
         self.store.delete_sessions_of(account_id)
         self.store.delete_challenges_of(account_id)
+        self.publish_ledger()
         return Result("ok")
+
+    def publish_ledger(self) -> int:
+        """Writes each deletion not yet copied outside the disk to the outside copy, so a restore of
+        an older file can be told what was deleted since. A refusal leaves the entry for the next try;
+        nothing here fails a deletion, and nothing but the ledger hash and its expiry leaves."""
+        if self.ledger_publisher is None:
+            return 0
+        done = 0
+        for ledger_hash_, expires_on in self.store.unpublished_ledger():
+            try:
+                if self.ledger_publisher(ledger_hash_, expires_on):
+                    self.store.mark_ledger_published(ledger_hash_)
+                    done += 1
+            except Exception:  # noqa: BLE001 - the deletion stands; the entry is tried again
+                logger.warning("a deletion-ledger entry could not be written outside the disk")
+        return done
+
+    def sync_ledger(self) -> int:
+        """Reads the outside copy of the ledger into this file, then removes any account it names.
+        Run at start-up, so a file restored from before a deletion loses that account again, and
+        again each hour."""
+        if self.ledger_source is not None:
+            try:
+                self.store.add_ledger_entries(self.ledger_source())
+            except Exception:  # noqa: BLE001 - the file's own ledger is still applied
+                logger.warning("the outside copy of the deletion ledger could not be read")
+        return self.reapply_ledger()
 
     def reapply_ledger(self) -> int:
         """After a restore from backup: removes any account the ledger says was deleted."""

@@ -32,7 +32,7 @@ from engine.accounts.keys import AccountsKeyError, KeyRing, parse_previous
 from engine.accounts.service import AccountsService, Mailer, Result, Session
 from engine.accounts.store import AccountStore
 from engine.api.account_admission import account_context, code_index, real_code_hash
-from engine.api import shelf, wiring
+from engine.api import backup_seal, ledger_bucket, shelf, wiring
 from engine.api.contact_cipher import ContactCipher, ContactKeyError, parse_previous as parse_previous_contact
 from engine.api.provider_tokens import ProviderVerifier
 from engine.api.ratelimit import client_ip, network_of
@@ -86,6 +86,8 @@ class AccountsRuntime:
     erase_conversation: Callable[..., object] | None = None
     erase_again: Callable[..., object] | None = None
     list_conversations: Callable[[], list[str]] | None = None
+    # Seals the accounts files before the daily backup uploads them.
+    backup_sealer: backup_seal.BackupSealer | None = None
 
     @property
     def cookie_name(self) -> str:
@@ -124,14 +126,22 @@ def build_runtime(config: AccountsConfig, env: dict, mailer: Mailer | None = Non
         )
     except ContactKeyError as exc:
         raise AccountsConfigError(f"CIC_ACCOUNTS_ENABLED is on but the shelf key is not usable: {exc}") from exc
+    try:
+        sealer = backup_seal.from_env(env, other_secrets=(
+            env.get("CIC_ACCOUNTS_KEY", ""), env.get("CIC_ACCOUNTS_SESSION_KEY", ""),
+            env.get("CIC_ACCOUNTS_CONTACT_KEY", ""), env.get("CIC_ACCOUNTS_SHELF_KEY", ""),
+        ))
+    except backup_seal.BackupKeyError as exc:
+        raise AccountsConfigError(f"CIC_ACCOUNTS_ENABLED is on but the backup key is not usable: {exc}") from exc
     store = AccountStore(config.durable_db_path, config.ephemeral_db_path)
     contacts = ContactStore(config.contact_db_path, cipher)
     clients = {"google": env.get("CIC_ACCOUNTS_GOOGLE_CLIENT_ID", ""), "apple": env.get("CIC_ACCOUNTS_APPLE_CLIENT_ID", "")}
     verifier = ProviderVerifier(clients) if any(clients.values()) else None
     service = AccountsService(store, keys, QueuedMailer(mailer), clock=clock, verifier=verifier,
-                              contacts=contacts, shelf_cipher=shelf_cipher)
-    service.reapply_ledger()
-    return AccountsRuntime(service=service)
+                              contacts=contacts, shelf_cipher=shelf_cipher,
+                              ledger_publisher=ledger_bucket.publish, ledger_source=ledger_bucket.entries)
+    service.sync_ledger()
+    return AccountsRuntime(service=service, backup_sealer=sealer)
 
 
 class QueuedMailer:
@@ -251,6 +261,10 @@ def start_retention_thread(runtime: AccountsRuntime, *, every_seconds: int = 360
         while True:
             try:
                 runtime.service.purge()
+                runtime.service.publish_ledger()
+                if runtime.service.sync_ledger():
+                    logger.info("accounts named by the deletion ledger were found again and removed")
+                ledger_bucket.prune()
                 today = runtime.service.today()
                 if today != last_sweep:
                     last_sweep = today
