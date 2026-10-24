@@ -2603,3 +2603,9 @@ Alternatives shown: (1) one targeted Opus 5.5 recheck of every change to Step 0,
 ### 2026-10-24 — Doc_02 Round 39 P1: fix with the plain P2s, then one recheck (project lead's ruling)
 
 Alternatives shown: (1) fix the Monceaux P1 with the reviewers' plainly correct P2s, then one Opus 5.5 recheck of those lines; (2) the P1 only, with a recheck; (3) fix with no recheck. Chosen: 1 (project lead, 2026-10-24). Cap ruling in the System Hub Decision Log.
+
+---
+
+### 2026-10-24 — Change order CO-LPC-2: correct 22 false or overstated claims (project lead's ruling)
+
+Phase L2 claim verification (two independent Opus 5.5 passes over the 103 registered absence and exclusivity claims) verified 32 rows and judged 49, and found 22 false or overstated, each with a counter-example at source. They sit in Doc_02, Doc_04 to Doc_08, the World Profile, two story chunks and eight records, among them the spoken Constantine witness (Augustine does answer the charge, in *Answer to Petilian* II.92). Alternatives shown: (1) one named change order: a drafter applies the verified wording and carries each fix to every site that repeats the claim, spoken-record corrections by Opus, then one Opus 5.5 recheck of only the changed lines under a Cap ruling; (2) the participant-facing records now, the documents later; (3) the full list in an artifact first. Chosen: 1 (project lead, 2026-10-24). Cap ruling in the System Hub Decision Log.
