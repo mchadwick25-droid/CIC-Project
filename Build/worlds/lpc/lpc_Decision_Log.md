@@ -2627,3 +2627,9 @@ Three independent Opus 5.5 reviews read all 162 participant-facing fields in `re
 ### 2026-10-24 — CO-LPC-3 round 2: answerability stays Inferential-Thin; the grace test scoped, G3 stays Primary (project lead's ruling)
 
 Alternatives shown: (1) fix all six P1s with a sweep of the Permanent Prompt, Capsule, World Profile and chunks; answerability stays Inferential-Thin with every sentence hedged; Doc_04's G3 Formation test scoped to disagreement over practice among bishops in communion, G3 staying Primary because its other tests rest on rebaptism and Donatism; then one recheck; (2) the same with answerability rated Dominant Modern Reconstruction; (3) the two calls to the project lead first. Chosen: 1 (project lead, 2026-10-24). Cap ruling in the System Hub Decision Log.
+
+---
+
+### 2026-10-24 — CO-LPC-3 round 3: one Capsule line and ten leftovers, then a small recheck (project lead's ruling)
+
+Alternatives shown: (1) the reviewer's one-line Capsule fix and all ten P2s, then a small Opus 5.5 recheck of those lines; (2) the P1 only, the P2s logged; (3) no recheck. Chosen: 1 (project lead, 2026-10-24). Cap ruling in the System Hub Decision Log.
