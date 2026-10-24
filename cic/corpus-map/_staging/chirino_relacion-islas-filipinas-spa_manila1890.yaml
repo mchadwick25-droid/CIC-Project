@@ -24,14 +24,3 @@ assignments:
   role: tradition
   confidence: assigned
   note: The Society's own first account of its Philippine mission, in the Spanish written.
-- row_id: chirino_relacion-islas-filipinas-spa_manila1890--chirino-relacion-spanish-3
-  work: Relacion de las Islas Filipinas y de lo que en ellas han trabajado los Padres de la Compania de
-    Jesus (Roma 1604), Manila 1890 reprint
-  author: chirino
-  locus: whole text from the title at file line 134; the printed table of contents of eighty-two chapters
-    is at the end of the file
-  atlas_ids:
-  - mission-born-christianities-kirishitan-japan-kon
-  role: context
-  confidence: provisional
-  note: As the Blair and Robertson Chirino rows.

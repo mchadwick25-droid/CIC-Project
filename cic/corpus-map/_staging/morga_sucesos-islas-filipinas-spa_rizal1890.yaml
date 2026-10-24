@@ -24,14 +24,3 @@ assignments:
   confidence: provisional
   note: Rizal's 1890 notes and Blumentritt's prologue are a Filipino nationalist reading of the Spanish
     colonial record; placed on that likeness, not read against that entry's own sources.
-- row_id: morga_sucesos-islas-filipinas-spa_rizal1890--morga-sucesos-spanish-3
-  work: Sucesos de las Islas Filipinas (Mexico 1609), Rizal's annotated edition of 1890, with Blumentritt's
-    prologue
-  author: morga
-  locus: Blumentritt's prologue from file line 157; Morga's chapters 'CAPITULO PRIMERO' at 1160 to 'CAPITULO
-    OCTAVO' at 12441
-  atlas_ids:
-  - mission-born-christianities-kirishitan-japan-kon
-  role: context
-  confidence: provisional
-  note: As the English Morga row.
