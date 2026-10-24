@@ -87,6 +87,9 @@
 .btitle{font-family:var(--serif);font-size:1.55em;font-weight:600;line-height:1.1;margin:.6em .95em .3em;color:var(--cgold)}
 .bbody{font-size:max(.875rem,1.1em);line-height:1.34;margin:0 .95em;flex:1 0 auto;color:var(--ctext)}
 .bbody p{margin:0 0 .5em;max-width:none}
+.face.back .narration{margin:.2em .95em .3em;gap:.4rem .55rem}
+.face.back .narration audio{width:100%;max-width:none;height:2.4rem}
+.face.back .narration-disclosure{color:var(--ctext);opacity:.8}
 .acts{margin:.5em .85em .7em;display:grid;grid-template-columns:1fr}
 .acts .cbtn{min-height:44px;padding:.3em .8em;font-size:max(.875rem,1.1em);border-radius:.3em;border-color:#d9b35c66;background:var(--cink2);color:var(--ctext)}
 .acts .cbtn.quiet{background:transparent}

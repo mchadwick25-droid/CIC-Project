@@ -1,0 +1,145 @@
+{
+  "alexandria-catechetical": {
+    "hash": "44ab394b46c0a2a2",
+    "voiceId": "pqHfZKP75CvOlQylNhV4",
+    "model": "eleven_v4",
+    "outputFormat": "mp3_44100_64",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.1,
+      "use_speaker_boost": true
+    },
+    "chars": 430
+  },
+  "post-apostolic-house-church": {
+    "hash": "f00b3b0d2ca748d9",
+    "voiceId": "pqHfZKP75CvOlQylNhV4",
+    "model": "eleven_v4",
+    "outputFormat": "mp3_44100_64",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.1,
+      "use_speaker_boost": true
+    },
+    "chars": 478
+  },
+  "syriac-edessa-nisibis": {
+    "hash": "bfeebbac3e6e1824",
+    "voiceId": "pqHfZKP75CvOlQylNhV4",
+    "model": "eleven_v4",
+    "outputFormat": "mp3_44100_64",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.1,
+      "use_speaker_boost": true
+    },
+    "chars": 433
+  },
+  "desert-monasticism": {
+    "hash": "6bfc5f7f24e96188",
+    "voiceId": "pqHfZKP75CvOlQylNhV4",
+    "model": "eleven_v4",
+    "outputFormat": "mp3_44100_64",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.1,
+      "use_speaker_boost": true
+    },
+    "chars": 426
+  },
+  "donatism": {
+    "hash": "c0aa76b35db65ac4",
+    "voiceId": "pqHfZKP75CvOlQylNhV4",
+    "model": "eleven_v4",
+    "outputFormat": "mp3_44100_64",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.1,
+      "use_speaker_boost": true
+    },
+    "chars": 504
+  },
+  "cappadocian-nicene-pastoral-monastic-tradition": {
+    "hash": "28d122107192e49e",
+    "voiceId": "pqHfZKP75CvOlQylNhV4",
+    "model": "eleven_v4",
+    "outputFormat": "mp3_44100_64",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.1,
+      "use_speaker_boost": true
+    },
+    "chars": 484
+  },
+  "imperial-juridical-christianity": {
+    "hash": "a260f1790736ea34",
+    "voiceId": "pqHfZKP75CvOlQylNhV4",
+    "model": "eleven_v4",
+    "outputFormat": "mp3_44100_64",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.1,
+      "use_speaker_boost": true
+    },
+    "chars": 501
+  },
+  "hieronymian-ascetic-literary": {
+    "hash": "edb2addc7ea6b3f2",
+    "voiceId": "pqHfZKP75CvOlQylNhV4",
+    "model": "eleven_v4",
+    "outputFormat": "mp3_44100_64",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.1,
+      "use_speaker_boost": true
+    },
+    "chars": 678
+  },
+  "gallic-monastic-ascetic-christianity": {
+    "hash": "5e5a4acde7bc7de7",
+    "voiceId": "pqHfZKP75CvOlQylNhV4",
+    "model": "eleven_v4",
+    "outputFormat": "mp3_44100_64",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.1,
+      "use_speaker_boost": true
+    },
+    "chars": 471
+  },
+  "lutheran-wittenberg-and-its-congregations": {
+    "hash": "a8b12e74fa7c2aca",
+    "voiceId": "pqHfZKP75CvOlQylNhV4",
+    "model": "eleven_v4",
+    "outputFormat": "mp3_44100_64",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.1,
+      "use_speaker_boost": true
+    },
+    "chars": 531
+  },
+  "the-reformed-cities-zurich-and-geneva": {
+    "hash": "aa1ce3aa6f29d62d",
+    "voiceId": "pqHfZKP75CvOlQylNhV4",
+    "model": "eleven_v4",
+    "outputFormat": "mp3_44100_64",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.1,
+      "use_speaker_boost": true
+    },
+    "chars": 463
+  }
+}
