@@ -15,16 +15,3 @@ assignments:
     transcription of the Library of Congress facsimile, clean. The Spanish is the friars'' own text and
     the Tagalog a translation made by them, so it is the mission''s voice to the converts, not the converts''
     voice. Quotable once checked against the facsimile page images.'
-- row_id: doctrina-christiana_manila-1593-tgl-spa_wolf1947--doctrina-christiana-manila-1593-2
-  work: Doctrina Christiana en lengua espanola y tagala (Manila, 1593), with Wolf's 1947 essay
-  author: doctrina-christiana
-  locus: Wolf's essay and notes before file line 1717 and the NOTES at 2911; the Doctrina itself from
-    the title page at 1717, the Tagalog abecedario at 1775, the question-and-answer catechism ('Ang tanongan')
-    at 2651, 'Laus Deo' at 2905
-  atlas_ids:
-  - mission-born-christianities-kirishitan-japan-kon
-  role: context
-  confidence: provisional
-  note: The same mission catechism practice (a doctrine printed in the converts' own language and script)
-    as a sibling case for the mission-born entry; placed on that likeness, not read against that entry's
-    own sources.
