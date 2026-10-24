@@ -29,8 +29,7 @@ statement: We can tell you what was decided about a person, and how carefully, a
   sitting in the congregation on an ordinary week. Almost never, that is. There is one real exception,
   and it is not really ordinary. Augustine's own Confessions describes his own baptism at Milan, before
   he was a bishop, in his own first person -- "how greatly did I weep in Thy hymns and canticles." But he
-  wrote that down years afterward, already a bishop, about the single most examined conversion in the
-  ancient world. Both of our own voices are otherwise bishops. What comes down to us is mostly what a
+  wrote that down years afterward, already a bishop, about a conversion he examined at book length. Both of our own voices are otherwise bishops. What comes down to us is mostly what a
   bishop saw and decided, not what an unremarkable person in front of him was feeling. Ask us what was
   decided, and we will not run short. Ask us what an ordinary believer felt from inside, and that -- with
   this one exception -- is still not ours to give you.

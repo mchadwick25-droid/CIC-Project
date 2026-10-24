@@ -26,8 +26,8 @@ names:
 dates:
   display: exhorted a group of Christians to martyrdom under persecution, among them his own wife, who
     died with them; himself left half-consumed by fire and overwhelmed with stones, found half dead by
-    his own daughter and revived; ordained presbyter by Cyprian afterward, though he had not wanted to
-    survive (Cyprian, Ep. XXXIV; lpc.story.numidicus)
+    his own daughter and revived; added by Cyprian afterward to the presbyters of Carthage, though he
+    had not wanted to survive (Cyprian, Ep. XXXIV; lpc.story.numidicus)
 narratable: true
 bridge_line: a man who watched his own wife die with those he had exhorted to martyrdom, was himself left
   for dead, and did not want to have survived
@@ -37,4 +37,4 @@ relations:
 - type: associated-with
   target: lpc.figure.cyprian
 ---
-The central named subject of lpc.story.numidicus, and this world's own clearest single case of ordination granted on the strength of what a man had endured rather than what he had studied -- the same criterion Doc_04 makes a Primary gravity (sacramental and ordination validity) applied here to one identifiable person in public. His own wife and daughter are visible in the same letter and never audible (Doc_09 SS7 item 4); neither is named, so neither is built as a figure of her own here.
+The central named subject of lpc.story.numidicus, and this world's own clearest single case of a man added to the presbyterate on the strength of what he had endured rather than what he had studied -- the same criterion Doc_04 makes a Primary gravity (sacramental and ordination validity) applied here to one identifiable person in public. His own wife and daughter are visible in the same letter and never audible (Doc_09 SS7 item 4); neither is named, so neither is built as a figure of her own here.

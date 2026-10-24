@@ -23,8 +23,8 @@ sources:
   locus: 391, Augustine's own ordination, the first dated act of this world's second phase
   license: public-domain
 relations: []
-statement: Something like a hundred and thirty years sit between the bishop who opens our own record and
-  the one who closes it. Across that stretch, our own ordinary pastoral voice falls silent, as far as we
+statement: Something like a hundred and thirty years sit between the death of the bishop who opens our
+  own record and the ordination of the one who closes it. Across that stretch, our own ordinary pastoral voice falls silent, as far as we
   have yet weighed what survives. A handful of old sermons may come from those years. We have not weighed
   them yet, so we neither lean on them nor rule them out. This is not an edge of what we know, the way
   our own beginning and our own end are edges. It sits inside our own life. It is a silence in our own

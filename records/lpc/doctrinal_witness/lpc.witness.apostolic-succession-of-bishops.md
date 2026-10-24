@@ -57,12 +57,12 @@ relations:
 - type: associated-with
   target: lpc.witness.tradition-tested-by-apostolic-warrant
 positions:
-- 'Augustine wrote against a Donatist presbyter who had claimed his own faction''s "episcopal
-  succession," and he named the actual line instead. He reckoned from Peter, to whom the Lord said
-  "upon this rock will I build my Church." Then he listed every bishop of Rome by name, from Linus
-  and Clement on through the centuries. He ended with Anastasius, the bishop then sitting. "In this
-  order of succession no Donatist bishop is found." Against a different Donatist opponent, Petilian,
-  he named two chairs the same way: Peter''s own seat at Rome and James''s at Jerusalem, each with
+- 'Augustine and two fellow bishops wrote against a Donatist presbyter. He had claimed an "episcopal
+  succession" for his own faction. They named the actual line instead. They reckoned from Peter, to whom the
+  Lord said "upon this rock will I build my Church." Then they listed every bishop of Rome by name, from
+  Linus and Clement on through the centuries. They ended with Anastasius, the bishop then sitting. "In
+  this order of succession no Donatist bishop is found." Against a different Donatist opponent, Petilian,
+  Augustine named two chairs the same way: Peter''s own seat at Rome and James''s at Jerusalem, each with
   the man who filled it "to-day."'
 tensions:
 - Cyprian, writing a century and a half earlier, does not give a name-by-name list the way Augustine does.
@@ -72,18 +72,17 @@ tensions:
   divine tradition and apostolic observance." Cyprian traces the principle and the practice; Augustine
   traces the actual names. Neither, on its own, is the whole of what a modern listener might mean by "apostolic
   succession."
-text: 'Our bishops'' office was traced back to the apostles by name. It was done in two ways, by two
-  different hands. Augustine did it most directly. A Donatist presbyter had claimed an "episcopal
-  succession" for his own side. Augustine answered with the real one. He counted back from the
-  present bishop of Rome, Anastasius, through Damasus, Liberius, Julius, and so on. He reached
-  Linus, Peter''s own successor -- "In this order of succession no Donatist bishop is found."
-  Against a different Donatist opponent, Petilian, he named two chairs the same way: Peter''s own
-  seat at Rome and James''s at Jerusalem. Each was still filled "to-day" by a living bishop. Cyprian
-  wrote a century and a half earlier. He did not draw up a name list of his own. He stated a
-  principle instead. From Peter onward, the ordering of bishops "through the changes of times and
-  successions" carries the Church itself forward. On a different occasion he said that choosing a
-  bishop with the people present is a practice handed down "from divine tradition and apostolic
-  observance." Augustine supplies the names. Cyprian supplies the principle and the practice they
-  run on.'
+text: 'Our bishops'' office was traced back to the apostles by name. It was done in two ways, by two different
+  hands. Augustine, writing with two fellow bishops, did it most directly. A Donatist presbyter had claimed
+  an "episcopal succession" for his own side. Augustine answered with the real one. He counted back from
+  the present bishop of Rome, Anastasius, through Siricius, Damasus, Liberius, and on down the list. He
+  reached Linus, Peter''s own successor -- "In this order of succession no Donatist bishop is found."
+  Against a different Donatist opponent, Petilian, he named two chairs the same way: Peter''s own seat
+  at Rome and James''s at Jerusalem. Each was still filled "to-day" by a living bishop. Cyprian wrote
+  a century and a half earlier. He did not draw up a name list of his own. He stated a principle instead.
+  From Peter onward, the ordering of bishops "through the changes of times and successions" carries the
+  Church itself forward. On a different occasion he said that choosing a bishop with the people present
+  is a practice handed down "from divine tradition and apostolic observance." Augustine supplies the names.
+  Cyprian supplies the principle and the practice they run on.'
 ---
-Grounded directly in Augustine, Letter LIII SS2 and Answer to Petilian II.51, and Cyprian, Epistles XXVI SS1 and LXVII SS5 -- all four verified against the vendored text at the line numbers above. Answers the residual half of F4-E's own question that lpc.limit.apostolic-origin-undefended had wrongly called a bare "general conviction, not a traced lineage": a traced lineage for the office of bishop itself does exist in this world's own corpus, in Augustine's hands most explicitly. What remains unanswered -- catechesis, the road back, and the teaching before the water, none traced to the apostles by name -- is narrowed in lpc.limit.apostolic-origin-undefended, not resolved here.
+Grounded directly in Augustine, Letter LIII SS2 and Answer to Petilian II.51, and Cyprian, Epistles XXVI SS1 and LXVII SS5 -- all four verified against the vendored text at the line numbers above. Answers the residual half of F4-E's own question that lpc.limit.apostolic-origin-undefended had wrongly called a bare "general conviction, not a traced lineage": a traced lineage for the office of bishop itself does exist in this world's own corpus, in Augustine's hands (writing with Fortunatus and Alypius) most explicitly. What remains unanswered -- catechesis, the road back, and the teaching before the water, none traced to the apostles by name -- is narrowed in lpc.limit.apostolic-origin-undefended, not resolved here.

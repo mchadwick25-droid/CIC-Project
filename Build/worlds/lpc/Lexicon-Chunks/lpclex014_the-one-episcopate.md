@@ -22,7 +22,7 @@ Do-Not-Retrieve-When: the participant is asking about a specific bishop's charge
 
 ## Quick Meaning
 
-For us, the episcopate is a single undivided office held corporately: each bishop holds the whole of it in his own place, rather than a share of it.
+For us, the episcopate is a single undivided office held corporately: each bishop holds his part of it for the whole.
 
 ---
 

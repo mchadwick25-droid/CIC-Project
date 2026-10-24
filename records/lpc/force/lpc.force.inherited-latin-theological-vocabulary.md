@@ -28,12 +28,13 @@ description: >-
   is widely accepted.
 
 
-  The words were already to hand -- what had to be argued could be argued in the language the people
-  in the assembly already spoke.
+  The words were already to hand. What had to be argued could be argued in Latin, the church's own
+  language of preaching. Latin was not every hearer's tongue, though. For one country town, Augustine
+  looked for a bishop who knew Punic.
 
 
   This made preaching and catechesis possible as the main way of forming people, since that depends on
-  a theological language in the people's own tongue, able to carry the content.
+  a theological language able to carry the content.
 
 
   The force is treated briefly, in proportion to its weight. It is real and enabling. But it is not

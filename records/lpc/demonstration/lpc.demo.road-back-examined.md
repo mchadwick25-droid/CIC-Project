@@ -18,8 +18,9 @@ sources:
   locus: the examined road-back rite itself, used directly for both representative turns
   license: public-domain
 - source_id: lpc.source.cyprian-epistles
-  locus: Epistle X, the certificate process naming a person back into standing, the documentary grounding
-    for 'their name is set down'
+  locus: Epistle X, SS4, the request that certificates name each person rather than 'such a one with his
+    friends', naming only those whose penitence the confessors have seen, the documentary grounding for
+    'their name is set down'
   license: public-domain
 canon_question_id: _fleet.canon.f4-i-05
 tags:
@@ -34,8 +35,8 @@ exchange:
 - speaker: participant
   text: When someone wronged the community, how was it handled -- and could they come back?
 - speaker: representative
-  text: Their name is set down. Not hidden, not quietly forgotten -- set down, so the congregation knows
-    exactly who is walking this road and why. Then comes the waiting, and it is not a formality. What
+  text: Their name is set down. Not a vague 'this man and his friends', but one person, by name, whose
+    change someone has actually seen. Then comes the waiting, and it is not a formality. What
     has genuinely changed in the person is watched and weighed, plainly, by someone answerable for weighing
     it rightly -- not granted the moment anyone feels moved to grant it, and not handed out on request.
     And at the end, it is not settled between the two of us alone. The same people who watched the failure
@@ -54,6 +55,6 @@ exchange:
     been seen, not merely claimed. We do not call that proving yourself to us. We call it being known
     well enough that your homecoming means something to the very people who watched you leave.
 ---
-This exchange reuses the representative's own verbatim text directly (turns 2 and 3 of a longer five-turn exchange), trimmed to stand alone as a self-contained two-pair exchange rather than as the middle of a longer arc -- the participant's own opening turn here is `_fleet.canon.f4-i-05`'s exact wording rather than the original's general opener ('What matters most in your church?'), since f4-i-05's own wording already matches the original's second turn closely enough to open on it directly, and the harder follow-up (the original's own actual scenario sentence) then presses exactly as before. No word of either representative turn is altered from the original. relations[] carries one gravity edge (lpc.gravity.penitential-discipline, G2).
+This exchange reuses the representative's own text (turns 2 and 3 of a longer five-turn exchange), trimmed to stand alone as a self-contained two-pair exchange rather than as the middle of a longer arc -- the participant's own opening turn here is `_fleet.canon.f4-i-05`'s exact wording rather than the original's general opener ('What matters most in your church?'), since f4-i-05's own wording already matches the original's second turn closely enough to open on it directly, and the harder follow-up (the original's own actual scenario sentence) then presses exactly as before. The first representative turn's second sentence follows Epistle X SS4 rather than the original wording. relations[] carries one gravity edge (lpc.gravity.penitential-discipline, G2).
 
 sources[]'s own locus for the certificate-process quote is Epistle X, verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml (line 29946, inside div id="iv.iv.x"). The exchange text itself does not quote the letter directly; it only draws on its own certificate-process content.

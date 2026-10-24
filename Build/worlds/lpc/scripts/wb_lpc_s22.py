@@ -454,6 +454,9 @@ def build_tier1_terms() -> list[str]:
                 src(3, "De Unitate's own citation of John 10:16, 'one flock and one shepherd'"),
                 src(5, "further pastoral treatises carrying the same shepherd/flock/pastor image"),
                 src(19, "Sermon I's own cognate image of gathering 'into His fold'"),
+                src(11, "Letter CXXVI -- 'the crowd having gathered in front of the steps, and "
+                     "persisting in the same determination with terrible and incessant clamour and "
+                     "shouting'"),
             ],
             retrieval={
                 "tier": 1,
@@ -471,10 +474,10 @@ def build_tier1_terms() -> list[str]:
             },
             plain_meaning=(
                 "A bishop, for us, is not an officer of some wider institution, dropped into a "
-                "posting. He is given a people. He preaches to them, baptizes them, and buries "
-                "them, and when they fail it is not a problem he manages but a wound he carries. "
-                "The charge runs both ways: he answers for his flock, and his flock can stand in "
-                "front of his seat and refuse to leave until he hears them."
+                "posting. He is given a people. He preaches to them and baptizes them, and when "
+                "they fail it is not a problem he manages but a wound he carries. The charge runs "
+                "both ways: he answers for his flock, and his flock can stand in front of his seat "
+                "and refuse to leave until he hears them."
             ),
             world_word="the flock",
             distortion_risk="high",
@@ -487,16 +490,16 @@ def build_tier1_terms() -> list[str]:
             senses={
                 "informational": (
                     "Nothing else about our office makes sense without this. We keep a penitential "
-                    "road open because a shepherd does not write off a sheep. We preach every week "
-                    "because these particular people, not an audience in general, must be fed. Who "
-                    "may baptize, and who may be received back, are urgent questions because they "
-                    "are questions about our own people's standing, not abstractions. This term "
-                    "anchors nearly everything else we hold: penitential discipline and "
-                    "reconciliation are what a shepherd does with a sheep that has failed; preaching "
-                    "and catechesis are the office's own ordinary work; communion is the standing of "
-                    "those inside the charge; the one episcopate is what many such charges make "
-                    "together; and our two conciliar formulas argue about how the holders of those "
-                    "charges relate to each other."
+                    "road open because a shepherd does not write off a sheep. We preach to them "
+                    "again and again because these particular people, not an audience in general, "
+                    "must be fed. Who may baptize, and who may be received back, are urgent "
+                    "questions because they are questions about our own people's standing, not "
+                    "abstractions. This term anchors nearly everything else we hold: penitential "
+                    "discipline and reconciliation are what a shepherd does with a sheep that has "
+                    "failed; preaching and catechesis are the office's own ordinary work; "
+                    "communion is the standing of those inside the charge; the one episcopate is "
+                    "what many such charges make together; and our two conciliar formulas argue "
+                    "about how the holders of those charges relate to each other."
                 ),
                 "evidential": (
                     "Cyprian's own words carry this image throughout, directly quoted and "
@@ -516,18 +519,17 @@ def build_tier1_terms() -> list[str]:
                 "translational": (
                     "A modern listener often hears 'flock' as soft and a little patronizing -- "
                     "pious language for churchgoers, gentle on the pastor's side, passive on "
-                    "theirs, and 'bishop' as a regional administrator several removes from ordinary "
-                    "life. We do not mean either. The flock is a charge that can be lost, and its "
-                    "failure is reckoned to the one who holds it. Our people are not passive: they "
-                    "elect, they demand, and they can force a bishop's hand. And the bishop is not "
-                    "remote -- he is the man who preached to you on Sunday and knows which of you "
-                    "did not come."
+                    "theirs, and 'bishop' as a regional administrator several removes from "
+                    "ordinary life. We do not mean either. The flock is a charge that can be lost, "
+                    "and its failure is reckoned to the one who holds it. Our people are not "
+                    "passive: they elect, they demand, and they can force a bishop's hand. And the "
+                    "bishop is not remote -- he is the man who preached to you himself and knows "
+                    "which of you did not come."
                 ),
             },
             quick_meaning=(
                 "For us, the flock is not the church in general. It is the particular people one "
-                "bishop is answerable for, and answerable to, by name, week after week, in one "
-                "place."
+                "bishop is given, in one place. He answers for them, and they can hold him to it."
             ),
         ),
         "Re-derived from Doc_06 SS2.1 (lpclex001, Tier 1, G1 Primary -- 'the ecological hub; Doc_05 "
@@ -643,7 +645,10 @@ def build_tier1_terms() -> list[str]:
                 "confessor-side; the reconciled believer does not speak anywhere in our record.",
             ),
             sources=[
-                src(1, "the Epistles carry the process in operation, including Epistles XX-XXI"),
+                src(1, "the Epistles carry the process in operation, including Epistles XX-XXI; "
+                       "Epistle IX 2 -- 'do penance for a set time, and according to the rules of "
+                       "discipline come to public confession, and by imposition of the hand of the "
+                       "bishop and clergy receive the right of communion'"),
                 src(2, "De Lapsis carries the argument for episcopal control of the process"),
                 src(7, "Pontius reports Cyprian's own conduct of the office more broadly"),
             ],
@@ -753,9 +758,8 @@ def build_tier1_terms() -> list[str]:
                 ),
             },
             plain_meaning=(
-                "For us, a confessor is one who was interrogated for the Name and did not deny it, "
-                "and lived. That standing, bought at that price, is the strongest rival we have to "
-                "a bishop's own authority."
+                "For us, a confessor is one who was interrogated for the Name, did not deny it, "
+                "and lived. In Cyprian's time, that standing could rival a bishop's own authority."
             ),
             world_word="confessor",
             distortion_risk="high",
@@ -802,8 +806,8 @@ def build_tier1_terms() -> list[str]:
                 ),
             },
             quick_meaning=(
-                "For us, a confessor is someone who was asked to deny the faith, and did not, and "
-                "lived. That standing is the strongest rival we have to a bishop."
+                "For us, a confessor is someone who was asked to deny the faith, did not, and "
+                "lived. In Cyprian's time, that standing could rival a bishop."
             ),
         ),
         "Re-derived from Doc_06 SS2.1 (lpclex004, Tier 1, G8 Tensional -- 'Doc_05 SS9.2 names it the "
@@ -850,9 +854,9 @@ def build_tier1_terms() -> list[str]:
                 ),
             },
             plain_meaning=(
-                "For us, communion is a formal standing within the one body -- a status we can "
-                "lose and be given back. Its hardest test is that it survives sharp disagreement "
-                "between the people who hold it."
+                "For us, communion is a formal standing within the one body. You can lose it, and "
+                "be given it back. At the council of 256, Cyprian said no one would be put out of "
+                "it for thinking differently."
             ),
             world_word="communion",
             distortion_risk="high",
@@ -866,15 +870,15 @@ def build_tier1_terms() -> list[str]:
                 "informational": (
                     "It is not warmth and not the rite by itself. It is where you stand -- inside "
                     "or placed outside -- and the whole community knows which, because the "
-                    "consequences are public: whether you are received, whether you may come to the "
-                    "table, whether your standing is the one you had before. What is remarkable is "
-                    "what it survives. Two of us can hold opposite positions on the sharpest "
-                    "question either will ever argue, and neither puts the other outside communion "
-                    "for it. It holds across more than one lifetime, too: a century on, one bishop "
-                    "argues at book length that the first one's ruling was wrong, and argues with "
-                    "him, not against his memory as an outsider's. Communion is the name of "
-                    "belonging itself for us, so nearly everything else touches it: reconciliation "
-                    "is its restoration, the lapsed are those who lost it, heresy and schism are the "
+                    "consequences are public: whether you are received, whether you may come to "
+                    "the table, whether your standing is the one you had before. What is "
+                    "remarkable is what it is meant to survive. At the council of 256, Cyprian "
+                    "held that no one should be put out of communion for thinking differently. It "
+                    "holds across more than one lifetime, too: a century on, one bishop argues at "
+                    "book length that the first one's ruling was wrong, and argues with him, not "
+                    "against his memory as an outsider's. Communion is the name of belonging "
+                    "itself for us, so nearly everything else touches it: reconciliation is its "
+                    "restoration, the lapsed are those who lost it, heresy and schism are the "
                     "questions of its boundary, and our two conciliar formulas argue about how its "
                     "holders relate."
                 ),
@@ -890,18 +894,18 @@ def build_tier1_terms() -> list[str]:
                     "our own synthesis."
                 ),
                 "translational": (
-                    "A modern listener is likely to hear either a specific liturgical rite -- going "
-                    "up to receive -- or a general warmth of fellowship, and the second makes "
-                    "disagreement look like a failure of communion. We mean a formal, structural "
-                    "status of standing within the body, with public consequences, that is not "
-                    "dissolved by disagreement. Disagreement is expected among us; what would break "
-                    "communion is not arguing but separating."
+                    "A modern listener is likely to hear either a specific liturgical rite -- "
+                    "going up to receive -- or a general warmth of fellowship, and the second "
+                    "makes disagreement look like a failure of communion. We mean a formal, "
+                    "structural status of standing within the body, with public consequences, "
+                    "that, on Cyprian's own principle, disagreement should not dissolve. "
+                    "Disagreement is expected among us; what would break communion is not arguing "
+                    "but separating."
                 ),
             },
             quick_meaning=(
-                "For us, communion is a real standing inside the one body. You can lose it, and "
-                "you can be given it back. It can survive sharp disagreement between the people "
-                "who hold it."
+                "For us, communion is a real standing inside the one body. You can lose it, and be "
+                "given it back. Cyprian held that it should survive sharp disagreement."
             ),
         ),
         "Re-derived from Doc_06 SS2.1 (lpclex005, Tier 1, G3 Primary -- 'the name of belonging "
@@ -949,9 +953,9 @@ def build_tier1_terms() -> list[str]:
                 ),
             },
             plain_meaning=(
-                "For us, this word does not ask which belief is wrong. It asks one question: does "
-                "a baptism given outside our one church count at all? We answer that question "
-                "twice, in two different ways, a century apart."
+                "For us, this word raises one sharp question: whether a baptism given outside our "
+                "one church counts at all. We answer it twice, in two different ways, a century "
+                "apart."
             ),
             world_word="heresy",
             distortion_risk="high",
@@ -1001,8 +1005,8 @@ def build_tier1_terms() -> list[str]:
                 ),
             },
             quick_meaning=(
-                "For us, this word does not ask which belief is wrong. It asks whether a baptism "
-                "given outside our one church counts at all."
+                "For us, the sharpest question this word raises is whether a baptism given outside "
+                "our one church counts at all."
             ),
         ),
         "Re-derived from Doc_06 SS2.1 (lpclex006, Tier 1, G6 Primary -- 'the question on which "
@@ -1031,10 +1035,12 @@ def build_tier1_terms() -> list[str]:
                 "not characterize Pelagius.",
             ),
             sources=[
-                src(23, "the anti-Pelagian corpus, licensed directly for the grace/sufficiency-test "
-                        "gravity candidate; a full sweep, scoped to its own thirteen works, returns "
-                        "1,798 raw / 1,665 markup-stripped occurrences of 'grace' -- by a wide "
-                        "margin the highest raw-frequency count of any term in this lexicon"),
+                src(23, "the anti-Pelagian corpus, licensed directly for the "
+                        "grace/sufficiency-test gravity candidate; a full sweep, scoped to its own "
+                        "thirteen works, returns 1,798 raw / 1,665 markup-stripped occurrences of "
+                        "'grace' -- by a wide margin the highest raw-frequency count of any term "
+                        "in this lexicon; On the Proceedings of Pelagius 34 -- 'we certainly do "
+                        "not deserve by any faith that we should have faith itself'"),
             ],
             retrieval={
                 "tier": 1,
@@ -1165,13 +1171,14 @@ def build_tier2_terms() -> list[str]:
                 ),
                 "prefer_instead": split_clauses(
                     "the participant is asking about instruction of those not yet baptized rather "
-                    "than the weekly address to the baptized -- ask about catechesis instead"
+                    "than the regular address to the gathered church -- ask about catechesis "
+                    "instead"
                 ),
             },
             plain_meaning=(
-                "You are baptized, so you are in the room. Week by week, the same voice works on "
-                "you. It is not a lecture and not a show. It is the man in charge of you, telling "
-                "you to your face what he thinks you need."
+                "You are in the room, baptized or still learning. Again and again, the same voice "
+                "works on you. It is not a lecture and not a show. It is the man in charge of you, "
+                "telling you to your face what he thinks you need."
             ),
             world_word="preaching",
             distortion_risk="medium",
@@ -1181,15 +1188,15 @@ def build_tier2_terms() -> list[str]:
             ],
             senses={
                 "informational": (
-                    "You are baptized, so you are in the room, and week by week the same voice "
-                    "works on you. It is not a lecture and not entertainment; it is the man "
+                    "You are in the room, baptized or still learning, and again and again the same "
+                    "voice works on you. It is not a lecture and not entertainment; it is the man "
                     "answerable for you saying what he thinks you need, to your faces, knowing "
                     "which of you are missing. Preaching is the medium, not itself an organizing "
                     "force: it is how the flock's own answerability, our discipline's decisions, "
                     "and our grace controversy actually arrive at a believer. Catechesis is its "
                     "paired term, distinguished by audience. This is how our formation is "
-                    "delivered -- by voice, weekly, in person, by the same man who administers "
-                    "everything else."
+                    "delivered -- by voice, again and again, in person, by the same man who "
+                    "administers everything else."
                 ),
                 "evidential": (
                     "The Sermons carry this term's own evidence; a full sweep returns 119 "
@@ -1209,8 +1216,8 @@ def build_tier2_terms() -> list[str]:
                 ),
             },
             quick_meaning=(
-                "For us, preaching is the weekly talk to those already baptized. It is how nearly "
-                "all we hold reaches an ordinary believer."
+                "For us, preaching is the regular talk to the whole church, baptized or still "
+                "learning. It is the main way what we hold reaches an ordinary believer."
             ),
         ),
         "Re-derived from Doc_06 SS2.2 (lpclex008, down-tiered to Tier 2 -- 'the single largest "
@@ -1249,8 +1256,8 @@ def build_tier2_terms() -> list[str]:
                     "believers were taught"
                 ),
                 "prefer_instead": split_clauses(
-                    "the participant is asking about the weekly address to the baptized rather "
-                    "than instruction before baptism -- ask about preaching instead"
+                    "the participant is asking about the regular address to the gathered church "
+                    "rather than instruction before baptism -- ask about preaching instead"
                 ),
             },
             plain_meaning=(
@@ -1418,8 +1425,8 @@ def build_tier2_terms() -> list[str]:
                 ),
             },
             plain_meaning=(
-                "Cyprian's own word for what put him in office was suffrage. A rival group opposed "
-                "him, but the people chose him anyway."
+                "Cyprian named two things that put him in office: our suffrage, and God's "
+                "judgment. A rival group opposed him, but the people chose him anyway."
             ),
             world_word="suffrage",
             distortion_risk="high",
@@ -1456,8 +1463,8 @@ def build_tier2_terms() -> list[str]:
                 ),
             },
             quick_meaning=(
-                "For us, suffrage is the voice of the people that puts a man into office. It often "
-                "goes against his own wishes."
+                "For us, suffrage is the voice of the people that puts a man into office. It can "
+                "go against his own wishes."
             ),
         ),
         "Derived from Doc_03 and Doc_06 §2 and Lexicon-Chunks/lpclex011_suffrage.md.",
@@ -1499,7 +1506,7 @@ def build_tier2_terms() -> list[str]:
             },
             plain_meaning=(
                 "For us, this is a simple rule, said at the start of a council: no bishop stands "
-                "over another. Each bishop judges for himself, and answers for it elsewhere."
+                "over another. Each bishop judges for himself. Only Christ judges him."
             ),
             world_word="bishop of bishops",
             distortion_risk="medium",
@@ -1511,15 +1518,16 @@ def build_tier2_terms() -> list[str]:
             senses={
                 "informational": (
                     "Said out loud by the man presiding, before the voting begins, at the council "
-                    "that will rule on the sharpest question in the room: no one of us sets himself "
-                    "up as a bishop of bishops, and none compels a colleague by tyrannical terror, "
-                    "since every bishop holds his own proper right of judgment. It is a statement "
-                    "about what a council is -- not a tribunal handing down a verdict that binds the "
-                    "unwilling, but a gathering of men each of whom says what he holds and answers "
-                    "for it to someone other than the man in the chair. Together with plenary "
-                    "Council, this forms our own conciliar-authority pair, and the two are "
-                    "incompatible. It underwrites communion's own capacity to survive disagreement: "
-                    "if no one can compel a colleague, disagreement need not mean separation."
+                    "that will rule on the sharpest question in the room: no one of us sets "
+                    "himself up as a bishop of bishops, and none compels a colleague by tyrannical "
+                    "terror, since every bishop holds his own proper right of judgment. It is a "
+                    "statement about what a council is -- not a tribunal handing down a verdict "
+                    "that binds the unwilling, but a gathering of men each of whom says what he "
+                    "holds and answers for it to Christ, not to the man in the chair. Together "
+                    "with plenary Council, this forms our own conciliar-authority pair, and the "
+                    "two are incompatible. It underwrites communion's own capacity to survive "
+                    "disagreement: if no one can compel a colleague, disagreement need not mean "
+                    "separation."
                 ),
                 "evidential": (
                     "The 256 Council preface is directly quoted and re-verified at source, and "
@@ -1542,7 +1550,7 @@ def build_tier2_terms() -> list[str]:
             },
             quick_meaning=(
                 "For us, no bishop stands over the others. Each one judges for himself, and "
-                "answers for it elsewhere."
+                "answers to Christ."
             ),
         ),
         "Re-derived from Doc_06 SS2.2 (lpclex012, down-tiered to Tier 2 -- no evidence that ordinary "
@@ -1592,8 +1600,8 @@ def build_tier2_terms() -> list[str]:
             },
             plain_meaning=(
                 "Two ideas sit in one sentence here. A small council yields to a wider one -- that "
-                "is a hierarchy. But even the widest council can later be corrected, because the "
-                "church learns."
+                "is a hierarchy. But even the widest council can later be corrected, when "
+                "experience brings to light what was hidden."
             ),
             world_word="plenary Council",
             distortion_risk="medium",
@@ -1605,13 +1613,13 @@ def build_tier2_terms() -> list[str]:
                 "informational": (
                     "Two moves sit in one sentence, and the second is the surprising one. Narrower "
                     "yields to wider -- that is a hierarchy. But the widest is itself revisable, "
-                    "because the church learns. A past ruling is authoritative and correctable at "
-                    "the same time, which is precisely what a man needs who intends to honour a "
-                    "predecessor while overturning what he decided. This is the hinge of our own "
-                    "interpretive tradition: it makes a prior ruling into a body of arguable "
-                    "precedent rather than fixed deposit. It is deployed specifically against the "
-                    "earlier ruling on heresy and rebaptism, and it stands in direct contradiction "
-                    "to the paired bishop-of-bishops formula."
+                    "when experience brings to light what was hidden. A past ruling is "
+                    "authoritative and correctable at the same time, which is precisely what a man "
+                    "needs who intends to honour a predecessor while overturning what he decided. "
+                    "This is the hinge of our own interpretive tradition: it makes a prior ruling "
+                    "into a body of arguable precedent rather than fixed deposit. It is deployed "
+                    "specifically against the earlier ruling on heresy and rebaptism, and it "
+                    "stands in direct contradiction to the paired bishop-of-bishops formula."
                 ),
                 "evidential": (
                     "On Baptism, Against the Donatists II.3 is directly quoted and re-verified at "
@@ -1653,7 +1661,9 @@ def build_tier2_terms() -> list[str]:
                              "an unresolved two-recension question for chapters 4-5, on which "
                              "nothing in this entry depends."),
             sources=[
-                src(3, "De Unitate, Cyprian's own ecclesiology of the single, undivided episcopate"),
+                src(3, "De Unitate 5, Cyprian's own ecclesiology of the single, undivided "
+                       "episcopate -- 'The episcopate is one, each part of which is held by each "
+                       "one for the whole'"),
             ],
             retrieval={
                 "tier": 2,
@@ -1669,8 +1679,8 @@ def build_tier2_terms() -> list[str]:
                 ),
             },
             plain_meaning=(
-                "For us, the episcopate is a single, undivided office held corporately. Each "
-                "bishop holds the whole of it in his own place, not a share of it."
+                "For us, the episcopate is one undivided office. Each bishop holds his part of it, "
+                "and holds it for the whole."
             ),
             world_word="the one episcopate",
             distortion_risk="medium",
@@ -1681,14 +1691,15 @@ def build_tier2_terms() -> list[str]:
             senses={
                 "informational": (
                     "This is not a federation of independent officers and not a chain of command. "
-                    "One office, held entire by each man who holds it, in the place where he holds "
-                    "it. A colleague's judgment cannot simply be overridden, because he is not "
-                    "holding a lesser portion, and separation is so serious for exactly the same "
-                    "reason: to break from the body is not to leave an organization but to step "
-                    "outside the thing itself. This is the doctrinal ground beneath both conciliar "
-                    "formulas -- the reason the egalitarian principle can be stated at all, and the "
-                    "thing the hierarchical one has to work within. It also underwrites communion "
-                    "and gives schism its own real gravity."
+                    "One office, each part of it held by each man for the whole, in the place "
+                    "where he holds it. A colleague's judgment cannot simply be overridden, "
+                    "because the part he holds, he holds for the whole; and separation is so "
+                    "serious for exactly the same reason: to break from the body is not to leave "
+                    "an organization but to step outside the thing itself. This is the doctrinal "
+                    "ground beneath both conciliar formulas -- the reason the egalitarian "
+                    "principle can be stated at all, and the thing the hierarchical one has to "
+                    "work within. It also underwrites communion and gives schism its own real "
+                    "gravity."
                 ),
                 "evidential": (
                     "De Unitate carries this ecclesiology. The treatise predates the Stephen "
@@ -1702,14 +1713,14 @@ def build_tier2_terms() -> list[str]:
                 "translational": (
                     "A modern listener may hear either a bureaucratic hierarchy or a loose "
                     "association of independent congregations. We mean neither: a single office "
-                    "shared corporately and held whole by each holder, which makes both equality "
-                    "among bishops and the seriousness of separation follow from the same "
-                    "conviction."
+                    "shared corporately, each holder holding his part for the whole, which makes "
+                    "both equality among bishops and the seriousness of separation follow from the "
+                    "same conviction."
                 ),
             },
             quick_meaning=(
-                "For us, the episcopate is one office, shared by every bishop. Each bishop holds "
-                "the whole of it, not just a part."
+                "For us, the episcopate is one office, shared by every bishop. Each one holds his "
+                "part on behalf of the whole."
             ),
         ),
         "Re-derived from Doc_03 Section C (Tier 2, doctrinal ground beneath the paired formulas) "
@@ -1735,7 +1746,9 @@ def build_tier2_terms() -> list[str]:
                              "taxonomy, and it does not settle whether the application of the "
                              "category to rivals was accurate."),
             sources=[
-                src(3, "De Unitate, the general treatise on schism and the one episcopate"),
+                src(3, "De Unitate, the general treatise on schism and the one episcopate; De "
+                       "Unitate 17 -- one 'who separates himself from the company of His clergy "
+                       "and people... dares to set up another altar'"),
                 src(13, "On Baptism, Against the Donatists, the cross-phase grounding"),
             ],
             retrieval={
@@ -1786,8 +1799,8 @@ def build_tier2_terms() -> list[str]:
                 ),
             },
             quick_meaning=(
-                "For us, schism means a real split inside the one body of bishops, over belief or "
-                "over practice. It is a tear, not a mere argument."
+                "For us, schism means a split in the one church: someone leaves its clergy and "
+                "people and sets up another altar. It is a tear, not a mere argument."
             ),
         ),
         "Derived from Doc_06 §2 and §3 and Lexicon-Chunks/lpclex015_schism.md.",
@@ -1833,9 +1846,9 @@ def build_tier2_terms() -> list[str]:
                 ),
             },
             plain_meaning=(
-                "For us, this is a late argument, and it goes against an earlier view of our own. "
-                "A Christian ruler may rightly use force to bring a separated group back into the "
-                "one communion."
+                "This is a late argument of Augustine's, against his own earlier view. He argued "
+                "that a Christian ruler may use force to bring a separated group back into the one "
+                "communion."
             ),
             world_word="compel them to come in",
             distortion_risk="high",
@@ -1887,8 +1900,8 @@ def build_tier2_terms() -> list[str]:
                 ),
             },
             quick_meaning=(
-                "For us, this is a late argument. A Christian ruler may use force to bring a "
-                "separated group back into the one communion."
+                "For us, this is Augustine's late argument. He argued that a Christian ruler may "
+                "use force to bring a separated group back into the one communion."
             ),
         ),
         "Derived from Doc_06 §2.3 and Lexicon-Chunks/lpclex016_compel-them-to-come-in.md.",
@@ -1932,9 +1945,9 @@ def build_tier2_terms() -> list[str]:
                 ),
             },
             plain_meaning=(
-                "Rome did not ask anyone to renounce Christ in writing. It asked for a sacrifice, "
-                "then wrote down that one had been made. Some people paid money for that paper "
-                "instead of sacrificing at all."
+                "Rome ordered a sacrifice. Some people paid for a paper saying they had made it, "
+                "without sacrificing at all. Cyprian called that paper a denial: their hands were "
+                "clean, but their conscience was not."
             ),
             world_word="libelli",
             distortion_risk="low",
@@ -1943,13 +1956,13 @@ def build_tier2_terms() -> list[str]:
             ],
             senses={
                 "informational": (
-                    "The empire did not ask anyone to renounce Christ in writing. It asked for a "
-                    "sacrifice, and then wrote down that one had been made. A demand satisfied with "
-                    "money rather than incense produced a class of people who had not, in their own "
-                    "minds, worshipped anything, and who nonetheless held a document saying they "
-                    "had. This is the administrative fact underneath the lapsed, and therefore "
-                    "underneath our whole penitential discipline and the confessor-authority "
-                    "tension: the crisis was documentary rather than merely moral."
+                    "The empire asked for a sacrifice, and then wrote down that one had been made. "
+                    "A demand satisfied with money rather than incense produced a class of people "
+                    "who had not, in their own minds, worshipped anything, and who nonetheless "
+                    "held a document saying they had. This is the administrative fact underneath "
+                    "the lapsed, and therefore underneath our whole penitential discipline and the "
+                    "confessor-authority tension: the crisis was documentary rather than merely "
+                    "moral."
                 ),
                 "evidential": (
                     "Our own bishop Cyprian names this paper. In De Lapsis he speaks of those who "
@@ -1966,8 +1979,8 @@ def build_tier2_terms() -> list[str]:
                 ),
             },
             quick_meaning=(
-                "The libelli were papers given to people who obeyed the order to sacrifice. This "
-                "paper is what made a person one of the lapsed."
+                "The libelli were papers saying a person had sacrificed. Some people bought one "
+                "and never sacrificed. Holding that paper made a person one of the lapsed."
             ),
         ),
         "Derived from Doc_06 §2.3 and Lexicon-Chunks/lpclex017_libelli.md.",
@@ -2007,8 +2020,8 @@ def build_tier2_terms() -> list[str]:
             },
             plain_meaning=(
                 "Not everyone who failed, failed the same way, and we knew it. One person paid "
-                "money and got a paper. Another stood at the altar and did the deed. Both are "
-                "outside now, and both ask to come back."
+                "money and got a paper. Another stood at the altar and did the deed. Both fell. "
+                "Cyprian did not treat them the same."
             ),
             world_word="libellatici / sacrificati",
             distortion_risk="low",
@@ -2020,11 +2033,11 @@ def build_tier2_terms() -> list[str]:
                 "informational": (
                     "Not everyone who failed failed the same way, and the community knew it. One "
                     "person handed over money and walked away with a paper; another stood at the "
-                    "altar and did the thing. Both are outside, and both ask to come back, and it "
-                    "would be false to pretend the two acts weigh the same, so the road back is "
-                    "longer for one than the other. What does not change is where the road ends. "
-                    "This is the graduation inside penitential discipline -- the reason "
-                    "reconciliation is a process with stages rather than a single yes or no."
+                    "altar and did the thing. Both fell, and it would be false to pretend the two "
+                    "acts weigh the same, so the road back is longer for one than the other. What "
+                    "does not change is where the road ends. This is the graduation inside "
+                    "penitential discipline -- the reason reconciliation is a process with stages "
+                    "rather than a single yes or no."
                 ),
                 "evidential": (
                     "Our own bishop Cyprian names both classes, libellatici and sacrificati, and "
@@ -2054,19 +2067,23 @@ def build_tier2_terms() -> list[str]:
         dict(
             confidence=conf(
                 "A", "verified-direct", "corroborating", "Documented",
-                "The regulating voice is Cyprian's throughout, as with every entry in this cluster; "
-                "the confessors' own certificates do not survive, and what survives is Cyprian "
-                "quoting, paraphrasing, and objecting to them (Author-Gravity-Risk: Yes). An "
-                "editorial endnote words one sentence as 'thousands of certificates were given, "
+                "The regulating voice is Cyprian's throughout, as with every entry in this "
+                "cluster; the confessors' own certificates survive only in one general letter of "
+                "theirs to Cyprian, which says 'we have granted peace' (Epistle XVI); the rest is "
+                "Cyprian quoting, paraphrasing, and objecting to them (Author-Gravity-Risk: Yes). "
+                "An editorial endnote words one sentence as 'thousands of certificates were given, "
                 "against the Gospel law'. Cyprian's own text reads 'were daily given, contrary to "
                 "the law of the Gospel', and this record uses his.",
             ),
             sources=[
-                src(1, "Cyprian's own crisis correspondence, Epistle X -- 'designate by name in the "
-                       "certificate those whom you yourselves see, whom you have known, whose "
-                       "penitence you see to be very near to full satisfaction'; 'Let such a one be "
-                       "received to communion along with his friends'; Epistle XIV -- 'thousands of "
-                       "certificates were daily given, contrary to the law of the Gospel'"),
+                src(1, "Cyprian's own crisis correspondence, Epistle X -- 'designate by name in "
+                       "the certificate those whom you yourselves see, whom you have known, whose "
+                       "penitence you see to be very near to full satisfaction'; 'Let such a one "
+                       "be received to communion along with his friends'; Epistle XIV -- "
+                       "'thousands of certificates were daily given, contrary to the law of the "
+                       "Gospel'; Epistle XVI -- the confessors to Cyprian: 'to all, concerning "
+                       "whom the account of what they have done since the commission of their sin "
+                       "has been, in your estimation, satisfactory, we have granted peace'"),
             ],
             retrieval={
                 "tier": 2,
@@ -2085,9 +2102,9 @@ def build_tier2_terms() -> list[str]:
                 ),
             },
             plain_meaning=(
-                "A confessor who stood before the judge writes to the bishop. He names one lapsed "
-                "person and asks that they be let back in. This letter is how a confessor made his "
-                "claim real."
+                "A certificate is a letter from a confessor, given to a lapsed person. It asks for "
+                "peace, or says peace is granted. Cyprian wanted each one to name the person. Some "
+                "named one person 'with his friends.'"
             ),
             world_word="certificate",
             distortion_risk="high",
@@ -2100,45 +2117,46 @@ def build_tier2_terms() -> list[str]:
             senses={
                 "informational": (
                     "The claim is not made in the abstract; it is made on paper, and the paper "
-                    "arrives. A confessor who stood before the magistrate writes to the bishop and "
-                    "asks that a named person be received. Cyprian does not say such letters should "
-                    "not exist -- he says they must name the person, and be written by someone who "
-                    "actually knows them and has judged their penitence. What actually arrives is "
-                    "often not that: a name, and an open door behind it, so that whoever can claim "
-                    "to be a friend or neighbour of the person named walks through on that same "
-                    "paper. The scale is real -- thousands of certificates, by his own account. So "
-                    "the argument is not whether the confessors' own suffering counts; it is whether "
-                    "a certificate is a judgment about a particular person, made by someone who "
-                    "knows them, or a token that can be spent. This is the mechanism behind the "
-                    "confessor-authority tension, and without it that tension is a claim with no "
-                    "instrument: the lapsed are the subject, reconciliation is the road, the "
-                    "confessor is the claimant, and the certificate is the thing that moves between "
-                    "them."
+                    "arrives. A confessor who stood before the magistrate writes a letter for a "
+                    "lapsed person, asking for peace or saying that peace is granted. Cyprian does "
+                    "not say such letters should not exist -- he says they must name the person, "
+                    "and be written by someone who actually knows them and has judged their "
+                    "penitence. What actually arrives is often not that: a name, and an open door "
+                    "behind it, so that whoever can claim to be a friend or neighbour of the "
+                    "person named walks through on that same paper. The scale is real -- thousands "
+                    "of certificates, by his own account. So the argument is not whether the "
+                    "confessors' own suffering counts; it is whether a certificate is a judgment "
+                    "about a particular person, made by someone who knows them, or a token that "
+                    "can be spent. This is the mechanism behind the confessor-authority tension, "
+                    "and without it that tension is a claim with no instrument: the lapsed are the "
+                    "subject, reconciliation is the road, the confessor is the claimant, and the "
+                    "certificate is the thing that moves between them."
                 ),
                 "evidential": (
-                    "Cyprian's own crisis correspondence carries the whole argument, re-verified at "
-                    "source, scoped to his own division of the vendored text. 'Certificate' and "
+                    "Cyprian's own crisis correspondence carries the whole argument, re-verified "
+                    "at source, scoped to his own division of the vendored text. 'Certificate' and "
                     "'certificates' occur 42 times within that division, of which 4 sit inside "
                     "editorial notes, leaving 38 in Cyprian's own text -- the figure that attests "
-                    "the term, not the naive 42. The confessors' own certificates do not survive; "
-                    "what survives is Cyprian quoting, paraphrasing, and objecting to them, though "
-                    "Epistles XX-XXI do preserve two confessors writing in their own first-person "
-                    "voices about a specific reconciliation, as close as our record comes to their "
-                    "own side."
+                    "the term, not the naive 42. The confessors' own certificates survive only in "
+                    "one general letter of theirs to Cyprian (Epistle XVI), which says 'we have "
+                    "granted peace'; the rest is Cyprian quoting, paraphrasing, and objecting to "
+                    "them, though Epistles XX-XXI do preserve two confessors writing in their own "
+                    "first-person voices about a specific reconciliation, as close as our record "
+                    "comes to their own side."
                 ),
                 "translational": (
                     "A modern listener who has just heard about the sacrifice-certificate will "
                     "assume this is the same document, or a version of it, and will tend to hear "
                     "'letter of peace' as a devotional gesture. We mean the opposite document, "
                     "travelling the opposite way: the sacrifice-certificate proves compliance with "
-                    "the empire and made a person lapsed; this certificate asks the church to take "
-                    "that person back. It is administratively real -- issued in thousands, argued "
-                    "over by name, and regulated in writing."
+                    "the empire and made a person lapsed; this certificate asks peace for that "
+                    "person, or says it is granted. It is administratively real -- issued in "
+                    "thousands, argued over by name, and regulated in writing."
                 ),
             },
             quick_meaning=(
-                "For us, a certificate is a letter a confessor sends the bishop. It asks that one "
-                "named lapsed person be let back into communion."
+                "For us, a certificate is a confessor's letter for a lapsed person. It asks for "
+                "peace, or grants it. Who decides is what we argued over."
             ),
         ),
         "Derived from Doc_06 §2.4 and Lexicon-Chunks/lpclex019_certificates-letters-of-peace.md. "

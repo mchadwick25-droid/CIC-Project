@@ -51,7 +51,7 @@ description: >-
 
   It comes up again and again: in Cyprian's letters on rebaptism, in the ruling of the Council of
   256, and all through Augustine's On Baptism, a whole book on the question. Unlike conciliar
-  authority, it is not thin. Two separate bishops argue it at length, decades apart.
+  authority, it is not thin. Two separate bishops argue it at length, more than a century apart.
 
 
   Other concerns in this world lean on it. Collegial communion is tested hardest here, because the
@@ -61,7 +61,7 @@ description: >-
 
   It shapes practice directly. Cyprian's demand for rebaptism is a working pastoral rule.
   Augustine's opposite ruling decides whether Donatist clergy come back in their own orders or are
-  ordained again. It explains the whole break between Stephen and Cyprian. Augustine wrote a whole
+  ordained again. It explains the whole dispute between Stephen and Cyprian. Augustine wrote a whole
   treatise on it. It also explains why the Donatists could cite Cyprian himself for their rebaptism.
 
 

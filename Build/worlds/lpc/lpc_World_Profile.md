@@ -139,7 +139,7 @@ The canonical gravity record for this world, per Doc_04 §4. **G1 is named here 
 
 **Cross-strand status:** Strand-singular; **Augustine-phase-bound** — no Cyprian-phase text organizes formation around it (Cyprian states the theme only in passing, *Testimonies* III.4), since the Pelagian controversy postdates Cyprian by over a century (Doc_04 §3 Candidate 7).
 
-**Brief description:** Augustine's refusal of Pelagian anthropology's claim that moral effort is sufficient without grace — this world's densest textual object, and, per Doc_04's flagged Author Gravity risk, "structurally freestanding rather than load-bearing" for the rest of the ecology. Its formation impact runs mostly outward, into the subsequent Western theological tradition (Doc_08 Force 3B-1).
+**Brief description:** Augustine's refusal of the claim he attributes to Pelagian anthropology, that moral effort is sufficient without grace (whether Pelagius held it in that form is disputed) — this world's densest textual object, and, per Doc_04's flagged Author Gravity risk, "structurally freestanding rather than load-bearing" for the rest of the ecology. Its formation impact runs mostly outward, into the subsequent Western theological tradition (Doc_08 Force 3B-1).
 
 **Grounding:** Doc_01 §6; Doc_02 §1; Doc_04 §3 Candidate 7; Doc_07 §2D; Doc_08 Force 2A-4, 3B-1.
 
@@ -375,7 +375,7 @@ Fifteen of Doc_08's seventeen forces are carried here, at least one per occupied
 
 **Cell:** 2B — Ongoing/Internal
 
-**Formation impact (Layer 3):** Deliberately bounded: between the phases the office moved from holding no legal standing to being able to solicit state action against a rival communion — *"Cyprian never asked the magistrate for anything; a century and a third later the magistrate could be asked, and eventually was"* (Doc_08, Layer 2). Doc_04 §2 tested this as a candidate gravity and declined to advance it: it changes the instruments available to a bishop, not the thing a bishop is.
+**Formation impact (Layer 3):** Deliberately bounded: between the phases the office moved from holding no legal standing to being able to solicit state action against a rival communion — *"Cyprian never asked the magistrate for anything; a century and a third later the emperors could be asked, and eventually were"* (Doc_08, Layer 2). Doc_04 §2 tested this as a candidate gravity and declined to advance it: it changes the instruments available to a bishop, not the thing a bishop is.
 
 **Gravity connection:** none advanced — see above.
 
@@ -389,7 +389,7 @@ Fifteen of Doc_08's seventeen forces are carried here, at least one per occupied
 
 **Cell:** 2B — Ongoing/Internal
 
-**Formation impact (Layer 3):** Both anchor figures' writing survives in unusually full form because each was, by the time of writing or later transmission, on the institutionally dominant and eventually canonized side of every dispute. This is the opposite asymmetry from the sibling Donatism case, whose record is shaped by hostile mediation; this world's record is not hostile, and is inaccessible wherever a non-episcopal voice would have had to carry it. Three selection effects compound: the episcopal filter (what survives is what two bishops wrote), the crisis filter (Cyprian's corpus is occasional, not routine), and the translation filter (a term named only in English cannot be found by sweeping its Latin headword). Both figures acted on this awareness: Cyprian forwarded his own correspondence for the record and returned a suspect letter for collation on suspicion of alteration; Augustine, near the end of his life, reviewed his own works — whether in books, letters, or treatises — with a certain judicial severity (*Retractationes*, Prologus; `Source_Registry.md` row 209).
+**Formation impact (Layer 3):** Both anchor figures' writing survives in unusually full form because both were kept by the Catholic institutional tradition that later became the canonical one, which kept Cyprian even where it judged him wrong, on rebaptism. This is the opposite asymmetry from the sibling Donatism case, whose record is shaped by hostile mediation; this world's record is not hostile, and is inaccessible wherever a non-episcopal voice would have had to carry it. Three selection effects compound: the episcopal filter (what survives is what two bishops wrote), the crisis filter (Cyprian's corpus is occasional, not routine), and the translation filter (a term named only in English cannot be found by sweeping its Latin headword). Both figures acted on this awareness: Cyprian forwarded his own correspondence for the record and returned a suspect letter for collation on suspicion of alteration; Augustine, near the end of his life, reviewed his own works — whether in books, letters, or treatises — with a certain judicial severity (*Retractationes*, Prologus; `Source_Registry.md` row 209).
 
 **Gravity connection:** Shapes the evidentiary base of every gravity in this document; most directly bears on G1's own single-angled emotional record (Section 4B above).
 
@@ -529,7 +529,7 @@ Every Tier 1 term from Doc_06 (7 of 19), each with an always-present designation
 
 **Always-present:** YES — the doctrinal ground beneath G3 (communion, Primary) itself: the reason a colleague's judgment cannot simply be overridden, and separation is so serious.
 
-**Brief characterization:** A single, undivided office held corporately — each bishop holds the whole of it in his own place, not a share of it.
+**Brief characterization:** A single, undivided office held corporately — "the episcopate is one, each part of which is held by each one for the whole."
 
 **Distortion risk note:** Modern readers hear either a bureaucratic hierarchy or a loose federation of independent congregations; this world's own sense is a single office shared corporately and held whole by each holder.
 

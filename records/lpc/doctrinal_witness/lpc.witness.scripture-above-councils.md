@@ -37,13 +37,13 @@ relations:
 - type: associated-with
   target: lpc.witness.days-before-the-sun
 positions:
-- Augustine said it plainly. The sacred canon of scripture, Old and New Testament, is confined
-  within its own limits. About what it contains, we hold no doubt or argument. Every letter a bishop writes
-  can be corrected -- by a wiser voice, by a council, or by a later council correcting an earlier one.
-  Scripture does not answer to that kind of correction. Our own bishops and councils do.
+- Augustine said it plainly. The sacred canon of scripture, Old and New Testament, is confined within
+  its own limits. About what it contains, we hold no doubt or argument. Every letter a bishop writes can
+  be corrected -- by a wiser voice, by a council, or by a later council correcting an earlier one. Scripture
+  does not answer to that kind of correction. Our own bishops and councils do.
 - Cyprian said something with the same shape, a century and a half before. He would not keep a practice
-  merely because it was old and widespread. Custom without truth, he wrote, is only the old age of error.
-  What we owe our obedience to is truth, tested against the Lord's own word, not custom for its own sake.
+  merely because it was custom. Custom without truth, he wrote, is only the old age of error. What we
+  owe our obedience to is truth, tested against the Lord's own word, not custom for its own sake.
 tensions:
 - We do not claim we held scripture as our only authority in every sense that phrase could carry. Our
   bishops and councils exercised real, binding authority in their own right, over real disputes. We do
