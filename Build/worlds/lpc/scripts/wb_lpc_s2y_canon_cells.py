@@ -31,7 +31,8 @@ don's or rzg's own script summaries):
     record_type in {"doctrinal_witness", "term", "story", "quote"}
     (canon.substantive_types()). gravity, force, contested_claim, and
     figure canon_cells tags do NOT close a cell for gate_canon_coverage --
-    they are tagged in this script anyway, for the same reason
+    contested_claim and figure records are tagged in this script anyway
+    (gravity and force records carry the cells wb_lpc_s25.py assigns), for the same reason
     retrieval_hint_keywords()/entity_cells() exist: they feed M4's Stage A
     keyword/entity routing and M2's compiled canon-map.json cache at build
     time, even though they carry no coverage-gate weight. Every place below
@@ -671,33 +672,6 @@ ASSIGN: dict[str, list[tuple[str, list[str]]]] = {
         ("lpc.quote.clamour-and-tears", ["F3-I"]),
         ("lpc.quote.longing-expectation-is-a-prayer-for-me", ["F4-I"]),
         ("lpc.quote.shepherd-wounded-in-the-flock", ["F4-I"]),
-    ],
-    "gravity": [
-        ("lpc.gravity.collegial-communion-preserved", ["F3-T"]),
-        ("lpc.gravity.conciliar-authority-theory", ["F1-I"]),
-        ("lpc.gravity.confessor-authority-vs-episcopal-peace", ["F6-I"]),
-        ("lpc.gravity.grace-and-human-incapacity", ["F1-T"]),
-        ("lpc.gravity.pastoral-office-flock-keeping", ["F3-I"]),
-        ("lpc.gravity.penitential-discipline", ["F4-I"]),
-        ("lpc.gravity.preaching-and-catechesis", ["F2-I"]),
-        ("lpc.gravity.sacramental-ordination-validity", ["F6-I"]),
-    ],
-    "force": [
-        ("lpc.force.augustine-engagement-cyprian-conciliar-acts", ["F6-I"]),
-        ("lpc.force.confessors-claim-to-grant-peace", ["F6-I"]),
-        ("lpc.force.congregational-acclamation-overriding-preference", ["F3-I"]),
-        ("lpc.force.decian-persecution-libelli-system", ["F4-I"]),
-        ("lpc.force.donatist-schism", ["F6-T"]),
-        ("lpc.force.inherited-latin-theological-vocabulary", ["F2-I"]),
-        ("lpc.force.manichaeism-and-pelagian-anthropology", ["F1-T"]),
-        ("lpc.force.organized-carthaginian-church", ["F3-I"]),
-        ("lpc.force.plague-of-cyprian", ["F5-I"]),
-        ("lpc.force.recurring-contest-failed-member", ["F4-I"]),
-        ("lpc.force.standing-legal-condition-unlicensed-religion", ["F3-I"]),
-        ("lpc.force.transmission-asymmetric-span-133-year-silence", ["F2-E"]),
-        ("lpc.force.transmission-institutionally-dominant-side", ["F2-E"]),
-        ("lpc.force.valerianic-persecution", ["F5-P"]),
-        ("lpc.force.vandal-invasion-siege-of-hippo", ["F5-I"]),
     ],
     "contested_claim": [
         ("lpc.contested.compel-coercion-development", ["F3-P"]),  # retagged in rework, was F6-P

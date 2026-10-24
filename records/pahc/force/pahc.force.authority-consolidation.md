@@ -15,13 +15,16 @@ confidence:
   divergence_note: "The coarse claim (authority required active organizing once the apostles' generation was gone) is Widely Accepted; the specific resolution (a secured monarchical office in Antioch/Asia Minor) is Contested, resting overwhelmingly on Ignatius's own three-way-disputed corpus."
 sources:
 - source_id: pahc.source.ignatius-letters
-  locus: "Ephesians 4 (the harp image); Smyrnaeans 8; passim"
+  locus: "Ephesians 4 (the harp image); Philadelphians 4; Smyrnaeans 8; To Polycarp, salutation (Polycarp addressed as bishop); passim"
   license: public-domain
 - source_id: pahc.source.first-clement
   locus: "42, 44 (interchangeable episkopos/presbyteros for a plural college)"
   license: public-domain
 - source_id: pahc.source.shepherd-hermas
   locus: "Vision 2.4.3 (plural presiding presbyters)"
+  license: public-domain
+- source_id: pahc.source.polycarp-philippians
+  locus: "salutation (Polycarp and the presbyters with him); 5 (being subject to the presbyters and deacons)"
   license: public-domain
 - source_id: pahc.source.didache
   locus: "15:1 (transitional instruction to appoint bishops and deacons)"
@@ -32,22 +35,7 @@ relations:
 name: "Authority Consolidation - the episkopos/presbyteros/diakonos question [2B - ongoing/internal]"
 matrix_cell: 2B
 kind: ongoing
-description: "HISTORICAL EVENT: 1 Clement's interchangeable use of episkopos and presbyteros for a
-  plural governing college (chs. 42, 44) and Hermas's plural 'presbyters who preside over the
-  Church' (Rome, Strand B) sit alongside Ignatius's explicit threefold-office program urged onto
-  multiple Asia Minor churches (Strand A) - two mutually exclusive, contemporaneous, regionally-
-  differentiated answers to the same organizational question. WORLD'S OWN EXPERIENCE: in one
-  community, obedience to a single bishop, flanked by presbyters and deacons, was the very shape of
-  unity - strings tuned together into one sound, as one of this world's own advocates put it. In
-  another, a council of presbyters was the ordinary, sufficient shape of oversight, with no felt
-  lack from the absence of any single presiding figure. The same person - Polycarp - could be
-  addressed by one correspondent as a bishop and describe himself, in his own letter, only as one of
-  the presbyters. FORMATION IMPACT: this is the clearest single institutional expression of this
-  world's own defining formation logic - office argued for, not assumed. It is directly fused with
-  liturgical practice in Strand A, where attending the bishop's own eucharist and refusing any other
-  was inseparably an act of worship and an act of belonging, and it supplies two structurally
-  parallel answers to the identical question of how continuity with the apostles should be secured
-  once eyewitnesses are gone."
+description: "HISTORICAL EVENT: 1 Clement uses the words for bishop (episkopos) and presbyter for one group of leaders (chapters 42 and 44). Hermas speaks of presbyters who lead the church at Rome. Ignatius urges a threefold office of bishop, presbyters and deacons on several churches in Asia Minor. These are two answers to one question. The question is how a church should be led. The answers come from different regions at the same time. WHAT THE VOICES SAY: Ignatius tells the Ephesians to run together with the will of their bishop. He says their presbytery fits the bishop like the strings of a harp. For Ignatius, unity means obeying one bishop, with presbyters and deacons beside him. Elsewhere a council of presbyters was the ordinary shape of oversight. Polycarp tells the Philippians to be subject to the presbyters and deacons (Philippians 5). Hermas, 1 Clement and Polycarp's letter name no single bishop over a church. They show no sign that anyone missed one. Ignatius addresses Polycarp as bishop of Smyrna. Polycarp's own letter opens as from 'Polycarp, and the presbyters with him.' FORMATION IMPACT: this is the clearest case of this world's main logic. Office was argued for, not assumed. Ignatius ties it to worship. He tells the Philadelphians to keep one eucharist (Philadelphians 4). He calls a eucharist sound when the bishop, or someone he entrusts, leads it (Smyrnaeans 8). The two answers differ on how to keep ties to the apostles once the eyewitnesses are gone."
 manifestations:
 - "one bishop, flanked by presbyters and deacons, obeyed as the shape of unity - 'your justly renowned presbytery, worthy of God, is fitted as exactly to the bishop as the strings are to the harp' (Ignatius, Ephesians 4)"
 - "a plural college of presbyters, interchangeable with episkopos in the same letter (1 Clement 42, 44)"

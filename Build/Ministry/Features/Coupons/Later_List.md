@@ -1,6 +1,6 @@
 # Coupons: later list
 
-Built on 2026-10-24 under the rulings of that date in `Build/Ministry/Features/Go-Deeper/Decision-Log.md` (82 to 87). Not blocking.
+Built on 2026-10-24 under the rulings of that date in `Build/Ministry/Features/Go-Deeper/Decision-Log.md` (85 to 90). Not blocking.
 
 1. Privacy page. It should say that the project lead can keep a coupon under the keyed hash of an address until the person signs in or 90 days pass, and that the address is dropped after hashing, as a verified Google address is when it is used to find a coupon. The words are Mark's.
 2. Starting numbers in `engine/deeper/ops/go-deeper.yaml`, section `coupon`: `max_tokens` 20000, `max_per_day` 20, `unclaimed_days` 90 (Mark ruled the 90; the other two are stated defaults for him to change by pull request).

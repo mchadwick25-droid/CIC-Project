@@ -15,10 +15,10 @@ confidence:
   divergence_note: "Documented that this Two Ways schema exists and structures entry into the Didache's own community this way; Inferential-Thin on how widely it was actually adopted as network-wide catechetical practice, given the Didache's own single-manuscript-dependent, single-community-attested evidentiary base. Treating it as this world's general entry-point catechesis, as this force's own Formation Impact layer does, is this document's own reasoned generalization from real but limited evidence, not an independently attested network-wide finding."
 sources:
 - source_id: pahc.source.didache
-  locus: "1-6 (the schema itself: 'There are two ways, one of life and one of death')"
+  locus: "1-6 (the schema itself: 'There are two ways, one of life and one of death'); 6:1 (not to be led astray from this way); 7:1 (baptism after the teaching); 16:2 (coming together often; the time of faith will not profit unless made perfect)"
   license: public-domain
 - source_id: pahc.source.barnabas
-  locus: "18-20 (independent witness that the schema circulated more widely than the Didache's own redaction)"
+  locus: "18-20 (light and darkness; independent witness that the schema circulated more widely than the Didache's own redaction)"
   license: public-domain
 relations:
 - type: associated-with
@@ -26,7 +26,7 @@ relations:
 name: "The Two Ways Catechetical Inheritance [1B - initiating/internal]"
 matrix_cell: 1B
 kind: initiating
-description: "HISTORICAL EVENT: the Didache's opening teaching (chapters 1-6) brings a newcomer into this world through a 'way of life' and a 'way of death.' Barnabas 18-20 and a separate Latin witness show the same pattern on their own. So the pattern was known more widely than the Didache's own version of it. The Didache itself is probably the document of one community, likely in Syria. WORLD'S OWN EXPERIENCE: before the water, a person preparing for baptism was taught that two ways lay open, a way of life and a way of death. Which way a person walked was a live, continuing choice. It was not a nature settled once and for all. This teaching was inherited as a tool for shaping a new member. FORMATION IMPACT: this inherited teaching grounds how this world understands the human person. Each person stands at a live moral fork, not at a nature secured once by initiation. It supplies the moral logic at the start of this world's whole formation arc. Its evidence comes from a single community, so it cannot be trusted to hold across the whole network."
+description: "HISTORICAL EVENT: the Didache's opening teaching (chapters 1 to 6) brings a newcomer in through a 'way of life' and a 'way of death.' Barnabas 18 to 20 gives the same pattern as light and darkness. A separate Latin witness shows it too. So the pattern was known more widely than the Didache's own version. The Didache itself is probably the document of one community, likely in Syria. WHAT THE TEXTS SHOW: the Didache teaches the two ways first and then tells the reader to baptize (Didache 1:1 and 7:1). It keeps the choice open afterwards. Chapter 6 begins by warning the reader not to be led astray from this way. Chapter 16 tells believers to come together often. It says the whole time of their faith will not profit them unless they are made perfect in the last time. This record reads that as a continuing choice and not a nature settled once at baptism. That contrast is the record's own reading. Barnabas gives independent evidence that the schema circulated. That it came from a pre-Christian source is a modern reconstruction. FORMATION IMPACT: this teaching shapes how the world understands a person. Each person stands at a live moral fork. It supplies the moral logic at the start of the formation path. Its evidence comes from one community, so it cannot be assumed to hold across the whole network."
 manifestations:
 - "'There are two ways, one of life and one of death; but a great difference between the two ways' (Didache 1:1)"
 - "the same two-ways schema, independently, in Barnabas 18-20"

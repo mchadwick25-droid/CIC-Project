@@ -151,11 +151,57 @@ describe('a purchase reference carried in the address', () => {
     expect(mod.codeHeaders()).toEqual({});
   });
 
-  it('a code planted in the address is not taken at all', async () => {
-    window.history.replaceState(null, '', '/#cic-code=ABCD2345EFGH6789JKLM');
+  it('a code in the address is cleared at once and held, saving nothing until the person agrees', async () => {
+    window.history.replaceState(null, '', '/?mode=table#cic-code=ABCD-2345-EFGH-6789-JKLM');
+    const fetchMock = vi.fn();
+    vi.stubGlobal('fetch', fetchMock);
     const mod = await load(true);
+    expect(window.location.hash).toBe('');
+    expect(window.location.search).toBe('?mode=table');
     expect(mod.codeHeaders()).toEqual({});
-    expect(window.location.hash).toBe('#cic-code=ABCD2345EFGH6789JKLM');
+    expect(localStorage.getItem('cic_codes')).toBeNull();
+    expect(fetchMock).not.toHaveBeenCalled();
+  });
+
+  it('a code in the address that is not a code is cleared and nothing is held', async () => {
+    window.history.replaceState(null, '', '/#cic-code=nonsense');
+    const mod = await load(true);
+    expect(window.location.hash).toBe('');
+    expect(mod.codeHeaders()).toEqual({});
+  });
+
+  it('on a yes, a code from the address is checked with the server and kept', async () => {
+    window.history.replaceState(null, '', '/#cic-code=ABCD-2345-EFGH-6789-JKLM');
+    const fetchMock = vi.fn().mockResolvedValue(new Response(JSON.stringify({ remaining: 40 }), { status: 200 }));
+    vi.stubGlobal('fetch', fetchMock);
+    const mod = await load(true);
+    expect(await mod.acceptClaim()).toBe(true);
+    expect(fetchMock).toHaveBeenCalledWith('/api/deeper/balance', expect.objectContaining({ credentials: 'omit', headers: { 'X-Cic-Code': CODE.replace(/ /g, '') } }));
+    expect(mod.codeHeaders()).toEqual({ 'X-Cic-Code': CODE.replace(/ /g, '') });
+  });
+
+  it('a code from the address that the server does not know is refused and not kept', async () => {
+    window.history.replaceState(null, '', '/#cic-code=ABCD-2345-EFGH-6789-JKLM');
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue(new Response('{}', { status: 404 })));
+    const mod = await load(true);
+    expect(await mod.acceptClaim()).toBe(false);
+    expect(mod.codeHeaders()).toEqual({});
+  });
+
+  it('a code from the address is dropped when the person says not now', async () => {
+    window.history.replaceState(null, '', '/#cic-code=ABCD-2345-EFGH-6789-JKLM');
+    const fetchMock = vi.fn();
+    vi.stubGlobal('fetch', fetchMock);
+    const mod = await load(true);
+    mod.declineClaim();
+    expect(await mod.acceptClaim()).toBe(false);
+    expect(fetchMock).not.toHaveBeenCalled();
+  });
+
+  it('a code in the address is left alone when the module is off', async () => {
+    window.history.replaceState(null, '', '/#cic-code=ABCD-2345-EFGH-6789-JKLM');
+    await load(false);
+    expect(window.location.hash).toBe('#cic-code=ABCD-2345-EFGH-6789-JKLM');
   });
 
   it('is left alone when the module is off', async () => {

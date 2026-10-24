@@ -60,7 +60,7 @@ The anti-Pelagian corpus, Registry row 23 (Native, Confidence B), licensed direc
 
 **Author Gravity note, flagged at generation rather than discovered afterwards.** The entire evidentiary base is **one voice (Augustine) within one evidence stream (row 23)**. The density of the evidence could easily read as breadth and is not: Doc_04 §3 Candidate 7 records the risk for exactly this reason. **No Pelagian first-person answer survives in this world's Native record.**
 
-**Phase bound.** This term belongs to Augustine's phase. No Pelagian-anthropology-equivalent material exists anywhere in Cyprian's corpus, because the controversy postdates him by over a century — a real temporal boundary, not a gap in the search.
+**Phase bound.** This term belongs to Augustine's phase. Cyprian states the theme in passing (*Testimonies* III.4: "That we must boast in nothing, since nothing is our own"), and Augustine later quoted those words against the Pelagians. But nothing in Cyprian's phase organizes formation around it, because the controversy postdates him by over a century.
 
 ---
 

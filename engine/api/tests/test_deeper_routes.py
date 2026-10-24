@@ -747,6 +747,7 @@ def test_the_dashboard_section_is_hidden_until_the_route_answers_and_names_every
 
     page = (Path(deeper_routes.__file__).parent / "static" / "admin_dashboard.html").read_text()
     assert '<section id="deeper-section" class="hidden">' in page
+    assert 'id="mint-copy-links"' in page and "/#cic-code=" in page
     assert "/api/admin/deeper/measures" in page
     for reason in REFUSAL_REASONS:
         assert f"refused_{reason}:" in page, reason

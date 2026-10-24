@@ -51,6 +51,18 @@ describe('GoDeeperPanel', () => {
     vi.unstubAllGlobals();
   });
 
+  it('a code that came with the link is offered, used on one tap, and a wrong one is refused in the code line', async () => {
+    window.history.replaceState(null, '', '/#cic-code=ABCD-2345-EFGH-6789-JKLM');
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue(new Response('{}', { status: 404 })));
+    const { GoDeeperPanel } = await load(true);
+    render(<GoDeeperPanel />);
+    const group = await screen.findByRole('group', { name: 'A code came with this link. Use it?' });
+    fireEvent.click(within(group).getByRole('button', { name: 'Use it' }));
+    expect(await within(group).findByRole('alert')).toHaveTextContent("That doesn't look like a code. Check it and try again.");
+    vi.unstubAllGlobals();
+    window.history.replaceState(null, '', '/');
+  });
+
   it('adds a code to the free tokens left instead of replacing them', async () => {
     const { GoDeeperPanel, deeper } = await load(true);
     render(<GoDeeperPanel />);
