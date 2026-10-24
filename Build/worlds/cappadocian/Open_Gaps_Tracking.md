@@ -949,3 +949,25 @@ Status: OPEN for B3 and B4 until the round 2 recheck. CLOSED for the other claim
 Follows the "Independent recheck of the live-reply claim check fixes" entry (2026-10-24). The separate Opus recheck thread confirmed B3 and B4 against https://github.com/mchadwick25-droid/CIC-Project/pull/1102 (`Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Independent-Recheck_Round1.md` and `Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Independent-Recheck_Round2.md`, merged in https://github.com/mchadwick25-droid/CIC-Project/pull/1099). No round 3 is needed.
 
 Status: CLOSED for the live-reply claim check findings. The follow-on pass on records citing the four unvendored sources stays OPEN.
+
+### OG-56. Records citing the five unvendored sources, re-grounded, 2026-10-24.
+
+Follows the "Live-reply claim check findings re-confirmed and fixed" entry (2026-10-23), which left open a pass on the records citing the four sources then marked unvendored, plus De pauperibus amandis.
+
+Assessment: `Build/Ministry/Operations/Audits/2026-10-24_cappadocian-unvendored-citers_Assessment.md`. Sonnet drafted the fixes. Opus reviewed them in three rounds (`..._Review_Round1.md`, `..._Review_Round2.md`, `..._Review_Round3.md`). The cap was reached with two one-sentence findings left. The project lead ruled to apply round 3's wording and run one ordered recheck ("Cap ruling: cappadocian unvendored-citers", System Hub Decision Log, 2026-10-24; file `..._Cap-Ruling-Recheck.md`).
+
+Fixed:
+- Most claims in the 19 records now rest on held English texts: Nazianzen's Orations 42 and 43 and his letters (including Ep. 52 to Nicobulus on gathering his own letters), Basil's letters (XIV, XCIV, CCXXXIV), the Life of Macrina, Sozomen and Socrates, and Basil's Longer Rule XL.
+- Basil's famine and wealth homilies: long English extracts of Homilies VI and VII are quoted in the npnf208 Prolegomena, and Homily VIII is only summarized. Records citing them now say exactly that.
+- Source records: `sasima-letters` and `epistle-197-theosebia` are now `kind: vendored`; the Nazianzen records no longer undercount the letters in npnf207; the In XL Martyres II search note is corrected; licence lines are removed from unvendored sources.
+- Removed or hedged: the Easter mob at Constantinople, the Sasima "waystation without a spirit", "surplus belongs to the hungry" stated as teaching, and process narration in spoken fields. "Frozen lake" is now "frozen pond" in all four records, matching the vendored summary.
+
+Project lead ruling (2026-10-24): De vita sua and Oration 44 are held only as Migne's Greek OCR (PG36, PG37), which its own headers mark unquotable until checked against the page images. No records rest on that OCR for now. Claims that rest only on it stay hedged.
+
+Still open, non-blocking (round 3 notes):
+- `term.pleonexia` opens "During a famine", while its new Homily VI line is not tied to the famine.
+- `demo.taught-most` exchange glosses Matthew 25 ("the stranger", "the least") beyond the Homily VI extract.
+- Citing the Prolegomena extracts through `basil-letters-general-corpus`, whose `work` names only the Letters; a source record for the extracts would be cleaner.
+- Other Cappadocian records still carry `license:` lines on unvendored sources (`limit.no-stones-to-show`, `homoousios`, `phthonos`, `philanthropia`, `martys-martyrion`, `orge`, `eikon`, `basileias`).
+
+Status: CLOSED for the 19 records, subject to the ordered recheck. OPEN for the four notes above.
