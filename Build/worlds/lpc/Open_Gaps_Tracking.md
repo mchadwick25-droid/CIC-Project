@@ -1818,3 +1818,12 @@ Logged 2026-10-24.
 - **What was found.** The Opus review of the 14 rewritten witness records (`Review-Artifacts/Witness_Openings_Review_2026-10-24.md`) found that `lpc.witness.apostolic-succession-of-bishops` said "Linus, the successor named by Peter himself". Letter LIII §2 says only "The successor of Peter was Linus". The detail predates the rewrite. It is removed in the review's fix. The same review found three hollow openers, one hedge moved onto the wrong claim, one garden-path sentence, and one line that put a single author's view into the whole "we" voice. All are fixed by the review's own wording.
 - **What it means for the rest (P1 for Phase L2).** The 19-finding gate tested only how a spoken field opens. Spoken fields in records the rewrite did not touch have not been read against their sources sentence by sentence. Every spoken field in `records/lpc/` (`text`, `positions`, `tensions`) needs one source-fidelity pass before admission: each claim against its locus, no detail beyond the source.
 - **Owner.** The `lpc` build thread.
+
+### OG-61. Phase L1 closed: handoff passes after Doc_02 Round 40 (2026-10-24).
+
+Logged 2026-10-24.
+
+- **Rechecks.** Step 0 Round 8, Doc_01 Round 17 and Doc_02 Round 40 are approved to proceed. Round 39's P1 (Monceaux tomes IV to VI marked out of scope against row 56) is fixed.
+- **Holdings dispositions, recounted.** The Registry section now holds 42 out of scope and 14 deferred, not the 47 and 9 that OG-59 gives. Five files moved to Deferred: Monceaux tomes IV, V and VI; Tyconius, *Liber regularum*; and `npnf211` (Sulpicius, Dialogue I, on Cyprian's tomb at Carthage; Vincent, *Commonitorium* ch. 6 §16, on Agrippinus and rebaptism).
+- **For Phase L2.** Weigh the deferred files that bear on the 258 to 391 gap with OG-54: Arnobius, Lactantius, Tyconius and Monceaux tomes IV and V.
+- **Owner.** The `lpc` build thread.
