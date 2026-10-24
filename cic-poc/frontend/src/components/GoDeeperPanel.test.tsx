@@ -331,3 +331,51 @@ describe('GoDeeperPanel, pilot', () => {
     vi.unstubAllGlobals();
   });
 });
+
+function fromSource(source: unknown) {
+  const event = new MessageEvent('message', { data: { type: 'cic:panel-open' } });
+  Object.defineProperty(event, 'source', { value: source });
+  return event;
+}
+
+describe('GoDeeperPanel shown alone in the site frame', () => {
+  let parent: { postMessage: ReturnType<typeof vi.fn> };
+  beforeEach(() => {
+    parent = { postMessage: vi.fn() };
+    vi.spyOn(window, 'parent', 'get').mockReturnValue(parent as unknown as Window);
+  });
+  afterEach(() => vi.restoreAllMocks());
+
+  it('opens at once with no ribbon, and tells the page when it is closed', async () => {
+    const { GoDeeperPanel } = await load(true);
+    render(<GoDeeperPanel panelOnly />);
+    expect(screen.getByRole('complementary', { name: 'Get more conversations' })).toBeInTheDocument();
+    expect(screen.queryByRole('button', { name: 'Get more conversations', expanded: false })).not.toBeInTheDocument();
+    expect(parent.postMessage).not.toHaveBeenCalled();
+    fireEvent.click(screen.getByRole('button', { name: 'Close' }));
+    expect(screen.queryByRole('complementary')).not.toBeInTheDocument();
+    expect(parent.postMessage).toHaveBeenCalledWith({ type: 'cic:panel-close' }, '*');
+  });
+
+  it("opens again when the page asks, and ignores anyone else's message", async () => {
+    const { GoDeeperPanel } = await load(true);
+    render(<GoDeeperPanel panelOnly />);
+    fireEvent.click(screen.getByRole('button', { name: 'Close' }));
+    act(() => {
+      window.dispatchEvent(fromSource({}));
+    });
+    expect(screen.queryByRole('complementary')).not.toBeInTheDocument();
+    act(() => {
+      window.dispatchEvent(fromSource(parent));
+    });
+    expect(screen.getByRole('complementary', { name: 'Get more conversations' })).toBeInTheDocument();
+  });
+
+  it('is unchanged when not alone: the ribbon shows and nothing is posted', async () => {
+    const { GoDeeperPanel } = await load(true);
+    render(<GoDeeperPanel />);
+    openPanel();
+    fireEvent.keyDown(window, { key: 'Escape' });
+    expect(parent.postMessage).not.toHaveBeenCalled();
+  });
+});
