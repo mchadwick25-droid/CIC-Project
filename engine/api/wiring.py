@@ -870,6 +870,9 @@ def replay_transcript(state: SessionState, anachronistic_term_ids: set) -> list[
     voice_message_for_round - the SAME derivation the live bridge turn
     used, so memory and the turn it remembers cannot disagree.
 
+    A participant message whose gate could not run (route safety_unread_turn)
+    is left out altogether.
+
     This does not touch _replay_text's own discipline ("history must match
     what the person read"): that rule is about the VOICE's words, which the
     participant read on screen. The participant's message was never shown
@@ -892,6 +895,10 @@ def replay_transcript(state: SessionState, anachronistic_term_ids: set) -> list[
         if entry.get("speaker") == "participant":
             gate = gate_for_message[ordinal] if ordinal < len(gate_for_message) else None
             ordinal += 1
+            if gate and gate.get("route") == SAFETY_FAILED.action:
+                # Nothing read this message for risk, so no voice is ever handed it: not on its own turn, and not
+                # later as part of what was said since its last turn.
+                continue
             if gate and gate.get("route") == "bridge_turn":
                 substitute, _directive = voice_message_for_round(gate, entry.get("text") or "", anachronistic_term_ids)
                 if substitute:

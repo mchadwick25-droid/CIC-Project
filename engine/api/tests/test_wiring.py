@@ -632,3 +632,33 @@ def test_an_interview_turn_reads_the_rhythm_from_its_own_transcript(store, usage
         )
     assert NO_NEW_FIGURE_LINE not in _voice_directive_text(client, 0)
     assert NO_NEW_FIGURE_LINE in _voice_directive_text(client, 1)
+
+
+def test_a_message_nothing_could_read_is_never_handed_to_a_voice_on_a_later_round():
+    """The unread text is stored, but the memory the voices are given leaves it out - at a Table too, where
+    everything said since a voice's last turn is replayed to it."""
+    from types import SimpleNamespace
+
+    from engine.api.table_wiring import table_history_for
+
+    def event(kind, **payload):
+        return SimpleNamespace(event_type=kind, payload=payload)
+
+    state = SimpleNamespace(
+        raw_events=[
+            event("participant_message", text="what is prayer?"), event("gate_decision", route="voice_pass_through"),
+            event("participant_message", text="UNREAD SHORT"), event("gate_decision", route="safety_unread_turn"),
+            event("participant_message", text="UNREAD LONG " * 5), event("gate_decision", route="safety_unread_turn"),
+            event("participant_message", text="and fasting?"), event("gate_decision", route="voice_pass_through"),
+        ],
+        transcript=[
+            {"speaker": "participant", "text": "what is prayer?"}, {"speaker": "alx", "text": "A first answer."},
+            {"speaker": "participant", "text": "UNREAD SHORT"},
+            {"speaker": "participant", "text": "UNREAD LONG " * 5},
+            {"speaker": "participant", "text": "and fasting?"},
+        ],
+    )
+    memory = wiring.replay_transcript(state, set())
+    assert [e["text"] for e in memory if e["speaker"] == "participant"] == ["what is prayer?", "and fasting?"]
+    history, pending = table_history_for("desert", memory, {"participant": "You", "alx": "Alx"})
+    assert "UNREAD" not in " ".join(m["content"] for m in history) + " ".join(pending)

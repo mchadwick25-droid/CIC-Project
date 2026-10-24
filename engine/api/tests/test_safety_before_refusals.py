@@ -158,6 +158,23 @@ def test_an_unread_message_to_a_closed_table_gets_the_fixed_line_and_uses_no_rou
     assert resp.status_code == 200, resp.text
     body = resp.json()
     assert body["facilitator"] == [facilitator_turns.safety_unread_refused_turn()] and body["turn_no"] == 0 and not body["round_open"]
+    assert not any(e.event_type == "safety_state" for e in store.read_events(session_id))
+    client.safety_recovered = True
+    again = http.post(f"/api/session/{session_id}/message", json={"text": "hello"}, headers=auth)
+    assert again.status_code == 409
+
+
+def test_an_unread_over_long_message_at_a_table_gets_the_fixed_line_and_uses_no_round(store, usage_store, world_loader, registry, alx_world, desert_world):
+    from engine.m4 import facilitator_turns
+
+    client = _cannot_run_safety(_table_client(selector_script=[], stream_scripts=[]))
+    http = _http(client, store, usage_store, world_loader, registry)
+    session_id, auth = _create_table(http)
+    resp = http.post(f"/api/session/{session_id}/message", json={"text": "I need to say this. " * (MAX_MESSAGE_LENGTH // 10)}, headers=auth)
+    assert resp.status_code == 200, resp.text
+    body = resp.json()
+    assert body["facilitator"] == [facilitator_turns.safety_unread_refused_turn()] and body["turn_no"] == 0 and not body["round_open"]
+    assert client.messages.stream_calls == []
 
 
 def test_an_unread_message_while_a_table_round_is_open_is_refused_and_the_round_stays_open(store, usage_store, world_loader, registry, alx_world, desert_world):
