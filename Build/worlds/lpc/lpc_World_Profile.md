@@ -123,7 +123,7 @@ The canonical gravity record for this world, per Doc_04 §4. **G1 is named here 
 
 **Confidence:** Both formulas' existence is Documented; the evidence for their organizing breadth does not reach the same level, and Doc_04 flags this rather than upgrading the classification (Doc_04 §3 Candidate 5). This is one of the two Confidence/Gravity Cross-Check divergences Doc_04 §7 item 1 holds by design: the Cross-Check's own rule carries a divergence forward to Doc_05 and Doc_08 instead of resolving it at Doc_04. Doc_04 records Candidate 5's as the more consequential of the two.
 
-**Cross-strand status:** Strand-singular; not phase-bound like G2 and G7 — attested in both phases but at one locus each, a century apart: "thin across the span, not bounded within it" (Doc_04 §5).
+**Cross-strand status:** Strand-singular; not phase-bound like G2 and G7 — attested in both phases, each theory in one bishop's own voice, a century apart: "thin across the span, not bounded within it" (Doc_04 §5).
 
 **Brief description:** Cyprian's egalitarian formula (no "bishop of bishops," each with his own proper right of judgment) against Augustine's hierarchical formula (plenary councils correcting provincial ones, and even earlier plenary councils) — with no evidence that ordinary believers or most clergy were formed by the question (the 256 Council's preface records clergy and congregation present when Cyprian stated his formula). **Doc_04 §7 item 8 is closed** on the gapped-formation precedent. Two things are kept apart here: **the ruling itself settles only that Candidate 5 is Supporting.** The further conclusion — that it is honestly thin, and that this is the answer rather than a puzzle with a cleaner solution outstanding — is **Doc_04's, stated in its own voice** (`Doc_04` §7 item 8), not part of that ruling.
 
@@ -137,7 +137,7 @@ The canonical gravity record for this world, per Doc_04 §4. **G1 is named here 
 
 **Confidence:** Documented for the corpus's existence and scale — 1,798 raw occurrences across thirteen dedicated works, the highest raw-frequency count this build has swept.
 
-**Cross-strand status:** Strand-singular; **Augustine-phase-bound** — no Cyprian-phase evidence exists in this world's Native corpus, since the Pelagian controversy postdates Cyprian by over a century (Doc_04 §3 Candidate 7).
+**Cross-strand status:** Strand-singular; **Augustine-phase-bound** — no Cyprian-phase text organizes formation around it (Cyprian states the theme only in passing, *Testimonies* III.4), since the Pelagian controversy postdates Cyprian by over a century (Doc_04 §3 Candidate 7).
 
 **Brief description:** Augustine's refusal of Pelagian anthropology's claim that moral effort is sufficient without grace — this world's densest textual object, and, per Doc_04's flagged Author Gravity risk, "structurally freestanding rather than load-bearing" for the rest of the ecology. Its formation impact runs mostly outward, into the subsequent Western theological tradition (Doc_08 Force 3B-1).
 
@@ -363,7 +363,7 @@ Fifteen of Doc_08's seventeen forces are carried here, at least one per occupied
 
 **Cell:** 2B — Ongoing/Internal
 
-**Formation impact (Layer 3):** The fullest crossing of this world's 133-year silence in the matrix, and the only one that engages Cyprian's conciliar acts. The mechanism is textual transmission, attested more than once: Possidius quotes Cyprian's *De Mortalitate*, and Augustine's anti-Pelagian works cite Cyprian on grace (2A-4). The crossing is textual rather than successive (Doc_07 §3A). Produces G5's second formula, tests G3 across the gap, and re-opens G6. Prompted by the Donatists' own citation of Cyprian, but the reading, argument, and conclusion are this world's own.
+**Formation impact (Layer 3):** The fullest crossing of this world's 133-year silence in the matrix, and the only one in which this world itself reads and answers Cyprian's conciliar acts. The mechanism is textual transmission, attested more than once: Possidius quotes Cyprian's *De Mortalitate*, and Augustine's anti-Pelagian works cite Cyprian on grace (2A-4). The crossing is textual rather than successive (Doc_07 §3A). Produces G5's second formula, tests G3 across the gap, and re-opens G6. Prompted by the Donatists' own citation of Cyprian, but the reading, argument, and conclusion are this world's own.
 
 **Gravity connection:** G3, G5, G6.
 
@@ -425,7 +425,7 @@ Fifteen of Doc_08's seventeen forces are carried here, at least one per occupied
 
 **Cell:** 3B — Ending-Transforming/Internal
 
-**Formation impact (Layer 3):** This world's closing decades are disproportionately well-attested relative to its opening ones, and between the two phases its own congregational record falls silent across roughly 133 years, so far as this build has assessed it. Nine tractatus in Morin 1917, one titled in a manuscript as a sermon of Optatus, are not yet assessed (OG-54). The silence is a subject-matter gap, not an empty archive: Registry **row 27**, Optatus of Milevis's *Against the Donatists*, is a vendored native primary source writing inside the interval, but its documented material is the neighboring Donatism world's own territory, not this one's. Continuity across the gap is textual, not successive — established by the force above and by Possidius quoting Cyprian's *De Mortalitate*. Phase-bound gravities (G2 and G8 in phase one only, G7 in phase two only) are an artefact of the record as well as of the world.
+**Formation impact (Layer 3):** This world's closing decades are disproportionately well-attested relative to its opening ones, and between the two phases its own congregational record falls silent across roughly 133 years, so far as this build has assessed it. Nine tractatus in Morin 1917, one titled in a manuscript as a sermon of Optatus, are not yet assessed (OG-54). The silence is a subject-matter gap, not an empty archive: Registry **row 27**, Optatus of Milevis's *Against the Donatists*, is a vendored native primary source writing inside the interval, but its documented material is the neighboring Donatism world's own territory, not this one's. Continuity across the gap is textual, not successive — carried most fully by the force above, and also by Possidius quoting Cyprian's *De Mortalitate* and by Augustine's anti-Pelagian citations of Cyprian on grace (2A-4). Phase-bound gravities (G2 and G8 in phase one only, G7 in phase two only) are an artefact of the record as well as of the world.
 
 **Gravity connection:** Shapes the evidentiary base of every gravity in this document; most directly bears on the phase-bound status of G2, G7, and G8.
 
@@ -617,9 +617,9 @@ Stated as this world's own natural formation character, not as construction gaps
 
 **Domain:** A woman's own narrating voice
 
-**Ecological basis:** This world's own record names women and describes what happened to and around them — Numidicus's wife and daughter, Numeria and Candida, Celerinus's own sister, Albina and the community of nuns at Hippo — across both phases and 180 years, and not one of them speaks in her own words anywhere this build has found. Named women are visible in this world's own record; none is audible.
+**Ecological basis:** This world's own record names women and describes what happened to and around them — Numidicus's wife and daughter, Numeria and Candida, Celerinus's own sister, Albina and the community of nuns at Hippo — across both phases and 180 years, and not one of them speaks in her own words anywhere this build has found. No text a woman wrote herself survives in this world's corpus. One martyr text reports a woman's own spoken account of a vision, in her own first person: Quartillosia in the *Passion of Montanus and Lucius* 8 (`Source_Registry.md` rows 269 and 270). That is a single narrated voice inside a text men wrote, not a body of women's writing.
 
-**How the Representative handles it:** We can tell you what happened to the women of our own communities, because our bishops wrote it down — but we have no woman's own words about any of it, and we do not put words in her mouth that our own record does not carry.
+**How the Representative handles it:** We can tell you what happened to the women of our own communities, because our bishops wrote it down. But no woman among us left a text she wrote herself. One of our martyr accounts does give a woman's vision in her own first person: Quartillosia, held in prison with the martyrs, saw her son, who had suffered, come to the prison. That is one voice, set down by men, and we do not put words in any woman's mouth that our own record does not carry.
 
 ---
 
@@ -649,7 +649,7 @@ Stated as this world's own natural formation character, not as construction gaps
 
 **Domain:** The 133-year interval between Cyprian's death and Augustine's ordination
 
-**Ecological basis:** A silence in this world's own record, so far as this build has assessed it (Contested; nine tractatus in Morin 1917 are not yet assessed, OG-54), not a period in which nothing happened and not a domain to be filled from the neighboring Donatism world whose sources do cover those same decades. The silence is a subject-matter gap, not an empty archive: Registry **row 27**, Optatus of Milevis's *Against the Donatists*, is a vendored native primary source writing inside the interval, but its documented material is the neighboring Donatism world's own territory, not this one's. What crosses the gap is one mechanism — text, rather than a living memory carried forward — attested twice: Augustine engaging Cyprian's conciliar acts, and Possidius quoting Cyprian's *De Mortalitate*.
+**Ecological basis:** A silence in this world's own record, so far as this build has assessed it (Contested; nine tractatus in Morin 1917 are not yet assessed, OG-54), not a period in which nothing happened and not a domain to be filled from the neighboring Donatism world whose sources do cover those same decades. The silence is a subject-matter gap, not an empty archive: Registry **row 27**, Optatus of Milevis's *Against the Donatists*, is a vendored native primary source writing inside the interval, but its documented material is the neighboring Donatism world's own territory, not this one's. What crosses the gap is one mechanism — text, rather than a living memory carried forward — attested more than once: Augustine engaging Cyprian's conciliar acts, Possidius quoting Cyprian's *De Mortalitate*, and Augustine's anti-Pelagian works citing Cyprian on grace.
 
 **How the Representative handles it:** Between the two of us there is a long stretch neither of us can speak to — not because nothing happened in it, but because it is not our own to tell. We hold the century between as a silence in our own record, as far as we have yet weighed what survives. A handful of old sermons may come from those years, and we do not lean on them until they are weighed. We do not borrow another communion's account of that century to fill our own.
 

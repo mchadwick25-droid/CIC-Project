@@ -22,24 +22,32 @@ sources:
   locus: the Albina correspondence, known only through Augustine's own letters about her
   license: public-domain
 relations: []
-statement: Women appear throughout our own record and never narrate it. Numidicus's own wife burns beside
-  him; his daughter searches for his body and finds him alive. Numeria and Candida are discussed, weighed,
-  and sent to their peace by two men writing to each other about them. In our later years, a woman we
-  know as Albina, and a community of nuns at Hippo, are known to us only through one of our own bishop's
-  letters about them, never through anything they wrote themselves. All of them are visible. None of them
-  is audible. This holds across our whole span, in both our early years and our later ones, not because
-  one half of our record happens to be thinner than the other.
-why_sources_cannot_answer: 'Doc_09_Story_Inventory.md §5 item 4 states this directly, checked across both
-  phases: ''Women appear in these stories and never narrate them... All four are visible; none is audible
-  -- and all four are Phase One. The second phase does not break the pattern... Albina and the community
-  of nuns at Hippo are known only through Augustine''s own framing of them, in letters he wrote about
-  them rather than words they wrote themselves.'' Doc_02_Source_Ecology.md §6 independently confirms the
-  Augustine-phase half. No text in a woman''s own voice survives anywhere in this world''s own Native
+statement: >-
+  Women appear throughout our own record, but almost always in someone else's words. Numidicus's own
+  wife burns beside him; his daughter searches for his body and finds him alive. Numeria and Candida
+  are discussed, weighed, and sent to their peace by two men writing to each other about them. In our
+  later years, a woman we know as Albina, and a community of nuns at Hippo, are known to us only through
+  one of our own bishop's letters about them. No text a woman wrote herself survives from us, in our
+  early years or our later ones, and that is not because one half of our record is thinner than the
+  other. Now and then a woman's spoken words reach us, set down by men. One martyr account gives a
+  woman's vision in her own first person. Quartillosia was held in prison with the martyrs, three days
+  after her husband and son had been put to death, and she told what she saw: her son, who had suffered,
+  coming to the prison. That is one voice, kept inside a text men wrote, and not a body of women's
+  writing.
+why_sources_cannot_answer: >-
+  Doc_09_Story_Inventory.md §7 item 4 states this, checked across both phases: the four women in the
+  Phase One stories are visible and not audible, and in the second phase Albina and the community of
+  nuns at Hippo are known only through Augustine's own framing of them, in letters he wrote about them
+  rather than words they wrote themselves. Doc_02_Source_Ecology.md §6 independently confirms the
+  Augustine-phase half. No text a woman wrote herself survives anywhere in this world's own Native
   corpus, in either phase. The nearest are letters Paulinus of Nola sent to Augustine in his own and
-  his wife Therasia''s names (Letters XXV, XXX and XCIV, headed "from Paulinus and Therasia"), which
-  he writes largely in his own first person.'
+  his wife Therasia's names (Letters XXV, XXX and XCIV, headed "from Paulinus and Therasia"), which he
+  writes largely in his own first person, and a few women's words that men set down, such as
+  Quartillosia's account of her vision in the Passion of Montanus and Lucius 8 ("Vidi, inquit, filium meum",
+  cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt
+  lines 5771-5783; Source_Registry.md rows 269 and 270, Native; no English version is vendored).
 nearest_material:
 - lpc.figure.numidicus
 - lpc.story.numidicus
 ---
-Grounded in Doc_09_Story_Inventory.md §5 item 4 (checked directly for its own cross-phase claim rather than assumed from a Cyprian-phase-only summary) and Doc_02_Source_Ecology.md §6. demo_tag: exclude -- this record shares cell F6-P with lpc.demo.compel-three-phase (B-7); its own framing vocabulary ('we cannot show you,' 'none of them is audible') risks false-tagging as a citable candidate for a demonstration about an unrelated topic (Augustine's coercion doctrine), the same collision risk pahc.limit.womens-own-words's own precedent names and excludes for. Distinguished from lpc.limit.the-lapsed-own-account: narrower (named women specifically, cross-phase) rather than the lapsed as a class.
+Grounded in Doc_09_Story_Inventory.md §7 item 4 (checked directly for its own cross-phase claim rather than assumed from a Cyprian-phase-only summary) and Doc_02_Source_Ecology.md §6. demo_tag: exclude -- this record shares cell F6-P with lpc.demo.compel-three-phase (B-7); its own framing vocabulary, which names what our record lacks, risks false-tagging as a citable candidate for a demonstration about an unrelated topic (Augustine's coercion doctrine), the same collision risk pahc.limit.womens-own-words's own precedent names and excludes for. Distinguished from lpc.limit.the-lapsed-own-account: narrower (named women specifically, cross-phase) rather than the lapsed as a class.

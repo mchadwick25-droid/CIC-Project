@@ -58,7 +58,7 @@ description: >-
 
 
   Third, concerns that belong to one phase only reflect the record as well as the world. Penitential
-  discipline and the confessor-versus-bishop tension are attested only in the first phase. Grace and
+  discipline and the confessor-versus-bishop tension are attested only in the first phase. The concern with grace and
   human incapacity shapes only the second. Each of these limits was confirmed by a positive check,
   not inferred from silence.
 

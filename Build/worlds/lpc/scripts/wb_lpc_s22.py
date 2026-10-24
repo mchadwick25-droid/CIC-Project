@@ -217,8 +217,8 @@ chunk's Key Sources/Author Gravity/tier-note content, following the
 same evidentiary-weight-vs-tier independence don's own script states
 (a term ecologically peripheral enough to sit at Tier 2 can still be
 `load-bearing` for a real, Documented, if narrow, claim -- "bishop of
-bishops" and "plenary Council" are exactly this: sole textual ground of a
-real Supporting/conciliar-authority axis, Tier 2 only because Doc_04/Doc_05
+bishops" and "plenary Council" are exactly this: principal textual ground of
+the Cyprianic pole of a real Supporting/conciliar-authority axis, Tier 2 only because Doc_04/Doc_05
 find no evidence the axis reached ordinary formation). `libelli` and
 `libellatici/sacrificati` are the two Inferential-Thin entries in this
 batch, on the same ground `wb_lpc_s21.py`'s own row-38 departure states for
@@ -284,6 +284,7 @@ ROW_TO_SOURCE = {
     12: "augustine-correction-of-the-donatists",
     13: "augustine-on-baptism-against-the-donatists",
     15: "augustine-on-the-catechising-of-the-uninstructed",
+    17: "augustine-the-enchiridion",
     18: "augustine-creedal-catechetical-works",
     19: "augustine-sermons-on-selected-lessons",
     21: "augustine-tractates-on-john-and-related-exegesis",
@@ -377,8 +378,27 @@ _total_pairs = sum(len(v) for v in ADJACENCY.values()) // 2
 assert _total_pairs == 61, f"expected 61 reciprocal pairs (Index SS5), got {_total_pairs}"
 
 
+EXTRA_RELATIONS_BEFORE = {
+    "compel-them-to-come-in": [
+        ("illustrated-by", "lpc.demo.compel-three-phase"),
+        ("associated-with", "lpc.contested.compel-coercion-development"),
+    ],
+    "grace": [("associated-with", "lpc.contested.grace-pelagius-characterization")],
+    "schism": [("associated-with", "lpc.contested.de-unitate-recensions")],
+    "the-lapsed": [("associated-with", "lpc.limit.the-lapsed-own-account")],
+}
+
+EXTRA_RELATIONS_AFTER = {
+    "bishop-of-bishops": [("associated-with", "lpc.witness.scripture-above-councils")],
+    "plenary-council": [("associated-with", "lpc.witness.scripture-above-councils")],
+}
+
+
 def relations_for(slug: str) -> list[dict]:
-    return [{"type": "associated-with", "target": f"lpc.term.{t}"} for t in sorted(ADJACENCY.get(slug, set()))]
+    terms = [{"type": "associated-with", "target": f"lpc.term.{t}"} for t in sorted(ADJACENCY.get(slug, set()))]
+    before = [{"type": t, "target": g} for t, g in EXTRA_RELATIONS_BEFORE.get(slug, [])]
+    after = [{"type": t, "target": g} for t, g in EXTRA_RELATIONS_AFTER.get(slug, [])]
+    return before + terms + after
 
 
 def emit_term(slug: str, body_kwargs: dict, provenance_note: str) -> str:
@@ -529,12 +549,10 @@ def build_tier1_terms() -> list[str]:
                 "The regulating, disciplining voice throughout this crisis is Cyprian's own, as "
                 "presiding bishop and as the party whose middle position ultimately prevailed. No "
                 "lapsed believer's own account of undergoing the process survives anywhere in this "
-                "corpus (Author-Gravity-Risk: Yes). The clean two-way split between those who "
-                "sacrificed and those who only bought the certificate reaches us as a 19th-century "
-                "editorial endnote on a different, Confidence-C text (lpc.term.libellatici-"
-                "sacrificati), not as Cyprian's own classification in De Lapsis; what is Cyprian's "
-                "own, and what this entry's own account actually rests on, is the refusal to let "
-                "either group's failure be final.",
+                "corpus (Author-Gravity-Risk: Yes). The split between those who sacrificed and those "
+                "who only bought the certificate is Cyprian's own "
+                "(lpc.term.libellatici-sacrificati). This entry's account also rests on De Lapsis's "
+                "refusal to let either group's failure be final.",
             ),
             sources=[
                 src(2, "De Lapsis, the founding document of the controversy, directly quoted "
@@ -609,12 +627,9 @@ def build_tier1_terms() -> list[str]:
                 "sacrifice, and now they want to come back."
             ),
         ),
-        "Re-derived from Doc_06 SS2.1 (lpclex002, Tier 1, G2 Primary -- 'the subject of this world's "
-        "founding crisis') and Lexicon-Chunks/lpclex002_the-lapsed.md. citation_specificity set to B "
-        "(De Lapsis, row 2, is this term's own founding-document ground; the Epistles corroborate at "
-        "A). The two-way libellatici/sacrificati classification's editorial provenance is disclosed "
-        "in confidence.divergence_note per the chunk's own explicit caution, not smoothed into "
-        "Documented fact. Relations: eight terms per this term's own Related-Terms line.",
+        "Derived from Doc_06 §2.1 and Lexicon-Chunks/lpclex002_the-lapsed.md. citation_specificity "
+        "is B because De Lapsis (row 2) is this term's founding-document ground, and the Epistles "
+        "corroborate at A.",
     ))
 
     ids.append(emit_term(
@@ -950,17 +965,17 @@ def build_tier1_terms() -> list[str]:
                 "informational": (
                     "Someone arrives who was washed elsewhere, by people who are not us. Is that "
                     "person baptized? One answer, Cyprian's own: no. What is given outside is not "
-                    "given, because there is nothing outside to give it, so bring them to the "
-                    "water. That is not a technicality; it follows from taking the one body "
-                    "seriously, and it is ruled on in council and defended against Rome at real "
-                    "cost. The other answer, a century and a third later, from a man arguing against "
-                    "that very ruling: what was given outside was truly given, and does no good "
-                    "where the person stands; bring them in, and what they already carry will begin "
-                    "to work. The question does not go away between the two answers -- it gets "
-                    "harder, because by the second time it is not one convert at the door but an "
-                    "entire rival hierarchy holding the same towns. This is the question on which "
-                    "communion is tested hardest, and the one that makes the boundary of the church "
-                    "concrete rather than notional. It bears directly on reconciliation -- whether a "
+                    "given, because there is nothing outside to give it, so bring them to the water. "
+                    "That is not a technicality; it follows from taking the one body seriously, and "
+                    "it is ruled on in council and defended against Rome at real cost. The other "
+                    "answer, a century and a half later, from a man arguing against that very "
+                    "ruling: what was given outside was truly given, and does no good where the "
+                    "person stands; bring them in, and what they already carry will begin to work. "
+                    "The question does not go away between the two answers -- it gets harder, "
+                    "because by the second time it is not one convert at the door but an entire "
+                    "rival hierarchy holding the same towns. This is the question on which communion "
+                    "is tested hardest, and the one that makes the boundary of the church concrete "
+                    "rather than notional. It bears directly on reconciliation -- whether a "
                     "returning person is received or re-made -- and on the one episcopate, since a "
                     "rival consecration's validity decides whether the rival's own bishops are "
                     "bishops at all."
@@ -1006,8 +1021,14 @@ def build_tier1_terms() -> list[str]:
                 "evidence stream (the anti-Pelagian corpus), flagged at generation rather than "
                 "discovered afterwards (Author-Gravity-Risk: Yes). No Pelagian first-person answer "
                 "survives in our own record. This term also carries a live scholarly contest, kept "
-                "on its own, independent axis from this historical-fact rating -- see senses."
-                "informational's own closing paragraph for the contest itself, per Doc_06 SS3.",
+                "on its own axis, independent of this historical-fact rating. The contest type is "
+                "Relationship to present-day traditions, secondarily Meaning. It runs over how the "
+                "historical position stands to the way living traditions use the word now, including "
+                "later appropriations and the Catholic-Protestant disagreements that ran through "
+                "them, and over the modern reassessment of whether the position Augustine argued "
+                "against is the one Pelagius held. The entry does not present the anti-Pelagian "
+                "position as the settled meaning of the word across Christian history, and it does "
+                "not characterize Pelagius.",
             ),
             sources=[
                 src(23, "the anti-Pelagian corpus, licensed directly for the grace/sufficiency-test "
@@ -1030,8 +1051,8 @@ def build_tier1_terms() -> list[str]:
                 ),
             },
             plain_meaning=(
-                "For us, grace names the insistence that no one's own effort is ever sufficient on "
-                "its own. Whatever good a person manages was given to them before they managed it."
+                "For us, grace is the insistence that no effort of ours is enough on its own. Any "
+                "good a person does was given to them before they did it."
             ),
             world_word="grace",
             distortion_risk="high",
@@ -1057,21 +1078,8 @@ def build_tier1_terms() -> list[str]:
                     "catechetical and polemical project, propagated through preaching and "
                     "catechesis, structurally like penitential discipline in addressing the "
                     "compromised believer, but in a different register. It is also freestanding: "
-                    "nothing else in our ecology depends on it resolving one way or the other."
-                    "\n\n"
-                    "This term also carries a live scholarly contest, kept apart from the historical "
-                    "question of what Augustine himself wrote. Doc_06 names it Relationship to "
-                    "present-day traditions, secondarily Meaning: the contest runs over how our own "
-                    "historical position stands to the way living traditions use the word now -- the "
-                    "Reformation-era and later appropriations, the Catholic-Protestant disagreements "
-                    "that ran through them, and the modern scholarly reassessment of whether the "
-                    "position we argue against is the one Pelagius himself actually held. A listener "
-                    "arriving with this word is very often arriving from inside one of those later "
-                    "arguments, not ours. This entry does not present our own anti-Pelagian position "
-                    "as the settled meaning of the word across Christian history, and it does not "
-                    "characterize Pelagius -- how we characterize our own opponents belongs "
-                    "elsewhere, not to this lexicon."
-                    "\n\n"
+                    "nothing else in our ecology depends on it resolving one way or the other.\n"
+                    "\n"
                     "Reported as our own self-understanding, not assessed here for historical "
                     "accuracy; confidence calibration applies to the historical-event layer only. "
                     "This term's formational centrality is exceptionally well evidenced -- the "
@@ -1084,13 +1092,13 @@ def build_tier1_terms() -> list[str]:
                     "The anti-Pelagian corpus (Confidence B), licensed directly for this term, "
                     "carries the whole evidentiary base. A full sweep, scoped to its own thirteen "
                     "works and excluding the introductory essay, dedications, and indexes, returns "
-                    "1,798 raw occurrences of 'grace' (1,665 markup-stripped) -- by a wide margin the "
-                    "single highest raw-frequency count in this lexicon. The entire evidentiary base "
-                    "is one voice within one evidence stream; the density of the evidence could "
+                    "1,798 raw occurrences of 'grace' (1,665 markup-stripped) -- by a wide margin "
+                    "the single highest raw-frequency count in this lexicon. The entire evidentiary "
+                    "base is one voice within one evidence stream; the density of the evidence could "
                     "easily read as breadth, and is not. No Pelagian first-person answer survives in "
-                    "our own Native record. This term belongs to Augustine's own phase; no "
-                    "Pelagian-anthropology-equivalent material exists anywhere in Cyprian's corpus, "
-                    "since the controversy postdates him by over a century."
+                    "our own Native record. This term belongs to Augustine's own phase. Cyprian "
+                    "states the theme in passing (Testimonies III.4), and Augustine later quoted him "
+                    "against the Pelagians, but the controversy postdates Cyprian by over a century."
                 ),
                 "translational": (
                     "A modern listener is likely to hear grace as a warm general benevolence, or as "
@@ -1107,17 +1115,8 @@ def build_tier1_terms() -> list[str]:
                 "person does was given to them first."
             ),
         ),
-        "Re-derived from Doc_06 SS2.1 (lpclex007, Tier 1, G7 Supporting -- 'the one gravity that is "
-        "formation content rather than medium, and the highest-frequency term in the corpus by a "
-        "wide margin') and Lexicon-Chunks/lpclex007_grace.md. CT Contest Type and Reported-"
-        "Experience Status both folded into senses.informational as separated closing paragraphs -- "
-        "`term` has no dedicated field for either (see script docstring, CT CONTEST TYPE FINDING and "
-        "REPORTED-EXPERIENCE FINDING). The Reported-Experience marker is carried near-verbatim from "
-        "the chunk's own Reported-Experience Status section; the chunk's own World Meaning opens "
-        "with the identical sentence mis-pasted a section early, which this record does not repeat "
-        "in plain_meaning or the informational paragraph's own opening (see script docstring, FIELD "
-        "MAPPING, first bullet) -- flagged there, not silently carried forward twice. Relations: "
-        "five terms per this term's own Related-Terms line.",
+        "Derived from Doc_06 §2.1 and Lexicon-Chunks/lpclex007_grace.md. The Reported-Experience "
+        "Status paragraph is carried in senses.informational.",
     ))
 
     return ids
@@ -1211,7 +1210,7 @@ def build_tier2_terms() -> list[str]:
             },
             quick_meaning=(
                 "For us, preaching is the weekly talk to those already baptized. It is how nearly "
-                "everything else we hold reaches an ordinary believer."
+                "all we hold reaches an ordinary believer."
             ),
         ),
         "Re-derived from Doc_06 SS2.2 (lpclex008, down-tiered to Tier 2 -- 'the single largest "
@@ -1237,6 +1236,10 @@ def build_tier2_terms() -> list[str]:
                 src(9, "the Confessions, narrating a catechumenate and baptism from the inside"),
                 src(5, "On the Lord's Prayer, catechetical exposition of the church's own set "
                        "prayer"),
+                src(17, "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- "
+                        "verified directly against "
+                        "cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, "
+                        "line 21773"),
             ],
             retrieval={
                 "tier": 2,
@@ -1282,9 +1285,13 @@ def build_tier2_terms() -> list[str]:
                 ),
                 "translational": (
                     "A modern listener may hear a children's catechism -- rote question-and-answer, "
-                    "memorized young, faintly dry. We mean adult instruction, before baptism, of "
-                    "people making a consequential change of standing, taken seriously enough that a "
-                    "working manual for instructors exists."
+                    "memorized young, faintly dry. Catechesis itself was built around adult "
+                    "instruction, before baptism, of people making a consequential change of "
+                    "standing. It was taken seriously enough that a working manual for instructors "
+                    "exists. Baptism was not adult-only, though. Augustine writes plainly that those "
+                    "baptized into Christ's own death include \"not adults only, but infants as "
+                    "well.\" That is a different question from who received instruction, and this "
+                    "term does not answer it by itself."
                 ),
             },
             quick_meaning=(
@@ -1292,22 +1299,23 @@ def build_tier2_terms() -> list[str]:
                 "the creed, and the basics of belief, before the water, not after it."
             ),
         ),
-        "Re-derived from Doc_06 SS2.2 (lpclex009, down-tiered to Tier 2 alongside preaching) and "
-        "Lexicon-Chunks/lpclex009_catechesis.md. Relations: five terms per this term's own "
-        "Related-Terms line.",
+        "Relations: five terms per this term's own Related-Terms line. Enchiridion Chapter 52 "
+        "answers the cell's baptism-mode question directly and is cited above.",
     ))
 
     ids.append(emit_term(
         "the-people",
         dict(
             confidence=conf("A", "verified-direct", "corroborating", "Documented",
-                             "This world's own corpus does not attest the Latin plebs as either "
-                             "bishop's own word: a sweep of the vendored Cyprian corpus returns "
-                             "exactly three occurrences, all three inside the 19th-century American "
-                             "editor's own introductory and elucidatory prose, none inside Cyprian's "
-                             "own letters. 'The people' is this corpus's own recurring English "
-                             "rendering for the congregation as an acting body, disclosed here as a "
-                             "working handle rather than an attested headword."),
+                             "In the vendored English edition of Cyprian the Latin plebs occurs "
+                             "exactly three times, all inside the 19th-century American editor's own "
+                             "introductory and elucidatory prose, none inside Cyprian's own letters. "
+                             "Cyprian's Latin does use it: Hartel's letters carry plebs in running "
+                             "text, 89 whole-word occurrences with notes excluded, and letter 43 is "
+                             "headed CYPRIANVS PLEBI VNIVERSAE S. 'The people' is the English "
+                             "volume's own recurring rendering for the congregation as an acting "
+                             "body. It is a working handle, and whether plebs becomes the world word "
+                             "is not settled."),
             sources=[
                 src(1, "Epistle XXXIX, addressed to the people concerning five schismatic "
                        "presbyters"),
@@ -1339,23 +1347,23 @@ def build_tier2_terms() -> list[str]:
             ],
             senses={
                 "informational": (
-                    "We are not an audience. We put men into office and say so out loud; we can "
-                    "also stand in front of a bishop's own seat and refuse to go home. At Hippo in "
-                    "411 the people wanted a particular wealthy man made their presbyter and did not "
-                    "get him; they clamoured, they abused another bishop present, and when told the "
-                    "bishop was bound by a promise they grew still more excited, calculating the "
-                    "promise might break. He held his ground. Real leverage, loudly exercised, and "
-                    "finally bounded by one man's refusal -- that is the shape of it. This is the "
-                    "active face of the flock and the ground of suffrage."
+                    "We are not an audience. We put men into office and say so out loud; we can also "
+                    "stand in front of a bishop's own seat and refuse to go home. At Hippo in 411 "
+                    "the people wanted a particular wealthy man made their presbyter and did not get "
+                    "the ordination; they clamoured, they abused another bishop present, and when "
+                    "told the bishop was bound by a promise they grew still more excited, "
+                    "calculating the promise might break. He held his ground. Real leverage, loudly "
+                    "exercised, and finally bounded by one man's refusal -- that is the shape of it. "
+                    "This is the active face of the flock and the ground of suffrage."
                 ),
                 "evidential": (
-                    "Epistle XXXIX is addressed to the people concerning five schismatic "
-                    "presbyters; Letter CXXVI carries the Hippo episode, re-verified at source; "
-                    "Augustine's own account cites 'the love of Valerius and the importunity of the "
-                    "people.' Our own corpus does not attest the Latin plebs as either bishop's own "
-                    "word -- a sweep returns exactly three occurrences, all inside the 19th-century "
-                    "editor's own prose, none inside Cyprian's own letters -- so 'the people' is our "
-                    "corpus's own recurring English rendering, not an attested Latin headword."
+                    "Epistle XXXIX is addressed to the people concerning five schismatic presbyters; "
+                    "Letter CXXVI carries the Hippo episode, re-verified at source; Augustine's own "
+                    "account cites 'the love of Valerius and the importunity of the people.' In the "
+                    "vendored English edition of Cyprian the Latin plebs occurs only three times, "
+                    "all inside the 19th-century editor's own prose. Cyprian's Latin letters do use "
+                    "it in running text, so 'the people' is the English volume's recurring rendering "
+                    "and a working handle, not a settled headword."
                 ),
                 "translational": (
                     "A modern listener may hear either a passive congregation or a modern "
@@ -1382,15 +1390,10 @@ def build_tier2_terms() -> list[str]:
         dict(
             confidence=conf("A", "verified-direct", "corroborating", "Documented",
                              "The pattern is attested through different figures and different words "
-                             "-- and at the same office (the episcopate) in both phases -- "
-                             "not one recurring term. "
-                             "Named as a pattern, not presented as a shared vocabulary item. Carried "
-                             "tension, flagged rather than resolved here: Lexicon_Deployment_Index."
-                             "md SS3 records that this term carries no [DR] tag although Doc_06 SS4 "
-                             "names it a sharpest-case distortion ('suffrage' hears as a modern "
-                             "franchise); this script maps distortion_risk from the tag set as "
-                             "recorded, per its own docstring (DISTORTION_RISK MAPPING), rather than "
-                             "silently override another thread's own classification."),
+                             "-- and at the same office (the episcopate) in both phases -- not one "
+                             "recurring term. Named as a pattern, not presented as a shared "
+                             "vocabulary item. The word hears as a modern franchise, which is a "
+                             "captured sense, so distortion risk is high."),
             sources=[
                 src(1, "Epistle XXXIX -- 'your suffrage and God's judgment,' against a rival "
                        "faction's 'ancient venom'"),
@@ -1419,7 +1422,7 @@ def build_tier2_terms() -> list[str]:
                 "him, but the people chose him anyway."
             ),
             world_word="suffrage",
-            distortion_risk="medium",
+            distortion_risk="high",
             false_friend=[
                 "the right to vote, with an expected franchise, a ballot, and a fixed procedure",
             ],
@@ -1457,9 +1460,7 @@ def build_tier2_terms() -> list[str]:
                 "goes against his own wishes."
             ),
         ),
-        "Re-derived from Doc_03 Section A (Tier 2, cross-phase pattern) and Doc_06 SS2's own Tier 2 "
-        "confirmation, plus Lexicon-Chunks/lpclex011_suffrage.md. No [PV] tag, matching Doc_03's own "
-        "explicit rule-out by name. Relations: three terms per this term's own Related-Terms line.",
+        "Derived from Doc_03 and Doc_06 §2 and Lexicon-Chunks/lpclex011_suffrage.md.",
     ))
 
     ids.append(emit_term(
@@ -1471,10 +1472,12 @@ def build_tier2_terms() -> list[str]:
                              "19th-century American editor's own reading of Cyprian's motive, not "
                              "Cyprian's own words, and no claim in this entry rests on the formula "
                              "being aimed at Stephen. Doc_04 finds no evidence that ordinary "
-                             "believers, catechumens, or most clergy in either phase were formed by, "
-                             "or aware of, this question -- the formula's own existence is "
-                             "Documented; its reach into ordinary formation is not evidenced, which "
-                             "is why this term sits at Tier 2 despite that Documented status."),
+                             "believers, catechumens, or most clergy in either phase were formed by "
+                             "this question; the 256 preface records presbyters, deacons and a "
+                             "considerable part of the congregation present to hear it -- the "
+                             "formula's own existence is Documented; its reach into ordinary "
+                             "formation is not evidenced, which is why this term sits at Tier 2 "
+                             "despite that Documented status."),
             sources=[
                 src(4, "the 256 Council preface -- 'For neither does any of us set himself up as a "
                        "bishop of bishops, nor by tyrannical terror does any compel his colleague to "
@@ -1523,9 +1526,11 @@ def build_tier2_terms() -> list[str]:
                     "re-quoted across nine independent review rounds. The vendored text prints an "
                     "editor's remark inside this passage reading it as a rebuke of Stephen of Rome; "
                     "that is the 19th-century editor's own reading of motive, not Cyprian's words, "
-                    "and nothing here rests on it. Doc_04 finds no evidence this question reached "
-                    "ordinary believers, catechumens, or most clergy in either phase -- the formula "
-                    "is real and Documented; its reach into ordinary life is not evidenced."
+                    "and nothing here rests on it. Doc_04 finds no evidence this question formed "
+                    "ordinary believers, catechumens, or most clergy in either phase. Some heard it, "
+                    "since the preface records presbyters, deacons and a considerable part of the "
+                    "congregation present. The formula is real and Documented; its reach into "
+                    "ordinary formation is not evidenced."
                 ),
                 "translational": (
                     "A modern listener is likely to hear an early anti-papal manifesto, or a "
@@ -1540,15 +1545,14 @@ def build_tier2_terms() -> list[str]:
                 "answers for it elsewhere."
             ),
         ),
-        "Re-derived from Doc_06 SS2.2 (lpclex012, down-tiered to Tier 2 -- 'no evidence that "
-        "ordinary believers... were formed by, or even aware of, this question') and "
-        "Lexicon-Chunks/lpclex012_bishop-of-bishops.md. AUTHORED call, not chunk-stated: "
-        "evidentiary_weight set to load-bearing despite Tier 2. The chunk itself never uses "
-        "the term; this script infers it because the formula is the sole textual ground of a "
-        "real, Documented Supporting gravity (the conciliar-authority axis), which Doc_04 SS7 "
-        "item 2 forbids suppressing -- Tier and evidentiary_weight are independent axes, the "
-        "same rule don's own script states. "
-        "Relations: five terms per this term's own Related-Terms line.",
+        "Re-derived from Doc_06 SS2.2 (lpclex012, down-tiered to Tier 2 -- no evidence that ordinary "
+        "believers were formed by this question) and Lexicon-Chunks/lpclex012_bishop-of-bishops.md. "
+        "AUTHORED call, not chunk-stated: evidentiary_weight set to load-bearing despite Tier 2. The "
+        "chunk itself never uses the term; this script infers it because the formula is the "
+        "principal textual ground of the Cyprianic pole of a real, Documented Supporting gravity "
+        "(the conciliar-authority axis), which Doc_04 SS7 item 2 forbids suppressing -- Tier and "
+        "evidentiary_weight are independent axes, the same rule don's own script states. Relations: "
+        "five terms per this term's own Related-Terms line.",
     ))
 
     ids.append(emit_term(
@@ -1720,7 +1724,16 @@ def build_tier2_terms() -> list[str]:
                              "How this world characterizes its own opponents -- the Donatists "
                              "specifically -- belongs to a later, separate step and this world's "
                              "eventual Representative, not to this lexicon; this entry names the "
-                             "general concept only and does not characterize Donatism."),
+                             "general concept only and does not characterize Donatism. This term "
+                             "also carries a live scholarly contest, of the type Application to this "
+                             "world, secondarily Historical scope. It runs over whether the "
+                             "heresy/schism distinction was as stable in this period as later usage "
+                             "implies, and how far the category describes a real ecclesial situation "
+                             "as against a polemical instrument used by the side that eventually "
+                             "prevailed. The North African case is the field's own central example. "
+                             "The entry does not present the distinction as a neutral technical "
+                             "taxonomy, and it does not settle whether the application of the "
+                             "category to rivals was accurate."),
             sources=[
                 src(3, "De Unitate, the general treatise on schism and the one episcopate"),
                 src(13, "On Baptism, Against the Donatists, the cross-phase grounding"),
@@ -1754,17 +1767,8 @@ def build_tier2_terms() -> list[str]:
                     "bishop, a separate people in the same town. The difference is not the intensity "
                     "of the dispute; it is whether anyone walked out. Schism is the negative "
                     "boundary of communion and the thing the one episcopate exists to make "
-                    "intelligible. It is also where we draw our own line against our neighbours: "
-                    "the conviction that disagreement is survivable and separation is not."
-                    "\n\n"
-                    "This term also carries a live scholarly contest. Doc_06 names it Application to "
-                    "this world, secondarily Historical scope: whether the heresy/schism distinction "
-                    "was as stable in this period as later usage implies, and how far the category "
-                    "in practice describes a real ecclesial situation as against a polemical "
-                    "instrument used by the side that eventually prevailed. The North African case "
-                    "is the field's own central example. This entry does not present the "
-                    "distinction as a neutral technical taxonomy, and it does not settle whether our "
-                    "own application of the category to our rivals was accurate."
+                    "intelligible. It is also where we draw our own line against our neighbours: the "
+                    "conviction that disagreement is survivable and separation is not."
                 ),
                 "evidential": (
                     "De Unitate is the general treatise on schism and the one episcopate; On "
@@ -1786,10 +1790,7 @@ def build_tier2_terms() -> list[str]:
                 "over practice. It is a tear, not a mere argument."
             ),
         ),
-        "Re-derived from Doc_06 SS2/SS3 (lpclex015, Tier 2, CT tagged -- Application to this world, "
-        "secondarily Historical scope) and Lexicon-Chunks/lpclex015_schism.md. CT Contest Type "
-        "folded into senses.informational per this script's own schema-forced placement rule. "
-        "Relations: five terms per this term's own Related-Terms line.",
+        "Derived from Doc_06 §2 and §3 and Lexicon-Chunks/lpclex015_schism.md.",
     ))
 
     ids.append(emit_term(
@@ -1799,10 +1800,20 @@ def build_tier2_terms() -> list[str]:
                              "This doctrine is known in our own corpus only through Augustine's own "
                              "advocacy, in his own defence, with no Donatist first-person answer "
                              "surviving in our Native record (Author-Gravity-Risk: Yes). The "
-                             "vendored volume's own 19th-century preface calls this doctrine 'a "
-                             "false exegesis' and 'least satisfactory to Protestant readers' -- that "
-                             "is the editor's own theological verdict, not Augustine's and not "
-                             "ours, and it is excluded entirely from this record."),
+                             "vendored volume's own 19th-century preface calls the anti-Donatist "
+                             "works as a body 'least satisfactory to Protestant readers' and says "
+                             "Augustine defended coercion by 'a false exegesis' -- that is the "
+                             "editor's own theological verdict, not Augustine's and not ours, and it "
+                             "is excluded entirely from this record. This term also carries a live "
+                             "scholarly contest, of the type Relationship to present-day traditions, "
+                             "secondarily Meaning. It is the most-cited patristic warrant in the "
+                             "modern historiography of religious coercion, and the argument runs "
+                             "over how far the position is the ancestor of later inquisitorial "
+                             "practice, how far its framing as pastoral correction should be "
+                             "credited, and whether the three-phase development is a genuine change "
+                             "of mind or a retrospective self-presentation. The entry does not "
+                             "adjudicate that question, does not endorse or condemn the position, "
+                             "and does not characterize the Donatists."),
             sources=[
                 src(12, "Letter 185, SS25-26, the imperial-coercion defence"),
                 src(43, "Letter XCIII, SS17, the retrospective account of the earlier, contrary "
@@ -1836,15 +1847,15 @@ def build_tier2_terms() -> list[str]:
             senses={
                 "informational": (
                     "The argument turns on a parable: a householder's feast, the invited guests "
-                    "excuse themselves, and the servant is sent to the highways and hedges to "
-                    "compel them to come in, that the house may be filled. It was not said 'compel' "
-                    "of those who came first, because the early church could not compel -- it was "
-                    "only growing toward the strength in which it could. The later church can, and "
-                    "so may. This is the end of a three-phase development, and our own record does "
-                    "not permit compressing it into one position: an early opinion, by later "
-                    "account, against any coercion at all; then a real but narrow solicitation of "
-                    "legal protection, argued and not granted; and only later the sustained defence "
-                    "of broader compulsion, after an argued change of mind. Cyprian never solicits "
+                    "excuse themselves, and the servant is sent to the highways and hedges to compel "
+                    "them to come in, that the house may be filled. It was not said 'compel' of "
+                    "those who came first, because the early church could not compel -- it was only "
+                    "growing toward the strength in which it could. The later church can, and so "
+                    "may. This is the end of a three-phase development, and our own record does not "
+                    "permit compressing it into one position: an early opinion, by later account, "
+                    "against any coercion at all; then a real but narrow solicitation of legal "
+                    "protection, argued and not granted; and only later the sustained defence of "
+                    "broader compulsion, after an argued change of mind. Cyprian never solicits "
                     "state power at all, and nothing in his own phase corresponds to this. It is "
                     "where our second phase meets the power available to it, and the sharpest test "
                     "of our own claim that communion is preserved rather than broken: the coercion "
@@ -1852,28 +1863,18 @@ def build_tier2_terms() -> list[str]:
                     "is not an organizing force of our own ecology, and that is a finding rather "
                     "than an omission -- nothing in this ecology organizes around it; the shift "
                     "changes the instruments available to a bishop, not the thing a bishop is."
-                    "\n\n"
-                    "This term also carries a live scholarly contest. Doc_06 names it Relationship "
-                    "to present-day traditions, secondarily Meaning: it is the single most-cited "
-                    "patristic warrant in the modern historiography of religious coercion, and the "
-                    "argument runs over how far this position is the ancestor of later inquisitorial "
-                    "practice, how far our own framing as pastoral correction should be credited, "
-                    "and whether the three-phase development is a genuine change of mind or a "
-                    "retrospective self-presentation. This entry does not adjudicate that "
-                    "historiographical question, does not endorse or condemn the position, and does "
-                    "not characterize the Donatists."
                 ),
                 "evidential": (
                     "Letter 185, SS25-26, the imperial-coercion defence, and Letter XCIII, SS17, the "
                     "retrospective account of the earlier opinion, are both directly quoted and "
                     "re-verified. The parable exegesis is Augustine's own, re-verified at source. "
-                    "This doctrine is known in our own corpus only through Augustine's own "
-                    "advocacy, in his own defence, with no Donatist first-person answer surviving "
-                    "in our Native record; he writes from a position of increasing institutional "
-                    "confidence relative to Donatism. The vendored volume's own 19th-century preface "
-                    "calls this doctrine 'a false exegesis' and 'least satisfactory to Protestant "
-                    "readers' -- the editor's own judgement, not Augustine's and not ours, excluded "
-                    "entirely from this record."
+                    "This doctrine is known in our own corpus only through Augustine's own advocacy, "
+                    "in his own defence, with no Donatist first-person answer surviving in our "
+                    "Native record; he writes from a position of increasing institutional confidence "
+                    "relative to Donatism. The vendored volume's own 19th-century preface calls the "
+                    "anti-Donatist works as a body 'least satisfactory to Protestant readers' and "
+                    "says Augustine defended coercion by 'a false exegesis' -- the editor's own "
+                    "judgement, not Augustine's and not ours, excluded entirely from this record."
                 ),
                 "translational": (
                     "A modern listener is likely to hear a straightforward endorsement of religious "
@@ -1890,32 +1891,29 @@ def build_tier2_terms() -> list[str]:
                 "separated group back into the one communion."
             ),
         ),
-        "Re-derived from Doc_06 SS2.3 ('the hard case'; 'by a distance the single most dangerous "
-        "term in this lexicon,' retained at Tier 2 on Doc_04 SS2's own finding that it does not "
-        "organize this ecology) and Lexicon-Chunks/lpclex016_compel-them-to-come-in.md. CT Contest "
-        "Type folded into senses.informational per this script's own schema-forced placement rule; "
-        "the editorial Protestant-editor verdict is named and excluded, never absorbed into any "
-        "field here. Relations: five terms per this term's own Related-Terms line.",
+        "Derived from Doc_06 §2.3 and Lexicon-Chunks/lpclex016_compel-them-to-come-in.md.",
     ))
 
     ids.append(emit_term(
         "libelli",
         dict(
             confidence=conf(
-                "D", "unverified", "illustrative", "Inferential-Thin",
-                "A direct check finds the Latin headword absent from this world's own vendored "
-                "English corpus altogether. The volume's single occurrence of the word-family sits "
-                "in the Introductory Notice to the anonymous treatise against Novatian, not in De "
-                "Lapsis. This term is carried as supporting reference vocabulary for the lapsed, on "
-                "Doc_01's own gloss rather than on attestation in this world's own primary text -- a "
-                "named gap, not filled with a confidence rating the source cannot support. Compare "
-                "lpc.term.certificates-letters-of-peace, which attests the English word the translation actually "
-                "uses for the confessors' own opposite-direction document.",
+                "A", "verified-direct", "corroborating", "Documented",
+                "Cyprian uses the word himself, in De Lapsis and in his letter to Antonianus. The "
+                "English translation renders libelli as certificates, so the Latin headword is "
+                "absent from the vendored English volume apart from one occurrence in the "
+                "Introductory Notice to the anonymous treatise against Novatian. The Latin witnesses "
+                "carry it. Latin libellus in Cyprian also names the martyrs' petitions, so the split "
+                "between this term and lpc.term.certificates-letters-of-peace separates the English "
+                "word and is not a distinction the Latin makes.",
             ),
             sources=[
-                src(8, "the Introductory Notice to the anonymous treatise against Novatian -- the "
-                       "volume's own single occurrence of the 'libell-' word-family, not an "
-                       "occurrence of 'libelli' bare, and not inside De Lapsis"),
+                src(2, "De Lapsis 27 -- 'libellis tamen conscientiam miscuerunt' (defiled their "
+                       "conscience with certificates); De Lapsis 28 -- 'nullo sacrificii aut libelli "
+                       "facinore constricti' (bound by no crime of sacrifice or of certificate)"),
+                src(1, "Epistle LI (to Antonianus) 13 and 14 -- those who receive certificates are "
+                       "not to be put on a par with those who have sacrificed; the plea of one who "
+                       "obtained a certificate and paid a price for it"),
             ],
             retrieval={
                 "tier": 2,
@@ -1954,12 +1952,11 @@ def build_tier2_terms() -> list[str]:
                     "tension: the crisis was documentary rather than merely moral."
                 ),
                 "evidential": (
-                    "Doc_01's own gloss is the operative source for this term's meaning. A direct "
-                    "check finds the Latin headword absent from our vendored English corpus "
-                    "altogether; the volume's one occurrence of the word-family sits in the "
-                    "Introductory Notice to the anonymous treatise against Novatian, not in De "
-                    "Lapsis. This term is carried as supporting reference vocabulary, on the gloss "
-                    "rather than direct primary-text attestation."
+                    "Our own bishop Cyprian names this paper. In De Lapsis he speaks of those who "
+                    "have defiled their conscience with certificates, and in his letter to "
+                    "Antonianus he writes of those who receive certificates and sets them beside "
+                    "those who sacrificed. The English calls it a certificate. The Latin word is "
+                    "libellus."
                 ),
                 "translational": (
                     "A modern listener may picture a formal identity document or licence. We mean a "
@@ -1973,33 +1970,28 @@ def build_tier2_terms() -> list[str]:
                 "paper is what made a person one of the lapsed."
             ),
         ),
-        "Re-derived from Doc_06 SS2.3 (lpclex017, corrected upward from a mis-drafted Tier 3 -- "
-        "'the source disclosure is the entire justification for how the entry is treated') and "
-        "Lexicon-Chunks/lpclex017_libelli.md. formation_confidence set to Inferential-Thin for the "
-        "specific claim that this Latin word is this world's own vocabulary item, distinct from the "
-        "underlying historical mechanism, which is Documented via lpc.term.certificates-letters-of-peace' own "
-        "English-language attestation (see script docstring, CONFIDENCE PER TERM). Relations: four "
-        "terms per this term's own Related-Terms line.",
+        "Derived from Doc_06 §2.3 and Lexicon-Chunks/lpclex017_libelli.md.",
     ))
 
     ids.append(emit_term(
         "libellatici-sacrificati",
         dict(
             confidence=conf(
-                "C", "verified-direct", "illustrative", "Inferential-Thin",
-                "This classification reaches this record as the vendored English edition's own "
-                "19th-century editorial endnote, attached to the anonymous treatise against "
-                "Novatian, not to an independently re-verified passage of De Lapsis in Cyprian's "
-                "own words. It is disclosed as editorial rather than as this world's own two-way "
-                "classification, carried for recognizability, not as a claim about Cyprian's own "
-                "terminology -- the lowest-attested item in this lexicon.",
+                "A", "verified-direct", "corroborating", "Documented",
+                "Cyprian names both classes and grades them in his letter to Antonianus. The "
+                "vendored English edition's own 19th-century editorial endnote on the anonymous "
+                "treatise against Novatian states the same split in the editor's words, and nothing "
+                "in this record rests on that endnote.",
             ),
             sources=[
-                src(8, "the Introductory Notice's own editorial endnote -- '(1) Libellatici, those "
-                       "who had compounded with the heathen, and bought off from offering "
-                       "sacrifice; and (2) Sacrificati, those who had actually offered sacrifice to "
-                       "idols. Different degrees of discipline were awarded, but all were admitted "
-                       "to pardon finally'"),
+                src(1, "Epistle LI (to Antonianus) 13 and 17 -- the view that those who receive "
+                       "certificates are to be put on a par with those who have sacrificed is "
+                       "refused ('libellaticos cum sacrificatis aequari oportere'), and the decision "
+                       "is reported that the first be admitted in the meantime and the second be "
+                       "helped at death ('libellaticos interim admitti, sacrificatis in exitu "
+                       "subueniri')"),
+                src(2, "De Lapsis 27 and 28 -- the act of sacrifice and the act of the "
+                       "certificate as two kinds of failure"),
             ],
             retrieval={
                 "tier": 2,
@@ -2035,13 +2027,12 @@ def build_tier2_terms() -> list[str]:
                     "reconciliation is a process with stages rather than a single yes or no."
                 ),
                 "evidential": (
-                    "This classification reaches this record as the vendored edition's own "
-                    "19th-century editorial endnote, attached to the anonymous treatise against "
-                    "Novatian (Confidence C), not to an independently re-verified passage of De "
-                    "Lapsis in Cyprian's own words. It is disclosed as editorial, carried for "
-                    "recognizability rather than as a claim about Cyprian's own terminology -- the "
-                    "World Meaning above is written to the substance of graduated penance, which "
-                    "Cyprian's own correspondence does attest, not to the editor's specific labels."
+                    "Our own bishop Cyprian names both classes, libellatici and sacrificati, and "
+                    "grades them. In his letter to Antonianus he refuses to put those who receive "
+                    "certificates on a par with those who have sacrificed, and he reports the "
+                    "decision that the first be admitted in the meantime and the second be helped at "
+                    "death. De Lapsis treats the sacrifice and the certificate as two kinds of "
+                    "failure."
                 ),
                 "translational": (
                     "A modern listener may assume a formal canonical taxonomy, fixed by the church "
@@ -2055,12 +2046,7 @@ def build_tier2_terms() -> list[str]:
                 "sacrifice. The other group sacrificed."
             ),
         ),
-        "Re-derived from Doc_06 SS2.3 (lpclex018, corrected upward from a mis-drafted Tier 3) and "
-        "Lexicon-Chunks/lpclex018_libellatici-sacrificati.md. verification_state set to verified-"
-        "direct despite Confidence C: the editor's own wording is directly quoted and checked, even "
-        "though citation_specificity stays at the Registry's own C letter -- the same independent-"
-        "axis rule wb_lpc_s21.py states for its own Registry-B/verification-state mapping. "
-        "Relations: three terms per this term's own Related-Terms line.",
+        "Derived from Doc_06 §2.3 and Lexicon-Chunks/lpclex018_libellatici-sacrificati.md.",
     ))
 
     ids.append(emit_term(
@@ -2068,21 +2054,19 @@ def build_tier2_terms() -> list[str]:
         dict(
             confidence=conf(
                 "A", "verified-direct", "corroborating", "Documented",
-                "The regulating voice is Cyprian's throughout, as with every entry in this "
-                "cluster; the confessors' own certificates do not survive, and what survives is "
-                "Cyprian quoting, paraphrasing, and objecting to them (Author-Gravity-Risk: Yes). "
-                "This entry's own first draft misquoted an editorial endnote's wording as Cyprian's "
-                "own -- 'thousands of certificates were given, against the Gospel law' -- when "
-                "Cyprian's own text reads 'were daily given, contrary to the law of the Gospel'; "
-                "the correction is disclosed here rather than silently fixed, per this world's own "
-                "editorial-apparatus register (Lexicon_Deployment_Index.md SS7).",
+                "The regulating voice is Cyprian's throughout, as with every entry in this cluster; "
+                "the confessors' own certificates do not survive, and what survives is Cyprian "
+                "quoting, paraphrasing, and objecting to them (Author-Gravity-Risk: Yes). An "
+                "editorial endnote words one sentence as 'thousands of certificates were given, "
+                "against the Gospel law'. Cyprian's own text reads 'were daily given, contrary to "
+                "the law of the Gospel', and this record uses his.",
             ),
             sources=[
-                src(1, "Cyprian's own crisis correspondence, Epistle XIV -- 'designate by name in "
-                       "the certificate those whom you yourselves see, whom you have known, whose "
+                src(1, "Cyprian's own crisis correspondence, Epistle X -- 'designate by name in the "
+                       "certificate those whom you yourselves see, whom you have known, whose "
                        "penitence you see to be very near to full satisfaction'; 'Let such a one be "
-                       "received to communion along with his friends'; 'thousands of certificates "
-                       "were daily given, contrary to the law of the Gospel'"),
+                       "received to communion along with his friends'; Epistle XIV -- 'thousands of "
+                       "certificates were daily given, contrary to the law of the Gospel'"),
             ],
             retrieval={
                 "tier": 2,
@@ -2136,12 +2120,11 @@ def build_tier2_terms() -> list[str]:
                     "source, scoped to his own division of the vendored text. 'Certificate' and "
                     "'certificates' occur 42 times within that division, of which 4 sit inside "
                     "editorial notes, leaving 38 in Cyprian's own text -- the figure that attests "
-                    "the term, not the naive 42. This entry's own first draft misquoted the editor's "
-                    "own endnote wording as Cyprian's own; the correction is disclosed rather than "
-                    "smoothed over. The confessors' own certificates do not survive; what survives "
-                    "is Cyprian quoting, paraphrasing, and objecting to them, though Epistles XX-XXI "
-                    "do preserve two confessors writing in their own first-person voices about a "
-                    "specific reconciliation, as close as our record comes to their own side."
+                    "the term, not the naive 42. The confessors' own certificates do not survive; "
+                    "what survives is Cyprian quoting, paraphrasing, and objecting to them, though "
+                    "Epistles XX-XXI do preserve two confessors writing in their own first-person "
+                    "voices about a specific reconciliation, as close as our record comes to their "
+                    "own side."
                 ),
                 "translational": (
                     "A modern listener who has just heard about the sacrifice-certificate will "
@@ -2158,14 +2141,8 @@ def build_tier2_terms() -> list[str]:
                 "named lapsed person be let back into communion."
             ),
         ),
-        "Re-derived from Doc_06 SS2.4 (lpclex019, Tier 2, the one term Doc_03 did not surface -- "
-        "'without it, this lexicon describes the confessor-authority tension without naming the "
-        "instrument the tension was conducted with'; added to the roster after Doc_03's own pass) "
-        "and Lexicon-Chunks/lpclex019_certificates-letters-of-peace.md. world_word set "
-        "to the singular 'certificate' rather than the chunk's own multi-word Term line, matching "
-        "the chunk's own Quick Meaning register and avoiding a false-friend collision with "
-        "lpc.term.libelli's own distinct headword. Relations: six terms per this term's own "
-        "Related-Terms line.",
+        "Derived from Doc_06 §2.4 and Lexicon-Chunks/lpclex019_certificates-letters-of-peace.md. "
+        "world_word is the singular 'certificate'.",
     ))
 
     return ids

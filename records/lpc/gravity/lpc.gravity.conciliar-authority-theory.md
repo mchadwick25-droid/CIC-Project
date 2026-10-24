@@ -60,7 +60,7 @@ description: >-
 
   A real limit sits here too. Both theories recur beyond their main source, but only in bishops' writing.
   Cyprian's formula appears at length in the 256 preface. He states the same freedom of each bishop in
-  his letters to Stephen, Jubaianus and Magnus. Augustine's theory recurs within On Baptism. He also speaks
+  his letters to Jubaianus and Magnus, and in the letter he and his council sent to Stephen. Augustine's theory recurs within On Baptism. He also speaks
   of plenary Councils in two of his letters, Letter 43, section 19, and Letter 54, section 1. Those two
   passages were found and were not weighed in the six tests.
 

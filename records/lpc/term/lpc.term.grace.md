@@ -85,8 +85,8 @@ senses:
     wide margin the single highest raw-frequency count in this lexicon. The entire evidentiary base is
     one voice within one evidence stream; the density of the evidence could easily read as breadth, and
     is not. No Pelagian first-person answer survives in our own Native record. This term belongs to Augustine's
-    own phase; no Pelagian-anthropology-equivalent material exists anywhere in Cyprian's corpus, since
-    the controversy postdates him by over a century.
+    own phase. Cyprian states the theme in passing (Testimonies III.4), and Augustine later quoted him
+    against the Pelagians, but the controversy postdates Cyprian by over a century.
   translational: A modern listener is likely to hear grace as a warm general benevolence, or as 'grace
     under pressure,' or as a denominational shibboleth they may already have an opinion about, and to
     hear our anti-Pelagian position as harsh determinism. We mean a specific and contested claim about
