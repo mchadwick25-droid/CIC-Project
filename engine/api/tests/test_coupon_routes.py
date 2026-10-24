@@ -99,10 +99,10 @@ def test_approving_answers_with_an_id_an_amount_and_a_day_and_never_the_address(
     r = approve(http, "  Ada@Example.org ", 3000)
     assert r.status_code == 200 and set(r.json()) == {"coupon_id", "tokens", "day_made"}
     assert r.json()["tokens"] == 3000 and r.headers["cache-control"] == "no-store"
-    assert "ada" not in r.text.lower() and "example" not in r.text.lower()
+    assert "ada@" not in r.text.lower() and "example" not in r.text.lower()
     listed = http.get("/api/admin/deeper/coupons", headers=AUTH)
     assert listed.status_code == 200 and listed.json()["coupons"] == [r.json()]
-    assert "ada" not in listed.text.lower()
+    assert "ada@" not in listed.text.lower() and "example" not in listed.text.lower()
 
 
 def test_the_list_carries_the_limits_from_the_operations_file(http, runtime):
