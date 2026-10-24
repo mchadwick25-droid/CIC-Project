@@ -122,9 +122,8 @@ def screen_refused_message(
 ) -> "MessageResult | None":
     """System Hub decision 35: a message the service is about to refuse
     unread (a closed session, an over-long message) goes through the safety
-    call first. When the safety call routes it to the Facilitator (a call
-    that could not run is not such a route: the message is refused as
-    before), the
+    call first. When the safety call routes it to the Facilitator (or could
+    not run, which gets the fixed line for a message nothing could read), the
     message, the gate decision and the Facilitator's safety turn are
     recorded and returned like any turn, and the session's state is
     otherwise unchanged (a closed session stays closed). Otherwise None,
@@ -138,11 +137,14 @@ def screen_refused_message(
     for rec in gate_run.usage_records:
         usage_store.append(rec)
     action = gate_run.gate_result.routing.action
-    if action not in SAFETY_ROUTES or action == SAFETY_FAILED.action:
-        # A message nothing could read is refused as it would have been: "send it again" would be untrue here.
+    if action not in SAFETY_ROUTES:
         return None
-    facilitator_events = safety_route_facilitator_events(
-        gate_run, representative_name=representative_name, track_a_last=state.safety.track_a_last,
+    unread = action == SAFETY_FAILED.action
+    # A message nothing could read, sent where it is refused anyway, gets the fixed line with the redirect and
+    # no promise that sending again will work. It uses no turn.
+    facilitator_events = (
+        [facilitator_turns.safety_unread_refused_turn()] if unread
+        else safety_route_facilitator_events(gate_run, representative_name=representative_name, track_a_last=state.safety.track_a_last)
     )
     msg_uuid = client_msg_id or str(uuid.uuid4())
     participant_payload = {"text": text, "client_msg_id": msg_uuid}
@@ -156,8 +158,10 @@ def screen_refused_message(
     for fe in facilitator_events:
         events.validate("facilitator_turn", fe)
         store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="facilitator_turn", payload=fe)
-    turn_no = state.turn_count + 1
-    store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="turn_committed", payload={"turn_no": turn_no})
+    turn_no = state.turn_count
+    if not unread:
+        turn_no += 1
+        store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="turn_committed", payload={"turn_no": turn_no})
     return MessageResult(
         turn_no=turn_no, routing_action=action, routing_reason=gate_run.gate_result.routing.reason,
         degraded=gate_run.gate_result.degraded, facilitator=facilitator_events[-1], voice=None,

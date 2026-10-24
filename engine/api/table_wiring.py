@@ -28,6 +28,7 @@ never a new kind of leak. engine/api/tests/test_table_isolation.py holds
 this to account with a seeded cross-world leak.
 """
 import random
+import dataclasses
 import uuid
 from dataclasses import dataclass
 from pathlib import Path
@@ -1097,14 +1098,20 @@ def _screen_refused_table_message(
     )
     for rec in gate_run.usage_records:
         usage_store.append(rec)
-    if gate_run.gate_result.routing.action not in SAFETY_ROUTES or gate_run.gate_result.routing.action == SAFETY_FAILED.action:
-        # A message nothing could read is refused as it would have been: "send it again" would be untrue here.
+    if gate_run.gate_result.routing.action not in SAFETY_ROUTES:
+        return None
+    unread = gate_run.gate_result.routing.action == SAFETY_FAILED.action
+    if unread and state.round_open:
+        # The page does not let a message be sent while the table is speaking; over the API it is refused as before.
         return None
     representative_names = [worlds[k].frame["representative"]["name"] for k in state.world_keys]
     opening = open_table_round(
         gate_run=gate_run, representative_names=representative_names, track_a_last=state.safety.track_a_last,
         rounds_completed=state.turn_count, anachronistic_term_ids=set(),
     )
+    if unread:
+        # Refused anyway (a closed sitting, an over-long message): the fixed line with the redirect, no promise to send again.
+        opening = dataclasses.replace(opening, facilitator_events=[facilitator_turns.safety_unread_refused_turn()])
     if state.round_open:
         _close_round(store, state, reason="safety", turns=state.round_turns)
     participant_payload = {"text": text, "client_msg_id": str(uuid.uuid4())}
@@ -1119,7 +1126,7 @@ def _screen_refused_table_message(
         events.validate("facilitator_turn", fe)
         store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="facilitator_turn", payload=fe)
     governed_state = project_fresh(session_id, store)
-    turn_no = _close_round(store, governed_state, reason="selector_closed", turns=0)
+    turn_no = _close_round(store, governed_state, reason="selector_closed", turns=0, counts=not unread)
     return TableMessageResult(
         round_no=governed_state.round_no, round_open=False, routing_action=opening.routing_action,
         routing_reason=opening.routing_reason, degraded=opening.degraded,

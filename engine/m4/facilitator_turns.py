@@ -266,6 +266,22 @@ def safety_unread_turn() -> dict:
     return {"kind": SAFETY_UNREAD.kind, "text": SAFETY_UNREAD.text, "resources_appended": True}
 
 
+# The same, for a message the service is refusing anyway (a closed conversation, an over-long message) that
+# the safety check could not read either. It does not promise that sending again will work.
+SAFETY_UNREAD_REFUSED = FacilitatorTurn(
+    kind="limit",
+    text=(
+        "This is the Facilitator. I could not read your message just now.\n\n"
+        + REDIRECT_TO_REAL_PEOPLE
+    ),
+)
+
+
+def safety_unread_refused_turn() -> dict:
+    """The reply to a refused message the safety check could not read. Fixed text, no model call, the redirect always included."""
+    return {"kind": SAFETY_UNREAD_REFUSED.kind, "text": SAFETY_UNREAD_REFUSED.text, "resources_appended": True}
+
+
 # --- Table variants (Artifact-7 SS1-2; C1: fixed
 # templates parameterized by the seated worlds, never a live facilitator
 # generation). The Table's turn cap shares the one approved line above; the

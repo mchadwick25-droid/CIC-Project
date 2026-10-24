@@ -111,22 +111,53 @@ def _cannot_run_safety(client):
     return client
 
 
-def test_an_unread_message_to_a_closed_session_is_refused_not_told_to_send_it_again(store, usage_store, world_loader, registry):
+def test_an_unread_message_to_a_closed_session_gets_the_fixed_line_with_the_redirect_and_the_session_stays_closed(store, usage_store, world_loader, registry):
+    from engine.m4 import facilitator_turns
+
     client = _cannot_run_safety(FakeBedrockClient(safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response()))
     http = _http(client, store, usage_store, world_loader, registry)
     created, auth = _interview(http)
     _close_by_cap(store, created["session_id"])
     resp = http.post(f"/api/session/{created['session_id']}/message", headers=auth, json={"text": "I can't go on"})
-    assert resp.status_code == 409 and resp.json()["detail"] == "session already closed"
+    assert resp.status_code == 200
+    body = resp.json()
+    assert body["routing_action"] == "safety_unread_turn" and body["voice"] is None
+    assert body["facilitator"] == facilitator_turns.safety_unread_refused_turn()
+    assert body["facilitator"]["text"] == (
+        "This is the Facilitator. I could not read your message just now.\n\n"
+        "If you are in distress or in danger, please reach out to someone real now - a person you trust, a crisis line, "
+        "or emergency services where you are."
+    )
+    assert "again" not in body["facilitator"]["text"]
+    client.safety_recovered = True
+    again = http.post(f"/api/session/{created['session_id']}/message", headers=auth, json={"text": "hello again"})
+    assert again.status_code == 409 and again.json()["detail"] == "session already closed"
+    assert not any(e.event_type == "safety_state" for e in store.read_events(created["session_id"]))
 
 
-def test_an_unread_over_long_message_is_refused_not_told_to_send_it_again(store, usage_store, world_loader, registry):
+def test_an_unread_over_long_message_gets_the_fixed_line_with_the_redirect(store, usage_store, world_loader, registry):
+    from engine.m4 import facilitator_turns
+
     client = _cannot_run_safety(FakeBedrockClient(safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response()))
     http = _http(client, store, usage_store, world_loader, registry)
     created, auth = _interview(http)
     resp = http.post(f"/api/session/{created['session_id']}/message", headers=auth,
                      json={"text": "I need to say this. " * (MAX_MESSAGE_LENGTH // 10)})
-    assert resp.status_code != 200
+    assert resp.status_code == 200 and resp.json()["facilitator"] == facilitator_turns.safety_unread_refused_turn()
+    assert client.messages.stream_calls == []
+
+
+def test_an_unread_message_to_a_closed_table_gets_the_fixed_line_and_uses_no_round(store, usage_store, world_loader, registry, alx_world, desert_world):
+    from engine.m4 import facilitator_turns
+
+    client = _cannot_run_safety(_table_client(selector_script=[], stream_scripts=[]))
+    http = _http(client, store, usage_store, world_loader, registry)
+    session_id, auth = _create_table(http)
+    _close_by_cap(store, session_id)
+    resp = http.post(f"/api/session/{session_id}/message", json={"text": "I can't go on"}, headers=auth)
+    assert resp.status_code == 200, resp.text
+    body = resp.json()
+    assert body["facilitator"] == [facilitator_turns.safety_unread_refused_turn()] and body["turn_no"] == 0 and not body["round_open"]
 
 
 def test_an_unread_message_while_a_table_round_is_open_is_refused_and_the_round_stays_open(store, usage_store, world_loader, registry, alx_world, desert_world):
