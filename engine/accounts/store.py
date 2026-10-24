@@ -46,7 +46,8 @@ CREATE TABLE IF NOT EXISTS linked_sign_ins (
 CREATE TABLE IF NOT EXISTS erased_sessions (
   session_hash TEXT PRIMARY KEY,
   qc_tokens    TEXT NOT NULL,
-  expires_on   TEXT NOT NULL
+  expires_on   TEXT NOT NULL,
+  published    INTEGER NOT NULL DEFAULT 0
 ) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS shelf (
   session_id TEXT PRIMARY KEY,
@@ -191,8 +192,9 @@ class AccountStore:
         self._lock = threading.RLock()
         self._d = _open(durable_path, DURABLE_DDL)
         _allow_accounts_without_address(self._d)
-        if not any(r[1] == "published" for r in self._d.execute("PRAGMA table_info(deletion_ledger)")):
-            self._d.execute("ALTER TABLE deletion_ledger ADD COLUMN published INTEGER NOT NULL DEFAULT 0")
+        for table in ("deletion_ledger", "erased_sessions"):
+            if not any(r[1] == "published" for r in self._d.execute(f"PRAGMA table_info({table})")):
+                self._d.execute(f"ALTER TABLE {table} ADD COLUMN published INTEGER NOT NULL DEFAULT 0")
         self._e = _open(ephemeral_path, EPHEMERAL_DDL)
         if not any(r[1] == "bound" for r in self._e.execute("PRAGMA table_info(challenges)")):
             self._e.execute("ALTER TABLE challenges ADD COLUMN bound TEXT")
@@ -739,7 +741,39 @@ class AccountStore:
         with self._lock:
             row = self._d.execute("SELECT qc_tokens FROM erased_sessions WHERE session_hash = ?", (session_hash,)).fetchone()
             merged = ",".join(dict.fromkeys(t for t in [*(row[0].split(",") if row else []), *qc_tokens.split(",")] if t))
-            self._d.execute("INSERT OR REPLACE INTO erased_sessions VALUES (?, ?, ?)", (session_hash, merged, expires_on))
+            self._d.execute(
+                "INSERT OR REPLACE INTO erased_sessions (session_hash, qc_tokens, expires_on, published) VALUES (?, ?, ?, 0)",
+                (session_hash, merged, expires_on),
+            )
+
+    def unpublished_erasures(self) -> list[tuple[str, str, str]]:
+        """(session hash, review tokens, expiry day) of each erasure not yet written to the outside copy."""
+        with self._lock:
+            return [tuple(r) for r in self._d.execute(
+                "SELECT session_hash, qc_tokens, expires_on FROM erased_sessions WHERE published = 0")]
+
+    def mark_erasure_published(self, session_hash: str, qc_tokens: str) -> None:
+        """Marks the entry as written, unless it gained review tokens since it was read."""
+        with self._lock:
+            self._d.execute("UPDATE erased_sessions SET published = 1 WHERE session_hash = ? AND qc_tokens = ?",
+                            (session_hash, qc_tokens))
+
+    def add_erased_entries(self, entries: list[tuple[str, str, str]]) -> int:
+        """Entries read back from the outside copy, joined to what the file holds. An erasure the file
+        already holds keeps every review token from both. Returns how many sessions were new."""
+        added = 0
+        with self._lock:
+            for session_hash, qc_tokens, expires_on in entries:
+                row = self._d.execute("SELECT qc_tokens FROM erased_sessions WHERE session_hash = ?", (session_hash,)).fetchone()
+                if row is None:
+                    self._d.execute("INSERT INTO erased_sessions (session_hash, qc_tokens, expires_on, published) VALUES (?, ?, ?, 1)",
+                                    (session_hash, qc_tokens, expires_on))
+                    added += 1
+                    continue
+                merged = ",".join(dict.fromkeys(t for t in [*row[0].split(","), *qc_tokens.split(",")] if t))
+                if merged != row[0]:
+                    self._d.execute("UPDATE erased_sessions SET qc_tokens = ? WHERE session_hash = ?", (merged, session_hash))
+        return added
 
     def erased_rows(self) -> dict[str, str]:
         with self._lock:
