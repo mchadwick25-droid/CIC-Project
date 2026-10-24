@@ -11,8 +11,11 @@ confidence:
   citation_specificity: A
   verification_state: verified-direct
   evidentiary_weight: load-bearing
-  formation_confidence: Documented
-  divergence_note: null
+  formation_confidence: Contested
+  divergence_note: >-
+    The vendored Basil letters print this passage as Letter XVI, under Basil's name. The same passage
+    also stands in Gregory of Nyssa's Against Eunomius X (NPNF numbering),
+    cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt:19688-19712, so who wrote it is disputed.
 sources:
 - source_id: cappadocian.source.basil-letters-general-corpus
   locus: "Letter XVI ('Against Eunomius the heretic'), npnf208_basil-letters-select-works.xml, a short letter distinct from the three-book treatise of the same general title"

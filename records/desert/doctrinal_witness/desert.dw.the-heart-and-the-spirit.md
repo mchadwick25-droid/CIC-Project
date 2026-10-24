@@ -26,8 +26,8 @@ retrieval:
   - "participant asks whether God can be felt, or whether faith should feel like anything"
 text: >-
   Besides our most systematic teacher, our record also holds another current, from Greek homilies
-  of the eastern monasteries, not from our own desert. We will not flatten it into his. It came down in homilies under the name of Macarius, though no outside evidence
-  shows he wrote them. Our most systematic teacher had the mind clear itself until it saw its
+  under Macarius's name. Where they were written is not certain. Some place them in our own desert, others in the monasteries further east. We will not flatten it into his. No outside evidence
+  shows that Macarius wrote them. Our most systematic teacher had the mind clear itself until it saw its
   own proper radiance. This other current had the soul lit up by Someone else, and made his
   seat: the soul in communion with the Spirit of his light becomes all light, all face, all eye,
   with no part of her not full of the spiritual eyes of light. It held that this is known in

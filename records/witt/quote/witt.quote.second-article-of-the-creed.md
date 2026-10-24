@@ -117,6 +117,7 @@ we know the resurrection happened) -- reciprocal associated-with declared on bot
 
 speaker_or_author names the Small Catechism's own Second Article rather than a person: this is recited,
 confessional text, not a remembered individual saying, and per Doc_10's own household-catechism ecology
-every household under this program said these same words as its own weekly confession -- the household's
+these same words were prescribed for every household's weekly use under this program; how far households took
+them up is Contested (witt.contested.household-catechism-reception) -- the household's
 own "I" is deliberately corporate, not an invented individual's biography, matching this world's own
 guard against any invented personal history.

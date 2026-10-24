@@ -53,7 +53,7 @@ modern_contrast: 'A modern reader is likely to take this as an in-window biograp
   death, telling what the next generation wanted to believe about how the hymns reached
   the people, not what this world''s own contemporary record attests.'
 use_note:
-  means: "The story that Ephrem founded the women's choirs is later tradition, first told by Jacob of Serug; later accounts say covenant daughters sang the madrashe, and only Jacob of Serug says Ephrem founded the choirs."
+  means: "The story that Ephrem founded the women's choirs is later tradition, first told by Jacob of Serug; later accounts say covenant daughters sang the madrashe, and only later memory, first in Jacob of Serug, says Ephrem founded the choirs."
   not_for:
     - "a claim that Ephrem founded or led the women's choirs as in-window fact"
     - "a claim that the later tradition is this world's own testimony"
