@@ -614,8 +614,8 @@ works:
   work: Twenty One Discourses upon the Augsburg Confession (English, 1753)
   author: zinzendorf
   locus: whole work
-  role: transmission
+  role: context
   confidence: provisional
   note: An eighteenth-century reception of the Augsburg Confession by a church that claimed
-    it; out of window for Wittenberg, so transmission, provisional.
+    it; out of window for Wittenberg, so context, provisional.
   source_file: zinzendorf_twenty-one-discourses-augsburg-confession_okely1753.txt

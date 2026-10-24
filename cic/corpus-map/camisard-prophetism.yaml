@@ -76,8 +76,8 @@ works:
   work: Preface to A Cry from the Desart (1707)
   author: lacy-john
   locus: Lacy's preface
-  role: transmission
-  confidence: assigned
+  role: context
+  confidence: provisional
   note: An English convert presenting the Cévennes prophets to London; the movement's reception
     among its English followers.
   source_file: misson_cry-from-the-desart_lacy1707.txt
@@ -85,8 +85,8 @@ works:
   work: Warnings of the Eternal Spirit, second part (1707)
   author: lacy-john
   locus: whole work
-  role: transmission
-  confidence: assigned
+  role: context
+  confidence: provisional
   note: An Englishman prophesying in the Camisard manner within months of their arrival; reception,
     not the Cévennes itself.
   source_file: lacy-john_warnings-of-the-eternal-spirit_1707.txt

@@ -24,7 +24,7 @@ works:
   work: A Sermon delivered at the Ordination of the Rev. Jared Sparks (1819)
   author: channing
   locus: whole work
-  role: transmission
+  role: context
   confidence: assigned
   note: Four years past the window; the public statement of what the window's Unitarian thread
     had come to hold.
@@ -181,7 +181,7 @@ works:
   work: The Winchester Centennial, 1803-1903 (1903)
   author: universalist-church
   locus: the historical sketch, addresses and sermons
-  role: transmission
+  role: context
   confidence: assigned
   note: The denomination's own centennial reception of the Profession.
   source_file: universalist-church_winchester-centennial-with-the-profession-of-belief_1903.txt

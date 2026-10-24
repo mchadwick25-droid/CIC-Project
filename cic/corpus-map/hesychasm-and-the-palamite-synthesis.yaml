@@ -267,7 +267,7 @@ works:
   work: 'Philokalia, vol. 1: the patristic texts (fourth to seventh centuries) as printed'
   author: philokalia
   locus: the fathers' texts, as distinct from the compilers' framing
-  role: transmission
+  role: antecedent
   confidence: provisional
   note: The older hesychast and ascetic tradition as the eighteenth century chose and printed
     it; reception for the Palamite world, provisional.
@@ -278,7 +278,7 @@ works:
   author: philokalia
   locus: from the heading for Gregory of Sinai (about raw scan line 34746) through the Xanthopoulos
     chapters (from about line 48420)
-  role: transmission
+  role: tradition
   confidence: provisional
   note: The Palamite sources in the form the 1782 compilers printed them; reception for the
     fourteenth-century world, which should prefer its own critical texts.

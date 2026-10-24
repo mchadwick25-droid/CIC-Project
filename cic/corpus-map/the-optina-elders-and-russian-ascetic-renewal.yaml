@@ -16,7 +16,7 @@ works:
   work: 'Vostorgnutye klasy: the whole book as an Optina publication'
   author: paisius-velichkovsky
   locus: whole volume
-  role: transmission
+  role: antecedent
   confidence: provisional
   note: Optina's second Paisius volume, printed for Russian readers.
   source_file: paisius-velichkovsky_vostorgnutye-klasy-chu_optina1849.txt
@@ -24,7 +24,7 @@ works:
   work: 'Zhitie i pisaniia (1847): the whole book as Optina''s first edition of the fathers'
   author: paisius-velichkovsky
   locus: whole volume
-  role: transmission
+  role: antecedent
   confidence: provisional
   note: The book that opened Optina's publishing programme; the hand-on from Neamt to Optina
     that the census's continuesAs names.
