@@ -49,6 +49,12 @@ relations:
   target: lpc.force.donatist-schism
 - type: associated-with
   target: lpc.force.manichaeism-and-pelagian-anthropology
+- type: associated-with
+  target: lpc.quote.the-creed-first-then-the-prayer
+- type: associated-with
+  target: lpc.quote.let-your-creed-be-a-mirror
+- type: associated-with
+  target: lpc.quote.the-sermon-and-the-readings-are-daily-bread
 name: Preaching and Catechesis as the Primary Mode of Formation
 description: >-
   This concern is real too, though its reach is narrower than the others'. It is the means by which

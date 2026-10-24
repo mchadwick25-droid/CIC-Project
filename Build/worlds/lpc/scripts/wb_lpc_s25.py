@@ -136,8 +136,8 @@ it.
      relation type. The directional relation types would overclaim: Doc_08 states 2B-4 to
      3B-2 as "is the sole instance of" and 3A-1 to 3B-1 as "coincides with, does not cause".
   4. Edges to records of other types (doctrinal_witness, honest_limit, demonstration,
-     contested_claim) come from OTHER_TYPE_EDGES_FIRST and OTHER_TYPE_EDGES_LAST. G1, G2, G3
-     and G6 each carry three edges to the sermon quote records that wb_lpc_s24.py emits, as the
+     contested_claim) come from OTHER_TYPE_EDGES_FIRST and OTHER_TYPE_EDGES_LAST. G1, G2, G3,
+     G4, G6 and G7 each carry three edges to the sermon quote records that wb_lpc_s24.py emits, as the
      inverse of the edges those quotes declare.
 
 G5 (CONCILIAR AUTHORITY THEORY)
@@ -328,11 +328,21 @@ OTHER_TYPE_EDGES_LAST: dict[str, list[tuple[str, str]]] = {
         ("associated-with", "lpc.quote.apart-in-heart-united-in-body"),
         ("associated-with", "lpc.quote.going-out-without-violating-unity"),
     ],
+    G4: [
+        ("associated-with", "lpc.quote.the-creed-first-then-the-prayer"),
+        ("associated-with", "lpc.quote.let-your-creed-be-a-mirror"),
+        ("associated-with", "lpc.quote.the-sermon-and-the-readings-are-daily-bread"),
+    ],
     G6: [
         ("associated-with", "lpc.witness.baptism-traced-to-the-apostles"),
         ("associated-with", "lpc.quote.the-branch-cut-from-the-vine"),
         ("associated-with", "lpc.quote.pardon-through-a-wicked-clergyman"),
         ("associated-with", "lpc.quote.consider-who-was-there"),
+    ],
+    G7: [
+        ("associated-with", "lpc.quote.two-hear-one-scorns-one-rises"),
+        ("associated-with", "lpc.quote.what-is-done-by-you-he-does-in-you"),
+        ("associated-with", "lpc.quote.no-one-has-the-love-of-god-from-himself"),
     ],
 }
 
@@ -1564,11 +1574,12 @@ def build_forces() -> None:
     )
 
     emit_force(
-        F3A1, "The Vandal Invasion (from 429) and the Siege of Hippo",
+        F3A1, "The Vandal Invasion and the Siege of Hippo (430)",
         "ending", "3A",
-        "The Vandals crossed from Spain in 429. They besieged Hippo in the final months of "
-        "Augustine's life, and he died on 28 August 430 -- a date a near-contemporary Gallic "
-        "chronicler independently records. This is documented. The same chronicle records the "
+        "The Vandals crossed from Spain into Africa in the late 420s; the chronicles disagree on "
+        "the year, and Prosper's enters the crossing under 427. In 430 they besieged Hippo. Augustine fell ill in the "
+        "third month of the siege, and he died on 28 August 430 -- a date Prosper, a near-contemporary "
+        "chronicler writing in Gaul, independently records. This is documented. Prosper also records the "
         "Vandal capture of Carthage under 439, a different city, nine years later, and no part of "
         "where this world ends.\n"
         "\n"
@@ -1584,15 +1595,21 @@ def build_forces() -> None:
         "it. The invasion closes the world, and the writings outlive it. The inheritance was "
         "secured by copying, not by the siege.",
         [
-            "the siege of Hippo, beginning 429, in the final months of Augustine's life",
-            "Augustine's own death on 28 August 430, independently recorded by a "
-            "near-contemporary Gallic chronicler",
+            "the siege of Hippo, begun in 430, in whose third month Augustine fell ill",
+            "Augustine's own death on 28 August 430, independently recorded by Prosper, a "
+            "near-contemporary chronicler writing in Gaul",
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
              "Doc_08 §3 Force 3A-1: Documented -- Registry row 203, a near-contemporary Gallic "
              "chronicle independently recording Augustine's death under 430; no divergence flagged "
              "for this force's own bare occurrence."),
-        src("lpc.source.prosper-epitoma-chronicon-mommsen1892"),
+        src(("lpc.source.prosper-epitoma-chronicon-mommsen1892",
+             "Epitoma Chronicon entry 1295, 'Gens Wandalorum ab Hispania ad Africam transit', "
+             "entered under the consuls of 427 -- cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt, "
+             "lines 54069 and 54126"),
+            ("lpc.source.possidius-vita-augustini-weiskotten1919",
+             "Vita Augustini ch. XXIX, 'in the third month of the siege he succumbed to fever' -- "
+             "cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 4146-4148")),
         "Taken from Doc_08 §3 Force 3A-1 (Cell 3A, Ending/External). relations[] carries the "
         "gravity<->force edge (G1) and the force<->force edge (3B-1) named above.",
     )

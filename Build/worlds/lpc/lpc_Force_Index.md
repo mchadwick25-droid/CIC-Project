@@ -29,7 +29,7 @@
 | **2B-3** | Ongoing / Internal | The illegal-to-established shift in the office's political capacity | Documented *(+Contested)* | — | ← 1A-2 (inverts into); ← 2A-3 (activates) | ✓ | no |
 | **2B-4** | Ongoing / Internal | Augustine's engagement with Cyprian's conciliar acts | Documented | G3, G5, G6 | ← 1B-1 (enables); ← 2A-3 (triggers); → 3B-2 (is the fullest instance of) | ✓ | no |
 | **2B-5** | Ongoing / Internal | Transmission — survival on the institutionally dominant side, through a 19th-century translation apparatus | Documented | — | → 3B-2 (continues) | ✓ | **YES** |
-| **3A-1** | Ending-Transforming / External | The Vandal invasion (from 429) and the siege of Hippo | Documented | G1 | → 3B-1 (coincides with, does not cause) | ✓ | no |
+| **3A-1** | Ending-Transforming / External | The Vandal invasion and the siege of Hippo (430) | Documented | G1 | → 3B-1 (coincides with, does not cause) | ✓ | no |
 | **3B-1** | Ending-Transforming / Internal | The corpus outliving the world | Widely Accepted | G7 | ← 2A-4 (produces); ← 3A-1 (coincides with, does not cause) | ✓ | no |
 | **3B-2** | Ending-Transforming / Internal | Transmission — an asymmetrically attested span and a 133-year silence | Contested | — | ← 2B-4 (is the fullest instance of); ← 2B-5 (continues) | ✓ | **YES** |
 

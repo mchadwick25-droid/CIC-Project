@@ -227,9 +227,10 @@ using this docstring's own numbering) are synthesized contrasts with no
 single quotable sentence behind them and were not built; the remaining
 five, each independently verified against its vendored source file, were.
 
-SERMON QUOTES. Twelve further `quote` records quote Augustine's sermons on
+SERMON QUOTES. Eighteen further `quote` records quote Augustine's sermons on
 selected lessons (Source Registry row 19), three per gravity for the pastoral
-office, penitential discipline, collegial communion and sacramental validity.
+office, penitential discipline, collegial communion, sacramental validity,
+preaching and catechesis, and grace and human incapacity.
 Each `text` is the NPNF English word for word; each `modern_rendering` is the
 Opus rendering as written; each `sources[].locus` gives the NPNF and Maurist
 sermon numbers, the section, the file lines and the PL 38 Latin lines. Each
@@ -239,7 +240,7 @@ declares the inverse edge. Their canon cells are assigned by s2y.
 RELATIONS -- CLOSED-GRAPH DISCIPLINE. Every `relations[]` entry this script
 writes points at another record this same script creates (story<->story,
 story<->figure, story<->quote, figure<->figure, figure<->quote), except the
-twelve sermon quotes, whose gravity edges are reciprocated by s25. The
+eighteen sermon quotes, whose gravity edges are reciprocated by s25. The
 graph is built and reciprocated by one master pair-list (RELATION_PAIRS
 below), so every edge is declared on both ends by construction. Term
 connections (lpc.term.bishop-of-bishops, lpc.term.the-flock,
@@ -391,6 +392,12 @@ RELATION_PAIRS: list[tuple[str, str]] = [
     ("lpc.quote.the-branch-cut-from-the-vine", "lpc.gravity.sacramental-ordination-validity"),
     ("lpc.quote.pardon-through-a-wicked-clergyman", "lpc.gravity.sacramental-ordination-validity"),
     ("lpc.quote.consider-who-was-there", "lpc.gravity.sacramental-ordination-validity"),
+    ("lpc.quote.the-creed-first-then-the-prayer", "lpc.gravity.preaching-and-catechesis"),
+    ("lpc.quote.let-your-creed-be-a-mirror", "lpc.gravity.preaching-and-catechesis"),
+    ("lpc.quote.the-sermon-and-the-readings-are-daily-bread", "lpc.gravity.preaching-and-catechesis"),
+    ("lpc.quote.two-hear-one-scorns-one-rises", "lpc.gravity.grace-and-human-incapacity"),
+    ("lpc.quote.what-is-done-by-you-he-does-in-you", "lpc.gravity.grace-and-human-incapacity"),
+    ("lpc.quote.no-one-has-the-love-of-god-from-himself", "lpc.gravity.grace-and-human-incapacity"),
 ]
 
 
@@ -1464,7 +1471,7 @@ def build_quotes() -> None:
 
 
 # ===========================================================================
-# SERMON QUOTES (12) -- Augustine's sermons on selected lessons, one per passage.
+# SERMON QUOTES (18) -- Augustine's sermons on selected lessons, one per passage.
 # ===========================================================================
 
 def build_sermon_quotes() -> None:
@@ -2098,6 +2105,371 @@ def build_sermon_quotes() -> None:
     )
 
 
+    emit_quote(
+        "the-creed-first-then-the-prayer",
+        "Because then he said, “how shall they call upon Him in whom they have not believed?” "
+        "ye have not first learnt the Lord’s Prayer, and after that the Creed; but first the "
+        "Creed, where ye might know what to believe, and afterwards the Prayer, where ye might "
+        "know whom to call upon. The Creed then has respect to the faith, the Lord’s Prayer to "
+        "prayer; because it is he who believeth, that is heard when he calleth.",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may hear 'learnt' as schoolwork. The Latin, accepistis, is 'you "
+        "received', and Augustine uses it of what the candidates were given. He explains the "
+        "order: they received the Creed first, so that they would know what to "
+        "believe, and the Lord's Prayer after it, so that they would know whom to call on. "
+        "'Has respect to' means 'belongs to'.",
+        "He said, “How will they call on Him in whom they have not believed?” That is why you "
+        "did not receive the Lord’s Prayer first and the Creed after it. You received the "
+        "Creed first, so that in it you would know what to believe. Then you received the "
+        "Prayer, so that in it you would know whom to call on. So the Creed belongs to faith, "
+        "and the Lord’s Prayer to prayer. For it is the one who believes who is heard when he "
+        "calls.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the NPNF English as printed. modern_rendering follows the "
+             "Latin of PL 38 where the English misleads: 'ye have not first learnt' renders "
+             "non accepistis, 'you did not receive'; 'has respect to' renders pertinet ad, "
+             "'belongs to'; and 'where ye might know' renders ubi sciretis, 'so that in it you "
+             "would know'."),
+        [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+          "locus": "Sermon 6 (NPNF numbering; Maurist 56), section 1; English at "
+                    "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+                    "lines 10642-10643; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 26187-26199 "
+                    "(the sermon starts at line 26159)",
+          "license": "public-domain"}],
+        1,
+        ["participant asks why the Creed was given to the candidates before the Lord's Prayer",
+         "participant asks what the Creed was for and what the Lord's Prayer was for",
+         "participant asks how Augustine tied believing to praying"],
+        ["participant asks how a candidate was meant to keep the Creed after the teaching "
+         "ended -- lpc.quote.let-your-creed-be-a-mirror gives that"],
+        ["The first sentence quotes Paul (Rom. x. 14), who is not named in the passage; the "
+         "speaker must name him in conversation, since the sentence that names him is left out.",
+         "The sermon is on the Lord's Prayer, spoken to the Competentes, the people preparing "
+         "for baptism. It is not a sermon on the Creed itself and must not be presented as one.",
+         "The modern rendering uses 'received' (accepistis) for the Creed and the Prayer; it "
+         "does not describe a formal handing-over ceremony, and none may be supplied unless "
+         "the sermon itself gives it."],
+        "Augustine, Sermon 6 in the NPNF numbering (56 in the Maurist numbering), section 1. "
+        "English in the NPNF translation at "
+        "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines "
+        "10642-10643. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines "
+        "26187-26199 (OCR text; the sermon starts at line 26159). The sentence before the "
+        "passage, at line 10642, quotes Romans x. 14-15 in full; the Romans x. 13 reference is "
+        "in a note at line 10641, outside the passage. The same order of Creed first and "
+        "Prayer after is repeated in NPNF 7 section 1, NPNF 8 section 1 and NPNF 9 section 1. "
+        "In the Latin, accepistis is 'you received' and is the rite's own word, paired with "
+        "'give back' (the pair is used openly in Sermon 58, PL 38 line 27711, reddituri "
+        "estis, non Orationem, sed Symbolum); pertinet ad is 'belongs to'; exauditur is 'is heard and answered'. A "
+        "page-foot note block (PL 38 lines 26192-26197) falls inside the Latin range between "
+        "invo- and caretis, and the passage starts with the last word of line 26187, Quia. The "
+        "scripture reference before the passage reads 'Rom. x, 13-13' in the OCR, probably "
+        "13-15. The sermon carries the gravity lpc.gravity.preaching-and-catechesis in its "
+        "catechetical form.",
+    )
+
+    emit_quote(
+        "let-your-creed-be-a-mirror",
+        "Call thy faith to mind, look into thyself, let thy Creed be as it were a mirror to "
+        "thee. Therein see thyself, whether thou dost believe all which thou professest to "
+        "believe, and so rejoice day by day in thy faith. Let it be thy wealth, let it be in a "
+        "sort the daily clothing of thy soul.",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may not know 'professest'. The Latin, confiteris, is to declare "
+        "openly; here what the hearer declares is the Creed. Augustine tells the candidate to "
+        "look at the Creed as a mirror, to check whether he believes all that he declares, and "
+        "to treat it as his wealth and daily clothing. 'Soul' is NPNF's word; the Latin here "
+        "says 'mind'.",
+        "Call your faith to mind. Look into yourself. Let your Creed be like a mirror to you. "
+        "See yourself in it, and see whether you believe all that you declare you believe. And "
+        "rejoice in your faith every day. Let it be your wealth. Let it be, in a way, the "
+        "daily clothing of your mind.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the NPNF English as printed. modern_rendering follows the "
+             "Latin of PL 38 where the English shifts it: 'clothing of thy soul' renders "
+             "indumenta mentis tuae, 'clothing of your mind', since Augustine says mens here "
+             "and turns to anima only in the next sentence, which the passage leaves out; "
+             "'professest' renders confiteris, rendered 'declare' because 'confess' now "
+             "suggests admitting guilt; and NPNF's 'so' in 'and so rejoice' is not in the "
+             "Latin."),
+        [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+          "locus": "Sermon 8 (NPNF numbering; Maurist 58), section 13; English at "
+                    "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+                    "line 11171; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 27719-27724 "
+                    "(the sermon starts at line 27271)",
+          "license": "public-domain"}],
+        2,
+        ["participant asks how a candidate for baptism was told to keep the Creed after "
+         "learning it",
+         "participant asks what Augustine meant by the Creed as a mirror",
+         "participant asks how a believer was told to keep up faith day by day"],
+        ["participant asks why the Creed came before the Lord's Prayer -- "
+         "lpc.quote.the-creed-first-then-the-prayer gives that"],
+        ["The sermon is on the Lord's Prayer, spoken to the Competentes, the people preparing "
+         "for baptism. It is not a sermon on the Creed itself and must not be presented as one.",
+         "The passage does not give the words of the Creed or say how often it is said; the "
+         "sentence before it, which gives the times, is not in the passage and must not be "
+         "supplied as if quoted.",
+         "'Mind' in the modern rendering follows the Latin; NPNF has 'soul', and the speaker "
+         "must not present one as the other."],
+        "Augustine, Sermon 8 in the NPNF numbering (58 in the Maurist numbering), section 13. "
+        "English in the NPNF translation at "
+        "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 11171. "
+        "Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 27719-27724 "
+        "(OCR text; the sermon starts at line 27271). The sentence before the passage, at line "
+        "11170, tells the candidate to say the Creed on rising and before sleep, and gives the "
+        "reason that repetition keeps forgetfulness out; it is left out. The sentence after "
+        "it, on the Apostle's 'unclothed' and 'naked', is cut off by notes at lines "
+        "11172-11177 and is also left out. In the Latin, Commemora fidem tuam is 'call your "
+        "faith to mind', which in context (commemorate vos ipsos, PL 38 line 27716) means "
+        "reciting the Creed to oneself; tanquam speculum is 'like a mirror'; confiteris is an "
+        "OCR reading ('condieris'), and the sense and NPNF both require it. The sermon carries "
+        "the gravity lpc.gravity.preaching-and-catechesis in its catechetical form.",
+    )
+
+    emit_quote(
+        "the-sermon-and-the-readings-are-daily-bread",
+        "Again, what I am handling before you now is “daily bread;” and the daily lessons "
+        "which ye hear in church, are daily bread, and the hymns ye hear and repeat are daily "
+        "bread. For all these are necessary in our state of pilgrimage.",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may hear 'handling' as touching objects and 'pilgrimage' as a trip "
+        "to a shrine. The Latin, tracto, is expounding Scripture in a sermon, and "
+        "peregrinationi is living away from one's homeland. Augustine names three things as "
+        "daily bread: his own preaching, the readings in church, and the hymns, and says they "
+        "are needed while we are far from home.",
+        "And what I am explaining to you now is daily bread. The readings you hear in church "
+        "every day are daily bread. The hymns you hear and sing are daily bread. For we need "
+        "these while we are far from home.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the NPNF English as printed. modern_rendering follows the "
+             "Latin of PL 38 where the English misleads: 'handling' renders tracto, "
+             "'explaining'; 'state of pilgrimage' renders peregrinationi nostrae, 'while we "
+             "are far from home', since 'state of' is NPNF's addition and 'pilgrimage' narrows "
+             "the Latin; 'Again' renders Et, 'And'; NPNF's 'all' in 'all these' is not in the "
+             "Latin; 'repeat' renders dicitis, rendered 'sing'; and the quotation marks on "
+             "'daily bread' are NPNF's."),
+        [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+          "locus": "Sermon 7 (NPNF numbering; Maurist 57), section 7; English at "
+                    "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+                    "line 10894; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 27006-27028 "
+                    "(the sermon starts at line 26785)",
+          "license": "public-domain"}],
+        2,
+        ["participant asks what Augustine called daily bread besides the Eucharist",
+         "participant asks how Augustine spoke of his own preaching",
+         "participant asks why the readings and hymns in church mattered to believers"],
+        ["participant asks how Augustine described the work of feeding his hearers -- "
+         "lpc.quote.stewards-and-future-bishops gives that"],
+        ["'Daily bread' here is the petition of the Lord's Prayer, and 'Again' follows the "
+         "Eucharist sense given in the lines before the passage; the passage must not be used "
+         "to say the Eucharist was not daily bread.",
+         "'Far from home' needs the frame that heaven is home; the passage does not state it, "
+         "and the speaker must supply it as the sense of the Latin peregrinatio without adding "
+         "detail.",
+         "The sermon is to the Competentes on the Lord's Prayer, not a sermon on the Creed, "
+         "and the passage does not say how often hymns were sung."],
+        "Augustine, Sermon 7 in the NPNF numbering (57 in the Maurist numbering), section 7. "
+        "English in the NPNF translation at "
+        "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 10894. "
+        "Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 27006-27028 "
+        "(OCR text; the sermon starts at line 26785). The lines before the passage "
+        "(10889-10894) give the Eucharist as the spiritual daily bread, so 'Again' opens a "
+        "further sense, which the passage itself states. A Latin gloss note ('Codex') falls "
+        "later in line 10894, after the passage. In the Latin, tracto is the usual word for "
+        "expounding Scripture in a sermon, peregrinatio is living away from one's homeland, "
+        "and the next sentence (quando venerimus, 'when we get there') shows heaven as home. "
+        "The passage starts with the last word of PL 38 line 27006, Et, and ends on line 27028 "
+        "after a page break, with peregrina- (line 27010) resuming as tioni nostrae and "
+        "apparatus notes at lines 27013-27025 between them. The passage is short, 43 words. "
+        "The sermon carries the gravity lpc.gravity.preaching-and-catechesis.",
+    )
+
+    emit_quote(
+        "two-hear-one-scorns-one-rises",
+        "But wonderful it is, that when Christ Crucified is preached, two hear, one despiseth, "
+        "the other ascendeth. Let him that despiseth, impute it to himself; let not him that "
+        "ascendeth, arrogate it to himself. For he hath heard from the True Master; “No man "
+        "cometh unto Me, except it were given unto him of My Father.”",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may hear 'wonderful' as delightful and 'True Master' as an owner. "
+        "The Latin, Mirum, is 'strange', and Augustine is puzzled, not pleased; veraci "
+        "Magistro is the truthful Teacher. When Christ crucified is preached, two hear, one "
+        "scorns and one rises. The one who rises is not to claim it, since no one comes to "
+        "Christ unless it is given him by the Father.",
+        "But it is a strange thing. When Christ crucified is preached, two people hear. One "
+        "scorns it, and the other rises. Let the one who scorns blame himself. Let the one who "
+        "rises not claim it for himself. For he has heard the truthful Teacher say, “No one "
+        "comes to Me unless it is given to him by My Father.”",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the NPNF English as printed. modern_rendering follows the "
+             "Latin of PL 38 where the English misleads: 'wonderful' renders Mirum, 'a strange "
+             "thing'; 'impute it to himself' renders imputet sibi, 'blame himself'; "
+             "'despiseth' and 'ascendeth' render contemnit and ascendit, 'scorns' and 'rises'; "
+             "and 'True Master' renders veraci Magistro, 'the truthful Teacher'."),
+        [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+          "locus": "Sermon 81 (NPNF numbering; Maurist 131), section 3; English at "
+                    "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+                    "line 19899; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 51152-51156 "
+                    "(the sermon starts at line 51045)",
+          "license": "public-domain"}],
+        1,
+        ["participant asks why one hearer of the preaching believes and another does not",
+         "participant asks what Augustine said a believer must not claim for himself",
+         "participant asks how Augustine used 'No man cometh unto Me, except it were given "
+         "unto him of My Father'"],
+        ["participant asks how a person's own acts stand under God's working -- "
+         "lpc.quote.what-is-done-by-you-he-does-in-you gives that"],
+        ["The last sentence quotes John vi. 65 without naming the Gospel; the speaker must not "
+         "supply more than the verse the passage gives.",
+         "The passage does not name the Pelagians and must not be read as a reply to them; "
+         "'Against the Pelagians' is NPNF's own title for the sermon.",
+         "The passage does not say why one hearer rises and the other scorns, and must not be "
+         "extended into a doctrine of election.",
+         "'Rises' (ascendit) is the sermon's image for coming to faith and does not mean the "
+         "resurrection."],
+        "Augustine, Sermon 81 in the NPNF numbering (131 in the Maurist numbering), section 3. "
+        "English in the NPNF translation at "
+        "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 19899. "
+        "Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 51152-51156 "
+        "(OCR text; the sermon starts at line 51045). The sermon was delivered at the Table of "
+        "the martyr Cyprian (sermon heading, lines 19865-19867). A page-break tag (NPNF p. "
+        "502) falls inside line 19899 and is stripped. Section 3 goes on at lines 19900-19915 "
+        "with Philippians ii. 12-13; that is cut by notes and is left out. The section's next "
+        "clause in the Latin, Gaudeat, quia datum est ('let him rejoice that it has been "
+        "given'), would complete the thought but is outside the passage. The Latin passage "
+        "follows an editor's chapter heading at PL 38 lines 51151-51152. In the Latin, Mirum "
+        "est is 'it is strange', arroget sibi is 'claim it for himself' and datum fuerit is "
+        "'has been given'. The sermon carries the gravity "
+        "lpc.gravity.grace-and-human-incapacity.",
+    )
+
+    emit_quote(
+        "what-is-done-by-you-he-does-in-you",
+        "Why do I say then, “Thy will be done in heaven and in earth,” and do not say, “Thy "
+        "will be done by heaven and earth?” Because what is done by thee, He Himself doeth in "
+        "thee. Never is anything done by thee which He Himself doeth not in thee. Sometimes, "
+        "indeed, He doeth in thee what is not done by thee; but never is anything done by "
+        "thee, if He do it not in thee.",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may hear 'He doeth in thee what is not done by thee' as God forcing "
+        "a person. Augustine is explaining the petition 'Thy will be done in heaven and in "
+        "earth'. God's will is done 'in you' whether you will it or not; it is done 'by you' "
+        "when you do it as well. Nothing is done by the one who prays that God does not also do in him.",
+        "Why then do I say, “Your will be done in heaven and on earth,” and not, “Your will be "
+        "done by heaven and earth”? Because what is done by you, He Himself does in you. "
+        "Nothing is ever done by you that He Himself does not do in you. Sometimes, indeed, He "
+        "does in you what is not done by you. But nothing is ever done by you unless He does "
+        "it in you.",
+        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+          "locus": "Sermon 6 (NPNF numbering; Maurist 56), section 7; English at "
+                    "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+                    "lines 10700-10701; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 26351-26356 "
+                    "(the sermon starts at line 26159)",
+          "license": "public-domain"}],
+        2,
+        ["participant asks what Augustine meant by 'Thy will be done' in the Lord's Prayer",
+         "participant asks how Augustine spoke of what a person does and what God does in him",
+         "participant asks why Augustine said nothing is done by us unless God does it in us"],
+        ["participant asks why one hearer believes and another scorns -- "
+         "lpc.quote.two-hear-one-scorns-one-rises gives that"],
+        ["The passage needs its lead-in: in the lines before it (PL 38 lines 26340-26351, from "
+         "Fiet enim voluntas Dei in te, etsi non fit a te), 'in you' is God's will done in "
+         "everyone, saved or lost, and 'by you' is God's will done by you as well. Without that lead-in, "
+         "'He does in you what is not done by you' can be heard as compulsion, and the speaker "
+         "must supply it.",
+         "The sermon is to the Competentes, the people preparing for baptism, on the Lord's "
+         "Prayer. It is not an argument with Pelagians and must not be read as a reply to them.",
+         "The opening question is Augustine's own, put to the Competentes, not an objection "
+         "raised by a hearer."],
+        "Augustine, Sermon 6 in the NPNF numbering (56 in the Maurist numbering), section 7. "
+        "English in the NPNF translation at "
+        "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines "
+        "10700-10701. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines "
+        "26351-26356 (OCR text; the sermon starts at line 26159). The lines before the passage "
+        "(NPNF lines 10693-10700) set out that God's will is done in the saved and in the "
+        "lost; the passage opens in the middle of that argument ('Why do I say then'). In the "
+        "Latin, a te and in te are exact and the whole argument rests on that pair; "
+        "Augustine's form has no sicut ('as') in 'in coelo et in terra'. The NPNF English "
+        "follows the Latin closely throughout, with nothing added or narrowed. The longest "
+        "sentence is the opening question, made of two quoted petitions, and cannot be split "
+        "without losing the contrast. The sermon carries the gravity "
+        "lpc.gravity.grace-and-human-incapacity as catechesis on prayer.",
+    )
+
+    emit_quote(
+        "no-one-has-the-love-of-god-from-himself",
+        "Finally, when he had said, “The love of God hath been shed abroad in our hearts;” "
+        "that no man might think that he hath this love of God of himself, he added "
+        "immediately, “By the Holy Spirit, who hath been given to us.” Therefore, that thou "
+        "mayest love God, let God dwell in thee, and love Himself in thee, that is, to His "
+        "love let Him move thee, enkindle, enlighten, arouse thee.",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may hear 'Finally' as the last point in a list and 'shed abroad' as "
+        "spilled. The Latin, Denique, is 'indeed', and diffusa est is 'poured out'. Augustine "
+        "reads Paul's words so that no one thinks his love for God comes from himself, and "
+        "asks that God live in the believer, love Himself through him, and move him to love.",
+        "Indeed, he had said, “The love of God has been poured out in our hearts.” Then he "
+        "added at once, “through the Holy Spirit, who has been given to us.” He did this so "
+        "that no one would think his love for God came from himself. So if you are to love "
+        "God, let God live in you and love Himself through you. That is, let Him move you to "
+        "His love. Let Him kindle you, give you light and stir you up.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the NPNF English as printed. modern_rendering follows the "
+             "Latin of PL 38 where the English misleads or shifts: 'Finally' renders Denique, "
+             "'Indeed'; 'shed abroad' renders diffusa est, 'poured out'; 'love Himself in "
+             "thee' renders amet se de te, literally 'love Himself from you', rendered "
+             "'through you'; and 'enkindle, "
+             "enlighten, arouse' renders accendat, illuminet, excitet, 'kindle, give light, "
+             "stir up'. The purpose clause is moved after the two quotations so each sentence "
+             "holds one thought."),
+        [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+          "locus": "Sermon 78 (NPNF numbering; Maurist 128), section 4; English at "
+                    "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+                    "line 19486; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 50082-50088 "
+                    "(the sermon starts at line 49959)",
+          "license": "public-domain"}],
+        2,
+        ["participant asks where Augustine said the love of God in a believer comes from",
+         "participant asks how Augustine read 'The love of God hath been shed abroad in our "
+         "hearts'",
+         "participant asks what Augustine meant by God dwelling in a person and moving him to "
+         "love"],
+        ["participant asks why one hearer believes and another scorns -- "
+         "lpc.quote.two-hear-one-scorns-one-rises gives that"],
+        ["'He' is Paul (Rom. v. 5), named neither in the passage nor in the Latin sentence; "
+         "the speaker must name him in conversation.",
+         "The passage does not name the Pelagians and must not be read as a reply to them; the "
+         "sermon is on John v. 31 and Galatians v. 16-17 (the flesh against the Spirit).",
+         "The passage is one argument about where the love of God comes from and does not set "
+         "out a whole doctrine of grace."],
+        "Augustine, Sermon 78 in the NPNF numbering (128 in the Maurist numbering), section 4. "
+        "English in the NPNF translation at "
+        "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 19486. "
+        "Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 50082-50088 "
+        "(OCR text; the sermon starts at line 49959). The line begins right after a short "
+        "scripture-reference note (2 Cor. iv. 7, line 19485) that belongs to the earlier "
+        "sentence, not this one. The Latin starts mid-line at PL 38 line 50082 after (II Cor. "
+        "iv, 7), and carries the reference (Rom. v, 5) that the English line omits. In the "
+        "Latin, Denique is 'indeed, in short', a se sibi esse quod diligit Deum is that his "
+        "loving God comes from himself, habitet is 'live', and accendat, illuminet and excitet "
+        "are 'set alight, give light, rouse'. The sermon carries the gravity "
+        "lpc.gravity.grace-and-human-incapacity.",
+    )
+
+
 def main() -> None:
     build_stories()
     build_figures()
@@ -2117,7 +2489,7 @@ def main() -> None:
         f"expected one story record per Story-Chunk (7), wrote {len(story_files)}"
     )
     assert len(figure_files) == 7, f"expected 7 figure records, wrote {len(figure_files)}"
-    assert len(quote_files) == 17, f"expected 17 quote records (bounded set, see docstring), " \
+    assert len(quote_files) == 23, f"expected 17 quote records (bounded set, see docstring), " \
         f"wrote {len(quote_files)}"
 
     # Reciprocity self-check: every RELATION_PAIRS id must be a record this
