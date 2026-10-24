@@ -15,7 +15,10 @@ confidence:
   divergence_note: null
 sources:
 - source_id: rzg.source.zwingli-sixty-seven-articles
-  locus: Article XVIII's own wider polemic against the Mass's sacrificial character and image veneration
+  locus: Article XVIII on the Mass as remembrance, not sacrifice
+  license: public-domain
+- source_id: rzg.source.second-helvetic-confession
+  locus: 'Chap. IV, Of Idols, Images of God and of Saints: God "can not be represented by any image"'
   license: public-domain
 - source_id: rzg.source.zwingli-selected-works
   locus: the Second Disputation's own record of the Anabaptist party's own emergence from inside Zwingli's

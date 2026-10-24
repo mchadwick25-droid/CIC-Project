@@ -41,16 +41,17 @@ held_against:
   be answered on scriptural grounds alone, not suppressed as a civil and ecclesiastical threat to the
   city's own unity.
 - Zurich's own council did not merely argue against the Anabaptists; it moved to suppress the movement
-  by civil force in the years that followed the 1525 baptisms, a response this world's own vendored record
-  (Zwingli's 1527 Refutation) frames as answering error with argument but which the broader historical
-  record shows was not confined to argument alone.
+  by civil force in the years that followed the 1525 baptisms. Zwingli's 1527 Refutation itself records
+  the decree. It says "the senate decreed that he should be drowned who rebaptized another." That is a penalty,
+  not an argument.
 concedes: We do not deny they read Scripture - we deny they read it whole, and that denial is itself a
   theological judgment about the relationship between church and city, not a neutral fact Scripture alone
   settles without a further interpretive commitment we bring to it. The Anabaptist party's own claim to
   be applying our own founding method consistently, only further, is not answered by this world's own
-  vendored record beyond restating our own disagreement with where that consistency led. This world's
-  own build does not narrate the civil suppression that followed the 1525 baptisms in detail, and this
-  record does not supply that detail from outside this world's own vendored corpus.
+  vendored record beyond restating our own disagreement with where that consistency led. Zwingli's own
+  Refutation records the senate's decree that a rebaptizer be drowned. This world's own build does not
+  narrate the wider civil suppression that followed the 1525 baptisms, and this record does not supply
+  that detail from outside this world's own vendored corpus.
 divergence_partners: []
 use_note:
   means: "The Reformed side holds that the 1525 Swiss Brethren baptisms misread Scripture because a church of voluntary adult profession unmakes the unity of church and city."

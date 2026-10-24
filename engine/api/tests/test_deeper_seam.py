@@ -572,7 +572,7 @@ def test_the_stream_says_low_in_its_final_event(store, usage_store, world_loader
 
 # ---- the free count ----------------------------------------------------------------
 
-def test_a_free_visitor_is_told_their_free_tokens_left_and_a_code_holder_is_not(store, usage_store, world_loader, registry, runtime):
+def test_a_free_visitor_is_told_their_free_tokens_left_and_a_code_holder_is_told_both(store, usage_store, world_loader, registry, runtime):
     http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
     window = runtime.free.window_amount
     session_id, auth = open_session(http)
@@ -584,7 +584,19 @@ def test_a_free_visitor_is_told_their_free_tokens_left_and_a_code_holder_is_not(
     code = code_with(runtime, 1000)
     held_id, held_auth = open_session(http, **{"X-Cic-Code": code})
     reply = say(http, held_id, held_auth, "hello")
-    assert "x-cic-free-left" not in reply.headers and "x-cic-remaining" in reply.headers
+    assert reply.headers["x-cic-free-left"] == str(window - 2 * solo_charge(runtime, 1) - solo_charge(runtime, 2)) and "x-cic-remaining" in reply.headers
+
+
+def test_the_free_count_can_be_read_before_any_reply(store, usage_store, world_loader, registry, runtime):
+    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
+    window = runtime.free.window_amount
+    fresh = http.get("/api/deeper/free")
+    assert fresh.status_code == 200 and fresh.json() == {"free_left": window}
+    assert fresh.headers["cache-control"] == "no-store"
+    assert "set-cookie" not in fresh.headers
+    session_id, auth = open_session(http)
+    say(http, session_id, auth, "hello")
+    assert http.get("/api/deeper/free").json() == {"free_left": window - solo_charge(runtime, 1)}
 
 
 def test_the_stream_gives_the_free_count_in_its_final_event(store, usage_store, world_loader, registry, runtime):

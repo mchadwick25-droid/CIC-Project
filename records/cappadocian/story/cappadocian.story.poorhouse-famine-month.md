@@ -21,7 +21,7 @@ sources:
   locus: "the complex called 'the new city'"
 - source_id: cappadocian.source.gregory-nazianzus-oration-14-love-of-poor
   locus: "the leper as a stated test of philanthropia"
-- source_id: cappadocian.source.gregory-nyssa-love-of-the-poor-lepers-consolation
+- source_id: cappadocian.source.gregory-nyssa-de-pauperibus-amandis
   locus: "Gregory of Nyssa's own poverty and leper preaching"
 retrieval:
   tier: 2

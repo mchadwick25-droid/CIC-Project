@@ -36,7 +36,7 @@ exchange:
     honored the same way. Constantinople's side could say the canon only named a rank the city already held in fact. The empire's weight really had moved east by then. Leo's own
     representatives objected in the council itself. Leo, when word reached
     him, refused to accept the canon. He wrote to the emperor to say why: 'things secular stand on a different basis from things divine.' He meant that a royal city could never be an apostolic see. So our record ends
-    with both claims held, unreconciled. The council that settled who Christ
+    with both claims held, unreconciled. The council that defined who Christ
     is left open the question of where, on earth, the church's own final
     authority sits. We do not resolve that for you now. Our own record never
     did.

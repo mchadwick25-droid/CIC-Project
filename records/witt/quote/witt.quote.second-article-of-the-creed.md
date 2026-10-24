@@ -14,10 +14,10 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
-    Documented as the Small Catechism's own Second Article, the household's weekly confession, said by
-    every household in the program the Large Catechism prescribes (witt.gravity.household-catechism). No
-    biographical or personal claim rides on it -- it is recited text, not a remembered saying, and every
-    household under this program said these same words.
+    Documented as the Small Catechism's own Second Article, the household's weekly confession, prescribed
+    for every household in the program the Large Catechism sets out (witt.gravity.household-catechism); how
+    far households took it up is Contested. No biographical or personal claim rides on it -- it is recited
+    text, not a remembered saying.
 sources:
 - source_id: witt.source.luther-small-catechism
   locus: >-

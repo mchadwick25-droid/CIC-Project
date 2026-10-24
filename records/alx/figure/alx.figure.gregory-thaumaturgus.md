@@ -10,8 +10,9 @@ confidence:
   citation_specificity: A
   verification_state: verified-direct
   evidentiary_weight: load-bearing
-  formation_confidence: Widely Accepted
-  divergence_note: null
+  formation_confidence: Contested
+  divergence_note: The figure's c. 213-c. 270 dates are traditional; the Address of Thanksgiving, the only first-person
+    account attached to him here, has contested authorship and date (Nautin disputed both).
 sources:
 - source_id: alx.source.gregory-address-to-origen
   locus: whole oration (anf06 div iii.iii.iv, line 2288)
@@ -24,7 +25,7 @@ names:
 dates:
   born: 'c. 213 (traditional date)'
   died: 'c. 270 (traditional date)'
-  floruit: 'student under Origen at Caesarea c. 233-238; the Address of Thanksgiving delivered c. 238 (Nautin disputes its authorship and date; most scholars hold to them)'
+  floruit: 'student under Origen at Caesarea c. 233-238; the Address of Thanksgiving delivered c. 238 (Nautin disputed its authorship and date; the matter is contested)'
 narratable: true
 bridge_line: the student who told us, in his own voice, what Origen's teaching was like at Caesarea - the one first-person account of it
 ---

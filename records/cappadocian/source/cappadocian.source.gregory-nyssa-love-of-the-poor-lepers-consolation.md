@@ -15,18 +15,15 @@ confidence:
 sources: []
 relations: []
 author: Gregory of Nyssa
-work: Gregory of Nyssa, On the Love of the Poor / On the Treatment of Lepers (De pauperibus amandis I-II),
-  consolation pieces (incl. on infants' early deaths), and On Pilgrimages
+work: Gregory of Nyssa, On Infants' Early Deaths and On Pilgrimages
 edition: 'Nicene and Post-Nicene Fathers, 2nd series, vol. 5 (Gregory of Nyssa: Dogmatic, Ascetic, and
   Moral Treatises, Letters), ed. Schaff, vendored as cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt'
-citation: 'Gregory of Nyssa, On the Love of the Poor, On the Treatment of Lepers, consolation pieces, and On Pilgrimages, Nicene and Post-Nicene Fathers, 2nd series, vol. 5 (Gregory of Nyssa: Dogmatic, Ascetic, and Moral Treatises, Letters), ed. Schaff'
+citation: 'Gregory of Nyssa, On Infants'' Early Deaths and On Pilgrimages, Nicene and Post-Nicene Fathers, 2nd series, vol. 5 (Gregory of Nyssa: Dogmatic, Ascetic, and Moral Treatises, Letters), ed. Schaff'
 kind: vendored
 rights_status: "public-domain; vendored, rights independently confirmed"
 attribution_status: attributed
-discovery_channel: builder-prior-knowledge; Source Registry row 55; a named, vendored text already sitting
-  in cic/texts/ (present since an earlier session), not reopened to recheck this specific citation this
-  session.
-external_ids:
-  cappadocian_source_registry_row: 55
+discovery_channel: builder-prior-knowledge; a named, vendored text already sitting in cic/texts/
+  (present since an earlier session).
+external_ids: {}
 ---
-The poor-institutionalized gravity candidate (row 55). Letters, incl. On Pilgrimages, confirmed present per Doc_02 SS1.3's own correction to an earlier manifest error.
+Covers the two works of Gregory of Nyssa in the vendored volume that bear on this world: On Infants' Early Deaths and On Pilgrimages. The love-of-the-poor homilies are recorded separately at cappadocian.source.gregory-nyssa-de-pauperibus-amandis.

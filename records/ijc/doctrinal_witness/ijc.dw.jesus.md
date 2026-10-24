@@ -30,9 +30,10 @@ text: >-
   To us, Jesus was the one the whole argument was about, and the argument itself was our devotion. The
   creed of Nicaea, in 325, answers who he was: very God of very God, of one being with the Father. For
   us and for our salvation he came down, was made man, suffered, and rose on the third day. A century
-  of councils spent itself making those words exact, because everything hung on them. If the Son is
-  not truly God, then what he gives is not truly God's to give. Leo's letter explains why the
-  exactness mattered. He wrote of true God and true man, each nature doing what belongs to it. So one
+  of councils spent itself making those words exact, because everything hung on them. Leo's letter
+  explains why the exactness mattered. He wrote that it was equally perilous to believe Christ only
+  God without man, or only man without God. He wrote of true God and true man, each nature doing what
+  belongs to it. So one
   Mediator could die in one nature and not die in the other. We did not write devotional memoirs about
   Jesus. We wrote definitions, the way people write what they are prepared to be exiled over.
 positions:

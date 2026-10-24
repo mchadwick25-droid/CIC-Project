@@ -1173,3 +1173,17 @@ Opus claim check of the six recorded 13 October live replies (`engine/m4/reports
 Full table: `Build/Ministry/Operations/Audits/2026-10-19_live-reply-claim-check_eleven-worlds.md`.
 
 Status: OPEN.
+
+### OG-46. Live-reply claim check findings re-confirmed and fixed, 2026-10-23.
+
+Follows the 2026-10-19 "Live-reply claim check" entry. Re-confirmed independently against the vendored texts on 2026-10-23, then fixed. Drafted by Sonnet, reviewed by Opus over two rounds (`Build/Ministry/Operations/Audits/2026-10-23_live-reply-record-fixes_Review_Round1.md`, `Build/Ministry/Operations/Audits/2026-10-23_live-reply-record-fixes_Review_Round2.md`). Packages rebuilt and repinned.
+
+Already fixed before this pass: the hours of prayer said to come from Egypt (`gallic.dw.the-christ-who-bears-the-wounds`); "only one man's private word survives" in the `text` of `gallic.dw.christ-in-the-beggar-and-the-guest`; "can be posted" in `gallic.force.army-and-rank-before`.
+
+Fixed now:
+- The "posted" claim had moved to `gallic.force.renunciation-that-stays` ("A monk who was made bishop had not left the service. He had been posted.") and `gallic.force.office-temptation-destiny` ("To be given it was to be posted."). No source treats being made bishop as a posting; Cassian says a monk should flee bishops (Institutes XI.18). Both sentences removed.
+- The loci of `gallic.dw.christ-in-the-beggar-and-the-guest` and `gallic.dw.one-person-two-substances` now say "the one private word in our record", not "that survives" (Sulpicius, Ep. III keeps another).
+- `gallic.dw.christ-in-the-beggar-and-the-guest`: removed the build narration "Cassian wrote books on the Incarnation, but our record has not read them" and its echo in positions.
+- `gallic.limit.only-on-paper` locus: Institutes I-IV are the customs of Egypt and the East, not of Egypt alone.
+
+Status: FIXED 2026-10-23/24, awaiting an independent recheck by a separate Opus thread (CLAUDE.md: a blocking finding does not clear by self-certification); fix list: `Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Fix-List.md`.

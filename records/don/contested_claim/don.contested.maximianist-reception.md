@@ -44,10 +44,10 @@ claim: The mainstream (Primianist) Donatist party's own reception of returning M
   formation pattern all along -- proof the two bodies were never truly distinct communions, not merely a
   rhetorical embarrassment Augustine happened to exploit.
 held_against:
-- A later Donatist apologetic account, reported in a scholarly summary of Augustine's *Contra Cresconium*
+- A later Donatist apologetic account, known only through Augustine's answer to Cresconius (*Contra Cresconium* III)
   (Doc_02 SS1, Registry rows 17, 31), held that the reception rested on a specific, bounded synodal dispensation
   -- the Bagai council itself 'had granted a season of delay during which all who returned should be held
-  innocent' -- rather than on any general recognition that Maximianist orders and baptism were substantively
+  innocent' (these quoted words are the NPNF editor's English summary of Book III, not Augustine's own text) -- rather than on any general recognition that Maximianist orders and baptism were substantively
   valid independent of schism status. On that reading, the episode reflects a one-time act of ecclesiastical
   leniency, not a demonstration that the two parties always held functionally identical formation patterns.
 - 'Every attestation of the reception''s own justification reaches this record through Augustine''s own

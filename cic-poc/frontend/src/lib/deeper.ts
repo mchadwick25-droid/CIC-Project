@@ -139,6 +139,19 @@ async function refreshBalance(code: string) {
   }
 }
 
+/** What the free window has left for a visitor, with or without a code, asked of the server before any reply reports it. */
+export async function refreshFreeLeft() {
+  if (!deeperEnabled || state.freeLeft !== null) return;
+  try {
+    const response = await fetch('/api/deeper/free', { credentials: 'same-origin' });
+    if (!response.ok) return;
+    const body = (await response.json()) as { free_left?: unknown };
+    if (typeof body.free_left === 'number') reportFreeLeft(body.free_left);
+  } catch {
+    // The count shows when the first reply reports it.
+  }
+}
+
 function setBalanceOf(code: string, remaining: number) {
   if (!state.codes.includes(code)) return;
   let codes = state.codes;
@@ -155,7 +168,7 @@ function forget(code: string) {
   const codes = changeStoredCodes((stored) => stored.filter((c) => c !== code));
   const balances = { ...state.balances };
   delete balances[code];
-  update({ ...state, codes, balances, remaining: total(codes, balances), low: false, freeLeft: null });
+  update({ ...state, codes, balances, remaining: total(codes, balances), low: false });
 }
 
 /** Adds a code to the ones this browser holds. Returns false when the text is not a code. */
@@ -167,7 +180,7 @@ export function saveCode(raw: string): boolean {
     return true;
   }
   const codes = changeStoredCodes((stored) => (stored.includes(code) ? stored : [...stored, code]));
-  update({ ...state, codes, claim: null, freeLeft: null });
+  update({ ...state, codes, claim: null });
   void refreshBalance(code);
   return true;
 }

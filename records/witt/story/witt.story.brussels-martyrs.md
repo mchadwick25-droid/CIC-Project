@@ -12,7 +12,7 @@ confidence:
   evidentiary_weight: corroborating
   formation_confidence: Documented
   divergence_note: 'Documented that two named Augustinian-house monks, John and Henry, were burned at
-    Brussels on 1 July 1523 for their evangelical convictions - datable, attested by a near-contemporary
+    Brussels on 1 July 1523 (the date the vendored editor gives; the song''s own heading says 1522) for their evangelical convictions - datable, attested by a near-contemporary
     author (Luther himself) writing within months of the event. Contested to Inferential-Thin for the
     ballad''s own telling of the martyrdom: the stanza form, the direct address to the reader, and the
     martyrs'' last words rendered as reported speech are exactly what CF V7.4 names as hagiographic narrative,
@@ -61,7 +61,7 @@ narrative_tier_justification: 'Split, and carried at the tier of the story''s ow
   this world''s own Doc_02 §10 first drew without yet naming the hagiographic-convention reason Doc_09
   supplied.'
 tellable_as: >-
-  In July of 1523, two young monks named John and Henry were burned at Brussels for refusing to take back
+  Two young monks named John and Henry were burned at Brussels for refusing to take back
   what they had come to believe. Within months, Luther wrote a ballad about them in Wittenberg.
 text: >-
   On the first of July, 1523, two young monks - one named John, the other Henry - were burned at Brussels.
@@ -80,7 +80,7 @@ text: >-
   to be free of "Satan's mock and masquerade." One line of the ballad says what the stripping meant: "thus
   by the power of grace they were true priests of God's own making."
 
-  What can be said as documented fact is this: two named men died at Brussels on a given day in 1523,
+  What can be said as documented fact is this: two named men died at Brussels on a given day,
   for refusing to recant a teaching, and Luther wrote about it within the year. What the ballad adds -
   the exact words at the stake, the precise sequence of the Louvain proceedings, the martyrs' own cheerfulness
   in the moment of death - is the ballad's own telling, in its own commemorative voice, not an independent
@@ -98,7 +98,7 @@ modern_contrast: A modern reader may expect a martyr story to read as reportage 
   documented single event of persecution - but it means the vivid details most likely to move a modern
   reader are exactly the details the ballad supplies rather than an independent record confirms.
 use_note:
-  means: "Two young monks named John and Henry were burned at Brussels on 1 July 1523, and Luther's ballad about them is the library's only account of it."
+  means: "Two young monks named John and Henry were burned at Brussels, a burning the song's editor dates to 1 July 1523, and Luther's ballad about them is the library's only account of it."
   not_for:
     - "the stake-side dialogue or last words as verified reportage rather than the ballad's commemorative voice"
     - "the two men as named Augustinians, which the ballad's own text never says"

@@ -26,6 +26,27 @@ with no history in the document, lives in the file it governs (here,
 **Shared file.** A. N. Mouravieff's History of the Church of Russia (Blackmore, 1842) was vendored by this pass and, in the same hours, by the Era VI pass (V.8). One file, one registry entry: the Era VI file and entry stand, and this pass keeps its seed row and its two Era VIII assignments beside the Era VI rows. This pass's own nikon-to-holy-synod row was dropped because the Era VI rows already place the file there as context, which is also what Mark's Era VII ruling 6 asks of a post-window account.
 
 **Placements left for Mark.** Cross-world rows are staged `provisional` where the fit is arguable; each dossier's section 5 names the open questions, among them Whitefield's allocation (VII.5, VII.6, VII.10), whether the middle and southern colonies belong to VII.6, the AME edge of VII.5 (Allen, Jarena Lee), the Czech succession claim of VII.4, and missions with no census home (the Danish West Indies, Greenland, Tranquebar).
+## 2026-10-24 — Borromeo's pastoral voice is co-owned by Borromean Milan and the Tridentine Church
+
+**Ruling, Mark's answer** to three options put to him in the session: (1) co-owned,
+(2) Borromean Milan (VI.12) owns it, (3) the Tridentine Church (VI.22) owns it.
+He answered "1". The Library recommended option 1.
+
+**Basis.** The Tatian ruling of 2026-09-29 holds that a voice shaping several
+worlds of one era is shared and "doesn't have to be just one". That entry limited
+itself to Tatian and figures of his shape. This entry is the separate ruling for
+Borromeo.
+
+**Changes.** The Tridentine Registry licenses the five Italian Borromeo files
+(rows 29 to 33) for the pastoral voice. The Tridentine Doc_02 moves from Cleared
+review to Approved to proceed. Borromean Milan keeps the same files as its own,
+so nothing changes in that world's placements. The corpus map still shows the five
+files as `context` for the Tridentine Church; the request to change them to
+`tradition` is Tridentine Open_Gaps OG-23.
+
+**What this does not rule.** It does not rule on the Lives of Borromeo, the Acta,
+or any other figure.
+
 ## 2026-10-23 — Era III library pass: scope, corrections, and placements left to Mark
 
 **Scope.** The Era III session (branch `library/era-iii-2026-10`) took the

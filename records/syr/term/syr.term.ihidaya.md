@@ -13,7 +13,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: null
+  divergence_note: Modern scholars read the double hearing of ihidaya (vowed celibate and Only-Begotten) as intended, a reading drawn from modern scholarship rather than stated by Aphrahat or Ephrem.
 sources:
 - source_id: syr.source.aphrahat-select-demonstrations
   locus: VI.8 and the covenant teaching; VII.20 in the Hallock set
@@ -42,7 +42,7 @@ relations:
   target: syr.term.qyama
 - type: associated-with
   target: syr.term.tahwyata
-plain_meaning: 'The Single One. One word does double duty among us. It names the vowed celibate, single-minded and undivided for God. It is also the Syriac title of Christ as the Only-Begotten. The two senses share one root, so the one who lives single shares a name with Christ.'
+plain_meaning: 'The Single One. One word names the vowed celibate, single-minded and undivided for God. It is also the Syriac title of Christ as the Only-Begotten. The two senses share one root, so the one who lives single shares a name with Christ. Aphrahat sets the two side by side. He writes that the Only Begotten, from the bosom of the Father, will make all the solitaries rejoice.'
 world_word: ihidaya (pl. ihidaye)
 false_friend:
 - solitary or hermit (physical isolation)
@@ -50,7 +50,7 @@ false_friend:
 senses:
   informational: 'The ''Single One'': at once the designation of this world''s vowed celibates (near-synonym
     of covenant membership in Aphrahat) and the christological title ''Only-Begotten'' - one root, yhd,
-    ''one'', deliberately heard in both.'
+    ''one'', heard in both. Whether our teachers meant both senses on purpose, they do not say.'
   evidential: Genuinely dual-attested in both primary voices inside the window (Aphrahat's Demonstrations;
     Ephrem's hymns) - unlike the later choir-leadership traditions. The later semantic drift toward 'monk'
     postdates this world.

@@ -29,10 +29,9 @@ retrieval:
 text: >-
   To us Jesus is the Logos - God's own Word, through whom all things
   were made - come in flesh. Clement opens with him as the New Song that
-  makes men out of stones and puts the world back in tune. Athanasius
-  closes the era with the same conviction in one sentence: he was made
-  man that we might be made God. All we hold about him lies between
-  those two sentences. Jesus is God's own self-expression, entering what
+  makes men out of stones and puts the world back in tune. Athanasius,
+  still a young man and writing about 318, put the same conviction in
+  one sentence: he was made man that we might be made God. Jesus is God's own self-expression, entering what
   he made in order to remake it. His death is the doctor entering the
   sickness. His resurrection - the anastasis - is unbreakable life let
   loose in human flesh. And for the people who followed him, it meant
@@ -47,7 +46,7 @@ tensions:
   the world's own century of clarification, held honestly
 - the intellectual register of the surviving sources vs the whole-community faith the sacraments carried
 use_note:
-  means: "This witness presents Jesus as the Logos in flesh, from Clement's New Song to Athanasius's line that he became man so we might become God."
+  means: "This witness presents Jesus as the Logos in flesh, in Clement's New Song and in Athanasius's line that he became man so we might become God."
   not_for:
     - "a claim that pre-Nicene writers spoke with later Nicene precision, when some sound subordinationist"
     - "the whole community's faith, when the surviving sources are intellectual"

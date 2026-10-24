@@ -32,10 +32,10 @@ relations:
 narrative_tier: 3
 narrative_tier_justification: "Tier 3 (attributed tradition), matching pahc.story.martyrdom-of-polycarp: both come from the same letter, framed as Smyrna's own testimony to Philomelium rather than direct documentation, and shaped by the same hagiographic and martyrological convention throughout. This specific passage carries a real, disclosed nuance (see divergence_note) - its unflattering content is one argument scholars use for treating it as an early, unedited layer - but that argument bears on textual layering, not on the passage's own genre, so this record keeps the same tier its sibling carries rather than treating internal plausibility as a reason to grade it higher."
 tellable_as: >-
-  Before the letter praises Polycarp's own courage, it names a different man first. He came forward
+  Before the letter tells of Polycarp's flight and arrest, it tells of a different man. He came forward
   for trial on his own. Then he lost his nerve, when he actually saw the beasts.
 text: 'This is how the community at Smyrna told it, in the same letter that honors Polycarp''s own death.
-  Before that letter praises him, it names someone else first. A man named Quintus, a Phrygian who had
+  Before it tells of his flight and arrest, it tells of someone else. A man named Quintus, a Phrygian who had
   lately come from Phrygia, forced himself - and some others with him - to come forward for trial of his
   own will. But when he actually saw the wild beasts, he lost his nerve. After much urging, the proconsul
   persuaded him to swear the oath and offer sacrifice. The community''s own letter draws the lesson plainly,
@@ -54,7 +54,7 @@ modern_contrast: >-
   names a man who sought the danger out and failed. It says plainly that seeking danger out was
   never the example to follow.
 use_note:
-  means: "Before praising Polycarp's courage, the letter names Quintus, who came forward for trial on his own and lost his nerve at the sight of the beasts."
+  means: "Before it tells of Polycarp's flight and arrest, the letter tells of Quintus, who came forward for trial on his own and lost his nerve at the sight of the beasts."
   not_for:
     - "a call to imitate all-out courage"
     - "seeking danger out as the example to follow"

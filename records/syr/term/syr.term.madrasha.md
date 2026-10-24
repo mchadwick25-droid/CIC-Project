@@ -45,7 +45,7 @@ false_friend:
 - madrasa (the later Islamic school - an unrelated word-echo)
 senses:
   informational: The stanzaic teaching hymn with refrain - Ephrem's dominant vehicle for theological argument,
-    performed by choirs (including the daughters of the covenant), often acrostic, meant to be sung rather
+    performed by choirs (later accounts name the daughters of the covenant), often acrostic, meant to be sung rather
     than read.
   evidential: 'The genre was not Ephrem''s invention: Bardaisan''s circle had already made sung, stanzaic
     verse the register of popular theology in Edessa, and the church historians record Ephrem deliberately

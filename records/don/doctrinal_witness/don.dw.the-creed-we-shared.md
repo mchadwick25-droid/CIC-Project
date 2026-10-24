@@ -69,9 +69,8 @@ text: >-
   Father, yet did not deny that he shared the Father's substance. He wrote
   that this was never the question in dispute,
   and that we ourselves denied being heretics. Two churches stood in
-  many African towns, reciting the same faith at each other. There was
-  no doctrinal difference to point at, only the question of who had the
-  right to say the words at all.
+  many African towns. The creed was not what the two churches fought over, only the
+  question of who had the right to say the words at all.
 
 
   Nobody among us wrote down, for or against, whether he died to take our punishment, in our place, for our sins. Our whole surviving

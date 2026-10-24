@@ -34,18 +34,19 @@ text: >-
   mother was so broken at her daughter's funeral that she fainted in the
   procession. The scholar wrote her a letter, an epistula, the form our
   teaching traveled in. It pardons a mother's tears. It also asks her to
-  hold her grief in check, and it argues her toward hope. We did not
+  hold her grief in check, and it argues her toward hope. Another passage
+  calls her tears without limit unbelieving. We did not
   write a defense of doubters. What we wrote were answers to
   questioners, and comfort to the grieving, and we kept both.
 positions:
 - rigorous questioning of teachers was honored practice, not sin
-- grief that staggered faith was met with accompaniment and argument toward hope, not
-  condemnation
+- grief that staggered faith was met with comfort and argument toward hope
+- grief without limit was rebuked as unbelief
 tensions:
 - the record preserves the questions of the learned and the grief of the bereaved; the
   quieter unbelief of ordinary people, if it was there, left no trace
 use_note:
-  means: "This witness holds that hard questioning of teachers, like Marcella's, was honored, and that grief shaking faith was met with consolation, not condemnation."
+  means: "This witness holds that hard questioning of teachers, like Marcella's, was honored, and that grief shaking faith was met with consolation, while grief without limit was rebuked as unbelief."
   not_for:
     - "a claim that this world wrote any defence of unbelieving doubt"
     - "a claim about the doubts of ordinary people, which left no trace"

@@ -14,9 +14,9 @@ confidence:
   formation_confidence: Documented
   divergence_note: null
 sources:
-- source_id: rzg.source.zwingli-sixty-seven-articles
-  locus: Article XVIII's own wider polemic, this world's own founding refusal of image veneration and
-    cultic memory
+- source_id: rzg.source.second-helvetic-confession
+  locus: 'Chap. IV, Of Idols, Images of God and of Saints, and Chap. V: "we neither adore nor invoke the
+    departed saints"'
   license: public-domain
 relations:
 - type: associated-with

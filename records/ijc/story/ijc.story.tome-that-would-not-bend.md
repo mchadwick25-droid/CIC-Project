@@ -23,6 +23,9 @@ sources:
 - source_id: ijc.source.chalcedon-acts
   locus: Session II extract (the acclamation, npnf214 line 20000); Canon XXVIII (22215)
   license: public-domain
+- source_id: ijc.force.chalcedon-failed-consensus
+  locus: Egypt's rejection of the definition (known through standard scholarship, not witnessed in the vendored extracts)
+  license: public-domain
 retrieval:
   tier: 1
   retrieve_when:
@@ -53,7 +56,7 @@ text: >-
   granted privileges to old Rome as the royal city, and the new royal city
   should be honored the same way. Leo's representatives objected in the
   council itself. Leo, when word reached him, refused to accept it. He wrote to the emperor, the empress and the bishop. To the emperor he gave his reason: things secular stand on a different basis from things divine. Constantinople was a royal city, he said, but it could never be an apostolic see. So
-  the council that finally settled who Christ is left open the question it
+  the council that defined who Christ is left open the question it
   could not settle: where, on earth, the church's own final authority sits.
   Our record ends with both claims still held, unreconciled.
 telling: "Leo did not go to Chalcedon. His legates went in his place, and his letter, the Tome, was read to the assembled bishops. The session record has them crying out, \"This is the faith of the fathers,\" and then, \"Peter has spoken so through Leo.\"\n\nNot every bishop was satisfied. The Tome was questioned in session and compared with the teaching of Cyril.\n\nThree weeks later, the same council did something else. It gave Constantinople equal privileges with old Rome and a rank just after her. It also gave Constantinople the right to ordain the chief bishops of three regions.\n\nNo apostle had taught there, and the canon gave a different reason. Earlier bishops had rightly granted privileges to old Rome as the royal city, and the new royal city should be honored the same way.\n\nLeo's legates objected in the council itself. When word reached Leo, he refused to accept the canon and wrote to the emperor, the empress and the bishop of Constantinople. To the emperor he wrote that \"things secular stand on a different basis from things divine.\" Constantinople was a royal city, he said, but it could never be an apostolic see."
@@ -65,12 +68,12 @@ absent_detail: The Tome's reception was not unanimous joy - it was questioned in
 modern_contrast: >-
   A modern reader may expect a 'great church council' to close in tidy agreement once it has spoken
   - one verdict, universally received. This world's own record holds two separate contests apart:
-  Chalcedon settled who Christ is, decisively, in the same session that granted Constantinople
-  contested rank on different grounds Rome's own legates rejected. The doctrinal question closes;
-  the authority question does not - and this record's own ending states both facts rather than
-  smoothing the second into the first's success.
+  Chalcedon defined who Christ is, though Egypt rejected the definition at once. At the same council,
+  later, it granted Constantinople contested rank on grounds Rome's own legates rejected.
+  The definition was not universally received, and the authority question stayed open - this
+  record's own ending states both facts rather than smoothing either into success.
 use_note:
-  means: "At Chalcedon in 451 Leo's Tome was received and settled who Christ is, while Canon 28, which Rome rejected, left the authority question open."
+  means: "At Chalcedon in 451 Leo's Tome was received and the council defined who Christ is, while Canon 28, which Rome rejected, left the authority question open."
   not_for:
     - "a claim that the council closed in tidy, universally received agreement"
     - "a claim that the Tome and Canon 28 were passed in the same session"

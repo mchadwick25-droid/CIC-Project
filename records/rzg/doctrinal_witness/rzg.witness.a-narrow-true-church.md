@@ -15,7 +15,10 @@ confidence:
   divergence_note: null
 sources:
 - source_id: rzg.source.zwingli-sixty-seven-articles
-  locus: Article XVIII's own wider polemic
+  locus: Article XVIII on the Mass as remembrance, not sacrifice
+  license: public-domain
+- source_id: rzg.source.second-helvetic-confession
+  locus: 'Chap. IV, Of Idols, Images of God and of Saints: God "can not be represented by any image"'
   license: public-domain
 retrieval:
   tier: 2

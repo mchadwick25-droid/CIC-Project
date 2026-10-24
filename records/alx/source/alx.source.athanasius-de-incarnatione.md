@@ -14,7 +14,7 @@ confidence:
   divergence_note: null
 sources: []
 author: "Athanasius of Alexandria (c. 296-373 CE)"
-work: "De Incarnatione Verbi Dei (On the Incarnation of the Word)"
+work: "De Incarnatione Verbi Dei (On the Incarnation of the Word), composed in or shortly before 318 CE (the date usually adopted, per the NPNF editor)"
 edition: "trans. Archibald Robertson, NPNF series 2 vol. 4 (1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml"
 citation: Athanasius of Alexandria, De Incarnatione Verbi Dei (On the Incarnation of the Word), trans. Archibald Robertson, Nicene and Post-Nicene Fathers ser. 2 vol. 4 (1892)
 kind: vendored
