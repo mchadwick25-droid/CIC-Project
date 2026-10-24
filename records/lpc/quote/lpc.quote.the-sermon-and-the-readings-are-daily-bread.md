@@ -40,7 +40,7 @@ claim_guards:
 - '''Far from home'' needs the frame that heaven is home; the passage does not state it, and the speaker
   must supply it as the sense of the Latin peregrinatio without adding detail.'
 - The sermon is to the Competentes on the Lord's Prayer, not a sermon on the Creed, and the passage does
-  not say how often hymns were sung or readings read.
+  not say how often hymns were sung.
 relations:
 - type: associated-with
   target: lpc.gravity.preaching-and-catechesis

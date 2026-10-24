@@ -29,10 +29,10 @@ retrieval:
   - participant asks why one hearer believes and another scorns -- lpc.quote.two-hear-one-scorns-one-rises
     gives that
 claim_guards:
-- 'The passage needs its lead-in: in the lines before it (PL 38 lines 26340-26351, from fit enim voluntas
+- 'The passage needs its lead-in: in the lines before it (PL 38 lines 26340-26351, from Fiet enim voluntas
   Dei in te, etsi non fit a te), ''in you'' is God''s will done in everyone, saved or lost, and ''by you''
-  is willing it yourself. Without that lead-in, ''He does in you what is not done by you'' can be heard
-  as compulsion, and the speaker must supply it.'
+  is God''s will done by you as well. Without that lead-in, ''He does in you what is not done by you''
+  can be heard as compulsion, and the speaker must supply it.'
 - The sermon is to the Competentes, the people preparing for baptism, on the Lord's Prayer. It is not
   an argument with Pelagians and must not be read as a reply to them.
 - The opening question is Augustine's own, put to the Competentes, not an objection raised by a hearer.
@@ -45,10 +45,10 @@ text: Why do I say then, “Thy will be done in heaven and in earth,” and do n
   thee; but never is anything done by thee, if He do it not in thee.
 speaker_or_author: lpc.figure.augustine
 license: verbatim
-modern_lens_note: 'A modern listener may hear ''He doeth in thee what is not done by thee'' as God forcing
-  a person. Augustine is explaining the petition ''Thy will be done in heaven and in earth'': ''by you''
-  is what you will yourself, and ''in you'' is God''s will done in a person. Nothing is done by the one
-  who prays that God does not also do in him.'
+modern_lens_note: A modern listener may hear 'He doeth in thee what is not done by thee' as God forcing
+  a person. Augustine is explaining the petition 'Thy will be done in heaven and in earth'. God's will
+  is done 'in you' whether you will it or not; it is done 'by you' when you do it as well. Nothing is
+  done by the one who prays that God does not also do in him.
 modern_rendering: Why then do I say, “Your will be done in heaven and on earth,” and not, “Your will be
   done by heaven and earth”? Because what is done by you, He Himself does in you. Nothing is ever done
   by you that He Himself does not do in you. Sometimes, indeed, He does in you what is not done by you.

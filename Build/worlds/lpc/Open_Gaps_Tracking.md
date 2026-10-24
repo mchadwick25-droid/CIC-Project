@@ -1872,3 +1872,14 @@ Logged 2026-10-24.
 - **Correction.** Every site now says the crossing came in the late 420s, that the one chronicle held enters it under 427, and that the siege began in 430. The record cites both loci. This closes the Vandal-date item in OG-64. The modern date 429 rests on evidence this build has not vendored; if it is vendored later, the date can be given with it.
 - **Review.** Checked in the sermon batch 2 review.
 - **Owner.** The `lpc` build thread.
+
+### OG-67. OG-66's account of the Vandal crossing evidence was wrong; fallback wording in place (2026-10-24).
+
+Logged 2026-10-24.
+
+- **What OG-66 got wrong.** Two of its statements are untrue: "No vendored source gives 429 for the crossing" and "The modern date 429 rests on evidence this build has not vendored". Hydatius's chronicle gives May 429: entry 90, year V of Theodosius, Mommsen's margin 429 (`cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt`, lines 1641 to 1645). The Gallic Chronicle of 452, in the Prosper file the force record already cites, enters the crossing (entry 108) under a later year (`cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt`, lines 71067 to 71071). Weiskotten's notes to Possidius give 428 (`cic/texts/possidius_vita-augustini_weiskotten1919.txt`, lines 465, 5364 and 5845). OG-66 also said every site had been changed; Doc_01's Ending point (line 27) still gave 429.
+- **Correction.** The fallback wording is in place. The force record `lpc.force.vandal-invasion-siege-of-hippo`, `wb_lpc_s25.py` and Doc_08 Force 3A-1 now read: "The Vandals crossed from Spain into Africa in the late 420s; the chronicles disagree on the year, and Prosper's enters the crossing under 427." "The one chronicle we hold" is gone from every site. Doc_01 line 27 now reads "crossing from Spain in the late 420s, besieging Hippo in 430 as Augustine lay dying". The siege stays in 430 on the Possidius locus. "Late 420s" is no wider than the evidence: 427, 428 and 429 all sit inside it.
+- **Why not 429 now.** Hydatius's chronicle is not placed in this world's corpus map, and Process V2.0 bars a Registry row from resting on a work not placed for this world.
+- **Open: Library request.** A request is open to place Hydatius entry 90 for this world (`Build/worlds/_cross-world/NEEDS-RULING.md`, Placement questions). Once it is placed, add the Registry row and source record, and the force record can say "May 429, by Hydatius's count; Prosper enters it under 427".
+- **Review.** Found in the sermon batch 2 review (`Review-Artifacts/Sermon_Quotes_Batch2_Review_2026-10-24.md`, B-1 and B-2).
+- **Owner.** The `lpc` build thread, with the Library for the placement.

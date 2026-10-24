@@ -2115,8 +2115,8 @@ def build_sermon_quotes() -> None:
         "lpc.figure.augustine",
         "verbatim",
         "A modern listener may hear 'learnt' as schoolwork. The Latin, accepistis, is 'you "
-        "received', and Augustine uses it of what the candidates were given. He answers a "
-        "question about order: they received the Creed first, so that they would know what to "
+        "received', and Augustine uses it of what the candidates were given. He explains the "
+        "order: they received the Creed first, so that they would know what to "
         "believe, and the Lord's Prayer after it, so that they would know whom to call on. "
         "'Has respect to' means 'belongs to'.",
         "He said, “How will they call on Him in whom they have not believed?” That is why you "
@@ -2148,9 +2148,9 @@ def build_sermon_quotes() -> None:
          "speaker must name him in conversation, since the sentence that names him is left out.",
          "The sermon is on the Lord's Prayer, spoken to the Competentes, the people preparing "
          "for baptism. It is not a sermon on the Creed itself and must not be presented as one.",
-         "The passage uses 'received' for the Creed and the Prayer; it does not describe a "
-         "formal handing-over ceremony, and none may be supplied unless the sermon itself "
-         "gives it."],
+         "The modern rendering uses 'received' (accepistis) for the Creed and the Prayer; it "
+         "does not describe a formal handing-over ceremony, and none may be supplied unless "
+         "the sermon itself gives it."],
         "Augustine, Sermon 6 in the NPNF numbering (56 in the Maurist numbering), section 1. "
         "English in the NPNF translation at "
         "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines "
@@ -2160,7 +2160,8 @@ def build_sermon_quotes() -> None:
         "in a note at line 10641, outside the passage. The same order of Creed first and "
         "Prayer after is repeated in NPNF 7 section 1, NPNF 8 section 1 and NPNF 9 section 1. "
         "In the Latin, accepistis is 'you received' and is the rite's own word, paired with "
-        "'give back'; pertinet ad is 'belongs to'; exauditur is 'is heard and answered'. A "
+        "'give back' (the pair is used openly in Sermon 58, PL 38 line 27711, reddituri "
+        "estis, non Orationem, sed Symbolum); pertinet ad is 'belongs to'; exauditur is 'is heard and answered'. A "
         "page-foot note block (PL 38 lines 26192-26197) falls inside the Latin range between "
         "invo- and caretis, and the passage starts with the last word of line 26187, Quia. The "
         "scripture reference before the passage reads 'Rom. x, 13-13' in the OCR, probably "
@@ -2176,8 +2177,8 @@ def build_sermon_quotes() -> None:
         "sort the daily clothing of thy soul.",
         "lpc.figure.augustine",
         "verbatim",
-        "A modern listener may hear 'professest' as a claim of skill. The Latin, confiteris, "
-        "is what the hearer declares openly, here the Creed. Augustine tells the candidate to "
+        "A modern listener may not know 'professest'. The Latin, confiteris, is to declare "
+        "openly; here what the hearer declares is the Creed. Augustine tells the candidate to "
         "look at the Creed as a mirror, to check whether he believes all that he declares, and "
         "to treat it as his wealth and daily clothing. 'Soul' is NPNF's word; the Latin here "
         "says 'mind'.",
@@ -2204,7 +2205,7 @@ def build_sermon_quotes() -> None:
         ["participant asks how a candidate for baptism was told to keep the Creed after "
          "learning it",
          "participant asks what Augustine meant by the Creed as a mirror",
-         "participant asks how daily faith was kept up outside church"],
+         "participant asks how a believer was told to keep up faith day by day"],
         ["participant asks why the Creed came before the Lord's Prayer -- "
          "lpc.quote.the-creed-first-then-the-prayer gives that"],
         ["The sermon is on the Lord's Prayer, spoken to the Competentes, the people preparing "
@@ -2272,7 +2273,7 @@ def build_sermon_quotes() -> None:
          "and the speaker must supply it as the sense of the Latin peregrinatio without adding "
          "detail.",
          "The sermon is to the Competentes on the Lord's Prayer, not a sermon on the Creed, "
-         "and the passage does not say how often hymns were sung or readings read."],
+         "and the passage does not say how often hymns were sung."],
         "Augustine, Sermon 7 in the NPNF numbering (57 in the Maurist numbering), section 7. "
         "English in the NPNF translation at "
         "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 10894. "
@@ -2300,8 +2301,8 @@ def build_sermon_quotes() -> None:
         "A modern listener may hear 'wonderful' as delightful and 'True Master' as an owner. "
         "The Latin, Mirum, is 'strange', and Augustine is puzzled, not pleased; veraci "
         "Magistro is the truthful Teacher. When Christ crucified is preached, two hear, one "
-        "scorns and one rises. The one who rises is not to claim it, since belief is given by "
-        "the Father.",
+        "scorns and one rises. The one who rises is not to claim it, since no one comes to "
+        "Christ unless it is given him by the Father.",
         "But it is a strange thing. When Christ crucified is preached, two people hear. One "
         "scorns it, and the other rises. Let the one who scorns blame himself. Let the one who "
         "rises not claim it for himself. For he has heard the truthful Teacher say, “No one "
@@ -2361,8 +2362,8 @@ def build_sermon_quotes() -> None:
         "verbatim",
         "A modern listener may hear 'He doeth in thee what is not done by thee' as God forcing "
         "a person. Augustine is explaining the petition 'Thy will be done in heaven and in "
-        "earth': 'by you' is what you will yourself, and 'in you' is God's will done in a "
-        "person. Nothing is done by the one who prays that God does not also do in him.",
+        "earth'. God's will is done 'in you' whether you will it or not; it is done 'by you' "
+        "when you do it as well. Nothing is done by the one who prays that God does not also do in him.",
         "Why then do I say, “Your will be done in heaven and on earth,” and not, “Your will be "
         "done by heaven and earth”? Because what is done by you, He Himself does in you. "
         "Nothing is ever done by you that He Himself does not do in you. Sometimes, indeed, He "
@@ -2383,8 +2384,8 @@ def build_sermon_quotes() -> None:
         ["participant asks why one hearer believes and another scorns -- "
          "lpc.quote.two-hear-one-scorns-one-rises gives that"],
         ["The passage needs its lead-in: in the lines before it (PL 38 lines 26340-26351, from "
-         "fit enim voluntas Dei in te, etsi non fit a te), 'in you' is God's will done in "
-         "everyone, saved or lost, and 'by you' is willing it yourself. Without that lead-in, "
+         "Fiet enim voluntas Dei in te, etsi non fit a te), 'in you' is God's will done in "
+         "everyone, saved or lost, and 'by you' is God's will done by you as well. Without that lead-in, "
          "'He does in you what is not done by you' can be heard as compulsion, and the speaker "
          "must supply it.",
          "The sermon is to the Competentes, the people preparing for baptism, on the Lord's "
@@ -2428,8 +2429,8 @@ def build_sermon_quotes() -> None:
              "The text field is the NPNF English as printed. modern_rendering follows the "
              "Latin of PL 38 where the English misleads or shifts: 'Finally' renders Denique, "
              "'Indeed'; 'shed abroad' renders diffusa est, 'poured out'; 'love Himself in "
-             "thee' renders amet se de te, 'love Himself through you', since de te makes the "
-             "believer the source through which God's love returns to Him; and 'enkindle, "
+             "thee' renders amet se de te, literally 'love Himself from you', rendered "
+             "'through you'; and 'enkindle, "
              "enlighten, arouse' renders accendat, illuminet, excitet, 'kindle, give light, "
              "stir up'. The purpose clause is moved after the two quotations so each sentence "
              "holds one thought."),
@@ -2451,7 +2452,7 @@ def build_sermon_quotes() -> None:
         ["'He' is Paul (Rom. v. 5), named neither in the passage nor in the Latin sentence; "
          "the speaker must name him in conversation.",
          "The passage does not name the Pelagians and must not be read as a reply to them; the "
-         "sermon is on Galatians v. 16-17, the flesh against the Spirit.",
+         "sermon is on John v. 31 and Galatians v. 16-17 (the flesh against the Spirit).",
          "The passage is one argument about where the love of God comes from and does not set "
          "out a whole doctrine of grace."],
         "Augustine, Sermon 78 in the NPNF numbering (128 in the Maurist numbering), section 4. "

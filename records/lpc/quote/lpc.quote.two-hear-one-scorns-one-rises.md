@@ -52,7 +52,7 @@ license: verbatim
 modern_lens_note: A modern listener may hear 'wonderful' as delightful and 'True Master' as an owner.
   The Latin, Mirum, is 'strange', and Augustine is puzzled, not pleased; veraci Magistro is the truthful
   Teacher. When Christ crucified is preached, two hear, one scorns and one rises. The one who rises is
-  not to claim it, since belief is given by the Father.
+  not to claim it, since no one comes to Christ unless it is given him by the Father.
 modern_rendering: But it is a strange thing. When Christ crucified is preached, two people hear. One scorns
   it, and the other rises. Let the one who scorns blame himself. Let the one who rises not claim it for
   himself. For he has heard the truthful Teacher say, “No one comes to Me unless it is given to him by

@@ -14,10 +14,10 @@ confidence:
   formation_confidence: Documented
   divergence_note: 'The text field is the NPNF English as printed. modern_rendering follows the Latin
     of PL 38 where the English misleads or shifts: ''Finally'' renders Denique, ''Indeed''; ''shed abroad''
-    renders diffusa est, ''poured out''; ''love Himself in thee'' renders amet se de te, ''love Himself
-    through you'', since de te makes the believer the source through which God''s love returns to Him;
-    and ''enkindle, enlighten, arouse'' renders accendat, illuminet, excitet, ''kindle, give light, stir
-    up''. The purpose clause is moved after the two quotations so each sentence holds one thought.'
+    renders diffusa est, ''poured out''; ''love Himself in thee'' renders amet se de te, literally ''love
+    Himself from you'', rendered ''through you''; and ''enkindle, enlighten, arouse'' renders accendat,
+    illuminet, excitet, ''kindle, give light, stir up''. The purpose clause is moved after the two quotations
+    so each sentence holds one thought.'
 sources:
 - source_id: lpc.source.augustine-sermons-on-selected-lessons
   locus: Sermon 78 (NPNF numbering; Maurist 128), section 4; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml,
@@ -36,8 +36,8 @@ retrieval:
 claim_guards:
 - '''He'' is Paul (Rom. v. 5), named neither in the passage nor in the Latin sentence; the speaker must
   name him in conversation.'
-- The passage does not name the Pelagians and must not be read as a reply to them; the sermon is on Galatians
-  v. 16-17, the flesh against the Spirit.
+- The passage does not name the Pelagians and must not be read as a reply to them; the sermon is on John
+  v. 31 and Galatians v. 16-17 (the flesh against the Spirit).
 - The passage is one argument about where the love of God comes from and does not set out a whole doctrine
   of grace.
 relations:

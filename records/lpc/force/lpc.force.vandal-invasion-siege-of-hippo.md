@@ -31,11 +31,11 @@ relations:
   target: lpc.force.corpus-outliving-the-world
 name: The Vandal Invasion and the Siege of Hippo (430)
 kind: ending
-description: 'The Vandals crossed from Spain into Africa in the late 420s; the one chronicle we hold enters
-  the crossing under 427. In 430 they besieged Hippo. Augustine fell ill in the third month of the siege,
-  and he died on 28 August 430 -- a date a near-contemporary Gallic chronicler independently records.
-  This is documented. The same chronicle records the Vandal capture of Carthage under 439, a different
-  city, nine years later, and no part of where this world ends.
+description: 'The Vandals crossed from Spain into Africa in the late 420s; the chronicles disagree on
+  the year, and Prosper''s enters the crossing under 427. In 430 they besieged Hippo. Augustine fell ill
+  in the third month of the siege, and he died on 28 August 430 -- a date a near-contemporary Gallic chronicler
+  independently records. This is documented. The same chronicle records the Vandal capture of Carthage
+  under 439, a different city, nine years later, and no part of where this world ends.
 
 
   This was an army on the road while the bishop lay dying inside the walls, with the people he answered

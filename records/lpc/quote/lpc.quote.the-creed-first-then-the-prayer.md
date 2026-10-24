@@ -36,8 +36,8 @@ claim_guards:
   him in conversation, since the sentence that names him is left out.
 - The sermon is on the Lord's Prayer, spoken to the Competentes, the people preparing for baptism. It
   is not a sermon on the Creed itself and must not be presented as one.
-- The passage uses 'received' for the Creed and the Prayer; it does not describe a formal handing-over
-  ceremony, and none may be supplied unless the sermon itself gives it.
+- The modern rendering uses 'received' (accepistis) for the Creed and the Prayer; it does not describe
+  a formal handing-over ceremony, and none may be supplied unless the sermon itself gives it.
 relations:
 - type: associated-with
   target: lpc.gravity.preaching-and-catechesis
@@ -48,13 +48,13 @@ text: Because then he said, “how shall they call upon Him in whom they have no
 speaker_or_author: lpc.figure.augustine
 license: verbatim
 modern_lens_note: 'A modern listener may hear ''learnt'' as schoolwork. The Latin, accepistis, is ''you
-  received'', and Augustine uses it of what the candidates were given. He answers a question about order:
-  they received the Creed first, so that they would know what to believe, and the Lord''s Prayer after
-  it, so that they would know whom to call on. ''Has respect to'' means ''belongs to''.'
+  received'', and Augustine uses it of what the candidates were given. He explains the order: they received
+  the Creed first, so that they would know what to believe, and the Lord''s Prayer after it, so that they
+  would know whom to call on. ''Has respect to'' means ''belongs to''.'
 modern_rendering: He said, “How will they call on Him in whom they have not believed?” That is why you
   did not receive the Lord’s Prayer first and the Creed after it. You received the Creed first, so that
   in it you would know what to believe. Then you received the Prayer, so that in it you would know whom
   to call on. So the Creed belongs to faith, and the Lord’s Prayer to prayer. For it is the one who believes
   who is heard when he calls.
 ---
-Augustine, Sermon 6 in the NPNF numbering (56 in the Maurist numbering), section 1. English in the NPNF translation at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 10642-10643. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 26187-26199 (OCR text; the sermon starts at line 26159). The sentence before the passage, at line 10642, quotes Romans x. 14-15 in full; the Romans x. 13 reference is in a note at line 10641, outside the passage. The same order of Creed first and Prayer after is repeated in NPNF 7 section 1, NPNF 8 section 1 and NPNF 9 section 1. In the Latin, accepistis is 'you received' and is the rite's own word, paired with 'give back'; pertinet ad is 'belongs to'; exauditur is 'is heard and answered'. A page-foot note block (PL 38 lines 26192-26197) falls inside the Latin range between invo- and caretis, and the passage starts with the last word of line 26187, Quia. The scripture reference before the passage reads 'Rom. x, 13-13' in the OCR, probably 13-15. The sermon carries the gravity lpc.gravity.preaching-and-catechesis in its catechetical form.
+Augustine, Sermon 6 in the NPNF numbering (56 in the Maurist numbering), section 1. English in the NPNF translation at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 10642-10643. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 26187-26199 (OCR text; the sermon starts at line 26159). The sentence before the passage, at line 10642, quotes Romans x. 14-15 in full; the Romans x. 13 reference is in a note at line 10641, outside the passage. The same order of Creed first and Prayer after is repeated in NPNF 7 section 1, NPNF 8 section 1 and NPNF 9 section 1. In the Latin, accepistis is 'you received' and is the rite's own word, paired with 'give back' (the pair is used openly in Sermon 58, PL 38 line 27711, reddituri estis, non Orationem, sed Symbolum); pertinet ad is 'belongs to'; exauditur is 'is heard and answered'. A page-foot note block (PL 38 lines 26192-26197) falls inside the Latin range between invo- and caretis, and the passage starts with the last word of line 26187, Quia. The scripture reference before the passage reads 'Rom. x, 13-13' in the OCR, probably 13-15. The sermon carries the gravity lpc.gravity.preaching-and-catechesis in its catechetical form.

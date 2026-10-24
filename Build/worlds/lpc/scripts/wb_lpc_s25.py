@@ -1576,8 +1576,8 @@ def build_forces() -> None:
     emit_force(
         F3A1, "The Vandal Invasion and the Siege of Hippo (430)",
         "ending", "3A",
-        "The Vandals crossed from Spain into Africa in the late 420s; the one chronicle we hold "
-        "enters the crossing under 427. In 430 they besieged Hippo. Augustine fell ill in the "
+        "The Vandals crossed from Spain into Africa in the late 420s; the chronicles disagree on "
+        "the year, and Prosper's enters the crossing under 427. In 430 they besieged Hippo. Augustine fell ill in the "
         "third month of the siege, and he died on 28 August 430 -- a date a near-contemporary Gallic "
         "chronicler independently records. This is documented. The same chronicle records the "
         "Vandal capture of Carthage under 439, a different city, nine years later, and no part of "

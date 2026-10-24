@@ -28,7 +28,7 @@ retrieval:
   retrieve_when:
   - participant asks how a candidate for baptism was told to keep the Creed after learning it
   - participant asks what Augustine meant by the Creed as a mirror
-  - participant asks how daily faith was kept up outside church
+  - participant asks how a believer was told to keep up faith day by day
   prefer_instead:
   - participant asks why the Creed came before the Lord's Prayer -- lpc.quote.the-creed-first-then-the-prayer
     gives that
@@ -47,10 +47,10 @@ text: Call thy faith to mind, look into thyself, let thy Creed be as it were a m
   in thy faith. Let it be thy wealth, let it be in a sort the daily clothing of thy soul.
 speaker_or_author: lpc.figure.augustine
 license: verbatim
-modern_lens_note: A modern listener may hear 'professest' as a claim of skill. The Latin, confiteris,
-  is what the hearer declares openly, here the Creed. Augustine tells the candidate to look at the Creed
-  as a mirror, to check whether he believes all that he declares, and to treat it as his wealth and daily
-  clothing. 'Soul' is NPNF's word; the Latin here says 'mind'.
+modern_lens_note: A modern listener may not know 'professest'. The Latin, confiteris, is to declare openly;
+  here what the hearer declares is the Creed. Augustine tells the candidate to look at the Creed as a
+  mirror, to check whether he believes all that he declares, and to treat it as his wealth and daily clothing.
+  'Soul' is NPNF's word; the Latin here says 'mind'.
 modern_rendering: Call your faith to mind. Look into yourself. Let your Creed be like a mirror to you.
   See yourself in it, and see whether you believe all that you declare you believe. And rejoice in your
   faith every day. Let it be your wealth. Let it be, in a way, the daily clothing of your mind.
