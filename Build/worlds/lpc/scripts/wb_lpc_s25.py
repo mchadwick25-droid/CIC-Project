@@ -575,7 +575,7 @@ def build_gravities() -> None:
         "Every force linked to this concern tested it rather than created it. The organized church "
         "at Carthage gave it colleagues who could meet and who already disagreed. The Donatist "
         "schism tested it at its hardest edge. Augustine's reading of Cyprian's council acts "
-        "tested it across the century gap. It held each time. It is this world's own way of "
+        "tested it across the century gap. This world's own bishops kept it each time. It is this world's own way of "
         "adapting, tested three times from three directions.",
         [
             "Cyprian's preface to the Council of 256: \"neither does any of us set himself up as "

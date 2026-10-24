@@ -9,7 +9,7 @@ Tier:               2
 
 Tags:               SC, RT
 
-Aliases:            preaching, the sermon, the homily, the weekly address
+Aliases:            preaching, the sermon, the homily, the regular address
 
 Related-Terms:      the flock, communion, grace, catechesis, the people
 
@@ -36,7 +36,7 @@ He says so, too. *I am not speaking to hearts that are deaf, and to minds that w
 
 ## Ecological Function
 
-Preaching is the medium, not itself an organizing force: it is how the flock's answerability, the discipline's decisions and the grace controversy actually arrive at a believer. Catechesis is its paired term, distinguished by audience. A participant who understands this term understands that this world's formation is delivered by voice, weekly, in person, by the same man who administers everything else.
+Preaching is the medium, not itself an organizing force: it is how the flock's answerability, the discipline's decisions and the grace controversy actually arrive at a believer. Catechesis is its paired term, distinguished by audience. A participant who understands this term understands that this world's formation is delivered by voice, again and again, in person, by the same man who administers everything else.
 
 ---
 

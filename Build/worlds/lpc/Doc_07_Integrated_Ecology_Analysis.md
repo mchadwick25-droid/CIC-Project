@@ -43,7 +43,7 @@ Smart's seven dimensions as the fixed spine, asked of every world regardless of 
 
 The rebaptism controversy is a dispute over the valid administration of baptism. The lapsed controversy is a dispute over the rite of penitential reconciliation. Doc_05 §3.1 states the structural consequence plainly and it is the finding this lens exists to surface: **three of the four Primary gravities (G2, G3, G6) *are* disputes about rites, and the fourth (G1) is the office that administers them.** Worship here is not a dimension the gravities act upon; it is where they are contested.
 
-The practical sequence an ordinary member actually moves through is catechesis, then the creed said back, then baptism, then weekly preaching, and — if they fail seriously — a public, graded penitential road and a formal readmission. Two documentary practices sit inside that sequence and are material acts in their own right (§2G): the *libellus* that made a person lapsed, and the confessors' certificate, given to a lapsed person, that asked for peace or said it was granted.
+The practical sequence an ordinary member actually moves through is catechesis, then the creed said back, then baptism, then regular preaching, and — if they fail seriously — a public, graded penitential road and a formal readmission. Two documentary practices sit inside that sequence and are material acts in their own right (§2G): the *libellus* that made a person lapsed, and the confessors' certificate, given to a lapsed person, that asked for peace or said it was granted.
 
 **Gravities most visible:** G2 (the penitential rite), G6 (the baptismal-validity question), G4 (catechesis and preaching as the repeated practice), G1 (the office administering all of it).
 
@@ -159,7 +159,7 @@ The internal rule is **G3**, and it is this world's most characteristic structur
 
 **What this lens reveals for this world:** what a person is actually being formed *into* — a member of a body that can hold them through their own failure.
 
-Every other lens converges here, and each converges on the same shape: a rite that ends in restoration (§2A), a pastor who will not stand apart from those who failed (§2B), a refusal of any single decisive test (§2D), a graded road back rather than a verdict (§2E), one named man answerable for these particular people (§2F), and a boundary that disagreement does not breach (§2H).
+Every other lens converges here, and each converges on the same shape: a rite that ends in restoration (§2A), a pastor who will not stand apart from those who failed (§2B), a refusal of any single decisive test (§2D), a graded road back rather than a verdict (§2E), one named man answerable for these particular people (§2F), and a boundary that disagreement among bishops in communion does not breach (§2H).
 
 **Doc_01 §1 names this formation logic as "pastoral and sacramental before it is juridical," and the lens work above confirms it and adds a second axis alongside it** (§2E, which expressly does not claim to sharpen Doc_01's own boundary argument). The formation logic is not the absence of law but the subordination of law to the recovery of the particular person the law is about.
 

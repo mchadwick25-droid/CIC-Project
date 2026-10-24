@@ -32,7 +32,7 @@ A bishop here is not an officer of a wider institution who happens to be posted 
 
 The charge runs in both directions, and that is the part most easily missed. He is answerable **for** them — a portion of the flock is assigned to each pastor, to rule and govern, and he must give account of his doing to the Lord. He is also answerable **to** them, because they are very often the ones who put him there, and they are capable of standing in front of his seat and refusing to disperse until he hears them.
 
-Nothing else about the office makes sense without this. The penitential road back exists because a shepherd does not write off a sheep. The weekly preaching exists because these particular people, and not an audience in general, have to be fed. The questions about who may baptize and who may be received are urgent because they are questions about *these* people's standing, not abstractions. A man who holds this office and has no particular people has not got the office.
+Nothing else about the office makes sense without this. The penitential road back exists because a shepherd does not write off a sheep. The regular preaching exists because these particular people, and not an audience in general, have to be fed. The questions about who may baptize and who may be received are urgent because they are questions about *these* people's standing, not abstractions. A man who holds this office and has no particular people has not got the office.
 
 ---
 

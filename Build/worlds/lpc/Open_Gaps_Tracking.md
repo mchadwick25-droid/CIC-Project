@@ -1854,3 +1854,12 @@ Logged 2026-10-24.
 - **Phase 5 boundary-testing transcripts.** `Representative/` Phase 5 transcripts keep the Datus wording from before CO-LPC-3 (lines 104, 122, 136). They are a test record and were left as run; the next validation run tests the corrected voice.
 - **Lucian's condition.** Lucian's reply grants peace on condition that "the case being set forth before the bishop, and confession being made" (`anf05` lines 30731 to 30735). No record says so yet; it bears on the confessor-authority claim guard.
 - **Owner.** The `lpc` build thread.
+
+### OG-65. CO-LPC-3 closed: spoken fields checked against their sources (2026-10-24).
+
+Logged 2026-10-24.
+
+- **Closed.** All 162 participant-facing fields in `records/lpc/` were read sentence by sentence against their sources (`Spoken_Fidelity_Review_*_2026-10-24.md`). The 46 P1s and the plainly correct P2s are corrected at every site, including the Representative's Permanent Prompt, the World Capsule Core, the World Profile, the chunks and the documents; the generator scripts reproduce the records. Round 3 of the recheck (`CO-LPC-3_Spoken_Corrections_Recheck_Round3.md`) approved to proceed. Every row of `lpc_Claims_Register.md` is VERIFIED or JUDGEMENT.
+- **P2 carried: date the Constantine witness's sources (R3-1).** Caution 2 now says Augustine's later view is given dated to when he wrote it; the witness does not yet date its sources. *Answer to Petilian* about 400 to 402 (npnf104 lines 10278 to 10279, 10733) and *City of God* begun 413 (npnf102 lines 864 to 865).
+- **Leftovers in construction prose, not voice material:** Doc_05 line 407; `wb_lpc_s2y_canon_cells.py` docstring lines 216 and 311; the retired `wb_lpc_s2z_canon_closure.py` line 541 ("holds the whole of it, not a share"); the City of God source record gives 413 to 427 where the NPNF editor gives 413 to 426.
+- **Owner.** The `lpc` build thread.

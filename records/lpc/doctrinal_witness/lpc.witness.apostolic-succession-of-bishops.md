@@ -45,8 +45,8 @@ retrieval:
   prefer_instead:
   - participant wants catechesis, the road back, or the teaching before the water traced to apostolic
     origin -- those remain genuine absences; this record is the office of bishop itself
-  - participant wants the one-episcopate's own doctrine that each bishop holds the whole office, not a
-    share -- that is Cyprian's own ecclesiology (lpc.term.the-one-episcopate), argued from Matthew 16.18
+  - participant wants the one-episcopate's own doctrine that the episcopate is one, each part of it held
+    by each bishop for the whole -- that is Cyprian's own ecclesiology (lpc.term.the-one-episcopate), argued from Matthew 16.18
     directly, not from a named succession list
 claim_guards: []
 relations:

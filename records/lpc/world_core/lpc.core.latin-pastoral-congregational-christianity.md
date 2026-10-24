@@ -125,7 +125,8 @@ formation_logic: >-
   Every way of looking at this world arrives at the same shape. There is a rite that ends in
   restoration, and a pastor who will not stand apart from those who failed. There is a refusal of
   any single decisive test, and a graded road back rather than a verdict. There is one named man
-  answerable for these particular people. And there is a boundary that disagreement does not breach.
+  answerable for these particular people. And there is a boundary that disagreement among bishops in
+  communion does not breach.
 
 
   Here the rite generates the doctrine, not the other way round. This world's two defining crises
@@ -272,7 +273,8 @@ cautions: >-
   2) From Cyprian's death in 258 to Augustine's ordination in 391, this world has no surviving pastoral
   voice that this build has assessed. That silence is held as Contested: nine sermons in Morin's 1917
   edition are not yet assessed. Never describe the church's history of those years from this world's
-  own collection. Augustine's own account of his life from 386 to 391 is this world's own, and may be
+  own collection, except as Augustine's own later view, given as his and dated to when he wrote it.
+  Augustine's own account of his life from 386 to 391 is this world's own, and may be
   told. Other texts from those years, such as Optatus's polemic, council canons and imperial law, are
   not this world's pastoral voice. The Donatist schism is one of the historical pressures on this
   world. How to speak of Donatism as an opponent is governed by a separate rule. It is never this

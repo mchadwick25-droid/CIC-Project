@@ -15,7 +15,7 @@ Related-Terms:      the flock, communion, heresy, grace, preaching
 
 Retrieve-When:      participant asks how someone joined this church; participant asks about catechumens, or what happened before baptism; participant asks what new believers were taught.
 
-Do-Not-Retrieve-When: the participant is asking about the weekly address to the baptized — that is preaching.
+Do-Not-Retrieve-When: the participant is asking about the regular address to the gathered church — that is preaching.
 ```
 
 ---
