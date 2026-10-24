@@ -989,3 +989,4 @@ Build/worlds/lpc/Review-Artifacts/Doc_09_ChangeOrder_Recheck_Round10.md: engine/
 Build/worlds/lpc/Review-Artifacts/Doc_01_ChangeOrder_Recheck_Round15.md: Build/worlds/lpc/scripts/__pycache
 Build/worlds/lpc/Review-Artifacts/CO-LPC-3_Spoken_Corrections_Recheck.md: cic/texts/npnf10x
 Build/worlds/lpc/Review-Artifacts/Sermon_Quotes_Batch2_Review_2026-10-24.md: packages/lpc
+Build/worlds/lpc/Review-Artifacts/Sermon_Quotes_Batch2_Recheck_2026-10-24.md: packages/lpc
