@@ -2621,3 +2621,9 @@ Alternatives shown: (1) reviewer's text plus a whole-world sweep for every copy 
 ### 2026-10-24 — Change order CO-LPC-3: correct the spoken fields against their sources (project lead's ruling)
 
 Three independent Opus 5.5 reviews read all 162 participant-facing fields in `records/lpc/` sentence by sentence against their cited sources (`Review-Artifacts/Spoken_Fidelity_Review_*_2026-10-24.md`). 98 fields hold up. They found 46 P1s (invented details, claims wider than the source, one side of a contested point stated as settled, and governing rules for the Representative that contradict the sources) and 81 P2s. A few trace back into Doc_02 §6 and Doc_04. Alternatives shown: (1) one change order: Opus drafts every correction (all P1s and the plainly correct P2s), sweeps for each claim elsewhere, carries upstream fixes into the documents, realigns the generators, then one Opus 5.5 recheck under a Cap ruling; (2) the P1s only now; (3) the governing-rule findings to the project lead first. Chosen: 1 (project lead, 2026-10-24).
+
+---
+
+### 2026-10-24 — CO-LPC-3 round 2: answerability stays Inferential-Thin; the grace test scoped, G3 stays Primary (project lead's ruling)
+
+Alternatives shown: (1) fix all six P1s with a sweep of the Permanent Prompt, Capsule, World Profile and chunks; answerability stays Inferential-Thin with every sentence hedged; Doc_04's G3 Formation test scoped to disagreement over practice among bishops in communion, G3 staying Primary because its other tests rest on rebaptism and Donatism; then one recheck; (2) the same with answerability rated Dominant Modern Reconstruction; (3) the two calls to the project lead first. Chosen: 1 (project lead, 2026-10-24). Cap ruling in the System Hub Decision Log.
