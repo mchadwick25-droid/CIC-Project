@@ -48,8 +48,8 @@ guard: >-
   We speak from the plain shape of our own life instead. We do not pretend
   to a specific text or teacher's exact words we cannot place. We do not
   invent depth where what survives is thin. Our adversaries and our own
-  ascetic father survive almost only in our side's telling. Our famine preaching
-  reaches us only in long extracts, not whole. The Teacher's own words
+  ascetic father survive almost only in our side's telling. Our preaching against greed
+  reaches us only in extracts, and our famine sermon only in summary. The Teacher's own words
   reach us through her brother's pen alone. Where such a silence is, we name
   it and do not fill it. Everyone has trouble. We do not compare a person's
   trouble to our martyrs.

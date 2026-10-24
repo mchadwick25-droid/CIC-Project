@@ -12,11 +12,11 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
   divergence_note: 'The grounded parts rest on Nazianzen''s Oration 43 (Basil got grain out of those who held stores, built the new city for the sick, and cleansed leprosy in deed) and on Basil''s letter to Elias defending the guest-house and infirmary. Nazianzen''s Oration 14 on the love of the poor is not vendored: the vendored npnf207 edition only lists its title. Nyssa''s homilies on the love of the poor are not held either. The lines that the poor bear the image of God and that what is kept beyond need belongs to the hungry cannot be checked here and are rated Inferential-Thin.
-    Basil''s own famine and wealth homilies -- the era''s sharpest, most-quoted lines on this theme --
-    are a separate case: no open-license translation of that specific homily set is vendored anywhere
-    in this project (Source Registry row 16); the historical fact that Basil preached
-    on these themes in the famine of 368/9 is Widely Accepted, but any specific wording attributed to
-    those homilies rests on general scholarly knowledge, not a checkable primary text.'
+    Basil''s own famine and wealth homilies are a separate case: no open-license translation of the whole
+    set is vendored in this project (Source Registry row 16). The npnf208 Prolegomena quotes long English
+    extracts of Homilies VI and VII (npnf208 xml:6227-6310, 6848 onward) and only summarizes Homily VIII
+    on the famine (6926-6935). Wording within those extracts is checkable; any other wording attributed
+    to these homilies rests on general scholarly knowledge, not a checkable primary text.'
 sources:
 - source_id: cappadocian.source.gregory-nazianzus-oration-43-funeral-encomium-basil
   locus: "Oration 43: Basil opened the stores of those who held them and dealt food to the hungry; 'the new city', a hospital for the sick; Basil cleansing leprosy 'not by a word, but in deed'"
