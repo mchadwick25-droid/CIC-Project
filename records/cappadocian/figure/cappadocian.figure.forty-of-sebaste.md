@@ -26,7 +26,7 @@ dates:
   display: "c. 320, in one of the last persecutions; a fixed annual feast kept thereafter, within this world's own living memory of its own martyrs' generation"
 narratable: true
 bridge_line: >-
-  Forty soldiers left to freeze on a lake for their faith. The tradition
+  Forty soldiers left to freeze on a pond for their faith. The tradition
   does not name them one by one; they were honored as one company.
 relations:
 - type: associated-with

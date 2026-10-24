@@ -36,7 +36,7 @@ retrieval:
 text: >-
   We did not go looking for it. The martyrs we honored most were soldiers
   condemned in one of the last persecutions, in the eastern provinces. They
-  were left to freeze, stripped, through a winter night on a lake. A warm
+  were left to freeze, stripped, through a winter night on a pond. A warm
   bath waited on the shore for any man who would deny the faith and step out
   of the cold. Tradition holds that one of them broke before the night
   ended. The guard set to watch them, moved by what he saw, took off his own
@@ -55,13 +55,13 @@ positions:
 - martyrdom in this world's own record is framed as refusal under threat, not as death sought for its
   own sake
 tensions:
-- the specific passion details (the lake, the guard's change of heart) are tradition, preached within a
+- the specific passion details (the pond, the guard's change of heart) are tradition, preached within a
   century of the events, not eyewitness reporting - we hold them at that strength, not higher
 use_note:
   means: This witness says martyrdom meant refusing to deny the faith under threat, as the Forty of Sebaste
     did, not seeking death; it also names Eupsychius, whose feast was kept.
   not_for:
-  - the lake and the guard's conversion as eyewitness reporting rather than preached tradition
+  - the pond and the guard's conversion as eyewitness reporting rather than preached tradition
   - the Forty of Sebaste as martyred within this world's own span, when tradition places them before it
   - a claim that this world's members faced routine execution
   years:

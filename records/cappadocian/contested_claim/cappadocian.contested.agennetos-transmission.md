@@ -20,16 +20,13 @@ sources:
 - source_id: cappadocian.source.eunomius-apology-for-the-apology
   locus: "survives only as quoted inside Gregory of Nyssa's own refutation - no independent text exists
     to verify against, per this source's own divergence_note"
-  license: public-domain
 - source_id: cappadocian.source.basil-against-eunomius
-  locus: "the historical fact of the three-book treatise and its general anti-Eunomian argument is
-    Widely Accepted; the treatise's own text is unverified per this source's own
-    divergence_note - citations here rest on the Prolegomena's scholarly summary and the
-    genuinely vendored short letter Epistle XVI, not a checked primary text of the three-book treatise
-    itself"
+  locus: "the treatise is named, not held: it has no vendored file. Its existence and general
+    anti-Eunomian argument are Widely Accepted; the Prolegomena in npnf208 summarizes it"
 - source_id: cappadocian.source.gregory-nyssa-against-eunomius
-  locus: "the continuing refutation, completed after Basil's death - genuinely verified-via-authority
-    per this source's own current confidence block"
+  locus: "the continuing refutation, completed after Basil's death. the Answer to Eunomius' Second Book, in this work, quotes Basil's
+    own words ('we call the Universal Deity imperishable and ungenerate ... and we arrive at these names
+    by Conception'), which carry Basil's side of the argument here"
   license: public-domain
 claim: >-
   Eunomius' agennētos ("unbegotten") argument - that this single word names God's own essence
@@ -39,11 +36,9 @@ held_against:
 - Beyond Eunomius' one intact surviving work, the First Apology, his position reaches this world's own
   record almost entirely through his refuters - the Apology for the Apology survives only as quoted
   inside Gregory of Nyssa's own refutation, with no independent text to check it against
-- Basil's own three-book Against Eunomius, the fight's opening full-scale refutation, does not survive
-  in this build's manifest as an open, checkable edition of the treatise itself - its content is known
-  here through the Prolegomena's scholarly summary and a separately vendored short letter (Epistle
-  XVI), not a verified primary text of the treatise, a correction made during this build's own B-2 pass
-  after an earlier record wrongly claimed the treatise text was verified-via-authority
+- Basil's own three-book Against Eunomius, the fight's opening full-scale refutation, has no vendored
+  file - its content is known here through the Prolegomena's scholarly summary and through the words of
+  Basil that Gregory of Nyssa quotes, not through a checked primary text of the treatise
 - This world's own working summary of Eunomius - "he claims to know God as God knows himself" - is
   itself hostile paraphrase, carried as such by the lexicon entry it is drawn from (Doc_06 entry 16),
   not a statement Eunomius' own surviving Apology makes in those words
@@ -91,10 +86,10 @@ meaning-dispute or a scope-dispute - closer in kind to an Author Gravity flag th
 what a term means or how far its reach extends. This record names that mismatch rather than forcing
 agennētos's own contest type into one of the four labels it does not actually fit.
 
-cappadocian.source.basil-against-eunomius's own vendored file contains only the Prolegomena's scholarly
-summary of the treatise and a distinct short letter, Epistle XVI, not the treatise's own text; this
-record cites it accordingly - the historical fact of the treatise and its argument, Widely Accepted, not
-a checked primary text. cappadocian.source.gregory-
+cappadocian.source.basil-against-eunomius has no vendored file; npnf208's Prolegomena summarizes the
+treatise. This record cites it accordingly - the historical fact of the treatise and its argument,
+Widely Accepted, not a checked primary text. Basil's own words on the names "ungenerate" and
+"imperishable" are carried through Gregory of Nyssa's quotation of them. cappadocian.source.gregory-
 nyssa-against-eunomius, by contrast, genuinely is verified-via-authority per its own current record and
 is cited as such, not downgraded by association. Eunomius' confession of 383 (Doc_02 §1.5: "survives
 independently") is named here for completeness but not carried in sources[] above - it has not been

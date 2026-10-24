@@ -11,12 +11,15 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Documented
-  divergence_note: "Documented as mechanisms (self-edited letter collections, fraternal completions, memorial orations, the copied letter networks); the effect-scale of the resulting selection (what survives versus what is lost) is Widely Accepted as synthesis rather than independently Documented item by item."
+  divergence_note: "Documented as mechanisms (fraternal completions, memorial orations, the copied letter networks); Gregory of Nazianzus gathering his own letters is Widely Accepted for now, because the only text that shows it, his Epistle 52, is held here as unchecked OCR Greek and the method question on that OCR is open; the effect-scale of the resulting selection (what survives versus what is lost) is Widely Accepted as synthesis rather than independently Documented item by item."
 sources:
 - source_id: cappadocian.source.gregory-nazianzus-de-vita-sua
-  locus: "Gregory of Nazianzus's own self-edited letter collection, by his own claim"
+  locus: "Gregory of Nazianzus gathering his own letters (Epistle 52) is named only; no source record covers it and the text is unchecked OCR Greek, so the claim stays Widely Accepted pending the method question"
+- source_id: cappadocian.source.gregory-nyssa-on-the-making-of-man
+  locus: "the opening, where Nyssa says he intends to add what is lacking to his brother's Hexaemeron so that the teacher's glory may not seem to fail among his disciples"
+  license: public-domain
 - source_id: cappadocian.source.gregory-nyssa-life-of-macrina
-  locus: "Gregory of Nyssa completing his brother's unfinished works and writing the family's memorials"
+  locus: "Gregory of Nyssa writing the family's memorial, the Life of Macrina"
 relations:
 - type: enabled-by
   target: cappadocian.force.persecutions-nearness
@@ -30,24 +33,28 @@ name: "Transmission (ongoing) - the family and the circle as archive [2B - ongoi
 kind: ongoing
 matrix_cell: 2B
 description: >-
-  The world's record is substantially produced, curated, and published by one family and one friendship
-  network about itself: Gregory Nazianzen edits his own letter collection; Gregory of Nyssa completes his
-  brother's unfinished works and writes the family's memorials (the Vita); the circle's works are copied
-  through episcopal-ascetic letter networks; an Origen anthology is compiled in the circle's orbit (the
-  Philocalia, attribution Contested) (Doc_08 Cell 2B, Force 2B-2, the transmission dimension required in
-  this cell per the Forces Framework). Selection effects visible in-period: opponents survive mainly inside
-  refutations; the sisterhood's teacher survives only in her brother's frame; the ordinary brothers survive
-  as embedded questions in the Rules. WORLD'S OWN EXPERIENCE (Layer 2): the world understood itself to be
-  handing down an inheritance - the fathers' faith, the founder's customs, the family's dead - and it wrote
-  accordingly: the brother finishing the brother's book, the friend praising the friend before the whole
-  church, the letters kept and ordered like deeds in a strongbox. What it kept, it kept as a household keeps
-  things. Reported-Experience Status where self-understanding outruns testimony. FORMATION IMPACT (Layer
-  3): built the Author Gravity structure Doc_02 maps (one family's voice as the world's record); made the
-  family-lineage gravity partly an archival artifact (the Doc_04 §3.1 distinction, structurally confirmed
-  here); ensured the world reaches us self-memorialized - every downstream document, including this one,
-  inherits that frame and must keep saying so.
+  One family and one circle of friends made, kept and published most of
+  this world's record. Gregory of Nazianzus is widely accepted to have
+  gathered his own letters. Gregory of Nyssa finished his brother's
+  unfinished work. He also wrote the family's memorial, the Life of
+  Macrina. Bishops and ascetics copied the circle's works through their
+  letter networks. Someone in the circle's orbit put together an anthology
+  of Origen, the Philocalia. Who did so is contested. The record shows
+  clear selection effects. Opponents survive mainly inside the replies that
+  quote them. The sisterhood's teacher survives only in her brother's
+  frame. The ordinary brothers survive only as questions inside the Rules.
+  The world saw itself as handing down an inheritance. That inheritance was
+  the fathers' faith, the founder's customs and the family's dead. So it
+  wrote that way. A brother finished a brother's book. A friend praised a
+  friend before the whole church. Letters were kept like deeds in a
+  strongbox. The world kept things as a household does. Where its view of
+  itself goes beyond the evidence, we say so. All of this shaped the record
+  we hold. One family's voice became the world's record. The family-lineage
+  gravity is partly a product of the archive. The world comes to us
+  already telling its own story. Every later document inherits that frame
+  and must keep saying so.
 manifestations:
-- Gregory Nazianzen editing his own letter collection, by his own claim
+- Gregory Nazianzen gathering his own letter collection (Widely Accepted)
 - Gregory of Nyssa completing his brother's unfinished works and writing the family's memorials (the Vita)
 - the copied episcopal-ascetic letter networks that carried the circle's works onward
 - an Origen anthology compiled in the circle's orbit (the Philocalia), traditional attribution now Contested

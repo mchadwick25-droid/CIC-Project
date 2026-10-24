@@ -18,8 +18,11 @@ sources:
 - source_id: cappadocian.source.gregory-nazianzus-orations-general-corpus
   locus: Oration 2, the apology for flight from ordination
   license: public-domain
-- source_id: cappadocian.source.gregory-nazianzus-de-vita-sua
-  locus: the autobiographical poem's own account of the pull between quiet and office
+- source_id: cappadocian.source.gregory-nazianzus-sasima-letters
+  locus: Letter XLIX, "To Basil. (The Praises of Quiet.)" - "Give me before all things quiet"; "Your roofless and doorless hut"
+  license: public-domain
+- source_id: cappadocian.source.basil-letters-general-corpus
+  locus: Letter XIV, Basil's retreat in Pontus - a wooded mountain, a plain and a river
   license: public-domain
 - source_id: cappadocian.source.basil-asketikon-longer-shorter-rules
   locus: the Longer Rules' subordination of the solitary life

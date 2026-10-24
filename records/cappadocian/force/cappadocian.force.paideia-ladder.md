@@ -11,12 +11,12 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Documented
-  divergence_note: "Documented via the encomium and the autobiography - self-reported, genre-flagged: the friendship at the world's center is Gregory's own retrospective account, composed after Basil's death and after their own falling-out at Sasima, not an independently corroborated account of the Athens years themselves."
+  divergence_note: "Documented via the encomium (Oration 43) - self-reported, genre-flagged: the friendship at the world's center is Gregory's own retrospective account, composed after Basil's death and after their own falling-out at Sasima, not an independently corroborated account of the Athens years themselves."
 sources:
 - source_id: cappadocian.source.basil-address-to-young-men
   locus: "the bee-and-flowers discipline as taught practice"
-- source_id: cappadocian.source.gregory-nazianzus-de-vita-sua
-  locus: "the friendship formed at Athens, self-reported"
+- source_id: cappadocian.source.gregory-nazianzus-oration-43-funeral-encomium-basil
+  locus: "Oration 43, §§13-14 and 19-20: Basil's schooling at Caesarea, Byzantium and Athens, and the friendship formed there, self-reported"
 relations:
 - type: precondition-for
   target: cappadocian.force.eunomian-movement
@@ -28,15 +28,17 @@ name: "Greek paideia as the inherited ladder [1B - initiating/internal]"
 kind: initiating
 matrix_cell: 1B
 description: >-
-  The full elite formation sequence (Caesarea -> Constantinople -> Athens) trains the world's future
-  leadership in rhetoric and philosophy; the friendship at the world's center is formed at Athens (Doc_08
-  Cell 1B, Force 1B-3). WORLD'S OWN EXPERIENCE (Layer 2): the books were pagan and the teachers too, and
-  the elders sent their sons anyway, saying: take the honey, leave the poison. The young men came back with
-  the age's best instruments in their hands and the question of their lives already set - what is all this
-  FOR? FORMATION IMPACT (Layer 3): supplied Supporting Gravity 4/Gravity 4 and the anti-Eunomian method's
-  schooling (dialectic disciplined against dialectic worshipped); set up the "true philosophy" repossession
-  (the renounced life claiming the school's crown-word); created the elite-register boundary the build names
-  honestly (the plateau never saw Athens).
+  The full elite formation sequence ran from Caesarea to Constantinople to
+  Athens. It trained the world's future leaders in rhetoric and philosophy.
+  The friendship at the world's center was formed at Athens. The books were
+  pagan, and so were the teachers. The elders sent their sons anyway. They
+  said: take the honey, leave the poison. The young men came back with the
+  age's best tools in their hands. The question of their lives was already
+  set: what is all this for? This force supplied the paideia gravity and
+  the anti-Eunomian method's schooling, where logic was disciplined against
+  logic. It set up the claim on "true philosophy", when the renounced life
+  took the school's crown-word for its own. It also drew a boundary around
+  the elite: the plateau never saw Athens.
 manifestations:
 - the full elite formation sequence - Caesarea to Constantinople to Athens
 - the friendship at the world's center, formed at Athens, per Gregory's own later telling

@@ -11,12 +11,19 @@ confidence:
   verification_state: named-not-rechecked
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: "Widely Accepted that Gregory of Nazianzus experienced and recorded this appointment as a wound - that much is Documented as his own telling. What is genuinely Contested is Basil's own side of it (essentially unrecorded, so his motives are argued from context, not from his own words) and how much of the friendship's rupture was jurisdictional necessity versus personal failure. The Sasima letters themselves are verification_state named-not-rechecked in this world's registry."
+  divergence_note: "Widely Accepted that Gregory of Nazianzus experienced and recorded this appointment as a wound - that much is Documented as his own telling. What is genuinely Contested is Basil's own side of it (essentially unrecorded, so his motives are argued from context, not from his own words) and how much of the friendship's rupture was jurisdictional necessity versus personal failure. The Sasima letters are vendored in the npnf207 edition (Letters XLVIII, XLIX, L and LVIII) and the editor's account of the province split, Anthimus and the new sees is vendored there too. This story keeps named-not-rechecked because it also names the long poem De vita sua, which is held here only as unchecked OCR Greek; the description of Sasima as a place rests on the vendored English alone."
 sources:
 - source_id: cappadocian.source.gregory-nazianzus-sasima-letters
-  locus: "the appointment and its aftermath, as Gregory recorded it"
+  locus: "the appointment and its aftermath, as Gregory recorded it; Letter XLIX, where he refuses to fight 'for the celebrated Sasima' and asks for quiet"
+  license: public-domain
+- source_id: cappadocian.source.gregory-nazianzus-orations-general-corpus
+  locus: "the editor's account (npnf207): Cappadocia divided in two, Anthimus claiming the new province, Basil erecting new sees, Sasima 'a miserable little village', Gregory's father asking him to stay at Nazianzus"
+  license: public-domain
+- source_id: cappadocian.source.gregory-nyssa-life-of-macrina
+  locus: "translator's introduction: Sasima, 'a dusty village where the post changed horses'"
+  license: public-domain
 - source_id: cappadocian.source.gregory-nazianzus-de-vita-sua
-  locus: "the retrospective, autobiographical account of the wound"
+  locus: "the retrospective poem on the wound is named only; it is held here as unchecked OCR Greek, so nothing in the story rests on it pending the method question"
 retrieval:
   tier: 2
   retrieve_when:
@@ -34,27 +41,27 @@ relations:
 - type: illustrates
   target: cappadocian.gravity.contested-church
 narrative_tier: 1
-narrative_tier_justification: "Tier 1 (one-sided): Gregory's letters, poems, and the autobiographical De vita sua are his own documented, named, contemporary-to-near-contemporary self-account, not later legend - which places this account at Tier 1. But it is one-sided by nature: Basil's own side of the episode is essentially unrecorded, so what is Documented is that Gregory told it this way and felt this way, not an adjudicated account of Basil's own motives, which remain Contested."
+narrative_tier_justification: "Tier 1 (one-sided): Gregory's letters and poems, including the autobiographical De vita sua (named, not checked here), are his own named, contemporary-to-near-contemporary self-account, not later legend - which places this account at Tier 1. But it is one-sided by nature: Basil's own side of the episode is essentially unrecorded, so what is Documented is that Gregory told it this way and felt this way, not an adjudicated account of Basil's own motives, which remain Contested."
 tellable_as: "Basil appoints his own close friend to a backwater see in a jurisdictional fight, and the friendship never fully recovers."
 text: >-
   In 372, after Cappadocia was divided into two provinces, Basil moved to
   secure his own metropolitan authority against a rival bishop's competing
   claims over the new province's territory. He created new sees and
   consecrated allies to hold them - among them Sasima, a small, ill-favored
-  posting at a dusty crossroads. He named his own close friend, Gregory of
-  Nazianzus, to it. Gregory experienced the appointment as a wound: pressed
-  into an office he had not sought, in a place he described with open
-  contempt - a waystation, he said, without a people or a spirit of its own
-  - and pressed there, as he understood it, more for Basil's jurisdictional
-  need than for Gregory's own sake. He effectively refused the post,
-  spending little time there before withdrawing to help his own aging
-  father, then bishop of Nazianzus. What survives is entirely Gregory's own
-  account - his bitter letters, his poems, the autobiographical De vita sua
-  written years afterward - and no comparable record from Basil's own side
-  has survived at all. A friendship forged in their student years at Athens,
-  and never simply ended by this, carried the wound into everything that
-  came after.
-telling: "Sasima was a small posting at a dusty crossroads, with little to recommend it.\n\nIn 372 Cappadocia was divided into two provinces. A rival bishop claimed authority over the new province's land. Basil moved to secure his authority as metropolitan, the chief bishop of the province. He created new sees and consecrated allies to hold them. Sasima was one, and Basil named his close friend, Gregory of Nazianzus, to it.\n\nGregory felt the appointment as a wound. Gregory's bitter letters and poems tell it, and so does the long poem about his life that he wrote years later. No record from Basil's side survives.\n\nGregory had been pressed into an office he had not sought. He wrote of the place with open contempt, as a waystation without a people or a spirit of its own. As Gregory understood it, he was sent there more for Basil's need in the fight than for Gregory's own good.\n\nGregory in effect refused the post. He spent little time at Sasima. He withdrew instead to help his aging father, who was then bishop of Nazianzus."
+  posting, a dusty village where the post changed horses. He named his own
+  close friend, Gregory of Nazianzus, to it. Gregory experienced the
+  appointment as a wound: pressed into an office he had not sought, in a
+  place his editor calls a miserable little village, and pressed there, as he
+  understood it, more for Basil's jurisdictional need than for Gregory's own
+  sake. He effectively refused the post. By the editor's account he
+  probably never governed it, and his own aging father, then bishop of
+  Nazianzus, begged him to stay and help. What survives is entirely
+  Gregory's own account - his bitter letters, his poems, the
+  autobiographical De vita sua written years afterward - and no comparable
+  record from Basil's own side has survived at all. A friendship forged in
+  their student years at Athens, and never simply ended by this, carried
+  the wound into everything that came after.
+telling: "Sasima was a small posting, a dusty village where the post changed horses.\n\nIn 372 Cappadocia was divided into two provinces. A rival bishop claimed authority over the new province's land. Basil moved to secure his authority as metropolitan, the chief bishop of the province. He created new sees and consecrated allies to hold them. Sasima was one, and Basil named his close friend, Gregory of Nazianzus, to it.\n\nGregory felt the appointment as a wound. Gregory's bitter letters and poems tell it, and so does the long poem about his life that he wrote years later. No record from Basil's side survives.\n\nGregory had been pressed into an office he had not sought. His editor calls the place a miserable little village. As Gregory understood it, he was sent there more for Basil's need in the fight than for Gregory's own good.\n\nGregory in effect refused the post. By his editor's account he probably never governed it. His aging father, then bishop of Nazianzus, begged him to stay and help."
 absent_detail: "Basil's own account of why he made this appointment, and what if anything he understood himself to owe his friend for it, is not recorded anywhere in this world's evidentiary base. This is entirely Gregory's telling."
 modern_contrast: >-
   A modern reader might expect a falling-out this documented to include

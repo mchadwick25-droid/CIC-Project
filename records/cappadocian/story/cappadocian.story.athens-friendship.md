@@ -11,12 +11,10 @@ confidence:
   verification_state: named-not-rechecked
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: "Widely Accepted that this is Gregory's own account of the friendship's formation; not independently corroborated from Basil's own side or from any outside witness. Both surviving accounts (Oration 43, De vita sua) are retrospective, composed by the surviving friend after Basil's death and after the two men's own falling-out at Sasima - idealization is named, not hidden."
+  divergence_note: "Widely Accepted that this is Gregory's own account of the friendship's formation; not independently corroborated from Basil's own side or from any outside witness. The surviving account (Oration 43) is retrospective, composed by the surviving friend after Basil's death and after the two men's own falling-out at Sasima - idealization is named, not hidden."
 sources:
 - source_id: cappadocian.source.gregory-nazianzus-oration-43-funeral-encomium-basil
-  locus: "the Athens portrait, opening the funeral oration"
-- source_id: cappadocian.source.gregory-nazianzus-de-vita-sua
-  locus: "the autobiographical retelling of the friendship's formation"
+  locus: "Oration 43, §§13-14 and 19-20: Basil's schooling at Caesarea, Byzantium and Athens; the friends as housemates, messmates and intimates; 'one soul, inhabiting two bodies'"
 retrieval:
   tier: 2
   retrieve_when:
@@ -34,27 +32,25 @@ relations:
 - type: associated-with
   target: cappadocian.gravity.household-lineage
 narrative_tier: 1
-narrative_tier_justification: "Tier 1: both Oration 43 and De vita sua are Gregory's own documented, named self-account of events in his own life. Idealization is flagged, not hidden: both are retrospective, written by the surviving friend after estrangement and loss, in genres (funeral encomium; verse autobiography) built to present a life in its best light. What is Documented is that this is how Gregory chose to remember and present the friendship, not an independently corroborated account of exactly what passed between two students decades earlier."
+narrative_tier_justification: "Tier 1: Oration 43 is Gregory's own documented, named self-account of events in his own life. Idealization is flagged, not hidden: it is retrospective, written by the surviving friend after estrangement and loss, in a genre (the funeral encomium) built to present a life in its best light. What is Documented is that this is how Gregory chose to remember and present the friendship, not an independently corroborated account of exactly what passed between two students decades earlier."
 tellable_as: "Two students at Athens form a friendship one of them will later call one soul in two bodies - our own portrait of our warmest ideal."
 text: >-
   Basil and Gregory of Nazianzus met as students, most likely at Athens,
   where both went for the fullest education their world offered. Gregory
   later described what grew between them there as one soul lodged in two
-  bodies: they shared lodging, books, and purpose, and studied together, he
-  says, toward a single goal - not worldly advancement, but the fullest
-  possible turn toward God. He describes filtering out the dangerous parts
-  of a pagan education the way a bee takes only what will make honey and
-  leaves the rest, using Greek learning as training for a Christian purpose
-  rather than an end in itself. When their studies ended, both returned to
+  bodies: they were housemates, messmates and intimates, and the sole business
+  of both, he says, was virtue - not worldly advancement, but the fullest
+  possible turn toward God. Of Basil's earlier schooling he used the image
+  of the busy bee, which gathers what is most useful from every flower.
+  When their studies ended, both returned to
   Cappadocia to begin the ascetic and ecclesiastical careers that would
-  define them. Gregory's account of this time comes from two places: the
-  great funeral oration he delivered for Basil, years afterward, and his
-  own long autobiographical poem, written later still. Both are the
+  define them. Gregory's account of this time comes from the
+  great funeral oration he delivered for Basil, years afterward. It is the
   surviving partner's retrospect, composed after the friendship's own real
   difficulties - including Sasima's wound - had come, and had not, in any
   simple sense, been resolved before Basil died. What Gregory chose to
   remember first, when he rose to eulogize his friend, was Athens.
-telling: "Basil and Gregory of Nazianzus met as students, most likely at Athens. Both had gone there for the fullest education their world offered.\n\nGregory's memory of Athens comes from two works. One is the great funeral speech he gave for Basil, years afterward. The other is his long poem about his life, written later still. He wrote both after the friendship had met real trouble, the wound of Sasima among it. That trouble had not been simply resolved before Basil died. When he rose to praise his dead friend, Gregory chose to remember Athens first.\n\nWhat grew between them, Gregory said, was one soul lodged in two bodies. They shared lodging, books and purpose. Worldly advancement was not their aim, he says, and they studied together toward one goal, the fullest possible turn toward God.\n\nWhen their studies ended, both men went home to Cappadocia."
+telling: "Basil and Gregory of Nazianzus met as students, most likely at Athens. Both had gone there for the fullest education their world offered.\n\nGregory's memory of Athens comes from the great funeral speech he gave for Basil, years afterward. He wrote it after the friendship had met real trouble, the wound of Sasima among it. That trouble had not been simply resolved before Basil died. When he rose to praise his dead friend, Gregory chose to remember Athens first.\n\nWhat grew between them, Gregory said, was one soul lodged in two bodies. They were housemates, messmates and close friends. Worldly advancement was not their aim, he says. The sole business of both was virtue, the fullest possible turn toward God.\n\nOf Basil's earlier schooling, Gregory used the image of the busy bee. It gathers what is most useful from every flower.\n\nWhen their studies ended, both men went home to Cappadocia."
 absent_detail: "No account of the friendship survives from Basil's own side; everything here is Gregory's retrospective portrait, composed after his friend's death and after their own falling-out at Sasima."
 modern_contrast: >-
   A modern reader might take "one soul in two bodies" as simple,
