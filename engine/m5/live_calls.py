@@ -15,6 +15,7 @@ import json
 import logging
 
 from anthropic import APIError, APITimeoutError, RateLimitError
+from botocore.exceptions import BotoCoreError, ClientError
 
 from engine.m5.failure import CallOutcome
 from engine.m5.routing import QUESTION_KINDS
@@ -197,8 +198,10 @@ def _forced_tool_call(client, model_id: str, *, system: str, tool: dict, user_co
         return CallOutcome(status="error", value={"error": str(e), "rate_limited": True})
     except APIError as e:
         return CallOutcome(status="error", value={"error": str(e)})
-    except Exception as e:  # noqa: BLE001 - a call that cannot run (credentials, network) is a failed call, not a crash
-        logger.exception("gate call could not run")
+    except (BotoCoreError, ClientError, OSError) as e:
+        # The call could not run at all (no credentials, no network): a failed call, answered by the gate's own
+        # failure rule. Anything else is a programming or configuration fault and is left to raise.
+        logger.error("gate call could not run: %s", type(e).__name__)
         return CallOutcome(status="error", value={"error": str(e)})
 
     tool_uses = [b for b in response.content if b.type == "tool_use" and b.name == tool["name"]]

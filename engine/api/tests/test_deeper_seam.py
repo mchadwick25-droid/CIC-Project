@@ -1407,6 +1407,27 @@ def test_a_fault_in_the_count_leaves_the_safety_check_running(store, usage_store
     assert reply.json()["routing_action"] == "safety_turn"
 
 
+def test_a_message_the_safety_call_could_not_read_does_not_spend_the_monthly_count(store, usage_store, world_loader, registry, runtime):
+    """An outage is not the visitor's doing: the line asks them to send again, so it must not use up the count."""
+    http = build(store, usage_store, world_loader, registry, RecordingClient(safety_fails=True), deeper=runtime)
+    bounded(runtime, per_visitor=1)
+    session_id, auth = open_session(http)
+    for i in range(3):
+        body = say(http, session_id, auth, f"hello {i}").json()
+        assert body["routing_action"] == "safety_unread_turn"
+    assert not runtime.bound.reached(VISITOR, NETWORK)
+
+
+def test_a_streamed_message_the_safety_call_could_not_read_does_not_spend_the_monthly_count(store, usage_store, world_loader, registry, runtime):
+    http = build(store, usage_store, world_loader, registry, RecordingClient(safety_fails=True), deeper=runtime, streaming_enabled=True)
+    bounded(runtime, per_visitor=1)
+    session_id, auth = open_session(http)
+    for i in range(3):
+        reply = http.post(f"/api/session/{session_id}/message", json={"text": f"hello {i}"}, headers={**auth, "Accept": "text/event-stream"})
+        assert parse_sse(reply.text)[-1][1]["routing_action"] == "safety_unread_turn"
+    assert not runtime.bound.reached(VISITOR, NETWORK)
+
+
 def test_the_flag_off_has_no_bound(store, usage_store, world_loader, registry):
     http = build(store, usage_store, world_loader, registry, RecordingClient())
     for _ in range(FREE_CAP + 3):

@@ -45,6 +45,7 @@ from engine.m4.uncited_claims import (
 )
 from engine.m4.world_loader import LazyWorldLoader, LoadedWorld
 from engine.m5.anachronism import anachronistic_term_ids as compute_anachronistic_term_ids
+from engine.m5.failure import SAFETY_FAILED
 from engine.m5.routing import PRESSABLE_CLASSES
 from engine.m7.scheduler import STATUS_FILENAME
 from engine.m7.session_reader import read_session
@@ -135,7 +136,8 @@ def screen_refused_message(
     for rec in gate_run.usage_records:
         usage_store.append(rec)
     action = gate_run.gate_result.routing.action
-    if action not in SAFETY_ROUTES:
+    if action not in SAFETY_ROUTES or action == SAFETY_FAILED.action:
+        # A message nothing could read is refused as it would have been: "send it again" would be untrue here.
         return None
     facilitator_events = safety_route_facilitator_events(
         gate_run, representative_name=representative_name, track_a_last=state.safety.track_a_last,
@@ -162,7 +164,7 @@ def screen_refused_message(
 
 class ProviderCallFailed(Exception):
     """run_turn() raised something other than UnhandledRoutingAction - most
-    likely a real Bedrock/credential failure. The participant_message event
+    likely a failed voice call, or a programming or configuration fault. The participant_message event
     (if this happened mid-message) is already committed; nothing else is."""
 
 
@@ -1106,23 +1108,23 @@ def handle_message(
             citation_attach_enabled=citation_attach_enabled,
         )
     except UnhandledRoutingAction:
-        # Not caught and softened into a note about a test build: all seven
-        # routing actions have real content now, so the state such a note
+        # Not caught and softened into a note about a test build: every
+        # routing action has real content now, so the state such a note
         # would describe cannot occur, and a graceful degradation path for
         # an impossible state would just be a permanently-false field in
         # the public response schema.
         #
-        # The raise in engine.m4.turn stays as the guard for an EIGHTH
-        # routing action someone adds without a branch. Re-raised here so it
+        # The raise in engine.m4.turn stays as the guard for a routing action
+        # someone adds without a branch. Re-raised here so it
         # surfaces as itself - a programming error, a 500 - rather than
         # being swallowed by the provider-failure catch below and reported
         # to the operator as a Bedrock problem it is not.
         raise
     except Exception as exc:
-        # engine.m5.live_calls only catches anthropic.APIError/APITimeoutError
-        # (confirmed by reading it directly) - a raw botocore/credential
-        # failure propagates straight through run_turn uncaught. Nothing
-        # commits past this point; the participant_message stays in the log
+        # A failure of the voice call, or any fault the gate calls do not
+        # answer for themselves (engine.m5.live_calls turns a call that could
+        # not run into a failed gate call, which the gate answers with the
+        # fixed Facilitator line). Nothing commits past this point; the participant_message stays in the log
         # as evidence of what was sent and they may resend.
         raise ProviderCallFailed(str(exc)) from exc
 

@@ -222,6 +222,13 @@ def session_cap_turn(representative_name: str, limit_text: str | None = None) ->
     return {"kind": SESSION_CAP.kind, "text": SESSION_CAP.text}
 
 
+# The one redirect sentence the fixed Facilitator lines share (the monthly-limit line and the
+# unread-message line). It names no organisation or number; Mark's approved wording.
+REDIRECT_TO_REAL_PEOPLE = (
+    "If you are in distress or in danger, please reach out to someone real now - a person you trust, a crisis line, "
+    "or emergency services where you are."
+)
+
 # The reply past the monthly bound on messages that get a safety check and no
 # Representative reply. No model reads the message; this fixed line is the whole
 # reply, and the redirect to real people is part of it every time.
@@ -230,8 +237,7 @@ VISITOR_BOUND = FacilitatorTurn(
     text=(
         "This is the Facilitator. Messages here that get no reply from a Representative have reached the limit for this "
         "month, so I have stopped reading new ones for now. Nothing in your conversations is lost.\n\n"
-        "If you are in distress or in danger, please reach out to someone real now - a person you trust, a crisis line, "
-        "or emergency services where you are.\n\n"
+        + REDIRECT_TO_REAL_PEOPLE + "\n\n"
         "The limit clears 30 days after the first message it counted."
     ),
 )
@@ -249,8 +255,7 @@ SAFETY_UNREAD = FacilitatorTurn(
     kind="limit",
     text=(
         "This is the Facilitator. I could not read your message just now, so no one has answered it yet.\n\n"
-        "If you are in distress or in danger, please reach out to someone real now - a person you trust, a crisis line, "
-        "or emergency services where you are.\n\n"
+        + REDIRECT_TO_REAL_PEOPLE + "\n\n"
         "When you are ready, you can send your message again."
     ),
 )

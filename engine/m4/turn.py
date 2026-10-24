@@ -6,15 +6,10 @@ failure semantics, this module's own generation/grounding/crisis_resources)
 itself (engine.m4.store/events) - that's the caller's job, so this stays
 testable against a plain TurnResult rather than a database.
 
-Scope note: all seven routing actions now have turn content. Four of them
-did not until recently - check_in_turn, system_nature_turn, bridge_turn,
-etic_turn and Track B's own safety_turn were real, tested routing
-outcomes that raised UnhandledRoutingAction rather than answering. Two
-of those four could not be reached by a live session at all; both were
-proven unreachable live, then wired. What the
-voice generates here is still only the ordinary answer path and the acute
-safety turn; the other five are the Facilitator's own words, owned by code
-in engine.m4.facilitator_turns and carrying that module's craft note.
+Scope note: every routing action has turn content. What the voice
+generates here is only the ordinary answer path and the acute safety
+turn; the others are the Facilitator's own words, owned by code in
+engine.m4.facilitator_turns and carrying that module's craft note.
 
 Stage 6 addition (M8): every real model call this module makes is
 attributed to the caller's session_id via engine.m8.usage.record_usage and
@@ -1248,8 +1243,8 @@ def run_turn(
     # not selectively, so the ending reads as one clear boundary rather than
     # a handful of routes quietly behaving differently.
     # Every safety route is exempt from both caps, not acute distress
-    # alone: a check-in (an uncertain or failed safety call) and a
-    # dependency check are safety turns too, and a limit must never turn
+    # alone: a check-in (an uncertain safety call), the fixed line for a
+    # message the safety call could not read, and a dependency check are safety turns too, and a limit must never turn
     # them away (System Hub decision 35).
     is_safety_route = action in SAFETY_ROUTES
     turn_cap = SESSION_TURN_CAP if turn_cap is None else turn_cap

@@ -61,6 +61,7 @@ from engine.m4.round import (
 )
 from engine.m4.table_governance import detect_direct_address, governance_summary
 from engine.m4.store import Store
+from engine.m5.failure import SAFETY_FAILED
 from engine.m4.turn import SAFETY_ROUTES, UnhandledRoutingAction, _maybe_record_usage, run_gate, run_voice_turn_for_world
 from engine.m4.turn_selector import Selection, select_speaker
 from engine.m4.uncited_claims import (
@@ -619,7 +620,9 @@ def _last_participant_text(state: SessionState) -> str:
     raise TableRoundNotOpen(f"session {state.session_id} has an open round but no participant message on record")
 
 
-def _close_round(store: Store, state: SessionState, *, reason: str, turns: int, selector_reason: str | None = None) -> int:
+def _close_round(
+    store: Store, state: SessionState, *, reason: str, turns: int, selector_reason: str | None = None, counts: bool = True,
+) -> int:
     """round_closed + turn_committed, in that order - a round, not a voice
     turn, is the committed unit (Artifact-7 SS2). Returns the turn_no.
 
@@ -654,6 +657,10 @@ def _close_round(store: Store, state: SessionState, *, reason: str, turns: int, 
         closed_payload["selector_reason"] = selector_reason
     events.validate("round_closed", closed_payload)
     store.append(session_id=state.session_id, event_uuid=str(uuid.uuid4()), event_type="round_closed", payload=closed_payload)
+    if not counts:
+        # A message the safety check could not read was not answered, so it is not a round used: the
+        # sitting's count stays where it was and the person may send it again.
+        return state.turn_count
     turn_no = state.turn_count + 1
     store.append(session_id=state.session_id, event_uuid=str(uuid.uuid4()), event_type="turn_committed", payload={"turn_no": turn_no})
     return turn_no
@@ -1087,7 +1094,8 @@ def _screen_refused_table_message(
     )
     for rec in gate_run.usage_records:
         usage_store.append(rec)
-    if gate_run.gate_result.routing.action not in SAFETY_ROUTES:
+    if gate_run.gate_result.routing.action not in SAFETY_ROUTES or gate_run.gate_result.routing.action == SAFETY_FAILED.action:
+        # A message nothing could read is refused as it would have been: "send it again" would be untrue here.
         return None
     representative_names = [worlds[k].frame["representative"]["name"] for k in state.world_keys]
     opening = open_table_round(
@@ -1108,7 +1116,7 @@ def _screen_refused_table_message(
         events.validate("facilitator_turn", fe)
         store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="facilitator_turn", payload=fe)
     governed_state = project_fresh(session_id, store)
-    turn_no = _close_round(store, governed_state, reason="selector_closed", turns=0)
+    turn_no = _close_round(store, governed_state, reason="selector_closed", turns=0, counts=opening.routing_action != SAFETY_FAILED.action)
     return TableMessageResult(
         round_no=governed_state.round_no, round_open=False, routing_action=opening.routing_action,
         routing_reason=opening.routing_reason, degraded=opening.degraded,
@@ -1250,7 +1258,7 @@ def _handle_table_message_unlocked(
                 answer_text=opening.facilitator_events[-1].get("text") if opening.facilitator_events else None,
             )
         governed_state = project_fresh(session_id, store)
-        turn_no = _close_round(store, governed_state, reason="selector_closed", turns=0)
+        turn_no = _close_round(store, governed_state, reason="selector_closed", turns=0, counts=opening.routing_action != SAFETY_FAILED.action)
         return TableMessageResult(
             round_no=round_no, round_open=False, routing_action=opening.routing_action,
             routing_reason=opening.routing_reason, degraded=opening.degraded,

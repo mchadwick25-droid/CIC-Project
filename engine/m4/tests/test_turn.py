@@ -1589,17 +1589,38 @@ def test_a_safety_call_that_fails_for_another_reason_leaves_attachment_running(m
 
 def test_a_safety_call_that_cannot_run_gets_the_fixed_line_and_assumes_nothing(monkeypatch):
     """Nobody read the message, so nothing is assumed about the person: the fixed Facilitator line with the
-    redirect as an "if", no safety track, no recorded state, no voice. A credential or network fault, not
-    only the provider's own error types, is a safety call that could not run."""
-    gate_run, _ = _gate_with_safety_failure(RuntimeError("no credentials"), monkeypatch)
+    redirect as an "if", no safety track, no recorded state, no voice. A missing credential or a network
+    fault, not only the provider's own error types, is a safety call that could not run."""
+    from botocore.exceptions import NoCredentialsError
+
+    gate_run, _ = _gate_with_safety_failure(NoCredentialsError(), monkeypatch)
     assert gate_run.safety_outcome.failed
     assert gate_run.gate_result.routing.action == "safety_unread_turn"
     assert gate_run.safety_state_events == []
     (turn,) = turn_module.safety_route_facilitator_events(gate_run, representative_name="Theon", track_a_last=None)
     assert turn == facilitator_turns.safety_unread_turn()
     assert turn["kind"] == "limit" and turn["resources_appended"] is True
-    assert "If you are in distress or in danger, please reach out to someone real now" in turn["text"]
+    assert turn["text"] == (
+        "This is the Facilitator. I could not read your message just now, so no one has answered it yet.\n\n"
+        "If you are in distress or in danger, please reach out to someone real now - a person you trust, a crisis line, "
+        "or emergency services where you are.\n\n"
+        "When you are ready, you can send your message again."
+    )
+    assert facilitator_turns.REDIRECT_TO_REAL_PEOPLE in facilitator_turns.VISITOR_BOUND.text
     assert "Theon" not in turn["text"] and "What you just told me" not in turn["text"]
+
+
+def test_a_network_fault_in_the_safety_call_is_a_call_that_could_not_run(monkeypatch):
+    gate_run, _ = _gate_with_safety_failure(ConnectionResetError("reset"), monkeypatch)
+    assert gate_run.gate_result.routing.action == "safety_unread_turn"
+
+
+def test_a_programming_fault_in_the_safety_call_is_not_hidden_as_an_unread_message(monkeypatch):
+    """Only a call that could not run is answered with the fixed line. A bug stays loud."""
+    import pytest
+
+    with pytest.raises(TypeError):
+        _gate_with_safety_failure(TypeError("unexpected keyword"), monkeypatch)
 
 
 def test_every_one_to_one_usage_record_carries_the_sessions_world():

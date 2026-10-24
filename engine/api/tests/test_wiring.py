@@ -211,17 +211,19 @@ def test_provider_failure_commits_the_message_but_not_the_turn(store, usage_stor
         )
 
     types = [e.event_type for e in store.read_events(session_id)]
-    assert "participant_message" in types and "voice_turn" not in types  # the message is kept, the failed turn is not
+    assert types == ["session_started", "facilitator_turn", "participant_message"]  # nothing after the failure point committed
 
 
 def test_a_safety_call_that_cannot_run_is_answered_with_the_fixed_line_not_a_failure(store, usage_store, world_loader, registry):
     session_id, _code = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
 
+    from botocore.exceptions import NoCredentialsError
+
     class _ExplodingClient:
         class messages:
             @staticmethod
             def create(**kwargs):
-                raise RuntimeError("simulated credential failure")
+                raise NoCredentialsError()
 
     result = wiring.handle_message(
         store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
