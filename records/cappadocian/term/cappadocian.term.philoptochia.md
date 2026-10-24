@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: 'Documented via Nazianzen''s and Nyssen''s own poverty orations, both genuinely vendored.
+  divergence_note: 'Documented via Nazianzen''s Oration 14 on the love of the poor, which is vendored. Nyssa''s homilies on the love of the poor are named in the vendored texts but not held.
     Basil''s own famine and wealth homilies -- the era''s sharpest, most-quoted lines on this theme --
     are a separate case: no open-license translation of that specific homily set is vendored anywhere
     in this project (Source Registry row 16); the historical fact that Basil preached

@@ -1,0 +1,12 @@
+source_file: edwards_some-thoughts-concerning-the-present-revival_kneeland1742.txt
+assignments:
+- row_id: edwards_some-thoughts-concerning-the-present-revival_kneeland1742--some-thoughts-concerning-the-present-revival-of-religion-in
+  work: Some Thoughts concerning the present Revival of Religion in New-England (Edwards, 1742)
+  author: edwards
+  locus: whole work; the account of a person's experience in Part I is Sarah Edwards's, unnamed
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: tradition
+  confidence: assigned
+  note: The revival judged from inside at its height; the census's Sarah Edwards narrative of 1742 is
+    carried here in Edwards's anonymised telling.

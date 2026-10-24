@@ -1,0 +1,18 @@
+source_file: priestley_discourses-on-the-evidences-of-revealed-religion-philadelphia_1796.txt
+authors_ruled:
+  priestley:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By Joseph Priestley, LL.D. F.R.S.''. Plain-text vendored file, so
+      cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: priestley_discourses-on-the-evidences-of-revealed-religion-philadelphia_1796--discourses-relating-to-the-evidences-of-revealed-religion
+  work: Discourses relating to the Evidences of Revealed Religion (Philadelphia, 1796)
+  author: priestley
+  locus: whole work
+  atlas_ids:
+  - early-american-unitarians-universalists
+  role: tradition
+  confidence: assigned
+  note: Priestley's American Unitarian preaching, the mid-Atlantic strand the census names.

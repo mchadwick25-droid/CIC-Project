@@ -1,0 +1,13 @@
+source_file: jones-edmund_account-of-the-parish-of-aberystruth_1779.txt
+assignments:
+- row_id: jones-edmund_account-of-the-parish-of-aberystruth_1779--a-geographical-historical-and-religious-account-of-the
+  work: A Geographical, Historical, and Religious Account of the Parish of Aberystruth (1779)
+  author: jones-edmund
+  locus: whole work
+  atlas_ids:
+  - the-welsh-revival-tradition
+  - english-old-dissent
+  role: context
+  confidence: provisional
+  note: An Independent minister's witness to the revival's world and to Welsh Old Dissent beside it. Provisional
+    for both worlds; the Welsh Independents are named in neither census entry.

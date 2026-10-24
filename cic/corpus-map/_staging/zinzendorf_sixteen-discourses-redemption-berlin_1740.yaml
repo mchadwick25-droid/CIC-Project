@@ -1,0 +1,23 @@
+source_file: zinzendorf_sixteen-discourses-redemption-berlin_1740.txt
+assignments:
+- row_id: zinzendorf_sixteen-discourses-redemption-berlin_1740--sixteen-discourses-on-the-redemption-of-man-berlin
+  work: Sixteen Discourses on the Redemption of Man (Berlin discourses, 1738; English 1740)
+  author: zinzendorf
+  locus: the sixteen discourses
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: tradition
+  confidence: assigned
+  note: Zinzendorf's own voice on the atonement, the Brethren's central theme, as London first heard it.
+- row_id: zinzendorf_sixteen-discourses-redemption-berlin_1740--dedication-to-the-archbishops-bishops-and-clergy-with-some
+  work: Dedication to the Archbishops, Bishops and Clergy, with some account of the Moravian Brethren
+    (1740)
+  author: zinzendorf
+  locus: the dedication and the account of the Brethren before the discourses
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  - restoration-georgian-church-of-england
+  role: context
+  confidence: provisional
+  note: The English editor's appeal to the established clergy on the Brethren's behalf; the Brethren explaining
+    themselves to the Church of England in 1740. Provisional for the Georgian church.

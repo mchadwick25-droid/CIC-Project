@@ -1,0 +1,12 @@
+source_file: pascal_thoughts-letters-minor-works_trotter-booth-wight1910.txt
+assignments:
+- row_id: pascal_thoughts-letters-minor-works_trotter-booth-wight1910--thoughts-letters-and-minor-works-harvard-classics-vol-48
+  work: Thoughts, Letters and Minor Works (Harvard Classics vol. 48, 1910)
+  author: pascal
+  locus: the Thoughts, Letters and Minor Works; the series editor's introductions excluded
+  atlas_ids:
+  - port-royal-jansenism
+  role: tradition
+  confidence: assigned
+  note: Pascal from Port-Royal's orbit, as the census names him; the Conversation with M. de Saci records
+    the circle's own way of reading the philosophers.

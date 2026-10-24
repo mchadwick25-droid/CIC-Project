@@ -38,51 +38,49 @@ relations:
   target: lpc.force.confessors-claim-to-grant-peace
 name: Confessor Authority vs. Episcopally Regulated Peace
 description: >-
-  This is an unresolved tension in this world, not a settled concern: two real, opposed pressures held
-  against each other rather than settled. One limit should be said up front: the evidence rests
-  mainly on one source, Cyprian's Epistles, read through a
-  single term in this world's lexicon.
+  This is a tension in this world, not a settled concern. Two real pressures pull against each other,
+  and neither wins. One limit comes first: the evidence rests mainly on one source, Cyprian's letters,
+  read through one term in this world's lexicon.
 
 
-  The first pole belongs to the confessors. These were Christians who survived interrogation under
-  persecution. On the strength of their confession, they wrote requests that named lapsed persons be
-  received back. This was an informal claim to grant peace. The second pole is Cyprian's own penitential
-  process, regulated and controlled by the bishop. He built it specifically to answer that rival claim.
+  The first side is the confessors. These were Christians who held firm when questioned under
+  persecution. Because of that, they wrote notes asking that named lapsed people be taken back. This was
+  an informal claim to grant peace. The second side is Cyprian's own process of penance. The bishop ran
+  it and controlled it. He built it to answer that rival claim.
 
 
-  The tension recurs rather than resolves. Epistles XX-XXI show the confessors using this claimed
-  authority themselves, in the first person. De Lapsis and Cyprian's letters on penance show the
-  regulated answer. Penitential discipline has the shape it does because a rival claim to grant peace
-  already existed. That claim had to be brought under order; the discipline was not invented from
-  nothing.
+  The tension keeps coming back. Letters XX and XXI show the confessors using this claimed power
+  themselves, in their own words. De Lapsis and Cyprian's letters on penance show his answer. Penance
+  has the shape it does because a rival claim to grant peace already existed. That claim had to be
+  brought under order. The discipline was not invented from nothing.
 
 
-  The tension shapes Cyprian's own conduct. Throughout his crisis letters he must keep reasserting the
-  bishop's authority over reconciliation, instead of settling it once. It explains why De Lapsis and the
-  letters on the lapsed insist so strongly on the bishop's control over readmission. Penitential
-  discipline alone does not fully explain that insistence.
+  The tension shapes how Cyprian acts. In his crisis letters he must keep restating the bishop's power
+  over taking people back. He cannot settle it once. That is why De Lapsis and the letters on the lapsed
+  press so hard on the bishop's control. Penance alone does not explain how hard they press.
 
 
-  The tension lasts only through Cyprian's crisis years. There it is a persistent, unresolved
-  counter-pressure, not a force that organizes the world as a whole. That is what makes it a tension. It
-  is not a failure. It competes with penitential discipline and reinforces the pastoral office.
+  The tension lasts only through Cyprian's crisis years. In those years it is a steady pressure that is
+  never resolved. It does not organize the world as a whole. That is what makes it a tension, and it is
+  not a failure. It competes with penance and supports the pastoral office.
 
 
-  Both poles are solidly attested. The confessors' own letters in Epistles XX-XXI and the regulating argument
-  of De Lapsis show them in their own words. The Epistles carry the higher citation grade (A) and De
-  Lapsis the lower (B). Neither side lacks for evidence -- the tension itself is the finding.
+  Both sides are well attested. The confessors' own letters, XX and XXI, and the argument of De Lapsis
+  show both sides in their own words. The letters carry the higher citation grade (A) and De Lapsis the
+  lower (B). Neither side lacks evidence. The tension itself is the finding.
 
 
-  The forces around it hold the tension in place rather than resolve it. The Decian persecution created
-  confessors as a class with any claim to authority at all. The Valerianic persecution confirmed the
-  tension rather than reshaping it, and it ended the phase in which the tension appears. The confessors'
-  claim is itself a force. All three forces belong to the first phase. A positive check found no
-  confessor-authority material from Augustine's phase anywhere in this world's sources. That confirms
-  the tension belongs to the first phase alone.
+  The forces around it hold the tension in place. The Decian persecution put confessors in one
+  congregation on a mass scale. Their claim was not new: Tertullian, in On Modesty, already tells of
+  sinners who ask confessors for peace. The Valerianic persecution kept the tension as it was, and it
+  ended the phase in which the tension appears. The confessors' claim is itself a force. All three
+  forces belong to the first phase. A search of the texts tested here found no confessor-authority
+  material from Augustine's phase. The sermons now in scope have not been searched for it. On the texts
+  tested, the tension belongs to the first phase alone.
 manifestations:
 - Cyprian's complaint that "thousands of certificates were daily given, contrary to the law of the Gospel"
 - Epistles XX-XXI, the confessors' own informal, first-person written requests granting peace to the lapsed
 - De Lapsis, Cyprian's argument for the bishop's control over readmission
 classification: tensional
 ---
-Re-derived from the approved Doc_04 §3 (Candidate 8). relations[] carries the gravity<->gravity edges (G1, G2) and the gravity<->force edges (1A-1, 2A-1, 2B-2) named above.
+Taken from Doc_04 §3 (Candidate 8). relations[] carries the gravity<->gravity edges (G1, G2) and the gravity<->force edges (1A-1, 2A-1, 2B-2) named above.

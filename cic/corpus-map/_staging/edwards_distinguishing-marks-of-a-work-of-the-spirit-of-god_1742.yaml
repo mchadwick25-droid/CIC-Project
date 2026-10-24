@@ -1,0 +1,11 @@
+source_file: edwards_distinguishing-marks-of-a-work-of-the-spirit-of-god_1742.txt
+assignments:
+- row_id: edwards_distinguishing-marks-of-a-work-of-the-spirit-of-god_1742--the-distinguishing-marks-of-a-work-of-the-spirit-of-god
+  work: The Distinguishing Marks of a Work of the Spirit of God (Edwards, 1741)
+  author: edwards
+  locus: whole work
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: tradition
+  confidence: assigned
+  note: The revival's own criteria for a true work of the Spirit, preached at Yale in 1741.

@@ -48,8 +48,8 @@ sources:
   locus: De Lapsis 4 -- 'it is the shepherd that is chiefly wounded in the wound of his flock'
   license: public-domain
 - source_id: lpc.source.cyprian-epistles
-  locus: the watch-keeping passage on a shepherd's charge to keep watch over the flock, and the relief
-    provision for 'those who have stood with unshaken faith and have not forsaken Christ's flock'
+  locus: Epistle LIV 14 -- a portion of the flock assigned to each pastor, who must give account of his
+    doing to the Lord, and Epistle V, the relief provision for 'those who have stood with unshaken faith and have not forsaken Christ's flock'
   license: public-domain
 - source_id: lpc.source.cyprian-de-unitate
   locus: De Unitate's own citation of John 10:16, 'one flock and one shepherd'
@@ -92,9 +92,10 @@ senses:
     is the standing of those inside the charge; the one episcopate is what many such charges make together;
     and our two conciliar formulas argue about how the holders of those charges relate to each other.'
   evidential: 'Cyprian''s own words carry this image throughout, directly quoted and re-verified at source:
-    ''it is the shepherd that is chiefly wounded in the wound of his flock,'' and the charge to keep watch
-    over the flock or answer for neglect, as those before us did. A full sweep of Cyprian''s own vendored
-    corpus returns 113 combined occurrences of flock, shepherd, and pastor language. Augustine''s own
+    ''it is the shepherd that is chiefly wounded in the wound of his flock,'' and that a portion of the
+    flock is assigned to each pastor, who must give account of his doing to the Lord (Epistle LIV 14).
+    A whole-word count over the Cyprian volume of the vendored edition, with editorial notes excluded,
+    returns 102 occurrences of flock, shepherd, and pastor. Augustine''s own
     Sermons carry the cognate fold image, though far less densely. The dense verbal evidence is Cyprian''s;
     our cross-phase claim rests on conduct, not on comparable word-counts.'
   personal: A man who holds this office and has no particular people has not got the office at all.

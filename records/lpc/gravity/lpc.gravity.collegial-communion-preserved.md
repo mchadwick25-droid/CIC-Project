@@ -93,4 +93,4 @@ manifestations:
 - Letter 185's pastoral, corrective tone toward the Donatist schism
 classification: primary
 ---
-Re-derived from the approved Doc_04 §3 (Candidate 3). relations[] carries the gravity<->gravity edges (G1, G2, G5, G6) and the gravity<->force edges (1B-1, 2A-3, 2B-4) named above.
+Taken from Doc_04 §3 (Candidate 3). relations[] carries the gravity<->gravity edges (G1, G2, G5, G6) and the gravity<->force edges (1B-1, 2A-3, 2B-4) named above.

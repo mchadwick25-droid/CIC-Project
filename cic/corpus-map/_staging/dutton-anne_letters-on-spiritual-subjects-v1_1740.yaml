@@ -1,0 +1,12 @@
+source_file: dutton-anne_letters-on-spiritual-subjects-v1_1740.txt
+assignments:
+- row_id: dutton-anne_letters-on-spiritual-subjects-v1_1740--letters-on-spiritual-subjects-and-divers-occasions-vol-1
+  work: Letters on Spiritual Subjects, and Divers Occasions, vol. 1 (1740)
+  author: dutton-anne
+  locus: whole volume
+  atlas_ids:
+  - the-baptists
+  role: tradition
+  confidence: provisional
+  note: A Particular Baptist woman's letters; provisional only because the attribution rests on the catalogue,
+    not the title page.

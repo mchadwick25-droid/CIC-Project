@@ -11,7 +11,7 @@ confidence:
   verification_state: named-not-rechecked
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: Not independently re-collated this session.
+  divergence_note: Not independently re-collated.
 sources: []
 relations: []
 author: Anonymous
@@ -19,9 +19,9 @@ work: Treatise Against the Heretic Novatian (c. 255) and Treatise on Re-baptism 
 edition: Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
-  own specific locus being independently re-collated this pass.'
+  own specific locus being independently re-collated.'
 attribution_status: anonymous
-discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml / 2026-09-01.
+discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml.
 external_ids:
   lpc_source_registry_row: 8
 ---

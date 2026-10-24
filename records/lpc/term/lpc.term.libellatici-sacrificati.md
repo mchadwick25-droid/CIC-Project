@@ -15,21 +15,22 @@ relations:
 - type: associated-with
   target: lpc.term.the-lapsed
 confidence:
-  citation_specificity: C
+  citation_specificity: A
   verification_state: verified-direct
-  evidentiary_weight: illustrative
-  formation_confidence: Inferential-Thin
-  divergence_note: This classification reaches this record as the vendored English edition's own 19th-century
-    editorial endnote, attached to the anonymous treatise against Novatian, not to an independently re-verified
-    passage of De Lapsis in Cyprian's own words. It is disclosed as editorial rather than as this world's
-    own two-way classification, carried for recognizability, not as a claim about Cyprian's own terminology
-    -- the lowest-attested item in this lexicon.
+  evidentiary_weight: corroborating
+  formation_confidence: Documented
+  divergence_note: Cyprian names both classes and grades them in his letter to Antonianus. The vendored
+    English edition's own 19th-century editorial endnote on the anonymous treatise against Novatian states
+    the same split in the editor's words, and nothing in this record rests on that endnote.
 sources:
-- source_id: lpc.source.anonymous-against-novatian-and-on-rebaptism
-  locus: the Introductory Notice's own editorial endnote -- '(1) Libellatici, those who had compounded
-    with the heathen, and bought off from offering sacrifice; and (2) Sacrificati, those who had actually
-    offered sacrifice to idols. Different degrees of discipline were awarded, but all were admitted to
-    pardon finally'
+- source_id: lpc.source.cyprian-epistles
+  locus: Epistle LI (to Antonianus) 13 and 17 -- the view that those who receive certificates are to be
+    put on a par with those who have sacrificed is refused ('libellaticos cum sacrificatis aequari oportere'),
+    and the decision is reported that the first be admitted in the meantime and the second be helped
+    at death ('libellaticos interim admitti, sacrificatis in exitu subueniri')
+  license: public-domain
+- source_id: lpc.source.cyprian-de-lapsis
+  locus: De Lapsis 27 and 28 -- the act of sacrifice and the act of the certificate as two kinds of failure
   license: public-domain
 retrieval:
   tier: 2
@@ -53,16 +54,14 @@ senses:
     back is longer for one than the other. What does not change is where the road ends. This is the graduation
     inside penitential discipline -- the reason reconciliation is a process with stages rather than a
     single yes or no.
-  evidential: This classification reaches this record as the vendored edition's own 19th-century editorial
-    endnote, attached to the anonymous treatise against Novatian (Confidence C), not to an independently
-    re-verified passage of De Lapsis in Cyprian's own words. It is disclosed as editorial, carried for
-    recognizability rather than as a claim about Cyprian's own terminology -- the World Meaning above
-    is written to the substance of graduated penance, which Cyprian's own correspondence does attest,
-    not to the editor's specific labels.
+  evidential: Our own bishop Cyprian names both classes, libellatici and sacrificati, and grades them. In
+    his letter to Antonianus he refuses to put those who receive certificates on a par with those who
+    have sacrificed, and he reports the decision that the first be admitted in the meantime and the second
+    be helped at death. De Lapsis treats the sacrifice and the certificate as two kinds of failure.
   translational: 'A modern listener may assume a formal canonical taxonomy, fixed by the church itself
     and applied uniformly. We mean a real practical distinction in how gravely a failure was reckoned,
     inside a process whose outcome was the same in the end: a road back that all of us could walk.'
 quick_meaning: This is our two-way split of the lapsed. One group bought their way out of the sacrifice.
   The other group sacrificed.
 ---
-Re-derived from Doc_06 SS2.3 (lpclex018, corrected upward from a mis-drafted Tier 3) and Lexicon-Chunks/lpclex018_libellatici-sacrificati.md. verification_state set to verified-direct despite Confidence C: the editor's own wording is directly quoted and checked, even though citation_specificity stays at the Registry's own C letter -- the same independent-axis rule wb_lpc_s21.py states for its own Registry-B/verification-state mapping. Relations: three terms per this term's own Related-Terms line.
+Derived from Doc_06 §2.3 and Lexicon-Chunks/lpclex018_libellatici-sacrificati.md.

@@ -44,6 +44,19 @@ assignments:
       above, which carries only the two bulls' own verbatim text.
       Closes a gap identified in this world's own Source Readiness
       Dossier §3.
+  - row_id: barlow_brutum-fulmen_1681--brutum-fulmen-barlow-s-own-epistle-dedicatory-epistle-to-the-2
+    work: "Brutum Fulmen - Barlow's own epistle dedicatory, epistle to the reader, and running commentary"
+    author: barlow
+    locus: "everything in the file outside the two embedded bull texts: Barlow's own dedicatory epistle, his epistle to the reader, and his running marginal/textual commentary"
+    atlas_ids:
+      - restoration-georgian-church-of-england
+    role: tradition
+    confidence: assigned
+    note: >
+      Thomas Barlow, Bishop of Lincoln (1675-1691), writing in 1681 at the height of the Exclusion
+      crisis: a Restoration bishop's own anti-papal polemic, the established church's voice in
+      this entry's own first decades. The embedded bulls are the Tridentine church's text, not
+      this entry's.
 
   - row_id: barlow_brutum-fulmen_1681--brutum-fulmen-pius-v-s-bull-regnans-in-excelsis-against-2
     work: Brutum Fulmen (Pius V's bull Regnans in Excelsis against Elizabeth I, 1570, with Paul III's bull

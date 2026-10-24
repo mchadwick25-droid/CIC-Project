@@ -1,0 +1,21 @@
+source_file: zinzendorf_sammlung-oeffentlicher-reden-pennsylvania-deu_buedingen1746.txt
+assignments:
+- row_id: zinzendorf_sammlung-oeffentlicher-reden-pennsylvania-deu_buedingen1746--eine-sammlung-offentlicher-reden-pennsylvania-discourses-of
+  work: Eine Sammlung öffentlicher Reden (Pennsylvania discourses of 1742; Büdingen 1746, part 1)
+  author: zinzendorf
+  locus: whole part
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: tradition
+  confidence: assigned
+  note: Zinzendorf preaching in Pennsylvania in 1742, dated and placed, in his own German.
+- row_id: zinzendorf_sammlung-oeffentlicher-reden-pennsylvania-deu_buedingen1746--eine-sammlung-offentlicher-reden-pennsylvania-discourses-of-2
+  work: Eine Sammlung öffentlicher Reden (Pennsylvania discourses of 1742; Büdingen 1746, part 1)
+  author: zinzendorf
+  locus: whole part
+  atlas_ids:
+  - radical-pietism-and-the-brethren-dunkers-ephrata
+  role: context
+  confidence: provisional
+  note: Preached to the mixed German religious meetings of Pennsylvania in the year of Zinzendorf's union
+    synods, which the Brethren and Ephrata declined; the other side of that encounter. Provisional.

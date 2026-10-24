@@ -1,0 +1,19 @@
+source_file: murray-john_records-of-the-life-written-by-himself_1816.txt
+authors_ruled:
+  murray-john:
+    kind: metadata-omission
+    evidence: 'The title page reads ''Records of the Life of the Rev. John Murray ... written by himself''.
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: murray-john_records-of-the-life-written-by-himself_1816--records-of-the-life-of-the-rev-john-murray-1816
+  work: Records of the Life of the Rev. John Murray (1816)
+  author: murray-john
+  locus: the autobiographical records
+  atlas_ids:
+  - early-american-unitarians-universalists
+  role: tradition
+  confidence: assigned
+  note: The founder of the Universalist thread telling his own story; the friend's continuation is a separate
+    voice.

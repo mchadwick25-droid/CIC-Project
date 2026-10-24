@@ -49,3 +49,26 @@ assignments:
       was a Calvinist is disputed, and the Orthodox synods of 1638-72 condemned it as Calvinist. Placed
       as the view from an Orthodox patriarch's confession that overlaps Reformed teaching, never as the
       Reformed cities' own voice.
+  - row_id: lucaris_confessio-and-synodal-censures-lat_1645--confessio-christianae-fidei-latin-cyril-lucaris-3
+    work: "Confessio Christianae fidei (Latin), Cyril Lucaris"
+    author: lucaris
+    locus: "the Confession of Faith from about file line 367 to 2360; publisher's prefaces at lines 39-150"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-1650-1821
+    role: context
+    confidence: assigned
+    note: >
+      Latin text of the Lucaris Confession that the 1672 Synod of Jerusalem answers chapter by
+      chapter in the vendored Robertson translation of the Synod's acts. The text argued against
+      at this entry's opening; Lucaris himself died in 1638, before the window.
+  - row_id: lucaris_confessio-and-synodal-censures-lat_1645--synodal-censures-of-the-confession-of-lucaris-by-cyril-of-2
+    work: "Synodal Censures of the Confession of Lucaris, by Cyril of Berrhoea (1639) and Parthenius (1642), Latin"
+    author: synodal-censures-of-lucaris
+    locus: "Censure of Cyril of Berrhoea from about file line 2369; Censure of Parthenius from about line 3419"
+    atlas_ids:
+      - orthodoxy-under-the-ottomans-1650-1821
+    role: context
+    confidence: assigned
+    note: >
+      The synodal censures of 1639 and 1642 that the Synod of Jerusalem of 1672 builds on; the
+      condemnation's own earlier stages, in Latin.

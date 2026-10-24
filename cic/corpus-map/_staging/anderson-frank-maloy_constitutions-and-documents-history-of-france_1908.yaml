@@ -1,0 +1,40 @@
+source_file: anderson-frank-maloy_constitutions-and-documents-history-of-france_1908.txt
+authors_ruled:
+  anderson-frank-maloy:
+    kind: metadata-omission
+    evidence: 'The title page names Frank Maloy Anderson, professor of history in the University of Minnesota,
+      as compiler. Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: anderson-frank-maloy_constitutions-and-documents-history-of-france_1908--civil-constitution-of-the-clergy-clerical-oath-decree
+  work: Civil Constitution of the Clergy, clerical oath decree, Concordat and Organic Articles (Anderson's
+    English, 1908)
+  author: anderson-frank-maloy
+  locus: the documents on the clergy 1789-1791 (church property, religious orders, the Civil Constitution,
+    the oath) and the Concordat with the Organic Articles; the rest of the volume excluded
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: context
+  confidence: assigned
+  note: The state's acts that broke and then rebuilt the French church, in an editor's translation; the
+    church's own response is in Pius VI's brief.
+- row_id: anderson-frank-maloy_constitutions-and-documents-history-of-france_1908--the-concordat-and-organic-articles-and-the-separation-law-of
+  work: The Concordat and Organic Articles, and the Separation Law of 1905 (Anderson's English, 1908)
+  author: anderson-frank-maloy
+  locus: the Concordat and Organic Articles, and the 1905 law of separation
+  atlas_ids:
+  - catholic-church-long-nineteenth-century
+  role: context
+  confidence: provisional
+  note: The concordatory regime the next century's French church lived under, to its abolition in 1905.
+- row_id: anderson-frank-maloy_constitutions-and-documents-history-of-france_1908--organic-articles-for-the-protestant-churches-1802-anderson-s
+  work: Organic Articles for the Protestant Churches (1802) (Anderson's English, 1908)
+  author: anderson-frank-maloy
+  locus: the Organic Articles for the Protestant cults
+  atlas_ids:
+  - church-of-the-desert-huguenots
+  role: transmission
+  confidence: provisional
+  note: The settlement that gave the former Desert churches state recognition in 1802, after this world's
+    window.

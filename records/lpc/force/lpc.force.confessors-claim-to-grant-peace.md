@@ -32,29 +32,29 @@ name: The Confessors' Claim to Grant Peace
 kind: ongoing
 description: >-
   People who survived interrogation without denying their faith issued written requests that named
-  lapsed persons be received back. In Cyprian's own words, "thousands of certificates were daily given,
-  contrary to the law of the Gospel." This is documented.
+  lapsed persons be received back. In Cyprian's own words, "thousands of certificates were daily
+  given, contrary to the law of the Gospel." This is documented.
 
 
-  Both sides spoke in earnest, and that was the difficulty. One side said: I stood before the magistrate
-  and did not deny Him, and I say this man may come back. The other answered: the peace of the church is
-  not any man's to give out of his own suffering, however real.
+  Both sides spoke in earnest, and that was the difficulty. One side said: I stood before the
+  magistrate and did not deny Him, and I say this man may come back. The other answered: the peace
+  of the church is not any man's to give out of his own suffering, however real.
 
 
   This force is the one tension of its kind in this world's record: the confessors' authority set
   against the peace that the bishop regulates. It also explains why the penitential discipline takes
-  such an insistent,
-  often-restated form. The process of penance was not made into a vacuum. It was built against a working
-  parallel system that was already circulating documents at scale. That parallel system is why the
-  contest over the lapsed had to be settled by a formal process, not by a bishop's word alone.
+  such an insistent, often-restated form. Penance was not made in a vacuum. It was built against a
+  working parallel system that already circulated documents on a large scale. That parallel system
+  is why the contest over the lapsed had to be settled by a formal process, not by a bishop's word
+  alone.
 
 
-  The confessors existed as a class with a claim only because the Decian edict created them. The force
-  belongs to Cyprian's phase alone. That limit rests on a check, not on an assumption from silence. The
-  stem "confessor" appears twenty times across all eight Augustine volumes in the project's library, and
-  never in this sense.
+  The Decian edict made confessors a large class with a claim. The force belongs to Cyprian's phase
+  alone. That limit rests on a check, not on an assumption from silence. The stem "confessor"
+  appears twenty times across all eight Augustine volumes in the project's library, and never in
+  this sense.
 manifestations:
 - '"thousands of certificates were daily given, contrary to the law of the Gospel" (Cyprian''s own words)'
 matrix_cell: 2B
 ---
-Re-derived from the approved Doc_08 §3 Force 2B-2 (Cell 2B, Ongoing/Internal). relations[] carries the gravity<->force edges (G2, G8) and the force<->force edges (1A-1, 2B-1) named above.
+Taken from Doc_08 §3 Force 2B-2 (Cell 2B, Ongoing/Internal). relations[] carries the gravity<->force edges (G2, G8) and the force<->force edges (1A-1, 2B-1) named above.

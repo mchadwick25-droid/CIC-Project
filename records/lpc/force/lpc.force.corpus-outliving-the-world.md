@@ -64,4 +64,4 @@ manifestations:
   no English translation of it)
 matrix_cell: 3B
 ---
-Re-derived from the approved Doc_08 §3 Force 3B-1 (Cell 3B, Ending/Internal). relations[] carries the gravity<->force edge (G7) and the force<->force edges (2A-4, 3A-1) named above.
+Taken from Doc_08 §3 Force 3B-1 (Cell 3B, Ending/Internal). relations[] carries the gravity<->force edge (G7) and the force<->force edges (2A-4, 3A-1) named above.

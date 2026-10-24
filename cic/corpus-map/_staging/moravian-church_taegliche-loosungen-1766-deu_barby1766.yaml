@@ -1,0 +1,12 @@
+source_file: moravian-church_taegliche-loosungen-1766-deu_barby1766.txt
+assignments:
+- row_id: moravian-church_taegliche-loosungen-1766-deu_barby1766--die-taglichen-loosungen-der-bruder-gemeine-fur-das-jahr-1766
+  work: Die täglichen Loosungen der Brüder-Gemeine für das Jahr 1766
+  author: moravian-church
+  locus: whole year
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: tradition
+  confidence: assigned
+  note: The congregation's daily watchwords for one year, drawn by lot and printed by the church; the
+    practice in its own printed form.

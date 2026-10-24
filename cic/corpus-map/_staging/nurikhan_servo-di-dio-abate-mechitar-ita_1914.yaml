@@ -1,0 +1,22 @@
+source_file: nurikhan_servo-di-dio-abate-mechitar-ita_1914.txt
+assignments:
+- row_id: nurikhan_servo-di-dio-abate-mechitar-ita_1914--il-servo-di-dio-abate-mechitar-sua-vita-e-suoi-tempi-1914
+  work: 'Il Servo di Dio Abate Mechitar: sua vita e suoi tempi (1914)'
+  author: nurikhan
+  locus: whole work; the appended documents carry Mechitar's own letters and the congregation's records
+  atlas_ids:
+  - armenian-christianity-era-8
+  role: tradition
+  confidence: assigned
+  note: The Mechitarist congregation telling its founder's life from its own archive; hagiographic in
+    purpose (written for the cause), which the build should weigh.
+- row_id: nurikhan_servo-di-dio-abate-mechitar-ita_1914--il-servo-di-dio-abate-mechitar-as-a-work-of-the-twentieth
+  work: Il Servo di Dio Abate Mechitar, as a work of the twentieth-century congregation
+  author: nurikhan
+  locus: preface and framing chapters
+  atlas_ids:
+  - armenian-christianity-zartonk
+  role: transmission
+  confidence: provisional
+  note: San Lazzaro's later self-understanding after the Zartonk century; provisional, since the book
+    falls after that entry's end (1906).

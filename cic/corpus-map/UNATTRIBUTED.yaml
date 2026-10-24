@@ -218,6 +218,14 @@ authors:
 
       '
     from_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
+  anderson-frank-maloy:
+    kind: metadata-omission
+    evidence: 'The title page names Frank Maloy Anderson, professor of history in the University
+      of Minnesota, as compiler. Plain-text vendored file, so cic/texts/AUTHORS.md has not
+      seen the slug yet.
+
+      '
+    from_file: anderson-frank-maloy_constitutions-and-documents-history-of-france_1908.txt
   annales-cambriae:
     kind: anonymous
     evidence: 'The Welsh annals are an anonymous compilation; the edition names its editor.
@@ -248,6 +256,20 @@ authors:
 
       '
     from_file: anf05_hippolytus-cyprian-caius-novatian.xml
+  anonymous-uniate:
+    kind: anonymous
+    evidence: The title page names no author; the text opens by protesting 'Imieniem Wielebnego
+      Jnstygatora Ruskiego' (in the name of the Reverend Ruthenian Instigator) and the title
+      says it was translated from Latin into Polish.
+    from_file: anonymous-uniate_apollogia-rusi-unitom-obrzadek-pol_1772.txt
+  anthony-susanna:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is osborn-sarah; the second correspondent,
+      Susanna Anthony, is named on the title page (file lines about 8-12) and signs her letters
+      in the text. cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: osborn-sarah_familiar-letters-with-susanna-anthony_1807.txt
   anti-donatist-dossier:
     kind: anonymous
     evidence: 'The volume''s DC.Creator names only `optatus`, but Appendices I-XVI are official
@@ -407,6 +429,13 @@ authors:
 
       '
     from_file: badger_nestorians-and-their-rituals-v1_1852.txt
+  ballou-hosea:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By Hosea Ballou, of Barnard''. Plain-text vendored file,
+      so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: ballou-hosea_treatise-on-atonement_1805.txt
   bancroft:
     kind: metadata-omission
     evidence: 'The host''s own creator field names ''Bancroft, Richard, 1544-1610'' beside
@@ -465,6 +494,20 @@ authors:
 
       '
     from_file: dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt
+  basil-of-poiana-marului:
+    kind: metadata-omission
+    evidence: 'The title page names the prefaces as written by the Elder Vasilii Polianomerul''skii,
+      Paisius''s friend; section II is headed ''Pisaniia startsa skhimonakha Vasiliia, spostnika
+      i druga blazhennago ottsa Paisiia'' (about raw scan line 3967).
+
+      '
+    from_file: paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt
+  basilian-order:
+    kind: metadata-omission
+    evidence: The title page names the work as the code of constitutions of the Order of St
+      Basil the Great, collected from the decrees of the chapters of the Congregation of the
+      Ruthenians, printed at the Basilian monastery of Pochaiv; no individual author is named.
+    from_file: basilian-order_codex-constitutionum-ordinis-s-basilii-lat_1791.txt
   baudonivia:
     kind: metadata-omission
     evidence: 'The volume prints De vita Radegundis libri II under Baudonivia''s name; the
@@ -472,6 +515,29 @@ authors:
 
       '
     from_file: fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt
+  beaumont-agnes:
+    kind: metadata-omission
+    evidence: 'The volume prints ''The Experience of Mrs. Agnes Beaumont'' with running heads
+      naming her; the narrative is in her own first person. The host names only the compiler,
+      Samuel James. cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: james-samuel_abstract-of-the-gracious-dealings-of-god_1760.txt
+  beissel:
+    kind: metadata-omission
+    evidence: 'The title page names Conrad Beissel''s Treatise on Music, from his preface
+      to the 1747 Turtel-Taube, as a text printed in this volume; the file''s leading name
+      slug is Sachse, the monograph''s author and the treatise''s translator.
+
+      '
+    from_file: sachse_music-of-ephrata-cloister-beissel-treatise_1903.txt
+  belsham:
+    kind: metadata-omission
+    evidence: 'The title page reads ''by Rev. Thomas Belsham, Essex-Street, London''. Plain-text
+      vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: belsham_american-unitarianism-brief-history_1815.txt
   benedict-of-nursia:
     kind: metadata-omission
     evidence: 'The host record names the author only as Benedict, Saint, Abbot of Monte Cassino;
@@ -479,6 +545,14 @@ authors:
 
       '
     from_file: benedict_rule-of-saint-benedict_gasquet1925.txt
+  bengel:
+    kind: metadata-omission
+    evidence: 'The title page names the volume as the life and writings of John Albert Bengel
+      and the text prints his letters, prayers and sayings in translation; the file''s leading
+      name slug is Burk, the memoir''s compiler.
+
+      '
+    from_file: burk_memoir-of-bengel_walker1837.txt
   bermudez:
     kind: metadata-omission
     evidence: The file's creator line names Castanhoso as first author. Bermudez's short account
@@ -543,6 +617,23 @@ authors:
 
       '
     from_file: ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97.txt
+  broadmead-church:
+    kind: metadata-omission
+    evidence: 'Institutional slug for the congregation whose records these are; the title
+      page reads ''The Records of a Church of Christ, meeting in Broadmead, Bristol''. The
+      host''s creator field names Edward Terrill, the elder who kept them. cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+    from_file: broadmead-church_records-1640-1687_underhill1847.txt
+  brown-thomas:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By Thomas Brown, of Cornwall, Orange County, State of
+      New-York''. Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug
+      yet.
+
+      '
+    from_file: brown-thomas_account-of-the-people-called-shakers_1812.txt
   budge:
     kind: metadata-omission
     evidence: 'The file is plain text and carries no markup to hold a creator, so the extractor
@@ -570,6 +661,23 @@ authors:
 
       '
     from_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
+  burnet:
+    kind: anonymous
+    evidence: 'The title page names no author and calls the book ''a supplement to Dr. Burnet''s
+      Letters'' (file lines about 10-25); the host''s catalogue record assigns it to Gilbert
+      Burnet. Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: burnet_three-letters-present-state-of-italy_1688.txt
+  calleja-diego:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is juana-ines-de-la-cruz; ''Aprobacion
+      del Reverendissimo Padre Diego Calleja, de la Compañia de Iesus'' is headed in the front
+      matter (file line about 376 of the raw text). cic/texts/AUTHORS.md has not seen the
+      slug yet.
+
+      '
+    from_file: juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700.txt
   callistus-cataphugiota:
     kind: metadata-omission
     evidence: The title page of tomus CXLVII names Callisti Cataphugiotae; running heads 'CALLISTI
@@ -603,6 +711,14 @@ authors:
 
       '
     from_file: calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt
+  calvinistic-methodists-wales:
+    kind: metadata-omission
+    evidence: 'Institutional slug: the title page reads ''drawn up by their own associated
+      ministers'' and names no individual; the host''s creator field reads ''Welsh Calvinistic
+      Methodist Church''. cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: calvinistic-methodists-wales_history-constitution-rules-confession_1834.txt
   camariotes:
     kind: metadata-omission
     evidence: The title page of tomus CLX names 'Matthaei Camariotae'; his Narratio lamentabilis
@@ -614,6 +730,14 @@ authors:
 
       '
     from_file: rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt
+  camisards:
+    kind: anonymous
+    evidence: 'The pamphlet speaks in the first person plural for ''the inhabitants of the
+      Cevennes'' and names no author; an institutional slug for the insurgents as a body.
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: camisards_manifesto-of-the-cevennois_1703.txt
   cananus:
     kind: metadata-omission
     evidence: 'The title page names ''Ioannes Cananus'' among the chroniclers in this volume;
@@ -642,6 +766,15 @@ authors:
 
       '
     from_file: capitulatio-de-partibus-saxoniae_pertz1881.txt
+  carli:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is pinkerton; the ''Voyage to
+      Congo by Angelo and Carli'' is named in the contents list and its title names Denis
+      de Carli of Piacenza. Also the leading slug of carli_viaggio-nel-regno-del-congo-ita_guattini1671.txt
+      in this same intake.
+
+      '
+    from_file: pinkerton_general-collection-voyages-and-travels-v16_1814.txt
   carlini:
     kind: metadata-omission
     evidence: Plain-text vendored file. The author is named on the title page printed in the
@@ -674,6 +807,14 @@ authors:
 
       '
     from_file: chamich_history-of-armenia-v2_avdall1827.txt
+  channing:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By William Ellery Channing, Minister of the Church of
+      Christ in Federal Street, Boston''. Plain-text vendored file, so cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+    from_file: channing_sermon-at-the-ordination-of-jared-sparks-baltimore_1819.txt
   chardin:
     kind: metadata-omission
     evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
@@ -683,6 +824,15 @@ authors:
 
       '
     from_file: chardin_travels-in-persia-v1_lloyd1720.txt
+  charles-thomas:
+    kind: metadata-omission
+    evidence: 'The title page names Thomas Charles as the subject and says the work was ''wedi
+      ei gyfieithu a''i gasglu'' (translated and collected) by Thomas Jones; Charles''s diary
+      entries and letters are printed in the first person throughout the life. The host lists
+      both men as creators. cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: jones-thomas_cofiant-thomas-charles-cym_1816.txt
   chirino:
     kind: metadata-omission
     evidence: The volume's own contents list reads 'Relacion de las Islas Filipinas (to be
@@ -800,6 +950,15 @@ authors:
 
       '
     from_file: capitulatio-de-partibus-saxoniae_pertz1881.txt
+  coale-josiah:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is fell; the volume binds ''A
+      Salutation to the Seed of God ... by a servant of the Lord, Josiah Coale'', printed
+      for William Warwick (file lines from about 18900), after the Marshall epistle. The title
+      page is in the file.
+
+      '
+    from_file: fell_touch-stone-and-womens-speaking-justified-bound-tracts_1667.txt
   codex-encyclius:
     kind: anonymous
     evidence: Mansi tom. 7 prints the "Codex Encyclius sive Collectio" (index at file line
@@ -822,6 +981,18 @@ authors:
 
       '
     from_file: collectio-avellana_epistulae-imperatorum-pontificum-v1-lat_guenther1895.txt
+  combe-ernest:
+    kind: metadata-omission
+    evidence: 'The title page reads ''Antoine Court et ses sermons, par Ernest Combe, professeur''.
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: court-antoine_sermons-fra_combe1896.txt
+  consett:
+    kind: metadata-omission
+    evidence: The title page reads 'by Tho. Consett, Late Chaplain to the British Factory
+      in Russia'.
+    from_file: consett_collection-of-tracts-on-peter-the-great-v2_1729.txt
   constantine:
     kind: metadata-omission
     evidence: 'div2 4.7 heading reads "The Oration of the Emperor Constantine, which he addressed
@@ -1046,6 +1217,15 @@ authors:
 
       '
     from_file: sathas_mesaionike-bibliotheke-v3-grc_1872.txt
+  davies-thomas:
+    kind: metadata-omission
+    evidence: 'The advertisement is signed from ''London, Eyre Street'', dated May 9, 1778,
+      with the signature partly garbled (''D AV I E''); the title-page imprint, also partly
+      garbled, names the book as printed for the editor, Thomas Davies, of Eyre Street. cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+    from_file: rowland-daniel_three-sermons-upon-practical-subjects_davies1778.txt
   decretals-pseudo-isidore:
     kind: pseudonymous
     evidence: 'div1 8; the volume''s own introductory notice and footnotes call these "this
@@ -1054,6 +1234,16 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  denisov-andrei:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file; the title leaves are lost in the scan, and the authorship
+      of Andrei Denisov with Semyon Denisov and Trifon Petrov is the standard attribution
+      recorded by the host''s catalogue tradition and in the obel world''s Doc_02 (Pomorskie
+      otvety entry). The answers speak for the Vyg community in the first person plural. cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+    from_file: denisov-andrei_pomorskie-otvety-rus_1911.txt
   didache:
     kind: anonymous
     evidence: 'div1 8 "The Teaching of the Twelve Apostles"; anf07 DC.Creator lists only asterius,
@@ -1097,6 +1287,30 @@ authors:
     evidence: Running head 'Synodus Hierosolymitana' from file line 40197; the prolegomena
       name Dositheus's confession (file line 4142).
     from_file: libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt
+  dunlavy:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By John Dunlavy''. Plain-text vendored file, so cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+    from_file: dunlavy_manifesto-declaration-of-the-doctrines-and-practice-of-the-church-of-christ_1818.txt
+  dyer-mary:
+    kind: metadata-omission
+    evidence: 'The title page reads ''written by herself'', and the petition is signed ''Mary
+      Dyer, Enfield, June 6, 1818''. Plain-text vendored file, so cic/texts/AUTHORS.md has
+      not seen the slug yet.
+
+      '
+    from_file: dyer-mary_brief-statement-of-the-sufferings-of-mary-dyer_1818.txt
+  early-baptists:
+    kind: anonymous
+    evidence: 'The title page names no author; it presents the tracts only as ''printed in
+      the years 1615 and 1620, and now reprinted''. The host''s creator field reads ''Helwys,
+      Thomas.'' A collective slug is used rather than a disputed personal attribution. cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+    from_file: early-baptists_persecution-for-religion-judgd-and-condemnd_1662.txt
   edessene-martyr-acts:
     kind: anonymous
     evidence: 'div2 9.9 (Acts of Sharbil), 9.11 (Martyrdom of Habib the Deacon), 9.12 (Martyrdom
@@ -1105,6 +1319,15 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  edwards-jonathan-jr:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By Jonathan Edwards, D.D., Pastor of a Church in New-Haven'';
+      the slug is kept distinct from edwards (the elder Jonathan Edwards, already in the corpus),
+      since the book answers Chauncy''s work of 1784 and calls him ''the late'' Chauncy. Plain-text
+      vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: edwards-jonathan-jr_salvation-of-all-men-strictly-examined_1790.txt
   eghishe:
     kind: metadata-omission
     evidence: 'The host record names Eghishe, Saint, Vardapet, as creator; the corpus-map
@@ -1165,6 +1388,13 @@ authors:
 
       '
     from_file: eugippius_life-of-saint-severinus_robinson1914.txt
+  evans-frederick:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By F. W. Evans''. Plain-text vendored file, so cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+    from_file: evans-frederick_shakers-compendium-of-the-origin-history-principles-rules_1859.txt
   excerpts-of-theodotus:
     kind: pseudonymous
     evidence: 'div2 4.3, titled "Excerpts of Theodotus" and DC.Creator-listed under theodotus,
@@ -1214,6 +1444,23 @@ authors:
 
       '
     from_file: collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt
+  fenelon:
+    kind: metadata-omission
+    evidence: 'The file''s leading token is innocent-xii; the title page lists ''Le Mandement
+      de Mgr. l''Archevêque Duc de Cambrai, Sa Lettre au Pape'' (file lines about 10-20),
+      and the Mandement and letter are headed by name at file lines about 535-900. Plain-text
+      vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: innocent-xii_cum-alias-with-fenelon-mandement-lat-fra_1699.txt
+  fenstanton-church:
+    kind: metadata-omission
+    evidence: 'Institutional slug for the Fenstanton and Warboys congregations; the title
+      page reads ''Records of the Churches of Christ, gathered at Fenstanton, Warboys, and
+      Hexham''. cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: fenstanton-church_records-of-fenstanton-warboys-hexham_underhill1854.txt
   ferrandus-carthage:
     kind: metadata-omission
     evidence: 'PL 65 prints Ferrandus of Carthage''s Life of Fulgentius; the host record names
@@ -1250,17 +1497,30 @@ authors:
 
       '
     from_file: fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt
-  french-reformed-synods:
-    kind: metadata-omission
-    evidence: 'Not CCEL-derived markup (a plain-text archive.org OCR extract), so no automatic
-      author slug exists. The Confession of Faith, the Discipline and the synod acts in this
-      volume are corporate acts of the national synods of the Reformed Churches of France
-      (Paris 1559 to Loudun 1659), translated by John Quick from manuscript acts; Quick is
-      the compiler, not the author of those acts. A corporate slug on the pattern of council-of-trent
-      and synod-of-dort.
+  freeman-james:
+    kind: anonymous
+    evidence: 'The title page names no author; the host catalogue names James Freeman. Plain-text
+      vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
 
       '
-    from_file: quick_synodicon-in-gallia-reformata_1692.txt
+    from_file: freeman-james_sermons-on-particular-occasions_1814.txt
+  french-church-of-london:
+    kind: anonymous
+    evidence: 'No author is legible on the title page; the host''s catalogue heading is ''Eglise
+      Françoise de Londres. Consistory''. Institutional slug. Plain-text vendored file, so
+      cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: french-church-of-london_examen-du-theatre-sacre-fra_1708.txt
+  french-reformed-synods:
+    kind: metadata-omission
+    evidence: 'The title page presents the acts of the synods of the Reformed churches of
+      France held in the Desert, with no personal author. The institutional slug already used
+      in the corpus map for the French Reformed synods (the-huguenots); not yet in cic/texts/AUTHORS.md
+      as a file creator.
+
+      '
+    from_file: french-reformed-synods_synodes-du-desert-t1-fra_hugues1885.txt
   fulgentius-ruspe:
     kind: metadata-omission
     evidence: 'PL 65 prints Fulgentius of Ruspe''s works; the host record names only Google
@@ -1288,6 +1548,23 @@ authors:
 
       '
     from_file: bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839.txt
+  gay-ebenezer:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By Ebenezer Gay, A.M., Pastor of the First Church of
+      Christ in Hingham''. Plain-text vendored file, so cic/texts/AUTHORS.md has not seen
+      the slug yet.
+
+      '
+    from_file: gay-ebenezer_natural-religion-as-distinguished-from-revealed-dudleian-lecture_1759.txt
+  general-baptist-assembly:
+    kind: metadata-omission
+    evidence: 'Institutional slug for the body whose minutes these are; the title page reads
+      ''Minutes of the General Assembly of the General Baptist Churches in England'', and
+      the host''s creator field names ''General Association of General Baptists. General Assembly''.
+      cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: general-baptist-assembly_minutes-v1-1654-1728_whitley1909.txt
   gennadius-scholarius:
     kind: metadata-omission
     evidence: The file name carries the collection's title; the host record's contents and
@@ -1300,6 +1577,14 @@ authors:
       DELIBERATELY NOT the existing slug `gennadius`, which is Gennadius of MARSEILLES, who
       continued Jerome's catalogue - a different man.
     from_file: npnf214_seven-ecumenical-councils.xml
+  george-david:
+    kind: metadata-omission
+    evidence: 'The register prints ''An Account of the Life of Mr. David George'', in his
+      own first person. The host names only the editor, John Rippon. cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+    from_file: rippon_baptist-annual-register-1790-1793_1793.txt
   georgian-life-of-nino:
     kind: anonymous
     evidence: 'The Georgian Life of Nino exists in several anonymous medieval redactions;
@@ -1419,6 +1704,21 @@ authors:
 
       '
     from_file: npnf205_gregory-nyssa-dogmatic-treatises.txt
+  grosvenor:
+    kind: metadata-omission
+    evidence: 'The title page reads ''Roxalana L. Grosvenor''. Plain-text vendored file, so
+      cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: grosvenor_shakers-covenant-with-a-brief-outline-of-shaker-history_1873.txt
+  guattini:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is carli; Michelangelo Guattini
+      is named on the title page (file lines about 7-10) as co-author of the narrative. cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+    from_file: carli_viaggio-nel-regno-del-congo-ita_guattini1671.txt
   guelferbytanus-tractatus-novem:
     kind: anonymous
     evidence: 'The volume''s own title page names ''SS. Optati Milevitani, Quodvultdei Carthaginiensis
@@ -1427,6 +1727,14 @@ authors:
 
       '
     from_file: augustine_sermones-guelferbytani-lat_morin1917.txt
+  hargrove:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By John Hargrove, Minister of the New Jerusalem Church,
+      Baltimore''. Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug
+      yet.
+
+      '
+    from_file: hargrove_sermon-on-the-leading-doctrines-of-the-new-jerusalem-church_1803.txt
   harmonia-1608:
     kind: anonymous
     evidence: The pamphlet 'Гармонія Восточной церкви съ костеломъ Римскимъ' (1608) is printed
@@ -1467,6 +1775,21 @@ authors:
 
       '
     from_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
+  hexham-church:
+    kind: metadata-omission
+    evidence: 'Institutional slug for the Hexham congregation; the contents list ''Records
+      and Letters of Hexham church, Northumberland''. cic/texts/AUTHORS.md has not seen the
+      slug yet.
+
+      '
+    from_file: fenstanton-church_records-of-fenstanton-warboys-hexham_underhill1854.txt
+  hindmarsh:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By Robert Hindmarsh''. Plain-text vendored file, so
+      cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: hindmarsh_letters-to-dr-priestley_1792.txt
   historia_acephala:
     kind: anonymous
     evidence: 'div3 title "The Historia Acephala" under div1 25 "Letters of Athanasius with
@@ -1490,6 +1813,15 @@ authors:
 
       '
     from_file: chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt
+  hochmann:
+    kind: metadata-omission
+    evidence: 'Chapter VI prints "Hochmann''s Confession of Faith, written in prison at Detmold
+      in 1702" in German facsimile and in Brumbaugh''s literal translation, naming Ernst Christoph
+      Hochmann von Hochenau as its author; the file''s leading name slug is Brumbaugh, the
+      volume''s compiler.
+
+      '
+    from_file: brumbaugh_history-german-baptist-brethren_1899.txt
   holtby-richard:
     kind: metadata-omission
     evidence: 'Paper heading at file line 5017, "Father Richard Holtby on Persecution in the
@@ -1497,6 +1829,15 @@ authors:
 
       '
     from_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
+  hopkins-samuel:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is osborn-sarah, the diarist whose
+      words the volume quotes; the compiler Samuel Hopkins is named on the title page (file
+      lines about 20-30) and his connecting narrative is assigned under his own slug. cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+    from_file: osborn-sarah_memoirs-compiled-from-her-diaries_hopkins1799.txt
   howard:
     kind: metadata-omission
     evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet.
@@ -1507,6 +1848,13 @@ authors:
 
       '
     from_file: howard_christians-of-st-thomas-and-their-liturgies_1864.txt
+  hugues-edmond:
+    kind: metadata-omission
+    evidence: 'The title page reads ''publiés avec une introduction par Edmond Hugues''. Plain-text
+      vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: french-reformed-synods_synodes-du-desert-t1-fra_hugues1885.txt
   ignatius:
     kind: metadata-omission
     evidence: 'div1 5 title "IGNATIUS" over the epistles in shorter, longer and Syriac recensions;
@@ -1628,6 +1976,14 @@ authors:
 
       '
     from_file: jonas-bobbio_life-of-st-columban_munro1895.txt
+  jones-n-cynhafal:
+    kind: metadata-omission
+    evidence: 'The title page reads ''dan olygiad N. Cynhafal Jones'' and names the life of
+      the author and the critical essay as ''gan y golygydd'' (by the editor); the preface
+      is signed by him. cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: williams-pantycelyn_gweithiau-v1-cym_cynhafal-jones1887.txt
   jordanes:
     kind: metadata-omission
     evidence: 'The eBook names Jordanes as author of the Getica; the corpus-map has no earlier
@@ -1679,6 +2035,15 @@ authors:
 
       '
     from_file: chronica-minora-pars-prior-versio-lat_guidi1903.txt
+  kings-chapel:
+    kind: metadata-omission
+    evidence: 'The title page names the First Episcopal Church in Boston as the user and no
+      compiler; the host names King''s Chapel (Boston, Mass.) and James Freeman. An institutional
+      slug for the congregation. Plain-text vendored file, so cic/texts/AUTHORS.md has not
+      seen the slug yet.
+
+      '
+    from_file: kings-chapel_liturgy-collected-principally-from-the-book-of-common-prayer_1785.txt
   kopystenskij:
     kind: metadata-omission
     evidence: The volume's table of contents (about file line 336) lists 'Palinodiia. Sochinenie
@@ -1714,12 +2079,37 @@ authors:
 
       '
     from_file: labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt
+  lacy-john:
+    kind: metadata-omission
+    evidence: 'The title page names John Lacy as translator and author of the preface; Lacy
+      is the leading slug of another file in this spec (lacy-john_warnings-of-the-eternal-spirit_1707.txt)
+      and not yet in cic/texts/AUTHORS.md.
+
+      '
+    from_file: misson_cry-from-the-desart_lacy1707.txt
+  latrobe-benjamin:
+    kind: anonymous
+    evidence: 'The title page names no author (''in a letter to a friend''); the host''s metadata
+      and the standard Moravian bibliography assign it to Benjamin La Trobe, then the Brethren''s
+      secretary in London. Plain-text vendored file, so cic/texts/AUTHORS.md has not seen
+      the slug yet.
+
+      '
+    from_file: latrobe-benjamin_succinct-view-of-the-missions_1771.txt
   lazar-parpetsi:
     kind: metadata-omission
     evidence: 'The contents list names Lazar of Parp; the host record names only Langlois.
 
       '
     from_file: langlois_collection-historiens-armenie-tome2-fra_1869.txt
+  lazar-romanov:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is the editor subbotin; the priest
+      Lazar''s petition and writings are printed under his name in the volume. cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+    from_file: subbotin_materialy-dlia-istorii-raskola-v4-chelobitnye-rus_1878.txt
   lea:
     kind: metadata-omission
     evidence: Plain-text vendored file. The author is named on the title page printed in the
@@ -1747,6 +2137,12 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  lettres-edifiantes:
+    kind: anonymous
+    evidence: The title page names the collection only as letters 'écrites des missions étrangères'
+      by Jesuit missionaries; the opening letter is headed 'Du Père Monier, de la Compagnie
+      de Jésus, au Père Fleuriau'.
+    from_file: lettres-edifiantes_memoires-du-levant-t3-fra_1780.txt
   liber-genealogus:
     kind: anonymous
     evidence: 'An anonymous North African compilation per Mommsen''s own editorial discussion
@@ -1773,6 +2169,28 @@ authors:
 
       '
     from_file: liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt
+  liele-george:
+    kind: metadata-omission
+    evidence: 'The register quotes ''George Liele, called also George Sharp'', ''in a letter
+      dated Kingston, Dec. 18, 1791'', in his own first person, and prints further letters
+      under his name. The host names only the editor, John Rippon. cic/texts/AUTHORS.md has
+      not seen the slug yet.
+
+      '
+    from_file: rippon_baptist-annual-register-1790-1793_1793.txt
+  ligarides:
+    kind: metadata-omission
+    evidence: The title page names 'the Answers of the Metropolitan of Gaza Paisius Ligarides';
+      his answers are printed under each question as 'ANSWER' (from file line about 5599).
+      The host names only Palmer.
+    from_file: nikon_replies-against-streshnev-and-ligarides_palmer1871.txt
+  lindsey:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By Theophilus Lindsey, M.A.''. Plain-text vendored file,
+      so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt
   lismore-lives:
     kind: anonymous
     evidence: 'Anonymous Middle Irish lives in the Book of Lismore; the edition names only
@@ -1914,6 +2332,15 @@ authors:
       the volume opens with his Apology against the confession of Mark of Ephesus (file line
       658); the file's leading slug is gennadius-scholarius.
     from_file: gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt
+  manila-city:
+    kind: anonymous
+    evidence: 'The title page names no author; it presents the fiestas as the city of Manila''s
+      (''de la novilissima ciudad de Manila'', file lines about 38-40 of the raw text) and
+      names Gaspar Aquino de Belén only as printer (''por D. Gaspar Aquino de Belen'', about
+      line 105). An institutional slug, new to cic/texts/AUTHORS.md.
+
+      '
+    from_file: manila-city_leales-demostraciones-fiestas-ss-sacramento-guia-spa_1709.txt
   mara-bar-serapion:
     kind: metadata-omission
     evidence: 'div2 9.17 "A Letter of Mara, Son of Serapion" — the title names the author,
@@ -1938,6 +2365,14 @@ authors:
 
       '
     from_file: mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt
+  marie-de-l-incarnation-compiegne:
+    kind: metadata-omission
+    evidence: 'The title page reads ''ouvrage posthume de la Sœur Marie de l''Incarnation,
+      carmélite du même monastère''. A new slug, distinguished by place from Marie de l''Incarnation
+      of Quebec. Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: marie-de-l-incarnation-compiegne_histoire-des-carmelites-de-compiegne-fra_1836.txt
   marius-avenches:
     kind: metadata-omission
     evidence: 'The volume''s own heading "MARII EPISCOPI AVENTICENSIS CHRONICA"; the host
@@ -1961,6 +2396,14 @@ authors:
 
       '
     from_file: marot-beze_pseaumes-mis-en-rime-francoise-fra_1562.txt
+  marshall-charles:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is fell; the volume binds a 1673
+      epistle signed ''Charles Marshall, Tetherton in Wiltshire'' (file lines about 17900-18900)
+      after the Fell tracts. The signature and imprint are in the file.
+
+      '
+    from_file: fell_touch-stone-and-womens-speaking-justified-bound-tracts_1667.txt
   martin-braga:
     kind: metadata-omission
     evidence: 'The title names Martin von Bracara''s De correctione rusticorum; the corpus-map
@@ -2043,10 +2486,52 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  mayhew:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By Jonathan Mayhew, A.M., Pastor of the West Church
+      in Boston''. Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug
+      yet.
+
+      '
+    from_file: mayhew_seven-sermons_1749.txt
+  mcnemar:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By Richard M''Nemar''. Plain-text vendored file, so
+      cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: mcnemar_kentucky-revival-with-the-entrance-of-shakerism_1808.txt
+  meindaerts:
+    kind: metadata-omission
+    evidence: 'The file''s leading token is church-of-utrecht; the pastoral letter that opens
+      the volume is headed ''Pierre Jean Meindarts, par la grâce de Dieu, Archevêque d''Utrecht''
+      (file lines about 40-60). Plain-text vendored file, so cic/texts/AUTHORS.md has not
+      seen the slug yet.
+
+      '
+    from_file: church-of-utrecht_recueil-de-divers-temoignages-fra_1763.txt
   melito-of-sardis:
     kind: metadata-omission
     evidence: div2 10.5 'Melito, the Philosopher' (of Sardis, per the notice).
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  melkite-church:
+    kind: metadata-omission
+    evidence: 'The volume''s title is ''Synodi Melchitarum, 1716-1902''; the synod acts printed
+      in it (for example ''Synodus in monasterio Sancti Salvatoris, 1736 martii 26'', about
+      raw scan line 26213) carry the Melkite patriarch''s and bishops'' names. The host names
+      only Mansi.
+
+      '
+    from_file: mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt
+  merolla:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is pinkerton, the editor; ''Merolla''s
+      Voyage to Congo'' is named in the contents list (file lines about 54-70) and in its
+      own running heads. Also the leading slug of merolla_breve-e-succinta-relatione-viaggio-congo-ita_piccardo1692.txt
+      in this same intake.
+
+      '
+    from_file: pinkerton_general-collection-voyages-and-travels-v16_1814.txt
   merovingian-councils:
     kind: anonymous
     evidence: 'Conciliar acts of the Frankish church; the edition names only its editor.
@@ -2060,6 +2545,14 @@ authors:
 
       '
     from_file: passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt
+  methodist-preachers:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file; a collective slug for the lay preachers whose autobiographies
+      the volume prints, each signed by its own author in the text (the host names only the
+      editor, Thomas Jackson). cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: methodist-preachers_lives-of-early-methodist-preachers-v1_jackson1865.txt
   michael-the-syrian:
     kind: metadata-omission
     evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md (generated from CCEL XML
@@ -2071,6 +2564,22 @@ authors:
 
       '
     from_file: michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt
+  miller-peter:
+    kind: metadata-omission
+    evidence: 'The title page names Rev. Peter Miller (Brother Jabez), Prior of the Ephrata
+      Community, as author of the manuscript letter written for Benjamin Franklin and as translator
+      of the proverbs; the file''s leading name slug is Beissel, author of the proverbs themselves.
+
+      '
+    from_file: beissel_mystical-proverbs-and-millers-letter-to-franklin_sachse1912.txt
+  mitrofan-schemamonk:
+    kind: metadata-omission
+    evidence: 'The Neamt brotherhood''s foreword before the Life (about raw scan lines 760-830)
+      says the brethren asked the schemamonk Mitrofan to write the Life, then compiled the
+      printed text from all versions holding chiefly to his. The host names only Paisius.
+
+      '
+    from_file: paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt
   mogila:
     kind: metadata-omission
     evidence: The file name carries the series title; the contents list (about file line 34710)
@@ -2085,6 +2594,34 @@ authors:
 
       '
     from_file: monastery-of-epiphanius-thebes-pt2-coptic-ostraca_crum1926.txt
+  moravian-church:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+      The volume is the Unitas Fratrum''s own collection of its instruments, with no personal
+      author; the host names ''United Brethren in Christ'' as creator. A new institutional
+      slug for the renewed church of 1722 onward, kept distinct from unity-of-the-brethren
+      (the old Czech Unity).
+
+      '
+    from_file: moravian-church_acta-fratrum-unitatis-in-anglia_1749.txt
+  morozova:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is the editor barskov; Boyarynia
+      Feodosia Prokopievna Morozova''s letters are printed under her name as documents 13,
+      14, 15 and 19 (table of contents, file lines about 30-45). cic/texts/AUTHORS.md has
+      not seen the slug yet.
+
+      '
+    from_file: barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912.txt
+  morozova-zhitie:
+    kind: anonymous
+    evidence: 'The Life (Povest'') of Boyarynia Feodosia Morozova is anonymous in the manuscripts;
+      Subbotin prints it under its title in this volume (contents at file lines about 60-120).
+      The standard attribution to a member of her household (often to her brother Fyodor Sokovnin)
+      is scholarly, not from the text. An anonymous-work slug.
+
+      '
+    from_file: subbotin_materialy-dlia-istorii-raskola-v8-avvakum-zhitie-morozovoi-rus_1887.txt
   morris-john:
     kind: metadata-omission
     evidence: 'The title page (file line 1 header; Gutenberg transcription of the 1871 title
@@ -2117,6 +2654,22 @@ authors:
 
       '
     from_file: patrick_writings-and-life-with-muirchu-eng_white1920.txt
+  muratori:
+    kind: pseudonymous
+    evidence: 'The title page names ''Lamindo Pritanio'', Muratori''s published anagram pseudonym;
+      the host''s catalogue gives Lodovico Antonio Muratori. Plain-text vendored file, so
+      cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: muratori_della-regolata-divozione-de-cristiani-ita_1748.txt
+  murray-john:
+    kind: metadata-omission
+    evidence: 'The title page reads ''Records of the Life of the Rev. John Murray ... written
+      by himself''. Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug
+      yet.
+
+      '
+    from_file: murray-john_records-of-the-life-written-by-himself_1816.txt
   mush-john:
     kind: metadata-omission
     evidence: 'The volume''s table of contents (file line about 438) and the paper heading
@@ -2146,6 +2699,24 @@ authors:
 
       '
     from_file: nennius_history-of-the-britons-giles.txt
+  neronov:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is the editor subbotin; Ivan (in
+      monastic profession Grigorii) Neronov''s letters and petitions are printed under his
+      name in the documents (file lines from about 300 on). cic/texts/AUTHORS.md has not seen
+      the slug yet.
+
+      '
+    from_file: subbotin_materialy-dlia-istorii-raskola-v2-dokumenty-rus_1875.txt
+  new-jerusalem-church:
+    kind: metadata-omission
+    evidence: 'The minutes are the Conference''s own act, with no personal author; the host
+      names ''New Jerusalem Church'' as creator. An institutional slug for the New Church
+      of 1787 onward. Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug
+      yet.
+
+      '
+    from_file: new-jerusalem-church_minutes-of-the-first-general-conference_hindmarsh1789.txt
   nicene-creed:
     kind: anonymous
     evidence: 'div1 11 "The Nicene Creed"; no DC.Creator. A conciliar text, not a person''s
@@ -2159,6 +2730,15 @@ authors:
       with 'DE SOBRIETATE ET CORDIS CUSTODIA' at file lines 38202-38206; the file's leading
       slug is nicephorus-callistus.
     from_file: nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt
+  nikita-dobrynin:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is the editor subbotin; Nikita
+      Dobrynin''s petition is printed under his name with Subbotin''s introduction (''Челобитная
+      Никиты''), file lines from about 100 on. cic/texts/AUTHORS.md has not seen the slug
+      yet.
+
+      '
+    from_file: subbotin_materialy-dlia-istorii-raskola-v4-chelobitnye-rus_1878.txt
   nikonovskaia-letopis:
     kind: anonymous
     evidence: The Nikon Chronicle continuation is edited from named manuscript copies with
@@ -2180,6 +2760,13 @@ authors:
 
       '
     from_file: harris_odes-and-psalms-of-solomon_harris1911.txt
+  optina-pustyn:
+    kind: anonymous
+    evidence: 'The title page reads ''Izdanie Kozel''skoi Vvedenskoi Optinoi Pustyni''; the
+      opening ''Predislovie ot russkago izdatelia'' (raw scan line 45) is unsigned.
+
+      '
+    from_file: paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt
   ousebridge-kidcote-prisoner:
     kind: anonymous
     evidence: 'Paper IV is headed "Notes by a Prisoner in Ousebridge Kidcote" (file line 10657);
@@ -2251,6 +2838,14 @@ authors:
 
       '
     from_file: anf03_tertullian.xml
+  patriarchate-of-constantinople:
+    kind: metadata-omission
+    evidence: 'The title page names the documents as the ordinances, letters, rulings and
+      decrees of the patriarchs of Constantinople, each act under its issuing patriarch''s
+      name; the host credits only the editor Gedeon.
+
+      '
+    from_file: gedeon_kanonikai-diataxeis-v1-grc_1888.txt
   patriarchate-of-constantinople-register-1310-1372:
     kind: anonymous
     evidence: 'Miklosich and Muller print ''Acta patriarchatus Constantinopolitani MCCCXV-MCCCCII''
@@ -2325,6 +2920,14 @@ authors:
 
       '
     from_file: phoebadius-agen_contra-arianos-with-caesarius-didymus-lat_caillau1836.txt
+  pigafetta:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is lopes, the informant; ''By
+      Filippo Pigafetta, in Rome, 1591'' stands on the title page (file lines about 15-20).
+      cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: lopes_report-of-the-kingdom-of-congo_hutchinson1881.txt
   pilate-cycle:
     kind: pseudonymous
     evidence: 'div2 7.18-7.24: letters and reports purporting to be Pilate''s own (Letter
@@ -2334,6 +2937,20 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  pinkerton:
+    kind: metadata-omission
+    evidence: The title page reads 'with a preliminary memoir on the ecclesiastical establishment
+      in Russia; and an appendix, containing an account of the origin and different sects
+      of Russian Dissenters. By Robert Pinkerton.'
+    from_file: platon_present-state-of-the-greek-church-in-russia_pinkerton1814.txt
+  pius-vii:
+    kind: metadata-omission
+    evidence: 'The file''s first document is headed ''Bull of Pope Pius VII for the Restoration
+      of the Order of Jesuits''. Plain-text vendored file, so cic/texts/AUTHORS.md has not
+      seen the slug yet.
+
+      '
+    from_file: clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt
   plethon:
     kind: metadata-omission
     evidence: The title page of tomus CLX names 'Georgii Gemisti Plethonis'; the volume prints
@@ -2362,6 +2979,13 @@ authors:
     evidence: The title page (file lines 21-22) names the Tale without an author and the preface
       edits it as an anonymous text from the same manuscripts; treated as a work-entity.
     from_file: polnoe-sobranie-russkikh-letopisei_t14-1-povest-o-tsare-feodore-i-novyi-letopisets-rus_1910.txt
+  priestley:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By Joseph Priestley, LL.D. F.R.S.''. Plain-text vendored
+      file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: priestley_discourses-on-the-evidences-of-revealed-religion-philadelphia_1796.txt
   primasius-hadrumetum:
     kind: metadata-omission
     evidence: 'PL 68 prints Primasius''s commentary on Revelation; the host record names only
@@ -2376,6 +3000,13 @@ authors:
 
       '
     from_file: sathas_mesaionike-bibliotheke-v3-grc_1872.txt
+  prokopovich:
+    kind: metadata-omission
+    evidence: The contents name 'A Funeral Oration by the Arch-Bishop of Novogrod, then Arch-Bishop
+      of Pleskow and Narva' and 'A Panegyrical Oration in the Praise of Peter the Great, by
+      the same Arch-Bishop' (file lines about 30-50 of the contents); those are the sees Feofan
+      Prokopovich held. The host names no author.
+    from_file: consett_collection-of-tracts-on-peter-the-great-v2_1729.txt
   protevangelium-of-james:
     kind: pseudonymous
     evidence: 'div2 7.4 title; the text closes claiming James''s authorship. No DC.Creator
@@ -2383,6 +3014,22 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  proud-joseph:
+    kind: metadata-omission
+    evidence: 'The title page reads ''Hymns and Spiritual Songs, by the Rev. Mr. Joseph Proud,
+      Minister of the New Church''. Plain-text vendored file, so cic/texts/AUTHORS.md has
+      not seen the slug yet.
+
+      '
+    from_file: new-jerusalem-church_liturgy-with-proud-hymns-and-spiritual-songs_baltimore1793.txt
+  proyart:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is pinkerton; ''History of Loango,
+      Kakongo, and other Kingdoms in Africa. By the Abbe Proyart'' is headed in the text and
+      named in the contents list. cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: pinkerton_general-collection-voyages-and-travels-v16_1814.txt
   pseudo-clement:
     kind: pseudonymous
     evidence: 'div1 6 is titled "Pseudo-Clementine Literature" in the volume''s own markup.
@@ -2438,6 +3085,15 @@ authors:
 
       '
     from_file: anf03_tertullian.xml
+  pughe-grg:
+    kind: metadata-omission
+    evidence: 'The title page reads ''Translated into English Verse by George Richard Gould
+      Pughe, Vicar of Mellor, near Blackburn'', and the preface is signed ''G. R. G. Pughe,
+      Mellor Vicarage, Blackburn, Christmas, 1900''. cic/texts/AUTHORS.md has not seen the
+      slug yet.
+
+      '
+    from_file: griffiths-ann_hymns-in-english-verse_pughe1900.txt
   quadratus:
     kind: metadata-omission
     evidence: 'div2 10.3 "Quadratus, Bishop of Athens" names the author; anf08 DC.Creator
@@ -2530,6 +3186,15 @@ authors:
     kind: metadata-omission
     evidence: div2 10.13 'Serapion, Bishop of Antioch'.
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  shakers:
+    kind: metadata-omission
+    evidence: 'The title page names no compiler (''collected from living witnesses, in union
+      with the Church''); the host names Rufus Bishop and Seth Youngs Wells. An institutional
+      slug for the United Society of Believers, as moravian-church is for the Brethren. Plain-text
+      vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: shakers_testimonies-of-mother-ann-lee-and-the-elders_bishop-wells1888.txt
   skarga:
     kind: metadata-omission
     evidence: The editors' preface in this volume names 'Петра Скарги' (Piotr Skarga) as author
@@ -2544,6 +3209,14 @@ authors:
 
       '
     from_file: wulfila_gothic-bible-skeireins-calendar-got-deu_bernhardt1884.txt
+  smith-james:
+    kind: metadata-omission
+    evidence: 'The body names ''col. James Smith'' as author of the pieces reprinted; the
+      host catalogue names James Smith as creator. Plain-text vendored file, so cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+    from_file: smith-james_shakerism-detected_1810.txt
   society-of-jesus:
     kind: anonymous
     evidence: 'The Constitutions were principally drafted by Ignatius of Loyola, but this
@@ -2556,6 +3229,15 @@ authors:
 
       '
     from_file: jesuit-constitutions_constitutiones-societatis-iesu-lat_1606.txt
+  solovetsky-monastery:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is the editor subbotin; the petitions
+      are the Solovetsky brethren''s collective documents, signed by name (''Поп Кирилъ руку
+      приложилъ ...''), file lines from about 400 on. An institutional slug. cic/texts/AUTHORS.md
+      has not seen it yet.
+
+      '
+    from_file: subbotin_materialy-dlia-istorii-raskola-v3-dokumenty-solovki-rus_1876.txt
   sophronius-jerusalem:
     kind: metadata-omission
     evidence: 'The volume''s own headings "EPISTOLA SYNODICA AD SERGIUM CP." and the Sophronius
@@ -2594,6 +3276,13 @@ authors:
 
       '
     from_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
+  swedenborg:
+    kind: metadata-omission
+    evidence: 'The title page reads ''ab Emanuele Swedenborg, Domini Jesu Christi servo''.
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+    from_file: swedenborg_vera-christiana-religio-lat_1771.txt
   swiss-brethren:
     kind: anonymous
     evidence: 'Böhmer''s section IV heading, "Die sieben Artikel von Schlatt am Randen" (file
@@ -2859,6 +3548,15 @@ authors:
       an author; the editors' preface attributes it by conjecture ('по догадкамъ') to Ipatij
       Potij; about file lines 7485-10489.
     from_file: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882.txt
+  universalist-church:
+    kind: metadata-omission
+    evidence: 'The title page names the General Convention of Universalists as the body that
+      ordered the hymnal; the preface names the committee. An institutional slug for the Universalist
+      convention and its successors. Plain-text vendored file, so cic/texts/AUTHORS.md has
+      not seen the slug yet.
+
+      '
+    from_file: universalist-church_hymns-composed-by-order-of-the-general-convention_1808.txt
   ursinus-olevianus:
     kind: metadata-omission
     evidence: 'Not CCEL-derived markup. The file''s own intake header credits "Zacharias Ursinus
@@ -3010,6 +3708,13 @@ authors:
 
       '
     from_file: wigram_assyrians-and-their-neighbours_1929.txt
+  winchester-elhanan:
+    kind: metadata-omission
+    evidence: 'The title page names Elhanan Winchester. Plain-text vendored file, so cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+    from_file: winchester-elhanan_universal-restoration-in-dialogues_1788.txt
   wulfila:
     kind: metadata-omission
     evidence: 'The title names the Bible as Vulfila''s; the host record names only the editor.
@@ -3030,6 +3735,15 @@ authors:
 
       '
     from_file: morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt
+  youngs-benjamin-seth:
+    kind: anonymous
+    evidence: 'The title page names no author (''published by order of the Ministry, in union
+      with the Church''); the host catalogue names Benjamin Seth Youngs, with David Darrow,
+      as authors. Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug
+      yet.
+
+      '
+    from_file: youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt
   zakaria:
     kind: metadata-omission
     evidence: 'The volume''s title page names Zakaria of Kanaker (deacon) as the author of

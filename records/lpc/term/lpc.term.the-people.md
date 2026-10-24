@@ -23,11 +23,12 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: corroborating
   formation_confidence: Documented
-  divergence_note: 'This world''s own corpus does not attest the Latin plebs as either bishop''s own word:
-    a sweep of the vendored Cyprian corpus returns exactly three occurrences, all three inside the 19th-century
-    American editor''s own introductory and elucidatory prose, none inside Cyprian''s own letters. ''The
-    people'' is this corpus''s own recurring English rendering for the congregation as an acting body,
-    disclosed here as a working handle rather than an attested headword.'
+  divergence_note: 'In the vendored English edition of Cyprian the Latin plebs occurs exactly three times, all inside the
+    19th-century American editor''s own introductory and elucidatory prose, none inside Cyprian''s own
+    letters. Cyprian''s Latin does use it: Hartel''s letters carry plebs in running text, 89 whole-word
+    occurrences with notes excluded, and letter 43 is headed CYPRIANVS PLEBI VNIVERSAE S. ''The people''
+    is the English volume''s own recurring rendering for the congregation as an acting body. It is a working
+    handle, and whether plebs becomes the world word is not settled.'
 sources:
 - source_id: lpc.source.cyprian-epistles
   locus: Epistle XXXIX, addressed to the people concerning five schismatic presbyters
@@ -55,16 +56,16 @@ false_friend:
 senses:
   informational: We are not an audience. We put men into office and say so out loud; we can also stand
     in front of a bishop's own seat and refuse to go home. At Hippo in 411 the people wanted a particular
-    wealthy man made their presbyter and did not get him; they clamoured, they abused another bishop present,
+    wealthy man made their presbyter and did not get the ordination; they clamoured, they abused another bishop present,
     and when told the bishop was bound by a promise they grew still more excited, calculating the promise
     might break. He held his ground. Real leverage, loudly exercised, and finally bounded by one man's
     refusal -- that is the shape of it. This is the active face of the flock and the ground of suffrage.
   evidential: Epistle XXXIX is addressed to the people concerning five schismatic presbyters; Letter CXXVI
     carries the Hippo episode, re-verified at source; Augustine's own account cites 'the love of Valerius
-    and the importunity of the people.' Our own corpus does not attest the Latin plebs as either bishop's
-    own word -- a sweep returns exactly three occurrences, all inside the 19th-century editor's own prose,
-    none inside Cyprian's own letters -- so 'the people' is our corpus's own recurring English rendering,
-    not an attested Latin headword.
+    and the importunity of the people.' In the vendored English edition of Cyprian the Latin plebs occurs
+    only three times, all inside the 19th-century editor's own prose. Cyprian's Latin letters do use
+    it in running text, so 'the people' is the English volume's recurring rendering and a working handle,
+    not a settled headword.
   translational: A modern listener may hear either a passive congregation or a modern democratic electorate
     with formal voting rights. Neither is right. A corporate body whose consent and demand genuinely constitute
     a call to office, and which can be exerted disruptively, but which holds no procedural mechanism and

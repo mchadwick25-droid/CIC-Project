@@ -1,0 +1,12 @@
+source_file: carey-william_enquiry-into-the-obligations-of-christians_1792.txt
+assignments:
+- row_id: carey-william_enquiry-into-the-obligations-of-christians_1792--an-enquiry-into-the-obligations-of-christians-to-use-means
+  work: An Enquiry into the Obligations of Christians to use means for the conversion of the heathens
+    (1792)
+  author: carey-william
+  locus: whole work
+  atlas_ids:
+  - the-baptists
+  role: tradition
+  confidence: assigned
+  note: The founding text of the Baptist missionary movement, by its first missionary.

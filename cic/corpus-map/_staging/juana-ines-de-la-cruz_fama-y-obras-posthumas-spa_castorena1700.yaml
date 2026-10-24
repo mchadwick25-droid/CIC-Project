@@ -1,0 +1,36 @@
+source_file: juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700.txt
+authors_ruled:
+  calleja-diego:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is juana-ines-de-la-cruz; ''Aprobacion del
+      Reverendissimo Padre Diego Calleja, de la Compañia de Iesus'' is headed in the front matter (file
+      line about 376 of the raw text). cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700--respuesta-a-sor-filotea-de-la-cruz-exercicios-devotos-for
+  work: Respuesta a Sor Filotea de la Cruz; Exercicios devotos for the novena of the Incarnation; Ofrecimientos
+    of the Rosary of the Sorrows; poems (Fama y obras posthumas, 1700)
+  author: juana-ines-de-la-cruz
+  locus: her own prose and verse; the eulogies by others excluded
+  atlas_ids:
+  - colonial-latin-american-devotional-catholicism
+  role: tradition
+  confidence: assigned
+  note: 'A professed nun of Mexico City in her own words: the reply on learning and obedience, and the
+    devotional exercises she wrote for others to use. The census names the Respuesta. Primary Spanish
+    evidence once quotes are checked against the page images.
+
+    '
+- row_id: juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700--aprobacion-and-life-of-sor-juana-fama-y-obras-posthumas-1700
+  work: Aprobacion and life of Sor Juana (Fama y obras posthumas, 1700)
+  author: calleja-diego
+  locus: Calleja's approbation in the front matter
+  atlas_ids:
+  - colonial-latin-american-devotional-catholicism
+  role: tradition
+  confidence: provisional
+  note: 'A Spanish Jesuit''s life of her, from her confessor''s and friends'' reports, written in Madrid;
+    the first account of her final renunciation. A Church voice about her, not her own.
+
+    '

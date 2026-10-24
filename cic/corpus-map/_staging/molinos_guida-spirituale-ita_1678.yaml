@@ -1,0 +1,11 @@
+source_file: molinos_guida-spirituale-ita_1678.txt
+assignments:
+- row_id: molinos_guida-spirituale-ita_1678--guida-spirituale-1675-venice-1678
+  work: Guida spirituale (1675; Venice 1678)
+  author: molinos
+  locus: the three books and the Treatise on daily communion; the approbations as their own witnesses
+  atlas_ids:
+  - quietist-controversy-molinos-guyon
+  role: tradition
+  confidence: assigned
+  note: The controversy's founding text in Molinos's own words, before the trial.

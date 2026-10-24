@@ -1,0 +1,12 @@
+source_file: penn_brief-account-of-the-rise-and-progress-of-the-quakers_1834.txt
+assignments:
+- row_id: penn_brief-account-of-the-rise-and-progress-of-the-quakers_1834--a-brief-account-of-the-rise-and-progress-of-the-people
+  work: A Brief Account of the Rise and Progress of the People called Quakers (Penn, 1694)
+  author: penn
+  locus: whole work
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: assigned
+  note: The movement's self-account by Penn; principles, worship and discipline as a Friend stated them
+    in 1694.

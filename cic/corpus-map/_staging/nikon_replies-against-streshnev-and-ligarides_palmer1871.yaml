@@ -1,0 +1,36 @@
+source_file: nikon_replies-against-streshnev-and-ligarides_palmer1871.txt
+authors_ruled:
+  ligarides:
+    kind: metadata-omission
+    evidence: The title page names 'the Answers of the Metropolitan of Gaza Paisius Ligarides'; his answers
+      are printed under each question as 'ANSWER' (from file line about 5599). The host names only Palmer.
+assignments:
+- row_id: nikon_replies-against-streshnev-and-ligarides_palmer1871--the-replies-of-the-humble-nicon-against-the-questions-of
+  work: The Replies of the Humble Nicon against the questions of Streshnev and the answers of Ligarides
+  author: nikon
+  locus: Nikon's replies; Palmer's preface and notes excluded
+  atlas_ids:
+  - russian-church-nikon-to-holy-synod
+  role: tradition
+  confidence: assigned
+  note: The patriarch of the reforms defending his office and his claim for the priesthood against the
+    tsar; the church's own voice at its most contested.
+- row_id: nikon_replies-against-streshnev-and-ligarides_palmer1871--the-questions-of-simeon-streshnev-and-the-answers-of-paisius
+  work: The questions of Simeon Streshnev and the answers of Paisius Ligarides on Nikon's case
+  author: ligarides
+  locus: the answers printed under each question
+  atlas_ids:
+  - russian-church-nikon-to-holy-synod
+  role: tradition
+  confidence: provisional
+  note: The case against Nikon as the tsar's party framed it before the council; Ligarides was a Greek
+    prelate in the tsar's service, so placed as the establishment's voice provisionally.
+- row_id: nikon_replies-against-streshnev-and-ligarides_palmer1871--the-replies-of-the-humble-nicon
+  work: The Replies of the Humble Nicon
+  author: nikon
+  locus: Nikon's replies
+  atlas_ids:
+  - the-old-believers
+  role: context
+  confidence: provisional
+  note: The reforming patriarch the Old Believers rejected, in his own words after his fall; provisional.

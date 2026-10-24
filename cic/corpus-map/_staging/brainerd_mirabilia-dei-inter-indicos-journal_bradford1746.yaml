@@ -1,0 +1,12 @@
+source_file: brainerd_mirabilia-dei-inter-indicos-journal_bradford1746.txt
+assignments:
+- row_id: brainerd_mirabilia-dei-inter-indicos-journal_bradford1746--mirabilia-dei-inter-indicos-the-rise-and-progress-of-a
+  work: 'Mirabilia Dei inter Indicos: the Rise and Progress of a remarkable Work of Grace amongst the
+    Indians (Brainerd, 1746)'
+  author: brainerd
+  locus: the dated journal
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: tradition
+  confidence: assigned
+  note: The Delaware awakening of 1745-46 reported by the missionary himself.

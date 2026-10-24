@@ -75,4 +75,4 @@ manifestations:
 - Augustine reading, arguing with, and overturning the rebaptism ruling of Cyprian's council of 256
 matrix_cell: 2B
 ---
-Re-derived from the approved Doc_08 §3 Force 2B-4 (Cell 2B, Ongoing/Internal). relations[] carries the gravity<->force edges (G3, G5, G6) and the force<->force edges (1B-1, 2A-3, 3B-2) named above.
+Taken from Doc_08 §3 Force 2B-4 (Cell 2B, Ongoing/Internal). relations[] carries the gravity<->force edges (G3, G5, G6) and the force<->force edges (1B-1, 2A-3, 3B-2) named above.

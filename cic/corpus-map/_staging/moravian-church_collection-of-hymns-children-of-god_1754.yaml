@@ -1,0 +1,22 @@
+source_file: moravian-church_collection-of-hymns-children-of-god_1754.txt
+assignments:
+- row_id: moravian-church_collection-of-hymns-children-of-god_1754--a-collection-of-hymns-of-the-children-of-god-in-all-ages
+  work: A Collection of Hymns of the Children of God in all Ages (1754)
+  author: moravian-church
+  locus: both parts, the numbered hymns
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: tradition
+  confidence: assigned
+  note: The congregations' own hymnbook; what they sang, in the year the English congregations were at
+    their height.
+- row_id: moravian-church_collection-of-hymns-children-of-god_1754--a-collection-of-hymns-of-the-children-of-god-in-all-ages-2
+  work: A Collection of Hymns of the Children of God in all Ages (1754)
+  author: moravian-church
+  locus: the hymns translated from the German Herrnhut books
+  atlas_ids:
+  - the-methodist-revival
+  role: context
+  confidence: provisional
+  note: The Moravian hymn repertoire the Wesleys drew on and translated from; the shared song of the two
+    revivals. Provisional.

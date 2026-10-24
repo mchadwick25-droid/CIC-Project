@@ -1,0 +1,34 @@
+source_file: lopes_report-of-the-kingdom-of-congo_hutchinson1881.txt
+authors_ruled:
+  pigafetta:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is lopes, the informant; ''By Filippo Pigafetta,
+      in Rome, 1591'' stands on the title page (file lines about 15-20). cic/texts/AUTHORS.md has not
+      seen the slug yet.
+
+      '
+assignments:
+- row_id: lopes_report-of-the-kingdom-of-congo_hutchinson1881--a-report-of-the-kingdom-of-congo-1591-english-of-1881
+  work: A Report of the Kingdom of Congo (1591), English of 1881
+  author: lopes
+  locus: Books one and two; the chapters on the kings and the coming of Christianity
+  atlas_ids:
+  - the-antonian-movement-in-kongo
+  role: antecedent
+  confidence: provisional
+  note: 'The founding narrative of Kongo Christianity as told in the 1580s; placed on the movement''s
+    lineage, not on a reading that the movement drew on it. Translator''s wording.
+
+    '
+- row_id: lopes_report-of-the-kingdom-of-congo_hutchinson1881--a-report-of-the-kingdom-of-congo-1591-english-of-1881-2
+  work: A Report of the Kingdom of Congo (1591), English of 1881
+  author: lopes
+  locus: Books one and two
+  atlas_ids:
+  - kongo-christianity-afonso-to-1650
+  role: context
+  confidence: provisional
+  note: 'Inside the earlier world''s window and place; an outside description of the Kongo church of the
+    1580s. Placed on window and place, not on a reading for that entry.
+
+    '

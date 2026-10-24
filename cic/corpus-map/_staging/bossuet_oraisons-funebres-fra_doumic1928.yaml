@@ -1,0 +1,21 @@
+source_file: bossuet_oraisons-funebres-fra_doumic1928.txt
+assignments:
+- row_id: bossuet_oraisons-funebres-fra_doumic1928--oraisons-funebres-1656-1687
+  work: Oraisons funèbres (1656-1687)
+  author: bossuet
+  locus: the six orations before the Appendice; Doumic's preface and the appendix of other preachers excluded
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: tradition
+  confidence: assigned
+  note: Bossuet preaching death and providence to the court; the oration for Le Tellier praises the Revocation,
+    which the Desert world should see.
+- row_id: bossuet_oraisons-funebres-fra_doumic1928--oraison-funebre-de-michel-le-tellier-1686
+  work: Oraison funèbre de Michel Le Tellier (1686)
+  author: bossuet
+  locus: the oration for Le Tellier
+  atlas_ids:
+  - church-of-the-desert-huguenots
+  role: context
+  confidence: provisional
+  note: The court pulpit hailing the Revocation edict that opened the Desert.

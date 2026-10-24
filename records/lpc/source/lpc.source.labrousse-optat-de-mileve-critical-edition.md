@@ -26,7 +26,7 @@ rights_status: in-copyright; never vendored, consultation-only, per Source_Acqui
   primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build,
   never quoted as licensed vendored material.
 attribution_status: attributed to Labrousse as editor/translator, Optatus as author
-discovery_channel: WebSearch this session (sourceschretiennes.org's own catalogue) / 2026-09-02.
+discovery_channel: WebSearch (sourceschretiennes.org's own catalogue).
 external_ids:
   lpc_source_registry_row: 64
 ---

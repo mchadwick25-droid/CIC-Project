@@ -1,0 +1,12 @@
+source_file: guericke_life-of-francke_jackson1837.txt
+assignments:
+- row_id: guericke_life-of-francke_jackson1837--the-life-of-augustus-herman-franke-guericke-english-1837
+  work: The Life of Augustus Herman Franke (Guericke, English 1837)
+  author: guericke
+  locus: whole volume
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: context
+  confidence: assigned
+  note: Nineteenth-century scholarship quoting Francke's own prayers and letters; use to locate, then
+    verify each quotation against a Francke text.

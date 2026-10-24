@@ -1,0 +1,28 @@
+source_file: platon_present-state-of-the-greek-church-in-russia_pinkerton1814.txt
+authors_ruled:
+  pinkerton:
+    kind: metadata-omission
+    evidence: The title page reads 'with a preliminary memoir on the ecclesiastical establishment in Russia;
+      and an appendix, containing an account of the origin and different sects of Russian Dissenters.
+      By Robert Pinkerton.'
+assignments:
+- row_id: platon_present-state-of-the-greek-church-in-russia_pinkerton1814--a-summary-of-christian-divinity-platon-english-of-1814
+  work: A Summary of Christian Divinity (Platon), English of 1814
+  author: platon
+  locus: Platon's summary; Pinkerton's memoir and appendix excluded
+  atlas_ids:
+  - russian-church-nikon-to-holy-synod
+  role: tradition
+  confidence: assigned
+  note: The metropolitan of Moscow's own catechetical theology, the church teaching in its own name.
+- row_id: platon_present-state-of-the-greek-church-in-russia_pinkerton1814--pinkerton-s-preliminary-memoir-and-appendix-on-the-russian
+  work: Pinkerton's preliminary memoir and appendix on the Russian dissenters
+  author: pinkerton
+  locus: the memoir and the appendix
+  atlas_ids:
+  - russian-church-nikon-to-holy-synod
+  - the-old-believers
+  role: context
+  confidence: provisional
+  note: A Bible Society agent's account of the establishment and of the dissenting sects, written from
+    inside Russia in 1814.

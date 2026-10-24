@@ -24,12 +24,12 @@ work: The Acts of the Council of Carthage under Cyprian (256 per modern scholars
 edition: Nicene and Post-Nicene Fathers, Series II, vol. XIV, vendored as cic/texts/npnf214_seven-ecumenical-councils.xml
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
-  own specific locus being independently re-collated this pass.'
+  own specific locus being independently re-collated.'
 attribution_status: attributed to the conciliar body; the 'above eighty-four bishops' figure is a quotation,
   inside npnf214's own editorial Introductory Note, of the twelfth-century Byzantine canonist Zonaras
   -- not a second independent transmission of the event, and not in tension with row 4's own 'Eighty-Seven
   Bishops,' which the corpus map's own note on this entry independently agrees with.
-discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml / 2026-09-01.
+discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml.
 external_ids:
   lpc_source_registry_row: 42
 ---

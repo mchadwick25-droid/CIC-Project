@@ -1,0 +1,12 @@
+source_file: mack-alexander_rights-and-ordinances_1810.txt
+assignments:
+- row_id: mack-alexander_rights-and-ordinances_1810--rights-and-ordinances-of-the-house-of-god-a-short-and-plain
+  work: Rights and Ordinances of the House of God (A Short and Plain View), English 1810
+  author: mack-alexander
+  locus: whole work; dialogue turns Son./Father.
+  atlas_ids:
+  - radical-pietism-and-the-brethren-dunkers-ephrata
+  role: tradition
+  confidence: assigned
+  note: Alexander Mack's founding doctrinal treatise of 1715 in English; the Brethren's own voice on believer's
+    baptism by trine immersion, feet-washing, the love feast and the ban.

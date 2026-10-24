@@ -1,0 +1,13 @@
+source_file: port-royal_divers-actes-lettres-relations-fra_1724.txt
+assignments:
+- row_id: port-royal_divers-actes-lettres-relations-fra_1724--divers-actes-lettres-et-relations-des-religieuses-de-port
+  work: Divers actes, lettres et relations des religieuses de Port-Royal (1724)
+  author: port-royal
+  locus: the nuns' Relations, acts and letters; the pieces by Lancelot and other men of the circle as
+    their own witnesses
+  atlas_ids:
+  - port-royal-jansenism
+  role: tradition
+  confidence: assigned
+  note: The community's own voice at its moment of maximum pressure; women's conscience under institutional
+    siege, as the census frames it.

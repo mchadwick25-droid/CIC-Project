@@ -1,0 +1,22 @@
+source_file: serpos_dissertazione-due-dubbi-armeni-cattolici-ita_1783.txt
+assignments:
+- row_id: serpos_dissertazione-due-dubbi-armeni-cattolici-ita_1783--dissertazione-polemico-critica-sopra-due-dubbj-di-coscienza
+  work: Dissertazione polemico-critica sopra due dubbj di coscienza concernenti gli Armeni cattolici (1783)
+  author: serpos
+  locus: whole work; the dedicatory letter states the occasion
+  atlas_ids:
+  - armenian-christianity-era-8
+  role: tradition
+  confidence: assigned
+  note: A Catholic Armenian's own case to Rome on the conscience questions dividing his community under
+    the Ottomans; the millet conflict in a participant's words.
+- row_id: serpos_dissertazione-due-dubbi-armeni-cattolici-ita_1783--dissertazione-the-catholic-armenians-as-loyal-ottoman
+  work: Dissertazione, the Catholic Armenians as loyal Ottoman subjects
+  author: serpos
+  locus: the dedicatory letter
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-1650-1821
+  role: context
+  confidence: provisional
+  note: The same millet system seen from another Christian community; provisional, since the work concerns
+    Armenians, not the Greek Orthodox.

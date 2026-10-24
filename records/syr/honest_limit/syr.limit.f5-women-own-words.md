@@ -12,10 +12,14 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: null
+  divergence_note: >-
+    The absence of any text by a woman of this world is Documented. So are the
+    women's vows and service, as Aphrahat and Ephrem report them.
+    This rating does not cover their singing in the churches. That rests only on
+    later men's accounts.
 sources:
 - source_id: syr.source.ephrem-nisibene-hymns
-  locus: the hymns the women's choirs performed
+  locus: Ephrem's madrashe, which later accounts say women's choirs sang
   license: public-domain
 - source_id: syr.source.harvey-voiced-silence
   locus: the structural finding
@@ -41,6 +45,6 @@ use_note:
 ---
 The world's sharpest silence, stated in voice. Verified against
 Doc_02 SS7 (Harvey: no bnat qyama text survives; the choirs are
-attested only through men's writing). Note the F5-I cell is also
+reported only in later men's accounts). Note the F5-I cell is also
 substantively served (famine story, covenant terms); this limit
 answers the women-in-their-own-words question inside it, as data.

@@ -22,9 +22,8 @@ author: Augustine of Hippo
 work: Letter XCIII (to Vincentius, a.d. 408 on the NPNF heading)
 edition: Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
-  read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
-  own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
-  a rights re-check by this compilation pass.
+  read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
+  check (Source_Acquisition_Manifest.md SS1).
 attribution_status: 'attributed. This letter sits inside the corpus map''s own Donatist-letters sub-corpus
   per cic/corpus-map/_staging/npnf101_augustine-confessions-letters.yaml (role: context, assigned to donatism,
   and to NO role for this world) -- an honestly-disclosed boundary case, not papered over. Held Native
@@ -33,9 +32,8 @@ attribution_status: 'attributed. This letter sits inside the corpus map''s own D
   of this world''s own formation, on this world''s own evidence?"'' -- and this letter is Augustine''s
   own first-person, in-boundary account of his own change of mind, drawn on directly by Doc_01 SS7, not
   as evidence about Donatism''s own side of anything.'
-discovery_channel: corpus map / cic/corpus-map/_staging/npnf101_augustine-confessions-letters.yaml / 2026-09-01;
-  direct verification against cic/texts/npnf101_augustine-confessions-letters.xml across Doc_01's nine
-  review rounds / 2026-09-01.
+discovery_channel: corpus map / cic/corpus-map/_staging/npnf101_augustine-confessions-letters.yaml; direct
+  verification against cic/texts/npnf101_augustine-confessions-letters.xml.
 external_ids:
   lpc_source_registry_row: 43
 ---

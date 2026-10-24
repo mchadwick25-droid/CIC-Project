@@ -1,0 +1,28 @@
+source_file: osborn-sarah_familiar-letters-with-susanna-anthony_1807.txt
+authors_ruled:
+  anthony-susanna:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is osborn-sarah; the second correspondent,
+      Susanna Anthony, is named on the title page (file lines about 8-12) and signs her letters in the
+      text. cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: osborn-sarah_familiar-letters-with-susanna-anthony_1807--familiar-letters-of-sarah-osborn-1807
+  work: Familiar Letters of Sarah Osborn (1807)
+  author: osborn-sarah
+  locus: the letters signed by Osborn
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: tradition
+  confidence: assigned
+  note: Osborn's letters to her friend over four decades.
+- row_id: osborn-sarah_familiar-letters-with-susanna-anthony_1807--familiar-letters-of-susanna-anthony-1807
+  work: Familiar Letters of Susanna Anthony (1807)
+  author: anthony-susanna
+  locus: the letters signed by Anthony
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: tradition
+  confidence: assigned
+  note: A second Newport laywoman's own letters.

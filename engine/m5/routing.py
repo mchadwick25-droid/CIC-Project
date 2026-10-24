@@ -77,7 +77,7 @@ class Directive:
 
 @dataclass(frozen=True)
 class RoutingDecision:
-    action: str  # safety_turn | check_in_turn | system_nature_turn | bridge_turn | etic_turn | voice_with_directive | voice_pass_through
+    action: str  # safety_turn | check_in_turn | safety_unread_turn | system_nature_turn | bridge_turn | etic_turn | voice_with_directive | voice_pass_through
     reason: str
     directive: Directive | None = None
     # A structured field, not a

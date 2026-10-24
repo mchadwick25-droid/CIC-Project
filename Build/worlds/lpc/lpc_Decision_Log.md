@@ -2335,3 +2335,271 @@ Script re-run after both fixes; gate battery re-verified unchanged (271 records,
 **Disposition: Approved to proceed (build-thread self-disposition, CO-022).** No escalation category applies. **This unblocks Part 5 (contested_claim records).**
 
 ---
+
+---
+
+### 2026-10-23 — Scope expansion to Augustine's sermons: five decisions, converged with the project lead
+
+**Convergence.** The project lead ruled in this thread's chat on 2026-10-23, in the Kaner order (divergent, groan, convergent), and then said "Converged, auto mode." Three decisions were put to him one at a time and answered directly (D2, D3, D4, D5 below). D1 reached this thread as a relayed message from the system and pilot feedback thread; the project lead was shown the quoted wording and replied to the Representative question that depended on it, but did not restate D1 himself.
+
+**D1. Scope.** All of Augustine's sermons are rendered into modern English and categorized the way other worlds are (quotes, stories, lexicon, general reference), so the room can answer broad and in-depth questions about Augustine.
+- Alternatives shown: Datus quotes only; Datus reads whole sermons with the participant; a browsable library page; all three, staged.
+- Source of the choice: the relayed words of the project lead. Treated as direction, not independently confirmed.
+
+**D2. Representative.** Datus stays the Representative. The name stays and the role goes: no "Bishop of the Kept Flock" title.
+- Alternatives shown: (1) name stays, role goes; (2) composite voice with no persona framing; (3) another ruling the project lead would point to.
+- Chosen: option 1 (project lead, 2026-10-23, "Option 1, the name stays and the role goes").
+- Not found in the repository: any ruling that removed the role for all representatives. The Redesign-Spec (Artifact-1 line 23; CiC-Program-Spec lines 55 and 166) still carries `role_label`. Logged in Open_Gaps as the next entry.
+- Escalation category: Representative identity, name or title. Decided by the project lead, so no further escalation; Doc_10 must follow it.
+
+**D3. Reformation boundary (portfolio-level, cross-world).** LPC answers only what Augustine's own text says. A Reformation question gets a plain statement that it lies past Datus's horizon and a pointer to world `rzg` (The Reformed Cities: Zurich and Geneva). Where the sermons do not speak to a question, an absence record says so.
+- Alternatives shown: (1) strict Augustine-text boundary; (2) the same plus a Facilitator note on later reception; (3) LPC builds its own reception records.
+- Chosen: option 1 (project lead, 2026-10-23, "1"). The thread's recommendation was option 2; the project lead chose option 1.
+
+**D4. Order.** The 97 sermons that have a published English translation (`npnf106`, "Sermons on Selected Lessons of the New Testament," 97 sermon divisions, counted from the vendored file) go first. The rest follow by theme. The Maurist appendix of doubtful sermons stays out.
+- Alternatives shown: Maurist number order; themes first.
+- Chosen: the 97 first, then by theme (project lead, 2026-10-23, "3").
+
+**D5. Surfacing.** Each quote the room speaks shows its sermon number and Latin source reference now. A library page waits until the parked Library work is unparked.
+- Alternatives shown: room only; room plus source line; room plus library page; staged.
+- Chosen: staged (project lead, 2026-10-23, "4").
+
+**What this changes in approved documents.** D1 moves a scope boundary of Doc_01 and Doc_02 (the world is bounded to pastoral life and Augustine's preaching, not the whole sermon corpus). That is a substantial change under the build-cycle skill. It is therefore a change order, not an edit: it needs its own review file under the three-round cap. No approved document is edited by this entry.
+
+**Not yet decided.** The metered-spend ceiling for rendering; Doc_10 pilot status; the registry entry and `safety_adjacent`. Those stay with the project lead (stop point 1).
+
+---
+
+### 2026-10-23 — Doc_02 §7 gap claim: restated to Doc_01's narrower test (project lead's ruling)
+
+**Question.** Doc_02 §7 (line ~120) says no Registry row dates from 258 to 391. Optatus (c. 366 to 393; rows 27, 64, 300, 301) and rows 22, 25, 223, 228, 235, 59, 44 and 88 contradict it (`Review-Artifacts/L0_Doc02_Registry_Check_2026-10-23.md`).
+
+**Alternatives shown.** (1) Restate §7 to Doc_01's narrower test, no surviving ordinary-pastoral voice; (2) keep the wide claim and drop or re-date the contradicting rows; (3) withdraw the claim and say nothing about the gap; (4) another reading.
+
+**Chosen.** Option 1 (project lead, 2026-10-23, "1"). It changes a wording and a scope statement in an approved document, so it is made through the change order recorded in OG-38 and OG-39, not as a quiet edit. Doc_01's own "honest silence" binding is unchanged.
+
+---
+
+### 2026-10-23 — Doc_08 review route: Cap ruling, one targeted recheck (project lead's ruling)
+
+**Alternatives shown.** (1) Cap ruling: one change order for the corrections, then one targeted Opus recheck that does not count toward the cap; (2) treat the corrections as mechanical, no new review file; (3) redraft Doc_08.
+**Chosen.** Option 1 (project lead, 2026-10-23, "1"). The ruling is recorded in `CiC_System_Hub_Decision_Log.md`, entry "2026-10-23 - Cap ruling: lpc Doc_08", and names `Review-Artifacts/Doc_08_CapRuling_Recheck_Round10.md` as the covered file. Reason it is the most defensible: the wrong interval and the stale "unread" claim change a claim's substance, which the build-cycle skill calls substantial, so option 2 would self-certify; option 3 risks Doc_09 and the 17 force records the L0 check found consistent.
+
+---
+
+### 2026-10-23 — Doc_05 lens spine: crosswalk table (project lead's ruling)
+
+**Question.** Completion Standard V1.4 §F says Doc_05 and Doc_07 carry the seven-dimension spine; Doc_05 follows the older CF V7.4 Step 5 text and does not ask Narrative/Mythic, Ethical/Legal (required), Material (required) or Doctrinal as lenses (`Review-Artifacts/L0_Docs03-05-06-07_Recheck_2026-10-23.md`, section 2).
+**Alternatives shown.** (A) ruling or waiver, Doc_07's spine serves both; (B) a spine pass on Doc_05, about 1,500 to 2,000 words and the last review round under the cap; (C) a crosswalk table beside §0.7 mapping each dimension to the Doc_05 or Doc_07 section that answers it, with a one-line yield and the naming choice, about 300 words and one targeted recheck; (D) settle CF Step 5 against §F at portfolio level first.
+**Chosen.** C (project lead, 2026-10-23, "c"). The thread recommended C, as did the 2026-09-29 check. The crosswalk is a change to an approved document and goes through the change order with the OG-38 and OG-39 corrections; its targeted recheck is Doc_05's last round under the cap. The portfolio divergence between CF V7.4 Step 5 and V1.4 §F stays open for the System Hub.
+
+---
+
+### 2026-10-23 — Lexicon discovery method and matching rule (project lead's ruling, OG-36)
+
+**Question.** A Latin headword sweep misses a term the corpus carries only in translation (*libelli* swept, *certificates* missed: 38 hits outside `<note>`), and Doc_03's counts state no matching rule (flock/shepherd/pastor: 113 by substring, 109 by word boundary, 106 with notes removed).
+**Alternatives shown.** (1) Sweep the Latin headword and its English equivalents under one stated rule: whole words, case-insensitive, editorial and translators' notes excluded, every count giving its rule and the note-free number; for OCR Latin, allow for spelling noise and report what may be missed; (2) Latin headword only, limit disclosed; (3) English only.
+**Chosen.** 1 for `lpc` (project lead, 2026-10-23, "1"). Applied to the sermon sweeps and, by change order, to Doc_03's counts. The fleet-wide form is logged as a proposal in the System Hub Decision Log, not ruled for other worlds.
+
+---
+
+### 2026-10-23 — Lexicon tags at the candidate stage (project lead's ruling, OG-29)
+
+**Alternatives shown.** (1) Accept `lpc`'s route: Part II tags may be applied at the candidate stage, and a [CT] term may wait for its Contest Type provided Doc_06 supplies it; (2) require every tag, Contest Type included, at the candidate stage; (3) no tags until Step 6.
+**Chosen.** 1 for `lpc` (project lead, 2026-10-23, "1"). No edit follows: Doc_06 §3 supplies the Contest Type for all three [CT] terms. The fleet-wide question is logged as a proposal in the System Hub Decision Log; Imperial-Juridical's route is not affected.
+
+---
+
+### 2026-10-23 — Liturgical-read lexicon candidates: folded into the sermon sweep (project lead's ruling, OG-34)
+
+**Alternatives shown.** (1) Add the 2026-09-19 candidates now by Doc_06 change order with a Cap-ruled recheck; (2) do not add them as terms, record the reason, correct the three stale sentences; (3) correct the three stale sentences now and add the candidates with the liturgical terms the sermon sweep yields, in one Doc_06 change order with one recheck.
+**Chosen.** 3 (project lead, 2026-10-23, "3"). The three stale sentences (Doc_05 §11 item 7, Doc_06 §5 item 3, Doc_07 §8 item 8) go into the current change order. When the candidates are integrated, *sacramentum salis*'s "Not Attested" becomes an absence record, with the practice tagged separately.
+
+---
+
+### 2026-10-23 — Article 20 against-the-grain condition and Letter CXXVI (project lead's ruling, OG-35)
+
+**Question.** Doc_05 §1.4 discharges Article 20's secondary prong with a bounded, Inferential-Thin reconstruction of the Hippo congregation of 411, built only from Augustine's concessions against interest in Letter CXXVI (to Albina). Article 20's own gloss names polemic and prohibition, not personal correspondence; Doc_05 §11 item 13 asked the project lead to confirm or reject the extension.
+**Alternatives shown.** (1) Confirm; (2) reject, so §1.4 falls and Doc_05 §11 item 6 needs a change order; (3) confirm for `lpc` only and log the fleet-wide reading as a proposal.
+**Chosen.** 3 (project lead, 2026-10-23, "3"). §1.4 stands as written, with its stated bounds (nothing about what the congregation believed). Doc_05 §11 item 13 is to cite this entry, through the current change order. The general reading is a proposal in the System Hub Decision Log.
+
+---
+
+### 2026-10-23 — `safety_adjacent` set to true (project lead's ruling, stop point 1 item 1)
+
+**Alternatives shown.** (1) true, full validation; (2) false, lean validation. Precedents shown: `jes` true (the voice sits close to confession and spiritual direction), `hus` false (`Build/Ministry/Operations/Audits/hus_jes_Article29_SafetyAdjacent_Ruling_2026-10-01.md`).
+**Chosen.** 1, true (project lead, 2026-10-23, "1"). Reason put to him: the world's centre is failure, penance and readmission, with plague, death and martyrdom, and the sermon expansion makes it more pastoral. Written to `records/worlds/lpc.yaml` by the build thread on his instruction. Safety handling stays with the Facilitator.
+
+---
+
+### 2026-10-23 — `living_tradition_flag: true` carried into the registry entry
+
+Applied by the build thread under the project lead's ruling of 2026-09-16 ("Project lead's Article 29 confirmation: Living Tradition Status CONFIRMED, flag true, statement adopted", this log). No new decision. `python -m engine.m6.cli check` passes with no changes after the edit. The census field `living` in `cic-website/data/world-census.json` (currently `false`) is an editorial override that `m6 sync` does not copy from the registry (`engine/m6/census_sync.py`, docstring); whether it changes is put to the project lead separately.
+
+---
+
+### 2026-10-23 — Census `living` set to true (project lead's ruling, stop point 1 item 1b)
+
+**Alternatives shown.** (1) set `living: true` in `cic-website/data/world-census.json`, matching the Article 29 ruling of 2026-09-16 and every other world whose registry flag is true; (2) keep `false` with a stated reason, leaving `lpc` the only world whose census and registry disagree.
+**Chosen.** 1 (project lead, 2026-10-23, "1"). One field edited. `python -m engine.m6.cli check` (the CI gate) passes. `atlas-check` (not run in CI) already reported drift on 11 worlds before this edit and now also reports `lpc`'s `living`; `atlas-sync` was not run, because it would rewrite other worlds' atlas entries (OG-42).
+
+---
+
+### 2026-10-23 — `lpcstory006` tier: read the Acta Proconsularia first (project lead's ruling, stop point 1 item 2; OG-7)
+
+**Finding put to him.** The story's Tier 3 justification rests on "this build has no independent witness, because the Acta is unread. Reading it would likely move this story to Tier 1." The Acta Proconsularia is now vendored in three Latin texts: `cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt` (pp. CX to CXIV), `gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt` (no. XI, file line 6474), `knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt` (no. 13, file line 4820). Not yet read for this story.
+**Alternatives shown.** (1) read the Acta at source, compare with Pontius detail by detail, and re-tier on that evidence by Doc_09 change order with an independent check; (2) rule the genre clause governs, Tier 3 stands; (3) rule the author test governs, Tier 1 now.
+**Chosen.** 1 (project lead, 2026-10-23, "1"). The general question of which CF V7.4 Tier 3 clause governs stays open (OG-7); it no longer decides this story.
+
+---
+
+### 2026-10-23 — Representative identity file written; Datus keeps the office (project lead's rulings, stop point 1 item 3)
+
+**Item 3.** Alternatives shown: (1) write `lpc_Representative_Identity_Decision.md` recording the decisions already made; (2) the Decision Log entries suffice; (3) reopen identity as a 2–4 candidate choice at Doc_10. Chosen: 1 (project lead, 2026-10-23, "1"). Written.
+**Item 3b.** Alternatives shown: (1) Datus keeps the office of a town bishop and only the label goes; the object and image stand; (2) the office goes too and Doc_10 rebuilds the voice. Chosen: 1 (project lead, 2026-10-23, "1").
+Still open: the caption, which opens with the withdrawn label, and the label's propagation across the Representative files (OG-28).
+
+---
+
+### 2026-10-23 — Validation spending cap: set at the validation stage (project lead's ruling, stop point 1 item 4)
+
+`safety_adjacent: true` sends `lpc` to full validation. Alternatives shown: (1) name "lpc full validation", $10 cap, now; (2) a $3 to $5 cap now; (3) set the name and cap after Doc_10, with the exact probe count. Precedents shown: "fleet re-admission, 9 October" ($10 cap) and "eleven-world test, 13 October" ($0.90 per world, $2.95 spent). Chosen: 3 (project lead, 2026-10-23, "3"). No metered call runs before then.
+Also recorded: sermon renderings are authored by Opus inside the conversation, against the weekly allowance, not as metered engine calls, so they need no live test unless run through the engine.
+
+---
+
+### 2026-10-23 — Not a pilot world (project lead's ruling, stop point 1 item 5)
+
+Alternatives shown: (1) not a pilot, Fable drafts Doc_10 alone; (2) pilot, Sonnet and Fable both draft Doc_10, graded blind. Chosen: 1 (project lead, 2026-10-23, "1"). `pilot_world: false` in `build/lpc_Build_State.yaml` stands.
+
+---
+
+### 2026-10-23 — The decision log stays in the world folder (project lead's ruling, stop point 1 item 6)
+
+Alternatives shown: (1) leave `lpc_Decision_Log.md` (694 KB) in `Build/worlds/lpc/`, as every other world does and as `tools/check_live_commentary.py` expects; (2) move it to `Build/Ministry/`, editing the five files that cite it; (3) archive entries before 2026-09-29 with a pointer. Chosen: 1 (project lead, 2026-10-23, "1"). Stop point 1 is complete.
+
+---
+
+### 2026-10-23 — Rebaseline declaration amended (project lead's ruling, Phase L1)
+
+`handoff lpc` failed the declaration check because the disk holds more review files than the declaration of 2026-09-29 records (Doc_01 12 against 9, Doc_02 35 against 30, Doc_04 13 against 11, Doc_08 10 against 8). Alternatives shown: (1) amend the declaration to accept the extra files by name; (2) leave it, so checks 02 to 04 stay red until fresh approvals. Chosen: 1 (project lead, 2026-10-23, "1"; confirmed "go ahead" after the first attempt was stopped by a permission check). The amendment table in `build/lpc_Rebaseline_Declaration.md` names each file. Disclosed to the project lead before the edit: the three Doc_01 files date from 2026-09-16, before the declaration, and were missed in its count; the others are Phase L0 checks.
+
+---
+
+### 2026-10-23 — Change order CO-LPC-1: corrections and sermon scope across Step 0 and Docs 01 to 09
+
+**What it is.** One named change order to documents already Approved to proceed, carrying the project lead's rulings of 2026-10-23 and the Phase L0 and L1 findings. It is not a revision round. Drafted by two Sonnet 5.5 drafters on separate files, then checked by the build thread. Unreviewed: the targeted recheck waits on the project lead's ruling on its route, since every document it touches is past the three-file cap.
+
+**Step 0, Doc_01, Doc_02, Source Registry.** Sermon scope D1 to D5 written into Doc_01 §2 and Doc_02 (lines named in the L0 Doc_02 check); Doc_02 §7 restated to Doc_01's test; Doc_02 §3 counts and census recounted; seven Registry rows cite their corpus-map entries; Step 0 records the census status ("Selected - Not Yet Built"); the quotation attributed to the project lead in Step 0 became a paraphrase citing `ijc` Open_Gaps item 16; triage fixes 13, 16, 17, 66, 89, 94, 98, 107, 110, 120, 121, 128, 133, 148. The build thread narrowed one sentence of the drafted Doc_01 scope paragraph: the Augustine-text boundary applies to questions about Augustine, not to the whole world.
+
+**Docs 04 to 09, Force Index, generator, records.** OG-38 (Doc_04 Open Items 6 and 8 shown closed everywhere; F2 to F6); OG-40 (Doc_08's false "fixed" claims; the 2B-5 interval set to about 170 years, from Doc_08's own 258 and 430; the Doc_01 quotation restored; Gesta wording in Doc_09); the Doc_05 §0.8 crosswalk; Doc_05 §11 items 7 and 13; the stale sentences in Doc_06 §5 item 3 and Doc_07 §8 item 8; Doc_07 §8 item 9 (the gaps file exists). The generator now reads a verdict only from a `## VERDICT:` heading outside code fences; the Index regenerates byte for byte. The build thread aligned `lpc.force.illegal-to-established-shift` line 42 with Doc_08 2B-3 ("a century and a third", 258 to 391); its manifestation line keeps "a century and a half" for Augustine's later recourse to state action.
+
+**History removed from canonical files** (kept here): pinned-commit and "this session" narration in Step 0 and Doc_01; Doc_01 line 20's "status formerly reported is superseded" and "noted for the record"; Step 0's quotations of the Donatism draft wording (from Donatism commit 4f420cbb), now paraphrased; Registry row 25's old corpus-map note; Doc_02's "Row 267 only Latin witness"; Doc_08's Round 3 and 4 scan narration and its mutation-control list A to M; Doc_06's Round 2 verdicts and "nine rounds" line; Doc_05's Round 1 count line.
+
+**Checks.** `regate lpc` PASS; `claims lpc` PASS (103 registered, all UNVERIFIED); `check_live_commentary.py --enforce` exit 0; `check_paths.py` exit 0; the Force Index regenerates identically. `citations lpc` (10) and `records lpc` (19) fail with the same counts before and after Docs 04 to 09 were edited.
+
+**Tool change.** `tools/check_live_commentary.py` now treats `*_Claims_Register.md` as a ledger, like `*_Superseded_Claims.md`, because the register must copy each claim's text verbatim; test added; 227 tests pass.
+
+**Left open** (OG-50).
+
+---
+
+### 2026-10-23 — Sermon rendering scope: staged (project lead's ruling)
+
+**Question.** The record schema (Redesign-Spec Artifact-1 §4) has no type for a whole sermon in modern English; only a quote's `modern_rendering` holds English text.
+**Alternatives shown.** (1) render what the room uses: every sermon read and categorized, each quotable passage a verbatim quote record with an Opus `modern_rendering`, no schema change; (2) render every sermon whole now, needing a new record type or a library data file; (3) staged: option 1 now, whole-sermon renderings later, batch by batch, into a library data file designed with the library page.
+**Chosen.** 3 (project lead, 2026-10-23, "3, but eventually we may make the sermons available for listening to and research, but not now"). Whole-sermon renderings, and any listening or research use of them, are later work; nothing for them is built now. When that work begins, its format is designed with the library page, and any audio is a paid bulk run under CLAUDE.md's sample-first rule.
+
+---
+
+### 2026-10-23 — Review route for CO-LPC-1: full re-review of every touched document (project lead's ruling)
+
+Alternatives shown: (1) a Cap ruling for one targeted Opus recheck of the change order's edits; (2) no recheck; (3) a full re-review of every touched document. The thread recommended 1. Chosen: 3 (project lead, 2026-10-23, "3"). Recorded as a Cap ruling in `CiC_System_Hub_Decision_Log.md`, entry "Cap ruling: lpc change order CO-LPC-1", naming the nine review files. It replaces the Doc_08 Cap ruling of the same day.
+
+---
+
+### 2026-10-23 — `lpcstory006` re-tiered to Tier 1 on the doubly attested core (project lead's ruling; OG-7, OG-49)
+
+**Evidence.** `Review-Artifacts/Doc09_Acta_Proconsularia_Read_lpcstory006_2026-10-23.md`. The Acta Proconsularia (one edition, Hartel's, in three printings) confirms the crowd, the overnight vigil, "Deo gratias", the kneeling, the brothers' cry, and Cyprian's own hand over his eyes. Pontius alone gives the trees, Zacchaeus, the hurried executioner, the hand strengthened "from above" and the centurion. The Acta has the presbyter and the subdeacon Julianus tie the cloths; Pontius has Cyprian do it.
+**Alternatives shown.** (1) retell at Tier 1 on what both attest, Pontius-only details marked as his, the contradiction stated; (2) keep Tier 3 with the Acta's corrections; (3) split into a Tier 1 execution account and a Tier 3 Pontius retelling.
+**Chosen.** 1 (project lead, 2026-10-23, "1"). The retelling edits the story chunk, the story record and Doc_09 §3, and starts only after the Doc_09 review now running returns, so that review reads one state. It is checked independently against the Latin before it proceeds. The general CF V7.4 Tier 3 question (OG-7) stays open.
+
+---
+
+### 2026-10-23 — Route for the nine review findings: revision pass, then targeted recheck (project lead's ruling)
+
+Alternatives shown: (1) one revision pass fixing the P0 and every P1, each fix verified at source, P2s carried where plainly correct, then one targeted Opus recheck of the fixes under a new Cap ruling; (2) the same pass, then a second full re-review; (3) fix only the P0 and factual errors now. Chosen: 1 (project lead, 2026-10-23, "1"). Cap ruling recorded in the System Hub Decision Log, naming the nine recheck files. Four findings wait on the project lead's own decisions before their fix (OG-52): the D3 narrowing, D4's appendix wording, Dolbeau's sermons, and the Optatus-ascribed sermon in Morin 1917.
+
+---
+
+### 2026-10-23 — D3 clarified: "Augustine's own text" bars later reception, not contemporary witnesses (project lead's ruling)
+
+**Question** (raised by `Review-Artifacts/Doc_01_ChangeOrder_Review_Round13.md` P1-4 and `Doc_02_ChangeOrder_Review_Round36.md` P1-1). D3 said LPC answers only what Augustine's own text says. The build thread had narrowed it without a ruling to questions about Augustine; Doc_01 itself answers how Augustine became bishop from Possidius.
+**Alternatives shown.** (1) it bars later reception only; contemporary witnesses (Possidius, the councils, letters to and about him) stay usable; (2) it bars everything but Augustine's own words; (3) another reading.
+**Chosen.** 1 (project lead, 2026-10-23, "1"). The same sentence now stands in Doc_01 §2 and Doc_02: on questions about Augustine, Datus answers from Augustine's own words and the witnesses of his own time, and not from later readings of him. This replaces the build thread's unruled narrowing.
+
+---
+
+### 2026-10-23 — D4 clarified: both doubtful blocks excluded (project lead's ruling)
+
+**Question** (`Review-Artifacts/Doc_02_ChangeOrder_Review_Round36.md` P1-2). D4 excluded "the Maurist appendix of doubtful sermons", which could mean the *Sermones dubii* (Classis V, Sermones 364 to 396; row 265 line 117124) or the Appendix of *Sermones supposititii* (PL 39 col. 1735; row 265 from about line 124389). Registry row 265 already says the Classis V sermons are not licensed as Augustine's.
+**Alternatives shown.** (1) exclude both; (2) exclude only the Appendix, tagging 364 to 396 Contested for authorship and changing row 265; (3) exclude only the *dubii*.
+**Chosen.** 1 (project lead, 2026-10-23, "1"). The scope is the Maurist Sermones 1 to 363 (Classes I to IV) plus the post-Maurist finds. A doubtful sermon can come back in only by a named change order showing its authorship. Applied in Doc_01 §2 and Doc_02 (lines 7, 13, 19, 49).
+
+---
+
+### 2026-10-23 — Sermon scope is every public-domain sermon held; Dolbeau's 26 named and not used (project lead's ruling)
+
+**Question** (`Review-Artifacts/Doc_01_ChangeOrder_Review_Round13.md` P1-3). "All of Augustine's sermons" omitted Dolbeau's 26 (Registry row 50, in copyright, not vendored), so an absence record could claim more than the evidence holds.
+**Alternatives shown.** (1) say plainly that the scope is the sermons the vendored editions hold, name Dolbeau's 26 as known and not used, and limit every absence record to the sermons held; (2) pursue rights to Dolbeau's edition; (3) leave them out without mention.
+**Chosen.** 1 (project lead, 2026-10-23, "1, alll public domain sermons"). The scope is every sermon of Augustine in a public-domain edition held in the Library, less the two doubtful blocks; absence records speak only for the sermons held. Applied in Doc_01 §2 and Doc_02.
+
+---
+
+### 2026-10-23 — The 133-year silence qualified; the Optatus-ascribed sermons to be assessed (project lead's ruling)
+
+**Question** (`Review-Artifacts/Doc_01_ChangeOrder_Review_Round13.md` P1-2). Morin 1917 (Registry row 267) prints nine tractatus headed as by Optatus of Milevis, Quodvultdeus of Carthage and others of Augustine's school (`augustine_sermones-guelferbytani-lat_morin1917.txt` line 10297); a manuscript titles one a feast-day sermon of Optatus (lines 10846 to 10848). Optatus wrote within 258 to 391. Doc_01 states the silence of that interval as settled.
+**Alternatives shown.** (1) qualify the silence now to "no surviving ordinary-pastoral voice that this build has assessed", tag it Contested, and open an assessment of the nine tractatus; (2) assess the nine first; (3) keep the silence unqualified.
+**Chosen.** 1 (project lead, 2026-10-23, "1"). Every site that states the silence (Doc_01 §2, §5, §8; Doc_02 §7; Doc_05 §0.3, §7; Doc_07; Doc_08 §1, 3B-2; Doc_09 §1, §6) takes the qualification. The assessment of the nine and Optatus's world placement stay open (OG-54, OG-43). If an Optatus sermon holds up, the silence claim changes by a named change order.
+
+---
+
+### 2026-10-23 — Second targeted recheck for Doc_04, Doc_05 and Doc_09 (project lead's ruling)
+
+Alternatives shown: (1) one more targeted recheck of the new fixes in those three, alongside the ruled Doc_01 and Doc_02 rechecks; (2) no further recheck; (3) fold them into the Doc_01 and Doc_02 rechecks. Chosen: 1 (project lead, 2026-10-23, "1"). Cap ruling recorded in the System Hub Decision Log. The Doc_01 recheck also sweeps every site of the qualified silence.
+
+---
+
+### 2026-10-24 — Opus 5 fallback: re-run only the Doc_09 rendering check (project lead's approval)
+
+The Doc_04, Doc_05 and Doc_09 second rechecks ran partly or wholly on Opus 5 (disclosed in their headers). Alternatives shown: accept all three; re-run all three on Opus 5.5; re-run only Doc_09's rendering check. Chosen: re-run only Doc_09's (project lead, 2026-10-24, "lets go" to the recommendation). Cap ruling in the System Hub Decision Log.
+
+---
+
+### 2026-10-24 — Confirmation recheck of the Doc_01 and Doc_02 fixes and the cleaned records (project lead's ruling)
+
+Alternatives shown: (1) one targeted Opus 5.5 recheck of the two P1 fixes plus a sample of the 241 cleaned records; (2) two separate rechecks; (3) hold CO-LPC-1 open. Chosen: 1 (project lead, 2026-10-24). Cap ruling in the System Hub Decision Log.
+
+---
+
+### 2026-10-24 — Doc_01 N6: fix the three sites, then one recheck of only those (project lead's ruling)
+
+Alternatives shown: (1) fix and run one Opus 5.5 recheck of the three sites; (2) fix with no recheck; (3) see the wording first. Chosen: 1 (project lead, 2026-10-24). Cap ruling in the System Hub Decision Log.
+
+---
+
+### 2026-10-24 — Declaration: verdict-wording rows withdrawn (build thread, under the 2026-09-29 ruling)
+
+The handoff check found the declaration's verdict-wording rows for Step0, Doc_01 and Doc_02 stale: each document's latest verdict now reads "Approved to proceed", after change order CO-LPC-1. The rows accepted the older wording "CLEARED" only. Withdrawing them narrows what the declaration accepts and changes no count. Alternatives: (1) withdraw the three rows; (2) leave them and carry three failing findings. Chosen: 1, as a mechanical consequence of the project lead's rulings, reported to him in the build thread.
+
+---
+
+### 2026-10-24 — One Opus recheck of the Phase L1 handoff changes (project lead's ruling)
+
+Alternatives shown: (1) one targeted Opus 5.5 recheck of every change to Step 0, Doc_01, Doc_02 and the Source Registry; (2) the substantive changes only; (3) no recheck. Chosen: 1 (project lead, 2026-10-24). Cap ruling in the System Hub Decision Log.
+
+---
+
+### 2026-10-24 — Doc_02 Round 39 P1: fix with the plain P2s, then one recheck (project lead's ruling)
+
+Alternatives shown: (1) fix the Monceaux P1 with the reviewers' plainly correct P2s, then one Opus 5.5 recheck of those lines; (2) the P1 only, with a recheck; (3) fix with no recheck. Chosen: 1 (project lead, 2026-10-24). Cap ruling in the System Hub Decision Log.

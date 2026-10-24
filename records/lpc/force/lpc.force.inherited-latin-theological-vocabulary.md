@@ -44,4 +44,4 @@ manifestations:
   bishops without needing to be invented
 matrix_cell: 1B
 ---
-Re-derived from the approved Doc_08 §3 Force 1B-3 (Cell 1B, Initiating/Internal). relations[] carries the gravity<->force edge (G4) named above. sources[] is deliberately empty -- see this script's own docstring, THREE DISCLOSED EMPTY-SOURCES CASES.
+Taken from Doc_08 §3 Force 1B-3 (Cell 1B, Initiating/Internal). relations[] carries the gravity<->force edge (G4) named above. sources[] is deliberately empty. The Tertullian corpus is excluded from this world, so no Tertullian source record exists to cite, and none is invented.

@@ -29,7 +29,7 @@ rights_status: in-copyright; never vendored, consultation-only. This row sits ab
   consulted by this build, never quoted as licensed vendored material.
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge / field knowledge, WebSearch-verified against publisher and
-  bookseller records / 2026-09-01.
+  bookseller records.
 external_ids:
   lpc_source_registry_row: 30
 ---

@@ -21,3 +21,15 @@ assignments:
       own right; verbatim-ready where clean of the bracketed glosses,
       second-witness cross-check elsewhere. See this world's Doc_02 and
       Open_Gaps_Tracking.md.
+  - row_id: avvakum_zhitie-protopopa-avvakuma-orv_wikisource-transcription-nd--zhitie-protopopa-avvakuma-im-samim-napisannoe-original-2
+    work: "Zhitie protopopa Avvakuma, im samim napisannoe (original-language text)"
+    author: avvakum
+    locus: "whole work; modernized Russian reading edition (the `orv` tag is loose, see note), Wikisource transcription citing az.lib.ru"
+    atlas_ids:
+      - russian-church-nikon-to-holy-synod
+    role: context
+    confidence: assigned
+    note: >
+      Original-language text of the Life: the condemned archpriest's account of the reforming
+      church that tried him. Contemporary opponent, context for this entry; same quotability
+      caveats as its primary placement (bracketed modern glosses, unverified transcription chain).

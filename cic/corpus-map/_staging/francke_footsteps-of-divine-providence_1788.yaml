@@ -1,0 +1,12 @@
+source_file: francke_footsteps-of-divine-providence_1788.txt
+assignments:
+- row_id: francke_footsteps-of-divine-providence_1788--the-footsteps-of-divine-providence-the-halle-orphan-house
+  work: The Footsteps of Divine Providence (the Halle orphan-house narrative), 1788 English
+  author: francke
+  locus: whole work
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: tradition
+  confidence: assigned
+  note: Francke's own account of prayer answered in the funding of the Halle foundations; same text as
+    Pietas Hallensis in a clean later edition.

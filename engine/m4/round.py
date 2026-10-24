@@ -230,6 +230,9 @@ def open_table_round(
     if action == "check_in_turn":
         return RoundOpening(routing_action=action, **common, facilitator_events=[facilitator_turns.check_in_turn()], voices_speak=False)
 
+    if action == "safety_unread_turn":
+        return RoundOpening(routing_action=action, **common, facilitator_events=[facilitator_turns.safety_unread_turn()], voices_speak=False)
+
     if action == "system_nature_turn":
         return RoundOpening(routing_action=action, **common, facilitator_events=[facilitator_turns.system_nature_turn()], voices_speak=False)
 

@@ -14,10 +14,10 @@ confidence:
   divergence_note: AUTHORED DEPARTURE, stated rather than buried. This row names no author, no work, and
     no site report -- the Registry's own definition of D ('genre/tradition-level attribution with no specific
     text or author named'), not of a real-but-unpinpointed C-level locus -- so verification_state is set
-    to `unverified` rather than `named-not-rechecked`. Both cities specifically now have a named excavation
+    to `unverified` rather than `named-not-rechecked`. Both cities specifically have a named excavation
     report (row 63, Marec, for Hippo Regius; row 82, Ennabli, for Carthage), each licensed directly for
-    this row, but neither has itself been independently re-read this session (Doc_02 SS5). Doc_02 SS8
-    independently bands the material/epigraphic conditions of worship at this world's two cities as Inferential-Thin.
+    this row, but neither has itself been independently re-read (Doc_02 SS5). Doc_02 SS8 independently
+    bands the material/epigraphic conditions of worship at this world's two cities as Inferential-Thin.
 sources: []
 relations: []
 author: No named author -- a recognized field category, not a specific publication
@@ -32,7 +32,7 @@ rights_status: No rights position is stated, because no edition, publication, au
 attribution_status: none -- no publication, excavator, or site report is named at this row, so there is
   nothing to attribute.
 discovery_channel: builder-prior-knowledge (recognized field category, comparable to the sibling Donatism
-  build's own row 28) / field knowledge / 2026-09-01.
+  build's own row 28) / field knowledge.
 external_ids:
   lpc_source_registry_row: 38
 ---

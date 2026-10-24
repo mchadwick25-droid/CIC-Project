@@ -1,0 +1,11 @@
+source_file: rabaut-saint-etienne_old-cevenol_seddon1911.txt
+assignments:
+- row_id: rabaut-saint-etienne_old-cevenol_seddon1911--the-old-cevenol-seddon-s-translation-1911
+  work: The Old Cevenol (Seddon's translation, 1911)
+  author: rabaut-saint-etienne
+  locus: the story; the translator's preface excluded
+  atlas_ids:
+  - church-of-the-desert-huguenots
+  role: tradition
+  confidence: assigned
+  note: The same fiction in English, from Dardier's edition; check against the French before quoting.

@@ -66,4 +66,4 @@ manifestations:
 - a rival bishop claiming the same see, in the same towns, throughout Augustine's episcopate
 matrix_cell: 2A
 ---
-Re-derived from the approved Doc_08 §3 Force 2A-3 (Cell 2A, Ongoing/External). relations[] carries the gravity<->force edges (G3, G4, G5, G6) and the force<->force edges (2B-4, 2B-3) named above.
+Taken from Doc_08 §3 Force 2A-3 (Cell 2A, Ongoing/External). relations[] carries the gravity<->force edges (G3, G4, G5, G6) and the force<->force edges (2B-4, 2B-3) named above.

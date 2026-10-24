@@ -1,0 +1,21 @@
+source_file: chauncy_mystery-hid-from-ages-and-generations_1784.txt
+assignments:
+- row_id: chauncy_mystery-hid-from-ages-and-generations_1784--the-mystery-hid-from-ages-and-generations-1784
+  work: The Mystery hid from Ages and Generations (1784)
+  author: chauncy
+  locus: whole work
+  atlas_ids:
+  - early-american-unitarians-universalists
+  role: tradition
+  confidence: assigned
+  note: The Congregational liberal route to universal salvation, distinct from Murray's Rellyan one.
+- row_id: chauncy_mystery-hid-from-ages-and-generations_1784--the-mystery-hid-from-ages-and-generations-1784-2
+  work: The Mystery hid from Ages and Generations (1784)
+  author: chauncy
+  locus: whole work
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: transmission
+  confidence: provisional
+  note: The awakening's chief opponent forty years on; shows where Old Light liberalism led. Out of the
+    awakening's window, so transmission.

@@ -1,0 +1,12 @@
+source_file: fuller-andrew_gospel-worthy-of-all-acceptation_1805.txt
+assignments:
+- row_id: fuller-andrew_gospel-worthy-of-all-acceptation_1805--the-gospel-worthy-of-all-acceptation-1785-third-edition-1805
+  work: The Gospel Worthy of All Acceptation (1785; third edition 1805)
+  author: fuller-andrew
+  locus: whole work
+  atlas_ids:
+  - the-baptists
+  role: tradition
+  confidence: assigned
+  note: The Particular Baptists arguing their way out of high Calvinism toward mission; the doctrinal
+    side of the 1792 hinge.

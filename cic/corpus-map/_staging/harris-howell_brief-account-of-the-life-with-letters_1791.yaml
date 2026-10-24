@@ -1,0 +1,23 @@
+source_file: harris-howell_brief-account-of-the-life-with-letters_1791.txt
+assignments:
+- row_id: harris-howell_brief-account-of-the-life-with-letters_1791--a-brief-account-of-the-life-of-howell-harris-extracted-from
+  work: A Brief Account of the Life of Howell Harris, extracted from papers written by himself (1791)
+  author: harris-howell
+  locus: the narrative of his life
+  atlas_ids:
+  - the-welsh-revival-tradition
+  role: tradition
+  confidence: assigned
+  note: Harris's own record of 1735 and the first years of the revival, the nearest published form of
+    his diaries.
+- row_id: harris-howell_brief-account-of-the-life-with-letters_1791--a-concise-collection-of-his-letters-1738-1772
+  work: A concise collection of his letters, 1738-1772
+  author: harris-howell
+  locus: the letters after the narrative
+  atlas_ids:
+  - the-welsh-revival-tradition
+  - the-methodist-revival
+  role: tradition
+  confidence: provisional
+  note: Letters between Harris, Whitefield and other leaders; the Welsh and English revivals in one correspondence.
+    Provisional for the Methodist world, where Whitefield's own letters are already vendored.

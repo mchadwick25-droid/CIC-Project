@@ -1,0 +1,22 @@
+source_file: law_serious-call-to-a-devout-and-holy-life_1729.txt
+assignments:
+- row_id: law_serious-call-to-a-devout-and-holy-life_1729--a-serious-call-to-a-devout-and-holy-life-1729
+  work: A Serious Call to a Devout and Holy Life (1729)
+  author: law
+  locus: whole work
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: tradition
+  confidence: assigned
+  note: High Church nonjuring devotion in its own voice; the church's inner seriousness against its reputation
+    for comfort.
+- row_id: law_serious-call-to-a-devout-and-holy-life_1729--a-serious-call-to-a-devout-and-holy-life-1729-2
+  work: A Serious Call to a Devout and Holy Life (1729)
+  author: law
+  locus: whole work
+  atlas_ids:
+  - the-methodist-revival
+  role: antecedent
+  confidence: provisional
+  note: John Wesley named Law's Serious Call among the books that formed him; provisional until the Methodist
+    world's own texts are read for it.

@@ -26,7 +26,7 @@ rights_status: in-copyright; never vendored, consultation-only, per Source_Acqui
   primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build,
   never quoted as licensed vendored material.
 attribution_status: attributed to Munier as editor
-discovery_channel: WebSearch this session (Brepols's own series record) / 2026-09-01.
+discovery_channel: WebSearch (Brepols's own series record).
 external_ids:
   lpc_source_registry_row: 59
 ---

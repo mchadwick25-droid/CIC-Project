@@ -1,0 +1,30 @@
+source_file: broadmead-church_records-1640-1687_underhill1847.txt
+authors_ruled:
+  broadmead-church:
+    kind: metadata-omission
+    evidence: 'Institutional slug for the congregation whose records these are; the title page reads ''The
+      Records of a Church of Christ, meeting in Broadmead, Bristol''. The host''s creator field names
+      Edward Terrill, the elder who kept them. cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: broadmead-church_records-1640-1687_underhill1847--the-records-of-a-church-of-christ-meeting-in-broadmead
+  work: The Records of a Church of Christ meeting in Broadmead, Bristol, 1640-1687
+  author: broadmead-church
+  locus: the records; Underhill's introduction excluded
+  atlas_ids:
+  - the-baptists
+  role: tradition
+  confidence: assigned
+  note: A congregation's own account of its gathering, discipline and sufferings, women's leadership included;
+    the census's church-book evidence.
+- row_id: broadmead-church_records-1640-1687_underhill1847--historical-introduction-e-b-underhill-1847
+  work: Historical introduction (E. B. Underhill, 1847)
+  author: broadmead-church
+  locus: the introduction before the records
+  atlas_ids:
+  - the-baptists
+  role: transmission
+  confidence: provisional
+  note: The Victorian Baptist editor's framing; reception, not the church's voice. Provisional (the author
+    slug is the congregation's, as the file's own).

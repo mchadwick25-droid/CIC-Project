@@ -1,0 +1,13 @@
+source_file: rogers-hester-ann_short-account-of-the-experience_1811.txt
+assignments:
+- row_id: rogers-hester-ann_short-account-of-the-experience_1811--a-short-account-of-the-experience-of-mrs-hester-ann-rogers
+  work: A Short Account of the Experience of Mrs. Hester Ann Rogers, with her diary extract and spiritual
+    letters
+  author: rogers-hester-ann
+  locus: whole work
+  atlas_ids:
+  - the-methodist-revival
+  role: tradition
+  confidence: assigned
+  note: A Methodist woman's own experience narrative, diary and letters; the ordinary member's voice the
+    census asks for.

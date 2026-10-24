@@ -443,6 +443,16 @@ button {
   margin: 0 0 0.75em;
 }
 
+/* A safety turn is the Facilitator stepping in: upright and boxed, so it does not read as the narration around it. */
+.turn--safety {
+  font-style: normal;
+  padding: 14px 16px;
+  border: 1px solid var(--color-facilitator);
+  border-left-width: 4px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
 .turn--facilitator p:last-child {
   margin-bottom: 0;
 }

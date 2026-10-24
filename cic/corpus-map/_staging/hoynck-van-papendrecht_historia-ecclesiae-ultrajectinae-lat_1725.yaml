@@ -1,0 +1,13 @@
+source_file: hoynck-van-papendrecht_historia-ecclesiae-ultrajectinae-lat_1725.txt
+assignments:
+- row_id: hoynck-van-papendrecht_historia-ecclesiae-ultrajectinae-lat_1725--historia-ecclesiae-ultrajectinae-1725
+  work: Historia Ecclesiae Ultrajectinae (1725)
+  author: hoynck-van-papendrecht
+  locus: the history, the dissertations and the refutation of the appeal; the Monumenta as documents of
+    both parties
+  atlas_ids:
+  - church-of-utrecht
+  role: context
+  confidence: assigned
+  note: The hostile contemporary witness; it denies the chapter's right that the church was founded on,
+    and preserves the record it disputes.

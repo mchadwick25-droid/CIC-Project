@@ -409,3 +409,9 @@ Status: OPEN for the project lead to schedule.
    - The same story no longer puts the Tome and Canon 28 in one session: Canon 28 came later at the same council.
 
    Status: FIXED 2026-10-23/24, awaiting an independent recheck by a separate Opus thread (CLAUDE.md: a blocking finding does not clear by self-certification); fix list: `Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Fix-List.md`.
+
+44. **Independent recheck of the live-reply claim check fixes, 2026-10-24.** Independent recheck, round 1 (the round 1 recheck report in https://github.com/mchadwick25-droid/CIC-Project/pull/1099): the other fixes in this world for the "Live-reply claim check findings re-confirmed" entry (2026-10-23) are confirmed. Blocking, fixed on 2026-10-24 and awaiting the round 2 recheck:
+   - B7. `ijc.story.tome-that-would-not-bend` telling quoted "Peter has spoken so through Leo". The vendored acts read "thus". Corrected.
+
+
+   Status: OPEN for B7 until the round 2 recheck. CLOSED for the other claim check findings.

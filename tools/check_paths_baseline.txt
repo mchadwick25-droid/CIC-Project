@@ -978,3 +978,12 @@ records/syr/world_core/syr.core.syriac.md: records/worlds.yaml
 records/witt/voice_craft/witt.voice.craft.md: World-Builds/Lutheran-Wittenberg/witt_Representative_Permanent_Prompt_Nikolaus.txt
 records/witt/voice_craft/witt.voice.craft.md: records/worlds.yaml
 Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md: Archive/Ministry-Early-Days-2026-07/Funding/CiC_Ministry_Funding_Strategy_v1_0.docx
+Build/worlds/lpc/Review-Artifacts/Doc_01_ChangeOrder_Review_Round13.md: Syriac-Build/CiC_Coach3_Step0_Critique_2026-07-06.md
+Build/worlds/lpc/Review-Artifacts/Doc_04_ChangeOrder_Review_Round14.md: records/worlds.yaml
+Build/worlds/lpc/Review-Artifacts/Doc_08_ChangeOrder_Review_Round11.md: engine/m7/turn_readability.score_turn
+Build/worlds/lpc/Review-Artifacts/Step0_ChangeOrder_Review_Round6.md: Build/Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_2.md
+Build/worlds/lpc/Review-Artifacts/Step0_ChangeOrder_Review_Round6.md: World-Builds/Donatism/Step0_Movement_Scope_Confirmation.md
+Build/worlds/lpc/Review-Artifacts/Step0_ChangeOrder_Review_Round6.md: World-Builds/Imperial-Juridical-Christianity/Step0_Movement_Scope_Confirmation.md
+Build/worlds/lpc/Review-Artifacts/Doc_08_ChangeOrder_Recheck_Round12.md: engine/m7/turn_readability.score_turn
+Build/worlds/lpc/Review-Artifacts/Doc_09_ChangeOrder_Recheck_Round10.md: engine/m7/turn_readability.score_turn
+Build/worlds/lpc/Review-Artifacts/Doc_01_ChangeOrder_Recheck_Round15.md: Build/worlds/lpc/scripts/__pycache

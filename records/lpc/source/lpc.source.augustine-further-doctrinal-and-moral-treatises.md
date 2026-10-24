@@ -27,12 +27,12 @@ edition: Nicene and Post-Nicene Fathers, Series I, vols. III and VII, vendored a
   and cic/texts/npnf107_augustine-homilies-john-soliloquies.xml
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
-  own specific locus being independently re-collated this pass.'
+  own specific locus being independently re-collated.'
 attribution_status: 'attributed, several double-assigned elsewhere per their own corpus-map notes, except
-  Soliloquies, confidence: provisional in the corpus map''s own record -- ''a philosophical dialogue,
-  not pastoral work from Hippo... the doubt worth a reviewer''s eye is whether the Cassiciacum period
-  should also touch ambrosian-milan-standalone... not asserted here.'''
-discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml / 2026-09-01.
+  Soliloquies, confidence: provisional in the corpus map''s own record, which calls it a philosophical
+  dialogue, not pastoral work from Hippo, and leaves open whether the Cassiciacum period should also touch
+  ambrosian-milan-standalone, which is not asserted here.'
+discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml.
 external_ids:
   lpc_source_registry_row: 25
 ---

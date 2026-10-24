@@ -3,6 +3,36 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-methodist-revival
 works:
+- row_id: allen-richard_life-experience-and-gospel-labors_1880--the-life-experience-and-gospel-labors-of-the-rt-rev-richard
+  work: The Life, Experience, and Gospel Labors of the Rt. Rev. Richard Allen, written by
+    himself
+  author: allen-richard
+  locus: whole work
+  role: tradition
+  confidence: provisional
+  note: Allen's conversion and Methodist years fall inside the window; the AME founding of
+    1816 and the writing itself fall just outside it. Provisional, as the census's own 'era's
+    edge' note signals.
+  source_file: allen-richard_life-experience-and-gospel-labors_1880.txt
+- row_id: arminian-magazine_vol-1_1778--the-arminian-magazine-vol-i-1778-the-lay-narratives-letters
+  work: 'The Arminian Magazine, vol. I (1778): the lay narratives, letters and preachers''
+    lives'
+  author: arminian-magazine
+  locus: the lives, letters and experience accounts in the twelve numbers
+  role: tradition
+  confidence: assigned
+  note: Ordinary Methodists and their preachers in their own letters and accounts, as Wesley
+    printed them month by month.
+  source_file: arminian-magazine_vol-1_1778.txt
+- row_id: arminian-magazine_vol-1_1778--the-arminian-magazine-vol-i-1778-the-treatises-on-universal
+  work: 'The Arminian Magazine, vol. I (1778): the treatises on Universal Redemption'
+  author: arminian-magazine
+  locus: the treatise extracts opening each number
+  role: tradition
+  confidence: assigned
+  note: The connexion's Arminian polemic as Wesley chose to print it; the doctrinal programme
+    of the magazine.
+  source_file: arminian-magazine_vol-1_1778.txt
 - row_id: arminius_works-v1_nichols1853--the-works-of-james-arminius-volume-one-life-orations-i-v-2
   work: 'The Works of James Arminius, Volume One: Life; Orations I-V; Declaration of Sentiments;
     Apology against Thirty-one Defamatory Articles; Nine Questions (Nichols, revised, 1853)'
@@ -56,6 +86,16 @@ works:
 
     '
   source_file: asbury_journal-v3_1821.txt
+- row_id: bengel_gnomon-of-the-new-testament-v1_fausset1857--gnomon-of-the-new-testament-vol-i-matthew-mark-english-1857-2
+  work: Gnomon of the New Testament, vol. I (Matthew-Mark), English 1857
+  author: bengel
+  locus: whole volume
+  role: antecedent
+  confidence: provisional
+  note: Wesley's Explanatory Notes upon the New Testament (1755) abridge the Gnomon by Wesley's
+    own statement; provisional until the Notes are vendored and the dependence shown in a
+    record.
+  source_file: bengel_gnomon-of-the-new-testament-v1_fausset1857.txt
 - row_id: calder_memoirs-of-simon-episcopius_1838--memoirs-of-simon-episcopius-with-a-brief-account-of-the-2
   work: Memoirs of Simon Episcopius, with a brief account of the Synod of Dort and the sufferings
     of the followers of Arminius (Calder, 1838)
@@ -72,6 +112,41 @@ works:
 
     '
   source_file: calder_memoirs-of-simon-episcopius_1838.txt
+- row_id: cennick_life-of-mr-j-cennick_1745--the-life-of-mr-j-cennick-written-by-himself-1745-2
+  work: The Life of Mr. J. Cennick, written by himself (1745)
+  author: cennick
+  locus: the narrative of his years with Wesley at Kingswood and with Whitefield at the Tabernacle
+  role: context
+  confidence: provisional
+  note: The Kingswood schoolmaster and lay preacher who broke with Wesley in 1741 over predestination,
+    telling it himself. Provisional.
+  source_file: cennick_life-of-mr-j-cennick_1745.txt
+- row_id: christian-history_weekly-accounts-of-the-revival_prince1744--the-christian-history-prince-1743-1744-the-accounts-from
+  work: 'The Christian History (Prince, 1743-1744): the accounts from Scotland and England'
+  author: christian-history
+  locus: the letters and accounts from Great Britain reprinted in the numbers
+  role: context
+  confidence: provisional
+  note: The British revivals as New England read them in 1743; the transatlantic exchange
+    from the American side. Provisional.
+  source_file: christian-history_weekly-accounts-of-the-revival_prince1744.txt
+- row_id: church-of-england_book-of-common-prayer_oxford1706--the-book-of-common-prayer-1662-text-oxford-printing-of-1706-2
+  work: The Book of Common Prayer, 1662 text (Oxford printing of 1706)
+  author: church-of-england
+  locus: Morning and Evening Prayer, the Communion and the occasional offices
+  role: antecedent
+  confidence: provisional
+  note: The liturgy the Wesleys were ordained under and kept using; provisional for the Methodist
+    world.
+  source_file: church-of-england_book-of-common-prayer_oxford1706.txt
+- row_id: coke_extracts-of-journals-five-visits-to-america_1793--extracts-of-the-journals-of-the-rev-dr-coke-s-five-visits-to
+  work: Extracts of the Journals of the Rev. Dr. Coke's Five Visits to America (1793)
+  author: coke
+  locus: whole work
+  role: tradition
+  confidence: assigned
+  note: The organisation of American Methodism in 1784 told by Wesley's superintendent.
+  source_file: coke_extracts-of-journals-five-visits-to-america_1793.txt
 - row_id: wesley-j_journal-v1_curnock1909--the-journal-of-the-rev-john-wesley-a-m-curnock-edition-vol-i-2
   work: The Journal of the Rev. John Wesley, A.M. (Curnock edition), Vol. I -- Curnock's own
     Editorial Introduction
@@ -85,6 +160,134 @@ works:
 
     '
   source_file: wesley-j_journal-v1_curnock1909.txt
+- row_id: fletcher-mary_life-compiled-from-her-journal_moore1818--mary-bosanquet-fletcher-s-journal-and-letters-as-quoted-in
+  work: Mary Bosanquet Fletcher's journal and letters, as quoted in Moore's Life (1818)
+  author: fletcher-mary
+  locus: the journal entries and letters quoted throughout; Moore's connecting narrative excluded
+  role: tradition
+  confidence: assigned
+  note: The women's-preaching argument and a Methodist woman's inner life in her own journal
+    and letters.
+  source_file: fletcher-mary_life-compiled-from-her-journal_moore1818.txt
+- row_id: fletcher-mary_life-compiled-from-her-journal_moore1818--the-life-of-mrs-mary-fletcher-moore-s-compiling-narrative
+  work: The Life of Mrs. Mary Fletcher (Moore's compiling narrative, 1818)
+  author: fletcher-mary
+  locus: Moore's own connecting narrative between the quotations
+  role: context
+  confidence: assigned
+  note: The compiler's frame, a Methodist preacher writing in 1818; not her words.
+  source_file: fletcher-mary_life-compiled-from-her-journal_moore1818.txt
+- row_id: francke_nicodemus-against-fear-of-man_1801--nicodemus-or-a-treatise-against-the-fear-of-man-1701-english-2
+  work: Nicodemus, or a Treatise against the Fear of Man (1701), English
+  author: francke
+  locus: whole tract
+  role: antecedent
+  confidence: provisional
+  note: Wesley abridged and reprinted this tract repeatedly from 1739; the full text behind
+    his extracts. Provisional until a meth source record argues from it.
+  source_file: francke_nicodemus-against-fear-of-man_1801.txt
+- row_id: harris-howell_brief-account-of-the-life-with-letters_1791--a-concise-collection-of-his-letters-1738-1772
+  work: A concise collection of his letters, 1738-1772
+  author: harris-howell
+  locus: the letters after the narrative
+  role: tradition
+  confidence: provisional
+  note: Letters between Harris, Whitefield and other leaders; the Welsh and English revivals
+    in one correspondence. Provisional for the Methodist world, where Whitefield's own letters
+    are already vendored.
+  source_file: harris-howell_brief-account-of-the-life-with-letters_1791.txt
+- row_id: law_serious-call-to-a-devout-and-holy-life_1729--a-serious-call-to-a-devout-and-holy-life-1729-2
+  work: A Serious Call to a Devout and Holy Life (1729)
+  author: law
+  locus: whole work
+  role: antecedent
+  confidence: provisional
+  note: John Wesley named Law's Serious Call among the books that formed him; provisional
+    until the Methodist world's own texts are read for it.
+  source_file: law_serious-call-to-a-devout-and-holy-life_1729.txt
+- row_id: lee-jarena_religious-experience-and-journal_1836--religious-experience-and-journal-of-mrs-jarena-lee-1836
+  work: Religious Experience and Journal of Mrs. Jarena Lee (1836)
+  author: lee-jarena
+  locus: whole work
+  role: tradition
+  confidence: provisional
+  note: Her conversion and call fall inside the window, her preaching career and the writing
+    after it. Provisional at the era's edge, like Allen.
+  source_file: lee-jarena_religious-experience-and-journal_1836.txt
+- row_id: lee-jesse_short-history-of-the-methodists-in-the-united-states_1810--a-short-history-of-the-methodists-in-the-united-states-of
+  work: A Short History of the Methodists in the United States of America, 1766-1809 (Lee,
+    1810)
+  author: lee-jesse
+  locus: whole work
+  role: tradition
+  confidence: assigned
+  note: The American connexion's own first history, by a circuit rider of twenty-seven years.
+  source_file: lee-jesse_short-history-of-the-methodists-in-the-united-states_1810.txt
+- row_id: methodist-conference_minutes-v1-1744-1798_1862--minutes-of-the-methodist-conferences-vol-i-1744-1798
+  work: Minutes of the Methodist Conferences, vol. I, 1744-1798
+  author: methodist-conference
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: The connexion's own annual record, from the doctrinal conversations of 1744 to the
+    Plan of Pacification.
+  source_file: methodist-conference_minutes-v1-1744-1798_1862.txt
+- row_id: methodist-episcopal-church_doctrines-and-discipline_coke-asbury1798--the-doctrines-and-discipline-of-the-methodist-episcopal
+  work: The Doctrines and Discipline of the Methodist Episcopal Church in America, with explanatory
+    notes (1798)
+  author: methodist-episcopal-church
+  locus: whole work; the Articles of Religion in their own section
+  role: tradition
+  confidence: assigned
+  note: American Methodism's constitution with its bishops' commentary; the Articles of Religion
+    in the church's own book.
+  source_file: methodist-episcopal-church_doctrines-and-discipline_coke-asbury1798.txt
+- row_id: methodist-preachers_lives-of-early-methodist-preachers-v1_jackson1865--the-lives-of-early-methodist-preachers-vol-i-the-preachers
+  work: 'The Lives of Early Methodist Preachers, vol. I: the preachers'' own narratives'
+  author: methodist-preachers
+  locus: the lives, each headed with its author's name; Jackson's introductory essay excluded
+  role: tradition
+  confidence: assigned
+  note: Wesley's first lay preachers telling their own conversions and calls; the connexion's
+    rank and file in their own words.
+  source_file: methodist-preachers_lives-of-early-methodist-preachers-v1_jackson1865.txt
+- row_id: moravian-church_collection-of-hymns-children-of-god_1754--a-collection-of-hymns-of-the-children-of-god-in-all-ages-2
+  work: A Collection of Hymns of the Children of God in all Ages (1754)
+  author: moravian-church
+  locus: the hymns translated from the German Herrnhut books
+  role: context
+  confidence: provisional
+  note: The Moravian hymn repertoire the Wesleys drew on and translated from; the shared song
+    of the two revivals. Provisional.
+  source_file: moravian-church_collection-of-hymns-children-of-god_1754.txt
+- row_id: rogers-hester-ann_short-account-of-the-experience_1811--a-short-account-of-the-experience-of-mrs-hester-ann-rogers
+  work: A Short Account of the Experience of Mrs. Hester Ann Rogers, with her diary extract
+    and spiritual letters
+  author: rogers-hester-ann
+  locus: whole work
+  role: tradition
+  confidence: assigned
+  note: A Methodist woman's own experience narrative, diary and letters; the ordinary member's
+    voice the census asks for.
+  source_file: rogers-hester-ann_short-account-of-the-experience_1811.txt
+- row_id: watts_hymns-and-spiritual-songs-ninth-edition_1725--hymns-and-spiritual-songs-as-sung-beyond-dissent
+  work: Hymns and Spiritual Songs as sung beyond Dissent
+  author: watts
+  locus: whole work
+  role: transmission
+  confidence: provisional
+  note: Watts's hymns were taken up by the evangelical revivals on both sides of the Atlantic;
+    provisional for those worlds until their own texts show the use.
+  source_file: watts_hymns-and-spiritual-songs-ninth-edition_1725.txt
+- row_id: wesley-c_journal-v1_jackson1849--the-journal-of-the-rev-charles-wesley-vol-i-1736-1740s
+  work: The Journal of the Rev. Charles Wesley, vol. I (1736-1740s)
+  author: wesley-c
+  locus: the dated Journal entries; Jackson's introduction and notes excluded
+  role: tradition
+  confidence: assigned
+  note: The hymn-writer's own record of the revival's first decade, including his Whitsunday
+    1738 conversion.
+  source_file: wesley-c_journal-v1_jackson1849.txt
 - row_id: wesley-c_hymns-methodists_1780--a-collection-of-hymns-for-the-use-of-the-people-called-2
   work: A Collection of Hymns, for the Use of the People Called Methodists - the hymns themselves
     (Charles Wesley, principal author)
@@ -120,6 +323,97 @@ works:
 
     '
   source_file: wesley-j_sermons-v1_1771.txt
+- row_id: wesley-j_plain-account-of-christian-perfection_pine1766--a-plain-account-of-christian-perfection-wesley-1766
+  work: A Plain Account of Christian Perfection (Wesley, 1766)
+  author: wesley-j
+  locus: whole tract
+  role: tradition
+  confidence: assigned
+  note: The doctrine of perfection as Wesley himself traced it from 1725 to 1765.
+  source_file: wesley-j_plain-account-of-christian-perfection_pine1766.txt
+- row_id: wesley-j_plain-account-of-the-people-called-methodists_1749--a-plain-account-of-the-people-called-methodists-wesley-1748
+  work: A Plain Account of the People called Methodists (Wesley, 1748; 1749 printing)
+  author: wesley-j
+  locus: whole tract
+  role: tradition
+  confidence: assigned
+  note: The societies, classes and bands described by their organiser; the connexional machinery
+    in its own words.
+  source_file: wesley-j_plain-account-of-the-people-called-methodists_1749.txt
+- row_id: wesley-j_queries-humbly-proposed-to-count-zinzendorf_1755--queries-humbly-proposed-to-count-zinzendorf-1755-2
+  work: Queries humbly proposed to Count Zinzendorf (1755)
+  author: wesley-j
+  locus: whole pamphlet
+  role: tradition
+  confidence: assigned
+  note: Wesley's own words on the Moravians fifteen years after the Fetter Lane separation;
+    the Methodist side of the breach.
+  source_file: wesley-j_queries-humbly-proposed-to-count-zinzendorf_1755.txt
+- row_id: wesley-j_character-of-a-methodist_farley1742--the-character-of-a-methodist-wesley-1742
+  work: The Character of a Methodist (Wesley, 1742)
+  author: wesley-j
+  locus: whole tract
+  role: tradition
+  confidence: assigned
+  note: The movement's self-definition in its founder's numbered paragraphs.
+  source_file: wesley-j_character-of-a-methodist_farley1742.txt
+- row_id: wesley-j_journal-v2_curnock1909--the-journal-of-the-rev-john-wesley-standard-edition-vol-ii
+  work: The Journal of the Rev. John Wesley, Standard Edition vol. II (from September 1738)
+  author: wesley-j
+  locus: the dated Journal entries; Curnock's notes excluded
+  role: tradition
+  confidence: assigned
+  note: Wesley's own daily record of the revival's first years after Aldersgate and Herrnhut.
+  source_file: wesley-j_journal-v2_curnock1909.txt
+- row_id: wesley-j_journal-v3_curnock1909--the-journal-of-the-rev-john-wesley-standard-edition-vol-iii
+  work: The Journal of the Rev. John Wesley, Standard Edition vol. III (1742 onward)
+  author: wesley-j
+  locus: the dated Journal entries; Curnock's notes excluded
+  role: tradition
+  confidence: assigned
+  note: The itinerancy of the 1740s in Wesley's own record.
+  source_file: wesley-j_journal-v3_curnock1909.txt
+- row_id: wesley-j_journal-v4_curnock1909--the-journal-of-the-rev-john-wesley-standard-edition-vol-iv
+  work: The Journal of the Rev. John Wesley, Standard Edition vol. IV (the 1750s)
+  author: wesley-j
+  locus: the dated Journal entries; Curnock's notes excluded
+  role: tradition
+  confidence: assigned
+  note: The 1750s in Wesley's own record.
+  source_file: wesley-j_journal-v4_curnock1909.txt
+- row_id: wesley-j_journal-v5_curnock1909--the-journal-of-the-rev-john-wesley-standard-edition-vol-v
+  work: The Journal of the Rev. John Wesley, Standard Edition vol. V (the 1760s)
+  author: wesley-j
+  locus: the dated Journal entries; Curnock's notes excluded
+  role: tradition
+  confidence: assigned
+  note: The 1760s in Wesley's own record.
+  source_file: wesley-j_journal-v5_curnock1909.txt
+- row_id: wesley-j_journal-v6_curnock1909--the-journal-of-the-rev-john-wesley-standard-edition-vol-vi
+  work: The Journal of the Rev. John Wesley, Standard Edition vol. VI (the 1770s)
+  author: wesley-j
+  locus: the dated Journal entries; Curnock's notes excluded
+  role: tradition
+  confidence: assigned
+  note: The 1770s in Wesley's own record.
+  source_file: wesley-j_journal-v6_curnock1909.txt
+- row_id: wesley-j_journal-v7_curnock1909--the-journal-of-the-rev-john-wesley-standard-edition-vol-vii
+  work: The Journal of the Rev. John Wesley, Standard Edition vol. VII (the 1780s)
+  author: wesley-j
+  locus: the dated Journal entries; Curnock's notes excluded
+  role: tradition
+  confidence: assigned
+  note: The 1780s in Wesley's own record, including the years of the American ordinations.
+  source_file: wesley-j_journal-v7_curnock1909.txt
+- row_id: wesley-j_journal-v8_curnock1909--the-journal-of-the-rev-john-wesley-standard-edition-vol-viii
+  work: The Journal of the Rev. John Wesley, Standard Edition vol. VIII (1789-1791, appendices
+    and index)
+  author: wesley-j
+  locus: the dated Journal and diary entries; Curnock's appendices and index excluded
+  role: tradition
+  confidence: assigned
+  note: The close of the Journal and Wesley's last year.
+  source_file: wesley-j_journal-v8_curnock1909.txt
 - row_id: wesley-c_hymns-methodists_1780--a-collection-of-hymns-for-the-use-of-the-people-called
   work: A Collection of Hymns, for the Use of the People Called Methodists - Preface
   author: wesley-john
@@ -213,3 +507,37 @@ works:
 
     '
   source_file: wesley-j_large-minutes_1850.txt
+- row_id: wheatley_poems-on-various-subjects-religious-and-moral_bell1773--poems-on-various-subjects-religious-and-moral-wheatley-1773-2
+  work: Poems on Various Subjects, Religious and Moral (Wheatley, 1773)
+  author: wheatley
+  locus: the elegy on the death of the Rev. Mr. George Whitefield (1770)
+  role: context
+  confidence: provisional
+  note: Whitefield mourned by a Boston poet he never met in person; outside witness to his
+    American standing. Provisional.
+  source_file: wheatley_poems-on-various-subjects-religious-and-moral_bell1773.txt
+- row_id: whitefield_two-first-parts-of-his-life-with-journals_1756--the-two-first-parts-of-his-life-with-his-journals-whitefield
+  work: The Two First Parts of his Life, with his Journals (Whitefield, 1756 revision)
+  author: whitefield
+  locus: whole work
+  role: tradition
+  confidence: assigned
+  note: Whitefield's conversion, Georgia voyages and first field preaching in his own revised
+    Journals.
+  source_file: whitefield_two-first-parts-of-his-life-with-journals_1756.txt
+- row_id: whitefield_works-v1-letters-1734-1770_1771--the-works-of-the-reverend-george-whitefield-vol-i-letters
+  work: 'The Works of the Reverend George Whitefield, vol. I: letters 1734 onward (1771)'
+  author: whitefield
+  locus: the numbered letters
+  role: tradition
+  confidence: assigned
+  note: Whitefield's correspondence from the revival's first decades.
+  source_file: whitefield_works-v1-letters-1734-1770_1771.txt
+- row_id: whitefield_works-v6-sermons_1771--the-works-of-the-reverend-george-whitefield-vol-vi-sermons
+  work: 'The Works of the Reverend George Whitefield, vol. VI: sermons and tracts (1771)'
+  author: whitefield
+  locus: the numbered sermons
+  role: tradition
+  confidence: assigned
+  note: Whitefield's published sermons; the revival's preaching in its other founder's words.
+  source_file: whitefield_works-v6-sermons_1771.txt

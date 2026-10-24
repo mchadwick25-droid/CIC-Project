@@ -1,0 +1,29 @@
+source_file: kings-chapel_liturgy-collected-principally-from-the-book-of-common-prayer_1785.txt
+authors_ruled:
+  kings-chapel:
+    kind: metadata-omission
+    evidence: 'The title page names the First Episcopal Church in Boston as the user and no compiler;
+      the host names King''s Chapel (Boston, Mass.) and James Freeman. An institutional slug for the congregation.
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: kings-chapel_liturgy-collected-principally-from-the-book-of-common-prayer_1785--a-liturgy-for-the-use-of-the-first-episcopal-church-in
+  work: A Liturgy ... for the use of the First Episcopal Church in Boston (1785)
+  author: kings-chapel
+  locus: preface and liturgy; the Psalter as scripture
+  atlas_ids:
+  - early-american-unitarians-universalists
+  role: tradition
+  confidence: assigned
+  note: The congregation's own revised prayer book; the floor question in liturgical form.
+- row_id: kings-chapel_liturgy-collected-principally-from-the-book-of-common-prayer_1785--a-liturgy-for-the-use-of-the-first-episcopal-church-in-2
+  work: A Liturgy ... for the use of the First Episcopal Church in Boston (1785)
+  author: kings-chapel
+  locus: preface and liturgy
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: transmission
+  confidence: provisional
+  note: A colonial Church of England congregation's revision of the Prayer Book after independence; reception
+    of the Prayer Book. Provisional.

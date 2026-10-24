@@ -24,6 +24,19 @@ assignments:
     note: Placed on
       the entry's window (1650-1821). An English diplomat's outside account of 1678; about 78% of the OCR
       lines are readable words.
+  - row_id: rycaut_present-state-greek-armenian-churches_1679--the-present-state-of-the-greek-and-armenian-churches-anno-3
+    work: "The Present State of the Greek and Armenian Churches, Anno Christi 1678"
+    author: rycaut
+    locus: "title pages at about file lines 185-195 and 16607; the chapters from line 1297"
+    atlas_ids:
+      - armenian-christianity-era-8
+    role: context
+    confidence: provisional
+    note: >
+      An English diplomat's 1678 description of the Armenian Church under the Ottomans: the state
+      of the millet two decades before this entry's window opens (c. 1700). Outside witness, out
+      of window by about twenty years; placed so the entry reaches the only Armenian-church
+      description now vendored, ranked low.
 
   - row_id: rycaut_present-state-greek-armenian-churches_1679--armenian-church-chapters-etchmiadzin
     work: 'The Present State of the Greek and Armenian Churches, Anno Christi 1678 (Rycaut): the Armenian

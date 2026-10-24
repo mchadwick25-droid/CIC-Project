@@ -17,21 +17,26 @@ relations:
 - type: associated-with
   target: lpc.term.the-lapsed
 confidence:
-  citation_specificity: D
-  verification_state: unverified
-  evidentiary_weight: illustrative
-  formation_confidence: Inferential-Thin
-  divergence_note: A direct check finds the Latin headword absent from this world's own vendored English
-    corpus altogether. The volume's single occurrence of the word-family sits in the Introductory Notice
-    to the anonymous treatise against Novatian, not in De Lapsis. This term is carried as supporting reference
-    vocabulary for the lapsed, on Doc_01's own gloss rather than on attestation in this world's own primary
-    text -- a named gap, not filled with a confidence rating the source cannot support. Compare lpc.term.certificates-letters-of-peace,
-    which attests the English word the translation actually uses for the confessors' own opposite-direction
-    document.
+  citation_specificity: A
+  verification_state: verified-direct
+  evidentiary_weight: corroborating
+  formation_confidence: Documented
+  divergence_note: Cyprian uses the word himself, in De Lapsis and in his letter to Antonianus. The English
+    translation renders libelli as certificates, so the Latin headword is absent from the vendored English
+    volume apart from one occurrence in the Introductory Notice to the anonymous treatise against Novatian.
+    The Latin witnesses carry it. Latin libellus in Cyprian also names the martyrs' petitions, so the split
+    between this term and lpc.term.certificates-letters-of-peace separates the English word and is not
+    a distinction the Latin makes.
 sources:
-- source_id: lpc.source.anonymous-against-novatian-and-on-rebaptism
-  locus: the Introductory Notice to the anonymous treatise against Novatian -- the volume's own single
-    occurrence of the 'libell-' word-family, not an occurrence of 'libelli' bare, and not inside De Lapsis
+- source_id: lpc.source.cyprian-de-lapsis
+  locus: De Lapsis 27 -- 'libellis tamen conscientiam miscuerunt' (defiled their conscience with certificates);
+    De Lapsis 28 -- 'nullo sacrificii aut libelli facinore constricti' (bound by no crime of sacrifice
+    or of certificate)
+  license: public-domain
+- source_id: lpc.source.cyprian-epistles
+  locus: Epistle LI (to Antonianus) 13 and 14 -- those who receive certificates are not to be put on
+    a par with those who have sacrificed; the plea of one who obtained a certificate and paid a price
+    for it
   license: public-domain
 retrieval:
   tier: 2
@@ -58,15 +63,14 @@ senses:
     document saying they had. This is the administrative fact underneath the lapsed, and therefore underneath
     our whole penitential discipline and the confessor-authority tension: the crisis was documentary rather
     than merely moral.'
-  evidential: Doc_01's own gloss is the operative source for this term's meaning. A direct check finds
-    the Latin headword absent from our vendored English corpus altogether; the volume's one occurrence
-    of the word-family sits in the Introductory Notice to the anonymous treatise against Novatian, not
-    in De Lapsis. This term is carried as supporting reference vocabulary, on the gloss rather than direct
-    primary-text attestation.
+  evidential: Our own bishop Cyprian names this paper. In De Lapsis he speaks of those who have defiled
+    their conscience with certificates, and in his letter to Antonianus he writes of those who receive
+    certificates and sets them beside those who sacrificed. The English calls it a certificate. The Latin
+    word is libellus.
   translational: A modern listener may picture a formal identity document or licence. We mean a compliance
     record produced by an empire-wide administrative demand, whose existence is exactly what made failure
     documentary and public rather than private.
 quick_meaning: The libelli were papers given to people who obeyed the order to sacrifice. This paper is
   what made a person one of the lapsed.
 ---
-Re-derived from Doc_06 SS2.3 (lpclex017, corrected upward from a mis-drafted Tier 3 -- 'the source disclosure is the entire justification for how the entry is treated') and Lexicon-Chunks/lpclex017_libelli.md. formation_confidence set to Inferential-Thin for the specific claim that this Latin word is this world's own vocabulary item, distinct from the underlying historical mechanism, which is Documented via lpc.term.certificates-letters-of-peace' own English-language attestation (see script docstring, CONFIDENCE PER TERM). Relations: four terms per this term's own Related-Terms line.
+Derived from Doc_06 §2.3 and Lexicon-Chunks/lpclex017_libelli.md.

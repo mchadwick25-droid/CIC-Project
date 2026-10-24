@@ -24,8 +24,8 @@ rights_status: in-copyright; never vendored, consultation-only, per Source_Acqui
   primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build,
   never quoted as licensed vendored material.
 attribution_status: attributed
-discovery_channel: WebSearch this session (publisher, ISBN, and review records, Bryn Mawr Classical Review,
-  Journal of Roman Studies) / 2026-09-01.
+discovery_channel: WebSearch (publisher, ISBN, and review records, Bryn Mawr Classical Review, Journal
+  of Roman Studies).
 external_ids:
   lpc_source_registry_row: 54
 ---

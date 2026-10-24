@@ -1,0 +1,86 @@
+source_file: paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt
+authors_ruled:
+  mitrofan-schemamonk:
+    kind: metadata-omission
+    evidence: 'The Neamt brotherhood''s foreword before the Life (about raw scan lines 760-830) says the
+      brethren asked the schemamonk Mitrofan to write the Life, then compiled the printed text from all
+      versions holding chiefly to his. The host names only Paisius.
+
+      '
+  basil-of-poiana-marului:
+    kind: metadata-omission
+    evidence: 'The title page names the prefaces as written by the Elder Vasilii Polianomerul''skii, Paisius''s
+      friend; section II is headed ''Pisaniia startsa skhimonakha Vasiliia, spostnika i druga blazhennago
+      ottsa Paisiia'' (about raw scan line 3967).
+
+      '
+  optina-pustyn:
+    kind: anonymous
+    evidence: 'The title page reads ''Izdanie Kozel''skoi Vvedenskoi Optinoi Pustyni''; the opening ''Predislovie
+      ot russkago izdatelia'' (raw scan line 45) is unsigned.
+
+      '
+assignments:
+- row_id: paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847--life-of-the-moldavian-elder-paisius-compiled-at-neamt-from
+  work: Life of the Moldavian Elder Paisius (compiled at Neamt from Mitrofan's account)
+  author: mitrofan-schemamonk
+  locus: section I, the brotherhood's foreword and the Life (pages 1-71 of the printed book)
+  atlas_ids:
+  - the-hesychast-revival-paisius-and-the-philokalia
+  role: tradition
+  confidence: assigned
+  note: The disciples' Life of their elder, the source the census says preserves most of what is known
+    of him; Neamt's own account of its founder.
+- row_id: paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847--writings-of-the-elder-basil-of-poiana-marului-prefaces-to
+  work: 'Writings of the Elder Basil of Poiana Marului: prefaces to Gregory of Sinai, Philotheus, Hesychius
+    and Nil Sorsky; on forbidden foods'
+  author: basil-of-poiana-marului
+  locus: section II (pages 72-164 of the printed book)
+  atlas_ids:
+  - the-hesychast-revival-paisius-and-the-philokalia
+  role: tradition
+  confidence: assigned
+  note: The teaching on the prayer of the mind that Paisius's circle read before the Philokalia was printed;
+    the immediate source of his method.
+- row_id: paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847--writings-of-paisius-velichkovsky-the-scroll-on-mental-prayer
+  work: 'Writings of Paisius Velichkovsky: the scroll on mental prayer in chapters, the commentary on
+    ''Lord have mercy'', and other pieces'
+  author: paisius-velichkovsky
+  locus: section III (from page 165 of the printed book) to the letters
+  atlas_ids:
+  - the-hesychast-revival-paisius-and-the-philokalia
+  role: tradition
+  confidence: assigned
+  note: Paisius in his own words defending and teaching the Jesus Prayer against its critics; the world's
+    founder speaking.
+- row_id: paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847--letters-of-the-neamt-elders-sofronii-1797-and-athanasius-to
+  work: Letters of the Neamt elders Sofronii (1797) and Athanasius to Mother Maria Protas'eva of Arzamas
+  author: paisius-velichkovsky
+  locus: the letters after Paisius's writings (headings 'Pis'mo startsa Sofroniia' and 'Pis'mo ottsa Afanasiia',
+    about raw scan lines 12871 and 12955)
+  atlas_ids:
+  - the-hesychast-revival-paisius-and-the-philokalia
+  role: tradition
+  confidence: provisional
+  note: The starets-to-disciple correspondence into Russia the census asks for; written by Paisius's successors,
+    so the row's author slug stands for the Neamt circle and is provisional.
+- row_id: paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847--preface-of-the-russian-publisher-optina-pustyn-1847
+  work: Preface of the Russian publisher (Optina Pustyn, 1847)
+  author: optina-pustyn
+  locus: the opening preface (from raw scan line 45) to the Life
+  atlas_ids:
+  - the-optina-elders-and-russian-ascetic-renewal
+  role: tradition
+  confidence: provisional
+  note: Optina explaining why it prints Paisius, naming the Dobrotolyubie and the Neamt disciples who
+    came to Russia; the successor world's own voice, which the census dates from 1821.
+- row_id: paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847--zhitie-i-pisaniia-1847-the-whole-book-as-optina-s-first
+  work: 'Zhitie i pisaniia (1847): the whole book as Optina''s first edition of the fathers'
+  author: paisius-velichkovsky
+  locus: whole volume
+  atlas_ids:
+  - the-optina-elders-and-russian-ascetic-renewal
+  role: transmission
+  confidence: provisional
+  note: The book that opened Optina's publishing programme; the hand-on from Neamt to Optina that the
+    census's continuesAs names.

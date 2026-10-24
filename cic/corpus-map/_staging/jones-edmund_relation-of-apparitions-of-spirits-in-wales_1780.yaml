@@ -1,0 +1,12 @@
+source_file: jones-edmund_relation-of-apparitions-of-spirits-in-wales_1780.txt
+assignments:
+- row_id: jones-edmund_relation-of-apparitions-of-spirits-in-wales_1780--a-relation-of-apparitions-of-spirits-in-the-principality-of
+  work: A Relation of Apparitions of Spirits in the Principality of Wales (1780)
+  author: jones-edmund
+  locus: whole work
+  atlas_ids:
+  - the-welsh-revival-tradition
+  role: context
+  confidence: provisional
+  note: Popular belief among Welsh Dissenters and their neighbours as a pious minister recorded it; context
+    for how the revival's audience understood the unseen. Provisional.

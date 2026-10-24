@@ -1,0 +1,22 @@
+source_file: curzon_visits-to-monasteries-in-the-levant_1849.txt
+assignments:
+- row_id: curzon_visits-to-monasteries-in-the-levant_1849--visits-to-monasteries-in-the-levant-1849-the-mount-athos
+  work: 'Visits to Monasteries in the Levant (1849): the Mount Athos chapters'
+  author: curzon
+  locus: the part on Mount Athos (Curzon's visit of 1837)
+  atlas_ids:
+  - the-hesychast-revival-paisius-and-the-philokalia
+  role: context
+  confidence: provisional
+  note: An outsider's view of the libraries Paisius searched and the monks among whom the Philokalia was
+    made, a generation after the window; provisional because of the date and the collector's angle.
+- row_id: curzon_visits-to-monasteries-in-the-levant_1849--visits-to-monasteries-in-the-levant-1849-the-greek
+  work: 'Visits to Monasteries in the Levant (1849): the Greek monasteries of the Meteora, Albania and
+    Constantinople'
+  author: curzon
+  locus: the parts outside Athos dealing with Greek Orthodox houses
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-1650-1821
+  role: context
+  confidence: provisional
+  note: Greek monastic life under Ottoman rule in the 1830s, just after that world's window; provisional.

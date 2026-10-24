@@ -1,0 +1,13 @@
+source_file: serpos_compendio-storico-nazione-armena-t2-ita_1786.txt
+assignments:
+- row_id: serpos_compendio-storico-nazione-armena-t2-ita_1786--compendio-storico-di-memorie-cronologiche-concernenti-la
+  work: Compendio storico di memorie cronologiche concernenti la religione e la morale della nazione armena,
+    Tomo II (1786)
+  author: serpos
+  locus: whole volume
+  atlas_ids:
+  - armenian-christianity-era-8
+  role: tradition
+  confidence: assigned
+  note: The same Armenian Catholic voice of 1786 reading the patriarchal and conciliar history of his
+    church.

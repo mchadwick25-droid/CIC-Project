@@ -35,7 +35,7 @@ description: "HISTORICAL EVENT: Tacitus, Annals 15.44, tells how Nero blamed Chr
 manifestations:
 - "Nero's scapegoating of Christians after the Great Fire, per Tacitus's hostile but basically authentic account"
 - "1 Clement's own retrospective naming of the apostles' deaths as already past (chs. 5-6)"
-- "1 Clement's own account (ch. 44) that the apostles foresaw strife over the episcopal office and appointed successors"
+- "1 Clement's own account (ch. 44) that the apostles foresaw strife over the office of oversight and appointed successors"
 - "the closest thing this world has to an origin event"
 ---
 Re-derived from the approved Doc_08 Force 1A-2. canon_cells left empty:

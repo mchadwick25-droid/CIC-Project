@@ -18,7 +18,7 @@ relations: []
 author: Almut Mutzenbecher (editor); Augustine of Hippo (author)
 work: 'Retractationum libri II, CCSL 57 (Turnhout: Brepols, 1984)'
 edition: Brepols, 1984 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring
-  candidate. Knöll's own CSEL 36 edition of the same text (row 78) is the public-domain route, now vendored
+  candidate. Knöll's own CSEL 36 edition of the same text (row 78) is the public-domain route, vendored
   as row 209.
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note
@@ -26,7 +26,7 @@ rights_status: in-copyright; never vendored, consultation-only, per Source_Acqui
   primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build,
   never quoted as licensed vendored material.
 attribution_status: attributed to Mutzenbecher as editor, Augustine as author
-discovery_channel: WebSearch this session (Brepols's own series record) / 2026-09-02.
+discovery_channel: WebSearch (Brepols's own series record).
 external_ids:
   lpc_source_registry_row: 67
 ---

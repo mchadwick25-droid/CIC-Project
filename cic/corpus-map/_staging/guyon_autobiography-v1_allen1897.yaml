@@ -1,0 +1,12 @@
+source_file: guyon_autobiography-v1_allen1897.txt
+assignments:
+- row_id: guyon_autobiography-v1_allen1897--autobiography-la-vie-ecrite-par-elle-meme-tr-allen-vol-i
+  work: Autobiography (La Vie écrite par elle-même), tr. Allen, vol. I (1897)
+  author: guyon
+  locus: the autobiography; Allen's introduction excluded
+  atlas_ids:
+  - quietist-controversy-molinos-guyon
+  role: tradition
+  confidence: assigned
+  note: Guyon's own voice; written at her directors' order and revised in prison, as the census warns,
+    so it is an advocate's self-account.

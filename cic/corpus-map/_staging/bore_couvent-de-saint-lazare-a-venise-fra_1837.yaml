@@ -1,0 +1,22 @@
+source_file: bore_couvent-de-saint-lazare-a-venise-fra_1837.txt
+assignments:
+- row_id: bore_couvent-de-saint-lazare-a-venise-fra_1837--le-couvent-de-saint-lazare-a-venise-ou-histoire-succincte-de
+  work: Le couvent de Saint-Lazare à Venise, ou histoire succincte de l'ordre des Méchitaristes arméniens
+    (1837)
+  author: bore
+  locus: the history of the order
+  atlas_ids:
+  - armenian-christianity-era-8
+  role: context
+  confidence: assigned
+  note: A near-contemporary outside account of the Mechitarists' founding and work, written from close
+    to the house.
+- row_id: bore_couvent-de-saint-lazare-a-venise-fra_1837--le-couvent-de-saint-lazare-a-venise-1837-on-the-order-in-the
+  work: Le couvent de Saint-Lazare à Venise (1837), on the order in the 1830s
+  author: bore
+  locus: the description of the house and its press
+  atlas_ids:
+  - armenian-christianity-zartonk
+  role: context
+  confidence: provisional
+  note: San Lazzaro at the start of the Zartonk century; provisional, not read for that entry.

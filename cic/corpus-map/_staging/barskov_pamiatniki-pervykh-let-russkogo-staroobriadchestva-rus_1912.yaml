@@ -1,0 +1,38 @@
+source_file: barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912.txt
+authors_ruled:
+  morozova:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is the editor barskov; Boyarynia Feodosia
+      Prokopievna Morozova''s letters are printed under her name as documents 13, 14, 15 and 19 (table
+      of contents, file lines about 30-45). cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912--boyarynia-feodosia-morozova-s-letters-to-avvakum-and-his
+  work: Boyarynia Feodosia Morozova's letters to Avvakum and his family (in Barskov, 1912)
+  author: morozova
+  locus: documents 13, 14, 15 and 19
+  atlas_ids:
+  - the-old-believers
+  role: tradition
+  confidence: assigned
+  note: The noblewoman martyr in her own letters; the women's voice of the first generation.
+- row_id: barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912--avvakum-s-letters-to-morozova-and-to-his-family-and-his
+  work: Avvakum's letters to Morozova and to his family, and his petitions from Pustozersk (in Barskov,
+    1912)
+  author: avvakum
+  locus: documents 11, 12, 16, 18, 20, 22 and 23
+  atlas_ids:
+  - the-old-believers
+  role: tradition
+  confidence: assigned
+  note: Avvakum's side of the correspondence and two petitions to the Tsar, from the manuscripts.
+- row_id: barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912--the-solovki-petition-interrogations-and-case-papers-in
+  work: The Solovki petition, interrogations and case papers (in Barskov, 1912)
+  author: barskov
+  locus: documents 6-10 and 24-26 and the rest
+  atlas_ids:
+  - the-old-believers
+  role: context
+  confidence: assigned
+  note: The monastery's petition beside the interrogations and case papers; mixed voices, context.

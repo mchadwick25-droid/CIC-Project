@@ -1,0 +1,12 @@
+source_file: fedor-ivanov-diakon_sochineniia-materialy-v6-rus_subbotin1881.txt
+assignments:
+- row_id: fedor-ivanov-diakon_sochineniia-materialy-v6-rus_subbotin1881--deacon-fyodor-ivanov-s-writings-materialy-vol-vi-1881
+  work: Deacon Fyodor Ivanov's writings (Materialy, vol. VI, 1881)
+  author: fedor-ivanov-diakon
+  locus: the works; Subbotin's introduction excluded
+  atlas_ids:
+  - the-old-believers
+  role: tradition
+  confidence: assigned
+  note: The deacon who shared Avvakum's prison and argued with him; the movement's first internal dispute
+    in its own words.

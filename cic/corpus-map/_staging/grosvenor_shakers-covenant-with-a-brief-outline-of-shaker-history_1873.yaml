@@ -1,0 +1,28 @@
+source_file: grosvenor_shakers-covenant-with-a-brief-outline-of-shaker-history_1873.txt
+authors_ruled:
+  grosvenor:
+    kind: metadata-omission
+    evidence: 'The title page reads ''Roxalana L. Grosvenor''. Plain-text vendored file, so cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+assignments:
+- row_id: grosvenor_shakers-covenant-with-a-brief-outline-of-shaker-history_1873--the-shakers-covenant-1873
+  work: The Shakers' Covenant (1873)
+  author: grosvenor
+  locus: the Covenant or Constitution
+  atlas_ids:
+  - shakers
+  role: tradition
+  confidence: provisional
+  note: The Society's own church covenant, though in a form later than the window and printed by a former
+    member; provisional until the covenant's date is settled.
+- row_id: grosvenor_shakers-covenant-with-a-brief-outline-of-shaker-history_1873--the-shakers-covenant-1873-2
+  work: The Shakers' Covenant (1873) -- Grosvenor's introduction and outline of Shaker history
+  author: grosvenor
+  locus: the Introduction and the outline of Shaker history
+  atlas_ids:
+  - shakers
+  role: transmission
+  confidence: assigned
+  note: A former office-holder's later account of the founders.

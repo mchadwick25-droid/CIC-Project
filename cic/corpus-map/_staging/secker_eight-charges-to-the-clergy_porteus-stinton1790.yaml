@@ -1,0 +1,12 @@
+source_file: secker_eight-charges-to-the-clergy_porteus-stinton1790.txt
+assignments:
+- row_id: secker_eight-charges-to-the-clergy_porteus-stinton1790--eight-charges-delivered-to-the-clergy-of-the-dioceses-of
+  work: Eight Charges delivered to the Clergy of the Dioceses of Oxford and Canterbury (1738-1766)
+  author: secker
+  locus: the eight charges and the Instructions to Candidates for Orders
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: tradition
+  confidence: assigned
+  note: The bishop's voice in governance, setting the standard of parish duty the diaries show being kept
+    or missed.

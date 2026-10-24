@@ -26,12 +26,11 @@ author: Alois Goldbacher (editor); Augustine of Hippo (author)
 work: S. Aureli Augustini Hipponiensis episcopi Epistulae, Pars IV (Epistulae CLXXXV-CCLXX), CSEL 57
 edition: 'Vindobonae: F. Tempsky; Lipsiae: G. Freytag, 1911; vendored as cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt'
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
-  read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
-  own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
-  a rights re-check by this compilation pass.
+  read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
+  check (Source_Acquisition_Manifest.md SS1).
 attribution_status: attributed
-discovery_channel: Project lead direct supply / 2026-09-05.
+discovery_channel: Project lead direct supply.
 external_ids:
   lpc_source_registry_row: 193
 ---
-Part of the edition row 61 names, now actually vendored -- the Latin original behind the already-vendored NPNF translation of exactly this letter range, including Letter 185 itself (row 12), the first letter in this file's own range.
+Part of the edition row 61 names, vendored -- the Latin original behind the already-vendored NPNF translation of exactly this letter range, including Letter 185 itself (row 12), the first letter in this file's own range.

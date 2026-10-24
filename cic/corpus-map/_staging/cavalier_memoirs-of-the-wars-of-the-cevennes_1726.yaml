@@ -1,0 +1,21 @@
+source_file: cavalier_memoirs-of-the-wars-of-the-cevennes_1726.txt
+assignments:
+- row_id: cavalier_memoirs-of-the-wars-of-the-cevennes_1726--memoirs-of-the-wars-of-the-cevennes-1726
+  work: Memoirs of the Wars of the Cevennes (1726)
+  author: cavalier
+  locus: whole work
+  atlas_ids:
+  - camisard-prophetism
+  role: tradition
+  confidence: assigned
+  note: The commander's memoir, written two decades after; self-justifying on the 1704 surrender, which
+    the census flags as the memoir's bias.
+- row_id: cavalier_memoirs-of-the-wars-of-the-cevennes_1726--memoirs-of-the-wars-of-the-cevennes-1726-2
+  work: Memoirs of the Wars of the Cevennes (1726)
+  author: cavalier
+  locus: whole work
+  atlas_ids:
+  - church-of-the-desert-huguenots
+  role: tradition
+  confidence: provisional
+  note: The armed resistance that opened the Desert period, in a participant's words.

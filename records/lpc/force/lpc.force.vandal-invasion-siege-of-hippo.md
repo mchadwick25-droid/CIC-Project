@@ -51,4 +51,4 @@ manifestations:
 - Augustine's own death on 28 August 430, independently recorded by a near-contemporary Gallic chronicler
 matrix_cell: 3A
 ---
-Re-derived from the approved Doc_08 §3 Force 3A-1 (Cell 3A, Ending/External). relations[] carries the gravity<->force edge (G1) and the force<->force edge (3B-1) named above.
+Taken from Doc_08 §3 Force 3A-1 (Cell 3A, Ending/External). relations[] carries the gravity<->force edge (G1) and the force<->force edge (3B-1) named above.

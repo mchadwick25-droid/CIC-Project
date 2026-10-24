@@ -1,0 +1,11 @@
+source_file: watts_psalms-of-david-imitated_1719.txt
+assignments:
+- row_id: watts_psalms-of-david-imitated_1719--the-psalms-of-david-imitated-in-the-language-of-the-new
+  work: The Psalms of David Imitated in the Language of the New Testament (1719)
+  author: watts
+  locus: whole work
+  atlas_ids:
+  - english-old-dissent
+  role: tradition
+  confidence: assigned
+  note: Watts's psalter and his preface on worship; Dissent's singing reformed from within.

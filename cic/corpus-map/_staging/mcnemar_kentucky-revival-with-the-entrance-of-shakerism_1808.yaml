@@ -1,0 +1,38 @@
+source_file: mcnemar_kentucky-revival-with-the-entrance-of-shakerism_1808.txt
+authors_ruled:
+  mcnemar:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By Richard M''Nemar''. Plain-text vendored file, so cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+assignments:
+- row_id: mcnemar_kentucky-revival-with-the-entrance-of-shakerism_1808--the-kentucky-revival-1808
+  work: The Kentucky Revival (1808)
+  author: mcnemar
+  locus: the account of the entrance and progress of Shakerism
+  atlas_ids:
+  - shakers
+  role: tradition
+  confidence: assigned
+  note: A Shaker convert's own account of the western gathering of 1805 onward.
+- row_id: mcnemar_kentucky-revival-with-the-entrance-of-shakerism_1808--the-kentucky-revival-1808-2
+  work: The Kentucky Revival (1808)
+  author: mcnemar
+  locus: the history of the revival of 1800-1805
+  atlas_ids:
+  - the-second-great-awakening-and-camp-meeting-worl
+  role: context
+  confidence: provisional
+  note: An eyewitness history of the Cane Ridge era camp meetings, by a participant who later left for
+    the Shakers; outside the sibling world's own voice by the time he wrote.
+- row_id: mcnemar_kentucky-revival-with-the-entrance-of-shakerism_1808--the-kentucky-revival-1808-3
+  work: The Kentucky Revival (1808)
+  author: mcnemar
+  locus: the New Light schism and the Springfield Presbytery documents
+  atlas_ids:
+  - the-stone-campbell-restoration-movement
+  role: context
+  confidence: provisional
+  note: McNemar's account prints the Springfield Presbytery documents, which name him with John Dunlavy
+    and Barton W. Stone.

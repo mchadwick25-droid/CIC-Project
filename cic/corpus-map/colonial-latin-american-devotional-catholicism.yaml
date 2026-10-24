@@ -15,6 +15,80 @@ works:
 
     '
   source_file: acosta_natural-and-moral-history-of-the-indies-v2_grimston-markham1880.txt
+- row_id: juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700--aprobacion-and-life-of-sor-juana-fama-y-obras-posthumas-1700
+  work: Aprobacion and life of Sor Juana (Fama y obras posthumas, 1700)
+  author: calleja-diego
+  locus: Calleja's approbation in the front matter
+  role: tradition
+  confidence: provisional
+  note: 'A Spanish Jesuit''s life of her, from her confessor''s and friends'' reports, written
+    in Madrid; the first account of her final renunciation. A Church voice about her, not
+    her own.
+
+    '
+  source_file: juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700.txt
+- row_id: faber-fw_life-of-saint-rose-of-lima_1855--the-life-of-saint-rose-of-lima-faber-s-series-1847-american
+  work: The Life of Saint Rose of Lima (Faber's series, 1847; American edition 1855)
+  author: faber-fw
+  locus: whole text
+  role: transmission
+  confidence: assigned
+  note: 'Later English reception of the Lima saint''s cult; useful for reading, not as evidence
+    for the colonial period beside the Latin Life.
+
+    '
+  source_file: faber-fw_life-of-saint-rose-of-lima_1855.txt
+- row_id: florencia_estrella-del-norte-de-mexico-spa_rosa1895--la-estrella-del-norte-de-mexico-1688
+  work: La Estrella del Norte de México (1688)
+  author: florencia
+  locus: the author's prologue and chapters; de la Rosa's prologue of 1895 excluded
+  role: tradition
+  confidence: assigned
+  note: 'A criollo Jesuit''s history of the Guadalupe cult, arguing for its tradition; the
+    devotion''s own advocate. The apparition narrative''s dating and authorship are contested
+    (the census flags it); tag the apparition claims as Contested, the cult''s existence as
+    Documented.
+
+    '
+  source_file: florencia_estrella-del-norte-de-mexico-spa_rosa1895.txt
+- row_id: gage_english-american-new-survey-of-the-west-indias_1648--the-english-american-or-a-new-survey-of-the-west-indies-1648
+  work: The English-American, or A New Survey of the West Indies (1648)
+  author: gage
+  locus: the chapters on Mexico City and on Guatemala's Indian towns, their feasts, images
+    and confraternities
+  role: context
+  confidence: assigned
+  note: 'Hostile witness: an apostate friar writing for an English Protestant public at war
+    with Spain. Rich on confraternity feasts and image devotion; every judgement in it is
+    polemic, and its facts need a second witness.
+
+    '
+  source_file: gage_english-american-new-survey-of-the-west-indias_1648.txt
+- row_id: hansen_vita-mirabilis-et-mors-pretiosa-rosae-de-s-maria-lat_1664--vita-mirabilis-et-mors-pretiosa-rosae-de-s-maria-limensis
+  work: Vita mirabilis et mors pretiosa Rosae de S. Maria Limensis (1664)
+  author: hansen
+  locus: whole text
+  role: tradition
+  confidence: provisional
+  note: 'Written in Rome by a Flemish Dominican from the Lima process papers, so the Church''s
+    voice about a Lima laywoman, not hers or her neighbours''. The process witnesses stand
+    behind it unnamed or named in passing.
+
+    '
+  source_file: hansen_vita-mirabilis-et-mors-pretiosa-rosae-de-s-maria-lat_1664.txt
+- row_id: juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700--respuesta-a-sor-filotea-de-la-cruz-exercicios-devotos-for
+  work: Respuesta a Sor Filotea de la Cruz; Exercicios devotos for the novena of the Incarnation;
+    Ofrecimientos of the Rosary of the Sorrows; poems (Fama y obras posthumas, 1700)
+  author: juana-ines-de-la-cruz
+  locus: her own prose and verse; the eulogies by others excluded
+  role: tradition
+  confidence: assigned
+  note: 'A professed nun of Mexico City in her own words: the reply on learning and obedience,
+    and the devotional exercises she wrote for others to use. The census names the Respuesta.
+    Primary Spanish evidence once quotes are checked against the page images.
+
+    '
+  source_file: juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700.txt
 - row_id: motolinia_historia-de-los-indios-de-la-nueva-espana-spa_sanchez-garcia1914--historia-de-los-indios-de-la-nueva-espana-2
   work: Historia de los indios de la Nueva Espana (written 1536-1541)
   author: motolinia
@@ -26,6 +100,53 @@ works:
 
     '
   source_file: motolinia_historia-de-los-indios-de-la-nueva-espana-spa_sanchez-garcia1914.txt
+- row_id: palou_life-and-apostolic-labors-of-junipero-serra_williams1913--life-and-apostolic-labors-of-junipero-serra-english-of-1913
+  work: Life and Apostolic Labors of Junípero Serra, English of 1913
+  author: palou
+  locus: the translated chapters; James's introduction and notes excluded
+  role: tradition
+  confidence: assigned
+  note: 'English of the 1787 Spanish vendored beside it; the translator''s wording, to be
+    checked against the Spanish before quotation.
+
+    '
+  source_file: palou_life-and-apostolic-labors-of-junipero-serra_williams1913.txt
+- row_id: palou_relacion-historica-vida-junipero-serra-spa_1787--relacion-historica-de-la-vida-de-fray-junipero-serra-1787
+  work: Relación histórica de la vida de Fray Junípero Serra (1787)
+  author: palou
+  locus: whole text
+  role: tradition
+  confidence: assigned
+  note: 'A Franciscan missionary''s own account of his order''s California missions and of
+    his teacher, written as a life of a holy man. The missionaries'' voice; the Native Californians
+    appear only through it.
+
+    '
+  source_file: palou_relacion-historica-vida-junipero-serra-spa_1787.txt
+- row_id: paredes_promptuario-manual-mexicano-nci-spa_1759--promptuario-manual-mexicano-1759-the-platicas-lenten-sermons
+  work: 'Promptuario manual mexicano (1759): the platicas, Lenten sermons and Guadalupe sermon'
+  author: paredes
+  locus: whole text; the Spanish preliminaries as their own witness
+  role: tradition
+  confidence: assigned
+  note: 'A Jesuit preacher''s Nahuatl sermons for indigenous parishes; the church speaking
+    to Nahua Christians, not their own voice, but the words they heard each Sunday. Quotation
+    needs a Nahuatl reader and the page images.
+
+    '
+  source_file: paredes_promptuario-manual-mexicano-nci-spa_1759.txt
+- row_id: pena-montenegro_itinerario-para-parochos-de-indios-spa_1668--itinerario-para-parochos-de-indios-1668
+  work: Itinerario para parochos de indios (1668)
+  author: pena-montenegro
+  locus: whole text; especially the treatises on idolatry, marriage and the sacraments
+  role: tradition
+  confidence: assigned
+  note: 'The colonial episcopate''s pastoral voice: how a parish priest was told to govern,
+    teach and police indigenous devotion. A clergy view of the people''s practice, partly
+    the policing view the census flags.
+
+    '
+  source_file: pena-montenegro_itinerario-para-parochos-de-indios-spa_1668.txt
 - row_id: teresa-of-avila_book-of-foundations_lewis1913--foundations-colonial
   work: The Book of the Foundations, the chapter on her brother Lorenzo's return from the
     Indies
@@ -38,3 +159,28 @@ works:
     reform. A few pages only, and outside this entry''s window of c. 1600-1810; needs a ruling
     on whether it belongs at all.'
   source_file: teresa-of-avila_book-of-foundations_lewis1913.txt
+- row_id: toro_compendio-vida-juan-macias-spa_1689--compendio-de-la-prodigiosa-vida-de-fray-juan-macias-1689
+  work: Compendio de la prodigiosa vida de Fray Juan Macías (1689)
+  author: toro
+  locus: the chapters of the Life
+  role: tradition
+  confidence: provisional
+  note: 'A Dominican''s hagiography of a Lima lay brother, printed in Seville; the Church''s
+    voice about the saint, built from the process. Hagiographic; tag claims of miracle with
+    care.
+
+    '
+  source_file: toro_compendio-vida-juan-macias-spa_1689.txt
+- row_id: villagomez_sumario-probanzas-canonizacion-toribio-mogrovejo-spa_lima1662--sumario-y-memorial-ajustado-de-las-probanzas-cause-of
+  work: Sumario y memorial ajustado de las probanzas, cause of Toribio de Mogrovejo (Lima,
+    1662)
+  author: villagomez
+  locus: the articles and the witnesses' depositions
+  role: tradition
+  confidence: assigned
+  note: 'Lima''s own record of a cult in the making: witnesses of many ranks in summary, led
+    by the articles the judges set. Testimony shaped by the questioners and summarised by
+    clerks, so the devotees'' words at one remove.
+
+    '
+  source_file: villagomez_sumario-probanzas-canonizacion-toribio-mogrovejo-spa_lima1662.txt

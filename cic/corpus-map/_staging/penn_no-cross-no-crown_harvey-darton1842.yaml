@@ -1,0 +1,11 @@
+source_file: penn_no-cross-no-crown_harvey-darton1842.txt
+assignments:
+- row_id: penn_no-cross-no-crown_harvey-darton1842--no-cross-no-crown-penn-1669-1682-1842-edition
+  work: No Cross, No Crown (Penn, 1669/1682; 1842 edition)
+  author: penn
+  locus: both parts
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: assigned
+  note: Quaker plainness and self-denial argued at length by the Society's statesman.

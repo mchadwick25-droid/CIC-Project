@@ -1,0 +1,11 @@
+source_file: woodforde_diary-of-a-country-parson-v2_beresford1926.txt
+assignments:
+- row_id: woodforde_diary-of-a-country-parson-v2_beresford1926--the-diary-of-a-country-parson-vol-ii-1782-1787
+  work: The Diary of a Country Parson, vol. II, 1782-1787
+  author: woodforde
+  locus: the diary entries; Beresford's introduction and notes excluded
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: tradition
+  confidence: assigned
+  note: The parish year as its rector recorded it.

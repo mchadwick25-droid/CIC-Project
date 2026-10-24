@@ -1,0 +1,29 @@
+source_file: rowland-daniel_three-sermons-upon-practical-subjects_davies1778.txt
+authors_ruled:
+  davies-thomas:
+    kind: metadata-omission
+    evidence: 'The advertisement is signed from ''London, Eyre Street'', dated May 9, 1778, with the signature
+      partly garbled (''D AV I E''); the title-page imprint, also partly garbled, names the book as printed
+      for the editor, Thomas Davies, of Eyre Street. cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: rowland-daniel_three-sermons-upon-practical-subjects_davies1778--three-sermons-upon-practical-subjects-english-1778
+  work: Three Sermons upon Practical Subjects (English, 1778)
+  author: rowland-daniel
+  locus: the three sermons
+  atlas_ids:
+  - the-welsh-revival-tradition
+  role: tradition
+  confidence: assigned
+  note: Rowland's preaching in a second contemporary translation.
+- row_id: rowland-daniel_three-sermons-upon-practical-subjects_davies1778--the-editor-s-advertisement-1778
+  work: The editor's advertisement (1778)
+  author: davies-thomas
+  locus: the advertisement before the sermons
+  atlas_ids:
+  - the-welsh-revival-tradition
+  role: context
+  confidence: provisional
+  note: A contemporary witness to the monthly communion at Llangeitho and the quarterly meetings of the
+    preachers.

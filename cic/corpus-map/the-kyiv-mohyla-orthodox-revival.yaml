@@ -33,6 +33,15 @@ works:
     'academy records, brotherhood statutes' points to, as far as a printed public-domain series
     carries it. Clean OCR; read the headings (numbered and dated) to find a document.
   source_file: akty-zapadnoi-rossii_t4-1588-1652-rus_1851.txt
+- row_id: dimitrii-rostovskii_tvoreniia-rus_sytin1889--selections-2
+  work: Творения святаго Димитрия, митрополита Ростовскаго (selections)
+  author: dimitrii-rostovskii
+  locus: the selections from his works
+  role: transmission
+  confidence: provisional
+  note: A Kyiv-Mohyla product carried into the Russian church; provisional for the Kyivan
+    world.
+  source_file: dimitrii-rostovskii_tvoreniia-rus_sytin1889.txt
 - row_id: dositheus_acts-and-decrees-synod-jerusalem_robertson1899--synodal-decree-of-constantinople-against-lucar-s-chapters-wi
   work: Synodal decree of Constantinople against Lucar's chapters, with Mogila's signature
     for the Church in Little Russia
@@ -309,6 +318,16 @@ works:
     for the Greek beside Kimmel (same text; the Greek OCR here has accent errors too); Parts
     II and III are only in Kimmel and Overbeck. The Latin and the headnote are readable.
   source_file: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt
+- row_id: paul-of-aleppo_travels-of-macarius-v1_belfour1836--the-travels-of-macarius-paul-of-aleppo-vol-1-the-cossack
+  work: 'The Travels of Macarius (Paul of Aleppo), vol. 1: the Cossack country, Kiev and the
+    arrival in Moscow'
+  author: paul-of-aleppo
+  locus: Books V-VIII
+  role: context
+  confidence: provisional
+  note: Kiev's monasteries and Nikon's Moscow seen by an Eastern patriarch's archdeacon; context
+    for the Russian and Kyivan worlds, provisional.
+  source_file: paul-of-aleppo_travels-of-macarius-v1_belfour1836.txt
 - row_id: pelesz_geschichte-der-union-bd2-deu_1880--pelesz-history-of-the-union-vol-2-passages-on-mohyla-s-rise-
   work: Pelesz, History of the Union, vol. 2 (passages on Mohyla's rise and metropolitanate)
   author: pelesz

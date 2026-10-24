@@ -934,3 +934,12 @@ Fixed:
 Still open: records that cite the four sources now marked unvendored still carry their earlier verification states (e.g. the nine records citing De vita sua). They need a pass to set what each can claim without a vendored text. Correcting the four `kind` labels made the M9 `emic-vendored-only/cappadocian` count accurate: 84 emic records cite a source the Library does not hold, up from 66 counted while those four were mislabelled. The waiver in `engine/m9/enforce.py` now says 84; its deadline and owner are unchanged.
 
 Status: OPEN for the follow-on pass. The claim check findings FIXED 2026-10-23/24, awaiting an independent recheck by a separate Opus thread (CLAUDE.md: a blocking finding does not clear by self-certification); fix list: `Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Fix-List.md`.
+
+### OG-54. Independent recheck of the live-reply claim check fixes, 2026-10-24.
+
+Independent recheck, round 1 (the round 1 recheck report in https://github.com/mchadwick25-droid/CIC-Project/pull/1099): the other fixes in this world for the "Live-reply claim check findings re-confirmed" entry (2026-10-23) are confirmed. Blocking, fixed on 2026-10-24 and awaiting the round 2 recheck:
+- B3. `cappadocian.term.philoptochia` divergence_note said Nyssa's poverty homilies were vendored. It now says only Nazianzen's Oration 14 is held.
+- B4. `cappadocian.quote.basil-against-eunomius-ant`: the same ant passage stands in Gregory of Nyssa's Against Eunomius X (NPNF numbering). The quote keeps the edition's attribution to Basil, now rated Contested, with a divergence_note naming the parallel; `cappadocian.dw.want-to-believe` is hedged to match.
+
+
+Status: OPEN for B3 and B4 until the round 2 recheck. CLOSED for the other claim check findings. The follow-on pass on records citing the four unvendored sources stays OPEN.

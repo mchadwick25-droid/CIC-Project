@@ -1,0 +1,12 @@
+source_file: keach-benjamin_baptist-catechism_1851.txt
+assignments:
+- row_id: keach-benjamin_baptist-catechism_1851--the-baptist-catechism-keach-s-catechism-c-1693-this-printing
+  work: The Baptist Catechism (Keach's Catechism; c. 1693; this printing 1851)
+  author: keach-benjamin
+  locus: whole work
+  atlas_ids:
+  - the-baptists
+  role: tradition
+  confidence: assigned
+  note: The teaching instrument of the Particular Baptists and of the Philadelphia Association, keyed
+    to the 1689 Confession.

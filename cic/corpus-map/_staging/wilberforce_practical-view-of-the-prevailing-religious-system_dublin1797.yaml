@@ -1,0 +1,21 @@
+source_file: wilberforce_practical-view-of-the-prevailing-religious-system_dublin1797.txt
+assignments:
+- row_id: wilberforce_practical-view-of-the-prevailing-religious-system_dublin1797--a-practical-view-of-the-prevailing-religious-system-of
+  work: A Practical View of the Prevailing Religious System of Professed Christians (1797)
+  author: wilberforce
+  locus: whole work
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: tradition
+  confidence: assigned
+  note: An evangelical layman inside the established church, judging its comfortable Christianity from
+    within.
+- row_id: wilberforce_practical-view-of-the-prevailing-religious-system_dublin1797--a-practical-view-of-the-prevailing-religious-system-of-2
+  work: A Practical View of the Prevailing Religious System of Professed Christians (1797)
+  author: wilberforce
+  locus: whole work
+  atlas_ids:
+  - victorian-church-of-england
+  role: transmission
+  confidence: provisional
+  note: The Clapham evangelicalism the Victorian church inherited; provisional.

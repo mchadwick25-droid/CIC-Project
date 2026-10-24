@@ -1,0 +1,21 @@
+source_file: flechier_lettres-fra_1712.txt
+assignments:
+- row_id: flechier_lettres-fra_1712--lettres-de-monsieur-flechier-1712
+  work: Lettres de Monsieur Fléchier (1712)
+  author: flechier
+  locus: the letters of 1702-1710 on the 'fanatiques'
+  atlas_ids:
+  - camisard-prophetism
+  role: context
+  confidence: assigned
+  note: The bishop of Nîmes on the war in his diocese; hostile, contemporary, and close.
+- row_id: flechier_lettres-fra_1712--lettres-de-monsieur-flechier-1712-2
+  work: Lettres de Monsieur Fléchier (1712)
+  author: flechier
+  locus: whole collection
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: tradition
+  confidence: provisional
+  note: An Academician bishop of Louis XIV's church in his own letters; the episcopal voice of the Gallican
+    church at the turn of the century.

@@ -1,0 +1,21 @@
+source_file: walsh_residence-at-constantinople-v2_1836.txt
+assignments:
+- row_id: walsh_residence-at-constantinople-v2_1836--a-residence-at-constantinople-vol-2-walsh-1836
+  work: A Residence at Constantinople, vol. 2 (Walsh, 1836)
+  author: walsh
+  locus: whole volume
+  atlas_ids:
+  - orthodoxy-after-1821-balkan-autocephalies
+  role: context
+  confidence: provisional
+  note: The Greek church and people of Constantinople after the revolt; mostly past this window's end,
+    so placed with the successor, provisional.
+- row_id: walsh_residence-at-constantinople-v2_1836--a-residence-at-constantinople-vol-2-walsh-1836-2
+  work: A Residence at Constantinople, vol. 2 (Walsh, 1836)
+  author: walsh
+  locus: passages looking back to 1821 and the Patriarchate
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-1650-1821
+  role: context
+  confidence: provisional
+  note: Retrospective passages on the 1821 events; provisional.

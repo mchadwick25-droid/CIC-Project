@@ -21,11 +21,8 @@ confidence:
   formation_confidence: Documented
   divergence_note: 'The pattern is attested through different figures and different words -- and at the
     same office (the episcopate) in both phases -- not one recurring term. Named as a pattern, not
-    presented as a shared vocabulary item. Carried tension,
-    flagged rather than resolved here: Lexicon_Deployment_Index.md SS3 records that this term carries
-    no [DR] tag although Doc_06 SS4 names it a sharpest-case distortion (''suffrage'' hears as a modern
-    franchise); this script maps distortion_risk from the tag set as recorded, per its own docstring (DISTORTION_RISK
-    MAPPING), rather than silently override another thread''s own classification.'
+    presented as a shared vocabulary item. The word hears as a modern franchise, which is a captured
+    sense, so distortion risk is high.'
 sources:
 - source_id: lpc.source.cyprian-epistles
   locus: Epistle XXXIX -- 'your suffrage and God's judgment,' against a rival faction's 'ancient venom'
@@ -53,7 +50,7 @@ retrieval:
 plain_meaning: Cyprian's own word for what put him in office was suffrage. A rival group opposed him,
   but the people chose him anyway.
 world_word: suffrage
-distortion_risk: medium
+distortion_risk: high
 false_friend:
 - the right to vote, with an expected franchise, a ballot, and a fixed procedure
 senses:
@@ -77,4 +74,4 @@ senses:
 quick_meaning: For us, suffrage is the voice of the people that puts a man into office. It often goes
   against his own wishes.
 ---
-Re-derived from Doc_03 Section A (Tier 2, cross-phase pattern) and Doc_06 SS2's own Tier 2 confirmation, plus Lexicon-Chunks/lpclex011_suffrage.md. No [PV] tag, matching Doc_03's own explicit rule-out by name. Relations: three terms per this term's own Related-Terms line.
+Derived from Doc_03 and Doc_06 §2 and Lexicon-Chunks/lpclex011_suffrage.md.

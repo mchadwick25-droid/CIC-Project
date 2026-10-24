@@ -47,6 +47,15 @@ works:
     quotable once each wording is checked against the page image. The Czech original is in
     comenius_labyrint-sveta-a-raj-srdce-ces_1809.txt.
   source_file: comenius_labyrinth-of-the-world_lutzow1901.txt
+- row_id: cranz_ancient-and-modern-history-of-the-brethren_latrobe1780--the-ancient-and-modern-history-of-the-brethren-bruder-2
+  work: The Ancient and Modern History of the Brethren (Brüder-Historie, 1771; English 1780)
+  author: cranz
+  locus: the ancient history, the old Unity to 1627 and the hidden seed to 1722
+  role: transmission
+  confidence: provisional
+  note: How the renewed church of the eighteenth century narrated the old Czech Unity as its
+    own past; the continuity claim in the claimant's words. Provisional for both.
+  source_file: cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt
 - row_id: kralice-bible_biblj-svata-kralicka-ces_bfbs1887--bible-of-kralice-text-of-the-1613-edition-printed-1887
   work: Bible of Kralice, text of the 1613 edition (printed 1887)
   author: kralice-bible
@@ -71,6 +80,15 @@ works:
     Latin 1649 original is not vendored. Placed on the title page and chapter headings; the
     chapters were not read in full.
   source_file: lasicki_obraz-jednoty-ceskobratrske-ces_1869.txt
+- row_id: moravian-church_acta-fratrum-unitatis-in-anglia_1749--acta-fratrum-unitatis-in-anglia-1749-2
+  work: Acta Fratrum Unitatis in Anglia (1749)
+  author: moravian-church
+  locus: the episcopal attestations and the documents on the old Unity's succession
+  role: transmission
+  confidence: provisional
+  note: The renewed church's documentary case for continuity with the old Unity through the
+    Jablonski consecrations; how the Czech church's succession was carried forward. Provisional.
+  source_file: moravian-church_acta-fratrum-unitatis-in-anglia_1749.txt
 - row_id: niemeyer_collectio-confessionum-lat_niemeyer1840--confessio-bohemica-of-1535-the-confession-of-the-bohemian-ba
   work: Confessio Bohemica of 1535, the confession of the Bohemian barons and nobles to King
     Ferdinand (Additamentum 2)

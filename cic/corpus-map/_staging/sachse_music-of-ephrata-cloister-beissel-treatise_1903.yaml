@@ -1,0 +1,30 @@
+source_file: sachse_music-of-ephrata-cloister-beissel-treatise_1903.txt
+authors_ruled:
+  beissel:
+    kind: metadata-omission
+    evidence: 'The title page names Conrad Beissel''s Treatise on Music, from his preface to the 1747
+      Turtel-Taube, as a text printed in this volume; the file''s leading name slug is Sachse, the monograph''s
+      author and the treatise''s translator.
+
+      '
+    from_file: sachse_music-of-ephrata-cloister-beissel-treatise_1903.txt
+assignments:
+- row_id: sachse_music-of-ephrata-cloister-beissel-treatise_1903--conrad-beissel-s-treatise-on-music-preface-to-the-turtel
+  work: Conrad Beissel's Treatise on Music (preface to the Turtel-Taube, 1747), Sachse's English
+  author: beissel
+  locus: the section headed as Beissel's treatise on music
+  atlas_ids:
+  - radical-pietism-and-the-brethren-dunkers-ephrata
+  role: tradition
+  confidence: assigned
+  note: Beissel on singing as spiritual discipline and on the singers' diet, in Sachse's 1903 English;
+    cross-check against the German preface in the vendored 1747 hymnal.
+- row_id: sachse_music-of-ephrata-cloister-beissel-treatise_1903--the-music-of-the-ephrata-cloister-sachse-s-monograph
+  work: The Music of the Ephrata Cloister (Sachse's monograph)
+  author: sachse
+  locus: the monograph chapters outside the translated treatise
+  atlas_ids:
+  - radical-pietism-and-the-brethren-dunkers-ephrata
+  role: context
+  confidence: assigned
+  note: Turn-of-the-century scholarship on Ephrata's music; context and orientation only.

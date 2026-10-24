@@ -76,4 +76,4 @@ manifestations:
   "under compulsion and constraint"'
 matrix_cell: 1B
 ---
-Re-derived from the approved Doc_08 §3 Force 1B-2 (Cell 1B, Initiating/Internal). relations[] carries the gravity<->force edge (G1) and the force<->force edges (1A-2, 1B-1) named above.
+Taken from Doc_08 §3 Force 1B-2 (Cell 1B, Initiating/Internal). relations[] carries the gravity<->force edge (G1) and the force<->force edges (1A-2, 1B-1) named above.

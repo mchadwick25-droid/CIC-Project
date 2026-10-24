@@ -1,0 +1,11 @@
+source_file: zinzendorf_seven-sermons-godhead-of-the-lamb_1742.txt
+assignments:
+- row_id: zinzendorf_seven-sermons-godhead-of-the-lamb_1742--seven-sermons-on-the-godhead-of-the-lamb-herrnhaag-1741
+  work: Seven Sermons on the Godhead of the Lamb (Herrnhaag, 1741; English 1742)
+  author: zinzendorf
+  locus: whole work
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: tradition
+  confidence: assigned
+  note: Dated Herrnhaag sermons from the 1740s; the devotional idiom the community later named and corrected.

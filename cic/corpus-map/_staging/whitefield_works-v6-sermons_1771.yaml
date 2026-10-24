@@ -1,0 +1,20 @@
+source_file: whitefield_works-v6-sermons_1771.txt
+assignments:
+- row_id: whitefield_works-v6-sermons_1771--the-works-of-the-reverend-george-whitefield-vol-vi-sermons
+  work: 'The Works of the Reverend George Whitefield, vol. VI: sermons and tracts (1771)'
+  author: whitefield
+  locus: the numbered sermons
+  atlas_ids:
+  - the-methodist-revival
+  role: tradition
+  confidence: assigned
+  note: Whitefield's published sermons; the revival's preaching in its other founder's words.
+- row_id: whitefield_works-v6-sermons_1771--the-works-of-the-reverend-george-whitefield-vol-vi-sermons-2
+  work: 'The Works of the Reverend George Whitefield, vol. VI: sermons and tracts (1771)'
+  author: whitefield
+  locus: the sermons preached in America
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: context
+  confidence: provisional
+  note: The sermons of the itinerant who carried the Awakening through New England in 1740; provisional.

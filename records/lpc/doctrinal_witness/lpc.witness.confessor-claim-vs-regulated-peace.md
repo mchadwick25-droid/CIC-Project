@@ -15,8 +15,7 @@ confidence:
   divergence_note: The confessor's own claim and the certificate process are each independently Documented
     in this world's own Native corpus. That the two were never fully reconciled into one settled rule
     is World Capsule Core's own synthesis of that record (§'What This World Holds Without Resolution'),
-    not a fresh primary-source read this session -- disclosed here rather than presented as independently
-    re-verified.
+    not a fresh primary-source read -- disclosed here rather than presented as independently re-verified.
 sources:
 - source_id: lpc.source.cyprian-de-lapsis
   locus: the confessors' own claim, 'the white-robed cohort,' used directly
@@ -58,4 +57,4 @@ text: 'In our earliest years, a survivor of interrogation carried a claim of his
   enough to demand a hearing, and the process that had to govern what the hearing decided. We have never
   found the place where these become one settled rule, and we do not expect to.'
 ---
-Re-derived from World Capsule Core's own §'What This World Holds Without Resolution' paragraph 2 (the confessor-claim/regulated-order tension, quoted directly in the docstring above) and Permanent Prompt line 35's own vocabulary paragraph, both read in full this session. This is G8 (lpc.gravity.confessor-authority-vs-episcopal-peace, the one classified Tensional gravity), restated here in first-person doctrinal-witness voice rather than the gravity record's own etic six-test framing. relations[] carries two gravity edges (G8, G2) named in this script's own docstring under RECIPROCITY.
+Taken from World Capsule Core's own §'What This World Holds Without Resolution' paragraph 2 (the confessor-claim/regulated-order tension) and Permanent Prompt line 35's own vocabulary paragraph, both read in full. This is G8 (lpc.gravity.confessor-authority-vs-episcopal-peace, the one classified Tensional gravity), restated here in first-person doctrinal-witness voice rather than the gravity record's own etic six-test framing. relations[] carries two gravity edges (G8, G2).

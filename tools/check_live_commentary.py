@@ -886,7 +886,7 @@ def _is_review_doc(rel: Path) -> bool:
     return any(keyword in name for keyword in _REVIEW_DOC_FILENAME_KEYWORDS) or bool(_ZELL_CHECK_RE.search(name))
 
 
-_BUILD_LEDGER_FILENAME = re.compile(r"(?i)(^needs-ruling\.md$|_superseded_claims\.md$|(^|_)source_acquisition_manifest\.md$)")
+_BUILD_LEDGER_FILENAME = re.compile(r"(?i)(^needs-ruling\.md$|_superseded_claims\.md$|_claims_register\.md$|(^|_)source_acquisition_manifest\.md$)")
 
 
 def _is_build_ledger(rel: Path) -> bool:
@@ -900,9 +900,15 @@ def _is_build_ledger(rel: Path) -> bool:
     Claims.md` companion ("Entries record what was claimed, what is wrong
     with it, and which review round established that" - a dedicated
     correction-history record for one document, the same role a Decision
-    Log plays for a whole world). Scanning either for the same patterns a
-    construction document is held to would flag their own required,
-    designed shape as leaked commentary.
+    Log plays for a whole world). A `*_Claims_Register.md` is the third
+    sibling: its `claim` column must hold each claim's normalised text
+    exactly as `engine.m10.cli claims` derives it from the deliverables
+    (Build/reference/L4-Templates/Claims_Register_Template.md), so a
+    claim taken from a document's protected status section arrives with
+    that section's dates and round numbers and cannot be reworded in the
+    register. Scanning any of these for the same patterns a construction
+    document is held to would flag their own required, designed shape as
+    leaked commentary.
 
     Deliberately does NOT include a generic `*_LEDGER.md` suffix - tried
     for `CAPPADOCIAN_BUILD_LEDGER.md` (a batch review's own suggestion)
