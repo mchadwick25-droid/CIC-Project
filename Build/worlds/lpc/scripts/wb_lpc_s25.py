@@ -1578,8 +1578,8 @@ def build_forces() -> None:
         "ending", "3A",
         "The Vandals crossed from Spain into Africa in the late 420s; the chronicles disagree on "
         "the year, and Prosper's enters the crossing under 427. In 430 they besieged Hippo. Augustine fell ill in the "
-        "third month of the siege, and he died on 28 August 430 -- a date a near-contemporary Gallic "
-        "chronicler independently records. This is documented. The same chronicle records the "
+        "third month of the siege, and he died on 28 August 430 -- a date Prosper, a near-contemporary "
+        "chronicler writing in Gaul, independently records. This is documented. Prosper also records the "
         "Vandal capture of Carthage under 439, a different city, nine years later, and no part of "
         "where this world ends.\n"
         "\n"
@@ -1596,8 +1596,8 @@ def build_forces() -> None:
         "secured by copying, not by the siege.",
         [
             "the siege of Hippo, begun in 430, in whose third month Augustine fell ill",
-            "Augustine's own death on 28 August 430, independently recorded by a "
-            "near-contemporary Gallic chronicler",
+            "Augustine's own death on 28 August 430, independently recorded by Prosper, a "
+            "near-contemporary chronicler writing in Gaul",
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
              "Doc_08 §3 Force 3A-1: Documented -- Registry row 203, a near-contemporary Gallic "

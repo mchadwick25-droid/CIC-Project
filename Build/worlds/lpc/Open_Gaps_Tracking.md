@@ -1883,3 +1883,12 @@ Logged 2026-10-24.
 - **Open: Library request.** A request is open to place Hydatius entry 90 for this world (`Build/worlds/_cross-world/NEEDS-RULING.md`, Placement questions). Once it is placed, add the Registry row and source record, and the force record can say "May 429, by Hydatius's count; Prosper enters it under 427".
 - **Review.** Found in the sermon batch 2 review (`Review-Artifacts/Sermon_Quotes_Batch2_Review_2026-10-24.md`, B-1 and B-2).
 - **Owner.** The `lpc` build thread, with the Library for the placement.
+
+### OG-68. Sermon batch 2 closed; two notes on the Vandal entries (2026-10-24).
+
+Logged 2026-10-24.
+
+- **Sermon batch 2.** Six quote records from Augustine's sermons, for preaching and catechesis and for grace and human incapacity, are approved to proceed (`Review-Artifacts/Sermon_Quotes_Batch2_Review_2026-10-24.md`, and its recheck). The conciliar authority theory and the confessors' claim to grant peace have no passage in the 97 NPNF sermons; those gravities rest on the world's existing Cyprianic and conciliar records.
+- **Correction to OG-67.** Line 465 of `cic/texts/possidius_vita-augustini_weiskotten1919.txt` is in Weiskotten's Introduction, not his notes; lines 5364 and 5845 are notes.
+- **The Vandal force record** now names Prosper as the chronicler who records Augustine's death and the capture of Carthage under 439, so "the chronicles disagree" is not read as pointing to a second writer for those entries.
+- **Owner.** The `lpc` build thread.
