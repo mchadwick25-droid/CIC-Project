@@ -15,8 +15,8 @@ confidence:
   divergence_note: The 256 preface's own egalitarian formula and Augustine's own book-length argument
     are directly quoted and re-verified at source across this world's own prior construction rounds. The
     Felicissimus/Novatianist dating that grounds this record's own tension rests on Doc_07 §2H's own synthesis
-    of that prior record, not a fresh primary-source read this session -- disclosed here rather than presented
-    as independently re-verified.
+    of that prior record, not a fresh primary-source read -- disclosed here rather than presented as independently
+    re-verified.
 sources:
 - source_id: lpc.source.cyprian-seventh-council-of-carthage
   locus: the 256 preface's own egalitarian formula, used directly
@@ -69,4 +69,4 @@ text: 'We can argue that a colleague''s own ruling was wrong, at real length, an
   a disputed election. We do not pretend those separations never happened. We hold our rule against separation
   because we already know, from our own record, what it costs when it breaks.'
 ---
-Re-derived from Doc_07_Integrated_Ecology_Analysis.md §2H (Boundary Structures), read in full this session, including its own Forces integration paragraph naming the Felicissimus schism and the roughly contemporaneous Novatianist rival consecration at Rome as 'both boundary failures of exactly the kind G3 exists to prevent, and both inside Cyprian's own phase.' Doc_06_Full_Lexicon_Development.md's own note that De Unitate was written 'amid the Felicissimus and Novatianist crises' grounds this record's own source citation directly. relations[] carries one gravity edge (G3, lpc.gravity.collegial-communion-preserved) named in this script's own docstring under RECIPROCITY.
+Taken from Doc_07_Integrated_Ecology_Analysis.md §2H (Boundary Structures), read in full, including its own Forces integration paragraph naming the Felicissimus schism and the roughly contemporaneous Novatianist rival consecration at Rome as 'both boundary failures of exactly the kind G3 exists to prevent, and both inside Cyprian's own phase.' Doc_06_Full_Lexicon_Development.md's own note that De Unitate was written 'amid the Felicissimus and Novatianist crises' grounds this record's own source citation directly. relations[] carries one gravity edge (G3, lpc.gravity.collegial-communion-preserved).

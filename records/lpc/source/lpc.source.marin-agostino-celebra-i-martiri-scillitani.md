@@ -29,8 +29,8 @@ rights_status: in-copyright; never vendored, consultation-only, per Source_Acqui
   primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build,
   never quoted as licensed vendored material.
 attribution_status: attributed
-discovery_channel: WebSearch / 2026-09-02; verified absent / direct XML check / 2026-09-02.
+discovery_channel: WebSearch; verified absent / direct XML check.
 external_ids:
   lpc_source_registry_row: 171
 ---
-Licensed alongside row 122 for SS6's own gender/Article-20 material -- a possible further primary-source candidate, now confirmed absent from this world's own vendored corpus.
+Licensed alongside row 122 for SS6's own gender/Article-20 material -- a possible further primary-source candidate, confirmed absent from this world's own vendored corpus.

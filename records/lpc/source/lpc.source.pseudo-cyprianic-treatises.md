@@ -22,13 +22,13 @@ work: 'Treatises attributed to Cyprian on questionable authority: On the Public 
 edition: Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
-  own specific locus being independently re-collated this pass.'
-attribution_status: pseudo-Cyprianic. Kept under Cyprian's own name per the corpus map's own 2026-08-26
-  ruling (transmitted-author shelf, not re-attributed), and filed a SECOND time under an apocryphal-and-pseudepigraphal-literature
-  shelf on that same ruling's own reasoning -- 'a work circulating under a name that is not its author's
-  is a pseudepigraphon by definition.' Two of the four pieces are widely attributed to Novatian in modern
-  scholarship, per the corpus map's own note.
-discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml / 2026-09-01.
+  own specific locus being independently re-collated.'
+attribution_status: pseudo-Cyprianic. Kept under Cyprian's own name per the corpus map's own treatment
+  (transmitted-author shelf, not re-attributed), and filed a SECOND time under an apocryphal-and-pseudepigraphal-literature
+  shelf on the same reasoning -- 'a work circulating under a name that is not its author's is a pseudepigraphon
+  by definition.' Two of the four pieces are widely attributed to Novatian in modern scholarship, per
+  the corpus map's own note.
+discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml.
 external_ids:
   lpc_source_registry_row: 6
 ---

@@ -83,4 +83,4 @@ manifestations:
 - De Lapsis, Cyprian's argument for the bishop's control over readmission
 classification: tensional
 ---
-Re-derived from the approved Doc_04 §3 (Candidate 8). relations[] carries the gravity<->gravity edges (G1, G2) and the gravity<->force edges (1A-1, 2A-1, 2B-2) named above.
+Taken from Doc_04 §3 (Candidate 8). relations[] carries the gravity<->gravity edges (G1, G2) and the gravity<->force edges (1A-1, 2A-1, 2B-2) named above.

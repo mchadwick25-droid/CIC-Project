@@ -24,15 +24,13 @@ work: Codex Theodosianus (Imperatori Theodosiani Codex), full text (all 16 books
   Latin Library (thelatinlibrary.com/theodosius.html)
 edition: Vendored as cic/texts/codex-theodosianus_latinlibrary.txt
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
-  read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
-  own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
-  a rights re-check by this compilation pass.
+  read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
+  check (Source_Acquisition_Manifest.md SS1).
 attribution_status: documentary (Roman imperial legislation); the transcription's own critical-edition
   ancestry is unstated -- The Latin Library does not say which edition its transcription follows, and
   its own site policy disclaims its texts as 'not intended for research purposes nor as substitutes for
   critical editions.'
-discovery_channel: Project lead direct supply (downloaded book by book and compiled into one document)
-  / 2026-09-02.
+discovery_channel: Project lead direct supply (downloaded book by book and compiled into one document).
 external_ids:
   lpc_source_registry_row: 88
 ---

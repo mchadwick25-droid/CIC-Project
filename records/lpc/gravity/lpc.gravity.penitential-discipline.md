@@ -111,4 +111,4 @@ manifestations:
   answer
 classification: primary
 ---
-Re-derived from the approved Doc_04 §3 (Candidate 2). relations[] carries the gravity<->gravity edges (G1, G3, G4, G6, G7, G8) and the gravity<->force edges (1A-1, 1B-1, 2B-1, 2B-2) named above -- 2B-1's own asymmetric family-resemblance finding (first-phase, toward G6, not toward G7) is discussed at G6's own record below, per Doc_08 §5's own G6 entry.
+Taken from Doc_04 §3 (Candidate 2). relations[] carries the gravity<->gravity edges (G1, G3, G4, G6, G7, G8) and the gravity<->force edges (1A-1, 1B-1, 2B-1, 2B-2) named above -- 2B-1's own asymmetric family-resemblance finding (first-phase, toward G6, not toward G7) is discussed at G6's own record below, per Doc_08 §5's own G6 entry.

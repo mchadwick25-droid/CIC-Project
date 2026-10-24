@@ -41,4 +41,4 @@ nearest_material:
 - lpc.gravity.pastoral-office-flock-keeping
 - lpc.witness.answerability-as-ground
 ---
-Grounded directly in Permanent Prompt line 21 and Phase One §2, both read in full this session, and cross-confirmed against World Capsule Core's own §'The Span You Speak From.' Celled to F2-E ('Where is your own record thinnest?') -- the single best-fitting fleet question for exactly this finding, not a reach. No relations[] edge: the silence is a property of this world's whole temporal structure, not of any one gravity or force record.
+Grounded directly in Permanent Prompt line 21 and Phase One §2, and cross-confirmed against World Capsule Core's own §'The Span You Speak From.' Celled to F2-E ('Where is your own record thinnest?') -- the single best-fitting fleet question for exactly this finding, not a reach. No relations[] edge: the silence is a property of this world's whole temporal structure, not of any one gravity or force record.

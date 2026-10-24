@@ -13,8 +13,8 @@ confidence:
   formation_confidence: Widely Accepted
   divergence_note: Naming this edition does not itself close row 3's own open two-recension question,
     which requires reading this edition's own apparatus. 'CCSL' and 'Corpus Christianorum' appeared nowhere
-    in this world's build before this row -- the sharpest single gap this round found. Flagged for priority
-    second-opinion review before it supports any specific claim.
+    in this world's source list before this row, the sharpest single gap in it. Flagged for priority second-opinion
+    review before it supports any specific claim.
 sources: []
 relations: []
 author: R. Weber, M. Bévenot, M. Simonetti, C. Moreschini, G. F. Diercks (editors); Cyprian of Carthage
@@ -29,7 +29,7 @@ rights_status: in-copyright; never vendored, consultation-only, per Source_Acqui
   primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build,
   never quoted as licensed vendored material.
 attribution_status: attributed to the successive editors, Cyprian as author
-discovery_channel: WebSearch this session (Brepols's own series record and journal citations) / 2026-09-01.
+discovery_channel: WebSearch (Brepols's own series record and journal citations).
 external_ids:
   lpc_source_registry_row: 58
 ---

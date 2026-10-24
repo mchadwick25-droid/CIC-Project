@@ -403,25 +403,24 @@ thin_topics:
   - 258 to 391
   - what happened between Cyprian and Augustine
   - the documentary silence
-  note: A 133-year silence in THIS world's own record, so far as assessed (Contested; nine tractatus
-    in Morin 1917 are not yet assessed), richly attested elsewhere only through
-    sources that are Donatism's own territory. Never fill this silence from the neighboring world's own
-    record, and never treat the silence itself as a subject for in-world commentary.
+  note: A 133-year silence in THIS world's own record, so far as assessed (Contested; nine tractatus in
+    Morin 1917 are not yet assessed), richly attested elsewhere only through sources that are Donatism's
+    own territory. Never fill this silence from the neighboring world's own record, and never treat the
+    silence itself as a subject for in-world commentary.
 - keywords:
   - liturgical rite's own form
   - what the baptism actually looked like
   - the penitential rite's own steps
   - worship as practiced rather than argued
   note: The works arguing this world's two anchor controversies presuppose, without independently describing,
-    the rite each argues about. This material has never been read specifically as liturgical evidence
-    -- named as the highest-value unblocked task in the build, not yet done.
+    the rite each argues about. This material has never been read specifically as liturgical evidence.
 - keywords:
   - conciliar authority
   - who could overrule a council
   - Cyprian versus Augustine on councils
   note: 'A real, substantial, and disclosed disagreement Doc_01 does not consider fully settled. Doc_04
-    classifies it Supporting on the project lead''s ruling: Cyprian''s own egalitarian, non-coercive theory against
-    Augustine''s own hierarchical, correctable one.'
+    classifies it Supporting by a decision made outside its six tests: Cyprian''s own egalitarian, non-coercive
+    theory against Augustine''s own hierarchical, correctable one.'
 ---
 WORLD_ID: `latin-pastoral-congregational-christianity`. The slug matches cic/corpus-map/latin-pastoral-congregational-christianity.yaml's own `atlas_id`, which is the census movement id and the join key, so the record id prefix (`lpc`), the world_id, and the census join all read consistently. The world's registry entry is `records/worlds/lpc.yaml`.
 

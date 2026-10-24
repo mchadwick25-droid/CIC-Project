@@ -58,4 +58,4 @@ manifestations:
 - the thirteen-work anti-Pelagian corpus, with 1,798 raw occurrences of "grace" within its bounds
 matrix_cell: 2A
 ---
-Re-derived from the approved Doc_08 §3 Force 2A-4 (Cell 2A, Ongoing/External). relations[] carries the gravity<->force edges (G4, G7) and the force<->force edge (3B-1) named above.
+Taken from Doc_08 §3 Force 2A-4 (Cell 2A, Ongoing/External). relations[] carries the gravity<->force edges (G4, G7) and the force<->force edge (3B-1) named above.

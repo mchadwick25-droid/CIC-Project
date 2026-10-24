@@ -12,7 +12,7 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
   divergence_note: Double-assigned to manichaeism for several works, per the corpus map's own note; not
-    independently re-collated this session.
+    independently re-collated.
 sources: []
 relations: []
 author: Augustine of Hippo
@@ -22,9 +22,9 @@ work: 'Anti-Manichaean corpus, grouped: Acts... Against Fortunatus, Against the 
 edition: Nicene and Post-Nicene Fathers, Series I, vol. IV, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
-  own specific locus being independently re-collated this pass.'
+  own specific locus being independently re-collated.'
 attribution_status: attributed
-discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml / 2026-09-01.
+discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml.
 external_ids:
   lpc_source_registry_row: 22
 ---

@@ -11,9 +11,9 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: Not independently re-collated this session; the Apiarius affair's own duration (419,
-    running to c. 426) is directly re-verified in Doc_01's own construction against secondary characterization,
-    not against this primary text directly.
+  divergence_note: Not independently re-collated; the Apiarius affair's own duration (419, running to
+    c. 426) is directly re-verified in Doc_01's own construction against secondary characterization, not
+    against this primary text directly.
 sources: []
 relations: []
 author: The Council of Carthage (419) and the African episcopate under Aurelius and Augustine
@@ -22,9 +22,9 @@ edition: Nicene and Post-Nicene Fathers, Series II, vol. XIV, vendored as cic/te
   the Latin original (Bruns's 1839 edition) is separately vendored as row 202
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
-  own specific locus being independently re-collated this pass.'
+  own specific locus being independently re-collated.'
 attribution_status: documentary; attributed to the conciliar body
-discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml / 2026-09-01.
+discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml.
 external_ids:
   lpc_source_registry_row: 26
 ---

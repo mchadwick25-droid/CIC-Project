@@ -57,4 +57,4 @@ manifestations:
   underlying Punic and Berber populations; persecution came only in episodes
 matrix_cell: 1A
 ---
-Re-derived from the approved Doc_08 §3 Force 1A-2 (Cell 1A, Initiating/External). relations[] carries the gravity<->force edge (G1) and the force<->force edges (1B-2, 2B-3) named above. sources[] is deliberately empty -- see this script's own docstring, THREE DISCLOSED EMPTY-SOURCES CASES.
+Taken from Doc_08 §3 Force 1A-2 (Cell 1A, Initiating/External). relations[] carries the gravity<->force edge (G1) and the force<->force edges (1B-2, 2B-3) named above. sources[] is deliberately empty. Doc_08 cites two of this world's own governing documents, not a vendored source, for a background legal condition that this world's corpus does not narrate directly.

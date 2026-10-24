@@ -11,12 +11,9 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: Closes Source_Acquisition_Manifest.md G7. Public domain by date (1904). Fetched via
-    archive.org item diecyprianische00unkngoog; title page, the Vorwort (dated November 1903), and the
-    closing colophon directly verified. The same problem this monograph studies is what produced this
-    build's own historical Ep. XL/Epistle XXXIX citation error -- this source would have let a reviewer
-    catch that error at its own root rather than nine Doc_01 review rounds in. Consultation-only content
-    per cic/texts/INTAKE.md.
+  divergence_note: Public domain by date (1904). Fetched via archive.org item diecyprianische00unkngoog;
+    title page, the Vorwort (dated November 1903), and the closing colophon directly verified. Consultation-only
+    content per cic/texts/INTAKE.md.
 sources: []
 relations: []
 author: Hans (Freiherr) von Soden
@@ -24,11 +21,10 @@ work: 'Die cyprianische Briefsammlung: Geschichte ihrer Entstehung und Überlief
   Neue Folge, 10. Band, Heft 3'
 edition: 'Leipzig: J. C. Hinrichs, 1904; vendored as cic/texts/vonsoden_cyprianische-briefsammlung-deu_1904.txt'
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
-  read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
-  own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
-  a rights re-check by this compilation pass.
+  read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
+  check (Source_Acquisition_Manifest.md SS1).
 attribution_status: attributed
-discovery_channel: Fable research agent (this session) / archive.org direct fetch / 2026-09-08.
+discovery_channel: archive.org direct fetch.
 external_ids:
   lpc_source_registry_row: 210
 ---

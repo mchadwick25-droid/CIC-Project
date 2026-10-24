@@ -24,12 +24,11 @@ author: Augustine of Hippo
 work: The Correction of the Donatists (Letter 185, c. 417), addressed to the tribune Boniface
 edition: Nicene and Post-Nicene Fathers, Series I, vol. IV, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
-  read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
-  own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
-  a rights re-check by this compilation pass.
+  read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
+  check (Source_Acquisition_Manifest.md SS1).
 attribution_status: attributed
-discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml / 2026-09-01;
-  direct verification against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml / 2026-09-01.
+discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml; direct
+  verification against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml.
 external_ids:
   lpc_source_registry_row: 12
 ---

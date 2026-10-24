@@ -102,4 +102,4 @@ manifestations:
   word "plenary" occurs 31 times in the treatise)
 classification: supporting
 ---
-Taken from Doc_04 §3 (Candidate 5). The body follows Doc_04 §5 in keeping this candidate distinct from Candidate 7 (phase-bound) rather than collapsing the two Persistence failures into one shape. relations[] carries the gravity-to-gravity edges (G1, G3, G6) and the gravity-to-force edges (1B-1, 2A-3, 2B-4) named above. The Supporting class rests on the project lead's ruling, outside the six-test evidence, and is not presented as a settled verdict of the tests.
+Taken from Doc_04 §3 (Candidate 5). The body follows Doc_04 §5 in keeping this candidate distinct from Candidate 7 (phase-bound) rather than collapsing the two Persistence failures into one shape. relations[] carries the gravity-to-gravity edges (G1, G3, G6) and the gravity-to-force edges (1B-1, 2A-3, 2B-4) named above. The Supporting class rests on a decision made outside the six-test evidence, and is not presented as a settled verdict of the tests.

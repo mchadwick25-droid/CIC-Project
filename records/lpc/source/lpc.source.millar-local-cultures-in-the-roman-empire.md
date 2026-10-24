@@ -25,8 +25,8 @@ rights_status: in-copyright; never vendored, consultation-only, per Source_Acqui
   primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build,
   never quoted as licensed vendored material.
 attribution_status: attributed
-discovery_channel: WebSearch / 2026-09-02.
+discovery_channel: WebSearch.
 external_ids:
   lpc_source_registry_row: 148
 ---
-Licensed for Doc_02 SS5/SS6's own named, still-open Punic/Berber substrate-culture question directly -- the single most-cited modern study of the linguistic-cultural question that open item turns on.
+Licensed for Doc_02 SS5/SS6's own named, still-open Punic/Berber substrate-culture question directly -- the single most-cited modern study of the linguistic-cultural question that question turns on.

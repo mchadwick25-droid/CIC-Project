@@ -57,4 +57,4 @@ manifestations:
 - '"thousands of certificates were daily given, contrary to the law of the Gospel" (Cyprian''s own words)'
 matrix_cell: 2B
 ---
-Re-derived from the approved Doc_08 §3 Force 2B-2 (Cell 2B, Ongoing/Internal). relations[] carries the gravity<->force edges (G2, G8) and the force<->force edges (1A-1, 2B-1) named above.
+Taken from Doc_08 §3 Force 2B-2 (Cell 2B, Ongoing/Internal). relations[] carries the gravity<->force edges (G2, G8) and the force<->force edges (1A-1, 2B-1) named above.

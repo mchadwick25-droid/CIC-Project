@@ -28,8 +28,8 @@ rights_status: in-copyright; never vendored, consultation-only, per Source_Acqui
   primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build,
   never quoted as licensed vendored material.
 attribution_status: attributed, with G. W. Clarke, S. T. Stevens, W. Tabbernee, and M. A. Tilley as collaborators
-discovery_channel: builder-prior-knowledge / field knowledge / 2026-09-01; re-verified via WebSearch (four
-  independent scholarly citations plus the publisher's own catalogue page, five sources in total) / 2026-09-02.
+discovery_channel: builder-prior-knowledge / field knowledge; re-verified via WebSearch (four independent
+  scholarly citations plus the publisher's own catalogue page, five sources in total).
 external_ids:
   lpc_source_registry_row: 33
 ---

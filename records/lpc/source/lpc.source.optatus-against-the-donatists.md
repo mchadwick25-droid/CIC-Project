@@ -12,8 +12,8 @@ confidence:
   evidentiary_weight: illustrative
   formation_confidence: Widely Accepted
   divergence_note: 'Provisional Latin home for the Catholic side of the Donatist schism, per the corpus
-    map''s own note -- ''Mark may prefer another Latin home for a Numidian polemicist.'' NOT drawn on
-    for a specific claim in this world''s own Doc_01 or Doc_02: Optatus''s Against the Donatists is Catholic-side
+    map''s own note -- another Latin home for a Numidian polemicist may suit better. NOT drawn on for
+    a specific claim in this world''s own Doc_01 or Doc_02: Optatus''s Against the Donatists is Catholic-side
     anti-Donatist polemic, not evidence of this world''s own ordinary pastoral-congregational life the
     way Cyprian''s and Augustine''s own corpora are.'
 sources: []
@@ -23,12 +23,12 @@ work: Against the Donatists (Books I-VII)
 edition: vendored as cic/texts/optatus_against-the-donatists.txt
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
-  own specific locus being independently re-collated this pass.'
+  own specific locus being independently re-collated.'
 attribution_status: 'attributed to Optatus of Milevis; provisionally double-placed on the census -- cic/corpus-map/donatism.yaml
   carries its OWN Optatus entry (role: context, confidence: assigned, ''Assigned twice with different
   roles, deliberately'') -- tradition here, context there, a deliberate double-placement, not a defect
   (Doc_02 SS1).'
-discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml / 2026-09-01.
+discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml.
 external_ids:
   lpc_source_registry_row: 27
 ---

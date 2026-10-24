@@ -82,4 +82,4 @@ manifestations:
   of it, and none of this passage; this English is our own rendering)'
 matrix_cell: 2B
 ---
-Re-derived from the approved Doc_08 §3 Force 2B-5 (Cell 2B, Ongoing/Internal; Transmission dimension). relations[] carries only the force<->force edge (3B-2) named above -- deliberately no gravity<->force edge, per Doc_08 §5's own explicit 'cross-cutting, not gravity-specific' disposition for this force (matching don.force.transmission-hostile-manuscript-tradition's own identical disposition), named rather than silently applied.
+Taken from Doc_08 §3 Force 2B-5 (Cell 2B, Ongoing/Internal; Transmission dimension). relations[] carries only the force<->force edge (3B-2) named above -- deliberately no gravity<->force edge, per Doc_08 §5's own explicit 'cross-cutting, not gravity-specific' disposition for this force (matching don.force.transmission-hostile-manuscript-tradition's own identical disposition), named rather than silently applied.

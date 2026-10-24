@@ -71,4 +71,4 @@ manifestations:
 - the lapsed under Cyprian; ordinary post-baptismal sin and schism-tempted believers under Augustine
 matrix_cell: 2B
 ---
-Re-derived from the approved Doc_08 §3 Force 2B-1 (Cell 2B, Ongoing/Internal). relations[] carries the gravity<->force edges (G2, G6) and the force<->force edges (1A-1, 2B-2) named above -- deliberately NOT G7, per this force's own asymmetric family-resemblance finding above.
+Taken from Doc_08 §3 Force 2B-1 (Cell 2B, Ongoing/Internal). relations[] carries the gravity<->force edges (G2, G6) and the force<->force edges (1A-1, 2B-2) named above -- deliberately NOT G7, per this force's own asymmetric family-resemblance finding above.

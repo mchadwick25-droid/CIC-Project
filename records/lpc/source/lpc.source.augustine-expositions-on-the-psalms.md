@@ -11,9 +11,9 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: Not independently re-collated this session; anti-Donatist polemic surfaces diffusely
-    per the corpus map's own note, no separate id claimed. This is this world's own largest single vendored
-    body, and row 175 (Fiedrowicz) is the only dedicated secondary study named for it, itself not vendored.
+  divergence_note: Not independently re-collated; anti-Donatist polemic surfaces diffusely per the corpus
+    map's own note, no separate id claimed. This is this world's own largest single vendored body, and
+    row 175 (Fiedrowicz) is the only dedicated secondary study named for it, itself not vendored.
 sources: []
 relations: []
 author: Augustine of Hippo
@@ -22,9 +22,9 @@ edition: Nicene and Post-Nicene Fathers, Series I, vol. VIII, vendored as cic/te
   the Latin original (Migne's 1861 printing of the Maurist text) is separately vendored as row 201
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
-  own specific locus being independently re-collated this pass.'
+  own specific locus being independently re-collated.'
 attribution_status: attributed
-discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml / 2026-09-01.
+discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml.
 external_ids:
   lpc_source_registry_row: 20
 ---

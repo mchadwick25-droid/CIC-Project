@@ -51,4 +51,4 @@ manifestations:
 - Cyprian's own exile and martyrdom under Valerian in 258, recorded in the Acta Proconsularia
 matrix_cell: 2A
 ---
-Re-derived from the approved Doc_08 §3 Force 2A-1 (Cell 2A, Ongoing/External). relations[] carries the gravity<->force edges (G1, G4, G8) and the force<->force edge (1A-1) named above.
+Taken from Doc_08 §3 Force 2A-1 (Cell 2A, Ongoing/External). relations[] carries the gravity<->force edges (G1, G4, G8) and the force<->force edge (1A-1) named above.

@@ -72,4 +72,4 @@ manifestations:
   a custom carried by living memory
 matrix_cell: 3B
 ---
-Re-derived from the approved Doc_08 §3 Force 3B-2 (Cell 3B, Ending/Internal; Transmission dimension). relations[] carries only the force<->force edges (2B-4, 2B-5) named above -- deliberately no gravity<->force edge, matching Force 2B-5's own identical disposition. sources[] is deliberately empty -- this force's own evidentiary base is a fact about the absence of dated Registry rows in an interval, not a citable vendored text making a claim; see this script's own docstring, THREE DISCLOSED EMPTY-SOURCES CASES.
+Taken from Doc_08 §3 Force 3B-2 (Cell 3B, Ending/Internal; Transmission dimension). relations[] carries only the force<->force edges (2B-4, 2B-5) named above -- deliberately no gravity<->force edge, matching Force 2B-5's own identical disposition. sources[] is deliberately empty -- this force's own evidentiary base is a fact about the absence of dated Registry rows in an interval, not a citable vendored text making a claim.

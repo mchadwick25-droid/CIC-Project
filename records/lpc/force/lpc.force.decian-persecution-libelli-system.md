@@ -73,4 +73,4 @@ manifestations:
 - '"[I]t is the shepherd that is chiefly wounded in the wound of his flock" (Cyprian)'
 matrix_cell: 1A
 ---
-Re-derived from the approved Doc_08 §3 Force 1A-1 (Cell 1A, Initiating/External). relations[] carries the gravity<->force edges (G1, G2, G8) and the force<->force edges (2B-1, 2B-2, 2A-1) named above.
+Taken from Doc_08 §3 Force 1A-1 (Cell 1A, Initiating/External). relations[] carries the gravity<->force edges (G1, G2, G8) and the force<->force edges (2B-1, 2B-2, 2A-1) named above.

@@ -37,4 +37,4 @@ nearest_material:
 - lpc.term.the-lapsed
 - lpc.gravity.penitential-discipline
 ---
-Grounded in World Capsule Core's own 'Where This World Is Quiet' section and Doc_09_Story_Inventory.md §7, both read in full this session. Distinguished from lpc.limit.womens-own-voice: this record's own scope is the lapsed AS A CLASS (both sexes, both named and unnamed), the central subject of this world's own first crisis; the women's-voice record below is narrower and cross-phase. relations[] carries one term edge (lpc.term.the-lapsed) named in this script's own docstring under RECIPROCITY.
+Grounded in World Capsule Core's own 'Where This World Is Quiet' section and Doc_09_Story_Inventory.md §7, both read in full. Distinguished from lpc.limit.womens-own-voice: this record's own scope is the lapsed AS A CLASS (both sexes, both named and unnamed), the central subject of this world's own first crisis; the women's-voice record below is narrower and cross-phase. relations[] carries one term edge (lpc.term.the-lapsed).

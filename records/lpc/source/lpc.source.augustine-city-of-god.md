@@ -11,8 +11,8 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: Not independently re-collated this session; not double-assigned to any other world
-    per the corpus map's own note.
+  divergence_note: Not independently re-collated; not double-assigned to any other world per the corpus
+    map's own note.
 sources: []
 relations: []
 author: Augustine of Hippo
@@ -21,9 +21,9 @@ edition: Nicene and Post-Nicene Fathers, Series I, vol. II, vendored as cic/text
   the Latin original (Hoffmann's CSEL 40) is separately vendored as rows 198-199
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
-  own specific locus being independently re-collated this pass.'
+  own specific locus being independently re-collated.'
 attribution_status: attributed
-discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml / 2026-09-01.
+discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml.
 external_ids:
   lpc_source_registry_row: 24
 ---
