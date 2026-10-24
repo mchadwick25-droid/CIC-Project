@@ -56,6 +56,12 @@ relations:
   target: lpc.force.recurring-contest-failed-member
 - type: associated-with
   target: lpc.force.confessors-claim-to-grant-peace
+- type: associated-with
+  target: lpc.quote.bind-him-justly
+- type: associated-with
+  target: lpc.quote.reprove-and-forgive-the-surgeons-knife
+- type: associated-with
+  target: lpc.quote.peter-the-sick-man-and-the-physician
 name: 'Penitential Discipline: the Reintegration of the Failed'
 description: >-
   How the church took back its failed members sat near the center of this world's life.
