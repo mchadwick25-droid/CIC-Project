@@ -15,8 +15,12 @@ confidence:
 sources:
 - source_id: cappadocian.source.gregory-nazianzus-oration-43-funeral-encomium-basil
   locus: "his own funeral oration for Basil"
-- source_id: cappadocian.source.gregory-nazianzus-de-vita-sua
-  locus: "his own verse autobiography"
+- source_id: cappadocian.source.gregory-nazianzus-sasima-letters
+  locus: "Letter XLIX, 'To Basil. (The Praises of Quiet.)'"
+  license: public-domain
+- source_id: cappadocian.source.gregory-nazianzus-orations-general-corpus
+  locus: "the editor's account of the Five Theological Orations at Constantinople, and Oration 42, his farewell to the throne"
+  license: public-domain
 - source_id: cappadocian.source.gregory-nazianzus-will-manumission
   locus: "his own will, which manumits slaves he owned"
 names:

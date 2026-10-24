@@ -18,7 +18,7 @@ author: Gregory of Nazianzus
 work: Gregory of Nazianzus, the funeral orations on Caesarius, Gorgonia, and the elder Gregory
 edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 7 (Cyril of Jerusalem, Gregory Nazianzen), ed.
   Schaff, vendored as cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml (covers the Orations; among
-  the ~245 letters, only Epp. 101, 102, 202)
+  the ~245 letters, Epp. 101, 102, 202, a Basil-correspondence division and a miscellaneous-letters division)
 citation: Gregory of Nazianzus, funeral orations on Caesarius, Gorgonia, and the elder Gregory, Nicene and Post-Nicene Fathers, 2nd series, vol. 7 (Cyril of Jerusalem, Gregory Nazianzen), ed. Schaff
 kind: vendored
 rights_status: "public-domain; vendored, rights independently confirmed"

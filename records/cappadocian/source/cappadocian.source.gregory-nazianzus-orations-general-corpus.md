@@ -15,10 +15,10 @@ confidence:
 sources: []
 relations: []
 author: Gregory of Nazianzus (c. 329/30-c. 390)
-work: Gregory of Nazianzus, Orations (general corpus; among ~245 letters, covers only Epp. 101, 102, 202)
+work: Gregory of Nazianzus, Orations (general corpus), with the selection of letters printed in the same volume
 edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 7 (Cyril of Jerusalem, Gregory Nazianzen), ed.
-  Schaff, vendored as cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml (covers the Orations; among
-  the ~245 letters, only Epp. 101, 102, 202)
+  Schaff, vendored as cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml (covers the Orations and a
+  selection of the letters - Epp. 101, 102, 202, a Basil-correspondence division and a miscellaneous-letters division)
 citation: Gregory of Nazianzus, Orations, Nicene and Post-Nicene Fathers, 2nd series, vol. 7 (Cyril of Jerusalem, Gregory Nazianzen), ed. Schaff
 kind: vendored
 rights_status: "public-domain; vendored, rights independently confirmed"
@@ -30,4 +30,4 @@ discovery_channel: builder-prior-knowledge; Source Registry row 31; a specific n
 external_ids:
   cappadocian_source_registry_row: 31
 ---
-Grounds the Trinitarian-confession gravity (the five Theological Orations) and the stillness-vs-office pull gravity candidate (Oration 2, next-but-three record) (row 31). Coverage gap named: the Sasima letters, Ep. 58, and Ep. 197 are gaps within this same acquisition (rows 39, 40), not separately acquirable this session.
+Grounds the Trinitarian-confession gravity (the five Theological Orations) and the stillness-vs-office pull gravity candidate (Oration 2, next-but-three record) (row 31). The Sasima letters, Ep. 58 and Ep. 197 are in this same file and carry their own source records (rows 39, 40).

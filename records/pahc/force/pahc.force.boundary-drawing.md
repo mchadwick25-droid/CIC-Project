@@ -15,7 +15,7 @@ confidence:
   divergence_note: "Documented that Ignatius makes this argument; Inferential-Thin on its representativeness beyond his own direct addressees. No level of grain - coarse or fine - clears the Documented bar martyrdom-meaning clears at its own narrowest scope: this force's own Formation test reads only 'Plausible... unestablished,' never 'Clearly.'"
 sources:
 - source_id: pahc.source.ignatius-letters
-  locus: "the anti-docetic argument, present across several letters (e.g. Trallians 9, Smyrnaeans 1-7)"
+  locus: "the anti-docetic argument, present across several letters (e.g. Ephesians 7, Trallians 9, Smyrnaeans 1-7, with Smyrnaeans 4 on the 'beasts in the shape of men'); Philadelphians 4 and Smyrnaeans 8 (the one eucharist under the bishop)"
   license: public-domain
 relations:
 - type: associated-with
@@ -23,23 +23,11 @@ relations:
 name: "Boundary-Drawing Against Contemporary Rival Movements [2B - ongoing/internal]"
 matrix_cell: 2B
 kind: ongoing
-description: "HISTORICAL EVENT: Ignatius's anti-docetic argument, present across several of his
-  letters, is - within this world's own Native evidence streams - substantively developed by
-  exactly one voice. WORLD'S OWN EXPERIENCE: a rival teaching that denied the reality of the body's
-  suffering felt near and threatening enough to argue against at length, letter after letter, city
-  after city. Refusing a separate eucharist from a rival teacher and holding fast to the one
-  eucharist under the community's own bishop were the same act for a member shaped by this concern -
-  belonging and boundary-marking were not experienced as two different decisions. FORMATION IMPACT:
-  grounds this world's own commitment that the reality of the body is not incidental but
-  load-bearing - denying real bodily suffering threatens something real precisely because embodiment
-  is where truth and falsehood are decided in this world's own philosophical ecology. Remains, per
-  its own evidentiary base, the least secured of this world's confirmed gravities - and for exactly
-  that reason the clearest demonstration that even this world's boundary was actively defended, not
-  inherited already-drawn."
+description: "HISTORICAL EVENT: Ignatius's anti-docetic argument runs through several of his letters. Within this world's own native evidence, one voice develops it fully. WHAT IGNATIUS ARGUES: he warns again and again against teachers who deny that Christ truly suffered. He argues the point in Ephesians 7, Trallians 9 and Smyrnaeans 4. He calls such teachers 'beasts in the shape of men.' In Smyrnaeans 7 he says they stay away from the eucharist and prayer, because they do not confess it to be the flesh of our Saviour. He does not say they held a rival eucharist. For his part, he tells the Philadelphians to keep one eucharist (Philadelphians 4). He calls a eucharist sound when the bishop, or someone he entrusts, leads it (Smyrnaeans 8). For Ignatius, keeping the one eucharist under the bishop is the boundary itself. The sources do not show how an ordinary member felt about this. FORMATION IMPACT: for Ignatius the reality of Christ's body is not a side issue. Denying that Christ really suffered threatens something real. His argument shows a boundary that was actively defended and not already drawn. By its evidence base, this is the least secured of this world's confirmed gravities."
 manifestations:
 - "'Stop your ears... when any one speaks to you at variance with Jesus Christ... He was truly persecuted under Pontius Pilate; He was truly crucified' (Ignatius, Trallians 9)"
 - "'They abstain from the Eucharist and from prayer, because they confess not the Eucharist to be the flesh of our Saviour Jesus Christ' (Ignatius, Smyrnaeans 7)"
-- "refusing a rival teacher's separate eucharist while holding to the one eucharist under the community's own bishop (Smyrnaeans 8)"
+- "keeping the one eucharist under the bishop as the boundary itself (Philadelphians 4; Smyrnaeans 8)"
 ---
 Re-derived from the approved Doc_08 Force 2B-4. THIS FORCE IS
 pahc.gravity.boundary-drawing (G05) ITSELF - sources and confidence

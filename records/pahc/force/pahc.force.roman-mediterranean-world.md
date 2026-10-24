@@ -15,10 +15,10 @@ confidence:
   divergence_note: null
 sources:
 - source_id: pahc.source.ignatius-letters
-  locus: "the guarded journey itself, Antioch through Asia Minor to Rome"
+  locus: "Romans 5 (the journey by land and sea under guard); Ephesians 2, Magnesians 2, Trallians 1 (delegates met at Smyrna); Polycarp 8 (the sudden sailing from Troas to Neapolis); Philadelphians 10 (a deacon sent to Antioch)"
   license: public-domain
 - source_id: pahc.source.polycarp-philippians
-  locus: "13"
+  locus: "13 (a letter to be carried to Syria by a traveler)"
   license: public-domain
 relations:
 - type: associated-with
@@ -28,19 +28,7 @@ relations:
 name: "The Roman Imperial Mediterranean World [1A - initiating/external]"
 matrix_cell: 1A
 kind: initiating
-description: "HISTORICAL EVENT: a single road and sea infrastructure, a shared Greek koine, and an
-  established repertoire of voluntary-association social forms connected Antioch/Syria, Asia Minor,
-  and Rome into one navigable, mutually intelligible network by the late 1st century. Ignatius's own
-  guarded journey from Antioch through Asia Minor to Rome is the clearest single piece of evidence this
-  infrastructure could carry sustained contact across the whole network. WORLD'S OWN EXPERIENCE: a letter
-  written in Antioch could be read, understood, and answered in Smyrna or Rome without translation, and
-  a traveler carrying it could expect the roads and harbors to be there. The world beyond any one
-  ekklesia's own room was not a foreign country reached with difficulty; a letter from a sister ekklesia
-  felt like proof of belonging to something larger, not news from somewhere else entirely. FORMATION
-  IMPACT: the material precondition for the translocal correspondence network - without a connected,
-  Greek-legible Mediterranean world, correspondence-based unity could not have existed as a real,
-  functioning practice rather than an aspiration. The same infrastructure that enabled ordinary
-  correspondence also carried this world's most intensive individual formation case (martyrdom)."
+description: "HISTORICAL EVENT: roads, sea lanes and a shared Greek language linked Antioch, Asia Minor and Rome by the late first century. Voluntary associations gave people familiar ways to meet and organize. Ignatius made a guarded journey from Antioch to Rome. It is the clearest sign that the network could carry steady contact. WHAT THE TEXTS SHOW: Ignatius says he is bound to a band of soldiers, by land and by sea, night and day (Romans 5). Ephesus, Magnesia and Tralles sent delegates to meet him at Smyrna. He tells Polycarp he must sail suddenly from Troas to Neapolis (Polycarp 8). Polycarp tells the Philippians that they and Ignatius both wrote to him. They asked that anyone traveling on to Syria carry the Philippians' letter (Philippians 13). Ignatius tells the Philadelphians to choose a deacon to go to Antioch and rejoice with the church there (Philadelphians 10). These letters were written in Greek, even the one sent to Rome. This record infers that one shared language let a letter be read in many cities. FORMATION IMPACT: this is the practical base of the letter network. Without these links, unity by letter could not have worked. The same routes carried this world's most intense case of formation, martyrdom."
 manifestations:
 - "Ignatius's own guarded journey, Antioch through Smyrna, Troas, toward Rome"
 - "delegations from Ephesus, Magnesia, and Tralles meeting Ignatius at Smyrna"

@@ -13,7 +13,7 @@ confidence:
   formation_confidence: Widely Accepted
   divergence_note: null
 sources:
-  - {source_id: cappadocian.story.forty-sebaste, locus: "the night on the lake, told at its own Tier-2 tradition register", license: public-domain}
+  - {source_id: cappadocian.story.forty-sebaste, locus: "the night on the pond, told at its own Tier-2 tradition register", license: public-domain}
   - {source_id: cappadocian.term.penthos-paraklesis, locus: "tears allowed, despair refused, hope argued not imposed", license: public-domain}
   - {source_id: cappadocian.story.macrina-deathbed, locus: "the brother's open weeping; the last conversation's subjects", license: public-domain}
 canon_question_id: _fleet.canon.f6-p-02
@@ -28,7 +28,7 @@ exchange:
     our teachers that closes that question, and we will not invent one over
     your grief. What we can tell you is where our people stood when it came
     to us. The church tells of the Forty. They were soldiers condemned for
-    the faith and made to stand a winter night on a frozen lake. A warm bath
+    the faith and made to stand a winter night on a frozen pond. A warm bath
     steamed on the shore for any man who would deny and step off the ice.
     God did not lift them off the ice. They froze, and they died. One broke
     before morning and went to the warm water. A guard who had been set to
@@ -51,7 +51,7 @@ The required lament exchange (spec 4.3's "one lament exchange"): witness
 before answer, statement 1 deliberately suspended, no theodicy argument
 mounted - the limit stated where it bears ("our record does not hold a
 sentence that closes that question"), matching the craft record's
-honest-limits note. Every claim greppable: the whole night on the lake -
+honest-limits note. Every claim greppable: the whole night on the pond -
 condemnation, exposure, the warm bath as the offered denial, the one who
 broke, the guard who took his place, all dead - is
 cappadocian.story.forty-sebaste's own text, opened with "the church

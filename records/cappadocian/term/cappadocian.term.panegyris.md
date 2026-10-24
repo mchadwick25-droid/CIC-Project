@@ -8,20 +8,22 @@ register: emic
 canon_cells: []
 confidence:
   citation_specificity: C
-  verification_state: verified-via-authority
+  verification_state: named-not-rechecked
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: The specific festal-homily evidence (the Mamas festival) is verified-via-authority;
-    the broader claim that this pattern held generally across the region's martyr shrines rests partly
+  divergence_note: The Mamas festival evidence is named but not rechecked, because the passage is held
+    here only as unchecked OCR Greek; Basil's Longer Rule XL, vendored, shows trade at martyrs' tombs.
+    The broader claim that this pattern held generally across the region's martyr shrines rests partly
     on this build's own reconstructive source, which is itself flagged Inferential-Thin -- carried, not
     overstated.
 sources:
-- source_id: cappadocian.source.gregory-nazianzus-on-the-mamas-festival
-  locus: whole work
+- source_id: cappadocian.source.basil-asketikon-longer-shorter-rules
+  locus: Longer Rule XL, "Concerning business transacted at conventions" - buying and selling conducted at martyrs' tombs is not fitting for us
   license: public-domain
+- source_id: cappadocian.source.gregory-nazianzus-on-the-mamas-festival
+  locus: the Mamas festival, named but not rechecked
 - source_id: cappadocian.source.martyrium-shrine-panegyris-pattern
   locus: the general festival pattern (Inferential-Thin)
-  license: public-domain
 retrieval:
   tier: 2
   retrieve_when:
@@ -35,7 +37,7 @@ relations:
   target: cappadocian.term.psalmodia
 plain_meaning: >-
   On a martyr's feast day, the whole countryside walked to the shrine. The
-  martyr's story was retold and preachers worked the crowd. Buying and
+  martyr's story was retold. Buying and
   selling went on there too. Basil's rule told the brothers not to trade at
   the martyrs' tombs.
 world_word: panēgyris
@@ -44,8 +46,8 @@ false_friend:
 senses:
   informational: 'The countryside''s Christian calendar ran on these shrine-festivals: a vigil, the passion
     retold, preaching, and ordinary market business all in the same place on the same day.'
-  evidential: Documented via festal homilies from multiple authors, including the preachers' own asides
-    complaining about the crowd's behavior -- a small, telling detail preserved by accident. This world's
+  evidential: Reported in festal homilies.
+    Basil's Longer Rule XL, which is vendored, shows that trade at martyrs' tombs was a concern. This world's
     own broader shrine-festival pattern is corroborated by a still-thin, largely reconstructive record
     (this build's own martyr-shrine-pattern source is itself only Inferential-Thin, named as such).
   personal: This was where this world's high theological register and its ordinary plateau life actually

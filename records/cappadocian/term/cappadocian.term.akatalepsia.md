@@ -14,9 +14,9 @@ confidence:
   divergence_note: Documented as the era's argued epistemology; kept at Widely Accepted rather than Documented
     because (a) the mystical 'endless entry into darkness' elaboration is Gregory of Nyssa's own individual
     development, not evidenced as the whole circle's shared teaching, and (b) Basil's own three-book Against
-    Eunomius, this world's own lexicon's chief cited source for the epistemology, has no open-license
-    translation vendored in this project -- the claim here rests on his directly-vendored Epistle XVI
-    and the Gregories' own continuations instead.
+    Eunomius has no vendored file -- the claim here rests on his directly-vendored Letter CCXXXIV,
+    where he says we know God from his operations and do not approach his essence, and on the
+    Gregories' own continuations.
 sources:
 - source_id: cappadocian.source.gregory-nazianzus-orations-general-corpus
   locus: Oration 28, the second theological oration, on the impossibility of comprehending God
@@ -27,9 +27,11 @@ sources:
 - source_id: cappadocian.source.gregory-nyssa-against-eunomius
   locus: the epistemology of divine names
   license: public-domain
-- source_id: cappadocian.source.basil-against-eunomius
-  locus: the anti-Eunomian argument generally (treatise text itself unverified)
+- source_id: cappadocian.source.basil-letters-general-corpus
+  locus: Letter CCXXXIV, "we know our God from His operations, but do not undertake to approach near to His essence"
   license: public-domain
+- source_id: cappadocian.source.basil-against-eunomius
+  locus: the anti-Eunomian argument generally (the treatise has no vendored file)
 retrieval:
   tier: 1
   retrieve_when:
@@ -94,4 +96,4 @@ use_note:
   years: {from: 335, to: 394}
   status: reviewed
 ---
-Built from Doc_06 entry 2 (Tier 1). The evidential caveat on Basil's Against Eunomius follows the correction made to cappadocian.source.basil-against-eunomius during this same authoring pass (see B-2 report): the treatise's own text is not actually present in the vendored npnf208 file.
+Built from Doc_06 entry 2 (Tier 1). The treatise's own text is not present in the vendored npnf208 file; Basil's Letter CCXXXIV carries the claim.
