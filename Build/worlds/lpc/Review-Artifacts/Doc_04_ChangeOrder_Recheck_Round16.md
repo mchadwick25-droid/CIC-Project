@@ -6,6 +6,7 @@ Simulated review — informational only, not an Article 31 substitute.
 - **Round:** 16
 - **Reviewer:** Opus 5.5
 - **Reviewer model:** claude-opus-5-5
+- **Model note:** the harness reports that this run switched to Opus 5 (1M context) because Opus 5.5 could not be used. When the switch happened is not recorded, so some or all of this review may be Opus 5.
 - **Reviewer agent:** independent second-recheck subagent, fresh context; drafted none of the fixes or renderings
 - **Drafter:** Sonnet 5.5 and Opus 5.5 (revision passes)
 - **Drafter model:** Sonnet 5.5
