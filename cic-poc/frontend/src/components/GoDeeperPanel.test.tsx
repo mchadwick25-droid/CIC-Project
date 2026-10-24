@@ -63,6 +63,20 @@ describe('GoDeeperPanel', () => {
     expect(screen.getByRole('status')).toHaveTextContent('1,620 tokens left');
   });
 
+  it('shows free plus code on a fresh page for a visitor already holding a code', async () => {
+    localStorage.setItem('cic_codes', JSON.stringify([CODE]));
+    vi.stubGlobal(
+      'fetch',
+      vi.fn().mockImplementation(async (url: string) =>
+        new Response(JSON.stringify(url === '/api/deeper/free' ? { free_left: 520 } : { kind: 'single', remaining: 1100, paused: false }), { status: 200 })
+      )
+    );
+    const { GoDeeperPanel } = await load(true);
+    render(<GoDeeperPanel />);
+    expect(await screen.findByText('1,620 tokens left')).toBeInTheDocument();
+    vi.unstubAllGlobals();
+  });
+
   it('opens when a turn comes back refused', async () => {
     const { GoDeeperPanel, deeper } = await load(true);
     render(<GoDeeperPanel />);
@@ -255,7 +269,7 @@ describe('GoDeeperPanel', () => {
     const { GoDeeperPanel } = await load(true);
     render(<GoDeeperPanel />);
     expect(screen.getByText(/A code came with this link\. Use it\?/)).toHaveTextContent('You already have a code. This one will be added to it.');
-    expect(fetchMock.mock.calls.filter(([url]) => url !== '/api/deeper/free')).toHaveLength(0);
+    expect(fetchMock.mock.calls.filter(([url]) => String(url).includes('/claim'))).toHaveLength(0);
     expect(JSON.parse(localStorage.getItem('cic_codes') ?? '[]')).toEqual(['BCDE2345EFGH6789JKLM']);
     fireEvent.click(screen.getByRole('button', { name: 'Use it' }));
     expect(await screen.findByRole('button', { name: 'Show my code' })).toBeInTheDocument();
