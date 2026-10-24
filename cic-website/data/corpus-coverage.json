@@ -22059,14 +22059,6 @@
           "rights": "Public Domain (published 1903-1909, public domain by date under the project's 95-year rule; Project Gutenberg's own explicit public-domain-in-the-United-States declaration; the archive.org mirror of this eBook, item thephilippineisl13701gut, is marked NOT_IN_COPYRIGHT)"
         },
         {
-          "work": "Istorica descrizione de' tre' regni Congo, Matamba, et Angola (1687)",
-          "author": "cavazzi",
-          "role": "context",
-          "confidence": "provisional",
-          "source_file": "cavazzi_istorica-descrizione-tre-regni-congo-matamba-angola-ita_alamandini1687.txt",
-          "rights": "Public Domain (published 1687, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
-        },
-        {
           "work": "Relacion de las Islas Filipinas y de lo que en ellas han trabajado los Padres de la Compania de Jesus (Roma 1604), Manila 1890 reprint",
           "author": "chirino",
           "role": "context",
@@ -22107,14 +22099,6 @@
           "rights": "Public Domain (the 1593 Doctrina is public domain by date; the 1947 Library of Congress facsimile edition, including Wolf's essay, is distributed by Project Gutenberg under its explicit declaration that no one owns a United States copyright in it)"
         },
         {
-          "work": "A Report of the Kingdom of Congo (1591), English of 1881",
-          "author": "lopes",
-          "role": "context",
-          "confidence": "provisional",
-          "source_file": "lopes_report-of-the-kingdom-of-congo_hutchinson1881.txt",
-          "rights": "Public Domain (published 1881, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
-        },
-        {
           "work": "History of the Philippine Islands (Morga's Sucesos de las Islas Filipinas, 1609), Blair and Robertson's English",
           "author": "morga",
           "role": "context",
@@ -22151,6 +22135,22 @@
           "confidence": "assigned",
           "source_file": "paiva-manso_historia-do-congo-documentos-por_1877.txt",
           "rights": "Public Domain (published 1877, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "Istorica descrizione de' tre' regni Congo, Matamba, et Angola (1687)",
+          "author": "cavazzi",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "cavazzi_istorica-descrizione-tre-regni-congo-matamba-angola-ita_alamandini1687.txt",
+          "rights": "Public Domain (published 1687, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "A Report of the Kingdom of Congo (1591), English of 1881",
+          "author": "lopes",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "lopes_report-of-the-kingdom-of-congo_hutchinson1881.txt",
+          "rights": "Public Domain (published 1881, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
         },
         {
           "work": "Historia do Congo (Documentos): the whole corpo diplomatico of the Kongo mission, 1492 to the eighteenth century",
