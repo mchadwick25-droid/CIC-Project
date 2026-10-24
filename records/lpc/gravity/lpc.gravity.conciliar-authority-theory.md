@@ -58,24 +58,27 @@ description: >-
   "plenary" occurs 31 times in that treatise.
 
 
-  A real limit sits here too. In the texts weighed, each theory is attested at only one place in each
-  bishop's writings. Cyprian's formula appears once, at length, in the 256 preface. Augustine's recurs
-  within On Baptism. He also speaks of plenary Councils in two of his letters, Letter 43, section 19,
-  and Letter 54, section 1. Those two passages were found and were not weighed in the six tests.
+  A real limit sits here too. Both theories recur beyond their main source, but only in bishops' writing.
+  Cyprian's formula appears at length in the 256 preface. He states the same freedom of each bishop in
+  his letters to Stephen, Jubaianus and Magnus. Augustine's theory recurs within On Baptism. He also speaks
+  of plenary Councils in two of his letters, Letter 43, section 19, and Letter 54, section 1. Those two
+  passages were found and were not weighed in the six tests.
 
 
   Its reach is narrow in every direction. Only one finding depends on it: that the world forms a single
   strand. There is no evidence that ordinary believers, catechumens, or most clergy in either phase
-  were shaped by this question, or even knew of it. It explains the shape of the rebaptism dispute
+  were shaped by this question. Some did hear it. Presbyters, deacons and a large part of the congregation
+  were present in 256 when Cyprian stated his formula. It explains the shape of the rebaptism dispute
   between Cyprian and Stephen, and Augustine's long argument against Cyprian's ruling. It explains
   nothing else in the wider world. It connects clearly with collegial communion and sacramental
   validity, and weakly with pastoral office.
 
 
-  It does not carry across the whole world. Within the texts weighed, neither bishop's theory is
-  visible outside its one source. This is a limit of the search so far, not a proven absence. It runs
-  thin across the whole span, not confined to one phase. It appears in both phases, at one source each
-  -- between two bishops, at two moments separated by over a century. That sets it apart from grace and
+  It does not carry across the whole world. Each theory is still one bishop writing to other bishops
+  or to his own correspondents. Nothing shows either one at work, or disputed, among ordinary clergy.
+  This is a limit of the search so far, not a proven absence. It runs thin across the whole span, not
+  confined to one phase. It appears in both phases, in a bishop's writing each time -- two bishops, at
+  two moments separated by over a century. That sets it apart from grace and
   human incapacity, which belongs to one phase only.
 
 

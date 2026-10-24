@@ -39,4 +39,4 @@ relations:
 - type: associated-with
   target: lpc.quote.clamour-and-tears
 ---
-The sole source for the whole of Phase Two's one built story, and the source of lpc.quote.clamour-and-tears -- the mirror of Pontius's own role for Phase One, a friendly rather than hostile mediating eyewitness whose own presence in the room (rather than only his own social location) is what the Tier Justification for lpc.story.the-psalms-on-the-wall rests its Tier 1 finding on.
+The principal source for Phase Two's one built story, and its only witness to the sickroom (Prosper's Chronicon corroborates only the death, its date and the siege), and the source of lpc.quote.clamour-and-tears -- the mirror of Pontius's own role for Phase One, a friendly rather than hostile mediating eyewitness whose own presence in the room (rather than only his own social location) is what the Tier Justification for lpc.story.the-psalms-on-the-wall rests its Tier 1 finding on.

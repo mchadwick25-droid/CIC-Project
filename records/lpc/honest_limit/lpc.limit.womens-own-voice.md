@@ -34,8 +34,10 @@ why_sources_cannot_answer: 'Doc_09_Story_Inventory.md §5 item 4 states this dir
   -- and all four are Phase One. The second phase does not break the pattern... Albina and the community
   of nuns at Hippo are known only through Augustine''s own framing of them, in letters he wrote about
   them rather than words they wrote themselves.'' Doc_02_Source_Ecology.md §6 independently confirms the
-  Augustine-phase half. No text authored by a woman survives anywhere in this world''s own Native corpus,
-  in either phase.'
+  Augustine-phase half. No text in a woman''s own voice survives anywhere in this world''s own Native
+  corpus, in either phase. The nearest are letters Paulinus of Nola sent to Augustine in his own and
+  his wife Therasia''s names (Letters XXV, XXX and XCIV, headed "from Paulinus and Therasia"), which
+  he writes largely in his own first person.'
 nearest_material:
 - lpc.figure.numidicus
 - lpc.story.numidicus

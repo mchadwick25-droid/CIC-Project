@@ -47,9 +47,9 @@ description: >-
 
 
   This has three effects. First, continuity across the gap runs through texts, not through a line of
-  successors. Augustine's engagement with Cyprian's council acts is the only force in this world that
-  carries it across. Nothing else found so far does. The crossing is attested twice. The second case is
-  Possidius quoting Cyprian's De Mortalitate, and it is not itself counted as a force.
+  successors. Augustine's reading of Cyprian's council acts carries the most across. It is not the only
+  crossing. Possidius quotes Cyprian's book on dying, and Augustine cites Cyprian on grace against
+  the Pelagians.
 
 
   Second, the gap is richly attested, but by sources that belong to Donatism's territory, not this
@@ -59,7 +59,7 @@ description: >-
 
   Third, concerns that belong to one phase only reflect the record as well as the world. Penitential
   discipline and the confessor-versus-bishop tension are attested only in the first phase. Grace and
-  human incapacity appears only in the second. Each of these limits was confirmed by a positive check,
+  human incapacity shapes only the second. Each of these limits was confirmed by a positive check,
   not inferred from silence.
 
 
