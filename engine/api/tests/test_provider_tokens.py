@@ -197,3 +197,31 @@ def test_a_slow_provider_does_not_hold_up_the_other(key):
     release.set()
     slow.join()
     assert seen["g"] == (CANONICAL_ISSUER["google"], "1234")
+
+
+def test_a_verified_address_is_given_only_when_the_token_passes_every_check(verifier, key):
+    assert verifier.verified_address("google", _token(key, email="Ada@Example.org", email_verified=True), NONCE) == "Ada@Example.org"
+    assert verifier.verified_address("google", _token(key, email="ada@example.org", email_verified="true"), NONCE) == "ada@example.org"
+    assert verifier.verified_address("google", _token(key, email="ada@example.org", email_verified=True, nonce="other"), NONCE) is None
+    assert verifier.verified_address("google", _token(key, email="ada@example.org", email_verified=True, aud="x"), NONCE) is None
+
+
+@pytest.mark.parametrize("claims", [
+    {}, {"email": "ada@example.org"}, {"email": "ada@example.org", "email_verified": False},
+    {"email": "ada@example.org", "email_verified": "false"}, {"email": "ada@example.org", "email_verified": 1},
+    {"email": 5, "email_verified": True}, {"email": "", "email_verified": True}, {"email": "a" * 321, "email_verified": True},
+])
+def test_an_address_the_provider_has_not_verified_is_not_given(verifier, key, claims):
+    assert verifier.verified_address("google", _token(key, **claims), NONCE) is None
+
+
+def test_apple_s_private_relay_address_is_not_the_person_s_own(verifier, key):
+    relay = {"iss": "https://appleid.apple.com", "aud": "com.example.web", "email": "x@privaterelay.appleid.com", "email_verified": "true"}
+    assert verifier.verified_address("apple", _token(key, **relay, is_private_email="true"), NONCE) is None
+    assert verifier.verified_address("apple", _token(key, **relay, is_private_email=True), NONCE) is None
+    assert verifier.verified_address("apple", _token(key, **relay, is_private_email="false"), NONCE) == "x@privaterelay.appleid.com"
+
+
+def test_the_subject_check_is_unchanged_by_the_address_call(verifier, key):
+    token = _token(key, email="ada@example.org", email_verified=True)
+    assert verifier.verify("google", token, NONCE) == (CANONICAL_ISSUER["google"], "1234")

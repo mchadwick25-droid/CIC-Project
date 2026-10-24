@@ -175,7 +175,7 @@ def _imports(path: Path):
 
 
 def test_only_the_api_edge_imports_the_accounts_module():
-    allowed = {ENGINE / "api" / "app.py", ENGINE / "api" / "accounts_routes.py"}
+    allowed = {ENGINE / "api" / "app.py", ENGINE / "api" / "accounts_routes.py", ENGINE / "api" / "coupon_routes.py"}
     outside = []
     for path in ENGINE.rglob("*.py"):
         relative = path.relative_to(ENGINE)

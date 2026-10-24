@@ -137,9 +137,9 @@ def test_the_expiry_and_refund_draft_is_left_off_the_page_until_the_lawyer_clear
 
 
 
-def test_nothing_on_the_site_links_to_the_go_deeper_pages_yet():
+def test_only_the_landing_page_links_to_the_go_deeper_pages():
     for path in SITE.rglob("*.html"):
-        if path.name in PAGES:
+        if path.name in PAGES or path.name == "index.html":
             continue
         text = path.read_text(errors="ignore")
         assert not re.search(r"""href=["'][^"']*go-deeper(?!-config)""", text), path.name
@@ -152,6 +152,12 @@ def test_the_pages_are_kept_out_of_search_until_they_are_live(page):
 
 def test_the_two_contribution_links_are_unchanged():
     html = (SITE / "support.html").read_text()
+    hrefs = re.findall(r'href="(https://(?:donate|buy)\.stripe\.com/[^"]+)"', html)
+    assert hrefs == SUPPORT_LINKS
+
+
+def test_the_go_deeper_page_offers_the_same_two_gift_links_as_the_support_page():
+    html = (SITE / "go-deeper.html").read_text()
     hrefs = re.findall(r'href="(https://(?:donate|buy)\.stripe\.com/[^"]+)"', html)
     assert hrefs == SUPPORT_LINKS
 

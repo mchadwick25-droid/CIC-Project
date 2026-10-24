@@ -69,6 +69,10 @@ _ENV_SECRET_KEY = "CIC_API_BACKUP_BUCKET_SECRET_ACCESS_KEY"
 # run_backup_once) and the remote bucket's own history.
 _DEFAULT_RETENTION_DAYS = 14
 
+# A sealed backup (the accounts files, see engine.api.backup_seal) is an encrypted copy of the
+# database; it has its own ending so a plain restore never mistakes it for a database.
+_SEALED_SUFFIX = ".db.enc"
+
 
 class BackupStorageError(Exception):
     """A configured backup bucket refused a request, or credentials are
@@ -199,7 +203,8 @@ def prune_remote(prefix: str, *, keep_days: int = _DEFAULT_RETENTION_DAYS) -> li
     cutoff = datetime.now(timezone.utc) - timedelta(days=keep_days)
     deleted = []
     for key in list_backups(prefix):
-        stem = Path(key).stem  # "2026-09-21T04-41-00Z"
+        name = Path(key).name
+        stem = name[: -len(_SEALED_SUFFIX)] if name.endswith(_SEALED_SUFFIX) else Path(key).stem  # "2026-09-21T04-41-00Z"
         try:
             ts = datetime.strptime(stem, "%Y-%m-%dT%H-%M-%SZ").replace(tzinfo=timezone.utc)
         except ValueError:
@@ -220,6 +225,19 @@ def download_backup(object_key: str, dest_path: str | Path) -> Path:
     except Exception as e:  # noqa: BLE001
         raise BackupStorageError(f"download of {bucket}/{object_key} failed: {e}") from e
     verify_integrity(dest_path)
+    return dest_path
+
+
+def download_sealed(object_key: str, dest_path: str | Path) -> Path:
+    """The sealed object as it is stored; it is opened, and only then checked, by restore_sealed."""
+    client = _client()
+    bucket = os.environ[_ENV_BUCKET]
+    dest_path = Path(dest_path)
+    dest_path.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        client.download_file(bucket, object_key, str(dest_path))
+    except Exception as e:  # noqa: BLE001
+        raise BackupStorageError(f"download of {bucket}/{object_key} failed: {e}") from e
     return dest_path
 
 
@@ -256,9 +274,12 @@ def run_backup_once(
     service_label: str = "cic-engine",
     qc_db_path: str | None = None,
     extra_dbs: dict[str, str] | None = None,
+    sealed_dbs: dict[str, str] | None = None,
+    sealer=None,
 ) -> dict:
     """One backup pass over both DBs, plus any extra_dbs (label -> path) the
-    caller names. Never raises: a failed pass becomes a
+    caller names. sealed_dbs (label -> path) are encrypted with sealer before
+    they leave the disk; with no sealer they are not uploaded at all. Never raises: a failed pass becomes a
     status entry (same convention as engine.m7.scheduler.run_once), so the
     daily thread survives a bad run and tries again tomorrow rather than
     dying silently. The local staging copy is always removed after the
@@ -274,6 +295,8 @@ def run_backup_once(
     if qc_db_path:
         sources.append(("qc", qc_db_path))
     sources.extend((extra_dbs or {}).items())
+    for label, db_path in (sealed_dbs or {}).items():
+        _backup_sealed(label, db_path, staging_dir, stamp, service_label, sealer, status["results"])
     for label, db_path in sources:
         local_backup = staging_dir / f"{label}-{stamp}.db"
         try:
@@ -306,6 +329,55 @@ def run_backup_once(
     return status
 
 
+def _backup_sealed(label: str, db_path: str, staging_dir: Path, stamp: str, service_label: str, sealer, results: dict) -> None:
+    """Backs up one database, seals it, and uploads only the sealed copy. The plain backup and the
+    sealed copy are both removed from the staging directory afterwards, uploaded or not."""
+    plain = staging_dir / f"{label}-{stamp}.db"
+    sealed = staging_dir / f"{label}-{stamp}{_SEALED_SUFFIX}"
+    try:
+        if not Path(db_path).exists():
+            results[label] = {"outcome": "skipped", "reason": "source DB does not exist"}
+            return
+        if not is_configured():
+            logger.warning("db_backup: %s not backed up: %s is not set", label, _ENV_BUCKET)
+            results[label] = {"outcome": "backed_up_not_uploaded", "reason": f"{_ENV_BUCKET} is not set"}
+            return
+        if sealer is None:
+            logger.error("db_backup: %s not uploaded: no backup key to seal it with", label)
+            results[label] = {"outcome": "error", "error": "no backup key; the file is never uploaded unsealed"}
+            return
+        backup_one(db_path, plain)
+        sealed.write_bytes(sealer.seal(plain.read_bytes(), label))
+        object_key = f"db-backups/{service_label}/{label}/{stamp}{_SEALED_SUFFIX}"
+        upload_backup(sealed, object_key)
+        prune_remote(f"db-backups/{service_label}/{label}/")
+        results[label] = {"outcome": "ok", "bytes": sealed.stat().st_size, "object_key": object_key}
+    except Exception as exc:  # noqa: BLE001 - the loop must survive its own job failing
+        logger.exception("db_backup: %s sealed backup failed", label)
+        results[label] = {"outcome": "error", "error": type(exc).__name__}
+    finally:
+        for leftover in (plain, sealed):
+            if leftover.exists():
+                leftover.unlink()
+
+
+def restore_sealed(sealed_path: str | Path, label: str, sealer, target_db_path: str | Path) -> None:
+    """Opens a sealed backup under the key ring and restores it as restore_one does. The plain copy
+    exists only beside the target, for the length of the restore."""
+    from engine.api.backup_seal import BackupOpenError  # local import keeps this module free of the cipher library
+
+    target_db_path = Path(target_db_path)
+    plain = target_db_path.with_suffix(target_db_path.suffix + ".opened")
+    try:
+        plain.write_bytes(sealer.open(Path(sealed_path).read_bytes(), label))
+        restore_one(plain, target_db_path)
+    except BackupOpenError:
+        raise
+    finally:
+        if plain.exists():
+            plain.unlink()
+
+
 def summarize_status(staging_dir: Path) -> dict:
     """The last pass in two facts, for the public health check: whether every
     database it found reached the bucket, and when it ran. Never the error
@@ -335,6 +407,8 @@ def start_background_scheduler(
     qc_db_path: str | None = None,
     *,
     extra_dbs: dict[str, str] | None = None,
+    sealed_dbs: dict[str, str] | None = None,
+    sealer=None,
 ) -> None:
     """Starts a daemon thread that runs run_backup_once daily. Fire-and-
     forget, same lifecycle contract as engine.m7.scheduler and
@@ -346,7 +420,8 @@ def start_background_scheduler(
             now = datetime.now(timezone.utc)
             next_run = _next_run_at(now)
             time.sleep(max(0.0, (next_run - now).total_seconds()))
-            run_backup_once(events_db_path, usage_db_path, staging_dir, qc_db_path=qc_db_path, extra_dbs=extra_dbs)
+            run_backup_once(events_db_path, usage_db_path, staging_dir, qc_db_path=qc_db_path, extra_dbs=extra_dbs,
+                            sealed_dbs=sealed_dbs, sealer=sealer)
 
     threading.Thread(target=_loop, name="db-daily-backup", daemon=True).start()
 
@@ -369,13 +444,15 @@ def _cli(argv: list[str]) -> int:
     p_backup.add_argument("--meter-db", default=None, help="also back up the Go Deeper meter file")
 
     p_list = sub.add_parser("list", help="list backups for one DB label (events|usage|meter)")
-    p_list.add_argument("label", choices=["events", "usage", "meter"])
+    p_list.add_argument("label", choices=["events", "usage", "meter", "accounts", "contact"])
     p_list.add_argument("--service-label", default="cic-engine")
 
     p_restore = sub.add_parser("restore", help="restore one DB from a backup")
     p_restore.add_argument("--from-key", required=True, help="object key, or a local file path with --local")
     p_restore.add_argument("--target", required=True, help="path to overwrite, e.g. /data/cic_api_events.db")
     p_restore.add_argument("--local", action="store_true", help="--from-key is a local file, not an object key")
+    p_restore.add_argument("--sealed-label", default=None, choices=["accounts", "contact"],
+                           help="the backup is sealed (ends .db.enc); opened with CIC_ACCOUNTS_BACKUP_KEY")
 
     args = parser.parse_args(argv)
     from engine.api.config import normalize_environ
@@ -391,6 +468,23 @@ def _cli(argv: list[str]) -> int:
     if args.command == "list":
         for key in list_backups(f"db-backups/{args.service_label}/{args.label}/"):
             print(key)
+        return 0
+
+    if args.command == "restore" and args.sealed_label:
+        from engine.api import backup_seal
+
+        sealer = backup_seal.from_env(dict(os.environ))
+        downloaded = Path(args.target).with_suffix(".downloaded")
+        if args.local:
+            downloaded = Path(args.from_key)
+        else:
+            download_sealed(args.from_key, downloaded)
+        try:
+            restore_sealed(downloaded, args.sealed_label, sealer, args.target)
+        finally:
+            if not args.local and downloaded.exists():
+                downloaded.unlink()
+        print(f"restored {args.target} from {args.from_key}")
         return 0
 
     if args.command == "restore":
