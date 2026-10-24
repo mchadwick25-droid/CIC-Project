@@ -37,15 +37,17 @@ def test_dates_are_weeks_never_times(tmp_path):
     assert store.rows()[0]["week"] == iso_week(date(2026, 10, 3)) == "2026-W40"
 
 
-def test_answers_older_than_ninety_days_are_cleared_and_questions_kept(tmp_path):
+def test_question_and_answer_text_older_than_ninety_days_is_cleared_and_scores_kept(tmp_path):
     store = QCStore(tmp_path / "qc.db")
     today = date(2026, 10, 3)
     _row(store, token="old", day=today - timedelta(days=120))
     _row(store, token="new", day=today - timedelta(days=10))
-    assert store.expire_answers(today) == 1
+    assert store.expire_text(today) == 1
     rows = {r["conversation_token"]: r for r in store.rows()}
-    assert rows["old"]["answer_text"] is None and rows["old"]["question_text"] == "A question?"
-    assert rows["new"]["answer_text"] == "An answer."
+    assert rows["old"]["answer_text"] is None and rows["old"]["question_text"] is None
+    assert rows["old"]["scores"] == rows["new"]["scores"] and rows["old"]["routing"] == rows["new"]["routing"]
+    assert rows["new"]["answer_text"] == "An answer." and rows["new"]["question_text"] == "A question?"
+    assert store.expire_text(today) == 0
 
 
 def test_sampling_is_seeded_and_returns_whole_conversations(tmp_path):
@@ -97,7 +99,7 @@ def test_retention_run_records_its_counts(tmp_path):
     _row(qc, day=date(2026, 1, 5))
     status = retention.run_once(events.db_path, qc.db_path, tmp_path / "status",
                                 now=datetime(2026, 10, 3, tzinfo=timezone.utc))
-    assert status["outcome"] == "ok" and status["qc_answers_cleared"] == 1 and status["conversations_deleted"] == 0
+    assert status["outcome"] == "ok" and status["qc_text_cleared"] == 1 and status["conversations_deleted"] == 0
     assert (tmp_path / "status" / retention.STATUS_FILENAME).exists()
 
 
