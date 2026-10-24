@@ -37,9 +37,11 @@ KINDS = ("single", "batch", "group")
 LIVE, SPENT, VOID = "live", "spent", "void"
 
 TALLY_FIELDS = ("payments_seen", "payments_minted", "payments_voided_first", "codes_minted", "refunds_applied", "partial_refunds_ignored")
-SOURCES = ("purchase", "admin", "pilot", "tester")
-GRANT_PREFIXES = {"admin": "admin_", "pilot": "pilot_", "tester": "tester_"}
-MINT_COUNT_FIELDS = {"admin": "admin_codes_minted", "pilot": "pilot_codes_minted", "tester": "tester_codes_minted"}
+SOURCES = ("purchase", "admin", "pilot", "tester", "coupon")
+GRANT_PREFIXES = {"admin": "admin_", "pilot": "pilot_", "tester": "tester_", "coupon": "coupon_"}
+MINT_COUNT_FIELDS = {
+    "admin": "admin_codes_minted", "pilot": "pilot_codes_minted", "tester": "tester_codes_minted", "coupon": "coupon_codes_minted",
+}
 REPORT_FIELDS = (*TALLY_FIELDS, *MINT_COUNT_FIELDS.values())
 RECONCILE_RETENTION_DAYS = 90
 MEASURE_RETENTION_DAYS = 90
@@ -106,7 +108,8 @@ CREATE TABLE IF NOT EXISTS reconcile (
     partial_refunds_ignored INTEGER NOT NULL DEFAULT 0,
     admin_codes_minted INTEGER NOT NULL DEFAULT 0,
     pilot_codes_minted INTEGER NOT NULL DEFAULT 0,
-    tester_codes_minted INTEGER NOT NULL DEFAULT 0
+    tester_codes_minted INTEGER NOT NULL DEFAULT 0,
+    coupon_codes_minted INTEGER NOT NULL DEFAULT 0
 ) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS funds (
     entry TEXT PRIMARY KEY,
@@ -177,7 +180,7 @@ class MintLimit(DeeperError):
 
 
 def is_grant(payment_id: str) -> bool:
-    """True for the id of a code made without a payment (an admin, pilot or tester grant)."""
+    """True for the id of a code made without a payment (an admin, pilot, tester or coupon grant)."""
     return payment_id.startswith(tuple(GRANT_PREFIXES.values()))
 
 
@@ -304,8 +307,8 @@ class Meter:
         safe, so a crash between the two steps loses nothing. The payment's
         reconciliation counts commit in the same transaction as its codes.
 
-        source: "purchase" (the default) is a Stripe payment. "admin", "pilot" and
-        "tester" are grants, made with no payment: their payment id must carry the
+        source: "purchase" (the default) is a Stripe payment. "admin", "pilot",
+        "tester" and "coupon" are grants, made with no payment: their payment id must carry the
         grant's prefix, they count in their own reconciliation column and never
         as a payment, and daily_token_limit caps the tokens such codes may hold for the day,
         daily_code_limit the number of such codes made that day, both checked inside
@@ -443,6 +446,29 @@ class Meter:
         """The same for a code known by its hash, as an account holds it."""
         with self._lock:
             return self._status_of(self._row(code_hash))
+
+    def code_hash_of_payment(self, payment_id: str) -> str | None:
+        """The hash of the one code a single-code grant made, so a grant whose attaching was
+        interrupted can be finished without the code ever being kept in plain form."""
+        with self._lock:
+            row = self._conn.execute(
+                "SELECT code_hash FROM meter WHERE payment_id = ? AND status != 'void' LIMIT 1", (payment_id,)
+            ).fetchone()
+        return row[0] if row else None
+
+    def coupon_tokens_left(self, code_hashes: list[str]) -> list[int]:
+        """The tokens still unspent on each live coupon among the given codes, largest first.
+        Only amounts: nothing here says which account holds them."""
+        if not code_hashes:
+            return []
+        marks = ",".join("?" * len(code_hashes))
+        with self._lock:
+            rows = self._conn.execute(
+                f"SELECT tokens_total - tokens_used FROM meter WHERE code_hash IN ({marks})"
+                " AND status = 'live' AND payment_id LIKE ? ESCAPE '\\' ORDER BY 1 DESC",
+                (*code_hashes, _like_prefix(GRANT_PREFIXES["coupon"])),
+            ).fetchall()
+        return [r[0] for r in rows if r[0] > 0]
 
     def _status_of(self, row) -> CodeStatus | None:
         if row is None:

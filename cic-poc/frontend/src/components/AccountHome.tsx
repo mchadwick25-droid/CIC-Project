@@ -120,6 +120,7 @@ function Home({ headRef }: { headRef: React.RefObject<HTMLHeadingElement> }) {
           <p className="account-home__count" role="status">{copy.tokensLeft(balance.free_left + balance.code_tokens)}</p>
           <p>{copy.freeRefill(balance.free_left, balance.free_total, account.refillDay)}</p>
           {balance.codes_held > 0 && <p>{copy.codeTokens(balance.code_tokens)}</p>}
+          {(balance.gifts ?? []).map((n, i) => <p key={i}>{copy.giftLine(n)}</p>)}
           <p className="account__small">{copy.freeFirst}</p>
           <button type="button" onClick={getMore}>{copy.getMore}</button>
           {!entering && <button type="button" onClick={() => { setEntering(true); setAdded(false); }}>{copy.addCodeLink}</button>}

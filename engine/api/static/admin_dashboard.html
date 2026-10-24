@@ -201,6 +201,11 @@
           <div class="caveat" id="t-deeper-tester-detail"></div>
         </div>
         <div class="tile">
+          <div class="label">Coupons attached today</div>
+          <div class="value" id="t-deeper-coupon">—</div>
+          <div class="caveat" id="t-deeper-coupon-detail"></div>
+        </div>
+        <div class="tile">
           <div class="label">Pilot joins by role</div>
           <div class="caveat" id="t-deeper-pilot-roles">—</div>
           <div class="caveat">A count per role per audience only. No role is tied to a code or an address.</div>
@@ -232,6 +237,13 @@
         <button id="tester-submit" type="button">Make a tester code</button>
       </div>
       <div class="caveat" id="tester-limits"></div>
+      <div id="coupon-wrap" class="hidden" style="margin-top: 8px;">
+        <label>Coupon: address <input id="coupon-address" type="text" autocomplete="off" spellcheck="false" style="width: 18em;" /></label>
+        <label>tokens <input id="coupon-tokens" type="number" min="1" value="1100" style="width: 7em;" /></label>
+        <button id="coupon-submit" type="button">Approve a coupon</button>
+        <div class="caveat" id="coupon-limits"></div>
+        <div class="caveat" id="coupon-list"></div>
+      </div>
       <div style="margin-top: 8px;">
         <input id="void-id" type="text" placeholder="Mint id or payment id to cancel" style="width: 22em;" autocomplete="off" />
         <button id="void-submit" type="button">Cancel its codes</button>
@@ -736,7 +748,7 @@
     document.getElementById("t-deeper-refused").textContent = fmtNumber(refusalTotal(today));
     document.getElementById("t-deeper-gap").textContent = fmtNumber(gaps[today.day] || 0);
     const todayRecon = (body.reconciliation || []).find((r) => r.day === today.day) || {};
-    renderGrantTiles({ ...today, admin_codes_minted: todayRecon.admin_codes_minted, pilot_codes_minted: todayRecon.pilot_codes_minted, tester_codes_minted: todayRecon.tester_codes_minted });
+    renderGrantTiles({ ...today, admin_codes_minted: todayRecon.admin_codes_minted, pilot_codes_minted: todayRecon.pilot_codes_minted, tester_codes_minted: todayRecon.tester_codes_minted, coupon_codes_minted: todayRecon.coupon_codes_minted });
     const wrap = document.getElementById("deeper-table-wrap");
     wrap.innerHTML = "";
     if (rows.length === 0) {
@@ -768,6 +780,7 @@
     document.getElementById("t-deeper-admin-detail").textContent = fmtNumber(((today || {}).tokens_granted) || 0) + " tokens granted today, admin, pilot and tester";
     document.getElementById("t-deeper-pilot-detail").dataset.today = String((today || {}).pilot_codes_minted || 0);
     document.getElementById("t-deeper-tester").textContent = fmtNumber((today || {}).tester_codes_minted || 0);
+    document.getElementById("t-deeper-coupon").textContent = fmtNumber((today || {}).coupon_codes_minted || 0);
   }
   function deeperNotice(message, isError) {
     const slot = document.getElementById("deeper-notice");
@@ -916,6 +929,67 @@
     deeperNotice("", false);
     await loadDeeper();
   }
+  async function loadCoupons() {
+    // The route exists only when accounts are on as well; without it the coupon form stays hidden.
+    const wrap = document.getElementById("coupon-wrap");
+    try {
+      const resp = await fetch("/api/admin/deeper/coupons", { credentials: "same-origin" });
+      if (!resp.ok) { wrap.classList.add("hidden"); return; }
+      const body = await resp.json();
+      wrap.classList.remove("hidden");
+      const tokensBox = document.getElementById("coupon-tokens");
+      if (body.max_tokens) tokensBox.max = String(body.max_tokens);
+      document.getElementById("coupon-limits").textContent =
+        "A gift of tokens kept for whoever signs in with that address, with no deadline. Up to " + fmtNumber(body.max_tokens) + " tokens, " + body.per_day +
+        " a day. An unclaimed coupon is dropped after " + body.unclaimed_days + " days. It matches the address exactly as the person signs in with it (capitals do not matter; a +tag does). The address is never shown again; note the coupon id to cancel it while it waits.";
+      document.getElementById("t-deeper-coupon-detail").textContent = fmtNumber(body.coupons.length) + " waiting to be claimed. Limit " + body.per_day + " a day.";
+      const list = document.getElementById("coupon-list");
+      list.innerHTML = "";
+      if (body.coupons.length === 0) { list.textContent = "No coupon is waiting."; return; }
+      body.coupons.forEach((c) => {
+        const row = el("div", {}, [
+          el("span", { text: c.coupon_id + " · " + fmtNumber(c.tokens) + " tokens · approved " + c.day_made + " " }),
+          el("button", { type: "button", "data-coupon": c.coupon_id, text: "Cancel" }),
+        ]);
+        list.appendChild(row);
+      });
+      list.querySelectorAll("button[data-coupon]").forEach((b) => b.addEventListener("click", () => cancelCoupon(b.getAttribute("data-coupon"))));
+    } catch (e) {
+      wrap.classList.add("hidden");
+    }
+  }
+  async function approveCoupon() {
+    const box = document.getElementById("coupon-address");
+    const address = box.value.trim();
+    const tokens = parseInt(document.getElementById("coupon-tokens").value, 10);
+    if (!address || !(tokens >= 1)) { deeperNotice("Enter an address and a number of tokens.", true); return; }
+    if (!window.confirm("Give " + fmtNumber(tokens) + " tokens to whoever signs in with " + address + "? It has no deadline and cannot be re-sent.")) return;
+    const resp = await fetch("/api/admin/deeper/coupon", {
+      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ address: address, tokens: tokens }),
+    });
+    box.value = "";
+    if (!resp.ok) {
+      let detail = "";
+      try { detail = (await resp.json()).detail || ""; } catch (e) {}
+      if (typeof detail !== "string") detail = "";
+      deeperNotice("No coupon was kept (" + resp.status + "). " + detail, true);
+      return;
+    }
+    const made = await resp.json();
+    deeperNotice("Kept. Coupon " + made.coupon_id + ", " + fmtNumber(made.tokens) + " tokens. It attaches at that person's next sign-in.", false);
+    await loadCoupons();
+  }
+  async function cancelCoupon(id) {
+    if (!window.confirm("Cancel coupon " + id + "? It will not attach.")) return;
+    const resp = await fetch("/api/admin/deeper/coupon/cancel", {
+      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ coupon_id: id }),
+    });
+    if (!resp.ok) { deeperNotice("Nothing was cancelled (" + resp.status + "). It may already be attached; cancel an attached one with its codes.", true); return; }
+    deeperNotice("Coupon " + id + " cancelled.", false);
+    await loadCoupons();
+  }
   async function makeTesterCode() {
     const tokens = parseInt(document.getElementById("tester-tokens").value, 10);
     const days = parseInt(document.getElementById("tester-days").value, 10);
@@ -958,6 +1032,7 @@
   document.getElementById("deeper-pause-toggle").addEventListener("click", toggleDeeperPause);
   document.getElementById("mint-submit").addEventListener("click", makeCodes);
   document.getElementById("tester-submit").addEventListener("click", makeTesterCode);
+  document.getElementById("coupon-submit").addEventListener("click", approveCoupon);
   document.getElementById("mint-hide").addEventListener("click", hideCodes);
   document.addEventListener("visibilitychange", () => { if (document.hidden) hideCodes(); });
   document.getElementById("mint-copy-links").addEventListener("click", async () => {
@@ -976,6 +1051,7 @@
         renderDeeper(await resp.json());
         await loadStatus();
         await loadGrants();
+        await loadCoupons();
         await loadUnmatched();
       }
       else document.getElementById("deeper-section").classList.add("hidden");

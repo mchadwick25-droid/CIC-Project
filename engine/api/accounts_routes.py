@@ -453,7 +453,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         if result.status == "ok":
             await run_in_threadpool(_seed_allowance, request, result)
             _set_cookie(response, result.cookie)
-            return {"status": "ok", "new_account": result.new_account}
+            return {"status": "ok", "new_account": result.new_account, "coupons": result.data.get("coupons", [])}
         if result.status in ("needs_age_answer", "not_adult"):
             return {"status": result.status, "message": MESSAGES[result.status]}
         if result.status == "recovery_waiting":
@@ -484,7 +484,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         if result.status == "ok":
             await run_in_threadpool(_seed_allowance, request, result)
             _set_cookie(response, result.cookie)
-            return {"status": "ok", "new_account": result.new_account}
+            return {"status": "ok", "new_account": result.new_account, "coupons": result.data.get("coupons", [])}
         if result.status in ("needs_age_answer", "not_adult"):
             return {"status": result.status, "message": MESSAGES[result.status]}
         await _refuse(result, delay=True)
@@ -645,6 +645,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
                 "refill_on": refill_on.isoformat(),
                 "codes_held": len(context.code_hashes),
                 "code_tokens": sum(i.remaining for i in held if i is not None and i.status == "live"),
+                "gifts": deeper.meter.coupon_tokens_left(list(context.code_hashes)),
             }
         except Exception:  # noqa: BLE001
             logger.exception("the account balance could not be read")
