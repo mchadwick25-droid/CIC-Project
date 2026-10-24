@@ -13,21 +13,20 @@ confidence:
   formation_confidence: Widely Accepted
   divergence_note: Public domain (1909); the article's own heading and closing paragraph directly verified.
     Flagged for priority second-opinion review before it supports any specific claim. The same public-domain
-    volume also carries an unrequested, related von Soden article on the rebaptism controversy, named
-    for a future round rather than vendored outside this row's own scope.
+    volume also carries an unrequested, related von Soden article on the rebaptism controversy, not vendored,
+    since it lies outside this row's own scope.
 sources: []
 relations: []
 author: Hans von Soden
 work: Die Prosopographie des afrikanischen Episkopats zur Zeit Cyprians, Quellen und Forschungen aus italienischen
   Archiven und Bibliotheken 12 (Rome, 1909), pp. 247-270
-edition: Now vendored, row 211 (2026-09-08), closing Manifest G8; vendored as cic/texts/vonsoden_prosopographie-afrikanischer-episkopat-deu_1909.txt,
+edition: Vendored under row 211 as cic/texts/vonsoden_prosopographie-afrikanischer-episkopat-deu_1909.txt,
   sliced to the article's own page range
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
-  read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
-  own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
-  a rights re-check by this compilation pass.
+  read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
+  check (Source_Acquisition_Manifest.md SS1).
 attribution_status: attributed
-discovery_channel: WebSearch / 2026-09-02; resolved by G8's own fulfillment / 2026-09-08.
+discovery_channel: WebSearch.
 external_ids:
   lpc_source_registry_row: 90
 ---

@@ -12,9 +12,9 @@ confidence:
   evidentiary_weight: illustrative
   formation_confidence: Widely Accepted
   divergence_note: Named because it is real and checkable, not because it is strong -- flagged explicitly
-    as a graduate thesis rather than a peer-reviewed monograph or journal article, the weakest lead of
-    this round's own three PRESS answers. A build thread may reasonably decline this candidate in favor
-    of a stronger instrument on the same question.
+    as a graduate thesis rather than a peer-reviewed monograph or journal article, the weakest of the
+    three PRESS answers. A later builder may reasonably decline this candidate in favor of a stronger
+    instrument on the same question.
 sources: []
 relations: []
 author: Lauren Hudson
@@ -28,7 +28,7 @@ rights_status: in-copyright; never vendored, consultation-only, per Source_Acqui
   primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build,
   never quoted as licensed vendored material.
 attribution_status: attributed
-discovery_channel: WebSearch / 2026-09-02.
+discovery_channel: WebSearch.
 external_ids:
   lpc_source_registry_row: 151
 ---

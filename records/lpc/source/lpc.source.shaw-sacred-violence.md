@@ -13,7 +13,7 @@ confidence:
   formation_confidence: Widely Accepted
   divergence_note: Already independently bibliographically verified in the sibling Donatism build's own
     Registry (its own row 24), which this document relies on rather than re-verifying; not independently
-    re-read this session.
+    re-read.
 sources: []
 relations: []
 author: Brent D. Shaw
@@ -27,8 +27,8 @@ rights_status: in-copyright; never vendored, consultation-only. This row sits ab
   rests on the Registry row's own Verification Note directly, not on SS3's categorical rule. Cited and
   consulted by this build, never quoted as licensed vendored material.
 attribution_status: attributed
-discovery_channel: the sibling Donatism build's own Registry, row 24 / 2026-09-01. Relied on rather than
-  independently re-verified here.
+discovery_channel: the sibling Donatism build's own Registry, row 24. Relied on rather than independently
+  re-verified here.
 external_ids:
   lpc_source_registry_row: 36
 ---

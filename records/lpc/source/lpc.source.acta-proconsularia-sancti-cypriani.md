@@ -20,18 +20,16 @@ sources: []
 relations: []
 author: An unnamed imperial notary or court recorder
 work: Acta Proconsularia Sancti Cypriani (the official trial record of Cyprian's own martyrdom, 258)
-edition: No independent edition or URL was ever located under this row's own number. Now vendored inside
-  row 194 -- Hartel's CSEL 3 Pars III includes the Acta Proconsularia immediately after the Vita (pp.
-  CX-CXIV of the printed volume), as cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt
+edition: 'No independent edition or URL was ever located under this row''s own number. Vendored inside
+  row 194: Hartel''s CSEL 3 Pars III includes the Acta Proconsularia immediately after the Vita (pp. CX-CXIV
+  of the printed volume), as cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt'
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
-  read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
-  own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
-  a rights re-check by this compilation pass.
+  read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
+  check (Source_Acquisition_Manifest.md SS1).
 attribution_status: documentary -- an official trial record, distinct in genre from Pontius's hagiographic
   Life (row 7); attested only inside row 194's larger vendored file, with no independent transmission
   of its own named anywhere in this Registry.
-discovery_channel: builder-prior-knowledge / field knowledge / 2026-09-01; resolved by G1's own Pars III
-  fulfillment, independently confirmed present at pp. CX-CXIV / 2026-09-08.
+discovery_channel: builder-prior-knowledge / field knowledge; independently confirmed present at pp. CX-CXIV.
 external_ids:
   lpc_source_registry_row: 41
 ---

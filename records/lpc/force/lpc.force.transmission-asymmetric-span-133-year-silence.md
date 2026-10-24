@@ -11,10 +11,11 @@ confidence:
   citation_specificity: A
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
-  formation_confidence: Documented
-  divergence_note: 'Doc_08 §3 Force 3B-2: Documented as a fact about the record itself, checkable against
-    the Registry -- no primary source named at Doc_02 §1 and no Registry row dates from within the 133-year
-    gap. Layer 2''s own sentence on how the inheritance was received carries the Reported-Experience Status
+  formation_confidence: Contested
+  divergence_note: 'Doc_08 §3 Force 3B-2: the silence claim is Contested -- no surviving voice continuous
+    with Cyprian''s ordinary-pastoral mode, from within this world''s boundary, that this build has assessed
+    dates from within the 133-year gap. Nine tractatus in Morin 1917 are not yet assessed (OG-54). The uneven
+    attestation of the span is Documented, a fact about the record checkable against the Registry. Layer 2''s own sentence on how the inheritance was received carries the Reported-Experience Status
     marker (Constitution Article 17; Forces Framework §3): reported as the world''s own self-understanding,
     not assessed for historical accuracy.'
 sources: []
@@ -27,9 +28,13 @@ name: 'Transmission: an Unevenly Attested Span and a 133-Year Silence'
 kind: ending
 description: >-
   This world's closing decades are much better attested than its opening ones. Between its two phases
-  lies a silence of roughly 133 years, from Cyprian's martyrdom to Augustine's ordination. No primary
-  source in our own record, and no text in our own source catalogue, dates from within that gap. This is a
-  documented fact about the record itself, and anyone can check it against the catalogue.
+  lies a silence of roughly 133 years, from Cyprian's martyrdom to Augustine's ordination. No surviving
+  voice continuous with Cyprian's ordinary pastoral mode, from within this world's boundary, that this
+  build has assessed dates from within that gap. Nine tractatus in Morin 1917, one titled in a manuscript
+  as a sermon of Optatus of Milevis, are not yet assessed. Some texts in our own source catalogue do date from it or record its events, such as
+  Optatus's polemic, the council canons and imperial law, and none of them is that voice. The silence claim is contested
+  for that reason. The uneven attestation is a documented fact about the record itself, and anyone can
+  check it against the catalogue.
 
 
   Augustine does not receive Cyprian through a chain of teachers who knew him. He receives a set of
@@ -62,9 +67,9 @@ description: >-
   span of the record rather than its content.
 manifestations:
 - the roughly 133-year gap between Cyprian's martyrdom (258) and Augustine's ordination (391), from which
-  no named primary source or catalogued text dates
+  no ordinary-pastoral voice of this world that this build has assessed survives
 - Augustine reading and arguing with Cyprian's own council acts and letters as a text to be weighed, not
   a custom carried by living memory
 matrix_cell: 3B
 ---
-Re-derived from the approved Doc_08 §3 Force 3B-2 (Cell 3B, Ending/Internal; Transmission dimension). relations[] carries only the force<->force edges (2B-4, 2B-5) named above -- deliberately no gravity<->force edge, matching Force 2B-5's own identical disposition. sources[] is deliberately empty -- this force's own evidentiary base is a fact about the absence of dated Registry rows in an interval, not a citable vendored text making a claim; see this script's own docstring, THREE DISCLOSED EMPTY-SOURCES CASES.
+Taken from Doc_08 §3 Force 3B-2 (Cell 3B, Ending/Internal; Transmission dimension). relations[] carries only the force<->force edges (2B-4, 2B-5) named above -- deliberately no gravity<->force edge, matching Force 2B-5's own identical disposition. sources[] is deliberately empty -- this force's own evidentiary base is the absence, so far as assessed, of this world's own pastoral voice in an interval, not a citable vendored text making a claim.

@@ -13,8 +13,7 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: 'Doc_04 §3 Candidate 6: no divergence. Both positions directly quoted and independently
-    re-verified across Doc_01''s nine review rounds (On Baptism I.1.2; the 256 preface; Book III ch. 2
-    §2).'
+    re-verified (On Baptism I.1.2; the 256 preface; Book III ch. 2 §2).'
 sources:
 - source_id: lpc.source.cyprian-epistles
   locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
@@ -95,4 +94,4 @@ manifestations:
 - the Epistles' correspondence on rebaptism, and the rupture between Stephen and Cyprian
 classification: primary
 ---
-Re-derived from the approved Doc_04 §3 (Candidate 6), with the 2B-1 asymmetry independently re-verified against Doc_08 §5's own G6 entry, which examines and confirms it at length: the connection is real, not the symmetry it might appear to be. relations[] carries the gravity<->gravity edges (G1, G2, G3, G5) and the gravity<->force edges (2A-3, 2B-1, 2B-4) named above.
+Taken from Doc_04 §3 (Candidate 6), with the 2B-1 asymmetry independently re-verified against Doc_08 §5's own G6 entry, which examines and confirms it at length: the connection is real, not the symmetry it might appear to be. relations[] carries the gravity<->gravity edges (G1, G2, G3, G5) and the gravity<->force edges (2A-3, 2B-1, 2B-4) named above.

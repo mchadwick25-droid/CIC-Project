@@ -54,49 +54,52 @@ time_window:
   end: 430
 horizon: >-
   The formation of ordinary Latin North African Christianity, c. 246-430 CE. Here Christianity is
-  lived as territorial, congregational, pastoral life under a bishop's office. Two bishops hold it together.
+  lived as the life of a local congregation, in its own territory, under a bishop's care. Two bishops hold it together.
   Cyprian of Carthage led his church through the Decian persecution, plague, and schism as a working bishop
   (248/249-258). A century later, Augustine of Hippo preached, taught those preparing for baptism,
   and gave the sacraments to his own congregation (391/395-430).
 
 
-  What bounds this world is two bishops' ordinary care of an entire local flock. It is not bounded
-  by one continuous institutional story across the century between them.
+  What bounds this world is two bishops' ordinary care of a whole local flock. It is not bounded
+  by one unbroken story of the church across the century between them.
 
 
   This is a world of ordinary pastors and their own congregations. It is not a world of courts, or
-  of councils called to settle jurisdiction across the empire. Nor is it a world of ascetics who
-  withdraw from congregational life. Its way of forming people is pastoral and sacramental before it
-  is legal.
+  of councils called to settle who rules where across the empire. Nor is it a world of ascetics who
+  withdraw from the life of the congregation. It forms people first through pastoral care and the
+  sacraments, and only after that through law.
 
 
   Carthage was the metropolitan see of Africa Proconsularis. Through most of this world's span it was
-  the most populous Latin Christian city outside Rome.
+  the largest Latin Christian city outside Rome.
 
 
-  Hippo Regius was a substantial port city. In civil terms it is usually placed
-  in Africa Proconsularis, but in church terms it was Numidian. So Augustine was a provincial
-  bishop, answerable within a different provincial structure from Carthage, the primate's see. Even
+  Hippo Regius was a large port city. In civil terms it is usually placed
+  in Africa Proconsularis, but in church terms it was Numidian. So Augustine was a bishop of another
+  province. He answered within a different church structure from Carthage, the primate's see. Even
   so, he attended the wider African councils that Carthage led.
 
 
   The world begins with Cyprian's conversion and his rise to be bishop of Carthage (c. 246-249). The
   congregation acclaimed him, over the recorded opposition of five presbyters. The world closes with
   Augustine's death at Hippo on 28 August 430, during the Vandal siege of the city. That siege was a
-  real break in this world's life, of the same kind as the one that opens it. It is not merely a
-  convenient end to one man's lifespan.
+  real break in this world's life, of the same kind as the one that opens it. It is not just a
+  handy end to one man's life.
 
 
-  The century between the two bishops (258-391) is a genuine silence in this world's own record. It
-  is not a general lack of evidence about the period. That century is richly attested, but almost
-  entirely through sources that belong to Donatism, not to this world's own surviving voice.
+  The century between the two bishops (258-391) is a silence in this world's own record. That holds
+  for what this build has read so far. Nine sermons in Morin's 1917 edition may come from those years.
+  A manuscript names one of them as a sermon of Optatus. They are not yet read, so the claim of
+  silence stays open to doubt. It is not a general lack of evidence about the period. That century is
+  richly attested, but almost entirely through sources that belong to Donatism, not to this world's
+  own surviving voice.
 
 
   The two bishops' eras form one strand, not two. They share the same emphasis in formation, the
-  same practice, and the same orientation to the world around them. Real and substantial differences
-  in authority do separate them. One is how far a bishop could use coercion against a rival
-  hierarchy. Another is whether a rival consecration was sacramentally valid. A third is their
-  theory of what councils can decide, and that one is held open rather than fully settled.
+  same practice, and the same stance toward the world around them. Real differences in authority do
+  separate them. One is how far a bishop could use compulsion against a rival church. Another is whether
+  a rival's ordination of a bishop was valid as a sacrament. A third is what councils can decide, and
+  that one is held open rather than fully settled.
 
 
   But none of these differences clearly touches a bishop's ordinary authority over his own flock.
@@ -110,14 +113,10 @@ horizon: >-
 
 
   This tradition is still living, but it has no single named heir. Its core is an ordinary bishop's
-  territorial, sacramental, congregational care of a local flock. That is close to how most historic
-  Christian communions understand parish or diocesan ministry, wherever they kept the office of
-  bishop or pastor at all. It is ancestral to the Western church before that church divided. It is
-  not a claim that belongs to one see's own line of succession.
-
-
-  This world is not a movement with a founding break to tell. It experiences itself as the ordinary
-  church.
+  care of a local flock, in one place, through the sacraments and the gathered congregation. That is
+  close to how most historic Christian churches understand the work of a parish or a diocese, wherever
+  they kept the office of bishop or pastor at all. It is ancestral to the Western church before that
+  church divided. It is not a claim that belongs to one see's own line of succession.
 formation_logic: >-
   What a person is actually formed into here is a member of a body that can hold them through their
   own failure.
@@ -237,7 +236,8 @@ thinness: >-
   trench.
 
 
-  The 133 years from 258 to 391 are a genuine silence in this world's own record. That silence must
+  The 133 years from 258 to 391 are a silence in this world's own record, so far as this build has
+  assessed it (Contested; nine tractatus in Morin 1917 are not yet assessed). That silence must
   never be filled from the neighbouring Donatist world, even though its sources do cover those
   years. Nor is the silence ever an occasion for commentary about what did or did not survive to be
   recorded.
@@ -254,11 +254,11 @@ thinness: >-
   so far answers.
 
 
-  The recorded acts of the 411 Conference, the Gesta, remain largely untapped. They are a live,
-  recorded route to Augustine's own voice among named Donatist bishops. He speaks in at least
-  thirteen numbered acts. In one more, he signs the mandate that sent the delegates. The Gesta sit
-  in this world's own collection, and they bear on the question of what councils can decide. We have
-  drawn on them for that one fact about his signature, and for nothing more.
+  The recorded acts of the 411 Conference, the Gesta, are kept for narrow, checkable facts. They are
+  not asked to settle what councils can decide. They are a recorded route to Augustine's own voice
+  among named Donatist bishops. He speaks in at least thirteen numbered acts. In one more, he signs
+  the mandate that sent the delegates. The Gesta sit in this world's own collection. We have drawn on
+  them for that one fact about his signature, and for nothing more.
 cautions: >-
   1) Resting on two bishops is a real limit, but it is not the Donatist problem. In the Donatist
   world, nearly the whole record comes through opponents; here, both bishops speak in this
@@ -268,8 +268,9 @@ cautions: >-
 
 
   2) The century gap (258-391) is Donatism's territory, not this world's. Never describe what
-  happened in those years from this world's own collection, which holds nothing dated inside them.
-  The Donatist schism is one of the historical pressures on this world. How to speak of Donatism as
+  happened in those years from this world's own collection. Its few texts from those years, such as
+  Optatus's polemic, the council canons and imperial law, record events but are not this world's own
+  pastoral voice, so far as assessed. The Donatist schism is one of the historical pressures on this world. How to speak of Donatism as
   an opponent is governed by a separate rule. It is never this world's own voice to borrow.
 
 
@@ -305,8 +306,7 @@ cautions: >-
 
   6) What councils can decide is held open, not settled. Cyprian's theory of authority among bishops
   is equal and non-coercive. Augustine's is hierarchical, and it holds that a council's judgment can
-  be corrected. These are real, substantial differences, and they are not considered fully closed. A
-  firm answer looks reachable from our own premises, but it has not been settled. The finding
+  be corrected. These are real, substantial differences, and they are not considered fully closed. The finding
   that the two bishops form one strand also carries a stated caveat: it could be reopened on exactly
   this point.
 
@@ -323,11 +323,11 @@ cautions: >-
   is not a claim about which world he actually belongs to.
 
 
-  9) The rich record of the 411 Conference does not widen what it can support. In thirteen numbered
-  acts, Augustine speaks among named Donatist bishops, and each act has been counted and quoted. But
-  we still date the Conference by its ordinary, undisputed dating, not by any reading of those acts.
-  The acts are available for later use. We draw one fact from them: in a fourteenth act, he signs
-  the mandate that sent the delegates.
+  9) The rich record of the 411 Conference does not widen what it can support. In at least thirteen
+  numbered acts, Augustine speaks among named Donatist bishops. Thirteen is a floor, not a count:
+  mid-line instances and heavier garblings were not counted. We still date the Conference by its
+  ordinary, undisputed dating, not by any reading of those acts. The acts are available for later
+  use. We draw one fact from them: in one more act, he signs the mandate that sent the delegates.
 
 
   10) The modern scholarly literature on this world has not been fully surveyed. Fourteen rounds of
@@ -336,10 +336,8 @@ cautions: >-
   not a substitute for doing it.
 
 
-  11) The record this compilation rests on was itself under independent review while this world was
-  being built, and that review has not yet returned. This compilation rests on the record as it read
-  at that time, not on a verdict that had not yet arrived. Any finding that review later returns
-  should be checked against these records before it is treated as settled.
+  11) The record this compilation rests on can change when a review returns a finding. Any such
+  finding should be checked against these records before it is treated as settled.
 
 
   12) A risk around shame and self-forgiveness sits at this world's table. Its emotional register is
@@ -406,26 +404,26 @@ thin_topics:
   - 258 to 391
   - what happened between Cyprian and Augustine
   - the documentary silence
-  note: A genuine 133-year silence in THIS world's own record, richly attested elsewhere only through
-    sources that are Donatism's own territory. Never fill this silence from the neighboring world's own
-    record, and never treat the silence itself as a subject for in-world commentary.
+  note: A 133-year silence in THIS world's own record, so far as assessed (Contested; nine tractatus in
+    Morin 1917 are not yet assessed), richly attested elsewhere only through sources that are Donatism's
+    own territory. Never fill this silence from the neighboring world's own record, and never treat the
+    silence itself as a subject for in-world commentary.
 - keywords:
   - liturgical rite's own form
   - what the baptism actually looked like
   - the penitential rite's own steps
   - worship as practiced rather than argued
   note: The works arguing this world's two anchor controversies presuppose, without independently describing,
-    the rite each argues about. This material has never been read specifically as liturgical evidence
-    -- named as the highest-value unblocked task in the build, not yet done.
+    the rite each argues about. This material has never been read specifically as liturgical evidence.
 - keywords:
   - conciliar authority
   - who could overrule a council
   - Cyprian versus Augustine on councils
-  note: 'A real, substantial, and disclosed disagreement Doc_01 does not consider fully settled and Doc_04
-    finds reachable-but-unrun on its own premises: Cyprian''s own egalitarian, non-coercive theory against
-    Augustine''s own hierarchical, correctable one.'
+  note: 'A real, substantial, and disclosed disagreement Doc_01 does not consider fully settled. Doc_04
+    classifies it Supporting by a decision made outside its six tests: Cyprian''s own egalitarian, non-coercive
+    theory against Augustine''s own hierarchical, correctable one.'
 ---
-WORLD_ID: `latin-pastoral-congregational-christianity`. This world has no entry in records/worlds.yaml at all, so no registry value is being contradicted; the slug matches cic/corpus-map/latin-pastoral-congregational-christianity.yaml's own `atlas_id`, which is the census movement id and the join key, so the record id prefix (`lpc`), the world_id, and the census join all read consistently. Registering the world in records/worlds.yaml is a later admission-track step, out of scope for this first record-authoring pass, exactly as it was for the sibling Donatism world compiled before this one.
+WORLD_ID: `latin-pastoral-congregational-christianity`. The slug matches cic/corpus-map/latin-pastoral-congregational-christianity.yaml's own `atlas_id`, which is the census movement id and the join key, so the record id prefix (`lpc`), the world_id, and the census join all read consistently. The world's registry entry is `records/worlds/lpc.yaml`.
 
 TIME_WINDOW: start 246, end 430. Doc_01's own beginning point is Cyprian's conversion and rise to the episcopate, "c. 246-249" as a single approximate range rather than don's own doubled 311/312 opening; the earlier boundary year is carried in the schema's own single integer, with the fuller two-to-three-year interval and the two bishops' own different conversion-to-office intervals stated in `horizon` instead of collapsed. The 430 close is Augustine's own death during the Vandal siege of Hippo -- Doc_01 SS2 argues it is a real ecological rupture of the same kind that opens this world, not merely a biographical endpoint, and `horizon` carries that argument rather than only the date.
 

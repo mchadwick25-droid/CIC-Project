@@ -23,15 +23,14 @@ work: The Epistles (82 letters, including letters TO Cyprian from Rome, Corneliu
   Firmilian of Caesarea)
 edition: Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
-  read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
-  own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
-  a rights re-check by this compilation pass.
+  read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
+  check (Source_Acquisition_Manifest.md SS1).
 attribution_status: attributed to Cyprian, though the corpus embeds letters by others (Cornelius, the
   Roman clergy, Firmilian, the confessors) under his own name, per the corpus map's own note on the whole
   body's attribution -- not every letter in it is demonstrably Cyprian's own composition.
-discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml / 2026-09-01;
-  direct verification against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, div3 id="iv.iv.xxxix",
-  "iv.iv.xx", "iv.iv.xxi" / 2026-09-01.
+discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml; direct
+  verification against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, div3 id="iv.iv.xxxix", "iv.iv.xx",
+  "iv.iv.xxi".
 external_ids:
   lpc_source_registry_row: 1
 ---

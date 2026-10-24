@@ -1661,7 +1661,7 @@
    "glyph": "sel",
    "statusWord": "Chosen — not yet built",
    "statusDescription": "One of the traditions chosen for its era after a completed survey. Construction has not begun.",
-   "living": false,
+   "living": true,
    "overlayCurrent": false,
    "c2": null,
    "sourcing": "Rich (Cyprian's letters, Augustine's sermons to his own flock)",

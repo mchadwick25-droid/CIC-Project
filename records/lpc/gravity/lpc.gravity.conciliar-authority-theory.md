@@ -12,9 +12,8 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: contested
   formation_confidence: Inferential-Thin
-  divergence_note: 'Doc_04 §3 Candidate 5: divergence flagged, not resolved -- the sharpest such divergence
-    in this document. Existence of both formulas, in their own words, reaches Documented (directly quoted
-    and re-verified across Doc_01''s nine rounds); the evidential support for their ORGANIZING BREADTH
+  divergence_note: 'Doc_04 §3 Candidate 5: divergence flagged, not resolved. Existence of both formulas,
+    in their own words, reaches Documented (directly quoted and re-verified); the evidential support for their ORGANIZING BREADTH
     does not reach the same level, this candidate''s six-test profile being narrow throughout and Persistence
     failing at world level on a disclosed search bound -- carried at the more conservative Inferential-Thin
     tier as this record''s own top-line rating rather than the bare-existence Documented tier, per this
@@ -59,9 +58,10 @@ description: >-
   "plenary" occurs 31 times in that treatise.
 
 
-  A real limit sits here too, and it should be said plainly. Each theory is attested at only one place in each bishop's
-  writings. Cyprian's formula appears once, at length, in the 256 preface. Augustine's recurs within
-  On Baptism but is not restated in any second work of his drawn on here.
+  A real limit sits here too. In the texts weighed, each theory is attested at only one place in each
+  bishop's writings. Cyprian's formula appears once, at length, in the 256 preface. Augustine's recurs
+  within On Baptism. He also speaks of plenary Councils in two of his letters, Letter 43, section 19,
+  and Letter 54, section 1. Those two passages were found and were not weighed in the six tests.
 
 
   Its reach is narrow in every direction. Only one finding depends on it: that the world forms a single
@@ -72,7 +72,7 @@ description: >-
   validity, and weakly with pastoral office.
 
 
-  It does not carry across the whole world. Within what has been read, neither bishop's theory is
+  It does not carry across the whole world. Within the texts weighed, neither bishop's theory is
   visible outside its one source. This is a limit of the search so far, not a proven absence. It runs
   thin across the whole span, not confined to one phase. It appears in both phases, at one source each
   -- between two bishops, at two moments separated by over a century. That sets it apart from grace and
@@ -82,12 +82,11 @@ description: >-
   The uncertainty here is disclosed, not resolved. That both formulas exist, in their own words, is
   solidly attested. The evidence that they organized much of the world is much weaker. How central a
   concern is, and how confident we can be in the evidence, are two separate things, and here they
-  diverge. So the record stays cautious about how central this actually is. The 411 Gesta, the
-  proceedings of that year, remain unread and have not reopened the question. It remains open.
+  diverge. So the record stays cautious about how central this is. We do not ask the 411 Gesta,
+  the proceedings of that year, to settle it. They have not been read in full.
 
 
-  Of everything in this world, this concern connects least to the forces acting on it, and that is
-  stated plainly rather than padded. It links to the council setting of the organized Carthaginian
+  Of everything in this world, this concern connects least to the forces acting on it. It links to the council setting of the organized Carthaginian
   church. It links to the Donatist appeal that supplied the occasion, and to Augustine's engagement
   with Cyprian's conciliar acts. But each of these reaches it only through someone quoting a text, not
   through pressure on how the church actually lived. That fits the finding that the question never
@@ -103,4 +102,4 @@ manifestations:
   word "plenary" occurs 31 times in the treatise)
 classification: supporting
 ---
-Re-derived from the approved Doc_04 §3 (Candidate 5), matching this record's own body text to Doc_04 §5's careful distinction between this candidate and Candidate 7 (phase-bound) rather than collapsing the two Persistence failures into one shape. relations[] carries the gravity<->gravity edges (G1, G3, G6) and the gravity<->force edges (1B-1, 2A-3, 2B-4) named above. See this script's own docstring, 'G5'S OWN JUDGMENT CALL,' for why this record states the project-lead-ruling provenance directly rather than presenting Supporting as this document's own settled verdict.
+Taken from Doc_04 §3 (Candidate 5). The body follows Doc_04 §5 in keeping this candidate distinct from Candidate 7 (phase-bound) rather than collapsing the two Persistence failures into one shape. relations[] carries the gravity-to-gravity edges (G1, G3, G6) and the gravity-to-force edges (1B-1, 2A-3, 2B-4) named above. The Supporting class rests on a decision made outside the six-test evidence, and is not presented as a settled verdict of the tests.

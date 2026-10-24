@@ -14,10 +14,10 @@ confidence:
   divergence_note: 'Confidence A covers two things: a body-level characterization of all 138 letters (''ordinary
     episcopal correspondence... friendship'') and four specifically located letters (XXXI, CCXIII, CXXVI,
     CCXI), all four directly re-verified against source. The general characterization of the other 134
-    is NOT independently checked -- named as an open question for a future review round rather than resolved
-    by this row''s own say-so, the same shape of reasoning row 3 already carries for its own Confidence
-    B. Letter XXXI SS4 and Letter CCXIII SS4 ground Doc_01''s own ordination account; Letters CXXVI and
-    CCXI ground Doc_02 SS6''s Article 20 discharge.'
+    is NOT independently checked -- named as an open question rather than resolved by this row''s own
+    say-so, the same shape of reasoning row 3 already carries for its own Confidence B. Letter XXXI SS4
+    and Letter CCXIII SS4 ground Doc_01''s own ordination account; Letters CXXVI and CCXI ground Doc_02
+    SS6''s Article 20 discharge.'
 sources: []
 relations: []
 author: Augustine of Hippo
@@ -28,13 +28,11 @@ work: 'Letters -- the general correspondence (138 of the vendored volume''s own 
   letters (CSEL 88, 1981; row 49), not represented here'
 edition: Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
-  read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
-  own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
-  a rights re-check by this compilation pass.
+  read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
+  check (Source_Acquisition_Manifest.md SS1).
 attribution_status: attributed
-discovery_channel: 'corpus map / cic/corpus-map/_staging/npnf101_augustine-confessions-letters.yaml /
-  2026-09-01; Letters XXXI, CCXIII, CXXVI, CCXI: direct text search and read against cic/texts/npnf101_augustine-confessions-letters.xml
-  / 2026-09-01.'
+discovery_channel: 'corpus map / cic/corpus-map/_staging/npnf101_augustine-confessions-letters.yaml; Letters
+  XXXI, CCXIII, CXXVI, CCXI: direct text search and read against cic/texts/npnf101_augustine-confessions-letters.xml.'
 external_ids:
   lpc_source_registry_row: 11
 ---

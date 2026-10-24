@@ -11,9 +11,8 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: Not independently re-collated this session. Row 200's own Latin vendoring is NOT a
-    modern critical edition (CSEL 80 is, and is confirmed in copyright) -- disclosed there rather than
-    treated as equivalent.
+  divergence_note: Not independently re-collated. Row 200's own Latin vendoring is NOT a modern critical
+    edition (CSEL 80 is, and is confirmed in copyright) -- disclosed there rather than treated as equivalent.
 sources: []
 relations: []
 author: Augustine of Hippo
@@ -22,9 +21,9 @@ edition: Nicene and Post-Nicene Fathers, Series I, vol. II, vendored as cic/text
   the Latin original (Bruder's 1838 Maurist-text edition) is separately vendored as row 200
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
-  own specific locus being independently re-collated this pass.'
+  own specific locus being independently re-collated.'
 attribution_status: attributed
-discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml / 2026-09-01.
+discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml.
 external_ids:
   lpc_source_registry_row: 16
 ---

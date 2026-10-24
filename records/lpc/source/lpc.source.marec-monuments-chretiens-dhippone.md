@@ -13,7 +13,7 @@ confidence:
   formation_confidence: Widely Accepted
   divergence_note: Flagged for priority second-opinion review before it supports any specific claim. Row
     188 (Laporte, 2015) is a later, sharper challenge to this excavation's own identification of the Hippo
-    Regius basilica -- neither has been re-read this session.
+    Regius basilica -- neither has been re-read.
 sources: []
 relations: []
 author: Erwan Marec
@@ -27,7 +27,7 @@ rights_status: in-copyright; never vendored, consultation-only, per Source_Acqui
   primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build,
   never quoted as licensed vendored material.
 attribution_status: attributed
-discovery_channel: WebSearch this session (library catalogue records) / 2026-09-02.
+discovery_channel: WebSearch (library catalogue records).
 external_ids:
   lpc_source_registry_row: 63
 ---

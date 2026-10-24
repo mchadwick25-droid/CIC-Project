@@ -11,9 +11,9 @@ confidence:
   verification_state: named-not-rechecked
   evidentiary_weight: illustrative
   formation_confidence: Widely Accepted
-  divergence_note: A direct check this round confirmed Sermon 299/D (row 171's own candidate) is not present
-    in this world's vendored NPNF corpus or the corpus map; this row names where the primary text would
-    have to come from if this world's construction ever needs it.
+  divergence_note: A direct check confirmed Sermon 299/D (row 171's own candidate) is not present in this
+    world's vendored NPNF corpus or the corpus map; this row names where the primary text would have to
+    come from if this world's construction ever needs it.
 sources: []
 relations: []
 author: Germain Morin (editor); Augustine of Hippo (author)
@@ -27,7 +27,7 @@ rights_status: in-copyright; never vendored, consultation-only, per Source_Acqui
   primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build,
   never quoted as licensed vendored material.
 attribution_status: attributed to Morin as editor, Augustine as author
-discovery_channel: WebSearch / 2026-09-02.
+discovery_channel: WebSearch.
 external_ids:
   lpc_source_registry_row: 189
 ---

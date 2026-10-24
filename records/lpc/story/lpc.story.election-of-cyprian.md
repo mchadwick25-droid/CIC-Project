@@ -30,7 +30,7 @@ retrieval:
   - conversation reaches the pastoral office or collegial communion
   prefer_instead:
   - participant asks specifically about martyrdom or the end of Cyprian's own life -- ask about the death
-    of Cyprian instead, which is differently tiered
+    of Cyprian instead
   - participant asks about modern church governance or ordination procedure, which this account cannot
     speak to
 claim_guards: []
@@ -78,4 +78,4 @@ modern_contrast: A modern listener may hear 'the people chose him' as describing
   and a count. We had none of that. What we had was a crowd whose favour we treated as evidence of God's
   own judgment, and a man who did not want the office in the first place.
 ---
-Mapped directly from Story-Chunks/lpcstory001_election-of-cyprian.md's own Story Text, Tier Justification and Usage Guidance sections, recast from third-person report into this world's own first-person register (see script docstring, REGISTER). The core quotation ('by the judgment of God and the favour of the people... a neophyte') is independently re-located this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 27820 (the word 'neophyte' itself) and the surrounding lines through 27823 -- verification_state held at verified-direct on that basis. Ep. LXVII's own corroborating locus is carried from the chunk's own Tier Justification and not independently re-opened this session (its own quoted phrase, 'suffrage of the whole brotherhood', was located this session at the same vendored file, confirmed present); the closing sentence's own second reference to Cyprian's own words in Ep. XXXIX is this record's own addition, connecting forward to lpc.quote.ancient-venom-against-my-episcopate (see QUOTE SET), and is not itself in the Story-Chunk.
+Derived from Story-Chunks/lpcstory001_election-of-cyprian.md, recast from third-person report into first-person register. The core quotation ('by the judgment of God and the favour of the people... a neophyte') is at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 27820 (the word 'neophyte') and the lines through 27823. The phrase 'suffrage of the whole brotherhood' from Ep. LXVII is present in the same file. The closing sentence's second reference to Cyprian's own words in Ep. XXXIX is this record's own addition, connecting to lpc.quote.ancient-venom-against-my-episcopate, and is not in the chunk.

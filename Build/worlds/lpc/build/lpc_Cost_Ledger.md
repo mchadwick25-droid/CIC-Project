@@ -84,3 +84,15 @@ Complete for pilot worlds only.
 | Sonnet 5.5 meets the Craft bar | yes / no |
 | Fable 5.1 tokens spent on Doc_10 | |
 | Sonnet 5.5 tokens spent on Doc_10 | |
+
+## Phase L0 item A, 2026-10-23
+
+| Check | Opus 5.5 tokens (harness count) | Metered dollars |
+|---|---|---|
+| Doc_04 carried-open check | 182,209 | none |
+| Doc_08 generator check | 199,978 | none |
+| Doc_02 and Source Registry check | 235,280 | none |
+| Docs 03, 05, 06, 07 recheck | 180,749 | none |
+| Total | 798,216 | none |
+
+/usage before and after: not read (not available to the build thread; requested from the project lead, who answered "no limit").

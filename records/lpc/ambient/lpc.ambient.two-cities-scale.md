@@ -30,4 +30,4 @@ detail: Our whole life is lived in two cities, a century and a half apart. The f
   though its own bishop sat in the same wider councils.
 formation_claim_barred: true
 ---
-World Capsule Core §'The World You Inhabit', read in full this session. States only the visible, physical/geographic shape of the two sees -- the doctrinal significance of the two-phase structure is already fully stated at lpc.gravity.pastoral-office-flock-keeping and throughout this world's own build record. canon_cells: [] and relations: [], matching don's own three ambient records' identical precedent for a bare physical scene-setting fact.
+World Capsule Core §'The World You Inhabit', read in full. States only the visible, physical/geographic shape of the two sees -- the doctrinal significance of the two-phase structure is already fully stated at lpc.gravity.pastoral-office-flock-keeping and throughout this world's own build record. canon_cells: [] and relations: [], matching don's own three ambient records' identical precedent for a bare physical scene-setting fact.

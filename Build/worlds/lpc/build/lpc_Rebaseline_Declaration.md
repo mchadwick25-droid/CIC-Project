@@ -10,13 +10,34 @@ Ruling: `Build/Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md`, ent
 |---|---|---|---|
 | Step0 | review-round-cap | review files: 5 | Approved to proceed under the earlier process; the project lead accepts the approval history (ruling of 2026-09-29). |
 | Step0 | verdict-wording | review files: 5; latest verdict: CLEARED | Older approval wording; the project lead accepts it as an approval to proceed (ruling of 2026-09-29). |
-| Doc_01 | review-round-cap | review files: 9 | Approved to proceed under the earlier process, past three rounds on the project lead's direct instruction; accepted (ruling of 2026-09-29). |
-| Doc_01 | verdict-wording | review files: 9; latest verdict: CLEARED | Older approval wording; accepted as an approval to proceed (ruling of 2026-09-29). |
-| Doc_02 | review-round-cap | review files: 30 | Approved to proceed under the earlier process; the round count is accepted, the return-to-review of 2026-09-13 is checked in Phase L0 (ruling of 2026-09-29). |
-| Doc_02 | verdict-wording | review files: 30; latest verdict: CLEARED | Older approval wording; accepted as an approval to proceed (ruling of 2026-09-29). |
-| Doc_04 | review-round-cap | review files: 11 | Approved to proceed by the project lead's direct instruction after more than three rounds; the carried-open findings are checked in Phase L0 (ruling of 2026-09-29). |
-| Doc_08 | review-round-cap | review files: 8 | Approved to proceed under the earlier process; the generator findings are checked in Phase L0 (ruling of 2026-09-29). |
+| Doc_01 | review-round-cap | review files: 12 | Approved to proceed under the earlier process, past three rounds on the project lead's direct instruction; accepted (ruling of 2026-09-29; count amended 2026-10-23, see the amendment below). |
+| Doc_01 | verdict-wording | review files: 12; latest verdict: CLEARED | Older approval wording; accepted as an approval to proceed (ruling of 2026-09-29). |
+| Doc_02 | review-round-cap | review files: 35 | Approved to proceed under the earlier process; the round count is accepted, the return-to-review of 2026-09-13 is checked in Phase L0 (ruling of 2026-09-29; count amended 2026-10-23). |
+| Doc_02 | verdict-wording | review files: 35; latest verdict: CLEARED | Older approval wording; accepted as an approval to proceed (ruling of 2026-09-29). |
+| Doc_04 | review-round-cap | review files: 13 | Approved to proceed by the project lead's direct instruction after more than three rounds; the carried-open findings are checked in Phase L0 (ruling of 2026-09-29; count amended 2026-10-23). |
+| Doc_08 | review-round-cap | review files: 10 | Approved to proceed under the earlier process; the generator findings are checked in Phase L0 (ruling of 2026-09-29; count amended 2026-10-23). |
 | Doc_09 | review-round-cap | review files: 8 | Approved to proceed under the earlier process; the round count is accepted (ruling of 2026-09-29). |
+
+## Amendment of 2026-10-23: files added to the counts
+
+Ruling: the project lead, 2026-10-23, in the `lpc` build thread (`Build/worlds/lpc/lpc_Decision_Log.md`, entry "Rebaseline declaration amended"). The counts above now include these files, accepted by name. Each is an independent re-confirmation or a correction verification, not a revision round.
+
+| Document | File | Why it counts here |
+|---|---|---|
+| Doc_01 | `Review-Artifacts/Doc01_Correction_Propagation_Verification_2026-09-16.md` | Correction verification of 2026-09-16, before the declaration; missed in its count |
+| Doc_01 | `Review-Artifacts/Doc01_Correction_Verification_Round2_2026-09-16.md` | The same, second verification |
+| Doc_01 | `Review-Artifacts/Doc01_Correction_Verification_Round3_2026-09-16.md` | The same, third verification |
+| Doc_02 | `Review-Artifacts/Doc02_Directed_Corrections_Recheck_2026-09-29.md` | Phase L0 re-confirmation |
+| Doc_02 | `Review-Artifacts/Doc02_Returned_Review_Independent_Check_2026-09-29.md` | Phase L0 re-confirmation |
+| Doc_02 | `Review-Artifacts/Doc02_Targeted_Recheck_2026-09-29.md` | Phase L0 re-confirmation |
+| Doc_02 | `Review-Artifacts/Doc02_Registry_Rulings_Recheck_2026-09-30.md` | Phase L0 re-confirmation |
+| Doc_02 | `Review-Artifacts/L0_Doc02_Registry_Check_2026-10-23.md` | Phase L0 re-confirmation |
+| Doc_04 | `Review-Artifacts/Doc04_Independent_Check_2026-09-29.md` | Phase L0 re-confirmation |
+| Doc_04 | `Review-Artifacts/L0_Doc04_Carried_Open_Check_2026-10-23.md` | Phase L0 re-confirmation |
+| Doc_08 | `Review-Artifacts/Doc08_Round9_Targeted_Check_2026-09-29.md` | Phase L0 re-confirmation |
+| Doc_08 | `Review-Artifacts/L0_Doc08_Generator_Check_2026-10-23.md` | Phase L0 re-confirmation |
+
+Doc_08's coming recheck is covered by the Cap ruling of 2026-10-23 in the System Hub Decision Log, not by this declaration.
 
 ## Findings carried open and how each will be checked
 

@@ -48,4 +48,4 @@ manifestations:
 - De Mortalitate, Cyprian's own treatise directly addressing the plague of c. 249-262
 matrix_cell: 2A
 ---
-Re-derived from the approved Doc_08 §3 Force 2A-2 (Cell 2A, Ongoing/External). relations[] carries only the gravity<->force edges (G1, G4) named above -- deliberately NO force<->force edge, per Doc_08 §4's own explicit 'deliberately isolated' finding for this force, named rather than silently applied, matching don's own F3A-2/2A-2-equivalent precedent for a disclosed non-connection.
+Taken from Doc_08 §3 Force 2A-2 (Cell 2A, Ongoing/External). relations[] carries only the gravity<->force edges (G1, G4) named above -- deliberately NO force<->force edge, per Doc_08 §4's own explicit 'deliberately isolated' finding for this force, named rather than silently applied, matching don's own F3A-2/2A-2-equivalent precedent for a disclosed non-connection.

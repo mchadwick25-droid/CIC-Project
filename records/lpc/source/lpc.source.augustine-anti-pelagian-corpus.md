@@ -11,8 +11,8 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: Not independently re-collated this session across the thirteen grouped works; double-assigned
-    to pelagianism for twelve of them.
+  divergence_note: Not independently re-collated across the thirteen grouped works; double-assigned to
+    pelagianism for twelve of them.
 sources: []
 relations: []
 author: Augustine of Hippo
@@ -24,12 +24,12 @@ work: 'Anti-Pelagian corpus, thirteen works, c. 412-429: On the Merits and Forgi
 edition: Nicene and Post-Nicene Fathers, Series I, vol. V, vendored as cic/texts/npnf105_augustine-anti-pelagian-writings.xml
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
-  own specific locus being independently re-collated this pass.'
+  own specific locus being independently re-collated.'
 attribution_status: 'attributed for twelve of the thirteen; the thirteenth, On the Soul and its Origin,
   carries the corpus map''s own confidence: provisional flag -- ''Not addressed to Pelagians... the doubt
   is whether the pelagianism id should stand; latin-pastoral-congregational-christianity is not in doubt,''
   a doubt this row carries rather than rounds away.'
-discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml / 2026-09-01.
+discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml.
 external_ids:
   lpc_source_registry_row: 23
 ---

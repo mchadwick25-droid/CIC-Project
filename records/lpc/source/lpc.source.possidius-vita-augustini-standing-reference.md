@@ -11,24 +11,20 @@ confidence:
   verification_state: named-not-rechecked
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: Named in Doc_01 SS5 as 'not vendored in this corpus' at this row's own original drafting
-    -- the source of NPNF's own editorial note on the Megalius/primate-of-Numidia identification. Now
-    vendored under row 192, and read in full (all thirty-one chapters, Review-Artifacts/Possidius_Full_Read_2026-09-16.md)
-    -- this row is the standing reference to the work, row 192 the fulfillment record.
+  divergence_note: The source of NPNF's own editorial note on the Megalius/primate-of-Numidia identification.
+    Vendored under row 192, and read in full (all thirty-one chapters). This row is the standing reference
+    to the work; row 192 holds the vendored file.
 sources: []
 relations: []
 author: Possidius, bishop of Calama
 work: Sancti Augustini Vita (Life of Augustine)
-edition: Now vendored as row 192 (2026-09-05) -- this row is kept as the standing reference; row 192 carries
-  the actually-committed file, cic/texts/possidius_vita-augustini_weiskotten1919.txt
+edition: Vendored as row 192. This row is the standing reference; row 192 carries the vendored file, cic/texts/possidius_vita-augustini_weiskotten1919.txt
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
-  read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
-  own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
-  a rights re-check by this compilation pass.
+  read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
+  check (Source_Acquisition_Manifest.md SS1).
 attribution_status: attributed to Possidius, bishop of Calama and Augustine's own friend of nearly forty
   years
-discovery_channel: Doc_01 SS5's own disclosure / field knowledge / 2026-09-01; resolved by G3's own fulfillment
-  / 2026-09-05.
+discovery_channel: Doc_01 SS5's own disclosure / field knowledge.
 external_ids:
   lpc_source_registry_row: 45
 ---

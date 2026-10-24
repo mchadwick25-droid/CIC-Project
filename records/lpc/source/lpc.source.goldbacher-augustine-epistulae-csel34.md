@@ -23,11 +23,10 @@ work: S. Aureli Augustini Hipponiensis episcopi Epistulae, Pars I-II (Epistulae 
   and 34/2 (1898)
 edition: 'Pragae/Vindobonae/Lipsiae: F. Tempsky/G. Freytag; vendored as cic/texts/augustine_epistulae-1-123-lat_goldbacher-csel34.txt'
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
-  read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
-  own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
-  a rights re-check by this compilation pass.
+  read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
+  check (Source_Acquisition_Manifest.md SS1).
 attribution_status: attributed
-discovery_channel: Fable research agent (this session) / archive.org direct fetch / 2026-09-08.
+discovery_channel: archive.org direct fetch.
 external_ids:
   lpc_source_registry_row: 195
 ---

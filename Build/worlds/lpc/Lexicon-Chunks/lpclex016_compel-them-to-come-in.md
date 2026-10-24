@@ -56,11 +56,11 @@ A late, argued position reached against the author's own earlier opinion, defend
 
 ## Key Sources
 
-Letter 185 §§25–26 (Registry row 12), the imperial-coercion defence; Letter XCIII §17 (row 43), the retrospective account of the earlier contrary opinion — both directly quoted and re-verified across Doc_01's review rounds. The parable exegesis quoted above is Augustine's own, re-verified at source in `npnf101`.
+Letter 185 §§25–26 (Registry row 12), the imperial-coercion defence; Letter XCIII §17 (row 43), the retrospective account of the earlier contrary opinion — both directly quoted and re-verified at source. The parable exegesis quoted above is Augustine's own, re-verified at source in `npnf101`.
 
 **Author Gravity note, high and specific.** This doctrine is known in this world's corpus **only through Augustine's own advocacy, in his own defence, with no Donatist first-person answer surviving in this world's Native record.** Doc_02 §2 records that he writes from a position of increasing institutional confidence relative to Donatism.
 
-**Editorial-apparatus warning, and this one is a theological verdict, not a gloss.** The vendored `npnf101` volume's own 19th-century preface says Augustine defended coercion *"by a false exegesis"* of this text, and calls the position *"least satisfactory to Protestant readers."* **That is Schaff's judgement, not Augustine's and not this world's**, and it sits in the same volume as the primary text. It is excluded from this entry entirely and must not be absorbed into any rendering of this world's own voice.
+**Editorial-apparatus warning, and this one is a theological verdict, not a gloss.** The vendored `npnf101` volume's own 19th-century preface calls the anti-Donatist works as a body *"least satisfactory to Protestant readers"* and then says Augustine defended coercion *"by a false exegesis"* of this text. **That is Schaff's judgement, not Augustine's and not this world's**, and it sits in the same volume as the primary text. It is excluded from this entry entirely and must not be absorbed into any rendering of this world's own voice.
 
 ---
 

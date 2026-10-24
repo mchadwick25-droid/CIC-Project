@@ -1,301 +1,163 @@
-"""B-5 (S2.1), lpc equivalent: Latin Pastoral-Congregational Christianity
-(`lpc`) gravity + force records.
+"""Latin Pastoral-Congregational Christianity (`lpc`): gravity and force records.
 
-WHAT THIS SCRIPT DOES. Converts this world's already-built, already-reviewed
-Gravity Discovery (Doc_04_Gravity_Discovery.md, Approved to proceed with
-escalation items carried open) and Forces Document (Doc_08_Forces_Document.md,
-Approved to proceed with portfolio-level items carried open) into
-record-native `gravity` and `force` records under records/lpc/gravity/ and
-records/lpc/force/, per the live schema (engine/m1/schemas.py) and gate
-battery (engine/m1/gates.py). This is the direct lpc equivalent of
-Build/worlds/don/scripts/wb_don_s25.py's own B-5 pass -- its MECHANICAL-
-vs-AUTHORED docstring discipline and RELATION_PAIRS closed-graph technique
-both carried over directly. TYPE_PROPERTIES/COMPLETION_REQUIRED for gravity
-and force are unchanged from what don's script used
-(name/description/manifestations/classification;
-name/kind/description/manifestations/matrix_cell), checked directly against
-engine/m1/schemas.py and engine/m1/gates.py rather than assumed from don's
-own script -- no schema drift found.
+Converts this world's Gravity Discovery (Doc_04_Gravity_Discovery.md) and Forces Document
+(Doc_08_Forces_Document.md) into record-native `gravity` and `force` records under
+records/lpc/gravity/ and records/lpc/force/, per the schema in engine/m1/schemas.py and the
+gates in engine/m1/gates.py. It uses the same method as
+Build/worlds/don/scripts/wb_don_s25.py: the MECHANICAL versus AUTHORED field split and the
+RELATION_PAIRS closed-graph technique. The required fields are the same as don's:
+name, description, manifestations, classification for gravity; name, kind, description,
+manifestations, matrix_cell for force.
 
-WHAT lpc'S OWN Doc_04/Doc_08 CONFIRM, checked directly rather than assumed
-from a prior summary of either document:
-  - Doc_04 §4 (Classification Summary) confirms EIGHT classified candidate
-    gravities: PRIMARY -- Candidate 1 (Pastoral Office as Flock-Keeping),
-    Candidate 2 (Penitential Discipline), Candidate 3 (Collegial Communion
-    Preserved), Candidate 6 (Sacramental/Ordination Validity); SUPPORTING --
-    Candidate 4 (Preaching and Catechesis), Candidate 5 (Conciliar Authority
-    Theory), Candidate 7 (Grace and Human Incapacity); TENSIONAL --
-    Candidate 8 (Confessor-Authority vs. Episcopal-Regulated Peace). Doc_08
-    §1 uses the short labels G1-G8 for these eight in Doc_04's own order and
-    with Doc_04's own classifications -- this script follows Doc_08's own
-    G1-G8 notation throughout, both in id slugs and in this docstring, and
-    states once, here, that G1-G8 map one-to-one onto Doc_04's Candidate
-    1-8 (never a re-numbering or a re-classification of this script's own).
-  - Doc_08 §3/§9 confirms SEVENTEEN identified forces across the six-cell
-    matrix (1A: 2, 1B: 3, 2A: 4, 2B: 5, 3A: 1, 3B: 2 = 17), cross-checked
-    directly against lpc_Force_Index.md §1's own Master Force Table (same
-    17 force IDs, same cells, same confidence tiers) before this script was
-    written. This script builds all 17.
+WHAT THE TWO DOCUMENTS FIX
+  - Doc_04 §4 (Classification Summary) classifies eight candidate gravities. PRIMARY:
+    Candidate 1 (Pastoral Office as Flock-Keeping), 2 (Penitential Discipline), 3 (Collegial
+    Communion Preserved), 6 (Sacramental/Ordination Validity). SUPPORTING: Candidate 4
+    (Preaching and Catechesis), 5 (Conciliar Authority Theory), 7 (Grace and Human
+    Incapacity). TENSIONAL: Candidate 8 (Confessor-Authority vs. Episcopal-Regulated Peace).
+    Doc_08 §1 labels them G1-G8 in Doc_04's order, so G1-G8 map one to one onto Candidates
+    1-8. This script uses the G1-G8 labels in ids and comments, and never renumbers or
+    reclassifies.
+  - Doc_08 §3 and §9 identify seventeen forces across the six-cell matrix (1A: 2, 1B: 3,
+    2A: 4, 2B: 5, 3A: 1, 3B: 2). lpc_Force_Index.md §1 lists the same 17 force ids, cells and
+    confidence tiers. This script builds all 17.
 
-lpc_Force_Index.md IS READ FOR ITS DERIVED TABLES ONLY, PER OG-3'S OWN
-DISCLOSED GAP. Open_Gaps_Tracking.md OG-3 discloses that gen_force_index.py
-(the Index's own generator, a different script from this one) has findings
-against it never independently re-reviewed. This script therefore treats the
-Index's own derived tables (§1 Master Force Table, §3 By Connected Gravity,
-§4 Cross-Cell Connection Map) as a cross-check against Doc_08's own prose --
-useful precisely because the generator computes each relation from Doc_08's
-own text mechanically and both this script and the generator were checked to
-agree -- but every RELATION_PAIRS edge below was verified against Doc_08 §4
-and §5's own prose directly, not copied from the Index alone, and every
-gravity classification/six-test finding below is drawn from Doc_04's own
-prose directly, never from the Index (which does not cover gravities' own
-six-test results at all -- only forces).
+lpc_Force_Index.md is a cross-check only. Open_Gaps_Tracking.md OG-3 records that
+gen_force_index.py, the Index's generator, has findings that have not been independently
+re-reviewed. The Index's derived tables (§1 Master Force Table, §3 By Connected Gravity, §4
+Cross-Cell Connection Map) serve as a check on Doc_08's prose. Every RELATION_PAIRS edge
+comes from Doc_08 §4 and §5 directly, and every gravity classification and six-test finding
+comes from Doc_04 directly. The Index does not cover gravities' six-test results at all.
 
-INPUTS, mapped to OUTPUTS, precisely:
-  - Doc_04_Gravity_Discovery.md §1-§2 (Candidate Generation; candidates
-    considered and not advanced), §3 (Per-Candidate Testing, all eight
-    subsections read in full), §4 (Classification Summary), §5 (Article 21
-    Status Check -- this world's own strand-singular, phase-testing
-    substitute discipline), §6 (Interaction Matrix), §7 (Open Items) -> the
-    8 `gravity` records below, one per classified candidate (G1-G8, Doc_04's
-    Candidate 1-8). classification is copied directly from Doc_04 §4's own
-    summary table (never re-derived, including Candidate 5's own
-    project-lead-ruled Supporting status, carried exactly as Doc_04 states
-    it -- see G5's OWN JUDGMENT CALL below); description carries each
-    candidate's own six-test verdict, Confidence/Gravity Cross-Check result,
-    and forces-connection summary, condensed from Doc_04's own prose.
-  - Doc_08_Forces_Document.md §1 (World Identification; the confirmed
-    gravity spine), §2 (Preliminary Forces Identification), §3 (the
-    six-cell matrix, all seventeen forces read in full, all three layers
-    each), §4 (Cross-Cell Connections, all fourteen named connections plus
-    the one deliberate non-connection at 2A-2), §5 (Forces-and-Gravities
-    Synthesis, both the gravity-by-gravity list and the Cross-Strand
-    Gravity Note), §7 (Confidence Assessment), §9 (Completion Certification)
-    -> the 17 `force` records below, one per force identified at §3.
-    matrix_cell is copied directly from each force's own cell heading
-    (1A/1B/2A/2B/3A/3B -- the schema enum's six fixed codes; Doc_08's own
-    prose label for cells 3A/3B, "Ending-Transforming," is carried in this
-    record's own body text, never in the matrix_cell field itself, which
-    the schema fixes to the shorter code); kind is derived mechanically
-    from the cell (1A/1B -> initiating, 2A/2B -> ongoing, 3A/3B -> ending).
-    description carries each force's own Layer 1 (Historical Event), Layer
-    2 (World's Own Experience), and Layer 3 (Formation Impact) content in
-    full, condensed from Doc_08's own prose.
-  - Build/worlds/lpc/scripts/wb_lpc_s21.py's own emitted lpc.source.* id list (207
-    ids, cross-checked against records/lpc/source/ directly via
-    /tmp/lpc_row_to_source.txt, a Registry-row -> record-id map built by
-    reading every source record's own external_ids.lpc_source_registry_row
-    this session, not guessed) -> sources[] on every gravity/force record
-    below, resolved to the specific Registry row(s) Doc_04/Doc_08 actually
-    cite as that candidate's or force's own evidentiary base. Doc_04/Doc_08
-    themselves are this world's own governing analytical documents, not
-    vendored sources -- every citation to them lives in each record's own
-    description/body text as "(Doc_04 §3.1)" etc., never in sources[].
-    lpc_Force_Index.md is likewise never cited in sources[] (it is not a
-    source record and, per OG-3, its own generator is disclosed-unreviewed)
-    -- read only as the cross-check named above.
+INPUTS and OUTPUTS
+  - Doc_04 §1-§2 (Candidate Generation; candidates considered and not advanced), §3
+    (Per-Candidate Testing), §4 (Classification Summary), §5 (Article 21 Status Check, this
+    world's strand-singular, phase-testing substitute), §6 (Interaction Matrix), §7 -> the 8
+    `gravity` records, one per classified candidate. classification is copied from Doc_04
+    §4's summary table and never re-derived, including Candidate 5's Supporting status
+    (see G5 below). description carries each candidate's six-test verdict, its
+    Confidence/Gravity Cross-Check result, and its forces-connection summary.
+  - Doc_08 §1 (World Identification; the confirmed gravity spine), §2 (Preliminary Forces
+    Identification), §3 (the six-cell matrix: all seventeen forces, three layers each), §4
+    (Cross-Cell Connections: fourteen named connections and the one deliberate
+    non-connection at 2A-2), §5 (Forces-and-Gravities Synthesis), §7 (Confidence
+    Assessment), §9 (Completion Certification) -> the 17 `force` records. matrix_cell is
+    copied from each force's cell heading (1A, 1B, 2A, 2B, 3A, 3B, the schema's six fixed
+    codes). Doc_08's prose label for cells 3A and 3B, "Ending-Transforming", stays in the
+    record body, not in matrix_cell. kind follows the cell: 1A and 1B are initiating, 2A and
+    2B are ongoing, 3A and 3B are ending. description carries each force's Layer 1
+    (Historical Event), Layer 2 (World's Own Experience) and Layer 3 (Formation Impact).
+  - The lpc.source.* ids emitted by Build/worlds/lpc/scripts/wb_lpc_s21.py (207 ids, each
+    mapped from its external_ids.lpc_source_registry_row) -> sources[] on each gravity and
+    force record, resolved to the Registry rows Doc_04 and Doc_08 cite as that candidate's
+    or force's evidentiary base. Doc_04, Doc_08 and lpc_Force_Index.md are not vendored
+    sources and are never cited in sources[]. Citations to Doc_04 and Doc_08 sit in each
+    record's description and body, for example "(Doc_04 §3.1)".
 
-THREE DISCLOSED EMPTY-SOURCES CASES, matching don's own F3A-2/F3B-1
-precedent of disclosing rather than forcing an unearned citation:
-  - Force 1A-2 (the standing legal condition of an unlicensed religion):
-    Doc_08 cites Doc_01 §2 and Doc_02 §5 -- both this world's own governing
-    analytical documents, not a vendored Registry row -- for a background
-    legal condition, not a claim this world's own corpus directly narrates.
-  - Force 1B-3 (the inherited Latin theological vocabulary): Doc_08 cites
-    Doc_01 §6-§7 and Doc_02 §2's own "Tertullian disclosure." Tertullian's
-    own corpus is Registry row 29, Boundary Status EXCLUDED (wb_lpc_s21.py's
-    own docstring: "credited with forging" this world's own theological
-    vocabulary "without Tertullian himself being this world's own voice") --
-    no lpc.source.tertullian-* record exists, confirmed directly against
-    records/lpc/source/ before writing this force's own record, and none is
-    invented here to supply one.
-  - Force 2B-3 (the illegal-to-established shift) and Force 3B-2
-    (Transmission -- the 133-year silence): both rest on a fact ABOUT this
-    world's own Registry (a structural/legal condition's own placement
-    judgment at 2B-3; the Registry's own dated-row gap at 3B-2), not a
-    citable vendored text making a claim -- sources[] is left empty rather
-    than attaching an unearned citation to a claim about structure or
-    silence itself.
+THREE CASES OF EMPTY sources[]
+  - Force 1A-2 (the standing legal condition of an unlicensed religion): Doc_08 cites
+    Doc_01 §2 and Doc_02 §5, this world's own governing documents and not a vendored
+    Registry row, for a background legal condition that this world's corpus does not narrate
+    directly.
+  - Force 1B-3 (the inherited Latin theological vocabulary): Doc_08 cites Doc_01 §6-§7 and
+    Doc_02 §2's "Tertullian disclosure". Tertullian's corpus is Registry row 29, Boundary
+    Status EXCLUDED (see wb_lpc_s21.py). No lpc.source.tertullian-* record exists, and none
+    is invented.
+  - Forces 2B-3 (the illegal-to-established shift) and 3B-2 (Transmission, the 133-year
+    silence) rest on a fact about this world's own Registry (a placement judgment at 2B-3;
+    the dated-row gap at 3B-2), not on a vendored text that makes a claim.
 
-MECHANICAL vs AUTHORED, field by field -- the same split don's own script
-states for itself, applied here:
-  - id, world_id, record_type, schema_version, status, register, canon_cells:
-    MECHANICAL. register="etic" throughout, matching don's own precedent and
-    pahc.gravity.boundary-drawing/pahc.force.boundary-drawing's own
-    register="etic" -- gravity/force are this world's own analytical build
-    documents converted to record-native form, not first-person emic voice.
-    Confirmed directly against engine/m1/gates.py this session: gravity and
-    force are named in neither gate_voice_perspective's own PERSPECTIVE_
-    FIELDS nor gate_no_build_attribution's own ATTRIBUTION_FIELDS (both now
-    live in engine/m1/spoken_fields.py, checked there directly), so freely
-    naming "Doc_04 §3.1," "the project lead's ruling," or an ISO date inside
-    these records' own prose -- all of which Doc_04/Doc_08 themselves do
-    throughout -- is not a gate risk here the way it would be in a term or
-    story record's own voice-scoped fields. world_id="latin-pastoral-
-    congregational-christianity", matching every lpc record built at B-1/B-2.
-    canon_cells=[] throughout, unchanged from every prior lpc step.
-  - name, classification (gravity) / name, kind, matrix_cell (force):
-    MECHANICAL -- classification and matrix_cell copied directly from
-    Doc_04 §4 and each force's own Doc_08 §3 cell heading, never
-    re-derived; kind mechanically follows matrix_cell per the cell-to-kind
-    mapping stated above.
-  - description: AUTHORED, condensed from Doc_04 §3's six-test verdicts
-    (gravity) or Doc_08 §3's three-layer entries (force), carrying the
-    actual argument rather than a pointer back to either document.
-  - manifestations[]: AUTHORED, drawn only from concrete, already-vendored
-    facts, named events, and direct quotations Doc_04/Doc_08 themselves
-    quote or cite by locus -- never a fresh translation or a fact from this
-    session's own outside historical knowledge.
-  - confidence.formation_confidence: AUTHORED per record, copied from each
-    candidate's own Confidence/Gravity Cross-Check result (Doc_04 §3.x) or
-    each force's own §7 confidence tier (Doc_08), never re-derived. Where
-    Doc_04/Doc_08 name a genuine split across tiers (G3, G5; force 2B-3),
-    this record carries the MORE CONSERVATIVE applicable tier as its own
-    top-line rating, with the full split named explicitly in
-    divergence_note, never smoothed into one unqualified number --
-    matching don's own D-A/F3B-1 precedent for the identical shape of
-    finding.
-  - confidence.verification_state: AUTHORED, held to verified-via-authority
-    throughout (never verified-direct) -- this script relies on Doc_04's
-    and Doc_08's own already-completed, independently-reviewed (11 rounds
-    and 8 rounds respectively) six-test/three-layer assessments, not on
-    this session re-opening the raw vendored primary texts itself.
-  - confidence.divergence_note: AUTHORED per record, always populated
-    (never null) -- satisfies gate_confidence_crosscheck by construction
-    (Documented + null divergence_note + not-verified-direct is the one
-    combination that gate rejects, and this script never emits it).
-  - confidence.citation_specificity / evidentiary_weight: AUTHORED per
-    record from Doc_04/Doc_08's own stated evidentiary texture ("A" where
-    the candidate's/force's own primary loci sit at Registry Confidence A;
-    "B" where Doc_04 itself states the specific loci relied on sit at
-    Registry Confidence B). evidentiary_weight is "load-bearing" throughout
-    except Candidate 5 (Conciliar Authority Theory), carried as "contested"
-    -- the one candidate whose own six-test profile is narrow throughout,
-    whose classification required a project-lead ruling rather than the
-    document's own verdict, and whose Confidence/Gravity Cross-Check
-    divergence Doc_04 itself carries forward as an open item (§7 item 1) --
-    "contested" states that reality plainly rather than filing it as
-    load-bearing like the other seven.
-  - sources[]: AUTHORED per record, resolved to the specific lpc.source.*
-    ids (from B-1's own 207-record set, cross-checked against
-    records/lpc/source/ directly via each record's own external_ids.
-    lpc_source_registry_row) that Doc_04 §1/§3 or Doc_08 §3 actually cite
-    as that candidate's or force's own evidentiary base. Three forces have
-    no specific lpc.source.* grounding either document names -- see THREE
-    DISCLOSED EMPTY-SOURCES CASES above.
-  - relations[]: MECHANICAL, built entirely by relations_for() from
-    RELATION_PAIRS -- see RELATIONS below.
+MECHANICAL and AUTHORED fields
+  - id, world_id, record_type, schema_version, status, register are mechanical.
+    register is "etic" throughout, as in don and in pahc.gravity.boundary-drawing and
+    pahc.force.boundary-drawing: these are analytical build documents in record form, not
+    first-person emic voice. Neither gate_voice_perspective's PERSPECTIVE_FIELDS nor
+    gate_no_build_attribution's ATTRIBUTION_FIELDS (both in engine/m1/spoken_fields.py)
+    names gravity or force, so these records may cite "Doc_04 §3.1" in their prose, as
+    Doc_04 and Doc_08 do. world_id is "latin-pastoral-congregational-christianity".
+  - canon_cells comes from CANON_CELLS and is [] for any record not listed.
+  - name and classification (gravity), name, kind and matrix_cell (force) are mechanical,
+    as described above.
+  - description is authored: Doc_04 §3's six-test verdicts (gravity) or Doc_08 §3's
+    three-layer entries (force), condensed and carrying the argument, not a pointer back.
+  - manifestations[] is authored from concrete, vendored facts, named events and direct
+    quotations that Doc_04 and Doc_08 quote or cite by locus. It never adds a fresh
+    translation or an outside historical fact.
+  - confidence.formation_confidence is authored per record from each candidate's
+    Confidence/Gravity Cross-Check (Doc_04 §3.x) or each force's §7 tier (Doc_08). Where the
+    documents name a split across tiers (G3, G5, force 2B-3, force 3B-2), the record carries
+    the more conservative tier as its top-line rating and states the split in
+    divergence_note.
+  - confidence.verification_state is `verified-via-authority` throughout, never
+    verified-direct. The records rest on the completed, independently reviewed six-test
+    and three-layer assessments, not on a fresh reading of the vendored primary texts.
+  - confidence.divergence_note is always populated, so gate_confidence_crosscheck is
+    satisfied (Documented with a null divergence_note and no verified-direct is the one
+    combination it rejects).
+  - confidence.citation_specificity and evidentiary_weight are authored from Doc_04's and
+    Doc_08's own evidentiary texture. citation_specificity is "A" where the primary loci sit
+    at Registry Confidence A, and "B" where Doc_04 states that the loci relied on sit at
+    Confidence B. evidentiary_weight is `load-bearing` throughout except Candidate 5, which
+    is `contested`: its six-test profile is narrow throughout, its classification rests on a
+    decision made outside the six-test evidence, and Doc_04 §7 item 1 carries its
+    Confidence/Gravity divergence forward.
+  - sources[] is authored: the lpc.source.* ids that Doc_04 §1 and §3 or Doc_08 §3 cite for
+    the candidate or force. A source id may carry its own locus (see src()).
+  - relations[] is built by relations_for() from RELATION_PAIRS, OTHER_TYPE_EDGES_FIRST and
+    OTHER_TYPE_EDGES_LAST.
 
-RELATIONS -- THREE DISTINCT EDGE SETS, ALL SYMMETRIC associated-with, ALL
-BUILT FROM ONE MASTER PAIR-LIST (RELATION_PAIRS), matching wb_don_s25.py's
-own closed-graph discipline exactly:
-  1. GRAVITY <-> GRAVITY (Doc_04 §6, the Interaction Matrix): every pair
-     Doc_04 §6 marks Reinforcing, Competing, or Reshapes/Reshaped-by --
-     a "demonstrated relationship" in that section's own terms -- becomes
-     one associated-with edge. Verified directly by reading every one of
-     the matrix's 8x8 cells this session: 15 such pairs exist (G1-G2, G1-G3,
-     G1-G4, G1-G5, G1-G6, G1-G8, G2-G3, G2-G4, G2-G6, G2-G7, G2-G8, G3-G5,
-     G3-G6, G4-G7, G5-G6); every other cell reads "No demonstrated
-     relationship in this world's own Native record" and is NOT encoded as
-     an edge, matching don's own T1<->T2 precedent -- unlike don's Doc_04,
-     lpc's own §6 does not single out any one "no relationship" pair as its
-     own separately-stated finding (its own closing paragraph discloses the
-     pattern in aggregate: "Candidates 5, 7, and 8 each show several such
-     cells, honestly recorded rather than filled in to avoid a thin-looking
-     row"), so no gravity record below carries a dedicated "NO
-     RELATIONSHIP NAMED" paragraph the way don.gravity.principled-refusal-
-     vs-pragmatic-recourse and don.gravity.purity-rigor-vs-institutional-
-     reception both do for their own mutual absence -- there being no
-     single such pair Doc_04 itself flags as a finding in its own right.
-     The R/C/X-equivalent label (Reinforcing/Competing/Reshapes) is not a
-     schema-typed axis (RELATION_TYPES has no such value); it is carried in
-     each gravity's own description prose instead.
-  2. GRAVITY <-> FORCE (Doc_08 §5's own "Gravity-by-Gravity Force
-     Connections," cross-checked against lpc_Force_Index.md §3's own "By
-     Connected Gravity" table -- both name the identical 29 edges,
-     independently verified against each other before this script was
-     written, including G4's own force-set expansion from Doc_08 §5's
-     prose set-reference "in truth every force in Cell 2A," which the
-     Index's own §3 note states it expands mechanically rather than
-     leaving as an unexpanded pointer): every force a gravity's own record
-     lists as connected becomes one associated-with edge. Exactly three
-     forces (2B-3, 2B-5, 3B-2) carry NO gravity connection at all, per
-     Doc_08 §5's own gravity-by-gravity list and lpc_Force_Index.md §1's
-     own "Connected Gravities: --" entries for exactly these three rows,
-     confirmed directly rather than assumed: 2B-3 is a real force Doc_04
-     itself declined to advance as a gravity in its own right (§2's "state
-     coercive capacity" discussion), and 2B-5/3B-2 are the two dedicated
-     Transmission-dimension forces, which Doc_08 §5 itself states are
-     "cross-cutting rather than gravity-specific" -- matching don's
-     F2B-2/F3B-2 precedent for the identical transmission-dimension
-     disposition exactly. [CORRECTED, same session.] An earlier draft of
-     this paragraph wrongly folded in 1A-2 and 1B-3, claiming five forces
-     with no gravity connection rather than three. Both do connect: 1A-2
-     to G1 (Pastoral Office), 1B-3 to G4 (Preaching and Catechesis) --
-     confirmed directly in both this script's own RELATION_PAIRS and the
-     compiled records themselves, neither of which was ever wrong; only
-     this explanatory paragraph was. 1A-2 and 1B-3 do, separately, carry
-     empty sources[] (along with 2B-3 and 3B-2) -- see the SOURCES
-     paragraph below for that distinct, correctly-stated set, which this
-     paragraph's earlier draft appears to have conflated with the
-     gravity-connection set above.
-  3. FORCE <-> FORCE (Doc_08 §4, the fourteen actually-connected Cross-Cell
-     Connections; the table's own fifteenth row, 2A-2 -> none, is a
-     DELIBERATE NON-CONNECTION Doc_08 itself names as a finding -- "the
-     plague connects to no other force in this matrix" -- and is NOT
-     encoded as an edge, the direct lpc-world analogue of don's own T1<->T2
-     absence-naming, stated in Force 2A-2's own body text rather than
-     silently omitted): every actually-named connection becomes one
-     associated-with edge, direction and character (produces/enables/
-     triggers/activates/intensifies/shapes/inverts-into/reacts-to/is-the-
-     sole-instance-of/continues/coincides-with-does-not-cause) carried in
-     each force's own description prose, not in the relation type --
-     RELATION_TYPES's directional pairs were considered and rejected for
-     the identical reason don's own docstring gives: several of Doc_08's
-     own fourteen connections state something other than a strict
-     precondition (2B-4 -> 3B-2 is stated as "is the sole instance of";
-     3A-1 -> 3B-1 is explicitly "coincides with, does not cause"), and
-     forcing all fourteen into one directional shape would overclaim
-     precision Doc_08's own prose does not uniformly support.
+RELATIONS
+Every edge is an associated-with edge, except that a demonstration edge is `illustrated-by`.
+RELATION_PAIRS lists each gravity and force edge once, and both directions are derived from
+it.
+  1. Gravity to gravity (Doc_04 §6, the Interaction Matrix). Each pair that Doc_04 §6 marks
+     Reinforcing, Competing, or Reshapes is one edge. Fifteen pairs exist (G1-G2, G1-G3,
+     G1-G4, G1-G5, G1-G6, G1-G8, G2-G3, G2-G4, G2-G6, G2-G7, G2-G8, G3-G5, G3-G6, G4-G7,
+     G5-G6). Every other cell reads "No demonstrated relationship in this world's own Native
+     record" and is not an edge. Doc_04 §6 names no single "no relationship" pair as a
+     finding of its own. Its closing paragraph records the pattern in aggregate, so no
+     gravity record carries a dedicated "no relationship named" paragraph. The label
+     Reinforcing, Competing or Reshapes is not a schema relation type, so each gravity's
+     description carries it in prose.
+  2. Gravity to force (Doc_08 §5, "Gravity-by-Gravity Force Connections", which matches
+     lpc_Force_Index.md §3). Each force that a gravity lists as connected is one edge. G4's
+     force set expands Doc_08 §5's prose reference "every force in Cell 2A", as the Index's §3
+     does. Exactly three forces carry no gravity connection: 2B-3, 2B-5 and 3B-2. Doc_04 §2
+     declined to advance the shift behind 2B-3 as a gravity, and 2B-5 and 3B-2 are the two
+     Transmission-dimension forces, which Doc_08 §5 calls "cross-cutting rather than
+     gravity-specific". Forces 1A-2 and 1B-3 do connect, to G1 and G4. They have empty
+     sources[], which is a separate matter (see above).
+  3. Force to force (Doc_08 §4). The fourteen connected pairs are edges. The fifteenth row,
+     2A-2 to none, is a deliberate non-connection that Doc_08 states ("the plague connects
+     to no other force in this matrix"). It is not an edge and is stated in Force 2A-2's
+     body. The direction and character of each connection (produces, enables, triggers,
+     activates, intensifies, shapes, inverts into, reacts to, is the sole instance of,
+     continues, coincides with without causing) sit in each force's description, not in the
+     relation type. The directional relation types would overclaim: Doc_08 states 2B-4 to
+     3B-2 as "is the sole instance of" and 3A-1 to 3B-1 as "coincides with, does not cause".
+  4. Edges to records of other types (doctrinal_witness, honest_limit, demonstration,
+     contested_claim) come from OTHER_TYPE_EDGES_FIRST and OTHER_TYPE_EDGES_LAST.
 
-G5'S OWN JUDGMENT CALL, STATED HERE RATHER THAN SOFTENED IN THE RECORD
-ITSELF. Candidate 5 (Conciliar Authority Theory) is the one gravity in this
-world whose classification Doc_04 itself did not reach on its own six-test
-evidence: "Alone among the eight candidates, this line does not record this
-document's own verdict on the evidence" (Doc_04 §3). It is classified
-Supporting by a ruling outside Doc_04's own six-test evidence, after
-repeated re-classification across several review rounds and a named
-gapped-formation precedent instructing the build to stop revising it
-further (Doc_04 §7 items 7-8). This script carries that classification
-exactly as Doc_04 states it -- "supporting", not re-derived, not upgraded,
-not downgraded -- and states the ruling's own provenance in the record's own
-body text rather than presenting the classification as this document's own
-settled six-test verdict, which Doc_04 explicitly says it is not. The
-record's own confidence.formation_confidence is carried at the more
-conservative "Inferential-Thin" tier (the organizing-breadth claim, thin
-across the whole world at one locus per bishop over more than a century,
-per Doc_04 §5's own "thin across the span, not bounded within it" finding)
-rather than at "Documented" (which covers only the two formulas' own bare
-existence, per Doc_04 §3's own Cross-Check), with the full split named in
-divergence_note -- this is the one gravity record below where the
-top-line/divergence-note split carries real weight rather than being a
-formality.
+G5 (CONCILIAR AUTHORITY THEORY)
+Candidate 5 is the one gravity whose classification Doc_04 does not reach on its own
+six-test evidence: "Alone among the eight candidates, this line does not record this
+document's own verdict on the evidence" (Doc_04 §3). Its Supporting class rests on a
+decision made outside the six-test evidence, and Doc_04 §7 items 7-8 record a precedent
+that stops further revision of it. The script carries "supporting" exactly as Doc_04
+states it, neither upgraded nor downgraded, and the record's body says the classification is
+not a six-test verdict. confidence.formation_confidence is the more conservative
+"Inferential-Thin": the organizing-breadth claim is thin across the whole world, at one
+locus per bishop over more than a century (Doc_04 §5, "thin across the span, not bounded
+within it"). "Documented" covers only the bare existence of the two formulas (Doc_04 §3's
+Cross-Check). divergence_note states the split, and here it carries real weight.
 
-WHAT THIS SCRIPT DOES NOT DO: assign canon_cells; touch records/lpc/{source,
-world_core,term,story,figure,quote}/ or Build/worlds/lpc/scripts/wb_lpc_s24.py
-(existing B-1/B-2 records are read only, for their own lpc.source.* ids;
-story/figure/quote are Part 3, in independent review by a separate agent,
-untouched); build lpc.contested_claim.*/voice_craft/demonstration/
-doctrinal_witness/honest_limit/ambient records (later parts); declare
-relations[] from any gravity/force record to any lpc.story.*/lpc.figure.*/
-lpc.quote.*/lpc.term.* record (don's own B-4 docstring already established
-this closed-graph discipline for exactly this reason -- doubly warranted
-here, since lpc's own story/figure/quote records are still in-flight,
-independent review and this script must not create a dependency on ids that
-review could still change); run the M2 compiler; register `lpc` in
-records/worlds.yaml; touch gen_force_index.py or lpc_Force_Index.md (OG-3's
-own disclosed gap belongs to that script, not this one, and this script
-reads the Index only as a cross-check -- see above).
+NOT DONE HERE: assigning canon_cells beyond CANON_CELLS; touching records/lpc/{source,
+world_core,term,story,figure,quote}/ or wb_lpc_s24.py (existing records are read only, for
+their lpc.source.* ids); building contested_claim, voice_craft, demonstration,
+doctrinal_witness, honest_limit or ambient records; declaring relations[] from a gravity or
+force record to any lpc.story.*, lpc.figure.*, lpc.quote.* or lpc.term.* record (this keeps
+the relation graph closed, as don's B-4 script does); running the M2 compiler; registering
+`lpc` in records/worlds/; touching gen_force_index.py or lpc_Force_Index.md.
 """
 from __future__ import annotations
 
@@ -344,9 +206,9 @@ F3B2 = "lpc.force.transmission-asymmetric-span-133-year-silence"
 
 # RELATION_PAIRS: the whole closed relation graph across gravity and force
 # records, each edge listed once as (a, b) -- both directions derived by
-# relations_for() below, "associated-with" throughout (see this script's own
-# docstring for why the Reinforcing/Competing/Reshapes label and each cross-
-# cell connection's own direction/character are carried in prose instead).
+# relations_for() below, "associated-with" throughout. The Reinforcing/Competing/Reshapes
+# label and each cross-cell connection's direction and character are carried in prose
+# (see the module docstring).
 RELATION_PAIRS: list[tuple[str, str]] = [
     # --- 1. GRAVITY <-> GRAVITY (Doc_04 §6 Interaction Matrix; 15 edges) ---
     (G1, G2), (G1, G3), (G1, G4), (G1, G5), (G1, G6), (G1, G8),
@@ -386,20 +248,90 @@ RELATION_PAIRS: list[tuple[str, str]] = [
 ]
 
 
+
+# Canon cells per record; a record not listed carries none.
+CANON_CELLS: dict[str, list[str]] = {
+    G1: ["F3-I"],
+    G2: ["F4-I"],
+    G3: ["F3-T"],
+    G4: ["F2-I"],
+    G5: ["F1-I"],
+    G6: ["F6-I"],
+    G7: ["F1-T"],
+    G8: ["F6-I"],
+    F1A1: ["F4-I"],
+    F1A2: ["F3-I"],
+    F1B1: ["F3-I"],
+    F1B2: ["F3-I"],
+    F1B3: ["F2-I"],
+    F2A1: ["F5-P"],
+    F2A2: ["F5-I"],
+    F2A3: ["F6-T"],
+    F2A4: ["F1-T"],
+    F2B1: ["F4-I"],
+    F2B2: ["F6-I"],
+    F2B4: ["F6-I"],
+    F2B5: ["F2-E"],
+    F3A1: ["F5-I"],
+    F3B2: ["F2-E"],
+}
+
+# Edges from a gravity or force record to records of other types (doctrinal_witness,
+# honest_limit, demonstration, contested_claim), as (type, target). OTHER_TYPE_EDGES_FIRST edges
+# come before the pair-derived edges and OTHER_TYPE_EDGES_LAST edges after them.
+OTHER_TYPE_EDGES_FIRST: dict[str, list[tuple[str, str]]] = {
+    G1: [
+        ("associated-with", "lpc.witness.answerability-as-ground"),
+    ],
+    G2: [
+        ("illustrated-by", "lpc.demo.road-back-examined"),
+        ("associated-with", "lpc.witness.answerability-as-ground"),
+        ("associated-with", "lpc.witness.confessor-claim-vs-regulated-peace"),
+    ],
+    G3: [
+        ("associated-with", "lpc.witness.communion-over-separation"),
+    ],
+    G5: [
+        ("associated-with", "lpc.limit.411-gesta-unread"),
+        ("associated-with", "lpc.witness.tradition-tested-by-apostolic-warrant"),
+    ],
+    G6: [
+        ("illustrated-by", "lpc.demo.font-twice-answered"),
+    ],
+    G7: [
+        ("associated-with", "lpc.contested.grace-pelagius-characterization"),
+        ("associated-with", "lpc.witness.violence-commanded-not-cruel"),
+    ],
+    G8: [
+        ("associated-with", "lpc.witness.confessor-claim-vs-regulated-peace"),
+    ],
+    F2B3: [
+        ("associated-with", "lpc.contested.compel-coercion-development"),
+    ],
+}
+
+OTHER_TYPE_EDGES_LAST: dict[str, list[tuple[str, str]]] = {
+    G6: [
+        ("associated-with", "lpc.witness.baptism-traced-to-the-apostles"),
+    ],
+}
+
+
 def relations_for(rid: str) -> list[dict]:
-    out = []
+    out = [{"type": t, "target": target} for t, target in OTHER_TYPE_EDGES_FIRST.get(rid, [])]
     for a, b in RELATION_PAIRS:
         if a == rid:
             out.append({"type": "associated-with", "target": b})
         elif b == rid:
             out.append({"type": "associated-with", "target": a})
+    out += [{"type": t, "target": target} for t, target in OTHER_TYPE_EDGES_LAST.get(rid, [])]
     return out
 
 
 def conf(cite, verify, weight, formation, divergence):
     assert divergence is not None, (
-        "B-5 house rule: every gravity/force record's own divergence_note is authored and "
-        "populated, never null -- see this script's own docstring"
+        "every gravity/force record's own divergence_note is authored and populated, never "
+        "null"
     )
     return {
         "citation_specificity": cite,
@@ -410,9 +342,13 @@ def conf(cite, verify, weight, formation, divergence):
     }
 
 
-def src(*ids):
-    return [{"source_id": i, "locus": "see this record's own body text for the specific locus "
-                                       "Doc_04/Doc_08 cite", "license": "public-domain"} for i in ids]
+def src(*entries):
+    """Each entry is a source id, or an (id, locus) pair that replaces the default locus."""
+    default_locus = ("see this record's own body text for the specific locus "
+                     "Doc_04/Doc_08 cite")
+    return [{"source_id": e if isinstance(e, str) else e[0],
+             "locus": default_locus if isinstance(e, str) else e[1],
+             "license": "public-domain"} for e in entries]
 
 
 def _write(record_type: str, rid: str, payload: dict, body: str) -> None:
@@ -433,7 +369,7 @@ def emit_gravity(rid, name, classification, description, manifestations, confide
         "schema_version": SCHEMA_VERSION,
         "status": "draft",
         "register": "etic",
-        "canon_cells": [],
+        "canon_cells": CANON_CELLS.get(rid, []),
         "confidence": confidence,
         "sources": sources,
         "relations": relations_for(rid),
@@ -453,7 +389,7 @@ def emit_force(rid, name, kind, matrix_cell, description, manifestations, confid
         "schema_version": SCHEMA_VERSION,
         "status": "draft",
         "register": "etic",
-        "canon_cells": [],
+        "canon_cells": CANON_CELLS.get(rid, []),
         "confidence": confidence,
         "sources": sources,
         "relations": relations_for(rid),
@@ -472,98 +408,117 @@ def emit_force(rid, name, kind, matrix_cell, description, manifestations, confid
 
 def build_gravities() -> None:
     emit_gravity(
-        G1, "Pastoral Office as Territorial Flock-Keeping [PRIMARY]",
+        G1, "Pastoral Office as Territorial Flock-Keeping",
         "primary",
-        "Doc_04 §3 Candidate 1: PRIMARY, passes all six tests strongly. Repetition: recurs across "
-        "every primary-source stream for both bishops and both phases without interruption -- both "
-        "formation narratives, both phases' own crisis correspondence and sermon corpora. Dependency: "
-        "Candidate 2 (penitential discipline) is exercised by a bishop holding this office; Candidate "
-        "4 (preaching/catechesis) is this office's own primary activity; Candidate 5 (conciliar "
-        "authority) is a theory about who legitimately holds it; Candidate 6 (sacramental validity) is "
-        "a question about who legitimately holds it. Formation: Doc_01 §1's own Core Identity states "
-        "this world's formation logic is 'pastoral and sacramental before it is juridical' -- the "
-        "whole catechetical and penitential apparatus exists because a bishop is personally answerable "
-        "for a bounded flock. Explanatory: explains why Cyprian's crisis correspondence exists at all, "
-        "why Augustine's sermon corpus is so large, and why both bishops' own accounts of coming to "
-        "office are independently attested and treated as formation-significant. Persistence: visible "
-        "in both Carthage and Hippo, across both phases, in both bishops' own words. Interaction: "
-        "reinforces Candidates 2, 3, 4, 6, 8; reinforced weakly by Candidate 5; no independently "
-        "demonstrated relationship with Candidate 7. CONFIDENCE/GRAVITY CROSS-CHECK: Documented -- "
-        "both bishops' own accounts of holding and exercising this office are directly quoted and "
-        "independently re-verified across Doc_01's nine review rounds (the 256 preface; Letters XXXI "
-        "and CCXIII; Pontius's own narrative). Possidius's Vita (Registry row 192) is NOT counted "
-        "toward this Cross-Check -- Doc_02 §2/§4 both disclose it has not been read this session "
-        "beyond the Megalius-consecration identification, so this candidate's Documented rating stands "
-        "on Pontius, the two Letters, and the 256 preface alone, a citation correction rather than a "
-        "classification change. No divergence. FORCES-CONNECTION (Doc_08 §5): the most densely "
-        "force-connected gravity in this world, matching Doc_05 §9.1's own finding that it is the "
-        "ecological hub -- connected to 1A-2 (the standing legal condition an office with no external "
-        "enforcement is held together by personal bond), 1B-2 (how a man comes to hold it), 1A-1 and "
-        "2A-1 (answerability made acute by the flock's own failure and the bishop's own test), 2A-2 "
-        "(a pressure the bishop shares rather than adjudicates), 3A-1 (the bond ends when he does).",
+        "This is the concern everything else in this world turns on. A bishop is personally "
+        "answerable for a bounded flock, and much of the rest of the world flows from that.\n"
+        "\n"
+        "It recurs without a break in every primary source, for both bishops and both phases. It "
+        "appears in both bishops' stories of coming to office. It appears in the crisis letters "
+        "of both phases. It appears in Cyprian's letters and treatises. It appears in Augustine's "
+        "sermons.\n"
+        "\n"
+        "Other concerns in this world depend on it. A bishop who holds this office carries out "
+        "penitential discipline. Preaching and catechesis are the main work of the office. "
+        "Conciliar authority is a theory about who holds the office by right. Sacramental "
+        "validity asks the same thing. This world's formation is pastoral and sacramental before "
+        "it is legal. All the teaching and penance exists because a bishop answers for his flock "
+        "in person.\n"
+        "\n"
+        "It explains why Cyprian's crisis letters exist at all. It explains why Augustine's "
+        "sermon collection is so large. It explains why both bishops' accounts of coming to "
+        "office are attested separately. They are treated as formative. It shows in Carthage and "
+        "in Hippo, in both phases, in the bishops' own words. It reinforces penitential "
+        "discipline and collegial communion. It reinforces preaching and catechesis. It "
+        "reinforces sacramental validity and the confessor tension. Conciliar authority "
+        "reinforces it only weakly. No link with grace and human incapacity has been shown.\n"
+        "\n"
+        "The evidence is solid. Accounts of holding and using this office are quoted directly and "
+        "checked. They are the preface to the Council of 256, Augustine's Letters XXXI and "
+        "CCXIII, and Pontius's narrative. Possidius's Life of Augustine is not counted. It has "
+        "not been checked on its own, beyond naming the Megalius consecration. So the rating "
+        "rests on Pontius, the two letters, and the 256 preface alone.\n"
+        "\n"
+        "It is the concern most closely tied to the forces acting on the world. In law, "
+        "Christianity was an unlicensed religion. So the office has no outside enforcement. A "
+        "personal bond holds it together. The congregation's acclamation shows how a man comes to "
+        "hold the office. The Decian and Valerianic persecutions make a bishop's duty to his "
+        "flock acute. They work through the flock's own failure and the bishop's own test. The "
+        "plague is a pressure the bishop shares. He does not judge it. The Vandal invasion and "
+        "the siege of Hippo mark where the bond ends. It ends when the bishop does.",
         [
-            "\"it is the shepherd that is chiefly wounded in the wound of his flock\" (Force 1A-1's "
-            "own Layer 2, Doc_08 §3)",
-            "Cyprian's own accounts of holding and exercising this office at the 256 Council preface, "
-            "and in Letters XXXI and CCXIII",
-            "Pontius's own narrative of Cyprian's conduct as bishop (Registry row 7)",
+            "\"it is the shepherd that is chiefly wounded in the wound of his flock\" (Cyprian, "
+            "De Lapsis)",
+            "Cyprian's own account of holding and exercising this office at the 256 Council "
+            "preface; Augustine's own account in Letters XXXI and CCXIII",
+            "Pontius's narrative of Cyprian's conduct as bishop",
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
-             "Doc_04 §3 Candidate 1: no divergence. Evidence reaches Documented -- both bishops' own "
-             "accounts of holding and exercising this office are directly quoted and independently "
-             "re-verified across Doc_01's nine review rounds; Possidius's Vita (Registry row 192) is "
-             "explicitly excluded from this Cross-Check per Doc_02 §2/§4's own disclosed limitation "
-             "that it has not been read this session beyond the Megalius-consecration identification "
-             "-- a citation correction, not a classification change."),
+             "Doc_04 §3 Candidate 1: no divergence. Evidence reaches Documented -- both bishops' "
+             "own accounts of holding and exercising this office are directly quoted and "
+             "independently re-verified. Possidius's Vita (Registry row 192) is not part of this "
+             "Cross-Check and is not counted toward it."),
         src("lpc.source.cyprian-epistles",
             "lpc.source.cyprian-seventh-council-of-carthage",
             "lpc.source.pontius-life-and-passion-of-cyprian"),
-        "Re-derived from the approved Doc_04 §3 (Candidate 1), cross-checked against Doc_04 §4's own "
-        "Classification Summary and §6's own Interaction Matrix. relations[] carries the "
-        "gravity<->gravity edges (G2, G3, G4, G5, G6, G8) and the gravity<->force edges (1A-1, 1A-2, "
-        "1B-2, 2A-1, 2A-2, 3A-1) named in this record's own description above.",
+        "Taken from Doc_04 §3 (Candidate 1), cross-checked against Doc_04 §4's own Classification "
+        "Summary and §6's own Interaction Matrix. relations[] carries the gravity<->gravity edges "
+        "(G2, G3, G4, G5, G6, G8) and the gravity<->force edges (1A-1, 1A-2, 1B-2, 2A-1, 2A-2, "
+        "3A-1) named in this record's own description above.",
     )
 
     emit_gravity(
-        G2, "Penitential Discipline: the Reintegration of the Failed [PRIMARY]",
+        G2, "Penitential Discipline: the Reintegration of the Failed",
         "primary",
-        "Doc_04 §3 Candidate 2: PRIMARY. Repetition: passes strongly, recurring in De Lapsis (Row 2), "
-        "the Epistles' own lapsed correspondence (Row 1), Pontius's narrative (Row 7), and Doc_02 §5's "
-        "own liturgical-evidence disclosure. Author Gravity risk flagged at generation: the "
-        "Cyprian-phase evidence is multi-locus and independently corroborated, but the candidate's own "
-        "cross-phase claim rests on Cyprian's own single phase passing. Dependency: passes strongly -- "
-        "Candidate 8 (confessor-authority tension) exists only because this gravity exists; this "
-        "gravity's own resolution (readmission, not permanent exclusion) models Candidate 3's logic at "
-        "the individual-believer level. Formation: passes strongly -- the paradigm formation-shaping "
-        "practice in this world's own record. Explanatory: passes strongly -- explains the "
-        "Novatianist schism (rigorist refusal to readmit), the Felicissimus schism (a laxer rival "
-        "readmission practice), and Candidate 8. PERSISTENCE -- TESTED RATHER THAN ASSUMED, PER "
-        "DOC_01 §8 ITEM 7'S OWN BINDING INSTRUCTION: passes for Cyprian's own phase directly; for "
-        "Augustine's own phase, THE LEAN DOES NOT FULLY SURVIVE AS THIS SAME GRAVITY PERSISTING UNDER "
-        "ITS OWN NAME. Doc_02's own record shows no Augustine-phase text organized around a "
-        "'lapsed'-equivalent crisis at the same acute, empire-wide scale; the closest analogues "
-        "(Donatist schism-temptation, ordinary catechized sin) are real but are tested and classified "
-        "as their own distinct gravities, Candidates 6 and 7, not as this gravity's own direct "
-        "continuation. What survives across the phase boundary is a family resemblance, not the same "
-        "gravity restated. Interaction: reinforces Candidates 1, 3, 4, 6; reshaped by Candidate 7 (not "
-        "this gravity's own continuation); competes with Candidate 8. CONFIDENCE/GRAVITY CROSS-CHECK: "
-        "Documented for Cyprian's own conduct and correspondence, directly quoted and re-verified "
-        "across Doc_01's nine rounds; of the loci this rests on, the De Lapsis locus (Row 2) sits at "
-        "Registry Confidence B, the Epistles and Pontius loci (Rows 1, 7) at A. No divergence for the "
-        "Cyprian-phase gravity. FORCES-CONNECTION (Doc_08 §5): directly is Doc_01 §6's own Ongoing/"
-        "Internal cell content -- connected to 1A-1 (creates its subject matter), 1B-1 (the organized "
-        "church without which a regulated process could not have been run), 2B-1 (the recurring "
-        "contest it answers), 2B-2 (the rival claim it was built against). Its own second-phase "
-        "persistence is qualified rather than assumed (Doc_08 §3 Force 2B-1's own Layer 3): the "
-        "concern does not continue under its own name; what survives is a family resemblance toward "
-        "G6 and G7, tested and classified separately -- this gravity's own force-connection therefore "
-        "stays first-phase-grounded.",
+        "How the church took back its failed members sat near the center of this world's life. "
+        "This concern asks what happens to someone who gave way under persecution. Its answer is "
+        "to take that person back, not shut that person out for good.\n"
+        "\n"
+        "It recurs strongly: in De Lapsis, in the letters about the lapsed, in Pontius's "
+        "narrative, and in the world's liturgical evidence. One more limit belongs here. "
+        "Cyprian's phase has several independent sources that support each other. But the claim "
+        "that this concern spans both phases rests on Cyprian's phase alone.\n"
+        "\n"
+        "Other concerns in this world depend on it. The confessor tension exists only because "
+        "this one does. Its answer for one believer is to take that person back, not shut that "
+        "person out for ever. That mirrors, at a smaller scale, the logic of collegial communion. "
+        "It is the model way of shaping believers in this world's record. It explains two "
+        "schisms. The Novatianists refused to readmit the lapsed at all. The Felicissimus schism "
+        "offered an easier rival road back. It also explains the confessor tension.\n"
+        "\n"
+        "Whether it continues into Augustine's phase was checked directly, not assumed. It holds "
+        "directly for Cyprian's phase. For Augustine's phase, the case for continuity does not "
+        "fully survive. It does not hold as this same concern under its own name. No text we "
+        "tested from Augustine's phase is built around a crisis like that of the lapsed, at the "
+        "same acute, empire-wide scale. We have not tested the sermons now in scope.\n"
+        "\n"
+        "The closest parallels are real: the pull toward the Donatist schism, and the ordinary "
+        "sin of catechized believers. Those were tested. They proved to be concerns of their own: "
+        "sacramental validity, and grace and human incapacity. They are not its direct "
+        "continuation. Between the phases there is a family resemblance, not the same concern "
+        "restated.\n"
+        "\n"
+        "It reinforces pastoral office, collegial communion, preaching and catechesis, and "
+        "sacramental validity. Grace and human incapacity reshapes it without continuing it. It "
+        "competes with the confessor tension.\n"
+        "\n"
+        "The evidence is solidly attested for Cyprian's own conduct and letters, which are "
+        "directly quoted and checked. The De Lapsis passage carries the lower citation grade (B). "
+        "The Epistles and Pontius passages carry the higher grade (A). None of it runs short of "
+        "evidence for Cyprian's phase.\n"
+        "\n"
+        "It is itself this world's ongoing internal pressure. Four forces connect to it. The "
+        "Decian persecution created its subject matter. The organized Carthaginian church made a "
+        "regulated process possible at all. It answers the recurring contest over the failed "
+        "member. It was built against a rival claim, the confessors' claim to grant peace. Its "
+        "life in the second phase is qualified, not assumed: the concern does not continue under "
+        "its own name. So its ties to the forces stay rooted in the first phase.",
         [
-            "De Lapsis, Cyprian's own founding treatise of the penitential controversy (Registry row 2)",
-            "the Novatianist schism (rigorist refusal to readmit the lapsed) and the Felicissimus "
-            "schism (a laxer rival readmission practice), both explained by this gravity",
-            "the confessors' own competing claim to grant peace, which this gravity's own regulated "
-            "process was built against (Force 2B-2)",
+            "De Lapsis, Cyprian's founding treatise of the penitential controversy",
+            "the Novatianist schism (a rigorist refusal to readmit the lapsed) and the "
+            "Felicissimus schism (a laxer rival route back), both explained by this concern",
+            "the confessors' competing claim to grant peace, which the regulated penitential "
+            "process was built to answer",
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
              "Doc_04 §3 Candidate 2: no divergence for the Cyprian-phase gravity. Evidence reaches "
@@ -577,49 +532,56 @@ def build_gravities() -> None:
         src("lpc.source.cyprian-epistles",
             "lpc.source.cyprian-de-lapsis",
             "lpc.source.pontius-life-and-passion-of-cyprian"),
-        "Re-derived from the approved Doc_04 §3 (Candidate 2). relations[] carries the "
-        "gravity<->gravity edges (G1, G3, G4, G6, G7, G8) and the gravity<->force edges (1A-1, 1B-1, "
-        "2B-1, 2B-2) named above -- 2B-1's own asymmetric family-resemblance finding (first-phase, "
-        "toward G6, not toward G7) is discussed at G6's own record below, per Doc_08 §5's own G6 entry.",
+        "Taken from Doc_04 §3 (Candidate 2). relations[] carries the gravity<->gravity edges (G1, "
+        "G3, G4, G6, G7, G8) and the gravity<->force edges (1A-1, 1B-1, 2B-1, 2B-2) named above "
+        "-- 2B-1's own asymmetric family-resemblance finding (first-phase, toward G6, not toward "
+        "G7) is discussed at G6's own record below, per Doc_08 §5's own G6 entry.",
     )
 
     emit_gravity(
-        G3, "Collegial Communion Preserved Despite Disagreement [PRIMARY]",
+        G3, "Collegial Communion Preserved Despite Disagreement",
         "primary",
-        "Doc_04 §3 Candidate 3: PRIMARY. Repetition: passes strongly, recurring at the 256 preface "
-        "(Row 4, 'neither does any of us set himself up as a bishop of bishops... every bishop... has "
-        "his own proper right of judgment'), throughout On Baptism (Row 13 -- Augustine arguing at "
-        "length against Cyprian's own specific ruling while never treating him as outside communion), "
-        "and in Letter 185's own pastoral-corrective register (Row 12). Dependency: passes strongly -- "
-        "Doc_01 §5's own Article 3 coherence argument for this world's own coherence across the "
-        "century-gap is built directly on this gravity: what a bishop does when he disagrees is work "
-        "to preserve communion, or break communion and build a rival, parallel hierarchy. Candidate 6 "
-        "(sacramental validity) is the specific doctrinal question on which this gravity is tested "
-        "hardest. Formation: passes -- shapes how both bishops conduct disagreement; neither breaks "
-        "fellowship over the sharpest doctrinal disputes in this world's own record, with no "
-        "counter-instance in either bishop's own corpus. Explanatory: passes strongly -- explains why "
-        "Augustine's own extensive, respectful engagement with a bishop he disputes reads as filial "
-        "argument rather than repudiation, and this world's own boundary against Donatism directly. "
-        "Persistence: passes -- attested in both phases, through both bishops' own conduct, not "
-        "merely a shared word. Interaction: reinforces Candidates 1, 2, 5, 6. CONFIDENCE/GRAVITY "
-        "CROSS-CHECK -- DIVERGENCE FLAGGED, NOT RESOLVED, PER CF V7.4'S OWN RULE: the underlying "
-        "primary-source facts (the 256 preface's own words; On Baptism's own extensive argument) "
-        "reach Documented, directly quoted and re-verified across Doc_01's nine rounds; the SYNTHESIS "
-        "-- that these facts constitute one named, cross-phase gravity, rather than two separate "
-        "historical facts -- is this document's own reasoning, at Widely Accepted rather than "
-        "Documented confidence. Flagged rather than resolved, and this record carries the more "
-        "conservative tier (Widely Accepted) as its own top-line rating rather than smoothing the "
-        "split away. FORCES-CONNECTION (Doc_08 §5): every force connected to this gravity is a force "
-        "that TESTED it rather than produced it -- 1B-1 (colleagues who can assemble and already "
-        "disagree), 2A-3 (tested at its hardest edge, and holds), 2B-4 (tested across the century "
-        "gap, and holds). This gravity is this world's own adaptive rule, stress-tested three times "
-        "from three directions.",
+        "Few things mattered more to this world than staying in communion despite real "
+        "disagreement. Bishops in this world disagree, sometimes sharply. But they work to keep "
+        "communion rather than break it and build a rival hierarchy.\n"
+        "\n"
+        "The pattern recurs across both phases. Cyprian's preface to the Council of 256 states it "
+        "directly: \"neither does any of us set himself up as a bishop of bishops... every "
+        "bishop... has his own proper right of judgment.\" Augustine's On Baptism argues at "
+        "length against Cyprian's own ruling on rebaptism. Yet it never treats him as outside "
+        "communion. Letter 185 addresses the Donatist schism in the same pastoral, corrective "
+        "tone.\n"
+        "\n"
+        "Our own case for this world's coherence across the century between its two bishops rests "
+        "on this concern. A bishop who disagrees has two paths. He can work to keep communion, or "
+        "he can break it and set up a parallel hierarchy. Both bishops take the first path. "
+        "Neither breaks fellowship over the sharpest doctrinal disputes in the record. Neither "
+        "bishop's writings hold a single counter-example.\n"
+        "\n"
+        "This explains why Augustine's long, respectful argument with a bishop he disputes reads "
+        "as a son arguing with a father, not a rejection. It also directly explains the world's "
+        "boundary against Donatism. The pattern shows in both phases, in how both bishops act, "
+        "not just in a shared word. It reinforces pastoral office, penitential discipline, "
+        "conciliar authority, and sacramental validity. Sacramental validity is the doctrinal "
+        "question where it is tested hardest.\n"
+        "\n"
+        "The confidence split is disclosed, not resolved. The underlying facts are solidly "
+        "attested. The 256 preface's own words and On Baptism's long argument are directly quoted "
+        "and checked. But reading them as one concern across both phases, rather than two "
+        "separate historical facts, is an interpretation. That interpretation stands at Widely "
+        "Accepted, and the record carries this more cautious rating instead of hiding the split.\n"
+        "\n"
+        "Every force linked to this concern tested it rather than created it. The organized "
+        "Carthaginian church gave colleagues who could meet and already disagreed. The Donatist "
+        "schism tested it at its hardest edge. Augustine's engagement with Cyprian's conciliar "
+        "acts tested it across the century gap. It held each time. It is this world's own way of "
+        "adapting, tested three times from three directions.",
         [
-            "the 256 Council preface's own words: \"neither does any of us set himself up as a bishop "
-            "of bishops... every bishop... has his own proper right of judgment\" (Registry row 4)",
-            "Augustine arguing at length against Cyprian's own specific rebaptism ruling throughout On "
-            "Baptism (Registry row 13), while never treating him as outside communion",
-            "Letter 185's own pastoral-corrective register toward the Donatist schism (Registry row 12)",
+            "Cyprian's preface to the Council of 256: \"neither does any of us set himself up as "
+            "a bishop of bishops... every bishop... has his own proper right of judgment\"",
+            "Augustine arguing at length against Cyprian's rebaptism ruling throughout On "
+            "Baptism, while never treating him as outside communion",
+            "Letter 185's pastoral, corrective tone toward the Donatist schism",
         ],
         conf("A", "verified-via-authority", "load-bearing", "Widely Accepted",
              "Doc_04 §3 Candidate 3: divergence flagged rather than resolved. The underlying "
@@ -633,44 +595,51 @@ def build_gravities() -> None:
         src("lpc.source.cyprian-seventh-council-of-carthage",
             "lpc.source.augustine-correction-of-the-donatists",
             "lpc.source.augustine-on-baptism-against-the-donatists"),
-        "Re-derived from the approved Doc_04 §3 (Candidate 3). relations[] carries the "
-        "gravity<->gravity edges (G1, G2, G5, G6) and the gravity<->force edges (1B-1, 2A-3, 2B-4) "
-        "named above.",
+        "Taken from Doc_04 §3 (Candidate 3). relations[] carries the gravity<->gravity edges (G1, "
+        "G2, G5, G6) and the gravity<->force edges (1B-1, 2A-3, 2B-4) named above.",
     )
 
     emit_gravity(
-        G4, "Preaching and Catechesis as Primary Formation Mode [SUPPORTING]",
+        G4, "Preaching and Catechesis as the Primary Mode of Formation",
         "supporting",
-        "Doc_04 §3 Candidate 4: SUPPORTING. Passes Repetition, Formation, and Persistence cleanly; "
-        "passes Dependency, Explanatory, and Interaction only narrowly, because the evidence shows "
-        "this gravity functions as the medium other gravities are taught through rather than an "
-        "independently organizing force -- the same honest, narrower-pass shape Imperial-Juridical's "
-        "own Doc_04 reports for a structurally comparable candidate. Repetition: recurs in the Sermons "
-        "(Row 19), the Tractates on John (Row 21), the catechetical works (Rows 15, 18), and Cyprian's "
-        "own De Dominica Oratione (Row 5). Dependency: passes narrowly -- Candidate 1 depends on this "
-        "as its own primary activity, but this document finds no other candidate depending on "
-        "preaching/catechesis the way they depend on Candidates 1-3; it functions more as the medium "
-        "through which the other gravities are taught and enforced. Formation: passes strongly -- "
-        "direct, textbook formation content, the explicit subject of the catechetical works and the "
-        "stated purpose of both bishops' own preaching corpora. Explanatory: passes narrowly -- "
-        "explains HOW formation happens more than WHY any particular crisis occurred. Persistence: "
-        "passes -- attested in both phases, in both bishops' own words. Interaction: passes narrowly "
-        "-- reinforces Candidates 1, 2, 7; no independently demonstrated relationship with Candidates "
-        "3, 5, 6, 8. CONFIDENCE/GRAVITY CROSS-CHECK: Documented for existence and basic content, per "
-        "Doc_02 §8's own bracket; the specific loci sit at Registry Confidence B. No divergence. "
-        "FORCES-CONNECTION (Doc_08 §5): connected to 1B-3 (the vernacular register it needs), and IN "
-        "TRUTH EVERY FORCE IN CELL 2A (2A-1, 2A-2, 2A-3, 2A-4), since this gravity is the channel "
-        "through which external pressure reaches an ordinary believer -- the mechanism Doc_08 §4's own "
-        "first finding depends on and §5 names as this world's characteristic response: crisis "
-        "metabolized into teaching. 2A-2 (the plague) is the clearest single case: it generated no "
-        "gravity and no practice, only a treatise, produced entirely through this gravity's own medium.",
+        "This concern is real too, though its reach is narrower than the others'. It is the "
+        "medium through which this world's other central concerns are taught, rather than a force "
+        "that organizes the world by itself. It clearly recurs, shapes believers, and lasts "
+        "across both phases. But its links to other concerns, and what it explains, are "
+        "narrower.\n"
+        "\n"
+        "It recurs in Augustine's Sermons and Tractates on John, in the catechetical works, and "
+        "in Cyprian's De Dominica Oratione. Pastoral office depends on it as its main activity. "
+        "But nothing else depends on it the way pastoral office, penitential discipline, and "
+        "collegial communion do. It is the channel through which those concerns are taught and "
+        "enforced.\n"
+        "\n"
+        "Its power to shape believers is strong and direct. That is the explicit subject of the "
+        "catechetical works and the stated purpose of both bishops' preaching. It explains how "
+        "formation happens more than why any particular crisis occurred. It is attested in both "
+        "phases, in both bishops' own words. It reinforces pastoral office, penitential "
+        "discipline, and grace and human incapacity. No relationship has been shown with "
+        "collegial communion, conciliar authority, sacramental validity, or the confessor "
+        "tension.\n"
+        "\n"
+        "The evidence is solidly attested for the existence and basic content of these texts. The "
+        "specific passages carry the lower citation grade (B), but that is not a thin spot in the "
+        "evidence.\n"
+        "\n"
+        "It depends on a shared vernacular to teach in: the inherited Latin theological "
+        "vocabulary. It also connects to every ongoing outside pressure on the world. These are "
+        "the Valerianic persecution, the plague, the Donatist schism, and the rival systems of "
+        "Manichaeism and Pelagianism. This concern is the channel through which outside pressure "
+        "reaches an ordinary believer. That is this world's characteristic response: crisis "
+        "turned into teaching. The plague is the clearest case. It produced no new concern and no "
+        "new practice, only a treatise, and that treatise came entirely through preaching and "
+        "teaching.",
         [
-            "the Sermons (Registry row 19) and Tractates on John (row 21), Augustine's own vast "
-            "preaching and exegetical corpus",
-            "the catechetical works (Registry rows 15, 18) explicitly addressed to converts and "
-            "catechumens",
-            "De Mortalitate, Cyprian's own treatise answering the plague of c. 249-262 (Registry row "
-            "5) -- a pressure that produced teaching, through this gravity, rather than structure",
+            "the Sermons and Tractates on John: Augustine's vast body of preaching and scripture "
+            "commentary",
+            "the catechetical works, written explicitly for converts and catechumens",
+            "De Mortalitate, Cyprian's treatise answering the plague of c. 249-262: a pressure "
+            "that produced teaching, not new structure",
         ],
         conf("B", "verified-via-authority", "load-bearing", "Documented",
              "Doc_04 §3 Candidate 4: no divergence. Documented for existence and basic content, per "
@@ -683,174 +652,201 @@ def build_gravities() -> None:
             "lpc.source.augustine-creedal-catechetical-works",
             "lpc.source.augustine-sermons-on-selected-lessons",
             "lpc.source.augustine-tractates-on-john-and-related-exegesis"),
-        "Re-derived from the approved Doc_04 §3 (Candidate 4). relations[] carries all three of "
-        "Doc_04 §6's own Interaction Matrix edges for Candidate 4 (Reinforcing with G1, Reinforcing "
-        "with G2, Reinforcing with G7) -- G1 and G2 were already captured as edges when this "
-        "script processed those rows earlier, so G7 is the only edge this record's own row newly "
-        "contributes, not the only gravity-level relationship G4 has in total -- and the "
-        "gravity<->force edges (1B-3, 2A-1, 2A-2, 2A-3, 2A-4, "
-        "the last four an expansion of Doc_08 §5's own prose set-reference 'every force in Cell 2A', "
-        "cross-checked against lpc_Force_Index.md §3's own identical expansion) named above.",
+        "Taken from Doc_04 §3 (Candidate 4). relations[] carries all three of Doc_04 §6's own "
+        "Interaction Matrix edges for Candidate 4 (Reinforcing with G1, Reinforcing with G2, "
+        "Reinforcing with G7) -- G1 and G2 appear as edges on their own records, so G7 is the "
+        "only edge this record's own row adds, not the only gravity-level relationship G4 has in "
+        "total -- and the gravity<->force edges (1B-3, 2A-1, 2A-2, 2A-3, 2A-4, the last four an "
+        "expansion of Doc_08 §5's own prose set-reference 'every force in Cell 2A', cross-checked "
+        "against lpc_Force_Index.md §3's own identical expansion) named above.",
     )
 
     emit_gravity(
-        G5, "Conciliar Authority Theory (Egalitarian vs. Hierarchical) [SUPPORTING]",
+        G5, "Conciliar Authority Theory: Egalitarian vs. Hierarchical",
         "supporting",
-        "Doc_04 §3 Candidate 5: the one gravity in this world whose classification Doc_04 itself did "
-        "not reach on its own six-test evidence -- 'Alone among the eight candidates, this line does "
-        "not record this document's own verdict on the evidence' (Doc_04 §3). Classified SUPPORTING "
-        "BY A RULING OUTSIDE DOC_04'S OWN SIX-TEST EVIDENCE, after repeated re-classification "
-        "across several review rounds and a named gapped-formation precedent instructing the build to "
-        "stop revising it further (Doc_04 §7 items 7-8). Author Gravity risk flagged at generation: "
-        "each pole is attested within each bishop's own single locus. Repetition: passes narrowly and "
-        "locally -- Cyprian's egalitarian formula recurs once, at length, in the 256 preface (Row 4); "
-        "Augustine's hierarchical formula recurs internally within On Baptism (Row 13, 'plenary' 31 "
-        "times) but is not independently restated in a second Augustine-authored work drawn on here. "
-        "Dependency: passes narrowly -- Doc_01's own strand-singular finding is the one place in this "
-        "world's construction record that depends on this axis at all. Formation: DOES NOT CLEARLY "
-        "PASS -- this document finds no evidence that ordinary believers, catechumens, or most clergy "
-        "in either phase were formed by, or even aware of, this specific theoretical question. "
-        "Explanatory: passes narrowly -- explains the specific shape of the Cyprian/Stephen rebaptism "
-        "dispute and Augustine's own extended argument against Cyprian's ruling, but no other, "
-        "independent aspect of the wider ecology. PERSISTENCE: DOES NOT PASS AT THE WORLD LEVEL, on a "
-        "disclosed search bound rather than an unqualified absence -- within what this document has "
-        "validly read, there is no evidence either bishop's theory was independently visible outside "
-        "the one locus each is drawn from. THIN ACROSS THE SPAN, NOT BOUNDED WITHIN IT (Doc_04 §5's "
-        "own distinction from Candidate 7's phase-boundedness): visible in both phases, at one locus "
-        "each, 'between two bishops at two moments separated by over a century.' Interaction: passes "
-        "narrowly -- interacts demonstrably with Candidates 1 (weakly), 3, and 6. CONFIDENCE/GRAVITY "
-        "CROSS-CHECK -- DIVERGENCE FLAGGED, NOT RESOLVED: evidence for the EXISTENCE of both formulas, "
-        "in their own words, reaches Documented; the evidential support for their ORGANIZING BREADTH "
-        "does not reach the same level, this candidate's six-test profile being narrow at best -- CF "
-        "V7.4: 'gravity strength and evidential confidence are distinct properties that can diverge.' "
-        "Carried forward at Doc_04 §7 Open Item 1 as unresolved, and NOT reopened by the 411 Gesta "
-        "(unread; §7 Open Item 6) or by nine further review rounds (§7 Open Item 8, a sixth attempt at "
-        "a cleaner classification, whose own argument Doc_04 records rather than pursues). "
-        "FORCES-CONNECTION (Doc_08 §5): THE WEAKEST FORCE-CONNECTION IN THE MATRIX, and Doc_08 says so "
-        "rather than padding it -- connected to 1B-1 (the conciliar setting), 2A-3 (the Donatist "
-        "appeal that supplies the occasion), 2B-4 (the engagement itself), but 'every force touching "
-        "G5 touches it through a third party's citation of a text, not through a pressure on the "
-        "world's own practice' -- consistent with Doc_04's own finding that no evidence shows the "
-        "question reached ordinary formation. Doc_08 §5 quotes the Forces Framework directly: 'a "
-        "gravity that cannot be connected to the forces acting on the world is a gravity whose ecology "
-        "is incomplete.' Carried, not resolved.",
+        "This is one of this world's real concerns, though an unusual one to weigh. That two "
+        "competing theories of conciliar authority existed, in each bishop's own words, is "
+        "solidly attested. Whether they organized much of the world is a separate question, "
+        "and the evidence for that is far thinner. We treat this as a secondary concern, "
+        "disclosed as genuinely uncertain rather than settled.\n"
+        "\n"
+        "The concern names two competing theories of conciliar authority. Cyprian's is "
+        "egalitarian. In the preface to the Council of 256 he says no bishop sets himself up "
+        "as \"a bishop of bishops.\" Augustine's is hierarchical. In On Baptism he appeals to "
+        "\"the authority of plenary Councils,\" and the word \"plenary\" occurs 31 times in that "
+        "treatise.\n"
+        "\n"
+        "A real limit sits here too. In the texts weighed, each theory is attested at only one "
+        "place in each bishop's writings. Cyprian's formula appears once, at length, in the "
+        "256 preface. Augustine's recurs within On Baptism. He also speaks of plenary Councils "
+        "in two of his letters, Letter 43, section 19, and Letter 54, section 1. Those two "
+        "passages were found and were not weighed in the six tests.\n"
+        "\n"
+        "Its reach is narrow in every direction. Only one finding depends on it: that the "
+        "world forms a single strand. There is no evidence that ordinary believers, "
+        "catechumens, or most clergy in either phase were shaped by this question, or even "
+        "knew of it. It explains the shape of the rebaptism dispute between Cyprian and "
+        "Stephen, and Augustine's long argument against Cyprian's ruling. It explains nothing "
+        "else in the wider world. It connects clearly with collegial communion and sacramental "
+        "validity, and weakly with pastoral office.\n"
+        "\n"
+        "It does not carry across the whole world. Within the texts weighed, neither bishop's "
+        "theory is visible outside its one source. This is a limit of the search so far, not a "
+        "proven absence. It runs thin across the whole span, not confined to one phase. It "
+        "appears in both phases, at one source each -- between two bishops, at two moments "
+        "separated by over a century. That sets it apart from grace and human incapacity, "
+        "which belongs to one phase only.\n"
+        "\n"
+        "The uncertainty here is disclosed, not resolved. That both formulas exist, in their "
+        "own words, is solidly attested. The evidence that they organized much of the world is "
+        "much weaker. How central a concern is, and how confident we can be in the evidence, "
+        "are two separate things, and here they diverge. So the record stays cautious about "
+        "how central this is. We do not ask the 411 Gesta, the proceedings of that year, to "
+        "settle it. They have not been read in full.\n"
+        "\n"
+        "Of everything in this world, this concern connects least to the forces acting on it. "
+        "It links to the council setting of the organized Carthaginian church. It links to the "
+        "Donatist appeal that supplied the occasion, and to Augustine's engagement with "
+        "Cyprian's conciliar acts. But each of these reaches it only through someone quoting a "
+        "text, not through pressure on how the church actually lived. That fits the finding "
+        "that the question never reached ordinary formation.\n"
+        "\n"
+        "A concern this loosely connected to the pressures acting on the world leaves our own "
+        "picture of that world incomplete here. That gap is carried, not resolved.",
         [
-            "the 256 Council preface's own egalitarian formula, \"neither does any of us set himself "
-            "up as a bishop of bishops\" (Registry row 4)",
-            "Augustine's own hierarchical formula in On Baptism II.3, invoking \"the authority of "
-            "plenary Councils\" (Registry row 13, the word occurring 31 times within the treatise)",
-            "a ruling outside Doc_04's own six-test evidence, classifying this candidate Supporting after "
-            "Doc_04's own six-test assessment did not reach a verdict on the evidence (Doc_04 §3, §7 "
-            "items 7-8)",
+            "Cyprian's egalitarian formula in the preface to the Council of 256: \"neither does any "
+            "of us set himself up as a bishop of bishops\"",
+            "Augustine's hierarchical formula in On Baptism II.3, invoking \"the authority of "
+            "plenary Councils\" (the word \"plenary\" occurs 31 times in the treatise)",
         ],
         conf("B", "verified-via-authority", "contested", "Inferential-Thin",
-             "Doc_04 §3 Candidate 5: divergence flagged, not resolved -- the sharpest such divergence "
-             "in this document. Existence of both formulas, in their own words, reaches Documented "
-             "(directly quoted and re-verified across Doc_01's nine rounds); the evidential support "
-             "for their ORGANIZING BREADTH does not reach the same level, this candidate's six-test "
-             "profile being narrow throughout and Persistence failing at world level on a disclosed "
-             "search bound -- carried at the more conservative Inferential-Thin tier as this record's "
-             "own top-line rating rather than the bare-existence Documented tier, per this candidate's "
-             "own 'thin across the span, not bounded within it' finding (Doc_04 §5). The classification "
-             "itself (Supporting) rests on a ruling outside this document's own six-test evidence, not "
-             "this document's own six-test verdict -- carried exactly as Doc_04 §3 states this, neither upgraded nor "
-             "downgraded here."),
+             "Doc_04 §3 Candidate 5: divergence flagged, not resolved. Existence of both "
+             "formulas, in their own words, reaches Documented (directly quoted and re-verified); "
+             "the evidential support for their ORGANIZING BREADTH does not reach the same level, "
+             "this candidate's six-test profile being narrow throughout and Persistence failing "
+             "at world level on a disclosed search bound -- carried at the more conservative "
+             "Inferential-Thin tier as this record's own top-line rating rather than the "
+             "bare-existence Documented tier, per this candidate's own 'thin across the span, not "
+             "bounded within it' finding (Doc_04 §5). The classification itself (Supporting) is "
+             "set by override rather than by this document's own six-test verdict -- carried "
+             "exactly as Doc_04 §3 states this, neither upgraded nor downgraded here."),
         src("lpc.source.cyprian-seventh-council-of-carthage",
             "lpc.source.augustine-on-baptism-against-the-donatists"),
-        "Re-derived from the approved Doc_04 §3 (Candidate 5), matching this record's own body text "
-        "to Doc_04 §5's careful distinction between this candidate and Candidate 7 (phase-bound) "
-        "rather than collapsing the two Persistence failures into one shape. relations[] carries the "
-        "gravity<->gravity edges (G1, G3, G6) and the gravity<->force edges (1B-1, 2A-3, 2B-4) named "
-        "above. See this script's own docstring, 'G5'S OWN JUDGMENT CALL,' for why this record states "
-        "the project-lead-ruling provenance directly rather than presenting Supporting as this "
-        "document's own settled verdict.",
+        "Taken from Doc_04 §3 (Candidate 5). The body follows Doc_04 §5 in keeping this candidate "
+        "distinct from Candidate 7 (phase-bound) rather than collapsing the two Persistence "
+        "failures into one shape. relations[] carries the gravity-to-gravity edges (G1, G3, G6) "
+        "and the gravity-to-force edges (1B-1, 2A-3, 2B-4) named above. The Supporting class "
+        "rests on a decision made outside the six-test evidence, and is not presented as a "
+        "settled verdict of the tests.",
     )
 
     emit_gravity(
-        G6, "Sacramental and Ordination Validity Across the Boundary of the Church [PRIMARY]",
+        G6, "Sacramental and Ordination Validity Across the Boundary of the Church",
         "primary",
-        "Doc_04 §3 Candidate 6: PRIMARY. Repetition: passes strongly, recurring in the Epistles' own "
-        "rebaptism correspondence (Row 1), the 256 Council's own ruling (Row 4), and On Baptism in "
-        "full (Row 13, argued 'at book length') -- not confined to one locus the way Candidate 5 is, "
-        "argued across two independent bishops' own extended treatments, decades apart. Dependency: "
-        "passes strongly -- Candidate 3 is tested at its hardest specifically because this question "
-        "exists (the two bishops reach opposite conclusions here while Candidate 3 still holds); "
-        "Candidate 8 is a structurally adjacent question about who may legitimately grant standing "
-        "within the community. Formation: passes -- directly shapes practice; Cyprian's own rebaptism "
-        "requirement is an operative pastoral policy, Augustine's own contrary ruling determines "
-        "whether Donatist clergy are received back in their own orders or re-ordained. Explanatory: "
-        "passes strongly -- explains the entire Stephen/Cyprian rupture, is the central subject of a "
-        "whole Augustine treatise, and explains why the Donatists themselves could appeal to Cyprian's "
-        "own authority for their own rebaptism doctrine. Persistence: passes -- the question persists "
-        "even as the answer changes, itself evidence of the question's own centrality. Interaction: "
-        "reinforces Candidates 1, 2, 3, 5. CONFIDENCE/GRAVITY CROSS-CHECK: Documented -- both "
-        "positions directly quoted and independently re-verified across Doc_01's nine rounds (On "
-        "Baptism I.1.2; the 256 preface; Book III ch. 2 §2). No divergence. FORCES-CONNECTION (Doc_08 "
-        "§5): directly connected to the Ongoing/External force of the Donatist schism (2A-3), which "
-        "makes it institutionally urgent rather than a question about individual converts; re-opened "
-        "across the century gap by 2B-4 (Augustine's own engagement with Cyprian's conciliar acts); "
-        "and connected to 2B-1 (the recurring contest over the failed member), Doc_04 §6 finding "
-        "Cyprian reasoning about both consistently -- an ASYMMETRIC relation Doc_08 §5 itself examines "
-        "at length: Candidate 2 relates to this gravity as 'Reinforcing... both are boundary/"
-        "reintegration questions Cyprian reasons about consistently,' a first-phase relation, while "
-        "Candidate 2 relates to Candidate 7 as 'Reshaped by... not 2's own continuation.' This "
-        "gravity's own claim on Force 2B-1 is therefore independent and first-phase, and does not rest "
-        "on the phase-two family resemblance that runs toward G7 instead.",
+        "Few questions mattered more to this world than whether baptism and ordination given "
+        "outside the church's boundary were valid. The two bishops answer it in opposite ways.\n"
+        "\n"
+        "It recurs strongly: in Cyprian's letters on rebaptism, in the ruling of the Council of "
+        "256, and throughout Augustine's On Baptism, which argues it at book length. Unlike "
+        "conciliar authority, it is not confined to one source. Two independent bishops treat it "
+        "at length, decades apart.\n"
+        "\n"
+        "Other concerns in this world lean on it. Collegial communion is tested hardest here, "
+        "because the two bishops reach opposite conclusions and communion still holds. The "
+        "confessor tension is a closely related question about who may grant standing within the "
+        "community.\n"
+        "\n"
+        "It shapes practice directly. Cyprian's requirement of rebaptism is a working pastoral "
+        "policy. Augustine's contrary ruling decides whether Donatist clergy are received back in "
+        "their own orders or ordained again. It explains the whole rupture between Stephen and "
+        "Cyprian. It is the central subject of an entire treatise by Augustine. It also explains "
+        "why the Donatists could appeal to Cyprian's own authority for their rebaptism doctrine.\n"
+        "\n"
+        "The question persists across both phases even as the answer changes. That persistence is "
+        "itself evidence of how central the question is. It reinforces pastoral office, "
+        "penitential discipline, collegial communion, and conciliar authority.\n"
+        "\n"
+        "Both positions are solidly attested, directly quoted and checked: On Baptism I.1.2, the "
+        "256 preface, and Book III, chapter 2. Neither side of this dispute runs short of "
+        "evidence.\n"
+        "\n"
+        "The Donatist schism, an ongoing outside pressure, makes the question urgent for the "
+        "institution, not just a matter of individual converts. Augustine's engagement with "
+        "Cyprian's conciliar acts reopens it across the century gap. It also connects to the "
+        "recurring contest over the failed member, because Cyprian reasons about both questions "
+        "consistently.\n"
+        "\n"
+        "That last link runs one way only. Penitential discipline reinforces this concern in the "
+        "first phase, since both are questions about the boundary and about return. But "
+        "penitential discipline relates to grace and human incapacity differently: it is reshaped "
+        "by that concern, not continued in it. So this record's own tie to the recurring contest "
+        "over the failed member is its own, and it belongs to the first phase. It does not depend "
+        "on the second-phase family resemblance, which runs toward grace and human incapacity "
+        "instead.",
         [
-            "the 256 Council's own rebaptism ruling (Registry row 4)",
-            "On Baptism, Against the Donatists in full, argued at book length (Registry row 13, "
-            "citing I.1.2 and Book III ch. 2 §2)",
-            "the Epistles' own rebaptism correspondence, the Stephen/Cyprian rupture (Registry row 1)",
+            "the Council of 256's ruling on rebaptism",
+            "On Baptism, Against the Donatists in full, argued at book length (citing I.1.2 and "
+            "Book III, chapter 2)",
+            "the Epistles' correspondence on rebaptism, and the rupture between Stephen and "
+            "Cyprian",
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
-             "Doc_04 §3 Candidate 6: no divergence. Both positions directly quoted and independently "
-             "re-verified across Doc_01's nine review rounds (On Baptism I.1.2; the 256 preface; Book "
-             "III ch. 2 §2)."),
+             "Doc_04 §3 Candidate 6: no divergence. Both positions directly quoted and "
+             "independently re-verified (On Baptism I.1.2; the 256 preface; Book III ch. 2 §2)."),
         src("lpc.source.cyprian-epistles",
             "lpc.source.cyprian-seventh-council-of-carthage",
             "lpc.source.augustine-on-baptism-against-the-donatists"),
-        "Re-derived from the approved Doc_04 §3 (Candidate 6), with the 2B-1 asymmetry independently "
-        "re-verified against Doc_08 §5's own G6 entry, which examines and confirms it at length, "
-        "rejecting an argument that had removed the connection on a symmetry that does not "
-        "exist. relations[] carries the gravity<->gravity edges (G1, G2, G3, G5) and the "
-        "gravity<->force edges (2A-3, 2B-1, 2B-4) named above.",
+        "Taken from Doc_04 §3 (Candidate 6), with the 2B-1 asymmetry independently re-verified "
+        "against Doc_08 §5's own G6 entry, which examines and confirms it at length: the "
+        "connection is real, not the symmetry it might appear to be. relations[] carries the "
+        "gravity<->gravity edges (G1, G2, G3, G5) and the gravity<->force edges (2A-3, 2B-1, "
+        "2B-4) named above.",
     )
 
     emit_gravity(
-        G7, "Grace and Human Incapacity [SUPPORTING]",
+        G7, "Grace and Human Incapacity",
         "supporting",
-        "Doc_04 §3 Candidate 7: SUPPORTING -- organizes a significant, extremely well-evidenced "
-        "portion of the ecology (Augustine's own phase specifically) but does not extend across this "
-        "world's own full span the way Candidates 1, 2, 3, 6 do. Author Gravity risk flagged at "
-        "generation: the entire evidentiary base is one voice (Augustine) within one evidence stream "
-        "(the anti-Pelagian corpus, Row 23), disclosed here rather than discovered as a concern after "
-        "testing, precisely because the density of the evidence could otherwise read as breadth. "
-        "Repetition: passes strongly, and by a wide margin the most textually dense candidate on this "
-        "list -- 1,798 raw occurrences of 'grace' within Row 23's own thirteen works alone. Dependency: "
-        "passes narrowly -- this document finds no other candidate depending on this gravity resolving "
-        "one way or the other; real, heavily attested, but structurally freestanding. Formation: "
-        "passes strongly for Augustine's own phase specifically -- a direct, sustained "
-        "catechetical/polemical formation project across thirteen dedicated works. Explanatory: passes "
-        "for Augustine's own phase (explains the anti-Pelagian corpus's own existence and scale) but "
-        "does not extend backward to Cyprian's own phase -- the Pelagian controversy postdates Cyprian "
-        "by over a century. Persistence: FAILS TO PASS AT THE WORLD LEVEL (no Cyprian-phase evidence "
-        "identified) but passes strongly within Augustine's own phase specifically -- a real temporal "
-        "boundary, not a gap in the search. Interaction: passes narrowly -- reshapes Candidate 2 (a "
-        "related but distinct Augustine-phase question, not that gravity's own continuation); "
-        "reinforces Candidate 4. CONFIDENCE/GRAVITY CROSS-CHECK: Documented for the corpus's own "
-        "existence and scale, directly vendored and independently swept by Doc_03; Documented for "
-        "existence and basic content per Doc_02 §8's own bracket, the specific loci sitting at "
-        "Registry Confidence B. No divergence for the Augustine-phase gravity itself. "
-        "FORCES-CONNECTION (Doc_08 §5): SINGLE-FORCE-ORIGIN, a real finding rather than thin analysis "
-        "-- connected to 2A-4 (Manichaeism/Pelagianism as live rival systems, which produces this "
-        "gravity directly and entirely) and 3B-1 (the corpus outliving the world, carrying this "
-        "gravity out of it). The forces analysis independently reproduces the Author Gravity shape "
-        "Doc_04 flagged at generation: one external pressure, one corpus, one phase.",
+        "This concern is real, but it does not run nearly as wide as the others. It organizes a "
+        "large and extremely well-evidenced part of the world, but only in Augustine's phase. It "
+        "does not span the whole world the way pastoral office, penitential discipline, collegial "
+        "communion, and sacramental validity do.\n"
+        "\n"
+        "It comes with a real limit, and it should be said plainly rather than left for a reader "
+        "to find later. All the evidence comes from one voice, Augustine, in one body of work, "
+        "the anti-Pelagian corpus. The sheer density of that evidence could otherwise be mistaken "
+        "for breadth.\n"
+        "\n"
+        "It is by far the most textually dense concern in this world. The word \"grace\" occurs "
+        "1,798 times in the thirteen anti-Pelagian works alone. Those works form a sustained "
+        "project of teaching and argument, prompted by a live controversy. In them Augustine "
+        "refuses the Pelagian claim that a believer's own moral effort is enough without grace.\n"
+        "\n"
+        "It is real and heavily attested, but it stands on its own. Nothing else in this world "
+        "depends on how it is resolved. It explains why the anti-Pelagian corpus exists and why "
+        "it is so large. But it does not reach back to Cyprian. The Pelagian controversy came "
+        "more than a century after him.\n"
+        "\n"
+        "So it does not span the whole world: no evidence for it has been found in Cyprian's "
+        "phase. Within Augustine's phase it is strong. This is a real boundary in time, not a gap "
+        "in the search. It reshapes penitential discipline by raising a related but distinct "
+        "question in Augustine's phase. It is a separate question, not a continuation of that "
+        "concern. It reinforces preaching and catechesis.\n"
+        "\n"
+        "The corpus's existence and scale are solidly attested. It is held in this project's own "
+        "library and has been checked independently. The specific passages relied on carry the "
+        "lower citation grade (B). Within Augustine's own phase, that carries no confidence gap "
+        "of its own.\n"
+        "\n"
+        "It has a single origin among the forces, and that is a real finding, not thin analysis. "
+        "Manichaeism and Pelagianism, as live rival systems, produced it directly and entirely. "
+        "The survival of Augustine's writings beyond the world carries it out of the world. The "
+        "forces analysis thus confirms the caution flagged at the start: one outside pressure, "
+        "one corpus, one phase.",
         [
-            "the anti-Pelagian corpus, thirteen works occasioned by a live controversy, 1,798 raw "
-            "occurrences of \"grace\" within its own bounds (Registry row 23)",
-            "Augustine's own refusal of Pelagian anthropology's claim that a believer's own moral "
-            "effort is sufficient without grace (Doc_01 §6)",
+            "the anti-Pelagian corpus: thirteen works prompted by a live controversy, with 1,798 "
+            "raw occurrences of \"grace\"",
+            "Augustine's refusal of the Pelagian view of human nature, which held that a "
+            "believer's own moral effort is enough without grace",
         ],
         conf("B", "verified-via-authority", "load-bearing", "Documented",
              "Doc_04 §3 Candidate 7: no divergence for the Augustine-phase gravity itself. Documented "
@@ -859,50 +855,59 @@ def build_gravities() -> None:
              "Confidence B. Persistence fails at the world level -- no Cyprian-phase evidence "
              "identified -- a real temporal boundary named directly rather than a confidence gap."),
         src("lpc.source.augustine-anti-pelagian-corpus"),
-        "Re-derived from the approved Doc_04 §3 (Candidate 7). relations[] carries the "
-        "gravity<->gravity edges (G2, G4) and the gravity<->force edges (2A-4, 3B-1) named above.",
+        "Taken from Doc_04 §3 (Candidate 7). relations[] carries the gravity<->gravity edges (G2, "
+        "G4) and the gravity<->force edges (2A-4, 3B-1) named above, plus one contested_claim "
+        "edge (lpc.contested.grace-pelagius-characterization).",
     )
 
     emit_gravity(
-        G8, "Confessor-Authority vs. Episcopal-Regulated Peace [TENSIONAL]",
+        G8, "Confessor Authority vs. Episcopally Regulated Peace",
         "tensional",
-        "Doc_04 §3 Candidate 8: TENSIONAL. Author Gravity risk flagged at generation: the evidence "
-        "base is essentially one Registry row (1) read through one lexicon entry. Two genuinely "
-        "distinct poles: (a) confessors -- survivors of interrogation under persecution -- issuing "
-        "written requests, on the strength of their own confession, that named lapsed persons be "
-        "received back, an informal claim to grant peace; (b) Cyprian's own regulated, episcopally-"
-        "controlled penitential process, built specifically to answer that competing claim. "
-        "Repetition: passes as a persistent tension rather than a resolved position -- visible in "
-        "Epistles XX-XXI (the confessors' own informal, first-person exercise of this claimed "
-        "authority) and, in managed/regulated form, throughout De Lapsis and Cyprian's own penitential "
-        "correspondence. Dependency: passes -- Candidate 2 exists in the shape it does specifically "
-        "because an informal, competing claim to grant peace already existed and had to be regulated, "
-        "not invented from nothing. Formation: passes -- shapes how Cyprian himself has to keep "
-        "re-asserting episcopal authority over reconciliation throughout his own crisis "
-        "correspondence, rather than legislating it once and being done. Explanatory: passes -- "
-        "explains why De Lapsis and the lapsed-crisis Epistles argue so insistently for episcopal "
-        "control over readmission, a level of insistence Candidate 2's own existence alone does not "
-        "fully explain without this tension behind it. Persistence: passes as a persistent, unresolved "
-        "counter-pressure specifically within the Cyprian-phase crisis window, rather than as a "
-        "broadly world-organizing force in its own right -- the Tensional classification's own "
-        "defining character, not a failure. Interaction: competes with Candidate 2; reinforces "
-        "Candidate 1. CONFIDENCE/GRAVITY CROSS-CHECK: Documented for both poles' existence (Epistles "
-        "XX-XXI's own first-person confessor correspondence; De Lapsis's own regulating argument); of "
-        "the two loci, the Epistles (Row 1) sit at Confidence A and De Lapsis (Row 2) at B. No "
-        "divergence -- the tension itself, not a confidence gap, is the finding. FORCES-CONNECTION "
-        "(Doc_08 §5): held, rather than resolved, under the Initiating/External force that creates "
-        "confessors as a category with any claim to authority at all -- connected to 1A-1 (the Decian "
-        "persecution, which is what creates confessors as a class), 2A-1 (the Valerianic persecution, "
-        "which confirms rather than reshapes this tension and ends the phase in which it is attested), "
-        "2B-2 (the confessors' own claim itself). Phase-one-bound on a positive check -- all three "
-        "connected forces are phase-one forces, and no Augustine-phase confessor-authority material is "
-        "identified anywhere in this world's own corpus, confirming the bound rather than straining it.",
+        "This is a tension in this world, not a settled concern. Two real pressures pull against "
+        "each other, and neither wins. One limit comes first: the evidence rests mainly on one "
+        "source, Cyprian's letters, read through one term in this world's lexicon.\n"
+        "\n"
+        "The first side is the confessors. These were Christians who held firm when questioned "
+        "under persecution. Because of that, they wrote notes asking that named lapsed people be "
+        "taken back. This was an informal claim to grant peace. The second side is Cyprian's own "
+        "process of penance. The bishop ran it and controlled it. He built it to answer that "
+        "rival claim.\n"
+        "\n"
+        "The tension keeps coming back. Letters XX and XXI show the confessors using this claimed "
+        "power themselves, in their own words. De Lapsis and Cyprian's letters on penance show "
+        "his answer. Penance has the shape it does because a rival claim to grant peace already "
+        "existed. That claim had to be brought under order. The discipline was not invented from "
+        "nothing.\n"
+        "\n"
+        "The tension shapes how Cyprian acts. In his crisis letters he must keep restating the "
+        "bishop's power over taking people back. He cannot settle it once. That is why De Lapsis "
+        "and the letters on the lapsed press so hard on the bishop's control. Penance alone does "
+        "not explain how hard they press.\n"
+        "\n"
+        "The tension lasts only through Cyprian's crisis years. In those years it is a steady "
+        "pressure that is never resolved. It does not organize the world as a whole. That is what "
+        "makes it a tension, and it is not a failure. It competes with penance and supports the "
+        "pastoral office.\n"
+        "\n"
+        "Both sides are well attested. The confessors' own letters, XX and XXI, and the argument "
+        "of De Lapsis show both sides in their own words. The letters carry the higher citation "
+        "grade (A) and De Lapsis the lower (B). Neither side lacks evidence. The tension itself "
+        "is the finding.\n"
+        "\n"
+        "The forces around it hold the tension in place. The Decian persecution put confessors in "
+        "one congregation on a mass scale. Their claim was not new: Tertullian, in On Modesty, "
+        "already tells of sinners who ask confessors for peace. The Valerianic persecution kept "
+        "the tension as it was, and it ended the phase in which the tension appears. The "
+        "confessors' claim is itself a force. All three forces belong to the first phase. A "
+        "search of the texts tested here found no confessor-authority material from Augustine's "
+        "phase. The sermons now in scope have not been searched for it. On the texts tested, the "
+        "tension belongs to the first phase alone.",
         [
-            "\"thousands of certificates were daily given, contrary to the law of the Gospel\" "
-            "(Force 2B-2's own Layer 1, quoting Cyprian directly, Doc_08 §3)",
-            "Epistles XX-XXI, the confessors' own informal, first-person written requests granting "
-            "peace to the lapsed (Registry row 1)",
-            "De Lapsis's own regulating argument for episcopal control over readmission (Registry row 2)",
+            "Cyprian's complaint that \"thousands of certificates were daily given, contrary to "
+            "the law of the Gospel\"",
+            "Epistles XX-XXI, the confessors' own informal, first-person written requests "
+            "granting peace to the lapsed",
+            "De Lapsis, Cyprian's argument for the bishop's control over readmission",
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
              "Doc_04 §3 Candidate 8: no divergence -- the tension itself, not a confidence gap, is the "
@@ -911,9 +916,8 @@ def build_gravities() -> None:
              "top-line citation_specificity of A on the strength of the primary confessor-voice locus."),
         src("lpc.source.cyprian-epistles",
             "lpc.source.cyprian-de-lapsis"),
-        "Re-derived from the approved Doc_04 §3 (Candidate 8). relations[] carries the "
-        "gravity<->gravity edges (G1, G2) and the gravity<->force edges (1A-1, 2A-1, 2B-2) named "
-        "above.",
+        "Taken from Doc_04 §3 (Candidate 8). relations[] carries the gravity<->gravity edges (G1, "
+        "G2) and the gravity<->force edges (1A-1, 2A-1, 2B-2) named above.",
     )
 
 
@@ -928,32 +932,38 @@ def build_forces() -> None:
     emit_force(
         F1A1, "The Decian Persecution and the *libelli* System (250)",
         "initiating", "1A",
-        "Doc_08 Cell 1A, Force 1A-1. LAYER 1 -- HISTORICAL EVENT: the first systematically enforced, "
-        "empire-wide persecution, administered through certificates recording that the holder had "
-        "sacrificed. It did not principally demand renunciation; it demanded a documented act of "
-        "compliance, obtainable by performing the sacrifice or by paying to have it recorded. "
-        "Documented -- Doc_01 §2; Doc_02 §1; the crisis correspondence itself (Registry row 1, "
-        "Confidence A) and De Lapsis (row 2, Confidence B). LAYER 2 -- WORLD'S OWN EXPERIENCE: not an "
-        "attack from outside so much as a table emptied one certificate at a time. The demand reached "
-        "each person singly and left the congregation sorted into those who had stood and those who "
-        "had not -- and both were still ours, still in the room. \"[I]t is the shepherd that is "
-        "chiefly wounded in the wound of his flock.\" LAYER 3 -- FORMATION IMPACT: this force created "
-        "the category the entire penitential system exists to process. There were no lapsed before "
-        "there was a certificate to obtain, and no confessors with a claim on anything before there "
-        "was an interrogation to survive. It produces G2 directly and G8 as G2's own counter-pressure; "
-        "it intensifies G1, since a bishop's answerability becomes acute precisely when his people "
-        "fail; and it generates this world's own densest crisis vocabulary -- the lapsed, "
-        "reconciliation, confessor, and the certificates of both kinds. CROSS-CELL CONNECTIONS (Doc_08 "
-        "§4): -> Force 2B-1 (produces) -- the Decian edict creates the category of the failed member "
-        "the ongoing internal contest is about; without this force there is no 2B-1. -> Force 2B-2 "
-        "(produces) -- the same edict creates confessors as a class with a claim; 2B-2 has no "
-        "claimants without it. <- Force 2A-1 (reacted to by) -- the Valerianic persecution repeats "
-        "this test on a community that has by then built a discipline for it.",
+        "The Decian persecution was the first empire-wide persecution to be enforced in a "
+        "planned way. It worked through certificates recording that the holder had sacrificed. "
+        "It did not mainly demand that Christians give up their faith. It demanded a recorded "
+        "act of compliance. A person could get one by performing the sacrifice, or by paying "
+        "to have it recorded. This is documented in Cyprian's crisis correspondence, which "
+        "carries the higher citation grade (A), and in his De Lapsis, which carries the lower "
+        "grade (B).\n"
+        "\n"
+        "It was felt less as an attack from outside than as a table emptied one certificate at "
+        "a time. The demand reached each person alone. It sorted the congregation into those "
+        "who had stood and those who had not. Both groups still belonged, still in the room. "
+        'In Cyprian\'s words, "[I]t is the shepherd that is chiefly wounded in the wound of his '
+        'flock."\n'
+        "\n"
+        "This force made common the group that the whole penitential system exists to deal "
+        "with. In one year, many lapsed and many confessors stood in one congregation. The "
+        "certificate was a new way to fall. The pattern was not new, though. Tertullian, in On "
+        "Modesty, already tells of sinners who ask imprisoned martyrs for peace. So the force "
+        "produced two things at once. One was the ongoing contest over members who had failed, "
+        "and the discipline for restoring them. The other was the confessors' rival claim to "
+        "grant peace, which pushes against it.\n"
+        "\n"
+        "It also sharpened the bishop's answerability, which is sharpest when his people fail. "
+        "And it gave this world its densest crisis vocabulary: the lapsed, reconciliation, "
+        "confessor, and the certificates of both kinds.\n"
+        "\n"
+        "The later Valerianic persecution repeated this test. By then the community had built "
+        "a discipline to meet it.",
         [
-            "the libelli, certificates recording that the holder had sacrificed, obtainable by "
+            "the libelli: certificates recording that the holder had sacrificed, obtainable by "
             "performing the sacrifice or by paying to have it recorded",
-            "\"[I]t is the shepherd that is chiefly wounded in the wound of his flock\" (Cyprian, "
-            "quoted directly at Doc_08 Force 1A-1 Layer 2)",
+            '"[I]t is the shepherd that is chiefly wounded in the wound of his flock" (Cyprian)',
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
              "Doc_08 §3 Force 1A-1: Documented, attested across Doc_01's own founding-boundary "
@@ -962,37 +972,42 @@ def build_forces() -> None:
              "force's own bare occurrence."),
         src("lpc.source.cyprian-epistles",
             "lpc.source.cyprian-de-lapsis"),
-        "Re-derived from the approved Doc_08 §3 Force 1A-1 (Cell 1A, Initiating/External). "
-        "relations[] carries the gravity<->force edges (G1, G2, G8) and the force<->force edges "
-        "(2B-1, 2B-2, 2A-1) named above.",
+        "Taken from Doc_08 §3 Force 1A-1 (Cell 1A, Initiating/External). relations[] carries the "
+        "gravity<->force edges (G1, G2, G8) and the force<->force edges (2B-1, 2B-2, 2A-1) named "
+        "above.",
     )
 
     emit_force(
         F1A2, "The Standing Legal Condition of an Unlicensed Religion in Romanized Provincial North "
               "Africa",
         "initiating", "1A",
-        "Doc_08 Cell 1A, Force 1A-2. LAYER 1 -- HISTORICAL EVENT: through the whole of this world's "
-        "first phase, Christianity held no legal standing in a Romanized provincial society with real "
-        "underlying Punic and, inland, Berber populations. Persecution was episodic; the exposure was "
-        "continuous. Widely Accepted -- Doc_01 §2 (Cultural Environment; Historical Pressures); "
-        "Doc_02 §5. LAYER 2 -- WORLD'S OWN EXPERIENCE: a bishop could be taken and was. The office "
-        "carried no protection and the community no recourse; what it had was each other, and "
-        "whatever a man was willing to do for the people in his charge while he still could. LAYER 3 "
-        "-- FORMATION IMPACT: this condition is why G1 develops as personal answerability rather than "
-        "as jurisdiction -- an office with no external enforcement is held together by the bond "
-        "between one man and one congregation. It is also the condition whose removal in the second "
-        "phase Doc_04 §2 tested as a candidate gravity and declined to advance, finding nothing in "
-        "this ecology organizes around the shift itself. Named here as a force precisely because it is "
-        "not a gravity: it shaped what the office could be without becoming something the ecology "
-        "organizes around. CROSS-CELL CONNECTIONS (Doc_08 §4): -> Force 1B-2 (shapes) -- an office "
-        "with no legal protection is one a sensible man declines, which is why the acclamation pattern "
-        "has to override reluctance. -> Force 2B-3 (inverts into) -- the standing condition of "
-        "illegality is precisely what the illegal-to-established shift removes; the same fact appears "
-        "at both ends of the matrix with opposite sign.",
+        "Throughout this world's first phase, Christianity had no legal standing. It lived in a "
+        "Romanized provincial society with real underlying Punic populations and, inland, Berber "
+        "ones. Persecution came and went, but the exposure never stopped. This picture is widely "
+        "accepted.\n"
+        "\n"
+        "It meant that a bishop could be taken, and was. The office carried no protection, and "
+        "the community had no recourse. What it had was each other, and whatever a man would do "
+        "for the people in his charge while he still could.\n"
+        "\n"
+        "This condition is why the pastoral office grew as personal answerability rather than as "
+        "jurisdiction. An office with nothing outside to enforce it is held together by the bond "
+        "between one man and one congregation.\n"
+        "\n"
+        "In the second phase, the condition was removed. We considered whether that shift was "
+        "itself one of this world's own central concerns, but nothing in this world organizes "
+        "around the shift itself. It is named here as a force precisely because it is not one of "
+        "those central concerns. It shaped what the office could be without becoming something "
+        "the world organizes around.\n"
+        "\n"
+        "An office with no legal protection is one a sensible man declines. That is why "
+        "congregations had to override a chosen man's reluctance by acclamation. The same fact "
+        "also appears at both ends of this world with opposite sign. The later shift from illegal "
+        "to established religion removes exactly this condition.",
         [
-            "the continuous legal exposure of an unlicensed religion across a Romanized provincial "
-            "society with real underlying Punic and Berber populations, against which persecution was "
-            "only episodic",
+            "the continuous legal exposure of an unlicensed religion in a Romanized provincial "
+            "society with real underlying Punic and Berber populations; persecution came only in "
+            "episodes",
         ],
         conf("B", "verified-via-authority", "load-bearing", "Widely Accepted",
              "Doc_08 §3 Force 1A-2: Widely Accepted -- Doc_01 §2 (Cultural Environment; Historical "
@@ -1000,32 +1015,38 @@ def build_forces() -> None:
              "vendored Registry row directly narrates; no lpc.source.* record is cited for it in "
              "Doc_08's own text, and none is invented here to supply one."),
         [],
-        "Re-derived from the approved Doc_08 §3 Force 1A-2 (Cell 1A, Initiating/External). "
-        "relations[] carries the gravity<->force edge (G1) and the force<->force edges (1B-2, 2B-3) "
-        "named above. sources[] is deliberately empty -- see this script's own docstring, THREE "
-        "DISCLOSED EMPTY-SOURCES CASES.",
+        "Taken from Doc_08 §3 Force 1A-2 (Cell 1A, Initiating/External). relations[] carries the "
+        "gravity<->force edge (G1) and the force<->force edges (1B-2, 2B-3) named above. "
+        "sources[] is deliberately empty. Doc_08 cites two of this world's own governing "
+        "documents, not a vendored source, for a background legal condition that this world's "
+        "corpus does not narrate directly.",
     )
 
     emit_force(
         F1B1, "An Already-Organized Carthaginian Church Capable of Sustained Collective Response",
         "initiating", "1B",
-        "Doc_08 Cell 1B, Force 1B-1. LAYER 1 -- HISTORICAL EVENT: Cyprian inherited a community large "
-        "and structured enough to hold real internal factions and to convene councils of dozens of "
-        "bishops at short notice. Documented -- Doc_01 §6; the councils themselves (Registry row 4); "
-        "the Felicissimus material in the Epistles (row 1). LAYER 2 -- WORLD'S OWN EXPERIENCE: not a "
-        "gathering that had to be built but one already standing, with its own men of weight, its own "
-        "quarrels, and its own capacity to meet and decide together. LAYER 3 -- FORMATION IMPACT: this "
-        "is the precondition for G3 -- collegial communion preserved despite disagreement requires "
-        "colleagues who can actually assemble and who already disagree. It also makes G2's regulated "
-        "penitential process possible -- an unorganized community could not have run one -- and "
-        "supplies G5 with the conciliar setting in which both its formulas are eventually spoken. "
-        "CROSS-CELL CONNECTIONS (Doc_08 §4): -> Force 1B-2 (enables) -- a church organized enough to "
-        "hold factions is organized enough to elect over a faction's opposition. -> Force 2B-4 "
-        "(enables) -- councils that met and left acts are what Augustine later reads and argues with.",
+        "Cyprian inherited a church large and structured enough to hold real internal factions. "
+        "It could also call councils of dozens of bishops at short notice. The evidence is "
+        "documented: the councils themselves, and the Felicissimus material in Cyprian's "
+        "letters.\n"
+        "\n"
+        "From the inside, this was not a gathering that had to be built. It was already standing, "
+        "with its own men of weight, its own quarrels, and its own ability to meet and decide "
+        "together.\n"
+        "\n"
+        "This organization made it possible to keep communion among colleagues who disagreed. "
+        "That needs colleagues who can actually meet, and who already disagree. It also made a "
+        "regulated process of penance possible, because an unorganized community could not have "
+        "run one. And it supplied the council setting where both formulas of conciliar authority "
+        "were eventually spoken.\n"
+        "\n"
+        "A church organized enough to hold factions was also organized enough to carry an "
+        "election against a faction's opposition. And the councils that met and left written acts "
+        "are what Augustine later read and argued with.",
         [
-            "councils of dozens of bishops convened at short notice (Registry row 4, the 256 Council)",
-            "the Felicissimus schism, a real internal faction the church was already organized enough "
-            "to hold (Registry row 1)",
+            "councils of dozens of bishops convened at short notice, including the council of 256",
+            "the Felicissimus schism, a real internal faction the church was already organized "
+            "enough to hold",
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
              "Doc_08 §3 Force 1B-1: Documented -- Doc_01 §6; the councils themselves (Registry row 4) "
@@ -1033,44 +1054,46 @@ def build_forces() -> None:
              "force's own bare occurrence."),
         src("lpc.source.cyprian-seventh-council-of-carthage",
             "lpc.source.cyprian-epistles"),
-        "Re-derived from the approved Doc_08 §3 Force 1B-1 (Cell 1B, Initiating/Internal). "
-        "relations[] carries the gravity<->force edges (G2, G3, G5) and the force<->force edges "
-        "(1B-2, 2B-4) named above.",
+        "Taken from Doc_08 §3 Force 1B-1 (Cell 1B, Initiating/Internal). relations[] carries the "
+        "gravity<->force edges (G2, G3, G5) and the force<->force edges (1B-2, 2B-4) named above.",
     )
 
     emit_force(
         F1B2, "Congregational Acclamation Overriding a Reluctant Convert's Preference",
         "initiating", "1B",
-        "Doc_08 Cell 1B, Force 1B-2. LAYER 1 -- HISTORICAL EVENT: Cyprian, a trained rhetorician "
-        "converted in middle life, was elected bishop by the acclamation of the Carthaginian people "
-        "within roughly two to three years of conversion, over the recorded opposition of five "
-        "presbyters. The pattern recurs in the second phase at both of Augustine's offices: he was "
-        "seized into the presbyterate at Hippo in 391 against his wishes, and at the episcopate "
-        "Possidius's Vita ch. VIII records Valerius announcing his intention to the bishops present, "
-        "the whole Hippo clergy, and all the people; those who heard rejoiced and clamoured eagerly "
-        "for it; Augustine refused the episcopate while his own bishop lived; and, persuaded by "
-        "transmarine and African precedent, he yielded under compulsion and constraint. "
-        "Documented -- Epistle XXXIX (row 1); Pontius (row 7, Confidence "
-        "A); Possidius's Vita chs. IV and VIII (row 192); Doc_01 §2. LAYER 2 -- WORLD'S OWN EXPERIENCE: "
-        "\"your suffrage and God's judgment,\" set against a faction's \"ancient venom.\" A deacon who "
-        "knew him put it from outside: \"by the judgment of God and the favour of the people, he was "
-        "chosen to the office of the priesthood and the degree of the episcopate while still a "
-        "neophyte.\" LAYER 3 -- FORMATION IMPACT: this force gives G1 its characteristic "
-        "two-directional shape -- a bishop answerable to the people who placed him as well as for "
-        "them. A caution carried directly rather than smoothed: the pattern is attested through "
-        "different figures and different words, not one recurring term -- but at the same office in "
-        "both phases. CROSS-CELL CONNECTIONS (Doc_08 §4): <- Force 1A-2 (shaped by) -- an office with "
-        "no legal protection is one a sensible man declines, which is why the acclamation pattern has "
-        "to override reluctance. <- Force 1B-1 (enabled by) -- a church organized enough to hold "
-        "factions is organized enough to elect over a faction's opposition.",
+        "Cyprian was a trained rhetorician who converted in middle life. Within roughly two to "
+        "three years of his conversion, the people of Carthage elected him bishop by acclamation. "
+        "Five presbyters are recorded as opposing him. He called it \"your suffrage and God's "
+        "judgment,\" set against a faction's \"ancient venom.\" A deacon who knew him described "
+        "it from outside: \"by the judgment of God and the favour of the people, he was chosen to "
+        "the office of the priesthood and the degree of the episcopate while still a neophyte.\"\n"
+        "\n"
+        "The pattern recurs in the second phase, at both of Augustine's offices. In 391 he was "
+        "seized into the presbyterate at Hippo against his wishes. For the episcopate, "
+        "Possidius's Vita, chapter VIII, records the scene. Valerius announced his intention to "
+        "the bishops present, the whole Hippo clergy, and all the people. Those who heard "
+        "rejoiced and clamoured eagerly for it. Augustine refused the episcopate while his own "
+        "bishop lived. Then, persuaded by precedent from overseas and from Africa, he yielded "
+        "under compulsion and constraint.\n"
+        "\n"
+        "The evidence is documented. It comes from Cyprian's Epistle XXXIX, from Pontius, and "
+        "from Possidius's Vita, chapters IV and VIII.\n"
+        "\n"
+        "This force gives the pastoral office its two-way shape. A bishop answers to the people "
+        "who placed him, as well as for them. One caution is kept rather than smoothed over. The "
+        "pattern is attested through different people and in different words, not through one "
+        "recurring term. But it appears at the same office in both phases.\n"
+        "\n"
+        "Two conditions shaped it. An office with no legal protection is one a sensible man "
+        "declines, so the acclamation had to override reluctance. And a church organized enough "
+        "to hold factions was organized enough to elect a bishop over a faction's opposition.",
         [
-            "\"your suffrage and God's judgment\" (Cyprian's own words on his election, Doc_08 Force "
-            "1B-2 Layer 2)",
-            "\"by the judgment of God and the favour of the people, he was chosen to the office of the "
-            "priesthood and the degree of the episcopate while still a neophyte\" (a deacon's own "
-            "outside account, Doc_08 Force 1B-2 Layer 2)",
-            "Possidius, Vita Augustini ch. VIII: Valerius's own announcement, and Augustine's own "
-            "refusal and yielding \"under compulsion and constraint\" (Registry row 192)",
+            "\"your suffrage and God's judgment\" (Cyprian's own words on his election)",
+            "\"by the judgment of God and the favour of the people, he was chosen to the office "
+            "of the priesthood and the degree of the episcopate while still a neophyte\" (the "
+            "outside account of a deacon who knew him)",
+            "Possidius, Vita Augustini ch. VIII: Valerius's announcement, and Augustine's refusal "
+            "and his yielding \"under compulsion and constraint\"",
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
              "Doc_08 §3 Force 1B-2: Documented -- Epistle XXXIX (Registry row 1); Pontius (row 7, "
@@ -1080,28 +1103,38 @@ def build_forces() -> None:
              "into one uniform recurring term."),
         src("lpc.source.cyprian-epistles",
             "lpc.source.pontius-life-and-passion-of-cyprian",
-            "lpc.source.possidius-vita-augustini-weiskotten1919"),
-        "Re-derived from the approved Doc_08 §3 Force 1B-2 (Cell 1B, Initiating/Internal). "
-        "relations[] carries the gravity<->force edge (G1) and the force<->force edges (1A-2, 1B-1) "
-        "named above.",
+            ("lpc.source.possidius-vita-augustini-weiskotten1919",
+             "Vita Augustini ch. VIII, \"under compulsion and constraint he yielded and accepted "
+             "the ordination\" -- verified directly against "
+             "cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 2142-2143 (the phrase "
+             "is hyphenated across a line wrap in the source file -- \"under com-\" then "
+             "\"pulsion and constraint\")"),
+        ),
+        "Taken from Doc_08 §3 Force 1B-2 (Cell 1B, Initiating/Internal). relations[] carries the "
+        "gravity<->force edge (G1) and the force<->force edges (1A-2, 1B-1) named above.",
     )
 
     emit_force(
         F1B3, "The Inherited Latin Theological Vocabulary",
         "initiating", "1B",
-        "Doc_08 Cell 1B, Force 1B-3. LAYER 1 -- HISTORICAL EVENT: North African Latin Christianity "
-        "possessed, before this world begins, a vigorous local literary culture and the Latin "
-        "theological vocabulary Tertullian is credited with forging. Widely Accepted -- Doc_01 §6, §7; "
-        "Doc_02 §2 (the Tertullian disclosure). LAYER 2 -- WORLD'S OWN EXPERIENCE: the words were to "
-        "hand. What had to be argued could be argued in the language the people in the assembly "
-        "already spoke. LAYER 3 -- FORMATION IMPACT: enables G4 -- preaching and catechesis as the "
-        "primary formation mode presupposes a vernacular theological register capable of carrying the "
-        "content. PROPORTIONALITY NOTE (Doc_08 §8): treated briefly. This force is real and enabling "
-        "but is not contested, not phase-specific, and does not shape any gravity's own content -- "
-        "only its medium. No cross-cell connection is named for this force in Doc_08 §4.",
+        "Before this world begins, North African Latin Christianity already had a vigorous local "
+        "literary culture, along with a Latin theological vocabulary that Tertullian is credited "
+        "with forging. This is widely accepted.\n"
+        "\n"
+        "The words were already to hand -- what had to be argued could be argued in the language "
+        "the people in the assembly already spoke.\n"
+        "\n"
+        "This made preaching and catechesis possible as the main way of forming people, since "
+        "that depends on a theological language in the people's own tongue, able to carry the "
+        "content.\n"
+        "\n"
+        "The force is treated briefly, in proportion to its weight. It is real and enabling. But "
+        "it is not contested and not tied to one phase. It does not shape what the world's "
+        "central concerns say, only the medium they are said in. No link to any other force is "
+        "named for it.",
         [
-            "the pre-existing Latin theological vocabulary Tertullian is credited with forging, "
-            "available to this world's own bishops without needing to be invented",
+            "the Latin theological vocabulary Tertullian is credited with forging, already "
+            "available to this world's bishops without needing to be invented",
         ],
         conf("B", "verified-via-authority", "load-bearing", "Widely Accepted",
              "Doc_08 §3 Force 1B-3: Widely Accepted -- Doc_01 §6, §7; Doc_02 §2's own Tertullian "
@@ -1110,66 +1143,71 @@ def build_forces() -> None:
              "world's own voice) -- no lpc.source.tertullian-* record exists to cite, and none is "
              "invented here to supply one."),
         [],
-        "Re-derived from the approved Doc_08 §3 Force 1B-3 (Cell 1B, Initiating/Internal). "
-        "relations[] carries the gravity<->force edge (G4) named above. sources[] is deliberately "
-        "empty -- see this script's own docstring, THREE DISCLOSED EMPTY-SOURCES CASES.",
+        "Taken from Doc_08 §3 Force 1B-3 (Cell 1B, Initiating/Internal). relations[] carries the "
+        "gravity<->force edge (G4) named above. sources[] is deliberately empty. The Tertullian "
+        "corpus is excluded from this world, so no Tertullian source record exists to cite, and "
+        "none is invented.",
     )
 
     emit_force(
         F2A1, "Recurring Persecution After Decius -- the Valerianic Persecution (257-258)",
         "ongoing", "2A",
-        "Doc_08 Cell 2A, Force 2A-1. LAYER 1 -- HISTORICAL EVENT: renewed imperial persecution under "
-        "Valerian, under which Cyprian was exiled and then martyred in 258. Documented -- Doc_01 §2; "
-        "the Acta Proconsularia within Registry row 194. LAYER 2 -- WORLD'S OWN EXPERIENCE: the thing "
-        "had not finished with us. The man who had spent seven years deciding what to do with those who "
-        "failed the first test was himself taken by the second, and did not fail it. LAYER 3 -- "
-        "FORMATION IMPACT: confirms rather than reshapes G1 and G8 -- it closes the first phase by "
-        "demonstrating, in the person of the bishop who regulated the lapsed, what the confessors' own "
-        "credential had been about. It also ends the first phase's own documentary record, which is "
-        "why G2 and G8 are attested only within it. CROSS-CELL CONNECTION (Doc_08 §4): -> Force 1A-1 "
-        "(reacts to) -- the Valerianic persecution repeats the Decian test on a community that has now "
-        "built a discipline for it.",
+        "Imperial persecution returned under Valerian. Cyprian was exiled and then martyred in "
+        "258. This is documented, including in the Acta Proconsularia.\n"
+        "\n"
+        "The thing had not finished with them. The man who had spent seven years deciding what to "
+        "do with those who failed the first test was taken by the second. He did not fail it.\n"
+        "\n"
+        "This persecution confirms two of the world's concerns rather than reshaping them: the "
+        "pastoral office, and the tension between confessors and bishops. It closes the first "
+        "phase by showing what the confessors' credential had been about. It shows this in the "
+        "person of the bishop who had regulated the lapsed. It also ends the first phase's "
+        "written record. That is why penitential discipline and the confessor tension are "
+        "attested only within that phase.\n"
+        "\n"
+        "The Valerianic persecution repeats the Decian test on a community that has now built a "
+        "discipline for it.",
         [
-            "Cyprian's own exile and martyrdom under Valerian in 258 (the Acta Proconsularia, "
-            "Registry row 194)",
+            "Cyprian's own exile and martyrdom under Valerian in 258, recorded in the Acta "
+            "Proconsularia",
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
              "Doc_08 §3 Force 2A-1: Documented -- Doc_01 §2; the Acta Proconsularia within Registry "
              "row 194; no divergence flagged for this force's own bare occurrence."),
         src("lpc.source.cyprian-opera-spuria-vita-pontius-acta-proconsularia-csel3-pars3"),
-        "Re-derived from the approved Doc_08 §3 Force 2A-1 (Cell 2A, Ongoing/External). relations[] "
-        "carries the gravity<->force edges (G1, G4, G8) and the force<->force edge (1A-1) named above.",
+        "Taken from Doc_08 §3 Force 2A-1 (Cell 2A, Ongoing/External). relations[] carries the "
+        "gravity<->force edges (G1, G4, G8) and the force<->force edge (1A-1) named above.",
     )
 
     emit_force(
         F2A2, "Epidemic Disease -- the Plague of c. 249-262",
         "ongoing", "2A",
-        "Doc_08 Cell 2A, Force 2A-2. LAYER 1 -- HISTORICAL EVENT: a severe, well-attested pandemic "
-        "running through Carthage across Cyprian's episcopate, addressed directly in De Mortalitate. "
-        "Documented -- Doc_01 §2; Registry row 5. LAYER 2 -- WORLD'S OWN EXPERIENCE: a pressure no "
-        "discipline could sort. The persecution at least asked a question a person could answer "
-        "rightly or wrongly; this asked nothing and took the faithful and the lapsed alike. LAYER 3 -- "
-        "FORMATION IMPACT: this is the clearest case in this world of a pressure that produced "
-        "teaching rather than structure. It generated no gravity and no practice; it generated a "
-        "treatise -- the sharpest single illustration of the mechanism Doc_08 §4 names as this world's "
-        "characteristic response: crisis metabolized into formation content through G4. DELIBERATELY "
-        "ISOLATED, NAMED RATHER THAN SILENTLY OMITTED (Doc_08 §4): this force connects to no other "
-        "force in this matrix -- 'not a weak entry: it is this world's clearest case of a pressure "
-        "that produced formation content without producing formation structure, and the Cross-Cell "
-        "Connection Principle is better served by recording the absence than by manufacturing a "
-        "link.' This is NOT encoded as a relations[] entry -- see this script's own docstring for why "
-        "an examined absence and an omitted edge would otherwise read identically.",
+        "A severe, well-attested pandemic ran through Carthage while Cyprian was bishop. He "
+        "addressed it directly in his treatise De Mortalitate. The plague is documented.\n"
+        "\n"
+        "It was a pressure no discipline could sort. Persecution at least asked a question a "
+        "person could answer rightly or wrongly, but the plague asked nothing -- it took the "
+        "faithful and the lapsed alike.\n"
+        "\n"
+        "This is the clearest case in this world of a pressure that produced teaching rather than "
+        "structure. It created no lasting concern the world organizes around, and no practice. It "
+        "produced a treatise. That makes it the sharpest example of how this world typically "
+        "responded to crisis: by turning it into teaching, through preaching and catechesis.\n"
+        "\n"
+        "This force is deliberately left unconnected to any other force in this world. That is "
+        "not a weakness in the entry. It is the clearest case of a pressure that shaped what was "
+        "taught without shaping how the church was built. Recording that absence honestly is "
+        "better than inventing a link.",
         [
-            "De Mortalitate, Cyprian's own treatise directly addressing the plague of c. 249-262 "
-            "(Registry row 5)",
+            "De Mortalitate, Cyprian's own treatise directly addressing the plague of c. 249-262",
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
              "Doc_08 §3 Force 2A-2: Documented -- Doc_01 §2; Registry row 5; no divergence flagged for "
              "this force's own bare occurrence."),
         src("lpc.source.cyprian-minor-pastoral-treatises"),
-        "Re-derived from the approved Doc_08 §3 Force 2A-2 (Cell 2A, Ongoing/External). relations[] "
-        "carries only the gravity<->force edges (G1, G4) named above -- deliberately NO force<->force "
-        "edge, per Doc_08 §4's own explicit 'deliberately isolated' finding for this force, named "
+        "Taken from Doc_08 §3 Force 2A-2 (Cell 2A, Ongoing/External). relations[] carries only "
+        "the gravity<->force edges (G1, G4) named above -- deliberately NO force<->force edge, "
+        "per Doc_08 §4's own explicit 'deliberately isolated' finding for this force, named "
         "rather than silently applied, matching don's own F3A-2/2A-2-equivalent precedent for a "
         "disclosed non-connection.",
     )
@@ -1177,59 +1215,71 @@ def build_forces() -> None:
     emit_force(
         F2A3, "The Donatist Schism",
         "ongoing", "2A",
-        "Doc_08 Cell 2A, Force 2A-3. LAYER 1 -- HISTORICAL EVENT: dominant across large parts of North "
-        "African Christian life for most of the century between the two phases, and a continuing live "
-        "pastoral problem throughout Augustine's episcopate. Documented -- Doc_01 §2; Doc_02 §1; "
-        "Registry rows 12, 13. LAYER 2 -- WORLD'S OWN EXPERIENCE: not strangers and not heretics of a "
-        "foreign kind, but a church in the same towns, with its own bishop in the same see, claiming "
-        "to be the only true one -- and appealing, for its central practice, to our own first bishop's "
-        "own ruling. LAYER 3 -- FORMATION IMPACT: the force with the most consequential reach in the "
-        "second phase. It makes G6 institutionally urgent rather than a question about individual "
-        "converts; it tests G3 at its hardest edge, and G3 holds; it supplies G5's entire occasion, "
-        "since the Donatists' own appeal to Cyprian's conciliar acts is what obliged Augustine to "
-        "argue against a predecessor he could not disown; and it is the external pressure behind the "
-        "coercion doctrine Doc_01 insists be held at three phases rather than compressed. CROSS-CELL "
-        "CONNECTIONS (Doc_08 §4): -> Force 2B-4 (triggers) -- the Donatists' own appeal to Cyprian's "
-        "conciliar acts is what prompts Augustine to read them; external prompt, internal act. -> "
-        "Force 2B-3 (activates) -- a rival communion is what makes the newly available state capacity "
-        "worth using, the occasion of the three-phase coercion development.",
+        "The Donatist church was dominant across large parts of North African Christian life for "
+        "most of the century between the two phases. It remained a live pastoral problem "
+        "throughout Augustine's time as bishop. This is documented.\n"
+        "\n"
+        "The Donatists were not strangers to this world, and not heretics of a foreign kind. They "
+        "were a church in the same towns, with its own bishop in the same see, claiming to be the "
+        "only true church. For their central practice, they appealed to a ruling by Cyprian, this "
+        "world's own first bishop.\n"
+        "\n"
+        "In the second phase, no force had more far-reaching effects. It made the validity of "
+        "sacraments across the church's boundary an urgent question for the institution, not only "
+        "for individual converts. It tested, at its hardest edge, whether communion could hold "
+        "despite disagreement, and communion held.\n"
+        "\n"
+        "It is also the whole reason Augustine argued about the authority of councils at all. The "
+        "Donatists' appeal to Cyprian's conciliar acts obliged him to argue against a predecessor "
+        "he could not disown. That prompt came from outside, but the reading and the argument "
+        "were Augustine's own.\n"
+        "\n"
+        "Finally, it was the outside pressure behind Augustine's teaching on coercion. That "
+        "teaching has to be held in its three phases, not compressed into one. A rival communion "
+        "is what made the state's newly available power worth using.",
         [
-            "the Donatists' own appeal to Cyprian's conciliar acts and rebaptism authority for their "
-            "own central practice (Registry rows 12, 13)",
-            "a rival bishop claiming the same see, the same towns, throughout Augustine's own episcopate",
+            "the Donatists' appeal to Cyprian's conciliar acts and his authority on rebaptism, in "
+            "support of their own central practice",
+            "a rival bishop claiming the same see, in the same towns, throughout Augustine's "
+            "episcopate",
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
              "Doc_08 §3 Force 2A-3: Documented -- Doc_01 §2; Doc_02 §1; Registry rows 12, 13; no "
              "divergence flagged for this force's own bare occurrence."),
         src("lpc.source.augustine-correction-of-the-donatists",
             "lpc.source.augustine-on-baptism-against-the-donatists"),
-        "Re-derived from the approved Doc_08 §3 Force 2A-3 (Cell 2A, Ongoing/External). relations[] "
-        "carries the gravity<->force edges (G3, G4, G5, G6) and the force<->force edges (2B-4, 2B-3) "
-        "named above.",
+        "Taken from Doc_08 §3 Force 2A-3 (Cell 2A, Ongoing/External). relations[] carries the "
+        "gravity<->force edges (G3, G4, G5, G6) and the force<->force edges (2B-4, 2B-3) named "
+        "above.",
     )
 
     emit_force(
         F2A4, "Manichaeism and Pelagian Anthropology as Live Rival Systems",
         "ongoing", "2A",
-        "Doc_08 Cell 2A, Force 2A-4. LAYER 1 -- HISTORICAL EVENT: Manichaeism, an organized rival "
-        "system Augustine belonged to for roughly nine years before his conversion and a recurring "
-        "target thereafter; the Pelagian controversy of the 410s-420s, occupying a thirteen-work "
-        "corpus. Documented -- Doc_01 §2, §6; Registry rows 22, 23. LAYER 2 -- WORLD'S OWN EXPERIENCE: "
-        "two ways of accounting for a person that a bishop had to answer from the pulpit, because the "
-        "people in front of him had heard them. LAYER 3 -- FORMATION IMPACT: produces G7 directly and "
-        "entirely -- the anti-Pelagian corpus is this world's single densest textual object, 1,798 raw "
-        "occurrences of grace within its own bounds. THE MANICHAEAN HALF IS NAMED AND NOT DEVELOPED, on "
-        "a disclosure carried from Doc_04 §7 item 4: it was never independently tested as its own "
-        "candidate gravity because Doc_03's own discovery pass had not surfaced a specific enough term "
-        "to test against. Proportionality note: that is a stated limit, not a judgement that the "
-        "Manichaean pressure was slight. CROSS-CELL CONNECTION (Doc_08 §4): -> Force 3B-1 (produces) "
-        "-- the anti-Pelagian corpus this force generates is the largest single component of the "
-        "inheritance at 3B-1.",
+        "Two rival systems pressed on this world. The first was Manichaeism, an organized system "
+        "that Augustine belonged to for roughly nine years before his conversion. It remained a "
+        "recurring target for him afterward. The second was Pelagian teaching about human nature. "
+        "The controversy over it ran through the 410s and 420s, and it fills a corpus of thirteen "
+        "works. Both are documented.\n"
+        "\n"
+        "These were two ways of accounting for a person that this world had to reckon with. A "
+        "bishop had to answer them from the pulpit, because the people in front of him had heard "
+        "them.\n"
+        "\n"
+        "This force directly and entirely produces the world's teaching on grace and human "
+        "incapacity. The anti-Pelagian writings are this world's single densest body of text, "
+        "with 1,798 raw occurrences of \"grace\" within their bounds. They are also the largest "
+        "single part of the inheritance that outlived the world.\n"
+        "\n"
+        "The Manichaean half is named here but not developed. We never tested it on its own as "
+        "one of this world's own central concerns, because our own vocabulary study had not "
+        "turned up a term specific enough to test. That is a stated limit of the analysis, not a "
+        "judgement that the Manichaean pressure was slight.",
         [
             "Manichaeism, an organized rival system Augustine belonged to for roughly nine years "
-            "before his conversion (Registry row 22)",
-            "the thirteen-work anti-Pelagian corpus, 1,798 raw occurrences of \"grace\" within its own "
-            "bounds (Registry row 23)",
+            "before his conversion",
+            "the thirteen-work anti-Pelagian corpus, with 1,798 raw occurrences of \"grace\" "
+            "within its bounds",
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
              "Doc_08 §3 Force 2A-4: Documented -- Doc_01 §2, §6; Registry rows 22, 23. The Manichaean "
@@ -1239,35 +1289,40 @@ def build_forces() -> None:
              "Documented rating."),
         src("lpc.source.augustine-anti-manichaean-corpus",
             "lpc.source.augustine-anti-pelagian-corpus"),
-        "Re-derived from the approved Doc_08 §3 Force 2A-4 (Cell 2A, Ongoing/External). relations[] "
-        "carries the gravity<->force edges (G4, G7) and the force<->force edge (3B-1) named above.",
+        "Taken from Doc_08 §3 Force 2A-4 (Cell 2A, Ongoing/External). relations[] carries the "
+        "gravity<->force edges (G4, G7) and the force<->force edge (3B-1) named above.",
     )
 
     emit_force(
         F2B1, "The Recurring Contest Over How to Treat the Failed Member",
         "ongoing", "2B",
-        "Doc_08 Cell 2B, Force 2B-1. LAYER 1 -- HISTORICAL EVENT: the lapsed under Cyprian; ordinary "
-        "post-baptismal sin and schism-tempted believers under Augustine. Documented -- Doc_01 §6's "
-        "own Ongoing/Internal cell; Registry rows 1, 2, 12, 13. LAYER 2 -- WORLD'S OWN EXPERIENCE: the "
-        "question that would not go away -- what do you owe someone who is yours and has failed? A "
-        "church that takes everyone back the same afternoon has no door; one that takes no one back "
-        "has no Master. LAYER 3 -- FORMATION IMPACT: G2 is this force's direct product in the first "
-        "phase. Its second-phase persistence is QUALIFIED RATHER THAN ASSUMED, per Doc_04's own "
-        "Persistence test: the concern does not continue under its own name, and what survives is a "
-        "family resemblance to G6 and G7, tested and classified separately. This force therefore "
-        "connects to G2 and to G6 -- both FIRST-PHASE relations -- and NOT to G7. The asymmetry is "
-        "Doc_04 §6's own, not this document's: Candidate 2 relates to Candidate 6 as 'Reinforcing... "
-        "both are boundary/reintegration questions Cyprian reasons about consistently,' within the "
-        "first phase, while Candidate 2 relates to Candidate 7 as 'Reshaped by... not 2's own "
-        "continuation.' The phase-two afterlife is therefore a family resemblance toward G7, not a "
-        "force-connection, which is why this force's own list does not carry G7 and its single-force "
-        "origin toward G2/G6 stands. CROSS-CELL CONNECTIONS (Doc_08 §4): <- Force 1A-1 (produced by) "
-        "-- the Decian edict creates the category of the failed member this contest is about. <- Force "
-        "2B-2 (intensified by) -- the confessors' own parallel system is why the internal contest had "
-        "to be settled by a formal process rather than by episcopal say-so.",
+        "Under Cyprian, the contest was over the lapsed. Under Augustine, it was over ordinary "
+        "sin after baptism, and over believers tempted by schism. The contest is documented in "
+        "both periods.\n"
+        "\n"
+        "This was the question that would not go away, felt from inside: what do you owe someone "
+        "who is yours and has failed? A church that takes everyone back the same afternoon has no "
+        "door. One that takes no one back has no Master.\n"
+        "\n"
+        "In the first phase, this contest directly produced the church's penitential discipline. "
+        "In that same phase, it also links to the question of valid sacraments and ordination "
+        "outside the church. Both are questions of boundary and return, and Cyprian reasons about "
+        "them in the same way.\n"
+        "\n"
+        "That the contest lasts into the second phase is a qualified claim, not an assumed one. "
+        "The concern does not continue under its own name. What survives is a family resemblance "
+        "to two other concerns that were tested on their own: sacramental validity, and grace and "
+        "human incapacity. The debate over grace reshapes the old concern but does not continue "
+        "it. So the later link is a resemblance, not a direct connection. This force connects to "
+        "penitential discipline and sacramental validity, both in the first phase. It does not "
+        "connect to grace.\n"
+        "\n"
+        "The Decian edict made failed members common, and this contest is about them. The "
+        "confessors' own parallel system sharpened it. That rival system meant a formal process "
+        "had to settle the contest, not the bishop's word alone.",
         [
-            "the lapsed under Cyprian; ordinary post-baptismal sin and schism-tempted believers under "
-            "Augustine (Registry rows 1, 2, 12, 13)",
+            "the lapsed under Cyprian; ordinary post-baptismal sin and schism-tempted believers "
+            "under Augustine",
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
              "Doc_08 §3 Force 2B-1: Documented -- Doc_01 §6's own Ongoing/Internal cell; Registry rows "
@@ -1279,33 +1334,37 @@ def build_forces() -> None:
             "lpc.source.cyprian-de-lapsis",
             "lpc.source.augustine-correction-of-the-donatists",
             "lpc.source.augustine-on-baptism-against-the-donatists"),
-        "Re-derived from the approved Doc_08 §3 Force 2B-1 (Cell 2B, Ongoing/Internal). relations[] "
-        "carries the gravity<->force edges (G2, G6) and the force<->force edges (1A-1, 2B-2) named "
-        "above -- deliberately NOT G7, per this force's own asymmetric family-resemblance finding "
-        "above.",
+        "Taken from Doc_08 §3 Force 2B-1 (Cell 2B, Ongoing/Internal). relations[] carries the "
+        "gravity<->force edges (G2, G6) and the force<->force edges (1A-1, 2B-2) named above -- "
+        "deliberately NOT G7, per this force's own asymmetric family-resemblance finding above.",
     )
 
     emit_force(
         F2B2, "The Confessors' Claim to Grant Peace",
         "ongoing", "2B",
-        "Doc_08 Cell 2B, Force 2B-2. LAYER 1 -- HISTORICAL EVENT: survivors of interrogation issued "
-        "written requests that named lapsed persons be received back -- in Cyprian's own words, "
-        "\"thousands of certificates were daily given, contrary to the law of the Gospel.\" Documented "
-        "-- Registry row 1 (Confidence A). LAYER 2 -- WORLD'S OWN EXPERIENCE: I stood before the "
-        "magistrate and did not deny Him, and I say this man may come back. -- And the peace of the "
-        "church is not any man's to give out of his own suffering, however real. Both in earnest; that "
-        "is the difficulty. LAYER 3 -- FORMATION IMPACT: this force is G8, the Tensional gravity, and "
-        "it is also why G2 takes the insistent, repeatedly-restated form it does. The penitential "
-        "process was not legislated into a vacuum but built against a working parallel system already "
-        "circulating documents at scale. PHASE-BOUND, and the bound was established by a check rather "
-        "than assumed: twenty stem occurrences of \"confessor\" across all eight vendored Augustine "
-        "volumes, none in this sense. CROSS-CELL CONNECTIONS (Doc_08 §4): <- Force 1A-1 (produced by) "
-        "-- the same edict creates confessors as a class with a claim; this force has no claimants "
-        "without it. -> Force 2B-1 (intensifies) -- the confessors' own parallel system is why the "
-        "internal contest had to be settled by a formal process rather than by episcopal say-so.",
+        "People who survived interrogation without denying their faith issued written requests "
+        "that named lapsed persons be received back. In Cyprian's own words, \"thousands of "
+        "certificates were daily given, contrary to the law of the Gospel.\" This is documented.\n"
+        "\n"
+        "Both sides spoke in earnest, and that was the difficulty. One side said: I stood before "
+        "the magistrate and did not deny Him, and I say this man may come back. The other "
+        "answered: the peace of the church is not any man's to give out of his own suffering, "
+        "however real.\n"
+        "\n"
+        "This force is the one tension of its kind in this world's record: the confessors' "
+        "authority set against the peace that the bishop regulates. It also explains why the "
+        "penitential discipline takes such an insistent, often-restated form. Penance was not "
+        "made in a vacuum. It was built against a working parallel system that already circulated "
+        "documents on a large scale. That parallel system is why the contest over the lapsed had "
+        "to be settled by a formal process, not by a bishop's word alone.\n"
+        "\n"
+        "The Decian edict made confessors a large class with a claim. The force belongs to "
+        "Cyprian's phase alone. That limit rests on a check, not on an assumption from silence. "
+        "The stem \"confessor\" appears twenty times across all eight Augustine volumes in the "
+        "project's library, and never in this sense.",
         [
             "\"thousands of certificates were daily given, contrary to the law of the Gospel\" "
-            "(Cyprian's own words, Registry row 1, quoted directly at Doc_08 Force 2B-2 Layer 1)",
+            "(Cyprian's own words)",
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
              "Doc_08 §3 Force 2B-2: Documented -- Registry row 1, Confidence A; no divergence flagged "
@@ -1313,34 +1372,36 @@ def build_forces() -> None:
              "occurrences of 'confessor' across all eight vendored Augustine volumes, none in this "
              "sense), not assumed from silence."),
         src("lpc.source.cyprian-epistles"),
-        "Re-derived from the approved Doc_08 §3 Force 2B-2 (Cell 2B, Ongoing/Internal). relations[] "
-        "carries the gravity<->force edges (G2, G8) and the force<->force edges (1A-1, 2B-1) named "
-        "above.",
+        "Taken from Doc_08 §3 Force 2B-2 (Cell 2B, Ongoing/Internal). relations[] carries the "
+        "gravity<->force edges (G2, G8) and the force<->force edges (1A-1, 2B-1) named above.",
     )
 
     emit_force(
         F2B3, "The Illegal-to-Established Shift in the Office's Political Capacity",
         "ongoing", "2B",
-        "Doc_08 Cell 2B, Force 2B-3. LAYER 1 -- HISTORICAL EVENT: between the phases, the office moved "
-        "from holding no legal standing to being able to solicit state action against a rival "
-        "communion. Documented for the external change itself; CONTESTED for the one element that is "
-        "genuinely disputable -- the placement of this force's consequence as internal rather than "
-        "external, which follows Doc_01 §6's own sketch and is named here as that document's own "
-        "judgement rather than this one's. Its external driver is the standing condition at 1A-2, "
-        "inverted. LAYER 2 -- WORLD'S OWN EXPERIENCE: what a bishop could do had changed, though what "
-        "a bishop was had not. Cyprian never asked the magistrate for anything; a century and a third "
-        "later the magistrate could be asked, and eventually was. LAYER 3 -- FORMATION IMPACT: Doc_04 "
-        "§2 TESTED THIS AS A CANDIDATE GRAVITY AND DECLINED TO ADVANCE IT, finding nothing in this "
-        "ecology organizes around the shift itself -- it changes the instruments available to a "
-        "bishop, not the thing a bishop is. Doc_07 §2E reaches the same conclusion from the "
-        "ethical/legal side. Carried here as a real force with a deliberately bounded formation "
-        "impact, per the Proportionality Principle. CROSS-CELL CONNECTIONS (Doc_08 §4): <- Force 1A-2 "
-        "(inverted from) -- the standing condition of illegality is precisely what this shift removes; "
-        "the same fact appears at both ends of the matrix with opposite sign. <- Force 2A-3 (activated "
-        "by) -- a rival communion is what makes the newly available state capacity worth using.",
+        "Between the two phases, the bishop's office changed its legal position. At first it had "
+        "no legal standing at all. Later it could ask the state to act against a rival "
+        "communion.\n"
+        "\n"
+        "The outside change itself is documented. One element is contested: not whether the shift "
+        "happened, but whether its consequence belongs among the world's inner forces or its "
+        "outside pressures. Placing it as an inner force follows a judgement we made earlier, not "
+        "a settled finding.\n"
+        "\n"
+        "The shift is the old condition of illegality turned upside down, the same fact appearing "
+        "at both ends of the story with the opposite sign. What a bishop could do had changed, "
+        "though what a bishop was had not -- Cyprian never asked the magistrate for anything, and "
+        "a century and a third later, the magistrate could be asked, and eventually was.\n"
+        "\n"
+        "We considered whether the shift itself was one of this world's own central concerns. It "
+        "is not, because nothing in this world actually organizes itself around the shift. It "
+        "changes the tools a bishop has, not what a bishop is. A separate look from the ethical "
+        "and legal side reached the same conclusion. So it is kept as a real force, with an "
+        "impact deliberately limited in proportion to its weight. A rival communion, the Donatist "
+        "church, is what made the new state power worth using.",
         [
-            "Cyprian never asking the magistrate for anything, against Augustine's own later "
-            "recourse to state action against the Donatist schism a century and a third afterward",
+            "Cyprian never asking the magistrate for anything, set against Augustine's later "
+            "recourse to state action against the Donatist schism a century and a half afterward",
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
              "Doc_08 §3, §7 Force 2B-3: Documented for the external change itself. Carries a "
@@ -1351,41 +1412,50 @@ def build_forces() -> None:
              "finding nothing in this ecology organizes around the shift itself -- a classification "
              "finding, not a confidence divergence, carried here for completeness."),
         [],
-        "Re-derived from the approved Doc_08 §3 Force 2B-3 (Cell 2B, Ongoing/Internal). No "
-        "gravity<->force edge -- Doc_08 §5's own gravity-by-gravity list and lpc_Force_Index.md §1's "
-        "own 'Connected Gravities: --' both confirm this force connects to no classified gravity, "
-        "consistent with Doc_04 §2's own decision not to advance the underlying shift as a candidate. "
-        "relations[] carries the force<->force edges (1A-2, 2A-3) named above. sources[] is "
-        "deliberately empty -- see this script's own docstring, THREE DISCLOSED EMPTY-SOURCES CASES.",
+        "Taken from Doc_08 §3 Force 2B-3 (Cell 2B, Ongoing/Internal). No gravity<->force edge -- "
+        "Doc_08 §5's own gravity-by-gravity list and lpc_Force_Index.md §1's own 'Connected "
+        "Gravities: --' both confirm this force connects to no classified gravity, consistent "
+        "with Doc_04 §2's own decision not to advance the underlying shift as a candidate. "
+        "relations[] carries the force<->force edges (1A-2, 2A-3) named above, plus one "
+        "contested_claim edge (lpc.contested.compel-coercion-development). sources[] is "
+        "deliberately empty. This force rests on a judgment about where a legal condition sits, "
+        "not on a vendored text that makes a claim.",
     )
 
     emit_force(
         F2B4, "Augustine's Engagement with Cyprian's Conciliar Acts",
         "ongoing", "2B",
-        "Doc_08 Cell 2B, Force 2B-4. LAYER 1 -- HISTORICAL EVENT: Augustine read, argued with, and "
-        "overturned the 256 Council's own ruling on rebaptism, in On Baptism, Against the Donatists. "
-        "Documented -- Registry rows 4, 13. LAYER 2 -- WORLD'S OWN EXPERIENCE: a predecessor who is "
-        "ours, whom we do not disown, and who decided this wrongly. \"[E]ven of the plenary Councils, "
-        "the earlier are often corrected by those which follow them.\" LAYER 3 -- FORMATION IMPACT: "
-        "the only force in this matrix that carries this world's own formation logic across its own "
-        "133-year silence, and Doc_07 §3A finds the crossing is textual rather than successive. It "
-        "produces G5's second formula, tests G3 across the gap, and re-opens G6. THE PLACEMENT "
-        "JUDGEMENT, EXAMINED RATHER THAN INHERITED: Doc_01 §6 places this force in the Internal column "
-        "while flagging that the engagement was prompted by the Donatists' own citation of Cyprian -- "
-        "an external prompt for an internal act. Doc_08 confirms the placement and states the reason: "
-        "the reading, the argument, and the conclusion are this world's own acts; the prompt "
-        "determines only the timing. CROSS-CELL CONNECTIONS (Doc_08 §4): <- Force 1B-1 (enabled by) "
-        "-- councils that met and left acts are what Augustine later reads and argues with. <- Force "
-        "2A-3 (triggered by) -- the Donatists' own appeal to Cyprian's conciliar acts is what prompts "
-        "Augustine to read them. -> Force 3B-2 (is the sole instance of) -- this force is the only one "
-        "in this matrix that carries formation logic across the 133-year silence recorded at 3B-2; the "
-        "crossing is textual and is attested twice, the second instance (Possidius quoting Cyprian's "
-        "De Mortalitate) not itself a force in this matrix.",
+        "Augustine read, argued with, and overturned the ruling on rebaptism made by Cyprian's "
+        "council of 256. He did this in On Baptism, Against the Donatists. The engagement is "
+        "documented.\n"
+        "\n"
+        "From inside this world, Cyprian was a predecessor who belonged to them. They did not "
+        "disown him, and yet he had decided this question wrongly. Augustine gave the principle "
+        "that let him say so: \"[E]ven of the plenary Councils, the earlier are often corrected "
+        "by those which follow them.\"\n"
+        "\n"
+        "This is the only force that carries the world's formation logic across its 133-year "
+        "silence between the two phases. The crossing happens through texts, not through a line "
+        "of living successors. It is attested twice. The second instance is Possidius quoting "
+        "Cyprian's De Mortalitate, which is not treated as a force in its own right.\n"
+        "\n"
+        "This engagement produces the second of the world's two accounts of what councils can "
+        "decide: Augustine's view that later councils correct earlier ones. It tests, across the "
+        "long gap, whether communion can hold despite disagreement. It also reopens the question "
+        "of whether sacraments are valid outside the church's boundary.\n"
+        "\n"
+        "The Donatists prompted it by citing Cyprian for themselves, so the prompt came from "
+        "outside. But the reading, the argument, and the conclusion were this world's own acts. "
+        "The outside prompt decided only the timing. For that reason it counts as an internal "
+        "force. This placement was examined and confirmed, not simply inherited.\n"
+        "\n"
+        "It also depended on an earlier condition. Cyprian's councils met and left written acts, "
+        "and those acts are what Augustine later read and argued with.",
         [
-            "\"[E]ven of the plenary Councils, the earlier are often corrected by those which follow "
-            "them\" (Augustine, On Baptism, quoted directly at Doc_08 Force 2B-4 Layer 2)",
-            "Augustine reading, arguing with, and overturning the 256 Council's own rebaptism ruling "
-            "(Registry rows 4, 13)",
+            "\"[E]ven of the plenary Councils, the earlier are often corrected by those which "
+            "follow them\" (Augustine, On Baptism, Against the Donatists)",
+            "Augustine reading, arguing with, and overturning the rebaptism ruling of Cyprian's "
+            "council of 256",
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
              "Doc_08 §3 Force 2B-4: Documented -- Registry rows 4, 13; no divergence flagged for this "
@@ -1395,54 +1465,62 @@ def build_forces() -> None:
              "internal acts, per Doc_08's own stated reason."),
         src("lpc.source.cyprian-seventh-council-of-carthage",
             "lpc.source.augustine-on-baptism-against-the-donatists"),
-        "Re-derived from the approved Doc_08 §3 Force 2B-4 (Cell 2B, Ongoing/Internal). relations[] "
-        "carries the gravity<->force edges (G3, G5, G6) and the force<->force edges (1B-1, 2A-3, "
-        "3B-2) named above.",
+        "Taken from Doc_08 §3 Force 2B-4 (Cell 2B, Ongoing/Internal). relations[] carries the "
+        "gravity<->force edges (G3, G5, G6) and the force<->force edges (1B-1, 2A-3, 3B-2) named "
+        "above.",
     )
 
     emit_force(
-        F2B5, "Transmission -- Survival on the Institutionally Dominant Side, Through a "
-              "19th-Century Translation Apparatus",
+        F2B5, "Transmission: Survival on the Institutionally Dominant Side, Through a "
+              "19th-Century Translation Programme",
         "ongoing", "2B",
-        "Doc_08 Cell 2B, Force 2B-5 -- the Transmission dimension this cell is required to address "
-        "explicitly (Doc_08 §9 completion certification), synthesized fully at Doc_08 §6. LAYER 1 -- "
-        "HISTORICAL EVENT: both anchor figures' writing survives in unusually full form; each was, by "
-        "the time of writing or of later transmission, on the institutionally dominant and eventually "
-        "canonized side of every dispute he engaged. This build's actual access is narrower than "
-        "that: the working corpus is the 19th-century Ante-Nicene and Nicene and Post-Nicene Fathers "
-        "English translation projects, with critical Latin editions vendored but far less used. "
-        "Documented for the survival pattern and for the composition of this build's own corpus. "
-        "Named transmission agents: the Catholic institutional manuscript tradition; the ANF/NPNF "
-        "editors and translators; and the vendoring decisions of this build itself. LAYER 2 -- "
-        "WORLD'S OWN EXPERIENCE: this world was acutely conscious of transmission and acted on it. "
-        "Cyprian assembles his own correspondence into a dossier and forwards it -- \"these thirteen "
-        "letters sent forth at various times declare to you, which I have transmitted to you.\" He "
-        "knows his letters are read beyond their addressee, and experiences textual corruption "
-        "directly: receiving a letter whose \"matter, and even the paper itself, gave me the idea that "
-        "something had been taken away, or had been changed from the original,\" he returns it for "
-        "collation. A century and a third later the same consciousness takes a different form: "
-        "Augustine, near the end of his life, sets out to review his own works \"with a certain "
-        "judicial severity,\" and to mark what displeases him \"as with a censor's pen\" -- a "
-        "deliberate act of curating what would outlast him. What this world could not experience is "
-        "the part that happened later: the Catholic institutional tradition's own selection, and a "
-        "19th-century translation programme. LAYER 3 -- FORMATION IMPACT: three effects. First, the "
-        "record is full and single-angled at once -- this world's own asymmetry is not hostile "
-        "mediation, but the near-total absence of any non-episcopal voice. Second, the 19th-century "
-        "editorial apparatus is interleaved with the text and has repeatedly been read as the world's "
-        "own voice -- this build has eight documented local instances of the defect. Third, "
-        "translation shapes discovery, not only accuracy: a headword sweep in the original language "
-        "cannot find a term a corpus only ever names in translation. CROSS-CELL CONNECTION (Doc_08 "
-        "§4): -> Force 3B-2 (continues) -- the same transmission pattern operates in both cells; 3B-2 "
-        "is this force's own effect on the span rather than on the content.",
+        "The writings of both Cyprian and Augustine survive in unusually full form. In his own "
+        "time or later, each man stood on the institutionally dominant side of every dispute he "
+        "joined. That side was eventually the canonized one.\n"
+        "\n"
+        "This project's actual access is narrower. It works mainly from the 19th-century English "
+        "translation series, the Ante-Nicene Fathers and the Nicene and Post-Nicene Fathers. It "
+        "also holds critical Latin editions, but uses them far less. Both the survival pattern "
+        "and the make-up of this working corpus are documented. The named agents of transmission "
+        "are the Catholic institutional manuscript tradition, the editors and translators of "
+        "those two series, and this project's own choices about which texts to hold.\n"
+        "\n"
+        "This world was acutely aware of transmission and acted on it. Cyprian gathered his own "
+        "letters into a dossier and sent it on: \"these thirteen letters sent forth at various "
+        "times declare to you, which I have transmitted to you.\" He knew his letters were read "
+        "beyond the person they were written to. He also met textual corruption directly. One "
+        "letter's \"writing and the matter, and even the paper itself, gave me the idea that "
+        "something had been taken away, or had been changed from the original.\" He sent it back "
+        "to be checked against the original.\n"
+        "\n"
+        "Some 170 years on, the same awareness took a new form. Near the end of his life, "
+        "Augustine set out to review his own works \"with a certain judicial severity.\" He "
+        "marked what displeased him \"as with a censor's pen.\" It was a deliberate act of "
+        "shaping what would outlast him.\n"
+        "\n"
+        "What this world could not experience is what came later: the Catholic tradition's own "
+        "selection of texts, and a 19th-century translation programme.\n"
+        "\n"
+        "This has three effects. First, the record is full and one-sided at the same time. Its "
+        "imbalance does not come from hostile filtering. It comes from the near-total absence of "
+        "any voice other than a bishop's. Second, the 19th-century editors' material is woven "
+        "into the text. It has repeatedly been mistaken for the world's own voice, and this "
+        "project has documented eight local cases. Third, translation shapes what can be found, "
+        "not only how accurately it reads. A search of original-language headwords cannot find a "
+        "term that the corpus only ever names in translation.\n"
+        "\n"
+        "The same pattern continues across the silence between the two phases. There it shapes "
+        "the span of the record rather than its content.",
         [
-            "Cyprian's own dossier of thirteen letters, \"sent forth at various times... which I have "
-            "transmitted to you\" (Registry row 1)",
-            "a suspect letter Cyprian returns for collation, because \"the paper itself gave me the "
-            "idea that something had been taken away, or had been changed from the original\" "
-            "(Registry row 1)",
+            "Cyprian's own dossier of thirteen letters, \"sent forth at various times... which I "
+            "have transmitted to you\"",
+            "a suspect letter Cyprian sends back to be checked against the original, because its "
+            "\"writing and the matter, and even the paper itself, gave me the idea that something "
+            "had been taken away, or had been changed from the original\"",
             "Augustine's Retractationes, reviewing his own life's work \"with a certain judicial "
-            "severity\" and marking what displeases him \"as with a censor's pen\" (Registry row 209, "
-            "a Latin-only witness, this build's own English rendering)",
+            "severity\" and marking what displeases him \"as with a censor's pen\" (our own "
+            "corpus holds no complete English translation of it, and none of this passage; this "
+            "English is our own rendering)",
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
              "Doc_08 §3 Force 2B-5: Documented for the survival pattern and for the composition of "
@@ -1453,73 +1531,83 @@ def build_forces() -> None:
              "than narrated from inside, per Doc_08 §8's own Reported-Experience discipline."),
         src("lpc.source.cyprian-epistles",
             "lpc.source.knoll-augustine-retractationes-csel36"),
-        "Re-derived from the approved Doc_08 §3 Force 2B-5 (Cell 2B, Ongoing/Internal; Transmission "
-        "dimension). relations[] carries only the force<->force edge (3B-2) named above -- "
-        "deliberately no gravity<->force edge, per Doc_08 §5's own explicit 'cross-cutting, not "
-        "gravity-specific' disposition for this force (matching don.force.transmission-hostile-"
-        "manuscript-tradition's own identical disposition), named rather than silently applied.",
+        "Taken from Doc_08 §3 Force 2B-5 (Cell 2B, Ongoing/Internal; Transmission dimension). "
+        "relations[] carries only the force<->force edge (3B-2) named above -- deliberately no "
+        "gravity<->force edge, per Doc_08 §5's own explicit 'cross-cutting, not gravity-specific' "
+        "disposition for this force (matching "
+        "don.force.transmission-hostile-manuscript-tradition's own identical disposition), named "
+        "rather than silently applied.",
     )
 
     emit_force(
         F3A1, "The Vandal Invasion (from 429) and the Siege of Hippo",
         "ending", "3A",
-        "Doc_08 Cell 3A, Force 3A-1. LAYER 1 -- HISTORICAL EVENT: the Vandals crossed from Spain in "
-        "429 and besieged Hippo in the final months of Augustine's life; he died on 28 August 430. A "
-        "near-contemporary Gallic chronicler independently records the death under that year. "
-        "Documented -- Registry row 203. (Row 203 also records the Vandal capture of Carthage under "
-        "439 -- a different city, nine years later, and no part of this world's own end-boundary.) "
-        "LAYER 2 -- WORLD'S OWN EXPERIENCE: an army on the road while the bishop lay dying inside the "
-        "walls, with the people he was answerable for still in the city. LAYER 3 -- FORMATION IMPACT: "
-        "this force closes the world on the same register that opened it -- external, violent pressure "
-        "on ordinary congregational life -- the second of Doc_01 §2's own two grounds for the 430 "
-        "boundary. It terminates the attested life of G1: the bond between this bishop and this flock "
-        "ends when he does. CROSS-CELL CONNECTION (Doc_08 §4): -> Force 3B-1 (coincides with, does not "
-        "cause) -- the invasion closes the world; the corpus outlives it, named as coincidence rather "
-        "than causation -- the inheritance was secured by copying, not by the siege.",
+        "The Vandals crossed from Spain in 429. They besieged Hippo in the final months of "
+        "Augustine's life, and he died on 28 August 430 -- a date a near-contemporary Gallic "
+        "chronicler independently records. This is documented. The same chronicle records the "
+        "Vandal capture of Carthage under 439, a different city, nine years later, and no part of "
+        "where this world ends.\n"
+        "\n"
+        "This was an army on the road while the bishop lay dying inside the walls, with the "
+        "people he answered for still in the city.\n"
+        "\n"
+        "This force closes the world the same way it opened, with violent pressure from outside "
+        "on ordinary congregational life -- the second of the two reasons for ending this world "
+        "in 430. It also ends the recorded life of the pastoral office here: the bond between "
+        "this bishop and this flock ends when he does.\n"
+        "\n"
+        "The invasion coincides with the survival of the world's writings, but it does not cause "
+        "it. The invasion closes the world, and the writings outlive it. The inheritance was "
+        "secured by copying, not by the siege.",
         [
             "the siege of Hippo, beginning 429, in the final months of Augustine's life",
-            "Augustine's own death on 28 August 430, independently recorded by a near-contemporary "
-            "Gallic chronicler (Registry row 203)",
+            "Augustine's own death on 28 August 430, independently recorded by a "
+            "near-contemporary Gallic chronicler",
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
              "Doc_08 §3 Force 3A-1: Documented -- Registry row 203, a near-contemporary Gallic "
              "chronicle independently recording Augustine's death under 430; no divergence flagged "
              "for this force's own bare occurrence."),
         src("lpc.source.prosper-epitoma-chronicon-mommsen1892"),
-        "Re-derived from the approved Doc_08 §3 Force 3A-1 (Cell 3A, Ending/External). relations[] "
-        "carries the gravity<->force edge (G1) and the force<->force edge (3B-1) named above.",
+        "Taken from Doc_08 §3 Force 3A-1 (Cell 3A, Ending/External). relations[] carries the "
+        "gravity<->force edge (G1) and the force<->force edge (3B-1) named above.",
     )
 
     emit_force(
         F3B1, "The Corpus Outliving the World",
         "ending", "3B",
-        "Doc_08 Cell 3B, Force 3B-1. LAYER 1 -- HISTORICAL EVENT: Augustine's theological output, "
-        "produced under this world's own pastoral pressures, became the foundational inheritance of "
-        "the subsequent Western theological tradition far beyond this world's own close. Widely "
-        "Accepted -- Doc_01 §6. LAYER 2 -- WORLD'S OWN EXPERIENCE (Reported-Experience Status, "
-        "Constitution Article 17; Forces Framework §3 -- reported as the world's own self-"
-        "understanding, not assessed for historical accuracy): not experienced as an ending -- but not "
-        "experienced as nothing, either. A bishop writing against a live error writes for the people in "
-        "front of him and for the case at hand, not for a tradition he expects to found. Yet this world "
-        "did take its own corpus seriously as a thing that would stand after it: Cyprian gathers and "
-        "forwards his own letters as a body of work; Augustine, at the end, goes back through "
-        "everything he has written and corrects it (the Retractationes, Registry row 209, a Latin-only "
-        "witness). A man who revises his life's work has understood that the work will be read when he "
-        "cannot answer for it -- what he has not understood, and what no one in this world could, is "
-        "which of it would matter, or to whom. LAYER 3 -- FORMATION IMPACT: the transformation is real "
-        "and runs outward rather than inward. G7 in particular outlives its own ecology -- a gravity "
-        "Doc_04 finds structurally freestanding within this world becomes load-bearing for traditions "
-        "that follow it. This is the one force whose formation impact lands mostly outside the world's "
-        "own boundaries, which is why it sits in the Ending row rather than the Ongoing one. CROSS-CELL "
-        "CONNECTIONS (Doc_08 §4): <- Force 2A-4 (produced by) -- the anti-Pelagian corpus generated by "
-        "that force is the largest single component of this inheritance. <- Force 3A-1 (coincides "
-        "with, does not cause) -- the invasion closes the world; the corpus outlives it, named as "
-        "coincidence rather than causation.",
+        "Augustine's theological writing grew out of this world's own pastoral pressures. Long "
+        "after the world closed, it became the foundational inheritance of the later Western "
+        "theological tradition. This is widely accepted.\n"
+        "\n"
+        "What follows is the world's own self-understanding. It is reported as such and not "
+        "assessed for historical accuracy. This outcome was not felt as an ending, but it was not "
+        "felt as nothing either. A bishop writing against a live error writes for the people in "
+        "front of him and the case at hand. He does not write for a tradition he expects to "
+        "found.\n"
+        "\n"
+        "Yet this world did take its own writings seriously as something that would stand after "
+        "it. Cyprian gathered and forwarded his own letters as a body of work. At the end, "
+        "Augustine went back through everything he had written and corrected it, in the "
+        "Retractationes -- our own corpus holds no English translation of that work. A man who "
+        "revises his life's work knows it will be read when he cannot answer for it. What he "
+        "could not know, and what no one in this world could know, was which of it would matter, "
+        "or to whom.\n"
+        "\n"
+        "The change is real, but it runs outward, not inward. Augustine's teaching on grace and "
+        "human incapacity outlives its own setting most of all -- within this world that teaching "
+        "stands on its own, but for the traditions that follow, it becomes load-bearing. This is "
+        "the one force whose impact lands mostly outside the world's own boundaries, which is why "
+        "it counts as an ending force, not an ongoing one.\n"
+        "\n"
+        "The anti-Pelagian writings are the largest single part of this inheritance. The Vandal "
+        "invasion closes the world at the same moment, but it does not cause this outcome -- the "
+        "two coincide, and one does not produce the other.",
         [
-            "Augustine's own theological corpus, becoming \"the foundational inheritance of the "
-            "subsequent Western theological tradition\" (Doc_01 §6)",
-            "Augustine's Retractationes, reviewing his own life's work near the end of it (Registry "
-            "row 209)",
+            "Augustine's theological corpus, which became the foundational inheritance of the "
+            "later Western theological tradition",
+            "Augustine's Retractationes, reviewing his own life's work near the end of it (our "
+            "own corpus holds no English translation of it)",
         ],
         conf("B", "verified-via-authority", "load-bearing", "Widely Accepted",
              "Doc_08 §3 Force 3B-1: Widely Accepted -- Doc_01 §6. Layer 2 carries the Reported-"
@@ -1528,60 +1616,75 @@ def build_forces() -> None:
              "calibration applies to the historical-event layer only, which this record's own "
              "top-line rating reflects."),
         src("lpc.source.knoll-augustine-retractationes-csel36"),
-        "Re-derived from the approved Doc_08 §3 Force 3B-1 (Cell 3B, Ending/Internal). relations[] "
-        "carries the gravity<->force edge (G7) and the force<->force edges (2A-4, 3A-1) named above.",
+        "Taken from Doc_08 §3 Force 3B-1 (Cell 3B, Ending/Internal). relations[] carries the "
+        "gravity<->force edge (G7) and the force<->force edges (2A-4, 3A-1) named above.",
     )
 
     emit_force(
-        F3B2, "Transmission -- an Asymmetrically Attested Span and a 133-Year Silence",
+        F3B2, "Transmission: an Unevenly Attested Span and a 133-Year Silence",
         "ending", "3B",
-        "Doc_08 Cell 3B, Force 3B-2 -- the Transmission dimension this cell is required to address "
-        "explicitly (Doc_08 §9 completion certification), synthesized fully at Doc_08 §6. LAYER 1 -- "
-        "HISTORICAL EVENT: this world's own closing decades are disproportionately well-attested "
-        "relative to its opening ones; and, between the phases, no primary source named at Doc_02 §1 "
-        "and no Registry row dates from within the roughly 133 years between Cyprian's martyrdom and "
-        "Augustine's ordination. Documented -- this is a fact about the record, checkable against the "
-        "Registry itself. LAYER 2 -- WORLD'S OWN EXPERIENCE (Reported-Experience Status applies to the "
-        "sentence beginning 'The inheritance was therefore received as text'): Augustine does not "
-        "receive Cyprian through a chain of teachers who knew him; he receives a set of conciliar acts "
-        "and letters, reads them, and argues with them -- treating a predecessor's own ruling as a "
-        "document to be weighed rather than a custom to be continued. The inheritance was therefore "
-        "received as text rather than carried as living memory -- a predecessor met on a page, weighed, "
-        "answered, and never able to answer back. And the gap itself was not experienced as a gap: a "
-        "person formed in either phase did not know their world had a documentary silence in it. LAYER "
-        "3 -- FORMATION IMPACT: three effects. First, continuity across the gap is textual, not "
-        "successive -- established by Force 2B-4 and by nothing else this build has found. Second, the "
-        "interval is richly attested through sources that are Donatism's own territory, not this "
-        "world's, which makes the silence a boundary discipline rather than an absence of evidence: "
-        "the temptation is to fill it from that other world, and the binding forbids it. Third, "
-        "phase-bound gravities are an artefact of the record as well as of the world -- G2 and G8 are "
-        "attested only in phase one, G7 only in phase two, each bound established by a positive check "
-        "rather than by inference from silence. CROSS-CELL CONNECTIONS (Doc_08 §4): <- Force 2B-4 (is "
-        "the sole instance carried by) -- 2B-4 is the only force in this matrix that carries formation "
-        "logic across this silence; the crossing is textual and is attested twice, the second instance "
-        "(Possidius quoting Cyprian's De Mortalitate) not itself a force in this matrix. <- Force 2B-5 "
-        "(continued by) -- the same transmission pattern operates in both cells; this force is 2B-5's "
-        "own effect on the span rather than on the content.",
+        "This world's closing decades are much better attested than its opening ones. Between its "
+        "two phases lies a silence of roughly 133 years, from Cyprian's martyrdom to Augustine's "
+        "ordination. No surviving voice continuous with Cyprian's ordinary pastoral mode, from "
+        "within this world's boundary, that this build has assessed dates from within that gap. "
+        "Nine tractatus in Morin 1917, one titled in a manuscript as a sermon of Optatus of "
+        "Milevis, are not yet assessed. Some texts in our own source catalogue do date from it or "
+        "record its events, such as Optatus's polemic, the council canons and imperial law, and "
+        "none of them is that voice. The silence claim is contested for that reason. The uneven "
+        "attestation is a documented fact about the record itself, and anyone can check it "
+        "against the catalogue.\n"
+        "\n"
+        "Augustine does not receive Cyprian through a chain of teachers who knew him. He receives "
+        "a set of council acts and letters, reads them, and argues with them. He treats a "
+        "predecessor's ruling as a document to weigh, not a custom to continue. The inheritance "
+        "was therefore received as text rather than carried as living memory. (That sentence "
+        "reports how the world understood itself. It is not a judgment of historical accuracy.) "
+        "Cyprian was a predecessor met on a page, weighed, answered, and never able to answer "
+        "back. And the gap was not felt as a gap. Someone formed in either phase did not know "
+        "their world had a documentary silence in it.\n"
+        "\n"
+        "This has three effects. First, continuity across the gap runs through texts, not through "
+        "a line of successors. Augustine's engagement with Cyprian's council acts is the only "
+        "force in this world that carries it across. Nothing else found so far does. The crossing "
+        "is attested twice. The second case is Possidius quoting Cyprian's De Mortalitate, and it "
+        "is not itself counted as a force.\n"
+        "\n"
+        "Second, the gap is richly attested, but by sources that belong to Donatism's territory, "
+        "not this world's. So the silence calls for discipline at the boundary; it is not simply "
+        "missing evidence. The temptation is to fill it from that other world, and we do not let "
+        "ourselves do that.\n"
+        "\n"
+        "Third, concerns that belong to one phase only reflect the record as well as the world. "
+        "Penitential discipline and the confessor-versus-bishop tension are attested only in the "
+        "first phase. Grace and human incapacity appears only in the second. Each of these limits "
+        "was confirmed by a positive check, not inferred from silence.\n"
+        "\n"
+        "This is the same pattern that let both men's writings survive on the dominant side. Here "
+        "it shapes the span of the record rather than its content.",
         [
-            "the roughly 133-year gap between Cyprian's martyrdom (258) and Augustine's ordination "
-            "(391), within which no primary source named at Doc_02 §1 and no Registry row dates",
-            "Augustine reading and arguing with Cyprian's own conciliar acts and letters as a text to "
-            "be weighed, not a custom carried by living memory",
+            "the roughly 133-year gap between Cyprian's martyrdom (258) and Augustine's "
+            "ordination (391), from which no ordinary-pastoral voice of this world that this "
+            "build has assessed survives",
+            "Augustine reading and arguing with Cyprian's own council acts and letters as a text "
+            "to be weighed, not a custom carried by living memory",
         ],
-        conf("A", "verified-via-authority", "load-bearing", "Documented",
-             "Doc_08 §3 Force 3B-2: Documented as a fact about the record itself, checkable against "
-             "the Registry -- no primary source named at Doc_02 §1 and no Registry row dates from "
-             "within the 133-year gap. Layer 2's own sentence on how the inheritance was received "
-             "carries the Reported-Experience Status marker (Constitution Article 17; Forces "
-             "Framework §3): reported as the world's own self-understanding, not assessed for "
-             "historical accuracy."),
+        conf("A", "verified-via-authority", "load-bearing", "Contested",
+             "Doc_08 §3 Force 3B-2: the silence claim is Contested -- no surviving voice "
+             "continuous with Cyprian's ordinary-pastoral mode, from within this world's "
+             "boundary, that this build has assessed dates from within the 133-year gap. Nine "
+             "tractatus in Morin 1917 are not yet assessed (OG-54). The uneven attestation of the "
+             "span is Documented, a fact about the record checkable against the Registry. Layer "
+             "2's own sentence on how the inheritance was received carries the "
+             "Reported-Experience Status marker (Constitution Article 17; Forces Framework §3): "
+             "reported as the world's own self-understanding, not assessed for historical "
+             "accuracy."),
         [],
-        "Re-derived from the approved Doc_08 §3 Force 3B-2 (Cell 3B, Ending/Internal; Transmission "
-        "dimension). relations[] carries only the force<->force edges (2B-4, 2B-5) named above -- "
+        "Taken from Doc_08 §3 Force 3B-2 (Cell 3B, Ending/Internal; Transmission dimension). "
+        "relations[] carries only the force<->force edges (2B-4, 2B-5) named above -- "
         "deliberately no gravity<->force edge, matching Force 2B-5's own identical disposition. "
-        "sources[] is deliberately empty -- this force's own evidentiary base is a fact about the "
-        "absence of dated Registry rows in an interval, not a citable vendored text making a claim; "
-        "see this script's own docstring, THREE DISCLOSED EMPTY-SOURCES CASES.",
+        "sources[] is deliberately empty -- this force's own evidentiary base is the absence, so far "
+        "as assessed, of this world's own pastoral voice in an interval, not a citable vendored "
+        "text making a claim.",
     )
 
 

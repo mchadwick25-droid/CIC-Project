@@ -33,11 +33,9 @@ confidence:
   formation_confidence: Documented
   divergence_note: 'The regulating, disciplining voice throughout this crisis is Cyprian''s own, as presiding
     bishop and as the party whose middle position ultimately prevailed. No lapsed believer''s own account
-    of undergoing the process survives anywhere in this corpus (Author-Gravity-Risk: Yes). The clean two-way
-    split between those who sacrificed and those who only bought the certificate reaches us as a 19th-century
-    editorial endnote on a different, Confidence-C text (lpc.term.libellatici-sacrificati), not as Cyprian''s
-    own classification in De Lapsis; what is Cyprian''s own, and what this entry''s own account actually
-    rests on, is the refusal to let either group''s failure be final.'
+    of undergoing the process survives anywhere in this corpus (Author-Gravity-Risk: Yes). The split
+    between those who sacrificed and those who only bought the certificate is Cyprian''s own (lpc.term.libellatici-sacrificati).
+    This entry''s account also rests on De Lapsis''s refusal to let either group''s failure be final.'
 sources:
 - source_id: lpc.source.cyprian-de-lapsis
   locus: De Lapsis, the founding document of the controversy, directly quoted throughout
@@ -90,4 +88,4 @@ senses:
 quick_meaning: For us, the lapsed are our own people. Under threat, they gave in to the order to sacrifice,
   and now they want to come back.
 ---
-Re-derived from Doc_06 SS2.1 (lpclex002, Tier 1, G2 Primary -- 'the subject of this world's founding crisis') and Lexicon-Chunks/lpclex002_the-lapsed.md. citation_specificity set to B (De Lapsis, row 2, is this term's own founding-document ground; the Epistles corroborate at A). The two-way libellatici/sacrificati classification's editorial provenance is disclosed in confidence.divergence_note per the chunk's own explicit caution, not smoothed into Documented fact. Relations: eight terms per this term's own Related-Terms line.
+Derived from Doc_06 §2.1 and Lexicon-Chunks/lpclex002_the-lapsed.md. citation_specificity is B because De Lapsis (row 2) is this term's founding-document ground, and the Epistles corroborate at A.

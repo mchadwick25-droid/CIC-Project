@@ -22,11 +22,10 @@ author: Emanuel Hoffmann (editor); Augustine of Hippo (author)
 work: De Civitate Dei, Libri XIV-XXII, CSEL 40 Pars II
 edition: 'Pragae/Vindobonae/Lipsiae: F. Tempsky/G. Freytag, 1900; vendored as cic/texts/augustine_civitate-dei-14-22-lat_hoffmann-csel40-2.txt'
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
-  read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
-  own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
-  a rights re-check by this compilation pass.
+  read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
+  check (Source_Acquisition_Manifest.md SS1).
 attribution_status: attributed
-discovery_channel: Fable research agent (this session) / archive.org direct fetch / 2026-09-08.
+discovery_channel: archive.org direct fetch.
 external_ids:
   lpc_source_registry_row: 199
 ---

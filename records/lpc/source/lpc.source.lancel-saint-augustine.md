@@ -11,9 +11,8 @@ confidence:
   verification_state: named-not-rechecked
   evidentiary_weight: illustrative
   formation_confidence: Widely Accepted
-  divergence_note: The English publication year, previously flagged for priority second-opinion review,
-    is now confirmed by two independent journal reviews citing the identical imprint; flag resolved, translator
-    name added. Standard modern biography, not independently re-read.
+  divergence_note: The English publication year and the translator's name are confirmed by two independent
+    journal reviews citing the identical imprint. Standard modern biography, not independently re-read.
 sources: []
 relations: []
 author: Serge Lancel
@@ -26,8 +25,8 @@ rights_status: in-copyright; never vendored, consultation-only. This row sits ab
   rests on the Registry row's own Verification Note directly, not on SS3's categorical rule. Cited and
   consulted by this build, never quoted as licensed vendored material.
 attribution_status: attributed
-discovery_channel: WebSearch / 2026-09-01; re-verified via WebSearch (two independent contemporary journal
-  reviews, both via Cambridge Core) / 2026-09-02.
+discovery_channel: WebSearch; re-verified via WebSearch (two independent contemporary journal reviews,
+  both via Cambridge Core).
 external_ids:
   lpc_source_registry_row: 31
 ---

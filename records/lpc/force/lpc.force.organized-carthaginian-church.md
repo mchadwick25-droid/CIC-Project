@@ -59,4 +59,4 @@ manifestations:
 - the Felicissimus schism, a real internal faction the church was already organized enough to hold
 matrix_cell: 1B
 ---
-Re-derived from the approved Doc_08 §3 Force 1B-1 (Cell 1B, Initiating/Internal). relations[] carries the gravity<->force edges (G2, G3, G5) and the force<->force edges (1B-2, 2B-4) named above.
+Taken from Doc_08 §3 Force 1B-1 (Cell 1B, Initiating/Internal). relations[] carries the gravity<->force edges (G2, G3, G5) and the force<->force edges (1B-2, 2B-4) named above.
