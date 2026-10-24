@@ -51,9 +51,9 @@ modern_lens_note: 'A modern listener may hear ''my care'' as a professional''s c
   them, and the account he names is that he spoke, did not keep silent, and wept before God when he was
   not heard. ''Shrines'' are the martyrs'' memorial places; the English ''memories'' hides that.'
 modern_rendering: You share communion with the members of the Apostles. You share communion with the shrines
-  of the holy martyrs, spread over the whole world. And you belong to my care, so that I may give a good
-  account of you. You know what my whole account is. “Lord, You know that I have spoken. You know that
-  I have not kept silent. You know in what spirit I have spoken. You know that I have wept before You
-  when I spoke and was not heard.”
+  of the holy martyrs, who are spread over the whole world. And you belong to my care, so that I may give
+  a good account of you. You know what my whole account is. “Lord, You know that I have spoken. You know
+  that I have not kept silent. You know in what spirit I have spoken. You know that I have wept before
+  You when I spoke and was not heard.”
 ---
 Augustine, Sermon 87 in the NPNF numbering (137 in the Maurist numbering), section 15. English in the NPNF translation at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 20796-20797. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 53418-53424 (OCR text; the sermon starts at line 52829). The first sentence of section 15 and the Ezekiel watchman argument that follows the passage in the same paragraph are left out. In the English, 'cure' is the older sense of 'care' (Latin curam), and 'memories' translates memoriis, which names martyrs' shrines in the Latin of this period. The Latin has the bishop's plural, 'our care' and 'we may render'; the English has the singular. The sermon carries the gravity lpc.gravity.pastoral-office-flock-keeping in the bishop's own voice.

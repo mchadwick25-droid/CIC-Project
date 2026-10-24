@@ -20,7 +20,7 @@ confidence:
 sources:
 - source_id: lpc.source.augustine-sermons-on-selected-lessons
   locus: Sermon 21 (NPNF numbering; Maurist 71), section 37; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml,
-    lines 13008-13009; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 32485-32491
+    lines 13008-13009; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 32485-32492
     (the sermon starts at line 30996)
   license: public-domain
 retrieval:
@@ -38,8 +38,8 @@ claim_guards:
 - The passage does not name the Donatists.
 - The passage does not say how a clergyman was ordained or removed, and the sermons do not show a formal
   ordination.
-- The passage is the near end of a long argument on the sin against the Holy Spirit (Matthew 12:32); it
-  needs that frame and must not be told without it.
+- The passage comes near the end of a long argument on the sin against the Holy Spirit (Matthew 12:32);
+  it needs that frame and must not be told without it.
 relations:
 - type: associated-with
   target: lpc.gravity.sacramental-ordination-validity
@@ -55,8 +55,8 @@ modern_lens_note: A modern listener may hear 'Catholic' as Roman Catholic. Here 
   through a wicked cleric, so long as the minister is a Catholic one.
 modern_rendering: So a word is spoken against the Holy Spirit when people never come in from the scattering.
   They never come to the gathering that has received the Holy Spirit for the forgiveness of sins. Someone
-  may come to that gathering without pretense. He may come through a wicked cleric, a worthless man and
-  a hypocrite, who is still a Catholic minister. That person will receive forgiveness of sins in this
+  may come to that gathering without pretense. He may even come through a wicked cleric, a worthless man
+  and a hypocrite, who is still a Catholic minister. That person will receive forgiveness of sins in this
   Holy Spirit.
 ---
-Augustine, Sermon 21 in the NPNF numbering (71 in the Maurist numbering), section 37. English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 13008-13009. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 32485-32491 (OCR text; the sermon starts at line 30996). The sermon reads Matthew 12:32 as lifelong refusal to come from the scattering to the gathering that has received the Holy Spirit for the forgiveness of sins, and runs over thirty-eight sections; the passage is near its end. A translator's gloss, Area, follows at line 13011, outside the passage. In the Latin, dispersione and congregationem are the scattering and the gathering, reprobum et fictum is worthless and false, and corde non ficto is with a heart that is not false. The sermon carries the gravity lpc.gravity.sacramental-ordination-validity in its minister's-worth form.
+Augustine, Sermon 21 in the NPNF numbering (71 in the Maurist numbering), section 37. English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 13008-13009. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 32485-32492 (OCR text; the sermon starts at line 30996). The sermon reads Matthew 12:32 as lifelong refusal to come from the scattering to the gathering that has received the Holy Spirit for the forgiveness of sins, and runs over thirty-eight sections; the passage is near its end. A translator's gloss, Area, follows at line 13011, outside the passage. In the Latin, dispersione and congregationem are the scattering and the gathering, reprobum et fictum is worthless and false, and corde non ficto is with a heart that is not false. The sermon carries the gravity lpc.gravity.sacramental-ordination-validity in its minister's-worth form.

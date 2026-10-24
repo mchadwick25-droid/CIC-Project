@@ -16,7 +16,7 @@ confidence:
 sources:
 - source_id: lpc.source.augustine-sermons-on-selected-lessons
   locus: Sermon 87 (NPNF numbering; Maurist 137), section 3; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml,
-    lines 20614-20615; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 52934-52943
+    lines 20614-20615; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 52934-52947
     (the sermon starts at line 52829)
   license: public-domain
 retrieval:
@@ -49,9 +49,9 @@ modern_lens_note: 'A modern listener may hear ''invalid'' as lasting disability.
   threefold denial made in fear.'
 modern_rendering: At that time Peter was the sick man, and the Lord was the doctor. Peter said he had
   strength when he did not. But the Lord felt the pulse of his heart and said Peter would deny Him three
-  times. And it happened as the doctor foretold, not as the sick man assumed. So after His resurrection
+  times. And it happened as the doctor foretold, not as the sick man presumed. So after His resurrection
   the Lord questioned him. It was not that He did not know the heart with which Peter would confess his
   love for Christ. He asked so that Peter could confess his love three times. In this way he would wipe
   out the three denials he made in fear.
 ---
-Augustine, Sermon 87 in the NPNF numbering (137 in the Maurist numbering), section 3. English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 20614-20615. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 52934-52943 (OCR text; the sermon starts at line 52829). The passage reads John 21 against the denial in Luke 22; those references are notes outside the passage, at lines 20610 and 20613. In the Latin, tangens venam cordis ejus is touching the pulse of his heart, and deleret trinam negationem timoris is wiping out the threefold denial made out of fear. The sermon carries the gravity lpc.gravity.penitential-discipline.
+Augustine, Sermon 87 in the NPNF numbering (137 in the Maurist numbering), section 3. English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 20614-20615. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 52934-52947 (OCR text; the sermon starts at line 52829). The passage reads John 21 against the denial in Luke 22; those references are notes outside the passage, at lines 20610 and 20613. In the Latin, tangens venam cordis ejus is touching the pulse of his heart, and deleret trinam negationem timoris is wiping out the threefold denial made out of fear. The sermon carries the gravity lpc.gravity.penitential-discipline.

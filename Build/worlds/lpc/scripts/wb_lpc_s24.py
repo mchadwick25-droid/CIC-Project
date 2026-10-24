@@ -1484,7 +1484,8 @@ def build_sermon_quotes() -> None:
         "wept before God when he was not heard. 'Shrines' are the martyrs' memorial places; "
         "the English 'memories' hides that.",
         "You share communion with the members of the Apostles. You share communion with the "
-        "shrines of the holy martyrs, spread over the whole world. And you belong to my care, "
+        "shrines of the holy martyrs, who are spread over the whole world. And you belong to my "
+        "care, "
         "so that I may give a good account of you. You know what my whole account is. “Lord, "
         "You know that I have spoken. You know that I have not kept silent. You know in what "
         "spirit I have spoken. You know that I have wept before You when I spoke and was not "
@@ -1587,13 +1588,14 @@ def build_sermon_quotes() -> None:
         "moribus, means a good way of life. Augustine says why he speaks to his hearers at "
         "all: for joy in how they live. He asks their good works as comfort in the dangers of "
         "his office, and does not say what those dangers are.",
-        "We do not want you to look down on us. But why do we speak to you, except to take joy "
+        "We do not want you to look down on us. Why do we speak to you, except to take joy "
         "in your good way of life? Let your good works comfort us in our dangers. Live well, "
         "so that you do not die badly.",
         conf("A", "verified-direct", "load-bearing", "Documented",
              "The text field is the NPNF English as printed. modern_rendering follows the "
              "Latin of PL 38 where the English misleads: 'good conversation' renders bonis "
-             "moribus, a good way of life, and 'despised' renders sperni, looked down on."),
+             "moribus, a good way of life. 'Despised' (sperni) is rendered 'look down on' for "
+             "plainness."),
         [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
           "locus": "Sermon 52 (NPNF numbering; Maurist 102), section 1; English at "
                     "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
@@ -1647,8 +1649,8 @@ def build_sermon_quotes() -> None:
         [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
           "locus": "Sermon 32 (NPNF numbering; Maurist 82), section 7; English at "
                     "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
-                    "lines 14225; Latin at "
-                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 35544-35548 "
+                    "line 14225; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 35544-35549 "
                     "(the sermon starts at line 35316)",
           "license": "public-domain"}],
         2,
@@ -1666,7 +1668,7 @@ def build_sermon_quotes() -> None:
         "Augustine, Sermon 32 in the NPNF numbering (82 in the Maurist numbering), section 7. "
         "English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
         "line 14225. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines "
-        "35544-35548 (OCR text; the sermon starts at line 35316). Augustine is reading Matthew "
+        "35544-35549 (OCR text; the sermon starts at line 35316). Augustine is reading Matthew "
         "18:15-18; the steps of Matthew 18:17 are quoted at lines 14218-14219 and the sentence "
         "after the passage is left out. In the Latin, ligas and solvisti are bind and loose, "
         "vincula are chains, and publicanum is a tax collector. The sermon carries the gravity "
@@ -1683,12 +1685,13 @@ def build_sermon_quotes() -> None:
         "lpc.figure.augustine",
         "verbatim",
         "A modern listener may hear 'scourges' as a church penalty. In the sermon they belong "
-        "to a household illustration, unruly boys and the head of the house, which Augustine "
+        "to an illustration about unruly boys who beg to be let off a beating, which Augustine "
         "then applies to brethren. His point is that correction is to be given out of love, "
         "with the sin forgiven in the heart, as a surgeon cuts out of kindness.",
         "Let us rebuke with words, and with blows if need be. But let us also forgive the sin "
-        "and cast the fault out of our hearts. That is why the Lord added, “from your hearts.” "
-        "When discipline is given out of love, gentleness must not leave the heart. For what "
+        "and cast the fault out of our hearts. The Lord added “from your hearts” for this "
+        "reason: when discipline is given out of love, gentleness must not leave the heart. "
+        "For what "
         "is as kind and gentle as a surgeon with his knife?",
         conf("A", "verified-direct", "load-bearing", "Documented",
              "The text field is the NPNF English as printed. modern_rendering follows the "
@@ -1699,8 +1702,8 @@ def build_sermon_quotes() -> None:
         [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
           "locus": "Sermon 33 (NPNF numbering; Maurist 83), section 8; English at "
                     "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
-                    "lines 14444; Latin at "
-                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 36195-36200 "
+                    "line 14444; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 36195-36201 "
                     "(the sermon starts at line 35885)",
           "license": "public-domain"}],
         2,
@@ -1709,13 +1712,15 @@ def build_sermon_quotes() -> None:
          "participant asks what discipline given out of love looked like"],
         ["participant asks how one believer treated a brother who would not listen -- "
          "lpc.quote.bind-him-justly gives the Matthew 18 reading"],
-        ["The blows in the passage belong to a household illustration and must not be read as "
-         "a church penalty.",
-         "The passage does not say how discipline was carried out in the church."],
+        ["The blows belong to an illustration about unruly boys and must not be read as a "
+         "church penalty.",
+         "The passage does not describe formal public penance, excommunication or how "
+         "discipline was carried out in the church, and must not be used as evidence of any "
+         "of them."],
         "Augustine, Sermon 33 in the NPNF numbering (83 in the Maurist numbering), section 8. "
         "English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
         "line 14444. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines "
-        "36195-36200 (OCR text; the sermon starts at line 35885). The passage begins inside "
+        "36195-36201 (OCR text; the sermon starts at line 35885). The passage begins inside "
         "line 14444. The household illustration about unruly boys is at lines 14437-14443. The "
         "NPNF title prints Matthew 17:21 where the Latin witnesses read Matthew 18; this does "
         "not touch the passage. In the Latin, verberibus are blows, pium is one word for kind "
@@ -1741,7 +1746,7 @@ def build_sermon_quotes() -> None:
         "At that time Peter was the sick man, and the Lord was the doctor. Peter said he had "
         "strength when he did not. But the Lord felt the pulse of his heart and said Peter "
         "would deny Him three times. And it happened as the doctor foretold, not as the sick "
-        "man assumed. So after His resurrection the Lord questioned him. It was not that He "
+        "man presumed. So after His resurrection the Lord questioned him. It was not that He "
         "did not know the heart with which Peter would confess his love for Christ. He asked "
         "so that Peter could confess his love three times. In this way he would wipe out the "
         "three denials he made in fear.",
@@ -1750,7 +1755,7 @@ def build_sermon_quotes() -> None:
           "locus": "Sermon 87 (NPNF numbering; Maurist 137), section 3; English at "
                     "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
                     "lines 20614-20615; Latin at "
-                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 52934-52943 "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 52934-52947 "
                     "(the sermon starts at line 52829)",
           "license": "public-domain"}],
         2,
@@ -1765,7 +1770,7 @@ def build_sermon_quotes() -> None:
         "Augustine, Sermon 87 in the NPNF numbering (137 in the Maurist numbering), section 3. "
         "English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
         "lines 20614-20615. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, "
-        "lines 52934-52943 (OCR text; the sermon starts at line 52829). The passage reads John "
+        "lines 52934-52947 (OCR text; the sermon starts at line 52829). The passage reads John "
         "21 against the denial in Luke 22; those references are notes outside the passage, at "
         "lines 20610 and 20613. In the Latin, tangens venam cordis ejus is touching the pulse "
         "of his heart, and deleret trinam negationem timoris is wiping out the threefold "
@@ -1795,7 +1800,7 @@ def build_sermon_quotes() -> None:
         [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
           "locus": "Sermon 88 (NPNF numbering; Maurist 138), section 3; English at "
                     "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
-                    "lines 20848; Latin at "
+                    "line 20848; Latin at "
                     "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 53554-53561 "
                     "(the sermon starts at line 53471)",
           "license": "public-domain"}],
@@ -1891,8 +1896,8 @@ def build_sermon_quotes() -> None:
         [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
           "locus": "Sermon 38 (NPNF numbering; Maurist 88), section 23; English at "
                     "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
-                    "lines 15208; Latin at "
-                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 38536-38540 "
+                    "line 15208; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 38536-38542 "
                     "(the sermon starts at line 37663)",
           "license": "public-domain"}],
         2,
@@ -1913,12 +1918,12 @@ def build_sermon_quotes() -> None:
         "Augustine, Sermon 38 in the NPNF numbering (88 in the Maurist numbering), section 23. "
         "English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
         "line 15208. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines "
-        "38536-38540 (OCR text; the sermon starts at line 37663). The sentence before the "
-        "passage, at lines 15204-15207, quotes 'Depart ye, go ye out from thence, and touch "
-        "not the unclean thing' (Isaiah), says 'we' understand the departure spiritually and "
-        "'they' bodily, and defines going out as doing what belongs to rebuking the wicked as "
+        "38536-38542 (OCR text; the sermon starts at line 37663). The sentences before the "
+        "passage, at lines 15204-15207, quote 'Depart ye, go ye out from thence, and touch "
+        "not the unclean thing' (Isaiah), say 'we' understand the departure spiritually and "
+        "'they' bodily, and define going out as doing what belongs to rebuking the wicked as "
         "far as can be done, according to each one's grade and condition, with the maintenance "
-        "of peace. The translator's Latin gloss, Persona, sits inside that sentence. In the "
+        "of peace. The translator's Latin gloss, Persona, sits inside the last of them. In the "
         "Latin, congruam disciplinam is a fitting discipline and quae unitatem non violet is "
         "'that does not break unity'. The sermon carries the gravity "
         "lpc.gravity.collegial-communion-preserved in its congregational form.",
@@ -1943,8 +1948,8 @@ def build_sermon_quotes() -> None:
         "the unseen life of the root can only be had in the vine. So the bodily sacraments can "
         "give “the form of godliness.” Even those who are separated from the unity of Christ’s "
         "Body carry and celebrate them. But the unseen, spiritual power of godliness cannot be "
-        "in them at all. Feeling does not stay with a person's limb when it is cut off from "
-        "the body.",
+        "in them at all. In the same way, feeling does not stay with a person's limb when it "
+        "is cut off from the body.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
           "locus": "Sermon 21 (NPNF numbering; Maurist 71), section 32; English at "
@@ -1955,7 +1960,8 @@ def build_sermon_quotes() -> None:
           "license": "public-domain"}],
         2,
         ["participant asks what was missing from a baptism given outside the Church",
-         "participant asks why a person baptized among schismatics was not baptized again",
+         "participant asks what a baptism given outside the Church lacked, if it was not given "
+         "again",
          "participant asks what Augustine meant by the form of godliness without its power"],
         ["participant asks how Cyprian and Augustine gave opposite answers on baptism outside "
          "the Church -- lpc.demo.font-twice-answered gives that"],
@@ -1971,11 +1977,11 @@ def build_sermon_quotes() -> None:
         "lines 12936-12937. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, "
         "lines 32254-32262 (OCR text; the sermon starts at line 30996). 'Wherefore' points "
         "back to the sentence at lines 12926-12932 about baptisms among schismatics and "
-        "heretics. That sentence ends: 'the washing of the flesh is not repeated in their "
+        "heretics. That sentence and the next read: 'the washing of the flesh is not repeated in their "
         "case. For \"this form of godliness\" was not wanting to them even when they were "
         "without; but there is added to them \"the Unity of the Spirit in the bond of peace,\" "
-        "which cannot be given but within.' It is not part of the passage because translators' "
-        "notes break it. In the Latin, forma pietatis and virtus pietatis are the form and the "
+        "which cannot be given but within.' They are not part of the passage because translators' "
+        "notes break them. In the Latin, forma pietatis and virtus pietatis are the form and the "
         "power of godliness (2 Timothy 3:5), and corporalia Sacramenta are the bodily "
         "sacraments. 'In them' (in eis) could mean the separated people or the sacraments, and "
         "both the English and the rendering keep that open. The sermon carries the gravity "
@@ -1999,7 +2005,7 @@ def build_sermon_quotes() -> None:
         "So a word is spoken against the Holy Spirit when people never come in from the "
         "scattering. They never come to the gathering that has received the Holy Spirit for "
         "the forgiveness of sins. Someone may come to that gathering without pretense. He may "
-        "come through a wicked cleric, a worthless man and a hypocrite, who is still a "
+        "even come through a wicked cleric, a worthless man and a hypocrite, who is still a "
         "Catholic minister. That person will receive forgiveness of sins in this Holy Spirit.",
         conf("A", "verified-direct", "load-bearing", "Documented",
              "The text field is the NPNF English as printed. modern_rendering follows the "
@@ -2012,7 +2018,7 @@ def build_sermon_quotes() -> None:
           "locus": "Sermon 21 (NPNF numbering; Maurist 71), section 37; English at "
                     "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
                     "lines 13008-13009; Latin at "
-                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 32485-32491 "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 32485-32492 "
                     "(the sermon starts at line 30996)",
           "license": "public-domain"}],
         2,
@@ -2027,12 +2033,12 @@ def build_sermon_quotes() -> None:
          "The passage does not name the Donatists.",
          "The passage does not say how a clergyman was ordained or removed, and the sermons do "
          "not show a formal ordination.",
-         "The passage is the near end of a long argument on the sin against the Holy Spirit "
+         "The passage comes near the end of a long argument on the sin against the Holy Spirit "
          "(Matthew 12:32); it needs that frame and must not be told without it."],
         "Augustine, Sermon 21 in the NPNF numbering (71 in the Maurist numbering), section 37. "
         "English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
         "lines 13008-13009. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, "
-        "lines 32485-32491 (OCR text; the sermon starts at line 30996). The sermon reads "
+        "lines 32485-32492 (OCR text; the sermon starts at line 30996). The sermon reads "
         "Matthew 12:32 as lifelong refusal to come from the scattering to the gathering that "
         "has received the Holy Spirit for the forgiveness of sins, and runs over thirty-eight "
         "sections; the passage is near its end. A translator's gloss, Area, follows at line "
@@ -2062,8 +2068,8 @@ def build_sermon_quotes() -> None:
         [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
           "locus": "Sermon 79 (NPNF numbering; Maurist 129), section 7; English at "
                     "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
-                    "lines 19722; Latin at "
-                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 50696-50700 "
+                    "line 19722; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 50696-50701 "
                     "(the sermon starts at line 50446)",
           "license": "public-domain"}],
         2,
@@ -2082,7 +2088,7 @@ def build_sermon_quotes() -> None:
         "Augustine, Sermon 79 in the NPNF numbering (129 in the Maurist numbering), section 7. "
         "English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
         "line 19722. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines "
-        "50696-50700 (OCR text; the sermon starts at line 50446). The sentence begins inside a "
+        "50696-50701 (OCR text; the sermon starts at line 50446). The sentence begins inside a "
         "quotation whose opening mark is earlier, at lines 19717-19718; the closing mark is at "
         "line 19726 after a note. The passage ends before 'What was said to John?' and the "
         "John 1:33 reference at lines 19723-19725. In the Latin, recte baptizatus is baptized "

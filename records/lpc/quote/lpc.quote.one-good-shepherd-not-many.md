@@ -16,7 +16,7 @@ confidence:
 sources:
 - source_id: lpc.source.augustine-sermons-on-selected-lessons
   locus: Sermon 88 (NPNF numbering; Maurist 138), section 3; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml,
-    lines 20848; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 53554-53561 (the
+    line 20848; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 53554-53561 (the
     sermon starts at line 53471)
   license: public-domain
 retrieval:

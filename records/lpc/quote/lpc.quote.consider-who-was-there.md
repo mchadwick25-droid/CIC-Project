@@ -16,7 +16,7 @@ confidence:
 sources:
 - source_id: lpc.source.augustine-sermons-on-selected-lessons
   locus: Sermon 79 (NPNF numbering; Maurist 129), section 7; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml,
-    lines 19722; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 50696-50700 (the
+    line 19722; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 50696-50701 (the
     sermon starts at line 50446)
   license: public-domain
 retrieval:
@@ -51,4 +51,4 @@ modern_rendering: But He who is everywhere was there. He who is everywhere was t
   You stay put here and tell me, ‘You were not baptized properly, because I was not there.’ Look at who
   was there.
 ---
-Augustine, Sermon 79 in the NPNF numbering (129 in the Maurist numbering), section 7. English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 19722. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 50696-50700 (OCR text; the sermon starts at line 50446). The sentence begins inside a quotation whose opening mark is earlier, at lines 19717-19718; the closing mark is at line 19726 after a note. The passage ends before 'What was said to John?' and the John 1:33 reference at lines 19723-19725. In the Latin, recte baptizatus is baptized rightly or properly, hic positus is placed here, staying put, and in cujus nomen is in whose name. The sermon carries the gravity lpc.gravity.sacramental-ordination-validity.
+Augustine, Sermon 79 in the NPNF numbering (129 in the Maurist numbering), section 7. English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 19722. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 50696-50701 (OCR text; the sermon starts at line 50446). The sentence begins inside a quotation whose opening mark is earlier, at lines 19717-19718; the closing mark is at line 19726 after a note. The passage ends before 'What was said to John?' and the John 1:33 reference at lines 19723-19725. In the Latin, recte baptizatus is baptized rightly or properly, hic positus is placed here, staying put, and in cujus nomen is in whose name. The sermon carries the gravity lpc.gravity.sacramental-ordination-validity.

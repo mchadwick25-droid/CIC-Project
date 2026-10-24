@@ -18,7 +18,7 @@ confidence:
 sources:
 - source_id: lpc.source.augustine-sermons-on-selected-lessons
   locus: Sermon 32 (NPNF numbering; Maurist 82), section 7; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml,
-    lines 14225; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 35544-35548 (the
+    line 14225; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 35544-35549 (the
     sermon starts at line 35316)
   license: public-domain
 retrieval:
@@ -53,4 +53,4 @@ modern_rendering: You have begun to treat your brother as a tax collector. You b
   made peace with your brother, you have loosed him on earth. And when you have loosed him on earth, he
   will be loosed in heaven too.
 ---
-Augustine, Sermon 32 in the NPNF numbering (82 in the Maurist numbering), section 7. English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 14225. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 35544-35548 (OCR text; the sermon starts at line 35316). Augustine is reading Matthew 18:15-18; the steps of Matthew 18:17 are quoted at lines 14218-14219 and the sentence after the passage is left out. In the Latin, ligas and solvisti are bind and loose, vincula are chains, and publicanum is a tax collector. The sermon carries the gravity lpc.gravity.penitential-discipline.
+Augustine, Sermon 32 in the NPNF numbering (82 in the Maurist numbering), section 7. English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 14225. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 35544-35549 (OCR text; the sermon starts at line 35316). Augustine is reading Matthew 18:15-18; the steps of Matthew 18:17 are quoted at lines 14218-14219 and the sentence after the passage is left out. In the Latin, ligas and solvisti are bind and loose, vincula are chains, and publicanum is a tax collector. The sermon carries the gravity lpc.gravity.penitential-discipline.

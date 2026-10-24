@@ -13,8 +13,8 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: 'The text field is the NPNF English as printed. modern_rendering follows the Latin
-    of PL 38 where the English misleads: ''good conversation'' renders bonis moribus, a good way of life,
-    and ''despised'' renders sperni, looked down on.'
+    of PL 38 where the English misleads: ''good conversation'' renders bonis moribus, a good way of life.
+    ''Despised'' (sperni) is rendered ''look down on'' for plainness.'
 sources:
 - source_id: lpc.source.augustine-sermons-on-selected-lessons
   locus: Sermon 52 (NPNF numbering; Maurist 102), section 1; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml,
@@ -46,8 +46,8 @@ modern_lens_note: 'A modern listener may hear ''good conversation'' as pleasant 
   moribus, means a good way of life. Augustine says why he speaks to his hearers at all: for joy in how
   they live. He asks their good works as comfort in the dangers of his office, and does not say what those
   dangers are.'
-modern_rendering: We do not want you to look down on us. But why do we speak to you, except to take joy
-  in your good way of life? Let your good works comfort us in our dangers. Live well, so that you do not
+modern_rendering: We do not want you to look down on us. Why do we speak to you, except to take joy in
+  your good way of life? Let your good works comfort us in our dangers. Live well, so that you do not
   die badly.
 ---
 Augustine, Sermon 52 in the NPNF numbering (102 in the Maurist numbering), section 1. English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 16873-16874. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 42699-42703 (OCR text; the sermon starts at line 42681). The passage opens in the middle of an argument. The plural 'we' is the bishop speaking for his office and the plural 'you' is the congregation. In the Latin, pericula nostra are dangers; the paragraph goes on to dying well, and no gloss on the dangers is given. The sermon carries the gravity lpc.gravity.pastoral-office-flock-keeping.

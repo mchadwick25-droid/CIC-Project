@@ -23,7 +23,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - participant asks what was missing from a baptism given outside the Church
-  - participant asks why a person baptized among schismatics was not baptized again
+  - participant asks what a baptism given outside the Church lacked, if it was not given again
   - participant asks what Augustine meant by the form of godliness without its power
   prefer_instead:
   - participant asks how Cyprian and Augustine gave opposite answers on baptism outside the Church --
@@ -53,7 +53,7 @@ modern_lens_note: A modern listener may hear 'schismatic sacraments are empty', 
 modern_rendering: The visible form of a branch can exist even when it is separated from the vine. But
   the unseen life of the root can only be had in the vine. So the bodily sacraments can give “the form
   of godliness.” Even those who are separated from the unity of Christ’s Body carry and celebrate them.
-  But the unseen, spiritual power of godliness cannot be in them at all. Feeling does not stay with a
-  person's limb when it is cut off from the body.
+  But the unseen, spiritual power of godliness cannot be in them at all. In the same way, feeling does
+  not stay with a person's limb when it is cut off from the body.
 ---
-Augustine, Sermon 21 in the NPNF numbering (71 in the Maurist numbering), section 32. English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 12936-12937. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 32254-32262 (OCR text; the sermon starts at line 30996). 'Wherefore' points back to the sentence at lines 12926-12932 about baptisms among schismatics and heretics. That sentence ends: 'the washing of the flesh is not repeated in their case. For "this form of godliness" was not wanting to them even when they were without; but there is added to them "the Unity of the Spirit in the bond of peace," which cannot be given but within.' It is not part of the passage because translators' notes break it. In the Latin, forma pietatis and virtus pietatis are the form and the power of godliness (2 Timothy 3:5), and corporalia Sacramenta are the bodily sacraments. 'In them' (in eis) could mean the separated people or the sacraments, and both the English and the rendering keep that open. The sermon carries the gravity lpc.gravity.sacramental-ordination-validity.
+Augustine, Sermon 21 in the NPNF numbering (71 in the Maurist numbering), section 32. English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 12936-12937. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 32254-32262 (OCR text; the sermon starts at line 30996). 'Wherefore' points back to the sentence at lines 12926-12932 about baptisms among schismatics and heretics. That sentence and the next read: 'the washing of the flesh is not repeated in their case. For "this form of godliness" was not wanting to them even when they were without; but there is added to them "the Unity of the Spirit in the bond of peace," which cannot be given but within.' They are not part of the passage because translators' notes break them. In the Latin, forma pietatis and virtus pietatis are the form and the power of godliness (2 Timothy 3:5), and corporalia Sacramenta are the bodily sacraments. 'In them' (in eis) could mean the separated people or the sacraments, and both the English and the rendering keep that open. The sermon carries the gravity lpc.gravity.sacramental-ordination-validity.

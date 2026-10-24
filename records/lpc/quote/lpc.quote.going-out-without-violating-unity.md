@@ -16,7 +16,7 @@ confidence:
 sources:
 - source_id: lpc.source.augustine-sermons-on-selected-lessons
   locus: Sermon 38 (NPNF numbering; Maurist 88), section 23; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml,
-    lines 15208; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 38536-38540 (the
+    line 15208; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 38536-38542 (the
     sermon starts at line 37663)
   license: public-domain
 retrieval:
@@ -51,4 +51,4 @@ modern_rendering: If someone's sin displeases you, you have not touched the uncl
   him, rebuked him and warned him. If the case required it, you have used fitting discipline, of a kind
   that does not break unity. Then you have gone out from there.
 ---
-Augustine, Sermon 38 in the NPNF numbering (88 in the Maurist numbering), section 23. English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 15208. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 38536-38540 (OCR text; the sermon starts at line 37663). The sentence before the passage, at lines 15204-15207, quotes 'Depart ye, go ye out from thence, and touch not the unclean thing' (Isaiah), says 'we' understand the departure spiritually and 'they' bodily, and defines going out as doing what belongs to rebuking the wicked as far as can be done, according to each one's grade and condition, with the maintenance of peace. The translator's Latin gloss, Persona, sits inside that sentence. In the Latin, congruam disciplinam is a fitting discipline and quae unitatem non violet is 'that does not break unity'. The sermon carries the gravity lpc.gravity.collegial-communion-preserved in its congregational form.
+Augustine, Sermon 38 in the NPNF numbering (88 in the Maurist numbering), section 23. English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 15208. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 38536-38542 (OCR text; the sermon starts at line 37663). The sentences before the passage, at lines 15204-15207, quote 'Depart ye, go ye out from thence, and touch not the unclean thing' (Isaiah), say 'we' understand the departure spiritually and 'they' bodily, and define going out as doing what belongs to rebuking the wicked as far as can be done, according to each one's grade and condition, with the maintenance of peace. The translator's Latin gloss, Persona, sits inside the last of them. In the Latin, congruam disciplinam is a fitting discipline and quae unitatem non violet is 'that does not break unity'. The sermon carries the gravity lpc.gravity.collegial-communion-preserved in its congregational form.
