@@ -9,11 +9,8 @@ Ruling: `Build/Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md`, ent
 | Document | Check accepted | Recorded state at declaration | Reason |
 |---|---|---|---|
 | Step0 | review-round-cap | review files: 5 | Approved to proceed under the earlier process; the project lead accepts the approval history (ruling of 2026-09-29). |
-| Step0 | verdict-wording | review files: 5; latest verdict: CLEARED | Older approval wording; the project lead accepts it as an approval to proceed (ruling of 2026-09-29). |
 | Doc_01 | review-round-cap | review files: 12 | Approved to proceed under the earlier process, past three rounds on the project lead's direct instruction; accepted (ruling of 2026-09-29; count amended 2026-10-23, see the amendment below). |
-| Doc_01 | verdict-wording | review files: 12; latest verdict: CLEARED | Older approval wording; accepted as an approval to proceed (ruling of 2026-09-29). |
 | Doc_02 | review-round-cap | review files: 35 | Approved to proceed under the earlier process; the round count is accepted, the return-to-review of 2026-09-13 is checked in Phase L0 (ruling of 2026-09-29; count amended 2026-10-23). |
-| Doc_02 | verdict-wording | review files: 35; latest verdict: CLEARED | Older approval wording; accepted as an approval to proceed (ruling of 2026-09-29). |
 | Doc_04 | review-round-cap | review files: 13 | Approved to proceed by the project lead's direct instruction after more than three rounds; the carried-open findings are checked in Phase L0 (ruling of 2026-09-29; count amended 2026-10-23). |
 | Doc_08 | review-round-cap | review files: 10 | Approved to proceed under the earlier process; the generator findings are checked in Phase L0 (ruling of 2026-09-29; count amended 2026-10-23). |
 | Doc_09 | review-round-cap | review files: 8 | Approved to proceed under the earlier process; the round count is accepted (ruling of 2026-09-29). |
@@ -38,6 +35,10 @@ Ruling: the project lead, 2026-10-23, in the `lpc` build thread (`Build/worlds/l
 | Doc_08 | `Review-Artifacts/L0_Doc08_Generator_Check_2026-10-23.md` | Phase L0 re-confirmation |
 
 Doc_08's coming recheck is covered by the Cap ruling of 2026-10-23 in the System Hub Decision Log, not by this declaration.
+
+## Amendment of 2026-10-24: verdict-wording rows withdrawn
+
+The verdict-wording rows for Step0, Doc_01 and Doc_02 are withdrawn. Change order CO-LPC-1 gave each a new latest review whose verdict reads "Approved to proceed" (`Step0_ChangeOrder_Recheck_Round7.md`, `Doc_01_ChangeOrder_Recheck_Round16.md`, `Doc_02_ChangeOrder_Recheck_Round38.md`), so the older wording no longer needs accepting. The review-round counts above are unchanged. Recorded in `Build/worlds/lpc/lpc_Decision_Log.md`, entry of 2026-10-24 "Declaration: verdict-wording rows withdrawn".
 
 ## Findings carried open and how each will be checked
 

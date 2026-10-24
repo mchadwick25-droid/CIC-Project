@@ -1792,3 +1792,11 @@ Logged 2026-10-24.
 - **N9 (P2).** Caution 2 says the world holds "few" texts from those years that "record events". That is looser than Doc_02 §7, whose list is not exhaustive and includes Augustine's own writings of 386 to 391. The sentence is also 30 words long.
 - **N10 (P2, weigh first in Phase L2).** Caution 2's clause "Never describe what happened in those years from this world's own collection" predates the fix. Read literally, it covers 386 to 391 and would bar the *Confessions* on Augustine's conversion, which is Documented and which the same record cites. The clause needs narrowing to the years before Augustine's own record begins.
 - **Owner.** The `lpc` build thread.
+
+### OG-58. Source Readiness Dossier: a resolved item carried forward, and its history (2026-10-24).
+
+Logged 2026-10-24.
+
+- **A resolved item, noted so nobody re-opens it:** the world's own Step 0 surfaced and, with Mark's direct authorization, fixed a genuine boundary breach in the already-built Imperial and Juridical Christianity world's own records (two load-bearing quote records citing *Confessions* material outside IJC's own declared license). Logged in full at `Build/worlds/ijc/Open_Gaps_Tracking.md` item 16; mentioned here only for cross-reference, not reopened. Closed.
+- **Dossier history.** The dossier was written by the source-research thread at commit `009caaf0` (2026-09-21). It then named Petschenig's CSEL 51 to 53 and Ziwsa's Optatus as not yet linked to this world. Petschenig has since been linked (Source Registry rows 214 and 253). Ziwsa's Optatus is still linked only to `donatism.yaml`. The dated header and the "not yet caught" wording were moved here for the handoff narration check (Process V2.0, check 11).
+- **Owner.** The `lpc` build thread.

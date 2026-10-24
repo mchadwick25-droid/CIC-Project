@@ -148,6 +148,13 @@ def _file_mentioned(filename: str, text: str) -> bool:
     return filename in text or stem in text or bool(re.search(rf"\b{re.escape(prefix)}\b", text))
 
 
+def _files_mentioned(cell: str, text: str) -> bool:
+    """A dossier source-file cell may name several files, each in backticks:
+    every one must be mentioned. A cell with no backticks is one file name."""
+    names = re.findall(r"`([^`]+)`", cell) or ([cell.strip()] if cell.strip() else [])
+    return bool(names) and all(_file_mentioned(n, text) for n in names)
+
+
 def _check_01(w: World) -> list[Finding]:
     path = f"records/worlds/{w.code}.yaml"
     if w.entry is None:
@@ -239,7 +246,7 @@ def _check_04(w: World, docs: dict[int, Path | None]) -> list[Finding]:
     if dossier.is_file():
         rows, s2, s3, _ = _dossier_items(w, read_text(dossier))
         for r in rows:
-            if not (r["file"] and _file_mentioned(r["file"], body)) and not matched(r["work"], chunks):
+            if not _files_mentioned(r["file"], body) and not matched(r["work"], chunks):
                 out.append(Finding(where, "handoff-04-step2", f"dossier section 1 work has no registry line: {r['work'][:80]}"))
         for item in s2:
             if not matched(item, chunks, 0.5):
