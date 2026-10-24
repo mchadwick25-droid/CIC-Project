@@ -4,8 +4,9 @@ The page signs in with the provider's own button and sends back a signed ID
 token. This module proves the provider made it for this app and for the nonce
 the server issued: the signature against the provider's published keys, the
 issuer, the audience, the expiry and the nonce. Only RS256 is accepted. The
-token's email is never read; the only value kept is the provider's own stable
-account id (the subject). Public keys are fetched over HTTPS and cached.
+token's email is read only by `verified_address`, to be hashed for a waiting
+coupon and dropped; the only value kept is the provider's own stable account
+id (the subject). Public keys are fetched over HTTPS and cached.
 """
 import base64
 import json
@@ -37,6 +38,7 @@ REFETCH_FLOOR_SECONDS = 300
 CLOCK_SKEW_SECONDS = 60
 MAX_KEYS_BYTES = 200_000
 MAX_SUBJECT_LENGTH = 255
+MAX_ADDRESS_LENGTH = 320
 
 
 def fetch_keys(url: str) -> dict:
@@ -48,6 +50,11 @@ def fetch_keys(url: str) -> dict:
     if len(body) > MAX_KEYS_BYTES:
         raise ValueError("provider key set too large")
     return json.loads(body)
+
+
+def _is_true(value) -> bool:
+    """A provider's flag is the JSON true or the string "true"; a number such as 1 is neither."""
+    return value is True or value == "true"
 
 
 def _b64(part: str) -> bytes:
@@ -111,6 +118,26 @@ class ProviderVerifier:
         return RSAPublicNumbers(int.from_bytes(_b64(jwk["e"]), "big"), int.from_bytes(_b64(jwk["n"]), "big")).public_key()
 
     def verify(self, provider: str, id_token: str, nonce: str) -> tuple[str, str] | None:
+        claims = self._claims(provider, id_token, nonce)
+        return (CANONICAL_ISSUER[provider], claims["sub"]) if claims is not None else None
+
+    def verified_address(self, provider: str, id_token: str, nonce: str) -> str | None:
+        """The address the provider says it has verified for this person, when the token passes
+        every check `verify` makes. None for a token without one, one the provider has not verified,
+        or Apple's private relay address, which is not the person's own."""
+        claims = self._claims(provider, id_token, nonce)
+        if claims is None:
+            return None
+        address = claims.get("email")
+        if not isinstance(address, str) or not 0 < len(address) <= MAX_ADDRESS_LENGTH:
+            return None
+        if not _is_true(claims.get("email_verified")):
+            return None
+        if provider == "apple" and _is_true(claims.get("is_private_email")):
+            return None
+        return address
+
+    def _claims(self, provider: str, id_token: str, nonce: str) -> dict | None:
         if not self.available(provider) or not isinstance(nonce, str) or not nonce:
             return None
         try:
@@ -141,4 +168,4 @@ class ProviderVerifier:
             and claims.get("nonce") == nonce
             and isinstance(subject, str) and 0 < len(subject) <= MAX_SUBJECT_LENGTH
         )
-        return (CANONICAL_ISSUER[provider], subject) if valid else None
+        return claims if valid else None

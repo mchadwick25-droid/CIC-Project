@@ -22,6 +22,8 @@ export interface Balance {
   refill_on: string;
   codes_held: number;
   code_tokens: number;
+  // The tokens still unspent on each gift coupon the account holds.
+  gifts?: number[];
 }
 
 export interface ShelfItem {
@@ -55,6 +57,8 @@ export interface AccountState {
   hasRecoveryCode: boolean;
   // The providers this server has turned on, each with our app's public id there.
   providers: Record<string, string>;
+  // The sizes of gift coupons that attached at the sign-in just made, until the person dismisses the notice.
+  giftNotice: number[];
 }
 
 export class AccountsError extends Error {
@@ -65,7 +69,7 @@ export class AccountsError extends Error {
   }
 }
 
-let state: AccountState = { status: 'unknown', balance: null, shelf: null, signInOpen: false, homeOpen: false, refillDay: null, lastShelved: null, recoveryPending: null, methods: [], hasRecoveryCode: false, providers: {} };
+let state: AccountState = { status: 'unknown', balance: null, shelf: null, signInOpen: false, homeOpen: false, refillDay: null, lastShelved: null, recoveryPending: null, methods: [], hasRecoveryCode: false, providers: {}, giftNotice: [] };
 const listeners = new Set<() => void>();
 
 function set(next: Partial<AccountState>) {
@@ -95,6 +99,9 @@ export function openHome() {
   set({ homeOpen: true, signInOpen: false });
   if (state.status === 'unknown') void refresh();
   void loadProviders();
+}
+export function dismissGiftNotice() {
+  set({ giftNotice: [] });
 }
 export function closeHome() {
   set({ homeOpen: false });
@@ -165,7 +172,7 @@ export async function loadShelf(): Promise<void> {
 }
 
 export type SignInResult =
-  | { kind: 'ok'; newAccount: boolean }
+  | { kind: 'ok'; newAccount: boolean; coupons: number[] }
   | { kind: 'ask_age'; message: string }
   | { kind: 'not_adult'; message: string }
   | { kind: 'waiting'; message: string; effectiveOn: string };
@@ -187,7 +194,9 @@ async function settleSignIn(body: Record<string, unknown>): Promise<SignInResult
   if (body.status === 'ok') {
     await refresh();
     await carryConversation();
-    return { kind: 'ok', newAccount: body.new_account === true };
+    const coupons = Array.isArray(body.coupons) ? body.coupons.filter((n): n is number => Number.isInteger(n) && n > 0) : [];
+    if (coupons.length > 0) set({ giftNotice: coupons });
+    return { kind: 'ok', newAccount: body.new_account === true, coupons };
   }
   const message = typeof body.message === 'string' ? body.message : '';
   if (body.status === 'needs_age_answer') return { kind: 'ask_age', message };
@@ -424,13 +433,13 @@ export async function signOutEverywhere(): Promise<void> {
   try {
     await call('/sign-out-everywhere', { method: 'POST' });
   } finally {
-    set({ status: 'out', balance: null, shelf: null, recoveryPending: null, methods: [], hasRecoveryCode: false, refillDay: null, homeOpen: false, lastShelved: null });
+    set({ status: 'out', balance: null, shelf: null, recoveryPending: null, methods: [], hasRecoveryCode: false, refillDay: null, homeOpen: false, lastShelved: null, giftNotice: [] });
     if (forgetShelvedConversation()) window.location.reload();
   }
 }
 
 /** For tests: back to the first state. */
 export function resetAccountsForTest() {
-  state = { status: 'unknown', balance: null, shelf: null, signInOpen: false, homeOpen: false, refillDay: null, lastShelved: null, recoveryPending: null, methods: [], hasRecoveryCode: false, providers: {} };
+  state = { status: 'unknown', balance: null, shelf: null, signInOpen: false, homeOpen: false, refillDay: null, lastShelved: null, recoveryPending: null, methods: [], hasRecoveryCode: false, providers: {}, giftNotice: [] };
   listeners.forEach((l) => l());
 }

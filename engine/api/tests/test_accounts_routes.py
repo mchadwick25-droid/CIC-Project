@@ -298,7 +298,7 @@ def test_a_provider_sign_in_asks_the_age_click_then_sets_the_cookie(http, runtim
     typed = http.post("/api/accounts/provider/finish", json={**body, "over_18": "yes"}, headers=H)
     assert typed.status_code == 422
     done = http.post("/api/accounts/provider/finish", json={**body, "over_18": True}, headers=H)
-    assert done.status_code == 200 and done.json() == {"status": "ok", "new_account": True}
+    assert done.status_code == 200 and done.json() == {"status": "ok", "new_account": True, "coupons": []}
     assert "__Host-cic_account" in done.headers["set-cookie"] and "HttpOnly" in done.headers["set-cookie"]
     me = http.get("/api/accounts/me").json()
     assert me["signed_in"] and me["sign_in_methods"] == ["google"]

@@ -1437,3 +1437,19 @@ def test_a_link_key_equal_to_a_long_audience_name_is_refused_at_start():
     ops = dataclasses.replace(ops, pilot_audiences=audiences)
     with pytest.raises(DeeperConfigError):
         parse_pilot_links(json.dumps({name: name}), ops)
+
+
+def test_the_dashboard_has_a_coupon_button_with_a_confirm_that_never_shows_the_address_again():
+    from pathlib import Path
+
+    page = (Path(deeper_routes.__file__).parent / "static" / "admin_dashboard.html").read_text()
+    assert 'id="coupon-address"' in page and 'id="coupon-tokens"' in page and 'id="coupon-submit"' in page
+    assert 'id="t-deeper-coupon"' in page and "coupon_codes_minted" in page
+    approve = page[page.index("async function approveCoupon"):page.index("async function cancelCoupon")]
+    assert "window.confirm(" in approve and "/api/admin/deeper/coupon" in approve
+    assert approve.index('box.value = ""') < approve.index("if (!resp.ok)")  # the address is cleared whatever the answer
+    after_confirm = approve[approve.index("const resp = await fetch"):]
+    assert "address" not in after_confirm.replace("body: JSON.stringify({ address: address, tokens: tokens })", "")
+    listing = page[page.index("async function loadCoupons"):page.index("async function approveCoupon")]
+    assert "c.coupon_id" in listing and "c.address" not in listing
+    assert "/api/admin/deeper/coupon/cancel" in page

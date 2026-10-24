@@ -73,6 +73,8 @@ export const accountsCopy = {
   tokensLeft: (n: number) => `${n.toLocaleString('en-US')} tokens left`,
   freeRefill: (left: number, total: number, day: number | null) =>
     day === null ? `${left.toLocaleString('en-US')} free.` : `${left.toLocaleString('en-US')} free. They refill to ${total.toLocaleString('en-US')} on the ${ordinal(day)} of each month.`,
+  giftAdded: (n: number) => `${n.toLocaleString('en-US')} gift tokens have been added to your account.`,
+  giftLine: (n: number) => `Gift: ${n.toLocaleString('en-US')} tokens.`,
   codeTokens: (n: number) => `${n.toLocaleString('en-US')} tokens on your codes.`,
   freeFirst: 'Free tokens are used first.',
   getMore: 'Get more conversations',

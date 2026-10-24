@@ -131,6 +131,10 @@ class AccountsService:
         self.contacts = contacts
         self.shelf_cipher = shelf_cipher
         self._clock = clock
+        # Set by the edge that holds the meter: (coupon id, tokens) -> the hash of the one code
+        # that coupon's gift lives in. With none set, coupons wait where they are.
+        self.coupon_code_hash: Callable[[str, int], str | None] | None = None
+        self.coupon_unclaimed_days = 90
 
     # time and counters -------------------------------------------------------
 
@@ -149,7 +153,11 @@ class AccountsService:
         self._apply_due_recoveries()
         self._undo_stale_reservations()
         self._sweep_contacts()
-        return self.store.purge_ephemeral(self.now()) + self.store.purge_durable(self.today().isoformat())
+        oldest = (self.today() - timedelta(days=self.coupon_unclaimed_days)).isoformat()
+        return (
+            self.store.purge_ephemeral(self.now()) + self.store.purge_durable(self.today().isoformat())
+            + self.store.purge_pending_coupons(oldest)
+        )
 
     def _coarse(self, network: str) -> str:
         """The wider block a network belongs to (an IPv6 /48 or an IPv4 /24), as a keyed value."""
@@ -276,7 +284,7 @@ class AccountsService:
             if not self._spend(checked):
                 return Result("wrong")
             self._keep_contact(account.account_id, norm)
-            return self._sign_in_as(account, ahash)
+            return self._sign_in_as(account, ahash, candidates=candidates)
         waiting = self.store.pending_for_address(candidates)
         if waiting is not None:
             # The code just proved this address, so naming the wait tells no stranger anything;
@@ -298,9 +306,9 @@ class AccountsService:
             if account is None:
                 return Result("wrong")
             self._keep_contact(account.account_id, norm)
-            return self._sign_in_as(account, ahash)
+            return self._sign_in_as(account, ahash, candidates=self.keys.candidate_hashes(norm))
         self._keep_contact(account.account_id, norm)
-        return self._sign_in_as(account, ahash, new_account=True)
+        return self._sign_in_as(account, ahash, new_account=True, candidates=candidates)
 
     def _keep_contact(self, account_id: str, address: str) -> None:
         """Keeps the typed address, sealed, for sending to its owner. Written when there is none
@@ -308,11 +316,12 @@ class AccountsService:
         if self.contacts is not None and (self.contacts.get(account_id) != address or not self.contacts.is_current(account_id)):
             self.contacts.put(account_id, address)
 
-    def _sign_in_as(self, account: Account, ahash: str, new_account: bool = False) -> Result:
+    def _sign_in_as(self, account: Account, ahash: str, new_account: bool = False, candidates: list[str] | None = None) -> Result:
         if not self.keys.is_current(account.address_hash):
             self.store.set_address_hash(account.account_id, ahash)
         self.store.touch(account.account_id, _week(self.today()))
-        return Result("ok", cookie=self._open_session(account.account_id), new_account=new_account)
+        gifts = self._redeem_coupons(account.account_id, candidates)
+        return Result("ok", cookie=self._open_session(account.account_id), new_account=new_account, data={"coupons": gifts})
 
     # Google and Apple ------------------------------------------------------------
 
@@ -358,10 +367,25 @@ class AccountsService:
         candidates = self.keys.provider_candidates(provider, who[0], who[1])
         return candidates[0], candidates
 
+    def _provider_address(self, provider: str, id_token, nonce: str) -> list[str]:
+        """The hashes of the address the provider has itself verified for this token, for a
+        waiting coupon to find. The address is hashed and dropped: it is not kept or logged, and
+        it is never used to find or link an account. A provider that gives none, or a relay
+        address, gives an empty list."""
+        read = getattr(self.verifier, "verified_address", None)
+        if read is None:
+            return []
+        try:
+            norm = normalise_address(read(provider, id_token, nonce))
+        except Exception:  # noqa: BLE001 - the token must not reach a log
+            return []
+        return self.keys.candidate_hashes(norm) if norm is not None else []
+
     def provider_sign_in(self, provider, id_token, nonce, network: str, over_18=None) -> Result:
         """Signs in by a provider's account id. A person the provider does not yet map to an
         account is asked the one-click age line first, as at a first typed-code sign-in. The
-        provider's email is never read."""
+        provider's verified address is read only to find a waiting coupon; it never finds, opens
+        or links an account."""
         if not self._provider_ready(provider):
             return Result("not_available")
         if not self._allow("finish_net", self.keys.network_key(network), 900, self.limits.finishes_per_network_15min):
@@ -378,7 +402,7 @@ class AccountsService:
                 return Result("wrong")
             if stored != current:
                 self.store.rekey_link(stored, current)
-            return self._sign_in_by_provider(account)
+            return self._sign_in_by_provider(account, addresses=self._provider_address(provider, id_token, nonce))
         if over_18 is None:
             return Result("needs_age_answer")
         if over_18 is not True:
@@ -392,11 +416,12 @@ class AccountsService:
         if not self.store.create_account(account, (current, provider)):
             found = self.store.account_by_subjects(candidates)
             return self._sign_in_by_provider(found[0]) if found else Result("wrong")
-        return self._sign_in_by_provider(account, new_account=True)
+        return self._sign_in_by_provider(account, new_account=True, addresses=self._provider_address(provider, id_token, nonce))
 
-    def _sign_in_by_provider(self, account: Account, new_account: bool = False) -> Result:
+    def _sign_in_by_provider(self, account: Account, new_account: bool = False, addresses: list[str] | None = None) -> Result:
         self.store.touch(account.account_id, _week(self.today()))
-        return Result("ok", cookie=self._open_session(account.account_id), new_account=new_account)
+        gifts = self._redeem_coupons(account.account_id, addresses)
+        return Result("ok", cookie=self._open_session(account.account_id), new_account=new_account, data={"coupons": gifts})
 
     def provider_step_up(self, session: Session, provider, id_token, nonce, network: str) -> Result:
         """A fresh sign-in by a provider the account already has counts as the step-up only for
@@ -720,6 +745,56 @@ class AccountsService:
         for account_id in self.contacts.pending_account_ids():
             if self.store.pending_of(account_id, include_unnotified=True) is None:
                 self.contacts.forget_pending(account_id)
+
+    # coupons ------------------------------------------------------------------------
+
+    def coupon_approve(self, address, tokens, *, max_tokens: int, max_per_day: int) -> Result:
+        """Keeps one coupon for the person who signs in with this address. Only the keyed hash of
+        the address is kept; the reply is the same whether or not that address has an account.
+        Every approval counts toward the day's limit, one later cancelled included."""
+        norm = normalise_address(address)
+        if norm is None:
+            return Result("invalid_address")
+        if isinstance(tokens, bool) or not isinstance(tokens, int) or not 0 < tokens <= max_tokens:
+            return Result("invalid_tokens")
+        if not self._allow("coupon_approve", "all", 86400, max_per_day):
+            return Result("limit")
+        coupon_id = "coupon_" + secrets.token_hex(8)
+        day = self.today().isoformat()
+        self.store.add_pending_coupon(coupon_id, self.keys.address_hash(norm), tokens, day)
+        return Result("ok", data={"coupon_id": coupon_id, "tokens": tokens, "day_made": day})
+
+    def coupon_pending(self) -> list[dict]:
+        return self.store.pending_coupon_rows()
+
+    def coupon_cancel(self, coupon_id) -> bool:
+        return isinstance(coupon_id, str) and self.store.cancel_pending_coupon(coupon_id)
+
+    def _redeem_coupons(self, account_id: str, address_hashes: list[str] | None) -> list[int]:
+        """Attaches every coupon waiting for these address hashes to the account and returns the
+        token amounts, for the notice. A fault here never fails the sign-in; a coupon not
+        attached stays and is tried again at the next one."""
+        if self.coupon_code_hash is None or not address_hashes:
+            return []
+        gifts: list[int] = []
+        try:
+            for coupon_id, tokens in self.store.pending_coupons_for(address_hashes):
+                try:
+                    code_hash = self.coupon_code_hash(coupon_id, tokens)
+                    if code_hash is None:
+                        continue
+                    held_as = self.keys.secret_candidates("code", code_hash)
+                    outcome = self.store.claim_coupon(
+                        coupon_id, account_id, held_as[0], held_as, self.today().isoformat(), self.limits.codes_per_account
+                    )
+                except Exception:  # noqa: BLE001 - nothing about the coupon or the person goes to a log
+                    logger.exception("a waiting coupon could not be attached")
+                    continue
+                if outcome in ("ok", "mine"):
+                    gifts.append(tokens)
+        except Exception:  # noqa: BLE001
+            logger.exception("waiting coupons could not be read")
+        return gifts
 
     # codes held ---------------------------------------------------------------------
 
