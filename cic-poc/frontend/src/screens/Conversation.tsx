@@ -14,6 +14,7 @@ import { WaitingNote } from '../components/WaitingNote';
 import { useReveal, type RevealItem } from '../hooks/useReveal';
 import type { ConversationTurn } from '../hooks/useConversation';
 import { pageFeedbackId } from '../lib/api';
+import { facilitatorClass, safetyAttributes } from '../lib/facilitatorTurn';
 import { streamedReply, type StreamedSentence } from '../lib/streamedReply';
 import type { WorldEntry } from '../data/worlds';
 import { useRef, useState } from 'react';
@@ -92,7 +93,7 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
       </div>
 
       <ResourcesFirst turns={turns} sessionId={sessionId} />
-      <TranscriptScroll label="Conversation" followSignal={participantTurns}>
+      <TranscriptScroll label="Conversation" followSignal={participantTurns} holdSignal={turns.filter((t) => t.speaker === 'facilitator' && t.kind === 'safety').length}>
         {turns.map((turn, i) => {
           const still = i < initialTurns;
           if (turn.speaker === 'participant') {
@@ -109,7 +110,7 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
             const welcome = firstAsked < 0 || i < firstAsked;
             return (
               <Enter key={i} still={still} shown={!welcome || !started}>
-                <div className={welcome ? 'turn turn--facilitator turn--welcome' : 'turn turn--facilitator'}>
+                <div className={facilitatorClass(welcome, turn.kind)} {...safetyAttributes(turn.kind)}>
                   {facilitatorParagraphs(turn.text).map((paragraph, j) => (
                     <p key={j}>
                       {paragraph}
@@ -190,6 +191,7 @@ export function Conversation({ world, turns, streamed = [], sessionId = null, se
           disabled={isLoading || reveal.busy}
           sending={awaitingReply}
           placeholder={`Ask ${world.representativeName}…`}
+          label={`Ask ${world.representativeName}`}
           initialMessage={started ? '' : carriedQuestion}
         />
       )}

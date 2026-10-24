@@ -33,7 +33,7 @@ From session: https://claude.ai/code/session_018xWVLs9yERzGBV8kYdM8Wn · World o
 
 ## 5. Next step
 
-Read Mark's purchase results against the reconciliation and owed lists, log them in the Decision-Log, then raise the finish-line items one at a time.
+Superseded 2026-10-24 by Decision-Log rulings 80 and 81: buying is suspended (Payment Link slots empty on the buy page) until accounts are built, and accounts and coupons are the two main threads. Mark still has to deactivate the three Payment Links in Stripe. Open from this thread: his purchase-test results (return page, one payment with one code and gap 0, replay adds no second code, refund applied) against the reconciliation and owed lists; version A of the expiry line (ruling 79) goes on the page when sales reopen; the lapse for purchased tokens is not built; the gaps in Pilot_Feedback_Log.md.
 
 ## 6. Spend
 

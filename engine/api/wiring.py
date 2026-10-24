@@ -45,6 +45,7 @@ from engine.m4.uncited_claims import (
 )
 from engine.m4.world_loader import LazyWorldLoader, LoadedWorld
 from engine.m5.anachronism import anachronistic_term_ids as compute_anachronistic_term_ids
+from engine.m5.failure import SAFETY_FAILED
 from engine.m5.routing import PRESSABLE_CLASSES
 from engine.m7.scheduler import STATUS_FILENAME
 from engine.m7.session_reader import read_session
@@ -121,7 +122,8 @@ def screen_refused_message(
 ) -> "MessageResult | None":
     """System Hub decision 35: a message the service is about to refuse
     unread (a closed session, an over-long message) goes through the safety
-    call first. When the safety call routes it to the Facilitator, the
+    call first. When the safety call routes it to the Facilitator (or could
+    not run, which gets the fixed line for a message nothing could read), the
     message, the gate decision and the Facilitator's safety turn are
     recorded and returned like any turn, and the session's state is
     otherwise unchanged (a closed session stays closed). Otherwise None,
@@ -137,8 +139,12 @@ def screen_refused_message(
     action = gate_run.gate_result.routing.action
     if action not in SAFETY_ROUTES:
         return None
-    facilitator_events = safety_route_facilitator_events(
-        gate_run, representative_name=representative_name, track_a_last=state.safety.track_a_last,
+    unread = action == SAFETY_FAILED.action
+    # A message nothing could read, sent where it is refused anyway, gets the fixed line with the redirect and
+    # no promise that sending again will work. It uses no turn.
+    facilitator_events = (
+        [facilitator_turns.safety_unread_refused_turn()] if unread
+        else safety_route_facilitator_events(gate_run, representative_name=representative_name, track_a_last=state.safety.track_a_last)
     )
     msg_uuid = client_msg_id or str(uuid.uuid4())
     participant_payload = {"text": text, "client_msg_id": msg_uuid}
@@ -152,8 +158,10 @@ def screen_refused_message(
     for fe in facilitator_events:
         events.validate("facilitator_turn", fe)
         store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="facilitator_turn", payload=fe)
-    turn_no = state.turn_count + 1
-    store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="turn_committed", payload={"turn_no": turn_no})
+    turn_no = state.turn_count
+    if not unread:
+        turn_no += 1
+        store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="turn_committed", payload={"turn_no": turn_no})
     return MessageResult(
         turn_no=turn_no, routing_action=action, routing_reason=gate_run.gate_result.routing.reason,
         degraded=gate_run.gate_result.degraded, facilitator=facilitator_events[-1], voice=None,
@@ -162,7 +170,7 @@ def screen_refused_message(
 
 class ProviderCallFailed(Exception):
     """run_turn() raised something other than UnhandledRoutingAction - most
-    likely a real Bedrock/credential failure. The participant_message event
+    likely a failed voice call, or a programming or configuration fault. The participant_message event
     (if this happened mid-message) is already committed; nothing else is."""
 
 
@@ -862,6 +870,9 @@ def replay_transcript(state: SessionState, anachronistic_term_ids: set) -> list[
     voice_message_for_round - the SAME derivation the live bridge turn
     used, so memory and the turn it remembers cannot disagree.
 
+    A participant message whose gate could not run (route safety_unread_turn)
+    is left out altogether.
+
     This does not touch _replay_text's own discipline ("history must match
     what the person read"): that rule is about the VOICE's words, which the
     participant read on screen. The participant's message was never shown
@@ -884,6 +895,10 @@ def replay_transcript(state: SessionState, anachronistic_term_ids: set) -> list[
         if entry.get("speaker") == "participant":
             gate = gate_for_message[ordinal] if ordinal < len(gate_for_message) else None
             ordinal += 1
+            if gate and gate.get("route") == SAFETY_FAILED.action:
+                # Nothing read this message for risk, so no voice is ever handed it: not on its own turn, and not
+                # later as part of what was said since its last turn.
+                continue
             if gate and gate.get("route") == "bridge_turn":
                 substitute, _directive = voice_message_for_round(gate, entry.get("text") or "", anachronistic_term_ids)
                 if substitute:
@@ -1106,23 +1121,23 @@ def handle_message(
             citation_attach_enabled=citation_attach_enabled,
         )
     except UnhandledRoutingAction:
-        # Not caught and softened into a note about a test build: all seven
-        # routing actions have real content now, so the state such a note
+        # Not caught and softened into a note about a test build: every
+        # routing action has real content now, so the state such a note
         # would describe cannot occur, and a graceful degradation path for
         # an impossible state would just be a permanently-false field in
         # the public response schema.
         #
-        # The raise in engine.m4.turn stays as the guard for an EIGHTH
-        # routing action someone adds without a branch. Re-raised here so it
+        # The raise in engine.m4.turn stays as the guard for a routing action
+        # someone adds without a branch. Re-raised here so it
         # surfaces as itself - a programming error, a 500 - rather than
         # being swallowed by the provider-failure catch below and reported
         # to the operator as a Bedrock problem it is not.
         raise
     except Exception as exc:
-        # engine.m5.live_calls only catches anthropic.APIError/APITimeoutError
-        # (confirmed by reading it directly) - a raw botocore/credential
-        # failure propagates straight through run_turn uncaught. Nothing
-        # commits past this point; the participant_message stays in the log
+        # A failure of the voice call, or any fault the gate calls do not
+        # answer for themselves (engine.m5.live_calls turns a call that could
+        # not run into a failed gate call, which the gate answers with the
+        # fixed Facilitator line). Nothing commits past this point; the participant_message stays in the log
         # as evidence of what was sent and they may resend.
         raise ProviderCallFailed(str(exc)) from exc
 

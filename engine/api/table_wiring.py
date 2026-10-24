@@ -28,6 +28,7 @@ never a new kind of leak. engine/api/tests/test_table_isolation.py holds
 this to account with a seeded cross-world leak.
 """
 import random
+import dataclasses
 import uuid
 from dataclasses import dataclass
 from pathlib import Path
@@ -61,6 +62,7 @@ from engine.m4.round import (
 )
 from engine.m4.table_governance import detect_direct_address, governance_summary
 from engine.m4.store import Store
+from engine.m5.failure import SAFETY_FAILED
 from engine.m4.turn import SAFETY_ROUTES, UnhandledRoutingAction, _maybe_record_usage, run_gate, run_voice_turn_for_world
 from engine.m4.turn_selector import Selection, select_speaker
 from engine.m4.uncited_claims import (
@@ -619,9 +621,13 @@ def _last_participant_text(state: SessionState) -> str:
     raise TableRoundNotOpen(f"session {state.session_id} has an open round but no participant message on record")
 
 
-def _close_round(store: Store, state: SessionState, *, reason: str, turns: int, selector_reason: str | None = None) -> int:
+def _close_round(
+    store: Store, state: SessionState, *, reason: str, turns: int, selector_reason: str | None = None, counts: bool = True,
+) -> int:
     """round_closed + turn_committed, in that order - a round, not a voice
-    turn, is the committed unit (Artifact-7 SS2). Returns the turn_no.
+    turn, is the committed unit (Artifact-7 SS2). Returns the turn_no. A round
+    for a message the safety check could not read (counts=False) closes
+    without turn_committed: it was not answered, so it is not a round used.
 
     Every close carries the deterministic governance summary (C5,
     engine.m4.table_governance): per-voice word/turn shares and any
@@ -654,6 +660,10 @@ def _close_round(store: Store, state: SessionState, *, reason: str, turns: int, 
         closed_payload["selector_reason"] = selector_reason
     events.validate("round_closed", closed_payload)
     store.append(session_id=state.session_id, event_uuid=str(uuid.uuid4()), event_type="round_closed", payload=closed_payload)
+    if not counts:
+        # A message the safety check could not read was not answered, so it is not a round used: the
+        # sitting's count stays where it was and the person may send it again.
+        return state.turn_count
     turn_no = state.turn_count + 1
     store.append(session_id=state.session_id, event_uuid=str(uuid.uuid4()), event_type="turn_committed", payload={"turn_no": turn_no})
     return turn_no
@@ -1075,7 +1085,8 @@ def _screen_refused_table_message(
 ) -> TableMessageResult | None:
     """System Hub decision 35, at the table: a message about to be refused
     unread (a closed session, an open round, an over-long message) goes
-    through the safety call first. On a safety route, an open round is
+    through the safety call first. On a safety route (not the fixed line for
+    a message nothing could read, which is refused as before), an open round is
     closed (reason "safety", no further voice speaks in it) and the message
     becomes a governed round whose whole content is the Facilitator's safety
     turn, exactly as an opening message would; a closed session stays
@@ -1089,11 +1100,18 @@ def _screen_refused_table_message(
         usage_store.append(rec)
     if gate_run.gate_result.routing.action not in SAFETY_ROUTES:
         return None
+    unread = gate_run.gate_result.routing.action == SAFETY_FAILED.action
+    if unread and state.round_open:
+        # The page does not let a message be sent while the table is speaking; over the API it is refused as before.
+        return None
     representative_names = [worlds[k].frame["representative"]["name"] for k in state.world_keys]
     opening = open_table_round(
         gate_run=gate_run, representative_names=representative_names, track_a_last=state.safety.track_a_last,
         rounds_completed=state.turn_count, anachronistic_term_ids=set(),
     )
+    if unread:
+        # Refused anyway (a closed sitting, an over-long message): the fixed line with the redirect, no promise to send again.
+        opening = dataclasses.replace(opening, facilitator_events=[facilitator_turns.safety_unread_refused_turn()])
     if state.round_open:
         _close_round(store, state, reason="safety", turns=state.round_turns)
     participant_payload = {"text": text, "client_msg_id": str(uuid.uuid4())}
@@ -1108,7 +1126,7 @@ def _screen_refused_table_message(
         events.validate("facilitator_turn", fe)
         store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="facilitator_turn", payload=fe)
     governed_state = project_fresh(session_id, store)
-    turn_no = _close_round(store, governed_state, reason="selector_closed", turns=0)
+    turn_no = _close_round(store, governed_state, reason="selector_closed", turns=0, counts=not unread)
     return TableMessageResult(
         round_no=governed_state.round_no, round_open=False, routing_action=opening.routing_action,
         routing_reason=opening.routing_reason, degraded=opening.degraded,
@@ -1250,7 +1268,7 @@ def _handle_table_message_unlocked(
                 answer_text=opening.facilitator_events[-1].get("text") if opening.facilitator_events else None,
             )
         governed_state = project_fresh(session_id, store)
-        turn_no = _close_round(store, governed_state, reason="selector_closed", turns=0)
+        turn_no = _close_round(store, governed_state, reason="selector_closed", turns=0, counts=opening.routing_action != SAFETY_FAILED.action)
         return TableMessageResult(
             round_no=round_no, round_open=False, routing_action=opening.routing_action,
             routing_reason=opening.routing_reason, degraded=opening.degraded,

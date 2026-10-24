@@ -43,7 +43,7 @@ class GateResult:
     degraded: bool
 
 
-SAFETY_FAILED = RoutingDecision(action="check_in_turn", reason="safety call failed - Facilitator check-in, never the voice")
+SAFETY_FAILED = RoutingDecision(action="safety_unread_turn", reason="safety call failed - fixed Facilitator line with the redirect, never the voice")
 
 
 def resolve_gate(
@@ -55,9 +55,10 @@ def resolve_gate(
     message: str,
 ) -> GateResult:
     # Safety fails or times out
-    # -> the Facilitator's check-in, whatever the reader said. A message no
-    # one has read for risk never reaches the voice; the participant sees a
-    # check-in, never a missed crisis.
+    # -> the Facilitator's fixed line with the redirect, whatever the reader
+    # said. A message no one has read for risk never reaches the voice; the
+    # participant is told it was not read and is given the redirect, never a
+    # question to answer first.
     if safety_outcome.failed:
         return GateResult(routing=SAFETY_FAILED, degraded=True)
 

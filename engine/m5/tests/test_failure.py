@@ -56,13 +56,13 @@ def test_reader_parse_failure_is_a_failure_not_salvaged():
     assert result.degraded is True
 
 
-def test_safety_failure_goes_to_the_facilitator_check_in_never_the_voice():
+def test_safety_failure_goes_to_the_fixed_line_with_the_redirect_never_the_voice():
     for status in ("timeout", "error", "parse_failure"):
         result = resolve_gate(
             safety_outcome=CallOutcome(status=status), reader_outcome=READER_OK, pressed={}, anachronistic_term_ids=set(),
             message="who was Jesus",
         )
-        assert result.routing.action == "check_in_turn"
+        assert result.routing.action == "safety_unread_turn"
         assert result.degraded is True
 
 
@@ -111,12 +111,12 @@ def test_reader_timeout_with_safety_no_signal_still_falls_to_pass_through():
     assert result.degraded is True
 
 
-def test_both_fail_goes_to_the_facilitator_check_in():
+def test_both_fail_goes_to_the_fixed_line_with_the_redirect():
     result = resolve_gate(
         safety_outcome=CallOutcome(status="error"), reader_outcome=CallOutcome(status="timeout"), pressed={},
         anachronistic_term_ids=set(), message="who was Jesus",
     )
-    assert result.routing.action == "check_in_turn"
+    assert result.routing.action == "safety_unread_turn"
     assert result.degraded is True
 
 

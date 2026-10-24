@@ -7,7 +7,7 @@ works:
   work: Histoire des patriarcats melkites, t. II-III (1910-1911)
   author: charon
   locus: whole work
-  role: transmission
+  role: context
   confidence: provisional
   note: The Melkite church described from inside its own Catholic world at the start of the
     twentieth century; reception, provisional.
@@ -40,7 +40,7 @@ works:
   author: melkite-church
   locus: from the synod of 1831 at the Annunciation monastery, Zuq Mikhail (about raw scan
     line 90763), to the synod of 1902
-  role: transmission
+  role: context
   confidence: provisional
   note: The church's nineteenth-century synods, past the window's end; no later Melkite entry
     exists in the census yet.
