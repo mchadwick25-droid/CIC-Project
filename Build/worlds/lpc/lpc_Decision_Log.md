@@ -2579,3 +2579,9 @@ The Doc_04, Doc_05 and Doc_09 second rechecks ran partly or wholly on Opus 5 (di
 ### 2026-10-24 — Confirmation recheck of the Doc_01 and Doc_02 fixes and the cleaned records (project lead's ruling)
 
 Alternatives shown: (1) one targeted Opus 5.5 recheck of the two P1 fixes plus a sample of the 241 cleaned records; (2) two separate rechecks; (3) hold CO-LPC-1 open. Chosen: 1 (project lead, 2026-10-24). Cap ruling in the System Hub Decision Log.
+
+---
+
+### 2026-10-24 — Doc_01 N6: fix the three sites, then one recheck of only those (project lead's ruling)
+
+Alternatives shown: (1) fix and run one Opus 5.5 recheck of the three sites; (2) fix with no recheck; (3) see the wording first. Chosen: 1 (project lead, 2026-10-24). Cap ruling in the System Hub Decision Log.
