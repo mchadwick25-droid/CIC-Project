@@ -15,6 +15,7 @@ nobody approved.
 """
 import re
 import string
+from datetime import date
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -105,6 +106,18 @@ def _message(raw, label: str, allowed: frozenset, *, required: frozenset) -> Mes
     return Message(subject, body)
 
 
+_MONTHS = ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
+
+
+def day_in_words(iso: str) -> str:
+    """A year-month-day text as day, month name and year, the way the screens show a day. Anything else is sent as given."""
+    try:
+        d = date.fromisoformat(iso)
+    except (TypeError, ValueError):
+        return str(iso)
+    return f"{d.day} {_MONTHS[d.month - 1]} {d.year}"
+
+
 class SesMailer:
     """The accounts Mailer over an SES client. The client is handed in so tests send nothing."""
 
@@ -122,7 +135,10 @@ class SesMailer:
         message = self._words.notices.get(kind)
         if message is None:
             raise MailSendError("no words for this notice")
-        self._send(address, message, {name: fields[name] for name in NOTICE_FIELDS[kind]})
+        filled = {name: fields[name] for name in NOTICE_FIELDS[kind]}
+        if "effective_on" in filled:
+            filled["effective_on"] = day_in_words(filled["effective_on"])
+        self._send(address, message, filled)
 
     def _send(self, address: str, message: Message, fields: dict) -> None:
         if not _ADDRESS.match(address or ""):

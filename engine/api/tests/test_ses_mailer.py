@@ -1,6 +1,7 @@
 """The SES mailer sends one plain-text message per call and leaks nothing. The words in these tests are
 test words, written here so the code can be exercised; the live words come from the approved file."""
 import logging
+from datetime import date
 
 import pytest
 
@@ -13,6 +14,7 @@ WORDS = {
         "recovery_started": {"subject": "test notice", "body": "test cancel {cancel_code} on {effective_on}"},
     },
 }
+DAY = date(2026, 11, 2)
 ADDRESS = "reader@example.org"
 CODE = "482913"
 
@@ -47,8 +49,8 @@ def test_a_code_goes_out_as_one_plain_text_message_to_one_address():
 
 def test_a_notice_fills_only_its_own_fields():
     client = FakeSes()
-    mailer(client).send_notice(ADDRESS, "recovery_started", {"cancel_code": "abc", "effective_on": "1 Nov", "extra": "x"})
-    assert client.calls[0]["Content"]["Simple"]["Body"]["Text"]["Data"] == "test cancel abc on 1 Nov"
+    mailer(client).send_notice(ADDRESS, "recovery_started", {"cancel_code": "abc", "effective_on": DAY.isoformat(), "extra": "x"})
+    assert client.calls[0]["Content"]["Simple"]["Body"]["Text"]["Data"] == "test cancel abc on 2 November 2026"
 
 
 def test_an_unknown_notice_is_refused():
@@ -125,3 +127,29 @@ def test_no_ses_settings_means_no_mailer_and_partial_settings_are_a_mistake():
     with pytest.raises(MailConfigError, match="partly set"):
         ses_mailer.from_env({ses_mailer.ENV_FROM: "accounts@example.org"})
 
+
+
+def test_a_day_is_written_the_way_the_screens_write_it():
+    assert ses_mailer.day_in_words(DAY.isoformat()) == "2 November 2026"
+    assert ses_mailer.day_in_words(date(2027, 1, 31).isoformat()) == "31 January 2027"
+    assert ses_mailer.day_in_words("soon") == "soon"
+
+
+def test_the_approved_words_file_loads_and_says_what_mark_approved():
+    words = MailWords.from_file(ses_mailer.DEFAULT_WORDS_PATH)
+    client = FakeSes()
+    mail = SesMailer(client, "accounts@example.org", words)
+    mail.send_code(ADDRESS, CODE)
+    mail.send_notice(ADDRESS, "recovery_started", {"cancel_code": "CANCEL", "effective_on": DAY.isoformat()})
+    code_mail, notice_mail = (c["Content"]["Simple"] for c in client.calls)
+    assert code_mail["Subject"]["Data"] == "Your sign-in code"
+    assert code_mail["Body"]["Text"]["Data"] == (
+        f"Your code is {CODE}. It works for ten minutes.\n\nIf you did not ask for it, ignore this email."
+    )
+    assert notice_mail["Subject"]["Data"] == "Someone is moving your account"
+    assert notice_mail["Body"]["Text"]["Data"] == (
+        "Someone started moving your account to a new email address.\n\n"
+        "If this was you, do nothing. The move happens on 2 November 2026.\n\n"
+        "If this was not you, sign in with this address and press Stop the recovery.\n\n"
+        "Cannot sign in? Your cancel code is CANCEL. Use it on the sign-in page, under “I cannot get to my email”."
+    )
