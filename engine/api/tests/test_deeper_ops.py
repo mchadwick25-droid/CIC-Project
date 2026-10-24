@@ -113,6 +113,14 @@ def test_the_stored_pause_names_no_code_and_no_money():
         lambda d: d["pilot"]["audiences"]["general"].update(questionnaire_url=7),
         lambda d: d["pilot"].update(pack_usd=9),
         lambda d: d["pilot"].update(extra=1),
+        lambda d: d.pop("coupon"),
+        lambda d: d["coupon"].pop("unclaimed_days"),
+        lambda d: d["coupon"].update(extra=1),
+        lambda d: d["coupon"].update(max_tokens=0),
+        lambda d: d["coupon"].update(max_tokens=1_000_001),
+        lambda d: d["coupon"].update(max_per_day=True),
+        lambda d: d["coupon"].update(unclaimed_days="90"),
+        lambda d: d["coupon"].update(unclaimed_days=0),
     ],
 )
 def test_a_malformed_file_is_refused(tmp_path, change):
@@ -187,6 +195,11 @@ def test_the_shipped_tester_section_holds_the_stated_defaults():
     ops = load_ops()
     assert (ops.tester_default_tokens, ops.tester_max_tokens) == (20000, 20000)
     assert (ops.tester_default_days, ops.tester_max_days, ops.tester_max_per_day) == (30, 90, 2)
+
+
+def test_the_shipped_coupon_section_holds_the_stated_numbers():
+    ops = load_ops()
+    assert (ops.coupon_max_tokens, ops.coupon_max_per_day, ops.coupon_unclaimed_days) == (20000, 20, 90)
 
 
 @pytest.mark.parametrize("key", [None, "", "short"])
