@@ -50,6 +50,8 @@ NEEDS: dict[str, tuple[Need, ...]] = {
     "CIC_ACCOUNTS_ENABLED": (
         Need("CIC_ACCOUNTS_KEY", min_length=MIN_KEY_LENGTH),
         Need("CIC_ACCOUNTS_SESSION_KEY", min_length=MIN_KEY_LENGTH),
+        Need("CIC_ACCOUNTS_BACKUP_KEY", min_length=MIN_KEY_LENGTH),
+        Need("CIC_API_BACKUP_BUCKET"),
         Need("CIC_ACCOUNTS_SES_FROM"),
         Need("CIC_ACCOUNTS_SES_REGION"),
         Need("CIC_ACCOUNTS_SES_ACCESS_KEY_ID"),

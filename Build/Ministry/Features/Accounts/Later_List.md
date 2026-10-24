@@ -9,4 +9,5 @@ Not blocking. Nothing here stops accounts from working online.
 5. Build Plan artifact: amend A4 from rulings 55 to 60. Optional.
 6. Rulings 57 and 58 (spent line, day free tokens return). With the visitor-limit thread.
 7. Small edges: accounts on with Go Deeper off leaves only `#home` to sign in; a full shelf at sign-in is silent.
-8. Still open from before: mail provider, Stripe facts, turning accounts on (A7), A5 (privacy page, runbook).
+8. Still open from before: SES production access and settings, Stripe facts, turning accounts on (A7), A5 (privacy page, deletion inventory, incident runbook).
+9. The deletion ledger sits inside the durable accounts file, so restoring a backup made before a deletion also restores that ledger without the deletion, and the deleted account returns. Open for Mark: write each ledger entry to the backup bucket at deletion time and replay it on restore, or a separate hourly-backed-up ledger file, or accept up to a day.

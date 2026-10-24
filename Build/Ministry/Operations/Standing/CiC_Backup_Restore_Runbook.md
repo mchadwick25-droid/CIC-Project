@@ -217,6 +217,46 @@ Run by Mark in the `cic-engine` Shell. No model calls.
 - **Why production, not staging:** resuming `cic-engine-staging` costs money, and a restore into a scratch path reads the bucket without touching the live databases.
 - **Not yet run for real:** the full sequence above (suspend, overwrite the live files, resume). The RTO estimate stays an estimate until that runs.
 
+## The accounts files: sealed before upload
+
+With `CIC_ACCOUNTS_ENABLED` on, the daily pass also backs up two accounts files:
+the durable file (`cic_accounts.db`: accounts, linked sign-ins, shelf, codes, the
+deletion ledger) and the contact file (`cic_accounts_contact.db`: sign-in
+addresses, already encrypted under the contact key). The ephemeral file
+(sign-in challenges, sessions) is never backed up.
+
+Each is sealed with AES-256-GCM before it leaves the disk, under
+`CIC_ACCOUNTS_BACKUP_KEY` (its own key, at least 32 characters, different from
+the address, session, contact and shelf keys, with an id from
+`CIC_ACCOUNTS_BACKUP_KEY_ID`, default `b1`). A bucket copy alone reads nothing.
+The object ends `.db.enc`; it lives beside the plain backups under
+`db-backups/<service>/accounts/` and `.../contact/`, and is pruned at the same
+14 days. With the flag on, the app refuses to start without the backup key and
+without `CIC_API_BACKUP_BUCKET`. A sealed file is never uploaded without a key.
+
+**Key custody.** Keep one offline copy of the backup key, held by two people.
+Without the key a sealed backup cannot be opened by anyone, including us.
+
+**Rotating the key.** Set the new key as `CIC_ACCOUNTS_BACKUP_KEY` with a new id
+(`b2`), and move the old one to `CIC_ACCOUNTS_BACKUP_KEYS_PREVIOUS` as
+`b1:<secret>`. Backups made under the old key still open. Remove the old key
+only after the last backup made under it has aged out (14 days).
+
+**Restoring a sealed file.** Stop the writer first, as for any restore. In the
+container's shell:
+
+```
+python -m engine.api.db_backup list accounts
+python -m engine.api.db_backup restore --sealed-label accounts \
+  --from-key db-backups/cic-engine/accounts/<stamp>.db.enc --target /data/cic_accounts.db
+```
+
+Use `contact` for the contact file. The label must match the file: a backup
+opens only under its own label and key, and a wrong one changes nothing. The
+plain copy exists beside the target only for the length of the restore.
+Restoring the durable file and the contact file from different days leaves some
+accounts without a stored address; restore both from the same pass.
+
 ## What this does not cover
 
 - **Point-in-time recovery finer than 24 hours.** See RPO above.
