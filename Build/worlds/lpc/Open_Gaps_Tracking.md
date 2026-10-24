@@ -1810,3 +1810,11 @@ Logged 2026-10-24.
 - **Row 56 is out of date for Monceaux tome VII (P2).** Row 56 says vol. VII was "not requested by either world", but `monceaux_histoire-litteraire-afrique-chretienne-tomes6-7-fra_1922-1923.txt` holds tome VII and this world's corpus map places it as context. The Holdings dispositions section defers it.
 - **Deferred holdings to weigh in Phase L2:** Arnobius and Lactantius (Latin African, inside the 258 to 391 gap, apologetic; bear on OG-54) and Augustine's own *Collatio cum Maximino* (Hippo, 427 to 428).
 - **Owner.** The `lpc` build thread.
+
+### OG-60. Witness openings review: an invented detail found in spoken text (2026-10-24).
+
+Logged 2026-10-24.
+
+- **What was found.** The Opus review of the 14 rewritten witness records (`Review-Artifacts/Witness_Openings_Review_2026-10-24.md`) found that `lpc.witness.apostolic-succession-of-bishops` said "Linus, the successor named by Peter himself". Letter LIII §2 says only "The successor of Peter was Linus". The detail predates the rewrite. It is removed in the review's fix. The same review found three hollow openers, one hedge moved onto the wrong claim, one garden-path sentence, and one line that put a single author's view into the whole "we" voice. All are fixed by the review's own wording.
+- **What it means for the rest (P1 for Phase L2).** The 19-finding gate tested only how a spoken field opens. Spoken fields in records the rewrite did not touch have not been read against their sources sentence by sentence. Every spoken field in `records/lpc/` (`text`, `positions`, `tensions`) needs one source-fidelity pass before admission: each claim against its locus, no detail beyond the source.
+- **Owner.** The `lpc` build thread.
