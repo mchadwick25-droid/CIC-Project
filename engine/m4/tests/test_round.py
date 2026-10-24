@@ -154,7 +154,7 @@ def test_ordinary_round_lets_voices_speak():
 
 
 def test_governed_routes_close_with_no_voices():
-    for action in ("check_in_turn", "system_nature_turn"):
+    for action in ("check_in_turn", "safety_unread_turn", "system_nature_turn"):
         opening = _open(_gate_run(action=action))
         assert not opening.voices_speak
         assert len(opening.facilitator_events) == 1

@@ -6,15 +6,10 @@ failure semantics, this module's own generation/grounding/crisis_resources)
 itself (engine.m4.store/events) - that's the caller's job, so this stays
 testable against a plain TurnResult rather than a database.
 
-Scope note: all seven routing actions now have turn content. Four of them
-did not until recently - check_in_turn, system_nature_turn, bridge_turn,
-etic_turn and Track B's own safety_turn were real, tested routing
-outcomes that raised UnhandledRoutingAction rather than answering. Two
-of those four could not be reached by a live session at all; both were
-proven unreachable live, then wired. What the
-voice generates here is still only the ordinary answer path and the acute
-safety turn; the other five are the Facilitator's own words, owned by code
-in engine.m4.facilitator_turns and carrying that module's craft note.
+Scope note: every routing action has turn content. What the voice
+generates here is only the ordinary answer path and the acute safety
+turn; the others are the Facilitator's own words, owned by code in
+engine.m4.facilitator_turns and carrying that module's craft note.
 
 Stage 6 addition (M8): every real model call this module makes is
 attributed to the caller's session_id via engine.m8.usage.record_usage and
@@ -1102,7 +1097,7 @@ def _run_ordinary_voice_turn(
 run_voice_turn_for_world = _run_ordinary_voice_turn
 
 
-SAFETY_ROUTES = ("safety_turn", "check_in_turn")
+SAFETY_ROUTES = ("safety_turn", "check_in_turn", "safety_unread_turn")
 
 
 def safety_route_facilitator_events(gate_run, *, representative_name: str, track_a_last: dict | None) -> list[dict]:
@@ -1110,14 +1105,18 @@ def safety_route_facilitator_events(gate_run, *, representative_name: str, track
     never called on these routes. ACUTE_DISTRESS gets the crisis turn with
     resources appended by code; any other safety_turn signal (a dependency
     dynamic, Track B) gets the dependency check with no resources and no
-    freeze; check_in_turn (an uncertain or failed safety call) gets the
-    check-in, which is deliberately not an answer. One owner for these
+    freeze; check_in_turn (an uncertain safety call) gets the
+    check-in, which is deliberately not an answer; safety_unread_turn (the
+    safety call could not run) gets the fixed line with the redirect. One owner for these
     turns, so a message the service would otherwise refuse unread (a
     closed session, an open table round, an over-long message - decision
-    35) gets exactly what an ordinary turn would."""
+    35) gets exactly what an ordinary turn would, except that a message
+    nothing could read is refused as before."""
     action = gate_run.gate_result.routing.action
     if action == "check_in_turn":
         return [facilitator_turns.check_in_turn()]
+    if action == "safety_unread_turn":
+        return [facilitator_turns.safety_unread_turn()]
     safety = gate_run.safety_outcome.value
     if safety["signal"] != "ACUTE_DISTRESS":
         return [facilitator_turns.dependency_check_turn(representative_name)]
@@ -1245,8 +1244,8 @@ def run_turn(
     # not selectively, so the ending reads as one clear boundary rather than
     # a handful of routes quietly behaving differently.
     # Every safety route is exempt from both caps, not acute distress
-    # alone: a check-in (an uncertain or failed safety call) and a
-    # dependency check are safety turns too, and a limit must never turn
+    # alone: a check-in (an uncertain safety call), the fixed line for a
+    # message the safety call could not read, and a dependency check are safety turns too, and a limit must never turn
     # them away (System Hub decision 35).
     is_safety_route = action in SAFETY_ROUTES
     turn_cap = SESSION_TURN_CAP if turn_cap is None else turn_cap

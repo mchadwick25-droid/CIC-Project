@@ -38,6 +38,7 @@ from engine.m4 import turn as turn_module
 from engine.m4.projection import project_fresh
 from engine.m4.store import Store
 from engine.m4.world_loader import LazyWorldLoader, PackageRefused
+from engine.m5.failure import SAFETY_FAILED
 from engine.m7 import retention
 from engine.m7 import scheduler as m7_scheduler
 from engine.m7.qc_store import QCStore
@@ -144,7 +145,9 @@ def _stream_turn(handle, done_body, voiced, session_id: str, started: float, adm
         else:
             if admission is not None:
                 admission.finish(voiced(result))
-            if on_unvoiced is not None and not voiced(result):
+            # A message the safety check could not read is not a message the visitor sent with no reply
+            # to count: the monthly count is not spent on an outage.
+            if on_unvoiced is not None and not voiced(result) and getattr(result, "routing_action", None) != SAFETY_FAILED.action:
                 on_unvoiced()
             events.put(("done", result))
 
@@ -791,13 +794,13 @@ def create_app(
             if is_table:
                 result = table_wiring.handle_table_message(**call_kwargs)
                 voiced = result.round_open or result.voice is not None
-                if not voiced and not counted:
+                if not voiced and not counted and result.routing_action != SAFETY_FAILED.action:
                     bound.count()
                 logger.info("table message handled ms=%d", (time.monotonic() - started) * 1000)
                 return TableMessageResponse(**asdict(result), limit_note=admission.limit_note(result.routing_action) if admission else None)
             result = wiring.handle_message(**call_kwargs)
             voiced = _spoke(result.voice)
-            if not voiced and not counted:
+            if not voiced and not counted and result.routing_action != SAFETY_FAILED.action:
                 bound.count()
         except Exception as exc:
             failure = _message_failure(exc, session_id)

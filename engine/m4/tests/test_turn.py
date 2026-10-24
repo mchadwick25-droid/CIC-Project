@@ -1573,7 +1573,7 @@ def test_a_throttled_safety_call_pauses_citation_attachment(monkeypatch):
         "slow down", response=httpx.Response(429, request=httpx.Request("POST", "https://x")), body=None)
     gate_run, cooling = _gate_with_safety_failure(throttled, monkeypatch)
     assert gate_run.safety_outcome.failed and gate_run.safety_outcome.rate_limited
-    assert gate_run.gate_result.routing.action == "check_in_turn"
+    assert gate_run.gate_result.routing.action == "safety_unread_turn"
     assert cooling
 
 
@@ -1585,6 +1585,71 @@ def test_a_safety_call_that_fails_for_another_reason_leaves_attachment_running(m
         anthropic.APIConnectionError(request=httpx.Request("POST", "https://x")), monkeypatch)
     assert gate_run.safety_outcome.failed and not gate_run.safety_outcome.rate_limited
     assert not cooling
+
+
+def test_a_safety_call_that_cannot_run_gets_the_fixed_line_and_assumes_nothing(monkeypatch):
+    """Nobody read the message, so nothing is assumed about the person: the fixed Facilitator line with the
+    redirect as an "if", no safety track, no recorded state, no voice. A missing credential or a network
+    fault, not only the provider's own error types, is a safety call that could not run."""
+    from botocore.exceptions import NoCredentialsError
+
+    gate_run, _ = _gate_with_safety_failure(NoCredentialsError(), monkeypatch)
+    assert gate_run.safety_outcome.failed
+    assert gate_run.gate_result.routing.action == "safety_unread_turn"
+    assert gate_run.safety_state_events == []
+    (turn,) = turn_module.safety_route_facilitator_events(gate_run, representative_name="Theon", track_a_last=None)
+    assert turn == facilitator_turns.safety_unread_turn()
+    assert turn["kind"] == "limit" and turn["resources_appended"] is True
+    assert turn["text"] == (
+        "This is the Facilitator. I could not read your message just now, so no one has answered it yet.\n\n"
+        "If you are in distress or in danger, please reach out to someone real now - a person you trust, a crisis line, "
+        "or emergency services where you are.\n\n"
+        "When you are ready, you can send your message again."
+    )
+    assert facilitator_turns.REDIRECT_TO_REAL_PEOPLE in facilitator_turns.VISITOR_BOUND.text
+    assert "Theon" not in turn["text"] and "What you just told me" not in turn["text"]
+
+
+def test_a_network_fault_in_the_safety_call_is_a_call_that_could_not_run(monkeypatch):
+    gate_run, _ = _gate_with_safety_failure(ConnectionResetError("reset"), monkeypatch)
+    assert gate_run.gate_result.routing.action == "safety_unread_turn"
+
+
+def test_the_bedrock_clients_missing_credentials_error_is_a_call_that_could_not_run(monkeypatch):
+    """The SDK raises a bare RuntimeError, before sending anything, when no credentials resolve."""
+    gate_run, _ = _gate_with_safety_failure(RuntimeError("could not resolve credentials from session"), monkeypatch)
+    assert gate_run.gate_result.routing.action == "safety_unread_turn"
+
+
+def test_the_real_bedrock_client_with_no_credentials_is_a_call_that_could_not_run(monkeypatch, tmp_path):
+    """Through the installed SDK itself, offline: nothing is sent and no credential resolves."""
+    import anthropic
+
+    for name in ("AWS_ACCESS_KEY_ID", "AWS_SECRET_ACCESS_KEY", "AWS_SESSION_TOKEN", "AWS_PROFILE", "AWS_DEFAULT_PROFILE", "AWS_BEARER_TOKEN_BEDROCK"):
+        monkeypatch.delenv(name, raising=False)
+    monkeypatch.setenv("AWS_EC2_METADATA_DISABLED", "true")
+    monkeypatch.setenv("AWS_CONFIG_FILE", str(tmp_path / "none"))
+    monkeypatch.setenv("AWS_SHARED_CREDENTIALS_FILE", str(tmp_path / "none"))
+    client = anthropic.AnthropicBedrock(aws_region="us-east-1", max_retries=0)
+    from engine.m5.live_calls import call_safety
+
+    outcome = call_safety(client, "m", message="hello", recent_window=[], accumulator={})
+    assert outcome.failed and outcome.status == "error"
+
+
+def test_any_other_runtime_error_in_the_safety_call_is_not_hidden(monkeypatch):
+    import pytest
+
+    with pytest.raises(RuntimeError):
+        _gate_with_safety_failure(RuntimeError("something else broke"), monkeypatch)
+
+
+def test_a_programming_fault_in_the_safety_call_is_not_hidden_as_an_unread_message(monkeypatch):
+    """Only a call that could not run is answered with the fixed line. A bug stays loud."""
+    import pytest
+
+    with pytest.raises(TypeError):
+        _gate_with_safety_failure(TypeError("unexpected keyword"), monkeypatch)
 
 
 def test_every_one_to_one_usage_record_carries_the_sessions_world():

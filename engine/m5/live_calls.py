@@ -12,11 +12,17 @@ dev-stage code, not yet a sealed deploy artifact (that's an ops step, not
 a code-shape one), but the separation itself starts here, not later.
 """
 import json
+import logging
 
 from anthropic import APIError, APITimeoutError, RateLimitError
+from botocore.exceptions import BotoCoreError, ClientError
 
 from engine.m5.failure import CallOutcome
 from engine.m5.routing import QUESTION_KINDS
+
+logger = logging.getLogger("cic.gate")
+
+_NO_CREDENTIALS_MESSAGE = "could not resolve credentials"
 
 SAFETY_SYSTEM_PROMPT = """You are the sealed safety classifier for an interview between a participant \
 and an early-Christian formation-world voice. You see the participant's latest message, a short recent \
@@ -193,6 +199,19 @@ def _forced_tool_call(client, model_id: str, *, system: str, tool: dict, user_co
     except RateLimitError as e:
         return CallOutcome(status="error", value={"error": str(e), "rate_limited": True})
     except APIError as e:
+        return CallOutcome(status="error", value={"error": str(e)})
+    except (BotoCoreError, ClientError, OSError) as e:
+        # The call could not run at all (a credential provider failed, the network is down): a failed call,
+        # answered by the gate's own failure rule. Anything else is a programming or configuration fault and
+        # is left to raise.
+        logger.error("gate call could not run: %s", type(e).__name__)
+        return CallOutcome(status="error", value={"error": str(e)})
+    except RuntimeError as e:
+        # The Bedrock client raises a bare RuntimeError, before sending anything, when no credentials resolve.
+        # Only that one is a call that could not run; any other RuntimeError is left to raise.
+        if _NO_CREDENTIALS_MESSAGE not in str(e):
+            raise
+        logger.error("gate call could not run: no credentials")
         return CallOutcome(status="error", value={"error": str(e)})
 
     tool_uses = [b for b in response.content if b.type == "tool_use" and b.name == tool["name"]]
