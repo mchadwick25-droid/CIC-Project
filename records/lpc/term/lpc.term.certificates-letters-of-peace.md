@@ -26,11 +26,11 @@ confidence:
   evidentiary_weight: corroborating
   formation_confidence: Documented
   divergence_note: 'The regulating voice is Cyprian''s throughout, as with every entry in this cluster;
-    the confessors'' own certificates survive only in one general letter of theirs to Cyprian, which says
-    ''we have granted peace'' (Epistle XVI); the rest is Cyprian quoting, paraphrasing, and objecting
-    to them (Author-Gravity-Risk: Yes). An editorial endnote words one sentence as ''thousands of certificates
-    were given, against the Gospel law''. Cyprian''s own text reads ''were daily given, contrary to the
-    law of the Gospel'', and this record uses his.'
+    the confessors'' own certificates survive only in one general letter of theirs to Cyprian (Epistle
+    XVI), which says ''we have granted peace'' to all whose conduct has been satisfactory ''in your estimation'';
+    the rest is Cyprian quoting, paraphrasing, and objecting to them (Author-Gravity-Risk: Yes). An editorial
+    endnote words one sentence as ''thousands of certificates were given, against the Gospel law''. Cyprian''s
+    own text reads ''were daily given, contrary to the law of the Gospel'', and this record uses his.'
 sources:
 - source_id: lpc.source.cyprian-epistles
   locus: 'Cyprian''s own crisis correspondence, Epistle X -- ''designate by name in the certificate those
@@ -78,10 +78,10 @@ senses:
     to his own division of the vendored text. 'Certificate' and 'certificates' occur 42 times within that
     division, of which 4 sit inside editorial notes, leaving 38 in Cyprian's own text -- the figure that
     attests the term, not the naive 42. The confessors' own certificates survive only in one general letter
-    of theirs to Cyprian (Epistle XVI), which says 'we have granted peace'; the rest is Cyprian quoting,
-    paraphrasing, and objecting to them, though Epistles XX-XXI do preserve two confessors writing in
-    their own first-person voices about a specific reconciliation, as close as our record comes to their
-    own side.
+    of theirs to Cyprian (Epistle XVI), which says 'we have granted peace' to all whose conduct has been
+    satisfactory 'in your estimation'; the rest is Cyprian quoting, paraphrasing, and objecting to them,
+    though Epistles XX-XXI do preserve two confessors writing in their own first-person voices about a
+    specific reconciliation, as close as our record comes to their own side.
   translational: 'A modern listener who has just heard about the sacrifice-certificate will assume this
     is the same document, or a version of it, and will tend to hear ''letter of peace'' as a devotional
     gesture. We mean the opposite document, travelling the opposite way: the sacrifice-certificate proves

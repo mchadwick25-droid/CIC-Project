@@ -22,7 +22,7 @@ Do-Not-Retrieve-When: the participant is using confessor in the later sense of a
 
 ## Quick Meaning
 
-For us, a confessor is one who was interrogated for the Name and did not deny it, and lived — and whose standing, bought at that price, is the strongest rival this world has to the bishop's own.
+For us, a confessor is one who was interrogated for the Name and did not deny it, and lived — and whose standing, bought at that price, could in Cyprian's time rival the bishop's own.
 
 ---
 

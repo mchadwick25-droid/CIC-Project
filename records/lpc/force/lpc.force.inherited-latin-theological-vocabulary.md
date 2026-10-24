@@ -16,7 +16,11 @@ confidence:
     disclosure. Tertullian''s own corpus is Registry row 29, Boundary Status EXCLUDED (this world''s own
     construction begins after Tertullian; his vocabulary is inherited, not this world''s own voice) --
     no lpc.source.tertullian-* record exists to cite, and none is invented here to supply one.'
-sources: []
+sources:
+- source_id: lpc.source.augustine-general-correspondence
+  locus: Letter CCIX §3, a Punic-speaking bishop sought for Fussala ('acquainted with the Punic language')
+    -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 54466-54469
+  license: public-domain
 relations:
 - type: associated-with
   target: lpc.gravity.preaching-and-catechesis
@@ -45,4 +49,4 @@ manifestations:
   bishops without needing to be invented
 matrix_cell: 1B
 ---
-Taken from Doc_08 §3 Force 1B-3 (Cell 1B, Initiating/Internal). relations[] carries the gravity<->force edge (G4) named above. sources[] is deliberately empty. The Tertullian corpus is excluded from this world, so no Tertullian source record exists to cite, and none is invented.
+Taken from Doc_08 §3 Force 1B-3 (Cell 1B, Initiating/Internal). relations[] carries the gravity<->force edge (G4) named above. sources[] cites only Letter CCIX §3, for the Punic sentence. The Tertullian corpus is excluded from this world, so no Tertullian source record exists to cite, and none is invented.

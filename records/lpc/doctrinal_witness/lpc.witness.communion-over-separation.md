@@ -65,7 +65,7 @@ positions:
   own proper right of judgment. He added that we judge no one, and reject no one from communion, for thinking
   differently from us. A century and a half later, another of us argued at book length that the ruling
   made that day was wrong. He never once suggested that the man who made it stood outside our communion.
-  Disagreement, in our own life, is not a reason to separate.
+  Disagreement with a colleague, in our own life, is not a reason to separate.
 - Underneath the disagreement sits a belief our earlier bishop wrote down plainly. "The episcopate is
   one, each part of which is held by each one for the whole." We read that as the reason a bishop can
   differ from a colleague without breaking communion.

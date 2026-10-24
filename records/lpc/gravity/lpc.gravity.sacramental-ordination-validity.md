@@ -90,7 +90,7 @@ manifestations:
 - the Council of 256's ruling on rebaptism
 - On Baptism, Against the Donatists in full, argued at book length (citing I.1.2 and Book III, chapter
   2)
-- the Epistles' correspondence on rebaptism, and the rupture between Stephen and Cyprian
+- the Epistles' correspondence on rebaptism, and the dispute between Stephen and Cyprian
 classification: primary
 ---
 Taken from Doc_04 §3 (Candidate 6), with the 2B-1 asymmetry independently re-verified against Doc_08 §5's own G6 entry, which examines and confirms it at length: the connection is real, not the symmetry it might appear to be. relations[] carries the gravity<->gravity edges (G1, G2, G3, G5) and the gravity<->force edges (2A-3, 2B-1, 2B-4) named above.

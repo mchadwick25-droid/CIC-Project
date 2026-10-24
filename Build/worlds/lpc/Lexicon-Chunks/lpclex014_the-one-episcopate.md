@@ -28,7 +28,7 @@ For us, the episcopate is a single undivided office held corporately: each bisho
 
 ## World Meaning
 
-Not a federation of independent officers and not a chain of command. One office, held entire by each man who holds it, in the place where he holds it. That is why a colleague's judgment cannot simply be overridden — he is not holding a lesser portion — and it is also why separation is so serious: to break from the body is not to leave an organization but to step outside the thing itself.
+Not a federation of independent officers and not a chain of command. One office, each part of it held by each man for the whole, in the place where he holds it. That is why a colleague's judgment cannot simply be overridden — his part is held for the whole — and it is also why separation is so serious: to break from the body is not to leave an organization but to step outside the thing itself.
 
 ---
 
@@ -44,7 +44,7 @@ This is the doctrinal ground beneath both conciliar formulas — the reason the 
 A modern participant is likely to hear either a bureaucratic hierarchy or a loose association of independent congregations.
 
 **World Hearing:**
-Neither. A single office shared corporately and held whole by each holder, which makes both equality among bishops and the seriousness of separation follow from the same conviction.
+Neither. A single office, one and undivided, each part of it held by each bishop for the whole, which makes both equality among bishops and the seriousness of separation follow from the same conviction.
 
 ---
 

@@ -30,9 +30,9 @@ dates:
     in 395/396, again amid popular acclamation (Possidius, Vita VIII; Doc_01 SS2); died 430, during the
     Vandal siege of Hippo (lpc.story.the-psalms-on-the-wall)
 narratable: true
-bridge_line: Our bishop at Hippo. The people seized him and made him a presbyter while he wept. Later
-  they pressed him into the bishop's office over his own refusal. He spent his last days weeping over
-  psalms of penitence, while an army lay outside the walls.
+bridge_line: Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he
+  wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping
+  over psalms of penitence, while an army lay outside the walls.
 relations:
 - type: associated-with
   target: lpc.story.the-psalms-on-the-wall

@@ -54,18 +54,18 @@ INPUTS and OUTPUTS
     sources and are never cited in sources[]. Citations to Doc_04 and Doc_08 sit in each
     record's description and body, for example "(Doc_04 §3.1)".
 
-THREE CASES OF EMPTY sources[]
+TWO CASES OF EMPTY sources[]
   - Force 1A-2 (the standing legal condition of an unlicensed religion): Doc_08 cites
     Doc_01 §2 and Doc_02 §5, this world's own governing documents and not a vendored
     Registry row, for a background legal condition that this world's corpus does not narrate
     directly.
-  - Force 1B-3 (the inherited Latin theological vocabulary): Doc_08 cites Doc_01 §6-§7 and
-    Doc_02 §2's "Tertullian disclosure". Tertullian's corpus is Registry row 29, Boundary
-    Status EXCLUDED (see wb_lpc_s21.py). No lpc.source.tertullian-* record exists, and none
-    is invented.
   - Forces 2B-3 (the illegal-to-established shift) and 3B-2 (Transmission, the 133-year
     silence) rest on a fact about this world's own Registry (a placement judgment at 2B-3;
     the dated-row gap at 3B-2), not on a vendored text that makes a claim.
+  Force 1B-3 (the inherited Latin theological vocabulary) cites only Letter CCIX §3, for its
+  Punic sentence. Doc_08 cites Doc_01 §6-§7 and Doc_02 §2's "Tertullian disclosure" for the
+  rest. Tertullian's corpus is Registry row 29, Boundary Status EXCLUDED (see
+  wb_lpc_s21.py). No lpc.source.tertullian-* record exists, and none is invented.
 
 MECHANICAL and AUTHORED fields
   - id, world_id, record_type, schema_version, status, register are mechanical.
@@ -556,7 +556,8 @@ def build_gravities() -> None:
         "he can break it and set up a parallel hierarchy. Both bishops take the first path. Over "
         "rebaptism, the sharpest dispute between them, neither breaks fellowship with a fellow "
         "bishop. The fight over grace went another way. African councils condemned what the "
-        "Pelagians taught.\n"
+        "Pelagians taught. So the concern has a scope. It governs disagreement over practice "
+        "among bishops in communion. It does not reach teaching a council judged heresy.\n"
         "\n"
         "This explains why Augustine's long, respectful argument with a bishop he disputes reads "
         "as a son arguing with a father, not a rejection. It also explains where this world draws "
@@ -785,7 +786,7 @@ def build_gravities() -> None:
             "the Council of 256's ruling on rebaptism",
             "On Baptism, Against the Donatists in full, argued at book length (citing I.1.2 and "
             "Book III, chapter 2)",
-            "the Epistles' correspondence on rebaptism, and the rupture between Stephen and "
+            "the Epistles' correspondence on rebaptism, and the dispute between Stephen and "
             "Cyprian",
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
@@ -1141,11 +1142,14 @@ def build_forces() -> None:
              "world's own construction begins after Tertullian; his vocabulary is inherited, not this "
              "world's own voice) -- no lpc.source.tertullian-* record exists to cite, and none is "
              "invented here to supply one."),
-        [],
+        src(("lpc.source.augustine-general-correspondence",
+             "Letter CCIX §3, a Punic-speaking bishop sought for Fussala ('acquainted with the "
+             "Punic language') -- verified directly against "
+             "cic/texts/npnf101_augustine-confessions-letters.xml, lines 54466-54469")),
         "Taken from Doc_08 §3 Force 1B-3 (Cell 1B, Initiating/Internal). relations[] carries the "
-        "gravity<->force edge (G4) named above. sources[] is deliberately empty. The Tertullian "
-        "corpus is excluded from this world, so no Tertullian source record exists to cite, and "
-        "none is invented.",
+        "gravity<->force edge (G4) named above. sources[] cites only Letter CCIX §3, for the "
+        "Punic sentence. The Tertullian corpus is excluded from this world, so no Tertullian "
+        "source record exists to cite, and none is invented.",
     )
 
     emit_force(

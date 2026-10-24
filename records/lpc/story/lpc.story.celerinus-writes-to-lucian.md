@@ -36,6 +36,8 @@ claim_guards:
   or heroes
 - no source of ours preserves anything Numeria, Candida, or Celerinus's own sister wrote or said -- do
   not invent words for any of the three
+- do not tell Lucian's grant without his own condition, that each case be set before the bishop and confession
+  made
 relations:
 - type: associated-with
   target: lpc.figure.celerinus
@@ -66,15 +68,16 @@ text: 'Celerinus was a confessor among us -- he had been imprisoned and had not 
   the prison had been like: by the emperor''s command they "were ordered to be put to death by hunger
   and thirst, and were shut up in two cells, that so they might weaken us by hunger and thirst." Then:
   "But now we have attained the brightness itself." He greeted Numeria and Candida, and named the martyrs
-  on whose authority he answered, and signed off exhausted, greeting others "whose names I have not written,
-  because I am already weary. Therefore they must pardon me."'
+  on whose authority he answered. He asked that the two women have peace, "the case being set forth before
+  the bishop, and confession being made." He signed off exhausted, greeting others "whose names I have
+  not written, because I am already weary. Therefore they must pardon me."'
 absent_detail: 'Celerinus''s own sister has no story, and she is the person this one is about. She is
   unnamed -- her own brother does not name her. Numeria and Candida are not ''named lapsed women'' either:
   Celerinus says the opposite of Candida, that she gave gifts for herself "that she might not sacrifice"
   -- her case is contested, not conceded. None of the three speaks for herself anywhere in our record.'
-modern_contrast: A modern listener may expect a bishop's own authority to be the only channel through
-  which someone failed under pressure could be restored. Here one confessor asks another, who is in prison,
-  for peace, and the other grants it. Cyprian's own dossier preserves their letters rather than suppressing
-  them.
+modern_contrast: A modern listener may expect a bishop's authority to be the only channel by which someone
+  who failed under pressure could be restored. Here one confessor asks another, in prison, for peace,
+  and the other gives it in the martyrs' name. Yet his own reply says each case is to be set before the
+  bishop. Cyprian's own dossier keeps both letters rather than hiding them.
 ---
 Derived from Story-Chunks/lpcstory005_celerinus-writes-to-lucian.md, recast into first-person register (the letters of Celerinus and Lucian are already first-person; the surrounding narration is recast). 'Put to death by hunger and thirst' is at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 30706. Both claim_guards entries turn Usage Guidance lines of the chunk ('the Representative must not resolve the tension...'; 'not one of these women speaks for herself') into the schema's barred-claim field.

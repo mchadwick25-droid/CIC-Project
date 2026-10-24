@@ -63,7 +63,7 @@ retrieval:
     heresy, rather than about the validity of a specific act performed outside one communion -- ask about
     the specific validity question instead
 plain_meaning: 'For us, this word raises one sharp question: whether a baptism given outside our one church
-  counts at all. We answer it twice, in two different ways, a century apart.'
+  counts at all. We answer it twice, in two different ways, a century and a half apart.'
 world_word: heresy
 distortion_risk: high
 false_friend:

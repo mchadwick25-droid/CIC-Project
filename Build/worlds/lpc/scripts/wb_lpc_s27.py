@@ -468,7 +468,7 @@ def build_demo_road_back() -> None:
         ),
         turn(
             "representative",
-            "Their name is set down. Not a vague 'this man and his friends', but one person, by "
+            "Their name is set down. Not a vague 'such a one with his friends', but one person, by "
             "name, whose change someone has actually seen. Then comes the waiting, and it is not a "
             "formality. What has genuinely changed in the person is watched and weighed, plainly, "
             "by someone answerable for weighing it rightly -- not granted the moment anyone feels "
@@ -531,8 +531,8 @@ def build_demo_road_back() -> None:
         "\n"
         "sources[]'s own locus for the certificate-process quote is Epistle X, verified directly "
         "against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml (line 29946, inside div "
-        "id=\"iv.iv.x\"). The exchange text itself does not quote the letter directly; it only "
-        "draws on its own certificate-process content."
+        "id=\"iv.iv.x\"). The exchange quotes one phrase of the letter, 'such a one with his "
+        "friends', word for word."
     )
     _write("demonstration", rid, payload, body)
 

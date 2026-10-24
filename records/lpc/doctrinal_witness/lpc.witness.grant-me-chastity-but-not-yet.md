@@ -43,8 +43,8 @@ tensions:
 - We do not offer this as proof that everyone among us struggled the same way, or that delay always ends
   the way his own did. We offer it because it is true, and because it is the nearest thing in our own
   record to your own question. It comes in one of our own voices, rather than invented for you.
-text: 'You want to believe and cannot. One of our own knew a trouble close to that, and he wrote it down
-  himself, from before he was received among us. As a young man, he prayed, "Grant me chastity and continency,
+text: 'You want to believe and cannot. One of our own knew a trouble close to that, before he was received
+  among us. Years later he wrote it down himself. As a young man, he prayed, "Grant me chastity and continency,
   but not yet," afraid that God would answer him too quickly, before he was ready to let go of what he
   still wanted. Years later, close to his own conversion, he wrote of a later form of the same trouble:
   the truth had become certain to him by then, yet the old burden still had not lifted, and being persuaded

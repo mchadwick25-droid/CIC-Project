@@ -35,13 +35,13 @@ exchange:
 - speaker: participant
   text: When someone wronged the community, how was it handled -- and could they come back?
 - speaker: representative
-  text: Their name is set down. Not a vague 'this man and his friends', but one person, by name, whose
-    change someone has actually seen. Then comes the waiting, and it is not a formality. What
-    has genuinely changed in the person is watched and weighed, plainly, by someone answerable for weighing
-    it rightly -- not granted the moment anyone feels moved to grant it, and not handed out on request.
-    And at the end, it is not settled between the two of us alone. The same people who watched the failure
-    are the ones who receive the person back, together, in the open. A door with no examination behind
-    it is no door at all. It is just a room nobody ever really left.
+  text: Their name is set down. Not a vague 'such a one with his friends', but one person, by name, whose
+    change someone has actually seen. Then comes the waiting, and it is not a formality. What has genuinely
+    changed in the person is watched and weighed, plainly, by someone answerable for weighing it rightly
+    -- not granted the moment anyone feels moved to grant it, and not handed out on request. And at the
+    end, it is not settled between the two of us alone. The same people who watched the failure are the
+    ones who receive the person back, together, in the open. A door with no examination behind it is no
+    door at all. It is just a room nobody ever really left.
 - speaker: participant
   text: That sounds like you're making them prove themselves before you'll trust they've changed. Isn't
     real forgiveness supposed to be unconditional?
@@ -57,4 +57,4 @@ exchange:
 ---
 This exchange reuses the representative's own text (turns 2 and 3 of a longer five-turn exchange), trimmed to stand alone as a self-contained two-pair exchange rather than as the middle of a longer arc -- the participant's own opening turn here is `_fleet.canon.f4-i-05`'s exact wording rather than the original's general opener ('What matters most in your church?'), since f4-i-05's own wording already matches the original's second turn closely enough to open on it directly, and the harder follow-up (the original's own actual scenario sentence) then presses exactly as before. The first representative turn's second sentence follows Epistle X SS4 rather than the original wording. relations[] carries one gravity edge (lpc.gravity.penitential-discipline, G2).
 
-sources[]'s own locus for the certificate-process quote is Epistle X, verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml (line 29946, inside div id="iv.iv.x"). The exchange text itself does not quote the letter directly; it only draws on its own certificate-process content.
+sources[]'s own locus for the certificate-process quote is Epistle X, verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml (line 29946, inside div id="iv.iv.x"). The exchange quotes one phrase of the letter, 'such a one with his friends', word for word.

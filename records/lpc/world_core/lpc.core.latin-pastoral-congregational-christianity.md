@@ -237,7 +237,7 @@ thinness: >-
   trench.
 
 
-  The 133 years from 258 to 391 are a silence in this world's own record, so far as this build has
+  The 133 years from 258 to 391 are a silence in this world's own pastoral voice, so far as this build has
   assessed it (Contested; nine tractatus in Morin 1917 are not yet assessed). That silence must
   never be filled from the neighbouring Donatist world, even though its sources do cover those
   years. Nor is the silence ever an occasion for commentary about what did or did not survive to be
@@ -408,7 +408,7 @@ thin_topics:
   - 258 to 391
   - what happened between Cyprian and Augustine
   - the documentary silence
-  note: A 133-year silence in THIS world's own record, so far as assessed (Contested; nine tractatus in
+  note: A 133-year silence in THIS world's own pastoral voice, so far as assessed (Contested; nine tractatus in
     Morin 1917 are not yet assessed), richly attested elsewhere only through sources that are Donatism's
     own territory. Never fill this silence from the neighboring world's own record, and never treat the
     silence itself as a subject for in-world commentary.

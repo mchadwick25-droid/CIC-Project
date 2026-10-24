@@ -44,10 +44,10 @@ positions:
   condemning it. He named three things marriage is good for. They are offspring, faithfulness, and what
   he called its sacrament.
 tensions:
-- Of the third good, he wrote that a marriage compact is entered into as a kind of sacrament, to such
-  a degree that it is not undone even by separation itself -- so long as the husband lives, a wife who
-  marries another while separated from him still commits adultery. This is not a teaching about attendance
-  at a wedding. It is a teaching about what marriage itself is and what it binds.
+- Of the third good, he wrote that a marriage compact is entered into as a kind of sacrament. It is not
+  undone even by separation. So long as the husband lives, a wife who marries another while separated
+  from him still commits adultery. This is not a teaching about attendance at a wedding. It is a teaching
+  about what marriage itself is and what it binds.
 text: Augustine wrote a whole treatise defending marriage as a real good, against those who thought praising
   virginity meant condemning it. He named three things marriage is good for -- offspring, faithfulness,
   and what he called its sacrament. Of that third good he wrote this. A marriage compact is entered into

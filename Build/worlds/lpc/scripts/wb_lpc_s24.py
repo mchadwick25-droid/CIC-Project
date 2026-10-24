@@ -780,17 +780,20 @@ def build_stories() -> None:
         "put to death by hunger and thirst, and were shut up in two cells, that so they might "
         "weaken us by hunger and thirst.\" Then: \"But now we have attained the brightness "
         "itself.\" He greeted Numeria and Candida, and named the martyrs on whose authority he "
-        "answered, and signed off exhausted, greeting others \"whose names I have not written, "
+        "answered. He asked that the two women have peace, \"the case being set forth before the "
+        "bishop, and confession being made.\" He signed off exhausted, greeting others \"whose "
+        "names I have not written, "
         "because I am already weary. Therefore they must pardon me.\"",
         "Celerinus's own sister has no story, and she is the person this one is about. She is "
         "unnamed -- her own brother does not name her. Numeria and Candida are not 'named lapsed "
         "women' either: Celerinus says the opposite of Candida, that she gave gifts for herself "
         "\"that she might not sacrifice\" -- her case is contested, not conceded. None of the three "
         "speaks for herself anywhere in our record.",
-        "A modern listener may expect a bishop's own authority to be the only channel through "
-        "which someone failed under pressure could be restored. Here one confessor asks another, "
-        "who is in prison, for peace, and the other grants it. Cyprian's own dossier preserves "
-        "their letters rather than suppressing them.",
+        "A modern listener may expect a bishop's authority to be the only channel by which someone "
+        "who failed under pressure could be restored. Here one confessor asks another, in prison, "
+        "for peace, and the other gives it in the martyrs' name. Yet his own reply says each case "
+        "is to be set before the bishop. Cyprian's own dossier keeps both letters rather than "
+        "hiding them.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.cyprian-epistles",
           "locus": "Ep. XX (Celerinus to Lucian) and Ep. XXI (Lucian's reply); "
@@ -809,7 +812,9 @@ def build_stories() -> None:
         ["we must not resolve the confessor-authority tension by presenting the confessors as "
          "either usurpers or heroes",
          "no source of ours preserves anything Numeria, Candida, or Celerinus's own sister wrote or "
-         "said -- do not invent words for any of the three"],
+         "said -- do not invent words for any of the three",
+         "do not tell Lucian's grant without his own condition, that each case be set before the "
+         "bishop and confession made"],
         "Derived from Story-Chunks/lpcstory005_celerinus-writes-to-lucian.md, recast into "
         "first-person register (the letters of Celerinus and Lucian are already first-person; the "
         "surrounding narration is recast). 'Put to death by hunger and thirst' is at "
@@ -1040,7 +1045,8 @@ def build_figures() -> None:
                     "again amid popular acclamation (Possidius, Vita VIII; Doc_01 SS2); died 430, "
                     "during the Vandal siege of Hippo (lpc.story.the-psalms-on-the-wall)"},
         True,
-        "Our bishop at Hippo. The people seized him and made him a presbyter while he wept. Later "
+        "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he "
+        "wept. Later "
         "they pressed him into the bishop's office over his own refusal. He spent his last days "
         "weeping over psalms of penitence, while an army lay outside the walls.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
@@ -1160,10 +1166,12 @@ def build_figures() -> None:
          {"name": "Lucian of Carthage (fl. mid-3rd century)", "tag": "scholarly"}],
         {"display": "a confessor imprisoned under persecution, condemned to die by hunger and "
                     "thirst, who replied to Celerinus from prison, granting peace to Numeria and "
-                    "Candida (Ep. XXI; lpc.story.celerinus-writes-to-lucian)"},
+                    "Candida once their case was set before the bishop (Ep. XXI; "
+                    "lpc.story.celerinus-writes-to-lucian)"},
         True,
         "A confessor who answered from a prison cell. He and others there had been ordered to die "
-        "of hunger and thirst. He granted peace to Numeria and Candida, two women he knew well.",
+        "of hunger and thirst. He sent peace to Numeria and Candida, two women he knew well, once "
+        "each case was set before the bishop.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.cyprian-epistles",
           "locus": "Ep. XXI, the whole letter", "license": "public-domain"}],
