@@ -60,9 +60,7 @@ false_friend:
 - a social program separate from spirituality
 senses:
   informational: 'The preaching titled its own orations with this word. It taught almsgiving as a virtue
-    with doctrine inside it. We also said that the poor bear the image of God and that what you keep
-    beyond your need belongs to the hungry. This record cannot check those two lines against a held
-    text, so they are rated Inferential-Thin.'
+    with doctrine inside it. Basil''s care for the sick was praised as the imitation of Christ, cleansing leprosy "not by a word, but in deed."'
   evidential: 'Documented in Oration 43, in Basil''s letter to Elias, and in the institution''s own real existence outside
     Caesarea (the poorhouse-guesthouse-infirmary-leprosarium complex). The homilies specifically preached
     in the famine of 368/9 -- the sharpest, most quotable lines of this preaching -- rest on a source
@@ -72,14 +70,13 @@ senses:
   personal: 'The leper was this virtue''s proof-case: love that cost the healthy their own bodily comfort,
     in an era when lepers were untouchable by custom. This world made touching them the visible edge of
     its whole ethic.'
-  translational: '''Isn''t charity just optional generosity, separate from justice?'' -- this world preached
-    the opposite, to the hoarders'' own faces, in a famine: the surplus is not yours, and failing the
-    poor is not a lesser fault but a thing you could be damned for.'
+  translational: '''Isn''t charity just optional generosity, separate from justice?'' -- in the famine Basil
+    went to the hoarders themselves, and by his word and advice their stores were opened to the hungry.'
 quick_meaning: 'Love of the poor: almsgiving turned into an institution, the poor made our own
   test.'
 distortion_risk: medium
 use_note:
-  means: "Philoptochia meant love of the poor, preached as almsgiving with doctrine inside it, since the poor bear God's image."
+  means: "Philoptochia meant love of the poor, preached as almsgiving with doctrine inside it and built into a guest-house, infirmary and leper-house."
   not_for:
     - "optional kindness reserved for the wealthy"
     - "the famine homilies' sharpest lines as checked quotations"

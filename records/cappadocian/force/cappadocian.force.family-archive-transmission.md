@@ -11,10 +11,11 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Documented
-  divergence_note: "Documented as mechanisms (fraternal completions, memorial orations, the copied letter networks); Gregory of Nazianzus gathering his own letters is Widely Accepted for now, because the only text that shows it, his Epistle 52, is held here as unchecked OCR Greek and the method question on that OCR is open; the effect-scale of the resulting selection (what survives versus what is lost) is Widely Accepted as synthesis rather than independently Documented item by item."
+  divergence_note: "Documented as mechanisms (Gregory of Nazianzus collecting his own letters, with Basil's placed first, in his Letters LII and LIII to Nicobulus, vendored in English in npnf207; fraternal completions; memorial orations; the copied letter networks); the effect-scale of the resulting selection (what survives versus what is lost) is Widely Accepted as synthesis rather than independently Documented item by item."
 sources:
-- source_id: cappadocian.source.gregory-nazianzus-de-vita-sua
-  locus: "Gregory of Nazianzus gathering his own letters (Epistle 52) is named only; no source record covers it and the text is unchecked OCR Greek, so the claim stays Widely Accepted pending the method question"
+- source_id: cappadocian.source.gregory-nazianzus-orations-general-corpus
+  locus: "npnf207, Letters LII and LIII to Nicobulus: Gregory agrees 'to collect for you as many of my own letters as I can', and gives Basil's letters 'the first place and my own the second'"
+  license: public-domain
 - source_id: cappadocian.source.gregory-nyssa-on-the-making-of-man
   locus: "the opening, where Nyssa says he intends to add what is lacking to his brother's Hexaemeron so that the teacher's glory may not seem to fail among his disciples"
   license: public-domain
@@ -34,8 +35,8 @@ kind: ongoing
 matrix_cell: 2B
 description: >-
   One family and one circle of friends made, kept and published most of
-  this world's record. Gregory of Nazianzus is widely accepted to have
-  gathered his own letters. Gregory of Nyssa finished his brother's
+  this world's record. Gregory of Nazianzus gathered his own letters into a
+  collection and put Basil's letters first. Gregory of Nyssa finished his brother's
   unfinished work. He also wrote the family's memorial, the Life of
   Macrina. Bishops and ascetics copied the circle's works through their
   letter networks. Someone in the circle's orbit put together an anthology
@@ -54,7 +55,7 @@ description: >-
   already telling its own story. Every later document inherits that frame
   and must keep saying so.
 manifestations:
-- Gregory Nazianzen gathering his own letter collection (Widely Accepted)
+- Gregory Nazianzen gathering his own letter collection, with Basil's letters placed first (Letters LII-LIII)
 - Gregory of Nyssa completing his brother's unfinished works and writing the family's memorials (the Vita)
 - the copied episcopal-ascetic letter networks that carried the circle's works onward
 - an Origen anthology compiled in the circle's orbit (the Philocalia), traditional attribution now Contested

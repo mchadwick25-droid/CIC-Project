@@ -20,7 +20,7 @@ sources:
   locus: the mature deployment of the argument
   license: public-domain
 - source_id: cappadocian.source.gregory-nyssa-against-eunomius
-  locus: Answer to Eunomius' Second Book, where Nyssa quotes Basil - "we call the Universal Deity imperishable and ungenerate ... and we arrive at these names by Conception"
+  locus: Answer to Eunomius' Second Book, where Nyssa quotes Basil - "We call the Universal Deity ... imperishable and ungenerate ... and we arrive at these names by Conception"
   license: public-domain
 - source_id: cappadocian.source.basil-letters-general-corpus
   locus: Letter CCXXXIV, "we know our God from His operations, but do not undertake to approach near to His essence"

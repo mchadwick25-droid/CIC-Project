@@ -24,8 +24,8 @@ sources:
   locus: "the treatise is named, not held: it has no vendored file. Its existence and general
     anti-Eunomian argument are Widely Accepted; the Prolegomena in npnf208 summarizes it"
 - source_id: cappadocian.source.gregory-nyssa-against-eunomius
-  locus: "the continuing refutation, completed after Basil's death. the Answer to Eunomius' Second Book, in this work, quotes Basil's
-    own words ('we call the Universal Deity imperishable and ungenerate ... and we arrive at these names
+  locus: "the continuing refutation, completed after Basil's death. The Answer to Eunomius' Second Book, in this work, quotes Basil's
+    own words ('We call the Universal Deity ... imperishable and ungenerate ... and we arrive at these names
     by Conception'), which carry Basil's side of the argument here"
   license: public-domain
 claim: >-

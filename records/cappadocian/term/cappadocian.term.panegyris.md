@@ -46,7 +46,7 @@ false_friend:
 senses:
   informational: 'The countryside''s Christian calendar ran on these shrine-festivals: a vigil, the passion
     retold, preaching, and ordinary market business all in the same place on the same day.'
-  evidential: Reported in festal homilies, though the preachers' complaints about the crowd are not checked here.
+  evidential: Reported in festal homilies.
     Basil's Longer Rule XL, which is vendored, shows that trade at martyrs' tombs was a concern. This world's
     own broader shrine-festival pattern is corroborated by a still-thin, largely reconstructive record
     (this build's own martyr-shrine-pattern source is itself only Inferential-Thin, named as such).

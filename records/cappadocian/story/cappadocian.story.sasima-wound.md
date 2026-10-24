@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Widely Accepted that Gregory of Nazianzus experienced and recorded this appointment as a wound - that much is Documented as his own telling. What is genuinely Contested is Basil's own side of it (essentially unrecorded, so his motives are argued from context, not from his own words) and how much of the friendship's rupture was jurisdictional necessity versus personal failure. The Sasima letters are vendored in the npnf207 edition (Letters XLVIII, XLIX, L and LVIII) and the editor's account of the province split, Anthimus and the new sees is vendored there too. This story keeps named-not-rechecked because it also names the long poem De vita sua, which is held here only as unchecked OCR Greek; the description of Sasima as a place rests on the vendored English alone."
 sources:
 - source_id: cappadocian.source.gregory-nazianzus-sasima-letters
-  locus: "the appointment and its aftermath, as Gregory recorded it; Letter XLIX, where he refuses to fight 'for the celebrated Sasima' and asks for quiet"
+  locus: "the appointment and its aftermath, as Gregory recorded it; Letter XLVIII, where he will not fight to 'deprive the Metropolis of the celebrated Sasima' and asks 'Give me before all things quiet'; Letter XLIX, 'because I did not accept your Sasima'"
   license: public-domain
 - source_id: cappadocian.source.gregory-nazianzus-orations-general-corpus
   locus: "the editor's account (npnf207): Cappadocia divided in two, Anthimus claiming the new province, Basil erecting new sees, Sasima 'a miserable little village', Gregory's father asking him to stay at Nazianzus"
@@ -48,12 +48,12 @@ text: >-
   secure his own metropolitan authority against a rival bishop's competing
   claims over the new province's territory. He created new sees and
   consecrated allies to hold them - among them Sasima, a small, ill-favored
-  posting, a dusty village where the post changed horses. He named his own
+  posting, a dusty village where the mail changed horses. He named his own
   close friend, Gregory of Nazianzus, to it. Gregory experienced the
   appointment as a wound: pressed into an office he had not sought, in a
-  place his editor calls a miserable little village, and pressed there, as he
+  miserable little village, and pressed there, as he
   understood it, more for Basil's jurisdictional need than for Gregory's own
-  sake. He effectively refused the post. By the editor's account he
+  sake. He effectively refused the post. He
   probably never governed it, and his own aging father, then bishop of
   Nazianzus, begged him to stay and help. What survives is entirely
   Gregory's own account - his bitter letters, his poems, the
@@ -61,7 +61,7 @@ text: >-
   record from Basil's own side has survived at all. A friendship forged in
   their student years at Athens, and never simply ended by this, carried
   the wound into everything that came after.
-telling: "Sasima was a small posting, a dusty village where the post changed horses.\n\nIn 372 Cappadocia was divided into two provinces. A rival bishop claimed authority over the new province's land. Basil moved to secure his authority as metropolitan, the chief bishop of the province. He created new sees and consecrated allies to hold them. Sasima was one, and Basil named his close friend, Gregory of Nazianzus, to it.\n\nGregory felt the appointment as a wound. Gregory's bitter letters and poems tell it, and so does the long poem about his life that he wrote years later. No record from Basil's side survives.\n\nGregory had been pressed into an office he had not sought. His editor calls the place a miserable little village. As Gregory understood it, he was sent there more for Basil's need in the fight than for Gregory's own good.\n\nGregory in effect refused the post. By his editor's account he probably never governed it. His aging father, then bishop of Nazianzus, begged him to stay and help."
+telling: "Sasima was a small posting, a dusty village where the mail changed horses.\n\nIn 372 Cappadocia was divided into two provinces. A rival bishop claimed authority over the new province's land. Basil moved to secure his authority as metropolitan, the chief bishop of the province. He created new sees and consecrated allies to hold them. Sasima was one, and Basil named his close friend, Gregory of Nazianzus, to it.\n\nGregory felt the appointment as a wound. Gregory's bitter letters and poems tell it, and so does the long poem about his life that he wrote years later. No record from Basil's side survives.\n\nGregory had been pressed into an office he had not sought, in a miserable little village. As Gregory understood it, he was sent there more for Basil's need in the fight than for Gregory's own good.\n\nGregory in effect refused the post. He probably never governed it. His aging father, then bishop of Nazianzus, begged him to stay and help."
 absent_detail: "Basil's own account of why he made this appointment, and what if anything he understood himself to owe his friend for it, is not recorded anywhere in this world's evidentiary base. This is entirely Gregory's telling."
 modern_contrast: >-
   A modern reader might expect a falling-out this documented to include

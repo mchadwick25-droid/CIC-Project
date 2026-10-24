@@ -24,7 +24,7 @@ sources:
   locus: "editor's note on Letter XVI, titled 'Against Eunomius the heretic': Basil wrote his counter-work against Eunomius' Apology"
   license: public-domain
 - source_id: cappadocian.source.church-historians-socrates-sozomen-theodoret
-  locus: "Sozomen on Eunomius' changed baptism, the split from the church, and the conflicting accounts of it"
+  locus: "Socrates: Eunomius 'separated himself from Eudoxius, and held assemblies apart'; Sozomen: they 'rebaptize all those who join their sect', with 'conflicting accounts' of who first changed the rite"
   license: public-domain
 relations:
 - type: enabled-by
@@ -39,13 +39,13 @@ name: "The Eunomian movement [2A - ongoing/external]"
 kind: ongoing
 matrix_cell: 2A
 description: >-
-  Aetius and then Eunomius, born in the village of Corniaspa to a partly Galatian
-  family, taught that the word unbegotten names God's very being. Eunomius' Apology, around 360, drew
+  Aetius and then Eunomius, born in the village of Corniaspa and probably of
+  partly Galatian descent, taught that the word unbegotten names God's very being. Eunomius' Apology, around 360, drew
   Basil's refutation. Gregory of Nyssa carried it on after Basil's death.
-  The movement split from the church and changed baptism. Our sources
-  disagree on the details. This world said he claimed to know God as God
+  The movement held its own assemblies and rebaptized those who joined it.
+  Accounts differ on who first changed the rite. This world said he claimed to know God as God
   knows himself. It heard in that teaching a claim to grasp what no mind
-  can grasp. It heard in the new baptism a claim that the first baptism had
+  can grasp. It heard in the rebaptism a claim that the first baptism had
   failed. Against Eunomius the
   teachers used the schools' own tools of argument. The fight made this
   world spell out how words reach God: truly, yet never completely. It made
@@ -55,7 +55,7 @@ description: >-
 manifestations:
 - Eunomius' Apology (c. 360), drawing Basil's refutation and, after Basil's death, Gregory of Nyssa's continuation
 - the claim that "unbegotten" (agennētos) names God's very essence
-- the movement's split from the church and its changed baptism, reported with conflicting accounts
+- the movement's separate assemblies and its rebaptism of those who joined it
 - the anti-Eunomian method - dialectic disciplined against dialectic worshipped
 ---
 Re-derived from the cleared Doc_08 (Cell 2A, Force 2A-3). Cross-cell connection (Section 4): "1B-3 -> 2A-3:

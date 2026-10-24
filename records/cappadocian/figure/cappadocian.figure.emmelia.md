@@ -30,8 +30,8 @@ dates:
   display: "died c. 372x375 (exact date not attested); mother of the family; reported to have built the family's Annisa chapel for the Forty Martyrs, where their relics were placed"
 narratable: false
 bridge_line: >-
-  The mother of Basil, Gregory of Nyssa and Macrina. Modern editors say
-  she built the family chapel for the Forty Martyrs, where their relics
+  The mother of Basil, Gregory of Nyssa and Macrina. She is remembered
+  for building the family chapel for the Forty Martyrs, where their relics
   were placed. No words of her own survive.
 relations: []
 ---

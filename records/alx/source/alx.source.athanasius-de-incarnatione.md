@@ -12,9 +12,10 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
-    The date is the NPNF editor's. He adopts "in or shortly before 318 A.D." because the
-    Arian controversy of 319 has left no trace on the work, and says how long before
-    that it was written "it is impossible to say with certainty"
+    The date is the one the NPNF editor reports as "usually adopted", "in or shortly before
+    318 A.D.": the Arian controversy of 319 "has left no trace" on the work, and its maturity
+    inclines him to date it as late as he can. How long before 319 it was written "it is
+    impossible to say with certainty"
     (cic/texts/npnf204_athanasius-select-works-letters.xml:12082-12092). The work itself is Documented.
 sources: []
 author: "Athanasius of Alexandria (c. 296-373 CE)"

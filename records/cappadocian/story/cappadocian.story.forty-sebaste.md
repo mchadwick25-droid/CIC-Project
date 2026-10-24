@@ -51,11 +51,11 @@ text: >-
   past, but within living memory of the martyrs' own grandparents'
   generation. Basil and Gregory of Nyssa both preached on their feast, and
   the family into which Gregory, Basil, and Macrina were born held its own
-  direct connection to the cult: modern editors report that their mother,
-  Emmelia, built the family's own chapel at Annisa for the Forty, where
+  direct connection to the cult: their mother, Emmelia, is remembered for
+  building the family's own chapel at Annisa for the Forty, where
   the relics were placed. That tied our freshest martyr memory
   directly into our own household.
-telling: "It was around the year 320, in one of the last persecutions. At Sebaste in Lesser Armenia, forty soldiers were condemned for being Christians.\n\nAs our church remembers it, they were stripped and made to stand through a winter night on a frozen pond. A warm bath steamed on the shore. It was offered to any man who would deny the faith and step out of the cold.\n\nThe tradition says one of the forty broke before the night ended and went to the warm water. It says a guard set to watch them was moved by what he saw. He took off his own clothes and joined the rest on the ice. He confessed the faith the other man had just abandoned, so the martyrs still numbered forty. All of them died.\n\nBasil and Gregory of Nyssa both preached on the feast of the Forty. Modern editors report that their mother, Emmelia, built the family's chapel at Annisa for the Forty, where the relics were placed."
+telling: "It was around the year 320, in one of the last persecutions. At Sebaste in Lesser Armenia, forty soldiers were condemned for being Christians.\n\nAs our church remembers it, they were stripped and made to stand through a winter night on a frozen pond. A warm bath steamed on the shore. It was offered to any man who would deny the faith and step out of the cold.\n\nThe tradition says one of the forty broke before the night ended and went to the warm water. It says a guard set to watch them was moved by what he saw. He took off his own clothes and joined the rest on the ice. He confessed the faith the other man had just abandoned, so the martyrs still numbered forty. All of them died.\n\nBasil and Gregory of Nyssa both preached on the feast of the Forty. Their mother, Emmelia, is remembered for building the family's chapel at Annisa for the Forty, where the relics were placed."
 absent_detail: "No account survives from any of the Forty themselves, or from the guard who is remembered as joining them; the specific narrative details belong to the tradition that grew up around the cult, not to a contemporary eyewitness record."
 modern_contrast: >-
   A modern reader might expect a martyr story this vivid to come from a

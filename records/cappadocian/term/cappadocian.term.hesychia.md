@@ -16,10 +16,10 @@ confidence:
     circle of leaders, not evidence for how the wider plateau congregations experienced solitude and service.
 sources:
 - source_id: cappadocian.source.gregory-nazianzus-orations-general-corpus
-  locus: Oration 2, the apology for flight from ordination
+  locus: 'Oration 2, the apology for flight from ordination; and, in the same vendored npnf207 file, Letter V (c. 361), Gregory teasing Basil about Pontus - "Your roofless and doorless hut"'
   license: public-domain
 - source_id: cappadocian.source.gregory-nazianzus-sasima-letters
-  locus: Letter XLIX, "To Basil. (The Praises of Quiet.)" - "Give me before all things quiet"; "Your roofless and doorless hut"
+  locus: 'Letter XLVIII, "Give me before all things quiet"; Letter XLIX, "To Basil. (The Praises of Quiet.)" - "My greatest business always is to keep free from business"'
   license: public-domain
 - source_id: cappadocian.source.basil-letters-general-corpus
   locus: Letter XIV, Basil's retreat in Pontus - a wooded mountain, a plain and a river

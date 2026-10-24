@@ -57,18 +57,15 @@ text: >-
   not by any one dedicated account of a single festival, and no more
   precision than that is claimed here. The calendar itself - a fixed feast
   day, kept year after year - is documented from festal texts naming
-  specific dates. Gregory's account of the Mamas festival is named but
-  not checked here.
+  specific dates.
 absent_detail: "No specific festival at any one named shrine is described here; this is a composite built from several homilies' shared pattern, not a single dated occasion. The market-and-crowd texture rests on the weakest sourcing in this record's own set (a general regional pattern with no single dedicated text of its own, plus one of the underlying martyr homilies itself unverified in this world's own Source Registry) and is stated in the text with exactly that hedge rather than presented as more solid than it is."
 modern_contrast: >-
   A modern reader might picture a religious festival and a nearby market as
-  two separate events sharing a calendar date by convenience. This world's
-  own preachers experienced them as one contested occasion - the same
-  crowd, the same day, competing for the same attention - and preached, by
-  their own account, against the pull of the second while standing inside
-  the first.
+  two separate events sharing a calendar date by convenience. In this world
+  the two met on the same ground: Basil's rule told the brothers not to
+  trade at the martyrs' tombs, so trade there was a real concern.
 use_note:
-  means: "This reconstruction shows a martyr's feast at a countryside shrine, with vigil, retold passion and market crowd, composed from preachers' asides across several homilies."
+  means: "This reconstruction shows a martyr's feast at a countryside shrine, with vigil, retold passion and market crowd, composed from the festal homilies and Basil's Longer Rule XL on trade at the tombs."
   not_for:
     - "one named festival or dated occasion"
     - "the market and crowd detail as well attested, since it is the weakest-sourced part"
