@@ -89,7 +89,9 @@ def install(app, *, secret: str):
         # A sign-in that finishes reads the visitor id, and mints nothing, so a new account can
         # begin with what is left of its browser's free window.
         reads_only = request.method == "POST" and request.url.path.startswith("/api/accounts/") and request.url.path.endswith("/finish")
-        if not (is_create or is_turn or reads_only):
+        # The page asks what is left of the free window before any reply; that reads the cookie and mints nothing.
+        reads_free = request.method == "GET" and request.url.path == "/api/deeper/free"
+        if not (is_create or is_turn or reads_only or reads_free):
             return await call_next(request)
 
         raw_cookie = request.cookies.get(COOKIE_NAME)

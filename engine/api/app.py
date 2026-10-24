@@ -641,6 +641,7 @@ def create_app(
             )
 
         deeper_routes.install(app, deeper, authenticate_admin=_admin_check)
+        deeper_admission.install_free_read(app, deeper)
 
     if accounts is not None:
         accounts_routes.install(app, accounts)

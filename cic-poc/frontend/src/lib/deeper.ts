@@ -139,6 +139,19 @@ async function refreshBalance(code: string) {
   }
 }
 
+/** What the free window has left for a visitor with no code, asked of the server before any reply reports it. */
+export async function refreshFreeLeft() {
+  if (!deeperEnabled || state.codes.length > 0 || state.freeLeft !== null) return;
+  try {
+    const response = await fetch('/api/deeper/free', { credentials: 'same-origin' });
+    if (!response.ok) return;
+    const body = (await response.json()) as { free_left?: unknown };
+    if (typeof body.free_left === 'number' && state.codes.length === 0) reportFreeLeft(body.free_left);
+  } catch {
+    // The count shows when the first reply reports it.
+  }
+}
+
 function setBalanceOf(code: string, remaining: number) {
   if (!state.codes.includes(code)) return;
   let codes = state.codes;
