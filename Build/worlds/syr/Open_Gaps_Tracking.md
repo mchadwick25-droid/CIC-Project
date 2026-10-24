@@ -201,3 +201,7 @@ Status: OPEN for the project lead.
    Also fixed on 2026-10-24, the two leftovers named in that entry: `syr.core.syriac` `thinness` now says the daughters' vows and service are told by men of their own time and their singing only in later men's accounts (the field is rewritten in plain sentences, every claim kept); `syr.limit.f5-women-own-words` keeps Documented with a divergence_note that leaves the singing outside that rating. Review: `Build/Ministry/Operations/Audits/2026-10-24_syriac-leftovers_Review_Round1.md` (PASS WITH FIXES; all fixes applied as worded).
 
    Status: OPEN for B5 and the two leftovers until the round 2 recheck. CLOSED for the other claim check findings.
+
+43. **Independent recheck round 2 passed, 2026-10-24.** Follows the "Independent recheck of the live-reply claim check fixes" entry (2026-10-24). The separate Opus recheck thread confirmed B5 and the two Syriac leftovers against https://github.com/mchadwick25-droid/CIC-Project/pull/1102 (the round 2 recheck report in https://github.com/mchadwick25-droid/CIC-Project/pull/1099). No round 3 is needed.
+
+   Status: CLOSED for the live-reply claim check findings.

@@ -855,3 +855,20 @@ Status: OPEN for the nine force records. The claim check findings FIXED 2026-10-
 Independent recheck, round 1 (the round 1 recheck report in https://github.com/mchadwick25-droid/CIC-Project/pull/1099): every fix in this world for the "Live-reply claim check findings re-confirmed" entry (2026-10-23) is confirmed against the vendored sources. One non-blocking change was applied: `pahc.force.neronian-persecution` manifestations now say "the office of oversight", not "the episcopal office".
 
 Status: CLOSED for the live-reply claim check findings. The nine force records named in that entry stay OPEN.
+
+### OG-41. Unsourced "world's own experience" prose in nine force records, fixed 2026-10-24.
+
+Follows the "Live-reply claim check findings re-confirmed and fixed" entry (2026-10-23), which left nine force records open. Their `description` is an evidence-head field (`engine/m1/spoken_fields.py`): it reaches the voice as grounding and is the citation card's fallback label.
+
+An Opus assessment checked every claim against the vendored texts (`Build/Ministry/Operations/Audits/2026-10-24_pahc-force-records_Assessment.md`). Sonnet drafted the fixes, and Opus reviewed them in two rounds: `2026-10-24_pahc-force-records_Review_Round1.md` (PASS WITH FIXES, 6 blocking) and `..._Review_Round2.md` (PASS).
+
+Fixed, in `transmission-network`, `authority-consolidation`, `roman-mediterranean-world`, `monepiscopacy-consolidation`, `systematic-theological-mode-elsewhere`, `martyrdom-meaning`, `two-ways-catechetical-inheritance` and `boundary-drawing`:
+- Each description now names its real voice (Ignatius, 1 Clement, the Martyrdom of Polycarp, Hermas, or Hegesippus and Irenaeus via Eusebius) in place of "the world", with the loci added.
+- Felt states and member experience that no source supports are cut or marked as the record's inference.
+- `martyrdom-meaning`: Ignatius writes already under guard, not "awaiting his own arrest". The Smyrna anniversary is a stated intention, not a record of yearly gatherings.
+- `monepiscopacy-consolidation`: the gradual end of the presbyter college is a modern reconstruction, not the world's own record. Irenaeus is now cited both to Victor (Eusebius HE 5.24.14) and in Against Heresies 3.3.3.
+- `systematic-theological-mode-elsewhere`: the absence claim is limited to the core texts, and Hegesippus is named as an in-window precursor.
+
+`alexandria-emergence` needed no change.
+
+Status: CLOSED for the nine force records.

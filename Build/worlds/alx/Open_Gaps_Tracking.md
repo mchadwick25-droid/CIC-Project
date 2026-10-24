@@ -790,3 +790,9 @@ Independent recheck, round 1 (the round 1 recheck report in https://github.com/m
 Claim to check: later scholars also argue that On the Incarnation dates to the 330s. That cannot be checked in the vendored texts. If a modern source is vendored or registered, `alx.dw.jesus` and `alx.source.athanasius-de-incarnatione` should name both datings.
 
 Status: OPEN for B2 until the round 2 recheck, and OPEN for the dating claim. CLOSED for the other claim check findings.
+
+### OG-35. Independent recheck round 2 passed, 2026-10-24.
+
+Follows the "Independent recheck of the live-reply claim check fixes" entry (2026-10-24). The separate Opus recheck thread confirmed B2 against https://github.com/mchadwick25-droid/CIC-Project/pull/1102 (the round 2 recheck report in https://github.com/mchadwick25-droid/CIC-Project/pull/1099). No round 3 is needed.
+
+Status: CLOSED for the live-reply claim check findings. The 330s dating claim stays OPEN.
