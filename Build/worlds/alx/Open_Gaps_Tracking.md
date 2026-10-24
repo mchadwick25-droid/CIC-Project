@@ -781,4 +781,4 @@ Fixed:
 
 Still open: Doc_02 says most later scholarship upholds the c. 238 date. If a modern source for that is vendored or registered, the two records can say so.
 
-Status: CLOSED for the claim check findings.
+Status: FIXED 2026-10-23/24, awaiting an independent recheck by a separate Opus thread (CLAUDE.md: a blocking finding does not clear by self-certification); fix list: `Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Fix-List.md`.

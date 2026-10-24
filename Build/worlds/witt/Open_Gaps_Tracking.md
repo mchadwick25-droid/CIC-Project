@@ -2721,4 +2721,4 @@ Fixed:
 
 Still open: `witt.figure.brussels-martyrs-john-and-henry` `bridge_line` still says "in 1523" without the note; its other fields already explain the date's origin.
 
-Status: CLOSED for the claim check findings.
+Status: FIXED 2026-10-23/24, awaiting an independent recheck by a separate Opus thread (CLAUDE.md: a blocking finding does not clear by self-certification); fix list: `Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Fix-List.md`.

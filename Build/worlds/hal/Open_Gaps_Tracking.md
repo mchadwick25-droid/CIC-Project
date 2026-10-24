@@ -913,4 +913,4 @@ Fixed:
 - `hal.dw.record`: the Gospels were revised against the Greek; the Old Testament was translated from the Hebrew, "which Jerome held truest" (the principle is Jerome's own, per `hal.term.hebraica-veritas`).
 - `hal.limit.f5-women-own-words`: the letter sent in Paula's and Eustochium's names "is held to be Jerome's own work", not stated as settled.
 
-Status: CLOSED.
+Status: FIXED 2026-10-23/24, awaiting an independent recheck by a separate Opus thread (CLAUDE.md: a blocking finding does not clear by self-certification); fix list: `Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Fix-List.md`.

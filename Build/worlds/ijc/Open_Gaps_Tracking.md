@@ -408,4 +408,4 @@ Status: OPEN for the project lead to schedule.
    - `ijc.story.tome-that-would-not-bend` and `ijc.demo.never-settled`: "settled who Christ is" now reads "defined who Christ is"; the story notes Egypt rejected the definition at once (`ijc.force.chalcedon-failed-consensus`).
    - The same story no longer puts the Tome and Canon 28 in one session: Canon 28 came later at the same council.
 
-   Status: CLOSED.
+   Status: FIXED 2026-10-23/24, awaiting an independent recheck by a separate Opus thread (CLAUDE.md: a blocking finding does not clear by self-certification); fix list: `Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Fix-List.md`.

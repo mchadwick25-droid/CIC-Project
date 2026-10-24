@@ -371,4 +371,4 @@ Status: CLOSED for the three documents and the Marburg cross-reference; OPEN for
 
    Still open, and larger than the 2026-10-19 entry said: not two but 24 rzg records (all 19 force records, plus one gravity, three demonstration and one voice-craft record) carry `sources: []` while marked `verified-direct`. The same pattern runs fleet-wide (over 300 records in every built world, the fixture world included). Whether these record types may carry `verified-direct` without sources is a methodology question for the project lead.
 
-   Status: OPEN for the empty-sources item. CLOSED for the rest.
+   Status: OPEN for the empty-sources item. The rest FIXED 2026-10-23/24, awaiting an independent recheck by a separate Opus thread (CLAUDE.md: a blocking finding does not clear by self-certification); fix list: `Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Fix-List.md`.

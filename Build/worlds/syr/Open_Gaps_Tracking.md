@@ -192,4 +192,4 @@ Status: OPEN for the project lead.
 
    Still open: `syr.core.syriac` `thinness` still says the daughters' singing is "attested only through men's texts"; `syr.limit.f5-women-own-words` keeps Documented for a statement now partly resting on later accounts.
 
-   Status: OPEN for the two items above. CLOSED for the rest.
+   Status: OPEN for the two items above. The rest FIXED 2026-10-23/24, awaiting an independent recheck by a separate Opus thread (CLAUDE.md: a blocking finding does not clear by self-certification); fix list: `Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Fix-List.md`.

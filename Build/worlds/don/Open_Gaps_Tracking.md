@@ -2035,4 +2035,4 @@ Fixed now:
 
 Still open: the record-level defects listed in the Atlas story pass entry (2026-10-17). The old citation "De baptismo I.5.6" stays in `don_Decision_Log.md` as history.
 
-Status: CLOSED for the live-reply claim check findings.
+Status: FIXED 2026-10-23/24, awaiting an independent recheck by a separate Opus thread (CLAUDE.md: a blocking finding does not clear by self-certification); fix list: `Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Fix-List.md`.

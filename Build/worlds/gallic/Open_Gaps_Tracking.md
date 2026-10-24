@@ -1186,4 +1186,4 @@ Fixed now:
 - `gallic.dw.christ-in-the-beggar-and-the-guest`: removed the build narration "Cassian wrote books on the Incarnation, but our record has not read them" and its echo in positions.
 - `gallic.limit.only-on-paper` locus: Institutes I-IV are the customs of Egypt and the East, not of Egypt alone.
 
-Status: CLOSED.
+Status: FIXED 2026-10-23/24, awaiting an independent recheck by a separate Opus thread (CLAUDE.md: a blocking finding does not clear by self-certification); fix list: `Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Fix-List.md`.

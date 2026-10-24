@@ -933,4 +933,4 @@ Fixed:
 
 Still open: records that cite the four sources now marked unvendored still carry their earlier verification states (e.g. the nine records citing De vita sua). They need a pass to set what each can claim without a vendored text. Correcting the four `kind` labels made the M9 `emic-vendored-only/cappadocian` count accurate: 84 emic records cite a source the Library does not hold, up from 66 counted while those four were mislabelled. The waiver in `engine/m9/enforce.py` now says 84; its deadline and owner are unchanged.
 
-Status: OPEN for the follow-on pass. CLOSED for the claim check findings.
+Status: OPEN for the follow-on pass. The claim check findings FIXED 2026-10-23/24, awaiting an independent recheck by a separate Opus thread (CLAUDE.md: a blocking finding does not clear by self-certification); fix list: `Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Fix-List.md`.
