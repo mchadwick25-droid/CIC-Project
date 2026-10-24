@@ -2591,3 +2591,9 @@ Alternatives shown: (1) fix and run one Opus 5.5 recheck of the three sites; (2)
 ### 2026-10-24 — Declaration: verdict-wording rows withdrawn (build thread, under the 2026-09-29 ruling)
 
 The handoff check found the declaration's verdict-wording rows for Step0, Doc_01 and Doc_02 stale: each document's latest verdict now reads "Approved to proceed", after change order CO-LPC-1. The rows accepted the older wording "CLEARED" only. Withdrawing them narrows what the declaration accepts and changes no count. Alternatives: (1) withdraw the three rows; (2) leave them and carry three failing findings. Chosen: 1, as a mechanical consequence of the project lead's rulings, reported to him in the build thread.
+
+---
+
+### 2026-10-24 — One Opus recheck of the Phase L1 handoff changes (project lead's ruling)
+
+Alternatives shown: (1) one targeted Opus 5.5 recheck of every change to Step 0, Doc_01, Doc_02 and the Source Registry; (2) the substantive changes only; (3) no recheck. Chosen: 1 (project lead, 2026-10-24). Cap ruling in the System Hub Decision Log.
