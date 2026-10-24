@@ -2597,3 +2597,9 @@ The handoff check found the declaration's verdict-wording rows for Step0, Doc_01
 ### 2026-10-24 — One Opus recheck of the Phase L1 handoff changes (project lead's ruling)
 
 Alternatives shown: (1) one targeted Opus 5.5 recheck of every change to Step 0, Doc_01, Doc_02 and the Source Registry; (2) the substantive changes only; (3) no recheck. Chosen: 1 (project lead, 2026-10-24). Cap ruling in the System Hub Decision Log.
+
+---
+
+### 2026-10-24 — Doc_02 Round 39 P1: fix with the plain P2s, then one recheck (project lead's ruling)
+
+Alternatives shown: (1) fix the Monceaux P1 with the reviewers' plainly correct P2s, then one Opus 5.5 recheck of those lines; (2) the P1 only, with a recheck; (3) fix with no recheck. Chosen: 1 (project lead, 2026-10-24). Cap ruling in the System Hub Decision Log.
