@@ -77,7 +77,8 @@ CREATE TABLE IF NOT EXISTS pending_recoveries (
 ) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS deletion_ledger (
   ledger_hash TEXT PRIMARY KEY,
-  expires_on  TEXT NOT NULL
+  expires_on  TEXT NOT NULL,
+  published   INTEGER NOT NULL DEFAULT 0
 ) WITHOUT ROWID;
 """
 
@@ -182,6 +183,8 @@ class AccountStore:
         self._lock = threading.RLock()
         self._d = _open(durable_path, DURABLE_DDL)
         _allow_accounts_without_address(self._d)
+        if not any(r[1] == "published" for r in self._d.execute("PRAGMA table_info(deletion_ledger)")):
+            self._d.execute("ALTER TABLE deletion_ledger ADD COLUMN published INTEGER NOT NULL DEFAULT 0")
         self._e = _open(ephemeral_path, EPHEMERAL_DDL)
         if not any(r[1] == "bound" for r in self._e.execute("PRAGMA table_info(challenges)")):
             self._e.execute("ALTER TABLE challenges ADD COLUMN bound TEXT")
@@ -615,7 +618,10 @@ class AccountStore:
                 self._d.execute("DELETE FROM account_codes WHERE account_id = ?", (account_id,))
                 self._d.execute("DELETE FROM shelf WHERE account_id = ?", (account_id,))
                 if gone:
-                    self._d.execute("INSERT OR IGNORE INTO deletion_ledger VALUES (?, ?)", (ledger_hash, ledger_expires_on))
+                    self._d.execute(
+                        "INSERT OR IGNORE INTO deletion_ledger (ledger_hash, expires_on) VALUES (?, ?)",
+                        (ledger_hash, ledger_expires_on),
+                    )
                 self._d.execute("COMMIT")
             except BaseException:
                 self._d.execute("ROLLBACK")
@@ -628,6 +634,26 @@ class AccountStore:
             ledger = {r[0] for r in self._d.execute("SELECT ledger_hash FROM deletion_ledger")}
             ids = [r[0] for r in self._d.execute("SELECT account_id FROM accounts")]
         return [i for i in ids if hash_of(i) in ledger]
+
+    def unpublished_ledger(self) -> list[tuple[str, str]]:
+        """(ledger hash, expiry day) of each deletion not yet written to the outside copy."""
+        with self._lock:
+            return [(r[0], r[1]) for r in self._d.execute("SELECT ledger_hash, expires_on FROM deletion_ledger WHERE published = 0")]
+
+    def mark_ledger_published(self, ledger_hash: str) -> None:
+        with self._lock:
+            self._d.execute("UPDATE deletion_ledger SET published = 1 WHERE ledger_hash = ?", (ledger_hash,))
+
+    def add_ledger_entries(self, entries: list[tuple[str, str]]) -> int:
+        """Entries read back from the outside copy, kept as already published. Returns how many were new."""
+        added = 0
+        with self._lock:
+            for ledger_hash, expires_on in entries:
+                added += self._d.execute(
+                    "INSERT OR IGNORE INTO deletion_ledger (ledger_hash, expires_on, published) VALUES (?, ?, 1)",
+                    (ledger_hash, expires_on),
+                ).rowcount
+        return added
 
     def purge_durable(self, today: str) -> int:
         with self._lock:

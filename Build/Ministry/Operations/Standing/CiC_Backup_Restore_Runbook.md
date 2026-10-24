@@ -257,6 +257,16 @@ plain copy exists beside the target only for the length of the restore.
 Restoring the durable file and the contact file from different days leaves some
 accounts without a stored address; restore both from the same pass.
 
+**Deleted accounts do not come back.** The deletion ledger sits inside the durable file,
+so a backup made before a deletion has no record of it. Each ledger entry is therefore
+also written to the backup bucket when the account is deleted, under
+`db-backups/cic-engine/ledger/<expiry day>_<ledger hash>`. The object is empty; the
+name is the hash of the account's random internal id and the day it expires (16 days
+after deletion, two days past the backups). If the bucket is unreachable at that moment
+the entry waits in the file and the hourly job sends it. At start-up and every hour the
+app reads these entries back and removes any account they name. After a restore, check
+the log for "accounts named by the deletion ledger were found again and removed".
+
 ## What this does not cover
 
 - **Point-in-time recovery finer than 24 hours.** See RPO above.
