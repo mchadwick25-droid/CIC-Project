@@ -64,4 +64,4 @@ use_note:
 ---
 Draws on the same two terms as cappadocian.demo.want-to-believe (akatalepsia, baptisma-photisma). The tensions field states the limit: this world can show an argument and a pastoral pattern, not a first-person testimony of doubt from inside the congregation, which the AUTHOR GRAVITY caution in world_core names as a feature of the whole record.
 
-This record cross-references the verbatim quote record cappadocian.quote.basil-against-eunomius-ant, from Basil's Letter XVI, "Against Eunomius the heretic."
+This record cross-references the verbatim quote record cappadocian.quote.basil-against-eunomius-ant, from Letter XVI as printed under Basil's name (the same passage stands in Gregory of Nyssa's Against Eunomius), "Against Eunomius the heretic."

@@ -782,3 +782,11 @@ Fixed:
 Still open: Doc_02 says most later scholarship upholds the c. 238 date. If a modern source for that is vendored or registered, the two records can say so.
 
 Status: FIXED 2026-10-23/24, awaiting an independent recheck by a separate Opus thread (CLAUDE.md: a blocking finding does not clear by self-certification); fix list: `Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Fix-List.md`.
+
+### OG-34. Independent recheck of the live-reply claim check fixes, 2026-10-24.
+
+Independent recheck, round 1 (`Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Independent-Recheck_Round1.md` (draft PR https://github.com/mchadwick25-droid/CIC-Project/pull/1099)): the other fixes in this world for the "Live-reply claim check findings re-confirmed" entry (2026-10-23) are confirmed. Blocking, fixed on 2026-10-24 and awaiting the round 2 recheck:
+- B2. `alx.dw.jesus` gave "still a young man and writing about 318" as fact. The NPNF editor gives 318 only as "the date usually adopted". It now reads "in a book usually dated about 318".
+Claim to check: later scholars also argue that On the Incarnation dates to the 330s. That cannot be checked in the vendored texts. If a modern source is vendored or registered, `alx.dw.jesus` and `alx.source.athanasius-de-incarnatione` should name both datings.
+
+Status: OPEN for B2 until the round 2 recheck, and OPEN for the dating claim. CLOSED for the other claim check findings.

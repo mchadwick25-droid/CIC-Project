@@ -16,7 +16,7 @@ sources: []
 relations: []
 author: Heinrich Bullinger
 work: The Second Helvetic Confession (1566)
-edition: Vendored as cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt, Sec. 55
+edition: Vendored as cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt, Sec. 55. The English is Schaff's "condensed translation of the original".
   (original pp. 390-421), within Philip Schaff's compiled Creeds of Christendom (1919 printing)
 rights_status: "public-domain; vendored, identity and provenance directly confirmed against the vendored file itself"
 attribution_status: attributed to Heinrich Bullinger. No attribution dispute exists for this work.

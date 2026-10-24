@@ -46,7 +46,7 @@ positions:
 - "the resurrection and the healings appealed to as what shows Christ to be God, not merely confessed (Vita SS75)"
 - "the Cross as what already broke the old powers and made death despicable - the hinge between this world's Christology and its discipline (Vita SS79)"
 - "his death lived as a pattern for daily self-renunciation as well as argued as doctrine"
-- "the fight once fought against persecutors is fought now against one's own thoughts - the same following, relocated, against an enemy already beaten (Vita SS41)"
+- "Athanasius on Antony: the old fight was against persecutors. Now it is against one's own thoughts. It is the same following, against a beaten foe (Vita 41, 47)"
 - "Christ as presently working, the monk as means and not cause (Vita SS80, SS84)"
 tensions:
 - "a lived, imitative Christology against a stated, defended one - the argued material is real but concentrated almost entirely in one episode (the SS72-80 disputation), against a much larger body of narrative showing what following him cost"

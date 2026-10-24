@@ -2036,3 +2036,9 @@ Fixed now:
 Still open: the record-level defects listed in the Atlas story pass entry (2026-10-17). The old citation "De baptismo I.5.6" stays in `don_Decision_Log.md` as history.
 
 Status: FIXED 2026-10-23/24, awaiting an independent recheck by a separate Opus thread (CLAUDE.md: a blocking finding does not clear by self-certification); fix list: `Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Fix-List.md`.
+
+### OG-47. Independent recheck of the live-reply claim check fixes, 2026-10-24.
+
+Independent recheck, round 1 (`Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Independent-Recheck_Round1.md` (draft PR https://github.com/mchadwick25-droid/CIC-Project/pull/1099)): every fix in this world for the "Live-reply claim check findings re-confirmed" entry (2026-10-23) is confirmed against the vendored sources.
+
+Status: CLOSED for the live-reply claim check findings.
