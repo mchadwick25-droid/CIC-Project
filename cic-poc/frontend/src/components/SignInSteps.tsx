@@ -96,7 +96,7 @@ export function SignInSteps({ onSignedIn }: { onSignedIn: () => void }) {
           <h3>{copy.codeHeading}</h3>
           <p role="status">{copy.codeSent}</p>
           <label htmlFor="account-code">{copy.codeLabel}</label>
-          <input id="account-code" type="text" inputMode="numeric" autoComplete="one-time-code" maxLength={6} value={code} onChange={(e) => setCode(e.target.value)} aria-invalid={error !== null} />
+          <input id="account-code" type="text" inputMode="numeric" autoComplete="one-time-code" maxLength={8} value={code} onChange={(e) => setCode(e.target.value)} aria-invalid={error !== null} />
           <button type="submit" disabled={busy || code.trim() === ''}>{busy ? copy.checking : copy.codeSignIn}</button>
           <button type="button" disabled={busy} onClick={() => void send()}>{copy.newCode}</button>
           <p className="account__small">{copy.junkNote}</p>

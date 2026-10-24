@@ -70,3 +70,23 @@ def test_a_file_made_before_recovery_was_removed_loses_its_recovery_tables(tmp_p
     names = {r[0] for r in store._d.execute("SELECT name FROM sqlite_master WHERE type = 'table'")}
     assert names == {"accounts", "linked_sign_ins", "erased_sessions", "shelf", "account_codes", "recovery_keys", "pending_recoveries", "deletion_ledger", "pending_coupons"}
     store.close()
+
+
+def test_an_older_ephemeral_file_without_the_challenge_order_column_is_opened_and_works(tmp_path):
+    import sqlite3
+    from engine.accounts.store import AccountStore, Challenge
+
+    path = tmp_path / "old-e.db"
+    conn = sqlite3.connect(str(path))
+    conn.executescript(
+        "CREATE TABLE challenges (challenge_id TEXT PRIMARY KEY, kind TEXT NOT NULL, address_hash TEXT NOT NULL,"
+        " account_id TEXT, mac TEXT NOT NULL, expires_at INTEGER NOT NULL, tries INTEGER NOT NULL DEFAULT 0, bound TEXT) WITHOUT ROWID;"
+    )
+    conn.commit()
+    conn.close()
+    store = AccountStore(str(tmp_path / "d.db"), str(path))
+    for i in range(4):
+        store.put_challenge(Challenge(f"c{i}", "sign_in", "h", None, "m", 9999999999, 0, None), keep_live=3)
+    live = {r[0] for r in store._e.execute("SELECT challenge_id FROM challenges")}
+    assert live == {"c1", "c2", "c3"}
+    store.close()
