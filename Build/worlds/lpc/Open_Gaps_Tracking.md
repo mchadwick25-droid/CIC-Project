@@ -1800,3 +1800,13 @@ Logged 2026-10-24.
 - **A resolved item, noted so nobody re-opens it:** the world's own Step 0 surfaced and, with Mark's direct authorization, fixed a genuine boundary breach in the already-built Imperial and Juridical Christianity world's own records (two load-bearing quote records citing *Confessions* material outside IJC's own declared license). Logged in full at `Build/worlds/ijc/Open_Gaps_Tracking.md` item 16; mentioned here only for cross-reference, not reopened. Closed.
 - **Dossier history.** The dossier was written by the source-research thread at commit `009caaf0` (2026-09-21). It then named Petschenig's CSEL 51 to 53 and Ziwsa's Optatus as not yet linked to this world. Petschenig has since been linked (Source Registry rows 214 and 253). Ziwsa's Optatus is still linked only to `donatism.yaml`. The dated header and the "not yet caught" wording were moved here for the handoff narration check (Process V2.0, check 11).
 - **Owner.** The `lpc` build thread.
+
+### OG-59. Phase L1 handoff: passes; what it left for Phase L2 (2026-10-24).
+
+Logged 2026-10-24.
+
+- **All twelve handoff checks and the declaration pass** (`python -m engine.m10.cli handoff lpc`). To get there, Step 0, Doc_01, Doc_02 and the Source Registry changed: 94 quotations in the three documents and 72 in the Registry lost their quotation marks or became italic titles, because they quoted sources the rule does not permit (the world's own documents and logs, corpus-map notes, Step 0 Conclusion and Methodology `.docx` files, modern works not vendored). Four Registry quotations were corrected to the vendored file's own OCR wording (rows 194, 206, 212, 229). The Registry gained a Holdings dispositions section (56 files: 47 out of scope, 9 deferred).
+- **Registry table rows cannot carry a `cic:` address (P2).** The quote checker reads a table with no blank lines between rows as one paragraph, so a `cic:<file>:line<N>` address in one row is tested against every quotation in the block. Rows 194 and 229 quote their vendored files word for word but carry no address. Fix in the checker (one passage per table row), not by reshaping the Registry.
+- **Row 56 is out of date for Monceaux tome VII (P2).** Row 56 says vol. VII was "not requested by either world", but `monceaux_histoire-litteraire-afrique-chretienne-tomes6-7-fra_1922-1923.txt` holds tome VII and this world's corpus map places it as context. The Holdings dispositions section defers it.
+- **Deferred holdings to weigh in Phase L2:** Arnobius and Lactantius (Latin African, inside the 258 to 391 gap, apologetic; bear on OG-54) and Augustine's own *Collatio cum Maximino* (Hippo, 427 to 428).
+- **Owner.** The `lpc` build thread.
