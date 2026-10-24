@@ -1772,3 +1772,13 @@ Logged 2026-10-24.
 - **One P1 each, fixed by the build thread, not yet independently confirmed:** Doc_01 (Round 14: generator scripts `wb_lpc_s21`, `s25`, `s28` still write the silence unqualified; being aligned under the project lead's ruling to keep and clean the scripts) and Doc_02 (Round 37: lines 7 and 13 now state the public-domain scope).
 - **P2 carried for Phase L2:** Doc_04 Round 16 ("one congregation" reads unclearly; Phase 2 voice file line ~49 keeps "every congregation" and an unbounded absence; `wb_lpc_s25.py` old wording); Doc_05 Round 5 (§0.3 sentence; the `s22` generator drops `canon_cells`); Doc_09 Round 11 (the tablet decree "gladio animadverti placet" unrendered; a death clause under an Acta-only heading; "more briefly" now false); Doc_07 Round 4 (Document Log wording; length figure 13%); Doc_08 Round 12 (review count).
 - **Owner.** The `lpc` build thread.
+
+### OG-56. Confirmation recheck of Doc_01 and Doc_02: one P1 left, and two related defects (2026-10-24).
+
+Logged 2026-10-24.
+
+- **Doc_02 (Round 38): Approved to proceed.** The sermon scope matches Doc_01. The 241 cleaned records keep every fact, confidence level, rights claim, citation and scope.
+- **Doc_01 (Round 15), P1 N6.** Two generated lines still say the 258 to 391 gap holds no dated text. These are `wb_lpc_s21.py` world_core Caution 2 ("holds nothing dated inside them") and `wb_lpc_s25.py` force 3B-2 ("the absence of dated Registry rows in an interval"). Doc_02 §7 names rows that do date from the gap: Optatus, the councils, the Codex Theodosianus and the letters of 386. The same defect was fixed in Doc_02 earlier but not here. The doc is at the review cap, so it goes to the project lead.
+- **Seen outside the recheck's scope.** `Doc_09_Story_Inventory.md` line 105 still says "All of Augustine's sermons are inside the world", against the public-domain scope ruling (2026-10-23). Process narration remains in figure, contested_claim, quote, term and voice_craft records and in `lpc.source.augustine-donatist-correspondence.md`, which the generator clean-up did not cover.
+- **P2 carried for Phase L2.** Doc_01 Round 15: N2, N4 (OG-41), N5; the generators match the records in content but not byte for byte. Doc_02 Round 38: a stray ",." in the on-baptism record; the CCSL3 note's "the sharpest single gap in it"; two carried items.
+- **Owner.** The `lpc` build thread.
