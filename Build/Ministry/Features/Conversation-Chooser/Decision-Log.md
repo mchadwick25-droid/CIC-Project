@@ -633,3 +633,9 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **What changed.** Each card now keeps its own height: the carousel no longer stretches the cards to match, and the card's old minimum height is gone. Every card ends 12 pixels below "Flip" at desktop and iPad width, and 10 on a phone. The picture, the text and the "Flip" word are unchanged. Side by side, the cards now differ in height by up to about 40 pixels, in step with their text.
 
 **Checked.** In a headless browser at 1440, 820 and 390 pixels wide, with the card tilt switched off to measure: all eleven cards end the same distance below "Flip". Before and after pictures of the centre card and the shorter cards were shown to Mark. Not checked: Safari on a real phone.
+
+## 2026-10-24 — Wittenberg's back summary: the site text stands (Mark, small projects thread)
+
+**Mark's words.** "use the site text for Wittenberg".
+
+**What changed.** Only `Card-Words/Approved-Card-Words.yaml`, which now reads "This Christian tradition's chief tool was the household catechism", as the site and the recorded clip do. The earlier wording, "This world's chief tool", is dropped. No site, audio or census file changes. Compared by text after collapsing spacing: the two summaries differed in that one phrase and nothing else.

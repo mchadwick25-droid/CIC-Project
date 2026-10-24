@@ -1,0 +1,1 @@
+4. 2026-10-24, Wittenberg back summary (resolves item 2): Mark chose the site text ("use the site text for Wittenberg"). The difference was one phrase: the site says "This Christian tradition's chief tool", the card words said "This world's chief tool". `Approved-Card-Words.yaml` now carries the site text, so the two agree and the clip needs no re-recording.
