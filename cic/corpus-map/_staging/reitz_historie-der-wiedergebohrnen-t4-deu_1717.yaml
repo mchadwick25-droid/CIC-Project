@@ -1,0 +1,11 @@
+source_file: reitz_historie-der-wiedergebohrnen-t4-deu_1717.txt
+assignments:
+- row_id: reitz_historie-der-wiedergebohrnen-t4-deu_1717--historie-der-wiedergebohrnen-iv-theil-1717
+  work: Historie der Wiedergebohrnen, IV. Theil (1717)
+  author: reitz
+  locus: whole part
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: tradition
+  confidence: assigned
+  note: Further conversion narratives from Pietism's own anthology.

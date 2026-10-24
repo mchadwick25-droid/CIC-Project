@@ -1,0 +1,12 @@
+source_file: barclay_apology-for-the-true-christian-divinity_baskerville1765.txt
+assignments:
+- row_id: barclay_apology-for-the-true-christian-divinity_baskerville1765--an-apology-for-the-true-christian-divinity-barclay-1678-1765
+  work: An Apology for the True Christian Divinity (Barclay, 1678; 1765 edition)
+  author: barclay
+  locus: the fifteen Propositions and the dedication
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: assigned
+  note: The Society's systematic theology by its own theologian; the text the floor question is settled
+    from.

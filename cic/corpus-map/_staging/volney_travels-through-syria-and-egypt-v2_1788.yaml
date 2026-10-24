@@ -1,0 +1,25 @@
+source_file: volney_travels-through-syria-and-egypt-v2_1788.txt
+assignments:
+- row_id: volney_travels-through-syria-and-egypt-v2_1788--travels-through-syria-and-egypt-vol-2-volney-1788-the-greek
+  work: 'Travels through Syria and Egypt, vol. 2 (Volney, 1788): the Greek Catholic convents, Mar Hanna
+    al-Shuwayr and its press'
+  author: volney
+  locus: the passage on the Greek Catholic convents in the Druze country and Mar Hanna (about raw scan
+    lines 6670-7200) and the chapter on Arabic printing
+  atlas_ids:
+  - melkite-greek-catholic-church
+  role: context
+  confidence: assigned
+  note: An Enlightenment traveller describing the Melkite Basilians' house, rule and press at first hand
+    in the 1780s; outside, unsympathetic, exact.
+- row_id: volney_travels-through-syria-and-egypt-v2_1788--travels-through-syria-and-egypt-vol-2-volney-1788-the
+  work: 'Travels through Syria and Egypt, vol. 2 (Volney, 1788): the pashaliks and the Christians of Aleppo,
+    Damascus and the coast'
+  author: volney
+  locus: the chapters on the pashaliks
+  atlas_ids:
+  - melkite-greek-catholic-church
+  - orthodoxy-under-the-ottomans-1650-1821
+  role: context
+  confidence: provisional
+  note: The civil setting of both halves of the Antiochian church in the 1780s; provisional for each.

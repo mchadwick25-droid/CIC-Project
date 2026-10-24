@@ -1,0 +1,30 @@
+source_file: channing_sermon-at-the-ordination-of-jared-sparks-baltimore_1819.txt
+authors_ruled:
+  channing:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By William Ellery Channing, Minister of the Church of Christ in
+      Federal Street, Boston''. Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug
+      yet.
+
+      '
+assignments:
+- row_id: channing_sermon-at-the-ordination-of-jared-sparks-baltimore_1819--a-sermon-delivered-at-the-ordination-of-the-rev-jared-sparks
+  work: A Sermon delivered at the Ordination of the Rev. Jared Sparks (1819)
+  author: channing
+  locus: whole work
+  atlas_ids:
+  - american-unitarianism-universalism-consolidations
+  role: tradition
+  confidence: provisional
+  note: The opening text of the consolidation era (1819 onward); provisional pending that world's own
+    build.
+- row_id: channing_sermon-at-the-ordination-of-jared-sparks-baltimore_1819--a-sermon-delivered-at-the-ordination-of-the-rev-jared-sparks-2
+  work: A Sermon delivered at the Ordination of the Rev. Jared Sparks (1819)
+  author: channing
+  locus: whole work
+  atlas_ids:
+  - early-american-unitarians-universalists
+  role: transmission
+  confidence: assigned
+  note: Four years past the window; the public statement of what the window's Unitarian thread had come
+    to hold.

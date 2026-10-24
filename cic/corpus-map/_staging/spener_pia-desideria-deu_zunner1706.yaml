@@ -1,0 +1,11 @@
+source_file: spener_pia-desideria-deu_zunner1706.txt
+assignments:
+- row_id: spener_pia-desideria-deu_zunner1706--pia-desideria-frankfurt-1706-printing
+  work: Pia Desideria, Frankfurt 1706 printing
+  author: spener
+  locus: whole work
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: tradition
+  confidence: assigned
+  note: Second witness to the text, close to Spener's lifetime printings; rough OCR.

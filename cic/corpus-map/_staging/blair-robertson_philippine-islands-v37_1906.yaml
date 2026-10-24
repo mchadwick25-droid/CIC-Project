@@ -1,0 +1,15 @@
+source_file: blair-robertson_philippine-islands-v37_1906.txt
+assignments:
+- row_id: blair-robertson_philippine-islands-v37_1906--the-philippine-islands-vol-xxxvii-1669-1676-the-documents
+  work: 'The Philippine Islands, vol. XXXVII (1669-1676): the documents'
+  author: blair-robertson
+  locus: all four documents
+  atlas_ids:
+  - philippine-catholicism-era-8
+  role: tradition
+  confidence: assigned
+  note: 'Friars'', bishops'' and officials'' own documents in the editors'' English translation; the colonial
+    church''s voice, not Filipino lay Christians''. Quotations are the translators'' wording and need
+    the Spanish where the corpus has it.
+
+    '

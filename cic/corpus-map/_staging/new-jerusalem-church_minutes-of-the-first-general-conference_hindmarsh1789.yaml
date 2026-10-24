@@ -1,0 +1,19 @@
+source_file: new-jerusalem-church_minutes-of-the-first-general-conference_hindmarsh1789.txt
+authors_ruled:
+  new-jerusalem-church:
+    kind: metadata-omission
+    evidence: 'The minutes are the Conference''s own act, with no personal author; the host names ''New
+      Jerusalem Church'' as creator. An institutional slug for the New Church of 1787 onward. Plain-text
+      vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: new-jerusalem-church_minutes-of-the-first-general-conference_hindmarsh1789--minutes-of-a-general-conference-of-the-members-of-the-new
+  work: Minutes of a General Conference of the Members of the New Church (1789)
+  author: new-jerusalem-church
+  locus: whole document
+  atlas_ids:
+  - swedenborgian-new-church
+  role: tradition
+  confidence: assigned
+  note: The church's founding institutional record; the separation from the 'Old Church' in its own words.

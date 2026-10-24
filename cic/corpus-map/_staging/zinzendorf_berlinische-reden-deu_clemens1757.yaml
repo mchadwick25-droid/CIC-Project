@@ -1,0 +1,11 @@
+source_file: zinzendorf_berlinische-reden-deu_clemens1757.txt
+assignments:
+- row_id: zinzendorf_berlinische-reden-deu_clemens1757--berlinische-reden-berlin-discourses-of-1738-author-revised
+  work: Berlinische Reden (Berlin discourses of 1738; author-revised edition, 1757)
+  author: zinzendorf
+  locus: whole work
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: tradition
+  confidence: assigned
+  note: The founder's own German, revised in his own hand; the original behind the English discourses.

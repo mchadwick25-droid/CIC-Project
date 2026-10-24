@@ -1,0 +1,20 @@
+source_file: swedenborg_vera-christiana-religio-lat_1771.txt
+authors_ruled:
+  swedenborg:
+    kind: metadata-omission
+    evidence: 'The title page reads ''ab Emanuele Swedenborg, Domini Jesu Christi servo''. Plain-text
+      vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: swedenborg_vera-christiana-religio-lat_1771--vera-christiana-religio-1771
+  work: Vera Christiana Religio (1771)
+  author: swedenborg
+  locus: whole work
+  atlas_ids:
+  - swedenborgian-new-church
+  role: tradition
+  confidence: assigned
+  note: The founding revelatory text as the church received it; the census names it for the floor question.
+    Swedenborg died in 1772, before the church formed, so this is the founder's corpus, not the church's
+    own record.

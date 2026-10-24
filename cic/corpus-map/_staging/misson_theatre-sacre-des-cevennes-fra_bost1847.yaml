@@ -1,0 +1,22 @@
+source_file: misson_theatre-sacre-des-cevennes-fra_bost1847.txt
+assignments:
+- row_id: misson_theatre-sacre-des-cevennes-fra_bost1847--le-theatre-sacre-des-cevennes-london-1707-the-depositions
+  work: Le Théâtre sacré des Cévennes (London, 1707), the depositions
+  author: misson
+  locus: Misson's preface and the depositions; Bost's 1847 preface and notes excluded
+  atlas_ids:
+  - camisard-prophetism
+  role: tradition
+  confidence: assigned
+  note: The prophets and fighters testify under oath to what they saw and felt; Misson gathered them as
+    advocacy, which the depositions themselves make plain.
+- row_id: misson_theatre-sacre-des-cevennes-fra_bost1847--le-theatre-sacre-des-cevennes-london-1707-the-depositions-2
+  work: Le Théâtre sacré des Cévennes (London, 1707), the depositions
+  author: misson
+  locus: the depositions
+  atlas_ids:
+  - church-of-the-desert-huguenots
+  role: tradition
+  confidence: provisional
+  note: The Camisard prophets belong to the opening decades of the Desert; the Desert's own leaders later
+    disowned the inspirations, so the fit is real but contested.

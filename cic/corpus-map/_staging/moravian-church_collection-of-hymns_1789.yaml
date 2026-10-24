@@ -1,0 +1,12 @@
+source_file: moravian-church_collection-of-hymns_1789.txt
+assignments:
+- row_id: moravian-church_collection-of-hymns_1789--a-collection-of-hymns-for-the-use-of-the-protestant-church
+  work: A Collection of Hymns for the Use of the Protestant Church of the United Brethren (1789)
+  author: moravian-church
+  locus: whole work
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: tradition
+  confidence: assigned
+  note: The settled English hymnal of the later window; its preface records the church's own editing of
+    its earlier song.

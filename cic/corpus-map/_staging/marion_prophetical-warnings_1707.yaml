@@ -1,0 +1,11 @@
+source_file: marion_prophetical-warnings_1707.txt
+assignments:
+- row_id: marion_prophetical-warnings_1707--prophetical-warnings-of-elias-marion-english-1707
+  work: Prophetical Warnings of Elias Marion (English, 1707)
+  author: marion
+  locus: the dated warnings
+  atlas_ids:
+  - camisard-prophetism
+  role: tradition
+  confidence: assigned
+  note: The same warnings in contemporary English; check readings against the French before quoting.

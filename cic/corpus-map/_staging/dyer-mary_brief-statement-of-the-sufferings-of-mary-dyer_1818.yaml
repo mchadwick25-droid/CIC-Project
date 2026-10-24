@@ -1,0 +1,18 @@
+source_file: dyer-mary_brief-statement-of-the-sufferings-of-mary-dyer_1818.txt
+authors_ruled:
+  dyer-mary:
+    kind: metadata-omission
+    evidence: 'The title page reads ''written by herself'', and the petition is signed ''Mary Dyer, Enfield,
+      June 6, 1818''. Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: dyer-mary_brief-statement-of-the-sufferings-of-mary-dyer_1818--a-brief-statement-of-the-sufferings-of-mary-dyer-1818
+  work: A Brief Statement of the Sufferings of Mary Dyer (1818)
+  author: dyer-mary
+  locus: whole work
+  atlas_ids:
+  - shakers
+  role: context
+  confidence: assigned
+  note: Hostile ex-member witness on the separation of families; three years after the window.

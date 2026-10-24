@@ -1,0 +1,11 @@
+source_file: baldassari_enlevement-et-captivite-de-pie-vi-fra_1839.txt
+assignments:
+- row_id: baldassari_enlevement-et-captivite-de-pie-vi-fra_1839--histoire-de-l-enlevement-et-de-la-captivite-de-pie-vi-french
+  work: Histoire de l'enlèvement et de la captivité de Pie VI (French, 1839)
+  author: baldassari
+  locus: the history; the translator's précis and preface as context
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: tradition
+  confidence: assigned
+  note: The pope's last journey told by a witness from his own side; in translation, so quote with care.

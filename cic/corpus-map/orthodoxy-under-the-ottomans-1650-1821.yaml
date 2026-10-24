@@ -16,6 +16,25 @@ works:
     he saw, with his own opinions: the outside witness beside Rycaut and Smith. Clean OCR;
     Covel''s own spelling kept.'
   source_file: dallam-covel_early-voyages-and-travels-in-the-levant_bent1893.txt
+- row_id: covel_some-account-of-the-present-greek-church_1722--some-account-of-the-present-greek-church-covel-1722
+  work: Some Account of the Present Greek Church (Covel, 1722)
+  author: covel
+  locus: whole work
+  role: context
+  confidence: assigned
+  note: A Protestant chaplain's eyewitness and polemic on the Greek church's teaching after
+    1672; hostile, informed, and in the window.
+  source_file: covel_some-account-of-the-present-greek-church_1722.txt
+- row_id: curzon_visits-to-monasteries-in-the-levant_1849--visits-to-monasteries-in-the-levant-1849-the-greek
+  work: 'Visits to Monasteries in the Levant (1849): the Greek monasteries of the Meteora,
+    Albania and Constantinople'
+  author: curzon
+  locus: the parts outside Athos dealing with Greek Orthodox houses
+  role: context
+  confidence: provisional
+  note: Greek monastic life under Ottoman rule in the 1830s, just after that world's window;
+    provisional.
+  source_file: curzon_visits-to-monasteries-in-the-levant_1849.txt
 - row_id: sathas_mesaionike-bibliotheke-v3-grc_1872--dapontes-chronographos-and-historikos-katalogos
   work: Kaisarios Dapontes, Chronographos (section A) and Historikos Katalogos andron episemon,
     1700-1784 (section B), Greek
@@ -120,6 +139,54 @@ works:
   note: Placed on the entry's window (1650-1821). Greek liturgical book; its year rests on
     the host catalogue (front matter suggests the 1830s), so provisional.
   source_file: horologion-to-mega_venice-edition-grc_koutloumousianos1851.txt
+- row_id: lettres-edifiantes_memoires-du-levant-t3-fra_1780--memoires-du-levant-tome-iii-the-crimea-and-circassia-letters
+  work: 'Mémoires du Levant, tome III: the Crimea and Circassia letters'
+  author: lettres-edifiantes
+  locus: the letters on the Crimean mission, the Circassian Tatars and the Nogai journey
+  role: context
+  confidence: needs-ruling
+  note: Jesuit reports from the Black Sea lands; whether any sibling entry wants them is not
+    decided.
+  source_file: lettres-edifiantes_memoires-du-levant-t3-fra_1780.txt
+- row_id: lucaris_confessio-and-synodal-censures-lat_1645--confessio-christianae-fidei-latin-cyril-lucaris-3
+  work: Confessio Christianae fidei (Latin), Cyril Lucaris
+  author: lucaris
+  locus: the Confession of Faith from about file line 367 to 2360; publisher's prefaces at
+    lines 39-150
+  role: context
+  confidence: assigned
+  note: 'Latin text of the Lucaris Confession that the 1672 Synod of Jerusalem answers chapter
+    by chapter in the vendored Robertson translation of the Synod''s acts. The text argued
+    against at this entry''s opening; Lucaris himself died in 1638, before the window.
+
+    '
+  source_file: lucaris_confessio-and-synodal-censures-lat_1645.txt
+- row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--confession-of-cyril-lucaris-greek-with-latin-3
+  work: Confession of Cyril Lucaris (Greek with Latin)
+  author: lucaris
+  locus: from about file line 5636 (running heads 'Cyrilli Confessio') to about 7838
+  role: context
+  confidence: assigned
+  note: 'The Lucaris Confession (1629) in Greek and Latin: the text the Synod of Jerusalem
+    of 1672 condemns chapter by chapter. Context for this entry''s own opening act, not its
+    voice; its author died in 1638.
+
+    '
+  source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
+- row_id: dositheus_acts-and-decrees-synod-jerusalem_robertson1899--the-confession-of-cyril-lucar-eighteen-chapters-and-four-3
+  work: The Confession of Cyril Lucar (eighteen chapters and four questions), as printed in
+    Robertson's appendix
+  author: lucaris
+  locus: Appendix from file line 6841, the Confession from 6845, Chapter I at 6868, Chapter
+    XVIII at 7751
+  role: context
+  confidence: assigned
+  note: 'The Lucar Confession as Robertson prints it in the appendix to the 1672 Synod''s
+    acts: the text the Synod''s own decrees answer one by one. Context for the entry''s opening
+    act, in English.
+
+    '
+  source_file: dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt
 - row_id: sathas_mesaionike-bibliotheke-v3-grc_1872--makraios-hypomnemata-ekklesiastikes-historias
   work: Sergios Makraios, Hypomnemata ekklesiastikes historias (memoirs of church history,
     1750-1800), Greek
@@ -134,6 +201,46 @@ works:
 
     '
   source_file: sathas_mesaionike-bibliotheke-v3-grc_1872.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911--documents-on-the-orthodox-patriarch-sylvester-and-the
+  work: Documents on the Orthodox patriarch Sylvester and the Ottoman authorities' measures
+    against the Catholic party (Mansi 46)
+  author: mansi
+  locus: the passages and documents of 1724-1760s reporting Sylvester's actions and the Porte's
+    orders
+  role: context
+  confidence: provisional
+  note: The Orthodox side of the split seen through Catholic and Roman reports; context for
+    Ottoman-era Orthodoxy, provisional and one-sided.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt
+- row_id: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--the-orthodox-confession-confessio-orthodoxa-greek-with-latin-4
+  work: The Orthodox Confession (Confessio Orthodoxa), Greek with Latin
+  author: mogila
+  locus: from about file line 7839; Pars prima (Faith) at 9190, Pars secunda (Hope) at 23757,
+    Pars tertia (Charity) at 28672
+  role: tradition
+  confidence: assigned
+  note: 'Greek and Latin text of the Orthodox Confession as received by the Synod of Jerusalem
+    (1672), whose acts stand in this same volume; the confession the Greek church held through
+    this window. Second witness for exact Greek because of the two-column scan layout.
+
+    '
+  source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
+- row_id: mogila_orthodox-confession_overbeck1898--the-orthodox-confession-of-the-catholic-and-apostolic-4
+  work: The Orthodox Confession of the Catholic and Apostolic Eastern Church (Confessio Orthodoxa),
+    English version
+  author: mogila
+  locus: Part I (Faith) from file line 472, Part II (Hope) from 4036, Part III (Charity) from
+    5444; Robertson's notice (line 107) and Overbeck's preface (line 145) are editorial
+  role: tradition
+  confidence: assigned
+  note: 'The Orthodox Confession approved at Jassy (1642) and by the four patriarchs; the
+    Synod of Jerusalem of 1672, which opens this entry''s window, receives it as the Eastern
+    Church''s confession (Robertson''s 1899 translation of the Synod''s acts, vendored, carries
+    that reception). The confession the Greek church taught and printed through this whole
+    window. English version of 1898.
+
+    '
+  source_file: mogila_orthodox-confession_overbeck1898.txt
 - row_id: nikodemos-hagiorite_pedalion-canons-grc_1886--pedalion-the-rudder-the-holy-and-divine-canons-with-the-2
   work: 'Pedalion (the Rudder): the holy and divine canons with the commentary of Agapios
     and Nikodemos, Greek'
@@ -165,6 +272,47 @@ works:
   note: Placed on the entry's window (1650-1821). Same reasoning as volume 1; second witness
     only.
   source_file: nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt
+- row_id: paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914--istoriia-slavianobolgarskaia-paisii-of-hilendar-1762
+  work: Istoriia slavianobolgarskaia (Paisii of Hilendar, 1762)
+  author: paisii-hilendarski
+  locus: Paisii's prefaces and chapters; Ivanov's editorial matter excluded
+  role: tradition
+  confidence: provisional
+  note: An Athonite monk of the Ottoman Orthodox church writing against Greek dominance of
+    the Slav flocks; provisional because his book is also the founding text of a national
+    revival that belongs partly to later Balkan worlds.
+  source_file: paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914.txt
+- row_id: gedeon_kanonikai-diataxeis-v1-grc_1888--patriarchal-ordinances-letters-and-synodal-rulings-of
+  work: Patriarchal ordinances, letters and synodal rulings of Constantinople, 1650-1821 (Gedeon,
+    Kanonikai diataxeis I)
+  author: patriarchate-of-constantinople
+  locus: the acts dated from the 1650s to 1821, the greater part of the volume (for example
+    the act of 1676 near raw scan line 2373, the acts of 1789-1797 from about line 10600,
+    Gregory V's of 1798 near line 16657)
+  role: tradition
+  confidence: assigned
+  note: 'The Great Church legislating for its flock under the sultans: marriage, dowry, penance,
+    monastic order and clergy discipline in the patriarchs'' own decrees.'
+  source_file: gedeon_kanonikai-diataxeis-v1-grc_1888.txt
+- row_id: paul-of-aleppo_travels-of-macarius-v1_belfour1836--the-travels-of-macarius-paul-of-aleppo-vol-1-aleppo-to
+  work: 'The Travels of Macarius (Paul of Aleppo), vol. 1: Aleppo to Constantinople, Moldavia
+    and Wallachia'
+  author: paul-of-aleppo
+  locus: Books I-IV; the translator's dedication excluded
+  role: tradition
+  confidence: assigned
+  note: An Orthodox archdeacon describing the Orthodox millet's patriarchate, bishops, Phanariot-era
+    princes and worship from inside, in the early 1650s.
+  source_file: paul-of-aleppo_travels-of-macarius-v1_belfour1836.txt
+- row_id: paul-of-aleppo_travels-of-macarius-v2_belfour1836--the-travels-of-macarius-paul-of-aleppo-vol-2-the-return
+  work: 'The Travels of Macarius (Paul of Aleppo), vol. 2: the return through the Cossack
+    lands and Wallachia'
+  author: paul-of-aleppo
+  locus: Books XV-XVI and the Wallachian passages
+  role: tradition
+  confidence: assigned
+  note: The Orthodox principalities under Ottoman suzerainty seen by a Syrian Orthodox churchman.
+  source_file: paul-of-aleppo_travels-of-macarius-v2_belfour1836.txt
 - row_id: rycaut_present-state-greek-armenian-churches_1679--the-present-state-of-the-greek-and-armenian-churches-anno-2
   work: The Present State of the Greek and Armenian Churches, Anno Christi 1678
   author: rycaut
@@ -199,6 +347,15 @@ works:
 
     '
   source_file: sathas_mesaionike-bibliotheke-v3-grc_1872.txt
+- row_id: serpos_dissertazione-due-dubbi-armeni-cattolici-ita_1783--dissertazione-the-catholic-armenians-as-loyal-ottoman
+  work: Dissertazione, the Catholic Armenians as loyal Ottoman subjects
+  author: serpos
+  locus: the dedicatory letter
+  role: context
+  confidence: provisional
+  note: The same millet system seen from another Christian community; provisional, since the
+    work concerns Armenians, not the Greek Orthodox.
+  source_file: serpos_dissertazione-due-dubbi-armeni-cattolici-ita_1783.txt
 - row_id: smith-thomas_account-of-the-greek-church_1680--an-account-of-the-greek-church-as-to-its-doctrine-and-rites-2
   work: An Account of the Greek Church, as to Its Doctrine and Rites of Worship, with an account
     of the Greek church under Cyrillus Lucaris
@@ -222,6 +379,57 @@ works:
 
     '
   source_file: smith-thomas_de-graecae-ecclesiae-hodierno-statu-lat_halma1698.txt
+- row_id: lucaris_confessio-and-synodal-censures-lat_1645--synodal-censures-of-the-confession-of-lucaris-by-cyril-of-2
+  work: Synodal Censures of the Confession of Lucaris, by Cyril of Berrhoea (1639) and Parthenius
+    (1642), Latin
+  author: synodal-censures-of-lucaris
+  locus: Censure of Cyril of Berrhoea from about file line 2369; Censure of Parthenius from
+    about line 3419
+  role: context
+  confidence: assigned
+  note: 'The synodal censures of 1639 and 1642 that the Synod of Jerusalem of 1672 builds
+    on; the condemnation''s own earlier stages, in Latin.
+
+    '
+  source_file: lucaris_confessio-and-synodal-censures-lat_1645.txt
+- row_id: tournefort_voyage-into-the-levant-v2_1718--a-voyage-into-the-levant-vol-ii-constantinople-and-georgia
+  work: 'A Voyage into the Levant, vol. II: Constantinople and Georgia'
+  author: tournefort
+  locus: the opening letters on Constantinople and the Georgian letters
+  role: context
+  confidence: provisional
+  note: The same traveller on the Ottoman capital and on Georgian Christians; provisional,
+    not read for that entry.
+  source_file: tournefort_voyage-into-the-levant-v2_1718.txt
+- row_id: volney_travels-through-syria-and-egypt-v2_1788--travels-through-syria-and-egypt-vol-2-volney-1788-the
+  work: 'Travels through Syria and Egypt, vol. 2 (Volney, 1788): the pashaliks and the Christians
+    of Aleppo, Damascus and the coast'
+  author: volney
+  locus: the chapters on the pashaliks
+  role: context
+  confidence: provisional
+  note: The civil setting of both halves of the Antiochian church in the 1780s; provisional
+    for each.
+  source_file: volney_travels-through-syria-and-egypt-v2_1788.txt
+- row_id: walsh_residence-at-constantinople-v1_1836--a-residence-at-constantinople-vol-1-walsh-1836-the
+  work: 'A Residence at Constantinople, vol. 1 (Walsh, 1836): the Patriarchate and the events
+    of 1821'
+  author: walsh
+  locus: the chapters on the Patriarchate, the pastoral address and anathema, and the execution
+    of the Patriarch and bishops
+  role: context
+  confidence: assigned
+  note: The British chaplain's account of the millet church's last act in this window, from
+    the city itself.
+  source_file: walsh_residence-at-constantinople-v1_1836.txt
+- row_id: walsh_residence-at-constantinople-v2_1836--a-residence-at-constantinople-vol-2-walsh-1836-2
+  work: A Residence at Constantinople, vol. 2 (Walsh, 1836)
+  author: walsh
+  locus: passages looking back to 1821 and the Patriarchate
+  role: context
+  confidence: provisional
+  note: Retrospective passages on the 1821 events; provisional.
+  source_file: walsh_residence-at-constantinople-v2_1836.txt
 - row_id: williams-george_orthodox-church-of-the-east-in-the-eighteenth-century_1868--the-correspondence-between-the-eastern-patriarchs-and-the
   work: The correspondence between the Eastern Patriarchs and the Nonjuring bishops, 1716-1725,
     in English

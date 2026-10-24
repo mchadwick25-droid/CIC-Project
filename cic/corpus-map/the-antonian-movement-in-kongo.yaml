@@ -17,3 +17,110 @@ works:
 
     '
   source_file: paiva-manso_historia-do-congo-documentos-por_1877.txt
+- row_id: pinkerton_general-collection-voyages-and-travels-v16_1814--a-curious-and-exact-account-of-a-voyage-to-congo-by-angelo
+  work: A Curious and Exact Account of a Voyage to Congo, by Angelo and Carli (English of
+    1704, in Pinkerton XVI)
+  author: carli
+  locus: '''Voyage to Congo by Angelo and Carli'', from the contents entry and its running
+    heads'
+  role: context
+  confidence: assigned
+  note: 'English version of the 1671 Italian vendored beside it; for reading, not for quotation
+    against the original.
+
+    '
+  source_file: pinkerton_general-collection-voyages-and-travels-v16_1814.txt
+- row_id: carli_viaggio-nel-regno-del-congo-ita_guattini1671--viaggio-nel-regno-del-congo-1671-carli-s-narrative
+  work: Viaggio nel regno del Congo (1671), Carli's narrative
+  author: carli
+  locus: Carli's narrative after Guattini's death
+  role: context
+  confidence: assigned
+  note: 'Capuchin eyewitness to the Kongo church of the late 1660s: baptisms, the court at
+    Sao Salvador and the province of Bamba. Outside witness.
+
+    '
+  source_file: carli_viaggio-nel-regno-del-congo-ita_guattini1671.txt
+- row_id: cavazzi_istorica-descrizione-tre-regni-congo-matamba-angola-ita_alamandini1687--istorica-descrizione-de-tre-regni-congo-matamba-et-angola
+  work: Istorica descrizione de' tre' regni Congo, Matamba, et Angola (1687)
+  author: cavazzi
+  locus: books one to seven; the passages on Kongo, the Capuchin missions and Kongo religion
+  role: context
+  confidence: assigned
+  note: 'A Capuchin witness from outside Kongo society, two generations before 1704: the mission
+    order whose men later judged Beatriz, describing the Kongo church and the practices the
+    friars fought. Hostile pen on Kongo religion; read against the grain.
+
+    '
+  source_file: cavazzi_istorica-descrizione-tre-regni-congo-matamba-angola-ita_alamandini1687.txt
+- row_id: carli_viaggio-nel-regno-del-congo-ita_guattini1671--viaggio-nel-regno-del-congo-1671-the-joint-part-of-the
+  work: Viaggio nel regno del Congo (1671), the joint part of the narrative
+  author: guattini
+  locus: the opening part of the narrative, before Carli writes alone
+  role: context
+  confidence: assigned
+  note: 'The co-author''s share of the narrative; same mission, same outside view.
+
+    '
+  source_file: carli_viaggio-nel-regno-del-congo-ita_guattini1671.txt
+- row_id: lopes_report-of-the-kingdom-of-congo_hutchinson1881--a-report-of-the-kingdom-of-congo-1591-english-of-1881
+  work: A Report of the Kingdom of Congo (1591), English of 1881
+  author: lopes
+  locus: Books one and two; the chapters on the kings and the coming of Christianity
+  role: antecedent
+  confidence: provisional
+  note: 'The founding narrative of Kongo Christianity as told in the 1580s; placed on the
+    movement''s lineage, not on a reading that the movement drew on it. Translator''s wording.
+
+    '
+  source_file: lopes_report-of-the-kingdom-of-congo_hutchinson1881.txt
+- row_id: pinkerton_general-collection-voyages-and-travels-v16_1814--a-voyage-to-congo-and-several-other-countries-chiefly-in
+  work: A Voyage to Congo and several other countries chiefly in Southern Africk, by Merolla
+    (English of 1704, in Pinkerton XVI)
+  author: merolla
+  locus: '''Merolla''s Voyage to Congo'', under its own running heads'
+  role: context
+  confidence: assigned
+  note: 'English version of the 1692 Italian vendored beside it; the anonymous English translator''s
+    wording, not Merolla''s.
+
+    '
+  source_file: pinkerton_general-collection-voyages-and-travels-v16_1814.txt
+- row_id: merolla_breve-e-succinta-relatione-viaggio-congo-ita_piccardo1692--breve-e-succinta-relatione-del-viaggio-nel-regno-di-congo
+  work: Breve, e succinta relatione del viaggio nel regno di Congo (1692)
+  author: merolla
+  locus: both parts
+  role: context
+  confidence: assigned
+  note: 'A missionary eyewitness to Kongo Christianity twenty years before the movement: the
+    civil-war kingdom, the friars'' relations with Soyo, and the popular practice they condemned.
+    Outside witness, hostile to Kongo religion.
+
+    '
+  source_file: merolla_breve-e-succinta-relatione-viaggio-congo-ita_piccardo1692.txt
+- row_id: pinkerton_general-collection-voyages-and-travels-v16_1814--history-of-loango-kakongo-and-other-kingdoms-in-africa-by
+  work: History of Loango, Kakongo, and other Kingdoms in Africa, by Proyart (English, in
+    Pinkerton XVI)
+  author: proyart
+  locus: '''History of Loango, Kakongo'' and its chapters'
+  role: context
+  confidence: provisional
+  note: 'A French mission of the 1760s to the coastal kingdoms north of Kongo; outside the
+    movement''s window and place, kept as a later outside witness to Kongo-region religion.
+    Needs a reader to confirm what it says of Kongo Christianity.
+
+    '
+  source_file: pinkerton_general-collection-voyages-and-travels-v16_1814.txt
+- row_id: zucchelli_missions-und-reise-beschreibung-nach-congo-deu_1715--missions-und-reise-beschreibung-nach-congo-german-1715
+  work: Missions- und Reise-Beschreibung nach Congo (German 1715; Italian 1712)
+  author: zucchelli
+  locus: the twenty relations; especially the later relations on Soyo, the war for the kingdom
+    and Pedro IV
+  role: context
+  confidence: assigned
+  note: 'A Capuchin eyewitness of 1698 to 1704, the closest contemporary in print: the divided
+    kingdom and the restoration question that the movement took up. No mention of Beatriz
+    found in the scan. German translation, not the Italian original.
+
+    '
+  source_file: zucchelli_missions-und-reise-beschreibung-nach-congo-deu_1715.txt

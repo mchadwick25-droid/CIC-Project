@@ -1,0 +1,21 @@
+source_file: spiritual-regulation_dukhovnyi-reglament-rus_sinodalnaia-tipografiia1856.txt
+assignments:
+- row_id: spiritual-regulation_dukhovnyi-reglament-rus_sinodalnaia-tipografiia1856--1721-with-the-1722
+  work: Духовный регламент (1721) with the Прибавление (1722)
+  author: spiritual-regulation
+  locus: whole text
+  atlas_ids:
+  - russian-church-nikon-to-holy-synod
+  role: tradition
+  confidence: assigned
+  note: The founding law of the Synodal church in its own language and its own press.
+- row_id: spiritual-regulation_dukhovnyi-reglament-rus_sinodalnaia-tipografiia1856--1721-with-the-1722-2
+  work: Духовный регламент (1721) with the Прибавление (1722)
+  author: spiritual-regulation
+  locus: whole text
+  atlas_ids:
+  - russian-church-synodal-century
+  role: tradition
+  confidence: provisional
+  note: The Regulation stayed in force until 1917; the 1856 reprint is the Synodal century's own; provisional
+    for that world.

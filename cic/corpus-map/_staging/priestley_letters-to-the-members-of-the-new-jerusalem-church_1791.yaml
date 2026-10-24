@@ -1,0 +1,38 @@
+source_file: priestley_letters-to-the-members-of-the-new-jerusalem-church_1791.txt
+authors_ruled:
+  priestley:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By Joseph Priestley, LL.D. F.R.S. &c.''. Plain-text vendored file,
+      so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: priestley_letters-to-the-members-of-the-new-jerusalem-church_1791--letters-to-the-members-of-the-new-jerusalem-church-1791
+  work: Letters to the Members of the New Jerusalem Church (1791)
+  author: priestley
+  locus: whole work
+  atlas_ids:
+  - swedenborgian-new-church
+  role: context
+  confidence: assigned
+  note: The hostile outside witness the New Church answered; a Unitarian reading of its doctrine of God.
+- row_id: priestley_letters-to-the-members-of-the-new-jerusalem-church_1791--letters-to-the-members-of-the-new-jerusalem-church-1791-2
+  work: Letters to the Members of the New Jerusalem Church (1791)
+  author: priestley
+  locus: whole work
+  atlas_ids:
+  - early-american-unitarians-universalists
+  role: tradition
+  confidence: provisional
+  note: Priestley's own Unitarian case against a one-person Christology of a different kind; he emigrated
+    to Pennsylvania in 1794. Provisional, since his English writings belong as much to English dissent.
+- row_id: priestley_letters-to-the-members-of-the-new-jerusalem-church_1791--letters-to-the-members-of-the-new-jerusalem-church-1791-3
+  work: Letters to the Members of the New Jerusalem Church (1791)
+  author: priestley
+  locus: whole work
+  atlas_ids:
+  - english-old-dissent
+  role: tradition
+  confidence: provisional
+  note: Priestley wrote as minister of the New Meeting, Birmingham; provisional pending a ruling on where
+    English Unitarianism sits.

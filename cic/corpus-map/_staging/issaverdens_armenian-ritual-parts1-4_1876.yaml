@@ -1,0 +1,13 @@
+source_file: issaverdens_armenian-ritual-parts1-4_1876.txt
+assignments:
+- row_id: issaverdens_armenian-ritual-parts1-4_1876--the-armenian-ritual-parts-i-iv-liturgy-sacraments-ordinal
+  work: The Armenian Ritual, Parts I-IV (liturgy, sacraments, ordinal, rites and calendar)
+  author: issaverdens
+  locus: whole work
+  atlas_ids:
+  - armenian-christianity-era-8
+  - armenian-christianity-zartonk
+  role: tradition
+  confidence: provisional
+  note: The rite in use, translated and explained by a Mechitarist; provisional because the translation
+    is from the 1870s and the explanatory paragraphs carry San Lazzaro's Catholic reading.

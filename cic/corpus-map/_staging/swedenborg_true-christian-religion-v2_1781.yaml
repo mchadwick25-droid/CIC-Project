@@ -1,0 +1,11 @@
+source_file: swedenborg_true-christian-religion-v2_1781.txt
+assignments:
+- row_id: swedenborg_true-christian-religion-v2_1781--true-christian-religion-vol-ii-english-1781
+  work: True Christian Religion, vol. II (English, 1781)
+  author: swedenborg
+  locus: whole volume
+  atlas_ids:
+  - swedenborgian-new-church
+  role: tradition
+  confidence: assigned
+  note: The chapters on the sacraments and the coming of the New Church, in the readers' English.

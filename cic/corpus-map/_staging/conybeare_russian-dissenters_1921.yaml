@@ -1,0 +1,12 @@
+source_file: conybeare_russian-dissenters_1921.txt
+assignments:
+- row_id: conybeare_russian-dissenters_1921--russian-dissenters-conybeare-1921
+  work: Russian Dissenters (Conybeare, 1921)
+  author: conybeare
+  locus: Book I, the Old Believers
+  atlas_ids:
+  - the-old-believers
+  role: context
+  confidence: assigned
+  note: An English scholar's account of 1921 with his own translations of passages; context, never the
+    sources' voice.

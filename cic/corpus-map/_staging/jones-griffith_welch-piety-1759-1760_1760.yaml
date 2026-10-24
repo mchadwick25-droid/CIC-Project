@@ -1,0 +1,12 @@
+source_file: jones-griffith_welch-piety-1759-1760_1760.txt
+assignments:
+- row_id: jones-griffith_welch-piety-1759-1760_1760--welch-piety-1759-1760-the-report-and-the-clergy-s
+  work: 'Welch Piety, 1759-1760: the report and the clergy''s certificates'
+  author: jones-griffith
+  locus: whole work
+  atlas_ids:
+  - the-welsh-revival-tradition
+  role: antecedent
+  confidence: provisional
+  note: Griffith Jones's schools prepared the reading public of the revival and were run alongside it;
+    provisional as antecedent until the world's documents decide how much of his work belongs inside it.

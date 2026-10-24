@@ -15,6 +15,18 @@ works:
   note: Missionary description of a people before and during conversion, as a comparison case
     for the mission-born entry; placed on genre and window.
   source_file: blair-robertson_philippine-islands-v07_1903.txt
+- row_id: cavazzi_istorica-descrizione-tre-regni-congo-matamba-angola-ita_alamandini1687--istorica-descrizione-de-tre-regni-congo-matamba-et-angola-2
+  work: Istorica descrizione de' tre' regni Congo, Matamba, et Angola (1687)
+  author: cavazzi
+  locus: the books on Kongo and the Capuchin arrival of 1645 to 1650
+  role: context
+  confidence: provisional
+  note: 'Cavazzi''s account reaches back to the first Capuchin years in Kongo, inside the
+    earlier world''s window ending 1650; placed on window and place, not on a reading for
+    that entry.
+
+    '
+  source_file: cavazzi_istorica-descrizione-tre-regni-congo-matamba-angola-ita_alamandini1687.txt
 - row_id: chirino_relacion-islas-filipinas-spa_manila1890--chirino-relacion-spanish-3
   work: Relacion de las Islas Filipinas y de lo que en ellas han trabajado los Padres de la
     Compania de Jesus (Roma 1604), Manila 1890 reprint
@@ -70,6 +82,17 @@ works:
     and script) as a sibling case for the mission-born entry; placed on that likeness, not
     read against that entry's own sources.
   source_file: doctrina-christiana_manila-1593-tgl-spa_wolf1947.txt
+- row_id: lopes_report-of-the-kingdom-of-congo_hutchinson1881--a-report-of-the-kingdom-of-congo-1591-english-of-1881-2
+  work: A Report of the Kingdom of Congo (1591), English of 1881
+  author: lopes
+  locus: Books one and two
+  role: context
+  confidence: provisional
+  note: 'Inside the earlier world''s window and place; an outside description of the Kongo
+    church of the 1580s. Placed on window and place, not on a reading for that entry.
+
+    '
+  source_file: lopes_report-of-the-kingdom-of-congo_hutchinson1881.txt
 - row_id: morga_sucesos-islas-filipinas_blair-robertson1907--morga-sucesos-english-2
   work: History of the Philippine Islands (Morga's Sucesos de las Islas Filipinas, 1609),
     Blair and Robertson's English

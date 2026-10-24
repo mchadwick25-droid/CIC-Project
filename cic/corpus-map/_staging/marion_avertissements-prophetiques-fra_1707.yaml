@@ -1,0 +1,11 @@
+source_file: marion_avertissements-prophetiques-fra_1707.txt
+assignments:
+- row_id: marion_avertissements-prophetiques-fra_1707--avertissements-prophetiques-d-elie-marion-1707
+  work: Avertissements prophétiques d'Élie Marion (1707)
+  author: marion
+  locus: the dated warnings and the preface
+  atlas_ids:
+  - camisard-prophetism
+  role: tradition
+  confidence: assigned
+  note: Inspired speech as the prophets practised it, recorded as spoken; the movement's form of utterance.

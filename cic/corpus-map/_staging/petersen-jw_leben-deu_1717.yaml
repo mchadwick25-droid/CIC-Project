@@ -1,0 +1,22 @@
+source_file: petersen-jw_leben-deu_1717.txt
+assignments:
+- row_id: petersen-jw_leben-deu_1717--das-leben-jo-wilhelmi-petersen-von-ihm-selbst-beschrieben
+  work: Das Leben Jo. Wilhelmi Petersen, von ihm selbst beschrieben (1717)
+  author: petersen-jw
+  locus: whole work
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: tradition
+  confidence: provisional
+  note: A radical-Pietist theologian's own life, from the Spener circle's margins; provisional because
+    the chiliast Petersen stood at the edge of the Halle-Spener mainstream the entry centres on.
+- row_id: petersen-jw_leben-deu_1717--das-leben-jo-wilhelmi-petersen-von-ihm-selbst-beschrieben-2
+  work: Das Leben Jo. Wilhelmi Petersen, von ihm selbst beschrieben (1717)
+  author: petersen-jw
+  locus: whole work
+  atlas_ids:
+  - radical-pietism-and-the-brethren-dunkers-ephrata
+  role: context
+  confidence: provisional
+  note: The Petersens' millenarian 'Wiederbringung aller Dinge' was read in the radical circles the Brethren
+    came from. Provisional.

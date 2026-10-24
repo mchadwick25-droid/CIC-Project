@@ -1,0 +1,21 @@
+source_file: church-of-england_book-of-common-prayer_oxford1706.txt
+assignments:
+- row_id: church-of-england_book-of-common-prayer_oxford1706--the-book-of-common-prayer-1662-text-oxford-printing-of-1706
+  work: The Book of Common Prayer, 1662 text (Oxford printing of 1706)
+  author: church-of-england
+  locus: whole volume, the services, the Psalter and the State services
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: tradition
+  confidence: assigned
+  note: The church's own liturgy, the book every parish read each Sunday, and the book the Act of Uniformity
+    of 1662 imposed.
+- row_id: church-of-england_book-of-common-prayer_oxford1706--the-book-of-common-prayer-1662-text-oxford-printing-of-1706-2
+  work: The Book of Common Prayer, 1662 text (Oxford printing of 1706)
+  author: church-of-england
+  locus: Morning and Evening Prayer, the Communion and the occasional offices
+  atlas_ids:
+  - the-methodist-revival
+  role: antecedent
+  confidence: provisional
+  note: The liturgy the Wesleys were ordained under and kept using; provisional for the Methodist world.

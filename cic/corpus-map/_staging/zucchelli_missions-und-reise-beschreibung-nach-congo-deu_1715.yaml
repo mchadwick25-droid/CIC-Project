@@ -1,0 +1,16 @@
+source_file: zucchelli_missions-und-reise-beschreibung-nach-congo-deu_1715.txt
+assignments:
+- row_id: zucchelli_missions-und-reise-beschreibung-nach-congo-deu_1715--missions-und-reise-beschreibung-nach-congo-german-1715
+  work: Missions- und Reise-Beschreibung nach Congo (German 1715; Italian 1712)
+  author: zucchelli
+  locus: the twenty relations; especially the later relations on Soyo, the war for the kingdom and Pedro
+    IV
+  atlas_ids:
+  - the-antonian-movement-in-kongo
+  role: context
+  confidence: assigned
+  note: 'A Capuchin eyewitness of 1698 to 1704, the closest contemporary in print: the divided kingdom
+    and the restoration question that the movement took up. No mention of Beatriz found in the scan. German
+    translation, not the Italian original.
+
+    '

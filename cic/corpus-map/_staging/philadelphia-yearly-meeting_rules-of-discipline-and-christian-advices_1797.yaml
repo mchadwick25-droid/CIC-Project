@@ -1,0 +1,12 @@
+source_file: philadelphia-yearly-meeting_rules-of-discipline-and-christian-advices_1797.txt
+assignments:
+- row_id: philadelphia-yearly-meeting_rules-of-discipline-and-christian-advices_1797--rules-of-discipline-and-christian-advices-of-the-yearly
+  work: Rules of Discipline and Christian Advices of the Yearly Meeting of Friends for Pennsylvania and
+    New Jersey (1797)
+  author: philadelphia-yearly-meeting
+  locus: whole work
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: assigned
+  note: American Friends governing themselves; the Pennsylvania discipline with its antislavery minutes.

@@ -1,0 +1,12 @@
+source_file: morris-joseph_favourite-welsh-hymns-translated_1854.txt
+assignments:
+- row_id: morris-joseph_favourite-welsh-hymns-translated_1854--favourite-welsh-hymns-translated-into-english-1854
+  work: Favourite Welsh Hymns translated into English (1854)
+  author: morris-joseph
+  locus: whole work
+  atlas_ids:
+  - the-welsh-revival-tradition
+  role: transmission
+  confidence: assigned
+  note: Mid-nineteenth-century English translations of the revival's hymnody; reception, useful beside
+    the Welsh originals in Gweithiau vol. II.

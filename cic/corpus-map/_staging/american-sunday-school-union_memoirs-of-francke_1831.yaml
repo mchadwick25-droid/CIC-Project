@@ -1,0 +1,21 @@
+source_file: american-sunday-school-union_memoirs-of-francke_1831.txt
+assignments:
+- row_id: american-sunday-school-union_memoirs-of-francke_1831--francke-s-conversion-narrative-lebenslauf-as-quoted-in-the
+  work: Francke's conversion narrative (Lebenslauf) as quoted in the 1831 Memoirs
+  author: francke
+  locus: chapter II, His Residence at Luneburg, the first-person passages
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: tradition
+  confidence: provisional
+  note: Francke in his own voice on the 1687 crisis, at second hand through an 1817 German life and an
+    1831 English compilation; provisional until checked against a German text.
+- row_id: american-sunday-school-union_memoirs-of-francke_1831--memoirs-of-augustus-hermann-francke-the-compiler-s-narrative
+  work: Memoirs of Augustus Hermann Francke (the compiler's narrative)
+  author: american-sunday-school-union
+  locus: the whole volume outside the quoted passages
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: context
+  confidence: assigned
+  note: Nineteenth-century evangelical retrospect; orientation only.

@@ -1,0 +1,15 @@
+source_file: paredes_promptuario-manual-mexicano-nci-spa_1759.txt
+assignments:
+- row_id: paredes_promptuario-manual-mexicano-nci-spa_1759--promptuario-manual-mexicano-1759-the-platicas-lenten-sermons
+  work: 'Promptuario manual mexicano (1759): the platicas, Lenten sermons and Guadalupe sermon'
+  author: paredes
+  locus: whole text; the Spanish preliminaries as their own witness
+  atlas_ids:
+  - colonial-latin-american-devotional-catholicism
+  role: tradition
+  confidence: assigned
+  note: 'A Jesuit preacher''s Nahuatl sermons for indigenous parishes; the church speaking to Nahua Christians,
+    not their own voice, but the words they heard each Sunday. Quotation needs a Nahuatl reader and the
+    page images.
+
+    '

@@ -1,0 +1,22 @@
+source_file: mack-alexander_writings-bilingual_columbiana1860.txt
+assignments:
+- row_id: mack-alexander_writings-bilingual_columbiana1860--ground-searching-questions-grundforschende-fragen-1713
+  work: Ground Searching Questions (Grundforschende Fragen, 1713), English with German, 1860
+  author: mack-alexander
+  locus: the section headed Ground Searching Questions
+  atlas_ids:
+  - radical-pietism-and-the-brethren-dunkers-ephrata
+  role: tradition
+  confidence: assigned
+  note: Mack's answers to forty questions put by Eberhard Ludwig Gruber in 1713; the founder's own voice.
+    English half usable; German half garbled in this scan.
+- row_id: mack-alexander_writings-bilingual_columbiana1860--memoir-of-alexander-mack-sen-by-his-son
+  work: Memoir of Alexander Mack, Sen., by his son
+  author: mack-alexander
+  locus: the section headed Memoir of Alexander Mack, Sen.
+  atlas_ids:
+  - radical-pietism-and-the-brethren-dunkers-ephrata
+  role: tradition
+  confidence: assigned
+  note: The second-generation elder's own account of his father; inside voice, written by Alexander Mack
+    Jr., not by the founder.

@@ -1,0 +1,22 @@
+source_file: sagnier_tour-de-constance-et-ses-prisonnieres-fra_1880.txt
+assignments:
+- row_id: sagnier_tour-de-constance-et-ses-prisonnieres-fra_1880--la-tour-de-constance-et-ses-prisonnieres-1880
+  work: La Tour de Constance et ses prisonnières (1880)
+  author: sagnier
+  locus: the introduction and the general list
+  atlas_ids:
+  - church-of-the-desert-huguenots
+  role: context
+  confidence: assigned
+  note: A nineteenth-century compilation from the prison registers; the names and dates of the women held
+    for their faith.
+- row_id: sagnier_tour-de-constance-et-ses-prisonnieres-fra_1880--letters-and-letter-fragments-of-the-prisoners-of-the-tour-de
+  work: Letters and letter fragments of the prisoners of the Tour de Constance, in Sagnier (1880)
+  author: sagnier
+  locus: the documents section (letters to and from prisoners, Marie Durand's list of 1754)
+  atlas_ids:
+  - church-of-the-desert-huguenots
+  role: tradition
+  confidence: provisional
+  note: The prisoners' own words survive here in fragments; provisional because the row is filed under
+    the compiler until the letters are split out by writer.

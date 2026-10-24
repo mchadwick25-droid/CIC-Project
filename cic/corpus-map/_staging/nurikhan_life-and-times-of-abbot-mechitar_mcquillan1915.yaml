@@ -1,0 +1,12 @@
+source_file: nurikhan_life-and-times-of-abbot-mechitar_mcquillan1915.txt
+assignments:
+- row_id: nurikhan_life-and-times-of-abbot-mechitar_mcquillan1915--the-life-and-times-of-the-servant-of-god-abbot-mechitar
+  work: The Life and Times of the Servant of God Abbot Mechitar (English, 1915)
+  author: nurikhan
+  locus: whole work
+  atlas_ids:
+  - armenian-christianity-era-8
+  role: tradition
+  confidence: assigned
+  note: The same Mechitarist life in its San Lazzaro English translation; ten fewer documents than the
+    Italian.

@@ -1,0 +1,11 @@
+source_file: field-john_piety-promoted-dying-sayings-of-quakers_1728.txt
+assignments:
+- row_id: field-john_piety-promoted-dying-sayings-of-quakers_1728--piety-promoted-in-a-collection-of-dying-sayings-of-many-of
+  work: Piety Promoted, in a Collection of Dying Sayings of many of the People call'd Quakers (1728 printing)
+  author: field-john
+  locus: whole work
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: assigned
+  note: The Society's memorials of its ordinary dead; the lay voice in its own collected form.

@@ -1,0 +1,21 @@
+source_file: bengel_gnomon-of-the-new-testament-v1_fausset1857.txt
+assignments:
+- row_id: bengel_gnomon-of-the-new-testament-v1_fausset1857--gnomon-of-the-new-testament-vol-i-matthew-mark-english-1857
+  work: Gnomon of the New Testament, vol. I (Matthew-Mark), English 1857
+  author: bengel
+  locus: whole volume; book, chapter and verse
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: tradition
+  confidence: assigned
+  note: Württemberg Pietism's exegete in his own words; the census places Bengel inside this world.
+- row_id: bengel_gnomon-of-the-new-testament-v1_fausset1857--gnomon-of-the-new-testament-vol-i-matthew-mark-english-1857-2
+  work: Gnomon of the New Testament, vol. I (Matthew-Mark), English 1857
+  author: bengel
+  locus: whole volume
+  atlas_ids:
+  - the-methodist-revival
+  role: antecedent
+  confidence: provisional
+  note: Wesley's Explanatory Notes upon the New Testament (1755) abridge the Gnomon by Wesley's own statement;
+    provisional until the Notes are vendored and the dependence shown in a record.

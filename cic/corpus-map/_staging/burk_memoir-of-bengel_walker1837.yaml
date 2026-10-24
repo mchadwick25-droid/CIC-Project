@@ -1,0 +1,30 @@
+source_file: burk_memoir-of-bengel_walker1837.txt
+authors_ruled:
+  bengel:
+    kind: metadata-omission
+    evidence: 'The title page names the volume as the life and writings of John Albert Bengel and the
+      text prints his letters, prayers and sayings in translation; the file''s leading name slug is Burk,
+      the memoir''s compiler.
+
+      '
+    from_file: burk_memoir-of-bengel_walker1837.txt
+assignments:
+- row_id: burk_memoir-of-bengel_walker1837--bengel-s-letters-prayers-and-sayings-as-translated-in-burk-s
+  work: Bengel's letters, prayers and sayings as translated in Burk's Memoir (1837)
+  author: bengel
+  locus: the quoted letters and sayings throughout; Burk's narrative excluded
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: tradition
+  confidence: provisional
+  note: Bengel's private voice at second hand through a son-in-law's memoir and an English translator;
+    provisional until each item is checked against a German text.
+- row_id: burk_memoir-of-bengel_walker1837--a-memoir-of-the-life-and-writings-of-john-albert-bengel-burk
+  work: A Memoir of the Life and Writings of John Albert Bengel (Burk's narrative)
+  author: burk
+  locus: whole volume outside the quoted material
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: context
+  confidence: assigned
+  note: Nineteenth-century biography; orientation only.

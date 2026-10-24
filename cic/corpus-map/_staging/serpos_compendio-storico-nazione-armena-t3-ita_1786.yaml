@@ -1,0 +1,12 @@
+source_file: serpos_compendio-storico-nazione-armena-t3-ita_1786.txt
+assignments:
+- row_id: serpos_compendio-storico-nazione-armena-t3-ita_1786--compendio-storico-tomo-iii-libro-sesto-the-armenians-of-the
+  work: 'Compendio storico, Tomo III: Libro Sesto, the Armenians of the author''s day (1786)'
+  author: serpos
+  locus: whole volume (Libro Sesto)
+  atlas_ids:
+  - armenian-christianity-era-8
+  role: tradition
+  confidence: assigned
+  note: The window's own description of Armenian clergy, worship and popular practice under the Ottomans,
+    from the Catholic-Armenian side, with its Tridentine reform proposals.

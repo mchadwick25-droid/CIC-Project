@@ -1,0 +1,12 @@
+source_file: fox_journal-v1_ellwood-text-pickard1901.txt
+assignments:
+- row_id: fox_journal-v1_ellwood-text-pickard1901--the-journal-of-george-fox-vol-1-ellwood-text-1901-edition
+  work: The Journal of George Fox, vol. 1 (Ellwood text, 1901 edition)
+  author: fox
+  locus: the chapters of the Journal; Penn's preface and Fell's testimony as their own works
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: assigned
+  note: The Journal as the Society published and read it; Penn's preface is the movement's own first account
+    of itself.

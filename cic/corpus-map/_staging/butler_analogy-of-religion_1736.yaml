@@ -1,0 +1,12 @@
+source_file: butler_analogy-of-religion_1736.txt
+assignments:
+- row_id: butler_analogy-of-religion_1736--the-analogy-of-religion-natural-and-revealed-1736
+  work: The Analogy of Religion, Natural and Revealed (1736)
+  author: butler
+  locus: whole work, with the two dissertations
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: tradition
+  confidence: assigned
+  note: The church's philosophical voice against deism, written while Butler was rector of Stanhope, as
+    the title page names him, before his bishoprics.

@@ -1,0 +1,30 @@
+source_file: griffiths-ann_hymns-in-english-verse_pughe1900.txt
+authors_ruled:
+  pughe-grg:
+    kind: metadata-omission
+    evidence: 'The title page reads ''Translated into English Verse by George Richard Gould Pughe, Vicar
+      of Mellor, near Blackburn'', and the preface is signed ''G. R. G. Pughe, Mellor Vicarage, Blackburn,
+      Christmas, 1900''. cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: griffiths-ann_hymns-in-english-verse_pughe1900--the-hymns-of-ann-griffiths-english-verse-1900
+  work: The Hymns of Ann Griffiths (English verse, 1900)
+  author: griffiths-ann
+  locus: the hymns
+  atlas_ids:
+  - the-welsh-revival-tradition
+  role: tradition
+  confidence: provisional
+  note: Her hymns, but in a free English verse translation of a text that survived through Ruth Evans's
+    memory and John Hughes's transcription; provisional as her voice because three hands stand between
+    her and this page.
+- row_id: griffiths-ann_hymns-in-english-verse_pughe1900--translator-s-preface-g-r-g-pughe-1900
+  work: Translator's preface (G. R. G. Pughe, 1900)
+  author: pughe-grg
+  locus: the preface
+  atlas_ids:
+  - the-welsh-revival-tradition
+  role: transmission
+  confidence: assigned
+  note: Victorian reception of Ann Griffiths in her own parish's memory.

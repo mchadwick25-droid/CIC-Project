@@ -1,0 +1,22 @@
+source_file: spener_pia-desideria-deu_koehler1841.txt
+assignments:
+- row_id: spener_pia-desideria-deu_koehler1841--pia-desideria-1675-german-leipzig-1841-edition
+  work: Pia Desideria (1675), German, Leipzig 1841 edition
+  author: spener
+  locus: whole work; the six Vorschläge under their own headings
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: tradition
+  confidence: assigned
+  note: Spener's diagnosis of the church and six proposals for reform, the programme every later Pietist
+    cited. German original; no PD English.
+- row_id: spener_pia-desideria-deu_koehler1841--pia-desideria-1675-german-leipzig-1841-edition-2
+  work: Pia Desideria (1675), German, Leipzig 1841 edition
+  author: spener
+  locus: whole work
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: antecedent
+  confidence: provisional
+  note: Zinzendorf was Spener's godson and Herrnhut's conventicle pattern descends from the collegia pietatis
+    Spener proposes here; provisional until the Moravian sources vendored show how they argue from it.

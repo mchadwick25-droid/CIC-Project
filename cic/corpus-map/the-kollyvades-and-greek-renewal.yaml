@@ -15,6 +15,15 @@ works:
     rests on that historical identification, not on the file's own text). Second witness;
     1886 edition of a work first printed in 1800.
   source_file: nikodemos-hagiorite_pedalion-canons-grc_1886.txt
+- row_id: philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893--prooimion-to-the-philokalia-nikodemos-the-hagiorite-1782-2
+  work: Prooimion to the Philokalia (Nikodemos the Hagiorite, 1782)
+  author: nikodemos-hagiorite
+  locus: the same prooimion
+  role: tradition
+  confidence: provisional
+  note: Nikodemos and Macarius are the Kollyvades' leading figures; the census gives the movement
+    to a later entry, so provisional there.
+  source_file: philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt
 - row_id: nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900--synaxaristes-of-the-twelve-months-volume-1-september-to-3
   work: Synaxaristes of the Twelve Months, volume 1 (September to February), Greek
   author: nikodemos-hagiorite

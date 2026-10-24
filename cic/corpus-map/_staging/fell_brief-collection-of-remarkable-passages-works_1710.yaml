@@ -1,0 +1,12 @@
+source_file: fell_brief-collection-of-remarkable-passages-works_1710.txt
+assignments:
+- row_id: fell_brief-collection-of-remarkable-passages-works_1710--a-brief-collection-of-remarkable-passages-and-occurrences
+  work: A Brief Collection of Remarkable Passages and Occurrences (Fell's Works, 1710)
+  author: fell
+  locus: whole volume
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: assigned
+  note: The mother of Quakerism in her own collected words, from her conversion at Swarthmoor to her letters
+    to kings.

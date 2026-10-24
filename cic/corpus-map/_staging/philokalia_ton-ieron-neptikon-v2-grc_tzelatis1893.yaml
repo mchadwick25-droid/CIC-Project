@@ -1,0 +1,23 @@
+source_file: philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt
+assignments:
+- row_id: philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893--philokalia-ton-hieron-neptikon-vol-2-venice-1782-athens-2nd
+  work: 'Philokalia ton hieron neptikon, vol. 2 (Venice 1782; Athens 2nd ed. 1893): the anthology as compiled'
+  author: philokalia
+  locus: whole volume, the compilers' selection from Peter of Damascus to the end
+  atlas_ids:
+  - the-hesychast-revival-paisius-and-the-philokalia
+  role: tradition
+  confidence: assigned
+  note: The second half of the editorial act; the texts on the prayer of the heart the revival taught.
+- row_id: philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893--philokalia-vol-2-gregory-of-sinai-gregory-palamas-kallistos
+  work: 'Philokalia, vol. 2: Gregory of Sinai, Gregory Palamas, Kallistos and Ignatius Xanthopoulos and
+    the other fourteenth-century texts as printed'
+  author: philokalia
+  locus: from the heading for Gregory of Sinai (about raw scan line 34746) through the Xanthopoulos chapters
+    (from about line 48420)
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: transmission
+  confidence: provisional
+  note: The Palamite sources in the form the 1782 compilers printed them; reception for the fourteenth-century
+    world, which should prefer its own critical texts.

@@ -1,0 +1,11 @@
+source_file: coquerel-charles_histoire-des-eglises-du-desert-t2-fra_1841.txt
+assignments:
+- row_id: coquerel-charles_histoire-des-eglises-du-desert-t2-fra_1841--histoire-des-eglises-du-desert-t-ii-1841
+  work: Histoire des églises du désert, t. II (1841)
+  author: coquerel-charles
+  locus: the narrative chapters and the pièces justificatives
+  atlas_ids:
+  - church-of-the-desert-huguenots
+  role: context
+  confidence: assigned
+  note: The later Desert from its own papers, in Coquerel's narrative and appendices.

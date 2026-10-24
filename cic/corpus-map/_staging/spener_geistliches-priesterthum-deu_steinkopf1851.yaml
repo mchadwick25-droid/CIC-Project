@@ -1,0 +1,11 @@
+source_file: spener_geistliches-priesterthum-deu_steinkopf1851.txt
+assignments:
+- row_id: spener_geistliches-priesterthum-deu_steinkopf1851--das-geistliche-priesterthum-siebenzig-fragen-und-antworten
+  work: Das geistliche Priesterthum (Siebenzig Fragen und Antworten, 1677)
+  author: spener
+  locus: whole work; numbered questions 1-70
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: tradition
+  confidence: assigned
+  note: The lay priesthood as Spener taught it in question and answer; own voice.

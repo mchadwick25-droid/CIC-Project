@@ -1,0 +1,22 @@
+source_file: universalist-church_winchester-centennial-with-the-profession-of-belief_1903.txt
+assignments:
+- row_id: universalist-church_winchester-centennial-with-the-profession-of-belief_1903--the-universalist-profession-of-belief-winchester-1803-as
+  work: The Universalist Profession of Belief (Winchester, 1803), as printed in The Winchester Centennial
+    (1903)
+  author: universalist-church
+  locus: the three articles of the Profession at the head of the volume
+  atlas_ids:
+  - early-american-unitarians-universalists
+  role: tradition
+  confidence: provisional
+  note: The Universalist confession of 1803 in a centennial reprint; provisional until checked against
+    a contemporary printing.
+- row_id: universalist-church_winchester-centennial-with-the-profession-of-belief_1903--the-winchester-centennial-1803-1903-1903
+  work: The Winchester Centennial, 1803-1903 (1903)
+  author: universalist-church
+  locus: the historical sketch, addresses and sermons
+  atlas_ids:
+  - early-american-unitarians-universalists
+  role: transmission
+  confidence: assigned
+  note: The denomination's own centennial reception of the Profession.

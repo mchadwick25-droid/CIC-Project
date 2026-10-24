@@ -1,0 +1,11 @@
+source_file: tennent-gilbert_twenty-three-sermons_bradford1744.txt
+assignments:
+- row_id: tennent-gilbert_twenty-three-sermons_bradford1744--twenty-three-sermons-preach-d-at-philadelphia-1743-gilbert
+  work: Twenty-three Sermons preach'd at Philadelphia, 1743 (Gilbert Tennent, 1744)
+  author: tennent-gilbert
+  locus: whole work
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: tradition
+  confidence: assigned
+  note: The middle-colony revival's leading preacher in his own sermons; the census's Tennents in print.

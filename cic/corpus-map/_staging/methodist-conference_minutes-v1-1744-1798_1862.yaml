@@ -1,0 +1,11 @@
+source_file: methodist-conference_minutes-v1-1744-1798_1862.txt
+assignments:
+- row_id: methodist-conference_minutes-v1-1744-1798_1862--minutes-of-the-methodist-conferences-vol-i-1744-1798
+  work: Minutes of the Methodist Conferences, vol. I, 1744-1798
+  author: methodist-conference
+  locus: whole volume
+  atlas_ids:
+  - the-methodist-revival
+  role: tradition
+  confidence: assigned
+  note: The connexion's own annual record, from the doctrinal conversations of 1744 to the Plan of Pacification.

@@ -1,0 +1,29 @@
+source_file: lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt
+authors_ruled:
+  lindsey:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By Theophilus Lindsey, M.A.''. Plain-text vendored file, so cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+assignments:
+- row_id: lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774--a-sermon-preached-at-the-opening-of-the-chapel-in-essex
+  work: A Sermon preached at the Opening of the Chapel in Essex-House (1774)
+  author: lindsey
+  locus: whole work
+  atlas_ids:
+  - early-american-unitarians-universalists
+  role: tradition
+  confidence: provisional
+  note: The English Unitarian precedent the census names; provisional because English Unitarianism may
+    belong to english-old-dissent.
+- row_id: lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774--a-sermon-preached-at-the-opening-of-the-chapel-in-essex-2
+  work: A Sermon preached at the Opening of the Chapel in Essex-House (1774)
+  author: lindsey
+  locus: whole work
+  atlas_ids:
+  - english-old-dissent
+  role: tradition
+  confidence: needs-ruling
+  note: Lindsey left the Church of England rather than coming from Old Dissent; which world owns Essex
+    Street is a ruling.

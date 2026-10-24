@@ -1,0 +1,22 @@
+source_file: paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914.txt
+assignments:
+- row_id: paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914--istoriia-slavianobolgarskaia-paisii-of-hilendar-1762
+  work: Istoriia slavianobolgarskaia (Paisii of Hilendar, 1762)
+  author: paisii-hilendarski
+  locus: Paisii's prefaces and chapters; Ivanov's editorial matter excluded
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-1650-1821
+  role: tradition
+  confidence: provisional
+  note: An Athonite monk of the Ottoman Orthodox church writing against Greek dominance of the Slav flocks;
+    provisional because his book is also the founding text of a national revival that belongs partly to
+    later Balkan worlds.
+- row_id: paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914--istoriia-slavianobolgarskaia-paisii-of-hilendar-1762-2
+  work: Istoriia slavianobolgarskaia (Paisii of Hilendar, 1762)
+  author: paisii-hilendarski
+  locus: whole work
+  atlas_ids:
+  - orthodoxy-after-1821-balkan-autocephalies
+  role: antecedent
+  confidence: provisional
+  note: The text the Bulgarian church struggle of the nineteenth century looked back to; provisional.

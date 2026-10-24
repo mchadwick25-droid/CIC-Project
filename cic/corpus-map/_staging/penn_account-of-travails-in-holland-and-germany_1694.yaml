@@ -1,0 +1,22 @@
+source_file: penn_account-of-travails-in-holland-and-germany_1694.txt
+assignments:
+- row_id: penn_account-of-travails-in-holland-and-germany_1694--an-account-of-w-penn-s-travails-in-holland-and-germany-1677
+  work: An Account of W. Penn's Travails in Holland and Germany, 1677 (1694)
+  author: penn
+  locus: whole work
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: assigned
+  note: Penn's journal of the 1677 mission, letters included; the journal genre in Penn's hand.
+- row_id: penn_account-of-travails-in-holland-and-germany_1694--an-account-of-w-penn-s-travails-in-holland-and-germany-1677-2
+  work: An Account of W. Penn's Travails in Holland and Germany, 1677 (1694)
+  author: penn
+  locus: the Frankfurt, Kriegsheim and Herford entries and the letters to Princess Elizabeth and the Frankfurt
+    Pietists
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: context
+  confidence: provisional
+  note: An English Quaker's account of the Frankfurt Pietist circle in 1677, two years after Pia Desideria;
+    outside witness to Spener's milieu. Provisional.

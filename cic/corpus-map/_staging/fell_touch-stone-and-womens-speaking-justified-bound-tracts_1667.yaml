@@ -1,0 +1,65 @@
+source_file: fell_touch-stone-and-womens-speaking-justified-bound-tracts_1667.txt
+authors_ruled:
+  marshall-charles:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is fell; the volume binds a 1673 epistle signed
+      ''Charles Marshall, Tetherton in Wiltshire'' (file lines about 17900-18900) after the Fell tracts.
+      The signature and imprint are in the file.
+
+      '
+  coale-josiah:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is fell; the volume binds ''A Salutation to
+      the Seed of God ... by a servant of the Lord, Josiah Coale'', printed for William Warwick (file
+      lines from about 18900), after the Marshall epistle. The title page is in the file.
+
+      '
+assignments:
+- row_id: fell_touch-stone-and-womens-speaking-justified-bound-tracts_1667--womens-speaking-justified-proved-and-allowed-of-by-the
+  work: Womens Speaking Justified, Proved and Allowed of by the Scriptures (1666; 1667 printing)
+  author: fell
+  locus: file lines about 10434-11246, the tract with its own title page and the postscript
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: assigned
+  note: The defence of women's ministry from inside the leadership, in a printing of the author's lifetime.
+- row_id: fell_touch-stone-and-womens-speaking-justified-bound-tracts_1667--a-touch-stone-or-a-perfect-tryal-by-the-scriptures-of-all
+  work: A Touch-Stone, or a Perfect Tryal by the Scriptures of all the Priests, Bishops and Ministers
+    (1667)
+  author: fell
+  locus: the first tract in the volume, from the title page to the Lancaster Castle tract
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: assigned
+  note: Fell's argument against the hireling ministry, the anticlerical core of early Quaker preaching.
+- row_id: fell_touch-stone-and-womens-speaking-justified-bound-tracts_1667--a-tract-given-forth-at-lancaster-castle-by-m-f-a-prisoner-of
+  work: A tract given forth at Lancaster Castle, by M. F., a prisoner of the Lord (1667)
+  author: fell
+  locus: the tract ending about file line 4415 with the Lancaster Castle subscription
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: provisional
+  note: A prison tract of the Lancaster years; its title page is garbled in the scan, so the work is named
+    from its subscription. Provisional until the title is read from the page images.
+- row_id: fell_touch-stone-and-womens-speaking-justified-bound-tracts_1667--an-epistle-to-the-called-and-chosen-people-of-the-lord
+  work: An epistle to the called and chosen people of the Lord (Charles Marshall, 1673)
+  author: marshall-charles
+  locus: the tract ending with the Tetherton subscription of 1673, file lines about 17900-18900
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: provisional
+  note: A Wiltshire Friend's exhortation bound with the Fell tracts; its title page is partly garbled.
+    Provisional.
+- row_id: fell_touch-stone-and-womens-speaking-justified-bound-tracts_1667--a-salutation-to-the-seed-of-god-josiah-coale-166
+  work: A Salutation to the Seed of God (Josiah Coale, 166-)
+  author: coale-josiah
+  locus: the tract printed for William Warwick, from about file line 18900
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: provisional
+  note: An early Friend's prophetic salutation; the year digit is lost in the scan. Provisional.

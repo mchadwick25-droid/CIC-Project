@@ -1,0 +1,39 @@
+source_file: subbotin_materialy-dlia-istorii-raskola-v8-avvakum-zhitie-morozovoi-rus_1887.txt
+authors_ruled:
+  morozova-zhitie:
+    kind: anonymous
+    evidence: 'The Life (Povest'') of Boyarynia Feodosia Morozova is anonymous in the manuscripts; Subbotin
+      prints it under its title in this volume (contents at file lines about 60-120). The standard attribution
+      to a member of her household (often to her brother Fyodor Sokovnin) is scholarly, not from the text.
+      An anonymous-work slug.
+
+      '
+assignments:
+- row_id: subbotin_materialy-dlia-istorii-raskola-v8-avvakum-zhitie-morozovoi-rus_1887--newly-found-works-of-avvakum-materialy-vol-viii-1887
+  work: Newly found works of Avvakum (Materialy, vol. VIII, 1887)
+  author: avvakum
+  locus: section 1, the newly found works
+  atlas_ids:
+  - the-old-believers
+  role: tradition
+  confidence: assigned
+  note: More of Avvakum's own epistles and commentaries.
+- row_id: subbotin_materialy-dlia-istorii-raskola-v8-avvakum-zhitie-morozovoi-rus_1887--the-life-of-boyarynia-feodosia-morozova-anonymous-in
+  work: The Life of Boyarynia Feodosia Morozova (anonymous; in Materialy, vol. VIII, 1887)
+  author: morozova-zhitie
+  locus: the Life under its own title
+  atlas_ids:
+  - the-old-believers
+  role: tradition
+  confidence: assigned
+  note: The noblewoman who died for the old rite in 1675, in the movement's own hagiography.
+- row_id: subbotin_materialy-dlia-istorii-raskola-v8-avvakum-zhitie-morozovoi-rus_1887--archimandrite-antonii-s-petition-and-other-writings-in
+  work: Archimandrite Antonii's petition and other writings (in Materialy, vol. VIII, 1887)
+  author: subbotin
+  locus: the remaining works of the volume
+  atlas_ids:
+  - the-old-believers
+  role: tradition
+  confidence: provisional
+  note: Further first-generation writings collected in the volume; provisional until each is placed under
+    its own author.

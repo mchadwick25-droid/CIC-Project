@@ -1,0 +1,12 @@
+source_file: bossuet_instruction-sur-les-etats-d-oraison-fra_1697.txt
+assignments:
+- row_id: bossuet_instruction-sur-les-etats-d-oraison-fra_1697--instruction-sur-les-etats-d-oraison-1697
+  work: Instruction sur les états d'oraison (1697)
+  author: bossuet
+  locus: the treatise and the appended acts of condemnation
+  atlas_ids:
+  - quietist-controversy-molinos-guyon
+  role: context
+  confidence: assigned
+  note: The opposing principal's theology; hostile to the world's own voice, and the frame Rome largely
+    followed.

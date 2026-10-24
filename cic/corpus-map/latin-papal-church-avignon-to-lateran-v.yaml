@@ -236,6 +236,15 @@ works:
     Fraticelli). Vol. II (the Free Spirit chapter) is the wanted volume. Already assigned
     to the Franciscan entries. Tier: same time-place.'
   source_file: lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902--mansi-vol-35-the-supplements-to-constance-florence-and
+  work: 'Mansi vol. 35: the supplements to Constance, Florence and Lateran V'
+  author: mansi
+  locus: the volume outside columns 1437-1538
+  role: tradition
+  confidence: needs-ruling
+  note: The volume's other texts belong to the fifteenth- and sixteenth-century Latin church;
+    placed so they are not orphaned, for that entry to rule on.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt
 - row_id: mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902--mansi-sacrorum-conciliorum-collectio-tomus-27-pisa-1409-and
   work: 'Mansi, Sacrorum conciliorum collectio, tomus 27: Pisa 1409 and Constance 1414-1418'
   author: mansi

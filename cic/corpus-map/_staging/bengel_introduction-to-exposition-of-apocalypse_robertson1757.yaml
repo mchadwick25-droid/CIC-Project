@@ -1,0 +1,12 @@
+source_file: bengel_introduction-to-exposition-of-apocalypse_robertson1757.txt
+assignments:
+- row_id: bengel_introduction-to-exposition-of-apocalypse_robertson1757--introduction-preface-conclusion-and-marginal-notes-of-the
+  work: Introduction, Preface, Conclusion and marginal notes of the Erklärte Offenbarung, English 1757
+  author: bengel
+  locus: whole work
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: tradition
+  confidence: assigned
+  note: Bengel's own framing of his apocalyptic exposition, in a translation made in his lifetime's shadow
+    (1757); the full commentary stands in the vendored German.

@@ -1,0 +1,26 @@
+source_file: francisco-de-san-jose_libro-de-las-quatro-postrimerias-tgl_manila1734.txt
+assignments:
+- row_id: francisco-de-san-jose_libro-de-las-quatro-postrimerias-tgl_manila1734--libro-de-las-quatro-postrimerias-del-hombre-en-lengua-tagala
+  work: Libro de las quatro postrimerías del hombre, en lengua tagala (1734 printing)
+  author: francisco-de-san-jose
+  locus: whole text
+  atlas_ids:
+  - philippine-catholicism-era-8
+  role: tradition
+  confidence: assigned
+  note: 'Friar-authored Tagalog devotion, reprinted in the window; the church speaking to Tagalogs in
+    their language, not their own voice. Quotation needs a Tagalog reader and the page images.
+
+    '
+- row_id: francisco-de-san-jose_libro-de-las-quatro-postrimerias-tgl_manila1734--libro-de-las-quatro-postrimerias-del-hombre-en-lengua-tagala-2
+  work: Libro de las quatro postrimerías del hombre, en lengua tagala (1734 printing)
+  author: francisco-de-san-jose
+  locus: whole text
+  atlas_ids:
+  - philippine-catholicism
+  role: tradition
+  confidence: provisional
+  note: 'Composed by a Dominican of the founding generation, inside the earlier world''s window; this
+    is a later printing. Placed on the author''s dates, not on a reading for that entry.
+
+    '

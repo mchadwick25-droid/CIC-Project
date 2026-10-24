@@ -1,0 +1,22 @@
+source_file: loskiel_history-of-mission-among-indians_latrobe1794.txt
+assignments:
+- row_id: loskiel_history-of-mission-among-indians_latrobe1794--history-of-the-mission-of-the-united-brethren-among-the
+  work: History of the Mission of the United Brethren among the Indians in North America (1794)
+  author: loskiel
+  locus: parts two and three, the mission narrative 1735-1787
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: tradition
+  confidence: assigned
+  note: The church's official account of its Native American congregations, compiled from the missionaries'
+    own diaries.
+- row_id: loskiel_history-of-mission-among-indians_latrobe1794--history-of-the-mission-of-the-united-brethren-among-the-2
+  work: History of the Mission of the United Brethren among the Indians in North America (1794)
+  author: loskiel
+  locus: the chapters on Shekomeko and the New York expulsion of 1744-1745, and on the Pennsylvania congregations
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: context
+  confidence: provisional
+  note: The Moravian Native missions that colonial New York and New England authorities moved against
+    during the Awakening years; a neighbouring revival body as the colonies saw it. Provisional.

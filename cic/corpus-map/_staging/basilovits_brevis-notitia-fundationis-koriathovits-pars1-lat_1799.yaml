@@ -1,0 +1,13 @@
+source_file: basilovits_brevis-notitia-fundationis-koriathovits-pars1-lat_1799.txt
+assignments:
+- row_id: basilovits_brevis-notitia-fundationis-koriathovits-pars1-lat_1799--brevis-notitia-fundationis-theodori-koriathovits-part-i-1799
+  work: Brevis notitia fundationis Theodori Koriathovits, Part I (1799)
+  author: basilovits
+  locus: whole work
+  atlas_ids:
+  - ruthenian-uniate-18th-century
+  role: tradition
+  confidence: needs-ruling
+  note: A Ruthenian Basilian's own history and documents, but of the Munkács eparchy in Hungary, which
+    the entry's summary (Zamość, the partitions, Galicia) does not name; whether the Carpathian Greek
+    Catholics belong to this entry is for the lead to rule.

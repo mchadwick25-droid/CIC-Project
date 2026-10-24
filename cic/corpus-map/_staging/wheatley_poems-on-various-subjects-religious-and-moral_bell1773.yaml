@@ -1,0 +1,21 @@
+source_file: wheatley_poems-on-various-subjects-religious-and-moral_bell1773.txt
+assignments:
+- row_id: wheatley_poems-on-various-subjects-religious-and-moral_bell1773--poems-on-various-subjects-religious-and-moral-wheatley-1773
+  work: Poems on Various Subjects, Religious and Moral (Wheatley, 1773)
+  author: wheatley
+  locus: the poems; the Whitefield elegy among them
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: tradition
+  confidence: assigned
+  note: The awakening's Black poet in her own first edition, the Whitefield elegy included.
+- row_id: wheatley_poems-on-various-subjects-religious-and-moral_bell1773--poems-on-various-subjects-religious-and-moral-wheatley-1773-2
+  work: Poems on Various Subjects, Religious and Moral (Wheatley, 1773)
+  author: wheatley
+  locus: the elegy on the death of the Rev. Mr. George Whitefield (1770)
+  atlas_ids:
+  - the-methodist-revival
+  role: context
+  confidence: provisional
+  note: Whitefield mourned by a Boston poet he never met in person; outside witness to his American standing.
+    Provisional.

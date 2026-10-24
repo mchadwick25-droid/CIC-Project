@@ -1,0 +1,12 @@
+source_file: covel_some-account-of-the-present-greek-church_1722.txt
+assignments:
+- row_id: covel_some-account-of-the-present-greek-church_1722--some-account-of-the-present-greek-church-covel-1722
+  work: Some Account of the Present Greek Church (Covel, 1722)
+  author: covel
+  locus: whole work
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-1650-1821
+  role: context
+  confidence: assigned
+  note: A Protestant chaplain's eyewitness and polemic on the Greek church's teaching after 1672; hostile,
+    informed, and in the window.

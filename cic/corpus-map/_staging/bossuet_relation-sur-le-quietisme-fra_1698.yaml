@@ -1,0 +1,12 @@
+source_file: bossuet_relation-sur-le-quietisme-fra_1698.txt
+assignments:
+- row_id: bossuet_relation-sur-le-quietisme-fra_1698--relation-sur-le-quietisme-1698
+  work: Relation sur le Quiétisme (1698)
+  author: bossuet
+  locus: the whole Relation
+  atlas_ids:
+  - quietist-controversy-molinos-guyon
+  role: context
+  confidence: assigned
+  note: The opponent's narrative, polemical by design; it also preserves passages of Guyon and Fénelon
+    that survive this way.
