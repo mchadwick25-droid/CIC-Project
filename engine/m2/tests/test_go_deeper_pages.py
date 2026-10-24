@@ -364,3 +364,9 @@ def test_the_slide_out_hears_only_the_app_frame_at_the_app_origin():
     js = (SITE / "assets" / "more-conversations.js").read_text()
     assert "ev.origin !== appOrigin" in js and "ev.source !== frame.contentWindow" in js
     assert 'postMessage({ type: "cic:panel-open" }, appOrigin)' in js
+
+
+def test_the_landing_page_drawer_ships_off_until_the_app_that_draws_it_is_live():
+    config = (SITE / "assets" / "go-deeper-config.js").read_text()
+    assert re.search(r"\bdrawer:\s*false\b", config)
+    assert "cfg.drawer" in (SITE / "assets" / "more-conversations.js").read_text()

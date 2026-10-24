@@ -5,7 +5,7 @@
   var drawer = document.getElementById("more-drawer");
   var scrim = document.getElementById("more-scrim");
   var frame = document.getElementById("more-frame");
-  if (!cfg || !cfg.enabled || !toggle || !drawer || !scrim || !frame) return;
+  if (!cfg || !cfg.enabled || !cfg.drawer || !toggle || !drawer || !scrim || !frame) return;
   toggle.hidden = false;
 
   var appOrigin = cfg.app;
