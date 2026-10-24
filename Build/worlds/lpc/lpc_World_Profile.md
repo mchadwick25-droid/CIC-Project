@@ -397,7 +397,7 @@ Fifteen of Doc_08's seventeen forces are carried here, at least one per occupied
 
 ---
 
-**Force:** The Vandal invasion (from 429) and the siege of Hippo
+**Force:** The Vandal invasion and the siege of Hippo (430)
 
 **Cell:** 3A — Ending-Transforming/External
 

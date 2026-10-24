@@ -225,9 +225,9 @@ About 170 years later the same consciousness takes a different form: Augustine, 
 
 ---
 
-#### Force 3A-1: The Vandal invasion (from 429) and the siege of Hippo
+#### Force 3A-1: The Vandal invasion and the siege of Hippo (430)
 
-**Layer 1 — Historical Event.** The Vandals crossed from Spain in 429 and besieged Hippo in the final months of Augustine's life; he died on 28 August 430. A near-contemporary Gallic chronicler independently records the death under that year (Registry row 203). **Confidence: Documented.** *(Row 203 also records the Vandal capture of Carthage under 439 — a different city, nine years later, and no part of this world's end-boundary.)*
+**Layer 1 — Historical Event.** The Vandals crossed from Spain into Africa in the late 420s; the one chronicle we hold enters the crossing under 427 (Registry row 203). In 430 they besieged Hippo, and Augustine fell ill in the third month of the siege (Possidius, Vita XXIX); he died on 28 August 430. A near-contemporary Gallic chronicler independently records the death under that year (Registry row 203). **Confidence: Documented.** *(Row 203 also records the Vandal capture of Carthage under 439 — a different city, nine years later, and no part of this world's end-boundary.)*
 
 **Layer 2 — World's Own Experience.** An army on the road while the bishop lay dying inside the walls, with the people he was answerable for still in the city.
 

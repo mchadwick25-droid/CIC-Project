@@ -1564,10 +1564,11 @@ def build_forces() -> None:
     )
 
     emit_force(
-        F3A1, "The Vandal Invasion (from 429) and the Siege of Hippo",
+        F3A1, "The Vandal Invasion and the Siege of Hippo (430)",
         "ending", "3A",
-        "The Vandals crossed from Spain in 429. They besieged Hippo in the final months of "
-        "Augustine's life, and he died on 28 August 430 -- a date a near-contemporary Gallic "
+        "The Vandals crossed from Spain into Africa in the late 420s; the one chronicle we hold "
+        "enters the crossing under 427. In 430 they besieged Hippo. Augustine fell ill in the "
+        "third month of the siege, and he died on 28 August 430 -- a date a near-contemporary Gallic "
         "chronicler independently records. This is documented. The same chronicle records the "
         "Vandal capture of Carthage under 439, a different city, nine years later, and no part of "
         "where this world ends.\n"
@@ -1584,7 +1585,7 @@ def build_forces() -> None:
         "it. The invasion closes the world, and the writings outlive it. The inheritance was "
         "secured by copying, not by the siege.",
         [
-            "the siege of Hippo, beginning 429, in the final months of Augustine's life",
+            "the siege of Hippo, begun in 430, in whose third month Augustine fell ill",
             "Augustine's own death on 28 August 430, independently recorded by a "
             "near-contemporary Gallic chronicler",
         ],
@@ -1592,7 +1593,13 @@ def build_forces() -> None:
              "Doc_08 §3 Force 3A-1: Documented -- Registry row 203, a near-contemporary Gallic "
              "chronicle independently recording Augustine's death under 430; no divergence flagged "
              "for this force's own bare occurrence."),
-        src("lpc.source.prosper-epitoma-chronicon-mommsen1892"),
+        src(("lpc.source.prosper-epitoma-chronicon-mommsen1892",
+             "Epitoma Chronicon entry 1295, 'Gens Wandalorum ab Hispania ad Africam transit', "
+             "entered under the consuls of 427 -- cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt, "
+             "lines 54069 and 54126"),
+            ("lpc.source.possidius-vita-augustini-weiskotten1919",
+             "Vita Augustini ch. XXIX, 'in the third month of the siege he succumbed to fever' -- "
+             "cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 4146-4148")),
         "Taken from Doc_08 §3 Force 3A-1 (Cell 3A, Ending/External). relations[] carries the "
         "gravity<->force edge (G1) and the force<->force edge (3B-1) named above.",
     )

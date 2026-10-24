@@ -1863,3 +1863,12 @@ Logged 2026-10-24.
 - **P2 carried: date the Constantine witness's sources (R3-1).** Caution 2 now says Augustine's later view is given dated to when he wrote it; the witness does not yet date its sources. *Answer to Petilian* about 400 to 402 (npnf104 lines 10278 to 10279, 10733) and *City of God* begun 413 (npnf102 lines 864 to 865).
 - **Leftovers in construction prose, not voice material:** Doc_05 line 407; `wb_lpc_s2y_canon_cells.py` docstring lines 216 and 311; the retired `wb_lpc_s2z_canon_closure.py` line 541 ("holds the whole of it, not a share"); the City of God source record gives 413 to 427 where the NPNF editor gives 413 to 426.
 - **Owner.** The `lpc` build thread.
+
+### OG-66. The Vandal dates corrected to what the sources hold (2026-10-24).
+
+Logged 2026-10-24.
+
+- **What was wrong.** The force record `lpc.force.vandal-invasion-siege-of-hippo`, Doc_08 Force 3A-1, Doc_01, the World Profile and the Force Index dated the Vandal crossing to 429, and the record put the start of the siege of Hippo in 429. No vendored source gives 429 for the crossing: Prosper's *Epitoma Chronicon* enters it (entry 1295) under the consuls of 427 (`cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt`, lines 54069 and 54126). The siege began in 430: Augustine fell ill in its third month (Possidius, *Vita* XXIX, lines 4146 to 4148) and died on 28 August 430.
+- **Correction.** Every site now says the crossing came in the late 420s, that the one chronicle held enters it under 427, and that the siege began in 430. The record cites both loci. This closes the Vandal-date item in OG-64. The modern date 429 rests on evidence this build has not vendored; if it is vendored later, the date can be given with it.
+- **Review.** Checked in the sermon batch 2 review.
+- **Owner.** The `lpc` build thread.
