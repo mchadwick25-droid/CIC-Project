@@ -174,15 +174,10 @@ def test_the_buy_buttons_start_hidden_and_the_page_script_opens_them_for_the_set
         assert re.search(rf'<button[^>]*id="buy-pack-{pack}"[^>]*hidden>', html), pack
 
 
-def test_each_pack_has_its_own_stripe_payment_link_in_price_order():
+def test_sales_are_suspended_until_accounts_exist_so_no_pack_has_a_link():
     html = (SITE / "go-deeper.html").read_text()
     block = html.split("var PAYMENT_LINKS = ")[1].split("};")[0]
-    links = dict(re.findall(r'"(\d)": "(https://buy\.stripe\.com/[A-Za-z0-9]+)"', block))
-    assert links == {
-        "1": "https://buy.stripe.com/14AeV6bbR1Ro9P69bT8bS02",
-        "2": "https://buy.stripe.com/28E9AM4Nt7bI0ew0Fn8bS03",
-        "3": "https://buy.stripe.com/aFa6oA93J0Nk1iA87P8bS04",
-    }
+    assert dict(re.findall(r'"(\d)": "([^"]*)"', block)) == {"1": "", "2": "", "3": ""}
 
 
 def test_the_page_makes_no_promise_about_accounts_until_accounts_exist():
