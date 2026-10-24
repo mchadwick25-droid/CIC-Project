@@ -43,6 +43,12 @@ relations:
   target: lpc.force.augustine-engagement-cyprian-conciliar-acts
 - type: associated-with
   target: lpc.witness.baptism-traced-to-the-apostles
+- type: associated-with
+  target: lpc.quote.the-branch-cut-from-the-vine
+- type: associated-with
+  target: lpc.quote.pardon-through-a-wicked-clergyman
+- type: associated-with
+  target: lpc.quote.consider-who-was-there
 name: Sacramental and Ordination Validity Across the Boundary of the Church
 description: >-
   Few questions mattered more to this world than this one. Is a baptism or an ordination given

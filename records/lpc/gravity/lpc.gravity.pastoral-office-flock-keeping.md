@@ -52,6 +52,12 @@ relations:
   target: lpc.force.plague-of-cyprian
 - type: associated-with
   target: lpc.force.vandal-invasion-siege-of-hippo
+- type: associated-with
+  target: lpc.quote.ye-belong-to-my-care
+- type: associated-with
+  target: lpc.quote.stewards-and-future-bishops
+- type: associated-with
+  target: lpc.quote.good-works-the-comfort-of-our-dangers
 name: Pastoral Office as Territorial Flock-Keeping
 description: >-
   This is the concern everything else in this world turns on. A bishop is personally answerable for a

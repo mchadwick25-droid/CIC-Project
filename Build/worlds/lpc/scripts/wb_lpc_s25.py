@@ -136,7 +136,9 @@ it.
      relation type. The directional relation types would overclaim: Doc_08 states 2B-4 to
      3B-2 as "is the sole instance of" and 3A-1 to 3B-1 as "coincides with, does not cause".
   4. Edges to records of other types (doctrinal_witness, honest_limit, demonstration,
-     contested_claim) come from OTHER_TYPE_EDGES_FIRST and OTHER_TYPE_EDGES_LAST.
+     contested_claim) come from OTHER_TYPE_EDGES_FIRST and OTHER_TYPE_EDGES_LAST. G1, G2, G3
+     and G6 each carry three edges to the sermon quote records that wb_lpc_s24.py emits, as the
+     inverse of the edges those quotes declare.
 
 G5 (CONCILIAR AUTHORITY THEORY)
 Candidate 5 is the one gravity whose classification Doc_04 does not reach on its own
@@ -155,7 +157,7 @@ NOT DONE HERE: assigning canon_cells beyond CANON_CELLS; touching records/lpc/{s
 world_core,term,story,figure,quote}/ or wb_lpc_s24.py (existing records are read only, for
 their lpc.source.* ids); building contested_claim, voice_craft, demonstration,
 doctrinal_witness, honest_limit or ambient records; declaring relations[] from a gravity or
-force record to any lpc.story.*, lpc.figure.*, lpc.quote.* or lpc.term.* record (this keeps
+force record to any lpc.story.*, lpc.figure.* or lpc.term.* record (this keeps
 the relation graph closed, as don's B-4 script does); running the M2 compiler; registering
 `lpc` in records/worlds/; touching gen_force_index.py or lpc_Force_Index.md.
 """
@@ -277,7 +279,7 @@ CANON_CELLS: dict[str, list[str]] = {
 }
 
 # Edges from a gravity or force record to records of other types (doctrinal_witness,
-# honest_limit, demonstration, contested_claim), as (type, target). OTHER_TYPE_EDGES_FIRST edges
+# honest_limit, demonstration, contested_claim, quote), as (type, target). OTHER_TYPE_EDGES_FIRST edges
 # come before the pair-derived edges and OTHER_TYPE_EDGES_LAST edges after them.
 OTHER_TYPE_EDGES_FIRST: dict[str, list[tuple[str, str]]] = {
     G1: [
@@ -311,8 +313,26 @@ OTHER_TYPE_EDGES_FIRST: dict[str, list[tuple[str, str]]] = {
 }
 
 OTHER_TYPE_EDGES_LAST: dict[str, list[tuple[str, str]]] = {
+    G1: [
+        ("associated-with", "lpc.quote.ye-belong-to-my-care"),
+        ("associated-with", "lpc.quote.stewards-and-future-bishops"),
+        ("associated-with", "lpc.quote.good-works-the-comfort-of-our-dangers"),
+    ],
+    G2: [
+        ("associated-with", "lpc.quote.bind-him-justly"),
+        ("associated-with", "lpc.quote.reprove-and-forgive-the-surgeons-knife"),
+        ("associated-with", "lpc.quote.peter-the-sick-man-and-the-physician"),
+    ],
+    G3: [
+        ("associated-with", "lpc.quote.one-good-shepherd-not-many"),
+        ("associated-with", "lpc.quote.apart-in-heart-united-in-body"),
+        ("associated-with", "lpc.quote.going-out-without-violating-unity"),
+    ],
     G6: [
         ("associated-with", "lpc.witness.baptism-traced-to-the-apostles"),
+        ("associated-with", "lpc.quote.the-branch-cut-from-the-vine"),
+        ("associated-with", "lpc.quote.pardon-through-a-wicked-clergyman"),
+        ("associated-with", "lpc.quote.consider-who-was-there"),
     ],
 }
 

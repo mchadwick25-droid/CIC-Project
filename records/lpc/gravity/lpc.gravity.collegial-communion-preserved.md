@@ -46,6 +46,12 @@ relations:
   target: lpc.force.donatist-schism
 - type: associated-with
   target: lpc.force.augustine-engagement-cyprian-conciliar-acts
+- type: associated-with
+  target: lpc.quote.one-good-shepherd-not-many
+- type: associated-with
+  target: lpc.quote.apart-in-heart-united-in-body
+- type: associated-with
+  target: lpc.quote.going-out-without-violating-unity
 name: Collegial Communion Preserved Despite Disagreement
 description: 'Few things mattered more to this world than staying in communion despite real disagreement.
   Bishops here disagree, sometimes sharply. But they work to keep communion rather than break it and build
