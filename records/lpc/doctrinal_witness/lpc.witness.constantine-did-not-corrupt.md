@@ -14,6 +14,11 @@ confidence:
   formation_confidence: Documented
   divergence_note: null
 sources:
+- source_id: lpc.source.augustine-answer-to-petilian
+  locus: Book II, SSSS202-205 (NPNF Chapter 93), Petilian's charge that Christianity never found anything
+    in kings save envy, and Augustine's answer naming Constantine -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml,
+    lines 17610-17726
+  license: public-domain
 - source_id: lpc.source.augustine-city-of-god
   locus: Book V, Chapter 25, on the prosperity God granted the Christian emperor Constantine -- verified
     directly against cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml, lines 11099-11122
@@ -22,8 +27,8 @@ retrieval:
   tier: 2
   retrieve_when:
   - participant asks whether Constantine corrupted the church, or what we ourselves said about him
-  - conversation reaches lpc.limit.the-outsiders-own-view and needs the one sub-question of the four
-    that our own record does answer
+  - conversation reaches lpc.limit.the-outsiders-own-view and needs the Constantine sub-question of the four,
+    which our own record answers
   prefer_instead:
   - participant wants an outsider's own strangeness-perception of us, or whether we hid in catacombs --
     those remain genuine absences this record does not touch
@@ -32,25 +37,33 @@ relations:
 - type: associated-with
   target: lpc.limit.the-outsiders-own-view
 positions:
-- Augustine does not take up directly, anywhere in our own record, whether Constantine corrupted what
-  we were. The nearest he comes is a different argument, in City of God. He asks why God let Constantine,
-  a worshipper of the true God, gain such earthly power. The answer was not to reward him for being Christian,
-  but to show that greatness on earth never required worshipping the old gods after all.
+- Augustine never puts the question in those words, but he does answer the charge behind it. A Donatist
+  bishop, Petilian, said we had no business with kings. Augustine replied that Constantine was
+  "no foe to the name of Christian, but rather rendered glorious by it." In City of God he adds that God
+  let Constantine gain such power to show that greatness on earth never required worshipping the old
+  gods.
 tensions:
+- Augustine answered as one side of a quarrel. Petilian's own side had asked Constantine to judge between
+  us, and he ruled against them. And Augustine did not say a king's friendship
+  was always safe. He said those of us who are friends with Christian kings "commit no sin if they make
+  a right use of that friendship." Those who grow proud of it, he granted, do sin.
 - He was careful not to let the argument run the other way either. Constantine reigned long, held the
   empire alone, founded a city bearing no temple to the old gods, and died of old age with his sons to
   succeed him. But our bishop did not make Constantine's own success the proof of a Christian's standing
   before God -- he named other Christian emperors, Jovian and Gratian, whom God did not grant the same
   long or peaceful reign, precisely so no one would become a Christian only to court a Constantine's own
   fortune.
-text: Nowhere in our own record does Augustine answer directly whether Constantine corrupted what we
-  were. The nearest he comes is City of God's own argument about why God let Constantine, a
-  worshipper of the true God, gain such earthly power. It was not to reward Christian belief with
-  worldly success. It was to show that greatness on earth never depended on worshipping the old gods
-  after all. Constantine reigned long and held the empire alone. He founded a city with no temple to
-  the old gods. He died of old age, with his sons to succeed him. But our bishop did not make
-  Constantine's own success the proof of a Christian's standing before God. He named other Christian
-  emperors, Jovian and Gratian, whom God did not grant the same long or peaceful reign. This was so
-  that no one would become a Christian only to court a Constantine's own fortune.
+text: Augustine never puts the question in those words. But a Donatist bishop named Petilian once told
+  us we had no business with the kings of this world, since Christianity had found nothing in them but
+  envy. Augustine answered him directly. Constantine, he wrote, was "no foe to the name of Christian,
+  but rather rendered glorious by it," and he judged "most justly on behalf of His unity," the unity
+  of Christ. Augustine was not a neutral witness here, since Petilian's own side had asked Constantine to judge
+  between us, and he ruled against them. In City of God our bishop adds a second point. God let Constantine,
+  a worshipper of the true God, gain great earthly power. It was not to reward Christian belief with
+  worldly success, but to show that greatness on earth never depended on the old gods. Constantine reigned
+  long and held the empire alone, and he died of old age with his sons to succeed him. But our bishop
+  did not make that success the proof of a Christian's standing before God. He named other Christian
+  emperors, Jovian and Gratian, whom God did not grant the same long or peaceful reign. This was so that
+  no one would become a Christian only to court a Constantine's own fortune.
 ---
-Grounded directly in Augustine, City of God V.25 -- verified against the vendored XML at the line numbers above. City of God does not engage "did Constantine corrupt the church" directly; V.25's own argument is about why God granted a Christian emperor earthly prosperity, not about the church's own corruption. This is the nearest material this world's own corpus carries to the question, disclosed as such rather than overstated. The other two sub-questions of F3-E (catacombs, an outsider's own strangeness-perception) remain genuine absences.
+Grounded directly in Augustine, Answer to Petilian II SSSS202-205 and City of God V.25 -- both verified against the vendored XML at the line numbers above. Petilian's charge is that Christianity never found anything in kings save envy; Augustine's answer defends a right use of friendship with Christian kings and names Constantine as no foe to the Christian name, judging for Christ's unity. He does not take up, in those words, whether Constantine's reign corrupted the church, and he answers as a party to the dispute Constantine had judged. V.25's own argument is about why God granted a Christian emperor earthly prosperity. The other two sub-questions of F3-E (catacombs, an outsider's own strangeness-perception) remain genuine absences.

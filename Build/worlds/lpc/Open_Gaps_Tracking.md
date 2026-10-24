@@ -1827,3 +1827,20 @@ Logged 2026-10-24.
 - **Holdings dispositions, recounted.** The Registry section now holds 42 out of scope and 14 deferred, not the 47 and 9 that OG-59 gives. Five files moved to Deferred: Monceaux tomes IV, V and VI; Tyconius, *Liber regularum*; and `npnf211` (Sulpicius, Dialogue I, on Cyprian's tomb at Carthage; Vincent, *Commonitorium* ch. 6 §16, on Agrippinus and rebaptism).
 - **For Phase L2.** Weigh the deferred files that bear on the 258 to 391 gap with OG-54: Arnobius, Lactantius, Tyconius and Monceaux tomes IV and V.
 - **Owner.** The `lpc` build thread.
+
+### OG-62. CO-LPC-2: the Gapped Formation Precedent still states "one attested locus in each phase" (2026-10-24).
+
+Logged 2026-10-24.
+
+- **What.** `lpc_Gapped_Formation_Precedent.md` line 33 says G5 has "One attested locus in each phase". CO-LPC-2 found this false: Cyprian states the same theory in his letters to Stephen, Jubaianus and Magnus (`cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml` lines 38405, 39018, 40604), and Augustine in Letters XLIII and LIV. Every other site is corrected.
+- **Why it is not corrected here.** The file is a precedent document received from the project lead and marked as received, unchanged. Its correction is the project lead's call: correct it in place, or leave it as received with this entry as the record of the error.
+- **Owner.** The project lead; the `lpc` build thread carries it.
+
+### OG-63. Phase L2 claim verification complete; CO-LPC-2 closed (2026-10-24).
+
+Logged 2026-10-24.
+
+- **All registered claims checked at source.** Every row in `lpc_Claims_Register.md` is VERIFIED or JUDGEMENT, each with its named check. Of the 103 claims first registered, 22 were false or overstated; change order CO-LPC-2 corrected them at every site across the documents, chunks, Representative files, Source Registry and records, and the generator scripts now reproduce the corrected records. Round 2 of its recheck (`CO-LPC-2_Claim_Corrections_Recheck_Round2.md`) approved to proceed.
+- **What changed that a participant hears.** The Constantine witness now gives Augustine's own answer to the charge (*Answer to Petilian* §§202 to 205). The women's-voice limit now says no text a woman wrote herself survives, and that a few women's spoken words reach us set down by men, among them Quartillosia's own account of her vision (*Passio Montani et Lucii* 8).
+- **P2s carried (Round 2 N1 to N7).** Two spoken sentences in the women's-voice statement run past 25 words; the record's `sources` lack the *Passio* and Registry rows 269 to 270 have no source record; three cited line ranges stop short; row 14's date cells omit the new locus; the `wb_lpc_s28.py` docstring still says a woman's first-person narration is attested in neither phase; Monica could be named beside Quartillosia; *On Baptism* is seven books, not "a whole book".
+- **Owner.** The `lpc` build thread.

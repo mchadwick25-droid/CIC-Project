@@ -20,6 +20,9 @@ sources:
 - source_id: cappadocian.source.basil-moral-famine-homilies
   locus: the rich-fool and usury preaching (text unverified)
   license: public-domain
+- source_id: cappadocian.source.basil-letters-general-corpus
+  locus: "npnf208 Prolegomena, Homily VI on Luke xii. 18 quoted in English: 'Do not wait for a famine before thou openest thy barns'"
+  license: public-domain
 retrieval:
   tier: 2
   retrieve_when:
@@ -39,8 +42,8 @@ plain_meaning: >-
   During a famine, preachers named this vice directly. They retold the
   parable of the rich man who tore down his barns to build bigger ones. They
   named grain held back for a higher price while the hungry waited. They
-  named interest that ate away at the poor. The surplus, they said, was
-  never really the hoarder's own.
+  named interest that ate away at the poor. They told the rich not to
+  wait for a famine before opening their barns.
 world_word: pleonexia
 false_friend:
 - treating 'greed is bad' as a flat, obvious platitude rather than a specific, pointed accusation

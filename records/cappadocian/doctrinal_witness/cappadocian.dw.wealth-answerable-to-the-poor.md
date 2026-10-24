@@ -22,7 +22,7 @@ sources:
   locus: "preaching against hoarders and usurers during a real drought, granaries opened"
   license: public-domain
 - source_id: cappadocian.term.philoptochia
-  locus: "the poor bear the image of God; the surplus already belongs to the hungry"
+  locus: "love of the poor preached as almsgiving with doctrine inside it, and built into an institution"
   license: public-domain
 - source_id: cappadocian.term.pleonexia
   locus: "hoarding and usury named to the hoarders' own faces during famine"
@@ -49,9 +49,7 @@ text: >-
   relief was organized. Later, as bishop, he built a permanent
   institution outside his own city's walls: a poorhouse, guest-house,
   infirmary, and leprosarium together, admiringly nicknamed the new city
-  in its own day. We taught that the poor bear the image of God. We
-  taught that whatever surplus you keep beyond your own need already
-  belongs to them. On marriage: it was expected and arranged by
+  in its own day. On marriage: it was expected and arranged by
   families. At least one of us treated a broken engagement, by death, as
   still binding. She refused every later match, on the argument that if
   the resurrection is real, the one she had been promised to was not
@@ -68,7 +66,7 @@ tensions:
   cannot independently verify against a checked text; we rest this claim on the event and its broad
   shape, not on any specific wording
 use_note:
-  means: "This witness says Basil preached against hoarding in a famine, later built a poorhouse complex, and taught that surplus belongs to the poor."
+  means: "This witness says Basil preached against hoarding in a famine, later built a poorhouse complex."
   not_for:
     - "quoted wording from the famine homilies, which this world's registry has not verified"
     - "the refused remarriage as typical, when cappadocian.dw.macrina-and-its-cost treats it as one woman's resolve"

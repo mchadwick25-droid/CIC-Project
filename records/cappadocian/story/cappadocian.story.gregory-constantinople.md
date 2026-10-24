@@ -13,10 +13,9 @@ confidence:
   formation_confidence: Widely Accepted
   divergence_note: "Widely Accepted that the events themselves happened; the interior reasoning and the characterization of adversaries throughout are the self-justifying narrator's own (the McGuckin-register caution Doc_09 itself names, and which this record's own sources include as a named secondary check on that self-account)."
 sources:
-- source_id: cappadocian.source.gregory-nazianzus-de-vita-sua
-  locus: "the whole Constantinople episode, self-narrated"
 - source_id: cappadocian.source.gregory-nazianzus-orations-general-corpus
-  locus: "the Theological Orations and the farewell oration"
+  locus: "the editor's account of the Anastasia chapel, the Five Orations, the council and the canonical dispute with the Egyptian bishops, and the resignation; Oration 42, the farewell, 'Farewell my Anastasia'"
+  license: public-domain
 - source_id: cappadocian.source.mclynn-gregory-nazianzens-basil
   locus: "the caution against reading Gregory's self-presentation as recoverable history without check"
 retrieval:
@@ -32,7 +31,7 @@ relations:
 - type: illustrates
   target: cappadocian.gravity.contested-church
 narrative_tier: 1
-narrative_tier_justification: "Tier 1: the events themselves - the mission, the preaching, the Easter violence, the council seat taken and resigned - are Documented; De vita sua and the orations are Gregory's own named, contemporary or near-contemporary self-account. What is not independently checked is his own account of his adversaries' motives and his own interior reasoning, which the McGuckin-register caution requires this telling to carry rather than resolve."
+narrative_tier_justification: "Tier 1: the events themselves - the mission, the preaching, the council seat taken and resigned - are Documented; the orations are Gregory's own named, contemporary self-account. What is not independently checked is his own account of his adversaries' motives and his own interior reasoning, which the McGuckin-register caution requires this telling to carry rather than resolve."
 tellable_as: "A small, embattled congregation in a hostile capital hears the Trinity defended from a house called Resurrection - and the man who preached it best walks away from the throne he is finally given."
 text: >-
   In 379, Gregory of Nazianzus arrived in Constantinople to lead the small,
@@ -42,20 +41,18 @@ text: >-
   favored. He preached there the five orations later called the
   Theological Orations, setting out and defending the doctrine of the
   Trinity to a capital that was, for the most part, hostile or indifferent
-  to it. The mission was violent as well as intellectual: on one Easter, a
-  mob attacked the gathering itself. When the political and theological
+  to it. When the political and theological
   tide finally turned - a new emperor, Theodosius, favoring Nicene
   orthodoxy, and the council that would become Constantinople 381
   convening - Gregory was made bishop of the see and given the council's
   own presiding chair. He did not hold it long. Disputes over his own
   election's canonical legitimacy, and his own exhaustion with the whole
   contest, led him to resign before the council's business was finished,
-  delivering a farewell oration on his way out. Everything about this
-  episode - the danger, the arguments used against him, his own reasons
-  for leaving - comes from Gregory's own telling, in De vita sua and in the
-  orations themselves, written by a man justifying, to himself and to
-  posterity, a public defeat as much as a victory.
-telling: "The house was called Anastasia, which means resurrection. Gregory of Nazianzus gave it that name when he came to Constantinople in 379 to lead the small Nicene flock there. They worshipped in that private house, because a rival party, long favored by the emperors, still held the city's great churches.\n\nThere Gregory preached five sermons, later called the Theological Orations. In them he defended the doctrine of the Trinity to a capital he found mostly hostile to it, or uncaring. By Gregory's own telling, the mission was violent as well. One Easter, a mob attacked the gathering itself.\n\nThen the tide turned, and a new emperor, Theodosius, favored the Nicene faith. A council met that would become the Council of Constantinople of 381. Gregory was made bishop of the city and given the council's presiding chair.\n\nHe did not hold the chair long. By his own account, some disputed whether his election was lawful under church rules. He says he was also worn out by the whole contest. He resigned before the council's work was done, and gave a farewell oration on his way out."
+  delivering a farewell oration on his way out. What we know of
+  his reasons for leaving, and of the arguments used against him, comes
+  from Gregory's own telling in his orations, written by a man justifying,
+  to himself and to posterity, a public defeat as much as a victory.
+telling: "The house was called Anastasia, which means resurrection. Gregory of Nazianzus gave it that name when he came to Constantinople in 379 to lead the small Nicene flock there. They worshipped in that private house, because a rival party, long favored by the emperors, still held the city's great churches.\n\nThere Gregory preached five sermons, later called the Theological Orations. In them he defended the doctrine of the Trinity to a capital he found mostly hostile to it, or uncaring.\n\nThen the tide turned, and a new emperor, Theodosius, favored the Nicene faith. A council met that would become the Council of Constantinople of 381. Gregory was made bishop of the city and given the council's presiding chair.\n\nHe did not hold the chair long. By his own account, some disputed whether his election was lawful under church rules. He says he was also worn out by the whole contest. He resigned before the council's work was done, and gave a farewell oration on his way out."
 absent_detail: "No account of this episode survives from the Homoian establishment's own side, or from whoever specifically opposed Gregory's election on canonical grounds; both are known only through Gregory's own retrospective framing of them as adversaries."
 modern_contrast: >-
   A modern reader might expect a resignation this dramatic to need an

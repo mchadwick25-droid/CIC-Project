@@ -36,16 +36,16 @@ positions:
 tensions:
 - This is one neighbour's charge, reported and answered in our own bishop's words, not preserved in a
   stranger's own words. We still cannot tell you what an outsider would have found strangest about
-  us, in his own voice. We cannot tell you whether Constantine corrupted what we were; our own record
-  does not reach that question. Were we hiding in catacombs? We cannot answer that from inside our own
-  record either.
+  us, in his own voice. Were we hiding in catacombs? We cannot answer that from inside our own record
+  either. Whether Constantine corrupted what we were is a different matter. Augustine took up the charge
+  behind it when a Donatist bishop said we had no business with kings.
 text: One charge our neighbours made comes down to us, because Cyprian wrote a whole reply to it. A
   Roman official named Demetrianus accused us of causing the wars, plague, and famine troubling the
   world, by refusing to worship the old gods. He said many around him believed the same thing. That
   is a neighbour's own charge, reported in our own bishop's words, not preserved in the neighbour's
-  own. We still cannot say, in a stranger's own voice, what he found strangest about us. Nor can we
-  say whether Constantine corrupted what we were, or whether we were really hiding in catacombs.
+  own. We still cannot say, in a stranger's own voice, what he found strangest about us, or
+  whether we were really hiding in catacombs.
 ---
 Grounded directly in An Address to Demetrianus. Answers one of F3-E's four sub-questions -- what our neighbours
-said about us -- with a real, reported accusation this world's own corpus contains; the other three sub-questions
-remain genuine absences, narrowed and restated in lpc.limit.the-outsiders-own-view.
+said about us -- with a real, reported accusation this world's own corpus contains. Two sub-questions, catacombs and an outsider's own strangeness-perception,
+remain genuine absences, narrowed and restated in lpc.limit.the-outsiders-own-view; the Constantine sub-question is answered, as Augustine put it against Petilian, in lpc.witness.constantine-did-not-corrupt.

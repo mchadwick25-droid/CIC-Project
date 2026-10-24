@@ -29,7 +29,8 @@ confidence:
     a rebuke of Stephen of Rome specifically. That is the 19th-century American editor's own reading of
     Cyprian's motive, not Cyprian's own words, and no claim in this entry rests on the formula being aimed
     at Stephen. Doc_04 finds no evidence that ordinary believers, catechumens, or most clergy in either
-    phase were formed by, or aware of, this question -- the formula's own existence is Documented; its
+    phase were formed by this question; the 256 preface records presbyters, deacons and a considerable
+    part of the congregation present to hear it -- the formula's own existence is Documented; its
     reach into ordinary formation is not evidenced, which is why this term sits at Tier 2 despite that
     Documented status.
 sources:
@@ -66,9 +67,10 @@ senses:
   evidential: The 256 Council preface is directly quoted and re-verified at source, and re-quoted across
     nine independent review rounds. The vendored text prints an editor's remark inside this passage reading
     it as a rebuke of Stephen of Rome; that is the 19th-century editor's own reading of motive, not Cyprian's
-    words, and nothing here rests on it. Doc_04 finds no evidence this question reached ordinary believers,
-    catechumens, or most clergy in either phase -- the formula is real and Documented; its reach into
-    ordinary life is not evidenced.
+    words, and nothing here rests on it. Doc_04 finds no evidence this question formed ordinary believers,
+    catechumens, or most clergy in either phase. Some heard it, since the preface records presbyters, deacons
+    and a considerable part of the congregation present. The formula is real and Documented; its reach
+    into ordinary formation is not evidenced.
   translational: A modern listener is likely to hear an early anti-papal manifesto, or a democratic constitutional
     principle about separated powers. We mean neither -- a working statement of how a council among equals
     proceeds, made by the man chairing it, inside a shared conviction that the episcopate is one undivided
@@ -76,4 +78,4 @@ senses:
 quick_meaning: For us, no bishop stands over the others. Each one judges for himself, and answers for
   it elsewhere.
 ---
-Re-derived from Doc_06 SS2.2 (lpclex012, down-tiered to Tier 2 -- 'no evidence that ordinary believers... were formed by, or even aware of, this question') and Lexicon-Chunks/lpclex012_bishop-of-bishops.md. AUTHORED call, not chunk-stated: evidentiary_weight set to load-bearing despite Tier 2. The chunk itself never uses the term; this script infers it because the formula is the sole textual ground of a real, Documented Supporting gravity (the conciliar-authority axis), which Doc_04 SS7 item 2 forbids suppressing -- Tier and evidentiary_weight are independent axes, the same rule don's own script states. Relations: five terms per this term's own Related-Terms line.
+Re-derived from Doc_06 SS2.2 (lpclex012, down-tiered to Tier 2 -- no evidence that ordinary believers were formed by this question) and Lexicon-Chunks/lpclex012_bishop-of-bishops.md. AUTHORED call, not chunk-stated: evidentiary_weight set to load-bearing despite Tier 2. The chunk itself never uses the term; this script infers it because the formula is the principal textual ground of the Cyprianic pole of a real, Documented Supporting gravity (the conciliar-authority axis), which Doc_04 SS7 item 2 forbids suppressing -- Tier and evidentiary_weight are independent axes, the same rule don's own script states. Relations: five terms per this term's own Related-Terms line.
