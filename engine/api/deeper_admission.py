@@ -291,13 +291,12 @@ class Admission:
             self.remaining = info.remaining if info is not None and info.status != "void" else None
             if self._code is None and self._account is not None:
                 self.remaining = self._account_remaining()
-            if self._code is None:
-                if self._account is not None:
-                    self.free_left = self._runtime.free.account_left(
-                        self._account.account_id, self._account.refill_day, self._network
-                    )
-                else:
-                    self.free_left = self._runtime.free.left(self._visitor, self._network)
+            if self._account is not None:
+                self.free_left = self._runtime.free.account_left(
+                    self._account.account_id, self._account.refill_day, self._network
+                )
+            else:
+                self.free_left = self._runtime.free.left(self._visitor, self._network)
         except Exception:  # noqa: BLE001
             logger.exception("deeper settle failed")
         self._count_refusal()

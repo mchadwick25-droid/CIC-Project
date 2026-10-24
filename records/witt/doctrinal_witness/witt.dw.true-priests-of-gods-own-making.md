@@ -13,15 +13,15 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
-    Documented that two named men, John and Henry, were burned at Brussels on 1 July 1523 for refusing to
-    recant, attested within months by a near-contemporary author (witt.story.brussels-martyrs). Thin, and
+    Documented that two named men, John and Henry, were burned at Brussels for refusing to
+    recant (the song's editor dates it 1 July 1523; the song's own heading says 1522), attested within months by a near-contemporary author (witt.story.brussels-martyrs). Thin, and
     named as thin, for what an outside observer made of our own worship: our library holds no independently
     vendored outside account of it, only what our own Apology quotes and answers from the Roman Confutation,
     at one remove.
 sources:
 - source_id: witt.story.brussels-martyrs
   locus: >-
-    the whole story: two young monks burned at Brussels 1 July 1523 for refusing to recant; 'true priests
+    the whole story: two young monks burned at Brussels (dated 1 July 1523 by the song's editor) for refusing to recant; 'true priests
     of God's own making'
   license: public-domain
 - source_id: witt.term.martyr
@@ -48,8 +48,8 @@ text: >-
   Apology. We never have it in its own words.
 
   We do not have a whole cult of martyrdom. So we cannot answer broadly whether wanting to die as a martyr,
-  and calling it faithfulness, is a death wish in religious language. We have exactly one case. On the
-  first of July, 1523, two young monks, John and Henry, were burned at Brussels after theologians from
+  and calling it faithfulness, is a death wish in religious language. We have exactly one case. On the first of July,
+  1523, two young monks, John and Henry, were burned at Brussels after theologians from
   Louvain pressed them to take back a teaching they had come to hold, and they refused. Our founder, in
   Wittenberg, wrote a ballad about it within the year -- our only martyr-song. The ballad says that, stripped
   of their monks' habits, they were by the power of grace true priests of God's own making. We would not
@@ -58,7 +58,7 @@ text: >-
   it cost these two men, once.
 positions:
 - "we hold no independent outside account of our own worship -- only Rome's own reply reaching us at one remove, quoted and answered inside our own Apology"
-- "two named men, John and Henry, were burned at Brussels in 1523 for refusing to recant -- the only case in our own record where the movement's teaching cost anyone their life"
+- "John and Henry, two named men, were burned at Brussels for refusing to recant. In our record, no one else lost their life for the movement's teaching"
 - "the ballad our founder wrote of their deaths names its own point plainly: by that refusal, they became true priests of God's own making, no ordination needed"
 - "we would not call that faithfulness a death wish -- we would call it a promise held at its real cost, though we do not claim our one ballad can settle the question for someone who doubts it"
 tensions:
@@ -66,7 +66,7 @@ tensions:
 - "the martyrdom itself is well documented (two names, one date, a near-contemporary author); the martyrs' own reported cheerfulness and exact words are the ballad's own commemorative voice, not an independent witness standing beside it, and we do not blur the two"
 relations: []
 use_note:
-  means: "This witness holds that we have no independent outside account of our worship, and that John and Henry were burned at Brussels in 1523, celebrated in our founder's ballad."
+  means: "This witness holds that we have no independent outside account of our worship, and that John and Henry were burned at Brussels, celebrated in our founder's ballad."
   not_for:
     - "the martyrs' reported words and cheerfulness as verified reportage rather than the ballad's commemorative voice"
     - "a claim that we held a broad cult or theology of martyrdom"

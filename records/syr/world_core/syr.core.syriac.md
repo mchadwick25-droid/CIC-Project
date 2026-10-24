@@ -35,19 +35,7 @@ horizon: 'The Syriac-speaking Christian ecology across the Roman-Persian Mesopot
   the institutional change that ends this world''s own formation logic. Ephrem''s
   death in 373 is a significant internal hinge, not the boundary; the quieter years
   373-410 belong inside the window.'
-formation_logic: 'Formation happens in poetry and covenant. Doctrine is taught by
-  singing it: Ephrem''s madrashe, teaching hymns performed by choirs that included
-  the daughters of the covenant, carry theological argument in verse rather than treatise.
-  Scripture and world are read through raza - symbol, mystery - in which type answers
-  type: Eden and the cross, the Jordan and the font, bound to shrara, the truth the
-  symbol carries. The Gospel is met as one continuous story, the Diatessaron harmony,
-  rather than four discrete books. At the community''s ascetic core stands the qyama,
-  the covenant: men and women - bnay and bnat qyama, sons and daughters of the covenant
-  - vowed to celibacy and service while remaining inside the ordinary congregation,
-  a native institution older than and different from desert monasticism. And the world
-  knows itself by contest: it defines its faith by answering Marcion, Bardaisan, and
-  Mani, rivals who preached in the same tongue and the same cities, in their own hymnic
-  and disputational registers.'
+formation_logic: 'Formation happens in poetry and covenant. Doctrine is taught by singing it. Ephrem''s madrashe are teaching hymns that carry theological argument in verse. Later accounts say choirs of the daughters of the covenant sang them. Aphrahat''s Demonstrations and Ephrem''s refutations of rivals are prose. Scripture and the world are read through raza, which means symbol or mystery. Type answers type: Eden and the cross, the Jordan and the font. Each is bound to shrara, the truth the symbol carries. The Gospel is met as one continuous story, the Diatessaron harmony, not as four separate books. At the core of the community stands the qyama, the covenant. Its men and women are the bnay and bnat qyama, the sons and daughters of the covenant. They are vowed to celibacy and service, yet they stay inside the ordinary congregation. This native institution is older than desert monasticism and different from it. The world also knows itself by contest. It defines its faith by answering Marcion, Bardaisan, and Mani. These rivals preached in the same tongue and the same cities, in their own hymns and debates.'
 thinness: 'Richest in hymnic theology, symbolic exegesis, and covenant-ascetic teaching
   - Ephrem''s corpus above all, then Aphrahat''s twenty-three Demonstrations - and
   genuinely strong on persecution as experienced on the Persian side and on the frontier
@@ -58,37 +46,7 @@ thinness: 'Richest in hymnic theology, symbolic exegesis, and covenant-ascetic t
   whom no voice survives at all; the years 373-410 beyond an episcopal-succession
   outline; and the material remains of Edessa itself, since the modern city sits on
   the ancient one.'
-cautions: '1) BARDAISAN is a named comparandum, never a founding voice: his anti-fatalist
-  free-will argument is real and the docetism charge does not stick to him personally,
-  but the best modern reconstruction leans toward genuine divergence on bodily resurrection,
-  and his own words survive only mediated - a student''s dialogue and Ephrem''s hostile
-  refutations. 2) The ABGAR/ADDAI legend is this world''s own story about itself,
-  not history: first attested centuries later, with attested community life beginning
-  only c. 200. Tell it as the community''s self-understanding, never as origin fact.
-  3) The AUTHORITY-STRUCTURE question is open in both directions: whether Aphrahat
-  was a bishop, and how settled the Persian hierarchy under Papa bar Aggai actually
-  was, are unresolved - never cite either as settled. 4) The ANTI-JEWISH material
-  (roughly four of Aphrahat''s Demonstrations, with strands in Ephrem) is entirely
-  one-sided: no Jewish counterpart survives and no internal Christian dissent from
-  it is attested - state that one-sidedness plainly, and never invent balancing voices.
-  5) HERESIOLOGY SCREEN: Ephrem''s Marcion-Bardaisan-Mani triad is boundary-building
-  polemic that flattens three distinct systems; it must not be read as neutral description.
-  6) The DIATESSARON survives only in fragments, citations, and derivative translations:
-  the vendored harmony is an English rendering of an Arabic descendant - a witness
-  to the harmony tradition, never Tatian''s exact wording. 7) NO POST-410 SMEAR: ''Catholicos''
-  is anachronistic before the fifth century, and the School of Nisibis was founded
-  c. 489-496, after this world closes - Jacob''s and Ephrem''s teaching at Nisibis
-  is not ''the School of Nisibis.'' 8) PERSECUTION ASYMMETRY: sustained state persecution
-  (Shapur II, from the 340s) is the Persian side''s experience; Roman-side Edessa''s
-  window is largely without it - never generalize either side''s experience to the
-  whole world. 9) EPHREM CONCENTRATION: his corpus overwhelms every other voice, and
-  it is a deacon''s clerical-ascetic register, not a neutral cross-section; later
-  hagiographic tradition (the malpana title, personal leadership of the women''s choirs)
-  must not be read back as his attested biography - only his deaconate, and the fact
-  that choirs of the daughters of the covenant performed his hymns, are solidly attested.
-  10) DATES HELD OPEN: Jacob of Nisibis''s death year (338 vs 350, a genuine primary-source
-  conflict) and Simeon bar Sabbae''s martyrdom year (341 vs c. 344, with every chronicle
-  date chained to it) stay open.'
+cautions: '1) BARDAISAN is a rival we name for comparison. He is never a founding voice. His free-will argument against fate is real. The charge that he denied Christ''s body does not stick to him. Modern work still leans toward a real split with the church on the resurrection of the body. His own words survive only second-hand. We have a student''s dialogue and Ephrem''s hostile attacks. 2) The ABGAR/ADDAI legend is this world''s own story about itself. It is not history. It first appears centuries later. Church life at Edessa is attested only from about 200. Tell the legend as how the community saw itself, never as a fact about its start. 3) The question of who led the church is open both ways. We do not know if Aphrahat was a bishop. We do not know how firm the Persian chain of bishops under Papa bar Aggai was. Never cite either as settled. 4) The ANTI-JEWISH material is all one-sided. It fills about four of Aphrahat''s Demonstrations, and strands of Ephrem. No Jewish reply survives. No Christian dissent from it is attested. Say this plainly. Never invent voices to balance it. 5) Ephrem lumps Marcion, Bardaisan, and Mani together. This is polemic meant to draw a boundary. It flattens three different systems. Never read it as a neutral description. 6) The DIATESSARON survives only in fragments, citations, and translations of translations. Our copy is an English version of an Arabic text that descends from it. It shows the harmony tradition. It is never Tatian''s exact wording. 7) Do not read later history back into this world. ''Catholicos'' is too late a title for before the fifth century. The School of Nisibis was founded about 489-496, after this world ends. Jacob''s and Ephrem''s teaching at Nisibis is not ''the School of Nisibis.'' 8) PERSECUTION differs by side. Long state persecution under Shapur II, from the 340s, is what the Persian side lived through. Roman-side Edessa in this window mostly escaped it. Never apply one side''s story to the whole world. 9) Ephrem''s writings drown out every other voice. They come from a deacon, with a church and ascetic outlook. They are not a fair cross-section. Do not read later saints'' tales back as his life. That includes the title malpana and his leading the women''s choirs. Only his deaconate is solidly attested. That choirs of the daughters of the covenant sang his hymns rests on later accounts. 10) Two dates stay open. Jacob of Nisibis died in 338 or 350, and our primary sources truly conflict. Simeon bar Sabbae was martyred in 341 or about 344. Every chronicle date tied to that year stays open too.'
 thin_topics:
 - keywords: [women, daughters of the covenant, bnat qyama, women's own words]
   note: attested only through men's texts (Aphrahat, Ephrem); no female-authored text survives from the window

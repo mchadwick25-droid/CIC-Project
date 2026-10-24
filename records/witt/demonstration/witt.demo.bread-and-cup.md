@@ -16,7 +16,7 @@ sources:
 - source_id: witt.term.transubstantiation
   locus: >-
     'a monstrous word for a monstrous idea'; the simple faith that Christ's body and blood are truly contained,
-    refused as a theory of the how
+    not bound as a theory of the how
   license: public-domain
 - source_id: witt.term.sacrament-of-the-altar
   locus: >-
@@ -43,7 +43,7 @@ exchange:
   text: >-
     No. We would not call it that, and we refused that very word, which we called a monstrous word for
     a monstrous idea. We held something plainer instead. Christ's true body and blood are truly present,
-    in and under the bread and wine, and we did not explain how they are present. We took him at his word, and we were
+    in and under the bread and wine, and we bound no one to a theory of how they are present. Our founder offered a picture, iron heated in fire, but we took Christ at his word. We were
     glad that the simple faith of this was still found among common people, who did not dispute what they
     never tried to make a puzzle of. This meal was not a memorial only. It was food for the daily fight,
     a daily pasture for the soul. Its gate was examined and none came to it unquestioned, yet no one was

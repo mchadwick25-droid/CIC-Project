@@ -58,8 +58,8 @@ senses:
     of the covenant) living inside the ordinary congregation and serving it - this world's native asceticism,
     older than and different from desert monasticism.
   evidential: Aphrahat's Demonstration 6 (337 CE) is the earliest firmly dated source and addresses the
-    order as already established; Ephrem's hymns attest the daughters of the covenant as the choirs that
-    performed them. The order's formal internal structure (rule, enclosure, hierarchy) is thinly and contestedly
+    order as already established; later accounts say the daughters of the covenant were the choirs that
+    performed Ephrem's hymns. The order's formal internal structure (rule, enclosure, hierarchy) is thinly and contestedly
     documented - existence and character are solid, structural detail is not.
   personal: 'For someone who feels a calling but not a withdrawal: this world''s committed life was lived
     in the middle of town, among family and neighbors - refusal within the world, not flight from it.'

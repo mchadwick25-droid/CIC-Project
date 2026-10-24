@@ -109,8 +109,8 @@ senses:
     and external things avail nothing'' -- but ''faith must have something which it believes... upon which
     it stands and rests.'' Faith alone, but never faith in nothing: it stands on the Word, the water,
     the bread, the absolution.'
-  evidential: The most widely attested word in our whole lexicon -- founder's treatises, sermons, household
-    catechism, and both confessional documents, with no register missing.
+  evidential: Found in the founder's treatises, sermons, household
+    catechism, and both confessional documents.
   personal: 'Nearly everything else we hold presupposes this word: what works receive their goodness from,
     what a sacrament is used by, why the conscience can be at rest, and what makes one worthy at the table.
     Our own confession can say the whole doctrine ''is to be referred to that conflict of the terrified

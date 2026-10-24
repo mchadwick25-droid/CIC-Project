@@ -44,7 +44,7 @@ sources:
   locus: "'told no tales of his own houses'"
   license: public-domain
 - source_id: gallic.quote.martin-on-the-christ-with-wounds
-  locus: "the one private word that survives"
+  locus: "the one private word in our record"
   license: public-domain
 retrieval:
   tier: 1
@@ -76,14 +76,13 @@ text: >-
   and cast anchor in the harbour of religion. The one private
   word about Christ that we hold is Martin's. Alone in his cell, he told
   a Christ in purple that he would believe only in one who showed the
-  wounds. Cassian wrote books on the Incarnation, but our record has not
-  read them. Beyond that word, we hold what we did at the gate and at
+  wounds. Beyond that word, we hold what we did at the gate and at
   the hours.
 positions:
 - Christ shows himself in the one no one pities - the beggar's half of the cloak at Tours; the guest received as Christ in Egypt's teaching, without being asked who he is
 - God's approach comes first - he calls the ignorant and unwilling and draws them; he wills all to be saved, and none perish by his will
 - the one story of coming to believe is Martin's - a boy begging to be a catechumen, a soldier baptized after the cloak - told by another man, not by Martin
-- the one private word on record is Martin's. Cassian's books on the Incarnation are unread.
+- the one private word on record is Martin's.
 tensions:
 - no one among us wrote his own account of coming to believe; the one story is a hagiographer's, who had it partly from Martin and partly from those who lived with him
 - the question to you, not to your church, asks for a voice our record does not keep - we are two households, not a diary

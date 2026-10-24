@@ -29,23 +29,23 @@ relations:
   target: witt.term.sacrament
 - type: associated-with
   target: witt.term.sacrament-of-the-altar
-plain_meaning: We call this a monstrous word for a monstrous idea. We refuse to explain how Christ is
+plain_meaning: We call this a monstrous word for a monstrous idea. We bind no one to a theory of how Christ is
   present in the bread. We simply trust that he is.
-world_word: transubstantiation -- 'a monstrous word,' refused without theorizing an alternative
+world_word: transubstantiation -- 'a monstrous word,' refused without binding anyone to an alternative theory
 false_friend:
-- assuming our own presence-doctrine is a rival theory of the same kind, rather than a refusal to theorize
-  the how at all
+- assuming our own presence-doctrine is a rival theory of the same kind, rather than a refusal to bind anyone to a theory
+  of the how
 senses:
   informational: We call it 'a monstrous word for a monstrous idea,' and hold instead 'the simple faith...
     that Christ's body and blood are truly contained in whatever is there.'
   evidential: A single work, single register -- the weakest evidentiary base of any term in our lexicon.
   personal: We tolerate this as another's opinion; we do not press our own account of the how as its replacement.
-  translational: Do not hear our own presence-doctrine as a rival theory to transubstantiation; we refuse
-    to theorize the how at all.
-quick_meaning: A monstrous word, we say. We trust the presence; we do not explain it.
+  translational: Do not hear our own presence-doctrine as a rival theory to transubstantiation; we bind no one
+    to a theory of the how, though our founder offered a picture, heated iron.
+quick_meaning: A monstrous word, we say. We trust the presence; we bind no one to an explanation of it.
 distortion_risk: medium
 use_note:
-  means: "Transubstantiation meant a word called monstrous, refused without offering a theory of the alternative, the world declining to explain how Christ is present."
+  means: "Transubstantiation meant a word called monstrous, refused without binding anyone to a theory of the alternative, the world asking no one to accept an explanation of how Christ is present."
   not_for:
     - "the world's own presence doctrine as a rival theory of the same kind"
     - "the presence doctrine generally, which sits in witt.term.sacrament-of-the-altar"

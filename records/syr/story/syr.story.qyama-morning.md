@@ -25,7 +25,7 @@ sources:
   locus: the one Gospel read
   license: public-domain
 - source_id: syr.source.harvey-voiced-silence
-  locus: the choirs' attested performance
+  locus: later accounts of the choirs' performance
   license: in-copyright-consultation
 retrieval:
   tier: 1
@@ -43,7 +43,7 @@ relations:
 narrative_tier: 4
 narrative_tier_justification: 'Tier 4 (historically grounded reconstruction): a composite typical scene
   - no named individual, no dated occasion, every element separately attested (the covenant vow and discipline:
-  Demonstration 6; the daughters'' choirs performing madrashe: the hymn corpus''s performance context;
+  Demonstration 6; the daughters'' choirs performing madrashe: later accounts of the hymns'' performance;
   the harmony as the Gospel read: both anchor authors; the combined Nativity-Epiphany observance: the
   calendar finding specific to pre-363 Nisibis). Confidence Inferential-Thin as Tier 4 requires, regardless
   of each element''s own strength.'
@@ -53,11 +53,11 @@ text: >-
   No single morning like this was written down. Pieced together from separate sources, a typical one might have gone like this. Before dawn in Nisibis, in the years before the city was given away, those bound by the covenant gather for the vigil. They are men and women who have
   taken the vow, unmarried, walking from their own family houses through the
   dark streets. Among them stands the choir of the daughters of the covenant,
-  who will raise the madrasha. The hymn is itself the teaching. Doctrine is carried on the tune, stanza answering refrain, until the whole gathering holds the argument by heart. The Gospel read out is one unbroken story, the harmony, heard as a
+  as later accounts have it, who will raise the madrasha. The hymn is itself the teaching. Doctrine is carried on the tune, stanza answering refrain, until the whole gathering holds the argument by heart. The Gospel read out is one unbroken story, the harmony, heard as a
   single unfolding account. The feast this season keeps the Lord's birth and
   his baptism together, in one observance, as this city then did. When the
   light is full, the covenanters keep their fast and go back to their own households and their work in town. There is no cloister.
-telling: "Before dawn in Nisibis, those bound by the covenant gather for the vigil. No single morning like this was written down. This one is pieced together from separate sources, from the years before the city was handed to Persia in 363.\n\nThe covenanters are men and women who have taken the vow and stay unmarried. They walk through the dark streets from their own family houses, since there is no cloister. Among them stands the choir of the daughters of the covenant, who will raise the madrasha, the teaching hymn.\n\nThe hymn carries the teaching on its tune, stanza answering refrain, until the whole gathering holds the argument by heart. The Gospel read out is the harmony, the Gospels woven into one unbroken story.\n\nThe feast this season keeps the Lord's birth and his baptism together in one observance, as this city then did. When the light is full, the covenanters keep their fast and go back to their own households and their work in town."
+telling: "Before dawn in Nisibis, those bound by the covenant gather for the vigil. No single morning like this was written down. This one is pieced together from separate sources, from the years before the city was handed to Persia in 363.\n\nThe covenanters are men and women who have taken the vow and stay unmarried. They walk through the dark streets from their own family houses, since there is no cloister. Among them stands the choir of the daughters of the covenant, as later accounts have it, who will raise the madrasha, the teaching hymn.\n\nThe hymn carries the teaching on its tune, stanza answering refrain, until the whole gathering holds the argument by heart. The Gospel read out is the harmony, the Gospels woven into one unbroken story.\n\nThe feast this season keeps the Lord's birth and his baptism together in one observance, as this city then did. When the light is full, the covenanters keep their fast and go back to their own households and their work in town."
 absent_detail: 'This is a composite: no such specific morning is recorded anywhere, and the interior experience
   of the worshippers is not attested. The calendar detail (birth and baptism kept together) belongs to
   pre-363 Nisibis specifically and must not be generalized to Edessa after the move or to the Persian-side
