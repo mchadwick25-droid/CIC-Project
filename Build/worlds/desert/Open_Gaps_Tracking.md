@@ -992,7 +992,7 @@ Fixed now:
 - `desert.force.martyrdom-unavailable` description and `desert.dw.strangest`: the martyrdom-successor reading is scoped to Athanasius on Antony (Life 46-47); the wider reading is marked as the record's inference.
 
 Still open:
-- `desert.core.desert` `formation_logic` still says "Formation as martyrdom's invented successor" as the world's own view. The field is one 220-word paragraph that fails the readability gate as a whole, so a scoped edit cannot pass; it needs a full rewrite.
+- `desert.core.desert` `formation_logic` said "Formation as martyrdom's invented successor" as the world's own view. Fixed 2026-10-24: the field is rewritten in plain sentences with every claim kept, and the martyrdom link is scoped to Athanasius on Antony, with the wider reading marked as inference. Review: `Build/Ministry/Operations/Audits/2026-10-24_desert-core-formation-logic_Review_Round1.md` (PASS WITH FIXES; all six fixes applied as worded).
 - Register of the Life of Antony quote records (all `register: emic`, though Athanasius was a bishop in Alexandria), and `speaker_or_author: desert.figure.antony` on narrated or indirect speech (e.g. `desert.quote.antony-nicene-formula`, `desert.quote.he-healed-by-the-name`). Whether a sympathetic outsider's report counts as emic is a fleet-wide methodology question for the project lead.
 
-Status: OPEN for the two items above. CLOSED for the rest.
+Status: OPEN for the register item above. CLOSED for the rest.
