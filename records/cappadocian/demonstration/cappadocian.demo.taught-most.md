@@ -13,7 +13,8 @@ confidence:
   formation_confidence: Widely Accepted
   divergence_note: null
 sources:
-  - {source_id: cappadocian.term.philoptochia, locus: "the Matthew 25 logic at full strength; the institution", license: public-domain}
+  - {source_id: cappadocian.term.philoptochia, locus: "the institution", license: public-domain}
+  - {source_id: cappadocian.source.basil-letters-general-corpus, locus: "npnf208 Prolegomena, Homily VI on Luke xii. 18 quoted in English: 'Do not wait for a famine before thou openest thy barns', and the judgment 'I was an hungred and ye gave me meat'", license: public-domain}
   - {source_id: cappadocian.story.famine-open-barns, locus: "the famine preaching and the opened granaries", license: public-domain}
 canon_question_id: _fleet.canon.c-i-03
 tags: [center]
@@ -47,14 +48,16 @@ Worked exchange for a CENTER informational cell (C-I), the
 ascetic-reordering side of this world's center
 (cappadocian.gravity.ascetic-reordering's wealth-arraigned-in-famine
 clause, via its touchstone story). Every claim greppable: the Matthew 25
-logic at full strength, mercy-to-the-destitute-is-meeting-Christ, and the
-guest-house/infirmary/leper-house institution are
+logic at full strength and mercy-to-the-destitute-is-meeting-Christ are
+Basil's Homily VI as the npnf208 Prolegomena quotes it
+(cic/texts/npnf208_basil-letters-select-works.xml:6272-6302); the
+guest-house/infirmary/leper-house institution is
 cappadocian.term.philoptochia; the drought, the price-hoarders, Basil
 then a priest, hoarding-as-theft-whatever-the-law-calls-it, the rich
 fool's barns "too late to matter," and the opened granaries with relief
 organized "for as long as the crisis lasted" are
-cappadocian.story.famine-open-barns's own text. No quotation marks: the famine homilies'
-text is unverified in this world's own Source Registry (the story
+cappadocian.story.famine-open-barns's own text. No quotation marks: the famine homily itself
+(Homily VIII) is only summarized in the vendored volume (the story
 record's own discipline - no phrase quoted), so the preaching is given
 in substance, attributed to Basil by name as the story itself does.
 philoptōchia labeled plain-meaning-first. The closing line is

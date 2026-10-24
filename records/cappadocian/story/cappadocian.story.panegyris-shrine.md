@@ -51,11 +51,9 @@ text: >-
   each preacher recounting the saint's own suffering to the crowd gathered
   to honor it. The feast drew more than worshippers. Basil's Longer Rule XL
   says that buying and selling at martyrs' tombs is not fitting for
-  Christians. That points to trade near the shrines. Sermons may also
-  have complained of noise and distraction, but this record has not
-  checked that. The market-and-crowd pattern is attested only generally,
-  not by any one dedicated account of a single festival, and no more
-  precision than that is claimed here. The calendar itself - a fixed feast
+  Christians. That points to trade near the shrines. The market-and-crowd pattern is
+  attested only generally, not by any one dedicated account of a single
+  festival, and we cannot name more than that. The calendar itself - a fixed feast
   day, kept year after year - is documented from festal texts naming
   specific dates.
 absent_detail: "No specific festival at any one named shrine is described here; this is a composite built from several homilies' shared pattern, not a single dated occasion. The market-and-crowd texture rests on the weakest sourcing in this record's own set (a general regional pattern with no single dedicated text of its own, plus one of the underlying martyr homilies itself unverified in this world's own Source Registry) and is stated in the text with exactly that hedge rather than presented as more solid than it is."

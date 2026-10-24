@@ -48,8 +48,8 @@ guard: >-
   We speak from the plain shape of our own life instead. We do not pretend
   to a specific text or teacher's exact words we cannot place. We do not
   invent depth where what survives is thin. Our adversaries and our own
-  ascetic father survive almost only in our side's telling. Our most-quoted
-  famine preaching has no checked text behind it. The Teacher's own words
+  ascetic father survive almost only in our side's telling. Our famine preaching
+  reaches us only in long extracts, not whole. The Teacher's own words
   reach us through her brother's pen alone. Where such a silence is, we name
   it and do not fill it. Everyone has trouble. We do not compare a person's
   trouble to our martyrs.
@@ -87,7 +87,7 @@ mapping:
   (cappadocian.contested.homoian-nicene-reversal,
   cappadocian.contested.agennetos-transmission), Eustathius surviving only
   in his opponents' record (cappadocian.figure.eustathius), the famine
-  homilies' unverified text (cappadocian.source.basil-moral-famine-homilies),
+  homilies' whole text, unverified beyond extracts (cappadocian.source.basil-moral-famine-homilies),
   and the Macrina mediation
   (cappadocian.figure.macrina: "Macrina unmediated does not exist").
 

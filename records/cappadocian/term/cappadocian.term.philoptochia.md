@@ -29,7 +29,7 @@ sources:
 - source_id: cappadocian.source.gregory-nyssa-de-pauperibus-amandis
   locus: the lepers homilies - named only, not held
 - source_id: cappadocian.source.basil-moral-famine-homilies
-  locus: the famine and wealth preaching (named only, not held)
+  locus: the famine and wealth preaching (not held whole; extracts of Homilies VI and VII are quoted in the npnf208 Prolegomena)
 retrieval:
   tier: 1
   retrieve_when:
@@ -62,16 +62,14 @@ senses:
   informational: 'The preaching titled its own orations with this word. It taught almsgiving as a virtue
     with doctrine inside it. Basil''s care for the sick was praised as the imitation of Christ, cleansing leprosy "not by a word, but in deed."'
   evidential: 'Documented in Oration 43, in Basil''s letter to Elias, and in the institution''s own real existence outside
-    Caesarea (the poorhouse-guesthouse-infirmary-leprosarium complex). The homilies specifically preached
-    in the famine of 368/9 -- the sharpest, most quotable lines of this preaching -- rest on a source
-    this world''s own build has flagged as unverified at the text level: no open translation of Basil''s
-    famine and wealth homilies is vendored in this project, so their content here rests on general scholarly
-    knowledge of theme and occasion, not a checkable primary text.'
+    Caesarea (the poorhouse-guesthouse-infirmary-leprosarium complex). Basil''s famine and wealth homilies
+    are not held whole. Long extracts of Homilies VI and VII are quoted in English in the Basil volume
+    of the Nicene and Post-Nicene Fathers. The famine homily itself, Homily VIII, is only summarized there.'
   personal: 'The leper was this virtue''s proof-case: love that cost the healthy their own bodily comfort,
     in an era when lepers were untouchable by custom. This world made touching them the visible edge of
     its whole ethic.'
-  translational: '''Isn''t charity just optional generosity, separate from justice?'' -- in the famine Basil
-    went to the hoarders themselves, and by his word and advice their stores were opened to the hungry.'
+  translational: '''Isn''t charity just optional generosity, separate from justice?'' -- in the famine Basil,
+    by his word and advice, opened the stores of those who held them and fed the hungry.'
 quick_meaning: 'Love of the poor: almsgiving turned into an institution, the poor made our own
   test.'
 distortion_risk: medium
