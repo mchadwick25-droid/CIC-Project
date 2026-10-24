@@ -195,11 +195,14 @@ def test_the_access_log_filter_drops_accounts_lines_only():
 
 def test_start_up_refuses_with_no_key_a_short_key_or_no_mail(tmp_path, mailer):
     config = AccountsConfig.from_env(str(tmp_path))
-    contact_key, shelf_key = "c" * 40, "h" * 40
+    contact_key, shelf_key, backup_key = "c" * 40, "h" * 40, "b" * 40
     env = {"CIC_ACCOUNTS_KEY": ADDRESS_KEY, "CIC_ACCOUNTS_SESSION_KEY": SESSION_KEY, "CIC_ACCOUNTS_CONTACT_KEY": contact_key,
-           "CIC_ACCOUNTS_SHELF_KEY": shelf_key}
+           "CIC_ACCOUNTS_SHELF_KEY": shelf_key, "CIC_ACCOUNTS_BACKUP_KEY": backup_key}
     with pytest.raises(AccountsConfigError):
         build_runtime(config, {}, mailer)
+    for bad in ("", "short", ADDRESS_KEY, SESSION_KEY, contact_key, shelf_key):
+        with pytest.raises(AccountsConfigError, match="backup key"):
+            build_runtime(config, {**env, "CIC_ACCOUNTS_BACKUP_KEY": bad}, mailer)
     for bad in ("", "short", ADDRESS_KEY, SESSION_KEY):
         with pytest.raises(AccountsConfigError, match="contact key"):
             build_runtime(config, {**env, "CIC_ACCOUNTS_CONTACT_KEY": bad}, mailer)
@@ -213,6 +216,7 @@ def test_start_up_refuses_with_no_key_a_short_key_or_no_mail(tmp_path, mailer):
     with pytest.raises(AccountsConfigError, match="mail provider"):
         build_runtime(config, env, None)
     runtime = build_runtime(config, env, mailer)
+    assert runtime.backup_sealer is not None and runtime.backup_sealer.key_id == "b1"
     runtime.service.store.close()
 
 
@@ -298,7 +302,7 @@ def test_a_provider_sign_in_asks_the_age_click_then_sets_the_cookie(http, runtim
     typed = http.post("/api/accounts/provider/finish", json={**body, "over_18": "yes"}, headers=H)
     assert typed.status_code == 422
     done = http.post("/api/accounts/provider/finish", json={**body, "over_18": True}, headers=H)
-    assert done.status_code == 200 and done.json() == {"status": "ok", "new_account": True}
+    assert done.status_code == 200 and done.json() == {"status": "ok", "new_account": True, "coupons": []}
     assert "__Host-cic_account" in done.headers["set-cookie"] and "HttpOnly" in done.headers["set-cookie"]
     me = http.get("/api/accounts/me").json()
     assert me["signed_in"] and me["sign_in_methods"] == ["google"]

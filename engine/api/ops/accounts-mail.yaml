@@ -1,0 +1,18 @@
+code:
+  subject: Your sign-in code
+  body: |
+    Your code is {code}. It works for ten minutes.
+
+    If you did not ask for it, ignore this email.
+
+notices:
+  recovery_started:
+    subject: Someone is moving your account
+    body: |
+      Someone started moving your account to a new email address.
+
+      If this was you, do nothing. The move happens on {effective_on}.
+
+      If this was not you, sign in with this address and press Stop the recovery.
+
+      Cannot sign in? Your cancel code is {cancel_code}. Use it on the sign-in page, under “I cannot get to my email”.

@@ -16,7 +16,7 @@ works:
   work: History and Confession of Faith (1823; English 1827/1834)
   author: calvinistic-methodists-wales
   locus: the history and the confession
-  role: transmission
+  role: context
   confidence: provisional
   note: The connexion's own history and its first confession, drawn up eight years after the
     window closes; reception of the revival by its heirs.
@@ -82,7 +82,7 @@ works:
   work: 'Methodistiaeth Cymru, vol. I: Hughes''s history'
   author: hughes-john
   locus: the narrative history
-  role: transmission
+  role: context
   confidence: assigned
   note: The connexion's mid-nineteenth-century history of itself; reception by the movement's
     heirs.
@@ -140,7 +140,7 @@ works:
   work: Hanes bywyd yr awdwr and the critical essay (N. Cynhafal Jones, 1887)
   author: jones-n-cynhafal
   locus: the editor's life and essay before the poems
-  role: transmission
+  role: context
   confidence: provisional
   note: The Victorian Calvinistic Methodist editor's life of the poet; reception, not the
     poet's voice. Provisional.
@@ -158,7 +158,7 @@ works:
   work: Favourite Welsh Hymns translated into English (1854)
   author: morris-joseph
   locus: whole work
-  role: transmission
+  role: context
   confidence: assigned
   note: Mid-nineteenth-century English translations of the revival's hymnody; reception, useful
     beside the Welsh originals in Gweithiau vol. II.
@@ -167,7 +167,7 @@ works:
   work: Translator's preface (G. R. G. Pughe, 1900)
   author: pughe-grg
   locus: the preface
-  role: transmission
+  role: context
   confidence: assigned
   note: Victorian reception of Ann Griffiths in her own parish's memory.
   source_file: griffiths-ann_hymns-in-english-verse_pughe1900.txt

@@ -518,20 +518,24 @@ ROWS: list[dict] = [
                 "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
         rights="public-domain; vendored in cic/texts/ as part of the corpus map's own "
                "pre-existing inventory (role: tradition, confidence: assigned). Book II SS51 "
-               "directly re-collated against source; the rest of the work carried into this "
+               "and SSSS202-205 directly re-collated against source; the rest of the work carried into this "
                "world's construction without independent re-collation.",
         attribution="attributed",
         discovery="corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml; "
-                  "Book II SS51 directly re-verified against "
+                  "Book II SS51 and SSSS202-205 directly re-verified against "
                   "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml.",
         cite="A", verif="verified-direct", weight="load-bearing", formation="Documented",
-        divergence="Confidence A covers one specifically located passage: Book II SS51, "
+        divergence="Confidence A covers two specifically located passages. The first is Book II "
+                   "SS51, "
                    "Augustin's own answer naming \"the chair of the Roman Church, in which Peter "
                    "sat, and which Anastasius fills to-day; or the chair of the Church of "
                    "Jerusalem, in which James once sat, and in which John sits today,\" directly "
                    "verified against "
                    "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, line 16912, "
-                   "and grounding lpc.witness.apostolic-succession-of-bishops. The rest of the "
+                   "and grounding lpc.witness.apostolic-succession-of-bishops. The second is Book II "
+                   "SSSS202-205, Petilian's charge against friendship with kings and Augustine's "
+                   "answer naming Constantine, directly verified against the same file, lines "
+                   "17610-17726, and grounding lpc.witness.constantine-did-not-corrupt. The rest of the "
                    "work is not independently re-collated; the sibling Donatism build's own "
                    "Registry (its own row 4) directly verifies this same work for its own "
                    "purposes.",
@@ -539,7 +543,9 @@ ROWS: list[dict] = [
              "in Augustine's own refutation. Named for completeness, drawn on by the sibling "
              "Donatism build rather than by this world's own Doc_01; also drawn on directly for "
              "Book II SS51's own naming of the chairs of Peter and James and who sits in them "
-             "\"to-day,\" answering this world's own F4-E question about apostolic succession.",
+             "\"to-day,\" answering this world's own F4-E question about apostolic succession; and "
+             "for Book II SSSS202-205, where Augustine answers Petilian's charge that "
+             "Christianity never found anything in kings save envy, naming Constantine.",
     ),
     dict(
         row=15, slug="augustine-on-the-catechising-of-the-uninstructed",
@@ -1355,8 +1361,9 @@ ROWS: list[dict] = [
                    "placement, not an error. Flagged for priority second-opinion review before it "
                    "supports any specific claim. A different Duval from row 129/146 (Noël Duval) and "
                    "row 170 (Yves-Marie Duval), each independently checked and unrelated.",
-        body="Licensed for rows 37 and 38 -- this Registry's entire material-evidence layer (CIL VIII, "
-             "no inscription named; basilica archaeology, Confidence D, 'only the category' named); "
+        body="Licensed for rows 37 and 38 -- the inscription row (CIL VIII, no inscription named) and "
+             "the basilica-archaeology row (Confidence D, 'only the category' named), two of this "
+             "Registry's material-evidence rows; "
              "Duval is the standard corpus of African martyr-cult inscriptions with archaeological "
              "context, the instrument that would turn row 38 from a category into evidence.",
     ),
@@ -2352,9 +2359,9 @@ ROWS: list[dict] = [
         cite="C", verif="named-not-rechecked", weight="corroborating", formation="Widely Accepted",
         divergence="Flagged for priority second-opinion review before it supports any specific claim.",
         body="Licensed for row 1 directly -- the electoral mechanism behind Cyprian's own central "
-             "citation, 'your suffrage and God's judgment,' which no other row addresses at this "
-             "level; row 101 (Bobertz) addresses the wider patron-bishop dynamic, a related but "
-             "distinct question.",
+             "citation, 'your suffrage and God's judgment,' studied for Cyprian's elections "
+             "specifically; row 186 (Norton) treats the same mechanism across 250-600, and row 101 "
+             "(Bobertz) the wider patron-bishop dynamic.",
     ),
     dict(
         row=114, slug="chronica-tertulliana-et-cyprianea",

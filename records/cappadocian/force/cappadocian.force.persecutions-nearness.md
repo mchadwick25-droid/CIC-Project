@@ -11,12 +11,18 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Documented
-  divergence_note: "Documented as the families' own account, and the Forty's cult is Documented as a cult; the passion details themselves (the lake, the one who broke, the guard who took his place) are traditional, not independently verified reporting - carried here rather than smoothed into settled fact."
+  divergence_note: "Documented as the families' own account, and the Forty's cult is Documented as a cult, and the confessor grandparents rest on the Life of Macrina; the relics kept on the family estate are Widely Accepted, reported by modern editors rather than by the homily itself; the passion details themselves (the pond, the one who broke, the guard who took his place) are traditional, not independently verified reporting - carried here rather than smoothed into settled fact."
 sources:
 - source_id: cappadocian.source.basil-martyr-homilies-forty-gordius-julitta-mamas
   locus: "the homily on the Forty of Sebaste"
+- source_id: cappadocian.source.gregory-nyssa-life-of-macrina
+  locus: "Macrina recalls that Gregory's paternal grandparents had their goods confiscated for confessing Christ and his maternal grandfather was slain by the imperial wrath"
+  license: public-domain
+- source_id: cappadocian.source.basil-letters-general-corpus
+  locus: "npnf208 Prolegomena (editor's prose): Emmelia erected a chapel at Annesi for the Forty Martyrs, to which their relics were translated - Widely Accepted"
+  license: public-domain
 - source_id: cappadocian.source.gregory-nyssa-in-xl-martyres-ii
-  locus: "Emmelia's own role acquiring and enshrining the relics at Annisa"
+  locus: "the homily the editors cite for the Annisa chapel; the homily itself is not held"
 relations:
 - type: precondition-for
   target: cappadocian.force.family-archive-transmission

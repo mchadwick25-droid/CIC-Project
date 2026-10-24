@@ -15,8 +15,12 @@ confidence:
 sources:
 - source_id: cappadocian.source.gregory-nazianzus-oration-2-flight-from-ordination
   locus: "the flight narrative and its own defense"
-- source_id: cappadocian.source.gregory-nazianzus-de-vita-sua
-  locus: "the retreat ideal against the career actually lived"
+- source_id: cappadocian.source.basil-letters-general-corpus
+  locus: "Letter XIV, Basil's account of his retreat in Pontus: a wooded mountain, a plain and a river"
+  license: public-domain
+- source_id: cappadocian.source.gregory-nazianzus-orations-general-corpus
+  locus: "Oration 42, the farewell at Constantinople: the resignation of 381 and 'Farewell, my throne'"
+  license: public-domain
 - source_id: cappadocian.source.gregory-nazianzus-sasima-letters
   locus: "the summons's costliest documented instance"
 relations:
@@ -65,7 +69,7 @@ description: >-
   plateau.
 manifestations:
 - Basil's early letters describing the retreat ideal, set against the career he actually lived
-- Nazianzen's Oration 2, the flight narratives, De vita sua, the Sasima wound
+- Nazianzen's Oration 2, the flight narratives, the Sasima wound
 - Nyssen the unwilling administrator - Basil's own complaints of his brother's unfitness for office
 - Gregory of Nazianzus's resignation at Constantinople 381 - the tension's last documented act, walking away from the throne he had just been given
 use_note:

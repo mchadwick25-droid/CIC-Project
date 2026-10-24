@@ -18,11 +18,14 @@ sources:
 - source_id: cappadocian.source.caesareas-poorhouse-hospital-complex
   locus: "the complex's Documented existence, staffing by ascetics, and negotiation with governors"
 - source_id: cappadocian.source.gregory-nazianzus-oration-43-funeral-encomium-basil
-  locus: "the complex called 'the new city'"
+  locus: "Oration 43, §63: the complex called 'the new city', a hospital for the sick; Basil's care for the sick and his cleansing of leprosy 'not by a word, but in deed'; 'sympathy is put to the test'"
+- source_id: cappadocian.source.basil-letters-general-corpus
+  locus: "Letter to Elias, Governor of the Province: Basil defends building a place of entertainment for strangers and for those who need medical treatment, with physicians and means of conveyance"
+  license: public-domain
 - source_id: cappadocian.source.gregory-nazianzus-oration-14-love-of-poor
-  locus: "the leper as a stated test of philanthropia"
+  locus: "Oration 14, named only: it is not held; the leper as a stated test of philanthropia is taken from Oration 43 instead"
 - source_id: cappadocian.source.gregory-nyssa-de-pauperibus-amandis
-  locus: "Gregory of Nyssa's own poverty and leper preaching"
+  locus: "Gregory of Nyssa's poverty and leper preaching, named only: not held"
 retrieval:
   tier: 2
   retrieve_when:
@@ -44,7 +47,7 @@ relations:
 - type: illustrates
   target: cappadocian.gravity.bishop-patron
 narrative_tier: 4
-narrative_tier_justification: "Tier 4 (historically grounded reconstruction), doubly Inferential-Thin as Doc_09's own text states: no later famine at the complex is itself attested, only the recurring subsistence risk this region's own ecology carries and an institution built to answer it. Every element is separately sourced: the complex's Documented existence, staffing by ascetics, and negotiation with governors; the theological vocabulary reused from Basil's own earlier famine preaching, explicitly declared as a source for vocabulary rather than as this scene's own setting - that preaching belongs to c. 368/9, before Basil's episcopate and before the complex existed (Doc_02 §1.1's own correction, which this entry is deliberately built to respect rather than blur); the leper as a stated test of philanthropia to Nazianzen's Oration 14 and Nyssen's own poverty preaching; pleonexia as the vice named, and oikonomos as the office, to this world's own term records; the granary-door imagery reused deliberately from this world's own famine story."
+narrative_tier_justification: "Tier 4 (historically grounded reconstruction), doubly Inferential-Thin as Doc_09's own text states: no later famine at the complex is itself attested, only the recurring subsistence risk this region's own ecology carries and an institution built to answer it. Every element is separately sourced: the complex's Documented existence, staffing by ascetics, and negotiation with governors; the theological vocabulary reused from Basil's own earlier famine preaching, explicitly declared as a source for vocabulary rather than as this scene's own setting - that preaching belongs to c. 368/9, before Basil's episcopate and before the complex existed (Doc_02 §1.1's own correction, which this entry is deliberately built to respect rather than blur); the leper and the test of sympathy to Nazianzen's Oration 43, with Oration 14 and Nyssen's poverty preaching named but not held; pleonexia as the vice named, and oikonomos as the office, to this world's own term records; the granary-door imagery reused deliberately from this world's own famine story."
 tellable_as: >-
   A later hard season, as it would have met the guest-house and infirmary
   Basil built. We have no account of such a month itself.
@@ -63,9 +66,8 @@ text: >-
   such a crisis would have found. In this later crisis, the complex's
   guest-house and infirmary filled. Ascetics nursed the sick and the leper
   alongside ordinary travelers passing through, since care for the leper -
-  untouchable to most, and to our own preaching a direct test of
-  what love of the image of God actually meant, not merely a pious phrase
-  - was part of the complex's own stated purpose. A steward weighed out
+  untouchable to most, and in Gregory's words a case where sympathy
+  is put to the test - was part of the complex's own stated purpose. A steward weighed out
   relief to those who came for it, the office of oikonomos put to exactly
   the work its own name describes. And the preaching that accompanied the
   relief reused the vocabulary Basil's own earlier famine homilies had

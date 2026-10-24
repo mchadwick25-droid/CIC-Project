@@ -13,8 +13,8 @@ confidence:
   formation_confidence: Widely Accepted
   divergence_note: null
 sources:
-- source_id: cappadocian.source.gregory-nazianzus-de-vita-sua
-  locus: the autobiographical disgust at synod politics
+- source_id: cappadocian.source.gregory-nazianzus-orations-general-corpus
+  locus: Oration 42, §§19 and 22 - he swears he has not loved power or the height of a throne, and condemns the rage for rivalry and party spirit in the church
   license: public-domain
 retrieval:
   tier: 3
@@ -28,9 +28,10 @@ relations:
 - type: associated-with
   target: cappadocian.term.parrhesia
 plain_meaning: >-
-  This word named the drive to be honored and ranked above others. Gregory
-  of Nazianzus named it as a real temptation among the clergy. He was worn
-  out by synod politics and status games inside the church.
+  This word meant love of honor. It was the drive to be praised and ranked
+  above others. Gregory of Nazianzus saw it as a real danger among the
+  clergy. In his farewell sermon he condemned rivalry and party spirit in
+  the church.
 world_word: philotimia
 false_friend:
 - healthy ambition or drive treated as an unqualified good
@@ -38,7 +39,7 @@ senses:
   informational: The engine of the Greek city's public life, turned here into a named disease of the clergy
     -- synod-weariness and status-seeking inside the church's own ranks.
   evidential: This world's own disgust at ambition inside the church is attested directly in Gregory of
-    Nazianzus's autobiographical writing about his own career.
+    Nazianzus's farewell oration, Oration 42.
   personal: This vice was named as a quiet corruption of the pulpit itself -- not a fault out in the world,
     but one this world's own leaders confessed finding in their own ranks.
   translational: '''Isn''t ambition basically healthy drive?'' -- this world''s own verdict was harsher:

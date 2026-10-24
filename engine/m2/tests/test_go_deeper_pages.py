@@ -137,9 +137,9 @@ def test_the_expiry_and_refund_draft_is_left_off_the_page_until_the_lawyer_clear
 
 
 
-def test_nothing_on_the_site_links_to_the_go_deeper_pages_yet():
+def test_only_the_landing_page_links_to_the_go_deeper_pages():
     for path in SITE.rglob("*.html"):
-        if path.name in PAGES:
+        if path.name in PAGES or path.name == "index.html":
             continue
         text = path.read_text(errors="ignore")
         assert not re.search(r"""href=["'][^"']*go-deeper(?!-config)""", text), path.name
@@ -152,6 +152,12 @@ def test_the_pages_are_kept_out_of_search_until_they_are_live(page):
 
 def test_the_two_contribution_links_are_unchanged():
     html = (SITE / "support.html").read_text()
+    hrefs = re.findall(r'href="(https://(?:donate|buy)\.stripe\.com/[^"]+)"', html)
+    assert hrefs == SUPPORT_LINKS
+
+
+def test_the_go_deeper_page_offers_the_same_two_gift_links_as_the_support_page():
+    html = (SITE / "go-deeper.html").read_text()
     hrefs = re.findall(r'href="(https://(?:donate|buy)\.stripe\.com/[^"]+)"', html)
     assert hrefs == SUPPORT_LINKS
 
@@ -174,15 +180,10 @@ def test_the_buy_buttons_start_hidden_and_the_page_script_opens_them_for_the_set
         assert re.search(rf'<button[^>]*id="buy-pack-{pack}"[^>]*hidden>', html), pack
 
 
-def test_each_pack_has_its_own_stripe_payment_link_in_price_order():
+def test_sales_are_suspended_until_accounts_exist_so_no_pack_has_a_link():
     html = (SITE / "go-deeper.html").read_text()
     block = html.split("var PAYMENT_LINKS = ")[1].split("};")[0]
-    links = dict(re.findall(r'"(\d)": "(https://buy\.stripe\.com/[A-Za-z0-9]+)"', block))
-    assert links == {
-        "1": "https://buy.stripe.com/14AeV6bbR1Ro9P69bT8bS02",
-        "2": "https://buy.stripe.com/28E9AM4Nt7bI0ew0Fn8bS03",
-        "3": "https://buy.stripe.com/aFa6oA93J0Nk1iA87P8bS04",
-    }
+    assert dict(re.findall(r'"(\d)": "([^"]*)"', block)) == {"1": "", "2": "", "3": ""}
 
 
 def test_the_page_makes_no_promise_about_accounts_until_accounts_exist():

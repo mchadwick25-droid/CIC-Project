@@ -12,7 +12,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: "The manuscript facts themselves (Polycarp's forwarding, the codex histories, the Ignatian recension dispute, Hermas's eclectic reconstruction) are Documented; the underlying selection mechanisms - why some texts were judged worth the labor and risk of copying and others were not - are Inferential-Thin, reconstructed from survivorship patterns rather than directly attested."
+  divergence_note: "The manuscript facts themselves (Polycarp's forwarding, the codex histories, the Ignatian recension dispute, Hermas's eclectic reconstruction) are Documented; the underlying selection mechanisms - why some texts were judged worth the labor and risk of copying and others were not - are Inferential-Thin, reconstructed from survivorship patterns rather than directly attested. That copying was decided community by community, without a central institution, is this record's inference; Hermas, Vision 2.4.3, records that Clement had permission to send Hermas's book to foreign countries."
 sources:
 - source_id: pahc.source.polycarp-philippians
   locus: "13 (forwarding Ignatius's letters onward to Philippi at the Philippians' own request)"
@@ -24,7 +24,10 @@ sources:
   locus: "the manuscript transmission itself: the middle recension's two-century authentication dispute (Ussher/Vossius/Pearson vs. Daille), per this row's own transmission note"
   license: public-domain
 - source_id: pahc.source.shepherd-hermas
-  locus: "the manuscript transmission itself: no single complete Greek manuscript, an explicitly eclectic reconstruction, and the Simonides forgery-adjacent episode, per this row's own transmission note"
+  locus: "Vision 2.4.3 (Clement, who has permission, to send Hermas's book to foreign countries); the manuscript transmission itself: no single complete Greek manuscript, an explicitly eclectic reconstruction, and the Simonides forgery-adjacent episode, per this row's own transmission note"
+  license: public-domain
+- source_id: pahc.source.eusebius-historia-ecclesiastica
+  locus: "4.23 (Dionysius of Corinth on keeping the Roman church's letter and Clement's earlier letter)"
   license: public-domain
 - source_id: pahc.source.didache
   locus: "the manuscript transmission itself: near-total dependence on the single 1056 CE Bryennios manuscript, undiscovered until 1873, per this row's own transmission note"
@@ -35,26 +38,7 @@ relations:
 name: "Transmission - The Correspondence Network as Carrier and Filter [2B - ongoing/internal]"
 matrix_cell: 2B
 kind: ongoing
-description: "HISTORICAL EVENT: this world's characteristic material was carried forward by
-  specific, named mechanisms, not an undifferentiated 'tradition.' Polycarp forwarded copies of
-  Ignatius's letters onward to Philippi at the Philippians' own request. 1 Clement survives via
-  Codex Alexandrinus (5th c., losing a leaf covering chs. 57-63) and Codex Hierosolymitanus (1056
-  CE), the latter also supplying nearly the entire text of the Didache, undiscovered until 1873.
-  Ignatius's own middle recension required a two-century critical dispute to be authenticated as the
-  genuine text at all. The Shepherd of Hermas survives in no single complete Greek manuscript, an
-  explicitly eclectic patchwork reconstruction with a documented forgery-adjacent complication (the
-  Simonides episode) in its Athos transmission. WORLD'S OWN EXPERIENCE: a letter was copied and
-  carried onward because a sister ekklesia asked for it, or because it answered a dispute that
-  mattered enough to keep. What was worth the risk and labor of copying was not decided by an
-  institution issuing instructions from a center - it was decided community by community, occasion
-  by occasion, out of what a given ekklesia judged worth keeping and passing on. FORMATION IMPACT:
-  the texts that survived best - Ignatius, eventually 1 Clement via biblical-codex inclusion - are
-  precisely the ones with either strong institutional backing or apologetic value to later, more
-  secure generations of the church, suggesting this world's own most vulnerable or marginal material
-  was structurally less likely to survive regardless of its original prevalence. This is the
-  mechanism behind the translocal network's own status as this world's strongest-evidenced gravity:
-  the network did not merely carry unity claims, it determined which portions of this world's own
-  self-understanding are recoverable today at all - a selection effect, not a neutral pipe."
+description: "HISTORICAL EVENT: named routes carried this world's texts forward. Polycarp sent copies of Ignatius's letters to Philippi because the Philippians asked for them. 1 Clement survives in Codex Alexandrinus, a Bible of the fifth century. That Bible lost the leaf with chapters 57 to 63. 1 Clement also survives in Codex Hierosolymitanus (1056 CE). That book holds nearly all of the Didache. No one knew of it until 1873. Scholars argued for two centuries before they accepted Ignatius's middle recension as genuine. The Shepherd of Hermas survives in no single complete Greek manuscript. Its text is pieced together. The Athos copy also has a forgery-adjacent episode (Simonides). WHY LETTERS WERE COPIED AND KEPT: the sources show two reasons. One was a request from a sister church. Polycarp tells the Philippians he has sent Ignatius's letters 'as you requested' (Philippians 13). The other was lasting use. 1 Clement was written to end a quarrel at Corinth. Decades later, Dionysius of Corinth writes to the Roman church. He says his church has read its new letter. They will always draw advice from it, as from the earlier letter written to them through Clement (Eusebius, Church History 4.23). Eusebius adds that reading Clement's letter in church was an old custom. In Hermas, Vision 2.4.3, Hermas must write two copies of his book. One goes to Clement, who will send it to foreign countries, 'for permission has been granted to him.' So some copying had authority behind it. This record infers that copying was otherwise decided church by church. No source says so, and Hermas points partly the other way. FORMATION IMPACT: Ignatius survived well. So did 1 Clement, through its place in a Bible codex. Both had strong backing or later use in debate. This record infers that more marginal material was less likely to survive. So the network was a filter as well as a carrier. It shaped what we can still recover of this world."
 manifestations:
 - "Polycarp forwarding the collected Ignatius letters onward to Philippi at the Philippians' own request (ch. 13)"
 - "the Didache's near-total dependence on a single medieval manuscript, undiscovered for roughly eighteen centuries"

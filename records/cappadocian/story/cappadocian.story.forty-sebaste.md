@@ -11,14 +11,17 @@ confidence:
   verification_state: unverified
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: "Widely Accepted as an authentic early cult and liturgical tradition, per Doc_09's own confidence column; the passion details themselves (the lake, the one who broke, the guard who took his place) are traditional, not independently verified reporting. cappadocian.source.basil-martyr-homilies-forty-gordius-julitta-mamas is one of the three sources this build already caught as falsely-claimed-verified and corrected to verification_state: unverified - carried forward honestly here rather than repeated as settled."
+  divergence_note: "Widely Accepted as an authentic early cult and liturgical tradition, per Doc_09's own confidence column; the passion details themselves (the pond, the one who broke, the guard who took his place) are traditional, not independently verified reporting. cappadocian.source.basil-martyr-homilies-forty-gordius-julitta-mamas is one of the three sources this build already caught as falsely-claimed-verified and corrected to verification_state: unverified - carried forward honestly here rather than repeated as settled."
 sources:
 - source_id: cappadocian.source.basil-martyr-homilies-forty-gordius-julitta-mamas
-  locus: "the homily on the Forty of Sebaste"
+  locus: "the homily on the Forty of Sebaste; the homily has no vendored file"
+- source_id: cappadocian.source.basil-letters-general-corpus
+  locus: "npnf208 Prolegomena, the editor's summary of Homily XIX: forty soldiers under Licinius, a.d. 320, 'plunged for a whole night into a frozen pond in the city' in sight of a hot bath; and the editors' report that Emmelia erected the Annesi chapel for the Forty, with their relics"
+  license: public-domain
 - source_id: cappadocian.source.gregory-nyssa-forty-martyrs-theodore-recruit-homilies
   locus: "Gregory of Nyssa's own homilies on the Forty"
 - source_id: cappadocian.source.gregory-nyssa-in-xl-martyres-ii
-  locus: "Emmelia's role in acquiring and enshrining the relics at Annisa"
+  locus: "the homily the editors cite for the Annisa chapel; the homily itself is not held"
 retrieval:
   tier: 1
   retrieve_when:
@@ -31,12 +34,12 @@ relations:
   target: cappadocian.gravity.martyrs-land
 narrative_tier: 2
 narrative_tier_justification: "Tier 2 (community tradition): the earliest surviving witnesses to this cult are preached within a century of the deaths - not eyewitness testimony, but early, convergent across two independent preachers, and tied to a real, dated liturgical calendar rather than legend invented from nothing. The specific passion details are traditional rather than independently verified reporting."
-tellable_as: "Forty soldiers are left to freeze on a lake for their faith, one breaks, and the guard watching them takes his place."
+tellable_as: "Forty soldiers are left to freeze on a pond for their faith, one breaks, and the guard watching them takes his place."
 text: >-
   Around 320, in one of the last persecutions, forty
   soldiers of the Roman army at Sebaste in Lesser Armenia were condemned
   for being Christians. Their punishment was exposure: stripped, they were
-  made to stand through a winter night on a frozen lake, with a warm bath
+  made to stand through a winter night on a frozen pond, with a warm bath
   left steaming on the shore as the one thing offered to whoever would deny
   the faith and step out of the cold. Tradition holds that one of the forty
   broke before the night ended and left for the warm water - and that a
@@ -48,11 +51,11 @@ text: >-
   past, but within living memory of the martyrs' own grandparents'
   generation. Basil and Gregory of Nyssa both preached on their feast, and
   the family into which Gregory, Basil, and Macrina were born held its own
-  direct connection to the cult: their mother, Emmelia, is credited with
-  acquiring relics of the Forty and enshrining them at the family's own
-  estate chapel at Annisa, tying our freshest martyr memory
+  direct connection to the cult: their mother, Emmelia, is remembered for
+  building the family's own chapel at Annisa for the Forty, where
+  the relics were placed. That tied our freshest martyr memory
   directly into our own household.
-telling: "It was around the year 320, in one of the last persecutions. At Sebaste in Lesser Armenia, forty soldiers were condemned for being Christians.\n\nAs our church remembers it, they were stripped and made to stand through a winter night on a frozen lake. A warm bath steamed on the shore. It was offered to any man who would deny the faith and step out of the cold.\n\nThe tradition says one of the forty broke before the night ended and went to the warm water. It says a guard set to watch them was moved by what he saw. He took off his own clothes and joined the rest on the ice. He confessed the faith the other man had just abandoned, so the martyrs still numbered forty. All of them died.\n\nBasil and Gregory of Nyssa both preached on the feast of the Forty. Their mother, Emmelia, is credited with gaining relics of the Forty and enshrining them in the family's estate chapel at Annisa."
+telling: "It was around the year 320, in one of the last persecutions. At Sebaste in Lesser Armenia, forty soldiers were condemned for being Christians.\n\nAs our church remembers it, they were stripped and made to stand through a winter night on a frozen pond. A warm bath steamed on the shore. It was offered to any man who would deny the faith and step out of the cold.\n\nThe tradition says one of the forty broke before the night ended and went to the warm water. It says a guard set to watch them was moved by what he saw. He took off his own clothes and joined the rest on the ice. He confessed the faith the other man had just abandoned, so the martyrs still numbered forty. All of them died.\n\nBasil and Gregory of Nyssa both preached on the feast of the Forty. Their mother, Emmelia, is remembered for building the family's chapel at Annisa for the Forty, where the relics were placed."
 absent_detail: "No account survives from any of the Forty themselves, or from the guard who is remembered as joining them; the specific narrative details belong to the tradition that grew up around the cult, not to a contemporary eyewitness record."
 modern_contrast: >-
   A modern reader might expect a martyr story this vivid to come from a
@@ -62,7 +65,7 @@ modern_contrast: >-
   retold as this world's freshest martyr memory, not chronicled as it
   happened.
 use_note:
-  means: "Forty soldiers were left to freeze on a lake around 320, and the cult with its feast and family relics evidences this world's fresh martyr memory."
+  means: "Forty soldiers were left to freeze on a pond around 320, and the cult with its feast and family relics evidences this world's fresh martyr memory."
   not_for:
     - "the passion details as eyewitness report, since they are traditional"
     - "the soldier who broke and the guard who took his place as attested fact"
@@ -74,8 +77,8 @@ use_note:
 Derived from Doc_09 entry #11 (Tier 2). The family-relic thread (Emmelia)
 is included directly in the text per Doc_09's own explicit usage guidance
 ("the family relic-connection may be added with its source named") -
-sourced to cappadocian.source.gregory-nyssa-in-xl-martyres-ii, work-level,
-per that source's own named-not-rechecked verification state. See
+sourced to the npnf208 editors' report, because
+cappadocian.source.gregory-nyssa-in-xl-martyres-ii is not held. See
 cappadocian.figure.emmelia for the boundary-figure reasoning on why she
 gets a figure record but not her own protagonist story.
 

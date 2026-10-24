@@ -37,7 +37,7 @@ assignments:
   locus: the fathers' texts, as distinct from the compilers' framing
   atlas_ids:
   - hesychasm-and-the-palamite-synthesis
-  role: transmission
+  role: antecedent
   confidence: provisional
   note: The older hesychast and ascetic tradition as the eighteenth century chose and printed it; reception
     for the Palamite world, provisional.
@@ -47,7 +47,7 @@ assignments:
   locus: the dedication after the title page, before the prooimion
   atlas_ids:
   - the-hesychast-revival-paisius-and-the-philokalia
-  role: transmission
+  role: context
   confidence: provisional
   note: The Athens editor's address of 1893, naming Nikodemos; a later reception of the anthology, not
     part of the 1782 book.

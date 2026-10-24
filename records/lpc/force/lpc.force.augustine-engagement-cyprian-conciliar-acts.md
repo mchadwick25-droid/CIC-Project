@@ -49,10 +49,10 @@ description: >-
   plenary Councils, the earlier are often corrected by those which follow them."
 
 
-  This is the only force that carries the world's formation logic across its 133-year silence between
-  the two phases. The crossing happens through texts, not through a line of living successors. It is
-  attested twice. The second instance is Possidius quoting Cyprian's De Mortalitate, which is not
-  treated as a force in its own right.
+  No other force carries as much of the world's formation logic across its 133-year silence between
+  the two phases. It is also the only one in which this world itself reads and answers Cyprian's council acts. The crossing happens
+  through texts, not through a line of living successors. It happens more than once. Possidius quotes
+  Cyprian's De Mortalitate. Augustine also cites Cyprian on grace against the Pelagians.
 
 
   This engagement produces the second of the world's two accounts of what councils can decide:
@@ -63,8 +63,7 @@ description: >-
 
   The Donatists prompted it by citing Cyprian for themselves, so the prompt came from outside. But the
   reading, the argument, and the conclusion were this world's own acts. The outside prompt decided only
-  the timing. For that reason it counts as an internal force. This placement was examined and confirmed,
-  not simply inherited.
+  the timing. For that reason it counts as an internal force.
 
 
   It also depended on an earlier condition. Cyprian's councils met and left written acts, and those acts

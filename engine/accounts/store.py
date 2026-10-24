@@ -6,7 +6,8 @@ only with Google or Apple), days and weeks (never a time of day), an age band.
 A linked sign-in holds the keyed hash of a provider's account id and the
 provider's name. A recovery code is kept as a keyed hash; a waiting recovery
 holds the keyed hash of the new address, of its cancel code, and the day it
-takes effect. Nothing else.
+takes effect. A pending coupon holds a random id, the keyed hash of the address
+it waits for, a token amount and the day it was approved. Nothing else.
 
 Ephemeral: challenges, sessions and counters. A challenge is one proof of
 control of an address: it has its own random id, belongs to one action, and is
@@ -77,8 +78,16 @@ CREATE TABLE IF NOT EXISTS pending_recoveries (
 ) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS deletion_ledger (
   ledger_hash TEXT PRIMARY KEY,
-  expires_on  TEXT NOT NULL
+  expires_on  TEXT NOT NULL,
+  published   INTEGER NOT NULL DEFAULT 0
 ) WITHOUT ROWID;
+CREATE TABLE IF NOT EXISTS pending_coupons (
+  coupon_id    TEXT PRIMARY KEY,
+  address_hash TEXT NOT NULL,
+  tokens       INTEGER NOT NULL CHECK (tokens > 0),
+  day_made     TEXT NOT NULL
+) WITHOUT ROWID;
+CREATE INDEX IF NOT EXISTS pending_coupons_by_address ON pending_coupons (address_hash);
 """
 
 EPHEMERAL_DDL = """
@@ -182,6 +191,8 @@ class AccountStore:
         self._lock = threading.RLock()
         self._d = _open(durable_path, DURABLE_DDL)
         _allow_accounts_without_address(self._d)
+        if not any(r[1] == "published" for r in self._d.execute("PRAGMA table_info(deletion_ledger)")):
+            self._d.execute("ALTER TABLE deletion_ledger ADD COLUMN published INTEGER NOT NULL DEFAULT 0")
         self._e = _open(ephemeral_path, EPHEMERAL_DDL)
         if not any(r[1] == "bound" for r in self._e.execute("PRAGMA table_info(challenges)")):
             self._e.execute("ALTER TABLE challenges ADD COLUMN bound TEXT")
@@ -310,6 +321,71 @@ class AccountStore:
                     outcome = "gone"
                 else:
                     outcome = "taken"
+                self._d.execute("COMMIT")
+            except BaseException:
+                self._d.execute("ROLLBACK")
+                raise
+            return outcome
+
+    # pending coupons -----------------------------------------------------------
+
+    def add_pending_coupon(self, coupon_id: str, address_hash: str, tokens: int, day: str) -> None:
+        with self._lock:
+            self._d.execute("INSERT INTO pending_coupons VALUES (?, ?, ?, ?)", (coupon_id, address_hash, tokens, day))
+
+    def pending_coupons_for(self, address_hashes: list[str]) -> list[tuple[str, int]]:
+        """(coupon id, tokens) for each coupon waiting for any of these address hashes, oldest first."""
+        if not address_hashes:
+            return []
+        marks = ",".join("?" * len(address_hashes))
+        with self._lock:
+            return [tuple(r) for r in self._d.execute(
+                f"SELECT coupon_id, tokens FROM pending_coupons WHERE address_hash IN ({marks}) ORDER BY day_made, coupon_id",
+                address_hashes,
+            )]
+
+    def pending_coupon_rows(self) -> list[dict]:
+        """Every waiting coupon as an id, an amount and a day. The address hash is not returned."""
+        with self._lock:
+            return [{"coupon_id": r[0], "tokens": r[1], "day_made": r[2]} for r in self._d.execute(
+                "SELECT coupon_id, tokens, day_made FROM pending_coupons ORDER BY day_made DESC, coupon_id"
+            )]
+
+    def cancel_pending_coupon(self, coupon_id: str) -> bool:
+        with self._lock:
+            return self._d.execute("DELETE FROM pending_coupons WHERE coupon_id = ?", (coupon_id,)).rowcount == 1
+
+    def purge_pending_coupons(self, made_before: str) -> int:
+        """Drops coupons nobody claimed, approved before the given day."""
+        with self._lock:
+            return self._d.execute("DELETE FROM pending_coupons WHERE day_made < ?", (made_before,)).rowcount
+
+    def claim_coupon(self, coupon_id: str, account_id: str, scramble: str, held_as: list[str], day: str, limit: int) -> str:
+        """Makes the coupon's code the account's and removes the waiting row, in one transaction.
+        'ok' or 'mine' when the code is held and the row is gone; 'full', 'taken' or 'gone'
+        leave the row, so the coupon waits for a later sign-in. A coupon cancelled meanwhile
+        reads 'gone'."""
+        marks = ",".join("?" * len(held_as))
+        with self._lock:
+            self._d.execute("BEGIN IMMEDIATE")
+            try:
+                if self._d.execute("SELECT 1 FROM pending_coupons WHERE coupon_id = ?", (coupon_id,)).fetchone() is None:
+                    outcome = "gone"
+                else:
+                    row = self._d.execute(f"SELECT account_id FROM account_codes WHERE scramble IN ({marks})", held_as).fetchone()
+                    if row is not None:
+                        outcome = "mine" if row[0] == account_id else "taken"
+                    elif self._d.execute("SELECT COUNT(*) FROM account_codes WHERE account_id = ?", (account_id,)).fetchone()[0] >= limit:
+                        outcome = "full"
+                    elif self._d.execute(
+                        "INSERT OR IGNORE INTO account_codes SELECT ?, account_id, ? FROM accounts WHERE account_id = ?",
+                        (scramble, day, account_id),
+                    ).rowcount == 1:
+                        outcome = "ok"
+                    else:
+                        outcome = "gone"
+                    if outcome in ("ok", "mine"):
+                        self._d.execute("DELETE FROM pending_coupons WHERE coupon_id = ?", (coupon_id,))
                 self._d.execute("COMMIT")
             except BaseException:
                 self._d.execute("ROLLBACK")
@@ -615,7 +691,10 @@ class AccountStore:
                 self._d.execute("DELETE FROM account_codes WHERE account_id = ?", (account_id,))
                 self._d.execute("DELETE FROM shelf WHERE account_id = ?", (account_id,))
                 if gone:
-                    self._d.execute("INSERT OR IGNORE INTO deletion_ledger VALUES (?, ?)", (ledger_hash, ledger_expires_on))
+                    self._d.execute(
+                        "INSERT OR IGNORE INTO deletion_ledger (ledger_hash, expires_on) VALUES (?, ?)",
+                        (ledger_hash, ledger_expires_on),
+                    )
                 self._d.execute("COMMIT")
             except BaseException:
                 self._d.execute("ROLLBACK")
@@ -628,6 +707,26 @@ class AccountStore:
             ledger = {r[0] for r in self._d.execute("SELECT ledger_hash FROM deletion_ledger")}
             ids = [r[0] for r in self._d.execute("SELECT account_id FROM accounts")]
         return [i for i in ids if hash_of(i) in ledger]
+
+    def unpublished_ledger(self) -> list[tuple[str, str]]:
+        """(ledger hash, expiry day) of each deletion not yet written to the outside copy."""
+        with self._lock:
+            return [(r[0], r[1]) for r in self._d.execute("SELECT ledger_hash, expires_on FROM deletion_ledger WHERE published = 0")]
+
+    def mark_ledger_published(self, ledger_hash: str) -> None:
+        with self._lock:
+            self._d.execute("UPDATE deletion_ledger SET published = 1 WHERE ledger_hash = ?", (ledger_hash,))
+
+    def add_ledger_entries(self, entries: list[tuple[str, str]]) -> int:
+        """Entries read back from the outside copy, kept as already published. Returns how many were new."""
+        added = 0
+        with self._lock:
+            for ledger_hash, expires_on in entries:
+                added += self._d.execute(
+                    "INSERT OR IGNORE INTO deletion_ledger (ledger_hash, expires_on, published) VALUES (?, ?, 1)",
+                    (ledger_hash, expires_on),
+                ).rowcount
+        return added
 
     def purge_durable(self, today: str) -> int:
         with self._lock:

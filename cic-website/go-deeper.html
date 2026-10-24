@@ -33,6 +33,7 @@
 .code-list li{display:flex;flex-wrap:wrap;align-items:center;gap:.8rem;min-width:0}
 .code-value{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:1.25rem;letter-spacing:.08em;overflow-wrap:anywhere}
 .state[hidden]{display:none}
+.gift-actions{display:flex;flex-wrap:wrap;gap:.8rem;margin:1rem 0}
 </style>
 <link rel="stylesheet" href="assets/feedback.css">
 </head>
@@ -128,6 +129,17 @@
     <p>A code from a sponsor or the pilot goes in the room: open Get more conversations and choose I have a code.</p>
   </section>
 
+  <section class="page-section" id="for-others">
+    <p class="eyebrow">Help others take part</p>
+    <h2>Keep the door open for others</h2>
+    <p>Free conversations are limited, and gifts keep them open. Every gift goes to the Accessibility Fund. It helps more people, in more languages, explore more Christian traditions.</p>
+    <div class="gift-actions">
+      <a class="btn primary" href="https://donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00">Give once</a>
+      <a class="btn primary" href="https://buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01">Give monthly</a>
+    </div>
+    <p class="fine-print">Church in Conversation is part of Faithways Studio, Inc., a Colorado public benefit corporation — not a nonprofit. Contributions are not tax-deductible. Both go through Stripe.</p>
+  </section>
+
   <section class="page-section" id="kept-apart">
     <p class="eyebrow">Kept apart</p>
     <h2>What you say stays separate from what you paid</h2>
@@ -154,9 +166,9 @@
 // Each pack's Stripe Payment Link (https://buy.stripe.com/...) is set here when sales open.
 // A pack with an empty link is not shown; the page stays closed until one link is set.
 var PAYMENT_LINKS = {
-  "1": "https://buy.stripe.com/14AeV6bbR1Ro9P69bT8bS02",
-  "2": "https://buy.stripe.com/28E9AM4Nt7bI0ew0Fn8bS03",
-  "3": "https://buy.stripe.com/aFa6oA93J0Nk1iA87P8bS04"
+  "1": "",
+  "2": "",
+  "3": ""
 };
 var anyOpen = false;
 function startPurchase(link){

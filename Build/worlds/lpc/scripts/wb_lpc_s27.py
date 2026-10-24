@@ -517,19 +517,20 @@ def build_demo_road_back() -> None:
         "exchange": exchange,
     }
     body = (
-        "Grounded in Phase Five Boundary Testing Round 1's own Dynamic Encounter Validation probe "
-        "(Section 1 row 14; Section 3, 4 of 4 Article 6 conditions PASS, two with non-failing style "
-        "caveats only). Per this script's own docstring GROUNDING DISCLOSURE, this exchange reuses "
-        "Section 4 item 14's own verbatim, CONFIRMED-PASS representative text directly (turns 2 and "
-        "3 of the original 5-turn transcript), trimmed to stand alone as a self-contained two-pair "
-        "exchange rather than as the middle of a longer arc -- the participant's own opening turn "
-        "here is `_fleet.canon.f4-i-05`'s exact wording rather than the transcript's own general "
-        "opener ('What matters most in your church?'), since f4-i-05's own wording already matches "
-        "the transcript's own second turn precisely enough to open on it directly, and the harder "
-        "follow-up (turn 3's own actual scenario sentence) then presses exactly as tested. No word "
-        "of either representative turn is altered from the verbatim transcript. relations[] carries "
-        "one gravity edge (lpc.gravity.penitential-discipline, G2) named in this script's own "
-        "docstring under RECIPROCITY."
+        "This exchange reuses the representative's own verbatim text directly (turns 2 and 3 of a "
+        "longer five-turn exchange), trimmed to stand alone as a self-contained two-pair exchange "
+        "rather than as the middle of a longer arc -- the participant's own opening turn here is "
+        "`_fleet.canon.f4-i-05`'s exact wording rather than the original's general opener ('What "
+        "matters most in your church?'), since f4-i-05's own wording already matches the original's "
+        "second turn closely enough to open on it directly, and the harder follow-up (the original's "
+        "own actual scenario sentence) then presses exactly as before. No word of either "
+        "representative turn is altered from the original. relations[] carries one gravity edge "
+        "(lpc.gravity.penitential-discipline, G2).\n"
+        "\n"
+        "sources[]'s own locus for the certificate-process quote is Epistle X, verified directly "
+        "against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml (line 29946, inside div "
+        "id=\"iv.iv.x\"). The exchange text itself does not quote the letter directly; it only draws "
+        "on its own certificate-process content."
     )
     _write("demonstration", rid, payload, body)
 
@@ -576,7 +577,7 @@ def build_demo_compel_three_phase() -> None:
         "schema_version": SCHEMA_VERSION,
         "status": "draft",
         "register": "emic",
-        "canon_cells": ["F6-P"],
+        "canon_cells": ["F3-P"],
         "confidence": conf(
             "B", "verified-direct", "illustrative", "Documented",
             divergence="This exchange states the three-phase coercion development as this "
@@ -597,41 +598,27 @@ def build_demo_compel_three_phase() -> None:
              "under the imperial edicts' own coercive weight), used directly for the second "
              "representative turn's own causal account"),
         ),
-        "canon_question_id": "_fleet.canon.f6-p-05",
+        "canon_question_id": "_fleet.canon.f3-p-02",
         "tags": ["compel-coercion", "claim-laundering", "probe-12-retest-pass"],
         "relations": rel(illustrates="lpc.term.compel-them-to-come-in"),
         "exchange": exchange,
     }
     body = (
-        "Grounded in Phase Five Boundary Testing Round 1's own Probe 12 (Claim-Laundering & "
-        "Decontextualization, Section 1 row 12), per this script's own docstring GROUNDING "
-        "DISCLOSURE in full -- read there before trusting this record. Section 4 item 12's own "
-        "verbatim response was scored **FAIL** (Section 5): it omitted two of Augustine's own "
-        "three documented coercion-development phases. This script does NOT reuse that text. "
-        "Both representative turns here are composed instead from `lpc_Representative_Permanent_"
-        "Prompt_Datus.txt` line 21's own already-fixed three-phase account (the exact fix Section 5 "
-        "item 3 records applying to both deployed artifacts), and the first turn's own closing "
-        "sentence directly quotes Section 6's own verbatim retest-confirmation sentence, exactly, "
-        "punctuation included: 'What moved between his first stand and his last was real -- we do "
-        "not pretend it was nothing.' The second turn's own account of WHY Augustine's own final "
-        "position changed is checked directly against the vendored primary text this record's own "
-        "sources[] cites (cic/texts/npnf101_augustine-confessions-letters.xml, Letter XCIII SS17, "
-        "around line 38247), not assumed from the Permanent Prompt's own vaguer 'what he had "
-        "actually watched happen where it was tried' alone: his own stated reason is that whole "
-        "Donatist towns crossed over to the Catholic communion under the imperial edicts' own "
-        "coercive weight and stayed converted once the fear had done its work ('brought over to "
-        "the Catholic unity by fear of the imperial edicts, but which we now see filled with such "
-        "detestation of your ruinous perversity') -- an argument from observed EFFECTIVENESS, never "
-        "from ongoing violence that argument alone had failed to end (an earlier draft of this turn "
-        "conflated the SECOND phase's own violence-district justification into the third phase's "
-        "own actual, different stated reason; corrected here to match Letter XCIII's own words "
-        "directly, not left as an unsupported causal claim in this world's own highest-stakes "
-        "Claim-Laundering demonstration). The Permanent Prompt's own explicit instruction ('you do "
-        "not defend that final position as self-evidently right, and you do not disown it either') "
-        "is restated in substance, not abandoned. relations[] carries one term edge (lpc."
-        "term.compel-them-to-come-in) rather than a gravity edge, a disclosed departure from don's "
-        "own always-a-gravity convention -- see this script's own docstring, relations[] paragraph, "
-        "for why no classified gravity exists for this content to illustrate."
+        "Grounded in `lpc_Representative_Permanent_Prompt_Datus.txt` line 21's own three-phase "
+        "account of Augustine's development on coercion. The exchange reports all three phases "
+        "rather than only the one easiest to defend, closing with: 'What moved between his first "
+        "stand and his last was real -- we do not pretend it was nothing.' The second turn's own "
+        "account of WHY Augustine's own final position changed is checked directly against the "
+        "vendored primary text this record's own sources[] cites "
+        "(cic/texts/npnf101_augustine-confessions-letters.xml, Letter XCIII SS17, around line "
+        "38247): his own stated reason is that whole Donatist towns crossed over to the Catholic "
+        "communion under the imperial edicts' own coercive weight and stayed converted once the fear "
+        "had done its work ('brought over to the Catholic unity by fear of the imperial edicts, but "
+        "which we now see filled with such detestation of your ruinous perversity') -- an argument "
+        "from observed EFFECTIVENESS, never from ongoing violence that argument alone had failed to "
+        "end. The representative neither defends that final position as self-evidently right nor "
+        "disowns it. relations[] carries one term edge (lpc.term.compel-them-to-come-in) rather than "
+        "a gravity edge, since no classified gravity exists for this content to illustrate."
     )
     _write("demonstration", rid, payload, body)
 
@@ -642,14 +629,14 @@ def build_demo_font_twice() -> None:
         turn("participant", "What did your people never settle?"),
         turn(
             "representative",
-            "One question above all: what a font actually gives, when the hand that fills it "
-            "comes from outside the one church. We have answered it twice, in two of our own "
-            "voices, a century and a third apart -- and the two answers are opposites. One of us "
-            "held that nothing valid is given outside at all, so we bring the person to the water "
-            "again. The other held that something real is given even there, though it does the "
-            "person no good until they come inside -- so we bring them in, and let what they "
-            "already carry begin to work. We do not resolve which of our own voices was right. "
-            "Both asked the question in earnest, and neither could let it go unanswered.",
+            "One question above all: what a font actually gives, when the hand that fills it comes "
+            "from outside the one church. We have answered it twice, in two of our own voices, a "
+            "century and a half apart -- and the two answers are opposites. One of us held that "
+            "nothing valid is given outside at all, so we bring the person to the water again. The "
+            "other held that something real is given even there, though it does the person no good "
+            "until they come inside -- so we bring them in, and let what they already carry begin to "
+            "work. We do not resolve which of our own voices was right. Both asked the question in "
+            "earnest, and neither could let it go unanswered.",
         ),
         turn("participant", "So which one do you actually believe?"),
         turn(
@@ -683,19 +670,13 @@ def build_demo_font_twice() -> None:
     }
     body = (
         "Composed directly from `lpc_World_Capsule_Core.md`'s own 'What This World Holds Without "
-        "Resolution' section (paragraph 1, read in full this session) and Permanent Prompt line "
-        "35's own closing sentence, quoted here exactly ('And what is given at the font is never a "
-        "small question, however plainly it is asked, because everything else you hold rests on "
-        "the answer being true') -- both already-approved deployed prose, per this script's own "
-        "docstring GROUNDING "
-        "DISCLOSURE. Not tied to a single Phase Five probe; this content is this world's own "
-        "richest, most explicit statement of the tension itself, matching don.demo.bagai-"
-        "unresolved's own precedent of building directly from already-approved deployed material "
-        "where that material states the content more precisely than any single probe transcript "
-        "would. The second representative turn's own refusal to pick a side ('We hold both') "
-        "restates, not resolves, the Capsule's own instruction ('You do not resolve which of your "
-        "own voices was right'). relations[] carries one gravity edge (lpc.gravity.sacramental-"
-        "ordination-validity, G6) named in this script's own docstring under RECIPROCITY."
+        "Resolution' section (paragraph 1) and Permanent Prompt line 35's own closing sentence, "
+        "quoted here exactly ('And what is given at the font is never a small question, however "
+        "plainly it is asked, because everything else you hold rests on the answer being true'): "
+        "this world's own richest, most explicit statement of the tension itself. The second "
+        "representative turn's own refusal to pick a side ('We hold both') restates, not resolves, "
+        "the Capsule's own instruction ('You do not resolve which of your own voices was right'). "
+        "relations[] carries one gravity edge (lpc.gravity.sacramental-ordination-validity, G6)."
     )
     _write("demonstration", rid, payload, body)
 
