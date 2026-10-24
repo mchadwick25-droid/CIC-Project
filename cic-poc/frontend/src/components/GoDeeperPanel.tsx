@@ -21,7 +21,7 @@ export function GoDeeperPanel() {
   const account = useAccount();
   const held = codes.length > 0;
   const accountBalance = accountsEnabled && account.status === 'in' ? account.balance : null;
-  const count = accountBalance ? accountBalance.free_left + accountBalance.code_tokens : held ? remaining : freeLeft;
+  const count = accountBalance ? accountBalance.free_left + accountBalance.code_tokens : held ? (remaining === null ? null : remaining + (freeLeft ?? 0)) : freeLeft;
   const [entering, setEntering] = useState(false);
   const [text, setText] = useState('');
   const [bad, setBad] = useState(false);
@@ -160,7 +160,7 @@ export function GoDeeperPanel() {
                   {low ? ` ${deeperCopy.low}` : ''}
                 </p>
               )}
-              {!held && freeLeft !== null && <p className="go-deeper__count">{deeperCopy.freeLeft(freeLeft)}</p>}
+              {freeLeft !== null && (!held || freeLeft > 0) && <p className="go-deeper__count">{deeperCopy.freeLeft(freeLeft)}</p>}
               <div className="go-deeper__actions">
                 <button type="button" onClick={getMore}>
                   {deeperCopy.getMore}
