@@ -1,0 +1,14 @@
+source_file: langlois_documents-lusignans-petite-armenie-1342-1394-fra_langlois1859.txt
+assignments:
+- row_id: langlois_documents-lusignans-petite-armenie-1342-1394-fra_langlois1859--documents-pour-servir-a-l-histoire-des-lusignans-de-la
+  work: Documents pour servir à l'histoire des Lusignans de la Petite Arménie, 1342-1394 (Langlois 1859)
+  author: langlois
+  locus: forty-one numbered documents; item 41, a colophon dated 1393-94, near the end of the file (about
+    line 3186)
+  atlas_ids:
+  - armenian-cilicia-after-the-kingdom
+  role: context
+  confidence: assigned
+  note: Documents of the last decades of the kingdom in French, Latin and Italian, ending with a French
+    rendering of an Armenian manuscript note of 1393-94, a colophon from the year after Levon V's death.
+    Nineteenth-century collector's French. Read the opening and the last item; the rest was sampled.

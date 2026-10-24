@@ -1,0 +1,14 @@
+source_file: diepenveen_het-klooster-van-diepenveen-dum_opzoomer1886.txt
+
+assignments:
+  - row_id: diepenveen_het-klooster-van-diepenveen-dum_opzoomer1886--het-klooster-van-diepenveen-lives-of-the-diepenveen-sisters
+    work: "Het Klooster van Diepenveen (lives of the Diepenveen sisters, Middle Dutch, Opzoomer's edition)"
+    author: diepenveen
+    locus: "whole volume; Opzoomer's preface first"
+    atlas_ids:
+      - devotio-moderna-brethren-of-the-common-life
+    role: tradition
+    confidence: assigned
+    note: >
+      The sisters' houses literature named in the census, in Middle Dutch. A primary voice once checked
+      against the page images. No public-domain English found; the fuller corpus is Middle Dutch only.

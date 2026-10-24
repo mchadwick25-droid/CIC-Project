@@ -1,0 +1,30 @@
+source_file: rhc-armeniens_documents-armeniens-t2-latins-et-francais-fra_academie1906.txt
+assignments:
+- row_id: rhc-armeniens_documents-armeniens-t2-latins-et-francais-fra_academie1906--recueil-des-historiens-des-croisades-documents-armeniens-ii
+  work: 'Recueil des historiens des croisades, Documents arméniens II: Hayton, Pseudo-Brocard, Daniel
+    de Thaurizio, Jean Dardel'
+  author: rhc-armeniens
+  locus: Hayton from file line 1556 (French text about 7236); Pseudo-Brocard 13370; Responsio ad errores
+    impositos Hermenis 18774; Dardel's Chronique d'Arménie from 23243
+  atlas_ids:
+  - armenian-cilicia-after-the-kingdom
+  role: context
+  confidence: assigned
+  note: 'The last years of the Cilician kingdom as Latin and French writers record them: Dardel was Levon
+    V''s confessor and secretary and his chronicle runs to mid-1384; the Responsio answers Latin charges
+    of error against the Armenians; Hayton''s Flor (1307) carries the crusade and Mongol policy of the
+    Cilician court. The Armenian church speaks only through these intermediaries. Read at the headings;
+    the texts themselves were sampled.'
+- row_id: rhc-armeniens_documents-armeniens-t2-latins-et-francais-fra_academie1906--recueil-des-historiens-des-croisades-documents-armeniens-ii-2
+  work: 'Recueil des historiens des croisades, Documents arméniens II: Hayton and the Latin sources on
+    Armenia'
+  author: rhc-armeniens
+  locus: Hayton and the Pseudo-Brocard, as above
+  atlas_ids:
+  - armenian-cilicia
+  - church-of-the-east-under-the-mongols
+  role: context
+  confidence: provisional
+  note: 'Placed on window and subject: Hayton''s Flor (1307) sums up the Mongol and Cilician story to
+    1304, and the Pseudo-Brocard is a pilgrim''s survey of the Holy Land and Armenia. Not read for these
+    entries.'

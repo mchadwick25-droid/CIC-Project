@@ -3,6 +3,28 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: church-of-the-east-under-the-mongols
 works:
+- row_id: cathay-and-the-way-thither_vol3-missionary-friars-pegolotti-marignolli_yule-cordier1914--cathay-and-the-way-thither-vol-iii-montecorvino-s-letters-ra
+  work: Cathay and the Way Thither, vol. III (Montecorvino's letters, Rashiduddin, Pegolotti,
+    Marignolli)
+  author: cathay-and-the-way-thither
+  locus: Montecorvino's letters at the contents entries from file line 244; Marignolli section
+    later in the volume; Quilon is named in some 23 lines
+  role: context
+  confidence: provisional
+  note: 'Outsider records, English, clean OCR: Montecorvino''s letters and Marignolli''s travels
+    including Quilon and the Nestorians. Placed on subject from the contents; not read through.
+    Yule and Cordier''s notes are scholarship.'
+  source_file: cathay-and-the-way-thither_vol3-missionary-friars-pegolotti-marignolli_yule-cordier1914.txt
+- row_id: hetum_history-of-the-tartars-flower-of-histories-of-the-east_bedrosian2004--het-um-the-historian-s-history-of-the-tartars-flower-of-2
+  work: Het'um the Historian's History of the Tartars [Flower of Histories of the East] (Bedrosian
+    2004)
+  author: hetum
+  locus: the whole text
+  role: context
+  confidence: provisional
+  note: 'Placed on window and subject: the Mongol history to about 1304 and the Cilician court.
+    Not read for these entries.'
+  source_file: hetum_history-of-the-tartars-flower-of-histories-of-the-east_bedrosian2004.txt
 - row_id: malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910--chapters-xxxi-xxxii-the-sixteenth-to-nineteenth-centuries-4
   work: History of the Syrian Nation and the Old Evangelical-Apostolic Church of the East
     (1910), the whole history to the present
@@ -16,3 +38,38 @@ works:
 
     '
   source_file: malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt
+- row_id: rhc-armeniens_documents-armeniens-t2-latins-et-francais-fra_academie1906--recueil-des-historiens-des-croisades-documents-armeniens-ii-2
+  work: 'Recueil des historiens des croisades, Documents arméniens II: Hayton and the Latin
+    sources on Armenia'
+  author: rhc-armeniens
+  locus: Hayton and the Pseudo-Brocard, as above
+  role: context
+  confidence: provisional
+  note: 'Placed on window and subject: Hayton''s Flor (1307) sums up the Mongol and Cilician
+    story to 1304, and the Pseudo-Brocard is a pilgrim''s survey of the Holy Land and Armenia.
+    Not read for these entries.'
+  source_file: rhc-armeniens_documents-armeniens-t2-latins-et-francais-fra_academie1906.txt
+- row_id: yahballaha-sauma_histoire-de-mar-jabalaha-iii-et-rabban-cauma-fra_chabot1895--histoire-de-mar-jabalaha-iii-et-du-moine-rabban-cauma-french
+  work: Histoire de Mar Jabalaha III et du moine Rabban Cauma (French translation of the Syriac
+    life, with appendices)
+  author: yahballaha-sauma
+  locus: chapters from file line 1051; appendices after the translation
+  role: antecedent
+  confidence: assigned
+  note: Primary Syriac life in French translation, clean OCR, with documentary appendices;
+    ready to quote once verified against the scan. Second translation of the same life as
+    the Budge English file; ends in 1317.
+  source_file: yahballaha-sauma_histoire-de-mar-jabalaha-iii-et-rabban-cauma-fra_chabot1895.txt
+- row_id: yahballaha-sauma_monks-of-kublai-khan_budge1928--the-monks-of-kublai-khan-life-of-mar-yahballaha-iii-and-rabb
+  work: The Monks of Kublai Khan (Life of Mar Yahballaha III and Rabban Sauma, English)
+  author: yahballaha-sauma
+  locus: chapters I to XIX from file line 5386; the patriarch's last years and death in the
+    closing chapters (XVII to XIX)
+  role: antecedent
+  confidence: assigned
+  note: Primary Syriac life in English translation, clean OCR, ready to quote once verified
+    against the scan. It ends at Yahballaha III's death in 1317, so it is the antecedent of
+    the Timur-to-Hakkari window and the core voice of the Mongol-era world; for the Malabar
+    world it is the patriarch who sent bishops to India. The Syriac original is not vendored;
+    Chabot's French translation is vendored beside this one.
+  source_file: yahballaha-sauma_monks-of-kublai-khan_budge1928.txt

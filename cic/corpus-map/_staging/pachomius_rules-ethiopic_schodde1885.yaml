@@ -102,3 +102,16 @@ assignments:
     having aided the composition.
 
     '
+
+- row_id: pachomius_rules-ethiopic_schodde1885--ethiopic-rules-aksumite-transmission
+  work: "The Rules of Pachomius in their Ethiopic (Ge'ez) version"
+  author: pachomius
+  locus: "whole file"
+  atlas_ids:
+    - aksumite-christianity
+  role: transmission
+  confidence: needs-ruling
+  note: >
+    Schodde's edition gives no date for the Ge'ez translation, so placing it in the
+    Aksumite window would be an outside claim; needs-ruling (Contested or Inferential-Thin
+    if used).

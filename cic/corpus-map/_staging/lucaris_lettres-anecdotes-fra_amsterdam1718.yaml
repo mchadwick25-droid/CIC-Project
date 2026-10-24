@@ -65,3 +65,17 @@ assignments:
       Tier: same time, different region.
 
       '
+  - row_id: lucaris_lettres-anecdotes-fra_amsterdam1718--lucaris-s-remarks-on-syropoulos-s-history-of-the-council-of
+    work: Lucaris's remarks on Syropoulos's History of the Council of Florence
+    author: lucaris
+    locus: whole volume
+    atlas_ids:
+    - byzantine-church-palaiologan
+    role: context
+    confidence: provisional
+    note: 'Tier: out-of-window. A seventeenth-century patriarch''s French-printed letters and the editor''s
+      notes cite Syropoulos ''grand Ecclesiarque, Auteur de l''Histoire du Concile de Florence, imprimee
+      a la Haye en 1660'' (file lines 3683-3694 and 33869). A pointer from the Ottoman world back to the
+      Florence memoir now vendored; not a voice of the Palaiologan world.
+  
+      '

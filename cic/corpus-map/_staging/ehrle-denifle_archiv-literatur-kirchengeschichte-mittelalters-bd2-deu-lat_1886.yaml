@@ -1,0 +1,29 @@
+source_file: ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt
+authors_ruled:
+  ehrle-denifle:
+    kind: metadata-omission
+    evidence: >-
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the author yet. The author or editor is named
+      on the title page printed in the file. A mechanical index-coverage gap, not an attribution dispute.
+assignments:
+- row_id: >-
+    ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886--archiv-fur-literatur-und-kirchengeschichte-des-mittelalters
+  work: >-
+    Archiv für Literatur- und Kirchengeschichte des Mittelalters, Bd 2 (1886): Ehrle's 'Die Spiritualen' part 2
+    with Angelo Clareno's Historia septem tribulationum ordinis minorum
+  author: ehrle-denifle
+  locus: >-
+    Contents page: 'Die Spiritualen, ihr Verhältniss zum Franziskanerorden und zu den Fraticellen', section 3, 'Die
+    historia septem tribulationum ordinis minorum' of fr. Angelus de Clarino (the word 'tribulatio' recurs on about
+    98 lines)
+  atlas_ids:
+  - fraticelli-spiritual-franciscan-rigorists
+  - franciscan-order-era-6
+  role: tradition
+  confidence: assigned
+  note: >-
+    Read at the contents page and sampled at three points; the Spirituals' own martyr-history sits here in Latin
+    extracts inside Ehrle's study. Scholars' articles in German around printed Latin documents; the Spirituals and
+    their opponents speak in the documents, Ehrle and Denifle frame them. The Latin is readable OCR, so the documents
+    are primary-grade once checked against the scan. No public-domain English translation found. No English version
+    of the Historia is vendored; the modern English (Burr and Daniel, 2005) is in copyright.

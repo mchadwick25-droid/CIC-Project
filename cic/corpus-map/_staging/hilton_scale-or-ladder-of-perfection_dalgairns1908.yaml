@@ -1,0 +1,24 @@
+source_file: hilton_scale-or-ladder-of-perfection_dalgairns1908.txt
+assignments:
+- row_id: hilton_scale-or-ladder-of-perfection_dalgairns1908--the-scale-or-ladder-of-perfection-dalgairns-printing-of-the-seventeenth-century-text
+  work: The Scale (or Ladder) of Perfection, Dalgairns printing of the seventeenth-century text
+  author: hilton
+  locus: contents from file line 232; Book I text from line 3269
+  atlas_ids:
+  - the-english-mystics-and-devout
+  role: tradition
+  confidence: assigned
+  note: Hilton's Scale in the English form Catholic readers used after the Reformation, reprinted in 1908
+    from Cressy's text. Clean OCR; a primary voice, ready to quote once verified against the scan. Wording
+    differs from Underhill's edition, so a quote must name its edition.
+- row_id: hilton_scale-or-ladder-of-perfection_dalgairns1908--the-scale-or-ladder-of-perfection-dalgairns-printing-of-the-seventeenth-century-text-2
+  work: The Scale (or Ladder) of Perfection, Dalgairns printing of the seventeenth-century text
+  author: hilton
+  locus: the whole file; the introduction names the 1869 and 1870 editions
+  atlas_ids:
+  - recusant-english-catholicism
+  role: transmission
+  confidence: provisional
+  note: 'Custody, not voice: this is Hilton as the English Benedictines and later Catholic editors kept
+    him in print. The voice is assigned to the English Mystics. Placed on the text''s own account of its
+    editions; left provisional.'

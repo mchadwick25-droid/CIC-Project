@@ -1,0 +1,99 @@
+source_file: palamas_opera-omnia-pg150-grc-lat_migne1865.txt
+authors_ruled:
+  gregory-sinai:
+    kind: metadata-omission
+    evidence: >-
+      The title page of tomus CL names 'Gregorii Sinaitae' among the authors added to Palamas, and the volume prints
+      his ascetic chapters and short tracts (running head 'GREGORII SINAITAE' at file line 60957, 'CAPITA PER ACROSTICHIDEM'
+      from 69298); the file's leading slug is palamas.
+    from_file: palamas_opera-omnia-pg150-grc-lat_migne1865.txt
+  synod-of-constantinople-1341-1351:
+    kind: anonymous
+    evidence: >-
+      Tomus CL prints the Hagioritic Tome 'pro Hesychastis' (running head 'HAGIORITICUS TOMUS' at file line 68672)
+      and tomus CLI prints the three synodal tomes (TOMUS SYNODICUS I at CLI file line 14261); synodal texts, no
+      single author.
+    from_file: palamas_opera-omnia-pg150-grc-lat_migne1865.txt
+  greek-opinions-on-palamas:
+    kind: anonymous
+    evidence: >-
+      Tomus CL prints, under the heading 'De Gregorio Palama' (file line 53921), a gathering of documents by several
+      hands for and against Palamas: Akindynos's iambs, Andrew of Kolossai's dialogue, the condemnation tome and
+      others; a compilation, no single author.
+    from_file: palamas_opera-omnia-pg150-grc-lat_migne1865.txt
+assignments:
+- row_id: >-
+    palamas_opera-omnia-pg150-grc-lat_migne1865--gregory-palamas-the-hesychast-writings-de-hesychastis-de
+  work: >-
+    Gregory Palamas, the Hesychast writings (De Hesychastis, De oratione et puritate cordis, the 150 chapters, the
+    Hagioritic Tome), Greek with Latin, in Migne PG 150
+  author: palamas
+  locus: De Hesychastis from file line 64286; chapters from 64961; Hagioritic Tome from 68672
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: tradition
+  confidence: assigned
+  note: >-
+    Palamas's own defence of the hesychast way and the Athonite Tome of 1340-41 that the monks signed. A primary
+    voice, ready to quote once checked verbatim against the scan; Greek and Latin are read from the same OCR, and
+    a quote record must be verified against the page image. No public-domain English translation of this work is
+    vendored (see the dossier, section 4).
+- row_id: >-
+    palamas_opera-omnia-pg150-grc-lat_migne1865--gregory-palamas-the-hesychast-writings-in-migne-pg-150
+  work: Gregory Palamas, the Hesychast writings, in Migne PG 150
+  author: palamas
+  locus: as above
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: context
+  confidence: needs-ruling
+  note: >-
+    The census lists Palamas among the voices of this entry while treating the hesychast movement and its theology
+    as a separate world. Whether his own writings sit here as the church's voice or only as context is a cross-world
+    question for the lead.
+- row_id: >-
+    palamas_opera-omnia-pg150-grc-lat_migne1865--gregory-of-sinai-ascetic-chapters-and-tracts-on-quiet-and
+  work: >-
+    Gregory of Sinai, ascetic chapters and tracts on quiet and prayer, Greek with Latin, in Migne PG 150
+  author: gregory-sinai
+  locus: from file line 60957 (running head); capita from 69298 to the end of the volume
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: tradition
+  confidence: assigned
+  note: >-
+    The Athonite teacher who carried the hesychast method to the Balkans, in the original Greek with Migne's Latin.
+    A primary voice, ready to quote once checked verbatim against the scan; Greek and Latin are read from the same
+    OCR, and a quote record must be verified against the page image. No public-domain English translation of this
+    work is vendored (see the dossier, section 4).
+- row_id: >-
+    palamas_opera-omnia-pg150-grc-lat_migne1865--greek-opinions-on-palamas-akindynos-s-iambs-andrew-of
+  work: >-
+    Greek opinions on Palamas (Akindynos's iambs, Andrew of Kolossai's dialogue, Harmenopoulos on the Palamite heresy,
+    the tome of condemnation, David the monk), Greek with Latin, in Migne PG 150
+  author: greek-opinions-on-palamas
+  locus: section 'De Gregorio Palama' from file line 53921
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: context
+  confidence: provisional
+  note: >-
+    The anti-Palamite and condemnation documents gathered by Migne, set beside the Palamite ones. Placed from the
+    volume's elenchus and headings; the section was not read through.
+- row_id: >-
+    palamas_opera-omnia-pg150-grc-lat_migne1865--nicholas-cabasilas-commentary-on-the-divine-liturgy-greek
+  work: >-
+    Nicholas Cabasilas, Commentary on the Divine Liturgy (Greek with Latin) and The Life in Christ (Latin of Pontanus),
+    in Migne PG 150
+  author: cabasilas
+  locus: >-
+    Commentary (De divino altaris sacrificio) from file line 26321; Life in Christ (De vita in Christo) from 35706
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: tradition
+  confidence: assigned
+  note: >-
+    The lay theologian of Thessalonica whom the census calls a lay-facing formation voice. The Life in Christ is
+    here in Latin only, from Pontanus; the Greek is in the Gass edition vendored beside it (OCR unusable). A primary
+    voice ready to quote from the Latin, once checked against the scan; no public-domain English translation is
+    vendored.

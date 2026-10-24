@@ -1,0 +1,20 @@
+source_file: rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt
+
+authors_ruled:
+  cambro-british-saints-lives:
+    kind: anonymous
+    evidence: >
+      Anonymous medieval lives of Welsh saints; the edition names only its editor.
+    from_file: rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt
+
+assignments:
+  - row_id: rees_lives-of-the-cambro-british-saints-lat-eng_1853--cambro-british-saints
+    work: "Lives of the Cambro-British saints (David, Cadoc, Illtud and others), Latin and Welsh with English"
+    author: cambro-british-saints-lives
+    locus: "the lives by saint"
+    atlas_ids:
+      - british-welsh-christianity
+    role: transmission
+    confidence: provisional
+    note: >
+      Late medieval memory of 6th-century saints; transmission, confidence tags required.

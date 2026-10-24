@@ -86,3 +86,17 @@ assignments:
       Placed on the letter headings and Bonnet''s note, not on a full read.
 
       '
+  - row_id: calvin_letters-vol4_bonnet1858--editor-s-note-on-the-theologia-germanica-basel-1557-french
+    work: Editor's note on the Theologia Germanica (Basel 1557, French 1558)
+    author: calvin
+    locus: whole volume
+    atlas_ids:
+    - rhineland-mysticism-and-the-friends-of-god
+    role: context
+    confidence: provisional
+    note: 'The editor''s footnote at file line 1203 names the Theologia Germanica, ''a remarkable monument
+      of the ancient German mysticism, published by Luther, translated by Castalio'', and says it might
+      offend Calvin''s orthodoxy. It shows how the treatise reached the Reformed world. Tier: out of window.
+      Placed on that note only.
+  
+      '

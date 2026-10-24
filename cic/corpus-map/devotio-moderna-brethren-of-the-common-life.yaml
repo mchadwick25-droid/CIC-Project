@@ -18,6 +18,19 @@ works:
 
     '
   source_file: busch_chronicon-windeshemense-lat_grube1886.txt
+- row_id: diepenveen_het-klooster-van-diepenveen-dum_opzoomer1886--het-klooster-van-diepenveen-lives-of-the-diepenveen-sisters
+  work: Het Klooster van Diepenveen (lives of the Diepenveen sisters, Middle Dutch, Opzoomer's
+    edition)
+  author: diepenveen
+  locus: whole volume; Opzoomer's preface first
+  role: tradition
+  confidence: assigned
+  note: 'The sisters'' houses literature named in the census, in Middle Dutch. A primary voice
+    once checked against the page images. No public-domain English found; the fuller corpus
+    is Middle Dutch only.
+
+    '
+  source_file: diepenveen_het-klooster-van-diepenveen-dum_opzoomer1886.txt
 - row_id: groote_epistolae-xiv-lat_acquoy1857--gerardi-magni-epistolae-xiv-fourteen-letters-of-gerard
   work: Gerardi Magni Epistolae XIV (Fourteen Letters of Gerard Groote)
   author: groote
@@ -33,6 +46,79 @@ works:
 
     '
   source_file: groote_epistolae-xiv-lat_acquoy1857.txt
+- row_id: ignatius-loyola_exercitia-spiritualia-et-directoria-lat-spa_1919--monumenta-edition-of-the-spiritual-exercises-editorial
+  work: 'Monumenta edition of the Spiritual Exercises: editorial comparisons with Thomas a
+    Kempis'
+  author: ignatius-loyola
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'The editors'' notes compare the Exercises with Kempis (file lines 2644, 3070 ''Kempis
+    in omnium manibus versatur'', 3082 ''Thomae a Kempis cum Ludolfo et Ignatio communia'',
+    4605, 5457, 5559). The census names the movement as a parent of Jesuit formation; this
+    is where the shelf shows the comparison. Tier: out of window. Placed on those notes.
+
+    '
+  source_file: ignatius-loyola_exercitia-spiritualia-et-directoria-lat-spa_1919.txt
+- row_id: kempis_st-lydwine-of-schiedam_scully1912--kempis-life-of-st-lydwine-of-schiedam-scully-s-translation
+  work: Kempis, Life of St Lydwine of Schiedam (Scully's translation)
+  author: kempis
+  locus: whole volume; Scully's introduction first
+  role: tradition
+  confidence: assigned
+  note: 'A saint''s life from the Windesheim canon''s pen, in public-domain English. The Latin
+    is vendored in the Pohl volume.
+
+    '
+  source_file: kempis_st-lydwine-of-schiedam_scully1912.txt
+- row_id: kempis_meditation-on-the-incarnation-sermons-life-passion_scully1907--kempis-meditation-on-the-incarnation-sermons-on-the-life-and
+  work: Kempis, Meditation on the Incarnation; Sermons on the Life and Passion of our Lord
+    (Scully's translation)
+  author: kempis
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'The public-domain English of Kempis''s sermons and meditation from Pohl''s volume
+    3.
+
+    '
+  source_file: kempis_meditation-on-the-incarnation-sermons-life-passion_scully1907.txt
+- row_id: kempis_opera-omnia-v3-meditatio-incarnatione-sermones-lat_pohl1904--kempis-opera-omnia-vol-3-meditatio-de-incarnatione-sermones
+  work: 'Kempis, Opera omnia vol. 3: Meditatio de incarnatione, Sermones de vita et passione
+    Domini (Pohl, Latin)'
+  author: kempis
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'A further volume of Kempis''s own works beyond the Imitation and the volumes already
+    vendored. Primary once checked against the scan. The English of Scully (1907) is vendored
+    beside it.
+
+    '
+  source_file: kempis_opera-omnia-v3-meditatio-incarnatione-sermones-lat_pohl1904.txt
+- row_id: kempis_prayers-and-meditations-on-the-life-of-christ_duthoit1904--kempis-prayers-and-meditations-on-the-life-of-christ-duthoit
+  work: Kempis, Prayers and Meditations on the Life of Christ (Duthoit's translation)
+  author: kempis
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'The public-domain English of Kempis''s prayers and meditations, made from Pohl''s
+    Latin, which is vendored beside it in the file kempis_opera-omnia-tractatus-lat_pohl1902.txt
+    (Volumen quintum, Orationes et meditationes de vita Christi).
+
+    '
+  source_file: kempis_prayers-and-meditations-on-the-life-of-christ_duthoit1904.txt
+- row_id: kempis_sermons-to-the-novices-regular_scully1907--kempis-sermons-to-the-novices-regular-scully-s-translation
+  work: Kempis, Sermons to the Novices Regular (Scully's translation)
+  author: kempis
+  locus: whole volume; translator's preface first
+  role: tradition
+  confidence: assigned
+  note: 'Kempis teaching novices in his own house, in public-domain English. The Latin is
+    vendored beside it in the Pohl volume.
+
+    '
+  source_file: kempis_sermons-to-the-novices-regular_scully1907.txt
 - row_id: kempis_opera-omnia-sermones-de-compunctione-lat_pohl1902--opera-omnia-de-vera-compunctione-sermones
   work: Opera Omnia (De Vera Compunctione, Sermones)
   author: kempis
@@ -143,6 +229,56 @@ works:
 
     '
   source_file: kempis_little-garden-of-roses-and-valley-of-lilies_1867.txt
+- row_id: kempis_earliest-english-translation-de-imitatione-christi-enm_ingram1893--the-earliest-english-translation-of-the-imitation-of-christ-ed-john-k-ingram-eets-es-63
+  work: The earliest English translation of the Imitation of Christ, ed. John K. Ingram (EETS
+    ES 63)
+  author: kempis
+  locus: the whole file; Ingram's introduction at the head
+  role: tradition
+  confidence: provisional
+  note: The Devotio Moderna's central book in an early English translation by William Atkinson
+    (died 1509, per the host record), with Lady Margaret Beaufort also listed by the host.
+    The voice is Kempis's own; this is how it reached English readers. Placed on the host
+    record and the edition's title without reading the introduction; left provisional. Middle
+    English OCR; second witness for wording.
+  source_file: kempis_earliest-english-translation-de-imitatione-christi-enm_ingram1893.txt
+- row_id: langenberg_quellen-und-forschungen-niederdeutschen-mystik-gml_1902--langenberg-quellen-und-forschungen-groote-s-tract-on-simony
+  work: Langenberg, Quellen und Forschungen (Groote's tract on simony and the beguines; a
+    lay rule; Low German texts)
+  author: langenberg
+  locus: parts 1 and 5 for the Groote tract and the lay rule; whole volume otherwise
+  role: tradition
+  confidence: assigned
+  note: 'Groote in his own Middle Dutch, with a study. Primary for the printed texts, scholarship
+    for the commentary. No public-domain English found.
+
+    '
+  source_file: langenberg_quellen-und-forschungen-niederdeutschen-mystik-gml_1902.txt
+- row_id: ruusbroec_adornment-spiritual-marriage-sparkling-stone-book-supreme-truth_wynschenk-dom1916--ruysbroeck-adornment-of-the-spiritual-marriage-sparkling-2
+  work: Ruysbroeck, Adornment of the Spiritual Marriage, Sparkling Stone, Book of Supreme
+    Truth (Wynschenk Dom's translation)
+  author: ruusbroec
+  locus: whole volume; Underhill's introduction first
+  role: antecedent
+  confidence: needs-ruling
+  note: 'Groote''s letters and Kempis''s Founders both name Ruysbroeck (the prior of Groenendael)
+    as an influence on the first Brothers. Placement between this world and the Rhineland
+    world is a question for the project lead.
+
+    '
+  source_file: ruusbroec_adornment-spiritual-marriage-sparkling-stone-book-supreme-truth_wynschenk-dom1916.txt
+- row_id: wesley-j_journal-v1_curnock1909--wesley-s-journal-reading-kempis-s-christian-pattern
+  work: 'Wesley''s Journal: reading Kempis''s Christian Pattern'
+  author: wesley-j
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'Wesley names Kempis''s Imitation of Christ, or Christian Pattern, as the book that
+    turned his mind (file lines 963 to 1063). The Methodist line from the Imitation. Tier:
+    out of window. Placed on those passages.
+
+    '
+  source_file: wesley-j_journal-v1_curnock1909.txt
 - row_id: zerbolt_spiritual-ascent_arthur1908--the-spiritual-ascent-a-devotional-treatise-de-spiritualibus
   work: 'The Spiritual Ascent: A Devotional Treatise (De Spiritualibus Ascensionibus)'
   author: zerbolt

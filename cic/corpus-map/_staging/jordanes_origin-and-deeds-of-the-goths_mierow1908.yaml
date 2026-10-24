@@ -1,0 +1,22 @@
+source_file: jordanes_origin-and-deeds-of-the-goths_mierow1908.txt
+
+authors_ruled:
+  jordanes:
+    kind: metadata-omission
+    evidence: >
+      The eBook names Jordanes as author of the Getica; the corpus-map has no earlier ruling
+      for the slug.
+    from_file: jordanes_origin-and-deeds-of-the-goths_mierow1908.txt
+
+assignments:
+  - row_id: jordanes_origin-and-deeds-of-the-goths_mierow1908--getica
+    work: "Jordanes, Getica (The Origin and Deeds of the Goths)"
+    author: jordanes
+    locus: "chapters I-LX; conversion at raw line ~1662, Vulfila ~3302"
+    atlas_ids:
+      - gothic-and-vandal-homoian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      A Romanised Goth's account of his people's Arian conversion; outside the church's own
+      voice.

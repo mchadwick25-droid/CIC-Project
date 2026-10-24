@@ -1,0 +1,16 @@
+source_file: hofler_geschichtschreiber-husitischen-bewegung-v1-lat_1856.txt
+assignments:
+- row_id: hofler_geschichtschreiber-husitischen-bewegung-v1-lat_1856--articuli-sacerdotum-hereticorum-et-pikharditarum-and-the
+  work: Articuli sacerdotum hereticorum et Pikharditarum, and the Anonymus de origine Taboritarum (Höfler
+    I)
+  author: hofler
+  locus: '''Articuli sacerdotum hereticorum et Pikharditarum isti sunt'' and ''Anonymus de origine Taboritarum''
+    in the second half of the volume'
+  atlas_ids:
+  - taborite-radicalism
+  - inquisition-record-sects-adamites-and-kin
+  role: context
+  confidence: provisional
+  note: Hostile Hussite-side records about the Picards (the sect later named Adamites) and an anonymous
+    account of Tabor's origin. Provisional because the volume was not read through. Latin readable with
+    scattered errors.

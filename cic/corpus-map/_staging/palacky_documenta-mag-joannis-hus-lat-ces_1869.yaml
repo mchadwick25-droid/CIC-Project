@@ -17,3 +17,15 @@ assignments:
     coverage against a clean Latin vocabulary 0.80). The Czech letters keep Palacký's 1869 orthography
     (w for v) and the OCR drops or misplaces some diacritics (for example pfepustí for přepustí), so check
     every Czech quotation against the scan.
+- row_id: palacky_documenta-mag-joannis-hus-lat-ces_1869--palacky-documenta-mag-joannis-hus-the-relatio-of-petr-of
+  work: 'Palacký, Documenta Mag. Joannis Hus: the Relatio of Petr of Mladoňovice and the documents of
+    the Constance trial'
+  author: palacky
+  locus: whole volume
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: context
+  confidence: provisional
+  note: 'The trial of Hus at the Council of Constance told by his companion (the Relatio begins near file
+    line 13041), with Latin documents of the case. The council''s act from the side of its defendant.
+    Already assigned to the Hussite entry as tradition. Tier: same time-place.'

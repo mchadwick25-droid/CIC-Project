@@ -21,3 +21,67 @@ assignments:
       critical edition (confirmed unusable here by its own garbled
       non-Latin-script OCR) - do not use it for this work without
       re-verifying it first.
+
+  - row_id: john-ephesus_ecclesiastical-history-part3_paynesmith1860--iv-alexandria-theodosius-damian
+    work: "Ecclesiastical History Part III, Book IV (Theodosius of Alexandria in exile; the Alexandrian succession of 566-578: Theodore, Peter IV, Damian; Jacob Baradaeus at Alexandria; the Gaianites)"
+    author: john-ephesus
+    locus: "Book IV (raw file lines ~10891-14634)"
+    atlas_ids:
+      - cyrilline-miaphysite-egyptian-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      An ally's history of the Egyptian anti-Chalcedonian party and its patriarchal
+      succession. Tradition provisionally (John was a Syrian partisan of the same communion,
+      not an Egyptian); a build thread should decide tradition versus context. Tier 1 cross-link, Era III Library pass, October 2026.
+
+  - row_id: john-ephesus_ecclesiastical-history-part3_paynesmith1860--iv-6-9-iv-49-54-nubian-mission
+    work: "Ecclesiastical History Part III, Book IV.6-9 and IV.49-54 (the mission of Julian to the Nobadae, 543; Longinus's journey to Alodia; the letters of the kings of Alodia and of the Nobadae)"
+    author: john-ephesus
+    locus: "Book IV ch. 6-9 (raw file lines ~10891-11240) and ch. 49-54 (~13290-13800); the royal letters at ~13537 and ~13698"
+    atlas_ids:
+      - nubian-christianity
+    role: context
+    confidence: needs-ruling
+    note: >
+      The whole surviving narrative of Nubia's conversion, with two royal letters quoted.
+      Context for John's own narrative; whether the quoted letters count as Nubia's own
+      voice (tradition) is a needs-ruling named in the Nubian dossier. Tier 1, Era III
+      Library pass, October 2026.
+
+  - row_id: john-ephesus_ecclesiastical-history-part3_paynesmith1860--ii-18-24-armenian-catholicos
+    work: "Ecclesiastical History Part III, Book II.18-24 (the Armenian Catholicos at Constantinople, 571-573, refusing communion with the Chalcedonians)"
+    author: john-ephesus
+    locus: "Book II ch. 18-24 (raw file lines ~5940-6300)"
+    atlas_ids:
+      - armenian-christianity-after-avarayr
+    role: context
+    confidence: provisional
+    note: >
+      Just after the entry's window; the Armenian church's stance on Chalcedon as a
+      sympathetic Syrian saw it. Provisional on the window. Era III Library pass,
+      October 2026.
+
+  - row_id: john-ephesus_ecclesiastical-history-part3_paynesmith1860--constantinople-justin-ii-tiberius-sophia
+    work: "Ecclesiastical History Part III, Books I-III and V-VI (the capital under Justin II, Tiberius and Maurice; the empress Sophia; the persecution of 571)"
+    author: john-ephesus
+    locus: "Books I-III, V-VI"
+    atlas_ids:
+      - byzantine-imperial-church-justinianic
+    role: context
+    confidence: assigned
+    note: >
+      The imperial church of 571-585 described by the anti-Chalcedonian bishop it
+      imprisoned. Era III Library pass, October 2026.
+
+  - row_id: john-ephesus_ecclesiastical-history-part3_paynesmith1860--silko-inscription-appendix
+    work: "The Silko inscription (Greek with English) in Payne Smith's appendix"
+    author: john-ephesus
+    locus: "appendix (raw file lines ~14520-14560)"
+    atlas_ids:
+      - nubian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      The Nobadian king's own victory inscription from Kalabsha, quoted by the translator;
+      its date and its Christian reading are contested. Era III Library pass, October 2026.

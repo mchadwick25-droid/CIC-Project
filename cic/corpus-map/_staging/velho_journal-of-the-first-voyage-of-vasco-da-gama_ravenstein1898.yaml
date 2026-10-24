@@ -1,0 +1,13 @@
+source_file: velho_journal-of-the-first-voyage-of-vasco-da-gama_ravenstein1898.txt
+assignments:
+- row_id: velho_journal-of-the-first-voyage-of-vasco-da-gama_ravenstein1898--journal-of-the-first-voyage-of-vasco-da-gama-1497-1499-the-r
+  work: Journal of the First Voyage of Vasco da Gama, 1497-1499 (the Roteiro)
+  author: velho
+  locus: Calicut and the supposed Christians at file lines 2978-3007 and 1375-1474
+  atlas_ids:
+  - st-thomas-christians-1300-1517
+  role: context
+  confidence: provisional
+  note: Outsider Portuguese journal of 1497 to 1499, English translation, clean OCR. Its notice of Christians
+    at Calicut is a mistake the crew made about Hindu temples, which is itself the evidence of what the
+    Portuguese expected. Placed on subject; not read through.

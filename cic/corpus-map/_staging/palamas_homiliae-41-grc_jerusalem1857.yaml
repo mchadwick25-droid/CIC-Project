@@ -1,0 +1,47 @@
+source_file: palamas_homiliae-41-grc_jerusalem1857.txt
+authors_ruled:
+  philotheos-kokkinos:
+    kind: metadata-omission
+    evidence: >-
+      The title page of the 1857 edition names the discourses 'of Philotheos and Neilos, patriarchs of Constantinople'
+      as going before the homilies; the file's leading slug is palamas.
+    from_file: palamas_homiliae-41-grc_jerusalem1857.txt
+assignments:
+- row_id: >-
+    palamas_homiliae-41-grc_jerusalem1857--gregory-palamas-forty-one-homilies-greek-jerusalem-1857
+  work: Gregory Palamas, forty-one homilies, Greek, Jerusalem 1857 (first edition)
+  author: palamas
+  locus: homilies after the prolegomena (file line 137); Homily XI at 17189
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: tradition
+  confidence: assigned
+  note: >-
+    Palamas as preacher in his own Greek, clean enough to quote; the lay-facing side of the Palamite synthesis.
+    The census names the Triads as the cornerstone; these are the homilies. A primary voice ready to quote once
+    checked verbatim against the scan; no public-domain English translation is vendored.
+- row_id: >-
+    palamas_homiliae-41-grc_jerusalem1857--philotheos-kokkinos-and-neilos-of-constantinople-panegyrics
+  work: >-
+    Philotheos Kokkinos and Neilos of Constantinople, panegyrics of Gregory Palamas, Greek, in the Jerusalem edition
+    of 1857
+  author: philotheos-kokkinos
+  locus: before the prolegomena (file line 137)
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: tradition
+  confidence: provisional
+  note: >-
+    The two patriarchs who made Palamas a saint, speaking for the church that canonised him. Placed from the title
+    page; the panegyrics were not read through.
+- row_id: palamas_homiliae-41-grc_jerusalem1857--gregory-palamas-forty-one-homilies-jerusalem-1857
+  work: Gregory Palamas, forty-one homilies, Jerusalem 1857
+  author: palamas
+  locus: as above
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: context
+  confidence: needs-ruling
+  note: >-
+    Same cross-world question as the Migne volume: whether Palamas's own writings are this entry's voice or only
+    context.

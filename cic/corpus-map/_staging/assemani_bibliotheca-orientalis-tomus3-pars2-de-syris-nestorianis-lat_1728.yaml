@@ -70,3 +70,17 @@ assignments:
     note: >
       The eighteenth-century Roman account of the two lines that the nineteenth-century consolidation resolved.
       An antecedent only; placed on subject.
+  - row_id: assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728--assemani-bibliotheca-orientalis-iii-2-the-cyprus-union-of
+    work: 'Assemani, Bibliotheca orientalis III.2: the Cyprus union of 1445 and the council of Nicosia'
+    author: assemani
+    locus: whole volume
+    atlas_ids:
+    - maronite-christianity-era-6
+    role: context
+    confidence: assigned
+    note: 'Tier: same time-place, second witness. At file lines 29125 to 29216 Assemani records that the
+      Maronites, Nestorians and Jacobites of Cyprus were at the council of Nicosia (1340), that Timothy
+      of Tarsus, metropolitan of the Chaldaeans in Cyprus, abjured the Nestorian error before Eugenius IV,
+      and that the bull ''Dat. VII. Non. Aug. anno 1445'' (7 August 1445) names the profession of Isaac,
+      envoy of Elias, bishop of the Maronites in Cyprus. This gives the bull''s date, which the Raynaldus
+      extract does not. Read at those lines. A Maronite priest writing in Rome in 1728.'

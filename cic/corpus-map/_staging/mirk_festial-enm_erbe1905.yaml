@@ -1,0 +1,14 @@
+source_file: mirk_festial-enm_erbe1905.txt
+assignments:
+- row_id: mirk_festial-enm_erbe1905--mirk-s-festial-part-i-ed-theodor-erbe-eets-es-96
+  work: Mirk's Festial, Part I, ed. Theodor Erbe (EETS ES 96)
+  author: mirk
+  locus: the table of sermons from file line 406
+  atlas_ids:
+  - late-medieval-lay-parish-piety
+  role: tradition
+  confidence: assigned
+  note: 'The era''s most-copied English sermon collection, written for parish priests to preach to their
+    congregations: sermons for the year''s feasts and the saints. The nearest vendored proxy for what
+    the pew heard. A second witness for exact wording (Middle English OCR); check page images before quoting.
+    Part II of Erbe''s edition was never issued in this series.'

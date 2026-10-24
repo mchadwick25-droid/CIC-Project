@@ -1,0 +1,14 @@
+source_file: rolle_yorkshire-writers-enm_horstman1895.txt
+assignments:
+- row_id: rolle_yorkshire-writers-enm_horstman1895--yorkshire-writers-richard-rolle-of-hampole-and-his-followers-ed-c-horstman-middle-english
+  work: 'Yorkshire Writers: Richard Rolle of Hampole and his Followers, ed. C. Horstman (Middle English)'
+  author: rolle
+  locus: Horstman's introduction from file line 115
+  atlas_ids:
+  - the-english-mystics-and-devout
+  role: tradition
+  confidence: assigned
+  note: 'Rolle''s English writings and those of his followers (including Hilton) in Middle English, with
+    Horstman''s introduction on the sources for Rolle''s life. About 1.8 MB. A second witness for exact
+    wording: the Middle English OCR and the variant-reading lines are noisy, so a quote must be checked
+    against the page images.'

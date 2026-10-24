@@ -3,6 +3,16 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: coptic-christianity-under-early-islam
 works:
+- row_id: baladhuri_origins-of-the-islamic-state-v1_hitti1916--part-vii-egypt
+  work: Part VII, Egypt (the conquest of 640-642; the terms with the Copts)
+  author: baladhuri
+  locus: Part VII
+  role: context
+  confidence: assigned
+  note: 'The conquest that closes the Cyrilline entry''s window, from the conquerors'' side.
+
+    '
+  source_file: baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt
 - row_id: patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922--synaxaire-arabe-jacobite-barmahat-barmoudah-bachons-french
   work: 'Le Synaxaire arabe jacobite (rédaction copte), IV: les mois de Barmahat, Barmoudah
     et Bachons (Basset, French translation)'

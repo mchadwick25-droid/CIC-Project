@@ -1,0 +1,22 @@
+source_file: thomas-of-marga_book-of-governors-v2-english_budge1893.txt
+
+authors_ruled:
+  thomas-of-marga:
+    kind: metadata-omission
+    evidence: >
+      The title page names Thomas, Bishop of Marga; the host record lists him only in a
+      legacy catalog note.
+    from_file: thomas-of-marga_book-of-governors-v2-english_budge1893.txt
+
+assignments:
+  - row_id: thomas-of-marga_book-of-governors-v2-english_budge1893--book-of-governors
+    work: "Thomas of Marga, The Book of Governors (Historia Monastica), English"
+    author: thomas-of-marga
+    locus: "Books I-VI; Book I pp. 17-116 on Abraham of Kashkar, Izla and Babai"
+    atlas_ids:
+      - the-church-of-the-east-under-persia
+    role: transmission
+    confidence: provisional
+    note: >
+      A 9th-century monastic history of the church's 6th-7th-century revival; late, so
+      transmission, provisional.

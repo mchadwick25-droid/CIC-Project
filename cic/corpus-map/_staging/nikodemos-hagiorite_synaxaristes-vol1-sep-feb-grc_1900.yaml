@@ -38,3 +38,19 @@ assignments:
     note: Nikodemos
       the Hagiorite is a leading figure of the Kollyvades renewal (this placement rests on that historical
       identification, not on the file's own text). Garbled 1900 scan, second witness only.
+  - row_id: nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900--synaxaristes-commemoration-of-gregory-palamas-14-november
+    work: Synaxaristes, commemoration of Gregory Palamas (14 November) and the notes on his writings against
+      Barlaam
+    author: nikodemos-hagiorite
+    locus: whole volume
+    atlas_ids:
+    - hesychasm-and-the-palamite-synthesis
+    role: context
+    confidence: provisional
+    note: 'Tier: out-of-window. The Athonite Synaxaristes (compiled by Nikodemos the Hagiorite, printed
+      text of 1868) is the later church''s custody of the saints'' lives. It names Palamas at file lines
+      942, 1218, 1276, 5950, 12241, 22697, 23474, 42635 and 48367, among them a note at 23474 that Palamas
+      wrote a whole book against Barlaam. The 14 November Life itself was not located in the accent-garbled
+      OCR, so this row stays provisional. The same file is the Kollyvades world''s text.
+  
+      '

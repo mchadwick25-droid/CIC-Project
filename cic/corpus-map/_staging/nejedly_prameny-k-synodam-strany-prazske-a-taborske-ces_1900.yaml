@@ -1,0 +1,25 @@
+source_file: nejedly_prameny-k-synodam-strany-prazske-a-taborske-ces_1900.txt
+assignments:
+- row_id: nejedly_prameny-k-synodam-strany-prazske-a-taborske-ces_1900--prameny-k-synodam-strany-prazske-a-taborske-sources-for-the
+  work: Prameny k synodám strany pražské a táborské (sources for the synods of 1441-1444), Taborite priests'
+    answers
+  author: nejedly
+  locus: Taborite replies on the presence of Christ in the sacrament and on the other points disputed
+    with Rokycana
+  atlas_ids:
+  - taborite-radicalism
+  role: tradition
+  confidence: assigned
+  note: Taborite priests' answers in Czech, within the window (1441-1444). Check each passage for whose
+    voice speaks (Taborite, Prague, or Nejedlý). Primary voice once verified against the scan. No public-domain
+    English translation is vendored.
+- row_id: nejedly_prameny-k-synodam-strany-prazske-a-taborske-ces_1900--prameny-k-synodam-strany-prazske-a-taborske-nejedly-prague
+  work: Prameny k synodám strany pražské a táborské (Nejedlý), Prague party's articles and Taborite replies
+  author: nejedly
+  locus: whole volume
+  atlas_ids:
+  - the-hussite-and-bohemian-brethren-movement
+  role: tradition
+  confidence: provisional
+  note: 'Both parties'' documents from the synods of 1441-1444 in Czech; placed on the Hussite entry as
+    the origin of the Utraquist-Taborite exchange. Provisional: not read through.'

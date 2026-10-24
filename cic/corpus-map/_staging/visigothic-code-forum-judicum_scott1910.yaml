@@ -1,0 +1,22 @@
+source_file: visigothic-code-forum-judicum_scott1910.txt
+
+authors_ruled:
+  visigothic-code:
+    kind: anonymous
+    evidence: >
+      The Lex Visigothorum is a royal codification built up over the 7th century; the
+      translation names only its translator.
+    from_file: visigothic-code-forum-judicum_scott1910.txt
+
+assignments:
+  - row_id: visigothic-code-forum-judicum_scott1910--visigothic-code
+    work: "The Visigothic Code (Forum Judicum), English"
+    author: visigothic-code
+    locus: "books and titles; Book XII on heretics and Jews"
+    atlas_ids:
+      - nicene-visigothic-iberia
+    role: tradition
+    confidence: provisional
+    note: >
+      Royal law, not church voice; provisional on whether a secular code counts as the
+      church's own.

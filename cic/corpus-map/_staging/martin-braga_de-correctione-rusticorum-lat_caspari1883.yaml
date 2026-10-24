@@ -1,0 +1,22 @@
+source_file: martin-braga_de-correctione-rusticorum-lat_caspari1883.txt
+
+authors_ruled:
+  martin-braga:
+    kind: metadata-omission
+    evidence: >
+      The title names Martin von Bracara's De correctione rusticorum; the corpus-map has no
+      earlier ruling for the slug.
+    from_file: martin-braga_de-correctione-rusticorum-lat_caspari1883.txt
+
+assignments:
+  - row_id: martin-braga_de-correctione-rusticorum-lat_caspari1883--de-correctione-rusticorum
+    work: "Martin of Braga, De correctione rusticorum (Latin)"
+    author: martin-braga
+    locus: "whole sermon"
+    atlas_ids:
+      - nicene-visigothic-iberia
+    role: tradition
+    confidence: provisional
+    note: >
+      Written before the Visigothic annexation of Gallaecia (585); whether the Suevic church
+      sits inside this entry is a question named in the dossier.

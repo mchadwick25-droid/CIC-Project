@@ -1,0 +1,42 @@
+source_file: procopius_buildings_stewart1888.txt
+
+assignments:
+  - row_id: procopius_buildings_stewart1888--buildings-book-i-constantinople
+    work: "Of the Buildings of Justinian, Book I (Constantinople: Hagia Sophia and the churches)"
+    author: procopius
+    locus: "Book I"
+    atlas_ids:
+      - byzantine-imperial-church-justinianic
+    role: context
+    confidence: assigned
+    note: >
+      The court panegyric on Justinian's building, Book I on Hagia Sophia and the capital's
+      churches: the fullest contemporary description of the liturgical setting of the
+      imperial church. Context, not voice - Procopius writes as an imperial publicist here.
+
+  - row_id: procopius_buildings_stewart1888--buildings-book-v-palestine-sinai
+    work: "Of the Buildings of Justinian, Book V (Palestine, Jerusalem's Nea church, the Sinai monastery)"
+    author: procopius
+    locus: "Book V"
+    atlas_ids:
+      - chalcedonian-monasticism-judean-desert-and-gaza
+      - jerusalem-liturgical-pilgrimage-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Justinian's Nea church in Jerusalem and the fortified monastery at Sinai, seen from
+      Constantinople. Provisional for the Judean-desert world: Sinai is at the edge of that
+      world's region and the Jerusalem material belongs first to the pilgrimage entry (see
+      the dossier's open questions).
+
+  - row_id: procopius_buildings_stewart1888--buildings-book-vi-libya
+    work: "Of the Buildings of Justinian, Book VI (Libya and Carthage)"
+    author: procopius
+    locus: "Book VI"
+    atlas_ids:
+      - latin-africa-under-byzantium
+    role: context
+    confidence: assigned
+    note: >
+      Justinian's churches and forts in reconquered Africa, including Carthage, described
+      from the capital. Outside witness to the Byzantine African church's physical setting.

@@ -1,0 +1,26 @@
+source_file: mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903.txt
+assignments:
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903--mansi-tomus-25-1300-1344-the-councils-of-sis-1307-and-adana
+  work: 'Mansi, tomus 25 (1300-1344): the Councils of Sis (1307) and Adana (1316)'
+  author: mansi
+  locus: '''ACTA CONCILII SISENSIS ARMENI'' at file line 12653; ''EPISTOLA GREGORII SISENSIS'' 13480;
+    ''ACTA CONCILII ADANENSIS'' 61813'
+  atlas_ids:
+  - armenian-cilicia-after-the-kingdom
+  role: tradition
+  confidence: assigned
+  note: 'The acts of the two Cilician Armenian councils held to unite the church with Rome, in Latin:
+    the catholicos Gregory and King Levon at Sis in 1307, and Adana in 1316. The Armenian church''s own
+    council record in the form Rome kept it. Ormanian (vendored) says the catholicos died before the synod
+    of 1307 met, so the acts and the later history disagree; mark the claim contested in Doc_02. Read
+    at the opening of the Sis acts. Second witness for exact wording (long s read as f).'
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903--mansi-tomus-25-1300-1344-councils-of-the-latin-church
+  work: 'Mansi, tomus 25 (1300-1344): councils of the Latin church'
+  author: mansi
+  locus: the Council of Vienne at file line 35558
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: provisional
+  note: 'Placed on window: the councils of 1300 to 1344, including Vienne. Not read for this entry; the
+    same world is staged on the Mansi volumes 26 and 32.'

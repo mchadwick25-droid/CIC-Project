@@ -1,0 +1,12 @@
+source_file: gabotto_valdesi-catari-streghe-in-piemonte-ita_1900.txt
+assignments:
+- row_id: gabotto_valdesi-catari-streghe-in-piemonte-ita_1900--valdesi-catari-e-streghe-in-piemonte-dal-secolo-xiv-al-xvi
+  work: Valdesi, Catari e Streghe in Piemonte dal secolo XIV al XVI, secondo nuovi documenti (Gabotto)
+  author: gabotto
+  locus: whole offprint
+  atlas_ids:
+  - waldensians-in-the-alps
+  role: context
+  confidence: assigned
+  note: Italian scholarship printing dated Piedmont archive entries on Waldensians and others, 1300s to
+    1500s. Outside voice; second-hand around the archive entries.

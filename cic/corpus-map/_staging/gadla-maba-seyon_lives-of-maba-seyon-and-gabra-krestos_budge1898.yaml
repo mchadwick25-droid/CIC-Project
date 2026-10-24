@@ -1,0 +1,14 @@
+source_file: gadla-maba-seyon_lives-of-maba-seyon-and-gabra-krestos_budge1898.txt
+assignments:
+- row_id: gadla-maba-seyon_lives-of-maba-seyon-and-gabra-krestos_budge1898--lives-of-maba-seyon-and-gabra-krestos-ethiopic-texts-with-en
+  work: Lives of Maba' Seyon and Gabra Krestos, Ethiopic texts with English translation
+  author: gadla-maba-seyon
+  locus: Budge's dating argument for the reign of Zar'a Ya'eqob at file lines 3017-3037; the life from
+    about line 2912
+  atlas_ids:
+  - the-ethiopian-monastic-flowering
+  role: tradition
+  confidence: provisional
+  note: Saint's life of the reign of Zar'a Ya'eqob, English translation, clean OCR. Placed on the strength
+    of the dating passage in Budge's introduction; the life itself was sampled, not read through. Ready
+    to quote once verified against the scan. Hagiography, so a later community's memory.

@@ -1,0 +1,14 @@
+source_file: benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt
+
+assignments:
+  - row_id: benedict_rule-of-st-benedict-lat-eng_hunter-blair1907--rule-latin-english
+    work: "The Rule of Saint Benedict, Latin with English (Hunter Blair)"
+    author: benedict-of-nursia
+    locus: "chapters, Latin and English facing"
+    atlas_ids:
+      - early-benedictine-italian-monasticism
+    role: tradition
+    confidence: assigned
+    note: >
+      The Latin original with a second English translation; the primary-evidence copy for
+      Latin wording.

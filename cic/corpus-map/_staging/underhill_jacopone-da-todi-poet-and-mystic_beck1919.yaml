@@ -1,0 +1,26 @@
+source_file: underhill_jacopone-da-todi-poet-and-mystic_beck1919.txt
+authors_ruled:
+  underhill:
+    kind: metadata-omission
+    evidence: >-
+      Plain-text vendored file. The author is named on the title page printed in the file as Evelyn Underhill, with
+      the verse translations by Mrs. Theodore Beck. A mechanical index-coverage gap, not an attribution dispute.
+assignments:
+- row_id: >-
+    underhill_jacopone-da-todi-poet-and-mystic_beck1919--jacopone-da-todi-poet-and-mystic-underhill-1919-with-a
+  work: >-
+    Jacopone da Todi, Poet and Mystic (Underhill, 1919), with a selection of the laude in English verse by Mrs.
+    Theodore Beck
+  author: underhill
+  locus: Whole file; the selection of laude follows the biography
+  atlas_ids:
+  - the-franciscan-movement
+  - fraticelli-spiritual-franciscan-rigorists
+  - franciscan-order-era-6
+  role: tradition
+  confidence: needs-ruling
+  note: >-
+    Jacopone died in 1306, so only his last years fall in the Era VI window, and the file is mostly Underhill's
+    biography (secondary) with a selection of the laude in English verse (a 1919 human translation); the Italian
+    laude are not in it. Placed needs-ruling because the text is contested in date or attribution and sits between
+    the Franciscan Movement world (to 1300) and the Spirituals worlds.

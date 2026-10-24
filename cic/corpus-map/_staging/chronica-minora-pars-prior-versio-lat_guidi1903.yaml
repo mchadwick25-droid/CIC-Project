@@ -1,0 +1,22 @@
+source_file: chronica-minora-pars-prior-versio-lat_guidi1903.txt
+
+authors_ruled:
+  khuzistan-chronicle:
+    kind: anonymous
+    evidence: >
+      The Chronicle of Khuzistan is anonymous; the edition names only its editor.
+    from_file: chronica-minora-pars-prior-versio-lat_guidi1903.txt
+
+assignments:
+  - row_id: chronica-minora-pars-prior-versio-lat_guidi1903--khuzistan-chronicle
+    work: "The East Syrian (Khuzistan) Chronicle, Latin version"
+    author: khuzistan-chronicle
+    locus: "from around raw line ~1627"
+    atlas_ids:
+      - the-church-of-the-east-under-persia
+    role: tradition
+    confidence: provisional
+    note: >
+      An East Syrian chronicler of the 7th century on Khosrau II, Ishoyahb and the Arab
+      conquest. Provisional: the volume's other chronicles are West Syrian and this row
+      covers the East Syrian one only.

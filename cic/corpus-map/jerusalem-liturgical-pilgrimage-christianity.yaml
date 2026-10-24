@@ -17,6 +17,31 @@ works:
     piles turned out to be this one hole - Alexandria was standing in for it on the strength
     of correspondence with Origen, who himself moved to Caesarea around 231.
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
+- row_id: ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97--antoninus-piacenza
+  work: Antoninus of Piacenza (the Piacenza pilgrim), Of the Holy Places visited (c. 570)
+  author: antoninus-piacenza
+  locus: the Antoninus part (last title page in the volume)
+  role: context
+  confidence: assigned
+  note: 'The fullest 6th-century pilgrim narrative: Gaza and its holy men, the Jordan lauras,
+    Sinai, the shrines of Jerusalem, in a layman''s own words c. 570. Outside witness; the
+    author is a North Italian pilgrim, not a Palestinian monk.
+
+    '
+  source_file: ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97.txt
+- row_id: ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97--eucherius-breviarius
+  work: The Epitome of S. Eucherius about certain Holy Places (c. 440) and the Breviarius
+    de Hierosolyma (c. 530)
+  author: breviarius-de-hierosolyma
+  locus: the first part of the volume (two short tracts)
+  role: context
+  confidence: provisional
+  note: 'Two short Latin descriptions of Jerusalem''s holy places. Provisional: the Eucherius
+    attribution is doubted by Stewart''s own introduction, and the tract is placed under the
+    anonymous Breviarius ruling for that reason.
+
+    '
+  source_file: ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97.txt
 - row_id: npnf207_cyril-jerusalem-gregory-nazianzen--the-catechetical-lectures-procatechesis-catecheses-i-xviii
   work: The Catechetical Lectures (Procatechesis, Catecheses I-XVIII, Mystagogic Catecheses
     I-V)
@@ -115,3 +140,28 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+- row_id: procopius_buildings_stewart1888--buildings-book-v-palestine-sinai
+  work: Of the Buildings of Justinian, Book V (Palestine, Jerusalem's Nea church, the Sinai
+    monastery)
+  author: procopius
+  locus: Book V
+  role: context
+  confidence: provisional
+  note: 'Justinian''s Nea church in Jerusalem and the fortified monastery at Sinai, seen from
+    Constantinople. Provisional for the Judean-desert world: Sinai is at the edge of that
+    world''s region and the Jerusalem material belongs first to the pilgrimage entry (see
+    the dossier''s open questions).
+
+    '
+  source_file: procopius_buildings_stewart1888.txt
+- row_id: ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97--theodosius-topography
+  work: Theodosius, On the Topography of the Holy Land (c. 530)
+  author: theodosius-pilgrim
+  locus: the Theodosius part (second title page in the volume)
+  role: context
+  confidence: assigned
+  note: 'A Latin pilgrim''s gazetteer of c. 530 naming the Judean-desert monasteries and Jerusalem''s
+    shrines; outside witness to both entries.
+
+    '
+  source_file: ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97.txt

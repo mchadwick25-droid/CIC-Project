@@ -26,3 +26,14 @@ assignments:
       witnesses: the tradition's own later account of its catholicoi, never evidence of
       410 or 424 on its own. Only the Latin is usable from this OCR; the Arabic of the same
       part is vendored separately from a Beth Mardutho scan.
+  - row_id: amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897--amr-and-sliba-lives-of-the-patriarchs-of-the-east-gismondi-s
+    work: Amr and Sliba, lives of the patriarchs of the East (Gismondi's Latin)
+    author: amr-ibn-matta
+    locus: whole volume
+    atlas_ids:
+    - church-of-the-east-timur-to-hakkari
+    role: context
+    confidence: provisional
+    note: Fourteenth-century Church of the East memory of its patriarchs. Whether Sliba's text reaches Yahballaha
+      III and Timothy II was not established in this pass; the Latin pages read in descending file order.
+      Placed on subject only.

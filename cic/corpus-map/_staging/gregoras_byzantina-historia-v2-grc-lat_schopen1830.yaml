@@ -1,0 +1,29 @@
+source_file: gregoras_byzantina-historia-v2-grc-lat_schopen1830.txt
+assignments:
+- row_id: >-
+    gregoras_byzantina-historia-v2-grc-lat_schopen1830--nikephoros-gregoras-historia-byzantina-books-xii-xxiv-to
+  work: >-
+    Nikephoros Gregoras, Historia Byzantina, Books XII-XXIV (to 1351), Greek with Latin, Bonn volume 2
+  author: gregoras
+  locus: Book XII at file line 226 to Book XXIV at 34840
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: context
+  confidence: assigned
+  note: >-
+    The anti-Palamite scholar's narrative of Barlaam, Akindynos and the councils up to the council that condemned
+    his party. A contemporary opponent speaking for his own side; Palamas is named on about 560 lines. Sampled in
+    Greek and Latin; not read through.
+- row_id: >-
+    gregoras_byzantina-historia-v2-grc-lat_schopen1830--nikephoros-gregoras-historia-byzantina-books-xii-xxiv-to-2
+  work: >-
+    Nikephoros Gregoras, Historia Byzantina, Books XII-XXIV (to 1351), Greek with Latin, Bonn volume 2
+  author: gregoras
+  locus: as above
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: context
+  confidence: provisional
+  note: >-
+    Court and church politics under Andronikos III and the civil war, by a learned layman who became the patriarchate's
+    leading critic.

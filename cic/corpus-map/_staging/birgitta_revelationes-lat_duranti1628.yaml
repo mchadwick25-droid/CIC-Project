@@ -1,0 +1,13 @@
+source_file: birgitta_revelationes-lat_duranti1628.txt
+assignments:
+- row_id: birgitta_revelationes-lat_duranti1628--revelationes-s-brigittae-torquemada-recension-with-duranti-s
+  work: Revelationes S. Brigittae (Torquemada recension with Duranti's notes, Latin)
+  author: birgitta
+  locus: the Revelations in Books I to VIII after the front matter; Duranti's notes interleaved
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: provisional
+  note: Birgitta's own Latin in the printed recension, with a seventeenth-century editor's notes interleaved.
+    Second witness for exact wording until checked against the page images (long s read as f, marginal
+    citations interleaved). The Middle English version is vendored beside it.

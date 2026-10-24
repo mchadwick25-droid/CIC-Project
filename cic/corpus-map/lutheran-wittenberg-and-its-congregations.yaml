@@ -566,6 +566,29 @@ works:
 
     '
   source_file: olavus-petri_samlade-skrifter-v2-swe_hesselman1915.txt
+- row_id: theologia-germanica_theologia-germanica_winkworth1893--theologia-germanica-english-of-the-treatise-luther-printed
+  work: Theologia Germanica (Winkworth's translation)
+  author: theologia-germanica
+  locus: whole volume
+  role: transmission
+  confidence: provisional
+  note: 'Placed on the census''s own statement that Luther printed the treatise. This English
+    is made from Pfeiffer''s edition of the manuscript, not from Luther''s printings.
+
+    '
+  source_file: theologia-germanica_theologia-germanica_winkworth1893.txt
+- row_id: theologia-germanica_theologia-deutsch-gmh_pfeiffer1851--theologia-deutsch-the-text-luther-edited-in-1516-and-1518
+  work: Theologia deutsch (Pfeiffer's 1851 edition, Middle High German)
+  author: theologia-germanica
+  locus: whole volume
+  role: transmission
+  confidence: provisional
+  note: 'Placed on the census''s own statement that Luther printed the treatise twice. This
+    file is Pfeiffer''s edition of the manuscript, not Luther''s printings; Luther''s are
+    not vendored.
+
+    '
+  source_file: theologia-germanica_theologia-deutsch-gmh_pfeiffer1851.txt
 - row_id: yelverton_mass-in-sweden-lat-swe-eng_yelverton1920--masses-of-olavus-and-laurentius-petri-wittenberg
   work: The Masses of Olavus and Laurentius Petri, Swedish with English
   author: yelverton

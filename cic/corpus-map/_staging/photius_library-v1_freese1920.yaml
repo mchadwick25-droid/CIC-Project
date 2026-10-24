@@ -1,0 +1,25 @@
+source_file: photius_library-v1_freese1920.txt
+
+assignments:
+  - row_id: photius_library-v1_freese1920--codex-3-nonnosus
+    work: "Bibliotheca, codex 3 (Nonnosus's embassy to Elesbaas, king of the Axumites, and to the Himyarites)"
+    author: photius
+    locus: "codex 3 (raw lines ~1794-1880)"
+    atlas_ids:
+      - aksumite-christianity
+    role: context
+    confidence: assigned
+    note: >
+      A 6th-century imperial envoy's lost report, summarised by Photius: the Roman view of
+      Kaleb's court.
+
+  - row_id: photius_library-v1_freese1920--lost-church-histories
+    work: "Bibliotheca, codices summarising lost 5th-6th-century church histories and theological works"
+    author: photius
+    locus: "codices passim"
+    atlas_ids:
+      - byzantine-imperial-church-justinianic
+    role: context
+    confidence: provisional
+    note: >
+      Ninth-century summaries of what the Justinianic church read and wrote; tier 4.

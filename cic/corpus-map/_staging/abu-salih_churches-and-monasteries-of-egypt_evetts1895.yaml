@@ -1,0 +1,16 @@
+source_file: abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt
+assignments:
+- row_id: abu-salih_churches-and-monasteries-of-egypt_evetts1895--churches-and-monasteries-of-egypt-abu-salih-section-on-nubia
+  work: Churches and Monasteries of Egypt (Abu Salih), section on Nubia and the Nubian churches
+  author: abu-salih
+  locus: Nubia section from file line 13107 (running heads 'NUBIA. 261' to about 267); Dongola passages
+    at 13331-13356
+  atlas_ids:
+  - terminal-christian-nubia
+  - makurian-nubian-christianity
+  - coptic-christianity-fatimid-to-mamluk
+  role: context
+  confidence: assigned
+  note: Outsider Coptic-world witness of the Ayyubid period to the Nubian kingdom and its churches, English
+    translation, clean OCR. Only the Nubia section serves this world; the rest of the book serves the
+    Coptic worlds. Notes are scholarship. Ready to quote once verified against the scan.

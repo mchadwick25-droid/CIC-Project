@@ -118,3 +118,13 @@ assignments:
       (lines 666, 8361) and call the Malabar liturgy''s surviving form a revision. Compare with Raulin''s
       Liturgia Malabarica Menesiana. Tier: same time-place.'
     row_id: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-malabar-east-syriac-rite-of-the-st-thomas-christi
+  - row_id: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-malabar-east-syriac-rite-neale-s-translation
+    work: Liturgy of Malabar (East-Syriac rite), Neale's translation
+    author: liturgy-of-malabar
+    locus: whole volume
+    atlas_ids:
+    - st-thomas-christians-1300-1517
+    role: context
+    confidence: provisional
+    note: The rite used by the Malabar church before Diamper. Staged for the earlier world. The file carries
+      no dated witness for 1300 to 1517; the rite is context for the window, not evidence from it.

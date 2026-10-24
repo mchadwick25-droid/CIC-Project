@@ -1,0 +1,20 @@
+source_file: regula-magistri-cresconius-pl88-lat_migne1862.txt
+
+authors_ruled:
+  regula-magistri:
+    kind: anonymous
+    evidence: >
+      The Rule of the Master is anonymous; PL 88 prints it as 'Regula ad monachos Magistri'.
+    from_file: regula-magistri-cresconius-pl88-lat_migne1862.txt
+
+assignments:
+  - row_id: regula-magistri-cresconius-pl88-lat_migne1862--regula-magistri
+    work: "The Rule of the Master (Regula Magistri), Latin"
+    author: regula-magistri
+    locus: "raw lines ~78482-82155 onward; 'AD MONACHOS MAGISTRI'"
+    atlas_ids:
+      - early-benedictine-italian-monasticism
+    role: tradition
+    confidence: assigned
+    note: >
+      The anonymous rule Benedict's Rule draws on; Latin only, no public-domain English.

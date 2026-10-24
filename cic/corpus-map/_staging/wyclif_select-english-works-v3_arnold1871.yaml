@@ -14,3 +14,16 @@ assignments:
       (1871) - the specific lead this world's own Source Readiness
       Dossier §3 originally named. This completes the set alongside
       Vols. I and II.
+  - row_id: wyclif_select-english-works-v3_arnold1871--arnold-s-introduction-to-the-psalter-commentary-hampole-s
+    work: 'Arnold''s introduction to the Psalter commentary: ''Hampole''s Psalter'' and the Lollard passages
+      in the Canticles commentary'
+    author: wyclif
+    locus: whole volume
+    atlas_ids:
+    - the-english-mystics-and-devout
+    role: context
+    confidence: assigned
+    note: 'At about file lines 1896 to 1955 the editor argues that the Commentary on the Psalms ascribed
+      to Wyclif is Richard Rolle''s, that the Canticles commentary has Lollard passages, and that the first
+      seven canticles are Rolle''s own, retouched by a Lollard hand. A contested attribution to record with
+      the confidence tag Contested. Tier: same time-place.'

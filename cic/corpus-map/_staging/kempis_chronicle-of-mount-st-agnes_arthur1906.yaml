@@ -14,3 +14,15 @@ assignments:
       St. Agnes, his own monastery near Zwolle - same translator/house
       (Arthur) as the already-vendored 'Founders of the New Devotion'
       (1905).
+  - row_id: kempis_chronicle-of-mount-st-agnes_arthur1906--kempis-chronicle-of-mount-st-agnes-the-death-of-john
+    work: 'Kempis, Chronicle of Mount St Agnes: the death of John Ruysbroeck, first prior of Groenendael'
+    author: kempis
+    locus: whole volume
+    atlas_ids:
+    - rhineland-mysticism-and-the-friends-of-god
+    role: context
+    confidence: provisional
+    note: 'The contents list has a chapter ''Of the death of John Ruysbroeck, first Prior of the Groenendaal''
+      (file line 168). Proposed as context here. Tier: same time-different region.
+  
+      '

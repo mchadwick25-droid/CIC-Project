@@ -112,3 +112,37 @@ assignments:
       four traditions he was writing to.
 
       '
+
+  - row_id: npnf212_leo-great-gregory-great--letters-leander-i-43-v-49
+    work: "Register I.43 and V.49 to Leander of Seville"
+    author: gregory
+    locus: "div iii.v.i.xxx (raw ~32528) and iii.v.v.xxiv (~42218)"
+    atlas_ids:
+      - nicene-visigothic-iberia
+    role: context
+    confidence: assigned
+    note: >
+      Gregory to the architect of the Visigothic conversion, before and after 589.
+
+  - row_id: npnf212_leo-great-gregory-great--letters-africa-gennadius-numidia-carthage
+    work: "Register letters into Byzantine Africa: to Gennadius the exarch, the bishops of Numidia (I.77), Dominicus of Carthage, Columbus of Numidia"
+    author: gregory
+    locus: "raw ~33445, 33667, 33738, 33783, 35425, 35531, 37421, 38706, 39918, 40417, 44166, 44966, 45142, 46895, 47543, 48233"
+    atlas_ids:
+      - latin-africa-under-byzantium
+    role: context
+    confidence: assigned
+    note: >
+      About twenty letters: primacy customs of Numidia, Donatist converts, the exarch's
+      wars.
+
+  - row_id: npnf212_leo-great-gregory-great--letters-eulogius-alexandria
+    work: "Register letters to Eulogius of Alexandria (Books I-VIII)"
+    author: gregory
+    locus: "div iii.v.v.xxii, iii.v.viii.xvii-xviii"
+    atlas_ids:
+      - cyrilline-miaphysite-egyptian-christianity
+    role: context
+    confidence: assigned
+    note: >
+      See the npnf213 row of the same title.

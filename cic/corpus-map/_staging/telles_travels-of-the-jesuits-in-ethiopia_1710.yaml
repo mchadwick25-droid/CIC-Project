@@ -28,3 +28,14 @@ assignments:
     The same account, read as the Jesuits' own mission narrative in Ethiopia. Placed on window and subject
     without reading the whole; a mission history written about Jesuit work and attributed to a Jesuit
     author.
+- row_id: telles_travels-of-the-jesuits-in-ethiopia_1710--travels-of-the-jesuits-in-ethiopia-telles-the-reign-of-zara
+  work: 'Travels of the Jesuits in Ethiopia (Telles): the reign of Zara Jacob and the Council of Florence'
+  author: telles
+  locus: whole volume
+  atlas_ids:
+  - the-ethiopian-monastic-flowering
+  role: context
+  confidence: provisional
+  note: English digest of Paez's history. Names Zara Jacob three times (shelf file lines 6303, 8357, 8967)
+    and Takla Haimanot once (10717). Line 8357 reports Ethiopians sent by Zara Jacob to Rome after the
+    Council of Florence. Thin; after the window.

@@ -1,0 +1,24 @@
+source_file: lincoln-diocese_documents-1450-1544-enm_clark1914.txt
+assignments:
+- row_id: lincoln-diocese_documents-1450-1544-enm_clark1914--lincoln-diocese-documents-1450-1544-ed-andrew-clark-eets-os-149
+  work: Lincoln Diocese Documents, 1450-1544, ed. Andrew Clark (EETS OS 149)
+  author: lincoln-diocese
+  locus: the editor's account of the wills from file line 227
+  atlas_ids:
+  - late-medieval-lay-parish-piety
+  role: tradition
+  confidence: provisional
+  note: Wills and probate records of the Lincoln diocese, with the editor's long introduction. The English
+    wills are the will-makers' own words. The volume's other documents (registers, visitations) were sampled,
+    not read through; left provisional. A second witness for exact wording.
+- row_id: lincoln-diocese_documents-1450-1544-enm_clark1914--lincoln-diocese-documents-1450-1544-ed-andrew-clark-eets-os-149-2
+  work: Lincoln Diocese Documents, 1450-1544, ed. Andrew Clark (EETS OS 149)
+  author: lincoln-diocese
+  locus: the section 'Proceedings against Lollards, 1457' from file line 6813
+  atlas_ids:
+  - lollardy
+  role: context
+  confidence: provisional
+  note: 'The volume prints proceedings against Lollards in the Lincoln diocese in 1457 and a list of the
+    tenets held by William Sparke and his followers, from a bishop''s register: a hostile record of the
+    Lollards. Placed on the section heading; the proceedings were not read through.'

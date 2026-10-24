@@ -19,3 +19,16 @@ assignments:
       can be primary evidence when it's primary to the movement, which
       this is, regardless of language and independent of whether an
       English translation exists.
+  - row_id: groote_epistolae-xiv-lat_acquoy1857--groote-s-letters-ruysbroeck-named-epistolae-xiv
+    work: 'Groote''s letters: Ruysbroeck named (Epistolae XIV)'
+    author: groote
+    locus: whole volume
+    atlas_ids:
+    - rhineland-mysticism-and-the-friends-of-god
+    role: context
+    confidence: provisional
+    note: 'Groote''s letters name Jan van Ruusbroec (file lines 2201, 4789, 5082, 5222), the Brabant mystic
+      who links the Rhineland circle to the Devotio Moderna. Proposed as context here. See the needs-ruling
+      rows on the Ruysbroeck translation. Tier: same time-different region.
+  
+      '

@@ -1,0 +1,25 @@
+source_file: mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902.txt
+assignments:
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902--mansi-sacrorum-conciliorum-collectio-tomus-27-pisa-1409-and
+  work: 'Mansi, Sacrorum conciliorum collectio, tomus 27: Pisa 1409 and Constance 1414-1418'
+  author: mansi
+  locus: Constance sessions in the second half of the volume (Pisa 1409 comes first); the decrees on conciliar
+    authority and on the frequency of councils by the standard Mansi citation (XXVII, 585 and 1159)
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: assigned
+  note: The Latin conciliar acts of Pisa and Constance, including the decrees on conciliar authority and
+    the condemnations of Wyclif and Hus. Second witness for exact wording (long s read as f).
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-27-1409-1418-lat_welter-facsimile1902--mansi-sacrorum-conciliorum-collectio-tomus-27-pisa-1409-and-2
+  work: 'Mansi, Sacrorum conciliorum collectio, tomus 27: Pisa 1409 and Constance 1414-1418'
+  author: mansi
+  locus: Constance sessions in the second half of the volume (Pisa 1409 comes first); the decrees on conciliar
+    authority and on the frequency of councils by the standard Mansi citation (XXVII, 585 and 1159)
+  atlas_ids:
+  - the-hussite-and-bohemian-brethren-movement
+  - lollardy
+  role: context
+  confidence: provisional
+  note: The Latin conciliar acts of Pisa and Constance, including the decrees on conciliar authority and
+    the condemnations of Wyclif and Hus. Second witness for exact wording (long s read as f).

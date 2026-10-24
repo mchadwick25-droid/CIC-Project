@@ -1,0 +1,75 @@
+source_file: ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97.txt
+
+authors_ruled:
+  theodosius-pilgrim:
+    kind: metadata-omission
+    evidence: >
+      The part's own title page reads "Theodosius (circ. 530 A.D.) on the Topography of the
+      Holy Land"; the host record names only the Society.
+    from_file: ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97.txt
+  antoninus-piacenza:
+    kind: pseudonymous
+    evidence: >
+      The part's title page reads "Of the Holy Places visited by Antoninus Martyr"; the work
+      is the anonymous Piacenza pilgrim's itinerary transmitted under the martyr's name, as
+      Stewart's own introduction states.
+    from_file: ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97.txt
+  breviarius-de-hierosolyma:
+    kind: anonymous
+    evidence: >
+      "The Breviary or Short Description of Jerusalem (circ. A.D. 530)" names no author in
+      the volume or in the tradition.
+    from_file: ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97.txt
+
+assignments:
+  - row_id: ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97--theodosius-topography
+    work: "Theodosius, On the Topography of the Holy Land (c. 530)"
+    author: theodosius-pilgrim
+    locus: "the Theodosius part (second title page in the volume)"
+    atlas_ids:
+      - jerusalem-liturgical-pilgrimage-christianity
+      - chalcedonian-monasticism-judean-desert-and-gaza
+    role: context
+    confidence: assigned
+    note: >
+      A Latin pilgrim's gazetteer of c. 530 naming the Judean-desert monasteries and
+      Jerusalem's shrines; outside witness to both entries.
+
+  - row_id: ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97--antoninus-piacenza
+    work: "Antoninus of Piacenza (the Piacenza pilgrim), Of the Holy Places visited (c. 570)"
+    author: antoninus-piacenza
+    locus: "the Antoninus part (last title page in the volume)"
+    atlas_ids:
+      - jerusalem-liturgical-pilgrimage-christianity
+      - chalcedonian-monasticism-judean-desert-and-gaza
+    role: context
+    confidence: assigned
+    note: >
+      The fullest 6th-century pilgrim narrative: Gaza and its holy men, the Jordan lauras,
+      Sinai, the shrines of Jerusalem, in a layman's own words c. 570. Outside witness; the
+      author is a North Italian pilgrim, not a Palestinian monk.
+
+  - row_id: ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97--eucherius-breviarius
+    work: "The Epitome of S. Eucherius about certain Holy Places (c. 440) and the Breviarius de Hierosolyma (c. 530)"
+    author: breviarius-de-hierosolyma
+    locus: "the first part of the volume (two short tracts)"
+    atlas_ids:
+      - jerusalem-liturgical-pilgrimage-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Two short Latin descriptions of Jerusalem's holy places. Provisional: the Eucherius
+      attribution is doubted by Stewart's own introduction, and the tract is placed under
+      the anonymous Breviarius ruling for that reason.
+
+  - row_id: ppts-v2_eucherius-breviary-theodosius-procopius-antoninus_stewart1890-97--procopius-buildings-ppts
+    work: "Procopius, Of the Buildings of Justinian (PPTS printing; second witness)"
+    author: procopius
+    locus: "the Procopius part (third title page in the volume)"
+    atlas_ids:
+      - byzantine-imperial-church-justinianic
+    role: context
+    confidence: assigned
+    note: >
+      The same Stewart translation vendored clean from Gutenberg as
+      procopius_buildings_stewart1888.txt; this OCR copy is a second witness only.

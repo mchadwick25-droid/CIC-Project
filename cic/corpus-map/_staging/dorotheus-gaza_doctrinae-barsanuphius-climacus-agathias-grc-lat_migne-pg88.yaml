@@ -1,0 +1,94 @@
+source_file: dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt
+
+authors_ruled:
+  barsanuphius-and-john:
+    kind: metadata-omission
+    evidence: >
+      The volume prints, after Dorotheus's Doctrinae, "Ejusdem abbatis Dorothei ad magnum
+      senem sanctum Barsanuphium, et ad ejus discipulum abbatem Joannem" questions with
+      their replies; the replies are the two Old Men's own words and the host record names
+      neither.
+    from_file: dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt
+  john-climacus:
+    kind: metadata-omission
+    evidence: >
+      Running head "S. JOANNIS CLIMACI" over the Scala Paradisi section; the host record
+      names no author.
+    from_file: dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt
+  agathias:
+    kind: metadata-omission
+    evidence: >
+      The Historiae of Agathias Scholasticus are printed in this volume (the host's own
+      description lists Agathias); no creator field on the item.
+    from_file: dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt
+  john-the-faster:
+    kind: metadata-omission
+    evidence: >
+      John IV the Faster, patriarch of Constantinople (582-595), is named in the host's own
+      contents description and in the volume's running heads.
+    from_file: dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt
+
+assignments:
+  - row_id: dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88--dorotheus-doctrinae
+    work: "Dorotheus of Gaza, Doctrinae diversae (Instructions) and Letters"
+    author: dorotheus-gaza
+    locus: "the section under the running head 'S. DOROTHEI ABBATIS' (Migne cols. 1611-1838)"
+    atlas_ids:
+      - chalcedonian-monasticism-judean-desert-and-gaza
+    role: tradition
+    confidence: assigned
+    note: >
+      Dorotheus's own instructions to his monks at Gaza, the one body of Gaza monastic
+      teaching that survives complete. SECOND WITNESS ONLY: the Latin column is readable,
+      the Greek is not recovered. No public-domain English exists (recorded as a gap in the
+      world's dossier).
+
+  - row_id: dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88--barsanuphius-john-answers
+    work: "Barsanuphius and John of Gaza, answers to the questions of Dorotheus (Interrogationes et responsiones)"
+    author: barsanuphius-and-john
+    locus: "the 'Ad magnum senem sanctum Barsanuphium ... Interrogatio I' section following the Doctrinae"
+    atlas_ids:
+      - chalcedonian-monasticism-judean-desert-and-gaza
+    role: tradition
+    confidence: assigned
+    note: >
+      The Great Old Man and the Other Old Man answering their disciple: the only public-domain witness in this corpus to their own words (a selection, not the full
+      correspondence, which has no public-domain edition). Latin second witness.
+
+  - row_id: dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88--climacus-ladder
+    work: "John Climacus, Scala Paradisi (The Ladder of Divine Ascent)"
+    author: john-climacus
+    locus: "the section under the running head 'S. JOANNIS CLIMACI'"
+    atlas_ids:
+      - chalcedonian-monasticism-judean-desert-and-gaza
+    role: tradition
+    confidence: provisional
+    note: >
+      The Sinai abbot's Ladder, c. 600. Provisional: Sinai sits at the edge of this entry's
+      region and the dossier names the placement as an open question. Latin second witness;
+      no public-domain English located.
+
+  - row_id: dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88--agathias-histories
+    work: "Agathias, Historiae (the reign of Justinian, 552-558)"
+    author: agathias
+    locus: "the Agathias section"
+    atlas_ids:
+      - byzantine-imperial-church-justinianic
+    role: context
+    confidence: assigned
+    note: >
+      Procopius's continuator, a Constantinopolitan lawyer and poet; outside witness to the
+      capital in Justinian's last years. Latin second witness; no public-domain English
+      located.
+
+  - row_id: dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88--john-the-faster
+    work: "John IV the Faster, patriarch of Constantinople, penitential and ascetic writings (attrib.)"
+    author: john-the-faster
+    locus: "the John the Faster section"
+    atlas_ids:
+      - byzantine-imperial-church-justinianic
+    role: tradition
+    confidence: provisional
+    note: >
+      The patriarch of the "ecumenical" title dispute with Gregory the Great; the works
+      under his name are of disputed authenticity, hence provisional.

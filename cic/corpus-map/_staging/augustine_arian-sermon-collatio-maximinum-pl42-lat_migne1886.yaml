@@ -1,0 +1,23 @@
+source_file: augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt
+
+authors_ruled:
+  maximinus-arian:
+    kind: metadata-omission
+    evidence: >
+      The Collatio cum Maximino Arianorum episcopo prints the Homoian bishop's own speeches;
+      the host record names neither.
+    from_file: augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt
+
+assignments:
+  - row_id: augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886--collatio-maximinus
+    work: "Augustine, Collatio cum Maximino Arianorum episcopo, Sermo Arianorum and Contra Maximinum, Latin"
+    author: maximinus-arian
+    locus: "the Arian sermon at raw line ~51925; contents at ~529-533"
+    atlas_ids:
+      - gothic-and-vandal-homoian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Maximinus's own speeches in the debate and the anonymous Arian sermon, embedded in
+      Augustine's replies; pre-window (c. 427), so context and provisional. The containing
+      works are Augustine's.

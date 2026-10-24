@@ -1,0 +1,15 @@
+source_file: duwayhi_tarikh-al-ta-ifa-al-maruniyya-ara_shartuni1890.txt
+assignments:
+- row_id: duwayhi_tarikh-al-ta-ifa-al-maruniyya-ara_shartuni1890--tarikh-al-ta-ifa-al-maruniyya-history-of-the-maronite
+  work: Tarikh al-ta'ifa al-maruniyya (History of the Maronite Community), Duwayhi, ed. Shartuni, Beirut
+    1890
+  author: duwayhi
+  locus: whole text; the sections on 1300-1517 were not located
+  atlas_ids:
+  - maronite-christianity-era-6
+  role: tradition
+  confidence: provisional
+  note: 'The Maronite church''s own history by one of its patriarchs, with a nineteenth-century editor''s
+    notes. Placed on subject: the sections on the window were not located. The OCR is heavily damaged
+    Arabic, so this is a locator only until a clean scan is found. No public-domain English translation
+    found.'

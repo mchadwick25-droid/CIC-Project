@@ -1,0 +1,21 @@
+source_file: antiphonary-of-bangor-pt2-lat_warren1895.txt
+
+authors_ruled:
+  antiphonary-of-bangor:
+    kind: anonymous
+    evidence: >
+      The Antiphonary of Bangor is an anonymous monastic liturgy; the edition names only its
+      editor.
+    from_file: antiphonary-of-bangor-pt2-lat_warren1895.txt
+
+assignments:
+  - row_id: antiphonary-of-bangor-pt2-lat_warren1895--antiphonary-of-bangor
+    work: "The Antiphonary of Bangor (c. 680-691), Latin"
+    author: antiphonary-of-bangor
+    locus: "the antiphonary by item number"
+    atlas_ids:
+      - insular-irish-monastic-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Just after the 664 window end; provisional on dating.

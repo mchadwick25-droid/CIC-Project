@@ -1,0 +1,16 @@
+source_file: cassian_institutes-and-contra-nestorium_petschenig1888.txt
+
+assignments:
+  - row_id: cassian_institutes-and-contra-nestorium_petschenig1888--institutes-latin
+    work: "John Cassian, De institutis coenobiorum (the Institutes), Latin (CSEL 17)"
+    author: cassian
+    locus: "the Institutes in Petschenig's critical text"
+    atlas_ids:
+      - early-benedictine-italian-monasticism
+    role: tradition
+    confidence: provisional
+    note: >
+      The Latin original of the work the Benedictine entry already holds in the NPNF
+      English (npnf211): the Rule of Benedict (ch. 73) commends Cassian by name. Provisional
+      because the NPNF English row already carries the work; this is the Latin witness
+      for it. Previously assigned to no entry. Era III Library pass, October 2026.

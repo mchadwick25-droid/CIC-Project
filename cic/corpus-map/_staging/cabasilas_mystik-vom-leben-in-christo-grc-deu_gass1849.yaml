@@ -1,0 +1,17 @@
+source_file: cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849.txt
+assignments:
+- row_id: >-
+    cabasilas_mystik-vom-leben-in-christo-grc-deu_gass1849--nicholas-cabasilas-the-life-in-christ-gass-s-german-study
+  work: >-
+    Nicholas Cabasilas, The Life in Christ: Gass's German study and first edition of the Greek (Die Mystik des Nikolaus
+    Cabasilas vom Leben in Christo)
+  author: cabasilas
+  locus: German introduction first; the Greek text by book (Cabas. lib. VII is quoted at the head)
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: tradition
+  confidence: assigned
+  note: >-
+    The lay-facing formation voice the census singles out. Second witness: the Greek of the edition is garbled in
+    the OCR into Latin letters and cannot be quoted; the German introduction is readable. The Latin of the Life
+    in Christ is in the Migne volume (PG 150) vendored beside it. No public-domain English translation is vendored.

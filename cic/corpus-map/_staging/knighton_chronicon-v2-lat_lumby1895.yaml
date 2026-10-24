@@ -1,0 +1,14 @@
+source_file: knighton_chronicon-v2-lat_lumby1895.txt
+
+assignments:
+  - row_id: knighton_chronicon-v2-lat_lumby1895--henry-knighton-chronicon-vol-ii-lumby-rolls-series
+    work: "Henry Knighton, Chronicon vol. II (Lumby, Rolls Series)"
+    author: knighton
+    locus: "whole volume; the Wyclif and Lollard passages from about A.D. 1382"
+    atlas_ids:
+      - lollardy
+    role: context
+    confidence: assigned
+    note: >
+      A Leicester canon's account of Wyclif and his followers, a hostile contemporary witness in Latin.
+      Not the movement's own voice.

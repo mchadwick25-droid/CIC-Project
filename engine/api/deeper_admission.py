@@ -23,7 +23,7 @@ Any fault here leaves the free grant. Admission never closes the free path.
 import logging
 from typing import Callable
 
-from fastapi import Request
+from fastapi import Request, Response
 
 from engine.api.account_admission import AccountContext, account_context
 from engine.api.deeper_routes import DeeperRuntime
@@ -63,6 +63,17 @@ def visitor_key(request: Request) -> str:
     """The key the free allowance and the monthly bound count a visitor under: the
     visitor cookie's id, or the address when the request carries none."""
     return getattr(request.state, "visitor_id", None) or f"ip:{network_of(client_ip(request))}"
+
+
+def install_free_read(app, runtime: DeeperRuntime) -> None:
+    """GET /api/deeper/free: what a visitor with no code may still draw from the free
+    window, the number a reply reports in X-Cic-Free-Left. Read only; no model call."""
+
+    @app.get("/api/deeper/free")
+    def free_left(request: Request, response: Response):
+        response.headers["Cache-Control"] = "no-store"
+        left = runtime.free.left(visitor_key(request), bound_network_of(client_ip(request)))
+        return {"free_left": left}
 
 
 def code_holds_tokens(runtime: DeeperRuntime, request: Request) -> bool:

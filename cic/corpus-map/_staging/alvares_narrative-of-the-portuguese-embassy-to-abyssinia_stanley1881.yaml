@@ -1,0 +1,13 @@
+source_file: alvares_narrative-of-the-portuguese-embassy-to-abyssinia_stanley1881.txt
+assignments:
+- row_id: alvares_narrative-of-the-portuguese-embassy-to-abyssinia_stanley1881--narrative-of-the-portuguese-embassy-to-abyssinia-1520-1527
+  work: Narrative of the Portuguese Embassy to Abyssinia, 1520-1527
+  author: alvares
+  locus: whole narrative; Sabbath and church practice around file lines 1648 and 2129 to 2433
+  atlas_ids:
+  - the-ethiopian-monastic-flowering
+  - ethiopian-christianity-gragn-to-fasilides
+  role: context
+  confidence: assigned
+  note: Outsider eyewitness (Portuguese priest, 1520-1526), English translation, clean OCR; ready to quote
+    once verified against the scan. After the window; the nearest eyewitness to what the window built.

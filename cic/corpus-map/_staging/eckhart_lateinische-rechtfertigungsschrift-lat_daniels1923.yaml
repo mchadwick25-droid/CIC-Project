@@ -1,0 +1,15 @@
+source_file: eckhart_lateinische-rechtfertigungsschrift-lat_daniels1923.txt
+
+assignments:
+  - row_id: eckhart_lateinische-rechtfertigungsschrift-lat_daniels1923--eckhart-s-latin-rechtfertigungsschrift-defence-in-the
+    work: "Eckhart's Latin Rechtfertigungsschrift (defence in the Cologne proceedings), edited by Daniels"
+    author: eckhart
+    locus: "whole file; the Latin text after Daniels's introduction"
+    atlas_ids:
+      - rhineland-mysticism-and-the-friends-of-god
+    role: tradition
+    confidence: assigned
+    note: >
+      Eckhart's own Latin voice in his case. Primary once checked against the scan. Pairs with the German
+      works in Pfeiffer. The bull In agro dominico is not here; it is a lead for the Franciscan worker
+      (Denifle's and Ehrle's Archiv) and is recorded in the dossier.

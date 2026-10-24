@@ -1,0 +1,105 @@
+source_file: chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt
+
+authors_ruled:
+  marcellinus-comes:
+    kind: metadata-omission
+    evidence: >
+      Running head "MARCELLINI V. C. COMITIS CHRONICON" in the volume; the host record names
+      only Mommsen.
+    from_file: chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt
+  victor-tunnunensis:
+    kind: metadata-omission
+    evidence: >
+      The volume's own heading "VICTORIS TONNENNENSIS EPISCOPI CHRONICA" (raw file around
+      line 17259); the host record names only Mommsen.
+    from_file: chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt
+  john-biclaro:
+    kind: metadata-omission
+    evidence: >
+      The volume's own heading for the "IOHANNIS ABBATIS BICLARENSIS CHRONICA"; the host
+      record names only Mommsen.
+    from_file: chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt
+  marius-avenches:
+    kind: metadata-omission
+    evidence: >
+      The volume's own heading "MARII EPISCOPI AVENTICENSIS CHRONICA"; the host record names
+      only Mommsen.
+    from_file: chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt
+  isidore-seville:
+    kind: metadata-omission
+    evidence: >
+      The volume prints Isidore's Chronica and Historia Gothorum under his own name
+      ("ISIDORI IUNIORIS EPISCOPI HISPALENSIS"); the host record names only Mommsen.
+    from_file: chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt
+
+assignments:
+  - row_id: chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894--marcellinus-comes
+    work: "Marcellinus Comes, Chronicon (379-534) with its continuation to 548"
+    author: marcellinus-comes
+    locus: "the section headed 'MARCELLINI V. C. COMITIS CHRONICON' (raw file from around line 2914)"
+    atlas_ids:
+      - byzantine-imperial-church-justinianic
+    role: context
+    confidence: assigned
+    note: >
+      A Latin-speaking Illyrian at Justinian's court, chronicling Constantinople year by
+      year: riots, earthquakes, the Nika revolt, the Chalcedonian restoration under Justin.
+      Context.
+
+  - row_id: chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894--victor-tunnuna
+    work: "Victor of Tunnuna, Chronicon (444-566)"
+    author: victor-tunnunensis
+    locus: "the section headed 'VICTORIS TONNENNENSIS EPISCOPI CHRONICA' (raw file from around line 17259)"
+    atlas_ids:
+      - latin-africa-under-byzantium
+      - byzantine-imperial-church-justinianic
+    role: tradition
+    confidence: assigned
+    note: >
+      An African bishop exiled for resisting the condemnation of the Three Chapters, writing
+      his own account of the dispute and of Reparatus's deposition (around raw lines
+      18728-19039). Tradition for Latin Africa under Byzantium; context for the imperial
+      church it opposed.
+
+  - row_id: chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894--john-biclaro
+    work: "John of Biclaro, Chronicon (567-590)"
+    author: john-biclaro
+    locus: "the Biclaro section (raw file around lines 19800-20300; Toledo III around 24366 in the agent's check of the same scan)"
+    atlas_ids:
+      - nicene-visigothic-iberia
+      - nubian-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The Gothic abbot's chronicle of Reccared's conversion and Toledo III in his own words
+      (tradition for Visigothic Iberia). Its one sentence on the Makurians receiving the
+      faith is the Chalcedonian claim to Nubia - context there, where the role is context
+      not tradition; a build thread should split this row if needed.
+
+  - row_id: chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894--isidore-historia-gothorum
+    work: "Isidore of Seville, Historia Gothorum Wandalorum Sueborum and Chronica maiora"
+    author: isidore-seville
+    locus: "the Isidore sections"
+    atlas_ids:
+      - nicene-visigothic-iberia
+      - gothic-and-vandal-homoian-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Isidore's national history of the Goths, Vandals and Sueves, written for the Nicene
+      kingdom (tradition there) and the fullest Latin memory of the Arian kingdoms it
+      replaced (context for the Homoian register entry; the role column here records the
+      Iberian placement).
+
+  - row_id: chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894--marius-avenches
+    work: "Marius of Avenches, Chronicon (455-581)"
+    author: marius-avenches
+    locus: "the Marius section"
+    atlas_ids:
+      - merovingian-gallic-christianity
+    role: context
+    confidence: provisional
+    note: >
+      A Burgundian bishop's short chronicle of the Frankish conquest of Burgundy and the
+      Lombard raids; provisional pending a build thread's judgement of whether Avenches sits
+      inside or beside the Merovingian entry's region.

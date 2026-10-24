@@ -1,0 +1,29 @@
+source_file: gennadius-scholarius_defensio-quinque-capitum-lat_benevento1637.txt
+assignments:
+- row_id: >-
+    gennadius-scholarius_defensio-quinque-capitum-lat_benevento1637--gennadios-scholarios-defensio-quinque-capitum-quae-in
+  work: >-
+    Gennadios Scholarios, Defensio quinque capitum quae in Florentina synodo continentur, Latin of Fabio Benevento
+  author: gennadius-scholarius
+  locus: whole file; translator's dedication first
+  atlas_ids:
+  - byzantine-church-palaiologan
+  role: tradition
+  confidence: assigned
+  note: >-
+    Scholarios's own defence of the Florentine chapters: the pre-1453 voice the census names, in a Latin translation
+    (first printed 1579). The Greek original is not in the file, and the file does not date it. A primary voice
+    in Latin, to be checked against the scan before quoting; no public-domain English is vendored.
+- row_id: >-
+    gennadius-scholarius_defensio-quinque-capitum-lat_benevento1637--gennadios-scholarios-defensio-quinque-capitum-latin-of-fabio
+  work: Gennadios Scholarios, Defensio quinque capitum, Latin of Fabio Benevento
+  author: gennadius-scholarius
+  locus: whole file
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-parish-millet-and-n
+  role: antecedent
+  confidence: needs-ruling
+  note: >-
+    The author became the first patriarch under the Ottomans, but this text defends the Florentine chapters and
+    is not dated in the file. Whether it is an antecedent of the Ottoman world or only a voice of the Palaiologan
+    world is for the lead; the vendored Ottoman files (Kimmel 1850, the Historia politica) do not argue from it.

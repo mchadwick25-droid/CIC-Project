@@ -1,6 +1,12 @@
 source_file: mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt
 
 authors_ruled:
+  synod-of-seleucia-410:
+    kind: anonymous
+    evidence: >
+      Mansi tom. 3 prints Isaac's synod of 410 at Seleucia with the Persian bishops' creed
+      (file lines ~111148-111948); a conciliar text, no individual author.
+    from_file: mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt
   council-of-carthage-i:
     kind: anonymous
     evidence: 'Mansi tom. 3 prints "Carthage I sub Grato" as a council text (file line 12680); no individual author is named.'
@@ -53,3 +59,15 @@ assignments:
     confidence: provisional
     note: >
       African council recorded in Mansi 3. Registry row 228.
+
+  - row_id: mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901--seleucia-410
+    work: "The synod of Isaac at Seleucia (410) and the Persian bishops' creed"
+    author: synod-of-seleucia-410
+    locus: "file lines ~111148-111948; the creed at ~111433-111434"
+    atlas_ids:
+      - the-church-of-the-east-under-persia
+    role: antecedent
+    confidence: needs-ruling
+    note: >
+      The assembly that adopted the Nicene Creed for Persia, on which the census floor note
+      rests; before the window opens, so antecedent, needs-ruling on the corpus-map rule.

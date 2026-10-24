@@ -16,3 +16,17 @@ assignments:
     with occasional letter-level misreads. Word-form coverage against a clean Latin vocabulary is 0.78;
     the Spanish, Italian and Portuguese passages and the notes lower it, so the figure is a comparison
     across files and not a measure of accuracy.'
+- row_id: ignatius-loyola_exercitia-spiritualia-et-directoria-lat-spa_1919--monumenta-edition-of-the-spiritual-exercises-editorial
+  work: 'Monumenta edition of the Spiritual Exercises: editorial comparisons with Thomas a Kempis'
+  author: ignatius-loyola
+  locus: whole volume
+  atlas_ids:
+  - devotio-moderna-brethren-of-the-common-life
+  role: context
+  confidence: provisional
+  note: 'The editors'' notes compare the Exercises with Kempis (file lines 2644, 3070 ''Kempis in omnium
+    manibus versatur'', 3082 ''Thomae a Kempis cum Ludolfo et Ignatio communia'', 4605, 5457, 5559). The
+    census names the movement as a parent of Jesuit formation; this is where the shelf shows the comparison.
+    Tier: out of window. Placed on those notes.
+
+    '

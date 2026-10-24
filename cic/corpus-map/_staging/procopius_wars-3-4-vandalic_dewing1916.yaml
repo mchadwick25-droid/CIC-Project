@@ -1,0 +1,18 @@
+source_file: procopius_wars-3-4-vandalic_dewing1916.txt
+
+assignments:
+  - row_id: procopius_wars-3-4-vandalic_dewing1916--wars-iii-iv-vandalic-war
+    work: "History of the Wars, Books III-IV (the Vandalic War)"
+    author: procopius
+    locus: "whole text; III.8 (Vandal persecution), III.21 (Cyprian's shrine, 533), IV.14 (Arian soldiers)"
+    atlas_ids:
+      - latin-africa-under-byzantium
+      - gothic-and-vandal-homoian-christianity
+      - byzantine-imperial-church-justinianic
+    role: context
+    confidence: assigned
+    note: >
+      Procopius was with Belisarius at Carthage in 533. For Latin Africa under Byzantium
+      this is the founding event seen by a participant; for the Homoian register entry it
+      preserves the last acts of the Vandal Arian clergy (III.21) as reported by an
+      outsider; for the imperial church it is Justinian's reconquest. Context in all three.

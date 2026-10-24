@@ -34,3 +34,29 @@ assignments:
       Anabaptist point of view, and it includes a "Taborite confession
       of 1431" whose own source is not vendored. Not Hussite voice;
       a witness to how a later movement read them.
+  - row_id: van-braght_martyrs-mirror_sohm1886--van-braght-martyrs-mirror-sohm-1886-the-taborite-sections
+    work: 'Van Braght, Martyrs'' Mirror (Sohm, 1886): the Taborite sections and the Adamites passage'
+    author: van-braght
+    locus: whole volume
+    atlas_ids:
+    - taborite-radicalism
+    - inquisition-record-sects-adamites-and-kin
+    role: context
+    confidence: provisional
+    note: 'A 1660 Anabaptist reading of the Taborites, with what it calls a confession of the Taborites
+      drawn up in 1431 (file line 47614; its source is not vendored) and a passage that names Adamites among
+      the names given to dissenters (file line 41446). Three removes from any Taborite text; a witness to
+      how a later movement read them. Already assigned to the Hussite entry. Tier: same time-different-region.'
+  - row_id: van-braght_martyrs-mirror_sohm1886--martyrs-mirror-tauler-cited-as-a-witness-against-the-church
+    work: 'Martyrs Mirror: Tauler cited as a witness against the church of his day'
+    author: van-braght
+    locus: whole volume
+    atlas_ids:
+    - rhineland-mysticism-and-the-friends-of-god
+    role: context
+    confidence: provisional
+    note: 'Under the year 1400 the compiler quotes Tauler on blind prelates, says he never urged one man
+      to hurt another, and praises him (file lines 45958 to 46000; Tauler is named again at 46972). The
+      Mennonite martyr book thus claims him. Tier: out of window. Placed on that passage.
+  
+      '

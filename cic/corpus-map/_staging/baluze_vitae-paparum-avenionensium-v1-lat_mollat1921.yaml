@@ -1,0 +1,12 @@
+source_file: baluze_vitae-paparum-avenionensium-v1-lat_mollat1921.txt
+assignments:
+- row_id: baluze_vitae-paparum-avenionensium-v1-lat_mollat1921--vitae-paparum-avenionensium-baluze-mollat-s-new-edition-the
+  work: Vitae paparum Avenionensium (Baluze; Mollat's new edition), the Latin Lives
+  author: baluze
+  locus: the Lives of the Avignon popes from Clement V
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: provisional
+  note: 'The contemporary Lives of the Avignon popes, Latin, in Mollat''s critical edition. Provisional:
+    not read through. Readable OCR; quote after checking the scan.'

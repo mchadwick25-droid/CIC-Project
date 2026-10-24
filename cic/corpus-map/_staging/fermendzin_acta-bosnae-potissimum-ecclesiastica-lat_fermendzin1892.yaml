@@ -1,0 +1,15 @@
+source_file: fermendzin_acta-bosnae-potissimum-ecclesiastica-lat_fermendzin1892.txt
+assignments:
+- row_id: fermendzin_acta-bosnae-potissimum-ecclesiastica-lat_fermendzin1892--acta-bosnae-potissimum-ecclesiastica-ab-anno-925-usque-ad
+  work: Acta Bosnae potissimum ecclesiastica ... ab anno 925 usque ad annum 1752 (Fermendžin, Zagreb 1892)
+  author: fermendzin
+  locus: Innocent III on Ban Kulin at file line 548; Innocent IV on the lapsed diocese 1086; Boniface
+    VIII 1406; Gregory XI 3123; Radin Gost 14415, 14981 and 17606-17608
+  atlas_ids:
+  - the-bosnian-church
+  role: context
+  confidence: assigned
+  note: 'The Roman and Ragusan record of the Bosnian Church: papal condemnations, royal protection of
+    the heretics, and the court of the last Bosnian rulers where Gost Radin appears, in Latin regests.
+    Hostile and outside witness; the church itself does not speak here. Second witness for exact wording
+    (doubled spaces, OCR damage). Gost Radin''s testament is not in it.'

@@ -20,3 +20,36 @@ assignments:
       volume is genuine and substantially on-topic; that one specific
       passage's presence stays an open, disclosed gap rather than a
       silently resolved one.
+
+  - row_id: gregory-tours_history-of-the-franks-v2_dalton1927--homoian-debates-and-kings
+    work: "History of the Franks V.43 (Agila), VI.40 (Oppila), IX.15 (Reccared), II.3 (Huneric and Eugenius), II.34 (Gundobad)"
+    author: gregory-tours
+    locus: "raw lines ~10198-10230, ~12907-12935, ~18168ff, ~1923-2146, ~3525"
+    atlas_ids:
+      - gothic-and-vandal-homoian-christianity
+    role: context
+    confidence: assigned
+    note: >
+      Homoian arguments reported nearly word for word by a Nicene listener; outside witness.
+
+  - row_id: gregory-tours_history-of-the-franks-v2_dalton1927--visigothic-iberia
+    work: "History of the Franks V.38 (Leovigild and Hermenegild), V.43 (Agila's debate), VIII.46, IX.15 (Reccared's conversion)"
+    author: gregory-tours
+    locus: "raw lines ~9948-10037, ~10198, ~17385, ~18168"
+    atlas_ids:
+      - nicene-visigothic-iberia
+    role: context
+    confidence: assigned
+    note: >
+      The Frankish bishop's view of the Visigothic kingdom's religious turn.
+
+  - row_id: gregory-tours_history-of-the-franks-v2_dalton1927--bretons
+    work: "History of the Franks IV.4 (Macliav), IV.20, V.21 (Winnoch the Breton)"
+    author: gregory-tours
+    locus: "raw lines ~5650-5680, ~6318, ~9383"
+    atlas_ids:
+      - british-welsh-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Brittany is the British church's continental region; thin, tier 2.

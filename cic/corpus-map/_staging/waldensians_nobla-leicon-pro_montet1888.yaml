@@ -1,0 +1,24 @@
+source_file: waldensians_nobla-leicon-pro_montet1888.txt
+assignments:
+- row_id: waldensians_nobla-leicon-pro_montet1888--la-nobla-leicon-the-noble-lesson-waldensian-poem-with-french
+  work: La Nobla Leiçon (The Noble Lesson), Waldensian poem, with French translation (Montet)
+  author: waldensians
+  locus: verse text after the introduction; French translation follows
+  atlas_ids:
+  - waldensians-in-the-alps
+  role: tradition
+  confidence: assigned
+  note: 'Second witness: the verse OCR is badly garbled, so a build locates passages here and quotes from
+    the 1909 De Stefano file after checking the page images. The French translation is Montet''s; Morland''s
+    1658 English rendering of the poem is on the shelf, uncollated.'
+- row_id: waldensians_nobla-leicon-pro_montet1888--la-nobla-leicon-the-noble-lesson-waldensian-poem-with-french-2
+  work: La Nobla Leiçon (The Noble Lesson), Waldensian poem, with French translation (Montet)
+  author: waldensians
+  locus: verse text after the introduction; French translation follows
+  atlas_ids:
+  - the-waldensians
+  role: tradition
+  confidence: provisional
+  note: 'Second witness: the verse OCR is badly garbled, so a build locates passages here and quotes from
+    the 1909 De Stefano file after checking the page images. The French translation is Montet''s; Morland''s
+    1658 English rendering of the poem is on the shelf, uncollated.'

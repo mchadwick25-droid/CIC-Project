@@ -1,0 +1,13 @@
+source_file: miklosich_monumenta-serbica-chu_miklosich1858.txt
+assignments:
+- row_id: miklosich_monumenta-serbica-chu_miklosich1858--monumenta-serbica-spectantia-historiam-serbiae-bosnae
+  work: Monumenta Serbica spectantia historiam Serbiae, Bosnae, Ragusii (Miklosich, Vienna 1858)
+  author: miklosich
+  locus: Bosnian rulers' charters, for example file lines 11240 and 12357; Sultan Selim's charter 26384
+  atlas_ids:
+  - the-bosnian-church
+  role: context
+  confidence: provisional
+  note: 'The charters of the Bosnian kings, bans and lords to Ragusa in Serbian Church Slavonic; the church''s
+    djeds and gosts witness some of them. Provisional: the OCR is poor (the best of four scans) and the
+    witness lists were not read. Second witness only: locate, then read the page image. No translation.'

@@ -1,0 +1,6515 @@
+Title: The Peasants' Rising and the Lollards: a collection of unpublished documents forming an appendix to 'England in the Age of Wycliffe', edited by Edgar Powell and G. M. Trevelyan
+Creator: Court and chancery records, edited by Edgar Powell (b. 1853) and George Macaulay Trevelyan (1876-1962)
+Publisher: London and New York: Longmans, Green, and Co., 1899
+Publication Date: 1899
+Rights: Public Domain
+Rights basis: The title page reads 1899 in the OCR. The item record carries possible-copyright-status NOT_IN_COPYRIGHT. The documents are medieval records; the editors' introduction and notes were published in 1899.
+Source: Internet Archive item peasantsrisingth00poweuoft (archive.org/details/peasantsrisingth00poweuoft), full-text file peasantsrisingth00poweuoft_djvu.txt, fetched directly by the Library thread, October 2026.
+Provenance note: Header prepended by the Library thread; the OCR text follows unchanged apart from this header. Nothing was corrected, re-spaced or retyped, and no characters were replaced. The fetched file is 162484 bytes, the size the host lists for it; the end of the file was read. OCR sampled at opening, middle and end: Clean English at opening, middle and end; the lists in the middle are readable.
+Content note: Unpublished documents (in English abstract) on the Peasants' Rising of 1381 and, in a second section, 'Documents relating to Lollards, 1382-1398', with a short introduction by the editors. Small file; trial and chancery records, not narrative. The documents are given 'in an abbreviated form', as the preface says.
+
+---
+
+=  0) 
+
+;c>- 
+
+•CM 
+
+
+"CO 
+
+
+THE    PEASANTS'    RISING 
+
+AND 
+
+THE  LOLLARDS 
+
+
+THE   PEASANTS'  EISING 
+
+AND 
+
+THE    LOLLAEDS 
+
+
+A    COLLECTION    OF    UNPUBLISHED    DOCUMENTS 
+
+FORMING    AN    APPENDIX    TO 
+•ENGLAND    IN    THE    AGE    OF    WYCLIFFE' 
+
+
+EDITED   BY 
+
+EDGAE  POWELL  AND  G.  M.  TKEVELYAN 
+
+
+LONGMANS,    GEEEN,    AND    CO. 
+
+89    PATERNOSTEE    ROW,    LONDON 
+NEW   YORK   AND   BOMBAY 
+
+1899 
+A.11    rights    reserved 
+
+
+DA 
+
+
+PREFACE 
+
+
+IN  the  Preface  to  the  recently  published  volume '  England  in 
+the  Age  of  Wycliffe,'  the  author  expressed  his  intention  of 
+following  up  that  work  by  the  publication  of  such  new 
+materials  as  had  been  used  in  its  construction.  It  was  by 
+Mr.  Edgar  Powell  that  he  was  first  introduced  to  these 
+materials,  and  by  his  assistance  he  now  fulfils  the  promise 
+of  publication  then  made.  It  is  hoped  that  these  docu- 
+ments will  bear  out  that  part  of  '  England  in  the  Age  of 
+Wycliffe  '  which  was  based  upon  their  authority.  But  they 
+also  contain  much  interesting  detail  concerning  incidents 
+which  were  only  casually  mentioned  in  that  work.  Students 
+engaged  on  the  period,  either  from  love  of  reading  or  from 
+hope  of  writing,  will  find  here  both  curious  and  important 
+matter.  The  editors  have  here  and  there  inserted  references 
+to  direct  search  to  other  sources  of  information  on  the  sub- 
+jects in  question,  and  have  given,  on  page  18,  a  short  list 
+showing  where  documents  relating  to  other  trials  of  the 
+rioters  of  1381  have  been  printed,  either  wholly  or  in  part. 
+
+It  has  been  thought  best,  in  order  to  avoid  much  repeti- 
+tion and  mere  legal  phraseology,  to  give  the  documents  here 
+published  in  an  abbreviated  form  except  in  cases  where  they 
+are  described  as  transcripts  in  full. 
+
+
+INTRODUCTION 
+
+
+THE  first  section  of  these  documents  (pp.  1-23)  will  be  found 
+to  contain  new  matter  relating,  first,  to  the  Peasants'  Kising 
+of  1381  (pp.  1-18),  and,  secondly,  to  other  riots  arising 
+from  similar  discontents  that  disturbed  the  later  years  of 
+Eichard  II  (pp.  19-23). 
+
+The  contemporary  evidence  about  the  actual  events  of  the 
+Peasants'  Eising  of  1381,  as  distinguished  from  its  social 
+causes,  falls  mainly  under  two  heads,  the  chronicles  and  the 
+official  records  of  the  trials  of  individual  rioters.  It  ia 
+difficult  to  say  which  of  these  two  sources  is  now  the  more 
+important.  If  either  of  them  were  taken  away,  the  history  of 
+the  rising  would  be  meagre  and  its  real  nature  misunder- 
+stood. Only  if  we  put  the  two  together,  piece  by  piece,  and 
+critically  compare  the  one  with  the  other  in  every  point, 
+do  we  gradually  obtain  a  true  and  fully  coloured  picture 
+of  these  'old,  unhappy,  far-off  things.'  On  the  one  hand 
+the  chronicles  have  the  advantages  that  usually  belong  to 
+historical  documents  written  on  purpose  to  inform  future 
+generations  of  the  events  that  have  occurred.  It  is  in  the 
+chronicles  that  we  find  the  clearest  general  account  of  the 
+nature  and  characteristics  of  the  rising  as  it  appeared  to 
+contemporaries.  It  is  from  the  chronicles  that  we  gather 
+the  great  strategic  and  moral  importance  of  certain  inci- 
+dents of  the  rising,  such  as  the  series  of  events  that  took  place 
+in  London  between  June  12  and  15. 
+
+It  is,  in  fact,  the  chronicles  that  give  us  the  main  out- 
+lines of  the  story  of  the  rebellion,  and  so  enable  us  to 
+
+
+viii  INTRODUCTION 
+
+interpret  the  large  amount  of  detailed  information  contained 
+in  the  trials  of  the  rioters. 
+
+This  second  class  of  documents,  on  the  other  hand,  has 
+many  great  advantages.  These  trials,  in  the  first  place, 
+supply  us  with  dates  both  accurate  and  numerous,  while 
+the  chronicles  are  often  wrong  as  to  the  days  on  which 
+particular  riots  took  place.  In  the  story  of  the  brief  but 
+fateful  occupation  of  London  by  the  rebels,  the  order  of  events 
+and  the  days  on  which  they  occurred  is  of  the  first  import- 
+ance. It  is,  therefore,  an  extremely  fortunate  circumstance 
+that  while  the  chronicles  contradict  each  other  as  to  the  days 
+on  which  the  proceedings  in  London  took  place,  a  final  court 
+of  appeal  is  ready  to  hand  in  the  trials  of  the  rioters  who  took 
+part  in  the  occupation  of  the  capital.  Still  more  important, 
+perhaps,  are  the  dates  of  rioting  in  the  several  country 
+districts,  which  the  trials  of  the  offenders  alone  supply  to  us. 
+It  is  by  these  dates  that  it  is  possible  to  estimate  the  pace  at 
+which  the  rebellion  spread  through  England,  and  the  length 
+of  time  during  which  it  continued  to  break  out  afresh  in  the 
+more  distant  provinces  after  it  had  been  crushed  at  the 
+centre. 
+
+But  it  is  not  as  regards  dates  alone  that  the  trials  are 
+more  full  and  accurate  than  the  chronicles.  As  regards 
+area  and  locality  they  give  far  more  detail. 
+
+All  accounts  of  riots  in  small  country  places  must  be 
+drawn  from  these  trials ;  the  chronicles  confine  them- 
+selves chiefly  to  the  events  in  London  or  to  the  attacks 
+on  well-known  abbeys  and  castles,  while  the  trials,  on  the 
+other  hand,  supply  us  with  detailed  and  personal  accounts 
+of  the  events  of  that  stormy  summer  in  a  number  of 
+remote  villages  and  country  towns.  These  are  severally 
+interesting  to  the  local  antiquarian,  and  collectively  they 
+enable  us  to  form  a  judgment  of  the  nature  of  the  rising  in 
+the  country  districts,  independent  of  the  generalisations  of 
+the  chronicles,  which  indeed  they  in  some  points  correct. 
+The  trials  have  also  considerably  enlarged  the  known  area  of 
+the  rebellion.  The  chronicles  leave  it  uncertain  how  far  the 
+rising  spread  beyond  the  eastern  and  home  counties,  but  the 
+trials  give  us  details  of  riots  in  York,  Doncaster,  Bridge- 
+
+
+INTRODUCTION  ix 
+
+water,  and  villages  in  Leicestershire,  Wiltshire,  and  the 
+Wirral  of  Cheshire.  Lastly,  whereas  the  chronicles,  except 
+in  a  very  few  places,  speak  only  of  the  actions  of  the  mob  aa 
+a  whole,  the  trials  more  frequently  give  us  the  action  of 
+individual  rioters,  and  often  suggest  the  personal  motives,  as 
+of  revenge  for  private  wrongs,  that  actuated  a  certain  propor- 
+tion of  the  ringleaders  of  a  movement  which  nevertheless 
+was,  upon  the  whole,  a  national  uprising  to  obtain  common 
+ends. 
+
+The  documents  on  pp.  1-18  below  are  the  latest  addition 
+to  the  publications  of  this  important  class  of  documents. 
+The  trials  here  printed  have  several  new  points  of  interest. 
+In  the  first  place  another  county,  Cheshire  (p.  13),  has  been 
+added  to  the  area  of  rebellion.  Curiously  enough  it  is  the 
+Wirral,  the  most  remote  portion  of  the  county,  the  district 
+seemingly  furthest  removed  from  the  contagion  of  the  eastern 
+counties,  that  we  find  convulsed.  It  was  towards  the 
+end  of  July,  after  the  news  of  the  suppression  of  the  rioters 
+in  London  had  reached  the  district,  and  after  letters  from 
+the  king  denouncing  the  rebellion  had  been  read  in  the  full 
+shire  court  of  Cheshire,  that  the  serfs  of  the  Abbot  of 
+Chester  rose  in  the  Wirral  (p.  15).  The  abbeys  were 
+frequent  victims  of  mob  violence  during  this  summer,  as 
+the  tenure  of  the  serfs  on  the  estates  of  corporate  bodies 
+was  generally  more  antiquated  than  the  tenure  of  serfs  on 
+the  estates  of  individual  landlords.  On  p.  17  we  find  another 
+abbey  in  Middlesex  which  can  be  added  to  the  long  list  of 
+religious  houses  attacked  during  the  rebellion.  The  new 
+series  of  Kent  indictments  (pp.  3-12),  together  with  those 
+printed  by  the  Kent  Archaeological  Society,  form  a  rich  source 
+of  information  about  the  rising  in  Kent. 
+
+On  pp.  19-23  will  be  found  official  records  of  charges 
+against  rioters,  very  similar  to  those  of  the  year  1381. 
+These  records  show  that  in  localities  the  events  of  the  great 
+rising  repeated  themselves  in  the  later  years  of  Eichard  II. 
+Of  these  later  social  disturbances  the  chronicles  tell  us 
+nothing,  and  the  trials  are  the  sole  evidence  that  they 
+occurred.  The  riots  of  the  year  1392  in  the  south  Yorkshire 
+towns  are  made  specially  interesting  by  the  rebel  song,  which 
+
+
+x  INTRODUCTION 
+
+is  recorded  at  length  in  the  accusation  (p.  19).  It  ranks  in 
+the  nature  of  its  importance  with  those  rebel  songs  of  1381,  so 
+redolent  of  the  mystery  and  earnestness  of  '  Piers  Plowman,' 
+which  we  find  recorded  in  the  chronicles1 ;  for,  like  them, 
+this  song  of  the  Yorkshire  rioters  of  1392  opens  a  narrow 
+window  through  which  we  gain  a  glance  into  the  hearts  and 
+minds  of  those  who  rose  in  revolt,  believing  that  '  the  King's 
+son  of  heaven  should  pay  for  all.'  The  Yorkshire  song  is 
+not  indeed  so  religious  in  sentiment  as  the  song  of  the  south 
+country  rebels,  where  John  the  Miller,  who  '  yground  small, 
+small,  small,'  bade  '  John  Trueman  and  all  his  fellows '  '  do 
+well  and  better  and  flee  sin,  and  seek  peace  and  hold  therein,' 
+as  a  preliminary  to  murder  and  rebellion ;  but  it  proves  that 
+many  of  the  rioters  of  1392  were  not  merely  bent  on  plunder 
+and  arson,  but  were  inspired  by  an  ideal  of  independent 
+manhood  which  could  not  tamely  endure  slavery  and  wrong. 
+Every  one  interested  in  the  ideals  of  those  troublous  times 
+should  study  it  as  it  stands  on  p.  19  below. 
+
+But  the  story  of  the  resistance  offered  in  1398  by  the 
+peasantry  of  Wellington  to  the  manorial  dues  of  the  Bishop 
+of  Bath  and  Wells  is  no  less  interesting  (p.  21),  for  here  the 
+question  at  issue  is  clearer  than  the  grievances  of  the  York- 
+shire rioters.  This  case  is  one  of  the  best  of  several  similar 
+cases  that  show  how,  in  the  twenty  years  following  the 
+rising,  feudal  dues  were  still  often  refused,  and  the  refusal 
+backed  by  force.  '  This  attitude  of  resistance  was  an  impor- 
+tant factor  in  the  economic  causes  which  drove  the  landlord 
+to  manumit  his  serfs ;  if  they  worked  unwillingly  and 
+rebelliously  at  the  forced  labour,  the  forced  labour  must  soon 
+be  changed  for  paid  service.'2 
+
+The  work  of  collecting  and  printing  documents  relating 
+to  the  Lollards  is  very  much  behind  that  of  collecting  and 
+printing  documents  relating  to  the  Peasants'  Eising.  Since 
+the  days  of  Foxe  the  martyrologist  there  has  been  little 
+systematic  attempt  to  collect  and  publish  the  documents 
+
+1  Wals.  II.  33-4.  and  Knighton,  II.  139,  Bolls  Series.    England  in 
+the  Age  of  Wycliffe,  pp.  203-4. 
+
+2  England  in  the  Age  of  Wycliffe,  pp.  254-5.     See  also  the  cases  in 
+Suffolk,  1383  and  1385,  Powell's  Eising  in  East  Anglia,  pp.  64-5. 
+
+
+INTRODUCTION  xi 
+
+which  would  tell  us  the  history  of  mediaeval  English  protes- 
+tantism, after  the  time  when  the  personality  of  Wycliffe  has 
+disappeared  from  the  scene.  Section  III  of  this  book  is  a 
+slight  addition  to  this  much-needed  work,  but  it  goes  no 
+further  than  the  end  of  the  reign  of  Eichard  II  and  has  no 
+pretensions  whatever  to  being  complete  even  for  that  brief 
+period.  The  most  interesting  and  suggestive  part  of  this 
+section  is  the  story  of  the  town  of  Northampton  (pp.  45- 
+50).  This  document,  which  happens  to  be  an  English  trans- 
+lation, is  indeed  much  the  most  entertaining  in  the  book. 
+Northampton  appears,  even  in  the  fourteenth  century,  to 
+have  adopted  a  totally  independent  attitude  in  matters  of 
+religion.  Some  reference  to  the  strange  events  that  occurred 
+in  that  town  in  1392-3  has  already  been  made  in  '  England 
+in  the  Age  of  Wycliffe,'  p.  318.  But  the  reader  can  now  study 
+for  himself  in  the  original  how  '  the  maior  hath  made  the 
+whole  toune  in  manner  to  become  Lollardes  so  that  the  whole 
+toune  is  gouerned  by  them,  no  one  daring  gainsaie  them  for 
+feare  of  theire  Hues.  All  ribauds  infected  with  Lollardy,  that 
+come  into  the  saide  towne,  are  all  courteously  receiued  & 
+mainetayned  as  yf  they  were  prophetts  before  all  others.' 
+And  how  '  the  Viccar  of  the  church,  after  theffertorie  in  the 
+masse  parochiell  retourned  to  the  aulter  to  singe  his  masse, 
+whereuppon  the  said  maior  goeing  to  the  said  viccar  at  the 
+aulter  with  greate  indignation  took  him  by  the  backe  of  his 
+vestiment  to  cause  him  to  retourne  from  his  masse  and  to 
+cease  vntill  the  saide  preacher  had  preached ;  which  vicar 
+answered  "  non  possum."  '  The  story  should  be  read  as  it 
+stands,  for  it  is  too  good  to  spoil  by  paraphrases  or  abbrevi- 
+ations. The  reader  will  be  forcibly  reminded  by  these  pro- 
+ceedings in  Northampton  in  1392,  of  the  spontaneous  out- 
+break of  popular  protestantism  which  overthrew  the  Catholic 
+Kirk  in  the  Scotch  towns  in  1559. 
+
+Most  of  the  other  documents  in  this  section  illustrate 
+the  zeal  and  frequency  with  which  Eichard  II  issued  royal 
+writs  for  the  suppression  of  the  Lollards,  in  spite  of  the 
+discouragement  he  received  from  the  House  of  Commons, 
+who  refused  to  pass  new  statutes  to  assist  persecution.1  It 
+1  England  in  the  Age  of  Wycliffe,  pp.  310-313  and  p.  330. 
+
+
+xii  INTRODUCTION 
+
+is  very  curious  that  this  king,  the  zealous  knight  of  orthodoxy, 
+was  at  one  time  actually  regarded  by  historians  as  having 
+been  favourable  to  heresy. 
+
+Section  II  (pp.  27-38)  contains  documents  relating  to 
+the  trial  of  John  of  Northampton,  Mayor  of  London  from 
+1381  to  1383  :  he  was  the  partisan  of  John  of  Gaunt  against 
+Richard  II ;  he  was  the  champion  of  the  clothing  trades 
+and  of  the  majority  of  Londoners,  in  their  struggle  against 
+the  economic  privileges  of  the  victualling  trades  and  the 
+grocers ;  he  once  headed  a  mob  hostile  to  Church  juris- 
+diction in  a  demonstration  against  the  Bishops.  Although 
+some  account  of  these  events  has  been  given  in  '  England 
+in  the  Age  of  Wycliffe,' l  a  deep  study  of  economic  questions 
+and  political  parties  in  London  might  bring  to  light  some 
+further  clue  to  the  rise  and  fall  of  John  of  Northampton. 
+But  the  document  printed  on  pp.  27-38  below  will  probably 
+remain  the  principal  authority  on  the  subject.  The  student 
+will  bear  in  mind  that  the  words  are  the  words  of  North- 
+ampton's enemies,  and  that  the  case  is  only  the  case  against 
+him.  Among  the  many  eccentric  actions  by  which  he  curried 
+favour  with  the  populace  of  London,  one  is  specially  interest- 
+ing. He  appears  (p.  30)  to  have  assisted  through  the  action 
+of  his  subordinates  in  the  acquittal  of  the  rebel  aldermen 
+who  had  let  the  peasants  into  London  in  June  1381. 
+Sybyle  and  Horn  certainly  deserved  to  be  hanged  for 
+the  part  they  had  played,2  but  that  part  had  been  pleasing 
+to  the  apprentices  and  to  the  lower  orders  of  the  capital, 
+and  a  popular  mayor  was  not  likely  to  show  them  great 
+severity. 
+
+Section  IV.  (pp.  55-68)  contains  a  list  of  some  of  the  aliens 
+holding  Church  preferment  in  England  in  the  reign  of 
+Ei  chard  II.  The  number  of  these  beneficed  foreigners  was 
+one  of  the  causes  of  complaint  against  the  Church  at  this 
+time.3 
+
+Section  V  (pp.  69-73)  is  a  table  which  shows  exactly  the 
+degree  to  which  the  personnel  of  the  House  of  Commons  was 
+
+1  England  in  the  Age  of  Wycliffe,  pp.  278-282. 
+
+2  Ibid.  pp.  227-9.    RSville,  pp.  190-9. 
+*  Ibid.  p.  119. 
+
+
+INTRODUCTION  xiii 
+
+changed  at  every  new  parliament  in  the  time  of  Richard  II. 
+The  importance  of  this  frequent  change  in  the  personnel  of 
+the  House  has  been  discussed  in  '  England  in  the  Age  of 
+Wycliffe,'  p.  73.  It  will  be  seen  from  the  table  on  pp.  72-3 
+below,  that  whereas  only  eight  old  county  members  of  the 
+Good  Parliament  were  returned  for  the  packed  parliament  of 
+January  1377,  as  many  as  twenty-three  sat  in  the  parliament 
+of  October  1377,  which  returned  to  the  traditions  established 
+by  the  example  of  the  great  assembly  of  1376.1 
+
+1  For  the  conduct  of  these  parliaments  see  England  in  tJic  Age  of 
+Wycliffe,  pp.  20-31,  37,  and  73-74. 
+
+
+CONTENTS 
+
+
+SECTION   I 
+
+PAGE 
+
+EXTRACTS  AND  TRANSCRIPTS  OF  DOCUMENTS  RELATING  TO 
+THE  PEASANTS'  RISING  AND  OTHER  SOCIAL  DISTURBANCES 
+IN  THE  REIGN  OF  RICHARD  II 1 
+
+
+SECTION    II 
+
+DOCUMENTS  RELATING  TO  THE  TRIAL  OF  JOHN  OF  NORTHAMP- 
+TON, LATE  MAYOR  OF  LONDON.     1387-8      .        .         .         .25 
+
+SECTION    III 
+DOCUMENTS  RELATING  TO  LOLLARDS.    1382-1398    .        .        .39 
+
+
+FOREIGNERS  HOLDING  PLACES  IN  THE  CHURCH  IN  ENGLAND, 
+TEMP.  Ric.  II 55 
+
+
+SECTION   V 
+
+TABLE  SHOWING  THE  CHANGE  OF  PERSONNEL  OF  THE  COUNTY 
+MEMBERS  IN  THE  HOUSE  OF  COMMONS,  TEMP.  RlC.  II.       .    69 
+
+
+INDEX  73 
+
+
+SECTION  I. 
+
+EXTKACTS   AND    TRANSCEIPTS    OF    DOCUMENTS 
+
+RELATING    TO    PEASANTS'    RISING    AND 
+
+OTHER   SOCIAL   DISTURBANCES  IN 
+
+THE  REIGN  OF  RICHARD  II. 
+
+
+Errata 
+
+Page  6,  line  3,  for  June  28  read  July  5 
+„     6,    „  23,  for  June  read  July 
+„    8,    „  16,  for  June  28  read  July  5 
+„  11,    „  22,  for  June  27  read  July  4 
+„  33,    „  20,  for  17  read  18 
+
+
+SECTION  I. 
+
+EXTKACTS   AND    TKANSCEIPTS    OF    DOCUMENTS 
+
+EELATING    TO    PEASANTS'    RISING    AND 
+
+OTHER   SOCIAL   DISTURBANCES  IN 
+
+THE  REIGN  OF  RICHARD  II. 
+
+
+DOCUMENTS  REFERRING  TO  THE 
+PEASANTS'  RISING  1381 
+
+KENT 
+
+Antient  Indictments.    No.  35 
+
+Hundred  de  Bernefelde.     (Skin  1.) 
+
+lurati  ibidem  dicunt  super  sacramentum  suum  quod 
+Stephianus  Holstokke  de  Northhyhame  insurrexit  contra 
+dominum  Eegem  in  crastino  Corporis  Christi  4  Eic.  II  apud 
+Combewell  et  .  .  .  [gone]  .  .  .  prioris  de  Combewell  et  ipsum 
+quoarcavit  ibidem  quousque  unum  equum  pretii  xl.  s.  .  .  . 
+cum  quadam  cella  deaurata  pretii  xx.  s. 
+
+Hundred  de  Eyhorne.     (Skin  2.) 
+
+lurati  dicunt  etc.  quod  lohannes  Henle  de  Herietsham 
+die  Sabbati  proxima  post  festum  Sancte  Trinitatis  [15  June] 
+4  Eic.  II  apud  Heriettisham  venit  ad  societatem  malefacto- 
+rum  .  .  .  et  resurexit  contra  dominum  Eegem  .  .  .  et 
+domum  lohannis  Bromnyng  apud  Heriettisham  felonice 
+fregit  eodem  die  et  anno.  Et  dicunt  quod  Eobertus  Hemery 
+de  Lenham  et  lohannes  Mellere  de  Ulcombe  resurexerunt 
+contra  dominum  etc.  apud  Lenham  die  Mercurii  proxima 
+post  festum  Apostolorum  Petri  et  Pauli  [3  July]  et  fecerunt 
+iurare  diversos  homines  ut  levarent  contra  dominum  Eegem 
+etc.,  et  arrestavere  diversos  victuales  ...  ad  valenciam 
+tresdecem  solidorum.  Et  dicunt  quod  Eic.  Eopere  de 
+Berghestede  apud  Cantuariam  die  lune  in  crastino  Sancte 
+
+B2 
+
+
+4  PEASANTS'   RISING 
+
+Trinitatis  [10  June]  interf ecit  lohannem  Tebbe  de  Cantuaria. 
+Item  dicunt  quod  Will.  Wrekok  Taylor  de  Thornham  furatus 
+fuit  1  pelum  de  Thoma  Fogge  milite  et  1  lavatorem  argenti 
+pretii  c.  solidorum  apud  Toneforde  die  Mercurii  proxima 
+post  festum  Sancte  Trinitatis  anno  ut  supra  [12  June]. 
+
+Hundred  de  Wechilstone.     (Skin  3.) 
+
+lurati  dicunt  .  .  .  quod  Will.  Burre  de  Brenchesle 
+Eogerus  Cotynge  de  Brenchesle  et  lohannes  Kippyng  de 
+Tonebregge  iunior  die  Sabbati  proxima  ante  festum  Nativi- 
+tatis  Sancti  lohannis  Bapt.  [22  June]  4  Eic.  II  insurexerunt 
+contra  etc.  et  domum  Nich.  Merefeld  apud  Tonebregge  et 
+bona  et  catalla  sua  viz.  pannos  lineos  vasa  etc.  ad  valenciam 
+c.  solidorum  succiderunt  et  in  luto  platearum  conculca- 
+verunt  ,  .  .  et  fuerunt  manutentores  insurectionis. 
+
+Hundred  de  Wrotham.     (Skin  4.) 
+
+Inquisitores  dicunt  super  sacramentum  suum  quod 
+Benedictus  Leveyng  ville  de  Maplestompe  lohannes  Sparwe 
+ville  de  ffrennyngham  lohannes  Donemawe  del  fforstall 
+de  Kyngesdone  lohannes  Pound  de  eadem  spontanea  et 
+mera  voluntate  sua  adherebant  diversis  congregationibus 
+etc.  qui  se  levaverunt  contra  dominum  Begem  etc.  et  sic 
+in  societate  eorum  permanserunt  continue  a  die  lovis 
+proxima  ante  festum  Sancte  Trinitatis  [6  June]  4  Eic.  II 
+usque  ad  presens  et  predicti  Benedictus  [and  others] 
+venerunt  in  villam  de  Northcraye  die  sabbati  in  vigiliis 
+Trinitatis  [8  June]  et  domum  Nicholai  Heryng  .  .  .  frege- 
+runt  et  bona  et  catalla  abduxerunt  .  .  .  et  quod  Peter 
+Bresiere  de  Wrotham,  lohannes  Bolyn,  Eicardus  Threshere, 
+et  Will.  Taylor  filius  Petri  Bresiere  de  eadem  villa  spontanea 
+etc.  adherebant  diversis  congregationibus  [etc.  as  above]. 
+
+Et  quod  Paul  Betell  de  Compe  in  crastino  Corporis 
+Christi  venit  London  et  ibidem  quendam  hominem  mactavit 
+cum  baculo.  Et  quod  lohannes  Pound  venit  London  die 
+et  anno  predictis  et  ibidem  quendam  hominem  de  nacione 
+fflandrense  mactavit  felonice.  Et  quod  lohannes  Bolyne  et 
+
+
+KENT  5 
+
+Eic.  Threshere  cum  conventicula  sua  die  Mercurii  ante 
+festum  Translations  Sancti  Thome  Mart.  [3  July]  apud 
+Cokheshethe  .  .  .  insultum  fecere  Willelmo  atte  Hothe  et 
+ad  eum  cum  suis  sagittis  sagittaverunt. 
+
+Et  predictus  Johannes  Bolyne  in  festo  sancte  Trinitatis 
+[9  June]  venit  in  villam  de  Chalke  .  .  .  et  unum  equum 
+Bichardi  Pope  abduxerunt  [sic]  pretii  xiij.  s.  iiij.  d. 
+
+Willelmus  Skele  et  Nicholas  Hakborne  et  quamplures  de 
+predicta  societate  miserunt  ad  domum  lacobi  de  Pecham 
+apud  Wrotham  et  ipsum  imprisonaverunt  inminando  ipsum 
+de  vita  et  membris  [etc.]  quousque  lacobus  concesserit 
+prefatis  Willelmo  et  Nicholao  iiiixx  acras  terre  vii  acras  prati 
+de  quibus  idem  lacobus  prius  tulit  quemdam  assisam  nove 
+disseisine  coram  Eoberto  Belknapp  et  aliis  lusticiariis 
+domini  Eegis.  Et  dicunt  quod  Petrus  Hwetegrom  levavit 
+per  se  et  alios  diversas  congregationes  etc. 
+
+Hundred  de  Brenchesle.     (Skin  5.) 
+
+lurati  dicunt  quod  Johannes  Sodegrom  spontanea  et 
+mera  voluntate  sua  adherebat  .  .  .  conventiculis  .  .  .  et 
+sic  in  societate  eorum  permansit  a  die  lovis  proxima  ante 
+festum  Sancte  Trinitatis  [6  June]  usque  ad  presens. 
+
+Et  quod  idem  Johannes  die  veneris  proxima  post  festum 
+Sancte  Trinitatis  [14  June]  et  quamplures  de  predicta 
+societate  venerunt  in  villam  de  Brenchesle  et  domum 
+Willelmi  Wylle  prostraverunt  et  bona  sua  abduxerunt. 
+
+Et  quod  Willelmus  Burre  Johannes  Burre  iunior 
+Johannes  Burre  senior  Eobertus  Ide  Nicholas  Burre  Thos. 
+Burre  Bocher  de  parochia  de  Brenchesle  die  Sabbati 
+proxima  post  festum  Trinitatis  [15  June]  proclamatione 
+facta  quod  quilibet  domum  reddierit  in  pace,  venerunt  in 
+villam  de  Tonbregge  cum  magna  conventicula  et  domum 
+Nicholai  Merefeld  fregerunt  et  die  dominica  proxima  [June 
+16]  venerunt  in  villam  de  Brenchesle  et  ibidem  prisonam 
+fregere  .  .  .  Et  dicunt  quod  Willelmus  Poule  ville  de  Bren- 
+chesle fecit  minas  in  excitando  ad  diversas  congregationes 
+levandas  etc.  die  dominica  proxima  post  festum  Sancti  Petri 
+et  Pauli  [30  June]. 
+
+
+6  PEASANTS'  EISING 
+
+Hundred  de  Merdenne.     (Skin  6.) 
+
+Inquisitio  capta  apud  Maydestane  die  veneris  proxima 
+ante  festum  Translationis  Sancti  Thome  Martyr.  [28  June] 
+coram  Thoma  Holand  comite  Kancie  &  sociis  suis  [Jury 
+names  given]  qui  dicunt  quod  Johannes  Gernays  de  Goutherst 
+die  lune  proxima  ante  festum  Sancti  lohannis  Bapt.  [17  June] 
+4  Eic.  II  cum  aliis  malefactoribus  venit  in  parochia 
+de  Merdenne  .  .  .  et  fecit  levationes  et  posuit  in  seisina 
+lohannam  relictam  Martini  Sherreve  in  unum  Messuagium. 
+
+Item  dicunt  quod  lohannes  Onewyne  de  Melkhouse 
+die  lune  proxima  post  festum  Sancte  Trinitatis  [10  June] 
+apud  Apuldre  domos  Willelmi  Home  cum  aliis  ignotis  pro- 
+straverunt. 
+
+Item  quod  Eobertus  Elmestede  Thos.  Cottegore  et 
+Henricus  Elmestede  die  Martis  proxima  post  festum  Sancte 
+Trinitatis  [11  June]  domos  Eectoris  de  Stapelherst  prostra- 
+verunt  .  .  . 
+
+Item  dicunt  quod  Stephanus  clerk  de  Lynton  in  festo 
+Corporis  Christi  [13  June]  manerium  de  Savoye  cum  aliis 
+malefactoribus  combussit. 
+
+Hundred  de  Rouchestre.     (Skin  7.) 
+
+Inquisitio  capta  die  lovis  proxima  ante  festum  Transla- 
+tionis Sancti  Thome  Mart.  [4  June]  anno  regni  5  Eic.  II.  coram 
+Thoma  Holand  comite  Kancie  .  .  .  [Jury  with  names  given] 
+qui  dicunt  .  .  .  quod  Elias  Eeyner  de  Strode  Esceator 
+domini  Eegis  in  Com.  Kancie  tradidit  evidencias  escaetrie 
+sue  et  hundredi  de  Middletone  Eicardo  Poser  de  Eouchestre 
+postea  venit  lohannes  Bawdry  de  Snodelonde  et  alii  ignoti 
+felonice  ceperunt  et  concremaverunt  apud  Eouchestre  in 
+festo  Sancte  Trinitatis  4  Eic.  II  [9  June].  Item  quod 
+Stephanus  Hosteller  de  Derteford  Will.  Hosteller  serviens 
+lohannis  Sharp  de  Derteford  Will.  Threshere  Thos.  Os- 
+barn  de  Strode  .  .  .  fecerunt  levationes  etc.  .  .  .  apud  Derte- 
+ford die  lovis  in  Septimana  Pentecosten  [6  June]  contra 
+dominum  Eegem  etc.  .  .  .  et  domum  Will.  Topchyne  apud 
+Maydestone  prostraverunt  die  veneris  tune  proxima  sequente 
+[7  June]  et  omnes  evidencias  eiusdem  Willelmi  combusserunt 
+
+
+KENT  7 
+
+eodem  die.  Item  dicunt  quod  Willelmua  atte  Broke  de 
+Chetham  iunior  et  Hugo  Walshman  in  festo  Sancte  Trinitatis 
+cum  aliis  domum  lohannis  Glovere  apud  Rouchestre  pro- 
+straverunt. Item  dicunt  quod  Thomas  serviens  lohannia 
+Shereday  de  Strode  Bicardus  Babere  serviens  Will.  Hose 
+[and  others]  fecerunt  levationes  apud  Rouchestre  in  festo 
+Sancte  Trinitatis  [9  June]  et  domum  Nicholai  Heryng  apud 
+Rouchestre  .  .  .  prostraverunt  et  domos  Thome  Seyntalbon 
+eodem  die  apud  Frendesbury  prostraverunt.  Item  dicunt 
+quod  Petrus  Fraunceys  de  Rouchestre  die  lune  proxima  post 
+festum  Trinitatis  [10  June]  apud  Bordenne  domum  lohannis 
+Godwot  prostravit  et  certas  evidencias  ibidem  felonice  com- 
+bussit  etc.  Item  dicunt  quod  Ricardus  Bocher  de  Rouchestre 
+die  Mercurii  proxima  ante  festum  Corporis  Christi  [12  June] 
+inter  villam  de  Depeford  et  civitatem  Londini  insultum  fecit 
+Episcopo  Roffensi  et  refrenavit  equum  suum  contra  pacem. 
+
+Hundred  de  Litelfeld.     (Skin  8.) 
+
+Inquisitio  capta  apud  Maydestane  die  veneris  proxima 
+ante  festum  Translationis  St.  Thos.  Mart.  [5  July]  .  .  . 
+coram  Thoma  Holand  .  .  .  [Jury  names  given]  qui  dicunt 
+quod  Will.  Holdenne  de  Shybourne  senr.  Will.  Hendyman 
+de  Shybourne  Will.  Wardon  de  Lamberherst  lohannes 
+Smith  de  Wrotham  et  Bartholomaus  Kyriell  de  Woteryng- 
+bury  nocte  diei  Sabbati  proxima  post  festum  Corporis  Christi 
+[15  June]  .  .  .  fecerunt  levationes  apud  Tonbregge  et  cum 
+aliis  malefactoribus  intraverunt  in  castrum  de  Tonbregge  ad 
+querendum  Nicholaum  Heryng  et  lohannem  Rampton  eos 
+ad  interficiendos  et  eadem  nocte  intraverunt  et  fregerunt 
+parcum  vocatum  posterne.  Item  quod  Ric.  Roger  de 
+Pekham  die  Sabbati  proxima  post  festum  Corporis  Christi 
+[15  June]  cum  aliis  intravit  in  parcum  vocatum  posterne  et 
+ibidem  fregit  hostium  domus  Comitis  Stafford  vocatum 
+Logge. 
+
+Item  dicunt  quod  Nich.  Burre  de  Brenchesle  lohannes 
+Herry  lohannes  Bur  frater  Nicholai  Bur  lohannes  Kyppingde 
+Tonebregge  et  lohannes  Chynyntone  die  Sabbati  proxima  post 
+festum  Corporis  Christi  [15  June]  apud  Tonbregge  fecerunt 
+levationes  et  unum  par  de  Stokkes  fregerunt,  et  eodem  die 
+
+
+8  PEASANTS'   KISING 
+
+et  anno  fregerunt  Stokkes  domini  Eegis  in  hundredo  de 
+Wecchelstone,  et  iidem  malefactores  fregerunt  domes  Nicho- 
+lai  Merefeld  in  Tonbregge  simul  cum  Philippo  Brewere  et 
+Henrico  Deye  de  Tonbregge.  Dicunt  quod  Willelmus  atte 
+Lake  de  Capele  et  lohannes  Cook  de  Capele  die  veneris 
+proxima  post  festum  Corporis  Christi  [14  June]  apud  London 
+combusserunt  domum  Sancti  lohannis  et  certas  evidencias 
+et  manerium  de  Savoye  contra  dominum  Eegem  etc. 
+
+Inquisitio  de  lohanno  Gillot  de  Deptford.     (Skin  9.) 
+
+Eobertus  Man  cognovit  quod  cepit  episcopum  per  totam 
+cantuariam  [These  last  three  words  were  probably  meant 
+to  be  erased,  as  cantuariam  certainly  is]  apud  la  Tour  in 
+Shepeye. 
+
+Hundred  of  Hoo.     (Skin  10.) 
+
+Inquisitio  capta  apud  Maydestane  die  Veneris  proxima 
+ante  festum  Sancti  Thome  Mart.  [28  June]  coram  Thoma 
+Holand  comite  Kancie  [Jury  with  names  given]. 
+
+lurati  dicunt  quod  lohannes  Foxgrove  de  Stoke  et  Eogerus 
+Plomer  in  festo  Corporis  Christi  [13  June]  cum  aliis  .  .  . 
+—apud   Savoye   asportaverunt   certas   armuras  pro  tubiis  et 
+eodem  die  concremaverunt  manerium  de  Savoye. 
+
+Hundred  de  Middeton  in  Insula  de  Schepye.    (Skin  11.) 
+
+Dicunt  quod  Walterus  Lansle  et  lohannes  Elys  cum 
+quindecem  aliis  .  .  .  die  Sancti  Barnabe  apostoli  [11  June] 
+apud  Eeyharne  in  Sheppeye  ceperunt  ij  boves  xxvij  multones 
+xj  quarterios  ffrumenti  cccc  iiijx*  xj  vellera  lanea  et  alia  ad 
+valenciam  xxiiij.  li.  de  Nicholai  Heryng. 
+
+Et  quod  Will.  Eyderwyk  eodem  die  venit  ad  domum 
+Agnete  Mellere  apud  Menstre  in  Shepeye  et  earn  minasset 
+.  .  .  ut  faceret  aquitanciam  de  xxxij.  s.  quos  Willelmus 
+prefate  Agnete  debitor  fuit. 
+
+Indictamenta  capta  apud  Maidestane.    (Skin  12.) 
+
+Inquisitio  capta  coram  Thoma  Holand  apud  Maidenstane 
+die  lovis  proxima  post  festum  sanctorum  apostolorum  Petri  et 
+
+
+KENT  9 
+
+Pauli  anno  5  Eic.  II  [4  July].  [Jury,  names  given.]  Qui  dicunt 
+quod  Hugo  Moneye  de  Thorneham  die  veneris  in  Septimana 
+Pentecosten  anno  iiij  [7  June]  venit  ad  domum  Will.  Top- 
+chyne  in  Maidenstane  .  .  .  et  catalla  asportavit  ad  val.  x.  li. 
+
+Item  quod  Eobertus  Glover  de  Strode  .  .  .  burgavit 
+edificia  ipsius  Willelmi  die  et  anno  supradictis  et  unum 
+Hawbericum  1  target  1  lanceam  1  arcum  ij  garbas  sagit- 
+tarum  asportavit. 
+
+Item  dicunt  quod  lohannes  Breme  de  comitatu  Bedeford 
+manens  in  Maidenstane  .  .  .  burgavit  edificia  predicti  Willi. 
+et  Nichi.  Heryng  apud  Fotescraye  die  Sabb.  proxima 
+sequente  [8  June].  Et  quod  Andr.  Poyntel  et  Will.  Taborer 
+de  Maidenstane  burgavit  edificia  predictorum  Willelmi  et 
+Nicholai. 
+
+Item  quod  lobannes  [...?]  de  Stokeby  skynner  fuit 
+comunis  manutentor  malefactorum  et  minavit  Tbomam 
+Holte  subvicecomitem  Kancie  quousque  sacramentum  suum 
+domino  regi  illius  comitatus  prestitit. 
+
+Item  dicunt  quod  lohannes  Barbur  de  Newenton  in 
+crastino  Sancte  Trinitatis  intravit  domum  Thome  Holt  apud 
+Cantuariam  et  burgavit  bona  et  catalla  etc.  .  .  . 
+
+Item  dicunt  quod  lohannes  Newhows  de  Therneham  die 
+lune  in  crastino  Sancte  Trinitatis  [10  June]  burgavit  domum 
+Henrici  Semonor  de  Boiton  juxta  Ospringe  et  quod  Eobertus 
+Baker  de  Derteford  die  veneris  et  Sabbati  in  Septimana 
+Pentecosten  fuit  perturbator  pacis  .  .  .  et  coegit  homines 
+de  Maidenstane  burgare  edificia  Willelmi  Topchyne  et 
+Nicholai  Heryng. 
+
+[This  skin  is  in  a  bad  state,  but  it  appears  from  it  that  John 
+Tebbe  was  killed  in  Canterbury,  and  that  the  gaol  in  Maid- 
+stone  was  broken  on  June  11.  The  last  entry  says  that 
+Walter  Tyler  of  Colchester,  John  ...  el  of  Dartford,  John 
+Hales,  Wm.  Apoldre  of  Mally  .  .  .  and  .  .  .  Henek  were 
+the  first  disturbers  of  the  peace.] 
+
+Hundred  of  Larkefelde.     (Skin  13.)     Billa  vera. 
+
+Inquisitio  pro  rege — si  lohannes  Gibben  de  Maideston  et 
+Eobt.  Cosyn  .  .  .  insurrexerunt  ...  a  die  lovis  proxima 
+
+
+10  PEASANTS'  EISING 
+
+ante  festum  Corporis  Christi.  Et  si  Eobertus  cum  aliis  in 
+vigiliis  Trinitatis  Thomam  Trenet  Chivaler  in  villa  de  Est 
+Mallyng  cepit  et  eum  iurare  f  ecerunt  contra  voluntatem  suam. 
+
+(Skin  14.) 
+
+Tenentes  abbatisse  de  Mallyng. 
+
+Hundred  de  Larkefeld.     (Skin  15.) 
+
+Concerned  with  attacks  on  houses  of  W.  Topchyne  and 
+Nich.  Heryng ;  also — lurati  dicunt  quod  Johannes  Spernal 
+de  Mallyng  in  vigiliis  Sancte  Trinitatis  super  Montem  de 
+longefeld  bercarium  Willelmi  Pour  cum  sagitta  sua  inter- 
+fecit  .  .  .  Et  Johannes  Spenser  Alan  Thresher  Johannes 
+Webbe  de  Est  Mallyng  et  alii  insurexerunt  etc.  et  cogerunt 
+Abbatissam  de  Mallyng  relaxare  eis  et  aliis  tenentibus  certa 
+servicia. 
+
+(Skin  16.) 
+
+Nothing  of  interest. 
+
+Hundred  of  Tottyngtrow.     (Skin  17.) 
+
+Et  dicunt  quod  Thos.  ate  Sole  ville  de  Gravesend  se 
+cognovit  esse  infra  cameram  domini  Eegis  in  Turri  London 
+Jn  crastino  Corporis  Christi  et  cum  gladio  suo  lectum  domini 
+Eegis  fincit  dicente  pro  seductoribus  ibidem  invenientibus 
+sic  Thorn.  Heryng  et  aliis  et  quod  Johannes  Ecus  se  abscon- 
+dit  quia  quod  esset  in  quadam  bargia  Archiepiscopi 
+Cantuarie  die  veneris  proxima  post  festum  Corporis  Christi 
+et  quod  Johannes  Henry  Eicardus  Newman  et  alii  capti 
+fuerunt  in  prisona  Neugate. 
+
+Hundred  of  Maidestan.     (Skin  18.) 
+
+Inquisitio  capta  apud  Maydestane  coram  domino  Thoma 
+Holand  etc.  quarto  die  Julij.  [Jury  names  given.]  Qui  dicunt 
+quod  Eobertus  Senyng  et  Simon  Bollede  Lynton  insurexerunt 
+et  venerunt  ad  domum  Johannis  Mayster  de  Lodelynton  in 
+Maydestane  vicesimo  die  Junii  et  minabantur  de  ruina 
+domorum  .  .  .  nisi  dictus  Johannes  eidem  Eobt°  xiij  acras 
+
+
+KENT  11 
+
+terre  in  Lynton  voc.  le  Skaurie  liberarit,  ita  quod  .  .  .  dictus 
+Johannes  proprias  domos  reliquit  per  unam  septimanam. 
+
+Item  quod  Willus  Meryham  de  Goutherst  venit  in 
+Lose  xxvj  lunii  et  voluit  amputasse  caput  Thome  Smyth  de 
+Lose  nisi  Thomas  finiret  cum  dicto  Will0  de  xiij.  s.  iiij.  d. 
+quos  Will0  solvit  .  .  . 
+
+Hundred  de  Schamele.     (Skin  19.) 
+
+Inquisitio  capta  apud  Maydestane  die  lovis  proxima  ante 
+festum  Translationis  sancti  Thome  Martyr,  anno  5  Eic.  II 
+[4  July]  coram  domino  Thoma  Holand. 
+
+[Jury  names  given.]  Qui  dicunt  quod  Matheus  Delhan  de 
+ffrendesbury  et  Adam  atte  Eede  in  festo  Trinitatis  apud 
+ffrendesbury  domos  Thome  Seyntalbon  prostraverunt  .  .  . 
+
+Item  dicunt  quod  Eogerus  Boye  de  Ithham  apud  London 
+die  Veneris  proxima  post  festum  Corporis  Christi  [14  June] 
+interfecit  tres  fflemynges  .  .  . 
+
+Item  quod  lohannes  Bery  de  Southflete  die  lune  proxima 
+post  festum  Sancte  Trinitatis  [10  June]  apud  Borden  lo- 
+hannem  Godwot  interfecit. 
+
+Hundred  de  Middelton.   (Skin  20.)    [Stained— damaged.] 
+
+Inquisitio  capta  apud  Maidestane  die  lovis  proxima  ante 
+festum  translationis  sancti  Thome  Martyr.  [27  June]. 
+
+[It  appears  from  this  that  John  Tebbe  was  slain  on 
+June  10  at  Canterbury  by  John  Smith,  jun.,  of  Canterbury, 
+and  others  ;  also  that  there  was  robbery  at  the  house  of  Thos. 
+Fogge,  at  Toneford,  on  Tuesday  (either  before  or  after — 
+ante  or  post?)  Trin.  Sunday.] 
+
+Item  dicunt  quod  Michael  .  .  .  de  Middeton  et  Willelmus 
+Prentis  de  Newynton  domos  lohannis  Sokelyng  Simonis 
+Haye  lohannis  Catesby  lohannis  Tebbe  et  Thome  Gar- 
+wynton  fregerunt  predicto  die  lune  [10  June]  et  postmodum 
+ad  interfectionem  Archiepiscopi  Cantuarie  et  Eoberti  Hales 
+prioris  S.  lohannis  lerosolyme  in  Anglia  procuraverunt  etc. 
+
+Item  dicunt  quod  cum  Arnaldus  Savage  ad  London 
+accessisset  pro  adiutorio  et  remedio  a  rege  petendo  pro  resist 
+.  .  .  [illeg.  about  two  or  three  words] .  .  .  et  rebellionum  iiisur- 
+gencium  contra  pacem  domini  Eegis  quidam  lohannes  Ock 
+
+
+12  PEASANTS'   EISING 
+
+de  Halghesto  ut  manutentor  insurexionis  aperte  predictum 
+Arnaldum  de  mutilacione  membrorum  et  de  incendio 
+domorum  suarum  cominatus  fuit. 
+
+Skins  21,  22. 
+
+Lists  of  Jurors  for  the  Hundreds  of  Middelton  and 
+Twyferde. 
+
+Hundred  de  Twyforde.     (Skin  23.) 
+
+Inquisitio  capta  apud  Maydestane  die  lovis  proxima 
+ante  festum  Translationis  sancti  Thome  Martiris  5  Eic.  II. 
+
+[Jury  names  given.]  Qui  dicunt  quod  Johannes  Boox  de 
+Est  Mallyng  in  festo  Sancte  Trinitatis  [9  June]  apud 
+Eouchestre  lohannem  Glovere  interfecit. 
+
+Item  dicunt  quod  Laur.  Threshere  de  Merdonne  die  lovis 
+in  festo  Corporis  Christi  [13  June]  apud  Ealdynge  fecit 
+proclamationes  levationes  et  congregationes. 
+
+Item  dicunt  quod  Eicardus  Gomelydene  de  Com.  Sussex 
+die  veneris  proxima  post  festum  Corporis  Christi  [14  June] 
+cum  aliis  ignotis  de  Com.  Sussex  venit  ad  villam  de 
+Ealdynge  et  domos  Eoberti  Sandherst  prostraverunt  et  bona 
+et  catalla  ad  valentiam  centum  librarum  asportaverunt. 
+
+Hundred  de  Chatham  et  Gilingham.     (Skin  24.) 
+
+lurati  dicunt  quod  Will8  films  Eicardi  atte  Broke  de 
+Chatham  decollavit  lohannem  Charlet  in  Festo  sancte  Trini- 
+tatis [9  June].  Et  quod  Willelmus  Drew  de  Chatham  fregit 
+domum  sancti  lohannis  apud  Clerkenwell  [14  June]  die 
+veneris  proxima  post  festum  Trinitatis. 
+
+Item  dicunt  quod  Thomas  Berghestede  de  Gillyngham  et 
+lohannes  Wyse  de  Mercham  fecerunt  in  principio  populum 
+de  Gillyngham  surgere  dicendo  et  minando  populum  quod  nisi 
+venerunt  cum  iisdem  voluerunt  eos  decollare  die  veneris  ante 
+festum  Trinitatis  [7  June]  et  postea. 
+
+Skin  25. 
+
+List  of  Jurymen  for  Chatham  and  Gillingham. 
+
+END    OF    BUNDLE. 
+
+
+13 
+
+
+CHESTER    INDICTMENT    ROLL 
+
+No.  8.    M.  57.    (Transcript  in  full.) 
+
+De  die  Martis  proxima  post  festum  Sane  to  Margaroto 
+Virginis  anno  quinto.     [23  July  1381.] 
+
+Dominus  Eex  misit  literas  suas  patentes  in  hec  verba. 
+Eicardus  del  gratia  Eex  Anglie  et  Francie  et  Dominus 
+Hibernie  lusticiariis  et  camerariis  suis  Cestrie  ac  universis 
+et  singulis  comitibus  baronibus  militibus  vicecomitibus 
+maioribus  balliuis  ministris  et  aliis  fidelibus  suis  in  Comitatu 
+Cestrie  salutem  Quia  datum  est  nobis  inteligi  quod  diuersi 
+subditi  nostri  qui  contra  pacem  nostram  et  in  turbacionem 
+populi  nostri  in  diuersis  comitatibus  regni  nostri  Anglie  se 
+leuaverunt  et  in  diuersis  conuenticulis  et  congregationibus 
+se  posuerunt  dampna  plurima  fidelibus  nostris  perpetrando 
+populo  nostro  comitatuum  predictorum  dant  inteligi  et 
+aflBrmant  se  dictas  congregationes  et  leuaciones  ex  nostris 
+autoritate  et  voluntate  fecisse  et  facere  ac  dicta  dampna 
+perpetrare  Vobis  innotescimus  per  presentes  quod  huiusmodi 
+leuaciones  congregaciones  et  dampna  ex  nostra  voluntate 
+seu  autoritate  minime  processerunt  prout  nee  procedere  et 
+fieri  debent  set  inde  quantum  plus  potest  nobis  displicet  in 
+immensum  et  ea  in  nostri  maximum  vituperacionem  et 
+corone  preiudicium  et  totius  regni  nostri  dampnum  et 
+turbacionem  redundare  sentimus. 
+
+Et  ideo  vobis  et  omnibus  vestrum  iniungimus  et  man- 
+damus quod  hec  in  locis  ubi  melius  et  celerius  pro  pace 
+nostra  in  hac  parte  conseruanda  vobis  videbitur  faciendo 
+publice  proclamari  et  pro  resistencia  quorumcunque  contra 
+pacem  nostram  ut  predictum  est  leuancium  manu  forti  et 
+cum  toto  posse  vestro  si  necesse  fuerit  taliter  ordinari  facere 
+
+
+14  PEASANTS'   EISING 
+
+quod  pro  defectu  huiusmodi  proclamationis  et  resistencie 
+dampna  vel  mala  aliqua  in  comitatibus  predictis  per  hums- 
+modi  congregaciones  et  leuaciones  vel  alio  modo  minime 
+fiant  seu  perpetrentur.  Et  hoc  sub  forisfactura  omnium  que 
+nobis  forisfacere  poteritis  nullatenus  omitatis  precipientes 
+unmersis  et  singulis  legeis  subditis  nostris  quod  ab  huius- 
+modi congregacionibus  leuacionibus  et  dampnis  penitus  se 
+abstineant  et  in  pace  morentur  sub  forisfactura  vite  et 
+membrorum  et  omnium  aliorum  que  nobis  forisfacere  poterint 
+Teste  me  ipso  apud  London  xviij  die  lunii  anno  regni  mei 
+quarto  [18  June  1381].  Virtute  quarum  literarum  procla- 
+matio  facta  fuit  in  pleno  comitatu  Cestrie  die  Martis  proxima 
+post  festum  Sancte  Margarete  Virginia  anno  regni  domini 
+Eegis  nunc  quinto  iuxta  tenorem  vim  et  effectum  literarum 
+predictarum  et  similiter  pro  maiore  securitate  pacis  domini 
+Eegis  conseruanda  preceptum  fuit  balliuis  hundred!  de 
+Wirhale  in  hec  verba.  Eicardus  dei  gratia  Eex  Anglie  et 
+Francie  Dominus  Hibernie  balliuis  et  vicecomitibus  hundredi 
+de  Wirhale  salutem  Quia  ex  testimonio  fide  dignorum  ac- 
+cepimus  quod  non  nulli  de  natiuis  dilecti  nobis  in  Christo 
+Abbatis  Cestrie  in  balliua  vestra  certas  fecerunt  congrega- 
+tiones  et  conuenticulos  secretas  in  nemoribus  et  aliis  locis 
+priuatis  infra  hundredum  predictum  et  certa  consilia  priuata 
+inibi  contra  proclamacionem  nostram  in  hac  parte  nuper 
+factam  tenuerunt  ac  diuersas  denariorum  taxaciones  inter  se 
+contributorias  certis  hominibus  de  balliua  vestra  pro  eorum 
+consilio  et  manutenencia  habendis  in  diuersis  querelis  et 
+articulis  versus  ipsum  abbatem  per  natiuos  suos  predictoa 
+illicite  propositis  concesserunt.  Vobis  precipimus  firmiter 
+iniungentes  quod  in  locis  in  balliua  vestra  ubi  melius 
+expedire  videritis  publice  proclamari  faciatis  quod  omnes 
+et  singuli  in  eadem  balliua  vestra  commorantes  cuius- 
+cunque  status  seu  condicionis  fuerint  ab  huiusmodi 
+congregacionibus  penitus  se  abstineant  et  in  pace  moren- 
+tur et  quod  nullus  eorum  aliquas  taxationes  misas  seu 
+contribuciones  pecuniarias  quascunque  per  se  seu  alio  in 
+talibus  querelis  et  articulis  illicitis  manutenere  alicui  de 
+populo  nostro  conserat  seu  quouismodo  concedat  sub  foris- 
+factura vite  membrorum  et  omnium  que  penes  nos  forisfacere 
+
+
+CHESHIEE  15 
+
+potent  nee  aliquis  sub  eadem  pena  huiusmodi  subsidia 
+dona  vel  regarda  quecumque  pro  tali  manutenencia  in  hac 
+parte  qualitercumque  impendenda  recipere  presumat.  Et 
+qualiter  hoc  preceptum  nostrum  fueritis  excuti  scire  nobis 
+faciatis  in  scaccario  nostro  Cestrie  hac  instandi  die  sabbati 
+proxima  futura  hoc  breue  nobis  remittentes  et  hoc  sub  pena 
+quadraginta  librarum  nobis  incurrendi  nullatenus  ommittatis 
+datum  apud  Cestriam  primo  die  Septembris  anno  regni 
+nostri  quinto  [1  Sept.  1381]. 
+
+Postea  die  mercurii  proxima  ante  festum  Sancti  Michaelis 
+anno  regni  Begis  mine  quinto  coram  lohanne  de  la  Pole 
+lusticiario    Cestrie    apud    Cestriam    Nicholaus   le    Bruyn 
+Eicaidus  del  Heth  Philipus  de  Prestland  Dauid  de  Eggeley 
+Eadulphi  de  Cotegreue  Eobertus  films  Eoberti  de  Neuton 
+Eogerus  de  Hulfeld  Ughtred  de  Huxlegh  Philipus  Fylkyn 
+Eogerus  de  Hokenhull  Hugo  de  Malpas  Eobertus  de  Belewe 
+iurati  dicunt  super  sacramentum  suum  quod  in  pleno  comi- 
+tatu  Cestrie  tento  apud  Cestriam  die  Martis  proxima  post 
+festum  Sancte  Margarete  virginis  anno  regni  domini  Eegis 
+nunc  quinto  [23  July  1381]  et  infra  ciuitatem  Cestrie  die 
+sabbati  tune  proxima  sequente  et  etiam  die  dominica  tune 
+proxima  sequente  apud  ecclesiam  parochialem  de  Estham 
+littere  domini  Eegis  predicte  lecte  fuerunt  et  proclamatio 
+publice  in  locis  predictis  facta  f uit  in  omnibus  iuxta  tenorem 
+et  effectum   mandatorum  domini   Eegis   predictorum.     Et 
+dicunt  quod  die  lune  tune  proxime  sequente  Hugo  Heruy 
+Thomas    Payn     Eobertus    Huggesson    de    parua    Sutton 
+Willelmus  le  Eenemogh  Willelmus  Brown  Willelmus  Hay- 
+nesson  Henricus  Eussell  Eicardus   de   Coton    Adam  del 
+leghes  Eobertus  films  lohannis  de  Ouerpulle  Johannes  de 
+Eenesson    Eicardus    de    Sutton  Eobertus  le  Gardiner  de 
+Upton  Thomas  filius  lohannis  de   Wirnyn   Willelmus   del 
+lee  de  Neuton  et  Eobertus  de  leghes  de  Whiteby  natiui 
+abbatis  Cestrie  ut  de  iure   ecclesie    sue  Sancte  Werburge 
+Cestrie   simul   cum    aliis    natiuis    eiusdem  abbatis  vi  et 
+armis   leuauerunt  et   apud  le   lee   iuxta   Bacford   in   hun- 
+dredo   de    Wirhale    se    congregauerunt    contra   proclama- 
+cionem  et  tenorem  literarum  predictarum  in  contemptum 
+domini   Eegis  et  affraiam    et    perturbacionem    pacis  sue 
+
+
+16  PEASANTS'  EISING 
+
+manifestum  et  terrorem  populi  sui  tarn  ciuitatis  Cestrie 
+quam  totius  comitatus  predict!  et  ad  nullacionem  et 
+destruccionem  predict!  abbatis  et  conuentus  sui  ac  bono- 
+rum  et  catallorum  domus  et  ecclesie  sue  predicte.  Ideo 
+ipsi  capiantur  etc.  Et  postea  predictus  Hugo  Heruy  et  alii 
+per  vicecomitem  capti  comittuntur  constabulario  Castri 
+Cestrie  etc.  Et  postea  die  lune  proxima  ante  festum  Sancti 
+Dionisii  anno  regni  eiusdem  domini  Eegis  Anglie  quinto 
+predicti  Hugo  Heruy  Thos.  Payn  eb  omnes  alii  natiui 
+predict!  traduntur  in  ballium  Hugoni  del  Clif  de  Thornton 
+Henrico  del  lee  Henrico  Drake  Nicholao  Maykynsson 
+lohanni  le  Clerk  Henrico  Hawesson  Eicardo  de  Norley 
+Eicardo  le  Taillor  Simoni  Burgeys  Ade  Sturche  Eicardo  le 
+Spencer  de  Hoton  Howell  le  Walshman  de  Sutton  Eicardo 
+de  Orell  lohanni  filio  Eoberti  de  Salghton  Eicardo  Bouell 
+lohanni  de  Laghton  de  Cestrie  Eeginaldo  del  Clif  David  de 
+Scanay  et  Willelmo  de  Neuton  qui  manuceperunt  pro  pre- 
+dictis  natiuis  habendis  corpora  eorum  hie  ad  proximum  comi- 
+tatum  et  interim  de  pace  ferenda  omnibus  hominibus 
+comitatus  predicte  videlicet  quilibet  eorum  corpus  pro  cor- 
+pore  et  sub  pena  quadraginta  librarum  et  iidem  Hugo  del 
+Clif  et  alii  manucapientes  recognouerunt  se  et  quemlibet 
+eorum  in  solido  debere  domino  Eegi  predictas  xl.  li.  solutum 
+ad  scaccarium  suum  Cestrie  una  cum  corporibus  suis  essendis 
+ad  voluntatem  domini  Eegis  predicti  si  contingat  predictos 
+natiuos  vel  aliquem  eorum  maliciose  se  retrahere  aut 
+quicquam  contra  pacem  Eegis  medio  tempore  facere  Ideo 
+predictus  constabularius  a  custodia  predictorum  natiuorum 
+usque  predictum  comitatum  quietus  et  exoneratus. 
+
+
+SURREY  17 
+
+
+MIDDLESEX 
+
+Coram  Bege  Boll  483.    Bex  8  d. 
+
+Robertas  Hull  Shipman  de  London  die  veneria  proxima  Middle- 
+post  festum  Corporis  Christ!  [14  June  4  Ric.  II]  cum  aliis   sexia- 
+insurrectoribus  hominum  Com.  Essexie  et  Kancie  cum  vexillo 
+aperto  intravit  abbathiam  de  Grace  in  Com.  Middx.  et  cogerunt 
+Abbatem  mittere  unum  monachum  cum  eis  ad  London  ad 
+seisinam  dandam  in  diversis  tenementis  dictorum  Abbathie  et 
+Conventus.     [Hull  pleads  pardon  granted  by  King  10  Jan. 
+5  Ric.  II,  and  goes  free.] 
+
+
+SURREY 
+
+Coram  Bege  483.    Bex  26. 
+
+lohannes  Hermare  et  Nicholaus  Gromond  de  Haueryng  Essexia. 
+atte  Boure  capti  fuerunt  apud  Guldeford  pro  eo  quod  ijdem 
+lohannes  et  Nicholaus  die  dominica  proxima  post  festum 
+Corporis  Christi  insurrexerunt  cum  magna  multitudine 
+gencium  de  Comitatu  Essexie  et  venerunt  ad  domum 
+Willelmi  West  apud  Clendon  et  ibidem  pro  timore  ipsorum 
+et  sociorum  suorum  apud  Kyngeston  prout  dixerunt 
+essencium  fecerunt  predictum  Willelmum  facere  predicto 
+lohanni  quandam  obligationem  viginti  librarum  sterling- 
+orum  sub  condicione  quod  solueret  predicto  lohanni  decem 
+libras  in  festo  Sancti  Petri  Advincula  et  pro  eo  quod  testi- 
+ficatum  est  in  patria  quod  predict!  lohannes  et  Nicholaus 
+recognoverunt  in  presencia  multorum  tarn  apud  Clendon 
+quam  apud  Guldeford  quod  ipsi  fuerunt  primi  qui  insur- 
+rexerunt in  Com.  Essexie  et  quod  fuerunt  primi  qui 
+venerunt  ad  la  Savoye  ibidem  fregerunt  dolia  vini  et  alia 
+mala  fecerunt  et  causa  predicta  in  gaola  de  Guldeford 
+detenti  fuerunt. 
+
+
+18 
+
+
+PEASANTS'   RISING 
+
+
+Dicunt  quod  Eex  pardonavit  eis  sectam  pacis  per  literas 
+suas  patentes  .  .  .  eant  sine  die. 
+
+
+It  may  be  well  here  to  direct  attention  to  some  other 
+sources  of  information  bearing  on  the  Peasants'  Eising. 
+
+1st.  To  a  chronicle  in  French  among  the  Stowe  MSS. 
+(1047,  fol.  64  b)  in  the  British  Museum,  which  has  been  printed 
+in  the  '  English  Historical  Review,'  vol.  xiii.  p.  509.  This 
+MS.  throws  much  light  on  the  proceedings  in  London,  and 
+forms  a  valuable  supplement  to  the  accounts  given  by 
+Froissart  and  in  the  chronicles  printed  in  the  well-known 
+'  Rolls  Series.' 
+
+2nd.  To  the  following  records  of  trials  of  the  rioters  : — 
+
+
+District 
+
+MS.  References 
+
+Where  printed,  wholly  or 
+in  part 
+
+Norfolk      . 
+
+Ant.     Indictments, 
+
+Powell's  '  Rising  in  East 
+
+No.  128,  P.R.O. 
+
+Anglia  ' 
+
+Suffolk      . 
+
+Do.         do. 
+
+Do.             do. 
+
+Essex 
+
+Do.          do. 
+
+'  Essex  Arch.'  New  Series, 
+
+vol.  i.  p.  214 
+
+Cambridgeshire 
+
+Assize    Boll    103, 
+
+'  East      Anglian,'      New 
+
+P.R.O. 
+
+Series,   vol.   vi.  p.   81, 
+
+etc.  ;  Powell's   '  Rising 
+
+in  East  Anglia  ' 
+
+Kent.        ,        . 
+
+Assize    Roll    400, 
+
+'  Arch.  Cant.'  vol.  iii.  65  ; 
+
+P.R.O. 
+
+iv.  67 
+
+London,        Eastern, 
+
+Documents  in  P.R.O. 
+
+'  Le  Soulevement  des  Tra- 
+
+Western  and  North- 
+
+as cited. 
+
+vailleurs     d'Angleterre 
+
+ern   Counties,    and 
+
+en  1381  '  ;  Reville,  1898 
+
+various   . 
+
+DOCUMENTS  RELATING  TO 
+
+SOCIAL  DISTURBANCES  IN  THE  LATER 
+
+TEARS  OF  RICHARD  II. 
+
+YORKSHIRE 
+
+Antient  Indictments,  No.  116,  M.  11. 
+EBOE.  MAGNA  INQUISITIO. 
+
+Et  dicunt  quod  predict!  Johannes  Berwald  iunior  de  1392. 
+Cotyngham  et  alii  fecerunt  quandam  rimam  in  Anglicis 
+verbis  et  dictam  rimam  apud  Beverle  publice  proclamari 
+fecerunt  die  dominica  proxima  ante  festum  sancti  Jacob! 
+apostoli  et  apud  Hull  die  dominica  tune  proxima  sequente 
+et  in  aliis  diversia  locis  infra  Com.  Ebor  per  diversaa 
+vices  anno  regni  Eic.  II  16  [1392]  que  quidem  rima  sequitur 
+in  hec  verba : 
+
+In  the  contre  herd  was  we  ~]      ...     ,  , 
+
+,  .          ,  ,    , , ,        with  al  for  to  bake 
+
+That  in  our  soken  schrewes  shuld  bej 
+
+Among  this  fifrers  it  is  so   ~j      .    ,. 
+.    ,    f.  whether  thei  slepe  or  wake 
+
+And  other  ordres  many  moj 
+
+And  thet  wil  ilkan  hel  up  other  ~1  , 
+
+.    ,  ,  •        i   !•   i      ,1          bothe  in  wrong  and  right 
+
+And  meynten  him  als  his  brotherj 
+
+And  so  wil  we  in  stond  and  stoure  1 
+
+,,  ,    ,  with  al  our  myght 
+
+Meynten  our  negheboure  J  J& 
+
+Ilk  man  may  come  and  goo~]  T 
+
+,  J ,.    .         ,    °         1  say  you  sikerly 
+Among  vs  both  to  and  froo  J 
+
+But  hethyng  wil  we  suffre  non  ~|      .,,      , 
+
+J.  ,6    ,  with  what  man  he  be 
+
+Neither  of  hobbe  ne  of  Johan     J 
+
+
+20  YORKSHIEE,  1392 
+
+Ffor  vnkynde  we  ware  ~]  ..        ,,,         , 
+
+v*  fc  n    c  i  any  vilans  hethyng  ' 
+
+Yif  we  sumrd  of  lesse  or  marej 
+
+But  it  were  quit  double  agaynlj  .    .     ,  , 
+
+a-,,,,,  to  byde  our  dressyng 
+
+And  a  corde  and  be  ml  fayn    J 
+
+And  on  that  purpose  yet  we  stand"!  .       ,         .      .,  ,  ,, 
+__-.  ,      r    r  in  what  plas  it  fall 
+
+Who  so  do  vs  any  wrang  J 
+
+Thet  he  might  als  well   ,  „ 
+
+...         .  5*          ,     .     do  a  geyn  vs  all 
+Als  have  j  hap  and  selj 
+
+Antient  Indictments,  No.  116,  Yorks. 
+
+1392.  Item  presentant  quod  predictus  Eobertus  de  ffer  Thomas 
+
+Balne  de  Staynford  [and  others]  simul  cum  trecentis  aliis 
+malefactoribus  de  dominico  de  Hatfeld  .  .  .  die  Sabbati 
+proxima  ante  festum  Nativitatis  beate  Marie  Virginis 
+Eic.  II  15  vi  et  armis  .  .  .  de  novo  insurrexerunt  ...  in 
+Doncastre  in  medio  et  publico  mercato  coram  alta  cruce 
+ville  .  .  .  publice  proclamari  fecerunt  in  hac  forma  et  in  his 
+verbis  :  "We  cry  and  comande  on  the  Kynges  be  halue  of 
+Ingland  on  the  Dukes  of  Lancastre  on  the  Dukes  of  York 
+and  on  the  lordes  of  this  towne  that  thar  be  no  man  so 
+hardy  of  this  towne  be  vertue  of  any  patente  of  the  Kyng 
+of  panage  graunted  to  this  towne  to  take  any  costume 
+panage  or  toll  of  the  tenaunts  of  the  Dukes  of  Lancastre  or  of 
+the  Dukes  of  York  of  payne  of  lesyng  of  hys  lyf  and  if  any 
+man  of  the  forsayde  towne  had  any  panage  or  toll  takyn  of 
+the  tenaunts  of  the  Dukes  forseyde  that  they  schulde  giffe  it 
+thann  agayn  of  the  peryle  of  the  payne  beforsayde. 
+
+[It  appears  from  numbers  80  and  142  of  the  Antient 
+Indictments  that  riots  of  a  more  or  less  serious  nature  broke 
+out  in  Oxfordshire  and  Berkshire  on  Palm  Sunday  1398. 
+(See  note  2  to  p.  255  of  the  second  edition  of  '  England  in 
+the  Age  of  Wycliffe.')] 
+
+1  Contempt. 
+
+
+SOMERSET,   1399  21 
+
+
+SOMEESETSHIEE 
+
+Assize  Roll  774.     (Skin  6.) 
+
+Inquisitio  capta  apud  Taunton  coram  lohanne  Hull  et 
+lohanne  Manyngford   die  Martis  proxima  post  dominicam  l398* 
+in  Eamis  Palmarum  22  Eic.  II  [2  April,  1399]  per  sacra- 
+mentum  lohannis  Peverell   [and  eleven  others]  qui  dicunt 
+quod  lohannes  Whithey  Eic.  Moris  Thos.  atte  Water  Eic. 
+Segar    loh.     Valentyn    Eob.    Chese    Hen.    Caleway    loh. 
+Eephey  loh.  atte  Stokke  Will.  Horn  Walt,  atte  Leye  Thos. 
+Sely  loh.  Burgh  Eob.  Leverych  Will.  Southey  loh.  Hore- 
+knollEic.  Horeknoll  [and  thirteen  others]  native  tenentes  .  .  . 
+episcopiBathoniensis  et  Wellensis  manerii  de  Welynton  terras 
+et  tenuras  teneant  separatim  native  ad  voluntatem  episcopi 
+viz.  quilibet  predictorum  Thome  atte  Water  Hen.  Caleway 
+lo.  Eyphey  Walt,  atte  Leye  lo.  Horeknell  Eic.  Comere  Eic- 
+Hankyn  et  Eob.  Osbarn  est  dimidius  virgataiius  et  tenet 
+unum  mesuagium  et  xxiv  acras  terre  et  prati  et  quilibet  pre- 
+dictorum lo.  Whythey  Eic.  Moris  Eic.  Segar  lo.  Valentyn 
+Eob.  Chese  lo.  atte  Stokke  W.  Horn  Thos.  Sely  lo.  Burgh 
+Eob.  Leverych  W.  Southey  Eic.  Horeknell  W.  Wodeford  W, 
+atte  Water  lo.  Gredhay  lo.  Frenk  W.  Frenk  Tho.  Grybbell 
+W.  Chate  lo.  Eandolf  lo.  Taillor  W.  Lancok   est  Ferdel- 
+larius  et  tenet  unum  mesuagium  quadraginta  acras  terre  et 
+prati  qui  quidem  omnes  et  singuli   sic   native   tenentes  et 
+eorum  antecessores  tenentes  de  predictis  terris  facere  debent 
+et  a  tempore  quo  non  exstat  memoria  facere  consueverunt 
+inter  quam   plura   alia  diversa  custumaria  opera  cariagia, 
+averagia  et  servicia  pro  terris  et  tenuris  suis  predictis  viz., 
+quilibet  eorum  per  se  tenens  unam  tenuram  de   antiquis 
+tenuris  ab  antique  octodecem  dimidii  virgatarii  et  triginta  et 
+novem  ferdellarii  nuncupati  invenire  debet  et  solet  et  solebat. 
+
+
+22  SOCIAL  DISTUBBANCES 
+
+unum  hominem  et  unum  affrum  ad  sumptus  suos  proprios 
+quociens  sumonitus  fuerit  per  ministros  episcopi  ad  carian- 
+dum  a  manerio  predicto  usque  Exoniam  vel  alibi  ad  distan- 
+ciam  quindecem  leucarum  viz.  quatuor  bussellos  frumenti  vel 
+sex  busellos  avenarum  ac  alia  blada  victualia  seu  victalia 
+et  hernesia.  Et  si  cariaverunt  usque  Welles  et  alibi  ultra 
+distantiam  xv  leucarum  quod  vocatur  longum  averagium 
+duo  dimidii  virgatarii  coniunctim  a  toto  tempore  supradicto 
+invenire  consueverunt  unum  hominem  et  unum  affrum  ad 
+custus  suos  proprios  ad  hujusmodi  longum  averagium 
+faciendum  et  iv  ferdellarii  a  toto  tempore  predicto  consue- 
+verunt invenire  unum  hominem  et  unum  affrum  eisdem 
+modo  et  forma  ad  consimile  averagium  faciendum.  Ac 
+etiam  fenum  episcopi  infra  miliaria  et  spacia  predicta  et 
+ultra  in  modo  et  forma  predictis  cariabunt.  De  quibus 
+quidem  cariagiis  frumenti  avenarum  victualium  etc.  episcopus 
+et  predecessores  .  .  .  seisiti  fuerunt  ut  de  iure  ecclesie  St. 
+Andr.  Wellensis  predicti  tamen  Thos.  Atte  Water  [and  seven 
+others]  dimidii  virgatarii  lohs.  Whythy  [and  twenty-one 
+others]  ferdellarii  native  tenentes  terras  et  tenuras  .  .  .  de 
+predictis  antiquis  tenuris  ab  antique  nuncupati  xviii  dimidii 
+virgatarii  et  xxxix  ferdellarii  sumoniti  et  quilibet  eorum  per 
+se  sumonitus  per  Eic.  Prest  et  Wm.  Cape  prepositos  et 
+lohem  Hull  messorem,  ministros  episcopi  die  Dominica 
+proxima  post  festum  Epiphanie  Domini  anno  regni  regis 
+vicesimo  secundo  apud  Welyngton  ad  cariandum  fenum 
+episcopi  a  Welyngton  ad  Wyuelescombe  .  .  .  infra  distanciam 
+xv  leucarum  .  ,  .  unanimi  consensu  responderunt  quod 
+noluerunt  fenum  .  .  .  cariare  .  .  .  et  expresse  id  f acere  recusa- 
+verunt  et  subsequenter  die  lune  in  crastino  predicti  natiue 
+tenentes  vi  et  armis  gladiis  baslardis  in  magnis  conventi- 
+culis  .  .  .  contra  pacem  se  collegerunt  .  .  .  et  ibidem  inter  eos 
+habito  eorum  consilio  et  ordinatione  ad  resistendum  episcopo 
+et  ministris  suis  ad  non  faciendum  cariagium  feni  huius 
+se  invicem  iuramentis  ad  tune  se  interligaverunt  et  confede- 
+raverunt  ut  unusquisque  per  se  et  eorum  omnes  et  singuli 
+impedirent  .  .  .  episcopo  et  ministris  suis  manu  forti  et 
+inter  se  diversas  pecuniarum  summas  collegerunt  pro 
+expensis  circa  resistenciam  etc.  .  .  .  Et  Eico.  Prest  et  Wo. 
+
+
+SOMEBSET,   1399  23 
+
+Cape  et  lohi  Hull  minarunt  de  vita  et  membrorum  mutila- 
+tione  quominus  officia  sua  exercere  potuerunt  nee  audebant 
+Et  prefati  natiue  tenentes  procurarunt  et  consiliarunt 
+diversis  vicibus  lohannem  Gotewey  Thorn,  atte  Lane  Bic.  atte 
+Mere  (and  seventeen  others)  villanos  de  sanguine  et  nativoa 
+episcopi  ut  ipsi  et  eorum  quilibet  resisterent  domino  suo 
+episcopo  cum  eisdem  native  tenentibus  ad  non  faciendum 
+amplius  cariagium  huius  feni  qui  quidem  nativi  de  sanguine 
+statim  consenserunt. 
+
+Et  consilia  rebelliones  conventicula  etc.  tarn  native 
+fcenentes  quam  nativi  de  sanguine  usque  nunc  continuarunt 
+contra  pacem  domini  Begis  etc.  Per  quod  preceptum  esfe 
+vicecomiti  quod  non  omittat  quin  capiat  etc. 
+
+Ita  quod  habeat  corpora  etc. 
+
+Placita  apud  Taunton  coram  lo.  Hull  lo.  Manyngford  [and 
+other  justices]  die  Sabti.  in  Septimana  Pasche  22  Bic.  II. 
+
+Episcopus  dicit  quod  deterioratus  est  et  dampnum  habet 
+ad  valenciam  1000  librarum  et  inde  producit  sectam  etc. 
+
+Thos.  atte  Water  Hen.  Caleway  [and  others]  dicunt  quod 
+non  possunt  dedicere  resistencias  nee  rebelliones  conventi- 
+culas  collectiones  etc.  nee  subtractiones  serviciorum  etc.  sed 
+ea  et  omnia  expresse  cognoverunt  prout  episcopus  narravit. 
+
+Episcopus  dicit  se  nolle  ulterius  prosequi  versus  lohannem 
+Whythey  Bob.  Chese  Will.  Chate  and  Will.  Lancok.  Ideo 
+consideratus  quod  episcopus  recuperet  versus  Thorn,  atte 
+Water  Henry  Caleway  [and  twenty-four]  dampna  sua  ad 
+mille  librarum  [qui]  comittuntur  prisone. 
+
+Et  instanter  episcopus  gratis  relaxat  mille  marcas  de 
+dampnis  suis  .  .  .  postea  ad  istam  eandem  sessionem  Epi- 
+scopus cognovit  quod  satisfactum  est  ei  de  residue  damp- 
+norum  .  .  .  et  super  hec  predict!  Thos.  atte  Water  Henry 
+Caleway  [and  twenty-four]  petunt  se  admitti  ad  finem  facien- 
+dum cum  domino  rege  occasionibus  predictis  et  admittuntur 
+
+.  eant  sine  die. 
+
+
+SECTION  II. 
+
+INQUISITIONS  CONCERNING  JOHN  NORTHAMPTON 
+LATE  MAYOR  OF  LONDON 
+
+1387-8 
+
+
+EXTRACTS  FROM  INQUISITIONS  TAKEN  AT 
+THE  TRIAL  OF  JOHN  NORTHAMPTON. 
+
+Coram  Bege  Boll,  Hill  11  Ric.  II  507,  Bex  39. 
+
+Alias  coram  Nicholao  Brembre  Maiore  extitit  presentatum  London, 
+quod  lohannes  Norhampton  nuper  maior  civitatis  London 
+videlicet  anno  Eic.  II  5  et  6  per  diversas  vices  congregare  \ 
+fecit  apud  tabernam  lohannis  Willyngham  in  the  Bo  we  unum 
+vel  duos  homines  de  viginti  misteris  videlicet  Armurers 
+Girdeleres  Lorimers  Pynners  Wyrdraweres  Cardmakeres 
+Curreours  Horneres  Tileres  Smytb.es  Dygheres  Fullers 
+Shermen  Haberdasshers  Cordewaneres  et  aliis  parvis 
+misteris  quicunque  eo  tenebant  et  qui  electi  fuerunt  per 
+lohannem  Norhampton  essendi  de  communi  consilio. 
+Et  ibidem  quolibet  tempore  talis  consilii  fuerunt  cum 
+predicto  maiore  lohannes  More,  mercer,  Eicardus  Norbury, 
+mercer,  Willelmus  Essex,  draper,  ac  etiam  Thos.  Usk/ 
+skriveyn  ad  scribendum  billas  suas.  Et  ibi  disputate  fuerunt 
+diverse  materie  et  propositiones  in  enervacionem  libertatis  et 
+consuetudinis  civitatis  hactenus  usitate  et  subvercionem 
+eiusdem  civitatis.  Sic  quod  ad  quodlibet  commune  consilium 
+ipsi  qui  fuerunt  sic  electi  et  ibidem  presentes  sub  una  voce 
+concordare  possent  super  materiis  et  propositionibus  sic  prius 
+captis.  Et  super  hoc  predict!  quolibet  die  communis 
+consilii  publice  clamaverunt  unanimi  assensu  super  materiis 
+predictis.  Et  sic  per  istam  viam  lohannes  Norhampton 
+[and  the  above-named  four  others]  introduxerunt  quodlibet 
+propositum  quod  eis  placuit  et  illud  de  Eecordo  in  libris 
+Gihalde  London  intrare  fecerunt.  Et  quia  Will.  Walworthe 
+miles  et  alii  fuerunt  in  contraria  opinione,  concordatum  fuit 
+inter  prefatos  lohannem  Norhampton  [and  the  four  others] 
+
+
+28  JOHN   NOETHAMPTON 
+
+quod  Johannes  Norhampton  tempore  quo  fuit  maior  capere 
+posset  ad  consilium  suum  quern  ei  placuerit  et  eos  qui  in 
+contrarium  voluntatis  sue  stare  vellent  dimittere.  Et  quod 
+nulli  de  misterio  qui  contra  eum  tenebant  venire  deberent  ad 
+commune  consilium,  nisi  duo  tantum,  et  qui  presentati 
+fuerunt  per  homines  misterarum  predictarum  qui  de  assensu 
+lohannis  Norhampton  extiterunt  set  de  aliis  misteris  qui 
+cum  eo  tenebant  venirent  quotquot  vellent.  Et  sic  ordinavit 
+habere  secum  ad  quodlibet  commune  consilium  tot  homines 
+de  misteris  predictis  cum  eo  tenentes  quod  altera  pars  contra 
+eum  in  contrarium  tenens  contra  suum  propositum  valere 
+non  potuit.  Item  presentant  quod  predicto  tempore  quo 
+Johannes  Norhampton  fuit  maior  ordinatum  est  per  lohannem 
+Norhampton  et  alios  quod  omnes  aldermanni  de  anno  in 
+annum  amoveri  et  alii  loco  eorum  reeligi  deberent.  Et  quod 
+commune  consilium  tenere  deberet  per  homines  diversarum 
+misterarum.  Et  quod  nullus  vitellarius  gereret  officium 
+iudiciale  infra  civitatem,  et  quod  vitellarii  forinseci  venire 
+deberent  ad  civitatem  cum  victualibus  suis  libere  ad  victualia 
+ilia  tarn  ad  retalliam  quam  alio  modo  vendenda  non  habito 
+respectu  ad  libertatem  de  victualibus  hactenus  usitatam.  Et 
+intencio  et  ordinatio  lohannis  Norhampton  erant  quod 
+articuli  predictiet  omnes  ordinaciones  per  ipsos  facte  sive  male 
+sive  bone  essentin  futurum  cum  vi  populi  eis  atracti  observari 
+deberent  et  manuteneri  contra  aliquem  maiorem  qui  pro 
+tempore  in  posterum  fuerit  et  in  contrarium  stare  vellet.  Ac 
+postmodum  quando  probi  homines  tale  iniquum  consilium 
+relinquerunt  prout  de  necesse  eos  oportebat  Johannes  Nor- 
+hampton [and  the  four  others]  attraxherunt  sibi  communem 
+populum  de  aliquibus  misteris  de  eorum  assensu  ad  standum 
+cum  eis  in  eorum  propositis  ad  moriendum  et  vivendum  in 
+iniquis  materiis  supradictis,  et  quod  ad  omne  tale  consilium 
+cum  predicto  lohanne  fuerunt  presentes  loh.  More  Eic.  Nor- 
+bury  W.  Essex  Tho.  Usk  et  aliquando  Adam  Bamme.  Et 
+quod  eorum  ordinacio  et  propositum  tune  fuerunt  ad  haben- 
+dam  totam  civitatem  in  eorum  gubernacione  etc.  vel  aliter  ad 
+amovendum  omnes  probos  homines  qui  potentes  ad  eos 
+contradicendos  forent.  Item  pro  eo  quod  antiqui  officiarii 
+viz.  recordator,  camerarius  Gihalde,  et  communis  clericus, 
+
+
+JOHN   NORTHAMPTON  29 
+
+et  alii  officiarii  consentire  noluerunt  opinionibus  lohannis 
+Norhampton  [and  of  the  four  others]  set  sein  contrarium  tenu- 
+erant.      lidem  Johannes  Norhampton  [and  the  four  others] 
+circa  festum  Pasche  [22  March  1382]  anno  Eic.  II  6  apud 
+Gihaldam   et   alibi  de  die  indiem   tempore   quo    lohannes 
+Norhampton  in  officio  maioratus  extitit  conspiraverunt  ad 
+amovendos  per  processum  temporis  officiarios  predictos  et 
+locis  eorum  tales  posuisse  qui  opiniones  predictas   manu- 
+tenere  vellent.     Et  dixerunt  publice  quod  omnes  qui  contra- 
+rium propositi  sui  tenuerunt  extiterunt  inimici  omnis  boni 
+propositi  et  hoc  fuit  continue  excitatio  eorum  ad  pauperem 
+communem   populum   faciendum   magis    ferventem   contra 
+probiores    et    etiam    officiarios   civitatis.     Et   dictum    fuit 
+populo  per  lohannem  Norhampton  quod  maiores  homines 
+civitatis  semper  habere  vellent  populum  in  subiectione  et 
+opressione  et  in  simpliciori  gradu  quo  possent.     Pro  quibus 
+quidem  verbis  et  eorum  manutenencia,  discordia  et  distencio 
+tune  mote  fuerunt  et  adhuc  sunt  inter  probos  homines  et 
+mediocrem  populum  in  enervacionem  status.  Item  presentant 
+quod  die  sabbati  proximo  ante  festum  translations  sancti 
+Edwardi  anno  Eic.   II  6   [13  June  1383]  ante   secundam 
+electionem  lohannis  Norhampton  in  maiorem  pro  anno  tune 
+sequente  pro  eo  quod  lohannes  Philipot  miles  fuit  contra 
+prefatum   lohannem   Norhampton   in  malefactis  suis,  pre- 
+dictus  lohannes  More  false  procuravit    billam  fieri    et  per 
+communem   consilium  coram  prefato  maiore  die  electionis 
+sue  apponi  et  legi  ad  petendam  de  lohanne  Philipot  quandam 
+summam  pecunie  quam  ipse  mutavit  de  quibusdam  personis 
+tempore  maioratus  sui,  et  tune  propositum  fuit  quod  idem 
+lohannes  Philipot  abiudicaretur  ab  omni  statu  et  officio  ex  tune 
+gerendo  infra  civitatem.     Item  presentant  quod  predicto  die 
+sabbati  quedam  ordinationes  in  secretis  facte  fuerunt  apud 
+manpiones   lohannis   Norhampton   et   lohannis    More   per 
+lohannem   Norhampton   et   alios  ad  procurandum  omnino 
+quod    communes    civitatis    de    eorum    assensu   lohannem 
+Norhampton  in  maiorem  eligerent  et  non  alium,  ad  talem 
+intencionem  quod  omnes  ordinationes  prius  per  lohannem 
+Norhampton   et  alios  facte  per  dominum  Eegem  in  parlia- 
+mento  suo  tune  proximo  tenendo  confirmari  possent. 
+
+
+30  JOHN   NORTHAMPTON 
+
+Item  presentant  quod  apud  dictum  parliamentum  prose- 
+cutum  fuit  quoddam  breve  domini  Eegis  patens  per  Ricardum 
+Norbury  W.  Essex  lohannem  More  et  Thomam  Carleton 
+eidem  maiori  directum  ex  eius  assensu  ad  puniendum  omnes 
+usurarios  infra  civitatem  tarn  ad  sectam  cuiuscunque 
+persone  conqueri  volentis  quam  per  indictamenta  per  quod 
+breve  patens  postea  eodem  anno  apud  London  concordatum 
+fuit  inter  prefatos  tune  maiorem  et  alios  supradictos,  quod 
+execusio  inde  fieri  deberet  super  quacunque  persona  qui  inde 
+contigerit  probari  culpabilis  ad  sectam  patris.  Et  sic  per 
+falsam  ymaginacionem  et  coniectamentum  lohannis  Nor- 
+hampton  eodem  anno  in  parochia  beate  Marie  atte  Bowe 
+prius  habitam  plures  de  probioribus  civibus  inde  impetiri  et 
+execusio  super  eos  fieri  deberet  quod  ipsi  amodo  aliquem 
+statum  seu  officium  infra  civitatem  non  portarent  et  sic  pro- 
+posuerunt  ad  implendas  omnes  falsas  ordinaciones  et 
+proposita  sua  super  quo  preordinatum  fuit  per  lohannem 
+Norhampton  [and  the  four  others]  de  officiis  maiorum  alder- 
+mannorum  vicecomitum  et  aliorum  officiorum  pro  annis  tune 
+proximis  futuris  quod  aliqui  adversarii  lohannis  Norhampton 
+aliquod  officium  non  gererent. 
+
+Item  presentant  quod  per  procurationem  lohannis  More,1 
+Walterus  Sibyle,  lohannes  Horn,  Adam  Karlill  false  extiterunt 
+indictati  per  diversas  inquisitiones  de  diversis  insurrectioni- 
+bus  et  aliis  feloniis  apud  London  anno  sexto  supradicto 
+coram  Adam  Bamme  et  lohanne  Sely  tune  vicecomitibus 
+London  de  quibus  due  inquisitiones  meliores  pro  domino 
+Rege  inde  retornate  fuerunt  et  non  plures :  Et  residue 
+inquisitiones  ad  procurationem  dicti  lohannis  More  retente 
+fuerunt  in  manibus  eorundem  vicecomitum.  Item  presentant 
+quod  sepius  ante  festum  translationis  sancti  Edwardi  7  Ric.  II 
+quo  die  Nicolaus  Brembre  electus  fuit  in  maiorem  dicte 
+civitatis  ex  assensu  predictorum  lohannis  Norhampton  tune 
+maioris  lohannis  More  Rici  Norbury  etc.  ex  falsa  coniva 
+et  conspiratione  prius  inter  eos  habita  Will.  Essex  Thos. 
+Usk  ibant  ad  aulam  aurifabrorum  ad  loquendum  cum 
+hominibus  de  comuni  consilio  pro  electione  maioris  pro  anno 
+
+1  See  Beville,  pp.  190-9,  for  conduct  of  Sibyle  and  Horn  in  London 
+in  June  1381. 
+
+
+JOHN   NORTHAMPTON  31 
+
+sequente  propter  quod  omnia  nomina  consilii  liberata  fuerunt 
+eidem  Thome  Usk  per  lohannem  Norhampton  ad  talem 
+intencionem,  quod  dictus  Thomas  loqui  deberet  comunibua 
+predictis  quos  cognovit  de  materia  predicta.  Efc  tune  con- 
+cordatum  fuit  ibidem  quod  certe  persone  de  diversis  misteris 
+de  assensu  lohannis  Norhampton  quorum  nomina  prius  in 
+comuni  consilio  intrata  non  fuerunt  die  electionis  predicte 
+exigi  deberent  inter  commune  consilium  ad  auxiliandum  ad 
+electionem  lohannis  Norhampton  in  maiorem  et  mediocres 
+homines  populi  positi  fuerunt  in  dicto  consilio  ad  talia  facta 
+auxilianda,  ad  talem  intencionem  quod  ipsi  firmiter  starent 
+cum  lohanne  Norhampton  omnibus  suis  agendis,  et  si 
+in  tempore  future  aliquis  alius  maior  electus  fuerit  infra 
+civitatem  contrarius  lohanni  Norhampton  et  aliquid  dicere 
+vellet  contra  eundem  lohannem  pro  premissis  vel  aliis 
+malefactis  quod  Johannes  Norhampton  habere  posset  prefatos 
+comunes  mediocres  sic  sibi  attractos  paratos  ad  ipsum 
+manutenendum  contra  omnia  quo  sibi  imponi  contingeret. 
+
+Item  presentant  quod  nocte  ante  diem  electionis  Nicholai 
+in  maiorem  lohannes  More  in  mansione  sua  in  parochia  beate 
+Marie  atte  Bowe  premonuit  omnes  servientes  suos  quod 
+essent  armati  in  crastino  apud  Gihaldam,  et  dixit  eis  quod 
+ipse  et  socius  suus  alter  vicecomes  eodem  die  ostia  Gihalde 
+custodire  vellent,  quod  nullus  intrare  debuisset  nisi  ipsi  qui 
+lohannem  Norhampton  in  maiorem  eligere  voluissent. 
+
+Item  presentant  quod  in  die  quo  Nicholaus  electus  fuit 
+venerunt  I.  Norhampton  [and  the  other  three]  ad  domum 
+lohannis  More  inmediate  post  prandium  apud  le  Bowe 
+et  ibidem  concordatum  fuit  quod  I.  Norhampton  mittere 
+deberet  pro  personis  qui  tempore  electionis  Nicholai  fuerunt 
+in  comuni  consilio  misterarum  et  pro  custodibus  misterarum 
+quod  venirent  apud  Goldsmythehalle  in  die  crastino  et  ibi 
+lohannes  Norhampton  loqui  deberet  eis  et  ordinare  qualiter 
+electio  Nicholai  Brembre  posset  adnullari.  Et  sic  fecerunt, 
+et  nisi  fuisset  pro  timore  domini  Regis  tune  superuenientis 
+infra  ciuitatem  magnus  rumor  et  insurrectio  causa  lohannis 
+Norhampton  et  aliorum  euenissent  vbi  lohannes  Norhamp- 
+ton fuit  maior  et  gubernator  pacis. 
+
+Et  postea   lohannes   Norhampton   misit   Ric.  Norbury 
+
+
+32  JOHN   NORTHAMPTON 
+
+.  .  .  apud  le  Neyt  ad  ducem  Lancastrie  ad  informandum 
+ipsum  ducem  quod  eodem  die  electionis  ipsi  putabant  pro- 
+cedere  ad  electionem  maioris  in  pace  dei  et  domini  Eegis 
+sed  quod  supervenit  quedam  horribilis  comitiva  magnorum 
+clamatorum  eis  incognitorum  et  ibi  absque  aliqua  consue- 
+tudine  civitatis  prius  in  electione  maioris  usitata  vi  et  manu 
+forti  elegerunt  prefatum  Nicholaum,  et  supplicaverunt  ducem 
+quod  ipsi  habere  possent  quoddam  breve  domini  Eegis  ad  pro- 
+cedendum  ad  novam  electionem  faciendam.  Super  quo  Dux 
+eis  respondit  et  dixit  eis  quod  ipsi  nullum  breve  inde  haberent 
+sed  quod  avisarent  se  inde  inter  seipsos.  Item  presentant 
+quod  in  crastino  proximo  post  diem  electionis  Nicholai 
+Brembre  in  maiorem  apud  aulam  aurifabrorum  quando  popu- 
+lus  de  suo  assensu  congregatus  fuerat,  Johannes  Norhampton 
+recitavit  peiori  modo  quam  poterat  electionem  Nicholai  et 
+dixit  eis  pro  certo  quod  provisum  fuit  quod  ipsi  ponerentur 
+in  magnam  subiectionem  si  dictam  electionem  fore  paterentur 
+quodque  ipsemet  pati  noluit  set  dixit  cicius  paciamur  omnes 
+mori  una  vice  quam  tale  opprobrium  sustinere.  .  .  .  Com- 
+munes comoti  fuerunt  et  dixerunt  quod  ipsi  vellent  procedere 
+ad  aliam  electionem.  Et  Johannes  Norhampton  precepit 
+eis  ut  quilibet  ad  domum  suam  festinaret  et  cum  omnibus 
+hominibus  de  misteris  suis  usque  in  Chepe  revenirent  ad 
+novam  electionem  faciendam.  Et  nisi  plures  aldermanni 
+supervenissent  &  cum  lohanne  Norhampton  pro  pace 
+tractassent  dicti  comunes  tune  ad  novam  electionem  pro- 
+cedere voluissent,  et  in  tali  calore  &  comocione  interfecisse 
+proponebant  omnes  qui  eis  contradicere  voluissent  et  tarn 
+Nicholaum  et  aldermannos  quam  alios.  Item  presentant 
+quod  super  omnes  materias  superius  nominatas  dum  lohannes 
+Norhampton  fuit  maior,  lohannes  Norhampton,  lohes 
+More,  Eic.  Norbury,  Will.  Essex,  &  Thos.  Usk  et  aliquando 
+Adam  Bamme  viz.  annis  [Eic.  II]  6  et  7  percipierites  bonas 
+et  probas  personas  eiusdem  civitatis  pro  mala  gubernacione 
+et  debili  consilio  eorundem  ac  pro  eo  quod  ipsi  dictas 
+bonas  personas  prius  in  obprobrium  habuerunt  ab  eis 
+se  retraxhisse  iattraxerunt  sibi  plures  homines  de  diversis 
+misteris  et  multum  mediocrem  populum  qui  de  bona  guber- 
+nacione omnino  ignorantes  fuerunt  pt  per  conspirationem 
+
+
+JOHN   NORTHAMPTON  33 
+
+inter  eos  prius  factam  et  per  congregationem  populi  pro- 
+posuerunt  ad  manutenenda  forti  manu  sua  falsa  et  mala 
+proposita  sub  colore  verborum  comunis  proficui,  et  semper 
+incitaverunt  populum  ad  essendum  paratum  ad  standum  cum 
+eis.  Et  sic  tarn  postquam  idem  loh.  Norhampton  non  fuit 
+maior  viz.  7  Bic.  II  quam  antea  dictus  lohannes  Nor- 
+hampton [and  the  four  others]  felonice  conspiraverunt  et 
+in  tantum  depravabant  bonos  homines  civitatis  quod  populus 
+fuit  et  adhuc  est  audacior  ad  rebellandum  contra  gubernatores 
+suos  . .  .  Et  sic  per  eos  .  .  .  magnus  rumor  et  tumultus  qui 
+adhuc  regnant  in  populo  evenerunt  sic  quod  est  in  punctu 
+ad  perturbandum  totum  regnum  Anglie.  Et  postquam  loh. 
+Norhampton  cessavit  ab  officio  maioratus  viz.  immediate 
+post  festum  Apostolorum  Simonis  et  lude  [28  Oct.  1383] 
+anno  Eic.  II  7  et  anno  sequenti.  Et  postquam  Nicholaus 
+officium  maioratus  assumpsit  loh.  Norhampton  [and  the  four 
+others]  solicit!  fuerunt  ad  trahendum  populum  ad  loh.  Nor- 
+hampton et  moverunt  ad  standum  cum  eis  in  malefactis  suis 
+contra  Nicholaum  Brembre.  Et  super  hoc,  die  lune  proxima 
+post  festum  S.  Hillarii  anno  Eic.  II  7  [17  Jan.  1383]  loh. 
+Norhampton  venire  fecit  Thomam  Usk  apud  la  Bawe  inter 
+homines  quos  ipse  congregavit  et  ibidem  monstravit  quandam 
+billam  contra  ipsum  factam  et  supplicavit  omnes  ad  standum 
+cum  eo.  .  .  .  Et  quod  ipsi  non  paterentur  per  aliquem 
+hominem  de  London  ei  inferri  aliquod  dampnum  seu  grava- 
+men. Item  dicunt  quod  post  I.  Norhampton  arestatus  fuit 
+per  Nicholaum  Brembre  viz.  die  dominica  proxima  post 
+festum  purificationis  beate  Virginis  Marie  anno  Eic.  II  7 
+[7  Feb.  1383]  apud  London  Eobertus  Franceys  aurifaber, 
+lohes.  Lincolle  aurifaber,  et  Thos.  Usk  in  quantum  in  ipsis 
+fuit  false  prosecuti  fuerunt  usque  Ducem  Lancastrie  ad  in- 
+formandum  Ducem  quod  lohannes  Norhampton  fuit  optimus 
+maior  qui  unquam  exstitit  et  deterioraverunt  Nicholaum 
+Brembre  et  eius  gubernacionem.  Item  presentant  quod 
+lohes.  More  mercer  Eic.  Norbury  mercer  Eobt.  Franceys 
+aurifaber  die  lovis  undecimo  februarii  anno  Eic.  II  7  cum 
+aliis  insurrexerunt  contra  Nicholaum  maiorem  .  .  .  et  fece- 
+runt  conventiculas  tarn  in  parochia  beate  Marie  atte  Bowe 
+quam  alibi  in  diversis  partibus  civitatis  et  suburbiis  per 
+
+D 
+
+
+34  JOHN   NORTHAMPTON 
+
+quod  ostia  et  fenestre  plurimarum  shoparum  in  Westchepe 
+Bugirowe  Fletstret  et  alibi  prius  mane  aperta  postea  cito 
+in  sigmim  insurrectionis  claudebantur,  et  populum  congre- 
+gaverunt  conspirando  mortem  Nicholai  maioris.  Et  pre- 
+dictus  maior  hoc  audito  assumpsit  secum  plures  aldermannos 
+et  alios  sapientes  forti  manu  armatos  venerunt  in  Westchepe 
+ad  pacem  domini  Regis  conservandam.  Item  per  quandam 
+inquisitionem  similiter  presentatum  extitit  quod  loh.  Nor- 
+hampton  civis  et  draper,  Ws  Essex  draper,  Ric.  Norbury 
+mercer,  Robt.  Ryseby  draper,  Thos.  Usk  scryveyn,  lohes 
+Maudeleyn  taillour,  Guido  Paulyn  draper,  lohes  Bere  haber- 
+dasher, lohes  Muntham  ioynour,  Thos.  Kyngesbrigge  corde- 
+waner,  sunt  primi  et  principales  conspiratores  de  talibus 
+conventiculis  etc.  Et  quod  ipsi  ex  eorum  malicia  die  lune 
+proxima  post  festum  omnium  sanctorum  anno  septimo  in 
+parochia  Sancte  Marie  atte  Bowe  in  warda  de  Cordwanerstret 
+postquam  dictus  maior  omnis  officii  maioratus  civitatis  per 
+sacramentum  suum  assumpsit,  et  sic  postea  ab  illo  die  de  die 
+in  diem  tarn  ibidem  quam  apud  ecclesiam  Sancti  Pauli  et  apud 
+fratres  minores  et  fratres  Augustinences  .  .  .  conspiraverunt 
+contra  maiorem  et  aldermannos  et  .  .  .  per  quod  quedam 
+pars  magna  populi  apparuit  per  diversa  signa  vultus  et 
+verba  rebellis  et  inobediens  maiori  etc.  Et  etiam  dicunt 
+quod  predictus  maior  vicesimo  secundo  die  lanuarii  anno 
+septimo  coram  consilio  domini  Regis  apud  Westmonas- 
+terium  in  presencia  diversorum  aldermannorum  lohanni  Nor- 
+hampton  locutus  fuit  in  parte  de  malefactis  suis  et  aliarum 
+maliciarum  suarum  tamen  tune  honestiori  modo  quam  poterat. 
+Et  licet  idem  Johannes  Norhampton  malefacta  aliqua  ibidem 
+cognoscere  noluit  tamen  coram  dicto  consilio  se  submisit 
+integre  ad  standum  ordinacioni  et  considerationi  maioris 
+et  aldermannorum.  Super  quo  tune  per  dictum  consilium 
+dictum  fuit  et  preceptum  lohanni  Norhampton  quod  iret 
+cum  maiore  et  aldermannis  ad  civitatem  sub  custodia 
+eiusdem  maioris  et  ibidem  staret  eorum  ordinacioni  et  eis  se 
+conformaret  .  .  .  pro  maiore  periculo  evitando.  Quodque 
+Johannes  Norhampton  tune  ibidem  concessit  faciendum  .  .  . 
+statim  de  gratia  maioris  et  ob  reverenciam  consilii  domini 
+Regis  loh.  Norhampton  dimissus  fuit  per  probos  homines  qui 
+
+
+JOHN   NOETHAMPTON  35 
+
+manuceperunt  pro  lohanne  Norhampton  quod  ipse  pacifice 
+se  gereret  et  quod  nullam  congregationem  sine  licencia 
+maioris  faceret  .  .  .  quibus  omnibus  non  obstantibus  per 
+duos  dies  de  die  in  diem  proximam  ante  dominicam  proxi- 
+mam  post  festum  Purificationis  beate  Virginis  Marie  (6  Feb. 
+7  Eic.  II)  [1383]  lohannes  Norhampton  misit  per  suos 
+vicinos  ad  sumonendum  diverges  homines  circa  numerum 
+quingentarum  personarum  qui  venerunt  ad  lohannem  Nor- 
+hampton eodem  die  dominica  ratione  summonitionis  ad 
+ecclesiam  beate  Marie  atte  Bowe.  Et  idem  lohannes  Nor- 
+hampton illos  duxit  per  medium  de  Westchepe  et  per 
+medium  ecclesie  Sancti  Pauli  et  sic  extra  Ludgate  usque 
+ecclesiam  fratrum  Carmelitorum  in  suburbiis.  Ex  quibus 
+causis  maior  arestavit  eum  et  secum  ab  inde  duxit  in  man- 
+sionem  maioris  et  sic  sub  aresto  remansit  quousque  virtute 
+cuiusdam  brevis  domini  Eegis  missus  fuit  usque  castrum  de 
+Corff.  [Here  follows  another  account  of  the  riots  on  Feb.  11, 
+as  given  above,  and  some  further  information  as  follows  : — ] 
+
+lohanna  uxor  lohannis  Payn  de  London  goldsmith  in 
+eisdem  rumore  et  turbatione  medio  tempore  venit  ad  man- 
+sionem  maioris  ubi  lohannes  Norhampton  sub  aresto  fuit 
+detentus,  dicens,  Volumus  habere  extra  mansionem  istius 
+maioris  lohannem  Norhampton  false  et  iniuste  arestatum  per 
+eundem  maiorem,  et  excitavit  populum  ad  mansionem 
+frangendum  et  lohannem  Norhampton  deliberandum  Et 
+dicunt  quod  die  lovis  xij  die  Maii  anno  septimo  lohannes 
+Bere  haberdasher  in  Bredestret  dixit  ad  excitandum  populum 
+contra  maiorem  quod  inquisivit  plusquam  antea  inquisivisset 
+viz.  quod  vitellarii  London  aliter  debent  regulari  quam  modo 
+regulati  sunt  invitis  dentibus  eorum.  Et  dixit  quod  ex 
+gubernatione  civitatis  London  tarn  civitates  quam  Burgi 
+quam  ville  per  totam  Angliam  capiunt  exemplum,  et  quod 
+civitas  London  cuius  unus  civis  ipse  fuit  magis  false  et 
+inique  regulata  erat  de  victualibus  quam  alia  civitas  in 
+Anglia  et  ulterius  dixit  quod  lohannes  Norhampton  maliciose 
+ponebatur  in  carcere  et  adeo  iniuste  et  false  mittebatur  in 
+carcerem  sicut  sanctus  Thomas  Cantuar.  occidebatur,  et 
+hoc  advocare  volebat  et  manutenere  usque  ad  mortem.  Et 
+
+1.2 
+
+
+36  JOHN   NOETHAMPTON 
+
+dixit  quod  nunquam  voluit  potare  vinum  vel  servisiam 
+vel  manducare  prandium  quod  bonum  ei  faceret  quousque 
+Johannes  N.  refuisset  in  eodem  statu  maioris  quo  prius 
+erat,  etc. 
+
+[Here  follows  another  inquisition.  It  gives  a  good  many 
+more  names  of  John  Northampton's  party,  and  mentions  a 
+few  more  places  where  they  met  etc. ;  it  also  states  that 
+Eobert  Cumberton  was  arrested  for  trying  to  rescue  J. 
+Northampton  after  the  latter's  arrest.  Then  follows  a  third 
+inquisition,  from  which  the  following  is  taken.] 
+
+Exstitit  presentatum  quod  Johannes  Norhampton  draper, 
+Thos.  Carleton  brouderer,  W.  Essex,  T.  Usk,  Eic.  Norbury, 
+principales  conspiratores  fuerunt.  Item  dicunt  quod  lohannes 
+More  Eobertus  Cumberton  frater  lohannis  Norhampton 
+lohannes  Costantyn  cordewaner  lohannes  Doncastre  coper- 
+smyth  I.  Muntham  joiner  .  .  .  fuerunt  auxiliantes  etc.  [recites 
+doings  at  Westminster  on  22  January  as  above  and  North- 
+ampton's marching  his  adherents  through  St.  Paul's]  et  sic 
+extra  Ludgate  usque  Fletbrigge  maiore  de  congregatione  sic 
+subito  congregata  certificato  ad  domum  Eicardi  Waldegrave 
+militis,  in  parochia  S.  Mich,  de  Hoggenlane  in  Wode  street, 
+ubi  W.  Walworth,  lohes  Phelippot,  milites,  Eobertus 
+Warbulton,  lohannes  Shadworth,  Adam  Bamme,  Henricus 
+Bamme,  et  alii  ad  prandium  inde  extiterunt.  Et  predictus 
+maior  assumptis  secum  predictis  lohanne  Phelippot,  Henrico 
+Vannere,  Willo  Cheyne,  una  cum  Simone  Wynchecombe, 
+uno  vicecomitum  civitatis  .  .  .  festinavit  usque  Westchepe  et 
+viderunt  lohannem  Norhampton  et  populum  suum  euntem  ad 
+Ecclesiam  S.  Michaelis  atte  Corne.  Et  maior  misit  lohannem 
+Botkysham  unum  servientum  suorum  ad  lohannem  Nor- 
+hampton inhibendo  eis  ex  parte  domini  Eegis  et  sua  quod 
+non  irent  ulterius  donee  idem  maior  ad  eos  venisset, 
+qui  quidem  lohannes  Botkysham  venit  ad  eos  cicius  quo 
+poterat  in  cimiterio  sancti  Pauli  et  eis  inhibuit  prout 
+oneratus  fuit ;  et  hoc  non  obstante  noluerunt  attendere  sed 
+quidam  eorum  dixit  '  hold  fot  hold  fot.'  Et  lohannes 
+Botkysham  hoc  videns  rediit  maiori  et  ei  inde  certificavit. 
+Et  maior  iussit  alias  eidem  servienti  ire  ad  eos  ut  atten- 
+
+
+JOHN   NOETHAMPTON  37 
+
+derent  maiorem  et  socios  suos  Et  predicfcus  serviens  ivit  et 
+venit  ad  eos  in  ecclesia  sancti  Pauli  et  eis  nunciavit 
+nuntium  suum.  Et  lohaimes  Norhampton  et  alii  servienti 
+noluerunt  dare  intellectum,  sic  quod  serviens  rediit  maiori 
+et  hoc  nunciavit  sic  quod  tercio  idem  serviens  oneratus  fuit 
+per  maiorem  quod  iret  ad  eos  eis  dicendum  ex  parte  domini 
+Regis  et  sua  ut  attenderent  dictum  maiorem  et  socios  suos 
+quousque  ad  eos  pervenirent  sub  pena  et  periculo  super  hoc 
+incumbentibus. 
+
+Et  predictus  serviens  currens  tercio  venit  ad  dictum 
+lohannem  Norhampton  apud  Fletbrigg  dicendo  eis  nuntium 
+suum.  Et  tune  Johannes  Norhampton  et  alii  respicientes 
+retro  et  videntes  maiorem  prope  et  festinando  se  usque  eoa 
+attenderunt.  Johannes  Norhampton  dimisit  populum  ilium 
+ex  utraque  parte  vici.  Et  cum  maior  cum  aliis  paucis  ad  eos 
+venisset  et  ipsos  per  medium  pertransisset  eundo  usque 
+fratres  Carmelites  predicto  maiore  et  aliis  secum  existentibus. 
+Et  tune  retro  respicientes  et  videntes  lohannem  et  populum 
+cum  eo  sic  existentem  et  secuin  congregatum  stare  invicem 
+in  forma  qua  fecerunt  quando  per  eos  pertransiverunt  et 
+non  predictum  maiorem  sequentes  sic  quod  dictus  maior  et 
+omnes  alii  hoc  videntes  inde  mirabantur.  Et  sic  Johannes 
+Norhampton  extitit  rebellis  et  fecit  rebellionem  et  paream 
+usque  maiorem  suum  Super  quo  maior  tune  ter  vel  quater  tarn 
+per  verba  quam  per  signa  rogavit  et  iussit  eos  venire  et  ire 
+secum  ipsos  et  nullus  eorum  se  movebat  quousque  Johannes 
+Norhampton  primo  se  lente  cepit  movere  et  tune  alii 
+cum  eo  venerunt  et  maiorem  a  longe  et  inobedienter  seque- 
+bantur  usque  ad  fratres  Carmelites  in  ecclesiam  eorum  .  .  . 
+super  quo  maior  in  ecclesia  fratrum  Carmelitorum  iussit 
+quod  omnes  de  libertate  civitatis  redirent  secum  pro  pace 
+domini  Regis  conservanda  Et  quidam  clamabant  quod  non 
+secum  redirent  .  .  .  Et  cum  idem  maior  rediisset  ab  ecclesia 
+usque  pontem  de  Fletebrigg  habens  lohannem  Norhampton 
+tune  in  custodia  ...  ad  pacificandas  gentes  ex  utraque 
+parte  quia  plures  ibidem  congregaverunt  insimul  ad  faci- 
+endam  tune  partem  et  rebellionem  versus  maiorem  sed 
+deo  dante  maior  et  aldermanii  tune  habuerunt  forciorem 
+partem.  Et  cum  magno  labore  lohannem  Norhampton 
+
+
+38  JOHN   NORTHAMPTON 
+
+et  Robertum  fratrem  suum  protexerunt  et  cum  magna 
+diligencia  transierunt  usque  mansionem  maioris.  Et  cum 
+venissent  ad  finem  vici  de  cordewanerstrete  iuxta  shopam 
+Willelmi  Kyng  et  prope  hospitium  mansionis  lohannis 
+Norhampton  idem  I.  Norhampton  petiit  a  dicto  maiore 
+dicendo  per  viam  minarum  '  But  if  5e  wille  seue  me  leue 
+go  horn  to  my  hous  if  eny  peril  falleth  her  after  y  shal 
+aquite  me  &  do  me  out  ther  of.'  Et  hoc  dixit  superbo  modo 
+et  contemptuose  super  quo  maior  pro  meliori  et  securiori 
+custodia  duxit  loh.  Norhampton  ad  mansionem  maioris. 
+Et  dicunt  quod  turbationes  rumores  et  affrayamenta  de  die 
+in  diem  suborta  et  perpetrata  fuerunt  in  civitate  et  suburbiis 
+et  precipue  die  iovis  xi  die  Feb.  quo  die  magne  congregati- 
+ones  fiebant  et  hostia  et  fenestre  domorum  et  shoparum  in 
+Westchepe  Bugerow  et  alibi  clausa  fuerunt  in  signum 
+insurrectionis  .  .  .  Et  quidam  homines  malefactores  et  pacis 
+domini  perturbatores  viz.  Johannes  More  Robertus  Cum- 
+berton  et  Johannes  Costantyn  insurrectionem  fecerunt  .  .  . 
+[ends  abruptly]. 
+
+[For  further  information  about  the  case  of  John  of 
+Northampton  see  Rot.  Parl,  iii.  225-7,  Walsingham,  vol.  ii., 
+and  Higden,  vol.  ix.] 
+
+
+SECTION  III. 
+
+DOCUMENTS   RELATING    TO   LOLLAEDS 
+1382-1398 
+
+
+NOTES  AND  EXTRACTS  FROM  PATENT 
+ROLLS,  CLOSE  ROLLS,  AND  ANTIENT 
+PETITIONS '. 
+
+Bex  Cancellario  etc.  Oxonie. 
+
+To  expel  from    Oxford   all    '  fautorcs    et    receptatores  6  ^jc  g 
+certorum  hereticorum — [namely]  lohannes  Wycliffe,  Nich.   (314),  m. 
+Herford,  Ph.  Eepyngdon  et  John  Aston.' 
+13  July,  6  B.  2.    Teste  Bege. 
+
+Eex  Archiepiscopo  Cantuariensi.  Bot.  Pat. 
+
+9  Bic.  2 
+To  arrest  preachers  of  heresy.  (322),  m. 
+
+12. 
+
+Westminster,  21  May,  9  Eic.  2. 
+
+Kex  dilectis  suis  Badulfo  de  Crombewell  chivaler  et  lohanni  Rot.  Pat. 
+Leke  chivaler  ac  Maiori  et  Ballivis  ville  Nottingham  ^ Rio-  2» 
+necnon  Vicecomiti  Nottingham  salutem.  ^326),  m. 
+
+Quia  informamur  quod  Magister  Nic.  Hereford  et  Magis- 
+ter  lohannes  Wickliffe  dum  vixi$  quosdam  libros  libellos 
+scedulas  et  quaternos  diversas  hereses  et  errores  manifestas 
+in  fidei  catolice  lesionem  et  sacre  doctrine  derogationem 
+continentes  per  se  et  fautores  suos  frequentius  scribi 
+et  publicari  fecerunt  et  pravas  conclusiones  tenuerunt 
+et  docuerunt  Nos  zelo  fidei  catolice  nolentes  huiusmodi 
+hereses  pullulare,  assignavimus  vos  coniunctim  et  diver- 
+sim  ad  omnes  libros  etc.  ubicunque  et  quorumcunque 
+manibus  inveniri  poterunt  capiendos  et  arrestandos  et 
+penes  consilium  nostrum  cum  omni  celeritate  deferri  fa- 
+ciendos  ut  tune  de  eisdem  ordinare  valeamus  prout  de 
+avisamento  consilii  predicti  magis  salubrius  fore  viderimus 
+
+1  See  MSS.  Cott.  Cleopatra  E.  II.  Collections  for  History  of  the 
+Church  (17th  century). 
+
+
+42  LOLLARDS 
+
+faciendum.  Ac  ulterius  ad  proclamandum '  et  ex  parte 
+nostra  firmiter  inhibendum  ne  quis  sub  pena  imprisonamenti 
+et  forisfacture  aliquos  huiusmodi  libros  etc.  de  cetero  emere 
+vel  vendere  seu  aliquas  huiusmodi  opiniones  manutenere 
+et  docere  presumat.  Et  ad  omnes  illos  quos  post  proclama- 
+tionem  inveneritis  in  contrarium  facientes  arestandos  et 
+prisonis  nostris  mancipandos  in  eisdem  detinendos  quousque 
+pro  eorum  deliberatione  aliter  duxerimus  ordinandum  Et 
+ideo  vobis  mandamus  quod  cura  premissa  diligenter  et 
+efficaciter  intendatis  et  ea  faciatis  et  exequamini  in  forma 
+predicta.  Damus  autem  tarn  universis  et  singulis  viris 
+ecclesiaticis  quam  Vicecomitibus  Maioribus  Ballivis  Min- 
+istris  et  aliis  fidelibus  et  subiectis  nostris  tarn  infra  libertates 
+quam  extra  tenore  presentium  firmiter  in  mandatis  quod 
+vobis  in  premissis  faciendis  intendentes  sint  et  auxiliantes. 
+Apud  Westmonasterium,  30  March,  11  Eic.  2. 
+
+Rot.  Pat.     Eex  .  .  .  lohanni  Goddard  chivaler  lohanni  Hotham  chivaler 
+11  Ric.  2,  Will,  de  Eisseby  ac  Vicecomiti  nostro  Ebor. 
+
+(326),  m.  Same  purport  as  last. 
+
+22. 
+
+Dated  16  April,  11  Ric.  2.    Apud  Westmonasterium. 
+
+Rot.  Glaus.  Eex  vicecomiti  Northampton  salutem.    Quia 
+
+•I  O    Ivift      O 
+
+(236)  ,m.  9.  lohes  atte  yate  de  Cheping  Wardon 
+
+lohes  Warriner  de  Chipenwarden 
+Eobertus  Brewod 
+lohes  Eoth 
+lohes  Warriner 
+Thos.  Draper  de  Byfeld 
+Eobertus  Brewood 
+lohes  Wariner 
+Thos.  Tybles 
+lohes  Balcoke 
+lohes  Brackley  faber 
+Will.  Heyward  Wariner 
+Thos.  Wakelyn 
+Steph.  Hykkes 
+Egidius  Taylour 
+Warrinus  Somerby 
+
+
+LOLLAEDS  43 
+
+Agnes  Couper 
+
+Matilde  Brewode 
+
+Willelmus  Collins 
+
+[and  23  more,  of  whom  2  are  women] 
+
+Lincolnie  diocesis  credentes  receptatores  et  fautores  hereti- 
+corum  existunt  et  presertim  lohannis  Wodeward  capellani 
+super  heresibus  a  sacrosancta  ecclesia  dampnatis  publice 
+diffamati  nee  se  volunt  per  sensuram  ecclesiasticam  iusticiari 
+sicut  venerabilis  pater  lohannes  Episcopus  Line,  nobis 
+certificavit.  Nos  volentes  inobedientie  dictorum  resistere  et 
+ipsos  iuxta  eomm  demerita  castigari  tibi  precipimus  quod 
+tarn  prefatos  credentes  etc.  quam  predictum  lohannem 
+Wodward  per  incarcerationem  corporum  suorum  seu  aliis 
+viis  iusticies  donee  licitis  mandatis  prefati  episcopi  in  hac 
+parte  obedire  et  coram  ipso  super  premissis  responsuri 
+comparere  voluerint.  Et  hoc  sub  pena  centum  libramm 
+nullatenus  omittas. 
+Teste  Rege  apud  Manerium  de  Langley,  8  March,  12  Bic.  2. 
+
+Eex  dilecto   Eoberto  de   Martell  lusticiario    in    Comitatu  Rot.  Glaus. 
+Notyngham  salutem.     Cum  prout  regia  intellexit  celsitudo  }^)  m. 
+lohannes  Bradborne  capellanus  sue  salutis  immemor  diversas  28. 
+heresias  etc.  in  fidei  ortodoxe  enervacionem  palam  redun- 
+dantes  tarn  in  ecclesiis  dicti  Comitatus  quam  alibi  doceat  et 
+manuteneat  animo  indurato  contra  prohibitionem  et  inhibi' 
+tionem  nostras    sibi  in  contrarium  nuperime  factas  alios 
+legeos  et  incolas  nostras  eiusdem  Comitatus  ut  ipsi  huius 
+heresibus  et  nephariis  opinionibus  temere  adhereant.     Nos 
+nolentes  dictas  heresias  pululare  Vobis   mandamus  injun- 
+gentes  quod  prefatum  lohannem  sine  dilitacione  arestari  et 
+ministris  .  .  .  Thome  Archiepiscopi  Ebor.  tradi  facietis. 
+Teste  Rege  apud  Westmonasterium  21  Nov.  12  Ric.  2. 
+
+Eex  Vicecomiti  Nottingham  salutem.    Ex  parte  lohannis  de  Rot.  Claus, 
+Stoke  de  Widmerpole  capellani  nobis  est  supplicatum  ut  *2  •J*-  2 
+cum  ipse  ad  prosecutionem  quorundam  legeorum  in  gaola  33. 
+nostra    Nottingham     sub    custodia    tua    detentus    existat 
+asserentium    dictum    lohannem    diversas    hereses    contra 
+fidem  catolicam  predicasse  velimus  ipsum  a  gaola  predicta 
+
+
+44  LOLLAEDS 
+
+deliberari  iubere.  Nos  pro  eo  quod  Thomas  Maperle  de 
+Nottingham  coram  nobis  in  Cancellaria  nostra  personaliter 
+constitutus  manucepit  pro  prefato  lohanne  sub  pena  20 
+librarum  de  habendo  ipso  coram  nobis  et  consilio  nostro  seu 
+archiepiscopo  Ebor.  et  quod  idem  Johannes  heresim  seu 
+aliqua  alia  in  lesionem  fidei  Catolice  interim  non  predicabit 
+tibi  precepimus  quod  ipsum  lohannem  a  gaola  deliberari 
+facietis. 
+
+Teste  Eege  apud  Cantabrigiam  17  Oct.  12  Eic.  2. 
+
+Hot.  Glaus.  Kex  custodi  gaole  Veteris  Sarisburie 
+
+13  Eic.  2, 
+
+Pt.  1  (237),         Cum  Eicardus  Talton  Johannes  Eomesey  Eobertus  Paniot 
+
+m.  31.  Will.  Beumynster  Laur.  Loupe  Eoger  Lovehill  et  Will. 
+Cone  in  gaola  predicta  pro  quibusdam  erroribus  et  articulis 
+per  ipsos  contra  fidem  Catolicam  publice  ut  dicitur  predicatis 
+detenti  existant  Nos  volentes  ipsos  iuxta  eorum  demerita 
+castigari  vobis  mandamus  quod  si  iidem  ex  causa  predicta  et 
+non  alia  detenti  exigtant  tune  ipsos  venerabili  in  Christo  patri 
+lohanni  Episcopo  Sarisburiensi  deliberetis  prout  eis  de  iure 
+videbitur  faciendum  castigandos.  Mandavimus  enim  eidem 
+episcopo  quod  ipsos  a  vobis  recipiat  in  forma  predicta. 
+Teste  Eege  apud  Westmonasterium  10  July,  13  Eic.  2. 
+
+Eot.  Glaus.  Eex  maiori  et  vicecomiti  London  qui  nunc  sunt  vel  qui  pro 
+
+1 5  Ric   2 
+
+(240)  in.     tempore  fuerint  salutem.     Ex  relacione  quorundam  fidedig- 
+18.  norum  nobis  et  consilio  nostro  extitit  iam  noviter  intimatum 
+
+quod  quedam  gentes  laice  tarn  artifices  quam  alii  civitatis 
+predicte  sue  salutis  immemores  de  die  et  de  nocte  in  non 
+modico  numero  adinvicem  frequentius  congregati  quam 
+plurima  conventicula  insolita  in  diversis  locis  clandestinis 
+et  privatis  fecerunt  et  indies  facere  non  desistunt  super 
+certis  articulis  et  materiis  sacre  scripture  et  fidei  orto- 
+doxe  modo  heretico  et  erroneo  disputando  indefesse 
+varias  etiam  opiniones  et  conclusiones  sane  doctrine  con- 
+trarientes  ac  canonicis  determinationibus  et  sanctionibus 
+ecclesie  repugnantes  inter  se  singillatim  comunicando  in 
+fidei  subversionem  et  christianorum  exemplum  perniciosum 
+unde  tribulationes  et  rumores  tarn  infra  civitatem  quam  alibi 
+
+
+LOLLAEDS  45 
+
+quod  absit  verisimiliter  evenire  et  succcdere  formidantur 
+infra  breve  nisi  remedium  per  potestatem  regiam  celerius 
+properetur  Nos  zelo  fidei  catolice  etc.  nolentes  hereses 
+pululare  vobis  mandamus  quod  infra  civitatem  et  in  locis  ubi 
+melius  expedire  videritis  de  tempore  in  tempus  ex  parte 
+nostra  publice  proclamari  facere  quod  nullus  congregationes 
+seu  conventicula  facere  presumat  sub  pena  omnium  que 
+nobis  poterit  forisfacere  ac  imprisonamenti.  Et  omnes  quos 
+contra  proclamationem  culpabiles  inveneritis  per  corpora 
+arestetis  et  prisone  committatis. 
+Apud  Westmonasterium,  21  Jan.  15  Hie.  2. 
+
+ANNO  16  EICH.  2. 
+
+The  tenor  of  the  complaint  made  to  the  Kinge  and  his  councell  Original 
+against  John  Fox,  Maior  of  Northampton,  and  others,  in  Frenc 
+exhibited  in  French  by  Richard  Stcrmesworthe,  a  titions,6" 
+Wolman.  7099.  ' 
+
+P.R.O. 
+To   our    Soueraigne    Ld   the   King   and    to    his    graue  ForEng- 
+
+councell    sheweth    Eich.    Stermesworthe   of    the    town   of 
+
+
+Northampton  complaining  vppon   John  Pox   Maior  of  the  Early 
+same    towne   of    Northampton.      That   whereas   it   is   or-  *7th  C.en" 
+dained  by  statute  as  also  by  the  lawes  of  holy  Kirke  that  MSS. 
+
+
+Lollardes  should  be  punished  etc.  the  foresaid  maior  hath 
+presumed  by  couler  of  his  office  to  vse  royall  power  within  EH., 
+the  towne  of  Northampton  authoriseing  Lollardes  to  preach  fo1-  201- 
+maugre  the  Bishoppe  of  Lincoln  and  his  curates.  original 
+
+is  much 
+
+
+Item  how  the  said  maire  is  a  Lollard  .  .  .  keeping 
+within  his  howse  of  his  retinue  one  Eichard  Bullocke  not  now 
+chaplaine,  who  hath  been  conuicted  of  many  errors  heresies  be  , 
+before  the  Archdeacon  of  Northampton,  and  likewise  one 
+James  Collyn  sometime  a  prentice  at  the  trade  of  Mersery 
+in  London  refuseinge  his  arte  to  become  a  Lollard,  and  the 
+saide  James  Collyn  was  the  first  maintayner  and  informer  of 
+Lollardy  in  Northampton.  And  that  the  saide  Maior  hath 
+drawen  to  his  company  and  counsell  one  Thomas  Compe- 
+worthe  of  the  county  of  oxforth,  who  hath  been  conuict 
+before  the  Chancellor  and  Uiiiuersitie  there  of  many  errors 
+
+
+46  LOLLAEDS 
+
+and  hereses,  and  one  Nicholas  Weston  a  fryer  Carmilett 
+apostate  and  Lollard,  without  the  license  of  his  order.  The 
+which  Maior  hath  by  practise  made  the  saide  Fryer  Nicholas 
+parishe  chaplaine  of  St.  Gregorie  at  Northampton,  there  to 
+preach  Lollardy  in  comforte  and  maintenance  of  the  mis- 
+beleeuers  of  the  toune. 
+
+And  that  the  said  Maior  hath  drawen  to  his  councell  & 
+confederacie  William  Northwold  a  Lollard  &  a  common 
+instructor  and  confessor  of  the  lay  people  of  that  toune 
+beinge  Lollardes  without  license  of  saide  Bishoppe,  the 
+which  William  by  vntrue  titell  did  occupie  the  archdeaconry 
+of  Sudbury  for  about  seauen  yeares  and  at  his  departure  from 
+the  same  took  a  great  some  of  money  by  waie  of  simony  on 
+which  he  liueth  at  the  howse  of  St.  Andrewe  at  North- 
+ampton, where  he  hath  caused  such  debate  betweene  the  Prior 
+and  Mounkes  that  the  house  is  wel  ny  vndoune,«»nd  many 
+of  the  mounkes  fledd  awaie.  Like  troubles  also  William 
+caused  at  Mekkesworth  and  at  Osseney,  and  in  the  howse 
+of  St.  John  at  Bedford,  and  in  other  places :  whose  whole 
+conuersation  as  well  in  the  court  of  Eome  as  in  England 
+hath  been  in  simoney  and  subtile  dealinge,  who  notwith- 
+standing is  still  in  Northampton  amongst  the  Lollards  and 
+misbeleeuers  reputed  a  verie  profett  speaking  with  the 
+tongue  of  an  angell. 
+
+Item  the  maior  hath  made  the  whole  toune  in  manner 
+to  become  Lollardes  so  that  the  whole  toune  is  gouerned 
+by  them,  no  one  daring  gainsaie  them  for  feare  of  theire 
+lives.  All  ribauds  infected  with  Lollardy,  that  come  into 
+the  said  towne  are  all  courteously  receiued  &  mainetayned 
+as  yf  they  were  prophetts  before  all  others. 
+
+Item  on  the  morrowe  after  Xmas  last  past  the  Maior 
+brought  with  him  one  Eobert  Braibrok  a  chaplaine  an  errant 
+Lollard  to  preach  within  All  Saints  Church  at  Northampton 
+maugre  the  bishope  and  contrary  to  inhibition  made  vnto 
+him,  who  preached  sundrie  errours  in  maintenance  of  Lol- 
+lardes. By  occasion  of  which  sermon  the  same  day  debate 
+begann  betweene  man  and  man  of  the  saide  toune  through 
+the  practice  of  the  saide  maior. 
+
+
+LOLLARDS  47 
+
+Item.  The  saide  maior  before  the  feast  of  St  Hillary  last 
+
+past  brought  with  him  one  parson  of  the  church 
+
+of  Wynkpole  an  errant  Lollarde  to  preach  etc.     through 
+maintenance  of  the  maior  &  force  of  all  the  lollards  of  said 
+ti  m i  ic  assembled  by  agreement  before  made  to  maintaine  the 
+preacher.    Which  preacher  did  assend  the  pulpit  to  preache, 
+when  the  Viccar  of  the  church,  after  theffertorie  in  the  masse 
+parochiell,  retourned  to  the  aulter  to  singe  his  masse,  where 
+vppon  the  said  maior  goeing  to  the  said  Viccar  at  the  alter 
+with  greate  indignation  took  him  by  the  backe  of  his  vesti- 
+ment  to  cause  him  to  retourne  from  his  masse  and  to  cease 
+vntill  the  sd  preacher  had  preached ;  which  Vicar  answered 
+'Non    possum,'   and  after  the  saide   parson    preached    to 
+the  people  errors  and  heresies.     And  the  same  daie  after 
+dynner  the  saide  parson  came  with  the  maior  and  a  great 
+many  of  Lollards  in  the  foresaid  manner  to  preach  in  the 
+said  church,  where  he  preached  errors  and  heresies  depraue- 
+inge  the  peoples  deuotion  donne  to  Holy  Kirke,  of  Pilgrimage 
+to  immages,  painted  tables,  the  frameinge  of  high  and  costlie 
+workes  of  holy  kirke,  and  of  chalices  made  of  gold  or  siluer 
+for  diuine  sendee,  and  depraueinge  of  Statutes,  concerning 
+as  well  our  soueraigne  L.  the  King  as  Holy  Kirke.  .  .  .  By 
+which  occasion  Eich.  Stormesworth  cried  to  the  preacher 
+'  Tu  autem '  '  Tu  autem  '  to  cause  him  hold  his  peace,  com- 
+manding him  to  come  downe  false  Lollard  without  anie 
+further   speech   or  acte   against  the  peace,  the   said   Rich. 
+Stormesworthe  not  being  aware  of  the  said  false  confederacie. 
+Whereupon  the  said  Maior  in  all  haste  starting  vp  with  great 
+force  of  Lollards  as  well  of  the  towne  as  countrie  .  .  .  with 
+•force  &  arms  against  the  peace  etc.  sought  to  laie  hands 
+vppon   the   said   Richard   &  kill   him   in   the   church   and 
+certaine  of  the  Lollardes  so  armed  laye  in  waite  for  the  said 
+Richard  without  the  church  to  have  slaine  him,  and  so  the 
+said  Richard  by  certaine  of  his  freinds  was  borne  out  of  the 
+church   dore,   from  whence   they   immediatly   carried   him 
+backe  againe  into  the  church  for  feare  of  his  enemies  without. 
+At  what  time  the  said  maior  came  straight  and  there  arrested 
+him  to  the  peace,  to  please  the  Lollards.     Whereuppon  the 
+Lollards   were  so  incensed   through  anger  and  mallice  to 
+
+
+48  LOLLAEDS 
+
+have  slaine  the  said  Kichard  that  with  difficulty  he  escaped, 
+being  secretly  conueyed  to  the  vestry  for  saffegard  of  his 
+life,  vntill  the  said  tumult  were  appeased.  And  all  the  other 
+people  within  the  church  which  were  not  priuy  to  the  said 
+couin  and  confederacy  of  the  Lollards  fledd  in  great  doubt 
+and  despaire  of  their  Hues.  .  .  .  Whereuppon  William 
+Broughton  and  John  Tony  chaplaens  range  the  Bells  of 
+the  church  to  geather  the  people,  to  cease  the  fray.  After 
+which  the  said  maior  gat  him  vp  into  the  pulpit  to  incourage 
+the  said  preacher  to  goe  forward  with  his  sermon  etc.  and 
+commanded  the  people  to  keep  silence  and  giue  heed  to  the 
+sermon  vppon  the  paine  of  death,  the  said  maior  remaining  in 
+the  pulpit  hard  by  the  preacher  till  he  had  finished  his  sermon. 
+And  after  the  said  sermon  the  said  maior  and  Lollardes  with 
+great  pride  and  jollite  ledd  the  fals  preacher  to  the  bowse  of 
+the  maior.  And  after  the  said  Lollards  retourning  to  the 
+churchyard  of  the  said  church,  and  with  haustie  wordes 
+threatened  bloues  to  any  that  would  gainesaye  in  any  point 
+touching  the  said  sermon ;  so  that  the  whole  town  is  become 
+Lollardes,  no  man  dareinge  open  his  mouth  against  theire 
+likeinge,  for  fear  of  the  said  maior  and  Lollards. 
+
+Item  vppon  Tuesdaie  next  after  the  said  Sundaie  before 
+the  feast  of  St.  Hillary  the  saide  maior  fearinge  he  might 
+be  blamed  for  that  he  had  donne,  gate  vnto  him  eight  or  ix  of 
+the  xxiiij  chief  men  to  assist  him  for  the  inditeing  of  the  said 
+Eichard  for  the  said  fray.  [The  rest  of  this  item  and  the  next 
+refer  only  to  proceedings  about  the  breach  of  the  peace,  and 
+are  omitted.] 
+
+Item  the  said  Eichard  sheweth  that  the  said  maior  by 
+assent  of  the  Lollards  there  sent  messengers  to  Oxford  and 
+to  other  places  for  to  hire  preachers  of  Lollardye,  to  be 
+brought  to  Northampton  to  preach  there  euerie  Sunday 
+during  Lent  last  past  at  the  Cross  in  the  churchyarde  in 
+the  marketplace  of  Northampton ;  the  said  cross  being 
+solemplie  decked  by  the  said  maior  with  Tapestre  and  other 
+furniture  dureinge  the  time  of  the  sermons.  The  which 
+preachers  did  there  preache  in  maintenance  of  Lollardy 
+as  before  declared,  contrairie  to  the  Bishoppes  inhibition  etc., 
+
+
+LOLLAEDS  49 
+
+by  the  commandment  and  appointment  of  the  said  maior, 
+diuerse  of  which  said  preachers  were  faine  to  borrowe  in  the 
+said  toune  of  Northampton  furred  hodes  and  habites  for  the 
+time  of  their  sermones.  Therebie  to  be  reputed  of  the 
+common  people  for  great  Clerkes,  in  maintenance  of  Lollardy. 
+
+Item  that  the  said  maior  beareth  him  so  sterne  &  hawty 
+in  the  said  toune  that  the  Bishoppe  of  Lincoln's  Commis- 
+saries dare  not  sitt  within  the  same  town  to  inquire  of 
+Lollardy. 
+
+Item  that  on  the  first  Sundaie  of  Lent  last  past  the 
+said  Maior  and  others  went  to  the  Monasterie  of  St. 
+Andrews  in  Northampton  to  seek  William  Northwold  that 
+he  should  preach,  whom  they  brought  with  great  solemp- 
+netie  arrayed  '  en  vne  cloke  vne  taberd  et  vne  chapon  f urres  ' 
+1  de  pellure,'  and  with  a  capp  vppon  his  head  as  yf  he  had  been 
+a  Doctor  or  Master  of  Diuinitie,  whereas  he  neuer  took  anie 
+degree  in  scoles.  The  which  Mr.  William  after  the  offertory 
+of  the  Masse  gate  vp  into  the  pulpit  to  preach,  being  before 
+forbidden  of  the  viccar  by  commission  from  the  Bishoppe, 
+where  nothwithstanding  he  preached  with  great  pride  and 
+courage  of  harte  at  such  time  as  the  viccar  was  retourned  to 
+the  alter  to  singe  his  Masse.  The  said  William  nothing 
+regarding  the  Masse  nor  the  diuine  seruice  nor  yet  the 
+eleuation  of  the  sacrament  desturbinge  the  said  viccar  with 
+the  great  noyes  of  his  wordes ;  insomuch  that  when  the  vicar 
+at  two  seuerall  tymes  beganne  the  preface  of  the  masse  by 
+note  with  loude  voice,  not  anie  chapleine  durst  make 
+answere  for  fear  of  the  said  Maior.  By  which  means  the 
+said  viccar  being  greatlie  distressed  with  much  pensiunesse 
+of  harte  was  inforced  to  finishe  his  masse  withoute  note. 
+
+Item  that  on  Sundaie  before  the  feast  of  St.  Gregorie  last 
+past  the  said  William  repaired  again  to  preach  at  the  said 
+crosse  arraied  in  his  furres  as  before ;  the  which  William 
+before  the  sermon  withdrewe  into  the  vestery  of  the  Church 
+of  All  Saints  vntill  the  people  assembled,  where  came  vnto 
+him  the  ministers  as  well  of  the  Bishoppe  as  of  the  Arch- 
+
+
+50  LOLLAEDS 
+
+deacon  of  Northampton  with  specials  commission  and  letters 
+from  the  Bishoppe  to  inhibite  the  said  William  to  preache, 
+and  to  summon  him  before  the  Bishoppe  to  make  answer  to 
+certaine  artickles,  the  which  commandement  he  in  nowise 
+obeied.  Wherewithall  cometh  the  Maior  with  great  presse 
+of  Commons  and  did  openlie  rate  the  said  ministers  for  that 
+they  had  donne,  and  affirmed  openlie  that  he  and  the 
+Commons  would  haue  the  said  Mr.  William  to  preach  that 
+dale  at  the  Crosse  maugre  the  bishoppe,  the  archdeacon,  and 
+all  their  ministers  ;  further  commaundeinge  the  said  min- 
+isters at  theire  perill  to  abide  or  departe  thence  for  that 
+they  had  there  donne,  and  the  said  maior  took  out  of  the 
+said  commissioners  hands  the  Bishoppes  letteres,  leding 
+awaie  with  him  the  said  William  to  preach  at  the  crosse. 
+The  ministers  abiding  still  in  the  vestrie  vntill  the  maior 
+retourning  backe  to  deliuer  them  commanding  them  to  come 
+fourth  and  here  the  sermon,  who  hauinge  noe  minde  so  to 
+doe  prayed  the  maior  to  license  them  to  goe  safflie  to  theire 
+Inne  from  thence  to  ride  out  of  the  town  without  feare  of 
+anie  bodily  harm,  which  was  so  graunted  them.  And  the 
+Maior  came  again  to  the  crosse  to  heare  the  sermon  which 
+the  said  William  forbare  to  beginne  till  his  coming.  And 
+then  began  according  to  his  habillitie  in  manner  as  beforesaid 
+desiring  the  commons  with  tears  to  pray  for  him  and  to 
+assist  him  in  this  case  against  the  Bishoppe  and  his  mini- 
+sters, whom  he  called  members  of  the  diuill  and  disciples 
+of  Antichrist  wrongfullie  persecuting  him  against  Gods 
+lawes.  All  which  was  done  by  the  said  Maior  and  William 
+in  support  of  the  said  Lollards  and  in  contempt  of  Holy 
+Kirke. 
+
+
+Rot.  Pat.  Rex   dilectis   et   fidelibus   suis    lohanni   Chandos   chivaler 
+
+17  Bic.  2  ran^   others,   among  whom   the  Mayor  and   Sheriff  of 
+
+(339),  m.  L      t    ji 
+
+£6  d;'  Hereford]. 
+
+Quia  datum  est  nobis  intelligi  quod  Walterus  Brut  ac  alii 
+iniquitatis  filii  certos  articulos  et  conclusiones  sane  doc- 
+trine repugnantes  quorum  quidem  vt  hereses  ceteri  vero  vt 
+errores  per  ecclesiam  damnati  sunt,  in  variis  locis  diocesis 
+Hereford  ac  partium  vicinarum  clam  et  palam  tenuerunt, 
+
+
+LOLLARDS  51 
+
+quodque  lohannes  Episcopus  Herefordensis  ibidem  adquisita 
+sibi  bona  et  matura  deliberations  quam  plurimum  in  sacra 
+theologia  doctorum  ac  aliorum  clericorum  in  scripturis 
+peritorum  ex  summa  mentis  devotione  diversos  processus 
+legitimos  ad  prefatum  Walterum  ac  alios  complices  suoscoram 
+eo  et  aliis  doctoribus  in  Ecclesia  Cathedrali  Herefordense  in 
+crastino  Translationis  Sancti  Thome  Hereford  prox.  futuro 
+personaliter  comparere  faciendum  et  contra  eundem  ibidem 
+in  premissis  articulis  et  conclusionibus  ad  correctionem 
+anime  sue  procedendum  inchoare  et  facere  proposuit  iam 
+de  novo  propter  quod  dictus  Walterus  ac  alii  sibi  ex  eorum 
+protervia  inherentes  et  confederati  ne  ipsi  penam  condignam 
+iuxta  eorum  demerita  sustinerent  dictum  pium  propositum 
+Episcopi  adnullare  pro  viribus  se  conantur  Assignavimus  vos 
+ad  presens  mandatum  ut  melius  expedire  videritis  publice 
+proclamari  faciendum  et  ulterius  inhibendum  ne  quis  infra 
+diocesem  et  partes  conventicula  congregationes  vel  confeder- 
+ationes  ullo  colore  facere  vel  leuare  seu  quicquam  attemptare 
+presumat  per  quod  pax  nostra  ledi  aut  idem  Episcopus  et 
+doctores  predicti  in  executionem  huius  correctionis  iuxta 
+canonicas  sanctiones  faciendam  poterunt  perturbari  et  ad 
+omnes  in  hac  parte  delinquentes  aut  se  in  huiusmodi  con- 
+venticulis  tenentes  inveneritis  arrestandos  et  carcerali 
+custodie  mancipandos  in  eadem  moraturos  quousque  aliud  a 
+nobis  et  consilio  nostro  pro  eorum  deliberatione  habueritia 
+in  mandatis  ac  ad  nos  et  dictum  consilium  nostrum  de  toto 
+facto  vestro  in  hac  parte  sub  sigillis  vestris  vel  alicuius 
+vestrum  distincte  et  aperte  certificandum  .  .  .  etc. 
+Apud  Westmonasterium,  27  Sept.  17  Ric.  2. 
+
+Bex  Cancellario   Univ.  Oxon.  Fama  celebri   divulgante  Rot.  Glaus, 
+nostris  auribus  iam  noviter  est  intimatum  quod  quam  plures  Jo4?xic>  2 
+opiniones  nepharie  et   allegationes  detestabiles  in  quodam  20. 
+libro  ex  compilacione  lohannis  Wyclif  Triolagus  vulgariter 
+nuncupate  hereses  et  errores  includentes  ac  sacris  determina- 
+tionibus    ecclesie  et    maxime    consecracioni    sacramentali 
+multipliciter   repugnantes  continentur  et  conscribuntur  ex 
+quorum  publicacione  et  vesana  doctrina  populus  .  .  .  infici 
+potest    et    decidere    in    errores  .  .  .  Nos    zelo    fidei    etc. 
+
+•  S 
+
+
+52  LOLLAEDS 
+
+brachium  seculare  apponere  cupientes  Vobis  mandamus  qua- 
+tinus  omnes  doctores  theologie  eiusdem  Univ.  ad  certos  dies 
+eis  per  vos  ex  parte  nostra  prefigendos  et  statuendos  convocari 
+et  librum  ilium  in  presencia  vestra  et  eorum  doctorum  pre- 
+sentari  et  publice  et  expresse  perscrutari  et  perlegi  et  exa- 
+minari  necnon  hereses  et  errores  quos  in  libro  per  vos  reperiri 
+contigerit  in  scriptis  redigi  et  intitulari  facere.  Et  nobis 
+de  omnibus  et  singulis  que  in  premissis  senseritis  seu 
+inveneritis  una  cum  singulis  attestacionibus  et  opinionibus 
+doctorum  in  cancellariam  nostram  reddatis  plenius  certiores 
+ut  hiis  inspectis  et  mature  ponderatis  ulterius  de  avisamento 
+consilii  nostri  ordinare  valeamus  etc. 
+
+Teste  Bege  apud  Ledes,  18  July,  19  Ric.  2. 
+
+Rot.  Clans.  Eex  Cancellario  Oxon.  Cum  ex  certa  relacione  sane 
+(244)1C  didicimus  quidam  iniquitatis  filii  in  universitate  comorantes 
+24.  '  et  scolatizantes  et  presertim  Eobertus  Lychlade  qui  profane 
+conversari  permittitur  in  eadem  opiniones  ac  conclusiones 
+nepharias  publicaverunt  et  docuerunt  et  tanquam  zizannia 
+in  populo  seminaverunt  et  adhuc  publicare  et  docere  inten- 
+dunt  nos  ne  populus  inficiatur  desiderantes  universitatem 
+illam  que  rore  et  deliciis  sciencie  literalis  et  virtutis  hactenus 
+potissime  reflorebat  ab  erroribus  expurgari  Vobis  precipimus 
+quod  omnes  Lollardos  et  presertim  Eobertum  predictum 
+ab  eadem  universitate  amoveri. 
+
+Teste  Rege  apud  Ledes,  18  July,  19  Ric.  2. 
+
+Rot.Claus.         Rex  Ballivis  Abbatis  de  Eeadinge    Precepimus  quod  om- 
+
+20  Ric.  2,    nes  personas  quas  vobis  per  certificacionem  Eicardi  Episcopi 
+
+28      m*     Sarisburiensis  constare    poterit    aliquas  opiniones    contra 
+
+fidem  Catolicam  infra  libertates  de  Eeadinge  tenere  ad  certi- 
+
+ficationem  predicti  Episcopi  arestetis  et  recipiatis  et  prefato 
+
+Episcopo  sive  eius  attornato  cum  transcripto  huius  brevis 
+
+deliberetis  in  prisona  quousque  etc. 
+
+Teste  Rege  apud  Cantuariam,  4  Aug.  20  Ric.  2. 
+
+
+Rot.Claus.         Rex    Magistro  Willelmo   Northwold      Tibi   precipimus 
+
+20  Ric.  2,    quod  de  cetero  infra  Eegnum  Anglie  docere  vel  predicare 
+
+(246),  m. 
+
+13. 
+
+
+LOLLARDS  53 
+
+minime   presumas   Sub   pena    perpetui    imprisonamenti   et 
+forisfacture. 
+
+Teste  Rege  apud  Eltham,  19  Apr.  20  Rio.  2. 
+
+per  breve  de  private  sigillo. 
+
+Bex  Willelmo  de  Scrope  subcamerario    Mandamus  quod  Rot.  Glaus. 
+
+omnes  Lollardos  sub  custodia  vestra  existentes  cum  omni  ?P,J!'ic'  2» 
+
+(245),  m. 
+festmatione  venire  facias  coram  nobis  in  propna    persona  10. 
+
+ubicunque  nos  fore  contingeret  ad  faciendum  quod  per  nos 
+de  eis  tune  contigerit  ordinari. 
+
+Teste  Bege  apud  Westmonasterium,  10  Mar.  20  Ric.  2. 
+
+
+Eex    Episcopo  Cicestriensi   Cum  prout  ex  certa  rela-  Rot.  Glaus, 
+clone  didicimus    quidam  iniquitatis  filii   in   diocesi   vestra  j^^10'  2' 
+commorantes  opiniones  nefarias  et  hereses   fidei  Catholice  17. 
+repugnantes  in  variis  locis  diocesis  predicte  tarn  clandestinis 
+quam  apertis  publicaverunt  et  tanquam  zizannia  in  populo 
+seminaverunt  et  predicare  non  desistant   Nos  ne  populus 
+nequitia  inficiatur  vobis  precipimus  quod  omnes  Lollardos 
+et  alios  pravitatis  heretice    suspectos  capi   arestari  et  in 
+prisona  salvo  quousque   pro  eorum  punitione  aliter  duxe- 
+rimus  ordinandum  custodia  demandandos. 
+
+Teste  Rege  apud  Westmonasterium,  16  Oct.  21  Ric.  2. 
+
+Eex   dilectis  sibi  cancellario  ac    procuratoribus   studii  Rot.  Glaus. 
+Universitatis    sue    Oxon.    etc.  .  .  .  salutem.     Attendentes  H^10' 2* 
+dampna   que  fidei    catholice    per  dampnabilem    scismatis  14  a.' 
+errorem  etc.  evenerunt  vobis  mandamus  quod  attenta  ardui- 
+tate  ac  summa  utilitate  felicis    successus  et  expedicionis 
+negocii  antedicti  visis  quia  insuper  diligenter  circumspectis 
+tenoribus  duarum  liberarum  unius  videlicet  carissimi  patria 
+nostri  Francie  et  alterius  studii  parisius  materiam  predictam 
+concernencium   nobis    etiam    exhibitarum  .  .  .  quas   vobis 
+mittimus  sub  pede  sigilli  vos  super  materia  predicta  dili- 
+genter deliberetis  et  nobis  mittatis  finale  responsum  etc. 
+
+Teste  Rege  apud  Westmonasterium,  20  November,  22  Ric.  2. 
+
+
+54  LOLLAEDS 
+
+Eot.  Glaus.  Bex  Episcopo  Herefordensi  Quod  omnibus  aliis  preter- 
+^G  m*S8*s  *n  Pr°Pria  persona  sitis  apud  Oxford  die  lune  prox- 
+ima  post  festum  convertionis  S.  Pauli  proximum  f uturum  ad 
+dicendum  et  declarandum  avisamentum  vestrum  de  materiia 
+nefarium  scisma  in  ecclesia  dei  multipliciter  iam  regnans 
+quod  dolendum  est  tangentibus. 
+
+Teste  Eege  apud  Westmonasterium,  2  Jan.  22  Bic.  2. 
+
+[The  same  sent  to  28  others  (bishops,  abbots,  clerks, 
+&c.)J 
+
+
+SECTION  IV. 
+RETURN  AS  TO  FOREIGN  CLERGY  IN  ENGLAND 
+
+
+RETURN  AS  TO  FOREIGN  CLERGY 
+IN  ENGLAND 
+
+
+THE  following  notes  are  taken  from  the  clerical  subsidies  in 
+the  Public  Eecord  Office. 
+
+With  the  exception  of  that  for  the  diocese  of  London, 
+which  is  dated  in  1370,  the  returns  were  made  in  answer  to 
+a  writ  from  the  King  to  the  various  Bishops,  dated  12  De- 
+cember, 1377.  The  writ  was  for  a  return  as  to  '  quot  viri 
+alienigene  seculares  tarn  Cardinales  quam  alii  cuiuscunque 
+status  seu  condicionis  fuerint  in  Episcopatu  vestro  ad 
+beneficia  ecclesiastica  sunt  promoti  et  quid  et  quantum 
+eorum  beneficia  valent  et  quodlibet  eorum  valet  per  annum 
+et  que  et  cuiusmodi  beneficia  ilia  sunt  et  in  quibus  comitatibus 
+et  Archidiaconatibus  consistunt  et  que  sunt  nomina  et 
+cognomina  dicta  beneficia  occupantium.' 
+
+CANTEBBUBY. 
+
+166 
+
+1.  Brother  John  Whitemnd  is  a  foreigner  and 
+Prior  of  Horton  Priory,  and  has  two 
+monks  said  to  be  aliens  : 
+
+(1)  There  belongs  to  it  Parish  Church 
+
+of    Brabourne,    fruits     of     which 
+
+are  worth £30    0    0 
+
+(2)  Portion  of  tithes  of  Parish  of  Hope  .          5  marks 
+Also    temporal    goods  in  said  diocese 
+
+taxed  at  .      £65  10    0 
+
+
+58 
+
+
+FOREIGN   CLERGY 
+
+
+2.  Audcmarus  de  Ruppe  (viz.  Roche,  see  Le 
+
+Neve's '  Fasti ')  Archdeacon  of  Canterbury, 
+to  which  Archdeaconry  belongs  Parish 
+Church  of : 
+
+Lymyn,  fruits  taxed  at  . 
+
+Tenham 
+
+Hakynton,  near  Canterbury  . 
+
+St.  Clement,  Sandwich,  worth  nearly     . 
+
+St.  Mary  in  Sandwich,  worth  yearly 
+
+of  which  the  Archdeacon  gets     . 
+£20  various  revenues.     Sir  W.  Latimer 
+
+farms  them. 
+
+3.  Richard  Bethoun,  dwelling  in  Parish  Church 
+
+of  Upchurch,  receives  fruits      .        .        .      £23     6     8 
+And  temporal  goods  worth  25/7. 
+
+4.  Abbess  and  Convent   Gynes  are   foreigners 
+
+and   hold    fruits    and  profits   of    Parish 
+
+Church  of  Promehull  worth       ...         16  marks 
+
+And  profits  of  Parish  Church  of  Brensete 
+
+taxed  at 20  marks 
+
+And   of   Parish   Church,  Newinton,  near 
+
+Hythe,  taxed £20    0    0 
+
+And  temporal  goods  taxed  at  21/10. 
+Sir  W.  Gunthorp  receives  profits  abovesaid. 
+
+5.  Abbot  and  Convent  St.  Bertin. 
+
+Profits    of    Parish  Church  of    Thrulegh 
+
+worth £40    0    0 
+
+Profits  of  Parish  Church  of  Chilham  worth      £40    0    0 
+Temporal  goods  20/6. 
+
+Henry  de  Apuldrefeld  occupies  tithes  and  fruits  of  said 
+Churches  (viz.  farms  them). 
+
+6.  Brother  Nicolas  Barbarote,  Prior  of  Priory 
+
+of  Folkeston,  and  two  monks  under  him, 
+are  foreigners. 
+
+Parish  Church  of  Folkeston  belongs  to 
+
+him,  taxed  at £26  13    4 
+
+And  temporal  goods  3/4. 
+
+
+IN  ENGLAND  59 
+
+7.  Brother  Richard  Septemvant,  foreigner,  re- 
+
+ceives fruit  and  profits  of  manor  of  abbot 
+and  convent  of  Beaulieu,  foreigners,  at 
+Patricksbourne,  taxed  at  .  .  .  .  10  marks 
+
+8.  Abbot  and  Convent  of  Dunes  are  said  to  receive 
+
+temporal  goods  in  parish  of  Eastchurch   .  58/4 
+
+9.  Prior  and  Convent  of  Lewes  in  Chichester 
+
+diocese  receive  in  Dover  temporal  goods 
+
+taxed  at    .  .  21/8 
+
+10.  Friars  of  Sentyngfeld  receive  in    Dover 
+
+temporal  goods  worth        ....  15/- 
+
+11.  Prior  and  Convent  of  Oakbourne  receive 
+
+fruits  of  Parish  Church  of  Glynde,  taxed  at      £14  13    4 
+
+12.  Abbot  and    Convent  of  Pontigny   receive 
+
+fruits  of  Parish  Church  of  Romney  taxed  at      £20    0    0 
+
+LICHFIELD.  15 
+
+8a 
+
+1.  Francis,     Cardinal    of   St.    Peter,     holds 
+
+Deanery  of  Cathedral  of  Lichfield,  with 
+the  Prebend  of  Brewood,  and  Church  of 
+Adebaston  annexed  to  same  Deanery    100  marks  in  all 
+Farmed  by  Eichard  del  Hyde  and  John  de  Offeley,  Chap- 
+lain, for  said  Cardinal. 
+
+2.  William  de  St.  Clare,  alien,  a  Prebend  in  the 
+
+Collegiate  Church  of  St.  John  of  Chester  .        18  marks 
+
+Farmed  by  John  de  Barrow. 
+No  more  secular  aliens  promoted  to  benefices  in  this  diocese. 
+
+N.B. — The  Bishop  of  Lichfield  does  not  make  a  return  of 
+any  foreign  abbots  and  regular  clergy  holding  Parish  Churches 
+in  appropriation,  as  the  Archbishop  of  Cant.  does. 
+
+ELY.  a3_ 
+
+4a 
+
+1,  Brother  Andreas  de  Plessa  monk  of  St. 
+Jacuti,  in  Bretagne,  occupies  rectory  of 
+Linton,  in  Cambridge,  taxed  at  .  .  £20  0  0 
+
+
+60  FOREIGN   CLERGY 
+
+2.  Prior  of  Thetford,   in  Norfolk,  rectory  of 
+
+Dullingham £20    0    0 
+
+3.  Prior  of  Letvcs,  temporalities  worth     .        .  £61     7    7 
+
+4.  Same,  has  spiritualities        ....  £10    7  10 
+
+5.  Prior  of  Pannfcld,  spiritualities  ...  78/6 
+
+6.  Prior  of  Castelacre,  spiritualities          .         .  22/6 
+
+7.  Prior  of  Bermondsey,  spiritualities       .         .  10/- 
+
+8.  Abbot  of  St.  Walric  (Normandy),  tempora- 
+
+lities          10  marks 
+
+9.  Prior  of  Ware,  temporalities        .        .        .  £16    8    4^ 
+
+10.  Prior  of  Monte  Maurelii,  temporalities      .  £14  14    6 
+
+11.  Prior  Welynton,  temporalities   .         .         .  £9  16    4 
+.12.  Prior  of  St.  Neots,  temporalities        .        .  £11  17    4 
+
+,,        „        „      spiritualities          .        .  73/4 
+13.  Brother  Andrew   de  Alyce,   Proctor   and 
+Abbot  of  St.  Andrew,  Vercellencis  : 
+
+Church  of  Chesterton  80  marks 
+
+
+68  YORK. 
+
+9a 
+
+Anglicus,    Cardinal-priest     promoted    to    the 
+Deanery  of   Cathedral   Church  of   York, 
+
+taxed  at £373    6    8 
+
+And  Prebend  of  Southcave    .        .        .      160  marks 
+
+Guy  of  St.  Cross  in  Jerusalem,  Cardinal-priest, 
+
+Archdeaconry  of  York       ....      £68    0    0 
+And  Prebend  of  Wystowe      .        .        .    £100    0    0 
+
+Hugh,  Cardinal-deacon. 
+
+Prebend  of  Driffield,  taxed  at    .        .        .    £100    0    0 
+
+Francis,  Cardinal-priest. 
+
+Prebend  of  Strensall         ....        80  marks 
+
+John  Cauchon. 
+
+Church  of  Warton,  taxed  at  40  marks 
+according  to  the  old  tax,  and  at  100 
+marks  according  to  the  new  tax. 
+
+
+IN   ENGLAND  61 
+
+WORCESTEE.  58 
+
+•j 
+
+No  aliens  have  been  promoted  to  ecclesiastical  benefices 
+in  this  diocese. 
+
+WINCHESTER.  55 
+
+6e 
+
+Sir  James  de  Ursinis,  Cardinal,   is  rector  of 
+
+the  Parish  Church  of  Godalming,  in  the 
+county  of  Surrey  and  Bishopric  of  Win- 
+chester .......  £50  per  ann. 
+
+Master  NicJiolas  Longe,  born  in  Ireland,  is 
+rector  of  the  Parish  Church  of  Walton-on- 
+Thames,  in  the  said  county  and  bishopric  40  marks  p.  a. 
+
+
+ROCHESTER.  so 
+
+la 
+No  names  mentioned. 
+
+
+NORWICH.  45 
+
+la 
+
+Cardinal  de  Sancto  Angela. 
+
+Archdeaconry  of  Suffolk  in  Co.  Suffolk      .  100  mks.  p.  a. 
+
+Laurence  de  Nigris  of  Rome. 
+
+Church  at  Alderton  in  Co.  Suffolk    .        .  40  marks  p.  a. 
+
+Peter  de  Cusaunce. 
+
+Church  of  Northreppes  in  Co.  Norfolk       .  £40  per  ann. 
+
+LONDON.  42 
+
+azT 
+Writ  dated  at  Westminster,  16  January,  43  Edward  III. 
+
+[1370]. 
+
+ARCHDEACONRY  OF  LONDON.    Nil. 
+
+MIDDLESEX. 
+
+Master  John  Cruse  de  Colonia. 
+
+Rector  of  the  Church  of  Hendon       .  30  mks.  ster.  p.  a. 
+
+
+62  FOEEIGN   CLERGY 
+
+Brother  Firminus  de  Founteynes. 
+Prior  of  Takelee. 
+
+He  says  and  affirms  thaf\  (Istelworth    .  40  marks  p.  a. 
+he  is  Eector  of  these  I  ]  Heston         .  40      ,,       „ 
+Churches  and  occupies  MTwykenham  30      „       „ 
+the  same.  /  \Hampton     .  20      „       „ 
+
+Brother  William  Prior  of  Okeborne. 
+
+Eector  of  the  Church  of  Eusselep     .,        .  80  mrks.  ster. 
+
+Brother  Robert  Beauchamp. 
+
+Eector  of  the  Church  of  Hermodesworth  .    £40  sterling 
+
+Brother  William  Prior,  of  Wolmyngton,  in  Co. 
+Sussex,  has  one  portion  in  the  Parish  of 
+Sonnebury 2  marks  ster. 
+
+Brother  William,  Prior  of  Ware. 
+
+Eector  of  the  Church  of  Ware  .         .         .  80  marks  ster. 
+
+Sir  John  Hardyngfeld. 
+
+Eector  of  the  Church  of  Wydyhale   .          100  5.  sterling 
+
+Sir  John  Bokelond. 
+
+Eector  of  the  Church  of  Ansty          ,         .    £60  sterling 
+
+Prior  of  Stoke. 
+
+Eector  of  the  Church  of  Thaxsted     .         .  50  marks  ster. 
+
+Abbatissa  de  Cadamo. 
+
+Eector  of  the  Church  of  Feldsted     .         .  60  marks  ster. 
+
+
+ESSEX. 
+
+Brother  Silvester  Romanis  of  Florence. 
+
+Church  of  Writelee £100  sterling 
+
+Brother  Peter  de  Brenoz,  Canonicus  regularis 
+Gilben.  dioc.  in  Com.  Sebaudie,  occupies 
+the  Church  of  Coruncam  .  .  .  100  marks  ster. 
+
+Sir  Everard  Hoprust. 
+
+Eector  of  Church  of  Stanford  Eyvers        .  40  marks  ster. 
+
+
+IN   ENGLAND  63 
+
+Sir  Peter  de  Sudrya. 
+
+Rector  of  the  Church  of  Eaurith       .        .  20  marks  ster. 
+
+Sir  Thomas  of  Burgo,  in  Ireland. 
+
+Occupies  the  Vicarage  of  Suthbenflet       .  12  marks  ster. 
+
+COLCHESTER. 
+
+Brother  Stephen  de  Caus,  monk  of  the  Abbey 
+
+of  St.  Audoenus  Rothomagensis  Prior  da- 
+
+tiuus  de  Mersey  occupies  the  Church  of  that 
+
+place,  worth  per  annum     .         .   20  marks  ster.  to  farm 
+
+The  said  Prior  occupies  the  Church  of 
+
+Fingringho.  .  .  .15  marks  ster.  to  farm 
+The  said  Prior  is  lord  of  the  manors  of 
+Fingringho,  Westmersey  and  Peet, 
+worth  to  farm  with  the  arable  lands, 
+rents  of  free  tenants  and  natives  and 
+other  profits  to  the  said  manors 
+belonging £100  ster.  p.  a. 
+
+The  Prior  of  Romeliye  (?)  occupies  the  Church 
+
+of  Coggeshall     ...      40  marks  per  ann.  to  farm 
+
+Brother  Eoger  de  Ware  Comonachus  of 
+Thetford,  of  the  order  of  Cluny,  Prior 
+dativus  of  Parva  Horkesleigh,  occupies 
+the  Church  of  the  same  place,  worth  per 
+
+annum  to  farm £10  sterling 
+
+The  said  Brother  Roger  de  Ware. 
+
+Church  of  Boxsted     .        .         22  marks  ster.  p.  a. 
+The  said  Prior  has  a  certain  portion  in 
+
+the  Church  of  Fordham  .  .  1  mark  ster.  p.  a. 
+The  said  Prior  has  a  certain  manor  in 
+the  town  of  Parva  Horkesleigh  united 
+and  annexed  to  his  said  Church,  with 
+arable  lands,  rents,  and  other  commo- 
+dities, worth  per  annum  .  .  .20  marks  ster. 
+
+The  Prior  of  Lewes  has  one  annual  pension  in 
+
+the  Church  of  Colne  Alba  .        .      •  .        .  12  s.  sterling 
+
+
+64  FOEEIGN  CLERGY 
+
+The  said  Prior  takes  a  yearly  pension  in 
+
+the  Church  of  Assyngdon  .  .  .  100  s.  ster. 
+
+The  said  Prior  takes  yearly  in  the 
+
+Church  of  Manneweden  .  .  .2  marks  ster. 
+
+The  Prior  of  Thefford  is  Eector  of  the  Church 
+
+of  Alba  Nottelee,  worth  to  farm         .        .  30  marks  p.  a. 
+
+The  Prior  of  Pritewell. 
+
+Eector  of  the  Church  of  Clavering,  worth 
+
+to  farm 40  marks  ster. 
+
+The    said    Prior    takes   yearly   in   the 
+
+Church  of  Eastmersey  a  pension  of   .  6  marks  ster. 
+The  said  Prior  takes  yearly  in  the  Church 
+
+of  Magna  Horkesleigh         .         .         .  20  s.  sterling 
+The  said  Prior  takes  yearly  in  the  Church 
+
+of  Bumsted  Helyon  a  pension  of        .  6  marks  ster. 
+
+The  Prior  of  Stanesgate,  of  the  Order  of  Cluny, 
+takes  yearly  a  certain  portion  in  the 
+Church  of  Messing,  worth  to  farm  .  .9s.  sterling 
+
+The  Prior  of  Stoke  Clare  occupies  the  Church 
+of  Berdefeld  Magna,  worth  to  farm  per 
+annum  with  the  temporalities  thereto 
+
+annexed £40  sterling 
+
+The  said  Prior  has  one  portion  in  the 
+Church  of  Sampford  Parva,  worth  per 
+annum  to  farm  - 40  s.  sterling 
+
+The  Prior  of  Bmshelep  takes  one  portion  in  the 
+said  Church  of  Sampford  Parva,  worth 
+per  annum  to  farm 1  mark  ster. 
+
+Tlie  Prior  of  Hurlee,  has  one  portion  in  the 
+Church  of  Walden,  and  another  in  the 
+Church  of  Arkesden  ....  100  s.  ster.  p.  a. 
+
+The  Prior  of  Stoke  has  temporalities  in  the 
+town  of  Berdefeld  Parva  to  the  same 
+annexed 50  s.  sterling 
+
+
+IN   ENGLAND 
+
+
+65 
+
+
+TJie  Prior  of  St.  Faith  in  Horsham  has  one 
+portion  of  the  tithes  in  the  Church  of  Colne 
+Engayne  worth  per  annum        .        .        .  40  s.  sterling 
+The  said  Prior  has  there  the  temporali- 
+ties '  sibi  annexa  '  worth  per  annum  .    2  s.  sterling 
+
+The  Prior  Sancti  Walerici  in  TaJceleye  has 
+the  temporalities  there  '  sibi  annexa '  and 
+also  in  the  towns  of  Stanstead  Montffichet, 
+Wydyton,  Bilchangre    and    Manewedon, 
+worth  to  farm  per  annum ....    £60  sterling 
+
+Sir  John  Jop  is  Eector  of  the  Church  of  Fair- 
+
+sted,  worth  per  annum  to  farm          .        .  20  marks  ster. 
+[This  document  is  almost  illegible  in  places.] 
+
+
+LINCOLN. 
+
+AKCHDEACONEY  OF  LINCOLN. 
+Master  Laurence  de  Nigris. 
+
+Prebendary  of  Welton  Bekhall 
+
+THE  ARCHDEACONEY  OP  STOWE. 
+
+The  Cardinal  of  Agrifolio  (?). 
+
+Prebendary  of  Coryngham,  together  with 
+
+a  portion  of  St.  Mary  de  Stowe  to  the 
+
+said  prebend  annexed     .... 
+Sir  John,  Vicar  of  Coryngham,  Sir  Eobert, 
+
+Eector  of  Ketilthorp,  and  William  Thur- 
+
+ley,  occupy  the  same. 
+
+ARCHDEACONRY  OF  LEICESTER. 
+
+Francis,  Cardinal  of  Ursinis,  is  Archdeacon 
+of  Leicester        ...... 
+
+Sir  Walter,   Eector  of  the  Church  of 
+Gudumidle  (?)  occupies  same. 
+
+ARCHDEACONRY  OF  NORTHAMPTON. 
+
+Sir  John  ffrensshman. 
+
+Eector  of  two  parts  of    the   Church  of 
+Bodyngdon    ...... 
+
+
+35 
+66 
+
+
+7  marks 
+
+
+£165 
+
+
+148  marks 
+
+
+20  marks 
+F 
+
+
+66 
+
+
+FOEEIGN   CLEEGY 
+
+
+n 
+
+la 
+
+
+Sir  Anglicus  Episcopus  Alban  Cardinal. 
+
+Prebendary  of  Button         ....       400  marks 
+Eoger  Skiret  of  Buckingham  and  William 
+Bedeford  of  Sutton  occupy  the  same. 
+
+Bertrandus  Cardinal  Glandaton. 
+
+Prebendary  of  Nassyngton         .         .         .       300  marks 
+Eobert  de  Nassynton  and  John,  son  of 
+Eobert  de  Abthorp,  occupy  the  same 
+(viz.  farm  it  for  the  Cardinal). 
+
+ARCHDEACONRY  OF  OXFORD. 
+Cardinal  Neumacen  (?) 
+
+Eector  of  Church  of  Adderbury         .         .  £100 
+
+Adam  Eobelyn,  clerk,  occupies  same. 
+
+Hiigh  Cardinal  sci  Marcial. 
+
+Prebend  of  Thame 240  marks 
+
+John  Hayward  of  Thame,  layman,  occu- 
+pies same. 
+
+Sir  Raymond  Pelryn. 
+
+Prebend  of  Milton  in  lay-fee      .         .         .       100  marks 
+
+The  said  Sir  Eaymond  occupied  the  same. 
+A  Cardinal  whose  name  does  not  appear  is 
+
+Prebendary  of  Milton  Church   .         .         .       120  marks 
+Sir  Eaymond  Pelryn  occupies  the  same. 
+
+ARCHDEACONRY  OF  HUNTINGDON. 
+
+A  Cardinal  whose  name  does  not  appear  is 
+
+Prebend  of  Brampton         ....  £40 
+
+ARCHDEACONRY  OF  BUCKINGHAM. 
+
+Sir  Peter  de  Yuer  (?)  Cardinal. 
+
+Prebend  of  Aillesbury        ....        80  marks 
+Elias  Duse  de  Eillesbury  occupies  same. 
+
+CHICHESTEE. 
+
+John  de  Bona  Aura  occupies  in  the  Cathedral 
+Church  of  Chichester  the  Prebend  of 
+Erlyngton,  in  the  Archdeaconry  of  Lewes 
+
+
+IN   ENGLAND  67 
+
+in  Co.  Sussex,  with  a  portion  of  Wede- 
+
+horne  to  the  said  Prebend  annexed  .        .  £20  per  ann. 
+
+TJie  Abbot  of  Grestena  occupies  in  the  said 
+Church  the  Prebend  of  Wilmyngton  to  his 
+Abbey  annexed  in  the  said  Archdeaconry 
+and  County £50 
+
+Sir  John,  Prior  of  Boxgrave,  holds 
+
+Church  of  Boxgrave 40  marks 
+
+„         „   Hamptonet       ....  12  „ 
+
+„        „   Mundham         ....  15  „ 
+
+„        „   Hunstan 8  „ 
+
+„         „  Bernham 15  „ 
+
+„   Walburton        ....  18  „ 
+The  said  Prior  occupies  all  these  Churches. 
+
+Sir  John  Mercer,  Prior  of  the  Priory  of  St. 
+Nicholas  of  Arondell,  has  the 
+
+Church  of  Arondell 12  mai'ks 
+
+„         „   Eustington        ....  30       „ 
+
+„        „   Hampton 10      ,, 
+
+„         „   Yabiton 15       „ 
+
+„         „   Byllyngeshurst          .         .         .  15       „ 
+The  said  Pvior  has  the 
+
+Church  of  Curdeford  .         .         .         .  25       „ 
+
+„  Cockyng     .  10 
+The  said  Prior  occupies  all  these  Churches. 
+
+The  Abbot  of  Fescamp  has  the 
+
+Church  of  West  Angmering       ...         25  marks 
+
+„      „   Stenyng    .  30      „ 
+
+Brother  Philip  Kanulphi  comonachus 
+and  proctor  of  the  said  Abbey  occupies 
+the  said  Churches. 
+
+Lady  Katherine  de  Lyle  Prioress  of  Leuemynster 
+has  the 
+
+Church   of   Leuemynster   and    Warny- 
+kampe         ......         25  marks 
+
+„    Clympyng   .  30 
+
+„       „   Palyng  .       100s. 
+
+
+68 
+
+
+FOBEIGN   CLEEGY  IN  ENGLAND 
+
+
+4a 
+
+
+The  Prior  of  Sela  has  the 
+
+Church  of  Wassynton        ....  25  marks 
+
+„      „  Sela  ......  20      „ 
+
+„       „  Nova  Shorham ....  15       „ 
+
+Brother  Nicholas,  monk  of  the  Priory  of 
+Sela,  occupies  the  same. 
+
+Sir  John  Prior  of  Lewes  has 
+
+Church  of  Grenestede        ....  80  marks 
+
+„      „   Kengeston        .         .        .        .  22      „ 
+
+„   Cokefeld 22      „ 
+
+„   Pedyngho          ....  44       „ 
+
+„       „   Ford         .         .  .  18       „ 
+
+The  said  Prior  has  the 
+
+Church  of  Brighthalmeston        .         .  30       „ 
+
+,,       „   Bottyngden         .         .         .  20      ,, 
+
+„       ,,   Falemer-with-Burghemer  .  20       „ 
+The  said  Prior  occupies  all  these  Churches. 
+
+ST.  ASAPH.    Nil. 
+
+
+SECTION  V. 
+
+TABLE  SHOWING  THE  CHANGE  OF  PERSONNEL 
+
+OF  THE  COUNTY  MEMBERS  IN  THE 
+
+HOUSE  OF  COMMONS,  TEMP.  R.  II. 
+
+
+TABLE  SHOWING  THE  CHANGE  OF  PER- 
+SONNEL OF  THE  COUNTY  MEMBEKS 
+IN  THE  HOUSE  OF  COMMONS,  TEMP. 
+E.  II. 
+
+THIS  Table  is  made  out  from  the  names  of  County  Members 
+given  in  the  Eeturn  of  Members,  Blue  Book  for  1878,  vol.  i. 
+Only  the  County  Members'  names  are  there  recorded  with 
+sufficient  completeness  to  afford  a  basis  for  calculation.  The 
+names  of  the  Members  are  represented  by  letters  in  this  table, 
+to  facilitate  a  bird's  eye  view  of  the  change  of  personnel. 
+Every  member  of  the  Good  Parliament  (the  first  in  the  Table) 
+is  called  a.  Every  member  of  the  next  Parliament  is  called  b, 
+except  those  eight  members  who  were  previously  elected  for 
+the  Good  Parliament,  who  continue  to  be  called  a.  In  the 
+third  Parliament  in  the  Table  (Oct.  '77)  all  the  members  are  c, 
+who  are  not  a  or  b  by  virtue  of  having  sat  in  one  of  the  two 
+previous  assemblies.  And  so  all  the  way  through.  When 
+there  are  two  members  of  the  same  county,  both  known  by 
+the  same  letter,  they  are  distinguished,  whenever  either  reap- 
+pears, by  small  numbers  added  above  :  e.g. — a1  or  62  can  be 
+distinguished  from  a2  or  61,  each  being  a  different  member 
+for  the  same  county. 
+
+Peter  de  la  Mare,  the  Speaker  for  the  Good  Parliament, 
+is  a2  for  Hereford.  It  will  be  observed  that  even  so  distin- 
+guished a  Parliamentarian  as  De  la  Mare  was  by  no  means 
+elected  every  time,  even  to  those  Parliaments  which  were  not 
+packed  by  John  of  Gaunt. 
+
+
+72 
+
+
+THE   HOUSE 
+
+
+County  of 
+
+Apr. 
+1376 
+a 
+
+Jan. 
+1377 
+b 
+
+Oct. 
+1377 
+c 
+
+Oct. 
+1378 
+d 
+
+Apr. 
+1379 
+e 
+
+Jan. 
+1380 
+f 
+
+Nov 
+1380 
+g 
+
+Nov 
+1381 
+h 
+
+May 
+1382 
+j 
+
+Oct. 
+1382 
+k 
+
+Feb 
+1383 
+1 
+
+Oct 
+1383 
+m 
+
+Apr 
+1384 
+n 
+
+Nov. 
+1384 
+
+0 
+
+Bedford  .     .  j 
+
+a1 
+
+a2 
+
+b 
+b 
+
+a2 
+c 
+
+d 
+d 
+
+e 
+e 
+
+f 
+C 
+
+f 
+g 
+
+b 
+
+h 
+
+f 
+C 
+
+f 
+C 
+
+f 
+1 
+
+d 
+1 
+
+e 
+C 
+
+e 
+1 
+
+Berks  .    .    .  j 
+
+a' 
+a2 
+
+b1 
+b2 
+
+a1 
+a2 
+
+a2 
+b2 
+
+e1 
+e2 
+
+f 
+f 
+
+b1 
+
+e2 
+
+e1 
+h 
+
+e1 
+j 
+
+k 
+k 
+
+e1 
+1 
+
+m 
+m 
+
+m 
+n 
+
+m 
+
+0 
+
+Bucks      .     .  | 
+
+a1 
+aa 
+
+b1 
+b2 
+
+a2 
+c 
+
+d 
+c 
+
+a2 
+c 
+
+b1 
+f 
+
+a2 
+c1 
+
+a 
+h 
+
+j 
+c 
+
+k 
+c 
+
+a1 
+c 
+
+m 
+c 
+
+n 
+c 
+
+0 
+
+c 
+
+Cambs.    .    .  ] 
+
+a1 
+a2 
+
+b1 
+b2 
+
+c 
+a2 
+
+a2 
+d 
+
+e 
+d 
+
+a2 
+d 
+
+g 
+d 
+
+h1 
+h2 
+
+h1 
+h2 
+
+k 
+
+k 
+1 
+
+a2 
+c 
+
+b1 
+n 
+
+o 
+c 
+
+Cornwall.    .  j 
+
+a1 
+a2 
+
+b 
+b2 
+
+a1 
+c 
+
+d 
+a2 
+
+a1 
+e 
+
+f 
+a2 
+
+g 
+d 
+
+g 
+h 
+
+g 
+j 
+
+g 
+j 
+
+g 
+
+1 
+
+m 
+
+b2 
+
+n 
+n 
+
+m 
+
+0 
+
+Cumberland  j 
+
+a1 
+a2 
+
+b 
+b 
+
+c1 
+
+c2 
+
+d 
+d 
+
+e 
+e 
+
+c1 
+f 
+
+d 
+g 
+
+a1 
+b1 
+
+j 
+j 
+
+d 
+k 
+
+d 
+
+1 
+
+m 
+
+b2 
+
+n 
+n 
+
+0 
+0 
+
+Derby.     .    .j 
+
+a 
+a 
+
+b 
+b 
+
+c1 
+c2 
+
+d1 
+d 
+
+c1 
+e 
+
+f 
+
+f2 
+
+d1 
+
+g 
+
+f1 
+c2 
+
+f1 
+j 
+
+k 
+e 
+
+f 
+g 
+
+e 
+g 
+
+n 
+n 
+
+k 
+
+0 
+
+Devon     .     .  j 
+
+a1 
+a2 
+
+b 
+b 
+
+c 
+c 
+
+a1 
+a2 
+
+a1 
+a2 
+
+a2 
+f 
+
+a2 
+f 
+
+a2 
+h 
+
+a2 
+h 
+
+a2 
+k 
+
+1 
+1 
+
+m. 
+m 
+
+a2 
+h 
+
+m 
+h 
+
+Dorset     .     .  j 
+
+a1 
+a2 
+
+a1 
+a2 
+
+c 
+c 
+
+d 
+d 
+
+e1 
+e2 
+
+e1 
+f 
+
+e1 
+e2 
+
+e1 
+h 
+
+e1 
+h 
+
+e1 
+h 
+
+e1 
+h 
+
+e1 
+h 
+
+e1 
+h 
+
+e1 
+h 
+
+Essex  .    .     .  [ 
+
+a1 
+a2 
+
+b1 
+b2 
+
+a1 
+b2 
+
+d1 
+d2 
+
+a1 
+b1 
+
+f 
+
+f2 
+
+f1 
+a1 
+
+h 
+h 
+
+d2 
+
+a1 
+b> 
+
+f 
+j1 
+
+a1 
+d2 
+
+n 
+n 
+
+a1 
+b1 
+
+Gloucester  .< 
+
+a1 
+
+a2 
+
+b1 
+b2 
+
+a1 
+c 
+
+b1 
+b2 
+
+b2 
+a2 
+
+a1 
+f 
+
+g 
+g2 
+
+a1 
+b1 
+
+a1 
+b1 
+
+k' 
+k 
+
+k1 
+1 
+
+k1 
+1 
+
+b2 
+
+g2 
+
+0 
+
+g2 
+
+Hereford.     .  j 
+
+a1 
+a2 
+
+a1 
+b 
+
+c 
+a2 
+
+a1 
+c 
+
+e 
+c 
+
+a2 
+c 
+
+a-' 
+a1 
+
+e 
+h 
+
+e 
+a2 
+
+e 
+a2 
+
+a1 
+a2 
+
+e 
+m 
+
+n 
+n 
+
+a1 
+
+0 
+
+Hertford  .     .  j 
+
+a1 
+a2 
+
+b 
+
+a2 
+
+c 
+
+c2 
+
+d 
+
+c2 
+
+b 
+a2 
+
+b 
+
+a2 
+
+b 
+c2 
+
+b 
+h 
+
+d 
+j 
+
+d 
+j 
+
+1 
+
+a2 
+
+1 
+a2 
+
+n 
+n 
+
+d 
+
+a2 
+
+Huntingdon  I 
+
+a1 
+
+a2 
+
+b1 
+b 
+
+c1 
+c2 
+
+d1 
+d2 
+
+e1 
+
+e2 
+
+e1 
+a2 
+
+d1 
+e2 
+
+e1 
+c1 
+
+e1 
+j 
+
+e1 
+k 
+
+d2 
+a2 
+
+d1 
+d2 
+
+d1 
+d* 
+
+o 
+
+b2 
+
+Kent  •     •     •{ 
+
+a1 
+
+a2 
+
+b1 
+b 
+
+c1 
+
+c2 
+
+a1 
+d 
+
+b1 
+e 
+
+f 
+
+a1 
+g 
+
+a1 
+c 
+
+j 
+a2 
+
+j 
+d 
+
+a1 
+c2 
+
+j 
+a1 
+
+n 
+f2 
+
+a1 
+
+a2 
+
+Lancaster    .  | 
+
+a1 
+a2 
+
+a1 
+b 
+
+a1 
+c 
+
+a1 
+d 
+
+e 
+
+e2 
+
+f 
+f 
+
+a1 
+g 
+
+h 
+e2 
+
+a2 
+j 
+
+k 
+
+e2 
+
+1 
+
+e2 
+
+m 
+m 
+
+n 
+b 
+
+e2 
+
+0 
+
+Leicester      .  j 
+
+a1 
+a2 
+
+a1 
+a2 
+
+a1 
+
+a2 
+
+d1 
+d 
+
+e1 
+e2 
+
+f1 
+f 
+
+e1 
+
+g 
+
+a1 
+e1 
+
+a1 
+e1 
+
+k 
+
+e2 
+
+e1 
+f 
+
+m 
+
+a2 
+
+d1 
+
+a2 
+
+e1 
+P 
+
+Lincoln  .     .  j 
+
+a 
+a2 
+
+b1 
+b2 
+
+c 
+b2 
+
+d 
+b2 
+
+e 
+b2 
+
+a2 
+f 
+
+g 
+
+h1 
+h2 
+
+h1 
+j 
+
+h2 
+g 
+
+1 
+1 
+
+m 
+d 
+
+m 
+d 
+
+h 
+d 
+
+Middlesex    .  | 
+
+a1 
+
+b1 
+
+c1 
+
+d1 
+
+e 
+
+b1; 
+
+e 
+
+a1 
+
+j 
+
+k 
+
+1' 
+
+c1 
+
+b1 
+
+I1 
+
+a 
+
+b 
+
+c 
+
+d 
+
+e 
+
+a1 
+
+g 
+
+h 
+
+j 
+
+k2 
+
+1 
+
+d1 
+
+k2 
+
+h 
+
+OF    COMMONS 
+
+
+73 
+
+
+County  of 
+
+Apr. 
+1376 
+a 
+
+Jan. 
+1377 
+b 
+
+Oct. 
+1377 
+
+0 
+
+Oct. 
+1378 
+d 
+
+Apr. 
+1379 
+e 
+
+Jan. 
+1380 
+1 
+
+Nov. 
+1380 
+g 
+
+Nov. 
+1381 
+h 
+
+May 
+1382 
+j 
+
+Oct. 
+
+i:w2 
+k 
+
+Feb. 
+1383 
+
+1 
+
+Oct. 
+1383 
+m 
+
+Apr. 
+1384 
+n 
+
+Nov. 
+1384 
+
+0 
+
+Norfolk    .     .j 
+
+a1 
+a 
+
+b1 
+b2 
+
+b1 
+c 
+
+d 
+d 
+
+e 
+a1 
+
+f 
+
+b2 
+
+e 
+a1 
+
+h 
+
+b2 
+
+h 
+b2 
+
+b2 
+f 
+
+b2 
+
+f2 
+
+b2 
+m 
+
+e 
+n 
+
+b 
+n 
+
+Northamp-     f 
+
+a1 
+
+b 
+
+a1 
+
+b1 
+
+a1 
+
+f 
+
+a1 
+
+h1 
+
+h1 
+
+b2 
+
+b2 
+
+b2 
+
+f2 
+
+f2 
+
+ton             \ 
+
+a 
+
+b2 
+
+b2 
+
+d 
+
+e 
+
+f2 
+
+g 
+
+h2 
+
+h2 
+
+f2 
+
+f2 
+
+m 
+
+n 
+
+n 
+
+Northumber-  f 
+
+a 
+
+b 
+
+a2 
+
+d1 
+
+e 
+
+f 
+
+gl 
+
+g1 
+
+h 
+
+k 
+
+1 
+
+m 
+
+n1 
+
+o 
+
+land           { 
+
+a2 
+
+b 
+
+c 
+
+d 
+
+e 
+
+0 
+
+g2 
+
+g2 
+
+h2 
+
+h2 
+
+c 
+
+b2 
+
+n2 
+
+n1 
+
+Nottingham  | 
+
+a1 
+
+a2 
+
+b1 
+b2 
+
+a1 
+b1 
+
+d 
+b1 
+
+b' 
+b2 
+
+f 
+f 
+
+g 
+g 
+
+a1 
+h 
+
+f1 
+h 
+
+a1 
+a2 
+
+f 
+a2 
+
+m 
+h 
+
+m 
+n 
+
+b1 
+
+0 
+
+Oxford    .    .( 
+
+a 
+
+a2 
+
+b1 
+b 
+
+c 
+
+a2 
+
+d 
+a2 
+
+d 
+a2 
+
+c 
+
+f 
+
+d 
+g 
+
+d 
+h 
+
+d 
+h 
+
+b1 
+
+k 
+
+b1 
+g 
+
+b1 
+g 
+
+b1 
+n 
+
+b1 
+k 
+
+Eutland  .     .  | 
+
+a 
+a2 
+
+b 
+b2 
+
+a2 
+
+d1 
+d2 
+
+e 
+
+b2 
+
+a 
+
+d1 
+
+g 
+d2 
+
+h 
+a2 
+
+j 
+d2 
+
+k 
+
+e 
+d2 
+
+m 
+g 
+
+n 
+n 
+
+0 
+
+d2 
+
+Salop  •    •    .  { 
+
+a1 
+a2 
+
+b1 
+b 
+
+a1 
+a2 
+
+d1 
+d2 
+
+d1 
+b1 
+
+f 
+f 
+
+g1 
+g2 
+
+b1 
+a2 
+
+b1 
+a2 
+
+g1 
+d2 
+
+1 
+b1 
+
+1 
+g2 
+
+g2 
+d2 
+
+0 
+
+d2 
+
+Somerset     .  I 
+
+a 
+
+b1 
+b 
+
+c1 
+c 
+
+c1 
+d 
+
+e 
+e 
+
+f 
+
+f 
+
+a 
+
+g 
+
+h 
+c1 
+
+h 
+d 
+
+k 
+b1 
+
+1 
+1 
+
+k 
+m 
+
+d 
+m 
+
+k 
+m 
+
+Southamp-     f 
+
+a 
+
+b 
+
+b2 
+
+b2 
+
+b2 
+
+f 
+
+f 
+
+h1 
+
+h1 
+
+b2 
+
+b2 
+
+b2 
+
+h2 
+
+b2 
+
+ton  (Hants)  1 
+
+a 
+
+b2 
+
+c 
+
+d 
+
+c 
+
+b2 
+
+g 
+
+h2 
+
+h2 
+
+h2 
+
+d 
+
+m 
+
+n 
+
+d 
+
+Stafford  .    .  { 
+
+a 
+a2 
+
+b1 
+b2 
+
+b1 
+c 
+
+d 
+d 
+
+b1 
+a2 
+
+b1 
+f 
+
+b2 
+g 
+
+b2 
+h 
+
+j 
+c 
+
+k 
+k 
+
+b2 
+a2 
+
+b1 
+m 
+
+a2 
+f 
+
+0 
+
+g 
+
+Suffolk    .     .| 
+
+a1 
+a2 
+
+b 
+b2 
+
+a1 
+
+0 
+
+a1 
+a2 
+
+e 
+b2 
+
+f 
+f2 
+
+g 
+g 
+
+a1 
+a2 
+
+a1 
+
+a2 
+
+a1 
+a2 
+
+a1 
+a2 
+
+a1 
+
+a2 
+
+f2 
+a2 
+
+a2 
+
+0 
+
+Surrey     .     .  I 
+
+a 
+a2 
+
+b1 
+b 
+
+b1 
+c 
+
+d 
+d2 
+
+e 
+e 
+
+f 
+
+f2 
+
+g 
+
+g 
+
+d 
+
+a2 
+
+a2 
+d 
+
+a2 
+k 
+
+a2 
+1 
+
+d2 
+k 
+
+f2 
+k 
+
+f2 
+o 
+
+Sussex     .     .  | 
+
+a 
+a 
+
+b1 
+b2 
+
+c1 
+c 
+
+d1 
+d 
+
+c' 
+e 
+
+c1 
+e 
+
+g 
+e 
+
+d1 
+e 
+
+d1 
+e 
+
+d1 
+g 
+
+c1 
+
+g 
+
+c1 
+b1 
+
+e 
+
+n 
+
+e 
+c1 
+
+Warwick.     .  j 
+
+a1 
+a 
+
+a1 
+b 
+
+c 
+c 
+
+a1 
+b 
+
+e 
+b 
+
+f 
+f 
+
+a1 
+g 
+
+h 
+
+g 
+
+h 
+
+i 
+
+a1 
+k 
+
+a1 
+
+1 
+
+a1 
+m 
+
+h 
+j 
+
+g 
+o 
+
+Westmore-     f 
+
+a 
+
+b1 
+
+c1 
+
+c1 
+
+c1 
+
+b2 
+
+g 
+
+e2 
+
+j 
+
+c1 
+
+b1 
+
+m' 
+
+n 
+
+g 
+
+land            \ 
+
+a2 
+
+b2 
+
+c2 
+
+b2 
+
+b2 
+
+f 
+
+a2 
+
+f 
+
+j 
+
+k 
+
+1 
+
+m2 
+
+m2 
+
+0 
+
+Wilts.     .    .j 
+
+a1 
+a2 
+
+b1 
+b2 
+
+c 
+
+a2 
+
+d1 
+d 
+
+d1 
+b2 
+
+f 
+b2 
+
+a2 
+b2 
+
+d1 
+
+h 
+
+d1 
+h 
+
+d1 
+h 
+
+1 
+h 
+
+a2 
+b2 
+
+1 
+b2 
+
+0 
+
+o 
+
+Worcester    .  j 
+
+a 
+a2 
+
+b1 
+b2 
+
+a2 
+b2 
+
+d1 
+d2 
+
+d2 
+e 
+
+a1 
+b' 
+
+a1 
+b' 
+
+h 
+h2 
+
+a2 
+h2 
+
+h2 
+k 
+
+I1 
+
+1 
+
+m 
+m 
+
+1' 
+n 
+
+d1 
+n 
+
+York   .     .     .j 
+
+a 
+a 
+
+b1 
+b 
+
+b1 
+c 
+
+d1 
+d 
+
+e1 
+e2 
+
+d1 
+c 
+
+b1 
+e2 
+
+b1 
+e1 
+
+b1 
+
+i 
+
+k1 
+k 
+
+j 
+1 
+
+b1 
+e2 
+
+k1 
+e1 
+
+k1 
+1 
+
+INDEX 
+
+
+(Names  of  places  are  given  in  italics) 
+
+
+ABTHOKP,  66 
+
+Adbaston,  59 
+
+Adderbury,  66 
+
+Alban,  Bishop  of,  66 
+
+Alder  ton,  61 
+
+Alyce,  de,  60 
+
+Angmering,  West,  67 
+
+Anstey,  62 
+
+Apoldre,  9 
+
+Appledore  (Apuldre),  6 
+
+Apuldrefeld,  58 
+
+Arkesden,  64 
+
+Arlington,  Prebend  of,  66 
+
+Arundel,  67 
+
+Arundel,  St.  Nich.,  Prior  of,  67 
+
+Assington,  64 
+
+Aston,  Jo.,  41 
+
+Aylesbury,  Prebend  of,  66 
+
+BABEKE,  7 
+
+Bacford,  15 
+
+Baker,  9 
+
+Balcoke,  42 
+
+Balne,  20 
+
+Bamme,  28,  30,  32,  36 
+
+Barbarote,  58 
+
+Barbur,  9 
+
+Bardfield,  Great,  64 
+
+Barnham,  67 
+
+Barrow,  de,  59 
+
+Bath  and  Wells,  Bishop  of,  21-23 
+
+Bawdry,  6 
+
+Beauchamp,  62 
+
+Beaulicu,  Convent  of,  59 
+
+Bedeford,  66 
+
+Bedford,  St.  John's,  46 
+
+Belewe,  de,  15 
+
+Belknapp  (Justiciarius),  5 
+
+Bere,  34 
+
+Berghestede,  12 
+
+Berkshire,  Riots  in,  20 
+
+Bermondsey,  Prior  of,  60 
+
+
+Bernefelde,  Hundred  of,  3 
+
+Berstead  (Berghstede),  3 
+
+Berwald,  19 
+
+Bery,  11 
+
+Betell,  4 
+
+Bethoun,  58 
+
+Beuminster,  44 
+
+Bev&rley,  19 
+
+Bilchanger,  65 
+
+Billingshurst,  67 
+
+Bocher,  7 
+
+Bodington,  65 
+
+Bokeland,  62 
+
+Bolle,  10 
+
+Bolyn,  4,  5 
+
+Bona  Aura,  66 
+
+Boox,  12 
+
+Borden  (Bordenne),  7,  11 
+
+Botkysham,  36,  37 
+
+Bovell,  16 
+
+Bmve,  The  (London),  27,  31 
+
+Boxgrave,  67 
+
+Boxgrave,  Prior  of,  67 
+
+Boxsted,  63 
+
+Boye,  11 
+
+Boyton,  9 
+
+Brabourne,  57 
+
+Brackley,  42 
+
+Bradborne,  43 
+
+Braibrok,  46 
+
+Brampton,  Prebend  of,  66 
+
+Bredstret,  35 
+
+Brembre,  Nich.,  27,  30,  32 
+
+Brenchley  (Brenchesle),  4,  5,  7 
+
+Brenchley  (Brenchesle),  Hundred 
+
+of,  5 
+
+Brenoz,  de,  62 
+Brenzet,  58 
+Bresiere,  4 
+Brewod,  42,  43 
+Brewood,  59 
+Broke,  atte,  7,  12 
+
+
+INDEX 
+
+
+Bromnyng,  3 
+Broughton,  47 
+Brown,  15 
+Bruyn,  le,  15 
+Bullocke,  45 
+Burgeys,  16 
+Burgh,  21 
+Burre,  4,  5,  7 
+Byfield,  42 
+
+CADAMO,  Abbess  of,  62 
+
+Caleway,  21,  23 
+
+Cambridge,  44 
+
+Canterbury  (Cantuarise),  3,  4, 9, 11 
+
+Canterbury,  Archbishop  of,  10 ; 
+murder  of,  11 
+
+Canterbury,  Archdeacon  of,  58 
+
+Cape,  22,  23 
+
+Capel,  8 
+
+Cardinals  beneficed  in  England, 
+59-61,  65,  66 
+
+Carleton,  30 
+
+Carmelites,  37 
+
+Castleacre,  Prior  of,  60 
+
+Catesby,  11 
+
+Cauchon,  60 
+
+Caus,  de,  63 
+
+Chalk,  5 
+
+Chandos,  50 
+
+Charlet,  12 
+
+Chate,  21,  23 
+
+Chatham,  7,  12 
+
+Chatham  and  Oillingham,  Hun- 
+dred of,  12 
+
+Chese,  21,  23 
+
+Cheshire,  disturbances  in,  1381, 
+13-16 
+
+Chester,  15,  16;  Abbot  of,  15; 
+St.  John's  Church,  59  ;  St. 
+Werburgh,  15 
+
+Chesterton,  60 
+
+Cheyne,  36 
+
+Chichester,  Bishop  of,  53 
+
+Chilham,  58 
+
+Chipping  Warden,  42 
+
+Chynyntone,  7 
+
+Clandon  (Clendon),  17 
+
+Clavering,  64 
+
+Clerk,  6 
+
+Clerk,  le,  16 
+
+Clif,  del,  16 
+
+Climping,  67 
+
+Cluny,  Order  of,  63 
+
+Cocking,  67 
+
+Coggeshall,  63 
+
+Cokeshethe,  5 
+
+
+Collins,  43 
+Collyn,  45 
+Colne  Engayne,  65 
+Colonia,  61 
+Combewell,  3 
+Comere,  21 
+Comp,  4 
+
+Compesworth,  45 
+Cone,  44 
+Cook, 8 
+
+Corringham,  65 
+Costantyn,  36,  38 
+Cosyn,  9 
+Cotgreve,  15 
+Coton,  de,  15 
+Cottegore,  6 
+Cottingham,  19 
+Cotynge,  4 
+Couper,  43 
+Crombewell,  41 
+Cruse,  61 
+Cuckfield,  68 
+Cumberton,  36,  38 
+Curdeford,  67 
+Cusance,  de,  61 
+
+DARTFORD,  6,  9 
+
+Delhan,  11 
+
+Deptford  (Depeford),  7,  8 
+
+Doncaster,  Proclamation  used  at,20 
+
+Doncastre,  36 
+
+Donernawe,  4 
+
+Dover,  59 
+
+Drake,  16 
+
+Draper,  42 
+
+Drew,  12 
+
+Driffield,  60 
+
+Dullingham,  60 
+
+Dunes,  Convent  of,  59 
+
+Duse,  66 
+
+'  EAST  ANGLIAN,'  the,  18 
+
+Eastham,  15 
+
+East  Mallyng,  10,  12 
+
+East  Mersey,  64 
+
+Eggeley,  de,  15 
+
+Elmestede,  6 
+
+Eltham,  53 
+
+Elys,  8 
+
+'English  Hist.  Review,'  17 
+
+Escheator  for  Kent,  6 
+
+Essex,  27-34,  36,  38 
+
+Essex  Arch.  Soc.,  18 
+
+Essex,  rioters  from,  in  London,  17 ; 
+
+in  Guildford,  17 
+Eyhorne,  Hundred  of,  3 
+
+
+INDEX 
+
+
+77 
+
+
+FAIRSTBD,  65 
+Palmer,  68 
+Felsted,  62 
+Per,  de,  20 
+Ferdellarii,  21 
+Fescamp,  Abbot  of,  67 
+Fingringho,  63 
+Flemmings,  slaughter  of,  4 
+Fletbrigge,  36 
+Florence,  62 
+Fogge,  4,  11 
+Folkeston,  58 
+Footscray,  9 
+Ford,  68 
+Fordham,  63 
+Founteynes,  de,  62 
+Fox,  45 
+Foxgrove,  8 
+Franceys,  33 
+Fraunceys,  7 
+Frenk,  21 
+Frensshman,  65 
+Frindsbury,  7,  11 
+Frinningham,  4 
+Fylkyn,  15 
+
+GARDINER,  LE,  15 
+
+Garwynton,  11 
+
+Gernays,  6 
+
+Gibben,  9 
+
+Gillot,  8 
+
+Gillyngham,  12 
+
+Glovere,  7,  9,  12 
+
+Glynde,  59 
+
+Godalming,  61 
+
+Goddard,  42 
+
+God  wot,  11 
+
+Gomelydene,  12 
+
+Gotewey,  23 
+
+Goudhurst  (Goutherst),  6,  11 
+
+Grace,  Abbey  of,  17 
+
+Gravesend,  10 
+
+Gredhay,  21 
+
+Grestena,  Abbot  of,  G7 
+
+Grinsted,  68 
+
+Gromond,  17 
+
+Grybbell,  21 
+
+Guildford,  riots  at,  17 
+
+Gunthorp,  58 
+
+Gynes,  Convent  of,  58 
+
+
+Hakborne,  5 
+Hales,  9 
+
+Hales,  Robert,  Prior  of  St.  John  of 
+Jerusalem,  11 
+
+
+Halstow  (Halghesto),  12 
+
+Hampton,  62 
+
+Hamptonet,  67 
+
+Hankyn,  21 
+
+Hardyngfeld,  62 
+
+Harmondsworth,  62 
+
+Harrietsham  (Heriettsham),  3 
+
+Hatfield  (Yorks),  20 
+
+Havering  atte  Bower,  17 
+
+Hawesson,  16 
+
+Haye,  11 
+
+Haynesson,  15 
+
+Hayward,  66 
+
+Helion  Bvmpsted,  64 
+
+Hemery,  3 
+
+Hendon,  61 
+
+Hendyman,  7 
+
+Henek,  9 
+
+Henle,  3 
+
+Henry,  10 
+
+Hereford,  Bishop  of,  51,  54 
+
+Hereford  diocese,  Lollards  in,  51 
+
+Heretical  Books,  41 
+
+Heretics,  see  Lollards 
+
+Herford,  Mich.,  41 
+
+Hermare,  17 
+
+Herry,  7 
+
+Hervy,  15,  16 
+
+Heryng,  4,  7-10 
+
+Heston,  62 
+
+Heth,  del,  15 
+
+Heyward,  42 
+
+Hokenhull,  de,  15 
+
+Holdenne,  7 
+
+Holland,  Earl  of  Kent,  6-8,  10,  11 
+
+Holstokke,  3 
+
+Holt,  9 
+
+Hope,  57 
+
+Hoprust,  62 
+
+Horeknoll,  21 
+
+Horksley,  Great,  G4  ;  Little,  63 
+
+Home,  6,  21,  30 
+
+Horsham,  Prior  of  St.  Faith,  65 
+
+Horton  Priory,  57 
+
+Hose,  7 
+
+Hosteller,  6 
+
+Hothe,  atte,  5 
+
+Hoton,  16 
+
+Howell,  16 
+
+Huggesson,  15 
+
+Hulfeld,  de,  15 
+
+Hull,  17,  22,  23 
+
+Hull,  19 
+
+Hunston,  67 
+
+Hurley  (Hurlec),  Prior  of,  64 
+
+Huxlegh,  de,  15 
+
+
+78 
+
+
+INDEX 
+
+
+Hwetegrom,  5 
+Hyde,  del,  59 
+Hykkes,  42 
+
+IDE,  5 
+
+Ightham  (Ithham),  11 
+
+Indictments  relating  to  Kent  (1381), 
+
+3-12 
+
+Ireland,  63 
+Isleworth,  62 
+
+JOP,  65 
+
+KARLILL,  30 
+
+Kent  Arch.  Soc.,  18 
+
+Kent,  Indictments  (1381)  relating 
+
+to,  3-12 
+
+Kent,  rioters  from,  in  London,  17 
+Kent,  Under-Sheriff  of,  9 
+Kettlethorp,  65 
+Kingsdown  (Kyngesdone),  4 
+Kingston,  17,  68 
+Kippyng,  4,  7 
+Kyng,  38 
+Kyngsbrigge,  34 
+Kyriell,  7 
+
+LAGHTON,  DE,  16 
+Lake,  atte,  8 
+Lamberhurst,  7 
+
+Lancaster,  Duke  of,  20,  32,  33,  71 
+Lancok,  21,  23 
+Lane,  atte,  23 
+Langley,  43 
+Lansle,  8 
+
+Larkfield  (Hundred  of),  9,  10 
+Latimer,  58 
+Lee,  del,  16 
+Lee,  le,  15 
+Leeds,  52 
+Leghes,  del,  15 
+Leke,  41 
+Lenham,  3 
+
+Leominster  (Leucmynster),  67 
+Leverych,  21 
+Leveyng,  4 
+
+Lewes,  Prior  of,  59,  60 
+Leye,  atte,  21 
+Lichfield  Deanery,  59 
+Lincolle,  33 
+
+Lincoln,  Bishop  of,  43,  Commis- 
+sioner of,  49 
+
+Lincoln  Diocese,  Heretics  in,  42 
+Linton,  6,  10,  11,  59 
+
+
+Littlefield  (Litlfeld),  Hundred 
+of,  7 
+
+Lodelynton,  10 
+
+Logge,  7 
+
+Lollards,  Notes  concerning,  41-5-i 
+
+London,  4,  17 
+
+London,  Budge  row,  34,  38  ;  Cord- 
+wanerstreet,  34 
+
+London  Disturbances  (1383-4),  27- 
+38 
+
+London,  Kent  rioters  in,  4,  6, 
+8-11 ;  Lollards  in,  44 ;  Lud- 
+gate,  35,  36  ;  St.  Mary-le-Boive, 
+31,  35  ;  St.  Michael  atte  Corne, 
+36  ;  St.  Mich.,  Hoggenlane, 
+36  ;  St.  PauVs,  35  ;  Trade 
+Guilds,  27  ;  West  Cheap,  34,  35, 
+38 ;  Wood  Street,  36 
+
+Longe,  61 
+
+Longefeld  Hill,  10 
+
+Loose  (Lose),  11 
+
+Loupe,  44 
+
+Lovehill,  44 
+
+Lychlade,  52 
+
+Lyminge,  58 
+
+MAIDSTONE  (Maydestane),  6-12 
+
+Mallyng,  9, 10 
+
+Mallyng,  Abbess  of,  10 
+
+Malpas,  de,  15 
+
+Man,  8 
+
+Manuden,  64,  65 
+
+Manyngford,  21,  23 
+
+Maperle,  44 
+
+Maplestompe,  4 
+
+Marden,  6 
+
+Marden  (Merdenne),  Hundred  of,  6 
+
+Mare,  de  la,  71 
+
+Martell,  43 
+
+Maudeleyn,  34 
+
+Maykynsson,  15 
+
+Mayster,  10 
+
+Mekkesworth,  46 
+
+Mellere,  3,  8 
+
+Mercer,  67 
+
+Mere,  atte,  23 
+
+Merefeld,  4,  5,  8 
+
+Meryham,  11 
+
+Middlesex,  Riots  in,  17 
+
+Middleton,  Hundred  of,  11,  12 
+
+Milkhouse,  6 
+
+Milton,  66 
+
+Minster  (Menstre),  8 
+
+Moneye,  9 
+
+Monte  Maurclii,  Prior  of,  60 
+
+More,  27-33,  38 
+
+
+INDEX 
+
+
+79 
+
+
+Moris,  21 
+Mundham,  67 
+Muntham,  34 
+
+
+r,  66 
+
+Neuton,  de,  15,  16 
+Newenton,  58 
+Newgate  Prison,  10 
+Newhows,  9 
+Newman,  10 
+New  ShoreJiam,  68 
+Neyte,  le,  32 
+Nigris,  de,  61,  65 
+Norbury,  27-34,  36 
+Norley,  de,  16 
+
+Northampton,  All  Saints',  46,  47 
+NortJiampton,  Lollard    preaching 
+
+at,  45-50 
+
+Northampton,  Mayor  of,  45 
+Northampton,  St.  Andrew's,  46 
+Northampton,  St.  Andrew's  Monas- 
+
+tery, 49 
+Northampton,  St.  Grcgorie,  Chap- 
+
+lain of,  46 
+
+Northampton,  Sheriff  of,  42 
+Northampton,  John,  Trial  of,  27  ; 
+his  action   in  London,  1382-3, 
+27-38  ;  in  communication  with 
+Duke  of  Lancaster,  32,  33 
+North  Cray,  4 
+
+Northiam  (Northhyhame),  3 
+Northrcpps,  61 
+Northwold,  46,  49,  52 
+Nottingham,  Mayor  of,  41 
+Nottingham,  Sheriff  of,  43 
+Nottinghamshire,  Lollards  in,  43 
+
+OAKBOURXE,  59,  62 
+
+Ock,  11 
+
+Offeley,  59 
+
+Onewyne,  6 
+
+Orell,  de,  16 
+
+Osbarn,  6,  21 
+
+Ospringe,  9 
+
+Osseney,  46 
+
+Overpulle,  15 
+
+Oxford,  Meeting   of   Bishops  and 
+
+others  at,  re  Lollards,  54 
+Oxford   University,  Chancellor  of, 
+
+45,  51,  52 
+Oxfordshire,  Riots  in,  20 
+
+PALYNG,  67 
+Pamfield,  Prior  of,  60 
+Paniot,  44 
+Paris,  53 
+
+
+Parliaments,  temp.  Ric.   II.,  Ana- 
+lysis of,  71-73 
+
+Patrixbonrne,  59 
+
+Paulyn,  34 
+
+Payn,  15,  16,  35 
+
+Peasants'   Rising,  authorities  on 
+18 
+
+Pecham,  5 
+
+Peckham,  7 
+
+Peet,  63 
+
+Pelryn,  66 
+
+Peverell,  21 
+
+Philpot,  J.,  29,  36 
+
+Piddinghoe,  68 
+
+Plessa,  de,  59 
+
+Plomer,  8 
+
+Pole,  de  la,  15 
+
+Pontigny,  59 
+
+Pope,  5 
+
+Poser,  6 
+
+Poule,  5 
+
+Pound,  4 
+
+Pour,  10 
+
+Powell,  18 
+
+Poyntel,  9 
+
+Prentis,  11 
+
+Prest,  22 
+
+Prestland,  de,  15 
+
+Pritwell,  Prior  of,  64 
+
+Proclamation  by  riotera  at  Don- 
+caster,  20 
+
+Promehiill,  58 
+
+RAMPTON,  7 
+
+Randolf,  21 
+
+Ranulphi,  67 
+
+Rawreth,  63 
+
+Reading,  Lollards  in,  52 
+
+Rede,  atte,  11 
+
+Renemogh,  15 
+
+Renesson,  15 
+
+Rephey,  21 
+
+Repyngden,  Ph.,  41 
+
+Reville,  18 
+
+Reyham,  8 
+
+Reyner,  6 
+
+Rhymes  published  in  Yorks,  1392, 
+
+19 
+
+Risseby,  42 
+Robelyn,  66 
+Rochester,  7 
+Rochester,  Bishop  of,  7 
+Rocliester  (Rouchestre),'  Hundred 
+
+of,  6 
+Roger,  7 
+Romanis,  62 
+
+
+80 
+
+
+INDEX 
+
+
+Romeley,  Prior  of,  63 
+
+Bomesey,  44 
+
+Romney,  59 
+
+Eopere,  3 
+
+Both,  42 
+
+Rottingdean,  68 
+
+Rouen  (Bothomagus),  63 
+
+Bous,  10 
+
+Ruislip  (Busselep),  62 
+
+Ruislip,  Prior  of,  64 
+
+Buppe,  de,  58 
+
+Bussell,  15 
+
+Rustington,  67 
+
+Byderwyk,  8 
+
+Byseby,  34 
+
+ST.  BKRTIX,  Convent  of,  58 
+
+St.  Neots,  Prior  of,  60 
+
+St.  Olave,  59 
+
+St.  Walric,  Prior  of,  65 
+
+Salghton,  16 
+
+Salisbury,  44 
+
+Salisbury,  Bishop  of,  32 
+
+Salisbury,  Diocese,  Lollards  in,  44 
+
+Sampford,  Little,  64 
+
+Sandherst,  12 
+
+Sandwich,  58 
+
+Savage,  11 
+
+Savoy  (Sebaudia),  62 
+
+Savoy,  The,  Attack  on,  6,  8,  17 
+
+Scanay,  de,  16 
+
+Scrope,  de,  53 
+
+Seal  (Sela),  68 
+
+Seal,  Prior  of,  68 
+
+Segar,  21 
+
+Sely,  21,  30 
+
+Semonor,  9 
+
+Sentyngfeld,  59 
+
+Senyng,  10 
+
+Septemvant,  59 
+
+Services,  praedial,  refused,  21-23 
+
+Services,  praedial,  relaxed,  10 
+
+Seyntalbon,  7,  11 
+
+Shadworth,  36 
+
+Shamwell    (Schamele),    Hundred 
+
+of,  11 
+Sharp,  6 
+Sheppey,  8 
+Shereday,  7 
+Sherreve,  6 
+
+Shipborne  (Shybourne),  7 
+Sibyle,  30 
+Skaurie,  If,  11 
+Skele,  5 
+Skipet,  66 
+Smith,  7,  11 
+
+
+Snodland  (Snodelonde),  0 
+
+Sodegrom,  5 
+
+Sokelyng,  11 
+
+Sole,  atte,  10 
+
+Somerby,  42 
+
+Somerset,  Disturbances    in    1399, 
+
+21-23 
+
+Southbenfleet,  63 
+Southcave,  60 
+Southey,  21 
+Southflete,  11 
+Sparwe,  4 
+Spencer,  le,  16 
+Spenser,  10 
+Spernal,  10 
+Stafford,  Earl,  7 
+Stanesgate,  Prior  of,  64 
+Stanford  Rivers,  62 
+Stansted  Montfitchet,  65 
+Staplehurst,  Bector  of,  6 
+Staynford,  20 
+Stenyng,  67 
+Stermesworth,  Bic.,  45 
+Stocks  broken  by  rioters,  7 
+Stoke,  43 
+Stoke,  8 
+
+Stoke,  Prior  of,  62 
+Stokeby,  9 
+
+Stoke-by-Clare,  Prior  of,  64 
+Stokke,  atte,  21 
+Strensall,  60 
+Strode,  6,  7,  9 
+Sturche,  16 
+
+Sudbury,  Archdeacon  of,  46 
+Sudrya,  de,  63 
+Suffolk,  Archdeacon  of,  61 
+Sunbury,  62 
+Surrey,  Biots  in,  17 
+Sussex,  rioters  from,  12 
+Sutton,  de,  15 
+Button,  16,  66 
+Sutton,  parva,  15 
+
+TABOREK, 9 
+Taillor,  21 
+Taillor,  le,  16 
+Takdey,  Prior  of,  62 
+Talton,  44 
+Taunton,  21,  23 
+Taylor,  4,  42 
+Tebbe,  4,  9,  11 
+Tenham,  58 
+Thame,  Prebend  of,  66 
+Thaxsted,  62 
+Thetford,  Prior  of,  60 
+Thornton,  16 
+
+
+INDEX 
+
+
+Threshere,  4,  5,  6 
+
+Throwley  (Thrulegh),  58 
+
+Thurley,  65 
+
+Thurnham  (Thornham),  4,  9 
+
+Tonbridge  (Tonebregge),  4,  5,  7,  8 
+
+Toneford,  11 
+
+Tong,  47 
+
+Topcbyne,  6,  9,  10 
+
+Tottingtrough  (Tottyngtrow),  Hun- 
+dred of,  10 
+
+Tower  of  London,  Kent  rioters  at, 
+10 
+
+Trade  Guilds  in  London,  27 
+
+Trenet,  10 
+
+'  Trialogus,'  the,  of  Wycliffe,  51 
+
+Twickenham,  62 
+
+Tioyford,  Hundred  of,  12 
+
+Tybles,  42 
+
+Tyler,  Walter,  of  Colchester,  9 
+
+ULCOMJtK,    3 
+
+Upchurch,  58 
+Upton,  15 
+Ursinis,  de,  61,  65 
+Usk,  27-34,  36,  38 
+
+
+VALKNTYN,  21 
+Vannere,  36 
+Vercellencis,  60 
+Virgatarii,  21 
+
+WAKELYN,  42 
+
+Walburton,  67 
+
+Waldegrave,  36 
+
+Walden,  64 
+
+Walshman,  7 
+
+Walter  Brut,  50 
+
+Walton-on-T'i 'tames,  61 
+
+Walworth,  W.,  27,  36 
+
+Warbulton,  36 
+
+Warden,  7 
+
+Ware,  de,  63 
+
+Ware,  62 
+
+Ware,  Prior  of,  60,  62 
+
+Warningcamp  (Warnykamp),  67 
+
+
+Warriner,  42 
+
+Warton,  60 
+
+Washlingstone          (Wechilstone), 
+
+Hundred  of,  4,  8 
+Water,  atte,  21,  23 
+Wateringbury  (Woteryngbury),  7 
+Webbe,  10 
+Wedehom,  67 
+Wellington  (Welynton),  21 
+Wellington,  Prior  of,  60 
+Wells,  22 
+Welton,  65 
+West,  17 
+West  Mersey,  63 
+Weston,  46 
+Whiteby,  15 
+White  Colne,  63 
+White  Notley,  64 
+Whitesand,  57 
+Whithey,  21,  23 
+Widdington  (Wydyton),  65 
+Widmerpole,  43 
+Willyngham,  27 
+Wilmington,  Prebend  of,  67 
+Wilmington,  Prior  of,  62 
+Winkpole,  47 
+Wirnyn,  de,  15 
+Wirral,  Hundred  of,  14,  15 
+Wistow,  60 
+Wodeford,  21 
+Wodeward,  43 
+Wrekok,  4 
+
+Writtle  (Writelee),  62 
+Wrotham,  4,  5,  7 
+Wrotham,  Hundred  of,  4 
+Wycliffe,  Jo.,  41  ;  Triolagus  of,  51 
+Wyddial  (Wydyhale),  62 
+Wylle,  5 
+
+Wynchecombe,  36 
+Wyvelscombe,  22 
+
+
+(Ealdynge),  12 
+Yapton  (Yabiton),  67 
+Yate,  atte,  42 
+York,  Archbishop  of,  43  ;  deanery 
+
+of,  60  ;  Duke  of,  20 
+Yorkshire,  19  ;  Sheriff  of,  42 
+
+
+PKINTKll     BY 
+
+BPOrriBWOODK    AND    CO.,     NEW-STREET    SQUARE 
+LONDON* 
+
+
+> 
+
+"ft 
+
+
+SEP  2  5 1987 
+
+
+PLEASE  DO  NOT  REMOVE 
+CARDS  OR  SLIPS  FROM  THIS  POCKET 
+
+UNIVERSITY  OF  TORONTO  LIBRARY 
+
+

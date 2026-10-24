@@ -3,6 +3,25 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-waldensians
 works:
+- row_id: bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926--manuel-de-l-inquisiteur-of-bernard-gui-tome-i-mollat-1926-3
+  work: 'Manuel de l''Inquisiteur of Bernard Gui, tome I (Mollat, 1926): Waldensians, Cathars
+    and other sects'
+  author: bernard-gui
+  locus: Whole volume; the handbook's forms and doctrinal sections
+  role: context
+  confidence: provisional
+  note: Placed on the handbook's subject matter without a full read. Inquisitor's view of
+    the sects he examined.
+  source_file: bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt
+- row_id: bernard-gui_manuel-inquisiteur-t2-lat-fra_mollat1927--manuel-de-l-inquisiteur-of-bernard-gui-tome-ii-mollat-1927-3
+  work: 'Manuel de l''Inquisiteur of Bernard Gui, tome II (Mollat, 1927): Waldensians, Cathars
+    and other sects'
+  author: bernard-gui
+  locus: Whole volume; the doctrinal descriptions of the sects
+  role: context
+  confidence: provisional
+  note: Placed on the handbook's subject matter without a full read.
+  source_file: bernard-gui_manuel-inquisiteur-t2-lat-fra_mollat1927.txt
 - row_id: crespin_histoire-des-martyrs-t1-fra_benoit-lelievre1885--histoire-des-martyrs-1619-edition-tome-1-livre-premier-the
   work: 'Histoire des martyrs (1619 edition), Tome 1, Livre Premier: the medieval witnesses,
     including the Vaudois'
@@ -30,6 +49,26 @@ works:
 
     '
   source_file: gilles_histoire-ecclesiastique-eglises-vaudoises-v1-fra_1881.txt
+- row_id: goll_quellen-bohmische-bruder-v1-deu_1878--quellen-und-untersuchungen-zur-geschichte-der-bohmischen-2
+  work: 'Quellen und Untersuchungen zur Geschichte der Böhmischen Brüder, I: the Brethren
+    and the Waldensians; the first priests (Goll)'
+  author: goll
+  locus: whole volume
+  role: context
+  confidence: provisional
+  note: 'Documents of the Unity of the Brethren on their contact with Waldensians and on their
+    first priests, with Goll''s German study. Provisional: not read through. Lead from the
+    Hussite dossier, now vendored.'
+  source_file: goll_quellen-bohmische-bruder-v1-deu_1878.txt
+- row_id: haupt_waldenserthum-und-inquisition-im-suedoestlichen-deutschland-deu_1890--waldenserthum-und-inquisition-im-sudostlichen-deutschland
+  work: Waldenserthum und Inquisition im südöstlichen Deutschland (Haupt, 1890)
+  author: haupt
+  locus: inquisition protocols and abjurations printed in the second half of the volume
+  role: context
+  confidence: provisional
+  note: Hostile inquisitorial records of Waldensians in south-eastern Germany in a scholar's
+    edition. Outside the Alps; placed on the entry's 'Germany' region.
+  source_file: haupt_waldenserthum-und-inquisition-im-suedoestlichen-deutschland-deu_1890.txt
 - row_id: leger_histoire-generale-eglises-vaudoises-livre1-fra_1669--histoire-generale-des-eglises-evangeliques-livre-premier-3
   work: Histoire générale, Livre premier, the 'ancient' documents of the valleys
   author: leger
@@ -42,6 +81,17 @@ works:
 
     '
   source_file: leger_histoire-generale-eglises-vaudoises-livre1-fra_1669.txt
+- row_id: montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885--histoire-litteraire-des-vaudois-du-piemont-montet-with-2
+  work: Histoire littéraire des Vaudois du Piémont (Montet), with extracts of the barbes'
+    manuscripts
+  author: montet
+  locus: Chapitres IV-V (fifteenth-century literature) and the pièces justificatives
+  role: context
+  confidence: provisional
+  note: Scholarship (1885) that describes the Waldensian manuscripts and prints long extracts
+    of the Old Occitan texts. Use it to locate the original texts and quote only after checking
+    the page images. Not a primary voice in itself.
+  source_file: montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt
 - row_id: morland_history-evangelical-churches-piemont_1658--the-ancient-manuscripts-of-the-valleys-in-morland-book-i-2
   work: The ancient manuscripts of the valleys as printed by Morland, Book I chapters V-VIII
   author: morland
@@ -78,3 +128,73 @@ works:
 
     '
   source_file: perrin_history-ancient-christians-valleys-alps_1847.txt
+- row_id: toulouse-inquisition_liber-sententiarum-lat_limborch1692--liber-sententiarum-inquisitionis-tholosanae-limborch-1692-2
+  work: 'Liber sententiarum inquisitionis Tholosanae (Limborch, 1692): sentences against Waldensians,
+    Cathars and others'
+  author: toulouse-inquisition
+  locus: Whole volume
+  role: context
+  confidence: provisional
+  note: 'Placed on the register''s subject matter (sentences against Waldensians appear in
+    the sample). Second witness for exact wording: long s read as ''f''.'
+  source_file: toulouse-inquisition_liber-sententiarum-lat_limborch1692.txt
+- row_id: waldensians_nobla-leicon-pro_destefano1909--la-nobla-leicon-the-noble-lesson-waldensian-poem-critical-2
+  work: La Nobla Leiçon (The Noble Lesson), Waldensian poem, critical text
+  author: waldensians
+  locus: the poem begins 'O fraires, entende una nobla leiçon' after the title page; variants
+    beneath each verse group
+  role: tradition
+  confidence: provisional
+  note: A primary voice of the Waldensian communities in Old Occitan, from the Cambridge,
+    Geneva and Dublin manuscripts. Clean enough to quote once checked against the scan. The
+    edition itself argues the poem's date (1100 or 1400 by the manuscripts' readings), so
+    composition date is contested; the date of the manuscripts themselves is for the build
+    to take from the edition's description. Morland's 1658 volume on the shelf prints the
+    poem with an English rendering (not collated with this edition); the 1888 Montet edition
+    (French translation) is a second witness.
+  source_file: waldensians_nobla-leicon-pro_destefano1909.txt
+- row_id: waldensians_nobla-leicon-pro_montet1888--la-nobla-leicon-the-noble-lesson-waldensian-poem-with-french-2
+  work: La Nobla Leiçon (The Noble Lesson), Waldensian poem, with French translation (Montet)
+  author: waldensians
+  locus: verse text after the introduction; French translation follows
+  role: tradition
+  confidence: provisional
+  note: 'Second witness: the verse OCR is badly garbled, so a build locates passages here
+    and quotes from the 1909 De Stefano file after checking the page images. The French translation
+    is Montet''s; Morland''s 1658 English rendering of the poem is on the shelf, uncollated.'
+  source_file: waldensians_nobla-leicon-pro_montet1888.txt
+- row_id: waldensians_romaunt-gospel-of-john-pro_gilly1848--the-romaunt-waldensian-version-of-the-gospel-of-john-from-2
+  work: The Romaunt (Waldensian) version of the Gospel of John, from the Dublin and Paris
+    manuscripts
+  author: waldensians
+  locus: Gospel text in numbered verses after Gilly's introduction
+  role: tradition
+  confidence: provisional
+  note: The Waldensian vernacular Scripture, which is what the barbes carried and memorised.
+    Primary voice ready to quote once verified against the scan. Gilly's introduction is nineteenth-century
+    argument about the version's antiquity; the date of the manuscripts should be taken from
+    the manuscripts' own description, not from him.
+  source_file: waldensians_romaunt-gospel-of-john-pro_gilly1848.txt
+- row_id: wattenbach_inquisition-gegen-die-waldenser-in-pommern-deu_1886--uber-die-inquisition-gegen-die-waldenser-in-pommern-und-der
+  work: Über die Inquisition gegen die Waldenser in Pommern und der Mark Brandenburg (Wattenbach,
+    1886)
+  author: wattenbach
+  locus: protocol extracts and the lists of those examined
+  role: context
+  confidence: provisional
+  note: A hostile inquisitorial record of German Waldensians of the 1390s, in Wattenbach's
+    edition and German commentary. Geographically outside the Alps; placed on the entry's
+    'Germany' region. See the dossier on whether the Alps entry should claim it.
+  source_file: wattenbach_inquisition-gegen-die-waldenser-in-pommern-deu_1886.txt
+- row_id: zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863--die-katechismen-der-waldenser-und-bohmischen-bruder-critical-2
+  work: 'Die Katechismen der Waldenser und Böhmischen Brüder: critical text of the Waldensian
+    catechism and the Brethren''s catechism'
+  author: zezschwitz
+  locus: Waldensian catechism text in Old Occitan, with the editor's apparatus
+  role: tradition
+  confidence: provisional
+  note: Prints the Waldensian catechism from the manuscripts (a barbes' teaching text) in
+    a critical edition, with a nineteenth-century scholar's German around it. The Brethren's
+    catechism printings are mostly after the Hussite world's window, hence context there.
+    Quote only after checking the page images.
+  source_file: zezschwitz_katechismen-der-waldenser-und-boehmischen-brueder-deu_1863.txt

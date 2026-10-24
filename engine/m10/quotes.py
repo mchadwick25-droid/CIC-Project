@@ -12,6 +12,7 @@ import yaml
 
 from engine.m1.quote_verbatim import (
     collapse_linewrap_hyphens,
+    iter_source_notes,
     normalize_archaic_letterforms,
     strip_apparatus,
     strip_edition_apparatus,
@@ -26,6 +27,9 @@ MIN_WORDS = 5
 FAST_HITS = 20
 WINDOW_SHARE = 0.5
 _ELLIPSIS = re.compile(r"\.\.\.|…")
+_ELLIPSIS_MARK = re.compile(r"\[(?:\.\.\.|…)\]|\.\.\.|…")
+_EMPHASIS = re.compile(r"[*`]|(?<!\w)_+|_+(?!\w)")
+_BRACKET_MARK = re.compile(r"[\[\]]")
 _STRAIGHT = re.compile(r'"([^"]+)"')
 _CURLY = re.compile(r"“([^”]+)”")
 _PATH = re.compile(r"cic/texts/([\w.\-]+\.(?:txt|xml))")
@@ -111,6 +115,25 @@ def paragraphs(text: str) -> list[str]:
     return out
 
 
+_BLOCK_START = re.compile(r"^\s*(?:\||#|[-*+]\s|\d+[.)]\s)")
+
+
+def passages(text: str) -> list[str]:
+    """A markdown document's passages: each paragraph, list item, table row
+    and heading on its own."""
+    out, current = [], []
+    for line in text.splitlines():
+        if not line.strip() or _BLOCK_START.match(re.sub(r"^\s*>\s?", "", line)):
+            if current:
+                out.append(" ".join(current))
+            current = [] if not line.strip() else [re.sub(r"^\s*>\s?", "", line).strip()]
+            continue
+        current.append(re.sub(r"^\s*>\s?", "", line).strip())
+    if current:
+        out.append(" ".join(current))
+    return out
+
+
 def extract_quotations(paragraph: str) -> tuple[list[str], bool]:
     """Quoted spans of MIN_WORDS words or more, and whether the straight
     quotation marks could be paired."""
@@ -161,12 +184,15 @@ class TextStore:
     def may_contain(self, span: str, name: str) -> bool:
         """Cheap screen before the exact matcher: at least WINDOW_SHARE of the
         quotation's three-word runs must occur in the file once case and
-        punctuation are set aside. It only ever rules a file out; the exact
-        matcher alone accepts a quotation."""
-        if self._load(name) is None:
+        punctuation are set aside. It searches every text the matcher can
+        accept from, the running text and each note, so it only ever rules a
+        file out; the exact matcher alone accepts a quotation."""
+        loaded = self._load(name)
+        if loaded is None:
             return False
         if name not in self._search:
-            self._search[name] = _squash(self._proc(name))
+            notes = [normalize_archaic_letterforms(strip_apparatus(collapse_linewrap_hyphens(body)))[0] for _, body in iter_source_notes(loaded[0])]
+            self._search[name] = "\n".join(_squash(t) for t in [self._proc(name), *notes])
         words = _squash(normalize_archaic_letterforms(span)[0]).split()
         if len(words) < 4:
             return True
@@ -221,9 +247,10 @@ class TextStore:
 
     def locus_text(self, name: str, locus: str) -> str | None:
         """The text of the division `locus` names in file `name`: a div whose
-        id or title is `locus`, with everything beneath it, or, in a plain-text
-        file, the passage unit at that address. None when the file has no such
-        division."""
+        id or title is `locus`, with everything beneath it and its markup kept,
+        so the notes inside it stay apart from its running text, or, in a
+        plain-text file, the passage unit at that address. None when the file
+        has no such division."""
         loaded = self._load(name)
         if loaded is None:
             return None
@@ -237,7 +264,7 @@ class TextStore:
                 title = _TITLE.search(attrs)
                 if (ident and ident.group(1) == locus) or (title and " ".join(title.group(1).lower().split()) == wanted):
                     stop = next((m[0] for m in marks[index + 1 :] if m[2] <= level), len(raw))
-                    pieces.append(strip_xml_markup(raw[end:stop]))
+                    pieces.append(raw[end:stop])
             return "\n".join(pieces) if pieces else None
         pieces = [u["text"] for u in self._units(name) if u["locus"] == locus or " ".join(u.get("title", "").lower().split()) == wanted]
         return "\n".join(pieces) if pieces else None
@@ -258,15 +285,19 @@ class TextStore:
             return list(dict.fromkeys(x for x in found if x)), False
         return list(dict.fromkeys(u["locus"] for u in self._units(name))), True
 
-    def verify_in(self, span: str, text: str) -> bool:
+    def verify_in(self, span: str, text: str, *, xml: bool) -> bool:
         """Whether the quotation is found word for word inside `text`, a
-        division's own text."""
-        text = join_soft_hyphens(text)
+        division's own text: its running text, or, in an XML file, one of its
+        notes."""
+        raw = join_soft_hyphens(text)
+        text = strip_xml_markup(raw) if xml else raw
         span = join_quotation_soft_hyphens(span)
         if verify_quote_text(span, text, source_is_xml=False).verified:
             return True
         cleaned = normalize_archaic_letterforms(strip_apparatus(collapse_linewrap_hyphens(text)))[0]
-        return verify_quote_text(normalize_archaic_letterforms(span)[0], cleaned, source_is_xml=False, apply_letterform_normalization=False).verified
+        if verify_quote_text(normalize_archaic_letterforms(span)[0], cleaned, source_is_xml=False, apply_letterform_normalization=False).verified:
+            return True
+        return xml and verify_quote_against_notes(span, raw) is not None
 
     def cited_in(self, text: str) -> list[str]:
         names = list(_PATH.findall(text)) + list(_FILENAME.findall(text))
@@ -276,12 +307,45 @@ class TextStore:
 
 
 def _norm(text: str) -> str:
+    """A project document's text, or a quotation of it, as the two are
+    compared: emphasis marks and square brackets dropped, contents kept, the
+    same on both sides, so neither decides a match."""
     text = text.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
     text = text.replace('"', "").replace("'", "")  # nested quotation style never decides a match
+    text = _BRACKET_MARK.sub("", _EMPHASIS.sub("", text))
     return _NORM.sub(" ", text).lower().strip()
 
 
-def _project_texts(code: str, root: Path, slug: str | None = None) -> dict[str, str]:
+class ProjectText:
+    """One project document as a quotation is checked against it: its whole
+    text, and each passage (a paragraph) on its own."""
+
+    def __init__(self, body: str, passages: list[str]):
+        self.body = _norm(body)
+        self.passages = [_norm(p) for p in passages]
+
+    def holds(self, span: str) -> bool:
+        """Whether the document holds the quotation. With an ellipsis, every
+        fragment must occur, in order, inside one passage."""
+        fragments = [f for f in (_norm(f) for f in _ELLIPSIS_MARK.split(span)) if f]
+        if not fragments:
+            return False
+        if len(fragments) == 1:
+            return fragments[0] in self.body
+        return any(_in_order(fragments, passage) for passage in self.passages)
+
+
+def _in_order(fragments: list[str], passage: str) -> bool:
+    at = 0
+    for fragment in fragments:
+        found = passage.find(fragment, at)
+        if found < 0:
+            return False
+        at = found + len(fragment)
+    return True
+
+
+def _project_texts(code: str, root: Path, slug: str | None = None) -> dict[str, ProjectText]:
     """Documents a quotation may legitimately quote instead of a source: the
     fleet-level documents and method library. Nothing from the world under
     check is included (its Step 0-2 documents, Source Registry and later build
@@ -301,10 +365,10 @@ def _project_texts(code: str, root: Path, slug: str | None = None) -> dict[str, 
         if own in resolved.parents or resolved == dossier:
             continue
         try:
-            body = docx_text(p) if p.suffix == ".docx" else read_text(p)
+            body = join_soft_hyphens(docx_text(p) if p.suffix == ".docx" else read_text(p))
         except (zipfile.BadZipFile, KeyError, ElementTree.ParseError):
             continue
-        out[rel(p, root)] = _norm(join_soft_hyphens(body))
+        out[rel(p, root)] = ProjectText(body, body.splitlines() if p.suffix == ".docx" else passages(body))
     return out
 
 
@@ -347,7 +411,7 @@ def confirm_locus(store: TextStore, span: str, paragraph: str) -> tuple[bool | N
         text = store.locus_text(name, locus)
         if text is None:
             problems.append(Finding("", "quotes-locus-unknown", f"cic:{name}:{locus} does not name a division of {name}{_loci_hint(store, name)}"))
-        elif store.verify_in(span, text):
+        elif store.verify_in(span, text, xml=name.endswith(".xml")):
             return True, []
         else:
             problems.append(Finding("", "quotes-locus", f"found in the file but not inside cic:{name}:{locus}: {span[:70]!r}"))
@@ -394,8 +458,8 @@ def check_quotes(code: str, documents: list[Path], root: Path = REPO_ROOT, *, sl
                 if hit is None:
                     if project is None:
                         project = _project_texts(code, root, slug)
-                    needle = _norm(join_quotation_soft_hyphens(span))
-                    source = next((p for p, body in project.items() if needle in body), None)
+                    needle = join_quotation_soft_hyphens(span)
+                    source = next((p for p, doc in project.items() if doc.holds(needle)), None)
                     if source:
                         exempt += 1
                         notes.append(f"{where}: quotation is from project document {source}: {span[:60]!r}")

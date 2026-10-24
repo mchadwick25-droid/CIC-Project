@@ -142,6 +142,16 @@ works:
     entry. Check the author slug against the existing staging file for this volume before
     adding.
   source_file: monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt
+- row_id: macarius-metropolitan_velikie-minei-chetii-september-25-30-chu_arkheograficheskaya-kommissiya1883--great-menaion-of-metropolitan-macarius-september-25-the-life-2
+  work: 'Great Menaion of Metropolitan Macarius, September 25: the Life and Praise of Saint
+    Sergius'
+  author: macarius-metropolitan
+  locus: as above, file lines 1363 to 13358
+  role: context
+  confidence: provisional
+  note: 'Placed on place and window: the same Muscovite church kept and read Sergius''s Life
+    in this compilation. Not read for this entry.'
+  source_file: macarius-metropolitan_velikie-minei-chetii-september-25-30-chu_arkheograficheskaya-kommissiya1883.txt
 - row_id: maxim-the-greek_sochineniia-v-russkom-perevode-ch1-nravouchitelnye-rus_troitse-sergieva-lavra1910--maxim-the-greek-moral-writings-nravouchitel-nye-sochineniia
   work: Maxim the Greek, moral writings (Nravouchitel'nye sochineniia), in the 1910 Trinity-Sergius
     Lavra Russian translation
@@ -175,6 +185,16 @@ works:
     and a second witness where the page is bad. Part 3 of the edition (1862) is on the host
     and part 1 was not found.'
   source_file: maxim-the-greek_sochineniia-ch2-chu_kazanskaia-dukhovnaia-akademiia1860.txt
+- row_id: mouravieff_history-of-the-church-of-russia_blackmore1842--a-history-of-the-church-of-russia-mouravieff-blackmore-s-2
+  work: A History of the Church of Russia (Mouravieff; Blackmore's English, 1842)
+  author: mouravieff
+  locus: the sixteenth-century and seventeenth-century chapters (the name Nikon occurs about
+    189 times)
+  role: context
+  confidence: provisional
+  note: 'Placed on window and place: the same history carries the Stoglav period, the Nikonian
+    reform and the schism. Sampled by name counts only; not read for these entries.'
+  source_file: mouravieff_history-of-the-church-of-russia_blackmore1842.txt
 - row_id: polnoe-sobranie-russkikh-letopisei_t13-2-dopolneniia-i-tsarstvennaia-kniga-rus_1906--additions-to-the-nikon-chronicle-for-1558-1567-the-synodal
   work: Additions to the Nikon Chronicle for 1558-1567 (the Synodal, Alexander Nevsky and
     Lebedev copies), 1906 edition
@@ -187,6 +207,17 @@ works:
     than in the Tsar''s Book; placed as tradition because it is the same official chronicle
     voice.'
   source_file: polnoe-sobranie-russkikh-letopisei_t13-2-dopolneniia-i-tsarstvennaia-kniga-rus_1906.txt
+- row_id: nil-sorsky_predanie-i-ustav-chu_borovkova-maikova1912--nil-sorsky-the-tradition-and-the-rule-for-the-skete-2
+  work: Nil Sorsky, the Tradition and the Rule for the skete (Предание и Устав), Borovkova-Maikova
+    edition, 1912
+  author: nil-sorsky
+  locus: editor's introduction and the text, as above
+  role: antecedent
+  confidence: provisional
+  note: The monastic ideal the non-possessors argued from, which the 1551 council's chapters
+    on monasteries later had to meet. Placed on window and place; the 1551 chapters were not
+    compared.
+  source_file: nil-sorsky_predanie-i-ustav-chu_borovkova-maikova1912.txt
 - row_id: polnoe-sobranie-russkikh-letopisei_t14-1-povest-o-tsare-feodore-i-novyi-letopisets-rus_1910--novyi-letopisets-the-new-chronicle-1584-to-the-1630s-in-the
   work: Novyi letopisets (the New Chronicle), 1584 to the 1630s, in the Archaeographic Commission's
     1910 edition
