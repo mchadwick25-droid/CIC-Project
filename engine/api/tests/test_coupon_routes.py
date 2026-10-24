@@ -152,10 +152,16 @@ def test_a_coupon_attaches_at_sign_in_and_shows_on_the_account(http, mailer, run
     assert http.get("/api/accounts/balance").json()["gifts"] == [3000]
 
 
+def attached_grant_id(http, made):
+    ids = [g["grant_id"] for g in http.get("/api/admin/deeper/grants", headers=AUTH).json()["grants"] if g["grant_id"].startswith("coupon_")]
+    assert len(ids) == 1 and ids[0] != made["coupon_id"]
+    return ids[0]
+
+
 def test_an_attached_coupon_is_cancelled_with_its_codes_and_leaves_the_account(http, mailer, runtime):
     made = approve(http).json()
     sign_in(http, mailer)
-    voided = http.post("/api/admin/deeper/void", json={"payment_id": made["coupon_id"]}, headers=AUTH)
+    voided = http.post("/api/admin/deeper/void", json={"payment_id": attached_grant_id(http, made)}, headers=AUTH)
     assert voided.status_code == 200 and voided.json()["voided"] == 1
     balance = http.get("/api/accounts/balance").json()
     assert balance["code_tokens"] == 0 and balance["gifts"] == []
@@ -164,8 +170,7 @@ def test_an_attached_coupon_is_cancelled_with_its_codes_and_leaves_the_account(h
 def test_the_grants_list_shows_an_attached_coupon_by_its_id(http, mailer):
     made = approve(http).json()
     sign_in(http, mailer)
-    ids = [g["grant_id"] for g in http.get("/api/admin/deeper/grants", headers=AUTH).json()["grants"]]
-    assert made["coupon_id"] in ids
+    assert attached_grant_id(http, made).startswith("coupon_")
 
 
 def test_the_address_reaches_no_log_while_it_is_approved_and_used(http, mailer, caplog):

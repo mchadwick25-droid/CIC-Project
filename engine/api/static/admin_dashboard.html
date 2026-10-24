@@ -940,7 +940,7 @@
       if (body.max_tokens) tokensBox.max = String(body.max_tokens);
       document.getElementById("coupon-limits").textContent =
         "A gift of tokens kept for whoever signs in with that address, with no deadline. Up to " + fmtNumber(body.max_tokens) + " tokens, " + body.per_day +
-        " a day. An unclaimed coupon is dropped after " + body.unclaimed_days + " days. The address is never shown again; note the coupon id to cancel it.";
+        " a day. An unclaimed coupon is dropped after " + body.unclaimed_days + " days. It matches the address exactly as the person signs in with it (capitals do not matter; a +tag does). The address is never shown again; note the coupon id to cancel it while it waits.";
       document.getElementById("t-deeper-coupon-detail").textContent = fmtNumber(body.coupons.length) + " waiting to be claimed. Limit " + body.per_day + " a day.";
       const list = document.getElementById("coupon-list");
       list.innerHTML = "";

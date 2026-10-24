@@ -131,9 +131,10 @@ class AccountsService:
         self.contacts = contacts
         self.shelf_cipher = shelf_cipher
         self._clock = clock
-        # Set by the edge that holds the meter: (coupon id, tokens) -> the hash of the one code
-        # that coupon's gift lives in. With none set, coupons wait where they are.
-        self.coupon_code_hash: Callable[[str, int], str | None] | None = None
+        # Set by the edge that holds the meter: (grant ids, tokens) -> the hash of the one code that
+        # coupon's gift lives in. The first id is the one to make it under; the rest are the same
+        # id under older keys, looked for first. With none set, coupons wait where they are.
+        self.coupon_code_hash: Callable[[list[str], int], str | None] | None = None
         self.coupon_unclaimed_days = 90
 
     # time and counters -------------------------------------------------------
@@ -770,6 +771,11 @@ class AccountsService:
     def coupon_cancel(self, coupon_id) -> bool:
         return isinstance(coupon_id, str) and self.store.cancel_pending_coupon(coupon_id)
 
+    def _coupon_grant_ids(self, coupon_id: str) -> list[str]:
+        """The meter's id for a coupon's code, as a keyed value of the coupon's own id, so the
+        account file and the meter never hold the same string for it. One per live key."""
+        return ["coupon_" + h.partition(":")[2][:24] for h in self.keys.secret_candidates("coupon", coupon_id)]
+
     def _redeem_coupons(self, account_id: str, address_hashes: list[str] | None) -> list[int]:
         """Attaches every coupon waiting for these address hashes to the account and returns the
         token amounts, for the notice. A fault here never fails the sign-in; a coupon not
@@ -780,7 +786,7 @@ class AccountsService:
         try:
             for coupon_id, tokens in self.store.pending_coupons_for(address_hashes):
                 try:
-                    code_hash = self.coupon_code_hash(coupon_id, tokens)
+                    code_hash = self.coupon_code_hash(self._coupon_grant_ids(coupon_id), tokens)
                     if code_hash is None:
                         continue
                     held_as = self.keys.secret_candidates("code", code_hash)

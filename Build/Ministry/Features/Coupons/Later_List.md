@@ -9,3 +9,5 @@ Built on 2026-10-24 under the rulings of that date in `Build/Ministry/Features/G
 5. A person signed in on a live session is not signed in again, so a coupon waits for their next sign-in (sessions end at 14 days idle or 60 days).
 6. Price cut at checkout (Mark's "discount"): not built. It needs a Stripe promotion code and a checkout that knows the account, and waits for buying to reopen.
 7. `cic-poc/frontend/src/lib/accountsCopy.ts` still says "home" in older lines. Mark's change from "home" to "account" was made on the two coupon lines only.
+8. Backups. The durable accounts file is not in the daily backup until accounts slice A5, so a waiting coupon would not survive a restore. An attached coupon lives in the meter, which is backed up.
+9. The meter's id for an attached coupon is a keyed value of the waiting coupon's id, so the account file and the meter never hold the same string for it (accounts proof A6). To cancel an attached coupon, use its id in the grants list, not the id shown at approval.

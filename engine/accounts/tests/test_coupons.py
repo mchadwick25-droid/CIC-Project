@@ -173,8 +173,8 @@ def test_a_fault_while_attaching_never_fails_the_sign_in_and_the_next_one_finish
     monkeypatch.setattr(wired.store, "claim_coupon", real)
     done = sign_in_result(wired, mailer)
     assert done.data["coupons"] == [3000] and len(held(wired, done)) == 1
-    (coupon_id,) = {r[0] for r in meter._conn.execute("SELECT payment_id FROM meter")}
-    assert coupon_id.startswith("coupon_")
+    (grant_id,) = {r[0] for r in meter._conn.execute("SELECT payment_id FROM meter")}
+    assert grant_id.startswith("coupon_")
     assert meter._conn.execute("SELECT COUNT(*) FROM meter").fetchone()[0] == 1  # made once, found the second time
 
 
@@ -243,3 +243,33 @@ def test_a_verifier_without_the_address_call_still_signs_in(svc, meter):
     approve(svc)
     cookie = provider_sign_in(svc)  # the plain fake verifier has no verified_address
     assert svc.session(cookie) is not None and len(svc.coupon_pending()) == 1
+
+
+def test_the_meter_never_holds_the_id_the_account_file_held_for_the_coupon(wired, mailer, meter, tmp_path):
+    made = approve(wired)
+    sign_in_result(wired, mailer)
+    (grant_id,) = {r[0] for r in meter._conn.execute("SELECT payment_id FROM meter")}
+    assert grant_id.startswith("coupon_") and grant_id != made.data["coupon_id"]
+    assert made.data["coupon_id"] not in grant_id and grant_id not in made.data["coupon_id"]
+    wired.store.close()
+    assert made.data["coupon_id"].encode() not in (tmp_path / "d.db").read_bytes()  # the row is gone once claimed
+    assert grant_id.encode() not in (tmp_path / "d.db").read_bytes()
+
+
+def test_a_coupon_made_before_a_key_rotation_is_found_after_it_and_not_made_twice(tmp_path, mailer, clock, meter, contacts, monkeypatch):
+    old = KeyRing(ADDRESS_KEY, SESSION_KEY)
+    store = AccountStore(str(tmp_path / "r.db"), str(tmp_path / "re.db"))
+    first = AccountsService(store, old, mailer, clock=clock, contacts=contacts)
+    first.coupon_code_hash = coupon_code_hash(SimpleNamespace(meter=meter))
+    first.coupon_approve(ADDR, 3000, max_tokens=MAX, max_per_day=PER_DAY)
+    monkeypatch.setattr(store, "claim_coupon", lambda *a, **k: (_ for _ in ()).throw(RuntimeError("disk")))
+    sign_in_result(first, mailer)  # the code is made, then attaching fails
+    assert meter._conn.execute("SELECT COUNT(*) FROM meter").fetchone()[0] == 1
+    monkeypatch.undo()
+    retire = date.fromtimestamp(START) + timedelta(days=30)
+    rotated = KeyRing("n" * 40, SESSION_KEY, key_id="k2", previous=[PreviousKey("k1", ADDRESS_KEY, retire)], today=lambda: date.fromtimestamp(START))
+    second = AccountsService(store, rotated, mailer, clock=clock, contacts=contacts)
+    second.coupon_code_hash = coupon_code_hash(SimpleNamespace(meter=meter))
+    assert sign_in_result(second, mailer).data["coupons"] == [3000]
+    assert meter._conn.execute("SELECT COUNT(*) FROM meter").fetchone()[0] == 1
+    store.close()

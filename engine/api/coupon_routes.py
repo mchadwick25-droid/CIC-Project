@@ -33,16 +33,21 @@ class CouponCancelRequest(BaseModel):
     coupon_id: str = Field(..., min_length=1, max_length=64)
 
 
-def coupon_code_hash(runtime: DeeperRuntime) -> Callable[[str, int], str | None]:
-    """(coupon id, tokens) -> the hash of the coupon's one code, made now or found if an earlier
-    sign-in made it and stopped before attaching it. The plain code is dropped at once."""
+def coupon_code_hash(runtime: DeeperRuntime) -> Callable[[list[str], int], str | None]:
+    """(grant ids, tokens) -> the hash of the coupon's one code, found if an earlier sign-in made it
+    and stopped before attaching it, otherwise made now under the first id. The plain code is
+    dropped at once."""
 
-    def hash_for(coupon_id: str, tokens: int) -> str | None:
+    def hash_for(grant_ids: list[str], tokens: int) -> str | None:
+        for grant_id in grant_ids:
+            found = runtime.meter.code_hash_of_payment(grant_id)
+            if found is not None:
+                return found
         try:
-            (code,) = runtime.meter.mint("single", tokens, coupon_id, 1, source="coupon")
+            (code,) = runtime.meter.mint("single", tokens, grant_ids[0], 1, source="coupon")
             return codes.hash_code(code)
         except AlreadyMinted:
-            return runtime.meter.code_hash_of_payment(coupon_id)
+            return runtime.meter.code_hash_of_payment(grant_ids[0])
         except PaymentVoided:
             return None
 
@@ -87,5 +92,5 @@ def install(app: FastAPI, runtime: DeeperRuntime, service: AccountsService, *, a
     def cancel_coupon(req: CouponCancelRequest, request: Request, authorization: str | None = Header(default=None)):
         authenticate_admin(request, authorization)
         if not service.coupon_cancel(req.coupon_id):
-            raise HTTPException(status_code=404, detail="no waiting coupon has that id; one already attached is cancelled with its codes")
+            raise HTTPException(status_code=404, detail="no waiting coupon has that id; one already attached is cancelled with its codes, by the id in the grants list")
         return {"coupon_id": req.coupon_id, "cancelled": True}
