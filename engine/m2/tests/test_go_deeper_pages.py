@@ -349,3 +349,29 @@ def test_the_privacy_page_numbers_match_the_meters_own_retention():
     assert f"we delete it {meter.RETENTION_DAYS} days after the end of the week it was last used." in section
     assert f"We delete it {meter.PILOT_RETENTION_DAYS} days after that day." in section
     assert f"{db_backup._DEFAULT_RETENTION_DAYS} more days" in section
+
+
+def test_the_landing_page_offers_get_more_conversations_in_the_top_row_and_loads_nothing_until_it_is_pressed():
+    html = (SITE / "index.html").read_text()
+    button = re.search(r'<button[^>]*id="more-toggle"[^>]*>(.*?)</button>', html, re.S)
+    assert button and "hidden" in button.group(0) and button.group(1).strip() == "Get more conversations"
+    frame = re.search(r'<iframe[^>]*id="more-frame"[^>]*>', html).group(0)
+    assert "src=" not in frame
+    assert html.index("assets/go-deeper-config.js") < html.index("assets/more-conversations.js")
+
+
+def test_the_slide_out_hears_only_the_app_frame_at_the_app_origin():
+    js = (SITE / "assets" / "more-conversations.js").read_text()
+    assert "ev.origin !== appOrigin" in js and "ev.source !== frame.contentWindow" in js
+    assert 'postMessage({ type: "cic:panel-open" }, appOrigin)' in js
+
+
+def test_the_landing_page_drawer_ships_off_until_the_app_that_draws_it_is_live():
+    config = (SITE / "assets" / "go-deeper-config.js").read_text()
+    assert re.search(r"\bdrawer:\s*false\b", config)
+    assert "cfg.drawer" in (SITE / "assets" / "more-conversations.js").read_text()
+
+
+def test_the_app_panel_offers_the_same_two_gift_links_as_the_support_page():
+    ts = (REPO / "cic-poc" / "frontend" / "src" / "lib" / "giftLinks.ts").read_text()
+    assert re.findall(r"'(https://(?:donate|buy)\.stripe\.com/[^']+)'", ts) == SUPPORT_LINKS
