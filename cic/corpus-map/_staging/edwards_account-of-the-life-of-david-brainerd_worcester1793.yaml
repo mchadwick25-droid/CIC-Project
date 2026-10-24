@@ -1,0 +1,12 @@
+source_file: edwards_account-of-the-life-of-david-brainerd_worcester1793.txt
+assignments:
+- row_id: edwards_account-of-the-life-of-david-brainerd_worcester1793--an-account-of-the-life-of-the-reverend-david-brainerd-from
+  work: An Account of the Life of the Reverend David Brainerd, from his diary (Edwards, 1749)
+  author: edwards
+  locus: whole work; Brainerd's diary entries quoted by date are Brainerd's words
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: tradition
+  confidence: assigned
+  note: The missionary biography that shaped the awakening's self-telling, with Brainerd's own diary inside
+    it.

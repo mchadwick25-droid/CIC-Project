@@ -1,0 +1,12 @@
+source_file: new-jerusalem-church_confession-of-faith-jerusalem-chapel-birmingham_1800.txt
+assignments:
+- row_id: new-jerusalem-church_confession-of-faith-jerusalem-chapel-birmingham_1800--a-confession-of-the-faith-and-expectations-of-the-lord-s-new
+  work: A Confession of the Faith and Expectations of the Lord's New Church, Birmingham (1800)
+  author: new-jerusalem-church
+  locus: whole document
+  atlas_ids:
+  - swedenborgian-new-church
+  role: tradition
+  confidence: assigned
+  note: A congregation defining the place of Swedenborg's writings in its faith; the readers' church speaking
+    for itself.

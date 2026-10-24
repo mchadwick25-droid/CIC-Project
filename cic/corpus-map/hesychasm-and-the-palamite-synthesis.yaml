@@ -263,6 +263,26 @@ works:
   note: Includes the acts of Callistus and Philotheos, the patriarchs of the Palamite settlement.
     Placed from the elenchus; the individual letters on the controversy were not located.
   source_file: calecas_opera-omnia-pg152-grc-lat_migne1866.txt
+- row_id: philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893--philokalia-vol-1-the-patristic-texts-fourth-to-seventh
+  work: 'Philokalia, vol. 1: the patristic texts (fourth to seventh centuries) as printed'
+  author: philokalia
+  locus: the fathers' texts, as distinct from the compilers' framing
+  role: transmission
+  confidence: provisional
+  note: The older hesychast and ascetic tradition as the eighteenth century chose and printed
+    it; reception for the Palamite world, provisional.
+  source_file: philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt
+- row_id: philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893--philokalia-vol-2-gregory-of-sinai-gregory-palamas-kallistos
+  work: 'Philokalia, vol. 2: Gregory of Sinai, Gregory Palamas, Kallistos and Ignatius Xanthopoulos
+    and the other fourteenth-century texts as printed'
+  author: philokalia
+  locus: from the heading for Gregory of Sinai (about raw scan line 34746) through the Xanthopoulos
+    chapters (from about line 48420)
+  role: transmission
+  confidence: provisional
+  note: The Palamite sources in the form the 1782 compilers printed them; reception for the
+    fourteenth-century world, which should prefer its own critical texts.
+  source_file: philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt
 - row_id: palamas_homiliae-41-grc_jerusalem1857--philotheos-kokkinos-and-neilos-of-constantinople-panegyrics
   work: Philotheos Kokkinos and Neilos of Constantinople, panegyrics of Gregory Palamas, Greek,
     in the Jerusalem edition of 1857

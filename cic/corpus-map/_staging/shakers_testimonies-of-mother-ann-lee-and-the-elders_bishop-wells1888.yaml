@@ -1,0 +1,22 @@
+source_file: shakers_testimonies-of-mother-ann-lee-and-the-elders_bishop-wells1888.txt
+authors_ruled:
+  shakers:
+    kind: metadata-omission
+    evidence: 'The title page names no compiler (''collected from living witnesses, in union with the
+      Church''); the host names Rufus Bishop and Seth Youngs Wells. An institutional slug for the United
+      Society of Believers, as moravian-church is for the Brethren. Plain-text vendored file, so cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+assignments:
+- row_id: shakers_testimonies-of-mother-ann-lee-and-the-elders_bishop-wells1888--testimonies-of-the-life-character-revelations-and-doctrines
+  work: Testimonies of the Life, Character, Revelations and Doctrines of Mother Ann Lee (second edition,
+    1888)
+  author: shakers
+  locus: whole work
+  atlas_ids:
+  - shakers
+  role: tradition
+  confidence: assigned
+  note: The Society's own collected testimony of the founders; retrospective by design, which the census
+    already flags.

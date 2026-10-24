@@ -39,3 +39,15 @@ assignments:
       Tridentine-side marks-of-the-Church argument, useful as evidence of
       how that argument was received and attacked, never as this world's
       own composed voice.
+  - row_id: bellarmine_notes-of-the-church_1688--the-notes-of-the-church-de-notis-ecclesiae-examined-a-church-2
+    work: "The Notes of the Church (De Notis Ecclesiae) EXAMINED - a Church of England tract series refuting Bellarmine's own Notes of the Church"
+    author: church-of-england-anon-1687
+    locus: "whole volume"
+    atlas_ids:
+      - restoration-georgian-church-of-england
+    role: tradition
+    confidence: assigned
+    note: >
+      A Church of England tract series of 1687-88, printed during James II's reign, refuting
+      Bellarmine's marks of the Church: the established church's own controversial voice at the
+      moment of the Revolution of 1688. Anonymous Anglican authorship as ruled for this file.

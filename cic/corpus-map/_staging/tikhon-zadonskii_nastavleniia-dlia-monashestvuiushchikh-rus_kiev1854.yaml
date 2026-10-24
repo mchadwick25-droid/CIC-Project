@@ -1,0 +1,21 @@
+source_file: tikhon-zadonskii_nastavleniia-dlia-monashestvuiushchikh-rus_kiev1854.txt
+assignments:
+- row_id: tikhon-zadonskii_nastavleniia-dlia-monashestvuiushchikh-rus_kiev1854--work
+  work: Наставления, писанныя для монашествующих
+  author: tikhon-zadonskii
+  locus: whole text
+  atlas_ids:
+  - russian-church-nikon-to-holy-synod
+  role: tradition
+  confidence: assigned
+  note: The retired bishop of Voronezh counselling monks; the church's inner devotional life beside its
+    synodal government.
+- row_id: tikhon-zadonskii_nastavleniia-dlia-monashestvuiushchikh-rus_kiev1854--work-2
+  work: Наставления, писанныя для монашествующих
+  author: tikhon-zadonskii
+  locus: whole text
+  atlas_ids:
+  - the-optina-elders-and-russian-ascetic-renewal
+  role: antecedent
+  confidence: provisional
+  note: Tikhon was read by the nineteenth-century ascetic revival; provisional.

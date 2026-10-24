@@ -16,3 +16,179 @@ works:
     Philippines'' inside voice. Second witness: the OCR reads long s as f and is garbled,
     not quotable from this file alone. A clean scan of any printing is wanted.'
   source_file: aquino-de-belen_pasyon-and-manga-panalangin-tgl_manila1760.txt
+- row_id: blair-robertson_philippine-islands-v50_1907--the-philippine-islands-vol-l-1764-1800-the-documents
+  work: 'The Philippine Islands, vol. L (1764-1800): the documents'
+  author: blair-robertson
+  locus: Anda's memorial, Sancho's instructions to the secular clergy, the expulsion of the
+    Jesuits, and the council of 1771
+  role: tradition
+  confidence: assigned
+  note: 'Friars'', bishops'' and officials'' own documents in the editors'' English translation;
+    the colonial church''s voice, not Filipino lay Christians''. Quotations are the translators''
+    wording and need the Spanish where the corpus has it.
+
+    '
+  source_file: blair-robertson_philippine-islands-v50_1907.txt
+- row_id: blair-robertson_philippine-islands-v40_1906--the-philippine-islands-vol-xl-1690-1691-the-documents
+  work: 'The Philippine Islands, vol. XL (1690-1691): the documents'
+  author: blair-robertson
+  locus: Gaspar de San Agustín's letter on the Filipinos and San Antonio's chapters from the
+    Crónicas; Colin and Combés as earlier witnesses
+  role: tradition
+  confidence: assigned
+  note: 'Friars'', bishops'' and officials'' own documents in the editors'' English translation;
+    the colonial church''s voice, not Filipino lay Christians''. Quotations are the translators''
+    wording and need the Spanish where the corpus has it.
+
+    '
+  source_file: blair-robertson_philippine-islands-v40_1906.txt
+- row_id: blair-robertson_philippine-islands-v41_1906--the-philippine-islands-vol-xli-1691-1700-the-documents
+  work: 'The Philippine Islands, vol. XLI (1691-1700): the documents'
+  author: blair-robertson
+  locus: the Jesuit letters and the Recollect missions 1661-1712
+  role: tradition
+  confidence: assigned
+  note: 'Friars'', bishops'' and officials'' own documents in the editors'' English translation;
+    the colonial church''s voice, not Filipino lay Christians''. Quotations are the translators''
+    wording and need the Spanish where the corpus has it.
+
+    '
+  source_file: blair-robertson_philippine-islands-v41_1906.txt
+- row_id: blair-robertson_philippine-islands-v42_1906--the-philippine-islands-vol-xlii-1670-1700-the-documents
+  work: 'The Philippine Islands, vol. XLII (1670-1700): the documents'
+  author: blair-robertson
+  locus: both documents
+  role: tradition
+  confidence: assigned
+  note: 'Friars'', bishops'' and officials'' own documents in the editors'' English translation;
+    the colonial church''s voice, not Filipino lay Christians''. Quotations are the translators''
+    wording and need the Spanish where the corpus has it.
+
+    '
+  source_file: blair-robertson_philippine-islands-v42_1906.txt
+- row_id: blair-robertson_philippine-islands-v44_1906--the-philippine-islands-vol-xliv-1700-1736-the-documents
+  work: 'The Philippine Islands, vol. XLIV (1700-1736): the documents'
+  author: blair-robertson
+  locus: Murillo Velarde's Jesuit missions, the 1701 report, the Bustamante documents; the
+    commerce treatise excluded
+  role: tradition
+  confidence: assigned
+  note: 'Friars'', bishops'' and officials'' own documents in the editors'' English translation;
+    the colonial church''s voice, not Filipino lay Christians''. Quotations are the translators''
+    wording and need the Spanish where the corpus has it.
+
+    '
+  source_file: blair-robertson_philippine-islands-v44_1906.txt
+- row_id: blair-robertson_philippine-islands-v49_1907--the-philippine-islands-vol-xlix-1762-1765-the-documents
+  work: 'The Philippine Islands, vol. XLIX (1762-1765): the documents'
+  author: blair-robertson
+  locus: Rojo's journal and narrative, Anda's letters, and the Jesuit letters; the British
+    papers as the enemy's view
+  role: tradition
+  confidence: assigned
+  note: 'Friars'', bishops'' and officials'' own documents in the editors'' English translation;
+    the colonial church''s voice, not Filipino lay Christians''. Quotations are the translators''
+    wording and need the Spanish where the corpus has it.
+
+    '
+  source_file: blair-robertson_philippine-islands-v49_1907.txt
+- row_id: blair-robertson_philippine-islands-v47_1907--the-philippine-islands-vol-xlvii-1728-1759-the-documents
+  work: 'The Philippine Islands, vol. XLVII (1728-1759): the documents'
+  author: blair-robertson
+  locus: the Misericordia, the ecclesiastical estate of 1742, the Order of St John of God,
+    the Jesuit letter, and Pérez on the Zambals
+  role: tradition
+  confidence: assigned
+  note: 'Friars'', bishops'' and officials'' own documents in the editors'' English translation;
+    the colonial church''s voice, not Filipino lay Christians''. Quotations are the translators''
+    wording and need the Spanish where the corpus has it.
+
+    '
+  source_file: blair-robertson_philippine-islands-v47_1907.txt
+- row_id: blair-robertson_philippine-islands-v48_1907--the-philippine-islands-vol-xlviii-1751-1765-the-documents
+  work: 'The Philippine Islands, vol. XLVIII (1751-1765): the documents'
+  author: blair-robertson
+  locus: the documents of 1751-1762 and Viana's memorial
+  role: tradition
+  confidence: assigned
+  note: 'Friars'', bishops'' and officials'' own documents in the editors'' English translation;
+    the colonial church''s voice, not Filipino lay Christians''. Quotations are the translators''
+    wording and need the Spanish where the corpus has it.
+
+    '
+  source_file: blair-robertson_philippine-islands-v48_1907.txt
+- row_id: blair-robertson_philippine-islands-v39_1906--the-philippine-islands-vol-xxxix-1683-1690-the-documents
+  work: 'The Philippine Islands, vol. XXXIX (1683-1690): the documents'
+  author: blair-robertson
+  locus: the Pardo controversy and the petition for Dominican missionaries; Dampier as an
+    outside witness
+  role: tradition
+  confidence: assigned
+  note: 'Friars'', bishops'' and officials'' own documents in the editors'' English translation;
+    the colonial church''s voice, not Filipino lay Christians''. Quotations are the translators''
+    wording and need the Spanish where the corpus has it.
+
+    '
+  source_file: blair-robertson_philippine-islands-v39_1906.txt
+- row_id: blair-robertson_philippine-islands-v36_1906--the-philippine-islands-vol-xxxvi-1649-1666-the-documents
+  work: 'The Philippine Islands, vol. XXXVI (1649-1666): the documents'
+  author: blair-robertson
+  locus: the documents of 1649-1666, especially the Recollect missions 1646-60 and 'Why the
+    friars are not subjected to episcopal visitation'; the appendix of 1842 excluded
+  role: tradition
+  confidence: assigned
+  note: 'Friars'', bishops'' and officials'' own documents in the editors'' English translation;
+    the colonial church''s voice, not Filipino lay Christians''. Quotations are the translators''
+    wording and need the Spanish where the corpus has it.
+
+    '
+  source_file: blair-robertson_philippine-islands-v36_1906.txt
+- row_id: blair-robertson_philippine-islands-v37_1906--the-philippine-islands-vol-xxxvii-1669-1676-the-documents
+  work: 'The Philippine Islands, vol. XXXVII (1669-1676): the documents'
+  author: blair-robertson
+  locus: all four documents
+  role: tradition
+  confidence: assigned
+  note: 'Friars'', bishops'' and officials'' own documents in the editors'' English translation;
+    the colonial church''s voice, not Filipino lay Christians''. Quotations are the translators''
+    wording and need the Spanish where the corpus has it.
+
+    '
+  source_file: blair-robertson_philippine-islands-v37_1906.txt
+- row_id: francisco-de-san-jose_libro-de-las-quatro-postrimerias-tgl_manila1734--libro-de-las-quatro-postrimerias-del-hombre-en-lengua-tagala
+  work: Libro de las quatro postrimerías del hombre, en lengua tagala (1734 printing)
+  author: francisco-de-san-jose
+  locus: whole text
+  role: tradition
+  confidence: assigned
+  note: 'Friar-authored Tagalog devotion, reprinted in the window; the church speaking to
+    Tagalogs in their language, not their own voice. Quotation needs a Tagalog reader and
+    the page images.
+
+    '
+  source_file: francisco-de-san-jose_libro-de-las-quatro-postrimerias-tgl_manila1734.txt
+- row_id: manila-city_leales-demostraciones-fiestas-ss-sacramento-guia-spa_1709--leales-demostraciones-de-la-ciudad-de-manila-1709-the
+  work: 'Leales demostraciones de la ciudad de Manila (1709): the account and the festival
+    sermons'
+  author: manila-city
+  locus: whole text
+  role: tradition
+  confidence: provisional
+  note: 'The colonial city''s own record of a devotional festival, with its sermons; Spanish
+    Manila''s piety, not the Filipino parishes''. Borderline OCR: read against the page images
+    before quoting.
+
+    '
+  source_file: manila-city_leales-demostraciones-fiestas-ss-sacramento-guia-spa_1709.txt
+- row_id: murillo-velarde_historia-provincia-philipinas-compania-jesus-spa_1749--historia-de-la-provincia-de-philipinas-de-la-compania-de
+  work: Historia de la provincia de Philipinas de la Compañía de Jesús, segunda parte (1749)
+  author: murillo-velarde
+  locus: four books, 1616 to 1716; the years from 1650 are this world's
+  role: tradition
+  confidence: assigned
+  note: 'A Manila Jesuit''s history of his province in his own Spanish: the order''s missions,
+    colleges and disputes, its own case in the jurisdiction quarrels. The religious order''s
+    voice, not the converts''.
+
+    '
+  source_file: murillo-velarde_historia-provincia-philipinas-compania-jesus-spa_1749.txt

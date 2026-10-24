@@ -1,0 +1,29 @@
+source_file: osborn-sarah_memoirs-compiled-from-her-diaries_hopkins1799.txt
+authors_ruled:
+  hopkins-samuel:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is osborn-sarah, the diarist whose words the
+      volume quotes; the compiler Samuel Hopkins is named on the title page (file lines about 20-30) and
+      his connecting narrative is assigned under his own slug. cic/texts/AUTHORS.md has not seen the slug
+      yet.
+
+      '
+assignments:
+- row_id: osborn-sarah_memoirs-compiled-from-her-diaries_hopkins1799--sarah-osborn-s-diaries-and-memoir-as-quoted-in-hopkins-s
+  work: Sarah Osborn's diaries and memoir, as quoted in Hopkins's Memoirs (1799)
+  author: osborn-sarah
+  locus: the diary entries and the memoir quoted throughout; Hopkins's connecting narrative excluded
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: tradition
+  confidence: assigned
+  note: A laywoman's forty years of spiritual record, in her own words as her pastor extracted them.
+- row_id: osborn-sarah_memoirs-compiled-from-her-diaries_hopkins1799--memoirs-of-the-life-of-mrs-sarah-osborn-hopkins-s-compiling
+  work: Memoirs of the Life of Mrs. Sarah Osborn (Hopkins's compiling narrative, 1799)
+  author: hopkins-samuel
+  locus: Hopkins's preface, connecting narrative and closing character
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: context
+  confidence: assigned
+  note: The New Divinity pastor's frame around her words; not hers.

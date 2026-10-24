@@ -1,0 +1,12 @@
+source_file: church-of-the-brethren_kleine-davidische-psalterspiel-deu_saur1744.txt
+assignments:
+- row_id: church-of-the-brethren_kleine-davidische-psalterspiel-deu_saur1744--das-kleine-davidische-psalterspiel-der-kinder-zions
+  work: Das Kleine Davidische Psalterspiel der Kinder Zions (Germantown, 1744)
+  author: church-of-the-brethren
+  locus: whole volume; numbered hymns
+  atlas_ids:
+  - radical-pietism-and-the-brethren-dunkers-ephrata
+  role: tradition
+  confidence: assigned
+  note: The Brethren congregations' hymnal, drawing on Halle and Berleburg collections and on Pennsylvania
+    authors; German original with interleaved-column OCR.

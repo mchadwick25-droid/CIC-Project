@@ -1,0 +1,18 @@
+source_file: gay-ebenezer_natural-religion-as-distinguished-from-revealed-dudleian-lecture_1759.txt
+authors_ruled:
+  gay-ebenezer:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By Ebenezer Gay, A.M., Pastor of the First Church of Christ in Hingham''.
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: gay-ebenezer_natural-religion-as-distinguished-from-revealed-dudleian-lecture_1759--natural-religion-as-distinguish-d-from-revealed-1759
+  work: Natural Religion, as distinguish'd from Revealed (1759)
+  author: gay-ebenezer
+  locus: whole work
+  atlas_ids:
+  - early-american-unitarians-universalists
+  role: antecedent
+  confidence: provisional
+  note: The rational-religion root of the Unitarian thread, before the window.

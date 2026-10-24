@@ -3,6 +3,14 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: russian-church-synodal-century
 works:
+- row_id: mouravieff_history-of-the-church-of-russia_blackmore1842--a-history-of-the-church-of-russia-1838-english-1842-2
+  work: A History of the Church of Russia (1838; English 1842)
+  author: mouravieff
+  locus: whole work
+  role: tradition
+  confidence: provisional
+  note: Written inside the Synodal century by one of its officials; provisional.
+  source_file: mouravieff_history-of-the-church-of-russia_blackmore1842.txt
 - row_id: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878--the-longer-catechism-of-the-orthodox-catholic-eastern-church
   work: The Longer Catechism of the Orthodox, Catholic, Eastern Church (Philaret, Moscow 1839),
     English of R. W. Blackmore 1845
@@ -16,3 +24,12 @@ works:
     after 1815 is its entry; the English is Blackmore's 1845 translation, not Schaff's. Clean
     English OCR.
   source_file: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt
+- row_id: spiritual-regulation_dukhovnyi-reglament-rus_sinodalnaia-tipografiia1856--1721-with-the-1722-2
+  work: Духовный регламент (1721) with the Прибавление (1722)
+  author: spiritual-regulation
+  locus: whole text
+  role: tradition
+  confidence: provisional
+  note: The Regulation stayed in force until 1917; the 1856 reprint is the Synodal century's
+    own; provisional for that world.
+  source_file: spiritual-regulation_dukhovnyi-reglament-rus_sinodalnaia-tipografiia1856.txt

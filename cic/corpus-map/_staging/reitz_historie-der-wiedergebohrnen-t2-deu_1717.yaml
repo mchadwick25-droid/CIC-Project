@@ -1,0 +1,22 @@
+source_file: reitz_historie-der-wiedergebohrnen-t2-deu_1717.txt
+assignments:
+- row_id: reitz_historie-der-wiedergebohrnen-t2-deu_1717--historie-der-wiedergebohrnen-ii-theil-1717
+  work: Historie der Wiedergebohrnen, II. Theil (1717)
+  author: reitz
+  locus: whole part
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: tradition
+  confidence: assigned
+  note: Pietism's own anthology of conversion narratives, lay and learned, women and men; the genre in
+    the movement's own hands.
+- row_id: reitz_historie-der-wiedergebohrnen-t2-deu_1717--historie-der-wiedergebohrnen-ii-theil-1717-2
+  work: Historie der Wiedergebohrnen, II. Theil (1717)
+  author: reitz
+  locus: whole part
+  atlas_ids:
+  - radical-pietism-and-the-brethren-dunkers-ephrata
+  role: context
+  confidence: provisional
+  note: Reitz stood on the radical side of Pietism and his collection circulated among the Schwarzenau
+    and Pennsylvania Germans; the shared devotional library. Provisional.

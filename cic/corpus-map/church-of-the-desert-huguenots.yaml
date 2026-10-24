@@ -3,6 +3,99 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: church-of-the-desert-huguenots
 works:
+- row_id: anderson-frank-maloy_constitutions-and-documents-history-of-france_1908--organic-articles-for-the-protestant-churches-1802-anderson-s
+  work: Organic Articles for the Protestant Churches (1802) (Anderson's English, 1908)
+  author: anderson-frank-maloy
+  locus: the Organic Articles for the Protestant cults
+  role: transmission
+  confidence: provisional
+  note: The settlement that gave the former Desert churches state recognition in 1802, after
+    this world's window.
+  source_file: anderson-frank-maloy_constitutions-and-documents-history-of-france_1908.txt
+- row_id: bossuet_oraisons-funebres-fra_doumic1928--oraison-funebre-de-michel-le-tellier-1686
+  work: Oraison funèbre de Michel Le Tellier (1686)
+  author: bossuet
+  locus: the oration for Le Tellier
+  role: context
+  confidence: provisional
+  note: The court pulpit hailing the Revocation edict that opened the Desert.
+  source_file: bossuet_oraisons-funebres-fra_doumic1928.txt
+- row_id: brueys_histoire-du-fanatisme-t1-t2-fra_1755--histoire-du-fanatisme-de-notre-tems-t-i-book-one-1755
+  work: Histoire du fanatisme de notre tems, t. I, book one (1755 edition)
+  author: brueys
+  locus: tome one, book one (the prophets of Dauphiné and Vivarais, 1688-1689)
+  role: context
+  confidence: provisional
+  note: The first years after the Revocation from the convert's side; the Desert's prophetic
+    beginnings before Court.
+  source_file: brueys_histoire-du-fanatisme-t1-t2-fra_1755.txt
+- row_id: cavalier_memoirs-of-the-wars-of-the-cevennes_1726--memoirs-of-the-wars-of-the-cevennes-1726-2
+  work: Memoirs of the Wars of the Cevennes (1726)
+  author: cavalier
+  locus: whole work
+  role: tradition
+  confidence: provisional
+  note: The armed resistance that opened the Desert period, in a participant's words.
+  source_file: cavalier_memoirs-of-the-wars-of-the-cevennes_1726.txt
+- row_id: court-antoine_sermons-fra_combe1896--antoine-court-a-biography-combe-1896
+  work: Antoine Court, a biography (Combe, 1896)
+  author: combe-ernest
+  locus: the biography before the sermons
+  role: context
+  confidence: assigned
+  note: A short nineteenth-century life of Court; scholarship framing the sermons.
+  source_file: court-antoine_sermons-fra_combe1896.txt
+- row_id: coquerel-charles_histoire-des-eglises-du-desert-t1-fra_1841--histoire-des-eglises-du-desert-t-i-1841
+  work: Histoire des églises du désert, t. I (1841)
+  author: coquerel-charles
+  locus: the narrative chapters and the pièces justificatives
+  role: context
+  confidence: assigned
+  note: Nineteenth-century Protestant history; its appendices print the Desert's own letters
+    and memorials, to be cited as documents in Coquerel's transcription.
+  source_file: coquerel-charles_histoire-des-eglises-du-desert-t1-fra_1841.txt
+- row_id: coquerel-charles_histoire-des-eglises-du-desert-t2-fra_1841--histoire-des-eglises-du-desert-t-ii-1841
+  work: Histoire des églises du désert, t. II (1841)
+  author: coquerel-charles
+  locus: the narrative chapters and the pièces justificatives
+  role: context
+  confidence: assigned
+  note: The later Desert from its own papers, in Coquerel's narrative and appendices.
+  source_file: coquerel-charles_histoire-des-eglises-du-desert-t2-fra_1841.txt
+- row_id: court-antoine_histoire-des-troubles-des-cevennes-t1-fra_1819--histoire-des-troubles-des-cevennes-t-i-1760-1819-edition
+  work: Histoire des troubles des Cévennes, t. I (1760; 1819 edition)
+  author: court-antoine
+  locus: books one to five; the 1819 discours préliminaire and notice excluded
+  role: tradition
+  confidence: assigned
+  note: Antoine Court's own history; how the Desert church remembered and judged the Camisards
+    half a century later.
+  source_file: court-antoine_histoire-des-troubles-des-cevennes-t1-fra_1819.txt
+- row_id: court-antoine_histoire-des-troubles-des-cevennes-t2-fra_1819--histoire-des-troubles-des-cevennes-t-ii-1760-1819-edition
+  work: Histoire des troubles des Cévennes, t. II (1760; 1819 edition)
+  author: court-antoine
+  locus: books six to twelve
+  role: tradition
+  confidence: assigned
+  note: Court's history continued.
+  source_file: court-antoine_histoire-des-troubles-des-cevennes-t2-fra_1819.txt
+- row_id: court-antoine_histoire-des-troubles-des-cevennes-t3-fra_1819--histoire-des-troubles-des-cevennes-t-iii-1760-1819-edition
+  work: Histoire des troubles des Cévennes, t. III (1760; 1819 edition)
+  author: court-antoine
+  locus: books thirteen to sixteen
+  role: tradition
+  confidence: assigned
+  note: The end of the war and the turn toward the church Court himself would rebuild.
+  source_file: court-antoine_histoire-des-troubles-des-cevennes-t3-fra_1819.txt
+- row_id: court-antoine_sermons-fra_combe1896--sermons-d-antoine-court-1718-and-manuscripts-combe-s-edition
+  work: Sermons d'Antoine Court (1718 and manuscripts; Combe's edition, 1896)
+  author: court-antoine
+  locus: from 'Sermons d'Antoine Court' to the end
+  role: tradition
+  confidence: assigned
+  note: Court's preaching to the Desert assemblies; spelling modernised by the editor, wording
+    kept.
+  source_file: court-antoine_sermons-fra_combe1896.txt
 - row_id: fontaine-james_memoirs-of-a-huguenot-family_maury1853--autobiography-of-the-rev-james-fontaine-2
   work: The autobiography of the Rev. James Fontaine (b. 1658), written for his children,
     chapters I-XVI (Ann Maury's translation)
@@ -16,6 +109,40 @@ works:
 
     '
   source_file: fontaine-james_memoirs-of-a-huguenot-family_maury1853.txt
+- row_id: french-church-of-london_examen-du-theatre-sacre-fra_1708--examen-du-theatre-sacre-des-cevennes-1708-2
+  work: Examen du Théâtre sacré des Cévennes (1708)
+  author: french-church-of-london
+  locus: whole pamphlet
+  role: context
+  confidence: provisional
+  note: The orthodox Reformed rejection of the inspirations that Antoine Court's restored
+    church would later make its own line.
+  source_file: french-church-of-london_examen-du-theatre-sacre-fra_1708.txt
+- row_id: french-reformed-synods_synodes-du-desert-t1-fra_hugues1885--actes-et-reglements-des-synodes-du-desert-1715-1750
+  work: Actes et règlements des synodes du Désert, 1715-1750
+  author: french-reformed-synods
+  locus: the acts; Hugues's introduction as a separate row below
+  role: tradition
+  confidence: assigned
+  note: The church governing itself in hiding, synod by synod; its own decisions in its own
+    words.
+  source_file: french-reformed-synods_synodes-du-desert-t1-fra_hugues1885.txt
+- row_id: french-reformed-synods_synodes-du-desert-t2-fra_hugues1886--actes-et-reglements-des-synodes-du-desert-1751-1770
+  work: Actes et règlements des synodes du Désert, 1751-1770
+  author: french-reformed-synods
+  locus: the acts
+  role: tradition
+  confidence: assigned
+  note: The synods under Paul Rabaut, in their own records.
+  source_file: french-reformed-synods_synodes-du-desert-t2-fra_hugues1886.txt
+- row_id: french-reformed-synods_synodes-du-desert-t3-fra_hugues1886--actes-et-reglements-des-synodes-du-desert-1771-1796
+  work: Actes et règlements des synodes du Désert, 1771-1796
+  author: french-reformed-synods
+  locus: the acts
+  role: tradition
+  confidence: assigned
+  note: The last synods of the Desert and the first under toleration.
+  source_file: french-reformed-synods_synodes-du-desert-t3-fra_hugues1886.txt
 - row_id: schaff_gallican-confession-fra-eng_1877--confessio-fidei-gallicana-the-french-confession-of-faith-3
   work: Confessio Fidei Gallicana. The French Confession of Faith, A.D. 1559 (French text
     in modern spelling with Emily O. Butler's English translation)
@@ -40,6 +167,15 @@ works:
 
     '
   source_file: quick_synodicon-in-gallia-reformata_1692.txt
+- row_id: french-reformed-synods_synodes-du-desert-t1-fra_hugues1885--introduction-to-les-synodes-du-desert-1885
+  work: Introduction to Les Synodes du Désert (1885)
+  author: hugues-edmond
+  locus: the introduction in roman pages before the acts
+  role: context
+  confidence: assigned
+  note: Hugues's history of the restoration from the synodal record; scholarship, kept because
+    it frames the acts.
+  source_file: french-reformed-synods_synodes-du-desert-t1-fra_hugues1885.txt
 - row_id: fontaine-james_memoirs-of-a-huguenot-family_maury1853--the-edict-of-revocation-1685-english
   work: Edict of the King, which revokes that of Nantes (the Edict of Fontainebleau, October
     1685, Ann Maury's translation)
@@ -53,6 +189,15 @@ works:
 
     '
   source_file: fontaine-james_memoirs-of-a-huguenot-family_maury1853.txt
+- row_id: louis-xvi-france_edit-concernant-les-non-catholiques-fra_1788--edict-of-toleration-november-1787
+  work: Edict of Toleration (November 1787)
+  author: louis-xvi-france
+  locus: whole edict with its registration
+  role: context
+  confidence: assigned
+  note: The crown's act ending the illegality the Desert lived under; civil status only, which
+    the preamble itself makes plain.
+  source_file: louis-xvi-france_edit-concernant-les-non-catholiques-fra_1788.txt
 - row_id: migault_trials-of-a-french-protestant-family_anderson1852--jean-migault-or-the-trials-of-a-french-protestant-family-2
   work: Jean Migault; or, The Trials of a French Protestant Family, during the Period of the
     Revocation of the Edict of Nantes (William Anderson's translation)
@@ -76,6 +221,15 @@ works:
 
     '
   source_file: migault_journal-fra_weiss-clouzot1910.txt
+- row_id: misson_theatre-sacre-des-cevennes-fra_bost1847--le-theatre-sacre-des-cevennes-london-1707-the-depositions-2
+  work: Le Théâtre sacré des Cévennes (London, 1707), the depositions
+  author: misson
+  locus: the depositions
+  role: tradition
+  confidence: provisional
+  note: The Camisard prophets belong to the opening decades of the Desert; the Desert's own
+    leaders later disowned the inspirations, so the fit is real but contested.
+  source_file: misson_theatre-sacre-des-cevennes-fra_bost1847.txt
 - row_id: quick_synodicon-in-gallia-reformata_1692--quick-s-history-of-the-rise-growth-perfection-and-decay-2
   work: A most faithful and impartial history of the rise, growth, perfection and decay of
     the Reformation in that kingdom, with its fatal catastrophe upon the Revocation of the
@@ -90,3 +244,40 @@ works:
 
     '
   source_file: quick_synodicon-in-gallia-reformata_1692.txt
+- row_id: rabaut-saint-etienne_vieux-cevenol-fra_1784--le-vieux-cevenol-1784
+  work: Le Vieux Cévenol (1784)
+  author: rabaut-saint-etienne
+  locus: whole work
+  role: tradition
+  confidence: assigned
+  note: A Desert pastor's son's apologetic fiction; the hero is invented, the penal laws in
+    the notes are the real record, and the book must be quoted as fiction.
+  source_file: rabaut-saint-etienne_vieux-cevenol-fra_1784.txt
+- row_id: rabaut-saint-etienne_old-cevenol_seddon1911--the-old-cevenol-seddon-s-translation-1911
+  work: The Old Cevenol (Seddon's translation, 1911)
+  author: rabaut-saint-etienne
+  locus: the story; the translator's preface excluded
+  role: tradition
+  confidence: assigned
+  note: The same fiction in English, from Dardier's edition; check against the French before
+    quoting.
+  source_file: rabaut-saint-etienne_old-cevenol_seddon1911.txt
+- row_id: sagnier_tour-de-constance-et-ses-prisonnieres-fra_1880--la-tour-de-constance-et-ses-prisonnieres-1880
+  work: La Tour de Constance et ses prisonnières (1880)
+  author: sagnier
+  locus: the introduction and the general list
+  role: context
+  confidence: assigned
+  note: A nineteenth-century compilation from the prison registers; the names and dates of
+    the women held for their faith.
+  source_file: sagnier_tour-de-constance-et-ses-prisonnieres-fra_1880.txt
+- row_id: sagnier_tour-de-constance-et-ses-prisonnieres-fra_1880--letters-and-letter-fragments-of-the-prisoners-of-the-tour-de
+  work: Letters and letter fragments of the prisoners of the Tour de Constance, in Sagnier
+    (1880)
+  author: sagnier
+  locus: the documents section (letters to and from prisoners, Marie Durand's list of 1754)
+  role: tradition
+  confidence: provisional
+  note: The prisoners' own words survive here in fragments; provisional because the row is
+    filed under the compiler until the letters are split out by writer.
+  source_file: sagnier_tour-de-constance-et-ses-prisonnieres-fra_1880.txt

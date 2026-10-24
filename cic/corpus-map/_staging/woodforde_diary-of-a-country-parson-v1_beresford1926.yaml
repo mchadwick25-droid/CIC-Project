@@ -1,0 +1,12 @@
+source_file: woodforde_diary-of-a-country-parson-v1_beresford1926.txt
+assignments:
+- row_id: woodforde_diary-of-a-country-parson-v1_beresford1926--the-diary-of-a-country-parson-vol-i-1758-1781
+  work: The Diary of a Country Parson, vol. I, 1758-1781
+  author: woodforde
+  locus: the diary entries; Beresford's introduction and notes excluded
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: tradition
+  confidence: assigned
+  note: A resident parish priest's own daily record; the Prayer Book church as its clergy lived it, Sunday
+    duty, sacrament, tithe and charity.

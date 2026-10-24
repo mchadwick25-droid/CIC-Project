@@ -1,0 +1,29 @@
+source_file: occom_sermon-at-the-execution-of-moses-paul_1788.txt
+authors_ruled:
+  edwards-jonathan-jr:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file whose leading token is occom; the appended Observations on the
+      Language of the Muhhekaneew Indians are by Jonathan Edwards the younger, named on the title page
+      (file lines about 20-25). cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: occom_sermon-at-the-execution-of-moses-paul_1788--a-sermon-at-the-execution-of-moses-paul-an-indian-occom-1772
+  work: A Sermon at the Execution of Moses Paul, an Indian (Occom, 1772)
+  author: occom
+  locus: the sermon and the short account of the spread of the Gospel among the Indians
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: tradition
+  confidence: assigned
+  note: A Mohegan minister of the awakening's making, preaching to a Native condemned man in his own words.
+- row_id: occom_sermon-at-the-execution-of-moses-paul_1788--observations-on-the-language-of-the-muhhekaneew-indians
+  work: Observations on the Language of the Muhhekaneew Indians (Jonathan Edwards the younger, 1788)
+  author: edwards-jonathan-jr
+  locus: the appended Observations
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: context
+  confidence: provisional
+  note: The younger Edwards, raised at Stockbridge among the Mohicans, on their language; context for
+    the mission world, not revival voice. Provisional.

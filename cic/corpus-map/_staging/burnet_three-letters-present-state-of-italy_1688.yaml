@@ -1,0 +1,21 @@
+source_file: burnet_three-letters-present-state-of-italy_1688.txt
+authors_ruled:
+  burnet:
+    kind: anonymous
+    evidence: 'The title page names no author and calls the book ''a supplement to Dr. Burnet''s Letters''
+      (file lines about 10-25); the host''s catalogue record assigns it to Gilbert Burnet. Plain-text
+      vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: burnet_three-letters-present-state-of-italy_1688--three-letters-concerning-the-present-state-of-italy-letter-i
+  work: Three Letters concerning the Present State of Italy, letter I (1688)
+  author: burnet
+  locus: the first letter, on Molinos and the Quietists; letters II and III as background on the Inquisition
+    and Italian states
+  atlas_ids:
+  - quietist-controversy-molinos-guyon
+  role: context
+  confidence: assigned
+  note: An outside Protestant witness, written in Italy in 1687; it reads the affair through English anti-Inquisition
+    eyes.

@@ -357,6 +357,15 @@ works:
     voice, ready to quote once verified against the scan. Latin only; no public-domain English
     found (the one English item on the host is a machine translation).'
   source_file: theiner_vetera-monumenta-poloniae-lithuaniae-v3-lat_1863.txt
+- row_id: theiner_vetera-monumenta-poloniae-lithuaniae-v4-lat_1864--vetera-monumenta-poloniae-et-lithuaniae-vol-iv-as-a-whole
+  work: Vetera monumenta Poloniae et Lithuaniae, vol. IV, as a whole
+  author: theiner
+  locus: whole volume
+  role: transmission
+  confidence: provisional
+  note: Continues the series whose volume III that entry already uses; the later history of
+    the union it founded.
+  source_file: theiner_vetera-monumenta-poloniae-lithuaniae-v4-lat_1864.txt
 - row_id: russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t7-rus_giltebrandt1882--unia-grekov-s-kostelom-rymskim-1595
   work: Unia Grekov s kostelom Rymskim (a Uniate pamphlet, 1595)
   author: unia-grekov-1595

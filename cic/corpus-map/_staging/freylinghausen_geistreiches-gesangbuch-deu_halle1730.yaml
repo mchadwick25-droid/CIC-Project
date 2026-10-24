@@ -1,0 +1,30 @@
+source_file: freylinghausen_geistreiches-gesangbuch-deu_halle1730.txt
+assignments:
+- row_id: freylinghausen_geistreiches-gesangbuch-deu_halle1730--geist-reiches-gesang-buch-halle-1730-edition
+  work: Geist-reiches Gesang-Buch (Halle, 1730 edition)
+  author: freylinghausen
+  locus: whole volume; numbered hymns and stanzas
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: tradition
+  confidence: assigned
+  note: Halle Pietism's own hymnody; German original.
+- row_id: freylinghausen_geistreiches-gesangbuch-deu_halle1730--geist-reiches-gesang-buch-halle-1730-edition-2
+  work: Geist-reiches Gesang-Buch (Halle, 1730 edition)
+  author: freylinghausen
+  locus: whole volume
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: antecedent
+  confidence: provisional
+  note: Herrnhut's first hymnody drew on the Halle book; provisional until the Moravian hymnals vendored
+    show the dependence.
+- row_id: freylinghausen_geistreiches-gesangbuch-deu_halle1730--geist-reiches-gesang-buch-halle-1730-edition-3
+  work: Geist-reiches Gesang-Buch (Halle, 1730 edition)
+  author: freylinghausen
+  locus: whole volume
+  atlas_ids:
+  - radical-pietism-and-the-brethren-dunkers-ephrata
+  role: antecedent
+  confidence: provisional
+  note: The Brethren's Kleine Davidische Psalterspiel (1744) draws on the Halle collections; provisional.

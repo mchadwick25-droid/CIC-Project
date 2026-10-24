@@ -1,0 +1,29 @@
+source_file: new-jerusalem-church_liturgy-with-proud-hymns-and-spiritual-songs_baltimore1793.txt
+authors_ruled:
+  proud-joseph:
+    kind: metadata-omission
+    evidence: 'The title page reads ''Hymns and Spiritual Songs, by the Rev. Mr. Joseph Proud, Minister
+      of the New Church''. Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: new-jerusalem-church_liturgy-with-proud-hymns-and-spiritual-songs_baltimore1793--the-liturgy-of-the-new-church-with-forms-for-baptism-and-the
+  work: The Liturgy of the New Church, with forms for Baptism and the Holy Supper and a Catechism (Baltimore,
+    1793)
+  author: new-jerusalem-church
+  locus: the preface, liturgy, sacramental forms and catechism
+  atlas_ids:
+  - swedenborgian-new-church
+  role: tradition
+  confidence: assigned
+  note: The church's own worship and catechism; the confession of the Lord's Divine Humanity in liturgical
+    form.
+- row_id: new-jerusalem-church_liturgy-with-proud-hymns-and-spiritual-songs_baltimore1793--hymns-and-spiritual-songs-for-the-use-of-the-lord-s-new
+  work: Hymns and Spiritual Songs for the Use of the Lord's New Church (in the Baltimore Liturgy, 1793)
+  author: proud-joseph
+  locus: the hymns
+  atlas_ids:
+  - swedenborgian-new-church
+  role: tradition
+  confidence: assigned
+  note: The church's sung theology by one of its first ministers.

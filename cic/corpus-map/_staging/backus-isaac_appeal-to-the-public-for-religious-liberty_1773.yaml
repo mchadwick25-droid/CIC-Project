@@ -1,0 +1,22 @@
+source_file: backus-isaac_appeal-to-the-public-for-religious-liberty_1773.txt
+assignments:
+- row_id: backus-isaac_appeal-to-the-public-for-religious-liberty_1773--an-appeal-to-the-public-for-religious-liberty-1773
+  work: An Appeal to the Public for Religious Liberty (1773)
+  author: backus-isaac
+  locus: whole work
+  atlas_ids:
+  - the-baptists
+  role: tradition
+  confidence: assigned
+  note: The New England Baptists against the standing order, in their leader's words.
+- row_id: backus-isaac_appeal-to-the-public-for-religious-liberty_1773--an-appeal-to-the-public-for-religious-liberty-1773-as-a
+  work: An Appeal to the Public for Religious Liberty (1773) as a witness to the New England standing
+    order
+  author: backus-isaac
+  locus: the passages on the ministers' tax and the cases cited
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: context
+  confidence: provisional
+  note: A New England Baptist's evidence of how the Massachusetts establishment treated dissenters after
+    the Awakening. Provisional for the New England world.

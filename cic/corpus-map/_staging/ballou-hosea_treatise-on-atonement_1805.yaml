@@ -1,0 +1,28 @@
+source_file: ballou-hosea_treatise-on-atonement_1805.txt
+authors_ruled:
+  ballou-hosea:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By Hosea Ballou, of Barnard''. Plain-text vendored file, so cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+assignments:
+- row_id: ballou-hosea_treatise-on-atonement_1805--a-treatise-on-atonement-1805
+  work: A Treatise on Atonement (1805)
+  author: ballou-hosea
+  locus: whole work
+  atlas_ids:
+  - early-american-unitarians-universalists
+  role: tradition
+  confidence: assigned
+  note: The decisive Universalist doctrinal text of the window; its denial of the Trinity touches the
+    floor question for the Universalist thread too.
+- row_id: ballou-hosea_treatise-on-atonement_1805--a-treatise-on-atonement-1805-2
+  work: A Treatise on Atonement (1805)
+  author: ballou-hosea
+  locus: whole work
+  atlas_ids:
+  - american-unitarianism-universalism-consolidations
+  role: antecedent
+  confidence: provisional
+  note: The doctrinal base of the Ballou-led Universalism of the next era.

@@ -1,0 +1,13 @@
+source_file: methodist-episcopal-church_doctrines-and-discipline_coke-asbury1798.txt
+assignments:
+- row_id: methodist-episcopal-church_doctrines-and-discipline_coke-asbury1798--the-doctrines-and-discipline-of-the-methodist-episcopal
+  work: The Doctrines and Discipline of the Methodist Episcopal Church in America, with explanatory notes
+    (1798)
+  author: methodist-episcopal-church
+  locus: whole work; the Articles of Religion in their own section
+  atlas_ids:
+  - the-methodist-revival
+  role: tradition
+  confidence: assigned
+  note: American Methodism's constitution with its bishops' commentary; the Articles of Religion in the
+    church's own book.

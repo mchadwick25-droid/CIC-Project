@@ -1,0 +1,22 @@
+source_file: ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt
+assignments:
+- row_id: ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873--history-of-the-condemnation-of-the-patriarch-nicon
+  work: History of the Condemnation of the Patriarch Nicon
+  author: ligarides
+  locus: Ligarides' history; Palmer's preface and supplements excluded
+  atlas_ids:
+  - russian-church-nikon-to-holy-synod
+  role: tradition
+  confidence: provisional
+  note: The council's case against its own patriarch as its conductor wrote it for the tsar; the establishment's
+    account, by a Greek in Russian service, so provisional as the church's own voice.
+- row_id: ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873--history-of-the-condemnation-of-the-patriarch-nicon-2
+  work: History of the Condemnation of the Patriarch Nicon
+  author: ligarides
+  locus: the chapters on the council of 1666-67
+  atlas_ids:
+  - the-old-believers
+  role: context
+  confidence: provisional
+  note: The same council that deposed Nikon anathematised the old books; the establishment's record of
+    it.

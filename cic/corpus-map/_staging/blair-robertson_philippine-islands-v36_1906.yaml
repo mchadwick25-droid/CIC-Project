@@ -1,0 +1,16 @@
+source_file: blair-robertson_philippine-islands-v36_1906.txt
+assignments:
+- row_id: blair-robertson_philippine-islands-v36_1906--the-philippine-islands-vol-xxxvi-1649-1666-the-documents
+  work: 'The Philippine Islands, vol. XXXVI (1649-1666): the documents'
+  author: blair-robertson
+  locus: the documents of 1649-1666, especially the Recollect missions 1646-60 and 'Why the friars are
+    not subjected to episcopal visitation'; the appendix of 1842 excluded
+  atlas_ids:
+  - philippine-catholicism-era-8
+  role: tradition
+  confidence: assigned
+  note: 'Friars'', bishops'' and officials'' own documents in the editors'' English translation; the colonial
+    church''s voice, not Filipino lay Christians''. Quotations are the translators'' wording and need
+    the Spanish where the corpus has it.
+
+    '

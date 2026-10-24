@@ -1,0 +1,22 @@
+source_file: court-antoine_histoire-des-troubles-des-cevennes-t1-fra_1819.txt
+assignments:
+- row_id: court-antoine_histoire-des-troubles-des-cevennes-t1-fra_1819--histoire-des-troubles-des-cevennes-t-i-1760-1819-edition
+  work: Histoire des troubles des Cévennes, t. I (1760; 1819 edition)
+  author: court-antoine
+  locus: books one to five; the 1819 discours préliminaire and notice excluded
+  atlas_ids:
+  - church-of-the-desert-huguenots
+  role: tradition
+  confidence: assigned
+  note: Antoine Court's own history; how the Desert church remembered and judged the Camisards half a
+    century later.
+- row_id: court-antoine_histoire-des-troubles-des-cevennes-t1-fra_1819--histoire-des-troubles-des-cevennes-t-i-1760-1819-edition-2
+  work: Histoire des troubles des Cévennes, t. I (1760; 1819 edition)
+  author: court-antoine
+  locus: books one to five
+  atlas_ids:
+  - camisard-prophetism
+  role: context
+  confidence: assigned
+  note: The first Protestant history of the war, written by a Cévenol who grew up during it and gathered
+    survivors' accounts; sympathetic to the people, cool on the inspirations.

@@ -1,0 +1,39 @@
+source_file: williams-pantycelyn_gweithiau-v1-cym_cynhafal-jones1887.txt
+authors_ruled:
+  jones-n-cynhafal:
+    kind: metadata-omission
+    evidence: 'The title page reads ''dan olygiad N. Cynhafal Jones'' and names the life of the author
+      and the critical essay as ''gan y golygydd'' (by the editor); the preface is signed by him. cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+assignments:
+- row_id: williams-pantycelyn_gweithiau-v1-cym_cynhafal-jones1887--bywyd-a-marwolaeth-theomemphus-1764-and-golwg-ar-deyrnas
+  work: Bywyd a Marwolaeth Theomemphus (1764) and Golwg ar Deyrnas Crist (1756)
+  author: williams-pantycelyn
+  locus: the two long poems
+  atlas_ids:
+  - the-welsh-revival-tradition
+  role: tradition
+  confidence: assigned
+  note: The revival's theology of conversion told as one soul's life (Theomemphus) and as a vision of
+    Christ's kingdom; the movement's poet in its own language.
+- row_id: williams-pantycelyn_gweithiau-v1-cym_cynhafal-jones1887--marwnadau-elegies-on-howell-harris-daniel-rowland-and-other
+  work: Marwnadau (elegies) on Howell Harris, Daniel Rowland and other revival leaders
+  author: williams-pantycelyn
+  locus: the elegies
+  atlas_ids:
+  - the-welsh-revival-tradition
+  role: tradition
+  confidence: assigned
+  note: The movement remembering its own leaders as they died, in verse written for the societies.
+- row_id: williams-pantycelyn_gweithiau-v1-cym_cynhafal-jones1887--hanes-bywyd-yr-awdwr-and-the-critical-essay-n-cynhafal-jones
+  work: Hanes bywyd yr awdwr and the critical essay (N. Cynhafal Jones, 1887)
+  author: jones-n-cynhafal
+  locus: the editor's life and essay before the poems
+  atlas_ids:
+  - the-welsh-revival-tradition
+  role: transmission
+  confidence: provisional
+  note: The Victorian Calvinistic Methodist editor's life of the poet; reception, not the poet's voice.
+    Provisional.

@@ -1,0 +1,11 @@
+source_file: wesley-c_journal-v1_jackson1849.txt
+assignments:
+- row_id: wesley-c_journal-v1_jackson1849--the-journal-of-the-rev-charles-wesley-vol-i-1736-1740s
+  work: The Journal of the Rev. Charles Wesley, vol. I (1736-1740s)
+  author: wesley-c
+  locus: the dated Journal entries; Jackson's introduction and notes excluded
+  atlas_ids:
+  - the-methodist-revival
+  role: tradition
+  confidence: assigned
+  note: The hymn-writer's own record of the revival's first decade, including his Whitsunday 1738 conversion.

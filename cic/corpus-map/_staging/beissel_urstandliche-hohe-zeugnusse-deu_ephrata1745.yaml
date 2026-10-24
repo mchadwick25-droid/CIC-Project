@@ -1,0 +1,12 @@
+source_file: beissel_urstandliche-hohe-zeugnusse-deu_ephrata1745.txt
+assignments:
+- row_id: beissel_urstandliche-hohe-zeugnusse-deu_ephrata1745--urstandliche-und-erfahrungs-volle-hohe-zeugnusse-beissel-s
+  work: Urständliche und Erfahrungs-volle Hohe Zeugnüsse (Beissel's theological letters, 1745)
+  author: beissel
+  locus: whole volume
+  atlas_ids:
+  - radical-pietism-and-the-brethren-dunkers-ephrata
+  role: tradition
+  confidence: assigned
+  note: Beissel in his own words on the inner life, celibacy and the Sabbath; German original with no
+    PD English, so any modern rendering must be made from this text and marked as ours.

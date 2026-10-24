@@ -1,0 +1,40 @@
+source_file: moravian-church_acta-fratrum-unitatis-in-anglia_1749.txt
+authors_ruled:
+  moravian-church:
+    kind: metadata-omission
+    evidence: 'Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug yet. The volume
+      is the Unitas Fratrum''s own collection of its instruments, with no personal author; the host names
+      ''United Brethren in Christ'' as creator. A new institutional slug for the renewed church of 1722
+      onward, kept distinct from unity-of-the-brethren (the old Czech Unity).
+
+      '
+assignments:
+- row_id: moravian-church_acta-fratrum-unitatis-in-anglia_1749--acta-fratrum-unitatis-in-anglia-1749
+  work: Acta Fratrum Unitatis in Anglia (1749)
+  author: moravian-church
+  locus: the numbered documents and the doctrinal articles
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: tradition
+  confidence: assigned
+  note: The church's official record of itself in the year of its parliamentary recognition.
+- row_id: moravian-church_acta-fratrum-unitatis-in-anglia_1749--acta-fratrum-unitatis-in-anglia-1749-2
+  work: Acta Fratrum Unitatis in Anglia (1749)
+  author: moravian-church
+  locus: the episcopal attestations and the documents on the old Unity's succession
+  atlas_ids:
+  - czech-churches-last-century
+  role: transmission
+  confidence: provisional
+  note: The renewed church's documentary case for continuity with the old Unity through the Jablonski
+    consecrations; how the Czech church's succession was carried forward. Provisional.
+- row_id: moravian-church_acta-fratrum-unitatis-in-anglia_1749--acta-fratrum-unitatis-in-anglia-1749-3
+  work: Acta Fratrum Unitatis in Anglia (1749)
+  author: moravian-church
+  locus: whole work
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: context
+  confidence: provisional
+  note: The documents behind the Act of 1749 by which Parliament recognised the Brethren as an ancient
+    Protestant episcopal church; the establishment's dealings with them. Provisional.

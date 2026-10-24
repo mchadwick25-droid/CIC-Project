@@ -1,0 +1,21 @@
+source_file: edwards_works-v1-memoir-personal-narrative-resolutions-diary_dwight1830.txt
+assignments:
+- row_id: edwards_works-v1-memoir-personal-narrative-resolutions-diary_dwight1830--edwards-s-resolutions-diary-personal-narrative-and-letters
+  work: Edwards's Resolutions, Diary, Personal Narrative and letters, as printed in Dwight's Memoir (1830)
+  author: edwards
+  locus: Edwards's own documents quoted and printed within the memoir chapters, under their own headings
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: tradition
+  confidence: assigned
+  note: The founder's private spiritual record in his own words, as the family edition printed it from
+    the manuscripts.
+- row_id: edwards_works-v1-memoir-personal-narrative-resolutions-diary_dwight1830--memoir-of-the-life-of-president-edwards-dwight-1830
+  work: Memoir of the Life of President Edwards (Dwight, 1830)
+  author: edwards
+  locus: Dwight's connecting narrative
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: context
+  confidence: assigned
+  note: A great-grandson's memoir of 1830; the family's view, not Edwards's words.

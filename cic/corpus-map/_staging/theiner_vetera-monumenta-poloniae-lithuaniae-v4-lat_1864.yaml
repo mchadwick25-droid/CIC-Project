@@ -1,0 +1,25 @@
+source_file: theiner_vetera-monumenta-poloniae-lithuaniae-v4-lat_1864.txt
+assignments:
+- row_id: theiner_vetera-monumenta-poloniae-lithuaniae-v4-lat_1864--vetera-monumenta-poloniae-et-lithuaniae-vol-iv-the-documents
+  work: 'Vetera monumenta Poloniae et Lithuaniae, vol. IV: the documents on the Ruthenian Uniate church
+    and the Basilians'
+  author: theiner
+  locus: the documents addressed to the Ruthenian metropolitans and bishops (for example the letter on
+    the restored concord between the Ruthenian bishops and the Basilians, argument at about file line
+    531, text at about line 10992)
+  atlas_ids:
+  - ruthenian-uniate-18th-century
+  role: context
+  confidence: assigned
+  note: Papal letters and nunciature reports governing the Uniate church from Rome; the outside authority's
+    own words.
+- row_id: theiner_vetera-monumenta-poloniae-lithuaniae-v4-lat_1864--vetera-monumenta-poloniae-et-lithuaniae-vol-iv-as-a-whole
+  work: Vetera monumenta Poloniae et Lithuaniae, vol. IV, as a whole
+  author: theiner
+  locus: whole volume
+  atlas_ids:
+  - the-union-of-brest-and-ruthenian-greek-catholic-
+  role: transmission
+  confidence: provisional
+  note: Continues the series whose volume III that entry already uses; the later history of the union
+    it founded.

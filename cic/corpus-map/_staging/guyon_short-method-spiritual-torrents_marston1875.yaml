@@ -1,0 +1,12 @@
+source_file: guyon_short-method-spiritual-torrents_marston1875.txt
+assignments:
+- row_id: guyon_short-method-spiritual-torrents_marston1875--a-short-method-of-prayer-and-spiritual-torrents-tr-marston
+  work: A Short Method of Prayer and Spiritual Torrents, tr. Marston (1875)
+  author: guyon
+  locus: the two treatises; the translator's preface excluded
+  atlas_ids:
+  - quietist-controversy-molinos-guyon
+  role: tradition
+  confidence: assigned
+  note: Guyon's method of prayer in English; the Protestant preface belongs to the later reception, not
+    to her.

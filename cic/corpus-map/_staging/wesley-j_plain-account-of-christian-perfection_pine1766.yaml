@@ -1,0 +1,11 @@
+source_file: wesley-j_plain-account-of-christian-perfection_pine1766.txt
+assignments:
+- row_id: wesley-j_plain-account-of-christian-perfection_pine1766--a-plain-account-of-christian-perfection-wesley-1766
+  work: A Plain Account of Christian Perfection (Wesley, 1766)
+  author: wesley-j
+  locus: whole tract
+  atlas_ids:
+  - the-methodist-revival
+  role: tradition
+  confidence: assigned
+  note: The doctrine of perfection as Wesley himself traced it from 1725 to 1765.

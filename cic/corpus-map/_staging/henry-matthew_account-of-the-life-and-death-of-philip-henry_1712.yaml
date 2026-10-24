@@ -1,0 +1,21 @@
+source_file: henry-matthew_account-of-the-life-and-death-of-philip-henry_1712.txt
+assignments:
+- row_id: henry-matthew_account-of-the-life-and-death-of-philip-henry_1712--an-account-of-the-life-and-death-of-mr-philip-henry-this
+  work: An Account of the Life and Death of Mr. Philip Henry (this edition 1712)
+  author: henry-matthew
+  locus: the life
+  atlas_ids:
+  - english-old-dissent
+  role: tradition
+  confidence: assigned
+  note: Dissent remembering its first generation, by the son of an ejected minister and himself a Dissenting
+    minister.
+- row_id: henry-matthew_account-of-the-life-and-death-of-philip-henry_1712--sermon-on-the-death-of-mrs-katherine-henry-1707
+  work: Sermon on the death of Mrs. Katherine Henry (1707)
+  author: henry-matthew
+  locus: the sermon after the life
+  atlas_ids:
+  - english-old-dissent
+  role: tradition
+  confidence: assigned
+  note: A minister's funeral sermon for his mother; a Dissenting woman's life as her son preached it.

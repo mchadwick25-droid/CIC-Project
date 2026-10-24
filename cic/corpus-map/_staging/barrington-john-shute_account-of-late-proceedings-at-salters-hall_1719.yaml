@@ -1,0 +1,12 @@
+source_file: barrington-john-shute_account-of-late-proceedings-at-salters-hall_1719.txt
+assignments:
+- row_id: barrington-john-shute_account-of-late-proceedings-at-salters-hall_1719--an-account-of-the-late-proceedings-of-the-dissenting
+  work: An Account of the Late Proceedings of the Dissenting Ministers at Salters-Hall (1719)
+  author: barrington-john-shute
+  locus: whole work
+  atlas_ids:
+  - english-old-dissent
+  role: tradition
+  confidence: provisional
+  note: The non-subscribing side of 1719 from a lay Dissenting writer; provisional only because the attribution
+    rests on the host, not the title page.

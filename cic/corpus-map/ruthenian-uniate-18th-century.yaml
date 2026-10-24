@@ -3,6 +3,34 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: ruthenian-uniate-18th-century
 works:
+- row_id: anonymous-uniate_apollogia-rusi-unitom-obrzadek-pol_1772--apollogia-ze-rusi-unitom-nie-godzi-sie-odstepowac-od-swojego
+  work: Apollogia, że Rusi Unitom nie godzi się odstępować od swojego Obrządku ([1772])
+  author: anonymous-uniate
+  locus: whole work
+  role: tradition
+  confidence: assigned
+  note: The Ruthenian side's own case against rite-switching to the Latin church, made before
+    a Latin court on the eve of the first partition.
+  source_file: anonymous-uniate_apollogia-rusi-unitom-obrzadek-pol_1772.txt
+- row_id: basilian-order_codex-constitutionum-ordinis-s-basilii-lat_1791--codex-constitutionum-ordinis-s-basilii-m-1791
+  work: Codex Constitutionum Ordinis S. Basilii M. (1791)
+  author: basilian-order
+  locus: whole work
+  role: tradition
+  confidence: assigned
+  note: The order's own law, compiled from its chapters; the Basilians in their own words
+    at the end of the Polish-Lithuanian period.
+  source_file: basilian-order_codex-constitutionum-ordinis-s-basilii-lat_1791.txt
+- row_id: basilovits_brevis-notitia-fundationis-koriathovits-pars1-lat_1799--brevis-notitia-fundationis-theodori-koriathovits-part-i-1799
+  work: Brevis notitia fundationis Theodori Koriathovits, Part I (1799)
+  author: basilovits
+  locus: whole work
+  role: tradition
+  confidence: needs-ruling
+  note: A Ruthenian Basilian's own history and documents, but of the Munkács eparchy in Hungary,
+    which the entry's summary (Zamość, the partitions, Galicia) does not name; whether the
+    Carpathian Greek Catholics belong to this entry is for the lead to rule.
+  source_file: basilovits_brevis-notitia-fundationis-koriathovits-pars1-lat_1799.txt
 - row_id: harasiewicz_annales-ecclesiae-ruthenae-lat_1862--annales-ecclesiae-ruthenae-2
   work: Annales Ecclesiae Ruthenae (history of the Ruthenian Greek Catholic church, with documents)
   author: harasiewicz
@@ -14,6 +42,26 @@ works:
     period, which this entry (1700-1815) covers. Placed on the contents, not on a reading
     of those chapters.
   source_file: harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902--synodus-provincialis-ruthenorum-1720-papal-confirmation-and
+  work: Synodus provincialis Ruthenorum (1720), papal confirmation and Propaganda's decrees
+  author: mansi
+  locus: the approbation by Benedict XIII and the Roman decrees printed with the synod (columns
+    1439-1441, 1469)
+  role: context
+  confidence: assigned
+  note: Rome's ratification of the synod, the outside authority's voice beside the synod's
+    own.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902--synodus-provincialis-ruthenorum-habita-in-civitate-zamosciae
+  work: Synodus provincialis Ruthenorum habita in civitate Zamosciae anno 1720 (acts, decrees,
+    professions of faith, Metropolitan Kiszka's letters)
+  author: mansi
+  locus: columns 1437-1538 (from about file line 133890 to Mansi's monitum near line 143600)
+  role: tradition
+  confidence: assigned
+  note: The Uniate church's own synodal legislation of 1720 with the metropolitan's dedication;
+    the text that set its discipline and rite for the century.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt
 - row_id: pelesz_geschichte-der-union-bd2-deu_1880--geschichte-der-union-der-ruthenischen-kirche-mit-rom-vol-2-2
   work: Geschichte der Union der ruthenischen Kirche mit Rom, Vol. 2 (1596-1879)
   author: pelesz
@@ -26,3 +74,25 @@ works:
     line 28000 onward by the 70 percent sample) fit this entry's window. Placed on the sample,
     not on a full reading.
   source_file: pelesz_geschichte-der-union-bd2-deu_1880.txt
+- row_id: theiner_vetera-monumenta-poloniae-lithuaniae-v4-lat_1864--vetera-monumenta-poloniae-et-lithuaniae-vol-iv-the-documents
+  work: 'Vetera monumenta Poloniae et Lithuaniae, vol. IV: the documents on the Ruthenian
+    Uniate church and the Basilians'
+  author: theiner
+  locus: the documents addressed to the Ruthenian metropolitans and bishops (for example the
+    letter on the restored concord between the Ruthenian bishops and the Basilians, argument
+    at about file line 531, text at about line 10992)
+  role: context
+  confidence: assigned
+  note: Papal letters and nunciature reports governing the Uniate church from Rome; the outside
+    authority's own words.
+  source_file: theiner_vetera-monumenta-poloniae-lithuaniae-v4-lat_1864.txt
+- row_id: wazynski_katechizm-albo-krotkie-zebranie-nauki-chrzescianskiey-pol_1792--katechizm-albo-krotkie-zebranie-nauki-chrzescianskiey-1792
+  work: Katechizm albo Krótkie zebranie Nauki Chrześciańskiey (1792), with the bishop's pastoral
+    letter
+  author: wazynski
+  locus: whole work
+  role: tradition
+  confidence: assigned
+  note: Uniate catechesis in Polish at the end of the Commonwealth; the ordinary teaching
+    of the church, not its polemic.
+  source_file: wazynski_katechizm-albo-krotkie-zebranie-nauki-chrzescianskiey-pol_1792.txt

@@ -1,0 +1,11 @@
+source_file: tournefort_relation-d-un-voyage-du-levant-t3-fra_1717.txt
+assignments:
+- row_id: tournefort_relation-d-un-voyage-du-levant-t3-fra_1717--relation-d-un-voyage-du-levant-tome-iii-armenia-and-georgia
+  work: 'Relation d''un voyage du Levant, tome III: Armenia and Georgia (1717)'
+  author: tournefort
+  locus: the letters on Erzurum, Armenia and Georgia
+  atlas_ids:
+  - armenian-christianity-era-8
+  role: context
+  confidence: assigned
+  note: The French text of Tournefort's eyewitness account of Armenian Christians in 1700-1702.

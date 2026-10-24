@@ -1,0 +1,11 @@
+source_file: fenelon_reponses-a-la-declaration-fra_1698.txt
+assignments:
+- row_id: fenelon_reponses-a-la-declaration-fra_1698--reponses-a-la-declaration-des-trois-eveques-et-a-la-summa-de
+  work: Réponses à la Déclaration des trois évêques et à la Summa de M. de Meaux (1698)
+  author: fenelon
+  locus: the Réponses; the quoted Declaration paragraphs as the bishops' text
+  atlas_ids:
+  - quietist-controversy-molinos-guyon
+  role: tradition
+  confidence: assigned
+  note: Fénelon's own defence of pure love while the case was before Rome.

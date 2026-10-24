@@ -1,0 +1,11 @@
+source_file: guyon_vie-ecrite-par-elle-meme-t3-fra_1791.txt
+assignments:
+- row_id: guyon_vie-ecrite-par-elle-meme-t3-fra_1791--la-vie-ecrite-par-elle-meme-tome-iii-1791-edition
+  work: La Vie écrite par elle-même, tome III (1791 edition)
+  author: guyon
+  locus: the third part of the Life
+  atlas_ids:
+  - quietist-controversy-molinos-guyon
+  role: tradition
+  confidence: assigned
+  note: Guyon's own French for the years of the Paris controversy and her imprisonments.

@@ -1,0 +1,27 @@
+source_file: cavazzi_istorica-descrizione-tre-regni-congo-matamba-angola-ita_alamandini1687.txt
+assignments:
+- row_id: cavazzi_istorica-descrizione-tre-regni-congo-matamba-angola-ita_alamandini1687--istorica-descrizione-de-tre-regni-congo-matamba-et-angola
+  work: Istorica descrizione de' tre' regni Congo, Matamba, et Angola (1687)
+  author: cavazzi
+  locus: books one to seven; the passages on Kongo, the Capuchin missions and Kongo religion
+  atlas_ids:
+  - the-antonian-movement-in-kongo
+  role: context
+  confidence: assigned
+  note: 'A Capuchin witness from outside Kongo society, two generations before 1704: the mission order
+    whose men later judged Beatriz, describing the Kongo church and the practices the friars fought. Hostile
+    pen on Kongo religion; read against the grain.
+
+    '
+- row_id: cavazzi_istorica-descrizione-tre-regni-congo-matamba-angola-ita_alamandini1687--istorica-descrizione-de-tre-regni-congo-matamba-et-angola-2
+  work: Istorica descrizione de' tre' regni Congo, Matamba, et Angola (1687)
+  author: cavazzi
+  locus: the books on Kongo and the Capuchin arrival of 1645 to 1650
+  atlas_ids:
+  - kongo-christianity-afonso-to-1650
+  role: context
+  confidence: provisional
+  note: 'Cavazzi''s account reaches back to the first Capuchin years in Kongo, inside the earlier world''s
+    window ending 1650; placed on window and place, not on a reading for that entry.
+
+    '

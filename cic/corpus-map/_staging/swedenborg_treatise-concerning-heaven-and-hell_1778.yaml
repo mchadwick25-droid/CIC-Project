@@ -1,0 +1,11 @@
+source_file: swedenborg_treatise-concerning-heaven-and-hell_1778.txt
+assignments:
+- row_id: swedenborg_treatise-concerning-heaven-and-hell_1778--a-treatise-concerning-heaven-and-hell-english-1778
+  work: A Treatise concerning Heaven and Hell (English, 1778)
+  author: swedenborg
+  locus: the translated text
+  atlas_ids:
+  - swedenborgian-new-church
+  role: tradition
+  confidence: assigned
+  note: The founder's account of the afterlife in the English the readers' movement grew from.

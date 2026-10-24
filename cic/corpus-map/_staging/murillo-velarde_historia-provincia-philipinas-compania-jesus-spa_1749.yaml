@@ -1,0 +1,26 @@
+source_file: murillo-velarde_historia-provincia-philipinas-compania-jesus-spa_1749.txt
+assignments:
+- row_id: murillo-velarde_historia-provincia-philipinas-compania-jesus-spa_1749--historia-de-la-provincia-de-philipinas-de-la-compania-de
+  work: Historia de la provincia de Philipinas de la Compañía de Jesús, segunda parte (1749)
+  author: murillo-velarde
+  locus: four books, 1616 to 1716; the years from 1650 are this world's
+  atlas_ids:
+  - philippine-catholicism-era-8
+  role: tradition
+  confidence: assigned
+  note: 'A Manila Jesuit''s history of his province in his own Spanish: the order''s missions, colleges
+    and disputes, its own case in the jurisdiction quarrels. The religious order''s voice, not the converts''.
+
+    '
+- row_id: murillo-velarde_historia-provincia-philipinas-compania-jesus-spa_1749--historia-de-la-provincia-de-philipinas-de-la-compania-de-2
+  work: Historia de la provincia de Philipinas de la Compañía de Jesús, segunda parte (1749)
+  author: murillo-velarde
+  locus: the years 1616 to 1650 in the first books
+  atlas_ids:
+  - philippine-catholicism
+  role: tradition
+  confidence: provisional
+  note: 'The opening decades fall inside the earlier world''s window (1565-1650); written a century later,
+    so a later witness to them. Placed on window and place, not on a reading for that entry.
+
+    '

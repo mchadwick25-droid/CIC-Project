@@ -1,0 +1,23 @@
+source_file: charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt
+assignments:
+- row_id: charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911--histoire-des-patriarcats-melkites-t-iii-the-hierarchy
+  work: 'Histoire des patriarcats melkites, t. III: the hierarchy chapters with documents of 1724-1760'
+  author: charon
+  locus: tome III's chapter on the history of the hierarchy (for example the signature lists from about
+    raw scan line 34900) and the notes on Saifi and Cyril VI elsewhere in tome III
+  atlas_ids:
+  - melkite-greek-catholic-church
+  role: context
+  confidence: assigned
+  note: Scholarship of 1911 that transcribes the split's documents and signatures; context, but the documents
+    in it are the world's own.
+- row_id: charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911--histoire-des-patriarcats-melkites-t-ii-iii-1910-1911
+  work: Histoire des patriarcats melkites, t. II-III (1910-1911)
+  author: charon
+  locus: whole work
+  atlas_ids:
+  - melkite-greek-catholic-church
+  role: transmission
+  confidence: provisional
+  note: The Melkite church described from inside its own Catholic world at the start of the twentieth
+    century; reception, provisional.

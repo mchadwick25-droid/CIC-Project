@@ -1,0 +1,12 @@
+source_file: lamech-agrippa_chronicon-ephratense-deu_ephrata1786.txt
+assignments:
+- row_id: lamech-agrippa_chronicon-ephratense-deu_ephrata1786--chronicon-ephratense-german-original-ephrata-1786
+  work: Chronicon Ephratense (German original, Ephrata 1786)
+  author: lamech-agrippa
+  locus: whole volume; page numbers in running heads
+  atlas_ids:
+  - radical-pietism-and-the-brethren-dunkers-ephrata
+  role: tradition
+  confidence: assigned
+  note: 'The community''s own words in its own print. Fraktur OCR with f/s misreads: locate here, verify
+    against the page image, and use the 1889 English as the cross-check.'

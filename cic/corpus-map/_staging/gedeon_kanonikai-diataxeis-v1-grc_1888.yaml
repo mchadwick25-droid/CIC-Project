@@ -1,0 +1,42 @@
+source_file: gedeon_kanonikai-diataxeis-v1-grc_1888.txt
+authors_ruled:
+  patriarchate-of-constantinople:
+    kind: metadata-omission
+    evidence: 'The title page names the documents as the ordinances, letters, rulings and decrees of the
+      patriarchs of Constantinople, each act under its issuing patriarch''s name; the host credits only
+      the editor Gedeon.
+
+      '
+assignments:
+- row_id: gedeon_kanonikai-diataxeis-v1-grc_1888--patriarchal-ordinances-letters-and-synodal-rulings-of
+  work: Patriarchal ordinances, letters and synodal rulings of Constantinople, 1650-1821 (Gedeon, Kanonikai
+    diataxeis I)
+  author: patriarchate-of-constantinople
+  locus: the acts dated from the 1650s to 1821, the greater part of the volume (for example the act of
+    1676 near raw scan line 2373, the acts of 1789-1797 from about line 10600, Gregory V's of 1798 near
+    line 16657)
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-1650-1821
+  role: tradition
+  confidence: assigned
+  note: 'The Great Church legislating for its flock under the sultans: marriage, dowry, penance, monastic
+    order and clergy discipline in the patriarchs'' own decrees.'
+- row_id: gedeon_kanonikai-diataxeis-v1-grc_1888--patriarchal-acts-before-1650-gedeon-kanonikai-diataxeis-i
+  work: Patriarchal acts before 1650 (Gedeon, Kanonikai diataxeis I)
+  author: patriarchate-of-constantinople
+  locus: the earlier acts, chiefly in the first fifth of the volume (to about raw scan line 2370)
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-parish-millet-and-n
+  role: tradition
+  confidence: provisional
+  note: The sixteenth- and early seventeenth-century acts belong to the earlier Ottoman world; provisional
+    pending a document-by-document reading.
+- row_id: gedeon_kanonikai-diataxeis-v1-grc_1888--patriarchal-acts-after-1821-gedeon-kanonikai-diataxeis-i
+  work: Patriarchal acts after 1821 (Gedeon, Kanonikai diataxeis I)
+  author: patriarchate-of-constantinople
+  locus: the acts of the 1830s to 1880s scattered through the later part of the volume
+  atlas_ids:
+  - orthodoxy-after-1821-balkan-autocephalies
+  role: tradition
+  confidence: provisional
+  note: The nineteenth-century patriarchs' acts; provisional for the successor world.

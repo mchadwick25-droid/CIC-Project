@@ -1,0 +1,28 @@
+source_file: lettres-edifiantes_memoires-du-levant-t3-fra_1780.txt
+authors_ruled:
+  lettres-edifiantes:
+    kind: anonymous
+    evidence: The title page names the collection only as letters 'écrites des missions étrangères' by
+      Jesuit missionaries; the opening letter is headed 'Du Père Monier, de la Compagnie de Jésus, au
+      Père Fleuriau'.
+assignments:
+- row_id: lettres-edifiantes_memoires-du-levant-t3-fra_1780--memoires-du-levant-tome-iii-the-jesuit-memoirs-on-armenia
+  work: 'Mémoires du Levant, tome III: the Jesuit memoirs on Armenia and the missions of Erivan and Erzurum'
+  author: lettres-edifiantes
+  locus: from Father Monier's letter at the head to chapter VIII, and the two mission memoirs at the end
+    of the volume
+  atlas_ids:
+  - armenian-christianity-era-8
+  role: context
+  confidence: assigned
+  note: Catholic missionaries' contemporary reports on Armenian rite, belief and the mission to them;
+    hostile in its terms ('schismatiques', 'erreurs'), which is itself evidence of the Roman view.
+- row_id: lettres-edifiantes_memoires-du-levant-t3-fra_1780--memoires-du-levant-tome-iii-the-crimea-and-circassia-letters
+  work: 'Mémoires du Levant, tome III: the Crimea and Circassia letters'
+  author: lettres-edifiantes
+  locus: the letters on the Crimean mission, the Circassian Tatars and the Nogai journey
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-1650-1821
+  role: context
+  confidence: needs-ruling
+  note: Jesuit reports from the Black Sea lands; whether any sibling entry wants them is not decided.

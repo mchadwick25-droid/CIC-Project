@@ -1,0 +1,18 @@
+source_file: freeman-james_sermons-on-particular-occasions_1814.txt
+authors_ruled:
+  freeman-james:
+    kind: anonymous
+    evidence: 'The title page names no author; the host catalogue names James Freeman. Plain-text vendored
+      file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: freeman-james_sermons-on-particular-occasions_1814--sermons-on-particular-occasions-1814
+  work: Sermons on Particular Occasions (1814)
+  author: freeman-james
+  locus: whole work
+  atlas_ids:
+  - early-american-unitarians-universalists
+  role: tradition
+  confidence: provisional
+  note: The King's Chapel minister's own preaching; provisional because the attribution is the host's.

@@ -1,0 +1,22 @@
+source_file: christian-history_weekly-accounts-of-the-revival_prince1744.txt
+assignments:
+- row_id: christian-history_weekly-accounts-of-the-revival_prince1744--the-christian-history-prince-1743-1744-the-ministers
+  work: 'The Christian History (Prince, 1743-1744): the ministers'' accounts of the revival in their own
+    towns'
+  author: christian-history
+  locus: the letters and accounts from New England ministers, headed by writer and place
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: tradition
+  confidence: assigned
+  note: The revival documenting itself week by week in its participants' letters.
+- row_id: christian-history_weekly-accounts-of-the-revival_prince1744--the-christian-history-prince-1743-1744-the-accounts-from
+  work: 'The Christian History (Prince, 1743-1744): the accounts from Scotland and England'
+  author: christian-history
+  locus: the letters and accounts from Great Britain reprinted in the numbers
+  atlas_ids:
+  - the-methodist-revival
+  role: context
+  confidence: provisional
+  note: The British revivals as New England read them in 1743; the transatlantic exchange from the American
+    side. Provisional.

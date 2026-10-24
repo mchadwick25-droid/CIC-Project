@@ -1,0 +1,12 @@
+source_file: fenelon_explication-maximes-des-saints-fra_cherel1911.txt
+assignments:
+- row_id: fenelon_explication-maximes-des-saints-fra_cherel1911--explication-des-maximes-des-saints-1697-ed-cherel
+  work: Explication des Maximes des Saints (1697), ed. Cherel
+  author: fenelon
+  locus: the Avertissement and the articles; Cherel's preface, introduction and notes excluded
+  atlas_ids:
+  - quietist-controversy-molinos-guyon
+  role: tradition
+  confidence: assigned
+  note: Fénelon's doctrine of pure love, the text Rome condemned; one principal of the contest in his
+    own words.

@@ -1,0 +1,21 @@
+source_file: paul-of-aleppo_travels-of-macarius-v2_belfour1836.txt
+assignments:
+- row_id: paul-of-aleppo_travels-of-macarius-v2_belfour1836--the-travels-of-macarius-paul-of-aleppo-vol-2-the-return
+  work: 'The Travels of Macarius (Paul of Aleppo), vol. 2: the return through the Cossack lands and Wallachia'
+  author: paul-of-aleppo
+  locus: Books XV-XVI and the Wallachian passages
+  atlas_ids:
+  - orthodoxy-under-the-ottomans-1650-1821
+  role: tradition
+  confidence: assigned
+  note: The Orthodox principalities under Ottoman suzerainty seen by a Syrian Orthodox churchman.
+- row_id: paul-of-aleppo_travels-of-macarius-v2_belfour1836--the-travels-of-macarius-paul-of-aleppo-vol-2-moscow-and
+  work: 'The Travels of Macarius (Paul of Aleppo), vol. 2: Moscow and Novgorod under Nikon and Alexis'
+  author: paul-of-aleppo
+  locus: Books IX-XIV
+  atlas_ids:
+  - russian-church-nikon-to-holy-synod
+  role: context
+  confidence: provisional
+  note: An Eastern patriarch's party watching Nikon's Russia in the years of the liturgical reform; context
+    for the Russian world, provisional.

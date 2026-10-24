@@ -1,0 +1,12 @@
+source_file: swedenborg_de-coelo-et-de-inferno-lat_1758.txt
+assignments:
+- row_id: swedenborg_de-coelo-et-de-inferno-lat_1758--de-coelo-et-ejus-mirabilibus-et-de-inferno-1758
+  work: De Coelo et ejus Mirabilibus, et de Inferno (1758)
+  author: swedenborg
+  locus: whole work
+  atlas_ids:
+  - swedenborgian-new-church
+  role: tradition
+  confidence: assigned
+  note: The claimed visionary report on which the church's teaching on the afterlife rests; founder's
+    corpus.

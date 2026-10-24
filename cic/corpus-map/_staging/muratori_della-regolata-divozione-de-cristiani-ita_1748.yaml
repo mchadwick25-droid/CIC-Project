@@ -1,0 +1,20 @@
+source_file: muratori_della-regolata-divozione-de-cristiani-ita_1748.txt
+authors_ruled:
+  muratori:
+    kind: pseudonymous
+    evidence: 'The title page names ''Lamindo Pritanio'', Muratori''s published anagram pseudonym; the
+      host''s catalogue gives Lodovico Antonio Muratori. Plain-text vendored file, so cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+assignments:
+- row_id: muratori_della-regolata-divozione-de-cristiani-ita_1748--della-regolata-divozione-de-cristiani-1747-trento-1748
+  work: Della regolata divozione de' cristiani (1747; Trento, 1748)
+  author: muratori
+  locus: whole treatise
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: tradition
+  confidence: assigned
+  note: The reforming, Enlightenment Catholic voice inside the church; read beside Liguori for the era's
+    two devotional temperaments.

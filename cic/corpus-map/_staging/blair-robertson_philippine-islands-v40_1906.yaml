@@ -1,0 +1,16 @@
+source_file: blair-robertson_philippine-islands-v40_1906.txt
+assignments:
+- row_id: blair-robertson_philippine-islands-v40_1906--the-philippine-islands-vol-xl-1690-1691-the-documents
+  work: 'The Philippine Islands, vol. XL (1690-1691): the documents'
+  author: blair-robertson
+  locus: Gaspar de San Agustín's letter on the Filipinos and San Antonio's chapters from the Crónicas;
+    Colin and Combés as earlier witnesses
+  atlas_ids:
+  - philippine-catholicism-era-8
+  role: tradition
+  confidence: assigned
+  note: 'Friars'', bishops'' and officials'' own documents in the editors'' English translation; the colonial
+    church''s voice, not Filipino lay Christians''. Quotations are the translators'' wording and need
+    the Spanish where the corpus has it.
+
+    '

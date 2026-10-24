@@ -1,0 +1,12 @@
+source_file: oldendorp_geschichte-der-mission-caraibische-inseln-v1-deu_bossart1777.txt
+assignments:
+- row_id: oldendorp_geschichte-der-mission-caraibische-inseln-v1-deu_bossart1777--geschichte-der-mission-der-evangelischen-bruder-auf-den
+  work: Geschichte der Mission der evangelischen Brüder auf den caraibischen Inseln, erster Theil (1777)
+  author: oldendorp
+  locus: whole part
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: tradition
+  confidence: assigned
+  note: The church's own history of its first mission, gathered on the islands by a member; the German
+    the census cites, with no public-domain English.

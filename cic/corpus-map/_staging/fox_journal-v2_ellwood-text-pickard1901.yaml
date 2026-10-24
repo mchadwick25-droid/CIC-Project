@@ -1,0 +1,11 @@
+source_file: fox_journal-v2_ellwood-text-pickard1901.txt
+assignments:
+- row_id: fox_journal-v2_ellwood-text-pickard1901--the-journal-of-george-fox-vol-2-ellwood-text-1901-edition
+  work: The Journal of George Fox, vol. 2 (Ellwood text, 1901 edition)
+  author: fox
+  locus: the chapters of the Journal
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: assigned
+  note: The later Journal in the received text.

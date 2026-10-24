@@ -1,0 +1,12 @@
+source_file: francke_fussstapffen-des-noch-lebenden-gottes-deu_glaucha1701.txt
+assignments:
+- row_id: francke_fussstapffen-des-noch-lebenden-gottes-deu_glaucha1701--die-fustapffen-des-noch-lebenden-und-waltenden-gottes-halle
+  work: Die Fußstapffen des noch lebenden und waltenden Gottes (Halle narrative to Easter 1701)
+  author: francke
+  locus: whole work
+  atlas_ids:
+  - german-pietism-spener-francke-halle
+  role: tradition
+  confidence: assigned
+  note: Francke's own German of the providential narrative; the original to check the two English printings
+    against.

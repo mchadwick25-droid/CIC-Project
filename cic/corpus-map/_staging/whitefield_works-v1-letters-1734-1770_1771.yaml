@@ -1,0 +1,11 @@
+source_file: whitefield_works-v1-letters-1734-1770_1771.txt
+assignments:
+- row_id: whitefield_works-v1-letters-1734-1770_1771--the-works-of-the-reverend-george-whitefield-vol-i-letters
+  work: 'The Works of the Reverend George Whitefield, vol. I: letters 1734 onward (1771)'
+  author: whitefield
+  locus: the numbered letters
+  atlas_ids:
+  - the-methodist-revival
+  role: tradition
+  confidence: assigned
+  note: Whitefield's correspondence from the revival's first decades.

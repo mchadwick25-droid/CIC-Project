@@ -1,0 +1,28 @@
+source_file: mayhew_seven-sermons_1749.txt
+authors_ruled:
+  mayhew:
+    kind: metadata-omission
+    evidence: 'The title page reads ''By Jonathan Mayhew, A.M., Pastor of the West Church in Boston''.
+      Plain-text vendored file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: mayhew_seven-sermons_1749--seven-sermons-1749
+  work: Seven Sermons (1749)
+  author: mayhew
+  locus: whole work
+  atlas_ids:
+  - early-american-unitarians-universalists
+  role: antecedent
+  confidence: provisional
+  note: The liberal root the later Boston Unitarians claimed; before the window and not yet anti-Trinitarian
+    in print, so antecedent.
+- row_id: mayhew_seven-sermons_1749--seven-sermons-1749-2
+  work: Seven Sermons (1749)
+  author: mayhew
+  locus: whole work
+  atlas_ids:
+  - the-evangelical-awakening-in-new-england
+  role: context
+  confidence: provisional
+  note: A liberal reaction to the awakening's appeal to feeling, in the awakening's own decade.

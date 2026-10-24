@@ -1,0 +1,31 @@
+source_file: james-samuel_abstract-of-the-gracious-dealings-of-god_1760.txt
+authors_ruled:
+  beaumont-agnes:
+    kind: metadata-omission
+    evidence: 'The volume prints ''The Experience of Mrs. Agnes Beaumont'' with running heads naming her;
+      the narrative is in her own first person. The host names only the compiler, Samuel James. cic/texts/AUTHORS.md
+      has not seen the slug yet.
+
+      '
+assignments:
+- row_id: james-samuel_abstract-of-the-gracious-dealings-of-god_1760--the-experience-narrative-of-the-persecutions-of-agnes
+  work: The Experience (Narrative of the Persecutions) of Agnes Beaumont (written c. 1674; first printed
+    1760)
+  author: beaumont-agnes
+  locus: the Agnes Beaumont narrative
+  atlas_ids:
+  - the-baptists
+  role: tradition
+  confidence: assigned
+  note: A young woman of the Bedford congregation telling her own story of 1674; the census-named women's
+    voice.
+- row_id: james-samuel_abstract-of-the-gracious-dealings-of-god_1760--the-other-narratives-in-an-abstract-of-the-gracious-dealings
+  work: The other narratives in An Abstract of the Gracious Dealings of God (1760)
+  author: james-samuel
+  locus: the other narratives and the preface
+  atlas_ids:
+  - the-baptists
+  role: tradition
+  confidence: provisional
+  note: Conversion and suffering accounts gathered by a Baptist minister from manuscripts; provisional
+    until each narrator's own church is identified.

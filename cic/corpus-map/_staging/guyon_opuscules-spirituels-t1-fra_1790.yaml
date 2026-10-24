@@ -1,0 +1,11 @@
+source_file: guyon_opuscules-spirituels-t1-fra_1790.txt
+assignments:
+- row_id: guyon_opuscules-spirituels-t1-fra_1790--moyen-court-et-tres-facile-de-faire-oraison-courte-apologie
+  work: Moyen court et très facile de faire oraison; Courte apologie; Les Torrens spirituels (1790 edition)
+  author: guyon
+  locus: the three treatises; the editor's general preface and Falconi's letter as their own works
+  atlas_ids:
+  - quietist-controversy-molinos-guyon
+  role: tradition
+  confidence: assigned
+  note: The book Bossuet attacked, in Guyon's own words, with her defence of it.

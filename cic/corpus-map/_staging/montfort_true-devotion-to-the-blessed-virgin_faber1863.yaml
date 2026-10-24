@@ -1,0 +1,12 @@
+source_file: montfort_true-devotion-to-the-blessed-virgin_faber1863.txt
+assignments:
+- row_id: montfort_true-devotion-to-the-blessed-virgin_faber1863--treatise-on-the-true-devotion-to-the-blessed-virgin-c-1712
+  work: Treatise on the True Devotion to the Blessed Virgin (c. 1712; Faber's English, 1863)
+  author: montfort
+  locus: the treatise; Faber's preface excluded
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: tradition
+  confidence: assigned
+  note: The western French missions' Marian spirituality in the missionary's own words; unpublished until
+    the nineteenth century, which the reception history should note.

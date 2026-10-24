@@ -1,0 +1,5638 @@
+Title: The Music of the Ephrata Cloister; also Conrad Beissel's Treatise on Music as set forth in a Preface to the "Turtel Taube" of 1747
+Creator: Julius Friedrich Sachse (1842-1919); the treatise on music by Conrad Beissel, translated by Sachse
+Publisher: Lancaster, Pa.: printed for the author
+Publication Date: 1903
+Rights: Public Domain (published 1903, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)
+Source: Internet Archive item musicofephratacl00sach (https://archive.org/details/musicofephratacl00sach), the item's own musicofephratacl00sach_djvu.txt full-text OCR derivative; contributing library per the item metadata: Princeton Theological Seminary Library; host metadata date: 1903. Fetched directly (curl/urllib, raw bytes) by the Library thread (Era VIII pass), 2026-10-16. sha256 of the raw fetched bytes: 9ca21634c7ca11fd1dd7552753c1dd1ae3bb7a20dc90fabefde3190d4fe1c581.
+Provenance note: Header prepended by the Library thread; nothing else altered, no OCR error corrected, nothing retyped. Library bookplate noise before the title page is left in place.
+Content note: Sachse's monograph (scholarship) carrying his English of Beissel's preface to the 1747 Turtel-Taube, Beissel's own theory of singing and the singers' diet; the German preface stands in the vendored hymnal ephrata-community_turtel-taube-hymnal-deu_1747.txt. Only the translated preface is Beissel's voice.
+
+---
+
+■Tt-  '^^.^-J-; 
+
+
+SACHS  I 
+
+
+PROM   THE   LIBRARY  OF 
+
+
+REV.    LOUIS    FITZGERALD    BENSON.   D.  D. 
+
+
+BEQUEATHED    BY    HIM    TO 
+
+THE    LIBRARY   OF 
+
+PRINCETON  THEOLOGICAL  SEMINARY 
+
+
+^^^ 
+
+^/z- 
+
+
+RKADY  APRIL,  15,  1903. 
+
+
+Zbc  fIDusic  of  the  Epbrata  Cloister. 
+
+
+A  Monograph  amplifying  the  cliapter  on  Music  in  Volume 
+II  of  "The  German  Sectarians." 
+
+Conrad  Beissel's  treatise  on  harmony,  as  set  forth  in  the 
+preface  to  the  Ephrata  Turtel  Taube  of  1747,  is  fully  explained 
+and  illustrated  with  fac-simile  reproductions  of  parts  of  the  text 
+and  Ephrata  Music  and  scores  in  both  the  original  and  modern 
+form,  which  are  now  for  the  first  time  correctly  transposed  into 
+modern  notation. 
+
+
+The  book  is  bound  in  fine  cloth,  gilt  top,  uncut  edges,  royal 
+
+8vo.,   pp.    108,  sent  post    paid,   $2.00.      Edition   limited  to  two 
+
+hundred  and  fifty  copies. 
+
+(Reprinted  from  Proceedings  of  Pennsylvania-German  Society,  Vol.  XII  ) 
+
+If  you  are  interested,  kindly  send  order  on  enclosed  postal. 
+
+JULIUS  F.  SACHSE, 
+
+4428  Pine  Street, 
+
+Philadelphia. 
+
+
+«2 
+
+o 
+
+_i 
+o 
+
+c 
+1- 
+< 
+a: 
+
+
+O 
+
+in 
+
+i: 
+
+
+Kl 
+
+.    c 
+a    o 
+
+H    t: 
+
+a:    "- 
+
+I-     u 
+
+
+,"nOV    2    1932  ^' 
+
+
+iWustc  of  %\}t  €pJ)rata  Cloister 
+
+ALSO 
+
+ConraD  BSeijSjserjs  Cteattjse  oit  ;^ujSic 
+
+AS   SET    FORTH    IN   A    PREFACE  TO  THE 
+
+**CurmCaube"  of  1747 
+
+AMPLIFIED  WITH  FACSIMILE  REPRODUCTIONS  OF  PARTS  OF  THE  TEXT 
+AND  SOME  .ORIGINAL  EPHRATA  MUSIC 
+
+OF     THE 
+
+WtvvmtliB  |)n5tl,  1739  ;  Koscn  unti  iilicn,  1745 ;   Curtel  Caubc, 
+1747  ;  Cfjoral  ^ntl),  1754,  etc. 
+
+BY       ,// 
+
+JULIUS  FRIEDRICH  SACHSE,  LiTT.D. 
+
+Member  American  Philosophical  Society — Historical  Society  of  Pennsylvania — Pennsylvania- 
+German  Society — American  Historical  Association — XHI  International 
+Congress  of  Orientalists,  etc.,  etc. 
+
+Reprinted  from  Volume  XII.,  Proceedings  of  the  Pennsylvania-German  Society 
+
+
+LANCASTER 
+
+PRINTED  FOR  THE  AUTHOR 
+
+1903 
+
+
+Copyright,  1902,   by 
+J.  F.  SACHSE. 
+
+All  rights  rtstnitd. 
+
+
+Of  this  Edition  two  hundred  and  fifty  copies  have  been 
+Julius  Friedrich  Sachse. 
+
+
+printed  of  which  this  is  No.  •'^'V; 
+
+
+r«fM  cr 
+
+TW«    NIW  IW  nWNTlMC  CO«r*JiT, 
+
+UVWMTtll,  nt. 
+
+
+PREFACE. 
+
+
+MITHOUT  doubt  the  music 
+of  the  Ephrata  Cloister, 
+as  evolved  in  the  Settlement  on 
+the  Cocalico,  during  the  first  half 
+of  the  XVIII.  century,  and  based 
+on  Beissel's  peculiar  system  of 
+harmony,  exercised  a  far  greater 
+influence  upon  the  community  at 
+large  than  is  generally  supposed. 
+It  not  only  had  its  effect  upon  the 
+social  life  and  development  of  the 
+German  settlers  of  Lancaster  and 
+adjoining  counties  who  had  fallen 
+away  from  the  orthodox  faith  of 
+their  fathers,  by  guiding  their 
+thoughts  and  minds  into  a  spiritual  channel ;  but  it  grad- 
+ually extended  its  influence  beyond  its  original  bounds, 
+across  the  Susquehanna ;  and  in  the  course  of  a  few  years 
+we  find  it  installed  in  the  valleys  of  the  Antietam  and 
+Shenandoah  where  it  found  a  lodgment  until  long  after 
+the  parent  community  had  passed  out  of  existence. 
+
+It  was  even  carried  west  of  the  Alleghanies,  and  into 
+far-off  New  England,  by  these  pious  celibates,  and  it  is 
+not  altogether  improbable  that  one  of  the  Ephrata  tune 
+books  was  largely  instrumental  in  shaping  the  musical 
+work  of  the  Yankee  tanner. 
+
+For  many  years  this  native  Pennsylvania-German  music 
+
+(3) 
+
+
+4  Preface. 
+
+was  a  sealed  book  to  the  student  and  historian,  but  the 
+recent  discovery  of  the  original  score  and  tune  books  of 
+the  Cloister,  together  with  Beissel's  "  Dissertation  on  Har- 
+mony," as  set  forth  in  the  preface  of  the  hymnal  known  as 
+the  Turlcl  Taubc,  enables  us  now  for  the  first  lime  to  give 
+the  English  reader  a  clear  insight  into  this  peculiar  product. 
+For  the  translation  of  the  "  Dissertation"  and  for  the  trans- 
+position of  several  musical  numbers  into  modern  notation, 
+we  are  indebted  to  the  Rev.  J.  F.  Ohl,  Mus.D.,  of  Phila- 
+delphia. 
+
+Thanks  are  also  due  to  General  John  F.  Roller,  of  Har- 
+risonberg,  Va.,  for  valuable  aid  rendered  the  writer  in 
+tracing  the  history  of  the  German  sectarians  in  Virginia ; 
+to  Mr.  W.  H.  Richardson,  of  Norristown,  Pa.,  for  two 
+valuable  illustrations;  and  to  J.  F.  Mentzer,  M.D.,  of 
+Ephrata,  and  other  fellow-members  of  the  Pennsylvania- 
+German  Society  who  have  so  generously  aided  the  writer 
+in  his  researches  during  the  past  years. 
+
+Julius  Friedrich  Sachse. 
+
+Philadelphia,  December,  1902. 
+
+
+TABLE  OF  CONTENTS. 
+
+
+CHAPTER  I. 
+
+THE  MUSIC  OF  THE  CLOISTER. 
+Unique  Notation,  Quaint  Melodies — Earliest  Ephrata  Music  — 
+Contemporary  Accounts,  decline  of  the  Community  —  Music  Fos- 
+tered at  Snowhill  Nunnery  —  Manuscript  Music  Books —  Published 
+Accounts — Beissel's  Knowledge  of  Music — History  of  the  Klos- 
+ter  —  Dr.  Wm.  M.  Fahnestock  —  Dr.  Oswald  Seidensticker  —  First 
+Issue  of  the   Ephrata  Press  — Title  Pages  — The    Turtel    Taube 
+
+—  Inadvertent  Mistake  —  Score  Book  of  the  Cloister 6-23 
+
+CHAPTER  II. 
+
+BEISSEL'S  APOLOGY  FOR  SACRED  SONG. 
+Scripture   Texts  —  Song   of  the   Godless  —  Song  of  the   Early 
+Christians  — at  the  Table  —  Psaltery  of  Ten  Strings  — The  Holy 
+Spirit,  the  True  Singing  Master 24-26 
+
+CHAPTER  III. 
+
+THE  MUSIC  OF  THE    KLOSTER. 
+New  Material  —  Correct  Transposition,  Beissel's  System  of  Har- 
+mony—  Ludwig  Blum,  Alleged  Portrait — Curious  Features  of  the 
+Music  —  Movable  C  Clef — Seven-part  Motet  —  Choral  Songs,  an 
+Ephrata  Sister 27-31 
+
+CHAPTER   IV. 
+
+HYMN-BOOKS   OF  THE   COMMUNITY. 
+Early  Efforts  at  Hymnology  —  Franklin  Imprints,  Manuscript 
+Hymnal  —  Wyrauchs  Hugel  —  Song  of  the  Solitary  Turtel  Taube 
+
+—  Wunderspiel  —  Rare  and  Interesting  Titles  —  Great  Hymnal — 
+Sub-Titles  —  Various  Editions  —  Prior  Jaebez 32-52 
+
+CHAPTER  V. 
+
+THE  TURTEL  TAUBE  OF   1747. 
+Foreword  —  Original  English  Version  —  Power  of  the  Church  — 
+Hymns  and  Music  Adapted  to  Worship  of  God  —  Spirit  of  Singing, 
+Mysteries  of  God  —  Conclusion  of  Foreword 53-58 
+
+5 
+
+
+6  Table  of  Contents. 
+
+CHAPTER  VI. 
+
+FATHER    FRIEDSAM'S   DISSERTATION. 
+Facsimile  of  Prologue .       ...    59-65 
+
+CHAPTER  Vn. 
+
+Reissel's  Unique  Instructions  on  the  Voice  Relations  of  Pupil 
+and  Master  —  Demands  of  the  Spirit  —  Kinds  of  Food  —  Effects  of 
+Milk,  Cheese,  Hutter,  Eggs,  Honey  —  Cooked  Dishes  —  Common 
+Vegetables  —  Concerning  Drink  —  Enochiau  Life 66-69 
+
+CHAPTER  VIII. 
+
+BEISSEL'S    DISSERTATION   ON    HARMONY. 
+Translator's  Note  —  Qualification    of  Teacher — the   Voices — 
+What  Constitutes  a  Four-part  Tune  —  Barrir  and  Toener  —  Bcissel's 
+Explanation  —  Major  and  Minor  Keys — Four-part  Key  for  Melo- 
+dies in  C.  —  Key  Diagram 7o-79 
+
+CHAPTER  IX. 
+
+ORIGINAL  AND   MODERN   NOTATION. 
+Conclusion  —  Original  Four-part  Score  on  Single  Staff — Ren- 
+dition—  Illustrations,  Wohl  auf  in  Four-part — Seven-part  Motet 
+—  Five-part  Melody  —  Six-part  Choral  —  Rendition  by  Mrs.  Frank 
+Binnix  —  Sister  Anna  Thomen ...    80-92 
+
+APPENDIX. 
+
+A  PAGE  OF  EPHRATA  THEOSOPHY. 
+
+An  Old  Manuscript — German  Proverb  —  Brother  Obed  —  His 
+Primer —  A  Newly-discovered  Ephrata  Imprint  —  Credit  Due  Penn- 
+sylvania-Germans—  Appearance  of  Guardian  Spirit  —  Various 
+Transmigrations  —  Man's  Cruelty  —  Woman's  Frailty  —  Moral  and 
+Conclusions 93-106 
+
+
+LIST   OF  PLATES. 
+
+
+Negatives  and  Reproductions  by  Julius  F.  Sachse- 
+
+The  Ephrata  Kloster,  General  View      frontispiece 
+
+Portrait  Late  Professor  Oswald  Seidensticker facing  page  17 
+
+Specimen  Page  from  Choral  Buch "  "40 
+
+Interior  Views  of  Sister  Saal  or  Chapel "  "52 
+
+An  Old  Ephrata  Hand  Press "  "96 
+
+
+ILLUSTRATIONS. 
+
+
+PAOB. 
+
+Vignette,  Wisdom 3 
+
+Head  Piece,  Music 9 
+
+Initial  E    .        9 
+
+Snowhill  Main  Building  ....  11 
+
+Ephrata  Pen  Work 12 
+
+Ephrata  Sampler 14 
+
+Bethania           .  14 
+
+Sister  House  and  Chapel  ...  15 
+
+Wm.  M.  Fahnestock 16 
+
+Head   Piece,   Delicae   Ephraten- 
+
+ses 24 
+
+Ornate  I ....  24 
+
+Tailpiece,   "  Laus  Deo "    ...  26 
+
+Head  Piece,  Doves 27 
+
+Ephrata  T 27 
+
+Silhouette  Beissel 28 
+
+Ephrata  Lily .    .  31 
+
+Ephrata  Sister 32 
+
+Head  Piece,  Books  and  Pens  .    .  33 
+
+Ornate  T 33 
+
+
+Peter  Miller  Portrait 51 
+
+Head  Piece,  Cupid 53 
+
+i  Script  I 53 
+
+Tail  Piece,  Passion  Cross    ...  58 
+
+Ephrata  Water  Mark 65 
+
+Head  Piece,  Lilies 66 
+
+Vignette 66 
+
+Script  Alphabet 69 
+
+Head  Piece,  Beaux  Art     ....  70 
+
+Initial  T .70 
+
+Watermark,  1744    .            ....  79 
+
+Head  Piece  and  Initial 80 
+
+
+So- 
+
+
+Tail  Piece     
+
+Ephrata  Symbol     .    . 
+
+Seal  Pennsylvania-German 
+
+ciety 
+
+Head  Piece,  Knowledge  .    . 
+
+Vignette,  Wisdom 
+
+Schwenkfelder  Inital   .    .    . 
+
+Tail  Piece  ,"  Finis  " io6 
+
+
+86 
+92 
+
+93 
+95 
+95 
+99 
+
+
+'     (7) 
+
+
+Title  Pages  and  Music. 
+
+
+TITLE   PAGES   AND   MUSIC. 
+
+
+PAGE.   I 
+
+Music,  Earliest  Ephrata,  1735  .  10 
+
+Arndt's  Gebetlie,  Ephrata  .  17 
+
+Wunderschrift,  Ephrata,  1745    .  18 
+
+Disscrtatiau  on  Man's  fall,  1765  .  19 
+
+Chronicon  Ephratense,  1786  .  .  20 
+Leben   eines  Herzogs,  Ephrata, 
+
+1790 21 
+
+Music,  Gott  ein  Herscher       .    .  30 
+
+Gbttliche  Licbes  gethone,  1730  .  34 
+
+Vorspiel  der  Neueu-welt,  1732  .  35 
+Paradisische    Nachts   Tropffen, 
+
+1734        36 
+
+Jacobs    Kampf  u.    Ritter-Platz, 
+
+•736 37 
+
+Zionitischcr  Weyrauchs  Hiigel, 
+
+1739    •    •    •               38 
+
+Gesiing  der  Turtel  Taube,  1747  .  39 
+
+Paradisisches  Wunderspiel,  1754  40 
+
+Turtel  Taube  Nachklang,  1755  .41 
+Turtel   Taube    Neuvermchrtes, 
+
+1762    .           41 
+
+Rosen  u.  Lilien.  "  Saron,"  1756  .  42 
+Rosen   u.    Lilien.   "  Bethania," 
+
+1756 41 
+
+Wunderspiel,  1766  .    .  .42 
+
+Ausbund    geistreicher     Lieder, 
+
+1785 43 
+
+Gilfende  Hertzens-Bewegungen 
+
+1749 44 
+
+Turtel  Taube,  sub-titles    .    .    .  46-48 
+
+Zionitischer  Rosen  Garten,  1754.  49 
+
+
+PACK. 
+
+Neuer    Nachklang    der    Turtel 
+
+Taube  52 
+
+Prologue,  fac-siniile 59-65 
+
+Barrir    and    Toener,   fac-siniile,    72 
+Music,  four-part,  key  for  Melo- 
+dies in  C,  original  and  trans- 
+position   74 
+
+Music,  Key  Diagrams  .    .    .    .  76,  77 
+Music,  original  scores  .    .  .81 
+
+Music,    Die  Braut   ist  Erwachet 
+
+(original)  .  .82 
+
+Music,  Die   Braut   ist  Erwachet 
+
+(modern)   .  .  ...    83 
+
+Music,  four-part  anthem  .    .  84 
+
+Music,  Wie  ist  docb  der  Herr, 
+
+five-part    (original)  ....    85 
+Music,  Gott  wir  Kommen    dir, 
+
+five-part    (original)      ...    85 
+Music,  Gedencke  Herr  an  David, 
+
+six-part  (original)  .  .    87 
+
+Music,  Wohlauf  und  Schmiicke, 
+
+four-part  (original)           .    .    88 
+Music,  four-part  (modern)      .    .    89 
+Music,  Gott  ein  Herrscher  aller 
+Heiden  7  part  Motet,  Mod- 
+em Notation           .    .    .    .  90,  91 
+Title,  Ephrata  Primer,  1786      .    94 
+Title,  Geistliche    Briefe     eines 
+Friedsamen     Pilgers    Eph- 
+rata, 1794 98 
+
+
+'^**^''j^tif»><^ 
+
+
+CHAPTER   I. 
+
+The  Music  of  the  Cloister. 
+
+VEN  more  interesting 
+than  the  high-gabled 
+cloister  buildings  at 
+Ephrata,  with  their 
+curious  history  and 
+associations,  or  the 
+issues  of  the  print- 
+ing'office  and  writing 
+room,  with  its  ornate 
+specimens  of  calig- 
+raphy,  is  the  music 
+of  the  Ephrata  Klo- 
+ster,  with  its  distinc- 
+tive system  of  har- 
+mony, unique  nota- 
+tion and  quaint  melodies,  with  a  peculiar  method  of  vocal 
+rendition,  all  of  which  were  an  outgrowth  of  the  the- 
+osophy  taught  by  Conrad  Beissel  and  his  followers  on  the 
+Cocalico. 
+
+That  this  singular  system  of  harmony  (if  strictly  speak- 
+ing it  can  be  called  a  system),  was  an  original  evolution 
+
+(9) 
+
+
+lO 
+
+
+The  Pennsylvania-German   Society. 
+
+
+^^^^A 
+
+
+^^ 
+
+
+7fyn 
+
+
+KARUHST    KPHRATA    MUSIC— FROM    MS.    HYMN-BOOK    USED    AT    AMWKLL, 
+N.    J.,    ABOUT    1735. 
+
+
+Ephrata  Music. 
+
+
+II 
+
+
+from  the  brain  of  the  Magus  on  the  Cocalico  cannot  be 
+denied,  and  it  has  the  additional  distinction  of  being  the 
+first  original  treatise  on  harmony  to  be  published  in  the 
+western  world.  This  was  fully  a  quarter  of  a  century  be- 
+fore the  Yankee  tanner,  William  Billings,  published  his 
+"New  England  Psalm  Singer." 
+
+
+MAIN   BUILDING   OF  THE   SNOWHILI,  INSTITUTION. 
+
+
+Contemporary  accounts  by  visitors  to  the  Ephrata  com- 
+munity during  the  eighteenth  century,  all  bear  witness  to 
+the  peculiar  sweetness  and  weird  beauty  of  the  song  of  the 
+sisterhood,  and  the  impressive  cadence  of  the  chorals  and 
+h3'^mns  of  the  combined  choirs.  Some  writers  even  dwell 
+upon  the  angelic  or  celestial  quality  of  the  vocal  music  as 
+it  floated  through  the  spaces  of  the  large  Saal,  as  the  re- 
+sponses were  sung  and  reverberated  from  gallery  to  choir. 
+
+Much  of  the  beauty  of  the  music  was  no  doubt  due  to 
+the  quality  of  the  voices  and  the  way  they  were  used. 
+
+With  the  decline  of  the  monastic  or  celibate  feature  of 
+the  Ephrata  community,  the  music  of  the  Kloster  fell  into 
+disuse,  and  gradually  became  a  lost  art.  The  only  place 
+where  any  attempt  was  made  to  keep  the  Ephrata  music 
+alive,  was  at  the  institution  known  as  the  "Nunnery"  at 
+Snowhill  in  Franklin  County.      Here  the  music  and  Beis- 
+
+
+IZ 
+
+
+The  Pennsylvania-German  Society. 
+
+
+sel's  system  of  harmony  were  fostered,  taught  and  prac- 
+ticed until  a  few  years  ago,  when  the  last  of  the  Snow- 
+hill  celibates  passed  from  time  into  eternity. 
+
+
+SPECIMEN    OK    EPHRATA    PENWORK    FROM    MS.  HYMN-BOOK    OF    I745. 
+
+It    may   truthfully   be   said    that    during  the   whole    of 
+
+the  nineteenth  century  no  effort  was  made  outside  of  the 
+
+Snowhill   "  Nunnery  "  to  practice  or  keep  alive  this  dis- 
+tinctive Pennsylvania-German  music. 
+
+
+Penwork  of  the  Celibates.  13 
+
+The  manuscript  music  books,  frequently  embellished 
+with  beautiful  penwork,  became  objects  for  the  cupidity  of 
+the  book  collector,  and  are  now  scattered.  A  few  have 
+found  resting-places  in  museums  and  great  libraries  of  the 
+country,  but  some  of  the  best  specimens  are  in  private 
+hands. 
+
+Unfortunately  many  of  the  music  books  of  the  Ephrata 
+community  deteriorated,  by  virtue  of  the  peculiar  composi- 
+tion of  the  ink  used,  which  destroyed  the  fiber  of  the  paper. 
+Others  again  suffered  from  careless  handling  in  addition 
+to  the  ravages  of  time;  then  again  in  many  cases  copies 
+were  thrown  aside  or  destroyed  by  their  ignorant  owners 
+as  worthless  Dutch  books.  Thus  it  happens  that  the  orig- 
+inal collection  of  the  Ephrata  manuscript  music,  which 
+was  never  a  very  large  one,  is  now  scattered,  and  speci- 
+mens are  eagerly  sought  after  and  difficult  to  obtain. 
+
+During  the  past  quarter  of  a  century  the  writer  has  made 
+a  systematic  search  for  such  music,  scores  and  books,  not 
+passing  even  fragments.  His  search  has  been  rewarded 
+to  so  great  an  extent  that  it  is  now  possible  again  to  form 
+a  conception  of  Beissel's  remarkable  musical  productions, 
+and  have  them  rendered  once  more  in  their  original  form. 
+
+Particular  attention  has  also  been  devoted  to  the  pub- 
+lished accounts  of  Beissel's  theories  on  harmony,  in  both 
+the  Chronicon  JEphratense  and  the  hymn-book  known  as 
+the  Turtel  Taube  oi  1747.  Comparisons  have  been  made 
+between  oi-iginal  scores  by  Beissel  and  the  elementary 
+exercises  used  in  the  singing  school,  as  well  as  with  the 
+finished  and  concerted  pieces  used  at  the  Kloster  services. 
+Thus  we  are  now  in  a  position  to  form  a  tolerably  clear 
+idea  of  this  system  of  harmony  which  had  its  development 
+on  the  banks  of  the  Cocalico,  as  well  as  of  the  original 
+manner  of  rendering  the  music. 
+
+
+H 
+
+
+The  Pennsylvania-German  Society. 
+
+
+I  I.H.D.E-K.A.V.. -S..rj.G.».W.tI>.8:  '5.H.I^ A.J.;i;,:©.'Z.EW.V.D.yi,2l; 
+1 3D.E.  '<».£.S.W.8.W.«.H.K.A.n.<x.S  M.VD.W.y.D.E.n.F.S.rJi.R. 
+
+
+3 
+
+s 
+
+
+FROM    AN    KPHRATA   SAMPLER. 
+
+Conrad  Beissel  evidently  had  but  a  scant  acquaintance 
+with  the  church  music  of  the  Reformation  period,  and  his 
+musical  compositions,  it  now  appears,  stand  in  the  same 
+category  with  his  theosophical  writings.  The  music  of 
+the  Ephrata  Kloster  is  entirely  unlike  the  ancient  church 
+music,  and  it  has  none  of  the  rhythm  and  swing  of  either 
+the  religious  or  secular  folk-song  of  the  Reformation.     Our 
+
+
+BETHANIA,  THE  OLD   BROTHER   HOUSE. 
+
+Ephrata  music,  like  the  hymns  to  which  they  were  set, 
+contains  many  elements  of  mysticism. 
+
+It  will  be  remembered  that  this  music,  with  its  peculiar 
+system  of  harmony,  wa.s  a  native  Pennsylvania  product  — 
+
+
+History  of  the  Kloster. 
+
+
+15 
+
+
+the  earliest  and  most  original  distinctive  system  of  music 
+evolved  in  the  western  world  during  the  eighteenth  cen- 
+tury. Though  crude  in  many  of  its  progressions  and  often 
+incorrect  in  its  harmonies,  yet  from  both  an  historical  and 
+a  musical  standpoint  it  is  unique  and  valuable. 
+
+Sung  as  it  was  with  fervor  and  feeling,  by  the  enthusi- 
+astic mystic  celibates  within  the  confines  of  the  Kloster 
+Saal,  the  music  unquestionably  had  a  charm  of  its  own. 
+
+The  history  of  the  old  Kloster  has  for  years  been  a 
+fruitful  subject  for  writers  of  varied  accomplishments.  No 
+matter  from  what  point  of  view  we  approach  it  —  whether 
+from  a  domestic,  social,  religious,  educational  or  architec- 
+tural one  —  we  are  astounded  with  the  wealth  of  the  novel 
+situations  which  present  themselves  before  us,  changing  at 
+every  turn  with  kaleidoscopic  rapidity,  ever  presenting  new 
+
+
+SISTER   HOUSE  AND   CHAPEL. 
+
+
+and  curious  combinations,  and  offering  for  consideration 
+themes  for  study  and  an  incentive  for  further  research  and 
+discovery. 
+
+
+i6 
+
+
+The  Pennsylvania-German  Society 
+
+
+During  the  past  quarter  of  a  century,  the  reading  public 
+has  been  kept  tolerably  well  informed  of  the  history  of  this 
+mystic  community  that  had  its  origin  in  Lancaster  County 
+within  our  own  State,  In  most  cases  these  accounts  were 
+mere  newspaper  sketches,  superficially  written  by  the 
+average  reporter  of  the  day,  who  usually  has  a  vivid 
+imagination,  without  any  time  or  training  for  research  or 
+historic  investigation. 
+
+
+^■^ 
+
+^^ 
+
+^^^^k^ 
+
+/^ 
+
+^^m 
+
+^P 
+
+^ 
+
+\^ 
+
+^S^ 
+
+i 
+
+« 
+
+^^ 
+
+^^^^s^k. 
+
+m 
+
+^^ 
+
+UR.    WM.    M.    FAHNESTOCK,    b.    APRIL    lO,    lSo2;  d.    DEC.    I5,    1854. 
+
+Even  worse  than  these  ephemeral  stories,  we  have  been 
+afflicted  with  occasional  dissertations  and  opinions  by 
+would-be  authorities,  who,  although  totally  ignorant  of 
+the  German  tongue,  and  the  habits  and  customs  of  our 
+people  and  their  literature,  have  set  themselves  up  to  speak 
+authoritatively  of  the   Ephrata  people,  their  writings  and 
+
+
+MUSIC    OF    TME    fFMRATft    CLOISTER. 
+
+
+TROF.  OSWALD    SEIDEMSTICKER. 
+
+e.   MAY    S,    \»2t  ;     D.    JANUAAy    10,    IB»4. 
+
+
+A  Unique  Imprint. 
+
+
+17 
+
+
+music.  These,  in  almost  every  case  have  been  mere  idle 
+vaporings,  unworthy  of  notice  and  valueless  for  reference, 
+except  as  to  such  portions  as  they  have  taken  bodily  from 
+the  publications  of  the  Pennsylvania-German  Society — or 
+its  members. 
+
+In  bold  contrast  with  the  above  screeds,  we  have  a  num- 
+ber of  fugitive  and  fragmentary  papers  in  both  German 
+and  English — publications  of  great  value  by  such  writers, 
+investigators  and  scholars  as  the  late  Dr.  Wm.  M.  Fahne- 
+stock,  Professor  Oswald  Seidensticker  and  others. 
+
+These  publications  were  followed  by  the  "  Critical  and 
+Legendary  History  of  the 
+Ephrata  Cloister  and  the 
+Dunkers,"  an  exhaustive 
+work  by  the  present  wri- 
+ter, forming  the  basis  of 
+his  "German  Sectarians." 
+This  work,  representing 
+a  research  and  labor  of 
+more  than  twenty  years, 
+was  supposed  to  have  been 
+exhaustive,  giving  the 
+whole  history  of  the  move- 
+ment and  settlement  of  the 
+mystic  community,  as  well 
+as  a  complete  list  of  the 
+issues  of  the  Ephrata  press 
+and  a  bibliography  of  the 
+Kloster.  But  since  its 
+issue,  a  number  of  new 
+imprints,  broadsides  and 
+rhanuscripts  have  come  to 
+light,  chiefly  through  the  incentive  offered  by  the   pub- 
+
+
+gctflrctdjc 
+unt) 
+
+5lbenb  • 
+
+@ebett)C/ 
+
+auf  jeDm  lag  bet 
+
+©ctiruchl  unb  yx  W- 
+
+ben  tn  5ancajler  bcv 
+
+^enric^  2)om  in  oer 
+
+2)Dntfial--flro0. 
+
+
+TITLE  OF  ARNDT'S    SPIRITUAI, 
+PRAYERS. 
+
+
+z8 
+
+
+Music  of  the  Ephrata   Cloister. 
+
+
+lished  list  in  the  "  German  Sectarians,"  among  them  being 
+a  copy  of  Arndt's  Gebelhc,  supposed  to  have  been  the  ear- 
+liest issue  of  the  Ephrata  press. 
+
+So  far  as  the  writer  has  been  able  to  discover  in  his  in- 
+vestigations of  the  Ephrata  press,  there  are  evidences  of 
+
+
+£tDen 
+
+
+300  3a^  tm  ^aroMe^  gfrnefcti; 
+
+0(dn3cn9  tclcrcr  jurtid  to  fctn  9icic^  tam, 
+
+!Stot>«,  fict)  ta  (Strait  iln<f  f(t)c  aUen 
+SO?«nnc«  oenvanfidt,  unD  flitbt. 
+
+
+Qpbtata,  &c&aicft  (m  3aQt    i7»<>. 
+
+
+A   LATELY   DISCOVERED   KPHRATA   IMPRINT. 
+
+three  instances  where  efforts  were  made  to  issue  an  orig- 
+inal work  of  the  community  in  both  German  and  English. 
+The  first  of  these  was  Beissel's  Wunderschrift  (1745). 
+The  English  version,  "  A  Dissertation  on  Man's  Fall," 
+was  not  printed  until  1765. 
+
+
+Page  of  an  Efhrata  Imprint. 
+
+
+)   »  ( 
+
+
+'*3nc  tf<ff  SdisfffgenM  meUic^  ©rifted  ^at  u%  Ur» 
+
+M):  ^\\x<\)  xtiW  tt»(«crc{.neU)it(l;e  ttltdcI^d^tiNitm 
+\a^  Mron  acf oiunicii  bin.  UnD  £b  (tcj)  f((;cu  bic  S(Vi;f#lt 
+%vx^\n\e)^imH^^^  onvrei^t:  f».  xM  Ud^rdi  vaX 
+^orrcDe)  cttva^^  aitmcrctm/  um  eimn  (Sin^ang  yixi  6^ 
+4e  ;(it  mncDcn. 
+
+3dj  Tjobe  su>nr  in  rcn  Xa^cn  nicincr  ©firtttd&en  3iiB^^ 
+gcnicut^t;  cd  (5)ifc  luir  nia?t  feOfcn/  tvanuid)  Uii<t)  ft^o^tie:: 
+auf  tiu^.faulH'iiic  6i'cn;  tun  utcinm  SSSantcl  im.^.  SQe^ 
+UcH'^'n  tlH^  (BottHcl'm  ^ic^te  anfi'tbrrii.  ^lleinbiifi^ 
+(^t  fo  vkk  f)4mc  unb  W)wcrc  ©fjvnfurficbe  emcctrt;  bat^ 
+ttiicb  eft  ^ntr((}cn  ttnb  O^rauTcir  nnfam:  n^invoM  i<i^  ros 
+fieben  mrtn  .^.  SDctKcbtsfrnn  rcrtfe(jtC/  in  ber  gnrtmmgi  i^, 
+int  €ic3  ju  gcnHnncn.  SiRcin/  ic  nicfir  Jfcifj  tcb  (mwiintti 
+b(f!o  cine  bcfrtdcrc  iKcbcQionicI^  in  mit  itmAutrnW^ 
+mi^  ficDltcb  fo  dc0bct  tutb  acficbet  boll  efmiaf  Me  ^tcineK 
+Xi^cm  (te  marten  cine  ^ntvfin^Uc&fctt  ge^br^  init  mir  ^t» 
+ten  fc^rctjcn  nififtcn;  fonbcilic^  tvcU  ber  gtofe  SKg  sinb  bfe 
+(iHcttcinfre  ^ninfr  bcr  Ciebe  nOejcit  bo^  Scilec  gc  fif^irtt  jii 
+eimuv  ncwn  mmw.  (i)  ©icfe^  ^at  niic^  fa^m  in-  gac 
+
+(0  S«f  ^^«»  tuftrfXcixn  i|?  for<j(iiJfir:3<mc5if  m  mtU^n  Ias 
+e>\:ti  cn<;clc0(n  fctiU;  t(|?c  ni(()r  tv<r^  Hi  XXM  <n  itn^  »$(.  £^  i^ 
+M(f(i(  ciiK  aii^fonotf  ^i:fa[}riiit0.  6(f?^tiflte  Sffiat^cft:  t^i  tr^ittn  wit 
+
+<9itJ[(# 
+
+
+INITIAL  PAGE  OF  THE  GERMAN  VERSION  OF  BEISSEL'S  WTTNDERSCHRIFT. 
+
+
+20 
+
+
+The  Pennsylvania-German  Society. 
+
+
+Diffcrcation  on 
+
+MANS     FALL, 
+
+Tranftatcd  from    the  High-Gcmun  Origiiul. 
+
+
+Wnted:    fiP^/l^^  Anno  MDCCLXV. 
+
+old  at  Philadfllphia  by  Moffiears  Chris Tortf 
+
+Marshal    and     Williak      Ditnlap 
+
+
+TITLE  PAGE  OK  THE  BNGLISH  VERSION  OF   BEISSEL'S  WUNDERSCHRIFT. 
+
+
+Title  Page  of  the  Chronicon  E^hratense. 
+
+
+21 
+
+
+Chronicon    Ephratenfe, 
+
+griebfam    @ottrct&t/ 
+
+2Bralnn6  ©tl|ficr«  unK  g5ot|!c^cttf  Detf  geiftl.  OtJcntf  Dec  ©nfamm  to 
+
+Ephrnta    hi  DCC    0vafr(1)aft    Laacafler    ia   Penniylvania. 
+
+3«fameii  gctraaen  iJon  Sr»  Lamech  u^  Agrippa. 
+
+Cr  ifl  rou  5)115  5cu«r  eincg  (SoI&fcf)niieD«,  unti  role  Die  ©cijfe  ^et  ClBdfd)«:  & 
+«itD  Die  iCiuDcv  £coi  tcjniflcn  rote  (SoI&  nnb   <2tlbcr.    SWalacJj.  a*  2.  3. 
+
+6«  j|l  Oie  3«»t<  '^'^t  cmfal)e  Dad  (Scridjt  am  J;)aufe  jotted/  fo  ober  juetfl  an 
+nnd/  lead  ivill  tot  ein  SnDc  tvcrDen  mtt  benen,  Die  Dem  (Svangelio  '&^\nt 
+nict)t  glauben.  UnD  fo  Dec  (SeTcct)te  fummcr(td>  erl)a(t(ti  roiiD/  wie  will  Jmt 
+©ottiofe  unD  ©unDer    etf<:I)«»ncn    1.  f^ctt.  47  17-  18. 
+
+
+EPHRATA:    ©CDWCft     Anno      M   D    C  C  L  X  X^X  V  I , 
+
+
+TITI,E  PAGE  OF   CHRONICON   EPHRATENSE. 
+
+
+22  Music  of  {he  Efhrata  Cloister, 
+
+The  next  venture  was  the  Chronicon  Efhratense.  This 
+was  translated  by  Brother  Jaebez,  and  the  MS.  sent  to 
+Christopher  Marshall  for  correction  and  revision.  The  out- 
+break of  the  American  Revolution  prevented  its  publication. 
+
+The  third  work,  and  to  us  at  present  the  most  important 
+one,  was  Beissel's  Dissertation  on  Harmony  as  it  appears 
+in  the  preface  of  the  Turtel  Tatibe  of  1747.  The  writer 
+has  never  been  able  to  find  a  complete  copy  of  this  trac- 
+tate in  English.  A  fragment,  however,  has  come  down 
+to  us,  proving  the  fact  that  it  was  translated  and  printed 
+in  English ;  but  it  unfortunately  lacks  the  title  and  con- 
+cluding pages.  Such  portions  as  we  have  are  printed 
+verbatim  et  literatim,  the  missing  parts  being  translated 
+and  supplied  by  the  present  writer. 
+
+The  attention  of  the  writer  has  been  repeatedly  called, 
+by  musicians  and  other  competent  musical  judges,  to  cer- 
+tain glaring  errors  in  the  music  as  printed  in  the  musical 
+chapter  of  his  work,  and  supposed  to  have  been  a  correct 
+translation  of  the  Ephrata  scores  into  modern  notation. 
+The  writer  greatly  regrets  the  inadvertent  introduction  of 
+this  erroneous  matter  into  his  work — mistakes  for  which 
+he  can  hardly  be  held  responsible.  In  compiling  the 
+chapter  on  the  Ephrata  music '  the  writer,  not  being  an 
+expert  skilled  in  the  rules  of  harmony,  nor  proficient  in 
+instrumental  music,  entrusted  the  transposition  of  several 
+specimen  pieces  into  modern  notation  to  the  hands  of  a  per- 
+son whom  he  believed  to  be  a  competent  and  practical 
+musician  —  one  who  claimed  to  have  some  knowledge  of 
+this  kind  of  music.  Fortunately  for  the  writer,  only  three 
+of  the  transpositions  were  used. 
+
+The  many  criticisms  which  they  brought  forth  led  to  a 
+closer  and  more  general  examination  and  study  of  such 
+Ephrata  scores,  manuscript  music  books  and  sheets  as  were 
+
+•  "  German  Sectarians,"  Vol.  II.,  Chapter  VI.,  pp.  127-160. 
+
+
+An  E^hrata  Score  Book.  23 
+
+available,  and  a  comparison  of  them  with  such  descriptive 
+and  explanatory  matter  as  appears  in  the  Chronicon,  the 
+Turtel  Taube  and  other  books  of  the  Ephrata  institution. 
+
+Since  the  issue  of  the  final  volume  of  the  "  German 
+Sectarians,"  quite  opportunely  several  new  and  heretofore 
+unknown  music  books  and  manuscripts  were  found  and 
+brought  forth  from  their  resting-places,  and  were  kindly 
+sent,  by  their  various  inheritors,  owners  or  legatees  of 
+some  of  the  old  Sabbatarians,  to  the  writer.  Two  of  these 
+books  deserve  special  mention,  as  they  give  to  us  the 
+key  to  the  whole  system  or  manner  of  the  rendition  of  the 
+music,  and  how  it  was  originally  written  or  composed  by 
+the  versatile  genius  on  the  Cocalico.  These  books,  in 
+fact,  bear  the  same  relation  to  Beissel's  musical  hiero- 
+glyphics that  the  Rosetta  stone  does  to  the  Egyptian  ones. 
+One  of  these  books  appears  to  have  been  the  score  book 
+of  either  Beissel  or  some  other  leader  of  the  choirs.  It 
+also  differs  from  any  of  the  other  known  music  books,  as  it 
+contains  some  of  the  music  as  originally  written  by  the 
+composer,  Conrad  Beissel.  In  some  places  the  entire  four 
+parts  are  written  consecutively  upon  a  single  staff,  the 
+clef  being  shifted  to  suit  the  voice  or  part.  In  many  cases 
+the  words  of  the  hymns  are  also  divided,  showing  the  num- 
+ber of  words  sung  respectively  to  each  bar,  which  in  many 
+cases  is  an  arbitrary  selection. 
+
+The  other  book  shows  how  the  above  four-part  music, 
+as  originally  written  on  a  single  staff,  was  written  out 
+when  used  in  actual  practice. 
+
+Another  interesting  bit  of  information  that  has  come  to 
+light  in  this  connection  is  "  Beissel's  Apology  for  Sacred 
+Song,"  a  colloquial  tractate  consisting  of  eleven  questions 
+and  answers  whereby  Beissel  justifies  the  introduction  of 
+sacred  song.  This  tractate  is  now  for  the  first  time  ren- 
+dered into  English  and  here  follows. 
+
+
+CHAPTER   II. 
+Beissel's  Apology  for  Sacred  Song. 
+
+
+S  it  consistent  \v  i  t  h  the 
+Word  of  God  that  we 
+sing? 
+
+Yes,  as  we  find  in  both 
+Old  and  New  Testaments 
+commands  and  examples. 
+Psalm  Ixviii.  5,  33; 
+Matthew  xxvi.  30  ;  Eph. 
+V.  19  ;  James  v. 13. 
+
+Who  shall    then  sing? 
+All   the  saints  of  God, 
+whose  hearts  and  mouths 
+are  full  of  praise,  thanks- 
+giving and  prayer. 
+Cannot  the  godless  sing  a  hymn  in  a  manner  acceptable 
+to  God  ? 
+
+Oh,  no,  for,  like  unto  the  prayer  of  the  wicked,  so  also 
+is  their  song  abhorrent  unto  God.     The  bawling  of  their 
+hymns  pleaseth  Him  not.      Amos  v. 
+Why  cannot  such  people  sing  rightly? 
+Because  they  have   not  the   spirit  of   Christ,  who  alone 
+can  intone  the  true  tone  and  song. 
+
+(24) 
+
+
+The  Song  of  the  Early   Christians.  25 
+
+How  sang  the  early  Christians? 
+
+One  of  the  old  chroniclers  speaks  thereof  as  follows  : 
+
+"The  husbandman  sings  behind  the  plow  a  joyful 
+hallelujah  ;  the  tired  reaper  enlivens  himself  with  psalms, 
+and  the  vinedresser  sings  portions  of  David's  hymns,  and 
+so  forth," 
+
+At  their  meetings  did  they  sing  together? 
+
+Yes.  For  as  they  met  together  before  break  of  day 
+they  read  some  selections,  offered  prayer,  and  in  the  sim- 
+plicity of  Christ  sang  hymns  of  praise  as  heathen  writers 
+have  testified  of  them. 
+
+Did  they  sing  at  the  table  ? 
+
+Yes.  In  place  of  disgraceful  laughter  and  unnecessary 
+conversation  at  the  table,  they,  with  wife,  children  and 
+guests,  intoned  hymns  of  praise  and  thanksgiving. 
+
+How  shall  the  heart  be  qualified  when  we  want  to 
+sing? 
+
+As  it  has  been  crushed  under  the  law  and  made  pensive 
+after  God,  then  comes  the  Holy  Ghost  and  brings  peace 
+and  joy  into  the  heart,  that  the  mouth  overflows  to  the 
+praise  of  God. 
+
+What  is  meant  by  the  psaltery  with  ten  strings,  of  which 
+David  speaks? 
+
+As  the  tenth  number  is  a  perfect  number  (when  one  has 
+counted  ten,  one  begins  again  and  commences  with  one), 
+therefore  is  Christ  our  psaltery  with  ten  strings,  whose  per- 
+fection is  continually  in  our  hearts  and  to  be  sung  with  our 
+lips. 
+
+Who  therefore  teaches  us  to  sing  aright? 
+
+The  Holy  Spirit,  as  the  true  singing-master,  can  turn 
+the  heart  into  a  celestial  harp  and  divine  instrument,  so 
+that  it  can  be  used  without  outward  instrument  and  sound, 
+and  often  also  without  any  audible  voice. 
+
+
+26 
+
+
+Music  of  the  JEphrata   Cloister. 
+
+
+Is  it  not  sufficient  when  one  outwardly  listens  to  a  beauti- 
+ful melody? 
+
+Oh,  no.  Paul  speaks  :  "  Sing  unto  the  Lord  in  or  with 
+your  hearts."  Even  the  lips  of  the  godless  can  carry  a 
+fine  voice. 
+
+Intone  then  ye  saints  to  the  Lord,  intone  a  hymn  unto 
+the  Lord,  with  the  celestial  choirs  of  the  upper  and  lower 
+Jerusalem  ;  yea,  let  everything  that  hath  breath  praise  the 
+Lord. 
+
+Hallelujah. 
+
+
+CHAPTER   III. 
+
+The  Music  of  the  Kloster. 
+
+HE  finding  of  this  new  material 
+and  the  discovery  of  other 
+interesting  features  of  mys- 
+tical Pennsylvania  music,  to- 
+gether with  an  earnest  desire 
+of  the  writer  to  correct  the 
+evident  errors  in  the  musi- 
+cal transcriptions  in  his  chap- 
+ter on  the  Ephrata  music, 
+have  been  among  the  incen- 
+tives to  write  this  paper,  and 
+thereby  to  perfect  his  account  of  the  Kloster  music.  For 
+this  purpose  he  has  secured  the  cooperation  of  the  Rev.  J. 
+F.  Ohl,  Mus.  Doc,  well  known  as  a  musical  editor  and 
+writer  on  musical  subjects.  This  authority  has  made 
+correct  transpositions  of  the  native  Pennsylvania-German 
+music  into  modern  notation,  enabling  us  to  present  in  its 
+proper  light  the  peculiar  system  of  harmony  evolved  in 
+the  versatile  brain  of  Conrad  Beissel  in  his  seclusion  on 
+the  Cocalico.  A  number  of  illustrations,  sufficient  for  our 
+purpose,  are  given  both  in  the  original  and  in  modern  form. 
+The  system  of  harmony  here  brought  to  our  notice,  it 
+must  be  remembered,  was  the  original  outgrowth  of  the 
+
+(27) 
+
+
+28 
+
+
+The  Pennsylvanta-Gennan  Society. 
+
+
+mind  of  a  comparatively  uneducated  man,  whose  practical 
+knowledge  of  music  was  limited  to  a  few  scrapings  of 
+dance  music  when  he  was  yet  a  journeyman  baker  in  the 
+Fatherland.  How  much  instruction  he  ma}'  have  received 
+in  theoretical  or  practical  notation  from  Ludwig  Blum 
+during  the  latter's  short  sojourn  on  the  Cocalico  it  is  difficult 
+to  surmise.     But,  judging  from  the  tenor  of  the  Ephrata 
+
+
+ALLEGED    PORTRAIT   OF   CONRAD    BEISSEL- 
+
+
+records,  Beissel  evidently  received  no  information  from 
+Blum,  ex'cept  such  as  was  carried  to  him  by  Sister  Anas- 
+tasia  and  her  associates.  Yet  here  we  find  Conrad  Beissel, 
+we  may  say  almost  at  a  moment's  notice,  without  previous 
+
+
+Curious  Feattires.  29 
+
+preparation,  teaching  and  publishing  novel  rules  on  har- 
+mony, composition  and  vocal  music  —  taking  for  his  guide, 
+the  records  inform  us,  the  ^olian  harp  —  in  other  words, 
+the  music  of  nature  ;  and  in  less  than  twenty  years  he  com- 
+poses, it  is  stated,  over  a  thousand  different  melodies  and 
+tunes,  set  in  two,  four,  five,  six  and  even  seven  parts,  to 
+as  many  different  hymns,  most  of  which  were  also  of  his 
+composition. 
+
+A  curious  feature  of  this  Ephrata  music  is  that  it  was 
+chiefly  sung  by  female  voices ;  thus  the  four-part  pieces 
+were  rendered  by  a  female  tenor,  alto  and  soprano,  the 
+music  being  written  in  the  movable  C  clef,  while  the  bass 
+appears  in  the  F  clef.  In  the  five-part  scores,  a  second 
+bass  is  added,  making  three  female  and  two  male  parts. 
+The  six-part  compositions  have  the  same  arrangement, 
+with  the  addition  of  another  female  tenor.  An  additional 
+high  female  voice  completes  the  seven-part  music,  which 
+I  believe  stands  unique  in  musical  literature.  This  had 
+five  female  parts  and  two  male:  viz.,  two  sopranos  or 
+high  female  voices,  one  alto  or  counter  tenor,  two  female 
+tenors,  and  first  and  second  bass. 
+
+The  peculiar  arrangement  of  the  voices  prevailed  in  all 
+the  Ephrata  music,  a  peculiarity  which  is  distinctly  men- 
+tioned in  different  contemporary  MSS.,  which  state  that 
+all  the  parts  save  the  bass,  which  is  set  in  two  parts,  are 
+led  and  sung  exclusively  by  the  females.  Thus,  in  the 
+seven-part  music,  counting  from  below,  the  first  part  is 
+lower  bass ;  second,  upper  bass ;  third,  female  tenor ; 
+fourth,  female  treble ;  fifth,  counter,  high  female  voice ; 
+sixth,  leading  voice  ;  seventh,  second  leading  voice. 
+
+Our  illustration  of  Beissel's  seven-part  music,  Gott  der 
+Herscher  aller  Heiden,  is  taken  from  the  Paradisisches 
+Wundersptel  of  1754,  which  was  his  last  musical  work, 
+
+
+30 
+
+
+Music  of  the  Ephrata  Cloister. 
+
+
+((ODiiutro.  i^i>4?rtl  »ttt>  loflim  oa^  rtctro,  fo  lPtt^  man  Srtiiii  luio  ^onnt  |<^ 
+
+
+P 
+
+
+^^ 
+
+
+« 
+
+
+•s 
+
+
+VA^--- 
+
+
+>rai3^ 
+
+
+1 
+
+
+^ 
+
+
+^te^ 
+
+
+1 
+
+
+^ 
+
+
+-:  ''%  ? 
+
+
+i 
+
+
+^^^^ 
+
+
+^fe 
+
+
+t^"       !*> 
+
+
+-tf- 
+
+
+-"  tUfj 
+
+
+"^a    N,>h^-g 
+
+
+■  f    ^ 1    ^,       *  ■>■;»      V 
+
+
+1  ^  i^  '.^?^ 
+
+
+^^ 
+
+
+i 
+
+
+^^ 
+
+
+:^±^ 
+
+
+2 
+
+
+'    ^'X'^      '"'    >^ 
+
+
+>^.^rr. ,  iA 
+
+
+^ 
+
+
+:t3r:^ 
+
+
+^ 
+
+
+^^ 
+
+
+^ 
+
+
+/^ 
+
+
+^ 
+
+
+^ 
+
+
+i  ^  '^  '■' 
+
+
+^=^ 
+
+
+^ 
+
+
+k^A 
+
+
+*  ■'J{.^ 
+
+
+^- 
+
+
+:^ 
+
+
+:2 
+
+
+-^ 
+
+
+^  <,  ^c,'.  . 
+
+
+^ 
+
+
+—r*-i — rv 
+
+
+^'^'i- 
+
+
+k 
+
+
+p 
+
+
+^ 
+
+
+an  ennm  (^AtnQ)nra,  tai  mm  oitM  ^rdg  tob  ^ti|fm  002^  ^nn  fHat^, 
+in  fic  n^6^t/  ^r  SOdlcta  f(()ti aic  (BOt((^  'i&taut  nun  cin^afltW-  «96. 
+
+
+\   SEVEN-PART  MOTET. 
+
+
+Choral  Songs. 
+
+
+31 
+
+
+and  the  Chronicon  says  that  it  was  by  many  masters  de- 
+clared the  most  important.  These  were  the  choral  songs, 
+and  they  consist  of  a  folio  volume  partly  written,  partly 
+printed. 
+
+
+■   IW  fclBt  I 
+
+
+32  The  Pcnnsylvania-Gertnan   Society. 
+
+5 
+
+
+AN    EPHRATA    SISTER    FROM    ILLUMINATED    HYMN-BOOK. 
+
+
+CHAPTER    IV. 
+
+
+The  Hymn-Books  of  the  Community. 
+
+
+HE  earliest  hymn  and  music 
+books  of  the  Ephrata  com- 
+munity were  all  laboriously 
+and  carefully  executed 
+with  the  pen.  These  were 
+supplanted  by  the  hymn- 
+books  printed  for  their  use 
+by  Franklin  in  1730,  1732 
+and  1736,  and  Sauer  in 
+1739.  Shortly  after  the 
+large  printing  press  was 
+established  in  the  institu- 
+tion on  the  Cocalico  the  membership  as  well  as  the  num- 
+ber of  original  hymns  and  tunes  having  greatly  increased, 
+it  was  proposed  to  issue  a  distinctive  original  hymn-book 
+for  the  uses  of  both  the  solitary  and  secular  organizations, 
+all  of  the  compositions  being  the  work  of  the  inmates  of 
+the  Kloster  and  set  to  tunes  of  their  own.  This  book  was 
+to  replace  in  the  Kloster  worship  those  previously  printed 
+by  Franklin  as  well  as  the  Weyrauchs  Hiigel,  which  bears 
+the  imprint  of  Christopher  Sauer  of  Germantown. 
+
+(33) 
+
+
+34  Music  of  the  Efhrata  Cloister. 
+
+GOTTilGHE 
+
+Liebes  und  Lobes  gethSne 
+
+Welchc  in  den  hertzen  der  kinder 
+dcr  wcifzheit  zufammen  cin. 
+
+Und  von  da  wieder  aujhgefloffen 
+
+ZUM  LOB  GOTTES, 
+
+IJod  nun  denen  fchulem  der  himlifchen 
+
+weiizheit  zur  eiweckung  und  auf» 
+
+muntening  in  ihiem  Creutz  und 
+
+leiden  aus  hertzlicher  lie* 
+
+be  mitgcthcilct 
+
+D      A      N      N 
+
+MltliAeifSlkt/lei0,  iew'gt  Gm  iien  iejlep  Prtfjt 
+Vitig^Z/m^itg*»»^y  die  aUerfdifJle  <sBe^z. 
+
+Zu  ^hibdelfbia :  Gedmdct  loBfB^fafmn 
+FrankJin  in  der  Marchfr^^  ^3^» 
+
+
+HYMNALS   OF   THE    EPHRATA    COMMUNITY. 
+
+
+Hymnals  of  the  Ej>hrata  Kloster.  35 
+
+VORSPIEL 
+
+NEUEN-WELT 
+
+Welches  iich  in  derletJJten  Abendrocthc 
+
+als  ein  paradififcher  Lichtes-glasicz 
+
+unter  den  Kindem  Gottes 
+
+heivor  gethao. 
+
+tN 
+
+UEBESy  LOBES,  LEIDENS,  KELJFFT 
+
+und  Etfahrungs  liedenrahgebildeP^^ 
+
+gedt^kfUy  gehuche  undCreutx* 
+
+trag(ifik  Kirche  aafErdeih 
+
+Uodwie  intwilcheti' fitih 
+
+Die  obere  und  Triumphirende  KiiM^ 
+
+als  cine  Paradleiifche  vorkofl  her« 
+
+vor  tbut  und  offctil^ahrcc* 
+
+Utii  dawben^  ah 
+
+Emfilicfae  und  zaruSende  w£chterflifnmeil 
+
+aiuHe  annoch  zerftreuete  Kiader  Gottes;  dvfiii 
+
+Iich  (anmlen  und  bereit  maohen  aaf  dea 
+
+l^digen ;  Ta  bald  hereio  brechea* 
+
+^den  Hochzeit-Tag  derbtaut 
+
+des  Lifunfoi 
+
+iLa  'Philadelphia  i   Gedraclct  hey  Betijamia 
+FrMckJiu^kidsiMttek*firafs^  1731. 
+
+HYMNAI,S  OF  THE   EPHRATA   COMMUNITY. 
+
+
+36 
+
+
+Music  of  the  Efhrata  Cloister. 
+
+
+xmd 
+
+
+0m  fiAr  U     y    3'    4 
+
+HYMNAI.S   OF   THE   EPHRATA   COMMUNITY. 
+
+
+Hymnals  of  the  Efhrata  Kloster.  37 
+
+JACOBS 
+
+KampfF  und  Ritter-Platz 
+
+A  L  L  W  O 
+
+Dcr  nachfcinem  urfprang  fich  fehnende 
+
+geift  der  in  Sophiam  vcrliebten  feci© 
+
+mit  Gotc  urn  den  neuen  namea 
+
+geruDgeri,  und  den  Sieg 
+
+davon  gccragcn. 
+
+ENTWORFFEN 
+
+mUNrERSCHIDUCHENGLJUBENS- 
+
+a,  teidens'liedern^u,  erfahrungs  volkn  aas^ 
+
+iruchmgen  des  gemuthsy  darimtenjich 
+
+dar  pellet y  fo  welauff'feiten  Gottes 
+
+Jeineunermuedete  arheitzur  rei* 
+
+nigtingjolcher  feekuy  die  fich 
+
+feiner  inerung  anvertrauU 
+ALS  AUCH 
+
+Aufffeitcn  des  Menfchen  der  emft  des 
+
+geides  im  aushalten  unter  dem  procefa 
+
+der  laurerung  und  abfchmeltzang 
+
+des  Menfchen  der  Sundcn  famt 
+
+dem  daraus  entfpringeo* 
+
+den  lobes-getboQ. 
+
+ZUR 
+
+Gemfithlichen  enveckang  derer  die  das  faeil 
+
+Jcrufalems  lieb  habeo. 
+
+.  VERLEGET 
+
+Von  tintm  Uebbaher  d^r  wahrheit  dieimvef" 
+
+borgenen  wobnt» 
+^^§»;  4$^  «oi§^  40i§o»  ^^  <5P»  «o5 
+^yxmtbdel{hia^  gedrackt  bey  B.F*  i73<5. 
+
+HYMNALS   OF  THE   EPHRATA   COMMUNITY. 
+
+
+38 
+
+
+Music  of  the  Ephrata   Cloister. 
+
+
+ZIONITISCHER 
+
+
+Otxr: 
+
+
+ntrPen 
+
+
+Dcj  nad!)  vipotbefer^j^inil  jubcccimei 
+9{au{t) :  ^er(f  ju  findra. 
+
+3n  allfrfei)  Cccbe^^^urcfungcn  Dfr  m  (SOtX 
+
+gf()tillgt£n@«Ien/  trtli^tilct)  in  oider  unb  maiiittrlw 
+
+gti{ll((ten  unD  lublttten  (futxcn  ouigcbilDd. 
+
+Slid  bartnncn 
+
+fcii  (D^nes  aiif  unterfcbicMiAe  tPcife 
+(refflt4)  ans  geftrucfct  id ; 
+
+3iitn  Dtcnfl 
+
+;?)cr  in  bem  ?lbcnD  ^  CdnMfcfjcn  <2Bert -^  TOeif  at^ 
+
+bci)  bun  Uiitergana  bcr  ^^oitncii   (rn>c(fien   5tir(t)c 
+
+(i^Diiej,  unt>  JU  ibrcr  Srmuntcrung  auf  tic 
+
+1}2iUerna(()fiq(  ^utan(Jt  &<l  ^rduugamS 
+
+ans  £tct)t  0c0cben. 
+
+(^trinan'oica  ;    &(Drii(fr  btp  €^rinop(^  6au(r    irip 
+
+
+HYMNALS   OF  THK   EPHRATA    COMMUNITY. 
+
+
+The  Solitary  Turtle  Dove,  39 
+
+
+tt$e. 
+
+
+Srt^  tarinnm  betjDe^  Me  QJorfoft  Da  mum  SJBeCt  aU 
+ou^  We  Mrjwtfto  ijotfcmmente  ^reufee^sunD  CeiDmtf# 
+SBege  nac^  f^w  2B6r&e  targeftellt,  unO  in 
+getfrUc^e  iKeimeii  getwc^t 
+
+58on  einem  ^  1 1  e  b  f  a  m  e  n  unb  nac^  &ec 
+
+(hum  (Stvigmt  tuatlenOm 
+
+Utt^mltl 
+9ki0  ^f>ir<»tt(|)  6er  iSinfamett  lm^  t^erUfTettett  ^  ?t>it 
+
+
+E  P  H  R  A  T  A 
+
+
+HYMNALS  OF  THE  EPHRATA  COMMUNITY. 
+
+
+40 
+
+
+Music  of  the  Efhrata   Cloister. 
+
+
+belles  %^ 
+
+Sn  Mefcn  Icgtcn  3citcn  unl)  :!Ja^en 
+
+3n  benen  2lbcnb^Sdnbi|'d)en  2Bt(t'^l)eiIm  aB  tin  5Bor« 
+
+fpicl  bcr  ncutJi  SBclt  ()crt)or  gft^an.   Scffcbcnbc 
+
+3n  cinev  gan^  ncufit  unl)  un^rmcincn  ©ing' 
+
+3trt  aiif  Sriff  btr  eng(iftf)m  unb  ^imm» 
+
+lifct^cn  ff^orm  cingrrit^tct. 
+
+
+nU  l^mt  luxt  inchrnn  SruanufTrn  au<  ^(t  ^itxf  imb  a11^m1  ^nligm 
+
+in  lubltc^f  31lclc6i)fn  gf&toQt     fficbrn  oit^  ttftriofr  bcr  3unif  tcr 
+
+©tout  brt  tamm< ,  fammt  ^rt  Sutftrtnmg  auf  rra  fecnlu^m 
+
+JJMtJriMog  trtfflw  PrxhgurLn  nrtrD. 
+
+aiI«.oa((  Coglifitffl  (Ff)&rto  0(fan9<=Sd|V  mtt  bid  SDtli^  aa»  fltorflS  5I((f 
+(UKgrfndgrt  ton  rtarm 
+
+
+'^** 
+
+
+tiefcfamcji 
+
+
+Ccr  («Df}  in  bttfa  (TcU  nxbtt  CLaiun  nod)  &tal  fudM. 
+
+
+EPHRAT/E  Sumptibus  Socictatis:  i  7  5  4  • 
+
+
+TITLE   PAGE  OK   BEISSEL'S   MOST   IMPORTANT   MUSICAL  WORK, 
+THE   FOLIO   CHORAL   BOOK. 
+
+
+3 
+d 
+
+O 
+
+
+n: 
+m 
+
+m 
+m 
+n: 
+
+o 
+
+i— 
+O 
+in 
+
+H 
+
+m 
+
+?5 
+
+
+Hymnals  of  the  E-phrata  Kloster. 
+
+
+41 
+
+
+»cpang 
+
+Bum    .  . 
+
+©efdtifl  i)cr  nnfamen 
+
+
+urW  ^aufe/ 
+
+
+ent^altcnb   cine  neur  ©ammluns 
+@ciftlicf)cr  giekr. 
+
+
+EPHRATA  ©rucf^  6ct  Sriibcrfc^afft 
+
+
+3at  setnriar4affin<((ii  (Erbouuna  %k\ 
+fammlct  urd  aotf  Ci(t)t  gcgcbni. 
+
+
+kfKSiAfJS.  TjpU  Sxittatis  Anno  176a 
+
+
+ofcituiittim 
+
+
+DcflSotnen  fervor  flciBaf^fcn. 
+
+
+2m5<»^t  Je^^rlK  175- 6> 
+
+
+i^^  in  BETHANIA. 
+
+
+3in  3<ibr  M  ^riS  17^6. 
+
+
+LATER  ADDITIONS  TO  THE  TURTEI,  TAUBE  OF   I747. 
+
+
+43 
+
+
+Music  of  the  Ephrata  Cloister. 
+
+
+23e(!(l?en^  m  etim:  neucn  ^Ammlung  Attb^ifctuba:  onb  jum  £o5 
+1X8  grofm  (Bottea  <inamd>trtcr  gaffltdxt/ wit)  ctxt><iU<ii 
+$uin  ^u\  |>ublicittct:  licba; . 
+
+
+EPERArjE:  TypU&  Confcnfu  SocictJiis    A:   D:    Al  D  C  C  L  X  ^  f ^ 
+
+
+THE  GREAT   HYMNAL  OF  THB   EPHRATA   COMMUNITY. 
+
+
+Hymnals  of  the  Efhrata  Kloster. 
+
+
+43 
+
+
+(<|)^ta/  @(t»cft  InwSa^  i?s;{^ 
+
+
+TITLE  PAGB  OF  LAST   HYMN-BOOK   PRINTED   BY  THE   EPHRATA   COMMUNITY. 
+(Original  in  collection  of  the  writer.) 
+
+
+44 
+
+
+Music  of  the  JSphrata  Cloister. 
+
+
+<Bi(f(nOe 
+
+£)rr  mux  W  Strtige  n  bcv  DerlaiTe  nm 
+
+Stnfamen. 
+
+(tc^6ct)ulfaurammcn  gtbract>t:  (n  n?fI4)fr(tf  ininoas 
+
+c^rrlcp  gtifliicfim  Uebungcn  ten  2Bam)ra»iuiO 
+
+^apfriuatonb  trlangrr, 
+
+lln&  fofcfici  in  gcfffHcfetn  JriKKtrm  lm^  «rt<m  an  ^ag  gt^ttm 
+(9((d^  n«m,  jur  gcmdnfctaffffidxn  <Jrbaiiiing,  al«  do  W4<ft/ 
+
+
+EPHRATA  in  Penfylvanicn 
+
+X)mai  m\  <8frffl.(tf  bcn3nibfrf(»aifr"Anno  MDCCXLIX. 
+
+
+SUBTITLE  OF  THE  EPHRATA  TURTEL  TAUBE. 
+
+
+i 
+
+
+tt 
+
+
+^(c  (infamen  tin5  mloffcnm 
+
+a)ie  <J^  H^  J^UnmcW  fKinmm  mtt  an,  unt  We 
+®eif!a;/^  toot^OXX  M^/r^^aQm  mit^aoietcr. 
+
+
+te 
+
+
+rau^^^»inK 
+
+
+al0  f»<  txxctdct  wixt> 
+ton  ^op^ctifc^m  ®ci|l 
+
+
+tmtct 
+
+0lofen  unt)  £iHm. 
+
+
+(45) 
+
+
+SUB-TITLES   OF  THB  EPHRATA  TURTEL  TAUBE. 
+
+
+46 
+
+
+Music  of  the  Efhrata  Cloister. 
+
+
+This  movement  resulted  in  the  issue  in  1747  of  a  small 
+quarto  of  360  pages,  seven  and  one  half  inches  by  six 
+inches,  known  as  the  Turtel  Taubc,  which  contains  some 
+277  hymns.  This  book,  so  far  as  we  know,  was  the  first 
+original  hymn-book  printed  at  Ephrata,  and  the  first  to  be 
+printed  in  the  western  world,  wherein  all  of  the  hymns 
+were  original  compositions. 
+
+This  collection  is  divided  into  six  parts,  viz  : 
+(i)  Der  geistliche  Brautschmuck   der    heiligen  Jung- 
+frauetty  60   hymns. 
+
+(2)  Das  Kirrcti  der  Einsamen  und  Verlassenen  Turtel- 
+tauben,  62  hymns. 
+
+(3)  Die  Braut  des  Lamms,  ah  sie  erivecket  zvird,  an- 
+them and   choral. 
+
+(4)  Abend-ldndische  Morgen-Rothe,  88  hymns. 
+
+(5)  Gil/ende  Uertzcns-Bezvegungen,  35   hymns. 
+
+(6)  No  special  title,  but  ornamental  head  piece,  31  hymns. 
+
+
+S'Tun  fofgct  Die 
+lit  fic^  flm  5tbfiil)  Der  3firm  ou^getrritrt 
+
+
+ale  <»u4>  >^r<  Mflcbditbe  VtrnxOuita  urtttr 
+^rm  Crcatj  <rbhcf et  wir&: 
+
+vcrgcffclt  in  flfiftficticn 
+
+
+The  Turlel  Taube. 
+
+
+47 
+
+
+About  two-thirds  of  these  hymns  were  contributed  by- 
+Conrad  Beissel.  The  collection  of  hymns,  277  in  number, 
+is  prefaced  by  a  foreword  of  five  pages,  and  a  prologue  of 
+fourteen  pages,  the  whole  really  forming,  as  before  stated, 
+a  treatise  on  harmony.  At  the  end  of  the  volu  me  there 
+is  an  epilogue  and  conclusion  of  "  the  song  of  the  solitary 
+and  deserted  turtle  dove,"  an  invocation  of  three  pages  in 
+bold  display  type,  followed  by  the  usual  index. 
+
+Two  other  editions  of  the  Turtel  Taube  of  1747  were 
+issued  subsequently  without  change  of  date,  but  differing 
+
+
+SSoit  Ut 
+
+SerfaHcncn    ^ixttt 
+
+SKua  Ut  Propbettfcbert  tTurt^el  oufge^c^t/  unb  ^t 
+JUrAhdxn  Ucbunfl  mtrgetWet  von  emcm 
+
+gtiebfamen. 
+
+
+somewhat  in  the  arrangement  after  page  294,  together 
+with  the  addition  of  a  large  number  of  hymns,  and  an 
+elimination  of  a  few  of  the  original  edition.  Thus,  in  the 
+second  edition  1749  ^^^  P^i"t  known  as  the  Gilfende  Her- 
+tzens-Bewegungen  consists  of  114  hymns  all  of  which  are 
+the  work  of  the  solitary  brothers  and  sisters.  Most  of  the 
+hymns  of  the  sixth  part  of  the  original  edition  are  rele- 
+
+
+48 
+
+
+Music  of  the  Ephrata  Cloister. 
+
+
+gated  to  the  fifth  part,  and  an  entire  new  part  containing 
+47  hymns  by  Beissel  is  added  under  the  title  "  Von  der 
+Zerfallenen  Hiitte  Davids,  und  ihrer  Wiederaujrichtting" 
+etc.     The  collation  of  this  edition  is  the  same  as  above 
+
+
+©in 
+
+©ciftlicf)c^  ©cnctmal)!    unl^  £o6fpruc^ 
+
+Sl  u  f  3  t  r  i  (t)  r  c  t 
+3ur   <33crr6nnng  ^f6  ^rifOrr  OrUt\i   ux  (Sinfomcn  in 
+
+SSon  einer  6treiterin  3€fu  s;f)vijH^ 
+
+
+except  that  it  contains  372  hymns,  pp.  495  ;  no  epilogue 
+but  seven  pages  of  index. 
+
+The  last  and  complete  edition  of  the  Turtel  Taube  of 
+1747,  issued  during  the  next  decade  without  change  of 
+
+
+«n(i(^rfbf. 
+
+
+Set  ©eiji  f*Iiefet  mit  einrm  greiibeit^ 
+
+mc()en&)b  iin&S5anct,  imb  cinem 
+
+^vop^rtifct)cii  ©cnid)  ktSilien. 
+
+
+date,  is  virtually  the  same  as  the  one  just  described  except 
+
+that  a  page  of  hymns  is  added  in  brevier.     Then  follows  : 
+
+"A  spiritual   monument   and    Eulogy  Erected   for   the 
+
+crowning  of  the  priestly  order  of  the  solitary  in   EPH- 
+
+
+Music  of  the  Efhrata  Kloster.  49 
+
+RATA,  by  a  female  Warrior  of  Jesus  Christ  who  for 
+many  years  has  suffered  spiritual  Martyrdom  ;"  this  is  fol- 
+lowed by  an  epilogue, 
+
+•'The  spirit  closes  with  an  abundance  of  Praise  and 
+gratitude,  and  a  prophetic  fragrancy  of  Lilies,"  the  last 
+page  of  this  epilogue  being  the  same  as  the  one  in  the 
+original  edition,  except  that  it  is  printed  in  the  regular 
+type.  The  additional  matter  forms  eight  pages  and  the 
+usual  index  is  also  included  in  the  book.  It  is  in  the  pro- 
+logue of  this  hymn-book  that  our  interest  centers  at  the 
+present  time,  as  it  contains  Conrad  Beissel's  dissertation 
+on  harmony,  setting  forth  his  peculiar  system  of  music. 
+As  has  been  previously  stated  there  was  an  English  ver- 
+sion of  both  foreword  and  prologue.  A  fragment,  how- 
+ever, of  the  former  alone  is  known  to  the  present  writer. 
+
+A  complete  translation  of  the  foreword  is  here  pre- 
+sented, such  parts  of  the  original  English  version  being 
+presented  verbatim.  The  whole  matter  as  now  given  in 
+its  entirety,  amplified  by  fac-similes  of  original  scores,  text 
+and  Beissel's  apology  for  the  introduction  of  sacred  song 
+into  the  curriculum  of  the  Kloster,  will  enable  the  student  of 
+the  future  to  form  a  better  conception  of  this  peculiar  out- 
+growth of  the  mystical  Kloster  theosophy  on  the  Cocalico 
+than  was  heretofore  possible,  while  to  the  would-be  critic, 
+who  is  non-conversant  with  the  German  tongue  and  the 
+history  of  the  mystical  speculations  of  the  Ephrata  Com- 
+munity, it  will  offer  an  insight  into  Conrad  Beissel's  strictly 
+Pennsylvania-German  musical  structure. 
+
+Before  passing  too  strict  a  judgment  on  this  music  for 
+its  constant  violation  of  the  accepted  rules  of  harmony,  let 
+us  consider  how  both  hymns  and  music  originated. 
+
+These  hymns  and  tunes  were  virtually  the  outpourings 
+of  religious  enthusiasts,  whose  nervous  systems  had  been 
+wrought   up  to    a  high   pitch   by  incessant   vigils,    fast- 
+
+
+50 
+
+
+Music  of  the  Efhrata  Cloister. 
+
+
+-«J 
+
+
+^;i^-m^ 
+
+
+Hymnals  of  the  Efhrata  Kloster. 
+
+
+SI 
+
+
+ings  and  an  abstemious  mode  of  life.  Then,  again,  it 
+must  be  considered  that  neither  Beissel  nor  his  musical 
+co-laborers  seemed  to  understand  anything  about  harmony 
+beyond  the  rules  governing  the  common  chord  and  its 
+inversions.  So  far  as  known  no  one  connected  with  the 
+community  was  a  skilled  musician. 
+
+
+THE  ONLY  KNOWN   PORTRAIT  OF   PRIOR  JAEBEZ 
+(rev.  JOHN   PETER  MII,I,Er). 
+
+Just  who  the  author  was  of  the  foreword  and  prologue 
+cannot  be  definitely  stated  ;  it  is  usually  credited  wholly 
+to  Beissel.     The  dissertation  on  harmony  is  undoubtedly 
+
+
+52  Music  of  the  Ephrata  Cloister. 
+
+solely  his  own  composition.  The  literary  portion,  how- 
+ever, shows  the  evident  pruning  of  Prior  Jaebez  (Rev. 
+Peter  Miller)  who  was  without  question  the  translator  of 
+the  original  English  version. 
+
+A  page  of  the  most  important  part  of  the  system  of  har- 
+mony is  reproduced  in  fac-simile  the  better  to  enable  the 
+reader  who  does  not  have  access  to  an  original  copy  to 
+compare  the  present  translation  with  the  original. 
+
+The  utility  of  presenting  a  complete  translation  of  this 
+matter  prefixed  to  the  Turtel  Taube  may  be  questioned 
+by  some.  In  the  writer's  chapter  on  the  Ephrata  music 
+in  his  German  Sectarians,  only  the  vital  parts  bearing  on 
+Beissel's  system  of  harmony  were  presented.  The  desire 
+having  been  expressed  in  some  quarters  that  it  were  well 
+to  have  the  matter  in  its  entirety,  regardless  of  its  mystical 
+and  vague  phraseology,  the  whole  matter  is  here  presented, 
+together  with  fac-similes  of  the  subtitles,  and  illustrations 
+of  the  "Spiritual  Monument"  and  Epilogue,  which  are  to 
+be  found  in  only  a  very  few  of  the  known  specimens  of 
+the  Turtel  Taube  of  1747. 
+
+bcr  finftmcn 
+
+
+S)r<r$i  <BCtf!(if6  ^e<5  <ini»iVMttf  awfr  ®fif(  ttUct  6<i( 
+<\  nml  «uf  mtlnfit  ajDfrn  ip  tatnlic^  (\m|Kn  a\ii  bet 
+e<tin{tOn''  u-  tTl(^<TXum.;S<lt,  ia  14  fct  fificmCrtft 
+ninmir  N<  ^fbtn  fuuat  ^Jn^  ffft  trar  feu  ©oiffjfn  m&tf, 
+nagt:  let  Nf  m  allm  5lntju.|um  aliomir  uBriniu  i6un,n>u< 
+Itrc  rcn  gan(jftn  $(a^,^a.j^lr  mm.  Sit  frfu^ia  fwu 
+ju  mtln  Cflxn  fflbfl,  ouf«  du;  ft  tflb  ^)I^  aHf*  fa^t(n  luflhi, 
+fctfj  bin  aOTflgt :  ranfl  ^Q  Mil  trnl  |Ict)  Srin  grcfi  ©ut  fc  btiufi 
+(«yn3urt(ti  mug  ;a  fbf}  wt^  fig  Khoi  laifcit, 
+ftflHn  ten  ftrrfmi  ^ftpmlnr^  4.  Ucfc  rtgWtttte^I  (<{<<«, 
+ittti  ^o  ntftrMrft  mnnSKtntJl*  trJrt  14  tnaffifn,  fo  66» 
+1.  !Siinmi  Nft  ru  fe  butM*  ro<t  nl<tt  auf  ju  flrbm  brt» 
+trtn  armra  Ihcn  Dn^€flm(ll?jnrIraJ;  ^^^  cb  ftticn  in'ojKtoi 
+((ft  binra  nKtt  nn  Srlti,  Ntlag  ^^^3obt  tttriibt  arfH" 
+fel(tK  tragrn  fan;  »i<  mlct  ftn,  fo  ttrtg  «t  ^o<t,  mfln 
+tann  trtnt  ® ut  im  tflt^nlrtPi'CCtt  tsitf  mtr  nint  fJttm  bfp 
+fluftdumm,  Mg  mufi  ffriurifjCbalrl*  ^a  Onmmtr  <»tc))  la 
+tytimauftftnnt.'fb<it«-.^hu^n  b<triU't(n  liigfo,  fc  tt>at>< 
+!(t  babf  la  rnn  hcb  m(m9[lt*.i(b  ^p<t  ncct  ten  ®cftf<  Cii# 
+
+Stn9f^ol,un^  bub  bo<taUnifl«ff  fiiam. 
+lagftn  fumftli*f«Prb(n.    I   f.  a>«t  (ft  onmx^  jnr  Qrit 
+^Y  ^xma.  wratfRn  fl«i^fTfribt  ircft  tjaboracn,  nxU 
+
+HVMNAI^  OF  THE  EPHRATA    COMMUNITY. 
+
+
+3. 
+
+cz 
+u> 
+
+o 
+O 
+
+Tl 
+
+H 
+IE 
+
+m 
+
+m 
+-D 
+
+rn 
+
+> 
+
+n 
+
+r- 
+O 
+
+(y 
+
+-i 
+m 
+71 
+
+
+CHAPTER   V. 
+
+
+The  Turtel  Taube  of   1747.'     Foreword. 
+
+T  IS  written,  *'  Behold  a  Tabernacle  of  God 
+With  men."  Rev  21.  There  is  a  dam  broken 
+of  the  heavenly  ocean,  through  the  forth- 
+coming of  the  Church.  Which  from  eternal 
+ages  remained  concealed  in  God,  as  between 
+Father  and  Son :  but  in  due  time  appeared  among  men, 
+and  has  now  as  in  the  last  days,  shown  forth  herself  anew, 
+with  vigor  and  strength  as  in  the  early  ages. 
+
+This  holy  Church,  having  through  the  heavenly  dove ; 
+which  in  the  early  days  decended  upon  our  high  head 
+Christ,  at  his  baptism ;  appeared  in  the  world,  and  from 
+time  to  time  drawn  souls  unto  herself,  who  under  her  pro- 
+tection, remained  steadfast  unto  the  end  in  their  calling, 
+we  believe  the  Church  to  possess,  a  renewing,  reviving, 
+and  sanctifying  power.  And  that  all,  spoken  of  by  the 
+prophets  and  apostles,  which  should  come  to  pass  in  future 
+ages,  finds  its  beginning  in  the  Church ;  in  which  all  the 
+wonders  and  powers  of  future  glory  ai'e  found  concealed. 
+Whosoever  therefore,  honoreth  the  Church,  honoreth  God  : 
+for  God  is  in  the  Church ;  and  he  that  abideth  in  the 
+Church,  abideth  in  God,  and  has  his  free  city,  where  he 
+
+
+Origrinal  English  version. 
+
+
+(53) 
+
+
+54  Music  of  the  Ephrata   Cloister. 
+
+may  find  protection  when  pursued  by  the  blood-avenger  of 
+the  powers  of  darkness.     Deut.  19. 
+
+After  the  same  manner  in  which  God,  reveals  forward 
+into  eternity  through  the  Church,  all  his  mysteries  :  it  also 
+remains  for  him  to  receive  from  the  Church,  praise,  and 
+the  glorifying  of  his  name,  unto  everlasting  ages.  In  ac- 
+cordance with  this,  it  was  ordained  by  the  spirit  of  the 
+Church,  or  heavenly  dove,  that  the  talent  of  singing 
+should  be  added  unto  spiritual  services,  and  be  employed 
+in  outspreading  the  praise  of  God  unto  endless  ages. 
+
+By  the  use  of  this  talent  the  holy  angels,  made  known 
+the  near  approach  of  the  Church,  when  they  at  the  incar- 
+nation of  him,  who  was  the  heart  of  the  Church;  entered 
+within  her  borders,  and  by  singing  gave  honor  unto  his 
+appearance  in  the  flesh. 
+
+We  who  were  lying  at  the  hedges,  having  by  the  good- 
+ness of  God,  been  brought  unto  the  Church,  that  we  might 
+become  heirs  to  the  kingdom  prepared  for  the  righteous, 
+through  the  sanctification  of  the  blood  of  Christ,  he,  who 
+is  the  heart  of  the  CHURCH.  We  have  in  this  Church 
+found  a  strong  support  in  setting  forward  our  spiritual 
+labors  ;  and  greatly  find  ourselves  indebted  unto  her  for 
+the  many  privileges  bestowed  upon  us,  from  which  we 
+have  derived  so  much  profit.  For  until!  the  present,  she 
+has  been  unto  us,  when  forsaken,  our  spiritual  mother ; 
+when  comfortless,  our  nurse  ;  in  cold,  our  garment ;  in 
+heat,  our  shadow  ;  in  shame,  our  crown  ;  in  loss,  our  gain  ; 
+and  in  want,  our  abundance  :  yea,  she  has  outspread  her- 
+self over  us,  with  her  wings,  like  a  hen  over  her  little 
+ones,  and  protected  us  from  the  robbing  hawks  of  the 
+regions  of  despair. 
+
+We  nevertheless  found,  upon  entering  into  the  Church, 
+a  contrariness  of  things,  between  ourselves  and  the  spirit, 
+
+
+Hymnals  of  the  Ephrata  Kloster.  55 
+
+preparing  the  way  to  a  newness  of  life.  For  as  said  be- 
+fore, God  having  ordained,  that  through  the  church  his 
+name  should  be  glorified ;  there  were  required,  voices, 
+hymns  and  music  written  for  the  use  of  the  singers. 
+
+After  the  manner  of  heavenly  things, there  was  found  in 
+the  Church  an  outflowing  fountain  of  good.  On  the  con- 
+trary, our  state  of  being  brought  this  with  itself  that  the 
+good  which  flowed  from  the  Church,  was  continually  con- 
+sumed by  our  selfishness  :  through  which  such  a  loss  might 
+have  fallen  upon  the  Church,  as  would  have  exhausted  the 
+original  fountain  of  good ;  had  there  not  remained  in  the 
+mystery  of  the  Church,  causes,  through  which  her  losses 
+could  be  restored. 
+
+Now  as  such  a  selection  of  hymns  and  music  adapted  to 
+the  worship  of  God ;  was  not  to  be  sought  in  our  own 
+abilities,  nor  in  the  power  of  the  unsanctified  mind :  (for 
+by  the  unsanctified  mind,  heaven  is  constantly  being  locked 
+up,)  but  in  the  abilities  which  God  bestows  :  so  we  found 
+it  necessary  constantly  to  renew  our  diligence  in  practicing 
+selfdenial,  if  at  all  heaven  should  again  be  unlocked  at  our 
+natural  state,  and  the  praise  of  God  from  thence  brought 
+out.  So  much  then,  as  we  made  it  our  object  to  gain  a 
+knowledge  of  church  music,  and  to  improve  the  talent  of 
+singing ;    so  much  was  the  toil  and  labor  to  be  overcome. 
+
+In  this  way  we  were  brought  to  see  the  loftiness  of 
+heavenly  things,  the  little  value  of  our  own  works,  and  at 
+the  same  time  were  placed  in  a  state  of  poorness  of  spirit 
+wherein  alone  the  highway  of  holiness  is  found.  Isa  55. 
+For  the  Church  does  not  allow  us  to  suppose  that  we  of 
+ourselves  can  accomplish  any  good ;  and  he  that  has  with 
+all  his  works  become  subject  unto  the  Church  ;  the  same 
+has  indeed  attained  a  deep  state  of  spiritual  poverty. 
+
+On  the  contrary,  so  far  as  consolation  is  sought  in  the 
+
+
+$6  Music  of  the  Efhrata  Cloister. 
+
+amusements  of  the  visible  world,  so  far  we  lose  com- 
+munion with  the  Church  :  the  spirit  of  singing,  as  the 
+heavenly  dove,  retreats  :  and  the  praise  of  God  is  no  more 
+heard.  It  is  therefore  of  the  greatest  importance  to  be  al- 
+ways engaged  in  laboring  for  the  prosperity  of  the  church  ; 
+and  it  cannot  well  be  expressed  in  few  words,  what  atten- 
+tion must  be  paid  to  a  careful  walk  of  life,  and  what 
+acquirements  are  necessary,  to  establish  excellent  church 
+music. 
+
+In  this  course  of  life,  there  is  learned,  the  constant  coming 
+off  from  one's  self ;  which  is  by  all  means  necessary,  if  an 
+agreement  of  understanding,  and  a  unity  of  spirit  is  to  be 
+brought  forth  and  established  in  our  midst.  Therefore,  as 
+all  this  is  found  in  the  Church,  we  may  expect ;  that  therein 
+trials  without  any  cessation  will  continue  to  arise  ;  through 
+which  our  human  nature  may  be  so  far  subdued  as  to 
+allow  the  praise  of  God  constantly  to  flow  from  the  heart. 
+
+We  also  have  in  the  Church,  a  sure  prospect,  with  respect 
+to  the  salvation,  which  shall  in  due  time,  be  revealed  unto 
+all  those  who  did  not  flee  at  the  approach  of  trials,  but  have 
+sought  to  remain  faithful  in  the  service  of  their  divine 
+Master.  Here  it  nevertheless  at  length  followed,  after  we 
+had  long  silent  remained,  that  our  spirits  aroused  under  the 
+pressure,  and  coming  to  a  state  of  heavenly  meditation 
+gave  God  the  glor}'  who  called  us  to  such  a  work  which 
+far  exceeds  anything  which  the  natural  mind  is  able  to 
+comprehend.  We  therefore  feel  inclined  to  bestow  the 
+highest  praise  upon  the  Church,  for  having  brought  us 
+under  her  control  and  government  that  we  without  her 
+consent,  are  not  allowed  to  determine  upon  some  particular 
+course  of  our  own.  Which,  in  like  manner  as  it  brought 
+trials  upon  human  nature  it  also  had  the  tendency  to  bring 
+to  light  an  abundant  supply  of  hymns,  and  that  for  the 
+
+
+Hymnals  of  the  Efhrata  Kloster.  57 
+
+most  part  in  those  directions  where  the  ice  was  first 
+broken. 
+
+In  a  general  sense,  the  hymns  contained  in  this  selection, 
+may  be  looked  upon  as  roses  which  have  grown  forth  from 
+among  the  piercing  thorns  of  the  cross,  and  consequently 
+are  not  without  some  beauty  of  color  and  pleasantness  of 
+fragrance. 
+
+And  so  far  as  the  greater  portion  of  them  is  concerned, 
+were  brought  to  light  in  the  rigid  school  of  the  cross, 
+within  a  period  of  many  years,  and  for  the  most  part  by 
+persons  who  labored  much  for  the  edification  of  the 
+Church. 
+
+The  spirit  of  the  Church,  having  taught  us  in  the  course 
+of  our  spiritual  labors,  to  place  a  high  estimation  upon  the 
+hymns  of  the  followers  of  Christ,  brought  forth  in  their 
+trials  under  the  cross ;  and  believing  them  to  be  instruc- 
+tive, we  have  concluded  to  secure  them  as  treasures,  and 
+have  in  the  compilation  as  well  as  in  the  print  of  this  work, 
+applied  our  utmost  care  that  no  errors  might  occur  through 
+which  occasion  might  be  taken  to  give  our  labors  a  low 
+estimation. 
+
+But  to  speak  yet  further  of  the  compilation  of  this  spir- 
+itual work ;  it  is  a  field  of  flowers,  grown  forth  of  many 
+different  colors,  and  of  various  fragrance  :  as  they  were 
+produced  by  the  spirit  of  the  Church,  out  of  the  Mysterio 
+of  God.  In  some  the  spirit  of  prophecy,  soared  above  all 
+mountains  of  the  cross ;  bidding  defiance  to  his  enemies ; 
+setting  forth  as  present,  the  future  glory  of  the  Church. 
+In  others,  the  spirit  trod  into  the  inner  court,  and  exalted 
+his  voice  in  the  holiest  of  all.  Again,  others,  have  the 
+pleasant  odor  of  roses ;  others,  on  the  contrary,  sprung 
+up  upon  the  myrrh  mountains. 
+
+[Here  ends  the  fragment  of  the  original  English  version  in  my  possession, 
+J.  F.  S.] 
+
+
+58 
+
+
+Music  of  the  Ephrala   Cloister. 
+
+
+[Now  as  the  Church  hath  extended  herself,  so  also  have 
+the  voices  increased  in  our  own  spiritual  school,  in  which 
+our  hearts  were  the  praise  of  the  great  God.  And  any 
+one  who  has  had  only  a  limited  experience  in  this,  our 
+spiritual  school,  can  readily  perceive  that  in  this  entire 
+work  can  be  found  naught  that  reminds  one  of  human 
+effort  or  wild  fancy,  but  that  the  words  of  the  spiritual 
+songs  herein  contained,  sprang  from  many  and  varied 
+emotions. 
+
+Here  we  would  conclude  our  foreword,  did  not  an  impor- 
+tant matter  still  remain.  For  after  having  come  into  pos- 
+session of  so  rich  a  treasure  for  the  praise  of  God,'it  became 
+a  question  in  our  spiritual  school  how  our  voices  could  be 
+cultivated  for  spiritual  song  ;  hence  such  a  matter  of  spirit- 
+ual practice  became  imperatively  necessary  as  would  bring 
+the  voices  into  spiritual  harmony  and  at  the  same  time 
+make  our  sacrifice  of  praise  conformable  to  good  common 
+sense.  Therefore  we  will  now  impart  the  preliminary 
+treatise  on  singing,  which  we  esteem  necessary  to  give 
+completeness  to  the  work.] 
+
+
+[As  the  first  part  of  the  German  Prologue  does  not  bear 
+directly  on  the  subject  under  discussion,  we  give  this  only 
+in  facsitnile.'\ 
+
+
+Prologue  of  the  Turtel  Tauhe.  59 
+
+
+CHAPTER   VI. 
+
+
+Sine 
+©f^t  tcutli<$c 
+
+©egctra 
+
+
+Jn^r^r  S^^'«*^nm&  W<'(Jrl^fnns  MltV  f*  ^I^pTm  K  <?(!«  2 
+
+
+6o  Music  of  the  Efhrata  Cloister. 
+
+
+X?dmi>e  fiber  bieQutg^Strbott 
+
+trtbcp  ^<n  ©(5ffIidKnQ5ricf  l>cr<25cttfc&affr  tctf  §rf<c»m^mjf.lxni  @i<g<(  t>t$ 
+CEr<ii9ctf,  ici&m^  ii.<Sfcrtcntf  <nif)«n^i^n&oi9cla|Xcn,mtf  ttmQJtfcJifrfo^cli* 
+'t^oftfiMiff  rtu^Jiifflg^'i  brf  an  DU  ^giiDe  i>ct  "IrDcn,  ^l>d)  fc ,  Iwp  fit  fo«e» 
+aarttn  ,  fci^  fit  an^fftxui tvurOta mil  jtrafff  (xwi  J>er  ^^f)<^  KOiSAit  aHW  a» 
+fuKtf  u.  3cfd><fj«n,  Dap  D(r  ^ufjatv)  au^  fccr^6|)<  ton  Mrtn  ftcfti'iixr  tw^an* 
+ije  <&6eflii^3cbrtifcf/^imt»  W(^fffd)afff  \ni  ^iivM  mir  0Oft*faf?  aile» 
+^D^Mfcrn  fund  tvorNn^  fanu  &<m  0(f)(imnf^  Xxi  <Sx<\wir  worouf 
+((r  Srictcn^  '  (Sonrroa  txrii^u.  ^a[Kto  (^  ouct)  ouf  dnt  gar  tvunt<rto€ 
+9^^  (»dD  ail  (in  fc(((am(«  '^urgcn  im^  @(i)(ad)r(n  gin^/  |tt  totl^ 
+d)<r  ^dt  ftc^  ^<r  6«arat  von  txm  ^or(  tx^  UiKn^  \xvX>  Ui  (Sruiq<^  d<« 
+0<f/  «»(&  forf3<wa(ftfm  uni  b(*  <inf  tin*  fomoKt^,  Un&  ttxiftn  <r  gar 
+xvm>x{vX\\&^  nU<  ttrftlb^cft  ^offnung  txrfmipfft ;  fo  ^  fid^tf  «ucf>  jit# 
+gwragm/-  \xs%  »ir  ncb<rt  l«nc»  mi^fanun  €rciij<^  *un6  id&<n^ «  <Sr3n^ 
+^n/  tvomtt  tvic  bdadtn/  al^  ^a^  <!Borr  d<tf  itixntf  im&  ^^  <^K\\^i  Att 
+imtf  eom^  (uic^  fodldd^  mi(  bcmfclbtdcn  J^offnimg^*  JC((<d  t><6ab<t 
+wnrDm,  uni>  iwrt  iin«fe3l<M:&^  <m  |)dl(^t»  <5dKui<it  5<5«b<n,-b<n^3bct 
+»6fl<d<n  €r(ifitn3  nut  wBo  2tudm.  txi  0<i|U^  dniufebw.  Uirt  «> 
+itir  »o(  ntbm  Htn*  (n-lxn  all<r(<fHn<r?{)afff((?mlln&Wf«T(Tm(«i^cn^♦^(*<f• 
+fllm^<n^  fo  jog  un^  i>o(>imfcrJ>offmtn^^^Ut>  fmm<r  fccrr  (><mto^  tw  ouf 
+t>m  ^^3  tier  €r(5fiin3  W<  il riming  nw  wa<ii  §r<iiJKn  folgtn  tdr&y 
+»<(cf)<«  Diina  «{(U  lUfactxn  an  W<  J?an&  3rtl>,  b*f  ©<t(Ta  offf  ongtjMtti 
+ttiictxn  m<t^rafft  au^  ^ixS^h^Cy  alfo  ba^frtr  off^  mlxtt  uiTf<nrun4Wi|t» 
+5<n  iciDcnfc^fftca  <n  ©(<i#<tt  &<r  ^nafffcfKn-nnfr^tmrnKfc^n  <i5^rm  onf* 
+9«03<n  wurlxn,  nxIcfjtiJ  un^  n<d>t  attdn  6<pBtm  freutJ^m  2l»f  »mi&  21b* 
+fefigm tKt0d|I<rnrd)(eonf<  (afftn  (ttflcfqjn,  e^Mf  »te  nfdK>i««»if»Jk» 
+in^orun  onibric^en,  urn  ^kQSlm^et  »nfcr«  0o(ft«  ju  wtlberfl((|w»^ 
+fbnt<rn  roiirim  fo  aidd)  nad)  2(rf  £><r  ^.ftigUfc^m  C^m  not  t^Oi«lf 
+^errfci>4(fcmim6  <^xoo\un-^wf,<txw.\><n,  ixn  20lm(^d)f<9cnro<ti<d>»m* 
+iob(6t  s  ©<|\\n3<n  jii  »<r<f)r«n.  Uni  ob-  itvor  «»{ Ht  S^'^f*  *^  €ndWf 
+fiftin  (Jf)dr<if)r<  it<&<rmtrun^<mfhmrtW<n:  fotwr6»  tt><r  twd)  sewo^r;  tef 
+imf«r(  ©rtmmcn  tit  twrtaflt  3<"<'»  »"*<  ♦^o*'*  ttBffoffmr  tw9<mt<t 
+onnodfr  anun^  nragendtn^  ©robt^^t-  ftv  &<t  noc^  nl^r  gAft^itd)  3t<r«i»si9t<r» 
+SSloAwXf  nKld)t^  bq;  «n^  dn  gtnaiittf  2tiffmtrcftrt  t»tnirfad)tff,  "tStttif 
+^nn.  aa<m»a(Kfen  iinfcrt  imftWAfK^t  i«5<nf;lMff»cn  iw<?  ^utf/- (bnB«m«B*^ 
+
+
+Prologue  Continued.  6i 
+
+
+t<n.  tnc^r  ^(f;(iiiff((/,  tiKJlm.  tvir  ctne  Unttic^n(}f<it  hiX)  iin^  fptirctctt/  &a^ 
+»ic  ©^^^;uc{)(  fonf«it,  na(^  I«m  »>pirm  ©nDntcf.  t>«{f  ©d|7c^  fter^rrlf* 
+<^€n..  QJJiwoJ  twp  crfmncn,- 1>«^  WeSBcuiir  nt<^  gan?  unrcr  t<m  Srcuif 
+aufg<rt'cb<n  wnb  »{rnfc^t«  jpntKrn  Jinto:  i)cmf«fbeti  g4<i({g«  unfemn'ne 
+(Endf<fc&«*,Slar^a(aiif3d^f«r'liiu(ff«  wccJKn.  i5?(6m  ^<m  &rtcf)fm  t»tr:ffl 
+iinf<r<  07rtfUr.  nfcftr  «mna(.  6«)4,idm  umit  ti«iu(«d)cn'^i>n  j«  citwrn  (Sngli* 
+fid&m  ©<fai^  ton  (tcft  jiu<(»m:  aieweDktt  tw'r  bmm  nicfefig  f«i>n  jit  wicfi* 
+Kgcm.  ttO^()6()<rm.(S)fnjdi,  mmlic^  »o  man  ©Off  im  ®d(l  o^n  Untafap 
+%a9un^  iniact^t  tt<n(t  in  f^mm  ^<%<n'^erap<(.  -®An<b<n  foltn  unf<« 
+ri.WbK  unD  ©«jgcr  fcpn  ^<mp<(  imtx-^Sofiniingm  &tf  ^ttt'gm  ©dffttf: 
+lttn».ha:^^dttg<  ©d(i  md)t  wo^mt  in  eitum  unra'mn  @<fAfe /.  fon^cm 
+WirtH  frtubtm  ©<i(T<m.^cr5eniinb  9?rtmrm. 
+
+*  JMtfc^^f  untf  Urfad)  ^gcbtn  ©O'^'i  fluc^  venmifmmjfMe  oDrt* 
+(<iub'<r|I«^«rc  auDiencn:  tteifm  wir-  tt>H(l<n/6rt^  (Sr  f«nm  ©ef*U 
+(<p;aMi«m.©q»(5tt  b<r  ^^cft  imb  ©cfcf)«t^  txr  wtttxn  '^i<re;.ab<r  wol 
+«niXmti>tKftin<c^'li3<nf>«.  Unb.  tt>«i(CH wir  tann  mcr(ffcn,b40^er 
+€feifl  bee  Btttgettd^ro-gort^uberlt^)  win  bc^wnetfcytt:  foso^ 
+t^.-rai^  mt^  Urfrtd^  mit  iettifdbm  in  §r«iml)f^f]^-  iin^  rinjurafftn ,  <x\$  \\\ 
+g<l>«nc(<n,i>fl^.  <wa<6<»)  ^t©a(^ju  tjetfimn  »4r«  ,»!<  wit  a  <md)  <rfd5# 
+Ktt.  Skiutt  fo6rtr^.  »it  imtf-dnfiefmrfi)  fcini)m.tt)ir  m(J)f  aKcfn  f<in< 
+Urfo^  jut  (d(i&(finnij<tt.§r«it»«  «n^4uf^,  fonDcrn  tt5»r&«n  fo  gfdd)  mif 
+XfHii  oflerbimrflm  un>  wc^miittgflert  JLcibcitfc^Afft  I)<l46<«/t><»f 
+mcfir  iiof<r(-  d<in«t  -  0)Zdtf(&^  taran  dccKit^get  tvar .  Und  tvei(m  mm 
+iifa^rgtfMKttWar,  Xnca4d&<nfcf)affKii««^  ixm^ge  ju  ge^m;  fonlxm 
+Wi<f»? fht>«n/- uwfr ^f( on amOajercf :  fo i(l^  9<fai<l)<rt ,, t>4^  ttttfere gatt? 
+ee-tnet^l^ete  rt44)  cbm  bcmfclbm^r<tb  berJlcibm  tit  cirtc 
+Savtffe  ^4dE)U4>t^44)tmg  H«b  JDinnl^ctt^  Scbr<wbt/  ivortiur(j& 
+Wltrbinstf  t«r  rdhe  tm^faiitKre  ©dfl  ^©5ttfidKn'Sjdf()dff  of^  tirdtt 
+|D)W(l<r.  bi<f<r  ^o^m  «n|)©^r(f(J)<n^imf?i|I,  dn«  offe»<'^'u^t  acfimDm, 
+«nb  uttinacfr  oflm  unbftbm  Gradcft  txc  4db<tt  e>i<f<  iCtfgUfcb^  @tns« 
+Bimf^  aufi3<ft(a<((^  HMf^  fkl>  cnMid^  fo  mi^  ou^gctodttf  /  ba^  mx» 
+ttn5«  flHb(t  tO^Aotf  nof^  ^M  m(|r  bannnm  tn  ftnbm  war.    9!B^^  m% 
+
+ifXi  numotK^  d<t»t^<d<^tt<u^^M(fe^f)o(^ff)atr(@(f(lKn((  nic^f  fur  ^\^Ai 
+HiMt  bt^ttn/fottNm «t4l(g}mai^§0i^(r» ^ ©^»Ii(^  iinb J^ttnuM 
+
+
+62 
+
+
+Music  of  the  Efhrata  Cloister. 
+
+
+XXthVt  W  0irtg«2lrbrft. 
+
+
+ft<  9<<j<b(n/  iinb  iintcrvicl  0<&ii(funb  iangmuif)  naclxinanber  aiifgtju* 
+fjtfr.  Hub  ob  wir  aiicf)  fo[t<n  von  \n\\Kn  tnejflcm  un^  :&t^nfiHfrrt^tr 
+ir^ifcbc^1  uttl)  urtterctt  Wd^^cit  gcfabcif  nnrbdi,  trdkn  ijir  flnnoc^ 
+tnir  Dicfcr  unfcrcr  <bkn  0»\b«  in  M(f<m  iinKrn^f)(il  tcr  QBcfr  jur  JJXrbtr* 
+gc  fmb/  imb  bocf)  nidjt  nacfj  fccrfcfb<n  ©(ad)f)«t  na(t  Hnfrcr  fJofKn  ©ofi* 
+fliiftrctcn:  fo  vtvgcrmjar  foWxe  nnf<rn  cbUn  ,@cf)a^  nidbf  fltt<fn  rri(f)ty 
+fonbcrn  b(itiif)vc(  tin^  mu  b(mf<(b<n/Mf  n<^  n*^' ««>««  $r(mb<^  aHjii  fd^t 
+ixi  un<f  vcrfubc.  S)ann  fo  tvir  mtt  bitfcr  ^o|)tn  ©ab<  -nftt»  -Anba(l  <r» 
+fdjtincn  f ontcn  rtl*-  nod)  2trf  bo:  ^unf?kr  tlcfor  ftdjfbartn  ^<Ir  *  QBof^r^L 
+fo  tr(Sr<  ja  f(in  Untafcftdb  jufcfjcn;  ob  Otcfit  unf«<©ad)  »ob  untm  ^/ 
+ottr  ob  ftc  von  ob<n  %vc.,  ob  fie  ait^-Wtfcr  "SBcff  /  oD<r  von  j<na^<(f  QBjl^ 
+(Kt(  cnt(Trtni)(n;bocf)  tvoDcn  wir  imS  nlcf)f  f^ng<r  m<(  -fcicfct  @flc^  auf» 
+^frcn;  fontxrn  nnixor  forffa^<n.  tinb  ivicwof  tvir  rtHcrbfng^  nrtf  tfefcr 
+nnfcra 3Jor(?<tfim9  «m  (Snb  firrt*:  foiflnn^  Dodj  b«tf  n3(f)<3(T(  unb  niiijlicfi* 
+fc  nod)  ubrf'g^ -tvorinmn  befcfcmbm  fott  nxrbm/  ao^  ju  aDcrtrf!  n6t^j 
+t<i)  dntm  rc^frtrngcn  icljrsiJJJdfter  )u  obfervircn  i>«j  ><nm  ^o^mbot 
+ie^r>  3""9<^"  ^^r<f  ^o^<n  it>mf?,  unb  iva?  ^<rm\(&ii<<  ©odj  in  i^txx 
+5B<fen  unb2(txlf<tje/  nxmn  mmhcf)  tqj  &<r  ©ac^  4(51/<bm./  ujit  fu  nicftc 
+tnit  frtmbor  9)Zafm<  vmntngtt  tvirb.  i^tniacft  foU  autft  fdbfl  femtn  ge* 
+iibftn  ©djufan  (n  nnftw  ©d)itl  <in  griinblidjcr  ^^crfdjf  von  b<m  ©ctxini* 
+nii^  l)<r  3rtn5<n  <Sa(^<  <rrf)dkr  tvcrbm:  ivtt  jit  <rp  flD<  arrtn  b<r  £K<foN« 
+<n  <n  fid)  f<Ibflfl)re<f9<n<  £D?ama:  jniD^trt  ^b<n:  t»l<  iint  4uf  »a5  Q]Bd< 
+f<  Duanbern  @ftmm<n  311  i>affcn/  imb  iva«  vor^iuftftofrm  <Hif  dnc  jrt< 
+dSWfc  nad)  tl)rcr  "Xrt  cinffcffin/  bfl^  |i<  m^f  rfiiflvffipOTurcn,  4mb  <<««»» 
+.^  <nf3tfitn  (rtiiff<n.    Unb  ba«  ivoU<n  tvtr  ff)nn  fo  tRi  ^$<b«u 
+
+3Der  ^immel/  t)cr  ficb  fcbOrt  ror  Imtgett  Seitim  Ai»f  ttiw  biri 
+n(ct>er  ttclaffert/  blcibc  4tiJF  one  bcrut)crt  mit  ^er^ftTtgert  Cmi* 
+be  l)i<  bie^tro  wttfcre  X?oi#cl^crin  ntib  ^Ut^geberin  gctvcfm 
+in  rtUm  unfcmTOcgert/^rtftciirta  tmtit  Dttt^r  vW  <BWujlt  i»ti> 
+ItiDcnfcfeflfFt  tfifi  (Efe^cimuw^  tcr  iiebc  wnftr*  <8fotcc6  »ew 
+|?tlet  /  ^ort^e^rt  X>\t  pfortcrt  tax  bctmUcfocrt  \ivi>  ^i^x%mm 
+ttoei^^cit  rtufgcficgclt/  nrtb  ^i»  xitte  \)tx(i,\\e,   gtfrftm/ liH^  tai 
+
+(tt2.)  ** 
+
+
+1 
+
+
+Prologue  Continued.  63 
+
+
+)Owrre^e 
+
+
+ixv^  A.  Sct)<»u<n  uit»  aitgern'oct/  tmi  mie  t>cr5lctcfoen  ©adxil 
+
+
+21^97  ttjir  fcf«n    6<ja>r<ftcn  ><n^t«u?<n^  fo  ttJr  6<9 
+)0«(t9en{)di  Mcftr  6a<b<  <rfa()rm:  fo  («(«»  ttir  uns  tuol 
+MRg  UncnMidx  auebidrm  mufftn,  nwiUn  tt>it  in  (grftw* 
+i>ijn9  W<f<r  ^o()«n  @ob<  grtrunscmdm  ^0^  Studien  <rUr« 
+n«.    X>a  n>frfftH«  nicfet^Ddn  iinftrn  ©<tt>fnn  (Ui^fcow 
+$nmj<n  l>(r  @a<ft«  ftlif?  ()ol<f«n:  fOMlKm  «vur^cn  04»^ 
+itcbm  6c»  5o«Bert  ttTenfcbcrt  2U)fsU  »^ii  <S>(Dcc  bjn(>$g/  wte! 
+itemlrcb  OemfeUxn  fo  0ar   nt4>(9  C^tperltcb«»  uber  gebttebeil 
+VOtt  ^em  tva^rcn  CSucett/  otxr  attcb  nur  (tm  blinix  ®e|lait  /  top  nttr 
+dn  ^(5  f^m(  toon  &<m  n>aJ)r<ti  QB<fcn  iJorgcfTcCrt  twrlxn;  fojifictn  d^ 
+l»Mr(0  nn(  (cM^t^S^tc^^^fo^n^  Dat;  wOxr  @((Tal(  noc^^rlKtr  von  *xmA 
+StB4'=Nf^<^  i>ariu(?den  vermas^  tt<(cl)<£r  <tlk^  im«  fd)r  f(dn  un&  d« 
+rtig  4n  iraftm  jiamm  2fu3<n  ma(i)ft.    S)fltq?  trtr  olfo  IxmtKK^  -in  liiefai 
+itnfmt  ^cbufen  nK()r  (Srfa()rim<)(n  <r(cm(t^  ol^juvprft}  v((Un  unt)  (01150 
+JjA^rfjm  tdNn^utt&  ©(aiib«n£S*QBc3m/  t»d(tt»  \x\M  *Uf<  ^o^<  -©c&uK 
+tfHui  wnfrcn  ^bun  9C<f(t)tl)Hm  im&  Sd)6n^(  t<n»<9  «a|^n/  «Ifo  ^rtf 
+tthr  mm  jttfs  torau^  jortt^nUcf)  fii^cn  Dirffen^  «i<  flii*  oDcrfetos^  n*i 
+*t)<9  l«  *<fftn,  fontxrild)  In  2{nfc(wi3  Wcfir  ^<n  ^vM^va  ©flb«un> 
+^(fcirft/  Mf  n><r  g«flln^<n;  nnfcfieg  twr  flCtiting^  tvoflw  <m  W<  ©pfw 
+gifttft  ^n;  wfe  *4^  n€nilicb  tew  rim'ger  tHmfct)  t>on  2»am 
+H.^  ah»4  fltborctt  ventage  <inert  6eijt4tcbm£^«tt  oonficb  3«»  ge* 
+boi/  bn-  m  Wefer  ^Me*3t>  P4flc»t  tt>«re/  tto*  weniger  emeu 
+I«^*<*tti0cn  ®ef<ma  ^Iffett^u  3ierm.  95Pol>oi>  p*  am  iiKtjTm  jrf 
+»«wtn&<m/  ^g  ft^  ^<r  ^efel  bee  S^ne    Affemol   bartntteif 
+f  nbrt/  iiemlicb  b4f  er  bit  ire<bt4rtt'ge  ^$^e  ni4>e  txvtiibet/ 
+tit  in  d<m4i0e(mm  btefer^Ct^enBoinfi  t>Ortomt/  teoraii^jumacfenf 
+Jof  feet  nariirWdK  9)2<nf(I)  »cn!m(mj)<t  u.»on^riJr&<n/>i<f<  ^o^t-^unp 
+
+cTdl 
+
+
+64 
+
+
+Music  of  the  Ephrata   Cloister. 
+
+
+Ucbcr  hU  QirtgsJlrbrft. 
+
+
+<fcrt  lln^  ^<xWm  <m  ©injm  toif oinmr ,  t)a  in  flttcn  Um(?<l»t><n  nicmo* 
+Im  \K^)  timber  ^c*)!  jo^a,  jxr  im  ^Ijm  2tufficjgfrt  utxr  ^<B  redraw 
+iitjcn  '^f)c>n  rerfommr,  m<(d)<rf  twr  aU«  in  viclcin  iiii^  wicfjrtijtm  t)7acl)« 
+Ixncfcn  b(f)crqi3<f,  tvatf  lusndct)  txr  rtb^cfaHoK  gjZmfd)  f<p<,  imO  wUutu 
+iu(^ti5i  CT  f(ij  ill  Oofffidjin  ©adKii,  wc^wcgcn  w(r  flacrNn3tf  an  bitftm 
+£)rf  ttolim  bc«  2(nfan3  madjcn,  tucif  foldjctf  iu  flH<r<rft  t>ortotnm(.  5>ccft 
+<t)c  wit  tvcffcr  fdjrtudi,  tvoII<ti  tvir  (inm  @d)riff  jiiriJcf  gtfxn^  unb  |U 
+trf?  nod)  tin  tvcntg  bcrnu^ttn ,  vMi  n<btu  btm '  fla<m  (it  b<«r<i^  tJ^t)*" 
+^im(Tgct)or<,  bicwcif  «nf{r(Sinn  nid)t  darfliif  «iig  i^,  bufcr  t)ot)m  ©ab« 
+txr  von  0O«  ^od)*gradirccn  ©ing*  j\iin(|-tul  ©djmiicf  unb  (£!)«  m 
+Sfliorrcn  dniuUscn  ^  tvciUn  (It  fd)cn  iiivor  all<0  bvffcn  voff^  unb  gmiigfant 
+<!?,  ftd)  fcfbcr  anjiipKcfen.  ^arum  twr  untf  (lud)  mdK»«<t  nrf(  bffgJacfKli 
+©adjcn  woacn  fliif(>rtl«n,  fbnb<rn  jur  @a4  ftlbfl  fd)rd«n;  *(X^  tin'SB** 
+nigi:^  (m  3}orbep3clj<n  mcUxn,  ttxld)««  W<f<tf  f)ot<n  ©<<^<^  %xi  ui* 
+9C<f<n  ft«jc,  unb  biirdj  tvatf  QiRitfd  »tr  ur«  btij  3^"*  timm  btUebmw* 
+d)<n,  bii^  ttjtr  <n  fdnc  @(ct*f)nt  fommm. 
+
+^ie  Wei^^ric  vort  obcrt/  6ie  bts^r^  urtfcre  gi^awie  Kot^ 
+B<bcrm/  Jd^rcrirt  u»^  ^  Unterrictx  g<wcfcrt  in  «Utit  Urtfem 
+W?egcrt/  wrtt»  una  fetefw  ^oct)t^eur«  (Ekfd^cttcf  aiefleg^f  »«» 
+Aufgel^^fct;  Dte  gcb«  fcrfterl^itt  cm.m  |c0lt4)eri  /  t4^  «t  in  fcuKiVI 
+JCI^urt  (0(I>tt  Seffllhg  ttn^  ^ctt  tnenfcDcrt  wcrt^/  fo  wit^  ficj^ 
+aucb  wol  ^i>  <B4bt/  fo  ju  differ  ZUinfi  gc^^rrt/  mit  firt^en. 
+
+£)b  itvar  tto(  b<9  w<i<n  Untrif[cnb<n  tUk  iinb<C(Jc|f<id?e  Urtl){U<  jtfdW 
+!»(rbcn,  gidd)  a{«  ob  mrtn  m<f  bKftr  wn  00ft  ()oc^<cibrittB  imb  gradi»» 
+tcni?im|?  mir  btm  0cif?<  «<f<r  QBcff  <n  0l<ic6f)m  |Tjjnb<;  fo  <^nn<"  »<rbod^ 
+foldxtf  ganj}  um>  gar  ni^  d<(?<^<n;  fonbmt  w<im<^  fta«  ©cgmf^  in 
+<r»df<n^bcn^  f»e(Im  ittr  jti  W<ftr  t»<d)ri3m  @adx«Hb«  frtmb<  §arb<!f 
+nod)  grrtiifc  ^a«r  gcbraucftr;  fonbtrn  i»f/<b<ti  aMm  b<t)  bm  a<nf(^<d)<if 
+©fimmm,  di  tit  burd)  ba«  ^ettxgm  Ixr  .0<f?<n  »«&  0tt(l<r  4n3(fr<<» 
+Un  in  iob  unb  <5hr<  bcm  2r[Imdd)ft9<n.  2><nR  fb  W<  gc^ciim  4W^ 
+vcrborgenc  XX^ci^^cit  n(d)t  tt^rt  <ii  ub^  ()<raij<  4ii^  tf)r<r  jfCamttw  g«i 
+m«n;  <«  foft(  un5  «>o(  bitf<  ©6tflid)<  ^unfl  «n  9<t)<ini«  9vAfl<l  unt  wt» 
+^gc(«r  Q3rt«f  9<b(i<b<n  fctjn .  ©tnffmal  xoix  6<f^<f)cn  fd)((d)rtr  Witg#  ><m 
+«(<ii  bufo:  Oi^r  fdn<^'un|?  ju,  b/<  mm  0<ftr<ut(^  t)tmmiif(^  $()i05<n& 
+
+(tt3>  4<f 
+
+
+£nd  of  Prologue. 
+
+
+65 
+
+
+X>wr«5<. 
+
+
+<ti<d;  fonti<rn  rt&t,  Itif.x^  vi((m<f)r  t^rtn  Ur(?on^  txm  ^arabie^  t^q;;  oinx  (od^ 
+fd/  t«^  <tf  (n  t<nf<l6«i  <rj?or6(n  /  wit  rtud)  fc<r  CKtnfd)  Am  J5imm<U 
+ttfc^  <rffcr6«n/  wnb  &o^,  wrttin  «t  turd)  txn  rccfeKn  @d|?  <m<cf«  n>friv 
+
+4k  IM  wrffcpm/  nxnn  ^<  bitrd)  Ixn  rcd)t(n  @a|!  crtve(£«  trirj).:  fo  gt^et 
+
+
+WATERMARK  OF  THE  ZIONITIC  BROTHERHOOD,  IN  THE  TWO  FIRST  PARTS 
+OF  THE  TURTEE  TAUBE,  SIG.  A  TO  M,  PP.  I  TO  90. 
+These  were  evidently  printed  several  j'ears  prior  to  date  on  the  title  pag-e.  The  con- 
+tinuation is  printed  upon  a  somewhat  lighter  paper.  Two  editions  of  the  Turtel  Taube 
+were  printed,  one  for  general  use,  sJi  X  vH  inches  ;  the  other  one,  on  larger  and  much 
+heavier  paper,  6^  X  8  inches,  for  church  use.  The  copy  of  the  latter  in  the  writer's 
+collection  also  bears  the  watermark  1744. 
+
+
+CHAPTER  VII. 
+Beissel's  Unique  Instructions  on  the  Voice. 
+
+XET  us  now  proceed  directly 
+to  the  subject,  and  show, 
+as  briefly  as  possible,  by  what 
+means  and  opportunities  we  may, 
+both  spiritually  and  physically, 
+attain  to  this  art  of  high  degree, 
+and  then  consider  further  what- 
+soever things  the  circumstances 
+of  the  case  may  require.  In  the 
+first  place,  be  it  observed,  that 
+divine  virtue  must  be  viewed  from 
+the  summit  of  perfection,  and  occupy  the  first  place,  if  one 
+would  become  the  right  kind  of  pupil  and  thereafter  a 
+master  of  this  exalted  and  divine  art. 
+
+"  Furthermore,  both  pupil  and  master  ought  to  know 
+how  necessary  it  is,  in  addition  to  all  other  circumstances, 
+to  embrace  every  opportunity  to  make  oneself  agreeable 
+and  acceptable  to  the  spirit  of  this  exalted  and  divine  vir- 
+tue, inasmuch  as  according  to  our  experience  and  knowl- 
+edge it  has  within  itself  the  purest  and  chastest  spirit  of 
+eternal  and  celestial  virginity. 
+
+**  This  naturally  requires  compliance  with  the  demands 
+
+(66) 
+
+
+Food  to  Make  the  Spirit  Teachable.  67 
+
+of  an  angelic  and  heavenly  life.  Care  must  be  taken  of 
+the  body,  and  its  requirements  reduced  to  a  minimum,  so 
+that  the  voice  may  become  angelic,  heavenly,  pure  and 
+clear,  and  not  rough  and  harsh  through  the  use  of  coarse 
+food,  and  therefore  unfit  to  produce  the  proper  quality  of 
+tone,  but  on  the  contrary,  in  place  of  genuine  song,  only 
+an  unseemly  grunting  and  gasping. 
+
+"  At  the  same  time  it  is  especially  necessary  to  know 
+what  kinds  of  food  will  make  the  spirit  teachable,  and  the 
+voice  flexible  and  clear ;  as  also  what  kinds  make  it  coarse, 
+dull,  lazy  and  heavy.  For  it  is  certain  that  all  meat  dishes, 
+by  whatever  name  known,  quite  discommode  us,  and  bring 
+no  small  injury  to  the  pilgrim  on  his  way  to  the  silent  be- 
+yond. Then  there  are  those  other  articles  of  food  which 
+we  improperly  derive  from  anim.als,  e.  g.,  milk,  which 
+causes  heaviness  and  uneasiness ;  cheese,  which  produces 
+heat  and  begets  desire  for  other  and  forbidden  things ; 
+butter,  which  makes  indolent  and  dull,  and  satiates  to 
+such  an  extent  that  one  no  longer  feels  the  need  of  sing- 
+ing or  praying ;  eggs,  which  arouse  numerous  capricious 
+cravings ;  honey,  which  brings  bright  eyes  and  a  cheerful 
+spirit,  but  not  a  clear  voice. 
+
+"  Of  bread  and  cooked  dishes  none  are  better  for  pro- 
+ducing cheerfulness  of  disposition  and  buoyancy  of  spirit 
+than  wheat  and  after  this  buckwheat,  which,  though  ex- 
+ternally different,  have  the  same  virtues  in  their  uses, 
+whether  used  in  bread  or  in  cooked  dishes. 
+
+"As  regards  the  other  common  vegetables,  none  are 
+more  useful  than  the  ordinary  ^potato,  the  beet,  and  other 
+tubers.  Beans  are  too  heavy,  satiate  too  much,  and  are 
+liable  to  arouse  impure  desires.  Above  all  must  it  be 
+remembered  that  the  spirit  of  this  exalted  art,  because  it  is 
+a  pure,  chaste  and  virtuous  spirit,  suffers  no  unclean,  pol- 
+
+
+68  Music  of  the  Ephrata  Cloister. 
+
+luted  and  sinful  love  for  woman,  which  so  inflames  and 
+agitates  the  blood  of  the  young  as  completely  to  undo 
+them  in  mind,  heart,  voice  and  soul ;  whilst  in  the  more 
+mature  it  awakens  excessive  desire  after  the  dark  things 
+of  this  world,  and  consequently  closes  heart,  mind  and 
+voice  to  this  pure  spirit  as  its  haven. 
+
+"  As  concerns  dri7ik,  it  has  long  been  settled  that  noth- 
+ing is  better  than  pure,  clear  water,  just  as  it  comes  from 
+the  well,  or  as  made  into  soup  to  which  a  little  bread  is 
+added.  Every  other  manner  of  cooking,  however,  whereby 
+the  water  is  deprived  of  its  healthgiving  properties  and 
+turned  into  an  unnatural  sort  of  delicac}',  is  to  be  consid- 
+ered as  a  vain  and  sinful  abuse ;  just  as  other  articles 
+of  diet,  which  we  do  not  deem  worthy  of  mention  in  this 
+place,  have,  through  many  and  diverse  lusts,  been  turned 
+from  their  natural  and  harmless  use  into  delicacies.  Of 
+those  who  gormandize  we  cannot  here  speak,  for  we  are 
+concerned  only  with  those  who  are  already  engaged  in  the 
+spiritual  warfare,  and  who  in  all  respects  strive  lawfully. 
+With  those  who  walk  disorderly  and  unlawfully  we, 
+therefore,  have  nothing  to  do.  It  of  course  stands  to  rea- 
+son that  the  power  to  exercise  divine  virtue  is  not  to  be 
+sought  in  the  selection  of  this  or  that  particular  diet ;  for, 
+were  this  the  case,  we  would  wish,  if  it  were  possible,  to 
+be  entirely  relieved  of  eating,  so  that  we  might  lead  an 
+Enochian,  supernatural  and  supersensual  life.  Then  this 
+heavenly  wonder-song  would  of  itself  break  forth,  without 
+the  addition  of  any  of  those  things  that  are  only  transient 
+and  never  reach  eternity. 
+
+♦•And  now,  not  to  dwell  upon  this  matter  too  long,  let 
+us  take  up  the  next  part  of  our  subject.  Let  us  first  say, 
+however,  that  if  we  were  to  undertake  as  complete  an  ex- 
+position as  the  subject  demands,  we  would  fail  to  reach  the 
+
+
+Unique  Instructions. 
+
+
+69 
+
+
+end.  Nevertheless,  we  will  spare  no  pains  to  make  it  as 
+clear  as  possible ;  but,  let  it  be  borne  in  mind  that  we  will 
+still  leave  something  for  the  educated  and  practical  (musi- 
+cian) to  study  and  think  over." 
+
+
+ALPHABET  USED  IN  THE  MANUSCRIPT  TUNE  BOOKS  OF  THE  EPHRATA 
+COMMUNITY. 
+
+
+2)ie  Sing  *Hr belt 
+
+
+& 
+
+
+CHAPTER   VIII. 
+
+
+Beissel's  Dissertation  on  Harmony. 
+
+Translation  by  the  Rev.  J.  F.  Ohl,  Mus.D. 
+
+TRANSLATOR'S  NOTE. 
+It  will  be  evident  to  any  musician  who  reads  this  "  Dissertation,"  or  who 
+examines  any  of  Beissel's  compositions,  that  beyond  the  most  rudimentary 
+knowledge  of  the  common  chord  and  its  inversions,  he  had  little  under- 
+standings of  the  laws  of  harmony,  and  none  whatever  of  meter  and  rhythm. 
+The  work  done  by  him  and  his  associates  is  therefore  correspondingly  crude 
+and  inaccurate,  and  it  becomes  interesting  only  from  the  fact  that  it  belongs 
+to  the  first  attempts  made  on  American  soil  to  compose  sacred  music.  The 
+translator  has  aimed  to  reproduce  the  evident  thought  of  the  writer  rather 
+than  his  exact  langfuage,  which  is  often  very  obscure,  and  most  diflScult  to  ren- 
+der into  idiomatic  English. 
+
+[HE  all-important  and  most  use- 
+ful qualification  in  a  teacher 
+of  new  pupils  is  first  to  know 
+that  he  must  not  teach  them 
+merely  to  sing  the  A,  B,  C,  or 
+the  seven  letters,  and  then  at 
+once  introduce  them  to  thirds 
+and  intervals  before  they  have 
+learned  the  characteristics  of 
+each  letter,  or,  indeed,  under- 
+stand   what    they    have    learned.     Special    care    must  be 
+
+(70) 
+
+
+Harmony  of  the  Ej>hrata  Cloister.  71 
+
+taken  to  bring  out  the  distinguishing  quality  of  each  letter 
+{i.  e.y  note  or  sound) ;  and  this  requires  such  diligence  and 
+costs  so  much  labor  that  we  cannot  here  describe  it.  The 
+voices  may  either  be  harsh  and  unsympathetic,  or  false 
+notes,  that  do  not  reach  the  required  pitch,  may  be 
+sung.  In  such  cases  efforts  must  not  be  relaxed  until  it  is 
+learned  and  seen  how  much  remains  to  be  overcome ; 
+but  if  one  seems  to  be  totally  incapable,  let  him  desist  for 
+a  time,  in  order  that  he  may  not  become  entirely  dis- 
+couraged. 
+
+"When  the  characteristic  quality  of  each  letter  (note) 
+has  been  taught,  diligent  efforts  must  be  made  to  train  the 
+voice ;  and  such  directions  must  be  given  regarding  tone- 
+production  as  will  enable  the  singer  himself  to  correct 
+mistakes.  For  at  this  stage  of  the  instruction  everything 
+that  is  needed  for  ultimate  success  may  be  imparted,  whilst 
+at  the  same  time  so  much  may  be  overlooked  as  thereafter 
+to  require  years  to  make  good  the  loss. 
+
+"And  now  let  us  proceed  to  show  what  constitutes  a 
+four-part  tune,  and  what  letters  (notes)  in  the  other  parts 
+must  accompany  the  melody  in  the  different  keys ;  then 
+also  to  give  a  diagram  of  the  keys,  and  to  indicate  how 
+the  pitch  may  be  raised  when  it  has  fallen. 
+
+"  Let  it  be  known  that  not  more  than  three  letters  (notes) 
+can  be  used  for  the  four  parts.  Consequently  the  fourth 
+part  is  always  the  octave.  The  three  letters  (notes),  how- 
+ever, always  appear  at  the  beginning  of  each  tune.  Thus 
+we  obtain  the  four  parts.  The  three  letters  (notes)  which 
+appear  at  the  beginning  must  be  regarded  as  the  masters 
+and  lords  that  dominate  everything  from  beginning  to  end, 
+inasmuch  as  the  tune  must  close  with  the  same  letters 
+(notes)  with  which  it  began. 
+
+"  If  the  melody  is  in  the  key  of  C,  E  is  the  note  in  the 
+
+
+72 
+
+
+Music  of  the  E-phrata  Cloister. 
+
+
+\kt  man  m(rcf<(  jinD  ^xC^Kt ,  itic  tvdt  it  <(ncr  Um  X)i"mcfcn  jwrt)  jiil'viii9<n 
+fyit,    -e^rincf  <rn?a  «nc  gan^licOc  Unf<1W6^"  I"  ft^n ,  fo  3<b<  in^n  (0  tii 
+m  ^titlawi  mil  fold)cm  aiif,  Mmif  rmx\  fcfn  ©cmut  iild)f  gar  ttrjlurijr  mcvi 
+«<.    QiJaim  abtr  vince  i<&<n  ^SucftjlalKn^  2lrf  l)(ran«  gcbradjt  tfl;  fo  mu^ 
+^rnrtdj  aDtrgld^flngw.inMwtrbcji,  l»af  man  tU  0f(ninK  (ctnt  6r((l)<n/ 
+lin&n>a^  dnctf  jc&tn'^S  icbflabcnJ  art  fq^,  annx-(|(,  aiif  M^  <r  fic  1<iik  tcrflw 
+^n,  tamff,  trann  tjcrna*  foil  tt>{(f<r  3«<an3(n  l»tr^<n,  man  fict)  bcp  ^<f)« 
+Itrn  inD  a)Ji^fd)M3<n  in  ()ciif<n  tvffft .    iOaim  <«  fan  aUcrMn^j  an  tkfcm 
+fl)(aq  aCctf  gcf)oI(r  »<rt»(n ,  tta«  ()ana(I)  (n  l><r  3an?<n  6act)c  ii^<3,  nnD 
+fan  and)  fo  »kl  t>(rf({Kn  itxrtxn ,  ta^  <^  ^xm^*  faiim  <n  »(<(  ^fat""  'an  (J"* 
+urn  3c()cl(t  »<r><n .    S)a5  <f?  nun  Mtf« :  iWinj  nxrlxn  n><r  an  J(cftm  fpfoj 
+fen  nid)t  ttxircr  gc^cn,  font<rn  wcDcn  Ur\  gratm  Ql)<g  tarUgm,  tva?  <(> 
+n<n  4.  ©rimmfgtn  0<fan3  aii^ma(fKf  /  iinb  »a^  bcp  aOcn  un^  jcc<n  QDdi 
+f<n  natl)  f (jrnr  2rr  vor  ^iid)f?ab<n  (n  tfncr  j(^<n  ©rtmm  auf  Xn  Choral  paf; 
+fen ,  rdi,  aud)  D<n  (Sctd'iiTd  rtncr  |<b<n  -2Bdp  fri  4.  (Sttmrnm  aiif  diur  ^a» 
+fd  f(f)<n  (a([(n,  ijb&  wann  dn  ©(fang  gcfaUcn;  tt<t  or  »(<&«  |u  |)(» 
+Un,  fca^  CT  nlcfef  a«f<r  fdn<r  2n  unt  Maniet  g<f<5f  itcrtt . 
+
+({0  <f{  iu  Tci^m,  baf  nic^t  mc^r  altf  3.  9iid)^ab<n  fcpn  f^nnm  ^  fo  N< 
+4.  6f{mmm  au^madxn/  iv<0tt<5(nbf(4f<@rlmm  aBcmal  mit  to:  Octav 
+g(fd)U^(n  tHrb/  tvddK  3.  ^iidif?ab<n  tann  aOcmaf  bcQ  dncr  ffNn 'i})?do« 
+tf<  gidd)  yen  Snfang  Aiifgcrrmn  fomm(n  /  ta^  ft(  iintf  M(  4.  &r<mnicn  go 
+ft<n^  tvobtr;  tann  iu  mtrdfen^  taf  Mtft  3.  Q}iid)f{abcn ,  M(  <m  2ln[ang  vor> 
+fommcn^  tU  tO?df?(r  iinb  ^mn  f(n^/  tvo  aOe^  von^Tnfang  hit  iii  ^nb(  niii$ 
+Aiif  b<rij{Kn  Wdb<n,  tvx<Un  5<r  ©cfang  aHcmal  am  5)ib  n»U&<r  m(f  (b(n  txw 
+fdb<n  3.^iid)(?ab<n  aiirf)a(rfn  mii^,  womlf  tr  angcfnngen.  3(T  t«  ((n« 
+C»'2B<<^/  fo((TlI^^fo(3Cffdn31n^<r<r,  aff<  ^a■e.  iinb  madxr  6<n  ^dKi'if? 
+ft/  |ut<m  •  Barrif;  Ux  g.  <fl  fdn  X>r(fr(r,  (a  6ann  6<r  cb<T<  b<n  Taiicr,u. 
+6tr  um<r<  Choral  g.  6<n  B«rs  anWngt;  Dod)  fantf  fommm,  ba^  fi<  »(rtt»<d)» 
+fdt  nxTNn,  »<nn  n<mi(d)  bcr  Choral  nld)t  Ju^  mf(  b<m  C.  anfAngt ,  tod? 
+ildbm  fu  {xpfammm/fangcnNn  Choral  an,  nnb  tnWgtn  <f)n  and) .  QBa« 
+iw<fe  fon|?«n  W<  anbffcn  4 .  Q5ud)|!ab<n ,  W<  n>h-  t)«<r  j^ncdKt  nrnn<n ,  an» 
+toi^f ;  010  f .  a .  h .  d .  fo  foa  dntm  <(b<n  ton  ftl Wqtn  fdn  ®W(fncd)f  UmtxUt 
+BKtNn/  !»<(  fi<  n<mMd>  iii(am<n  fhmmtn.  Unb  th  wr  airav  wel  am  (fn» 
+*«  oJtf  ««f  ^afdn  iwDoi  (({xn  fa(f<n ,  f«  wolUn  »<r  boct>  bancNn  >«n  tSWp 
+
+ft+t)  '^"" 
+
+•  »ff  tNrrii  if  M*  Nt  ffwiiBrt  RcNiU-W  t«  t<M,  Ux  %iM*Ux  Kr»l«. 
+
+
+Barrir  and  Tocner.  73 
+
+Barrir^  (tenor),  and  G  in  the  Toener  (alto).  Thus  the 
+alto  and  the  bass  begin  on  G.  This  order  may,  however, 
+be  inverted,  when,  e.  g.,  the  melody  does  not  begin  with 
+C.  Nevertheless  these  letters  (notes)  must  remain  together 
+and  begin  and  end  the  tune. 
+
+"As  regards  the  four  remaining  letters  (notes),  F,  A, 
+
+B,  D,  which  we  shall  designate  servants,  let  each  be  told 
+how  he  must  serve  his  fellow-servants,  so  that  they  may 
+harmonize.  And  although  we  shall  show  all  this  in  dia- 
+grams at  the  close,  we  will  now  give  ourselves  the  addi- 
+tional trouble  of  explaining  which  must  be  the  two  asso- 
+ciates of  each  of  these  letters  (notes). 
+
+"  If  F  occurs  in  the  melody  it  is  served  by  D  in  the 
+tenor  and  bass,  and  by  A  in  the  alto ;  A  demands  D  in  the 
+tenor  and  bass,  and  A  in  the  alto,  sometimes  also  in  the 
+bass ;  B  calls  for  D  in  the  tenor,  and  G  in  the  alto  and 
+bass ;  D  asks  for  B  in  the  tenor,  and  G  in  the  alto  and 
+bass.  In  this  manner  a  melody  in  C  may  be  harmonized 
+in  four  parts. 
+
+"Let  us  now  show  how  the  pitch  may  be  recovered 
+when  it  has  fallen.  To  do  so,  the  beginning  must  always 
+be  made  with  the  key-note.     If  the  melody  is  in  C,  sing 
+
+C,  D,  T}^',  then  call  D^  C,  and  continue  on  this  pitch. 
+
+"  Now  let  us  proceed  from  the  key  of  C  to  the  key  of 
+A  (minor).  Here  again  let  us  first  give  attention  to  the 
+three  masters  with  which  the  four  parts  must  begin  and 
+
+
+*  Conrad  Beissel  here  g^ves  an  explanatory  footnote  regarding  the  use  of  the 
+terms  Barrir  and  Toener^  stating  that  in  ordinary  language  the  former  stands 
+for  tenor,  the  latter  for  alto.  Both  of  these  terms  were  used  arbitrarily  by 
+Beissel,  as  neither  appears  to  have  been  known  to  the  Rev.  H.  Ernst  Muhlen- 
+berg, the  best  philologist  in  Pennsylvania  during  the  last  quarter  of  the  eight- 
+eenth century.  In  a  previous  translation  I  was  misled  in  the  use  of  these 
+terms  by  a  person  to  whom  I  submitted  my  copy  under  the  impression  that 
+he  was  an  expert  musician.  In  the  present  translation  the  modern  terms  are 
+used  wherever  they  occur. — Julius  F.  Sachse. 
+
+
+74 
+
+
+Music  of  the  Efhrata   Cloister. 
+
+
+>t.  ymvaoifyM.  ^  ^  C.  ^taifrtt 
+
+
+end,  and  then  bring  together  the  four  servants  and  assign 
+each  his  duty.  As  A  is  here  the  ruler  (key-note)  of  the 
+melody,  its  associates  are  C  in  the  tenor  (occasionally  also 
+in  the  bass),  and  E  in  the  alto  and  bass.  This  is  the  four- 
+part  chord  in  the  key  of  A  (minor).  The  remaining  four 
+servants  which  do  duty  besides,  are  F,  G,  B  and  D.  F 
+calls  for  B  in  the  tenor,  and  for  D  in  the  alto  and  bass ;  G 
+
+
+t\ 
+
+in 
+
+y 
+
+e> 
+
+SJ 
+
+_  _     _ 
+
+iRr 
+
+a 
+
+» 
+
+w 
+
+(S> — 
+
+—fii 
+
+-<s>- 
+
+y 
+
+iff 
+
+195- 
+
+9 — 
+
+jj 
+
+« 
+
+a— 
+
+•rr 
+
+-^- 
+
+(S> 
+
+fii 
+
+— <s> 
+
+-<»- 
+
+T5- 
+
+V                                            ^ 
+
+^ 
+
+iff                               ^ 
+
+^ 
+
+^ 
+
+e> 
+
+ir3 
+
+ifn                   a 
+
+^M^       rj 
+
+^            — 
+
+%)        ^ 
+
+-<s>- 
+
+U\* 
+
+<^ 
+
+r- 
+
+■PJ. 
+
+I'^^ 
+
+ir> 
+
+trj 
+
+» 
+
+c 
+
+/« 
+
+a 
+
+1 _^ 1 
+
+I— 1 »— u 
+
+Four-part  Key  for  Melodies  in  C. 
+
+
+Melodies  in  A  and  G  Minor.  7S 
+
+for  E  in  the  tenor  and  bass,  and  C  in  alto ;  B  for  G#  in  the 
+tenor,  and  E  in  the  aho  and  bass ;  D  for  B  in  the  tenor, 
+and  G  in  the  alto  and  bass.  If  the  pitch  has  sunk  I  must 
+call  the  C  I  am  singing  A,  ascend  to  a  new  C,  call  that 
+A,  and  continue.  Thus  we  also  clearly  see  how  to  bring 
+melodies  in  A  (minor)  into  four-part  harmony,  and  how  to 
+regain  the  pitch  when  it  has  fallen. 
+
+"  Let  us  now  pass  from  melodies  in  the  key  of  A  (minor) 
+to  those  in  the  key  of  Bj?.  In  the  latter  key  B[?,  D  and  F 
+are  the  lords  and  masters.  B[?  is  the  key-note  of  the 
+melody,  D  governs  the  tenor,  and  F  the  alto  and  bass, 
+though  B^  indeed  remains  the  ruler  in  the  bass.  The 
+four  servants  are  G,  A,  C  and  E^.  Of  these  we  associate 
+G  with  the  melody,  but  C  with  the  tenor  and  bass  (though 
+the  upper  G  more  conveniently  takes  Ef?  in  the  bass), 
+whilst  the  alto  invariably  becomes  E[?.  A  calls  for  C  in 
+the  tenor,  and  F  in  the  alto  and  bass  ;  C  for  A  in  the  tenor, 
+and  F  in  the  alto  and  bass ;  E[7  for  C  in  the  tenor  and 
+base,  and  G  in  the  alto.  If  the  pitch  has  fallen  I  call  my 
+B[?  G,  ascend  the  proper  number  of  degrees  to  a  new  B[7, 
+and  sing  on. 
+
+"And  now  let  us  look  at  these  melodies  in  which  G  is 
+the  ruler,  and  B[?  and  D  are  the  associates  (G  minor).  In 
+these  we  come  to  a  wonderfully  strange  turn,  inasmuch 
+as  altogether  different  letters  (notes)  are  made  to  do  ser- 
+vice in  the  three  other  parts.  We  begin  with  the  three 
+masters.  In  these  melodies  the  parts  start  with  G,  B|? 
+and  D.  Let  it  be  understood  that  the  three  letters  (notes), 
+invariably  stay  together  and  form  the  beginning  of  a  tune 
+in  four  parts ;  that,  as  already  stated,  the  fourth  part  is 
+the  octave ;  and  that  it  does  not  matter  with  which  of  these 
+three  letters  (notes)  a  tune  begins.  That  in  our  descrip- 
+tion we  always  begin  with  the  letter  which  designates  the 
+
+
+76 
+
+
+Music  of  the  Ephrata   Cloister. 
+
+
+^m\f^pmMi^  <^j|^p  |m  ^1  c-ji^ew 
+
+
+i 
+
+
+am 
+
+
+-«+ 
+
+
+:ft: 
+
+
+^-er 
+
+
+#15^=^ 
+
+
+ifi: 
+
+
+:fc=^ 
+
+
+ii 
+
+
+=& 
+
+
+<i   <^i 
+
+
+:±: 
+
+
+s 
+
+
+4)e/ir)t^^^^WK^  ^cl)fw(|el  ^  kvt  A  ^\m 
+
+
+m 
+
+
+=«;= 
+
+
+^ 
+
+
+ift 
+
+
+g 
+
+
+€|        li 
+
+
+^  t| 
+
+
+:±: 
+
+
+^erjt  ^^^UmiM  ^m^a  Ut^^\^^!^\>om 
+
+
+m 
+
+
+1 — ^ 
+
+
+lit 
+
+
+ifi: 
+
+
+xt 
+
+
+W 
+
+
+Tr~rT 
+
+
+3?: 
+
+
+3t 
+
+
+331 
+
+
+4)er)t  ^ftiMiOi  ^^i5c?^|ol  5«  kw^J^.tSJi)  Ufe 
+
+
+m 
+
+
+=& 
+
+
+=e=r: 
+
+
+3t 
+
+
+rfii 
+
+
+±t 
+
+
+^^ 
+
+
+S 
+
+
+^ 
+
+
+ifii 
+
+
+rit 
+
+
+dfc 
+
+
+xt 
+
+
+xt 
+
+
+(l)    C   MAJOR,    (2)    A  MINOR,    (3)    G    MINOR,    (4)    G    MAJOR. 
+KBV  DIAGRAM    FROM  THE  SCORE  BOOK  OF  THE  CLOISTER. 
+
+
+Key  Diagram. 
+
+
+n. 
+
+
+Se/iTit^Jlwia/i^ 
+
+
+iieie^3iMi&5i 
+
+
+m 
+
+
+5*= 
+
+
+:& 
+
+
+:& 
+
+
+:^i3d 
+
+
+£ 
+
+
+T^TTTt 
+
+
+It 
+
+
+-! J- 
+
+
+Tt 
+
+
+i 
+
+
+t.i  i.i 
+
+
+33: 
+
+
+tZZZD 
+
+
+^ 
+
+
+er  )t  ^fS^Amm  <^ctjto|el  i/ie  i 
+
+
+)6VI 
+
+
+i 
+
+
+mU'  CI 
+
+
+:5B= 
+
+
+^te 
+
+
+2)eTH95'/'^^^i^^^  ^c%jjel  |m  i^  3v6  isSd-- 
+
+
+0       ^^^^^T.. 
+
+
+Or 
+
+
+X 
+
+
+:±t 
+
+
+■^ 
+
+
+±: 
+
+
+,ip^ 
+
+
+^ 
+
+
+iS: 
+
+
+-^— ^ 
+
+
+:^ 
+
+
+5^eir/fcTjUMi€W^|5cWi|el^^  ^rfeSjc/w 
+
+
+9 
+
+
+3qx 
+
+
+iM=:iF 
+
+
+:^{=& 
+
+
+=£^ 
+
+
+i 
+
+
+»    CI    C/ 
+
+
+-^h-^ 
+
+
+:^ 
+
+
+ifi: 
+
+
+^ 
+
+
+It 
+
+
+(5)    Bb    MAJOR,    (6)    F   MAJOR,    (7)    EI'    MAJOR,    (8)    C   MINOR. 
+KEY  DIAGRAM   FROM  THE  SCORE  BOOK  OF  THE  CI^OISTER. 
+
+
+78  Music  of  the  Efhrata  Cloister. 
+
+key  in  which  the  melody  is  written,  is  done  for  the  sake  of 
+accuracy.  This  is  also  the  reason  why,  in  our  account, 
+we  seem  to  insinuate  that  all  melodies  begin  with  the 
+letter  (note)  which  is  the  chief  in  the  melody  (the  key- 
+note) ;  yet  this  is  not  possible.  In  our  further  description 
+we  will,  therefore,  continue  to  be  governed  by  the  special 
+characteristics  of  the  melody.  This,  then,  is  the  manner 
+of  those  melodies  in  G  that  contain  B[?  (G  minor).  G  in 
+the  melody  takes  Bf?  in  the  tenor,  and  D  in  the  alto  and 
+bass.  This  is  the  chord,  and  it  remains  the  same  through 
+the  whole  piece,  excepting  that  when  G  is  sustained  in 
+the  melody,  the  tenor  always  sings  B  instead  of  B[?.  This 
+is  also  the  case  with  melodies  in  A  (minor),  in  which  the 
+tenor  sings  CiJ^  to  a  sustained  A  in  the  melody.  The  four 
+remaining  letters  (notes)  F,  A,  C  and  D#  (Ef?),  serve  as 
+follows :  F  requires  B[?  in  the  tenor  and  bass,  and  D  in 
+the  alto;  A  demands  D  in  the  alto  and  bass,  and  F#  in 
+the  tenor ;  C  calls  for  A  in  the  tenor,  and  for  F  in  the  alto 
+and  bass ;  and  D^  (E^)  is  served  by  G  in  the  tenor,  and  by 
+E  (probably  meant  for  C — Tr.),  in  the  alto  and  bass.  To 
+raise  the  pitch  when  it  has  sunk,  proceed  as  under  melo- 
+dies in  B[?. 
+
+•*  We  now  come  to  the  melodies  in  G  that  have  B  and 
+F#  (G  major),  in  which  G,  B  and  D  form  the  triad  and 
+give  us  the  four  parts.  The  remaining  letters  (notes)  F^, 
+A,  C  and  E  are  treated  as  follows  :  F#  is  served  by  B  in 
+the  tenor  (sometimes  also  in  the  bass),  and  by  D  in  the  alto 
+and  bass ;  A  by  D  in  the  tenor  and  bass,  and  by  F#  in  the 
+alto ;  C  by  upper  E  in  the  tenor,  and  by  A  in  the  alto  and 
+bass ;  E  by  C  in  the  tenor  and  bass,  and  by  A  in  the  alto. 
+The  directions  given  under  melodies  in  B[?  will  show  how 
+the  pitch  may  be  raised. 
+
+"  There  yet  remain  the  melodies  in  F,  in  which  the  triad 
+
+
+The  Secret  of  Spiritual  Song . 
+
+
+79 
+
+
+F,  A,  C  gives  us  the  four  parts.  The  remaining  four 
+servants  G,  B[?,  D  and  E  are  disposed  as  follows  :  G  is 
+served  by  C  in  the  tenor  and  bass,  and  by  E  in  the  alto ; 
+B^  by  D  in  the  tenor,  and  by  G  in  the  alto  and  bass ;  D 
+by  B[?  in  the  tenor  and  bass,  and  by  G  in  the  alto ;  E  by 
+C  in  the  tenor  and  bass,  and  by  A,  sometimes  by  G,  in  the 
+alto.  If  the  pitch  has  fallen,  I  do  as  indicated  above, 
+i.  e.,  I  get  another  F  by  singing  F,  G,  A\^,  and  then  calling 
+K\}  F,  on  which  pitch  I  continue. 
+
+'*  We  have  now  imparted,  as  well  as  we  are  able,  the 
+secret  of  our  spiritual  song.  Although  in  this  work  (the 
+Turtel  Taube)  we  are  more  concerned  with  hymns  than 
+with  tunes,  and  a  well-informed  person  might  ask  why  so 
+much  has  been  said  about  music  when  none  appears  in  the 
+book,  we  have  yet  thought  it  proper  to  write  this  introduc- 
+tion, partly  because  from  music  the  hymns  in  this  volume 
+derive  their  attire  and  adornment,  and  partly  because  it 
+will  stimulate  lovers  of  this  noble  and  paradisiacal  art  to 
+inquire  further  into  its  secrets." 
+
+Thus  ends  Beissel's  extraordinary  Dissertation  on  Har- 
+mony, which  was  the  basis  of  the  Ephrata  music.  A  few 
+short  paragraphs  of  an  apologetic  character  conclude  his 
+**  Vorrede  iiber  die  Sing- Arbeit.'''' 
+
+
+FACSIMILE  OF  WATERMARK  IN  WRITER'S  LARGE  PAPER  COPY  OF  THE 
+
+TURTEL  TAUBE  ;    vide  pp.  65  supra. 
+
+
+CHAPTER  IX. 
+Original  and  Modern  Notation. 
+
+
+)N  conclusion  we  present  a  few  examples  of 
+Ephrata  music,  in  their  original  form  as  well 
+as  in  modern  notation.  One  of  the  most 
+characteristic  of  these  is  Die  Bratit  ist  Er- 
+■wachet,  set  in  four  parts.  How  the  original 
+score  of  this  tune  was  written  on  a  single  staff  is  shown 
+on  the  following  page. 
+
+It  will  be  noticed  that  all  this  music  is  very  strange  in 
+its  progressions,  and  violates  almost  every  rule  of  har- 
+mony, as  is  to  be  expected  from  one  who  was  not  an 
+educated  musician.  This  fact,  however,  does  not  lessen  the 
+historic  value  of  these  unique  compositions,  but  rather  tends 
+to  increase  our  admiration  for  the  enthusiastic  celibates  of 
+the  mystic  community  on  the  Cocalico,  who,  at  so  early  a 
+day,  in  the  midst  of  their  primitive  surroundings,  found 
+time  and  inspiration  to  work  out  their  own  system  of  har- 
+mony and  compose  so  many  original  hymns  and  tunes. 
+
+The  rendition  of  this  music  was  as  peculiar  as  the  music 
+itself,  and  was  sung  according  to  the  old  records  in  a  fal- 
+setto voice  without  opening  wide  the  lips.  The  result,  we 
+are  told,  was  a  "  soft  measured  cadence  of  sweet  harmony." 
+The  true  Ephrata  vocal  music  virtually  died  out  with  the 
+
+community. 
+
+(80) 
+
+
+A  Unique  Score. 
+
+
+8i 
+
+
+« 
+
+O 
+
+> 
+2! 
+
+O 
+
+c! 
+w 
+
+« 
+H 
+
+n 
+« 
+
+to 
+
+« 
+n 
+
+> 
+
+n 
+o 
+S! 
+o 
+
+> 
+o 
+
+12! 
+
+
+r 
+
+1 
+
+-» 
+
+1 
+
+.!. 
+
+0 
+
+■  =  1 
+
+-1 
+
+' 
+
+- 
+
+% 
+
+'  i  i 
+
+'^:!':; 
+
+•:- 
+
+> 
+
+"      ( 
+
+-^ 
+
+'4i 
+
+i   :> 
+
+-  -  1 
+
+-  1 
+
+c 
+
+!' 
+
+'. 
+
+!■' 
+
+;;;S> 
+
+Ii? 
+
+\ 
+
+f  ■; , 
+
+'>; 
+
+J    \ 
+
+l   =   " 
+
+:-' 
+
+1   - 
+
+% 
+
+'  , 
+
+1   - 
+
+J 
+
+!    r 
+
+^:;» 
+
+1    - 
+
+1- 
+
+«.!' 
+
+',.■> 
+
+i^*! 
+
+1 
+
+\ 
+
+h  j  ? ' 
+
+i  . 
+
+1 
+
+'» 
+
+< » 
+
+^ 
+
+1^ 
+
+!.  ■  -^ 
+
+'} 
+
+pj 
+
+!  !  J 
+
+J;,r~ 
+
+82 
+
+
+Music  of  the  Efhrata  Cloister. 
+
+
+Music  of  the  Ephrata  Kloster. 
+
+
+83 
+
+
+1 
+
+1       C-vl 
+
+g 
+
+1 
+
+1 
+
+1 
+
+<J0 
+
+-  1  1 
+
+%. 
+
+«L. 
+
+u  ^ 
+-.   5, 
+
+%1. 
+
+0 
+
+(•  r 
+
+4  -i 
+
+ffl 
+
+:  1 
+
+T" 
+
+»  -1 
+
+1 
+
+\  "^  ' 
+
+1 
+
+T         -  ■ 
+
+1. 
+
+■•     J 
+■»     1 
+
+0  <^\\ 
+
+c 
+
+J3 
+
+%t 
+
+1 
+
+CC      t-J 
+
+§         ■ 
+
+1 
+
+1 
+
+"  ft 
+
+(C 
+
+H     • 
+
+4^ 
+
+(0   \... 
+
+'53 
+
+H    r 
+
+(•   '"■"(( 
+
+D 
+
+:5     ■ 
+
+1 
+
+1 
+
+"^"4 
+
+e 
+
+\\ 
+
+DIE 
+
+1 
+
+, 
+
+1     -s   1 
+¥      1 
+
+_..  ^ 
+
+»      "S      1 
+
+r- 
+
+■«       i 
+
+1 
+
+Li  ■ 
+
+^ 
+
+(•  di 
+
+V 
+
+IL 
+
+<L 
+
+1^ 
+
+(  L 
+
+.2       ■ 
+
+1 
+
+1 
+
+l| 
+
+3 
+1         ea 
+
+_  J     aj 
+
+«t 
+
+P* 
+
+^y 
+
+:b  t« 
+
+^b   +' 
+
+:^;>     n) 
+
+84 
+
+
+Music  of  the  Efhrata  Cloister. 
+
+
+After  the  singing  schools  became  established,  the  celi- 
+bates, male  and  female,  were  divided  into  five  choirs,  with 
+five  persons  to  each  choir,  namely,  one  soprano,  one  tenor, 
+one  alto  and  two  bass  singers.  The  sisters  were  divided  into 
+three  choirs,  the  upper,  middle  and  lower;  and  in  the 
+choruses  a  sign  was  made  for  each  choir,  when  to  be  silent 
+and  when  to  join  in  the  singing.  These  three  choirs  had 
+their  separate  seats  at  the  table  of  the  sisters  during  love 
+feasts,  the  upper  choir  at  the  upper  end,  the  middle  at  the 
+middle,  and  the  lower  at  the  lower  end.  In  singing  anti- 
+phonally,  therefore,  the  singing  went  alternately  up  and 
+down  the  table.  Not  only  had  each  choir  to  observe  its 
+time  when  to  join  in,  but,  because  there  were  solos  in 
+
+»|r  fotrthtt  Mr  nit<|«9«,  jrtgm  uuftc  Jwc^t  t«  ©oat,  tk  njtr  unttt 
+
+
+MtactO'^gdt  antfgtidct  Mir^  Mnt  ^nup,  birr  (iiD  tMruoD  j^i^rn  on>  n»)<  rg 
+ail  uotf  i)uft  g«t()un. 
+
+
+JLlAJiAJU^ 
+
+
+-^^ 
+
+
+^^^^^^S 
+
+
+?^ 
+
+
+w^ 
+
+
+■^=*-^ 
+
+
+"m^m 
+
+
+^ 
+
+
+Tx;\ 
+
+
+ifi^ 
+
+
+i/» 
+
+
+^^ 
+
+
+^^i 
+
+
+^^^ 
+
+
+^ 
+
+
+s 
+
+
+^ 
+
+
+^fc-nw^?t 
+
+
+p^ 
+
+
+fc^ 
+
+
+^s 
+
+
+AN   ANTHEM   ARRANGED   TO   BE  SUNG    ANTIPHONALLY    FROM    WTTN- 
+DERSPIEL,  p.  9. 
+
+
+Music  of  the  Ephrata  Kloster. 
+
+
+85 
+
+
+ARRANGED   AS   A  HYMN   FOR    FrV'E-PART    CHOIR.       TURTEL    TAUBE,   HYMN   I3, 
+PART  ONE,   p.    66.      ZIONITISCHER   ROSENGARTEN,  p.  27. 
+
+
+NO.    98,    PART   FOUR,    pp.   402,   TURTEI,  TAUBE. 
+
+
+pr^  fife  *in  6eupr  ©oSJ.  Ofirnm  a;i2(  i(^  i^n  -o&a  ^pr(pn  fcbpn  in  ilcn  ^mim  ^rf m 
+
+
+_    ,i     J     g.    -f.. 
+
+-V-rv# 
+
+1..  ;<i  .Ml  !^i)'^ 
+
+'    ,-ll"'B.V 
+
+— ,  *  f 
+
+-♦^i 
+
+iS 
+
+: ^f— ^ 
+
+<V   '  '      '   :  '     '    '  // 
+
+4=^=^ 
+
+=^tr-^ 
+
+^W 
+
+P 
+
+TtTT 
+
+1 
+
+^^ 
+
+4l| 
+
+1 
+
+■^4^ 
+
+^ 
+
+1 — ,•  '  • — t-t-f — ■"— 1 
+
+^^!=^ 
+
+^^ 
+
+g:4'^^ 
+
+1 
+
+ZIONITISCHER  ROSENGARTEN,   p.    I02. 
+
+
+86  Music  of  the  Ephrata  Cloister. 
+
+each  chorale,  every  voice  knew  when  to  keep  silent,  all  of 
+which  was  most  attentively  observed. 
+
+The  next  illustration  presented  here  is  the  hymn  Wohl- 
+auf  wohl-auf  und  schmiick  dich.  This  is  also  given  in 
+both  the  original  and  the  modern  form.  Both  of  the  above 
+melodies,  with  that  of  the  seven-part  choral  Goit  ein 
+Herrscher  aller  Heiden  were  artistically  rendered  by  Mrs. 
+Frank  Binnix  at  our  annual  gathering  at  Harrisburg,  Oc- 
+tober, 1901. 
+
+An  illustration  of  the  five-part  setting  "  Wie  ist  dock  der 
+Herr  so  giitig,'''  is  given  upon  the  previous  page. 
+
+The  words  and  music  of  this  hymn  are  by  Sister  Ana- 
+stasia  (Anna  Thomen),  who  afterwards  eloped  with  and 
+married  Johannes  Wiister,  the  Philadelphia  merchant. 
+
+How  the  same  words  and  tune  were  frequently  set  as  an 
+anthem  as  well  as  a  hymn  is  shown  by  the  two  versions  of 
+the  hymn  Gott  ivir  koinmen  Dir  entgegen,  on  pages  84 
+and  85. 
+
+An  illustration  of  music  set  in  six  parts  is  also  presented 
+in  the  original  form.  This  is  taken  from  the  Paradisches 
+Wunder spiel,  or  the  great  choral  book  of  1754. 
+
+In  closing  our  paper  upon  the  music  of  the  cloister  we 
+present  a  version  of  the  celebrated  seven-part  motet  Gott 
+ein  Hersher  aller  Heiden  transposed  into  modern  notation. 
+The  same  criticisms  as  to  progressions  that  apply  to  the 
+other  pieces  apply  also  to  this  composition. 
+
+
+Motet  m  Six  Farts, 
+
+
+87 
+
+
+88 
+
+
+Music  of  the  Efhrata   Cloister. 
+
+
+Modern  Notation. 
+
+
+89 
+
+
+tzix 
+
+
+-4 
+
+
+o 
+Ij 
+
+QC 
+QC 
+UJ 
+
+I 
+
+I 
+O 
+
+5 
+
+O 
+
+o 
+
+X 
+
+o 
+
+CO 
+
+Q 
+
+z 
+
+D 
+
+uT 
+
+D 
+< 
+
+X 
+
+o 
+uT 
+
+D 
+< 
+
+I 
+O 
+
+
+«.--. 
+
+
+(T-fi 
+
+
+i 
+
+
+-I 
+
+
+1 
+
+
+tl 
+
+
+«^ 
+
+
+-fTi  i(-'M« 
+
+
+.r.. 
+
+
+13  • 
+
+
+41 
+
+
+T» 
+
+
+s 
+
+J3 
+
+
+TTTJ 
+
+
+rT« 
+
+
+*iiJ  -5 
+
+
+^  *W 
+
+
+im  m^  m) 
+
+
+^FF 
+
+
+<M- 
+
+
+o 
+
+
+rfra 
+
+
+<^--- 
+
+
+i3ii 
+
+
+<&..j_ 
+
+
+cT 
+
+
+Ml 
+
+'5-4-. 
+
+
+•-L-U 
+
+
+m 
+
+
+fr* 
+
+
+T5 
+
+
+•Ljj. 
+
+
+I 
+
+1* 
+
+
+ffi; 
+
+
+<Mj. 
+
+
+^+-  <• 
+
+
+'\  i 
+
+
+rT« 
+
+
+"t"B  J(-T"re 
+
+
+TT% 
+
+
+r't» 
+
+
+rtT* 
+
+
+05 
+
+
+1»  S> 
+
+
+J, 
+
+
+3 
+
+
+(MiJ 
+
+
+JJI 
+
+
+r^i>    2 
+
+
+«LJ_. 
+
+
+Ill 
+
+
+•l-L.       ITT* 
+
+
+«L._. 
+
+
+%.Jf         w 
+
+
+f 
+
+
+90 
+
+
+Music  of  the  Efhrata  Cloister. 
+
+
+Modern  Notation. 
+
+
+91 
+
+
+I 
+
+
+■-■i» 
+
+
+ffi 
+
+
+(i.. 
+
+
+WJU       (• 
+
+
+'  '  '  ' 
+
+
+.Hi 
+
+
+51  J- . 
+
+
+1 1 ; 
+
+
+rT"n& 
+4 
+
+
+'J^ 
+
+
+«. 
+
+
+(•17"  J 
+
+
+-5  (-nu 
+
+
+pq 
+
+
+o 
+
+
+c: 
+
+
+:a   (• 
+
+
+fflj 
+
+
+t 
+
+
+J 
+
+
+S::^ 
+
+
+t 
+
+
+•i-LI 
+
+
+£ 
+
+
+(•""15 
+
+
+TT1» 
+
+
+Ti^ 
+
+
+ri- 
+
+
+(•Hi 
+
+
+n-R 
+
+
+a 
+
+
+TT 
+
+
+I' 
+
+
+15 
+
+
+15 
+
+"FR 
+
+
+IS 
+
+
+""R 
+
+
+frT?       TO 
+
+
+[•ri-R 
+
+
+TT"» 
+
+
+=  "2 
+<u  c 
+60  a 
+
+"  fl 
+
+3 
+
+13 
+
+
+™ 
+
+
+{) 
+
+
+.^ 
+
+
+rrt*  ItT 
+
+
+s 
+
+
+.^ 
+
+
+FTT* 
+
+
+TS    (-ns 
+
+
+'m 
+
+
+I 
+
+1% 
+
+
+;« 
+
+
+t^ 
+
+
+"n 
+
+
+m> 
+
+
+pq 
+
+
+o 
+
+O 
+
+
+(•-i-. 
+
+
+tt^ 
+
+
+:0 
+
+
+:=  mh 
+
+
+TT* 
+
+
+•-.ilT 
+
+
+3    (• 
+
+
+'3 
+
+
+O 
+
+
+a"  a 
+
+■wpn 
+
+<i>  n 
+60  a 
+
+"  2 
+
+s  c 
+
+C3    m 
+
+
+« 
+
+
+•1-++ 
+
+
+^Hs^     m 
+
+
+Mi  (-1 
+
+<1lLJ 
+
+•14-     4J 
+
+I  I" 
+
+
+Wi 
+
+
+•J-- -I 
+
+
+'^J_L 
+
+
+ttii 
+
+
+t> 
+
+
+41JU 
+
+
+«iL_    (• 
+
+
+*.., 
+
+
+iu^ 
+
+
+ipl^2 
+
+
+""!> 
+
+
+n'R 
+
+
+41  _ 
+
+
+nia 
+
+
+D 
+
+
+b 
+
+
+"1 
+
+
+S5 
+
+S 
+>< 
+a 
+-  d< 
+
+w 
+
+J  < 
+
+s   en 
+f-i   O 
+
+
+(it  n 
+
+S5 
+
+
+92 
+
+
+Music  of  the  E-phrata  Cloister. 
+
+
+SVMBOI.  AND  MOTTO  OF  THE  EPHRATA  COMMUNITY. 
+
+
+^pptn&ix. 
+
+
+H  Ipage  of  Epbrata  XCbeosopbi?. 
+
+
+Read  at  the  annual  Meeting  of  the  Pennsylvania 
+
+German  Society,  ephrata,  penna., 
+
+October  20,  1899. 
+
+
+By 
+JULIUS   FRIEDRICH   SACHSE,    LlTT.D. 
+
+
+LANCASTER,  PA 
+1903. 
+
+
+94  Efhrata    Theosophy. 
+
+5)it  tix^ti  an  mtixxmrn.  fn  Su^ffatifwn, 
+
+
+Untrrtic^ 
+
+9ii(9cf()l  1^  92u^  oni)  ©cbiduc^  0ot  Stmbcc 
+
+
+gtPt^K  Stuftcge^ 
+
+
+EPHR  AT  A- 
+
+^nidxr  tub  SMbinbd  17;^ 
+
+TITI.B  PAGB  OF  HOECKER'S  BPHRATA  PRIMSR. 
+
+
+EPHRATA  THEOSOPHY. 
+
+
+H 
+
+
+MONG  a  mass  of 
+papers  and  manu- 
+scripts which  it  was  the 
+good  fortune  of  the  writer 
+to  examine  some  months 
+ago,  dating  from  the  pro- 
+vincial period,  and  re- 
+lating more  or  less  to  the 
+upper  end  of  Lancaster 
+County,  there  was  one 
+that  particularly  attracted 
+his  attention. 
+
+This  was  an  old  manu- 
+script, yellow  and  dis- 
+colored by  age.  It  was 
+written  on  the  ordinary  coarse  writing-paper,  such  as  was 
+the  product  of  the  paper-mills  on  the  Wissahickon  and 
+Cocalico.  The  writing  was  still  distinct  and  clear,  done 
+in  a  firm  hand,  with  a  well-pointed  quill,  showing  that  the 
+writer  must  have  been  one  of  education  and  experience. 
+
+Upon  the  outside,  as  a  legend,  it  bore  the  old  German 
+proverb  or  Sj>ruckwort : 
+
+(95) 
+
+
+96  Ephrata    Thcosophy. 
+
+"  Quale  nie  ein  Thier  aus  scherz, 
+Dann  es  fiihlt  wic  du  den  schmerz." 
+
+("  Ne'er  torment  a  beast  in  sport, 
+For  it  feels  like  you  when  hurt.") 
+
+Upon  examining  the  paper  it  proved  to  be  a  plea  for 
+mercy  toward  the  brute  creation.  This  ended  with  an 
+earnest  entreaty  for  social  purity,  and  incidentally  illus- 
+trated the  theory  of  the  migration  of  the  soul. 
+
+The  more  it  was  examined,  the  greater  became  the  in- 
+terest in  the  subject  and  the  manner  wherein  it  was  pre- 
+sented. The  only  possible  clue  to  authorship  was  the  en- 
+dorsement upon  the  first  page:  "  Obed,  ein  wallender 
+nach  der  seligen  e-wigkeit."  This  was  the  signature  and 
+Kloster  name  of  Ludwig  Hocker,  one  of  the  most  devout 
+members  of  the  Ephrata  Community,  who  was  the  school- 
+master of  the  settlement,  and  has  the  honor  of  having  es- 
+tablished, in  1739,  the  first  Sunday-school  of  which  we 
+have  any  record.  Brother  Obed  was  also  one  of  the  in- 
+structors in  the  classical  school  or  academy  maintained  by 
+the  Brotherhood,  and  the  present  paper  is  evidently  one  of 
+his  lectures  or  discourses  delivered  before  the  higher  class. 
+He  was  a  prominent  character  in  the  Ephrata  Community, 
+and  a  firm  supporter  of  Prior  Jaebez. 
+
+When  he  was  in  his  seventieth  year,  and  the  institution 
+was  already  verging  into  a  state  of  decline,  the  old  philoso- 
+pher published  a  second  edition  of  his  primer  and  school- 
+book. 
+
+Upon  the  reverse  of  the  title  he  gives  as  a  reason  for  its 
+publication  that  "  if  it  be  used  by  the  children,  it  will  pre- 
+vent, in  every  case,  the  destruction  of  a  Psalter  or  a  Testa- 
+ment " ;  thus  showing  that  the  chief  text-book  of  the 
+Ephrata  system  of  education  was  based  upon  the  daily 
+use  of  these  two  fundamental  parts  of  Holy  Writ.     At  the 
+
+
+MUSIC    OF    THE    EPHRATA    CLOISTER. 
+
+
+.    F.    SACHSE,    PHOTO. 
+
+
+ONE    OF    THE    EPHRATA    PRINTING    PRESSES. 
+
+IN    COLLECTION    OP    MISTORICHL    SOCIETY    OP    PEN  NSYLU  A  N  I  fl  , 
+
+
+Efhrata  Theosofhy.  97 
+
+time  of  its  issue,  as  will  be  seen  from  the  title,  the  pious 
+recluse  then  filled  the  position  of  schoolmaster,  printer  and 
+bookbinder  to  the  Brotherhood.  Brother  Obed  died  dur- 
+ing the  summer  of  1792,  after  passing  the  allotted  three- 
+score years  and  ten. 
+
+The  paper  under  consideration  has  the  distinction  of 
+being  the  earliest  effort  made  in  this  country  to  prevent 
+cruelty  to  animals,  and  to  inculcate  in  the  minds  of  the 
+growing  generation  the  duty  of  protecting  and  respecting 
+the  virtue  of  the  gentler  sex.  The  illustrations  in  the 
+course  of  the  lecture  are  occasionally  of  a  somewhat  har- 
+rowing nature;  at  the  same  time,  we  must  bear  in  mind 
+the  state  of  the  country  and  its  people  at  that  period,  when 
+it  will  be  found  that  the  similes  are  well  suited  to  the  times 
+in  which  they  are  used. 
+
+It  matters  but  little  whether  or  not  good  Brother  Obed 
+was  the  author  of  the  paper.  There  were  others  among 
+the  solitary  recluses  equally  devout.  At  the  same  time  it 
+is  an  excellent  illustration  of  the  code  of  morals  taught  in 
+this  community.  Then,  again,  we  have  here  the  earliest 
+known  plea  for  the  two  movements  which  now,  in  the  clos- 
+ing years  of  the  nineteenth  century,  have  become  a  fashion- 
+able fad.  It  is  but  another  illustration  of  how  the  Penn- 
+sylvania German  has  lost  the  honor  and  credit  due  to  him 
+through  his  innate  modesty. 
+
+Here  the  lecturer  was  far  ahead  of  his  time.  What 
+fruits  his  labors  bore,  both  history  and  tradition  have  failed 
+to  record.  What  great  good  was  accomplished  by  this 
+plea,  so  quaintly  and  forcibly  presented  to  the  youth  of  the 
+middle  of  the  eighteenth  century,  will  never  be  known. 
+Even  the  existence  of  this  essay  was  unknown  and  forgot- 
+ten until  it  fortunately  fell  into  the  hands  of  the  writer,  and 
+is  now  translated  into  the  language  of  the  country : 
+
+
+98  Ephrata   Thcosofhy. 
+
+
+©  c  i  fin  i  c()  e 
+
+^ 
+
+r  f  e  f  ( 
+
+<inc^ 
+
+s 
+
+tieH«mcu 
+
+93i  I9  c  r^, 
+
+^«fcf;e  «uon  1721.  bU  anfcine  i768» 
+t'flvauf  crfofgtc  gntbinOuna 
+fltrc^ricocB. 
+
+£pl)rafa,  fiClJrucfi  im  3<^^    ^794» 
+
+Title  page  of  a  unique  Epbrata  Imprint  in  the  collection  of  the  writer. 
+
+
+Efhrata  Theosofhy .  99 
+
+/       /''^^  f^yS    ^"i^^V  H^-l^^    sitting  in   my   chair 
+
+I  f%  C^S^   J  NRr  'W^v         ^"'^   dozing  one  evening,  it 
+^'^  ^Cw/  /vj  O*^^^     seemed  to  me  that  I  heard  a 
+
+voice  saying:  "Take  up 
+your  pen  and  write  what  I 
+dictate."  I  looked  around 
+whence  the  voice  came,  but 
+could  see  nothing.  My  lamp 
+was  still  burning,  but  the 
+room  was  empty.  I  was 
+alone.  Then  I  felt  that  it  was  my  guardian  spirit  {Schutz- 
+getst)  who  had  made  his  presence  known,  so  I  at  once  pre- 
+pared myself  to  write,  when  the  voice  dictated  the  following 
+story : 
+
+"  I  was  the  oldest  son  of  a  country  gentleman,  who  was 
+possessed  of  large  wealth,  and  when  I  was  about  nineteen 
+years  of  age,  I  was  thrown  by  my  horse  while  hunting, 
+and  by  the  fall  dislocated  my  neck,  and  from  a  lack  of 
+immediate  attention,  died  before  I  could  be  taken  home. 
+"In  the  next  moment,  to  my  inexpressible  sorrow  and  sur- 
+prise, I  found  myself  in  the  shape  of  a  pug-dog,  in  the 
+stable  of  a  country  tavern  kept  by  a  man  who  formerly 
+had  been  my  father's  butler,  and  married  the  cook.  As  a 
+pug,  I  really  received  many  caresses.  Alas  !  my  master, 
+to  increase,  as  he  said,  my  beauty  and  strength,  soon  after- 
+wards cropped  my  ears  and  cut  off  a  piece  of  my  tail.  In 
+addition  to  the  pain  this  operation  caused  me,  I  quickly  ex- 
+perienced in  a  thousand  ways  what  great  inconvenience 
+this  mutilation  subjected  me  to,  and  how  it  placed  me  at 
+disadvantage.  At  the  same  time,  this  was  but  the  least 
+part  of  my  misfortunes,  which  I  was  destined  to  suffer  in 
+this  condition. 
+
+"My  master  had  a  son  who  was  about  five  years  old,  and 
+
+
+lOO  E-phrata    Theosophy. 
+
+even  more  of  a  favorite  than  I  was ;  and  as  his  whims  and 
+passions  were  condoned  as  soon  as  they  manifested  them- 
+selves, he  was  encouraged  to  vent  his  spite  against  any 
+living  or  inanimate  thing  which  offended  him,  by  beating 
+me.  When  he  did  any  damage  (of  other  transgression  no 
+notice  was  taken)  the  father,  the  mother,  or  servants  were 
+ever  ready  to  flog  me  in  his  place. 
+
+"This  intercourse  with  persons  whom  formerly  I  had  but 
+looked  at  with  disdain,  and  was  wont  haughtily  to  com- 
+mand, was  not  to  be  endured  ;  so,  earl}'  one  morning,  I 
+ran  away.  Although  it  was  raining  hard  I  kept  on  my 
+journey  until  the  afternoon  without  intermission.  It  was 
+about  four  o'clock  when  I  came  to  a  village,  and  at  a  house 
+where  some  carpenters  were  at  work  I  noticed  a  heap  of 
+shavings  under  a  temporary  cover  to  keep  them  dry.  So 
+I  crawled,  as  I  believed,  unnoticed  into  a  corner  and  lay 
+down.  Alas !  a  man,  who  was  just  working  on  some 
+lumber,  seeing  that  I  was  a  strange  dog  and  of  the  pug 
+variety,  conceived  the  idea  of  amusing  himself  and  his 
+fellow-workmen  at  my  expense.  For  this  purpose  he  bored 
+a  hole  about  two  inches  in  diameter  in  a  piece  of  deal. 
+He  then  caught  me  suddenly  and  poked  the  stump  of  my 
+tail  through  this  hellish  machine,  and  with  a  hammer  drove 
+a  heavy  wedge  beside  it,  so  as  to  firmly  fasten  all  together. 
+The  act  crushed  the  bones  and  cause  me  indescribable 
+torture.  As  he  set  me  down,  the  wretches  who  witnessed 
+this  barbaric  play,  broke  out  into  boisterous  laughter  over 
+the  painful  efforts  to  which  I  gave  expression,  in  my 
+miserable  attempts  to  escape  and  release  m3'self  from  the 
+board  which  I  was  forced  to  drag  after  me.  They  hissed 
+me  until  I  was  out  of  their  sight.  In  the  meantime,  as 
+fright,  pain  and  embarrassment  urged  me  on  with  an  un- 
+willing speed,  I  ran  with  such  force  between  two  posts, 
+
+
+Ej>hrata  Theoso-phy.  loi 
+
+which  were  not  far  enough  apart  to  let  my  block  pass 
+through,  that  the  board  with  the  remains  of  my  tail  stayed 
+behind.  Soon  after,  I  found  myself  on  the  grounds  of  a 
+gentleman  farmer,  where  I  saw  in  the  distance  the  large 
+watch-dog ;  so,  fearing  to  be  torn  to  pieces,  I  continued  in 
+my  flight.  Alas  !  several  farmers  at  work  in  a  barn  some 
+distance  off,  seeing  that  I  ran  without  being  pursued,  that 
+my  eyes  gleamed,  and  that  I  was  frothing  at  the  mouth, 
+imagined  I  was  mad  and  struck  me  dead  with  a  threshing 
+flail. 
+
+"  Thereby  I  was  released  from  this  mutilated  and  perse- 
+cuted body,  and  found  myself  under  the  wings  of  a  flicker, 
+together  with  three  others  just  hatched.  I  now  rejoiced  in 
+the  thought  that  I,  like  my  mother,  would  be  a  denizen  of 
+the  air,  and  could  swing  myself  aloft  to  such  a  height  that 
+no  human  cruelty  could  reach  me.  Alas  !  even  before  I 
+could  rightly  fly,  my  mother  was  surprised  in  her  nest  by 
+a  school-boy,  and  in  her  attempt  to  escape  was  squeezed 
+so  hard  that  soon  after  she  died.  The  boy  thereupon  took 
+the  nest,  and  all  there  was  in  it,  and  placed  it  in  a  basket 
+where  I  soon  lost  my  three  companions  in  misery  by  the 
+unsuitable  food  and  improper  attention.  I  remained  alive, 
+and  after  I  was  able  to  feed  myself,  my  tyrant's  mother 
+took  me  as  a  present  for  the  daughter  of  her  landlord. 
+This  young  girl  was  a  beautiful  creature,  in  her  eighteenth 
+year. 
+
+"  My  imprisonment  now  seemed  to  lose  its  terrors.  I  did 
+not  have  to  fear  the  rough  fist  of  an  ignorant  lout  whose 
+caresses  were  even  more  to  be  dreaded  than  his  anger, 
+who,  even  in  his  passion  and  inclination  fora  new  toy,  was 
+apt  to  neglect  me  and  let  me  starve  to  death,  or  would 
+twist  my  neck  for  the  penny  given  him  to  buy  my  food. 
+I  now  became  accustomed  to  confinement  in  a  cage ;  I  was 
+
+
+102  Ephrata    Theosofhy. 
+
+hung  out  of  a  cheerful  window,  and  regularly  fed  by  one 
+of  the  most  beautiful  hands  in  the  world.  Thus  I  fondly 
+imagined  that  henceforth,  being  under  the  shelter  of  the 
+tender  caresses  of  this  fair  being,  with  ever}'  evidence  of 
+love  and  affection,  no  sorrow  would  come  to  me. 
+
+*'  My  fate,  however,  was  destined  otherwise.  As  a 
+young  lady  from  the  city  made  an  afternoon  call  at  my 
+mistress'  house,  the  latter  embraced  the  opportunity  to  ex- 
+hibit me  with  others  of  her  pets,  among  which  were  a 
+parrot,  a  monkey,  and  a  small  dog.  She  whistled  and 
+held  out  her  finger ;  I  hopped  upon  it ;  she  stroked  my 
+feathers,  and  I  laid  my  head  against  her  cheek,  and, 
+further  to  show  my  appreciation  and  how  I  valued  her  at- 
+tentions, I  began  to  sing.  As  soon  as  m}-  lay  was  ended, 
+the  visitor  turned  to  my  mistress  and  said  that  the  dear 
+creature  would  necessarily  become  the  most  beautiful  sing- 
+ing bird  in  the  world  if  its  eyes  were  burned  out,  and  it 
+were  confined  in  a  narrow  cage. 
+
+•'This  dreadful  suggestion  was  sanctioned  by  my  beau- 
+tiful mistress,  upon  the  repeated  assurance  that  my  song 
+would  be  greatly  increased  thereby.  Accordingly,  upon 
+the  next  day,  she  undertook  the  inhuman  operation,  ac- 
+cording to  the  given  directions,  using  the  point  of  a  heated 
+knitting-needle. 
+
+••  My  condition  may  now  be  easier  imagined  than  de- 
+scribed. Fortunately  I  was  not  permitted  to  endure  the 
+sad  loneliness  of  constant  darkness  for  any  extended  time, 
+as  on  one  occasion,  in  the  dusk  of  the  evening,  a  cat  came 
+unnoticed  into  the  room,  pulled  me  through  the  bars  of  my 
+cage  and  ate  me  up. 
+
+*'I  was  far  from  dissatisfied  to  be  again  released  from 
+both  blindness  and  imprisonment,  and  in  the  shape  of  a 
+May-bug  to  fly  about  in  the  air.     However,  I  had  scarcely 
+
+
+Efhrata  Theoso^hy.  103 
+
+entered  into  this  sphere  of  my  existence  when  a  gentleman, 
+in  whose  garden  I  was  seeking  food  on  a  cherry  leaf,  caught 
+me  and  gave  me  to  his  son,  a  little  fellow  who  was  just 
+luxuriating  in  his  first  pair  of  trousers,  saying  :  '  Here, 
+Charlie,  is  a  bird  for  you.'  The  boy  received  me  with 
+pleasure,  expressing  Satanic  joy,  and  forthwith  impaled 
+me  alive,  as  he  had  been  taught,  upon  a  needle  fastened  to 
+a  linen  thread.  Thus  I  was  condemned  to  afford  pleasure 
+to  my  young  master  by  sailing  around  in  the  anguish  and 
+torment  of  death.  When  I  was  completely  exhausted  and 
+unable  to  use  my  wings  any  longer,  he  was  told  to  crush 
+me  under  foot,  as  I  was  of  no  further  use,  a  command 
+which  he  executed  in  a  merciful  manner  by  scrunching  me 
+in  an  instant  in  the  dust. 
+
+' '  From  a  May-bug  I  migrated  into  a  rain-worm,  and  found 
+myself  esconced  in  the  dung-heap  of  a  farm-yard.  By 
+this  change  of  my  condition  I  consoled  myself  with  the 
+reflection  that,  while  I  could  not  now  rise  in  the  air  and  with 
+the  rapidity  of  thought  take  myself  from  one  place  to 
+another,  I  was  at  least  in  a  position  where  I  could  neither  be 
+a  pleasure  to  mankind  nor  evoke  their  enmity,  both  of  which 
+had  proven  equally  disastrous  to  me.  Thus  I  hoped  now 
+to  end  my  life  in  peace,  as  in  my  humble  condition  I  would 
+escape  the  notice  of  the  most  cruel  of  all  created  creatures. 
+
+**  Alas  !  I  was  not  suffered  to  rest  long  in  my  fancied 
+security.  One  morning  I  was  disturbed  by  an  unusual 
+noise,  and  remarked  that  the  whole  earth  around  me 
+trembled.  Quickly  crawling  up  to  the  surface  to  learn 
+the  cause,  I  no  sooner  got  to  the  top  than  I  was  eagerly 
+seized  by  the  person  who  had  loosened  the  earth  with  a 
+digging-fork  for  just  the  purpose  of  what  had  brought  me 
+to  the  light.  Thus,  together  with  many  others  of  my  kind, 
+all  companions  in  misfortune,  I  was  thrown  promiscuously 
+
+
+104  Ephrata    Thcosophy. 
+
+into  a  broken  pot,  and  soon  after  became  the  property  of  a 
+tender-hearted  shepherd  who  found  his  pleasure  in  angling. 
+
+'♦  The  next  morning  this  man  took  us  to  the  banks  of  a 
+stream,  and  forthwith  took  out  one  of  my  companions  ;  and, 
+while  whistling  a  lively  tune,  forced  a  barbed  fish-hook 
+through  the  entire  length  of  the  worm,  as  the  point  entered 
+at  the  head  and  emerged  at  the  tail.  The  unfortunate  ani- 
+mal squirmed  on  the  bloody  hook  in  pain  and  suffered 
+torture  greater  than  any  human  being  ever  experienced, 
+and  which  no  animal  can  feel  whose  muscular  vitality  does 
+not  extend  to  all  parts  of  its  being. 
+
+•'  In  this  condition  it  was  thrown  into  the  water  as  bait 
+for  a  fish,  until  it,  together  with  the  concealed  hook,  w-as 
+swallowed  by  an  eel.  As  I  witnessed  this  tragedy  I  made 
+my  own  reflections  upon  the  great  disproportion  between 
+the  pleasure  of  catching  the  game  and  the  torment  inflicted 
+upon  the  bait.  However,  these  reflections  were  suddenly 
+dispelled  by  the  identical  anguish  of  death  of  which  I  had 
+just  been  a  witness. 
+
+"  You  would  not  have  space  enough  upon  your  paper  if 
+I  were  to  relate  to  you  all  that  I  suffered  from  the  thought- 
+less brutality  of  the  human  race :  what  I  experienced  as 
+a  cock,  a  lobster,  and  a  pig.  It  will  suffice  to  say  that  I 
+have  suffered  equal  to  the  malefactor  who  is  broken  on  the 
+wheel,  for  I  was  boiled  alive  upon  a  slow  fire,  and  beaten 
+to  death  with  five  thongs,  to  tickle  the  sensual  palate  of  the 
+epicure  or  furnish  enjoyment  for  the  rabble." 
+
+Thus  far  I  had  been  the  amanuensis  of  an  unseen  men- 
+tor. During  the  continuation  of  my  musing  I  felt  some- 
+thing tickle  my  hand.  As  I  lifted  my  eyes  from  the  paper 
+to  see  what  it  was,  I  found  it  to  be  a  common  house-fly, 
+which  I  immediately  caught  and  killed  by  holding  it  in  the 
+flame  of  my  lamp.     In  an  instant  the  fly  disappeared  and 
+
+
+E^hrata  Theosofhy.  105 
+
+a  young  maiden  of  exquisite  form  and  beauty,  in  all  the 
+glory  of  budding  womanhood,  stood  before  me.  ' '  Thought- 
+less wretch,"  said  she,  "you  have  once  again  changed  the 
+condition  of  my  existence,  and  have  now  exposed  me  to 
+far  greater  fatalities  than  any  to  which  I  have  thus  far 
+been  subjected.  As  a  house-fly,  I  was  your  mentor  and  I 
+might  have  escaped  from  your  cruelty,  were  it  not  my  in- 
+tention to  instruct  you.  Alas  !  now  it  is  impossible  for  me 
+to  remain  concealed,  and  therefore  equally  impossible  to 
+be  safe.  The  eyes  of  sensuality  and  unbridled  desire  are 
+centered  upon  me.  Man  will  henceforth  use  all  his  wit, 
+and  employ  an  indefatigable  resolution  to  lead  me  into  dis- 
+honor and  vice.  But,  although  man  still  remains  my 
+enemy,  and  henceforth  attacks  me  with  greater  ardor  and 
+persists  in  his  desires  with  greater  stubbornness,  I  have 
+now  less  strength  to  withstand  him  than  formerly.  There 
+is  an  element  within  my  own  bosom  which  will  exert  itself 
+to  annihilate  me ;  its  influence  is  constant,  and  a  constant 
+influence  is  not  easily  overcome.  In  the  meantime  pub- 
+lish unto  the  world  what  I  have  disclosed  unto  you  ;  and  if 
+perchance  thereby  a  single  human  being  is  turned  from  the 
+exercise  of  a  guilty  inadvertence  to  do  aught  for  the  pro- 
+tection of  the  inferior  creatures,  and  also  by  these  consid- 
+erations to  prevent  the  unfortunate  results  of  one's  inhuman 
+actions,  which  cause  pain  and  suffering,  then  I  have  not 
+suffered  in  vain. 
+
+"  But  as  I  am  now  exposed  to  accidental  as  well  as  to 
+incidental  evil,  and  as  I  not  only  stand  in  danger  of  wanton 
+caprice  and  indiscretion,  but  also  of  the  wicked  designs  of 
+cunning  and  knavery,  therefore,  in  order  to  expiate  for 
+some  of  the  great  wrong  you  have  done  me,  let  it  hence- 
+forth be  your  bounden  duty  to  warn,  in  public  print  and 
+upon  all  proper  occasions,  the  female  sex  against  the  snares 
+
+
+io6 
+
+
+E-phrata   Theosophy . 
+
+
+that  are  laid  for  their  destruction,  and  discourage  the  male 
+sex  from  all  attempts  to  decoy  and  debauch  innocence. 
+Show  unto  the  latter  the  enormity  of  their  crime,  which 
+they  heap  upon  themselves,  and  picture  to  them  the  shame- 
+less, dissimulating  treachery  that  they  commit  under  the 
+guise  of  ardent  and  tender  affection  for  that  beauty  and 
+innocence  alone  which  makes  love  credulous,  and  in  its 
+guilelessness  is  free  from  suspicion,  and  is  thus  cast  into 
+unfathomable  misery." 
+
+As  I  listened  to  this  charge,  my  heart  beat  so  strongly 
+that  the  anxious  efforts  I  made  to  answer  awakened  me. 
+
+
+INDEX. 
+
+
+Alphabet,  script,  29. 
+Anastasia  sister,  86. 
+Apology  for  sacred  song,  23,  24. 
+Arndt's  prayers,  17,  21. 
+Ausbund  geistlicher  Lieder,  43. 
+
+Barrir  and  Toener,  Beissel's  ex- 
+planation of,  72-73  ;   note  on,  73. 
+
+Beans,  Effect  on  voice,  67. 
+
+Beissel,  Conrad,  theories,  13  ;  Wuu- 
+derschrift,  18  ;  English  version, 
+19,  21  ;  dissertation  on  harmony, 
+22,  50,  71-79 ;  apology  for  sacred 
+song,  23-24  ;  as  composer,  23,  28  ; 
+hymns  by,  49  ;  instructions  on 
+the  voice,  66-69. 
+
+Billings,  William,  11. 
+
+Binnix,  Mrs.  Frank,  renders  music, 
+86. 
+
+Blum,  Ludwig,  29. 
+
+Braut  des  Lamms,  45. 
+
+Braut  Schmuck,  Geistlicher,  45. 
+
+Buckwheat,  efifect  on  voice,  67. 
+
+Butter,  effect  on  voice,  67. 
+
+Cheese,  effect  on  voice,  67. 
+Chronicon  Ephratense,  13  ;  title,  20. 
+Cloister,  music  of,  27. 
+Dissertation  on  harmony,  70-79. 
+Dissertation  on  man's  fall,  19,  21. 
+Drink,  effect  on  voice,  68. 
+
+Early  Christians,  song  of,  25. 
+
+Eggs,  effect  on  voice,  67. 
+
+Ephrata,  pen  work,  12  ;  sampler, 
+14 ;  brother  house,  14 ;  sister 
+house,  15;  cloister  history,  15,  17; 
+unique    imprints,    17,    21 ;    score 
+
+(I 
+
+
+book,  23  ;  sister,  32  ;  watermark, 
+65  ;  script  alphabet,  69  ;  symbol, 
+92 ;  theosophy,  95-106 ;  primer, 
+1786,  94;  a  new  imprint,  98. 
+
+Fahnestock,  Dr.  Wm.,  portrait,  i6  ; 
+mention  of,  17. 
+
+Geistlich  briefe,  title,  98. 
+Geistlich  Denckmahl,  48. 
+Geistliche  Lieder,  ausbund,  43. 
+German  sectarians,  mention  of,  17  ; 
+
+error  in,  corrected,  22,  23,  52. 
+Gott  ein  Herscher  aller  Heiden,  29  ; 
+
+original  score,  30. 
+
+Harmony,  Beissel's,  14. 
+
+Hertzen's  Bewegung,  1749,  44. 
+
+Historians,  soi-disant,  16. 
+
+Hocker,  Ludwig  (Bro.  Obed), 
+primer,  94  ;  mention  of,  96,  97. 
+
+Honey,  effect  on  voice,  67. 
+
+Hymnals  of  Ephrata  Community, 
+33  ;  title  pages  of,  1730,  34;  1732, 
+35;  1734,  36;  1736,  37;  1739.  38; 
+
+1747,  39;  1754,  40;  1755,  41 ;  1756, 
+
+ib.  ;  1762,  ib. ;   1766,  42  ;  1785,  43. 
+
+Jaebez,  Prior,  22  ;  portrait  of,  51  ; 
+mention  of,  52,  96. 
+
+Key  diagram  from  score  book,  76, 
+
+77- 
+Leben  eines  Herzogs,  21. 
+
+Marshall,  Christopher,  22. 
+Melodies,  in  C,  four  part,  74. 
+Miller,    Rev.    Peter  —  vide    Jaebez 
+Prior. 
+07) 
+
+
+io8 
+
+
+Index. 
+
+
+Milk,  effect  on  voice,  67. 
+
+Morgen-Rutbe,  Abend-landiscbe, 
+46. 
+
+Movable  C  clef,  29. 
+
+Music,  earliest  Ephrata,  10;  at  Snow- 
+hill,  II,  12;  MSS.,  13;  unlike 
+reformation  tunes,  14  ;  how  sung, 
+15  ;  score  book,  22,  23 ;  four-part 
+music  on  single  staff,  23 ;  new 
+material,  27  ;  alleged  portrait,  28  ; 
+movable  C  clef,  29  ;  arrangement 
+of  voices,  29 ;  seven-part  ib.  on 
+single  staff,  81  ;  four-part  key, 
+74 ;  key  diagram,  77  ;  on  single 
+staff,  81  ;  double  staff  ib..  Die 
+braut  ist  erwachet  —  original 
+and  modern,  82,  83 ;  four-part 
+anthem,  84 ;  same  in  five-part, 
+85  ;  six-part  setting,  87  ;  wohlauf, 
+wohlauf,  original  and  modern 
+four-part,  88,  89 ;  seven-part 
+motet,  modern  notation,  90,  91. 
+
+New  England  psalm  singer,  11. 
+Notation,  original  and  modern,  80. 
+Nunnery,  Suowhill,  11. 
+
+Obed,    Bro.,    sec    Hocker,    Ludwig 
+Ohl,  Rev.  J.  F.,   Mus.   D.,  27  ;  note 
+by,  70 ;  translation  by,  70-79. 
+
+Paradisisches  Wundcrspiel,  29  ;  title, 
+
+42. 
+Peculiar  rendition  of  music,  80. 
+
+Rosen  und  Lilien,  title  of,  41. 
+Reformation  music,  14. 
+
+
+Sacred  song,  Beissel's  apology  for,23. 
+Score  book  MS.,  Ephrata,  23. 
+Score,  four-part  on  single  staff,  81. 
+Sectarians,  German,  17. 
+Seidenstickcr,  Prof.  Oswald,  17. 
+Singing  school  of  kloster,  84 ;  classes 
+
+in,  84. 
+Sister,  sketch  of,  32. 
+Snowhill  nunnery,  n,  12. 
+
+Theosophy,  Ephrata,  a  page  of,  93- 
+106. 
+
+Transmigration  of  the  soul,  99-106. 
+
+Thomen,  Anna,  86. 
+
+Tubers,  effect  on  voice,  67. 
+
+Turtel  Taube,  13,  22,  23  ;  title  page 
+of,  39  ;  Nachklang,  41  ;  neuver- 
+mehrtes,  its  sub-titles,  44,  45,  46, 
+47,  48 ;  various  editions,  47  ;  epi- 
+logue, 50;  Neuer  Nachklang,  52; 
+foreword,  53-58  ;  facsimile  of  pro- 
+logue, 59-65  ;  water-mark  in,  65, 
+79;  dissertation  on  harmony,  70- 
+79;  Kirren,  von,  45. 
+
+Voice,  Beissel's  instructions  on, 
+67  ;  milk,  effect  on,  ib.,  cheese,  ib., 
+butter,  eggs,  honey,  wheat,  buck- 
+wheat, effect  on,  ib.,  drink,  effect, 
+on,  68. 
+
+Voices,  peculiar  arrangements  of, 
+29. 
+
+Wheat,  effect  on  voice,  67. 
+Wunderschrift,  Beissel's,  21. 
+
+Zerfallenen,  Hiitte  Davids,  47,  48. 
+Zionitischer  Rosen  Garten,  49. 
+Ziouitic  watermark,  65. 
+
+
+There  Will  be  Issued  Shortly  (to  Subscribers  Only)  a 
+FACSIMILE  REPRODUCTION 
+
+OF 
+
+BEISSEL'S  TREATISE  ON  MUSIC. 
+
+WHICH  FORMS  A  PREFACE  TO  THE 
+
+'TURTEL    TaUBE,"    EPHRATA,   1747. 
+
+A  translation,  as  literal  as  po-ssible,  by  a  competent  German  and 
+Mu.sical  scholar,  will  be  given  page  for  page  with  the  facsimile,  so  that  com- 
+petent persons  can  judge  for  themselves,  and  the  Treati.se  will  be  accompanied 
+by  an  Introduction  and  Notes,  by  James  Warrington,  of  Philadelphia. 
+
+This  Treatise,  couched  in  mystical  phrase,  is  exceedinglv  curious  and 
+the  book  it.self  is  rare.  It  is  not  only  one  of  the  earliest  Treatises  on  Music 
+printed  in  this  country,  and  on  that  account  interesting,  but  it  is  worthv  of 
+attention  on  Theological  and  ^lusical  grounds.  In  it  Bei.ssel  actually  though 
+not  formally,  uses  the  movable  Do,  and  in  some  respects  anticipates 'the  Tonic 
+Sol  Fa  movement. 
+
+\'ery  erronous  impressions  of  Beissel  and  his  music  prevail,  owing  to 
+the  fact  that  from  and  including  the  time  when  Brothers  Lamech  and  Agrippa 
+attempted  to  describe  his  method,  none  who  wrote  or  spoke  about  it  have  had 
+any  knowledge  of  music  as  a  science.  The  common  idea  about  the  Ephrata 
+celibates  .singing  in  "Falsetto,"  ari.ses  from  the  fact  that  .some  of  the  upper  parts 
+for  female  voices  nin  as  high  as  A  and  B  above  the  staff,  and  as  the.se  voices 
+did  not  sing  the  melody,  but  only  an  accompaniment,  those  unlearned  might 
+easily  call  the.se  high  voices  "Falsetto"  without  knowing  what  the  term  really 
+meant. 
+
+The  many  mi.stakes  made,  render  a  true  appreciation  of  the  man  and 
+his  musical  labors  iinpo.ssible  to  these  who  depend  upon  the  published  accounts 
+and  in  his  "Ghrman  Sect.vki.vns,"  recently  published,  Sach.se  has  gathered 
+together  all  the  flying  rumors  and  gossip  and  put  upon  them  the  .stamp  of  his 
+approval.  A  slight  glance  at  the  original  gives  ample  evidence  that  not  only 
+IS  the  "critical"  faculty  lamentably  ab.sent  from  this  would-be  hi.storian,  but 
+tiial  his  knowledge  of  music  and  of  the  Knglish  language  is  .so  .slight  as  to  render 
+his  translation  worthless  to  the  student.  These  facts  seem  to  render  a  good 
+translation  necessary  :  hence  the  present  reproduction. 
+
+
+was  a  collection  of  hymns  and  when 
+the  colony  set  up  its  own  printing  es- 
+tablishment, noted  for  the  quality  of  its 
+I  paper  and  the  excellence  of  its  printing, 
+I  the  publication  of  hj  mns,  Tfritten  by 
+these  pietists,  became  an  important 
+I  part  o£  its  work. 
+
+"The  Turtel  Taube,"  or  book  of  "The 
+
+[Turtle  Dove,"  made  its  appearnace  in 
+1747.  The  title  was  symbolical  of  the 
+dove,  which,  according  to  Greek  legend, 
+descended  from  Heaven  at  the  time  of 
+the  Crucifixiou,  settling  on  the  shoulder 
+of  the  Saviour,  crying  "Kyrie,  Kyrie, 
+Kyrie."  A  small  quarto,  of  a  little  over 
+three  hundred  and  fifty  pages,  it  con- 
+tains two  hundred  and 
+
+!  Song  Worship    seventy-seven        hymns. 
+
+An  Essential      two-thirds  of    them   by 
+
+At  Epluata        Beissel,     the     rest     by 
+
+other    members    of    the 
+
+colony.    In    a    foreword    of    five    pages 
+
+I  and  a  prologue  of  fourteen,  Beissel  ex- 
+plains  some    of    tlie    principles    of    the 
+
+I  order  and  of  its  music,  and  there,  as 
+Dr.  Julius  F.  Sachse  has  pointed  out  in 
+his  voluminous  study  of  the  colony, 
+"The    German    Sectarians    of    Pennsyl- 
+
+[  vania,"  the  student  of  religious  history 
+and  of  music  can  learn  much  of  interest. 
+For,  alUiough  Beissel  had  no  sense  of 
+meter  or  of  rhythm,  he  did,  as  Sachse 
+
+[  says,  evolve  a  distinctive  system  of  har- 
+mony,  unique  musical   notation   and   a 
+
+I  series  of  quaint  melodies,  which  charmed 
+the  ear  and  exerted  an  influence  on 
+American  hymnology.  In  "The  Turtel 
+Taube"    there    is    exemplified,    in    the 
+
+I  fullest  extent,  that  music  of  the  Cloister 
+wliioh  delighted  Acrelius  when  he  vis- 
+ited Ephrata  on  his  travels,  and  which 
+
+
+DAY,    MARCH    9,    192 
+
+
+was  the  earliest  and  most  original  dis- 
+tinctive system  of  music  evolved  in  the 
+western  world  during  the  Eighteenth 
+Century. 
+
+Friedsam  Gotlrecht,  as  Beissel  «\'as 
+called,  was  always  striving  after  an 
+angelic  choir.  So  he  counsels  the  sing- 
+ers, in  the  prologue  to  this  work,  to 
+avoid  such  diet  as  may  coarsen  the 
+quality  of  their  tone  and  lectures  them 
+on  pitch  and  tone  production.  If  one 
+could  live  without  eating,  he  says,  truly 
+voices  might  attune  to  those  of  the 
+celestial  choir.  In  the  course  of  twenty 
+years  he  composed  a  thousand  hymns. 
+Night  after  night  his  training  of  the 
+choir  went  on,  and,  when  the  weather, 
+permitted,  he  would  lead  the  Sisters 
+and  Brothers  on  a  midnight  tour  of  the 
+grounds  singing  these  hymns. 
+
+Beissel  had  no  difficulty  in  holding 
+his  band  together,  despite  the  rigor  of 
+their  existence,  and  he  was '  able  to 
+draw  to  him  such  persons  as  Pastor 
+Peter  Miller,  of  this  city,  a  graduate  of 
+Heidelberg  and  a  scholarly  theologian, 
+and  the  wife  of  Christopher  Sauer,  who 
+deserted  her  husband,  in  order  that  she 
+might  gain  spiritual  regeneration,  as 
+one  of  the  doctrines  of  the  mystics  of 
+the  Cocalico  was  that  no  woman  who 
+loved  a  man  or  any  man  who  loved  a 
+woman  more  than  God  could  expect  re- 
+demption. In  time  Miller  became  Beis- 
+sel's  successor  as  head  of  tlie  order 
+while  Sauer's  wife  became  the  Prioress. 
+
+With  BeisseTs  death,  in  the  summer  of 
+1768,  the  decline  of  the  colony  began, 
+although  its  customs  were  continued,  in 
+part,  well  into  the  Nineteenth  Century 
+at  the  Snowhill  Monastery,  in  Franklin 
+county.  But  the  "Paradisiacal  Wonder 
+Music,"  which  he  and  his  followers 
+composed,  remaiii>  as  proof  of  the  na- 
+tive genius  of  thii  Kelf-instructed  baker, 
+wlio,  if  he  had  been  properly  trained  in 
+the  art  of  composition,  might  have 
+gained  high  distinction  as  a  composer. 
+In  his  day  Beissel  often  met  more 
+ridicule  than  respect  and  when  lie 
+sought  converts  among  the  members  of 
+other  German  sects  in  the  Skippack 
+and  Perkiomen,  or  when  he  came  to 
+Philadelphia  to  admonish"  the  Quakers 
+to  give  up  "their  worldly  ways,"  he 
+often  encountered  opposition. 
+
+
+•  ■.  < 
+
+
+*  r: 
+
+
+•^1 
+
+

@@ -1,0 +1,18 @@
+source_file: anonymous-uniate_apollogia-rusi-unitom-obrzadek-pol_1772.txt
+authors_ruled:
+  anonymous-uniate:
+    kind: anonymous
+    evidence: The title page names no author; the text opens by protesting 'Imieniem Wielebnego Jnstygatora
+      Ruskiego' (in the name of the Reverend Ruthenian Instigator) and the title says it was translated
+      from Latin into Polish.
+assignments:
+- row_id: anonymous-uniate_apollogia-rusi-unitom-obrzadek-pol_1772--apollogia-ze-rusi-unitom-nie-godzi-sie-odstepowac-od-swojego
+  work: Apollogia, że Rusi Unitom nie godzi się odstępować od swojego Obrządku ([1772])
+  author: anonymous-uniate
+  locus: whole work
+  atlas_ids:
+  - ruthenian-uniate-18th-century
+  role: tradition
+  confidence: assigned
+  note: The Ruthenian side's own case against rite-switching to the Latin church, made before a Latin
+    court on the eve of the first partition.

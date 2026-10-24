@@ -1,0 +1,13 @@
+source_file: heckewelder_narrative-of-mission-delaware-mohegan_1820.txt
+assignments:
+- row_id: heckewelder_narrative-of-mission-delaware-mohegan_1820--a-narrative-of-the-mission-of-the-united-brethren-among-the
+  work: A Narrative of the Mission of the United Brethren among the Delaware and Mohegan Indians, 1740-1808
+    (1820)
+  author: heckewelder
+  locus: whole work
+  atlas_ids:
+  - the-moravian-church-at-herrnhut
+  role: tradition
+  confidence: assigned
+  note: A missionary's own account of seventy years of the Native congregations, written from his diaries;
+    published five years after the window closes, about events inside it.

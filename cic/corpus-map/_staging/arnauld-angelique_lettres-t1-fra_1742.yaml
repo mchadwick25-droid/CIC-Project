@@ -1,0 +1,12 @@
+source_file: arnauld-angelique_lettres-t1-fra_1742.txt
+assignments:
+- row_id: arnauld-angelique_lettres-t1-fra_1742--lettres-de-la-mere-marie-angelique-arnauld-tome-i-1742
+  work: Lettres de la Mère Marie Angélique Arnauld, tome I (1742)
+  author: arnauld-angelique
+  locus: the letters; the editors' Avertissement excluded
+  atlas_ids:
+  - port-royal-jansenism
+  role: tradition
+  confidence: assigned
+  note: The abbess who made the reform, writing to her nuns, family and directees; the community's founding
+    voice.

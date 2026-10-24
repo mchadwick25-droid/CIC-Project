@@ -1,0 +1,14 @@
+source_file: palou_life-and-apostolic-labors-of-junipero-serra_williams1913.txt
+assignments:
+- row_id: palou_life-and-apostolic-labors-of-junipero-serra_williams1913--life-and-apostolic-labors-of-junipero-serra-english-of-1913
+  work: Life and Apostolic Labors of Junípero Serra, English of 1913
+  author: palou
+  locus: the translated chapters; James's introduction and notes excluded
+  atlas_ids:
+  - colonial-latin-american-devotional-catholicism
+  role: tradition
+  confidence: assigned
+  note: 'English of the 1787 Spanish vendored beside it; the translator''s wording, to be checked against
+    the Spanish before quotation.
+
+    '

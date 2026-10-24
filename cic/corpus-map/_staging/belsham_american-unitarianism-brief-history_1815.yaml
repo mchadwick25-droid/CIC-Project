@@ -1,0 +1,27 @@
+source_file: belsham_american-unitarianism-brief-history_1815.txt
+authors_ruled:
+  belsham:
+    kind: metadata-omission
+    evidence: 'The title page reads ''by Rev. Thomas Belsham, Essex-Street, London''. Plain-text vendored
+      file, so cic/texts/AUTHORS.md has not seen the slug yet.
+
+      '
+assignments:
+- row_id: belsham_american-unitarianism-brief-history_1815--american-unitarianism-1815
+  work: American Unitarianism (1815)
+  author: belsham
+  locus: Belsham's chapter and the letters of Freeman and Wells
+  atlas_ids:
+  - early-american-unitarians-universalists
+  role: tradition
+  confidence: assigned
+  note: The Unitarians' own account of themselves, London and Boston together.
+- row_id: belsham_american-unitarianism-brief-history_1815--american-unitarianism-1815-2
+  work: American Unitarianism (1815)
+  author: belsham
+  locus: whole pamphlet
+  atlas_ids:
+  - american-unitarianism-universalism-consolidations
+  role: antecedent
+  confidence: provisional
+  note: The pamphlet that set off the controversy leading to Channing's 1819 sermon and the AUA.

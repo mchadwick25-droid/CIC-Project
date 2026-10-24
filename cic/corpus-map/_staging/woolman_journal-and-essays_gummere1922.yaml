@@ -1,0 +1,23 @@
+source_file: woolman_journal-and-essays_gummere1922.txt
+assignments:
+- row_id: woolman_journal-and-essays_gummere1922--the-journal-of-john-woolman-from-the-manuscripts-1922
+  work: The Journal of John Woolman (from the manuscripts, 1922)
+  author: woolman
+  locus: the Journal, chapters I-XIII; Gummere's introduction excluded
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: assigned
+  note: The eighteenth-century Quaker journal at its height; conscience, plainness and the slave question
+    in Woolman's own words.
+- row_id: woolman_journal-and-essays_gummere1922--the-essays-of-john-woolman-some-considerations-on-the
+  work: 'The Essays of John Woolman: Some Considerations on the Keeping of Negroes, A Plea for the Poor,
+    and the rest (1922 collected)'
+  author: woolman
+  locus: the Essays section after the Journal
+  atlas_ids:
+  - the-quakers-religious-society-of-friends
+  role: tradition
+  confidence: assigned
+  note: The antislavery and economic essays; the census's 'parent-influence on abolition' in its source
+    texts.

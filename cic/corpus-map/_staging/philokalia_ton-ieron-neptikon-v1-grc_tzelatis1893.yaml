@@ -1,0 +1,53 @@
+source_file: philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt
+assignments:
+- row_id: philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893--philokalia-ton-hieron-neptikon-vol-1-venice-1782-athens-2nd
+  work: 'Philokalia ton hieron neptikon, vol. 1 (Venice 1782; Athens 2nd ed. 1893): the anthology as compiled'
+  author: philokalia
+  locus: the patristic texts in the order the compilers set them, from Antony the Great onward
+  atlas_ids:
+  - the-hesychast-revival-paisius-and-the-philokalia
+  role: tradition
+  confidence: assigned
+  note: The editorial act the census names as formation evidence; the selection and order are the compilers'
+    own, the texts older.
+- row_id: philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893--prooimion-to-the-philokalia-nikodemos-the-hagiorite-1782
+  work: Prooimion to the Philokalia (Nikodemos the Hagiorite, 1782)
+  author: nikodemos-hagiorite
+  locus: the heading 'PROOIMION' near the start of the volume (about raw scan line 607) to the first father's
+    texts
+  atlas_ids:
+  - the-hesychast-revival-paisius-and-the-philokalia
+  role: tradition
+  confidence: assigned
+  note: The compiler's own statement of why the book was made and for whom, monks and lay readers alike;
+    the world's programme in its own words.
+- row_id: philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893--prooimion-to-the-philokalia-nikodemos-the-hagiorite-1782-2
+  work: Prooimion to the Philokalia (Nikodemos the Hagiorite, 1782)
+  author: nikodemos-hagiorite
+  locus: the same prooimion
+  atlas_ids:
+  - the-kollyvades-and-greek-renewal
+  role: tradition
+  confidence: provisional
+  note: Nikodemos and Macarius are the Kollyvades' leading figures; the census gives the movement to a
+    later entry, so provisional there.
+- row_id: philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893--philokalia-vol-1-the-patristic-texts-fourth-to-seventh
+  work: 'Philokalia, vol. 1: the patristic texts (fourth to seventh centuries) as printed'
+  author: philokalia
+  locus: the fathers' texts, as distinct from the compilers' framing
+  atlas_ids:
+  - hesychasm-and-the-palamite-synthesis
+  role: transmission
+  confidence: provisional
+  note: The older hesychast and ascetic tradition as the eighteenth century chose and printed it; reception
+    for the Palamite world, provisional.
+- row_id: philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893--dedication-of-the-1893-edition-to-the-hesychast-fathers-of
+  work: Dedication of the 1893 edition to the hesychast fathers of Mount Athos (P. Ath. Tzelatis)
+  author: philokalia
+  locus: the dedication after the title page, before the prooimion
+  atlas_ids:
+  - the-hesychast-revival-paisius-and-the-philokalia
+  role: transmission
+  confidence: provisional
+  note: The Athens editor's address of 1893, naming Nikodemos; a later reception of the anthology, not
+    part of the 1782 book.

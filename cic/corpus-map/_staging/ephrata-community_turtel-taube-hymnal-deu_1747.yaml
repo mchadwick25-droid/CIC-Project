@@ -1,0 +1,12 @@
+source_file: ephrata-community_turtel-taube-hymnal-deu_1747.txt
+assignments:
+- row_id: ephrata-community_turtel-taube-hymnal-deu_1747--das-gesang-der-einsamen-und-verlassenen-turtel-taube-ephrata
+  work: Das Gesäng der einsamen und verlassenen Turtel-Taube (Ephrata hymnal, 1747)
+  author: ephrata-community
+  locus: whole volume; numbered hymns and stanzas
+  atlas_ids:
+  - radical-pietism-and-the-brethren-dunkers-ephrata
+  role: tradition
+  confidence: assigned
+  note: The community's devotional voice as sung; Beissel's preface on music opens it. German original;
+    the preface's 1903 English is vendored separately.

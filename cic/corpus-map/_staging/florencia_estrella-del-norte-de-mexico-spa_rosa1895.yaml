@@ -1,0 +1,15 @@
+source_file: florencia_estrella-del-norte-de-mexico-spa_rosa1895.txt
+assignments:
+- row_id: florencia_estrella-del-norte-de-mexico-spa_rosa1895--la-estrella-del-norte-de-mexico-1688
+  work: La Estrella del Norte de México (1688)
+  author: florencia
+  locus: the author's prologue and chapters; de la Rosa's prologue of 1895 excluded
+  atlas_ids:
+  - colonial-latin-american-devotional-catholicism
+  role: tradition
+  confidence: assigned
+  note: 'A criollo Jesuit''s history of the Guadalupe cult, arguing for its tradition; the devotion''s
+    own advocate. The apparition narrative''s dating and authorship are contested (the census flags it);
+    tag the apparition claims as Contested, the cult''s existence as Documented.
+
+    '

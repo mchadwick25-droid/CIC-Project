@@ -1,0 +1,15 @@
+source_file: pena-montenegro_itinerario-para-parochos-de-indios-spa_1668.txt
+assignments:
+- row_id: pena-montenegro_itinerario-para-parochos-de-indios-spa_1668--itinerario-para-parochos-de-indios-1668
+  work: Itinerario para parochos de indios (1668)
+  author: pena-montenegro
+  locus: whole text; especially the treatises on idolatry, marriage and the sacraments
+  atlas_ids:
+  - colonial-latin-american-devotional-catholicism
+  role: tradition
+  confidence: assigned
+  note: 'The colonial episcopate''s pastoral voice: how a parish priest was told to govern, teach and
+    police indigenous devotion. A clergy view of the people''s practice, partly the policing view the
+    census flags.
+
+    '
