@@ -2573,3 +2573,9 @@ Alternatives shown: (1) one more targeted recheck of the new fixes in those thre
 ### 2026-10-24 — Opus 5 fallback: re-run only the Doc_09 rendering check (project lead's approval)
 
 The Doc_04, Doc_05 and Doc_09 second rechecks ran partly or wholly on Opus 5 (disclosed in their headers). Alternatives shown: accept all three; re-run all three on Opus 5.5; re-run only Doc_09's rendering check. Chosen: re-run only Doc_09's (project lead, 2026-10-24, "lets go" to the recommendation). Cap ruling in the System Hub Decision Log.
+
+---
+
+### 2026-10-24 — Confirmation recheck of the Doc_01 and Doc_02 fixes and the cleaned records (project lead's ruling)
+
+Alternatives shown: (1) one targeted Opus 5.5 recheck of the two P1 fixes plus a sample of the 241 cleaned records; (2) two separate rechecks; (3) hold CO-LPC-1 open. Chosen: 1 (project lead, 2026-10-24). Cap ruling in the System Hub Decision Log.
