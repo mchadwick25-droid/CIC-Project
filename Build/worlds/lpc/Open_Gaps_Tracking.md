@@ -1782,3 +1782,13 @@ Logged 2026-10-24.
 - **Seen outside the recheck's scope.** `Doc_09_Story_Inventory.md` line 105 still says "All of Augustine's sermons are inside the world", against the public-domain scope ruling (2026-10-23). Process narration remains in figure, contested_claim, quote, term and voice_craft records and in `lpc.source.augustine-donatist-correspondence.md`, which the generator clean-up did not cover.
 - **P2 carried for Phase L2.** Doc_01 Round 15: N2, N4 (OG-41), N5; the generators match the records in content but not byte for byte. Doc_02 Round 38: a stray ",." in the on-baptism record; the CCSL3 note's "the sharpest single gap in it"; two carried items.
 - **Owner.** The `lpc` build thread.
+
+### OG-57. Doc_01 recheck Round 16: N6 fixed; three P2s for Phase L2 (2026-10-24).
+
+Logged 2026-10-24.
+
+- **Approved to proceed.** All three sites in OG-56 are fixed: world_core Caution 2, the force 3B-2 body and `Doc_09_Story_Inventory.md` line 105.
+- **N8 (P2).** The `wb_lpc_s25.py` docstring (lines 66 to 68) still says "the dated-row gap at 3B-2". It is not emitted to any record.
+- **N9 (P2).** Caution 2 says the world holds "few" texts from those years that "record events". That is looser than Doc_02 §7, whose list is not exhaustive and includes Augustine's own writings of 386 to 391. The sentence is also 30 words long.
+- **N10 (P2, weigh first in Phase L2).** Caution 2's clause "Never describe what happened in those years from this world's own collection" predates the fix. Read literally, it covers 386 to 391 and would bar the *Confessions* on Augustine's conversion, which is Documented and which the same record cites. The clause needs narrowing to the years before Augustine's own record begins.
+- **Owner.** The `lpc` build thread.

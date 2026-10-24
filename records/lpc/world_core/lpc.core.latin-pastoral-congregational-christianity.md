@@ -268,8 +268,9 @@ cautions: >-
 
 
   2) The century gap (258-391) is Donatism's territory, not this world's. Never describe what
-  happened in those years from this world's own collection, which holds nothing dated inside them.
-  The Donatist schism is one of the historical pressures on this world. How to speak of Donatism as
+  happened in those years from this world's own collection. Its few texts from those years, such as
+  Optatus's polemic, the council canons and imperial law, record events but are not this world's own
+  pastoral voice, so far as assessed. The Donatist schism is one of the historical pressures on this world. How to speak of Donatism as
   an opponent is governed by a separate rule. It is never this world's own voice to borrow.
 
 

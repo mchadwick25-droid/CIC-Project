@@ -1682,9 +1682,9 @@ def build_forces() -> None:
         "Taken from Doc_08 §3 Force 3B-2 (Cell 3B, Ending/Internal; Transmission dimension). "
         "relations[] carries only the force<->force edges (2B-4, 2B-5) named above -- "
         "deliberately no gravity<->force edge, matching Force 2B-5's own identical disposition. "
-        "sources[] is deliberately empty -- this force's own evidentiary base is a fact about the "
-        "absence of dated Registry rows in an interval, not a citable vendored text making a "
-        "claim.",
+        "sources[] is deliberately empty -- this force's own evidentiary base is the absence, so far "
+        "as assessed, of this world's own pastoral voice in an interval, not a citable vendored "
+        "text making a claim.",
     )
 
 
