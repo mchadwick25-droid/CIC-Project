@@ -226,3 +226,13 @@ The small differences between Doc_01's quotations and the scan, and the Foxton t
 **Status:** Open. Owner: Step 2 close, when the handoff manifest is built.
 
 The process document asks for a `cic:<file>:<locus>` address in the same paragraph as each quotation, for the quotation handoff. Doc_02 and the Registry cite by file line and Registry row, as the approved Society of Jesus Doc_02 does. The addresses are to be produced at handoff from the file names in the Registry's file table and the lines cited in the text.
+
+## OG-23: Borromeo's voice is co-owned; closes OG-4 (2026-10-24)
+
+**Source:** `Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md`, entry "Borromeo's pastoral voice is co-owned by Borromean Milan and the Tridentine Church" (2026-10-24); rows 29 to 33.
+**Status:** Closed for the ruling. Open for one corpus-map request. Owner: Library thread.
+
+The project lead chose co-ownership from three options. The Registry now licenses the five Italian Borromeo files here for the pastoral voice, with the 1762 selection caution on the letters (rows 29 to 31). OG-4 and OG-5 record the question as it stood before the ruling and are not edited.
+
+Request for the corpus-map bucket: change the five Italian files (rows 29 to 33) from `context` to `tradition` here, so the map matches the Registry. The Lives stay as OG-5 records them.
+

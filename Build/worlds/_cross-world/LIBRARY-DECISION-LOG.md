@@ -13,6 +13,27 @@ with no history in the document, lives in the file it governs (here,
 
 ---
 
+## 2026-10-24 — Borromeo's pastoral voice is co-owned by Borromean Milan and the Tridentine Church
+
+**Ruling, Mark's answer** to three options put to him in the session: (1) co-owned,
+(2) Borromean Milan (VI.12) owns it, (3) the Tridentine Church (VI.22) owns it.
+He answered "1". The Library recommended option 1.
+
+**Basis.** The Tatian ruling of 2026-09-29 holds that a voice shaping several
+worlds of one era is shared and "doesn't have to be just one". That entry limited
+itself to Tatian and figures of his shape. This entry is the separate ruling for
+Borromeo.
+
+**Changes.** The Tridentine Registry licenses the five Italian Borromeo files
+(rows 29 to 33) for the pastoral voice. The Tridentine Doc_02 moves from Cleared
+review to Approved to proceed. Borromean Milan keeps the same files as its own,
+so nothing changes in that world's placements. The corpus map still shows the five
+files as `context` for the Tridentine Church; the request to change them to
+`tradition` is Tridentine Open_Gaps OG-23.
+
+**What this does not rule.** It does not rule on the Lives of Borromeo, the Acta,
+or any other figure.
+
 ## 2026-10-23 — Era III library pass: scope, corrections, and placements left to Mark
 
 **Scope.** The Era III session (branch `library/era-iii-2026-10`) took the
