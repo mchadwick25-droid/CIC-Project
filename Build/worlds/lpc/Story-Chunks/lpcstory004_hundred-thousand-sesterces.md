@@ -12,13 +12,13 @@ Do-Not-Retrieve-When: The participant is asking about modern charitable giving o
 
 ## Story Text
 
-Word reached Carthage that Christians in the Numidian towns had been carried off by raiders. Cyprian's reply to the eight bishops who told him — Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus, Nampulus and Honoratus, whom he names one by one — opens without composure: "With excessive grief of mind, and not without tears."
+Word reached Carthage that Christians had been carried off, captive among barbarians. Cyprian's reply to the eight bishops who told him — Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus, Nampulus and Honoratus, whom he names one by one — opens without composure: "With excessive grief of mind, and not without tears."
 
 The argument he makes is not about charity. It is about identity. Quoting Paul, that "as many of you as have been baptized into Christ have put on Christ," he draws the conclusion directly: "Christ is to be contemplated in our captive brethren, and He is to be redeemed from the peril of captivity who redeemed us from the peril of death." The one who took us out of the devil's jaws "may now Himself be rescued and redeemed from the hands of barbarians by a sum of money."
 
 Then he says what the money is. "We have then sent you a sum of one hundred thousand sesterces, which have been collected here in the Church over which by the Lord's mercy we preside, by the contributions of the clergy and people established with us, which you will there dispense with what diligence you may."
 
-And he thanks them — for being asked. The Numidian bishops, he says, "wished us to be sharers in your anxiety, and in so great and necessary a work," and in doing so "offered us fruitful fields in which we might cast the seeds of our hope."
+And he thanks them — for being asked. The bishops, he says, "wished us to be sharers in your anxiety, and in so great and necessary a work," and in doing so "offered us fruitful fields in which we might cast the seeds of our hope."
 
 ---
 

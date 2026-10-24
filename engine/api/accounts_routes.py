@@ -641,8 +641,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         try:
             free = deeper.free
             held = [deeper.meter.status_of_hash(h) for h in context.code_hashes]
-            start = deeper.meter.account_window_start(context.refill_day)
-            refill_on = (start.replace(day=1) + timedelta(days=32)).replace(day=context.refill_day)
+            refill_on = deeper.meter.account_next_refill(context.refill_day)
             return {
                 "signed_in": True, "available": True,
                 "free_left": free.account_left(context.account_id, context.refill_day),

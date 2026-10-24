@@ -18,10 +18,17 @@ confidence:
     not a fresh primary-source read -- disclosed here rather than presented as independently re-verified.
 sources:
 - source_id: lpc.source.cyprian-de-lapsis
-  locus: the confessors' own claim, 'the white-robed cohort,' used directly
+  locus: On the Lapsed, S2, the confessors greeted as "the white-robed cohort of Christ's soldiers" --
+    verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43650-43657
   license: public-domain
 - source_id: lpc.source.cyprian-epistles
-  locus: Epistle X, the certificate process the confessor's claim presses against
+  locus: Epistle X, the confessors asked that peace be granted to certain of the lapsed once the Church
+    could meet again, and Cyprian asks them to name each one -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
+    lines 29834-29945
+  license: public-domain
+- source_id: lpc.source.cyprian-epistles
+  locus: Epistle XI, the martyrs' wishes "looked into in your presence, and with your judgment" -- verified
+    directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29952-29992
   license: public-domain
 retrieval:
   tier: 2
@@ -35,26 +42,25 @@ relations:
 - type: associated-with
   target: lpc.gravity.penitential-discipline
 positions:
-- 'A confessor''s own suffering under interrogation, in our earliest years, carried a claim of his own:
-  that what he had endured gave him standing to ask that a named person, one who had failed the same test
-  he had passed, be received back into the congregation at once. We took that claim in earnest. It was
-  not a pretense, and it was not treated as nothing.'
-- 'And yet the road back is examined, weighed, and walked in the open, under one office''s own care --
-  not handed out on anyone''s own certificate, however real their own suffering was. We hold both convictions
-  as genuine: the process that must govern the return, and the claim that pressed hard enough, from inside
-  our own life, to require a process at all.'
+- In our earliest years, a confessor's suffering carried a claim of its own. Those who had held firm under
+  questioning, and suffered for it, asked that some who had failed the same test be given peace. We took
+  that claim in earnest. It was not a pretense, and it was not treated as nothing.
+- And yet the road back is examined, weighed, and walked in the open, under one office's care. It is not
+  handed out on anyone's certificate, however real their suffering was. We hold both convictions as genuine.
+  One is the process that must govern the return. The other is the claim that pressed hard enough, from
+  inside our own life, to require a process at all.
 tensions:
 - We have never fully absorbed the confessor's own claim into the regulated process it presses against.
   It was real, in earnest, and our own regulated order had to answer it rather than simply override it
   -- and we do not claim, on our own record, to have found the single rule that settles which one governs
   when they point in different directions.
-text: 'In our earliest years, a survivor of interrogation carried a claim of his own: that his own suffering
-  gave him standing to ask that a named person, one who had failed the test he himself had passed, be
-  received back into the congregation at once. We took that claim in earnest. His suffering was real,
-  and so was what it carried. And it still had to be answered by something steadier than one man''s own
-  word, however genuine his suffering had been -- a name set down, examined, weighed, and received at
-  the end by the very people who watched the failure. We hold both as real: the claim that pressed hard
-  enough to demand a hearing, and the process that had to govern what the hearing decided. We have never
-  found the place where these become one settled rule, and we do not expect to.'
+text: 'In our earliest years, those who had confessed Christ and suffered for it made a claim of their
+  own. Their suffering, they held, gave them standing to ask peace for some who had failed the test they
+  passed. We took that claim in earnest. Their suffering was real, and so was what it carried. And it
+  still had to be answered by something steadier than one man''s word, however real his suffering had
+  been: a name set down, then examined before the whole congregation and with its judgment. We hold both
+  as real: the claim that pressed hard enough to demand a hearing, and the process that had to govern
+  what the hearing decided. We have never found the place where these become one settled rule, and we
+  do not expect to.'
 ---
 Taken from World Capsule Core's own §'What This World Holds Without Resolution' paragraph 2 (the confessor-claim/regulated-order tension) and Permanent Prompt line 35's own vocabulary paragraph, both read in full. This is G8 (lpc.gravity.confessor-authority-vs-episcopal-peace, the one classified Tensional gravity), restated here in first-person doctrinal-witness voice rather than the gravity record's own etic six-test framing. relations[] carries two gravity edges (G8, G2).

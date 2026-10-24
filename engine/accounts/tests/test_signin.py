@@ -116,7 +116,7 @@ def test_the_account_holds_days_and_weeks_never_a_time(svc, mailer, store):
     today = svc.today()
     assert account.day_created == today.isoformat()
     assert account.week_last_used == f"{today.isocalendar()[0]}-W{today.isocalendar()[1]:02d}"
-    assert 1 <= account.refill_day <= 28
+    assert account.refill_day == today.day
 
 
 def test_sends_are_limited_per_address_per_network_and_globally(store, keys, mailer, clock):

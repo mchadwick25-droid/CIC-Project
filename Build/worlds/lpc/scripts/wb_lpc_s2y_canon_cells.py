@@ -203,7 +203,7 @@ NOT added: lpc.contested.grace-pelagius-characterization (its own sharper,
 
 --- F2-I ("How did you read your scriptures?" / "which writings" / "how
 did someone who couldn't read receive the scriptures?") -- SUBSTANTIVE ---
-term: lpc.term.preaching -- the weekly address to the already-baptized,
+term: lpc.term.preaching -- the regular address to the gathered church,
   evidenced by ~97 Sermons; the direct mechanism by which an illiterate
   congregation received scriptural exposition without personal reading.
 gravity: lpc.gravity.preaching-and-catechesis (the medium itself)

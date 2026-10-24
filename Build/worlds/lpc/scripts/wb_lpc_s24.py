@@ -582,7 +582,8 @@ def build_stories() -> None:
         "it -- a reported speech inside a biography of praise is not the same evidentiary object as "
         "a letter in the man's own hand. Not Tier 3: there is no miracle and no providential "
         "intervention, and the death-as-completion pattern is absent because nobody dies here.",
-        "How our bishop met a plague by teaching us to care for the very people persecuting us",
+        "How our bishop met a plague by teaching us to love even our enemies, and to help "
+        "everyone, not only our own",
         "Pontius, writing as a deacon who was there, described the epidemic without any of the "
         "consolation he might have reached for. \"There broke out a dreadful plague,\" he wrote, "
         "\"and excessive destruction of a hateful disease invaded every house in succession of the "
@@ -646,23 +647,25 @@ def build_stories() -> None:
         "The only caution worth stating is not about tier but about perspective: Cyprian is making "
         "a case for an appointment, and the letter's own rhetoric -- 'the common joy,' 'the "
         "greatest glory of our Church' -- is the rhetoric of advocacy.",
-        "How we ordained a man on the strength of what he had endured, though he had not wanted "
-        "to survive it",
-        "Cyprian wrote to us with news he called 'the common joy.' He was appointing a presbyter, "
-        "and he wanted us to know who the man was.\n\n"
+        "How our bishop added to our presbyters a confessor who had not wanted to survive",
+        "Cyprian wrote to us with news he called 'the common joy.' He was adding a presbyter to "
+        "our clergy, and he wanted us to know who the man was.\n"
+        "\n"
         "Numidicus had watched a group of us die. He had exhorted them first -- Cyprian says he "
         "\"by his exhortation sent before himself an abundant number of martyrs, slain by stones "
         "and by the flames.\" Among the dead was his own wife. Cyprian's own phrasing about her is "
-        "not a slip: he \"beheld with joy his wife abiding by his side, burned (I should rather say, "
-        "preserved) together with the rest.\"\n\n"
-        "Then Numidicus himself: \"half consumed, overwhelmed with stones, and left for dead.\" His "
-        "daughter came looking for her father's body -- Cyprian says she sought it \"with the "
+        "not a slip: he \"beheld with joy his wife abiding by his side, burned (I should rather "
+        "say, preserved) together with the rest.\"\n"
+        "\n"
+        "Then Numidicus himself: \"half consumed, overwhelmed with stones, and left for dead.\" "
+        "His daughter came looking for her father's body -- Cyprian says she sought it \"with the "
         "anxious consideration of affection\" -- and found him alive. Where she searched, the "
-        "letter does not say. \"Was found half dead, was drawn out and revived.\"\n\n"
+        "letter does not say. \"Was found half dead, was drawn out and revived.\"\n"
+        "\n"
         "And Cyprian adds one clause that gives the whole letter its weight. Numidicus, he says, "
-        "\"remained unwillingly from among the companions whom he himself had sent before.\" He had "
-        "not wanted to survive. Cyprian knew this, wrote it down, and gave the reason he thought it "
-        "happened: \"that the Lord might add him to our clergy.\"",
+        "\"remained unwillingly from among the companions whom he himself had sent before.\" He "
+        "had not wanted to survive. Cyprian knew this, wrote it down, and gave the reason he "
+        "thought it happened: \"that the Lord might add him to our clergy.\"",
         "The three people this story is about left no word of their own. Numidicus's wife burned; "
         "his daughter searched for his body and found him alive; Numidicus himself did not want to "
         "have survived. What the wife thought she was doing, what the daughter found, and what "
@@ -704,28 +707,30 @@ def build_stories() -> None:
         "nineteenth-century editorial matter, not Cyprian's own words. This record cites SS3 of the "
         "letter's own body, where Cyprian states the sum in his own voice, rather than the Argument, "
         "which happens to carry the same true figure.",
-        "How we sent a hundred thousand sesterces to ransom people most of us had never met",
-        "Word reached us that fellow believers in the Numidian towns had been carried off by "
-        "raiders. Cyprian's reply to the eight bishops who told us -- Januarius, Maximus, Proculus, "
-        "Victor, Modianus, Nemesianus, Nampulus and Honoratus, whom he names one by one -- opens "
-        "without composure: \"With excessive grief of mind, and not without tears.\"\n\n"
+        "How we sent a hundred thousand sesterces to ransom our captive brethren",
+        "Word reached us that our brethren and sisters had been carried off, captive among "
+        "barbarians. Cyprian's reply to the eight bishops who told us -- Januarius, Maximus, "
+        "Proculus, Victor, Modianus, Nemesianus, Nampulus and Honoratus, whom he names one by one "
+        "-- opens without composure: \"With excessive grief of mind, and not without tears.\"\n"
+        "\n"
         "The argument he made was not about charity. It was about identity. Quoting Paul, that "
         "\"as many of you as have been baptized into Christ have put on Christ,\" he drew the "
         "conclusion directly: \"Christ is to be contemplated in our captive brethren, and He is to "
-        "be redeemed from the peril of captivity who redeemed us from the peril of death.\"\n\n"
+        "be redeemed from the peril of captivity who redeemed us from the peril of death.\"\n"
+        "\n"
         "Then he said what the money was. \"We have then sent you a sum of one hundred thousand "
         "sesterces, which have been collected here in the Church over which by the Lord's mercy we "
-        "preside, by the contributions of the clergy and people established with us, which you will "
-        "there dispense with what diligence you may.\" And he thanked them, for being asked -- for "
-        "offering us, in his own words, \"fruitful fields in which we might cast the seeds of our "
-        "hope.\"",
-        "We do not know whether the ransom worked. Cyprian never wrote again about the outcome, and "
-        "the Numidian bishops' own reply, if there was one, does not survive. The story ends with "
+        "preside, by the contributions of the clergy and people established with us, which you "
+        "will there dispense with what diligence you may.\" And he thanked them, for being asked "
+        "-- for offering us, in his own words, \"fruitful fields in which we might cast the seeds "
+        "of our hope.\"",
+        "We do not know whether the ransom worked. Cyprian never wrote again about the outcome, "
+        "and the eight bishops' own reply, if there was one, does not survive. The story ends with "
         "the money leaving Carthage.",
-        "A modern listener may reach at once for a currency conversion -- how much was that, really? "
-        "Our own record licenses none. What it tells plainly is that it was collected from one "
-        "congregation's clergy and people for the ransom of strangers, and that we do not know what "
-        "proportion of anything it represented.",
+        "A modern listener may reach at once for a currency conversion -- how much was that, "
+        "really? Our own record licenses none. What it tells plainly is that it was collected from "
+        "one congregation's clergy and people for the ransom of captive brethren, and that we do "
+        "not know what proportion of anything it represented.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.cyprian-epistles",
           "locus": "Ep. LIX SS3, the letter's own body text, not the ANF Argument; cic/texts/"
@@ -757,42 +762,42 @@ def build_stories() -> None:
         "tier argument: this material survives because Cyprian's own dossier preserved the case "
         "against himself. An attribution discipline matters here specifically: these letters are in "
         "Cyprian's corpus and are not by Cyprian.",
-        "How two confessors, not our bishop, decided who could come back to us",
+        "How one confessor asked another, not a bishop, to grant peace to women who had fallen",
         "Celerinus was a confessor among us -- he had been imprisoned and had not denied Christ -- "
-        "and he wrote to Lucian, another confessor, in prison. He did not write about himself. "
-        "\"Know, nevertheless, that I am placed in the midst of a great tribulation,\" he began, and "
-        "the tribulation was not his own captivity. His sister had sacrificed. \"I ask that you "
-        "will grant my desire, and that you will grieve with me at the (spiritual) death of my "
-        "sister, who in this time of devastation has fallen from Christ.\"\n\n"
-        "She was not dead. She was alive, in Carthage, and what Celerinus grieved was a death he "
-        "believed had happened to her soul -- which is why the letter carries a request. He asked "
-        "Lucian to intervene, for her and for two other women, Numeria and Candida, whom Lucian "
-        "also knew. He made the case for them: they had repented, and there were works to point to.\n\n"
-        "Lucian's reply came back from the prison, and it granted what was asked. Before it did, it "
-        "said what the prison had been like: by the emperor's command they \"were ordered to be put "
-        "to death by hunger and thirst, and were shut up in two cells, that so they might weaken us "
-        "by hunger and thirst.\" Then: \"But now we have attained the brightness itself.\" He greeted "
-        "Numeria and Candida, and named the martyrs on whose authority he answered, and signed off "
-        "exhausted, greeting others \"whose names I have not written, because I am already weary. "
-        "Therefore they must pardon me.\"",
+        "and he wrote to Lucian, another confessor, in prison. He told Lucian of his own "
+        "confession. Then he came to his grief: \"Know, nevertheless, that I am placed in the "
+        "midst of a great tribulation.\" His sister had sacrificed. \"I ask that you will grant my "
+        "desire, and that you will grieve with me at the (spiritual) death of my sister, who in "
+        "this time of devastation has fallen from Christ.\"\n"
+        "\n"
+        "She was not dead. What Celerinus grieved was a death he believed had happened to her soul "
+        "-- which is why the letter carries a request. He asked Lucian to intervene, for her and "
+        "for two other women, Numeria and Candida, whom Lucian also knew. He made the case for "
+        "them: they had repented, and there were works to point to.\n"
+        "\n"
+        "Lucian's reply came back from the prison, and it granted what was asked. Before it did, "
+        "it said what the prison had been like: by the emperor's command they \"were ordered to be "
+        "put to death by hunger and thirst, and were shut up in two cells, that so they might "
+        "weaken us by hunger and thirst.\" Then: \"But now we have attained the brightness "
+        "itself.\" He greeted Numeria and Candida, and named the martyrs on whose authority he "
+        "answered. He asked that the two women have peace, \"the case being set forth before the "
+        "bishop, and confession being made.\" He signed off exhausted, greeting others \"whose "
+        "names I have not written, "
+        "because I am already weary. Therefore they must pardon me.\"",
         "Celerinus's own sister has no story, and she is the person this one is about. She is "
         "unnamed -- her own brother does not name her. Numeria and Candida are not 'named lapsed "
         "women' either: Celerinus says the opposite of Candida, that she gave gifts for herself "
         "\"that she might not sacrifice\" -- her case is contested, not conceded. None of the three "
         "speaks for herself anywhere in our record.",
-        "A modern listener may expect a bishop's own authority to be the only channel through which "
-        "someone failed under pressure could be restored. Here it is two confessors, writing to "
-        "each other from captivity, who decide -- and Cyprian's own dossier preserves the letters "
-        "that argued against his own authority, rather than suppressing them.",
+        "A modern listener may expect a bishop's authority to be the only channel by which someone "
+        "who failed under pressure could be restored. Here one confessor asks another, in prison, "
+        "for peace, and the other gives it in the martyrs' name. Yet his own reply says each case "
+        "is to be set before the bishop. Cyprian's own dossier keeps both letters rather than "
+        "hiding them.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.cyprian-epistles",
-          "locus": "Ep. XX (Celerinus to Lucian) and Ep. XXI (Lucian's reply); cic/texts/"
-                   "anf05_hippolytus-cyprian-caius-novatian.xml, lines 30528-30720 -- widened "
-                   "from an earlier draft's 30640-30720, which started about 70 lines after Ep. "
-                   "XX's own opening (line 30528) and so did not cover the letter's own first "
-                   "words, though the specifically re-verified detail this record cites "
-                   "('put to death by hunger and thirst,' line 30706) was already correctly "
-                   "inside it",
+          "locus": "Ep. XX (Celerinus to Lucian) and Ep. XXI (Lucian's reply); "
+                   "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30528-30720",
           "license": "public-domain"}],
         1,
         ["participant asks what happened to those who failed under persecution",
@@ -807,7 +812,9 @@ def build_stories() -> None:
         ["we must not resolve the confessor-authority tension by presenting the confessors as "
          "either usurpers or heroes",
          "no source of ours preserves anything Numeria, Candida, or Celerinus's own sister wrote or "
-         "said -- do not invent words for any of the three"],
+         "said -- do not invent words for any of the three",
+         "do not tell Lucian's grant without his own condition, that each case be set before the "
+         "bishop and confession made"],
         "Derived from Story-Chunks/lpcstory005_celerinus-writes-to-lucian.md, recast into "
         "first-person register (the letters of Celerinus and Lucian are already first-person; the "
         "surrounding narration is recast). 'Put to death by hunger and thirst' is at "
@@ -827,50 +834,50 @@ def build_stories() -> None:
         "carry the author test alone. The details only Pontius gives are marked as his and carry "
         "Contested confidence, or Inferential-Thin where hagiographic convention shapes them. The "
         "two texts differ on who tied the cloths over Cyprian's eyes.",
-        "How two early texts tell our first great bishop's death, and where they differ",
-        "This is how two early texts tell the death of our first great bishop. One is by his deacon, "
+        "How two early texts tell the death of our great bishop Cyprian, and where they differ",
+        "This is how two early texts tell the death of our great bishop. One is by his deacon, "
         "Pontius, who wrote it in the form of a saint's life. The other is the Acta Proconsularia, "
         "an early Christian compilation built around the records of his hearings. Its compiler is "
         "unnamed. Where both texts agree, we say so plainly. Where only one speaks, we say which.\n"
         "\n"
-        "The night before the sentence, Cyprian was held in an officer's house. Pontius says that he "
-        "and the other friends \"were as usual in his company.\" The people stayed outside. Pontius "
-        "writes that they, \"in anxiety that nothing should be done throughout the night without "
-        "their knowledge, kept watch before the officer's door.\" The Acta tells it more briefly, and "
-        "it adds one detail: \"The whole people of the brethren came there. When holy Cyprian learned "
-        "of this, he ordered the young women to be guarded. He did so because all of them had stayed "
-        "in the street, before the door of the officer's lodging.\"\n"
+        "The night before the sentence, Cyprian was held in an officer's house. Pontius says that "
+        "he and the other friends \"were as usual in his company.\" The people stayed outside. "
+        "Pontius writes that they, \"in anxiety that nothing should be done throughout the night "
+        "without their knowledge, kept watch before the officer's door.\" The Acta tells it more "
+        "briefly, and it adds one detail: \"The whole people of the brethren came there. When holy "
+        "Cyprian learned of this, he ordered the young women to be guarded. He did so because all "
+        "of them had stayed in the street, before the door of the officer's lodging.\"\n"
         "\n"
         "In the morning a great crowd went with him. Pontius says he went out \"walled in on all "
-        "sides by the ranks of a mingled multitude.\" The Acta says that \"a large crowd gathered at "
-        "Sextus's place, as the proconsul Galerius Maximus had ordered.\"\n"
+        "sides by the ranks of a mingled multitude.\" The Acta says that \"a large crowd gathered "
+        "at Sextus's place, as the proconsul Galerius Maximus had ordered.\"\n"
         "\n"
         "The proconsul read the sentence from a tablet. Pontius reports that it called Cyprian \"a "
-        "standard-bearer of the sect, and an enemy of the gods, and one who was to be an example to "
-        "his people; and that with his blood discipline would begin to be established.\" The Acta "
-        "gives the sentence in nearly the same words. On the sentence the two texts are not "
+        "standard-bearer of the sect, and an enemy of the gods, and one who was to be an example "
+        "to his people; and that with his blood discipline would begin to be established.\" The "
+        "Acta gives the sentence in nearly the same words. On the sentence the two texts are not "
         "independent witnesses. Only the Acta gives Cyprian's answer: Deo gratias, \"Thanks be to "
         "God.\"\n"
         "\n"
         "Then the crowd of the brethren called out. The Acta gives their words: Et nos cum ipso "
-        "decollemur, \"Let us too be beheaded with him.\" It goes on: \"Because of this an uproar rose "
-        "among the brethren, and a large crowd followed him.\" Pontius does not quote the cry. He "
-        "says the people's \"general wish\" was \"that the entire congregation should suffer at once in "
-        "the fellowship of a like glory,\" and he calls them blessed because they, \"in outspoken "
-        "words, suffered with such a bishop as theirs.\"\n"
+        "decollemur, \"Let us too be beheaded with him.\" It goes on: \"Because of this an uproar "
+        "rose among the brethren, and a large crowd followed him.\" Pontius does not quote the "
+        "cry. He says the people's \"general wish\" was \"that the entire congregation should "
+        "suffer at once in the fellowship of a like glory,\" and he calls them blessed because "
+        "they, \"in outspoken words, suffered with such a bishop as theirs.\"\n"
         "\n"
         "Only the Acta tells what came before the blow. Cyprian was led out into the field of "
-        "Sextus. There he took off his cloak. He knelt on the ground and bowed down in prayer to the "
-        "Lord. He took off his tunic and handed it to the deacons. He stood in his linen garment and "
-        "began to wait for the executioner. When the executioner came, Cyprian told his own people "
-        "to give him twenty-five gold pieces. The brethren laid linen cloths and hand-cloths before "
-        "him.\n"
+        "Sextus. There he took off his cloak. He knelt on the ground and bowed down in prayer to "
+        "the Lord. He took off his tunic and handed it to the deacons. He stood in his linen "
+        "garment and began to wait for the executioner. When the executioner came, Cyprian told "
+        "his own people to give him twenty-five gold pieces. The brethren laid linen cloths and "
+        "hand-cloths before him.\n"
         "\n"
         "Both texts say he covered his own eyes, and they differ on the cloths. Pontius says that, "
         "\"having with his own hands bound his eyes,\" he tried to hurry the executioner. The Acta "
-        "says: \"Then the blessed Cyprian covered his eyes with his own hand. When he could not tie "
-        "the strips of cloth on himself, the presbyter Julianus and the subdeacon Julianus tied them "
-        "for him.\" We do not choose between the two.\n"
+        "says: \"Then the blessed Cyprian covered his eyes with his own hand. When he could not "
+        "tie the strips of cloth on himself, the presbyter Julianus and the subdeacon Julianus "
+        "tied them for him.\" We do not choose between the two.\n"
         "\n"
         "Only the Acta tells the burial. So the blessed Cyprian suffered martyrdom. Because the "
         "pagans were curious, his body was laid nearby. By night it was taken up from there with "
@@ -878,14 +885,14 @@ def build_stories() -> None:
         "procurator Macrobius Candidianus. These lie on the Mappalian road, beside the pools.\n"
         "\n"
         "Pontius adds things the Acta does not mention, and they are his. He says the ground was "
-        "\"level, so that it affords a noble spectacle, with its trees thickly planted on all sides.\" "
-        "People who could not see \"had climbed up into the branches of the trees, that there might "
-        "not even be wanting to him (what happened in the case of Zacchæus), that he was gazed upon "
-        "from the trees.\" He writes that the executioner \"with difficulty clasped the blade in his "
-        "failing right hand with trembling fingers, until the mature hour of glorification "
-        "strengthened the hand of the centurion with power granted from above.\" The Latin of that "
-        "sentence can be read two ways. The Acta calls the executioner a spiculator and says nothing "
-        "of any strengthening. We tell that part as Pontius's reading.",
+        "\"level, so that it affords a noble spectacle, with its trees thickly planted on all "
+        "sides.\" People who could not see \"had climbed up into the branches of the trees, that "
+        "there might not even be wanting to him (what happened in the case of Zacchæus), that he "
+        "was gazed upon from the trees.\" He writes that the executioner \"with difficulty clasped "
+        "the blade in his failing right hand with trembling fingers, until the mature hour of "
+        "glorification strengthened the hand of the centurion with power granted from above.\" The "
+        "Latin of that sentence can be read two ways. The Acta calls the executioner a spiculator "
+        "and says nothing of any strengthening. We tell that part as Pontius's reading.",
         "What cannot be told is what any one person in the crowd made of it, because no spectator "
         "left an account of his own. What the crowd said as a body, the Acta records: Et nos cum "
         "ipso decollemur. Pontius himself points the reader to the Acts, at the end of his account "
@@ -943,7 +950,7 @@ def build_stories() -> None:
         "Possidius supplies sheets of paper on a wall, a request not to be disturbed, and an "
         "inventory of what the dead man did not own. The test applied is CF V7.4's own three Tier 3 "
         "markers, and this account carries none of them.",
-        "How the one who spent his life adjudicating others' penitence was watched doing his own",
+        "How the man who taught that even good Christians must repent before death did it himself",
         "Possidius had been Augustine's friend for nearly forty years, and he was in the house.\n\n"
         "He records something Augustine had said often, in private conversation: that even after "
         "baptism, exemplary Christians and priests ought not depart this life without fitting "
@@ -967,9 +974,9 @@ def build_stories() -> None:
         "but what no second source gives is the interior of the sickroom. No one who fled Hippo "
         "wrote down what leaving the city was like, either.",
         "A modern listener may expect this told as a serene death. Possidius's own text does not "
-        "support serenity: a man who spent his life teaching repentance wept freely and constantly "
-        "for days, looking at psalms about sin -- the disproportion, if it looks like one, is the "
-        "formation content, not an embarrassment to smooth over.",
+        "support serenity: a man who taught repentance wept freely and constantly for days, "
+        "looking at psalms about sin -- the disproportion, if it looks like one, is the formation "
+        "content, not an embarrassment to smooth over.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
           "locus": "SSSS28-31; cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines "
@@ -1011,8 +1018,8 @@ def build_figures() -> None:
                     "persecution; executed under the emperor Valerian in 258 (lpc.story.the-death-"
                     "of-cyprian)"},
         True,
-        "our bishop, chosen while still a neophyte over his own reluctance, who taught us to care "
-        "for our enemies during a plague and was executed under Valerian",
+        "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague "
+        "he taught us to love even our enemies. He was put to death under Valerian.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
           "locus": "the whole Life and Passion", "license": "public-domain"},
@@ -1038,9 +1045,10 @@ def build_figures() -> None:
                     "again amid popular acclamation (Possidius, Vita VIII; Doc_01 SS2); died 430, "
                     "during the Vandal siege of Hippo (lpc.story.the-psalms-on-the-wall)"},
         True,
-        "our bishop at Hippo, seized by our own acclaim for the office twice over his own "
-        "reluctance, who spent his last days weeping over psalms of penitence while an army lay "
-        "outside the walls",
+        "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he "
+        "wept. Later "
+        "they pressed him into the bishop's office over his own refusal. He spent his last days "
+        "weeping over psalms of penitence, while an army lay outside the walls.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
           "locus": "the whole Vita Augustini", "license": "public-domain"}],
@@ -1062,8 +1070,8 @@ def build_figures() -> None:
                     "Life and Passion of Cyprian after his bishop's execution in 258, the first "
                     "Christian biography (Doc_09 SS2)"},
         True,
-        "our bishop's own deacon, who stayed with him through exile and wrote, after the "
-        "execution, the account by which most of what we remember of Cyprian's own life reaches us",
+        "Our bishop's own deacon. He went with him into exile, and after the execution he wrote "
+        "the account of his life and death.",
         conf("B", "verified-via-authority", "load-bearing", "Widely Accepted",
              "Widely Accepted rather than Documented: Pontius's own presence at Curubis is licensed "
              "for that specific fact but his own biography generally (SSSS2-4, Cyprian's conversion) "
@@ -1092,8 +1100,8 @@ def build_figures() -> None:
                     "wrote the Vita Augustini, the source for both lpc.story.the-psalms-on-the-wall "
                     "and lpc.quote.clamour-and-tears"},
         True,
-        "the bishop of Calama who had been Augustine's friend for forty years, and who stood by "
-        "him and prayed as he died",
+        "the bishop of Calama who had been Augustine's friend for almost forty years, and who "
+        "stood by him and prayed as he died",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
           "locus": "the whole Vita Augustini, and its own closing first-person account of "
@@ -1115,8 +1123,8 @@ def build_figures() -> None:
         {"display": "exhorted a group of Christians to martyrdom under persecution, among them his "
                     "own wife, who died with them; himself left half-consumed by fire and "
                     "overwhelmed with stones, found half dead by his own daughter and revived; "
-                    "ordained presbyter by Cyprian afterward, though he had not wanted to survive "
-                    "(Cyprian, Ep. XXXIV; lpc.story.numidicus)"},
+                    "added by Cyprian afterward to the presbyters of Carthage, though he had not "
+                    "wanted to survive (Cyprian, Ep. XXXIV; lpc.story.numidicus)"},
         True,
         "a man who watched his own wife die with those he had exhorted to martyrdom, was himself "
         "left for dead, and did not want to have survived",
@@ -1124,11 +1132,11 @@ def build_figures() -> None:
         [{"source_id": "lpc.source.cyprian-epistles",
           "locus": "Ep. XXXIV, the whole letter", "license": "public-domain"}],
         "The central named subject of lpc.story.numidicus, and this world's own clearest single "
-        "case of ordination granted on the strength of what a man had endured rather than what he "
-        "had studied -- the same criterion Doc_04 makes a Primary gravity (sacramental and "
-        "ordination validity) applied here to one identifiable person in public. His own wife and "
-        "daughter are visible in the same letter and never audible (Doc_09 SS7 item 4); neither is "
-        "named, so neither is built as a figure of her own here.",
+        "case of a man added to the presbyterate on the strength of what he had endured rather "
+        "than what he had studied -- the same criterion Doc_04 makes a Primary gravity "
+        "(sacramental and ordination validity) applied here to one identifiable person in public. "
+        "His own wife and daughter are visible in the same letter and never audible (Doc_09 SS7 "
+        "item 4); neither is named, so neither is built as a figure of her own here.",
     )
 
     emit_figure(
@@ -1140,8 +1148,8 @@ def build_figures() -> None:
                     "women be received back to communion (Ep. XX; lpc.story.celerinus-writes-to-"
                     "lucian)"},
         True,
-        "a confessor who did not write about his own suffering, but about his sister's, and asked "
-        "another confessor in prison to help restore her",
+        "A confessor who wrote to another confessor in prison. He wept for his sister, who had "
+        "sacrificed, and asked him to help restore her.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.cyprian-epistles",
           "locus": "Ep. XX, the whole letter", "license": "public-domain"}],
@@ -1157,12 +1165,13 @@ def build_figures() -> None:
         [{"name": "Lucian, a confessor among us", "tag": "in-world"},
          {"name": "Lucian of Carthage (fl. mid-3rd century)", "tag": "scholarly"}],
         {"display": "a confessor imprisoned under persecution, condemned to die by hunger and "
-                    "thirst, who replied to Celerinus from the same prison, granting peace to "
-                    "Celerinus's own sister and to Numeria and Candida (Ep. XXI; lpc.story."
-                    "celerinus-writes-to-lucian)"},
+                    "thirst, who replied to Celerinus from prison, granting peace to Numeria and "
+                    "Candida once their case was set before the bishop (Ep. XXI; "
+                    "lpc.story.celerinus-writes-to-lucian)"},
         True,
-        "a confessor who answered from a cell where he expected to die of hunger and thirst, "
-        "granting peace to three women he had never met in person",
+        "A confessor who answered from a prison cell. He and others there had been ordered to die "
+        "of hunger and thirst. He sent peace to Numeria and Candida, two women he knew well, once "
+        "each case was set before the bishop.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.cyprian-epistles",
           "locus": "Ep. XXI, the whole letter", "license": "public-domain"}],
@@ -1246,9 +1255,9 @@ def build_quotes() -> None:
         "joined to what he calls God's own judgment. Rejecting him, on his own reading, meant "
         "rejecting that acclamation itself.",
         "For they have not forgotten their conspiracy. They still carry that old venom against my "
-        "office as bishop, which means against your vote and against God's judgment. They are "
-        "renewing their old attack on me, and once again they are starting their sacrilegious plots "
-        "with their usual cunning.",
+        "office as bishop, which means against your suffrage and against God's judgment. They are "
+        "renewing their old attack on me, and once again they are starting their sacrilegious "
+        "plots with their usual cunning.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.cyprian-epistles",
           "locus": "Ep. XXXIX SS1; independently re-located and re-read this session at cic/texts/"

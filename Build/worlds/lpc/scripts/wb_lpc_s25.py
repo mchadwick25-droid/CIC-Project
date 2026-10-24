@@ -54,18 +54,18 @@ INPUTS and OUTPUTS
     sources and are never cited in sources[]. Citations to Doc_04 and Doc_08 sit in each
     record's description and body, for example "(Doc_04 §3.1)".
 
-THREE CASES OF EMPTY sources[]
+TWO CASES OF EMPTY sources[]
   - Force 1A-2 (the standing legal condition of an unlicensed religion): Doc_08 cites
     Doc_01 §2 and Doc_02 §5, this world's own governing documents and not a vendored
     Registry row, for a background legal condition that this world's corpus does not narrate
     directly.
-  - Force 1B-3 (the inherited Latin theological vocabulary): Doc_08 cites Doc_01 §6-§7 and
-    Doc_02 §2's "Tertullian disclosure". Tertullian's corpus is Registry row 29, Boundary
-    Status EXCLUDED (see wb_lpc_s21.py). No lpc.source.tertullian-* record exists, and none
-    is invented.
   - Forces 2B-3 (the illegal-to-established shift) and 3B-2 (Transmission, the 133-year
     silence) rest on a fact about this world's own Registry (a placement judgment at 2B-3;
     the dated-row gap at 3B-2), not on a vendored text that makes a claim.
+  Force 1B-3 (the inherited Latin theological vocabulary) cites only Letter CCIX §3, for its
+  Punic sentence. Doc_08 cites Doc_01 §6-§7 and Doc_02 §2's "Tertullian disclosure" for the
+  rest. Tertullian's corpus is Registry row 29, Boundary Status EXCLUDED (see
+  wb_lpc_s21.py). No lpc.source.tertullian-* record exists, and none is invented.
 
 MECHANICAL and AUTHORED fields
   - id, world_id, record_type, schema_version, status, register are mechanical.
@@ -413,39 +413,38 @@ def build_gravities() -> None:
         "This is the concern everything else in this world turns on. A bishop is personally "
         "answerable for a bounded flock, and much of the rest of the world flows from that.\n"
         "\n"
-        "It recurs without a break in every primary source, for both bishops and both phases. It "
-        "appears in both bishops' stories of coming to office. It appears in the crisis letters "
-        "of both phases. It appears in Cyprian's letters and treatises. It appears in Augustine's "
-        "sermons.\n"
+        "It recurs in every primary source, for both bishops and both phases. It appears in both "
+        "bishops' stories of coming to office. It appears in the crisis letters of both phases. It "
+        "appears in Cyprian's letters and treatises. It appears in Augustine's sermons.\n"
         "\n"
         "Other concerns in this world depend on it. A bishop who holds this office carries out "
         "penitential discipline. Preaching and catechesis are the main work of the office. "
-        "Conciliar authority is a theory about who holds the office by right. Sacramental "
-        "validity asks the same thing. This world's formation is pastoral and sacramental before "
-        "it is legal. All the teaching and penance exists because a bishop answers for his flock "
-        "in person.\n"
+        "Conciliar authority is a theory about who holds the office by right. Sacramental validity "
+        "asks the same thing. This world's formation is pastoral and sacramental before it is "
+        "legal. All the teaching and penance exists because a bishop answers for his flock in "
+        "person.\n"
         "\n"
-        "It explains why Cyprian's crisis letters exist at all. It explains why Augustine's "
-        "sermon collection is so large. It explains why both bishops' accounts of coming to "
-        "office are attested separately. They are treated as formative. It shows in Carthage and "
-        "in Hippo, in both phases, in the bishops' own words. It reinforces penitential "
-        "discipline and collegial communion. It reinforces preaching and catechesis. It "
-        "reinforces sacramental validity and the confessor tension. Conciliar authority "
-        "reinforces it only weakly. No link with grace and human incapacity has been shown.\n"
+        "It explains why Cyprian's crisis letters exist at all. It explains why Augustine's sermon "
+        "collection is so large. It explains why both bishops' accounts of coming to office are "
+        "attested separately. They are treated as formative. It shows in Carthage and in Hippo, in "
+        "both phases, in the bishops' own words. It reinforces penitential discipline and "
+        "collegial communion. It reinforces preaching and catechesis. It reinforces sacramental "
+        "validity and the confessor tension. Conciliar authority reinforces it only weakly. No "
+        "link with grace and human incapacity has been shown.\n"
         "\n"
         "The evidence is solid. Accounts of holding and using this office are quoted directly and "
-        "checked. They are the preface to the Council of 256, Augustine's Letters XXXI and "
-        "CCXIII, and Pontius's narrative. Possidius's Life of Augustine is not counted. It has "
-        "not been checked on its own, beyond naming the Megalius consecration. So the rating "
-        "rests on Pontius, the two letters, and the 256 preface alone.\n"
+        "checked. They are the preface to the Council of 256, Augustine's Letters XXXI and CCXIII, "
+        "and Pontius's narrative. Possidius's Life of Augustine is not counted in this rating, "
+        "though it has since been read in full. So the rating rests on Pontius, the two letters, "
+        "and the 256 preface alone.\n"
         "\n"
         "It is the concern most closely tied to the forces acting on the world. In law, "
         "Christianity was an unlicensed religion. So the office has no outside enforcement. A "
         "personal bond holds it together. The congregation's acclamation shows how a man comes to "
-        "hold the office. The Decian and Valerianic persecutions make a bishop's duty to his "
-        "flock acute. They work through the flock's own failure and the bishop's own test. The "
-        "plague is a pressure the bishop shares. He does not judge it. The Vandal invasion and "
-        "the siege of Hippo mark where the bond ends. It ends when the bishop does.",
+        "hold the office. The Decian and Valerianic persecutions make a bishop's duty to his flock "
+        "acute. They work through the flock's own failure and the bishop's own test. The plague is "
+        "a pressure the bishop shares. He does not judge it. The Vandal invasion and the siege of "
+        "Hippo mark where the bond ends. It ends when the bishop does.",
         [
             "\"it is the shepherd that is chiefly wounded in the wound of his flock\" (Cyprian, "
             "De Lapsis)",
@@ -542,39 +541,41 @@ def build_gravities() -> None:
         G3, "Collegial Communion Preserved Despite Disagreement",
         "primary",
         "Few things mattered more to this world than staying in communion despite real "
-        "disagreement. Bishops in this world disagree, sometimes sharply. But they work to keep "
-        "communion rather than break it and build a rival hierarchy.\n"
+        "disagreement. Bishops here disagree, sometimes sharply. But they work to keep communion "
+        "rather than break it and build a rival hierarchy.\n"
         "\n"
         "The pattern recurs across both phases. Cyprian's preface to the Council of 256 states it "
         "directly: \"neither does any of us set himself up as a bishop of bishops... every "
-        "bishop... has his own proper right of judgment.\" Augustine's On Baptism argues at "
-        "length against Cyprian's own ruling on rebaptism. Yet it never treats him as outside "
-        "communion. Letter 185 addresses the Donatist schism in the same pastoral, corrective "
-        "tone.\n"
+        "bishop... has his own proper right of judgment.\" Augustine's On Baptism argues at length "
+        "against Cyprian's own ruling on rebaptism. Yet it never treats him as outside communion. "
+        "Letter 185 takes the same tone with the Donatist split: a pastor's tone, meant to "
+        "correct.\n"
         "\n"
         "Our own case for this world's coherence across the century between its two bishops rests "
         "on this concern. A bishop who disagrees has two paths. He can work to keep communion, or "
-        "he can break it and set up a parallel hierarchy. Both bishops take the first path. "
-        "Neither breaks fellowship over the sharpest doctrinal disputes in the record. Neither "
-        "bishop's writings hold a single counter-example.\n"
+        "he can break it and set up a parallel hierarchy. Both bishops take the first path. Over "
+        "rebaptism, the sharpest dispute between them, neither breaks fellowship with a fellow "
+        "bishop. The fight over grace went another way. African councils condemned what the "
+        "Pelagians taught. So the concern has a scope. It governs disagreement over practice "
+        "among bishops in communion. It does not reach teaching a council judged heresy.\n"
         "\n"
         "This explains why Augustine's long, respectful argument with a bishop he disputes reads "
-        "as a son arguing with a father, not a rejection. It also directly explains the world's "
-        "boundary against Donatism. The pattern shows in both phases, in how both bishops act, "
-        "not just in a shared word. It reinforces pastoral office, penitential discipline, "
-        "conciliar authority, and sacramental validity. Sacramental validity is the doctrinal "
-        "question where it is tested hardest.\n"
+        "as a son arguing with a father, not a rejection. It also explains where this world draws "
+        "its line against Donatism. The pattern shows in both phases, in how both bishops act, not "
+        "just in a shared word. It supports four other concerns: the pastor's office, the "
+        "discipline of penance, the weight of councils, and whether a sacrament is valid. That "
+        "last question is where it is tested hardest.\n"
         "\n"
-        "The confidence split is disclosed, not resolved. The underlying facts are solidly "
-        "attested. The 256 preface's own words and On Baptism's long argument are directly quoted "
-        "and checked. But reading them as one concern across both phases, rather than two "
-        "separate historical facts, is an interpretation. That interpretation stands at Widely "
-        "Accepted, and the record carries this more cautious rating instead of hiding the split.\n"
+        "The confidence split is named, not resolved. The facts beneath it are well attested. The "
+        "256 preface's own words and On Baptism's long argument are directly quoted and checked. "
+        "But to read them as one concern across both phases, not two separate facts, is our own "
+        "reading. That reading stands at Widely Accepted. The record carries this more cautious "
+        "rating rather than hide the split.\n"
         "\n"
-        "Every force linked to this concern tested it rather than created it. The organized "
-        "Carthaginian church gave colleagues who could meet and already disagreed. The Donatist "
-        "schism tested it at its hardest edge. Augustine's engagement with Cyprian's conciliar "
-        "acts tested it across the century gap. It held each time. It is this world's own way of "
+        "Every force linked to this concern tested it rather than created it. The organized church "
+        "at Carthage gave it colleagues who could meet and who already disagreed. The Donatist "
+        "schism tested it at its hardest edge. Augustine's reading of Cyprian's council acts "
+        "tested it across the century gap. This world's own bishops kept it each time. It is this world's own way of "
         "adapting, tested three times from three directions.",
         [
             "Cyprian's preface to the Council of 256: \"neither does any of us set himself up as "
@@ -602,38 +603,37 @@ def build_gravities() -> None:
     emit_gravity(
         G4, "Preaching and Catechesis as the Primary Mode of Formation",
         "supporting",
-        "This concern is real too, though its reach is narrower than the others'. It is the "
-        "medium through which this world's other central concerns are taught, rather than a force "
-        "that organizes the world by itself. It clearly recurs, shapes believers, and lasts "
-        "across both phases. But its links to other concerns, and what it explains, are "
-        "narrower.\n"
+        "This concern is real too, though its reach is narrower than the others'. It is the means "
+        "by which this world's other central concerns are taught. It does not organize the world "
+        "by itself. It clearly recurs, shapes believers, and lasts across both phases. But its "
+        "links to other concerns, and what it explains, are narrower.\n"
         "\n"
-        "It recurs in Augustine's Sermons and Tractates on John, in the catechetical works, and "
-        "in Cyprian's De Dominica Oratione. Pastoral office depends on it as its main activity. "
-        "But nothing else depends on it the way pastoral office, penitential discipline, and "
-        "collegial communion do. It is the channel through which those concerns are taught and "
-        "enforced.\n"
+        "It recurs in Augustine's sermons and his Tractates on John, in the works written to teach "
+        "those preparing for baptism, and in Cyprian's book on the Lord's Prayer. The pastor's "
+        "office depends on it as its main task. But nothing else leans on it the way three "
+        "concerns do: the pastor's office, the discipline of penance, and keeping communion. It is "
+        "the channel through which those concerns are taught and enforced.\n"
         "\n"
-        "Its power to shape believers is strong and direct. That is the explicit subject of the "
-        "catechetical works and the stated purpose of both bishops' preaching. It explains how "
-        "formation happens more than why any particular crisis occurred. It is attested in both "
-        "phases, in both bishops' own words. It reinforces pastoral office, penitential "
-        "discipline, and grace and human incapacity. No relationship has been shown with "
-        "collegial communion, conciliar authority, sacramental validity, or the confessor "
-        "tension.\n"
+        "Its power to shape believers is strong and direct. That is what the works for those "
+        "preparing for baptism are about, and it is the stated aim of both bishops' preaching. It "
+        "explains how people were formed more than why any one crisis came. It shows in both "
+        "phases, in both bishops' own words. It supports three concerns: the pastor's office, the "
+        "discipline of penance, and grace and human incapacity. No link has been shown with four "
+        "others: keeping communion, the weight of councils, whether a sacrament is valid, and the "
+        "confessors' claim.\n"
         "\n"
-        "The evidence is solidly attested for the existence and basic content of these texts. The "
-        "specific passages carry the lower citation grade (B), but that is not a thin spot in the "
+        "The evidence is solid for the existence and basic content of these texts. The specific "
+        "passages carry the lower citation grade (B), but that is not a thin spot in the "
         "evidence.\n"
         "\n"
-        "It depends on a shared vernacular to teach in: the inherited Latin theological "
-        "vocabulary. It also connects to every ongoing outside pressure on the world. These are "
-        "the Valerianic persecution, the plague, the Donatist schism, and the rival systems of "
-        "Manichaeism and Pelagianism. This concern is the channel through which outside pressure "
-        "reaches an ordinary believer. That is this world's characteristic response: crisis "
-        "turned into teaching. The plague is the clearest case. It produced no new concern and no "
-        "new practice, only a treatise, and that treatise came entirely through preaching and "
-        "teaching.",
+        "It depends on a shared language to teach in: the Latin words for the faith that this "
+        "world inherited. It also connects to every outside pressure that kept bearing on the "
+        "world. These are the Valerianic persecution, the plague, the Donatist split, and the "
+        "rival teachings of the Manichees and the Pelagians. This concern is the channel through "
+        "which outside pressure reaches an ordinary believer. That is how this world tends to "
+        "respond: it turns crisis into teaching. The plague is the clearest case. It produced no "
+        "new concern and no new practice, only a treatise, and that treatise came entirely through "
+        "preaching and teaching.",
         [
             "the Sermons and Tractates on John: Augustine's vast body of preaching and scripture "
             "commentary",
@@ -751,16 +751,16 @@ def build_gravities() -> None:
         "\n"
         "It comes up again and again: in Cyprian's letters on rebaptism, in the ruling of the "
         "Council of 256, and all through Augustine's On Baptism, a whole book on the question. "
-        "Unlike conciliar authority, it is not thin. Two separate bishops argue it at length, "
-        "decades apart.\n"
+        "Unlike conciliar authority, it is not thin. Two separate bishops argue it at length, more "
+        "than a century apart.\n"
         "\n"
         "Other concerns in this world lean on it. Collegial communion is tested hardest here, "
-        "because the two bishops reach opposite answers and still stay in communion. The "
-        "confessor tension is a close cousin of it: it asks who may grant standing in the church.\n"
+        "because the two bishops reach opposite answers and still stay in communion. The confessor "
+        "tension is a close cousin of it: it asks who may grant standing in the church.\n"
         "\n"
         "It shapes practice directly. Cyprian's demand for rebaptism is a working pastoral rule. "
-        "Augustine's opposite ruling decides whether Donatist clergy come back in their own "
-        "orders or are ordained again. It explains the whole break between Stephen and Cyprian. "
+        "Augustine's opposite ruling decides whether Donatist clergy come back in their own orders "
+        "or are ordained again. It explains the whole dispute between Stephen and Cyprian. "
         "Augustine wrote a whole treatise on it. It also explains why the Donatists could cite "
         "Cyprian himself for their rebaptism.\n"
         "\n"
@@ -771,10 +771,10 @@ def build_gravities() -> None:
         "Both sides are well grounded. Each is quoted and checked: On Baptism I.1.2, the 256 "
         "preface, and Book III, chapter 2. Neither side runs short of evidence.\n"
         "\n"
-        "The Donatist schism, a steady push from outside, makes the question urgent for the "
-        "church as a whole, not just for single converts. Augustine's reading of Cyprian's "
-        "council acts reopens it across the century gap. It also ties to the recurring contest "
-        "over the failed member, because Cyprian reasons about both questions in the same way.\n"
+        "The Donatist schism, a steady push from outside, makes the question urgent for the church "
+        "as a whole, not just for single converts. Augustine's reading of Cyprian's council acts "
+        "reopens it across the century gap. It also ties to the recurring contest over the failed "
+        "member, because Cyprian reasons about both questions in the same way.\n"
         "\n"
         "That last link runs one way only. In the first phase, the discipline of penance "
         "strengthens this concern, since both ask about the boundary and about coming back. But "
@@ -786,7 +786,7 @@ def build_gravities() -> None:
             "the Council of 256's ruling on rebaptism",
             "On Baptism, Against the Donatists in full, argued at book length (citing I.1.2 and "
             "Book III, chapter 2)",
-            "the Epistles' correspondence on rebaptism, and the rupture between Stephen and "
+            "the Epistles' correspondence on rebaptism, and the dispute between Stephen and "
             "Cyprian",
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
@@ -806,46 +806,48 @@ def build_gravities() -> None:
         G7, "Grace and Human Incapacity",
         "supporting",
         "This concern is real, but it does not run nearly as wide as the others. It organizes a "
-        "large and very well attested part of the world, but only in Augustine's phase. It "
-        "does not span the whole world the way pastoral office, penitential discipline, collegial "
+        "large and very well attested part of the world, but only in Augustine's phase. It does "
+        "not span the whole world the way pastoral office, penitential discipline, collegial "
         "communion, and sacramental validity do.\n"
         "\n"
         "It comes with a real limit, and it should be said plainly rather than left for a reader "
         "to find later. Nearly all the evidence comes from one voice, Augustine, in one body of "
         "work, the anti-Pelagian corpus. So much evidence could easily be taken for breadth.\n"
         "\n"
-        "No concern in this world has more text behind it. The word \"grace\" occurs "
-        "1,798 times in the thirteen anti-Pelagian works alone. Those works form a long "
-        "project of teaching and argument, prompted by a live dispute. In them Augustine "
-        "refuses the Pelagian claim that a believer's own moral effort is enough without grace.\n"
+        "No concern in this world has more text behind it. The word \"grace\" occurs 1,798 times "
+        "in the thirteen anti-Pelagian works alone. Those works form a long project of teaching "
+        "and argument, prompted by a live dispute. In them Augustine refuses a claim he sets out "
+        "as the Pelagian one: that a believer's own moral effort is enough without grace. Whether "
+        "Pelagius himself held it in that form is disputed.\n"
         "\n"
         "It is real and heavily attested, but it stands on its own. Nothing else in this world "
-        "depends on how it is resolved. It explains why the anti-Pelagian corpus exists and why "
-        "it is so large. But the controversy does not reach back to Cyprian. It came "
-        "more than a century after him.\n"
+        "depends on how it is resolved. It explains why the anti-Pelagian corpus exists and why it "
+        "is so large. But the controversy does not reach back to Cyprian. It came more than a "
+        "century after him.\n"
         "\n"
         "So it does not span the whole world as a concern. Cyprian states the theme in passing. "
-        "His Testimonies say \"we must boast in nothing, since nothing is our own\" (III.4), "
-        "and Augustine later quoted those words against the Pelagians. But nothing in Cyprian's "
-        "phase organizes formation around it. Within Augustine's phase it is strong. It reshapes penitential discipline by raising a related but distinct "
-        "question in Augustine's phase. It is a separate question, not a continuation of that "
-        "concern. It reinforces preaching and catechesis.\n"
+        "His Testimonies say \"we must boast in nothing, since nothing is our own\" (III.4), and "
+        "Augustine later quoted those words against the Pelagians. But nothing in Cyprian's phase "
+        "organizes formation around it. Within Augustine's phase it is strong. It reshapes "
+        "penitential discipline by raising a related but distinct question in Augustine's phase. "
+        "It is a separate question, not a continuation of that concern. It reinforces preaching "
+        "and catechesis.\n"
         "\n"
         "The corpus's existence and scale are solidly attested. It is held in this project's own "
         "library and has been checked independently. The specific passages relied on carry the "
-        "lower citation grade (B). Within Augustine's own phase, that carries no confidence gap "
-        "of its own.\n"
+        "lower citation grade (B). Within Augustine's own phase, that carries no confidence gap of "
+        "its own.\n"
         "\n"
         "It has a single origin among the forces, and that is a real finding, not thin analysis. "
         "Manichaeism and Pelagianism, as live rival systems, produced it directly and entirely. "
         "The survival of Augustine's writings beyond the world carries it out of the world. The "
-        "forces analysis thus confirms the caution flagged at the start: one outside pressure, "
-        "one corpus, one phase.",
+        "forces analysis thus confirms the caution flagged at the start: one outside pressure, one "
+        "corpus, one phase.",
         [
             "the anti-Pelagian corpus: thirteen works prompted by a live controversy, with 1,798 "
             "raw occurrences of \"grace\"",
-            "Augustine's refusal of the Pelagian view of human nature, which held that a "
-            "believer's own moral effort is enough without grace",
+            "Augustine's refusal of a view he sets out as the Pelagian one, that a believer's own "
+            "moral effort is enough without grace",
         ],
         conf("B", "verified-via-authority", "load-bearing", "Documented",
              "Doc_04 §3 Candidate 7: no divergence for the Augustine-phase gravity itself. Documented "
@@ -1025,26 +1027,24 @@ def build_forces() -> None:
     emit_force(
         F1B1, "An Already-Organized Carthaginian Church Capable of Sustained Collective Response",
         "initiating", "1B",
-        "Cyprian inherited a church large and structured enough to hold real internal factions. "
-        "It could also call councils of dozens of bishops at short notice. The evidence is "
-        "documented: the councils themselves, and the Felicissimus material in Cyprian's "
-        "letters.\n"
+        "Cyprian took over a church big enough to hold real factions inside it. It could also call "
+        "councils of dozens of bishops. This is documented, in the councils themselves and in what "
+        "Cyprian's letters say about Felicissimus.\n"
         "\n"
         "From the inside, this was not a gathering that had to be built. It was already standing, "
         "with its own men of weight, its own quarrels, and its own ability to meet and decide "
         "together.\n"
         "\n"
-        "This organization made it possible to keep communion among colleagues who disagreed. "
-        "That needs colleagues who can actually meet, and who already disagree. It also made a "
-        "regulated process of penance possible, because an unorganized community could not have "
-        "run one. And it supplied the council setting where both formulas of conciliar authority "
-        "were eventually spoken.\n"
+        "Because it was organized, bishops who disagreed could still keep communion. That needs "
+        "colleagues who can meet, and who already disagree. It also made a ruled process of "
+        "penance possible. A loose community could not have run one. And it gave both formulas of "
+        "conciliar authority the councils they speak about.\n"
         "\n"
-        "A church organized enough to hold factions was also organized enough to carry an "
-        "election against a faction's opposition. And the councils that met and left written acts "
-        "are what Augustine later read and argued with.",
+        "A church organized enough to hold factions could also carry an election against a faction "
+        "that opposed it. And the councils that met and left written acts are what Augustine later "
+        "read and argued with.",
         [
-            "councils of dozens of bishops convened at short notice, including the council of 256",
+            "councils of dozens of bishops, including the council of 256",
             "the Felicissimus schism, a real internal faction the church was already organized "
             "enough to hold",
         ],
@@ -1121,17 +1121,17 @@ def build_forces() -> None:
         "literary culture, along with a Latin theological vocabulary that Tertullian is credited "
         "with forging. This is widely accepted.\n"
         "\n"
-        "The words were already to hand -- what had to be argued could be argued in the language "
-        "the people in the assembly already spoke.\n"
+        "The words were already to hand. What had to be argued could be argued in Latin, the "
+        "church's own language of preaching. Latin was not every hearer's tongue, though. For one "
+        "country town, Augustine looked for a bishop who knew Punic.\n"
         "\n"
-        "This made preaching and catechesis possible as the main way of forming people, since "
-        "that depends on a theological language in the people's own tongue, able to carry the "
-        "content.\n"
+        "This made preaching and catechesis possible as the main way of forming people, since that "
+        "depends on a theological language able to carry the content.\n"
         "\n"
         "The force is treated briefly, in proportion to its weight. It is real and enabling. But "
-        "it is not contested and not tied to one phase. It does not shape what the world's "
-        "central concerns say, only the medium they are said in. No link to any other force is "
-        "named for it.",
+        "it is not contested and not tied to one phase. It does not shape what the world's central "
+        "concerns say, only the medium they are said in. No link to any other force is named for "
+        "it.",
         [
             "the Latin theological vocabulary Tertullian is credited with forging, already "
             "available to this world's bishops without needing to be invented",
@@ -1142,11 +1142,14 @@ def build_forces() -> None:
              "world's own construction begins after Tertullian; his vocabulary is inherited, not this "
              "world's own voice) -- no lpc.source.tertullian-* record exists to cite, and none is "
              "invented here to supply one."),
-        [],
+        src(("lpc.source.augustine-general-correspondence",
+             "Letter CCIX §3, a Punic-speaking bishop sought for Fussala ('acquainted with the "
+             "Punic language') -- verified directly against "
+             "cic/texts/npnf101_augustine-confessions-letters.xml, lines 54466-54469")),
         "Taken from Doc_08 §3 Force 1B-3 (Cell 1B, Initiating/Internal). relations[] carries the "
-        "gravity<->force edge (G4) named above. sources[] is deliberately empty. The Tertullian "
-        "corpus is excluded from this world, so no Tertullian source record exists to cite, and "
-        "none is invented.",
+        "gravity<->force edge (G4) named above. sources[] cites only Letter CCIX §3, for the "
+        "Punic sentence. The Tertullian corpus is excluded from this world, so no Tertullian "
+        "source record exists to cite, and none is invented.",
     )
 
     emit_force(
@@ -1216,23 +1219,23 @@ def build_forces() -> None:
         F2A3, "The Donatist Schism",
         "ongoing", "2A",
         "The Donatist church was dominant across large parts of North African Christian life for "
-        "most of the century between the two phases. It remained a live pastoral problem "
-        "throughout Augustine's time as bishop. This is documented.\n"
+        "most of the century between the two phases. It was still a live problem for the pastor "
+        "all through Augustine's time as bishop. This is documented.\n"
         "\n"
         "The Donatists were not strangers to this world, and not heretics of a foreign kind. They "
         "were a church in the same towns, with its own bishop in the same see, claiming to be the "
         "only true church. For their central practice, they appealed to a ruling by Cyprian, this "
         "world's own first bishop.\n"
         "\n"
-        "In the second phase, no force had more far-reaching effects. It made the validity of "
-        "sacraments across the church's boundary an urgent question for the institution, not only "
-        "for individual converts. It tested, at its hardest edge, whether communion could hold "
-        "despite disagreement, and communion held.\n"
+        "In the second phase, no force had more far-reaching effects. It made one question urgent "
+        "for the whole church, not just for single converts: is a sacrament given outside the "
+        "church real? It tested, at the hardest edge, whether disagreement had to mean a split. "
+        "Augustine's answer to Cyprian shows it did not.\n"
         "\n"
         "It is also the whole reason Augustine argued about the authority of councils at all. The "
         "Donatists' appeal to Cyprian's conciliar acts obliged him to argue against a predecessor "
-        "he could not disown. That prompt came from outside, but the reading and the argument "
-        "were Augustine's own.\n"
+        "he could not disown. That prompt came from outside, but the reading and the argument were "
+        "Augustine's own.\n"
         "\n"
         "Finally, it was the outside pressure behind Augustine's teaching on coercion. That "
         "teaching has to be held in its three phases, not compressed into one. A rival communion "
@@ -1380,8 +1383,7 @@ def build_forces() -> None:
         F2B3, "The Illegal-to-Established Shift in the Office's Political Capacity",
         "ongoing", "2B",
         "Between the two phases, the bishop's office changed its legal position. At first it had "
-        "no legal standing at all. Later it could ask the state to act against a rival "
-        "communion.\n"
+        "no legal standing at all. Later it could ask the state to act against a rival communion.\n"
         "\n"
         "The outside change itself is documented. One element is contested: not whether the shift "
         "happened, but whether its consequence belongs among the world's inner forces or its "
@@ -1391,14 +1393,14 @@ def build_forces() -> None:
         "The shift is the old condition of illegality turned upside down, the same fact appearing "
         "at both ends of the story with the opposite sign. What a bishop could do had changed, "
         "though what a bishop was had not -- Cyprian never asked the magistrate for anything, and "
-        "a century and a third later, the magistrate could be asked, and eventually was.\n"
+        "a century and a third later, the emperors could be asked, and eventually were.\n"
         "\n"
         "We considered whether the shift itself was one of this world's own central concerns. It "
         "is not, because nothing in this world actually organizes itself around the shift. It "
         "changes the tools a bishop has, not what a bishop is. A separate look from the ethical "
-        "and legal side reached the same conclusion. So it is kept as a real force, with an "
-        "impact deliberately limited in proportion to its weight. A rival communion, the Donatist "
-        "church, is what made the new state power worth using.",
+        "and legal side reached the same conclusion. So it is kept as a real force, with an impact "
+        "deliberately limited in proportion to its weight. A rival communion, the Donatist church, "
+        "is what made the new state power worth using.",
         [
             "Cyprian never asking the magistrate for anything, set against Augustine's later "
             "recourse to state action against the Donatist schism a century and a half afterward",
@@ -1425,21 +1427,21 @@ def build_forces() -> None:
     emit_force(
         F2B4, "Augustine's Engagement with Cyprian's Conciliar Acts",
         "ongoing", "2B",
-        "Augustine read, argued with, and overturned the ruling on rebaptism made by Cyprian's "
-        "council of 256. He did this in On Baptism, Against the Donatists. The engagement is "
-        "documented.\n"
+        "Augustine read the ruling on rebaptism made by Cyprian's council of 256, and argued at "
+        "length that it was wrong. He did this in On Baptism, Against the Donatists. The "
+        "engagement is documented.\n"
         "\n"
         "From inside this world, Cyprian was a predecessor who belonged to them. They did not "
         "disown him, and yet he had decided this question wrongly. Augustine gave the principle "
-        "that let him say so: \"[E]ven of the plenary Councils, the earlier are often corrected "
-        "by those which follow them.\"\n"
+        "that let him say so: \"[E]ven of the plenary Councils, the earlier are often corrected by "
+        "those which follow them.\"\n"
         "\n"
-        "No other force carries as much of the world's formation logic across its 133-year "
-        "silence between the two phases. It is also the only one in which this world itself "
-        "reads and answers Cyprian's council acts. The crossing happens through texts, not "
-        "through a line of living successors. It happens more than once. Possidius quotes "
-        "Cyprian's De Mortalitate. Augustine also cites Cyprian on grace against the "
-        "Pelagians.\n"
+        "No other force carries as much of the world's formation logic across the 133 years "
+        "between the two phases, which this build has assessed as a silence in the world's "
+        "pastoral voice (Contested). It is also the only one in which this world itself reads and "
+        "answers Cyprian's council acts. The crossing happens through texts, not through a line of "
+        "living successors. It happens more than once. Possidius quotes Cyprian's De Mortalitate. "
+        "Augustine also cites Cyprian on grace against the Pelagians.\n"
         "\n"
         "This engagement produces the second of the world's two accounts of what councils can "
         "decide: Augustine's view that later councils correct earlier ones. It tests, across the "
@@ -1456,8 +1458,8 @@ def build_forces() -> None:
         [
             "\"[E]ven of the plenary Councils, the earlier are often corrected by those which "
             "follow them\" (Augustine, On Baptism, Against the Donatists)",
-            "Augustine reading, arguing with, and overturning the rebaptism ruling of Cyprian's "
-            "council of 256",
+            "Augustine reading the rebaptism ruling of Cyprian's council of 256 and arguing at "
+            "length that it was wrong",
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
              "Doc_08 §3 Force 2B-4: Documented -- Registry rows 4, 13; no divergence flagged for this "
@@ -1476,16 +1478,16 @@ def build_forces() -> None:
         F2B5, "Transmission: Survival on the Institutionally Dominant Side, Through a "
               "19th-Century Translation Programme",
         "ongoing", "2B",
-        "The writings of both Cyprian and Augustine survive in unusually full form. In his own "
-        "time or later, each man stood on the institutionally dominant side of every dispute he "
-        "joined. That side was eventually the canonized one.\n"
+        "The writings of both Cyprian and Augustine survive in unusually full form. Both were kept "
+        "by the church that later became the canonical one. That church kept Cyprian even where it "
+        "judged him wrong, on rebaptism.\n"
         "\n"
         "This project's actual access is narrower. It works mainly from the 19th-century English "
         "translation series, the Ante-Nicene Fathers and the Nicene and Post-Nicene Fathers. It "
-        "also holds critical Latin editions, but uses them far less. Both the survival pattern "
-        "and the make-up of this working corpus are documented. The named agents of transmission "
-        "are the Catholic institutional manuscript tradition, the editors and translators of "
-        "those two series, and this project's own choices about which texts to hold.\n"
+        "also holds critical Latin editions, but uses them far less. Both the survival pattern and "
+        "the make-up of this working corpus are documented. The named agents of transmission are "
+        "the Catholic institutional manuscript tradition, the editors and translators of those two "
+        "series, and this project's own choices about which texts to hold.\n"
         "\n"
         "This world was acutely aware of transmission and acted on it. Cyprian gathered his own "
         "letters into a dossier and sent it on: \"these thirteen letters sent forth at various "
@@ -1496,33 +1498,33 @@ def build_forces() -> None:
         "to be checked against the original.\n"
         "\n"
         "Some 170 years on, the same awareness took a new form. Near the end of his life, "
-        "Augustine set out to review his own works \"with a certain judicial severity.\" He "
-        "marked what displeased him \"as with a censor's pen.\" It was a deliberate act of "
-        "shaping what would outlast him.\n"
+        "Augustine set out to review his own works \"with a certain judicial severity.\" He marked "
+        "what displeased him \"as with a censor's pen.\" It was a deliberate act of shaping what "
+        "would outlast him.\n"
         "\n"
         "What this world could not experience is what came later: the Catholic tradition's own "
         "selection of texts, and a 19th-century translation programme.\n"
         "\n"
         "This has three effects. First, the record is full and one-sided at the same time. Its "
         "imbalance does not come from hostile filtering. It comes from the near-total absence of "
-        "any voice other than a bishop's. Second, the 19th-century editors' material is woven "
-        "into the text. It has repeatedly been mistaken for the world's own voice, and this "
-        "project has documented eight local cases. Third, translation shapes what can be found, "
-        "not only how accurately it reads. A search of original-language headwords cannot find a "
-        "term that the corpus only ever names in translation.\n"
+        "any voice other than a bishop's. Second, the 19th-century editors' material is woven into "
+        "the text. It has repeatedly been mistaken for the world's own voice, and this project has "
+        "documented eight local cases. Third, translation shapes what can be found, not only how "
+        "accurately it reads. A search of original-language headwords cannot find a term that the "
+        "corpus only ever names in translation.\n"
         "\n"
-        "The same pattern continues across the silence between the two phases. There it shapes "
-        "the span of the record rather than its content.",
+        "The same pattern continues across the silence between the two phases. There it shapes the "
+        "span of the record rather than its content.",
         [
             "Cyprian's own dossier of thirteen letters, \"sent forth at various times... which I "
             "have transmitted to you\"",
             "a suspect letter Cyprian sends back to be checked against the original, because its "
             "\"writing and the matter, and even the paper itself, gave me the idea that something "
             "had been taken away, or had been changed from the original\"",
-            "Augustine's Retractationes, reviewing his own life's work \"with a certain judicial "
-            "severity\" and marking what displeases him \"as with a censor's pen\" (our own "
-            "corpus holds no complete English translation of it, and none of this passage; this "
-            "English is our own rendering)",
+            "Augustine's Retractationes, reviewing his own works \"with a certain judicial "
+            "severity\" and marking what displeases him \"as with a censor's pen\" (our own corpus "
+            "holds no complete English translation of it, and none of this passage; this English "
+            "is our own rendering)",
         ],
         conf("A", "verified-via-authority", "load-bearing", "Documented",
              "Doc_08 §3 Force 2B-5: Documented for the survival pattern and for the composition of "
@@ -1589,12 +1591,12 @@ def build_forces() -> None:
         "found.\n"
         "\n"
         "Yet this world did take its own writings seriously as something that would stand after "
-        "it. Cyprian gathered and forwarded his own letters as a body of work. At the end, "
-        "Augustine went back through everything he had written and corrected it, in the "
-        "Retractationes -- our own corpus holds no English translation of that work. A man who "
-        "revises his life's work knows it will be read when he cannot answer for it. What he "
-        "could not know, and what no one in this world could know, was which of it would matter, "
-        "or to whom.\n"
+        "it. Cyprian gathered thirteen of his own letters and sent them to Rome, to give account "
+        "of what he had done. At the end, Augustine went back through his books one by one and "
+        "corrected them, in the Retractationes. He did not reach his letters and sermons. Our own "
+        "corpus holds no English translation of that work. A man who revises his own books knows "
+        "they will be read when he cannot answer for them. What he could not know, and what no one "
+        "in this world could know, was which of it would matter, or to whom.\n"
         "\n"
         "The change is real, but it runs outward, not inward. Augustine's teaching on grace and "
         "human incapacity outlives its own setting most of all -- within this world that teaching "
@@ -1608,8 +1610,8 @@ def build_forces() -> None:
         [
             "Augustine's theological corpus, which became the foundational inheritance of the "
             "later Western theological tradition",
-            "Augustine's Retractationes, reviewing his own life's work near the end of it (our "
-            "own corpus holds no English translation of it)",
+            "Augustine's Retractationes, reviewing his own books near the end of his life, though "
+            "not his letters and sermons (our own corpus holds no English translation of it)",
         ],
         conf("B", "verified-via-authority", "load-bearing", "Widely Accepted",
              "Doc_08 §3 Force 3B-1: Widely Accepted -- Doc_01 §6. Layer 2 carries the Reported-"

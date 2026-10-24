@@ -49,7 +49,7 @@ narrative_tier_justification: 'Documented. Tier 1, Documented (Doc_09 SS3). Poss
   intervention, which lpcstory006 marks as his alone; Possidius supplies sheets of paper on a wall, a request not to be disturbed,
   and an inventory of what the dead man did not own. The test applied is CF V7.4''s own three Tier 3 markers,
   and this account carries none of them.'
-tellable_as: How the one who spent his life adjudicating others' penitence was watched doing his own
+tellable_as: How the man who taught that even good Christians must repent before death did it himself
 text: 'Possidius had been Augustine''s friend for nearly forty years, and he was in the house.
 
 
@@ -77,8 +77,8 @@ absent_detail: Possidius is the only witness to the last weeks -- the psalms, th
   second source gives is the interior of the sickroom. No one who fled Hippo wrote down what leaving the
   city was like, either.
 modern_contrast: 'A modern listener may expect this told as a serene death. Possidius''s own text does
-  not support serenity: a man who spent his life teaching repentance wept freely and constantly for days,
-  looking at psalms about sin -- the disproportion, if it looks like one, is the formation content, not
-  an embarrassment to smooth over.'
+  not support serenity: a man who taught repentance wept freely and constantly for days, looking at psalms
+  about sin -- the disproportion, if it looks like one, is the formation content, not an embarrassment
+  to smooth over.'
 ---
 Derived from Story-Chunks/lpcstory007_the-psalms-on-the-wall.md, recast into first-person register. 'Shortest penitential Psalms' is at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 4925.
