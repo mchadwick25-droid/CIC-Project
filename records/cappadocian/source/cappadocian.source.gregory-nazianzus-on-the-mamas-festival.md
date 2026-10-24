@@ -17,7 +17,7 @@ relations: []
 author: Gregory of Nazianzus
 work: Gregory of Nazianzus on the Mamas festival
 edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 7 (Cyril of Jerusalem, Gregory Nazianzen), ed.
-  Schaff (cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml covers the Orations; among
+  Schaff (the vendored file npnf207_cyril-jerusalem-gregory-nazianzen.xml covers the Orations; among
   the ~245 letters, only Epp. 101, 102, 202). A direct text search of that file finds no occurrence of
   'Mamas', so this work is not within the vendored edition.
 citation: Gregory of Nazianzus, on the Mamas festival

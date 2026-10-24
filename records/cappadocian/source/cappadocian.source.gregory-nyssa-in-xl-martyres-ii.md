@@ -18,7 +18,7 @@ author: Gregory of Nyssa
 work: Gregory of Nyssa, In XL Martyres II (Emmelia's role in acquiring and enshrining the Forty Martyrs'
   relics at the Annisa estate shrine)
 edition: Confirmed absent from the vendored npnf205 -- independently confirmed by a direct text search
-  of cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt (zero occurrences of 'Forty Martyrs' or 'XL
+  of the vendored file npnf205_gregory-nyssa-dogmatic-treatises.txt (zero occurrences of 'Forty Martyrs' or 'XL
   Martyres')
 citation: Gregory of Nyssa, In XL Martyres II
 kind: unvendored

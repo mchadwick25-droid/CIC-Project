@@ -931,6 +931,6 @@ Fixed:
 - `cappadocian.quote.basil-against-eunomius-ant`: the ant passage is Basil's Letter XVI, not the treatise. Its source is now `basil-letters-general-corpus`, Letter XVI; the quote text was rechecked verbatim against npnf208.
 - `cappadocian.term.epektasis`: re-sourced to Nyssa, Against Eunomius VIII (NPNF numbering), which is vendored. Widely Accepted stands.
 
-Still open: records that cite the four sources now marked unvendored still carry their earlier verification states (e.g. the nine records citing De vita sua). They need a pass to set what each can claim without a vendored text.
+Still open: records that cite the four sources now marked unvendored still carry their earlier verification states (e.g. the nine records citing De vita sua). They need a pass to set what each can claim without a vendored text. Correcting the four `kind` labels made the M9 `emic-vendored-only/cappadocian` count accurate: 84 emic records cite a source the Library does not hold, up from 66 counted while those four were mislabelled. The waiver in `engine/m9/enforce.py` now says 84; its deadline and owner are unchanged.
 
 Status: OPEN for the follow-on pass. CLOSED for the claim check findings.

@@ -19,7 +19,7 @@ relations: []
 author: Gregory of Nazianzus
 work: Gregory of Nazianzus, De vita sua and the autobiographical poems
 edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 7 (Cyril of Jerusalem, Gregory Nazianzen), ed.
-  Schaff, vendored as cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml. Covers the Orations
+  Schaff, vendored as the vendored file npnf207_cyril-jerusalem-gregory-nazianzen.xml. Covers the Orations
   and 96 of the ~245 letters with actual body text (Source_Registry.md row 31). De vita sua and the
   autobiographical poems themselves are NOT within this edition as continuous text -- no Poem-type div
   exists in the file (Source_Registry.md row 36).
