@@ -8216,7 +8216,7 @@
         {
           "work": "Compendio storico, Tomo I: the conversion and early church of Armenia as Serpos tells it",
           "author": "serpos",
-          "role": "transmission",
+          "role": "context",
           "confidence": "provisional",
           "source_file": "serpos_compendio-storico-nazione-armena-t1-ita_1786.txt",
           "rights": "Public Domain (published 1786, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
@@ -14869,7 +14869,7 @@
         {
           "work": "Philokalia, vol. 1: the patristic texts (fourth to seventh centuries) as printed",
           "author": "philokalia",
-          "role": "transmission",
+          "role": "antecedent",
           "confidence": "provisional",
           "source_file": "philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
           "rights": "Public Domain (published 1893, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'http://creativecommons.org/publicdomain/mark/1.0/')"
@@ -14877,7 +14877,7 @@
         {
           "work": "Philokalia, vol. 2: Gregory of Sinai, Gregory Palamas, Kallistos and Ignatius Xanthopoulos and the other fourteenth-century texts as printed",
           "author": "philokalia",
-          "role": "transmission",
+          "role": "tradition",
           "confidence": "provisional",
           "source_file": "philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt",
           "rights": "Public Domain (published 1893, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
@@ -15233,7 +15233,7 @@
         {
           "work": "The Ancient and Modern History of the Brethren (Brüder-Historie, 1771; English 1780)",
           "author": "cranz",
-          "role": "transmission",
+          "role": "context",
           "confidence": "provisional",
           "source_file": "cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt",
           "rights": "Public Domain (published 1780, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
@@ -18237,7 +18237,7 @@
         {
           "work": "Twenty One Discourses upon the Augsburg Confession (English, 1753)",
           "author": "zinzendorf",
-          "role": "transmission",
+          "role": "context",
           "confidence": "provisional",
           "source_file": "zinzendorf_twenty-one-discourses-augsburg-confession_okely1753.txt",
           "rights": "Public Domain (published 1753, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
@@ -19849,7 +19849,7 @@
         {
           "work": "The Garden of the Soul (1740; 1755 printing)",
           "author": "challoner",
-          "role": "transmission",
+          "role": "context",
           "confidence": "provisional",
           "source_file": "challoner_garden-of-the-soul_1755.txt",
           "rights": "Public Domain (published 1755, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
@@ -23622,7 +23622,7 @@
         {
           "work": "Vetera monumenta Poloniae et Lithuaniae, vol. IV, as a whole",
           "author": "theiner",
-          "role": "transmission",
+          "role": "context",
           "confidence": "provisional",
           "source_file": "theiner_vetera-monumenta-poloniae-lithuaniae-v4-lat_1864.txt",
           "rights": "Public Domain (published 1864, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
@@ -24726,7 +24726,7 @@
         {
           "work": "The Ancient and Modern History of the Brethren (Brüder-Historie, 1771; English 1780)",
           "author": "cranz",
-          "role": "transmission",
+          "role": "context",
           "confidence": "provisional",
           "source_file": "cranz_ancient-and-modern-history-of-the-brethren_latrobe1780.txt",
           "rights": "Public Domain (published 1780, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
@@ -24750,7 +24750,7 @@
         {
           "work": "Acta Fratrum Unitatis in Anglia (1749)",
           "author": "moravian-church",
-          "role": "transmission",
+          "role": "context",
           "confidence": "provisional",
           "source_file": "moravian-church_acta-fratrum-unitatis-in-anglia_1749.txt",
           "rights": "Public Domain (published 1749, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
@@ -26976,7 +26976,7 @@
         {
           "work": "Hymns and Spiritual Songs as sung beyond Dissent",
           "author": "watts",
-          "role": "transmission",
+          "role": "antecedent",
           "confidence": "provisional",
           "source_file": "watts_hymns-and-spiritual-songs-ninth-edition_1725.txt",
           "rights": "Public Domain (published 1725, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
@@ -27222,7 +27222,7 @@
         {
           "work": "The Mystery hid from Ages and Generations (1784)",
           "author": "chauncy",
-          "role": "transmission",
+          "role": "context",
           "confidence": "provisional",
           "source_file": "chauncy_mystery-hid-from-ages-and-generations_1784.txt",
           "rights": "Public Domain (published 1784, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
@@ -27326,7 +27326,7 @@
         {
           "work": "The Salvation of All Men strictly examined (1790)",
           "author": "edwards-jonathan-jr",
-          "role": "transmission",
+          "role": "context",
           "confidence": "provisional",
           "source_file": "edwards-jonathan-jr_salvation-of-all-men-strictly-examined_1790.txt",
           "rights": "Public Domain (published 1790, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
@@ -27390,7 +27390,7 @@
         {
           "work": "Hymns and Spiritual Songs as sung beyond Dissent",
           "author": "watts",
-          "role": "transmission",
+          "role": "antecedent",
           "confidence": "provisional",
           "source_file": "watts_hymns-and-spiritual-songs-ninth-edition_1725.txt",
           "rights": "Public Domain (published 1725, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
@@ -27722,7 +27722,7 @@
         {
           "work": "Dedication of the 1893 edition to the hesychast fathers of Mount Athos (P. Ath. Tzelatis)",
           "author": "philokalia",
-          "role": "transmission",
+          "role": "context",
           "confidence": "provisional",
           "source_file": "philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt",
           "rights": "Public Domain (published 1893, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'http://creativecommons.org/publicdomain/mark/1.0/')"
@@ -27760,7 +27760,7 @@
         {
           "work": "Unigenitus (8 September 1713)",
           "author": "clement-xi",
-          "role": "transmission",
+          "role": "context",
           "confidence": "provisional",
           "source_file": "clement-xi_unigenitus-lat-eng_1713.txt",
           "rights": "Public Domain (published 1713, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
@@ -27830,7 +27830,7 @@
         {
           "work": "History and Confession of Faith (1823; English 1827/1834)",
           "author": "calvinistic-methodists-wales",
-          "role": "transmission",
+          "role": "context",
           "confidence": "provisional",
           "source_file": "calvinistic-methodists-wales_history-constitution-rules-confession_1834.txt",
           "rights": "Public Domain (published 1834, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
@@ -27886,7 +27886,7 @@
         {
           "work": "Methodistiaeth Cymru, vol. I: Hughes's history",
           "author": "hughes-john",
-          "role": "transmission",
+          "role": "context",
           "confidence": "assigned",
           "source_file": "hughes-john_methodistiaeth-cymru-v1-cym_1851.txt",
           "rights": "Public Domain (published 1851, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
@@ -27934,7 +27934,7 @@
         {
           "work": "Hanes bywyd yr awdwr and the critical essay (N. Cynhafal Jones, 1887)",
           "author": "jones-n-cynhafal",
-          "role": "transmission",
+          "role": "context",
           "confidence": "provisional",
           "source_file": "williams-pantycelyn_gweithiau-v1-cym_cynhafal-jones1887.txt",
           "rights": "Public Domain (published 1887, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'https://creativecommons.org/licenses/by-sa/4.0/')"
@@ -27950,7 +27950,7 @@
         {
           "work": "Favourite Welsh Hymns translated into English (1854)",
           "author": "morris-joseph",
-          "role": "transmission",
+          "role": "context",
           "confidence": "assigned",
           "source_file": "morris-joseph_favourite-welsh-hymns-translated_1854.txt",
           "rights": "Public Domain (Project Gutenberg eBook #30370, released as public domain in the USA; the underlying edition was published 1854, more than 95 years ago)"
@@ -27958,7 +27958,7 @@
         {
           "work": "Translator's preface (G. R. G. Pughe, 1900)",
           "author": "pughe-grg",
-          "role": "transmission",
+          "role": "context",
           "confidence": "assigned",
           "source_file": "griffiths-ann_hymns-in-english-verse_pughe1900.txt",
           "rights": "Public Domain (Project Gutenberg eBook #51190, released as public domain in the USA; the underlying edition was published 1900, more than 95 years ago)"
@@ -28146,7 +28146,7 @@
         {
           "work": "Shakers: Compendium (1859)",
           "author": "evans-frederick",
-          "role": "transmission",
+          "role": "context",
           "confidence": "assigned",
           "source_file": "evans-frederick_shakers-compendium-of-the-origin-history-principles-rules_1859.txt",
           "rights": "Public Domain (published 1859, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
@@ -28162,7 +28162,7 @@
         {
           "work": "The Shakers' Covenant (1873) -- Grosvenor's introduction and outline of Shaker history",
           "author": "grosvenor",
-          "role": "transmission",
+          "role": "context",
           "confidence": "assigned",
           "source_file": "grosvenor_shakers-covenant-with-a-brief-outline-of-shaker-history_1873.txt",
           "rights": "Public Domain (published 1873, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
@@ -28580,16 +28580,16 @@
         {
           "work": "Preface to A Cry from the Desart (1707)",
           "author": "lacy-john",
-          "role": "transmission",
-          "confidence": "assigned",
+          "role": "context",
+          "confidence": "provisional",
           "source_file": "misson_cry-from-the-desart_lacy1707.txt",
           "rights": "Public Domain (published 1707, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         },
         {
           "work": "Warnings of the Eternal Spirit, second part (1707)",
           "author": "lacy-john",
-          "role": "transmission",
-          "confidence": "assigned",
+          "role": "context",
+          "confidence": "provisional",
           "source_file": "lacy-john_warnings-of-the-eternal-spirit_1707.txt",
           "rights": "Public Domain (published 1707, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         },
@@ -28658,7 +28658,7 @@
         {
           "work": "Historical introduction (E. B. Underhill, 1847)",
           "author": "broadmead-church",
-          "role": "transmission",
+          "role": "context",
           "confidence": "provisional",
           "source_file": "broadmead-church_records-1640-1687_underhill1847.txt",
           "rights": "Public Domain (published 1847, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
@@ -28864,7 +28864,7 @@
         {
           "work": "The Life of Saint Rose of Lima (Faber's series, 1847; American edition 1855)",
           "author": "faber-fw",
-          "role": "transmission",
+          "role": "context",
           "confidence": "assigned",
           "source_file": "faber-fw_life-of-saint-rose-of-lima_1855.txt",
           "rights": "Public Domain (published 1855, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'The Library of Congress is unaware of any copyright restrictions for this item.')"
@@ -29570,7 +29570,7 @@
         {
           "work": "A Liturgy ... for the use of the First Episcopal Church in Boston (1785)",
           "author": "kings-chapel",
-          "role": "transmission",
+          "role": "context",
           "confidence": "provisional",
           "source_file": "kings-chapel_liturgy-collected-principally-from-the-book-of-common-prayer_1785.txt",
           "rights": "Public Domain (published 1785, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
@@ -29886,7 +29886,7 @@
         {
           "work": "Organic Articles for the Protestant Churches (1802) (Anderson's English, 1908)",
           "author": "anderson-frank-maloy",
-          "role": "transmission",
+          "role": "context",
           "confidence": "provisional",
           "source_file": "anderson-frank-maloy_constitutions-and-documents-history-of-france_1908.txt",
           "rights": "Public Domain (published 1908, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
@@ -30124,7 +30124,7 @@
         {
           "work": "Histoire des patriarcats melkites, t. II-III (1910-1911)",
           "author": "charon",
-          "role": "transmission",
+          "role": "context",
           "confidence": "provisional",
           "source_file": "charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt",
           "rights": "Public Domain (published 1911, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
@@ -30148,7 +30148,7 @@
         {
           "work": "Melkite synods and documents after 1815 (Mansi 46)",
           "author": "melkite-church",
-          "role": "transmission",
+          "role": "context",
           "confidence": "provisional",
           "source_file": "mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
           "rights": "Public Domain (published 1911, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
@@ -30588,7 +30588,7 @@
         {
           "work": "A Sermon delivered at the Ordination of the Rev. Jared Sparks (1819)",
           "author": "channing",
-          "role": "transmission",
+          "role": "context",
           "confidence": "assigned",
           "source_file": "channing_sermon-at-the-ordination-of-jared-sparks-baltimore_1819.txt",
           "rights": "Public Domain (published 1819, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
@@ -30732,7 +30732,7 @@
         {
           "work": "The Winchester Centennial, 1803-1903 (1903)",
           "author": "universalist-church",
-          "role": "transmission",
+          "role": "context",
           "confidence": "assigned",
           "source_file": "universalist-church_winchester-centennial-with-the-profession-of-belief_1903.txt",
           "rights": "Public Domain (published 1903, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
@@ -31051,7 +31051,7 @@
         {
           "work": "Vostorgnutye klasy: the whole book as an Optina publication",
           "author": "paisius-velichkovsky",
-          "role": "transmission",
+          "role": "antecedent",
           "confidence": "provisional",
           "source_file": "paisius-velichkovsky_vostorgnutye-klasy-chu_optina1849.txt",
           "rights": "Public Domain (published 1849, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
@@ -31059,7 +31059,7 @@
         {
           "work": "Zhitie i pisaniia (1847): the whole book as Optina's first edition of the fathers",
           "author": "paisius-velichkovsky",
-          "role": "transmission",
+          "role": "antecedent",
           "confidence": "provisional",
           "source_file": "paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt",
           "rights": "Public Domain (published 1847, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
@@ -31280,7 +31280,7 @@
         {
           "work": "A Practical View of the Prevailing Religious System of Professed Christians (1797)",
           "author": "wilberforce",
-          "role": "transmission",
+          "role": "antecedent",
           "confidence": "provisional",
           "source_file": "wilberforce_practical-view-of-the-prevailing-religious-system_dublin1797.txt",
           "rights": "Public Domain (Project Gutenberg eBook #25709, released as public domain in the USA; the underlying edition was published 1797, more than 95 years ago)"
@@ -31356,7 +31356,7 @@
         {
           "work": "Il Servo di Dio Abate Mechitar, as a work of the twentieth-century congregation",
           "author": "nurikhan",
-          "role": "transmission",
+          "role": "context",
           "confidence": "provisional",
           "source_file": "nurikhan_servo-di-dio-abate-mechitar-ita_1914.txt",
           "rights": "Public Domain (published 1914, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"

@@ -52,10 +52,10 @@ works:
   work: The Mystery hid from Ages and Generations (1784)
   author: chauncy
   locus: whole work
-  role: transmission
+  role: context
   confidence: provisional
   note: The awakening's chief opponent forty years on; shows where Old Light liberalism led.
-    Out of the awakening's window, so transmission.
+    Out of the awakening's window, so context.
   source_file: chauncy_mystery-hid-from-ages-and-generations_1784.txt
 - row_id: christian-history_weekly-accounts-of-the-revival_prince1744--the-christian-history-prince-1743-1744-the-ministers
   work: 'The Christian History (Prince, 1743-1744): the ministers'' accounts of the revival
@@ -168,9 +168,9 @@ works:
   work: The Salvation of All Men strictly examined (1790)
   author: edwards-jonathan-jr
   locus: whole work
-  role: transmission
+  role: context
   confidence: provisional
-  note: The awakening's theological heirs answering its old opponent; out of window, so transmission.
+  note: The awakening's theological heirs answering its old opponent; out of window, so context.
   source_file: edwards-jonathan-jr_salvation-of-all-men-strictly-examined_1790.txt
 - row_id: osborn-sarah_memoirs-compiled-from-her-diaries_hopkins1799--memoirs-of-the-life-of-mrs-sarah-osborn-hopkins-s-compiling
   work: Memoirs of the Life of Mrs. Sarah Osborn (Hopkins's compiling narrative, 1799)
@@ -239,7 +239,7 @@ works:
   work: Hymns and Spiritual Songs as sung beyond Dissent
   author: watts
   locus: whole work
-  role: transmission
+  role: antecedent
   confidence: provisional
   note: Watts's hymns were taken up by the evangelical revivals on both sides of the Atlantic;
     provisional for those worlds until their own texts show the use.
