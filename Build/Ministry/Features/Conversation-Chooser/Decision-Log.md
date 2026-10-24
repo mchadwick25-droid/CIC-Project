@@ -643,3 +643,8 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **Spend.** Sample "card-back-sample-theon": 430 characters, 208 credits. "card-back-run-10": 4,969 characters, 2,409 credits, under the 5,000 cap. Voice pqHfZKP75CvOlQylNhV4, model eleven_v4, mp3_44100_64, stability 0.55, similarity 0.8, style 0.1, speaker boost on. Checked after the run: the printed settings, the manifest and the eleven files agree, each hash matches its summary, and each clip runs 31 to 48 seconds.
 
 **Left open (see Later_List.md).** Per-world voices; the Wittenberg summary differs between the site and the approved card words.
+## 2026-10-24 — Wittenberg's back summary: the site text stands (Mark, small projects thread)
+
+**Mark's words.** "use the site text for Wittenberg".
+
+**What changed.** Only `Card-Words/Approved-Card-Words.yaml`, which now reads "This Christian tradition's chief tool was the household catechism", as the site and the recorded clip do. The earlier wording, "This world's chief tool", is dropped. No site, audio or census file changes. Compared by text after collapsing spacing: the two summaries differed in that one phrase and nothing else.
