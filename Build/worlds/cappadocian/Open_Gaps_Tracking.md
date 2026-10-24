@@ -970,4 +970,8 @@ Still open, non-blocking (round 3 notes):
 - Citing the Prolegomena extracts through `basil-letters-general-corpus`, whose `work` names only the Letters; a source record for the extracts would be cleaner.
 - Other Cappadocian records still carry `license:` lines on unvendored sources (`limit.no-stones-to-show`, `homoousios`, `phthonos`, `philanthropia`, `martys-martyrion`, `orge`, `eikon`, `basileias`).
 
-Status: CLOSED for the 19 records, subject to the ordered recheck. OPEN for the four notes above.
+- The npnf208 Prolegomena also quotes Basil's homily on usury almost whole (npnf208 xml:5057-5288). Source Registry row 16 understates what is held. Noted by the ordered recheck.
+
+The ordered recheck passed (`Build/Ministry/Operations/Audits/2026-10-24_cappadocian-unvendored-citers_Cap-Ruling-Recheck.md`).
+
+Status: CLOSED for the 19 records. OPEN for the five notes above.
