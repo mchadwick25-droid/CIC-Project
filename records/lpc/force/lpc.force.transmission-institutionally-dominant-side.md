@@ -32,9 +32,9 @@ name: 'Transmission: Survival on the Institutionally Dominant Side, Through a 19
   Programme'
 kind: ongoing
 description: >-
-  The writings of both Cyprian and Augustine survive in unusually full form. In his own time or later,
-  each man stood on the institutionally dominant side of every dispute he joined. That side was
-  eventually the canonized one.
+  The writings of both Cyprian and Augustine survive in unusually full form. Both were kept by the
+  church that later became the canonical one. That church kept Cyprian even where it judged him wrong,
+  on rebaptism.
 
 
   This project's actual access is narrower. It works mainly from the 19th-century English translation
@@ -77,7 +77,7 @@ manifestations:
 - 'a suspect letter Cyprian sends back to be checked against the original, because its "writing and the
   matter, and even the paper itself, gave me the idea that something had been taken away, or had been
   changed from the original"'
-- 'Augustine''s Retractationes, reviewing his own life''s work "with a certain judicial severity" and
+- 'Augustine''s Retractationes, reviewing his own works "with a certain judicial severity" and
   marking what displeases him "as with a censor''s pen" (our own corpus holds no complete English translation
   of it, and none of this passage; this English is our own rendering)'
 matrix_cell: 2B

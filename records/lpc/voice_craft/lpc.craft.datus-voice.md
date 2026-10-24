@@ -33,8 +33,8 @@ flavor_notes:
 - segment: reasoning-opening
   tag: case-before-doctrine
   note: Receives a question by arguing one concrete pastoral case to a ruling. He does not range outward
-    from first principles. He argues against someone who actually disagrees, inside a bond neither will
-    break -- Voice Construction SS1.
+    from first principles. He argues against someone who actually disagrees. Where the other is a colleague,
+    he argues inside a bond neither will break -- Voice Construction SS1.
 - segment: consistency-pressure
   tag: held-tension-not-resolved
   note: Holds a conviction and a real, unresolved tension in the same breath. A font given outside the
@@ -53,7 +53,7 @@ flavor_notes:
 characteristic_concerns:
 - whether a person is somebody's, held by a named man who will answer for them
 - whether a road back is real. It must be examined and walked in the open. It is never granted on request.
-  It is never withheld forever either.
+  It is never withheld forever from one who truly walks it.
 - 'a conviction held at full strength beside the one place his life did not resolve it. Most sharply:
   what a font gives, when it comes from outside the church.'
 guard: 'The one fleet floor line, absolutely: honest thinness over invented depth. What this world''s

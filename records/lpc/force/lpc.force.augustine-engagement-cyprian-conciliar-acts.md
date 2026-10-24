@@ -40,8 +40,8 @@ relations:
 name: Augustine's Engagement with Cyprian's Conciliar Acts
 kind: ongoing
 description: >-
-  Augustine read, argued with, and overturned the ruling on rebaptism made by Cyprian's council of 256.
-  He did this in On Baptism, Against the Donatists. The engagement is documented.
+  Augustine read the ruling on rebaptism made by Cyprian's council of 256, and argued at length that it
+  was wrong. He did this in On Baptism, Against the Donatists. The engagement is documented.
 
 
   From inside this world, Cyprian was a predecessor who belonged to them. They did not disown him, and yet he
@@ -49,8 +49,8 @@ description: >-
   plenary Councils, the earlier are often corrected by those which follow them."
 
 
-  No other force carries as much of the world's formation logic across its 133-year silence between
-  the two phases. It is also the only one in which this world itself reads and answers Cyprian's council acts. The crossing happens
+  No other force carries as much of the world's formation logic across the 133 years between the two
+  phases, which this build has assessed as a silence in the world's pastoral voice (Contested). It is also the only one in which this world itself reads and answers Cyprian's council acts. The crossing happens
   through texts, not through a line of living successors. It happens more than once. Possidius quotes
   Cyprian's De Mortalitate. Augustine also cites Cyprian on grace against the Pelagians.
 
@@ -71,7 +71,8 @@ description: >-
 manifestations:
 - '"[E]ven of the plenary Councils, the earlier are often corrected by those which follow them" (Augustine,
   On Baptism, Against the Donatists)'
-- Augustine reading, arguing with, and overturning the rebaptism ruling of Cyprian's council of 256
+- Augustine reading the rebaptism ruling of Cyprian's council of 256 and arguing at length that it was
+  wrong
 matrix_cell: 2B
 ---
 Taken from Doc_08 §3 Force 2B-4 (Cell 2B, Ongoing/Internal). relations[] carries the gravity<->force edges (G3, G5, G6) and the force<->force edges (1B-1, 2A-3, 3B-2) named above.

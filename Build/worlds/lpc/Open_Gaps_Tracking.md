@@ -1844,3 +1844,22 @@ Logged 2026-10-24.
 - **What changed that a participant hears.** The Constantine witness now gives Augustine's own answer to the charge (*Answer to Petilian* §§202 to 205). The women's-voice limit now says no text a woman wrote herself survives, and that a few women's spoken words reach us set down by men, among them Quartillosia's own account of her vision (*Passio Montani et Lucii* 8).
 - **P2s carried (Round 2 N1 to N7).** Two spoken sentences in the women's-voice statement run past 25 words; the record's `sources` lack the *Passio* and Registry rows 269 to 270 have no source record; three cited line ranges stop short; row 14's date cells omit the new locus; the `wb_lpc_s28.py` docstring still says a woman's first-person narration is attested in neither phase; Monica could be named beside Quartillosia; *On Baptism* is seven books, not "a whole book".
 - **Owner.** The `lpc` build thread.
+
+### OG-64. CO-LPC-3: items carried for the next pass (2026-10-24).
+
+Logged 2026-10-24.
+
+- **The Vandal crossing date (C-26).** The world's records date the Vandal crossing into Africa to 429. The only vendored source the record cites, Prosper's *Epitoma Chronicon*, enters "Gens Wandalorum ab Hispania ad Africam transit" (entry 1295) under the consuls of 427 (`cic/texts/` Prosper file, lines 54066 to 54118). The date has not been changed: settle it at source (the year 429 rests on other evidence this build has not vendored) and correct or qualify it.
+- **No source record for two Native texts.** Tertullian's *De Pudicitia* 22 (C-19, C-28) and the *Passio Montani et Lucii* (C-39) are read and cited in record text, but `records/lpc/source/` has no record for either, so no `sources[]` entry can name them.
+- **Phase 5 boundary-testing transcripts.** `Representative/` Phase 5 transcripts keep the Datus wording from before CO-LPC-3 (lines 104, 122, 136). They are a test record and were left as run; the next validation run tests the corrected voice.
+- **Lucian's condition.** Lucian's reply grants peace on condition that "the case being set forth before the bishop, and confession being made" (`anf05` lines 30731 to 30735). No record says so yet; it bears on the confessor-authority claim guard.
+- **Owner.** The `lpc` build thread.
+
+### OG-65. CO-LPC-3 closed: spoken fields checked against their sources (2026-10-24).
+
+Logged 2026-10-24.
+
+- **Closed.** All 162 participant-facing fields in `records/lpc/` were read sentence by sentence against their sources (`Spoken_Fidelity_Review_*_2026-10-24.md`). The 46 P1s and the plainly correct P2s are corrected at every site, including the Representative's Permanent Prompt, the World Capsule Core, the World Profile, the chunks and the documents; the generator scripts reproduce the records. Round 3 of the recheck (`CO-LPC-3_Spoken_Corrections_Recheck_Round3.md`) approved to proceed. Every row of `lpc_Claims_Register.md` is VERIFIED or JUDGEMENT.
+- **P2 carried: date the Constantine witness's sources (R3-1).** Caution 2 now says Augustine's later view is given dated to when he wrote it; the witness does not yet date its sources. *Answer to Petilian* about 400 to 402 (npnf104 lines 10278 to 10279, 10733) and *City of God* begun 413 (npnf102 lines 864 to 865).
+- **Leftovers in construction prose, not voice material:** Doc_05 line 407; `wb_lpc_s2y_canon_cells.py` docstring lines 216 and 311; the retired `wb_lpc_s2z_canon_closure.py` line 541 ("holds the whole of it, not a share"); the City of God source record gives 413 to 427 where the NPNF editor gives 413 to 426.
+- **Owner.** The `lpc` build thread.

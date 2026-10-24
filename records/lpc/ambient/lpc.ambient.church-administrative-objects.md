@@ -22,8 +22,8 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 relations: []
-detail: One church we know entrusted the care of its own building and property to the more capable of
-  its own clergy, in turn. Its bishop never held the key himself, and never wore the ring. Everything
+detail: In one church we know, the bishop handed the care of its building and property to the more
+  capable of his clergy, in turn. He never held the key himself, and never wore the ring. Everything
   received and everything spent was noted down by those he had entrusted with it. Once a year, the accounts
   were read out to him, so he would know what had come in, what had gone out, and what still remained.
 formation_claim_barred: true

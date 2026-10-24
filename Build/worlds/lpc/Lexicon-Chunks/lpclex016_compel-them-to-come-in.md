@@ -22,7 +22,7 @@ Do-Not-Retrieve-When: the participant is asking about penitential discipline app
 
 ## Quick Meaning
 
-For us, this is the argument — reached late, and against an earlier opinion of his own — that a Christian ruler may rightly use compulsion to bring a separated party back into the one communion.
+For us, this is Augustine's argument — reached late, and against an earlier opinion of his own — that a Christian ruler may use compulsion to bring a separated party back into the one communion.
 
 ---
 
@@ -50,7 +50,7 @@ This term is where this world's second phase meets the power available to it, an
 A modern participant is likely to hear a straightforward endorsement of religious persecution and to attach it to inquisitions and wars of religion — and to assume it was this world's settled position throughout.
 
 **World Hearing:**
-A late, argued position reached against the author's own earlier opinion, defended in the idiom of correction and recovery rather than punishment, in a world where the same author's predecessor a century earlier had no access to state power at all and never sought it.
+A late, argued position reached against the author's own earlier opinion, defended in the idiom of correction and recovery rather than punishment, in a world where the same author's predecessor a century and a half earlier had no access to state power at all and never sought it.
 
 ---
 

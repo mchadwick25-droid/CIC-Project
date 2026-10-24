@@ -34,10 +34,10 @@ relations:
 - type: associated-with
   target: lpc.witness.heard-for-salvation-not-for-wish
 positions:
-- 'Augustine opened the story of his own life with a restless heart. He named its cause and its cure
-  in one sentence: "Thou hast formed us for Thyself, and our hearts are restless till they find rest
-  in Thee." He did not treat the restlessness as a flaw to manage. He treated it as the shape of
-  what a person is, until it finds what it was made for.'
+- 'Augustine opened the story of his own life with a restless heart. He named its cause and its cure in
+  one sentence: "Thou hast formed us for Thyself, and our hearts are restless till they find rest in Thee."
+  On his telling, the restlessness comes from being made for God. It lasts until the heart finds its rest
+  in him.'
 - Augustine wrote directly on loving someone who has wronged you and is not sorry. Loving an enemy who
   still wishes you ill is a higher thing than only doing good to one who has never harmed you. It means
   still doing him good when you can. He named it as obeying Christ's own command to love enemies and pray
