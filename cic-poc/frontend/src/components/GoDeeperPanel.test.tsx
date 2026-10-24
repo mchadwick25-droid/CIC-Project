@@ -51,6 +51,18 @@ describe('GoDeeperPanel', () => {
     vi.unstubAllGlobals();
   });
 
+  it('adds a code to the free tokens left instead of replacing them', async () => {
+    const { GoDeeperPanel, deeper } = await load(true);
+    render(<GoDeeperPanel />);
+    act(() => deeper.reportFreeLeft(520));
+    expect(screen.getByRole('status')).toHaveTextContent('520 tokens left');
+    act(() => {
+      deeper.saveCode(CODE);
+      deeper.reportBalance(CODE, 1100, false);
+    });
+    expect(screen.getByRole('status')).toHaveTextContent('1,620 tokens left');
+  });
+
   it('opens when a turn comes back refused', async () => {
     const { GoDeeperPanel, deeper } = await load(true);
     render(<GoDeeperPanel />);
@@ -92,7 +104,7 @@ describe('GoDeeperPanel', () => {
     expect(container.textContent).not.toMatch(/[$€£]|price|\bcost/i);
   });
 
-  it('shows a free visitor their free tokens left in the ribbon, and a code holder their code count instead', async () => {
+  it('shows a free visitor their free tokens left in the ribbon, and a code holder the free tokens and the code added together', async () => {
     const { GoDeeperPanel, deeper } = await load(true);
     render(<GoDeeperPanel />);
     expect(screen.queryByText(/tokens left/)).not.toBeInTheDocument();
@@ -104,11 +116,11 @@ describe('GoDeeperPanel', () => {
       deeper.saveCode(CODE);
       deeper.reportBalance(CODE, 1100, false);
     });
-    expect(await screen.findByText('1,100 tokens left')).toBeInTheDocument();
+    expect(await screen.findByText('1,540 tokens left')).toBeInTheDocument();
     expect(screen.queryByText('440 tokens left')).not.toBeInTheDocument();
   });
 
-  it('forgets a free count when a code is added or removed, so a stale one cannot come back', async () => {
+  it('keeps the free count when a code is added or removed, since a purchase does not spend it', async () => {
     const { GoDeeperPanel, deeper } = await load(true);
     render(<GoDeeperPanel />);
     act(() => deeper.reportFreeLeft(440));
@@ -118,7 +130,7 @@ describe('GoDeeperPanel', () => {
       deeper.reportBalance(CODE, 1100, false);
     });
     act(() => deeper.removeCode());
-    expect(screen.queryByText(/tokens left/)).not.toBeInTheDocument();
+    expect(screen.getByText('440 tokens left')).toBeInTheDocument();
   });
 
   it('draws a gold line as long as the tokens left are of the most seen, and slides it as they change', async () => {
@@ -237,13 +249,13 @@ describe('GoDeeperPanel', () => {
 
   it('opens at once for a code that came with a link, asks before using it, says it would be added to one already held, and only then saves it', async () => {
     window.history.replaceState(null, '', `/#cic-claim=${'r'.repeat(22)}`);
-    const fetchMock = vi.fn().mockResolvedValue(new Response(JSON.stringify({ codes: [CODE], tokens: 40 }), { status: 200 }));
+    const fetchMock = vi.fn().mockImplementation(async () => new Response(JSON.stringify({ codes: [CODE], tokens: 40 }), { status: 200 }));
     vi.stubGlobal('fetch', fetchMock);
     localStorage.setItem('cic_codes', JSON.stringify(['BCDE2345EFGH6789JKLM']));
     const { GoDeeperPanel } = await load(true);
     render(<GoDeeperPanel />);
     expect(screen.getByText(/A code came with this link\. Use it\?/)).toHaveTextContent('You already have a code. This one will be added to it.');
-    expect(fetchMock).not.toHaveBeenCalled();
+    expect(fetchMock.mock.calls.filter(([url]) => url !== '/api/deeper/free')).toHaveLength(0);
     expect(JSON.parse(localStorage.getItem('cic_codes') ?? '[]')).toEqual(['BCDE2345EFGH6789JKLM']);
     fireEvent.click(screen.getByRole('button', { name: 'Use it' }));
     expect(await screen.findByRole('button', { name: 'Show my code' })).toBeInTheDocument();
