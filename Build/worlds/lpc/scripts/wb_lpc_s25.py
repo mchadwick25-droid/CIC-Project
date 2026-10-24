@@ -136,8 +136,8 @@ it.
      relation type. The directional relation types would overclaim: Doc_08 states 2B-4 to
      3B-2 as "is the sole instance of" and 3A-1 to 3B-1 as "coincides with, does not cause".
   4. Edges to records of other types (doctrinal_witness, honest_limit, demonstration,
-     contested_claim) come from OTHER_TYPE_EDGES_FIRST and OTHER_TYPE_EDGES_LAST. G1, G2, G3
-     and G6 each carry three edges to the sermon quote records that wb_lpc_s24.py emits, as the
+     contested_claim) come from OTHER_TYPE_EDGES_FIRST and OTHER_TYPE_EDGES_LAST. G1, G2, G3,
+     G4, G6 and G7 each carry three edges to the sermon quote records that wb_lpc_s24.py emits, as the
      inverse of the edges those quotes declare.
 
 G5 (CONCILIAR AUTHORITY THEORY)
@@ -328,11 +328,21 @@ OTHER_TYPE_EDGES_LAST: dict[str, list[tuple[str, str]]] = {
         ("associated-with", "lpc.quote.apart-in-heart-united-in-body"),
         ("associated-with", "lpc.quote.going-out-without-violating-unity"),
     ],
+    G4: [
+        ("associated-with", "lpc.quote.the-creed-first-then-the-prayer"),
+        ("associated-with", "lpc.quote.let-your-creed-be-a-mirror"),
+        ("associated-with", "lpc.quote.the-sermon-and-the-readings-are-daily-bread"),
+    ],
     G6: [
         ("associated-with", "lpc.witness.baptism-traced-to-the-apostles"),
         ("associated-with", "lpc.quote.the-branch-cut-from-the-vine"),
         ("associated-with", "lpc.quote.pardon-through-a-wicked-clergyman"),
         ("associated-with", "lpc.quote.consider-who-was-there"),
+    ],
+    G7: [
+        ("associated-with", "lpc.quote.two-hear-one-scorns-one-rises"),
+        ("associated-with", "lpc.quote.what-is-done-by-you-he-does-in-you"),
+        ("associated-with", "lpc.quote.no-one-has-the-love-of-god-from-himself"),
     ],
 }
 

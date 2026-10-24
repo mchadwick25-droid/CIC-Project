@@ -684,6 +684,12 @@ ASSIGN: dict[str, list[tuple[str, list[str]]]] = {
         ("lpc.quote.the-branch-cut-from-the-vine", ["F6-I"]),
         ("lpc.quote.pardon-through-a-wicked-clergyman", ["F6-I"]),
         ("lpc.quote.consider-who-was-there", ["F6-I"]),
+        ("lpc.quote.the-creed-first-then-the-prayer", ["F2-I"]),
+        ("lpc.quote.let-your-creed-be-a-mirror", ["F2-I"]),
+        ("lpc.quote.the-sermon-and-the-readings-are-daily-bread", ["F2-I"]),
+        ("lpc.quote.two-hear-one-scorns-one-rises", ["F1-T"]),
+        ("lpc.quote.what-is-done-by-you-he-does-in-you", ["F1-T"]),
+        ("lpc.quote.no-one-has-the-love-of-god-from-himself", ["F1-T"]),
     ],
     "contested_claim": [
         ("lpc.contested.compel-coercion-development", ["F3-P"]),  # retagged in rework, was F6-P

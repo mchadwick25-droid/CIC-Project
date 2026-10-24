@@ -35,6 +35,12 @@ relations:
   target: lpc.force.manichaeism-and-pelagian-anthropology
 - type: associated-with
   target: lpc.force.corpus-outliving-the-world
+- type: associated-with
+  target: lpc.quote.two-hear-one-scorns-one-rises
+- type: associated-with
+  target: lpc.quote.what-is-done-by-you-he-does-in-you
+- type: associated-with
+  target: lpc.quote.no-one-has-the-love-of-god-from-himself
 name: Grace and Human Incapacity
 description: >-
   This concern is real, but it does not run nearly as wide as the others. It organizes a large and
