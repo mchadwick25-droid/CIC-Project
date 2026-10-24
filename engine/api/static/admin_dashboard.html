@@ -77,6 +77,8 @@
   .tile .label { font-size: 13px; color: var(--text-secondary); }
   .tile .value { font-size: 28px; font-weight: 600; margin-top: 6px; line-height: 1.1; }
   .tile .value.hero { font-size: 40px; }
+  .tile.alert { border-color: var(--critical); }
+  .tile.alert .label, .tile.alert .value { color: var(--critical); }
   .tile .caveat { font-size: 12px; color: var(--text-muted); margin-top: 6px; }
   table { width: 100%; border-collapse: collapse; background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
   th, td { text-align: left; padding: 10px 12px; font-size: 13px; border-bottom: 1px solid var(--gridline); }
@@ -175,7 +177,13 @@
           <div class="value" id="t-deeper-gap">—</div>
           <div class="caveat">Payments seen, minus codes made, minus refunds that came first. Today.</div>
         </div>
+        <div class="tile" id="t-deeper-unmatched-tile">
+          <div class="label">Paid, but no code made</div>
+          <div class="value" id="t-deeper-unmatched">—</div>
+          <div class="caveat">Payments from a link that is not in the products list. Find the buyer in Stripe by the payment id, then make their code below.</div>
+        </div>
       </div>
+      <div id="unmatched-list"></div>
       <div class="tiles" style="margin-top: 12px;">
         <div class="tile">
           <div class="label">Admin mints today</div>
@@ -765,6 +773,45 @@
     slot.textContent = message;
     slot.classList.toggle("error", !!isError);
   }
+  async function loadUnmatched() {
+    const tile = document.getElementById("t-deeper-unmatched-tile");
+    const slot = document.getElementById("unmatched-list");
+    try {
+      const resp = await fetch("/api/admin/deeper/unmatched", { credentials: "same-origin" });
+      if (!resp.ok) return;
+      const rows = (await resp.json()).unmatched;
+      document.getElementById("t-deeper-unmatched").textContent = fmtNumber(rows.length);
+      tile.classList.toggle("alert", rows.length > 0);
+      slot.innerHTML = "";
+      if (rows.length === 0) return;
+      const table = el("table", {});
+      table.appendChild(el("thead", {}, [el("tr", {}, [
+        el("th", { text: "Day" }), el("th", { text: "Payment id" }), el("th", { text: "Payment link" }),
+        el("th", { class: "num", text: "Amount" }), el("th", { text: "" }),
+      ])]));
+      const tbody = el("tbody", {});
+      rows.forEach((row) => {
+        const button = el("button", { type: "button", text: "Dismiss" });
+        button.addEventListener("click", () => dismissUnmatched(row.payment_id));
+        tbody.appendChild(el("tr", {}, [
+          el("td", { text: row.day }), el("td", { text: row.payment_id }), el("td", { text: row.link || "—" }),
+          el("td", { class: "num", text: row.cents === null ? "—" : "$" + (row.cents / 100).toFixed(2) }),
+          el("td", {}, [button]),
+        ]));
+      });
+      table.appendChild(tbody);
+      slot.appendChild(table);
+    } catch (e) { /* the tile keeps its last value */ }
+  }
+  async function dismissUnmatched(paymentId) {
+    if (!window.confirm("Take " + paymentId + " off this list? Do this once the buyer has their code, the payment is refunded, or it was not a token purchase.")) return;
+    const resp = await fetch("/api/admin/deeper/unmatched/dismiss", {
+      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ payment_id: paymentId }),
+    });
+    if (!resp.ok) { deeperNotice("Nothing was dismissed (" + resp.status + ").", true); return; }
+    await loadUnmatched();
+  }
   async function loadGrants() {
     const slot = document.getElementById("grants-list");
     try {
@@ -923,6 +970,7 @@
         renderDeeper(await resp.json());
         await loadStatus();
         await loadGrants();
+        await loadUnmatched();
       }
       else document.getElementById("deeper-section").classList.add("hidden");
     } catch (e) {

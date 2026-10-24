@@ -111,4 +111,29 @@ describe('TranscriptScroll - with motion', () => {
       delete (HTMLElement.prototype as unknown as Record<string, unknown>).scrollTop;
     }
   });
+
+  it('holds at the start of a safety turn when one arrives, not at the end of it', async () => {
+    const view = render(<TranscriptScroll label="Conversation" followSignal={0} holdSignal={0}><p>earlier</p></TranscriptScroll>);
+    const log = screen.getByRole('log', { name: 'Conversation' });
+    vi.spyOn(log, 'getBoundingClientRect').mockReturnValue({ top: 100 } as DOMRect);
+    view.rerender(
+      <TranscriptScroll label="Conversation" followSignal={0} holdSignal={1}>
+        <p>earlier</p>
+        <div data-hold-start="true" ref={(node) => { if (node) vi.spyOn(node, 'getBoundingClientRect').mockReturnValue({ top: 700 } as DOMRect); }}>the turn</div>
+      </TranscriptScroll>
+    );
+    await frame();
+    const held = log.scrollTop;
+    expect(held).toBeGreaterThan(0);
+    await settle();
+    // Held there: the page does not carry on to the end of the turn.
+    expect(log.scrollTop).toBe(held);
+  });
+
+  it('does not move a conversation that opens with a safety turn already in it', async () => {
+    render(<TranscriptScroll label="Conversation" followSignal={0} holdSignal={1}><div data-hold-start="true">the turn</div></TranscriptScroll>);
+    const log = screen.getByRole('log', { name: 'Conversation' });
+    await frame();
+    expect(log.scrollTop).not.toBe(-8);
+  });
 });

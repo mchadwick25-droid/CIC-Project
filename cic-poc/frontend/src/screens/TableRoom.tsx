@@ -7,6 +7,7 @@
  * than a guessed number) rather than an open-ended end.
  */
 import { ChatInput } from '../components/ChatInput';
+import { facilitatorClass, safetyAttributes } from '../lib/facilitatorTurn';
 import { ConversationCard } from '../components/ConversationCard';
 import { ConversationChrome } from '../components/ConversationChrome';
 import { DeletedNotice } from '../components/DeleteConversation';
@@ -118,7 +119,7 @@ export function TableRoom({
       </div>
 
       <ResourcesFirst turns={turns} sessionId={sessionId} />
-      <TranscriptScroll label="Conversation" followSignal={participantTurns}>
+      <TranscriptScroll label="Conversation" followSignal={participantTurns} holdSignal={turns.filter((t) => t.speaker === 'facilitator' && t.kind === 'safety').length}>
         {turns.map((turn, i) => {
           const still = i < initialTurns;
           if (turn.speaker === 'participant') {
@@ -135,7 +136,7 @@ export function TableRoom({
             const welcome = firstAsked < 0 || i < firstAsked;
             return (
               <Enter key={i} still={still} shown={!welcome || !started}>
-                <div className={welcome ? 'turn turn--facilitator turn--welcome' : 'turn turn--facilitator'}>
+                <div className={facilitatorClass(welcome, turn.kind)} {...safetyAttributes(turn.kind)}>
                   {facilitatorParagraphs(turn.text).map((paragraph, j) => (
                     <p key={j}>
                       {paragraph}
@@ -235,6 +236,7 @@ export function TableRoom({
           turns={turns}
           disabled={isLoading || roundOpen || reveal.busy}
           placeholder={roundOpen || reveal.busy ? 'The table is still speaking…' : 'Ask the table…'}
+          label="Ask the table"
         />
       )}
       {!deleted && <p className="conversation__ai-line sans">These are AI-generated voices.</p>}

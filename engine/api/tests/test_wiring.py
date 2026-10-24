@@ -10,6 +10,7 @@ import pytest
 from engine.api import wiring
 from engine.api.tests.conftest import FakeBedrockClient, reader_response, safety_response
 from engine.m2.compiler import compile_and_hash
+from engine.m4 import facilitator_turns
 
 
 def _compile_fix_package(tmp_path: Path, package_id: str) -> tuple[str, str]:
@@ -197,15 +198,40 @@ def test_provider_failure_commits_the_message_but_not_the_turn(store, usage_stor
             def create(**kwargs):
                 raise RuntimeError("simulated credential failure")
 
+            @staticmethod
+            def stream(**kwargs):
+                raise RuntimeError("simulated credential failure")
+
+    gate_client = FakeBedrockClient(safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response())
     with pytest.raises(wiring.ProviderCallFailed):
         wiring.handle_message(
             store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
-            voice_client=_ExplodingClient(), voice_model_id="m", safety_client=_ExplodingClient(), safety_model_id="m",
+            voice_client=_ExplodingClient(), voice_model_id="m", safety_client=gate_client, safety_model_id="m",
             session_id=session_id, text="msg",
         )
 
     types = [e.event_type for e in store.read_events(session_id)]
-    assert types == ["session_started", "facilitator_turn", "participant_message"]  # nothing after the failure point committed
+    assert "participant_message" in types and "voice_turn" not in types  # the message is kept, the failed turn is not
+
+
+def test_a_safety_call_that_cannot_run_is_answered_with_the_fixed_line_not_a_failure(store, usage_store, world_loader, registry):
+    session_id, _code = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
+
+    class _ExplodingClient:
+        class messages:
+            @staticmethod
+            def create(**kwargs):
+                raise RuntimeError("simulated credential failure")
+
+    result = wiring.handle_message(
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+        voice_client=_ExplodingClient(), voice_model_id="m", safety_client=_ExplodingClient(), safety_model_id="m",
+        session_id=session_id, text="msg",
+    )
+
+    assert result.routing_action == "safety_unread_turn"
+    assert result.voice is None
+    assert result.facilitator == facilitator_turns.safety_unread_turn()
 
 
 def test_get_transcript_reflects_committed_turns(store, usage_store, world_loader, registry):

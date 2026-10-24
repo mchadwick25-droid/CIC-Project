@@ -12,11 +12,14 @@ dev-stage code, not yet a sealed deploy artifact (that's an ops step, not
 a code-shape one), but the separation itself starts here, not later.
 """
 import json
+import logging
 
 from anthropic import APIError, APITimeoutError, RateLimitError
 
 from engine.m5.failure import CallOutcome
 from engine.m5.routing import QUESTION_KINDS
+
+logger = logging.getLogger("cic.gate")
 
 SAFETY_SYSTEM_PROMPT = """You are the sealed safety classifier for an interview between a participant \
 and an early-Christian formation-world voice. You see the participant's latest message, a short recent \
@@ -193,6 +196,9 @@ def _forced_tool_call(client, model_id: str, *, system: str, tool: dict, user_co
     except RateLimitError as e:
         return CallOutcome(status="error", value={"error": str(e), "rate_limited": True})
     except APIError as e:
+        return CallOutcome(status="error", value={"error": str(e)})
+    except Exception as e:  # noqa: BLE001 - a call that cannot run (credentials, network) is a failed call, not a crash
+        logger.exception("gate call could not run")
         return CallOutcome(status="error", value={"error": str(e)})
 
     tool_uses = [b for b in response.content if b.type == "tool_use" and b.name == tool["name"]]

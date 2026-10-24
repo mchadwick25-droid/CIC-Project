@@ -37,6 +37,7 @@ def used_meter(tmp_path):
     m.void("pi_b")
     m.tally("payments_seen")
     m.add_funds("gift", 2500, "pi_g")
+    m.record_unmatched("pi_u", "plink_u", 700)
     m.add_funds("adjustment", 1000, note="cash gift")
     m.free_window_spend(m.free_key("a-visitor"), 110)
     m.join_pilot("general", "a-visitor", 5, "pilot_a", role="academic", open_=True, end_date=date(2026, 12, 31), cap=9, per_address=2)
@@ -47,7 +48,7 @@ def used_meter(tmp_path):
 
 def test_meter_columns_name_nothing_personal_and_no_fine_time(used_meter):
     tables, _ = _tables(used_meter)
-    assert set(tables) == {"meter", "voided_payments", "state", "reconcile", "funds", "daily", "free_window", "account_window", "pilot_joined"}
+    assert set(tables) == {"meter", "voided_payments", "state", "reconcile", "funds", "daily", "free_window", "account_window", "pilot_joined", "unmatched_payments"}
     for table, columns in tables.items():
         for _cid, name, ctype, *_ in columns:
             assert not BANNED_NAME.search(name), f"{table}.{name}"
@@ -66,7 +67,7 @@ def test_meter_tables_have_no_rowid(used_meter):
 
 def test_meter_holds_no_time_finer_than_a_day(used_meter):
     conn = sqlite3.connect(used_meter)
-    for table in ("meter", "voided_payments", "state", "reconcile", "daily", "free_window", "pilot_joined"):
+    for table in ("meter", "voided_payments", "state", "reconcile", "daily", "free_window", "pilot_joined", "unmatched_payments"):
         for row in conn.execute(f"SELECT * FROM {table}"):
             for value in row:
                 text = str(value)

@@ -375,7 +375,7 @@ LIMITS = [
 SAFETY = [
     ("acute", dict(safety=ACUTE), "safety_turn"),
     ("unclear", dict(safety=UNCLEAR), "check_in_turn"),
-    ("failed", dict(safety_fails=True), "check_in_turn"),
+    ("failed", dict(safety_fails=True), "safety_unread_turn"),
 ]
 
 
@@ -399,6 +399,8 @@ def test_a_safety_route_is_answered_at_every_limit(
     assert len(calm.voice_requests) == before
     if expected == "safety_turn":
         assert body["facilitator"]["resources_appended"]
+    if expected == "safety_unread_turn":
+        assert body["facilitator"] == facilitator_turns.safety_unread_turn()
 
 
 @pytest.mark.parametrize("limit", LIMITS)

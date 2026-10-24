@@ -1573,7 +1573,7 @@ def test_a_throttled_safety_call_pauses_citation_attachment(monkeypatch):
         "slow down", response=httpx.Response(429, request=httpx.Request("POST", "https://x")), body=None)
     gate_run, cooling = _gate_with_safety_failure(throttled, monkeypatch)
     assert gate_run.safety_outcome.failed and gate_run.safety_outcome.rate_limited
-    assert gate_run.gate_result.routing.action == "check_in_turn"
+    assert gate_run.gate_result.routing.action == "safety_unread_turn"
     assert cooling
 
 
@@ -1585,6 +1585,21 @@ def test_a_safety_call_that_fails_for_another_reason_leaves_attachment_running(m
         anthropic.APIConnectionError(request=httpx.Request("POST", "https://x")), monkeypatch)
     assert gate_run.safety_outcome.failed and not gate_run.safety_outcome.rate_limited
     assert not cooling
+
+
+def test_a_safety_call_that_cannot_run_gets_the_fixed_line_and_assumes_nothing(monkeypatch):
+    """Nobody read the message, so nothing is assumed about the person: the fixed Facilitator line with the
+    redirect as an "if", no safety track, no recorded state, no voice. A credential or network fault, not
+    only the provider's own error types, is a safety call that could not run."""
+    gate_run, _ = _gate_with_safety_failure(RuntimeError("no credentials"), monkeypatch)
+    assert gate_run.safety_outcome.failed
+    assert gate_run.gate_result.routing.action == "safety_unread_turn"
+    assert gate_run.safety_state_events == []
+    (turn,) = turn_module.safety_route_facilitator_events(gate_run, representative_name="Theon", track_a_last=None)
+    assert turn == facilitator_turns.safety_unread_turn()
+    assert turn["kind"] == "limit" and turn["resources_appended"] is True
+    assert "If you are in distress or in danger, please reach out to someone real now" in turn["text"]
+    assert "Theon" not in turn["text"] and "What you just told me" not in turn["text"]
 
 
 def test_every_one_to_one_usage_record_carries_the_sessions_world():

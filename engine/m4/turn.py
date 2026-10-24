@@ -1102,7 +1102,7 @@ def _run_ordinary_voice_turn(
 run_voice_turn_for_world = _run_ordinary_voice_turn
 
 
-SAFETY_ROUTES = ("safety_turn", "check_in_turn")
+SAFETY_ROUTES = ("safety_turn", "check_in_turn", "safety_unread_turn")
 
 
 def safety_route_facilitator_events(gate_run, *, representative_name: str, track_a_last: dict | None) -> list[dict]:
@@ -1110,14 +1110,17 @@ def safety_route_facilitator_events(gate_run, *, representative_name: str, track
     never called on these routes. ACUTE_DISTRESS gets the crisis turn with
     resources appended by code; any other safety_turn signal (a dependency
     dynamic, Track B) gets the dependency check with no resources and no
-    freeze; check_in_turn (an uncertain or failed safety call) gets the
-    check-in, which is deliberately not an answer. One owner for these
+    freeze; check_in_turn (an uncertain safety call) gets the
+    check-in, which is deliberately not an answer; safety_unread_turn (the
+    safety call could not run) gets the fixed line with the redirect. One owner for these
     turns, so a message the service would otherwise refuse unread (a
     closed session, an open table round, an over-long message - decision
     35) gets exactly what an ordinary turn would."""
     action = gate_run.gate_result.routing.action
     if action == "check_in_turn":
         return [facilitator_turns.check_in_turn()]
+    if action == "safety_unread_turn":
+        return [facilitator_turns.safety_unread_turn()]
     safety = gate_run.safety_outcome.value
     if safety["signal"] != "ACUTE_DISTRESS":
         return [facilitator_turns.dependency_check_turn(representative_name)]

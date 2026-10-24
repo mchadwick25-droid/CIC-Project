@@ -242,6 +242,25 @@ def visitor_bound_turn() -> dict:
     return {"kind": VISITOR_BOUND.kind, "text": VISITOR_BOUND.text, "resources_appended": True}
 
 
+# The reply when the safety check could not run on a message. Nobody read the message, and nothing
+# is assumed about the person: the line says so plainly and gives the redirect to real people as an
+# "if". Fixed text, no model call, the redirect always included, no safety track opened.
+SAFETY_UNREAD = FacilitatorTurn(
+    kind="limit",
+    text=(
+        "This is the Facilitator. I could not read your message just now, so no one has answered it yet.\n\n"
+        "If you are in distress or in danger, please reach out to someone real now - a person you trust, a crisis line, "
+        "or emergency services where you are.\n\n"
+        "When you are ready, you can send your message again."
+    ),
+)
+
+
+def safety_unread_turn() -> dict:
+    """The reply when the safety check could not run. Fixed text, no model call, the redirect always included."""
+    return {"kind": SAFETY_UNREAD.kind, "text": SAFETY_UNREAD.text, "resources_appended": True}
+
+
 # --- Table variants (Artifact-7 SS1-2; C1: fixed
 # templates parameterized by the seated worlds, never a live facilitator
 # generation). The Table's turn cap shares the one approved line above; the
