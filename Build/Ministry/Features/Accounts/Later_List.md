@@ -10,4 +10,4 @@ Not blocking. Nothing here stops accounts from working online.
 6. Rulings 57 and 58 (spent line, day free tokens return). With the visitor-limit thread.
 7. Small edges: accounts on with Go Deeper off leaves only `#home` to sign in; a full shelf at sign-in is silent.
 8. Still open from before: SES production access and settings, Stripe facts, turning accounts on (A7), A5 (privacy page, deletion inventory, incident runbook).
-9. Closed (ruling 91): each deletion-ledger entry is also written to the backup bucket and replayed on restore. The same gap exists for erased conversations: the record of an erased conversation sits in the same file, so a restore of the events file and the accounts file from before the erasure brings that conversation back. Not yet ruled.
+9. Closed (ruling 92): each deletion-ledger entry is also written to the backup bucket and replayed on restore. The same gap exists for erased conversations: the record of an erased conversation sits in the same file, so a restore of the events file and the accounts file from before the erasure brings that conversation back. Not yet ruled.
