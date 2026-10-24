@@ -1,6 +1,6 @@
 """Sign-in, sessions, step-up, address change and deletion.
 
-A person proves they control an address by typing a six-digit code sent to it.
+A person proves they control an address by typing an eight-digit code sent to it.
 Every proof is a challenge: it has its own random id, belongs to one action and
 one account, and is found only by that id, so no other account's action can
 touch, replace or stand in for it. The code is stored only as a keyed value
@@ -26,6 +26,7 @@ from engine.accounts.contacts import Cipher, ContactStore
 from engine.accounts.keys import KeyRing, normalise_address
 from engine.accounts.store import Account, AccountStore, Challenge, SessionRow
 
+CODE_DIGITS = 8
 logger = logging.getLogger("cic.accounts")
 
 MAX_ID_LENGTH = 64
@@ -58,8 +59,14 @@ class Limits:
     session_absolute_seconds: int = 60 * 86400
     step_up_seconds: int = 600
     ledger_days: int = 16
-    sends_per_address_15min: int = 3
-    sends_per_address_day: int = 10
+    # A start is counted per address and network first, so a stranger on one network cannot use up
+    # the budget of an address's owner on another. The ceiling across networks bounds the mail to one
+    # inbox and, with code_tries, the guesses an address can be given in a day.
+    sends_per_address_network_15min: int = 3
+    sends_per_address_network_day: int = 10
+    sends_per_address_15min: int = 9
+    sends_per_address_day: int = 30
+    live_codes_per_address: int = 3
     sends_per_address_open_15min: int = 4
     sends_per_address_open_day: int = 10
     sends_per_network_15min: int = 30
@@ -196,8 +203,11 @@ class AccountsService:
                 and self._allow("account_day", account_id, 86400, limits.account_actions_day)
             )
         if address_hash is not None and kind == "sign_in":
+            pair = f"sign_in|{address_hash}|{self.keys.network_key(network)}"
             within = (
                 within
+                and self._allow("send_addr_net", pair, 900, limits.sends_per_address_network_15min)
+                and self._allow("send_addr_net_day", pair, 86400, limits.sends_per_address_network_day)
                 and self._allow("send_addr", f"sign_in|{address_hash}", 900, limits.sends_per_address_15min)
                 and self._allow("send_addr_day", f"sign_in|{address_hash}", 86400, limits.sends_per_address_day)
             )
@@ -226,11 +236,11 @@ class AccountsService:
         """Opens one proof. With no address to mail, the challenge is the same in every
         way except that its code is never sent, so it can never be proved."""
         challenge_id = secrets.token_urlsafe(16)
-        code = f"{secrets.randbelow(10**6):06d}"
+        code = f"{secrets.randbelow(10 ** CODE_DIGITS):0{CODE_DIGITS}d}"
         self.store.put_challenge(
             Challenge(challenge_id, kind, address_hash, account_id, self.keys.mac("code", challenge_id, code),
                       self.now() + self.limits.code_ttl_seconds, 0, bound),
-            replace_same_address=(kind == "sign_in"),
+            keep_live=self.limits.live_codes_per_address if kind == "sign_in" else None,
         )
         if mail_to is not None:
             try:

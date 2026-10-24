@@ -100,7 +100,8 @@ CREATE TABLE IF NOT EXISTS challenges (
   mac          TEXT NOT NULL,
   expires_at   INTEGER NOT NULL,
   tries        INTEGER NOT NULL DEFAULT 0,
-  bound        TEXT
+  bound        TEXT,
+  made_seq     INTEGER NOT NULL DEFAULT 0
 ) WITHOUT ROWID;
 CREATE INDEX IF NOT EXISTS challenges_by_address ON challenges (address_hash, kind);
 CREATE INDEX IF NOT EXISTS challenges_by_account ON challenges (account_id);
@@ -198,6 +199,8 @@ class AccountStore:
         self._e = _open(ephemeral_path, EPHEMERAL_DDL)
         if not any(r[1] == "bound" for r in self._e.execute("PRAGMA table_info(challenges)")):
             self._e.execute("ALTER TABLE challenges ADD COLUMN bound TEXT")
+        if not any(r[1] == "made_seq" for r in self._e.execute("PRAGMA table_info(challenges)")):
+            self._e.execute("ALTER TABLE challenges ADD COLUMN made_seq INTEGER NOT NULL DEFAULT 0")
 
     def close(self) -> None:
         with self._lock:
@@ -781,16 +784,20 @@ class AccountStore:
 
     # challenges ---------------------------------------------------------------
 
-    def put_challenge(self, challenge: Challenge, *, replace_same_address: bool = False) -> None:
-        """Stores a challenge. For a sign-in the earlier ones for the same address are
-        dropped, so only the newest code is live."""
+    def put_challenge(self, challenge: Challenge, *, keep_live: int | None = None) -> None:
+        """Stores a challenge. For a sign-in only the newest keep_live codes for the same address
+        stay live, counting this one: the oldest are dropped, so a stranger's start cannot cancel
+        the code an owner is waiting for until it has been followed by keep_live others."""
         with self._lock:
-            if replace_same_address:
-                self._e.execute(
-                    "DELETE FROM challenges WHERE address_hash = ? AND kind = ?", (challenge.address_hash, challenge.kind)
-                )
+            if keep_live is not None:
+                ids = [r[0] for r in self._e.execute(
+                    "SELECT challenge_id FROM challenges WHERE address_hash = ? AND kind = ? ORDER BY made_seq, challenge_id",
+                    (challenge.address_hash, challenge.kind),
+                )]
+                for stale in ids[: max(0, len(ids) - (keep_live - 1))]:
+                    self._e.execute("DELETE FROM challenges WHERE challenge_id = ?", (stale,))
             self._e.execute(
-                "INSERT INTO challenges VALUES (?, ?, ?, ?, ?, ?, 0, ?)",
+                "INSERT INTO challenges VALUES (?, ?, ?, ?, ?, ?, 0, ?, (SELECT COALESCE(MAX(made_seq), 0) + 1 FROM challenges))",
                 (challenge.challenge_id, challenge.kind, challenge.address_hash, challenge.account_id,
                  challenge.mac, challenge.expires_at, challenge.bound),
             )
@@ -839,7 +846,7 @@ class AccountStore:
         """Removes the challenges and counters that carry an address hash."""
         with self._lock:
             self._e.execute("DELETE FROM challenges WHERE address_hash = ?", (address_hash,))
-            self._e.execute("DELETE FROM counters WHERE key LIKE ?", ("%|" + address_hash,))
+            self._e.execute("DELETE FROM counters WHERE key LIKE ? OR key LIKE ?", ("%|" + address_hash, "%|" + address_hash + "|%"))
 
     # sessions --------------------------------------------------------------
 
