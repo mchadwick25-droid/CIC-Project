@@ -5,7 +5,7 @@
  * with the module on.
  */
 import { useEffect, useRef, useState } from 'react';
-import { acceptClaim, addCode, closePanel, declineClaim, deeperEnabled, formatCode, getCodeUrl, openGetCode, openPanel, refreshFreeLeft, removeCode, useDeeper } from '../lib/deeper';
+import { acceptClaim, addCode, closePanel, declineClaim, deeperEnabled, formatCode, getCodeUrl, openGetCode, openPanel, refreshBalances, refreshFreeLeft, removeCode, useDeeper } from '../lib/deeper';
 import { deeperCopy, pilotCopy } from '../lib/deeperCopy';
 import { dismissPilot, usePilot } from '../lib/pilot';
 import { peakBalance } from '../lib/balancePeak';
@@ -53,6 +53,7 @@ export function GoDeeperPanel() {
 
   useEffect(() => {
     void refreshFreeLeft();
+    void refreshBalances();
   }, [codes.length]);
 
   const signingIn = deeperEnabled && accountsEnabled && account.signInOpen && account.status !== 'in';
