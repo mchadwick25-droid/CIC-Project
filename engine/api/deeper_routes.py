@@ -213,6 +213,22 @@ def _record_funds(runtime: DeeperRuntime, kind: str, session: dict) -> None:
         logger.error("paid checkout amount out of range; not recorded")
 
 
+def _record_unmatched(runtime: DeeperRuntime, session: dict) -> str:
+    """A paid checkout from a payment link in neither the products nor the gift list: the buyer paid and
+    no code was made. Kept for the dashboard's red tile so it can be fixed by hand."""
+    payment = payment_id_of({"data": {"object": session}}) or session.get("id")
+    if not isinstance(payment, str) or not payment:
+        logger.error("paid checkout from an unlisted payment link carried no payment id; not recorded")
+        return "ignored_not_ours"
+    try:
+        runtime.meter.record_unmatched(payment, session.get("payment_link"), session.get("amount_total"))
+    except Exception:  # noqa: BLE001 - recording must never fail the webhook
+        logger.exception("could not record an unlisted-link payment")
+        return "ignored_not_ours"
+    logger.warning("a paid checkout came from a payment link that is not in CIC_DEEPER_PRODUCTS or the gift list; recorded for the dashboard")
+    return "unmatched_payment"
+
+
 # What a working purchase, replay, gift or full refund returns. These leave no log line: a
 # line for a purchase would carry the moment it was made beside a "session created" line in
 # the same stream. The day's counts live in the meter's own tallies, not in the log.
@@ -231,6 +247,8 @@ def handle_event(runtime: DeeperRuntime, event: dict) -> str:
             return "gift_counted"
         product = runtime.products.get(link)
         if product is None:
+            if obj.get("payment_status") == "paid":
+                return _record_unmatched(runtime, obj)
             return "ignored_not_ours"
         if obj.get("payment_status") != "paid":
             return "ignored_unpaid"
@@ -255,6 +273,7 @@ def apply_refund(runtime: DeeperRuntime, payment: str) -> int:
     cannot report (a partial one, or any made while the module was off)."""
     voided = runtime.meter.void(payment)
     runtime.meter.void_funds(payment)
+    runtime.meter.dismiss_unmatched(payment)
     if not is_grant(payment):
         runtime.meter.tally("refunds_applied", voided)
     return voided
@@ -337,6 +356,10 @@ class PauseRequest(BaseModel):
 
 
 class VoidRequest(BaseModel):
+    payment_id: str = Field(..., min_length=1, max_length=200)
+
+
+class DismissUnmatchedRequest(BaseModel):
     payment_id: str = Field(..., min_length=1, max_length=200)
 
 
@@ -657,6 +680,18 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
     def funds(request: Request, authorization: str | None = Header(default=None)):
         authenticate_admin(request, authorization)
         return {"net": runtime.meter.net_funds(7), "entries": runtime.meter.list_funds(14)}
+
+    @app.get("/api/admin/deeper/unmatched")
+    def unmatched(request: Request, authorization: str | None = Header(default=None)):
+        authenticate_admin(request, authorization)
+        return {"unmatched": runtime.meter.unmatched_open()}
+
+    @app.post("/api/admin/deeper/unmatched/dismiss")
+    def dismiss_unmatched(req: DismissUnmatchedRequest, request: Request, authorization: str | None = Header(default=None)):
+        authenticate_admin(request, authorization)
+        if not runtime.meter.dismiss_unmatched(req.payment_id):
+            raise HTTPException(status_code=404, detail="no such open payment")
+        return {"dismissed": req.payment_id}
 
     @app.get("/api/admin/deeper/reconciliation")
     def reconciliation(request: Request, authorization: str | None = Header(default=None)):

@@ -1792,3 +1792,38 @@ Logged 2026-10-24.
 - **N9 (P2).** Caution 2 says the world holds "few" texts from those years that "record events". That is looser than Doc_02 §7, whose list is not exhaustive and includes Augustine's own writings of 386 to 391. The sentence is also 30 words long.
 - **N10 (P2, weigh first in Phase L2).** Caution 2's clause "Never describe what happened in those years from this world's own collection" predates the fix. Read literally, it covers 386 to 391 and would bar the *Confessions* on Augustine's conversion, which is Documented and which the same record cites. The clause needs narrowing to the years before Augustine's own record begins.
 - **Owner.** The `lpc` build thread.
+
+### OG-58. Source Readiness Dossier: a resolved item carried forward, and its history (2026-10-24).
+
+Logged 2026-10-24.
+
+- **A resolved item, noted so nobody re-opens it:** the world's own Step 0 surfaced and, with Mark's direct authorization, fixed a genuine boundary breach in the already-built Imperial and Juridical Christianity world's own records (two load-bearing quote records citing *Confessions* material outside IJC's own declared license). Logged in full at `Build/worlds/ijc/Open_Gaps_Tracking.md` item 16; mentioned here only for cross-reference, not reopened. Closed.
+- **Dossier history.** The dossier was written by the source-research thread at commit `009caaf0` (2026-09-21). It then named Petschenig's CSEL 51 to 53 and Ziwsa's Optatus as not yet linked to this world. Petschenig has since been linked (Source Registry rows 214 and 253). Ziwsa's Optatus is still linked only to `donatism.yaml`. The dated header and the "not yet caught" wording were moved here for the handoff narration check (Process V2.0, check 11).
+- **Owner.** The `lpc` build thread.
+
+### OG-59. Phase L1 handoff: passes; what it left for Phase L2 (2026-10-24).
+
+Logged 2026-10-24.
+
+- **All twelve handoff checks and the declaration pass** (`python -m engine.m10.cli handoff lpc`). To get there, Step 0, Doc_01, Doc_02 and the Source Registry changed: 94 quotations in the three documents and 72 in the Registry lost their quotation marks or became italic titles, because they quoted sources the rule does not permit (the world's own documents and logs, corpus-map notes, Step 0 Conclusion and Methodology `.docx` files, modern works not vendored). Four Registry quotations were corrected to the vendored file's own OCR wording (rows 194, 206, 212, 229). The Registry gained a Holdings dispositions section (56 files: 47 out of scope, 9 deferred).
+- **Registry table rows cannot carry a `cic:` address (P2).** The quote checker reads a table with no blank lines between rows as one paragraph, so a `cic:<file>:line<N>` address in one row is tested against every quotation in the block. Rows 194 and 229 quote their vendored files word for word but carry no address. Fix in the checker (one passage per table row), not by reshaping the Registry.
+- **Row 56 is out of date for Monceaux tome VII (P2).** Row 56 says vol. VII was "not requested by either world", but `monceaux_histoire-litteraire-afrique-chretienne-tomes6-7-fra_1922-1923.txt` holds tome VII and this world's corpus map places it as context. The Holdings dispositions section defers it.
+- **Deferred holdings to weigh in Phase L2:** Arnobius and Lactantius (Latin African, inside the 258 to 391 gap, apologetic; bear on OG-54) and Augustine's own *Collatio cum Maximino* (Hippo, 427 to 428).
+- **Owner.** The `lpc` build thread.
+
+### OG-60. Witness openings review: an invented detail found in spoken text (2026-10-24).
+
+Logged 2026-10-24.
+
+- **What was found.** The Opus review of the 14 rewritten witness records (`Review-Artifacts/Witness_Openings_Review_2026-10-24.md`) found that `lpc.witness.apostolic-succession-of-bishops` said "Linus, the successor named by Peter himself". Letter LIII §2 says only "The successor of Peter was Linus". The detail predates the rewrite. It is removed in the review's fix. The same review found three hollow openers, one hedge moved onto the wrong claim, one garden-path sentence, and one line that put a single author's view into the whole "we" voice. All are fixed by the review's own wording.
+- **What it means for the rest (P1 for Phase L2).** The 19-finding gate tested only how a spoken field opens. Spoken fields in records the rewrite did not touch have not been read against their sources sentence by sentence. Every spoken field in `records/lpc/` (`text`, `positions`, `tensions`) needs one source-fidelity pass before admission: each claim against its locus, no detail beyond the source.
+- **Owner.** The `lpc` build thread.
+
+### OG-61. Phase L1 closed: handoff passes after Doc_02 Round 40 (2026-10-24).
+
+Logged 2026-10-24.
+
+- **Rechecks.** Step 0 Round 8, Doc_01 Round 17 and Doc_02 Round 40 are approved to proceed. Round 39's P1 (Monceaux tomes IV to VI marked out of scope against row 56) is fixed.
+- **Holdings dispositions, recounted.** The Registry section now holds 42 out of scope and 14 deferred, not the 47 and 9 that OG-59 gives. Five files moved to Deferred: Monceaux tomes IV, V and VI; Tyconius, *Liber regularum*; and `npnf211` (Sulpicius, Dialogue I, on Cyprian's tomb at Carthage; Vincent, *Commonitorium* ch. 6 §16, on Agrippinus and rebaptism).
+- **For Phase L2.** Weigh the deferred files that bear on the 258 to 391 gap with OG-54: Arnobius, Lactantius, Tyconius and Monceaux tomes IV and V.
+- **Owner.** The `lpc` build thread.

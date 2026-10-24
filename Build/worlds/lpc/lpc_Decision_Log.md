@@ -2585,3 +2585,21 @@ Alternatives shown: (1) one targeted Opus 5.5 recheck of the two P1 fixes plus a
 ### 2026-10-24 — Doc_01 N6: fix the three sites, then one recheck of only those (project lead's ruling)
 
 Alternatives shown: (1) fix and run one Opus 5.5 recheck of the three sites; (2) fix with no recheck; (3) see the wording first. Chosen: 1 (project lead, 2026-10-24). Cap ruling in the System Hub Decision Log.
+
+---
+
+### 2026-10-24 — Declaration: verdict-wording rows withdrawn (build thread, under the 2026-09-29 ruling)
+
+The handoff check found the declaration's verdict-wording rows for Step0, Doc_01 and Doc_02 stale: each document's latest verdict now reads "Approved to proceed", after change order CO-LPC-1. The rows accepted the older wording "CLEARED" only. Withdrawing them narrows what the declaration accepts and changes no count. Alternatives: (1) withdraw the three rows; (2) leave them and carry three failing findings. Chosen: 1, as a mechanical consequence of the project lead's rulings, reported to him in the build thread.
+
+---
+
+### 2026-10-24 — One Opus recheck of the Phase L1 handoff changes (project lead's ruling)
+
+Alternatives shown: (1) one targeted Opus 5.5 recheck of every change to Step 0, Doc_01, Doc_02 and the Source Registry; (2) the substantive changes only; (3) no recheck. Chosen: 1 (project lead, 2026-10-24). Cap ruling in the System Hub Decision Log.
+
+---
+
+### 2026-10-24 — Doc_02 Round 39 P1: fix with the plain P2s, then one recheck (project lead's ruling)
+
+Alternatives shown: (1) fix the Monceaux P1 with the reviewers' plainly correct P2s, then one Opus 5.5 recheck of those lines; (2) the P1 only, with a recheck; (3) fix with no recheck. Chosen: 1 (project lead, 2026-10-24). Cap ruling in the System Hub Decision Log.

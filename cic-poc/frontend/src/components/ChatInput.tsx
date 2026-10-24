@@ -8,6 +8,8 @@ import { askAgainCopy } from '../lib/deeperCopy';
 interface ChatInputProps {
   onSend: (message: string) => void;
   placeholder: string;
+  // The name a screen reader gives the box; the placeholder goes when the person starts typing.
+  label: string;
   disabled?: boolean;
   turns?: ConversationTurn[];
   // Text already in the box when it first appears.
@@ -16,7 +18,7 @@ interface ChatInputProps {
   sending?: boolean;
 }
 
-export function ChatInput({ onSend, placeholder, disabled = false, turns = [], initialMessage = '', sending = disabled }: ChatInputProps) {
+export function ChatInput({ onSend, placeholder, label, disabled = false, turns = [], initialMessage = '', sending = disabled }: ChatInputProps) {
   const [message, setMessage] = useState(initialMessage);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const askAgainRef = useRef<HTMLButtonElement>(null);
@@ -48,11 +50,22 @@ export function ChatInput({ onSend, placeholder, disabled = false, turns = [], i
       e.preventDefault();
       const trimmed = message.trim();
       if (trimmed && !disabled) {
+        sentFromBox.current = true;
         if (submit(trimmed)) setMessage('');
       }
     },
     [message, disabled, submit]
   );
+
+  // The box is disabled while a message waits for its reply, which drops focus to the page.
+  // When it opens again after a send, the cursor returns to it unless the person went elsewhere.
+  const sentFromBox = useRef(false);
+  useEffect(() => {
+    if (disabled || !sentFromBox.current) return;
+    sentFromBox.current = false;
+    const active = document.activeElement;
+    if (!active || active === document.body) textareaRef.current?.focus();
+  }, [disabled]);
 
   const wasAsking = useRef(false);
   useEffect(() => {
@@ -88,6 +101,7 @@ export function ChatInput({ onSend, placeholder, disabled = false, turns = [], i
           }}
           onKeyDown={handleKeyDown}
           placeholder={placeholder}
+          aria-label={label}
           disabled={disabled}
           rows={1}
         />

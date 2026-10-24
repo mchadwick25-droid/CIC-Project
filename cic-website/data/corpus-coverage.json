@@ -8,8 +8,8 @@
   "scope": "vendored coverage only - see this script's own docstring for why the acquirable/purchasable/no-edition-exists breakdown is not included here",
   "counts": {
     "total_entries": 296,
-    "entries_with_coverage": 187,
-    "entries_zero_coverage": 109
+    "entries_with_coverage": 186,
+    "entries_zero_coverage": 110
   },
   "entries": {
     "post-apostolic-house-church": {
@@ -22049,80 +22049,7 @@
     "mission-born-christianities-kirishitan-japan-kon": {
       "name": "Mission-Born Christianities (Kirishitan Japan; Kongo; China; New Spain/Andes)",
       "status": "Label - Assessed Per Body (A3)",
-      "works": [
-        {
-          "work": "The Philippine Islands, Vol. VII (1588-1591): Plasencia's Customs of the Tagalogs, and the documents of 1588-1591",
-          "author": "blair-robertson",
-          "role": "context",
-          "confidence": "provisional",
-          "source_file": "blair-robertson_philippine-islands-v07_1903.txt",
-          "rights": "Public Domain (published 1903-1909, public domain by date under the project's 95-year rule; Project Gutenberg's own explicit public-domain-in-the-United-States declaration; the archive.org mirror of this eBook, item thephilippineisl13701gut, is marked NOT_IN_COPYRIGHT)"
-        },
-        {
-          "work": "Relacion de las Islas Filipinas y de lo que en ellas han trabajado los Padres de la Compania de Jesus (Roma 1604), Manila 1890 reprint",
-          "author": "chirino",
-          "role": "context",
-          "confidence": "provisional",
-          "source_file": "chirino_relacion-islas-filipinas-spa_manila1890.txt",
-          "rights": "Public Domain (published 1890, public domain by date under the project's 95-year rule; host possible-copyright-status NOT_IN_COPYRIGHT)"
-        },
-        {
-          "work": "The Philippine Islands, Vol. XII (1601-1604): Chirino's Relacion de las Islas Filipinas (first part) and the documents of 1601-1603",
-          "author": "chirino",
-          "role": "context",
-          "confidence": "provisional",
-          "source_file": "blair-robertson_philippine-islands-v12_1904.txt",
-          "rights": "Public Domain (published 1903-1909, public domain by date under the project's 95-year rule; Project Gutenberg's own explicit public-domain-in-the-United-States declaration; the archive.org mirror of this eBook, item thephilippineisl15022gut, is marked NOT_IN_COPYRIGHT)"
-        },
-        {
-          "work": "The Philippine Islands, Vol. XIII (1604-1605): Chirino's Relacion de las Islas Filipinas (concluded) and the documents of 1604-1605",
-          "author": "chirino",
-          "role": "context",
-          "confidence": "provisional",
-          "source_file": "blair-robertson_philippine-islands-v13_1904.txt",
-          "rights": "Public Domain (published 1903-1909, public domain by date under the project's 95-year rule; Project Gutenberg's own explicit public-domain-in-the-United-States declaration; the archive.org mirror of this eBook, item thephilippineisl15184gut, is marked NOT_IN_COPYRIGHT)"
-        },
-        {
-          "work": "Labor evangelica (Madrid 1663), Parte primera, drawn from Chirino's manuscripts, Pastells's edition of 1900, Tomo I",
-          "author": "colin",
-          "role": "context",
-          "confidence": "provisional",
-          "source_file": "colin_labor-evangelica-t1-spa_pastells1900.txt",
-          "rights": "Public Domain (published 1900, public domain by date under the project's 95-year rule; the host item carries no rights field and is not access-restricted; the Google scans of the same edition, archive.org items laborevangelica00pastgoog and laborevangelica00chirgoog, are marked NOT_IN_COPYRIGHT)"
-        },
-        {
-          "work": "Doctrina Christiana en lengua espanola y tagala (Manila, 1593), with Wolf's 1947 essay",
-          "author": "doctrina-christiana",
-          "role": "context",
-          "confidence": "provisional",
-          "source_file": "doctrina-christiana_manila-1593-tgl-spa_wolf1947.txt",
-          "rights": "Public Domain (the 1593 Doctrina is public domain by date; the 1947 Library of Congress facsimile edition, including Wolf's essay, is distributed by Project Gutenberg under its explicit declaration that no one owns a United States copyright in it)"
-        },
-        {
-          "work": "History of the Philippine Islands (Morga's Sucesos de las Islas Filipinas, 1609), Blair and Robertson's English",
-          "author": "morga",
-          "role": "context",
-          "confidence": "provisional",
-          "source_file": "morga_sucesos-islas-filipinas_blair-robertson1907.txt",
-          "rights": "Public Domain (published 1907, public domain by date under the project's 95-year rule; the 1907 copyright has long expired; Project Gutenberg's own explicit public-domain-in-the-United-States declaration; the archive.org mirror of this eBook, item historyofthephil07001gut, is marked NOT_IN_COPYRIGHT)"
-        },
-        {
-          "work": "Sucesos de las Islas Filipinas (Mexico 1609), Rizal's annotated edition of 1890, with Blumentritt's prologue",
-          "author": "morga",
-          "role": "context",
-          "confidence": "provisional",
-          "source_file": "morga_sucesos-islas-filipinas-spa_rizal1890.txt",
-          "rights": "Public Domain (published 1890, public domain by date under the project's 95-year rule; the host item carries no rights field and is not access-restricted)"
-        },
-        {
-          "work": "Collectanea S. Congregationis de Propaganda Fide, Volume I: decrees and instructions on missions",
-          "author": "propaganda-fide",
-          "role": "context",
-          "confidence": "provisional",
-          "source_file": "propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt",
-          "rights": "Public Domain (published 1907; the host also states CC0 1.0)"
-        }
-      ]
+      "works": []
     },
     "kongo-christianity-afonso-to-1650": {
       "name": "Kongo Christianity, Afonso I to 1650",

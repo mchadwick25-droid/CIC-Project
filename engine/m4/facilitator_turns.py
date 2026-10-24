@@ -222,6 +222,13 @@ def session_cap_turn(representative_name: str, limit_text: str | None = None) ->
     return {"kind": SESSION_CAP.kind, "text": SESSION_CAP.text}
 
 
+# The one redirect sentence the fixed Facilitator lines share (the monthly-limit line and the
+# unread-message line). It names no organisation or number; Mark's approved wording.
+REDIRECT_TO_REAL_PEOPLE = (
+    "If you are in distress or in danger, please reach out to someone real now - a person you trust, a crisis line, "
+    "or emergency services where you are."
+)
+
 # The reply past the monthly bound on messages that get a safety check and no
 # Representative reply. No model reads the message; this fixed line is the whole
 # reply, and the redirect to real people is part of it every time.
@@ -230,8 +237,7 @@ VISITOR_BOUND = FacilitatorTurn(
     text=(
         "This is the Facilitator. Messages here that get no reply from a Representative have reached the limit for this "
         "month, so I have stopped reading new ones for now. Nothing in your conversations is lost.\n\n"
-        "If you are in distress or in danger, please reach out to someone real now - a person you trust, a crisis line, "
-        "or emergency services where you are.\n\n"
+        + REDIRECT_TO_REAL_PEOPLE + "\n\n"
         "The limit clears 30 days after the first message it counted."
     ),
 )
@@ -240,6 +246,40 @@ VISITOR_BOUND = FacilitatorTurn(
 def visitor_bound_turn() -> dict:
     """The reply past the monthly bound. Fixed text, no model call, the redirect always included."""
     return {"kind": VISITOR_BOUND.kind, "text": VISITOR_BOUND.text, "resources_appended": True}
+
+
+# The reply when the safety check could not run on a message. Nobody read the message, and nothing
+# is assumed about the person: the line says so plainly and gives the redirect to real people as an
+# "if". Fixed text, no model call, the redirect always included, no safety track opened.
+SAFETY_UNREAD = FacilitatorTurn(
+    kind="limit",
+    text=(
+        "This is the Facilitator. I could not read your message just now, so no one has answered it yet.\n\n"
+        + REDIRECT_TO_REAL_PEOPLE + "\n\n"
+        "When you are ready, you can send your message again."
+    ),
+)
+
+
+def safety_unread_turn() -> dict:
+    """The reply when the safety check could not run. Fixed text, no model call, the redirect always included."""
+    return {"kind": SAFETY_UNREAD.kind, "text": SAFETY_UNREAD.text, "resources_appended": True}
+
+
+# The same, for a message the service is refusing anyway (a closed conversation, an over-long message) that
+# the safety check could not read either. It does not promise that sending again will work.
+SAFETY_UNREAD_REFUSED = FacilitatorTurn(
+    kind="limit",
+    text=(
+        "This is the Facilitator. I could not read your message just now.\n\n"
+        + REDIRECT_TO_REAL_PEOPLE
+    ),
+)
+
+
+def safety_unread_refused_turn() -> dict:
+    """The reply to a refused message the safety check could not read. Fixed text, no model call, the redirect always included."""
+    return {"kind": SAFETY_UNREAD_REFUSED.kind, "text": SAFETY_UNREAD_REFUSED.text, "resources_appended": True}
 
 
 # --- Table variants (Artifact-7 SS1-2; C1: fixed

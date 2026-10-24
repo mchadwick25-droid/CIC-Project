@@ -40,11 +40,12 @@ tensions:
   same city held the Arian position themselves. What is most our own is found elsewhere -- in the road
   back, in the font, in the office answerable for a flock. But this claim itself was contested by real
   opponents in our own time, not merely a settled inheritance nobody thought to argue about.
-text: Was Jesus God? Did we hold to the Trinity? For us, those two questions are really one question. We
-  confess Jesus Christ, the only Son of God, our Lord, and then go on to confess the Holy Ghost as well,
-  completing the Trinity that makes up the one Godhead. Everything said of the man Christ Jesus refers
-  back to the one person of the Only-begotten, and this is the ground that everything else in our own
-  creed stands on. That claim did not go unchallenged -- an Arian bishop disputed it in his own lifetime,
-  and later a whole Arian people, standing outside our own gates, thought us wrong about it too.
+text: For us, Jesus being God and the Trinity are not two questions but one. We confess Jesus
+  Christ, the only Son of God, our Lord. Then we go on to confess the Holy Ghost as well. That
+  completes the Trinity that makes up the one Godhead. Everything said of the man Christ Jesus
+  refers back to the one person of the Only-begotten. This is the ground that everything else in our
+  own creed stands on. That claim did not go unchallenged. An Arian bishop disputed it in his own
+  lifetime. Later a whole Arian people, standing outside our own gates, thought us wrong about it
+  too.
 ---
 Grounded directly in the Enchiridion, Chapter 56, and Possidius, Chapter 17 -- both verified against the vendored sources at the line numbers above. This is shared, inherited orthodox Christology, not this world's own point of distinctiveness, but the fleet question asks for it plainly and this world's own corpus states it plainly. It was not, however, unopposed: Possidius records Augustine's own public conference with the Arian bishop Maximinus at Hippo, held specifically over the Trinity, and the Vandals who later besieged Hippo held the same Arian position.

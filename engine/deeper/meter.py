@@ -138,6 +138,13 @@ CREATE TABLE IF NOT EXISTS pilot_joined (
     joins INTEGER NOT NULL CHECK (joins > 0),
     first_day TEXT NOT NULL
 ) WITHOUT ROWID;
+CREATE TABLE IF NOT EXISTS unmatched_payments (
+    payment_id TEXT PRIMARY KEY,
+    link TEXT,
+    cents INTEGER,
+    day TEXT NOT NULL,
+    status TEXT NOT NULL DEFAULT 'open' CHECK (status IN ('open', 'dismissed'))
+) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS state (
     key TEXT PRIMARY KEY,
     value TEXT NOT NULL
@@ -579,6 +586,36 @@ class Meter:
         with self._lock:
             self._conn.execute("INSERT OR IGNORE INTO reconcile (day) VALUES (?)", (day,))
             self._conn.execute(f"UPDATE reconcile SET {field} = {field} + ? WHERE day = ?", (amount, day))
+
+    def record_unmatched(self, payment_id: str, link: str | None, cents: int | None) -> bool:
+        """A paid checkout whose payment link is in no list this service knows. Kept so the buyer can be
+        fixed by hand: the payment id (to find them in Stripe), the link id and the amount, nothing about
+        the buyer. A replayed event adds nothing. Returns whether it was new."""
+        if isinstance(cents, bool) or not isinstance(cents, int) or cents <= 0:
+            cents = None
+        with self._lock:
+            cur = self._conn.execute(
+                "INSERT OR IGNORE INTO unmatched_payments (payment_id, link, cents, day) VALUES (?, ?, ?, ?)",
+                (payment_id, link if isinstance(link, str) else None, cents, self._clock().isoformat()),
+            )
+            return cur.rowcount == 1
+
+    def unmatched_open(self, limit: int = 50) -> list[dict]:
+        """Payments still waiting to be fixed or dismissed, newest first."""
+        with self._lock:
+            rows = self._conn.execute(
+                "SELECT payment_id, link, cents, day FROM unmatched_payments WHERE status = 'open' ORDER BY day DESC, payment_id LIMIT ?",
+                (limit,),
+            ).fetchall()
+        return [{"payment_id": p, "link": link, "cents": cents, "day": day} for p, link, cents, day in rows]
+
+    def dismiss_unmatched(self, payment_id: str) -> bool:
+        """Takes one payment off the list: fixed by hand, refunded, or not a token purchase at all."""
+        with self._lock:
+            cur = self._conn.execute(
+                "UPDATE unmatched_payments SET status = 'dismissed' WHERE payment_id = ? AND status = 'open'", (payment_id,)
+            )
+            return cur.rowcount == 1
 
     def reconciliation(self, days: int = 7) -> list[dict]:
         """Payments seen against payments that made codes, newest day first.

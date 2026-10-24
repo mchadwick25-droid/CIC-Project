@@ -109,6 +109,8 @@ def test_flag_off_mounts_no_deeper_route(store, usage_store, world_loader, regis
     assert http.get("/api/admin/deeper/reconciliation", headers=admin()).status_code == 404
     assert http.get("/api/admin/deeper/funds", headers=admin()).status_code == 404
     assert http.get("/api/admin/deeper/owed", headers=admin()).status_code == 404
+    assert http.get("/api/admin/deeper/unmatched", headers=admin()).status_code == 404
+    assert http.post("/api/admin/deeper/unmatched/dismiss", json={"payment_id": "pi_x"}, headers=admin()).status_code == 404
     assert http.post("/api/admin/deeper/void", json={"payment_id": "pi_x"}, headers=admin()).status_code == 404
     assert http.get("/api/admin/deeper/measures", headers=admin()).status_code == 404
 
@@ -633,7 +635,39 @@ def test_a_working_purchase_and_a_full_refund_leave_no_log_line_but_a_stray_even
     assert not [r for r in caplog.records if r.name.startswith("cic.deeper")]
     assert post_event(http, completed(payment="pi_other", link="plink_not_ours")).status_code == 200
     handled = [r.getMessage() for r in caplog.records if "webhook handled" in r.getMessage()]
-    assert handled == ["webhook handled type=checkout.session.completed outcome=ignored_not_ours"]
+    assert handled == ["webhook handled type=checkout.session.completed outcome=unmatched_payment"]
+
+
+def test_a_paid_checkout_from_an_unlisted_link_is_kept_for_the_dashboard(http, runtime):
+    post_event(http, completed(payment="pi_stray", link="plink_not_ours", amount=700))
+    post_event(http, completed(payment="pi_stray", link="plink_not_ours", amount=700))
+    got = http.get("/api/admin/deeper/unmatched", headers=admin())
+    assert got.status_code == 200
+    (row,) = got.json()["unmatched"]
+    assert row["payment_id"] == "pi_stray" and row["link"] == "plink_not_ours" and row["cents"] == 700
+    assert set(row) == {"payment_id", "link", "cents", "day"}  # nothing about the buyer
+    assert runtime.meter.reconciliation() == []  # no code was due here, so no gap is claimed
+
+
+def test_only_a_paid_checkout_from_an_unlisted_link_is_kept(http, runtime):
+    post_event(http, completed(payment="pi_unpaid", link="plink_not_ours", paid="unpaid"))
+    post_event(http, completed(payment="pi_ours"))
+    assert http.get("/api/admin/deeper/unmatched", headers=admin()).json() == {"unmatched": []}
+
+
+def test_an_unmatched_payment_is_dismissed_by_hand_or_by_its_refund(http, runtime):
+    post_event(http, completed(payment="pi_one", link="plink_not_ours"))
+    post_event(http, completed(payment="pi_two", link="plink_not_ours"))
+    assert http.post("/api/admin/deeper/unmatched/dismiss", json={"payment_id": "pi_one"}, headers=admin()).status_code == 200
+    assert http.post("/api/admin/deeper/unmatched/dismiss", json={"payment_id": "pi_one"}, headers=admin()).status_code == 404
+    post_event(http, refunded(payment="pi_two"))
+    assert http.get("/api/admin/deeper/unmatched", headers=admin()).json() == {"unmatched": []}
+
+
+def test_the_unmatched_list_is_for_the_admin_only(http):
+    assert http.get("/api/admin/deeper/unmatched").status_code == 404
+    assert http.get("/api/admin/deeper/unmatched", headers=admin("wrong-token-wrong-token-wrong-token-1")).status_code == 404
+    assert http.post("/api/admin/deeper/unmatched/dismiss", json={"payment_id": "pi_x"}).status_code == 404
 
 
 def test_the_admin_adds_lists_and_reverses_an_adjustment(http, runtime):

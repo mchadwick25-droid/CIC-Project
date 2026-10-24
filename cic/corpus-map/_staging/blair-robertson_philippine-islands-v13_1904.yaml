@@ -33,15 +33,3 @@ assignments:
   confidence: assigned
   note: Second half of the Society's own account of its first Philippine decades, and Chirino's grant
     for the Jesuit seminary at Cebu.
-- row_id: blair-robertson_philippine-islands-v13_1904--chirino-relacion-part-2-3
-  work: 'The Philippine Islands, Vol. XIII (1604-1605): Chirino''s Relacion de las Islas Filipinas (concluded)
-    and the documents of 1604-1605'
-  author: chirino
-  locus: Chirino's Relacion concluded from file line 547 to 5571; documents of 1604 from 5571 (decrees
-    on religious orders 6205, Chirino's grant for the Jesuit seminary at Cebu 6301), of 1605 from 6718
-    (Augustinian friars' letters 7284); Bibliographical Data at 7879
-  atlas_ids:
-  - mission-born-christianities-kirishitan-japan-kon
-  role: context
-  confidence: provisional
-  note: As the Vol. XII row.

@@ -5,6 +5,8 @@ interface TranscriptScrollProps {
   label: string;
   // Changes when a new question is sent: the page follows the conversation again.
   followSignal: number;
+  // Changes when a safety turn arrives: the transcript holds at the start of it, so its first line is read before the rest.
+  holdSignal?: number;
 }
 
 const AWAY_FROM_LATEST = 60;
@@ -24,7 +26,7 @@ function ease(x: number): number {
  * grow, lets the reader go back up (wheel, finger, keys or the gold bar), and
  * offers a way back to the latest.
  */
-export function TranscriptScroll({ children, label, followSignal }: TranscriptScrollProps) {
+export function TranscriptScroll({ children, label, followSignal, holdSignal = 0 }: TranscriptScrollProps) {
   const boxRef = useRef<HTMLDivElement>(null);
   const trackRef = useRef<HTMLSpanElement>(null);
   const thumbRef = useRef<HTMLSpanElement>(null);
@@ -46,6 +48,24 @@ export function TranscriptScroll({ children, label, followSignal }: TranscriptSc
   useEffect(() => {
     mode.current = 'follow';
   }, [followSignal]);
+
+  const heldFor = useRef(holdSignal);
+  useEffect(() => {
+    if (holdSignal <= heldFor.current) {
+      heldFor.current = holdSignal;
+      return undefined;
+    }
+    heldFor.current = holdSignal;
+    const frame = requestAnimationFrame(() => {
+      const box = boxRef.current;
+      const marks = box?.querySelectorAll<HTMLElement>('[data-hold-start]');
+      const start = marks && marks[marks.length - 1];
+      if (!box || !start) return;
+      mode.current = 'free';
+      box.scrollTop = start.getBoundingClientRect().top - box.getBoundingClientRect().top + box.scrollTop - 8;
+    });
+    return () => cancelAnimationFrame(frame);
+  }, [holdSignal]);
 
   useEffect(() => {
     const box = boxRef.current;

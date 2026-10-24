@@ -50,15 +50,13 @@ tensions:
   own writing says so. Many things, he said, rightly come from the apostles, even though never written
   down. We do not resolve which test is truer. We hold both, from two bishops on opposite sides of two
   different disputes about what we received from the apostles.
-text: 'How do we test whether a practice of ours truly goes back to the apostles? We do not agree among
-  ourselves on one single test. Cyprian held that nothing counts as apostolic unless it
-  is written in the Gospel or in the apostles'' own letters. Custom alone, however old, is not enough.
-  Custom without truth, he said, is only the old age of error. Augustine argued a related
-  question a century and a half later. He held the opposite: a custom kept everywhere in the Church may
-  fairly be presumed apostolic, even where no apostle''s own writing says so. We give you both tests,
-  because both are ours. In this dispute itself, neither test traces the road back or the teaching before
-  the water to a named apostolic origin. Elsewhere, Augustine does trace two other practices
-  of ours -- not rebaptizing, and baptizing infants -- to the apostles by name, using this same second
-  test.'
+text: We do not agree among ourselves on one test for whether a practice of ours truly came from the apostles. Cyprian held that nothing counts as apostolic unless it is written in the
+  Gospel or in the apostles' own letters. Custom alone, however old, is not enough. Custom without
+  truth, he said, is only the old age of error. Augustine took up a related question about 150 years later. He held the opposite. A custom kept everywhere in the Church may fairly be presumed
+  apostolic, even where no apostle's own writing says so. We give you both tests, because both are
+  ours. In this dispute itself, neither test traces the road back, or the teaching before the water,
+  to a named apostolic origin. Elsewhere, Augustine does trace two other practices of ours to the
+  apostles by name. He uses this same second test. One practice is baptizing infants. The other is refusing to baptize
+  again a person already baptized among heretics.
 ---
 Grounded directly in Cyprian, Epistle 73, and Augustine, On Baptism V.23 -- both verified against the vendored XML at the line numbers above. Answers F4-E's own question about how a practice's apostolic origin would be tested, using material this world's own corpus actually contains. This dispute does not itself trace catechesis, preaching, or reconciliation to the apostles by name -- that remains a genuine absence, narrowed in lpc.limit.apostolic-origin-undefended. Outside this dispute, the same test does trace two other named practices to the apostles; see lpc.witness.baptism-traced-to-the-apostles.

@@ -29,7 +29,7 @@ relations:
 - type: associated-with
   target: lpc.witness.restless-heart-and-the-unrepentant-enemy
 positions:
-- Augustine taught this directly, from the apostle Paul's own words. Paul asked God three
+- Augustine taught directly on prayer that goes unanswered, from the apostle Paul's own words. Paul asked God three
   times to take away a thorn in his flesh, an affliction he named as a messenger of Satan sent to buffet
   him. God did not take it away.
 tensions:
@@ -38,12 +38,12 @@ tensions:
   though he was not heard according to his wish. A prayer that goes unanswered as asked, he taught, is
   not the same thing as a prayer God did not hear.'
 claim_guards: []
-text: 'What do you do with prayer that goes unanswered? We do have something real to give you here. Augustine
-  taught it directly, from the apostle Paul''s own words: Paul asked God three times to take away a thorn
-  in his flesh, an affliction he named as a messenger of Satan sent to buffet him, and God did not take
-  it away. He answered instead, "My grace is sufficient for thee: for strength is made perfect in weakness."
-  Augustine drew a rule from this, one he did not confine to Paul alone -- Paul was heard for salvation,
-  he taught, even though he was not heard according to his wish. A prayer God does not answer as we asked
-  is not, on this teaching, a prayer God failed to hear.'
+text: 'Augustine taught directly on prayer that goes unanswered, from the apostle Paul''s own words.
+  Paul asked God three times to take away a thorn in his flesh. He named it a messenger of Satan
+  sent to buffet him. God did not take it away. He answered instead, "My grace is sufficient for
+  thee: for strength is made perfect in weakness." Augustine drew a rule from this, one he did not
+  confine to Paul alone. Paul was heard for salvation, he taught, even though he was not heard
+  according to his wish. A prayer God does not answer as we asked is not, on this teaching, a prayer
+  God failed to hear.'
 ---
 Grounded directly in Augustine, Ten Homilies on the First Epistle of John, Homily VI, SS6-7 -- verified against the vendored XML at the line numbers above (npnf107_augustine-homilies-john-soliloquies.xml is assigned to lpc via lpc.source.augustine-tractates-on-john-and-related-exegesis). Uses Paul's own thorn-in-the-flesh episode as its worked example. A second, independent locus (the Exposition on Psalm 86, npnf108) makes the same point at greater length and is not built as its own record here, since one clean, directly-quoted locus already answers the cell. Together with lpc.witness.restless-heart-and-the-unrepentant-enemy, this fully answers F4-P.
