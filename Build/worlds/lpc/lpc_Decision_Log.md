@@ -2567,3 +2567,9 @@ Alternatives shown: (1) one revision pass fixing the P0 and every P1, each fix v
 ### 2026-10-23 — Second targeted recheck for Doc_04, Doc_05 and Doc_09 (project lead's ruling)
 
 Alternatives shown: (1) one more targeted recheck of the new fixes in those three, alongside the ruled Doc_01 and Doc_02 rechecks; (2) no further recheck; (3) fold them into the Doc_01 and Doc_02 rechecks. Chosen: 1 (project lead, 2026-10-23, "1"). Cap ruling recorded in the System Hub Decision Log. The Doc_01 recheck also sweeps every site of the qualified silence.
+
+---
+
+### 2026-10-24 — Opus 5 fallback: re-run only the Doc_09 rendering check (project lead's approval)
+
+The Doc_04, Doc_05 and Doc_09 second rechecks ran partly or wholly on Opus 5 (disclosed in their headers). Alternatives shown: accept all three; re-run all three on Opus 5.5; re-run only Doc_09's rendering check. Chosen: re-run only Doc_09's (project lead, 2026-10-24, "lets go" to the recommendation). Cap ruling in the System Hub Decision Log.

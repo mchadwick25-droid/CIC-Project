@@ -6887,3 +6887,7 @@ The targeted rechecks ordered by the Cap ruling "lpc CO-LPC-1 revision pass" lef
 ## 2026-10-23 - Change order: promotion goes from main straight to live
 
 Ruled by the project lead on 2026-10-23 in conversation: "we have suspended staging, we go straight from main to live", then "update the runbook to go straight from main to live". It changes the promotion model of D3 (`CiC_Repo_Structure_Tracking.md`, Decisions 2026-09-14) by dropping the staging verification step. `CiC_Promotion_Runbook.md` now says so. Still his: opening and merging the pull request into `live`. Not changed: `render.yaml`, which still describes the staging service.
+
+## 2026-10-24 - Cap ruling: lpc Doc_09, the rendering check re-run on Opus 5.5
+
+The second targeted rechecks of `lpc` Doc_04, Doc_05 and Doc_09 (2026-10-23) ran partly or wholly on Opus 5 after the harness fell back from Opus 5.5; the three files disclose it. Alternatives put to the project lead: (1) accept all three with the disclosure; (2) re-run all three on Opus 5.5; (3) re-run only Doc_09's, the separate Opus check of the modern-English renderings that CLAUDE.md names. The project lead approved option 3 ("lets go", 2026-10-24, answering the build thread's recommendation). The file this ruling covers is `Build/worlds/lpc/Review-Artifacts/Doc_09_ChangeOrder_Recheck_Round12.md`. The Doc_04 and Doc_05 rechecks stand with their disclosure.
