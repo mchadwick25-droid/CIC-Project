@@ -68,7 +68,8 @@ describe('framed in talk.html', () => {
   it('says the conversation has started once there is a question', async () => {
     const { container, post } = await renderFramed([door, { speaker: 'participant', text: 'Who are you?' }]);
     await waitFor(() => expect(container.querySelector('.turn--participant')).not.toBeNull());
-    expect(startedMessages(post).slice(-1)[0]).toEqual({ type: 'cic:started', started: true });
+    // The message is posted by an effect after the turn renders, so wait for it as well.
+    await waitFor(() => expect(startedMessages(post).slice(-1)[0]).toEqual({ type: 'cic:started', started: true }));
   });
 
   it('marks the page as framed, so the first-screen bar drops the site\'s duplicates', async () => {
