@@ -26,8 +26,8 @@ sources:
 - source_id: cappadocian.term.eikon
   locus: "the poor bearing the image of God"
   license: public-domain
-- source_id: cappadocian.term.philoptochia
-  locus: "the Matthew 25 logic preached at full strength"
+- source_id: cappadocian.source.basil-letters-general-corpus
+  locus: "npnf208 Prolegomena, Homily VI on Luke xii. 18 quoted in English: 'Do not wait for a famine before thou openest thy barns', and the judgment 'I was an hungred and ye gave me meat'"
   license: public-domain
 - source_id: cappadocian.term.anastasis
   locus: "resurrection argued at deathbeds, not merely wished for"
@@ -51,8 +51,8 @@ text: >-
   ransom, a debt paid, a physician entering our own sickness to heal it from
   inside. And we held that the poor at our door bore his very image. So the
   saying about whatever you did for the least of these was preached to us at
-  its full, uncomfortable strength. The surplus you kept beyond your own
-  need, we were told, was already theirs. And we held that his body rose,
+  its full, uncomfortable strength. We were told not to wait for a
+  famine before opening our barns. And we held that his body rose,
   and that ours would rise too. We argued it through at more than one
   deathbed among us.
 positions:

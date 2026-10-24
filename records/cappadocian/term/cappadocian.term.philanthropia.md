@@ -55,7 +55,7 @@ use_note:
     it at the poorhouse door, a word the rulers of the time also claimed as a civic virtue.
   not_for:
   - elite giving by the wealthy
-  - the teaching that the poor bear God's image, which sits in cappadocian.term.philoptochia
+  - the teaching that the poor bear God's image, which sits in cappadocian.term.eikon
   - the poorhouse itself, which sits in cappadocian.term.basileias
   years:
     from: 325

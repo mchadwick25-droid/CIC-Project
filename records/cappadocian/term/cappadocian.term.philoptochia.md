@@ -11,22 +11,25 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: 'Documented via Nazianzen''s Oration 14 on the love of the poor, which is vendored. Nyssa''s homilies on the love of the poor are named in the vendored texts but not held.
-    Basil''s own famine and wealth homilies -- the era''s sharpest, most-quoted lines on this theme --
-    are a separate case: no open-license translation of that specific homily set is vendored anywhere
-    in this project (Source Registry row 16); the historical fact that Basil preached
-    on these themes in the famine of 368/9 is Widely Accepted, but any specific wording attributed to
-    those homilies rests on general scholarly knowledge, not a checkable primary text.'
+  divergence_note: 'The grounded parts rest on Nazianzen''s Oration 43 (Basil got grain out of those who held stores, built the new city for the sick, and cleansed leprosy in deed) and on Basil''s letter to Elias defending the guest-house and infirmary. Nazianzen''s Oration 14 on the love of the poor is not vendored: the vendored npnf207 edition only lists its title. Nyssa''s homilies on the love of the poor are not held either. The lines that the poor bear the image of God and that what is kept beyond need belongs to the hungry cannot be checked here and are rated Inferential-Thin.
+    Basil''s own famine and wealth homilies are a separate case: no open-license translation of the whole
+    set is vendored in this project (Source Registry row 16). The npnf208 Prolegomena quotes long English
+    extracts of Homilies VI and VII (npnf208 xml:6227-6310, 6848 onward) and only summarizes Homily VIII
+    on the famine (6926-6935). Wording within those extracts is checkable; any other wording attributed
+    to these homilies rests on general scholarly knowledge, not a checkable primary text.'
 sources:
+- source_id: cappadocian.source.gregory-nazianzus-oration-43-funeral-encomium-basil
+  locus: "Oration 43: Basil opened the stores of those who held them and dealt food to the hungry; 'the new city', a hospital for the sick; Basil cleansing leprosy 'not by a word, but in deed'"
+  license: public-domain
+- source_id: cappadocian.source.basil-letters-general-corpus
+  locus: "Letter to Elias, Governor of the Province (Letter XCIV): a place of entertainment for strangers and for those who need medical treatment"
+  license: public-domain
 - source_id: cappadocian.source.gregory-nazianzus-oration-14-love-of-poor
-  locus: On the Love of the Poor
-  license: public-domain
+  locus: On the Love of the Poor - named only, not held
 - source_id: cappadocian.source.gregory-nyssa-de-pauperibus-amandis
-  locus: the lepers homilies
-  license: public-domain
+  locus: the lepers homilies - named only, not held
 - source_id: cappadocian.source.basil-moral-famine-homilies
-  locus: the famine and wealth preaching (text unverified)
-  license: public-domain
+  locus: the famine and wealth preaching (not held whole; extracts of Homilies VI and VII are quoted in the npnf208 Prolegomena)
 retrieval:
   tier: 1
   retrieve_when:
@@ -48,9 +51,8 @@ relations:
   target: cappadocian.term.philanthropia
 - type: associated-with
   target: cappadocian.term.pleonexia
-plain_meaning: We preached that the poor bear the image of God. Whatever a person keeps beyond
-  their own need, we said, already belongs to the hungry. In famine, that belief became grain shamed
-  out of hoarders. Outside one city, it became a permanent guest-house, infirmary, and leper-house.
+plain_meaning: We preached love of the poor. In famine, that belief brought grain out of those who
+  held stores. Outside one city, it became a permanent guest-house, infirmary, and leper-house.
 world_word: philoptōchia
 false_friend:
 - philanthropy as an optional kindness reserved for the wealthy
@@ -58,26 +60,21 @@ false_friend:
 - a social program separate from spirituality
 senses:
   informational: 'The preaching titled its own orations with this word. It taught almsgiving as a virtue
-    with doctrine inside it: the poor bear the image of God, the surplus in your keeping already belongs
-    to the hungry, and mercy to the destitute is meeting Christ himself -- the Matthew 25 logic preached
-    at full strength.'
-  evidential: 'Documented across homilies, orations, and the institution''s own real existence outside
-    Caesarea (the poorhouse-guesthouse-infirmary-leprosarium complex). The homilies specifically preached
-    in the famine of 368/9 -- the sharpest, most quotable lines of this preaching -- rest on a source
-    this world''s own build has flagged as unverified at the text level: no open translation of Basil''s
-    famine and wealth homilies is vendored in this project, so their content here rests on general scholarly
-    knowledge of theme and occasion, not a checkable primary text.'
+    with doctrine inside it. Basil''s care for the sick was praised as the imitation of Christ, cleansing leprosy "not by a word, but in deed."'
+  evidential: 'Documented in Oration 43, in Basil''s letter to Elias, and in the institution''s own real existence outside
+    Caesarea (the poorhouse-guesthouse-infirmary-leprosarium complex). Basil''s famine and wealth homilies
+    are not held whole. Long extracts of Homilies VI and VII are quoted in English in the Basil volume
+    of the Nicene and Post-Nicene Fathers. The famine homily itself, Homily VIII, is only summarized there.'
   personal: 'The leper was this virtue''s proof-case: love that cost the healthy their own bodily comfort,
     in an era when lepers were untouchable by custom. This world made touching them the visible edge of
     its whole ethic.'
-  translational: '''Isn''t charity just optional generosity, separate from justice?'' -- this world preached
-    the opposite, to the hoarders'' own faces, in a famine: the surplus is not yours, and failing the
-    poor is not a lesser fault but a thing you could be damned for.'
+  translational: '''Isn''t charity just optional generosity, separate from justice?'' -- in the famine Basil,
+    by his word and advice, opened the stores of those who held them and fed the hungry.'
 quick_meaning: 'Love of the poor: almsgiving turned into an institution, the poor made our own
   test.'
 distortion_risk: medium
 use_note:
-  means: "Philoptochia meant love of the poor, preached as almsgiving with doctrine inside it, since the poor bear God's image."
+  means: "Philoptochia meant love of the poor, preached as almsgiving with doctrine inside it and built into a guest-house, infirmary and leper-house."
   not_for:
     - "optional kindness reserved for the wealthy"
     - "the famine homilies' sharpest lines as checked quotations"

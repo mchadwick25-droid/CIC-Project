@@ -12,16 +12,21 @@ confidence:
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
   divergence_note: Basil's own three-book Against Eunomius is this world's chief cited source for this
-    argument, but no open-license translation of that treatise is vendored in this project (Source Registry
-    rows 14, 24) -- the claim here rests on his directly-vendored Epistle XVI and on Gregory of Nyssa's
-    Ad Ablabium, not on the treatise's own checkable text.
+    argument, but it has no vendored file -- the claim here rests on Gregory of Nyssa quoting Basil on
+    names arrived at "by Conception", on Basil's directly-vendored Letter CCXXXIV, and on Nyssa's Ad Ablabium,
+    not on the treatise's own text.
 sources:
 - source_id: cappadocian.source.gregory-nyssa-ad-ablabium
   locus: the mature deployment of the argument
   license: public-domain
-- source_id: cappadocian.source.basil-against-eunomius
-  locus: the anti-Eunomian epistemology generally (treatise text unverified)
+- source_id: cappadocian.source.gregory-nyssa-against-eunomius
+  locus: Answer to Eunomius' Second Book, where Nyssa quotes Basil - "We call the Universal Deity ... imperishable and ungenerate ... and we arrive at these names by Conception"
   license: public-domain
+- source_id: cappadocian.source.basil-letters-general-corpus
+  locus: Letter CCXXXIV, "we know our God from His operations, but do not undertake to approach near to His essence"
+  license: public-domain
+- source_id: cappadocian.source.basil-against-eunomius
+  locus: the anti-Eunomian epistemology generally (the treatise has no vendored file)
 retrieval:
   tier: 2
   retrieve_when:
@@ -49,8 +54,8 @@ senses:
   evidential: Documented as Basil's own argument, extended by Gregory of Nyssa -- most fully in Ad Ablabium's
     mature deployment, arguing the oneness of God from the undivided energeia of the Three. Basil's fullest
     statement of the underlying argument is in his three-book Against Eunomius, which this project has
-    not acquired in an open translation; the claim here leans on his directly-vendored Epistle XVI and
-    on Nyssen's continuation instead.
+    not acquired; the claim here leans on Nyssa's quotation of Basil, on his directly-vendored Letter CCXXXIV,
+    and on Nyssen's continuation instead.
   personal: 'These were reverent instruments, not clever tricks: true reach toward God, with no claim
     ever to have seized his essence.'
   translational: '''Aren''t these just made-up mental constructs with no real connection to God?'' --
