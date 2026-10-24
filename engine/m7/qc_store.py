@@ -4,8 +4,8 @@ that leads back to a person. A turn is found by a conversation token, a
 keyed hash of the session id under a server secret, never written to the
 event log, so a deleted conversation's rows can be found and removed and
 the two stores cannot be joined without the secret; the date is the ISO
-week, never a time. Questions are kept;
-answers are deleted after 90 days; scores are kept. A turn the safety call
+week, never a time. Questions and answers are deleted after
+90 days; scores are kept. A turn the safety call
 flagged keeps its routing flags and no text.
 """
 import json
@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS qc_turn (
 );
 """
 
-ANSWER_RETENTION_DAYS = 90
+TEXT_RETENTION_DAYS = 90
 
 
 def iso_week(day: date) -> str:
@@ -86,16 +86,20 @@ class QCStore:
             scrub.truncate_wal(conn)
         return deleted
 
-    def expire_answers(self, today: date) -> int:
-        """Delete answer text from every week that ended more than 90 days
-        ago. Returns the number of rows cleared."""
-        cutoff = today - timedelta(days=ANSWER_RETENTION_DAYS)
+    def expire_text(self, today: date) -> int:
+        """Delete question and answer text from every week that ended more
+        than 90 days ago. Scores and routing flags stay. Returns the number
+        of rows cleared."""
+        cutoff = today - timedelta(days=TEXT_RETENTION_DAYS)
         with self._connect() as conn:
-            weeks = [w for (w,) in conn.execute("SELECT DISTINCT week FROM qc_turn WHERE answer_text IS NOT NULL")]
+            weeks = [w for (w,) in conn.execute(
+                "SELECT DISTINCT week FROM qc_turn WHERE answer_text IS NOT NULL OR question_text IS NOT NULL")]
             old = [w for w in weeks if week_start(w) + timedelta(days=6) < cutoff]
             cleared = 0
             for w in old:
-                cleared += conn.execute("UPDATE qc_turn SET answer_text = NULL WHERE week = ? AND answer_text IS NOT NULL", (w,)).rowcount
+                cleared += conn.execute(
+                    "UPDATE qc_turn SET answer_text = NULL, question_text = NULL "
+                    "WHERE week = ? AND (answer_text IS NOT NULL OR question_text IS NOT NULL)", (w,)).rowcount
             conn.commit()
         return cleared
 

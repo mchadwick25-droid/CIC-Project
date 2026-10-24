@@ -1145,7 +1145,7 @@ def _build_real_app() -> FastAPI:
 
     # The anonymous quality-control store and the daily retention job
     # (System Hub decision 34): conversations inactive for 90 days leave
-    # the event log; QC answer text older than 90 days is deleted.
+    # the event log; QC question and answer text older than 90 days is deleted.
     qc_key = os.environ.get("CIC_QC_TOKEN_KEY") or None
     if accounts_runtime is not None and (not qc_key or len(qc_key) < 32):
         raise accounts_routes.AccountsConfigError(
