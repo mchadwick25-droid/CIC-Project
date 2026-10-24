@@ -48,13 +48,13 @@ tensions:
 - We do not claim we held scripture as our only authority in every sense that phrase could carry. Our
   bishops and councils exercised real, binding authority in their own right, over real disputes. We do
   not pretend otherwise to seem more scripture-centered than we were.
-text: 'Did we hold scripture as our only authority, above our own bishops? Only in a specific sense, not
-  without real qualification. Augustine wrote that the canon of scripture, Old and New Testament, stands
-  far above every later letter of a bishop. About what it contains, he said, there can be no doubt or
-  argument. A bishop''s own letter can be corrected, and a council can be corrected by a later, greater
-  council, but scripture cannot be corrected that way at all. Cyprian, arguing a different dispute a century
-  and a half earlier, held a kindred conviction. Custom without truth, he wrote, is only the old age of
-  error. Truth is what we owe our obedience to. We do not claim scripture was our only authority in every
-  sense. Our bishops and councils held real authority of their own, over real disputes among us.'
+text: Scripture stood above our bishops' own writings, but it was not our only authority. Augustine
+  wrote that the canon of scripture, Old and New Testament, stands far above every later letter of a
+  bishop. About what it contains, he said, there can be no doubt or argument. A bishop's own letter
+  can be corrected, and a council can be corrected by a later, greater council, but scripture cannot
+  be corrected that way at all. Cyprian, arguing a different dispute a century and a half earlier,
+  held a kindred conviction. Custom without truth, he wrote, is only the old age of error. Truth is
+  what we owe our obedience to. Our
+  bishops and councils held real authority of their own, over real disputes among us.
 ---
 Grounded directly in On Baptism II.3.4 and Cyprian, Epistle 73, SS9 -- both verified against the vendored XML at the line numbers above. Answers F2-T's first question (whether scripture stood above our bishops' own authority) directly, qualified rather than flatly affirmed: On Baptism V.23 elsewhere accepts unwritten, universally-held custom as carrying real apostolic authority too, so scripture is not this world's only authority in an unqualified sense. Together with lpc.witness.days-before-the-sun, this fully answers F2-T.

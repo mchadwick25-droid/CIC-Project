@@ -8,8 +8,8 @@ exists.
 **Time window:** c. 246–430 CE (Doc_01/Manifest scope line; the census's own
 "c. 240s-430" is the same window stated less precisely)
 **Region(s):** Carthage and Hippo Regius, Latin-speaking Roman North Africa
-**Dossier author / date:** source-research thread, 2026-09-21
-**Corpus-map / `cic/texts/` state as of:** commit `009caaf0`, 2026-09-21
+**Dossier author:** source-research thread
+**Corpus-map / `cic/texts/` state as of:** commit `009caaf0`
 
 **A status note this dossier exists to correct, not just record.** The
 census (`cic-website/data/world-census.json`) currently lists this world as
@@ -45,7 +45,7 @@ risk introducing a transcription error the corpus-map itself doesn't have.
 |---|---|---|---|---|
 | Cyprian — English (ANF05) | *De Unitate*, *De Lapsis*, *De Mortalitate*, *De Dominica Oratione*, *Ad Demetrianum*, *Ad Fortunatum*, *Testimonia*, the 82 Epistles (one body), the 256 rebaptism council's sententiae, four disputed-authorship treatises | tradition | assigned (a few provisional, e.g. *Quod Idola*) | `anf05_hippolytus-cyprian-caius-novatian.xml` |
 | Cyprian — Latin critical (Hartel, CSEL 3) | *Opera omnia*, Pars I–II (treatises + Ep. I–LXXXI); Pars III (spuria, *Vita*, *Acta Proconsularia*) | tradition | assigned | `cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt`, `cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt` |
-| Pontius / Possidius (formation narratives) | *Life and Passion of Cyprian* (ANF05 + Hartel Latin); *Sancti Augustini Vita* (Weiskotten, bilingual) | tradition | assigned | `anf05…`, `cyprian_opera-spuria…`, `possidius_vita-augustini_weiskotten1919.txt` |
+| Pontius / Possidius (formation narratives) | *Life and Passion of Cyprian* (ANF05 + Hartel Latin); *Sancti Augustini Vita* (Weiskotten, bilingual) | tradition | assigned | `anf05_hippolytus-cyprian-caius-novatian.xml`, `cyprian_opera-spuria…`, `possidius_vita-augustini_weiskotten1919.txt` |
 | Augustine — major works, English (NPNF1 01–08) | *Confessions*, *City of God*, *On Christian Doctrine*, *On the Holy Trinity*, Enchiridion, *On the Catechising of the Uninstructed*, ~97 sermons (one body), *Enarrationes in Psalmos* (~695k words, one body), 124 Tractates on John, homilies on 1 John, *Harmony of the Gospels*, *Soliloquies* | tradition | assigned (Soliloquies provisional) | `npnf101`–`npnf108` |
 | Augustine — letters (English) | Jerome correspondence (17 letters, ~52.9k words); general correspondence (138 letters, ~258k words) | tradition | assigned | `npnf101_augustine-confessions-letters.xml` |
 | Augustine — anti-Manichaean/anti-Donatist (English, NPNF1-04) | *On Baptism Against the Donatists*, *Answer to Petilian*, *Correction of the Donatists* (also imperial-juridical-christianity), *Contra Faustum*, *Against Fortunatus*, *De Moribus* (both halves), *Against the Epistle of Manichaeus*, *On Two Souls*, *On the Profit of Believing* (also manichaeism) | tradition | assigned | `npnf104_augustine-anti-manichaean-anti-donatist.xml` |
@@ -53,7 +53,7 @@ risk introducing a transcription error the corpus-map itself doesn't have.
 | Augustine — pastoral/moral treatises (English, NPNF1-03) | *Of Holy Virginity*, *Of the Work of Monks*, *On Continence*, *On Lying*/*Against Lying* (also priscillianist-asceticism), *On the Good of Marriage/Widowhood*, *On Care to Be Had for the Dead*, *Treatise on Faith and the Creed*, Enchiridion (2nd copy), *Concerning Faith of Things Not Seen* | tradition | assigned | `npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml` |
 | Augustine — Latin critical editions | *City of God* I–XIII / XIV–XXII (Hoffmann, CSEL 40); *Confessions* (Knoll, CSEL 33); *Epistulae* 1–123 / 124–184A / 185–270 (Goldbacher, CSEL 34/44/57); *Enarrationes* (Migne PL 36–37); *Retractationes* (Knoll, CSEL 36); *De Doctrina*/Enchiridion (Bruder 1838) | tradition | assigned | six standalone `augustine_*` files |
 | Conciliar / institutional | *Codex Canonum Ecclesiae Africanae* (419), English (NPNF2-14) and Latin (Bruns); Council of Carthage under Cyprian (256, double-placed with novatianism-adjacent shared inheritance); *Gesta Collationis Carthaginiensis* (411 conference acts, also latin-pastoral per row-65 of the ruling) | tradition/context | assigned/provisional | `npnf214…`, `codex-canonum…`, `pl11-zeno-optatus-collatio-carthaginiensis_migne.txt` |
-| Boundary-adjacent, provisional | Optatus, *Against the Donatists* (English; open placement question, see §6); two anonymous Novatianist-controversy treatises (ANF05); *Codex Theodosianus* (context, imperial legal backdrop) | tradition/context | provisional | `optatus_against-the-donatists.txt`, `anf05…`, `codex-theodosianus_latinlibrary.txt` |
+| Boundary-adjacent, provisional | Optatus, *Against the Donatists* (English; open placement question, see §6); two anonymous Novatianist-controversy treatises (ANF05); *Codex Theodosianus* (context, imperial legal backdrop) | tradition/context | provisional | `optatus_against-the-donatists.txt`, `anf05_hippolytus-cyprian-caius-novatian.xml`, `codex-theodosianus_latinlibrary.txt` |
 | Modern scholarship (context, consultation-only) | Delehaye (genre theory), Harnack (Pontius commentary), Monceaux *Histoire littéraire* I–III, von Soden ×2 (letter transmission; prosopography) | context | assigned | six standalone files, all closing named Manifest gaps (see §4) |
 
 **Scale note:** this is, by the build's own B1/B2 assessment (Step 0 §3),
@@ -65,29 +65,29 @@ not have at all.
 
 ## 2. Cross-link opportunities
 
-**A real cross-link opportunity, not yet caught by this world's own build.**
+**Cross-links with the sibling Donatism build.**
 The sibling Donatism build has vendored two Latin critical
 editions directly relevant to this world's own anchor author (Augustine)
 and to a work already sitting in this world's own corpus-map:
 
 - **`augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt`**
   (Petschenig's CSEL 51/52 critical edition of Augustine's anti-Donatist
-  corpus) is currently linked only to `donatism.yaml`. Two of its contents
+  corpus) is linked to `donatism.yaml` and to this world's own bucket
+  (Source Registry rows 214 and 253). Two of its contents
   are **the Latin original of works this world already vendors in English
   and assigns `confidence: assigned`**: *De Baptismo* (= "On Baptism,
   Against the Donatists," npnf104) and material behind "Answer to the
   Letters of Petilian." That is exactly the same-work-different-language
   pairing this world has already done systematically for Cyprian (Hartel)
   and for six of Augustine's own other major works (City of God,
-  Confessions, Letters, Enarrationes, Retractationes, Enchiridion) — this
-  one pairing was simply not available yet when those links were made. Two
+  Confessions, Letters, Enarrationes, Retractationes, Enchiridion). Two
   further contents of the same file — *Contra Cresconium* and *Contra
   Epistulam Parmeniani* — have **no English translation vendored anywhere
   in the corpus at all**: genuinely new primary Augustine content (his own
   words, in the controversy this world's own Doc_02 has already committed,
   under the Article 23 reciprocal obligation with Donatism recorded at Step
-  0 §2 A5, to reconstruct "from inside this world's own perspective"), not
-  presently reachable from this world's own bucket in any form.
+  0 §2 A5, to reconstruct "from inside this world's own perspective"), reachable
+  from this world's own bucket only through this Latin file.
 - **`optatus_libri-vii-critical_ziwsa1893.txt`** (Ziwsa's CSEL 26 critical
   edition of Optatus) is the Latin original standing behind the English
   Optatus translation this world's own corpus-map already carries
@@ -95,17 +95,13 @@ and to a work already sitting in this world's own corpus-map:
   same pairing pattern, currently linked only to `donatism.yaml`.
 
 Both are same-time-place (Carthage/Numidia, 4th century, Augustine's and
-Optatus's own hands) by `CORPUS-USE.md`'s tier method, and both sit inside a
-world this dossier's author has already independently verified reads and
-cites the sibling Donatism corpus-map directly (Step 0 §2 A5, §3 B3). This
-is not a new finding about *whether* the two worlds' material overlaps —
-that is already fully worked out and cross-referenced — it is a finding
-that **one specific pair of vendored files, added after most of that
-cross-referencing happened, was never linked into this world's own bucket**.
-Named here rather than assigned, per this dossier's own scope: whether to
-double-place (the pattern the corpus-map already uses for the Council of
-Carthage under Cyprian and for the Augustine–Jerome letters), single-place,
-or leave as-is is Doc_02's or the project lead's call, not this dossier's.
+Optatus's own hands) by `CORPUS-USE.md`'s tier method. The overlap between
+the two worlds' material is already worked out and cross-referenced (Step 0
+§2 A5, §3 B3). Ziwsa's Optatus is still linked only to `donatism.yaml`.
+Whether to double-place it (the pattern the corpus-map already uses for the
+Council of Carthage under Cyprian and for the Augustine–Jerome letters),
+single-place it, or leave it as it is is Doc_02's or the project lead's call,
+not this dossier's.
 
 **No further cross-link sweep attempted.** Given the density of the
 existing review record (30 Doc_02 rounds alone), a fresh from-scratch sweep
