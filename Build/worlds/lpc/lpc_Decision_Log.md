@@ -2615,3 +2615,9 @@ Phase L2 claim verification (two independent Opus 5.5 passes over the 103 regist
 ### 2026-10-24 — CO-LPC-2: fix the seven P1s with a full sweep, then one more recheck (project lead's ruling)
 
 Alternatives shown: (1) reviewer's text plus a whole-world sweep for every copy of each claim, the women's-voice limit and Doc_09 §5 corrected to name Quartillosia's narration, §§202 to 205 licensed in row 14, then one Opus 5.5 recheck; (2) the same with the women's-voice wording put to the project lead first; (3) the findings in an artifact first. Chosen: 1 (project lead, 2026-10-24). Cap ruling in the System Hub Decision Log.
+
+---
+
+### 2026-10-24 — Change order CO-LPC-3: correct the spoken fields against their sources (project lead's ruling)
+
+Three independent Opus 5.5 reviews read all 162 participant-facing fields in `records/lpc/` sentence by sentence against their cited sources (`Review-Artifacts/Spoken_Fidelity_Review_*_2026-10-24.md`). 98 fields hold up. They found 46 P1s (invented details, claims wider than the source, one side of a contested point stated as settled, and governing rules for the Representative that contradict the sources) and 81 P2s. A few trace back into Doc_02 §6 and Doc_04. Alternatives shown: (1) one change order: Opus drafts every correction (all P1s and the plainly correct P2s), sweeps for each claim elsewhere, carries upstream fixes into the documents, realigns the generators, then one Opus 5.5 recheck under a Cap ruling; (2) the P1s only now; (3) the governing-rule findings to the project lead first. Chosen: 1 (project lead, 2026-10-24).
