@@ -36,6 +36,10 @@ tester:
   default_days: 30
   max_days: 90
   max_per_day: 2
+coupon:
+  max_tokens: 20000
+  max_per_day: 20
+  unclaimed_days: 90
 pilot:
   pack_usd: 7
   pilot_end_date: 2026-12-31

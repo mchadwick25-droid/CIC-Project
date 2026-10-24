@@ -28,6 +28,7 @@ PILOT_KEYS = ("pack_usd", "pilot_end_date", "audiences")
 AUDIENCE_KEYS = ("pilot_open", "pilot_cap", "per_address", "public", "questionnaire_url")
 AUDIENCE_NAME = re.compile(r"^[a-z][a-z0-9-]{0,23}$")
 ADMIN_KEYS = ("mint_max_tokens_per_request", "mint_max_tokens_per_day")
+COUPON_KEYS = ("max_tokens", "max_per_day", "unclaimed_days")
 TESTER_KEYS = ("default_tokens", "max_tokens", "default_days", "max_days", "max_per_day")
 
 
@@ -66,6 +67,9 @@ class DeeperOps:
     tester_default_days: int
     tester_max_days: int
     tester_max_per_day: int
+    coupon_max_tokens: int
+    coupon_max_per_day: int
+    coupon_unclaimed_days: int
     pilot_pack_usd: int
     pilot_end_date: date
     pilot_audiences: dict[str, PilotAudience]
@@ -160,8 +164,8 @@ def load_ops(path: str | None = None) -> DeeperOps:
             data = yaml.safe_load(handle)
     except (OSError, yaml.YAMLError) as exc:
         raise OpsFileError(f"cannot read {path}: {exc}") from exc
-    if not isinstance(data, dict) or set(data) != {"limits", "tokens", "paid", "admin", "tester", "pilot", "words"}:
-        raise OpsFileError("the file must hold exactly limits, tokens, paid, admin, tester, pilot and words")
+    if not isinstance(data, dict) or set(data) != {"limits", "tokens", "paid", "admin", "tester", "coupon", "pilot", "words"}:
+        raise OpsFileError("the file must hold exactly limits, tokens, paid, admin, tester, coupon, pilot and words")
     limits = _section(data, "limits", LIMIT_KEYS)
     for key, value in limits.items():
         if isinstance(value, bool) or not isinstance(value, int) or value <= 0:
@@ -193,6 +197,11 @@ def load_ops(path: str | None = None) -> DeeperOps:
         raise OpsFileError(f"tester.max_tokens cannot exceed {MAX_TOKENS_PER_CODE}")
     if tester["default_days"] > tester["max_days"]:
         raise OpsFileError("tester.default_days cannot exceed tester.max_days")
+    coupon = _section(data, "coupon", COUPON_KEYS)
+    for key, value in coupon.items():
+        _whole(value, f"coupon.{key}")
+    if coupon["max_tokens"] > MAX_TOKENS_PER_CODE:
+        raise OpsFileError(f"coupon.max_tokens cannot exceed {MAX_TOKENS_PER_CODE}")
     pilot = _section(data, "pilot", PILOT_KEYS)
     _whole(pilot["pack_usd"], "pilot.pack_usd")
     if pilot["pack_usd"] not in [p.price_usd for p in packs]:
@@ -209,5 +218,6 @@ def load_ops(path: str | None = None) -> DeeperOps:
         admin_mint_max_tokens_per_request=admin["mint_max_tokens_per_request"], admin_mint_max_tokens_per_day=admin["mint_max_tokens_per_day"],
         tester_default_tokens=tester["default_tokens"], tester_max_tokens=tester["max_tokens"], tester_default_days=tester["default_days"],
         tester_max_days=tester["max_days"], tester_max_per_day=tester["max_per_day"],
+        coupon_max_tokens=coupon["max_tokens"], coupon_max_per_day=coupon["max_per_day"], coupon_unclaimed_days=coupon["unclaimed_days"],
         pilot_pack_usd=pilot["pack_usd"], pilot_end_date=end, pilot_audiences=audiences,
     )

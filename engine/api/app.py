@@ -26,7 +26,7 @@ from fastapi.responses import FileResponse, JSONResponse, Response, StreamingRes
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from engine.api import accounts_routes, shelf, admin_auth, anon_cap, cost_report, db_backup, deeper_admission, deeper_routes, feedback_routes, ratelimit, required_secrets, ses_mailer, table_wiring, wiring
+from engine.api import accounts_routes, coupon_routes, shelf, admin_auth, anon_cap, cost_report, db_backup, deeper_admission, deeper_routes, feedback_routes, ratelimit, required_secrets, ses_mailer, table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings, normalize_environ
 from engine.accounts.config import AccountsConfig
 from engine.deeper.config import DeeperConfig
@@ -648,6 +648,8 @@ def create_app(
 
     if accounts is not None:
         accounts_routes.install(app, accounts)
+        if deeper is not None:
+            coupon_routes.install(app, deeper, accounts.service, authenticate_admin=_admin_check)
 
     @app.get("/api/worlds", response_model=WorldListResponse)
     def list_worlds_endpoint(request: Request):
@@ -1058,12 +1060,17 @@ def deeper_for_dev_server(data_dir: Path, usage_store, environ) -> dict | None:
 def backup_extra_dbs(settings: Settings, meter_db_path: str | None) -> dict[str, str]:
     """The databases beyond events, usage and quality control that the daily
     backup copies: the feedback store always, the Go Deeper meter when it runs.
-    The accounts files are not here: backups are uploaded unencrypted, and the
-    accounts runbook requires an encrypted backup before the durable file joins."""
+    The accounts files are not here: they are sealed before upload, by sealed_account_dbs."""
     extra = {"feedback": settings.feedback_db_path}
     if meter_db_path is not None:
         extra["meter"] = meter_db_path
     return extra
+
+
+def sealed_account_dbs(config) -> dict[str, str]:
+    """The accounts files the daily backup seals under the backup key before uploading. The
+    ephemeral file (challenges, sessions) is never backed up."""
+    return {"accounts": config.durable_db_path, "contact": config.contact_db_path}
 
 
 def _build_real_app() -> FastAPI:
@@ -1132,6 +1139,8 @@ def _build_real_app() -> FastAPI:
         settings.events_db_path, settings.usage_db_path, backup_staging_dir,
         qc_db_path=settings.qc_db_path,
         extra_dbs=backup_extra_dbs(settings, deeper_config.meter_db_path if deeper_runtime is not None else None),
+        sealed_dbs=sealed_account_dbs(accounts_config) if accounts_runtime is not None else None,
+        sealer=accounts_runtime.backup_sealer if accounts_runtime is not None else None,
     )
 
     # The anonymous quality-control store and the daily retention job
