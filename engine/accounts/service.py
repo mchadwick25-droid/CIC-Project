@@ -309,7 +309,7 @@ class AccountsService:
         if not self._spend(checked):
             return Result("wrong")
         today = self.today()
-        account = Account(secrets.token_hex(16), ahash, today.isoformat(), min(today.day, 28), _week(today), "18+")
+        account = Account(secrets.token_hex(16), ahash, today.isoformat(), today.day, _week(today), "18+")
         if not self.store.create_account(account):
             account = self.store.account_by_hashes(self.keys.candidate_hashes(norm))
             if account is None:
@@ -421,7 +421,7 @@ class AccountsService:
         if not self.store.spend_nonce(nonce, expiry):
             return Result("wrong")
         today = self.today()
-        account = Account(secrets.token_hex(16), None, today.isoformat(), min(today.day, 28), _week(today), "18+")
+        account = Account(secrets.token_hex(16), None, today.isoformat(), today.day, _week(today), "18+")
         if not self.store.create_account(account, (current, provider)):
             found = self.store.account_by_subjects(candidates)
             return self._sign_in_by_provider(found[0]) if found else Result("wrong")
