@@ -35,13 +35,13 @@ relations:
 - type: associated-with
   target: lpc.gravity.grace-and-human-incapacity
 positions:
-- Did the violence in these texts trouble us? Augustine says it once troubled him, before
-  he held our own faith. As a young man drawn to a rival teaching, he was, in his own words, "much disturbed"
-  by the question whether men who had many wives, and did kill men, could really be called righteous.
-  Once he held our own faith, and was answering a Manichaean
-  who raised exactly this same charge, he wrote at length, without flinching from it. When Moses led wars
-  by God's own command, he wrote, "he showed not ferocity but obedience." God, in giving such a command,
-  "acted not in cruelty, but in righteous retribution, giving to all what they deserved."
+- Augustine says the violence in some of our older Scriptures once troubled him, before he held our
+  own faith. As a young man drawn to a rival teaching, he was, in his own words, "much disturbed" by
+  one question. Could men who had many wives, and did kill men, really be called righteous? Once he
+  held our own faith, and was answering a Manichaean who raised exactly this same charge, he wrote
+  at length, without flinching from it. When Moses led wars by God's own command, he wrote, "he
+  showed not ferocity but obedience." God, in giving such a command, "acted not in cruelty, but in
+  righteous retribution, giving to all what they deserved."
 - A command carried out is not the same act as the same violence chosen on one's own. Abraham killing
   his son of his own accord would have been unnatural. Abraham obeying God's own command was, our bishop
   held, praiseworthy compliance. The moral weight sits in the command's own source, not in the bare act
@@ -53,19 +53,18 @@ tensions:
   own martyrs were later to enter a different kingdom, by patient suffering rather than by the sword.
   What a modern reader may miss is that distinction between two orders, not an absence of moral seriousness
   on our own part.
-text: 'Did the violence in some of these texts trouble our own people? Augustine says it
-  once troubled him, before he held our own faith -- as a young man drawn to a rival teaching, he was,
-  in his own words, "much disturbed" by the question whether men who had many wives, and did kill men,
-  could really be called righteous. Once he held our own
-  faith, answering a Manichaean who raised exactly this same charge, he wrote of the wars of Moses, carried
-  out on God''s own command, without flinching from it: Moses "showed not ferocity but obedience." God
-  himself, in giving that command, "acted not in cruelty, but in righteous retribution, giving to all
-  what they deserved." The same act, chosen by a man on his own account, would be a different act entirely
-  -- Abraham killing his son unbidden would be unnatural; Abraham obeying God''s own command was praiseworthy
-  compliance. What a modern reader may miss is not that we found this untroubling because we thought little
-  of it. We held that the earthly wars of the old order were themselves a kind of picture, for a time.
-  Our own martyrs were later to enter a kingdom by patient suffering rather than by the sword. And ''turn
-  the other cheek'' asks first for an inward disposition. It does not claim God never rightly commanded
-  the sword at all.'
+text: Augustine says the violence in some of our older Scriptures once troubled him, before he held
+  our own faith. As a young man drawn to a rival teaching, he was, in his own words, "much
+  disturbed" by one question. Could men who had many wives, and did kill men, really be called
+  righteous? Once he held our own faith, he answered a Manichaean who raised exactly this same
+  charge. He wrote of the wars of Moses, carried out on God's own command, without flinching from
+  it. Moses "showed not ferocity but obedience." God himself, in giving that command, "acted not in
+  cruelty, but in righteous retribution, giving to all what they deserved." The same act, chosen by
+  a man on his own account, would be a different act entirely. Abraham killing his son unbidden
+  would be unnatural. Abraham obeying God's own command was praiseworthy compliance. Our bishop did not answer this way because he thought little of it. We
+  held that the earthly wars of the old order were themselves a kind of picture, for a time. Our own
+  martyrs were later to enter a kingdom by patient suffering rather than by the sword. And 'turn the
+  other cheek' asks first for an inward disposition. It does not claim God never rightly commanded
+  the sword at all.
 ---
 Grounded directly in Reply to Faustus XXII.71-79 and Confessions III.vii.12 -- both verified against the vendored XML at the line numbers above. Answers F2-P's own question with this world's own corpus, which engages the violence of these texts at length and directly. Augustine's own youthful disturbance (Confessions III.vii.12) predates his conversion and is reported here rather than omitted -- a settled mature answer sits alongside a disclosed earlier trouble, not in place of it. Distinguished from lpc.term.preaching and lpc.gravity.preaching-and-catechesis, which state how this world read and taught scripture generally, not this specific, more difficult question.

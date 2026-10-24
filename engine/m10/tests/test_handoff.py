@@ -87,6 +87,18 @@ def test_04_dossier_cross_link_needs_a_registry_line(tmp_path):
     assert "handoff-04-step2" in _failing(_run(root))
 
 
+def test_04_dossier_row_naming_several_files_needs_each_in_the_registry(tmp_path):
+    root = build_world(tmp_path)
+    path = root / f"Build/worlds/_cross-world/dossiers/{SLUG}_Source_Readiness_Dossier.md"
+    row = "| Grouped boundary works | x | context | provisional | small | `{}`, `zzz98_other.txt` |\n"
+    path.write_text(path.read_text().replace("\n\n## 2. Cross-link", "\n" + row.format(TEXT_FILE).rstrip("\n") + "\n\n## 2. Cross-link", 1), encoding="utf-8")
+    reports = _run(root)
+    assert any("Grouped boundary works" in f.reason for f in reports["handoff-04-step2"].findings)
+    registry = root / f"Build/worlds/{CODE}/Source_Registry.md"
+    registry.write_text(registry.read_text() + "\nzzz98_other.txt is out of scope.\n", encoding="utf-8")
+    assert not any("Grouped boundary works" in f.reason for f in _run(root)["handoff-04-step2"].findings)
+
+
 def test_05_dossier_missing_section_or_header_field(tmp_path):
     root = build_world(tmp_path)
     path = root / f"Build/worlds/_cross-world/dossiers/{SLUG}_Source_Readiness_Dossier.md"

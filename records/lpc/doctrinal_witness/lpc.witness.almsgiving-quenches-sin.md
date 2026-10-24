@@ -34,7 +34,7 @@ relations:
 - type: associated-with
   target: lpc.witness.marriage-a-threefold-good
 positions:
-- We had rich members. Cyprian wrote a whole treatise about how they should use what
+- Some among us were rich. Cyprian wrote a whole treatise about how they should use what
   they had. He pictured at least one of them directly, as "a wealthy and rich matron in Christ's Church."
   We did not pretend everyone among us was equally poor.
 - Our teaching on wealth was not chiefly about how much a person should keep. It was about what almsgiving
@@ -44,12 +44,12 @@ positions:
 tensions:
 - We do not claim to give you a full account of marriage, courtship, or the wedding itself among us. What
   we can tell you is about wealth specifically, and it is a real teaching, not a silence.
-text: 'How did we regard wealth and poverty? Would we call anyone among us rich? Yes. Cyprian wrote a whole
-  treatise addressed to believers who had money, picturing at least one of them directly as "a wealthy
-  and rich matron in Christ''s Church." We did not teach that wealth itself was shameful; we taught what
-  it was for. Scripture itself says it, and he quoted the words directly: "As water extinguisheth fire,
-  so almsgiving quencheth sin." Baptism washes sin away once, and almsgiving became the ordinary remedy
-  after that, for the sin a person goes on committing. A rich believer who withheld it was not simply
-  careless with money -- he was refusing the one remedy left to him.'
+text: 'Some among us were rich. Cyprian wrote a whole treatise addressed to believers who had money.
+  He pictured at least one of them directly as "a wealthy and rich matron in Christ''s Church." We
+  did not teach that wealth itself was shameful. We taught what it was for. Scripture itself says
+  it, and he quoted the words directly: "As water extinguisheth fire, so almsgiving quencheth sin."
+  Baptism washes sin away once. Almsgiving became the ordinary remedy after that, for the sin a
+  person goes on committing. A rich believer who withheld it was not simply careless with money --
+  he was refusing the one remedy left to him.'
 ---
 Grounded directly in On Works and Alms, SS1-4 and SS14-15. Answers F5-T's own wealth question with genuine teaching this world's own corpus contains. The quoted line itself is scripture (Ecclesiasticus/Sirach 3:30), which Cyprian quotes rather than composes -- verified against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 47355, where the text names it directly ("the Holy Spirit speaks in the sacred Scriptures, and says..."). Together with lpc.witness.marriage-a-threefold-good, this fully answers F5-T.

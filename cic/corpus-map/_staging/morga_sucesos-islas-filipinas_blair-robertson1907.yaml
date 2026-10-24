@@ -13,14 +13,3 @@ assignments:
   note: The royal judge's civil history of Spain's first forty years in the islands, with a description
     of the church, the orders and the converts in chapter eight. A colonial official's view from outside
     the mission, so context. English translation; the Spanish is vendored as morga_sucesos-islas-filipinas-spa_rizal1890.txt.
-- row_id: morga_sucesos-islas-filipinas_blair-robertson1907--morga-sucesos-english-2
-  work: History of the Philippine Islands (Morga's Sucesos de las Islas Filipinas, 1609), Blair and Robertson's
-    English
-  author: morga
-  locus: 'Volume I: preface 98, chapters first to seventh from 790; Volume II from 7690, chapter eighth
-    (islands, peoples, customs, religion, the church) from 8875; editors'' NOTES at 11781'
-  atlas_ids:
-  - mission-born-christianities-kirishitan-japan-kon
-  role: context
-  confidence: provisional
-  note: Colonial-official account of a mission field; placed on genre and window.

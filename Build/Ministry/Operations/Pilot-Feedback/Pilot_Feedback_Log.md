@@ -226,6 +226,14 @@ Read from the four review threads' final messages and draft PRs 1089 (https://gi
 - **Also on live since 01:30 UTC:** the free count on a fresh page (PR 1098, https://github.com/mchadwick25-droid/CIC-Project/pull/1098); the live engine reports 689c5d3e.
 - **Open:** whether the code appeared on the return page and whether reconciliation showed one payment, one code and a gap of zero; the replay; the refund and `refunds_applied`.
 
+## Market review findings — 2026-10-24
+From draft PR 1088 (now merged), the reviewer's findings, not re-verified here:
+- Blocking: real Stripe links were live on the public buy page while the project's own gates were unmet (no recorded Stripe stored-value answer, no expiry or refund line at purchase, accounts off, legal and tax questions open). Mark's ruling: keep unlisted and unadvertised until met (Pilot_Feedback_Decisions.md).
+- Blocking: the repo records that the IP assignment was signed against an incorporation date six days before the company existed. Whether it was fixed is held privately and not checked by the reviewer or by this thread. Not asked of Mark yet.
+- Blocking: there is no Terms of Use page. Not asked of Mark yet.
+- The reviewer notes the legal questions are named for a lawyer and are not legal advice.
+- Open for Mark: the AWS budget check (tomorrow); a name and cap for the pushback test (deferred until the safety-reply batch is merged); the arrival-text readability rewrite (offered, not chosen).
+
 ## Three fixes built, with the review's open items — 2026-10-24
 - **Built (one draft PR, in the Go Deeper Decision-Log, rulings 76 to 78):** the fixed Facilitator line when the safety check cannot read a message; the front-end crisis display and message-box fixes; the unmatched-payment tile on the admin dashboard.
 - **Independent review (Opus 5.5, three rounds):** found and had fixed a Table round used up by each unread message, outage messages spending the monthly count, a false "send it again", an over-broad exception catch and, in round two, the real missing-credentials error (a bare RuntimeError from the Bedrock client) escaping the catch. Details in the System Hub Decision Log entry of 2026-10-24.
