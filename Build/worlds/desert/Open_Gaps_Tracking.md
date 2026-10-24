@@ -999,7 +999,7 @@ Status: OPEN for the register item above. The rest FIXED 2026-10-23/24, awaiting
 
 ### OG-39. Independent recheck of the live-reply claim check fixes, 2026-10-24.
 
-Independent recheck, round 1 (`Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Independent-Recheck_Round1.md` (draft PR https://github.com/mchadwick25-droid/CIC-Project/pull/1099)): the other fixes in this world for the "Live-reply claim check findings re-confirmed" entry (2026-10-23) are confirmed. Blocking, fixed on 2026-10-24 and awaiting the round 2 recheck:
+Independent recheck, round 1 (the round 1 recheck report in https://github.com/mchadwick25-droid/CIC-Project/pull/1099): the other fixes in this world for the "Live-reply claim check findings re-confirmed" entry (2026-10-23) are confirmed. Blocking, fixed on 2026-10-24 and awaiting the round 2 recheck:
 - B1. `desert.demo.quiet-head` and `desert.dw.the-heart-and-the-spirit` stated the Macarian homilies' origin as fact. Mason argues they are Egyptian, and the source record rates authorship Contested. Both records now say the origin is uncertain.
 Non-blocking changes applied: `desert.dw.jesus` positions credit the relocated fight to Athanasius on Antony; `desert.core.desert` formation_logic uses Life 47's own words.
 

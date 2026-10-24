@@ -852,6 +852,6 @@ Status: OPEN for the nine force records. The claim check findings FIXED 2026-10-
 
 ### OG-40. Independent recheck of the live-reply claim check fixes, 2026-10-24.
 
-Independent recheck, round 1 (`Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Independent-Recheck_Round1.md` (draft PR https://github.com/mchadwick25-droid/CIC-Project/pull/1099)): every fix in this world for the "Live-reply claim check findings re-confirmed" entry (2026-10-23) is confirmed against the vendored sources. One non-blocking change was applied: `pahc.force.neronian-persecution` manifestations now say "the office of oversight", not "the episcopal office".
+Independent recheck, round 1 (the round 1 recheck report in https://github.com/mchadwick25-droid/CIC-Project/pull/1099): every fix in this world for the "Live-reply claim check findings re-confirmed" entry (2026-10-23) is confirmed against the vendored sources. One non-blocking change was applied: `pahc.force.neronian-persecution` manifestations now say "the office of oversight", not "the episcopal office".
 
 Status: CLOSED for the live-reply claim check findings. The nine force records named in that entry stay OPEN.

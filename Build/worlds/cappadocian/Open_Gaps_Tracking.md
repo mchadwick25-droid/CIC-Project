@@ -937,7 +937,7 @@ Status: OPEN for the follow-on pass. The claim check findings FIXED 2026-10-23/2
 
 ### OG-54. Independent recheck of the live-reply claim check fixes, 2026-10-24.
 
-Independent recheck, round 1 (`Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Independent-Recheck_Round1.md` (draft PR https://github.com/mchadwick25-droid/CIC-Project/pull/1099)): the other fixes in this world for the "Live-reply claim check findings re-confirmed" entry (2026-10-23) are confirmed. Blocking, fixed on 2026-10-24 and awaiting the round 2 recheck:
+Independent recheck, round 1 (the round 1 recheck report in https://github.com/mchadwick25-droid/CIC-Project/pull/1099): the other fixes in this world for the "Live-reply claim check findings re-confirmed" entry (2026-10-23) are confirmed. Blocking, fixed on 2026-10-24 and awaiting the round 2 recheck:
 - B3. `cappadocian.term.philoptochia` divergence_note said Nyssa's poverty homilies were vendored. It now says only Nazianzen's Oration 14 is held.
 - B4. `cappadocian.quote.basil-against-eunomius-ant`: the same ant passage stands in Gregory of Nyssa's Against Eunomius X (NPNF numbering). The quote keeps the edition's attribution to Basil, now rated Contested, with a divergence_note naming the parallel; `cappadocian.dw.want-to-believe` is hedged to match.
 

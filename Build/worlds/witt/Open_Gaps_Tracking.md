@@ -2725,7 +2725,7 @@ Status: FIXED 2026-10-23/24, awaiting an independent recheck by a separate Opus 
 
 ## OG-79. Independent recheck of the live-reply claim check fixes, 2026-10-24.
 
-Independent recheck, round 1 (`Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Independent-Recheck_Round1.md` (draft PR https://github.com/mchadwick25-droid/CIC-Project/pull/1099)): the other fixes in this world for the "Live-reply claim check findings re-confirmed" entry (2026-10-23) are confirmed. Blocking, fixed on 2026-10-24 and awaiting the round 2 recheck:
+Independent recheck, round 1 (the round 1 recheck report in https://github.com/mchadwick25-droid/CIC-Project/pull/1099): the other fixes in this world for the "Live-reply claim check findings re-confirmed" entry (2026-10-23) are confirmed. Blocking, fixed on 2026-10-24 and awaiting the round 2 recheck:
 - B6. The body of `witt.quote.second-article-of-the-creed` still said every household said the words weekly. It now matches the frontmatter: the words were prescribed; uptake is Contested.
 
 
