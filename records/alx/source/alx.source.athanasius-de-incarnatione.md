@@ -11,7 +11,11 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: null
+  divergence_note: >-
+    The date is the NPNF editor's. He adopts "in or shortly before 318 A.D." because the
+    Arian controversy of 319 has left no trace on the work, and says how long before
+    that it was written "it is impossible to say with certainty"
+    (cic/texts/npnf204_athanasius-select-works-letters.xml:12082-12092). The work itself is Documented.
 sources: []
 author: "Athanasius of Alexandria (c. 296-373 CE)"
 work: "De Incarnatione Verbi Dei (On the Incarnation of the Word), composed in or shortly before 318 CE (the date usually adopted, per the NPNF editor)"

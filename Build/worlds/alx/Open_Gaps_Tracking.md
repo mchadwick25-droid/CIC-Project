@@ -796,3 +796,15 @@ Status: OPEN for B2 until the round 2 recheck, and OPEN for the dating claim. CL
 Follows the "Independent recheck of the live-reply claim check fixes" entry (2026-10-24). The separate Opus recheck thread confirmed B2 against https://github.com/mchadwick25-droid/CIC-Project/pull/1102 (the round 2 recheck report in https://github.com/mchadwick25-droid/CIC-Project/pull/1099). No round 3 is needed.
 
 Status: CLOSED for the live-reply claim check findings. The 330s dating claim stays OPEN.
+
+### OG-36. The 330s dating of On the Incarnation, settled as far as the Library allows, 2026-10-24.
+
+Follows the "Independent recheck of the live-reply claim check fixes" entry (2026-10-24). That entry logged as a claim to check that later scholars date On the Incarnation to the 330s.
+
+No vendored text carries that dating. The only dating source in the Library is the NPNF editor (Robertson, 1892). He adopts "in or shortly before 318 A.D." because the Arian controversy of 319 left no trace on the work, and he says how long before that it was written "it is impossible to say with certainty" (`cic/texts/npnf204_athanasius-select-works-letters.xml:12082-12092`).
+
+Done: `alx.source.athanasius-de-incarnatione` now carries that reasoning and caveat in its divergence_note. `alx.dw.jesus` already says "in a book usually dated about 318", which is true to the source. Neither record names the 330s view, because no source in the Library supports it and naming its scholars from memory would be invention.
+
+Left open: if the Library acquires a modern study that argues the later date, it should be written as a source record. The dating can then be given as disputed in both records.
+
+Status: CLOSED for the records. OPEN only as a source want.
