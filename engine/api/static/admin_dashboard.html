@@ -242,6 +242,7 @@
         <div class="caveat" id="mint-result-note"></div>
         <pre id="mint-codes"></pre>
         <button id="mint-copy" type="button">Copy codes</button>
+        <button id="mint-copy-links" type="button">Copy links</button>
         <button id="mint-hide" type="button">Hide codes</button>
       </div>
       <div id="deeper-table-wrap" style="margin-top: 12px;"></div>
@@ -959,6 +960,11 @@
   document.getElementById("tester-submit").addEventListener("click", makeTesterCode);
   document.getElementById("mint-hide").addEventListener("click", hideCodes);
   document.addEventListener("visibilitychange", () => { if (document.hidden) hideCodes(); });
+  document.getElementById("mint-copy-links").addEventListener("click", async () => {
+    // One tap-to-enter link per code, for texting. The part after the # never goes to a server.
+    const links = shownCodes.split("\n").filter(Boolean).map((c) => window.location.origin + "/#cic-code=" + c.replace(/\s+/g, ""));
+    try { await navigator.clipboard.writeText(links.join("\n")); deeperNotice("Links copied.", false); } catch (e) { deeperNotice("Could not copy; copy the codes by hand.", true); }
+  });
   document.getElementById("mint-copy").addEventListener("click", async () => {
     try { await navigator.clipboard.writeText(shownCodes); deeperNotice("Codes copied.", false); } catch (e) { deeperNotice("Could not copy; select the codes by hand.", true); }
   });

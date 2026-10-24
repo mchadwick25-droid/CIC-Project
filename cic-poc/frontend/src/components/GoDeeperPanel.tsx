@@ -148,7 +148,7 @@ export function GoDeeperPanel() {
               </div>
               {claim.status === 'failed' && (
                 <p className="go-deeper__error" role="alert">
-                  {deeperCopy.claimFailed}
+                  {claim.code !== undefined ? deeperCopy.badCode : deeperCopy.claimFailed}
                 </p>
               )}
             </div>

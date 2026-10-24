@@ -26,7 +26,7 @@ from fastapi.responses import FileResponse, JSONResponse, Response, StreamingRes
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from engine.api import accounts_routes, shelf, admin_auth, anon_cap, cost_report, db_backup, deeper_admission, deeper_routes, feedback_routes, ratelimit, required_secrets, table_wiring, wiring
+from engine.api import accounts_routes, shelf, admin_auth, anon_cap, cost_report, db_backup, deeper_admission, deeper_routes, feedback_routes, ratelimit, required_secrets, ses_mailer, table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings, normalize_environ
 from engine.accounts.config import AccountsConfig
 from engine.deeper.config import DeeperConfig
@@ -1120,7 +1120,11 @@ def _build_real_app() -> FastAPI:
     accounts_config = AccountsConfig.from_env(str(data_dir))
     accounts_runtime = None
     if accounts_config.enabled:
-        accounts_runtime = accounts_routes.build_runtime(accounts_config, dict(os.environ))
+        try:
+            mailer = ses_mailer.from_env(dict(os.environ))
+        except ses_mailer.MailConfigError as exc:
+            raise accounts_routes.AccountsConfigError(f"CIC_ACCOUNTS_ENABLED is on but the sign-in mail is not usable: {exc}") from exc
+        accounts_runtime = accounts_routes.build_runtime(accounts_config, dict(os.environ), mailer=mailer)
         accounts_routes.install_access_log_filter()
         accounts_routes.start_retention_thread(accounts_runtime)
     backup_staging_dir = data_dir / "backups-staging"

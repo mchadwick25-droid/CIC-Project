@@ -30,9 +30,11 @@ export function formatCode(code: string): string {
   return code.match(/.{1,4}/g)?.join(' ') ?? code;
 }
 
-/** A purchase a link says is waiting, held until the person says yes. */
+/** A purchase, or a code, that a link says is waiting, held until the person says yes. */
 export interface PendingClaim {
   reference: string;
+  // Set when the link carried the code itself rather than a purchase reference.
+  code?: string;
   status: 'asking' | 'working' | 'failed';
 }
 
@@ -309,6 +311,34 @@ export function takeClaimFromAddress(): boolean {
   return true;
 }
 
+/**
+ * A code a link carried in the address fragment, as one a person is texted:
+ * <app address>/#cic-code=<code>. Handled like a purchase reference: the
+ * address is cleared at once, and nothing is saved until the person agrees,
+ * so a link made by someone else cannot plant a code. A code already held is
+ * only shown, not asked about again.
+ */
+export function takeCodeFromAddress(): boolean {
+  if (!deeperEnabled || typeof window === 'undefined') return false;
+  const match = /^#cic-code=([^&]*)$/.exec(window.location.hash);
+  if (!match) return false;
+  window.history.replaceState(null, '', window.location.pathname + window.location.search);
+  let text = '';
+  try {
+    text = decodeURIComponent(match[1]);
+  } catch {
+    text = '';
+  }
+  const code = normalizeCode(text);
+  if (!code) return false;
+  if (state.codes.includes(code)) {
+    update({ ...state, panelOpen: true });
+    return true;
+  }
+  update({ ...state, claim: { reference: '', code, status: 'asking' }, panelOpen: true });
+  return true;
+}
+
 export function openPanel() {
   if (deeperEnabled && !state.panelOpen) update({ ...state, panelOpen: true });
 }
@@ -331,6 +361,12 @@ export async function acceptClaim(): Promise<boolean> {
   const claim = state.claim;
   if (!deeperEnabled || !claim) return false;
   update({ ...state, claim: { ...claim, status: 'working' } });
+  if (claim.code !== undefined) {
+    // A code from a link is checked like a typed one. A used code clears the claim; a wrong one is said so.
+    if (await addCode(claim.code)) return true;
+    update({ ...state, claim: { ...claim, status: 'failed' } });
+    return false;
+  }
   try {
     // No cookies: the reference is held beside the buyer's name at Stripe, and the
     // visitor cookie sits beside conversations. They must never travel together.
@@ -384,4 +420,5 @@ if (deeperEnabled && typeof window !== 'undefined') {
     acceptCodeMessage(event);
   });
   takeClaimFromAddress();
+  takeCodeFromAddress();
 }
