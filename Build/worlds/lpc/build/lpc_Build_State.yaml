@@ -3,9 +3,9 @@ process_version: V2.0
 completion_standard_version: V1.4
 started: 2026-09-29
 pilot_world: false
-current_step: L0 item A done (four checks, 2026-10-23); item B registered (102 UNVERIFIED, 0 verified); items C and E not started; before stop point 1
+current_step: Phase L2 (L0 and L1 done; claims all VERIFIED or JUDGEMENT; spoken fields checked; Decision 8B extraction, world_front and facilitator_brief in progress)
 status: in_progress (rebaseline; pre-V2.0 approvals accepted by project lead ruling 2026-09-29)
-pause_point: stop point 1 (decisions in Open_Gaps OG-38 to OG-40, OG-29, OG-36; usage reading; registry entry)
+pause_point:
 documents:
   - id: Doc_03
     status:
@@ -57,9 +57,9 @@ documents:
     review_files: []
     gates_result:
   - id: Representative_identity
-    status:
-    decided_by_mark:
-    decision_date:
+    status: decided (Datus; Build/worlds/lpc/lpc_Representative_Identity_Decision.md)
+    decided_by_mark: true
+    decision_date: September and October 2026, per lpc_Decision_Log.md
   - id: Doc_10
     status:
     rounds_used: 0
@@ -74,7 +74,7 @@ documents:
     full_validation_triggers: []
     gates_result:
 gates:
-  handoff:
+  handoff: PASS (12 checks and the declaration)
   last_prereview:
   last_records:
   last_regate:
@@ -84,7 +84,7 @@ gates:
   wiring:
 open_items_pointer: Build/worlds/lpc/Open_Gaps_Tracking.md
 ledger_pointer: Build/worlds/lpc/build/lpc_Cost_Ledger.md
-handoff_manifest_pointer:
-metered_ceiling: placeholder (Mark to set at stop point 1)
+handoff_manifest_pointer: Build/worlds/lpc/build/lpc_Handoff_Manifest.md
+metered_ceiling: set after Doc_10, with the exact probe count (project lead, 2026-10-23; lpc_Decision_Log.md)
 escalations: []
 freeze_package_pointer:
