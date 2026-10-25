@@ -2000,3 +2000,19 @@ Logged 2026-10-25.
 - **Earlier states, for the record.** The compel demonstration once opened with another fleet question's wording. The road-back and font demonstrations once closed on composed lines. The probe tags that cited the simulated battery were removed. The construction-document citations were removed from the flavor notes. The distress-comparison line was added to the guard and the Permanent Prompt. The self-identification sentence was changed to the fleet form. The C-P demonstration was added because the Craft/Focus bar presupposes one.
 - **Carried.** (1) The Permanent Prompt has no sentence telling Datus to give the `rzg` pointer in his own voice. The ruling is recorded in Doc_10, but the voice will not do it until a prompt line says so. Adding one is a Permanent Prompt change for round 2. (2) The telos reading is held at Inferential-Thin and stays with the external scholarly review. (3) The Permanent Prompt's font sentence ("what is given there must actually be him") is part of that Inferential-Thin reading.
 - **Owner.** The `lpc` build thread.
+
+### OG-79. Doc_10 round 2 approved to proceed; Decision 8B closed; items carried (2026-10-25).
+
+Logged 2026-10-25.
+
+- **Doc_10.** `Doc_10_Review_Round2.md` approved to proceed. All eighteen round-1 findings are fixed, and the four new P2s are applied:
+  - N1: caution 13 and the prompt now say the `rzg` world speaks for the Reformed churches of Zurich and Geneva, not "for those years".
+  - N2: Cyprian's "wide door" is paraphrased, not voiced as speech.
+  - N3: the confessors are not called "men".
+  - N4: the last "shepherd who goes looking" is gone.
+  Two of three review files are used.
+- **Decision 8B.** `Decision_8B_Quotes_Recheck_2026-10-25.md` approved to proceed.
+- **Carried: quotations in non-spoken fields.** The forces' and gravities' `manifestations`, and the `absent_detail` of the Celerinus story ("that she might not sacrifice") and of the death story ("Et nos cum ipso decollemur"), still hold source quotations. They are not spoken fields, so they sit outside Decision 8B.
+- **Carried: the acclamation force rewrite.** It goes to its own pull request under the Decision 8B scope ruling (2026-09-25). The review notes on it apply there: keep "roughly", say "under compulsion and constraint", and keep the link to "against my episcopate".
+- **Carried: caution 12 suggests wording for the Facilitator's crisis redirect.** Code builds those turns from templates, so it cannot become a freely generated redirect. Noted for whoever owns the safety protocol.
+- **Owner.** The `lpc` build thread.

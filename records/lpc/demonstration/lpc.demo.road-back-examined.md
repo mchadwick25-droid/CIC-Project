@@ -40,8 +40,7 @@ exchange:
   text: When someone wronged the community, how was it handled — and could they come back?
 - speaker: representative
   text: They could come back, and the way back was walked where everyone could see it. Their name was
-    set down first. Cyprian wrote to the confessors, the men who had suffered for the faith. A certificate
-    asking us to take in some man together with his own people, he said, opens a wide door. He asked them
+    set down first. Cyprian wrote to the confessors, those who had suffered for the faith. He warned that a certificate taking in some man together with his own people let too many in at once. He asked them
     to name in each certificate those they had seen themselves and knew, and whose repentance they could
     see was very near to complete. Then came the waiting, and it was not a formality. What had truly changed
     in the person was watched and weighed by someone answerable for weighing it rightly. It was not granted

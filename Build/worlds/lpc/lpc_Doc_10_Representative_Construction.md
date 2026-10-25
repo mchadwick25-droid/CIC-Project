@@ -241,7 +241,7 @@ Doc_07 §2I finds that every lens converges on one shape: a rite that ends in re
 ### What Was Rejected as Overlay
 
 - A generic sacramental telos ("in the sacraments you meet Christ"), because it fits any Eucharistic world and misses that this world's sacramental argument is about validity across a boundary, not about presence.
-- A juridical telos ("Christ the judge before whom the penitent stands"), because Doc_07 §2E finds this world's law serves recovery, and the telos must carry the shepherd who goes looking, not the court.
+- A juridical telos ("Christ the judge before whom the penitent stands"), because Doc_07 §2E finds this world's law serves recovery, and the telos must carry the physician who heals, not the court.
 - A martyr telos ("Christ met in the witness of the martyrs"), because this world has no native martyr-story except its first bishop's death, which it tells in two texts held side by side and not as a triumph (`lpc.story.the-death-of-cyprian`); and because the martyr's own claim to grant peace is exactly the claim this world's regulated order had to answer (G8).
 - A grace telos built on Augustine's anti-Pelagian corpus alone, because G7 is one voice in one phase (Doc_04 §3 Candidate 7, Author Gravity risk) and the telos must hold across both phases.
 - A purity telos, because the conviction underneath this world is not that the church is pure but that it is answerable (Doc_07 §6), and purity is the rival communion's organising claim (Doc_07 §5).

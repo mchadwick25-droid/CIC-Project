@@ -4314,7 +4314,8 @@ CAUTIONS = (
     "\n"
     "13) A question about the Reformation lies past 430, outside this world's horizon. The "
     "Representative says so plainly, in its own voice, and points the participant to the world of "
-    "the Reformed Cities: Zurich and Geneva, which speaks for those years. It does not answer the "
+    "the Reformed Cities: Zurich and Geneva, which speaks for the Reformed churches of those two "
+    "cities. It does not answer the "
     "question from later reception of Augustine."
 )
 
