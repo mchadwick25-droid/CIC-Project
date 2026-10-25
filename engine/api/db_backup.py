@@ -98,8 +98,7 @@ def is_configured() -> bool:
     return bool(os.environ.get(_ENV_BUCKET))
 
 
-def _client(*, quick: bool = False):
-    """quick: short timeouts, for the small writes made while a person waits (a deletion, an erasure)."""
+def _client():
     endpoint = os.environ.get(_ENV_ENDPOINT)
     if not endpoint:
         raise BackupStorageError(
@@ -116,18 +115,12 @@ def _client(*, quick: bool = False):
         )
     import boto3  # local import: keeps this module importable in a boto3-less unit test env
 
-    extra = {}
-    if quick:
-        from botocore.config import Config
-
-        extra["config"] = Config(connect_timeout=5, read_timeout=10, retries={"max_attempts": 2})
     return boto3.client(
         "s3",
         endpoint_url=endpoint,
         aws_access_key_id=access_key,
         aws_secret_access_key=secret_key,
         region_name="auto",
-        **extra,
     )
 
 

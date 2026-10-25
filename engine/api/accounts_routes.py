@@ -139,10 +139,7 @@ def build_runtime(config: AccountsConfig, env: dict, mailer: Mailer | None = Non
     verifier = ProviderVerifier(clients) if any(clients.values()) else None
     service = AccountsService(store, keys, QueuedMailer(mailer), clock=clock, verifier=verifier,
                               contacts=contacts, shelf_cipher=shelf_cipher,
-                              ledger_publisher=ledger_bucket.publish, ledger_source=ledger_bucket.entries,
-                              erasure_publisher=lambda h, t, e: ledger_bucket.publish_erasure(sealer, h, t, e),
-                              erasure_source=lambda: ledger_bucket.erasures(sealer))
-    service.sync_erasures()
+                              ledger_publisher=ledger_bucket.publish, ledger_source=ledger_bucket.entries)
     service.sync_ledger()
     return AccountsRuntime(service=service, backup_sealer=sealer)
 
@@ -267,8 +264,6 @@ def start_retention_thread(runtime: AccountsRuntime, *, every_seconds: int = 360
                 runtime.service.publish_ledger()
                 if runtime.service.sync_ledger():
                     logger.info("accounts named by the deletion ledger were found again and removed")
-                runtime.service.publish_erasures()
-                runtime.service.sync_erasures()
                 ledger_bucket.prune()
                 today = runtime.service.today()
                 if today != last_sweep:
@@ -641,7 +636,8 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         try:
             free = deeper.free
             held = [deeper.meter.status_of_hash(h) for h in context.code_hashes]
-            refill_on = deeper.meter.account_next_refill(context.refill_day)
+            start = deeper.meter.account_window_start(context.refill_day)
+            refill_on = (start.replace(day=1) + timedelta(days=32)).replace(day=context.refill_day)
             return {
                 "signed_in": True, "available": True,
                 "free_left": free.account_left(context.account_id, context.refill_day),

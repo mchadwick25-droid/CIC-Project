@@ -35,12 +35,6 @@ relations:
   target: lpc.force.manichaeism-and-pelagian-anthropology
 - type: associated-with
   target: lpc.force.corpus-outliving-the-world
-- type: associated-with
-  target: lpc.quote.two-hear-one-scorns-one-rises
-- type: associated-with
-  target: lpc.quote.what-is-done-by-you-he-does-in-you
-- type: associated-with
-  target: lpc.quote.no-one-has-the-love-of-god-from-himself
 name: Grace and Human Incapacity
 description: >-
   This concern is real, but it does not run nearly as wide as the others. It organizes a large and
@@ -56,9 +50,8 @@ description: >-
 
   No concern in this world has more text behind it. The word "grace" occurs 1,798 times in
   the thirteen anti-Pelagian works alone. Those works form a long project of teaching and argument,
-  prompted by a live dispute. In them Augustine refuses a claim he sets out as the Pelagian one: that
-  a believer's own moral effort is enough without grace. Whether Pelagius himself held it in that form
-  is disputed.
+  prompted by a live dispute. In them Augustine refuses the Pelagian claim that a believer's own
+  moral effort is enough without grace.
 
 
   It is real and heavily attested, but it stands on its own. Nothing else in this world depends on how
@@ -86,8 +79,8 @@ description: >-
 manifestations:
 - 'the anti-Pelagian corpus: thirteen works prompted by a live controversy, with 1,798 raw occurrences
   of "grace"'
-- Augustine's refusal of a view he sets out as the Pelagian one, that a believer's own moral effort is
-  enough without grace
+- Augustine's refusal of the Pelagian view of human nature, which held that a believer's own moral effort
+  is enough without grace
 classification: supporting
 ---
 Taken from Doc_04 §3 (Candidate 7). relations[] carries the gravity<->gravity edges (G2, G4) and the gravity<->force edges (2A-4, 3B-1) named above, plus one contested_claim edge (lpc.contested.grace-pelagius-characterization).

@@ -32,7 +32,7 @@ export const accountsCopy = {
   comesWithYou: 'This conversation comes with you.',
   codeHeading: 'Enter your code',
   codeSent: 'If that address can receive mail, a code is on its way. It works for ten minutes.',
-  codeLabel: 'The eight digits from the email',
+  codeLabel: 'The six digits from the email',
   codeSignIn: 'Sign in',
   checking: 'Checking',
   newCode: 'Send a new code',

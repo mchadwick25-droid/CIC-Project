@@ -30,7 +30,7 @@ The two-way classification of the lapsed — those who bought exemption from sac
 
 Not everyone who failed failed the same way, and the community knew it.
 
-One person handed over money and walked away with a paper. Another stood at the altar and did the thing. Both fell, and it would be false to pretend the two acts weigh the same. So they are not treated as if they do — the road back is longer for one than the other.
+One person handed over money and walked away with a paper. Another stood at the altar and did the thing. Both are outside, and both are asking to come back, and it would be false to pretend the two acts weigh the same. So they are not treated as if they do — the road back is longer for one than the other.
 
 What does not change is where the road ends. The distinction governs how long and how hard, never whether.
 

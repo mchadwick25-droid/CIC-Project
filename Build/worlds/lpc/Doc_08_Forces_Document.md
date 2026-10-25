@@ -20,7 +20,7 @@
 **World name:** Latin Pastoral-Congregational Christianity. **World code:** `lpc`.
 **Time horizon:** c. 246–430 CE. **Geographic centres:** Carthage (metropolitan, Africa Proconsularis) and Hippo Regius (Numidian by ecclesiastical province).
 **Anchor figures:** Cyprian, bishop of Carthage 248/249–258; Augustine, presbyter at Hippo 391, bishop 395/396, died 430.
-**Structural fact governing every cell below:** this world is **two attested phases separated by a 133-year silence in its own pastoral voice.** No surviving voice continuous with Cyprian's ordinary-pastoral mode, from within this world's boundary, that this build has assessed dates from within that interval. That claim is Contested: nine tractatus in Morin 1917 are not yet assessed (OG-54; Doc_01 §5). Some rows of `Source_Registry.md` date from it or record its events (Optatus's polemic, the council canons, the *Codex Theodosianus*), and none of them is that voice (Doc_02 §7).
+**Structural fact governing every cell below:** this world is **two attested phases separated by a 133-year silence in its own record.** No surviving voice continuous with Cyprian's ordinary-pastoral mode, from within this world's boundary, that this build has assessed dates from within that interval. That claim is Contested: nine tractatus in Morin 1917 are not yet assessed (OG-54; Doc_01 §5). Some rows of `Source_Registry.md` date from it or record its events (Optatus's polemic, the council canons, the *Codex Theodosianus*), and none of them is that voice (Doc_02 §7).
 
 **Input documents:** Doc_01 (Approved to proceed), Doc_02 + `Source_Registry.md` (Approved to proceed; the Registry itself returned to independent review), Doc_03 (Approved to proceed), **Doc_04, Doc_05, Doc_06 and Doc_07 — all Approved to proceed, by the project lead**, each on the project lead's own instruction rather than by self-disposition, because CO-022 forbids a build thread from self-disposing a document against which any escalation category is open, and categories are open against all four. Drafted on the project lead's own direction.
 
@@ -72,7 +72,7 @@ Doc_01 §6 produced a preliminary six-cell sketch at Step 1, explicitly *"not La
 
 #### Force 1B-1: An already-organized Carthaginian church capable of sustained collective response
 
-**Layer 1 — Historical Event.** Cyprian inherited a community large and structured enough to hold real internal factions and to convene councils of dozens of bishops. **Confidence: Documented** — Doc_01 §6; the councils themselves (Registry row 4); the Felicissimus material in the Epistles (row 1).
+**Layer 1 — Historical Event.** Cyprian inherited a community large and structured enough to hold real internal factions and to convene councils of dozens of bishops at short notice. **Confidence: Documented** — Doc_01 §6; the councils themselves (Registry row 4); the Felicissimus material in the Epistles (row 1).
 
 **Layer 2 — World's Own Experience.** Not a gathering that had to be built but one already standing, with its own men of weight, its own quarrels, and its own capacity to meet and decide together.
 
@@ -94,9 +94,9 @@ Doc_01 §6 produced a preliminary six-cell sketch at Step 1, explicitly *"not La
 
 **Layer 1 — Historical Event.** North African Latin Christianity possessed, before this world begins, a vigorous local literary culture and the Latin theological vocabulary Tertullian is credited with forging. **Confidence: Widely Accepted** — Doc_01 §6, §7; Doc_02 §2 (Tertullian disclosure).
 
-**Layer 2 — World's Own Experience.** The words were to hand. What had to be argued could be argued in Latin, the church's own language of preaching. Latin was not every hearer's tongue: for Fussala, Augustine sought a bishop who also knew Punic (`npnf101`, Letter CCIX §3).
+**Layer 2 — World's Own Experience.** The words were to hand. What had to be argued could be argued in the language the people in the assembly already spoke.
 
-**Layer 3 — Formation Impact.** Enables **G4**: preaching and catechesis as the primary formation mode presupposes a shared theological register capable of carrying the content. **Proportionality note:** treated briefly. This force is real and enabling but is not contested, not phase-specific, and does not shape any gravity's content — only its medium.
+**Layer 3 — Formation Impact.** Enables **G4**: preaching and catechesis as the primary formation mode presupposes a vernacular theological register capable of carrying the content. **Proportionality note:** treated briefly. This force is real and enabling but is not contested, not phase-specific, and does not shape any gravity's content — only its medium.
 
 ---
 
@@ -176,7 +176,7 @@ Doc_01 §6 produced a preliminary six-cell sketch at Step 1, explicitly *"not La
 
 **Layer 1 — Historical Event.** Between the phases, the office moved from holding no legal standing to being able to solicit state action against a rival communion. **Confidence: Documented** for the external change itself. **Confidence: Contested** for the one element that is genuinely disputable — **the placement of this force's consequence as internal rather than external**, which follows Doc_01 §6's own sketch and is named here as that document's judgement rather than this one's. **Stated in the entry**, so §7's summary derives from something the entry says. Its external driver is the standing condition at **1A-2**, inverted.
 
-**Layer 2 — World's Own Experience.** What a bishop could do had changed, though what a bishop *was* had not. Cyprian never asked the magistrate for anything; a century and a third later the emperors could be asked, and eventually were.
+**Layer 2 — World's Own Experience.** What a bishop could do had changed, though what a bishop *was* had not. Cyprian never asked the magistrate for anything; a century and a third later the magistrate could be asked, and eventually was.
 
 **Layer 3 — Formation Impact.** **Doc_04 §2 tested this as a candidate gravity and declined to advance it**, finding nothing in this ecology organizes around the shift itself — it changes the instruments available to a bishop, not the thing a bishop is. Doc_07 §2E reaches the same conclusion from the ethical/legal side. **It is carried here as a real force with a deliberately bounded formation impact**, which is what the Proportionality Principle asks for.
 
@@ -184,7 +184,7 @@ Doc_01 §6 produced a preliminary six-cell sketch at Step 1, explicitly *"not La
 
 #### Force 2B-4: Augustine's engagement with Cyprian's conciliar acts
 
-**Layer 1 — Historical Event.** Augustine read the 256 Council's ruling on rebaptism and argued at length that it was wrong, in *On Baptism, Against the Donatists*. **Confidence: Documented** — Registry rows 4, 13.
+**Layer 1 — Historical Event.** Augustine read, argued with and overturned the 256 Council's ruling on rebaptism, in *On Baptism, Against the Donatists*. **Confidence: Documented** — Registry rows 4, 13.
 
 **Layer 2 — World's Own Experience.** A predecessor who is ours, whom we do not disown, and who decided this wrongly. *[E]ven of the plenary Councils, the earlier are often corrected by those which follow them.*
 
@@ -196,7 +196,7 @@ Doc_01 §6 produced a preliminary six-cell sketch at Step 1, explicitly *"not La
 
 #### Force 2B-5: **Transmission** — survival on the institutionally dominant side, through a 19th-century translation apparatus
 
-**Layer 1 — Historical Event.** Both anchor figures' writing survives in unusually full form, and Doc_02 §6 names the mechanism: both were kept by the Catholic institutional tradition that later became the canonical one, which kept Cyprian even where it judged him wrong, on rebaptism. **This build's actual access is narrower than that.** The working corpus is the 19th-century Ante-Nicene and Nicene and Post-Nicene Fathers English translation projects (`anf05`, `npnf101`–`npnf108`), with critical Latin editions vendored but far less used. **Confidence: Documented** for the survival pattern; **Documented** for the composition of this build's own corpus. **Named transmission agents: the Catholic institutional manuscript tradition; the ANF/NPNF editors and translators; and the vendoring decisions of this build itself.**
+**Layer 1 — Historical Event.** Both anchor figures' writing survives in unusually full form, and Doc_02 §6 names the mechanism precisely: each was, by the time of writing or of later transmission, *"on the institutionally dominant and eventually canonized side of every dispute he engaged."* **This build's actual access is narrower than that.** The working corpus is the 19th-century Ante-Nicene and Nicene and Post-Nicene Fathers English translation projects (`anf05`, `npnf101`–`npnf108`), with critical Latin editions vendored but far less used. **Confidence: Documented** for the survival pattern; **Documented** for the composition of this build's own corpus. **Named transmission agents: the Catholic institutional manuscript tradition; the ANF/NPNF editors and translators; and the vendoring decisions of this build itself.**
 
 **Layer 2 — World's Own Experience.** **This world was acutely conscious of transmission and acted on it.** Letters were not simply written; they were forwarded, collated and read aloud, and the bishop directing that traffic worried about what the traffic did to a text.
 
@@ -225,9 +225,9 @@ About 170 years later the same consciousness takes a different form: Augustine, 
 
 ---
 
-#### Force 3A-1: The Vandal invasion and the siege of Hippo (430)
+#### Force 3A-1: The Vandal invasion (from 429) and the siege of Hippo
 
-**Layer 1 — Historical Event.** The Vandals crossed from Spain into Africa in the late 420s; the chronicles disagree on the year, and Prosper's enters the crossing under 427 (Registry row 203). In 430 they besieged Hippo, and Augustine fell ill in the third month of the siege (Possidius, Vita XXIX); he died on 28 August 430. Prosper, a near-contemporary chronicler writing in Gaul, independently records the death under that year (Registry row 203). **Confidence: Documented.** *(Row 203 also records the Vandal capture of Carthage under 439 — a different city, nine years later, and no part of this world's end-boundary.)*
+**Layer 1 — Historical Event.** The Vandals crossed from Spain in 429 and besieged Hippo in the final months of Augustine's life; he died on 28 August 430. A near-contemporary Gallic chronicler independently records the death under that year (Registry row 203). **Confidence: Documented.** *(Row 203 also records the Vandal capture of Carthage under 439 — a different city, nine years later, and no part of this world's end-boundary.)*
 
 **Layer 2 — World's Own Experience.** An army on the road while the bishop lay dying inside the walls, with the people he was answerable for still in the city.
 
@@ -247,7 +247,7 @@ About 170 years later the same consciousness takes a different form: Augustine, 
 
 **Layer 2 — World's Own Experience.** **Not experienced as an ending — but not experienced as nothing, either.** A bishop writing against a live error writes for the people in front of him and for the case at hand, not for a tradition he expects to found.
 
-**Yet this world did take its own corpus seriously as a thing that would stand after it.** Cyprian gathers thirteen of his own letters and sends them to Rome, to give account of what he has done; Augustine, at the end, goes back through his books one by one and corrects them, though he does not reach his letters and sermons. A man who revises his own books has understood that they will be read when he cannot answer for them. **What he has not understood — and what no one in this world could — is which of it would matter, or to whom.**
+**Yet this world did take its own corpus seriously as a thing that would stand after it.** Cyprian gathers and forwards his own letters as a body of work; Augustine, at the end, goes back through everything he has written and corrects it. A man who revises his life's work has understood that the work will be read when he cannot answer for it. **What he has not understood — and what no one in this world could — is which of it would matter, or to whom.**
 
 ***Reported-Experience Status* (Constitution Article 17; Forces Framework §3)** applies to the whole Layer 2 above: *reported as the world's own self-understanding — not assessed for historical accuracy; confidence calibration applies to the historical-event layer only.*
 
@@ -325,7 +325,7 @@ About 170 years later the same consciousness takes a different form: Augustine, 
 
 **G3 — Collegial Communion Preserved Despite Disagreement (Primary).** Connected forces: **1B-1** (colleagues who can assemble and already disagree), **2A-3** (tested at its hardest edge, and holds), **2B-4** (tested across the century gap, and holds). **Note the shape:** every force connected to G3 is a force that *tested* it rather than produced it. G3 is this world's adaptive rule, and the forces analysis shows it being stress-tested three times from three directions.
 
-**G4 — Preaching and Catechesis (Supporting).** Connected forces: **1B-3** (the shared Latin register it needs), **2A-2** (the plague's response arrives as a treatise), and in truth **every force in Cell 2A**, since G4 is the channel through which external pressure reaches an ordinary believer. **This is the mechanism Section 4's first finding depends on** and Doc_07 §4 names as this world's characteristic response: crisis metabolized into teaching.
+**G4 — Preaching and Catechesis (Supporting).** Connected forces: **1B-3** (the vernacular register it needs), **2A-2** (the plague's response arrives as a treatise), and in truth **every force in Cell 2A**, since G4 is the channel through which external pressure reaches an ordinary believer. **This is the mechanism Section 4's first finding depends on** and Doc_07 §4 names as this world's characteristic response: crisis metabolized into teaching.
 
 **G5 — Conciliar Authority Theory (Supporting).** Connected forces: **1B-1** (the conciliar setting), **2A-3** (the Donatist appeal that supplies the occasion), **2B-4** (the engagement itself). **This is the weakest force-connection in the matrix and the document says so rather than padding it.** Doc_04 records that this candidate exhibits the shape the Forces Framework names when it states that *"[A] gravity that cannot be connected to the forces acting on the world is a gravity whose ecology is incomplete."* **The connection here is real but indirect**: every force touching G5 touches it through a third party's citation of a text, not through a pressure on the world's own practice — which is consistent with Doc_04's finding that no evidence shows the question reached ordinary formation. **Carried, not resolved.**
 
@@ -362,7 +362,7 @@ About 170 years later the same consciousness takes a different form: Augustine, 
 
 ## Section 6 — Transmission as a Force Dimension — Synthesis
 
-**Who transmitted this world's characteristic material.** The Catholic institutional manuscript tradition, which preserved both anchor figures and kept Cyprian even where it judged him wrong, on rebaptism. Then, decisively for this build, **the 19th-century ANF and NPNF translation projects**, whose English text is the working corpus for nearly every claim in this world's construction. Then this build itself, whose vendoring decisions determined what was available to read at all.
+**Who transmitted this world's characteristic material.** The Catholic institutional manuscript tradition, which preserved both anchor figures because each ended on the side that prevailed and was canonized. Then, decisively for this build, **the 19th-century ANF and NPNF translation projects**, whose English text is the working corpus for nearly every claim in this world's construction. Then this build itself, whose vendoring decisions determined what was available to read at all.
 
 **Under what conditions transmission occurred.** Selection by institutional victory at the first stage — Doc_02 §6 states the mechanism without euphemism — and selection by a Victorian translation programme's own editorial priorities at the second, including introductory notices, elucidations and endnotes printed *interleaved with* the text rather than separated from it.
 

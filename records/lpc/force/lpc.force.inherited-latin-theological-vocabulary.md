@@ -16,11 +16,7 @@ confidence:
     disclosure. Tertullian''s own corpus is Registry row 29, Boundary Status EXCLUDED (this world''s own
     construction begins after Tertullian; his vocabulary is inherited, not this world''s own voice) --
     no lpc.source.tertullian-* record exists to cite, and none is invented here to supply one.'
-sources:
-- source_id: lpc.source.augustine-general-correspondence
-  locus: Letter CCIX §3, a Punic-speaking bishop sought for Fussala ('acquainted with the Punic language')
-    -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 54466-54469
-  license: public-domain
+sources: []
 relations:
 - type: associated-with
   target: lpc.gravity.preaching-and-catechesis
@@ -32,13 +28,12 @@ description: >-
   is widely accepted.
 
 
-  The words were already to hand. What had to be argued could be argued in Latin, the church's own
-  language of preaching. Latin was not every hearer's tongue, though. For one country town, Augustine
-  looked for a bishop who knew Punic.
+  The words were already to hand -- what had to be argued could be argued in the language the people
+  in the assembly already spoke.
 
 
   This made preaching and catechesis possible as the main way of forming people, since that depends on
-  a theological language able to carry the content.
+  a theological language in the people's own tongue, able to carry the content.
 
 
   The force is treated briefly, in proportion to its weight. It is real and enabling. But it is not
@@ -49,4 +44,4 @@ manifestations:
   bishops without needing to be invented
 matrix_cell: 1B
 ---
-Taken from Doc_08 §3 Force 1B-3 (Cell 1B, Initiating/Internal). relations[] carries the gravity<->force edge (G4) named above. sources[] cites only Letter CCIX §3, for the Punic sentence. The Tertullian corpus is excluded from this world, so no Tertullian source record exists to cite, and none is invented.
+Taken from Doc_08 §3 Force 1B-3 (Cell 1B, Initiating/Internal). relations[] carries the gravity<->force edge (G4) named above. sources[] is deliberately empty. The Tertullian corpus is excluded from this world, so no Tertullian source record exists to cite, and none is invented.

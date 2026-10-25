@@ -29,8 +29,8 @@ dates:
     present at Augustine's deathbed in 430, one of those Augustine 'asked of us who were present' (lpc.story.the-psalms-on-the-wall);
     wrote the Vita Augustini, the source for both lpc.story.the-psalms-on-the-wall and lpc.quote.clamour-and-tears
 narratable: true
-bridge_line: the bishop of Calama who had been Augustine's friend for almost forty years, and who stood
-  by him and prayed as he died
+bridge_line: the bishop of Calama who had been Augustine's friend for forty years, and who stood by him
+  and prayed as he died
 relations:
 - type: associated-with
   target: lpc.story.the-psalms-on-the-wall

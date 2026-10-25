@@ -41,10 +41,10 @@ description: >-
 
 
   Yet this world did take its own writings seriously as something that would stand after it. Cyprian
-  gathered thirteen of his own letters and sent them to Rome, to give account of what he had done. At
-  the end, Augustine went back through his books one by one and corrected them, in the Retractationes.
-  He did not reach his letters and sermons. Our own corpus holds no English translation of that work. A
-  man who revises his own books knows they will be read when he cannot answer for them. What he could not know, and what no one in this world could know, was which of it
+  gathered and forwarded his own letters as a body of work. At the end, Augustine went back through
+  everything he had written and corrected it, in the Retractationes -- our own corpus holds no English
+  translation of that work. A man who revises his life's work knows it will be read when he cannot
+  answer for it. What he could not know, and what no one in this world could know, was which of it
   would matter, or to whom.
 
 
@@ -60,8 +60,8 @@ description: >-
 manifestations:
 - Augustine's theological corpus, which became the foundational inheritance of the later Western theological
   tradition
-- Augustine's Retractationes, reviewing his own books near the end of his life, though not his letters
-  and sermons (our own corpus holds no English translation of it)
+- Augustine's Retractationes, reviewing his own life's work near the end of it (our own corpus holds
+  no English translation of it)
 matrix_cell: 3B
 ---
 Taken from Doc_08 §3 Force 3B-1 (Cell 3B, Ending/Internal). relations[] carries the gravity<->force edge (G7) and the force<->force edges (2A-4, 3A-1) named above.

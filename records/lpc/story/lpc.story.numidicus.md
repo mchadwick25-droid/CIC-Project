@@ -44,9 +44,10 @@ narrative_tier_justification: 'Documented. Tier 1, Documented (Doc_09 SS3). This
   stating is not about tier but about perspective: Cyprian is making a case for an appointment, and the
   letter''s own rhetoric -- ''the common joy,'' ''the greatest glory of our Church'' -- is the rhetoric
   of advocacy.'
-tellable_as: How our bishop added to our presbyters a confessor who had not wanted to survive
-text: 'Cyprian wrote to us with news he called ''the common joy.'' He was adding a presbyter to our clergy,
-  and he wanted us to know who the man was.
+tellable_as: How we ordained a man on the strength of what he had endured, though he had not wanted to
+  survive it
+text: 'Cyprian wrote to us with news he called ''the common joy.'' He was appointing a presbyter, and
+  he wanted us to know who the man was.
 
 
   Numidicus had watched a group of us die. He had exhorted them first -- Cyprian says he "by his exhortation

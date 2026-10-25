@@ -18,13 +18,8 @@ sources:
 - source_id: lpc.source.cyprian-epistles
   locus: Ep. XX-XXI, Numeria and Candida discussed by Celerinus and Lucian, never speaking themselves
   license: public-domain
-- source_id: lpc.source.cyprian-epistles
-  locus: Ep. XXXIV, Cyprian on Numidicus, whose wife was burned beside him and whose daughter sought his
-    body and found him alive
-  license: public-domain
 - source_id: lpc.source.augustine-general-correspondence
-  locus: the Albina correspondence and Letter CCXI, to the nuns of Hippo, known only through Augustine's
-    own letters to them and about them
+  locus: the Albina correspondence, known only through Augustine's own letters about her
   license: public-domain
 relations: []
 statement: >-
@@ -32,7 +27,7 @@ statement: >-
   wife burns beside him; his daughter searches for his body and finds him alive. Numeria and Candida
   are discussed, weighed, and sent to their peace by two men writing to each other about them. In our
   later years, a woman we know as Albina, and a community of nuns at Hippo, are known to us only through
-  one of our own bishop's letters to them and about them. No text a woman wrote herself survives from us, in our
+  one of our own bishop's letters about them. No text a woman wrote herself survives from us, in our
   early years or our later ones, and that is not because one half of our record is thinner than the
   other. Now and then a woman's spoken words reach us, set down by men. One martyr account gives a
   woman's vision in her own first person. Quartillosia was held in prison with the martyrs, three days

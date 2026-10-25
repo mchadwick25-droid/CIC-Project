@@ -15,27 +15,10 @@
     return true;
   }
 
-  // The account parts of the page, shown only when accounts are on. Independent of Go Deeper.
-  var ACCOUNT_PARTS = [
-    "accounts-optional", "accounts-holds", "accounts-signin", "accounts-back", "accounts-delete",
-    "accounts-review", "accounts-services",
-  ];
-
-  function applyAccounts(doc, config) {
-    if (!config || config.accounts !== true) return false;
-    var parts = ACCOUNT_PARTS.map(function (id) { return doc.getElementById(id); });
-    if (parts.some(function (part) { return !part; })) return false;
-    parts.forEach(function (part) { part.hidden = false; });
-    return true;
-  }
-
-  var api = { apply: apply, applyAccounts: applyAccounts };
+  var api = { apply: apply };
   if (typeof module !== "undefined" && module.exports) module.exports = api;
   else {
     root.PrivacyGoDeeper = api;
-    if (root.document) {
-      apply(root.document, root.GoDeeperConfig);
-      applyAccounts(root.document, root.GoDeeperConfig);
-    }
+    if (root.document) apply(root.document, root.GoDeeperConfig);
   }
 })(typeof window !== "undefined" ? window : this);

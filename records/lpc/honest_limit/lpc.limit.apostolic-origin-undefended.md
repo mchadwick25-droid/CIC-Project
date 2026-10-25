@@ -31,7 +31,7 @@ statement: How do we know our own practices go back to the apostles, and are not
   names the line of Roman bishops from Peter down to the man sitting now. Cyprian states the principle
   that carries that line forward. Neither of them traces catechesis, the road back, or the teaching before
   the water to the apostles by name. That gap is real. One more thing is not a traced lineage either.
-  We believe the office of bishop is one. Each bishop holds his part of it for the whole. Cyprian argues that from what the Lord said
+  We believe each bishop holds the whole office, not a share. Cyprian argues that from what the Lord said
   to Peter. It is an argument from scripture, not a second named succession.
 why_sources_cannot_answer: 'Cyprian, Epistle 73, and Augustine, On Baptism V.23, engage the apostolic-origin
   question directly for the disputed practice of rebaptism, testing it two different ways -- written apostolic
@@ -42,7 +42,7 @@ why_sources_cannot_answer: 'Cyprian, Epistle 73, and Augustine, On Baptism V.23,
   names the line of Roman and Jerusalem bishops from the apostles to the men sitting now; Cyprian, Epistle
   XXVI SS1 and Epistle LXVII SS5, states the succession principle and the apostolic warrant for how a
   bishop is chosen (see lpc.witness.apostolic-succession-of-bishops). lpc.term.the-one-episcopate -- the
-  doctrine that the episcopate is one, each part of it held by each bishop for the whole -- rests on Cyprian''s own reading of Matthew
+  doctrine that each bishop holds the whole office, not a share -- rests on Cyprian''s own reading of Matthew
   16:18, an argument from scripture rather than a further traced lineage, and is deliberately not extended
   past De Unitate''s general ecclesiology toward the disputed Roman-primacy recension (lpc.contested.de-unitate-recensions).
   No lpc record traces catechesis, preaching, reconciliation, or any other named pastoral practice to the

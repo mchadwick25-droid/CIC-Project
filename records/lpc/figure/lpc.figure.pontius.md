@@ -31,8 +31,8 @@ dates:
     own confidence note); wrote The Life and Passion of Cyprian after his bishop's execution in 258, the
     first Christian biography (Doc_09 SS2)
 narratable: true
-bridge_line: Our bishop's own deacon. He went with him into exile, and after the execution he wrote the
-  account of his life and death.
+bridge_line: our bishop's own deacon, who stayed with him through exile and wrote, after the execution,
+  the account by which most of what we remember of Cyprian's own life reaches us
 relations:
 - type: associated-with
   target: lpc.story.election-of-cyprian

@@ -88,7 +88,7 @@ export function AddressScreen({ onBack }: { onBack: () => void }) {
         <form onSubmit={finish}>
           <p role="status">{copy.codeSent}</p>
           <label htmlFor="account-new-code">{copy.codeLabel}</label>
-          <input id="account-new-code" type="text" inputMode="numeric" autoComplete="one-time-code" maxLength={8} value={code} onChange={(e) => setCode(e.target.value)} />
+          <input id="account-new-code" type="text" inputMode="numeric" autoComplete="one-time-code" maxLength={6} value={code} onChange={(e) => setCode(e.target.value)} />
           <button type="submit" disabled={guard.busy || code.trim() === ''}>{copy.codeSignIn}</button>
         </form>
       )}

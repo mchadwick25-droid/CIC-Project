@@ -327,73 +327,7 @@ describe('GoDeeperPanel, pilot', () => {
     const { GoDeeperPanel } = await import('./GoDeeperPanel');
     render(<GoDeeperPanel />);
     expect(await screen.findByText('This connection has already taken the free packs the pilot allows.')).toBeInTheDocument();
-    const hrefs = screen.queryAllByRole('link').map((link) => link.getAttribute('href'));
-    expect(hrefs).toEqual(['https://donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00', 'https://buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01']);
+    expect(screen.queryByRole('link')).not.toBeInTheDocument();
     vi.unstubAllGlobals();
-  });
-});
-
-describe('GoDeeperPanel gift links', () => {
-  it('offers the two gift links with the fine print, each opening in a new tab', async () => {
-    const { GoDeeperPanel } = await load(true);
-    render(<GoDeeperPanel />);
-    openPanel();
-    const panel = screen.getByRole('complementary', { name: 'Get more conversations' });
-    expect(within(panel).getByRole('heading', { name: 'Keep the door open for others' })).toBeInTheDocument();
-    const once = within(panel).getByRole('link', { name: 'Give once' });
-    const monthly = within(panel).getByRole('link', { name: 'Give monthly' });
-    expect(once).toHaveAttribute('href', 'https://donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00');
-    expect(monthly).toHaveAttribute('href', 'https://buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01');
-    expect(once).toHaveAttribute('target', '_blank');
-    expect(once).toHaveAttribute('rel', expect.stringContaining('noopener'));
-    expect(panel).toHaveTextContent('Contributions are not tax-deductible. Both go through Stripe.');
-  });
-});
-
-function fromSource(source: unknown) {
-  const event = new MessageEvent('message', { data: { type: 'cic:panel-open' } });
-  Object.defineProperty(event, 'source', { value: source });
-  return event;
-}
-
-describe('GoDeeperPanel shown alone in the site frame', () => {
-  let parent: { postMessage: ReturnType<typeof vi.fn> };
-  beforeEach(() => {
-    parent = { postMessage: vi.fn() };
-    vi.spyOn(window, 'parent', 'get').mockReturnValue(parent as unknown as Window);
-  });
-  afterEach(() => vi.restoreAllMocks());
-
-  it('opens at once with no ribbon, and tells the page when it is closed', async () => {
-    const { GoDeeperPanel } = await load(true);
-    render(<GoDeeperPanel panelOnly />);
-    expect(screen.getByRole('complementary', { name: 'Get more conversations' })).toBeInTheDocument();
-    expect(screen.queryByRole('button', { name: 'Get more conversations', expanded: false })).not.toBeInTheDocument();
-    expect(parent.postMessage).not.toHaveBeenCalled();
-    fireEvent.click(screen.getByRole('button', { name: 'Close' }));
-    expect(screen.queryByRole('complementary')).not.toBeInTheDocument();
-    expect(parent.postMessage).toHaveBeenCalledWith({ type: 'cic:panel-close' }, '*');
-  });
-
-  it("opens again when the page asks, and ignores anyone else's message", async () => {
-    const { GoDeeperPanel } = await load(true);
-    render(<GoDeeperPanel panelOnly />);
-    fireEvent.click(screen.getByRole('button', { name: 'Close' }));
-    act(() => {
-      window.dispatchEvent(fromSource({}));
-    });
-    expect(screen.queryByRole('complementary')).not.toBeInTheDocument();
-    act(() => {
-      window.dispatchEvent(fromSource(parent));
-    });
-    expect(screen.getByRole('complementary', { name: 'Get more conversations' })).toBeInTheDocument();
-  });
-
-  it('is unchanged when not alone: the ribbon shows and nothing is posted', async () => {
-    const { GoDeeperPanel } = await load(true);
-    render(<GoDeeperPanel />);
-    openPanel();
-    fireEvent.keyDown(window, { key: 'Escape' });
-    expect(parent.postMessage).not.toHaveBeenCalled();
   });
 });

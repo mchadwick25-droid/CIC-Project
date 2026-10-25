@@ -33,8 +33,8 @@ dates:
     (Doc_01 SS2; lpc.story.election-of-cyprian); banished to Curubis under the Valerianic persecution;
     executed under the emperor Valerian in 258 (lpc.story.the-death-of-cyprian)
 narratable: true
-bridge_line: Our bishop, chosen while still new to the faith, over his own reluctance. During a plague
-  he taught us to love even our enemies. He was put to death under Valerian.
+bridge_line: our bishop, chosen while still a neophyte over his own reluctance, who taught us to care
+  for our enemies during a plague and was executed under Valerian
 relations:
 - type: associated-with
   target: lpc.story.election-of-cyprian

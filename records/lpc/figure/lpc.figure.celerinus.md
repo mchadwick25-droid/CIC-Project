@@ -28,8 +28,8 @@ dates:
     confessor in prison, asking that his own sister and two other women be received back to communion
     (Ep. XX; lpc.story.celerinus-writes-to-lucian)
 narratable: true
-bridge_line: A confessor who wrote to another confessor in prison. He wept for his sister, who had sacrificed,
-  and asked him to help restore her.
+bridge_line: a confessor who did not write about his own suffering, but about his sister's, and asked
+  another confessor in prison to help restore her
 relations:
 - type: associated-with
   target: lpc.story.celerinus-writes-to-lucian

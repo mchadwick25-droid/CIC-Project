@@ -22,7 +22,7 @@ Do-Not-Retrieve-When: the participant is asking about doctrinal error in general
 
 ## Quick Meaning
 
-For us, the sharpest question this word raises is whether a baptism or an ordination given outside the one communion is anything at all — and this world answers it twice, oppositely, a century and a half apart.
+For us, the question named by this word is not which opinions are wrong but whether a baptism or an ordination given outside the one communion is anything at all — and this world answers it twice, oppositely, a century apart.
 
 ---
 
@@ -32,7 +32,7 @@ Someone arrives who was washed elsewhere, by people who are not us. Is that pers
 
 One answer: no. What is given outside is not given, because there is nothing outside to give it — *he can no longer have God for his Father, who has not the Church for his mother* — and so bring them to the water. That answer is not a technicality; it follows from taking the one body seriously, and it is ruled on in council and defended against Rome at real cost.
 
-The other answer, nearly a century and a half later, from a man arguing against that ruling: what was given outside was truly given, and does them no good where they stand. *As the baptized person, if he depart from the unity of the Church, does not thereby lose the sacrament of baptism, so also he who is ordained, if he depart from the unity of the Church, does not lose the sacrament of conferring baptism. For neither sacrament may be wronged.* Bring them in, and what they already carry will begin to work.
+The other answer, a century and a third later, from a man arguing against that ruling: what was given outside was truly given, and does them no good where they stand. *As the baptized person, if he depart from the unity of the Church, does not thereby lose the sacrament of baptism, so also he who is ordained, if he depart from the unity of the Church, does not lose the sacrament of conferring baptism. For neither sacrament may be wronged.* Bring them in, and what they already carry will begin to work.
 
 The question does not go away between the two answers. It gets harder, because by the second time it is not one convert at the door but an entire rival hierarchy holding the same towns — and because that rival appeals to the first answer, in the first bishop's own name, against the second.
 

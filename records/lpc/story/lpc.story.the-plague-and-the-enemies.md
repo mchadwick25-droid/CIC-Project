@@ -51,8 +51,7 @@ narrative_tier_justification: 'Widely Accepted. Tier 1 at the narrative level, W
   of praise is not the same evidentiary object as a letter in the man''s own hand. Not Tier 3: there is
   no miracle and no providential intervention, and the death-as-completion pattern is absent because nobody
   dies here.'
-tellable_as: How our bishop met a plague by teaching us to love even our enemies, and to help everyone,
-  not only our own
+tellable_as: How our bishop met a plague by teaching us to care for the very people persecuting us
 text: 'Pontius, writing as a deacon who was there, described the epidemic without any of the consolation
   he might have reached for. "There broke out a dreadful plague," he wrote, "and excessive destruction
   of a hateful disease invaded every house in succession of the trembling populace, carrying off day by

@@ -17,10 +17,7 @@ sources:
 - source_id: lpc.source.cyprian-minor-pastoral-treatises
   locus: An Address to Demetrianus, the editorial Argument and SSSS1-3, answering the charge that Christians
     caused the world's wars, plague, and famine by refusing to worship the gods -- verified directly against
-    cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 45605-45660; and SSSS12-13, Demetrianus
-    judging and torturing Christians, the ground for calling him an official in Cyprian's own text (the
-    office "Proconsul of Africa" is the editor's Argument, not Cyprian's) -- verified directly against
-    the same file, lines 45938-45992
+    cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 45605-45660
   license: public-domain
 retrieval:
   tier: 2

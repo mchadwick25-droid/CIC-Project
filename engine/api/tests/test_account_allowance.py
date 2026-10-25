@@ -137,34 +137,10 @@ def test_the_allowance_refills_on_the_account_s_own_day_and_never_accumulates(se
 @pytest.mark.parametrize("today, day, start", [
     (date(2026, 3, 31), 28, date(2026, 3, 28)), (date(2026, 3, 5), 28, date(2026, 2, 28)),
     (date(2026, 1, 1), 15, date(2025, 12, 15)), (date(2026, 2, 28), 28, date(2026, 2, 28)),
-    (date(2026, 3, 31), 31, date(2026, 3, 31)), (date(2026, 4, 30), 31, date(2026, 4, 30)),
-    (date(2026, 4, 29), 31, date(2026, 3, 31)), (date(2026, 3, 15), 31, date(2026, 2, 28)),
-    (date(2026, 3, 1), 30, date(2026, 2, 28)), (date(2028, 3, 10), 30, date(2028, 2, 29)),
-    (date(2026, 2, 28), 29, date(2026, 2, 28)), (date(2026, 1, 28), 29, date(2025, 12, 29)), (date(2026, 1, 30), 29, date(2026, 1, 29)),
 ])
 def test_the_window_starts_on_the_most_recent_refill_day_across_month_ends(runtime, today, day, start):
     runtime.meter._clock = lambda: today
     assert runtime.meter.account_window_start(day) == start
-
-
-@pytest.mark.parametrize("today, day, following", [
-    (date(2026, 1, 31), 31, date(2026, 2, 28)), (date(2026, 2, 28), 31, date(2026, 3, 31)),
-    (date(2026, 3, 31), 31, date(2026, 4, 30)), (date(2026, 4, 30), 31, date(2026, 5, 31)),
-    (date(2028, 1, 31), 30, date(2028, 2, 29)), (date(2026, 12, 20), 15, date(2027, 1, 15)),
-    (date(2026, 12, 31), 31, date(2027, 1, 31)),
-])
-def test_the_next_refill_is_the_accounts_own_day_or_the_months_last_day(runtime, today, day, following):
-    runtime.meter._clock = lambda: today
-    assert runtime.meter.account_next_refill(day) == following
-
-
-def test_a_month_with_no_day_31_refills_a_31_account_on_its_last_day_and_never_twice(runtime):
-    runtime.meter._clock = lambda: date(2026, 4, 30)
-    start = runtime.meter.account_window_start(31)
-    runtime.meter._clock = lambda: date(2026, 5, 30)
-    assert runtime.meter.account_window_start(31) == start  # same window until the 31st
-    runtime.meter._clock = lambda: date(2026, 5, 31)
-    assert runtime.meter.account_window_start(31) == date(2026, 5, 31)
 
 
 def test_many_accounts_behind_one_network_share_the_network_window(runtime):

@@ -38,9 +38,7 @@ sources:
 - source_id: lpc.source.augustine-anti-pelagian-corpus
   locus: the anti-Pelagian corpus, licensed directly for the grace/sufficiency-test gravity candidate;
     a full sweep, scoped to its own thirteen works, returns 1,798 raw / 1,665 markup-stripped occurrences
-    of 'grace' -- by a wide margin the highest raw-frequency count of any term in this lexicon; On the
-    Proceedings of Pelagius 34 -- 'we certainly do not deserve by any faith that we should have faith
-    itself'
+    of 'grace' -- by a wide margin the highest raw-frequency count of any term in this lexicon
   license: public-domain
 retrieval:
   tier: 1

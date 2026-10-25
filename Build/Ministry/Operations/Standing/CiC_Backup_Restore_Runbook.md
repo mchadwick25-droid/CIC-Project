@@ -267,17 +267,6 @@ the entry waits in the file and the hourly job sends it. At start-up and every h
 app reads these entries back and removes any account they name. After a restore, check
 the log for "accounts named by the deletion ledger were found again and removed".
 
-**Erased conversations do not come back either.** The record of an erased conversation (a
-keyed hash of its id and the review tokens that find its review rows) also sits in the
-durable file, so a restore of the events file and the accounts file from before an
-erasure would bring the conversation back. Each erasure is therefore also written to the
-bucket, sealed under the backup key, under `db-backups/cic-engine/erased/<expiry day>_<hash>`.
-The name holds no conversation id. At start-up and every hour the app reads these back and
-the hourly job erases again any conversation in the log that they name, with its review
-rows. An entry that cannot be opened (for example, sealed under a key that is no longer
-listed) is skipped and logged without detail. Keep the previous backup key listed for 16
-days after a rotation, not 14, so these entries still open.
-
 ## What this does not cover
 
 - **Point-in-time recovery finer than 24 hours.** See RPO above.

@@ -46,24 +46,24 @@ retrieval:
   - participant asks how ordinary believers learned anything
   - participant asks about sermons
   prefer_instead:
-  - the participant is asking about instruction of those not yet baptized rather than the regular address
-    to the gathered church -- ask about catechesis instead
-plain_meaning: You are in the room, baptized or still learning. Again and again, the same voice works
-  on you. It is not a lecture and not a show. It is the man in charge of you, telling you to your face
-  what he thinks you need.
+  - the participant is asking about instruction of those not yet baptized rather than the weekly address
+    to the baptized -- ask about catechesis instead
+plain_meaning: You are baptized, so you are in the room. Week by week, the same voice works on you. It
+  is not a lecture and not a show. It is the man in charge of you, telling you to your face what he thinks
+  you need.
 world_word: preaching
 distortion_risk: medium
 false_friend:
 - a stern moralizing monologue, or a polished performance piece, assumed to be one component of a service
   among several rather than the central formative act
 senses:
-  informational: 'You are in the room, baptized or still learning, and again and again the same voice
-    works on you. It is not a lecture and not entertainment; it is the man answerable for you saying what
-    he thinks you need, to your faces, knowing which of you are missing. Preaching is the medium, not
-    itself an organizing force: it is how the flock''s own answerability, our discipline''s decisions,
-    and our grace controversy actually arrive at a believer. Catechesis is its paired term, distinguished
-    by audience. This is how our formation is delivered -- by voice, again and again, in person, by the
-    same man who administers everything else.'
+  informational: 'You are baptized, so you are in the room, and week by week the same voice works on you.
+    It is not a lecture and not entertainment; it is the man answerable for you saying what he thinks
+    you need, to your faces, knowing which of you are missing. Preaching is the medium, not itself an
+    organizing force: it is how the flock''s own answerability, our discipline''s decisions, and our grace
+    controversy actually arrive at a believer. Catechesis is its paired term, distinguished by audience.
+    This is how our formation is delivered -- by voice, weekly, in person, by the same man who administers
+    everything else.'
   evidential: The Sermons carry this term's own evidence; a full sweep returns 119 occurrences of 'preach'
     within their own bounds alone, and Sermon I.1's own opening -- quoted above -- is directly re-verified
     at source. Doc_03 flagged this Tier 1 on that raw frequency; Doc_05 SS5.2 found the underlying ecological
@@ -73,7 +73,7 @@ senses:
     piece, and assume it is one component of a service among several. For us it was the central formative
     act of ordinary life, delivered by the person personally answerable for the hearers, occasional and
     responsive rather than scripted, and openly aware of what it competed with for people's own attention.
-quick_meaning: For us, preaching is the regular talk to the whole church, baptized or still learning.
-  It is the main way what we hold reaches an ordinary believer.
+quick_meaning: For us, preaching is the weekly talk to those already baptized. It is how nearly all we
+  hold reaches an ordinary believer.
 ---
 Re-derived from Doc_06 SS2.2 (lpclex008, down-tiered to Tier 2 -- 'the single largest divergence in this world between textual abundance and ecological weight') and Lexicon-Chunks/lpclex008_preaching.md. Relations: five terms per this term's own Related-Terms line.

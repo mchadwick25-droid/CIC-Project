@@ -974,14 +974,6 @@ button {
   }
 }
 
-.is-panel-only .go-deeper__panel {
-  position: static;
-  width: auto;
-  max-height: none;
-  min-height: 100vh;
-  border: 0;
-}
-
 .go-deeper__head {
   display: flex;
   align-items: center;
@@ -1015,27 +1007,6 @@ button {
   padding: 0.35rem 0.5rem;
   font: inherit;
   letter-spacing: 0.06em;
-}
-
-.go-deeper a {
-  display: inline-flex;
-  align-items: center;
-  min-height: 44px;
-  padding: 0 0.5rem;
-  color: var(--color-text-light);
-  font-family: var(--font-family-ui);
-  font-size: 0.78rem;
-  text-decoration: underline;
-}
-
-.go-deeper__give {
-  display: block;
-}
-
-.go-deeper__eyebrow,
-.go-deeper__fine {
-  color: var(--color-text-light);
-  font-size: 0.78rem;
 }
 
 .go-deeper__code {

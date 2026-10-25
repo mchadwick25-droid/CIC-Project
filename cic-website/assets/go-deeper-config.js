@@ -7,11 +7,8 @@
   // Off, the privacy page keeps its Go Deeper section hidden.
   root.GoDeeperConfig = {
     enabled: true,
-    // On when accounts are open; off, the privacy page keeps its account sections hidden.
-    accounts: false,
     // On when a pilot audience is open; off, the pilot page shows nothing.
     pilot: true,
-    drawer: false,
     app: isLocal ? "http://localhost:5173" : "https://app.churchinconversation.com",
     api: isLocal ? "http://localhost:8000" : "https://app.churchinconversation.com",
   };
