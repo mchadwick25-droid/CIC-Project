@@ -594,10 +594,8 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         grant_id = "tester_" + secrets.token_hex(12)
         try:
             (code,) = runtime.meter.mint(
-                "single", tokens, grant_id, 1, source="tester", daily_code_limit=ops.tester_max_per_day, expires_in_days=days,
+                "single", tokens, grant_id, 1, source="tester", expires_in_days=days,
             )
-        except MintLimit:
-            raise HTTPException(status_code=429, detail="today's tester code limit is reached; it resets tomorrow")
         except ValueError as exc:
             raise HTTPException(status_code=422, detail=str(exc))
         response.headers["Cache-Control"] = "no-store"
@@ -639,7 +637,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
             },
             "tester": None if ops is None else {
                 "default_tokens": ops.tester_default_tokens, "max_tokens": ops.tester_max_tokens,
-                "default_days": ops.tester_default_days, "max_days": ops.tester_max_days, "per_day": ops.tester_max_per_day,
+                "default_days": ops.tester_default_days, "max_days": ops.tester_max_days,
             },
         }
 

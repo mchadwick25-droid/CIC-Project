@@ -183,7 +183,7 @@ class PilotRefused(DeeperError):
 
 
 class MintLimit(DeeperError):
-    """A grant would take the day's tokens, or the day's codes, of its source past its limit."""
+    """A grant would take the day's tokens of its source past its limit."""
 
 
 def is_grant(payment_id: str) -> bool:
@@ -302,7 +302,6 @@ class Meter:
         prepared: list[str] | None = None,
         source: str = "purchase",
         daily_token_limit: int | None = None,
-        daily_code_limit: int | None = None,
         expires_in_days: int | None = None,
         within: Callable[[sqlite3.Connection, str], None] | None = None,
     ) -> list[str]:
@@ -318,9 +317,8 @@ class Meter:
         "tester" and "coupon" are grants, made with no payment: their payment id must carry the
         grant's prefix, they count in their own reconciliation column and never
         as a payment, and daily_token_limit caps the tokens such codes may hold for the day,
-        daily_code_limit the number of such codes made that day, both checked inside
-        the same transaction so two requests cannot both pass. A voided grant still
-        counts toward its day.
+        checked inside the same transaction so two requests cannot both pass. A voided
+        grant still counts toward its day.
 
         expires_in_days: a tester grant's code, and only a tester grant's, has a last
         day: the day it is made plus this many days. It works to the end of that
@@ -371,14 +369,12 @@ class Meter:
                     raise AlreadyMinted(payment_id)
                 day = self._clock()
                 today = day.isoformat()
-                if source != "purchase" and (daily_token_limit is not None or daily_code_limit is not None):
-                    tokens_today, codes_today = self._conn.execute(
-                        "SELECT COALESCE(SUM(tokens_total), 0), COUNT(*) FROM meter WHERE day_created = ? AND payment_id LIKE ? ESCAPE '\\'",
+                if source != "purchase" and daily_token_limit is not None:
+                    (tokens_today,) = self._conn.execute(
+                        "SELECT COALESCE(SUM(tokens_total), 0) FROM meter WHERE day_created = ? AND payment_id LIKE ? ESCAPE '\\'",
                         (today, _like_prefix(GRANT_PREFIXES[source])),
                     ).fetchone()
-                    if daily_token_limit is not None and tokens_today + tokens * count > daily_token_limit:
-                        raise MintLimit(source)
-                    if daily_code_limit is not None and codes_today + count > daily_code_limit:
+                    if tokens_today + tokens * count > daily_token_limit:
                         raise MintLimit(source)
                 expires_on = (day + timedelta(days=expires_in_days)).isoformat() if expires_in_days is not None else None
                 if within is not None:

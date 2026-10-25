@@ -994,14 +994,11 @@ def test_a_tester_code_out_of_range_is_refused_and_makes_nothing(http, minting, 
     assert minting.meter.reconciliation(1) == [] and minting.meter.net_funds(7)["gift"] == 0
 
 
-def test_tester_codes_stop_at_two_a_day_even_when_one_is_cancelled(http, minting):
-    first = make_tester(http).json()
-    assert make_tester(http).status_code == 200
-    http.post("/api/admin/deeper/void", json={"payment_id": first["mint_id"]}, headers=admin())
-    refused = make_tester(http)
-    assert refused.status_code == 429
-    assert minting.meter.reconciliation(1)[0]["tester_codes_minted"] == 2
-    assert mint(http).status_code == 200
+def test_any_number_of_tester_codes_can_be_made_in_a_day(http, minting):
+    made = [make_tester(http) for _ in range(25)]
+    assert all(r.status_code == 200 for r in made)
+    assert len({r.json()["mint_id"] for r in made}) == 25
+    assert minting.meter.reconciliation(1)[0]["tester_codes_minted"] == 25
 
 
 def test_a_tester_code_is_a_gift_never_a_payment_a_sale_or_owed(http, minting):
@@ -1047,7 +1044,7 @@ def test_the_grants_list_and_status_show_the_tester_code(http, minting):
     assert (row["grant_id"], row["codes"], row["tokens"], row["expires_on"]) == (made["mint_id"], 1, 20000, str(date(2026, 11, 4)))
     assert made["code"].replace(" ", "") not in json.dumps(row)
     body = http.get("/api/admin/deeper/status", headers=admin()).json()
-    assert body["tester"] == {"default_tokens": 20000, "max_tokens": 20000, "default_days": 30, "max_days": 90, "per_day": 2}
+    assert body["tester"] == {"default_tokens": 20000, "max_tokens": 20000, "default_days": 30, "max_days": 90}
 
 
 def test_the_dashboard_makes_one_tester_code_with_a_confirm_and_shows_its_last_day():
@@ -1454,3 +1451,11 @@ def test_the_dashboard_has_a_coupon_button_with_a_confirm_that_never_shows_the_a
     listing = page[page.index("async function loadCoupons"):page.index("async function approveCoupon")]
     assert "c.coupon_id" in listing and "c.address" not in listing
     assert "/api/admin/deeper/coupon/cancel" in page
+
+
+def test_the_dashboard_keeps_a_new_code_on_screen_until_it_is_hidden_by_hand():
+    from pathlib import Path
+
+    page = (Path(deeper_routes.__file__).parent / "static" / "admin_dashboard.html").read_text()
+    assert "visibilitychange" not in page
+    assert 'id="mint-hide"' in page and "function hideCodes" in page

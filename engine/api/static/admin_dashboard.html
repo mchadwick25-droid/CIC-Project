@@ -878,9 +878,8 @@
         tokensBox.dataset.set = "1";
       }
       document.getElementById("tester-limits").textContent =
-        "One code for a professor or deep tester. Up to " + fmtNumber(tester.max_tokens) + " tokens and " + tester.max_days + " days, " + tester.per_day +
-        " codes a day. It stops working at the end of its last day, UTC.";
-      document.getElementById("t-deeper-tester-detail").textContent = "Limit " + tester.per_day + " a day. Cancel one with its mint id.";
+        "One code for a professor or deep tester. Up to " + fmtNumber(tester.max_tokens) + " tokens and " + tester.max_days + " days each, as many as you need. It stops working at the end of its last day, UTC.";
+      document.getElementById("t-deeper-tester-detail").textContent = "No daily limit. Cancel one with its mint id.";
     }
   }
   async function loadStatus() {
@@ -924,7 +923,7 @@
     shownCodes = made.codes.join("\n");
     document.getElementById("mint-codes").textContent = shownCodes;
     document.getElementById("mint-result-note").textContent =
-      "Shown once; they cannot be shown again. " + fmtNumber(made.tokens_each) + " tokens each. Mint id " + made.mint_id + " (paste it into the box below to cancel all of them).";
+      "The server cannot show these again; this page keeps them until you reload or press Hide codes. " + fmtNumber(made.tokens_each) + " tokens each. Mint id " + made.mint_id + " (paste it into the box below to cancel all of them).";
     document.getElementById("mint-result").classList.remove("hidden");
     deeperNotice("", false);
     await loadDeeper();
@@ -1009,7 +1008,7 @@
     shownCodes = made.code;
     document.getElementById("mint-codes").textContent = shownCodes;
     document.getElementById("mint-result-note").textContent =
-      "Shown once; it cannot be shown again. " + fmtNumber(made.tokens) + " tokens. It works until the end of " + made.expires_on + " UTC. Mint id " + made.mint_id + " (paste it into the box below to cancel it).";
+      "The server cannot show this again; this page keeps it until you reload or press Hide codes. " + fmtNumber(made.tokens) + " tokens. It works until the end of " + made.expires_on + " UTC. Mint id " + made.mint_id + " (paste it into the box below to cancel it).";
     document.getElementById("mint-result").classList.remove("hidden");
     deeperNotice("", false);
     await loadDeeper();
@@ -1034,7 +1033,6 @@
   document.getElementById("tester-submit").addEventListener("click", makeTesterCode);
   document.getElementById("coupon-submit").addEventListener("click", approveCoupon);
   document.getElementById("mint-hide").addEventListener("click", hideCodes);
-  document.addEventListener("visibilitychange", () => { if (document.hidden) hideCodes(); });
   document.getElementById("mint-copy-links").addEventListener("click", async () => {
     // One tap-to-enter link per code, for texting. The part after the # never goes to a server.
     const links = shownCodes.split("\n").filter(Boolean).map((c) => window.location.origin + "/#cic-code=" + c.replace(/\s+/g, ""));
