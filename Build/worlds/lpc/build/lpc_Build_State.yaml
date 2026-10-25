@@ -61,12 +61,12 @@ documents:
     decided_by_mark: true
     decision_date: September and October 2026, per lpc_Decision_Log.md
   - id: Doc_10
-    status:
+    status: drafted; awaiting independent review round 1 (Build/worlds/lpc/lpc_Doc_10_Representative_Construction.md)
     rounds_used: 0
-    drafter_model:
+    drafter_model: claude-fable-5-1
     reviewer_model:
     review_files: []
-    gates_result:
+    gates_result: records PASS, regate PASS, claims PASS, handoff PASS; deployed and wiring blocked on the package pin (2026-10-25)
   - id: Validation
     status:
     rounds_used: 0

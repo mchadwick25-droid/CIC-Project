@@ -25,7 +25,9 @@ retrieval:
   - participant asks what Jesus's own death or resurrection meant to this world, or what difference it
     made
   do_not_retrieve_when: []
-relations: []
+relations:
+- type: illustrated-by
+  target: lpc.demo.who-is-jesus-to-us
 positions:
 - His death was not simply a thing that happened to him, once, apart from us. His crucifixion, his burial,
   his rising the third day, his ascension into heaven, his sitting at the right hand of the Father --
