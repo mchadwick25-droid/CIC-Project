@@ -1935,3 +1935,11 @@ Logged 2026-10-25.
 - **B-1a and B-1b search records.** `lpc` has no `search_record` records; `records lpc --freeze` reports it. `Build/worlds/don/scripts/wb_don_s25.py` and don's B-1a/B-1b coverage check are the model.
 - **Reading level of the surface records.** The world front and brief score mean FK about 6.1, below the grade-8 floor CLAUDE.md asks writing to stay above. Under independent review (`Surface_Records_Review_2026-10-25.md`).
 - **Owner.** The `lpc` build thread.
+
+### OG-74. Surface records review: Revise; two items carried (2026-10-25).
+
+Logged 2026-10-25.
+
+- **Review.** `Surface_Records_Review_2026-10-25.md` found 4 P1s and 9 P2s in the world front and facilitator brief; the author is fixing all of them, then a targeted recheck. The reviewer judged the low reading grade (mean FK about 6) not flattened: no AI tells, and the four signature images survive. It is not raised to reach grade 8. This answers OG-73's reading-level item.
+- **Carried: the "prove yourself" redirect risk is untested.** world_core caution 12 names it, and the brief keeps it as a risk around the template redirect. It has not been tested against a live Facilitator; the validation run tests it.
+- **Owner.** The `lpc` build thread.
