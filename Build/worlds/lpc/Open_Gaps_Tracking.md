@@ -1892,3 +1892,11 @@ Logged 2026-10-24.
 - **Correction to OG-67.** Line 465 of `cic/texts/possidius_vita-augustini_weiskotten1919.txt` is in Weiskotten's Introduction, not his notes; lines 5364 and 5845 are notes.
 - **The Vandal force record** now names Prosper as the chronicler who records Augustine's death and the capture of Carthage under 439, so "the chronicles disagree" is not read as pointing to a second writer for those entries.
 - **Owner.** The `lpc` build thread.
+
+### OG-69. The Gapped Formation Precedent's "one attested locus" corrected; OG-62 closed (2026-10-25).
+
+Logged 2026-10-25.
+
+- **What.** The project lead ruled that the precedent is corrected in place (`lpc_Decision_Log.md`, 2026-10-25). §4 now names the loci in each phase, and says each is one bishop writing to other bishops or correspondents, with no evidence that the theory was operative among ordinary clergy. This matches Doc_04's Persistence test. The header no longer calls the text unchanged or the Article 3 question open.
+- **Closes.** The OG-62 entry on the precedent's "one attested locus" (2026-10-24).
+- **Owner.** The `lpc` build thread.
