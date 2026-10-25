@@ -1892,3 +1892,28 @@ Logged 2026-10-24.
 - **Correction to OG-67.** Line 465 of `cic/texts/possidius_vita-augustini_weiskotten1919.txt` is in Weiskotten's Introduction, not his notes; lines 5364 and 5845 are notes.
 - **The Vandal force record** now names Prosper as the chronicler who records Augustine's death and the capture of Carthage under 439, so "the chronicles disagree" is not read as pointing to a second writer for those entries.
 - **Owner.** The `lpc` build thread.
+
+### OG-69. The Gapped Formation Precedent's "one attested locus" corrected; OG-62 closed (2026-10-25).
+
+Logged 2026-10-25.
+
+- **What.** The project lead ruled that the precedent is corrected in place (`lpc_Decision_Log.md`, 2026-10-25). §4 now names the loci in each phase, and says each is one bishop writing to other bishops or correspondents, with no evidence that the theory was operative among ordinary clergy. This matches Doc_04's Persistence test. The header no longer calls the text unchanged or the Article 3 question open.
+- **Closes.** The OG-62 entry on the precedent's "one attested locus" (2026-10-24).
+- **Owner.** The `lpc` build thread.
+
+### OG-70. P2 pass: OG-63, OG-64, OG-65 and OG-59 items corrected; two carried (2026-10-25).
+
+Logged 2026-10-25.
+
+- **Corrected.** The women's-voice statement's two long sentences are split; its `sources` name the *Passio*, and Monica's words in *Confessions* IX.10 to IX.11 are named beside Quartillosia. Source records now exist for the *Passio Montani et Lucii* and for Tertullian's *De Pudicitia*, and the records citing them name them. Cited line ranges reach the end of *Passio* chapter 8. Registry row 14's dates carry the new locus. *On Baptism* is "seven books". The Constantine witness dates its sources (*Answer to Petilian* about 400 to 402; *City of God* begun 413). *City of God* is dated 413 to 426. Registry rows 56 and 208 no longer say Monceaux vol. VII was never requested: it is vendored. Lucian's condition was already carried by `lpc.story.celerinus-writes-to-lucian`.
+- **Carried: Registry row 29 licenses nothing from Tertullian.** `lpc.source.tertullian-de-pudicitia` stands as comparandum evidence for chapter XXII, which two records cite, but row 29 is the Excluded Named Comparandum row. Whether chapter XXII gets a narrow licence is a boundary decision for the project lead.
+- **Carried: "confessors" against Tertullian's "martyrs".** `lpc.gravity.confessor-authority-vs-episcopal-peace` speaks of sinners asking confessors for peace where *De Pudicitia* 22 speaks of martyrs. To be checked against the gravity's own sources in the next pass.
+- **Owner.** The `lpc` build thread.
+
+### OG-71. P2 pass review findings fixed; one Library flag (2026-10-25).
+
+Logged 2026-10-25.
+
+- **Fixed.** `P2_Pass_Review_2026-10-25.md` found one P1 and eleven P2s. The Tertullian source record no longer claims a licence: it is cited as comparandum evidence, and Registry row 29 licenses nothing. Its date now has an upper bound (anf03 lines 62, 4763). Line ranges are corrected (Tertullian XXII to 9659, *Passio* I to 5639, Monica 14147 to 14168 and 14185 to 14195). Three spoken sentences past 25 words are split. The confessor-authority gravity says "imprisoned martyrs", Tertullian's own term, which closes OG-70's second carried item. The precedent's §4 sentence keeps Doc_04's search bound and applies "one bishop writing" to the letters only, and its header no longer points to the ruling. `wb_lpc_s21.py` says plainly that the two new source records are kept by hand.
+- **Library flag.** `cic/corpus-map/latin-pastoral-congregational-christianity.yaml` line 459 and `cic/corpus-map/_staging/npnf102_augustine-city-of-god-christian-doctrine.yaml` line 17 still date *City of God* 413 to 427. The editor gives 413 to 426 (npnf102 lines 864 to 865). That is the Library's surface; filed in `NEEDS-RULING.md` for the Library thread.
+- **Owner.** The `lpc` build thread; the Library thread for the corpus-map note.

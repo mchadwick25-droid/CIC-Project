@@ -2639,3 +2639,9 @@ Alternatives shown: (1) the reviewer's one-line Capsule fix and all ten P2s, the
 ### 2026-10-24 — Sermon quote batches: by gravity, Primary first (project lead's ruling)
 
 Alternatives shown: (1) by gravity, Primary first: batch 1 of about 12 passages from the 97 NPNF sermons, chosen by reading, carrying the Primary gravities, then the Supporting gravities, then thin canon cells; (2) by participant question, starting from empty or thin canon cells; (3) straight through the 97 in NPNF order. Chosen: 1 (project lead, 2026-10-24). The Primary gravities per Doc_04 are the pastoral office, penitential discipline, collegial communion and sacramental and ordination validity; the question as put also listed preaching and catechesis, which Doc_04 classes Supporting, so it goes to the second batch. Each quote is checked word for word, rendered by Opus and reviewed by Opus.
+
+---
+
+### 2026-10-25 — The Gapped Formation Precedent is corrected in place (project lead's ruling)
+
+`lpc_Gapped_Formation_Precedent.md` §4 said Candidate 5 had "One attested locus in each phase". CO-LPC-2 found this false: Cyprian states his theory in the 256 preface and in his letters to Stephen, Jubaianus and Magnus, and Augustine states his in *On Baptism* and in Letters XLIII and LIV. Alternatives shown: (1) correct the sentence in place, since later worlds read the precedent as method guidance; (2) leave it as received, with OG-62 as the record; (3) correct it and keep the received wording in this log. Chosen: 1 (project lead, 2026-10-25). The header no longer calls the text unchanged, and no longer calls the Article 3 question open. Received wording of the corrected sentence, for the record: "Candidate 5 (conciliar authority) structurally needed the gap bridged. One attested locus in each phase, a century apart."

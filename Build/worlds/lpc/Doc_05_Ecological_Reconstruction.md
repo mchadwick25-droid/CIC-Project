@@ -404,7 +404,7 @@ And under all of it, all the way through, one thing does not shift. Whatever is 
 
 16. **The portfolio divergence between CF V7.4 and Completion Standard V1.4 §F over the Smart lens spine.** CF V7.4 Part VII puts the spine at Step 7; §F says *"Doc_05 and Doc_07 carry this spine."* §0.8 follows §F through a crosswalk, as ruled. The divergence itself stays open for the System Hub and is not settled here.
 
-**For Doc_06 (Full Lexicon).** The ecology confirms Doc_03's Tier 1 flags rather than disturbing them. Two notes: *communion* and *heresy* both carry distortion risk that this ecology sharpens — *communion* as a structural status that survives disagreement (§2.4), *heresy* as a question about a specific sacrament's validity rather than a settled deviation (§6.1) — and *confessor* should carry its **Cyprian-phase bound explicitly**, on §2.3's check. Doc_03's citation caution on *De Unitate*'s *episcopatus unus est* is carried forward at §6.4 and should survive into Doc_06.
+**For Doc_06 (Full Lexicon).** The ecology confirms Doc_03's Tier 1 flags rather than disturbing them. Two notes: *communion* and *heresy* both carry distortion risk that this ecology sharpens — *communion* as a standing that survives disagreement over practice among bishops (§2.4), *heresy* as a question about a specific sacrament's validity rather than a settled deviation (§6.1) — and *confessor* should carry its **Cyprian-phase bound explicitly**, on §2.3's check. Doc_03's citation caution on *De Unitate*'s *episcopatus unus est* is carried forward at §6.4 and should survive into Doc_06.
 
 ---
 

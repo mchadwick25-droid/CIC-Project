@@ -27,4 +27,4 @@ discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-chr
 external_ids:
   lpc_source_registry_row: 24
 ---
-Written at Hippo, 413-427, occasioned by the sack of Rome (410) -- Augustine's own largest work.
+Written at Hippo, 413-426, occasioned by the sack of Rome (410) -- Augustine's own largest work.

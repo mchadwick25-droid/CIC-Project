@@ -87,7 +87,7 @@ story, quote or doctrinal_witness record covers any of them.
      supply it." Doc_09 §7 confirms that no Tier 1 or Tier 2 story exists, or can exist, from
      the lapsed believer's own voice.
   3. lpc.limit.womens-own-voice (cell F6-P, demo_tag: exclude; see the build function).
-     Doc_09 §5 item 4, across both phases: "Women appear in these stories and never narrate
+     Doc_09 §7 item 4, across both phases: "Women appear in these stories and never narrate
      them. Numidicus's wife burns; his daughter searches for his body and finds him alive.
      Numeria and Candida are discussed, weighed, and dispatched to peace by two men writing
      to each other. All four are visible; none is audible -- and all four are Phase One. The
@@ -95,8 +95,9 @@ story, quote or doctrinal_witness record covers any of them.
      known only through Augustine's own framing of them, in letters he wrote about them
      rather than words they wrote themselves." Doc_02 §6 confirms the Augustine-phase half,
      and the world_core thin_topics field names the same gap. Presence, grief and
-     consequence are attested in both phases. A woman's own first-person narration is
-     attested in neither.
+     consequence are attested in both phases. No text a woman wrote herself survives in
+     either phase. One woman's first-person account of a vision is reported in the Passio of
+     Montanus and Lucius 8.
   4. lpc.limit.rural-punic-berber-life (cell F5-E, "How do historians even know about daily
      life like yours?"). Phase One §2: "Rural, Punic- and Berber-speaking congregational
      life -- Thin. The evidence is urban. Datus is a town bishop and should sound like one."
@@ -697,20 +698,23 @@ def build_limit_womens_own_voice() -> None:
             ("lpc.source.augustine-general-correspondence",
              "the Albina correspondence and Letter CCXI, to the nuns of Hippo, known only through "
              "Augustine's own letters to them and about them"),
+            ("lpc.source.passio-montani-et-lucii",
+             "Passio of Montanus and Lucius 8, Quartillosia's account of her vision in her own "
+             "first person, in a text men wrote"),
         ),
         "relations": [],
         "statement": (
             "Women appear throughout our own record, but almost always in someone else's words. "
             "Numidicus's own wife burns beside him; his daughter searches for his body and finds "
             "him alive. Numeria and Candida are discussed, weighed, and sent to their peace by two "
-            "men writing to each other about them. In our later years, a woman we know as Albina, "
-            "and a community of nuns at Hippo, are known to us only through one of our own "
+            "men writing to each other about them. In our later years there is a woman we know as "
+            "Albina, and a community of nuns at Hippo. We know them only through one of our own "
             "bishop's letters to them and about them. No text a woman wrote herself survives from "
-            "us, in our early years or our later ones, and that is not because one half of our "
+            "us, in our early years or our later ones. That is not because one half of our "
             "record is thinner than the other. Now and then a woman's spoken words reach us, set "
             "down by men. One martyr account gives a woman's vision in her own first person. "
-            "Quartillosia was held in prison with the martyrs, three days after her husband and "
-            "son had been put to death, and she told what she saw: her son, who had suffered, "
+            "Quartillosia was held in prison with the martyrs. Her husband and son had been put "
+            "to death three days before. She told what she saw: her son, who had suffered, "
             "coming to the prison. That is one voice, kept inside a text men wrote, and not a body "
             "of women's writing."
         ),
@@ -726,8 +730,12 @@ def build_limit_womens_own_voice() -> None:
             "which he writes largely in his own first person, and a few women's words that men set "
             "down, such as Quartillosia's account of her vision in the Passion of Montanus and Lucius "
             "8 (\"Vidi, inquit, filium meum\", "
-            "cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt lines 5771-5783; "
-            "Source_Registry.md rows 269 and 270, Native; no English version is vendored)."
+            "cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt lines 5771-5785 "
+            "and cic/texts/gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt lines 7655-7690; "
+            "Source_Registry.md rows 269 and 270, Native; no English version is vendored), and "
+            "Monica's words in the Confessions IX.10 and IX.11 "
+            "(cic/texts/npnf101_augustine-confessions-letters.xml lines 14147-14168 and 14185-14195), which "
+            "Doc_02_Source_Ecology.md §6 sets aside as Augustine's pre-clerical formation narrative."
         ),
         "nearest_material": [
             "lpc.figure.numidicus",

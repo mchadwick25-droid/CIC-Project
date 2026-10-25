@@ -213,7 +213,7 @@ force: lpc.force.inherited-latin-theological-vocabulary (the pre-existing
 NOT added: lpc.term.catechesis (its own clearer homes are F4-I and F4-T,
   see below -- catechesis is pre-baptismal instruction of a person joining,
   a distinct question from this cell's own "how did you read scripture, "
-  ongoing, already-baptized reception; not triple-tagged here to avoid
+  ongoing reception by the whole gathered church, baptized or still learning; not triple-tagged here to avoid
   diluting either cell's own focus).
 
 --- F2-E (the-silent-century) -- ALREADY HONEST_LIMIT, REINFORCED ---
@@ -308,8 +308,8 @@ SUBSTANTIVE (rework, retagged from F6-P) --- term: lpc.term.compel-them-to-come-
 --- F3-T ("Was your church 'Catholic'?" / denominations / handling other
 communities) -- ALREADY SUBSTANTIVE (lpc.witness.communion-over-
 separation), REINFORCED ---
-term: lpc.term.communion (formal standing that survives even the sharpest
-  disagreement between bishops -- the same content the pre-existing
+term: lpc.term.communion (formal standing that survives disagreement over
+  practice between bishops -- the same content the pre-existing
   witness record already states, named here at term-level too)
 gravity: lpc.gravity.collegial-communion-preserved (the witness record's
   own associated gravity)
