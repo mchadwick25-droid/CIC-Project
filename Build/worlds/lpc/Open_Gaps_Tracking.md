@@ -1925,3 +1925,13 @@ Logged 2026-10-25.
 - **Ruling.** The project lead ruled that chapter XXII stays cited as comparandum evidence with no Registry licence (`lpc_Decision_Log.md`, 2026-10-25). Registry row 29 is unchanged. The records already say so.
 - **Closes.** OG-70's carried item on Registry row 29 (the P2 pass, 2026-10-25).
 - **Owner.** The `lpc` build thread.
+
+### OG-73. Phase L2 remaining work, found on disk (2026-10-25).
+
+Logged 2026-10-25.
+
+- **Story tellings.** None of the seven `records/lpc/story/` records has a `telling` field, so the site shows each story's title and teaser only. Writing them is a records edit for a later batch.
+- **Traditions page.** `cic-website/traditions/latin-pastoral-congregational-christianity.html` does not exist. `Build/tools/generate_tradition_pages.py` fills the article section of an existing page only, and needs an `lpc` entry in `cic-website/data/world-census.json`. The first page is built by hand from another world's frame, with Datus's portrait and AI line.
+- **B-1a and B-1b search records.** `lpc` has no `search_record` records; `records lpc --freeze` reports it. `Build/worlds/don/scripts/wb_don_s25.py` and don's B-1a/B-1b coverage check are the model.
+- **Reading level of the surface records.** The world front and brief score mean FK about 6.1, below the grade-8 floor CLAUDE.md asks writing to stay above. Under independent review (`Surface_Records_Review_2026-10-25.md`).
+- **Owner.** The `lpc` build thread.
