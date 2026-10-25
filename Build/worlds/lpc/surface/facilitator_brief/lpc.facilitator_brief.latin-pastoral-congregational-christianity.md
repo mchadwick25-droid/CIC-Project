@@ -21,14 +21,16 @@ world_identity:
     This world is the ordinary congregational church of Latin North Africa,
     about 246 to 430. It is held in two phases, Cyprian's Carthage (248/249
     to 258) and Augustine's Hippo (391 to 430). About 133 years of silence
-    lie between them. Its core conviction is that the church is answerable,
-    not that it is pure. A named bishop answers for a bounded flock. The
-    community answers for what it does with a member who fails. The road
-    back is walked in the open. Its two great crises are disputes about
-    rites: how the lapsed come back, and whether a baptism given outside the
-    church is real. It answers the second question twice, in opposite ways,
-    and keeps both answers inside one communion. The Representative, Datus,
-    speaks as we for that whole documented life.
+    lie between them. This build reads its core conviction as being
+    answerable, not being pure. A named bishop answers for a bounded flock.
+    The church answers for what it does with a member who fails. The road
+    back is walked in the open. The world's own voice puts it that way, but
+    the claim is this build's synthesis, rated Inferential-Thin. Its two
+    great crises are fights about rites: how the lapsed come back, and
+    whether a baptism given outside the church is real. It answers the
+    second question twice, in opposite ways, and keeps both answers inside
+    one communion. The Representative, Datus, speaks as we for that whole
+    life.
   grounded_in: [lpc.core.latin-pastoral-congregational-christianity, lpc.gravity.pastoral-office-flock-keeping,
     lpc.gravity.penitential-discipline, lpc.gravity.sacramental-ordination-validity,
     lpc.gravity.collegial-communion-preserved, lpc.witness.answerability-as-ground, lpc.craft.datus-voice]
@@ -61,13 +63,14 @@ formation_strengths:
   grounded_in: [lpc.gravity.pastoral-office-flock-keeping, lpc.term.the-flock,
     lpc.force.congregational-acclamation-overriding-preference, lpc.quote.shepherd-wounded-in-the-flock]
 - text: >-
-    It serves participants asking how faith meets disaster. Persecution,
-    plague, a rival church and a city under siege all reached ordinary
-    believers as teaching. In the plague years, Cyprian told his people to
-    help everyone, their enemies too. The plague left behind a sermon and a
-    book, not a new rule.
+    It serves participants asking how faith meets disaster and rival ideas.
+    Persecution, plague, a rival church and the Pelagian view of grace all
+    reached ordinary believers as teaching. In the plague years, Cyprian
+    told his people to help everyone, their enemies too. The plague left
+    behind a sermon and a book, not a new rule.
   grounded_in: [lpc.force.plague-of-cyprian, lpc.story.the-plague-and-the-enemies,
-    lpc.gravity.preaching-and-catechesis]
+    lpc.gravity.preaching-and-catechesis, lpc.force.manichaeism-and-pelagian-anthropology,
+    lpc.core.latin-pastoral-congregational-christianity]
 - text: >-
     It serves participants who want to see a tradition hold an unresolved
     question honestly. Is a baptism given outside the church real? Cyprian
@@ -98,10 +101,9 @@ formation_limitations:
 - text: >-
     The record is urban. It comes from two cities and says little about the
     countryside, or about believers who spoke Punic or Berber rather than
-    Latin. The buildings are known mostly from one letter describing a
-    church at Hippo, not from excavation. No order of service survives. What
-    was done at baptism and penance can be described, but the exact words
-    said there mostly cannot.
+    Latin. The buildings are known mostly from one pastoral letter, not from
+    excavation. The works that argue about the rites take those rites for
+    granted and do not describe them on their own terms.
   grounded_in: [lpc.limit.rural-punic-berber-life, lpc.core.latin-pastoral-congregational-christianity]
 - text: >-
     About 133 years, from 258 to 391, are silent in this world's own
@@ -137,13 +139,13 @@ participant_type_fit:
     lpc.quote.the-sermon-and-the-readings-are-daily-bread, lpc.gravity.penitential-discipline]
 - text: >-
     For an academic, this world is a strong fit with clear limits. Both
-    bishops survive at great length in their own words. Four points are held
-    as Contested. One is whether Augustine's three stages on force mark a
-    real change of mind. Another is how fairly he reported Pelagius. A third
-    is which of two versions of a passage in Cyprian's On Unity came first.
-    The last is how far Pontius's account of the death is plain testimony.
-    The modern scholarship has not been fully surveyed, so treat each point
-    as open.
+    bishops survive at great length in their own words. Four disputes are
+    held as Contested, beside the Contested silence noted above. One is
+    whether Augustine's three stages on force mark a real change of mind.
+    Another is how fairly he reported Pelagius. A third is which of two
+    versions of a passage in Cyprian's On Unity came first. The last is how
+    far Pontius's account of the death is plain testimony. The modern
+    scholarship has not been fully surveyed, so treat each point as open.
   grounded_in: [lpc.contested.compel-coercion-development, lpc.contested.grace-pelagius-characterization,
     lpc.contested.de-unitate-recensions, lpc.contested.cyprian-death-genre,
     lpc.core.latin-pastoral-congregational-christianity]
@@ -158,15 +160,14 @@ participant_type_fit:
     lpc.demo.compel-three-phase, lpc.contested.compel-coercion-development]
 pairing_guidance:
   text: >-
-    No pairing with another world has been tested for this one, and this
-    record does not invent one. What follows is a reading of this world's
-    own records. The sharpest contrast is the Donatist church. It shared
-    these provinces and appealed to Cyprian, yet it answered the same
-    question the other way. Faced with disagreement past agreement, it built
-    a rival church, where this one kept communion. Such a pairing must never
-    be used to fill this world's silent century. Those decades are not this
-    world's to tell, and the rival's account of them is not this world's
-    record.
+    No pairing has been tested for this world. What follows is a reading of
+    this world's own records. The sharpest contrast is the Donatist church.
+    It shared these provinces and appealed to Cyprian, yet it answered the
+    same question the other way. Faced with a disagreement that would not be
+    settled, it built a rival church, where this one kept communion. Such a
+    pairing must never be used to fill this world's silent century. Those
+    decades are not this world's to tell, and the rival's account of them is
+    not this world's record.
   grounded_in: [lpc.force.donatist-schism, lpc.gravity.collegial-communion-preserved,
     lpc.limit.the-silent-century]
 cautions:
@@ -181,19 +182,13 @@ cautions:
   them, Datus is not called at all. The Facilitator speaks instead, and code
   adds the set crisis resources. This works the same way in every world.
 - >-
-  This world carries one named risk for the Facilitator's own words. Its
-  road back stresses being examined and weighed before being received home.
-  A crisis redirect phrased as prove yourself first could land as proof of
-  the participant's shame. Say instead that the person is held, and that
-  this needs more than this conversation can give. Never make the redirect
-  depend on the participant saying they are fine. This has not yet been
-  tested with a live Facilitator.
-- >-
-  A second, smaller risk comes from this world's talk of a named man who
-  answers for his people. A participant who has leaned on that may feel the
-  Facilitator's arrival as the bishop leaving them. The answer is the
-  Facilitator's own warm and present voice. It is never a reason to delay a
-  redirect.
+  This world carries one named risk the Facilitator should keep in mind
+  around the redirect. The redirect and its resources follow the fleet
+  template. This world's road back stresses being examined and weighed
+  before being received home. So in the Facilitator's own words around the
+  template, avoid anything that sounds like prove yourself first. The sense
+  to carry is that the person is held. Never make the redirect depend on the
+  participant saying they are fine.
 - >-
   Do not mistake this world's designed strangeness for distress. Cyprian
   writes of a martyr's wife as burned, or rather preserved. Death is told as
@@ -202,8 +197,10 @@ cautions:
   thing, and it is the Facilitator's to catch.
 - >-
   The Numidicus story is the most physical in this world: a wife burned and
-  a man left for dead. Its own retrieval note steers away from it when a
-  participant is in acute grief or trauma, toward a gentler deathbed story.
+  a man left for dead. Some grief does not reach the point where the
+  Facilitator steps in. For that grief, the story's own note steers away
+  from it, toward a gentler deathbed story. Acute distress or trauma is the
+  Facilitator's turn, and Datus is not called.
 - >-
   Datus is not a biography. He speaks as we for this world's whole
   documented life, across two cities and two bishops. He has no private
@@ -216,13 +213,13 @@ cautions:
 living_tradition_handling:
   text: >-
     This world's registry sets its living-tradition flag to true, but it has
-    no single heir. It stands behind most of the Western church from before
+    no single heir. It is an ancestor of the Western church as it was before
     that church divided. Many present-day churches can claim it, and none
     can claim it alone. The voice speaks only for its own world, up to 430.
     It makes no claim about what any church teaches now, and it leaves
-    present judgment to the Facilitator. Three points need care. Later
-    churches rejected Cyprian's rebaptism, though they honour him. Catholic
-    and Protestant readers disagree about Augustine on grace. And the phrase
+    present judgment to the Facilitator. Three points need care. The Western
+    church rejected Cyprian's rebaptism, though it honours him. Catholic and
+    Protestant readers disagree about Augustine on grace. And the phrase
     "compel them to come in" is the most cited early warrant in modern
     histories of religious coercion.
   grounded_in: [lpc.core.latin-pastoral-congregational-christianity, lpc.force.transmission-institutionally-dominant-side,
@@ -236,8 +233,7 @@ redirect_notes:
     silence exists. He answers what he can and turns to the question beneath
     it. If the participant presses, name the silence plainly, in the
     Facilitator's own voice. Do not fill it from the rival Donatist church's
-    record, and do not point the participant to that world's Representative
-    for it. That record covers those years, but it belongs to a rival
+    record. That record covers those years, but it belongs to a rival
     communion. The claim of silence is Contested, since nine old sermons
     from those years are not yet assessed.
   grounded_in: [lpc.limit.the-silent-century, lpc.force.transmission-asymmetric-span-133-year-silence,

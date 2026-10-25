@@ -112,10 +112,11 @@ orientation:
       Then this church's own voice goes quiet for about 133 years, from 258
       to 391. Much happened in those years, but what survives of them comes
       mostly from the rival Donatist church and its opponents, not from this
-      church's pastors. A few old sermons may date from that time, and they
-      have not yet been studied. So the silence is held as an open question,
-      not a settled fact.
-    grounded_in: [lpc.limit.the-silent-century, lpc.force.transmission-asymmetric-span-133-year-silence]
+      church's pastors. Nine old sermons, printed in a scholarly edition in
+      1917, may date from those years. They have not yet been assessed in
+      building this world, so the silence is held as an open question, not a
+      settled fact.
+    grounded_in: [lpc.limit.the-silent-century, lpc.force.transmission-asymmetric-span-133-year-silence, lpc.source.morin-sermones-post-maurinos-reperti]
   - text: >-
       The second voice is Augustine. He came to the faith in 386 and was
       baptized at Milan in 387. At Hippo he was made a presbyter in 391 and
@@ -124,7 +125,7 @@ orientation:
       in the same towns, the Donatists, with their own bishops in the same
       sees. They baptized again those who came over to them, and they named
       Cyprian's ruling as their warrant.
-    grounded_in: [lpc.figure.augustine, lpc.force.donatist-schism, lpc.gravity.preaching-and-catechesis, lpc.gravity.sacramental-ordination-validity]
+    grounded_in: [lpc.figure.augustine, lpc.force.donatist-schism, lpc.gravity.preaching-and-catechesis, lpc.gravity.sacramental-ordination-validity, lpc.limit.ordinary-interior-life]
   - text: >-
       Augustine answered the font question the other way. Something real is
       given even outside the church, he argued, though it does the person no
@@ -170,7 +171,10 @@ orientation:
   - story_id: lpc.story.celerinus-writes-to-lucian
     title: "A Confessor Writes to a Confessor in Prison"
     when: "the Decian persecution, from 250"
-    teaser: "Celerinus grieves that his sister has sacrificed. He asks Lucian, a confessor held in prison, to grant peace. Lucian sends it back, on condition that each case goes before the bishop."
+    teaser: "Celerinus grieves that his sister has sacrificed. He asks
+             Lucian, a confessor held in prison, to grant peace to her and
+             to two other women. Lucian grants it to the two women by name,
+             on condition that each case goes before the bishop."
     grounded_in: [lpc.story.celerinus-writes-to-lucian, lpc.figure.celerinus, lpc.figure.lucian]
   - story_id: lpc.story.numidicus
     title: "The Presbyter Who Had Not Wanted to Survive"
@@ -245,7 +249,7 @@ orientation:
       death in 430. He preached, taught those preparing for baptism, and
       argued against the Donatists, the Manichaeans and the Pelagians. Until
       his last illness he did not stop preaching.
-    grounded_in: [lpc.figure.augustine, lpc.quote.clamour-and-tears, lpc.force.manichaeism-and-pelagian-anthropology, lpc.force.donatist-schism, lpc.story.the-psalms-on-the-wall]
+    grounded_in: [lpc.figure.augustine, lpc.quote.clamour-and-tears, lpc.force.manichaeism-and-pelagian-anthropology, lpc.force.donatist-schism, lpc.story.the-psalms-on-the-wall, lpc.limit.ordinary-interior-life]
     hedge: >-
       So much of Augustine survives that he can seem to be this world's
       whole voice. He is not. He was one bishop, writing about the people in
@@ -280,14 +284,15 @@ orientation:
   - text: >-
       The church that kept both bishops' books kept Cyprian even where it
       judged him wrong, on baptism. This world has no single living heir.
-      Its ordinary work, a pastor answerable for one local flock, stands
-      behind much of the Western church from before that church divided.
+      Its ordinary work, a pastor answerable for one local flock, makes it
+      an ancestor of the Western church as it was before that church
+      divided.
     grounded_in: [lpc.force.transmission-institutionally-dominant-side, lpc.core.latin-pastoral-congregational-christianity]
   relations_summary:
     text: >-
       The rival Donatist church shared this world's provinces and its
       century, and it appealed to Cyprian himself. The two answered one
-      question in opposite ways. When bishops disagree past any agreement,
+      question in opposite ways. When bishops cannot settle a disagreement,
       do they keep communion or build a rival church? The Donatists built
       their own. This church kept its bond, even with the bishop it judged
       wrong. Its law looks different from an imperial church's, too. There,
@@ -296,14 +301,14 @@ orientation:
     grounded_in: [lpc.force.donatist-schism, lpc.gravity.collegial-communion-preserved, lpc.core.latin-pastoral-congregational-christianity]
   sourcing:
     text: >-
-      This world has more of its own words than any other built here so far.
-      Cyprian and Augustine both speak at length, as bishops of this church,
-      not as quotations in an opponent's book. The problem is who else
-      speaks. Almost no one outside the clergy left an account. No ordinary
-      believer wrote about an ordinary Sunday. No woman's own writing
-      survives, and none of the lapsed explained themselves. The churches
-      are known mostly from one letter, not from digging. Most of the
-      reading here is done in English translations from the 19th century.
+      This world keeps more of its own words than most. Cyprian and
+      Augustine both speak at length, as bishops of this church, not as
+      quotations in an opponent's book. The problem is who else speaks.
+      Almost no one outside the clergy left an account. No ordinary believer
+      wrote about an ordinary Sunday. No woman's own writing survives, and
+      none of the lapsed explained themselves. The church buildings are
+      known mostly from one letter, not from excavation. Most of the reading
+      here is done in English translations from the 19th century.
     grounded_in: [lpc.core.latin-pastoral-congregational-christianity, lpc.limit.ordinary-interior-life, lpc.limit.womens-own-voice, lpc.limit.the-lapsed-own-account, lpc.force.transmission-institutionally-dominant-side]
   read_first:
   - source: lpc.source.cyprian-de-lapsis
@@ -323,7 +328,8 @@ orientation:
     grounded_in: [lpc.term.confessor]
   - phrase: "certificates of peace"
     kind: term
-    note: "Letters a confessor gave a lapsed person. They asked for peace, or said it was granted. Who decides was the quarrel."
+    note: "Letters a confessor gave a lapsed person. They asked for peace,
+           or said it was granted. The quarrel was over who decides."
     grounded_in: [lpc.term.certificates-letters-of-peace]
   - phrase: "bishop of bishops"
     kind: term
