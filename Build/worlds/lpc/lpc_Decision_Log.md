@@ -2645,3 +2645,9 @@ Alternatives shown: (1) by gravity, Primary first: batch 1 of about 12 passages 
 ### 2026-10-25 — The Gapped Formation Precedent is corrected in place (project lead's ruling)
 
 `lpc_Gapped_Formation_Precedent.md` §4 said Candidate 5 had "One attested locus in each phase". CO-LPC-2 found this false: Cyprian states his theory in the 256 preface and in his letters to Stephen, Jubaianus and Magnus, and Augustine states his in *On Baptism* and in Letters XLIII and LIV. Alternatives shown: (1) correct the sentence in place, since later worlds read the precedent as method guidance; (2) leave it as received, with OG-62 as the record; (3) correct it and keep the received wording in this log. Chosen: 1 (project lead, 2026-10-25). The header no longer calls the text unchanged, and no longer calls the Article 3 question open. Received wording of the corrected sentence, for the record: "Candidate 5 (conciliar authority) structurally needed the gap bridged. One attested locus in each phase, a century apart."
+
+---
+
+### 2026-10-25 — De Pudicitia XXII stays cited, with no licence (project lead's ruling)
+
+`lpc.force.decian-persecution-libelli-system` and `lpc.gravity.confessor-authority-vs-episcopal-peace` say the confessors' claim to grant peace was not new in the Decian crisis, citing Tertullian's *De Pudicitia* XXII. Registry row 29 holds Tertullian as an Excluded Named Comparandum. Alternatives shown: (1) a narrow licence for chapter XXII as comparandum evidence, row 29 staying Excluded otherwise; (2) keep it cited as comparandum evidence with no licence; (3) drop the sentence and the source record. Chosen: 2 (project lead, 2026-10-25). `lpc.source.tertullian-de-pudicitia` already says row 29 licenses nothing.
