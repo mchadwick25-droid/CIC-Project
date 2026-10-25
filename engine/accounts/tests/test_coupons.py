@@ -141,7 +141,7 @@ def test_the_pending_list_shows_ids_amounts_and_days_and_no_address(wired):
     approve(wired)
     (row,) = wired.coupon_pending()
     assert set(row) == {"coupon_id", "tokens", "day_made"}
-    assert ADDR not in str(row) and "ada" not in str(row) and "k1:" not in str(row)
+    assert ADDR not in str(row) and "ada@" not in str(row) and "example.org" not in str(row) and "k1:" not in str(row)
 
 
 def test_a_coupon_nobody_claims_lapses_after_the_set_days_and_not_before(wired, clock):
