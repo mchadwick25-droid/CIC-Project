@@ -2651,3 +2651,15 @@ Alternatives shown: (1) by gravity, Primary first: batch 1 of about 12 passages 
 ### 2026-10-25 — De Pudicitia XXII stays cited, with no licence (project lead's ruling)
 
 `lpc.force.decian-persecution-libelli-system` and `lpc.gravity.confessor-authority-vs-episcopal-peace` say the confessors' claim to grant peace was not new in the Decian crisis, citing Tertullian's *De Pudicitia* XXII. Registry row 29 holds Tertullian as an Excluded Named Comparandum. Alternatives shown: (1) a narrow licence for chapter XXII as comparandum evidence, row 29 staying Excluded otherwise; (2) keep it cited as comparandum evidence with no licence; (3) drop the sentence and the source record. Chosen: 2 (project lead, 2026-10-25). `lpc.source.tertullian-de-pudicitia` already says row 29 licenses nothing.
+
+---
+
+### 2026-10-25 — Datus uses plain names (project lead's ruling)
+
+Doc_10 round 1 (`Doc_10_Review_Round1.md`, F6) found that Phase Three's no-proper-names rule conflicts with the fleet citation rule, under which every placed quote names its speaker, and with the name-bridge design, which expects plain names. A participant could hear "our first bishop" and "Cyprian wrote:" about the same man. Alternatives shown: (1) drop the rule, use plain names; (2) keep it as a recorded exception; (3) names in citations only. Chosen: 1 (project lead, 2026-10-25). The "we" voice stays.
+
+---
+
+### 2026-10-25 — The pointer to `rzg` is given by Datus in his own voice (project lead's ruling)
+
+D3 sets a pointer to the `rzg` world for Reformation questions but does not say who gives it, and Doc_10 had assigned it to the Facilitator. Alternatives shown: (1) Datus, in his own voice; (2) the Facilitator; (3) Datus declines with no pointer. Chosen: 1 (project lead, 2026-10-25). The Facilitator's interventions stay reserved for safety and process.

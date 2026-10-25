@@ -1964,3 +1964,17 @@ Logged 2026-10-25.
 - **Demonstrations.** `lpc.demo.compel-three-phase` opened with another fleet question's wording under `_fleet.canon.f3-p-02`; it now answers f3-p-02's own text. Composed closing lines in `road-back-examined` and `font-twice-answered` replaced by sourced material told in the voice's words or by the record's own silence. Probe tags that claimed the simulated battery as evidence removed. A fourth demonstration, `lpc.demo.who-is-jesus-to-us` (C-P, `_fleet.canon.c-p-02`), added because the Doc_10 Craft/Focus bar's item (a) presupposes a Center-Personal demonstration; the reviewer may strike it. Its mirror edge is kept by hand on `lpc.witness.the-pattern-we-are-modelled-on`, which no live generator emits.
 - **Carried, not resolved.** (1) Every Part Eight probe is OUTSTANDING; `deployed lpc` and `wiring lpc` both report "no package pin". (2) The liturgical steps Phase One §1.3 read (the catechumenate's stages, the renunciation formula, the hand laid on) are carried by no record and so are not spoken; records work. (3) The ordinary-pastorate story from Possidius XIX to XXVII is still unbuilt (Doc_09 §7 item 5). (4) The compiled voice fields and demonstrations score FK 4 to 7, below the grade-8 floor; held as a watch item on OG-74's reasoning, not raised by padding. (5) `python -m engine.m10.cli gaps lpc` fails with 214 pre-existing findings from old review files; not this entry's to close.
 - **Owner.** The `lpc` build thread.
+
+### OG-77. Doc_10 round 1: Revise; two rulings taken (2026-10-25).
+
+Logged 2026-10-25.
+
+- **Review.** `Doc_10_Review_Round1.md` found 4 P1s and 14 P2s. The P1s:
+  - F1: the new Center-Personal demonstration links Peter's threefold confession to the road back, which no source does.
+  - F2: the same demonstration answers a shame probe and then asks the participant to disclose.
+  - F3: the telos is drawn as if every element traced to the ecology. "Someone who went looking" has no record.
+  - F4: Doc_10 attributes the `rzg` pointer to the Facilitator under D3, which does not say so.
+  The reviewer judged the voice alive at FK 4 to 7. Where it goes flat, the cause is signposting and composed lines (F7, F8), not the grade.
+- **Rulings.** Datus uses plain names (F6), and Datus gives the `rzg` pointer in his own voice (F4). Both are in `lpc_Decision_Log.md`, 2026-10-25.
+- **Next.** A Sonnet revision of every finding, then a targeted Opus round 2 (round 2 of 3).
+- **Owner.** The `lpc` build thread.
