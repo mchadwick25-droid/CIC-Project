@@ -18,7 +18,6 @@ releasing returns them. Reservations live in memory only, so a restart gives
 every in-flight reservation back and nobody pays for a turn that never
 finished. One process serves all traffic, so the lock below is the arbiter.
 """
-import calendar
 import hashlib
 import hmac
 import logging
@@ -155,12 +154,6 @@ CREATE TABLE IF NOT EXISTS state (
 ) WITHOUT ROWID;
 """
 
-
-
-def refill_date(year: int, month: int, refill_day: int) -> date:
-    """The day an account refills in a given month: its own day, or the month's last day when the
-    month is shorter."""
-    return date(year, month, min(refill_day, calendar.monthrange(year, month)[1]))
 
 class DeeperError(Exception):
     pass
@@ -692,20 +685,12 @@ class Meter:
         return (row[0], row[1])
 
     def account_window_start(self, refill_day: int) -> date:
-        """The most recent refill date on or before today. A refill day past the end of a month
-        falls on that month's last day."""
+        """The most recent refill day on or before today. A refill day is 1 to 28, so every month has it."""
         today = self._clock()
-        this_month = refill_date(today.year, today.month, refill_day)
-        if today >= this_month:
-            return this_month
+        if today.day >= refill_day:
+            return today.replace(day=refill_day)
         last_month = today.replace(day=1) - timedelta(days=1)
-        return refill_date(last_month.year, last_month.month, refill_day)
-
-    def account_next_refill(self, refill_day: int) -> date:
-        """The refill date after the current window starts."""
-        start = self.account_window_start(refill_day)
-        next_month = (start.replace(day=1) + timedelta(days=32)).replace(day=1)
-        return refill_date(next_month.year, next_month.month, refill_day)
+        return last_month.replace(day=refill_day)
 
     def account_window_spent(self, key_hash: str, refill_day: int) -> int:
         """What this account has drawn since its last refill day; 0 in a new window."""

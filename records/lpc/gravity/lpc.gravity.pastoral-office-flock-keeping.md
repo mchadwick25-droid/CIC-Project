@@ -52,19 +52,13 @@ relations:
   target: lpc.force.plague-of-cyprian
 - type: associated-with
   target: lpc.force.vandal-invasion-siege-of-hippo
-- type: associated-with
-  target: lpc.quote.ye-belong-to-my-care
-- type: associated-with
-  target: lpc.quote.stewards-and-future-bishops
-- type: associated-with
-  target: lpc.quote.good-works-the-comfort-of-our-dangers
 name: Pastoral Office as Territorial Flock-Keeping
 description: >-
   This is the concern everything else in this world turns on. A bishop is personally answerable for a
   bounded flock, and much of the rest of the world flows from that.
 
 
-  It recurs in every primary source, for both bishops and both phases. It appears in
+  It recurs without a break in every primary source, for both bishops and both phases. It appears in
   both bishops' stories of coming to office. It appears in the crisis letters of both phases. It
   appears in Cyprian's letters and treatises. It appears in Augustine's sermons.
 
@@ -86,8 +80,8 @@ description: >-
 
   The evidence is solid. Accounts of holding and using this office are quoted directly and checked.
   They are the preface to the Council of 256, Augustine's Letters XXXI and CCXIII, and Pontius's
-  narrative. Possidius's Life of Augustine is not counted in this rating, though it has since been
-  read in full. So the rating rests on Pontius, the two letters, and the
+  narrative. Possidius's Life of Augustine is not counted. It has not been checked on its own,
+  beyond naming the Megalius consecration. So the rating rests on Pontius, the two letters, and the
   256 preface alone.
 
 

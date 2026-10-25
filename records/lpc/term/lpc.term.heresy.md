@@ -62,8 +62,9 @@ retrieval:
   - the participant is asking about doctrinal error in general, or about a later inquisitorial sense of
     heresy, rather than about the validity of a specific act performed outside one communion -- ask about
     the specific validity question instead
-plain_meaning: 'For us, this word raises one sharp question: whether a baptism given outside our one church
-  counts at all. We answer it twice, in two different ways, a century and a half apart.'
+plain_meaning: 'For us, this word does not ask which belief is wrong. It asks one question: does a baptism
+  given outside our one church count at all? We answer that question twice, in two different ways, a century
+  apart.'
 world_word: heresy
 distortion_risk: high
 false_friend:
@@ -97,7 +98,7 @@ senses:
     a specific act performed outside one communion is valid. Our two most respected figures answer it
     in opposite directions, and the later one argues against the earlier one's ruling while treating him
     as unquestionably inside the church.
-quick_meaning: For us, the sharpest question this word raises is whether a baptism given outside our one
-  church counts at all.
+quick_meaning: For us, this word does not ask which belief is wrong. It asks whether a baptism given outside
+  our one church counts at all.
 ---
 Re-derived from Doc_06 SS2.1 (lpclex006, Tier 1, G6 Primary -- 'the question on which communion is tested hardest') and Lexicon-Chunks/lpclex006_heresy.md. CT tag not applied, confirming rather than re-deriving Doc_03's own judgment that this in-world disagreement is not a live scholarly contest in Article 26's sense. Relations: eight terms per this term's own Related-Terms line.

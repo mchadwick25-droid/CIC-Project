@@ -30,7 +30,7 @@ For us, this is the counter-principle: local councils yield to wider ones, and e
 
 *The Councils themselves, which are held in the several districts and provinces, must yield, beyond all possibility of doubt, to the authority of plenary Councils which are formed for the whole Christian world; and... even of the plenary Councils, the earlier are often corrected by those which follow them, when, by some actual experiment, things are brought to light which were before concealed.*
 
-Two moves in one sentence, and the second is the surprising one. Narrower yields to wider — that is a hierarchy. But the widest is itself revisable, when experience brings to light what was hidden. Which means a past ruling is authoritative and correctable at the same time, and that is precisely what is needed by a man who intends to honour a predecessor while overturning what he decided.
+Two moves in one sentence, and the second is the surprising one. Narrower yields to wider — that is a hierarchy. But the widest is itself revisable, because the church learns. Which means a past ruling is authoritative and correctable at the same time, and that is precisely what is needed by a man who intends to honour a predecessor while overturning what he decided.
 
 ---
 

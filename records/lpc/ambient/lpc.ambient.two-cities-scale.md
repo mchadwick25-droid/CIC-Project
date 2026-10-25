@@ -14,8 +14,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: lpc.source.cyprian-seventh-council-of-carthage
-  locus: preface, the council met at Carthage ('in unum Cartaginem conuenissent'); the city's scale restates
-    Doc_01 §2 ('outside Rome itself'), which cites no primary locus
+  locus: the first city's own scale, the largest Latin Christian city outside the western capital
   license: public-domain
 - source_id: lpc.source.possidius-vita-augustini-weiskotten1919
   locus: the second city's own smaller, differently-provinced standing
@@ -26,7 +25,7 @@ retrieval:
   do_not_retrieve_when: []
 relations: []
 detail: Our whole life is lived in two cities, a century and a half apart. The first is a great port
-  city, the largest Latin Christian city outside Rome. The second lies
+  city, the largest Latin Christian city outside the empire's own capital in the west. The second lies
   further along the same coast -- a smaller see, answerable within a different province than the first,
   though its own bishop sat in the same wider councils.
 formation_claim_barred: true

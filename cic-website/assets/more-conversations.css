@@ -1,9 +1,0 @@
-button.feature-btn{cursor:pointer;font-family:'Alegreya Sans',sans-serif}
-.more-scrim{position:fixed;inset:0;z-index:900;background:rgba(0,0,0,.45);opacity:0;transition:opacity .25s ease}
-.more-scrim.open{opacity:1}
-.more-drawer{position:fixed;z-index:901;top:0;right:0;bottom:0;width:min(26rem,100vw);background:#1E1913;border-left:1px solid rgba(241,233,221,.24);transform:translateX(100%);transition:transform .25s ease;display:flex}
-.more-drawer.open{transform:none}
-.more-drawer iframe{flex:1 1 auto;width:100%;height:100%;border:0;display:block;background:#1E1913}
-.more-drawer[hidden],.more-scrim[hidden]{display:none}
-@media (prefers-reduced-motion:reduce){.more-scrim,.more-drawer{transition:none}}
-@media (min-width:1000px){.site-header .feature-bar{flex-wrap:nowrap}}

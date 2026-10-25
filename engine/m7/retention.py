@@ -1,11 +1,11 @@
 """Daily retention (System Hub decision 34), run in-process inside the
 cic-engine web service like the other daily jobs (engine/m7/scheduler.py's
 module docstring says why it cannot be a separate Render service):
-conversations inactive for 90 days are deleted from the event log, question
-and answer text older than 90 days is deleted from the quality-control store, and M7
+conversations inactive for 90 days are deleted from the event log, answer
+text older than 90 days is deleted from the quality-control store, and M7
 audit runs (operator copies of participant text) older than 90 days are
 deleted, and feedback items closed more than 90 days ago are deleted.
-Scores and routing flags in the QC store are kept. The 14-day backup rotation
+Questions and scores in the QC store are kept. The 14-day backup rotation
 (engine/api/db_backup.py) carries each deletion into the backups.
 
 A conversation a signed-in person saved to their account is exempt from the
@@ -48,7 +48,7 @@ def run_once(events_db_path: str, qc_db_path: str, status_dir: Path, *, audit_ro
     status = {"run_at": now.isoformat(), "conversation_cutoff": cutoff}
     try:
         status["conversations_deleted"] = Store(events_db_path).purge_inactive(cutoff, is_exempt)
-        status["qc_text_cleared"] = QCStore(qc_db_path).expire_text(now.date())
+        status["qc_answers_cleared"] = QCStore(qc_db_path).expire_answers(now.date())
         if audit_root is not None:
             status["audit_runs_pruned"] = erase.prune_older_than(audit_root, now.date(), CONVERSATION_RETENTION_DAYS)
         if feedback_store is not None:

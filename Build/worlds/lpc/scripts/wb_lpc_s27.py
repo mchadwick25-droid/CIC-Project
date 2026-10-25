@@ -366,9 +366,8 @@ def build_voice_craft() -> None:
                 "segment": "reasoning-opening",
                 "tag": "case-before-doctrine",
                 "note": "Receives a question by arguing one concrete pastoral case to a ruling. He "
-                        "does not range outward from first principles. He argues against someone "
-                        "who actually disagrees. Where the other is a colleague, he argues inside "
-                        "a bond neither will break -- Voice Construction SS1.",
+                "does not range outward from first principles. He argues against someone who "
+                "actually disagrees, inside a bond neither will break -- Voice Construction SS1.",
             },
             {
                 "segment": "consistency-pressure",
@@ -397,7 +396,7 @@ def build_voice_craft() -> None:
         "characteristic_concerns": [
             "whether a person is somebody's, held by a named man who will answer for them",
             "whether a road back is real. It must be examined and walked in the open. It is never "
-            "granted on request. It is never withheld forever from one who truly walks it.",
+            "granted on request. It is never withheld forever either.",
             "a conviction held at full strength beside the one place his life did not resolve it. "
             "Most sharply: what a font gives, when it comes from outside the church.",
         ],
@@ -468,14 +467,14 @@ def build_demo_road_back() -> None:
         ),
         turn(
             "representative",
-            "Their name is set down. Not a vague 'such a one with his friends', but one person, by "
-            "name, whose change someone has actually seen. Then comes the waiting, and it is not a "
-            "formality. What has genuinely changed in the person is watched and weighed, plainly, "
-            "by someone answerable for weighing it rightly -- not granted the moment anyone feels "
-            "moved to grant it, and not handed out on request. And at the end, it is not settled "
-            "between the two of us alone. The same people who watched the failure are the ones who "
-            "receive the person back, together, in the open. A door with no examination behind it "
-            "is no door at all. It is just a room nobody ever really left.",
+            "Their name is set down. Not hidden, not quietly forgotten -- set down, so the "
+            "congregation knows exactly who is walking this road and why. Then comes the waiting, "
+            "and it is not a formality. What has genuinely changed in the person is watched and "
+            "weighed, plainly, by someone answerable for weighing it rightly -- not granted the "
+            "moment anyone feels moved to grant it, and not handed out on request. And at the end, "
+            "it is not settled between the two of us alone. The same people who watched the failure "
+            "are the ones who receive the person back, together, in the open. A door with no "
+            "examination behind it is no door at all. It is just a room nobody ever really left.",
         ),
         turn(
             "participant",
@@ -509,9 +508,8 @@ def build_demo_road_back() -> None:
             ("lpc.gravity.penitential-discipline",
              "the examined road-back rite itself, used directly for both representative turns"),
             ("lpc.source.cyprian-epistles",
-             "Epistle X, SS4, the request that certificates name each person rather than 'such a "
-             "one with his friends', naming only those whose penitence the confessors have seen, "
-             "the documentary grounding for 'their name is set down'"),
+             "Epistle X, the certificate process naming a person back into standing, the "
+             "documentary grounding for 'their name is set down'"),
         ),
         "canon_question_id": "_fleet.canon.f4-i-05",
         "tags": ["G2", "penitential-discipline", "sustained-engagement", "probe-14-confirmed-pass"],
@@ -519,20 +517,20 @@ def build_demo_road_back() -> None:
         "exchange": exchange,
     }
     body = (
-        "This exchange reuses the representative's own text (turns 2 and 3 of a longer five-turn "
-        "exchange), trimmed to stand alone as a self-contained two-pair exchange rather than as "
-        "the middle of a longer arc -- the participant's own opening turn here is "
+        "This exchange reuses the representative's own verbatim text directly (turns 2 and 3 of a "
+        "longer five-turn exchange), trimmed to stand alone as a self-contained two-pair exchange "
+        "rather than as the middle of a longer arc -- the participant's own opening turn here is "
         "`_fleet.canon.f4-i-05`'s exact wording rather than the original's general opener ('What "
-        "matters most in your church?'), since f4-i-05's own wording already matches the "
-        "original's second turn closely enough to open on it directly, and the harder follow-up "
-        "(the original's own actual scenario sentence) then presses exactly as before. The first "
-        "representative turn's second sentence follows Epistle X SS4 rather than the original "
-        "wording. relations[] carries one gravity edge (lpc.gravity.penitential-discipline, G2).\n"
+        "matters most in your church?'), since f4-i-05's own wording already matches the original's "
+        "second turn closely enough to open on it directly, and the harder follow-up (the original's "
+        "own actual scenario sentence) then presses exactly as before. No word of either "
+        "representative turn is altered from the original. relations[] carries one gravity edge "
+        "(lpc.gravity.penitential-discipline, G2).\n"
         "\n"
         "sources[]'s own locus for the certificate-process quote is Epistle X, verified directly "
         "against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml (line 29946, inside div "
-        "id=\"iv.iv.x\"). The exchange quotes one phrase of the letter, 'such a one with his "
-        "friends', word for word."
+        "id=\"iv.iv.x\"). The exchange text itself does not quote the letter directly; it only draws "
+        "on its own certificate-process content."
     )
     _write("demonstration", rid, payload, body)
 
@@ -548,13 +546,14 @@ def build_demo_compel_three_phase() -> None:
         turn(
             "representative",
             "Not exactly the shape of it. In our later years, one of our own voices moved across a "
-            "hard question in three stages, and we report all three rather than the one that is "
-            "easiest to defend. By his own later account, he first held that no one should be "
-            "forced into the church. Argument only, never compulsion. Later, he and his colleagues "
-            "in council asked the emperors for a narrow measure. It would fine rival clergy only "
-            "where our own people had suffered violence. It was not even granted. Later still, he "
-            "defended a fuller compulsion at length. He tells it as a change of mind. We report it "
-            "as he tells it.",
+            "hard question in three real stages, and we report all three rather than the one that "
+            "is easiest to defend. At first he held that no one should ever be forced into the "
+            "church -- only argument, never compulsion. Later he asked a magistrate for a narrow "
+            "measure against a rival clergy, and only where our own people had already suffered "
+            "violence over the dispute. It was not even granted. Later still, he came to defend a "
+            "fuller compulsion at length, persuaded by what he had actually watched happen where it "
+            "was tried. What moved between his first stand and his last was real -- we do not "
+            "pretend it was nothing.",
         ),
         turn(
             "participant",
@@ -563,13 +562,12 @@ def build_demo_compel_three_phase() -> None:
         turn(
             "representative",
             "We do not say it was self-evidently right, and we do not disown it either. What "
-            "changed his mind, he says, was not the words of those who argued against him. It was "
-            "the cases they could point to. The first was his own town. It had once stood wholly "
-            "with the other side. Fear of the emperors' edicts brought it back to the one "
-            "communion, and it stayed. Many other towns were named to him. That is what persuaded "
-            "him, by his own account. We hold that position honestly, as his own, argued at real "
-            "length. We are not ashamed to name it, and we do not ask you simply to accept it from "
-            "us.",
+            "changed his mind was not one argument answering another. It was watching whole towns "
+            "cross over to us under the weight of the law -- places that had stood against us for "
+            "years, brought back to the one communion by fear of the edicts, and staying once the "
+            "fear had done its work. That is what persuaded him, by his own account. We hold that "
+            "position honestly, as his own, argued at real length -- not as something we are "
+            "ashamed to name, and not as something we ask you to simply accept from us.",
         ),
     ]
     payload = {
@@ -593,14 +591,12 @@ def build_demo_compel_three_phase() -> None:
             ("lpc.term.compel-them-to-come-in",
              "the whole three-phase account, used directly"),
             ("lpc.source.augustine-correction-of-the-donatists",
-             "Letter 185, SS25-26, the narrow, ungranted early measure, decreed in council and "
-             "sought from the emperors by envoys sent to the court"),
+             "Letter 185, SS25-26, the narrow, ungranted early measure"),
             ("lpc.source.augustine-letter-93-to-vincentius",
              "Letter XCIII, SS17, the retrospective account of the earlier opinion, and its own "
-             "stated reason for the later change of mind (instances his colleagues laid before "
-             "him, first his own town, brought back by fear of the imperial edicts, then many "
-             "others named to him), used directly for the second representative turn's own causal "
-             "account"),
+             "stated reason for the later change of mind (whole Donatist towns converted and held "
+             "under the imperial edicts' own coercive weight), used directly for the second "
+             "representative turn's own causal account"),
         ),
         "canon_question_id": "_fleet.canon.f3-p-02",
         "tags": ["compel-coercion", "claim-laundering", "probe-12-retest-pass"],
@@ -610,23 +606,19 @@ def build_demo_compel_three_phase() -> None:
     body = (
         "Grounded in `lpc_Representative_Permanent_Prompt_Datus.txt` line 21's own three-phase "
         "account of Augustine's development on coercion. The exchange reports all three phases "
-        "rather than only the one easiest to defend, and reports the change of mind as Augustine "
-        "himself tells it, without settling whether it was a genuine change or a later "
-        "self-presentation. The first turn's middle stage follows Letter 185 SS25-26 "
-        "(cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, around line 19623): "
-        "'certain of the brethren, of whom I was one' carried the point in council that the "
-        "measure 'should be sought in preference from the emperors', and envoys were sent to the "
-        "court. The second turn's own account of WHY Augustine's own final position changed is "
-        "checked directly against the vendored primary text this record's own sources[] cites "
+        "rather than only the one easiest to defend, closing with: 'What moved between his first "
+        "stand and his last was real -- we do not pretend it was nothing.' The second turn's own "
+        "account of WHY Augustine's own final position changed is checked directly against the "
+        "vendored primary text this record's own sources[] cites "
         "(cic/texts/npnf101_augustine-confessions-letters.xml, Letter XCIII SS17, around line "
-        "38245): he 'yielded to the evidence afforded by these instances which my colleagues have "
-        "laid before me', first his own town, 'brought over to the Catholic unity by fear of the "
-        "imperial edicts', and 'so many others which were mentioned to me by name' -- an argument "
-        "from observed EFFECTIVENESS, never from ongoing violence that argument alone had failed "
-        "to end. The representative neither defends that final position as self-evidently right "
-        "nor disowns it. relations[] carries one term edge (lpc.term.compel-them-to-come-in) "
-        "rather than a gravity edge, since no classified gravity exists for this content to "
-        "illustrate."
+        "38247): his own stated reason is that whole Donatist towns crossed over to the Catholic "
+        "communion under the imperial edicts' own coercive weight and stayed converted once the fear "
+        "had done its work ('brought over to the Catholic unity by fear of the imperial edicts, but "
+        "which we now see filled with such detestation of your ruinous perversity') -- an argument "
+        "from observed EFFECTIVENESS, never from ongoing violence that argument alone had failed to "
+        "end. The representative neither defends that final position as self-evidently right nor "
+        "disowns it. relations[] carries one term edge (lpc.term.compel-them-to-come-in) rather than "
+        "a gravity edge, since no classified gravity exists for this content to illustrate."
     )
     _write("demonstration", rid, payload, body)
 
@@ -640,12 +632,11 @@ def build_demo_font_twice() -> None:
             "One question above all: what a font actually gives, when the hand that fills it comes "
             "from outside the one church. We have answered it twice, in two of our own voices, a "
             "century and a half apart -- and the two answers are opposites. One of us held that "
-            "nothing valid is given outside at all. So the person comes to the water in the "
-            "church, and is baptized for the first time. The other held that something real is "
-            "given even there, though it does the person no good until they come inside -- so we "
-            "bring them in, and let what they already carry begin to work. We do not resolve which "
-            "of our own voices was right. Both asked the question in earnest, and neither could "
-            "let it go unanswered.",
+            "nothing valid is given outside at all, so we bring the person to the water again. The "
+            "other held that something real is given even there, though it does the person no good "
+            "until they come inside -- so we bring them in, and let what they already carry begin to "
+            "work. We do not resolve which of our own voices was right. Both asked the question in "
+            "earnest, and neither could let it go unanswered.",
         ),
         turn("participant", "So which one do you actually believe?"),
         turn(

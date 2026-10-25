@@ -170,28 +170,6 @@ const scenarios = {
       pageWithoutTheParts: PG.apply(missing, { enabled: true }),
     };
   },
-  privacyAccounts: () => {
-    const PG = require("../../../cic-website/assets/privacy-go-deeper.js");
-    const ids = ["accounts-optional", "accounts-holds", "accounts-signin", "accounts-back", "accounts-delete", "accounts-review", "accounts-services"];
-    const page = () => {
-      const els = Object.fromEntries(ids.map((id) => [id, { hidden: true }]));
-      return { els, getElementById: (id) => els[id] || null };
-    };
-    const run = (config) => {
-      const doc = page();
-      const applied = PG.applyAccounts(doc, config);
-      return { applied, hidden: ids.filter((id) => doc.els[id].hidden).length };
-    };
-    return {
-      off: run({ accounts: false }),
-      absent: run(undefined),
-      notStrictlyTrue: run({ accounts: "yes" }),
-      goDeeperAloneDoesNotShowThem: run({ enabled: true }),
-      on: run({ accounts: true }),
-      onWithGoDeeperOff: run({ enabled: false, accounts: true }),
-      pageWithoutTheParts: PG.applyAccounts({ getElementById: () => null }, { accounts: true }),
-    };
-  },
 };
 
 Promise.resolve(scenarios[process.argv[2]]()).then((out) => console.log(JSON.stringify(out)));

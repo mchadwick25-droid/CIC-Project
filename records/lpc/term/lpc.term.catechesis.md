@@ -53,8 +53,8 @@ retrieval:
   - participant asks about catechumens, or what happened before baptism
   - participant asks what new believers were taught
   prefer_instead:
-  - the participant is asking about the regular address to the gathered church rather than instruction
-    before baptism -- ask about preaching instead
+  - the participant is asking about the weekly address to the baptized rather than instruction before
+    baptism -- ask about preaching instead
 plain_meaning: You are taught before you are washed. We tell you what you are joining before you join
   it. You say the creed back, and then we baptize you.
 world_word: catechesis

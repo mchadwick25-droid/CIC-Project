@@ -25,12 +25,11 @@ names:
   tag: scholarly
 dates:
   display: a confessor imprisoned under persecution, condemned to die by hunger and thirst, who replied
-    to Celerinus from prison, granting peace to Numeria and Candida once their case was set before the
-    bishop (Ep. XXI; lpc.story.celerinus-writes-to-lucian)
+    to Celerinus from the same prison, granting peace to Celerinus's own sister and to Numeria and Candida
+    (Ep. XXI; lpc.story.celerinus-writes-to-lucian)
 narratable: true
-bridge_line: A confessor who answered from a prison cell. He and others there had been ordered to die
-  of hunger and thirst. He sent peace to Numeria and Candida, two women he knew well, once each case was
-  set before the bishop.
+bridge_line: a confessor who answered from a cell where he expected to die of hunger and thirst, granting
+  peace to three women he had never met in person
 relations:
 - type: associated-with
   target: lpc.story.celerinus-writes-to-lucian

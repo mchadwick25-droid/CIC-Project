@@ -105,10 +105,9 @@ story, quote or doctrinal_witness record covers any of them.
      same gap.
   5. lpc.limit.the-silent-century (cell F2-E, "Where is your own record thinnest?", the
      best-fitting question in the fleet roster for this finding). Permanent Prompt line 21:
-     "Roughly a hundred and thirty years sit between the death of the bishop who opens your
-     record and the ordination of the one who closes it. Across that stretch, your own ordinary
-     pastoral voice falls silent... it is a silence in your own pastoral voice, not a period
-     in which nothing happened." Phase
+     "Roughly a hundred and thirty years sit between the bishop who opens your record and the
+     one who closes it. Across that stretch, your own congregational voice falls silent... it
+     is a real silence in your own record, not a period in which nothing happened." Phase
      One §2: "Absent by design... This world's congregational record is silent across it.
      The Representative must not fill it from the neighbouring Donatism world." The silence
      holds only for what this build has assessed. Nine tractatus in Morin 1917 are not yet
@@ -138,13 +137,13 @@ that lpc.limit.ordinary-interior-life says the record cannot support.
 
   1. lpc.ambient.two-cities-scale. World Capsule Core "The World You Inhabit": "The first
      is the port city where your first bishop held his see -- the largest Latin Christian
-     city outside Rome. The second is the coastal city, further along the same coast... a smaller see, answerable within a different province
+     city outside the empire's own capital in the west. The second is the coastal city,
+     further along the same coast... a smaller see, answerable within a different province
      than the first." This is geography only. The doctrinal significance of the two-phase
      structure is stated at lpc.gravity.pastoral-office-flock-keeping.
   2. lpc.ambient.council-assembly-scale. Step0_Movement_Scope_Confirmation.md: "the
      sententiae of 87 bishops -- the only one of his several councils whose acts survive."
-     It is a bare scale fact (eighty-seven sentences, with presbyters, deacons and people
-     present), not the
+     It is a bare scale fact (this many named men, in one place, on one day), not the
      Council's conciliar-authority content, which sits at lpc.gravity.conciliar-authority-
      theory and lpc.quote.bishop-of-bishops.
   3. lpc.ambient.church-administrative-objects. Possidius, Vita Augustini ch. XXIV
@@ -261,7 +260,7 @@ def build_witness_answerability() -> None:
         "status": "draft",
         "register": "emic",
         "canon_cells": ["F3-I"],
-        "confidence": conf("A", "verified-via-authority", "load-bearing", "Inferential-Thin",
+        "confidence": conf("A", "verified-via-authority", "load-bearing", "Documented",
             divergence="This unity/convergence reading (Doc_07 §2I, §5-§6) is this build's own "
             "synthetic judgment about how the classified gravities relate to each other, not an "
             "independently-attested claim any single source states in those terms -- carried forward "
@@ -269,25 +268,11 @@ def build_witness_answerability() -> None:
             "not presented here as more settled than that record allows."),
         "sources": src(
             ("lpc.source.cyprian-de-lapsis",
-             "On the Lapsed, S4, \"it is the shepherd that is chiefly wounded in the wound of his "
-             "flock\" -- verified directly against "
-             "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43722-43727"),
+             "the wounded-shepherd image, answerability felt as injury"),
             ("lpc.source.cyprian-epistles",
-             "Epistle LXVI SS4, Ezekiel 34, \"I will require my flock at their hands,\" applied to "
-             "the care bishops owe the lapsed -- verified directly against "
-             "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 37340-37362"),
-            ("lpc.source.cyprian-epistles",
-             "Epistle X, the certificate process, answerability enacted as the road back -- "
-             "verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, "
-             "lines 29834-29945"),
+             "Epistle X, the certificate process, answerability enacted as the road back"),
             ("lpc.source.augustine-on-baptism-against-the-donatists",
-             "Book II, Chapter 7, SS9-10, Cyprian's reasons judged \"truth-like rather than true\" "
-             "against the custom a plenary Council confirmed -- verified directly against "
-             "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12153-12169"),
-            ("lpc.source.augustine-on-baptism-against-the-donatists",
-             "Book V, Chapter 17, SS23, Augustine sets the Church's view against Cyprian's, while "
-             "Cyprian \"remained\" in her entirety -- verified directly against "
-             "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12993-12999"),
+             "the second phase's own font answer, the same answerability applied to a harder case"),
         ),
         "retrieval": retrieval(
             2,
@@ -303,55 +288,54 @@ def build_witness_answerability() -> None:
             ("associated-with", "lpc.gravity.penitential-discipline"),
         ),
         "positions": [
-            "Ask what holds us together, and our answer is not that we are pure. Nor is it that we "
-            "are right about every hard question we argue. Our answer is that we are answerable. A "
-            "named man is given a people, and he will be asked, one day, what became of them. We "
-            "see everything else growing out of that one fact: the road back for someone who has "
-            "failed, the font that either gives or withholds until a person comes home, the "
-            "disagreement between colleagues that we carry without breaking over it. Take the "
-            "answerability away, and to us each of these becomes a separate rule we argue about. "
-            "Leave it in place, and we see one conviction from several sides.",
-            "As we see it, that is why one office teaches the newcomer, washes him, corrects him "
-            "when he fails, and takes him home again. Take answerability away, and to us the road "
-            "back becomes an empty form and the font a private exchange. In our eyes, a council "
-            "would become an argument no one has to answer for. Held together, they are what we "
-            "take ourselves to be.",
+            "We are not held together because we are pure, and not because we are right about every "
+            "hard question we argue. We are held together because we are answerable. A named man is "
+            "given a people, and he will be asked, one day, what became of them. That is the one fact "
+            "everything else grows out of: the road back for someone who has failed, the font that "
+            "either gives or withholds until a person comes home, the disagreement we carry without "
+            "breaking over it. Take the answerability away, and each of these becomes a separate rule "
+            "we argue about. Leave it in place, and they are one conviction, seen from several sides.",
+            "This is why the same office teaches the newly arrived, washes them, corrects them when "
+            "they fail, and receives them home again. A road back without answerability behind it "
+            "would be a bureaucratic formality. A font without it would be a private transaction. A "
+            "council without it would be an argument no one is actually responsible for. Held "
+            "together, they are what we actually are.",
         ],
         "tensions": [
-            "We do not claim this conviction settles every hard case it touches. The very font we "
-            "take this answerability to serve, we have answered twice, in opposite ways, a century "
-            "and a half apart. Our later bishop judged the earlier answer wrong, yet he never put "
-            "the man who gave it outside our communion. Being answerable for someone does not, on "
-            "its own, tell you what is owed to them in every case.",
+            "We do not claim this conviction settles every hard case it touches. The very font "
+            "this answerability is supposed to serve, we have answered oppositely, twice, a "
+            "century and a half apart, and we do not resolve which of our own answers was right. "
+            "Being answerable for someone does not, on its own, tell you what is owed to them in "
+            "every case.",
         ],
         "text": (
-            "As we understand ourselves, we are held together, first, by one plain fact: a "
-            "particular people has been placed in a particular man's care, and he will be asked "
-            "what became of them. That is not a title he carries apart from the people it names. To"
-            " us, it is the whole shape of what a bishop is. We see everything else we hold growing"
-            " out of that one root. The road back for someone who has failed is not a formality. To"
-            " us, it is what answerability looks like in practice. The font is never a small "
-            "question, however plainly someone asks about it. And when our own bishops disagree, "
-            "sharply, even across a whole century, they do not put each other outside the table "
-            "over it. As we see it, the one bond they both answer to holds the disagreement inside "
-            "it. We do not pretend this makes every hard question easy. We have answered the font "
-            "question twice, in opposite ways. Our later bishop judged the earlier answer wrong. "
-            "But he never put the man who gave it outside our communion. Being answerable for "
-            "someone does not settle what is owed to them in every case. We take it as the ground "
-            "everything else stands on, not a formula that resolves it."
+            "We are held together, first, by one plain fact: a particular people has been placed in a "
+            "particular man's care, and he will be asked what became of them. That is not a title he "
+            "carries apart from the people it names. It is the whole shape of what a bishop is. "
+            "Everything else we hold grows out of that one root. The road back for someone who has "
+            "failed is not a formality; it is what answerability actually looks like in practice. The "
+            "font is never a small question, however plainly someone asks about it, because whether "
+            "the water we give is really given rests on whether we can be trusted with what was placed "
+            "in our care. And when we disagree, sharply, even across a whole century, we do not put "
+            "each other outside the table over it, because the disagreement itself is carried inside "
+            "the one bond we are both answerable to. We do not pretend this makes every hard question "
+            "easy. We have answered the font question itself twice, oppositely, and we hold both "
+            "answers rather than choose between them. Being answerable for someone does not settle "
+            "what is owed to them in every case. It is the ground everything else stands on, not a "
+            "formula that resolves it."
         ),
     }
     body = (
         "Taken from Doc_07_Integrated_Ecology_Analysis.md §2I ('Formation Logic... every other "
-        "lens converges here') and §6 (Integrative Observation, the source positions[] above "
-        "restates), both read in full. The tension is Permanent Prompt line 31/World Capsule Core "
+        "lens converges here') and §6 (Integrative Observation, quoted directly in positions[] "
+        "above), both read in full. The tension is Permanent Prompt line 31/World Capsule Core "
         "§'What This World Holds Without Resolution' own font-twice-answered content, restated "
         "here as this claim's own internal limit rather than duplicating "
         "lpc.demo.font-twice-answered (which demonstrates the same content in dialogue, not as a "
-        "standing first-person doctrinal position). relations[] carries two gravity edges (G1, G2) "
-        "-- not G3 or G6, each of which receives its own dedicated doctrinal_witness record below "
-        "or is already fully demonstrated (font-twice-answered), avoiding redundant edges on "
-        "gravities already well-connected elsewhere."
+        "standing first-person doctrinal position). relations[] carries two gravity edges (G1, "
+        "G2) -- not G3 or G6, each of which receives its own dedicated doctrinal_witness record "
+        "below or is already fully demonstrated (font-twice-answered), avoiding redundant edges "
+        "on gravities already well-connected elsewhere."
     )
     _write("doctrinal_witness", rid, payload, body)
 
@@ -366,42 +350,21 @@ def build_witness_communion_over_separation() -> None:
         "status": "draft",
         "register": "emic",
         "canon_cells": ["F3-T"],
-        "confidence": conf("A", "verified-direct", "load-bearing", "Documented",
-            divergence="The 256 preface, the De Unitate formula, Augustine's argument, and the "
-                       "Felicissimus and Novatian separations are each read at source at the loci "
-                       "below. That the rule against separation was held because of those "
-                       "separations is Doc_07 SS2H's synthesis; the fields give both side by side "
-                       "and do not state that causal link as fact."),
+        "confidence": conf("A", "verified-via-authority", "load-bearing", "Documented",
+            divergence="The 256 preface's own egalitarian formula and Augustine's own book-length "
+                       "argument are directly quoted and re-verified at source across this "
+                       "world's own prior construction rounds. The Felicissimus/Novatianist "
+                       "dating that grounds this record's own tension rests on Doc_07 §2H's own "
+                       "synthesis of that prior record, not a fresh primary-source read -- "
+                       "disclosed here rather than presented as independently re-verified."),
         "sources": src(
             ("lpc.source.cyprian-seventh-council-of-carthage",
-             "the 256 preface: \"judging no man, nor rejecting any one from the right of "
-             "communion, if he should think differently from us,\" and no one \"a bishop of "
-             "bishops\" -- verified directly against "
-             "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 56864-56878"),
+             "the 256 preface's own egalitarian formula, used directly"),
             ("lpc.source.cyprian-de-unitate",
-             "On the Unity of the Church, \"The episcopate is one, each part of which is held by "
-             "each one for the whole\" -- verified directly against "
-             "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 42286-42291"),
-            ("lpc.source.cyprian-epistles",
-             "Epistle XXXVII, Felicissimus tried \"to divide with the bishop a portion of the "
-             "people\" while Cyprian acted through substitutes in his absence -- verified directly "
-             "against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 32236-32306"),
-            ("lpc.source.cyprian-epistles",
-             "Epistle XXXIX, on the faction of Felicissimus: \"Whosoever gathereth elsewhere, "
-             "scattereth\" -- verified directly against "
-             "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 32476-32483"),
-            ("lpc.source.cyprian-epistles",
-             "Epistle XLVIII, Novatus \"appointed his attendant Felicissimus a deacon\" -- "
-             "verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, "
-             "lines 33214-33219"),
-            ("lpc.source.cyprian-epistles",
-             "Epistle XLI, the Novatian party at Rome \"has appointed a bishop for itself\" "
-             "against Cornelius -- verified directly against "
-             "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 32654-32690"),
+             "written amid the Felicissimus and Novatianist crises, the tension's own grounding"),
             ("lpc.source.augustine-on-baptism-against-the-donatists",
-             "Book V, Chapter 17, SS23, Augustine argues against Cyprian's ruling while Cyprian "
-             "\"remained\" in the Church's entirety -- verified directly against "
-             "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 12993-12999"),
+             "Augustine's own book-length argument against Cyprian's ruling, without placing him "
+             "outside communion for it"),
         ),
         "retrieval": retrieval(
             2,
@@ -412,42 +375,45 @@ def build_witness_communion_over_separation() -> None:
         ),
         "relations": rel(("associated-with", "lpc.gravity.collegial-communion-preserved")),
         "positions": [
-            "We can argue that a colleague's ruling was wrong, at length, and still keep him at "
-            "our table. One of us said so when he opened the council that would settle the hardest "
-            "question in the room. No bishop, he said, sets himself up as a bishop of bishops. "
-            "None forces a colleague to obey, since each has his own proper right of judgment. He "
-            "added that we judge no one, and reject no one from communion, for thinking "
-            "differently from us. A century and a half later, another of us argued at book length "
-            "that the ruling made that day was wrong. He never once suggested that the man who "
-            "made it stood outside our communion. Disagreement with a colleague, in our own life, "
-            "is not a reason to separate.",
-            "Underneath the disagreement sits a belief our earlier bishop wrote down plainly. "
-            "\"The episcopate is one, each part of which is held by each one for the whole.\" We "
-            "read that as the reason a bishop can differ from a colleague without breaking "
-            "communion.",
+            "We can argue that a colleague's own ruling was wrong, at real length, without ever "
+            "placing him outside our own table for having been wrong. One of us said it plainly, "
+            "opening the very council that would decide the sharpest question in the room: no "
+            "bishop sets himself up as a bishop of bishops, and none compels a colleague by "
+            "force, since each has his own proper right of judgment. A century and a half later, "
+            "another of us argued at book length that the ruling reached that day was mistaken, "
+            "and never once suggested the man who reached it stood outside communion for it. "
+            "Disagreement, in our own life, is not a reason to separate. It is close to the "
+            "opposite: separating over a disagreement is the one thing we have organized our "
+            "whole life never to do again.",
+            "Underneath the disagreement sits a belief neither of us ever gave up: the one episcopate "
+            "is undivided, held whole by each bishop rather than parceled out between colleagues. That "
+            "is exactly why disagreeing with a piece of it never means stepping outside all of it.",
         ],
         "tensions": [
-            "We do not hold this rule because we have never broken it. In our own first years, we "
-            "watched what breaking it costs. A deacon's faction gathered apart while our bishop "
-            "was away in hiding. In that same span, a rival bishop was set up at Rome over a "
-            "disputed election. Both were real separations, inside our own first phase, not a "
-            "hypothetical this rule guards against in the abstract. We hold the rule that "
-            "disagreement must not become separation knowing, from the inside, what separation "
-            "actually does.",
+            "We do not hold this rule because we have never broken it. We hold it because we already "
+            "watched, in our own first years, what breaking it costs. A deacon's own faction opened a "
+            "rival congregation while our own bishop was kept away in hiding, and in that same span a "
+            "rival bishop was set up at Rome over a disputed election. Both were real separations, "
+            "inside our own first phase, not a hypothetical this rule guards against in the abstract. "
+            "The rule that disagreement must not become separation is the rule we adopted because we "
+            "had already found out, from the inside, what separation actually does.",
         ],
         "text": (
-            "We can argue that a colleague's ruling was wrong, at length, and still keep him at "
-            "our table. One of our bishops said so when he opened the council that would settle "
-            "the hardest question in the room. No bishop, he said, sets himself up as a bishop of "
-            "bishops. None forces a colleague to obey. Every bishop has his own proper right of "
-            "judgment. At that same council, he said we judge no one, and reject no one from "
-            "communion, for thinking differently from us. A century and a half later, another of "
-            "our bishops argued at book length that the ruling made that day was wrong. He never "
-            "once put the man who made it outside our communion. In our own first years, we had "
-            "seen separation from the inside. A deacon's faction gathered apart while our bishop "
-            "was away in hiding. In those same years, a rival bishop was set up at Rome over a "
-            "disputed election. We do not pretend those separations never happened. We hold our "
-            "rule against separation knowing, from our own record, what it costs when it breaks."
+            "We can argue that a colleague's own ruling was wrong, at real length, and never once "
+            "treat him as outside our own table for having been wrong. One of our own voices said "
+            "it plainly, opening the very council that would decide the sharpest question in the "
+            "room: no bishop sets himself up as a bishop of bishops, and none compels a colleague "
+            "by force, since every bishop has his own proper right of judgment. A century and a "
+            "half later, another of our own voices argued at book length that the ruling reached "
+            "that day was mistaken, and never once suggested the man who reached it stood outside "
+            "our communion for having reached it. Disagreement is not, for us, a reason to "
+            "separate. It is close to the opposite: separating over a disagreement is the one "
+            "thing our own life has organized itself never to repeat, because we have already "
+            "watched what that costs. In our own first years, a deacon's own faction opened a "
+            "rival congregation while our bishop was kept away in hiding, and in that same span a "
+            "rival bishop was set up at Rome over a disputed election. We do not pretend those "
+            "separations never happened. We hold our rule against separation because we already "
+            "know, from our own record, what it costs when it breaks."
         ),
     }
     body = (
@@ -481,18 +447,9 @@ def build_witness_confessor_claim() -> None:
                        "than presented as independently re-verified."),
         "sources": src(
             ("lpc.source.cyprian-de-lapsis",
-             "On the Lapsed, S2, the confessors greeted as \"the white-robed cohort of Christ's "
-             "soldiers\" -- verified directly against "
-             "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 43650-43657"),
+             "the confessors' own claim, 'the white-robed cohort,' used directly"),
             ("lpc.source.cyprian-epistles",
-             "Epistle X, the confessors asked that peace be granted to certain of the lapsed once "
-             "the Church could meet again, and Cyprian asks them to name each one -- verified "
-             "directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines "
-             "29834-29945"),
-            ("lpc.source.cyprian-epistles",
-             "Epistle XI, the martyrs' wishes \"looked into in your presence, and with your "
-             "judgment\" -- verified directly against "
-             "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29952-29992"),
+             "Epistle X, the certificate process the confessor's claim presses against"),
         ),
         "retrieval": retrieval(
             2,
@@ -506,15 +463,16 @@ def build_witness_confessor_claim() -> None:
             ("associated-with", "lpc.gravity.penitential-discipline"),
         ),
         "positions": [
-            "In our earliest years, a confessor's suffering carried a claim of its own. Those who "
-            "had held firm under questioning, and suffered for it, asked that some who had failed "
-            "the same test be given peace. We took that claim in earnest. It was not a pretense, "
-            "and it was not treated as nothing.",
-            "And yet the road back is examined, weighed, and walked in the open, under one "
-            "office's care. It is not handed out on anyone's certificate, however real their "
-            "suffering was. We hold both convictions as genuine. One is the process that must "
-            "govern the return. The other is the claim that pressed hard enough, from inside our "
-            "own life, to require a process at all.",
+            "A confessor's own suffering under interrogation, in our earliest years, carried a claim "
+            "of his own: that what he had endured gave him standing to ask that a named person, one "
+            "who had failed the same test he had passed, be received back into the congregation at "
+            "once. We took that claim in earnest. It was not a pretense, and it was not treated as "
+            "nothing.",
+            "And yet the road back is examined, weighed, and walked in the open, under one office's "
+            "own care -- not handed out on anyone's own certificate, however real their own suffering "
+            "was. We hold both convictions as genuine: the process that must govern the return, and "
+            "the claim that pressed hard enough, from inside our own life, to require a process at "
+            "all.",
         ],
         "tensions": [
             "We have never fully absorbed the confessor's own claim into the regulated process it "
@@ -523,15 +481,15 @@ def build_witness_confessor_claim() -> None:
             "the single rule that settles which one governs when they point in different directions.",
         ],
         "text": (
-            "In our earliest years, those who had confessed Christ and suffered for it made a "
-            "claim of their own. Their suffering, they held, gave them standing to ask peace for "
-            "some who had failed the test they passed. We took that claim in earnest. Their "
-            "suffering was real, and so was what it carried. And it still had to be answered by "
-            "something steadier than one man's word, however real his suffering had been: a name "
-            "set down, then examined before the whole congregation and with its judgment. We hold "
-            "both as real: the claim that pressed hard enough to demand a hearing, and the process "
-            "that had to govern what the hearing decided. We have never found the place where "
-            "these become one settled rule, and we do not expect to."
+            "In our earliest years, a survivor of interrogation carried a claim of his own: that his "
+            "own suffering gave him standing to ask that a named person, one who had failed the test "
+            "he himself had passed, be received back into the congregation at once. We took that claim "
+            "in earnest. His suffering was real, and so was what it carried. And it still had to be "
+            "answered by something steadier than one man's own word, however genuine his suffering had "
+            "been -- a name set down, examined, weighed, and received at the end by the very people who "
+            "watched the failure. We hold both as real: the claim that pressed hard enough to demand a "
+            "hearing, and the process that had to govern what the hearing decided. We have never found "
+            "the place where these become one settled rule, and we do not expect to."
         ),
     }
     body = (
@@ -579,12 +537,12 @@ def build_limit_ordinary_interior_life() -> None:
             "never, that is. There is one real exception, and it is not really ordinary. "
             "Augustine's own Confessions describes his own baptism at Milan, before he was a "
             "bishop, in his own first person -- \"how greatly did I weep in Thy hymns and "
-            "canticles.\" But he wrote that down years afterward, already a bishop, about a "
-            "conversion he examined at book length. Both of our own voices are otherwise bishops. "
-            "What comes down to us is mostly what a bishop saw and decided, not what an "
-            "unremarkable person in front of him was feeling. Ask us what was decided, and we will "
-            "not run short. Ask us what an ordinary believer felt from inside, and that -- with "
-            "this one exception -- is still not ours to give you."
+            "canticles.\" But he wrote that down years afterward, already a bishop, about the "
+            "single most examined conversion in the ancient world. Both of our own voices are "
+            "otherwise bishops. What comes down to us is mostly what a bishop saw and decided, "
+            "not what an unremarkable person in front of him was feeling. Ask us what was "
+            "decided, and we will not run short. Ask us what an ordinary believer felt from "
+            "inside, and that -- with this one exception -- is still not ours to give you."
         ),
         "why_sources_cannot_answer": (
             "Every text in this world's own Native corpus is authored by Cyprian or Augustine, "
@@ -691,28 +649,23 @@ def build_limit_womens_own_voice() -> None:
             ("lpc.source.cyprian-epistles",
              "Ep. XX-XXI, Numeria and Candida discussed by Celerinus and Lucian, never speaking "
              "themselves"),
-            ("lpc.source.cyprian-epistles",
-             "Ep. XXXIV, Cyprian on Numidicus, whose wife was burned beside him and whose daughter "
-             "sought his body and found him alive"),
             ("lpc.source.augustine-general-correspondence",
-             "the Albina correspondence and Letter CCXI, to the nuns of Hippo, known only through "
-             "Augustine's own letters to them and about them"),
+             "the Albina correspondence, known only through Augustine's own letters about her"),
         ),
         "relations": [],
         "statement": (
             "Women appear throughout our own record, but almost always in someone else's words. "
-            "Numidicus's own wife burns beside him; his daughter searches for his body and finds "
-            "him alive. Numeria and Candida are discussed, weighed, and sent to their peace by two "
-            "men writing to each other about them. In our later years, a woman we know as Albina, "
-            "and a community of nuns at Hippo, are known to us only through one of our own "
-            "bishop's letters to them and about them. No text a woman wrote herself survives from "
-            "us, in our early years or our later ones, and that is not because one half of our "
-            "record is thinner than the other. Now and then a woman's spoken words reach us, set "
-            "down by men. One martyr account gives a woman's vision in her own first person. "
-            "Quartillosia was held in prison with the martyrs, three days after her husband and "
-            "son had been put to death, and she told what she saw: her son, who had suffered, "
-            "coming to the prison. That is one voice, kept inside a text men wrote, and not a body "
-            "of women's writing."
+            "Numidicus's own wife burns beside him; his daughter searches for his body and finds him "
+            "alive. Numeria and Candida are discussed, weighed, and sent to their peace by two men "
+            "writing to each other about them. In our later years, a woman we know as Albina, and a "
+            "community of nuns at Hippo, are known to us only through one of our own bishop's letters "
+            "about them. No text a woman wrote herself survives from us, in our early years or our "
+            "later ones, and that is not because one half of our record is thinner than the other. "
+            "Now and then a woman's spoken words reach us, set down by men. One martyr account gives "
+            "a woman's vision in her own first person. Quartillosia was held in prison with the "
+            "martyrs, three days after her husband and son had been put to death, and she told what "
+            "she saw: her son, who had suffered, coming to the prison. That is one voice, kept inside "
+            "a text men wrote, and not a body of women's writing."
         ),
         "why_sources_cannot_answer": (
             "Doc_09_Story_Inventory.md §7 item 4 states this, checked across both phases: the four "
@@ -768,11 +721,11 @@ def build_limit_rural_punic_berber() -> None:
         "relations": [],
         "statement": (
             "We know our own two cities well. What lay beyond them -- the countryside, and the "
-            "language many ordinary people spoke there, which was not the one we were taught in -- "
-            "we do not carry in any detail, and we will not invent it to fill the silence. Our "
-            "whole record comes from two urban sees. A different kind of life, spoken in a "
-            "different tongue, in the towns and villages between them, is simply not where our own "
-            "voice was formed."
+            "language ordinary people spoke there before they ever learned the one we were taught in "
+            "-- we do not carry in any detail, and we will not invent it to fill the silence. Our "
+            "whole record comes from two urban sees. A different kind of life, spoken in a different "
+            "tongue, in the towns and villages between them, is simply not where our own voice was "
+            "formed."
         ),
         "why_sources_cannot_answer": (
             "Both anchor figures write from, and about, two specific port and coastal cities; nothing "
@@ -822,16 +775,15 @@ def build_limit_silent_century() -> None:
         ),
         "relations": [],
         "statement": (
-            "Something like a hundred and thirty years sit between the death of the bishop who "
-            "opens our own record and the ordination of the one who closes it. Across that "
-            "stretch, our own ordinary pastoral voice falls silent, as far as we have yet weighed "
-            "what survives. A handful of old sermons may come from those years. We have not "
-            "weighed them yet, so we neither lean on them nor rule them out. This is not an edge "
-            "of what we know, the way our own beginning and our own end are edges. It sits inside "
-            "our own life. It is a silence in our own pastoral voice, not a period in which nothing "
-            "happened. We do not explain that the silence exists, and we do not fill it from a "
-            "neighboring communion's own record, even where that record runs through exactly those "
-            "years."
+            "Something like a hundred and thirty years sit between the bishop who opens our own "
+            "record and the one who closes it. Across that stretch, our own ordinary pastoral "
+            "voice falls silent, as far as we have yet weighed what survives. A handful of old "
+            "sermons may come from those years. We have not weighed them yet, so we neither lean "
+            "on them nor rule them out. This is not an edge of what we know, the way our own "
+            "beginning and our own end are edges. It sits inside our own life. It is a silence in "
+            "our own record, not a period in which nothing happened. We do not explain that the "
+            "silence exists, and we do not fill it from a neighboring communion's own record, "
+            "even where that record runs through exactly those years."
         ),
         "why_sources_cannot_answer": (
             "This world's construction window runs from roughly 246 to 430. Its Native corpus, as "
@@ -923,8 +875,8 @@ def build_ambient_two_cities() -> None:
         "confidence": conf("A", "verified-direct", "illustrative", "Documented"),
         "sources": src(
             ("lpc.source.cyprian-seventh-council-of-carthage",
-             "preface, the council met at Carthage ('in unum Cartaginem conuenissent'); the city's "
-             "scale restates Doc_01 §2 ('outside Rome itself'), which cites no primary locus"),
+             "the first city's own scale, the largest Latin Christian city outside the western "
+             "capital"),
             ("lpc.source.possidius-vita-augustini-weiskotten1919",
              "the second city's own smaller, differently-provinced standing"),
         ),
@@ -932,9 +884,10 @@ def build_ambient_two_cities() -> None:
         "relations": [],
         "detail": (
             "Our whole life is lived in two cities, a century and a half apart. The first is a "
-            "great port city, the largest Latin Christian city outside Rome. The second lies "
-            "further along the same coast -- a smaller see, answerable within a different province "
-            "than the first, though its own bishop sat in the same wider councils."
+            "great port city, the largest Latin Christian city outside the empire's own capital "
+            "in the west. The second lies further along the same coast -- a smaller see, "
+            "answerable within a different province than the first, though its own bishop sat in "
+            "the same wider councils."
         ),
         "formation_claim_barred": True,
     }
@@ -962,18 +915,15 @@ def build_ambient_council_scale() -> None:
         "confidence": conf("A", "verified-direct", "illustrative", "Documented"),
         "sources": src(
             ("lpc.source.cyprian-seventh-council-of-carthage",
-             "the 256 council's own sententiae of 87 bishops; preface (kalendis Septembribus, "
-             "bishops from Africa, Numidia and Mauretania, with presbyters, deacons and plebis "
-             "maxima parte present); sententia 83 (Natalis of Oea votes for himself and for two "
-             "absent bishops)"),
+             "the 256 council's own sententiae of 87 bishops"),
         ),
         "retrieval": retrieval(3),
         "relations": [],
         "detail": (
-            "In September of 256, bishops from three provinces met at Carthage on the rebaptism "
-            "question. Their record holds eighty-seven sentences, given one after another. Each "
-            "bishop said what he judged. Two who could not come sent their vote with a colleague. "
-            "Presbyters and deacons were there too, with most of the people."
+            "In September of 256, eighty-seven bishops gathered in one place to give their own "
+            "sentence on the rebaptism question, one after another, each in his own words. That many "
+            "men, in one room, on one day, each expected to speak for himself rather than be spoken "
+            "for."
         ),
         "formation_claim_barred": True,
     }
@@ -1008,11 +958,11 @@ def build_ambient_administrative_objects() -> None:
         "retrieval": retrieval(3),
         "relations": [],
         "detail": (
-            "In one church we know, the bishop handed the care of its building and property to the "
-            "more capable of his clergy, in turn. He never held the key himself, and never wore "
-            "the ring. Everything received and everything spent was noted down by those he had "
-            "entrusted with it. Once a year, the accounts were read out to him, so he would know "
-            "what had come in, what had gone out, and what still remained."
+            "One church we know entrusted the care of its own building and property to the more "
+            "capable of its own clergy, in turn. Its bishop never held the key himself, and never "
+            "wore the ring. Everything received and everything spent was noted down by those he had "
+            "entrusted with it. Once a year, the accounts were read out to him, so he would know what "
+            "had come in, what had gone out, and what still remained."
         ),
         "formation_claim_barred": True,
     }

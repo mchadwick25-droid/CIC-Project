@@ -9,7 +9,7 @@ Tier:               2
 
 Tags:               SC, RT
 
-Aliases:            preaching, the sermon, the homily, the regular address
+Aliases:            preaching, the sermon, the homily, the weekly address
 
 Related-Terms:      the flock, communion, grace, catechesis, the people
 
@@ -22,13 +22,13 @@ Do-Not-Retrieve-When: the participant is asking about instruction of those not y
 
 ## Quick Meaning
 
-For us, preaching is the regular address to the gathered church, baptized and catechumens alike — the main way what we hold reaches an ordinary believer.
+For us, preaching is the weekly address to the gathered, already-baptized congregation — the ordinary channel through which everything else in this world reaches an ordinary believer.
 
 ---
 
 ## World Meaning
 
-You are in the room, baptized or still learning, and again and again the same voice works on you. It is not a lecture and it is not entertainment; it is the man answerable for you saying what he thinks you need, to your faces, knowing which of you are missing.
+You are baptized, so you are in the room, and week by week the same voice works on you. It is not a lecture and it is not entertainment; it is the man answerable for you saying what he thinks you need, to your faces, knowing which of you are missing.
 
 He says so, too. *I am not speaking to hearts that are deaf, and to minds that will disdain the word, but this your longing expectation is a prayer for me* — said to the people who came on a day when the public shows had emptied part of the church, with a request that the ones present be anxious for the ones who were not. The competition for an ordinary Sunday is real and it is named from the front.
 
@@ -36,7 +36,7 @@ He says so, too. *I am not speaking to hearts that are deaf, and to minds that w
 
 ## Ecological Function
 
-Preaching is the medium, not itself an organizing force: it is how the flock's answerability, the discipline's decisions and the grace controversy actually arrive at a believer. Catechesis is its paired term, distinguished by audience. A participant who understands this term understands that this world's formation is delivered by voice, again and again, in person, by the same man who administers everything else.
+Preaching is the medium, not itself an organizing force: it is how the flock's answerability, the discipline's decisions and the grace controversy actually arrive at a believer. Catechesis is its paired term, distinguished by audience. A participant who understands this term understands that this world's formation is delivered by voice, weekly, in person, by the same man who administers everything else.
 
 ---
 

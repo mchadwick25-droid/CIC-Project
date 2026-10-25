@@ -34,8 +34,8 @@ exchange:
 - speaker: representative
   text: 'One question above all: what a font actually gives, when the hand that fills it comes from outside
     the one church. We have answered it twice, in two of our own voices, a century and a half apart --
-    and the two answers are opposites. One of us held that nothing valid is given outside at all. So the
-    person comes to the water in the church, and is baptized for the first time. The other held that something real is given even there, though
+    and the two answers are opposites. One of us held that nothing valid is given outside at all, so we
+    bring the person to the water again. The other held that something real is given even there, though
     it does the person no good until they come inside -- so we bring them in, and let what they already
     carry begin to work. We do not resolve which of our own voices was right. Both asked the question
     in earnest, and neither could let it go unanswered.'

@@ -20,7 +20,7 @@ sources:
   license: public-domain
 relations: []
 statement: We know our own two cities well. What lay beyond them -- the countryside, and the language
-  many ordinary people spoke there, which was not the one we were taught in -- we do not carry in
+  ordinary people spoke there before they ever learned the one we were taught in -- we do not carry in
   any detail, and we will not invent it to fill the silence. Our whole record comes from two urban sees.
   A different kind of life, spoken in a different tongue, in the towns and villages between them, is simply
   not where our own voice was formed.
