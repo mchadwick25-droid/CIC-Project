@@ -747,7 +747,7 @@ def test_the_dashboard_section_is_hidden_until_the_route_answers_and_names_every
 
     page = (Path(deeper_routes.__file__).parent / "static" / "admin_dashboard.html").read_text()
     assert '<section id="deeper-section" class="hidden">' in page
-    assert 'id="mint-copy-links"' in page and "/#cic-code=" in page
+    assert 'id="saved-list"' in page and "/#cic-code=" in page
     assert "/api/admin/deeper/measures" in page
     for reason in REFUSAL_REASONS:
         assert f"refused_{reason}:" in page, reason
@@ -1051,7 +1051,7 @@ def test_the_dashboard_makes_one_tester_code_with_a_confirm_and_shows_its_last_d
     from pathlib import Path
 
     page = (Path(deeper_routes.__file__).parent / "static" / "admin_dashboard.html").read_text()
-    section = page[page.index("Make codes (no payment)"):page.index('id="mint-result"')]
+    section = page[page.index("Make codes (no payment)"):page.index('id="saved-codes"')]
     assert 'id="tester-tokens"' in section and 'id="tester-days"' in section and 'id="tester-submit"' in section
     assert 'id="t-deeper-tester"' in page and "tester_codes_minted" in page
     maker = page[page.index("async function makeTesterCode"):page.index("async function voidPayment")]
@@ -1453,9 +1453,19 @@ def test_the_dashboard_has_a_coupon_button_with_a_confirm_that_never_shows_the_a
     assert "/api/admin/deeper/coupon/cancel" in page
 
 
-def test_the_dashboard_keeps_a_new_code_on_screen_until_it_is_hidden_by_hand():
+def test_the_dashboard_keeps_the_codes_made_in_this_browser_until_they_are_deleted():
     from pathlib import Path
 
     page = (Path(deeper_routes.__file__).parent / "static" / "admin_dashboard.html").read_text()
-    assert "visibilitychange" not in page
-    assert 'id="mint-hide"' in page and "function hideCodes" in page
+    assert "visibilitychange" not in page and "hideCodes" not in page
+    assert 'id="saved-codes"' in page and 'id="saved-list"' in page
+    assert 'localStorage.setItem(SAVED_KEY' in page and 'localStorage.getItem(SAVED_KEY' in page
+    for act in ("copy", "link", "delete", "cancel"):
+        assert f'"data-act": "{act}"' in page, act
+    deleting = page[page.index("function removeSaved"):page.index("function codeLinks")]
+    assert "/api/admin/deeper/void" not in deleting  # Delete only takes it off the list
+    cancelling = page[page.index("async function cancelSaved"):page.index("function renderSaved")]
+    assert "window.confirm(" in cancelling and "/api/admin/deeper/void" in cancelling
+    for maker in ("async function makeCodes", "async function makeTesterCode"):
+        body = page[page.index(maker):page.index("async function ", page.index(maker) + 20)]
+        assert "saveMade(" in body, maker
