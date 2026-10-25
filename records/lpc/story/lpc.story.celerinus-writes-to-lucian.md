@@ -43,6 +43,14 @@ relations:
   target: lpc.figure.celerinus
 - type: associated-with
   target: lpc.figure.lucian
+- type: associated-with
+  target: lpc.quote.grieve-with-me-for-my-sister
+- type: associated-with
+  target: lpc.quote.shut-up-in-two-cells
+- type: associated-with
+  target: lpc.quote.the-case-set-before-the-bishop
+- type: associated-with
+  target: lpc.quote.because-i-am-already-weary
 narrative_tier: 1
 narrative_tier_justification: 'Documented. Tier 1, Documented (Doc_09 SS3). Two letters by named men with
   exact social locations -- confessors, one of them writing from prison -- within the horizon, transmitted
@@ -53,9 +61,9 @@ narrative_tier_justification: 'Documented. Tier 1, Documented (Doc_09 SS3). Two 
 tellable_as: How one confessor asked another, not a bishop, to grant peace to women who had fallen
 text: 'Celerinus was a confessor among us -- he had been imprisoned and had not denied Christ -- and he
   wrote to Lucian, another confessor, in prison. He told Lucian of his own confession. Then he came to
-  his grief: "Know, nevertheless, that I am placed in the midst of a great tribulation." His sister had
-  sacrificed. "I ask that you will grant my desire, and that you will grieve with me at the (spiritual)
-  death of my sister, who in this time of devastation has fallen from Christ."
+  his grief: he told Lucian he was in the midst of great trouble. His sister had sacrificed. He asked
+  Lucian to grant his wish and grieve with him over her death, a death of the spirit, for in that time
+  of ruin she had fallen away from Christ.
 
 
   She was not dead. What Celerinus grieved was a death he believed had happened to her soul -- which is
@@ -65,12 +73,12 @@ text: 'Celerinus was a confessor among us -- he had been imprisoned and had not 
 
 
   Lucian''s reply came back from the prison, and it granted what was asked. Before it did, it said what
-  the prison had been like: by the emperor''s command they "were ordered to be put to death by hunger
-  and thirst, and were shut up in two cells, that so they might weaken us by hunger and thirst." Then:
-  "But now we have attained the brightness itself." He greeted Numeria and Candida, and named the martyrs
-  on whose authority he answered. He asked that the two women have peace, "the case being set forth before
-  the bishop, and confession being made." He signed off exhausted, greeting others "whose names I have
-  not written, because I am already weary. Therefore they must pardon me."'
+  the prison had been like: by the emperor''s command they had been sentenced to die of hunger and thirst,
+  and shut up in two cells to weaken them that way. Then he wrote that now they had reached the brightness
+  itself. He greeted Numeria and Candida, and named the martyrs on whose authority he answered. He asked
+  that the two women have peace, once each case had been set before the bishop and the sin openly confessed.
+  He signed off exhausted, greeting others whose names he had not written because he was already too tired,
+  and asking them to forgive him.'
 absent_detail: 'Celerinus''s own sister has no story, and she is the person this one is about. She is
   unnamed -- her own brother does not name her. Numeria and Candida are not ''named lapsed women'' either:
   Celerinus says the opposite of Candida, that she gave gifts for herself "that she might not sacrifice"

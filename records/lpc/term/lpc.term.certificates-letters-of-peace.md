@@ -20,6 +20,8 @@ relations:
   target: lpc.term.the-flock
 - type: associated-with
   target: lpc.term.the-lapsed
+- type: associated-with
+  target: lpc.quote.such-a-one-with-his-friends
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -53,8 +55,8 @@ retrieval:
   - both entries answer to the bare word 'certificate,' and whichever is retrieved should surface the
     other's existence rather than answer as if its own referent were the only one
 plain_meaning: A certificate is a letter from a confessor, given to a lapsed person. It asks for peace,
-  or says peace is granted. Cyprian wanted each one to name the person. Some named one person 'with his
-  friends.'
+  or says peace is granted. Cyprian wanted each one to name the person. Some named one person and then
+  let in his own people too, without naming them.
 world_word: certificate
 distortion_risk: high
 false_friend:

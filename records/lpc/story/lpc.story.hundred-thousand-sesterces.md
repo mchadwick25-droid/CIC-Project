@@ -37,6 +37,12 @@ relations:
   target: lpc.figure.cyprian
 - type: associated-with
   target: lpc.witness.almsgiving-quenches-sin
+- type: associated-with
+  target: lpc.quote.grief-and-not-without-tears
+- type: associated-with
+  target: lpc.quote.christ-redeemed-in-our-captive-brethren
+- type: associated-with
+  target: lpc.quote.a-hundred-thousand-sesterces
 narrative_tier: 1
 narrative_tier_justification: 'Documented. First-person testimony from Cyprian''s own letter, naming its
   eight recipients, stating an amount and a mechanism -- named author, exact social location, datable
@@ -47,21 +53,19 @@ narrative_tier_justification: 'Documented. First-person testimony from Cyprian''
 tellable_as: How we sent a hundred thousand sesterces to ransom our captive brethren
 text: 'Word reached us that our brethren and sisters had been carried off, captive among barbarians. Cyprian''s
   reply to the eight bishops who told us -- Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus,
-  Nampulus and Honoratus, whom he names one by one -- opens without composure: "With excessive grief of
-  mind, and not without tears."
+  Nampulus and Honoratus, whom he names one by one -- opens without composure: he read their letter, he
+  says, in great grief and not without tears.
 
 
-  The argument he made was not about charity. It was about identity. Quoting Paul, that "as many of you
-  as have been baptized into Christ have put on Christ," he drew the conclusion directly: "Christ is to
-  be contemplated in our captive brethren, and He is to be redeemed from the peril of captivity who redeemed
-  us from the peril of death."
+  The argument he made was not about charity. It was about identity. Quoting Paul, that all who have been
+  baptized into Christ have put on Christ, he drew the conclusion directly: Christ is to be seen in our
+  captive brethren, and the one who redeemed us from death is now to be redeemed from captivity.
 
 
-  Then he said what the money was. "We have then sent you a sum of one hundred thousand sesterces, which
-  have been collected here in the Church over which by the Lord''s mercy we preside, by the contributions
-  of the clergy and people established with us, which you will there dispense with what diligence you
-  may." And he thanked them, for being asked -- for offering us, in his own words, "fruitful fields in
-  which we might cast the seeds of our hope."'
+  Then he said what the money was. He sent one hundred thousand sesterces, collected in our church from
+  the gifts of our clergy and people, for the bishops to hand out there as carefully as they could. And
+  he thanked them, for being asked -- for offering us, as he put it, fruitful fields in which to sow the
+  seeds of our hope.'
 absent_detail: We do not know whether the ransom worked. Cyprian never wrote again about the outcome,
   and the eight bishops' own reply, if there was one, does not survive. The story ends with the money
   leaving Carthage.

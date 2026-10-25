@@ -52,15 +52,15 @@ relations:
   target: lpc.quote.apart-in-heart-united-in-body
 - type: associated-with
   target: lpc.quote.going-out-without-violating-unity
+- type: associated-with
+  target: lpc.quote.bishop-of-bishops
 name: Collegial Communion Preserved Despite Disagreement
 description: 'Few things mattered more to this world than staying in communion despite real disagreement.
   Bishops here disagree, sometimes sharply. But they work to keep communion rather than break it and build
   a rival hierarchy.
 
 
-  The pattern recurs across both phases. Cyprian''s preface to the Council of 256 states it directly:
-  "neither does any of us set himself up as a bishop of bishops... every bishop... has his own proper
-  right of judgment." Augustine''s On Baptism argues at length against Cyprian''s own ruling on rebaptism.
+  The pattern recurs across both phases. Cyprian''s preface to the Council of 256 states it directly: no bishop sets himself up as a bishop of bishops, and each bishop has his own right of judgment. Augustine''s On Baptism argues at length against Cyprian''s own ruling on rebaptism.
   Yet it never treats him as outside communion. Letter 185 takes the same tone with the Donatist split:
   a pastor''s tone, meant to correct.
 

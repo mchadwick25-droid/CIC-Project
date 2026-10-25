@@ -35,6 +35,10 @@ relations:
   target: lpc.force.standing-legal-condition-unlicensed-religion
 - type: associated-with
   target: lpc.force.organized-carthaginian-church
+- type: associated-with
+  target: lpc.quote.ancient-venom-against-my-episcopate
+- type: associated-with
+  target: lpc.quote.chosen-while-still-a-neophyte
 name: Congregational Acclamation Overriding a Reluctant Convert's Preference
 kind: initiating
 description: >-

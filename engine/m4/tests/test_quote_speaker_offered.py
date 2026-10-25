@@ -29,7 +29,7 @@ def _fleet_quotes():
 
 def test_every_quote_record_is_offered_with_a_speaker_name():
     quotes = _fleet_quotes()
-    assert len(quotes) == 392
+    assert len(quotes) == 421
     for record, _records, _index, offered in quotes:
         assert offered and offered != "unattributed", record["id"]
         # a name a person writes, not a record id or a note after the name

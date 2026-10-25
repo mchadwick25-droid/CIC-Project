@@ -39,6 +39,8 @@ relations:
   target: lpc.force.confessors-claim-to-grant-peace
 - type: associated-with
   target: lpc.force.valerianic-persecution
+- type: associated-with
+  target: lpc.quote.shepherd-wounded-in-the-flock
 name: The Decian Persecution and the *libelli* System (250)
 kind: initiating
 description: >-
@@ -52,8 +54,7 @@ description: >-
 
   It was felt less as an attack from outside than as a table emptied one certificate at a time. The
   demand reached each person alone. It sorted the congregation into those who had stood and those
-  who had not. Both groups still belonged, still in the room. In Cyprian's words, "[I]t is the
-  shepherd that is chiefly wounded in the wound of his flock."
+  who had not. Both groups still belonged, still in the room. Cyprian wrote that when the flock is wounded, it is the shepherd who is wounded most.
 
 
   This force made common the group that the whole penitential system exists to deal with. In one

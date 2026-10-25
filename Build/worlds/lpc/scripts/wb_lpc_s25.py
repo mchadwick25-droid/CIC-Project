@@ -140,7 +140,9 @@ it.
   4. Edges to records of other types (doctrinal_witness, honest_limit, demonstration,
      contested_claim) come from OTHER_TYPE_EDGES_FIRST and OTHER_TYPE_EDGES_LAST. G1, G2, G3,
      G4, G6 and G7 each carry three edges to the sermon quote records that wb_lpc_s24.py emits, as the
-     inverse of the edges those quotes declare.
+     inverse of the edges those quotes declare. A gravity or force whose description paraphrases a
+     source quotation also carries an edge to that quote record, again as the inverse of the
+     edge the quote declares.
 
 G5 (CONCILIAR AUTHORITY THEORY)
 Candidate 5 is the one gravity whose classification Doc_04 does not reach on its own
@@ -329,6 +331,7 @@ OTHER_TYPE_EDGES_LAST: dict[str, list[tuple[str, str]]] = {
         ("associated-with", "lpc.quote.one-good-shepherd-not-many"),
         ("associated-with", "lpc.quote.apart-in-heart-united-in-body"),
         ("associated-with", "lpc.quote.going-out-without-violating-unity"),
+        ("associated-with", "lpc.quote.bishop-of-bishops"),
     ],
     G4: [
         ("associated-with", "lpc.quote.the-creed-first-then-the-prayer"),
@@ -345,6 +348,27 @@ OTHER_TYPE_EDGES_LAST: dict[str, list[tuple[str, str]]] = {
         ("associated-with", "lpc.quote.two-hear-one-scorns-one-rises"),
         ("associated-with", "lpc.quote.what-is-done-by-you-he-does-in-you"),
         ("associated-with", "lpc.quote.no-one-has-the-love-of-god-from-himself"),
+        ("associated-with", "lpc.quote.boast-in-nothing-since-nothing-is-our-own"),
+    ],
+    G5: [
+        ("associated-with", "lpc.quote.earlier-councils-corrected-by-later"),
+    ],
+    F1A1: [
+        ("associated-with", "lpc.quote.shepherd-wounded-in-the-flock"),
+    ],
+    F1B2: [
+        ("associated-with", "lpc.quote.ancient-venom-against-my-episcopate"),
+        ("associated-with", "lpc.quote.chosen-while-still-a-neophyte"),
+    ],
+    F2B2: [
+        ("associated-with", "lpc.quote.thousands-of-certificates-daily"),
+    ],
+    F2B4: [
+        ("associated-with", "lpc.quote.earlier-councils-corrected-by-later"),
+    ],
+    F2B5: [
+        ("associated-with", "lpc.quote.thirteen-letters-sent-to-rome"),
+        ("associated-with", "lpc.quote.the-paper-itself"),
     ],
 }
 
@@ -583,8 +607,8 @@ def build_gravities() -> None:
         "rather than break it and build a rival hierarchy.\n"
         "\n"
         "The pattern recurs across both phases. Cyprian's preface to the Council of 256 states it "
-        "directly: \"neither does any of us set himself up as a bishop of bishops... every "
-        "bishop... has his own proper right of judgment.\" Augustine's On Baptism argues at length "
+        "directly: no bishop sets himself up as a bishop of bishops, and each bishop has his own "
+        "right of judgment. Augustine's On Baptism argues at length "
         "against Cyprian's own ruling on rebaptism. Yet it never treats him as outside communion. "
         "Letter 185 takes the same tone with the Donatist split: a pastor's tone, meant to "
         "correct.\n"
@@ -711,7 +735,7 @@ def build_gravities() -> None:
         "The concern names two competing theories of conciliar authority. Cyprian's is "
         "egalitarian. In the preface to the Council of 256 he says no bishop sets himself up "
         "as \"a bishop of bishops.\" Augustine's is hierarchical. In On Baptism he appeals to "
-        "\"the authority of plenary Councils,\" and the word \"plenary\" occurs 31 times in that "
+        "the authority of plenary councils, and the word \"plenary\" occurs 31 times in that "
         "treatise.\n"
         "\n"
         "A real limit sits here too. Both theories recur beyond their main source, but only in "
@@ -864,7 +888,7 @@ def build_gravities() -> None:
         "century after him.\n"
         "\n"
         "So it does not span the whole world as a concern. Cyprian states the theme in passing. "
-        "His Testimonies say \"we must boast in nothing, since nothing is our own\" (III.4), and "
+        "His Testimonies teach that we must boast in nothing, since nothing is our own (III.4), and "
         "Augustine later quoted those words against the Pelagians. But nothing in Cyprian's phase "
         "organizes formation around it. Within Augustine's phase it is strong. It reshapes "
         "penitential discipline by raising a related but distinct question in Augustine's phase. "
@@ -984,8 +1008,7 @@ def build_forces() -> None:
         "It was felt less as an attack from outside than as a table emptied one certificate at "
         "a time. The demand reached each person alone. It sorted the congregation into those "
         "who had stood and those who had not. Both groups still belonged, still in the room. "
-        'In Cyprian\'s words, "[I]t is the shepherd that is chiefly wounded in the wound of his '
-        'flock."\n'
+        "Cyprian wrote that when the flock is wounded, it is the shepherd who is wounded most.\n"
         "\n"
         "This force made common the group that the whole penitential system exists to deal "
         "with. In one year, many lapsed and many confessors stood in one congregation. The "
@@ -1386,8 +1409,9 @@ def build_forces() -> None:
         F2B2, "The Confessors' Claim to Grant Peace",
         "ongoing", "2B",
         "People who survived interrogation without denying their faith issued written requests "
-        "that named lapsed persons be received back. In Cyprian's own words, \"thousands of "
-        "certificates were daily given, contrary to the law of the Gospel.\" This is documented.\n"
+        "that named lapsed persons be received back. Cyprian wrote that thousands of "
+        "certificates were being given every day, against the law of the Gospel. This is "
+        "documented.\n"
         "\n"
         "Both sides spoke in earnest, and that was the difficulty. One side said: I stood before "
         "the magistrate and did not deny Him, and I say this man may come back. The other "
@@ -1473,8 +1497,8 @@ def build_forces() -> None:
         "\n"
         "From inside this world, Cyprian was a predecessor who belonged to them. They did not "
         "disown him, and yet he had decided this question wrongly. Augustine gave the principle "
-        "that let him say so: \"[E]ven of the plenary Councils, the earlier are often corrected by "
-        "those which follow them.\"\n"
+        "that let him say so: even among plenary councils, the earlier are often corrected by the "
+        "later.\n"
         "\n"
         "No other force carries as much of the world's formation logic across the 133 years "
         "between the two phases, which this build has assessed as a silence in the world's "
@@ -1530,16 +1554,16 @@ def build_forces() -> None:
         "series, and this project's own choices about which texts to hold.\n"
         "\n"
         "This world was acutely aware of transmission and acted on it. Cyprian gathered his own "
-        "letters into a dossier and sent it on: \"these thirteen letters sent forth at various "
-        "times declare to you, which I have transmitted to you.\" He knew his letters were read "
-        "beyond the person they were written to. He also met textual corruption directly. One "
-        "letter's \"writing and the matter, and even the paper itself, gave me the idea that "
-        "something had been taken away, or had been changed from the original.\" He sent it back "
+        "letters into a dossier and sent it on, telling the Roman clergy that thirteen letters, "
+        "sent out at different times, would show them what he had done. He knew his letters were read "
+        "beyond the person they were written to. He also met textual corruption directly. In one "
+        "letter, the handwriting, the content and even the paper made him suspect that something "
+        "had been cut or changed from the original. He sent it back "
         "to be checked against the original.\n"
         "\n"
         "Some 170 years on, the same awareness took a new form. Near the end of his life, "
-        "Augustine set out to review his own works \"with a certain judicial severity.\" He marked "
-        "what displeased him \"as with a censor's pen.\" It was a deliberate act of shaping what "
+        "Augustine set out to review his own works with a judge's strictness. He marked "
+        "what displeased him as a censor would. It was a deliberate act of shaping what "
         "would outlast him.\n"
         "\n"
         "What this world could not experience is what came later: the Catholic tradition's own "

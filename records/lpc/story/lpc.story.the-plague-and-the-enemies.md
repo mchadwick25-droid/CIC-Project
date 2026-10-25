@@ -42,6 +42,12 @@ relations:
   target: lpc.figure.pontius
 - type: associated-with
   target: lpc.witness.restless-heart-and-the-unrepentant-enemy
+- type: associated-with
+  target: lpc.quote.a-dreadful-plague-broke-out
+- type: associated-with
+  target: lpc.quote.it-becomes-us-to-answer-to-our-birth
+- type: associated-with
+  target: lpc.quote.good-done-to-all-not-only-the-household
 narrative_tier: 1
 narrative_tier_justification: 'Widely Accepted. Tier 1 at the narrative level, Widely Accepted rather
   than Documented (Doc_09 SS3). Pontius is a named eyewitness within the horizon, and the epidemic itself
@@ -54,28 +60,27 @@ narrative_tier_justification: 'Widely Accepted. Tier 1 at the narrative level, W
 tellable_as: How our bishop met a plague by teaching us to love even our enemies, and to help everyone,
   not only our own
 text: 'Pontius, writing as a deacon who was there, described the epidemic without any of the consolation
-  he might have reached for. "There broke out a dreadful plague," he wrote, "and excessive destruction
-  of a hateful disease invaded every house in succession of the trembling populace, carrying off day by
-  day with abrupt attack numberless people, every one from his own house."
+  he might have reached for. A dreadful plague broke out, he wrote, and went from house to house through
+  a frightened city, carrying off countless people every day, each from his own home.
 
 
-  What followed was not about the disease. It was about what the city did. "All were shuddering, fleeing,
-  shunning the contagion, impiously exposing their own friends" -- bodies left where they fell, "no longer
-  bodies, but the carcases of many."
+  What followed was not about the disease. It was about what the city did. People shuddered and fled from
+  the contagion, and wickedly put out their own people -- bodies left where they fell, so many that they
+  were no longer bodies but corpses.
 
 
   Against that, our bishop called us together and preached. He began with mercy, and then went further.
   There was nothing remarkable, he told us, in caring for our own. Anyone does that. What would distinguish
-  us was loving our enemies and praying for those persecuting us, in imitation of a God who "continually
-  makes His sun to rise, and from time to time gives showers to nourish the seed, exhibiting all these
-  kindnesses not only to His people, but to aliens also." "It becomes us," he said, "to answer to our
-  birth; and it is not fitting that those who are evidently born of God should be degenerate."
+  us was loving our enemies and praying for those persecuting us, in imitation of a God who makes His
+  sun rise and sends rain to feed the seed, and shows these kindnesses to strangers as well as to His
+  own. We ought, he said, to live up to our birth: those who are plainly born of God should not fall short
+  of it.
 
 
-  And Pontius records what followed: relief given "to all men, not to those only who are of the household
-  of faith." The poor among us, who had no money to give, gave labour instead. Pontius reaches for a comparison
-  and finds it wanting -- more was done, he writes, than is recorded of Tobias, who gathered up his own
-  dead "of his own race only."'
+  And Pontius records what followed: relief given to everyone, not only to those of the household of faith.
+  The poor among us, who had no money to give, gave labour instead. Pontius reaches for a comparison and
+  finds it wanting -- more was done, he writes, than is recorded of Tobias, who gathered up the dead of
+  his own race only.'
 absent_detail: Whether the persecutors themselves were among those helped is not something Pontius says
   one way or the other, and no source outside him describes the relief operation at all. No pagan Carthaginian
   of ours left a word about being helped by us during this epidemic.

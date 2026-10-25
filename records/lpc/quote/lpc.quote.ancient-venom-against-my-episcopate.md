@@ -34,6 +34,8 @@ relations:
   target: lpc.story.election-of-cyprian
 - type: associated-with
   target: lpc.figure.cyprian
+- type: associated-with
+  target: lpc.force.congregational-acclamation-overriding-preference
 text: Since mindful of their conspiracy, and retaining that ancient venom against my episcopate, that
   is, against your suffrage and God's judgment, they renew their old attack upon me, and once more begin
   their sacrilegious machinations with their accustomed craft.
