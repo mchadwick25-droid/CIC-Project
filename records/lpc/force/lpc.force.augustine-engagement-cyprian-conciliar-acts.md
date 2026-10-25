@@ -37,6 +37,8 @@ relations:
   target: lpc.force.donatist-schism
 - type: associated-with
   target: lpc.force.transmission-asymmetric-span-133-year-silence
+- type: associated-with
+  target: lpc.quote.earlier-councils-corrected-by-later
 name: Augustine's Engagement with Cyprian's Conciliar Acts
 kind: ongoing
 description: >-
@@ -45,8 +47,7 @@ description: >-
 
 
   From inside this world, Cyprian was a predecessor who belonged to them. They did not disown him, and yet he
-  had decided this question wrongly. Augustine gave the principle that let him say so: "[E]ven of the
-  plenary Councils, the earlier are often corrected by those which follow them."
+  had decided this question wrongly. Augustine gave the principle that let him say so: even among plenary councils, the earlier are often corrected by the later.
 
 
   No other force carries as much of the world's formation logic across the 133 years between the two

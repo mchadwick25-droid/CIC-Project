@@ -51,6 +51,24 @@ relations:
   target: lpc.figure.cyprian
 - type: associated-with
   target: lpc.figure.pontius
+- type: associated-with
+  target: lpc.quote.the-people-kept-watch-at-the-door
+- type: associated-with
+  target: lpc.quote.the-whole-people-of-the-brethren-came
+- type: associated-with
+  target: lpc.quote.walled-in-by-a-mingled-multitude
+- type: associated-with
+  target: lpc.quote.a-standard-bearer-of-the-sect
+- type: associated-with
+  target: lpc.quote.thanks-be-to-god
+- type: associated-with
+  target: lpc.quote.let-us-too-be-beheaded-with-him
+- type: associated-with
+  target: lpc.quote.he-covered-his-eyes-with-his-own-hand
+- type: associated-with
+  target: lpc.quote.the-trees-and-the-trembling-executioner
+- type: associated-with
+  target: lpc.quote.o-blessed-people-of-the-church
 narrative_tier: 1
 narrative_tier_justification: 'Widely Accepted. Tier 1 on the core that Pontius and the Acta Proconsularia
   both attest (Doc_09 SS3-4). Pontius meets Tier 1''s author test: a named deacon with an identifiable
@@ -67,30 +85,29 @@ text: 'This is how two early texts tell the death of our great bishop. One is by
 
 
   The night before the sentence, Cyprian was held in an officer''s house. Pontius says that he and the
-  other friends "were as usual in his company." The people stayed outside. Pontius writes that they, "in
-  anxiety that nothing should be done throughout the night without their knowledge, kept watch before
-  the officer''s door." The Acta tells it more briefly, and it adds one detail: "The whole people of the
-  brethren came there. When holy Cyprian learned of this, he ordered the young women to be guarded. He
-  did so because all of them had stayed in the street, before the door of the officer''s lodging."
+  other friends were with him, as usual. The people stayed outside. Pontius writes that they kept watch
+  before the officer''s door, anxious that nothing should be done in the night without their knowing.
+  The Acta tells it more briefly, and it adds one detail: when the whole people of the brethren came there,
+  Cyprian had the young women guarded, since the whole people had stayed in the street before the officer''s
+  door.
 
 
-  In the morning a great crowd went with him. Pontius says he went out "walled in on all sides by the
-  ranks of a mingled multitude." The Acta says that "a large crowd gathered at Sextus''s place, as the
-  proconsul Galerius Maximus had ordered."
+  In the morning a great crowd went with him. Pontius says he went out walled in on every side by a mixed
+  crowd. The Acta says that a large crowd gathered at Sextus''s place, as the proconsul Galerius Maximus
+  had ordered.
 
 
-  The proconsul read the sentence from a tablet. Pontius reports that it called Cyprian "a standard-bearer
-  of the sect, and an enemy of the gods, and one who was to be an example to his people; and that with
-  his blood discipline would begin to be established." The Acta gives the sentence in nearly the same
-  words. On the sentence the two texts are not independent witnesses. Only the Acta gives Cyprian''s answer:
-  Deo gratias, "Thanks be to God."
+  The proconsul read the sentence from a tablet. Pontius reports that it named Cyprian the standard-bearer
+  of the sect and an enemy of the gods, an example to his own people, and said that with his blood discipline
+  would begin to be made firm. The Acta gives the sentence in nearly the same words. On the sentence the
+  two texts are not independent witnesses. Only the Acta gives Cyprian''s answer: he gave thanks to God.
 
 
-  Then the crowd of the brethren called out. The Acta gives their words: Et nos cum ipso decollemur, "Let
-  us too be beheaded with him." It goes on: "Because of this an uproar rose among the brethren, and a
-  large crowd followed him." Pontius does not quote the cry. He says the people''s "general wish" was
-  "that the entire congregation should suffer at once in the fellowship of a like glory," and he calls
-  them blessed because they, "in outspoken words, suffered with such a bishop as theirs."
+  Then the crowd of the brethren called out. The Acta gives their words: they asked to be beheaded with
+  him. It goes on to say that an uproar rose among the brethren because of this, and a large crowd followed
+  him. Pontius does not quote the cry. He says the people all wished that the whole congregation might
+  suffer together and share a like glory, and he calls them blessed because they suffered with their bishop
+  in words spoken aloud.
 
 
   Only the Acta tells what came before the blow. Cyprian was led out into the field of Sextus. There he
@@ -100,10 +117,10 @@ text: 'This is how two early texts tell the death of our great bishop. One is by
   laid linen cloths and hand-cloths before him.
 
 
-  Both texts say he covered his own eyes, and they differ on the cloths. Pontius says that, "having with
-  his own hands bound his eyes," he tried to hurry the executioner. The Acta says: "Then the blessed Cyprian
-  covered his eyes with his own hand. When he could not tie the strips of cloth on himself, the presbyter
-  Julianus and the subdeacon Julianus tied them for him." We do not choose between the two.
+  Both texts say he covered his own eyes, and they differ on the cloths. Pontius says that he bound his
+  eyes with his own hands and tried to hurry the executioner. The Acta says he covered his eyes with his
+  own hand, and that when he could not tie the strips of cloth himself, the presbyter Julianus and the
+  subdeacon Julianus tied them for him. We do not choose between the two.
 
 
   Only the Acta tells the burial. So the blessed Cyprian suffered martyrdom. Because the pagans were curious,
@@ -112,14 +129,13 @@ text: 'This is how two early texts tell the death of our great bishop. One is by
   on the Mappalian road, beside the pools.
 
 
-  Pontius adds things the Acta does not mention, and they are his. He says the ground was "level, so that
-  it affords a noble spectacle, with its trees thickly planted on all sides." People who could not see
-  "had climbed up into the branches of the trees, that there might not even be wanting to him (what happened
-  in the case of Zacchæus), that he was gazed upon from the trees." He writes that the executioner "with
-  difficulty clasped the blade in his failing right hand with trembling fingers, until the mature hour
-  of glorification strengthened the hand of the centurion with power granted from above." The Latin of
-  that sentence can be read two ways. The Acta calls the executioner a spiculator and says nothing of
-  any strengthening. We tell that part as Pontius''s reading.'
+  Pontius adds things the Acta does not mention, and they are his. He says the ground was level, with
+  trees planted thickly all around, so that it gave a fine view. People who could not see had climbed
+  into the branches, so that even this was not lacking to him: as with Zacchaeus, he was gazed at from
+  the trees. He writes that the executioner could barely grip the blade with the trembling fingers of
+  his failing right hand, until the hour of glory came and strengthened the centurion''s hand with power
+  from above. The Latin of that sentence can be read two ways. The Acta calls the executioner a spiculator
+  and says nothing of any strengthening. We tell that part as Pontius''s reading.'
 absent_detail: 'What cannot be told is what any one person in the crowd made of it, because no spectator
   left an account of his own. What the crowd said as a body, the Acta records: Et nos cum ipso decollemur.
   Pontius himself points the reader to the Acts, at the end of his account of the banishment hearing of

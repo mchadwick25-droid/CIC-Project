@@ -1917,3 +1917,102 @@ Logged 2026-10-25.
 - **Fixed.** `P2_Pass_Review_2026-10-25.md` found one P1 and eleven P2s. The Tertullian source record no longer claims a licence: it is cited as comparandum evidence, and Registry row 29 licenses nothing. Its date now has an upper bound (anf03 lines 62, 4763). Line ranges are corrected (Tertullian XXII to 9659, *Passio* I to 5639, Monica 14147 to 14168 and 14185 to 14195). Three spoken sentences past 25 words are split. The confessor-authority gravity says "imprisoned martyrs", Tertullian's own term, which closes OG-70's second carried item. The precedent's §4 sentence keeps Doc_04's search bound and applies "one bishop writing" to the letters only, and its header no longer points to the ruling. `wb_lpc_s21.py` says plainly that the two new source records are kept by hand.
 - **Library flag.** `cic/corpus-map/latin-pastoral-congregational-christianity.yaml` line 459 and `cic/corpus-map/_staging/npnf102_augustine-city-of-god-christian-doctrine.yaml` line 17 still date *City of God* 413 to 427. The editor gives 413 to 426 (npnf102 lines 864 to 865). That is the Library's surface; filed in `NEEDS-RULING.md` for the Library thread.
 - **Owner.** The `lpc` build thread; the Library thread for the corpus-map note.
+
+### OG-72. De Pudicitia XXII: cited, no licence; OG-70's boundary item closed (2026-10-25).
+
+Logged 2026-10-25.
+
+- **Ruling.** The project lead ruled that chapter XXII stays cited as comparandum evidence with no Registry licence (`lpc_Decision_Log.md`, 2026-10-25). Registry row 29 is unchanged. The records already say so.
+- **Closes.** OG-70's carried item on Registry row 29 (the P2 pass, 2026-10-25).
+- **Owner.** The `lpc` build thread.
+
+### OG-73. Phase L2 remaining work, found on disk (2026-10-25).
+
+Logged 2026-10-25.
+
+- **Story tellings.** None of the seven `records/lpc/story/` records has a `telling` field, so the site shows each story's title and teaser only. Writing them is a records edit for a later batch.
+- **Traditions page.** `cic-website/traditions/latin-pastoral-congregational-christianity.html` does not exist. `Build/tools/generate_tradition_pages.py` fills the article section of an existing page only, and needs an `lpc` entry in `cic-website/data/world-census.json`. The first page is built by hand from another world's frame, with Datus's portrait and AI line.
+- **B-1a and B-1b search records.** `lpc` has no `search_record` records; `records lpc --freeze` reports it. `Build/worlds/don/scripts/wb_don_s25.py` and don's B-1a/B-1b coverage check are the model.
+- **Reading level of the surface records.** The world front and brief score mean FK about 6.1, below the grade-8 floor CLAUDE.md asks writing to stay above. Under independent review (`Surface_Records_Review_2026-10-25.md`).
+- **Owner.** The `lpc` build thread.
+
+### OG-74. Surface records review: Revise; two items carried (2026-10-25).
+
+Logged 2026-10-25.
+
+- **Review.** `Surface_Records_Review_2026-10-25.md` found 4 P1s and 9 P2s in the world front and facilitator brief; the author is fixing all of them, then a targeted recheck. The reviewer judged the low reading grade (mean FK about 6) not flattened: no AI tells, and the four signature images survive. It is not raised to reach grade 8. This answers OG-73's reading-level item.
+- **Carried: the "prove yourself" redirect risk is untested.** world_core caution 12 names it, and the brief keeps it as a risk around the template redirect. It has not been tested against a live Facilitator; the validation run tests it.
+- **Owner.** The `lpc` build thread.
+
+### OG-75. Decision 8B drafted; use notes missing on every voiced record (2026-10-25).
+
+Logged 2026-10-25.
+
+- **Decision 8B.** 29 quotations embedded in story, gravity, force and term prose are now quote records, each checked word for word, with an Opus rendering. Their host sentences paraphrase and relate to them. The fleet quote count is 421. The acclamation force's description, which already failed reading ease, is rewritten to the bar (FK 7.2, FRE 66). Under a separate Opus check (`Decision_8B_Quotes_Review_2026-10-25.md`).
+- **Paraphrased with no quote record.** *Acta Proconsularia* 2.1 ("a large crowd gathered at Sextus's place") and the *Retractationes* prologue ("judicial severity", "censor's pen"): every vendored witness has OCR damage inside the sentence, so no full sentence verifies.
+- **Use notes.** No `lpc` record has a `use_note` (means, not_for, years). The `use-note-present` gate lists every voiced quote, doctrinal witness, term, story, honest limit, contested claim and gravity. `don` has 98. Authoring them is a later batch.
+- **Doc_10 started.** Fable drafts it, with the voice record's `source_anchor`, the distress-comparison guard and the craft check of the three demonstrations folded in, since all of them are compiled into the Representative's prompt.
+- **Owner.** The `lpc` build thread.
+
+### OG-76. Doc_10 drafted; voice record anchored and guarded; four demonstrations (2026-10-25).
+
+Logged 2026-10-25.
+
+- **Drafted.** `lpc_Doc_10_Representative_Construction.md` (Fable 5.1, not a pilot world per the 2026-10-23 ruling): the Construction Notes on the V2.3 template, the Ecology Assessment at Section 1, the Encounter Ecology Mapping at Section 9 (about 1,100 words). Awaiting independent review, round 1. The old phases 1 to 7 are cited as inputs; phase 5 is excluded as evidence.
+- **Permanent Prompt revised in place.** Section 2A replaced by the Approved Source Anchoring paragraph, word for word the same as `voice_craft.source_anchor`; the self-identification sentence changed to the fleet form ("I am a representative of" plus the world's name), because the compiled prompt carries the fleet pronoun rule on every turn; the distress-comparison discipline added to the Witness section, word for word the same as the guard. The Voice Configuration document, dropped from the build path, still carries the withdrawn label and the old sentence; not revised.
+- **Voice record** (`wb_lpc_s27.py`). `source_anchor` with nine `source_anchor_entries`, all from Native Registry rows (2, 1, 4, 19, 192, 7); the distress-comparison line in Datus's idiom added to `guard`; the construction-document citations removed from `flavor_notes[].note`, which compile into every turn. Budget 831 of 900 words. `lpc` is the first world to carry `source_anchor`; `deployed lpc` will check it once a package is pinned.
+- **Demonstrations.** `lpc.demo.compel-three-phase` opened with another fleet question's wording under `_fleet.canon.f3-p-02`; it now answers f3-p-02's own text. Composed closing lines in `road-back-examined` and `font-twice-answered` replaced by sourced material told in the voice's words or by the record's own silence. Probe tags that claimed the simulated battery as evidence removed. A fourth demonstration, `lpc.demo.who-is-jesus-to-us` (C-P, `_fleet.canon.c-p-02`), added because the Doc_10 Craft/Focus bar's item (a) presupposes a Center-Personal demonstration; the reviewer may strike it. Its mirror edge is kept by hand on `lpc.witness.the-pattern-we-are-modelled-on`, which no live generator emits.
+- **Carried, not resolved.** (1) Every Part Eight probe is OUTSTANDING; `deployed lpc` and `wiring lpc` both report "no package pin". (2) The liturgical steps Phase One §1.3 read (the catechumenate's stages, the renunciation formula, the hand laid on) are carried by no record and so are not spoken; records work. (3) The ordinary-pastorate story from Possidius XIX to XXVII is still unbuilt (Doc_09 §7 item 5). (4) The compiled voice fields and demonstrations score FK 4 to 7, below the grade-8 floor; held as a watch item on OG-74's reasoning, not raised by padding. (5) `python -m engine.m10.cli gaps lpc` fails with 214 pre-existing findings from old review files; not this entry's to close.
+- **Owner.** The `lpc` build thread.
+
+### OG-77. Doc_10 round 1: Revise; two rulings taken (2026-10-25).
+
+Logged 2026-10-25.
+
+- **Review.** `Doc_10_Review_Round1.md` found 4 P1s and 14 P2s. The P1s:
+  - F1: the new Center-Personal demonstration links Peter's threefold confession to the road back, which no source does.
+  - F2: the same demonstration answers a shame probe and then asks the participant to disclose.
+  - F3: the telos is drawn as if every element traced to the ecology. "Someone who went looking" has no record.
+  - F4: Doc_10 attributes the `rzg` pointer to the Facilitator under D3, which does not say so.
+  The reviewer judged the voice alive at FK 4 to 7. Where it goes flat, the cause is signposting and composed lines (F7, F8), not the grade.
+- **Rulings.** Datus uses plain names (F6), and Datus gives the `rzg` pointer in his own voice (F4). Both are in `lpc_Decision_Log.md`, 2026-10-25.
+- **Next.** A Sonnet revision of every finding, then a targeted Opus round 2 (round 2 of 3).
+- **Owner.** The `lpc` build thread.
+
+### OG-78. Doc_10 revised after round 1; change history moved here (2026-10-25).
+
+Logged 2026-10-25.
+
+- **Revision.** Every finding F1 to F18 of `Doc_10_Review_Round1.md` is fixed in `lpc_Doc_10_Representative_Construction.md`, the Permanent Prompt, `scripts/wb_lpc_s27.py` and the records it emits. The voice-craft word count is 836 of 900 by the gate's own method (the review's 833, plus the branch clause, minus the guard's last seven words). The next step is a targeted Opus round 2 (round 2 of 3).
+- **What changed in the demonstrations.**
+  - `who-is-jesus-to-us`: the invented link from Peter's threefold confession to the road back is cut (F1). The closing question to the participant is cut, and the turn closes on Sermon 87 itself (F2). "Ordinary congregation, week after week" is now "an ordinary life", the witness's own scope (F18).
+  - `font-twice-answered`: the signposting and the closing line are cut, the "would have said" sentence for Cyprian is replaced by his position as the gravity record gives it, and the branch image carries the non-repetition sentence its quote record requires (F7, F8, F9, F13).
+  - `road-back-examined`: Cyprian's certificate request is told once. The signposting, the composed tricolon and the door and Master line are cut. The confessors' claim to standing is audible beside Lucian's condition (F7, F8, F10).
+  - `compel-three-phase`: the signposting is cut, and the second turn says "plainly right" as the first does and no longer says "would have refused" (F7, F9, F11). The divergence_note points to the first turn.
+  - All four use the plain names of the records (F6).
+- **What changed in the voice record and the Permanent Prompt.**
+  - The guard ends at "must clear" in both, word for word (F5).
+  - The source anchor carries the non-repetition clause, in both (F13).
+  - The opening sentence loses "and the flock that keeps its own" (F17a).
+  - The horizon paragraph speaks of Cyprian and Augustine by name in the third person, and the other paragraphs follow (F17b, F6).
+  - The telos sentence about the lost is now the physician image that Sermon 87 carries (F3).
+  - The rule against lists of named individuals is replaced by a rule that keeps Datus out of the list (F6).
+- **Earlier states, for the record.** The compel demonstration once opened with another fleet question's wording. The road-back and font demonstrations once closed on composed lines. The probe tags that cited the simulated battery were removed. The construction-document citations were removed from the flavor notes. The distress-comparison line was added to the guard and the Permanent Prompt. The self-identification sentence was changed to the fleet form. The C-P demonstration was added because the Craft/Focus bar presupposes one.
+- **Carried.** (1) The Permanent Prompt has no sentence telling Datus to give the `rzg` pointer in his own voice. The ruling is recorded in Doc_10, but the voice will not do it until a prompt line says so. Adding one is a Permanent Prompt change for round 2. (2) The telos reading is held at Inferential-Thin and stays with the external scholarly review. (3) The Permanent Prompt's font sentence ("what is given there must actually be him") is part of that Inferential-Thin reading.
+- **Owner.** The `lpc` build thread.
+
+### OG-79. Doc_10 round 2 approved to proceed; Decision 8B closed; items carried (2026-10-25).
+
+Logged 2026-10-25.
+
+- **Doc_10.** `Doc_10_Review_Round2.md` approved to proceed. All eighteen round-1 findings are fixed, and the four new P2s are applied:
+  - N1: caution 13 and the prompt now say the `rzg` world speaks for the Reformed churches of Zurich and Geneva, not "for those years".
+  - N2: Cyprian's "wide door" is paraphrased, not voiced as speech.
+  - N3: the confessors are not called "men".
+  - N4: the last "shepherd who goes looking" is gone.
+  Two of three review files are used.
+- **Decision 8B.** `Decision_8B_Quotes_Recheck_2026-10-25.md` approved to proceed.
+- **Carried: quotations in non-spoken fields.** The forces' and gravities' `manifestations`, and the `absent_detail` of the Celerinus story ("that she might not sacrifice") and of the death story ("Et nos cum ipso decollemur"), still hold source quotations. They are not spoken fields, so they sit outside Decision 8B.
+- **Carried: the acclamation force rewrite.** It goes to its own pull request under the Decision 8B scope ruling (2026-09-25). The review notes on it apply there: keep "roughly", say "under compulsion and constraint", and keep the link to "against my episcopate".
+- **Carried: caution 12 suggests wording for the Facilitator's crisis redirect.** Code builds those turns from templates, so it cannot become a freely generated redirect. Noted for whoever owns the safety protocol.
+- **Owner.** The `lpc` build thread.

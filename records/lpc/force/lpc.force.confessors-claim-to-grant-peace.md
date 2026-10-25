@@ -28,12 +28,13 @@ relations:
   target: lpc.force.decian-persecution-libelli-system
 - type: associated-with
   target: lpc.force.recurring-contest-failed-member
+- type: associated-with
+  target: lpc.quote.thousands-of-certificates-daily
 name: The Confessors' Claim to Grant Peace
 kind: ongoing
 description: >-
   People who survived interrogation without denying their faith issued written requests that named
-  lapsed persons be received back. In Cyprian's own words, "thousands of certificates were daily
-  given, contrary to the law of the Gospel." This is documented.
+  lapsed persons be received back. Cyprian wrote that thousands of certificates were being given every day, against the law of the Gospel. This is documented.
 
 
   Both sides spoke in earnest, and that was the difficulty. One side said: I stood before the

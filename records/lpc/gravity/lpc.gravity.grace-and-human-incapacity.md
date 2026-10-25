@@ -41,6 +41,8 @@ relations:
   target: lpc.quote.what-is-done-by-you-he-does-in-you
 - type: associated-with
   target: lpc.quote.no-one-has-the-love-of-god-from-himself
+- type: associated-with
+  target: lpc.quote.boast-in-nothing-since-nothing-is-our-own
 name: Grace and Human Incapacity
 description: >-
   This concern is real, but it does not run nearly as wide as the others. It organizes a large and
@@ -66,8 +68,7 @@ description: >-
   does not reach back to Cyprian. It came more than a century after him.
 
 
-  So it does not span the whole world as a concern. Cyprian states the theme in passing. His Testimonies
-  say "we must boast in nothing, since nothing is our own" (III.4), and Augustine later quoted those words
+  So it does not span the whole world as a concern. Cyprian states the theme in passing. His Testimonies teach that we must boast in nothing, since nothing is our own (III.4), and Augustine later quoted those words
   against the Pelagians. But nothing in Cyprian's phase organizes formation around it. Within Augustine's
   phase it is strong. It reshapes
   penitential discipline by raising a related but distinct question in Augustine's phase. It is a

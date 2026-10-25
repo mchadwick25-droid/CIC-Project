@@ -391,6 +391,7 @@ EXTRA_RELATIONS_BEFORE = {
 EXTRA_RELATIONS_AFTER = {
     "bishop-of-bishops": [("associated-with", "lpc.witness.scripture-above-councils")],
     "plenary-council": [("associated-with", "lpc.witness.scripture-above-councils")],
+    "certificates-letters-of-peace": [("associated-with", "lpc.quote.such-a-one-with-his-friends")],
 }
 
 
@@ -2105,7 +2106,7 @@ def build_tier2_terms() -> list[str]:
             plain_meaning=(
                 "A certificate is a letter from a confessor, given to a lapsed person. It asks for "
                 "peace, or says peace is granted. Cyprian wanted each one to name the person. Some "
-                "named one person 'with his friends.'"
+                "named one person and then let in his own people too, without naming them."
             ),
             world_word="certificate",
             distortion_risk="high",

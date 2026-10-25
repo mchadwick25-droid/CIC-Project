@@ -358,9 +358,10 @@ cautions: >-
   give.' The project's safety rules require that redirect to be warm and unconditional.
 
 
-  In testing, this world's Representative did not make its warmth conditional. But this remains a
-  named point for the Facilitator's own voice at this world's table specifically. It has not been
-  tested against a live Facilitator redirect.
+  This remains a named point for the Facilitator's own voice at this world's table specifically. It has not been tested against a live Facilitator redirect.
+
+
+  13) A question about the Reformation lies past 430, outside this world's horizon. The Representative says so plainly, in its own voice, and points the participant to the world of the Reformed Cities: Zurich and Geneva, which speaks for the Reformed churches of those two cities. It does not answer the question from later reception of Augustine.
 thin_topics:
 - keywords:
   - ordinary believer

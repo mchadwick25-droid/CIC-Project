@@ -69,7 +69,7 @@ INPUTS, mapped to OUTPUTS, precisely:
   - lpc_Representative_Permanent_Prompt_Datus.txt line 37 ("When a specific
     image, story, or teacher's word would make an answer vivid, we reach for
     what our own life actually gave us...") -> the bounded quote candidate
-    set. Several images are named there; FIVE become `quote` records here --
+    set. Several images are named there; SIX become `quote` records here --
     see "QUOTE SET, BOUNDED" below for the full accounting of what was named,
     what was built, and what was named but not built, and why.
   - Doc_01_World_Identification_Boundaries_Orientation.md SS2 (the two anchor
@@ -158,7 +158,7 @@ at once; (5) "neither of us set himself up as a bishop of bishops," answered
 at length a century and a third later; (6) what is given outside the church
 at baptism, held two ways a century apart; (7) a preacher naming to his own
 gathered people that their waiting is itself a prayer for him. This script
-builds `quote` records for FIVE of these seven:
+builds `quote` records for SIX of these seven:
   1. BUILT (lpc.quote.shepherd-wounded-in-the-flock). Cyprian, *De Lapsis*
      SS4: "since it is the shepherd that is chiefly wounded in the wound of
      his flock... I wail with the wailing, I weep with the weeping."
@@ -200,15 +200,10 @@ builds `quote` records for FIVE of these seven:
      made a presbyter"), cited in this record's own body as corroboration,
      not substituted for Possidius's own third-person account as the
      record's `text`.
-  5. NOT built (item 4 above, the certificate/wide-door image). This is a
-     synthesized contrast between two attested practices (the confessors'
-     own named libelli pacis, lpc.term.certificates-letters-of-peace, and a
-     bishop's later general grant of peace to unnamed penitents at once),
-     not a single locatable sentence any one source states -- there is no
-     verbatim line to quote, only a pattern this world's own term records
-     already carry in prose. Building a `quote` record here would require
-     manufacturing a sentence no source says, which this step's own
-     discipline forbids.
+  5. BUILT with the host quotes below (item 4 above, the certificate/
+     wide-door image): lpc.quote.such-a-one-with-his-friends. Cyprian, Ep.
+     X section 4: "For it opens a wide door to say, 'Such a one with his
+     friends'", at line 29942 of the ANF file.
   6. NOT built (item 6 above, the two-answers-on-baptism contrast). Also
      synthesized, not a single quotable line -- it is the same shape of
      doctrinal contrast Doc_01 SS7 documents at length in prose (Cyprian's
@@ -221,11 +216,9 @@ builds `quote` records for FIVE of these seven:
      your longing expectation is a prayer for me." Located at line 9398 of
      cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml
      by direct keyword search.
-This is a disclosed narrowing to a five-item quote-record set out of seven
-named images, not a silent one: two of the seven (items 5 and 6 above,
-using this docstring's own numbering) are synthesized contrasts with no
-single quotable sentence behind them and were not built; the remaining
-five, each independently verified against its vendored source file, were.
+This is a disclosed narrowing, not a silent one: item 6 above is a
+synthesized contrast with no single quotable sentence behind it and is not
+built; the other six, each verified against its vendored source file, are.
 
 SERMON QUOTES. Eighteen further `quote` records quote Augustine's sermons on
 selected lessons (Source Registry row 19), three per gravity for the pastoral
@@ -236,6 +229,16 @@ Opus rendering as written; each `sources[].locus` gives the NPNF and Maurist
 sermon numbers, the section, the file lines and the PL 38 Latin lines. Each
 carries one `associated-with` edge to the gravity record it bears, and s25
 declares the inverse edge. Their canon cells are assigned by s2y.
+
+HOST QUOTES. Twenty-nine further `quote` records hold each real source
+quotation that a story, gravity, force or term record carries. The host
+paraphrases the quotation in plain words and declares an `associated-with`
+edge to the quote record. Each `text` is the vendored source word for word:
+the ANF, NPNF or Weiskotten English, or, for the Acta Proconsularia, the
+Latin of whichever vendored edition reads cleanly at that passage. Each
+body gives the file and lines. Story edges are declared here; gravity and
+force edges are mirrored in s25 and the term edge in s22. Their canon cells
+are assigned by s2y.
 
 RELATIONS -- CLOSED-GRAPH DISCIPLINE. Every `relations[]` entry this script
 writes points at another record this same script creates (story<->story,
@@ -298,9 +301,11 @@ MECHANICAL vs AUTHORED, field by field:
     own body text).
   - text, speaker_or_author, license, modern_lens_note, modern_rendering
     (quote only): AUTHORED per quote. modern_rendering is a light
-    modernization of the already-published ANF/Weiskotten translation this
-    record's own `text` field quotes, never a fresh translation from this
-    session's own reading of the Latin.
+    modernization of the published ANF/NPNF/Weiskotten translation the
+    record's own `text` field quotes, following the Latin edition only where
+    the English misleads, as that record's divergence_note says. Where the
+    `text` field is the Latin itself (the Acta Proconsularia, which has no
+    vendored English), modern_rendering translates that Latin.
   - retrieval.tier (1-3, story/quote only): AUTHORED, a judgment call this
     script names rather than hides: tier 1 for the story/quote this script
     judges the more central, general-purpose retrieval candidate; tier 2 for
@@ -398,12 +403,48 @@ RELATION_PAIRS: list[tuple[str, str]] = [
     ("lpc.quote.two-hear-one-scorns-one-rises", "lpc.gravity.grace-and-human-incapacity"),
     ("lpc.quote.what-is-done-by-you-he-does-in-you", "lpc.gravity.grace-and-human-incapacity"),
     ("lpc.quote.no-one-has-the-love-of-god-from-himself", "lpc.gravity.grace-and-human-incapacity"),
+    ("lpc.story.election-of-cyprian", "lpc.quote.chosen-while-still-a-neophyte"),
+    ("lpc.story.the-plague-and-the-enemies", "lpc.quote.a-dreadful-plague-broke-out"),
+    ("lpc.story.the-plague-and-the-enemies", "lpc.quote.it-becomes-us-to-answer-to-our-birth"),
+    ("lpc.story.the-plague-and-the-enemies", "lpc.quote.good-done-to-all-not-only-the-household"),
+    ("lpc.story.numidicus", "lpc.quote.numidicus-remained-unwillingly"),
+    ("lpc.story.hundred-thousand-sesterces", "lpc.quote.grief-and-not-without-tears"),
+    ("lpc.story.hundred-thousand-sesterces", "lpc.quote.christ-redeemed-in-our-captive-brethren"),
+    ("lpc.story.hundred-thousand-sesterces", "lpc.quote.a-hundred-thousand-sesterces"),
+    ("lpc.story.celerinus-writes-to-lucian", "lpc.quote.grieve-with-me-for-my-sister"),
+    ("lpc.story.celerinus-writes-to-lucian", "lpc.quote.shut-up-in-two-cells"),
+    ("lpc.story.celerinus-writes-to-lucian", "lpc.quote.the-case-set-before-the-bishop"),
+    ("lpc.story.celerinus-writes-to-lucian", "lpc.quote.because-i-am-already-weary"),
+    ("lpc.story.the-death-of-cyprian", "lpc.quote.the-people-kept-watch-at-the-door"),
+    ("lpc.story.the-death-of-cyprian", "lpc.quote.the-whole-people-of-the-brethren-came"),
+    ("lpc.story.the-death-of-cyprian", "lpc.quote.walled-in-by-a-mingled-multitude"),
+    ("lpc.story.the-death-of-cyprian", "lpc.quote.a-standard-bearer-of-the-sect"),
+    ("lpc.story.the-death-of-cyprian", "lpc.quote.thanks-be-to-god"),
+    ("lpc.story.the-death-of-cyprian", "lpc.quote.let-us-too-be-beheaded-with-him"),
+    ("lpc.story.the-death-of-cyprian", "lpc.quote.he-covered-his-eyes-with-his-own-hand"),
+    ("lpc.story.the-death-of-cyprian", "lpc.quote.the-trees-and-the-trembling-executioner"),
+    ("lpc.story.the-death-of-cyprian", "lpc.quote.o-blessed-people-of-the-church"),
+    ("lpc.story.the-psalms-on-the-wall", "lpc.quote.the-psalms-hung-upon-the-wall"),
+    ("lpc.story.the-psalms-on-the-wall", "lpc.quote.he-slept-with-his-fathers"),
+    ("lpc.quote.chosen-while-still-a-neophyte", "lpc.force.congregational-acclamation-overriding-preference"),
+    ("lpc.quote.ancient-venom-against-my-episcopate", "lpc.force.congregational-acclamation-overriding-preference"),
+    ("lpc.quote.shepherd-wounded-in-the-flock", "lpc.force.decian-persecution-libelli-system"),
+    ("lpc.quote.bishop-of-bishops", "lpc.gravity.collegial-communion-preserved"),
+    ("lpc.quote.bishop-of-bishops", "lpc.gravity.conciliar-authority-theory"),
+    ("lpc.quote.earlier-councils-corrected-by-later", "lpc.force.augustine-engagement-cyprian-conciliar-acts"),
+    ("lpc.quote.earlier-councils-corrected-by-later", "lpc.gravity.conciliar-authority-theory"),
+    ("lpc.quote.boast-in-nothing-since-nothing-is-our-own", "lpc.gravity.grace-and-human-incapacity"),
+    ("lpc.quote.thousands-of-certificates-daily", "lpc.force.confessors-claim-to-grant-peace"),
+    ("lpc.quote.thirteen-letters-sent-to-rome", "lpc.force.transmission-institutionally-dominant-side"),
+    ("lpc.quote.the-paper-itself", "lpc.force.transmission-institutionally-dominant-side"),
+    ("lpc.quote.such-a-one-with-his-friends", "lpc.term.certificates-letters-of-peace"),
 ]
 
 
 # Edge targets that live in records this script does not emit (the hand-maintained
-# doctrinal_witness records, the s26 contested_claim records and the s25 gravity records).
-EXTERNAL_RELATION_TYPES = {"witness", "contested", "gravity"}
+# doctrinal_witness records, the s26 contested_claim records, the s25 gravity and force
+# records and the s22 term records).
+EXTERNAL_RELATION_TYPES = {"witness", "contested", "gravity", "force", "term"}
 
 
 def relations_for(rid: str) -> list[dict]:
@@ -547,13 +588,12 @@ def build_stories() -> None:
         "judgment made visible",
         "Our own deacon Pontius, writing after his bishop had been executed, passed over most of "
         "what he could have said about Cyprian's early years and settled on one fact as enough. "
-        "\"For the proof of his good works I think that this one thing is enough,\" he wrote: "
-        "\"that by the judgment of God and the favour of the people, he was chosen to the office "
-        "of the priesthood and the degree of the episcopate while still a neophyte, and, as it was "
-        "considered, a novice.\"\n\n"
+        "That one fact, he wrote, was proof enough of his good works: by God's judgment and the "
+        "people's favour, he was chosen bishop while still a neophyte, and, as people thought, a "
+        "novice.\n\n"
         "A neophyte. Newly baptised. Pontius did not soften this -- he pressed it, noting that "
-        "Cyprian was \"still in the early days of his faith, and in the untaught season of his "
-        "spiritual life.\" What we saw in him was not training. It was something we thought we "
+        "Cyprian was still in the first days of his faith, untaught as yet in the life of the "
+        "spirit. What we saw in him was not training. It was something we thought we "
         "could already see.\n\n"
         "Two things are claimed at once in that sentence, and for Pontius they are not in tension: "
         "the judgment of God, and the favour of the people. The second is how the first became "
@@ -607,24 +647,22 @@ def build_stories() -> None:
         "How our bishop met a plague by teaching us to love even our enemies, and to help "
         "everyone, not only our own",
         "Pontius, writing as a deacon who was there, described the epidemic without any of the "
-        "consolation he might have reached for. \"There broke out a dreadful plague,\" he wrote, "
-        "\"and excessive destruction of a hateful disease invaded every house in succession of the "
-        "trembling populace, carrying off day by day with abrupt attack numberless people, every "
-        "one from his own house.\"\n\n"
-        "What followed was not about the disease. It was about what the city did. \"All were "
-        "shuddering, fleeing, shunning the contagion, impiously exposing their own friends\" -- "
-        "bodies left where they fell, \"no longer bodies, but the carcases of many.\"\n\n"
+        "consolation he might have reached for. A dreadful plague broke out, he wrote, and went "
+        "from house to house through a frightened city, carrying off countless people every day, "
+        "each from his own home.\n\n"
+        "What followed was not about the disease. It was about what the city did. People "
+        "shuddered and fled from the contagion, and wickedly put out their own people -- "
+        "bodies left where they fell, no longer bodies but the corpses of many.\n\n"
         "Against that, our bishop called us together and preached. He began with mercy, and then "
         "went further. There was nothing remarkable, he told us, in caring for our own. Anyone does "
         "that. What would distinguish us was loving our enemies and praying for those persecuting "
-        "us, in imitation of a God who \"continually makes His sun to rise, and from time to time "
-        "gives showers to nourish the seed, exhibiting all these kindnesses not only to His people, "
-        "but to aliens also.\" \"It becomes us,\" he said, \"to answer to our birth; and it is not "
-        "fitting that those who are evidently born of God should be degenerate.\"\n\n"
-        "And Pontius records what followed: relief given \"to all men, not to those only who are of "
-        "the household of faith.\" The poor among us, who had no money to give, gave labour instead. "
+        "us, in imitation of a God who makes His sun rise and sends rain to feed the seed, and "
+        "shows these kindnesses to strangers as well as to His own. We ought, he said, to live up "
+        "to our birth: those who are plainly born of God should not fall short of it.\n\n"
+        "And Pontius records what followed: relief given to everyone, not only to those of the "
+        "household of faith. The poor among us, who had no money to give, gave labour instead. "
         "Pontius reaches for a comparison and finds it wanting -- more was done, he writes, than is "
-        "recorded of Tobias, who gathered up his own dead \"of his own race only.\"",
+        "recorded of Tobias, who gathered up the dead of his own race only.",
         "Whether the persecutors themselves were among those helped is not something Pontius says "
         "one way or the other, and no source outside him describes the relief operation at all. No "
         "pagan Carthaginian of ours left a word about being helped by us during this epidemic.",
@@ -670,24 +708,24 @@ def build_stories() -> None:
         "a case for an appointment, and the letter's own rhetoric -- 'the common joy,' 'the "
         "greatest glory of our Church' -- is the rhetoric of advocacy.",
         "How our bishop added to our presbyters a confessor who had not wanted to survive",
-        "Cyprian wrote to us with news he called 'the common joy.' He was adding a presbyter to "
+        "Cyprian wrote to us with news that he said belonged to the joy of us all. He was adding a presbyter to "
         "our clergy, and he wanted us to know who the man was.\n"
         "\n"
-        "Numidicus had watched a group of us die. He had exhorted them first -- Cyprian says he "
-        "\"by his exhortation sent before himself an abundant number of martyrs, slain by stones "
-        "and by the flames.\" Among the dead was his own wife. Cyprian's own phrasing about her is "
-        "not a slip: he \"beheld with joy his wife abiding by his side, burned (I should rather "
-        "say, preserved) together with the rest.\"\n"
+        "Numidicus had watched a group of us die. He had exhorted them first -- Cyprian says that "
+        "by his urging he sent a great number of martyrs ahead of him, killed by stones and by "
+        "fire. Among the dead was his own wife. Cyprian's own phrasing about her is "
+        "not a slip: Numidicus watched with joy as his wife, standing by his side, was burned "
+        "with the others -- or, as Cyprian corrects himself, preserved.\n"
         "\n"
-        "Then Numidicus himself: \"half consumed, overwhelmed with stones, and left for dead.\" "
-        "His daughter came looking for her father's body -- Cyprian says she sought it \"with the "
-        "anxious consideration of affection\" -- and found him alive. Where she searched, the "
-        "letter does not say. \"Was found half dead, was drawn out and revived.\"\n"
+        "Then Numidicus himself: half burned, buried under stones and left for dead. "
+        "His daughter came looking for her father's body -- Cyprian says she searched with the "
+        "anxious care of love -- and found him alive. Where she searched, the "
+        "letter does not say. He was found half dead, pulled out and revived.\n"
         "\n"
         "And Cyprian adds one clause that gives the whole letter its weight. Numidicus, he says, "
-        "\"remained unwillingly from among the companions whom he himself had sent before.\" He "
+        "stayed behind against his will, when the companions he himself had sent ahead went on. He "
         "had not wanted to survive. Cyprian knew this, wrote it down, and gave the reason he "
-        "thought it happened: \"that the Lord might add him to our clergy.\"",
+        "thought it happened: the Lord meant to add him to our clergy.",
         "The three people this story is about left no word of their own. Numidicus's wife burned; "
         "his daughter searched for his body and found him alive; Numidicus himself did not want to "
         "have survived. What the wife thought she was doing, what the daughter found, and what "
@@ -733,19 +771,19 @@ def build_stories() -> None:
         "Word reached us that our brethren and sisters had been carried off, captive among "
         "barbarians. Cyprian's reply to the eight bishops who told us -- Januarius, Maximus, "
         "Proculus, Victor, Modianus, Nemesianus, Nampulus and Honoratus, whom he names one by one "
-        "-- opens without composure: \"With excessive grief of mind, and not without tears.\"\n"
+        "-- opens without composure: he read their letter, he says, in great grief and not "
+        "without tears.\n"
         "\n"
         "The argument he made was not about charity. It was about identity. Quoting Paul, that "
-        "\"as many of you as have been baptized into Christ have put on Christ,\" he drew the "
-        "conclusion directly: \"Christ is to be contemplated in our captive brethren, and He is to "
-        "be redeemed from the peril of captivity who redeemed us from the peril of death.\"\n"
+        "all who have been baptized into Christ have put on Christ, he drew the conclusion "
+        "directly: Christ is to be seen in our captive brethren, and the one who redeemed us from "
+        "death is now to be redeemed from captivity.\n"
         "\n"
-        "Then he said what the money was. \"We have then sent you a sum of one hundred thousand "
-        "sesterces, which have been collected here in the Church over which by the Lord's mercy we "
-        "preside, by the contributions of the clergy and people established with us, which you "
-        "will there dispense with what diligence you may.\" And he thanked them, for being asked "
-        "-- for offering us, in his own words, \"fruitful fields in which we might cast the seeds "
-        "of our hope.\"",
+        "Then he said what the money was. He sent one hundred thousand sesterces, collected in our "
+        "church from the gifts of our clergy and people, for the bishops to hand out there as "
+        "carefully as they could. And he thanked them, for being asked "
+        "-- for offering us, as he put it, fruitful fields in which to sow the seeds of our "
+        "hope.",
         "We do not know whether the ransom worked. Cyprian never wrote again about the outcome, "
         "and the eight bishops' own reply, if there was one, does not survive. The story ends with "
         "the money leaving Carthage.",
@@ -787,10 +825,10 @@ def build_stories() -> None:
         "How one confessor asked another, not a bishop, to grant peace to women who had fallen",
         "Celerinus was a confessor among us -- he had been imprisoned and had not denied Christ -- "
         "and he wrote to Lucian, another confessor, in prison. He told Lucian of his own "
-        "confession. Then he came to his grief: \"Know, nevertheless, that I am placed in the "
-        "midst of a great tribulation.\" His sister had sacrificed. \"I ask that you will grant my "
-        "desire, and that you will grieve with me at the (spiritual) death of my sister, who in "
-        "this time of devastation has fallen from Christ.\"\n"
+        "confession. Then he came to his grief: he told Lucian he was in the midst of great "
+        "trouble. His sister had sacrificed. He asked Lucian to grant his wish and grieve with "
+        "him over her death, a death of the spirit, for in that time of ruin she had fallen away "
+        "from Christ.\n"
         "\n"
         "She was not dead. What Celerinus grieved was a death he believed had happened to her soul "
         "-- which is why the letter carries a request. He asked Lucian to intervene, for her and "
@@ -798,14 +836,12 @@ def build_stories() -> None:
         "them: they had repented, and there were works to point to.\n"
         "\n"
         "Lucian's reply came back from the prison, and it granted what was asked. Before it did, "
-        "it said what the prison had been like: by the emperor's command they \"were ordered to be "
-        "put to death by hunger and thirst, and were shut up in two cells, that so they might "
-        "weaken us by hunger and thirst.\" Then: \"But now we have attained the brightness "
-        "itself.\" He greeted Numeria and Candida, and named the martyrs on whose authority he "
-        "answered. He asked that the two women have peace, \"the case being set forth before the "
-        "bishop, and confession being made.\" He signed off exhausted, greeting others \"whose "
-        "names I have not written, "
-        "because I am already weary. Therefore they must pardon me.\"",
+        "it said what the prison had been like: by the emperor's command they had been sentenced "
+        "to die of hunger and thirst, and shut up in two cells to weaken them that way. Then he "
+        "wrote that now they had reached the brightness itself. He greeted Numeria and Candida, and named the martyrs on whose authority he "
+        "answered. He asked that the two women have peace, once each case had been set before the "
+        "bishop and the sin openly confessed. He signed off exhausted, greeting others whose names "
+        "he had not written because he was already too tired, and asking them to forgive him.",
         "Celerinus's own sister has no story, and she is the person this one is about. She is "
         "unnamed -- her own brother does not name her. Numeria and Candida are not 'named lapsed "
         "women' either: Celerinus says the opposite of Candida, that she gave gifts for herself "
@@ -863,30 +899,29 @@ def build_stories() -> None:
         "unnamed. Where both texts agree, we say so plainly. Where only one speaks, we say which.\n"
         "\n"
         "The night before the sentence, Cyprian was held in an officer's house. Pontius says that "
-        "he and the other friends \"were as usual in his company.\" The people stayed outside. "
-        "Pontius writes that they, \"in anxiety that nothing should be done throughout the night "
-        "without their knowledge, kept watch before the officer's door.\" The Acta tells it more "
-        "briefly, and it adds one detail: \"The whole people of the brethren came there. When holy "
-        "Cyprian learned of this, he ordered the young women to be guarded. He did so because all "
-        "of them had stayed in the street, before the door of the officer's lodging.\"\n"
+        "he and the other friends were with him, as usual. The people stayed outside. "
+        "Pontius writes that they kept watch before the officer's door, anxious that nothing "
+        "should be done in the night without their knowing. The Acta tells it more "
+        "briefly, and it adds one detail: when the whole people of the brethren came there, "
+        "Cyprian had the young women guarded, since the whole people had stayed in the street "
+        "before the officer's door.\n"
         "\n"
-        "In the morning a great crowd went with him. Pontius says he went out \"walled in on all "
-        "sides by the ranks of a mingled multitude.\" The Acta says that \"a large crowd gathered "
-        "at Sextus's place, as the proconsul Galerius Maximus had ordered.\"\n"
+        "In the morning a great crowd went with him. Pontius says he went out walled in on every "
+        "side by a mixed crowd. The Acta says that a large crowd gathered at Sextus's place, as "
+        "the proconsul Galerius Maximus had ordered.\n"
         "\n"
-        "The proconsul read the sentence from a tablet. Pontius reports that it called Cyprian \"a "
-        "standard-bearer of the sect, and an enemy of the gods, and one who was to be an example "
-        "to his people; and that with his blood discipline would begin to be established.\" The "
+        "The proconsul read the sentence from a tablet. Pontius reports that it named Cyprian the "
+        "standard-bearer of the sect and an enemy of the gods, an example to his own people, and "
+        "said that with his blood discipline would begin to be made firm. The "
         "Acta gives the sentence in nearly the same words. On the sentence the two texts are not "
-        "independent witnesses. Only the Acta gives Cyprian's answer: Deo gratias, \"Thanks be to "
-        "God.\"\n"
+        "independent witnesses. Only the Acta gives Cyprian's answer: he gave thanks to God.\n"
         "\n"
-        "Then the crowd of the brethren called out. The Acta gives their words: Et nos cum ipso "
-        "decollemur, \"Let us too be beheaded with him.\" It goes on: \"Because of this an uproar "
-        "rose among the brethren, and a large crowd followed him.\" Pontius does not quote the "
-        "cry. He says the people's \"general wish\" was \"that the entire congregation should "
-        "suffer at once in the fellowship of a like glory,\" and he calls them blessed because "
-        "they, \"in outspoken words, suffered with such a bishop as theirs.\"\n"
+        "Then the crowd of the brethren called out. The Acta gives their words: they asked to be "
+        "beheaded with him. It goes on to say that an uproar rose among the brethren because of "
+        "this, and a large crowd followed him. Pontius does not quote the "
+        "cry. He says the people all wished that the whole congregation might suffer together "
+        "and share a like glory, and he calls them blessed because they suffered with their "
+        "bishop in words spoken aloud.\n"
         "\n"
         "Only the Acta tells what came before the blow. Cyprian was led out into the field of "
         "Sextus. There he took off his cloak. He knelt on the ground and bowed down in prayer to "
@@ -895,11 +930,11 @@ def build_stories() -> None:
         "his own people to give him twenty-five gold pieces. The brethren laid linen cloths and "
         "hand-cloths before him.\n"
         "\n"
-        "Both texts say he covered his own eyes, and they differ on the cloths. Pontius says that, "
-        "\"having with his own hands bound his eyes,\" he tried to hurry the executioner. The Acta "
-        "says: \"Then the blessed Cyprian covered his eyes with his own hand. When he could not "
-        "tie the strips of cloth on himself, the presbyter Julianus and the subdeacon Julianus "
-        "tied them for him.\" We do not choose between the two.\n"
+        "Both texts say he covered his own eyes, and they differ on the cloths. Pontius says that "
+        "he bound his eyes with his own hands and tried to hurry the executioner. The Acta "
+        "says he covered his eyes with his own hand, and that when he could not tie the strips of "
+        "cloth himself, the presbyter Julianus and the subdeacon Julianus tied them for him. We do "
+        "not choose between the two.\n"
         "\n"
         "Only the Acta tells the burial. So the blessed Cyprian suffered martyrdom. Because the "
         "pagans were curious, his body was laid nearby. By night it was taken up from there with "
@@ -907,12 +942,11 @@ def build_stories() -> None:
         "procurator Macrobius Candidianus. These lie on the Mappalian road, beside the pools.\n"
         "\n"
         "Pontius adds things the Acta does not mention, and they are his. He says the ground was "
-        "\"level, so that it affords a noble spectacle, with its trees thickly planted on all "
-        "sides.\" People who could not see \"had climbed up into the branches of the trees, that "
-        "there might not even be wanting to him (what happened in the case of Zacchæus), that he "
-        "was gazed upon from the trees.\" He writes that the executioner \"with difficulty clasped "
-        "the blade in his failing right hand with trembling fingers, until the mature hour of "
-        "glorification strengthened the hand of the centurion with power granted from above.\" The "
+        "level, with trees planted thickly all around, so that it gave a fine view. People who "
+        "could not see had climbed into the branches, so that even this was not lacking to him: "
+        "as with Zacchaeus, he was gazed at from the trees. He writes that the executioner could "
+        "barely grip the blade with the trembling fingers of his failing right hand, until the "
+        "hour of glory came and strengthened the centurion's hand with power from above. The "
         "Latin of that sentence can be read two ways. The Acta calls the executioner a spiculator "
         "and says nothing of any strengthening. We tell that part as Pontius's reading.",
         "What cannot be told is what any one person in the crowd made of it, because no spectator "
@@ -976,18 +1010,17 @@ def build_stories() -> None:
         "Possidius had been Augustine's friend for nearly forty years, and he was in the house.\n\n"
         "He records something Augustine had said often, in private conversation: that even after "
         "baptism, exemplary Christians and priests ought not depart this life without fitting "
-        "repentance. Then he records what Augustine did with his own rule. \"And this he himself "
-        "did in his last illness of which he died. For he commanded that the shortest penitential "
-        "Psalms of David should be copied for him, and during the days of his sickness as he lay "
-        "in bed he would look at these sheets as they hung upon the wall and read them; and he wept "
-        "freely and constantly.\"\n\n"
-        "About ten days before the end he asked to be left alone -- Possidius says he \"asked of us "
-        "who were present that no one should come in to him, except only at the hours in which the "
-        "physicians came to examine him or when nourishment was brought to him.\" The request was "
+        "repentance. Then he records what Augustine did with his own rule. He did it himself in "
+        "the last illness of which he died. He had the penitential Psalms of David, which are "
+        "very few, copied out, and as he lay sick in bed he looked at the sheets hung on the wall, read "
+        "them, and wept freely and constantly.\n\n"
+        "About ten days before the end he asked to be left alone -- Possidius says he asked those "
+        "of us who were there to let no one in, except when the doctors came to examine him or "
+        "when food was brought. The request was "
         "kept. Until that last illness he had not stopped preaching.\n\n"
-        "And the end, in Possidius's own first person: \"With all the members of his body intact, "
-        "with sight and hearing unimpaired, while we stood by and watched and prayed, 'he slept "
-        "with his fathers,' as it is written, 'well-nourished in a good old age.'\" He made no "
+        "And the end, in Possidius's own first person: his body whole, his sight and hearing "
+        "sound, he slept with his fathers, as Scripture says, well nourished in a good old age, "
+        "while we stood by, watching and praying. He made no "
         "will, because he had nothing to make one from. He ordered that the church's library and "
         "all its books be carefully preserved for those who came after. The city was under siege "
         "by the Vandals while this happened.",
@@ -2470,11 +2503,1258 @@ def build_sermon_quotes() -> None:
     )
 
 
+# ===========================================================================
+# QUOTES HELD APART FROM HOST PROSE (29) -- each real source quotation that a
+# story, gravity, force or term carries is its own record here, and the host
+# paraphrases it and points to it.
+# ===========================================================================
+
+ANF05 = "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+VITA_LAT = "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt"
+EPIST_LAT = "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt"
+KNOPF = "cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt"
+GEBHARDT = "cic/texts/gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt"
+POSSIDIUS = "cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+ACTA_SPEAKER = "The Acta Proconsularia of Cyprian"
+
+
+def _src(source_id: str, locus: str) -> list[dict]:
+    return [{"source_id": source_id, "locus": locus, "license": "public-domain"}]
+
+
+def build_host_quotes() -> None:
+    # --- lpc.story.election-of-cyprian ------------------------------------
+    emit_quote(
+        "chosen-while-still-a-neophyte",
+        "For the proof of his good works I think that this one thing is enough, that by the "
+        "judgment of God and the favour of the people, he was chosen to the office of the "
+        "priesthood and the degree of the episcopate while still a neophyte, and, as it was "
+        "considered, a novice. Although still in the early days of his faith, and in the untaught "
+        "season of his spiritual life, a generous disposition so shone forth in him, that although "
+        "not yet resplendent with the glitter of office, but only of hope, he gave promise of "
+        "entire trustworthiness for the priesthood that was coming upon him.",
+        "lpc.figure.pontius",
+        "verbatim",
+        "A modern listener may hear 'priesthood' as the office of a parish priest. Pontius's "
+        "word, sacerdotium, here names the bishop's own office, which is why the rendering says "
+        "'the sacred office'. A neophyte is someone newly baptized. Pontius presses the point: "
+        "Cyprian was chosen before he had any training, on the strength of what people could "
+        "already see in him.",
+        "I think this one fact is enough to prove his good works. By the judgment of God and the "
+        "favour of the people, he was chosen for the sacred office and the rank of bishop. He was "
+        "still newly baptized and, as people thought, a beginner. He was still in the first days "
+        "of his faith, in the untaught season of his spiritual life. Yet a noble nature shone out "
+        "in him. He did not yet shine with the glow of office, only with the glow of hope. Even "
+        "so, he gave every promise that he could be trusted with the sacred office coming to him.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the ANF English as printed. modern_rendering follows Hartel's "
+             "Latin where the English misleads: 'priesthood' renders sacerdotium, here the "
+             "bishop's office, given as 'the sacred office'; 'neophyte' renders neophytus, "
+             "'newly baptized'; 'novice' renders nouellus, 'a beginner'; and 'a generous "
+             "disposition' renders generosa indoles, 'a noble nature'."),
+        _src("lpc.source.pontius-life-and-passion-of-cyprian",
+             f"Life of Cyprian, section 5; English at {ANF05}, lines 27817-27825; Latin at "
+             f"{VITA_LAT}, lines 40550-40562"),
+        2,
+        ["participant asks how Pontius described Cyprian's election",
+         "participant asks whether a newly baptized man could be made bishop",
+         "participant asks what 'the judgment of God and the favour of the people' meant"],
+        ["participant wants the whole story of how Cyprian was chosen -- "
+         "lpc.story.election-of-cyprian gives that",
+         "participant wants Cyprian's own words on his election -- "
+         "lpc.quote.ancient-venom-against-my-episcopate gives that"],
+        ["The passage does not say how the people made their favour known; the speaker must "
+         "not supply a vote, a count or a ceremony.",
+         "Pontius is writing in praise of his own bishop; the speaker must not present his "
+         "judgment of Cyprian's character as an outside witness's."],
+        f"Pontius, Life and Passion of Cyprian, section 5. English in the ANF translation at "
+        f"{ANF05}, lines 27817-27825. Latin in Hartel's edition at {VITA_LAT}, lines 40550-40562 "
+        "(OCR text). The section's opening sentence, that it would be tedious to list all his "
+        "deeds, is left out. The passage carries the story lpc.story.election-of-cyprian and the "
+        "force lpc.force.congregational-acclamation-overriding-preference.",
+    )
+
+    # --- lpc.story.the-plague-and-the-enemies ------------------------------
+    emit_quote(
+        "a-dreadful-plague-broke-out",
+        "Afterwards there broke out a dreadful plague, and excessive destruction of a hateful "
+        "disease invaded every house in succession of the trembling populace, carrying off day by "
+        "day with abrupt attack numberless people, every one from his own house. All were "
+        "shuddering, fleeing, shunning the contagion, impiously exposing their own friends, as if "
+        "with the exclusion of the person who was sure to die of the plague, one could exclude "
+        "death itself also. There lay about the meanwhile, over the whole city, no longer bodies, "
+        "but the carcases of many, and, by the contemplation of a lot which in their turn would "
+        "be theirs, demanded the pity of the passers-by for themselves.",
+        "lpc.figure.pontius",
+        "verbatim",
+        "A modern listener may hear 'their own friends' as companions. The Latin, suos, means "
+        "their own people, family and household; in the English of the translation, 'friends' "
+        "still meant kin. Pontius is describing a city where people put out their own sick and "
+        "left the dead in the streets.",
+        "Afterwards a dreadful plague broke out. The huge destruction of a hateful disease invaded "
+        "the houses of the trembling people, one after another. Day by day, with sudden attack, it "
+        "carried off countless people, each from his own house. Everyone shuddered and fled, and "
+        "shunned the contagion. They wickedly put out their own people, as if shutting out the "
+        "one sure to die of the plague could shut out death itself. Meanwhile, all over the city, "
+        "there lay no longer bodies but the corpses of many. They made the passers-by think of the "
+        "same fate, which would be theirs in turn. So they begged pity from them for themselves.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the ANF English as printed. modern_rendering follows Hartel's "
+             "Latin where the English misleads: 'their own friends' renders suos, 'their own "
+             "people', and 'exposing' renders exponere, 'put out'."),
+        _src("lpc.source.pontius-life-and-passion-of-cyprian",
+             f"Life of Cyprian, section 9; English at {ANF05}, lines 27939-27949; Latin at "
+             f"{VITA_LAT}, lines 40782-40791"),
+        2,
+        ["participant asks what the plague in Cyprian's Carthage was like",
+         "participant asks how the city treated its sick and dying in the epidemic"],
+        ["participant asks what the church did in the plague -- "
+         "lpc.quote.good-done-to-all-not-only-the-household gives that",
+         "participant wants the whole account of the plague -- "
+         "lpc.story.the-plague-and-the-enemies gives that"],
+        ["The passage does not say how many died or name the disease; the speaker must not "
+         "supply a death toll or a diagnosis."],
+        f"Pontius, Life and Passion of Cyprian, section 9. English in the ANF translation at "
+        f"{ANF05}, lines 27939-27949. Latin in Hartel's edition at {VITA_LAT}, lines 40782-40791 "
+        "(OCR text). The section's first sentence, 'Still, if it seem well, let me glance at the "
+        "rest', is left out. The passage carries the story lpc.story.the-plague-and-the-enemies.",
+    )
+
+    emit_quote(
+        "it-becomes-us-to-answer-to-our-birth",
+        "God continually makes His sun to rise, and from time to time gives showers to nourish "
+        "the seed, exhibiting all these kindnesses not only to His people, but to aliens also. "
+        "And if a man professes to be a son of God, why does not he imitate the example of his "
+        "Father? “It becomes us,” said he, “to answer to our birth; and it is not fitting that "
+        "those who are evidently born of God should be degenerate, but rather that the "
+        "propagation of a good Father should be proved in His offspring by the emulation of His "
+        "goodness.”",
+        "lpc.figure.pontius",
+        "verbatim",
+        "A modern listener may hear 'aliens' as beings from elsewhere and 'degenerate' as "
+        "depraved. Here 'aliens' are strangers, people outside the church, and to be "
+        "'degenerate' is to fall short of one's birth. Pontius is reporting the sermon Cyprian "
+        "preached in the plague: God is kind to outsiders, so His children must be too.",
+        "God makes His sun rise without ceasing. From time to time He gives rain to feed the "
+        "seed. He shows all these kindnesses not only to His own people, but to strangers too. If "
+        "a man claims to be a son of God, why does he not follow his Father's example? “It is "
+        "right for us,” he said, “to live up to our birth. Those who are clearly born of God "
+        "should not fall short of their birth. Instead, the good Father's line should be proved "
+        "in His children, as they strive to match His goodness.”",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the ANF English as printed. Hartel's Latin text has only non "
+             "suis tantum, 'not only to His own'; the words 'but to aliens also' (sed etiam "
+             "alienis) stand only in the older printed editions his apparatus cites, which the "
+             "English follows. "
+             "modern_rendering keeps them, as the text field does. It follows the Latin where "
+             "the English misleads: 'aliens' is 'strangers', and degeneres, 'degenerate', is to "
+             "fall short of one's birth."),
+        _src("lpc.source.pontius-life-and-passion-of-cyprian",
+             f"Life of Cyprian, section 9; English at {ANF05}, lines 27967-27975; Latin at "
+             f"{VITA_LAT}, lines 40837-40843"),
+        2,
+        ["participant asks why Cyprian told his people to help those outside the church",
+         "participant asks what Cyprian preached during the plague",
+         "participant asks what it meant to be born of God"],
+        ["participant asks what the people then did -- "
+         "lpc.quote.good-done-to-all-not-only-the-household gives that"],
+        ["The words are Pontius's report of a sermon he heard, not a text of Cyprian's own; the "
+         "speaker must not present them as a sermon Cyprian wrote down.",
+         "The passage does not say the persecutors themselves were helped; the speaker must not "
+         "supply that."],
+        f"Pontius, Life and Passion of Cyprian, section 9. English in the ANF translation at "
+        f"{ANF05}, lines 27967-27975. Latin in Hartel's edition at {VITA_LAT}, lines 40837-40843 "
+        "(OCR text). The sentences before it, in which Cyprian urges love of enemies after the "
+        "pattern of Matthew v. 44-45, are left out. The passage carries the story "
+        "lpc.story.the-plague-and-the-enemies.",
+    )
+
+    emit_quote(
+        "good-done-to-all-not-only-the-household",
+        "Thus what is good was done in the liberality of overflowing works to all men, not to "
+        "those only who are of the household of faith. Something more was done than is recorded "
+        "of the incomparable benevolence of Tobias. He must forgive, and forgive again, and "
+        "frequently forgive; or, to speak more truly, he must of right concede that, although "
+        "very much might be done before Christ, yet that something more might be done after "
+        "Christ, since to His times all fulness is attributed. Tobias collected together those "
+        "who were slain by the king and cast out, of his own race only.",
+        "lpc.figure.pontius",
+        "verbatim",
+        "A modern listener may not know Tobias, who is Tobit in the Book of Tobit. He buried the "
+        "dead of his own people whom the king had killed and thrown out. Pontius claims that "
+        "more was done in the plague at Carthage, because the help went to everyone.",
+        "So good was done, in a flood of generous works, to all people, not only to those of the "
+        "household of faith. More was done than is recorded of the matchless kindness of Tobias. "
+        "Tobias must forgive, and forgive again, and often forgive. Or, to speak more truly, he "
+        "must rightly grant this. Much could be done before Christ, but something more could be "
+        "done after Christ, since all fullness belongs to His times. Tobias gathered those whom "
+        "the king had killed and thrown out, but only those of his own race.",
+        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        _src("lpc.source.pontius-life-and-passion-of-cyprian",
+             f"Life of Cyprian, section 10; English at {ANF05}, lines 27990-27999; Latin at "
+             f"{VITA_LAT}, lines 40854-40895"),
+        2,
+        ["participant asks whether the church helped people outside it in the plague",
+         "participant asks how the plague relief compared with older examples of mercy"],
+        ["participant asks what Cyprian preached to start the relief -- "
+         "lpc.quote.it-becomes-us-to-answer-to-our-birth gives that"],
+        ["The passage does not say who received help or how much; the speaker must not supply "
+         "names, numbers or the persecutors among them."],
+        f"Pontius, Life and Passion of Cyprian, section 10. English in the ANF translation at "
+        f"{ANF05}, lines 27990-27999. Latin in Hartel's edition at {VITA_LAT}, lines 40854-40895 "
+        "(OCR text). The sentences before it, on the poor giving their labour, are left out; the "
+        "story lpc.story.the-plague-and-the-enemies tells them in plain words. Tobias is Tobit "
+        "(Tobit i-ii). The passage carries the story lpc.story.the-plague-and-the-enemies.",
+    )
+
+    # --- lpc.story.numidicus -------------------------------------------------
+    emit_quote(
+        "numidicus-remained-unwillingly",
+        "That which belongs, dearest brethren, both to the common joy and to the greatest glory "
+        "of our Church ought to be told to you; for you must know that I have been admonished and "
+        "instructed by divine condescension, that Numidicus the presbyter should be appointed in "
+        "the number of Carthaginian presbyters, and should sit with us among the clergy,—a man "
+        "illustrious by the brightest light of confession, exalted in the honour both of virtue "
+        "and of faith; who by his exhortation sent before himself an abundant number of martyrs, "
+        "slain by stones and by the flames, and who beheld with joy his wife abiding by his side, "
+        "burned (I should rather say, preserved) together with the rest. He himself, half "
+        "consumed, overwhelmed with stones, and left for dead,—when afterwards his daughter, with "
+        "the anxious consideration of affection, sought for the corpse of her father,—was found "
+        "half dead, was drawn out and revived, and remained unwillingly from among the companions "
+        "whom he himself had sent before. But the reason of his remaining behind, as we see, was "
+        "this: that the Lord might add him to our clergy, and might adorn with glorious priests "
+        "the number of our presbyters that had been desolated by the lapse of some.",
+        "lpc.figure.cyprian",
+        "verbatim",
+        "A modern listener may hear 'divine condescension' as God talking down. Here it means "
+        "God's gracious kindness. 'Burned, I should rather say preserved' is not a cold word "
+        "game: for Cyprian a martyr's death completes a life. The 'lapse of some' is the fall of "
+        "presbyters who gave way in the persecution.",
+        "Dearest brothers, you must be told news that belongs both to our common joy and to the "
+        "greatest glory of our Church. You should know that God, in His kindness, has warned and "
+        "taught me to add Numidicus the presbyter to the presbyters of Carthage. He is to sit "
+        "with us among the clergy. He is a man made famous by the brightest light of confession, "
+        "raised high in honour for virtue and for faith. By his urging he sent a great number of "
+        "martyrs ahead of himself, killed by stones and by fire. With joy he watched his wife, "
+        "who stayed at his side, burned with the others. I should rather say she was preserved. "
+        "He himself was half burned, buried under stones and left for dead. Afterwards his "
+        "daughter, with the anxious care of love, searched for her father's body. He was found "
+        "half dead, pulled out and revived. Against his will, he stayed behind the companions he "
+        "himself had sent ahead. But the reason he stayed behind, as we see, was this. The Lord "
+        "meant to add him to our clergy. He meant to fill with glorious priests the ranks of our "
+        "presbyters, left thin by the fall of some.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the ANF English as printed. Hartel prints remansit inuitus, "
+             "'remained unwillingly'; his apparatus records inuictus, 'unconquered', from one "
+             "manuscript and the older printed editions, and the ANF gives it as a note. modern_rendering follows Hartel's "
+             "text. 'Divine condescension' renders dignatione diuina, God's gracious favour."),
+        _src("lpc.source.cyprian-epistles",
+             f"Epistle XXXIV (Oxford Ep. 40); English at {ANF05}, lines 32096-32115; Latin at "
+             f"{EPIST_LAT}, lines 5642-5679"),
+        1,
+        ["participant asks who Numidicus was",
+         "participant asks how Cyprian spoke of a survivor of martyrdom",
+         "participant asks how a confessor came to be made a presbyter"],
+        ["participant wants the whole story of Numidicus -- lpc.story.numidicus gives that"],
+        ["The passage does not say where Numidicus's daughter searched or found him; the speaker "
+         "must not supply a place.",
+         "The passage does not give the wife's or the daughter's names or words; do not invent "
+         "them."],
+        f"Cyprian, Epistle XXXIV in the ANF numbering (40 in the Oxford numbering). English in "
+        f"the ANF translation at {ANF05}, lines 32096-32115. Latin in Hartel's edition at "
+        f"{EPIST_LAT}, lines 5642-5679. The greeting before the passage is left out, and so is "
+        "the rest of the letter, on Numidicus's later promotion. A translator's note on "
+        "'unwillingly' and an editor's comment sit inside the passage in the source and are "
+        "stripped. The passage carries the story lpc.story.numidicus.",
+    )
+
+    # --- lpc.story.hundred-thousand-sesterces -------------------------------
+    emit_quote(
+        "grief-and-not-without-tears",
+        "With excessive grief of mind, and not without tears, dearest brethren, I have read your "
+        "letter which you wrote to me from the solicitude of your love, concerning the captivity "
+        "of our brethren and sisters.",
+        "lpc.figure.cyprian",
+        "verbatim",
+        "A modern listener may hear this as a formal opening. It is the first thing Cyprian says "
+        "to the eight Numidian bishops, before any argument: he read their news of captured "
+        "brothers and sisters in grief and in tears.",
+        "With great grief of mind, and not without tears, dearest brothers, I have read your "
+        "letter. You wrote it to me out of your loving concern, about the captivity of our "
+        "brothers and sisters.",
+        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        _src("lpc.source.cyprian-epistles",
+             f"Epistle LIX (Oxford Ep. 62), section 1; English at {ANF05}, lines 36009-36012; "
+             f"Latin at {EPIST_LAT}, lines 10802-10805"),
+        2,
+        ["participant asks how Cyprian answered the news of the captives",
+         "participant asks how a bishop showed grief for people in another church"],
+        ["participant asks why the captives had to be ransomed -- "
+         "lpc.quote.christ-redeemed-in-our-captive-brethren gives that"],
+        ["The passage does not say who took the captives or where; the speaker must not supply "
+         "a people or a place."],
+        f"Cyprian, Epistle LIX in the ANF numbering (62 in the Oxford numbering), section 1. "
+        f"English in the ANF translation at {ANF05}, lines 36009-36012. Latin in Hartel's edition "
+        f"at {EPIST_LAT}, lines 10802-10805. The greeting naming the eight bishops comes just "
+        "before it and is left out. The passage carries the story "
+        "lpc.story.hundred-thousand-sesterces.",
+    )
+
+    emit_quote(
+        "christ-redeemed-in-our-captive-brethren",
+        "For as the Apostle Paul says, “As many of you as have been baptized into Christ have put "
+        "on Christ,” Christ is to be contemplated in our captive brethren, and He is to be "
+        "redeemed from the peril of captivity who redeemed us from the peril of death; so that He "
+        "who took us out of the jaws of the devil, who abides and dwells in us, may now Himself "
+        "be rescued and redeemed from the hands of barbarians by a sum of money—who redeemed us "
+        "by His cross and blood—who suffers these things to happen for this reason, that our "
+        "faith may be tried, whether each one of us will do for another what he would wish to be "
+        "done for himself, if he himself were held captive among barbarians.",
+        "lpc.figure.cyprian",
+        "verbatim",
+        "A modern listener may hear 'redeemed' only in its church sense. Cyprian uses both "
+        "senses at once: Christ redeemed us by His blood, and now Christ, present in the "
+        "captives, is to be redeemed with money. The ransom is the point of the letter.",
+        "For the Apostle Paul says, “As many of you as have been baptized into Christ have put on "
+        "Christ.” So Christ is to be seen in our captive brothers. He who redeemed us from the "
+        "danger of death is to be redeemed from the danger of captivity. He took us out of the "
+        "devil's jaws, and He stays and lives in us. Now He Himself is to be rescued and redeemed "
+        "from the hands of barbarians with a sum of money. He redeemed us by His cross and blood. "
+        "He lets these things happen for this reason, that our faith may be tested. Will each of "
+        "us do for another what he would want done for himself, if he were held captive among "
+        "barbarians?",
+        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        _src("lpc.source.cyprian-epistles",
+             f"Epistle LIX (Oxford Ep. 62), section 2; English at {ANF05}, lines 36034-36046; "
+             f"Latin at {EPIST_LAT}, lines 10842-10851"),
+        1,
+        ["participant asks why the church paid to ransom captives",
+         "participant asks how Cyprian saw Christ in people in need"],
+        ["participant asks how much was sent -- lpc.quote.a-hundred-thousand-sesterces gives "
+         "that"],
+        ["The words in inner quotation marks are Galatians iii. 27; the speaker must not present "
+         "them as Cyprian's own."],
+        f"Cyprian, Epistle LIX in the ANF numbering (62 in the Oxford numbering), section 2. "
+        f"English in the ANF translation at {ANF05}, lines 36034-36046. Latin in Hartel's "
+        f"edition at {EPIST_LAT}, lines 10842-10851. A scripture-reference note (Gal. iii. 27) "
+        "inside the passage is stripped. The section goes on to the danger to the captive "
+        "virgins, which is left out. The passage carries the story "
+        "lpc.story.hundred-thousand-sesterces.",
+    )
+
+    emit_quote(
+        "a-hundred-thousand-sesterces",
+        "Finally, we give you the warmest thanks that you have wished us to be sharers in your "
+        "anxiety, and in so great and necessary a work—that you have offered us fruitful fields "
+        "in which we might cast the seeds of our hope, with the expectation of a harvest of the "
+        "most abundant fruits which will proceed from this heavenly and saving operation. We have "
+        "then sent you a sum of one hundred thousand sesterces, which have been collected here in "
+        "the Church over which by the Lord’s mercy we preside, by the contributions of the clergy "
+        "and people established with us, which you will there dispense with what diligence you "
+        "may.",
+        "lpc.figure.cyprian",
+        "verbatim",
+        "A modern listener may want the sum in today's money. Our sources give no such figure. "
+        "What Cyprian says plainly is where it came from: the clergy and people of one church, "
+        "collected for captives in another province. He thanks the Numidian bishops for the "
+        "chance to give.",
+        "Finally, we give you our warmest thanks. You wanted us to share in your concern, and in "
+        "so great and needed a work. You offered us fruitful fields in which to sow the seeds of "
+        "our hope. We expect a harvest of the richest fruit from this heavenly work that brings "
+        "salvation. So we have sent you a sum of one hundred thousand sesterces. It was "
+        "collected here in the Church over which, by the Lord's mercy, we preside. It came from "
+        "the gifts of the clergy and people who live among us. You will hand it out there as "
+        "carefully as you can.",
+        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        _src("lpc.source.cyprian-epistles",
+             f"Epistle LIX (Oxford Ep. 62), section 3; English at {ANF05}, lines 36072-36089; "
+             f"Latin at {EPIST_LAT}, lines 10888-10896"),
+        1,
+        ["participant asks how much money Cyprian's church sent for the captives",
+         "participant asks where the ransom money came from",
+         "participant asks why Cyprian thanked the bishops who asked for money"],
+        ["participant wants the whole story of the ransom -- "
+         "lpc.story.hundred-thousand-sesterces gives that"],
+        ["The speaker must not convert the sum into modern money; no source of ours supports a "
+         "conversion.",
+         "The passage does not say whether the ransom freed anyone; the speaker must not supply "
+         "an outcome."],
+        f"Cyprian, Epistle LIX in the ANF numbering (62 in the Oxford numbering), section 3. "
+        f"English in the ANF translation at {ANF05}, lines 36072-36089. Latin in Hartel's "
+        f"edition at {EPIST_LAT}, lines 10888-10896. Two editor's notes inside the passage, one "
+        "of them a modern-currency estimate, are stripped and are not part of the quotation. "
+        "The passage carries the story lpc.story.hundred-thousand-sesterces.",
+    )
+
+    # --- lpc.story.celerinus-writes-to-lucian -------------------------------
+    emit_quote(
+        "grieve-with-me-for-my-sister",
+        "Know, nevertheless, that I am placed in the midst of a great tribulation; and, as if you "
+        "were present with me, I remember your former love day and night, God only knows. And "
+        "therefore I ask that you will grant my desire, and that you will grieve with me at the "
+        "(spiritual) death of my sister, who in this time of devastation has fallen from Christ; "
+        "for she has sacrificed and provoked our Lord, as seems manifest to us.",
+        "lpc.figure.celerinus",
+        "verbatim",
+        "A modern listener may take 'the death of my sister' as a burial. She was alive. "
+        "Celerinus grieves a death of the spirit: she had offered sacrifice in the persecution "
+        "and so, as he saw it, fallen away from Christ.",
+        "Know, however, that I am in the middle of great trouble. As if you were here with me, I "
+        "remember your old love day and night; God alone knows. And so I ask you to grant my "
+        "wish. Grieve with me over my sister's death, a death of the spirit. In this time of "
+        "ruin she has fallen away from Christ. For she has sacrificed and angered our Lord, as "
+        "seems clear to us.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the ANF English as printed. '(spiritual)' is the translator's "
+             "word; the Latin has only in morte sororis meae, 'at the death of my sister'. "
+             "modern_rendering keeps the translator's sense as 'a death of the spirit', because "
+             "the bare word would mislead. 'Provoked' renders exacerbauit, 'angered'."),
+        _src("lpc.source.cyprian-epistles",
+             f"Epistle XX (Oxford Ep. 21), Celerinus to Lucian, section 2; English at {ANF05}, "
+             f"lines 30569-30575; Latin at {EPIST_LAT}, lines 3119-3124"),
+        2,
+        ["participant asks how Celerinus spoke of his sister's fall",
+         "participant asks how a family member grieved someone who lapsed"],
+        ["participant wants Lucian's answer -- lpc.quote.the-case-set-before-the-bishop gives "
+         "that"],
+        ["The passage does not name the sister; do not invent a name for her.",
+         "The letter is by Celerinus, kept in Cyprian's collection; the speaker must not "
+         "present it as Cyprian's."],
+        f"Celerinus to Lucian, Epistle XX in the ANF numbering (21 in the Oxford numbering), "
+        f"section 2. English in the ANF translation at {ANF05}, lines 30569-30575. Latin in "
+        f"Hartel's edition at {EPIST_LAT}, lines 3119-3124. The section goes on to his Easter "
+        "tears and the case of Numeria and Candida, which is left out. The passage carries the "
+        "story lpc.story.celerinus-writes-to-lucian.",
+    )
+
+    emit_quote(
+        "shut-up-in-two-cells",
+        "You see, then, brother, how (I have done this) in part of what Paulus bade me, as what we "
+        "in all cases decreed when we were in this tribulation, wherein by the command of the "
+        "emperor we were ordered to be put to death by hunger and thirst, and were shut up in two "
+        "cells, that so they might weaken us by hunger and thirst. Moreover, the fire from the "
+        "effect of our torture was so intolerable that nobody could bear it. But now we have "
+        "attained the brightness itself.",
+        "lpc.figure.lucian",
+        "verbatim",
+        "A modern listener may expect a clear sentence. Lucian wrote from prison, and the ANF "
+        "translator calls the Latin confused. What is clear is the sentence on the confessors: "
+        "death by hunger and thirst, in two cells. 'The brightness itself' is the glory he "
+        "believes they have reached by confessing.",
+        "So you see, brother, how I have done this. It is partly what Paulus told me, and partly "
+        "what we all decided for everyone while we were in this trouble. In it, by the emperor's "
+        "command, we were ordered to be put to death by hunger and thirst. We were shut up in two "
+        "cells, so that they might weaken us by hunger and thirst. Besides, the fire that came "
+        "with our torture was so unbearable that no one could endure it. But now we have reached "
+        "the brightness itself.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the ANF English as printed. '(I have done this)' is the "
+             "translator's supply; the Latin of the first sentence is broken in Hartel's text, "
+             "and the ANF notes another reading of the fire clause, 'by the smoke of fire'. "
+             "modern_rendering follows the English as printed, and 'decreed' renders censuimus, "
+             "'decided'."),
+        _src("lpc.source.cyprian-epistles",
+             f"Epistle XXI (Oxford Ep. 22), Lucian to Celerinus, section 2; English at {ANF05}, "
+             f"lines 30702-30711; Latin at {EPIST_LAT}, lines 3298-3305"),
+        2,
+        ["participant asks what prison was like for the confessors in Carthage",
+         "participant asks how the confessors were treated under Decius"],
+        ["participant wants to know who could grant peace to the lapsed -- "
+         "lpc.quote.the-case-set-before-the-bishop gives that"],
+        ["The passage does not say what 'the brightness' is; the speaker must not supply a "
+         "vision or a death.",
+         "The letter is by Lucian, kept in Cyprian's collection; the speaker must not present "
+         "it as Cyprian's."],
+        f"Lucian to Celerinus, Epistle XXI in the ANF numbering (22 in the Oxford numbering), "
+        f"section 2. English in the ANF translation at {ANF05}, lines 30702-30711. Latin in "
+        f"Hartel's edition at {EPIST_LAT}, lines 3298-3305. The first part of the section, "
+        "Paulus's charge to Lucian, is left out. A translator's note inside the passage is "
+        "stripped. The passage carries the story lpc.story.celerinus-writes-to-lucian.",
+    )
+
+    emit_quote(
+        "the-case-set-before-the-bishop",
+        "And therefore, brother, as here, since the Lord has begun to give peace to the Church "
+        "itself, according to the precept of Paulus, and our tractate, the case being set forth "
+        "before the bishop, and confession being made, I ask that not only these may have peace, "
+        "but also (all) those whom you know to be very near to our heart.",
+        "lpc.figure.lucian",
+        "verbatim",
+        "A modern listener may hear 'confession' as a private act before a priest. The Latin is "
+        "exomologesis, the sinner's open confession before the church. Lucian grants peace in "
+        "the martyrs' name, but on a condition: each case goes before the bishop first.",
+        "And so, brother, I ask that it be done as it is here. When the Lord has begun to give "
+        "peace to the Church itself, let each case be set before the bishop and the sin openly "
+        "confessed. This is as Paulus commanded and as we ruled. Then let not only these women "
+        "have peace, but also those whom you know to be dear to our heart.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the ANF English as printed. modern_rendering follows Hartel's "
+             "Latin where the English misleads: cum Dominus coeperit is 'when the Lord has "
+             "begun', not 'since'; facta exomologesi is the sin 'openly confessed'; tractatum, "
+             "'tractate', is the confessors' own ruling; hae and quas are feminine, 'these "
+             "women' and 'those'; and '(all)' is the translator's supply, left out."),
+        _src("lpc.source.cyprian-epistles",
+             f"Epistle XXI (Oxford Ep. 22), Lucian to Celerinus, section 2; English at {ANF05}, "
+             f"lines 30728-30732; Latin at {EPIST_LAT}, lines 3338-3342"),
+        1,
+        ["participant asks what Lucian granted to the lapsed women",
+         "participant asks what condition the confessors set on the peace they gave",
+         "participant asks whether a confessor could forgive without the bishop"],
+        ["participant wants the whole exchange between Celerinus and Lucian -- "
+         "lpc.story.celerinus-writes-to-lucian gives that"],
+        ["The speaker must not tell Lucian's grant without its condition, that each case goes "
+         "before the bishop.",
+         "The passage does not say what the bishop then decided; the speaker must not supply "
+         "an outcome for Numeria and Candida."],
+        f"Lucian to Celerinus, Epistle XXI in the ANF numbering (22 in the Oxford numbering), "
+        f"section 2. English in the ANF translation at {ANF05}, lines 30728-30732. Latin in "
+        f"Hartel's edition at {EPIST_LAT}, lines 3338-3342. A page-break tag inside the passage "
+        "is stripped. 'These' are Numeria and Candida, named earlier in the section. The passage "
+        "carries the story lpc.story.celerinus-writes-to-lucian.",
+    )
+
+    emit_quote(
+        "because-i-am-already-weary",
+        "We greet Saturus with his family, Bassianus and all the clergy, Uranius, Alexius, "
+        "Quintianus, Colonica, and all whose names I have not written, because I am already "
+        "weary. Therefore they must pardon me.",
+        "lpc.figure.lucian",
+        "verbatim",
+        "A modern listener may pass over a list of greetings. This one ends with a prisoner "
+        "who has been starved for days saying he is too tired to write more names.",
+        "We greet Saturus and his family. We greet Bassianus and all the clergy, and Uranius, "
+        "Alexius, Quintianus and Colonica. We greet all those too whose names I have not written. "
+        "I did not write them because I am already tired. So they must forgive me.",
+        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        _src("lpc.source.cyprian-epistles",
+             f"Epistle XXI (Oxford Ep. 22), Lucian to Celerinus, section 3; English at {ANF05}, "
+             f"lines 30738-30741; Latin at {EPIST_LAT}, lines 3350-3353"),
+        3,
+        ["participant asks how Lucian's letter from prison ends",
+         "participant asks what the confessors' own letters sound like"],
+        ["participant wants what the prison was like -- lpc.quote.shut-up-in-two-cells gives "
+         "that"],
+        ["The passage does not say who Saturus or the others were; the speaker must not supply "
+         "their roles."],
+        f"Lucian to Celerinus, Epistle XXI in the ANF numbering (22 in the Oxford numbering), "
+        f"section 3. English in the ANF translation at {ANF05}, lines 30738-30741. Latin in "
+        f"Hartel's edition at {EPIST_LAT}, lines 3350-3353. The greetings before it and the "
+        "farewell after it are left out. The passage carries the story "
+        "lpc.story.celerinus-writes-to-lucian.",
+    )
+
+    # --- lpc.story.the-death-of-cyprian -------------------------------------
+    emit_quote(
+        "the-people-kept-watch-at-the-door",
+        "A gentle custody, however, had him in charge when taken and placed for one night in the "
+        "officer’s house; so that we, his associates and friends, were as usual in his company. "
+        "The whole people in the meantime, in anxiety that nothing should be done throughout the "
+        "night without their knowledge, kept watch before the officer’s door.",
+        "lpc.figure.pontius",
+        "verbatim",
+        "A modern listener may picture a prison cell. Cyprian spent his last night in an "
+        "officer's house, under a light guard, with his friends around him. 'The whole people' "
+        "is the Christian congregation of Carthage, keeping watch in the street.",
+        "He was taken and placed for one night in the officer's house, but a gentle guard kept "
+        "him there. So we, his companions and friends, were with him as usual. Meanwhile the "
+        "whole people kept watch before the officer's door. They were anxious that nothing should "
+        "be done during the night without their knowing.",
+        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        _src("lpc.source.pontius-life-and-passion-of-cyprian",
+             f"Life of Cyprian, section 15; English at {ANF05}, lines 28181-28186; Latin at "
+             f"{VITA_LAT}, lines 41246-41250"),
+        2,
+        ["participant asks where Cyprian spent his last night",
+         "participant asks what the congregation did the night before Cyprian's death"],
+        ["participant asks what the Acta says of that night -- "
+         "lpc.quote.the-whole-people-of-the-brethren-came gives that"],
+        ["The passage does not say how many kept watch; the speaker must not supply a number."],
+        f"Pontius, Life and Passion of Cyprian, section 15. English in the ANF translation at "
+        f"{ANF05}, lines 28181-28186. Latin in Hartel's edition at {VITA_LAT}, lines 41246-41250 "
+        "(OCR text). 'The officer' is the princeps of the Latin. The passage carries the story "
+        "lpc.story.the-death-of-cyprian.",
+    )
+
+    emit_quote(
+        "the-whole-people-of-the-brethren-came",
+        "illuc uniuersus populus fratrum conuenit, et cum hoc sanctus Cyprianus conperisset, "
+        "custodiri puellas praecepit, quoniam omnes in uico ante ianuam hospitii principis "
+        "manserant.",
+        ACTA_SPEAKER,
+        "verbatim",
+        "A modern listener may wonder why young women needed guarding. The Acta does not say "
+        "from what. It says only that the whole Christian people gathered in the street outside "
+        "the officer's lodging, and that Cyprian had the young women among them guarded.",
+        "The whole people of the brothers came there. When holy Cyprian learned of this, he "
+        "ordered the young women to be guarded. He did so because all of them had stayed in the "
+        "street, before the door of the officer's lodging.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the Latin of Knopf and Krueger's edition (1929). Hartel's "
+             "printing has comperisset for conperisset, and records castigari, 'restrained', as "
+             "another reading for custodiri, 'guarded'. modern_rendering is a translation of the "
+             "Latin; the Acta has no English in this world's vendored texts."),
+        _src("lpc.source.acta-proconsularia-sancti-cypriani",
+             f"Acta Proconsularia 1.6; Latin at {KNOPF}, lines 4877-4881; the same text in "
+             f"{VITA_LAT}, lines 41513-41516, and {GEBHARDT}, lines 6583-6586"),
+        2,
+        ["participant asks what the Acta says about the night before Cyprian's death",
+         "participant asks how Cyprian cared for his people while under arrest"],
+        ["participant wants Pontius's account of that night -- "
+         "lpc.quote.the-people-kept-watch-at-the-door gives that"],
+        ["The passage does not say what the young women were guarded from; the speaker must "
+         "not supply a danger.",
+         "The Acta is an early compilation with an unnamed compiler, not a court transcript; "
+         "the speaker must not call it one."],
+        f"Acta Proconsularia of Cyprian, 1.6. Latin in Knopf and Krueger's edition at {KNOPF}, "
+        f"lines 4877-4881. The same text is in Hartel's edition at {VITA_LAT}, lines "
+        f"41513-41516, and in Gebhardt's at {GEBHARDT}, lines 6583-6586; those two OCR files "
+        "carry line numbers and misreads inside the passage. The English is a translation "
+        "made for this record. The passage carries the story lpc.story.the-death-of-cyprian.",
+    )
+
+    emit_quote(
+        "walled-in-by-a-mingled-multitude",
+        "He went out from the house of the officer, though he was the officer of Christ and God, "
+        "and was walled in on all sides by the ranks of a mingled multitude. And such a "
+        "numberless army hung upon his company, as if they had come with an assembled troop to "
+        "assault death itself.",
+        "lpc.figure.pontius",
+        "verbatim",
+        "A modern listener may miss the word play. In Latin the officer is a princeps, and "
+        "Pontius calls Cyprian a princeps of Christ and God. The 'mingled multitude' is a mixed "
+        "crowd, Christians and pagans together.",
+        "He went out from the officer's house, though he was himself an officer of Christ and "
+        "God. On every side he was walled in by the ranks of a mixed crowd. So huge an army clung "
+        "to him as he went. It was as if they had come as a gathered troop to storm death itself.",
+        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        _src("lpc.source.pontius-life-and-passion-of-cyprian",
+             f"Life of Cyprian, section 16; English at {ANF05}, lines 28205-28209; Latin at "
+             f"{VITA_LAT}, lines 41268-41272"),
+        2,
+        ["participant asks who went with Cyprian to his trial",
+         "participant asks how many people followed Cyprian on his last day"],
+        ["participant asks what the Acta says of the crowd -- "
+         "lpc.quote.let-us-too-be-beheaded-with-him gives that"],
+        ["The passage does not give a number for the crowd; the speaker must not supply one."],
+        f"Pontius, Life and Passion of Cyprian, section 16. English in the ANF translation at "
+        f"{ANF05}, lines 28205-28209. Latin in Hartel's edition at {VITA_LAT}, lines 41268-41272 "
+        "(OCR text). The passage carries the story lpc.story.the-death-of-cyprian.",
+    )
+
+    emit_quote(
+        "a-standard-bearer-of-the-sect",
+        "And thus, therefore, the judge reads from his tablet the sentence which lately in the "
+        "vision he had not read,—a spiritual sentence, not rashly to be spoken,—a sentence worthy "
+        "of such a bishop and such a witness; a glorious sentence, wherein he was called a "
+        "standard-bearer of the sect, and an enemy of the gods, and one who was to be an example "
+        "to his people; and that with his blood discipline would begin to be established.",
+        "lpc.figure.pontius",
+        "verbatim",
+        "A modern listener may hear 'discipline' as punishment. The proconsul meant that "
+        "Cyprian's death would restore Roman order. Pontius turns each charge into praise: "
+        "Cyprian did bear Christ's standard, did teach against idols, and did set his people an "
+        "example. 'Witness' is the old sense of martyr.",
+        "And so the judge read the sentence from his tablet, the one he had not read in the "
+        "vision a little before. It was a spiritual sentence, not to be spoken lightly. It was a "
+        "sentence worthy of such a bishop and such a witness. It was a glorious sentence. In it "
+        "Cyprian was called a standard-bearer of the sect and an enemy of the gods. He was to be "
+        "an example to his own people, and with his blood discipline would begin to be made "
+        "firm.",
+        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        _src("lpc.source.pontius-life-and-passion-of-cyprian",
+             f"Life of Cyprian, section 17; English at {ANF05}, lines 28231-28237; Latin at "
+             f"{VITA_LAT}, lines 41312-41317"),
+        2,
+        ["participant asks what Cyprian was sentenced for",
+         "participant asks how Pontius read the proconsul's sentence"],
+        ["participant asks how Cyprian answered the sentence -- lpc.quote.thanks-be-to-god "
+         "gives that"],
+        ["The vision is Cyprian's dream a year before his death, told earlier in the Life; the "
+         "passage does not say more of it, and the speaker must not supply its details."],
+        f"Pontius, Life and Passion of Cyprian, section 17. English in the ANF translation at "
+        f"{ANF05}, lines 28231-28237. Latin in Hartel's edition at {VITA_LAT}, lines "
+        "41312-41317 (OCR text). The present tense 'reads' is the translator's; the Latin legit "
+        "can be either tense. The Acta gives the sentence in nearly the same words. The passage "
+        "carries the story lpc.story.the-death-of-cyprian.",
+    )
+
+    emit_quote(
+        "thanks-be-to-god",
+        "Thascium Cyprianum gladio animadverti placet. Cyprianus episcopus dixit: Deo gratias.",
+        ACTA_SPEAKER,
+        "verbatim",
+        "A modern listener may hear 'Thanks be to God' as relief or irony. In the Acta it is "
+        "Cyprian's whole answer to his death sentence, the words of the church's own prayer.",
+        "It is decided that Thascius Cyprian be put to death by the sword. Bishop Cyprian said, "
+        "“Thanks be to God.”",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the Latin of Knopf and Krueger's edition (1929), which spells "
+             "animadverti where Hartel and Gebhardt print animaduerti. modern_rendering is a "
+             "translation of the Latin; the Acta has no English in this world's vendored texts."),
+        _src("lpc.source.acta-proconsularia-sancti-cypriani",
+             f"Acta Proconsularia 4.3; Latin at {KNOPF}, lines 4910-4911; the same text in "
+             f"{VITA_LAT}, lines 41577-41579, and {GEBHARDT}, lines 6624-6626"),
+        1,
+        ["participant asks how Cyprian answered his death sentence",
+         "participant asks what Cyprian's last recorded words at his trial were"],
+        ["participant asks how the crowd answered the sentence -- "
+         "lpc.quote.let-us-too-be-beheaded-with-him gives that"],
+        ["Only the Acta gives this answer; the speaker must not attribute it to Pontius.",
+         "The Acta is an early compilation with an unnamed compiler, not a court transcript; "
+         "the speaker must not call it one."],
+        f"Acta Proconsularia of Cyprian, 4.3. Latin in Knopf and Krueger's edition at {KNOPF}, "
+        f"lines 4910-4911. The same text is in Hartel's edition at {VITA_LAT}, lines "
+        f"41577-41579, and in Gebhardt's at {GEBHARDT}, lines 6624-6626; those two OCR files "
+        "carry misreads and line numbers inside the passage. The words before the sentence, "
+        "'and having said this he read the decree from the tablet', are left out. Thascius is "
+        "Cyprian's own first name. The English is a translation made for this record. The "
+        "passage carries the story lpc.story.the-death-of-cyprian.",
+    )
+
+    emit_quote(
+        "let-us-too-be-beheaded-with-him",
+        "Post hanc uero sententiam turba fratrum dicebat: Et nos cum ipso decollemur. propter hoc "
+        "tumultus fratrum exortus est et multa turba eum prosecuta est.",
+        ACTA_SPEAKER,
+        "verbatim",
+        "A modern listener may hear this cry as a riot. In the Acta it is the brothers asking to "
+        "die with their bishop. The uproar follows, and the crowd walks with him to the place of "
+        "execution.",
+        "After this sentence the crowd of the brothers kept saying, “Let us be beheaded with him "
+        "too.” Because of this an uproar rose among the brothers, and a large crowd followed him.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the Latin of Gebhardt's edition (1902), the vendored witness "
+             "that reads cleanly here. modern_rendering is a translation of the Latin; the Acta "
+             "has no English in this world's vendored texts."),
+        _src("lpc.source.acta-proconsularia-sancti-cypriani",
+             f"Acta Proconsularia 5.1; Latin at {GEBHARDT}, lines 6628-6631; the same text in "
+             f"{KNOPF}, lines 4913-4917, and {VITA_LAT}, lines 41581-41583"),
+        1,
+        ["participant asks how the Christians of Carthage reacted to Cyprian's sentence",
+         "participant asks what the crowd cried out at Cyprian's trial"],
+        ["participant asks how Pontius tells the same moment -- "
+         "lpc.quote.o-blessed-people-of-the-church gives that"],
+        ["Pontius does not quote this cry; the speaker must not attribute it to him.",
+         "The passage does not say anyone else was executed; the speaker must not supply that."],
+        f"Acta Proconsularia of Cyprian, 5.1. Latin in Gebhardt's edition at {GEBHARDT}, lines "
+        f"6628-6631. The same text is in Knopf and Krueger's edition at {KNOPF}, lines "
+        f"4913-4917, and in Hartel's at {VITA_LAT}, lines 41581-41583; those two OCR files carry "
+        "misreads inside the passage. The English is a translation made for this record. The "
+        "passage carries the story lpc.story.the-death-of-cyprian.",
+    )
+
+    emit_quote(
+        "he-covered-his-eyes-with-his-own-hand",
+        "postea uero beatus Cyprianus manu sua oculos sibi texit. qui cum lacinias manuales "
+        "ligare sibi non potuisset, Iulianus presbyter et Iulianus subdiaconus ei ligauerunt.",
+        ACTA_SPEAKER,
+        "verbatim",
+        "A modern listener may expect one version of the scene. The two early texts differ here. "
+        "Pontius says Cyprian bound his eyes with his own hands. The Acta says he covered them "
+        "with his hand, and two clergy, both named Julianus, tied the cloths.",
+        "Then the blessed Cyprian covered his eyes with his own hand. He could not tie the "
+        "strips of cloth on himself. So the presbyter Julianus and the subdeacon Julianus tied "
+        "them for him.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the Latin of Knopf and Krueger's edition (1929). "
+             "modern_rendering is a translation of the Latin; the Acta has no English in this "
+             "world's vendored texts. Pontius, Life section 18, says instead that Cyprian bound "
+             "his eyes with his own hands (lpc.quote.the-trees-and-the-trembling-executioner)."),
+        _src("lpc.source.acta-proconsularia-sancti-cypriani",
+             f"Acta Proconsularia 5.5; Latin at {KNOPF}, lines 4923-4927; the same text in "
+             f"{GEBHARDT}, lines 6639-6642, and {VITA_LAT}, lines 41592-41594"),
+        2,
+        ["participant asks who tied the cloth over Cyprian's eyes",
+         "participant asks how the two accounts of Cyprian's death differ"],
+        ["participant wants Pontius's version of the same moment -- "
+         "lpc.quote.the-trees-and-the-trembling-executioner gives that"],
+        ["The two texts differ on who tied the cloths; the speaker must not resolve the "
+         "difference or merge the two."],
+        f"Acta Proconsularia of Cyprian, 5.5. Latin in Knopf and Krueger's edition at {KNOPF}, "
+        f"lines 4923-4927. The same text is in Gebhardt's edition at {GEBHARDT}, lines "
+        f"6639-6642, and in Hartel's at {VITA_LAT}, lines 41592-41594; those two OCR files carry "
+        "misreads inside the passage. The English is a translation made for this record. The "
+        "passage carries the story lpc.story.the-death-of-cyprian.",
+    )
+
+    emit_quote(
+        "the-trees-and-the-trembling-executioner",
+        "Now the place itself where he was about to suffer is level, so that it affords a noble "
+        "spectacle, with its trees thickly planted on all sides. But as, by the extent of the "
+        "space beyond, the view was not attainable to the confused crowd, persons who favoured "
+        "him had climbed up into the branches of the trees, that there might not even be wanting "
+        "to him (what happened in the case of Zacchæus), that he was gazed upon from the trees. "
+        "And now, having with his own hands bound his eyes, he tried to hasten the slowness of "
+        "the executioner, whose office was to wield the sword, and who with difficulty clasped "
+        "the blade in his failing right hand with trembling fingers, until the mature hour of "
+        "glorification strengthened the hand of the centurion with power granted from above to "
+        "accomplish the death of the excellent man, and at length supplied him with the "
+        "permitted strength.",
+        "lpc.figure.pontius",
+        "verbatim",
+        "A modern listener may take the strengthened hand as a reported fact. It is Pontius's "
+        "reading. He also sets the scene to echo Zacchaeus, who climbed a tree to see Jesus. "
+        "The Acta tells none of this, and says the cloths over Cyprian's eyes were tied by two "
+        "clergy.",
+        "The place where he was to suffer is level, so it gives a fine view, with trees planted "
+        "thickly on every side. But the space was large, and the confused crowd could not see. "
+        "Those who supported him had climbed into the branches of the trees. So even this was "
+        "not lacking to him, as happened with Zacchaeus: he was gazed at from the trees. And now "
+        "he had bound his eyes with his own hands. He tried to hurry the slow executioner, whose "
+        "work was to use the sword. The man could hardly grip the blade in his failing right "
+        "hand, with trembling fingers. Then the ripe hour of glory came. It strengthened the "
+        "centurion's hand with power given from above, to carry out the death of this excellent "
+        "man. At last it gave him the strength that had been allowed.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the ANF English as printed. Where the English has 'level', "
+             "Hartel prints his own conjecture conuallis, 'a valley', and records aequalis, "
+             "'level', as the reading the English follows; modern_rendering keeps 'level'. "
+             "'Glorification' renders clarificationis, the hour of his glory as a martyr."),
+        _src("lpc.source.pontius-life-and-passion-of-cyprian",
+             f"Life of Cyprian, section 18; English at {ANF05}, lines 28254-28267; Latin at "
+             f"{VITA_LAT}, lines 41330-41359"),
+        2,
+        ["participant asks where Cyprian was executed",
+         "participant asks how Pontius tells the moment of Cyprian's death"],
+        ["participant wants the Acta's version of the blindfold -- "
+         "lpc.quote.he-covered-his-eyes-with-his-own-hand gives that"],
+        ["The speaker must not present the strengthening of the hand from above as fact; it "
+         "is how Pontius tells it.",
+         "The speaker must not merge Pontius's account of the blindfold with the Acta's; they "
+         "differ."],
+        f"Pontius, Life and Passion of Cyprian, section 18. English in the ANF translation at "
+        f"{ANF05}, lines 28254-28267. Latin in Hartel's edition at {VITA_LAT}, lines "
+        "41330-41359 (OCR text). The section's first sentence, on the soldiers who went with "
+        "him, is left out. Two clauses of the Latin can be read more than one way, and the ANF "
+        "speaks of both the executioner and the centurion. The passage carries the story "
+        "lpc.story.the-death-of-cyprian.",
+    )
+
+    emit_quote(
+        "o-blessed-people-of-the-church",
+        "O blessed people of the Church, who as well in sight as in feeling, and, what is more, "
+        "in outspoken words, suffered with such a bishop as theirs; and, as they had ever heard "
+        "him in his own discourses, were crowned by God the Judge! For although that which the "
+        "general wish desired could not occur, viz., that the entire congregation should suffer "
+        "at once in the fellowship of a like glory, yet whoever under the eyes of Christ "
+        "beholding, and in the hearing of the priest, eagerly desired to suffer, by the "
+        "sufficient testimony of that desire did in some sort send a missive to God, as his "
+        "ambassador.",
+        "lpc.figure.pontius",
+        "verbatim",
+        "A modern listener may hear 'the priest' as a parish priest. Pontius means the bishop, "
+        "Cyprian. He counts the people's longing to die with their bishop as a kind of "
+        "martyrdom: a letter sent ahead to God.",
+        "O blessed people of the Church! In sight and in feeling, and what is more in words "
+        "spoken aloud, they suffered with such a bishop as theirs. As they had always heard him "
+        "say in his own sermons, they were crowned by God the Judge. The common wish was that "
+        "the whole congregation should suffer at once, sharing a like glory. That could not "
+        "happen. Yet some, under the watching eyes of Christ and in the hearing of the bishop, "
+        "truly longed to suffer. Through that longing, a fit witness, each of them sent a kind "
+        "of letter to God, as his envoy.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the ANF English as printed. modern_rendering follows Hartel's "
+             "Latin where the English misleads: 'the priest' renders sacerdotis, here the "
+             "bishop; 'discourses' renders tractante, his preaching; and 'missive' and "
+             "'ambassador' render legationis litteras, an envoy's letter."),
+        _src("lpc.source.pontius-life-and-passion-of-cyprian",
+             f"Life of Cyprian, section 18; English at {ANF05}, lines 28267-28276; Latin at "
+             f"{VITA_LAT}, lines 41359-41367"),
+        2,
+        ["participant asks how the people of Carthage met Cyprian's death",
+         "participant asks whether the congregation wanted to die with their bishop"],
+        ["participant asks what the crowd actually cried -- "
+         "lpc.quote.let-us-too-be-beheaded-with-him gives that"],
+        ["The passage does not say anyone else died that day; the speaker must not supply "
+         "other deaths."],
+        f"Pontius, Life and Passion of Cyprian, section 18. English in the ANF translation at "
+        f"{ANF05}, lines 28267-28276. Latin in Hartel's edition at {VITA_LAT}, lines "
+        "41359-41367 (OCR text). The passage carries the story lpc.story.the-death-of-cyprian.",
+    )
+
+    # --- lpc.story.the-psalms-on-the-wall -----------------------------------
+    emit_quote(
+        "the-psalms-hung-upon-the-wall",
+        "And this he himself did in his last illness of which he died. For he commanded that the "
+        "shortest penitential Psalms of David should be copied for him, and during the days of "
+        "his sickness as he lay in bed he would look at these sheets as they hung upon the wall "
+        "and read them ; and he wept freely and constantly. And that his attention might not be "
+        "interrupted by anyone, about ten days before he departed from the body he asked of us "
+        "who were present that no one should come in to him, except only at the hours in which "
+        "the physicians came to examine him or when nourishment was brought to him. This, "
+        "accordingly, was observed and done, and he had all that time free for prayer. Up to the "
+        "very moment of his last illness he preached the Word of God in the church incessantly, "
+        "vigorously and powerfully, with a clear mind and sound judgment.",
+        "lpc.figure.possidius",
+        "verbatim",
+        "A modern listener may expect a calm deathbed. Possidius gives a man who had taught "
+        "that even good Christians must repent before death, doing it himself: reading psalms "
+        "of repentance on the wall and weeping. 'This' is that repentance, named in the "
+        "sentence just before.",
+        "And he did this himself in the last illness of which he died. He ordered the very few "
+        "penitential Psalms of David to be copied for him. As he lay in bed during his "
+        "sickness, he would look at these sheets hanging on the wall and read them. And he wept "
+        "freely and constantly. He did not want his attention broken by anyone. So about ten "
+        "days before he left the body, he asked those of us who were there to let no one come in "
+        "to him. The only exceptions were the hours when the doctors came to examine him, or "
+        "when food was brought to him. This was kept and done, and he had all that time free for "
+        "prayer. Up to the very moment of his last illness he preached the Word of God in the "
+        "church. He preached without ceasing, with vigour and power, with a clear mind and sound "
+        "judgment.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is Weiskotten's English as printed. Where it has 'the shortest "
+             "penitential Psalms of David', the Latin on the facing page reads Psalmos Davidicos, "
+             "qui sunt paucissimi de poenitentia, 'the Psalms of David on repentance, which are "
+             "very few'; modern_rendering follows the Latin."),
+        _src("lpc.source.possidius-vita-augustini-weiskotten1919",
+             f"Life of Augustine, chapter XXXI; English at {POSSIDIUS}, lines 4924-4938; Latin "
+             f"on the facing page, lines 4887-4899"),
+        1,
+        ["participant asks how Augustine prepared for death",
+         "participant asks whether Augustine practised the repentance he taught",
+         "participant asks what the penitential psalms meant to Augustine"],
+        ["participant wants the moment of his death -- lpc.quote.he-slept-with-his-fathers "
+         "gives that",
+         "participant wants the whole story -- lpc.story.the-psalms-on-the-wall gives that"],
+        ["The passage does not name the psalms; the speaker must not supply which ones.",
+         "'This' refers to repentance before death, from the sentence before; the speaker must "
+         "not read it as something else."],
+        f"Possidius, Life of Augustine, chapter XXXI. English in Weiskotten's translation at "
+        f"{POSSIDIUS}, lines 4924-4938; Latin on the facing page of the same edition, lines "
+        "4887-4899. The sentence before it, on Augustine's teaching that even baptized "
+        "Christians should not die without repentance, is left out; the story "
+        "lpc.story.the-psalms-on-the-wall tells it. The spaced semicolon is the OCR's. The "
+        "passage carries the story lpc.story.the-psalms-on-the-wall.",
+    )
+
+    emit_quote(
+        "he-slept-with-his-fathers",
+        "with sight and hearing unimpaired, while we stood by and watched and prayed, \"he slept "
+        "with his fathers,\" as it is written, \"well-nourished in a good old age.\"",
+        "lpc.figure.possidius",
+        "verbatim",
+        "A modern listener may not know 'he slept with his fathers'. It is the Bible's way of "
+        "saying a man died, and Possidius uses it of Augustine. He stresses that Augustine died "
+        "with his sight and hearing sound, and that Possidius and others were there.",
+        "His sight and hearing were unimpaired. While we stood by, "
+        "watching and praying, “he slept with his fathers,” as it is written, “well nourished in "
+        "a good old age.”",
+        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        _src("lpc.source.possidius-vita-augustini-weiskotten1919",
+             f"Life of Augustine, chapter XXXI; English at {POSSIDIUS}, lines 4979-4981; Latin "
+             f"on the facing page, lines 4940-4942"),
+        1,
+        ["participant asks how Augustine died",
+         "participant asks who was with Augustine when he died"],
+        ["participant wants his last weeks -- lpc.quote.the-psalms-hung-upon-the-wall gives "
+         "that"],
+        ["The passage does not give the day or the cause of death; the speaker must not supply "
+         "either.",
+         "The phrases in quotation marks are Scripture as Possidius uses it; the speaker must "
+         "not present them as Augustine's own words."],
+        f"Possidius, Life of Augustine, chapter XXXI. English in Weiskotten's translation at "
+        f"{POSSIDIUS}, lines 4979-4981. The edition prints the Latin on facing pages, and the "
+        "English sentence breaks across a page. Its opening clause, 'With all the members of "
+        "his body intact,', stands on line 4938, before the facing Latin page (lines "
+        "4939-4978), and is left out; the text field begins after the page. The Latin of the "
+        "whole sentence begins on line 4899 and runs to line 4942. The biblical phrases echo 1 Kings ii. 10 and Genesis xv. 15. The "
+        "passage carries the story lpc.story.the-psalms-on-the-wall.",
+    )
+
+    # --- lpc.force.transmission-institutionally-dominant-side ---------------
+    emit_quote(
+        "thirteen-letters-sent-to-rome",
+        "And what I did, these thirteen letters sent forth at various times declare to you, "
+        "which I have transmitted to you; in which neither counsel to the clergy, nor exhortation "
+        "to the confessors, nor rebuke, when it was necessary, to the exiles, nor my appeals and "
+        "persuasions to the whole brotherhood, that they should entreat the mercy of God, were "
+        "wanting to the full extent that, according to the law of faith and the fear of God, "
+        "with the Lord’s help, my poor abilities could endeavour.",
+        "lpc.figure.cyprian",
+        "verbatim",
+        "A modern listener may picture a published book of letters. Cyprian sent copies of "
+        "thirteen of his own letters to the clergy at Rome, to show them what he had done while "
+        "in hiding. The confessors are those who had confessed Christ before the magistrates.",
+        "These thirteen letters show you what I did. I sent them out at different times, and I "
+        "have passed them on to you. Nothing was missing from them, as far as my poor "
+        "abilities could manage, with the Lord's help, under the law of faith and fear of God. There was advice to the clergy and encouragement to the confessors. "
+        "When it was needed, there was rebuke to the exiles. And there were my appeals to the "
+        "whole brotherhood, urging them to beg for God's mercy.",
+        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        _src("lpc.source.cyprian-epistles",
+             f"Epistle XIV (Oxford Ep. 20), section 2; English at {ANF05}, lines 30188-30195; "
+             f"Latin at {EPIST_LAT}, lines 2983-2989"),
+        2,
+        ["participant asks how Cyprian's letters were kept and passed on",
+         "participant asks how Cyprian accounted for his time in hiding"],
+        ["participant asks about a letter Cyprian suspected was altered -- "
+         "lpc.quote.the-paper-itself gives that"],
+        ["The passage does not list the thirteen letters; the speaker must not supply which "
+         "ones they were."],
+        f"Cyprian, Epistle XIV in the ANF numbering (20 in the Oxford numbering), section 2. "
+        f"English in the ANF translation at {ANF05}, lines 30188-30195. Latin in Hartel's "
+        f"edition at {EPIST_LAT}, lines 2983-2989. The passage carries the force "
+        "lpc.force.transmission-institutionally-dominant-side.",
+    )
+
+    # --- lpc.force.confessors-claim-to-grant-peace --------------------------
+    emit_quote(
+        "thousands-of-certificates-daily",
+        "Moreover, when I found that those who had polluted their hands and mouths with "
+        "sacrilegious contact, or had no less infected their consciences with wicked "
+        "certificates, were everywhere soliciting the martyrs, and were also corrupting the "
+        "confessors with importunate and excessive entreaties, so that, without any "
+        "discrimination or examination of the individuals themselves, thousands of certificates "
+        "were daily given, contrary to the law of the Gospel, I wrote letters in which I recalled "
+        "by my advice, as much as possible, the martyrs and confessors to the Lord’s commands.",
+        "lpc.figure.cyprian",
+        "verbatim",
+        "A modern listener may take both 'certificates' to be one document. The 'wicked "
+        "certificates' are the Decian papers saying a person had sacrificed. The thousands given "
+        "daily are the confessors' letters of peace for the lapsed. Latin calls both libelli.",
+        "Some had stained their hands and mouths by touching what was sacrilege. Others had "
+        "stained their consciences no less with wicked certificates. I found that these people "
+        "were begging the martyrs everywhere. They were also corrupting the confessors with "
+        "pushy and excessive pleas. As a result, thousands of certificates were given every day, "
+        "against the law of the Gospel. No one sorted or examined the people themselves. So I "
+        "wrote letters to call the martyrs and confessors back to the Lord's commands, as far as "
+        "my advice could.",
+        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        _src("lpc.source.cyprian-epistles",
+             f"Epistle XIV (Oxford Ep. 20), section 2; English at {ANF05}, lines 30198-30207; "
+             f"Latin at {EPIST_LAT}, lines 2992-3012"),
+        1,
+        ["participant asks how many letters of peace the confessors gave",
+         "participant asks why Cyprian objected to the confessors' certificates"],
+        ["participant asks what a certificate of peace said -- "
+         "lpc.quote.such-a-one-with-his-friends gives that"],
+        ["'Thousands' is Cyprian's own word in a dispute; the speaker must not present it as a "
+         "count."],
+        f"Cyprian, Epistle XIV in the ANF numbering (20 in the Oxford numbering), section 2. "
+        f"English in the ANF translation at {ANF05}, lines 30198-30207. Latin in Hartel's "
+        f"edition at {EPIST_LAT}, lines 2992-3012. The passage carries the force "
+        "lpc.force.confessors-claim-to-grant-peace.",
+    )
+
+    # --- lpc.force.transmission-institutionally-dominant-side ---------------
+    emit_quote(
+        "the-paper-itself",
+        "I have, moreover, read another epistle, in which neither the person who wrote nor the "
+        "persons to whom it was written were plainly declared; and inasmuch as in the same letter "
+        "both the writing and the matter, and even the paper itself, gave me the idea that "
+        "something had been taken away, or had been changed from the original, I have sent you "
+        "back the epistle as it actually came to hand, that you may examine whether it is the "
+        "very same which you gave to Crementius the sub-deacon, to carry. For it is a very "
+        "serious thing if the truth of a clerical letter is corrupted by any falsehood or deceit.",
+        "lpc.figure.cyprian",
+        "verbatim",
+        "A modern listener may hear 'clerical' as office work. Cyprian means a letter from the "
+        "clergy. He checks a letter from Rome by its handwriting, its content and its paper, and "
+        "sends it back to be compared with what was sent.",
+        "I have also read another letter. In it, neither the writer nor the people it was "
+        "written to were clearly named. In that letter the handwriting, the content and even "
+        "the paper itself made me think something was removed or changed from the original. So "
+        "I have sent the letter back to you just as it reached me. You can check whether it is "
+        "the very one you gave to Crementius the subdeacon to carry. For it is a very serious "
+        "thing if the truth of a letter from the clergy is corrupted by any lie or deceit.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the ANF English as printed. modern_rendering follows Hartel's "
+             "Latin where the English misleads: 'writing' renders scriptura, the handwriting; "
+             "'the matter' renders sensus, the content; and 'clerical' renders clericae, of the "
+             "clergy."),
+        _src("lpc.source.cyprian-epistles",
+             f"Epistle III (Oxford Ep. 9), section 2; English at {ANF05}, lines 28926-28937; "
+             f"Latin at {EPIST_LAT}, lines 1229-1236"),
+        2,
+        ["participant asks whether letters were ever forged or altered",
+         "participant asks how a bishop checked that a letter was genuine"],
+        ["participant asks how Cyprian passed on his own letters -- "
+         "lpc.quote.thirteen-letters-sent-to-rome gives that"],
+        ["The passage does not say what had been changed, or by whom; the speaker must not "
+         "supply either."],
+        f"Cyprian, Epistle III in the ANF numbering (9 in the Oxford numbering), section 2. "
+        f"English in the ANF translation at {ANF05}, lines 28926-28937. Latin in Hartel's "
+        f"edition at {EPIST_LAT}, lines 1229-1236. A translator's note inside the passage is "
+        "stripped. The passage carries the force "
+        "lpc.force.transmission-institutionally-dominant-side.",
+    )
+
+    # --- lpc.force.augustine-engagement-cyprian-conciliar-acts and ----------
+    # --- lpc.gravity.conciliar-authority-theory ------------------------------
+    emit_quote(
+        "earlier-councils-corrected-by-later",
+        "But who can fail to be aware that the sacred canon of Scripture, both of the Old and "
+        "New Testament, is confined within its own limits, and that it stands so absolutely in a "
+        "superior position to all later letters of the bishops, that about it we can hold no "
+        "manner of doubt or disputation whether what is confessedly contained in it is right and "
+        "true; but that all the letters of bishops which have been written, or are being "
+        "written, since the closing of the canon, are liable to be refuted if there be anything "
+        "contained in them which strays from the truth, either by the discourse of some one who "
+        "happens to be wiser in the matter than themselves, or by the weightier authority and "
+        "more learned experience of other bishops, by the authority of Councils; and further, "
+        "that the Councils themselves, which are held in the several districts and provinces, "
+        "must yield, beyond all possibility of doubt, to the authority of plenary Councils which "
+        "are formed for the whole Christian world; and that even of the plenary Councils, the "
+        "earlier are often corrected by those which follow them, when, by some actual "
+        "experiment, things are brought to light which were before concealed, and that is known "
+        "which previously lay hid, and this without any whirlwind of sacrilegious pride, without "
+        "any puffing of the neck through arrogance, without any strife of envious hatred, simply "
+        "with holy humility, catholic peace, and Christian charity?",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may hear 'experiment' as a laboratory test and 'charity' as giving to "
+        "the poor. Augustine means experience of events, and love. A 'plenary' council is a full "
+        "council of the whole church. He uses this ladder of authority to say Cyprian's council "
+        "could be wrong without Cyprian being cut off.",
+        "But who does not know this? The holy canon of Scripture, both Old and New Testament, is "
+        "held within its own limits. It stands far above all later letters of bishops. So no one "
+        "may doubt or dispute whether what is clearly in it is right and true. But bishops' "
+        "letters, written since the canon was closed or still being written, may be shown wrong "
+        "if anything in them strays from the truth. This may come through the word of someone "
+        "wiser in the matter. It may come through the weightier authority and greater learning "
+        "of other bishops, or through councils. Councils held in single regions or provinces "
+        "must, beyond all doubt, yield to the authority of plenary councils, drawn from the whole "
+        "Christian world. And even among plenary councils, the earlier are often corrected by "
+        "the later. This happens when some experience of events brings to light what was hidden, "
+        "and what lay concealed becomes known. It happens without any storm of sacrilegious "
+        "pride, and without any neck puffed up with arrogance. It happens without any quarrel of "
+        "envy and hatred. It happens simply with holy humility, catholic peace and Christian "
+        "love.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the NPNF English as printed. modern_rendering follows "
+             "Petschenig's Latin where the English misleads: 'by some actual experiment' renders "
+             "aliquo experimento rerum, 'some experience of events'; 'refuted' renders "
+             "reprehendi, 'shown wrong'; and 'charity' renders caritate, 'love'. The rhetorical "
+             "question of the Latin is given as a question followed by statements."),
+        _src("lpc.source.augustine-on-baptism-against-the-donatists",
+             "On Baptism, Against the Donatists, book II, chapter 3, section 4; English at "
+             "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 11301-11304; Latin "
+             "at cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt"
+             ", lines 10209-10247"),
+        1,
+        ["participant asks how Augustine could say Cyprian's council was wrong",
+         "participant asks whether a council could correct an earlier council",
+         "participant asks what 'plenary councils' meant to Augustine"],
+        ["participant wants Cyprian's own view of councils -- lpc.quote.bishop-of-bishops "
+         "gives that"],
+        ["The passage does not name which later council corrected which earlier one; the "
+         "speaker must not supply one.",
+         "'Catholic' here means the universal church's peace; the speaker must not read it as "
+         "a modern denomination."],
+        "Augustine, On Baptism, Against the Donatists, book II, chapter 3, section 4. English in "
+        "the NPNF translation at cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, "
+        "lines 11301-11304. Latin in Petschenig's "
+        "edition at cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_"
+        "petschenig1908-1910.txt, lines 10209-10247. The section's opening address to the "
+        "Donatists is left out. The passage carries the force "
+        "lpc.force.augustine-engagement-cyprian-conciliar-acts and the gravity "
+        "lpc.gravity.conciliar-authority-theory.",
+    )
+
+    # --- lpc.gravity.grace-and-human-incapacity -----------------------------
+    emit_quote(
+        "boast-in-nothing-since-nothing-is-our-own",
+        "That we must boast in nothing, since nothing is our own. In the Gospel according to "
+        "John: “No one can receive anything, except it were given him from heaven.” Also in the "
+        "first Epistle of Paul to the Corinthians: “For what hast thou that thou hast not "
+        "received? But if thou hast received it, why boastest thou, as if thou hadst not "
+        "received it?”",
+        "lpc.figure.cyprian",
+        "verbatim",
+        "A modern listener may take the first line as a sermon. It is a heading in Cyprian's "
+        "Testimonies, a handbook of proof texts, with the Scripture that supports it set out "
+        "below. Augustine later quoted the heading many times against the Pelagians.",
+        "We must boast in nothing, since nothing is our own. The Gospel according to John says, "
+        "“No one can receive anything unless it is given to him from heaven.” Paul's first "
+        "letter to the Corinthians also says, “What do you have that you did not receive? And if "
+        "you received it, why do you boast as if you had not received it?”",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the ANF English as printed. The source gives the two proof texts "
+             "with bare labels ('In the Gospel according to John:'); modern_rendering adds the "
+             "verb 'says' to each so that it reads as a sentence. The Latin heading is In nullo "
+             "gloriandum, quando nostrum nihil sit."),
+        _src("lpc.source.cyprian-minor-pastoral-treatises",
+             f"Three Books of Testimonies against the Jews, book III, heading 4; English at "
+             f"{ANF05}, lines 53424-53433; Latin heading at "
+             "cic/texts/cyprian_testimoniorum-libri-tres-adversus-judaeos-lat_hartel1868-csel3"
+             "-tei.txt, line 3300"),
+        2,
+        ["participant asks what Cyprian taught about boasting or merit",
+         "participant asks which words of Cyprian Augustine used against the Pelagians"],
+        ["participant asks how Augustine himself put grace -- "
+         "lpc.quote.two-hear-one-scorns-one-rises gives that"],
+        ["The words in inner quotation marks are John iii. 27 and 1 Corinthians iv. 7; the "
+         "speaker must not present them as Cyprian's own.",
+         "The heading does not address the Pelagian controversy, which came long after Cyprian; "
+         "the speaker must not present it as a reply to Pelagius."],
+        f"Cyprian, Three Books of Testimonies against the Jews (Ad Quirinum), book III, heading "
+        f"4. English in the ANF translation at {ANF05}, lines 53424-53433. Latin heading in "
+        "Hartel's edition at cic/texts/cyprian_testimoniorum-libri-tres-adversus-judaeos-lat_"
+        "hartel1868-csel3-tei.txt, line 3300. The heading's further proof texts (1 Samuel ii. "
+        "3-4, Jeremiah ix. 23-24) are left out. Augustine quotes the heading in the "
+        "anti-Pelagian works, for example at "
+        "cic/texts/npnf105_augustine-anti-pelagian-writings.xml, lines 18089 and 20912. Two "
+        "scripture-reference notes inside the passage are stripped. The passage carries the "
+        "gravity lpc.gravity.grace-and-human-incapacity.",
+    )
+
+    # --- lpc.term.certificates-letters-of-peace -----------------------------
+    emit_quote(
+        "such-a-one-with-his-friends",
+        "For I hear that certificates are so given to some as that it is said, “Let such a one be "
+        "received to communion along with his friends,” which was never in any case done by the "
+        "martyrs so that a vague and blind petition should by and by heap reproach upon us. For "
+        "it opens a wide door to say, “Such a one with his friends;” and twenty or thirty or "
+        "more, may be presented to us, who may be asserted to be neighbours and connections, and "
+        "freedmen and servants, of the man who receives the certificate. And for this reason I "
+        "beg you that you will designate by name in the certificate those whom you yourselves "
+        "see, whom you have known, whose penitence you see to be very near to full satisfaction, "
+        "and so direct to us letters in conformity with faith and discipline.",
+        "lpc.figure.cyprian",
+        "verbatim",
+        "A modern listener may hear 'his friends' as companions. The Latin, cum suis, means 'with "
+        "his own people', his household and kin. Cyprian's objection is that one name opens the "
+        "door to a crowd no one has examined. 'Satisfaction' is the penance that makes amends.",
+        "For I hear that some certificates are given in a way that says, “Let so-and-so be "
+        "received into communion along with his own people.” The martyrs never did this in any "
+        "case. Such a vague and blind request will soon heap blame on us. For it opens a wide "
+        "door to say, “So-and-so with his own people.” Then twenty or thirty or more may be "
+        "brought to us. They may be said to be the relatives, in-laws, freedmen and household of "
+        "the man who received the certificate. For this reason I beg you to name in the "
+        "certificate those whom you yourselves see and have known. Name those whose repentance "
+        "you see is very near to full satisfaction. Then send us letters that agree with faith "
+        "and discipline.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the ANF English as printed. modern_rendering follows Hartel's "
+             "Latin where the English misleads: 'with his friends' renders cum suis, 'with his "
+             "own people'; 'neighbours and connections, and freedmen and servants' renders "
+             "propinqui et adfines et liberti ac domestici, 'relatives, in-laws, freedmen and "
+             "household'; and 'penitence' renders paenitentiam, 'repentance'."),
+        _src("lpc.source.cyprian-epistles",
+             f"Epistle X (Oxford Ep. 15), to the martyrs and confessors, section 4; English at "
+             f"{ANF05}, lines 29936-29949; Latin at {EPIST_LAT}, lines 2467-2476"),
+        2,
+        ["participant asks what a confessor's certificate of peace said",
+         "participant asks why Cyprian wanted each certificate to name the person"],
+        ["participant asks how many certificates were given -- "
+         "lpc.quote.thousands-of-certificates-daily gives that"],
+        ["'Such a one' stands for a name; the speaker must not supply a real person's name.",
+         "The passage does not give a certificate's full wording; the speaker must not invent "
+         "one."],
+        f"Cyprian, Epistle X in the ANF numbering (15 in the Oxford numbering), section 4. "
+        f"English in the ANF translation at {ANF05}, lines 29936-29949. Latin in Hartel's "
+        f"edition at {EPIST_LAT}, lines 2467-2476. The section's first sentence, on letters to "
+        "the clergy and people, is left out. A page-break tag inside the passage is stripped. "
+        "The passage carries the term lpc.term.certificates-letters-of-peace.",
+    )
+
+
 def main() -> None:
     build_stories()
     build_figures()
     build_quotes()
     build_sermon_quotes()
+    build_host_quotes()
 
     chunk_files = sorted(STORY_CHUNKS_DIR.glob("lpcstory*.md"))
     story_files = [w for w in WRITTEN if "/story/" in w]
@@ -2489,7 +3769,7 @@ def main() -> None:
         f"expected one story record per Story-Chunk (7), wrote {len(story_files)}"
     )
     assert len(figure_files) == 7, f"expected 7 figure records, wrote {len(figure_files)}"
-    assert len(quote_files) == 23, f"expected 17 quote records (bounded set, see docstring), " \
+    assert len(quote_files) == 52, f"expected 52 quote records (bounded set, see docstring), " \
         f"wrote {len(quote_files)}"
 
     # Reciprocity self-check: every RELATION_PAIRS id must be a record this

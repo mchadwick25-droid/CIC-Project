@@ -28,6 +28,10 @@ sources:
 relations:
 - type: associated-with
   target: lpc.force.transmission-asymmetric-span-133-year-silence
+- type: associated-with
+  target: lpc.quote.thirteen-letters-sent-to-rome
+- type: associated-with
+  target: lpc.quote.the-paper-itself
 name: 'Transmission: Survival on the Institutionally Dominant Side, Through a 19th-Century Translation
   Programme'
 kind: ongoing
@@ -45,16 +49,13 @@ description: >-
 
 
   This world was acutely aware of transmission and acted on it. Cyprian gathered his own letters into a
-  dossier and sent it on: "these thirteen letters sent forth at various times declare to you, which I
-  have transmitted to you." He knew his letters were read beyond the person they were written to. He
-  also met textual corruption directly. One letter's "writing and the matter, and even the paper itself,
-  gave me the idea that something had been taken away, or had been changed from the original." He sent
+  dossier and sent it on, telling the Roman clergy that thirteen letters, sent out at different times, would show them what he had done. He knew his letters were read beyond the person they were written to. He
+  also met textual corruption directly. In one letter, the handwriting, the content and even the paper made him suspect that something had been cut or changed from the original. He sent
   it back to be checked against the original.
 
 
   Some 170 years on, the same awareness took a new form. Near the end of his life, Augustine
-  set out to review his own works "with a certain judicial severity." He marked what displeased him "as
-  with a censor's pen." It was a deliberate act of shaping what would outlast him.
+  set out to review his own works with a judge's strictness. He marked what displeased him as a censor would. It was a deliberate act of shaping what would outlast him.
 
 
   What this world could not experience is what came later: the Catholic tradition's own selection of
