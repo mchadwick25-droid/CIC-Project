@@ -38,3 +38,14 @@
 ## Verdict
 
 **Revise.** All thirteen round-1 findings are fixed. One new P1, R2-1, comes from the F1 fix: the added source ID points to the 1930 Morin edition, not the 1917 one. The fix is to delete one ID and rebuild the JSON. After that, a one-line recheck of that unit is enough to reach Approved to proceed.
+
+## Round 3: R2-1 recheck
+
+R2-1 is **fixed**. I checked the uncommitted working tree.
+
+- In the front page, the `grounded_in` of `orientation.story[8]` (line 119) now reads `[lpc.limit.the-silent-century, lpc.force.transmission-asymmetric-span-133-year-silence]`. The 1930 Morin source ID is gone.
+- The silent-century limit fully supports the sentence ("nine", "1917", "not yet assessed").
+- The surface diff contains only this one-line removal and the rebuilt site JSON. The JSON parses, and `morin-sermones` appears zero times in it.
+- No new findings.
+
+**Verdict: Approved to proceed.**
