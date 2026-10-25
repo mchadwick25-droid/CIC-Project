@@ -7,6 +7,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { acceptClaim, addCode, closePanel, declineClaim, deeperEnabled, formatCode, getCodeUrl, openGetCode, openPanel, refreshBalances, refreshFreeLeft, removeCode, useDeeper } from '../lib/deeper';
 import { deeperCopy, pilotCopy } from '../lib/deeperCopy';
+import { giftLinks } from '../lib/giftLinks';
 import { dismissPilot, usePilot } from '../lib/pilot';
 import { peakBalance } from '../lib/balancePeak';
 import { accountsEnabled, closeSignIn, openHome, openSignIn, useAccount } from '../lib/accounts';
@@ -15,7 +16,7 @@ import { SignInSteps } from './SignInSteps';
 
 const LOW_AT = 100;
 
-export function GoDeeperPanel() {
+export function GoDeeperPanel({ panelOnly = false }: { panelOnly?: boolean } = {}) {
   const { codes, remaining, low, freeLeft, claim, panelOpen } = useDeeper();
   const pilot = usePilot();
   const account = useAccount();
@@ -41,6 +42,24 @@ export function GoDeeperPanel() {
     if (wasOpen.current && !panelOpen) toggleRef.current?.focus();
     wasOpen.current = panelOpen;
   }, [panelOpen]);
+
+  // Shown alone inside the site's slide-out frame: the panel opens at once, and
+  // closing it tells the site page to put its drawer away.
+  const opened = useRef(false);
+  useEffect(() => {
+    if (!panelOnly) return;
+    if (panelOpen) opened.current = true;
+    else if (opened.current) window.parent.postMessage({ type: 'cic:panel-close' }, '*');
+  }, [panelOnly, panelOpen]);
+  useEffect(() => {
+    if (!panelOnly) return undefined;
+    openPanel();
+    const onMessage = (event: MessageEvent) => {
+      if (event.source === window.parent && (event.data as { type?: string } | null)?.type === 'cic:panel-open') openPanel();
+    };
+    window.addEventListener('message', onMessage);
+    return () => window.removeEventListener('message', onMessage);
+  }, [panelOnly]);
 
   useEffect(() => {
     if (!panelOpen) return undefined;
@@ -80,6 +99,7 @@ export function GoDeeperPanel() {
 
   return (
     <div className="go-deeper sans">
+      {!panelOnly && (
       <div className="go-deeper__ribbon">
         {count !== null && (
           <span className={count < LOW_AT ? 'go-deeper__count go-deeper__count--low' : 'go-deeper__count'} role="status">
@@ -91,6 +111,7 @@ export function GoDeeperPanel() {
         </button>
         {count !== null && <i className="go-deeper__line" style={{ width: `${Math.min(100, (count / peakBalance(count)) * 100)}%` }} />}
       </div>
+      )}
       {panelOpen && (
         <aside id="go-deeper-panel" className="go-deeper__panel" aria-label={deeperCopy.heading}>
           <div className="go-deeper__head">
@@ -207,6 +228,22 @@ export function GoDeeperPanel() {
               )}
             </>
           ))}
+          {!signingIn && !claim && (
+            <div className="go-deeper__section go-deeper__give">
+              <p className="go-deeper__eyebrow">{deeperCopy.giveEyebrow}</p>
+              <h3>{deeperCopy.giveHeading}</h3>
+              <p>{deeperCopy.giveBody}</p>
+              <div className="go-deeper__actions">
+                <a href={giftLinks.once} target="_blank" rel="noopener noreferrer">
+                  {deeperCopy.giveOnce}
+                </a>
+                <a href={giftLinks.monthly} target="_blank" rel="noopener noreferrer">
+                  {deeperCopy.giveMonthly}
+                </a>
+              </div>
+              <p className="go-deeper__fine">{deeperCopy.giveFine}</p>
+            </div>
+          )}
           {!signingIn && !claim && accountsEnabled && account.status !== 'off' && account.status !== 'unknown' && (
             <div className="go-deeper__section go-deeper__account">
               {account.status === 'out' ? (
