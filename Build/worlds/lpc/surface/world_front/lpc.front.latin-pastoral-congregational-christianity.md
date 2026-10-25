@@ -116,7 +116,7 @@ orientation:
       1917, may date from those years. They have not yet been assessed in
       building this world, so the silence is held as an open question, not a
       settled fact.
-    grounded_in: [lpc.limit.the-silent-century, lpc.force.transmission-asymmetric-span-133-year-silence, lpc.source.morin-sermones-post-maurinos-reperti]
+    grounded_in: [lpc.limit.the-silent-century, lpc.force.transmission-asymmetric-span-133-year-silence]
   - text: >-
       The second voice is Augustine. He came to the faith in 386 and was
       baptized at Milan in 387. At Hippo he was made a presbyter in 391 and
