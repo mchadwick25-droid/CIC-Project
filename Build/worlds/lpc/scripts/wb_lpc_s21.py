@@ -723,7 +723,7 @@ ROWS: list[dict] = [
         cite="B", verif="verified-via-authority", weight="corroborating", formation="Widely Accepted",
         divergence="Not independently re-collated; not double-assigned to any other world per the "
                    "corpus map's own note.",
-        body="Written at Hippo, 413-427, occasioned by the sack of Rome (410) -- Augustine's own "
+        body="Written at Hippo, 413-426, occasioned by the sack of Rome (410) -- Augustine's own "
              "largest work.",
     ),
     dict(
@@ -1273,7 +1273,9 @@ ROWS: list[dict] = [
              "Saint Optat et les premiers écrivains donatistes; VI. La littérature donatiste au temps "
              "de saint Augustin; VII. Saint Augustin et le donatisme (1923)",
         edition="Vols. I-III are vendored, rows 206-208. Vols. IV-VI are vendored in the shared "
-                "corpus. Vol. VII is not requested by either world.",
+                "corpus. Vol. VII is vendored in the shared corpus, bound with a second copy of vol. VI "
+                "in cic/texts/monceaux_histoire-litteraire-afrique-chretienne-tomes6-7-fra_1922-1923.txt "
+                "(vol. VII from file line 21985); this world's corpus map places it as role: context.",
         rights=RIGHTS_VENDORED_VERIFIED,
         attribution="attributed",
         discovery="WebSearch; extent and rights re-verified.",
@@ -3927,7 +3929,7 @@ ROWS: list[dict] = [
         discovery="archive.org direct fetch.",
         cite="C", verif="verified-direct", weight="illustrative", formation="Widely Accepted",
         divergence="Vols. I-III are complete; vols. IV-VI are vendored in the shared corpus; vol. "
-                   "VII, reaching Augustine, was never requested by either world. Public domain "
+                   "VII, reaching Augustine, is vendored bound with a second copy of vol. VI. Public domain "
                    "by date (1905; the title page reads 1905, the BnF's own catalogue gives 1906 "
                    "for the same volume, both pre-1930 and immaterial to the determination). "
                    "Fetched via archive.org item histoirelitterai03monc_0; title page and the "

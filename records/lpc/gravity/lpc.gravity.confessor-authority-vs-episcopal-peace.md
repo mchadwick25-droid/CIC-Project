@@ -23,6 +23,10 @@ sources:
 - source_id: lpc.source.cyprian-de-lapsis
   locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
   license: public-domain
+- source_id: lpc.source.tertullian-de-pudicitia
+  locus: On Modesty (De Pudicitia) XXII, adulterers and fornicators who seek peace from imprisoned martyrs;
+    cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 9554-9566
+  license: public-domain
 relations:
 - type: associated-with
   target: lpc.witness.confessor-claim-vs-regulated-peace

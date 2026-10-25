@@ -17,11 +17,13 @@ sources:
 - source_id: lpc.source.augustine-answer-to-petilian
   locus: Book II, SSSS202-205 (NPNF Chapter 93), Petilian's charge that Christianity never found anything
     in kings save envy, and Augustine's answer naming Constantine -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml,
-    lines 17610-17726
+    lines 17610-17726; the work was written about 400 to 402 (the editor's introductions, lines 10278-10279
+    and 10733)
   license: public-domain
 - source_id: lpc.source.augustine-city-of-god
   locus: Book V, Chapter 25, on the prosperity God granted the Christian emperor Constantine -- verified
-    directly against cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml, lines 11099-11122
+    directly against cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml, lines 11099-11122;
+    the work was begun in 413 (the editor's introduction, lines 864-865)
   license: public-domain
 retrieval:
   tier: 2
@@ -38,8 +40,9 @@ relations:
   target: lpc.limit.the-outsiders-own-view
 positions:
 - Augustine never puts the question in those words, but he does answer the charge behind it. A Donatist
-  bishop, Petilian, said we had no business with kings. Augustine replied that Constantine was
-  "no foe to the name of Christian, but rather rendered glorious by it." In City of God he adds that God
+  bishop, Petilian, said we had no business with kings. Around 400 to 402, Augustine replied
+  that Constantine was "no foe to the name of Christian, but rather rendered glorious by it." In City of God,
+  which he began in 413, he adds that God
   let Constantine gain such power to show that greatness on earth never required worshipping the old
   gods.
 tensions:
@@ -55,10 +58,10 @@ tensions:
   fortune.
 text: Augustine never puts the question in those words. But a Donatist bishop named Petilian once told
   us we had no business with the kings of this world, since Christianity had found nothing in them but
-  envy. Augustine answered him directly. Constantine, he wrote, was "no foe to the name of Christian,
+  envy. Augustine answered him directly, in a work written about 400 to 402. Constantine, he wrote, was "no foe to the name of Christian,
   but rather rendered glorious by it," and he judged "most justly on behalf of His unity," the unity
   of Christ. Augustine was not a neutral witness here, since Petilian's own side had asked Constantine to judge
-  between us, and he ruled against them. In City of God our bishop adds a second point. God let Constantine,
+  between us, and he ruled against them. In City of God, which he began in 413, our bishop adds a second point. God let Constantine,
   a worshipper of the true God, gain great earthly power. It was not to reward Christian belief with
   worldly success, but to show that greatness on earth never depended on the old gods. Constantine reigned
   long and held the empire alone, and he died of old age with his sons to succeed him. But our bishop

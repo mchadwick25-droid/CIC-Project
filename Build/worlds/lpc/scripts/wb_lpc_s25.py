@@ -65,7 +65,9 @@ TWO CASES OF EMPTY sources[]
   Force 1B-3 (the inherited Latin theological vocabulary) cites only Letter CCIX §3, for its
   Punic sentence. Doc_08 cites Doc_01 §6-§7 and Doc_02 §2's "Tertullian disclosure" for the
   rest. Tertullian's corpus is Registry row 29, Boundary Status EXCLUDED (see
-  wb_lpc_s21.py). No lpc.source.tertullian-* record exists, and none is invented.
+  wb_lpc_s21.py). The one lpc.source.tertullian-* record is lpc.source.tertullian-de-pudicitia,
+  which holds chapter XXII only, as comparandum evidence for the force and the gravity that
+  name it; it is not written by wb_lpc_s21.py.
 
 MECHANICAL and AUTHORED fields
   - id, world_id, record_type, schema_version, status, register are mechanical.
@@ -379,6 +381,12 @@ def src(*entries):
     return [{"source_id": e if isinstance(e, str) else e[0],
              "locus": default_locus if isinstance(e, str) else e[1],
              "license": "public-domain"} for e in entries]
+
+
+TERTULLIAN_MODESTY_XXII = (
+    "On Modesty (De Pudicitia) XXII, adulterers and fornicators who seek peace from imprisoned "
+    "martyrs; cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 9554-9566"
+)
 
 
 def _write(record_type: str, rid: str, payload: dict, body: str) -> None:
@@ -780,7 +788,7 @@ def build_gravities() -> None:
         "given outside the church's boundary valid? The two bishops answer it in opposite ways.\n"
         "\n"
         "It comes up again and again: in Cyprian's letters on rebaptism, in the ruling of the "
-        "Council of 256, and all through Augustine's On Baptism, a whole book on the question. "
+        "Council of 256, and all through Augustine's On Baptism, seven books on the question. "
         "Unlike conciliar authority, it is not thin. Two separate bishops argue it at length, more "
         "than a century apart.\n"
         "\n"
@@ -947,7 +955,8 @@ def build_gravities() -> None:
              "row 1) sit at Confidence A and De Lapsis (row 2) at B, carried here as the record's own "
              "top-line citation_specificity of A on the strength of the primary confessor-voice locus."),
         src("lpc.source.cyprian-epistles",
-            "lpc.source.cyprian-de-lapsis"),
+            "lpc.source.cyprian-de-lapsis",
+            ("lpc.source.tertullian-de-pudicitia", TERTULLIAN_MODESTY_XXII)),
         "Taken from Doc_04 §3 (Candidate 8). relations[] carries the gravity<->gravity edges (G1, "
         "G2) and the gravity<->force edges (1A-1, 2A-1, 2B-2) named above.",
     )
@@ -1003,7 +1012,8 @@ def build_forces() -> None:
              "Confidence A) and De Lapsis (row 2, Confidence B); no divergence flagged for this "
              "force's own bare occurrence."),
         src("lpc.source.cyprian-epistles",
-            "lpc.source.cyprian-de-lapsis"),
+            "lpc.source.cyprian-de-lapsis",
+            ("lpc.source.tertullian-de-pudicitia", TERTULLIAN_MODESTY_XXII)),
         "Taken from Doc_08 §3 Force 1A-1 (Cell 1A, Initiating/External). relations[] carries the "
         "gravity<->force edges (G1, G2, G8) and the force<->force edges (2B-1, 2B-2, 2A-1) named "
         "above.",

@@ -1900,3 +1900,12 @@ Logged 2026-10-25.
 - **What.** The project lead ruled that the precedent is corrected in place (`lpc_Decision_Log.md`, 2026-10-25). §4 now names the loci in each phase, and says each is one bishop writing to other bishops or correspondents, with no evidence that the theory was operative among ordinary clergy. This matches Doc_04's Persistence test. The header no longer calls the text unchanged or the Article 3 question open.
 - **Closes.** The OG-62 entry on the precedent's "one attested locus" (2026-10-24).
 - **Owner.** The `lpc` build thread.
+
+### OG-70. P2 pass: OG-63, OG-64, OG-65 and OG-59 items corrected; two carried (2026-10-25).
+
+Logged 2026-10-25.
+
+- **Corrected.** The women's-voice statement's two long sentences are split; its `sources` name the *Passio*, and Monica's words in *Confessions* IX.10 to IX.11 are named beside Quartillosia. Source records now exist for the *Passio Montani et Lucii* and for Tertullian's *De Pudicitia*, and the records citing them name them. Cited line ranges reach the end of *Passio* chapter 8. Registry row 14's dates carry the new locus. *On Baptism* is "seven books". The Constantine witness dates its sources (*Answer to Petilian* about 400 to 402; *City of God* begun 413). *City of God* is dated 413 to 426. Registry rows 56 and 208 no longer say Monceaux vol. VII was never requested: it is vendored. Lucian's condition was already carried by `lpc.story.celerinus-writes-to-lucian`.
+- **Carried: Registry row 29 licenses nothing from Tertullian.** `lpc.source.tertullian-de-pudicitia` stands as comparandum evidence for chapter XXII, which two records cite, but row 29 is the Excluded Named Comparandum row. Whether chapter XXII gets a narrow licence is a boundary decision for the project lead.
+- **Carried: "confessors" against Tertullian's "martyrs".** `lpc.gravity.confessor-authority-vs-episcopal-peace` speaks of sinners asking confessors for peace where *De Pudicitia* 22 speaks of martyrs. To be checked against the gravity's own sources in the next pass.
+- **Owner.** The `lpc` build thread.
