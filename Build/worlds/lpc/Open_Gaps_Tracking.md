@@ -1943,3 +1943,13 @@ Logged 2026-10-25.
 - **Review.** `Surface_Records_Review_2026-10-25.md` found 4 P1s and 9 P2s in the world front and facilitator brief; the author is fixing all of them, then a targeted recheck. The reviewer judged the low reading grade (mean FK about 6) not flattened: no AI tells, and the four signature images survive. It is not raised to reach grade 8. This answers OG-73's reading-level item.
 - **Carried: the "prove yourself" redirect risk is untested.** world_core caution 12 names it, and the brief keeps it as a risk around the template redirect. It has not been tested against a live Facilitator; the validation run tests it.
 - **Owner.** The `lpc` build thread.
+
+### OG-75. Decision 8B drafted; use notes missing on every voiced record (2026-10-25).
+
+Logged 2026-10-25.
+
+- **Decision 8B.** 29 quotations embedded in story, gravity, force and term prose are now quote records, each checked word for word, with an Opus rendering. Their host sentences paraphrase and relate to them. The fleet quote count is 421. The acclamation force's description, which already failed reading ease, is rewritten to the bar (FK 7.2, FRE 66). Under a separate Opus check (`Decision_8B_Quotes_Review_2026-10-25.md`).
+- **Paraphrased with no quote record.** *Acta Proconsularia* 2.1 ("a large crowd gathered at Sextus's place") and the *Retractationes* prologue ("judicial severity", "censor's pen"): every vendored witness has OCR damage inside the sentence, so no full sentence verifies.
+- **Use notes.** No `lpc` record has a `use_note` (means, not_for, years). The `use-note-present` gate lists every voiced quote, doctrinal witness, term, story, honest limit, contested claim and gravity. `don` has 98. Authoring them is a later batch.
+- **Doc_10 started.** Fable drafts it, with the voice record's `source_anchor`, the distress-comparison guard and the craft check of the three demonstrations folded in, since all of them are compiled into the Representative's prompt.
+- **Owner.** The `lpc` build thread.
