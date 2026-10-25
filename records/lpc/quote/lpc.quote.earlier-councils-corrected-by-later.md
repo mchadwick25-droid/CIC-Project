@@ -19,7 +19,7 @@ confidence:
 sources:
 - source_id: lpc.source.augustine-on-baptism-against-the-donatists
   locus: On Baptism, Against the Donatists, book II, chapter 3, section 4; English at cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml,
-    line 11303; Latin at cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt,
+    lines 11301-11304; Latin at cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt,
     lines 10209-10247
   license: public-domain
 retrieval:
@@ -71,4 +71,4 @@ modern_rendering: But who does not know this? The holy canon of Scripture, both 
   without any storm of sacrilegious pride, and without any neck puffed up with arrogance. It happens without
   any quarrel of envy and hatred. It happens simply with holy humility, catholic peace and Christian love.
 ---
-Augustine, On Baptism, Against the Donatists, book II, chapter 3, section 4. English in the NPNF translation at cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, line 11303 (the whole section stands on lines 11300-11304). Latin in Petschenig's edition at cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt, lines 10209-10247. The section's opening address to the Donatists is left out. The passage carries the force lpc.force.augustine-engagement-cyprian-conciliar-acts and the gravity lpc.gravity.conciliar-authority-theory.
+Augustine, On Baptism, Against the Donatists, book II, chapter 3, section 4. English in the NPNF translation at cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 11301-11304. Latin in Petschenig's edition at cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt, lines 10209-10247. The section's opening address to the Donatists is left out. The passage carries the force lpc.force.augustine-engagement-cyprian-conciliar-acts and the gravity lpc.gravity.conciliar-authority-theory.

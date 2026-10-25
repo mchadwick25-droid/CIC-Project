@@ -12,11 +12,13 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: null
+  divergence_note: The text field is Weiskotten's English as printed. Where it has 'the shortest penitential
+    Psalms of David', the Latin on the facing page reads Psalmos Davidicos, qui sunt paucissimi de poenitentia,
+    'the Psalms of David on repentance, which are very few'; modern_rendering follows the Latin.
 sources:
 - source_id: lpc.source.possidius-vita-augustini-weiskotten1919
   locus: Life of Augustine, chapter XXXI; English at cic/texts/possidius_vita-augustini_weiskotten1919.txt,
-    lines 4924-4938; Latin on the facing page, lines 4887-4911
+    lines 4924-4938; Latin on the facing page, lines 4887-4899
   license: public-domain
 retrieval:
   tier: 1
@@ -48,7 +50,7 @@ license: verbatim
 modern_lens_note: 'A modern listener may expect a calm deathbed. Possidius gives a man who had taught
   that even good Christians must repent before death, doing it himself: reading psalms of repentance on
   the wall and weeping. ''This'' is that repentance, named in the sentence just before.'
-modern_rendering: And he did this himself in the last illness of which he died. He ordered the shortest
+modern_rendering: And he did this himself in the last illness of which he died. He ordered the very few
   penitential Psalms of David to be copied for him. As he lay in bed during his sickness, he would look
   at these sheets hanging on the wall and read them. And he wept freely and constantly. He did not want
   his attention broken by anyone. So about ten days before he left the body, he asked those of us who
@@ -57,4 +59,4 @@ modern_rendering: And he did this himself in the last illness of which he died. 
   for prayer. Up to the very moment of his last illness he preached the Word of God in the church. He
   preached without ceasing, with vigour and power, with a clear mind and sound judgment.
 ---
-Possidius, Life of Augustine, chapter XXXI. English in Weiskotten's translation at cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 4924-4938; Latin on the facing page of the same edition, lines 4887-4911. The sentence before it, on Augustine's teaching that even baptized Christians should not die without repentance, is left out; the story lpc.story.the-psalms-on-the-wall tells it. The spaced semicolon is the OCR's. The passage carries the story lpc.story.the-psalms-on-the-wall.
+Possidius, Life of Augustine, chapter XXXI. English in Weiskotten's translation at cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 4924-4938; Latin on the facing page of the same edition, lines 4887-4899. The sentence before it, on Augustine's teaching that even baptized Christians should not die without repentance, is left out; the story lpc.story.the-psalms-on-the-wall tells it. The spaced semicolon is the OCR's. The passage carries the story lpc.story.the-psalms-on-the-wall.

@@ -19,7 +19,7 @@ sources:
 - source_id: lpc.source.pontius-life-and-passion-of-cyprian
   locus: Life of Cyprian, section 9; English at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
     lines 27939-27949; Latin at cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt,
-    lines 40783-40791
+    lines 40782-40791
   license: public-domain
 retrieval:
   tier: 2
@@ -56,4 +56,4 @@ modern_rendering: Afterwards a dreadful plague broke out. The huge destruction o
   made the passers-by think of the same fate, which would be theirs in turn. So they begged pity from
   them for themselves.
 ---
-Pontius, Life and Passion of Cyprian, section 9. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 27939-27949. Latin in Hartel's edition at cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines 40783-40791 (OCR text). The section's first sentence, 'Still, if it seem well, let me glance at the rest', is left out. The passage carries the story lpc.story.the-plague-and-the-enemies.
+Pontius, Life and Passion of Cyprian, section 9. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 27939-27949. Latin in Hartel's edition at cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines 40782-40791 (OCR text). The section's first sentence, 'Still, if it seem well, let me glance at the rest', is left out. The passage carries the story lpc.story.the-plague-and-the-enemies.

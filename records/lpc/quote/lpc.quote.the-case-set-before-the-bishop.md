@@ -47,9 +47,9 @@ license: verbatim
 modern_lens_note: 'A modern listener may hear ''confession'' as a private act before a priest. The Latin
   is exomologesis, the sinner''s open confession before the church. Lucian grants peace in the martyrs''
   name, but on a condition: each case goes before the bishop first.'
-modern_rendering: And so, brother, I make this request, as is done here. When the Lord has begun to give
+modern_rendering: And so, brother, I ask that it be done as it is here. When the Lord has begun to give
   peace to the Church itself, let each case be set before the bishop and the sin openly confessed. This
-  is as Paulus commanded and as we ruled. I ask that not only these women have peace, but also those whom
+  is as Paulus commanded and as we ruled. Then let not only these women have peace, but also those whom
   you know to be dear to our heart.
 ---
 Lucian to Celerinus, Epistle XXI in the ANF numbering (22 in the Oxford numbering), section 2. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30728-30732. Latin in Hartel's edition at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 3338-3342. A page-break tag inside the passage is stripped. 'These' are Numeria and Candida, named earlier in the section. The passage carries the story lpc.story.celerinus-writes-to-lucian.

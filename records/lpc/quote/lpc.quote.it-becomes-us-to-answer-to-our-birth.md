@@ -21,7 +21,7 @@ sources:
 - source_id: lpc.source.pontius-life-and-passion-of-cyprian
   locus: Life of Cyprian, section 9; English at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
     lines 27967-27975; Latin at cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt,
-    lines 40838-40843
+    lines 40837-40843
   license: public-domain
 retrieval:
   tier: 2
@@ -57,4 +57,4 @@ modern_rendering: God makes His sun rise without ceasing. From time to time He g
   live up to our birth. Those who are clearly born of God should not fall short of their birth. Instead,
   the good Father's line should be proved in His children, as they strive to match His goodness.”
 ---
-Pontius, Life and Passion of Cyprian, section 9. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 27967-27975. Latin in Hartel's edition at cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines 40838-40843 (OCR text). The sentences before it, in which Cyprian urges love of enemies after the pattern of Matthew v. 44-45, are left out. The passage carries the story lpc.story.the-plague-and-the-enemies.
+Pontius, Life and Passion of Cyprian, section 9. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 27967-27975. Latin in Hartel's edition at cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines 40837-40843 (OCR text). The sentences before it, in which Cyprian urges love of enemies after the pattern of Matthew v. 44-45, are left out. The passage carries the story lpc.story.the-plague-and-the-enemies.

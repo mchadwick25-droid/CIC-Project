@@ -18,7 +18,7 @@ confidence:
 sources:
 - source_id: lpc.source.cyprian-minor-pastoral-treatises
   locus: Three Books of Testimonies against the Jews, book III, heading 4; English at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
-    lines 53424-53432; Latin heading at cic/texts/cyprian_testimoniorum-libri-tres-adversus-judaeos-lat_hartel1868-csel3-tei.txt,
+    lines 53424-53433; Latin heading at cic/texts/cyprian_testimoniorum-libri-tres-adversus-judaeos-lat_hartel1868-csel3-tei.txt,
     line 3300
   license: public-domain
 retrieval:
@@ -51,4 +51,4 @@ modern_rendering: We must boast in nothing, since nothing is our own. The Gospel
   also says, “What do you have that you did not receive? And if you received it, why do you boast as if
   you had not received it?”
 ---
-Cyprian, Three Books of Testimonies against the Jews (Ad Quirinum), book III, heading 4. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 53424-53432. Latin heading in Hartel's edition at cic/texts/cyprian_testimoniorum-libri-tres-adversus-judaeos-lat_hartel1868-csel3-tei.txt, line 3300. The heading's further proof texts (1 Samuel ii. 3-4, Jeremiah ix. 23-24) are left out. Augustine quotes the heading in the anti-Pelagian works, for example at cic/texts/npnf105_augustine-anti-pelagian-writings.xml, lines 18089 and 20912. Two scripture-reference notes inside the passage are stripped. The passage carries the gravity lpc.gravity.grace-and-human-incapacity.
+Cyprian, Three Books of Testimonies against the Jews (Ad Quirinum), book III, heading 4. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 53424-53433. Latin heading in Hartel's edition at cic/texts/cyprian_testimoniorum-libri-tres-adversus-judaeos-lat_hartel1868-csel3-tei.txt, line 3300. The heading's further proof texts (1 Samuel ii. 3-4, Jeremiah ix. 23-24) are left out. Augustine quotes the heading in the anti-Pelagian works, for example at cic/texts/npnf105_augustine-anti-pelagian-writings.xml, lines 18089 and 20912. Two scripture-reference notes inside the passage are stripped. The passage carries the gravity lpc.gravity.grace-and-human-incapacity.

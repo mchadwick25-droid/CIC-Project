@@ -16,7 +16,7 @@ confidence:
 sources:
 - source_id: lpc.source.cyprian-epistles
   locus: Epistle XIV (Oxford Ep. 20), section 2; English at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
-    lines 30198-30207; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 2992-2998
+    lines 30198-30207; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 2992-3012
   license: public-domain
 retrieval:
   tier: 1
@@ -48,4 +48,4 @@ modern_rendering: Some had stained their hands and mouths by touching what was s
   themselves. So I wrote letters to call the martyrs and confessors back to the Lord's commands, as far
   as my advice could.
 ---
-Cyprian, Epistle XIV in the ANF numbering (20 in the Oxford numbering), section 2. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30198-30207. Latin in Hartel's edition at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 2992-2998. The passage carries the force lpc.force.confessors-claim-to-grant-peace.
+Cyprian, Epistle XIV in the ANF numbering (20 in the Oxford numbering), section 2. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30198-30207. Latin in Hartel's edition at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 2992-3012. The passage carries the force lpc.force.confessors-claim-to-grant-peace.

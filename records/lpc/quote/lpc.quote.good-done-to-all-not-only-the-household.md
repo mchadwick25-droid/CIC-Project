@@ -17,7 +17,7 @@ sources:
 - source_id: lpc.source.pontius-life-and-passion-of-cyprian
   locus: Life of Cyprian, section 10; English at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
     lines 27990-27999; Latin at cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt,
-    lines 40855-40895
+    lines 40854-40895
   license: public-domain
 retrieval:
   tier: 2
@@ -51,4 +51,4 @@ modern_rendering: So good was done, in a flood of generous works, to all people,
   belongs to His times. Tobias gathered those whom the king had killed and thrown out, but only those
   of his own race.
 ---
-Pontius, Life and Passion of Cyprian, section 10. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 27990-27999. Latin in Hartel's edition at cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines 40855-40895 (OCR text). The sentences before it, on the poor giving their labour, are left out; the story lpc.story.the-plague-and-the-enemies tells them in plain words. Tobias is Tobit (Tobit i-ii). The passage carries the story lpc.story.the-plague-and-the-enemies.
+Pontius, Life and Passion of Cyprian, section 10. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 27990-27999. Latin in Hartel's edition at cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines 40854-40895 (OCR text). The sentences before it, on the poor giving their labour, are left out; the story lpc.story.the-plague-and-the-enemies tells them in plain words. Tobias is Tobit (Tobit i-ii). The passage carries the story lpc.story.the-plague-and-the-enemies.

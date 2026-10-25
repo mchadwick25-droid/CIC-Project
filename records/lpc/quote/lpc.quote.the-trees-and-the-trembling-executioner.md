@@ -20,7 +20,7 @@ sources:
 - source_id: lpc.source.pontius-life-and-passion-of-cyprian
   locus: Life of Cyprian, section 18; English at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
     lines 28254-28267; Latin at cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt,
-    lines 41330-41360
+    lines 41330-41359
   license: public-domain
 retrieval:
   tier: 2
@@ -60,4 +60,4 @@ modern_rendering: 'The place where he was to suffer is level, so it gives a fine
   the centurion''s hand with power given from above, to carry out the death of this excellent man. At
   last it gave him the strength that had been allowed.'
 ---
-Pontius, Life and Passion of Cyprian, section 18. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 28254-28267. Latin in Hartel's edition at cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines 41330-41360 (OCR text). The section's first sentence, on the soldiers who went with him, is left out. Two clauses of the Latin can be read more than one way, and the ANF speaks of both the executioner and the centurion. The passage carries the story lpc.story.the-death-of-cyprian.
+Pontius, Life and Passion of Cyprian, section 18. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 28254-28267. Latin in Hartel's edition at cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines 41330-41359 (OCR text). The section's first sentence, on the soldiers who went with him, is left out. Two clauses of the Latin can be read more than one way, and the ANF speaks of both the executioner and the centurion. The passage carries the story lpc.story.the-death-of-cyprian.

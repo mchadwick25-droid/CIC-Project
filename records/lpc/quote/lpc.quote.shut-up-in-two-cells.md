@@ -19,7 +19,7 @@ confidence:
 sources:
 - source_id: lpc.source.cyprian-epistles
   locus: Epistle XXI (Oxford Ep. 22), Lucian to Celerinus, section 2; English at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
-    lines 30703-30711; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 3298-3305
+    lines 30702-30711; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 3298-3305
   license: public-domain
 retrieval:
   tier: 2
@@ -51,4 +51,4 @@ modern_rendering: So you see, brother, how I have done this. It is partly what P
   weaken us by hunger and thirst. Besides, the fire that came with our torture was so unbearable that
   no one could endure it. But now we have reached the brightness itself.
 ---
-Lucian to Celerinus, Epistle XXI in the ANF numbering (22 in the Oxford numbering), section 2. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30703-30711. Latin in Hartel's edition at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 3298-3305. The first part of the section, Paulus's charge to Lucian, is left out. A translator's note inside the passage is stripped. The passage carries the story lpc.story.celerinus-writes-to-lucian.
+Lucian to Celerinus, Epistle XXI in the ANF numbering (22 in the Oxford numbering), section 2. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30702-30711. Latin in Hartel's edition at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 3298-3305. The first part of the section, Paulus's charge to Lucian, is left out. A translator's note inside the passage is stripped. The passage carries the story lpc.story.celerinus-writes-to-lucian.

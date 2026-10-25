@@ -16,7 +16,7 @@ confidence:
 sources:
 - source_id: lpc.source.cyprian-epistles
   locus: Epistle LIX (Oxford Ep. 62), section 1; English at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
-    lines 36009-36011; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 10802-10805
+    lines 36009-36012; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 10802-10805
   license: public-domain
 retrieval:
   tier: 2
@@ -41,4 +41,4 @@ modern_lens_note: 'A modern listener may hear this as a formal opening. It is th
 modern_rendering: With great grief of mind, and not without tears, dearest brothers, I have read your
   letter. You wrote it to me out of your loving concern, about the captivity of our brothers and sisters.
 ---
-Cyprian, Epistle LIX in the ANF numbering (62 in the Oxford numbering), section 1. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 36009-36011. Latin in Hartel's edition at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 10802-10805. The greeting naming the eight bishops comes just before it and is left out. The passage carries the story lpc.story.hundred-thousand-sesterces.
+Cyprian, Epistle LIX in the ANF numbering (62 in the Oxford numbering), section 1. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 36009-36012. Latin in Hartel's edition at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 10802-10805. The greeting naming the eight bishops comes just before it and is left out. The passage carries the story lpc.story.hundred-thousand-sesterces.

@@ -19,7 +19,7 @@ confidence:
 sources:
 - source_id: lpc.source.cyprian-epistles
   locus: Epistle X (Oxford Ep. 15), to the martyrs and confessors, section 4; English at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
-    lines 29936-29948; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 2467-2476
+    lines 29936-29949; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 2467-2476
   license: public-domain
 retrieval:
   tier: 2
@@ -56,4 +56,4 @@ modern_rendering: For I hear that some certificates are given in a way that says
   those whom you yourselves see and have known. Name those whose repentance you see is very near to full
   satisfaction. Then send us letters that agree with faith and discipline.
 ---
-Cyprian, Epistle X in the ANF numbering (15 in the Oxford numbering), section 4. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29936-29948. Latin in Hartel's edition at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 2467-2476. The section's first sentence, on letters to the clergy and people, is left out. A page-break tag inside the passage is stripped. The passage carries the term lpc.term.certificates-letters-of-peace.
+Cyprian, Epistle X in the ANF numbering (15 in the Oxford numbering), section 4. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 29936-29949. Latin in Hartel's edition at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 2467-2476. The section's first sentence, on letters to the clergy and people, is left out. A page-break tag inside the passage is stripped. The passage carries the term lpc.term.certificates-letters-of-peace.

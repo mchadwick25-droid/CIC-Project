@@ -45,6 +45,8 @@ relations:
 - type: associated-with
   target: lpc.force.augustine-engagement-cyprian-conciliar-acts
 - type: associated-with
+  target: lpc.quote.bishop-of-bishops
+- type: associated-with
   target: lpc.quote.earlier-councils-corrected-by-later
 name: 'Conciliar Authority Theory: Egalitarian vs. Hierarchical'
 description: >-

@@ -17,7 +17,7 @@ sources:
 - source_id: lpc.source.pontius-life-and-passion-of-cyprian
   locus: Life of Cyprian, section 15; English at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
     lines 28181-28186; Latin at cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt,
-    lines 41247-41251
+    lines 41246-41250
   license: public-domain
 retrieval:
   tier: 2
@@ -46,4 +46,4 @@ modern_rendering: He was taken and placed for one night in the officer's house, 
   watch before the officer's door. They were anxious that nothing should be done during the night without
   their knowing.
 ---
-Pontius, Life and Passion of Cyprian, section 15. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 28181-28186. Latin in Hartel's edition at cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines 41247-41251 (OCR text). 'The officer' is the princeps of the Latin. The passage carries the story lpc.story.the-death-of-cyprian.
+Pontius, Life and Passion of Cyprian, section 15. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 28181-28186. Latin in Hartel's edition at cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines 41246-41250 (OCR text). 'The officer' is the princeps of the Latin. The passage carries the story lpc.story.the-death-of-cyprian.

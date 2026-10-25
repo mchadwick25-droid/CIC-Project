@@ -88,7 +88,8 @@ text: 'This is how two early texts tell the death of our great bishop. One is by
   other friends were with him, as usual. The people stayed outside. Pontius writes that they kept watch
   before the officer''s door, anxious that nothing should be done in the night without their knowing.
   The Acta tells it more briefly, and it adds one detail: when the whole people of the brethren came there,
-  Cyprian had the young women guarded, since they had all stayed in the street before the officer''s door.
+  Cyprian had the young women guarded, since the whole people had stayed in the street before the officer''s
+  door.
 
 
   In the morning a great crowd went with him. Pontius says he went out walled in on every side by a mixed
@@ -97,9 +98,9 @@ text: 'This is how two early texts tell the death of our great bishop. One is by
 
 
   The proconsul read the sentence from a tablet. Pontius reports that it named Cyprian the standard-bearer
-  of the sect and an enemy of the gods, an example to his own people, whose blood would begin to make
-  discipline firm. The Acta gives the sentence in nearly the same words. On the sentence the two texts
-  are not independent witnesses. Only the Acta gives Cyprian''s answer: he gave thanks to God.
+  of the sect and an enemy of the gods, an example to his own people, and said that with his blood discipline
+  would begin to be made firm. The Acta gives the sentence in nearly the same words. On the sentence the
+  two texts are not independent witnesses. Only the Acta gives Cyprian''s answer: he gave thanks to God.
 
 
   Then the crowd of the brethren called out. The Acta gives their words: they asked to be beheaded with

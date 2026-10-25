@@ -65,8 +65,8 @@ text: 'Pontius, writing as a deacon who was there, described the epidemic withou
 
 
   What followed was not about the disease. It was about what the city did. People shuddered and fled from
-  the contagion, and wickedly put out their own people -- bodies left where they fell, so many that they
-  were no longer bodies but corpses.
+  the contagion, and wickedly put out their own people -- bodies left where they fell, no longer bodies
+  but the corpses of many.
 
 
   Against that, our bishop called us together and preached. He began with mercy, and then went further.

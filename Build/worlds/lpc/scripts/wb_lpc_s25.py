@@ -351,6 +351,7 @@ OTHER_TYPE_EDGES_LAST: dict[str, list[tuple[str, str]]] = {
         ("associated-with", "lpc.quote.boast-in-nothing-since-nothing-is-our-own"),
     ],
     G5: [
+        ("associated-with", "lpc.quote.bishop-of-bishops"),
         ("associated-with", "lpc.quote.earlier-councils-corrected-by-later"),
     ],
     F1A1: [

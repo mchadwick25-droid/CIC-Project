@@ -430,6 +430,7 @@ RELATION_PAIRS: list[tuple[str, str]] = [
     ("lpc.quote.ancient-venom-against-my-episcopate", "lpc.force.congregational-acclamation-overriding-preference"),
     ("lpc.quote.shepherd-wounded-in-the-flock", "lpc.force.decian-persecution-libelli-system"),
     ("lpc.quote.bishop-of-bishops", "lpc.gravity.collegial-communion-preserved"),
+    ("lpc.quote.bishop-of-bishops", "lpc.gravity.conciliar-authority-theory"),
     ("lpc.quote.earlier-councils-corrected-by-later", "lpc.force.augustine-engagement-cyprian-conciliar-acts"),
     ("lpc.quote.earlier-councils-corrected-by-later", "lpc.gravity.conciliar-authority-theory"),
     ("lpc.quote.boast-in-nothing-since-nothing-is-our-own", "lpc.gravity.grace-and-human-incapacity"),
@@ -651,7 +652,7 @@ def build_stories() -> None:
         "each from his own home.\n\n"
         "What followed was not about the disease. It was about what the city did. People "
         "shuddered and fled from the contagion, and wickedly put out their own people -- "
-        "bodies left where they fell, so many that they were no longer bodies but corpses.\n\n"
+        "bodies left where they fell, no longer bodies but the corpses of many.\n\n"
         "Against that, our bishop called us together and preached. He began with mercy, and then "
         "went further. There was nothing remarkable, he told us, in caring for our own. Anyone does "
         "that. What would distinguish us was loving our enemies and praying for those persecuting "
@@ -902,16 +903,16 @@ def build_stories() -> None:
         "Pontius writes that they kept watch before the officer's door, anxious that nothing "
         "should be done in the night without their knowing. The Acta tells it more "
         "briefly, and it adds one detail: when the whole people of the brethren came there, "
-        "Cyprian had the young women guarded, since they had all stayed in the street before the "
-        "officer's door.\n"
+        "Cyprian had the young women guarded, since the whole people had stayed in the street "
+        "before the officer's door.\n"
         "\n"
         "In the morning a great crowd went with him. Pontius says he went out walled in on every "
         "side by a mixed crowd. The Acta says that a large crowd gathered at Sextus's place, as "
         "the proconsul Galerius Maximus had ordered.\n"
         "\n"
         "The proconsul read the sentence from a tablet. Pontius reports that it named Cyprian the "
-        "standard-bearer of the sect and an enemy of the gods, an example to his own people, whose "
-        "blood would begin to make discipline firm. The "
+        "standard-bearer of the sect and an enemy of the gods, an example to his own people, and "
+        "said that with his blood discipline would begin to be made firm. The "
         "Acta gives the sentence in nearly the same words. On the sentence the two texts are not "
         "independent witnesses. Only the Acta gives Cyprian's answer: he gave thanks to God.\n"
         "\n"
@@ -2603,7 +2604,7 @@ def build_host_quotes() -> None:
              "people', and 'exposing' renders exponere, 'put out'."),
         _src("lpc.source.pontius-life-and-passion-of-cyprian",
              f"Life of Cyprian, section 9; English at {ANF05}, lines 27939-27949; Latin at "
-             f"{VITA_LAT}, lines 40783-40791"),
+             f"{VITA_LAT}, lines 40782-40791"),
         2,
         ["participant asks what the plague in Cyprian's Carthage was like",
          "participant asks how the city treated its sick and dying in the epidemic"],
@@ -2614,7 +2615,7 @@ def build_host_quotes() -> None:
         ["The passage does not say how many died or name the disease; the speaker must not "
          "supply a death toll or a diagnosis."],
         f"Pontius, Life and Passion of Cyprian, section 9. English in the ANF translation at "
-        f"{ANF05}, lines 27939-27949. Latin in Hartel's edition at {VITA_LAT}, lines 40783-40791 "
+        f"{ANF05}, lines 27939-27949. Latin in Hartel's edition at {VITA_LAT}, lines 40782-40791 "
         "(OCR text). The section's first sentence, 'Still, if it seem well, let me glance at the "
         "rest', is left out. The passage carries the story lpc.story.the-plague-and-the-enemies.",
     )
@@ -2650,7 +2651,7 @@ def build_host_quotes() -> None:
              "fall short of one's birth."),
         _src("lpc.source.pontius-life-and-passion-of-cyprian",
              f"Life of Cyprian, section 9; English at {ANF05}, lines 27967-27975; Latin at "
-             f"{VITA_LAT}, lines 40838-40843"),
+             f"{VITA_LAT}, lines 40837-40843"),
         2,
         ["participant asks why Cyprian told his people to help those outside the church",
          "participant asks what Cyprian preached during the plague",
@@ -2662,7 +2663,7 @@ def build_host_quotes() -> None:
          "The passage does not say the persecutors themselves were helped; the speaker must not "
          "supply that."],
         f"Pontius, Life and Passion of Cyprian, section 9. English in the ANF translation at "
-        f"{ANF05}, lines 27967-27975. Latin in Hartel's edition at {VITA_LAT}, lines 40838-40843 "
+        f"{ANF05}, lines 27967-27975. Latin in Hartel's edition at {VITA_LAT}, lines 40837-40843 "
         "(OCR text). The sentences before it, in which Cyprian urges love of enemies after the "
         "pattern of Matthew v. 44-45, are left out. The passage carries the story "
         "lpc.story.the-plague-and-the-enemies.",
@@ -2691,7 +2692,7 @@ def build_host_quotes() -> None:
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         _src("lpc.source.pontius-life-and-passion-of-cyprian",
              f"Life of Cyprian, section 10; English at {ANF05}, lines 27990-27999; Latin at "
-             f"{VITA_LAT}, lines 40855-40895"),
+             f"{VITA_LAT}, lines 40854-40895"),
         2,
         ["participant asks whether the church helped people outside it in the plague",
          "participant asks how the plague relief compared with older examples of mercy"],
@@ -2700,7 +2701,7 @@ def build_host_quotes() -> None:
         ["The passage does not say who received help or how much; the speaker must not supply "
          "names, numbers or the persecutors among them."],
         f"Pontius, Life and Passion of Cyprian, section 10. English in the ANF translation at "
-        f"{ANF05}, lines 27990-27999. Latin in Hartel's edition at {VITA_LAT}, lines 40855-40895 "
+        f"{ANF05}, lines 27990-27999. Latin in Hartel's edition at {VITA_LAT}, lines 40854-40895 "
         "(OCR text). The sentences before it, on the poor giving their labour, are left out; the "
         "story lpc.story.the-plague-and-the-enemies tells them in plain words. Tobias is Tobit "
         "(Tobit i-ii). The passage carries the story lpc.story.the-plague-and-the-enemies.",
@@ -2783,7 +2784,7 @@ def build_host_quotes() -> None:
         "brothers and sisters.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         _src("lpc.source.cyprian-epistles",
-             f"Epistle LIX (Oxford Ep. 62), section 1; English at {ANF05}, lines 36009-36011; "
+             f"Epistle LIX (Oxford Ep. 62), section 1; English at {ANF05}, lines 36009-36012; "
              f"Latin at {EPIST_LAT}, lines 10802-10805"),
         2,
         ["participant asks how Cyprian answered the news of the captives",
@@ -2793,7 +2794,7 @@ def build_host_quotes() -> None:
         ["The passage does not say who took the captives or where; the speaker must not supply "
          "a people or a place."],
         f"Cyprian, Epistle LIX in the ANF numbering (62 in the Oxford numbering), section 1. "
-        f"English in the ANF translation at {ANF05}, lines 36009-36011. Latin in Hartel's edition "
+        f"English in the ANF translation at {ANF05}, lines 36009-36012. Latin in Hartel's edition "
         f"at {EPIST_LAT}, lines 10802-10805. The greeting naming the eight bishops comes just "
         "before it and is left out. The passage carries the story "
         "lpc.story.hundred-thousand-sesterces.",
@@ -2954,7 +2955,7 @@ def build_host_quotes() -> None:
              "'decided'."),
         _src("lpc.source.cyprian-epistles",
              f"Epistle XXI (Oxford Ep. 22), Lucian to Celerinus, section 2; English at {ANF05}, "
-             f"lines 30703-30711; Latin at {EPIST_LAT}, lines 3298-3305"),
+             f"lines 30702-30711; Latin at {EPIST_LAT}, lines 3298-3305"),
         2,
         ["participant asks what prison was like for the confessors in Carthage",
          "participant asks how the confessors were treated under Decius"],
@@ -2965,7 +2966,7 @@ def build_host_quotes() -> None:
          "The letter is by Lucian, kept in Cyprian's collection; the speaker must not present "
          "it as Cyprian's."],
         f"Lucian to Celerinus, Epistle XXI in the ANF numbering (22 in the Oxford numbering), "
-        f"section 2. English in the ANF translation at {ANF05}, lines 30703-30711. Latin in "
+        f"section 2. English in the ANF translation at {ANF05}, lines 30702-30711. Latin in "
         f"Hartel's edition at {EPIST_LAT}, lines 3298-3305. The first part of the section, "
         "Paulus's charge to Lucian, is left out. A translator's note inside the passage is "
         "stripped. The passage carries the story lpc.story.celerinus-writes-to-lucian.",
@@ -2982,9 +2983,9 @@ def build_host_quotes() -> None:
         "A modern listener may hear 'confession' as a private act before a priest. The Latin is "
         "exomologesis, the sinner's open confession before the church. Lucian grants peace in "
         "the martyrs' name, but on a condition: each case goes before the bishop first.",
-        "And so, brother, I make this request, as is done here. When the Lord has begun to give "
+        "And so, brother, I ask that it be done as it is here. When the Lord has begun to give "
         "peace to the Church itself, let each case be set before the bishop and the sin openly "
-        "confessed. This is as Paulus commanded and as we ruled. I ask that not only these women "
+        "confessed. This is as Paulus commanded and as we ruled. Then let not only these women "
         "have peace, but also those whom you know to be dear to our heart.",
         conf("A", "verified-direct", "load-bearing", "Documented",
              "The text field is the ANF English as printed. modern_rendering follows Hartel's "
@@ -3061,7 +3062,7 @@ def build_host_quotes() -> None:
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         _src("lpc.source.pontius-life-and-passion-of-cyprian",
              f"Life of Cyprian, section 15; English at {ANF05}, lines 28181-28186; Latin at "
-             f"{VITA_LAT}, lines 41247-41251"),
+             f"{VITA_LAT}, lines 41246-41250"),
         2,
         ["participant asks where Cyprian spent his last night",
          "participant asks what the congregation did the night before Cyprian's death"],
@@ -3069,7 +3070,7 @@ def build_host_quotes() -> None:
          "lpc.quote.the-whole-people-of-the-brethren-came gives that"],
         ["The passage does not say how many kept watch; the speaker must not supply a number."],
         f"Pontius, Life and Passion of Cyprian, section 15. English in the ANF translation at "
-        f"{ANF05}, lines 28181-28186. Latin in Hartel's edition at {VITA_LAT}, lines 41247-41251 "
+        f"{ANF05}, lines 28181-28186. Latin in Hartel's edition at {VITA_LAT}, lines 41246-41250 "
         "(OCR text). 'The officer' is the princeps of the Latin. The passage carries the story "
         "lpc.story.the-death-of-cyprian.",
     )
@@ -3311,7 +3312,7 @@ def build_host_quotes() -> None:
              "'Glorification' renders clarificationis, the hour of his glory as a martyr."),
         _src("lpc.source.pontius-life-and-passion-of-cyprian",
              f"Life of Cyprian, section 18; English at {ANF05}, lines 28254-28267; Latin at "
-             f"{VITA_LAT}, lines 41330-41360"),
+             f"{VITA_LAT}, lines 41330-41359"),
         2,
         ["participant asks where Cyprian was executed",
          "participant asks how Pontius tells the moment of Cyprian's death"],
@@ -3323,7 +3324,7 @@ def build_host_quotes() -> None:
          "differ."],
         f"Pontius, Life and Passion of Cyprian, section 18. English in the ANF translation at "
         f"{ANF05}, lines 28254-28267. Latin in Hartel's edition at {VITA_LAT}, lines "
-        "41330-41360 (OCR text). The section's first sentence, on the soldiers who went with "
+        "41330-41359 (OCR text). The section's first sentence, on the soldiers who went with "
         "him, is left out. Two clauses of the Latin can be read more than one way, and the ANF "
         "speaks of both the executioner and the centurion. The passage carries the story "
         "lpc.story.the-death-of-cyprian.",
@@ -3390,7 +3391,7 @@ def build_host_quotes() -> None:
         "that even good Christians must repent before death, doing it himself: reading psalms "
         "of repentance on the wall and weeping. 'This' is that repentance, named in the "
         "sentence just before.",
-        "And he did this himself in the last illness of which he died. He ordered the shortest "
+        "And he did this himself in the last illness of which he died. He ordered the very few "
         "penitential Psalms of David to be copied for him. As he lay in bed during his "
         "sickness, he would look at these sheets hanging on the wall and read them. And he wept "
         "freely and constantly. He did not want his attention broken by anyone. So about ten "
@@ -3400,10 +3401,14 @@ def build_host_quotes() -> None:
         "prayer. Up to the very moment of his last illness he preached the Word of God in the "
         "church. He preached without ceasing, with vigour and power, with a clear mind and sound "
         "judgment.",
-        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is Weiskotten's English as printed. Where it has 'the shortest "
+             "penitential Psalms of David', the Latin on the facing page reads Psalmos Davidicos, "
+             "qui sunt paucissimi de poenitentia, 'the Psalms of David on repentance, which are "
+             "very few'; modern_rendering follows the Latin."),
         _src("lpc.source.possidius-vita-augustini-weiskotten1919",
              f"Life of Augustine, chapter XXXI; English at {POSSIDIUS}, lines 4924-4938; Latin "
-             f"on the facing page, lines 4887-4911"),
+             f"on the facing page, lines 4887-4899"),
         1,
         ["participant asks how Augustine prepared for death",
          "participant asks whether Augustine practised the repentance he taught",
@@ -3416,7 +3421,7 @@ def build_host_quotes() -> None:
          "not read it as something else."],
         f"Possidius, Life of Augustine, chapter XXXI. English in Weiskotten's translation at "
         f"{POSSIDIUS}, lines 4924-4938; Latin on the facing page of the same edition, lines "
-        "4887-4911. The sentence before it, on Augustine's teaching that even baptized "
+        "4887-4899. The sentence before it, on Augustine's teaching that even baptized "
         "Christians should not die without repentance, is left out; the story "
         "lpc.story.the-psalms-on-the-wall tells it. The spaced semicolon is the OCR's. The "
         "passage carries the story lpc.story.the-psalms-on-the-wall.",
@@ -3424,21 +3429,20 @@ def build_host_quotes() -> None:
 
     emit_quote(
         "he-slept-with-his-fathers",
-        "With all the members of his body intact, ... with sight and hearing unimpaired, while "
-        "we stood by and watched and prayed, \"he slept with his fathers,\" as it is written, "
-        "\"well-nourished in a good old age.\"",
+        "with sight and hearing unimpaired, while we stood by and watched and prayed, \"he slept "
+        "with his fathers,\" as it is written, \"well-nourished in a good old age.\"",
         "lpc.figure.possidius",
         "verbatim",
         "A modern listener may not know 'he slept with his fathers'. It is the Bible's way of "
         "saying a man died, and Possidius uses it of Augustine. He stresses that Augustine died "
-        "with his body, sight and hearing sound, and that Possidius and others were there.",
-        "His whole body was sound, and his sight and hearing were unimpaired. While we stood by, "
+        "with his sight and hearing sound, and that Possidius and others were there.",
+        "His sight and hearing were unimpaired. While we stood by, "
         "watching and praying, “he slept with his fathers,” as it is written, “well nourished in "
         "a good old age.”",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         _src("lpc.source.possidius-vita-augustini-weiskotten1919",
-             f"Life of Augustine, chapter XXXI; English at {POSSIDIUS}, lines 4938 and "
-             f"4979-4981; Latin on the facing page, lines 4940-4942"),
+             f"Life of Augustine, chapter XXXI; English at {POSSIDIUS}, lines 4979-4981; Latin "
+             f"on the facing page, lines 4940-4942"),
         1,
         ["participant asks how Augustine died",
          "participant asks who was with Augustine when he died"],
@@ -3449,10 +3453,11 @@ def build_host_quotes() -> None:
          "The phrases in quotation marks are Scripture as Possidius uses it; the speaker must "
          "not present them as Augustine's own words."],
         f"Possidius, Life of Augustine, chapter XXXI. English in Weiskotten's translation at "
-        f"{POSSIDIUS}, line 4938 and lines 4979-4981. The edition prints the Latin on facing "
-        "pages, and the English sentence breaks across a page: the ellipsis in the text field "
-        "marks the facing Latin page (lines 4939-4978), not a gap in the English. The Latin is "
-        "at lines 4940-4942. The biblical phrases echo 1 Kings ii. 10 and Genesis xv. 15. The "
+        f"{POSSIDIUS}, lines 4979-4981. The edition prints the Latin on facing pages, and the "
+        "English sentence breaks across a page. Its opening clause, 'With all the members of "
+        "his body intact,', stands on line 4938, before the facing Latin page (lines "
+        "4939-4978), and is left out; the text field begins after the page. The Latin of the "
+        "whole sentence begins on line 4899 and runs to line 4942. The biblical phrases echo 1 Kings ii. 10 and Genesis xv. 15. The "
         "passage carries the story lpc.story.the-psalms-on-the-wall.",
     )
 
@@ -3471,9 +3476,8 @@ def build_host_quotes() -> None:
         "thirteen of his own letters to the clergy at Rome, to show them what he had done while "
         "in hiding. The confessors are those who had confessed Christ before the magistrates.",
         "These thirteen letters show you what I did. I sent them out at different times, and I "
-        "have passed them on to you. Nothing was lacking in them, as far as my poor abilities "
-        "could manage. They did what they could with the Lord's help, under the law of faith and "
-        "the fear of God. There was advice to the clergy and encouragement to the confessors. "
+        "have passed them on to you. In them nothing lacked, as far as my poor abilities "
+        "could strive, with the Lord's help, under the law of faith and fear of God. There was advice to the clergy and encouragement to the confessors. "
         "When it was needed, there was rebuke to the exiles. And there were my appeals to the "
         "whole brotherhood, urging them to beg for God's mercy.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
@@ -3518,7 +3522,7 @@ def build_host_quotes() -> None:
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         _src("lpc.source.cyprian-epistles",
              f"Epistle XIV (Oxford Ep. 20), section 2; English at {ANF05}, lines 30198-30207; "
-             f"Latin at {EPIST_LAT}, lines 2992-2998"),
+             f"Latin at {EPIST_LAT}, lines 2992-3012"),
         1,
         ["participant asks how many letters of peace the confessors gave",
          "participant asks why Cyprian objected to the confessors' certificates"],
@@ -3528,7 +3532,7 @@ def build_host_quotes() -> None:
          "count."],
         f"Cyprian, Epistle XIV in the ANF numbering (20 in the Oxford numbering), section 2. "
         f"English in the ANF translation at {ANF05}, lines 30198-30207. Latin in Hartel's "
-        f"edition at {EPIST_LAT}, lines 2992-2998. The passage carries the force "
+        f"edition at {EPIST_LAT}, lines 2992-3012. The passage carries the force "
         "lpc.force.confessors-claim-to-grant-peace.",
     )
 
@@ -3624,7 +3628,7 @@ def build_host_quotes() -> None:
              "question of the Latin is given as a question followed by statements."),
         _src("lpc.source.augustine-on-baptism-against-the-donatists",
              "On Baptism, Against the Donatists, book II, chapter 3, section 4; English at "
-             "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, line 11303; Latin "
+             "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 11301-11304; Latin "
              "at cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt"
              ", lines 10209-10247"),
         1,
@@ -3639,7 +3643,7 @@ def build_host_quotes() -> None:
          "a modern denomination."],
         "Augustine, On Baptism, Against the Donatists, book II, chapter 3, section 4. English in "
         "the NPNF translation at cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, "
-        "line 11303 (the whole section stands on lines 11300-11304). Latin in Petschenig's "
+        "lines 11301-11304. Latin in Petschenig's "
         "edition at cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_"
         "petschenig1908-1910.txt, lines 10209-10247. The section's opening address to the "
         "Donatists is left out. The passage carries the force "
@@ -3671,7 +3675,7 @@ def build_host_quotes() -> None:
              "gloriandum, quando nostrum nihil sit."),
         _src("lpc.source.cyprian-minor-pastoral-treatises",
              f"Three Books of Testimonies against the Jews, book III, heading 4; English at "
-             f"{ANF05}, lines 53424-53432; Latin heading at "
+             f"{ANF05}, lines 53424-53433; Latin heading at "
              "cic/texts/cyprian_testimoniorum-libri-tres-adversus-judaeos-lat_hartel1868-csel3"
              "-tei.txt, line 3300"),
         2,
@@ -3684,7 +3688,7 @@ def build_host_quotes() -> None:
          "The heading does not address the Pelagian controversy, which came long after Cyprian; "
          "the speaker must not present it as a reply to Pelagius."],
         f"Cyprian, Three Books of Testimonies against the Jews (Ad Quirinum), book III, heading "
-        f"4. English in the ANF translation at {ANF05}, lines 53424-53432. Latin heading in "
+        f"4. English in the ANF translation at {ANF05}, lines 53424-53433. Latin heading in "
         "Hartel's edition at cic/texts/cyprian_testimoniorum-libri-tres-adversus-judaeos-lat_"
         "hartel1868-csel3-tei.txt, line 3300. The heading's further proof texts (1 Samuel ii. "
         "3-4, Jeremiah ix. 23-24) are left out. Augustine quotes the heading in the "
@@ -3728,7 +3732,7 @@ def build_host_quotes() -> None:
              "household'; and 'penitence' renders paenitentiam, 'repentance'."),
         _src("lpc.source.cyprian-epistles",
              f"Epistle X (Oxford Ep. 15), to the martyrs and confessors, section 4; English at "
-             f"{ANF05}, lines 29936-29948; Latin at {EPIST_LAT}, lines 2467-2476"),
+             f"{ANF05}, lines 29936-29949; Latin at {EPIST_LAT}, lines 2467-2476"),
         2,
         ["participant asks what a confessor's certificate of peace said",
          "participant asks why Cyprian wanted each certificate to name the person"],
@@ -3738,7 +3742,7 @@ def build_host_quotes() -> None:
          "The passage does not give a certificate's full wording; the speaker must not invent "
          "one."],
         f"Cyprian, Epistle X in the ANF numbering (15 in the Oxford numbering), section 4. "
-        f"English in the ANF translation at {ANF05}, lines 29936-29948. Latin in Hartel's "
+        f"English in the ANF translation at {ANF05}, lines 29936-29949. Latin in Hartel's "
         f"edition at {EPIST_LAT}, lines 2467-2476. The section's first sentence, on letters to "
         "the clergy and people, is left out. A page-break tag inside the passage is stripped. "
         "The passage carries the term lpc.term.certificates-letters-of-peace.",

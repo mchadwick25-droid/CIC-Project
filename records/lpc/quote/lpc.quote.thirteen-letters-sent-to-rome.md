@@ -42,9 +42,9 @@ modern_lens_note: A modern listener may picture a published book of letters. Cyp
   of his own letters to the clergy at Rome, to show them what he had done while in hiding. The confessors
   are those who had confessed Christ before the magistrates.
 modern_rendering: These thirteen letters show you what I did. I sent them out at different times, and
-  I have passed them on to you. Nothing was lacking in them, as far as my poor abilities could manage.
-  They did what they could with the Lord's help, under the law of faith and the fear of God. There was
-  advice to the clergy and encouragement to the confessors. When it was needed, there was rebuke to the
-  exiles. And there were my appeals to the whole brotherhood, urging them to beg for God's mercy.
+  I have passed them on to you. In them nothing lacked, as far as my poor abilities could strive, with
+  the Lord's help, under the law of faith and fear of God. There was advice to the clergy and encouragement
+  to the confessors. When it was needed, there was rebuke to the exiles. And there were my appeals to
+  the whole brotherhood, urging them to beg for God's mercy.
 ---
 Cyprian, Epistle XIV in the ANF numbering (20 in the Oxford numbering), section 2. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30188-30195. Latin in Hartel's edition at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 2983-2989. The passage carries the force lpc.force.transmission-institutionally-dominant-side.
