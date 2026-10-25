@@ -41,10 +41,7 @@ relations:
 positions:
 - Augustine never puts the question in those words, but he does answer the charge behind it. A Donatist
   bishop, Petilian, said we had no business with kings. Around 400 to 402, Augustine replied
-  that Constantine was "no foe to the name of Christian, but rather rendered glorious by it." In City of God,
-  which he began in 413, he adds that God
-  let Constantine gain such power to show that greatness on earth never required worshipping the old
-  gods.
+  that Constantine was "no foe to the name of Christian, but rather rendered glorious by it." In City of God, which he began in 413, he adds a second point. God let Constantine gain such power to show that greatness on earth never required worshipping the old gods.
 tensions:
 - Augustine answered as one side of a quarrel. Petilian's own side had asked Constantine to judge between
   us, and he ruled against them. And Augustine did not say a king's friendship

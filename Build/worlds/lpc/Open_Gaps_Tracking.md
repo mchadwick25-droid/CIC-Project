@@ -1909,3 +1909,11 @@ Logged 2026-10-25.
 - **Carried: Registry row 29 licenses nothing from Tertullian.** `lpc.source.tertullian-de-pudicitia` stands as comparandum evidence for chapter XXII, which two records cite, but row 29 is the Excluded Named Comparandum row. Whether chapter XXII gets a narrow licence is a boundary decision for the project lead.
 - **Carried: "confessors" against Tertullian's "martyrs".** `lpc.gravity.confessor-authority-vs-episcopal-peace` speaks of sinners asking confessors for peace where *De Pudicitia* 22 speaks of martyrs. To be checked against the gravity's own sources in the next pass.
 - **Owner.** The `lpc` build thread.
+
+### OG-71. P2 pass review findings fixed; one Library flag (2026-10-25).
+
+Logged 2026-10-25.
+
+- **Fixed.** `P2_Pass_Review_2026-10-25.md` found one P1 and eleven P2s. The Tertullian source record no longer claims a licence: it is cited as comparandum evidence, and Registry row 29 licenses nothing. Its date now has an upper bound (anf03 lines 62, 4763). Line ranges are corrected (Tertullian XXII to 9659, *Passio* I to 5639, Monica 14147 to 14168 and 14185 to 14195). Three spoken sentences past 25 words are split. The confessor-authority gravity says "imprisoned martyrs", Tertullian's own term, which closes OG-70's second carried item. The precedent's §4 sentence keeps Doc_04's search bound and applies "one bishop writing" to the letters only, and its header no longer points to the ruling. `wb_lpc_s21.py` says plainly that the two new source records are kept by hand.
+- **Library flag.** `cic/corpus-map/latin-pastoral-congregational-christianity.yaml` line 459 and `cic/corpus-map/_staging/npnf102_augustine-city-of-god-christian-doctrine.yaml` line 17 still date *City of God* 413 to 427. The editor gives 413 to 426 (npnf102 lines 864 to 865). That is the Library's surface; filed in `NEEDS-RULING.md` for the Library thread.
+- **Owner.** The `lpc` build thread; the Library thread for the corpus-map note.

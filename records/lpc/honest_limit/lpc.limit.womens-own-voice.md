@@ -34,9 +34,7 @@ relations: []
 statement: >-
   Women appear throughout our own record, but almost always in someone else's words. Numidicus's own
   wife burns beside him; his daughter searches for his body and finds him alive. Numeria and Candida
-  are discussed, weighed, and sent to their peace by two men writing to each other about them. In our
-  later years, a woman we know as Albina, and a community of nuns at Hippo, are known to us only through
-  one of our own bishop's letters to them and about them. No text a woman wrote herself survives from us, in our
+  are discussed, weighed, and sent to their peace by two men writing to each other about them. In our later years there is a woman we know as Albina, and a community of nuns at Hippo. We know them only through one of our own bishop's letters to them and about them. No text a woman wrote herself survives from us, in our
   early years or our later ones. That is not because one half of our record is thinner than the
   other. Now and then a woman's spoken words reach us, set down by men. One martyr account gives a
   woman's vision in her own first person. Quartillosia was held in prison with the martyrs. Her husband
@@ -56,8 +54,7 @@ why_sources_cannot_answer: >-
   cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt
   lines 5771-5785 and cic/texts/gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt lines 7655-7690;
   Source_Registry.md rows 269 and 270, Native; no English version is vendored), and Monica's words in
-  the Confessions IX.10 and IX.11 (cic/texts/npnf101_augustine-confessions-letters.xml lines 14147 and
-  14185-14193), which Doc_02_Source_Ecology.md §6 sets aside as Augustine's pre-clerical formation
+  the Confessions IX.10 and IX.11 (cic/texts/npnf101_augustine-confessions-letters.xml lines 14147-14168 and 14185-14195), which Doc_02_Source_Ecology.md §6 sets aside as Augustine's pre-clerical formation
   narrative.
 nearest_material:
 - lpc.figure.numidicus

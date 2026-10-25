@@ -25,7 +25,7 @@ edition: 'Rudolf Knopf (ed.), Ausgewählte Märtyrerakten, 3rd revised edition b
   no. XIV, vendored as cic/texts/gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt (Registry row 270)'
 rights_status: public-domain by date (printed 1929 and 1902); vendored in cic/texts/, and chapter 8, the
   one passage this world draws on, was directly read in both files (Source_Registry.md rows 269 and 270).
-attribution_status: anonymous; chapter 1 (Knopf lines 5632-5638) is written in the first person plural
+attribution_status: anonymous; chapter 1 (Knopf lines 5632-5639) is written in the first person plural
   and names no author
 discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml, the entries
   for the Passio of Montanus and Lucius in Knopf-Krueger 1929 (no. 16) and Gebhardt 1902 (no. XIV); chapter

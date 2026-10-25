@@ -55,8 +55,7 @@ description: >-
   outside the church's boundary valid? The two bishops answer it in opposite ways.
 
 
-  It comes up again and again: in Cyprian's letters on rebaptism, in the ruling of the Council of
-  256, and all through Augustine's On Baptism, seven books on the question. Unlike conciliar
+  It comes up again and again. Cyprian's letters on rebaptism raise it, and so does the ruling of the Council of 256. Augustine's On Baptism argues it through seven books. Unlike conciliar
   authority, it is not thin. Two separate bishops argue it at length, more than a century apart.
 
 

@@ -20,6 +20,10 @@ INPUTS and OUTPUTS
     Row 204 has two portions and both are excluded: its Scillitan-Martyrs portion mirrors
     row 28, and its Perpetua-and-Felicitas portion is assigned to a third world,
     `tertullian-s-voice`. Only Native rows become records, as in the don script.
+  - Not emitted here, and kept by hand: source records for Registry rows past 212, among
+    them lpc.source.passio-montani-et-lucii (rows 269 and 270), and
+    lpc.source.tertullian-de-pudicitia, the one chapter of excluded row 29 that two
+    records cite as comparandum evidence.
   - Source_Acquisition_Manifest.md SS1-SS3 -> rights_status. SS3 states its own membership
     rule: every Native, Confidence-C-or-below row whose Verification Note says "in
     copyright" and "consultation-only" or "not a vendoring candidate" is in the

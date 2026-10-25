@@ -76,7 +76,7 @@ description: >-
 
   The forces around it hold the tension in place. The Decian persecution put confessors in one
   congregation on a mass scale. Their claim was not new: Tertullian, in On Modesty, already tells of
-  sinners who ask confessors for peace. The Valerianic persecution kept the tension as it was, and it
+  sinners who ask imprisoned martyrs for peace. The Valerianic persecution kept the tension as it was, and it
   ended the phase in which the tension appears. The confessors' claim is itself a force. All three
   forces belong to the first phase. A search of the texts tested here found no confessor-authority
   material from Augustine's phase. The sermons now in scope have not been searched for it. On the texts
