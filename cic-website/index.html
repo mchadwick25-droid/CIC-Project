@@ -259,6 +259,7 @@ body .cicp-speeds button{min-height:44px;min-width:44px;padding:0 .3rem}
 </style>
 <link rel="stylesheet" href="assets/chooser.css">
 <link rel="stylesheet" href="assets/feedback.css">
+<link rel="stylesheet" href="assets/more-conversations.css">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -275,6 +276,7 @@ body .cicp-speeds button{min-height:44px;min-width:44px;padding:0 .3rem}
       <a class="feature-btn" href="atlas-v3.html">Church Family Tree</a>
       <a class="feature-btn" href="index.html#who">Conversation with One</a>
       <a class="feature-btn" href="table.html">Build a Table</a>
+      <button type="button" class="feature-btn" id="more-toggle" aria-expanded="false" aria-controls="more-drawer" hidden>Get more conversations</button>
     </nav>
     <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false"><span class="fb-full">Tell us what you think</span><span class="fb-short" aria-hidden="true">Feedback</span></button>
     <div class="menu">
@@ -437,5 +439,11 @@ if (menu && menuToggle) {
 <script src="assets/chooser.js" defer></script>
 <script src="assets/page-rail.js" defer></script>
 <script src="assets/feedback.js" defer></script>
+<script src="assets/go-deeper-config.js"></script>
+<script src="assets/more-conversations.js" defer></script>
+<div class="more-scrim" id="more-scrim" hidden></div>
+<aside class="more-drawer" id="more-drawer" aria-label="Get more conversations" hidden>
+  <iframe id="more-frame" title="Get more conversations" allow="clipboard-write"></iframe>
+</aside>
 </body>
 </html>

@@ -22,7 +22,7 @@ Do-Not-Retrieve-When: the participant is asking about the Decian sacrifice-certi
 
 ## Quick Meaning
 
-For us, a certificate is the written request a martyr or confessor sends to the bishop asking that a named lapsed person be received back to communion — the actual instrument by which the confessors' claim to grant peace was made, and the thing Cyprian spends his crisis correspondence trying to regulate rather than abolish.
+For us, a certificate is a confessor's letter for a lapsed person. It asks for peace, or says peace is granted. Who decides is what we argued over. It is the actual instrument by which the confessors' claim to grant peace was made, and the thing Cyprian spends his crisis correspondence trying to regulate rather than abolish.
 
 ---
 
@@ -30,7 +30,7 @@ For us, a certificate is the written request a martyr or confessor sends to the 
 
 The claim is not made in the abstract. It is made on paper, and the paper arrives.
 
-A confessor who stood before the magistrate writes to the bishop and asks that this man, or this woman, be received. Cyprian does not say such letters should not exist — he says they must be written a particular way. *designate by name in the certificate those whom you yourselves see, whom you have known, whose penitence you see to be very near to full satisfaction, and so direct to us letters in conformity with faith and discipline.* Name the person. Know them. Judge their penitence yourself before you ask.
+A confessor who stood before the magistrate writes a letter for this man, or this woman, asking peace for them or saying it is granted. Cyprian does not say such letters should not exist — he says they must be written a particular way. *designate by name in the certificate those whom you yourselves see, whom you have known, whose penitence you see to be very near to full satisfaction, and so direct to us letters in conformity with faith and discipline.* Name the person. Know them. Judge their penitence yourself before you ask.
 
 What actually arrives is often not that. *certificates are so given to some as that it is said, "Let such a one be received to communion along with his friends"* — a name and then an open door behind it, so that whoever can claim to be a friend, a neighbour, a freedman or a servant of the man named walks through on his paper. And the scale is his own word for it: *thousands of certificates were daily given, contrary to the law of the Gospel* — not a few hard cases but a parallel readmission system running faster than the bishop's own.
 
@@ -50,7 +50,7 @@ This is the **mechanism** behind the confessor-authority tension, and without it
 A modern participant who has just heard about the *libelli* will assume this is the same document, or a version of it — a certificate to do with the persecution. They will also tend to hear "letter of peace" as a devotional or ceremonial gesture.
 
 **World Hearing:**
-The opposite document, travelling the opposite way. The sacrifice-certificate proves you complied with the empire and made you one of the lapsed; this certificate asks the church to take you back. One is issued by the state's process, the other by a Christian who survived that process. And it is administratively real — issued in thousands, argued over by name, and regulated in writing.
+The opposite document, travelling the opposite way. The sacrifice-certificate proves you complied with the empire and made you one of the lapsed; this certificate asks peace for you, or says it is granted. One is issued by the state's process, the other by a Christian who survived that process. And it is administratively real — issued in thousands, argued over by name, and regulated in writing.
 
 ---
 

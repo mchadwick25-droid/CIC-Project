@@ -36,11 +36,26 @@ def test_five_wrong_tries_burn_the_code_even_for_the_right_one(svc, mailer):
     assert svc.finish_sign_in(challenge, ADDR, right, NET, True).status == "wrong"
 
 
-def test_a_new_start_replaces_the_old_challenge_for_that_address(svc, mailer):
-    old_challenge, old = start_sign_in(svc, mailer)
-    new_challenge, new = start_sign_in(svc, mailer)
-    assert svc.finish_sign_in(old_challenge, ADDR, old, NET, True).status == "wrong"
-    assert svc.finish_sign_in(new_challenge, ADDR, new, NET, True).status == "ok"
+def test_a_new_start_does_not_cancel_the_code_an_owner_is_waiting_for(svc, mailer):
+    owner_challenge, owner_code = start_sign_in(svc, mailer, ADDR, NET)
+    start_sign_in(svc, mailer, ADDR, "198.51.100.7")
+    start_sign_in(svc, mailer, ADDR, "198.51.100.8")
+    assert svc.finish_sign_in(owner_challenge, ADDR, owner_code, NET, True).status == "ok"
+
+
+def test_only_the_newest_three_codes_for_an_address_stay_live(svc, mailer):
+    made = [start_sign_in(svc, mailer, ADDR, f"198.51.100.{i}") for i in range(4)]
+    assert svc.finish_sign_in(made[0][0], ADDR, made[0][1], NET, True).status == "wrong"
+    assert svc.finish_sign_in(made[3][0], ADDR, made[3][1], NET, True).status == "ok"
+
+
+def test_every_code_is_eight_digits(svc, mailer):
+    for network in ("203.0.113.5", "203.0.113.6"):
+        _, code = start_sign_in(svc, mailer, ADDR, network)
+        assert len(code) == 8 and code.isdigit()
+    cookie = sign_in(svc, mailer, "dee@example.org", "198.51.100.40")
+    svc.step_up_start(svc.session(cookie), "dee@example.org", "198.51.100.40")
+    assert len(mailer.last_code("dee@example.org")) == 8
 
 
 def test_a_malformed_or_missing_challenge_or_code_is_just_wrong(svc, mailer):
@@ -116,7 +131,7 @@ def test_the_account_holds_days_and_weeks_never_a_time(svc, mailer, store):
     today = svc.today()
     assert account.day_created == today.isoformat()
     assert account.week_last_used == f"{today.isocalendar()[0]}-W{today.isocalendar()[1]:02d}"
-    assert 1 <= account.refill_day <= 28
+    assert account.refill_day == today.day
 
 
 def test_sends_are_limited_per_address_per_network_and_globally(store, keys, mailer, clock):
@@ -131,13 +146,33 @@ def test_sends_are_limited_per_address_per_network_and_globally(store, keys, mai
     assert svc.start_sign_in("late@example.org", "198.51.100.99").status == "sent"
 
 
-def test_the_ten_a_day_cap_per_address_holds(store, keys, mailer, clock):
+def test_the_ten_a_day_cap_per_address_and_network_holds(store, keys, mailer, clock):
     svc = AccountsService(store, keys, mailer, clock=clock)
     statuses = []
     for _ in range(12):
         statuses.append(svc.start_sign_in(ADDR, NET).status)
         clock.advance(901)
     assert statuses.count("sent") == 10
+
+
+def test_a_stranger_on_one_network_cannot_use_up_the_owners_budget_on_another(store, keys, mailer, clock):
+    svc = AccountsService(store, keys, mailer, clock=clock)
+    assert [svc.start_sign_in(ADDR, "198.51.100.9").status for _ in range(4)] == ["sent", "sent", "sent", "throttled"]
+    assert svc.start_sign_in(ADDR, NET).status == "sent"
+
+
+def test_the_ceiling_across_networks_bounds_the_mail_to_one_inbox(store, keys, mailer, clock):
+    svc = AccountsService(store, keys, mailer, clock=clock)
+    statuses = [svc.start_sign_in(ADDR, f"198.51.{i // 3}.{i}").status for i in range(12)]
+    assert statuses.count("sent") == svc.limits.sends_per_address_15min == 9
+    assert statuses[9:] == ["throttled"] * 3
+
+
+def test_the_guesses_an_address_can_be_given_in_a_day_are_bounded_by_the_numbers_chosen():
+    limits = Limits()
+    guesses = limits.sends_per_address_day * limits.code_tries
+    assert guesses == 150
+    assert guesses / 10 ** 8 < 2e-6  # under one in 500,000 a day for a targeted address
 
 
 def test_a_network_may_open_only_so_many_new_accounts_a_day(store, keys, mailer, clock):

@@ -987,3 +987,6 @@ Build/worlds/lpc/Review-Artifacts/Step0_ChangeOrder_Review_Round6.md: World-Buil
 Build/worlds/lpc/Review-Artifacts/Doc_08_ChangeOrder_Recheck_Round12.md: engine/m7/turn_readability.score_turn
 Build/worlds/lpc/Review-Artifacts/Doc_09_ChangeOrder_Recheck_Round10.md: engine/m7/turn_readability.score_turn
 Build/worlds/lpc/Review-Artifacts/Doc_01_ChangeOrder_Recheck_Round15.md: Build/worlds/lpc/scripts/__pycache
+Build/worlds/lpc/Review-Artifacts/CO-LPC-3_Spoken_Corrections_Recheck.md: cic/texts/npnf10x
+Build/worlds/lpc/Review-Artifacts/Sermon_Quotes_Batch2_Review_2026-10-24.md: packages/lpc
+Build/worlds/lpc/Review-Artifacts/Sermon_Quotes_Batch2_Recheck_2026-10-24.md: packages/lpc

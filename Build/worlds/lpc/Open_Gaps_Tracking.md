@@ -1844,3 +1844,51 @@ Logged 2026-10-24.
 - **What changed that a participant hears.** The Constantine witness now gives Augustine's own answer to the charge (*Answer to Petilian* §§202 to 205). The women's-voice limit now says no text a woman wrote herself survives, and that a few women's spoken words reach us set down by men, among them Quartillosia's own account of her vision (*Passio Montani et Lucii* 8).
 - **P2s carried (Round 2 N1 to N7).** Two spoken sentences in the women's-voice statement run past 25 words; the record's `sources` lack the *Passio* and Registry rows 269 to 270 have no source record; three cited line ranges stop short; row 14's date cells omit the new locus; the `wb_lpc_s28.py` docstring still says a woman's first-person narration is attested in neither phase; Monica could be named beside Quartillosia; *On Baptism* is seven books, not "a whole book".
 - **Owner.** The `lpc` build thread.
+
+### OG-64. CO-LPC-3: items carried for the next pass (2026-10-24).
+
+Logged 2026-10-24.
+
+- **The Vandal crossing date (C-26).** The world's records date the Vandal crossing into Africa to 429. The only vendored source the record cites, Prosper's *Epitoma Chronicon*, enters "Gens Wandalorum ab Hispania ad Africam transit" (entry 1295) under the consuls of 427 (`cic/texts/` Prosper file, lines 54066 to 54118). The date has not been changed: settle it at source (the year 429 rests on other evidence this build has not vendored) and correct or qualify it.
+- **No source record for two Native texts.** Tertullian's *De Pudicitia* 22 (C-19, C-28) and the *Passio Montani et Lucii* (C-39) are read and cited in record text, but `records/lpc/source/` has no record for either, so no `sources[]` entry can name them.
+- **Phase 5 boundary-testing transcripts.** `Representative/` Phase 5 transcripts keep the Datus wording from before CO-LPC-3 (lines 104, 122, 136). They are a test record and were left as run; the next validation run tests the corrected voice.
+- **Lucian's condition.** Lucian's reply grants peace on condition that "the case being set forth before the bishop, and confession being made" (`anf05` lines 30731 to 30735). No record says so yet; it bears on the confessor-authority claim guard.
+- **Owner.** The `lpc` build thread.
+
+### OG-65. CO-LPC-3 closed: spoken fields checked against their sources (2026-10-24).
+
+Logged 2026-10-24.
+
+- **Closed.** All 162 participant-facing fields in `records/lpc/` were read sentence by sentence against their sources (`Spoken_Fidelity_Review_*_2026-10-24.md`). The 46 P1s and the plainly correct P2s are corrected at every site, including the Representative's Permanent Prompt, the World Capsule Core, the World Profile, the chunks and the documents; the generator scripts reproduce the records. Round 3 of the recheck (`CO-LPC-3_Spoken_Corrections_Recheck_Round3.md`) approved to proceed. Every row of `lpc_Claims_Register.md` is VERIFIED or JUDGEMENT.
+- **P2 carried: date the Constantine witness's sources (R3-1).** Caution 2 now says Augustine's later view is given dated to when he wrote it; the witness does not yet date its sources. *Answer to Petilian* about 400 to 402 (npnf104 lines 10278 to 10279, 10733) and *City of God* begun 413 (npnf102 lines 864 to 865).
+- **Leftovers in construction prose, not voice material:** Doc_05 line 407; `wb_lpc_s2y_canon_cells.py` docstring lines 216 and 311; the retired `wb_lpc_s2z_canon_closure.py` line 541 ("holds the whole of it, not a share"); the City of God source record gives 413 to 427 where the NPNF editor gives 413 to 426.
+- **Owner.** The `lpc` build thread.
+
+### OG-66. The Vandal dates corrected to what the sources hold (2026-10-24).
+
+Logged 2026-10-24.
+
+- **What was wrong.** The force record `lpc.force.vandal-invasion-siege-of-hippo`, Doc_08 Force 3A-1, Doc_01, the World Profile and the Force Index dated the Vandal crossing to 429, and the record put the start of the siege of Hippo in 429. No vendored source gives 429 for the crossing: Prosper's *Epitoma Chronicon* enters it (entry 1295) under the consuls of 427 (`cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt`, lines 54069 and 54126). The siege began in 430: Augustine fell ill in its third month (Possidius, *Vita* XXIX, lines 4146 to 4148) and died on 28 August 430.
+- **Correction.** Every site now says the crossing came in the late 420s, that the one chronicle held enters it under 427, and that the siege began in 430. The record cites both loci. This closes the Vandal-date item in OG-64. The modern date 429 rests on evidence this build has not vendored; if it is vendored later, the date can be given with it.
+- **Review.** Checked in the sermon batch 2 review.
+- **Owner.** The `lpc` build thread.
+
+### OG-67. OG-66's account of the Vandal crossing evidence was wrong; fallback wording in place (2026-10-24).
+
+Logged 2026-10-24.
+
+- **What OG-66 got wrong.** Two of its statements are untrue: "No vendored source gives 429 for the crossing" and "The modern date 429 rests on evidence this build has not vendored". Hydatius's chronicle gives May 429: entry 90, year V of Theodosius, Mommsen's margin 429 (`cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt`, lines 1641 to 1645). The Gallic Chronicle of 452, in the Prosper file the force record already cites, enters the crossing (entry 108) under a later year (`cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt`, lines 71067 to 71071). Weiskotten's notes to Possidius give 428 (`cic/texts/possidius_vita-augustini_weiskotten1919.txt`, lines 465, 5364 and 5845). OG-66 also said every site had been changed; Doc_01's Ending point (line 27) still gave 429.
+- **Correction.** The fallback wording is in place. The force record `lpc.force.vandal-invasion-siege-of-hippo`, `wb_lpc_s25.py` and Doc_08 Force 3A-1 now read: "The Vandals crossed from Spain into Africa in the late 420s; the chronicles disagree on the year, and Prosper's enters the crossing under 427." "The one chronicle we hold" is gone from every site. Doc_01 line 27 now reads "crossing from Spain in the late 420s, besieging Hippo in 430 as Augustine lay dying". The siege stays in 430 on the Possidius locus. "Late 420s" is no wider than the evidence: 427, 428 and 429 all sit inside it.
+- **Why not 429 now.** Hydatius's chronicle is not placed in this world's corpus map, and Process V2.0 bars a Registry row from resting on a work not placed for this world.
+- **Open: Library request.** A request is open to place Hydatius entry 90 for this world (`Build/worlds/_cross-world/NEEDS-RULING.md`, Placement questions). Once it is placed, add the Registry row and source record, and the force record can say "May 429, by Hydatius's count; Prosper enters it under 427".
+- **Review.** Found in the sermon batch 2 review (`Review-Artifacts/Sermon_Quotes_Batch2_Review_2026-10-24.md`, B-1 and B-2).
+- **Owner.** The `lpc` build thread, with the Library for the placement.
+
+### OG-68. Sermon batch 2 closed; two notes on the Vandal entries (2026-10-24).
+
+Logged 2026-10-24.
+
+- **Sermon batch 2.** Six quote records from Augustine's sermons, for preaching and catechesis and for grace and human incapacity, are approved to proceed (`Review-Artifacts/Sermon_Quotes_Batch2_Review_2026-10-24.md`, and its recheck). The conciliar authority theory and the confessors' claim to grant peace have no passage in the 97 NPNF sermons; those gravities rest on the world's existing Cyprianic and conciliar records.
+- **Correction to OG-67.** Line 465 of `cic/texts/possidius_vita-augustini_weiskotten1919.txt` is in Weiskotten's Introduction, not his notes; lines 5364 and 5845 are notes.
+- **The Vandal force record** now names Prosper as the chronicler who records Augustine's death and the capture of Carthage under 439, so "the chronicles disagree" is not read as pointing to a second writer for those entries.
+- **Owner.** The `lpc` build thread.

@@ -44,8 +44,8 @@ narrative_tier_justification: 'Documented. First-person testimony from Cyprian''
   directly: the ANF edition prints an Argument above the letter, which is nineteenth-century editorial
   matter, not Cyprian''s own words. This record cites SS3 of the letter''s own body, where Cyprian states
   the sum in his own voice, rather than the Argument, which happens to carry the same true figure.'
-tellable_as: How we sent a hundred thousand sesterces to ransom people most of us had never met
-text: 'Word reached us that fellow believers in the Numidian towns had been carried off by raiders. Cyprian''s
+tellable_as: How we sent a hundred thousand sesterces to ransom our captive brethren
+text: 'Word reached us that our brethren and sisters had been carried off, captive among barbarians. Cyprian''s
   reply to the eight bishops who told us -- Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus,
   Nampulus and Honoratus, whom he names one by one -- opens without composure: "With excessive grief of
   mind, and not without tears."
@@ -63,11 +63,11 @@ text: 'Word reached us that fellow believers in the Numidian towns had been carr
   may." And he thanked them, for being asked -- for offering us, in his own words, "fruitful fields in
   which we might cast the seeds of our hope."'
 absent_detail: We do not know whether the ransom worked. Cyprian never wrote again about the outcome,
-  and the Numidian bishops' own reply, if there was one, does not survive. The story ends with the money
+  and the eight bishops' own reply, if there was one, does not survive. The story ends with the money
   leaving Carthage.
 modern_contrast: A modern listener may reach at once for a currency conversion -- how much was that, really?
   Our own record licenses none. What it tells plainly is that it was collected from one congregation's
-  clergy and people for the ransom of strangers, and that we do not know what proportion of anything it
-  represented.
+  clergy and people for the ransom of captive brethren, and that we do not know what proportion of anything
+  it represented.
 ---
 Recast into first-person register from Cyprian's own Epistle LIX. "Hundred thousand sesterces" is verified directly at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 36082, the same line this record's own sources[].locus field cites. The claim_guards entry bars inventing a modern-currency conversion for the sum, which no source of ours licenses.

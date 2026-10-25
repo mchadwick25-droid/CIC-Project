@@ -22,7 +22,7 @@ Do-Not-Retrieve-When: the participant is asking about a bishop's authority over 
 
 ## Quick Meaning
 
-For us, this is the principle, declared at the opening of a council, that no bishop stands over his colleagues: each holds his own right of judgment and answers for it elsewhere.
+For us, this is the principle, declared at the opening of a council, that no bishop stands over his colleagues: each holds his own right of judgment and answers for it to Christ.
 
 ---
 

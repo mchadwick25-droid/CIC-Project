@@ -48,7 +48,8 @@ retrieval:
   - the participant is asking about a specific council's own decisions rather than about the theory of
     conciliar authority itself -- ask about the specific council instead
 plain_meaning: Two ideas sit in one sentence here. A small council yields to a wider one -- that is a
-  hierarchy. But even the widest council can later be corrected, because the church learns.
+  hierarchy. But even the widest council can later be corrected, when experience brings to light what
+  was hidden.
 world_word: plenary Council
 distortion_risk: medium
 false_friend:
@@ -56,12 +57,12 @@ false_friend:
   that authority revisable
 senses:
   informational: 'Two moves sit in one sentence, and the second is the surprising one. Narrower yields
-    to wider -- that is a hierarchy. But the widest is itself revisable, because the church learns. A
-    past ruling is authoritative and correctable at the same time, which is precisely what a man needs
-    who intends to honour a predecessor while overturning what he decided. This is the hinge of our own
-    interpretive tradition: it makes a prior ruling into a body of arguable precedent rather than fixed
-    deposit. It is deployed specifically against the earlier ruling on heresy and rebaptism, and it stands
-    in direct contradiction to the paired bishop-of-bishops formula.'
+    to wider -- that is a hierarchy. But the widest is itself revisable, when experience brings to light
+    what was hidden. A past ruling is authoritative and correctable at the same time, which is precisely
+    what a man needs who intends to honour a predecessor while overturning what he decided. This is the
+    hinge of our own interpretive tradition: it makes a prior ruling into a body of arguable precedent
+    rather than fixed deposit. It is deployed specifically against the earlier ruling on heresy and rebaptism,
+    and it stands in direct contradiction to the paired bishop-of-bishops formula.'
   evidential: 'On Baptism, Against the Donatists II.3 is directly quoted and re-verified at source; a
     full sweep returns 31 occurrences of ''plenary'' within the treatise itself. Augustine''s own formula
     is spoken in defence of overturning Cyprian''s specific ruling, his institutional interest running

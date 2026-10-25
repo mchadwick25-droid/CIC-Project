@@ -64,7 +64,8 @@ def test_approving_keeps_the_hash_the_amount_and_the_day_and_nothing_else(wired,
     assert row[1] == wired.keys.address_hash(ADDR) and row[2] == 3000
     store.close()
     assert ADDR.encode() not in (tmp_path / "d.db").read_bytes()
-    assert b"ada" not in (tmp_path / "d.db").read_bytes()
+    data = (tmp_path / "d.db").read_bytes()
+    assert b"ada@" not in data and b"example.org" not in data  # the coupon id is random hex, so a bare "ada" can occur by chance
 
 
 def test_the_reply_is_the_same_whether_or_not_the_address_has_an_account(wired, mailer):

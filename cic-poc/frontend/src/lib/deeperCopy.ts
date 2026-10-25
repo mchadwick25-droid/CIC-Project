@@ -17,6 +17,14 @@ export const deeperCopy = {
   claimUse: 'Use it',
   claimLater: 'Not now',
   claimFailed: "We couldn't get that code. Try the page where you paid.",
+  giveEyebrow: 'Help others take part',
+  giveHeading: 'Keep the door open for others',
+  giveBody:
+    'Free conversations are limited, and gifts keep them open. Every gift goes to the Accessibility Fund. It helps more people, in more languages, explore more Christian traditions.',
+  giveOnce: 'Give once',
+  giveMonthly: 'Give monthly',
+  giveFine:
+    'Church in Conversation is part of Faithways Studio, Inc., a Colorado public benefit corporation \u2014 not a nonprofit. Contributions are not tax-deductible. Both go through Stripe.',
   showCode: 'Show my code',
   hideCode: 'Hide my code',
   yourCode: (code: string) => `Your code is ${code}. Keep it safe. Enter it on another device to use your tokens there.`,

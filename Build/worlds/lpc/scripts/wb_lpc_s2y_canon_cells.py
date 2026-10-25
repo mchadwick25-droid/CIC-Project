@@ -203,7 +203,7 @@ NOT added: lpc.contested.grace-pelagius-characterization (its own sharper,
 
 --- F2-I ("How did you read your scriptures?" / "which writings" / "how
 did someone who couldn't read receive the scriptures?") -- SUBSTANTIVE ---
-term: lpc.term.preaching -- the weekly address to the already-baptized,
+term: lpc.term.preaching -- the regular address to the gathered church,
   evidenced by ~97 Sermons; the direct mechanism by which an illiterate
   congregation received scriptural exposition without personal reading.
 gravity: lpc.gravity.preaching-and-catechesis (the medium itself)
@@ -672,6 +672,24 @@ ASSIGN: dict[str, list[tuple[str, list[str]]]] = {
         ("lpc.quote.clamour-and-tears", ["F3-I"]),
         ("lpc.quote.longing-expectation-is-a-prayer-for-me", ["F4-I"]),
         ("lpc.quote.shepherd-wounded-in-the-flock", ["F4-I"]),
+        ("lpc.quote.ye-belong-to-my-care", ["F3-I"]),
+        ("lpc.quote.stewards-and-future-bishops", ["F3-I"]),
+        ("lpc.quote.good-works-the-comfort-of-our-dangers", ["F3-I"]),
+        ("lpc.quote.bind-him-justly", ["F4-I"]),
+        ("lpc.quote.reprove-and-forgive-the-surgeons-knife", ["F4-I"]),
+        ("lpc.quote.peter-the-sick-man-and-the-physician", ["F4-I"]),
+        ("lpc.quote.one-good-shepherd-not-many", ["F3-T"]),
+        ("lpc.quote.apart-in-heart-united-in-body", ["F3-T"]),
+        ("lpc.quote.going-out-without-violating-unity", ["F3-T"]),
+        ("lpc.quote.the-branch-cut-from-the-vine", ["F6-I"]),
+        ("lpc.quote.pardon-through-a-wicked-clergyman", ["F6-I"]),
+        ("lpc.quote.consider-who-was-there", ["F6-I"]),
+        ("lpc.quote.the-creed-first-then-the-prayer", ["F2-I"]),
+        ("lpc.quote.let-your-creed-be-a-mirror", ["F2-I"]),
+        ("lpc.quote.the-sermon-and-the-readings-are-daily-bread", ["F2-I"]),
+        ("lpc.quote.two-hear-one-scorns-one-rises", ["F1-T"]),
+        ("lpc.quote.what-is-done-by-you-he-does-in-you", ["F1-T"]),
+        ("lpc.quote.no-one-has-the-love-of-god-from-himself", ["F1-T"]),
     ],
     "contested_claim": [
         ("lpc.contested.compel-coercion-development", ["F3-P"]),  # retagged in rework, was F6-P

@@ -59,7 +59,7 @@ def read_val(path: Path) -> bytes:
 def bucket(monkeypatch):
     fake = FakeBucket()
     monkeypatch.setenv(db_backup._ENV_BUCKET, "test-bucket")
-    monkeypatch.setattr(db_backup, "_client", lambda: fake)
+    monkeypatch.setattr(db_backup, "_client", lambda **kw: fake)
     return fake
 
 

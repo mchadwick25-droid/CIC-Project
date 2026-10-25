@@ -339,6 +339,45 @@ def test_the_privacy_page_tells_what_a_purchase_keeps_and_how_long():
 
 
 
+ACCOUNT_PARTS = ["accounts-optional", "accounts-holds", "accounts-signin", "accounts-back", "accounts-delete",
+                 "accounts-review", "accounts-services"]
+
+
+def test_the_privacy_page_shows_the_account_parts_only_when_accounts_are_on():
+    out = _node("privacyAccounts")
+    count = len(ACCOUNT_PARTS)
+    for name in ("off", "absent", "notStrictlyTrue", "goDeeperAloneDoesNotShowThem"):
+        assert out[name] == {"applied": False, "hidden": count}, name
+    assert out["on"] == {"applied": True, "hidden": 0}
+    assert out["onWithGoDeeperOff"] == {"applied": True, "hidden": 0}
+    assert out["pageWithoutTheParts"] is False
+
+
+def test_the_privacy_page_ships_with_every_account_part_hidden_and_the_switch_off():
+    html = (SITE / "privacy.html").read_text()
+    for part in ACCOUNT_PARTS:
+        assert re.search(rf'<(section|p)[^>]*id="{part}"[^>]*\bhidden\b', html), part
+    assert "accounts: false" in (SITE / "assets" / "go-deeper-config.js").read_text()
+
+
+def test_the_privacy_page_account_words_read_at_the_target_level_and_say_what_was_approved():
+    html = (SITE / "privacy.html").read_text()
+    section = html[html.index('id="accounts-optional"'):html.index('id="retention"')]
+    text = " ".join(_text_of("<main>" + section.replace(" hidden", "") + "</main>"))
+    assert text
+    assert score_turn(text).passed, score_turn(text).failures
+    for sentence in (
+        "We keep no name.",
+        "Stripe knows who paid. What you say in a conversation is never stored with your payment.",
+        "Nothing about you is carried from one conversation to the next.",
+        "If you lose both your email and your recovery code, we cannot get your account back.",
+        "Backups drop deleted data within 14 days.",
+        "If someone gives us an email address, we can check whether it has an account.",
+    ):
+        assert sentence in text, sentence
+    assert "can't be traced back" not in html and "cannot be linked" not in html
+
+
 def test_the_privacy_page_numbers_match_the_meters_own_retention():
     from engine.api import db_backup
     from engine.deeper import meter
@@ -349,3 +388,29 @@ def test_the_privacy_page_numbers_match_the_meters_own_retention():
     assert f"we delete it {meter.RETENTION_DAYS} days after the end of the week it was last used." in section
     assert f"We delete it {meter.PILOT_RETENTION_DAYS} days after that day." in section
     assert f"{db_backup._DEFAULT_RETENTION_DAYS} more days" in section
+
+
+def test_the_landing_page_offers_get_more_conversations_in_the_top_row_and_loads_nothing_until_it_is_pressed():
+    html = (SITE / "index.html").read_text()
+    button = re.search(r'<button[^>]*id="more-toggle"[^>]*>(.*?)</button>', html, re.S)
+    assert button and "hidden" in button.group(0) and button.group(1).strip() == "Get more conversations"
+    frame = re.search(r'<iframe[^>]*id="more-frame"[^>]*>', html).group(0)
+    assert "src=" not in frame
+    assert html.index("assets/go-deeper-config.js") < html.index("assets/more-conversations.js")
+
+
+def test_the_slide_out_hears_only_the_app_frame_at_the_app_origin():
+    js = (SITE / "assets" / "more-conversations.js").read_text()
+    assert "ev.origin !== appOrigin" in js and "ev.source !== frame.contentWindow" in js
+    assert 'postMessage({ type: "cic:panel-open" }, appOrigin)' in js
+
+
+def test_the_landing_page_drawer_ships_off_until_the_app_that_draws_it_is_live():
+    config = (SITE / "assets" / "go-deeper-config.js").read_text()
+    assert re.search(r"\bdrawer:\s*false\b", config)
+    assert "cfg.drawer" in (SITE / "assets" / "more-conversations.js").read_text()
+
+
+def test_the_app_panel_offers_the_same_two_gift_links_as_the_support_page():
+    ts = (REPO / "cic-poc" / "frontend" / "src" / "lib" / "giftLinks.ts").read_text()
+    assert re.findall(r"'(https://(?:donate|buy)\.stripe\.com/[^']+)'", ts) == SUPPORT_LINKS

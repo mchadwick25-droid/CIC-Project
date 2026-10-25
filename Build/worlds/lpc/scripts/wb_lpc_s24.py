@@ -69,7 +69,7 @@ INPUTS, mapped to OUTPUTS, precisely:
   - lpc_Representative_Permanent_Prompt_Datus.txt line 37 ("When a specific
     image, story, or teacher's word would make an answer vivid, we reach for
     what our own life actually gave us...") -> the bounded quote candidate
-    set. Several images are named there; FOUR become `quote` records here --
+    set. Several images are named there; FIVE become `quote` records here --
     see "QUOTE SET, BOUNDED" below for the full accounting of what was named,
     what was built, and what was named but not built, and why.
   - Doc_01_World_Identification_Boundaries_Orientation.md SS2 (the two anchor
@@ -227,21 +227,25 @@ using this docstring's own numbering) are synthesized contrasts with no
 single quotable sentence behind them and were not built; the remaining
 five, each independently verified against its vendored source file, were.
 
-RELATIONS -- CLOSED-GRAPH DISCIPLINE, following don's own script exactly.
-records/lpc/gravity/, records/lpc/force/ and records/lpc/contested_claim/ do
-not exist yet (later build steps); a `relations[]` entry pointing at an
-lpc.term.* id would resolve under gate_referential (term records already
-exist) but would then fail gate_reciprocity, because this script's own
-constraints forbid touching records/lpc/term/ to add the required inverse
-back. Every `relations[]` entry this script writes therefore points only at
-another record this same script creates (story<->story, story<->figure,
-story<->quote, figure<->figure, figure<->quote) -- a fully closed graph,
-built and reciprocated by one master pair-list (RELATION_PAIRS below), so
-every edge is declared on both ends by construction, not by hand-checking
-each record afterward. Term connections (lpc.term.bishop-of-bishops, lpc.
-term.the-flock, lpc.term.certificates-letters-of-peace, and others) are
-named in each record's own prose body instead, matching don's own precedent
-for term/gravity connections.
+SERMON QUOTES. Eighteen further `quote` records quote Augustine's sermons on
+selected lessons (Source Registry row 19), three per gravity for the pastoral
+office, penitential discipline, collegial communion, sacramental validity,
+preaching and catechesis, and grace and human incapacity.
+Each `text` is the NPNF English word for word; each `modern_rendering` is the
+Opus rendering as written; each `sources[].locus` gives the NPNF and Maurist
+sermon numbers, the section, the file lines and the PL 38 Latin lines. Each
+carries one `associated-with` edge to the gravity record it bears, and s25
+declares the inverse edge. Their canon cells are assigned by s2y.
+
+RELATIONS -- CLOSED-GRAPH DISCIPLINE. Every `relations[]` entry this script
+writes points at another record this same script creates (story<->story,
+story<->figure, story<->quote, figure<->figure, figure<->quote), except the
+eighteen sermon quotes, whose gravity edges are reciprocated by s25. The
+graph is built and reciprocated by one master pair-list (RELATION_PAIRS
+below), so every edge is declared on both ends by construction. Term
+connections (lpc.term.bishop-of-bishops, lpc.term.the-flock,
+lpc.term.certificates-letters-of-peace, and others) are named in each
+record's own prose body instead.
 
 MECHANICAL vs AUTHORED, field by field:
   - id, world_id, record_type, schema_version, status, register, canon_cells:
@@ -376,12 +380,30 @@ RELATION_PAIRS: list[tuple[str, str]] = [
     ("lpc.figure.possidius", "lpc.quote.clamour-and-tears"),
     ("lpc.figure.augustine", "lpc.quote.clamour-and-tears"),
     ("lpc.figure.augustine", "lpc.quote.longing-expectation-is-a-prayer-for-me"),
+    ("lpc.quote.ye-belong-to-my-care", "lpc.gravity.pastoral-office-flock-keeping"),
+    ("lpc.quote.stewards-and-future-bishops", "lpc.gravity.pastoral-office-flock-keeping"),
+    ("lpc.quote.good-works-the-comfort-of-our-dangers", "lpc.gravity.pastoral-office-flock-keeping"),
+    ("lpc.quote.bind-him-justly", "lpc.gravity.penitential-discipline"),
+    ("lpc.quote.reprove-and-forgive-the-surgeons-knife", "lpc.gravity.penitential-discipline"),
+    ("lpc.quote.peter-the-sick-man-and-the-physician", "lpc.gravity.penitential-discipline"),
+    ("lpc.quote.one-good-shepherd-not-many", "lpc.gravity.collegial-communion-preserved"),
+    ("lpc.quote.apart-in-heart-united-in-body", "lpc.gravity.collegial-communion-preserved"),
+    ("lpc.quote.going-out-without-violating-unity", "lpc.gravity.collegial-communion-preserved"),
+    ("lpc.quote.the-branch-cut-from-the-vine", "lpc.gravity.sacramental-ordination-validity"),
+    ("lpc.quote.pardon-through-a-wicked-clergyman", "lpc.gravity.sacramental-ordination-validity"),
+    ("lpc.quote.consider-who-was-there", "lpc.gravity.sacramental-ordination-validity"),
+    ("lpc.quote.the-creed-first-then-the-prayer", "lpc.gravity.preaching-and-catechesis"),
+    ("lpc.quote.let-your-creed-be-a-mirror", "lpc.gravity.preaching-and-catechesis"),
+    ("lpc.quote.the-sermon-and-the-readings-are-daily-bread", "lpc.gravity.preaching-and-catechesis"),
+    ("lpc.quote.two-hear-one-scorns-one-rises", "lpc.gravity.grace-and-human-incapacity"),
+    ("lpc.quote.what-is-done-by-you-he-does-in-you", "lpc.gravity.grace-and-human-incapacity"),
+    ("lpc.quote.no-one-has-the-love-of-god-from-himself", "lpc.gravity.grace-and-human-incapacity"),
 ]
 
 
 # Edge targets that live in records this script does not emit (the hand-maintained
-# doctrinal_witness records and the s26 contested_claim records).
-EXTERNAL_RELATION_TYPES = {"witness", "contested"}
+# doctrinal_witness records, the s26 contested_claim records and the s25 gravity records).
+EXTERNAL_RELATION_TYPES = {"witness", "contested", "gravity"}
 
 
 def relations_for(rid: str) -> list[dict]:
@@ -582,7 +604,8 @@ def build_stories() -> None:
         "it -- a reported speech inside a biography of praise is not the same evidentiary object as "
         "a letter in the man's own hand. Not Tier 3: there is no miracle and no providential "
         "intervention, and the death-as-completion pattern is absent because nobody dies here.",
-        "How our bishop met a plague by teaching us to care for the very people persecuting us",
+        "How our bishop met a plague by teaching us to love even our enemies, and to help "
+        "everyone, not only our own",
         "Pontius, writing as a deacon who was there, described the epidemic without any of the "
         "consolation he might have reached for. \"There broke out a dreadful plague,\" he wrote, "
         "\"and excessive destruction of a hateful disease invaded every house in succession of the "
@@ -646,23 +669,25 @@ def build_stories() -> None:
         "The only caution worth stating is not about tier but about perspective: Cyprian is making "
         "a case for an appointment, and the letter's own rhetoric -- 'the common joy,' 'the "
         "greatest glory of our Church' -- is the rhetoric of advocacy.",
-        "How we ordained a man on the strength of what he had endured, though he had not wanted "
-        "to survive it",
-        "Cyprian wrote to us with news he called 'the common joy.' He was appointing a presbyter, "
-        "and he wanted us to know who the man was.\n\n"
+        "How our bishop added to our presbyters a confessor who had not wanted to survive",
+        "Cyprian wrote to us with news he called 'the common joy.' He was adding a presbyter to "
+        "our clergy, and he wanted us to know who the man was.\n"
+        "\n"
         "Numidicus had watched a group of us die. He had exhorted them first -- Cyprian says he "
         "\"by his exhortation sent before himself an abundant number of martyrs, slain by stones "
         "and by the flames.\" Among the dead was his own wife. Cyprian's own phrasing about her is "
-        "not a slip: he \"beheld with joy his wife abiding by his side, burned (I should rather say, "
-        "preserved) together with the rest.\"\n\n"
-        "Then Numidicus himself: \"half consumed, overwhelmed with stones, and left for dead.\" His "
-        "daughter came looking for her father's body -- Cyprian says she sought it \"with the "
+        "not a slip: he \"beheld with joy his wife abiding by his side, burned (I should rather "
+        "say, preserved) together with the rest.\"\n"
+        "\n"
+        "Then Numidicus himself: \"half consumed, overwhelmed with stones, and left for dead.\" "
+        "His daughter came looking for her father's body -- Cyprian says she sought it \"with the "
         "anxious consideration of affection\" -- and found him alive. Where she searched, the "
-        "letter does not say. \"Was found half dead, was drawn out and revived.\"\n\n"
+        "letter does not say. \"Was found half dead, was drawn out and revived.\"\n"
+        "\n"
         "And Cyprian adds one clause that gives the whole letter its weight. Numidicus, he says, "
-        "\"remained unwillingly from among the companions whom he himself had sent before.\" He had "
-        "not wanted to survive. Cyprian knew this, wrote it down, and gave the reason he thought it "
-        "happened: \"that the Lord might add him to our clergy.\"",
+        "\"remained unwillingly from among the companions whom he himself had sent before.\" He "
+        "had not wanted to survive. Cyprian knew this, wrote it down, and gave the reason he "
+        "thought it happened: \"that the Lord might add him to our clergy.\"",
         "The three people this story is about left no word of their own. Numidicus's wife burned; "
         "his daughter searched for his body and found him alive; Numidicus himself did not want to "
         "have survived. What the wife thought she was doing, what the daughter found, and what "
@@ -704,28 +729,30 @@ def build_stories() -> None:
         "nineteenth-century editorial matter, not Cyprian's own words. This record cites SS3 of the "
         "letter's own body, where Cyprian states the sum in his own voice, rather than the Argument, "
         "which happens to carry the same true figure.",
-        "How we sent a hundred thousand sesterces to ransom people most of us had never met",
-        "Word reached us that fellow believers in the Numidian towns had been carried off by "
-        "raiders. Cyprian's reply to the eight bishops who told us -- Januarius, Maximus, Proculus, "
-        "Victor, Modianus, Nemesianus, Nampulus and Honoratus, whom he names one by one -- opens "
-        "without composure: \"With excessive grief of mind, and not without tears.\"\n\n"
+        "How we sent a hundred thousand sesterces to ransom our captive brethren",
+        "Word reached us that our brethren and sisters had been carried off, captive among "
+        "barbarians. Cyprian's reply to the eight bishops who told us -- Januarius, Maximus, "
+        "Proculus, Victor, Modianus, Nemesianus, Nampulus and Honoratus, whom he names one by one "
+        "-- opens without composure: \"With excessive grief of mind, and not without tears.\"\n"
+        "\n"
         "The argument he made was not about charity. It was about identity. Quoting Paul, that "
         "\"as many of you as have been baptized into Christ have put on Christ,\" he drew the "
         "conclusion directly: \"Christ is to be contemplated in our captive brethren, and He is to "
-        "be redeemed from the peril of captivity who redeemed us from the peril of death.\"\n\n"
+        "be redeemed from the peril of captivity who redeemed us from the peril of death.\"\n"
+        "\n"
         "Then he said what the money was. \"We have then sent you a sum of one hundred thousand "
         "sesterces, which have been collected here in the Church over which by the Lord's mercy we "
-        "preside, by the contributions of the clergy and people established with us, which you will "
-        "there dispense with what diligence you may.\" And he thanked them, for being asked -- for "
-        "offering us, in his own words, \"fruitful fields in which we might cast the seeds of our "
-        "hope.\"",
-        "We do not know whether the ransom worked. Cyprian never wrote again about the outcome, and "
-        "the Numidian bishops' own reply, if there was one, does not survive. The story ends with "
+        "preside, by the contributions of the clergy and people established with us, which you "
+        "will there dispense with what diligence you may.\" And he thanked them, for being asked "
+        "-- for offering us, in his own words, \"fruitful fields in which we might cast the seeds "
+        "of our hope.\"",
+        "We do not know whether the ransom worked. Cyprian never wrote again about the outcome, "
+        "and the eight bishops' own reply, if there was one, does not survive. The story ends with "
         "the money leaving Carthage.",
-        "A modern listener may reach at once for a currency conversion -- how much was that, really? "
-        "Our own record licenses none. What it tells plainly is that it was collected from one "
-        "congregation's clergy and people for the ransom of strangers, and that we do not know what "
-        "proportion of anything it represented.",
+        "A modern listener may reach at once for a currency conversion -- how much was that, "
+        "really? Our own record licenses none. What it tells plainly is that it was collected from "
+        "one congregation's clergy and people for the ransom of captive brethren, and that we do "
+        "not know what proportion of anything it represented.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.cyprian-epistles",
           "locus": "Ep. LIX SS3, the letter's own body text, not the ANF Argument; cic/texts/"
@@ -757,42 +784,42 @@ def build_stories() -> None:
         "tier argument: this material survives because Cyprian's own dossier preserved the case "
         "against himself. An attribution discipline matters here specifically: these letters are in "
         "Cyprian's corpus and are not by Cyprian.",
-        "How two confessors, not our bishop, decided who could come back to us",
+        "How one confessor asked another, not a bishop, to grant peace to women who had fallen",
         "Celerinus was a confessor among us -- he had been imprisoned and had not denied Christ -- "
-        "and he wrote to Lucian, another confessor, in prison. He did not write about himself. "
-        "\"Know, nevertheless, that I am placed in the midst of a great tribulation,\" he began, and "
-        "the tribulation was not his own captivity. His sister had sacrificed. \"I ask that you "
-        "will grant my desire, and that you will grieve with me at the (spiritual) death of my "
-        "sister, who in this time of devastation has fallen from Christ.\"\n\n"
-        "She was not dead. She was alive, in Carthage, and what Celerinus grieved was a death he "
-        "believed had happened to her soul -- which is why the letter carries a request. He asked "
-        "Lucian to intervene, for her and for two other women, Numeria and Candida, whom Lucian "
-        "also knew. He made the case for them: they had repented, and there were works to point to.\n\n"
-        "Lucian's reply came back from the prison, and it granted what was asked. Before it did, it "
-        "said what the prison had been like: by the emperor's command they \"were ordered to be put "
-        "to death by hunger and thirst, and were shut up in two cells, that so they might weaken us "
-        "by hunger and thirst.\" Then: \"But now we have attained the brightness itself.\" He greeted "
-        "Numeria and Candida, and named the martyrs on whose authority he answered, and signed off "
-        "exhausted, greeting others \"whose names I have not written, because I am already weary. "
-        "Therefore they must pardon me.\"",
+        "and he wrote to Lucian, another confessor, in prison. He told Lucian of his own "
+        "confession. Then he came to his grief: \"Know, nevertheless, that I am placed in the "
+        "midst of a great tribulation.\" His sister had sacrificed. \"I ask that you will grant my "
+        "desire, and that you will grieve with me at the (spiritual) death of my sister, who in "
+        "this time of devastation has fallen from Christ.\"\n"
+        "\n"
+        "She was not dead. What Celerinus grieved was a death he believed had happened to her soul "
+        "-- which is why the letter carries a request. He asked Lucian to intervene, for her and "
+        "for two other women, Numeria and Candida, whom Lucian also knew. He made the case for "
+        "them: they had repented, and there were works to point to.\n"
+        "\n"
+        "Lucian's reply came back from the prison, and it granted what was asked. Before it did, "
+        "it said what the prison had been like: by the emperor's command they \"were ordered to be "
+        "put to death by hunger and thirst, and were shut up in two cells, that so they might "
+        "weaken us by hunger and thirst.\" Then: \"But now we have attained the brightness "
+        "itself.\" He greeted Numeria and Candida, and named the martyrs on whose authority he "
+        "answered. He asked that the two women have peace, \"the case being set forth before the "
+        "bishop, and confession being made.\" He signed off exhausted, greeting others \"whose "
+        "names I have not written, "
+        "because I am already weary. Therefore they must pardon me.\"",
         "Celerinus's own sister has no story, and she is the person this one is about. She is "
         "unnamed -- her own brother does not name her. Numeria and Candida are not 'named lapsed "
         "women' either: Celerinus says the opposite of Candida, that she gave gifts for herself "
         "\"that she might not sacrifice\" -- her case is contested, not conceded. None of the three "
         "speaks for herself anywhere in our record.",
-        "A modern listener may expect a bishop's own authority to be the only channel through which "
-        "someone failed under pressure could be restored. Here it is two confessors, writing to "
-        "each other from captivity, who decide -- and Cyprian's own dossier preserves the letters "
-        "that argued against his own authority, rather than suppressing them.",
+        "A modern listener may expect a bishop's authority to be the only channel by which someone "
+        "who failed under pressure could be restored. Here one confessor asks another, in prison, "
+        "for peace, and the other gives it in the martyrs' name. Yet his own reply says each case "
+        "is to be set before the bishop. Cyprian's own dossier keeps both letters rather than "
+        "hiding them.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.cyprian-epistles",
-          "locus": "Ep. XX (Celerinus to Lucian) and Ep. XXI (Lucian's reply); cic/texts/"
-                   "anf05_hippolytus-cyprian-caius-novatian.xml, lines 30528-30720 -- widened "
-                   "from an earlier draft's 30640-30720, which started about 70 lines after Ep. "
-                   "XX's own opening (line 30528) and so did not cover the letter's own first "
-                   "words, though the specifically re-verified detail this record cites "
-                   "('put to death by hunger and thirst,' line 30706) was already correctly "
-                   "inside it",
+          "locus": "Ep. XX (Celerinus to Lucian) and Ep. XXI (Lucian's reply); "
+                   "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30528-30720",
           "license": "public-domain"}],
         1,
         ["participant asks what happened to those who failed under persecution",
@@ -807,7 +834,9 @@ def build_stories() -> None:
         ["we must not resolve the confessor-authority tension by presenting the confessors as "
          "either usurpers or heroes",
          "no source of ours preserves anything Numeria, Candida, or Celerinus's own sister wrote or "
-         "said -- do not invent words for any of the three"],
+         "said -- do not invent words for any of the three",
+         "do not tell Lucian's grant without his own condition, that each case be set before the "
+         "bishop and confession made"],
         "Derived from Story-Chunks/lpcstory005_celerinus-writes-to-lucian.md, recast into "
         "first-person register (the letters of Celerinus and Lucian are already first-person; the "
         "surrounding narration is recast). 'Put to death by hunger and thirst' is at "
@@ -827,50 +856,50 @@ def build_stories() -> None:
         "carry the author test alone. The details only Pontius gives are marked as his and carry "
         "Contested confidence, or Inferential-Thin where hagiographic convention shapes them. The "
         "two texts differ on who tied the cloths over Cyprian's eyes.",
-        "How two early texts tell our first great bishop's death, and where they differ",
-        "This is how two early texts tell the death of our first great bishop. One is by his deacon, "
+        "How two early texts tell the death of our great bishop Cyprian, and where they differ",
+        "This is how two early texts tell the death of our great bishop. One is by his deacon, "
         "Pontius, who wrote it in the form of a saint's life. The other is the Acta Proconsularia, "
         "an early Christian compilation built around the records of his hearings. Its compiler is "
         "unnamed. Where both texts agree, we say so plainly. Where only one speaks, we say which.\n"
         "\n"
-        "The night before the sentence, Cyprian was held in an officer's house. Pontius says that he "
-        "and the other friends \"were as usual in his company.\" The people stayed outside. Pontius "
-        "writes that they, \"in anxiety that nothing should be done throughout the night without "
-        "their knowledge, kept watch before the officer's door.\" The Acta tells it more briefly, and "
-        "it adds one detail: \"The whole people of the brethren came there. When holy Cyprian learned "
-        "of this, he ordered the young women to be guarded. He did so because all of them had stayed "
-        "in the street, before the door of the officer's lodging.\"\n"
+        "The night before the sentence, Cyprian was held in an officer's house. Pontius says that "
+        "he and the other friends \"were as usual in his company.\" The people stayed outside. "
+        "Pontius writes that they, \"in anxiety that nothing should be done throughout the night "
+        "without their knowledge, kept watch before the officer's door.\" The Acta tells it more "
+        "briefly, and it adds one detail: \"The whole people of the brethren came there. When holy "
+        "Cyprian learned of this, he ordered the young women to be guarded. He did so because all "
+        "of them had stayed in the street, before the door of the officer's lodging.\"\n"
         "\n"
         "In the morning a great crowd went with him. Pontius says he went out \"walled in on all "
-        "sides by the ranks of a mingled multitude.\" The Acta says that \"a large crowd gathered at "
-        "Sextus's place, as the proconsul Galerius Maximus had ordered.\"\n"
+        "sides by the ranks of a mingled multitude.\" The Acta says that \"a large crowd gathered "
+        "at Sextus's place, as the proconsul Galerius Maximus had ordered.\"\n"
         "\n"
         "The proconsul read the sentence from a tablet. Pontius reports that it called Cyprian \"a "
-        "standard-bearer of the sect, and an enemy of the gods, and one who was to be an example to "
-        "his people; and that with his blood discipline would begin to be established.\" The Acta "
-        "gives the sentence in nearly the same words. On the sentence the two texts are not "
+        "standard-bearer of the sect, and an enemy of the gods, and one who was to be an example "
+        "to his people; and that with his blood discipline would begin to be established.\" The "
+        "Acta gives the sentence in nearly the same words. On the sentence the two texts are not "
         "independent witnesses. Only the Acta gives Cyprian's answer: Deo gratias, \"Thanks be to "
         "God.\"\n"
         "\n"
         "Then the crowd of the brethren called out. The Acta gives their words: Et nos cum ipso "
-        "decollemur, \"Let us too be beheaded with him.\" It goes on: \"Because of this an uproar rose "
-        "among the brethren, and a large crowd followed him.\" Pontius does not quote the cry. He "
-        "says the people's \"general wish\" was \"that the entire congregation should suffer at once in "
-        "the fellowship of a like glory,\" and he calls them blessed because they, \"in outspoken "
-        "words, suffered with such a bishop as theirs.\"\n"
+        "decollemur, \"Let us too be beheaded with him.\" It goes on: \"Because of this an uproar "
+        "rose among the brethren, and a large crowd followed him.\" Pontius does not quote the "
+        "cry. He says the people's \"general wish\" was \"that the entire congregation should "
+        "suffer at once in the fellowship of a like glory,\" and he calls them blessed because "
+        "they, \"in outspoken words, suffered with such a bishop as theirs.\"\n"
         "\n"
         "Only the Acta tells what came before the blow. Cyprian was led out into the field of "
-        "Sextus. There he took off his cloak. He knelt on the ground and bowed down in prayer to the "
-        "Lord. He took off his tunic and handed it to the deacons. He stood in his linen garment and "
-        "began to wait for the executioner. When the executioner came, Cyprian told his own people "
-        "to give him twenty-five gold pieces. The brethren laid linen cloths and hand-cloths before "
-        "him.\n"
+        "Sextus. There he took off his cloak. He knelt on the ground and bowed down in prayer to "
+        "the Lord. He took off his tunic and handed it to the deacons. He stood in his linen "
+        "garment and began to wait for the executioner. When the executioner came, Cyprian told "
+        "his own people to give him twenty-five gold pieces. The brethren laid linen cloths and "
+        "hand-cloths before him.\n"
         "\n"
         "Both texts say he covered his own eyes, and they differ on the cloths. Pontius says that, "
         "\"having with his own hands bound his eyes,\" he tried to hurry the executioner. The Acta "
-        "says: \"Then the blessed Cyprian covered his eyes with his own hand. When he could not tie "
-        "the strips of cloth on himself, the presbyter Julianus and the subdeacon Julianus tied them "
-        "for him.\" We do not choose between the two.\n"
+        "says: \"Then the blessed Cyprian covered his eyes with his own hand. When he could not "
+        "tie the strips of cloth on himself, the presbyter Julianus and the subdeacon Julianus "
+        "tied them for him.\" We do not choose between the two.\n"
         "\n"
         "Only the Acta tells the burial. So the blessed Cyprian suffered martyrdom. Because the "
         "pagans were curious, his body was laid nearby. By night it was taken up from there with "
@@ -878,14 +907,14 @@ def build_stories() -> None:
         "procurator Macrobius Candidianus. These lie on the Mappalian road, beside the pools.\n"
         "\n"
         "Pontius adds things the Acta does not mention, and they are his. He says the ground was "
-        "\"level, so that it affords a noble spectacle, with its trees thickly planted on all sides.\" "
-        "People who could not see \"had climbed up into the branches of the trees, that there might "
-        "not even be wanting to him (what happened in the case of Zacchæus), that he was gazed upon "
-        "from the trees.\" He writes that the executioner \"with difficulty clasped the blade in his "
-        "failing right hand with trembling fingers, until the mature hour of glorification "
-        "strengthened the hand of the centurion with power granted from above.\" The Latin of that "
-        "sentence can be read two ways. The Acta calls the executioner a spiculator and says nothing "
-        "of any strengthening. We tell that part as Pontius's reading.",
+        "\"level, so that it affords a noble spectacle, with its trees thickly planted on all "
+        "sides.\" People who could not see \"had climbed up into the branches of the trees, that "
+        "there might not even be wanting to him (what happened in the case of Zacchæus), that he "
+        "was gazed upon from the trees.\" He writes that the executioner \"with difficulty clasped "
+        "the blade in his failing right hand with trembling fingers, until the mature hour of "
+        "glorification strengthened the hand of the centurion with power granted from above.\" The "
+        "Latin of that sentence can be read two ways. The Acta calls the executioner a spiculator "
+        "and says nothing of any strengthening. We tell that part as Pontius's reading.",
         "What cannot be told is what any one person in the crowd made of it, because no spectator "
         "left an account of his own. What the crowd said as a body, the Acta records: Et nos cum "
         "ipso decollemur. Pontius himself points the reader to the Acts, at the end of his account "
@@ -943,7 +972,7 @@ def build_stories() -> None:
         "Possidius supplies sheets of paper on a wall, a request not to be disturbed, and an "
         "inventory of what the dead man did not own. The test applied is CF V7.4's own three Tier 3 "
         "markers, and this account carries none of them.",
-        "How the one who spent his life adjudicating others' penitence was watched doing his own",
+        "How the man who taught that even good Christians must repent before death did it himself",
         "Possidius had been Augustine's friend for nearly forty years, and he was in the house.\n\n"
         "He records something Augustine had said often, in private conversation: that even after "
         "baptism, exemplary Christians and priests ought not depart this life without fitting "
@@ -967,9 +996,9 @@ def build_stories() -> None:
         "but what no second source gives is the interior of the sickroom. No one who fled Hippo "
         "wrote down what leaving the city was like, either.",
         "A modern listener may expect this told as a serene death. Possidius's own text does not "
-        "support serenity: a man who spent his life teaching repentance wept freely and constantly "
-        "for days, looking at psalms about sin -- the disproportion, if it looks like one, is the "
-        "formation content, not an embarrassment to smooth over.",
+        "support serenity: a man who taught repentance wept freely and constantly for days, "
+        "looking at psalms about sin -- the disproportion, if it looks like one, is the formation "
+        "content, not an embarrassment to smooth over.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
           "locus": "SSSS28-31; cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines "
@@ -1011,8 +1040,8 @@ def build_figures() -> None:
                     "persecution; executed under the emperor Valerian in 258 (lpc.story.the-death-"
                     "of-cyprian)"},
         True,
-        "our bishop, chosen while still a neophyte over his own reluctance, who taught us to care "
-        "for our enemies during a plague and was executed under Valerian",
+        "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague "
+        "he taught us to love even our enemies. He was put to death under Valerian.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
           "locus": "the whole Life and Passion", "license": "public-domain"},
@@ -1038,9 +1067,10 @@ def build_figures() -> None:
                     "again amid popular acclamation (Possidius, Vita VIII; Doc_01 SS2); died 430, "
                     "during the Vandal siege of Hippo (lpc.story.the-psalms-on-the-wall)"},
         True,
-        "our bishop at Hippo, seized by our own acclaim for the office twice over his own "
-        "reluctance, who spent his last days weeping over psalms of penitence while an army lay "
-        "outside the walls",
+        "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he "
+        "wept. Later "
+        "they pressed him into the bishop's office over his own refusal. He spent his last days "
+        "weeping over psalms of penitence, while an army lay outside the walls.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
           "locus": "the whole Vita Augustini", "license": "public-domain"}],
@@ -1062,8 +1092,8 @@ def build_figures() -> None:
                     "Life and Passion of Cyprian after his bishop's execution in 258, the first "
                     "Christian biography (Doc_09 SS2)"},
         True,
-        "our bishop's own deacon, who stayed with him through exile and wrote, after the "
-        "execution, the account by which most of what we remember of Cyprian's own life reaches us",
+        "Our bishop's own deacon. He went with him into exile, and after the execution he wrote "
+        "the account of his life and death.",
         conf("B", "verified-via-authority", "load-bearing", "Widely Accepted",
              "Widely Accepted rather than Documented: Pontius's own presence at Curubis is licensed "
              "for that specific fact but his own biography generally (SSSS2-4, Cyprian's conversion) "
@@ -1092,8 +1122,8 @@ def build_figures() -> None:
                     "wrote the Vita Augustini, the source for both lpc.story.the-psalms-on-the-wall "
                     "and lpc.quote.clamour-and-tears"},
         True,
-        "the bishop of Calama who had been Augustine's friend for forty years, and who stood by "
-        "him and prayed as he died",
+        "the bishop of Calama who had been Augustine's friend for almost forty years, and who "
+        "stood by him and prayed as he died",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
           "locus": "the whole Vita Augustini, and its own closing first-person account of "
@@ -1115,8 +1145,8 @@ def build_figures() -> None:
         {"display": "exhorted a group of Christians to martyrdom under persecution, among them his "
                     "own wife, who died with them; himself left half-consumed by fire and "
                     "overwhelmed with stones, found half dead by his own daughter and revived; "
-                    "ordained presbyter by Cyprian afterward, though he had not wanted to survive "
-                    "(Cyprian, Ep. XXXIV; lpc.story.numidicus)"},
+                    "added by Cyprian afterward to the presbyters of Carthage, though he had not "
+                    "wanted to survive (Cyprian, Ep. XXXIV; lpc.story.numidicus)"},
         True,
         "a man who watched his own wife die with those he had exhorted to martyrdom, was himself "
         "left for dead, and did not want to have survived",
@@ -1124,11 +1154,11 @@ def build_figures() -> None:
         [{"source_id": "lpc.source.cyprian-epistles",
           "locus": "Ep. XXXIV, the whole letter", "license": "public-domain"}],
         "The central named subject of lpc.story.numidicus, and this world's own clearest single "
-        "case of ordination granted on the strength of what a man had endured rather than what he "
-        "had studied -- the same criterion Doc_04 makes a Primary gravity (sacramental and "
-        "ordination validity) applied here to one identifiable person in public. His own wife and "
-        "daughter are visible in the same letter and never audible (Doc_09 SS7 item 4); neither is "
-        "named, so neither is built as a figure of her own here.",
+        "case of a man added to the presbyterate on the strength of what he had endured rather "
+        "than what he had studied -- the same criterion Doc_04 makes a Primary gravity "
+        "(sacramental and ordination validity) applied here to one identifiable person in public. "
+        "His own wife and daughter are visible in the same letter and never audible (Doc_09 SS7 "
+        "item 4); neither is named, so neither is built as a figure of her own here.",
     )
 
     emit_figure(
@@ -1140,8 +1170,8 @@ def build_figures() -> None:
                     "women be received back to communion (Ep. XX; lpc.story.celerinus-writes-to-"
                     "lucian)"},
         True,
-        "a confessor who did not write about his own suffering, but about his sister's, and asked "
-        "another confessor in prison to help restore her",
+        "A confessor who wrote to another confessor in prison. He wept for his sister, who had "
+        "sacrificed, and asked him to help restore her.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.cyprian-epistles",
           "locus": "Ep. XX, the whole letter", "license": "public-domain"}],
@@ -1157,12 +1187,13 @@ def build_figures() -> None:
         [{"name": "Lucian, a confessor among us", "tag": "in-world"},
          {"name": "Lucian of Carthage (fl. mid-3rd century)", "tag": "scholarly"}],
         {"display": "a confessor imprisoned under persecution, condemned to die by hunger and "
-                    "thirst, who replied to Celerinus from the same prison, granting peace to "
-                    "Celerinus's own sister and to Numeria and Candida (Ep. XXI; lpc.story."
-                    "celerinus-writes-to-lucian)"},
+                    "thirst, who replied to Celerinus from prison, granting peace to Numeria and "
+                    "Candida once their case was set before the bishop (Ep. XXI; "
+                    "lpc.story.celerinus-writes-to-lucian)"},
         True,
-        "a confessor who answered from a cell where he expected to die of hunger and thirst, "
-        "granting peace to three women he had never met in person",
+        "A confessor who answered from a prison cell. He and others there had been ordered to die "
+        "of hunger and thirst. He sent peace to Numeria and Candida, two women he knew well, once "
+        "each case was set before the bishop.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.cyprian-epistles",
           "locus": "Ep. XXI, the whole letter", "license": "public-domain"}],
@@ -1175,7 +1206,7 @@ def build_figures() -> None:
 
 
 # ===========================================================================
-# QUOTES (4)
+# QUOTES (5)
 # ===========================================================================
 
 def build_quotes() -> None:
@@ -1246,9 +1277,9 @@ def build_quotes() -> None:
         "joined to what he calls God's own judgment. Rejecting him, on his own reading, meant "
         "rejecting that acclamation itself.",
         "For they have not forgotten their conspiracy. They still carry that old venom against my "
-        "office as bishop, which means against your vote and against God's judgment. They are "
-        "renewing their old attack on me, and once again they are starting their sacrilegious plots "
-        "with their usual cunning.",
+        "office as bishop, which means against your suffrage and against God's judgment. They are "
+        "renewing their old attack on me, and once again they are starting their sacrilegious "
+        "plots with their usual cunning.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.cyprian-epistles",
           "locus": "Ep. XXXIX SS1; independently re-located and re-read this session at cic/texts/"
@@ -1439,10 +1470,1011 @@ def build_quotes() -> None:
     )
 
 
+# ===========================================================================
+# SERMON QUOTES (18) -- Augustine's sermons on selected lessons, one per passage.
+# ===========================================================================
+
+def build_sermon_quotes() -> None:
+    emit_quote(
+        "ye-belong-to-my-care",
+        "Ye are in communion with the members of the Apostles, ye are in communion with the "
+        "memories of the Holy Martyrs, who are spread over the whole world, and ye belong to "
+        "my cure, that I may render a good account of you. Now my whole account, what it is ye "
+        "know. “Lord, Thou knowest that I have spoken, Thou knowest that I have not kept "
+        "silence, Thou knowest in what spirit I have spoken, Thou knowest that I have wept "
+        "before Thee, when I spake, and was not heard.”",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may hear 'my care' as a professional's caseload. Augustine ties it "
+        "to an account he must give: his hearers belong to his care so that he may give a good "
+        "account of them, and the account he names is that he spoke, did not keep silent, and "
+        "wept before God when he was not heard. 'Shrines' are the martyrs' memorial places; "
+        "the English 'memories' hides that.",
+        "You share communion with the members of the Apostles. You share communion with the "
+        "shrines of the holy martyrs, who are spread over the whole world. And you belong to my "
+        "care, "
+        "so that I may give a good account of you. You know what my whole account is. “Lord, "
+        "You know that I have spoken. You know that I have not kept silent. You know in what "
+        "spirit I have spoken. You know that I have wept before You when I spoke and was not "
+        "heard.”",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the NPNF English as printed. modern_rendering follows the "
+             "Latin of PL 38 where the English misleads: 'memories of the Holy Martyrs' "
+             "renders memoriis, which in African Latin of this period names a martyr's shrine "
+             "or memorial chapel, and 'cure' renders curam, which here means care or charge."),
+        [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+          "locus": "Sermon 87 (NPNF numbering; Maurist 137), section 15; English at "
+                    "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+                    "lines 20796-20797; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 53418-53424 "
+                    "(the sermon starts at line 52829)",
+          "license": "public-domain"}],
+        1,
+        ["participant asks what a bishop owed the people in his care",
+         "participant asks what it meant for a bishop to give an account of his hearers",
+         "participant asks how a bishop spoke of his own answerability to the people in front "
+         "of him"],
+        ["participant wants a bishop's grief for a wounded flock rather than his account of it "
+         "-- lpc.quote.shepherd-wounded-in-the-flock gives that"],
+        ["The passage does not give a date, a place or an occasion for the sermon; do not "
+         "invent one.",
+         "The sentence before it in the same section, which calls the hearers a Catholic "
+         "people not divided from unity, is not in the passage and must not be supplied as if "
+         "quoted.",
+         "The closing prayer is Augustine's own wording and must not be presented as a "
+         "Scripture quotation."],
+        "Augustine, Sermon 87 in the NPNF numbering (137 in the Maurist numbering), section "
+        "15. English in the NPNF translation at "
+        "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines "
+        "20796-20797. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines "
+        "53418-53424 (OCR text; the sermon starts at line 52829). The first sentence of "
+        "section 15 and the Ezekiel watchman argument that follows the passage in the same "
+        "paragraph are left out. In the English, 'cure' is the older sense of 'care' (Latin "
+        "curam), and 'memories' translates memoriis, which names martyrs' shrines in the Latin "
+        "of this period. The Latin has the bishop's plural, 'our care' and 'we may render'; "
+        "the English has the singular. The sermon carries the gravity "
+        "lpc.gravity.pastoral-office-flock-keeping in the bishop's own voice.",
+    )
+
+    emit_quote(
+        "stewards-and-future-bishops",
+        "For how many are there among this people who shall some day be dispensers! I too was "
+        "once where ye now are; and I who am seen now to be measuring out to my fellowservants "
+        "their food from this higher place, a few years since in a lower place was receiving "
+        "food with my fellow-servants. I am speaking now a Bishop to lay-men; but I know that "
+        "in speaking to them I am speaking to many who will some day be bishops also.",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may hear 'dispensers' as machines or pharmacists. The Latin word, "
+        "dispensatores, means stewards who hand out the household's rations, and Augustine "
+        "uses it of the work of the office. He sets the distance between bishop and hearers as "
+        "small: he once sat where they sit, and he says he is speaking to many who will one "
+        "day be bishops.",
+        "For how many among this people will one day be stewards! I too was once where you are "
+        "now. Now I am seen measuring out food to my fellow servants from this higher place. A "
+        "few years ago I was in a lower place, receiving food with my fellow servants. I am "
+        "speaking now as a bishop to lay people. But I know that I am speaking to many who "
+        "will one day be bishops too.",
+        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+          "locus": "Sermon 51 (NPNF numbering; Maurist 101), section 4; English at "
+                    "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+                    "lines 16779-16780; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 42457-42464 "
+                    "(the sermon starts at line 42253)",
+          "license": "public-domain"}],
+        2,
+        ["participant asks whether a bishop came from the ordinary people he led",
+         "participant asks how a bishop described the work of feeding his hearers",
+         "participant asks how Augustine saw the lay people in front of him"],
+        ["participant asks how Augustine himself came to be ordained -- "
+         "lpc.quote.clamour-and-tears is Possidius's account of that"],
+        ["The passage does not say when or how Augustine was ordained; 'a few years since' is "
+         "his own phrase and the file gives no date for the sermon, so nothing about his "
+         "ordination may be drawn from it.",
+         "The passage does not describe an ordination rite and must not be used to show one."],
+        "Augustine, Sermon 51 in the NPNF numbering (101 in the Maurist numbering), section 4. "
+        "English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+        "lines 16779-16780. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, "
+        "lines 42457-42464 (OCR text; the sermon starts at line 42253). The passage opens in "
+        "the middle of an argument. In the English, 'dispensers' translates dispensatores, the "
+        "stewards of the household who give out rations; 'from this higher place' is the "
+        "raised seat from which he speaks. The Latin has the plural, 'we were' and 'we "
+        "received'; the English has the singular. 'Bishop to lay-men' is exact. The sermon "
+        "carries the gravity lpc.gravity.pastoral-office-flock-keeping.",
+    )
+
+    emit_quote(
+        "good-works-the-comfort-of-our-dangers",
+        "But why do we, who are unwilling to be despised by you, speak to you, except that we "
+        "may have joy of your good conversation? Let your good works be the solace of our "
+        "perils. Live well, that ye may not die ill.",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may hear 'good conversation' as pleasant talk. The Latin, bonis "
+        "moribus, means a good way of life. Augustine says why he speaks to his hearers at "
+        "all: for joy in how they live. He asks their good works as comfort in the dangers of "
+        "his office, and does not say what those dangers are.",
+        "We do not want you to look down on us. Why do we speak to you, except to take joy "
+        "in your good way of life? Let your good works comfort us in our dangers. Live well, "
+        "so that you do not die badly.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the NPNF English as printed. modern_rendering follows the "
+             "Latin of PL 38 where the English misleads: 'good conversation' renders bonis "
+             "moribus, a good way of life. 'Despised' (sperni) is rendered 'look down on' for "
+             "plainness."),
+        [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+          "locus": "Sermon 52 (NPNF numbering; Maurist 102), section 1; English at "
+                    "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+                    "lines 16873-16874; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 42699-42703 "
+                    "(the sermon starts at line 42681)",
+          "license": "public-domain"}],
+        2,
+        ["participant asks why a bishop preached to his people at all",
+         "participant asks what a bishop hoped for from the lives of his hearers",
+         "participant asks what a congregation owed the one who spoke to it"],
+        ["participant wants the bond of a congregation's waiting on a preacher -- "
+         "lpc.quote.longing-expectation-is-a-prayer-for-me gives that"],
+        ["The passage does not say what the dangers of the office are; do not add a gloss.",
+         "The sentences before it in the same section, about the Lord's words 'He that "
+         "despiseth you, despiseth Me' and standing in the Apostles' place, are not in the "
+         "passage and must not be supplied as if quoted."],
+        "Augustine, Sermon 52 in the NPNF numbering (102 in the Maurist numbering), section 1. "
+        "English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+        "lines 16873-16874. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, "
+        "lines 42699-42703 (OCR text; the sermon starts at line 42681). The passage opens in "
+        "the middle of an argument. The plural 'we' is the bishop speaking for his office and "
+        "the plural 'you' is the congregation. In the Latin, pericula nostra are dangers; the "
+        "paragraph goes on to dying well, and no gloss on the dangers is given. The sermon "
+        "carries the gravity lpc.gravity.pastoral-office-flock-keeping.",
+    )
+
+    emit_quote(
+        "bind-him-justly",
+        "Thou hast begun to hold thy brother for a publican; “thou bindest him on earth;” but "
+        "see that thou bind him justly. For unjust bonds justice doth burst asunder. But when "
+        "thou hast corrected, and been “reconciled to thy brother,” thou hast “loosed him on "
+        "earth.” And when “thou shalt have loosed him on earth, he shall be loosed in heaven "
+        "also.”",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may hear 'bindest him on earth' as a church court, and 'publican' "
+        "as a pub-keeper. Augustine is reading Matthew 18 about one believer correcting a "
+        "brother: the Latin publicanum is a tax collector, and the binding must be just, since "
+        "justice breaks unjust chains. When the brother is corrected and peace is made, the "
+        "binding is undone.",
+        "You have begun to treat your brother as a tax collector. You bind him on earth. But "
+        "see that you bind him justly. For justice bursts unjust chains. But once you have "
+        "corrected him and made peace with your brother, you have loosed him on earth. And "
+        "when you have loosed him on earth, he will be loosed in heaven too.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the NPNF English as printed. In it, 'reconciled to thy "
+             "brother' stands in quotation marks as if it were Scripture. The Latin, "
+             "concordaveris cum fratre tuo, is Augustine's own wording, and modern_rendering "
+             "drops the marks."),
+        [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+          "locus": "Sermon 32 (NPNF numbering; Maurist 82), section 7; English at "
+                    "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+                    "line 14225; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 35544-35549 "
+                    "(the sermon starts at line 35316)",
+          "license": "public-domain"}],
+        2,
+        ["participant asks how a wrong done by one believer to another was handled",
+         "participant asks what binding and loosing meant when a brother was corrected",
+         "participant asks whether a brother who had been bound could be loosed again"],
+        ["participant asks how lapsed Christians were brought back after persecution -- "
+         "lpc.term.reconciliation-penitential-discipline and the Cyprian-phase material give "
+         "that"],
+        ["The passage does not describe formal public penance, excommunication or a bishop "
+         "readmitting a penitent, and must not be used as evidence that the sermons show any "
+         "of them.",
+         "It needs the Matthew 18 steps Augustine quotes just before it; 'hold thy brother for "
+         "a publican' refers to them and must not be read without them."],
+        "Augustine, Sermon 32 in the NPNF numbering (82 in the Maurist numbering), section 7. "
+        "English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+        "line 14225. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines "
+        "35544-35549 (OCR text; the sermon starts at line 35316). Augustine is reading Matthew "
+        "18:15-18; the steps of Matthew 18:17 are quoted at lines 14218-14219 and the sentence "
+        "after the passage is left out. In the Latin, ligas and solvisti are bind and loose, "
+        "vincula are chains, and publicanum is a tax collector. The sermon carries the gravity "
+        "lpc.gravity.penitential-discipline.",
+    )
+
+    emit_quote(
+        "reprove-and-forgive-the-surgeons-knife",
+        "Let us reprove with words, and if need be with scourges; but let us withal forgive "
+        "the sin, and cast away the remembrance of it from the heart. For therefore did the "
+        "Lord add, “from your hearts,” that though through affection discipline be exercised, "
+        "gentleness might not depart out of the heart. For what is so kind and gentle as the "
+        "surgeon with his knife?",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may hear 'scourges' as a church penalty. In the sermon they belong "
+        "to an illustration about unruly boys who beg to be let off a beating, which Augustine "
+        "then applies to brethren. His point is that correction is to be given out of love, "
+        "with the sin forgiven in the heart, as a surgeon cuts out of kindness.",
+        "Let us rebuke with words, and with blows if need be. But let us also forgive the sin "
+        "and cast the fault out of our hearts. The Lord added “from your hearts” for this "
+        "reason: when discipline is given out of love, gentleness must not leave the heart. "
+        "For what "
+        "is as kind and gentle as a surgeon with his knife?",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the NPNF English as printed. modern_rendering follows the "
+             "Latin of PL 38 where the English departs from it: 'cast away the remembrance of "
+             "it from the heart' renders culpam de corde abjiciamus, cast the fault out of the "
+             "heart, and the Latin does not ask for forgetting; 'though through affection' "
+             "renders si per charitatem, when discipline is given out of love."),
+        [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+          "locus": "Sermon 33 (NPNF numbering; Maurist 83), section 8; English at "
+                    "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+                    "line 14444; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 36195-36201 "
+                    "(the sermon starts at line 35885)",
+          "license": "public-domain"}],
+        2,
+        ["participant asks how correction was meant to feel to the one who gave it",
+         "participant asks how someone could reprove a brother and still forgive him",
+         "participant asks what discipline given out of love looked like"],
+        ["participant asks how one believer treated a brother who would not listen -- "
+         "lpc.quote.bind-him-justly gives the Matthew 18 reading"],
+        ["The blows belong to an illustration about unruly boys and must not be read as a "
+         "church penalty.",
+         "The passage does not describe formal public penance, excommunication or how "
+         "discipline was carried out in the church, and must not be used as evidence of any "
+         "of them."],
+        "Augustine, Sermon 33 in the NPNF numbering (83 in the Maurist numbering), section 8. "
+        "English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+        "line 14444. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines "
+        "36195-36201 (OCR text; the sermon starts at line 35885). The passage begins inside "
+        "line 14444. The illustration about unruly boys is at lines 14437-14443. The "
+        "NPNF title prints Matthew 17:21 where the Latin witnesses read Matthew 18; this does "
+        "not touch the passage. In the Latin, verberibus are blows, pium is one word for kind "
+        "and gentle, and medicus ferens ferramentum is a doctor carrying his blade. The sermon "
+        "carries the gravity lpc.gravity.penitential-discipline.",
+    )
+
+    emit_quote(
+        "peter-the-sick-man-and-the-physician",
+        "Peter then was at that time the invalid, and the Lord the Physician. The former "
+        "declared that he had strength, when he had not; but the Lord touching the pulse of "
+        "his heart, declared that he should deny Him thrice. And so it came to pass, as the "
+        "Physician foretold, not as the sick presumed. Therefore, after His resurrection the "
+        "Lord questioned him, not as being ignorant with what a heart he would confess the "
+        "love of Christ, but that he might by a threefold confession of love, efface the "
+        "threefold denial of fear.",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may hear 'invalid' as lasting disability. The Latin infirmus means "
+        "weak or sick: Peter is the sick man and the Lord the doctor, who feels the pulse of "
+        "his heart. After the resurrection the Lord asks Peter three times, so that a "
+        "threefold confession of love wipes out the threefold denial made in fear.",
+        "At that time Peter was the sick man, and the Lord was the doctor. Peter said he had "
+        "strength when he did not. But the Lord felt the pulse of his heart and said Peter "
+        "would deny Him three times. And it happened as the doctor foretold, not as the sick "
+        "man presumed. So after His resurrection the Lord questioned him. It was not that He "
+        "did not know the heart with which Peter would confess his love for Christ. He asked "
+        "so that Peter could confess his love three times. In this way he would wipe out the "
+        "three denials he made in fear.",
+        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+          "locus": "Sermon 87 (NPNF numbering; Maurist 137), section 3; English at "
+                    "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+                    "lines 20614-20615; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 52934-52947 "
+                    "(the sermon starts at line 52829)",
+          "license": "public-domain"}],
+        2,
+        ["participant asks how a man who had failed was put right again",
+         "participant asks how Peter's denial was answered",
+         "participant asks why the Lord asked Peter three times whether he loved Him"],
+        ["participant asks how lapsed Christians were brought back after persecution -- "
+         "lpc.term.the-lapsed and the Cyprian-phase material give that"],
+        ["The passage does not say that Peter was restored to feed the flock; that comes in "
+         "section 4 of the sermon and must not be supplied here.",
+         "The passage does not describe a penitential rite or a bishop restoring a penitent."],
+        "Augustine, Sermon 87 in the NPNF numbering (137 in the Maurist numbering), section 3. "
+        "English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+        "lines 20614-20615. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, "
+        "lines 52934-52947 (OCR text; the sermon starts at line 52829). The passage reads John "
+        "21 against the denial in Luke 22; those references are notes outside the passage, at "
+        "lines 20610 and 20613. In the Latin, tangens venam cordis ejus is touching the pulse "
+        "of his heart, and deleret trinam negationem timoris is wiping out the threefold "
+        "denial made out of fear. The sermon carries the gravity "
+        "lpc.gravity.penitential-discipline.",
+    )
+
+    emit_quote(
+        "one-good-shepherd-not-many",
+        "It was then as impressing on good shepherds this unity, that our Lord was unwilling "
+        "to mention many shepherds. For it is not, as I have said already, that Peter was not "
+        "a good shepherd, and Paul, the rest of the Apostles, and the holy Bishops who were "
+        "after them, and blessed Cyprian. All these were good shepherds; and notwithstanding "
+        "to good shepherds, He commended not good shepherds, but a good Shepherd.",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may hear a roll of approved authorities. Augustine names Peter, "
+        "Paul, the other Apostles, the holy bishops after them, and blessed Cyprian, and says "
+        "all of them were good shepherds. His point is unity: even so, the Lord spoke of one "
+        "good Shepherd and not of many.",
+        "So it was to press this unity on good shepherds that our Lord would not name many "
+        "shepherds. As I have said already, it is not that Peter was not a good shepherd. The "
+        "same holds for Paul, the rest of the Apostles, the holy bishops who came after them, "
+        "and blessed Cyprian. All these were good shepherds. And yet to good shepherds He "
+        "commended not good shepherds, but a good Shepherd.",
+        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+          "locus": "Sermon 88 (NPNF numbering; Maurist 138), section 3; English at "
+                    "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+                    "line 20848; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 53554-53561 "
+                    "(the sermon starts at line 53471)",
+          "license": "public-domain"}],
+        2,
+        ["participant asks how Augustine spoke of Cyprian",
+         "participant asks why the Lord spoke of one Shepherd and not of many",
+         "participant asks how good shepherds were held in one unity"],
+        ["participant asks whether one bishop could overrule another -- "
+         "lpc.quote.bishop-of-bishops gives Cyprian's own words"],
+        ["The passage names Cyprian only among the good shepherds; it does not say anything "
+         "about rebaptism or any dispute between bishops, and must not be used to show that "
+         "Augustine and Cyprian agreed or differed on practice.",
+         "The passage does not show bishops disagreeing with bishops.",
+         "It depends on John 10:14, 'I am the good Shepherd', which the next sentence quotes "
+         "and the passage leaves out."],
+        "Augustine, Sermon 88 in the NPNF numbering (138 in the Maurist numbering), section 3. "
+        "English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+        "line 20848. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines "
+        "53554-53561 (OCR text; the sermon starts at line 53471). An editor's footnote about "
+        "the Carthage conference sits at line 20847, just before the passage, and is not part "
+        "of it. 'Blessed Cyprian' translates beatusque Cyprianus in the Latin. Cyprian is "
+        "named in running text in only two places in these sermons, lines 20827 and 20848, "
+        "both in this sermon. The sermon carries the gravity "
+        "lpc.gravity.collegial-communion-preserved in its congregational form.",
+    )
+
+    emit_quote(
+        "apart-in-heart-united-in-body",
+        "The Winnower will come, who shall divide the bad from the good. There will then be a "
+        "bodily separation too, which a spiritual separation now precedes. In heart be always "
+        "separated from the bad, in body be united with them for a time, only with caution. "
+        "Yet be not negligent in correcting those who belong to you, who in any way appertain "
+        "to your charge, by admonition, or instruction, by exhortation, or by threats.",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may hear this as permission to put up with wrongdoing, or as a call "
+        "to leave. Augustine tells his hearers to stay in the one Church and bear with the bad "
+        "until the Winnower comes: apart from them in heart, joined to them in body, with "
+        "caution. They are still to correct those in their care.",
+        "The Winnower will come and divide the bad from the good. Then there will be a bodily "
+        "separation too. A separation in spirit comes before it now. In heart, always keep "
+        "apart from the bad. In body, stay joined with them for a time, but with caution. Yet "
+        "do not neglect to correct your own people, those who in any way are in your care. Do "
+        "it by warning, by teaching, by urging, or by threats.",
+        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+          "locus": "Sermon 38 (NPNF numbering; Maurist 88), section 19; English at "
+                    "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+                    "lines 15138-15139; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 38364-38370 "
+                    "(the sermon starts at line 37663)",
+          "license": "public-domain"}],
+        2,
+        ["participant asks whether one should leave a church that holds bad members",
+         "participant asks how to live in one communion with wrongdoers",
+         "participant asks who was responsible for correcting those in their charge"],
+        ["participant asks about bishops and their communion with one another -- "
+         "lpc.quote.bishop-of-bishops gives Cyprian's own words"],
+        ["The passage is addressed to lay hearers about bad members inside the Church; it does "
+         "not show bishops disagreeing with bishops and must not be used as evidence of a "
+         "dispute among bishops.",
+         "The threshing-floor image in the sentence just before it is not in the passage and "
+         "must not be supplied as if quoted."],
+        "Augustine, Sermon 38 in the NPNF numbering (88 in the Maurist numbering), section 19. "
+        "English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+        "lines 15138-15139. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, "
+        "lines 38364-38370 (OCR text; the sermon starts at line 37663). The passage begins at "
+        "the end of line 15138. A Scripture reference note follows at line 15141, outside the "
+        "passage. In the Latin, ventilator is the winnower, and ad curam vestram is the same "
+        "word for care that the bishop uses of his own flock; here it is used of those in the hearers' "
+        "own charge. The sermon carries the gravity "
+        "lpc.gravity.collegial-communion-preserved in its congregational form, the "
+        "stay-in-one-Church side.",
+    )
+
+    emit_quote(
+        "going-out-without-violating-unity",
+        "Thou art displeased at a man’s sin, thou hast not “touched the unclean thing.” Thou "
+        "hast reproved, rebuked, admonished him, hast administered, if the case required it, a "
+        "suitable discipline, and such as doth not violate unity; then thou hast “gone out "
+        "from thence.”",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may hear 'gone out from thence' as leaving the Church. Augustine "
+        "teaches the opposite: to go out from the wicked is to reprove, rebuke and warn them, "
+        "and to use whatever discipline the case needs, in a way that does not break unity. "
+        "The discipline he means is fitted to each person's rank and condition.",
+        "If someone's sin displeases you, you have not touched the unclean thing. You have "
+        "reproved him, rebuked him and warned him. If the case required it, you have used "
+        "fitting discipline, of a kind that does not break unity. Then you have gone out from "
+        "there.",
+        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+          "locus": "Sermon 38 (NPNF numbering; Maurist 88), section 23; English at "
+                    "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+                    "line 15208; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 38536-38542 "
+                    "(the sermon starts at line 37663)",
+          "license": "public-domain"}],
+        2,
+        ["participant asks what it meant to separate from the wicked without leaving the "
+         "Church",
+         "participant asks how a hearer could rebuke a sinner and keep the peace",
+         "participant asks what discipline that does not break unity looked like"],
+        ["participant asks about bishops and their communion with one another -- "
+         "lpc.quote.bishop-of-bishops gives Cyprian's own words"],
+        ["The discipline in this passage is tied to rank: the sentence before it says going "
+         "out is done 'according to each one's grade and condition' (NPNF line 15205). The "
+         "passage does not give every hearer the same power to discipline, and must not be "
+         "read as if it did.",
+         "The passage quotes 'go ye out from thence' without its source and without the "
+         "reading it answers; it does not name the Donatists, and the Isaiah context must not "
+         "be omitted when it is told.",
+         "The passage does not show bishops disagreeing with bishops."],
+        "Augustine, Sermon 38 in the NPNF numbering (88 in the Maurist numbering), section 23. "
+        "English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+        "line 15208. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines "
+        "38536-38542 (OCR text; the sermon starts at line 37663). The sentences before the "
+        "passage, at lines 15204-15207, quote 'Depart ye, go ye out from thence, and touch "
+        "not the unclean thing' (Isaiah), say 'we' understand the departure spiritually and "
+        "'they' bodily, and define going out as doing what belongs to rebuking the wicked as "
+        "far as can be done, according to each one's grade and condition, with the maintenance "
+        "of peace. The translator's Latin gloss, Persona, sits inside the last of them. In the "
+        "Latin, congruam disciplinam is a fitting discipline and quae unitatem non violet is "
+        "'that does not break unity'. The sermon carries the gravity "
+        "lpc.gravity.collegial-communion-preserved in its congregational form.",
+    )
+
+    emit_quote(
+        "the-branch-cut-from-the-vine",
+        "For the visible form of the branch may exist even when separated from the vine; but "
+        "the invisible life of the root cannot be had, but in the vine. Wherefore the bodily "
+        "sacraments, which even they who are separated from the Unity of Christ’s Body bear "
+        "and celebrate, may give “the form of godliness;” but the invisible and spiritual "
+        "power of godliness cannot in any wise be in them, just as sensation does not "
+        "accompany a man’s limb, when it is amputated from the body.",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may hear 'schismatic sacraments are empty', which is close to the "
+        "Donatist position Augustine is arguing against. His claim in the same section is "
+        "narrower. The washing given outside the Church's unity is not repeated when a person "
+        "comes in; what comes only inside is the unity of the Spirit and the life of "
+        "godliness. A branch cut from the vine keeps its shape but not its life.",
+        "The visible form of a branch can exist even when it is separated from the vine. But "
+        "the unseen life of the root can only be had in the vine. So the bodily sacraments can "
+        "give “the form of godliness.” Even those who are separated from the unity of Christ’s "
+        "Body carry and celebrate them. But the unseen, spiritual power of godliness cannot be "
+        "in them at all. In the same way, feeling does not stay with a person's limb when it "
+        "is cut off from the body.",
+        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+          "locus": "Sermon 21 (NPNF numbering; Maurist 71), section 32; English at "
+                    "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+                    "lines 12936-12937; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 32254-32262 "
+                    "(the sermon starts at line 30996)",
+          "license": "public-domain"}],
+        2,
+        ["participant asks what was missing from a baptism given outside the Church",
+         "participant asks what a baptism given outside the Church lacked, if it was not given "
+         "again",
+         "participant asks what Augustine meant by the form of godliness without its power"],
+        ["participant asks how Cyprian and Augustine gave opposite answers on baptism outside "
+         "the Church -- lpc.demo.font-twice-answered gives that"],
+        ["This passage must be paired with the sentence at NPNF line 12932: for those baptized "
+         "among schismatics or heretics, 'the washing of the flesh is not repeated in their "
+         "case'. Without it the passage can be heard as saying the rite outside is void, which "
+         "it does not say.",
+         "The passage says 'form' and 'power' and does not use the word valid; 'validity' is "
+         "the project's term and must not be put in Augustine's mouth.",
+         "The sermon does not show a formal ordination or a dispute between bishops."],
+        "Augustine, Sermon 21 in the NPNF numbering (71 in the Maurist numbering), section 32. "
+        "English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+        "lines 12936-12937. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, "
+        "lines 32254-32262 (OCR text; the sermon starts at line 30996). 'Wherefore' points "
+        "back to the sentence at lines 12926-12932 about baptisms among schismatics and "
+        "heretics. That sentence and the next read: 'the washing of the flesh is not repeated in their "
+        "case. For \"this form of godliness\" was not wanting to them even when they were "
+        "without; but there is added to them \"the Unity of the Spirit in the bond of peace,\" "
+        "which cannot be given but within.' Translators' notes break the first of them, and another "
+        "sentence and a note stand between them and the passage, so they are not part of it. In the Latin, forma pietatis and virtus pietatis are the form and the "
+        "power of godliness (2 Timothy 3:5), and corporalia Sacramenta are the bodily "
+        "sacraments. 'In them' (in eis) could mean the separated people or the sacraments, and "
+        "both the English and the rendering keep that open. The sermon carries the gravity "
+        "lpc.gravity.sacramental-ordination-validity.",
+    )
+
+    emit_quote(
+        "pardon-through-a-wicked-clergyman",
+        "And so a word is spoken against the Holy Spirit, when men never come from the "
+        "dispersion to the congregation which has received the Holy Spirit for the remission "
+        "of sins. Unto which congregation if any come without hypocrisy, though it be through "
+        "the ministry of a wicked clergyman, a reprobate and a hypocrite, so he be a Catholic "
+        "minister, he shall receive remission of sins in this Holy Spirit.",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may hear 'Catholic' as Roman Catholic. Here it means the Church "
+        "held together in communion across the world, in contrast to the scattered. Augustine "
+        "says a person who comes to that gathering with a heart that is not false receives "
+        "forgiveness of sins in the Holy Spirit, even through a wicked cleric, so long as the "
+        "minister is a Catholic one.",
+        "So a word is spoken against the Holy Spirit when people never come in from the "
+        "scattering. They never come to the gathering that has received the Holy Spirit for "
+        "the forgiveness of sins. Someone may come to that gathering without pretense. He may "
+        "even come through a wicked cleric, a worthless man and a hypocrite, who is still a "
+        "Catholic minister. That person will receive forgiveness of sins in this Holy Spirit.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the NPNF English as printed. modern_rendering follows the "
+             "Latin of PL 38 where the English departs from it: 'through the ministry of a "
+             "wicked clergyman' renders per malum clericum, through a bad cleric, and "
+             "'ministry' is the translator's addition; 'so he be a Catholic minister' renders "
+             "sed tamen catholicum ministrum, a concession inside the description, not a "
+             "condition set beside it."),
+        [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+          "locus": "Sermon 21 (NPNF numbering; Maurist 71), section 37; English at "
+                    "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+                    "lines 13008-13009; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 32485-32492 "
+                    "(the sermon starts at line 30996)",
+          "license": "public-domain"}],
+        2,
+        ["participant asks whether a wicked minister could still give forgiveness",
+         "participant asks whether the worth of the minister decided what the people received",
+         "participant asks what it meant to come to the Church without pretense"],
+        ["participant asks what was missing from a baptism given outside the Church -- "
+         "lpc.quote.the-branch-cut-from-the-vine gives that"],
+        ["'Catholic' in this passage must not be read as 'Roman Catholic'; it means the Church "
+         "in communion across the world, and a gloss is needed if the term is shown to a "
+         "participant.",
+         "The passage does not name the Donatists.",
+         "The passage does not say how a clergyman was ordained or removed, and the sermons do "
+         "not show a formal ordination.",
+         "The passage comes near the end of a long argument on the sin against the Holy Spirit "
+         "(Matthew 12:32); it needs that frame and must not be told without it."],
+        "Augustine, Sermon 21 in the NPNF numbering (71 in the Maurist numbering), section 37. "
+        "English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+        "lines 13008-13009. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, "
+        "lines 32485-32492 (OCR text; the sermon starts at line 30996). The sermon reads "
+        "Matthew 12:32 as lifelong refusal to come from the scattering to the gathering that "
+        "has received the Holy Spirit for the forgiveness of sins, and runs over thirty-eight "
+        "sections; the passage is near its end. A translator's gloss, Area, follows at line "
+        "13011, outside the passage. In the Latin, dispersione and congregationem are the "
+        "scattering and the gathering, reprobum et fictum is worthless and false, and corde "
+        "non ficto is with a heart that is not false. The sermon carries the gravity "
+        "lpc.gravity.sacramental-ordination-validity in its minister's-worth form.",
+    )
+
+    emit_quote(
+        "consider-who-was-there",
+        "But He who is everywhere was there. He who is everywhere was there, in whose Name I "
+        "believed. Thou coming I know not whence, yea, rather not coming, but wishing that I "
+        "should come to thee, fixed in this place, sayest to me, ‘Thou wast not baptized duly, "
+        "seeing I was not there.’ Consider who was there.",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may take the 'I' for Augustine baptizing, or being baptized. It is "
+        "a baptized believer answering a Donatist who says 'Thou wast not baptized duly, "
+        "seeing I was not there', and Augustine voices the answer: the One in whose name he "
+        "believed was there, and that One is everywhere.",
+        "But He who is everywhere was there. He who is everywhere was there, the One in whose "
+        "name I believed. You come from who knows where. No, you do not even come; you want me "
+        "to come to you. You stay put here and tell me, ‘You were not baptized properly, "
+        "because I was not there.’ Look at who was there.",
+        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+          "locus": "Sermon 79 (NPNF numbering; Maurist 129), section 7; English at "
+                    "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+                    "line 19722; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 50696-50701 "
+                    "(the sermon starts at line 50446)",
+          "license": "public-domain"}],
+        2,
+        ["participant asks how a believer answered the claim that his baptism was not proper "
+         "because the speaker was not there",
+         "participant asks whose act a baptism was in the end",
+         "participant asks how Augustine answered the Donatists on baptism"],
+        ["participant asks how Cyprian and Augustine gave opposite answers on baptism outside "
+         "the Church -- lpc.demo.font-twice-answered gives that"],
+        ["The speaker is a baptized believer answering a Donatist, as Augustine voices him; "
+         "the passage does not say who baptized the speaker and must not be read as "
+         "Augustine's own account of baptizing or being baptized.",
+         "The Donatist's words are only quoted inside the reply and must not be presented as "
+         "Augustine's own position.",
+         "The sermons do not show a formal ordination or a dispute between bishops."],
+        "Augustine, Sermon 79 in the NPNF numbering (129 in the Maurist numbering), section 7. "
+        "English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+        "line 19722. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines "
+        "50696-50701 (OCR text; the sermon starts at line 50446). The sentence begins inside a "
+        "quotation whose opening mark is earlier, at lines 19717-19718; the closing mark is at "
+        "line 19726 after a note. The passage ends before 'What was said to John?' and the "
+        "John 1:33 reference at lines 19723-19725. In the Latin, recte baptizatus is baptized "
+        "rightly or properly, hic positus is placed here, staying put, and in cujus nomen is "
+        "in whose name. The sermon carries the gravity "
+        "lpc.gravity.sacramental-ordination-validity.",
+    )
+
+
+    emit_quote(
+        "the-creed-first-then-the-prayer",
+        "Because then he said, “how shall they call upon Him in whom they have not believed?” "
+        "ye have not first learnt the Lord’s Prayer, and after that the Creed; but first the "
+        "Creed, where ye might know what to believe, and afterwards the Prayer, where ye might "
+        "know whom to call upon. The Creed then has respect to the faith, the Lord’s Prayer to "
+        "prayer; because it is he who believeth, that is heard when he calleth.",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may hear 'learnt' as schoolwork. The Latin, accepistis, is 'you "
+        "received', and Augustine uses it of what the candidates were given. He explains the "
+        "order: they received the Creed first, so that they would know what to "
+        "believe, and the Lord's Prayer after it, so that they would know whom to call on. "
+        "'Has respect to' means 'belongs to'.",
+        "He said, “How will they call on Him in whom they have not believed?” That is why you "
+        "did not receive the Lord’s Prayer first and the Creed after it. You received the "
+        "Creed first, so that in it you would know what to believe. Then you received the "
+        "Prayer, so that in it you would know whom to call on. So the Creed belongs to faith, "
+        "and the Lord’s Prayer to prayer. For it is the one who believes who is heard when he "
+        "calls.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the NPNF English as printed. modern_rendering follows the "
+             "Latin of PL 38 where the English misleads: 'ye have not first learnt' renders "
+             "non accepistis, 'you did not receive'; 'has respect to' renders pertinet ad, "
+             "'belongs to'; and 'where ye might know' renders ubi sciretis, 'so that in it you "
+             "would know'."),
+        [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+          "locus": "Sermon 6 (NPNF numbering; Maurist 56), section 1; English at "
+                    "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+                    "lines 10642-10643; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 26187-26199 "
+                    "(the sermon starts at line 26159)",
+          "license": "public-domain"}],
+        1,
+        ["participant asks why the Creed was given to the candidates before the Lord's Prayer",
+         "participant asks what the Creed was for and what the Lord's Prayer was for",
+         "participant asks how Augustine tied believing to praying"],
+        ["participant asks how a candidate was meant to keep the Creed after the teaching "
+         "ended -- lpc.quote.let-your-creed-be-a-mirror gives that"],
+        ["The first sentence quotes Paul (Rom. x. 14), who is not named in the passage; the "
+         "speaker must name him in conversation, since the sentence that names him is left out.",
+         "The sermon is on the Lord's Prayer, spoken to the Competentes, the people preparing "
+         "for baptism. It is not a sermon on the Creed itself and must not be presented as one.",
+         "The modern rendering uses 'received' (accepistis) for the Creed and the Prayer; it "
+         "does not describe a formal handing-over ceremony, and none may be supplied unless "
+         "the sermon itself gives it."],
+        "Augustine, Sermon 6 in the NPNF numbering (56 in the Maurist numbering), section 1. "
+        "English in the NPNF translation at "
+        "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines "
+        "10642-10643. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines "
+        "26187-26199 (OCR text; the sermon starts at line 26159). The sentence before the "
+        "passage, at line 10642, quotes Romans x. 14-15 in full; the Romans x. 13 reference is "
+        "in a note at line 10641, outside the passage. The same order of Creed first and "
+        "Prayer after is repeated in NPNF 7 section 1, NPNF 8 section 1 and NPNF 9 section 1. "
+        "In the Latin, accepistis is 'you received' and is the rite's own word, paired with "
+        "'give back' (the pair is used openly in Sermon 58, PL 38 line 27711, reddituri "
+        "estis, non Orationem, sed Symbolum); pertinet ad is 'belongs to'; exauditur is 'is heard and answered'. A "
+        "page-foot note block (PL 38 lines 26192-26197) falls inside the Latin range between "
+        "invo- and caretis, and the passage starts with the last word of line 26187, Quia. The "
+        "scripture reference before the passage reads 'Rom. x, 13-13' in the OCR, probably "
+        "13-15. The sermon carries the gravity lpc.gravity.preaching-and-catechesis in its "
+        "catechetical form.",
+    )
+
+    emit_quote(
+        "let-your-creed-be-a-mirror",
+        "Call thy faith to mind, look into thyself, let thy Creed be as it were a mirror to "
+        "thee. Therein see thyself, whether thou dost believe all which thou professest to "
+        "believe, and so rejoice day by day in thy faith. Let it be thy wealth, let it be in a "
+        "sort the daily clothing of thy soul.",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may not know 'professest'. The Latin, confiteris, is to declare "
+        "openly; here what the hearer declares is the Creed. Augustine tells the candidate to "
+        "look at the Creed as a mirror, to check whether he believes all that he declares, and "
+        "to treat it as his wealth and daily clothing. 'Soul' is NPNF's word; the Latin here "
+        "says 'mind'.",
+        "Call your faith to mind. Look into yourself. Let your Creed be like a mirror to you. "
+        "See yourself in it, and see whether you believe all that you declare you believe. And "
+        "rejoice in your faith every day. Let it be your wealth. Let it be, in a way, the "
+        "daily clothing of your mind.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the NPNF English as printed. modern_rendering follows the "
+             "Latin of PL 38 where the English shifts it: 'clothing of thy soul' renders "
+             "indumenta mentis tuae, 'clothing of your mind', since Augustine says mens here "
+             "and turns to anima only in the next sentence, which the passage leaves out; "
+             "'professest' renders confiteris, rendered 'declare' because 'confess' now "
+             "suggests admitting guilt; and NPNF's 'so' in 'and so rejoice' is not in the "
+             "Latin."),
+        [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+          "locus": "Sermon 8 (NPNF numbering; Maurist 58), section 13; English at "
+                    "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+                    "line 11171; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 27719-27724 "
+                    "(the sermon starts at line 27271)",
+          "license": "public-domain"}],
+        2,
+        ["participant asks how a candidate for baptism was told to keep the Creed after "
+         "learning it",
+         "participant asks what Augustine meant by the Creed as a mirror",
+         "participant asks how a believer was told to keep up faith day by day"],
+        ["participant asks why the Creed came before the Lord's Prayer -- "
+         "lpc.quote.the-creed-first-then-the-prayer gives that"],
+        ["The sermon is on the Lord's Prayer, spoken to the Competentes, the people preparing "
+         "for baptism. It is not a sermon on the Creed itself and must not be presented as one.",
+         "The passage does not give the words of the Creed or say how often it is said; the "
+         "sentence before it, which gives the times, is not in the passage and must not be "
+         "supplied as if quoted.",
+         "'Mind' in the modern rendering follows the Latin; NPNF has 'soul', and the speaker "
+         "must not present one as the other."],
+        "Augustine, Sermon 8 in the NPNF numbering (58 in the Maurist numbering), section 13. "
+        "English in the NPNF translation at "
+        "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 11171. "
+        "Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 27719-27724 "
+        "(OCR text; the sermon starts at line 27271). The sentence before the passage, at line "
+        "11170, tells the candidate to say the Creed on rising and before sleep, and gives the "
+        "reason that repetition keeps forgetfulness out; it is left out. The sentence after "
+        "it, on the Apostle's 'unclothed' and 'naked', is cut off by notes at lines "
+        "11172-11177 and is also left out. In the Latin, Commemora fidem tuam is 'call your "
+        "faith to mind', which in context (commemorate vos ipsos, PL 38 line 27716) means "
+        "reciting the Creed to oneself; tanquam speculum is 'like a mirror'; confiteris is an "
+        "OCR reading ('condieris'), and the sense and NPNF both require it. The sermon carries "
+        "the gravity lpc.gravity.preaching-and-catechesis in its catechetical form.",
+    )
+
+    emit_quote(
+        "the-sermon-and-the-readings-are-daily-bread",
+        "Again, what I am handling before you now is “daily bread;” and the daily lessons "
+        "which ye hear in church, are daily bread, and the hymns ye hear and repeat are daily "
+        "bread. For all these are necessary in our state of pilgrimage.",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may hear 'handling' as touching objects and 'pilgrimage' as a trip "
+        "to a shrine. The Latin, tracto, is expounding Scripture in a sermon, and "
+        "peregrinationi is living away from one's homeland. Augustine names three things as "
+        "daily bread: his own preaching, the readings in church, and the hymns, and says they "
+        "are needed while we are far from home.",
+        "And what I am explaining to you now is daily bread. The readings you hear in church "
+        "every day are daily bread. The hymns you hear and sing are daily bread. For we need "
+        "these while we are far from home.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the NPNF English as printed. modern_rendering follows the "
+             "Latin of PL 38 where the English misleads: 'handling' renders tracto, "
+             "'explaining'; 'state of pilgrimage' renders peregrinationi nostrae, 'while we "
+             "are far from home', since 'state of' is NPNF's addition and 'pilgrimage' narrows "
+             "the Latin; 'Again' renders Et, 'And'; NPNF's 'all' in 'all these' is not in the "
+             "Latin; 'repeat' renders dicitis, rendered 'sing'; and the quotation marks on "
+             "'daily bread' are NPNF's."),
+        [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+          "locus": "Sermon 7 (NPNF numbering; Maurist 57), section 7; English at "
+                    "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+                    "line 10894; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 27006-27028 "
+                    "(the sermon starts at line 26785)",
+          "license": "public-domain"}],
+        2,
+        ["participant asks what Augustine called daily bread besides the Eucharist",
+         "participant asks how Augustine spoke of his own preaching",
+         "participant asks why the readings and hymns in church mattered to believers"],
+        ["participant asks how Augustine described the work of feeding his hearers -- "
+         "lpc.quote.stewards-and-future-bishops gives that"],
+        ["'Daily bread' here is the petition of the Lord's Prayer, and 'Again' follows the "
+         "Eucharist sense given in the lines before the passage; the passage must not be used "
+         "to say the Eucharist was not daily bread.",
+         "'Far from home' needs the frame that heaven is home; the passage does not state it, "
+         "and the speaker must supply it as the sense of the Latin peregrinatio without adding "
+         "detail.",
+         "The sermon is to the Competentes on the Lord's Prayer, not a sermon on the Creed, "
+         "and the passage does not say how often hymns were sung."],
+        "Augustine, Sermon 7 in the NPNF numbering (57 in the Maurist numbering), section 7. "
+        "English in the NPNF translation at "
+        "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 10894. "
+        "Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 27006-27028 "
+        "(OCR text; the sermon starts at line 26785). The lines before the passage "
+        "(10889-10894) give the Eucharist as the spiritual daily bread, so 'Again' opens a "
+        "further sense, which the passage itself states. A Latin gloss note ('Codex') falls "
+        "later in line 10894, after the passage. In the Latin, tracto is the usual word for "
+        "expounding Scripture in a sermon, peregrinatio is living away from one's homeland, "
+        "and the next sentence (quando venerimus, 'when we get there') shows heaven as home. "
+        "The passage starts with the last word of PL 38 line 27006, Et, and ends on line 27028 "
+        "after a page break, with peregrina- (line 27010) resuming as tioni nostrae and "
+        "apparatus notes at lines 27013-27025 between them. The passage is short, 43 words. "
+        "The sermon carries the gravity lpc.gravity.preaching-and-catechesis.",
+    )
+
+    emit_quote(
+        "two-hear-one-scorns-one-rises",
+        "But wonderful it is, that when Christ Crucified is preached, two hear, one despiseth, "
+        "the other ascendeth. Let him that despiseth, impute it to himself; let not him that "
+        "ascendeth, arrogate it to himself. For he hath heard from the True Master; “No man "
+        "cometh unto Me, except it were given unto him of My Father.”",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may hear 'wonderful' as delightful and 'True Master' as an owner. "
+        "The Latin, Mirum, is 'strange', and Augustine is puzzled, not pleased; veraci "
+        "Magistro is the truthful Teacher. When Christ crucified is preached, two hear, one "
+        "scorns and one rises. The one who rises is not to claim it, since no one comes to "
+        "Christ unless it is given him by the Father.",
+        "But it is a strange thing. When Christ crucified is preached, two people hear. One "
+        "scorns it, and the other rises. Let the one who scorns blame himself. Let the one who "
+        "rises not claim it for himself. For he has heard the truthful Teacher say, “No one "
+        "comes to Me unless it is given to him by My Father.”",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the NPNF English as printed. modern_rendering follows the "
+             "Latin of PL 38 where the English misleads: 'wonderful' renders Mirum, 'a strange "
+             "thing'; 'impute it to himself' renders imputet sibi, 'blame himself'; "
+             "'despiseth' and 'ascendeth' render contemnit and ascendit, 'scorns' and 'rises'; "
+             "and 'True Master' renders veraci Magistro, 'the truthful Teacher'."),
+        [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+          "locus": "Sermon 81 (NPNF numbering; Maurist 131), section 3; English at "
+                    "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+                    "line 19899; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 51152-51156 "
+                    "(the sermon starts at line 51045)",
+          "license": "public-domain"}],
+        1,
+        ["participant asks why one hearer of the preaching believes and another does not",
+         "participant asks what Augustine said a believer must not claim for himself",
+         "participant asks how Augustine used 'No man cometh unto Me, except it were given "
+         "unto him of My Father'"],
+        ["participant asks how a person's own acts stand under God's working -- "
+         "lpc.quote.what-is-done-by-you-he-does-in-you gives that"],
+        ["The last sentence quotes John vi. 65 without naming the Gospel; the speaker must not "
+         "supply more than the verse the passage gives.",
+         "The passage does not name the Pelagians and must not be read as a reply to them; "
+         "'Against the Pelagians' is NPNF's own title for the sermon.",
+         "The passage does not say why one hearer rises and the other scorns, and must not be "
+         "extended into a doctrine of election.",
+         "'Rises' (ascendit) is the sermon's image for coming to faith and does not mean the "
+         "resurrection."],
+        "Augustine, Sermon 81 in the NPNF numbering (131 in the Maurist numbering), section 3. "
+        "English in the NPNF translation at "
+        "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 19899. "
+        "Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 51152-51156 "
+        "(OCR text; the sermon starts at line 51045). The sermon was delivered at the Table of "
+        "the martyr Cyprian (sermon heading, lines 19865-19867). A page-break tag (NPNF p. "
+        "502) falls inside line 19899 and is stripped. Section 3 goes on at lines 19900-19915 "
+        "with Philippians ii. 12-13; that is cut by notes and is left out. The section's next "
+        "clause in the Latin, Gaudeat, quia datum est ('let him rejoice that it has been "
+        "given'), would complete the thought but is outside the passage. The Latin passage "
+        "follows an editor's chapter heading at PL 38 lines 51151-51152. In the Latin, Mirum "
+        "est is 'it is strange', arroget sibi is 'claim it for himself' and datum fuerit is "
+        "'has been given'. The sermon carries the gravity "
+        "lpc.gravity.grace-and-human-incapacity.",
+    )
+
+    emit_quote(
+        "what-is-done-by-you-he-does-in-you",
+        "Why do I say then, “Thy will be done in heaven and in earth,” and do not say, “Thy "
+        "will be done by heaven and earth?” Because what is done by thee, He Himself doeth in "
+        "thee. Never is anything done by thee which He Himself doeth not in thee. Sometimes, "
+        "indeed, He doeth in thee what is not done by thee; but never is anything done by "
+        "thee, if He do it not in thee.",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may hear 'He doeth in thee what is not done by thee' as God forcing "
+        "a person. Augustine is explaining the petition 'Thy will be done in heaven and in "
+        "earth'. God's will is done 'in you' whether you will it or not; it is done 'by you' "
+        "when you do it as well. Nothing is done by the one who prays that God does not also do in him.",
+        "Why then do I say, “Your will be done in heaven and on earth,” and not, “Your will be "
+        "done by heaven and earth”? Because what is done by you, He Himself does in you. "
+        "Nothing is ever done by you that He Himself does not do in you. Sometimes, indeed, He "
+        "does in you what is not done by you. But nothing is ever done by you unless He does "
+        "it in you.",
+        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+          "locus": "Sermon 6 (NPNF numbering; Maurist 56), section 7; English at "
+                    "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+                    "lines 10700-10701; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 26351-26356 "
+                    "(the sermon starts at line 26159)",
+          "license": "public-domain"}],
+        2,
+        ["participant asks what Augustine meant by 'Thy will be done' in the Lord's Prayer",
+         "participant asks how Augustine spoke of what a person does and what God does in him",
+         "participant asks why Augustine said nothing is done by us unless God does it in us"],
+        ["participant asks why one hearer believes and another scorns -- "
+         "lpc.quote.two-hear-one-scorns-one-rises gives that"],
+        ["The passage needs its lead-in: in the lines before it (PL 38 lines 26340-26351, from "
+         "Fiet enim voluntas Dei in te, etsi non fit a te), 'in you' is God's will done in "
+         "everyone, saved or lost, and 'by you' is God's will done by you as well. Without that lead-in, "
+         "'He does in you what is not done by you' can be heard as compulsion, and the speaker "
+         "must supply it.",
+         "The sermon is to the Competentes, the people preparing for baptism, on the Lord's "
+         "Prayer. It is not an argument with Pelagians and must not be read as a reply to them.",
+         "The opening question is Augustine's own, put to the Competentes, not an objection "
+         "raised by a hearer."],
+        "Augustine, Sermon 6 in the NPNF numbering (56 in the Maurist numbering), section 7. "
+        "English in the NPNF translation at "
+        "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines "
+        "10700-10701. Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines "
+        "26351-26356 (OCR text; the sermon starts at line 26159). The lines before the passage "
+        "(NPNF lines 10693-10700) set out that God's will is done in the saved and in the "
+        "lost; the passage opens in the middle of that argument ('Why do I say then'). In the "
+        "Latin, a te and in te are exact and the whole argument rests on that pair; "
+        "Augustine's form has no sicut ('as') in 'in coelo et in terra'. The NPNF English "
+        "follows the Latin closely throughout, with nothing added or narrowed. The longest "
+        "sentence is the opening question, made of two quoted petitions, and cannot be split "
+        "without losing the contrast. The sermon carries the gravity "
+        "lpc.gravity.grace-and-human-incapacity as catechesis on prayer.",
+    )
+
+    emit_quote(
+        "no-one-has-the-love-of-god-from-himself",
+        "Finally, when he had said, “The love of God hath been shed abroad in our hearts;” "
+        "that no man might think that he hath this love of God of himself, he added "
+        "immediately, “By the Holy Spirit, who hath been given to us.” Therefore, that thou "
+        "mayest love God, let God dwell in thee, and love Himself in thee, that is, to His "
+        "love let Him move thee, enkindle, enlighten, arouse thee.",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may hear 'Finally' as the last point in a list and 'shed abroad' as "
+        "spilled. The Latin, Denique, is 'indeed', and diffusa est is 'poured out'. Augustine "
+        "reads Paul's words so that no one thinks his love for God comes from himself, and "
+        "asks that God live in the believer, love Himself through him, and move him to love.",
+        "Indeed, he had said, “The love of God has been poured out in our hearts.” Then he "
+        "added at once, “through the Holy Spirit, who has been given to us.” He did this so "
+        "that no one would think his love for God came from himself. So if you are to love "
+        "God, let God live in you and love Himself through you. That is, let Him move you to "
+        "His love. Let Him kindle you, give you light and stir you up.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the NPNF English as printed. modern_rendering follows the "
+             "Latin of PL 38 where the English misleads or shifts: 'Finally' renders Denique, "
+             "'Indeed'; 'shed abroad' renders diffusa est, 'poured out'; 'love Himself in "
+             "thee' renders amet se de te, literally 'love Himself from you', rendered "
+             "'through you'; and 'enkindle, "
+             "enlighten, arouse' renders accendat, illuminet, excitet, 'kindle, give light, "
+             "stir up'. The purpose clause is moved after the two quotations so each sentence "
+             "holds one thought."),
+        [{"source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+          "locus": "Sermon 78 (NPNF numbering; Maurist 128), section 4; English at "
+                    "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, "
+                    "line 19486; Latin at "
+                    "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 50082-50088 "
+                    "(the sermon starts at line 49959)",
+          "license": "public-domain"}],
+        2,
+        ["participant asks where Augustine said the love of God in a believer comes from",
+         "participant asks how Augustine read 'The love of God hath been shed abroad in our "
+         "hearts'",
+         "participant asks what Augustine meant by God dwelling in a person and moving him to "
+         "love"],
+        ["participant asks why one hearer believes and another scorns -- "
+         "lpc.quote.two-hear-one-scorns-one-rises gives that"],
+        ["'He' is Paul (Rom. v. 5), named neither in the passage nor in the Latin sentence; "
+         "the speaker must name him in conversation.",
+         "The passage does not name the Pelagians and must not be read as a reply to them; the "
+         "sermon is on John v. 31 and Galatians v. 16-17 (the flesh against the Spirit).",
+         "The passage is one argument about where the love of God comes from and does not set "
+         "out a whole doctrine of grace."],
+        "Augustine, Sermon 78 in the NPNF numbering (128 in the Maurist numbering), section 4. "
+        "English in the NPNF translation at "
+        "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 19486. "
+        "Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 50082-50088 "
+        "(OCR text; the sermon starts at line 49959). The line begins right after a short "
+        "scripture-reference note (2 Cor. iv. 7, line 19485) that belongs to the earlier "
+        "sentence, not this one. The Latin starts mid-line at PL 38 line 50082 after (II Cor. "
+        "iv, 7), and carries the reference (Rom. v, 5) that the English line omits. In the "
+        "Latin, Denique is 'indeed, in short', a se sibi esse quod diligit Deum is that his "
+        "loving God comes from himself, habitet is 'live', and accendat, illuminet and excitet "
+        "are 'set alight, give light, rouse'. The sermon carries the gravity "
+        "lpc.gravity.grace-and-human-incapacity.",
+    )
+
+
 def main() -> None:
     build_stories()
     build_figures()
     build_quotes()
+    build_sermon_quotes()
 
     chunk_files = sorted(STORY_CHUNKS_DIR.glob("lpcstory*.md"))
     story_files = [w for w in WRITTEN if "/story/" in w]
@@ -1457,7 +2489,7 @@ def main() -> None:
         f"expected one story record per Story-Chunk (7), wrote {len(story_files)}"
     )
     assert len(figure_files) == 7, f"expected 7 figure records, wrote {len(figure_files)}"
-    assert len(quote_files) == 5, f"expected 5 quote records (bounded set, see docstring), " \
+    assert len(quote_files) == 23, f"expected 17 quote records (bounded set, see docstring), " \
         f"wrote {len(quote_files)}"
 
     # Reciprocity self-check: every RELATION_PAIRS id must be a record this
