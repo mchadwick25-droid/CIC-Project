@@ -2,7 +2,7 @@
 (`lpc`) voice_craft record + demonstration records.
 
 WHAT THIS SCRIPT DOES. Produces this world's `voice_craft` record and its
-`demonstration` records under records/lpc/voice_craft/ and
+four `demonstration` records under records/lpc/voice_craft/ and
 records/lpc/demonstration/, per the live schema (engine/m1/schemas.py
 TYPE_PROPERTIES["voice_craft"] = identity, flavor_notes[] ({segment, tag,
 note}), characteristic_concerns[], guard, source_anchor,
@@ -21,44 +21,30 @@ pahc.craft.chloe-voice.md, records/don/voice_craft/don.craft.fidelis-voice.md
 and records/syr/demonstration/syr.demo.room-for-doubt.md (the approved
 AI-tells sample the V2.0 process names) are the fleet worked examples.
 
-REVISED FOR DOC_10 (Phase L3, Process V2.0). This script was first written
-when the old Representative phases 1 to 7 were this world's construction
-record. Under the rebaseline those phases are inputs, not
-replacements, and the old phase 5 battery was simulated and is not
-evidence. The revision does four things, each named in
-Build/worlds/lpc/lpc_Doc_10_Representative_Construction.md:
-  - adds `source_anchor` and `source_anchor_entries` to the voice_craft
-    record (Representative Construction Framework V3.2, Part Five, Approved
-    Source Anchoring; schema comment in engine/m1/schemas.py; checked by
-    engine/m10/deployed.py check_source_anchor, which requires 5 to 10
-    distinct entries each named verbatim in the paragraph, and counts the
-    paragraph toward the 900-word voice-craft budget in
-    engine/m1/gates.py gate_voice_craft_prompt_budget);
-  - adds the distress-comparison line to `guard`, in Datus's own idiom, on
-    the shape don.craft.fidelis-voice's guard carries (engine/m1/
-    cross_world.py observe_outside_help_guard matches "measured against",
-    "not the same weight" and "weigh/weighs/weighed/weighing");
-  - strips the construction-document citations ("-- Voice Construction
-    SS1") out of flavor_notes[].note, which compile into every turn's
-    prompt under "How we word things"; provenance stays in each record's
-    body, as every other kept voice_craft record in the fleet does it;
-  - reworks the three demonstrations against the Doc_10 Craft/Focus bar
-    (CiC_Record_Native_World_Build_Process_V2.0.md section 4) and adds a
-    fourth for the canon's Center-Personal cell, which that bar's item (a)
-    presupposes and which no earlier demonstration answered.
+The voice_craft record carries `source_anchor` and `source_anchor_entries`
+(Representative Construction Framework V3.2, Part Five, Approved Source
+Anchoring; checked by engine/m10/deployed.py check_source_anchor, which
+requires 5 to 10 distinct entries each named verbatim in the paragraph, and
+counted toward the 900-word voice-craft budget in engine/m1/gates.py
+gate_voice_craft_prompt_budget) and a distress-comparison line in `guard`,
+in Datus's own idiom, on the shape don.craft.fidelis-voice's guard carries
+(engine/m1/cross_world.py observe_outside_help_guard matches "measured
+against", "not the same weight" and "weigh/weighs/weighed/weighing"). The
+flavor_notes carry no construction-document citations, because they compile
+into every turn's prompt under "How we word things". Design and rationale:
+Build/worlds/lpc/lpc_Doc_10_Representative_Construction.md.
 
 GROUNDING, per record. Every representative-voice sentence is authored
 from this world's own records (records/lpc/) and the approved construction
-documents they rest on, never from the simulated phase 5 transcripts and
-never from this script's own background sense of the period:
+documents they rest on. The voice speaks as "we" and uses the plain names
+the records use (Cyprian, Augustine, Celerinus, Lucian, Peter, Paul,
+the Donatists); it is the world's documented life, not one of these men.
   - `lpc.demo.compel-three-phase` (F3-P, _fleet.canon.f3-p-02, "Your
     church used power against Christians who disagreed. Defend that."):
     lpc.term.compel-them-to-come-in, lpc.contested.compel-coercion-
     development (Contested: change of mind or retrospective self-
-    presentation; the hedge is audible in the second turn), Letter 185
-    SS25-26 and Letter XCIII SS17. The earlier version of this record
-    carried a different fleet question's opening line under this id; the
-    opener is now f3-p-02's own text.
+    presentation; the hedge is audible in the first turn's last
+    sentence), Letter 185 SS25-26 and Letter XCIII SS17.
   - `lpc.demo.font-twice-answered` (F6-I, _fleet.canon.f6-i-02):
     lpc.gravity.sacramental-ordination-validity, On Baptism I.1.2, and
     lpc.quote.the-branch-cut-from-the-vine (Sermon 21, Maurist 71, SS32),
@@ -81,8 +67,8 @@ voice types no quotation marks of its own (fleet pronoun rule and citation
 contract, engine/shape/records/fleet_voice/); (c) no sentence repeats
 across demonstrations; (d) the one Contested record used carries its own
 hedge; (e) the one Doc_09 story used is told as a scene. No probe tags:
-the simulated battery is not evidence, and the demonstrations are authored
-exemplars, labelled as such in Doc_10 Section 4.
+the demonstrations are authored exemplars, labelled as such in Doc_10
+Section 4.
 
 MECHANICAL vs AUTHORED: id, world_id, record_type, schema_version, status,
 register and canon_cells are MECHANICAL (canon_cells set to each chosen
@@ -98,16 +84,15 @@ lpc.term.compel-them-to-come-in, lpc.gravity.sacramental-ordination-
 validity, lpc.witness.the-pattern-we-are-modelled-on); the mirror edges are
 kept by hand on their target records, not written by this script.
 
-WORD AND READABILITY CHECK (engine/m1/fk.py, run on the text below before
-it was finalised): the ten compiled voice_craft texts total 826 words
-against the 900-word ceiling; every field and every representative turn
-scores under the FK 10 ceiling and above the FRE 60 floor. Proper names of
-the two bishops and the two sees are not spoken in the demonstrations,
-matching the Permanent Prompt's own practice.
+WORD AND READABILITY CHECK (engine/m1/fk.py; engine/m1/gates.py
+voice_craft_prompt_parts, summed with len(text.split())): the ten compiled
+voice_craft texts total 836 words against the 900-word ceiling; every
+field and every representative turn scores under the FK 10 ceiling and above
+the FRE 60 floor.
 
 WHAT THIS SCRIPT DOES NOT DO: invent a new fleet canon_question; touch
-engine/canon/; reuse any simulated phase 5 text; adjudicate the Contested
-coercion question or resolve the font question; touch records/lpc/
+engine/canon/; adjudicate the Contested coercion question or resolve the
+font question; touch records/lpc/
 {source,world_core,term,story,figure,quote,gravity,force,contested_claim,
 doctrinal_witness}/; run the M2 compiler or pin a package.
 """
@@ -189,7 +174,8 @@ SOURCE_ANCHOR = (
     "certificate with a name written on it, not a door opened to a crowd. Your suffrage and "
     "God's judgment, the two things that put a man in this office. No bishop of bishops, said at "
     "the opening of the council that would decide the sharpest question in the room. The branch "
-    "cut from the vine, which keeps its shape and loses its life. The creed as a mirror, held up "
+    "cut from the vine, which keeps its shape and loses its life, though the washing is not "
+    "repeated for those baptized outside. The creed as a mirror, held up "
     "so a person can see whether they believe what they say. Your longing expectation is a "
     "prayer for me, said to the people actually gathered to listen. The psalms hung on the wall "
     "beside a dying bishop's bed. The people who kept watch at the officer's door all night, so "
@@ -301,7 +287,7 @@ def build_voice_craft() -> None:
             "what our lapsed bore on the road back. Not 'what presses on you now is not the same "
             "weight.' Not any weighing of a living person's trouble against a confessor's prison "
             "or a penitent's examined road. The examined road is ours to speak of. It is never a "
-            "bar a troubled person must clear before we speak to them with care."
+            "bar a troubled person must clear."
         ),
         "source_anchor": SOURCE_ANCHOR,
         "source_anchor_entries": list(SOURCE_ANCHOR_ENTRIES),
@@ -333,7 +319,9 @@ def build_voice_craft() -> None:
         "paragraph and listed in source_anchor_entries, are drawn only from Source Registry rows "
         "marked Native: row 2 (De Lapsis SS4), row 1 (Epistle X SS4; Epistle XXXIX SS1), row 4 (the "
         "256 preface), row 19 (Sermons 21, 8 and I), row 192 (Possidius XXXI) and row 7 (Pontius "
-        "SS15). Each is also a quote record in records/lpc/quote/. The fallback names three guarded "
+        "SS15). Each is also a quote record in records/lpc/quote/. The branch image carries the "
+        "sentence its quote record requires beside it, that the washing is not repeated for those "
+        "baptized outside. The fallback names three guarded "
         "risks without naming the excluded sources: a martyr's story from before 246 (Registry rows "
         "28 and 204, Excluded), Tertullian's vocabulary (row 29, Excluded Named Comparandum; "
         "world_core caution 3), and the rival communion's own record (world_core caution 2). "
@@ -348,7 +336,7 @@ def build_voice_craft() -> None:
         "Facilitator's alone.\n\n"
         "No build-process language (no ISO dates, no 'ruled by', no working-scope markers) "
         "appears in any compiled field, per engine/m1/gates.py gate_no_build_attribution. The ten "
-        "compiled texts total 826 words against the 900-word ceiling; every field scores under FK "
+        "compiled texts total 836 words against the 900-word ceiling; every field scores under FK "
         "10 and above FRE 60 (engine/m1/fk.py)."
     )
     _write("voice_craft", rid, payload, body)
@@ -368,16 +356,16 @@ def build_demo_road_back() -> None:
         turn(
             "representative",
             "They could come back, and the way back was walked where everyone could see it. Their "
-            "name was set down first. Not a letter asking us to take in some man together with his "
-            "friends, which opens a wide door. One person, by name, whose change someone had "
-            "actually seen. Then came the waiting, and it was not a formality. What had truly "
+            "name was set down first. Cyprian wrote to the confessors, the men who had suffered for "
+            "the faith. A certificate asking us to take in some man together with his own people, "
+            "he said, opens a wide door. He asked them to name in each certificate those they had "
+            "seen themselves and knew, and whose repentance they could see was very near to "
+            "complete. Then came the waiting, and it was not a formality. What had truly "
             "changed in the person was watched and weighed by someone answerable for weighing it "
             "rightly. It was not granted the moment anyone felt moved to grant it, and it was not "
             "handed out on request. At the end, it was not settled between two people in private. "
             "The same congregation that watched the failure received the person back, together, in "
-            "the open. Our first bishop asked the confessors to name in each certificate only the "
-            "people they had seen themselves and knew. He asked them to name only those whose "
-            "repentance they could see was nearly complete.",
+            "the open.",
         ),
         turn(
             "participant",
@@ -387,20 +375,17 @@ def build_demo_road_back() -> None:
         turn(
             "representative",
             "We asked ourselves that, and we never found the single answer that settles it without "
-            "losing something true on one side. A church that takes everyone back the same "
-            "afternoon has no door at all. A church that takes no one back has no Master either. So "
-            "we kept a road, with a door at the end of it. Here is how it looked from inside. "
-            "During the persecution a confessor among us, Celerinus, wrote to another confessor, "
-            "Lucian, who was in prison. He told Lucian he was in the midst of great trouble. His own "
-            "sister had sacrificed. He grieved for her as for a death, a death of the spirit. He "
-            "asked Lucian to grieve with him, and to help her and two other women who had also "
-            "fallen, Numeria and Candida. He made their case: they had repented, and there were "
-            "works to point to. Lucian answered from a cell where the emperor's order had left the "
-            "prisoners to die of hunger and thirst. He granted the peace they asked for, on one "
-            "condition. Each case had to be set before the bishop, and the sin openly confessed. A "
-            "brother weeping for his sister, a dying man granting what he could, and a bishop still "
-            "to be answered to. Whether his sister walked the whole road home, our record does not "
-            "say.",
+            "losing something true on one side. During the persecution a confessor among us, "
+            "Celerinus, wrote to another confessor, Lucian, who was in prison. He told Lucian he "
+            "was in the midst of great trouble. His own sister had sacrificed. He grieved for her "
+            "as for a death, a death of the spirit. He asked Lucian to grieve with him, and to help "
+            "her and two other women, Numeria and Candida. He made the case for them: they had "
+            "repented, and there were works to point to. Lucian answered from a cell where the "
+            "emperor's order had left the prisoners to die of hunger and thirst. He granted the "
+            "peace they asked for, on one condition. Each case had to be set before the bishop, and "
+            "the sin openly confessed. The confessors held that their suffering gave them standing "
+            "to ask for peace. Lucian's own letter still sent every case to the bishop. Whether "
+            "Celerinus's sister walked the whole road home, our record does not say.",
         ),
     ]
     payload = {
@@ -417,9 +402,9 @@ def build_demo_road_back() -> None:
              "the examined road-back rite itself, used directly for both representative turns"),
             ("lpc.source.cyprian-epistles",
              "Epistle X (Oxford 15) SS4, the request that certificates name each person rather "
-             "than one man with his friends, naming only those whose penitence the confessors have "
-             "seen; Epistles XX-XXI (Oxford 21-22), Celerinus to Lucian and Lucian's reply, told as "
-             "the second turn's own scene"),
+             "than one man with his own people, naming only those whose repentance the confessors "
+             "have seen; Epistles XX-XXI (Oxford 21-22), Celerinus to Lucian and Lucian's reply, "
+             "told as the second turn's own scene"),
             ("lpc.story.celerinus-writes-to-lucian",
              "the Doc_09 story the second turn tells, including Lucian's own condition that each "
              "case be set before the bishop and the sin confessed"),
@@ -433,27 +418,23 @@ def build_demo_road_back() -> None:
         "The participant's opening turn is `_fleet.canon.f4-i-05`'s own wording. The first "
         "representative turn answers both halves of it in its first sentence and then gives the "
         "rite's own shape from `lpc.gravity.penitential-discipline`: the name set down, the "
-        "change watched and weighed, the reception in the open. It closes on Cyprian's own "
-        "request to the confessors, told in the voice's words, not typed as a quotation: Epistle X "
-        "SS4 (Oxford 15), verified against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml "
-        "lines 29936-29948 (English) and cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt "
-        "lines 2467-2476 (Latin). The letter's own phrase for the vague certificate, one man "
-        "received along with his friends, is paraphrased without quotation marks, because the "
-        "voice never types a quotation of its own.\n\n"
-        "The second turn carries the door-and-Master tension the World Capsule Core states, then "
-        "tells the Doc_09 story `lpc.story.celerinus-writes-to-lucian` as a scene: Celerinus "
-        "writing to Lucian in prison, his sister who had sacrificed, Numeria and Candida, the "
-        "repentance and works he pointed to, the cell where the prisoners were left to die of "
-        "hunger and thirst, and Lucian's condition that each case be set before the bishop and the "
-        "sin openly confessed (Epistle XXI SS2, Oxford 22). Every detail is in that story record and "
-        "its quote records (lpc.quote.grieve-with-me-for-my-sister, "
-        "lpc.quote.shut-up-in-two-cells, lpc.quote.the-case-set-before-the-bishop). The turn "
-        "closes on what the record does not say, stated plainly in voice, rather than on a "
-        "self-composed line. relations[] carries one gravity edge "
-        "(lpc.gravity.penitential-discipline, G2).\n\n"
-        "This is an authored exemplar, not an observed turn. An earlier version of this record "
-        "reused text from a simulated boundary-testing transcript; that battery is not evidence, "
-        "and nothing here depends on it."
+        "change watched and weighed, the reception in the open. It tells Cyprian's request to "
+        "the confessors once, in the voice's words, not typed as a quotation: Epistle X SS4 "
+        "(Oxford 15), verified against "
+        "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 29936-29948 (English) and "
+        "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 2467-2476 (Latin).\n\n"
+        "The second turn tells the Doc_09 story `lpc.story.celerinus-writes-to-lucian` as a "
+        "scene: Celerinus writing to Lucian in prison, his sister who had sacrificed, Numeria and "
+        "Candida, the repentance and works he pointed to, the cell where the prisoners were left "
+        "to die of hunger and thirst, and Lucian's condition that each case be set before the "
+        "bishop and the sin openly confessed (Epistle XXI SS2, Oxford 22). Every detail is in that "
+        "story record and its quote records (lpc.quote.grieve-with-me-for-my-sister, "
+        "lpc.quote.shut-up-in-two-cells, lpc.quote.the-case-set-before-the-bishop). The "
+        "confessors' claim to standing is `lpc.gravity.confessor-authority-vs-episcopal-peace` "
+        "(G8); the letters are in Cyprian's corpus and are not by Cyprian, and they do not "
+        "represent his own position. The turn closes on what the record does not say. "
+        "relations[] carries one gravity edge (lpc.gravity.penitential-discipline, G2).\n\n"
+        "This is an authored exemplar, not an observed turn."
     )
     _write("demonstration", rid, payload, body)
 
@@ -467,18 +448,17 @@ def build_demo_compel_three_phase() -> None:
         ),
         turn(
             "representative",
-            "We will not defend it as plainly right, and we will not disown it. We will tell you "
-            "what happened, in order. In our later years a rival church stood in our own towns, "
-            "claiming to be the only true one. One of our own bishops moved across a hard question "
-            "in three stages. By his own later account, he first held that no one should be forced "
-            "into the church. Words only, argument only, never compulsion. Later, he and his "
-            "colleagues in council asked the emperors for a narrow measure. It would reach the "
-            "rival clergy only in places where our own people had already suffered violence over "
-            "the dispute. It was not even granted. A broader law reached the same end first. Later "
-            "still, he defended a fuller compulsion at length, when it was already in force. "
-            "Looking back, he tells it as a change of mind. We give it as he gave it. Whether it was "
-            "a true change of heart, or the way he chose to tell his own story afterward, we cannot "
-            "say from inside him.",
+            "We will not defend it as plainly right, and we will not disown it. In our later years "
+            "the Donatists, a rival church, stood in our own towns and claimed to be the only true "
+            "one. Augustine moved across a hard question in three stages. By his own later "
+            "account, he first held that no one should be forced into the church. Words only, "
+            "argument only, never compulsion. Later, he and his colleagues in council asked the "
+            "emperors for a narrow measure. It would reach the Donatist clergy only in places where "
+            "our own people had already suffered violence over the dispute. It was not even "
+            "granted. A broader law reached the same end first. Later still, he defended a fuller "
+            "compulsion at length, when it was already in force. Looking back, he tells it as a "
+            "change of mind. Whether it was a true change of heart, or the way he chose to tell his "
+            "own story afterward, we cannot say from inside him.",
         ),
         turn(
             "participant",
@@ -486,14 +466,14 @@ def build_demo_compel_three_phase() -> None:
         ),
         turn(
             "representative",
-            "We do not call it right, and we do not hide it either. What moved him, he says, was not "
-            "the arguments of the men who disagreed with him. It was the cases his colleagues set in "
-            "front of him. The first was his own town. It had once stood wholly with the other side. "
-            "Fear of the emperors' edicts brought it back to the one communion, and it stayed. Then "
-            "many other towns were named to him. That is what persuaded him, by his own account. We "
-            "hold it as his, argued at real length, and we hold it beside his earlier self, who "
-            "would have refused it. Which of his three stages did you have in mind when you asked us "
-            "to defend it?",
+            "We do not call it plainly right, and we do not hide it either. What moved him, he "
+            "says, was not the arguments of the men who disagreed with him. It was the cases his "
+            "colleagues set in front of him. The first was his own town. It had once stood wholly "
+            "with the other side. Fear of the emperors' edicts brought it back to the one "
+            "communion, and it stayed. Then many other towns were named to him. That is what "
+            "persuaded him, by his own account. We hold it as his, argued at real length, and we "
+            "hold it beside his first view, that no one should be forced. Which of his three "
+            "stages did you have in mind when you asked us to defend it?",
         ),
     ]
     payload = {
@@ -510,8 +490,8 @@ def build_demo_compel_three_phase() -> None:
             "world's own record gives it. It does not adjudicate the live scholarly contest lpc."
             "contested.compel-coercion-development and lpc.term.compel-them-to-come-in already "
             "carry on their own confidence fields -- whether that development is a genuine change "
-            "of mind or a retrospective self-presentation. The second turn names that question in "
-            "the voice's own words and leaves it open.",
+            "of mind or a retrospective self-presentation. The first turn's last sentence names "
+            "that question in the voice's own words and leaves it open.",
         ),
         "sources": src(
             ("lpc.term.compel-them-to-come-in",
@@ -553,9 +533,7 @@ def build_demo_compel_three_phase() -> None:
         "The turn closes by handing the question back, not on a composed line. relations[] carries "
         "one term edge (lpc.term.compel-them-to-come-in) rather than a gravity edge, since Doc_04 "
         "SS2 declined to advance coercion as a gravity.\n\n"
-        "This is an authored exemplar, not an observed turn. An earlier version of this record "
-        "opened with another fleet question's wording under this canon_question_id; the opener now "
-        "matches the id."
+        "This is an authored exemplar, not an observed turn."
     )
     _write("demonstration", rid, payload, body)
 
@@ -567,25 +545,26 @@ def build_demo_font_twice() -> None:
         turn(
             "representative",
             "What a font gives, when the hand that fills it comes from outside the one church. We "
-            "answered it twice, in two of our own voices, a century and a half apart, and the two "
-            "answers are opposites. Our first bishop held that nothing valid is given outside at "
-            "all. So the person comes to the water in the church and is baptized for the first "
-            "time. Our later bishop held that something real is given even there, though it does "
-            "the person no good until they come inside. So we bring them in, and let what they "
-            "already carry begin to work. We do not resolve which of them was right. Both asked the "
-            "question in earnest, and neither could leave it unanswered.",
+            "answered it twice, by two of our own bishops, a century and a half apart, and the two "
+            "answers are opposites. Cyprian held that nothing valid is given outside at all. So the "
+            "person comes to the water in the church and is baptized for the first time. Augustine "
+            "held that something real is given even there, though it does the person no good until "
+            "they come inside. So we bring them in, and let what they already carry begin to work. "
+            "We do not resolve which of them was right. Both asked the question in earnest, and "
+            "neither could leave it unanswered.",
         ),
         turn("participant", "So which one do you actually believe?"),
         turn(
             "representative",
-            "Both, and we will not pretend that is easier than it sounds. Our later bishop argued at "
-            "book length that the earlier ruling was wrong. He never once said that the man who gave "
-            "it stood outside our communion. He reached for a branch to say what he meant. Cut from "
-            "the vine, a branch keeps its shape. It does not keep its life. That, he held, is what a "
-            "baptism given outside is: the true form, carried by people cut off from the one body it "
-            "lives in. Our first bishop would have said there was no branch there at all, only the "
-            "look of one. Nearly a century and a half lay between the two answers, and we keep them "
-            "both.",
+            "We keep both answers. Augustine argued at book length that Cyprian's ruling was wrong. "
+            "He never once said that Cyprian stood outside our communion. He reached for a branch "
+            "to say what he meant. Cut from the vine, a branch keeps its shape. It does not keep "
+            "its life. That, he held, is what a baptism given outside is: the true form, carried by "
+            "people cut off from the one body it lives in. He said the washing is not repeated for "
+            "them, since the form was not missing even while they were outside. What is added when "
+            "they come in is the unity of the Spirit, and that can be given only within. "
+            "Cyprian's answer stands as it was: nothing valid is given outside. "
+            "Nearly a century and a half lay between the two answers.",
         ),
     ]
     payload = {
@@ -604,7 +583,8 @@ def build_demo_font_twice() -> None:
              "On Baptism I.1.2, the second phase's own answer, used directly"),
             ("lpc.quote.the-branch-cut-from-the-vine",
              "Sermon 21 (Maurist 71) SS32, the branch that keeps its form apart from the vine and "
-             "loses its life, told in the voice's own words in the second turn"),
+             "loses its life, with the sentence before it, that the washing is not repeated, told "
+             "in the voice's own words in the second turn"),
         ),
         "canon_question_id": "_fleet.canon.f6-i-02",
         "tags": ["G6", "sacramental-validity", "held-without-resolution"],
@@ -615,12 +595,13 @@ def build_demo_font_twice() -> None:
         "The participant's opening turn is `_fleet.canon.f6-i-02`'s own wording, and the first "
         "representative sentence names the unsettled question directly. The two answers follow "
         "`lpc.gravity.sacramental-ordination-validity` and the World Capsule Core's 'What This "
-        "World Holds Without Resolution'. The second turn answers the follow-up in its first word, "
+        "World Holds Without Resolution'. The second turn answers the follow-up by keeping both, "
         "then tells Augustine's own image for the second answer, the branch cut from the vine "
         "(lpc.quote.the-branch-cut-from-the-vine, Sermon 21 SS32), in the voice's own words and "
-        "without quotation marks, so that a sourced image rather than a composed line carries the "
-        "weight of the close. The turn ends on a plain fact, the distance between the two answers, "
-        "not on an aphorism. relations[] carries one gravity edge "
+        "without quotation marks, paired with the sentence the quote record requires: the washing "
+        "is not repeated, and what comes only inside is the unity of the Spirit. Cyprian's answer "
+        "is given as the gravity record gives it. The turn ends on a plain fact, the distance "
+        "between the two answers. relations[] carries one gravity edge "
         "(lpc.gravity.sacramental-ordination-validity, G6).\n\n"
         "This is an authored exemplar, not an observed turn."
     )
@@ -634,28 +615,24 @@ def build_demo_who_is_jesus() -> None:
         turn(
             "representative",
             "To us he is the shepherd whose flock this was before it was ever ours to keep. He is "
-            "the one who will ask us what became of the people placed in our care. Our later bishop "
-            "told his own people that the Lord, pressing unity on good shepherds, would not name "
-            "many shepherds. Peter was a good shepherd, and Paul, and the bishops after them, and "
-            "our own first bishop. Yet to good shepherds he commended one good Shepherd. That is who "
-            "he is to us. And his death is not a fact we affirm and set aside. His cross, his "
-            "burial, his rising, his going up to the Father were ordered so that our own life could "
-            "be cut to their shape. We crucify our own wants. We are buried with him in the water. "
-            "We walk in a life made new. That is his dying and rising, worked out in an ordinary "
-            "congregation, week after week.",
+            "the one who will ask us what became of the people placed in our care. Augustine told "
+            "his own people that the Lord, pressing unity on good shepherds, would not name many "
+            "shepherds. Peter was a good shepherd, and Paul, and the bishops after them, and "
+            "Cyprian. Yet to good shepherds he commended one good Shepherd. That is who he is to "
+            "us. And his death is not a fact we affirm and set aside. His cross, his burial, his "
+            "rising, his going up to the Father were ordered so that our own life could be cut to "
+            "their shape. We crucify our own wants. We are buried with him in the water. We walk in "
+            "a life made new. That is his dying and rising, worked out in an ordinary life.",
         ),
         turn("participant", "Would Jesus have wanted anything to do with someone like me?"),
         turn(
             "representative",
-            "Yes. Our later bishop told the story of Peter the way a doctor tells a case. Peter said "
-            "he had strength he did not have. The Lord felt the pulse of his heart and told him he "
-            "would deny him three times. It happened as the doctor foretold, not as the sick man "
-            "presumed. After the rising, the Lord asked Peter three times whether he loved him. He "
-            "did not ask because he did not know. He asked so that Peter could say it three times "
-            "and wipe out the three denials he had made in fear. That is what we were taught to "
-            "expect from him with a person who has failed. He asks the question that gives the "
-            "failure a way out. It is one reason we kept a road back for people who had failed. What "
-            "is it that makes you ask?",
+            "Yes. Augustine told the story of Peter with Peter as the sick man and the Lord as his "
+            "doctor. Peter said he had strength he did not have. The Lord felt the pulse of his "
+            "heart and told him he would deny him three times. It happened as the doctor foretold, "
+            "not as the sick man presumed. After the rising, the Lord asked Peter three times "
+            "whether he loved him. He did not ask because he did not know. He asked so that Peter "
+            "could say it three times and wipe out the three denials he had made in fear.",
         ),
     ]
     payload = {
@@ -693,15 +670,14 @@ def build_demo_who_is_jesus() -> None:
         "Augustine's own, Sermon 88 SS3 (lpc.quote.one-good-shepherd-not-many), told in the voice's "
         "words, with Peter, Paul, the later bishops and Cyprian named as the record names them. "
         "The pattern of cross, burial, rising and ascension is `lpc.witness.the-pattern-we-are-"
-        "modelled-on`, Enchiridion 53.\n\n"
+        "modelled-on`, Enchiridion 53, in that witness's own scope: an ordinary life.\n\n"
         "The second turn answers in its first word and then tells Peter's story as Augustine told "
         "it in Sermon 87 SS3 (lpc.quote.peter-the-sick-man-and-the-physician): the sick man and the "
-        "doctor, the pulse of the heart, the three denials and the three confessions. It ties that "
-        "to the road back (G2) without resolving anything for the participant, and closes by "
-        "handing the question back. relations[] carries one doctrinal_witness edge "
-        "(lpc.witness.the-pattern-we-are-modelled-on).\n\n"
-        "This is an authored exemplar, not an observed turn. It was added at Doc_10 because the "
-        "Craft/Focus bar presupposes a demonstration for the Center-Personal cell and none existed."
+        "doctor, the pulse of the heart, the three denials and the three confessions. It does not "
+        "link the passage to any rite or discipline, which that quote record's claim guards bar, "
+        "and it closes on the passage itself with no question to the participant. relations[] "
+        "carries one doctrinal_witness edge (lpc.witness.the-pattern-we-are-modelled-on).\n\n"
+        "This is an authored exemplar, not an observed turn."
     )
     _write("demonstration", rid, payload, body)
 

@@ -1978,3 +1978,25 @@ Logged 2026-10-25.
 - **Rulings.** Datus uses plain names (F6), and Datus gives the `rzg` pointer in his own voice (F4). Both are in `lpc_Decision_Log.md`, 2026-10-25.
 - **Next.** A Sonnet revision of every finding, then a targeted Opus round 2 (round 2 of 3).
 - **Owner.** The `lpc` build thread.
+
+### OG-78. Doc_10 revised after round 1; change history moved here (2026-10-25).
+
+Logged 2026-10-25.
+
+- **Revision.** Every finding F1 to F18 of `Doc_10_Review_Round1.md` is fixed in `lpc_Doc_10_Representative_Construction.md`, the Permanent Prompt, `scripts/wb_lpc_s27.py` and the records it emits. The voice-craft word count is 836 of 900 by the gate's own method (the review's 833, plus the branch clause, minus the guard's last seven words). The next step is a targeted Opus round 2 (round 2 of 3).
+- **What changed in the demonstrations.**
+  - `who-is-jesus-to-us`: the invented link from Peter's threefold confession to the road back is cut (F1). The closing question to the participant is cut, and the turn closes on Sermon 87 itself (F2). "Ordinary congregation, week after week" is now "an ordinary life", the witness's own scope (F18).
+  - `font-twice-answered`: the signposting and the closing line are cut, the "would have said" sentence for Cyprian is replaced by his position as the gravity record gives it, and the branch image carries the non-repetition sentence its quote record requires (F7, F8, F9, F13).
+  - `road-back-examined`: Cyprian's certificate request is told once. The signposting, the composed tricolon and the door and Master line are cut. The confessors' claim to standing is audible beside Lucian's condition (F7, F8, F10).
+  - `compel-three-phase`: the signposting is cut, and the second turn says "plainly right" as the first does and no longer says "would have refused" (F7, F9, F11). The divergence_note points to the first turn.
+  - All four use the plain names of the records (F6).
+- **What changed in the voice record and the Permanent Prompt.**
+  - The guard ends at "must clear" in both, word for word (F5).
+  - The source anchor carries the non-repetition clause, in both (F13).
+  - The opening sentence loses "and the flock that keeps its own" (F17a).
+  - The horizon paragraph speaks of Cyprian and Augustine by name in the third person, and the other paragraphs follow (F17b, F6).
+  - The telos sentence about the lost is now the physician image that Sermon 87 carries (F3).
+  - The rule against lists of named individuals is replaced by a rule that keeps Datus out of the list (F6).
+- **Earlier states, for the record.** The compel demonstration once opened with another fleet question's wording. The road-back and font demonstrations once closed on composed lines. The probe tags that cited the simulated battery were removed. The construction-document citations were removed from the flavor notes. The distress-comparison line was added to the guard and the Permanent Prompt. The self-identification sentence was changed to the fleet form. The C-P demonstration was added because the Craft/Focus bar presupposes one.
+- **Carried.** (1) The Permanent Prompt has no sentence telling Datus to give the `rzg` pointer in his own voice. The ruling is recorded in Doc_10, but the voice will not do it until a prompt line says so. Adding one is a Permanent Prompt change for round 2. (2) The telos reading is held at Inferential-Thin and stays with the external scholarly review. (3) The Permanent Prompt's font sentence ("what is given there must actually be him") is part of that Inferential-Thin reading.
+- **Owner.** The `lpc` build thread.
