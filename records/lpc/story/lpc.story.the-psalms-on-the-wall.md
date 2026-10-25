@@ -59,7 +59,7 @@ text: 'Possidius had been Augustine''s friend for nearly forty years, and he was
 
   He records something Augustine had said often, in private conversation: that even after baptism, exemplary
   Christians and priests ought not depart this life without fitting repentance. Then he records what Augustine
-  did with his own rule. He did it himself in the last illness of which he died. He had the shortest penitential Psalms of David copied out, and as he lay sick in bed he looked at the sheets hung on the wall, read them, and wept freely and constantly.
+  did with his own rule. He did it himself in the last illness of which he died. He had the penitential Psalms of David, which are very few, copied out, and as he lay sick in bed he looked at the sheets hung on the wall, read them, and wept freely and constantly.
 
 
   About ten days before the end he asked to be left alone -- Possidius says he asked those of us who were there to let no one in, except when the doctors came to examine him or when food was brought. The request was kept. Until that last illness he had not

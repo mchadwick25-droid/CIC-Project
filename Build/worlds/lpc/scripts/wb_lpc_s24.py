@@ -1011,8 +1011,8 @@ def build_stories() -> None:
         "He records something Augustine had said often, in private conversation: that even after "
         "baptism, exemplary Christians and priests ought not depart this life without fitting "
         "repentance. Then he records what Augustine did with his own rule. He did it himself in "
-        "the last illness of which he died. He had the shortest penitential Psalms of David "
-        "copied out, and as he lay sick in bed he looked at the sheets hung on the wall, read "
+        "the last illness of which he died. He had the penitential Psalms of David, which are "
+        "very few, copied out, and as he lay sick in bed he looked at the sheets hung on the wall, read "
         "them, and wept freely and constantly.\n\n"
         "About ten days before the end he asked to be left alone -- Possidius says he asked those "
         "of us who were there to let no one in, except when the doctors came to examine him or "
@@ -3476,8 +3476,8 @@ def build_host_quotes() -> None:
         "thirteen of his own letters to the clergy at Rome, to show them what he had done while "
         "in hiding. The confessors are those who had confessed Christ before the magistrates.",
         "These thirteen letters show you what I did. I sent them out at different times, and I "
-        "have passed them on to you. In them nothing lacked, as far as my poor abilities "
-        "could strive, with the Lord's help, under the law of faith and fear of God. There was advice to the clergy and encouragement to the confessors. "
+        "have passed them on to you. Nothing was missing from them, as far as my poor "
+        "abilities could manage, with the Lord's help, under the law of faith and fear of God. There was advice to the clergy and encouragement to the confessors. "
         "When it was needed, there was rebuke to the exiles. And there were my appeals to the "
         "whole brotherhood, urging them to beg for God's mercy.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),

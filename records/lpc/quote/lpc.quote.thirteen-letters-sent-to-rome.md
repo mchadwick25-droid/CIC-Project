@@ -42,7 +42,7 @@ modern_lens_note: A modern listener may picture a published book of letters. Cyp
   of his own letters to the clergy at Rome, to show them what he had done while in hiding. The confessors
   are those who had confessed Christ before the magistrates.
 modern_rendering: These thirteen letters show you what I did. I sent them out at different times, and
-  I have passed them on to you. In them nothing lacked, as far as my poor abilities could strive, with
+  I have passed them on to you. Nothing was missing from them, as far as my poor abilities could manage, with
   the Lord's help, under the law of faith and fear of God. There was advice to the clergy and encouragement
   to the confessors. When it was needed, there was rebuke to the exiles. And there were my appeals to
   the whole brotherhood, urging them to beg for God's mercy.
