@@ -375,6 +375,7 @@ jobs:
       - run: python cic/engine/texts_registry.py --check-readme
       - run: python cic/engine/tests_corpus_index.py
       - run: python cic/engine/tests_corpus_structure.py
+      - run: python cic/engine/tests_passage_index.py
       # tests_corpus_map.py fails four checks on the current corpus map. The
       # step is visible but does not block until the map is repaired; the
       # entry dated 2026-09-29 in Build/Ministry/Operations/Standing/

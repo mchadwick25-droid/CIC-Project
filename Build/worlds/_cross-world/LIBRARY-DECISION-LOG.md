@@ -899,3 +899,22 @@ Donatistam, from the same source file, are NOT part of this authorization
 - Romans (npnf111): the preface argues for a date before the Constantinople bishopric ("evidently agrees with Antioch") but allows another place is "just possible". Treated as Antiochene, unchanged. The existing ijc row for Romans Homily XXIII (fleet-sweep file) was not touched.
 - Philemon (npnf113): the preface says the homilies "cannot easily be assigned to any particular date". Unchanged.
 - Hebrews (npnf114): the edition calls him "Archbishop of Constantinople" and says the homilies were published after his death from notes by the presbyter Constantine, but does not say where they were preached. Unchanged. The design thread's reviewer named Hebrews as Constantinople; that needs a source outside the vendored edition before the row changes.
+
+## 2026-10-26 — Passage index built (option A), with the pastor additions that fit the first build
+
+**Ruling.** Mark, 2026-10-26: "Build the passage index now."
+
+**What exists.** `cic/engine/passage_index.py` builds `cic/texts/PASSAGES.sqlite` (derived, gitignored, about two seconds) from the ThML volumes, and `tests_passage_index.py` checks it; the test is a step in the Library validators job. Query: `python cic/engine/passage_index.py "Romans 5:12"`.
+
+**A normaliser was not needed.** CCEL already writes a standard `osisRef` on 99.6% of the 87,090 references, so the index reads that and counts what it cannot read (178 references skipped, reported at build). Vulgate psalm numbering is not mapped: CCEL's own numbering stands.
+
+**Treats and cites stay apart.** A section tagged to a passage by CCEL (a `scripCom` of type Sermon, Commentary or untyped) is TREATS (821 in the corpus). Every other mention, and any `scripCom` CCEL itself types as Citation, is cites (93,321). The index adds no judgment.
+
+**Pastor additions built (items 2 to 7 of the earlier proposal, in part).** Range overlap, so a query for one verse finds homilies tagged to a range around it; whole-chapter and chapter-range queries; language and an "English / no English in this file" flag; the Atlas entries and role the volume is mapped to with each entry's own date window; the work and section title; a verbatim, tag-stripped extract with file and line. Not built: item 1 (lectionary, needs a licence check), item 7 (side-by-side readings, a reader's judgment under the confidence vocabulary), item 8 (situations).
+
+**Two limits found in testing, and what the index does about each.**
+1. A tag names the verses a homily opens with, not everything it covers. Chrysostom's Hebrews homilies are tagged to Hebrews 11:3-4, 11:7 and 11:13-16, and none to 11:1, though a pastor would look there. When no section overlaps, the query lists the nearest tagged sections in the same chapter.
+2. Some volumes carry no section tags for a book, so they cannot show as TREATS even if they are commentaries. Chrysostom on Galatians is the case: Gal 2:11 returns no TREATS line. The query lists such volumes that cite the book heavily, as leads to open and read, never as findings.
+These show the TREATS list is a floor, not the full set. Volumes mapped to a world are shown at volume level, so a volume that holds several works carries all their mappings; the work title is printed beside it.
+
+**Checks.** The test builds the index from the real corpus and, for 20 passages, confirms that every one of up to 60 hits per passage points to a file line whose own tag covers the queried verses. All pass. Plain-text files (1,466) are not indexed here; option B would add a hand-curated passage list for them.
