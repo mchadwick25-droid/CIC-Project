@@ -22482,3 +22482,29 @@ queue:
     verified_by: archive.org item metadata read; text file not fetched, October 2026
     status: not-yet-downloaded
     hold_note: 'not vendored: a modern reprint with no rights statement.'
+
+  - title: "Origenis opera omnia, tomus 6: in Epistolam ad Romanos Commentariorum, books I-V (Rufinus's Latin)"
+    author: "Origen (Rufinus, translator)"
+    translator: "Rufinus of Aquileia; ed. De la Rue and Lommatzsch"
+    year: "1836"
+    world: alexandria-catechetical
+    why: "First item on the question-coverage acquisition list: the Library held only Rufinus's preface and peroration (npnf203)."
+    url: "https://archive.org/details/origenous-ta-heuriskomena-panta-t.-6-1836"
+    rights_basis: "pd-us-by-date"
+    verified_by: "Library thread, 2026-10-26: archive.org /metadata read (Public Domain Mark 1.0 licenseurl, 1836 Berlin imprint); title page and three passages of the OCR read."
+    status: downloaded
+    vendored_as: "origen_commentarii-in-epistolam-ad-romanos-libri-1-5-lat_lommatzsch1836.txt"
+    vendored_note: "vendored; Rufinus's Latin with Lommatzsch's notes; readable OCR with occasional misreadings"
+
+  - title: "Origenis opera omnia, tomus 7: in Epistolam ad Romanos Commentariorum, books VI-X (Rufinus's Latin)"
+    author: "Origen (Rufinus, translator)"
+    translator: "Rufinus of Aquileia; ed. De la Rue and Lommatzsch"
+    year: "1837"
+    world: alexandria-catechetical
+    why: "First item on the question-coverage acquisition list: the Library held only Rufinus's preface and peroration (npnf203)."
+    url: "https://archive.org/details/origenous-ta-heuriskomena-panta-t.-7-1837"
+    rights_basis: "pd-us-by-date"
+    verified_by: "Library thread, 2026-10-26: archive.org /metadata read (Public Domain Mark 1.0 licenseurl, 1837 Berlin imprint); title page and three passages of the OCR read."
+    status: downloaded
+    vendored_as: "origen_commentarii-in-epistolam-ad-romanos-libri-6-10-lat_lommatzsch1837.txt"
+    vendored_note: "vendored; Rufinus's Latin with Lommatzsch's notes; readable OCR with occasional misreadings"

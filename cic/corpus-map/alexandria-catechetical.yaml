@@ -705,6 +705,38 @@ works:
 
     '
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
+- row_id: origen_commentarii-in-epistolam-ad-romanos-libri-1-5-lat_lommatzsch1836--commentary-on-romans-books-i-v
+  work: Commentary on the Epistle to the Romans, Books I to V (Rufinus's Latin)
+  author: origen
+  locus: prefaces from about line 170; Book I running heads from about line 1040, Book V from
+    about line 20960; Lommatzsch's notes on readings close the volume
+  role: tradition
+  confidence: assigned
+  note: 'ORIGINAL-LANGUAGE WITNESS (Latin, with Lommatzsch''s Latin notes), the only rights-clean
+    text of this work; the English translations are in copyright. The Latin is Rufinus''s
+    translation, which his own preface (npnf203) says abridged a Greek commentary of fifteen
+    volumes into ten books, so it is Origen as Rufinus gave him, not Origen verbatim. Any
+    record that cites it must say so and must render the English itself, labelled as a rendering.
+    Origen''s own work, so tradition for the world whose catechetical school he led.
+
+    '
+  source_file: origen_commentarii-in-epistolam-ad-romanos-libri-1-5-lat_lommatzsch1836.txt
+- row_id: origen_commentarii-in-epistolam-ad-romanos-libri-6-10-lat_lommatzsch1837--commentary-on-romans-books-vi-x
+  work: Commentary on the Epistle to the Romans, Books VI to X (Rufinus's Latin)
+  author: origen
+  locus: Book VI running heads from about line 671, Book X from about line 24620; the INDEX
+    begins at about line 30318
+  role: tradition
+  confidence: assigned
+  note: 'ORIGINAL-LANGUAGE WITNESS (Latin, with Lommatzsch''s Latin notes), the only rights-clean
+    text of this work; the English translations are in copyright. The Latin is Rufinus''s
+    translation, which his own preface (npnf203) says abridged a Greek commentary of fifteen
+    volumes into ten books, so it is Origen as Rufinus gave him, not Origen verbatim. Any
+    record that cites it must say so and must render the English itself, labelled as a rendering.
+    Origen''s own work, so tradition for the world whose catechetical school he led.
+
+    '
+  source_file: origen_commentarii-in-epistolam-ad-romanos-libri-6-10-lat_lommatzsch1837.txt
 - row_id: origen_de-oratione-grc_koetschau1899--de-oratione-on-prayer
   work: De Oratione (Περὶ εὐχῆς, On Prayer)
   author: origen
