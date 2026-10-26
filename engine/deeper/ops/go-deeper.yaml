@@ -35,7 +35,6 @@ tester:
   max_tokens: 20000
   default_days: 30
   max_days: 90
-  max_per_day: 2
 coupon:
   max_tokens: 20000
   max_per_day: 20
