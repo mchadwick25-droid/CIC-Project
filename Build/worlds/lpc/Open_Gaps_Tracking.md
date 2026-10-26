@@ -2048,3 +2048,16 @@ Logged 2026-10-26.
   Suicide is safety-adjacent and is governed by the Facilitator, not the voice.
 - **Carried: a passage index.** A per-world index from Bible passage to record is a fleet engine feature, not this world's. It is raised for its own work item.
 - **Owner.** The `lpc` build thread.
+
+### OG-82. OG-81 topics ruled in: full disclosure; OG-80 options put to the project lead (2026-10-26).
+
+Logged 2026-10-26.
+
+- **Ruling.** Records on hell, judgment, the dead, infants and suicide are added, with full disclosure (`lpc_Decision_Log.md`, 2026-10-26). Suicide stays Facilitator-governed. This is a batch for the next session, after or with the commentary-by-passage batch.
+- **OG-80 (UN-22).** Four options were put to the project lead:
+  1. grade new and edited notes now, and register the existing failures as one ACCEPTED_OPEN waiver (recommended);
+  2. grade every note fleet-wide now;
+  3. leave the field ungraded;
+  4. report only.
+  His choice is pending.
+- **Owner.** The `lpc` build thread; OG-80 is the project lead's.
