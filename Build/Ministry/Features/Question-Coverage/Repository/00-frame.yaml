@@ -1,0 +1,44 @@
+# Question Repository v0.1 — frame. Draft in scratchpad; not a repo file.
+# Twelve visitor kinds (accepted by Mark 2026-10-25 as the working frame), seventeen clusters, four flags.
+# C17 split out of C16, C11 and the probe set on Mark's instruction 2026-10-25: questions whose point is to make the voice
+# step out of character, overstate, or invent are system challenges, not content. Moved items keep their birth id and carry moved_from.
+kinds:
+  K1:  {name: "The curious first-timer",                   wants: "To see what this is in under two minutes. Often opens with the biggest question (is God real, who made God, what is the point), not a small one.", voice: "Short, one line, lower-case, no theology words. Search data: the first question is often the largest."}
+  K2:  {name: "The churchgoer checking their own church",  wants: "To know whether what they were taught goes back this far. Catholic, Orthodox, Anglican, Lutheran, Reformed, Baptist, Pentecostal, and Global South churchgoers each ask a different version; the draft is still heaviest in American evangelical idiom (known gap).", voice: "'Did you believe…', 'Is that the same as…', 'Which church today is closest to you?'"}
+  K3:  {name: "The pastor, teacher or group leader",       wants: "A quote, a story, a text to hand on; straight answers on leadership, formation and failure. Also carries their own strain: loneliness, a divided congregation, the cost to family. Includes catechists and classroom teachers, not only preachers.", voice: "'Which of your writings would you put in my hands?'"}
+  K4:  {name: "The student or scholar",                    wants: "Sources, dating, authorship, what is disputed, where the record thins.", voice: "'How do you know that?', names a historian."}
+  K5:  {name: "The person reevaluating or leaving",        wants: "The hard truth first. At least three voices, not one: the drifter who left quietly and was not missed; the wounded, by hypocrisy, abuse, politics or teaching on LGBTQ people; and the questioner who is deconstructing and wants to stay.", voice: "Personal and guarded. Sometimes angry, more often tired or quietly curious."}
+  K6:  {name: "The skeptic",                               wants: "To find the seam: legend, politics, contradiction, science. Most are not combative atheists; most nones are 'nothing in particular' or spiritual, and many hold that you can be good without God.", voice: "Two registers: the pointed 'Isn't it really just…' and the calmer 'I just don't see why you believed it.'"}
+  K7:  {name: "The person of another faith, or none",      wants: "What you thought of people like them, and also what you shared with them or learned from them. Jews, Muslims, Hindus, Buddhists and the spiritual-but-not-religious are different visitors; grievance is one way in, curiosity is another.", voice: "'Would you have tried to convert me?' and 'Was Jesus a prophet to you, or more?'"}
+  K8:  {name: "The grieving or frightened",                wants: "Comfort, or a verdict on someone they love. Often angry at God, or feeling God is not listening; sometimes bereaved by suicide. Not only soft and asking.", voice: "A story about a person, then a question. Sometimes only the story, sometimes an accusation."}
+  K9:  {name: "The seeker who wants to believe",           wants: "A way in, not an argument.", voice: "'I want to…', 'What would you say to me?'"}
+  K10: {name: "The Bible reader with a verse",             wants: "What this world made of one passage.", voice: "A reference or a quoted half-line."}
+  K11: {name: "The history and culture lover",             wants: "Texture: food, buildings, music, famous names in their own words.", voice: "'Is it true that…', 'Tell me about Augustine.'"}
+  K12: {name: "The interrogator of the system",            wants: "To know what they are talking to.", voice: "'What are you, really?'"}
+clusters:
+  C1:  "Jesus"
+  C2:  "God, the Trinity, the Spirit"
+  C3:  "Hell, heaven, judgment, and after death"
+  C4:  "Salvation, grace, works, and 'am I saved'"
+  C5:  "The Bible: which books, how to read it, one verse at a time"
+  C6:  "Authority: who was in charge, popes, councils, tradition"
+  C7:  "Baptism, communion, prayer, worship, confession"
+  C8:  "Women, children, the enslaved, marriage, sex"
+  C9:  "Violence, empire, persecution, martyrs, power used badly"
+  C10: "Money, the poor, work"
+  C11: "Jews, pagans, Muslims, other religions"
+  C12: "Daily life: food, homes, work, clothes, sickness, death"
+  C13: "The devil, demons, miracles, saints, relics"
+  C14: "Suffering, doubt, failure, hypocrisy, leaving"
+  C15: "'What would you say about today?'"
+  C16: "Evidence and sources"
+  C17: "Challenging the system: breaking character, pressing to overstate or invent, 'what are you'"
+flags:
+  FAC:   "Facilitator ground: distress, self-harm, or system-nature. The Representative is silent on that turn."
+  NF:    "Never faced: a modern question the world had no occasion to meet. Needs an honest_limit plus the nearest thing the world did say."
+  VERSE: "Asks about one named passage. Needs a Library index of which vendored homilies and commentaries treat which passages."
+  NAMED: "Asks for a named person's own words. Needs figure and quote records attributed to that person."
+sources:
+  EXISTS:    "Already in the repo: CANON (cell), CURRICULUM, STARTER (world), SITE (world), PROBE (path)."
+  PREDICTED: "Not in the repo; written here in visitor wording."
+  REAL:      "Reported from the pilot or from Mark in person, with date."

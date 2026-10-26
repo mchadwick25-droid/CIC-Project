@@ -1,0 +1,7252 @@
+meta:
+  about: Commentary and homily-series worklist for Eras 3-6 (451-1517). Read-only research, 2026-10-26. Editions from my own knowledge; anything marked unverified
+    was not checked against a host. No downloads, no model calls.
+  method: priority = n_worlds x n_subquestions. n_worlds counts the 90 Era 3-6 worlds in cic/corpus-map/ATLAS-TARGETS.md whose tradition tag matches the work's tradition
+    and whose date window overlaps the work's reception window (composition to last documented use; to 1517 only for school-standard texts), narrowed by hand for
+    regional works. n_subquestions counts ids in 07-subquestions.yaml (129 total) that the books covered can speak to. No Era 3-6 world is built, so the finished
+    gap maps (all Eras 1-2 or 7) were not used. Priority is an upper bound on cells unlocked, not an attested count, and favours Latin works because the Era 3-6 list
+    has more Latin worlds.
+  counts:
+    rows: 119
+    vendored_yes: 8
+    vendored_partial: 11
+    not_vendored: 100
+    pd_english: 17
+    queued: 3
+  worlds_total: 90
+  worlds_with_registry_documents:
+  - rcg
+  - wsyr
+  - hus
+works:
+- rank: 1
+  id: glossa-ordinaria
+  work: Glossa ordinaria (the standard medieval Bible with marginal and interlinear gloss)
+  author: Anselm of Laon's school; Gilbert the Universal; compiled c. 1100-1150
+  era: '5'
+  language: Latin
+  edition: 'Latin: PL 113-114 (Migne 1852-53, wrongly attributed to Walafrid Strabo). Biblia latina cum glossa ordinaria, Strasbourg 1480-81 (printed edition; PD;
+    hosts unverified). English: Mary Dove, Song of Songs, TEAMS 2004 (in copyright)'
+  hosted: 'archive.org (PL 113-114; Strasbourg 1480-81 scans possibly on archive.org or digital libraries: unverified)'
+  licence: PD (1852-53 print and 1480 incunable)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - scandinavian-conversion-christianity
+  - cluniac-reform-monasticism
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  - the-english-mystics-and-devout
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - lollardy
+  - late-medieval-lay-parish-piety
+  - the-hussite-and-bohemian-brethren-movement
+  worlds_with_registry_documents:
+  - hus
+  n_worlds: 26
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C10.S6
+  - C11.S1
+  - C11.S5
+  - C12.S7
+  - C13.S1
+  - C13.S2
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S6
+  - C2.S7
+  - C3.S1
+  - C3.S5
+  - C3.S6
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S5
+  - C7.S6
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  n_subquestions: 63
+  priority: 1638
+  pastor_use: The Bible the way every medieval priest read it; the Gloss on Matthew 16, Romans 9, Psalms and Song
+  caveat: The PL text attributes the Gloss to Walafrid; do not repeat that attribution. The Gloss is a patchwork of Jerome, Augustine, Gregory, Bede and Rabanus,
+    which matters for source fidelity.
+  reception_window:
+  - 1100
+  - 1517
+- rank: 2
+  id: hugh-cher
+  work: Postilla in universam Bibliam
+  author: Hugh of Saint-Cher
+  era: '5'
+  language: Latin
+  edition: 'Latin: Opera omnia in universum Vetus et Novum Testamentum, Venice 1703, 8 vols (edition: fairly confident; host unverified)'
+  hosted: archive.org / Google Books (unverified)
+  licence: PD by date (1703)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  - the-english-mystics-and-devout
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - lollardy
+  - late-medieval-lay-parish-piety
+  - the-hussite-and-bohemian-brethren-movement
+  worlds_with_registry_documents:
+  - hus
+  n_worlds: 24
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C10.S6
+  - C11.S1
+  - C11.S5
+  - C12.S7
+  - C13.S1
+  - C13.S2
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S6
+  - C2.S7
+  - C3.S1
+  - C3.S5
+  - C3.S6
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S5
+  - C7.S6
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  n_subquestions: 63
+  priority: 1512
+  pastor_use: The first complete postil on the whole Bible by a Dominican
+  caveat: Dominican team work; large.
+  reception_window:
+  - 1235
+  - 1517
+- rank: 3
+  id: gorran-etc
+  work: Postillae on the Gospels, Acts and Paul (Nicholas of Gorran); Enarrationes on all Scripture (Dionysius the Carthusian)
+  author: Nicholas of Gorran; Dionysius the Carthusian
+  era: '6'
+  language: Latin
+  edition: 'Gorran: 17th-c. prints (unverified). Dionysius: Opera omnia, Montreuil, Tournai and Parkminster 1896-1935, 42 vols (pre-1931 volumes PD; volume dates
+    unverified)'
+  hosted: archive.org (unverified)
+  licence: mixed by volume
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  - the-english-mystics-and-devout
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - lollardy
+  - late-medieval-lay-parish-piety
+  - the-hussite-and-bohemian-brethren-movement
+  worlds_with_registry_documents:
+  - hus
+  n_worlds: 23
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C10.S6
+  - C11.S1
+  - C11.S5
+  - C12.S7
+  - C13.S1
+  - C13.S2
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S6
+  - C2.S7
+  - C3.S1
+  - C3.S5
+  - C3.S6
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S5
+  - C7.S6
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  n_subquestions: 63
+  priority: 1449
+  pastor_use: Verse-by-verse, scholastic summary for preachers
+  caveat: Check volume years before vendoring Dionysius.
+  reception_window:
+  - 1290
+  - 1517
+- rank: 4
+  id: gregory-hom-gospels
+  work: Homiliae XL in Evangelia
+  author: Gregory the Great
+  era: '3'
+  language: Latin
+  edition: 'Latin: PL 76 (Migne 1849). English: Hurst, Cistercian Studies 123, 1990 (in copyright). An older English translation may exist: unverified'
+  hosted: archive.org / Documenta Catholica Omnia (Latin; item ids not checked)
+  licence: 'Latin PD; English in copyright (older English: unverified)'
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - insular-irish-monastic-christianity
+  - british-welsh-christianity
+  - gothic-and-vandal-homoian-christianity
+  - merovingian-gallic-christianity
+  - early-benedictine-italian-monasticism
+  - latin-africa-under-byzantium
+  - nicene-visigothic-iberia
+  - roman-church-gregorian
+  - anglo-saxon-christianity
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  - scandinavian-conversion-christianity
+  - cluniac-reform-monasticism
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  - the-english-mystics-and-devout
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - lollardy
+  - late-medieval-lay-parish-piety
+  - the-hussite-and-bohemian-brethren-movement
+  worlds_with_registry_documents:
+  - rcg
+  - hus
+  n_worlds: 38
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S5
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C8.S2
+  - C8.S4
+  - C9.S4
+  n_subquestions: 28
+  priority: 1064
+  pastor_use: Sunday and feast Gospel readings (Lazarus and the rich man, the lost sheep, Mary Magdalene, Thomas); a model of a short homily
+  caveat: Delivered 590-593 in Rome churches; used as the lectionary homily book for centuries.
+  reception_window:
+  - 591
+  - 1517
+- rank: 5
+  id: comestor
+  work: Historia scholastica (biblical history with glosses)
+  author: Peter Comestor
+  era: '5'
+  language: Latin
+  edition: 'Latin: PL 198 (Migne 1855)'
+  hosted: archive.org (unverified)
+  licence: PD (1855)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  - the-english-mystics-and-devout
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - lollardy
+  - late-medieval-lay-parish-piety
+  - the-hussite-and-bohemian-brethren-movement
+  worlds_with_registry_documents:
+  - hus
+  n_worlds: 24
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C2.S7
+  - C3.S1
+  - C3.S5
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C9.S4
+  n_subquestions: 38
+  priority: 912
+  pastor_use: Genesis to Acts as a continuous story; the standard medieval Bible textbook
+  caveat: Includes Jewish legends inserted from Josephus and Jerome; mark apocryphal passages.
+  reception_window:
+  - 1170
+  - 1517
+- rank: 6
+  id: bede-gospels
+  work: Commentaries on Mark and Luke; Homiliae in Evangelia (50)
+  author: Bede
+  era: '4'
+  language: Latin
+  edition: 'Latin: Giles, 12 vols, London 1843-44; PL 91-94 (Migne 1850-51). Critical: CCSL 118-122 (in copyright). English: Martin and Hurst, Cistercian Studies
+    110-111, 1991; Lasser, Mark 2008 (in copyright). Only Bede''s Ecclesiastical History is vendored'
+  hosted: archive.org (Giles and PL; ids not checked)
+  licence: Latin PD; English in copyright
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - british-welsh-christianity
+  - anglo-saxon-christianity
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  - scandinavian-conversion-christianity
+  - cluniac-reform-monasticism
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  - the-english-mystics-and-devout
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - lollardy
+  - late-medieval-lay-parish-piety
+  - the-hussite-and-bohemian-brethren-movement
+  worlds_with_registry_documents:
+  - hus
+  n_worlds: 31
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S5
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C8.S2
+  - C8.S4
+  - C9.S4
+  n_subquestions: 28
+  priority: 868
+  pastor_use: Luke (the Good Samaritan, the Magnificat), Mark, Gospel homilies for feasts; clear and short
+  caveat: Vendored Bede is the Ecclesiastical History only. Anglo-Saxon and Carolingian worlds would draw on this for how lay hearers heard the Gospels.
+  reception_window:
+  - 715
+  - 1517
+- rank: 7
+  id: albert
+  work: Commentaries on the four Gospels, Job, Psalms, the Prophets
+  author: Albert the Great
+  era: '5'
+  language: Latin
+  edition: 'Latin: Borgnet, Opera omnia, Paris 1890-99 (PD; volume numbers unverified)'
+  hosted: archive.org (unverified)
+  licence: PD by date
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  - the-english-mystics-and-devout
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - lollardy
+  - late-medieval-lay-parish-piety
+  worlds_with_registry_documents: []
+  n_worlds: 22
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S7
+  - C3.S1
+  - C3.S5
+  - C3.S6
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C8.S2
+  - C8.S4
+  - C9.S4
+  n_subquestions: 39
+  priority: 858
+  pastor_use: Gospels and Job in the Dominican school
+  caveat: Latin only; large.
+  reception_window:
+  - 1250
+  - 1400
+- rank: 8
+  id: anselm-laon
+  work: Glosses on Matthew, John, Paul and the Song; Enarrationes in Cantica
+  author: Anselm of Laon and school
+  era: '5'
+  language: Latin
+  edition: 'Latin: PL 162 (Migne 1854; includes works now doubtful); critical editions in copyright'
+  hosted: archive.org (PL 162; unverified)
+  licence: PD (1854)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - scandinavian-conversion-christianity
+  - cluniac-reform-monasticism
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  worlds_with_registry_documents: []
+  n_worlds: 20
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S6
+  - C11.S1
+  - C11.S5
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C2.S6
+  - C3.S1
+  - C3.S6
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S2
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S3
+  - C9.S4
+  n_subquestions: 41
+  priority: 820
+  pastor_use: Matthew, John, Romans, Song
+  caveat: Many Anselm items in PL are now assigned to pupils or later hands; tag authorship as contested.
+  reception_window:
+  - 1100
+  - 1300
+- rank: 9
+  id: lombard-glossatura
+  work: Magna Glossatura on the Psalms and the Pauline Epistles; Sentences (theology)
+  author: Peter Lombard
+  era: '5'
+  language: Latin
+  edition: 'Latin: PL 191 (Psalms) and 191-192 (Paul) and 192 (Sentences) (Migne 1854-55). English: Silano, Sentences, PIMS 2007-10 (in copyright)'
+  hosted: archive.org (PL 191-192; unverified)
+  licence: Latin PD (1854-55)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  - the-english-mystics-and-devout
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - lollardy
+  - late-medieval-lay-parish-piety
+  - the-hussite-and-bohemian-brethren-movement
+  worlds_with_registry_documents:
+  - hus
+  n_worlds: 24
+  subquestions:
+  - C1.S2
+  - C1.S3
+  - C10.S6
+  - C11.S1
+  - C11.S5
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C2.S3
+  - C2.S4
+  - C3.S6
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S2
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S6
+  - C6.S8
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S3
+  n_subquestions: 34
+  priority: 816
+  pastor_use: Romans and 1 Corinthians (the Gloss on Paul that Aquinas and Luther both used); the Psalms
+  caveat: The brief's 'Sentences gloss' is the Magna Glossatura plus the Sentences. The Sentences are theology, not scripture commentary.
+  reception_window:
+  - 1140
+  - 1517
+- rank: 10
+  id: lyra
+  work: Postillae litteralis et moralis in universam Bibliam (with Additiones of Paul of Burgos)
+  author: Nicholas of Lyra
+  era: '6'
+  language: Latin
+  edition: 'Latin: printed with the Glossa ordinaria, Rome 1471-72; Strasbourg 1492; Venice 1588-1603 (PD; digital scans in several libraries; hosts unverified).
+    English: Krey, Apocalypse, TEAMS 1997 (in copyright)'
+  hosted: archive.org / Google Books (unverified)
+  licence: Latin PD by date
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - carthusian-life
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  - the-english-mystics-and-devout
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - lollardy
+  - late-medieval-lay-parish-piety
+  - the-hussite-and-bohemian-brethren-movement
+  worlds_with_registry_documents:
+  - hus
+  n_worlds: 12
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C10.S6
+  - C11.S1
+  - C11.S5
+  - C12.S7
+  - C13.S1
+  - C13.S2
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S6
+  - C2.S7
+  - C3.S1
+  - C3.S5
+  - C3.S6
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S5
+  - C7.S6
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  n_subquestions: 63
+  priority: 756
+  pastor_use: The literal sense of every book, using Rashi; Luther's favourite medieval guide
+  caveat: The Postilla's literal sense is the most useful for modern readers. Latin only.
+  reception_window:
+  - 1322
+  - 1517
+- rank: 11
+  id: rupert-deutz
+  work: De Trinitate et operibus eius; Commentaries on John, the Song, Minor Prophets, Apocalypse, Matthew
+  author: Rupert of Deutz
+  era: '5'
+  language: Latin
+  edition: 'Latin: PL 167-170 (Migne 1854); CCCM 21-29 (in copyright)'
+  hosted: archive.org (unverified)
+  licence: Latin PD (1854)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  worlds_with_registry_documents: []
+  n_worlds: 18
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S6
+  - C2.S7
+  - C3.S1
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C8.S4
+  - C8.S5
+  - C9.S1
+  - C9.S4
+  - C9.S5
+  n_subquestions: 42
+  priority: 756
+  pastor_use: Genesis through Prophets as one story of salvation; John; the Song read as the Virgin Mary
+  caveat: Latin only. Rupert's Marian Song reading is distinctive and flagged as such.
+  reception_window:
+  - 1110
+  - 1300
+- rank: 12
+  id: cramer-catenae
+  work: Catenae Graecorum Patrum in Novum Testamentum (8 vols)
+  author: J. A. Cramer, ed.; many fathers
+  era: 3-5
+  language: Greek
+  edition: 'Greek: Oxford University Press 1838-44 (edition: confident)'
+  hosted: archive.org (volume ids not checked)
+  licence: PD (1838-44)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - chalcedonian-monasticism-judean-desert-and-gaza
+  - byzantine-imperial-church-justinianic
+  - byzantine-imperial-church-heraclian-iconoclast
+  - melkite-arabic-christianity
+  - iconophile-byzantine-monasticism
+  - byzantine-imperial-church-macedonian
+  - cyrillo-methodian-slavic-christianity
+  - kievan-rus-christianity
+  - athonite-and-comnenian-byzantine-monasticism
+  - byzantine-church-after-1054
+  - kievan-rus-christianity-1054-1240
+  - serbian-and-bulgarian-medieval-monasticism
+  - byzantine-church-palaiologan
+  - hesychasm-and-the-palamite-synthesis
+  - muscovite-monastic-christianity
+  worlds_with_registry_documents: []
+  n_worlds: 15
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S3
+  - C10.S4
+  - C10.S6
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C14.S1
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S5
+  - C3.S6
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S2
+  - C5.S5
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S5
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  n_subquestions: 50
+  priority: 750
+  pastor_use: Verse-by-verse NT commentary built from named fathers; every NT book
+  caveat: Greek only and unindexed; best used with Chrysostom, Cyril and Theodoret already vendored. A quote record can cite the named father inside the catena.
+  reception_window:
+  - 500
+  - 1517
+- rank: 13
+  id: bruno-segni
+  work: Commentaries on the Pentateuch, Job, Psalms, Song, Isaiah, Gospels, Apocalypse
+  author: Bruno of Segni
+  era: '5'
+  language: Latin
+  edition: 'Latin: PL 164-165 (Migne 1854)'
+  hosted: archive.org (unverified)
+  licence: PD (1854)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - scandinavian-conversion-christianity
+  - cluniac-reform-monasticism
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  worlds_with_registry_documents: []
+  n_worlds: 15
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S6
+  - C2.S7
+  - C3.S1
+  - C3.S5
+  - C3.S6
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C5.S5
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C8.S5
+  - C9.S1
+  - C9.S4
+  - C9.S5
+  n_subquestions: 46
+  priority: 690
+  pastor_use: The Gregorian-reform bishop's readings of Job, John and Revelation
+  caveat: Gregorian reform voice; also served the papal-reform world directly.
+  reception_window:
+  - 1095
+  - 1250
+- rank: 14
+  id: bruno-carthusian
+  work: Expositio in Psalmos; Commentary on the Pauline Epistles
+  author: Bruno the Carthusian (attribution disputed)
+  era: '5'
+  language: Latin
+  edition: 'Latin: PL 152-153 (Migne 1853)'
+  hosted: archive.org (unverified)
+  licence: PD (1853)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - scandinavian-conversion-christianity
+  - cluniac-reform-monasticism
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  worlds_with_registry_documents: []
+  n_worlds: 20
+  subquestions:
+  - C1.S2
+  - C1.S3
+  - C10.S6
+  - C11.S1
+  - C11.S5
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C2.S3
+  - C2.S4
+  - C3.S6
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S2
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S6
+  - C6.S8
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S3
+  n_subquestions: 34
+  priority: 680
+  pastor_use: Psalms and Romans
+  caveat: Authorship of the Pauline commentary is now often given to a later Bruno-circle writer; mark contested.
+  reception_window:
+  - 1090
+  - 1300
+- rank: 15
+  id: aquinas-catena
+  work: Catena Aurea (continuous commentary on the four Gospels from the fathers)
+  author: Thomas Aquinas
+  era: '5'
+  language: Latin; English
+  edition: 'English: J. H. Newman (ed.), Oxford 1841-45, 4 vols (edition: confident). Latin: Parma 1852-73 (PD)'
+  hosted: CCEL (ccel.org) and archive.org (I am fairly confident; ids not checked)
+  licence: PD (1841-45)
+  english_pd: EN-PD
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  - the-english-mystics-and-devout
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - lollardy
+  - late-medieval-lay-parish-piety
+  - the-hussite-and-bohemian-brethren-movement
+  worlds_with_registry_documents:
+  - hus
+  n_worlds: 23
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S5
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C8.S2
+  - C8.S4
+  - C9.S4
+  n_subquestions: 28
+  priority: 644
+  pastor_use: Every Gospel verse with patristic comments attached by name; Matthew 5-7, Luke 15, John 1 and 6
+  caveat: Best PD English commentary on this list. Each extract names its father, so quote records can verify against the father's work in the Library. Newman's text
+    sometimes smooths the Latin.
+  reception_window:
+  - 1265
+  - 1517
+- rank: 16
+  id: aquinas-romans
+  work: Super Epistolam ad Romanos lectura (and other Pauline commentaries)
+  author: Thomas Aquinas
+  era: '5'
+  language: Latin
+  edition: 'Latin: Parma 1852-73 (PD; volume unverified). English: Larcher, Magi Books 1966 (in copyright)'
+  hosted: archive.org (Parma; unverified)
+  licence: Latin PD
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  - the-english-mystics-and-devout
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - lollardy
+  - late-medieval-lay-parish-piety
+  - the-hussite-and-bohemian-brethren-movement
+  worlds_with_registry_documents:
+  - hus
+  n_worlds: 23
+  subquestions:
+  - C1.S2
+  - C10.S6
+  - C11.S1
+  - C11.S5
+  - C2.S3
+  - C2.S4
+  - C3.S6
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S6
+  - C6.S8
+  - C7.S2
+  - C7.S4
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S3
+  n_subquestions: 26
+  priority: 598
+  pastor_use: Romans 1-11 (predestination, justification), 1 Corinthians, Galatians, Hebrews
+  caveat: Latin only in PD.
+  reception_window:
+  - 1270
+  - 1517
+- rank: 17
+  id: hugh-victor
+  work: Notes on the Octateuch and Psalms; Homilies on Ecclesiastes; De arca Noe; Didascalicon
+  author: Hugh of Saint Victor
+  era: '5'
+  language: Latin
+  edition: 'Latin: PL 175-177 (Migne 1854). English of the Didascalicon: Taylor 1961 (in copyright)'
+  hosted: archive.org (unverified)
+  licence: Latin PD (1854)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  - the-english-mystics-and-devout
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - lollardy
+  - late-medieval-lay-parish-piety
+  worlds_with_registry_documents: []
+  n_worlds: 23
+  subquestions:
+  - C1.S3
+  - C10.S1
+  - C10.S5
+  - C11.S1
+  - C12.S7
+  - C13.S1
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S8
+  - C2.S7
+  - C4.S2
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C8.S4
+  n_subquestions: 24
+  priority: 552
+  pastor_use: Genesis 6-9 (Noah's ark as the Church and the soul), Ecclesiastes; Hugh's rule 'learn the story first, then allegory'
+  caveat: The Didascalicon is the key text for how the Victorines read Scripture (C5.S2).
+  reception_window:
+  - 1125
+  - 1400
+- rank: 18
+  id: hildegard
+  work: Expositiones evangeliorum (homilies on the Gospels)
+  author: Hildegard of Bingen
+  era: '5'
+  language: Latin
+  edition: 'Latin: PL 197 (Migne 1855); CCCM 226 (2007, in copyright)'
+  hosted: archive.org (PL 197; unverified)
+  licence: Latin PD (1855)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  worlds_with_registry_documents: []
+  n_worlds: 18
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S5
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C8.S1
+  - C8.S2
+  - C8.S4
+  - C9.S4
+  n_subquestions: 29
+  priority: 522
+  pastor_use: Gospel readings from a woman abbess's pulpit in the monastery
+  caveat: 'Rare: a woman''s own commentary voice (C8.S1). Latin only.'
+  reception_window:
+  - 1160
+  - 1300
+- rank: 19
+  id: haymo
+  work: Commentaries on Isaiah, the Minor Prophets, the Pauline Epistles, Revelation; Homilies on the Gospels
+  author: Haymo (of Auxerre or Halberstadt)
+  era: '4'
+  language: Latin
+  edition: 'Latin: PL 116-118 (Migne 1852-53)'
+  hosted: archive.org (ids not checked)
+  licence: PD
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  - scandinavian-conversion-christianity
+  - cluniac-reform-monasticism
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  worlds_with_registry_documents: []
+  n_worlds: 11
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C10.S6
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S5
+  - C3.S6
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S2
+  - C5.S5
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  n_subquestions: 47
+  priority: 517
+  pastor_use: Paul's letters and the Sunday Gospels, short Carolingian notes
+  caveat: Authorship muddled in PL (two Haymos); mark contested.
+  reception_window:
+  - 840
+  - 1150
+- rank: 20
+  id: bede-ot
+  work: Commentaries on Genesis, the Tabernacle, Samuel, Ezra-Nehemiah, Tobit, Proverbs, the Song
+  author: Bede
+  era: '4'
+  language: Latin
+  edition: 'Latin: Giles 1843-44; PL 91 (Migne 1850). English: Kendall, TTH 48 (2008); Holder, TTH 18 (1994) (in copyright)'
+  hosted: archive.org (ids not checked)
+  licence: Latin PD; English in copyright
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - british-welsh-christianity
+  - nicene-visigothic-iberia
+  - anglo-saxon-christianity
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  - scandinavian-conversion-christianity
+  - cluniac-reform-monasticism
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  worlds_with_registry_documents: []
+  n_worlds: 26
+  subquestions:
+  - C10.S1
+  - C10.S5
+  - C11.S1
+  - C12.S7
+  - C13.S1
+  - C14.S4
+  - C14.S8
+  - C2.S6
+  - C2.S7
+  - C4.S2
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C5.S8
+  - C7.S4
+  - C7.S6
+  - C8.S4
+  - C8.S5
+  n_subquestions: 19
+  priority: 494
+  pastor_use: Genesis 1-11, the Tabernacle (Exodus 25-40), Ezra-Nehemiah; temple and rebuilding images for church planting
+  caveat: Latin only in PD. Bede is the main Latin exegete of Anglo-Saxon England.
+  reception_window:
+  - 700
+  - 1300
+- rank: 21
+  id: honorius
+  work: Expositio in Cantica; Selectorum psalmorum expositio; Speculum ecclesiae (sermons)
+  author: Honorius Augustodunensis
+  era: '5'
+  language: Latin
+  edition: 'Latin: PL 172 (Migne 1854)'
+  hosted: archive.org (unverified)
+  licence: PD
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  worlds_with_registry_documents: []
+  n_worlds: 13
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S2
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C2.S3
+  - C2.S4
+  - C2.S6
+  - C3.S1
+  - C3.S5
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C8.S2
+  - C8.S4
+  - C8.S5
+  - C9.S4
+  n_subquestions: 37
+  priority: 481
+  pastor_use: Song of Songs, Sunday Gospels in the Speculum Ecclesiae
+  caveat: Speculum Ecclesiae is a lay-readable sermon book.
+  reception_window:
+  - 1120
+  - 1250
+- rank: 22
+  id: bede-acts-rev
+  work: Expositio in Acts, Catholic Epistles, Revelation
+  author: Bede
+  era: '4'
+  language: Latin
+  edition: 'Latin: Giles 1843-44; PL 92 (Migne 1851). English: Martin 1989; Hurst 1985; Wallis, TTH 58, 2013 (in copyright)'
+  hosted: archive.org (ids not checked)
+  licence: Latin PD; English in copyright
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - british-welsh-christianity
+  - nicene-visigothic-iberia
+  - anglo-saxon-christianity
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  - scandinavian-conversion-christianity
+  - cluniac-reform-monasticism
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  worlds_with_registry_documents: []
+  n_worlds: 26
+  subquestions:
+  - C10.S1
+  - C10.S3
+  - C13.S1
+  - C14.S1
+  - C2.S4
+  - C3.S1
+  - C3.S8
+  - C4.S1
+  - C5.S2
+  - C5.S5
+  - C5.S8
+  - C6.S1
+  - C6.S3
+  - C7.S1
+  - C7.S5
+  - C9.S1
+  - C9.S5
+  n_subquestions: 17
+  priority: 442
+  pastor_use: Acts 1-15, James (faith and works), 1 Peter, Revelation 1-3
+  caveat: Latin only in PD.
+  reception_window:
+  - 710
+  - 1300
+- rank: 23
+  id: aquinas-matthew
+  work: Lectura super Matthaeum
+  author: Thomas Aquinas
+  era: '5'
+  language: Latin
+  edition: 'Latin: Parma 1852-73 (PD; volume unverified); Marietti 1951 (in copyright). English: Kimball, Dolorosa 2012 (in copyright)'
+  hosted: archive.org (Parma; unverified); corpusthomisticum.org (Latin, free use not PD)
+  licence: Latin PD (Parma); modern editions in copyright
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  - the-english-mystics-and-devout
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - lollardy
+  - late-medieval-lay-parish-piety
+  - the-hussite-and-bohemian-brethren-movement
+  worlds_with_registry_documents:
+  - hus
+  n_worlds: 23
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C11.S1
+  - C13.S2
+  - C3.S1
+  - C3.S8
+  - C4.S1
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S3
+  - C8.S4
+  - C9.S4
+  n_subquestions: 19
+  priority: 437
+  pastor_use: Matthew 5-7 (Beatitudes, Our Father), 16, 24-25
+  caveat: Reportatio by students; Latin only in PD.
+  reception_window:
+  - 1270
+  - 1517
+- rank: 24
+  id: erasmus
+  work: Novum Instrumentum with Annotations (1516); Paraphrase on Romans (1517)
+  author: Desiderius Erasmus
+  era: '6'
+  language: Latin and Greek
+  edition: '1516 Basel: Froben (PD; scanned copies in e-rara and others; host unverified). Opera omnia, Leiden 1703-06, vol. 6 (PD). English: CWE 56 and later (in
+    copyright); Udall''s 1548 Paraphrases (PD)'
+  hosted: e-rara.ch / archive.org (unverified)
+  licence: Latin and Greek PD; English CWE in copyright
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - carthusian-life
+  - franciscan-order-era-6
+  - latin-papal-church-avignon-to-lateran-v
+  - waldensians-in-the-alps
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - lollardy
+  - late-medieval-lay-parish-piety
+  - the-hussite-and-bohemian-brethren-movement
+  worlds_with_registry_documents:
+  - hus
+  n_worlds: 9
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S3
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S6
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S5
+  - C5.S6
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C8.S2
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  n_subquestions: 47
+  priority: 423
+  pastor_use: 'Matthew 16, Romans 5, Hebrews 2: notes on the Greek text and Vulgate errors'
+  caveat: Era 6 cuts off in 1517, so only the 1516 Annotations and the 1517 Romans Paraphrase belong here; the rest is Era 7.
+  reception_window:
+  - 1516
+  - 1517
+- rank: 25
+  id: rabanus-matt-paul
+  work: Commentary on Matthew (8 books) and on the Pauline Epistles; Allegoriae in Sacram Scripturam
+  author: Rabanus Maurus
+  era: '4'
+  language: Latin
+  edition: 'Latin: PL 107, 111-112 (Migne 1851-52)'
+  hosted: archive.org (ids not checked)
+  licence: PD
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  - scandinavian-conversion-christianity
+  - cluniac-reform-monasticism
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  worlds_with_registry_documents: []
+  n_worlds: 11
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S6
+  - C11.S1
+  - C11.S5
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S6
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S6
+  - C6.S8
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S3
+  - C9.S4
+  n_subquestions: 38
+  priority: 418
+  pastor_use: Matthew 5-7, 16, 19, 25; Romans and 1 Corinthians
+  caveat: Latin only.
+  reception_window:
+  - 830
+  - 1150
+- rank: 26
+  id: cassiodorus-complexiones
+  work: Complexiones in Epistolas apostolorum, Actus et Apocalypsin
+  author: Cassiodorus
+  era: '3'
+  language: Latin
+  edition: 'Latin: PL 70 col. 1321 ff (Migne 1847, the vendored file)'
+  hosted: Vendored
+  licence: PD (1847)
+  english_pd: no PD English
+  already_vendored: partial
+  vendored_files: cassiodorus_opera-institutiones-pl70-lat_migne1847.txt
+  queued: false
+  worlds_served:
+  - insular-irish-monastic-christianity
+  - british-welsh-christianity
+  - gothic-and-vandal-homoian-christianity
+  - merovingian-gallic-christianity
+  - early-benedictine-italian-monasticism
+  - latin-africa-under-byzantium
+  - nicene-visigothic-iberia
+  - roman-church-gregorian
+  - anglo-saxon-christianity
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  worlds_with_registry_documents:
+  - rcg
+  n_worlds: 12
+  subquestions:
+  - C10.S1
+  - C10.S3
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C14.S1
+  - C2.S4
+  - C3.S1
+  - C3.S6
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C5.S2
+  - C5.S5
+  - C5.S8
+  - C6.S1
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S4
+  - C7.S5
+  - C8.S2
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S1
+  - C9.S3
+  - C9.S5
+  n_subquestions: 34
+  priority: 408
+  pastor_use: Brief summaries of each NT letter, Acts and Revelation; a quick chapter map
+  caveat: Short notes, not a full commentary. Mapped only to early-benedictine.
+  reception_window:
+  - 560
+  - 800
+- rank: 27
+  id: carolingian-paul
+  work: 'Pauline and Matthew compilations: Claudius of Turin, Sedulius Scottus, Florus of Lyon, Christian of Stavelot'
+  author: Carolingian compilers
+  era: '4'
+  language: Latin
+  edition: 'Latin: Claudius PL 104; Sedulius PL 103; Florus PL 119; Christian PL 106 (Migne 1851-52)'
+  hosted: archive.org (ids not checked)
+  licence: PD
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  - scandinavian-conversion-christianity
+  - cluniac-reform-monasticism
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  worlds_with_registry_documents: []
+  n_worlds: 9
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S6
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C2.S7
+  - C3.S1
+  - C3.S6
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S6
+  - C6.S8
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S3
+  - C9.S4
+  n_subquestions: 43
+  priority: 387
+  pastor_use: Romans, Galatians, Genesis
+  caveat: Florus's work is Augustine on Paul in excerpts, so the voice is Augustine's. Claudius of Turin was accused of iconoclasm; tag when quoting.
+  reception_window:
+  - 815
+  - 1100
+- rank: 28
+  id: abelard-romans
+  work: Expositio in Epistolam ad Romanos; Hexaemeron
+  author: Peter Abelard
+  era: '5'
+  language: Latin
+  edition: 'Latin: PL 178 (Migne 1855); CCCM 11 (Buytaert 1969, in copyright). English: Cartwright, FOTC Mediaeval Continuation 12 (2011, in copyright)'
+  hosted: archive.org (unverified)
+  licence: Latin PD
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  - the-english-mystics-and-devout
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - lollardy
+  - late-medieval-lay-parish-piety
+  - the-hussite-and-bohemian-brethren-movement
+  worlds_with_registry_documents:
+  - hus
+  n_worlds: 24
+  subquestions:
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C2.S7
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S8
+  - C8.S6
+  - C9.S3
+  n_subquestions: 16
+  priority: 384
+  pastor_use: Romans 3:19-26 on the cross as love (moral influence); Romans 5 on original sin
+  caveat: Condemned views; tag contested. Latin only.
+  reception_window:
+  - 1135
+  - 1517
+- rank: 29
+  id: eugippius
+  work: Excerpta ex operibus S. Augustini (a catena of Augustine)
+  author: Eugippius
+  era: '3'
+  language: Latin
+  edition: 'Latin: Pius Knoell, CSEL 9, Vienna 1885 (edition: confident; host unverified)'
+  hosted: archive.org (unverified)
+  licence: PD by date (1885)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - insular-irish-monastic-christianity
+  - british-welsh-christianity
+  - gothic-and-vandal-homoian-christianity
+  - merovingian-gallic-christianity
+  - early-benedictine-italian-monasticism
+  - latin-africa-under-byzantium
+  - nicene-visigothic-iberia
+  - roman-church-gregorian
+  - anglo-saxon-christianity
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  worlds_with_registry_documents:
+  - rcg
+  n_worlds: 12
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C2.S3
+  - C2.S4
+  - C2.S7
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C5.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C8.S6
+  - C9.S3
+  n_subquestions: 31
+  priority: 372
+  pastor_use: Augustine on grace, Romans and the Psalms in 338 short extracts; useful because it is Augustine in the 6th-century voice
+  caveat: The Life of Severinus by Eugippius is vendored; this is a different work.
+  reception_window:
+  - 511
+  - 800
+- rank: 30
+  id: smaragdus
+  work: Expositio libri comitis (readings for Epistles and Gospels); Collectiones in epistolas et evangelia
+  author: Smaragdus of Saint-Mihiel
+  era: '4'
+  language: Latin
+  edition: 'Latin: PL 102 (Migne 1851)'
+  hosted: archive.org (ids not checked)
+  licence: PD
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  - scandinavian-conversion-christianity
+  - cluniac-reform-monasticism
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  worlds_with_registry_documents: []
+  n_worlds: 9
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S5
+  - C3.S6
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C8.S2
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S3
+  - C9.S4
+  n_subquestions: 39
+  priority: 351
+  pastor_use: Notes on the Mass lectionary, Sunday by Sunday, in a priest's handbook
+  caveat: Short; useful to a pastor as a lectionary guide.
+  reception_window:
+  - 810
+  - 1100
+- rank: 31
+  id: oecumenius-catena-paul
+  work: Catena on Acts, the Pauline and Catholic Epistles
+  author: Pseudo-Oecumenius (Oecumenius of Tricca, 10th c.)
+  era: '4'
+  language: Greek
+  edition: 'Greek and Latin: PG 118-119 (Migne 1864)'
+  hosted: archive.org (unverified)
+  licence: PD (1864)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - melkite-arabic-christianity
+  - byzantine-imperial-church-macedonian
+  - kievan-rus-christianity
+  - athonite-and-comnenian-byzantine-monasticism
+  - byzantine-church-after-1054
+  - kievan-rus-christianity-1054-1240
+  - serbian-and-bulgarian-medieval-monasticism
+  - byzantine-church-palaiologan
+  - hesychasm-and-the-palamite-synthesis
+  - muscovite-monastic-christianity
+  worlds_with_registry_documents: []
+  n_worlds: 10
+  subquestions:
+  - C1.S2
+  - C10.S1
+  - C10.S3
+  - C10.S6
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C14.S1
+  - C2.S3
+  - C2.S4
+  - C3.S6
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S4
+  - C7.S5
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S1
+  - C9.S3
+  n_subquestions: 34
+  priority: 340
+  pastor_use: Romans through Hebrews and James-Jude, with named fathers quoted verse by verse
+  caveat: Catena; attribution to the Revelation commentator is wrong.
+  reception_window:
+  - 950
+  - 1517
+- rank: 32
+  id: pseudo-primasius-paul
+  work: Commentaria in Epistolas Pauli
+  author: Pseudo-Primasius (Pelagian base text, revised c. 6th c.)
+  era: '3'
+  language: Latin
+  edition: 'Latin: PL 68 col. 415 ff (Migne 1866, the vendored file)'
+  hosted: Vendored (raw OCR)
+  licence: PD (1866)
+  english_pd: no PD English
+  already_vendored: partial
+  vendored_files: liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt
+  queued: false
+  worlds_served:
+  - insular-irish-monastic-christianity
+  - british-welsh-christianity
+  - gothic-and-vandal-homoian-christianity
+  - merovingian-gallic-christianity
+  - early-benedictine-italian-monasticism
+  - latin-africa-under-byzantium
+  - nicene-visigothic-iberia
+  - roman-church-gregorian
+  - anglo-saxon-christianity
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  - scandinavian-conversion-christianity
+  worlds_with_registry_documents:
+  - rcg
+  n_worlds: 13
+  subquestions:
+  - C1.S2
+  - C10.S6
+  - C11.S1
+  - C11.S5
+  - C2.S3
+  - C2.S4
+  - C3.S6
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S6
+  - C6.S8
+  - C7.S2
+  - C7.S4
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S3
+  n_subquestions: 26
+  priority: 338
+  pastor_use: Romans 3-9 (faith and works, election), 1 Corinthians 11-15, Galatians
+  caveat: Attribution to Primasius is old and false; underlying text derives from Pelagius, so doctrinal quotes need a contested_claim tag. Latin only.
+  reception_window:
+  - 520
+  - 900
+- rank: 33
+  id: theophylact
+  work: Enarrationes on the four Gospels, Acts, Pauline and Catholic Epistles, and four Minor Prophets
+  author: Theophylact of Ohrid
+  era: '5'
+  language: Greek
+  edition: 'Greek and Latin: PG 123-126 (Migne 1864). English: Chrysostomos Stavropoulos, Chrysostom Press 1992-2007 (in copyright)'
+  hosted: archive.org and Google Books (PG 123-126; item ids not checked)
+  licence: Greek and Latin PD (1864); English in copyright
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - athonite-and-comnenian-byzantine-monasticism
+  - byzantine-church-after-1054
+  - kievan-rus-christianity-1054-1240
+  - serbian-and-bulgarian-medieval-monasticism
+  - byzantine-church-palaiologan
+  - hesychasm-and-the-palamite-synthesis
+  - muscovite-monastic-christianity
+  worlds_with_registry_documents: []
+  n_worlds: 7
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S3
+  - C10.S4
+  - C10.S6
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C14.S1
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S5
+  - C3.S6
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S5
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  n_subquestions: 47
+  priority: 329
+  pastor_use: Every Sunday Gospel; Romans, 1 Corinthians, Hebrews; a clear Byzantine commentary a pastor can follow
+  caveat: Mostly Chrysostom made shorter, so it adds the Byzantine shape rather than new readings. Strong in the Slavic world through translations.
+  reception_window:
+  - 1090
+  - 1517
+- rank: 34
+  id: aquinas-psalms-prophets
+  work: Postilla super Psalmos (1-54); Super Isaiam; Super Ieremiam et Threnos
+  author: Thomas Aquinas
+  era: '5'
+  language: Latin
+  edition: 'Latin: Parma 1852-73 (PD; volume unverified)'
+  hosted: archive.org (Parma; unverified)
+  licence: Latin PD
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  - the-english-mystics-and-devout
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - lollardy
+  - late-medieval-lay-parish-piety
+  - the-hussite-and-bohemian-brethren-movement
+  worlds_with_registry_documents:
+  - hus
+  n_worlds: 23
+  subquestions:
+  - C1.S2
+  - C1.S3
+  - C10.S4
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C2.S2
+  - C3.S8
+  - C5.S2
+  - C5.S7
+  - C5.S8
+  - C7.S3
+  - C7.S4
+  n_subquestions: 14
+  priority: 322
+  pastor_use: Psalms 1-54 including the penitential psalms; Isaiah 7, 53; Lamentations
+  caveat: Psalm commentary is incomplete in Thomas's own work.
+  reception_window:
+  - 1270
+  - 1517
+- rank: 35
+  id: richard-victor
+  work: In Apocalypsim; Explanatio in Cantica; De Emmanuele
+  author: Richard of Saint Victor
+  era: '5'
+  language: Latin
+  edition: 'Latin: PL 196 (Migne 1855). English: Zinn 1979 (in copyright)'
+  hosted: archive.org (unverified)
+  licence: Latin PD (1855)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  - the-english-mystics-and-devout
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - lollardy
+  - late-medieval-lay-parish-piety
+  worlds_with_registry_documents: []
+  n_worlds: 23
+  subquestions:
+  - C1.S2
+  - C1.S3
+  - C10.S4
+  - C13.S1
+  - C2.S2
+  - C2.S6
+  - C3.S1
+  - C3.S8
+  - C5.S2
+  - C5.S5
+  - C5.S8
+  - C8.S5
+  - C9.S1
+  - C9.S5
+  n_subquestions: 14
+  priority: 322
+  pastor_use: Revelation 4-5, Song of Songs
+  caveat: Latin only.
+  reception_window:
+  - 1160
+  - 1400
+- rank: 36
+  id: philoxenus-comm
+  work: Commentary on the Prologue of John; fragments on Matthew and Luke
+  author: Philoxenus of Mabbug
+  era: '3'
+  language: Syriac
+  edition: de Halleux, CSCO 380-381, 1977; Watt, CSCO 392-393, 1978 (in copyright). Budge 1894 (Discourses, vendored) is a different work
+  hosted: not freely hosted
+  licence: in copyright
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - cyrilline-miaphysite-egyptian-christianity
+  - syriac-orthodox-west-syriac-christianity
+  - nubian-christianity
+  - coptic-christianity-under-early-islam
+  - syriac-orthodox-under-islam
+  - makurian-nubian-christianity
+  - coptic-christianity-fatimid-to-mamluk
+  - syriac-renaissance
+  - maronite-christianity
+  - terminal-christian-nubia
+  - maronite-christianity-era-6
+  worlds_with_registry_documents:
+  - wsyr
+  n_worlds: 11
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S5
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C8.S2
+  - C8.S4
+  - C9.S4
+  n_subquestions: 28
+  priority: 308
+  pastor_use: John 1:1-18 on the Word made flesh
+  caveat: No PD edition. Vendored Discourses are ascetic homilies, so do not count as a commentary.
+  reception_window:
+  - 500
+  - 1517
+- rank: 37
+  id: ibn-tayyib
+  work: Commentary on the Gospels; Commentary on Genesis
+  author: Ibn at-Tayyib
+  era: '4'
+  language: Arabic
+  edition: 'Genesis: J. C. J. Sanders, CSCO 274-275, 1967 (in copyright). Gospels (Tafsir al-Mashriqi): modern Arabic edition, unverified (in copyright likely)'
+  hosted: not freely hosted
+  licence: in copyright
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - makurian-nubian-christianity
+  - st-thomas-christians-of-india
+  - coptic-christianity-fatimid-to-mamluk
+  - maronite-christianity
+  - church-of-the-east-under-the-mongols
+  - terminal-christian-nubia
+  - maronite-christianity-era-6
+  - st-thomas-christians-1300-1517
+  - church-of-the-east-timur-to-hakkari
+  worlds_with_registry_documents: []
+  n_worlds: 9
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C2.S7
+  - C3.S1
+  - C3.S5
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C8.S2
+  - C8.S4
+  - C9.S4
+  n_subquestions: 34
+  priority: 306
+  pastor_use: Gospel commentary from Baghdad's East Syriac physician-scholar
+  caveat: No PD text identified. Do not list as acquirable. Flagged because the brief names it.
+  reception_window:
+  - 1030
+  - 1517
+- rank: 38
+  id: lefevre
+  work: Epistolae Pauli apostoli cum commentariis; Quincuplex Psalterium
+  author: Jacques Lefevre d'Etaples
+  era: '6'
+  language: Latin
+  edition: 'Latin: Paris, Henri Estienne 1512 (Pauline commentary); 1509 (Psalter) (PD by date; scans in library digital collections, host unverified)'
+  hosted: Google Books / e-rara / archive.org (unverified)
+  licence: PD by date
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - carthusian-life
+  - franciscan-order-era-6
+  - latin-papal-church-avignon-to-lateran-v
+  - waldensians-in-the-alps
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - lollardy
+  - late-medieval-lay-parish-piety
+  - the-hussite-and-bohemian-brethren-movement
+  worlds_with_registry_documents:
+  - hus
+  n_worlds: 9
+  subquestions:
+  - C1.S2
+  - C1.S3
+  - C10.S6
+  - C11.S1
+  - C11.S5
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C2.S3
+  - C2.S4
+  - C3.S6
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S2
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S6
+  - C6.S8
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S3
+  n_subquestions: 34
+  priority: 306
+  pastor_use: Romans on justification by faith, five years before the Reformation
+  caveat: Window is short (1509-1517); the larger audience is Era 7.
+  reception_window:
+  - 1509
+  - 1517
+- rank: 39
+  id: gregory-moralia
+  work: Moralia in Job (35 books)
+  author: Gregory the Great
+  era: '3'
+  language: Latin original; English
+  edition: 'English: translator attributed to James Bliss in the vendored file names; Library of the Fathers, Oxford 1844-50 (volume numbers unverified; the vendored
+    text). Latin: PL 75-76 (Migne 1849)'
+  hosted: Vendored (4 files). PL also on archive.org
+  licence: PD (Public Domain, published 1844-50)
+  english_pd: EN-PD
+  already_vendored: 'yes'
+  vendored_files: gregory-great_moralia-in-job-books-i-x_bliss1844.txt and 3 more
+  queued: false
+  worlds_served:
+  - insular-irish-monastic-christianity
+  - british-welsh-christianity
+  - gothic-and-vandal-homoian-christianity
+  - merovingian-gallic-christianity
+  - early-benedictine-italian-monasticism
+  - latin-africa-under-byzantium
+  - nicene-visigothic-iberia
+  - roman-church-gregorian
+  - anglo-saxon-christianity
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  - scandinavian-conversion-christianity
+  - cluniac-reform-monasticism
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  - the-english-mystics-and-devout
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - lollardy
+  - late-medieval-lay-parish-piety
+  - the-hussite-and-bohemian-brethren-movement
+  worlds_with_registry_documents:
+  - rcg
+  - hus
+  n_worlds: 38
+  subquestions:
+  - C13.S1
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C2.S2
+  - C2.S7
+  - C3.S6
+  - C5.S8
+  n_subquestions: 8
+  priority: 304
+  pastor_use: Job (suffering, patience, the Satan scenes, Job 19 'I know my Redeemer lives'); the standard medieval pastoral reading of Job
+  caveat: Moral and allegorical reading, not literal. Roman world rcg Doc_02 records three of four volumes as unread. Not cited by any record.
+  reception_window:
+  - 595
+  - 1517
+- rank: 40
+  id: maximus-quaestiones
+  work: Quaestiones ad Thalassium; Quaestiones et dubia; Expositio orationis dominicae; Ambigua
+  author: Maximus the Confessor
+  era: '4'
+  language: Greek
+  edition: 'Greek and Latin: PG 90-91 (Migne 1860; both volumes are in the Library). CCSG 7, 22 (Laga and Steel, in copyright). English: Constas, DOML 28-29, 2014
+    (in copyright)'
+  hosted: Vendored (raw OCR)
+  licence: PD (1860); English in copyright
+  english_pd: no PD English
+  already_vendored: partial
+  vendored_files: maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90.txt and maximus-confessor_disputatio-cum-pyrrho-pg91-grc-lat_migne1860.txt
+  queued: false
+  worlds_served:
+  - byzantine-imperial-church-heraclian-iconoclast
+  - melkite-arabic-christianity
+  - iconophile-byzantine-monasticism
+  - byzantine-imperial-church-macedonian
+  - athonite-and-comnenian-byzantine-monasticism
+  - byzantine-church-after-1054
+  - byzantine-church-palaiologan
+  - hesychasm-and-the-palamite-synthesis
+  worlds_with_registry_documents: []
+  n_worlds: 8
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C2.S7
+  - C3.S1
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S3
+  - C7.S4
+  - C8.S4
+  - C8.S6
+  - C9.S3
+  - C9.S4
+  n_subquestions: 38
+  priority: 304
+  pastor_use: 65 hard passages (Romans 8, Genesis 3, Psalms, Matthew 6 on the Our Father)
+  caveat: Files are catalogued under Maximus's trial records; the scripture questions sit inside. Mapped to Heraclian and Latin-Africa buckets only. Dense, needs
+    a gloss before a pastor can use it.
+  reception_window:
+  - 633
+  - 1453
+- rank: 41
+  id: lanfranc-paul
+  work: Commentary on the Pauline Epistles
+  author: Lanfranc of Bec
+  era: '5'
+  language: Latin
+  edition: 'Latin: PL 150 (Migne 1854)'
+  hosted: archive.org (unverified)
+  licence: PD
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - scandinavian-conversion-christianity
+  - cluniac-reform-monasticism
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  worlds_with_registry_documents: []
+  n_worlds: 11
+  subquestions:
+  - C1.S2
+  - C10.S6
+  - C11.S1
+  - C11.S5
+  - C2.S3
+  - C2.S4
+  - C3.S6
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S6
+  - C6.S8
+  - C7.S2
+  - C7.S4
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S3
+  n_subquestions: 26
+  priority: 286
+  pastor_use: Romans, 1 Corinthians 11 (the Lord's Supper in Lanfranc's own era)
+  caveat: Lanfranc fought Berengar on the Eucharist; his notes carry that context.
+  reception_window:
+  - 1075
+  - 1200
+- rank: 42
+  id: paschasius
+  work: Expositio in Matheo (12 books); Lamentations; Psalm 44
+  author: Paschasius Radbertus
+  era: '4'
+  language: Latin
+  edition: 'Latin: PL 120 (Migne 1852); CCCM 56, 56A-B, 85 (in copyright)'
+  hosted: archive.org (ids not checked)
+  licence: Latin PD (1852)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  - scandinavian-conversion-christianity
+  - cluniac-reform-monasticism
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  worlds_with_registry_documents: []
+  n_worlds: 11
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C11.S1
+  - C13.S2
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C3.S1
+  - C3.S8
+  - C4.S1
+  - C4.S8
+  - C5.S2
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S3
+  - C7.S4
+  - C8.S4
+  - C9.S4
+  n_subquestions: 26
+  priority: 286
+  pastor_use: Matthew in full; Lamentations as a pastoral text of grief
+  caveat: Matthew is the longest Carolingian Gospel commentary. Latin only.
+  reception_window:
+  - 850
+  - 1150
+- rank: 43
+  id: severus-homilies
+  work: Cathedral Homilies (Homiliae cathedrales), 125 homilies on feasts and Gospel readings
+  author: Severus of Antioch
+  era: '3'
+  language: Syriac with French
+  edition: 'Syriac version of Jacob of Edessa, with French: Brière, Graffin et al., Patrologia Orientalis 4, 8, 12, 13, 16, 20, 22, 23, 25, 26, 29, 35, 36, 37 (1906-1976;
+    volumes before 1931 PD, the rest in copyright)'
+  hosted: archive.org (early volumes; unverified)
+  licence: 'partial: pre-1931 volumes PD'
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - cyrilline-miaphysite-egyptian-christianity
+  - syriac-orthodox-west-syriac-christianity
+  - nubian-christianity
+  - coptic-christianity-under-early-islam
+  - syriac-orthodox-under-islam
+  - makurian-nubian-christianity
+  - coptic-christianity-fatimid-to-mamluk
+  - syriac-renaissance
+  - maronite-christianity
+  - terminal-christian-nubia
+  worlds_with_registry_documents:
+  - wsyr
+  n_worlds: 10
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S5
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C8.S2
+  - C8.S4
+  - C9.S4
+  n_subquestions: 28
+  priority: 280
+  pastor_use: Feast and Gospel homilies from Antioch 512-518
+  caveat: Selected letters (Brooks) are vendored; homilies are not. Feast homilies, not a running series on one book.
+  reception_window:
+  - 512
+  - 1100
+- rank: 44
+  id: aquinas-john
+  work: Lectura super Ioannem
+  author: Thomas Aquinas
+  era: '5'
+  language: Latin
+  edition: 'Latin: Parma 1852-73 (PD; volume unverified). English: Weisheipl and Larcher, Magi Books 1980 (in copyright)'
+  hosted: archive.org (Parma; unverified)
+  licence: Latin PD (Parma); English in copyright
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  - the-english-mystics-and-devout
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - lollardy
+  - late-medieval-lay-parish-piety
+  - the-hussite-and-bohemian-brethren-movement
+  worlds_with_registry_documents:
+  - hus
+  n_worlds: 23
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C11.S1
+  - C11.S5
+  - C2.S3
+  - C2.S4
+  - C4.S5
+  - C5.S8
+  - C7.S1
+  - C7.S2
+  n_subquestions: 12
+  priority: 276
+  pastor_use: John 1 (prologue), 6 (bread of life), 14-17
+  caveat: Latin only in PD.
+  reception_window:
+  - 1270
+  - 1517
+- rank: 45
+  id: photius-amphilochia
+  work: Amphilochia (questions and answers on Scripture)
+  author: Photius
+  era: '4'
+  language: Greek
+  edition: 'Greek and Latin: PG 101 (Migne 1860). Laourdas and Westerink, Teubner 1983-88 (in copyright)'
+  hosted: archive.org (PG 101; unverified)
+  licence: PD (1860); modern edition in copyright
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - melkite-arabic-christianity
+  - byzantine-imperial-church-macedonian
+  - cyrillo-methodian-slavic-christianity
+  - kievan-rus-christianity
+  - athonite-and-comnenian-byzantine-monasticism
+  - byzantine-church-after-1054
+  - kievan-rus-christianity-1054-1240
+  worlds_with_registry_documents: []
+  n_worlds: 7
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C2.S7
+  - C3.S1
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S3
+  - C7.S4
+  - C8.S4
+  - C8.S6
+  - C9.S3
+  - C9.S4
+  n_subquestions: 38
+  priority: 266
+  pastor_use: Hard passages in Genesis, Psalms, the Gospels and Paul
+  caveat: Photius's Library (vol. 1, Freese 1920) is vendored but is a book-review work, not a commentary.
+  reception_window:
+  - 860
+  - 1100
+- rank: 46
+  id: barhebraeus
+  work: 'Storehouse of Mysteries (Ausar raze): scholia on the whole Bible'
+  author: Gregory Barhebraeus
+  era: '5'
+  language: Syriac with English
+  edition: 'Old Testament Genesis-2 Samuel: Sprengling and Graham, Chicago 1931 (enters US PD 1 Jan 2027). Gospels: W. E. Carr, Bar Hebraeus''s Commentary on the
+    Gospels, London 1925 (edition: I believe it exists; verify). Chronicon Ecclesiasticum vol. 1 and 3 are vendored; vol. 2 is queued'
+  hosted: archive.org (Carr; unverified)
+  licence: Carr PD by date (1925); Sprengling and Graham not yet PD
+  english_pd: EN-PD
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - syriac-renaissance
+  - maronite-christianity
+  - church-of-the-east-under-the-mongols
+  - maronite-christianity-era-6
+  - st-thomas-christians-1300-1517
+  - church-of-the-east-timur-to-hakkari
+  worlds_with_registry_documents: []
+  n_worlds: 6
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S7
+  - C3.S1
+  - C3.S5
+  - C3.S6
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C9.S4
+  n_subquestions: 44
+  priority: 264
+  pastor_use: Short notes on each verse, comparing Syriac, Greek and Hebrew readings
+  caveat: The brief's Storehouse is here. Only the Chronicon is vendored, which is history. Mark the 1931 volume as waiting for 2027.
+  reception_window:
+  - 1260
+  - 1517
+- rank: 47
+  id: rabanus-ot
+  work: Commentaries on Genesis, Exodus, Leviticus, Numbers, Kings, Chronicles, Judith, Esther, Wisdom, Ecclesiasticus, Maccabees, Jeremiah, Ezekiel
+  author: Rabanus Maurus
+  era: '4'
+  language: Latin
+  edition: 'Latin: PL 107-111 (Migne 1851-52)'
+  hosted: archive.org (PL volumes; ids not checked)
+  licence: PD (1851-52)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  - scandinavian-conversion-christianity
+  - cluniac-reform-monasticism
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  worlds_with_registry_documents: []
+  n_worlds: 11
+  subquestions:
+  - C1.S2
+  - C1.S3
+  - C10.S1
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C12.S7
+  - C13.S1
+  - C14.S4
+  - C14.S8
+  - C2.S2
+  - C2.S7
+  - C3.S6
+  - C3.S8
+  - C4.S2
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C6.S8
+  - C7.S4
+  - C7.S6
+  - C8.S4
+  n_subquestions: 23
+  priority: 253
+  pastor_use: Judith and Esther (women leaders), Wisdom, Ecclesiasticus (daily life, money), Genesis, Exodus
+  caveat: Much is patchwork of earlier fathers; useful because it names them. The Library lacks Rabanus altogether.
+  reception_window:
+  - 830
+  - 1150
+- rank: 48
+  id: cistercian-others
+  work: Sermons on the Song (47, Gilbert of Hoyland); Isaiah homilies and Jesus at Twelve (Aelred)
+  author: Gilbert of Hoyland; Aelred of Rievaulx
+  era: '5'
+  language: Latin
+  edition: 'Latin: Gilbert PL 184; Aelred PL 195 (Migne 1855). English: Braceland CF 14, 20, 26; Berkeley CF 83 (in copyright)'
+  hosted: archive.org (unverified)
+  licence: Latin PD
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  worlds_with_registry_documents: []
+  n_worlds: 13
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C13.S2
+  - C2.S2
+  - C2.S6
+  - C3.S1
+  - C3.S5
+  - C3.S8
+  - C5.S2
+  - C5.S8
+  - C7.S3
+  - C8.S2
+  - C8.S5
+  n_subquestions: 19
+  priority: 247
+  pastor_use: Luke 2:41-52 (Jesus at twelve), Isaiah's burdens
+  caveat: Aelred's Latin is plain and readable.
+  reception_window:
+  - 1160
+  - 1250
+- rank: 49
+  id: euthymius-zigabenus
+  work: Commentary on the Psalms and on the four Gospels
+  author: Euthymius Zigabenus
+  era: '5'
+  language: Greek
+  edition: 'Greek and Latin: PG 128 (Psalms), PG 129 (Gospels) (Migne 1864)'
+  hosted: archive.org (unverified)
+  licence: PD (1864)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - athonite-and-comnenian-byzantine-monasticism
+  - byzantine-church-after-1054
+  - kievan-rus-christianity-1054-1240
+  - serbian-and-bulgarian-medieval-monasticism
+  - byzantine-church-palaiologan
+  - hesychasm-and-the-palamite-synthesis
+  - muscovite-monastic-christianity
+  worlds_with_registry_documents: []
+  n_worlds: 7
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S2
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S5
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C8.S2
+  - C8.S4
+  - C9.S4
+  n_subquestions: 35
+  priority: 245
+  pastor_use: Psalms and the Gospels in the Comnenian church; Matthew 5-7, Luke 15, John 1
+  caveat: Same author wrote the Panoplia against the Bogomils (PG 130), so he is also a witness for the Bogomil worlds.
+  reception_window:
+  - 1110
+  - 1517
+- rank: 50
+  id: greek-ot-catenae
+  work: Greek catenae on the Octateuch, Job and the Psalms
+  author: Seirai (Theotokes ed.), Corderius ed.
+  era: 3-5
+  language: Greek
+  edition: 'Seirai: N. Theotokes, Leipzig 1772-73; Job: Corderius, Antwerp 1630; Psalms: Corderius, Antwerp 1643-46 (all unverified as to host and exact titles)'
+  hosted: Google Books / archive.org (unverified)
+  licence: PD by date
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - chalcedonian-monasticism-judean-desert-and-gaza
+  - byzantine-imperial-church-justinianic
+  - byzantine-imperial-church-heraclian-iconoclast
+  - melkite-arabic-christianity
+  - iconophile-byzantine-monasticism
+  - byzantine-imperial-church-macedonian
+  - athonite-and-comnenian-byzantine-monasticism
+  - byzantine-church-after-1054
+  - byzantine-church-palaiologan
+  - hesychasm-and-the-palamite-synthesis
+  worlds_with_registry_documents: []
+  n_worlds: 10
+  subquestions:
+  - C1.S3
+  - C10.S5
+  - C11.S1
+  - C13.S1
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C2.S2
+  - C2.S7
+  - C3.S6
+  - C4.S2
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C5.S8
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C8.S4
+  n_subquestions: 21
+  priority: 210
+  pastor_use: Genesis, Job, Psalms in the voice of the Greek fathers
+  caveat: Titles and dates are from memory; confirm before queueing.
+  reception_window:
+  - 500
+  - 1453
+- rank: 51
+  id: caesarius-sermons-ot
+  work: Sermons on Genesis, Exodus and the Old Testament; Expositio de Apocalypsi
+  author: Caesarius of Arles
+  era: '3'
+  language: Latin
+  edition: 'Sermons: PL 39 appendix (Migne), vendored among pseudo-Augustine; Morin, CCSL 103-104 (1953, in copyright). Apocalypse homilies: PL 35 (among spurious
+    Augustine). English: Mueller, FOTC 31, 47, 66 (in copyright); Weinrich 2011 (in copyright)'
+  hosted: Vendored (sermons only, Latin)
+  licence: Latin PD; English in copyright
+  english_pd: no PD English
+  already_vendored: partial
+  vendored_files: caesarius-arles_sermons-pseudo-augustinian_migne-pl39.txt
+  queued: false
+  worlds_served:
+  - insular-irish-monastic-christianity
+  - british-welsh-christianity
+  - gothic-and-vandal-homoian-christianity
+  - merovingian-gallic-christianity
+  - early-benedictine-italian-monasticism
+  - latin-africa-under-byzantium
+  - nicene-visigothic-iberia
+  - roman-church-gregorian
+  - anglo-saxon-christianity
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  worlds_with_registry_documents:
+  - rcg
+  n_worlds: 12
+  subquestions:
+  - C10.S5
+  - C11.S1
+  - C13.S1
+  - C2.S7
+  - C3.S1
+  - C3.S8
+  - C4.S2
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S7
+  - C7.S4
+  - C7.S6
+  - C8.S4
+  - C9.S1
+  - C9.S5
+  n_subquestions: 17
+  priority: 204
+  pastor_use: Abraham and Isaac, Joseph, Moses; plain parish teaching on the OT
+  caveat: In PL 39 the Caesarius sermons are mixed with unrelated pseudo-Augustine and sorting them needs Morin's list. Mapped to merovingian-gallic.
+  reception_window:
+  - 510
+  - 800
+- rank: 52
+  id: theodore-bar-koni
+  work: Liber scholiorum (Book of Scholia, Q and A on the whole Bible)
+  author: Theodore bar Koni
+  era: '4'
+  language: Syriac
+  edition: 'Syriac: Addai Scher, CSCO Scr. Syri, Paris 1910-12 (PD by date; series numbers unverified). French: Hespel and Draguet, CSCO 431-432, 1981 (in copyright)'
+  hosted: archive.org / Peeters (unverified)
+  licence: Syriac PD by date; French in copyright
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - the-church-of-the-east-on-the-silk-road
+  - st-thomas-christians-of-india
+  - church-of-the-east-under-the-mongols
+  - st-thomas-christians-1300-1517
+  - church-of-the-east-timur-to-hakkari
+  worlds_with_registry_documents: []
+  n_worlds: 5
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S5
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C2.S3
+  - C2.S4
+  - C2.S7
+  - C3.S1
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C8.S4
+  - C9.S4
+  n_subquestions: 39
+  priority: 195
+  pastor_use: Old Testament and Gospel questions as the school of Kashkar taught them
+  caveat: Syriac only in PD. Last chapters hold the early Muslim dialogue (relevant to C11.S4).
+  reception_window:
+  - 790
+  - 1517
+- rank: 53
+  id: gregory-hom-ezek
+  work: Homiliae in Ezechielem (22 homilies)
+  author: Gregory the Great
+  era: '3'
+  language: Latin
+  edition: 'Latin: PL 76 (Migne 1849). Critical text CCSL 142 (Adriaen 1971, in copyright). English: Theodosia Tomkinson 2008 (in copyright)'
+  hosted: archive.org and Documenta Catholica Omnia (Latin PL scan; item ids not checked)
+  licence: Latin PL PD (1849); English in copyright
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - insular-irish-monastic-christianity
+  - british-welsh-christianity
+  - gothic-and-vandal-homoian-christianity
+  - merovingian-gallic-christianity
+  - early-benedictine-italian-monasticism
+  - latin-africa-under-byzantium
+  - nicene-visigothic-iberia
+  - roman-church-gregorian
+  - anglo-saxon-christianity
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  - scandinavian-conversion-christianity
+  - cluniac-reform-monasticism
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  - the-english-mystics-and-devout
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - lollardy
+  - late-medieval-lay-parish-piety
+  - the-hussite-and-bohemian-brethren-movement
+  worlds_with_registry_documents:
+  - rcg
+  - hus
+  n_worlds: 38
+  subquestions:
+  - C2.S2
+  - C3.S6
+  - C3.S8
+  - C5.S2
+  - C6.S8
+  n_subquestions: 5
+  priority: 190
+  pastor_use: Ezekiel 1-3 (the watchman), 34 (shepherds), 37 (dry bones); Gregory's own teaching on the preacher's duty
+  caveat: Gregory preached these in Rome under Lombard siege, so they also serve rcg directly. Only the Latin is PD.
+  reception_window:
+  - 593
+  - 1517
+- rank: 54
+  id: jacob-serugh
+  work: Verse homilies (Genesis cycle, OT stories, the Gospels, Mary)
+  author: Jacob of Serugh
+  era: '3'
+  language: Syriac
+  edition: 'Syriac: Paul Bedjan, Homiliae selectae Mar-Jacobi Sarugensis, 5 vols, Paris and Leipzig 1905-10 (edition: confident). English: Gorgias translations (in
+    copyright); a few older PD English pieces: unverified'
+  hosted: archive.org (volume ids not checked)
+  licence: Syriac PD by date (1905-10); modern English in copyright
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - syriac-orthodox-west-syriac-christianity
+  - syriac-orthodox-under-islam
+  - syriac-renaissance
+  - maronite-christianity
+  - maronite-christianity-era-6
+  worlds_with_registry_documents:
+  - wsyr
+  n_worlds: 5
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C2.S7
+  - C3.S1
+  - C3.S5
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C9.S4
+  n_subquestions: 38
+  priority: 190
+  pastor_use: Abraham and Isaac, Joseph, the Annunciation, the Passion; the greatest West Syriac scriptural poet
+  caveat: Untranslated in PD at scale. wsyr has no Jacob text in the Library at all (wsyr Doc_02 lists Philoxenus only).
+  reception_window:
+  - 480
+  - 1517
+- rank: 55
+  id: ishodad
+  work: Commentaries on the Gospels, Acts and the Epistles (and Old Testament)
+  author: Ishoʻdad of Merv
+  era: '4'
+  language: Syriac with English
+  edition: 'Syriac and English: Margaret Dunlop Gibson, Horae Semiticae 5-7 (English), 10-11 (Syriac), Cambridge 1911-16 (exact volume contents unverified). Genesis:
+    Van den Eynde, CSCO 126-128 (1950, in copyright)'
+  hosted: archive.org (volume ids not checked)
+  licence: PD by date (1911-16)
+  english_pd: EN-PD
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - st-thomas-christians-of-india
+  - church-of-the-east-under-the-mongols
+  - st-thomas-christians-1300-1517
+  - church-of-the-east-timur-to-hakkari
+  worlds_with_registry_documents: []
+  n_worlds: 4
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S3
+  - C10.S4
+  - C10.S6
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C14.S1
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S5
+  - C3.S6
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S5
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  n_subquestions: 47
+  priority: 188
+  pastor_use: Matthew 5-7, Luke, John 1 and 6, Acts, Romans; the East Syriac verse commentary drawing on Theodore of Mopsuestia
+  caveat: Best PD English witness for the Church of the East. Quote only from the English column and tag Theodore's influence.
+  reception_window:
+  - 850
+  - 1517
+- rank: 56
+  id: aquinas-job
+  work: Expositio super Iob ad litteram (literal exposition of Job)
+  author: Thomas Aquinas
+  era: '5'
+  language: Latin
+  edition: 'Latin: Parma 1852-73 (PD); Leonine vol. 26, 1965 (in copyright). English: Damico, Scholars Press 1989 (in copyright)'
+  hosted: archive.org (Parma; unverified)
+  licence: Latin PD (Parma); modern in copyright
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  - the-english-mystics-and-devout
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - lollardy
+  - late-medieval-lay-parish-piety
+  - the-hussite-and-bohemian-brethren-movement
+  worlds_with_registry_documents:
+  - hus
+  n_worlds: 23
+  subquestions:
+  - C13.S1
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C2.S2
+  - C2.S7
+  - C3.S6
+  - C5.S8
+  n_subquestions: 8
+  priority: 184
+  pastor_use: Job's questions to God and God's answer; Thomas takes Job as a drama on providence
+  caveat: Thomas reads Job literally (a debate on providence), unlike Gregory's allegory. Latin only in PD.
+  reception_window:
+  - 1265
+  - 1517
+- rank: 57
+  id: william-thierry
+  work: Exposition on the Song of Songs; Exposition on Romans
+  author: William of Saint-Thierry
+  era: '5'
+  language: Latin
+  edition: 'Latin: PL 180 (Migne 1855). English: Hasbrouck, Cistercian Fathers 27 and 6 (in copyright)'
+  hosted: archive.org (unverified)
+  licence: Latin PD (1855)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  worlds_with_registry_documents: []
+  n_worlds: 13
+  subquestions:
+  - C11.S1
+  - C11.S5
+  - C2.S6
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C5.S2
+  - C5.S8
+  - C8.S5
+  - C8.S6
+  - C9.S3
+  n_subquestions: 14
+  priority: 182
+  pastor_use: Romans 3-8, Song of Songs
+  caveat: Romans commentary is the Cistercian answer to Abelard.
+  reception_window:
+  - 1138
+  - 1250
+- rank: 58
+  id: bonaventure
+  work: Commentaries on Luke, John, Ecclesiastes, Wisdom; Collationes in Hexaemeron
+  author: Bonaventure
+  era: '5'
+  language: Latin
+  edition: 'Latin: Opera omnia, Quaracchi 1882-1902 (PD; vols 5-7 contain the biblical works). English: Hayes, Karris 1996-2004 (in copyright)'
+  hosted: archive.org and franciscan-archive.org (unverified)
+  licence: Latin PD (1882-1902)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - the-franciscan-movement
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - observant-reform-and-popular-preaching
+  worlds_with_registry_documents: []
+  n_worlds: 6
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C12.S7
+  - C13.S1
+  - C13.S2
+  - C14.S4
+  - C14.S8
+  - C2.S3
+  - C2.S4
+  - C2.S7
+  - C3.S1
+  - C3.S5
+  - C4.S2
+  - C4.S5
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C8.S2
+  n_subquestions: 30
+  priority: 180
+  pastor_use: Luke 1-2, 15; John 1; the Franciscan reading of Genesis 1 (Hexaemeron)
+  caveat: Serves the Franciscan worlds. Latin only in PD.
+  reception_window:
+  - 1250
+  - 1517
+- rank: 59
+  id: cassiodorus-psalms
+  work: Expositio Psalmorum (Explanation of the Psalms)
+  author: Cassiodorus
+  era: '3'
+  language: Latin
+  edition: 'Latin: PL 70 (Migne 1847, the vendored file); CCSL 97-98 (Adriaen 1958, in copyright). English: P. G. Walsh, ACW 51-53, 1990-91 (in copyright)'
+  hosted: Vendored (raw OCR, in the PL 70 file)
+  licence: PD (1847 Latin); English in copyright
+  english_pd: no PD English
+  already_vendored: partial
+  vendored_files: cassiodorus_opera-institutiones-pl70-lat_migne1847.txt
+  queued: false
+  worlds_served:
+  - insular-irish-monastic-christianity
+  - british-welsh-christianity
+  - gothic-and-vandal-homoian-christianity
+  - merovingian-gallic-christianity
+  - early-benedictine-italian-monasticism
+  - latin-africa-under-byzantium
+  - nicene-visigothic-iberia
+  - roman-church-gregorian
+  - anglo-saxon-christianity
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  - scandinavian-conversion-christianity
+  - cluniac-reform-monasticism
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  worlds_with_registry_documents:
+  - rcg
+  n_worlds: 18
+  subquestions:
+  - C1.S3
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C5.S2
+  - C5.S7
+  - C5.S8
+  - C7.S3
+  - C7.S4
+  n_subquestions: 10
+  priority: 180
+  pastor_use: All 150 Psalms with verse notes, grouped by theme; lament psalms (22, 38, 88), penitential psalms, cursing psalms
+  caveat: Vendored file is catalogued under the Institutiones. Exposition headings seen through Psalm 119; completeness of the Psalter not checked. Raw OCR. Latin
+    only. Mapped only to early-benedictine.
+  reception_window:
+  - 548
+  - 1100
+- rank: 60
+  id: cosmas
+  work: Christian Topography (Genesis, the Tabernacle and the shape of the world)
+  author: Cosmas Indicopleustes
+  era: '3'
+  language: Greek; English
+  edition: 'English: J. W. McCrindle, Hakluyt Society 98, 1897 (the vendored text)'
+  hosted: Vendored
+  licence: PD (1897)
+  english_pd: EN-PD
+  already_vendored: 'yes'
+  vendored_files: cosmas-indicopleustes_christian-topography_mccrindle1897.txt
+  queued: false
+  worlds_served:
+  - the-church-of-the-east-under-persia
+  - chalcedonian-monasticism-judean-desert-and-gaza
+  - aksumite-christianity
+  - byzantine-imperial-church-justinianic
+  - cyrilline-miaphysite-egyptian-christianity
+  - nubian-christianity
+  - post-aksumite-ethiopian-christianity
+  - byzantine-imperial-church-heraclian-iconoclast
+  - the-church-of-the-east-on-the-silk-road
+  - coptic-christianity-under-early-islam
+  - makurian-nubian-christianity
+  - melkite-arabic-christianity
+  - iconophile-byzantine-monasticism
+  - byzantine-imperial-church-macedonian
+  - st-thomas-christians-of-india
+  worlds_with_registry_documents: []
+  n_worlds: 15
+  subquestions:
+  - C10.S5
+  - C11.S1
+  - C13.S1
+  - C2.S7
+  - C4.S2
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C7.S4
+  - C7.S6
+  - C8.S4
+  n_subquestions: 12
+  priority: 180
+  pastor_use: Genesis 1, the Tabernacle in Exodus 25-27 as the world's model; a biblical-literalist reply to Greek astronomy
+  caveat: Cosmology book more than commentary. Mapped to four worlds; no record cites it.
+  reception_window:
+  - 550
+  - 900
+- rank: 61
+  id: angelomus-remigius
+  work: Commentaries on Genesis, Kings, Song (Angelomus); Genesis, Psalms, Matthew (Remigius)
+  author: Angelomus of Luxeuil; Remigius of Auxerre
+  era: '4'
+  language: Latin
+  edition: 'Latin: Angelomus PL 115; Remigius PL 131 (Migne 1852-53)'
+  hosted: archive.org (ids not checked)
+  licence: PD
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  - scandinavian-conversion-christianity
+  - cluniac-reform-monasticism
+  worlds_with_registry_documents: []
+  n_worlds: 5
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S5
+  - C11.S1
+  - C13.S1
+  - C13.S2
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C2.S6
+  - C2.S7
+  - C3.S1
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S8
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C8.S4
+  - C8.S5
+  - C9.S4
+  n_subquestions: 35
+  priority: 175
+  pastor_use: Genesis, Song of Songs
+  caveat: Secondary compilers; low value over Rabanus and Bede.
+  reception_window:
+  - 850
+  - 1000
+- rank: 62
+  id: beatus
+  work: Commentarius in Apocalypsin (12 books)
+  author: Beatus of Liebana
+  era: '4'
+  language: Latin
+  edition: 'Latin: Henry A. Sanders, American Academy in Rome, 1930 (PD in the US from 1 Jan 2026, edition confident; host unverified). Gryson, CCSL 107B-C, 2012
+    (in copyright)'
+  hosted: archive.org (unverified)
+  licence: 'Latin: Sanders 1930 PD by date; no PD English known'
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - anglo-saxon-christianity
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  - scandinavian-conversion-christianity
+  - cluniac-reform-monasticism
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  worlds_with_registry_documents: []
+  n_worlds: 24
+  subquestions:
+  - C13.S1
+  - C3.S1
+  - C3.S8
+  - C5.S2
+  - C5.S5
+  - C9.S1
+  - C9.S5
+  n_subquestions: 7
+  priority: 168
+  pastor_use: Revelation; carries the lost Tyconius commentary through Spain; famous for its illuminated copies
+  caveat: Includes quotations of Tyconius, Jerome, Augustine and Ambrose. No English PD.
+  reception_window:
+  - 776
+  - 1300
+- rank: 63
+  id: wyclif-sermons
+  work: Sermons on the Sunday Gospels and Epistles (Latin, v1) and English sermons
+  author: John Wyclif
+  era: '6'
+  language: Latin; Middle English
+  edition: 'Latin Sermones v1: Loserth, Wyclif Society 1887 (vendored). English: Thomas Arnold, Select English Works v1-3, Oxford 1869-71 (vendored); Matthew, EETS
+    74 (1880, vendored). Sermones v2-4 (1888-90): not vendored'
+  hosted: Vendored (Latin v1; English v1-3 and EETS 74)
+  licence: PD (1869-1887)
+  english_pd: EN-PD
+  already_vendored: 'yes'
+  vendored_files: wyclif_sermones-v1-lat_loserth1887.txt, wyclif_select-english-works-v1_arnold1869.txt, v2, v3, wyclif_english-works-hitherto-unprinted_matthew1880.txt
+  queued: false
+  worlds_served:
+  - the-english-mystics-and-devout
+  - lollardy
+  - late-medieval-lay-parish-piety
+  - the-hussite-and-bohemian-brethren-movement
+  worlds_with_registry_documents:
+  - hus
+  n_worlds: 4
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S3
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S5
+  - C3.S6
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C8.S2
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S3
+  - C9.S4
+  n_subquestions: 41
+  priority: 164
+  pastor_use: Sunday Gospel readings in the voice of the leader of Lollardy
+  caveat: Authorship of some English sermons in Arnold is questioned; tag contested. Sermones v2-4 are queued-eligible but not in the queue.
+  reception_window:
+  - 1376
+  - 1520
+- rank: 64
+  id: procopius-gaza
+  work: Commentaries on the Octateuch, Isaiah and the Song (with Hexaemeron catena)
+  author: Procopius of Gaza
+  era: '3'
+  language: Greek
+  edition: 'Greek and Latin: PG 87.1-2 (Migne 1865)'
+  hosted: archive.org and Google Books (Migne PG 87; item ids not checked)
+  licence: PD (1865)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - chalcedonian-monasticism-judean-desert-and-gaza
+  - byzantine-imperial-church-justinianic
+  - byzantine-imperial-church-heraclian-iconoclast
+  - melkite-arabic-christianity
+  - iconophile-byzantine-monasticism
+  - byzantine-imperial-church-macedonian
+  - athonite-and-comnenian-byzantine-monasticism
+  - byzantine-church-after-1054
+  worlds_with_registry_documents: []
+  n_worlds: 8
+  subquestions:
+  - C1.S2
+  - C1.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C13.S1
+  - C2.S2
+  - C2.S6
+  - C2.S7
+  - C3.S8
+  - C4.S2
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C5.S8
+  - C7.S4
+  - C7.S6
+  - C8.S4
+  - C8.S5
+  n_subquestions: 20
+  priority: 160
+  pastor_use: Genesis 1-11, Exodus, Isaiah; a catena of Origen, Basil, Cyril and others
+  caveat: Gaza school; Greek only. Catena status means quote lines name the father cited, which suits quote records.
+  reception_window:
+  - 510
+  - 1200
+- rank: 65
+  id: andrew-victor
+  work: Expositions on the Heptateuch, Kings, Isaiah, Ezekiel, Minor Prophets (literal and Hebrew-informed)
+  author: Andrew of Saint Victor
+  era: '5'
+  language: Latin
+  edition: CCCM 53 and others (in copyright); no PD printed edition known
+  hosted: not freely hosted
+  licence: in copyright
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  worlds_with_registry_documents: []
+  n_worlds: 13
+  subquestions:
+  - C1.S2
+  - C1.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C2.S2
+  - C3.S8
+  - C5.S2
+  - C5.S7
+  - C7.S4
+  - C7.S6
+  - C8.S4
+  n_subquestions: 12
+  priority: 156
+  pastor_use: The literal sense of Moses and the prophets, with Jewish readings
+  caveat: No PD edition identified. Research lead only.
+  reception_window:
+  - 1150
+  - 1250
+- rank: 66
+  id: avitus-genesis
+  work: De spiritalis historiae gestis (Genesis and Exodus in verse)
+  author: Avitus of Vienne
+  era: '3'
+  language: Latin
+  edition: 'Latin: Rudolf Peiper, MGH AA 6.2, 1883 (the vendored file)'
+  hosted: Vendored
+  licence: PD (1883)
+  english_pd: no PD English
+  already_vendored: partial
+  vendored_files: avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883.txt
+  queued: false
+  worlds_served:
+  - insular-irish-monastic-christianity
+  - british-welsh-christianity
+  - gothic-and-vandal-homoian-christianity
+  - merovingian-gallic-christianity
+  - early-benedictine-italian-monasticism
+  - latin-africa-under-byzantium
+  - nicene-visigothic-iberia
+  - roman-church-gregorian
+  - anglo-saxon-christianity
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  - scandinavian-conversion-christianity
+  worlds_with_registry_documents:
+  - rcg
+  n_worlds: 13
+  subquestions:
+  - C10.S5
+  - C11.S1
+  - C13.S1
+  - C2.S7
+  - C4.S2
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C7.S4
+  - C7.S6
+  - C8.S4
+  n_subquestions: 12
+  priority: 156
+  pastor_use: Genesis 1-3 (the fall) and the flood and Red Sea crossing as types of baptism
+  caveat: Biblical epic with typology, not a commentary. Corpus-map links the file to Avitus's anti-Arian letters only.
+  reception_window:
+  - 507
+  - 900
+- rank: 67
+  id: john-damascus-paul
+  work: Commentary on the Pauline Epistles
+  author: John of Damascus (attributed; largely an abridgement of Chrysostom)
+  era: '4'
+  language: Greek
+  edition: 'Greek and Latin: PG 95 (Migne 1864)'
+  hosted: archive.org (PG 95; unverified)
+  licence: PD (1864)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - byzantine-imperial-church-heraclian-iconoclast
+  - melkite-arabic-christianity
+  - iconophile-byzantine-monasticism
+  - byzantine-imperial-church-macedonian
+  - athonite-and-comnenian-byzantine-monasticism
+  - byzantine-church-after-1054
+  worlds_with_registry_documents: []
+  n_worlds: 6
+  subquestions:
+  - C1.S2
+  - C10.S6
+  - C11.S1
+  - C11.S5
+  - C2.S3
+  - C2.S4
+  - C3.S6
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S6
+  - C6.S8
+  - C7.S2
+  - C7.S4
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S3
+  n_subquestions: 26
+  priority: 156
+  pastor_use: Romans to Hebrews in short form
+  caveat: Chrysostom is already in the Library in full (NPNF), so the gain is small; the Damascene's authorship of this work is questioned.
+  reception_window:
+  - 740
+  - 1200
+- rank: 68
+  id: constantine-preslav
+  work: 'Didactic Gospel (Uchitelno Evangelie): homilies on the Sunday Gospels'
+  author: Constantine of Preslav
+  era: '4'
+  language: Church Slavonic
+  edition: 'Church Slavonic: 19th-century Russian and Bulgarian editions, details unverified'
+  hosted: unverified
+  licence: unverified
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - cyrillo-methodian-slavic-christianity
+  - kievan-rus-christianity
+  - kievan-rus-christianity-1054-1240
+  - serbian-and-bulgarian-medieval-monasticism
+  - muscovite-monastic-christianity
+  worlds_with_registry_documents: []
+  n_worlds: 5
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S5
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C8.S2
+  - C8.S4
+  - C9.S4
+  n_subquestions: 28
+  priority: 140
+  pastor_use: Sunday Gospels in the first Slavic homiliary
+  caveat: Research lead; no confirmed host.
+  reception_window:
+  - 894
+  - 1517
+- rank: 69
+  id: ludolph
+  work: Vita Christi (continuous Gospel commentary with patristic extracts)
+  author: Ludolph of Saxony (Carthusian)
+  era: '6'
+  language: Latin
+  edition: 'Latin: L.-M. Rigollot, 4 vols, Paris 1865 (edition: confident; host unverified)'
+  hosted: archive.org (unverified)
+  licence: PD by date (1865)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - carthusian-life
+  - latin-papal-church-avignon-to-lateran-v
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - late-medieval-lay-parish-piety
+  worlds_with_registry_documents: []
+  n_worlds: 5
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S5
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C8.S2
+  - C8.S4
+  - C9.S4
+  n_subquestions: 28
+  priority: 140
+  pastor_use: The four Gospels as one story with meditations; Ignatius and the Devotio Moderna drew on it
+  caveat: Latin only in PD. Complements Love's Mirror (vendored).
+  reception_window:
+  - 1350
+  - 1517
+- rank: 70
+  id: cave-of-treasures
+  work: Cave of Treasures (OT history from Adam to Christ)
+  author: anonymous East Syriac, c. 6th c.
+  era: '3'
+  language: Syriac with English
+  edition: 'English: E. A. W. Budge, Religious Tract Society, London 1927 (PD in the US by date); Syriac: Bezold, Leipzig 1883 (PD)'
+  hosted: archive.org and sacred-texts.com (unverified)
+  licence: PD (1927, 1883)
+  english_pd: EN-PD
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - the-church-of-the-east-under-persia
+  - syriac-orthodox-west-syriac-christianity
+  - the-church-of-the-east-on-the-silk-road
+  - syriac-orthodox-under-islam
+  - st-thomas-christians-of-india
+  - syriac-renaissance
+  - maronite-christianity
+  - church-of-the-east-under-the-mongols
+  - maronite-christianity-era-6
+  - st-thomas-christians-1300-1517
+  - church-of-the-east-timur-to-hakkari
+  worlds_with_registry_documents:
+  - wsyr
+  n_worlds: 11
+  subquestions:
+  - C10.S5
+  - C11.S1
+  - C13.S1
+  - C2.S7
+  - C4.S2
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C7.S4
+  - C7.S6
+  - C8.S4
+  n_subquestions: 12
+  priority: 132
+  pastor_use: Adam, Noah, Melchizedek and the Magi; the legendary supplement to Genesis the Syriac churches told
+  caveat: Legend heavy; some of the Library's English hosts use Budge's wording; verify the 1927 edition's rights before vendoring.
+  reception_window:
+  - 550
+  - 1517
+- rank: 71
+  id: isidore-quaestiones
+  work: Quaestiones in Vetus Testamentum; Allegoriae; De ortu et obitu patrum
+  author: Isidore of Seville
+  era: '3'
+  language: Latin
+  edition: 'Latin: PL 83 (Migne 1860, the vendored file). Critical editions in copyright'
+  hosted: Vendored (raw OCR)
+  licence: PD (1860)
+  english_pd: no PD English
+  already_vendored: partial
+  vendored_files: isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt
+  queued: false
+  worlds_served:
+  - insular-irish-monastic-christianity
+  - british-welsh-christianity
+  - gothic-and-vandal-homoian-christianity
+  - merovingian-gallic-christianity
+  - latin-africa-under-byzantium
+  - nicene-visigothic-iberia
+  - anglo-saxon-christianity
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  - scandinavian-conversion-christianity
+  worlds_with_registry_documents: []
+  n_worlds: 11
+  subquestions:
+  - C10.S5
+  - C11.S1
+  - C13.S1
+  - C2.S7
+  - C4.S2
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C7.S4
+  - C7.S6
+  - C8.S4
+  n_subquestions: 12
+  priority: 132
+  pastor_use: Genesis through Kings in question-and-answer form; typology of Adam, Noah, Abraham, Moses
+  caveat: Mostly Gregory, Augustine and Jerome condensed, so it is a witness to how Spain taught, not an original reading. Catalogued under Sentences. Mapped to nicene-visigothic-iberia
+    only.
+  reception_window:
+  - 615
+  - 900
+- rank: 72
+  id: gerhoh
+  work: Commentarius in Psalmos
+  author: Gerhoh of Reichersberg
+  era: '5'
+  language: Latin
+  edition: 'Latin: PL 193-194 (Migne 1854)'
+  hosted: archive.org (unverified)
+  licence: PD
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  worlds_with_registry_documents: []
+  n_worlds: 13
+  subquestions:
+  - C1.S3
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C5.S2
+  - C5.S7
+  - C5.S8
+  - C7.S3
+  - C7.S4
+  n_subquestions: 10
+  priority: 130
+  pastor_use: Psalms as a reformer's handbook for clergy
+  caveat: Long; reform-minded. Latin only.
+  reception_window:
+  - 1144
+  - 1250
+- rank: 73
+  id: bar-salibi
+  work: Commentaries on the Gospels, Acts, Catholic Epistles, Revelation and Psalms
+  author: Dionysius bar Salibi
+  era: '5'
+  language: Syriac; Latin
+  edition: 'Syriac: Sedlacek and Chabot, CSCO Scr. Syri, 1906-1931 (pre-1931 parts PD; series numbers unverified). Latin renderings in the same series. English: none
+    known'
+  hosted: archive.org / Peeters (unverified)
+  licence: mixed by volume
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - syriac-renaissance
+  - maronite-christianity
+  - maronite-christianity-era-6
+  worlds_with_registry_documents: []
+  n_worlds: 3
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S3
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S5
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C5.S5
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S5
+  - C8.S2
+  - C8.S4
+  - C9.S1
+  - C9.S4
+  - C9.S5
+  n_subquestions: 42
+  priority: 126
+  pastor_use: The whole NT as a West Syriac bishop taught it, drawing on Ephrem, Jacob, Moses
+  caveat: Check each volume's year before vendoring.
+  reception_window:
+  - 1150
+  - 1517
+- rank: 74
+  id: andreas-apoc
+  work: Commentary on the Apocalypse
+  author: Andrew of Caesarea
+  era: 3-4
+  language: Greek
+  edition: 'Greek and Latin: PG 106 col. 207 ff (Migne 1863). Schmid 1955-56 (in copyright). English: Eugenia Constantinou, FOTC 123, 2011 (in copyright)'
+  hosted: archive.org (PG 106; unverified)
+  licence: Greek PD (1863); English in copyright
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - chalcedonian-monasticism-judean-desert-and-gaza
+  - byzantine-imperial-church-justinianic
+  - byzantine-imperial-church-heraclian-iconoclast
+  - melkite-arabic-christianity
+  - iconophile-byzantine-monasticism
+  - georgian-revival-tao-klarjeti
+  - byzantine-imperial-church-macedonian
+  - cyrillo-methodian-slavic-christianity
+  - kievan-rus-christianity
+  - athonite-and-comnenian-byzantine-monasticism
+  - the-georgian-golden-age
+  - byzantine-church-after-1054
+  - kievan-rus-christianity-1054-1240
+  - serbian-and-bulgarian-medieval-monasticism
+  - byzantine-church-palaiologan
+  - hesychasm-and-the-palamite-synthesis
+  - muscovite-monastic-christianity
+  worlds_with_registry_documents: []
+  n_worlds: 17
+  subquestions:
+  - C13.S1
+  - C3.S1
+  - C3.S8
+  - C5.S2
+  - C5.S5
+  - C9.S1
+  - C9.S5
+  n_subquestions: 7
+  priority: 119
+  pastor_use: Revelation; the standard Greek Orthodox commentary, used in the Slavic and Georgian lands
+  caveat: Constantinou 2011 is the usable English; only the Greek/Latin is PD.
+  reception_window:
+  - 614
+  - 1517
+- rank: 75
+  id: joachim
+  work: Expositio in Apocalypsim; Concordia Novi ac Veteris Testamenti; Psalterium decem chordarum
+  author: Joachim of Fiore
+  era: '5'
+  language: Latin
+  edition: 'Latin: Venice 1519 (Concordia) and 1527 (Expositio; Psalterium) (PD by date; host unverified). English: selections in McGinn, Apocalyptic Spirituality
+    1979 (in copyright)'
+  hosted: archive.org (unverified)
+  licence: Latin PD by date
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - joachimite-current
+  - the-franciscan-movement
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  worlds_with_registry_documents: []
+  n_worlds: 6
+  subquestions:
+  - C1.S2
+  - C1.S3
+  - C10.S4
+  - C13.S1
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C2.S2
+  - C3.S1
+  - C3.S8
+  - C5.S2
+  - C5.S5
+  - C5.S7
+  - C5.S8
+  - C7.S3
+  - C7.S4
+  - C9.S1
+  - C9.S5
+  n_subquestions: 19
+  priority: 114
+  pastor_use: Revelation read as three ages; the root of 'the end of the world in your lifetime' questions (C3.S8)
+  caveat: The Joachimite world is Atlas entry 'within another world (A5)'. Latin only.
+  reception_window:
+  - 1190
+  - 1517
+- rank: 76
+  id: ambrose-autpert
+  work: Expositio in Apocalypsin
+  author: Ambrose Autpert
+  era: '4'
+  language: Latin
+  edition: 'Latin: Weber, CCCM 27, 1975 (in copyright); earlier printings in Bibliotheca Maxima Patrum (Lyon 1677; PD; host unverified)'
+  hosted: unverified
+  licence: 1677 print PD; modern edition in copyright
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - british-welsh-christianity
+  - anglo-saxon-christianity
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  - scandinavian-conversion-christianity
+  - cluniac-reform-monasticism
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  worlds_with_registry_documents: []
+  n_worlds: 16
+  subquestions:
+  - C13.S1
+  - C3.S1
+  - C3.S8
+  - C5.S2
+  - C5.S5
+  - C9.S1
+  - C9.S5
+  n_subquestions: 7
+  priority: 112
+  pastor_use: Revelation, as a Carolingian monk's reading
+  caveat: Old edition is a scan lead only.
+  reception_window:
+  - 767
+  - 1200
+- rank: 77
+  id: gerson-scriptural
+  work: Monotessaron (Gospel harmony), Super Magnificat, Josephina and other scriptural treatises
+  author: Jean Gerson
+  era: '6'
+  language: Latin
+  edition: 'Latin: Du Pin, Opera omnia, 5 vols, Antwerp 1706 (PD by date; vols 1, 3, 4, 5 queued; contents of each volume unverified)'
+  hosted: archive.org (item queued)
+  licence: PD by date (1706)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: true
+  worlds_served:
+  - latin-papal-church-avignon-to-lateran-v
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - the-hussite-and-bohemian-brethren-movement
+  worlds_with_registry_documents:
+  - hus
+  n_worlds: 4
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S5
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C8.S2
+  - C8.S4
+  - C9.S4
+  n_subquestions: 28
+  priority: 112
+  pastor_use: Luke 1 (Magnificat), the Gospels in one story
+  caveat: Tome 2 is vendored (schism tracts). The scriptural works are in the queued volumes.
+  reception_window:
+  - 1400
+  - 1517
+- rank: 78
+  id: hiberno-gospels
+  work: Expositio quattuor evangeliorum and Hiberno-Latin Gospel commentaries
+  author: Pseudo-Jerome (Irish, 7th c.)
+  era: 3-4
+  language: Latin
+  edition: 'Latin: PL 30 (Migne 1865); Irish Reference Bible and Marcan commentary: modern editions in copyright'
+  hosted: archive.org (PL 30; unverified)
+  licence: Latin PD (1865)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - insular-irish-monastic-christianity
+  - british-welsh-christianity
+  - anglo-saxon-christianity
+  - carolingian-reform-christianity
+  worlds_with_registry_documents: []
+  n_worlds: 4
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S5
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C8.S2
+  - C8.S4
+  - C9.S4
+  n_subquestions: 28
+  priority: 112
+  pastor_use: Matthew, Mark, Luke, John in Irish teaching
+  caveat: Attribution to Jerome is false. Dating and authorship uncertain; tag contested.
+  reception_window:
+  - 650
+  - 900
+- rank: 79
+  id: wyclif-opus
+  work: Opus evangelicum (commentary on parts of Matthew and John)
+  author: John Wyclif
+  era: '6'
+  language: Latin
+  edition: 'Latin: Johann Loserth, Wyclif Society, London 1895-96 (PD by date; archive.org/details/iohanniswyclifo00wyclgoog)'
+  hosted: archive.org (queued)
+  licence: PD (1895)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: true
+  worlds_served:
+  - the-english-mystics-and-devout
+  - lollardy
+  - late-medieval-lay-parish-piety
+  - the-hussite-and-bohemian-brethren-movement
+  worlds_with_registry_documents:
+  - hus
+  n_worlds: 4
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C11.S1
+  - C11.S5
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C8.S4
+  - C9.S4
+  n_subquestions: 25
+  priority: 100
+  pastor_use: Sermon on the Mount and John; Wyclif's gospel exposition
+  caveat: Queue row says text not fetched ('for lack of time'). Extent of books unverified.
+  reception_window:
+  - 1384
+  - 1520
+- rank: 80
+  id: bernard-song
+  work: Sermons on the Song of Songs (86)
+  author: Bernard of Clairvaux
+  era: '5'
+  language: Latin; English
+  edition: 'Latin: PL 183 (Migne 1854). English: S. J. Eales, Life and Works of St Bernard, 4 vols, London 1889-96 (the Song sermons are in these volumes; extent
+    unverified). Mount Melleray translation, Dublin 1920: unverified. Modern: Walsh and Edmonds, Cistercian Fathers 4, 7, 31, 40 (in copyright)'
+  hosted: archive.org (Eales; unverified)
+  licence: Latin PD; Eales 1889-96 PD by date
+  english_pd: EN-PD
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  - canons-regular-victorine-school
+  - military-religious-orders-templars-hospitallers
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  - the-english-mystics-and-devout
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - lollardy
+  - late-medieval-lay-parish-piety
+  - the-hussite-and-bohemian-brethren-movement
+  worlds_with_registry_documents:
+  - hus
+  n_worlds: 24
+  subquestions:
+  - C2.S6
+  - C5.S2
+  - C5.S8
+  - C8.S5
+  n_subquestions: 4
+  priority: 96
+  pastor_use: Song of Songs 1-2 (the soul and Christ), Sermon 20 on the kiss; Bernard on the love of God; the base for medieval devotion
+  caveat: Bernard's own Latin and Eales English together serve the Cistercian and Victorine worlds. Eales extent needs checking.
+  reception_window:
+  - 1135
+  - 1517
+- rank: 81
+  id: olivi
+  work: Lectura super Apocalypsim; Postilla on Matthew
+  author: Peter John Olivi
+  era: '5'
+  language: Latin
+  edition: 'Latin: modern editions only (Warren Lewis diss. 1972; Vian 2018): in copyright. No PD edition'
+  hosted: not freely hosted
+  licence: in copyright
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - joachimite-current
+  - the-franciscan-movement
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  worlds_with_registry_documents: []
+  n_worlds: 4
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C11.S1
+  - C13.S1
+  - C13.S2
+  - C3.S1
+  - C3.S8
+  - C4.S1
+  - C4.S8
+  - C5.S2
+  - C5.S5
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S3
+  - C8.S4
+  - C9.S1
+  - C9.S4
+  - C9.S5
+  n_subquestions: 24
+  priority: 96
+  pastor_use: Revelation read by the Spiritual Franciscans
+  caveat: No PD text; keep as a lead for the Fraticelli and Spiritual worlds.
+  reception_window:
+  - 1297
+  - 1517
+- rank: 82
+  id: primasius-apoc
+  work: Commentarius in Apocalypsin
+  author: Primasius of Hadrumetum
+  era: '3'
+  language: Latin
+  edition: 'Latin: PL 68 (Migne 1866, the vendored file); CCSL 92 (Adams 1985, in copyright)'
+  hosted: Vendored (raw OCR)
+  licence: PD (1866 Latin)
+  english_pd: no PD English
+  already_vendored: partial
+  vendored_files: liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt
+  queued: false
+  worlds_served:
+  - insular-irish-monastic-christianity
+  - british-welsh-christianity
+  - gothic-and-vandal-homoian-christianity
+  - merovingian-gallic-christianity
+  - early-benedictine-italian-monasticism
+  - latin-africa-under-byzantium
+  - nicene-visigothic-iberia
+  - roman-church-gregorian
+  - anglo-saxon-christianity
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  - scandinavian-conversion-christianity
+  worlds_with_registry_documents:
+  - rcg
+  n_worlds: 13
+  subquestions:
+  - C13.S1
+  - C3.S1
+  - C3.S8
+  - C5.S2
+  - C5.S5
+  - C9.S1
+  - C9.S5
+  n_subquestions: 7
+  priority: 91
+  pastor_use: Revelation 1-3 (seven churches), 12-13 (dragon and beast), 20-22; Tyconian reading carried to Augustine's Africa
+  caveat: Latin only. Filed under Liberatus, so a search by author misses it. Mapped to Justinianic and Latin-Africa buckets; no record cites it.
+  reception_window:
+  - 552
+  - 900
+- rank: 83
+  id: apringius
+  work: Tractatus in Apocalypsin
+  author: Apringius of Beja
+  era: '3'
+  language: Latin
+  edition: 'Latin: Marius Ferotin, Apringius de Beja, son commentaire de l''Apocalypse, Paris 1900 (edition: fairly confident; host unverified)'
+  hosted: archive.org (unverified)
+  licence: PD by date (1900)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - insular-irish-monastic-christianity
+  - british-welsh-christianity
+  - gothic-and-vandal-homoian-christianity
+  - merovingian-gallic-christianity
+  - early-benedictine-italian-monasticism
+  - latin-africa-under-byzantium
+  - nicene-visigothic-iberia
+  - roman-church-gregorian
+  - anglo-saxon-christianity
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  worlds_with_registry_documents:
+  - rcg
+  n_worlds: 12
+  subquestions:
+  - C13.S1
+  - C3.S1
+  - C3.S8
+  - C5.S2
+  - C5.S5
+  - C9.S1
+  - C9.S5
+  n_subquestions: 7
+  priority: 84
+  pastor_use: Revelation; short Spanish reading that fed Beatus
+  caveat: Survives only in part (a single manuscript, lost later). A second vendored Ferotin file (Liber mozarabicus sacramentorum) is a different work.
+  reception_window:
+  - 551
+  - 800
+- rank: 84
+  id: arator
+  work: De actibus apostolorum (Acts in Latin verse)
+  author: Arator
+  era: '3'
+  language: Latin
+  edition: 'Latin: PL 68 col. 81 ff (Migne 1866, the vendored file); CSEL 72 (McKinlay 1951, in copyright)'
+  hosted: Vendored
+  licence: PD (1866)
+  english_pd: no PD English
+  already_vendored: partial
+  vendored_files: liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt
+  queued: false
+  worlds_served:
+  - insular-irish-monastic-christianity
+  - british-welsh-christianity
+  - gothic-and-vandal-homoian-christianity
+  - merovingian-gallic-christianity
+  - early-benedictine-italian-monasticism
+  - latin-africa-under-byzantium
+  - nicene-visigothic-iberia
+  - roman-church-gregorian
+  - anglo-saxon-christianity
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  - scandinavian-conversion-christianity
+  - cluniac-reform-monasticism
+  worlds_with_registry_documents:
+  - rcg
+  n_worlds: 14
+  subquestions:
+  - C10.S3
+  - C2.S4
+  - C5.S8
+  - C6.S1
+  - C6.S3
+  - C7.S1
+  n_subquestions: 6
+  priority: 84
+  pastor_use: Acts, with Peter and Paul as a pair; read aloud in Rome in 544
+  caveat: A verse paraphrase with allegory, not a commentary. Rome and Latin-Africa interest (Roman clergy dedicated it to Pope Vigilius).
+  reception_window:
+  - 544
+  - 1000
+- rank: 85
+  id: love-mirror
+  work: Mirror of the Blessed Life of Jesus Christ (Gospel-based devotional commentary)
+  author: Nicholas Love (after Pseudo-Bonaventure)
+  era: '6'
+  language: Middle English
+  edition: Lawrence Powell, Oxford 1908 (vendored)
+  hosted: Vendored
+  licence: PD (1908)
+  english_pd: EN-PD
+  already_vendored: 'yes'
+  vendored_files: love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908.txt
+  queued: false
+  worlds_served:
+  - the-english-mystics-and-devout
+  - lollardy
+  - late-medieval-lay-parish-piety
+  worlds_with_registry_documents: []
+  n_worlds: 3
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S5
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C8.S2
+  - C8.S4
+  - C9.S4
+  n_subquestions: 28
+  priority: 84
+  pastor_use: Gospel scenes for lay devotion, licensed by Archbishop Arundel against Lollard Bibles
+  caveat: Devotional paraphrase and meditation, not strict commentary. Mapped to three English worlds.
+  reception_window:
+  - 1410
+  - 1517
+- rank: 86
+  id: typology-books
+  work: Biblia pauperum and Speculum humanae salvationis (typological picture-Bibles)
+  author: anonymous
+  era: '6'
+  language: Latin
+  edition: 'Biblia pauperum: Laib and Schwarz, Zurich 1867; Speculum: Lutz and Perdrizet, Mulhouse 1907 (editions: fairly confident; hosts unverified)'
+  hosted: archive.org (unverified)
+  licence: PD by date
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - the-humiliati
+  - the-waldensians
+  - the-beguines
+  - joachimite-current
+  - the-carmelites
+  - the-franciscan-movement
+  - the-dominican-order
+  - franciscan-order-era-6
+  - fraticelli-spiritual-franciscan-rigorists
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  - waldensians-in-the-alps
+  - the-english-mystics-and-devout
+  - observant-reform-and-popular-preaching
+  - devotio-moderna-brethren-of-the-common-life
+  - lollardy
+  - late-medieval-lay-parish-piety
+  - the-hussite-and-bohemian-brethren-movement
+  worlds_with_registry_documents:
+  - hus
+  n_worlds: 21
+  subquestions:
+  - C1.S1
+  - C1.S3
+  - C1.S4
+  - C5.S2
+  n_subquestions: 4
+  priority: 84
+  pastor_use: How lay people met the Old Testament as promise of Christ (C5.S2)
+  caveat: Pictorial typology, not text commentary; text parts are short.
+  reception_window:
+  - 1300
+  - 1517
+- rank: 87
+  id: eckhart-latin
+  work: Latin biblical commentaries (Genesis, Exodus, Wisdom, John)
+  author: Meister Eckhart
+  era: '6'
+  language: Latin
+  edition: Latin Werke, Kohlhammer, Stuttgart 1936- (in copyright). German sermons are vendored (Pfeiffer 1857; Evans 1924)
+  hosted: not freely hosted
+  licence: in copyright
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - the-beguines
+  - latin-papal-church-avignon-to-lateran-v
+  - rhineland-mysticism-and-the-friends-of-god
+  worlds_with_registry_documents: []
+  n_worlds: 3
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C10.S1
+  - C10.S5
+  - C11.S1
+  - C11.S5
+  - C12.S7
+  - C13.S1
+  - C14.S4
+  - C14.S8
+  - C2.S3
+  - C2.S4
+  - C2.S7
+  - C4.S2
+  - C4.S5
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C5.S8
+  - C7.S1
+  - C7.S2
+  - C7.S4
+  - C7.S6
+  - C8.S4
+  n_subquestions: 27
+  priority: 81
+  pastor_use: John 1 (the Word), Exodus 3:14, Wisdom 7
+  caveat: Vendored Eckhart is German sermons and English translation, not the commentaries. Denifle 1886 (queued) may carry fragments.
+  reception_window:
+  - 1305
+  - 1400
+- rank: 88
+  id: cilician-armenian-exegetes
+  work: Commentaries of Nerses Shnorhali (Matthew, Catholic Epistles), Nerses Lambronats'i (Psalms, Wisdom books), Yovhannes Erznkats'i (Matthew, Paul)
+  author: Armenian Cilician exegetes
+  era: '5'
+  language: Armenian
+  edition: 'Armenian: Venice, Constantinople and Jerusalem presses, 18th-19th c. (details unverified)'
+  hosted: unverified
+  licence: unverified
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - armenian-cilicia
+  - armenian-cilicia-after-the-kingdom
+  worlds_with_registry_documents: []
+  n_worlds: 2
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C11.S1
+  - C11.S5
+  - C12.S7
+  - C13.S2
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S8
+  - C3.S1
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S2
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S3
+  - C7.S4
+  - C8.S4
+  - C8.S6
+  - C9.S3
+  - C9.S4
+  n_subquestions: 36
+  priority: 72
+  pastor_use: Matthew and the Psalms in Cilician Armenian teaching
+  caveat: I could not confirm exact works or any PD text. Research lead.
+  reception_window:
+  - 1150
+  - 1441
+- rank: 89
+  id: gregory-song-kings
+  work: Expositio in Canticum canticorum; In primum librum Regum
+  author: Gregory the Great (authorship of the Kings work disputed)
+  era: '3'
+  language: Latin
+  edition: 'Latin: PL 79 (Migne 1849); CCSL 144 (Verbraken 1963, in copyright). English of the Song: DelCogliano, Cistercian Studies 244, 2012 (in copyright)'
+  hosted: archive.org (PL 79; item id not checked)
+  licence: Latin PD; English in copyright
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - insular-irish-monastic-christianity
+  - british-welsh-christianity
+  - gothic-and-vandal-homoian-christianity
+  - merovingian-gallic-christianity
+  - early-benedictine-italian-monasticism
+  - latin-africa-under-byzantium
+  - nicene-visigothic-iberia
+  - roman-church-gregorian
+  - anglo-saxon-christianity
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  - scandinavian-conversion-christianity
+  - cluniac-reform-monasticism
+  - latin-papal-church-gregorian
+  - carthusian-life
+  - cistercian-monasticism
+  - latin-church-of-outremer
+  worlds_with_registry_documents:
+  - rcg
+  n_worlds: 18
+  subquestions:
+  - C2.S6
+  - C5.S2
+  - C5.S8
+  - C8.S5
+  n_subquestions: 4
+  priority: 72
+  pastor_use: Song of Songs 1-3; short, Christ and the Church reading
+  caveat: Authenticity of the First Kings work is disputed; mark any quote contested.
+  reception_window:
+  - 595
+  - 1100
+- rank: 90
+  id: narsai
+  work: 'Metrical homilies (OT cycle: Creation, Joseph, Daniel, the Prophets; liturgical homilies)'
+  author: Narsai
+  era: '3'
+  language: Syriac; English (liturgical only)
+  edition: 'English of 4 liturgical homilies: R. H. Connolly, Texts and Studies 8.1, 1909 (vendored). Syriac of the OT homilies: A. Mingana, Narsai doctoris syri
+    homiliae et carmina, Mosul 1905 (PD by date; host unverified). Creation homilies: Gignoux, PO 34, 1968 (in copyright)'
+  hosted: Vendored (liturgical homilies); Mingana unverified
+  licence: PD (1909, 1905)
+  english_pd: no PD English
+  already_vendored: partial
+  vendored_files: narsai_liturgical-homilies_connolly1909.txt
+  queued: false
+  worlds_served:
+  - the-church-of-the-east-under-persia
+  - the-church-of-the-east-on-the-silk-road
+  - st-thomas-christians-of-india
+  - church-of-the-east-under-the-mongols
+  - st-thomas-christians-1300-1517
+  - church-of-the-east-timur-to-hakkari
+  worlds_with_registry_documents: []
+  n_worlds: 6
+  subquestions:
+  - C10.S5
+  - C11.S1
+  - C13.S1
+  - C2.S7
+  - C4.S2
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C7.S4
+  - C7.S6
+  - C8.S4
+  n_subquestions: 12
+  priority: 72
+  pastor_use: Genesis 1-3, Joseph (Genesis 37-50), Elisha, Daniel; stories told with the Church of the East's reading
+  caveat: Vendored volume is the liturgical set, which is baptism and Eucharist, not OT. The OT homilies are untranslated in PD. Mapped to church-of-the-east-under-persia.
+  reception_window:
+  - 480
+  - 1517
+- rank: 91
+  id: philoponus-hex
+  work: De opificio mundi (Hexaemeron)
+  author: John Philoponus
+  era: '3'
+  language: Greek
+  edition: 'Greek: Walter Reichardt, Teubner, Leipzig 1897 (edition: confident; host unverified)'
+  hosted: archive.org (unverified)
+  licence: PD by date (1897)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - chalcedonian-monasticism-judean-desert-and-gaza
+  - byzantine-imperial-church-justinianic
+  - syriac-orthodox-west-syriac-christianity
+  - byzantine-imperial-church-heraclian-iconoclast
+  - syriac-orthodox-under-islam
+  - melkite-arabic-christianity
+  - iconophile-byzantine-monasticism
+  - byzantine-imperial-church-macedonian
+  - athonite-and-comnenian-byzantine-monasticism
+  - byzantine-church-after-1054
+  - syriac-renaissance
+  - maronite-christianity
+  worlds_with_registry_documents:
+  - wsyr
+  n_worlds: 12
+  subquestions:
+  - C13.S1
+  - C2.S7
+  - C4.S2
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  n_subquestions: 6
+  priority: 72
+  pastor_use: Genesis 1-3, with science and Scripture set side by side (C5.S3)
+  caveat: Greek only. Philoponus's own later views were condemned; tag accordingly.
+  reception_window:
+  - 557
+  - 1100
+- rank: 92
+  id: arethas-apoc
+  work: Commentary on the Apocalypse
+  author: Arethas of Caesarea
+  era: '4'
+  language: Greek
+  edition: 'Greek and Latin: PG 106 col. 487 ff (Migne 1863)'
+  hosted: archive.org (PG 106; unverified)
+  licence: PD (1863)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - melkite-arabic-christianity
+  - byzantine-imperial-church-macedonian
+  - cyrillo-methodian-slavic-christianity
+  - kievan-rus-christianity
+  - athonite-and-comnenian-byzantine-monasticism
+  - byzantine-church-after-1054
+  - kievan-rus-christianity-1054-1240
+  - serbian-and-bulgarian-medieval-monasticism
+  - byzantine-church-palaiologan
+  - hesychasm-and-the-palamite-synthesis
+  worlds_with_registry_documents: []
+  n_worlds: 10
+  subquestions:
+  - C13.S1
+  - C3.S1
+  - C3.S8
+  - C5.S2
+  - C5.S5
+  - C9.S1
+  - C9.S5
+  n_subquestions: 7
+  priority: 70
+  pastor_use: Revelation; builds on Andrew with later Byzantine material
+  caveat: Greek and Latin only.
+  reception_window:
+  - 900
+  - 1300
+- rank: 93
+  id: old-irish-glosses
+  work: Old Irish glosses on the Pauline Epistles (Wuerzburg), Psalms (Milan) and Gospels (Turin)
+  author: Irish glossators
+  era: '4'
+  language: Old Irish with Latin and English
+  edition: 'Whitley Stokes and John Strachan, Thesaurus Palaeohibernicus, 2 vols, Cambridge 1901-03 (edition: confident)'
+  hosted: archive.org (unverified)
+  licence: PD (1901-03)
+  english_pd: EN-PD
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - anglo-saxon-christianity
+  - carolingian-reform-christianity
+  worlds_with_registry_documents: []
+  n_worlds: 2
+  subquestions:
+  - C1.S2
+  - C1.S3
+  - C10.S6
+  - C11.S1
+  - C11.S5
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C2.S3
+  - C2.S4
+  - C3.S6
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S2
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S6
+  - C6.S8
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S3
+  n_subquestions: 34
+  priority: 68
+  pastor_use: Romans 3-9, the Psalms; how Irish monks read Paul, line by line
+  caveat: Marginal notes, not running text. Irish Latin 'Pseudo-Jerome' Gospel commentary is in PL 30.
+  reception_window:
+  - 700
+  - 900
+- rank: 94
+  id: olympiodorus-job
+  work: Commentary on Job (catena)
+  author: Olympiodorus of Alexandria
+  era: '3'
+  language: Greek
+  edition: 'Greek and Latin: PG 93 (Migne 1865); Hagedorn 1984 (in copyright)'
+  hosted: archive.org (PG 93; unverified)
+  licence: PD (1865)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - chalcedonian-monasticism-judean-desert-and-gaza
+  - byzantine-imperial-church-justinianic
+  - byzantine-imperial-church-heraclian-iconoclast
+  - melkite-arabic-christianity
+  - iconophile-byzantine-monasticism
+  - byzantine-imperial-church-macedonian
+  - athonite-and-comnenian-byzantine-monasticism
+  - byzantine-church-after-1054
+  worlds_with_registry_documents: []
+  n_worlds: 8
+  subquestions:
+  - C13.S1
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C2.S2
+  - C2.S7
+  - C3.S6
+  - C5.S8
+  n_subquestions: 8
+  priority: 64
+  pastor_use: Job; the Greek counterpart to Gregory's Moralia
+  caveat: Greek only.
+  reception_window:
+  - 540
+  - 1200
+- rank: 95
+  id: book-of-bee
+  work: The Book of the Bee (OT and NT history with interpretation)
+  author: Solomon of Akhlat (Basra)
+  era: '5'
+  language: Syriac with English
+  edition: 'Syriac and English: E. A. W. Budge, Anecdota Oxoniensia, Oxford 1886 (edition: confident)'
+  hosted: archive.org and sacred-texts.com (unverified)
+  licence: PD (1886)
+  english_pd: EN-PD
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - church-of-the-east-under-the-mongols
+  - st-thomas-christians-1300-1517
+  - church-of-the-east-timur-to-hakkari
+  worlds_with_registry_documents: []
+  n_worlds: 3
+  subquestions:
+  - C1.S2
+  - C1.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C13.S1
+  - C2.S2
+  - C2.S7
+  - C3.S1
+  - C3.S8
+  - C4.S2
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S7
+  - C7.S4
+  - C7.S6
+  - C8.S4
+  - C9.S1
+  - C9.S5
+  n_subquestions: 21
+  priority: 63
+  pastor_use: Creation through the Last Judgment as a lay-readable story, with the East Syriac view of the Fall and the End
+  caveat: A compendium of lore as well as exegesis; separate Scripture from legend when quoting.
+  reception_window:
+  - 1222
+  - 1517
+- rank: 96
+  id: colet
+  work: Exposition of Romans; Exposition of 1 Corinthians; Opuscula
+  author: John Colet
+  era: '6'
+  language: Latin with English
+  edition: 'Latin and English: J. H. Lupton, Romans 1873; 1 Corinthians 1874; Opuscula 1876, London (edition: fairly confident)'
+  hosted: archive.org (unverified)
+  licence: PD (1873-76)
+  english_pd: EN-PD
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-avignon-to-lateran-v
+  - lollardy
+  - late-medieval-lay-parish-piety
+  worlds_with_registry_documents: []
+  n_worlds: 3
+  subquestions:
+  - C11.S1
+  - C11.S5
+  - C2.S4
+  - C3.S6
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C5.S8
+  - C6.S1
+  - C6.S6
+  - C6.S8
+  - C7.S2
+  - C7.S4
+  - C8.S2
+  - C8.S4
+  - C8.S5
+  - C8.S6
+  - C9.S3
+  n_subquestions: 21
+  priority: 63
+  pastor_use: Romans in plain-sense terms, from Oxford lectures of 1497-99
+  caveat: 'English cleric who taught Paul by plain sense and history. The brief names ''Hus on Romans'': I did not find a Hus commentary on Romans; Colet is the Era
+    6 Romans lecturer.'
+  reception_window:
+  - 1497
+  - 1517
+- rank: 97
+  id: cyril-turov
+  work: Sermons on Gospel readings (blind man, paralytic, Thomas)
+  author: Cyril of Turov
+  era: '5'
+  language: Church Slavonic
+  edition: 'Church Slavonic: 19th-century Russian editions, details unverified'
+  hosted: unverified
+  licence: unverified
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - kievan-rus-christianity-1054-1240
+  - serbian-and-bulgarian-medieval-monasticism
+  - muscovite-monastic-christianity
+  worlds_with_registry_documents: []
+  n_worlds: 3
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S5
+  - C4.S5
+  - C5.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C8.S2
+  n_subquestions: 21
+  priority: 63
+  pastor_use: John 5, 9, 20 and Luke 5
+  caveat: Research lead.
+  reception_window:
+  - 1160
+  - 1517
+- rank: 98
+  id: hus-postilla
+  work: Postilla (Czech Sunday Gospel and Epistle sermons); expositions of Creed, Decalogue, Lord's Prayer; Exposition of the Song of Songs
+  author: Jan Hus
+  era: '6'
+  language: Czech
+  edition: 'Czech: Karel Erben, Sebrane spisy ceske, 3 vols, Prague 1865-68 (vendored). Flajshans 1904- (queued); Vilimek 1901 Postilla (queued)'
+  hosted: Vendored (Erben)
+  licence: PD (1865-68)
+  english_pd: no PD English
+  already_vendored: 'yes'
+  vendored_files: hus_sebrane-spisy-ceske-v01-ces_erben1865.txt, v02, v03
+  queued: true
+  worlds_served:
+  - the-hussite-and-bohemian-brethren-movement
+  - taborite-radicalism
+  worlds_with_registry_documents:
+  - hus
+  n_worlds: 2
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C2.S6
+  - C3.S1
+  - C3.S5
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C8.S2
+  - C8.S4
+  - C8.S5
+  - C9.S4
+  n_subquestions: 31
+  priority: 62
+  pastor_use: Sunday Gospels in the vernacular; Bethlehem Chapel preaching
+  caveat: Czech only, no English in the Library. I did not find a Hus commentary on Romans; it may be a mix-up with Colet or Wyclif. Hus world (hus) has registry
+    rows 60-63 for these volumes but no record cites them.
+  reception_window:
+  - 1402
+  - 1517
+- rank: 99
+  id: eriugena-john
+  work: Homily on the Prologue of John; Commentary on John (fragments)
+  author: John Scotus Eriugena
+  era: '4'
+  language: Latin
+  edition: 'Latin: PL 122 (Migne 1853). English: Bamford 2000 (in copyright)'
+  hosted: archive.org (ids not checked)
+  licence: Latin PD; English in copyright
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  - scandinavian-conversion-christianity
+  - cluniac-reform-monasticism
+  worlds_with_registry_documents: []
+  n_worlds: 5
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C11.S1
+  - C11.S5
+  - C2.S3
+  - C2.S4
+  - C4.S5
+  - C5.S8
+  - C7.S1
+  - C7.S2
+  n_subquestions: 12
+  priority: 60
+  pastor_use: John 1:1-18
+  caveat: Neoplatonist reading; short.
+  reception_window:
+  - 865
+  - 1000
+- rank: 100
+  id: chelcicky-postil
+  work: Postilla (Sunday Gospel sermons)
+  author: Petr Chelcicky
+  era: '6'
+  language: Czech
+  edition: 'Czech: Emil Smetanka ed. (details unverified); Net of Faith (Smetanka 1912) is vendored'
+  hosted: unverified
+  licence: PD by date if confirmed
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - the-hussite-and-bohemian-brethren-movement
+  - taborite-radicalism
+  worlds_with_registry_documents:
+  - hus
+  n_worlds: 2
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S5
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C8.S2
+  - C8.S4
+  - C9.S4
+  n_subquestions: 28
+  priority: 56
+  pastor_use: Gospels read as a charge against the church-state alliance
+  caveat: Net of Faith is vendored (a different work).
+  reception_window:
+  - 1435
+  - 1517
+- rank: 101
+  id: palamas-homilies
+  work: Forty-one homilies (many on Gospel readings)
+  author: Gregory Palamas
+  era: '6'
+  language: Greek
+  edition: 'Greek: Jerusalem 1857 (vendored). Greek and Latin: PG 150-151 (Migne 1865, vendored). English: Veniamin 2009 (in copyright)'
+  hosted: Vendored
+  licence: PD (1857, 1865)
+  english_pd: no PD English
+  already_vendored: 'yes'
+  vendored_files: palamas_homiliae-41-grc_jerusalem1857.txt, palamas_opera-omnia-pg150-grc-lat_migne1865.txt, palamas_opera-omnia-pg151-grc-lat_migne1865.txt
+  queued: false
+  worlds_served:
+  - byzantine-church-palaiologan
+  - hesychasm-and-the-palamite-synthesis
+  worlds_with_registry_documents: []
+  n_worlds: 2
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S5
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C8.S2
+  - C8.S4
+  - C9.S4
+  n_subquestions: 28
+  priority: 56
+  pastor_use: Sunday and feast Gospels (Matthew, Luke, John); a Thessalonian bishop's parish preaching
+  caveat: Greek and Latin only, no English in the Library. Homilies, not verse commentary. Mapped to Palaiologan and hesychast buckets; no record yet.
+  reception_window:
+  - 1330
+  - 1400
+- rank: 102
+  id: oecumenius-apoc
+  work: Commentary on the Apocalypse
+  author: Oecumenius (6th c.)
+  era: '3'
+  language: Greek
+  edition: 'Greek: H. C. Hoskier, Ann Arbor 1928 (edition: confident). English: John Suggit, FOTC 112, 2006 (in copyright)'
+  hosted: archive.org (unverified)
+  licence: Greek PD by date (1928); English in copyright
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - chalcedonian-monasticism-judean-desert-and-gaza
+  - byzantine-imperial-church-justinianic
+  - byzantine-imperial-church-heraclian-iconoclast
+  - melkite-arabic-christianity
+  - iconophile-byzantine-monasticism
+  - byzantine-imperial-church-macedonian
+  - athonite-and-comnenian-byzantine-monasticism
+  worlds_with_registry_documents: []
+  n_worlds: 7
+  subquestions:
+  - C13.S1
+  - C3.S1
+  - C3.S8
+  - C5.S2
+  - C5.S5
+  - C9.S1
+  - C9.S5
+  n_subquestions: 7
+  priority: 49
+  pastor_use: Revelation, read as church history and the soul's struggle rather than a timetable
+  caveat: Miaphysite writer; not the same man as the 10th-century catena compiler of the same name.
+  reception_window:
+  - 540
+  - 1000
+- rank: 103
+  id: jacob-edessa
+  work: Scholia on passages of the Old Testament; Hexaemeron; Letters on exegesis
+  author: Jacob of Edessa
+  era: '4'
+  language: Syriac with English
+  edition: 'Syriac and English: George Phillips, Scholia on Passages of the Old Testament, London 1864 (edition: confident). Hexaemeron: Chabot, CSCO 92, 1928 (Syriac,
+    PD by date); Vaschalde''s Latin, CSCO 97, 1932 (not yet PD)'
+  hosted: archive.org (unverified)
+  licence: PD (1864; 1928)
+  english_pd: EN-PD
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - syriac-orthodox-under-islam
+  - syriac-renaissance
+  - maronite-christianity
+  - maronite-christianity-era-6
+  worlds_with_registry_documents: []
+  n_worlds: 4
+  subquestions:
+  - C10.S5
+  - C11.S1
+  - C13.S1
+  - C2.S7
+  - C4.S2
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C7.S4
+  - C7.S6
+  - C8.S4
+  n_subquestions: 12
+  priority: 48
+  pastor_use: Genesis 1-3 and hard Old Testament passages
+  caveat: Short scholia, not a full commentary. The English PD gain is real.
+  reception_window:
+  - 700
+  - 1517
+- rank: 104
+  id: junillus
+  work: Instituta regularia divinae legis
+  author: Junillus Africanus (after Paul of Nisibis)
+  era: '3'
+  language: Latin
+  edition: 'Latin: PL 68 (Migne 1866, the vendored file); Kihn 1880 (Latin and German study, PD, host unverified)'
+  hosted: Vendored
+  licence: PD (1866)
+  english_pd: no PD English
+  already_vendored: partial
+  vendored_files: liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt
+  queued: false
+  worlds_served:
+  - insular-irish-monastic-christianity
+  - british-welsh-christianity
+  - gothic-and-vandal-homoian-christianity
+  - merovingian-gallic-christianity
+  - early-benedictine-italian-monasticism
+  - latin-africa-under-byzantium
+  - nicene-visigothic-iberia
+  - roman-church-gregorian
+  - anglo-saxon-christianity
+  - mozarabic-christianity
+  - carolingian-reform-christianity
+  - late-anglo-saxon-christianity
+  worlds_with_registry_documents:
+  - rcg
+  n_worlds: 12
+  subquestions:
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S6
+  n_subquestions: 4
+  priority: 48
+  pastor_use: How the Bible is organised (history, prophecy, proverbs, doctrine) and which books count
+  caveat: Introduction to Scripture in Q and A form, carrying the Nisibis school's method West. Not a verse commentary.
+  reception_window:
+  - 551
+  - 800
+- rank: 105
+  id: vardan
+  work: Commentaries on Genesis, the Psalms, the Song of Songs and Daniel (list unverified)
+  author: Vardan Arewelc'i
+  era: '5'
+  language: Armenian
+  edition: 'Armenian: Mekhitarist presses, Venice and Constantinople, 19th c. (details unverified). English: none known'
+  hosted: unverified
+  licence: unverified
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - armenian-cilicia
+  - armenian-cilicia-after-the-kingdom
+  worlds_with_registry_documents: []
+  n_worlds: 2
+  subquestions:
+  - C1.S2
+  - C1.S3
+  - C10.S4
+  - C13.S1
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C2.S2
+  - C2.S6
+  - C2.S7
+  - C3.S8
+  - C4.S2
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C5.S8
+  - C7.S3
+  - C7.S4
+  - C8.S5
+  n_subquestions: 21
+  priority: 42
+  pastor_use: Genesis and the Psalms in Cilician Armenian teaching
+  caveat: I could not confirm any English text or a PD scan; research lead only. The vendored Armenian files are histories and ritual.
+  reception_window:
+  - 1250
+  - 1441
+- rank: 106
+  id: aelfric
+  work: Catholic Homilies (two series of 40, on Gospel and feast readings); Heptateuch and prefaces
+  author: Aelfric of Eynsham
+  era: '4'
+  language: Old English with English
+  edition: 'Old English with English translation: Benjamin Thorpe, Ælfric Society, 2 vols, London 1844-46 (edition: confident). Heptateuch: S. J. Crawford, EETS OS
+    160, 1922'
+  hosted: archive.org (volume ids not checked)
+  licence: PD (1844-46; 1922)
+  english_pd: EN-PD
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - late-anglo-saxon-christianity
+  worlds_with_registry_documents: []
+  n_worlds: 1
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C2.S7
+  - C3.S1
+  - C3.S5
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C9.S4
+  n_subquestions: 40
+  priority: 40
+  pastor_use: Gospel homilies in plain English prose, written to be read aloud in parishes; best single PD pastoral source for late Anglo-Saxon England
+  caveat: Homilies, not verse commentary. Mirk's Festial is vendored; Aelfric is its Old English forerunner.
+  reception_window:
+  - 990
+  - 1100
+- rank: 107
+  id: anastasius-hex
+  work: Anagogical contemplations on the Hexaemeron
+  author: Anastasius of Sinai
+  era: '4'
+  language: Greek
+  edition: 'Greek and Latin: PG 89 (Migne 1860). English: Kuehn and Baggarly, OCA 278, 2007 (in copyright)'
+  hosted: archive.org (PG 89; unverified)
+  licence: Greek PD; English in copyright
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - byzantine-imperial-church-heraclian-iconoclast
+  - melkite-arabic-christianity
+  - iconophile-byzantine-monasticism
+  - byzantine-imperial-church-macedonian
+  - athonite-and-comnenian-byzantine-monasticism
+  - byzantine-church-after-1054
+  worlds_with_registry_documents: []
+  n_worlds: 6
+  subquestions:
+  - C13.S1
+  - C2.S7
+  - C4.S2
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  n_subquestions: 6
+  priority: 36
+  pastor_use: Genesis 1-3 read as Christ and the Church
+  caveat: Greek and Latin only; Latin translation in PG is loose.
+  reception_window:
+  - 690
+  - 1100
+- rank: 108
+  id: savonarola
+  work: Sermons on Job, Ezekiel, Amos, Haggai, Exodus, the Psalms
+  author: Girolamo Savonarola
+  era: '6'
+  language: Italian; Latin
+  edition: 'Italian: early prints c. 1495-1500 (PD by date; hosts unverified). Edizione nazionale, Rome 1955- (in copyright)'
+  hosted: unverified
+  licence: early prints PD by date
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - latin-papal-church-avignon-to-lateran-v
+  - observant-reform-and-popular-preaching
+  worlds_with_registry_documents: []
+  n_worlds: 2
+  subquestions:
+  - C1.S2
+  - C1.S3
+  - C10.S4
+  - C13.S1
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C2.S2
+  - C2.S7
+  - C3.S6
+  - C3.S8
+  - C5.S2
+  - C5.S7
+  - C5.S8
+  - C6.S8
+  - C7.S3
+  - C7.S4
+  n_subquestions: 18
+  priority: 36
+  pastor_use: Preaching Ezekiel's watchman and Job against a city's corruption
+  caveat: 'Lead only: titles and print history are from memory.'
+  reception_window:
+  - 1491
+  - 1517
+- rank: 109
+  id: tatev
+  work: Book of Questions (Girk Hartsmants) and Gospel sermons (Summer and Winter volumes)
+  author: Gregory of Tatev
+  era: '6'
+  language: Armenian
+  edition: 'Armenian: Constantinople 1729 (PD by date; host unverified)'
+  hosted: unverified
+  licence: Armenian PD by date (1729)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - armenian-cilicia-after-the-kingdom
+  worlds_with_registry_documents: []
+  n_worlds: 1
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C2.S7
+  - C3.S1
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S6
+  - C4.S8
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C8.S4
+  - C8.S6
+  - C9.S3
+  - C9.S4
+  n_subquestions: 36
+  priority: 36
+  pastor_use: Armenian Q and A on Genesis, the Gospels and faith, after the fall of Cilicia
+  caveat: Armenian only; lead for the post-Kingdom world.
+  reception_window:
+  - 1380
+  - 1441
+- rank: 110
+  id: blickling
+  work: Blickling Homilies (10th-century homilies, including Gospel and Apocalypse themes)
+  author: anonymous Old English
+  era: '4'
+  language: Old English with English
+  edition: 'Richard Morris, EETS OS 58, 63, 73, 1874-80 (edition: confident)'
+  hosted: archive.org (unverified)
+  licence: PD (1874-80)
+  english_pd: EN-PD
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - late-anglo-saxon-christianity
+  worlds_with_registry_documents: []
+  n_worlds: 1
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S8
+  - C10.S1
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C2.S3
+  - C2.S4
+  - C3.S1
+  - C3.S5
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C5.S5
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C8.S2
+  - C8.S4
+  - C9.S1
+  - C9.S4
+  - C9.S5
+  n_subquestions: 33
+  priority: 33
+  pastor_use: Annunciation, Michaelmas, Rogation, Lenten Gospels
+  caveat: Anonymous collection; a few pieces rest on the Apocalypse of Paul, not canon.
+  reception_window:
+  - 950
+  - 1066
+- rank: 111
+  id: rolle-psalter
+  work: English Psalter with exposition (Psalms in English with commentary)
+  author: Richard Rolle
+  era: '6'
+  language: Middle English
+  edition: 'H. R. Bramley (ed.), The Psalter or Psalms of David and certain canticles, with a translation and exposition in English, Oxford: Clarendon 1884 (edition:
+    confident)'
+  hosted: archive.org (unverified)
+  licence: PD (1884)
+  english_pd: EN-PD
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - the-english-mystics-and-devout
+  - lollardy
+  - late-medieval-lay-parish-piety
+  worlds_with_registry_documents: []
+  n_worlds: 3
+  subquestions:
+  - C1.S3
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C5.S2
+  - C5.S7
+  - C5.S8
+  - C7.S3
+  - C7.S4
+  n_subquestions: 10
+  priority: 30
+  pastor_use: Every psalm in English with a verse note; used for centuries by English lay people; the Lollards enlarged it
+  caveat: Vendored Rolle files are Fire of Love and tracts, not the Psalter. Lollard additions complicate authorship.
+  reception_window:
+  - 1340
+  - 1517
+- rank: 112
+  id: moses-kepha
+  work: Commentary on Paradise (Genesis 2-3) and Hexaemeron
+  author: Moses bar Kepha
+  era: '4'
+  language: Syriac; Latin
+  edition: 'Latin: Andreas Masius, De paradiso commentarius, Antwerp 1569 (edition: fairly confident; host unverified)'
+  hosted: Google Books (unverified)
+  licence: PD by date (1569)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - syriac-orthodox-under-islam
+  - syriac-renaissance
+  - maronite-christianity
+  - maronite-christianity-era-6
+  worlds_with_registry_documents: []
+  n_worlds: 4
+  subquestions:
+  - C13.S1
+  - C2.S7
+  - C4.S2
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  n_subquestions: 6
+  priority: 24
+  pastor_use: Genesis 2-3
+  caveat: A 16th-century Latin rendering, itself a witness to Western Reformation-era interest.
+  reception_window:
+  - 890
+  - 1517
+- rank: 113
+  id: matej-janov
+  work: Regulae Veteris et Novi Testamenti (rules of the Old and New Testaments)
+  author: Matej of Janov
+  era: '6'
+  language: Latin
+  edition: 'Latin: Vlastimil Kybal, Innsbruck 1908-26, 4 vols (edition: fairly confident; PD for vols before 1931; host unverified)'
+  hosted: unverified
+  licence: mixed by volume
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - the-hussite-and-bohemian-brethren-movement
+  - taborite-radicalism
+  worlds_with_registry_documents:
+  - hus
+  n_worlds: 2
+  subquestions:
+  - C13.S1
+  - C3.S1
+  - C3.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S5
+  - C5.S6
+  - C9.S1
+  - C9.S5
+  n_subquestions: 10
+  priority: 20
+  pastor_use: Antichrist, frequent communion, and how to read Scripture; Hus's teacher in these topics
+  caveat: A treatise more than a verse commentary.
+  reception_window:
+  - 1390
+  - 1517
+- rank: 114
+  id: narek-lament
+  work: Book of Lamentations (Matean olbergut'ean), 95 prayers (NOT a scripture commentary)
+  author: Gregory of Narek
+  era: '4'
+  language: Armenian
+  edition: 'Armenian: Venice 1840 (unverified). English: Thomas Samuelian, Vem Press 2001 (in copyright). Older English: unverified'
+  hosted: unverified
+  licence: Armenian PD likely; English in copyright
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - bagratid-armenian-christianity
+  - armenian-cilicia
+  - armenian-cilicia-after-the-kingdom
+  worlds_with_registry_documents: []
+  n_worlds: 3
+  subquestions:
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  - C7.S3
+  n_subquestions: 5
+  priority: 15
+  pastor_use: Prayer in anguish and doubt; fits lament and 'God is silent' pastoral care rather than a text to preach from
+  caveat: The brief calls this a Lamentations commentary. It is a prayer cycle, not an exposition of the Book of Lamentations. Keep it out of the commentary count
+    if strict.
+  reception_window:
+  - 1002
+  - 1441
+- rank: 115
+  id: narek-song
+  work: Commentary on the Song of Songs
+  author: Gregory of Narek
+  era: '4'
+  language: Armenian
+  edition: 'Armenian: 19th-century Mekhitarist edition, details unverified. English: none known'
+  hosted: unverified
+  licence: unverified
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - bagratid-armenian-christianity
+  - armenian-cilicia
+  - armenian-cilicia-after-the-kingdom
+  worlds_with_registry_documents: []
+  n_worlds: 3
+  subquestions:
+  - C2.S6
+  - C5.S2
+  - C5.S8
+  - C8.S5
+  n_subquestions: 4
+  priority: 12
+  pastor_use: Song of Songs as Christ and the soul
+  caveat: Written 977 for Prince Gurgen Artsruni. Different work from the Book of Lamentations below.
+  reception_window:
+  - 977
+  - 1441
+- rank: 116
+  id: psellos-song
+  work: Paraphrase and exposition of the Song of Songs
+  author: Michael Psellos
+  era: '4'
+  language: Greek
+  edition: 'Greek: PG 122 (Migne 1864). Westerink 1992 (in copyright)'
+  hosted: archive.org (unverified)
+  licence: PD (1864)
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - byzantine-imperial-church-macedonian
+  - athonite-and-comnenian-byzantine-monasticism
+  - byzantine-church-after-1054
+  worlds_with_registry_documents: []
+  n_worlds: 3
+  subquestions:
+  - C2.S6
+  - C5.S2
+  - C5.S8
+  - C8.S5
+  n_subquestions: 4
+  priority: 12
+  pastor_use: Song of Songs
+  caveat: Short; moderate value.
+  reception_window:
+  - 1050
+  - 1200
+- rank: 117
+  id: skeireins
+  work: Skeireins (Gothic commentary on the Gospel of John)
+  author: anonymous Gothic (Homoian) writer
+  era: '3'
+  language: Gothic with German apparatus
+  edition: 'Gothic: E. Bernhardt, Die gotische Bibel des Vulfila nebst der Skeireins, Halle 1884 (vendored)'
+  hosted: Vendored
+  licence: PD (1884)
+  english_pd: no PD English
+  already_vendored: 'yes'
+  vendored_files: wulfila_gothic-bible-skeireins-calendar-got-deu_bernhardt1884.txt
+  queued: false
+  worlds_served:
+  - gothic-and-vandal-homoian-christianity
+  worlds_with_registry_documents: []
+  n_worlds: 1
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C11.S1
+  - C11.S5
+  - C2.S3
+  - C2.S4
+  - C4.S5
+  - C5.S8
+  - C7.S1
+  - C7.S2
+  n_subquestions: 12
+  priority: 12
+  pastor_use: John 5 and following chapters in fragments; the only surviving Homoian commentary
+  caveat: Eight damaged leaves only. Mapped to the Gothic and Vandal world; no record cites it. Gothic wording needs a reader before it can be quoted.
+  reception_window:
+  - 520
+  - 700
+- rank: 118
+  id: tolkovaya-paleya
+  work: 'Explanatory Palaea (Tolkovaya Paleya): Genesis to Kings with commentary'
+  author: anonymous (Rus', 1406)
+  era: '6'
+  language: Church Slavonic
+  edition: 'Church Slavonic: Popov and Vasil''ev, Moscow 1892 (details unverified)'
+  hosted: unverified
+  licence: PD by date if 1892 confirmed
+  english_pd: no PD English
+  already_vendored: 'no'
+  vendored_files: ''
+  queued: false
+  worlds_served:
+  - muscovite-monastic-christianity
+  worlds_with_registry_documents: []
+  n_worlds: 1
+  subquestions:
+  - C10.S5
+  - C11.S1
+  - C13.S1
+  - C2.S7
+  - C4.S2
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C7.S4
+  - C7.S6
+  - C8.S4
+  n_subquestions: 12
+  priority: 12
+  pastor_use: Genesis and Exodus in Muscovite teaching
+  caveat: Research lead; includes anti-Jewish polemic, tag accordingly.
+  reception_window:
+  - 1406
+  - 1517
+- rank: 119
+  id: wycliffite-bible
+  work: Wycliffite Bible with General Prologue and glosses (translation, with prologues that explain method)
+  author: Wyclif circle, Purvey
+  era: '6'
+  language: Middle English
+  edition: Forshall and Madden, Oxford 1850 (vendored)
+  hosted: Vendored
+  licence: PD (1850)
+  english_pd: EN-PD
+  already_vendored: 'yes'
+  vendored_files: wycliffite-bible_forshall-madden1850.txt
+  queued: false
+  worlds_served:
+  - the-english-mystics-and-devout
+  - lollardy
+  - late-medieval-lay-parish-piety
+  worlds_with_registry_documents: []
+  n_worlds: 3
+  subquestions:
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S6
+  n_subquestions: 4
+  priority: 12
+  pastor_use: Only the General Prologue, chapters on the four senses and the case for vernacular Scripture
+  caveat: A translation, not a commentary. Counted because the General Prologue is exegetical.
+  reception_window:
+  - 1382
+  - 1520

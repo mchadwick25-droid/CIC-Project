@@ -1,0 +1,42 @@
+# Additions from the Opus research review, accepted by Mark 2026-10-25. Each ref names the study.
+questions:
+- {c: C2, id: R-01, k: [K1], ref: RELEVANT most-Googled faith questions 2025 (low weight); Stephens-Davidowitz NYT Googling for God 2015, s: RESEARCH, t: is god real}
+- {c: C2, id: R-02, k: [K1, K6], ref: Stephens-Davidowitz NYT Googling for God 2015, s: RESEARCH, t: who made god}
+- {c: C12, id: R-03, k: [K1, K9], ref: UCA Insights most-Googled questions 2024 (low weight); Exline et al. RSS Scale 2014 (ultimate meaning), s: RESEARCH, t: what's the point of life}
+- {c: C14, id: R-04, k: [K1], ref: Barna Gen Z 2018; Stephens-Davidowitz NYT 2015, s: RESEARCH, t: why does god let bad things happen}
+- {c: C4, id: R-05, k: [K6, K7], ref: Pew Why Americans Leave Their Religion 2025, s: RESEARCH, t: 'Can someone be good without God? Did your people think so?'}
+- {c: C8, f: [NF], id: R-06, k: [K2, K5, K9], ref: PRRI Religious Change in America 2024; Trevor Project 2022, s: RESEARCH, t: 'I''m gay and I grew up in church. Would there have been a place for someone like me among you?'}
+- {c: C14, id: R-07, k: [K5], ref: PRRI Religious Change in America 2024, s: RESEARCH, t: 'I left because of how my church treated gay people. Did your people ever push someone out over a teaching?'}
+- {c: C14, id: R-08, k: [K5], ref: PRRI Religious Change in America 2024, s: RESEARCH, t: 'Honestly, my faith was bad for my mental health. Did belief ever make people worse among you?'}
+- {c: C3, id: R-09, k: [K5, K8], ref: Slade et al. SHERM religious trauma 2023 (low-medium weight), s: RESEARCH, t: 'I was so scared of hell as a kid I couldn''t sleep. Did anyone among you warn against teaching fear like that?'}
+- {c: C14, id: R-10, k: [K5], ref: Pew Why Americans Leave Their Religion 2025; Great Dechurching 2023, s: RESEARCH, t: 'I didn''t leave angry. I just drifted, and nobody noticed. Did that happen among you?'}
+- {c: C14, id: R-11, k: [K5], ref: Great Dechurching 2023; Lifeway young adult dropouts 2019, s: RESEARCH, t: 'I moved for work and never found another church. Did people among you lose touch just by moving?'}
+- {c: C14, id: R-12, k: [K5, K2], ref: Barna State of the Church deconstruction 2024, s: RESEARCH, t: 'I''m deconstructing, but I don''t want to lose all of it. What would you tell me to keep?'}
+- {c: C14, id: R-13, k: [K5, K7], ref: Lifeway young adult dropouts 2019, s: RESEARCH, t: 'Were your people judgmental? Would they have judged me?'}
+- {c: C14, id: R-14, k: [K5, K2], ref: Lifeway young adult dropouts 2019, s: RESEARCH, t: 'I never felt connected to anyone at church. Was belonging hard among you too?'}
+- {c: C9, id: R-15, k: [K5, K2], ref: Pew Why Americans Leave Their Religion 2025; Lifeway young adult dropouts 2019, s: RESEARCH, t: 'My church got too political. Did yours ever take sides, and what did it cost?'}
+- {c: C6, id: R-16, k: [K5, K2], ref: PRRI Religious Change in America 2024; Pew Why Americans Leave 2025, s: RESEARCH, t: 'The abuse scandals in my church broke something in me. What did your people do when a priest or bishop did harm?'}
+- {c: C6, id: R-17, k: [K5, K6], ref: Pew Religious Nones in America 2024; Pew Why Americans Leave 2025, s: RESEARCH, t: 'I don''t trust religious leaders any more. Why should I trust yours?'}
+- {c: C14, id: R-18, k: [K8], ref: Exline et al. Anger toward God 2011 (older), s: RESEARCH, t: 'I''m angry at God about my mum''s death. Were your people allowed to be angry at him?'}
+- {c: C14, id: R-19, k: [K8], ref: 'Burke and Neimeyer, Inventory of Complicated Spiritual Grief 2016 (older)', s: RESEARCH, t: 'Since she died I pray and it feels like God isn''t listening. Did your people feel that when they grieved?'}
+- {c: C3, f: [FAC], id: R-20, k: [K8], ref: Lifeway Suicide and the Church 2017 (older), s: RESEARCH, t: 'My brother took his own life. What did your people believe happens to someone who dies that way?'}
+- {c: C13, id: R-21, k: [K8], ref: Pew Spiritual Experiences 2023, s: RESEARCH, t: 'Sometimes I feel my dad is still in the room. Did your people feel the dead were close?'}
+- {c: C3, id: R-22, k: [K2, K9], ref: Pew afterlife survey 2021, s: RESEARCH, t: 'Did any of your people believe we come back again, in another life?'}
+- {c: C17, moved_from: C16, f: [FAC], id: R-23, k: [K12], ref: Barna/Gloo AI and spiritual authority 2025, s: RESEARCH, t: 'Lots of people trust AI about God as much as their pastor. Should I trust you that much?'}
+- {c: C1, id: R-24, k: [K7, K9], ref: Talking Jesus 2022 (UK), s: RESEARCH, t: 'Most people I know say Jesus was a prophet or a good teacher. Why wasn''t that enough for you?'}
+- {c: C2, id: R-25, k: [K2], ref: Lifeway/Ligonier State of Theology 2025, s: RESEARCH, t: 'Is the Holy Spirit a person, or more like a force?'}
+- {c: C11, id: R-26, k: [K2, K7], ref: Lifeway/Ligonier State of Theology 2025, s: RESEARCH, t: 'Does God accept the worship of every religion? Did your people think so?'}
+- {c: C5, id: R-27, k: [K6, K9], ref: RELEVANT most-Googled faith questions 2025 (low weight), s: RESEARCH, t: 'Is the Bible reliable? How would I even check?'}
+- {c: C5, id: R-28, k: [K6, K1], ref: Barna Gen Z 2018 (older fieldwork), s: RESEARCH, t: 'Doesn''t science disprove most of the Bible?'}
+- {c: C13, id: R-29, k: [K6], ref: Barna Gen Z 2018 (older fieldwork), s: RESEARCH, t: 'It all sounds like fairy tales to me. Why did you believe it?'}
+- {c: C9, id: R-30, k: [K6, K7], ref: Barna Gen Z 2018 (older fieldwork), s: RESEARCH, t: 'There''s so much injustice in Christian history. Why should anyone trust it now?'}
+- {c: C14, f: [VERSE], id: R-31, k: [K10, K8], ref: YouVersion Verse of the Year 2025, s: RESEARCH, t: 'Isaiah 41:10, ''Do not fear, for I am with you.'' Did your people hold on to that?'}
+- {c: C7, f: [VERSE], id: R-32, k: [K10, K9], ref: YouVersion Verse of the Year 2024, s: RESEARCH, t: '''Do not be anxious about anything'', Philippians 4:6. How did your people pray when they were anxious?'}
+- {c: C5, f: [VERSE], id: R-33, k: [K10], ref: YouVersion 2025 (Tanzania national verse), s: RESEARCH, t: 'Jeremiah 29:11, ''plans to prosper you''. Did your people read that as a promise to them?'}
+- {c: C7, id: R-34, k: [K9, K8], ref: YouVersion 2025 top search terms, s: RESEARCH, t: 'I''m anxious most of the time. Did prayer help your people with worry?'}
+- {c: C2, id: R-35, k: [K9], ref: Barna Engaging the Spiritually Open 2024; RELEVANT 2025 (low weight), s: RESEARCH, t: 'Can I actually know God personally, or is that just something churches say?'}
+- {c: C2, id: R-36, k: [K9], ref: Springtide State of Religion and Young People 2023, s: RESEARCH, t: 'I feel something sacred outdoors more than in church. Did your people know that feeling?'}
+- {c: C11, id: R-37, k: [K9, K7], ref: Pew Spirituality Among Americans 2023; Theos The Nones 2022 (UK), s: RESEARCH, t: 'I believe in something, just not religion. Is there room for someone like me in your story?'}
+- {c: C11, id: R-38, k: [K9, K7], ref: Barna Reviving Evangelism 2019 (commissioned by Alpha USA), s: RESEARCH, t: 'Is it wrong to try to change someone''s religion? A lot of Christians my age think so.'}
+- {c: C6, id: R-39, k: [K3], ref: Barna pastors considering quitting 2022, s: RESEARCH, t: 'Being a pastor is lonely. Were your leaders lonely, and who looked after them?'}
+- {c: C6, id: R-40, k: [K3], ref: Barna pastors considering quitting 2022; Lifeway former pastors 2025, s: RESEARCH, t: 'My congregation is split down the middle. Did a leader among you ever have to hold a divided church together?'}

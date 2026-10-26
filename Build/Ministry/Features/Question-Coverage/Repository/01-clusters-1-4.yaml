@@ -1,0 +1,113 @@
+questions:
+# ---------- C1 Jesus ----------
+- {id: C1-01, c: C1, k: [K1,K9], s: REAL, ref: "admin dashboard, most repeated, per pilot thread 2026-10-24", t: "who is jesus"}
+- {id: C1-02, c: C1, k: [K1,K2,K3], s: EXISTS, ref: "CANON C-I", t: "Who was Jesus, to you and your people?"}
+- {id: C1-03, c: C1, k: [K1,K9], s: EXISTS, ref: "CANON C-I", t: "What is the good news, as your people told it?"}
+- {id: C1-04, c: C1, k: [K3], s: EXISTS, ref: "CANON C-I", t: "What did Jesus teach that mattered most among you?"}
+- {id: C1-05, c: C1, k: [K2,K9], s: EXISTS, ref: "CANON C-I", t: "What did his death mean to you?"}
+- {id: C1-06, c: C1, k: [K2,K6], s: EXISTS, ref: "CANON C-I", t: "What did you believe happened at the resurrection — and what difference did it make?"}
+- {id: C1-07, c: C1, k: [K4,K6], s: EXISTS, ref: "CANON C-E", t: "What did your people actually have about Jesus — writings, memories, people? How did it reach you?"}
+- {id: C1-08, c: C1, k: [K4,K11], s: EXISTS, ref: "CANON C-E", t: "Had anyone among you known someone who saw him?"}
+- {id: C1-09, c: C1, k: [K6], s: EXISTS, ref: "CANON C-E", t: "How do you know the resurrection really happened?"}
+- {id: C1-10, c: C1, k: [K9], s: EXISTS, ref: "CANON C-P", t: "I want to believe in Jesus, but I can't. What would you say to me?"}
+- {id: C1-11, c: C1, k: [K5,K9], s: EXISTS, ref: "CANON C-P", t: "Who is Jesus to you — not to your church, to you?"}
+- {id: C1-12, c: C1, k: [K8,K9], s: EXISTS, ref: "CANON C-P", t: "Would Jesus have wanted anything to do with someone like me?"}
+- {id: C1-13, c: C1, k: [K2,K4], s: EXISTS, ref: "CANON C-T", t: "Was Jesus God? Did you believe in the Trinity?"}
+- {id: C1-14, c: C1, k: [K2,K3], s: EXISTS, ref: "CANON C-T", t: "Did Jesus die to take our punishment — in our place, for our sins?"}
+- {id: C1-15, c: C1, k: [K2], s: EXISTS, ref: "CANON C-T", t: "Would you say Jesus is your personal Lord and Savior?"}
+- {id: C1-16, c: C1, k: [K6,K7], s: PREDICTED, t: "Did Jesus really exist? How would you even know?"}
+- {id: C1-17, c: C1, k: [K1,K11], s: PREDICTED, t: "What did Jesus look like? Did anyone among you describe him?"}
+- {id: C1-18, c: C1, k: [K6], s: PREDICTED, t: "Wasn't the resurrection a story that grew in the telling?"}
+- {id: C1-19, c: C1, k: [K2,K7], s: PREDICTED, t: "Was Jesus a Jew to you? Did that matter?"}
+- {id: C1-20, c: C1, k: [K1,K9], s: PREDICTED, t: "What did Jesus actually do all day? What was he like?"}
+- {id: C1-21, c: C1, k: [K2], s: PREDICTED, t: "Did you believe in the virgin birth?"}
+- {id: C1-22, c: C1, k: [K2,K6], s: PREDICTED, t: "Did Jesus know he was God? Did he ever doubt?"}
+- {id: C1-23, c: C1, k: [K3], s: PREDICTED, t: "Which story about Jesus did your people tell most often?"}
+- {id: C1-24, c: C1, k: [K10], s: PREDICTED, f: [VERSE], t: "What did you make of Jesus saying 'the Father is greater than I'?"}
+- {id: C1-25, c: C1, k: [K4], s: PREDICTED, t: "Did you have the same four gospels we do, or fewer, or more?"}
+- {id: C1-26, c: C1, k: [K7], s: PREDICTED, t: "Would Jesus have accepted me as I am, without converting?"}
+- {id: C1-27, c: C1, k: [K1], s: PREDICTED, t: "why did they kill him"}
+- {id: C1-28, c: C1, k: [K5], s: PREDICTED, t: "Is the Jesus you believed in the same one my church preaches? He sounds different."}
+
+# ---------- C2 God, Trinity, Spirit ----------
+- {id: C2-01, c: C2, k: [K1,K2], s: EXISTS, ref: "CANON F1-I", t: "What did you believe about God?"}
+- {id: C2-02, c: C2, k: [K2,K3], s: EXISTS, ref: "CANON F1-I", t: "Who or what is the Holy Spirit, to your people?"}
+- {id: C2-03, c: C2, k: [K4,K6], s: EXISTS, ref: "CANON F1-I", t: "What did the councils in your time decide, and why did it matter so much?"}
+- {id: C2-04, c: C2, k: [K6], s: EXISTS, ref: "CANON F1-E", t: "I've heard a council basically voted Jesus into being God. Is that what happened?"}
+- {id: C2-05, c: C2, k: [K9], s: EXISTS, ref: "CANON F1-P", t: "Could God be felt and experienced among your people, or only believed?"}
+- {id: C2-06, c: C2, k: [K1,K9], s: EXISTS, ref: "PROBE alx Phase5", t: "It kind of breaks my head. How is he with God and also is God? That's a contradiction."}
+- {id: C2-07, c: C2, k: [K4], s: EXISTS, ref: "PROBE alx Phase5", t: "How do you reconcile your view with the filioque — the Spirit proceeding from the Son as well as the Father?"}
+- {id: C2-08, c: C2, k: [K2], s: PREDICTED, t: "Did you speak in tongues? Did the Spirit do things in your meetings?"}
+- {id: C2-09, c: C2, k: [K5,K8], s: PREDICTED, t: "Was God angry, to you? A father or a judge?"}
+- {id: C2-10, c: C2, k: [K1], s: PREDICTED, t: "what is the trinity in plain words"}
+- {id: C2-11, c: C2, k: [K7], s: PREDICTED, t: "Is your God the same God Jews and Muslims pray to?"}
+- {id: C2-12, c: C2, k: [K6], s: PREDICTED, t: "If God is one, why three? Isn't that just three gods with a disclaimer?"}
+- {id: C2-13, c: C2, k: [K2], s: PREDICTED, t: "Did you believe the Spirit still speaks today, through prophets?"}
+- {id: C2-14, c: C2, k: [K3], s: PREDICTED, t: "How did you teach the Trinity to someone new without losing them?"}
+- {id: C2-15, c: C2, k: [K4], s: PREDICTED, t: "Where did your people stand on Arius? Was the word 'homoousios' yours or forced on you?"}
+- {id: C2-16, c: C2, k: [K9], s: PREDICTED, t: "Did you think God could be known, or only approached?"}
+- {id: C2-17, c: C2, k: [K1,K11], s: PREDICTED, t: "Did you picture God? Did you draw or carve him?"}
+- {id: C2-18, c: C2, k: [K2], s: PREDICTED, t: "Did you believe God still heals people?"}
+- {id: C2-19, c: C2, k: [K5], s: PREDICTED, t: "Was your God someone you could be angry at?"}
+- {id: C2-20, c: C2, k: [K6], s: PREDICTED, t: "Did God create evil? Where did it come from, in your view?"}
+- {id: C2-21, c: C2, k: [K4], s: PREDICTED, t: "Was the Spirit called God in your time, or did that come later?"}
+
+# ---------- C3 Hell, heaven, judgment, after death ----------
+- {id: C3-01, c: C3, k: [K2,K6,K7], s: EXISTS, ref: "CANON F6-T", t: "Do you believe people like me — people outside your community — are going to hell?"}
+- {id: C3-02, c: C3, k: [K2,K6], s: REAL, ref: "Mark, in person, 2026-10", t: "What was your view on hell: eternal torment or restorative?"}
+- {id: C3-03, c: C3, k: [K2,K6], s: REAL, ref: "Mark, in person, 2026-10", t: "Was hell eternal, or annihilation?"}
+- {id: C3-04, c: C3, k: [K2], s: REAL, ref: "Mark, in person, 2026-10", t: "What was your view on salvation after life?"}
+- {id: C3-05, c: C3, k: [K1,K2], s: PREDICTED, t: "Did you believe in hell at all? Was it a real place to you?"}
+- {id: C3-06, c: C3, k: [K2,K6], s: PREDICTED, t: "Was hell forever for you, or did it end?"}
+- {id: C3-07, c: C3, k: [K2,K6], s: PREDICTED, t: "Did you believe everyone gets saved in the end? Even the devil?"}
+- {id: C3-08, c: C3, k: [K2], s: PREDICTED, t: "Did you think the wicked are destroyed rather than tortured?"}
+- {id: C3-09, c: C3, k: [K1,K8], s: PREDICTED, t: "What happens the moment you die? Is there a waiting place?"}
+- {id: C3-10, c: C3, k: [K2,K8], s: PREDICTED, t: "Did you pray for your dead? Could it help them?"}
+- {id: C3-11, c: C3, k: [K2], s: PREDICTED, t: "Did you believe in purgatory?"}
+- {id: C3-12, c: C3, k: [K1,K8], s: PREDICTED, t: "What's heaven like? Did you expect to see people you loved again?"}
+- {id: C3-13, c: C3, k: [K8], s: PREDICTED, f: [FAC], t: "My dad died without believing any of this. Is he in hell?"}
+- {id: C3-14, c: C3, k: [K8], s: PREDICTED, f: [FAC], t: "I'm scared I'm going to hell. How would you have helped someone like me?"}
+- {id: C3-15, c: C3, k: [K8], s: PREDICTED, f: [FAC], t: "My baby died before she was baptised. What did your people say about that?"}
+- {id: C3-16, c: C3, k: [K2,K6], s: PREDICTED, t: "Did you think babies who died went to hell?"}
+- {id: C3-17, c: C3, k: [K6], s: PREDICTED, t: "Isn't eternal punishment for a short life just unjust? Did anyone among you say so?"}
+- {id: C3-18, c: C3, k: [K2,K3], s: EXISTS, ref: "CANON F4-T", t: "What did you believe about the end of the world — anything like what we call the rapture?"}
+- {id: C3-19, c: C3, k: [K2], s: PREDICTED, t: "Did you believe in the resurrection of the body, or just the soul going to heaven?"}
+- {id: C3-20, c: C3, k: [K2,K4], s: PREDICTED, t: "Did you think the end was coming in your lifetime?"}
+- {id: C3-21, c: C3, k: [K3], s: PREDICTED, t: "How did you preach about judgment without just frightening people?"}
+- {id: C3-22, c: C3, k: [K4], s: PREDICTED, f: [NAMED], t: "Did Origen really teach that everyone would be saved, and was he condemned for it?"}
+- {id: C3-23, c: C3, k: [K4], s: PREDICTED, f: [NAMED], t: "What did Gregory of Nyssa say about the restoration of all things?"}
+- {id: C3-24, c: C3, k: [K10], s: PREDICTED, f: [VERSE], t: "What did you make of 'the gates of Hades will not prevail'?"}
+- {id: C3-25, c: C3, k: [K10], s: PREDICTED, f: [VERSE], t: "When Jesus says 'eternal fire' in Matthew 25, did you take that literally?"}
+- {id: C3-26, c: C3, k: [K7], s: PREDICTED, t: "Did you think all Jews were damned? All pagans?"}
+- {id: C3-27, c: C3, k: [K1], s: PREDICTED, t: "do you believe in ghosts"}
+- {id: C3-28, c: C3, k: [K2], s: PREDICTED, t: "Could you lose heaven after being baptised?"}
+- {id: C3-29, c: C3, k: [K11], s: PREDICTED, t: "How did you picture hell? Fire? Darkness? Cold?"}
+- {id: C3-30, c: C3, k: [K5], s: PREDICTED, t: "Was hell used to keep people in line? Did it work on you?"}
+
+# ---------- C4 Salvation, grace, works ----------
+- {id: C4-01, c: C4, k: [K2], s: EXISTS, ref: "CANON F1-T", t: "Did you believe people are saved by faith alone, not works?"}
+- {id: C4-02, c: C4, k: [K2,K6], s: EXISTS, ref: "CANON F1-T", t: "What did your community believe about original sin — are people born already guilty?"}
+- {id: C4-03, c: C4, k: [K2,K8], s: EXISTS, ref: "SITE rzg", t: "How can I actually know if I'm one of the elect? What if I'm not? This whole idea terrifies me."}
+- {id: C4-04, c: C4, k: [K2,K9], s: EXISTS, ref: "CANON F4-T", t: "Were you born again — is that how you'd put what happened to you?"}
+- {id: C4-05, c: C4, k: [K3], s: EXISTS, ref: "CURRICULUM Pastor · Failure", t: "What did you say to the ones who were afraid they'd used up their chance?"}
+- {id: C4-06, c: C4, k: [K2,K3], s: EXISTS, ref: "STARTER pahc", t: "Only one chance at forgiveness after baptism? If mercy runs out once, what kind of God is that?"}
+- {id: C4-07, c: C4, k: [K2], s: PREDICTED, t: "Could you lose your salvation?"}
+- {id: C4-08, c: C4, k: [K2,K7], s: PREDICTED, t: "What about people who never heard of Jesus?"}
+- {id: C4-09, c: C4, k: [K2,K4], s: PREDICTED, t: "Did you believe in free will, or did God decide everything in advance?"}
+- {id: C4-10, c: C4, k: [K2], s: PREDICTED, t: "Did you believe in predestination? Did it frighten you?"}
+- {id: C4-11, c: C4, k: [K1,K9], s: PREDICTED, t: "what do i have to do to be saved"}
+- {id: C4-12, c: C4, k: [K2], s: PREDICTED, t: "Is baptism needed to be saved? What if someone died on the way to the water?"}
+- {id: C4-13, c: C4, k: [K2,K6], s: PREDICTED, t: "Did you earn heaven by good works? Be honest."}
+- {id: C4-14, c: C4, k: [K2], s: PREDICTED, t: "What's grace, in your own words? Not the dictionary one."}
+- {id: C4-15, c: C4, k: [K5], s: PREDICTED, t: "Were you ever told you were saved and then told you weren't? Did that happen among you?"}
+- {id: C4-16, c: C4, k: [K3], s: PREDICTED, t: "How did your people describe what changes in a person when they're saved?"}
+- {id: C4-17, c: C4, k: [K4], s: PREDICTED, f: [NAMED], t: "Where did you stand between Augustine and Pelagius, and did ordinary people even know the argument?"}
+- {id: C4-18, c: C4, k: [K2], s: PREDICTED, t: "Did you believe in indulgences? Could you pay your way out?"}
+- {id: C4-19, c: C4, k: [K2], s: PREDICTED, t: "Did you have assurance? Did anyone among you know they were saved?"}
+- {id: C4-20, c: C4, k: [K10], s: PREDICTED, f: [VERSE], t: "What did you do with 'faith without works is dead' in James?"}
+- {id: C4-21, c: C4, k: [K10], s: PREDICTED, f: [VERSE], t: "How did you read Romans 9, the potter and the clay?"}
+- {id: C4-22, c: C4, k: [K7], s: PREDICTED, t: "Could a good person of another religion be saved, in your eyes?"}
+- {id: C4-23, c: C4, k: [K9], s: PREDICTED, t: "Do I have to believe everything at once, or can I start somewhere?"}
+- {id: C4-24, c: C4, k: [K6], s: PREDICTED, t: "Isn't 'saved by grace' just a way of saying nothing you do matters?"}
+- {id: C4-25, c: C4, k: [K2], s: PREDICTED, t: "Was there a sin that could not be forgiven, in your teaching?"}
+- {id: C4-26, c: C4, k: [K3], s: PREDICTED, t: "What did you tell someone who kept falling into the same sin?"}

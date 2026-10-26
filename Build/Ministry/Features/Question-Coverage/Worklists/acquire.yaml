@@ -1,0 +1,3582 @@
+# Generated 2026-10-26 from the sixteen coverage reports C1 to C16 (scratchpad/search/). Read-only extraction; nothing in the repo was changed. Wording is the reports' own.
+_about: "Every source named as IDENTIFIED (registered, not vendored) or OTHER (outside the repo) in the sixteen coverage reports, one row per work, deduplicated across clusters. priority = number of distinct world x sub-question cells it unlocks (cells listed with cluster ids; 'fleet' = the report names no single world; '*' = the report names the world but not a sub-question). english_in_copyright marks rows where only the Latin/Greek/German/Syriac/French is public domain, or the whole work is in copyright. Licences are as stated in the reports (edition dates and hosts), not re-verified online; 'not stated in report' means the report gave none. The 4-cluster list is kept as acquire-4cluster.*. One 4-cluster row (Tyconius, Liber Regularum) was moved out because C5 found it vendored."
+counts:
+  acquire_rows: 165
+  distinct_world_by_subquestion_cells_unlocked: 233
+  english_in_copyright_rows: 71
+  registry_drift_rows: 18
+  listed_as_other_but_already_vendored: 43
+  rows_new_since_4_cluster_list: 98
+  rows_moved_out_as_already_vendored: 1
+  paths_checked: 59
+  paths_missing: 0
+  per_cluster:
+    C1:
+      rows: 14
+      cells_unlocked: 13
+      english_in_copyright_rows: 5
+    C2:
+      rows: 12
+      cells_unlocked: 11
+      english_in_copyright_rows: 5
+    C3:
+      rows: 35
+      cells_unlocked: 36
+      english_in_copyright_rows: 19
+    C4:
+      rows: 15
+      cells_unlocked: 11
+      english_in_copyright_rows: 7
+    C5:
+      rows: 12
+      cells_unlocked: 14
+      english_in_copyright_rows: 3
+    C6:
+      rows: 15
+      cells_unlocked: 18
+      english_in_copyright_rows: 7
+    C7:
+      rows: 15
+      cells_unlocked: 19
+      english_in_copyright_rows: 6
+    C8:
+      rows: 6
+      cells_unlocked: 8
+      english_in_copyright_rows: 4
+    C9:
+      rows: 12
+      cells_unlocked: 12
+      english_in_copyright_rows: 5
+    C10:
+      rows: 13
+      cells_unlocked: 15
+      english_in_copyright_rows: 8
+    C11:
+      rows: 23
+      cells_unlocked: 21
+      english_in_copyright_rows: 10
+    C12:
+      rows: 12
+      cells_unlocked: 14
+      english_in_copyright_rows: 1
+    C13:
+      rows: 30
+      cells_unlocked: 22
+      english_in_copyright_rows: 17
+    C14:
+      rows: 13
+      cells_unlocked: 16
+      english_in_copyright_rows: 7
+    C15:
+      rows: 2
+      cells_unlocked: 2
+      english_in_copyright_rows: 1
+    C16:
+      rows: 1
+      cells_unlocked: 1
+      english_in_copyright_rows: 0
+    C17:
+      rows: 0
+      cells_unlocked: 0
+      english_in_copyright_rows: 0
+  per_world:
+    alx:
+      rows: 13
+      cells_unlocked: 18
+    cappadocian:
+      rows: 26
+      cells_unlocked: 28
+    desert:
+      rows: 11
+      cells_unlocked: 15
+    don:
+      rows: 9
+      cells_unlocked: 18
+    gallic:
+      rows: 16
+      cells_unlocked: 10
+    hal:
+      rows: 2
+      cells_unlocked: 3
+    ijc:
+      rows: 9
+      cells_unlocked: 14
+    lpc:
+      rows: 7
+      cells_unlocked: 8
+    pahc:
+      rows: 6
+      cells_unlocked: 10
+    rzg:
+      rows: 24
+      cells_unlocked: 36
+    syr:
+      rows: 18
+      cells_unlocked: 25
+    witt:
+      rows: 26
+      cells_unlocked: 35
+    aec:
+      rows: 1
+      cells_unlocked: 1
+    hus:
+      rows: 1
+      cells_unlocked: 1
+    jes:
+      rows: 1
+      cells_unlocked: 1
+    meth:
+      rows: 2
+      cells_unlocked: 2
+    obel:
+      rows: 1
+      cells_unlocked: 1
+    rcg:
+      rows: 1
+      cells_unlocked: 1
+    wsyr:
+      rows: 2
+      cells_unlocked: 2
+    fleet:
+      rows: 4
+      cells_unlocked: 4
+acquire:
+  - rank: 1
+    priority: 11
+    work: "Didascalia Apostolorum"
+    author: "anon. (Syria, 3rd c.)"
+    edition: "M.D. Gibson, The Didascalia Apostolorum in English (Horae Semiticae 2, London 1903); R.H. Connolly (Oxford 1929) is the better text"
+    hosted: "archive.org"
+    licence: "Gibson 1903 public domain; Connolly 1929 US public domain, other territories unchecked"
+    english_in_copyright: false
+    worlds:
+      - "alx"
+      - "pahc"
+      - "syr"
+    unlocks:
+      - "C6/S1"
+      - "C6/S5"
+      - "C6/S6"
+      - "C7/S1"
+      - "C7/S2"
+      - "C8/S2"
+    cells:
+      - "alx:C8/S2"
+      - "pahc:C6/S1"
+      - "pahc:C6/S5"
+      - "pahc:C6/S6"
+      - "pahc:C8/S2"
+      - "syr:C6/S1"
+      - "syr:C6/S5"
+      - "syr:C6/S6"
+      - "syr:C7/S1"
+      - "syr:C7/S2"
+      - "syr:C8/S2"
+    identified_as: []
+    notes: "C6: bishop as judge of the community, presbyters, deacons, deaconesses, widows, penance and exclusion; C7: penance and readmission, the fast before Pascha, who is refused the offering; C8: deaconesses, widows, separation."
+  - rank: 2
+    priority: 9
+    work: "Donatist martyr acts (Passio Marculi; Passio Maximiani et Isaac; Sermo de passione Donati) in English"
+    author: "anon. (Donatist)"
+    edition: "English: Maureen Tilley, Donatist Martyr Stories, TTH 24 (Liverpool 1996); Latin PL 8 (Migne)"
+    hosted: "not stated (Tilley); archive.org (PL 8)"
+    licence: "Latin public domain; Tilley English in copyright"
+    english_in_copyright: true
+    worlds:
+      - "don"
+    unlocks:
+      - "C3/S1"
+      - "C3/S2"
+      - "C3/S6"
+      - "C6/S1"
+      - "C7/S2"
+      - "C9/S1"
+      - "C9/S2"
+      - "C13/S5"
+      - "C14/S3"
+    cells:
+      - "don:C3/S1"
+      - "don:C3/S2"
+      - "don:C3/S6"
+      - "don:C6/S1"
+      - "don:C7/S2"
+      - "don:C9/S1"
+      - "don:C9/S2"
+      - "don:C13/S5"
+      - "don:C14/S3"
+    identified_as:
+      - "don.source.tilley-donatist-martyr-stories (kind: unvendored); WANTS unclassified"
+      - "don.source.acta-saturnini-abitinian-martyrs (kind: unvendored; Latin vendored)"
+    notes: "The Latin PL 8 text is ALREADY vendored (cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt, Passio Marculi at line 666); only an English is missing, and the only English is in copyright. The crown-of-martyrdom eschatology in the movement's own voice; lament rhetoric for C14/S3. C7, C9, C13: the Acta Saturnini (Abitinian martyrs: \"we cannot live without the dominicum\") are registered unvendored as don.source.acta-saturnini-abitinian-martyrs although the Latin is vendored in PL 8 (lines 1781, 2974); C9 and C13 name the cult at the graves."
+  - rank: 3
+    priority: 9
+    work: "Registers of the Consistory of Geneva in the Time of Calvin, vol. 1"
+    author: "ed. Robert Kingdon et al."
+    edition: "Eerdmans 2000; the French Droz edition also in copyright"
+    hosted: "not stated in report"
+    licence: "in copyright"
+    english_in_copyright: true
+    worlds:
+      - "rzg"
+    unlocks:
+      - "C3/S7"
+      - "C4/S5"
+      - "C6/S1"
+      - "C6/S8"
+      - "C13/S6"
+      - "C14/S4"
+      - "C14/S5"
+      - "C14/S6"
+      - "C14/S7"
+    cells:
+      - "rzg:C3/S7"
+      - "rzg:C4/S5"
+      - "rzg:C6/S1"
+      - "rzg:C6/S8"
+      - "rzg:C13/S6"
+      - "rzg:C14/S4"
+      - "rzg:C14/S5"
+      - "rzg:C14/S6"
+      - "rzg:C14/S7"
+    identified_as:
+      - "rzg.source.geneva-consistory-registers (kind: unvendored); WANTS"
+    notes: "What ordinary doubters said when examined; where Geneva's practice on suicide would show; the only case material for 'were your people judgmental'. Copyright blocks it. C6: the ordinary practice of the consistory; C13: sorcery and the plague-spreaders of 1545. Egli, Actensammlung (1879) and Calvini Opera 21 are the public-domain route for part of the C13 material."
+  - rank: 4
+    priority: 8
+    work: "Fidei expositio / A Short and Clear Exposition of the Christian Faith (1531: the company of heaven incl. Hercules, Socrates, the Catos); Fidei ratio (1530); Sermon on the Providence of God (1530)"
+    author: "Huldrych Zwingli"
+    edition: "The Latin Works of Huldreich Zwingli, vol. 2, ed. W.J. Hinke (Heidelberg Press, Philadelphia 1922), pp. 235-293 and 33-61"
+    hosted: "archive.org"
+    licence: "public domain in the US (1922)"
+    english_in_copyright: false
+    worlds:
+      - "rzg"
+    unlocks:
+      - "C2/S3"
+      - "C3/S6"
+      - "C3/S7"
+      - "C4/S3"
+      - "C4/S6"
+      - "C11/S5"
+      - "C11/S6"
+      - "C11/S8"
+    cells:
+      - "rzg:C2/S3"
+      - "rzg:C3/S6"
+      - "rzg:C3/S7"
+      - "rzg:C4/S3"
+      - "rzg:C4/S6"
+      - "rzg:C11/S5"
+      - "rzg:C11/S6"
+      - "rzg:C11/S8"
+    identified_as: []
+    notes: "Vols. 1 and 3 are vendored; vol. 2 is the one volume missing. C4 fleet note: rzg has no answer to \"people who never heard\" unless this is vendored. C2: the Trinity in the Exposition; C11: Socrates, Hercules, Theseus and Cato among the saved. Latin Works vol. 2 (Hinke 1922) is the one Zwingli volume not vendored."
+  - rank: 5
+    priority: 7
+    work: "Codex Theodosianus in English (XVI.5, IX.17, 16.7: heretics' burial and tombs; apostates)"
+    author: "Clyde Pharr (trans.)"
+    edition: "The Theodosian Code (Princeton 1952); Latin: Mommsen-Meyer (Berlin 1905)"
+    hosted: "archive.org (Mommsen)"
+    licence: "Latin public domain; Pharr English in copyright"
+    english_in_copyright: true
+    worlds:
+      - "cappadocian"
+      - "don"
+      - "ijc"
+    unlocks:
+      - "C3/S7"
+      - "C9/S5"
+      - "C11/S1"
+      - "C11/S3"
+      - "C13/S6"
+      - "C14/S7"
+    cells:
+      - "cappadocian:C9/S5"
+      - "don:C13/S6"
+      - "ijc:C3/S7"
+      - "ijc:C11/S1"
+      - "ijc:C11/S3"
+      - "ijc:C13/S6"
+      - "ijc:C14/S7"
+    identified_as:
+      - "cappadocian.source.pharr-theodosian-code-translation (kind: unvendored)"
+    notes: "The Latin is ALREADY vendored (cic/texts/codex-theodosianus_latinlibrary.txt, cited by C14 ijc S7). C11: CTh 16.8 (Jews) and 16.10 (pagans); C13: IX.16 (magic, divination) and XVI.5. Pharr (Princeton 1952) is in copyright; the Latin (Mommsen-Meyer 1905) is vendored."
+  - rank: 6
+    priority: 6
+    work: "Demonstrations III (On Fasting), IV (On Prayer), XI-XIX, XIV and XX (Syriac with Latin)"
+    author: "Aphrahat"
+    edition: "J. Parisot, Patrologia Syriaca I.1 (Paris 1894) and I.2/II (1907); English only in Lehto (Gorgias 2010) and Neusner (Brill 1971), in copyright"
+    hosted: "archive.org (Patrologia Syriaca)"
+    licence: "Syriac and Latin public domain; English not"
+    english_in_copyright: true
+    worlds:
+      - "syr"
+    unlocks:
+      - "C7/S3"
+      - "C7/S5"
+      - "C10/S2"
+      - "C10/S4"
+      - "C11/S1"
+      - "C11/S2"
+    cells:
+      - "syr:C7/S3"
+      - "syr:C7/S5"
+      - "syr:C10/S2"
+      - "syr:C10/S4"
+      - "syr:C11/S1"
+      - "syr:C11/S2"
+    identified_as: []
+    notes: "NPNF 13 holds only Dem. I, V, VI, VIII, X, XVII, XXI, XXII and Hallock 1932 only II and VII. C7: Dem. III and IV; C10: XX (helping the poor) and XIV; C11: XI-XIX (circumcision, Passover, Sabbath, foods, the peoples)."
+  - rank: 7
+    priority: 5
+    work: "Saxon visitation protocols (1527-29)"
+    author: "Saxon visitors"
+    edition: "German: Sehling, Die evangelischen Kirchenordnungen des XVI. Jahrhunderts, Bd. 1 (Leipzig 1902)"
+    hosted: "archive.org"
+    licence: "public domain (German)"
+    english_in_copyright: false
+    worlds:
+      - "witt"
+    unlocks:
+      - "C6/S8"
+      - "C10/S6"
+      - "C12/S3"
+      - "C14/S6"
+      - "C14/S7"
+    cells:
+      - "witt:C6/S8"
+      - "witt:C10/S6"
+      - "witt:C12/S3"
+      - "witt:C14/S6"
+      - "witt:C14/S7"
+    identified_as:
+      - "witt.source.saxon-visitation-protocols (kind: unvendored)"
+    notes: "\"The drift, measured\": the bishop/visitation accountability question is only identified. C12 adds Sehling, Die evangelischen Kirchenordnungen (German public domain) as the route to the ordinary parish."
+  - rank: 8
+    priority: 4
+    work: "Dass Jesus Christus ein geborener Jude sei / That Jesus Christ Was Born a Jew (1523)"
+    author: "Martin Luther"
+    edition: "German: WA 11; English: LW 45 (1962)"
+    hosted: "archive.org (Weimarer Ausgabe)"
+    licence: "German public domain; English LW 45 (1962) in copyright"
+    english_in_copyright: true
+    worlds:
+      - "witt"
+    unlocks:
+      - "C1/S2"
+      - "C1/S6"
+      - "C2/S2"
+      - "C11/S1"
+    cells:
+      - "witt:C1/S2"
+      - "witt:C1/S6"
+      - "witt:C2/S2"
+      - "witt:C11/S1"
+    identified_as:
+      - "witt.source.luther-that-jesus-christ-was-born (kind: unvendored; WANTS-REGISTER row)"
+    notes: "The one text in the fleet whose title answers C1-19; the single IDENTIFIED cell in the C1 table. C2 also names Bibliander, Machumetis ... (Basel 1543) with Luther's preface."
+  - rank: 9
+    priority: 4
+    work: "Nepheros archive (Melitian rival)"
+    author: "papyri"
+    edition: "not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "desert"
+    unlocks:
+      - "C10/S6"
+      - "C11/S8"
+      - "C12/S3"
+      - "C12/S8"
+    cells:
+      - "desert:C10/S6"
+      - "desert:C11/S8"
+      - "desert:C12/S3"
+      - "desert:C12/S8"
+    identified_as:
+      - "desert.source.nepheros-archive (kind: unvendored)"
+    notes: ""
+  - rank: 10
+    priority: 4
+    work: "Ordonnances ecclesiastiques (1541)"
+    author: "John Calvin"
+    edition: "Opera Calvini vol. 10/1 (Brunswick 1871), French; English: Reid translation (1954), and Calvin: Theological Treatises"
+    hosted: "not stated in report"
+    licence: "public domain (French); Reid translation (1954) in copyright"
+    english_in_copyright: true
+    worlds:
+      - "rzg"
+    unlocks:
+      - "C6/S1"
+      - "C6/S6"
+      - "C10/S4"
+      - "C10/S6"
+    cells:
+      - "rzg:C6/S1"
+      - "rzg:C6/S6"
+      - "rzg:C10/S4"
+      - "rzg:C10/S6"
+    identified_as:
+      - "rzg.source.ecclesiastical-ordinances-1541 (kind: unvendored)"
+    notes: "C6: the 1576 council revision is vendored in French, the 1541 text is only named; see registry drift below."
+  - rank: 11
+    priority: 4
+    work: "The Apostolic Tradition"
+    author: "Hippolytus (attrib.)"
+    edition: "B.S. Easton (Cambridge 1934); Dix (SPCK 1937) in copyright"
+    hosted: "archive.org / HathiTrust"
+    licence: "rights to be confirmed (1934 US renewal not checked); the ancient witnesses are public domain"
+    english_in_copyright: false
+    worlds:
+      - "alx"
+      - "pahc"
+    unlocks:
+      - "C6/S1"
+      - "C6/S6"
+      - "C7/S1"
+      - "C10/S7"
+    cells:
+      - "alx:C6/S1"
+      - "alx:C6/S6"
+      - "alx:C10/S7"
+      - "pahc:C7/S1"
+    identified_as: []
+    notes: "C6: the bishop \"chosen by all the people\", ordination of presbyters and deacons, the deaconess not ordained; C7: order of baptism, bread and cup, hours of prayer, fasting; C10: ch. 16, trades barred to catechumens (Egyptian and Latin witnesses); C9 names ch. 16 on soldiers and magistrates without a world."
+  - rank: 12
+    priority: 4
+    work: "Vorrede auf das Neue Testament / Preface to the New Testament (1522)"
+    author: "Martin Luther"
+    edition: "German: WA DB 6; English: Works of Martin Luther vol. 6 (Holman 1932)"
+    hosted: "archive.org"
+    licence: "German public domain; Holman English US-PD only from 2028"
+    english_in_copyright: true
+    worlds:
+      - "witt"
+    unlocks:
+      - "C1/S7"
+      - "C5/S1"
+      - "C5/S5"
+      - "C5/S6"
+    cells:
+      - "witt:C1/S7"
+      - "witt:C5/S1"
+      - "witt:C5/S5"
+      - "witt:C5/S6"
+    identified_as:
+      - "witt.source.luther-das-newe-testament-deutzsch (kind: unvendored)"
+      - "witt.source.luther-das-newe-testament-deutzsch (kind: unvendored)"
+    notes: "Ranks John first; the natural text for 'which gospels'. C5: registered as witt.source.luther-das-newe-testament-deutzsch (unvendored; the prefaces on James, Jude, Revelation); Philadelphia Works vol. 6 is the English."
+  - rank: 13
+    priority: 3
+    work: "Antiquities XVIII.3.3 and XX.9.1 (the Testimonium and the James passage)"
+    author: "Josephus"
+    edition: "trans. William Whiston (1737)"
+    hosted: "Project Gutenberg #2848; Perseus"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "alx"
+      - "fleet"
+      - "pahc"
+    unlocks:
+      - "C1/S5"
+      - "C11/S8"
+    cells:
+      - "alx:C1/S5"
+      - "fleet:C11/S8"
+      - "pahc:C1/S5"
+    identified_as: []
+    notes: "C1 fleet hole 1: 'did he really exist' retrieves in no world; Josephus is not vendored in his own right and reaches the worlds only through Eusebius HE I.11 (alx, ijc, pahc, syr) and Jerome De viris 13 (seven worlds). Serves any world asked C1-08/C1-16. C11 finding 1: no vendored text in the Library is a Jewish voice (no Josephus, no rabbinic text, no Philo). The report names Whiston's Josephus (1737) for S8 without naming a world, so the cell is recorded against \"fleet\"."
+  - rank: 14
+    priority: 3
+    work: "Apophthegmata Patrum, Latin systematic collection (Verba Seniorum of Pelagius and John), incl. Macarius and the skull of the pagan priest"
+    author: "anon."
+    edition: "PL 73 (Migne 1849), Latin; Helen Waddell's 1936 English"
+    hosted: "archive.org (PL 73)"
+    licence: "public domain (Latin); Waddell 1936 English in copyright"
+    english_in_copyright: true
+    worlds:
+      - "desert"
+    unlocks:
+      - "C3/S1"
+      - "C3/S5"
+      - "C13/S2"
+    cells:
+      - "desert:C3/S1"
+      - "desert:C3/S5"
+      - "desert:C13/S2"
+    identified_as: []
+    notes: "The Syriac form is already vendored in Budge's Paradise vol. 2 (anan-isho_paradise-v2-sayings_budge1907.txt line 436 holds the skull-adjacent Macarius story); the famous skull saying itself was not found there by the terms used. C13: Macarius and the skull; Moses and the demons; Theodore of Pherme on the demons."
+  - rank: 15
+    priority: 3
+    work: "Caesarea's poorhouse and hospital complex (the Basileias)"
+    author: "archaeology and sources"
+    edition: "not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C10/S4"
+      - "C12/S4"
+      - "C12/S8"
+    cells:
+      - "cappadocian:C10/S4"
+      - "cappadocian:C12/S4"
+      - "cappadocian:C12/S8"
+    identified_as:
+      - "cappadocian.source.caesareas-poorhouse-hospital-complex (kind: unvendored)"
+    notes: ""
+  - rank: 16
+    priority: 3
+    work: "Commentary on Romans (the opponent's own voice)"
+    author: "Pelagius"
+    edition: "Latin: Souter, Texts and Studies IX (Cambridge 1922-31); English: de Bruyn (OUP 1993)"
+    hosted: "archive.org"
+    licence: "public domain in the US (Latin); de Bruyn English in copyright"
+    english_in_copyright: true
+    worlds:
+      - "gallic"
+      - "hal"
+      - "lpc"
+    unlocks:
+      - "C4/S1"
+    cells:
+      - "gallic:C4/S1"
+      - "hal:C4/S1"
+      - "lpc:C4/S1"
+    identified_as: []
+    notes: "hal, lpc and gallic build the Pelagian controversy from the opponents' side only. The Letter to Demetrias is already vendored in Latin but mapped only to the unbuilt pelagianism world (see drift list)."
+  - rank: 17
+    priority: 3
+    work: "Contra Collatorem"
+    author: "Prosper of Aquitaine"
+    edition: "Latin: PL 51 (Migne 1861); English: de Letter, ACW 32 (1963)"
+    hosted: "archive.org"
+    licence: "public domain (Latin); ACW 32 English in copyright"
+    english_in_copyright: true
+    worlds:
+      - "gallic"
+    unlocks:
+      - "C3/S7"
+      - "C4/S1"
+      - "C4/S3"
+    cells:
+      - "gallic:C3/S7"
+      - "gallic:C4/S1"
+      - "gallic:C4/S3"
+    identified_as:
+      - "gallic.source.prosper-contra-collatorem (kind: unvendored)"
+    notes: ""
+  - rank: 18
+    priority: 3
+    work: "Epistula de conversione Iudaeorum (418)"
+    author: "Severus of Minorca"
+    edition: "PL 20 / PL 41 (Migne), Latin; Bradbury 1996 English in copyright"
+    hosted: "archive.org"
+    licence: "public domain (Latin); Bradbury 1996 in copyright"
+    english_in_copyright: true
+    worlds:
+      - "gallic"
+      - "lpc"
+    unlocks:
+      - "C11/S1"
+      - "C11/S7"
+    cells:
+      - "gallic:C11/S1"
+      - "lpc:C11/S1"
+      - "lpc:C11/S7"
+    identified_as: []
+    notes: "A forced conversion in the Latin West; C11 says it sits on the Gallic world's southern edge too."
+  - rank: 19
+    priority: 3
+    work: "Homilies on Leviticus 8.3; Commentary on Romans 5.9 (infant baptism \"for the remission of sins\")"
+    author: "Origen"
+    edition: "Latin: PG 12/14 (Migne); English: Barkley FOTC 83 (1990), Scheck FOTC 103-104 (2001-02)"
+    hosted: "archive.org"
+    licence: "public domain (Latin); English in copyright"
+    english_in_copyright: true
+    worlds:
+      - "alx"
+    unlocks:
+      - "C3/S7"
+      - "C4/S2"
+      - "C7/S1"
+    cells:
+      - "alx:C3/S7"
+      - "alx:C4/S2"
+      - "alx:C7/S1"
+    identified_as: []
+    notes: "C3 alx S7: \"Origen's infant-baptism homilies are Latin, unvendored\"; the dead-baby question (Facilitator-adjacent). C7: also Homilies on Luke XIV (infants baptised by the apostles' tradition)."
+  - rank: 20
+    priority: 3
+    work: "Homilies on the Forty Martyrs, Gordius, Julitta and Mamas"
+    author: "Basil of Caesarea"
+    edition: "Greek PG 31 (Migne); no public-domain English; Leemans et al., Let Us Die That We May Live (Routledge 2003) in copyright"
+    hosted: "archive.org / documentacatholicaomnia"
+    licence: "Greek: public domain"
+    english_in_copyright: true
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C7/S6"
+      - "C9/S1"
+      - "C13/S5"
+    cells:
+      - "cappadocian:C7/S6"
+      - "cappadocian:C9/S1"
+      - "cappadocian:C13/S5"
+    identified_as:
+      - "cappadocian.source.basil-martyr-homilies-forty-gordius-julitta-mamas (kind: unvendored)"
+    notes: ""
+  - rank: 21
+    priority: 3
+    work: "Homilies on the Song of Songs, Ecclesiastes (Hom. 4, the slave-market) and the Beatitudes"
+    author: "Gregory of Nyssa"
+    edition: "Greek PG 44; Hall 1993 translation in copyright"
+    hosted: "not stated in report"
+    licence: "Greek: public domain"
+    english_in_copyright: true
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C5/S2"
+      - "C5/S8"
+      - "C8/S3"
+    cells:
+      - "cappadocian:C5/S2"
+      - "cappadocian:C5/S8"
+      - "cappadocian:C8/S3"
+    identified_as:
+      - "cappadocian.source.gregory-nyssa-song-of-songs-ecclesiastes-beatitudes-homilies (kind: unvendored)"
+    notes: "C8: cappadocian.story.slave-market-sermon rests on this unvendored homily; the line is a paraphrase."
+  - rank: 22
+    priority: 3
+    work: "In XL Martyres I-II; On Theodore the Recruit; Life of Gregory Thaumaturgus"
+    author: "Gregory of Nyssa"
+    edition: "Greek PG 46 (Migne 1863); no public-domain English"
+    hosted: "archive.org / documentacatholicaomnia"
+    licence: "Greek: public domain"
+    english_in_copyright: true
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C7/S7"
+      - "C9/S1"
+      - "C13/S5"
+    cells:
+      - "cappadocian:C7/S7"
+      - "cappadocian:C9/S1"
+      - "cappadocian:C13/S5"
+    identified_as:
+      - "cappadocian.source.gregory-nyssa-forty-martyrs-theodore-recruit-homilies (kind: unvendored)"
+    notes: "C13: the shrine, the relics touched \"as if still alive\", the painted passion on the walls."
+  - rank: 23
+    priority: 3
+    work: "Letters of consolation, incl. the letter to Hans von Rechenberg (1522, no. 540) on whether God can save one who dies without faith"
+    author: "Martin Luther"
+    edition: "Preserved Smith and C.M. Jacobs, Luther's Correspondence and Other Contemporary Letters, 2 vols (Philadelphia 1913, 1918); Margaret A. Currie, Letters of Martin Luther (Macmillan 1908); Tappert LCC 18 (1955)"
+    hosted: "archive.org"
+    licence: "Smith-Jacobs and Currie public domain in the US; Tappert in copyright"
+    english_in_copyright: false
+    worlds:
+      - "witt"
+    unlocks:
+      - "C3/S7"
+      - "C14/S2"
+      - "C14/S8"
+    cells:
+      - "witt:C3/S7"
+      - "witt:C14/S2"
+      - "witt:C14/S8"
+    identified_as: []
+    notes: "C3 witt: \"a decision on the Rechenberg letter\" (unbaptised infants / died without faith; Facilitator-adjacent)."
+  - rank: 24
+    priority: 3
+    work: "Loca sanctorum Africae: le culte des martyrs en Afrique du IVe au VIIe siecle"
+    author: "Yvette Duval"
+    edition: "Rome 1982 (modern); not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report (modern; presumably in copyright)"
+    english_in_copyright: false
+    worlds:
+      - "don"
+    unlocks:
+      - "C3/S5"
+      - "C7/S7"
+      - "C13/S5"
+    cells:
+      - "don:C3/S5"
+      - "don:C7/S7"
+      - "don:C13/S5"
+    identified_as:
+      - "don.source.duval-loca-sanctorum-africae (kind: unvendored)"
+    notes: "Martyr-cult archaeology; modern, not a period voice."
+  - rank: 25
+    priority: 3
+    work: "The Apocryphal New Testament (Acts of John 88-93; Gospel of Peter; full Ethiopic Apocalypse of Peter pp. 505-524; Apocalypse of Paul / Visio Pauli)"
+    author: "M.R. James"
+    edition: "Oxford 1924; Latin Visio Pauli also in James, Apocrypha Anecdota, Texts and Studies II.3 (1893)"
+    hosted: "archive.org"
+    licence: "public domain in the US since 2020 (1924); UK term expired 2007; 1893 Latin PD"
+    english_in_copyright: false
+    worlds:
+      - "gallic"
+      - "pahc"
+    unlocks:
+      - "C1/S6"
+      - "C3/S1"
+    cells:
+      - "gallic:C3/S1"
+      - "pahc:C1/S6"
+      - "pahc:C3/S1"
+    identified_as: []
+    notes: "Also Grenfell & Hunt, Logia Iesou (1897, PD) for the Oxyrhynchus sayings (C1 other list). anf09 vendors only the Akhmim fragment of the Apocalypse of Peter."
+  - rank: 26
+    priority: 3
+    work: "The Decades (Decade I sermons 4-6 on faith, justification, good works)"
+    author: "Heinrich Bullinger"
+    edition: "Parker Society, 4 vols (Cambridge 1849-52)"
+    hosted: "archive.org"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "rzg"
+    unlocks:
+      - "C2/S2"
+      - "C4/S1"
+      - "C13/S5"
+    cells:
+      - "rzg:C2/S2"
+      - "rzg:C4/S1"
+      - "rzg:C13/S5"
+    identified_as:
+      - "not in the rzg registry (C4: \"unvendored; not in registry\")"
+    notes: "The exact Decades sermon on predestination was not located; Decade I.4-6 is secure. C13: Decades IV-V on angels, devils, saints and images."
+  - rank: 27
+    priority: 3
+    work: "Von den Juden und ihren Luegen (1543); Against the Sabbatarians (1538)"
+    author: "Martin Luther"
+    edition: "Weimarer Ausgabe 53 (1920) and 50 (1914), German"
+    hosted: "archive.org (WA)"
+    licence: "German public domain; English LW 47 (1971) in copyright"
+    english_in_copyright: true
+    worlds:
+      - "witt"
+    unlocks:
+      - "C9/S6"
+      - "C11/S1"
+      - "C15/S8"
+    cells:
+      - "witt:C9/S6"
+      - "witt:C11/S1"
+      - "witt:C15/S8"
+    identified_as:
+      - "witt.source.luther-von-den-juden-und-ihren-l (kind: unvendored; WANTS-REGISTER rank 0)"
+    notes: "C11: the Sabbatarians text is not registered anywhere in the repo; C15: the 1543 text on the Jews is named, not vendored."
+  - rank: 28
+    priority: 3
+    work: "Zurich poor-relief mandates; Von goettlicher und menschlicher Gerechtigkeit (1523, tithes)"
+    author: "Huldrych Zwingli; Zurich council"
+    edition: "German, Corpus Reformatorum, Zwingli Werke vol. 2 (Leipzig 1908); Egli, Actensammlung zur Geschichte der Zuercher Reformation (Zurich 1879)"
+    hosted: "archive.org (Egli 1879)"
+    licence: "public domain; English in Bromiley, LCC 24 (1953), in copyright"
+    english_in_copyright: true
+    worlds:
+      - "rzg"
+    unlocks:
+      - "C10/S4"
+      - "C10/S6"
+      - "C13/S6"
+    cells:
+      - "rzg:C10/S4"
+      - "rzg:C10/S6"
+      - "rzg:C13/S6"
+    identified_as: []
+    notes: "C13: Zurich's mandates on soothsaying."
+  - rank: 29
+    priority: 2
+    work: "Ad ecclesiam (Four Books to the Church, against avarice)"
+    author: "Salvian"
+    edition: "Latin, CSEL 8, ed. Pauly (Vienna 1883); Walsh, FOTC 3 (1947) in copyright"
+    hosted: "not stated in report"
+    licence: "Latin public domain"
+    english_in_copyright: true
+    worlds:
+      - "gallic"
+    unlocks:
+      - "C10/S1"
+      - "C10/S6"
+    cells:
+      - "gallic:C10/S1"
+      - "gallic:C10/S6"
+    identified_as: []
+    notes: ""
+  - rank: 30
+    priority: 2
+    work: "Against Eunomius; Homily on Psalm 33"
+    author: "Basil of Caesarea"
+    edition: "Migne PG 29:497-669 (1857), Greek with Latin; English only in DelCogliano and Radde-Gallwitz, FOTC 122 (2011), in copyright"
+    hosted: "not stated in report"
+    licence: "Greek: public domain"
+    english_in_copyright: true
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C2/S3"
+      - "C13/S4"
+    cells:
+      - "cappadocian:C2/S3"
+      - "cappadocian:C13/S4"
+    identified_as:
+      - "cappadocian.source.basil-against-eunomius (kind: unvendored); Build/worlds/_cross-world/WANTS-REGISTER.md L54"
+    notes: "C13: Against Eunomius III.1 (the angel set over each believer) and the Homily on Psalm 33; the Letters' editor cites both (npnf208 lines 5369, 7862)."
+  - rank: 31
+    priority: 2
+    work: "Annisa estate shrine (Vita Macrinae)"
+    author: "archaeology and sources"
+    edition: "not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C12/S8"
+      - "C13/S5"
+    cells:
+      - "cappadocian:C12/S8"
+      - "cappadocian:C13/S5"
+    identified_as:
+      - "cappadocian.source.annisa-estate-shrine (kind: unvendored)"
+    notes: ""
+  - rank: 32
+    priority: 2
+    work: "Bishop Sarapion's Prayer-Book (Euchologion)"
+    author: "Sarapion of Thmuis"
+    edition: "J. Wordsworth (SPCK, London 1899)"
+    hosted: "archive.org"
+    licence: "public domain (US)"
+    english_in_copyright: false
+    worlds:
+      - "alx"
+    unlocks:
+      - "C7/S2"
+      - "C7/S7"
+    cells:
+      - "alx:C7/S2"
+      - "alx:C7/S7"
+    identified_as: []
+    notes: "C7: prayers for baptism, the bread and cup, the oil of the sick, burial (Egypt, c. 350). \"The missing Egyptian witness.\""
+  - rank: 33
+    priority: 2
+    work: "Care of the Dead in Late Antiquity"
+    author: "Eric Rebillard"
+    edition: "Cornell 2009 (modern monograph); not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report (modern; presumably in copyright)"
+    english_in_copyright: false
+    worlds:
+      - "lpc"
+    unlocks:
+      - "C3/S5"
+      - "C13/S7"
+    cells:
+      - "lpc:C3/S5"
+      - "lpc:C13/S7"
+    identified_as:
+      - "lpc.source.rebillard-care-of-the-dead-in-late-antiquity (no kind field in record)"
+    notes: ""
+  - rank: 34
+    priority: 2
+    work: "Carmina Nisibena, full cycle (incl. the Death-and-Satan hymns beyond Gwynn's NPNF selection)"
+    author: "Ephrem"
+    edition: "G. Bickell, S. Ephraemi Syri Carmina Nisibena (Leipzig 1866), Syriac with Latin"
+    hosted: "archive.org"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "syr"
+    unlocks:
+      - "C3/S2"
+      - "C13/S1"
+    cells:
+      - "syr:C3/S2"
+      - "syr:C13/S1"
+    identified_as: []
+    notes: "C13: Bickell (Leipzig 1866), Syriac with Latin, is the public-domain route; Beck, CSCO 169-170 and 218-219 is in copyright."
+  - rank: 35
+    priority: 2
+    work: "Carthaginian cemeteries and epitaphs, English reports (Delattre; Gsell)"
+    author: "various"
+    edition: "vendored in French; English reports not"
+    hosted: "not fetched"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "don"
+      - "lpc"
+    unlocks:
+      - "C12/*"
+    cells:
+      - "don:C12/*"
+      - "lpc:C12/*"
+    identified_as: []
+    notes: "The report names the worlds, not a sub-question."
+  - rank: 36
+    priority: 2
+    work: "Commentary on Jonah 3:6-9 (whether the devil can repent); Commentary on Ephesians (the passages Rufinus threw back)"
+    author: "Jerome"
+    edition: "Latin: PL 25 and PL 26 (Migne); English: Hegedus 1991, Heine 2002"
+    hosted: "archive.org"
+    licence: "public domain (Latin); English in copyright"
+    english_in_copyright: true
+    worlds:
+      - "hal"
+    unlocks:
+      - "C3/S3"
+      - "C3/S7"
+    cells:
+      - "hal:C3/S3"
+      - "hal:C3/S7"
+    identified_as: []
+    notes: "C3/S7: suicide question; the Jonah commentary is the only Jerome text named for it (Latin only)."
+  - rank: 37
+    priority: 2
+    work: "De Nabuthae (wealth and the poor)"
+    author: "Ambrose"
+    edition: "Latin, PL 14:731-756, CSEL 32.2 (Schenkl 1897); English FOTC (1972) in copyright"
+    hosted: "not stated in report"
+    licence: "Latin public domain"
+    english_in_copyright: true
+    worlds:
+      - "ijc"
+    unlocks:
+      - "C10/S1"
+      - "C10/S4"
+    cells:
+      - "ijc:C10/S1"
+      - "ijc:C10/S4"
+    identified_as: []
+    notes: ""
+  - rank: 38
+    priority: 2
+    work: "De pauperibus amandis I-II (On the Love of the Poor)"
+    author: "Gregory of Nyssa"
+    edition: "Greek, PG 46:453-489 (Migne); English is Holman (OUP 2001), in copyright"
+    hosted: "not stated in report"
+    licence: "Greek public domain; English not"
+    english_in_copyright: true
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C10/S1"
+      - "C10/S4"
+    cells:
+      - "cappadocian:C10/S1"
+      - "cappadocian:C10/S4"
+    identified_as:
+      - "cappadocian.source.gregory-nyssa-de-pauperibus-amandis (kind: unvendored)"
+    notes: ""
+  - rank: 39
+    priority: 2
+    work: "Egyptian papyri for daily life (Oxyrhynchus, Karanis, Tebtunis; Bagnall)"
+    author: "various"
+    edition: "not stated in report"
+    hosted: "not fetched"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "alx"
+      - "desert"
+    unlocks:
+      - "C12/*"
+    cells:
+      - "alx:C12/*"
+      - "desert:C12/*"
+    identified_as: []
+    notes: "The report names the worlds, not a sub-question."
+  - rank: 40
+    priority: 2
+    work: "Historia Monachorum in Aegypto (Rufinus's Latin)"
+    author: "Rufinus (trans.)"
+    edition: "PL 21 (Migne); English: Russell 1980"
+    hosted: "archive.org"
+    licence: "public domain (Latin); Russell 1980 English in copyright"
+    english_in_copyright: true
+    worlds:
+      - "desert"
+    unlocks:
+      - "C3/S5"
+      - "C13/S2"
+    cells:
+      - "desert:C3/S5"
+      - "desert:C13/S2"
+    identified_as:
+      - "desert.source.historia-monachorum (kind: unvendored)"
+    notes: "C13: Latin PL 21 (Migne 1849); Greek Preuschen (1897)."
+  - rank: 41
+    priority: 2
+    work: "Homily on Psalm 14 (against usurers) and Homily on Luke 12:18 (I will pull down my barns); the famine homilies"
+    author: "Basil of Caesarea"
+    edition: "Greek, PG 29:263-280 and PG 31:261-277"
+    hosted: "not stated in report"
+    licence: "Greek public domain"
+    english_in_copyright: false
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C10/S1"
+      - "C10/S5"
+    cells:
+      - "cappadocian:C10/S1"
+      - "cappadocian:C10/S5"
+    identified_as:
+      - "cappadocian.source.basil-moral-famine-homilies (kind: unvendored)"
+    notes: "The public-domain English is only the Jackson extracts already in npnf208 (lines 5069-5284, 6236-6290, 6926). The quote records in the records list do not need this acquisition."
+  - rank: 42
+    priority: 2
+    work: "Hymns on Paradise"
+    author: "Ephrem"
+    edition: "Latin/Syriac: T.J. Lamy, Sancti Ephraem Syri Hymni et Sermones, 4 vols (Mechelen 1882-1902); English: Brock (SVS 1990)"
+    hosted: "archive.org (Lamy)"
+    licence: "public domain (Lamy); Brock English in copyright"
+    english_in_copyright: true
+    worlds:
+      - "syr"
+    unlocks:
+      - "C3/S2"
+      - "C3/S6"
+    cells:
+      - "syr:C3/S2"
+      - "syr:C3/S6"
+    identified_as: []
+    notes: ""
+  - rank: 43
+    priority: 2
+    work: "Imperial communion law of 381"
+    author: "Theodosius I"
+    edition: "not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C6/S7"
+      - "C9/S3"
+    cells:
+      - "cappadocian:C6/S7"
+      - "cappadocian:C9/S3"
+    identified_as:
+      - "cappadocian.source.imperial-communion-law-of-381 (kind: unvendored)"
+    notes: ""
+  - rank: 44
+    priority: 2
+    work: "Julian's measures against Caesarea"
+    author: "Julian"
+    edition: "not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C6/S7"
+      - "C11/S3"
+    cells:
+      - "cappadocian:C6/S7"
+      - "cappadocian:C11/S3"
+    identified_as:
+      - "cappadocian.source.julians-measures-against-caesarea (kind: unvendored)"
+    notes: ""
+  - rank: 45
+    priority: 2
+    work: "Kellia excavation reports (EK series; Kasser, Rassart-Debergh)"
+    author: "various"
+    edition: "consult-only"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "desert"
+    unlocks:
+      - "C7/S4"
+      - "C12/S8"
+    cells:
+      - "desert:C7/S4"
+      - "desert:C12/S8"
+    identified_as:
+      - "desert.source.kellia-excavations (kind: unvendored)"
+    notes: ""
+  - rank: 46
+    priority: 2
+    work: "Le dossier du donatisme"
+    author: "J.-L. Maier"
+    edition: "Berlin 1987-89 (modern edition); not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report (modern; presumably in copyright)"
+    english_in_copyright: false
+    worlds:
+      - "don"
+    unlocks:
+      - "C3/S2"
+      - "C6/S1"
+    cells:
+      - "don:C3/S2"
+      - "don:C6/S1"
+    identified_as:
+      - "don.source.maier-le-dossier-du-donatisme (kind: unvendored)"
+    notes: ""
+  - rank: 47
+    priority: 2
+    work: "Letter on the life and death of Ulfila"
+    author: "Auxentius of Durostorum"
+    edition: "not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "ijc"
+    unlocks:
+      - "C2/S5"
+      - "C5/S6"
+    cells:
+      - "ijc:C2/S5"
+      - "ijc:C5/S6"
+    identified_as:
+      - "ijc.source.auxentius-letter-ulfila (kind: unvendored)"
+    notes: "C2: Homoian self-testimony."
+  - rank: 48
+    priority: 2
+    work: "Letters (God's goodness, knowledge of God)"
+    author: "Antony the Great"
+    edition: "Latin of the Arabic, Migne PG 40:977-1000; English Rubenson 1995 and Chitty 1975 in copyright"
+    hosted: "not stated in report"
+    licence: "Latin: public domain"
+    english_in_copyright: true
+    worlds:
+      - "desert"
+    unlocks:
+      - "C2/S2"
+      - "C2/S6"
+    cells:
+      - "desert:C2/S2"
+      - "desert:C2/S6"
+    identified_as:
+      - "desert.source.antony-letters (kind: unvendored); Build/worlds/_cross-world/WANTS-REGISTER.md L70"
+    notes: "C13 also lists \"Antony Letters\" as identified for desert without naming a sub-question."
+  - rank: 49
+    priority: 2
+    work: "Letters of John Calvin, vol. 3"
+    author: "ed. Jules Bonnet"
+    edition: "Edinburgh 1858"
+    hosted: "archive.org"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "rzg"
+    unlocks:
+      - "C14/S1"
+      - "C14/S2"
+    cells:
+      - "rzg:C14/S1"
+      - "rzg:C14/S2"
+    identified_as: []
+    notes: "Vols. 1, 2 and 4 are vendored; vol. 3 is the missing one."
+  - rank: 50
+    priority: 2
+    work: "Long Sermon on Usury (1520); Trade and Usury (1524); Ordinance of a Common Chest (1523)"
+    author: "Martin Luther"
+    edition: "WA 6:33-60, 15:293-322, 12:11-30 (Weimar, German); English in Works of Martin Luther, Holman vol. 4 (Philadelphia 1931)"
+    hosted: "not stated in report"
+    licence: "German public domain; the 1931 English enters the US public domain only on 1 Jan 2027"
+    english_in_copyright: true
+    worlds:
+      - "witt"
+    unlocks:
+      - "C10/S5"
+      - "C10/S6"
+    cells:
+      - "witt:C10/S5"
+      - "witt:C10/S6"
+    identified_as: []
+    notes: ""
+  - rank: 51
+    priority: 2
+    work: "On the Deity of the Son and the Spirit"
+    author: "Gregory of Nyssa"
+    edition: "not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C1/S2"
+      - "C2/S3"
+    cells:
+      - "cappadocian:C1/S2"
+      - "cappadocian:C2/S3"
+    identified_as:
+      - "cappadocian.source.gregory-nyssa-on-the-deity-of-the-son-and-spirit (kind: unvendored)"
+    notes: ""
+  - rank: 52
+    priority: 2
+    work: "Oration 14 On the Love of the Poor"
+    author: "Gregory of Nazianzus"
+    edition: "Greek, PG 35:857-909; English Vinson, FOTC 107 (2003), in copyright"
+    hosted: "not stated in report"
+    licence: "Greek public domain; English not"
+    english_in_copyright: true
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C10/S1"
+      - "C10/S4"
+    cells:
+      - "cappadocian:C10/S1"
+      - "cappadocian:C10/S4"
+    identified_as:
+      - "cappadocian.source.gregory-nazianzus-oration-14-love-of-poor (kind: unvendored)"
+    notes: ""
+  - rank: 53
+    priority: 2
+    work: "Order of Baptism (Taufbuechlein, 1523, rev. 1526) and German Mass (1526)"
+    author: "Martin Luther"
+    edition: "Weimarer Ausgabe vol. 12 and 19, German; English in Luther's Works 53 (Fortress 1965)"
+    hosted: "archive.org"
+    licence: "German public domain; LW 53 in copyright"
+    english_in_copyright: true
+    worlds:
+      - "witt"
+    unlocks:
+      - "C7/S1"
+      - "C7/S4"
+    cells:
+      - "witt:C7/S1"
+      - "witt:C7/S4"
+    identified_as: []
+    notes: ""
+  - rank: 54
+    priority: 2
+    work: "Own works (canons, Creed)"
+    author: "Amphilochius of Iconium"
+    edition: "not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C6/S1"
+      - "C7/S5"
+    cells:
+      - "cappadocian:C6/S1"
+      - "cappadocian:C7/S5"
+    identified_as:
+      - "cappadocian.source.amphilochius-of-iconium-own-works (kind: unvendored)"
+    notes: ""
+  - rank: 55
+    priority: 2
+    work: "Pro Augustino responsiones (ad capitula Gallorum; ad capitula obiectionum Vincentianarum)"
+    author: "Prosper of Aquitaine"
+    edition: "Latin: PL 51 (Migne); not otherwise stated"
+    hosted: "archive.org (PL 51)"
+    licence: "public domain (Latin); no PD English named"
+    english_in_copyright: false
+    worlds:
+      - "gallic"
+    unlocks:
+      - "C3/S7"
+      - "C4/S1"
+    cells:
+      - "gallic:C3/S7"
+      - "gallic:C4/S1"
+    identified_as:
+      - "gallic.source.prosper-pro-augustino-responsiones (kind: unvendored)"
+    notes: ""
+  - rank: 56
+    priority: 2
+    work: "Psychopannychia (against soul-sleep; the soul between death and resurrection)"
+    author: "John Calvin"
+    edition: "Calvin's Tracts, vol. 3, trans. Henry Beveridge (Calvin Translation Society, Edinburgh 1851)"
+    hosted: "archive.org / CCEL"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "rzg"
+    unlocks:
+      - "C3/S4"
+      - "C3/S5"
+    cells:
+      - "rzg:C3/S4"
+      - "rzg:C3/S5"
+    identified_as: []
+    notes: ""
+  - rank: 57
+    priority: 2
+    work: "Sale's Koran (1734)"
+    author: "George Sale"
+    edition: "1734"
+    hosted: "not fetched; working knowledge"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "rzg"
+      - "witt"
+    unlocks:
+      - "C11/S4"
+    cells:
+      - "rzg:C11/S4"
+      - "witt:C11/S4"
+    identified_as: []
+    notes: ""
+  - rank: 58
+    priority: 2
+    work: "The Bible in Christian North Africa: the Donatist World"
+    author: "Maureen Tilley"
+    edition: "Fortress 1997 (modern monograph)"
+    hosted: "not stated in report"
+    licence: "in copyright"
+    english_in_copyright: true
+    worlds:
+      - "don"
+    unlocks:
+      - "C1/S7"
+      - "C5/S6"
+    cells:
+      - "don:C1/S7"
+      - "don:C5/S6"
+    identified_as:
+      - "don.source.tilley-bible-in-christian-north-africa (kind: unvendored, in copyright)"
+    notes: ""
+  - rank: 59
+    priority: 2
+    work: "The Libelli of the Decian Persecution (Harvard Theological Review 1923)"
+    author: "J.R. Knipfing"
+    edition: "HTR 1923"
+    hosted: "not fetched; working knowledge"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "alx"
+      - "lpc"
+    unlocks:
+      - "C9/S2"
+    cells:
+      - "alx:C9/S2"
+      - "lpc:C9/S2"
+    identified_as: []
+    notes: ""
+  - rank: 60
+    priority: 2
+    work: "To Stagirius (on despondency); On Providence / To those who are scandalized"
+    author: "John Chrysostom"
+    edition: "Greek: PG 47 and PG 52 (both ALREADY vendored); French: Bareille, Oeuvres completes (1865-73)"
+    hosted: "archive.org (Bareille)"
+    licence: "Greek PD; French Bareille PD; no PD English"
+    english_in_copyright: true
+    worlds:
+      - "ijc"
+    unlocks:
+      - "C14/S1"
+      - "C14/S8"
+    cells:
+      - "ijc:C14/S1"
+      - "ijc:C14/S8"
+    identified_as: []
+    notes: "The Greek is vendored (john-chrysostom_opera-pg47-palladius-dialogus-grc-lat_migne1863.txt; john-chrysostom_opera-pg52-epistulae-grc-lat_migne1862.txt). The missing item is a public-domain modern-language version; Bareille's French is the only one named."
+  - rank: 61
+    priority: 2
+    work: "Unterricht der Visitatoren / Instructions for the Visitors (1528)"
+    author: "Melanchthon (with Luther)"
+    edition: "German: WA 26; also Sehling, Evangelische Kirchenordnungen Bd. 1 (1902); English: LW 40"
+    hosted: "archive.org"
+    licence: "public domain (German); LW 40 English in copyright"
+    english_in_copyright: true
+    worlds:
+      - "witt"
+    unlocks:
+      - "C14/S6"
+      - "C14/S7"
+    cells:
+      - "witt:C14/S6"
+      - "witt:C14/S7"
+    identified_as:
+      - "cited as witt.source.melanchthon-instructions-for-the-visitors (unvendored) in C14 and as a WANTS-REGISTER row in C4; NOTE no record file of that name exists under records/witt/source/"
+    notes: ""
+  - rank: 62
+    priority: 1
+    work: "A Short Christian Instruction (1523); Answer to Valentin Compar (1525)"
+    author: "Huldrych Zwingli"
+    edition: "Latin Works vol. 2 (Hinke 1922), not vendored (vols. 1 and 3 are)"
+    hosted: "archive.org"
+    licence: "public domain in the US (Hinke 1922)"
+    english_in_copyright: false
+    worlds:
+      - "rzg"
+    unlocks:
+      - "C13/S5"
+    cells:
+      - "rzg:C13/S5"
+    identified_as: []
+    notes: ""
+  - rank: 63
+    priority: 1
+    work: "Acts of Maximilian and Marcellus (Ruinart)"
+    author: "anon."
+    edition: "Ruinart"
+    hosted: "not fetched; working knowledge"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "fleet"
+    unlocks:
+      - "C9/S4"
+    cells:
+      - "fleet:C9/S4"
+    identified_as: []
+    notes: "C9: for soldiers; the report names no world."
+  - rank: 64
+    priority: 1
+    work: "Ad quaestiones et obiecta Iudaei cuiusdam responsio"
+    author: "John Calvin"
+    edition: "Calvini Opera 9 (Baum, Cunitz, Reuss 1870), Latin"
+    hosted: "archive.org (CO 9)"
+    licence: "public domain (Latin); no PD English"
+    english_in_copyright: false
+    worlds:
+      - "rzg"
+    unlocks:
+      - "C11/S1"
+    cells:
+      - "rzg:C11/S1"
+    identified_as: []
+    notes: ""
+  - rank: 65
+    priority: 1
+    work: "Admonition to Peace; Against the Robbing and Murdering Hordes (1525)"
+    author: "Martin Luther"
+    edition: "not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "witt"
+    unlocks:
+      - "C9/S6"
+    cells:
+      - "witt:C9/S6"
+    identified_as:
+      - "witt.source.luther-admonition-to-peace (kind: unvendored)"
+    notes: ""
+  - rank: 66
+    priority: 1
+    work: "Against the Galilaeans"
+    author: "Julian"
+    edition: "Wright, Loeb Julian vol. 3 (1923)"
+    hosted: "archive.org"
+    licence: "public domain (US, 1923)"
+    english_in_copyright: false
+    worlds:
+      - "ijc"
+    unlocks:
+      - "C11/S3"
+    cells:
+      - "ijc:C11/S3"
+    identified_as: []
+    notes: "The vendored julian_letters-1-73_wright1923.txt cites it in footnotes but does not contain it."
+  - rank: 67
+    priority: 1
+    work: "Antirrhetikos and On Thoughts (Peri logismon)"
+    author: "Evagrius Ponticus"
+    edition: "Syriac Frankenberg, Euagrius Ponticus (Berlin 1912) with Greek retroversion; On Thoughts Greek PG 79 and 40 under Nilus; Brakke (2009) and Sinkewicz (2003) English in copyright"
+    hosted: "archive.org (Frankenberg 1912)"
+    licence: "public domain (Syriac/Greek)"
+    english_in_copyright: true
+    worlds:
+      - "desert"
+    unlocks:
+      - "C13/S3"
+    cells:
+      - "desert:C13/S3"
+    identified_as: []
+    notes: "desert.term.antirrhesis already says \"no vendored text exists\"."
+  - rank: 68
+    priority: 1
+    work: "Apology for the Apology; Confession of 383"
+    author: "Eunomius"
+    edition: "not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C2/S5"
+    cells:
+      - "cappadocian:C2/S5"
+    identified_as:
+      - "cappadocian.source.eunomius-apology-for-the-apology, eunomius-confession-of-383 (kind: unvendored); Build/worlds/_cross-world/WANTS-REGISTER.md L112-113"
+    notes: ""
+  - rank: 69
+    priority: 1
+    work: "Authority and Asceticism from Augustine to Gregory the Great"
+    author: "Conrad Leyser"
+    edition: "secondary scholarship"
+    hosted: "not stated in report"
+    licence: "in copyright (modern scholarship)"
+    english_in_copyright: true
+    worlds:
+      - "gallic"
+    unlocks:
+      - "C6/S8"
+    cells:
+      - "gallic:C6/S8"
+    identified_as:
+      - "gallic.source.leyser-authority-and-asceticism (kind: unvendored)"
+    notes: ""
+  - rank: 70
+    priority: 1
+    work: "Bardaisan studies (Drijvers; Possekel)"
+    author: "H.J.W. Drijvers; Ute Possekel"
+    edition: "secondary scholarship"
+    hosted: "not stated in report"
+    licence: "in copyright (modern scholarship)"
+    english_in_copyright: true
+    worlds:
+      - "syr"
+    unlocks:
+      - "C11/S8"
+    cells:
+      - "syr:C11/S8"
+    identified_as:
+      - "syr.source.drijvers-bardaisan, syr.source.possekel-bardaisan (kind: unvendored)"
+    notes: ""
+  - rank: 71
+    priority: 1
+    work: "Carmen de ingratis"
+    author: "Prosper of Aquitaine"
+    edition: "Latin: PL 51 (Migne); not otherwise stated"
+    hosted: "archive.org (PL 51)"
+    licence: "public domain (Latin)"
+    english_in_copyright: false
+    worlds:
+      - "gallic"
+    unlocks:
+      - "C4/S1"
+    cells:
+      - "gallic:C4/S1"
+    identified_as:
+      - "gallic.source.prosper-carmen-de-ingratis (kind: unvendored)"
+    notes: ""
+  - rank: 72
+    priority: 1
+    work: "Catechetical Homilies; Pauline commentary fragments (the Antiochene restorationist strand)"
+    author: "Theodore of Mopsuestia"
+    edition: "A. Mingana, Woodbrooke Studies 5-6 (Cambridge 1932-33), Syriac with English; Latin fragments H.B. Swete (Cambridge 1880-82)"
+    hosted: "archive.org"
+    licence: "Swete public domain; Mingana 1932-33 rights unclear in the US"
+    english_in_copyright: false
+    worlds:
+      - "aec"
+    unlocks:
+      - "C3/S3"
+    cells:
+      - "aec:C3/S3"
+    identified_as: []
+    notes: "aec has no records yet."
+  - rank: 73
+    priority: 1
+    work: "Commentary on Exodus 21:22 (Harmony of the Last Four Books of Moses)"
+    author: "John Calvin"
+    edition: "not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "rzg"
+    unlocks:
+      - "C15/S7"
+    cells:
+      - "rzg:C15/S7"
+    identified_as: []
+    notes: "C15: \"Calvin's Exodus 21:22 comment ... not vendored\"; the nearest text for the abortion question."
+  - rank: 74
+    priority: 1
+    work: "Commentary on Galatians (1535), esp. 3:13 (the penal locus)"
+    author: "Martin Luther"
+    edition: "trans. Middleton 1575, rev. 1850"
+    hosted: "CCEL"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "witt"
+    unlocks:
+      - "C1/S3"
+    cells:
+      - "witt:C1/S3"
+    identified_as: []
+    notes: ""
+  - rank: 75
+    priority: 1
+    work: "Commentary on Matthew (series) and Homilies on Jeremiah on the Jews"
+    author: "Origen"
+    edition: "GCS 38/40 (Klostermann 1933/1935), Greek/Latin"
+    hosted: "archive.org"
+    licence: "public domain in the US for the 1933 volume only if not renewed; verify"
+    english_in_copyright: false
+    worlds:
+      - "alx"
+    unlocks:
+      - "C11/S1"
+    cells:
+      - "alx:C11/S1"
+    identified_as: []
+    notes: ""
+  - rank: 76
+    priority: 1
+    work: "Commentary on Revelation (Beatus recension)"
+    author: "Tyconius"
+    edition: "CCSL 107A, Gryson"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "don"
+    unlocks:
+      - "C5/S5"
+    cells:
+      - "don:C5/S5"
+    identified_as: []
+    notes: "The lost commentary survives in the Beatus recension. The Liber Regularum is already vendored."
+  - rank: 77
+    priority: 1
+    work: "Commentary on the Diatessaron"
+    author: "Ephrem"
+    edition: "trans. Carmel McCarthy (1993), named in syr Doc_02"
+    hosted: "not stated in report"
+    licence: "in copyright"
+    english_in_copyright: true
+    worlds:
+      - "syr"
+    unlocks:
+      - "C1/S7"
+    cells:
+      - "syr:C1/S7"
+    identified_as:
+      - "named in syr Doc_02; no source record cited"
+    notes: ""
+  - rank: 78
+    priority: 1
+    work: "Commentary on the Psalms (the Reformed lament text)"
+    author: "John Calvin"
+    edition: "trans. James Anderson, Calvin Translation Society 1845-49"
+    hosted: "CCEL; archive.org"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "rzg"
+    unlocks:
+      - "C14/S3"
+    cells:
+      - "rzg:C14/S3"
+    identified_as: []
+    notes: ""
+  - rank: 79
+    priority: 1
+    work: "Concerning the Eternal Predestination of God (De aeterna Dei praedestinatione, 1552) in English"
+    author: "John Calvin"
+    edition: "trans. Henry Cole, Calvin's Calvinism (1856)"
+    hosted: "archive.org"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "rzg"
+    unlocks:
+      - "C4/S3"
+    cells:
+      - "rzg:C4/S3"
+    identified_as: []
+    notes: "The Latin/French is already vendored (calvin_opera-omnia-vol8-lat-fra_baum-cunitz1870.txt L170)."
+  - rank: 80
+    priority: 1
+    work: "Council of Orange (529), canons"
+    author: "council"
+    edition: "English: Hefele, History of the Councils vol. 4 (T&T Clark 1895)"
+    hosted: "archive.org"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "gallic"
+    unlocks:
+      - "C4/S3"
+    cells:
+      - "gallic:C4/S3"
+    identified_as: []
+    notes: "Outside every window; Facilitator context only (closed the argument after the Gallic window). Hefele vols 1-3 are vendored, vol. 4 is not."
+  - rank: 81
+    priority: 1
+    work: "Creed (Expositio fidei)"
+    author: "Gregory Thaumaturgus"
+    edition: "not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C1/S2"
+    cells:
+      - "cappadocian:C1/S2"
+    identified_as:
+      - "cappadocian.source.gregory-thaumaturgus-creed (kind: unvendored)"
+    notes: ""
+  - rank: 82
+    priority: 1
+    work: "De bono mortis (On the Good of Death)"
+    author: "Ambrose"
+    edition: "Latin: PL 14 (Migne); English: McHugh, FOTC 65 (1972)"
+    hosted: "archive.org / CCEL"
+    licence: "public domain (Latin); FOTC 65 English in copyright"
+    english_in_copyright: true
+    worlds:
+      - "ijc"
+    unlocks:
+      - "C3/S5"
+    cells:
+      - "ijc:C3/S5"
+    identified_as: []
+    notes: "De excessu fratris Satyri, named in the same row, is already vendored in npnf210 (de Romestin 1896)."
+  - rank: 83
+    priority: 1
+    work: "De laude sanctorum (396)"
+    author: "Victricius of Rouen"
+    edition: "Latin PL 20 (Migne 1845), critical ed. CCSL 64 (1985); English Clark, JECS 7 (1999) in copyright"
+    hosted: "archive.org (PL 20)"
+    licence: "public domain (Latin)"
+    english_in_copyright: true
+    worlds:
+      - "gallic"
+    unlocks:
+      - "C13/S5"
+    cells:
+      - "gallic:C13/S5"
+    identified_as: []
+    notes: "The theology of relics, written for Gaul in the window."
+  - rank: 84
+    priority: 1
+    work: "De libero arbitrio diatribe (1524)"
+    author: "Erasmus"
+    edition: "Latin 1524; English: Rupp/Watson, LCC 17 (1969)"
+    hosted: "not stated in report"
+    licence: "public domain (Latin); LCC 17 English in copyright"
+    english_in_copyright: true
+    worlds:
+      - "witt"
+    unlocks:
+      - "C4/S3"
+    cells:
+      - "witt:C4/S3"
+    identified_as:
+      - "witt.source.erasmus-de-libero-arbitrio-diatribe (kind: unvendored; WANTS-REGISTER)"
+    notes: ""
+  - rank: 85
+    priority: 1
+    work: "De mortuis oratio (On the Dead): the soul after death and purgation"
+    author: "Gregory of Nyssa"
+    edition: "Greek: PG 46:497-537 (Migne 1863); no public-domain English"
+    hosted: "archive.org / documentacatholicaomnia"
+    licence: "public domain (Greek)"
+    english_in_copyright: true
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C3/S5"
+    cells:
+      - "cappadocian:C3/S5"
+    identified_as: []
+    notes: ""
+  - rank: 86
+    priority: 1
+    work: "De obitu Theodosii 40-48 (Helena and the True Cross)"
+    author: "Ambrose"
+    edition: "De obitu Theodosii: Latin CSEL 73 (Faller 1955) in copyright, PL 16 (Migne 1845) public domain; Mannix (CUA 1925) English PD-US"
+    hosted: "archive.org (PL 16; Mannix 1925)"
+    licence: "public domain (Latin PL 16); Mannix 1925 PD-US"
+    english_in_copyright: false
+    worlds:
+      - "ijc"
+    unlocks:
+      - "C13/S5"
+    cells:
+      - "ijc:C13/S5"
+    identified_as: []
+    notes: "Paulinus, Vita Ambrosii is vendored (paulinus-milan_vita-ambrosii_kaniecka1928.txt) but mapped only via ijc.source.paulinus-vita-ambrosii."
+  - rank: 87
+    priority: 1
+    work: "De vocatione omnium gentium (On the Call of All Nations), incl. the fate of infants who die"
+    author: "Prosper of Aquitaine"
+    edition: "Latin: PL 51 (Migne); English: De Letter, ACW 14 (1952)"
+    hosted: "archive.org (PL 51)"
+    licence: "public domain (Latin); ACW 14 English in copyright"
+    english_in_copyright: true
+    worlds:
+      - "gallic"
+    unlocks:
+      - "C3/S7"
+    cells:
+      - "gallic:C3/S7"
+    identified_as: []
+    notes: "Facilitator-adjacent cell (unbaptised infants)."
+  - rank: 88
+    priority: 1
+    work: "Demons and the Making of the Monk"
+    author: "David Brakke"
+    edition: "secondary scholarship"
+    hosted: "not stated in report"
+    licence: "in copyright (modern scholarship)"
+    english_in_copyright: true
+    worlds:
+      - "desert"
+    unlocks:
+      - "C13/*"
+    cells:
+      - "desert:C13/*"
+    identified_as: []
+    notes: ""
+  - rank: 89
+    priority: 1
+    work: "Dialogue and Disputation: Aphrahat, Ephrem and the Jews (Koltun-Fromm)"
+    author: "Naomi Koltun-Fromm"
+    edition: "secondary scholarship (2010/2011)"
+    hosted: "WANTS-REGISTER rank 3"
+    licence: "in copyright (modern scholarship)"
+    english_in_copyright: true
+    worlds:
+      - "syr"
+    unlocks:
+      - "C11/S1"
+    cells:
+      - "syr:C11/S1"
+    identified_as:
+      - "syr.source.koltun-fromm-dialogue (kind: unvendored)"
+    notes: "C11: \"the only route to the content of Demonstrations XI-XIX\"."
+  - rank: 90
+    priority: 1
+    work: "Ecclesiastical Factionalism and Religious Controversy in Fifth-Century Gaul"
+    author: "Ralph Mathisen"
+    edition: "secondary scholarship"
+    hosted: "not stated in report"
+    licence: "in copyright (modern scholarship)"
+    english_in_copyright: true
+    worlds:
+      - "gallic"
+    unlocks:
+      - "C6/S8"
+    cells:
+      - "gallic:C6/S8"
+    identified_as:
+      - "gallic.source.mathisen-ecclesiastical-factionalism (kind: unvendored)"
+    notes: ""
+  - rank: 91
+    priority: 1
+    work: "Ein Sermon von der Bereitung zum Sterben (A Sermon on Preparing to Die, 1519)"
+    author: "Martin Luther"
+    edition: "Works of Martin Luther, Holman ed., vol. 1 (Philadelphia 1915), pp. 99-116"
+    hosted: "archive.org"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "witt"
+    unlocks:
+      - "C3/S5"
+    cells:
+      - "witt:C3/S5"
+    identified_as: []
+    notes: "The vendored luther_works-v1-selected_jacobs-spaeth1915.txt names \"Of Preparation for Death\" only in a contents line (6314); the C3 report says the text itself is not in the vendored selection. Confirm before downloading."
+  - rank: 92
+    priority: 1
+    work: "Ein Trost den Weibern, welchen es ungerade gegangen ist mit Kindergebaren (Comfort for Women Who Have Had a Miscarriage, 1542)"
+    author: "Martin Luther with Bugenhagen"
+    edition: "German: WA 53:205-208 (Weimar 1920); English: LW 43 (1968)"
+    hosted: "archive.org (Weimarer Ausgabe)"
+    licence: "public domain (German); LW English in copyright"
+    english_in_copyright: true
+    worlds:
+      - "witt"
+    unlocks:
+      - "C3/S7"
+    cells:
+      - "witt:C3/S7"
+    identified_as: []
+    notes: "Luther's pastoral softening of the confession's words on the unbaptised; Facilitator-adjacent."
+  - rank: 93
+    priority: 1
+    work: "Ephrem memory dossier (Jacob of Serug)"
+    author: "Jacob of Serug"
+    edition: "not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "syr"
+    unlocks:
+      - "C13/*"
+    cells:
+      - "syr:C13/*"
+    identified_as:
+      - "syr.source (Ephrem memory dossier; kind: unvendored)"
+    notes: ""
+  - rank: 94
+    priority: 1
+    work: "Epiphanius on Eustathius and the Pneumatomachians"
+    author: "Epiphanius"
+    edition: "not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C2/S4"
+    cells:
+      - "cappadocian:C2/S4"
+    identified_as:
+      - "cappadocian.source.epiphanius-on-eustathius-pneumatomachians (kind: unvendored); Build/worlds/_cross-world/WANTS-REGISTER.md L98"
+    notes: ""
+  - rank: 95
+    priority: 1
+    work: "Epistre tres utile (1539) and the 1561 preface"
+    author: "Marie Dentiere"
+    edition: "French; modern translations in copyright"
+    hosted: "not stated in report"
+    licence: "French: public domain"
+    english_in_copyright: true
+    worlds:
+      - "rzg"
+    unlocks:
+      - "C8/S2"
+    cells:
+      - "rzg:C8/S2"
+    identified_as:
+      - "rzg.source.dentiere-works (kind: unvendored)"
+    notes: ""
+  - rank: 96
+    priority: 1
+    work: "Epistulae 225-226 (Prosper and Hilary to Augustine; omitted by NPNF)"
+    author: "Prosper; Hilary of Marseille"
+    edition: "Latin: CSEL 57 (Goldbacher 1911); English: FOTC 32 (1956)"
+    hosted: "archive.org"
+    licence: "public domain (Latin); FOTC 32 English in copyright"
+    english_in_copyright: true
+    worlds:
+      - "gallic"
+    unlocks:
+      - "C4/S1"
+    cells:
+      - "gallic:C4/S1"
+    identified_as:
+      - "gallic.source.augustine-letters-221-226-absence (no kind field in record)"
+    notes: "CHECK FIRST: cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt is vendored (CSEL 57 pars IV covers Epp. 185-270); confirm whether 225-226 are in it before downloading."
+  - rank: 97
+    priority: 1
+    work: "Estate of Marriage (1522); writings of Katharina Zell"
+    author: "Martin Luther; Katharina Zell"
+    edition: "German; English LW 45 and McKee 1999 in copyright"
+    hosted: "not fetched; working knowledge"
+    licence: "German public domain"
+    english_in_copyright: true
+    worlds:
+      - "witt"
+    unlocks:
+      - "C8/S4"
+    cells:
+      - "witt:C8/S4"
+    identified_as: []
+    notes: ""
+  - rank: 98
+    priority: 1
+    work: "Evangelion da-Mepharreshe: the Curetonian Version of the Four Gospels, with the readings of the Sinai palimpsest (Old Syriac Gospels)"
+    author: "ed. F.C. Burkitt"
+    edition: "Cambridge 1904"
+    hosted: "archive.org"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "syr"
+    unlocks:
+      - "C1/S7"
+    cells:
+      - "syr:C1/S7"
+    identified_as: []
+    notes: ""
+  - rank: 99
+    priority: 1
+    work: "Excerpta ex Theodoto and Eclogae propheticae (angels assigned to persons and nations)"
+    author: "Clement of Alexandria"
+    edition: "Greek, GCS Clemens 3 (Staehlin 1909); English of the Excerpta in R.P. Casey, Studies and Documents 1 (1934)"
+    hosted: "archive.org"
+    licence: "public domain (Greek); Casey 1934 PD-US"
+    english_in_copyright: false
+    worlds:
+      - "alx"
+    unlocks:
+      - "C13/S4"
+    cells:
+      - "alx:C13/S4"
+    identified_as: []
+    notes: ""
+  - rank: 100
+    priority: 1
+    work: "Excuse a Messieurs les Nicodemites (1544)"
+    author: "John Calvin"
+    edition: "French in Calvini Opera; no PD English located"
+    hosted: "not stated in report"
+    licence: "French public domain; no PD English"
+    english_in_copyright: true
+    worlds:
+      - "rzg"
+    unlocks:
+      - "C14/S7"
+    cells:
+      - "rzg:C14/S7"
+    identified_as: []
+    notes: "Quiet conformers; Calvin's letters against the Nicodemites in Bonnet are vendored (vols 1, 2, 4)."
+  - rank: 101
+    priority: 1
+    work: "Five Theological Orations"
+    author: "Gregory of Nazianzus"
+    edition: "\"Mason\" per Build/worlds/_cross-world/download-queue-seed.yaml"
+    hosted: "Build/worlds/_cross-world/download-queue-seed.yaml; not yet downloaded"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C2/S4"
+    cells:
+      - "cappadocian:C2/S4"
+    identified_as:
+      - "Build/worlds/_cross-world/download-queue-seed.yaml row: Five Theological Orations (Mason)"
+    notes: "Queued, not downloaded."
+  - rank: 102
+    priority: 1
+    work: "Form of Prayers and Manner of Ministering the Sacraments (Geneva 1542)"
+    author: "John Calvin"
+    edition: "Tracts and Treatises vol. 2, tr. H. Beveridge (Calvin Translation Society, Edinburgh 1849)"
+    hosted: "archive.org"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "rzg"
+    unlocks:
+      - "C7/S3"
+    cells:
+      - "rzg:C7/S3"
+    identified_as: []
+    notes: "The Sunday order, baptism, the Supper, set prayers, the Psalms sung."
+  - rank: 103
+    priority: 1
+    work: "Funeral Hymns (1746; 2nd series 1759)"
+    author: "Charles Wesley"
+    edition: "Osborn, Poetical Works vol. 6 (London 1870)"
+    hosted: "archive.org"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "meth"
+    unlocks:
+      - "C3/S6"
+    cells:
+      - "meth:C3/S6"
+    identified_as: []
+    notes: "meth has no records yet; the 1780 Collection is vendored."
+  - rank: 104
+    priority: 1
+    work: "Gothic Bible (Ulfila)"
+    author: "Ulfila"
+    edition: "Streitberg 1908"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "ijc"
+    unlocks:
+      - "C5/S6"
+    cells:
+      - "ijc:C5/S6"
+    identified_as: []
+    notes: ""
+  - rank: 105
+    priority: 1
+    work: "Harmony of the Evangelists"
+    author: "John Calvin"
+    edition: "trans. William Pringle, Calvin Translation Society 1845-46"
+    hosted: "CCEL"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "rzg"
+    unlocks:
+      - "C1/S6"
+    cells:
+      - "rzg:C1/S6"
+    identified_as: []
+    notes: ""
+  - rank: 106
+    priority: 1
+    work: "Hexameron"
+    author: "Ambrose"
+    edition: "Savage, FOTC 42"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "ijc"
+    unlocks:
+      - "C5/S4"
+    cells:
+      - "ijc:C5/S4"
+    identified_as: []
+    notes: ""
+  - rank: 107
+    priority: 1
+    work: "Historia Pelagiana"
+    author: "Enrico Noris"
+    edition: "Padua 1673 (Latin); not otherwise stated"
+    hosted: "not stated in report"
+    licence: "public domain by age (Latin)"
+    english_in_copyright: false
+    worlds:
+      - "gallic"
+    unlocks:
+      - "C4/S1"
+    cells:
+      - "gallic:C4/S1"
+    identified_as:
+      - "gallic.source.noris-historia-pelagiana (kind: unvendored; WANTS-REGISTER row)"
+    notes: ""
+  - rank: 108
+    priority: 1
+    work: "Holy Women of the Syrian Orient; Edessa (Segal)"
+    author: "Sebastian Brock and Susan Harvey; J.B. Segal"
+    edition: "secondary scholarship"
+    hosted: "not fetched"
+    licence: "in copyright (modern scholarship)"
+    english_in_copyright: true
+    worlds:
+      - "syr"
+    unlocks:
+      - "C12/*"
+    cells:
+      - "syr:C12/*"
+    identified_as: []
+    notes: ""
+  - rank: 109
+    priority: 1
+    work: "Homilies on Jeremiah XVIII-XX (corrective punishment; the fire God lights)"
+    author: "Origen"
+    edition: "Greek: GCS 6, ed. E. Klostermann (Leipzig 1901); English: Smith, FOTC 97 (1998)"
+    hosted: "archive.org (GCS vol. 6)"
+    licence: "public domain (Greek); English not PD"
+    english_in_copyright: true
+    worlds:
+      - "alx"
+    unlocks:
+      - "C3/S3"
+    cells:
+      - "alx:C3/S3"
+    identified_as: []
+    notes: ""
+  - rank: 110
+    priority: 1
+    work: "Homilies on Joshua (Rufinus Latin)"
+    author: "Origen"
+    edition: "GCS 30, Baehrens 1921"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "alx"
+    unlocks:
+      - "C5/S7"
+    cells:
+      - "alx:C5/S7"
+    identified_as: []
+    notes: ""
+  - rank: 111
+    priority: 1
+    work: "Homilies on Luke (incl. Hom. 35 on the angel and the demon that attend each soul) and Homilies on Numbers"
+    author: "Origen"
+    edition: "Latin (Jerome's and Rufinus's versions), GCS Origenes Werke 9 (Rauer 1930) and 7 (Baehrens 1921); Hom. in Numeros Latin is already vendored (rufinus-aquileia_origenes-werke-bd7), Luke is not"
+    hosted: "archive.org (GCS)"
+    licence: "public domain (Latin/Greek); Lienhard FOTC 94 (1996) English in copyright"
+    english_in_copyright: true
+    worlds:
+      - "alx"
+    unlocks:
+      - "C13/S2"
+    cells:
+      - "alx:C13/S2"
+    identified_as: []
+    notes: ""
+  - rank: 112
+    priority: 1
+    work: "Homilies on the Gospels (Hom. 12 the five foolish virgins; Hom. 40 Dives and Lazarus)"
+    author: "Gregory the Great"
+    edition: "Latin: PL 76 (Migne); English: Hurst, CS 123 (1990)"
+    hosted: "archive.org"
+    licence: "public domain (Latin); Hurst English in copyright"
+    english_in_copyright: true
+    worlds:
+      - "rcg"
+    unlocks:
+      - "C3/S1"
+    cells:
+      - "rcg:C3/S1"
+    identified_as: []
+    notes: "rcg has no records yet (building)."
+  - rank: 113
+    priority: 1
+    work: "Homily \"That God is not the author of evils\" (Quod Deus non est auctor malorum)"
+    author: "Basil of Caesarea"
+    edition: "Greek: PG 31; English: Way, FOTC 46 (1963)"
+    hosted: "not stated in report"
+    licence: "public domain (Greek); no PD English known"
+    english_in_copyright: true
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C14/S1"
+    cells:
+      - "cappadocian:C14/S1"
+    identified_as: []
+    notes: ""
+  - rank: 114
+    priority: 1
+    work: "Hymns (James of Edessa's recension), incl. the hymns on the departed"
+    author: "Severus of Antioch"
+    edition: "E.W. Brooks, Patrologia Orientalis 6.1 and 7.5 (Paris 1909-1911), Syriac with English"
+    hosted: "archive.org"
+    licence: "public domain in the US"
+    english_in_copyright: false
+    worlds:
+      - "wsyr"
+    unlocks:
+      - "C3/S5"
+    cells:
+      - "wsyr:C3/S5"
+    identified_as: []
+    notes: "wsyr has no records yet."
+  - rank: 115
+    priority: 1
+    work: "Hymns against Heresies (demons, astrology, Bardaisan's planets)"
+    author: "Ephrem the Syrian"
+    edition: "Beck, CSCO 169-170 (1957) and 218-219 (1961), in copyright"
+    hosted: "not stated in report"
+    licence: "in copyright"
+    english_in_copyright: true
+    worlds:
+      - "syr"
+    unlocks:
+      - "C13/S1"
+    cells:
+      - "syr:C13/S1"
+    identified_as: []
+    notes: ""
+  - rank: 116
+    priority: 1
+    work: "Julian's Hellenic reclamation project"
+    author: "secondary"
+    edition: "not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C11/S3"
+    cells:
+      - "cappadocian:C11/S3"
+    identified_as:
+      - "cappadocian.source.julians-general-hellenic-reclamation-project (kind: unvendored)"
+    notes: ""
+  - rank: 117
+    priority: 1
+    work: "Lectures on Genesis"
+    author: "Martin Luther"
+    edition: "WA 42-44"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "witt"
+    unlocks:
+      - "C5/S4"
+    cells:
+      - "witt:C5/S4"
+    identified_as: []
+    notes: ""
+  - rank: 118
+    priority: 1
+    work: "Letter to Melania; Kephalaia Gnostika (the desert's own apokatastasis strand)"
+    author: "Evagrius Ponticus"
+    edition: "Syriac: W. Frankenberg, Euagrius Ponticus (Berlin 1912); English: Parmentier 1985, Casiday 2006, Ramelli 2015"
+    hosted: "archive.org (Frankenberg 1912)"
+    licence: "public domain (Syriac/Greek retroversion); English not PD"
+    english_in_copyright: true
+    worlds:
+      - "desert"
+    unlocks:
+      - "C3/S3"
+    cells:
+      - "desert:C3/S3"
+    identified_as: []
+    notes: ""
+  - rank: 119
+    priority: 1
+    work: "Letters (1523)"
+    author: "Argula von Grumbach"
+    edition: "German (WA); Matheson translation in copyright"
+    hosted: "not stated in report"
+    licence: "German: public domain"
+    english_in_copyright: true
+    worlds:
+      - "witt"
+    unlocks:
+      - "C8/S1"
+    cells:
+      - "witt:C8/S1"
+    identified_as:
+      - "witt.source.argula-womans-voice-in-the-reformation (kind: unvendored)"
+    notes: ""
+  - rank: 120
+    priority: 1
+    work: "Letters; Damascius (Hypatia and the Serapeum)"
+    author: "Synesius"
+    edition: "not stated in report"
+    hosted: "not fetched; working knowledge"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "alx"
+    unlocks:
+      - "C9/S5"
+    cells:
+      - "alx:C9/S5"
+    identified_as: []
+    notes: ""
+  - rank: 121
+    priority: 1
+    work: "Libanius and the paideia witness"
+    author: "Libanius (secondary)"
+    edition: "not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C11/S3"
+    cells:
+      - "cappadocian:C11/S3"
+    identified_as:
+      - "cappadocian.source.libanius-paideia-witness (kind: unvendored)"
+    notes: ""
+  - rank: 122
+    priority: 1
+    work: "Loci communes (1521)"
+    author: "Philip Melanchthon"
+    edition: "Latin: Kolde ed. (1900); English: Pauck, LCC 19 (1969)"
+    hosted: "archive.org"
+    licence: "public domain (Latin); LCC 19 English in copyright"
+    english_in_copyright: true
+    worlds:
+      - "witt"
+    unlocks:
+      - "C4/S1"
+    cells:
+      - "witt:C4/S1"
+    identified_as: []
+    notes: ""
+  - rank: 123
+    priority: 1
+    work: "Luther's Jews: A Journey into Anti-Semitism (Kaufmann 2017); Wallmann, reception of Luther's writings (1987)"
+    author: "Thomas Kaufmann; Johannes Wallmann"
+    edition: "secondary scholarship"
+    hosted: "not stated in report"
+    licence: "in copyright (modern scholarship)"
+    english_in_copyright: true
+    worlds:
+      - "witt"
+    unlocks:
+      - "C11/S1"
+    cells:
+      - "witt:C11/S1"
+    identified_as:
+      - "witt.source.thomas-luthers-jews-a-journey-into-anti, witt.source.johannes-reception-of-luthers-writings, witt.source.wikipedia-on-the-jews-and-their-lies (kind: unvendored)"
+    notes: "C11: the secondary chain the 1543 contested_claim rests on."
+  - rank: 124
+    priority: 1
+    work: "Luther: Man between God and the Devil"
+    author: "Heiko Oberman"
+    edition: "secondary scholarship"
+    hosted: "not stated in report"
+    licence: "in copyright (modern scholarship)"
+    english_in_copyright: true
+    worlds:
+      - "witt"
+    unlocks:
+      - "C13/*"
+    cells:
+      - "witt:C13/*"
+    identified_as: []
+    notes: ""
+  - rank: 125
+    priority: 1
+    work: "Marburg Articles (1529), art. 1"
+    author: "Martin Luther"
+    edition: "German, WA 30/3:160-171; English in Luther's Works vol. 38 (1971)"
+    hosted: "not stated in report"
+    licence: "German: public domain; LW 38 in copyright"
+    english_in_copyright: true
+    worlds:
+      - "witt"
+    unlocks:
+      - "C2/S3"
+    cells:
+      - "witt:C2/S3"
+    identified_as:
+      - "witt.source.marburg-articles (kind: unvendored); Build/worlds/_cross-world/WANTS-REGISTER.md L189"
+    notes: ""
+  - rank: 126
+    priority: 1
+    work: "Marian exiles; Geneva refugee records"
+    author: "various"
+    edition: "not checked"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "rzg"
+    unlocks:
+      - "C9/S1"
+    cells:
+      - "rzg:C9/S1"
+    identified_as: []
+    notes: ""
+  - rank: 127
+    priority: 1
+    work: "Memre on the resurrection and on the departed"
+    author: "Jacob of Serugh"
+    edition: "Syriac: P. Bedjan, Homiliae selectae Mar-Jacobi Sarugensis, 5 vols (Paris 1905-1910); English: Hansbury (Gorgias 2008)"
+    hosted: "archive.org (Bedjan)"
+    licence: "public domain (Syriac); Hansbury English in copyright"
+    english_in_copyright: true
+    worlds:
+      - "wsyr"
+    unlocks:
+      - "C3/S6"
+    cells:
+      - "wsyr:C3/S6"
+    identified_as: []
+    notes: "wsyr has no records yet."
+  - rank: 128
+    priority: 1
+    work: "Muratorian fragment"
+    author: "anon. (2nd c.)"
+    edition: "B.F. Westcott, A General Survey of the History of the Canon of the New Testament (Macmillan 1875), appendix C"
+    hosted: "archive.org"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "pahc"
+    unlocks:
+      - "C1/S7"
+    cells:
+      - "pahc:C1/S7"
+    identified_as: []
+    notes: ""
+  - rank: 129
+    priority: 1
+    work: "Natalicia (Carmina 12-29); Letters 31 and 32"
+    author: "Paulinus of Nola"
+    edition: "Latin CSEL 29-30 (Hartel 1894); English Walsh, ACW 35-36 and 40 (1966-1975) in copyright"
+    hosted: "archive.org (CSEL 29-30)"
+    licence: "public domain (Latin)"
+    english_in_copyright: true
+    worlds:
+      - "gallic"
+    unlocks:
+      - "C13/S5"
+    cells:
+      - "gallic:C13/S5"
+    identified_as: []
+    notes: "The shrine of St Felix; a relic of the cross sent to Sulpitius."
+  - rank: 130
+    priority: 1
+    work: "Nisibis cathedral report (Kayaalp)"
+    author: "Elif Kayaalp"
+    edition: "not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "syr"
+    unlocks:
+      - "C12/S8"
+    cells:
+      - "syr:C12/S8"
+    identified_as:
+      - "syr.source.kayaalp-nisibis-cathedral (kind: unvendored)"
+    notes: ""
+  - rank: 131
+    priority: 1
+    work: "Numidian basilica archaeology"
+    author: "archaeology"
+    edition: "not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "don"
+    unlocks:
+      - "C12/S8"
+    cells:
+      - "don:C12/S8"
+    identified_as:
+      - "don.source.numidian-basilica-archaeology (kind: unvendored)"
+    notes: ""
+  - rank: 132
+    priority: 1
+    work: "Olivetan Bible (1535)"
+    author: "Pierre Robert Olivetan"
+    edition: "not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "rzg"
+    unlocks:
+      - "C5/S6"
+    cells:
+      - "rzg:C5/S6"
+    identified_as: []
+    notes: ""
+  - rank: 133
+    priority: 1
+    work: "Optatus of Milevis: Against the Donatists (TTH 27)"
+    author: "Mark Edwards (trans.)"
+    edition: "Liverpool UP, TTH 27"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "don"
+    unlocks:
+      - "C6/S2"
+    cells:
+      - "don:C6/S2"
+    identified_as:
+      - "don.source.edwards-optatus-against-the-donatists-tth27 (kind: unvendored)"
+    notes: "The Vassall-Phillips 1917 English is already vendored."
+  - rank: 134
+    priority: 1
+    work: "Oration 30 (temples)"
+    author: "Libanius"
+    edition: "not stated in report"
+    hosted: "not fetched; working knowledge"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "fleet"
+    unlocks:
+      - "C9/S5"
+    cells:
+      - "fleet:C9/S5"
+    identified_as: []
+    notes: "C9: for temples; the report names no world."
+  - rank: 135
+    priority: 1
+    work: "Orations 24 (on Cyprian) and 8 (on Gorgonia)"
+    author: "Gregory of Nazianzus"
+    edition: "Greek with Latin, PG 35 (Migne 1857); not among the NPNF 2/7 selection vendored; English Vinson, FOTC 107 (2003) in copyright"
+    hosted: "archive.org (PG 35)"
+    licence: "public domain (Greek/Latin)"
+    english_in_copyright: true
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C13/S6"
+    cells:
+      - "cappadocian:C13/S6"
+    identified_as: []
+    notes: ""
+  - rank: 136
+    priority: 1
+    work: "Orations 7 and 8 (funeral orations) and his will"
+    author: "Gregory of Nazianzus"
+    edition: "in English"
+    hosted: "not fetched"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C12/S5"
+    cells:
+      - "cappadocian:C12/S5"
+    identified_as:
+      - "cappadocian.source.gregory-nazianzus-will-manumission (kind: unvendored)"
+    notes: "Registered source covers the will and manumission."
+  - rank: 137
+    priority: 1
+    work: "Pachomian Koinonia"
+    author: "Armand Veilleux"
+    edition: "secondary scholarship"
+    hosted: "not stated in report"
+    licence: "in copyright (modern scholarship)"
+    english_in_copyright: true
+    worlds:
+      - "desert"
+    unlocks:
+      - "C6/S1"
+    cells:
+      - "desert:C6/S1"
+    identified_as:
+      - "desert.source.veilleux-koinonia (kind: unvendored)"
+    notes: ""
+  - rank: 138
+    priority: 1
+    work: "Pachomius and the Idea of a Saintly Institution"
+    author: "Philip Rousseau"
+    edition: "secondary scholarship"
+    hosted: "not stated in report"
+    licence: "in copyright (modern scholarship)"
+    english_in_copyright: true
+    worlds:
+      - "desert"
+    unlocks:
+      - "C6/S1"
+    cells:
+      - "desert:C6/S1"
+    identified_as:
+      - "desert.source.rousseau-pachomius (kind: unvendored)"
+    notes: ""
+  - rank: 139
+    priority: 1
+    work: "Peshitta"
+    author: "anon. (Syriac)"
+    edition: "not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "syr"
+    unlocks:
+      - "C5/S6"
+    cells:
+      - "syr:C5/S6"
+    identified_as: []
+    notes: ""
+  - rank: 140
+    priority: 1
+    work: "Pestlied (Plague Hymn, 1519)"
+    author: "Huldrych Zwingli"
+    edition: "English in S.M. Jackson, Huldreich Zwingli (1901)"
+    hosted: "archive.org"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "rzg"
+    unlocks:
+      - "C14/S1"
+    cells:
+      - "rzg:C14/S1"
+    identified_as: []
+    notes: "Not in the vendored zwingli_selected-works_jackson1901.txt (grep for the hymn found nothing); the 1901 biography is a different volume."
+  - rank: 141
+    priority: 1
+    work: "Pomorskie otvety (The Pomorian Answers, 1723)"
+    author: "Andrei Denisov et al."
+    edition: "Russian, Moscow 1911 (Preobrazhenskoe reprint); English: Crummey 1970"
+    hosted: "archive.org / Russian State Library digital"
+    licence: "public domain (Russian); Crummey English in copyright"
+    english_in_copyright: true
+    worlds:
+      - "obel"
+    unlocks:
+      - "C3/S8"
+    cells:
+      - "obel:C3/S8"
+    identified_as: []
+    notes: "obel has no records yet."
+  - rank: 142
+    priority: 1
+    work: "Roman Confutation of the Augsburg Confession"
+    author: "Catholic theologians (1530)"
+    edition: "not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "witt"
+    unlocks:
+      - "C7/S2"
+    cells:
+      - "witt:C7/S2"
+    identified_as:
+      - "witt.source.roman-confutation-of-the-augsburg-confession (kind: unvendored)"
+    notes: ""
+  - rank: 143
+    priority: 1
+    work: "Rules for the covenanters (Syriac)"
+    author: "Rabbula of Edessa"
+    edition: "Overbeck 1865"
+    hosted: "not fetched; working knowledge"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "syr"
+    unlocks:
+      - "C8/*"
+    cells:
+      - "syr:C8/*"
+    identified_as: []
+    notes: "C8 names the source for syr without naming a sub-question."
+  - rank: 144
+    priority: 1
+    work: "Secondary scholarship on the Consensus Tigurinus"
+    author: "various"
+    edition: "not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "rzg"
+    unlocks:
+      - "C16/S4"
+    cells:
+      - "rzg:C16/S4"
+    identified_as: []
+    notes: "C16: the only S4 record concedes \"No secondary scholarship on the Consensus Tigurinus specifically is vendored\"."
+  - rank: 145
+    priority: 1
+    work: "Sermon on the Ten Commandments (1518, Decem praecepta)"
+    author: "Martin Luther"
+    edition: "Latin WA 1:394-521 (1883); no public-domain English"
+    hosted: "archive.org (WA 1)"
+    licence: "public domain (Latin)"
+    english_in_copyright: false
+    worlds:
+      - "witt"
+    unlocks:
+      - "C13/S6"
+    cells:
+      - "witt:C13/S6"
+    identified_as: []
+    notes: "The Treatise on Good Works is already vendored (luther_works-v1, lines 7820-7892)."
+  - rank: 146
+    priority: 1
+    work: "Sermons"
+    author: "Caesarius of Arles"
+    edition: "Sources Chretiennes (Delage) in copyright; Latin CCSL 103-104 (Morin 1953) in copyright; older Latin in PL 39"
+    hosted: "archive.org (PL 39)"
+    licence: "Latin of PL public domain; modern editions not"
+    english_in_copyright: false
+    worlds:
+      - "gallic"
+    unlocks:
+      - "C7/S1"
+    cells:
+      - "gallic:C7/S1"
+    identified_as: []
+    notes: "C7: baptism, communion, Lent, feast days in Gaul (early 6th c.)."
+  - rank: 147
+    priority: 1
+    work: "Sermons 15 'The Great Assize' (1758), 73 'Of Hell' (1782), 106 'On Faith' (1788), 'The General Deliverance'"
+    author: "John Wesley"
+    edition: "Works of John Wesley, ed. Thomas Jackson, 14 vols (London 1872), vols 5-7"
+    hosted: "archive.org / CCEL / Wesley Center Online"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "meth"
+    unlocks:
+      - "C3/S1"
+    cells:
+      - "meth:C3/S1"
+    identified_as: []
+    notes: "meth has no records yet; the vendored 1771 Sermons vol. 1 holds 'The Great Assize' but not 'Of Hell'."
+  - rank: 148
+    priority: 1
+    work: "Sermons on Job"
+    author: "John Calvin"
+    edition: "trans. Arthur Golding (1574)"
+    hosted: "EEBO / archive.org"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "rzg"
+    unlocks:
+      - "C14/S1"
+    cells:
+      - "rzg:C14/S1"
+    identified_as: []
+    notes: ""
+  - rank: 149
+    priority: 1
+    work: "Sibylline Oracles II.330-338 (the righteous may beg God to rescue the damned)"
+    author: "anon."
+    edition: "Milton S. Terry, The Sibylline Oracles translated into English blank verse (New York 1899)"
+    hosted: "archive.org / sacred-texts"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "pahc"
+    unlocks:
+      - "C3/S3"
+    cells:
+      - "pahc:C3/S3"
+    identified_as: []
+    notes: ""
+  - rank: 150
+    priority: 1
+    work: "Summa doctrinae christianae / A Summe of Christian Doctrine (English 1588)"
+    author: "Peter Canisius"
+    edition: "EEBO / Early English Books"
+    hosted: "EEBO"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "jes"
+    unlocks:
+      - "C3/S5"
+    cells:
+      - "jes:C3/S5"
+    identified_as: []
+    notes: "jes has no records yet; Trent Session 25 (Waterworth 1848) is already vendored."
+  - rank: 151
+    priority: 1
+    work: "Taborite chiliast articles of 1420 and the Prague masters' replies, in Lawrence of Brezova, Historia Hussitica"
+    author: "Lawrence of Brezova"
+    edition: "Fontes Rerum Bohemicarum V, ed. J. Goll (Prague 1893), Latin and Czech; English: Kaminsky 1967"
+    hosted: "archive.org / Czech digital library"
+    licence: "public domain; Kaminsky English in copyright"
+    english_in_copyright: true
+    worlds:
+      - "hus"
+    unlocks:
+      - "C3/S8"
+    cells:
+      - "hus:C3/S8"
+    identified_as: []
+    notes: "hus has no records yet; Taborite chiliasm is also in the vendored Hofler Latin."
+  - rank: 152
+    priority: 1
+    work: "Tabula praedestinationis (Summa totius Christianismi)"
+    author: "Theodore Beza"
+    edition: "not stated in report"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "rzg"
+    unlocks:
+      - "C4/S3"
+    cells:
+      - "rzg:C4/S3"
+    identified_as:
+      - "rzg.source.beza-works (kind: unvendored)"
+    notes: ""
+  - rank: 153
+    priority: 1
+    work: "Tatian's Diatessaron: Its Creation, Dissemination, Significance, and History in Scholarship"
+    author: "William L. Petersen"
+    edition: "Brill 1994 (modern monograph)"
+    hosted: "not stated in report"
+    licence: "in copyright"
+    english_in_copyright: true
+    worlds:
+      - "syr"
+    unlocks:
+      - "C1/S5"
+    cells:
+      - "syr:C1/S5"
+    identified_as:
+      - "syr.source.petersen-diatessaron (kind: unvendored, in copyright)"
+    notes: ""
+  - rank: 154
+    priority: 1
+    work: "Testimonia adversus Iudaeos (attribution disputed)"
+    author: "Gregory of Nyssa"
+    edition: "PG 46 (Migne 1863), Greek"
+    hosted: "archive.org"
+    licence: "public domain (Greek); no PD English"
+    english_in_copyright: false
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C11/S1"
+    cells:
+      - "cappadocian:C11/S1"
+    identified_as: []
+    notes: ""
+  - rank: 155
+    priority: 1
+    work: "The Acts of Thomas (Wright 1871, from the Syriac)"
+    author: "anon."
+    edition: "Wright, Apocryphal Acts of the Apostles (London 1871)"
+    hosted: "archive.org (Wright 1871)"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "syr"
+    unlocks:
+      - "C13/S2"
+    cells:
+      - "syr:C13/S2"
+    identified_as: []
+    notes: "The ANF 8 Greek-based version is vendored; the Persian martyr acts are vendored only in German (Braun 1915, Hoffmann 1880)."
+  - rank: 156
+    priority: 1
+    work: "The Earliest Life of Christ ... the Diatessaron of Tatian"
+    author: "J. Hamlyn Hill"
+    edition: "T&T Clark 1894"
+    hosted: "archive.org"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "syr"
+    unlocks:
+      - "C1/S7"
+    cells:
+      - "syr:C1/S7"
+    identified_as: []
+    notes: "anf09 already carries the Arabic harmony (Hill/Hogg) and is cited by syr records; this is the separate 1894 volume."
+  - rank: 157
+    priority: 1
+    work: "The Luminous Eye; Symbols of Church and Kingdom"
+    author: "Sebastian Brock; Robert Murray"
+    edition: "secondary scholarship"
+    hosted: "not stated in report"
+    licence: "in copyright (modern scholarship)"
+    english_in_copyright: true
+    worlds:
+      - "syr"
+    unlocks:
+      - "C2/S6"
+    cells:
+      - "syr:C2/S6"
+    identified_as:
+      - "syr.source.brock-luminous-eye, murray-symbols (kind: unvendored)"
+    notes: "C13 also lists Brock, The Luminous Eye, as identified for syr."
+  - rank: 158
+    priority: 1
+    work: "The Mishnah (Danby 1933) or Schechter's Talmud extracts"
+    author: "Herbert Danby / Solomon Schechter"
+    edition: "not stated in report"
+    hosted: "not fetched; working knowledge"
+    licence: "editions and licences need the Library thread to confirm"
+    english_in_copyright: false
+    worlds:
+      - "fleet"
+    unlocks:
+      - "C11/S1"
+    cells:
+      - "fleet:C11/S1"
+    identified_as: []
+    notes: "C11 finding 1: the Library holds no rabbinic text."
+  - rank: 159
+    priority: 1
+    work: "The Table Talk of Martin Luther (Hazlitt, Bohn 1857; Of the Devil and His Works)"
+    author: "Martin Luther"
+    edition: "trans. William Hazlitt (Bohn, London 1857; from Aurifaber); German WA Tischreden 1-6 (1912-1921)"
+    hosted: "archive.org"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "witt"
+    unlocks:
+      - "C13/S2"
+    cells:
+      - "witt:C13/S2"
+    identified_as: []
+    notes: "The vendored luther_table-talk_bell1886.txt is Bell's 1646 selection (43 \"devil\" hits) and does not carry these chapters."
+  - rank: 160
+    priority: 1
+    work: "Tractatus adversus Iudaeos"
+    author: "Augustine"
+    edition: "PL 42 (Migne 1865), Latin"
+    hosted: "archive.org / documentacatholicaomnia"
+    licence: "public domain (Latin); FOTC 27 (1955) in copyright"
+    english_in_copyright: true
+    worlds:
+      - "lpc"
+    unlocks:
+      - "C11/S1"
+    cells:
+      - "lpc:C11/S1"
+    identified_as: []
+    notes: ""
+  - rank: 161
+    priority: 1
+    work: "Treatise on Relics (Traite des reliques, 1543)"
+    author: "John Calvin"
+    edition: "English, Calvin's Tracts vol. 1, trans. Henry Beveridge (Calvin Translation Society, Edinburgh 1844), pp. 287-341; French, Opera 6"
+    hosted: "archive.org / CCEL"
+    licence: "public domain"
+    english_in_copyright: false
+    worlds:
+      - "rzg"
+    unlocks:
+      - "C13/S5"
+    cells:
+      - "rzg:C13/S5"
+    identified_as: []
+    notes: ""
+  - rank: 162
+    priority: 1
+    work: "Vetus Latina"
+    author: "anon."
+    edition: "Beuron edition"
+    hosted: "not stated in report"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "lpc"
+    unlocks:
+      - "C5/S1"
+    cells:
+      - "lpc:C5/S1"
+    identified_as: []
+    notes: ""
+  - rank: 163
+    priority: 1
+    work: "Virgins of God, Sons of Hellenism (Elm)"
+    author: "Susanna Elm"
+    edition: "secondary scholarship"
+    hosted: "not stated in report"
+    licence: "in copyright (modern scholarship)"
+    english_in_copyright: true
+    worlds:
+      - "cappadocian"
+    unlocks:
+      - "C11/S3"
+    cells:
+      - "cappadocian:C11/S3"
+    identified_as:
+      - "cappadocian.source.elm-virgins-of-god-sons-of-hellenism (kind: unvendored)"
+    notes: ""
+  - rank: 164
+    priority: 1
+    work: "Vom Kriege wider die Tuerken (1529); Verlegung des Alcoran (1542); preface to Bibliander's Qur'an (1543)"
+    author: "Martin Luther"
+    edition: "WA 30/2 (1909) and 53 (1920); Holman Works of Martin Luther vol. 5 (1931) has \"On War Against the Turk\" in English"
+    hosted: "archive.org"
+    licence: "WA public domain; Holman vol. 5 (1931) PD-US only if its copyright was not renewed (check)"
+    english_in_copyright: false
+    worlds:
+      - "witt"
+    unlocks:
+      - "C11/S4"
+    cells:
+      - "witt:C11/S4"
+    identified_as: []
+    notes: "Not registered in the repo."
+  - rank: 165
+    priority: 1
+    work: "Whether one may flee from a deadly plague (1527; Works vol. 43)"
+    author: "Martin Luther"
+    edition: "not stated in report"
+    hosted: "not fetched"
+    licence: "not stated in report"
+    english_in_copyright: false
+    worlds:
+      - "witt"
+    unlocks:
+      - "C12/S4"
+    cells:
+      - "witt:C12/S4"
+    identified_as: []
+    notes: "The report names witt without a sub-question; S4 (sickness, plague) is the cell the title fits."
+registry_drift_not_downloads:
+  - id: "gallic.source.cassian-de-incarnatione"
+    finding: "Registered kind: unvendored and on WANTS-REGISTER, but Cassian, On the Incarnation against Nestorius is in the vendored npnf211 (heading at line 48467)."
+    file: "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+    line: 48467
+    reports:
+      - "C1 gallic S2"
+      - "00-summary"
+    fix: "source-record fix (kind, file) and remove the WANTS row"
+    path_exists: true
+  - id: "witt.source.book-of-concord"
+    finding: "Registered kind: unvendored although Jacobs 1911 Book of Concord is vendored and mapped to witt; witt.term.free-will says the library carries no developed predestination doctrine, but Formula of Concord XI is at lines 25390 and 27478."
+    file: "cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt"
+    line: 25390
+    reports:
+      - "C4 witt S3"
+      - "00-summary"
+    fix: "source-record fix and a term correction (or map fix)"
+    path_exists: true
+  - id: "rzg.source.ecclesiastical-ordinances-1541"
+    finding: "Registered kind: unvendored while calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735.txt (a 1735 printing) is mapped to rzg; check it is the 1541 text."
+    file: "cic/texts/calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735.txt"
+    line: null
+    reports:
+      - "C4 findings"
+      - "C14 rzg S5"
+    fix: "source-record fix after confirming the printing"
+    path_exists: true
+  - id: "pelagius_epistula-ad-demetriadem-lat_migne.txt (corpus map)"
+    finding: "Vendored in Latin but mapped only to the unbuilt 'pelagianism' world (cic/corpus-map/pelagianism.yaml); hal, lpc and gallic build the controversy from the opponents' side only."
+    file: "cic/texts/pelagius_epistula-ad-demetriadem-lat_migne.txt"
+    line: null
+    reports:
+      - "C4 hal S1"
+      - "C4 findings"
+    fix: "corpus-map fix: add rows for hal, lpc, gallic"
+    path_exists: true
+  - id: "don.source.tilley-donatist-martyr-stories (Latin side)"
+    finding: "Registered unvendored (the English, Tilley 1996, is in copyright), but the Latin passions (Passio Marculi etc.) are vendored in monumenta-vetera-donatistarum_migne-pl8.txt and the C14 report already cites them for don S2/S3."
+    file: "cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt"
+    line: 666
+    reports:
+      - "C3 don S1/S6"
+      - "C14 don S2/S3"
+    fix: "registry note: Latin held, English blocked; no download possible"
+    path_exists: true
+  - id: "cappadocian.source.pharr-theodosian-code-translation (Latin side)"
+    finding: "Pharr's English is unvendored and in copyright, but the Latin Codex Theodosianus is vendored (codex-theodosianus_latinlibrary.txt) and cited by C14 ijc S7."
+    file: "cic/texts/codex-theodosianus_latinlibrary.txt"
+    line: null
+    reports:
+      - "C3 ijc S7"
+      - "C14 ijc S7"
+    fix: "registry note; no download possible for the English"
+    path_exists: true
+  - id: "witt.source.melanchthon-instructions-for-the-visitors"
+    finding: "Cited by the C14 report as a source record (unvendored) but no file of that name exists under records/witt/source/; the work is a WANTS-REGISTER row in C4."
+    file: null
+    line: null
+    reports:
+      - "C14 witt S6"
+      - "C4 identified"
+    fix: "confirm the record id or create the source record when the text is acquired"
+    path_exists: null
+  - id: "cappadocian.source.liturgy-of-st-basil"
+    finding: "Registered kind: unvendored although the Neale volume of Eastern liturgies is vendored and mapped."
+    file: "cic/texts/liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt"
+    line: null
+    reports:
+      - "C7 cappadocian S2"
+    fix: "source-record fix (kind, file)"
+    path_exists: true
+  - id: "don.source.acta-saturnini-abitinian-martyrs"
+    finding: "Registered kind: unvendored although the Latin Acta of Saturninus is vendored in monumenta-vetera-donatistarum_migne-pl8.txt (lines 1781, 2974: \"we cannot live without the dominicum\"). Only the English (Tilley 1996) is blocked."
+    file: "cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt"
+    line: 1781
+    reports:
+      - "C7 don S2"
+      - "C9 don S1"
+      - "C13 don S5"
+    fix: "registry note: Latin held, English blocked"
+    path_exists: true
+  - id: "rzg.source.genevan-psalter"
+    finding: "Record says unvendored while marot-beze_pseaumes-mis-en-rime-francoise-fra_1562.txt is mapped."
+    file: "cic/texts/marot-beze_pseaumes-mis-en-rime-francoise-fra_1562.txt"
+    line: null
+    reports:
+      - "C5 rzg S6"
+    fix: "source-record fix (kind, file)"
+    path_exists: true
+  - id: "tyconius_liber-regularum_burkitt1894.txt (4-cluster acquire row)"
+    finding: "The 4-cluster acquire list carried Tyconius, Liber Regularum as an acquisition; C5 found it vendored and unread."
+    file: "cic/texts/tyconius_liber-regularum_burkitt1894.txt"
+    line: null
+    reports:
+      - "C3 don S3/S8"
+      - "C5 don S2"
+    fix: "row moved out of acquire.yaml; no download needed"
+    path_exists: true
+  - id: "npnf113 Chrysostom homilies (corpus map)"
+    finding: "Chrysostom's Homily 20 on Ephesians (wives and slaves) is vendored but mapped to none of the twelve worlds."
+    file: "cic/texts/npnf113_chrysostom-homilies-galatians-philemon.xml"
+    line: null
+    reports:
+      - "C8 ijc/hal"
+      - "C14 FAC"
+    fix: "corpus-map fix: add rows for ijc and hal if the world is to speak to it"
+    path_exists: true
+  - id: "npnf110, npnf112, npnf113, npnf114 Chrysostom verse-by-verse homilies (corpus map)"
+    finding: "Scripture-commentary-tagged homilies on Matthew, John, Corinthians, Galatians-Philemon are mapped only to the Antiochene world."
+    file: "cic/texts/npnf110_chrysostom-homilies-matthew.xml"
+    line: null
+    reports:
+      - "C5 passage-index feasibility"
+    fix: "corpus-map fix"
+    path_exists: true
+  - id: "hefele v3 Synod of Orange 441, canon 26 (corpus map)"
+    finding: "Canon 26 (\"Deaconesses shall no longer be ordained\", hefele v3 line 8855) is in ijc's map only; gallic cannot reach it."
+    file: "cic/texts/hefele_history-of-the-councils-v3-431-451_clark1883.txt"
+    line: 8855
+    reports:
+      - "C6 gallic S6"
+    fix: "corpus-map fix: add a row for gallic"
+    path_exists: true
+  - id: "Basil Letter 93 (npnf208, corpus map)"
+    finding: "Letter 93 (solitaries commune at home) is not mapped to the desert world."
+    file: "cic/texts/npnf208_basil-letters-select-works.xml"
+    line: 29930
+    reports:
+      - "C7 desert S2"
+    fix: "corpus-map fix"
+    path_exists: true
+  - id: "Jerome Ep. 146 (corpus map)"
+    finding: "Ep. 146 (Alexandrian presbyters named their bishop) sits in hal's map, not alx's."
+    file: "cic/texts/npnf206_jerome-principal-works.xml"
+    line: null
+    reports:
+      - "C6 alx S1"
+    fix: "corpus-map fix: add a row for alx"
+    path_exists: true
+  - id: "Persian martyr acts (Braun 1915, Hoffmann 1880) and Anabaptist sources (Hubmaier, Menno, Martyrs Mirror) (corpus map)"
+    finding: "Vendored but mapped to the Church of the East movements (martyr acts) and to another movement (Anabaptist), not to syr and rzg."
+    file: null
+    line: null
+    reports:
+      - "C9 syr S2"
+      - "C9 rzg S5"
+      - "C13 syr"
+    fix: "corpus-map fix"
+    path_exists: null
+  - id: "ijc.source.paulinus-vita-ambrosii"
+    finding: "paulinus-milan_vita-ambrosii_kaniecka1928.txt is vendored but reaches ijc only through the source record, not the corpus map."
+    file: "cic/texts/paulinus-milan_vita-ambrosii_kaniecka1928.txt"
+    line: null
+    reports:
+      - "C13 ijc S5"
+    fix: "corpus-map check"
+    path_exists: true
+listed_as_other_but_already_vendored:
+  - work: "Origen, De Principiis II.10-11 and III.6 (Crombie, ANF 4)"
+    file: "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+    line: 4985
+    cells:
+      - "alx:C3/S2"
+    note: "Butterworth 1936 (from Koetschau) is the better witness but its rights are unclear outside the UK."
+    path_exists: true
+  - work: "Basil, Shorter Rules 267 (Clarke 1925)"
+    file: "cic/texts/basil_ascetic-works-longer-shorter-rules_clarke1925.txt"
+    line: 11714
+    cells:
+      - "cappadocian:C3/S2"
+    note: "US-PD (pre-1930); UK term ran to 2038. Vendored and mapped; the C3 S1 cell confirms it."
+    path_exists: true
+  - work: "Gregory of Nyssa, On Infants' Early Deaths (NPNF 2/5)"
+    file: "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt"
+    line: 32849
+    cells:
+      - "cappadocian:C3/S7"
+    note: "other.json lists it only to show it is the same volume; LOADED, not OTHER."
+    path_exists: true
+  - work: "Faustus of Riez, De gratia and Epistulae (CSEL 21, Engelbrecht 1891)"
+    file: "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt"
+    line: null
+    cells:
+      - "gallic:C3/S5"
+      - "gallic:C4/S1"
+    note: "Latin only; no public-domain English exists."
+    path_exists: true
+  - work: "Jerome, Letter 124 to Avitus; Dialogue against the Pelagians I.28 (NPNF 2/6)"
+    file: "cic/texts/npnf206_jerome-principal-works.xml"
+    line: 40528
+    cells:
+      - "hal:C3/S2"
+    note: "LOADED; listed for completeness."
+    path_exists: true
+  - work: "Ambrose, De excessu fratris Satyri (NPNF 2/10)"
+    file: "cic/texts/npnf210_ambrose-select-works-letters.xml"
+    line: 819
+    cells:
+      - "ijc:C3/S5"
+    note: "Only De bono mortis in the same row is missing (see acquire list)."
+    path_exists: true
+  - work: "Augustine, De octo Dulcitii quaestionibus (PL 40)"
+    file: "cic/texts/augustine_opera-minora-catechetica-lat_migne-pl40.txt"
+    line: 10141
+    cells:
+      - "lpc:C3/S3"
+    note: "The report lists PL 40 as OTHER; the vendored augustine_opera-minora-catechetica-lat_migne-pl40.txt carries it (heading at line 10141). Latin only; FOTC 16 English in copyright."
+    path_exists: true
+  - work: "Possidius, Life of Augustine ch. 31 (Weiskotten 1919)"
+    file: "cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+    line: null
+    cells:
+      - "lpc:C3/S5"
+    note: "Vendored; C14 says \"cited elsewhere\"."
+    path_exists: true
+  - work: "Augustine, Sermons 172-173 (Latin, PL 38)"
+    file: "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt"
+    line: null
+    cells:
+      - "lpc:C3/S5"
+    note: "Latin vendored; Hill WSA III/5 (1992) English in copyright."
+    path_exists: true
+  - work: "Augustine, De fide et operibus (CSEL 41)"
+    file: "cic/texts/augustine_de-fide-et-operibus-lat_zycha1900-csel41-tei.txt"
+    line: null
+    cells:
+      - "lpc:C4/S1"
+    note: "Latin only; Lombardo ACW 48 (1988) in copyright; no PD English. DOWNLOAD-QUEUE also holds Opera t. VI (Migne) and CSEL 42."
+    path_exists: true
+  - work: "Optatus of Milevis, Against the Donatists (Vassall-Phillips 1917)"
+    file: "cic/texts/optatus_against-the-donatists.txt"
+    line: null
+    cells:
+      - "don:C3/S7"
+    note: "C3 report: \"now confirmed vendored\"."
+    path_exists: true
+  - work: "Papias fragments; Justin, Dialogue 80-81 (ANF 1)"
+    file: "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+    line: null
+    cells:
+      - "pahc:C3/S8"
+    note: "Vendored."
+    path_exists: true
+  - work: "Second Helvetic Confession ch. 26 (burial; purgatory rejected; apparitions as deceits)"
+    file: "cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt"
+    line: 1475
+    cells:
+      - "rzg:C3/S4"
+      - "rzg:C3/S5"
+    note: "The report names Schaff, Creeds vol. 3 (1877) as OTHER, but the vendored 1919 Second Helvetic file has \"Chap. XXVI. Of the Burial of the Faithful\" at line 1475."
+    path_exists: true
+  - work: "Odes of Solomon 42 (Harris 1911)"
+    file: "cic/texts/harris_odes-and-psalms-of-solomon_harris1911.txt"
+    line: 714
+    cells:
+      - "syr:C3/S5"
+    note: "The report names Harris 1909 / Bernard 1912 as OTHER; Harris 1911 is vendored (syr.source.odes-of-solomon, 0 citing records)."
+    path_exists: true
+  - work: "Athanasius, Letters to Serapion IV.8-23 (PG 26, Greek/Latin)"
+    file: "cic/texts/athanasius_opera-omnia-pg26-grc-lat_migne1857.txt"
+    line: null
+    cells:
+      - "alx:C4/S8"
+    note: "No PD English (Shapland 1951 in copyright)."
+    path_exists: true
+  - work: "Origen, On Prayer (Koetschau 1899, Greek)"
+    file: "cic/texts/origen_de-oratione-grc_koetschau1899.txt"
+    line: null
+    cells:
+      - "alx:C14/S2"
+    note: "No PD English (Jay 1954, Greer 1979 in copyright); Greek PG 11 is PD."
+    path_exists: true
+  - work: "Gregory Nazianzen, Carmina de se ipso; Sasima letters 48-50 and Ep. 58 (PG 37, Greek/Latin)"
+    file: "cic/texts/gregory-nazianzen_epistulae-carmina-pg37-grc-lat_migne1857.txt"
+    line: null
+    cells:
+      - "cappadocian:C14/S3"
+      - "cappadocian:C14/S6"
+    note: "No complete PD English (Meehan FOTC 75, 1987 in copyright); the letters are \"WANTS unclassified\"."
+    path_exists: true
+  - work: "Chrysostom, Homilies on 1 Corinthians 41.8 (NPNF 1/12)"
+    file: "cic/texts/npnf112_chrysostom-homilies-corinthians.xml"
+    line: 25428
+    cells:
+      - "aec:C3/S5"
+    note: "aec has no records yet."
+    path_exists: true
+  - work: "Gregory the Great, Dialogues IV.39-41, IV.55-57 (Gardner 1911)"
+    file: "cic/texts/gregory-great_dialogues_gardner1911.txt"
+    line: 11361
+    cells:
+      - "rcg:C3/S5"
+    note: "rcg has no records yet; \"the world most people would ask about purgatory\"."
+    path_exists: true
+  - work: "Hus, De ecclesia ch. 1 (Schaff 1915)"
+    file: "cic/texts/hus_de-ecclesia-the-church_schaff1915.txt"
+    line: 3036
+    cells:
+      - "hus:C3/S5"
+    note: "hus has no records yet."
+    path_exists: true
+  - work: "Francis Xavier, letter from Cochin 29 Jan 1552 (Coleridge 1872 vol. 2)"
+    file: "cic/texts/francis-xavier_life-and-letters-v2_coleridge1872.txt"
+    line: 18876
+    cells:
+      - "jes:C3/S7"
+    note: "jes has no records yet."
+    path_exists: true
+  - work: "Ignatius, Spiritual Exercises, First Week fifth exercise (Mullan 1914)"
+    file: "cic/texts/ignatius-loyola_spiritual-exercises_mullan1914.txt"
+    line: 451
+    cells:
+      - "jes:C3/S1"
+    note: "jes has no records yet."
+    path_exists: true
+  - work: "Council of Trent, Session 25 decree on purgatory (Waterworth 1848)"
+    file: "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt"
+    line: null
+    cells:
+      - "jes:C3/S5"
+    note: "jes has no records yet."
+    path_exists: true
+  - work: "Avvakum, Life (Harrison and Mirrlees 1924)"
+    file: "cic/texts/avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt"
+    line: null
+    cells:
+      - "obel:C3/S1"
+    note: "obel has no records yet."
+    path_exists: true
+  - work: "Charles Wesley, 1780 Collection sections 'Describing Death', 'Judgment', 'Heaven', 'Hell'"
+    file: "cic/texts/wesley-c_hymns-methodists_1780.txt"
+    line: 2709
+    cells:
+      - "meth:C3/S6"
+    note: "meth has no records yet."
+    path_exists: true
+  - work: "Augustine, Collatio cum Maximino (PL 42)"
+    file: "cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt"
+    line: null
+    cells:
+      - "lpc:C2/S3"
+    note: "C2 lists it as OTHER; the vendored augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt carries it. Latin only."
+    path_exists: true
+  - work: "Odes of Solomon (Harris and Mingana 1916-1920; the spirit as dove and milk)"
+    file: "cic/texts/odes-of-solomon_harris-mingana1920.txt"
+    line: null
+    cells:
+      - "syr:C2/S4"
+    note: "C2 lists it as OTHER; odes-of-solomon_harris-mingana1920.txt is in cic/texts, as is the Harris 1911 file. Whether the 1920 file is mapped to syr was not checked."
+    path_exists: true
+  - work: "Tertullian, De baptismo and De corona (ANF 3)"
+    file: "cic/texts/anf03_tertullian.xml"
+    line: null
+    cells:
+      - "pahc:C7/S1"
+    note: "C7: already vendored as anf03 but mapped only to pahc."
+    path_exists: true
+  - work: "Chrysostom, Homily 20 on Ephesians (wives and slaves)"
+    file: "cic/texts/npnf113_chrysostom-homilies-galatians-philemon.xml"
+    line: null
+    cells:
+      - "ijc:C8/S2"
+      - "hal:C8/S2"
+    note: "C8: vendored and mapped only to the Antiochene-Chrysostom bucket, none of the twelve worlds. A corpus-map fix, not a download."
+    path_exists: true
+  - work: "Augustine, Letters 22 and 29 (laetitia at the martyrs' tombs) and Possidius, Life ch. 29"
+    file: "cic/texts/npnf101_augustine-confessions-letters.xml"
+    line: null
+    cells:
+      - "don:C13/S5"
+      - "lpc:C13/S5"
+    note: "C13: NPNF 1/1 vendored and mapped; Possidius (weiskotten 1919, line 591) vendored and mapped."
+    path_exists: true
+  - work: "Sulpitius Severus, Dialogues I (Postumianus on Egypt)"
+    file: "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+    line: null
+    cells:
+      - "gallic:C13/S3"
+    note: "C13: vendored and mapped; the world's records draw on Dialogues II-III and cite Dialogue I in none."
+    path_exists: true
+  - work: "Cassian, Conferences VII and VIII (demons; On Principalities)"
+    file: "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+    line: 32132
+    cells:
+      - "gallic:C13/S2"
+      - "gallic:C13/S4"
+    note: "C13: lines 32132 and 33442, mapped; cited by no gallic record."
+    path_exists: true
+  - work: "Jerome, Against Vigilantius and Letter 109 to Riparius; Life of Hilarion; Letter 108 on Paula"
+    file: "cic/texts/npnf206_jerome-principal-works.xml"
+    line: 22262
+    cells:
+      - "hal:C13/S5"
+      - "hal:C13/S6"
+      - "hal:C13/S2"
+    note: "C13: Against Vigilantius near line 22255, Letter 109 at 22262, Hilarion 29725, Paula 21340; cited by no hal record."
+    path_exists: true
+  - work: "Ammianus Marcellinus XXIX.1-2 (the magic trials at Antioch), Yonge 1862"
+    file: "cic/texts/ammianus-marcellinus_roman-history_yonge1862.txt"
+    line: null
+    cells:
+      - "ijc:C13/S6"
+    note: "C13 lists the Bohn edition as OTHER; the Yonge 1862 file is vendored (C16 cites it at line 23176)."
+    path_exists: true
+  - work: "Augustine, On Care to Be Had for the Dead; City of God XXII.8; Tractates on John 7"
+    file: "cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml"
+    line: 43492
+    cells:
+      - "lpc:C13/S3"
+      - "lpc:C13/S6"
+      - "lpc:C13/S7"
+    note: "C13: vendored and mapped to lpc; cited only by a consult-only source record."
+    path_exists: true
+  - work: "Justin, 2 Apology 6 and Dialogue 30, 76, 85; Irenaeus II.32.4; Hermas Mandate 6.2; Ignatius Ephesians 19"
+    file: "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+    line: 16966
+    cells:
+      - "pahc:C13/S2"
+      - "pahc:C13/S4"
+      - "pahc:C13/S6"
+    note: "C13: vendored and mapped to pahc; no pahc record mentions exorcism."
+    path_exists: true
+  - work: "Luther, Treatise on Good Works (1520), second commandment"
+    file: "cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt"
+    line: 7820
+    cells:
+      - "witt:C13/S6"
+    note: "C13: vendored and mapped (lines 7820-7892)."
+    path_exists: true
+  - work: "Barnabas 9-16 (circumcision, Sabbath, temple)"
+    file: "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+    line: null
+    cells:
+      - "pahc:C11/S1"
+    note: "C11: already vendored in anf01; no acquisition needed."
+    path_exists: true
+  - work: "Athanasius, Contra Gentes (gods as demons; idols)"
+    file: "cic/texts/npnf204_athanasius-select-works-letters.xml"
+    line: null
+    cells:
+      - "alx:C11/S3"
+    note: "C11: already vendored in npnf204 (Robertson 1892)."
+    path_exists: true
+  - work: "Gerlach, Tage-Buch (Istanbul, 237 hits) and Lucaris, Lettres"
+    file: "cic/texts/gerlach_tage-buch-deu_1674.txt"
+    line: null
+    cells:
+      - "witt:C11/S4"
+      - "rzg:C11/S4"
+    note: "C11: firsthand Ottoman material mapped to witt and rzg that no record uses."
+    path_exists: true
+  - work: "Jeremias II correspondence with the Tuebingen theologians (1576-81, Latin)"
+    file: "cic/texts/acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt"
+    line: null
+    cells:
+      - "witt:C15/S4"
+    note: "C15: meets the East-West split question; Latin, counted not read."
+    path_exists: true
+  - work: "Gregory Nazianzen, First and Second Invectives against Julian (King 1888)"
+    file: "cic/texts/gregory-nazianzen_first-invective-against-julian_king1888.txt"
+    line: null
+    cells:
+      - "cappadocian:C11/S3"
+    note: "Vendored; C11 renders Julian's own words for cappadocian and notes Basil's Address (basil_address-to-young-men_padelford1902.txt) as vendored and unquoted."
+    path_exists: true
+  - work: "Liber Regularum (the Donatist Book of Rules; Rule VII on the devil and his body)"
+    file: "cic/texts/tyconius_liber-regularum_burkitt1894.txt"
+    line: null
+    cells:
+      - "don:C3/S3"
+      - "don:C3/S8"
+      - "don:C5/S2"
+    note: "Listed as an acquisition in the 4-cluster list (from C3). The C5 report found it vendored (tyconius_liber-regularum_burkitt1894.txt, Latin) and unread, and calls Tyconius the Donatist world's only interpreter. Moved out of the acquire list. English (Babcock 1989) is in copyright."
+    path_exists: true

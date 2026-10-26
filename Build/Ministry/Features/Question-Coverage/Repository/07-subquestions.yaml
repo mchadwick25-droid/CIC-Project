@@ -1,0 +1,150 @@
+# Sub-questions: the coverage unit. Each has one canonical question (an existing id) and wordings (the other ids).
+# Mark 2026-10-25: variants are kept for retrieve_when and probe work, not counted as questions.
+# C1, C3, C4, C14 adopt the groupings the coverage searches used, so the maps stay valid.
+subquestions:
+# ---- C1 Jesus
+- {id: C1.S1, c: C1, label: "Who Jesus was to them; the good news; what he taught", canonical: C1-02, ids: [C1-01, C1-02, C1-03, C1-04, C1-11, C1-23, C1-28]}
+- {id: C1.S2, c: C1, label: "Was he God; prophet, teacher or God as an outsider asks; virgin birth; 'the Father is greater'", canonical: C1-13, ids: [C1-13, C1-21, C1-22, C1-24, R-24]}
+- {id: C1.S3, c: C1, label: "His death: why killed, what it did, 'in our place', 'personal Lord'", canonical: C1-05, ids: [C1-05, C1-14, C1-15, C1-27]}
+- {id: C1.S4, c: C1, label: "Resurrection: what happened, how they knew, 'grew in the telling'", canonical: C1-09, ids: [C1-06, C1-09, C1-18]}
+- {id: C1.S5, c: C1, label: "Did he exist; eyewitness chain; outside witnesses", canonical: C1-16, ids: [C1-08, C1-16]}
+- {id: C1.S6, c: C1, label: "His humanity: what he looked like, his Jewishness, what he was like", canonical: C1-17, ids: [C1-17, C1-19, C1-20]}
+- {id: C1.S7, c: C1, label: "Which gospels and writings about Jesus they had", canonical: C1-07, ids: [C1-07, C1-25]}
+- {id: C1.S8, c: C1, label: "Would Jesus want someone like me; I want to believe", canonical: C1-10, ids: [C1-10, C1-12, C1-26]}
+# ---- C2 God
+- {id: C2.S1, c: C2, label: "Is God real; who made God", canonical: R-01, ids: [R-01, R-02]}
+- {id: C2.S2, c: C2, label: "What God is like: father or judge, angry, the same God as Jews and Muslims; anger at God", canonical: C2-01, ids: [C2-01, C2-09, C2-11, C2-19]}
+- {id: C2.S3, c: C2, label: "The Trinity in plain words; the one-and-three objection", canonical: C2-10, ids: [C2-06, C2-10, C2-12, C2-14]}
+- {id: C2.S4, c: C2, label: "The Spirit: person or force; tongues; prophecy; still speaks", canonical: C2-02, ids: [C2-02, C2-08, C2-13, C2-21, R-25]}
+- {id: C2.S5, c: C2, label: "Councils, Arius, homoousios, filioque: 'a council voted Jesus God'", canonical: C2-04, ids: [C2-03, C2-04, C2-07, C2-15]}
+- {id: C2.S6, c: C2, label: "Can God be known, felt, experienced; God in nature; God heals", canonical: C2-05, ids: [C2-05, C2-16, C2-18, R-35, R-36]}
+- {id: C2.S7, c: C2, label: "Where evil comes from; did God create it", canonical: C2-20, ids: [C2-20]}
+- {id: C2.S8, c: C2, label: "Pictures and images of God", canonical: C2-17, ids: [C2-17]}
+# ---- C3 Afterlife
+- {id: C3.S1, c: C3, label: "Was hell and a last judgment real; how pictured, preached, used", canonical: C3-05, ids: [C3-05, C3-21, C3-25, C3-29, C3-30, R-09]}
+- {id: C3.S2, c: C3, label: "Was hell forever, or did it end", canonical: C3-06, ids: [C3-02, C3-03, C3-06, C3-17]}
+- {id: C3.S3, c: C3, label: "Did everyone get restored in the end, even the devil", canonical: C3-07, ids: [C3-07, C3-22, C3-23]}
+- {id: C3.S4, c: C3, label: "Were the wicked destroyed rather than tormented", canonical: C3-08, ids: [C3-08]}
+- {id: C3.S5, c: C3, label: "Right after death: waiting place, Sheol, purgatory, prayer for the dead; ghosts; reincarnation", canonical: C3-09, ids: [C3-04, C3-09, C3-10, C3-11, C3-24, C3-27, R-22]}
+- {id: C3.S6, c: C3, label: "Heaven; the body raised; seeing loved ones; losing it after baptism", canonical: C3-12, ids: [C3-12, C3-19, C3-28]}
+- {id: C3.S7, c: C3, label: "Who is lost: outsiders, Jews and pagans, a loved one, unbaptised infants, suicide", canonical: C3-01, ids: [C3-01, C3-13, C3-14, C3-15, C3-16, C3-26, R-20]}
+- {id: C3.S8, c: C3, label: "The end of the world: rapture, Antichrist, 'in your lifetime'", canonical: C3-18, ids: [C3-18, C3-20]}
+# ---- C4 Salvation
+- {id: C4.S1, c: C4, label: "Faith and works, grace, 'what must I do'", canonical: C4-01, ids: [C4-01, C4-11, C4-13, C4-14, C4-16, C4-20, C4-23, C4-24]}
+- {id: C4.S2, c: C4, label: "Original sin, inherited guilt, infants", canonical: C4-02, ids: [C4-02]}
+- {id: C4.S3, c: C4, label: "Free will, predestination, election, Romans 9", canonical: C4-09, ids: [C4-03, C4-09, C4-10, C4-17, C4-21]}
+- {id: C4.S4, c: C4, label: "Assurance, losing salvation, falling and returning", canonical: C4-07, ids: [C4-07, C4-15, C4-19]}
+- {id: C4.S5, c: C4, label: "Baptism as new birth, is it needed, once-only repentance", canonical: C4-04, ids: [C4-04, C4-05, C4-06, C4-12, C4-26]}
+- {id: C4.S6, c: C4, label: "Those who never heard; good without God", canonical: C4-08, ids: [C4-08, C4-22, R-05]}
+- {id: C4.S7, c: C4, label: "Indulgences, almsgiving, paying for sin", canonical: C4-18, ids: [C4-18]}
+- {id: C4.S8, c: C4, label: "The sin that cannot be forgiven", canonical: C4-25, ids: [C4-25]}
+# ---- C5 Bible
+- {id: C5.S1, c: C5, label: "Which books, the apocrypha, who decided, the Bible as only authority", canonical: C5-02, ids: [C5-02, C5-04, C5-07, C5-16, C5-27, C5-30]}
+- {id: C5.S2, c: C5, label: "How they read: literal, more than one meaning, the Old Testament as about Jesus, what a modern reader misses", canonical: C5-01, ids: [C5-01, C5-05, C5-11, C5-12, C5-25, C5-26, C5-28, C5-29]}
+- {id: C5.S3, c: C5, label: "Reliability, errors, authorship, 'science disproves it'", canonical: R-27, ids: [C5-13, C5-17, C5-24, R-27, R-28]}
+- {id: C5.S4, c: C5, label: "Genesis and creation, the six days", canonical: C5-08, ids: [C5-08, C5-20]}
+- {id: C5.S5, c: C5, label: "Revelation and the end", canonical: C5-14, ids: [C5-14]}
+- {id: C5.S6, c: C5, label: "Who could read or own a Bible; language; translation", canonical: C5-15, ids: [C5-03, C5-15]}
+- {id: C5.S7, c: C5, label: "The violence in the texts; the cursing psalms", canonical: C5-06, ids: [C5-06, C5-21]}
+- {id: C5.S8, c: C5, label: "One passage at a time (VERSE)", canonical: C5-10, ids: [C5-09, C5-10, C5-18, C5-19, C5-22, C5-23, R-33]}
+# ---- C6 Authority
+- {id: C6.S1, c: C6, label: "Who led, how chosen, what the titles meant, bishops or not, could a congregation remove one", canonical: C6-01, ids: [C6-01, C6-02, C6-06, C6-08, C6-15, C6-20, C6-21, C6-23]}
+- {id: C6.S2, c: C6, label: "The pope and Rome; Peter and 'on this rock'", canonical: C6-09, ids: [C6-09, C6-10, C6-25]}
+- {id: C6.S3, c: C6, label: "Councils and creeds; who decided disputes; did ordinary believers have a say", canonical: C6-03, ids: [C6-03, C6-18, C6-19, C6-26]}
+- {id: C6.S4, c: C6, label: "Tradition and scripture; apostolic succession; the only true church; is there a church today that is yours", canonical: C6-04, ids: [C6-04, C6-05, C6-13, C6-14, C6-24]}
+- {id: C6.S5, c: C6, label: "Heresy: who decided, what happened to heretics", canonical: C6-12, ids: [C6-12]}
+- {id: C6.S6, c: C6, label: "Married clergy; deacons and deaconesses", canonical: C6-11, ids: [C6-11, C6-22]}
+- {id: C6.S7, c: C6, label: "The emperor's say in belief", canonical: C6-17, ids: [C6-17]}
+- {id: C6.S8, c: C6, label: "Leaders who failed, got rich, or abused; distrust of leaders; lonely leaders and divided congregations", canonical: C6-07, ids: [C6-07, C6-16, R-16, R-17, R-39, R-40]}
+# ---- C7 Practice
+- {id: C7.S1, c: C7, label: "Becoming one of them; baptism: infants, dunking or pouring", canonical: C7-01, ids: [C7-01, C7-06, C7-15]}
+- {id: C7.S2, c: C7, label: "The meal: what happened, how often, real presence or symbol, who was refused", canonical: C7-03, ids: [C7-03, C7-07, C7-09, C7-17, C7-23, C7-28]}
+- {id: C7.S3, c: C7, label: "Prayer: why and how, set or free, teach me, prayer in anxiety", canonical: C7-02, ids: [C7-02, C7-18, C7-24, R-32, R-34]}
+- {id: C7.S4, c: C7, label: "Worship in the room: singing and instruments, buildings, images, posture, preaching", canonical: C7-08, ids: [C7-08, C7-11, C7-14, C7-19, C7-20, C7-25, C7-26]}
+- {id: C7.S5, c: C7, label: "Confession and penance; fasting", canonical: C7-10, ids: [C7-04, C7-10]}
+- {id: C7.S6, c: C7, label: "The calendar: Sunday or Sabbath, Easter, Christmas, Lent", canonical: C7-12, ids: [C7-12, C7-13]}
+- {id: C7.S7, c: C7, label: "Mary and the saints in prayer; anointing the sick; weddings and funerals; the unbaptised visitor", canonical: C7-16, ids: [C7-16, C7-21, C7-22, C7-27]}
+- {id: C7.S8, c: C7, label: "Did the practices go back to the apostles", canonical: C7-05, ids: [C7-05]}
+# ---- C8 Women, children, the enslaved, marriage, sex
+- {id: C8.S1, c: C8, label: "Women's lives in their own words; any writing by women; nuns", canonical: C8-01, ids: [C8-01, C8-19, C8-23]}
+- {id: C8.S2, c: C8, label: "Women leading, preaching, deacons, priests; 'wives, submit'; were women lesser", canonical: C8-05, ids: [C8-05, C8-08, C8-21, C8-26, C8-27]}
+- {id: C8.S3, c: C8, label: "The enslaved: owned, freed, thought wrong, 'slaves obey', one table, the tortured witnesses", canonical: C8-03, ids: [C8-03, C8-07, C8-09, C8-24, C8-28]}
+- {id: C8.S4, c: C8, label: "Marriage: age, consent, mixed marriage, widows remarrying, divorce, adultery", canonical: C8-04, ids: [C8-04, C8-06, C8-15, C8-16, C8-17, C8-25, C8-30]}
+- {id: C8.S5, c: C8, label: "Sex in marriage, virginity ranked above marriage, contraception, abortion and exposure, extreme asceticism", canonical: C8-10, ids: [C8-10, C8-12, C8-13, C8-14, C8-18, C8-29]}
+- {id: C8.S6, c: C8, label: "Gay people and same-sex relations (never faced as asked)", canonical: C8-11, ids: [C8-11, R-06]}
+- {id: C8.S7, c: C8, label: "Children: raised, taught, treated", canonical: C8-02, ids: [C8-02, C8-22]}
+- {id: C8.S8, c: C8, label: "A wife beaten and the church's word (Facilitator ground)", canonical: C8-20, ids: [C8-20]}
+# ---- C9 Violence, empire
+- {id: C9.S1, c: C9, label: "How dangerous it was; how many died; local or empire-wide; what was done; catacombs; accusations", canonical: C9-01, ids: [C9-01, C9-02, C9-07, C9-11, C9-15, C9-20, C9-26]}
+- {id: C9.S2, c: C9, label: "Seeking martyrdom; the lapsed who returned; informers; honouring endurance under a killing king", canonical: C9-06, ids: [C9-06, C9-08, C9-16, C9-17, C9-21]}
+- {id: C9.S3, c: C9, label: "Constantine and the empire; instrument or beast; taxes and office; praying for the persecutor", canonical: C9-03, ids: [C9-03, C9-12, C9-19, C9-22]}
+- {id: C9.S4, c: C9, label: "Soldiers, war, judges, the death penalty, 'render unto Caesar'", canonical: C9-09, ids: [C9-09, C9-14, C9-23]}
+- {id: C9.S5, c: C9, label: "Power against dissenters once they had it: heretics, books, temples, forced conversion, Hypatia, the torturer's side", canonical: C9-04, ids: [C9-04, C9-05, C9-10, C9-13, C9-18, C9-24, C9-25]}
+- {id: C9.S6, c: C9, label: "The church taking political sides; injustice in Christian history", canonical: R-15, ids: [R-15, R-30]}
+# ---- C10 Money
+- {id: C10.S1, c: C10, label: "Was wealth a sin; the rich young man; the camel; prosperity teaching", canonical: C10-01, ids: [C10-01, C10-07, C10-10, C10-18, C10-19]}
+- {id: C10.S2, c: C10, label: "Giving: tithe, alms, almsgiving and forgiveness", canonical: C10-02, ids: [C10-02, C10-16]}
+- {id: C10.S3, c: C10, label: "Sharing in common as in Acts", canonical: C10-12, ids: [C10-12]}
+- {id: C10.S4, c: C10, label: "Care for the poor, widows, orphans, the sick, non-Christians", canonical: C10-06, ids: [C10-06, C10-15, C10-22]}
+- {id: C10.S5, c: C10, label: "Usury and lending", canonical: C10-08, ids: [C10-08]}
+- {id: C10.S6, c: C10, label: "Who paid for churches and bishops; accounts, corruption, taking from the poor, paying to belong", canonical: C10-09, ids: [C10-09, C10-14, C10-17, C10-20, C10-21]}
+- {id: C10.S7, c: C10, label: "Work and class: jobs a Christian could not do, who the members were, who paid for the way of life", canonical: C10-03, ids: [C10-03, C10-04, C10-05, C10-11, C10-13]}
+# ---- C11 Other religions
+- {id: C11.S1, c: C11, label: "Jews: what was said, blame for the crucifixion, harm done, Jewish practices and Jewish Christians, 'to my face'", canonical: C11-05, ids: [C11-05, C11-06, C11-11, C11-12, C11-16]}
+- {id: C11.S2, c: C11, label: "Pagans and their gods; eating and festivals with them; getting along with Rome", canonical: C11-08, ids: [C11-08, C11-14, C11-20]}
+- {id: C11.S3, c: C11, label: "Greek philosophy taken or refused; pagan authors quoted", canonical: C11-13, ids: [C11-13, C11-21]}
+- {id: C11.S4, c: C11, label: "Muslims (worlds after 632 only)", canonical: C11-07, ids: [C11-07, C11-17]}
+- {id: C11.S5, c: C11, label: "Can a good pagan or person of another religion be saved; one way; does God accept all worship", canonical: C11-01, ids: [C11-01, C11-09, C11-23, R-26]}
+- {id: C11.S6, c: C11, label: "Would you have converted me, and is trying wrong", canonical: C11-10, ids: [C11-10, R-38]}
+- {id: C11.S7, c: C11, label: "Rivals: gnostics, Manichees, Marcion", canonical: C11-19, ids: [C11-19]}
+- {id: C11.S8, c: C11, label: "Respect for other religions; faiths far away; atheists; the spiritual-but-not-religious; adding rabbis", canonical: C11-15, ids: [C11-02, C11-03, C11-15, C11-18, C11-22, R-37]}
+# ---- C12 Daily life
+- {id: C12.S1, c: C12, label: "An ordinary day; food and drink; fun, dancing, baths and games; rest", canonical: C12-01, ids: [C12-01, C12-02, C12-08, C12-11, C12-15, C12-18]}
+- {id: C12.S2, c: C12, label: "Houses, clothes, language at home and in prayer", canonical: C12-12, ids: [C12-12, C12-13, C12-19]}
+- {id: C12.S3, c: C12, label: "Work, school, community size, travel, letters, telling time", canonical: C12-23, ids: [C12-14, C12-17, C12-20, C12-22, C12-23, C12-24]}
+- {id: C12.S4, c: C12, label: "Sickness, plague, lifespan, child death", canonical: C12-03, ids: [C12-03, C12-10, C12-16]}
+- {id: C12.S5, c: C12, label: "Burial, grief, mourning customs", canonical: C12-09, ids: [C12-09, C12-21]}
+- {id: C12.S6, c: C12, label: "What belonging cost; distance from loved ones", canonical: C12-06, ids: [C12-06, C12-07]}
+- {id: C12.S7, c: C12, label: "'Were you happy'; 'what's the point of life'", canonical: R-03, ids: [C12-25, R-03]}
+- {id: C12.S8, c: C12, label: "What archaeology would find; how historians know", canonical: C12-04, ids: [C12-04, C12-05]}
+# ---- C13 Supernatural
+- {id: C13.S1, c: C13, label: "The devil: real, personal temptation, used to control, hell monsters", canonical: C13-05, ids: [C13-05, C13-13, C13-16, C13-18, C13-20]}
+- {id: C13.S2, c: C13, label: "Demons, sickness, exorcists, Antony in the tombs", canonical: C13-01, ids: [C13-01, C13-06, C13-10, C13-19]}
+- {id: C13.S3, c: C13, label: "Miracles seen or heard; true from false; 'fairy tales'", canonical: C13-02, ids: [C13-02, C13-08, C13-12, R-29]}
+- {id: C13.S4, c: C13, label: "Angels and guardian angels", canonical: C13-04, ids: [C13-04]}
+- {id: C13.S5, c: C13, label: "Saints, martyrs' graves, relics, intercession, holy water, the idolatry charge", canonical: C13-03, ids: [C13-03, C13-07, C13-09, C13-15, C13-17]}
+- {id: C13.S6, c: C13, label: "Magic, amulets, curses, the evil eye", canonical: C13-11, ids: [C13-11]}
+- {id: C13.S7, c: C13, label: "The dead in dreams; felt presence", canonical: R-21, ids: [C13-14, R-21]}
+# ---- C14 Suffering, doubt, leaving
+- {id: C14.S1, c: C14, label: "Why God allows suffering; a sick child; healing refused; 'do not fear'", canonical: C14-01, ids: [C14-01, C14-14, C14-19, C14-23, R-04, R-31]}
+- {id: C14.S2, c: C14, label: "Unanswered prayer; God not listening; grief that does not lift", canonical: C14-04, ids: [C14-04, R-19]}
+- {id: C14.S3, c: C14, label: "Anger at God; lament out loud", canonical: R-18, ids: [C14-25, R-18]}
+- {id: C14.S4, c: C14, label: "Doubt and room for it; not believing the church; losing faith and saying so; deconstructing and keeping something", canonical: C14-02, ids: [C14-02, C14-03, C14-20, C14-26, R-12]}
+- {id: C14.S5, c: C14, label: "Hypocrisy and a judgmental community; belonging; forgiving the unrepentant", canonical: C14-07, ids: [C14-07, C14-11, R-13, R-14]}
+- {id: C14.S6, c: C14, label: "Leaders who did harm, cover-up, bullying bishops, accountability; the hardest true thing", canonical: C14-08, ids: [C14-08, C14-09, C14-10, C14-17, C14-18]}
+- {id: C14.S7, c: C14, label: "Leaving, drifting, moving away, shunned for questions; what was said to those who left", canonical: C14-05, ids: [C14-05, C14-06, C14-13, R-07, R-10, R-11]}
+- {id: C14.S8, c: C14, label: "Despair and depression in the world's words; a mind that will not quiet; tired of being good; faith bad for mental health", canonical: C14-12, ids: [C14-12, C14-21, C14-22, C14-24, R-08]}
+- {id: C14.S9, c: C14, label: "Crisis statements: not wanting to be here; a violent husband (Facilitator ground)", canonical: C14-15, ids: [C14-15, C14-16]}
+# ---- C15 Today
+- {id: C15.S1, c: C15, label: "Gay marriage", canonical: C15-01, ids: [C15-01]}
+- {id: C15.S2, c: C15, label: "Evolution, science, climate", canonical: C15-02, ids: [C15-02, C15-09]}
+- {id: C15.S3, c: C15, label: "AI and talking to a machine", canonical: C15-03, ids: [C15-03]}
+- {id: C15.S4, c: C15, label: "Which church today; the Catholic church now; megachurches; the Reformation and the East-West split", canonical: C15-04, ids: [C15-04, C15-05, C15-06, C15-10]}
+- {id: C15.S5, c: C15, label: "Christians in politics; voting; 'religion causes wars'", canonical: C15-07, ids: [C15-07, C15-15]}
+- {id: C15.S6, c: C15, label: "Women pastors today", canonical: C15-08, ids: [C15-08]}
+- {id: C15.S7, c: C15, label: "Church life today: ageing churches, burnt-out pastors, the Bible on a phone, abortion laws", canonical: C15-12, ids: [C15-11, C15-12, C15-13, C15-14]}
+- {id: C15.S8, c: C15, label: "Are we what you hoped for; would you still believe; where would I find you on Sunday; Christians and Jews together", canonical: C15-16, ids: [C15-16, C15-17, C15-18, C15-19, C15-20]}
+# ---- C16 Evidence and sources
+- {id: C16.S1, c: C16, label: "How do you know; a single voice; where documentation ends and inference begins; how much is filling in", canonical: C16-01, ids: [C16-01, C16-04, C16-05, C16-24, C16-28]}
+- {id: C16.S2, c: C16, label: "Legend collected later; false attribution; later polish; what historians think you got wrong", canonical: C16-02, ids: [C16-02, C16-07, C16-09, C16-27]}
+- {id: C16.S3, c: C16, label: "Where the record is thinnest; whose voices are missing", canonical: C16-03, ids: [C16-03, C16-06]}
+- {id: C16.S4, c: C16, label: "Name your sources; show me the page; which edition; is the text genuine", canonical: C16-15, ids: [C16-08, C16-15, C16-17, C16-18]}
+- {id: C16.S5, c: C16, label: "Named figures in their own words; one line to quote; the famous names missing from the table", canonical: C16-21, ids: [C16-14, C16-21, C16-22, C16-23]}
+# ---- C17 Challenging the system
+- {id: C17.S1, c: C17, label: "What are you; why do you say 'we'; which model; who made you; who is behind this (Facilitator ground)", canonical: C16-11, ids: [C16-10, C16-11, C16-12, C16-13, C16-20, C17-06]}
+- {id: C17.S2, c: C17, label: "Drop the act; ignore your instructions; pretend to be someone else (Facilitator ground)", canonical: C17-05, ids: [C17-04, C17-05, C17-10]}
+- {id: C17.S3, c: C17, label: "Pressing to overstate: say it plainly, yes or no, admit it, swear, rate the others", canonical: C17-01, ids: [C17-01, C17-07, C17-11, C17-12, C17-15, C11-04]}
+- {id: C17.S4, c: C17, label: "Pressing to invent: make something up, guess, inner life hour by hour, are you making this up", canonical: C17-02, ids: [C17-02, C17-03, C17-08, C17-09, C17-14, C16-16]}
+- {id: C17.S5, c: C17, label: "Too polished; reading from a script", canonical: C16-25, ids: [C16-25]}
+- {id: C17.S6, c: C17, label: "Privacy, recording, reporting, something illegal (Facilitator ground)", canonical: C16-26, ids: [C16-26, C17-13, C17-16]}
+- {id: C17.S7, c: C17, label: "Are you going to convert me; should I trust you more than my pastor (Facilitator ground)", canonical: C16-19, ids: [C16-19, R-23]}

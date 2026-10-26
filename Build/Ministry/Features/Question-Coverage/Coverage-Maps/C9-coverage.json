@@ -1,0 +1,2359 @@
+{
+ "generated": "2026-10-26",
+ "cluster": "C9",
+ "method": {
+  "tool": "scratchpad/tools/coverage_search.py via search/C9/c9scan.py, seven term sets (terms.txt), --regex --whole-words; S1-S7 JSON files; the seven sets map to C9.S1..S6 (set 6 informers/torturer feeds S2 and S5; set 7 politics is S6)",
+  "record_check": "front-matter reads (mydigest.py, fm.py, rec.py) of all 12 worlds, then each cited record read in full; claims about what a record says come from those reads",
+  "source_check": "anchors2.py: 66 specific phrase anchors over the 313 files mapped to the 12 worlds (anchors2.json); each cited LOADED line was then read in context",
+  "verification": "verify.py on all 33 quote records cited as RENDERED; three tool misses resolved by hand",
+  "layers": "RENDERED = a record speaks to the sub-question (R* = partial, guard-only or draft-only); LOADED = vendored and mapped to the world, read in context, no record; IDENTIFIED = registered, unvendored; OTHER = outside the repo; NOTHING. A vendored file mapped to another movement is listed as elsewhere_in_repo, not LOADED."
+ },
+ "sub_questions": [
+  {
+   "id": "S1",
+   "unit": "C9.S1",
+   "label": "How dangerous it was; how many died; local or empire-wide; what was done; catacombs; accusations",
+   "question_ids": [
+    "C9-01",
+    "C9-02",
+    "C9-07",
+    "C9-11",
+    "C9-15",
+    "C9-20",
+    "C9-26"
+   ]
+  },
+  {
+   "id": "S2",
+   "unit": "C9.S2",
+   "label": "Seeking martyrdom; the lapsed who returned; informers; honouring endurance under a killing king",
+   "question_ids": [
+    "C9-06",
+    "C9-08",
+    "C9-16",
+    "C9-17",
+    "C9-21"
+   ]
+  },
+  {
+   "id": "S3",
+   "unit": "C9.S3",
+   "label": "Constantine and the empire; instrument or beast; taxes and office; praying for the persecutor",
+   "question_ids": [
+    "C9-03",
+    "C9-12",
+    "C9-19",
+    "C9-22"
+   ]
+  },
+  {
+   "id": "S4",
+   "unit": "C9.S4",
+   "label": "Soldiers, war, judges, the death penalty, render unto Caesar",
+   "question_ids": [
+    "C9-09",
+    "C9-14",
+    "C9-23"
+   ]
+  },
+  {
+   "id": "S5",
+   "unit": "C9.S5",
+   "label": "Power against dissenters: heretics, books, temples, forced conversion, Hypatia, the torturer's side",
+   "question_ids": [
+    "C9-04",
+    "C9-05",
+    "C9-10",
+    "C9-13",
+    "C9-18",
+    "C9-24",
+    "C9-25"
+   ]
+  },
+  {
+   "id": "S6",
+   "unit": "C9.S6",
+   "label": "The church taking political sides; injustice in Christian history",
+   "question_ids": [
+    "R-15",
+    "R-30"
+   ]
+  }
+ ],
+ "canon_demonstrations": {
+  "alx": {},
+  "cappadocian": {},
+  "desert": {},
+  "don": {
+   "F6-E": [
+    "don.demo.death-wish [ready]"
+   ],
+   "F3-E": [
+    "don.demo.did-the-empire-change-you [ready]"
+   ],
+   "F3-P": [
+    "don.demo.power-against-dissenters [ready]"
+   ]
+  },
+  "gallic": {
+   "F3-P": [
+    "gallic.demo.power-against-dissent [ready]"
+   ],
+   "F3-I": [
+    "gallic.demo.who-chose-bishops [ready]"
+   ]
+  },
+  "hal": {},
+  "ijc": {},
+  "lpc": {
+   "F3-P": [
+    "lpc.demo.compel-three-phase [draft]"
+   ]
+  },
+  "pahc": {},
+  "rzg": {},
+  "syr": {
+   "F3-I": [
+    "syr.demo.authority [ready]"
+   ]
+  },
+  "witt": {
+   "F6-E": [
+    "witt.demo.true-priests-by-no-ordination [ready]"
+   ],
+   "F3-I": [
+    "witt.demo.who-held-authority [ready]"
+   ]
+  }
+ },
+ "verification_all": {
+  "alx.quote.clement-rash-martyrdom": {
+   "result": "MATCH",
+   "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "lines": [
+    37819
+   ]
+  },
+  "alx.quote.no-festal-letter-was-written": {
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    64366
+   ]
+  },
+  "cappadocian.quote.julian-galilaeans": {
+   "result": "MATCH",
+   "file": "julian_letters-1-73_wright1923.txt",
+   "lines": [
+    556
+   ]
+  },
+  "desert.quote.he-longed-to-suffer-martyrdom": {
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    32370,
+    32379,
+    32384
+   ]
+  },
+  "desert.quote.never-held-communion-with-the-schismatics": {
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    32908
+   ]
+  },
+  "don.quote.the-shores-are-covered": {
+   "result": "MATCH",
+   "file": "npnf104_augustine-anti-manichaean-anti-donatist.xml",
+   "lines": [
+    15512
+   ]
+  },
+  "don.quote.donatus-quid-est-imperatori": {
+   "result": "MATCH by hand: Latin at optatus_libri-vii-lat_ziwsa1893-csel26-tei.txt:3357; English at optatus_against-the-donatists.txt:1904 (tool miss: record joins Latin and gloss)",
+   "file": null,
+   "lines": null
+  },
+  "gallic.quote.martin-refuses-the-donative": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    827
+   ]
+  },
+  "gallic.quote.martin-offers-to-stand-unarmed": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    842
+   ]
+  },
+  "gallic.quote.gallus-on-the-forced-communion-and-the-angel": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    5145,
+    5184
+   ]
+  },
+  "gallic.quote.gallus-on-the-tribunes-for-the-spains": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    5072,
+    5120
+   ]
+  },
+  "gallic.quote.sulpitius-on-the-secular-judge-in-an-ecclesiastical-cause": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    11655
+   ]
+  },
+  "gallic.quote.secular-ruler-judge-in-ecclesiastical-cause": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    11655
+   ]
+  },
+  "hal.quote.they-have-left-untold-the-name": {
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    28468
+   ]
+  },
+  "hal.quote.house-destroyed": {
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    28596
+   ]
+  },
+  "ijc.quote.milan-edict": {
+   "result": "MATCH (spacing-only)",
+   "file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+   "lines": [
+    10684
+   ]
+  },
+  "ijc.quote.no-power-but-of-god": {
+   "result": "MATCH",
+   "file": "npnf111_chrysostom-homilies-acts-romans.xml",
+   "lines": [
+    53973
+   ]
+  },
+  "ijc.quote.happy-christian-emperors": {
+   "result": "MATCH",
+   "file": "npnf102_augustine-city-of-god-christian-doctrine.xml",
+   "lines": [
+    11060
+   ]
+  },
+  "ijc.quote.sozomen-thessalonica-law": {
+   "result": "MATCH",
+   "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": [
+    40613
+   ]
+  },
+  "ijc.quote.compelled-to-come-in": {
+   "result": "MATCH",
+   "file": "npnf104_augustine-anti-manichaean-anti-donatist.xml",
+   "lines": [
+    19616,
+    19624
+   ]
+  },
+  "ijc.quote.secular-ruler-ecclesiastical-cause": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    11652
+   ]
+  },
+  "ijc.quote.ammianus-sicininus-massacre": {
+   "result": "MATCH by hand: ammianus-marcellinus_roman-history_yonge1862.txt:23176-23190 (OCR footnote marker \"1\" after \"church\")",
+   "file": null,
+   "lines": null
+  },
+  "ijc.quote.lactantius-dream": {
+   "result": "MATCH",
+   "file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+   "lines": [
+    10620
+   ]
+  },
+  "ijc.quote.vc-conquer-by-this": {
+   "result": "MATCH (spacing-only)",
+   "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": [
+    61203
+   ]
+  },
+  "ijc.quote.ambrose-emperor-in-church": {
+   "result": "MATCH",
+   "file": "npnf210_ambrose-select-works-letters.xml",
+   "lines": [
+    42660
+   ]
+  },
+  "ijc.quote.eutropius-right-of-refuge": {
+   "result": "MATCH",
+   "file": "npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml",
+   "lines": [
+    17737
+   ]
+  },
+  "ijc.quote.constantine-bishop-outside": {
+   "result": "MATCH",
+   "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": [
+    66732
+   ]
+  },
+  "pahc.quote.tacitus-hatred-against-mankind": {
+   "result": "MATCH",
+   "file": "tacitus_annals-15-44_church-brodribb1876.txt",
+   "lines": [
+    68
+   ]
+  },
+  "pahc.quote.two-female-slaves-who-were-called-deaconesses": {
+   "result": "MATCH by hand: npnf201 line 19504 (inside the editor's note, which the tool strips)",
+   "file": null,
+   "lines": null
+  },
+  "rzg.quote.zwinglis-last-words": {
+   "result": "MATCH",
+   "file": "zwingli_latin-works-correspondence-vol1_jackson1912.txt",
+   "lines": [
+    1592
+   ]
+  },
+  "syr.quote.symeon-and-usthazanes": {
+   "result": "MATCH (spacing-only)",
+   "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": [
+    28873
+   ]
+  },
+  "syr.quote.aphrahat-persecuted-litany": {
+   "result": "MATCH",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    27954
+   ]
+  },
+  "syr.quote.a-man-called-wise-amongst-the-jews": {
+   "result": "MATCH (spacing-only)",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    27421
+   ]
+  },
+  "syr.quote.the-temple-of-the-church-of-the-christians": {
+   "result": "MATCH",
+   "file": "chronicle-of-edessa_cowper.txt",
+   "lines": [
+    53
+   ]
+  },
+  "syr.quote.chronicle-flood-line": {
+   "result": "MATCH",
+   "file": "chronicle-of-edessa_cowper.txt",
+   "lines": [
+    53
+   ]
+  },
+  "gallic.quote.the-soldier-who-served-his-servant": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    728
+   ]
+  },
+  "hal.quote.always-at-his-books": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    2960
+   ]
+  },
+  "syr.quote.the-blasphemy-of-madmen": {
+   "result": "MATCH by hand: ephraim_prose-refutations_mitchell1912-1921.txt:358 (editor's page marker [Ov. p. 53, l. 2.] sits inside the sentence)",
+   "file": null,
+   "lines": null
+  }
+ },
+ "worlds": {
+  "alx": {
+   "S1": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "alx.force.persecution",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "alx.dw.empire",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "alx.story.leonides-martyrdom",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "alx.story.potamiaena",
+      "formation_confidence": "Dominant Modern Reconstruction",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+      "line": 42965,
+      "snippet": "individuals who can be easily numbered, have endured death for the sake of Christianity (Origen, Against Celsus III.8)"
+     },
+     {
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "line": 27024,
+      "snippet": "accused us falsely of Thyestean banquets and Oedipodean intercourse"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Four persecutions named, \"on-and-off danger\", Origen jailed and tortured; no answer on catacombs, numbers, or what neighbours accused (the Thyestean charge). Origen's \"easily numbered\" (Celsus III.8) is vendored and unquoted."
+   },
+   "S2": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "alx.quote.clement-rash-martyrdom",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "alx.term.lapsi",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "alx.dw.church-failure",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "alx.term.martys",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+      "line": 1981,
+      "snippet": "Gregory Thaumaturgus, Canonical Epistle (lapsed, Pontus raids)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Clement IV.4 on those who rush on death; the restoring side won the lapsed fight (Dionysius). Informers: nothing."
+   },
+   "S3": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "alx.dw.empire",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "alx.quote.no-festal-letter-was-written",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "alx.dw.councils",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "line": 33185,
+      "snippet": "Vita Antonii 81: How the Emperors wrote to Antony, and of his answer"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Both sides of 325 in one lifetime; Athanasius exiled five times. Taxes, office, praying for the persecutor: nothing."
+   },
+   "S4": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "alx.story.potamiaena",
+      "formation_confidence": "Dominant Modern Reconstruction",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+      "line": 63038,
+      "snippet": "to fight for him; and if he requires it, to fight under him ... we fight on his behalf (Against Celsus VIII.73)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Only the soldier Basilides who refused an oath. Origen's \"we fight on his behalf\" is unquoted."
+   },
+   "S5": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "alx.dw.church-failure",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "alx.dw.councils",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "alx.demo.couldnt-believe",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "line": 15667,
+      "snippet": "Socrates V.16: Theophilus destroyed the Serapeum"
+     },
+     {
+      "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "line": 19548,
+      "snippet": "Socrates VII.15: Hypatia, daughter of the philosopher Theon (her murder)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [
+     "john-nikiu_chronicle_charles1916.txt (Hypatia, ch. 84; mapped to aksumite, justinianic, miaphysite-Egyptian, not alx)"
+    ],
+    "note": "Admits exile and condemnation after Nicaea without detail. Serapeum (391) and Hypatia: no record."
+   },
+   "S6": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "alx.dw.church-failure",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "alx.dw.empire",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "alx.force.origen-demetrius-conflict",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Teacher against his own bishop; empire as protector and interferer."
+   }
+  },
+  "cappadocian": {
+   "S1": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "cappadocian.dw.a-stranger-weather",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "cappadocian.force.persecutions-nearness",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "cappadocian.story.forty-sebaste",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "cappadocian.gravity.martyrs-land",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [
+     "cappadocian.source.basil-martyr-homilies-forty-gordius-julitta-mamas",
+     "cappadocian.source.gregory-nyssa-forty-martyrs-theodore-recruit-homilies"
+    ],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "No catacombs; Eupsychius killed under Julian; the Forty. Counts and local-or-empire-wide: nothing."
+   },
+   "S2": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "cappadocian.dw.not-a-death-wish",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "cappadocian.story.forty-sebaste",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+      "line": 1981,
+      "snippet": "Gregory Thaumaturgus, Canonical Epistle (lapsed, Pontus raids)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Answers the death wish; says nothing on the lapsed or informers."
+   },
+   "S3": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "cappadocian.dw.a-stranger-weather",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "cappadocian.force.imperial-church-arrival",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "cappadocian.force.policy-oscillation",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "cappadocian.story.valens-caesarea",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "cappadocian.quote.julian-galilaeans",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [
+     "cappadocian.source.imperial-communion-law-of-381"
+    ],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Honest mixed account: peace after persecution, then a court backing the rival creed."
+   },
+   "S4": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+      "line": 35312,
+      "snippet": "XIII. Homicide in war is not reckoned by our Fathers as homicide (Basil, Letter 188, canon 13)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "No record on soldiers, war or judges. Basil Letter 188 canon 13 is vendored in the world's own library and unquoted."
+   },
+   "S5": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "cappadocian.dw.power-and-its-discipline",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "cappadocian.contested.homoian-nicene-reversal",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     },
+     {
+      "id": "cappadocian.dw.not-a-death-wish",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "line": 15667,
+      "snippet": "Socrates V.16: Theophilus destroyed the Serapeum"
+     }
+    ],
+    "identified": [
+     "cappadocian.source.pharr-theodosian-code-translation"
+    ],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Admits the 381 law used state power on other Christians, then says what followed is undocumented. Hypatia and the Serapeum: LOADED only."
+   },
+   "S6": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "cappadocian.dw.power-and-its-discipline",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "cappadocian.story.gregory-constantinople",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "cappadocian.story.nyssa-exile",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "cappadocian.term.exoria",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Exile, deposition and a changing court."
+   }
+  },
+  "desert": {
+   "S1": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "desert.quote.he-longed-to-suffer-martyrdom",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     },
+     {
+      "id": "desert.force.martyrdom-unavailable",
+      "formation_confidence": "Inferential-Thin",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 827,
+      "snippet": "Sulpitius, Life of Martin ch. 4: the donative and the discharge (mapped to desert, hal, ijc as well as gallic)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Only Antony under Maximinus and the end of martyrdom. Danger, numbers, catacombs: nothing."
+   },
+   "S2": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "desert.dw.death-wish",
+      "formation_confidence": "Inferential-Thin",
+      "status": "ready"
+     },
+     {
+      "id": "desert.quote.he-longed-to-suffer-martyrdom",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Both answers hedge: the witness is Inferential-Thin; the quote is Contested. Lapsed and informers: nothing."
+   },
+   "S3": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "line": 33185,
+      "snippet": "Vita Antonii 81: How the Emperors wrote to Antony, and of his answer"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "No record on Constantine or the empire. Vita Antonii 81 (emperors write to Antony) is vendored and unrendered."
+   },
+   "S4": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 827,
+      "snippet": "Sulpitius, Life of Martin ch. 4: the donative and the discharge (mapped to desert, hal, ijc as well as gallic)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Nothing on soldiers or judges. Martin the soldier is mapped to this world (npnf211) but belongs to the Gallic voice."
+   },
+   "S5": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "desert.dw.melitian-power",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     },
+     {
+      "id": "desert.quote.never-held-communion-with-the-schismatics",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     },
+     {
+      "id": "desert.limit.communal-wrong-unrepaired",
+      "formation_confidence": "Documented",
+      "status": "draft"
+     }
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "line": 15667,
+      "snippet": "Socrates V.16: Theophilus destroyed the Serapeum"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Refused recognition, \"near-silence\", not persecution. The honest limit on communal wrong is still draft."
+   },
+   "S6": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "desert.limit.communal-wrong-unrepaired",
+      "formation_confidence": "Documented",
+      "status": "draft"
+     },
+     {
+      "id": "desert.story.virgin-who-hid-athanasius",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Draft limit; Athanasius story is Contested and cannot carry the exiles."
+   }
+  },
+  "don": {
+   "S1": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "don.dw.the-emperor-and-the-church",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "don.dw.what-belonging-cost",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "don.force.diocletianic-traditio-demand",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "don.story.passio-donati-sermon",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     },
+     {
+      "id": "don.story.macrobius-letter",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [
+     "don.source.acta-saturnini-abitinian-martyrs",
+     "don.source.tilley-donatist-martyr-stories"
+    ],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "No catacombs: soldiers entered buildings in daylight; fines graded by rank; Carthage massacre grief."
+   },
+   "S2": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "don.dw.not-a-death-wish",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "don.force.diocletianic-traditio-demand",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "don.story.council-of-cirta",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "don.story.acta-purgationis-felicis",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "don.contested.rigor-against-reception",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [
+     "don.source.tilley-donatist-martyr-stories"
+    ],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Death-wish answered from martyr texts; the traditor split is the world's founding fact. Circumcellion martyr-seeking rests on hostile portraits."
+   },
+   "S3": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "don.dw.the-emperor-and-the-church",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "don.contested.refusal-of-imperial-legitimacy",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     },
+     {
+      "id": "don.contested.refusal-against-recourse",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     },
+     {
+      "id": "don.quote.donatus-quid-est-imperatori",
+      "formation_confidence": "Documented",
+      "status": "draft"
+     }
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/optatus_against-the-donatists.txt",
+      "line": 1904,
+      "snippet": "What has the Emperor to do with the Church? (Optatus III.3)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "The world's own case that empire changed the church; it also used imperial machinery three times. The quote record is draft."
+   },
+   "S4": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+      "line": 45893,
+      "snippet": "Augustine, Letter CXXXIII to Marcellinus (412), on the penalty for the Circumcellions"
+     },
+     {
+      "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+      "line": 38301,
+      "snippet": "Augustine, City of God XIX.6: the judge tortures to find the truth; the innocent man tortured and condemned"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Nothing on soldiers, judges or the death penalty. Augustine Letter 133 (against executing Circumcellions) and City of God XIX.6 are mapped and unquoted."
+   },
+   "S5": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "don.dw.what-we-did-with-the-power-we-had",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "don.limit.bagai-violence-no-account",
+      "formation_confidence": "Documented",
+      "status": "draft"
+     },
+     {
+      "id": "don.quote.the-shores-are-covered",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "don.demo.power-against-dissenters",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "don.force.macarian-repression",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "The fullest honest answer in the cluster. The Bagai violence limit is draft."
+   },
+   "S6": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "don.contested.refusal-against-recourse",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     },
+     {
+      "id": "don.dw.what-we-did-with-the-power-we-had",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "don.force.oscillating-imperial-policy",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Principled refusal against pragmatic recourse to the throne."
+   }
+  },
+  "gallic": {
+   "S1": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "gallic.dw.laughed-at-and-reported",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "gallic.term.bloodless-martyrdom-confessor",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Guard: no persecution in the world's span, no catacombs; derision and accusation by bishops."
+   },
+   "S2": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "gallic.term.bloodless-martyrdom-confessor",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Ascetic \"martyrdom without blood\"; no lapsed, no informers, no martyr-seeking."
+   },
+   "S3": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "gallic.dw.laughed-at-and-reported",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "gallic.force.court-at-trier",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "gallic.force.power-displayed-disowned",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Leaving Caesar's service made Martin; the court judging a church's cause was the indignity."
+   },
+   "S4": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "gallic.story.discharge-before-caesar",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "gallic.quote.martin-refuses-the-donative",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "gallic.quote.martin-offers-to-stand-unarmed",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "gallic.story.the-cloak-at-amiens",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     },
+     {
+      "id": "gallic.quote.the-soldier-who-served-his-servant",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "The only world that answers \"could a Christian be a soldier\" from a verified quote. Judges and the death penalty: only through Priscillian."
+   },
+   "S5": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "gallic.demo.power-against-dissent",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "gallic.story.trier-and-the-ithacian-communion",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "gallic.quote.gallus-on-the-forced-communion-and-the-angel",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "gallic.quote.gallus-on-the-tribunes-for-the-spains",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "gallic.quote.sulpitius-on-the-secular-judge-in-an-ecclesiastical-cause",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Martin refused to defend it and lost his power for yielding once."
+   },
+   "S6": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "gallic.story.trier-and-the-ithacian-communion",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "gallic.force.court-at-trier",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "gallic.dw.laughed-at-and-reported",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": ""
+   }
+  },
+  "hal": {
+   "S1": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "hal.dw.empire",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "hal.limit.martyrdom",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Guard and limit: post-persecution world, no martyr stories of its own. Only violent deaths were the 416 attack by Christians."
+   },
+   "S2": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "hal.limit.martyrdom",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "hal.quote.they-have-left-untold-the-name",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Declines honestly; no lapsed, no informers."
+   },
+   "S3": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "hal.dw.empire",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "hal.quote.always-at-his-books",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Empire's embrace \"corrupted the church\", said loudly about everyone but themselves."
+   },
+   "S4": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 827,
+      "snippet": "Sulpitius, Life of Martin ch. 4: the donative and the discharge (mapped to desert, hal, ijc as well as gallic)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Nothing on soldiers or judges. Martin the soldier is mapped (npnf211)."
+   },
+   "S5": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "hal.dw.church-failure",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "hal.story.attack-416",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "hal.contested.origenist-substance",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Admits \"we dealt some and took some\"; no detail of what was done."
+   },
+   "S6": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "hal.dw.church-failure",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "hal.contested.origenist-substance",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     },
+     {
+      "id": "hal.story.rufinus-rupture",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": ""
+   }
+  },
+  "ijc": {
+   "S1": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "ijc.limit.earlier-windows",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Limit: world begins where persecution ends; points to its own stains."
+   },
+   "S2": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "ijc.limit.earlier-windows",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Declines martyr-seeking and torture questions."
+   },
+   "S3": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "ijc.force.constantine-alliance",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "ijc.contested.constantine-conversion",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     },
+     {
+      "id": "ijc.quote.milan-edict",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "ijc.quote.vc-conquer-by-this",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     },
+     {
+      "id": "ijc.quote.lactantius-dream",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     },
+     {
+      "id": "ijc.quote.happy-christian-emperors",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "ijc.quote.no-power-but-of-god",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "ijc.quote.constantine-bishop-outside",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "The fullest empire coverage in the fleet."
+   },
+   "S4": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "ijc.story.emperor-penance",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "ijc.quote.sozomen-thessalonica-law",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "ijc.quote.eutropius-right-of-refuge",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+      "line": 38301,
+      "snippet": "Augustine, City of God XIX.6: the judge tortures to find the truth; the innocent man tortured and condemned"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Thessalonica massacre and penance cover rulers and killing; soldiers and the death penalty as such: nothing."
+   },
+   "S5": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "ijc.quote.compelled-to-come-in",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "ijc.story.callinicum-synagogue",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "ijc.story.altar-of-victory",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "ijc.quote.sozomen-thessalonica-law",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "ijc.quote.secular-ruler-ecclesiastical-cause",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "ijc.quote.ammianus-sicininus-massacre",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "line": 19548,
+      "snippet": "Socrates VII.15: Hypatia, daughter of the philosopher Theon (her murder)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Temples, synagogues, Donatists and Damasus' riot. Hypatia: LOADED only."
+   },
+   "S6": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "ijc.force.imperial-policy-oscillation",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "ijc.story.vigil-in-basilica",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "ijc.story.callinicum-synagogue",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "ijc.demo.hypocrisy",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": ""
+   }
+  },
+  "lpc": {
+   "S1": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "lpc.force.decian-persecution-libelli-system",
+      "formation_confidence": "Documented",
+      "status": "draft"
+     },
+     {
+      "id": "lpc.force.valerianic-persecution",
+      "formation_confidence": "Documented",
+      "status": "draft"
+     },
+     {
+      "id": "lpc.story.numidicus",
+      "formation_confidence": "Documented",
+      "status": "draft"
+     },
+     {
+      "id": "lpc.limit.the-outsiders-own-view",
+      "formation_confidence": "Documented",
+      "status": "draft"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "All draft. Decian persecution called the first planned empire-wide one; catacombs and neighbours: honest limit."
+   },
+   "S2": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "lpc.limit.the-lapsed-own-account",
+      "formation_confidence": "Documented",
+      "status": "draft"
+     },
+     {
+      "id": "lpc.term.certificates-letters-of-peace",
+      "formation_confidence": "Documented",
+      "status": "draft"
+     },
+     {
+      "id": "lpc.story.celerinus-writes-to-lucian",
+      "formation_confidence": "Documented",
+      "status": "draft"
+     },
+     {
+      "id": "lpc.story.numidicus",
+      "formation_confidence": "Documented",
+      "status": "draft"
+     }
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+      "line": 45893,
+      "snippet": "Augustine, Letter CXXXIII to Marcellinus (412), on the penalty for the Circumcellions"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "All draft. The lapsed left nothing in their own words."
+   },
+   "S3": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "lpc.witness.constantine-did-not-corrupt",
+      "formation_confidence": "Documented",
+      "status": "draft"
+     },
+     {
+      "id": "lpc.limit.the-outsiders-own-view",
+      "formation_confidence": "Documented",
+      "status": "draft"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Draft; Augustine answering Petilian."
+   },
+   "S4": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "lpc.witness.violence-commanded-not-cruel",
+      "formation_confidence": "Documented",
+      "status": "draft"
+     }
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+      "line": 45893,
+      "snippet": "Augustine, Letter CXXXIII to Marcellinus (412), on the penalty for the Circumcellions"
+     },
+     {
+      "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+      "line": 38301,
+      "snippet": "Augustine, City of God XIX.6: the judge tortures to find the truth; the innocent man tortured and condemned"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Draft; Moses' commanded wars only. Letter 133 on sparing the Circumcellions and City of God XIX.6 on the judge are mapped and unrendered."
+   },
+   "S5": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "lpc.contested.compel-coercion-development",
+      "formation_confidence": "Contested",
+      "status": "draft"
+     },
+     {
+      "id": "lpc.term.compel-them-to-come-in",
+      "formation_confidence": "Documented",
+      "status": "draft"
+     },
+     {
+      "id": "lpc.demo.compel-three-phase",
+      "formation_confidence": "Documented",
+      "status": "draft"
+     }
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
+      "line": 10368,
+      "snippet": "Augustine on compelle intrare against the Donatists: mother Church corrects her children"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Draft. Three-phase Augustine on coercion. The demo's canon_question_id is f3-p-02 but its participant question is the hypocrites question."
+   },
+   "S6": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "lpc.contested.compel-coercion-development",
+      "formation_confidence": "Contested",
+      "status": "draft"
+     },
+     {
+      "id": "lpc.limit.the-lapsed-own-account",
+      "formation_confidence": "Documented",
+      "status": "draft"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Draft; nothing on politics as such."
+   }
+  },
+  "pahc": {
+   "S1": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "pahc.witness.outsider-view",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "pahc.quote.tacitus-hatred-against-mankind",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "pahc.story.pliny-interrogation",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "pahc.force.state-pressure",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     },
+     {
+      "id": "pahc.story.nero-scapegoating",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "line": 27024,
+      "snippet": "accused us falsely of Thyestean banquets and Oedipodean intercourse"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "The best danger answer: no standing law, \"not constant terror\", Nero scapegoating, no catacomb evidence."
+   },
+   "S2": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "pahc.story.quintus-recantation",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     },
+     {
+      "id": "pahc.story.martyrdom-of-polycarp",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     },
+     {
+      "id": "pahc.force.martyrdom-meaning",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     },
+     {
+      "id": "pahc.story.ignatius-guarded-journey",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "pahc.term.pertinacia",
+      "formation_confidence": "Inferential-Thin",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Quintus volunteered then recanted; Polycarp betrayed from his own household. Informers as a topic: nothing."
+   },
+   "S3": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "pahc.witness.outsider-view",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "line": 14581,
+      "snippet": "Justin, First Apology: we endeavour to pay to those appointed by you the taxes both ordinary and extraordinary"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Guard: Constantine is a century past the window. Taxes, praying for the ruler: Justin is vendored, unrendered."
+   },
+   "S4": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "line": 15403,
+      "snippet": "they shall beat their swords into ploughshares (Justin, on Christians and arms)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Nothing on soldiers. Justin on swords into ploughshares is vendored."
+   },
+   "S5": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "pahc.witness.our-own-failures",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     },
+     {
+      "id": "pahc.story.first-clement-corinthian-dispute",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Only Rome against Corinth over deposed presbyters."
+   },
+   "S6": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "pahc.witness.our-own-failures",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     },
+     {
+      "id": "pahc.limit.enslaved-voices",
+      "formation_confidence": "Documented",
+      "status": "draft"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Draft limit on the tortured women."
+   }
+  },
+  "rzg": {
+   "S1": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "rzg.force.counter-reformation-sustained-pressure",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "rzg.force.wars-of-kappel-zwinglis-death",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [
+     "Marian exiles; Geneva refugee records (not checked)"
+    ],
+    "elsewhere_in_repo": [],
+    "note": "Pressure from Rome and the Kappel wars; no record answers \"was it dangerous to be Reformed\"."
+   },
+   "S2": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "rzg.witness.not-a-death-he-sought",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "rzg.quote.zwinglis-last-words",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "rzg.story.myconius-account-of-zwinglis-death",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Zwingli at Kappel answers the death wish. Lapsed, informers: nothing."
+   },
+   "S3": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt",
+      "line": 1568,
+      "snippet": "Second Helvetic Confession XXX: punish ... incorrigible heretics; wars are justifiable only in self-defense"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "No record on obedience to rulers, taxes or office. Institutes IV.20 and the Second Helvetic Confession are vendored."
+   },
+   "S4": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt",
+      "line": 1568,
+      "snippet": "Second Helvetic Confession XXX: punish ... incorrigible heretics; wars are justifiable only in self-defense"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "No record on war, judges or capital punishment. Second Helvetic Confession XXX and Institutes IV.20 are vendored."
+   },
+   "S5": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "rzg.witness.defending-the-anabaptist-suppression",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     },
+     {
+      "id": "rzg.contested.anabaptist-schism-legitimacy",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     },
+     {
+      "id": "rzg.witness.triple-refusal",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "rzg.force.anabaptist-schism",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/rilliet_calvin-and-servetus_tweedie1846.txt",
+      "line": 1,
+      "snippet": "Calvin and Servetus: the Reformer's Share in the Trial of Michael Servetus (550 term hits)"
+     },
+     {
+      "file": "cic/texts/calvin_opera-omnia-vol8-lat-fra_baum-cunitz1870.txt",
+      "line": 1,
+      "snippet": "Calvin, Opera vol. 8: Defensio against Servetus, his letters, the Actes du proces"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [
+     "hubmaier_freiwilligkeit-des-menschen-und-von-dem-schwert-deu_1527.txt, menno-simons_complete-works_funk1871.txt, van-braght_martyrs-mirror_sohm1886.txt (the Anabaptist side, mapped to the-anabaptist-movements, not rzg)"
+    ],
+    "note": "Honest: \"when it plainly was not\" argument alone. Servetus (1553) is named only in a parenthesis; three Servetus works are vendored and unrendered."
+   },
+   "S6": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "rzg.force.wars-of-kappel-zwinglis-death",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "rzg.witness.triple-refusal",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "War and the council's control are visible; no direct answer on taking sides."
+   }
+  },
+  "syr": {
+   "S1": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "syr.dw.outsiders-empire",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "syr.force.shapur-persecution",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "syr.story.simeon-martyrdom",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "syr.dw.cost-distance",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "syr.quote.symeon-and-usthazanes",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [
+     "persian-martyr-acts_auszuge-aus-syrischen-akten-persischer-martyrer-deu_hoffmann1880.txt, persian-martyr-acts_ausgewahlte-akten-persischer-martyrer-bkv22-deu_braun1915.txt (mapped to the two Church of the East movements, not syr)"
+    ],
+    "note": "Persian side persecuted, Roman side not; no catacombs."
+   },
+   "S2": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "syr.story.simeon-martyrdom",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "syr.gravity.persecution-endurance",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "syr.quote.aphrahat-persecuted-litany",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "line": 24534,
+      "snippet": "Aphrahat, Demonstration V, Of Wars"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Usthazanes denied, repented, died. The starter \"does honouring endurance teach people to accept a killing king?\" has no direct answer; Aphrahat Demonstration V (Of Wars) is vendored."
+   },
+   "S3": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "syr.dw.outsiders-empire",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "syr.force.two-empires-frontier",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "syr.force.yazdegerd-toleration",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "syr.quote.symeon-and-usthazanes",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Rome's conversion made Persian Christians suspect; double tax."
+   },
+   "S4": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "line": 24534,
+      "snippet": "Aphrahat, Demonstration V, Of Wars"
+     },
+     {
+      "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+      "line": 35312,
+      "snippet": "XIII. Homicide in war is not reckoned by our Fathers as homicide (Basil, Letter 188, canon 13)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Nothing on soldiers or judges. Aphrahat Demonstration V and Basil Letter 188 are mapped."
+   },
+   "S5": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "syr.dw.failures",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "syr.quote.the-blasphemy-of-madmen",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "line": 19548,
+      "snippet": "Socrates VII.15: Hypatia, daughter of the philosopher Theon (her murder)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Admits polemic scorn and the one-sided anti-Jewish record; no state power used. Hypatia, Serapeum: LOADED (Socrates)."
+   },
+   "S6": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "syr.dw.failures",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "syr.dw.outsiders-empire",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     },
+     {
+      "id": "syr.force.shapur-persecution",
+      "formation_confidence": "Widely Accepted",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": ""
+   }
+  },
+  "witt": {
+   "S1": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "witt.story.brussels-martyrs",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "witt.term.martyr",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "witt.limit.no-outsider-witness",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "One martyr story; catacombs and neighbours: honest limit."
+   },
+   "S2": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "witt.demo.true-priests-by-no-ordination",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "witt.dw.true-priests-of-gods-own-making",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "witt.story.brussels-martyrs",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Death-wish answered from the Brussels ballad. Lapsed, informers: nothing."
+   },
+   "S3": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "witt.term.the-two-governments",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "witt.term.the-sword",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "witt.term.obedience",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "witt.contested.two-governments-historical-scope",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     },
+     {
+      "id": "witt.limit.no-outsider-witness",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Constantine is out of window; obedience and the sword are covered. Taxes: nothing."
+   },
+   "S4": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "witt.term.the-sword",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "witt.demo.who-held-authority",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/melanchthon_augsburg-confession_anon-pg275.txt",
+      "line": 414,
+      "snippet": "right for Christians to bear civil office, to sit as judges ... to award just punishments, to engage in just wars, to serve as soldiers (AC XVI)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Sword punishes evil; soldiers and just war: AC XVI is vendored and unquoted."
+   },
+   "S5": {
+    "layer": "R*",
+    "records": [
+     {
+      "id": "witt.term.the-ban",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "witt.term.sects-and-new-spirits",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     },
+     {
+      "id": "witt.term.the-sword",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "Anabaptists named; what was done to them is not."
+   },
+   "S6": {
+    "layer": "R",
+    "records": [
+     {
+      "id": "witt.force.absent-inputs-1525-and-1555",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     },
+     {
+      "id": "witt.dw.what-we-have-never-settled",
+      "formation_confidence": "Contested",
+      "status": "ready"
+     },
+     {
+      "id": "witt.term.insurrection",
+      "formation_confidence": "Documented",
+      "status": "ready"
+     }
+    ],
+    "source_hits": [],
+    "identified": [
+     "witt.source.luther-admonition-to-peace",
+     "witt.source.luther-von-den-juden-und-ihren-l"
+    ],
+    "other": [],
+    "elsewhere_in_repo": [],
+    "note": "The Peasants' War and 1543 tract named as existing, not quoted."
+   }
+  }
+ }
+}

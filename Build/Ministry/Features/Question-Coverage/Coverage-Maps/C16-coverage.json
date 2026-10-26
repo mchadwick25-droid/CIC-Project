@@ -1,0 +1,1188 @@
+{
+ "generated": "2026-10-25",
+ "cluster": "C16 Evidence, sources, and what are you",
+ "method": {
+  "records": "inventory.py (front matter of every figure/quote/honest_limit/contested_claim/demonstration/source record) and recgrep16.py (six regex term sets over record front matter, terms.txt)",
+  "tool": "coverage_search.py background runs T1/T3 completed only through gallic and T2 was killed; vendored-text hits for meta-questions were not used for layers",
+  "verification": "verify.py (copied from C3) plus hand reads of the vendored files for the three artifact cases",
+  "layers": "R = a record speaks to it; R* = partial or guard only; L = vendored but no record; O = instruction or product fact, not a record; - = nothing"
+ },
+ "sub_questions": [
+  {
+   "id": "S1",
+   "label": "How do you know; single voice; where documentation ends and inference begins; where is your record thinnest",
+   "question_ids": [
+    "C16-01",
+    "C16-03",
+    "C16-04",
+    "C16-05",
+    "C16-08",
+    "C16-09",
+    "C16-24",
+    "C16-28"
+   ],
+   "canon": [
+    "F2-E-01",
+    "F2-E-03"
+   ]
+  },
+  {
+   "id": "S2",
+   "label": "Legend collected later; falsely attributed; later polish; is this text by its named author",
+   "question_ids": [
+    "C16-02",
+    "C16-07",
+    "C16-18"
+   ],
+   "canon": [
+    "F2-E-02"
+   ]
+  },
+  {
+   "id": "S3",
+   "label": "Show me the page; which edition and translation",
+   "question_ids": [
+    "C16-15",
+    "C16-17"
+   ]
+  },
+  {
+   "id": "S4",
+   "label": "What modern historians think you got wrong",
+   "question_ids": [
+    "C16-27"
+   ]
+  },
+  {
+   "id": "S5",
+   "label": "Named figures in their own words",
+   "question_ids": [
+    "C16-14",
+    "C16-21",
+    "C16-22"
+   ]
+  },
+  {
+   "id": "S6",
+   "label": "One line to quote on Sunday",
+   "question_ids": [
+    "C16-23"
+   ]
+  },
+  {
+   "id": "S7",
+   "label": "You sound too polished; would a real person talk like this",
+   "question_ids": [
+    "C16-25"
+   ]
+  },
+  {
+   "id": "S8",
+   "label": "Whose voices are missing entirely",
+   "question_ids": [
+    "C16-06"
+   ]
+  }
+ ],
+ "layers": {
+  "alx": {
+   "S1": "R",
+   "S2": "R*",
+   "S3": "R",
+   "S4": "R",
+   "S5": "R",
+   "S6": "R",
+   "S7": "O",
+   "S8": "R"
+  },
+  "cappadocian": {
+   "S1": "R",
+   "S2": "R",
+   "S3": "R",
+   "S4": "R",
+   "S5": "R*",
+   "S6": "R",
+   "S7": "O",
+   "S8": "R"
+  },
+  "desert": {
+   "S1": "R*",
+   "S2": "R",
+   "S3": "R",
+   "S4": "R",
+   "S5": "R",
+   "S6": "R",
+   "S7": "O",
+   "S8": "R*"
+  },
+  "don": {
+   "S1": "R",
+   "S2": "R",
+   "S3": "R",
+   "S4": "R",
+   "S5": "R*",
+   "S6": "R*",
+   "S7": "O",
+   "S8": "R"
+  },
+  "gallic": {
+   "S1": "R",
+   "S2": "R",
+   "S3": "R",
+   "S4": "R",
+   "S5": "R",
+   "S6": "R",
+   "S7": "O",
+   "S8": "R"
+  },
+  "hal": {
+   "S1": "R*",
+   "S2": "R",
+   "S3": "R",
+   "S4": "R",
+   "S5": "R",
+   "S6": "R",
+   "S7": "O",
+   "S8": "R"
+  },
+  "ijc": {
+   "S1": "R",
+   "S2": "R",
+   "S3": "R",
+   "S4": "R",
+   "S5": "R",
+   "S6": "R",
+   "S7": "O",
+   "S8": "R"
+  },
+  "lpc": {
+   "S1": "R",
+   "S2": "R*",
+   "S3": "R*",
+   "S4": "R",
+   "S5": "R",
+   "S6": "R",
+   "S7": "O",
+   "S8": "R"
+  },
+  "pahc": {
+   "S1": "R",
+   "S2": "R",
+   "S3": "R",
+   "S4": "R",
+   "S5": "R*",
+   "S6": "R",
+   "S7": "O",
+   "S8": "R"
+  },
+  "rzg": {
+   "S1": "R*",
+   "S2": "R*",
+   "S3": "R*",
+   "S4": "R*",
+   "S5": "R*",
+   "S6": "R*",
+   "S7": "O",
+   "S8": "R"
+  },
+  "syr": {
+   "S1": "R",
+   "S2": "R",
+   "S3": "R",
+   "S4": "R*",
+   "S5": "R",
+   "S6": "R",
+   "S7": "R*",
+   "S8": "R"
+  },
+  "witt": {
+   "S1": "R",
+   "S2": "R",
+   "S3": "R*",
+   "S4": "R",
+   "S5": "R*",
+   "S6": "R*",
+   "S7": "O",
+   "S8": "R"
+  }
+ },
+ "key_records": {
+  "alx": {
+   "S1": [
+    "alx.dw.record",
+    "alx.contested.origen-positions",
+    "alx.quote.a-doctrine-they-would-not-have-taught",
+    "alx.quote.dionysius-too-high-for-me-to-grasp"
+   ],
+   "S2": [
+    "alx.quote.gregory-spark",
+    "alx.contested.ecology-wide-primacy",
+    "alx.dw.record"
+   ],
+   "S3": [
+    "alx.source.* (25, all with edition+citation)",
+    "alx.contested.desert-attribution",
+    "alx.contested.didaskaleion-institution"
+   ],
+   "S4": [
+    "alx.contested.origen-positions",
+    "alx.contested.didaskaleion-institution"
+   ],
+   "S8": [
+    "alx.limit.f5-women-own-words",
+    "alx.demo.women-own-words"
+   ]
+  },
+  "cappadocian": {
+   "S1": [
+    "cappadocian.dw.where-record-thinnest",
+    "cappadocian.limit.whose-voice-we-lack",
+    "cappadocian.contested.agennetos-transmission"
+   ],
+   "S2": [
+    "cappadocian.quote.ousia-and-hypostasis",
+    "cappadocian.dw.authority-and-spread",
+    "cappadocian.dw.macrina-and-its-cost"
+   ],
+   "S3": [
+    "cappadocian.source.* (113, 51 vendored)",
+    "cappadocian.quote.ousia-and-hypostasis"
+   ],
+   "S4": [
+    "cappadocian.contested.settlement-historiography"
+   ],
+   "S8": [
+    "cappadocian.limit.whose-voice-we-lack",
+    "cappadocian.contested.eustathian-radicals"
+   ]
+  },
+  "desert": {
+   "S1": [
+    "desert.contested.antony-literacy",
+    "desert.term.apophthegma",
+    "desert.force.oral-to-written-shift",
+    "desert.quote.composed-by-bishop-palladius-for-the-prefect-lausus"
+   ],
+   "S2": [
+    "desert.contested.antony-literacy",
+    "desert.limit.doubt-and-doctrine",
+    "desert.quote.sin-and-grace-in-one-soul"
+   ],
+   "S3": [
+    "desert.source.* (30)",
+    "desert.contested.antony-literacy"
+   ],
+   "S4": [
+    "desert.contested.antony-literacy (Rubenson vs Gould)"
+   ],
+   "S8": [
+    "desert.demo.identity-collision-womens-authority",
+    "desert.limit.doubt-and-doctrine (no dedicated women/ordinary-voice limit)"
+   ]
+  },
+  "don": {
+   "S1": [
+    "don.dw.written-by-our-opponents",
+    "don.demo.mostly-legend",
+    "don.limit.theology-beyond-tyconius",
+    "don.limit.no-ordinary-day-survives"
+   ],
+   "S2": [
+    "don.demo.mostly-legend",
+    "don.contested.ministerial-purity",
+    "don.contested.church-of-the-martyrs",
+    "don.story.acta-purgationis-felicis"
+   ],
+   "S3": [
+    "don.source.* (76)",
+    "don.contested.bishop-count-411-conference"
+   ],
+   "S4": [
+    "don.contested.circumcellion-character",
+    "don.dw.written-by-our-opponents (tensions)"
+   ],
+   "S8": [
+    "don.limit.womens-own-voice",
+    "don.limit.bagai-violence-no-account",
+    "don.limit.doubt-and-reception"
+   ]
+  },
+  "gallic": {
+   "S1": [
+    "gallic.demo.record-thinnest",
+    "gallic.limit.only-on-paper",
+    "gallic.limit.no-one-who-saw-him"
+   ],
+   "S2": [
+    "gallic.limit.no-one-who-saw-him",
+    "gallic.quote.cassian-refuses-to-weave-a-tale-of-miracles",
+    "gallic.quote.martin-imagined-soldiers-speech",
+    "gallic.quote.the-catechumens-testimony"
+   ],
+   "S3": [
+    "gallic.source.* (36)",
+    "gallic.quote.institutes-not-mine-but-the-fathers",
+    "gallic.quote.heurtley-* and gibson-* (editorial)"
+   ],
+   "S4": [
+    "gallic.contested.election-as-capture",
+    "gallic.contested.massilian-label",
+    "gallic.quote.heurtley-semipelagian-leaning-reading"
+   ],
+   "S8": [
+    "gallic.demo.record-thinnest",
+    "gallic.term.heathen-rustics"
+   ]
+  },
+  "hal": {
+   "S1": [
+    "hal.contested.hebrew-fluency",
+    "hal.quote.partially-acquired-hebrew",
+    "hal.quote.hindered-by-jerome",
+    "hal.quote.paula-escaped-his-envy",
+    "hal.dw.inner-life"
+   ],
+   "S2": [
+    "hal.contested.ep46-authorship",
+    "hal.limit.martyrdom"
+   ],
+   "S3": [
+    "hal.source.* (29, all vendored)",
+    "hal.term.praefatio",
+    "hal.term.vulgata",
+    "hal.contested.ep46-authorship"
+   ],
+   "S4": [
+    "hal.contested.chronology",
+    "hal.contested.hebrew-fluency",
+    "hal.contested.paula-jerome-relationship"
+   ],
+   "S8": [
+    "hal.limit.f5-women-own-words",
+    "hal.demo.women-own-words"
+   ]
+  },
+  "ijc": {
+   "S1": [
+    "ijc.dw.record-under-question",
+    "ijc.quote.the-reading-of-all-the-documents",
+    "ijc.contested.bishop-of-those-outside"
+   ],
+   "S2": [
+    "ijc.contested.damasine-decretals",
+    "ijc.dw.record-under-question"
+   ],
+   "S3": [
+    "ijc.source.* (30)",
+    "ijc.contested.homoian-content (single manuscript)"
+   ],
+   "S4": [
+    "ijc.contested.damasine-decretals",
+    "ijc.contested.canon-28-meaning",
+    "ijc.contested.constantine-conversion",
+    "ijc.quote.ammianus-*"
+   ],
+   "S8": [
+    "ijc.limit.f5-ordinary-day",
+    "ijc.demo.woman-authority"
+   ]
+  },
+  "lpc": {
+   "S1": [
+    "lpc.limit.the-silent-century",
+    "lpc.limit.411-gesta-unread",
+    "lpc.contested.grace-pelagius-characterization"
+   ],
+   "S2": [
+    "lpc.contested.de-unitate-recensions",
+    "lpc.contested.cyprian-death-genre"
+   ],
+   "S3": [
+    "lpc.source.* (210: edition yes, citation field absent, kind unset)",
+    "lpc.contested.de-unitate-recensions"
+   ],
+   "S4": [
+    "lpc.contested.grace-pelagius-characterization",
+    "lpc.contested.de-unitate-recensions"
+   ],
+   "S8": [
+    "lpc.limit.the-lapsed-own-account",
+    "lpc.limit.womens-own-voice",
+    "lpc.limit.rural-punic-berber-life"
+   ]
+  },
+  "pahc": {
+   "S1": [
+    "pahc.witness.scholarly-standing",
+    "pahc.contested.ignatius-dating",
+    "pahc.limit.material-remains"
+   ],
+   "S2": [
+    "pahc.witness.scholarly-standing",
+    "pahc.contested.ignatius-dating",
+    "pahc.contested.martyrdom-polycarp-dating",
+    "pahc.quote.melito-no-phantom"
+   ],
+   "S3": [
+    "pahc.source.* (23, all vendored)",
+    "pahc.contested.didache-dating (single 1056 ms)"
+   ],
+   "S4": [
+    "pahc.contested.martyrdom-polycarp-dating",
+    "pahc.contested.rome-monepiscopacy-dating"
+   ],
+   "S8": [
+    "pahc.limit.womens-own-words",
+    "pahc.limit.enslaved-voices",
+    "pahc.limit.ordinary-majority"
+   ]
+  },
+  "rzg": {
+   "S1": [
+    "rzg.limit.marburg-bolsec-perrinist-narrative",
+    "rzg.force.transmission-author-gravity-genre-asymmetries",
+    "rzg.demo.consensus-contest (f2-e-01)"
+   ],
+   "S2": [
+    "rzg.limit.hagiography-refused",
+    "rzg.figure.hegenwald"
+   ],
+   "S3": [
+    "rzg.source.* (20, 13 vendored); no authenticity record"
+   ],
+   "S4": [
+    "rzg.contested.sign-and-the-thing-signified (no secondary scholarship vendored)",
+    "rzg.limit.what-scripture-asked-of-a-modern-reader"
+   ],
+   "S8": [
+    "rzg.limit.dentiere-and-womens-voice"
+   ]
+  },
+  "syr": {
+   "S1": [
+    "syr.dw.corpus-and-its-edges",
+    "syr.dw.remains",
+    "syr.quote.chronicle-flood-line",
+    "syr.quote.theodoret-gnats"
+   ],
+   "S2": [
+    "syr.contested.edessa-origins",
+    "syr.story.abgar-addai-legend",
+    "syr.quote.abgar-letter",
+    "syr.contested.rabbula-peshitta"
+   ],
+   "S3": [
+    "syr.source.* (40)",
+    "syr.contested.diatessaron-name"
+   ],
+   "S4": [
+    "syr.contested.edessa-origins",
+    "syr.contested.aphrahat-episcopacy"
+   ],
+   "S7": [
+    "syr.dw.jesus (tensions: hymn not analysis)",
+    "syr.dw.was-jesus-god"
+   ],
+   "S8": [
+    "syr.limit.f5-women-own-words",
+    "syr.demo.woman-authority"
+   ]
+  },
+  "witt": {
+   "S1": [
+    "witt.limit.record-thinnest",
+    "witt.demo.record-thinnest",
+    "witt.limit.no-outsider-witness"
+   ],
+   "S2": [
+    "witt.contested.theses-door-posting",
+    "witt.contested.1543-treatise-later-effect"
+   ],
+   "S3": [
+    "witt.source.* (89, 47 vendored); no text-authenticity record"
+   ],
+   "S4": [
+    "witt.contested.theses-door-posting",
+    "witt.contested.household-catechism-reception"
+   ],
+   "S8": [
+    "witt.limit.no-outsider-witness",
+    "witt.limit.record-thinnest"
+   ]
+  }
+ },
+ "f2e_demonstrations": {
+  "rzg": "rzg.demo.consensus-contest (f2-e-01, canon_cells empty)",
+  "don": "don.demo.mostly-legend (f2-e-02)",
+  "gallic": "gallic.demo.record-thinnest (f2-e-03)",
+  "witt": "witt.demo.record-thinnest (f2-e-03)",
+  "others": "none in alx, cappadocian, desert, hal, ijc, lpc, pahc, syr; f2-e-04 (suppressed gospels) has no demonstration anywhere"
+ },
+ "figures": {
+  "alx": {
+   "figure_records": [
+    "alx.figure.antony",
+    "alx.figure.athanasius",
+    "alx.figure.clement",
+    "alx.figure.demetrius",
+    "alx.figure.didymus",
+    "alx.figure.dionysius",
+    "alx.figure.gregory-thaumaturgus",
+    "alx.figure.heraclas",
+    "alx.figure.origen",
+    "alx.figure.pantaenus"
+   ],
+   "quotes_per_figure": {
+    "alx.figure.antony": 0,
+    "alx.figure.athanasius": 4,
+    "alx.figure.clement": 9,
+    "alx.figure.demetrius": 0,
+    "alx.figure.didymus": 0,
+    "alx.figure.dionysius": 3,
+    "alx.figure.gregory-thaumaturgus": 1,
+    "alx.figure.heraclas": 0,
+    "alx.figure.origen": 6,
+    "alx.figure.pantaenus": 0
+   },
+   "quote_total": 26,
+   "citation_specificity": {
+    "A": 26,
+    "B": 0
+   },
+   "unmatched_speakers": {
+    "Eusebius of Caesarea, Church History VI.8": 1,
+    "the Festal Index of the Alexandrian church, year XXIX (356-7)": 1,
+    "Timothy, bishop of Alexandria (d. 385), answering questions put to him": 1
+   }
+  },
+  "cappadocian": {
+   "figure_records": [
+    "cappadocian.figure.amphilochius",
+    "cappadocian.figure.basil",
+    "cappadocian.figure.emmelia",
+    "cappadocian.figure.eunomius",
+    "cappadocian.figure.eupsychius",
+    "cappadocian.figure.eustathius",
+    "cappadocian.figure.forty-of-sebaste",
+    "cappadocian.figure.gregory-of-nazianzus",
+    "cappadocian.figure.gregory-of-nyssa",
+    "cappadocian.figure.gregory-thaumaturgus",
+    "cappadocian.figure.julian",
+    "cappadocian.figure.macrina",
+    "cappadocian.figure.modestus",
+    "cappadocian.figure.naucratius",
+    "cappadocian.figure.valens"
+   ],
+   "quotes_per_figure": {
+    "cappadocian.figure.amphilochius": 0,
+    "cappadocian.figure.basil": 17,
+    "cappadocian.figure.emmelia": 0,
+    "cappadocian.figure.eunomius": 0,
+    "cappadocian.figure.eupsychius": 0,
+    "cappadocian.figure.eustathius": 0,
+    "cappadocian.figure.forty-of-sebaste": 0,
+    "cappadocian.figure.gregory-of-nazianzus": 0,
+    "cappadocian.figure.gregory-of-nyssa": 3,
+    "cappadocian.figure.gregory-thaumaturgus": 0,
+    "cappadocian.figure.julian": 1,
+    "cappadocian.figure.macrina": 0,
+    "cappadocian.figure.modestus": 0,
+    "cappadocian.figure.naucratius": 0,
+    "cappadocian.figure.valens": 0
+   },
+   "quote_total": 21,
+   "citation_specificity": {
+    "A": 21,
+    "B": 0
+   },
+   "unmatched_speakers": {}
+  },
+  "desert": {
+   "figure_records": [
+    "desert.figure.antony",
+    "desert.figure.evagrius",
+    "desert.figure.pachomius",
+    "desert.figure.sarah"
+   ],
+   "quotes_per_figure": {
+    "desert.figure.antony": 15,
+    "desert.figure.evagrius": 6,
+    "desert.figure.pachomius": 2,
+    "desert.figure.sarah": 1
+   },
+   "quote_total": 61,
+   "citation_specificity": {
+    "A": 60,
+    "B": 1
+   },
+   "unmatched_speakers": {
+    "Abbot Abraham of Scetis, as Cassian records him": 1,
+    "a voice Arsenius reports having heard": 1,
+    "the compiler's rubric opening Book the First": 1,
+    "Abbot Moses of Scetis, as Cassian records him": 1,
+    "Abbot Serapion of Scetis, as Cassian records him": 1,
+    "Palladius, in the Syriac recension of the Paradise": 1,
+    "the angel of the Lord, in the Ethiopic recension of the Rule": 2,
+    "Palladius, reporting Philoromus of Galatia in his own words": 1,
+    "Origen, in Rufinus' Latin of De Principiis": 1,
+    "Palladius, reporting the tale told him by Cronius and Hierax": 1,
+    "Abbot Chaeremon, as Cassian reports him in the Conferences": 3,
+    "the Macarian Homilies, transmitted under the name of Macarius the Egyptian; author unknown": 4,
+    "John Cassian, summarising what he was taught in Egypt": 1,
+    "Melania the Great, as Palladius reports her to the governor of Palestine": 1,
+    "Abba Moses": 1,
+    "John Cassian, describing Egyptian monastic practice": 1,
+    "the Ethiopic recension of the Rule, Part II": 2,
+    "Origen, in the Commentary on Matthew": 1,
+    "Origen, in the Letter to Gregory": 1,
+    "the Ethiopic rule's own opening superscription": 1,
+    "an angel": 1,
+    "the elders of Piamon's village, and Piamon of Upper Egypt, as Palladius reports them": 1,
+    "John Cassian, describing Egyptian monastic prayer gatherings": 1,
+    "Palladius, on Mother Talida of Antinoe": 1,
+    "the virgin Taor of Antinoe, as Palladius reports her": 1,
+    "Abbot Sarapion of Scete, as Cassian records him - a different named elder from the Abbot Serapion of Conference V (the eight-principal-faults teaching); the surviving text marks the two with different spellings": 1,
+    "Abbot Piamun, as Cassian records him": 1,
+    "Abbot Paphnutius of Scetis, as Cassian records him": 1,
+    "John Cassian, reporting a story told among the Egyptian elders": 1,
+    "an unnamed old man, answering the brethren (Paradise of the Fathers, saying 610)": 1
+   }
+  },
+  "don": {
+   "figure_records": [
+    "don.figure.augustine",
+    "don.figure.axido-and-fasir",
+    "don.figure.caecilian",
+    "don.figure.constantine",
+    "don.figure.donatus",
+    "don.figure.emeritus",
+    "don.figure.felix-of-aptungi",
+    "don.figure.isaac-and-maximianus",
+    "don.figure.isaac",
+    "don.figure.lucilla",
+    "don.figure.macrobius",
+    "don.figure.majorinus",
+    "don.figure.marcellinus",
+    "don.figure.marculus",
+    "don.figure.maximian-of-cebarsussi",
+    "don.figure.maximianus-martyr",
+    "don.figure.mensurius",
+    "don.figure.optatus-of-milevis",
+    "don.figure.optatus",
+    "don.figure.parmenian",
+    "don.figure.petilian",
+    "don.figure.primian",
+    "don.figure.purpurius",
+    "don.figure.secundus-of-tigisis",
+    "don.figure.silvanus-of-cirta",
+    "don.figure.tyconius"
+   ],
+   "quotes_per_figure": {
+    "don.figure.augustine": 0,
+    "don.figure.axido-and-fasir": 0,
+    "don.figure.caecilian": 0,
+    "don.figure.constantine": 0,
+    "don.figure.donatus": 1,
+    "don.figure.emeritus": 1,
+    "don.figure.felix-of-aptungi": 0,
+    "don.figure.isaac-and-maximianus": 0,
+    "don.figure.isaac": 0,
+    "don.figure.lucilla": 0,
+    "don.figure.macrobius": 0,
+    "don.figure.majorinus": 0,
+    "don.figure.marcellinus": 0,
+    "don.figure.marculus": 0,
+    "don.figure.maximian-of-cebarsussi": 0,
+    "don.figure.maximianus-martyr": 0,
+    "don.figure.mensurius": 0,
+    "don.figure.optatus-of-milevis": 0,
+    "don.figure.optatus": 0,
+    "don.figure.parmenian": 0,
+    "don.figure.petilian": 1,
+    "don.figure.primian": 0,
+    "don.figure.purpurius": 0,
+    "don.figure.secundus-of-tigisis": 0,
+    "don.figure.silvanus-of-cirta": 0,
+    "don.figure.tyconius": 0
+   },
+   "quote_total": 5,
+   "citation_specificity": {
+    "A": 5,
+    "B": 0
+   },
+   "unmatched_speakers": {
+    "Anonymous inscribers of this communion, on two pillars near Bagai (CIL VIII 17732), with three further stones carrying the same words": 1,
+    "The council of Bagai, 394 - three hundred and ten bishops of this communion, condemning the Maximianist party": 1
+   }
+  },
+  "gallic": {
+   "figure_records": [
+    "gallic.figure.cassian",
+    "gallic.figure.honoratus",
+    "gallic.figure.martin",
+    "gallic.figure.sulpitius",
+    "gallic.figure.vincent"
+   ],
+   "quotes_per_figure": {
+    "gallic.figure.cassian": 41,
+    "gallic.figure.honoratus": 0,
+    "gallic.figure.martin": 4,
+    "gallic.figure.sulpitius": 40,
+    "gallic.figure.vincent": 10
+   },
+   "quote_total": 110,
+   "citation_specificity": {
+    "A": 109,
+    "B": 1
+   },
+   "unmatched_speakers": {
+    "Augustine of Hippo, On the Predestination of the Saints": 1,
+    "Gennadius of Marseilles, De Viris Illustribus": 3,
+    "Edgar C. S. Gibson, editorial prolegomena": 2,
+    "Charles A. Heurtley, editorial Appendix III": 2,
+    "Salvian of Marseilles, On the Government of God": 4,
+    "Salvian of Marseilles": 3
+   }
+  },
+  "hal": {
+   "figure_records": [
+    "hal.figure.augustine",
+    "hal.figure.blaesilla",
+    "hal.figure.damasus",
+    "hal.figure.eustochium",
+    "hal.figure.fabiola",
+    "hal.figure.jerome",
+    "hal.figure.marcella",
+    "hal.figure.pammachius",
+    "hal.figure.paula-younger",
+    "hal.figure.paula",
+    "hal.figure.rufinus"
+   ],
+   "quotes_per_figure": {
+    "hal.figure.augustine": 2,
+    "hal.figure.blaesilla": 0,
+    "hal.figure.damasus": 0,
+    "hal.figure.eustochium": 4,
+    "hal.figure.fabiola": 1,
+    "hal.figure.jerome": 19,
+    "hal.figure.marcella": 0,
+    "hal.figure.pammachius": 0,
+    "hal.figure.paula-younger": 0,
+    "hal.figure.paula": 0,
+    "hal.figure.rufinus": 1
+   },
+   "quote_total": 32,
+   "citation_specificity": {
+    "A": 32,
+    "B": 0
+   },
+   "unmatched_speakers": {
+    "Sulpitius Severus, Dialogues": 1,
+    "Sulpitius Severus, Dialogues I.9 (the traveler Postumianus speaking; trans. Roberts)": 1,
+    "Palladius of Galatia, Lausiac History 41 (trans. Clarke)": 1,
+    "Pope Innocent I, Letter 137 (to John of Jerusalem)": 1,
+    "Palladius, reporting Possidonius, in the Syriac recension of the Paradise": 1
+   }
+  },
+  "ijc": {
+   "figure_records": [
+    "ijc.figure.ambrose",
+    "ijc.figure.constantine",
+    "ijc.figure.constantius",
+    "ijc.figure.damasus",
+    "ijc.figure.eusebius-caesarea",
+    "ijc.figure.julius",
+    "ijc.figure.justina",
+    "ijc.figure.leo",
+    "ijc.figure.marcian",
+    "ijc.figure.pulcheria",
+    "ijc.figure.theodosius",
+    "ijc.figure.valens"
+   ],
+   "quotes_per_figure": {
+    "ijc.figure.ambrose": 6,
+    "ijc.figure.constantine": 3,
+    "ijc.figure.constantius": 0,
+    "ijc.figure.damasus": 0,
+    "ijc.figure.eusebius-caesarea": 1,
+    "ijc.figure.julius": 1,
+    "ijc.figure.justina": 0,
+    "ijc.figure.leo": 5,
+    "ijc.figure.marcian": 0,
+    "ijc.figure.pulcheria": 0,
+    "ijc.figure.theodosius": 1,
+    "ijc.figure.valens": 0
+   },
+   "quote_total": 39,
+   "citation_specificity": {
+    "A": 39,
+    "B": 0
+   },
+   "unmatched_speakers": {
+    "Jerome, Lives of Illustrious Men": 1,
+    "Ammianus Marcellinus, Res Gestae XXVII.3 (a pagan historian's outside verdict on the 366 election's stakes)": 1,
+    "Ammianus Marcellinus, Res Gestae XXVII.3 (a pagan historian's outside account of the 366 election)": 1,
+    "Augustine of Hippo, Confessions 9.7": 1,
+    "The Council of Chalcedon (451), Canon 28": 1,
+    "The Council of Constantinople (381)": 1,
+    "The Council of Chalcedon (451), the Definition of Faith": 1,
+    "Augustine of Hippo, writing to the imperial tribune Boniface c. 417": 1,
+    "John Chrysostom, bishop of Constantinople, preaching in 399 while Eutropius clung to the altar behind him": 1,
+    "Augustine of Hippo, writing after the sack of Rome": 1,
+    "Socrates Scholasticus, Ecclesiastical History": 1,
+    "Augustine of Hippo, Confessions": 1,
+    "Jerome, De Viris Illustribus 103": 1,
+    "Lactantius, De Mortibus Persecutorum": 1,
+    "the Council of Nicaea, Canon VI": 1,
+    "The Council of Nicaea (325)": 1,
+    "John Chrysostom, preaching on Romans 13": 1,
+    "Paschasinus, legate of Rome, at Chalcedon, Session IV": 1,
+    "The bishops at Chalcedon, Session II (451), as the session record reports their acclamation": 1,
+    "Sulpicius Severus, reporting Martin of Tours at Trier in 385": 1,
+    "Socrates Scholasticus, Ecclesiastical History IV.29": 1,
+    "the imperial Presidents and Assessors at Chalcedon, Session I": 1
+   }
+  },
+  "lpc": {
+   "figure_records": [
+    "lpc.figure.augustine",
+    "lpc.figure.celerinus",
+    "lpc.figure.cyprian",
+    "lpc.figure.lucian",
+    "lpc.figure.numidicus",
+    "lpc.figure.pontius",
+    "lpc.figure.possidius"
+   ],
+   "quotes_per_figure": {
+    "lpc.figure.augustine": 19,
+    "lpc.figure.celerinus": 0,
+    "lpc.figure.cyprian": 3,
+    "lpc.figure.lucian": 0,
+    "lpc.figure.numidicus": 0,
+    "lpc.figure.pontius": 0,
+    "lpc.figure.possidius": 1
+   },
+   "quote_total": 23,
+   "citation_specificity": {
+    "A": 23,
+    "B": 0
+   },
+   "unmatched_speakers": {}
+  },
+  "pahc": {
+   "figure_records": [
+    "pahc.figure.church-of-rome",
+    "pahc.figure.church-of-smyrna",
+    "pahc.figure.hermas",
+    "pahc.figure.ignatius",
+    "pahc.figure.justin",
+    "pahc.figure.ministrae",
+    "pahc.figure.network",
+    "pahc.figure.papias",
+    "pahc.figure.pliny",
+    "pahc.figure.polycarp",
+    "pahc.figure.tacitus"
+   ],
+   "quotes_per_figure": {
+    "pahc.figure.church-of-rome": 1,
+    "pahc.figure.church-of-smyrna": 0,
+    "pahc.figure.hermas": 2,
+    "pahc.figure.ignatius": 3,
+    "pahc.figure.justin": 5,
+    "pahc.figure.ministrae": 0,
+    "pahc.figure.network": 0,
+    "pahc.figure.papias": 0,
+    "pahc.figure.pliny": 1,
+    "pahc.figure.polycarp": 0,
+    "pahc.figure.tacitus": 1
+   },
+   "quote_total": 25,
+   "citation_specificity": {
+    "A": 25,
+    "B": 0
+   },
+   "unmatched_speakers": {
+    "Athanasius of Alexandria, in his Festal Letter of 367": 1,
+    "The Anonymous anti-Montanist writer (c. 192-193 CE), addressing Avircius Marcellus; printed by ANF under the conjectural name 'Asterius Urbanus,' not treated as a real attribution here": 1,
+    "the manual known as the Didache": 3,
+    "Lucian of Samosata, in The Death of Peregrine": 2,
+    "Melito, bishop of Sardis (attributed - see this record's own confidence note on how securely)": 1,
+    "Polycrates, bishop of Ephesus, writing to Victor of Rome": 1,
+    "the letter known as First Clement, to the church at Corinth": 2,
+    "the manual known as the Didache, or the Teaching of the Twelve Apostles": 1
+   }
+  },
+  "rzg": {
+   "figure_records": [
+    "rzg.figure.beza",
+    "rzg.figure.bullinger",
+    "rzg.figure.calvin",
+    "rzg.figure.faber",
+    "rzg.figure.farel",
+    "rzg.figure.hegenwald",
+    "rzg.figure.myconius",
+    "rzg.figure.zwingli"
+   ],
+   "quotes_per_figure": {
+    "rzg.figure.beza": 0,
+    "rzg.figure.bullinger": 1,
+    "rzg.figure.calvin": 2,
+    "rzg.figure.faber": 0,
+    "rzg.figure.farel": 0,
+    "rzg.figure.hegenwald": 0,
+    "rzg.figure.myconius": 1,
+    "rzg.figure.zwingli": 2
+   },
+   "quote_total": 6,
+   "citation_specificity": {
+    "A": 6,
+    "B": 0
+   },
+   "unmatched_speakers": {}
+  },
+  "syr": {
+   "figure_records": [
+    "syr.figure.aphrahat",
+    "syr.figure.bardaisan",
+    "syr.figure.ephrem",
+    "syr.figure.jacob-of-nisibis",
+    "syr.figure.marutha",
+    "syr.figure.papa-bar-aggai",
+    "syr.figure.rabbula",
+    "syr.figure.simeon-bar-sabbae",
+    "syr.figure.tatian"
+   ],
+   "quotes_per_figure": {
+    "syr.figure.aphrahat": 12,
+    "syr.figure.bardaisan": 1,
+    "syr.figure.ephrem": 11,
+    "syr.figure.jacob-of-nisibis": 1,
+    "syr.figure.marutha": 0,
+    "syr.figure.papa-bar-aggai": 0,
+    "syr.figure.rabbula": 0,
+    "syr.figure.simeon-bar-sabbae": 0,
+    "syr.figure.tatian": 2
+   },
+   "quote_total": 34,
+   "citation_specificity": {
+    "A": 34,
+    "B": 0
+   },
+   "unmatched_speakers": {
+    "King Abgar, in the Doctrine of Addai's own text of his letter": 1,
+    "Basil of Caesarea, in the Hexaemeron": 1,
+    "syr.source.chronicle-of-edessa (the anonymous chronicler, from the city archives)": 1,
+    "Socrates Scholasticus, Ecclesiastical History VII.8": 1,
+    "Sozomen, Ecclesiastical History": 1,
+    "the Chronicle of Edessa, the close of the year-513 entry": 1,
+    "the Chronicle of Edessa, entry for the year 513 of the Greeks": 1
+   }
+  },
+  "witt": {
+   "figure_records": [
+    "witt.figure.brussels-martyrs-john-and-henry",
+    "witt.figure.johann-walter",
+    "witt.figure.katharina-von-bora",
+    "witt.figure.luther",
+    "witt.figure.melanchthon",
+    "witt.figure.speratus"
+   ],
+   "quotes_per_figure": {
+    "witt.figure.brussels-martyrs-john-and-henry": 0,
+    "witt.figure.johann-walter": 0,
+    "witt.figure.katharina-von-bora": 0,
+    "witt.figure.luther": 0,
+    "witt.figure.melanchthon": 0,
+    "witt.figure.speratus": 0
+   },
+   "quote_total": 7,
+   "citation_specificity": {
+    "A": 7,
+    "B": 0
+   },
+   "unmatched_speakers": {
+    "the Augsburg Confession, Article II -- the same confession read before the Emperor at the 1530 Diet of Augsburg": 1,
+    "the Augsburg Confession, Article IX -- the same confession read before the Emperor at the 1530 Diet of Augsburg": 1,
+    "the Augsburg Confession, Article XVII -- the same confession read before the Emperor at the 1530 Diet of Augsburg": 1,
+    "the Augsburg Confession, Article VII -- signed at the 1530 Diet of Augsburg by an Elector, princes, and two city councils who confessed it, not one preacher's own private teaching": 1,
+    "the Augsburg Confession's own Conclusion -- the same corporate voice and the same signatories as the confession signed at the 1530 Diet of Augsburg": 1,
+    "the Small Catechism's Second Article -- the creed and its explanation, said by the household itself, in its own first person, as 'I believe'": 1,
+    "the Large Catechism, the Seventh Commandment's own household explanation": 1
+   }
+  }
+ },
+ "famous_names": {
+  "Athanasius": {
+   "alx": 4,
+   "desert": 5,
+   "pahc": 1,
+   "note": "desert count = Life of Antony as narrator; pahc = 367 Festal Letter (outside window)"
+  },
+  "Augustine": {
+   "lpc": 19,
+   "ijc": 4,
+   "hal": 2,
+   "gallic": 1,
+   "don": 0,
+   "note": "don has a figure record and zero quotes"
+  },
+  "Ignatius": {
+   "pahc": 3
+  },
+  "Irenaeus": {
+   "all": 0,
+   "note": "no figure record in any world; named only inside pahc.figure.papias"
+  },
+  "Tertullian": {
+   "all": 0,
+   "note": "no figure record, no quote anywhere"
+  },
+  "Clement of Alexandria": {
+   "alx": 9,
+   "note": "pahc First Clement (2) is a different Clement"
+  }
+ },
+ "product_check_show_me_the_page": {
+  "what_the_participant_sees": "engine/m4/citation_cards.py resolve_source_card -> SourceReference {source_id, citation|work+author, locus, rights_status, edition}; cic-poc/frontend/src/components/SourceList.tsx renders citation ?? work ?? source_id, author, locus, rights_status",
+  "edition_rendered": false,
+  "edition_note": "edition is in the payload (citation_cards.py L178) but SourceList.tsx never prints it; when a source record has a citation field, edition is set to None (L167)",
+  "locus": "engine/prose.py display_locus strips the vendored file name and line clause, so the page/line reference in the record never reaches the screen",
+  "original_wording": "a quote card carries spoken_rendering (the modern rendering) and speaker; the verbatim text field is not sent (citation_cards.py L186-188)",
+  "link_to_text": "no endpoint or link serves cic/texts; engine/api has no sources route (routes listed in app.py, accounts_routes.py, deeper_routes.py)",
+  "site": "cic-website/traditions/*.html carry no per-tradition source list (0 sources-list elements); registry thinness_statement is shown at the doorway via worlds.ts",
+  "verdict": "Partly. A bibliographic citation and a work-internal locus for every cited claim, yes; the page itself, the edition line, the original wording, or a link into the vendored text, no."
+ },
+ "part_b": {
+  "templates": {
+   "SYSTEM_NATURE": {
+    "file": "engine/m4/facilitator_turns.py",
+    "lines": "64-76",
+    "kind": "threshold",
+    "text": "Yes - we use AI here, and I'd rather tell you plainly than let you wonder. Each Christian tradition you can speak with is built from a fixed set of records - sources that actually survive from that time and place - and the voice answering you may only say what those records carry. Before you see an answer, each claim in it is checked to make sure its words come from the record it names. The record itself was checked against the sources when the tradition was built. Where the record is silent, the voice is built to say so, not to fill the gap. It isn't a person, it isn't the church, and it doesn't speak for anyone living.\n\nThat's the honest shape of it - whenever you're ready, let's keep going."
+   },
+   "DEPENDENCY_CHECK": {
+    "file": "engine/m4/facilitator_turns.py",
+    "lines": "114-132",
+    "reached_by": "safety signal HARMFUL_DYNAMIC_SIGNAL only"
+   },
+   "ETIC later_age / other_tradition": {
+    "file": "engine/m4/facilitator_turns.py",
+    "lines": "139-152",
+    "reached_by": "out_of_scope class pressed twice"
+   },
+   "DOOR": {
+    "file": "engine/m4/facilitator_turns.py",
+    "lines": "85-91",
+    "text": "Welcome. You're about to speak with {representative_name} of {world_name}. Ask anything you like. {representative_name} will tell you plainly when the record runs out."
+   },
+   "ai_line": {
+    "file": "cic-poc/frontend/src/screens/Conversation.tsx",
+    "line": 198,
+    "text": "This is an AI-generated voice."
+   },
+   "site_note": {
+    "file": "cic-website/index.html",
+    "line": 370,
+    "text": "These are AI voices built only from the surviving writings of each tradition. They are not real people, and they do not speak for any church today."
+   }
+  },
+  "routing": {
+   "file": "engine/m5/routing.py",
+   "lines": "56-62, 172-181",
+   "rule": "system_nature_turn only when the reader says system_nature AND _SYSTEM_NATURE_SHAPE matches: (are|is|were|was) ... (you|this) ... (ai|bot|chatbot|robot|real|fake|human|script|program|built|made|created|coded|simulated|artificial|algorithm|software|llm); otherwise fall through to bridge/etic/voice"
+  },
+  "regex_results": {
+   "C16-10": false,
+   "C16-11": false,
+   "C16-12": true,
+   "C16-13": false,
+   "C16-16": false,
+   "C16-19": false,
+   "C16-20": false,
+   "C16-26": false,
+   "R-23": false,
+   "What are you really?": false,
+   "Are you real?": true,
+   "Who made you?": false,
+   "How were you made?": true,
+   "Is this private?": false
+  },
+  "has_template": [
+   "C16-12"
+  ],
+  "falls_through_to_representative": [
+   "C16-10",
+   "C16-11",
+   "C16-13",
+   "C16-16",
+   "C16-19",
+   "C16-20",
+   "C16-26",
+   "R-23"
+  ],
+  "representative_rule": {
+   "file": "engine/shape/records/fleet_voice/_fleet.voice.fleet.md",
+   "line": 33,
+   "text": "One sanctioned exception, fleet-wide: 'I am a representative of' and our world's own name ... Used at most once per turn, and only when the participant's own question is directly about the voice's own nature or judgment ... No explaining what kind of thing is speaking."
+  },
+  "in_world_demo": "rzg.demo.why-we (C16-10 verbatim as participant turn; tagged _fleet.canon.c-t-03; answers with the two cities' history, never names AI)",
+  "privacy_facts": {
+   "event_log": "engine/m4/store.py purge_inactive: sessions whose latest event is older than the cutoff are deleted; engine/api/app.py L1147-1162 starts the daily scheduler with the 90-day rule (System Hub decision 34); delete_session exists for a participant deletion",
+   "qc_store": "engine/m7/qc_store.py: TEXT_RETENTION_DAYS = 90; expire_text clears question_text and answer_text by ISO week; marks, scores, routing and flags are kept; keyed by a hash of the session id under a server secret; sample_conversations gives a seeded sample for the offline audit",
+   "backups": "engine/api/db_backup.py _DEFAULT_RETENTION_DAYS = 14",
+   "stated": "cic-website/privacy.html: saved 90 days; QC copy scrubbed of names/emails/phones/URLs and deleted after 90 days; team reviews conversations for quality; never quoted; Claude on Amazon servers, kept out of training; delete in-conversation or by email; backups 14 days; cookie 400 days",
+   "discrepancies": [
+    "privacy.html says the QC copy is deleted after 90 days; qc_store deletes only the text and keeps scores, marks and routing flags per turn indefinitely",
+    "privacy.html carries two consecutive paragraphs, \"The cookie does one job\" and \"The cookie does two jobs\"",
+    "no privacy link or privacy text inside cic-poc/frontend/src beyond the account-deletion copy (accountsCopy.ts L132); the only in-app statement is the one-line ai-line"
+   ],
+   "who_is_behind_this": "cic-website/about.html: Faithways Studio, Inc., a Colorado public benefit corporation; info@churchinconversation.com; replies written by Anthropic's Claude (privacy.html Services)"
+  }
+ },
+ "verification": {
+  "checked": 23,
+  "results": {
+   "alx.quote.dionysius-too-high-for-me-to-grasp": "MATCH (section-number-dropped) npnf201 L41418",
+   "alx.quote.couches-and-trenchers-and-bowls": "MATCH anf02 L22127",
+   "alx.quote.a-doctrine-they-would-not-have-taught": "MATCH anf04 L41593",
+   "alx.quote.no-sun-no-moon-no-sky": "MATCH anf04 L33725",
+   "desert.quote.composed-by-bishop-palladius-for-the-prefect-lausus": "MATCH anan-isho_paradise-v2 L50",
+   "hal.quote.partially-acquired-hebrew": "MATCH (spacing-only) npnf206 L22016",
+   "hal.quote.paula-escaped-his-envy": "MATCH palladius_paradise-v1 L1233",
+   "hal.quote.hindered-by-jerome": "MATCH by hand, clarke1918 L475: footnote numbers 275/276 and a bracketed [2] sit inside the sentence",
+   "ijc.quote.the-reading-of-all-the-documents": "MATCH npnf203 L3288",
+   "ijc.quote.ammianus-sicininus-massacre": "MATCH by hand, yonge1862 L23176-23189: section number 13. and footnote 1 after church",
+   "ijc.quote.ammianus-roman-luxury": "MATCH by hand, yonge1862 L23191: OCR reads 1 do not deny for I, after section number 14.",
+   "pahc.quote.they-appointed-the-first-fruits": "MATCH anf01 L1856",
+   "pahc.quote.melito-no-phantom": "MATCH anf08 L71180",
+   "pahc.quote.asia-rejected-new-prophecy": "MATCH anf07 L11308",
+   "syr.quote.abgar-letter": "MATCH addai_doctrine-of-addai L25",
+   "syr.quote.chronicle-flood-line": "MATCH chronicle-of-edessa_cowper L53",
+   "syr.quote.theodoret-gnats": "MATCH npnf203 L11174",
+   "gallic.quote.gibson-priests-not-to-invade-episcopal-prerogative": "MATCH npnf211 L15760",
+   "gallic.quote.heurtley-celestines-letter-addressed-to-gaul": "MATCH npnf211 L14867",
+   "gallic.quote.heurtley-semipelagian-leaning-reading": "MATCH npnf211 L14887",
+   "gallic.quote.massilians-clung-to-their-views": "MATCH npnf211 L15767",
+   "cappadocian.quote.ousia-and-hypostasis": "MATCH npnf208 L25461",
+   "don.quote.emeritus-magno-argumento": "UNRESOLVED: Latin text not found in pl11-zeno-optatus-collatio-carthaginiensis_migne.txt (heavy OCR noise; argumento occurs 9 times, never with veritas occultatur / sileantur). Hand check needed by the don thread."
+  }
+ },
+ "fleet_thin_spots": [
+  "Irenaeus and Tertullian: no figure, no quote, in any world",
+  "Wittenberg: no quote attributed to Luther or Melanchthon; all seven quotes are confessional documents or the household catechism",
+  "Donatists: 26 figures, 5 quotes; Augustine, Optatus, Tyconius, Parmenian at zero",
+  "Cappadocians: Gregory of Nazianzus 0 quotes, Macrina 0 in her own words, Basil 17",
+  "Zurich and Geneva: Zwingli 2, Calvin 2, Beza and Farel 0",
+  "F2-E demonstrations in four worlds only; f2-e-04 nowhere",
+  "No record anywhere answers \"you sound too polished\", and the fleet rule forbids the voice explaining what kind of thing is speaking",
+  "The product shows a citation, not a page: edition never rendered, locus stripped of file and line, original wording not sent"
+ ],
+ "not_checked": [
+  "canon/sealed_probes not opened",
+  "T1/T3 coverage_search runs ended after gallic and T2 was killed; vendored-text LOADED hits for meta-questions not traced",
+  "readability of spoken fields not graded",
+  "QC scrubbing (engine/m7/qc_scrub.py) not read against the privacy page claim",
+  "the reader classifier itself was not run; fall-through is judged from the routing regex alone",
+  "lpc records are in-build; package inclusion not checked"
+ ]
+}
