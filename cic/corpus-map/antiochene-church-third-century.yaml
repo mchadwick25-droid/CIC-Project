@@ -17,6 +17,19 @@ works:
 
     '
   source_file: john-chrysostom_homily-martyr-lucian-grc-lat_migne-pg50.txt
+- row_id: didascalia-apostolorum_didascalia-apostolorum-in-english_gibson1903--the-didascalia-apostolorum-in-english-gibson-1903
+  work: The Didascalia Apostolorum in English (Gibson 1903)
+  author: didascalia-apostolorum
+  locus: whole work, chapters I onward as listed in the file's own table of chapters (about
+    line 382)
+  role: tradition
+  confidence: provisional
+  note: 'A church order in English from the Syriac. Place and date are not argued in this
+    row: the Syrian, third-century provenance comes from the worklist and needs a ruling before
+    any world treats it as its own voice. Provisional for that reason. A Syrian church order
+    of the third century; this is the nearest unbuilt census entry. The worlds that need it
+    (alx, pahc, syr) are held for a ruling.'
+  source_file: didascalia-apostolorum_didascalia-apostolorum-in-english_gibson1903.txt
 - row_id: npnf201_eusebius-church-history-life-of-constantine--the-church-history-of-eusebius-historia-ecclesiastica-4
   work: The Church History of Eusebius (Historia Ecclesiastica)
   author: eusebius

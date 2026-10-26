@@ -1,0 +1,104 @@
+questions:
+# ---------- C9 Violence, empire, persecution, martyrs, power ----------
+- {id: C9-01, c: C9, k: [K1,K11], s: EXISTS, ref: "CANON F3-I", t: "Was it actually dangerous to be a Christian, day to day, or is that exaggerated?"}
+- {id: C9-02, c: C9, k: [K11], s: EXISTS, ref: "CANON F3-E", t: "Were Christians really hiding in the catacombs?"}
+- {id: C9-03, c: C9, k: [K2,K6,K11], s: EXISTS, ref: "CANON F3-E", t: "Did Constantine corrupt the church — did the empire change what you were?"}
+- {id: C9-04, c: C9, k: [K5,K6], s: EXISTS, ref: "CANON F3-P", t: "Your church used power against Christians who disagreed. Defend that."}
+- {id: C9-05, c: C9, k: [K7], s: EXISTS, ref: "CANON F3-P", t: "What happened to the temples and the old gods once you had the power?"}
+- {id: C9-06, c: C9, k: [K6], s: EXISTS, ref: "CANON F6-E", t: "Wanting to die as a martyr and calling it faithfulness — isn't that a death wish in religious language?"}
+- {id: C9-07, c: C9, k: [K1,K11], s: EXISTS, ref: "CANON F3-E", t: "What did your neighbours say about you — what were you accused of?"}
+- {id: C9-08, c: C9, k: [K6], s: EXISTS, ref: "STARTER syr", t: "Doesn't honoring endurance just teach people to accept a killing king?"}
+- {id: C9-09, c: C9, k: [K2,K6], s: PREDICTED, t: "Could a Christian be a soldier? Could you kill in a war?"}
+- {id: C9-10, c: C9, k: [K6,K7], s: PREDICTED, t: "Did you burn heretics? Books?"}
+- {id: C9-11, c: C9, k: [K6,K11], s: PREDICTED, t: "How many of you were actually killed? Is the persecution story exaggerated?"}
+- {id: C9-12, c: C9, k: [K2], s: PREDICTED, t: "Did you pray for the emperor who was killing you?"}
+- {id: C9-13, c: C9, k: [K5,K6], s: PREDICTED, t: "Once you had power, did you persecute the way you'd been persecuted?"}
+- {id: C9-14, c: C9, k: [K2], s: PREDICTED, t: "Could a Christian be a judge and sentence someone to death?"}
+- {id: C9-15, c: C9, k: [K1,K11], s: PREDICTED, t: "What did they actually do to the martyrs? Lions?"}
+- {id: C9-16, c: C9, k: [K3], s: PREDICTED, t: "What did you do with people who gave in under persecution and then wanted back?"}
+- {id: C9-17, c: C9, k: [K6], s: PREDICTED, t: "Did some of you go looking for martyrdom? Was that discouraged?"}
+- {id: C9-18, c: C9, k: [K7], s: PREDICTED, t: "Did Christians destroy the Library of Alexandria? Did you kill Hypatia?"}
+- {id: C9-19, c: C9, k: [K2], s: PREDICTED, t: "Did you think the Roman Empire was God's instrument or the beast?"}
+- {id: C9-20, c: C9, k: [K4], s: PREDICTED, t: "Was persecution empire-wide and constant, or local and rare?"}
+- {id: C9-21, c: C9, k: [K5], s: PREDICTED, t: "Were there Christians who turned in other Christians?"}
+- {id: C9-22, c: C9, k: [K2], s: PREDICTED, t: "Did you pay taxes to an empire that killed Christians? Did you serve in its offices?"}
+- {id: C9-23, c: C9, k: [K10], s: PREDICTED, f: [VERSE], t: "'Render unto Caesar': how far did you take that?"}
+- {id: C9-24, c: C9, k: [K7], s: PREDICTED, t: "Did you force people to convert once you could?"}
+- {id: C9-25, c: C9, k: [K6], s: PREDICTED, t: "Was the church ever on the side of the torturer in your time?"}
+- {id: C9-26, c: C9, k: [K1], s: PREDICTED, t: "were you ever arrested"}
+
+# ---------- C10 Money, the poor, work ----------
+- {id: C10-01, c: C10, k: [K2,K5], s: EXISTS, ref: "CANON F5-T", t: "How did you look at money and poverty — would you call anyone among you rich?"}
+- {id: C10-02, c: C10, k: [K2], s: EXISTS, ref: "CANON F4-T", t: "Did you tithe? How did you decide what to give?"}
+- {id: C10-03, c: C10, k: [K1,K11], s: EXISTS, ref: "CANON F5-I", t: "What did people do for work — and did belonging to you change it?"}
+- {id: C10-04, c: C10, k: [K5], s: EXISTS, ref: "CURRICULUM Reevaluation · Hardest", t: "Who paid for your way of life besides you?"}
+- {id: C10-05, c: C10, k: [K5,K6], s: EXISTS, ref: "STARTER hal", t: "Wasn't this all just for the educated rich?"}
+- {id: C10-06, c: C10, k: [K1], s: EXISTS, ref: "STARTER pahc", t: "Who took care of the poor and vulnerable people in your community?"}
+- {id: C10-07, c: C10, k: [K2,K6], s: PREDICTED, t: "Did you think being rich was a sin?"}
+- {id: C10-08, c: C10, k: [K2], s: PREDICTED, t: "Could you lend money at interest?"}
+- {id: C10-09, c: C10, k: [K6,K11], s: PREDICTED, t: "Who paid for the churches and the bishops?"}
+- {id: C10-10, c: C10, k: [K2], s: PREDICTED, t: "Did you have to give everything away to follow Jesus, like the rich young man?"}
+- {id: C10-11, c: C10, k: [K1,K11], s: PREDICTED, t: "Were most of you poor, or middle class, or what?"}
+- {id: C10-12, c: C10, k: [K2,K3], s: PREDICTED, t: "Did you share everything in common like in Acts? Did it work?"}
+- {id: C10-13, c: C10, k: [K2], s: PREDICTED, t: "Were there jobs a Christian couldn't do?"}
+- {id: C10-14, c: C10, k: [K6], s: PREDICTED, t: "Did bishops live in palaces while people starved?"}
+- {id: C10-15, c: C10, k: [K3], s: PREDICTED, t: "How did you organize help for widows and orphans? Who ran it?"}
+- {id: C10-16, c: C10, k: [K2], s: PREDICTED, t: "Did giving to the poor earn forgiveness, in your teaching?"}
+- {id: C10-17, c: C10, k: [K5], s: PREDICTED, t: "Did the church ever take money from people who couldn't afford it?"}
+- {id: C10-18, c: C10, k: [K10], s: PREDICTED, f: [VERSE], t: "'Easier for a camel through the eye of a needle': did you soften that?"}
+- {id: C10-19, c: C10, k: [K2], s: PREDICTED, t: "Was there a prosperity teaching, that God makes the faithful rich?"}
+- {id: C10-20, c: C10, k: [K4], s: PREDICTED, t: "How was church money kept and accounted for? Was there corruption?"}
+- {id: C10-21, c: C10, k: [K1], s: PREDICTED, t: "did you have to pay to be a member"}
+- {id: C10-22, c: C10, k: [K7], s: PREDICTED, t: "Did you help poor people who weren't Christians?"}
+
+# ---------- C11 Jews, pagans, Muslims, other religions ----------
+- {id: C11-01, c: C11, k: [K6,K7], s: EXISTS, ref: "CANON F6-T", t: "Isn't Christianity too narrow — one way, out of all the world's ways?"}
+- {id: C11-02, c: C11, k: [K7,K11], s: REAL, ref: "PILOT item 7, 2026-10-19", t: "Would it make sense to add Jewish rabbis? Josephus?"}
+- {id: C11-03, c: C11, k: [K1,K11], s: EXISTS, ref: "CANON F3-E", t: "What would an outsider have found strangest about you?"}
+- {id: C11-04, c: C17, moved_from: C11, k: [K6], s: EXISTS, ref: "PROBE alx Phase5", t: "Fine. Then say plainly: philosophy is worthless. The philosophers had nothing."}
+- {id: C11-05, c: C11, k: [K7], s: PREDICTED, t: "What did your people say about Jews? Did you blame them for Jesus's death?"}
+- {id: C11-06, c: C11, k: [K7,K5], s: PREDICTED, t: "Did your people ever harm Jews? Did your preachers stir it up?"}
+- {id: C11-07, c: C11, k: [K7], s: PREDICTED, t: "Did you know any Muslims? What did you make of them?"}
+- {id: C11-08, c: C11, k: [K2,K7], s: PREDICTED, t: "Did you think the pagan gods were real demons, or just nothing?"}
+- {id: C11-09, c: C11, k: [K7], s: PREDICTED, t: "Could a good pagan be saved?"}
+- {id: C11-10, c: C11, k: [K7], s: PREDICTED, t: "Would you have tried to convert me? How?"}
+- {id: C11-11, c: C11, k: [K7], s: PREDICTED, t: "Did you still keep any Jewish practices? Sabbath, kosher, Passover?"}
+- {id: C11-12, c: C11, k: [K4], s: PREDICTED, t: "Were there Jewish Christians among you, and what happened to them?"}
+- {id: C11-13, c: C11, k: [K7], s: PREDICTED, t: "What did you take from Greek philosophy, and did that worry anyone?"}
+- {id: C11-14, c: C11, k: [K7], s: PREDICTED, t: "Could you eat with a pagan? Go to their festivals? Attend their weddings?"}
+- {id: C11-15, c: C11, k: [K6,K7], s: PREDICTED, t: "Did you respect any other religion at all, or was it all darkness to you?"}
+- {id: C11-16, c: C11, k: [K7], s: PREDICTED, t: "I'm Jewish. What would your people have said to me, to my face?"}
+- {id: C11-17, c: C11, k: [K7], s: PREDICTED, t: "I'm Muslim. Did your people ever meet mine, and what did they write?"}
+- {id: C11-18, c: C11, k: [K7], s: PREDICTED, t: "I'm Hindu. Did any of your people ever go to India?"}
+- {id: C11-19, c: C11, k: [K2], s: PREDICTED, t: "What did you think of the gnostics, or whoever your rivals were?"}
+- {id: C11-20, c: C11, k: [K1], s: PREDICTED, t: "did you get along with the romans"}
+- {id: C11-21, c: C11, k: [K4], s: PREDICTED, t: "Did you ever quote a pagan author approvingly? Which one?"}
+- {id: C11-22, c: C11, k: [K7], s: PREDICTED, t: "Did you believe atheists existed? What did you call them?"}
+- {id: C11-23, c: C11, k: [K10], s: PREDICTED, f: [VERSE], t: "'No one comes to the Father except through me': did you read that as shutting everyone else out?"}
+
+# ---------- C12 Daily life ----------
+- {id: C12-01, c: C12, k: [K1,K11], s: EXISTS, ref: "CANON F5-I", t: "Walk me through an ordinary day among your people, from waking to sleeping."}
+- {id: C12-02, c: C12, k: [K1], s: EXISTS, ref: "CANON F5-I", t: "What did you eat, and who ate with you?"}
+- {id: C12-03, c: C12, k: [K1,K8], s: EXISTS, ref: "CANON F5-I", t: "What did you do when someone was sick? When someone was dying?"}
+- {id: C12-04, c: C12, k: [K4,K11], s: EXISTS, ref: "CANON F5-E", t: "If archaeologists dug up the place you met, what would they find?"}
+- {id: C12-05, c: C12, k: [K4], s: EXISTS, ref: "CANON F5-E", t: "How do historians even know about daily life like yours?"}
+- {id: C12-06, c: C12, k: [K5], s: EXISTS, ref: "CANON F5-P", t: "Did belonging cost you anything — family, friends, standing?"}
+- {id: C12-07, c: C12, k: [K8,K9], s: EXISTS, ref: "CANON F5-P", t: "I'm far from everyone I love. What held your people together across distances?"}
+- {id: C12-08, c: C12, k: [K1], s: EXISTS, ref: "CURRICULUM Regular · Ordinary day", t: "Would I have picked you out in a crowd, or did you look like everyone else?"}
+- {id: C12-09, c: C12, k: [K1,K11], s: PREDICTED, t: "How did you bury your dead? Where?"}
+- {id: C12-10, c: C12, k: [K3,K8], s: PREDICTED, t: "What did you do when a plague came? Did you run or stay?"}
+- {id: C12-11, c: C12, k: [K1], s: PREDICTED, t: "Did you drink wine? Did you dance? Was anything fun allowed?"}
+- {id: C12-12, c: C12, k: [K1,K11], s: PREDICTED, t: "What did your houses look like? Did you have beds?"}
+- {id: C12-13, c: C12, k: [K11], s: PREDICTED, t: "What language did you speak at home, and what language did you pray in?"}
+- {id: C12-14, c: C12, k: [K1], s: PREDICTED, t: "did you go to school"}
+- {id: C12-15, c: C12, k: [K11], s: PREDICTED, t: "Did you go to the baths, the games, the theatre?"}
+- {id: C12-16, c: C12, k: [K1,K11], s: PREDICTED, t: "How long did people live? How many children died?"}
+- {id: C12-17, c: C12, k: [K11], s: PREDICTED, t: "Did you travel? How far had you been from home?"}
+- {id: C12-18, c: C12, k: [K2], s: PREDICTED, t: "What did you do on Sunday besides church? Did you rest?"}
+- {id: C12-19, c: C12, k: [K1], s: PREDICTED, t: "what did you wear"}
+- {id: C12-20, c: C12, k: [K11], s: PREDICTED, t: "Did you have pets? Farm animals? Horses?"}
+- {id: C12-21, c: C12, k: [K8], s: PREDICTED, t: "How did you grieve? Was there a set way to mourn?"}
+- {id: C12-22, c: C12, k: [K1,K11], s: PREDICTED, t: "How did you tell the time, or the date? Did you have calendars?"}
+- {id: C12-23, c: C12, k: [K3], s: PREDICTED, t: "How big was your community? Dozens? Thousands?"}
+- {id: C12-24, c: C12, k: [K11], s: PREDICTED, t: "Did you write letters? How did they get there?"}
+- {id: C12-25, c: C12, k: [K1], s: PREDICTED, t: "were you happy"}

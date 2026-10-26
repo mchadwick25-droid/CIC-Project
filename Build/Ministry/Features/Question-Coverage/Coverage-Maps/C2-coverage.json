@@ -1,0 +1,2997 @@
+{
+ "generated": "2026-10-26",
+ "method": {
+  "tool": "search/C2/S1..S8*.json from coverage_search.py --regex --whole-words (terms.txt) plus recgrep.py; record front matter read for every cell via idx.py/show.py; vendored lines read in context with gg.py; mapping checked against cic/corpus-map via wf.py; quotes verified with verify.py (+ verify2.py for four false mismatches).",
+  "layers": "RENDERED = a record speaks to it (partial=true marks R*: a guard, a not_for, or one facet only); LOADED = vendored and mapped to the world, read in context, no record; IDENTIFIED = registered unvendored / in cross-world queue; OTHER = outside the repo, from working knowledge, not fetched; NOTHING."
+ },
+ "sub_questions": [
+  {
+   "id": "C2.S1",
+   "label": "Is God real; who made God",
+   "canonical": "R-01",
+   "question_ids": [
+    "R-01",
+    "R-02"
+   ]
+  },
+  {
+   "id": "C2.S2",
+   "label": "What God is like: father or judge, angry, the same God as Jews and Muslims; anger at God",
+   "canonical": "C2-01",
+   "question_ids": [
+    "C2-01",
+    "C2-09",
+    "C2-11",
+    "C2-19"
+   ]
+  },
+  {
+   "id": "C2.S3",
+   "label": "The Trinity in plain words; the one-and-three objection",
+   "canonical": "C2-10",
+   "question_ids": [
+    "C2-06",
+    "C2-10",
+    "C2-12",
+    "C2-14"
+   ]
+  },
+  {
+   "id": "C2.S4",
+   "label": "The Spirit: person or force; tongues; prophecy; still speaks",
+   "canonical": "C2-02",
+   "question_ids": [
+    "C2-02",
+    "C2-08",
+    "C2-13",
+    "C2-21",
+    "R-25"
+   ]
+  },
+  {
+   "id": "C2.S5",
+   "label": "Councils, Arius, homoousios, filioque: 'a council voted Jesus God'",
+   "canonical": "C2-04",
+   "question_ids": [
+    "C2-03",
+    "C2-04",
+    "C2-07",
+    "C2-15"
+   ]
+  },
+  {
+   "id": "C2.S6",
+   "label": "Can God be known, felt, experienced; God in nature; God heals",
+   "canonical": "C2-05",
+   "question_ids": [
+    "C2-05",
+    "C2-16",
+    "C2-18",
+    "R-35",
+    "R-36"
+   ]
+  },
+  {
+   "id": "C2.S7",
+   "label": "Where evil comes from; did God create it",
+   "canonical": "C2-20",
+   "question_ids": [
+    "C2-20"
+   ]
+  },
+  {
+   "id": "C2.S8",
+   "label": "Pictures and images of God",
+   "canonical": "C2-17",
+   "question_ids": [
+    "C2-17"
+   ]
+  }
+ ],
+ "verification_all": {
+  "alx.quote.origen-punishment-heals": {
+   "result": "MATCH",
+   "file": "origen_philocalia_lewis1911.txt",
+   "lines": [
+    436
+   ]
+  },
+  "alx.quote.to-believe-or-disbelieve": {
+   "result": "MATCH",
+   "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "lines": [
+    40327
+   ]
+  },
+  "cappadocian.quote.baptize-believe-glorify-in-sequence": {
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    14168
+   ]
+  },
+  "cappadocian.quote.basil-against-eunomius-ant": {
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    24124,
+    24145
+   ]
+  },
+  "cappadocian.quote.basil-on-eustathius-rupture": {
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    39744
+   ]
+  },
+  "cappadocian.quote.basil-on-the-doxology-challenge": {
+   "result": "MATCH (spacing-only)",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    8793
+   ]
+  },
+  "cappadocian.quote.gregory-nyssa-on-becoming-god": {
+   "result": "MATCH (editorial footnote marker [2002] inside sentence; tool false-MISMATCH, see verify2.py)",
+   "file": "npnf205_gregory-nyssa-dogmatic-treatises.txt",
+   "lines": [
+    44319
+   ]
+  },
+  "cappadocian.quote.ousia-and-hypostasis": {
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    25461
+   ]
+  },
+  "cappadocian.quote.reading-scripture-hexaemeron": {
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    21217
+   ]
+  },
+  "cappadocian.quote.spirit-numbered-with-father-and-son": {
+   "result": "MATCH (spacing-only)",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    10636
+   ]
+  },
+  "desert.quote.antony-arians-serpents": {
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    32917
+   ]
+  },
+  "desert.quote.antony-nicene-formula": {
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    32931
+   ]
+  },
+  "desert.quote.christ-worketh-them-not-we": {
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    33169
+   ]
+  },
+  "desert.quote.god-is-not-a-body": {
+   "result": "MATCH (spacing-only)",
+   "file": "anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+   "lines": [
+    22799
+   ]
+  },
+  "desert.quote.grace-and-free-will-in-harmony": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    38028
+   ]
+  },
+  "desert.quote.in-real-experience-and-feeling": {
+   "result": "MATCH (two segments; tool false-MISMATCH from tag-stripping of a .txt file)",
+   "file": "macarius_fifty-spiritual-homilies_mason1921.txt",
+   "lines": [
+    2336,
+    2341
+   ]
+  },
+  "desert.quote.never-held-communion-with-the-schismatics": {
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    32908
+   ]
+  },
+  "desert.quote.the-kingdom-is-apatheia": {
+   "result": "MATCH",
+   "file": "evagrius_praktikos_dysinger.txt",
+   "lines": [
+    174,
+    177
+   ]
+  },
+  "desert.quote.the-noonday-demon": {
+   "result": "MATCH",
+   "file": "evagrius_praktikos_dysinger.txt",
+   "lines": [
+    216
+   ]
+  },
+  "desert.quote.the-soul-becomes-all-eye": {
+   "result": "MATCH",
+   "file": "macarius_fifty-spiritual-homilies_mason1921.txt",
+   "lines": [
+    1526
+   ]
+  },
+  "desert.quote.they-have-taken-away-my-god": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    36051
+   ]
+  },
+  "desert.quote.when-the-cross-of-christ-arose": {
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    33134,
+    33142
+   ]
+  },
+  "gallic.quote.believed-everywhere-always-by-all": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    12185
+   ]
+  },
+  "gallic.quote.council-over-rashness-and-ignorance": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    12218
+   ]
+  },
+  "gallic.quote.devil-incites-desire-for-holy-office": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    26944
+   ]
+  },
+  "gallic.quote.martin-raises-the-catechumen": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    977
+   ]
+  },
+  "gallic.quote.martin-rebukes-the-devil-and-dies": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    2474
+   ]
+  },
+  "gallic.quote.one-substance-three-persons": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    13059
+   ]
+  },
+  "gallic.quote.paphnutius-the-thief-possessed-and-healed": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    43058
+   ]
+  },
+  "gallic.quote.salvian-ever-present-judgment-gallic-provinces": {
+   "result": "MATCH (hyphen-joined)",
+   "file": "salvian_on-the-government-of-god_sanford1930.txt",
+   "lines": [
+    9144
+   ]
+  },
+  "hal.quote.eyes-of-faith": {
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    21139
+   ]
+  },
+  "ijc.quote.he-held-aloof-for-a-short-time": {
+   "result": "MATCH",
+   "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": [
+    2972
+   ]
+  },
+  "ijc.quote.nicene-creed": {
+   "result": "MATCH",
+   "file": "npnf214_seven-ecumenical-councils.xml",
+   "lines": [
+    2408,
+    2412,
+    2413
+   ]
+  },
+  "ijc.quote.nothing-further-can-it-add": {
+   "result": "MATCH",
+   "file": "npnf214_seven-ecumenical-councils.xml",
+   "lines": [
+    20106,
+    20108
+   ]
+  },
+  "ijc.quote.sozomen-thessalonica-law": {
+   "result": "MATCH",
+   "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": [
+    40613
+   ]
+  },
+  "pahc.quote.asia-rejected-new-prophecy": {
+   "result": "MATCH",
+   "file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+   "lines": [
+    11308
+   ]
+  },
+  "pahc.quote.hermas-doubting": {
+   "result": "MATCH",
+   "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "lines": [
+    2386,
+    2392,
+    2398
+   ]
+  },
+  "pahc.quote.in-living-water": {
+   "result": "MATCH (section-number-dropped)",
+   "file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+   "lines": [
+    12914
+   ]
+  },
+  "pahc.quote.jesus-christ-our-god": {
+   "result": "MATCH",
+   "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": [
+    6509
+   ]
+  },
+  "pahc.quote.justin-reasonable-livers": {
+   "result": "MATCH",
+   "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": [
+    15684
+   ]
+  },
+  "pahc.quote.not-every-one-that-speaketh-in-the-spirit": {
+   "result": "MATCH (section-number-dropped)",
+   "file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+   "lines": [
+    13026
+   ]
+  },
+  "rzg.quote.christ-the-mirror-of-election": {
+   "result": "MATCH (two segments; second has OCR 'onr' for 'our', which the record brackets as [our])",
+   "file": "schaff_second-helvetic-confession-heidelberg-catechism_1919.txt",
+   "lines": [
+    667,
+    684
+   ]
+  },
+  "syr.quote.aphrahat-anti-jewish-frame": {
+   "result": "MATCH",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    27100
+   ]
+  },
+  "syr.quote.aphrahat-medicine-penitence": {
+   "result": "MATCH",
+   "file": "aphrahat_demonstrations-2-7_hallock1932.txt",
+   "lines": [
+    29
+   ]
+  },
+  "syr.quote.aphrahat-sure-thing": {
+   "result": "MATCH",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    27115
+   ]
+  },
+  "syr.quote.basil-credits-a-syrian": {
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    16726
+   ]
+  },
+  "syr.quote.on-a-certain-day-a-pearl": {
+   "result": "MATCH",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    21794
+   ]
+  },
+  "syr.quote.pearl-mysteries": {
+   "result": "MATCH",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    21794
+   ]
+  },
+  "syr.quote.the-blasphemy-of-madmen": {
+   "result": "MATCH (inline page marker [Ov. p. 53, l. 2.] inside sentence)",
+   "file": "ephraim_prose-refutations_mitchell1912-1921.txt",
+   "lines": [
+    358
+   ]
+  },
+  "witt.quote.article-ii-of-original-sin": {
+   "result": "MATCH",
+   "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+   "lines": [
+    194
+   ]
+  },
+  "witt.quote.second-article-of-the-creed": {
+   "result": "MATCH",
+   "file": "luther_small-catechism_smith1994.txt",
+   "lines": [
+    189
+   ]
+  }
+ },
+ "worlds": {
+  "alx": {
+   "S1": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "alx.dw.god",
+     "alx.quote.to-believe-or-disbelieve",
+     "alx.demo.couldnt-believe"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "line": 16165,
+      "snippet": "God is good, or rather is essentially the source of goodness: nor c.",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "dw.god says one good maker, never alone, known as light is known; the doubt records treat belief as a choice within the rule of faith. No record answers 'is God real' or says God has no maker. Athanasius, De Incarnatione 3 (God good and the source of goodness, the world made from nothing) is vendored and unquoted.",
+    "verified": [
+     {
+      "record": "alx.quote.to-believe-or-disbelieve",
+      "result": "MATCH",
+      "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": [
+       40327
+      ]
+     }
+    ]
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "alx.quote.origen-punishment-heals",
+     "alx.dw.suffering",
+     "alx.dw.god"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "line": 16165,
+      "snippet": "God is good, or rather is essentially the source of goodness: nor c.",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "God's severity as a physician's fire is verified (Philocalia XXVII). Nothing on father versus judge as a pair, on 'same God as Jews', or on anger at God. Muslims: nothing can exist in a 150-400 world; no record says so.",
+    "verified": [
+     {
+      "record": "alx.quote.origen-punishment-heals",
+      "result": "MATCH",
+      "file": "origen_philocalia_lewis1911.txt",
+      "lines": [
+       436
+      ]
+     }
+    ]
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "alx.dw.was-jesus-god",
+     "alx.term.homoousios",
+     "alx.term.logos"
+    ],
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "line": 60058,
+      "snippet": "or held so, but that they acknowledged a Holy Trinity but One Godhead,",
+      "mapped_to_world": true
+     },
+     {
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "line": 60064,
+      "snippet": "6. The question of one Subsistence",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Honest guard: 'Trinity' as textbooks define it lies mostly beyond our time. Baptism into Father, Son and Spirit is stated. No plain-words one-and-three answer. Athanasius's Tome to the Antiochenes (hypostases not to be pressed) is vendored and unquoted.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "alx.term.pneuma-hagion",
+     "alx.dw.was-jesus-god"
+    ],
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "line": 60060,
+      "snippet": "the fathers said; while the Holy Spirit is not a creature, nor",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "work": "Didymus the Blind, De Spiritu Sancto (Jerome's Latin)",
+      "edition": "Migne PG 39:1031-1086; and Athanasius, Letters to Serapion, PG 26:529-676 (check vendored PG 26 volume first)",
+      "licence": "public domain"
+     }
+    ],
+    "note": "Spirit always at work in Scripture, prayer, change; clearer teaching on the Spirit only late (dw.was-jesus-god). not_for bars modern charismatic/tongues readings, so tongues and prophecy get no positive answer; healing none.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "partial": false,
+    "records": [
+     "alx.dw.councils",
+     "alx.dw.was-jesus-god",
+     "alx.term.homoousios",
+     "alx.term.son-of-god",
+     "alx.story.arsinoite-conference",
+     "alx.dw.empire"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Strongest world for 'a council voted Jesus God': dw.councils not_for forbids it; homoousios fenced existing worship. Arius named. Filioque: nothing (post-dates the world).",
+    "verified": []
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "partial": false,
+    "records": [
+     "alx.term.gnosis",
+     "alx.term.nous",
+     "alx.term.mysterion",
+     "alx.term.eikon",
+     "alx.dw.god"
+    ],
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "God known as light is known; knowledge that changes the knower; the whole creation as his school. Healing of the body by God: no record (suffering is read as medicine).",
+    "verified": []
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "alx.term.autexousia",
+     "alx.dw.original-sin",
+     "alx.quote.to-believe-or-disbelieve",
+     "alx.contested.origen-positions"
+    ],
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "line": 13041,
+      "snippet": "eology must be manifest: that evil has not from the",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Free self-determination and a real fall are answered. 'God made nothing evil; evil has no substance' (Contra Gentes, npnf204 L13041) is vendored and unquoted, so the direct 'did God create evil' answer is missing.",
+    "verified": [
+     {
+      "record": "alx.quote.to-believe-or-disbelieve",
+      "result": "MATCH",
+      "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": [
+       40327
+      ]
+     }
+    ]
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "alx.dw.god",
+     "alx.term.eikon"
+    ],
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "'Beyond every image' is about speech about God; term.eikon is the human image of God. Nothing on pictures, idols or carving; a retrieval hit on 'image of God' could mislead.",
+    "verified": []
+   }
+  },
+  "cappadocian": {
+   "S1": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "cappadocian.term.akatalepsia",
+     "cappadocian.term.diastema",
+     "cappadocian.term.agennetos",
+     "cappadocian.quote.basil-against-eunomius-ant"
+    ],
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Who made God is answered in this world's terms: God alone has no beginning (diastema), the Father is unbegotten but that word does not exhaust him (agennetos). 'Is God real' is not asked in any record.",
+    "verified": [
+     {
+      "record": "cappadocian.quote.basil-against-eunomius-ant",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       24124,
+       24145
+      ]
+     }
+    ]
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "cappadocian.term.philanthropia",
+     "cappadocian.demo.where-was-god",
+     "cappadocian.term.orge"
+    ],
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Only God's love for humankind and the refusal to explain suffering. term.orge is human anger. Father versus judge, anger at God, Jews: nothing.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "partial": false,
+    "records": [
+     "cappadocian.term.ousia-hypostasis",
+     "cappadocian.quote.ousia-and-hypostasis",
+     "cappadocian.dw.was-jesus-god",
+     "cappadocian.demo.was-jesus-god",
+     "cappadocian.gravity.triune-confession",
+     "cappadocian.story.money-changers-unbegotten"
+    ],
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+      "line": 29315,
+      "snippet": "On \"Not Three Gods.\"",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [
+     "cappadocian.source.basil-against-eunomius (unvendored)",
+     "cappadocian.source.gregory-nyssa-on-the-deity-of-the-son-and-spirit (unvendored)",
+     "WANTS-REGISTER.md L54, L116"
+    ],
+    "other": [
+     {
+      "work": "Basil, Against Eunomius",
+      "edition": "Migne PG 29:497-669 (1857), Greek with Latin; English only in DelCogliano and Radde-Gallwitz, FOTC 122 (2011), in copyright",
+      "licence": "Greek: public domain"
+     }
+    ],
+    "note": "One being, three persons, with Epistle 38 flagged as possibly Nyssa's. The 'three gods' objection itself has no record; Nyssa's Not Three Gods is vendored and unquoted.",
+    "verified": [
+     {
+      "record": "cappadocian.quote.ousia-and-hypostasis",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       25461
+      ]
+     }
+    ]
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "partial": false,
+    "records": [
+     "cappadocian.dw.holy-spirit-honored",
+     "cappadocian.gravity.precision-reserve",
+     "cappadocian.story.doxology-stand",
+     "cappadocian.term.doxologia",
+     "cappadocian.quote.spirit-numbered-with-father-and-son",
+     "cappadocian.quote.basil-on-eustathius-rupture",
+     "cappadocian.quote.basil-on-the-doxology-challenge",
+     "cappadocian.quote.baptize-believe-glorify-in-sequence"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+      "line": 34658,
+      "snippet": "not safe, when the Godhead of the Father was not yet acknowledged,",
+      "mapped_to_world": true
+     },
+     {
+      "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+      "line": 34673,
+      "snippet": "appearing in fiery tongues.  And indeed it is by little and little",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [
+     "cappadocian.source.epiphanius-on-eustathius-pneumatomachians (unvendored; WANTS-REGISTER.md L98)",
+     "download-queue-seed.yaml: Five Theological Orations (Mason), not yet downloaded"
+    ],
+    "other": [],
+    "note": "Best Spirit coverage in the fleet: Basil's reserve about the bare word 'God'. Gap: Nazianzen's Oration 31.26-27 (the Spirit's Godhead revealed by stages, with Pentecost tongues) answers 'was the Spirit called God then' directly. Prophecy, tongues, healing: none.",
+    "verified": [
+     {
+      "record": "cappadocian.quote.spirit-numbered-with-father-and-son",
+      "result": "MATCH (spacing-only)",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       10636
+      ]
+     },
+     {
+      "record": "cappadocian.quote.basil-on-eustathius-rupture",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       39744
+      ]
+     },
+     {
+      "record": "cappadocian.quote.basil-on-the-doxology-challenge",
+      "result": "MATCH (spacing-only)",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       8793
+      ]
+     },
+     {
+      "record": "cappadocian.quote.baptize-believe-glorify-in-sequence",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       14168
+      ]
+     }
+    ]
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "partial": false,
+    "records": [
+     "cappadocian.dw.confession-not-a-vote",
+     "cappadocian.contested.homoian-nicene-reversal",
+     "cappadocian.contested.settlement-historiography",
+     "cappadocian.term.homoousios",
+     "cappadocian.term.symbolon",
+     "cappadocian.story.gregory-constantinople",
+     "cappadocian.core.cappadocian"
+    ],
+    "confidence": [
+     "Contested",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [
+     "cappadocian.source.eunomius-apology-for-the-apology, eunomius-confession-of-383 (unvendored; WANTS-REGISTER.md L112-113)"
+    ],
+    "other": [],
+    "note": "Explicit answer to 'a council voted'. Filioque is guarded in world_core ('we do not judge ... the filioque dispute'). Arius: via Homoian/Eunomian rivals.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "partial": false,
+    "records": [
+     "cappadocian.term.akatalepsia",
+     "cappadocian.term.epinoia-energeia",
+     "cappadocian.term.theosis",
+     "cappadocian.term.hesychia",
+     "cappadocian.quote.basil-against-eunomius-ant",
+     "cappadocian.quote.gregory-nyssa-on-becoming-god",
+     "cappadocian.quote.reading-scripture-hexaemeron"
+    ],
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Known truly, grasped never; God present in everything (Nyssa, Cat. Or. 25); creation read for the Creator's wisdom (Hexaemeron). Healing by God: none.",
+    "verified": [
+     {
+      "record": "cappadocian.quote.basil-against-eunomius-ant",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       24124,
+       24145
+      ]
+     },
+     {
+      "record": "cappadocian.quote.gregory-nyssa-on-becoming-god",
+      "result": "MATCH (editorial footnote marker [2002] inside sentence; tool false-MISMATCH, see verify2.py)",
+      "file": "npnf205_gregory-nyssa-dogmatic-treatises.txt",
+      "lines": [
+       44319
+      ]
+     },
+     {
+      "record": "cappadocian.quote.reading-scripture-hexaemeron",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       21217
+      ]
+     }
+    ]
+   },
+   "S7": {
+    "layer": "LOADED",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+      "line": 43116,
+      "snippet": "would have understood that there is no evil other than wickedness. Now",
+      "mapped_to_world": true
+     },
+     {
+      "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+      "line": 43120,
+      "snippet": "the will; but it is the non-existence of the good that is so",
+      "mapped_to_world": true
+     },
+     {
+      "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+      "line": 16558,
+      "snippet": "then?  Evil is not a living animated essence; it is the condition",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record on where evil comes from. Basil, Hexaemeron II ('evil is not a living animated essence') and Nyssa, Catechetical Oration V-VI ('no evil other than wickedness ... the God of things that are is external to the causation of things that are evil') are vendored and unquoted.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "cappadocian.term.eikon"
+    ],
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+      "line": 12040,
+      "snippet": "honour paid to the image passes on to the prototype.  Now what",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "term.eikon is the image of God in persons (slave-market sermon). Basil's 'honour paid to the image passes to the prototype' is about the Son as the Father's image, not pictures; using it for icons would be later reading.",
+    "verified": []
+   }
+  },
+  "desert": {
+   "S1": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "desert.dw.god",
+     "desert.quote.when-the-cross-of-christ-arose",
+     "desert.demo.center-jesus-as-god"
+    ],
+    "confidence": [
+     "Contested",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Antony's disputation with philosophers (knowledge of God shone since the Cross) is in a record but is not an answer to 'is God real' or 'who made God'.",
+    "verified": [
+     {
+      "record": "desert.quote.when-the-cross-of-christ-arose",
+      "result": "MATCH",
+      "file": "npnf204_athanasius-select-works-letters.xml",
+      "lines": [
+       33134,
+       33142
+      ]
+     }
+    ]
+   },
+   "S2": {
+    "layer": "LOADED",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 22581,
+      "snippet": "the passion of anger and wrath be attributed to that unchangeable",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [
+     "desert.source.antony-letters (unvendored; WANTS-REGISTER.md L70)"
+    ],
+    "other": [
+     {
+      "work": "Antony, Letters (God's goodness, knowledge of God)",
+      "edition": "Latin of the Arabic, Migne PG 40:977-1000; English Rubenson 1995 and Chitty 1975 in copyright",
+      "licence": "Latin: public domain"
+     }
+    ],
+    "note": "No record on God's character. Cassian, Conference X.4-5, says anger ascribed to the unchangeable God is figurative; the existing sarapion story cites the neighbouring chapters but not this one. Risk: apatheia/anger records are about human passion.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "desert.quote.antony-nicene-formula",
+     "desert.demo.center-jesus-as-god",
+     "desert.dw.god"
+    ],
+    "confidence": [
+     "Contested",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The Son uncreated, never a time he was not (Antony in Alexandria, Athanasius's report). No plain-words Trinity answer; Pachomian records name the Trinity only in passing.",
+    "verified": [
+     {
+      "record": "desert.quote.antony-nicene-formula",
+      "result": "MATCH",
+      "file": "npnf204_athanasius-select-works-letters.xml",
+      "lines": [
+       32931
+      ]
+     }
+    ]
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "partial": false,
+    "records": [
+     "desert.dw.the-heart-and-the-spirit",
+     "desert.quote.the-soul-becomes-all-eye",
+     "desert.quote.in-real-experience-and-feeling"
+    ],
+    "confidence": [
+     "Contested"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The Macarian current: Spirit indwelling, felt grace. Marked Contested (authorship; Messalian charge). Prophecy, tongues, healing by the Spirit: none.",
+    "verified": [
+     {
+      "record": "desert.quote.the-soul-becomes-all-eye",
+      "result": "MATCH",
+      "file": "macarius_fifty-spiritual-homilies_mason1921.txt",
+      "lines": [
+       1526
+      ]
+     },
+     {
+      "record": "desert.quote.in-real-experience-and-feeling",
+      "result": "MATCH (two segments; tool false-MISMATCH from tag-stripping of a .txt file)",
+      "file": "macarius_fifty-spiritual-homilies_mason1921.txt",
+      "lines": [
+       2336,
+       2341
+      ]
+     }
+    ]
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "partial": false,
+    "records": [
+     "desert.dw.councils",
+     "desert.quote.antony-nicene-formula",
+     "desert.quote.antony-arians-serpents",
+     "desert.quote.never-held-communion-with-the-schismatics",
+     "desert.limit.doubt-and-doctrine"
+    ],
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Desert monks sat in no councils; bishops summoned Antony. Arius refused. Homoousios and filioque: nothing in the world's own words.",
+    "verified": [
+     {
+      "record": "desert.quote.antony-nicene-formula",
+      "result": "MATCH",
+      "file": "npnf204_athanasius-select-works-letters.xml",
+      "lines": [
+       32931
+      ]
+     },
+     {
+      "record": "desert.quote.antony-arians-serpents",
+      "result": "MATCH",
+      "file": "npnf204_athanasius-select-works-letters.xml",
+      "lines": [
+       32917
+      ]
+     },
+     {
+      "record": "desert.quote.never-held-communion-with-the-schismatics",
+      "result": "MATCH",
+      "file": "npnf204_athanasius-select-works-letters.xml",
+      "lines": [
+       32908
+      ]
+     }
+    ]
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "partial": false,
+    "records": [
+     "desert.dw.god",
+     "desert.dw.the-heart-and-the-spirit",
+     "desert.term.theoria",
+     "desert.term.apatheia",
+     "desert.quote.the-kingdom-is-apatheia",
+     "desert.quote.in-real-experience-and-feeling",
+     "desert.quote.christ-worketh-them-not-we"
+    ],
+    "confidence": [
+     "Contested",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [
+     "desert.source.antony-letters (unvendored)"
+    ],
+    "other": [],
+    "note": "Two answers kept apart: God seen through stilled passions (Evagrius), God felt (Macarian). Antony credits Christ for the healing of demoniacs.",
+    "verified": [
+     {
+      "record": "desert.quote.the-kingdom-is-apatheia",
+      "result": "MATCH",
+      "file": "evagrius_praktikos_dysinger.txt",
+      "lines": [
+       174,
+       177
+      ]
+     },
+     {
+      "record": "desert.quote.in-real-experience-and-feeling",
+      "result": "MATCH (two segments; tool false-MISMATCH from tag-stripping of a .txt file)",
+      "file": "macarius_fifty-spiritual-homilies_mason1921.txt",
+      "lines": [
+       2336,
+       2341
+      ]
+     },
+     {
+      "record": "desert.quote.christ-worketh-them-not-we",
+      "result": "MATCH",
+      "file": "npnf204_athanasius-select-works-letters.xml",
+      "lines": [
+       33169
+      ]
+     }
+    ]
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "desert.term.logismoi",
+     "desert.quote.the-noonday-demon",
+     "desert.gravity.spiritual-combat",
+     "desert.quote.grace-and-free-will-in-harmony"
+    ],
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "line": 31791,
+      "snippet": "them by that name; for God made nothing evil, but even they have been",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Combat with demons is rich; the origin answer is missing. Vita Antonii 22: 'God made nothing evil, but even they have been made good ... having fallen' is vendored and unquoted.",
+    "verified": [
+     {
+      "record": "desert.quote.the-noonday-demon",
+      "result": "MATCH",
+      "file": "evagrius_praktikos_dysinger.txt",
+      "lines": [
+       216
+      ]
+     },
+     {
+      "record": "desert.quote.grace-and-free-will-in-harmony",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       38028
+      ]
+     }
+    ]
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "partial": false,
+    "records": [
+     "desert.story.sarapion-anthropomorphite",
+     "desert.quote.god-is-not-a-body",
+     "desert.quote.they-have-taken-away-my-god",
+     "desert.force.origenist-controversy"
+    ],
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Best images coverage in the fleet: the old monk who prayed to a human-shaped God (Conference X) and Origen on God not a body.",
+    "verified": [
+     {
+      "record": "desert.quote.god-is-not-a-body",
+      "result": "MATCH (spacing-only)",
+      "file": "anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+      "lines": [
+       22799
+      ]
+     },
+     {
+      "record": "desert.quote.they-have-taken-away-my-god",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       36051
+      ]
+     }
+    ]
+   }
+  },
+  "don": {
+   "S1": {
+    "layer": "NOTHING",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "No record; vendored hits on God's existence are Augustine against Manichaeans, the other side.",
+    "verified": []
+   },
+   "S2": {
+    "layer": "NOTHING",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "No record and no Donatist-voice text found. Optatus and Augustine are the only vendored voices.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "don.dw.the-creed-we-shared",
+     "don.dw.who-jesus-was-among-us"
+    ],
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/optatus_against-the-donatists.txt",
+      "line": 97,
+      "snippet": " our argument, who defend the Unity of Baptism conferred in [the Name of] the Trinity.48 It is not an argument in favour of you, who dare to repeat, a",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Same Trinitarian faith as the rivals (Optatus, Augustine 417), no creed of their own surviving. No plain-words explanation; the Optatus hit is the Catholic voice.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "LOADED",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/optatus_against-the-donatists.txt",
+      "line": 1397,
+      "snippet": " or angelus. Only thus is the third Endowment, the Spirit, in the water of Baptism. Parmenian proves this by quoting John v, 4, whence St. Optatus' wo",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record. Parmenian's 'third Endowment, the Spirit, in the water of baptism' (via Optatus, L1397) is a rare Donatist-voice line on the Spirit; read in the editor's summary context, verify before use.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "partial": false,
+    "records": [
+     "don.dw.who-decides-a-disputed-case",
+     "don.dw.what-we-argued-among-ourselves",
+     "don.story.conference-of-carthage-411",
+     "don.term.concilium",
+     "don.dw.the-creed-we-shared"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "dw.who-decides retrieves on 'a council voted Jesus into being God': Donatist councils governed discipline; Nicene faith not in dispute. Arius, homoousios, filioque: nothing.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "partial": false,
+    "records": [
+     "don.dw.room-for-dissent"
+    ],
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "God felt in martyr texts (cup turned to a crown, dreams). Told as gift. Nature and healing: none.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "NOTHING",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Augustine's anti-Manichaean volume (npnf104) is mapped but is Catholic voice; no Donatist text on the origin of evil.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "NOTHING",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Nothing found.",
+    "verified": []
+   }
+  },
+  "gallic": {
+   "S1": {
+    "layer": "LOADED",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/salvian_on-the-government-of-god_sanford1930.txt",
+      "line": 5236,
+      "snippet": "fool hath said in his heart, ‘There is no God.’ ’’ * For they who",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Salvian: those who say God sees nothing 'deny his very existence'. gallic.term.government-of-god covers providence, not existence or a maker.",
+    "verified": []
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "gallic.term.government-of-god",
+     "gallic.quote.salvian-ever-present-judgment-gallic-provinces"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 22581,
+      "snippet": "the passion of anger and wrath be attributed to that unchangeable",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "God as present judge is strong (Salvian, verified). Father, mercy, anger as figure (Cassian X.4) are absent from records.",
+    "verified": [
+     {
+      "record": "gallic.quote.salvian-ever-present-judgment-gallic-provinces",
+      "result": "MATCH (hyphen-joined)",
+      "file": "salvian_on-the-government-of-god_sanford1930.txt",
+      "lines": [
+       9144
+      ]
+     }
+    ]
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "partial": false,
+    "records": [
+     "gallic.quote.one-substance-three-persons",
+     "gallic.dw.one-person-two-substances",
+     "gallic.term.theotocos"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 48467,
+      "snippet": "INCARNATION OF THE LORD, AGAINST NESTORIUS.",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [
+     "gallic.source.cassian-de-incarnatione is registered unvendored but is vendored at npnf211 L48467 (stale record)"
+    ],
+    "other": [],
+    "note": "Vincent's one substance, three Persons is verified. gallic.source.cassian-de-incarnatione is registered unvendored but the text is vendored and mapped (npnf211 L48467).",
+    "verified": [
+     {
+      "record": "gallic.quote.one-substance-three-persons",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       13059
+      ]
+     }
+    ]
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "gallic.term.grace-as-charism",
+     "gallic.term.virtus",
+     "gallic.term.blessing",
+     "gallic.quote.martin-raises-the-catechumen"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Healing and prophecy as bestowed grace, lost and repaired; not_for bars modern charismatic readings. Spirit as a person: nothing (Faustus of Riez, De Spiritu Sancto, is vendored in Latin, unread).",
+    "verified": [
+     {
+      "record": "gallic.quote.martin-raises-the-catechumen",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       977
+      ]
+     }
+    ]
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "gallic.quote.believed-everywhere-always-by-all",
+     "gallic.quote.council-over-rashness-and-ignorance",
+     "gallic.term.council-synod",
+     "gallic.term.heretic-heresy"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Vincent's test for councils. No record answers Arius or 'a council voted'; Martin avoids synods.",
+    "verified": [
+     {
+      "record": "gallic.quote.believed-everywhere-always-by-all",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       12185
+      ]
+     },
+     {
+      "record": "gallic.quote.council-over-rashness-and-ignorance",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       12218
+      ]
+     }
+    ]
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "partial": false,
+    "records": [
+     "gallic.term.contemplation",
+     "gallic.term.compunction",
+     "gallic.term.grace-as-charism",
+     "gallic.term.blessing",
+     "gallic.quote.martin-raises-the-catechumen",
+     "gallic.quote.paphnutius-the-thief-possessed-and-healed"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "God felt as power at Tours and as contemplation at Marseilles; healing is a heavy theme. Nature: none.",
+    "verified": [
+     {
+      "record": "gallic.quote.martin-raises-the-catechumen",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       977
+      ]
+     },
+     {
+      "record": "gallic.quote.paphnutius-the-thief-possessed-and-healed",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       43058
+      ]
+     }
+    ]
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "gallic.term.the-devil-demons",
+     "gallic.term.free-will",
+     "gallic.term.illusion",
+     "gallic.quote.devil-incites-desire-for-holy-office",
+     "gallic.quote.martin-rebukes-the-devil-and-dies"
+    ],
+    "confidence": [
+     "Contested",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "A real devil; free will weak but present. Where evil came from, and whether God made it: no record.",
+    "verified": [
+     {
+      "record": "gallic.quote.devil-incites-desire-for-holy-office",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       26944
+      ]
+     },
+     {
+      "record": "gallic.quote.martin-rebukes-the-devil-and-dies",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       2474
+      ]
+     }
+    ]
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "gallic.term.heathen-rustics"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Temple-burning only. Nothing on pictures of God.",
+    "verified": []
+   }
+  },
+  "hal": {
+   "S1": {
+    "layer": "NOTHING",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Nothing found.",
+    "verified": []
+   },
+   "S2": {
+    "layer": "NOTHING",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Nothing found.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "hal.dw.was-jesus-god"
+    ],
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 5002,
+      "snippet": "XV. To Pope Damasus.",
+      "mapped_to_world": true
+     },
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 5072,
+      "snippet": "walls. are trying to extort from me, a",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Trinity asserted as settled, 'never negotiable', not explained; not_for bars a Jerome treatise. Letter XV to Damasus (why the East's 'three hypostases' alarmed Jerome) is vendored and unquoted; written c.376, before the window opens in 382.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "LOADED",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 8276,
+      "snippet": "Montanism, Montanus lived at",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record. Letter XLI to Marcella (385) sets out Montanist doctrine against the church's; inside the window.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "hal.dw.authority",
+     "hal.dw.was-jesus-god"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "dw.authority names the 'voted Jesus into being God' claim and answers 'we are the wrong witness for what happened inside the council hall', but its retrieve_when is only 'who appointed or ordained the bishops', so the council-vote question may not retrieve it.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "hal.quote.eyes-of-faith"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Paula seeing the Nativity 'with the eyes of faith'; not_for bars literal vision. Nothing on God felt.",
+    "verified": [
+     {
+      "record": "hal.quote.eyes-of-faith",
+      "result": "MATCH",
+      "file": "npnf206_jerome-principal-works.xml",
+      "lines": [
+       21139
+      ]
+     }
+    ]
+   },
+   "S7": {
+    "layer": "NOTHING",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Nothing found; Jerome's Dialogue against the Pelagians is vendored but not searched for evil.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "LOADED",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 11106,
+      "snippet": " this, and being loth that an image of a man should be hung up in",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Jerome's translation of Epiphanius, who tore down a painted curtain with an image of Christ or a saint (npnf206 L11100-11112). Unrendered.",
+    "verified": []
+   }
+  },
+  "ijc": {
+   "S1": {
+    "layer": "NOTHING",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Nothing found in window; the volume holds John of Damascus, who is out of window.",
+    "verified": []
+   },
+   "S2": {
+    "layer": "NOTHING",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Nothing found.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "ijc.term.homoousios",
+     "ijc.quote.nicene-creed",
+     "ijc.quote.sozomen-thessalonica-law"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Creed text and Theodosius's 380 law named for Trinitarian belief. No plain explanation of three-in-one.",
+    "verified": [
+     {
+      "record": "ijc.quote.nicene-creed",
+      "result": "MATCH",
+      "file": "npnf214_seven-ecumenical-councils.xml",
+      "lines": [
+       2408,
+       2412,
+       2413
+      ]
+     },
+     {
+      "record": "ijc.quote.sozomen-thessalonica-law",
+      "result": "MATCH",
+      "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "lines": [
+       40613
+      ]
+     }
+    ]
+   },
+   "S4": {
+    "layer": "LOADED",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+      "line": 13394,
+      "snippet": "Giver-of-Life, who proceedeth from the Father, who with the Father and",
+      "mapped_to_world": true
+     },
+     {
+      "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+      "line": 12069,
+      "snippet": "when He proceeds from the Father and the Son, is not separated from the",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record on the Spirit. The 381 creed (L13393) and Ambrose, On the Holy Spirit (L12068-12070, 'proceeds from the Father and the Son') are vendored; a good home for the filioque question.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "partial": false,
+    "records": [
+     "ijc.term.homoousios",
+     "ijc.term.homoios",
+     "ijc.quote.nicene-creed",
+     "ijc.quote.he-held-aloof-for-a-short-time",
+     "ijc.quote.nothing-further-can-it-add",
+     "ijc.dw.room-for-hesitation",
+     "ijc.contested.homoian-content",
+     "ijc.story.letter-that-outranked-a-council"
+    ],
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [
+     "ijc.source.auxentius-letter-ulfila (Homoian self-testimony; unvendored)"
+    ],
+    "other": [],
+    "note": "Richest council coverage: Eusebius's hesitation, the Homoian side, Chalcedon's 'nothing further can it add'. Filioque is post-window; only the Ambrose line above.",
+    "verified": [
+     {
+      "record": "ijc.quote.nicene-creed",
+      "result": "MATCH",
+      "file": "npnf214_seven-ecumenical-councils.xml",
+      "lines": [
+       2408,
+       2412,
+       2413
+      ]
+     },
+     {
+      "record": "ijc.quote.he-held-aloof-for-a-short-time",
+      "result": "MATCH",
+      "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "lines": [
+       2972
+      ]
+     },
+     {
+      "record": "ijc.quote.nothing-further-can-it-add",
+      "result": "MATCH",
+      "file": "npnf214_seven-ecumenical-councils.xml",
+      "lines": [
+       20106,
+       20108
+      ]
+     }
+    ]
+   },
+   "S6": {
+    "layer": "NOTHING",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Nothing found.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "NOTHING",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Nothing found.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "NOTHING",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Nothing in window. npnf214 also holds the 787 decree on images (L38122), which is outside the 312-451 window.",
+    "verified": []
+   }
+  },
+  "lpc": {
+   "S1": {
+    "layer": "LOADED",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf108_augustine-exposition-psalms.xml",
+      "line": 2608,
+      "snippet": "2. “The fool hath said in his heart, There is no God” (ver. 1). For not even have certain sacrilegious and abominable philosophers, who entertain perv",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record. Augustine on Psalm 14: even the philosophers did not dare say there is no God. World is building.",
+    "verified": []
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "lpc.witness.violence-commanded-not-cruel",
+     "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Draft records: God 'not in cruelty, but in righteous retribution'; 'formed us for Thyself'. Father or judge: no record.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "lpc.witness.the-only-son-and-the-trinity"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [
+     {
+      "work": "Augustine, Collatio cum Maximino",
+      "edition": "Migne PL 42:709-742, Latin",
+      "licence": "public domain"
+     }
+    ],
+    "note": "Draft; Trinity completed by the Holy Ghost in the creed; Maximinus's Arian challenge at Hippo named. Augustine, De Trinitate is vendored (npnf103).",
+    "verified": []
+   },
+   "S4": {
+    "layer": "LOADED",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf107_augustine-homilies-john-soliloquies.xml",
+      "line": 1380,
+      "snippet": "ppeared unto them,” it says, “cloven tongues as of fire, and it sat upon each of them; and they began to speak with tongues, as the Spirit gave them u",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record. Augustine on the Spirit shown as dove and fire and on Pentecost tongues is vendored; De Trinitate V and XV on the Spirit's procession too.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "lpc.gravity.conciliar-authority-theory",
+     "lpc.witness.scripture-above-councils",
+     "lpc.limit.411-gesta-unread",
+     "lpc.witness.the-only-son-and-the-trinity"
+    ],
+    "confidence": [
+     "Documented",
+     "Inferential-Thin"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "All draft. About councils as authority, not 'a council voted Jesus God'.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Draft; the restless heart is the only 'felt God' line.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "lpc.witness.violence-commanded-not-cruel",
+     "lpc.force.manichaeism-and-pelagian-anthropology"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+      "line": 10384,
+      "snippet": "7. And I sought “whence is evil?” And sought in",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Draft. The force record names the Manichaean half as 'not developed'. Confessions VII ('Whence is evil?') is vendored and unquoted: the richest source in the fleet for this sub-question.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "NOTHING",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Nothing found.",
+    "verified": []
+   }
+  },
+  "pahc": {
+   "S1": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "pahc.quote.justin-reasonable-livers",
+     "pahc.witness.god-and-argument"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "line": 5835,
+      "snippet": "He alone is without beginning, and He Himself is the beginning of all",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Christians were called atheists (Justin, verified). Tatian, Address 4: 'Our God did not begin to be in time: he alone is without beginning' answers 'who made God'; vendored and unquoted.",
+    "verified": [
+     {
+      "record": "pahc.quote.justin-reasonable-livers",
+      "result": "MATCH",
+      "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": [
+       15684
+      ]
+     }
+    ]
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "pahc.witness.hard-texts",
+     "pahc.witness.outside-our-community"
+    ],
+    "confidence": [
+     "Contested",
+     "Inferential-Thin"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "line": 40442,
+      "snippet": "Chapter IX.—One and the same God, the",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Marcion's charge that the Old Testament God is harsh, from opponents only. Irenaeus (III.9) 'one and the same God' is vendored. Jews and Muslims: Justin's Dialogue is vendored; no record.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "pahc.witness.jesus-as-god",
+     "pahc.quote.jesus-christ-our-god",
+     "pahc.quote.in-living-water",
+     "pahc.witness.god-and-argument"
+    ],
+    "confidence": [
+     "Contested",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "line": 8993,
+      "snippet": "Wolf’s reading. are types of the Trinity, Τριάδος.",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Honest guard: no gathering decided God's nature. Trinitarian baptism (Didache 7, verified). Theophilus, Ad Autolycum II.15, the earliest use of 'Trinity', is vendored and unquoted.",
+    "verified": [
+     {
+      "record": "pahc.quote.jesus-christ-our-god",
+      "result": "MATCH",
+      "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": [
+       6509
+      ]
+     },
+     {
+      "record": "pahc.quote.in-living-water",
+      "result": "MATCH (section-number-dropped)",
+      "file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+      "lines": [
+       12914
+      ]
+     }
+    ]
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "partial": false,
+    "records": [
+     "pahc.term.prophetes",
+     "pahc.quote.not-every-one-that-speaketh-in-the-spirit",
+     "pahc.quote.asia-rejected-new-prophecy",
+     "pahc.contested.rivals-undefeated"
+    ],
+    "confidence": [
+     "Contested",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "line": 22231,
+      "snippet": "“For the prophetical gifts remain with us, even",
+      "mapped_to_world": true
+     },
+     {
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "line": 51060,
+      "snippet": "s, and who through the Spirit speak all kinds of languages,",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Only world with prophecy testing and Montanism. Justin (Dial. 82) and Irenaeus (V.6.1: brethren who 'speak all kinds of languages') are vendored and unquoted: the tongues answer.",
+    "verified": [
+     {
+      "record": "pahc.quote.not-every-one-that-speaketh-in-the-spirit",
+      "result": "MATCH (section-number-dropped)",
+      "file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+      "lines": [
+       13026
+      ]
+     },
+     {
+      "record": "pahc.quote.asia-rejected-new-prophecy",
+      "result": "MATCH",
+      "file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+      "lines": [
+       11308
+      ]
+     }
+    ]
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "partial": false,
+    "records": [
+     "pahc.witness.god-and-argument",
+     "pahc.quote.asia-rejected-new-prophecy",
+     "pahc.gravity.boundary-drawing"
+    ],
+    "confidence": [
+     "Contested",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Strong guard: councils deciding God's nature 'belong to a later world'. Asia's synods on the New Prophecy are the only gatherings.",
+    "verified": [
+     {
+      "record": "pahc.quote.asia-rejected-new-prophecy",
+      "result": "MATCH",
+      "file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+      "lines": [
+       11308
+      ]
+     }
+    ]
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "pahc.witness.doubt-and-asking",
+     "pahc.quote.hermas-doubting",
+     "pahc.witness.prayer-and-struggle"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Asking God without doubting (Hermas). Felt God, nature, healing: none.",
+    "verified": [
+     {
+      "record": "pahc.quote.hermas-doubting",
+      "result": "MATCH",
+      "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": [
+       2386,
+       2392,
+       2398
+      ]
+     }
+    ]
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "pahc.witness.hard-texts",
+     "pahc.contested.rivals-undefeated"
+    ],
+    "confidence": [
+     "Documented",
+     "Inferential-Thin"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Marcion and the Valentinians are named; no teaching on where evil comes from.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "LOADED",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf03_tertullian.xml",
+      "line": 4962,
+      "snippet": "On Idolatry",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record. Tertullian, On Idolatry, is vendored and mapped.",
+    "verified": []
+   }
+  },
+  "rzg": {
+   "S1": {
+    "layer": "LOADED",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt",
+      "line": 6952,
+      "snippet": "belief confirmed by the examples of wicked men and Atheists.",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record. Calvin I.3-5 (a sense of the divine; atheists) is vendored.",
+    "verified": []
+   },
+   "S2": {
+    "layer": "LOADED",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt",
+      "line": 472,
+      "snippet": "We therefore condemn the Jews and Mohammedans, and all who",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "work": "Bullinger, The Decades",
+      "edition": "Parker Society, 5 vols., 1849-52, archive.org; sermon numbers not checked",
+      "licence": "public domain"
+     }
+    ],
+    "note": "No record. SHC ch.3 condemns 'the Jews and Mohammedans' by name: the only vendored text in the fleet naming Muslims, and a hazard if quoted bare.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "LOADED",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt",
+      "line": 458,
+      "snippet": "Chap. IIL Of God, his Unity and Trinity. — We believe and teach",
+      "mapped_to_world": true
+     },
+     {
+      "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt",
+      "line": 10874,
+      "snippet": "CHAPTER XIII.",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "work": "Zwingli, Exposition of the Faith (1531)",
+      "edition": "Latin Works vol. 2, ed. Hinke, 1922 (the one volume not vendored)",
+      "licence": "public domain in US"
+     }
+    ],
+    "note": "No record at all on the Trinity in a world that will be asked. SHC ch.3, Calvin I.13 and the Servetus file are vendored.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "LOADED",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt",
+      "line": 458,
+      "snippet": "Chap. IIL Of God, his Unity and Trinity. — We believe and teach",
+      "mapped_to_world": true
+     },
+     {
+      "file": "cic/texts/calvin_geneva-catechism_waterman1815.txt",
+      "line": 1195,
+      "snippet": "C. I understand, that the Holy Spirit,",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record. SHC ch.3 (Holy Ghost proceeds from both, to be worshipped) and the Geneva Catechism on illumination are vendored.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "LOADED",
+    "partial": false,
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt",
+      "line": 11242,
+      "snippet": "translating oij^oovaiog^ used consul) stantialis, (consubstantial,)",
+      "mapped_to_world": true
+     },
+     {
+      "file": "cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt",
+      "line": 462,
+      "snippet": "ner; the Holy Ghost eternally proceeds from both, and is to be wor-",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record. Calvin I.13.5 on homoousios and Jerome's alarm; SHC ch.3 states the filioque ('eternally proceeds from both').",
+    "verified": []
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "rzg.limit.doubt-and-assurance",
+     "rzg.quote.christ-the-mirror-of-election",
+     "rzg.term.providence"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/calvin_geneva-catechism_waterman1815.txt",
+      "line": 233,
+      "snippet": "A. Child. It is to know God his Cre-",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Assurance by looking to Christ. 'Know God' and nature: Geneva Catechism Q1 and Calvin I.5 vendored, unquoted.",
+    "verified": [
+     {
+      "record": "rzg.quote.christ-the-mirror-of-election",
+      "result": "MATCH (two segments; second has OCR 'onr' for 'our', which the record brackets as [our])",
+      "file": "schaff_second-helvetic-confession-heidelberg-catechism_1919.txt",
+      "lines": [
+       667,
+       684
+      ]
+     }
+    ]
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "rzg.term.providence",
+     "rzg.term.predestination-election",
+     "rzg.gravity.sovereignty-of-god-predestination-election"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt",
+      "line": 540,
+      "snippet": "We condemn the Manichceans who impiously imagine two coeternal",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "God's sovereignty is rendered but no record says God is not the author of sin; SHC ch.7 (Manichaeans condemned, devil a liar from the beginning) is vendored.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "partial": false,
+    "records": [
+     "rzg.witness.triple-refusal",
+     "rzg.witness.what-a-stranger-would-notice",
+     "rzg.ambient.emptied-worship-space",
+     "rzg.limit.material-culture-and-worship-space"
+    ],
+    "confidence": [
+     "Documented",
+     "Inferential-Thin"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt",
+      "line": 479,
+      "snippet": "Chap. IV. Of Idols, Images of God and of Saints. — As God is a",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "'No image bowed to' and the emptied worship space are rendered; none states the doctrine itself ('God cannot be represented by any image', SHC ch.4).",
+    "verified": []
+   }
+  },
+  "syr": {
+   "S1": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "syr.dw.god"
+    ],
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "line": 5835,
+      "snippet": "He alone is without beginning, and He Himself is the beginning of all",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "One God who made all things from nothing, against eternal elements. Tatian (Assyrian): 'Our God did not begin to be in time' is vendored and unquoted.",
+    "verified": []
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "syr.dw.god",
+     "syr.quote.aphrahat-anti-jewish-frame",
+     "syr.term.anti-jewish-polemic"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "'Good and just in the same person'. Jews: only the one-sided polemic, with guards. Muslims: after the window.",
+    "verified": [
+     {
+      "record": "syr.quote.aphrahat-anti-jewish-frame",
+      "result": "MATCH",
+      "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "lines": [
+       27100
+      ]
+     }
+    ]
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "partial": false,
+    "records": [
+     "syr.dw.was-jesus-god",
+     "syr.quote.aphrahat-sure-thing",
+     "syr.dw.born-again-endtimes"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Father, Son and Spirit named over baptism; 'what God is is better sung than dissected'. Best teaching-a-newcomer answer outside the Cappadocians.",
+    "verified": [
+     {
+      "record": "syr.quote.aphrahat-sure-thing",
+      "result": "MATCH",
+      "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "lines": [
+       27115
+      ]
+     }
+    ]
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "syr.dw.born-again-endtimes",
+     "syr.quote.basil-credits-a-syrian"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "line": 20580,
+      "snippet": "with fire and the Spirit He should baptize.—Lo! the fire and the",
+      "mapped_to_world": true
+     },
+     {
+      "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "line": 24632,
+      "snippet": "spirit of Christ dwelleth in you. 1 Cor. iii. 16, etc.  And also",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "work": "Odes of Solomon (the Spirit as dove and milk)",
+      "edition": "Harris and Mingana, The Odes and Psalms of Solomon, 1916-1920; Syriac text with English",
+      "licence": "public domain"
+     }
+    ],
+    "note": "Spirit received in baptism's second birth; the Syrian reading of the Spirit brooding like a bird (verified). Tongues, prophecy: none.",
+    "verified": [
+     {
+      "record": "syr.quote.basil-credits-a-syrian",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       16726
+      ]
+     }
+    ]
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "partial": false,
+    "records": [
+     "syr.dw.decides",
+     "syr.story.jacob-nicaea",
+     "syr.quote.aphrahat-sure-thing",
+     "syr.dw.was-jesus-god"
+    ],
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Disputes settled by bishops, synods and teachers until a royal order; Jacob of Nisibis at Nicaea is later tradition.",
+    "verified": [
+     {
+      "record": "syr.quote.aphrahat-sure-thing",
+      "result": "MATCH",
+      "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "lines": [
+       27115
+      ]
+     }
+    ]
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "partial": false,
+    "records": [
+     "syr.quote.on-a-certain-day-a-pearl",
+     "syr.quote.pearl-mysteries",
+     "syr.gravity.raza-shrara-method",
+     "syr.dw.physician",
+     "syr.quote.aphrahat-medicine-penitence"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [
+     "syr.source.brock-luminous-eye, murray-symbols (secondary scholarship; unvendored)"
+    ],
+    "other": [],
+    "note": "God known by symbol; God as physician. Nature as pointer (the pearl).",
+    "verified": [
+     {
+      "record": "syr.quote.on-a-certain-day-a-pearl",
+      "result": "MATCH",
+      "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "lines": [
+       21794
+      ]
+     },
+     {
+      "record": "syr.quote.pearl-mysteries",
+      "result": "MATCH",
+      "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "lines": [
+       21794
+      ]
+     },
+     {
+      "record": "syr.quote.aphrahat-medicine-penitence",
+      "result": "MATCH",
+      "file": "aphrahat_demonstrations-2-7_hallock1932.txt",
+      "lines": [
+       29
+      ]
+     }
+    ]
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "partial": false,
+    "records": [
+     "syr.dw.god",
+     "syr.gravity.heresiological-self-definition",
+     "syr.contested.bardaisan-nicene-floor",
+     "syr.quote.the-blasphemy-of-madmen"
+    ],
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Strongest evil coverage: free will against fate, against Marcion, Bardaisan and Mani; Ephrem's argument that evil has no existence of its own (L358). The answers come from a hostile polemic and not_for bars treating them as the rivals' own teaching.",
+    "verified": [
+     {
+      "record": "syr.quote.the-blasphemy-of-madmen",
+      "result": "MATCH (inline page marker [Ov. p. 53, l. 2.] inside sentence)",
+      "file": "ephraim_prose-refutations_mitchell1912-1921.txt",
+      "lines": [
+       358
+      ]
+     }
+    ]
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "syr.story.abgar-addai-legend"
+    ],
+    "confidence": [
+     "Contested"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "not_for guards the 'image not made by hands' as later. The pearl hymns are symbols, not pictures.",
+    "verified": []
+   }
+  },
+  "witt": {
+   "S1": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "witt.term.to-have-a-god-is-to-trust"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/luther_large-catechism_bente-dau1921.txt",
+      "line": 501,
+      "snippet": "consists not merely in erecting an image and worshiping it, but rather",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Guard only: not_for bars 'god as a being whose existence is at issue'. Nothing on whether God is real.",
+    "verified": []
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "witt.term.law-and-gospel",
+     "witt.term.grace",
+     "witt.term.assurance",
+     "witt.term.the-turk"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/luther_small-catechism_smith1994.txt",
+      "line": 171,
+      "snippet": "I believe in God the Almighty Father, Creator of Heaven and Earth.",
+      "mapped_to_world": true
+     },
+     {
+      "file": "cic/texts/luther_large-catechism_bente-dau1921.txt",
+      "line": 584,
+      "snippet": ", therefore, from these words how angry God is with those who",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [
+     "witt.source.luther-that-jesus-christ-was-born (Jews), luther-von-den-juden (unvendored)"
+    ],
+    "other": [
+     {
+      "work": "Luther, Dass Jesus Christus ein geborener Jude sei (1523); Bibliander, Machumetis ... (Basel 1543) with Luther's preface",
+      "edition": "WA 11:314-336; Latin 1543 edition",
+      "licence": "public domain"
+     }
+    ],
+    "note": "Gracious God, angry at false trust. The Small Catechism's First Article ('fatherly and divine goodness') and the Large Catechism's 'how angry God is ... how good and gracious' are vendored and unrendered. Turks as outside enemy; no Muslim teaching.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "witt.dw.truly-god-and-truly-man",
+     "witt.quote.second-article-of-the-creed"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/melanchthon_augsburg-confession_anon-pg275.txt",
+      "line": 169,
+      "snippet": "Council of Nicaea concerning the Unity of the Divine Essence and",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [
+     "witt.source.marburg-articles (art. 1 Trinity; unvendored; WANTS-REGISTER.md L189)"
+    ],
+    "other": [
+     {
+      "work": "Marburg Articles (1529), art. 1",
+      "edition": "German, WA 30/3:160-171; English in Luther's Works vol. 38 (1971), in copyright",
+      "licence": "German: public domain"
+     }
+    ],
+    "note": "Christ truly God, verified. No Trinity record though AC Article I (Nicaea's decree on the Three Persons 'true and to be believed') is vendored.",
+    "verified": [
+     {
+      "record": "witt.quote.second-article-of-the-creed",
+      "result": "MATCH",
+      "file": "luther_small-catechism_smith1994.txt",
+      "lines": [
+       189
+      ]
+     }
+    ]
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "witt.term.sects-and-new-spirits",
+     "witt.term.free-will",
+     "witt.term.the-word"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/luther_small-catechism_smith1994.txt",
+      "line": 210,
+      "snippet": "I believe in the Holy Spirit, the holy Christian Church, the community",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "The Spirit comes through the outward Word; radicals claim him apart from it. The Third Article ('the Holy Spirit called me by the Gospel') is vendored, unrendered. Tongues: none.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "partial": false,
+    "records": [
+     "witt.dw.a-confession-answered-not-a-vote",
+     "witt.dw.scripture-judges-every-other-voice",
+     "witt.term.scripture-against-tradition"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/melanchthon_augsburg-confession_anon-pg275.txt",
+      "line": 169,
+      "snippet": "Council of Nicaea concerning the Unity of the Divine Essence and",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Retrieves on 'a council voted Jesus into being God' but answers about 1530, not Nicaea; AC I accepts Nicaea.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "witt.term.assurance",
+     "witt.term.comfort",
+     "witt.term.faith"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Certainty of a gracious God; no felt-experience or nature records.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "partial": true,
+    "records": [
+     "witt.term.the-devil",
+     "witt.term.sin",
+     "witt.term.free-will",
+     "witt.quote.article-ii-of-original-sin"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/melanchthon_augsburg-confession_anon-pg275.txt",
+      "line": 483,
+      "snippet": "Article XIX: Of the Cause of Sin.",
+      "mapped_to_world": true
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Direct 'did God make evil' answer sits in AC XIX ('the cause of sin is the will of the wicked'), vendored, unrendered.",
+    "verified": [
+     {
+      "record": "witt.quote.article-ii-of-original-sin",
+      "result": "MATCH",
+      "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+      "lines": [
+       194
+      ]
+     }
+    ]
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "partial": false,
+    "records": [
+     "witt.term.images",
+     "witt.term.saints",
+     "witt.term.doctrines-of-men"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Images neither commanded nor forbidden, never removed by force.",
+    "verified": []
+   }
+  }
+ }
+}

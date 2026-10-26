@@ -7,6 +7,13 @@ status: draft
 register: etic
 canon_cells:
 - F3-T
+use_note:
+  means: "Bishops here argued hard but worked to keep communion, not break it, from Cyprian to Augustine."
+  not_for:
+    - "a claim that any source states this pattern across both phases, since it is our own reading"
+    - "a claim that bishops never broke communion"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority
@@ -46,45 +53,50 @@ relations:
   target: lpc.force.donatist-schism
 - type: associated-with
   target: lpc.force.augustine-engagement-cyprian-conciliar-acts
+- type: associated-with
+  target: lpc.quote.one-good-shepherd-not-many
+- type: associated-with
+  target: lpc.quote.apart-in-heart-united-in-body
+- type: associated-with
+  target: lpc.quote.going-out-without-violating-unity
+- type: associated-with
+  target: lpc.quote.bishop-of-bishops
 name: Collegial Communion Preserved Despite Disagreement
-description: >-
-  Few things mattered more to this world than staying in communion despite real disagreement. Bishops
-  in this world disagree, sometimes sharply. But they work to keep communion rather than break it and
-  build a rival hierarchy.
+description: 'Few things mattered more to this world than staying in communion despite real disagreement.
+  Bishops here disagree, sometimes sharply. But they work to keep communion rather than break it and build
+  a rival hierarchy.
 
 
-  The pattern recurs across both phases. Cyprian's preface to the Council of 256 states it directly:
-  "neither does any of us set himself up as a bishop of bishops... every bishop... has his own proper
-  right of judgment." Augustine's On Baptism argues at length against Cyprian's own ruling on rebaptism.
-  Yet it never treats him as outside communion. Letter 185 addresses the Donatist schism in the same
-  pastoral, corrective tone.
+  The pattern recurs across both phases. Cyprian''s preface to the Council of 256 states it directly: no bishop sets himself up as a bishop of bishops, and each bishop has his own right of judgment. Augustine''s On Baptism argues at length against Cyprian''s own ruling on rebaptism.
+  Yet it never treats him as outside communion. Letter 185 takes the same tone with the Donatist split:
+  a pastor''s tone, meant to correct.
 
 
-  Our own case for this world's coherence across the century between its two bishops rests on this
-  concern. A bishop who
-  disagrees has two paths. He can work to keep communion, or he can break it and set up a parallel
-  hierarchy. Both bishops take the first path. Neither breaks fellowship over the sharpest doctrinal
-  disputes in the record. Neither bishop's writings hold a single counter-example.
+  Our own case for this world''s coherence across the century between its two bishops rests on this concern.
+  A bishop who disagrees has two paths. He can work to keep communion, or he can break it and set up a
+  parallel hierarchy. Both bishops take the first path. Over rebaptism, the sharpest dispute between them,
+  neither breaks fellowship with a fellow bishop. The fight over grace went another way. African councils
+  condemned what the Pelagians taught. So the concern has a scope. It governs disagreement over practice
+  among bishops in communion. It does not reach teaching a council judged heresy.
 
 
-  This explains why Augustine's long, respectful argument with a bishop he disputes reads as a son
-  arguing with a father, not a rejection. It also directly explains the world's boundary against
-  Donatism. The pattern shows in both phases, in how both bishops act, not just in a shared word. It
-  reinforces pastoral office, penitential discipline, conciliar authority, and sacramental validity.
-  Sacramental validity is the doctrinal question where it is tested hardest.
+  This explains why Augustine''s long, respectful argument with a bishop he disputes reads as a son arguing
+  with a father, not a rejection. It also explains where this world draws its line against Donatism. The
+  pattern shows in both phases, in how both bishops act, not just in a shared word. It supports four other
+  concerns: the pastor''s office, the discipline of penance, the weight of councils, and whether a sacrament
+  is valid. That last question is where it is tested hardest.
 
 
-  The confidence split is disclosed, not resolved. The underlying facts are solidly attested. The 256
-  preface's own words and On Baptism's long argument are directly quoted and checked. But reading them
-  as one concern across both phases, rather than two separate historical facts, is an interpretation.
-  That interpretation stands at Widely Accepted, and the record carries this more cautious rating
-  instead of hiding the split.
+  The confidence split is named, not resolved. The facts beneath it are well attested. The 256 preface''s
+  own words and On Baptism''s long argument are directly quoted and checked. But to read them as one concern
+  across both phases, not two separate facts, is our own reading. That reading stands at Widely Accepted.
+  The record carries this more cautious rating rather than hide the split.
 
 
-  Every force linked to this concern tested it rather than created it. The organized Carthaginian
-  church gave colleagues who could meet and already disagreed. The Donatist schism tested it at its
-  hardest edge. Augustine's engagement with Cyprian's conciliar acts tested it across the century gap.
-  It held each time. It is this world's own way of adapting, tested three times from three directions.
+  Every force linked to this concern tested it rather than created it. The organized church at Carthage
+  gave it colleagues who could meet and who already disagreed. The Donatist schism tested it at its hardest
+  edge. Augustine''s reading of Cyprian''s council acts tested it across the century gap. This world''s own
+  bishops kept it each time. It is this world''s own way of adapting, tested three times from three directions.'
 manifestations:
 - 'Cyprian''s preface to the Council of 256: "neither does any of us set himself up as a bishop of bishops...
   every bishop... has his own proper right of judgment"'

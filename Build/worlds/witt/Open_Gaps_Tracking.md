@@ -2736,3 +2736,13 @@ Status: OPEN for B6 until the round 2 recheck. CLOSED for the other claim check 
 Follows the "Independent recheck of the live-reply claim check fixes" entry (2026-10-24). The separate Opus recheck thread confirmed B6 against https://github.com/mchadwick25-droid/CIC-Project/pull/1102 (`Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Independent-Recheck_Round1.md` and `Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Independent-Recheck_Round2.md`, merged in https://github.com/mchadwick25-droid/CIC-Project/pull/1099). No round 3 is needed.
 
 Status: CLOSED for the live-reply claim check findings.
+
+## OG-81. Source record marked unvendored for a work the Library holds, and one term it contradicts, 2026-10-26.
+
+Library thread, 2026-10-26, from the question-coverage survey (`Build/Ministry/Features/Question-Coverage/`). The Library thread does not edit world records; this entry hands the fix to this world's thread.
+
+- `witt.source.book-of-concord` is marked `kind: unvendored`, but Jacobs 1911 is vendored and mapped to this world (`cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt`). The Formula of Concord's article on God's eternal predestination and election (chapter heading at line 25390, checked) is in it.
+- `witt.term.free-will` says the library carries no developed predestination doctrine. The Formula of Concord does carry one. The term needs checking against that text.
+- The survey cited `witt.source.melanchthon-instructions-for-the-visitors`, and no file of that name exists under `records/witt/source/`. Confirm the id, or create the source record when the text is acquired.
+
+Status: OPEN, for this world's thread.

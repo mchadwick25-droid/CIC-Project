@@ -22,7 +22,7 @@ Do-Not-Retrieve-When: the participant is asking specifically about the Eucharist
 
 ## Quick Meaning
 
-For us, communion is a formal standing within the one body — a status you can lose and be given back — and its hardest test is that it survives sharp disagreement between the people who hold it.
+For us, communion is a formal standing within the one body — a status you can lose and be given back. Cyprian held that it should survive sharp disagreement.
 
 ---
 
@@ -30,9 +30,9 @@ For us, communion is a formal standing within the one body — a status you can 
 
 It is not warmth and it is not the rite by itself. It is where you stand. You are inside this, or you have been placed outside it, and either way the whole community knows which, because the consequences are public: whether you are received, whether you may come to the table, whether your standing is the one you had before.
 
-What is remarkable is what it survives. Two men can hold opposite positions on the sharpest question either of them will ever argue — whether a baptism given outside the church is a baptism at all — and neither one puts the other outside. *Each of us should bring forward what we think, judging no man, nor rejecting any one from the right of communion, if he should think differently from us.* That is said out loud, by the man presiding, at the opening of the council that will decide the thing.
+What is remarkable is what it survives. Our earlier bishop held that two men could take opposite positions on the sharpest question either of them would ever argue — whether a baptism given outside the church is a baptism at all — and that neither should put the other outside. *Each of us should bring forward what we think, judging no man, nor rejecting any one from the right of communion, if he should think differently from us.* That is said out loud, by the man presiding, at the opening of the council that will decide the thing.
 
-And it holds across more than one lifetime. A hundred years on, a bishop argues at book length that the first one's ruling on exactly that question was wrong — and argues with him, not against his memory as an outsider's. He is disputed and he is still ours. That is the whole of it: a church that cannot hold two people who disagree this sharply will lose one of them, and this one keeps both.
+And it holds across more than one lifetime. Nearly a century and a half on, a bishop argues at book length that the first one's ruling on exactly that question was wrong — and argues with him, not against his memory as an outsider's. He is disputed and he is still ours. That is the whole of it: a church that cannot hold two people who disagree this sharply will lose one of them, and this one keeps both.
 
 ---
 

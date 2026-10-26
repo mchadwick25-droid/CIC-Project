@@ -20,6 +20,14 @@ relations:
   target: lpc.term.the-one-episcopate
 - type: associated-with
   target: lpc.witness.scripture-above-councils
+use_note:
+  means: "The term names the rule, stated at the council of 256, that no bishop stands over another and each answers to Christ."
+  not_for:
+    - "a claim that it is an early anti-papal manifesto or a modern separation of powers"
+    - "a claim that Cyprian's words name Stephen as their target"
+    - "a claim that ordinary believers or most clergy were formed by this question"
+  years: {from: 256, to: 256}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -49,7 +57,7 @@ retrieval:
   - the participant is asking about a bishop's own authority over his own congregation rather than about
     bishops' authority over each other -- ask about the flock instead
 plain_meaning: 'For us, this is a simple rule, said at the start of a council: no bishop stands over another.
-  Each bishop judges for himself, and answers for it elsewhere.'
+  Each bishop judges for himself. Only Christ judges him.'
 world_word: bishop of bishops
 distortion_risk: medium
 false_friend:
@@ -60,8 +68,8 @@ senses:
     rule on the sharpest question in the room: no one of us sets himself up as a bishop of bishops, and
     none compels a colleague by tyrannical terror, since every bishop holds his own proper right of judgment.
     It is a statement about what a council is -- not a tribunal handing down a verdict that binds the
-    unwilling, but a gathering of men each of whom says what he holds and answers for it to someone other
-    than the man in the chair. Together with plenary Council, this forms our own conciliar-authority pair,
+    unwilling, but a gathering of men each of whom says what he holds and answers for it to Christ, not
+    to the man in the chair. Together with plenary Council, this forms our own conciliar-authority pair,
     and the two are incompatible. It underwrites communion''s own capacity to survive disagreement: if
     no one can compel a colleague, disagreement need not mean separation.'
   evidential: The 256 Council preface is directly quoted and re-verified at source, and re-quoted across
@@ -75,7 +83,6 @@ senses:
     principle about separated powers. We mean neither -- a working statement of how a council among equals
     proceeds, made by the man chairing it, inside a shared conviction that the episcopate is one undivided
     office rather than a hierarchy of ranks.
-quick_meaning: For us, no bishop stands over the others. Each one judges for himself, and answers for
-  it elsewhere.
+quick_meaning: For us, no bishop stands over the others. Each one judges for himself, and answers to Christ.
 ---
 Re-derived from Doc_06 SS2.2 (lpclex012, down-tiered to Tier 2 -- no evidence that ordinary believers were formed by this question) and Lexicon-Chunks/lpclex012_bishop-of-bishops.md. AUTHORED call, not chunk-stated: evidentiary_weight set to load-bearing despite Tier 2. The chunk itself never uses the term; this script infers it because the formula is the principal textual ground of the Cyprianic pole of a real, Documented Supporting gravity (the conciliar-authority axis), which Doc_04 SS7 item 2 forbids suppressing -- Tier and evidentiary_weight are independent axes, the same rule don's own script states. Relations: five terms per this term's own Related-Terms line.

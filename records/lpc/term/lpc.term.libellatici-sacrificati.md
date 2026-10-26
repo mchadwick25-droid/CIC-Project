@@ -14,6 +14,14 @@ relations:
   target: lpc.term.reconciliation-penitential-discipline
 - type: associated-with
   target: lpc.term.the-lapsed
+use_note:
+  means: "Cyprian split the lapsed into those who bought a paper and those who sacrificed, both fallen but not alike."
+  not_for:
+    - "a claim that it was a formal canonical taxonomy applied uniformly"
+    - "a claim that the two acts weighed the same"
+    - "a claim that the grading rests on an editor's endnote"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -41,19 +49,18 @@ retrieval:
   - the participant is asking about the general category or the process of return rather than the internal
     distinction -- ask about the lapsed or reconciliation instead
 plain_meaning: Not everyone who failed, failed the same way, and we knew it. One person paid money and
-  got a paper. Another stood at the altar and did the deed. Both are outside now, and both ask to come
-  back.
+  got a paper. Another stood at the altar and did the deed. Both fell. Cyprian did not treat them the
+  same.
 world_word: libellatici / sacrificati
 distortion_risk: low
 false_friend:
 - a formal canonical taxonomy fixed by the church itself and applied uniformly across every case
 senses:
   informational: Not everyone who failed failed the same way, and the community knew it. One person handed
-    over money and walked away with a paper; another stood at the altar and did the thing. Both are outside,
-    and both ask to come back, and it would be false to pretend the two acts weigh the same, so the road
-    back is longer for one than the other. What does not change is where the road ends. This is the graduation
-    inside penitential discipline -- the reason reconciliation is a process with stages rather than a
-    single yes or no.
+    over money and walked away with a paper; another stood at the altar and did the thing. Both fell,
+    and it would be false to pretend the two acts weigh the same, so the road back is longer for one than
+    the other. What does not change is where the road ends. This is the graduation inside penitential
+    discipline -- the reason reconciliation is a process with stages rather than a single yes or no.
   evidential: Our own bishop Cyprian names both classes, libellatici and sacrificati, and grades them. In
     his letter to Antonianus he refuses to put those who receive certificates on a par with those who
     have sacrificed, and he reports the decision that the first be admitted in the meantime and the second

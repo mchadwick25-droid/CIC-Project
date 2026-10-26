@@ -7,6 +7,14 @@ status: draft
 register: etic
 canon_cells:
 - F2-E
+use_note:
+  means: "Whether Pontius gives testimony or a saint's life stays open, though Cyprian's death in 258 is sure."
+  not_for:
+    - "a claim that the Scriptural patterning shows the account cannot be trusted"
+    - "a claim that the question is settled in either direction"
+    - "a claim that the strengthened hand of the executioner is a fact"
+  years: {from: 258, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

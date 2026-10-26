@@ -1,0 +1,29 @@
+source_file: aphrahat_demonstrationes-1-22-syr-lat_parisot1894.txt
+
+assignments:
+- row_id: aphrahat_demonstrationes-1-22-syr-lat_parisot1894--aphrahat-demonstrations-i-xxii-syriac-with-parisot-s-latin
+  work: Aphrahat, Demonstrations I-XXII (Syriac with Parisot's Latin)
+  author: aphrahat
+  locus: Demonstration I from about line 4432; III from 9052; IV from 11132; VII from 20214; XI from 27837;
+    XIV from 33057; XX from 50644; XXII from 56689; Latin pages only are readable
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: tradition
+  confidence: assigned
+  note: 'Original-language witness: Parisot''s Latin translation of the Syriac, scholarly and public domain.
+    The Syriac OCR is unusable, so the Latin is a rendering by Parisot, not Aphrahat''s own words. Any
+    record citing it must say so and render the English itself, labelled as a rendering. Aphrahat''s own
+    text, a Persian Sage writing in Syriac; the same assignment as the Hallock English.'
+- row_id: aphrahat_demonstrationes-1-22-syr-lat_parisot1894--aphrahat-demonstrations-i-xxii-syriac-with-parisot-s-latin-2
+  work: Aphrahat, Demonstrations I-XXII (Syriac with Parisot's Latin)
+  author: aphrahat
+  locus: Demonstration I from about line 4432; III from 9052; IV from 11132; VII from 20214; XI from 27837;
+    XIV from 33057; XX from 50644; XXII from 56689; Latin pages only are readable
+  atlas_ids:
+  - persian-church-of-the-east-early
+  role: tradition
+  confidence: assigned
+  note: 'Original-language witness: Parisot''s Latin translation of the Syriac, scholarly and public domain.
+    The Syriac OCR is unusable, so the Latin is a rendering by Parisot, not Aphrahat''s own words. Any
+    record citing it must say so and render the English itself, labelled as a rendering. Aphrahat wrote
+    in the Persian empire; the same assignment as the Hallock English.'

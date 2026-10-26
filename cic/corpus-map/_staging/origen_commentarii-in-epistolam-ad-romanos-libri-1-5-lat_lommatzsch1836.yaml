@@ -1,0 +1,33 @@
+source_file: origen_commentarii-in-epistolam-ad-romanos-libri-1-5-lat_lommatzsch1836.txt
+
+assignments:
+  - row_id: origen_commentarii-in-epistolam-ad-romanos-libri-1-5-lat_lommatzsch1836--commentary-on-romans-books-i-v
+    work: "Commentary on the Epistle to the Romans, Books I to V (Rufinus's Latin)"
+    author: origen
+    locus: "prefaces from about line 170; Book I running heads from about line 1040, Book V from about line 20960; Lommatzsch's notes on readings close the volume"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: assigned
+    note: >
+      ORIGINAL-LANGUAGE WITNESS (Latin, with Lommatzsch's Latin notes), the
+      only rights-clean text of this work; the English translations are in
+      copyright. The Latin is Rufinus's translation, which his own preface
+      (npnf203) says abridged a Greek commentary of fifteen volumes into ten
+      books, so it is Origen as Rufinus gave him, not Origen verbatim. Any
+      record that cites it must say so and must render the English itself,
+      labelled as a rendering. Origen's own work, so tradition for the world
+      whose catechetical school he led.
+
+  - row_id: origen_commentarii-in-epistolam-ad-romanos-libri-1-5-lat_lommatzsch1836--commentary-on-romans-books-i-v-transmission
+    work: "Commentary on the Epistle to the Romans, Books I to V (Rufinus's Latin)"
+    author: origen
+    locus: "prefaces from about line 170; Book I running heads from about line 1040, Book V from about line 20960; Lommatzsch's notes on readings close the volume"
+    atlas_ids:
+      - aquileian-christianity
+    role: transmission
+    confidence: assigned
+    note: >
+      Custody, not voice: Rufinus of Aquileia's translation is why this
+      commentary survives in full, and the Greek original is largely lost.
+      The voice is Origen's, assigned to alexandria-catechetical above.

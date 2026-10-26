@@ -28,7 +28,7 @@ The certificates issued to those who complied with the Decian edict's sacrifice 
 
 ## World Meaning
 
-The empire did not ask anyone to renounce Christ in writing. It asked for a sacrifice, and then it wrote down that you had made one.
+The empire asked for a sacrifice, and then it wrote down that you had made one.
 
 That is the whole mechanism, and it is why the crisis took the shape it did. A demand you could satisfy with money rather than incense produced a class of people who had not, in their own minds, worshipped anything — and who nonetheless held a document saying they had. The paper is the problem. Without it, failure under pressure is a private matter between a person and God. With it, failure is filed.
 

@@ -1,0 +1,2212 @@
+{
+ "generated": "2026-10-26",
+ "method": {
+  "tool": "scratchpad/tools/coverage_search.py --whole-words --regex, eight term sets (search/C15/terms.txt, S1..S8 json); the earlier agent's eight runs were all complete and non-empty (every .err empty), none re-run. Record greps by search/C15/recgrep.py and q.py (front matter only); not_for survey of all 12 worlds; vendored passages read in context with near.py; quotes checked with verify.py",
+  "layers": "NEAREST-RENDERED = a record holds the nearest material AND a guard (honest_limit, or a not_for or in-voice line) names the modern frame. NEAREST-LOADED = nearest material vendored and mapped; includes worlds whose nearest record has no guard on the modern frame (listed under records, with guards empty). LIMIT-ONLY = right answer is silence plus an honest_limit; limit_built says whether one exists. NOTHING = not used: a limit can always be written. Sub-question cells show best and worst of their wordings.",
+  "sub_wording_note": "The search runs used the earlier grouping (subq.json); results were regrouped to 07-subquestions.yaml ids. C15-11 (abortion) sits in S7, C15-10 and C15-17 differ from the earlier file."
+ },
+ "sub_questions": [
+  {
+   "id": "S1",
+   "label": "Gay marriage",
+   "question_ids": [
+    "C15-01"
+   ]
+  },
+  {
+   "id": "S2",
+   "label": "Evolution, science, climate",
+   "question_ids": [
+    "C15-02",
+    "C15-09"
+   ]
+  },
+  {
+   "id": "S3",
+   "label": "AI and talking to a machine",
+   "question_ids": [
+    "C15-03"
+   ]
+  },
+  {
+   "id": "S4",
+   "label": "Which church today; Catholic church and pope now; megachurches and worship bands; the Reformation and the East-West split",
+   "question_ids": [
+    "C15-04",
+    "C15-05",
+    "C15-06",
+    "C15-10"
+   ]
+  },
+  {
+   "id": "S5",
+   "label": "Christians in politics, voting; religion causes wars",
+   "question_ids": [
+    "C15-07",
+    "C15-15"
+   ]
+  },
+  {
+   "id": "S6",
+   "label": "Women pastors today",
+   "question_ids": [
+    "C15-08"
+   ]
+  },
+  {
+   "id": "S7",
+   "label": "Church life today: abortion laws, ageing churches, burnt-out pastors, the Bible on a phone",
+   "question_ids": [
+    "C15-11",
+    "C15-12",
+    "C15-13",
+    "C15-14"
+   ]
+  },
+  {
+   "id": "S8",
+   "label": "Are we what you hoped for; Christians and Jews together; Sunday; the world now; would you still believe",
+   "question_ids": [
+    "C15-16",
+    "C15-17",
+    "C15-18",
+    "C15-19",
+    "C15-20"
+   ]
+  }
+ ],
+ "verification_all": {
+  "alx.quote.no-sun-no-moon-no-sky": {
+   "result": "MATCH",
+   "file": "anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+   "lines": [
+    33725
+   ]
+  },
+  "alx.quote.clement-instructor": {
+   "result": "MATCH",
+   "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "lines": [
+    18785
+   ]
+  },
+  "alx.quote.the-grades-here-in-the-church": {
+   "result": "MATCH",
+   "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "lines": [
+    47889
+   ]
+  },
+  "pahc.quote.moses-is-more-ancient": {
+   "result": "MATCH",
+   "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": [
+    15608
+   ]
+  },
+  "pahc.quote.ignatius-marriage-bishop": {
+   "result": "MATCH",
+   "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": [
+    8734
+   ]
+  },
+  "pahc.quote.the-memoirs-of-the-apostles-are-read": {
+   "result": "MATCH",
+   "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": [
+    16502
+   ]
+  },
+  "pahc.quote.two-female-slaves-who-were-called-deaconesses": {
+   "result": "MATCH (by hand; verifier strips editorial notes)",
+   "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": [
+    19502,
+    19506
+   ],
+   "caveat": "Words are verbatim, but they sit inside the NPNF editor's endnote 891 (Pliny, Letters X.96, quoted in a footnote to Eusebius). The record names pahc.source.pliny-letters; no Pliny edition is vendored. Record text and source record disagree about what the file is."
+  },
+  "cappadocian.quote.reading-scripture-hexaemeron": {
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    21217
+   ]
+  },
+  "cappadocian.quote.basil-on-antiphonal-psalmody": {
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    37288
+   ]
+  },
+  "cappadocian.quote.macrina-refuses-remarriage": {
+   "result": "MATCH (editorial page marker dropped)",
+   "file": "gregory-nyssa_life-of-macrina_clarke1916.txt",
+   "lines": [
+    128
+   ],
+   "caveat": "The file has the editor's page marker \"|25\" and \"[964D]\" inside the sentence; the record omits them. No wording change."
+  },
+  "cappadocian.quote.basil-canon-on-digamy": {
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    35030
+   ]
+  },
+  "syr.quote.blc-one-name": {
+   "result": "MATCH",
+   "file": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+   "lines": [
+    68966
+   ]
+  },
+  "syr.quote.sozomen-melodies": {
+   "result": "MATCH",
+   "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": [
+    32088
+   ]
+  },
+  "syr.quote.aphrahat-anti-jewish-frame": {
+   "result": "MATCH",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    27100
+   ]
+  },
+  "syr.quote.a-man-called-wise-amongst-the-jews": {
+   "result": "MATCH (spacing-only)",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    27421
+   ]
+  },
+  "syr.quote.as-a-stonecutter-i-have-brought-stones": {
+   "result": "MATCH",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    27084
+   ]
+  },
+  "hal.quote.a-man-truly-catholic": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    2859
+   ]
+  },
+  "hal.quote.recourse-to-marcella": {
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    26177
+   ]
+  },
+  "hal.quote.dispute-to-learn": {
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    26166
+   ]
+  },
+  "witt.quote.congregation-of-saints": {
+   "result": "MATCH",
+   "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+   "lines": [
+    277
+   ]
+  },
+  "ijc.quote.hymns-and-psalms-should-be-sung": {
+   "result": "MATCH",
+   "file": "npnf101_augustine-confessions-letters.xml",
+   "lines": [
+    13767
+   ]
+  },
+  "ijc.quote.sozomen-thessalonica-law": {
+   "result": "MATCH",
+   "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": [
+    40613
+   ]
+  },
+  "ijc.quote.ambrose-emperor-in-church": {
+   "result": "MATCH",
+   "file": "npnf210_ambrose-select-works-letters.xml",
+   "lines": [
+    42660
+   ]
+  },
+  "ijc.quote.compelled-to-come-in": {
+   "result": "MATCH",
+   "file": "npnf104_augustine-anti-manichaean-anti-donatist.xml",
+   "lines": [
+    19616,
+    19624
+   ]
+  },
+  "ijc.quote.socrates-damasus-election": {
+   "result": "MATCH",
+   "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": [
+    14203
+   ]
+  },
+  "ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood": {
+   "result": "MATCH",
+   "file": "npnf210_ambrose-select-works-letters.xml",
+   "lines": [
+    45073
+   ]
+  },
+  "don.quote.donatus-quid-est-imperatori": {
+   "result": "PARTIAL",
+   "file": "optatus_against-the-donatists.txt",
+   "lines": [
+    1904
+   ],
+   "caveat": "English gloss matches line 1904 (\"What has the Emperor to do with the Church?\", capital letters differ). The Latin \"Quid est imperatori cum ecclesia?\" appears only in the apparatus index of optatus_libri-vii-critical_ziwsa1893.txt (line 23707, \"est imperatori cum ecclesia 73,\"); the running Latin text was not found by search. The record text joins Latin and English."
+  },
+  "desert.quote.sarah-man-among-you": {
+   "result": "MATCH",
+   "file": "anan-isho_paradise-v2-sayings_budge1907.txt",
+   "lines": [
+    2438
+   ]
+  },
+  "desert.quote.the-noonday-demon": {
+   "result": "MATCH",
+   "file": "evagrius_praktikos_dysinger.txt",
+   "lines": [
+    216
+   ]
+  },
+  "desert.quote.eight-principal-faults": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    30132
+   ]
+  },
+  "desert.quote.never-kneel-saturday-to-sunday": {
+   "result": "MATCH (spacing-only)",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    17735
+   ]
+  },
+  "gallic.quote.sulpitius-weariness-of-the-present-world": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    2148
+   ]
+  },
+  "gallic.quote.pope-stephen-no-innovation": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    12527
+   ]
+  },
+  "gallic.quote.ruricius-and-the-vote-for-tours": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    1059
+   ]
+  }
+ },
+ "conventions": {
+  "horizon": {
+   "file": "engine/m1/horizon.py",
+   "finding": "post_window_mentions flags (a) gazetteer events, 29 entries 303-1648, (b) fleet modern_term display terms with an origin_year, (c) explicit years after the window, (d) a century starting after the window. The fleet has one modern_term record (engine/m5/records/modern_term/_fleet.modern.trinity.md). Tested: \"evolution\", \"internet\", \"the Reformation\", gay marriage, AI, podcast, megachurch are not flagged; \"Great Schism\", \"Protestant\", \"Council of Trent\", \"twentieth century\" and \"in 1054\" are."
+  },
+  "check_horizon": {
+   "file": "engine/m4/output_check.py:397-415 (_horizon_findings, check_horizon); check_output line 452",
+   "finding": "Report-only on finished text, one finding per sentence; it never removes a sentence. Needs the world window_end (records/<code>/world_core time_window.end: alx 400, cappadocian 394, desert 430, don 439, gallic 450, hal 420, ijc 451, lpc 430, pahc 200, rzg 1650, syr 410, witt 1580)."
+  },
+  "routing": {
+   "file": "engine/m5/routing.py:177-190; engine/m5/live_calls.py:113",
+   "finding": "A reader out_of_scope class later_age on the first ask routes voice_with_directive (\"first ask - in-world answer\"); only a pressed second ask routes etic_turn. So on the first ask the world's own records must carry the whole honest answer. \"What do you think about AI?\" does not match _SYSTEM_NATURE_SHAPE (tested False), so it is not a Facilitator system_nature turn either."
+  },
+  "etic": {
+   "file": "engine/m4/facilitator_turns.py:139-148, 194-201",
+   "finding": "_ETIC_TEXT[\"later_age\"]: \"That question reaches past where this Christian tradition's own witnesses stop. Answering it honestly would mean inventing what happened later, not remembering it - and this voice only speaks from inside what it actually lived through. That's not a refusal so much as the honest edge of it: there's a real period this tradition simply never reached.\" Fixed text, code-owned."
+  },
+  "bridge": {
+   "file": "engine/m4/facilitator_turns.py:433-466; engine/m5/records/modern_term/",
+   "finding": "bridge_turn fires only when the reader's modern_terms intersect anachronistic_term_ids, i.e. a fleet modern_term record exists. It speaks the term's modern_sense and hands the voice the term-free underlying_subject. Only \"Trinity\" exists, so no C15 wording can reach a bridge turn today."
+  },
+  "voice_craft": {
+   "file": "records/gallic/voice_craft/gallic.voice.craft.md:25; records/witt/voice_craft/witt.voice.craft.md:25",
+   "finding": "\"later-names\" segment: a name from after the world's span gets one sentence naming that it is not in the record, then the turn goes to what the question reached for. Present in gallic and witt only."
+  },
+  "honest_limit_phrasing": [
+   {
+    "file": "records/ijc/honest_limit/ijc.limit.later-questions.md",
+    "quote": "That framing comes from a later age's battles. ... So we have no fight to report on those lines. Ask us instead about original sin, or about what the bread and cup are. ... we will not invent an answer they did not give.",
+    "fields": "statement, why_sources_cannot_answer, nearest_material, use_note.not_for"
+   },
+   {
+    "file": "records/don/honest_limit/don.limit.questions-we-never-argued.md",
+    "quote": "You have asked us three questions we never argued. That may sound like dodging. ... The nearest we can bring you is small. ... Anything more would be us making it up in a voice that sounds like ours."
+   },
+   {
+    "file": "records/pahc/doctrinal_witness/pahc.witness.scripture-and-testimony.md",
+    "quote": "As for Genesis and science - that fight had not been invented yet. We cannot answer it the way you're asking it."
+   },
+   {
+    "file": "records/syr/doctrinal_witness/syr.dw.reading.md",
+    "quote": "We did not read Genesis the way moderns argue about it - as science. That was not because we doubted the text, but because we read for something else."
+   },
+   {
+    "file": "records/witt/doctrinal_witness/witt.dw.one-holy-church-forever.md",
+    "quote": "We were not \"Catholic\" in the sense you likely mean the word -- the institution seated at Rome."
+   },
+   {
+    "file": "records/syr/doctrinal_witness/syr.dw.death-judgment.md",
+    "quote": "We drew far less of the modern map of who exactly burns than people assume."
+   },
+   {
+    "file": "records/hal/doctrinal_witness/hal.dw.was-jesus-god.md",
+    "quote": "Personal Lord and Savior was not our phrase."
+   },
+   {
+    "file": "records/alx/demonstration/alx.demo.woman-authority.md; records/syr/demonstration/syr.demo.woman-authority.md; records/hal/demonstration/hal.demo.woman-authority.md",
+    "quote": "In the offices our record shows - teacher, presbyter, bishop - we cannot show you a woman, and we will not invent one. That is the honest first answer."
+   },
+   {
+    "file": "records/fix/honest_limit/fix.limit.trinity-language.md",
+    "quote": "You ask about a word our sources never use, and we will not put it in their mouths.",
+    "note": "fixture; paired with the Trinity modern_term for the bridge route"
+   }
+  ],
+  "grep_counts": {
+   "your tongue": "0 honest_limit, 1 record (alx.demo.marriage-ending, \"in your tongue\" about an untranslated book)",
+   "no occasion": "0 honest_limit; 2 stories (desert.story.sarah-answer, don.story.macrobius-letter), neither about modern questions",
+   "later question": "0 records anywhere",
+   "later age": "1 honest_limit (ijc.limit.later-questions), 10 records in all",
+   "never": "many honest_limit hits, all about absent sources, none about a modern question",
+   "had not been invented": "1 (pahc.witness.scripture-and-testimony)"
+  },
+  "schema": "honest_limit fields: statement (spoken, plain modern English), why_sources_cannot_answer, nearest_material (record ids), use_note {means, not_for[], years, status}, confidence.formation_confidence, canon_cells. Spoken statements are first-person plural, 4-8 sentences, end by naming what the world can give instead."
+ },
+ "proposals": {
+  "status": "PROPOSAL for Mark. Templates with slots; not Representative answers. Each world's statement must be written from its own records and checked against the readability and fabrication rules before it becomes a record.",
+  "common_frame": "1 name the frame as not ours, in the world's own word (not \"historians say\"); 2 say what we did hold, nearest first, with its formation_confidence; 3 say what our sources cannot give; 4 not_for: a verdict on any person or on today.",
+  "S1": "{World} never put {modern term} to itself. What it held about {marriage | the body | chastity}: {nearest record}, {confidence}. Our sources say nothing about {the modern case}. Not for: a verdict on any couple or person today; do not quote {penance canon | Rom 1 passage} as the answer.",
+  "S2": "{Fight} had not been invented in {window}. We read {creation text} for {purpose from record}: {nearest}, {confidence}. We cannot answer it the way you ask it. Not for: a side in {evolution | dating the earth}.",
+  "S3": "Silence plus one sentence: {a thing that speaks and has no body} is not in our record, and we will not liken it to {idol | oracle}. Nearest: none named. System-nature questions stay with the Facilitator.",
+  "S4": "{Catholic | church} meant {sense}, not {later denomination}. Which church to join now is not ours to answer; in our day the rivals were {named rivals}. What we looked for: {mark of the church, quote}, {confidence}. Not for: any present-day church as our heir.",
+  "S5": "We never stood where you stand: our {bishops chosen by acclamation | emperor | magistrate}. What we said: {nearest}. Where our own side used force: {admission}. Not for: a view on a party, a vote or a modern state.",
+  "S6": "In named office we cannot show you a woman, and we will not invent one. Authority also ran through {household | school | covenant}: {named woman, source, confidence}. Her own words: {survive | do not survive}. Not for: an argument for or against ordination today.",
+  "S7": "Four slots, not one. {Tired pastor}: we called it {term}; {nearest}; not a diagnosis. {Old church}: limit only. {Abortion}: we spoke of it as {penance rule | Two Ways line}, never as law; no view on yours. {Bible on a phone}: most of us could not read; scripture came by {ear}; {nearest}.",
+  "S8": "{Hoped for / feared}: we feared {our own named failure}, {record}; we cannot see you. {Sunday}: in our day we gathered {when, where, what was read}; where to find us now is not ours to say. {Jews}: our argument was {frame}, one side only; no verdict on Jewish people today. {Still believe}: we did not weigh it against {modern knowledge}; what we said of doubt: {record}."
+ },
+ "findings": [
+  "No record in any of the twelve worlds says in so many words \"we never met that question\" for a C15 wording. The fences that exist are by-products of canon cells: F2-T (Genesis and science) gives four explicit non-answers (pahc, syr, witt, plus alx by not_for) and F3-T (which church) gives nine worlds a \"not a later denomination, not a present-day church\" fence. Same-sex marriage, AI, ageing churches and \"the world now\" have no fence in any world.",
+  "The engine cannot see these questions. check_horizon only knows 29 events to 1648, explicit years, centuries, and one fleet modern_term (Trinity). Tested: evolution, internet, AI, podcast, gay marriage and the bare word \"Reformation\" pass clean. A first-ask later_age question goes to the voice with a directive and no Facilitator text, so the honest_limit carries the whole answer; the etic turn fires only on a second ask. \"What do you think about AI?\" does not match the system_nature shape either.",
+  "For S1, S3 and S7 (abortion) the nearest vendored material is condemnatory or penal (Basil Canons II and VII, Salvian on Africa, Rom 1:26-27 as cited by Augustine and Athanasius, idol and oracle polemic). Offered as \"nearest\" it would answer the modern question by implication. Whether to name it at all is Mark's decision. lpc has 330 draft records and no use_note, so it has no guard anywhere."
+ ],
+ "worlds": {
+  "alx": {
+   "S1": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "NEAREST-LOADED",
+    "wordings": {
+     "C15-01": "NEAREST-LOADED"
+    },
+    "records": [
+     "alx.limit.marriage",
+     "alx.demo.marriage-ending",
+     "alx.quote.clement-instructor"
+    ],
+    "guards": [],
+    "loaded": [
+     "npnf204_athanasius-select-works-letters.xml:14022 (Contra Gentes, Rom 1:26-27)"
+    ],
+    "limit_built": false,
+    "note": "Marriage records exist; none fences a same-sex or modern-marriage question."
+   },
+   "S2": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-02": "NEAREST-RENDERED",
+     "C15-09": "LIMIT-ONLY"
+    },
+    "records": [
+     "alx.quote.no-sun-no-moon-no-sky",
+     "alx.term.allegoria"
+    ],
+    "guards": [
+     "alx.quote.no-sun-no-moon-no-sky (not_for: an objection from modern science)"
+    ],
+    "loaded": [
+     "anf04_tertullian4-minucius-felix-commodian-origen1-2.xml:33725"
+    ],
+    "limit_built": false,
+    "note": "Origen on days without a sun; C15-09 climate: nothing."
+   },
+   "S3": {
+    "layer_best": "LIMIT-ONLY",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-03": "LIMIT-ONLY"
+    },
+    "records": [],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": "No idol/oracle line chased; right answer is a limit."
+   },
+   "S4": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-04": "NEAREST-RENDERED",
+     "C15-05": "NEAREST-RENDERED",
+     "C15-06": "LIMIT-ONLY",
+     "C15-10": "LIMIT-ONLY"
+    },
+    "records": [
+     "alx.dw.one-church",
+     "alx.quote.the-grades-here-in-the-church",
+     "alx.term.ekklesia"
+    ],
+    "guards": [
+     "alx.dw.one-church (not_for: any present-day church is this world's heir; catholic as a later denomination)",
+     "alx.quote.the-grades-here-in-the-church (not_for: matches a modern denomination)"
+    ],
+    "loaded": [
+     "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:47889"
+    ],
+    "limit_built": false,
+    "note": "Worship bands and the Reformation: nothing."
+   },
+   "S5": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "NEAREST-LOADED",
+    "wordings": {
+     "C15-07": "NEAREST-LOADED",
+     "C15-15": "NEAREST-LOADED"
+    },
+    "records": [
+     "alx.dw.empire",
+     "alx.dw.church-failure",
+     "alx.quote.no-festal-letter-was-written"
+    ],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": "Guards fence a \"pure church corrupted\" story, not a present-day politics frame: partial, so NEAREST-LOADED."
+   },
+   "S6": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "NEAREST-RENDERED",
+    "wordings": {
+     "C15-08": "NEAREST-RENDERED"
+    },
+    "records": [
+     "alx.demo.woman-authority",
+     "alx.limit.f5-women-own-words"
+    ],
+    "guards": [
+     "alx.demo.woman-authority (in voice: no woman in office, will not invent one)",
+     "alx.limit.f5-women-own-words"
+    ],
+    "loaded": [],
+    "limit_built": true,
+    "note": "Potamiaena, consecrated widows and virgins as the nearest."
+   },
+   "S7": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-11": "LIMIT-ONLY",
+     "C15-12": "LIMIT-ONLY",
+     "C15-13": "LIMIT-ONLY",
+     "C15-14": "NEAREST-LOADED"
+    },
+    "records": [
+     "alx.term.scripture-as-address"
+    ],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": "Abortion, ageing church, burnout: no hit. Bible on a phone: scripture met as address."
+   },
+   "S8": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-16": "NEAREST-LOADED",
+     "C15-17": "LIMIT-ONLY",
+     "C15-18": "LIMIT-ONLY",
+     "C15-19": "LIMIT-ONLY",
+     "C15-20": "NEAREST-RENDERED"
+    },
+    "records": [
+     "alx.dw.doubt",
+     "alx.dw.record",
+     "alx.dw.resurrection",
+     "alx.dw.church-failure"
+    ],
+    "guards": [
+     "alx.dw.doubt (not_for: the modern idea of a private crisis of faith)",
+     "alx.dw.record (not_for: modern historians' standards)",
+     "alx.dw.resurrection (not_for: modern historical proof)"
+    ],
+    "loaded": [],
+    "limit_built": false,
+    "note": "C15-20 well fenced; Jews and Sunday: nothing found."
+   }
+  },
+  "cappadocian": {
+   "S1": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "NEAREST-LOADED",
+    "wordings": {
+     "C15-01": "NEAREST-LOADED"
+    },
+    "records": [
+     "cappadocian.dw.marriage-ending",
+     "cappadocian.quote.basil-canon-on-digamy"
+    ],
+    "guards": [],
+    "loaded": [
+     "npnf214_seven-ecumenical-councils.xml:43481 (Basil, First Canonical Epistle, Canon VII, sodomy)"
+    ],
+    "limit_built": false,
+    "note": "Nearest loaded text is a penance rule; quoting it unframed would answer the modern question by implication."
+   },
+   "S2": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "NEAREST-LOADED",
+    "wordings": {
+     "C15-02": "NEAREST-LOADED",
+     "C15-09": "NEAREST-LOADED"
+    },
+    "records": [
+     "cappadocian.quote.reading-scripture-hexaemeron",
+     "cappadocian.dw.reading-scripture"
+    ],
+    "guards": [],
+    "loaded": [
+     "npnf208_basil-letters-select-works.xml:21217 (Hexaemeron VIII)"
+    ],
+    "limit_built": false,
+    "note": "Record exists, no science or climate guard in its not_for."
+   },
+   "S3": {
+    "layer_best": "LIMIT-ONLY",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-03": "LIMIT-ONLY"
+    },
+    "records": [],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S4": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-04": "NEAREST-RENDERED",
+     "C15-05": "NEAREST-RENDERED",
+     "C15-06": "NEAREST-RENDERED",
+     "C15-10": "LIMIT-ONLY"
+    },
+    "records": [
+     "cappadocian.dw.catholic-and-its-rivals",
+     "cappadocian.term.psalmodia",
+     "cappadocian.quote.basil-on-antiphonal-psalmody"
+    ],
+    "guards": [
+     "cappadocian.dw.catholic-and-its-rivals (not_for: any modern church is simply this world's church)",
+     "cappadocian.term.psalmodia (not_for: a modern preference about worship style)"
+    ],
+    "loaded": [
+     "npnf208_basil-letters-select-works.xml:37288"
+    ],
+    "limit_built": false,
+    "note": "Reformation and East-West split: nothing."
+   },
+   "S5": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "NEAREST-LOADED",
+    "wordings": {
+     "C15-07": "NEAREST-LOADED",
+     "C15-15": "NEAREST-LOADED"
+    },
+    "records": [
+     "cappadocian.dw.power-and-its-discipline",
+     "cappadocian.dw.confession-not-a-vote",
+     "cappadocian.story.valens-caesarea"
+    ],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": "Admits the 381 law used state power; not_for fences leaders' later acts, not a modern frame."
+   },
+   "S6": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "NEAREST-RENDERED",
+    "wordings": {
+     "C15-08": "NEAREST-RENDERED"
+    },
+    "records": [
+     "cappadocian.dw.macrina-and-its-cost",
+     "cappadocian.demo.woman-authority",
+     "cappadocian.quote.macrina-refuses-remarriage"
+    ],
+    "guards": [
+     "cappadocian.dw.macrina-and-its-cost (not_for: women held sees or pulpits)"
+    ],
+    "loaded": [
+     "gregory-nyssa_life-of-macrina_clarke1916.txt:128"
+    ],
+    "limit_built": false,
+    "note": ""
+   },
+   "S7": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-11": "NEAREST-LOADED",
+     "C15-12": "LIMIT-ONLY",
+     "C15-13": "NEAREST-RENDERED",
+     "C15-14": "NEAREST-RENDERED"
+    },
+    "records": [
+     "cappadocian.story.gregory-constantinople",
+     "cappadocian.dw.reading-scripture"
+    ],
+    "guards": [
+     "cappadocian.story.gregory-constantinople (not_for: his reasons for resigning as settled)",
+     "cappadocian.dw.reading-scripture (not_for: widespread literacy)"
+    ],
+    "loaded": [
+     "npnf214_seven-ecumenical-councils.xml:43454 (Basil, Canon II, abortion: ten years' penance)"
+    ],
+    "limit_built": false,
+    "note": "Nazianzen resigned his see; abortion only as a penance canon."
+   },
+   "S8": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-16": "NEAREST-LOADED",
+     "C15-17": "LIMIT-ONLY",
+     "C15-18": "NEAREST-LOADED",
+     "C15-19": "LIMIT-ONLY",
+     "C15-20": "LIMIT-ONLY"
+    },
+    "records": [
+     "cappadocian.quote.we-look-to-the-east",
+     "cappadocian.dw.power-and-its-discipline"
+    ],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   }
+  },
+  "desert": {
+   "S1": {
+    "layer_best": "LIMIT-ONLY",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-01": "LIMIT-ONLY"
+    },
+    "records": [
+     "desert.dw.marriage-ending"
+    ],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": "No on-point passage found in the mapped own-voice works."
+   },
+   "S2": {
+    "layer_best": "LIMIT-ONLY",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-02": "LIMIT-ONLY",
+     "C15-09": "LIMIT-ONLY"
+    },
+    "records": [
+     "desert.limit.f2-scripture-detail"
+    ],
+    "guards": [
+     "desert.limit.f2-scripture-detail (honest_limit: how we read Genesis)"
+    ],
+    "loaded": [],
+    "limit_built": true,
+    "note": "Limit built; nothing to name."
+   },
+   "S3": {
+    "layer_best": "LIMIT-ONLY",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-03": "LIMIT-ONLY"
+    },
+    "records": [
+     "desert.quote.when-the-cross-of-christ-arose"
+    ],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": "Antony on silenced oracles exists; not a fit."
+   },
+   "S4": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-04": "NEAREST-LOADED",
+     "C15-05": "LIMIT-ONLY",
+     "C15-06": "NEAREST-LOADED",
+     "C15-10": "LIMIT-ONLY"
+    },
+    "records": [
+     "desert.quote.never-held-communion-with-the-schismatics",
+     "desert.quote.antony-arians-serpents",
+     "desert.quote.twelve-psalms-by-an-angel"
+    ],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": "No church-identity guard."
+   },
+   "S5": {
+    "layer_best": "LIMIT-ONLY",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-07": "LIMIT-ONLY",
+     "C15-15": "LIMIT-ONLY"
+    },
+    "records": [
+     "desert.dw.melitian-power"
+    ],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S6": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "NEAREST-RENDERED",
+    "wordings": {
+     "C15-08": "NEAREST-RENDERED"
+    },
+    "records": [
+     "desert.demo.identity-collision-womens-authority",
+     "desert.quote.sarah-man-among-you"
+    ],
+    "guards": [
+     "desert.quote.sarah-man-among-you (not_for: modern gender-identity claims)"
+    ],
+    "loaded": [
+     "anan-isho_paradise-v2-sayings_budge1907.txt:2438"
+    ],
+    "limit_built": false,
+    "note": ""
+   },
+   "S7": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-11": "NEAREST-LOADED",
+     "C15-12": "LIMIT-ONLY",
+     "C15-13": "NEAREST-RENDERED",
+     "C15-14": "LIMIT-ONLY"
+    },
+    "records": [
+     "desert.quote.the-noonday-demon",
+     "desert.quote.eight-principal-faults"
+    ],
+    "guards": [
+     "desert.quote.the-noonday-demon (not_for: a diagnosis of depression or burnout)"
+    ],
+    "loaded": [
+     "npnf206_jerome-principal-works.xml:5790 (Letter XXII, abortion remark)",
+     "evagrius_praktikos_dysinger.txt:216"
+    ],
+    "limit_built": false,
+    "note": ""
+   },
+   "S8": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-16": "NEAREST-RENDERED",
+     "C15-17": "LIMIT-ONLY",
+     "C15-18": "NEAREST-LOADED",
+     "C15-19": "LIMIT-ONLY",
+     "C15-20": "LIMIT-ONLY"
+    },
+    "records": [
+     "desert.limit.communal-wrong-unrepaired",
+     "desert.limit.doubt-and-doctrine",
+     "desert.quote.never-kneel-saturday-to-sunday"
+    ],
+    "guards": [
+     "desert.limit.communal-wrong-unrepaired",
+     "desert.limit.doubt-and-doctrine"
+    ],
+    "loaded": [
+     "npnf211_sulpitius-severus-vincent-lerins-cassian.xml:17735"
+    ],
+    "limit_built": true,
+    "note": ""
+   }
+  },
+  "don": {
+   "S1": {
+    "layer_best": "LIMIT-ONLY",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-01": "LIMIT-ONLY"
+    },
+    "records": [],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": "Sacramental-validity world; no marriage record; nothing on point found."
+   },
+   "S2": {
+    "layer_best": "LIMIT-ONLY",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-02": "LIMIT-ONLY",
+     "C15-09": "LIMIT-ONLY"
+    },
+    "records": [
+     "don.dw.scripture-and-the-african-fathers"
+    ],
+    "guards": [
+     "don.dw.scripture-and-the-african-fathers (not_for: how the Donatists read Genesis or the making of the world)"
+    ],
+    "loaded": [],
+    "limit_built": true,
+    "note": "Limit built inside a not_for."
+   },
+   "S3": {
+    "layer_best": "LIMIT-ONLY",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-03": "LIMIT-ONLY"
+    },
+    "records": [],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S4": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-04": "NEAREST-RENDERED",
+     "C15-05": "NEAREST-RENDERED",
+     "C15-06": "LIMIT-ONLY",
+     "C15-10": "LIMIT-ONLY"
+    },
+    "records": [
+     "don.dw.the-word-catholic-and-no-door-today",
+     "don.term.catholicus",
+     "don.term.ecclesia"
+    ],
+    "guards": [
+     "don.dw.the-word-catholic-and-no-door-today (not_for: any present-day church descends from the Donatists)",
+     "don.term.ecclesia (not_for: denominations that could agree to differ)"
+    ],
+    "loaded": [],
+    "limit_built": true,
+    "note": "Room and worship: honest_limit don.limit.the-room-we-cannot-show-you."
+   },
+   "S5": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "NEAREST-RENDERED",
+    "wordings": {
+     "C15-07": "NEAREST-RENDERED",
+     "C15-15": "NEAREST-RENDERED"
+    },
+    "records": [
+     "don.term.refusal-of-imperial-legitimacy",
+     "don.quote.donatus-quid-est-imperatori",
+     "don.dw.the-emperor-and-the-church",
+     "don.limit.bagai-violence-no-account",
+     "don.dw.what-we-did-with-the-power-we-had"
+    ],
+    "guards": [
+     "don.term.refusal-of-imperial-legitimacy (not_for: a modern principle of church-state separation)",
+     "don.limit.bagai-violence-no-account"
+    ],
+    "loaded": [],
+    "limit_built": true,
+    "note": "Quote record caveat in verification."
+   },
+   "S6": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "NEAREST-RENDERED",
+    "wordings": {
+     "C15-08": "NEAREST-RENDERED"
+    },
+    "records": [
+     "don.demo.woman-authority",
+     "don.limit.womens-own-voice"
+    ],
+    "guards": [
+     "don.limit.womens-own-voice"
+    ],
+    "loaded": [],
+    "limit_built": true,
+    "note": "Lucilla only, through hostile pens."
+   },
+   "S7": {
+    "layer_best": "LIMIT-ONLY",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-11": "LIMIT-ONLY",
+     "C15-12": "LIMIT-ONLY",
+     "C15-13": "LIMIT-ONLY",
+     "C15-14": "LIMIT-ONLY"
+    },
+    "records": [],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S8": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-16": "NEAREST-LOADED",
+     "C15-17": "LIMIT-ONLY",
+     "C15-18": "NEAREST-LOADED",
+     "C15-19": "LIMIT-ONLY",
+     "C15-20": "LIMIT-ONLY"
+    },
+    "records": [
+     "don.dw.hypocrites-and-those-who-left",
+     "don.limit.doubt-and-reception",
+     "don.dw.two-churches-in-one-town"
+    ],
+    "guards": [
+     "don.limit.doubt-and-reception"
+    ],
+    "loaded": [],
+    "limit_built": true,
+    "note": ""
+   }
+  },
+  "gallic": {
+   "S1": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "NEAREST-LOADED",
+    "wordings": {
+     "C15-01": "NEAREST-LOADED"
+    },
+    "records": [
+     "gallic.term.virgin-virginity"
+    ],
+    "guards": [],
+    "loaded": [
+     "salvian_on-the-government-of-god_sanford1930.txt:9524-9529 and 9616"
+    ],
+    "limit_built": false,
+    "note": "No marriage record. Salvian quotes Rom 1:26-27 of Africa; unframed."
+   },
+   "S2": {
+    "layer_best": "LIMIT-ONLY",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-02": "LIMIT-ONLY",
+     "C15-09": "LIMIT-ONLY"
+    },
+    "records": [],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S3": {
+    "layer_best": "LIMIT-ONLY",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-03": "LIMIT-ONLY"
+    },
+    "records": [],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S4": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-04": "NEAREST-RENDERED",
+     "C15-05": "NEAREST-RENDERED",
+     "C15-06": "NEAREST-LOADED",
+     "C15-10": "LIMIT-ONLY"
+    },
+    "records": [
+     "gallic.term.catholic",
+     "gallic.term.apostolic-see-pope",
+     "gallic.quote.pope-stephen-no-innovation",
+     "gallic.quote.martin-funeral-crowd-and-monks",
+     "gallic.term.church-or-circus"
+    ],
+    "guards": [
+     "gallic.term.catholic (not_for: Roman Catholic as a denomination)",
+     "gallic.term.apostolic-see-pope (not_for: Pope as the bishop of Rome only, later office read back)"
+    ],
+    "loaded": [
+     "npnf211_sulpitius-severus-vincent-lerins-cassian.xml:12527"
+    ],
+    "limit_built": false,
+    "note": ""
+   },
+   "S5": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "NEAREST-LOADED",
+    "wordings": {
+     "C15-07": "NEAREST-RENDERED",
+     "C15-15": "NEAREST-LOADED"
+    },
+    "records": [
+     "gallic.term.government-of-god",
+     "gallic.term.the-world-secular",
+     "gallic.quote.ruricius-and-the-vote-for-tours",
+     "gallic.quote.sulpitius-on-the-secular-judge-in-an-ecclesiastical-cause",
+     "gallic.quote.gallus-on-the-tribunes-for-the-spains"
+    ],
+    "guards": [
+     "gallic.term.government-of-god (not_for: politics or church-state theory)",
+     "gallic.term.the-world-secular (not_for: secular in the modern sense)"
+    ],
+    "loaded": [
+     "npnf211_sulpitius-severus-vincent-lerins-cassian.xml:1059"
+    ],
+    "limit_built": false,
+    "note": "Priscillian's execution is the nearest to \"religion and killing\"; no guard on the modern frame."
+   },
+   "S6": {
+    "layer_best": "LIMIT-ONLY",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-08": "LIMIT-ONLY"
+    },
+    "records": [
+     "gallic.demo.women-own-words"
+    ],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": "Houses of women recorded; no authority material."
+   },
+   "S7": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-11": "LIMIT-ONLY",
+     "C15-12": "LIMIT-ONLY",
+     "C15-13": "NEAREST-RENDERED",
+     "C15-14": "LIMIT-ONLY"
+    },
+    "records": [
+     "gallic.term.accidie",
+     "gallic.term.lukewarmness",
+     "gallic.quote.sulpitius-weariness-of-the-present-world"
+    ],
+    "guards": [
+     "gallic.term.accidie (not_for: depression and burnout as clinical conditions)",
+     "gallic.term.lukewarmness (not_for: burnout as an understandable phase)"
+    ],
+    "loaded": [
+     "npnf211_sulpitius-severus-vincent-lerins-cassian.xml:2148"
+    ],
+    "limit_built": false,
+    "note": "The best burnout fence in the fleet."
+   },
+   "S8": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-16": "NEAREST-RENDERED",
+     "C15-17": "LIMIT-ONLY",
+     "C15-18": "NEAREST-LOADED",
+     "C15-19": "LIMIT-ONLY",
+     "C15-20": "LIMIT-ONLY"
+    },
+    "records": [
+     "gallic.term.lukewarmness",
+     "gallic.limit.no-one-who-saw-him",
+     "gallic.quote.sulpitius-weariness-of-the-present-world"
+    ],
+    "guards": [
+     "gallic.term.lukewarmness",
+     "gallic.limit.no-one-who-saw-him"
+    ],
+    "loaded": [],
+    "limit_built": true,
+    "note": "World now: weariness of the present world is the nearest; one man's mood."
+   }
+  },
+  "hal": {
+   "S1": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "NEAREST-LOADED",
+    "wordings": {
+     "C15-01": "NEAREST-LOADED"
+    },
+    "records": [
+     "hal.dw.marriage-ending",
+     "hal.term.virginitas"
+    ],
+    "guards": [],
+    "loaded": [
+     "npnf206_jerome-principal-works.xml (Against Jovinianus; no same-sex passage verified)"
+    ],
+    "limit_built": false,
+    "note": ""
+   },
+   "S2": {
+    "layer_best": "LIMIT-ONLY",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-02": "LIMIT-ONLY",
+     "C15-09": "LIMIT-ONLY"
+    },
+    "records": [],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S3": {
+    "layer_best": "LIMIT-ONLY",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-03": "LIMIT-ONLY"
+    },
+    "records": [],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S4": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-04": "NEAREST-RENDERED",
+     "C15-05": "NEAREST-RENDERED",
+     "C15-06": "LIMIT-ONLY",
+     "C15-10": "LIMIT-ONLY"
+    },
+    "records": [
+     "hal.dw.one-church",
+     "hal.quote.a-man-truly-catholic"
+    ],
+    "guards": [
+     "hal.dw.one-church (not_for: catholic named a denomination as it does today; any present-day church is sole heir)",
+     "hal.quote.a-man-truly-catholic"
+    ],
+    "loaded": [
+     "npnf211_sulpitius-severus-vincent-lerins-cassian.xml:2859"
+    ],
+    "limit_built": false,
+    "note": ""
+   },
+   "S5": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "NEAREST-LOADED",
+    "wordings": {
+     "C15-07": "NEAREST-LOADED",
+     "C15-15": "NEAREST-LOADED"
+    },
+    "records": [
+     "hal.dw.empire",
+     "hal.story.attack-416",
+     "hal.limit.martyrdom"
+    ],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S6": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "NEAREST-RENDERED",
+    "wordings": {
+     "C15-08": "NEAREST-RENDERED"
+    },
+    "records": [
+     "hal.story.marcella-standing",
+     "hal.demo.woman-authority",
+     "hal.quote.recourse-to-marcella",
+     "hal.contested.marcella-agency",
+     "hal.limit.f5-women-own-words"
+    ],
+    "guards": [
+     "hal.story.marcella-standing (not_for: an ordained or institutional role)",
+     "hal.quote.recourse-to-marcella (not_for: a formal teaching office)",
+     "hal.contested.marcella-agency"
+    ],
+    "loaded": [
+     "npnf206_jerome-principal-works.xml:26177"
+    ],
+    "limit_built": true,
+    "note": ""
+   },
+   "S7": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-11": "NEAREST-LOADED",
+     "C15-12": "LIMIT-ONLY",
+     "C15-13": "LIMIT-ONLY",
+     "C15-14": "NEAREST-LOADED"
+    },
+    "records": [
+     "hal.term.bibliotheca"
+    ],
+    "guards": [],
+    "loaded": [
+     "npnf206_jerome-principal-works.xml:5790 (Letter XXII, abortion remark)"
+    ],
+    "limit_built": false,
+    "note": ""
+   },
+   "S8": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-16": "NEAREST-RENDERED",
+     "C15-17": "NEAREST-LOADED",
+     "C15-18": "LIMIT-ONLY",
+     "C15-19": "LIMIT-ONLY",
+     "C15-20": "LIMIT-ONLY"
+    },
+    "records": [
+     "hal.dw.church-failure",
+     "hal.term.hebraica-veritas",
+     "hal.quote.paula-hebrew-psalms"
+    ],
+    "guards": [
+     "hal.dw.church-failure (not_for: a direct ancient parallel to modern cases of institutions protecting abusers)"
+    ],
+    "loaded": [],
+    "limit_built": false,
+    "note": "Jews: Jerome's Hebrew teachers only."
+   }
+  },
+  "ijc": {
+   "S1": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "NEAREST-LOADED",
+    "wordings": {
+     "C15-01": "NEAREST-LOADED"
+    },
+    "records": [
+     "ijc.dw.marriage-ranked",
+     "ijc.limit.marriage-money",
+     "ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood"
+    ],
+    "guards": [],
+    "loaded": [
+     "npnf102_augustine-city-of-god-christian-doctrine.xml:27010 (Rom 1:26 cited)"
+    ],
+    "limit_built": false,
+    "note": "Marriage ranked below continence; no same-sex guard."
+   },
+   "S2": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-02": "NEAREST-LOADED",
+     "C15-09": "LIMIT-ONLY"
+    },
+    "records": [],
+    "guards": [],
+    "loaded": [
+     "npnf102_augustine-city-of-god-christian-doctrine.xml:20391 (City of God XI.7, first days before a sun)"
+    ],
+    "limit_built": false,
+    "note": "No record; the Augustine chapter is vendored and mapped."
+   },
+   "S3": {
+    "layer_best": "LIMIT-ONLY",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-03": "LIMIT-ONLY"
+    },
+    "records": [],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S4": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "NEAREST-LOADED",
+    "wordings": {
+     "C15-04": "NEAREST-RENDERED",
+     "C15-05": "NEAREST-RENDERED",
+     "C15-06": "NEAREST-LOADED",
+     "C15-10": "NEAREST-RENDERED"
+    },
+    "records": [
+     "ijc.term.primatus",
+     "ijc.contested.primacy-reception",
+     "ijc.quote.sozomen-thessalonica-law",
+     "ijc.force.chalcedon-failed-consensus",
+     "ijc.quote.hymns-and-psalms-should-be-sung",
+     "ijc.story.vigil-in-basilica"
+    ],
+    "guards": [
+     "ijc.term.primatus (not_for: the developed medieval or modern papacy)",
+     "ijc.contested.primacy-reception (not_for: the window's Roman claim is already the later papacy)",
+     "ijc.quote.sozomen-thessalonica-law (not_for: later denominational sense)",
+     "ijc.limit.later-questions (Reformation-era framing, faith vs works)"
+    ],
+    "loaded": [
+     "npnf101_augustine-confessions-letters.xml:13767"
+    ],
+    "limit_built": false,
+    "note": "Closest world to an East-West split: Canon 28 and Rome's primacy."
+   },
+   "S5": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "NEAREST-RENDERED",
+    "wordings": {
+     "C15-07": "NEAREST-RENDERED",
+     "C15-15": "NEAREST-RENDERED"
+    },
+    "records": [
+     "ijc.term.imperator-intra-ecclesiam",
+     "ijc.story.altar-of-victory",
+     "ijc.quote.ambrose-emperor-in-church",
+     "ijc.quote.socrates-damasus-election",
+     "ijc.quote.compelled-to-come-in",
+     "ijc.story.emperor-builds-another-basilica"
+    ],
+    "guards": [
+     "ijc.term.imperator-intra-ecclesiam (not_for: the modern separation of church and state)",
+     "ijc.story.altar-of-victory (not_for: a free-speech or minority-rights dispute)",
+     "ijc.story.emperor-builds-another-basilica (not_for: the empire was gentle)"
+    ],
+    "loaded": [
+     "npnf111_chrysostom-homilies-acts-romans.xml (Hom. XXIII, Rom 13:1)"
+    ],
+    "limit_built": false,
+    "note": "Best-fenced world for politics."
+   },
+   "S6": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "NEAREST-LOADED",
+    "wordings": {
+     "C15-08": "NEAREST-LOADED"
+    },
+    "records": [
+     "ijc.dw.women-authority-cost",
+     "ijc.demo.woman-authority"
+    ],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": "Justina and Pulcheria; no office question."
+   },
+   "S7": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-11": "LIMIT-ONLY",
+     "C15-12": "LIMIT-ONLY",
+     "C15-13": "NEAREST-LOADED",
+     "C15-14": "NEAREST-RENDERED"
+    },
+    "records": [
+     "ijc.limit.reading-alone"
+    ],
+    "guards": [
+     "ijc.limit.reading-alone (honest_limit: an ordinary believer's private confusion in reading)"
+    ],
+    "loaded": [
+     "npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml (Letters to Olympias; On the Priesthood in volume)"
+    ],
+    "limit_built": true,
+    "note": ""
+   },
+   "S8": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-16": "NEAREST-LOADED",
+     "C15-17": "NEAREST-LOADED",
+     "C15-18": "NEAREST-LOADED",
+     "C15-19": "LIMIT-ONLY",
+     "C15-20": "LIMIT-ONLY"
+    },
+    "records": [
+     "ijc.story.callinicum-synagogue",
+     "ijc.story.vigil-in-basilica",
+     "ijc.demo.hypocrisy",
+     "ijc.limit.jesus-to-you"
+    ],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": "Callinicum has no guard on the modern frame."
+   }
+  },
+  "lpc": {
+   "S1": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "NEAREST-LOADED",
+    "wordings": {
+     "C15-01": "NEAREST-LOADED"
+    },
+    "records": [
+     "lpc.witness.marriage-a-threefold-good",
+     "lpc.witness.grant-me-chastity-but-not-yet"
+    ],
+    "guards": [],
+    "loaded": [
+     "npnf105_augustine-anti-pelagian-writings.xml (On Marriage and Concupiscence)"
+    ],
+    "limit_built": false,
+    "note": "All 330 lpc records are status draft with no use_note: no guards exist anywhere in this world."
+   },
+   "S2": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-02": "NEAREST-LOADED",
+     "C15-09": "LIMIT-ONLY"
+    },
+    "records": [
+     "lpc.witness.days-before-the-sun"
+    ],
+    "guards": [],
+    "loaded": [
+     "npnf102_augustine-city-of-god-christian-doctrine.xml:20391"
+    ],
+    "limit_built": false,
+    "note": ""
+   },
+   "S3": {
+    "layer_best": "LIMIT-ONLY",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-03": "LIMIT-ONLY"
+    },
+    "records": [],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S4": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-04": "NEAREST-LOADED",
+     "C15-05": "NEAREST-LOADED",
+     "C15-06": "NEAREST-LOADED",
+     "C15-10": "LIMIT-ONLY"
+    },
+    "records": [
+     "lpc.witness.communion-over-separation",
+     "lpc.term.communion",
+     "lpc.term.schism",
+     "lpc.quote.one-good-shepherd-not-many"
+    ],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S5": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "NEAREST-LOADED",
+    "wordings": {
+     "C15-07": "NEAREST-LOADED",
+     "C15-15": "NEAREST-LOADED"
+    },
+    "records": [
+     "lpc.witness.constantine-did-not-corrupt",
+     "lpc.contested.compel-coercion-development",
+     "lpc.demo.compel-three-phase"
+    ],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S6": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "NEAREST-LOADED",
+    "wordings": {
+     "C15-08": "NEAREST-LOADED"
+    },
+    "records": [
+     "lpc.limit.womens-own-voice"
+    ],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S7": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-11": "LIMIT-ONLY",
+     "C15-12": "LIMIT-ONLY",
+     "C15-13": "LIMIT-ONLY",
+     "C15-14": "NEAREST-LOADED"
+    },
+    "records": [
+     "lpc.quote.the-sermon-and-the-readings-are-daily-bread"
+    ],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S8": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-16": "NEAREST-LOADED",
+     "C15-17": "LIMIT-ONLY",
+     "C15-18": "LIMIT-ONLY",
+     "C15-19": "LIMIT-ONLY",
+     "C15-20": "LIMIT-ONLY"
+    },
+    "records": [
+     "lpc.limit.the-lapsed-own-account"
+    ],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   }
+  },
+  "pahc": {
+   "S1": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "NEAREST-LOADED",
+    "wordings": {
+     "C15-01": "NEAREST-LOADED"
+    },
+    "records": [
+     "pahc.witness.marriage-and-wealth",
+     "pahc.quote.ignatius-marriage-bishop",
+     "pahc.story.two-ways-catechumen"
+    ],
+    "guards": [],
+    "loaded": [
+     "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml:12755 (Didache 2)"
+    ],
+    "limit_built": false,
+    "note": "Two Ways forbids pederasty in one line; unguarded."
+   },
+   "S2": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-02": "NEAREST-RENDERED",
+     "C15-09": "LIMIT-ONLY"
+    },
+    "records": [
+     "pahc.witness.scripture-and-testimony",
+     "pahc.quote.moses-is-more-ancient"
+    ],
+    "guards": [
+     "pahc.witness.scripture-and-testimony (not_for: a position in the modern creation-versus-evolution debate; in voice: that fight had not been invented yet)",
+     "pahc.quote.moses-is-more-ancient (not_for: Genesis as a rival scientific account)"
+    ],
+    "loaded": [
+     "anf01_apostolic-fathers-justin-irenaeus.xml:15608"
+    ],
+    "limit_built": false,
+    "note": "The model case for this cluster."
+   },
+   "S3": {
+    "layer_best": "LIMIT-ONLY",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-03": "LIMIT-ONLY"
+    },
+    "records": [],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S4": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-04": "NEAREST-RENDERED",
+     "C15-05": "NEAREST-RENDERED",
+     "C15-06": "NEAREST-LOADED",
+     "C15-10": "LIMIT-ONLY"
+    },
+    "records": [
+     "pahc.term.ekklesia",
+     "pahc.story.day-under-bishop-and-presbyters",
+     "pahc.contested.rivals-undefeated",
+     "pahc.story.first-clement-corinthian-dispute",
+     "pahc.story.justin-sunday-gathering"
+    ],
+    "guards": [
+     "pahc.term.ekklesia (not_for: a denomination or legal institution)",
+     "pahc.story.day-under-bishop-and-presbyters (not_for: two settled denominations)"
+    ],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S5": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-07": "NEAREST-LOADED",
+     "C15-15": "LIMIT-ONLY"
+    },
+    "records": [
+     "pahc.witness.outside-our-community",
+     "pahc.witness.outsider-view"
+    ],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S6": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "NEAREST-RENDERED",
+    "wordings": {
+     "C15-08": "NEAREST-RENDERED"
+    },
+    "records": [
+     "pahc.term.ministrae",
+     "pahc.demo.identity-collision-womens-authority",
+     "pahc.limit.womens-own-words",
+     "pahc.quote.two-female-slaves-who-were-called-deaconesses"
+    ],
+    "guards": [
+     "pahc.term.ministrae (not_for: deaconess as a settled office title; egalitarian in a modern sense)",
+     "pahc.limit.womens-own-words"
+    ],
+    "loaded": [
+     "npnf201_eusebius-church-history-life-of-constantine.xml:19502-19506 (inside an editor's endnote)"
+    ],
+    "limit_built": true,
+    "note": ""
+   },
+   "S7": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-11": "NEAREST-LOADED",
+     "C15-12": "LIMIT-ONLY",
+     "C15-13": "LIMIT-ONLY",
+     "C15-14": "NEAREST-RENDERED"
+    },
+    "records": [
+     "pahc.story.two-ways-catechumen",
+     "pahc.limit.ordinary-majority",
+     "pahc.quote.the-memoirs-of-the-apostles-are-read"
+    ],
+    "guards": [
+     "pahc.limit.ordinary-majority (honest_limit: most could not read)"
+    ],
+    "loaded": [
+     "anf01_apostolic-fathers-justin-irenaeus.xml:13192 (Barnabas 19, abortion)",
+     "anf01_apostolic-fathers-justin-irenaeus.xml:16502"
+    ],
+    "limit_built": true,
+    "note": ""
+   },
+   "S8": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-16": "NEAREST-LOADED",
+     "C15-17": "LIMIT-ONLY",
+     "C15-18": "NEAREST-LOADED",
+     "C15-19": "LIMIT-ONLY",
+     "C15-20": "NEAREST-RENDERED"
+    },
+    "records": [
+     "pahc.story.justin-sunday-gathering",
+     "pahc.witness.scripture-and-testimony",
+     "pahc.witness.our-own-failures"
+    ],
+    "guards": [
+     "pahc.witness.scripture-and-testimony"
+    ],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   }
+  },
+  "rzg": {
+   "S1": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "NEAREST-LOADED",
+    "wordings": {
+     "C15-01": "NEAREST-LOADED"
+    },
+    "records": [
+     "rzg.limit.no-teaching-on-wealth-or-marriage"
+    ],
+    "guards": [
+     "rzg.limit.no-teaching-on-wealth-or-marriage (honest_limit: no marriage teaching in the record)"
+    ],
+    "loaded": [
+     "calvin_commentaries-genesis-vol1_king1847.txt (Gen 19, Sodom)"
+    ],
+    "limit_built": true,
+    "note": "The limit says the record holds no marriage teaching, though Calvin's commentary is vendored: reconcile."
+   },
+   "S2": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "NEAREST-LOADED",
+    "wordings": {
+     "C15-02": "NEAREST-LOADED",
+     "C15-09": "NEAREST-LOADED"
+    },
+    "records": [],
+    "guards": [],
+    "loaded": [
+     "calvin_commentaries-genesis-vol1_king1847.txt:4428 (\"Moses wrote in a popular style\")",
+     "calvin_commentaries-genesis-vol1_king1847.txt:3422 (dominion)"
+    ],
+    "limit_built": false,
+    "note": "No record; the strongest science-and-Scripture text in the library is vendored and unquoted."
+   },
+   "S3": {
+    "layer_best": "LIMIT-ONLY",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-03": "LIMIT-ONLY"
+    },
+    "records": [],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S4": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-04": "NEAREST-LOADED",
+     "C15-05": "NEAREST-LOADED",
+     "C15-06": "LIMIT-ONLY",
+     "C15-10": "NEAREST-RENDERED"
+    },
+    "records": [
+     "rzg.witness.triple-refusal",
+     "rzg.witness.a-narrow-true-church",
+     "rzg.limit.material-culture-and-worship-space"
+    ],
+    "guards": [
+     "rzg.witness.a-narrow-true-church (not_for: whether those outside were damned)"
+    ],
+    "loaded": [],
+    "limit_built": false,
+    "note": "Reformation is rzg's own: in window, not never-faced."
+   },
+   "S5": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "NEAREST-LOADED",
+    "wordings": {
+     "C15-07": "NEAREST-LOADED",
+     "C15-15": "NEAREST-LOADED"
+    },
+    "records": [
+     "rzg.witness.defending-the-anabaptist-suppression",
+     "rzg.contested.anabaptist-schism-legitimacy"
+    ],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S6": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "NEAREST-RENDERED",
+    "wordings": {
+     "C15-08": "NEAREST-RENDERED"
+    },
+    "records": [
+     "rzg.limit.dentiere-and-womens-voice"
+    ],
+    "guards": [
+     "rzg.limit.dentiere-and-womens-voice"
+    ],
+    "loaded": [],
+    "limit_built": true,
+    "note": "The 1539 defence of women's voice is the nearest."
+   },
+   "S7": {
+    "layer_best": "LIMIT-ONLY",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-11": "LIMIT-ONLY",
+     "C15-12": "LIMIT-ONLY",
+     "C15-13": "LIMIT-ONLY",
+     "C15-14": "LIMIT-ONLY"
+    },
+    "records": [],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S8": {
+    "layer_best": "LIMIT-ONLY",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-16": "LIMIT-ONLY",
+     "C15-17": "LIMIT-ONLY",
+     "C15-18": "LIMIT-ONLY",
+     "C15-19": "LIMIT-ONLY",
+     "C15-20": "LIMIT-ONLY"
+    },
+    "records": [
+     "rzg.limit.doubt-and-assurance"
+    ],
+    "guards": [
+     "rzg.limit.doubt-and-assurance"
+    ],
+    "loaded": [],
+    "limit_built": true,
+    "note": ""
+   }
+  },
+  "syr": {
+   "S1": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "NEAREST-LOADED",
+    "wordings": {
+     "C15-01": "NEAREST-LOADED"
+    },
+    "records": [
+     "syr.limit.marriage"
+    ],
+    "guards": [
+     "syr.limit.marriage (honest_limit)"
+    ],
+    "loaded": [
+     "npnf213_gregory-great-ephraim-syrus-aphrahat.xml:17590"
+    ],
+    "limit_built": false,
+    "note": ""
+   },
+   "S2": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-02": "NEAREST-RENDERED",
+     "C15-09": "LIMIT-ONLY"
+    },
+    "records": [
+     "syr.dw.reading",
+     "syr.quote.on-a-certain-day-a-pearl"
+    ],
+    "guards": [
+     "syr.dw.reading (not_for: Genesis as natural science; in voice: not the way moderns argue about it)"
+    ],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S3": {
+    "layer_best": "LIMIT-ONLY",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-03": "LIMIT-ONLY"
+    },
+    "records": [],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S4": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-04": "NEAREST-RENDERED",
+     "C15-05": "NEAREST-RENDERED",
+     "C15-06": "NEAREST-LOADED",
+     "C15-10": "LIMIT-ONLY"
+    },
+    "records": [
+     "syr.dw.one-church",
+     "syr.quote.blc-one-name",
+     "syr.term.catholicos",
+     "syr.contested.papa-primacy",
+     "syr.quote.sozomen-melodies"
+    ],
+    "guards": [
+     "syr.dw.one-church (not_for: which modern church continues this one)",
+     "syr.term.catholicos (not_for: the Roman Catholic Church)",
+     "syr.quote.sozomen-melodies (not_for: melodies survive today)"
+    ],
+    "loaded": [
+     "npnf202_socrates-sozomen-ecclesiastical-histories.xml:32088"
+    ],
+    "limit_built": false,
+    "note": ""
+   },
+   "S5": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "NEAREST-LOADED",
+    "wordings": {
+     "C15-07": "NEAREST-LOADED",
+     "C15-15": "NEAREST-LOADED"
+    },
+    "records": [
+     "syr.dw.outsiders-empire",
+     "syr.quote.symeon-and-usthazanes"
+    ],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S6": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "NEAREST-RENDERED",
+    "wordings": {
+     "C15-08": "NEAREST-RENDERED"
+    },
+    "records": [
+     "syr.demo.woman-authority",
+     "syr.limit.f5-women-own-words"
+    ],
+    "guards": [
+     "syr.demo.woman-authority (in voice: no woman bishop or teacher; will not invent one)",
+     "syr.limit.f5-women-own-words"
+    ],
+    "loaded": [],
+    "limit_built": true,
+    "note": "Daughters of the covenant."
+   },
+   "S7": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-11": "LIMIT-ONLY",
+     "C15-12": "LIMIT-ONLY",
+     "C15-13": "LIMIT-ONLY",
+     "C15-14": "NEAREST-LOADED"
+    },
+    "records": [
+     "syr.dw.reading"
+    ],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S8": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-16": "NEAREST-LOADED",
+     "C15-17": "NEAREST-RENDERED",
+     "C15-18": "LIMIT-ONLY",
+     "C15-19": "LIMIT-ONLY",
+     "C15-20": "NEAREST-RENDERED"
+    },
+    "records": [
+     "syr.term.anti-jewish-polemic",
+     "syr.dw.unsettled",
+     "syr.dw.failures",
+     "syr.quote.aphrahat-anti-jewish-frame",
+     "syr.quote.as-a-stonecutter-i-have-brought-stones",
+     "syr.dw.doubt"
+    ],
+    "guards": [
+     "syr.term.anti-jewish-polemic (not_for: a live verdict on Jewish people or practice today)",
+     "syr.quote.aphrahat-anti-jewish-frame (not_for: a verdict today)",
+     "syr.quote.as-a-stonecutter-i-have-brought-stones (not_for: welcomed doubt in the modern inner sense)"
+    ],
+    "loaded": [
+     "npnf213_gregory-great-ephraim-syrus-aphrahat.xml:27100"
+    ],
+    "limit_built": true,
+    "note": "Only world with an explicit \"today\" fence on the Jewish question."
+   }
+  },
+  "witt": {
+   "S1": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "NEAREST-LOADED",
+    "wordings": {
+     "C15-01": "NEAREST-LOADED"
+    },
+    "records": [],
+    "guards": [],
+    "loaded": [
+     "melanchthon_apology-augsburg-confession_bente-dau1921.txt:7953 (Apology XXIII, \"unnatural lusts\")"
+    ],
+    "limit_built": false,
+    "note": "No marriage record checked as a guard."
+   },
+   "S2": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-02": "NEAREST-RENDERED",
+     "C15-09": "LIMIT-ONLY"
+    },
+    "records": [
+     "witt.dw.scripture-judges-every-other-voice"
+    ],
+    "guards": [
+     "witt.dw.scripture-judges-every-other-voice (not_for: any answer on reading Genesis as science or as a dating of the earth)"
+    ],
+    "loaded": [],
+    "limit_built": true,
+    "note": "The one explicit non-answer on science."
+   },
+   "S3": {
+    "layer_best": "LIMIT-ONLY",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-03": "LIMIT-ONLY"
+    },
+    "records": [],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S4": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "NEAREST-LOADED",
+    "wordings": {
+     "C15-04": "NEAREST-RENDERED",
+     "C15-05": "NEAREST-RENDERED",
+     "C15-06": "NEAREST-LOADED",
+     "C15-10": "NEAREST-RENDERED"
+    },
+    "records": [
+     "witt.dw.one-holy-church-forever",
+     "witt.quote.congregation-of-saints",
+     "witt.term.pope-and-antichrist",
+     "witt.term.hymn",
+     "witt.story.first-german-mass-sung"
+    ],
+    "guards": [
+     "witt.dw.one-holy-church-forever (not_for: a claim about any church existing today or after 1580)"
+    ],
+    "loaded": [
+     "acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt (Wirtemberg theologians and the Patriarch of Constantinople, 1576-81; Latin)",
+     "melanchthon_augsburg-confession_anon-pg275.txt:277"
+    ],
+    "limit_built": false,
+    "note": "Reformation is witt's own; the East-West split meets the Jeremias II letters."
+   },
+   "S5": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "NEAREST-RENDERED",
+    "wordings": {
+     "C15-07": "NEAREST-RENDERED",
+     "C15-15": "NEAREST-RENDERED"
+    },
+    "records": [
+     "witt.term.the-two-governments",
+     "witt.term.the-sword",
+     "witt.contested.two-governments-historical-scope",
+     "witt.term.the-turk",
+     "witt.term.insurrection"
+    ],
+    "guards": [
+     "witt.term.the-two-governments (not_for: a modern political-theology reading)",
+     "witt.term.the-sword (not_for: religiously sanctioned violence)"
+    ],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S6": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "NEAREST-LOADED",
+    "wordings": {
+     "C15-08": "NEAREST-LOADED"
+    },
+    "records": [
+     "witt.demo.who-held-authority",
+     "witt.demo.women-own-words"
+    ],
+    "guards": [],
+    "loaded": [],
+    "limit_built": false,
+    "note": "Argula von Grumbach: source record only, no vendored text found."
+   },
+   "S7": {
+    "layer_best": "NEAREST-LOADED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-11": "LIMIT-ONLY",
+     "C15-12": "LIMIT-ONLY",
+     "C15-13": "NEAREST-LOADED",
+     "C15-14": "NEAREST-LOADED"
+    },
+    "records": [
+     "witt.dw.cold-and-careless-among-us",
+     "witt.dw.how-the-promise-reached-us",
+     "witt.force.print-as-medium"
+    ],
+    "guards": [
+     "witt.dw.cold-and-careless-among-us (not_for: an ordinary parish report)"
+    ],
+    "loaded": [],
+    "limit_built": false,
+    "note": ""
+   },
+   "S8": {
+    "layer_best": "NEAREST-RENDERED",
+    "layer_worst": "LIMIT-ONLY",
+    "wordings": {
+     "C15-16": "NEAREST-RENDERED",
+     "C15-17": "NEAREST-RENDERED",
+     "C15-18": "NEAREST-LOADED",
+     "C15-19": "LIMIT-ONLY",
+     "C15-20": "NEAREST-RENDERED"
+    },
+    "records": [
+     "witt.dw.what-we-have-never-settled",
+     "witt.dw.cold-and-careless-among-us",
+     "witt.dw.scripture-judges-every-other-voice"
+    ],
+    "guards": [
+     "witt.dw.what-we-have-never-settled (not_for: narrating the 1543 writing)"
+    ],
+    "loaded": [],
+    "limit_built": true,
+    "note": "The 1543 text against the Jews is named, not vendored."
+   }
+  }
+ }
+}

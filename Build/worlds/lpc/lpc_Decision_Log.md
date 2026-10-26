@@ -2615,3 +2615,57 @@ Phase L2 claim verification (two independent Opus 5.5 passes over the 103 regist
 ### 2026-10-24 — CO-LPC-2: fix the seven P1s with a full sweep, then one more recheck (project lead's ruling)
 
 Alternatives shown: (1) reviewer's text plus a whole-world sweep for every copy of each claim, the women's-voice limit and Doc_09 §5 corrected to name Quartillosia's narration, §§202 to 205 licensed in row 14, then one Opus 5.5 recheck; (2) the same with the women's-voice wording put to the project lead first; (3) the findings in an artifact first. Chosen: 1 (project lead, 2026-10-24). Cap ruling in the System Hub Decision Log.
+
+---
+
+### 2026-10-24 — Change order CO-LPC-3: correct the spoken fields against their sources (project lead's ruling)
+
+Three independent Opus 5.5 reviews read all 162 participant-facing fields in `records/lpc/` sentence by sentence against their cited sources (`Review-Artifacts/Spoken_Fidelity_Review_*_2026-10-24.md`). 98 fields hold up. They found 46 P1s (invented details, claims wider than the source, one side of a contested point stated as settled, and governing rules for the Representative that contradict the sources) and 81 P2s. A few trace back into Doc_02 §6 and Doc_04. Alternatives shown: (1) one change order: Opus drafts every correction (all P1s and the plainly correct P2s), sweeps for each claim elsewhere, carries upstream fixes into the documents, realigns the generators, then one Opus 5.5 recheck under a Cap ruling; (2) the P1s only now; (3) the governing-rule findings to the project lead first. Chosen: 1 (project lead, 2026-10-24).
+
+---
+
+### 2026-10-24 — CO-LPC-3 round 2: answerability stays Inferential-Thin; the grace test scoped, G3 stays Primary (project lead's ruling)
+
+Alternatives shown: (1) fix all six P1s with a sweep of the Permanent Prompt, Capsule, World Profile and chunks; answerability stays Inferential-Thin with every sentence hedged; Doc_04's G3 Formation test scoped to disagreement over practice among bishops in communion, G3 staying Primary because its other tests rest on rebaptism and Donatism; then one recheck; (2) the same with answerability rated Dominant Modern Reconstruction; (3) the two calls to the project lead first. Chosen: 1 (project lead, 2026-10-24). Cap ruling in the System Hub Decision Log.
+
+---
+
+### 2026-10-24 — CO-LPC-3 round 3: one Capsule line and ten leftovers, then a small recheck (project lead's ruling)
+
+Alternatives shown: (1) the reviewer's one-line Capsule fix and all ten P2s, then a small Opus 5.5 recheck of those lines; (2) the P1 only, the P2s logged; (3) no recheck. Chosen: 1 (project lead, 2026-10-24). Cap ruling in the System Hub Decision Log.
+
+---
+
+### 2026-10-24 — Sermon quote batches: by gravity, Primary first (project lead's ruling)
+
+Alternatives shown: (1) by gravity, Primary first: batch 1 of about 12 passages from the 97 NPNF sermons, chosen by reading, carrying the Primary gravities, then the Supporting gravities, then thin canon cells; (2) by participant question, starting from empty or thin canon cells; (3) straight through the 97 in NPNF order. Chosen: 1 (project lead, 2026-10-24). The Primary gravities per Doc_04 are the pastoral office, penitential discipline, collegial communion and sacramental and ordination validity; the question as put also listed preaching and catechesis, which Doc_04 classes Supporting, so it goes to the second batch. Each quote is checked word for word, rendered by Opus and reviewed by Opus.
+
+---
+
+### 2026-10-25 — The Gapped Formation Precedent is corrected in place (project lead's ruling)
+
+`lpc_Gapped_Formation_Precedent.md` §4 said Candidate 5 had "One attested locus in each phase". CO-LPC-2 found this false: Cyprian states his theory in the 256 preface and in his letters to Stephen, Jubaianus and Magnus, and Augustine states his in *On Baptism* and in Letters XLIII and LIV. Alternatives shown: (1) correct the sentence in place, since later worlds read the precedent as method guidance; (2) leave it as received, with OG-62 as the record; (3) correct it and keep the received wording in this log. Chosen: 1 (project lead, 2026-10-25). The header no longer calls the text unchanged, and no longer calls the Article 3 question open. Received wording of the corrected sentence, for the record: "Candidate 5 (conciliar authority) structurally needed the gap bridged. One attested locus in each phase, a century apart."
+
+---
+
+### 2026-10-25 — De Pudicitia XXII stays cited, with no licence (project lead's ruling)
+
+`lpc.force.decian-persecution-libelli-system` and `lpc.gravity.confessor-authority-vs-episcopal-peace` say the confessors' claim to grant peace was not new in the Decian crisis, citing Tertullian's *De Pudicitia* XXII. Registry row 29 holds Tertullian as an Excluded Named Comparandum. Alternatives shown: (1) a narrow licence for chapter XXII as comparandum evidence, row 29 staying Excluded otherwise; (2) keep it cited as comparandum evidence with no licence; (3) drop the sentence and the source record. Chosen: 2 (project lead, 2026-10-25). `lpc.source.tertullian-de-pudicitia` already says row 29 licenses nothing.
+
+---
+
+### 2026-10-25 — Datus uses plain names (project lead's ruling)
+
+Doc_10 round 1 (`Doc_10_Review_Round1.md`, F6) found that Phase Three's no-proper-names rule conflicts with the fleet citation rule, under which every placed quote names its speaker, and with the name-bridge design, which expects plain names. A participant could hear "our first bishop" and "Cyprian wrote:" about the same man. Alternatives shown: (1) drop the rule, use plain names; (2) keep it as a recorded exception; (3) names in citations only. Chosen: 1 (project lead, 2026-10-25). The "we" voice stays.
+
+---
+
+### 2026-10-25 — The pointer to `rzg` is given by Datus in his own voice (project lead's ruling)
+
+D3 sets a pointer to the `rzg` world for Reformation questions but does not say who gives it, and Doc_10 had assigned it to the Facilitator. Alternatives shown: (1) Datus, in his own voice; (2) the Facilitator; (3) Datus declines with no pointer. Chosen: 1 (project lead, 2026-10-25). The Facilitator's interventions stay reserved for safety and process.
+
+---
+
+### 2026-10-26 — One commentary-by-passage batch before packaging (project lead's ruling)
+
+The question-coverage design thread reported that Augustine's commentaries are vendored and mapped to `lpc` but cited by no record: the *Expositions on the Psalms*, the *Tractates on John*, the *Ten Homilies on 1 John*, and *The Sermon on the Mount*. A verse question reaches a commentary only if a record names the passage. Alternatives shown: (1) one batch of about 12 to 15 commentary passages now, chosen for the verses people most ask about and for this world's gravities, each naming its passage; the per-world passage index becomes its own fleet work item; (2) the same, plus records on hell, judgment, the dead, infants and suicide; (3) package first, commentaries after launch. Chosen: 1 (project lead, 2026-10-26). The method is the sermon batches': word-for-word checks, Opus renderings, Opus review.

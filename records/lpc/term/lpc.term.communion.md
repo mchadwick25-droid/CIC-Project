@@ -36,6 +36,13 @@ relations:
   target: lpc.term.the-one-episcopate
 - type: associated-with
   target: lpc.term.the-people
+use_note:
+  means: "For Cyprian, communion was a real standing that could be lost, given back, and kept through sharp disagreement."
+  not_for:
+    - "a claim that it names only a rite or a general warmth of fellowship"
+    - "a claim that either bishop used this word for the pattern across both phases, since that pattern is our own reading"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -71,8 +78,8 @@ retrieval:
   prefer_instead:
   - the participant is asking specifically about the Eucharist as a rite rather than about communion as
     a standing within the body -- ask about the rite specifically instead
-plain_meaning: For us, communion is a formal standing within the one body -- a status we can lose and
-  be given back. Its hardest test is that it survives sharp disagreement between the people who hold it.
+plain_meaning: For us, communion is a formal standing within the one body. You can lose it, and be given
+  it back. At the council of 256, Cyprian said no one would be put out of it for thinking differently.
 world_word: communion
 distortion_risk: high
 false_friend:
@@ -83,13 +90,13 @@ senses:
   informational: 'It is not warmth and not the rite by itself. It is where you stand -- inside or placed
     outside -- and the whole community knows which, because the consequences are public: whether you are
     received, whether you may come to the table, whether your standing is the one you had before. What
-    is remarkable is what it survives. Two of us can hold opposite positions on the sharpest question
-    either will ever argue, and neither puts the other outside communion for it. It holds across more
-    than one lifetime, too: a century on, one bishop argues at book length that the first one''s ruling
-    was wrong, and argues with him, not against his memory as an outsider''s. Communion is the name of
-    belonging itself for us, so nearly everything else touches it: reconciliation is its restoration,
-    the lapsed are those who lost it, heresy and schism are the questions of its boundary, and our two
-    conciliar formulas argue about how its holders relate.'
+    is remarkable is what it is meant to survive. At the council of 256, Cyprian held that no one should
+    be put out of communion for thinking differently. It holds across more than one lifetime, too: a century
+    on, one bishop argues at book length that the first one''s ruling was wrong, and argues with him,
+    not against his memory as an outsider''s. Communion is the name of belonging itself for us, so nearly
+    everything else touches it: reconciliation is its restoration, the lapsed are those who lost it, heresy
+    and schism are the questions of its boundary, and our two conciliar formulas argue about how its holders
+    relate.'
   evidential: 'The 256 Council preface carries our governing statement, directly quoted and re-verified
     at source: ''judging no man, nor rejecting any one from the right of communion, if he should think
     differently from us.'' On Baptism, Against the Donatists is the conduct evidence for the second phase
@@ -100,9 +107,9 @@ senses:
   translational: A modern listener is likely to hear either a specific liturgical rite -- going up to
     receive -- or a general warmth of fellowship, and the second makes disagreement look like a failure
     of communion. We mean a formal, structural status of standing within the body, with public consequences,
-    that is not dissolved by disagreement. Disagreement is expected among us; what would break communion
-    is not arguing but separating.
-quick_meaning: For us, communion is a real standing inside the one body. You can lose it, and you can
-  be given it back. It can survive sharp disagreement between the people who hold it.
+    that, on Cyprian's own principle, disagreement should not dissolve. Disagreement is expected among
+    us; what would break communion is not arguing but separating.
+quick_meaning: For us, communion is a real standing inside the one body. You can lose it, and be given
+  it back. Cyprian held that it should survive sharp disagreement.
 ---
 Re-derived from Doc_06 SS2.1 (lpclex005, Tier 1, G3 Primary -- 'the name of belonging itself in this world') and Lexicon-Chunks/lpclex005_communion.md. formation_confidence set to Widely Accepted rather than Documented, per the chunk's own explicit self-rating (see script docstring, CONFIDENCE PER TERM) -- this is the one term in this batch where the chunk states its own formation_confidence directly rather than leaving this script to infer it. Relations: fourteen terms per this term's own Related-Terms line.

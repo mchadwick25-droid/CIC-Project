@@ -7,6 +7,14 @@ status: draft
 register: etic
 canon_cells:
 - F6-I
+use_note:
+  means: "Confessors claimed a loose power to give peace to the lapsed, against the bishop's own penance, and neither won."
+  not_for:
+    - "a claim that the tension was resolved"
+    - "a claim that evidence beyond Cyprian's letters supports it"
+    - "a claim that the confessors were either usurpers or heroes"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority
@@ -22,6 +30,10 @@ sources:
   license: public-domain
 - source_id: lpc.source.cyprian-de-lapsis
   locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  license: public-domain
+- source_id: lpc.source.tertullian-de-pudicitia
+  locus: On Modesty (De Pudicitia) XXII, adulterers and fornicators who seek peace from imprisoned martyrs;
+    cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 9554-9566
   license: public-domain
 relations:
 - type: associated-with
@@ -72,7 +84,7 @@ description: >-
 
   The forces around it hold the tension in place. The Decian persecution put confessors in one
   congregation on a mass scale. Their claim was not new: Tertullian, in On Modesty, already tells of
-  sinners who ask confessors for peace. The Valerianic persecution kept the tension as it was, and it
+  sinners who ask imprisoned martyrs for peace. The Valerianic persecution kept the tension as it was, and it
   ended the phase in which the tension appears. The confessors' claim is itself a force. All three
   forces belong to the first phase. A search of the texts tested here found no confessor-authority
   material from Augustine's phase. The sermons now in scope have not been searched for it. On the texts

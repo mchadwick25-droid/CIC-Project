@@ -1,0 +1,1666 @@
+{
+ "cluster": "C1 Jesus",
+ "generated": "2026-10-25",
+ "method": "coverage_search.py per sub-question (S1-S8 json in this folder) + inventory of every record whose canon_cells carry C-* or whose retrieve_when/use_note names Jesus (records-inventory.json) + mapped-text greps for thin topics (thin-topic-grep.json) + verbatim checks (quote-verification*.json). fix (fixture world) excluded from the table.",
+ "layers": {
+  "RENDERED": "in records/<code>/ so it reaches the voice",
+  "LOADED": "in vendored texts mapped to the world via cic/corpus-map, no record",
+  "IDENTIFIED": "named in source registry / Doc_02 / cross-world queues, not vendored",
+  "OTHER": "open source outside the repo"
+ },
+ "sub_questions": [
+  {
+   "id": "S1",
+   "title": "Who Jesus was to them; the good news; what he taught",
+   "items": [
+    "C1-01",
+    "C1-02",
+    "C1-03",
+    "C1-04",
+    "C1-11",
+    "C1-20",
+    "C1-23",
+    "C1-28"
+   ],
+   "terms_run": "S1-identity.json"
+  },
+  {
+   "id": "S2",
+   "title": "Was he God? Trinity; prophet or teacher or God as an outsider asks; virgin birth; 'the Father is greater than I'",
+   "items": [
+    "C1-13",
+    "C1-21",
+    "C1-22",
+    "C1-24",
+    "R-24"
+   ],
+   "terms_run": "S2-divinity.json"
+  },
+  {
+   "id": "S3",
+   "title": "His death: why they killed him, what it did, 'in our place', 'personal Lord and Savior'",
+   "items": [
+    "C1-05",
+    "C1-14",
+    "C1-15",
+    "C1-27"
+   ],
+   "terms_run": "S3-death.json"
+  },
+  {
+   "id": "S4",
+   "title": "Resurrection: what they believed happened, how they knew, 'grew in the telling'",
+   "items": [
+    "C1-06",
+    "C1-09",
+    "C1-18"
+   ],
+   "terms_run": "S4-resurrection.json"
+  },
+  {
+   "id": "S5",
+   "title": "Did he exist? Eyewitness chain; outside witnesses",
+   "items": [
+    "C1-08",
+    "C1-16"
+   ],
+   "terms_run": "S5-existence.json"
+  },
+  {
+   "id": "S6",
+   "title": "His humanity: what he looked like, his Jewishness, what he was like",
+   "items": [
+    "C1-17",
+    "C1-19",
+    "C1-20"
+   ],
+   "terms_run": "S6-humanity.json"
+  },
+  {
+   "id": "S7",
+   "title": "Which gospels / which writings about Jesus they had",
+   "items": [
+    "C1-07",
+    "C1-25"
+   ],
+   "terms_run": "S7-gospels.json"
+  },
+  {
+   "id": "S8",
+   "title": "Would Jesus want someone like me; I want to believe but can't",
+   "items": [
+    "C1-10",
+    "C1-12",
+    "C1-26"
+   ],
+   "terms_run": "S8-acceptance.json"
+  }
+ ],
+ "worlds": {
+  "alx": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.demo.who-was-jesus",
+     "alx.dw.jesus",
+     "alx.quote.clement-new-song",
+     "alx.quote.athanasius-made-god",
+     "alx.term.logos",
+     "alx.term.christ"
+    ],
+    "confidence": "high",
+    "source_hits": [
+     "anf02 Clement Protrepticus",
+     "npnf204 Athanasius De Incarnatione"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "alx.quote.clement-new-song": "MATCH anf02",
+     "alx.quote.athanasius-made-god": "MATCH npnf204"
+    },
+    "note": "Dense. Logos-in-flesh, New Song, 'made man that we might be made God'."
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.dw.was-jesus-god",
+     "alx.term.homoousios",
+     "alx.term.son-of-god",
+     "alx.term.incarnation",
+     "alx.force.arian-controversy"
+    ],
+    "confidence": "high for 'was he God'; low for outsider 'prophet only' and for John 14:28",
+    "source_hits": [
+     "anf04 Contra Celsum I.28-39 (virgin birth, Panthera charge), VIII.14-15 and anf09 Comm. John (Father greater)",
+     "npnf204 Contra Arianos I.58 (John 14:28)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": "No C-T demonstration. Celsus's 'mere man' objection and Origen's reply are loaded but no record carries them."
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.dw.jesus (death as physician entering sickness)",
+     "alx.quote.athanasius-death-trampled-down",
+     "alx.term.salvation"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "npnf204 De Incarnatione 6-10, 20-25 (debt of death, why the cross)",
+     "anf09 Origen Comm. Matt XVI.8 (ransom)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "alx.quote.athanasius-death-trampled-down": "MATCH npnf204"
+    },
+    "note": "No witness states a position on penal substitution or 'personal Lord and Savior' (C-T-02/03 unanswered)."
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.quote.a-doctrine-they-would-not-have-taught",
+     "alx.dw.resurrection",
+     "alx.quote.athanasius-death-trampled-down",
+     "alx.term.anastasis"
+    ],
+    "confidence": "high",
+    "source_hits": [
+     "anf04 Contra Celsum II.55-70 (Celsus: hysterical woman, hallucination; Origen's replies)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "alx.quote.a-doctrine-they-would-not-have-taught": "MATCH anf04 Contra Celsum II.56"
+    },
+    "note": "Best-argued resurrection cell in the fleet; Contra Celsum II.55 ('story grew') is loaded and unrendered."
+   },
+   "S5": {
+    "layer": "LOADED",
+    "records": [
+     "alx.dw.record (eyewitness vs received tradition, F2-E, adjacent only)"
+    ],
+    "confidence": "low",
+    "source_hits": [
+     "anf04 Contra Celsum I.47, II.13 (Josephus on James)",
+     "npnf201 Eusebius HE I.11 (Josephus), III.39 (Papias)",
+     "anf08 Mara bar Serapion 'Wise King' (line 69289)"
+    ],
+    "identified": [],
+    "other": [
+     "Josephus, Antiquities XVIII.3.3; XX.9.1, trans. Whiston 1737 (Gutenberg #2848; PD)"
+    ],
+    "verified": {},
+    "note": "No record answers 'did he exist' or 'had anyone known an eyewitness'. No C-E demonstration."
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": "none rendered",
+    "source_hits": [
+     "anf02 Clement Paedagogus III.1 'the Lord Himself was uncomely in aspect' (line 24488)",
+     "anf04 Contra Celsum VI.75 'little, and ill-favoured' (line 57478)",
+     "anf04 Contra Celsum I-II (Celsus's Jew; Jesus as Jew)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": "The two best ancient texts on Jesus's appearance are both mapped to this world and unrendered."
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.quote.origen-gospel-firstfruits (F2-I)",
+     "alx.term.kanon-pisteos"
+    ],
+    "confidence": "low",
+    "source_hits": [
+     "npnf201 Eusebius HE VI.25 (Origen's canon), III.25",
+     "anf02 Clement Strom. III (Gospel of the Egyptians)",
+     "npnf204 Athanasius Festal Letter 39 (canon list, 367)",
+     "anf09 Origen Comm. John/Matt"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "alx.quote.origen-gospel-firstfruits": "MATCH anf09"
+    },
+    "note": "Record says what they looked for in a gospel, not which gospels they had. Athanasius Festal 39 is Alexandrian and loaded but recorded only under pahc."
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.demo.want-to-believe",
+     "alx.story.john-young-robber",
+     "alx.demo.someone-like-me",
+     "alx.quote.gregory-spark"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   }
+  },
+  "cappadocian": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.demo.who-was-jesus",
+     "cappadocian.demo.taught-most",
+     "cappadocian.dw.who-was-jesus",
+     "cappadocian.quote.gregory-nyssa-on-becoming-god"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "cappadocian.quote.gregory-nyssa-on-becoming-god": "MATCH npnf205"
+    },
+    "note": ""
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.demo.was-jesus-god",
+     "cappadocian.dw.was-jesus-god",
+     "cappadocian.quote.ousia-and-hypostasis",
+     "cappadocian.dw.confession-not-a-vote"
+    ],
+    "confidence": "high for 'was he God'; low for outsider and John 14:28",
+    "source_hits": [
+     "npnf207 Gregory Nazianzen Or. 29-30 (Third/Fourth Theological: 'greater than I', Christ hungers, weeps)",
+     "npnf205 Nyssa Catechetical Oration"
+    ],
+    "identified": [
+     "cappadocian.source.gregory-nyssa-on-the-deity-of-the-son-and-spirit (unvendored)",
+     "cappadocian.source.gregory-thaumaturgus-creed (unvendored)"
+    ],
+    "other": [],
+    "verified": {
+     "cappadocian.quote.ousia-and-hypostasis": "MATCH npnf208"
+    },
+    "note": "Or. 30.7 answers 'the Father is greater than I' directly; loaded, unrendered."
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.dw.was-jesus-god (ransom/physician vs 'in our place')"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "npnf205 Catechetical Oration 22-26 (ransom to the devil, fish-hook)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": "Witness explicitly distinguishes ransom/healing from penal substitution. No quote."
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.quote.gregory-nyssa-on-becoming-god",
+     "cappadocian.dw.who-was-jesus",
+     "cappadocian.story.macrina-deathbed",
+     "cappadocian.dw.how-it-reached-us"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "npnf205 On the Soul and the Resurrection"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": "No 'how do you know' argument; witness says the faith arrived already given."
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.dw.how-it-reached-us ('we did not know anyone who did')",
+     "cappadocian.quote.macrina-the-elder-taught-me"
+    ],
+    "confidence": "medium for eyewitness chain; low for existence",
+    "source_hits": [
+     "npnf203 Jerome De viris illustribus 13 (Josephus)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "cappadocian.quote.macrina-the-elder-taught-me": "MATCH npnf208"
+    },
+    "note": ""
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": "none rendered",
+    "source_hits": [
+     "npnf207 Nazianzen Or. 29.19-20 (human acts of Christ)",
+     "anf05 Cyprian Testimonia II.13 (without comeliness)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.dw.how-it-reached-us ('lists still differed over a few books at the edge')"
+    ],
+    "confidence": "low",
+    "source_hits": [
+     "cappadocian.source.amphilochius-iambics-to-seleucus (vendored epitome of canon list)",
+     "npnf207 Nazianzen poem on canon? (not located)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": "Names no gospel. Amphilochius's canon list is held only as an editor's prose epitome."
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.demo.want-to-believe",
+     "cappadocian.dw.want-to-believe",
+     "cappadocian.demo.someone-like-me"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   }
+  },
+  "desert": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.demo.center-who-was-jesus",
+     "desert.dw.jesus",
+     "desert.quote.christ-worketh-them-not-we",
+     "desert.quote.the-coming-of-christ-made-thee-weak",
+     "desert.story.antony-call"
+    ],
+    "confidence": "high (all Contested fc: rests on Athanasius's Vita)",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "desert.quote.christ-worketh-them-not-we": "MATCH npnf204",
+     "desert.quote.the-coming-of-christ-made-thee-weak": "MATCH npnf204"
+    },
+    "note": ""
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.demo.center-jesus-as-god",
+     "desert.quote.antony-nicene-formula",
+     "desert.quote.the-word-took-a-human-body",
+     "desert.quote.the-deeds-of-christ-prove-him"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "npnf204 Vita Antonii 69-80"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "desert.quote.antony-nicene-formula": "MATCH npnf204",
+     "desert.quote.the-word-took-a-human-body": "MATCH npnf204"
+    },
+    "note": "Antony to the philosophers partly answers the outsider's 'why God and not a sage'."
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.quote.when-the-cross-of-christ-arose",
+     "desert.limit.doubt-and-doctrine (no penal account)",
+     "desert.dw.jesus"
+    ],
+    "confidence": "medium",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "desert.quote.when-the-cross-of-christ-arose": "MATCH npnf204"
+    },
+    "note": "Honest limit already written for C-T-02."
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.quote.the-deeds-of-christ-prove-him",
+     "desert.dw.judgment-and-resurrection",
+     "desert.demo.center-how-we-know"
+    ],
+    "confidence": "medium",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "desert.quote.the-deeds-of-christ-prove-him": "MATCH npnf204"
+    },
+    "note": "demo center-how-we-know is about scripture use, not the resurrection."
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.dw.writings",
+     "desert.dw.apostolic"
+    ],
+    "confidence": "low",
+    "source_hits": [
+     "anf04 Contra Celsum I.47 (mapped)",
+     "npnf203 De viris 13"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": "No record states that no one knew an eyewitness; silence rather than honest limit."
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": "none rendered",
+    "source_hits": [
+     "anf04 Contra Celsum VI.75 (mapped to desert)",
+     "npnf206 Jerome"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.dw.writings ('same Scriptures the wider church had')",
+     "desert.demo.center-how-we-know"
+    ],
+    "confidence": "medium",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": "Does not name the four; that is probably right for this world."
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.dw.someone-like-me",
+     "desert.demo.identity-collision-someone-like-me",
+     "desert.demo.center-coming-to-belief (Inferential-Thin)"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   }
+  },
+  "don": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "don.dw.who-jesus-was-among-us"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "pl11 Optatus / Collatio Carthaginiensis (Petilian, Emeritus)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": "No C-I demonstration and no quote: C-I served by a propositional record alone (Program Spec coverage rule)."
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "don.dw.the-creed-we-shared ('no creed of ours survives')"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "npnf104 Augustine anti-Donatist (Aug. on Donatist orthodoxy)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "don.dw.the-creed-we-shared (nothing written on penal)",
+     "don.dw.who-jesus-was-among-us (Christ before the governor: 'why did they kill him' obliquely)"
+    ],
+    "confidence": "medium (honest limit)",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "don.dw.the-books-they-came-for ('we will not manufacture an answer')"
+    ],
+    "confidence": "medium (honest limit)",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "don.dw.the-books-they-came-for ('chain of hands')",
+     "don.term.traditor-traditio"
+    ],
+    "confidence": "medium",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": "none rendered",
+    "source_hits": [
+     "anf05 Cyprian Testimonia II.13 (without comeliness) - Cyprian is this world's own father",
+     "npnf104"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "don.dw.how-we-read-and-heard ('we cannot give you a list of the books')"
+    ],
+    "confidence": "medium (honest limit)",
+    "source_hits": [
+     "chronica-minora Liber Genealogus (Donatist)"
+    ],
+    "identified": [
+     "don.source.tilley-bible-in-christian-north-africa (unvendored, in copyright)"
+    ],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "don.demo.came-to-believe",
+     "don.demo.someone-like-me",
+     "don.dw.walking-to-one-font"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   }
+  },
+  "gallic": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.dw.the-christ-who-bears-the-wounds",
+     "gallic.quote.martin-on-the-christ-with-wounds",
+     "gallic.story.the-cloak-at-amiens"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "gallic.quote.martin-on-the-christ-with-wounds": "MATCH npnf211"
+    },
+    "note": "No C-I demonstration."
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.dw.one-person-two-substances",
+     "gallic.quote.one-substance-three-persons"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "npnf211 Cassian, On the Incarnation against Nestorius (heading at line 48467) - IS vendored"
+    ],
+    "identified": [
+     "gallic.source.cassian-de-incarnatione is marked unvendored and is on WANTS-REGISTER; stale, the text is in npnf211"
+    ],
+    "other": [],
+    "verified": {
+     "gallic.quote.one-substance-three-persons": "MATCH npnf211"
+    },
+    "note": ""
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.dw.one-person-two-substances ('never said he died to take our punishment'; sixth-hour sacrifice)"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "npnf211 Cassian Institutes III.3"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.limit.no-one-who-saw-him ('a proof ... is not in our record')",
+     "gallic.quote.martin-raises-the-catechumen"
+    ],
+    "confidence": "medium (honest limit)",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.limit.no-one-who-saw-him"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "npnf203 De viris 13"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": "none rendered",
+    "source_hits": [
+     "npnf211 De Incarnatione (true flesh)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.limit.no-one-who-saw-him ('Four men tell the Gospel, Cassian says, but the Gospel is one body'; Vincent on canon)"
+    ],
+    "confidence": "medium",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": "The only world outside hal/syr whose record names 'four'."
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.dw.christ-in-the-beggar-and-the-guest",
+     "gallic.quote.receiving-christ-in-you",
+     "gallic.demo.someone-like-me"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "gallic.quote.receiving-christ-in-you": "MATCH npnf211"
+    },
+    "note": ""
+   }
+  },
+  "hal": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.demo.jesus",
+     "hal.dw.jesus",
+     "hal.quote.hail-bethlehem",
+     "hal.quote.eyes-of-faith"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "hal.quote.hail-bethlehem": "MATCH npnf206:21151 (footnote-split)",
+     "hal.quote.eyes-of-faith": "MATCH npnf206"
+    },
+    "note": ""
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.dw.was-jesus-god",
+     "hal.quote.ever-let-the-bridegroom-sport-with-you"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "npnf206 Jerome Against Helvidius (perpetual virginity; virgin birth)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "hal.quote.ever-let-the-bridegroom-sport-with-you": "MATCH npnf206:6222"
+    },
+    "note": "No quote on divinity itself."
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.dw.was-jesus-god (redemption, 'blood by which we were bought back'; honest on penal)"
+    ],
+    "confidence": "medium",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.dw.record ('on the strength of the writings')"
+    ],
+    "confidence": "low",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": "No quote; no argument."
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.dw.record (no eyewitness chain; the places as witness)"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "npnf203 Jerome De viris illustribus 13 (Josephus on Christ) - Jerome's own book, mapped and unrendered"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": "none rendered",
+    "source_hits": [
+     "anf04 Contra Celsum VI.75 (mapped)",
+     "npnf206 Jerome Ep. 22, 108 (Bethlehem; the infant)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.dw.record (Gospels revised against the Greek)",
+     "hal.quote.helmeted-preface",
+     "hal.term.vulgata"
+    ],
+    "confidence": "medium-high",
+    "source_hits": [
+     "npnf206 Jerome, Preface to the Four Gospels (to Damasus, 383)",
+     "npnf203 De viris 1-9 (evangelists)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "hal.quote.helmeted-preface": "MATCH npnf206"
+    },
+    "note": "Best Latin world for C1-25; the Damasus preface is loaded and unrendered."
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.demo.believe",
+     "hal.dw.believe",
+     "hal.demo.someone-like-me"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   }
+  },
+  "ijc": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.demo.who-was-jesus",
+     "ijc.dw.jesus",
+     "ijc.quote.nicene-creed",
+     "ijc.quote.leo-tome-each-form",
+     "ijc.quote.chalcedon-definition"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "ijc.quote.leo-tome-each-form": "MATCH npnf212:5366 (footnote-split)",
+     "ijc.quote.nicene-creed": "MATCH",
+     "ijc.quote.chalcedon-definition": "MATCH"
+    },
+    "note": ""
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.quote.nicene-creed",
+     "ijc.quote.chalcedon-definition",
+     "ijc.quote.leo-tome-each-form",
+     "ijc.term.homoousios",
+     "ijc.term.homoios",
+     "ijc.dw.who-decides-a-disputed-case"
+    ],
+    "confidence": "high; low for outsider framing",
+    "source_hits": [
+     "npnf209 Hilary De Trinitate IX (John 14:28)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.quote.leo-tome-each-form (die in one nature)",
+     "ijc.dw.original-sin-transmitted"
+    ],
+    "confidence": "low-medium",
+    "source_hits": [
+     "npnf212 Leo Sermons on the Passion"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": "No atonement witness; C-T-02/03 unanswered."
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.dw.received-not-seen",
+     "ijc.quote.nicene-creed"
+    ],
+    "confidence": "medium",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.dw.received-not-seen"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "npnf201 Eusebius HE I.11 (Josephus), III.39 (Papias) - mapped"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": "none rendered",
+    "source_hits": [
+     "npnf210 Ambrose; npnf111 Chrysostom (human acts)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S7": {
+    "layer": "LOADED",
+    "records": [
+     "ijc.dw.how-we-read (F2)"
+    ],
+    "confidence": "low",
+    "source_hits": [
+     "npnf201 Eusebius HE III.25 (recognised/disputed books), III.39, VI.25",
+     "npnf102 Augustine De doctrina II.8 (mapped)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": "Eusebius's canon chapter is the single most useful loaded text for C1-25 and is mapped to four worlds, rendered by none."
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.demo.want-to-believe",
+     "ijc.quote.leo-sinner-be-glad",
+     "ijc.limit.jesus-to-you"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   }
+  },
+  "lpc": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "lpc.witness.the-pattern-we-are-modelled-on",
+     "lpc.quote.the-creed-first-then-the-prayer",
+     "lpc.quote.what-is-done-by-you-he-does-in-you"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "npnf106 Sermon on the Mount; npnf107 Tractates on John; augustine_de-catechizandis-rudibus"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": "No C-* demonstration at all (3 demos in the world)."
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "lpc.witness.the-only-son-and-the-trinity"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "npnf103 De Trinitate",
+     "npnf107 Tractate 78 on John 14:28 (mapped)",
+     "npnf104 Augustine against Maximinus"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "lpc.witness.the-pattern-we-are-modelled-on",
+     "lpc.quote.two-hear-one-scorns-one-rises"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "npnf103 Enchiridion 33-41, 108 (Mediator, sacrifice)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "lpc.limit.no-chain-of-witnesses (with City of God XXII.5 argument)",
+     "lpc.quote.peter-the-sick-man-and-the-physician"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "npnf102 City of God XXII.5-9"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "lpc.limit.no-chain-of-witnesses"
+    ],
+    "confidence": "medium",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": "none rendered",
+    "source_hits": [
+     "npnf103 De Trinitate VIII.4.7 'the countenance of our Lord Himself in the flesh is variously fancied' (line 10455)",
+     "anf05 Cyprian Testimonia II.13"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": "Augustine's own answer to 'what did he look like' is loaded for this world."
+   },
+   "S7": {
+    "layer": "LOADED",
+    "records": [
+     "lpc.witness.scripture-above-councils (F2)"
+    ],
+    "confidence": "low",
+    "source_hits": [
+     "npnf106 Augustine Harmony of the Gospels (mapped)",
+     "npnf102 De doctrina christiana II.8 canon list",
+     "anf09 (mapped)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "lpc.witness.grant-me-chastity-but-not-yet",
+     "lpc.quote.bind-him-justly",
+     "lpc.quote.peter-the-sick-man-and-the-physician"
+    ],
+    "confidence": "medium",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   }
+  },
+  "pahc": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.demo.center-who-was-jesus",
+     "pahc.witness.who-was-jesus",
+     "pahc.quote.ignatius-truly-born",
+     "pahc.story.didache-eucharist"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "pahc.quote.ignatius-truly-born": "MATCH anf01",
+     "pahc.quote.first-concerning-the-cup": "MATCH anf07 (footnote-split)"
+    },
+    "note": ""
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.demo.center-jesus-as-god (Contested)",
+     "pahc.witness.jesus-as-god",
+     "pahc.quote.jesus-christ-our-god",
+     "pahc.story.pliny-interrogation"
+    ],
+    "confidence": "medium; outsider framing LOADED",
+    "source_hits": [
+     "anf01 Justin Dialogue 48-49 (Trypho: 'some of your race say he was a man')",
+     "anf01 Justin 1 Apol 33, Ignatius Eph 19 (virgin birth)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "pahc.quote.jesus-christ-our-god": "MATCH anf01:6509"
+    },
+    "note": "Justin-Trypho is the fleet's one period-native 'prophet or God' exchange; loaded, unrendered."
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.quote.ignatius-truly-born (truly crucified under Pilate)",
+     "pahc.quote.tacitus-hatred-against-mankind (F3; 'suffered the extreme penalty')"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "anf01 Diognetus 9 (ransom), 1 Clement 49; anf08 Melito fragments"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "pahc.quote.tacitus-hatred-against-mankind": "MATCH tacitus_annals-15-44"
+    },
+    "note": "Tacitus quote's retrieve_when points at persecution, not at 'why did they kill him'."
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.quote.ignatius-truly-born ('truly raised')"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "anf01 Ignatius Smyrn 3; 1 Clement 24-26; Justin"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.demo.center-how-we-know (Contested)",
+     "pahc.witness.how-we-know",
+     "pahc.story.grandsons-before-domitian",
+     "pahc.story.pliny-interrogation",
+     "pahc.quote.tacitus-hatred-against-mankind",
+     "pahc.story.mutual-aid-prisoner (Lucian)"
+    ],
+    "confidence": "high for chain; medium for existence",
+    "source_hits": [
+     "suetonius (Claudius 25 'Chrestus') mapped",
+     "lucian_works-vol4-peregrine (11-13) mapped",
+     "npnf201 Eusebius HE III.39 Papias, I.11 Josephus",
+     "anf08 Mara bar Serapion (line 69289)"
+    ],
+    "identified": [],
+    "other": [
+     "Josephus, Antiquities XVIII.3.3, XX.9.1 (Whiston 1737, PD)"
+    ],
+    "verified": {},
+    "note": "Best world for C1-16 but no record's retrieve_when says 'did he exist'."
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.quote.ignatius-truly-born (of David's line, truly born)",
+     "pahc.quote.melito-no-phantom",
+     "pahc.witness.who-was-jesus"
+    ],
+    "confidence": "medium for humanity; appearance LOADED only",
+    "source_hits": [
+     "anf01 Justin Dial 14, 88; 1 Apol 52 (without beauty)",
+     "anf02 Clement Paed III.1 (24488)",
+     "anf03 Tertullian De carne Christi 9 (27282, 28082)",
+     "anf01 Justin Dialogue (Jesus as Jew, the law)"
+    ],
+    "identified": [],
+    "other": [
+     "M.R. James, Apocryphal New Testament (1924, PD in US): Acts of John 88-93 polymorphy"
+    ],
+    "verified": {
+     "pahc.quote.melito-no-phantom": "MATCH anf08"
+    },
+    "note": "Three loaded period texts on appearance; none rendered."
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.witness.scholarly-standing ('no closed list')",
+     "pahc.witness.how-we-know ('memoirs of the apostles')",
+     "pahc.quote.appointed-to-be-read (Athanasius 367 - outside this world's window; flag)"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "anf01 Justin 1 Apol 66-67 ('memoirs ... called Gospels')",
+     "anf01 Irenaeus AH III.1.1, III.11.8 four gospels/four zones (41046)",
+     "anf09 Gospel of Peter; Diatessaron (Tatian is period)",
+     "npnf201 HE III.39 Papias on Mark and Matthew"
+    ],
+    "identified": [],
+    "other": [
+     "Muratorian fragment: Westcott, General Survey of the Canon of the NT (1875), PD"
+    ],
+    "verified": {},
+    "note": ""
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.demo.identity-collision-someone-like-me",
+     "pahc.quote.justin-flame-kindled",
+     "pahc.witness.coming-to-belief (Inferential-Thin)"
+    ],
+    "confidence": "medium",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   }
+  },
+  "rzg": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "rzg.witness.one-thing-not-in-dispute"
+    ],
+    "confidence": "low",
+    "source_hits": [
+     "calvin_institutes vol1-2 (II.12-17); zwingli Sixty-Seven Articles 2-5; schaff Second Helvetic XI"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": "No C-I demo; rzg.demo.why-we is tagged canon_question_id c-t-03 but its exchange is 'what are you' (C16). No quote."
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": "none rendered",
+    "source_hits": [
+     "calvin Institutes I.13 (Trinity; Servetus); II.14; Second Helvetic III, XI"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "rzg.quote.mass-not-a-sacrifice (Zwingli art. 18: once sacrificed, valid for ever)"
+    ],
+    "confidence": "low",
+    "source_hits": [
+     "calvin Institutes II.16.5-7, 10 (penal substitution in its native language, 'in our place')",
+     "Second Helvetic XI"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "rzg.quote.mass-not-a-sacrifice": "MATCH zwingli_selected-works:4565 (hyphenated 'eter-nity')"
+    },
+    "note": "The one world whose own idiom is 'in our place' has it loaded and unrendered."
+   },
+   "S4": {
+    "layer": "LOADED",
+    "records": [
+     "rzg.witness.what-we-have-of-christ (generic)"
+    ],
+    "confidence": "low",
+    "source_hits": [
+     "calvin Institutes II.16.13, III.25; Second Helvetic XI"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "rzg.witness.what-we-have-of-christ ('not a living chain ... fifteen hundred years')"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "calvin Institutes I.8 (credibility of Scripture)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": "none rendered",
+    "source_hits": [
+     "calvin Institutes II.13 (true humanity)"
+    ],
+    "identified": [],
+    "other": [
+     "Calvin, Harmony of the Evangelists, trans. Pringle 1845-46 (CCEL, PD)"
+    ],
+    "verified": {},
+    "note": ""
+   },
+   "S7": {
+    "layer": "LOADED",
+    "records": [
+     "rzg.demo.why-we (reading straight through Matthew)"
+    ],
+    "confidence": "low",
+    "source_hits": [
+     "Second Helvetic I-II (canon); zurich-council Actensammlung"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "rzg.quote.christ-the-mirror-of-election",
+     "rzg.witness.a-quieted-mind",
+     "rzg.limit.doubt-and-assurance"
+    ],
+    "confidence": "medium",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "rzg.quote.christ-the-mirror-of-election": "MATCH schaff_second-helvetic"
+    },
+    "note": "No demo."
+   }
+  },
+  "syr": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.demo.jesus",
+     "syr.dw.jesus",
+     "syr.quote.ephrem-only-begotten-dwelling",
+     "syr.quote.nativity-this-is-the-day",
+     "syr.quote.aphrahat-stone-foundation",
+     "syr.term.ihidaya"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "syr.quote.ephrem-only-begotten-dwelling": "MATCH npnf213",
+     "syr.quote.nativity-this-is-the-day": "MATCH npnf213",
+     "syr.quote.aphrahat-stone-foundation": "MATCH npnf213"
+    },
+    "note": ""
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.dw.was-jesus-god",
+     "syr.quote.aphrahat-sure-thing",
+     "syr.story.jacob-nicaea",
+     "syr.term.raza-shrara"
+    ],
+    "confidence": "high; outsider framing LOADED",
+    "source_hits": [
+     "npnf213 Aphrahat Dem. XVII 'Of Christ the Son of God' - written against the Jewish objection 'you call a man God'"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "syr.quote.aphrahat-sure-thing": "MATCH npnf213"
+    },
+    "note": "Dem. XVII is the fleet's best period answer to R-24 and is mapped; only its opening line is rendered."
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.dw.death-judgment",
+     "syr.quote.death-knew-his-kingdom-was-to-be-made-void",
+     "syr.dw.adam-grace"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "ephrem Nisibene Hymns 35-42 (Death and Satan); npnf213 Aphrahat Dem. XII"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "syr.quote.death-knew-his-kingdom-was-to-be-made-void": "MATCH npnf213"
+    },
+    "note": "No penal account; no witness says so explicitly."
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.dw.gospel-harmony (how we knew: the seed)",
+     "syr.quote.ephrem-resurrection-pledge",
+     "syr.quote.nisibene-death-trembled"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "syr.quote.ephrem-resurrection-pledge": "MATCH npnf213"
+    },
+    "note": ""
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.dw.gospel-harmony ('legend, not evidence')",
+     "syr.story.abgar-addai-legend (Contested)",
+     "syr.quote.abgar-letter"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "anf08 Mara bar Serapion, 'the Jews by the murder of their Wise King' (line 69289) - mapped",
+     "addai_doctrine-of-addai (mapped)",
+     "npnf201 HE I.13 Abgar"
+    ],
+    "identified": [
+     "syr.source.petersen-diatessaron (unvendored, in copyright)"
+    ],
+    "other": [],
+    "verified": {
+     "syr.quote.abgar-letter": "MATCH addai"
+    },
+    "note": "Mara bar Serapion is a Syriac-milieu outside witness and is unrendered."
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.quote.ephrem-only-begotten-dwelling ('common manner of birth')",
+     "syr.quote.a-man-called-wise-amongst-the-jews (F6-I)"
+    ],
+    "confidence": "medium for humanity/Jewish neighbours; appearance none",
+    "source_hits": [
+     "npnf213 Aphrahat Dem. XI-XIX, XXI (against the Jews)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.dw.gospel-harmony (Diatessaron)",
+     "syr.gravity.diatessaron-normative",
+     "syr.contested.diatessaron-name",
+     "syr.contested.rabbula-peshitta"
+    ],
+    "confidence": "high",
+    "source_hits": [
+     "anf09 Diatessaron (Arabic harmony, Hill/Hogg) mapped and cited"
+    ],
+    "identified": [
+     "Ephrem, Commentary on the Diatessaron (McCarthy 1993) named in Doc_02 - in copyright"
+    ],
+    "other": [
+     "Burkitt, Evangelion da-Mepharreshe (Old Syriac Gospels), Cambridge 1904, PD (archive.org)",
+     "J. Hamlyn Hill, The Earliest Life of Christ ... the Diatessaron of Tatian, 1894, PD"
+    ],
+    "verified": {},
+    "note": "Best world for C1-25."
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.demo.physician",
+     "syr.dw.physician",
+     "syr.quote.aphrahat-one-innocent",
+     "syr.quote.aphrahat-medicine-penitence"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "syr.quote.aphrahat-one-innocent": "MATCH npnf213"
+    },
+    "note": ""
+   }
+  },
+  "witt": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.dw.truly-god-and-truly-man",
+     "witt.quote.second-article-of-the-creed",
+     "witt.dw.how-the-promise-reached-us",
+     "witt.term.justification"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "luther_large-catechism (Creed, art. 2); luther_works v1-3 selected"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": {
+     "witt.quote.second-article-of-the-creed": "MATCH luther_small-catechism"
+    },
+    "note": "No C-I demonstration."
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.dw.truly-god-and-truly-man",
+     "witt.quote.second-article-of-the-creed ('born of the Virgin Mary')",
+     "witt.dw.a-confession-answered-not-a-vote"
+    ],
+    "confidence": "medium-high; outsider framing IDENTIFIED",
+    "source_hits": [
+     "melanchthon_augsburg-confession Art. I, III; book-of-concord jacobs1911"
+    ],
+    "identified": [
+     "witt.source.luther-that-jesus-christ-was-born ('That Jesus Christ Was Born a Jew', 1523) - unvendored, WANTS-REGISTER row"
+    ],
+    "other": [
+     "German original WA 11 (PD); the English LW 45 (1962) is in copyright"
+    ],
+    "verified": {},
+    "note": ""
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.dw.truly-god-and-truly-man ('redeemed ... with his holy precious blood'; 'He is my Lord')",
+     "witt.quote.second-article-of-the-creed"
+    ],
+    "confidence": "high",
+    "source_hits": [
+     "melanchthon_augsburg-confession Art. III ('a sacrifice ... for all actual sins')"
+    ],
+    "identified": [],
+    "other": [
+     "Luther, Commentary on Galatians 3:13 (Middleton 1575 / 1850 rev., PD on CCEL) - the penal-substitution locus"
+    ],
+    "verified": {},
+    "note": ""
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.dw.how-the-promise-reached-us ('we confess it ... no argument for a doubter')",
+     "witt.quote.christs-return-to-judgment"
+    ],
+    "confidence": "medium",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.dw.how-the-promise-reached-us ('none of us knew anyone who saw him')"
+    ],
+    "confidence": "medium; existence low",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   },
+   "S6": {
+    "layer": "IDENTIFIED",
+    "records": [
+     "witt.quote.second-article-of-the-creed (truly man)"
+    ],
+    "confidence": "low",
+    "source_hits": [
+     "arndt True Christianity (mapped)"
+    ],
+    "identified": [
+     "witt.source.luther-that-jesus-christ-was-born (unvendored) - the one text in the fleet whose title answers C1-19"
+    ],
+    "other": [
+     "WA 11 German text (PD)"
+    ],
+    "verified": {},
+    "note": ""
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.dw.how-the-promise-reached-us (Word in Scripture)",
+     "witt.story.first-german-mass-sung"
+    ],
+    "confidence": "low",
+    "source_hits": [],
+    "identified": [
+     "witt.source.luther-das-newe-testament-deutzsch (1522, unvendored)"
+    ],
+    "other": [
+     "Luther, Prefaces to the New Testament (1522): German WA DB 6 (PD); English in Works of Martin Luther vol. 6 (Holman 1932) - US PD only from 2028"
+    ],
+    "verified": {},
+    "note": "Record does not say which gospels; Luther's 1522 preface ranks John first and is the natural text."
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.demo.someone-like-me",
+     "witt.term.christ-alone",
+     "witt.dw.a-death-begun-that-a-child-receives"
+    ],
+    "confidence": "medium",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": {},
+    "note": ""
+   }
+  }
+ },
+ "fleet_notes": [
+  "Demonstration coverage of the C cells is uneven: C-I demos in 7 of 12 worlds (none in don, gallic, lpc, rzg, witt); C-T demos in 3 (cappadocian, desert, pahc); C-E demos in 2 (desert, pahc); C-P demos in 9 (none in gallic, lpc, witt). rzg.demo.why-we carries canon_question_id c-t-03 but its exchange is the 'what are you' question.",
+  "Nothing in any world's records carries a retrieve_when for 'did Jesus really exist' or 'what did Jesus look like'. The ancient texts that answer both are vendored and mapped (Josephus via Eusebius HE I.11 and Jerome De viris 13; Tacitus, Suetonius, Lucian, Mara bar Serapion for pahc/syr; Clement Paed III.1, Contra Celsum VI.75, Tertullian De carne 9, Augustine De Trin VIII.4.7 for appearance).",
+  "gallic.source.cassian-de-incarnatione is recorded as unvendored and sits on WANTS-REGISTER, but the full work is in the vendored npnf211 file (heading at line 48467).",
+  "pahc.quote.appointed-to-be-read quotes Athanasius's Festal Letter 39 (367) inside a 70-200 world.",
+  "Josephus and Pliny are not vendored as their own files; Pliny reaches pahc only through McGiffert's note in npnf201.",
+  "Automated verbatim check: all C1-relevant quotes MATCH; the 15 first-pass 'mismatches' were XML footnote splits or hyphenation. Six quotes not relevant to C1 (desert Macarian x2, gallic Salvian x4) still did not match on the second pass and should be rechecked by their worlds."
+ ]
+}

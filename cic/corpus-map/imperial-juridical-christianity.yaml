@@ -242,6 +242,78 @@ works:
 
     '
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
+- row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-colossians
+  work: Homilies on Colossians
+  author: chrysostom
+  locus: div1 4, div2 4.4 — the full Colossians series, assigned as one work
+  role: tradition
+  confidence: assigned
+  note: 'Preached at Constantinople, so tradition for the world of Rome, Milan and Constantinople
+    as well as for the Antiochene world that holds the preacher. Evidence in the vendored
+    edition (npnf113): the Oxford Preface to the volume''s second part says it "consists entirely
+    of Homilies delivered at Constantinople" and cites the close of Hom. iii on Colossians
+    as showing his responsibility as presiding in the Church.
+
+    '
+  source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
+- row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-first-thessalonians
+  work: Homilies on First Thessalonians
+  author: chrysostom
+  locus: div1 4, div2 4.5 — the full 1 Thessalonians series, assigned as one work
+  role: tradition
+  confidence: assigned
+  note: 'Preached at Constantinople, so tradition for the world of Rome, Milan and Constantinople
+    as well as for the Antiochene world that holds the preacher. Evidence in the vendored
+    edition (npnf113): the Oxford Preface to the volume''s second part says it "consists entirely
+    of Homilies delivered at Constantinople" and cites Hom. viii on 1 Thessalonians as showing
+    his responsibility as presiding in the Church.
+
+    '
+  source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
+- row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-philippians
+  work: Homilies on Philippians
+  author: chrysostom
+  locus: div1 4, div2 4.3 — the full Philippians series, assigned as one work
+  role: tradition
+  confidence: assigned
+  note: 'Preached at Constantinople, so tradition for the world of Rome, Milan and Constantinople
+    as well as for the Antiochene world that holds the preacher. Evidence in the vendored
+    edition (npnf113): the Oxford Preface to the volume''s second part says it "consists entirely
+    of Homilies delivered at Constantinople" and cites the end of Hom. ix on Philippians as
+    showing his responsibility as presiding in the Church.
+
+    '
+  source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
+- row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-second-thessalonians
+  work: Homilies on Second Thessalonians
+  author: chrysostom
+  locus: div1 4, div2 4.6 — the full 2 Thessalonians series, assigned as one work
+  role: tradition
+  confidence: assigned
+  note: 'Preached at Constantinople, so tradition for the world of Rome, Milan and Constantinople
+    as well as for the Antiochene world that holds the preacher. Evidence in the vendored
+    edition (npnf113): the Oxford Preface to the volume''s second part says it "consists entirely
+    of Homilies delivered at Constantinople" and cites Hom. iv on 2 Thessalonians as showing
+    his responsibility as presiding in the Church.
+
+    '
+  source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
+- row_id: npnf111_chrysostom-homilies-acts-romans--homilies-on-the-acts-of-the-apostles
+  work: Homilies on the Acts of the Apostles
+  author: chrysostom
+  locus: div1 6 — 'A Commentary on the Acts of the Apostles', the full series of fifty-five
+    homilies, assigned as one work
+  role: tradition
+  confidence: assigned
+  note: 'Preached at Constantinople, so tradition for the world of Rome, Milan and Constantinople
+    as well as for the Antiochene world that holds the preacher. Evidence in the vendored
+    edition (npnf111): the series heading says "These Sermons were preached at Constantinople,
+    in the second or third year of St. Chrysostom''s archiepiscopate", and the Oxford Preface
+    to Part II says the course began "in the Easter weeks of the third year of his residence
+    at Constantinople as Archbishop" (a.d. 400).
+
+    '
+  source_file: npnf111_chrysostom-homilies-acts-romans.xml
 - row_id: fleet-sweep-additions-npnf111--homilies-on-the-epistle-to-the-romans-homily-xxiii-on-romans
   work: Homilies on the Epistle to the Romans, Homily XXIII (on Romans 13:1)
   author: chrysostom

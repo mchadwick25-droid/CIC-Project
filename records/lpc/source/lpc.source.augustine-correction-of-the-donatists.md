@@ -15,9 +15,9 @@ confidence:
     footnote dates 401 (not Augustine's own text, which does not date it), the Theodosian fine, 'we carried
     our point... envoys were sent to the court of the Count', and SS26's own record that the petition
     was not granted. The same distinction applies to CTh XVI.5.21 (392, the actual fine cited here), the
-    401 council, and CTh XVI.5.52 (412, a different Donatist-specific schedule this row does NOT license)
-    -- three different years under different emperors, easily collapsed into each other (row 44's own
-    caution).
+    council (dated 401 only by an NPNF editor's note), and CTh XVI.5.52 (412, a different Donatist-specific
+    schedule this row does NOT license) -- three items to keep apart, easily collapsed into each other
+    (row 44's own caution).
 sources: []
 relations: []
 author: Augustine of Hippo

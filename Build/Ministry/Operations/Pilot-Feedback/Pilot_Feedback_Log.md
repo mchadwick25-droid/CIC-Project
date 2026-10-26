@@ -243,3 +243,14 @@ From draft PR 1088 (now merged), the reviewer's findings, not re-verified here:
 
 ## AWS daily spend read — 2026-10-24
 Read from Mark's Cost Explorer screenshots (estimated charges, UTC). October to 23 October: $124.25 in the daily view ($124.15 in the summary); model usage about $113 (input $32.69, cache write $32.03, cache read $27.40, output $21.36), RDS about $10.77, everything else $0. The cost report's live visitor figure was about $7 for 30 days and recorded named tests $9.72 (a floor), so most October model spend was not visitor traffic. The spend sat in 2 to 4 October (about $70) and on test days; the last three days were near zero. Rulings are in Pilot_Feedback_Decisions.md.
+
+## System update — 2026-10-25
+Read from live checks, the open PRs and the session list; not re-checked after.
+- Live: `deddabecd` by hand after PR 1131 showed a 404 on new conversations; the revert PR 1137 is open and the live branch still holds 1131 until it merges. Main is 2 commits ahead of live branch tip `8ef6664c` at the time of reading.
+- Open PRs: 1137 (revert) and 1138 (tester codes, draft).
+- Done: accounts A1 to A5 and F7 (off), coupons (merged, cannot attach until sign-in), safety-fail reply and crisis display, payment alert, the AWS $75 block policy tested by Mark, Library Eras III, VI, VII and VIII, the chooser work, review rulings and the independent recheck.
+- Running: accounts (8-digit sign-in code), LPC sermon batches, small projects.
+- Not started or waiting on Mark: SES access and accounts switch-on, buying (suspended), AWS automatic block on or after 1 November, the RDS database, Bedrock quotas, the pushback test name and cap, the legal questions, the arrival-text rewrite, the Antioch decision.
+
+## Screenshot of the live conversation page — 2026-10-26
+Mark sent a screenshot of a Mar Yausep conversation with the Get more conversations panel open. Read by this thread from the picture only: the welcome and message box show, so a new conversation opens; the top bar says 1,050 tokens left and the panel says 1,030 tokens left and 20 free tokens left (they add up); the gift section "Keep the door open for others" shows; the top-bar button has a tight yellow box around it, the panel text runs near the right edge, and the message box shows a scrollbar with no text in it. Not checked: whether Mar Yausep replied, where the panel's "Get more conversations" link goes while buying is suspended. Not yet sent to the small projects thread.

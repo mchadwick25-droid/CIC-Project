@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F3-I
+use_note:
+  means: "Cyprian calls his rivals' anger old venom aimed at his office, which he ties to the people's voice and God's judgment."
+  not_for:
+    - "a claim that the quarrel was only personal or only rhetorical exaggeration"
+    - "a claim that the rivals' own account of the dispute is heard here"
+    - "a claim that the election was a modern vote with a ballot and a count"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -34,6 +42,8 @@ relations:
   target: lpc.story.election-of-cyprian
 - type: associated-with
   target: lpc.figure.cyprian
+- type: associated-with
+  target: lpc.force.congregational-acclamation-overriding-preference
 text: Since mindful of their conspiracy, and retaining that ancient venom against my episcopate, that
   is, against your suffrage and God's judgment, they renew their old attack upon me, and once more begin
   their sacrilegious machinations with their accustomed craft.
@@ -44,7 +54,7 @@ modern_lens_note: 'A modern listener may hear ''ancient venom'' as ordinary rhet
   so much as at the act by which he became bishop at all -- our own suffrage, joined to what he calls
   God''s own judgment. Rejecting him, on his own reading, meant rejecting that acclamation itself.'
 modern_rendering: For they have not forgotten their conspiracy. They still carry that old venom against
-  my office as bishop, which means against your vote and against God's judgment. They are renewing their
-  old attack on me, and once again they are starting their sacrilegious plots with their usual cunning.
+  my office as bishop, which means against your suffrage and against God's judgment. They are renewing
+  their old attack on me, and once again they are starting their sacrilegious plots with their usual cunning.
 ---
 Named directly in the Permanent Prompt's own 'what our own life actually gave us' paragraph (line 37: 'a faction's ancient venom set against the plain suffrage of the people'), and at greater length at line 29 ('the crowd's own calling of a man to this office -- a faction's ancient venom set against the plain suffrage of the people, in one voice'). Independently re-located this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 32372 -- the corrected locus (Ep. XXXIX, not Ep. XL) lpc.source.cyprian-epistles's own divergence_note already names (a citation error stood in this world's build for six days before correction); this record independently re-verifies the corrected locus directly rather than trusting the correction on the source record's own say-so, per this step's own discipline for the small set of places a confidence rating depends on a specific line actually being where it is said to be. This quotation begins mid-sentence in the source ('...since mindful of their conspiracy...'); per Doc_09 SS2's own disclosed transcription convention, the first letter is capitalised here without an opening ellipsis, and no wording is altered.

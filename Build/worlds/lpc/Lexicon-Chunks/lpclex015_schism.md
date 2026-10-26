@@ -22,7 +22,7 @@ Do-Not-Retrieve-When: the participant is asking about the validity of sacraments
 
 ## Quick Meaning
 
-For us, schism is division within the one episcopate over discipline or doctrine — a tearing of the body rather than a disagreement within it.
+For us, schism means a split in the one church: someone leaves its clergy and people and sets up another altar — a tearing of the body rather than a disagreement within it.
 
 ---
 

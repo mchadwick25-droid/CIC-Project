@@ -12,7 +12,7 @@ confidence:
   evidentiary_weight: illustrative
   formation_confidence: Widely Accepted
   divergence_note: Vols. I-III are complete; vols. IV-VI are vendored in the shared corpus; vol. VII,
-    reaching Augustine, was never requested by either world. Public domain by date (1905; the title page
+    reaching Augustine, is vendored bound with a second copy of vol. VI. Public domain by date (1905; the title page
     reads 1905, the BnF's own catalogue gives 1906 for the same volume, both pre-1930 and immaterial to
     the determination). Fetched via archive.org item histoirelitterai03monc_0; title page and the printer's
     own closing colophon directly verified. Consultation-only content per cic/texts/INTAKE.md.

@@ -813,3 +813,108 @@ back-fill one.
 **Scope.** Psalmus contra Partem Donati and Contra (Adversus) Fulgentium
 Donatistam, from the same source file, are NOT part of this authorization
 (not named in the dossier's own §2 reasoning) and stay donatism-only.
+
+## 2026-10-26 — Chrysostom's verse-by-verse homilies mapped to four built worlds
+
+**Ruling.** Mark, 2026-10-26, on the question-coverage design thread's proposal: map Chrysostom's verse-by-verse homilies (npnf110 to npnf114, 17 works: Matthew, Acts, Romans, 1 and 2 Corinthians, Galatians, Ephesians, Philippians, Colossians, 1 and 2 Thessalonians, 1 and 2 Timothy, Titus, Philemon, John, Hebrews) to `imperial-juridical-christianity` as `tradition`, and to `hieronymian-ascetic-literary`, `gallic-monastic-ascetic-christianity` and `cappadocian-nicene-pastoral-monastic-tradition` as `context`. No download; the files were already vendored.
+
+**Open point, settled with Mark the same day.** `context` is defined as the view from outside, and Chrysostom is a neighbouring fellow preacher for the three context worlds, not an outsider or an opponent. The corpus-map already uses `context` for neighbours (a neighbouring Phrygian see, a neighbouring communion), each with a row `note`. Mark chose `context` with a note over a fifth role, so the four roles and the README are unchanged. Each of the 17 new context rows says in its note that the work is read from a neighbouring community by a fellow preacher on the same verses.
+
+**What changed.** 17 `_staging` rows gained `imperial-juridical-christianity`; 17 new `--context` rows carry the three context ids. The full merge (`corpus_map_merge.py`) regenerated the four affected buckets and validated: 3,783 assignments became 3,851 (17 tradition, 51 context). Romans Homily XXIII's existing ijc row in `fleet-sweep-additions-npnf111.yaml` raised no duplicate flag.
+
+**Not decided here.** Whether other Chrysostom works (npnf109, the Greek PG volumes) belong to these worlds; npnf109 was left out because it is not verse-by-verse commentary.
+
+## 2026-10-26 — Registry drift from the question-coverage survey: what the Library fixed and what it handed on
+
+**Fixed here (Library-owned).** `download-queue-seed.yaml` carried 15 rows still marked `not-yet-downloaded` for editions already vendored under another row, found by matching archive.org item ids against the downloaded rows. They include Migne PL 35 (Augustine, Tractatus in Johannem; vendored as the Garnier 1902 printing), Egeria's Pilgrimage, Victor of Vita, the Collectio Avellana part II, the Croscombe churchwardens' accounts, Baxter's Reliquiae, Sozomen vol. 2, Chronicle of Seert fascicle 1 (inside the vendored Patrologia Orientalis IV file), Williams on the Orthodox Church of the East, Macarius vol. 2, Brosset's Armenian historians tome II, the Philokalia vol. 2, Bullarium Franciscanum V, and Mansi 25 (two rows). Each is now `superseded` with a `hold_note` naming the vendored file, the same shape as the six earlier superseded rows. `DOWNLOAD-QUEUE.md` was regenerated and lost those 15 rows and nothing else. The Wesley Journal row (vols. II to VIII) stays queued: it is a partial overlap, not a duplicate.
+
+**Handed on (world records, not Library-owned).** The source-record items in the survey edit `records/`, which belongs to each world's thread. Each now has an entry in that world's `Open_Gaps_Tracking.md`: gallic OG-48 (Cassian, On the Incarnation, is in npnf211), witt OG-81 (the Book of Concord is vendored and `witt.term.free-will` contradicts it; the Melanchthon visitors' record id is unconfirmed), rzg 79 (Genevan Psalter; and the 1735 Tournes file is the 1576 council revision, not the 1541 text, so the survey's guess was wrong on that point), cappadocian OG-57 (Liturgy of St Basil; Pharr Latin side) and don OG-48 (Acta of Saturninus and Tilley, Latin held). The WANTS-REGISTER is generated from those records, so its stale rows drop out only after they are fixed.
+
+**Held for Mark (cross-world placements, always asked).** Pelagius's Letter to Demetrias (hal, gallic, lpc), Orange 441 canon 26 (gallic), Basil Letter 93 (desert), Jerome Ep. 146 (alx), the Persian martyr acts (syr), the Anabaptist sources (rzg), and the check on Paulinus's Life of Ambrose (ijc). Chrysostom's Homily 20 on Ephesians is covered by the Chrysostom mapping above.
+
+## 2026-10-26 — Origen, Commentary on Romans (Rufinus's Latin) vendored from the Lommatzsch edition
+
+**What.** `origen_commentarii-in-epistolam-ad-romanos-libri-1-5-lat_lommatzsch1836.txt` (tomus VI, Books I to V) and `...libri-6-10-lat_lommatzsch1837.txt` (tomus VII, Books VI to X, with the volume's index). Source: Internet Archive items `origenous-ta-heuriskomena-panta-t.-6-1836` and `...-t.-7-1837`, the Maurist text of De la Rue newly revised by Lommatzsch (Berlin, Haude et Spener). Rights: the item metadata carries Public Domain Mark 1.0 and the imprint dates are 1836 and 1837. The host's OCR was vendored unchanged under an intake header. Title page and three passages in each volume were read; the Latin is readable with occasional misreadings.
+
+**Why this edition and not PG 14.** The worklist named Migne PG 14 (1862) as the Latin. The Lommatzsch set is a better find for the same cost: it is the same Maurist Latin, newly revised with notes on variant readings, and the same set holds 25 volumes of Origen that the worklist also wants (Matthew, John, Genesis, Exodus and Leviticus homilies, Contra Celsum, De Principiis, and others). Whether to vendor more of it is held for Mark.
+
+**What the text is.** Rufinus's Latin, not verbatim Origen. His preface in npnf203 says the Greek commentary ran to fifteen volumes and that he was asked to abbreviate it; the Latin has ten books. Jerome accused him of altering Origen (that quarrel is in npnf203). Any record that quotes it has to say so and render the English itself, labelled as a rendering. The English translations (Scheck, Bammel) are in copyright and are not vendored.
+
+**Map placement.** `alexandria-catechetical` as `tradition` (Origen's own work), `aquileian-christianity` as `transmission` (Rufinus's custody), following the precedent of the Baehrens Homilies on Numbers. The design thread also proposed `cappadocian`, `hal` and `desert` as `context`. Those are cross-world placements and are held for Mark.
+
+## 2026-10-26 — Targeted acquisition batch from the question-coverage worklist (Mark chose "targeted five")
+
+**Approved.** Mark, 2026-10-26: Didascalia Apostolorum, Zwingli's Latin Works vol. 2, Aphrahat's Demonstrations, and Origen's commentaries on Matthew and John from the Lommatzsch set. Each item had its host metadata and rights read, and its text read at several points, before it was vendored.
+
+**Vendored (7 files).**
+- `didascalia-apostolorum_didascalia-apostolorum-in-english_gibson1903.txt`: Gibson's English from the Syriac (Horae Semiticae No. I; the worklist said No. 2). Rights by date, 1903. The better text (Connolly 1929) is not cleared and not vendored.
+- `zwingli_latin-works-correspondence-vol2_hinke1922.txt`: Hinke 1922, the missing middle volume (Account of the Faith, Providence sermon, the Exposition with its company of heaven). Runs of spaces collapsed, as in volume 3.
+- `aphrahat_demonstrationes-1-22-syr-lat_parisot1894.txt`: Patrologia Syriaca I.1, Demonstrations I to XXII, with Parisot's Latin. The Syriac pages OCR as noise; only the Latin is usable, so it is a rendering by Parisot. Demonstration XXIII (tomus II) was not fetched.
+- Origen, Lommatzsch tomus 2 (Commentary on John, Greek), tomus 3 and 4 (Commentary on Matthew, Greek and Latin series) and tomus 5 (Matthew Latin series, Homilies on Luke, Fragments). Public Domain Mark 1.0 on each item.
+
+**Not vendored, and why.** Lommatzsch tomus 1 (the first part of the Commentary on John): the host OCR is unusable noise. A Google scan of the same 1831 edition (`origenisoperaom00lommgoog`) has readable Latin but its Greek is mangled into ASCII, so it is no help for the Greek. A clean scan has to be found before John's first books are available.
+
+**Map placement.** Zwingli vol. 2 follows volume 3 (`the-reformed-cities-zurich-and-geneva`, tradition). Aphrahat follows the Hallock file (`syriac-edessa-nisibis` and `persian-church-of-the-east-early`, tradition). Origen is `alexandria-catechetical` tradition, as for the Philocalia. The Didascalia is staged `provisional` under the unbuilt `antiochene-church-third-century`, with an `authors_ruled` entry (pseudonymous: it speaks in the apostles' voices) because it has no author; its Syrian, third-century provenance comes from the worklist, not the file. Placements in the built worlds (alx, pahc and syr for the Didascalia; desert, cappadocian and hal for Origen on Matthew and John) are cross-world and are held for Mark.
+
+**Held for Mark.** The wider Lommatzsch set (25 volumes, one public-domain host) was offered and not chosen.
+
+## 2026-10-26 — Passage access: design direction chosen (script the tagged volumes first)
+
+**Ruling.** Mark, 2026-10-26, from four options (A script the tagged volumes; B script plus a curated passage list; C whole-corpus pattern index; D defer): option A. Build a per-passage index by script from the XML volumes that carry scripture references, and keep it as a rebuildable derived file outside the live and canonical trees, like the corpus search index, which is built on demand and not committed. The plain-text files are not indexed in this step; B can follow if Mark names a passage list.
+
+**Measured at decision time (this repo, 2026-10-26).** 38 XML volumes carrying 87,090 `scripRef` tags with a `passage` attribute and 1,025 `scripCom` tags (a homily tagged to the passage it treats). The `passage` values are not uniform ('Acts I. 1, 2', 'John xiv. 12', 'Matt. 24.14'), so a reference normaliser comes first (roman numerals, dots and commas, abbreviations, Vulgate psalm numbering). Romans 5:10-19 is cited in four volumes, and Chrysostom's Romans homilies (npnf111) alone account for 13 of those hits. The 1,466 plain-text files carry no tags, and counts cannot tell citing from treating.
+
+**Rule the index must keep.** A tagged homily is `treats`; any other reference is `cites`; the two are never merged, because a citation is not evidence that a work treats a passage.
+
+**Not started.** Mark chose a direction; he has not said to build it. Steps when he does: (1) the normaliser, with tests; (2) the index builder; (3) 20 passages checked by hand against the volumes. This is code under `cic/engine/`, so it falls in the same discipline as the rest of the engine.
+
+## 2026-10-26 — Passage access: additions so the index serves pastors (proposed, for Mark to confirm)
+
+**Request.** Mark, 2026-10-26, after choosing option A above: "add anything that will make it useful for pastors". Read as an addition to the passage index. These are proposals to the chosen design, not yet confirmed one by one.
+
+**Proposed additions.** A pastor preparing a sermon asks "who has preached or commented on this text, and can I read it?", so the index should answer in that shape:
+1. **Reach by lectionary reading as well as by verse.** A pastor starts from the Sunday's readings, not a chapter and verse. Needs the Revised Common Lectionary table (three-year cycle) and its licence checked before use; if it cannot be vendored, accept a plain passage list the pastor types in.
+2. **Whole pericopes, not single verses.** A search for Romans 5:12 also returns treatments of Romans 5:12-21, since homilies cover ranges. The normaliser must store ranges and match overlaps.
+3. **Treats before cites, always labelled.** Same rule as the design: a tagged homily is "treats", a mention is "cites".
+4. **Readable now.** Mark each hit with the language of the vendored file and whether an English reading exists. A Latin-only commentary is no use to most pastors; say so up front.
+5. **Who, when, which tradition.** Show author, century and the community each work belongs to, so a pastor can see the range of the church's reading and not only one voice.
+6. **Exact locus and a short extract with its citation line.** File, line and the heading of the homily, so the pastor can open it and check it. Extracts are copied verbatim from the file, never paraphrased.
+7. **Where voices differ.** For a passage where the sources disagree (Romans 5:12 on inherited guilt is the standing example), list the readings side by side, tagged with the project's confidence vocabulary and never settled by the index.
+8. **Pastoral care texts as a second entry route.** Many pastors come with a situation (grief, a divided congregation, a repentant sinner) rather than a verse. The worlds' question clusters already map situations to sources; the index can link them. This is the largest addition and stays out of the first build.
+
+**Held back deliberately.** The index will not summarise, rank "best" commentaries, or write sermon material; it points to sources, as the project's fidelity rule requires. Nothing here is built.
+
+**Status.** Items 2 to 7 fit the first build at small cost. Item 1 needs a licence check. Item 8 needs Mark's say-so.
+
+## 2026-10-26 — Chrysostom mapping redone from the edition's own introductions (supersedes the entry above)
+
+**Ruling.** Mark, 2026-10-26, replacing the earlier mapping: `imperial-juridical-christianity` as `tradition` only for the series preached at Constantinople; the Antioch-preached series stay with the Antiochene world; no `context` rows for the Hieronymian, Gallic or Cappadocian worlds. The place of each series is taken from the vendored edition's own prefaces (npnf110 to npnf114). Any series the edition does not settle is left unchanged. The earlier entry stays as history. Its staging rows, its 51 context assignments and its 12 extra ijc assignments were undone, and the buckets regenerated by `corpus_map_merge.py`.
+
+**Result: five series added to the imperial-juridical world, each with the evidence in its row note.**
+- Acts (npnf111): the series heading says the sermons "were preached at Constantinople, in the second or third year of St. Chrysostom's archiepiscopate", and the Oxford Preface to Part II dates the start to the Easter weeks of the third year of his residence there (a.d. 400).
+- Philippians, Colossians, 1 Thessalonians, 2 Thessalonians (npnf113): the Oxford Preface to that part says it "consists entirely of Homilies delivered at Constantinople", and cites the end of Hom. ix on Philippians, the close of Hom. iii on Colossians, Hom. viii on 1 Thessalonians and Hom. iv on 2 Thessalonians.
+
+**Left unchanged, with the edition's evidence.**
+- Antioch: Matthew (npnf110: "undoubtedly delivered at Antioch"); John (npnf114: referred to as already published while he was still at Antioch, and dated before 398); 1 and 2 Corinthians (npnf112: "certain that they were delivered at Antioch"); Galatians, written at Antioch (npnf113); Ephesians (npnf113 gives "strong reasons" for Antioch against critics who say Constantinople); 1 and 2 Timothy and Titus (npnf113: Daphne, the Babylas homily and the monks near the city).
+- Romans (npnf111): the preface argues for a date before the Constantinople bishopric ("evidently agrees with Antioch") but allows another place is "just possible". Treated as Antiochene, unchanged. The existing ijc row for Romans Homily XXIII (fleet-sweep file) was not touched.
+- Philemon (npnf113): the preface says the homilies "cannot easily be assigned to any particular date". Unchanged.
+- Hebrews (npnf114): the edition calls him "Archbishop of Constantinople" and says the homilies were published after his death from notes by the presbyter Constantine, but does not say where they were preached. Unchanged. The design thread's reviewer named Hebrews as Constantinople; that needs a source outside the vendored edition before the row changes.
+
+## 2026-10-26 — Passage index built (option A), with the pastor additions that fit the first build
+
+**Ruling.** Mark, 2026-10-26: "Build the passage index now."
+
+**What exists.** `cic/engine/passage_index.py` builds a local passage index (derived, gitignored, about two seconds) from the ThML volumes, and `tests_passage_index.py` checks it; the test is a step in the Library validators job. Query: `python cic/engine/passage_index.py "Romans 5:12"`.
+
+**A normaliser was not needed.** CCEL already writes a standard `osisRef` on 99.6% of the 87,090 references, so the index reads that and counts what it cannot read (178 references skipped, reported at build). Vulgate psalm numbering is not mapped: CCEL's own numbering stands.
+
+**Treats and cites stay apart.** A section tagged to a passage by CCEL (a `scripCom` of type Sermon, Commentary or untyped) is TREATS (821 in the corpus). Every other mention, and any `scripCom` CCEL itself types as Citation, is cites (93,321). The index adds no judgment.
+
+**Pastor additions built (items 2 to 7 of the earlier proposal, in part).** Range overlap, so a query for one verse finds homilies tagged to a range around it; whole-chapter and chapter-range queries; language and an "English / no English in this file" flag; the Atlas entries and role the volume is mapped to with each entry's own date window; the work and section title; a verbatim, tag-stripped extract with file and line. Not built: item 1 (lectionary, needs a licence check), item 7 (side-by-side readings, a reader's judgment under the confidence vocabulary), item 8 (situations).
+
+**Two limits found in testing, and what the index does about each.**
+1. A tag names the verses a homily opens with, not everything it covers. Chrysostom's Hebrews homilies are tagged to Hebrews 11:3-4, 11:7 and 11:13-16, and none to 11:1, though a pastor would look there. When no section overlaps, the query lists the nearest tagged sections in the same chapter.
+2. Some volumes carry no section tags for a book, so they cannot show as TREATS even if they are commentaries. Chrysostom on Galatians is the case: Gal 2:11 returns no TREATS line. The query lists such volumes that cite the book heavily, as leads to open and read, never as findings.
+These show the TREATS list is a floor, not the full set. Volumes mapped to a world are shown at volume level, so a volume that holds several works carries all their mappings; the work title is printed beside it.
+
+**Checks.** The test builds the index from the real corpus and, for 20 passages, confirms that every one of up to 60 hits per passage points to a file line whose own tag covers the queried verses. All pass. Plain-text files (1,466) are not indexed here; option B would add a hand-curated passage list for them.

@@ -975,3 +975,12 @@ Still open, non-blocking (round 3 notes):
 The ordered recheck passed (`Build/Ministry/Operations/Audits/2026-10-24_cappadocian-unvendored-citers_Cap-Ruling-Recheck.md`).
 
 Status: CLOSED for the 19 records. OPEN for the five notes above.
+
+### OG-57. Source records marked unvendored for works the Library holds in part, 2026-10-26.
+
+Library thread, 2026-10-26, from the question-coverage survey (`Build/Ministry/Features/Question-Coverage/`). The Library thread does not edit world records; this entry hands the fix to this world's thread.
+
+- `cappadocian.source.liturgy-of-st-basil` is marked `kind: unvendored`. The Neale volume of Eastern liturgies is vendored and mapped (`cic/texts/liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt`). The record should name it.
+- `cappadocian.source.pharr-theodosian-code-translation`: Pharr's English is in copyright and stays unvendored. The Latin Codex Theodosianus is vendored (`cic/texts/codex-theodosianus_latinlibrary.txt`). The record should say the Latin is held.
+
+Status: OPEN, for this world's thread.

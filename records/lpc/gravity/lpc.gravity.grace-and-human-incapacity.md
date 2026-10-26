@@ -7,6 +7,14 @@ status: draft
 register: etic
 canon_cells:
 - F1-T
+use_note:
+  means: "Grace and human weakness weigh heavily in Augustine's phase, but rest on one voice."
+  not_for:
+    - "a claim that it spans both phases"
+    - "a claim that the volume of text shows breadth"
+    - "a claim that Pelagius's own view is known"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority
@@ -35,6 +43,14 @@ relations:
   target: lpc.force.manichaeism-and-pelagian-anthropology
 - type: associated-with
   target: lpc.force.corpus-outliving-the-world
+- type: associated-with
+  target: lpc.quote.two-hear-one-scorns-one-rises
+- type: associated-with
+  target: lpc.quote.what-is-done-by-you-he-does-in-you
+- type: associated-with
+  target: lpc.quote.no-one-has-the-love-of-god-from-himself
+- type: associated-with
+  target: lpc.quote.boast-in-nothing-since-nothing-is-our-own
 name: Grace and Human Incapacity
 description: >-
   This concern is real, but it does not run nearly as wide as the others. It organizes a large and
@@ -50,8 +66,9 @@ description: >-
 
   No concern in this world has more text behind it. The word "grace" occurs 1,798 times in
   the thirteen anti-Pelagian works alone. Those works form a long project of teaching and argument,
-  prompted by a live dispute. In them Augustine refuses the Pelagian claim that a believer's own
-  moral effort is enough without grace.
+  prompted by a live dispute. In them Augustine refuses a claim he sets out as the Pelagian one: that
+  a believer's own moral effort is enough without grace. Whether Pelagius himself held it in that form
+  is disputed.
 
 
   It is real and heavily attested, but it stands on its own. Nothing else in this world depends on how
@@ -59,8 +76,7 @@ description: >-
   does not reach back to Cyprian. It came more than a century after him.
 
 
-  So it does not span the whole world as a concern. Cyprian states the theme in passing. His Testimonies
-  say "we must boast in nothing, since nothing is our own" (III.4), and Augustine later quoted those words
+  So it does not span the whole world as a concern. Cyprian states the theme in passing. His Testimonies teach that we must boast in nothing, since nothing is our own (III.4), and Augustine later quoted those words
   against the Pelagians. But nothing in Cyprian's phase organizes formation around it. Within Augustine's
   phase it is strong. It reshapes
   penitential discipline by raising a related but distinct question in Augustine's phase. It is a
@@ -79,8 +95,8 @@ description: >-
 manifestations:
 - 'the anti-Pelagian corpus: thirteen works prompted by a live controversy, with 1,798 raw occurrences
   of "grace"'
-- Augustine's refusal of the Pelagian view of human nature, which held that a believer's own moral effort
-  is enough without grace
+- Augustine's refusal of a view he sets out as the Pelagian one, that a believer's own moral effort is
+  enough without grace
 classification: supporting
 ---
 Taken from Doc_04 §3 (Candidate 7). relations[] carries the gravity<->gravity edges (G2, G4) and the gravity<->force edges (2A-4, 3B-1) named above, plus one contested_claim edge (lpc.contested.grace-pelagius-characterization).

@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - C-T
+use_note:
+  means: "Augustine held Jesus to be God's only Son within one God in three, and an Arian bishop at Hippo fought that belief."
+  not_for:
+    - "a claim that this doctrine is what sets this tradition apart"
+    - "a claim that the doctrine went unchallenged"
+    - "a claim about how the conference with Maximinus ended"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -16,11 +24,17 @@ confidence:
 sources:
 - source_id: lpc.source.augustine-the-enchiridion
   locus: Chapter 56, 'The Holy Spirit and the Church' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml,
-    line 21856
+    lines 21850-21866
   license: public-domain
 - source_id: lpc.source.possidius-vita-augustini-weiskotten1919
-  locus: Chapter 17, the Maximinus conference at Hippo, held specifically over the doctrine of the Trinity
-    -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 2942
+  locus: Chapter 17, the conference at Hippo with Maximinus, 'a bishop of these Arians'; its records show
+    'what the Catholic Church maintains and teaches regarding the divine Trinity' -- verified directly
+    against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 2942-2950
+  license: public-domain
+- source_id: lpc.source.possidius-vita-augustini-weiskotten1919
+  locus: 'the 1919 editor''s introduction (not Possidius''s text): the siege of Hippo by the Vandals and
+    "the Arian Geiseric" -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt,
+    lines 468-477'
   license: public-domain
 retrieval:
   tier: 2
@@ -40,12 +54,11 @@ tensions:
   same city held the Arian position themselves. What is most our own is found elsewhere -- in the road
   back, in the font, in the office answerable for a flock. But this claim itself was contested by real
   opponents in our own time, not merely a settled inheritance nobody thought to argue about.
-text: For us, Jesus being God and the Trinity are not two questions but one. We confess Jesus
-  Christ, the only Son of God, our Lord. Then we go on to confess the Holy Ghost as well. That
-  completes the Trinity that makes up the one Godhead. Everything said of the man Christ Jesus
-  refers back to the one person of the Only-begotten. This is the ground that everything else in our
-  own creed stands on. That claim did not go unchallenged. An Arian bishop disputed it in his own
-  lifetime. Later a whole Arian people, standing outside our own gates, thought us wrong about it
-  too.
+text: For us, Jesus being God and the Trinity belong to one confession. We confess Jesus Christ, the only
+  Son of God, our Lord. Then we go on to confess the Holy Ghost as well. That completes the Trinity that
+  makes up the one Godhead. Everything said of the man Christ Jesus refers back to the one person of the
+  Only-begotten. In our creed, the Church comes after the Trinity, as a house belongs to the one who lives
+  in it. This confession did not go unchallenged. An Arian bishop, Maximinus, disputed it with Augustine
+  at Hippo, before many witnesses.
 ---
-Grounded directly in the Enchiridion, Chapter 56, and Possidius, Chapter 17 -- both verified against the vendored sources at the line numbers above. This is shared, inherited orthodox Christology, not this world's own point of distinctiveness, but the fleet question asks for it plainly and this world's own corpus states it plainly. It was not, however, unopposed: Possidius records Augustine's own public conference with the Arian bishop Maximinus at Hippo, held specifically over the Trinity, and the Vandals who later besieged Hippo held the same Arian position.
+Grounded directly in the Enchiridion, Chapter 56, and Possidius, Chapter 17 -- both verified against the vendored sources at the line numbers above. This is shared, inherited orthodox Christology, not this world's own point of distinctiveness, but the fleet question asks for it plainly and this world's own corpus states it plainly. It was not, however, unopposed: Possidius records Augustine's own public conference with the Arian bishop Maximinus at Hippo, whose records, he says, set out the Church's teaching on the Trinity, and the Vandals who later besieged Hippo held the same Arian position.

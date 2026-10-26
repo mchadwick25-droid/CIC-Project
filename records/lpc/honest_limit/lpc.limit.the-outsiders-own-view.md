@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F3-E
+use_note:
+  means: "The record cannot say if Christians hid in catacombs or what outsiders thought odd."
+  not_for:
+    - "a claim that Christians hid in catacombs"
+    - "a claim that an outsider's own words survive"
+    - "a claim that Augustine asked whether Constantine corrupted the church in those words"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-direct

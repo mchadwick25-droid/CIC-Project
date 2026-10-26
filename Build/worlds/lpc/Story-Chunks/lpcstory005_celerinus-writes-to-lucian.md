@@ -12,17 +12,17 @@ Do-Not-Retrieve-When: Early in an encounter, before the participant has any sens
 
 ## Story Text
 
-Celerinus is a confessor — he has been imprisoned and has not denied Christ — and he is writing to Lucian, another confessor, in prison. He does not write about himself.
+Celerinus is a confessor — he has been imprisoned and has not denied Christ — and he is writing to Lucian, another confessor, in prison. He tells Lucian of his own confession.
 
 "Know, nevertheless, that I am placed in the midst of a great tribulation," he begins, and the tribulation is not his own captivity. His sister has sacrificed. "I ask that you will grant my desire, and that you will grieve with me at the (spiritual) death of my sister, who in this time of devastation has fallen from Christ; for she has sacrificed and provoked our Lord, as seems manifest to us."
 
-**The parenthesis is the translator's, and it is the most important word in the sentence.** The sister is not dead. She is alive, in Carthage, and what Celerinus is grieving is a death he believes has happened to her soul — which is precisely why the letter has a request in it. A dead sister could not be restored to communion. He has been keeping vigil over it: "in this day of paschal rejoicing, weeping day and night, have spent the days in tears, in sackcloth, and ashes, and I am still spending them so to this day."
+**The parenthesis is the translator's, and it is the most important word in the sentence.** The sister is not dead. What Celerinus is grieving is a death he believes has happened to her soul — which is precisely why the letter has a request in it. A dead sister could not be restored to communion. He has been keeping vigil over it: "in this day of paschal rejoicing, weeping day and night, have spent the days in tears, in sackcloth, and ashes, and I am still spending them so to this day."
 
 He asks Lucian to intervene — and he asks for two other women as well, Numeria and Candida, whom Lucian also knows. He makes the case for them: they have repented, and there are works to point to, kindnesses done to exiled clergy who came from Lucian's own church. "Because they have us as brethren, we ought to keep watch," Celerinus writes, and he believes Christ "will have mercy upon them."
 
 Lucian's reply comes back from the prison, and it grants what was asked. Before it does, it says what the prison has been like: by the emperor's command they "were ordered to be put to death by hunger and thirst, and were shut up in two cells, that so they might weaken us by hunger and thirst," and the fire of the torture "was so intolerable that nobody could bear it." Then: "But now we have attained the brightness itself."
 
-He greets Numeria and Candida, and appends the names of the martyrs on whose authority he answers — "Bassus in the dungeon of the perjured, Mappalicus at the torture, Fortunio in prison, Paulus after torture, Fortunata, Victorinus, Victor, Herennius, Julia, Martial, and Aristo."
+He greets Numeria and Candida, and appends the names of the martyrs on whose authority he answers — "Bassus in the dungeon of the perjured, Mappalicus at the torture, Fortunio in prison, Paulus after torture, Fortunata, Victorinus, Victor, Herennius, Julia, Martial, and Aristo." He asks that the two women have peace, "the case being set forth before the bishop, and confession being made."
 
 He signs off exhausted. He greets Saturus and his family, Bassianus, the clergy, Uranius, Alexius, Quintianus, Colonica, "and all whose names I have not written, because I am already weary. Therefore they must pardon me."
 
@@ -32,7 +32,7 @@ He signs off exhausted. He greets Saturus and his family, Bassianus, the clergy,
 
 **Gravities: G8 (Confessor-Authority vs. Episcopal-Regulated Peace) — the Tensional gravity — and G2 (Penitential Discipline).** Doc_08's Force **2B-2** is the confessors' claim to grant peace. These two letters *are* that claim, in operation, in the participants' own hands.
 
-**What it shows that other evidence does not show as directly.** Every other source for this controversy is Cyprian's — and Cyprian is a party to it. He describes the confessors' certificates as issued "daily… contrary to the law of the Gospel." Here the same practice is visible from inside, and it does not look like defiance of a bishop. It looks like a man in prison being asked by a grieving friend to do something for his sister, and doing it.
+**What it shows that other evidence does not show as directly.** Every other source for this controversy is Cyprian's — and Cyprian is a party to it. He describes the confessors' certificates as issued "daily… contrary to the law of the Gospel." Here the same practice is visible from inside, and it does not look like defiance of a bishop. It looks like a man in prison being asked by a grieving friend for help, and answering him.
 
 **Why it belongs in the encounter.** Doc_04 classifies G8 as Tensional — a gravity the world never resolved. A tension is not communicated by explaining both positions. It is communicated by making the reader feel the pull of the side they were not expecting to sympathise with. **This story does that and a lexicon entry cannot.**
 

@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F3-E
+use_note:
+  means: "A Roman official blamed Christians for war, plague and famine, and Cyprian wrote a reply."
+  not_for:
+    - "a claim that the neighbour's own words survive, since the charge is reported in Cyprian's reply"
+    - "a claim about whether Christians hid in catacombs"
+    - "a claim about what an outsider found strangest about them"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -17,7 +25,10 @@ sources:
 - source_id: lpc.source.cyprian-minor-pastoral-treatises
   locus: An Address to Demetrianus, the editorial Argument and SSSS1-3, answering the charge that Christians
     caused the world's wars, plague, and famine by refusing to worship the gods -- verified directly against
-    cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 45605-45660
+    cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 45605-45660; and SSSS12-13, Demetrianus
+    judging and torturing Christians, the ground for calling him an official in Cyprian's own text (the
+    office "Proconsul of Africa" is the editor's Argument, not Cyprian's) -- verified directly against
+    the same file, lines 45938-45992
   license: public-domain
 retrieval:
   tier: 2
