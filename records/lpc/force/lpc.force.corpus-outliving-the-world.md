@@ -3,7 +3,7 @@ id: lpc.force.corpus-outliving-the-world
 world_id: latin-pastoral-congregational-christianity
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:

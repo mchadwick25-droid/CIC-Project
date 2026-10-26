@@ -3,7 +3,7 @@ id: lpc.story.the-plague-and-the-enemies
 world_id: latin-pastoral-congregational-christianity
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I

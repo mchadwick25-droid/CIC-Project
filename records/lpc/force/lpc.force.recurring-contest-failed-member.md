@@ -3,7 +3,7 @@ id: lpc.force.recurring-contest-failed-member
 world_id: latin-pastoral-congregational-christianity
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F4-I

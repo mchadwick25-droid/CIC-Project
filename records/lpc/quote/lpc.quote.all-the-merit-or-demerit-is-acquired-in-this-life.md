@@ -3,7 +3,7 @@ id: lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life
 world_id: latin-pastoral-congregational-christianity
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-T

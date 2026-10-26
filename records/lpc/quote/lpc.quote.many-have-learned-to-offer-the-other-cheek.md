@@ -3,7 +3,7 @@ id: lpc.quote.many-have-learned-to-offer-the-other-cheek
 world_id: latin-pastoral-congregational-christianity
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-P

@@ -3,7 +3,7 @@ id: lpc.quote.he-covered-his-eyes-with-his-own-hand
 world_id: latin-pastoral-congregational-christianity
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-E

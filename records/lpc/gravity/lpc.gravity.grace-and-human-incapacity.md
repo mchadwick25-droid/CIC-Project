@@ -3,7 +3,7 @@ id: lpc.gravity.grace-and-human-incapacity
 world_id: latin-pastoral-congregational-christianity
 record_type: gravity
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F1-T

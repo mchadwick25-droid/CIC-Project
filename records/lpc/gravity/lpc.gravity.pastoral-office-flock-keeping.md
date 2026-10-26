@@ -3,7 +3,7 @@ id: lpc.gravity.pastoral-office-flock-keeping
 world_id: latin-pastoral-congregational-christianity
 record_type: gravity
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F3-I

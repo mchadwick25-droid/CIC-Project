@@ -3,7 +3,7 @@ id: lpc.limit.womens-own-voice
 world_id: latin-pastoral-congregational-christianity
 record_type: honest_limit
 schema_version: 2
-status: draft
+status: ready
 register: emic
 demo_tag: exclude
 canon_cells:

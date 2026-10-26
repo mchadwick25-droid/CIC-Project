@@ -3,7 +3,7 @@ id: lpc.quote.the-old-man-nailed-to-the-cross-speaks
 world_id: latin-pastoral-congregational-christianity
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-I
