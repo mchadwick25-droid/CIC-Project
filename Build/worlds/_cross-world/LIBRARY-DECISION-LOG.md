@@ -857,3 +857,13 @@ Donatistam, from the same source file, are NOT part of this authorization
 **Map placement.** Zwingli vol. 2 follows volume 3 (`the-reformed-cities-zurich-and-geneva`, tradition). Aphrahat follows the Hallock file (`syriac-edessa-nisibis` and `persian-church-of-the-east-early`, tradition). Origen is `alexandria-catechetical` tradition, as for the Philocalia. The Didascalia is staged `provisional` under the unbuilt `antiochene-church-third-century`, with an `authors_ruled` entry (pseudonymous: it speaks in the apostles' voices) because it has no author; its Syrian, third-century provenance comes from the worklist, not the file. Placements in the built worlds (alx, pahc and syr for the Didascalia; desert, cappadocian and hal for Origen on Matthew and John) are cross-world and are held for Mark.
 
 **Held for Mark.** The wider Lommatzsch set (25 volumes, one public-domain host) was offered and not chosen.
+
+## 2026-10-26 — Passage access: design direction chosen (script the tagged volumes first)
+
+**Ruling.** Mark, 2026-10-26, from four options (A script the tagged volumes; B script plus a curated passage list; C whole-corpus pattern index; D defer): option A. Build a per-passage index by script from the XML volumes that carry scripture references, and keep it as a rebuildable derived file outside the live and canonical trees, like `cic/texts/INDEX.sqlite`. The plain-text files are not indexed in this step; B can follow if Mark names a passage list.
+
+**Measured at decision time (this repo, 2026-10-26).** 38 XML volumes carrying 87,090 `scripRef` tags with a `passage` attribute and 1,025 `scripCom` tags (a homily tagged to the passage it treats). The `passage` values are not uniform ('Acts I. 1, 2', 'John xiv. 12', 'Matt. 24.14'), so a reference normaliser comes first (roman numerals, dots and commas, abbreviations, Vulgate psalm numbering). Romans 5:10-19 is cited in four volumes, and Chrysostom's Romans homilies (npnf111) alone account for 13 of those hits. The 1,466 plain-text files carry no tags, and counts cannot tell citing from treating.
+
+**Rule the index must keep.** A tagged homily is `treats`; any other reference is `cites`; the two are never merged, because a citation is not evidence that a work treats a passage.
+
+**Not started.** Mark chose a direction; he has not said to build it. Steps when he does: (1) the normaliser, with tests; (2) the index builder; (3) 20 passages checked by hand against the volumes. This is code under `cic/engine/`, so it falls in the same discipline as the rest of the engine.
