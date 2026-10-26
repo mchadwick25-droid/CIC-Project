@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F4-I
+use_note:
+  means: "Augustine calls Peter the sick man and the Lord the physician who feels the pulse of his heart, and says a threefold confession of love answers the threefold denial."
+  not_for:
+    - "a claim that Peter is restored to feed the flock in this passage"
+    - "a claim that it describes a penitential rite or a bishop restoring a penitent"
+    - "a claim that 'invalid' means a lasting disability"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

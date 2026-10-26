@@ -7,6 +7,13 @@ status: draft
 register: etic
 canon_cells:
 - F3-T
+use_note:
+  means: "Bishops in this world disagreed sharply yet worked to keep communion and not build a rival hierarchy, from Cyprian's preface to the council of 256 to Augustine arguing against Cyprian without casting him out."
+  not_for:
+    - "a claim that the pattern across both phases is better than a synthesis rated Widely Accepted"
+    - "a claim that bishops never broke communion"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority

@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F3-I
+use_note:
+  means: "Pontius says Cyprian was chosen bishop by the judgment of God and the favour of the people while still newly baptized and thought a beginner."
+  not_for:
+    - "a claim about how the people made their favour known, such as a vote, a count or a ceremony"
+    - "a claim that Pontius judges Cyprian as an outside witness"
+    - "a claim that any second witness confirms that Cyprian was a neophyte"
+  years: {from: 248, to: 249}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

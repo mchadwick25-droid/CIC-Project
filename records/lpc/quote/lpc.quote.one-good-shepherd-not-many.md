@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F3-T
+use_note:
+  means: "Augustine lists Peter, Paul, the other Apostles, holy bishops and blessed Cyprian as good shepherds, and says the Lord spoke of one Shepherd to teach them unity."
+  not_for:
+    - "a claim that Augustine and Cyprian agreed or differed on rebaptism"
+    - "a claim that bishops disagreeing with bishops appears here"
+    - "a claim that the passage stands without John 10:14, which the next sentence quotes"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

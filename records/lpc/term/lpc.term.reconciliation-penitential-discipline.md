@@ -30,6 +30,14 @@ relations:
   target: lpc.term.the-one-episcopate
 - type: associated-with
   target: lpc.term.the-people
+use_note:
+  means: "Reconciliation was a public road, walked in stages and held by the bishop, by which a failed member returned to the community."
+  not_for:
+    - "a claim that it was a private confession said alone"
+    - "a claim that it was complete once both parties felt differently"
+    - "a claim that the reconciled believer's own account survives"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

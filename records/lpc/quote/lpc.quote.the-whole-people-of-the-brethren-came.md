@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F6-E
+use_note:
+  means: "The Acta says the whole Christian people gathered in the street before the officer's lodging, and that Cyprian had the young women among them guarded."
+  not_for:
+    - "a claim about what the young women were guarded from"
+    - "a claim that the Acta is a court transcript"
+    - "a claim that Pontius gives this detail"
+  years: {from: 258, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

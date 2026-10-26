@@ -36,6 +36,13 @@ relations:
   target: lpc.term.the-one-episcopate
 - type: associated-with
   target: lpc.term.the-people
+use_note:
+  means: "Communion is a real standing inside the one body, which can be lost and given back, and which Cyprian held should survive sharp disagreement."
+  not_for:
+    - "a claim that it names only a rite or a general warmth of fellowship"
+    - "a claim that either bishop used this word for the cross-phase pattern, which is this build's own synthesis"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

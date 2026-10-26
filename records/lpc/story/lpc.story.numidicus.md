@@ -8,6 +8,14 @@ register: emic
 canon_cells:
 - F5-P
 - F6-E
+use_note:
+  means: "Cyprian told Carthage he was adding the presbyter Numidicus to the clergy, a man who watched his wife burned, was left for dead, was found alive by his daughter, and stayed behind unwillingly."
+  not_for:
+    - "a claim that gives words to Numidicus, his wife or his daughter"
+    - "a claim about where the daughter searched"
+    - "a claim that 'burned, preserved' is a cruel word game and not a martyr's death named as completion"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

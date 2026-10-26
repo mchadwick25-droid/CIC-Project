@@ -7,6 +7,14 @@ status: draft
 register: etic
 canon_cells:
 - F6-I
+use_note:
+  means: "The confessors' informal claim to grant peace to the lapsed and Cyprian's bishop-run penance pulled against each other, and neither won."
+  not_for:
+    - "a claim that the tension was resolved"
+    - "a claim that evidence beyond Cyprian's letters, read through one term, supports it"
+    - "a claim that the confessors were either usurpers or heroes"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority

@@ -8,6 +8,14 @@ register: emic
 canon_cells:
 - F4-I
 - F6-I
+use_note:
+  means: "The confessor Celerinus asked Lucian, another confessor in prison, to grant peace to his sister and two other women who had fallen, and Lucian did so on condition that each case go before the bishop."
+  not_for:
+    - "a claim that gives words to Celerinus's sister, Numeria or Candida, none of whom speaks in our record"
+    - "a claim that Lucian's grant stood without his condition that each case be set before the bishop"
+    - "a claim that the confessors were either usurpers or heroes"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

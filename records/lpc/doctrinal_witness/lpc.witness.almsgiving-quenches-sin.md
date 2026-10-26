@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F5-T
+use_note:
+  means: "Cyprian taught that almsgiving is the ordinary remedy for sin committed after baptism, and spoke directly to rich believers about what their wealth was for."
+  not_for:
+    - "a claim that the teaching sets a limit on how much a believer may keep"
+    - "a claim that it gives a full account of marriage, courtship or the wedding"
+    - "a claim that the quoted line about water and fire is Cyprian's own composition and not Scripture"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

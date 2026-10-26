@@ -7,6 +7,15 @@ status: draft
 register: emic
 canon_cells:
 - F5-I
+use_note:
+  means: "Pontius reports that in the plague at Carthage Cyprian preached love of enemies and help for everyone, and that relief followed which reached beyond believers."
+  not_for:
+    - "a claim that the persecutors themselves were helped"
+    - "a claim that any source outside Pontius describes the relief"
+    - "a claim that the sermon survives in Cyprian's own hand"
+    - "a claim that a pagan Carthaginian's account of being helped survives"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

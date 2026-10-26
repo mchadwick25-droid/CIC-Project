@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F2-P
+use_note:
+  means: "Augustine, once disturbed by the violence of the Old Testament, answered a Manichaean that Moses showed obedience and not ferocity, and that God acted in righteous retribution."
+  not_for:
+    - "a claim that this settles the question for a modern reader"
+    - "a claim that the answer lacked moral seriousness"
+    - "a claim that a command carried out is the same act as the same deed chosen on one's own account"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

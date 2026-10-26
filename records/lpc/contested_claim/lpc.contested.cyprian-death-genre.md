@@ -7,6 +7,14 @@ status: draft
 register: etic
 canon_cells:
 - F2-E
+use_note:
+  means: "Whether Pontius's account of Cyprian's death is direct testimony or a saint's life shaped by Scripture stays open, though the execution under Valerian in 258 is not in dispute."
+  not_for:
+    - "a claim that the Scriptural patterning shows the account cannot be trusted"
+    - "a claim that the question of which Construction Framework clause governs is settled"
+    - "a claim that the strengthened hand of the executioner is a fact"
+  years: {from: 258, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

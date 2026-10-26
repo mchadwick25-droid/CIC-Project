@@ -22,6 +22,15 @@ relations:
   target: lpc.term.the-lapsed
 - type: associated-with
   target: lpc.quote.such-a-one-with-his-friends
+use_note:
+  means: "A certificate was a confessor's letter for a lapsed person, asking for or granting peace, which Cyprian wanted to name the person and come from someone who knew him."
+  not_for:
+    - "a claim that it is the same paper as the Decian sacrifice certificate"
+    - "a claim that Cyprian opposed such letters outright"
+    - "a claim that the confessors' side is heard beyond one general letter"
+    - "a claim that thousands were given, a wording that comes from an editor and not from Cyprian"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

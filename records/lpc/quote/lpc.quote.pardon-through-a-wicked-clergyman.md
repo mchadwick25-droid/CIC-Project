@@ -7,6 +7,15 @@ status: draft
 register: emic
 canon_cells:
 - F6-I
+use_note:
+  means: "Augustine says a person who comes to the gathered Church without hypocrisy receives forgiveness of sins in the Holy Spirit, even through a bad cleric, so long as the minister is a Catholic one."
+  not_for:
+    - "a claim that 'Catholic' means Roman Catholic"
+    - "a claim that the passage names the Donatists"
+    - "a claim about how a clergyman was ordained or removed"
+    - "a claim that it can be told without the argument on the sin against the Holy Spirit"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - C-T
+use_note:
+  means: "Augustine's confession of Jesus as God's only Son and of the Holy Spirit as completing the Trinity was disputed by the Arian bishop Maximinus at a public conference in Hippo."
+  not_for:
+    - "a claim that this doctrine is where this world's own material is most distinctive"
+    - "a claim that the doctrine went unchallenged"
+    - "a claim about how the conference with Maximinus ended"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

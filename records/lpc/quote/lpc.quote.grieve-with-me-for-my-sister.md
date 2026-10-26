@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F4-I
+use_note:
+  means: "Celerinus asks the confessor Lucian to grieve with him over his sister, whom he counts dead in spirit because she offered sacrifice in the persecution."
+  not_for:
+    - "a claim that gives the sister a name"
+    - "a claim that she had physically died"
+    - "a claim that the letter is Cyprian's, or that the sister's own account survives"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F5-I
+use_note:
+  means: "Pontius describes the plague at Carthage as a city shuddering and fleeing, putting out its own people, and leaving the dead lying in the streets."
+  not_for:
+    - "a claim about how many died or what the disease was"
+    - "a claim that Pontius is an outside witness, since he wrote in praise of his bishop"
+    - "a claim that 'their own friends' means companions rather than the household and kin the Latin names"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

@@ -26,6 +26,14 @@ relations:
   target: lpc.term.reconciliation-penitential-discipline
 - type: associated-with
   target: lpc.term.the-flock
+use_note:
+  means: "The lapsed were the church's own people who gave in to the order to sacrifice, by sacrificing or by buying a certificate, and who then asked to come back."
+  not_for:
+    - "a claim that they drifted away gradually, as a modern believer might"
+    - "a claim that a lapsed believer's own account survives"
+    - "a claim that their standing was a private matter with no public consequence"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-direct

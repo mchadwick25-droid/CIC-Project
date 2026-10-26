@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F1-I
+use_note:
+  means: "Augustine ranks Scripture above every later bishop's letter and allows a council to be corrected by a fuller one, so that Cyprian's council could be wrong without Cyprian being cut off."
+  not_for:
+    - "a claim naming which later council corrected which earlier one"
+    - "a claim that 'Catholic' here means a modern denomination"
+    - "a claim that this theory of council authority organized much of the world"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

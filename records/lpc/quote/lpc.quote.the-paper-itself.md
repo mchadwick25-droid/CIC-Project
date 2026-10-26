@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F2-E
+use_note:
+  means: "Cyprian checks a letter from the clergy at Rome by its handwriting, its content and its paper, and sends it back to be compared with what was sent."
+  not_for:
+    - "a claim about what had been changed in the letter or by whom"
+    - "a claim that the letter was proved a forgery"
+    - "a claim that 'clerical' means office work"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

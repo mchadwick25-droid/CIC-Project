@@ -7,6 +7,15 @@ status: draft
 register: emic
 canon_cells:
 - F1-I
+use_note:
+  means: "Presiding at the council of 256, Cyprian says no bishop sets himself up as a bishop of bishops or forces a colleague to obey, since each has his own right of judgment."
+  not_for:
+    - "a claim that it is an early anti-papal manifesto"
+    - "a claim that it states a modern principle of separated powers among equal branches"
+    - "a claim that it was aimed at Stephen of Rome"
+    - "a claim that ordinary believers or most clergy were formed by this question"
+  years: {from: 256, to: 256}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

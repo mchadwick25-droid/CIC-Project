@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F3-I
+use_note:
+  means: "Augustine tells his hearers they belong to his care so that he may give a good account of them, and that before God he has spoken and wept when not heard."
+  not_for:
+    - "a claim about the date, place or occasion of the sermon"
+    - "a claim that the closing prayer is Scripture"
+    - "a claim that the sentence before it, calling the hearers a Catholic people not divided from unity, is part of the quoted words"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

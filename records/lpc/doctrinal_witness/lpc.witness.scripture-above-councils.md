@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F2-T
+use_note:
+  means: "Augustine placed the canon of Scripture above every later bishop's letter and council, and Cyprian held that custom without truth is only the old age of error."
+  not_for:
+    - "a claim that Scripture was the church's only authority"
+    - "a claim that bishops and councils had no binding authority"
+    - "a claim that the two bishops argued the same dispute"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F3-E
+use_note:
+  means: "Answering Petilian, Augustine called Constantine no foe to the Christian name, and in City of God he said God let Constantine gain great power to show that earthly greatness never depended on the old gods."
+  not_for:
+    - "a claim that Augustine was a neutral witness, since Petilian's side had asked Constantine to judge and he ruled against them"
+    - "a claim that Augustine thought friendship with kings always safe"
+    - "a claim that Constantine's success proved a Christian's standing before God"
+  years: {from: 400, to: 413}
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-direct

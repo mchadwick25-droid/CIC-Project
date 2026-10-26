@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F3-E
+use_note:
+  means: "A Roman official named Demetrianus charged Christians with causing wars, plague and famine by refusing the old gods, and Cyprian wrote a whole reply."
+  not_for:
+    - "a claim that the neighbour's own words survive, since the charge is reported in Cyprian's reply"
+    - "a claim about whether Christians hid in catacombs"
+    - "a claim about what an outsider found strangest about them"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

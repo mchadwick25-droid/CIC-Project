@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F3-I
+use_note:
+  means: "Augustine tells his people that many of them will one day be dispensers of the Lord's food, and that he too once stood where they stand."
+  not_for:
+    - "a claim about when or how Augustine was ordained"
+    - "a claim that it describes an ordination rite"
+    - "a claim that 'dispensers' means machines or pharmacists"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

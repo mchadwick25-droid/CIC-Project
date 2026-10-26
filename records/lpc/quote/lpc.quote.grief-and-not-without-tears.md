@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F5-P
+use_note:
+  means: "Cyprian opens his reply to eight Numidian bishops by saying he read their news of captured brothers and sisters in great grief and with tears."
+  not_for:
+    - "a claim about who took the captives or where"
+    - "a claim that the opening is only a formal greeting"
+    - "a claim about what the passage says Cyprian then sent"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

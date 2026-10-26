@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F6-E
+use_note:
+  means: "The Acta gives Cyprian's whole answer to his death sentence as Deo gratias, thanks be to God."
+  not_for:
+    - "a claim that Pontius records this answer"
+    - "a claim that the Acta is a court transcript"
+    - "a claim that the words show relief or irony"
+  years: {from: 258, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

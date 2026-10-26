@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F4-I
+use_note:
+  means: "Lucian grants peace in the martyrs' name to women who fell, on the condition that each case first goes before the bishop and the sin is openly confessed."
+  not_for:
+    - "a claim that the grant stands without its condition that each case go before the bishop"
+    - "a claim about what the bishop decided for Numeria and Candida"
+    - "a claim that 'confession' means a private act before a priest"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

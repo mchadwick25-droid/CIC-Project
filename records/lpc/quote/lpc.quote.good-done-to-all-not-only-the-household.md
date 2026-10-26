@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F5-I
+use_note:
+  means: "Pontius says the plague relief at Carthage reached everyone and not only believers, and claims more was done than is told of Tobias."
+  not_for:
+    - "a claim about who received help, how much, or whether persecutors were among them"
+    - "a claim that any source outside Pontius describes the relief"
+    - "a claim that Tobias is anyone other than Tobit of the Book of Tobit"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

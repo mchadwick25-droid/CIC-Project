@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F1-E
+use_note:
+  means: "The record dates the 411 conference but has not validly read its transcript, so it cannot say how bishops beyond Cyprian and Augustine argued authority."
+  not_for:
+    - "a claim that the transcript shows how widely conciliar theory spread"
+    - "a claim about what was argued bishop by bishop"
+    - "a claim that the acts have been read in full"
+  years: {from: 411, to: 411}
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-direct

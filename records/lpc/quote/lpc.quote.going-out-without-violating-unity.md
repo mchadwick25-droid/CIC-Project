@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F3-T
+use_note:
+  means: "Augustine teaches that going out from the wicked means reproving and warning them with fitting discipline that does not break unity."
+  not_for:
+    - "a claim that every hearer had the same power to discipline, since the passage ties it to rank"
+    - "a claim that it names the Donatists or can be told without its Isaiah context"
+    - "a claim that bishops disagreeing with bishops appears here"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

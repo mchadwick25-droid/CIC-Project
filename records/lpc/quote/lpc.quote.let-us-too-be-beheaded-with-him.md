@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F6-E
+use_note:
+  means: "The Acta records the crowd of brethren crying that they too should be beheaded with Cyprian, after which an uproar rose and a large crowd followed him."
+  not_for:
+    - "a claim that Pontius records this cry"
+    - "a claim that anyone besides Cyprian was executed"
+    - "a claim that the cry was a riot"
+  years: {from: 258, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

@@ -7,6 +7,13 @@ status: draft
 register: emic
 canon_cells:
 - F2-E
+use_note:
+  means: "Cyprian tells the clergy at Rome that thirteen letters he sent from hiding show his counsel, exhortation and rebuke to the clergy, the confessors and the exiles."
+  not_for:
+    - "a claim about which thirteen letters they were"
+    - "a claim that they were a published book of letters"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

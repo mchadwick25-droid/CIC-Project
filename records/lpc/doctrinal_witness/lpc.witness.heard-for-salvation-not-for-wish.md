@@ -7,6 +7,13 @@ status: draft
 register: emic
 canon_cells:
 - F4-P
+use_note:
+  means: "Augustine taught from Paul's thorn that the saints are always heard in what concerns their salvation, even when they are not heard as they wished."
+  not_for:
+    - "a claim that God removed Paul's thorn"
+    - "a claim that Augustine promised any wish would be answered"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

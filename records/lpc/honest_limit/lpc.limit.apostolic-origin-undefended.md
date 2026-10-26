@@ -7,6 +7,13 @@ status: draft
 register: emic
 canon_cells:
 - F4-E
+use_note:
+  means: "Augustine traces infant baptism, the refusal to rebaptize and the office of bishop to the apostles, but catechesis, the road back and teaching before the water are not traced to the apostles by name."
+  not_for:
+    - "a claim that catechesis, the road back or teaching before the water is traced to the apostles"
+    - "a claim that the oneness of the episcopate is a traced lineage"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-direct

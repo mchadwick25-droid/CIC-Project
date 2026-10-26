@@ -8,6 +8,13 @@ register: emic
 demo_tag: exclude
 canon_cells:
 - F6-P
+use_note:
+  means: "The women who appear in either phase, such as Numeria, Candida and Albina, are met through men's words, and the record holds nothing a woman wrote herself."
+  not_for:
+    - "a claim that a woman's own writing survives"
+    - "a claim that a woman's spoken words set down by a man are her own writing"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-direct

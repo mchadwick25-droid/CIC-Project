@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F4-E
+use_note:
+  means: "Augustine said the refusal to rebaptize those baptized among heretics and the baptism of infants are rightly believed to come from the apostles, though no apostle's writing says so."
+  not_for:
+    - "a claim that a written apostolic text gives either practice"
+    - "a claim that Augustine traces catechesis or the road back to the apostles by name"
+    - "a claim that Cyprian shared Augustine's test of apostolic origin"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

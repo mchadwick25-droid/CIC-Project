@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F3-T
+use_note:
+  means: "Augustine tells lay hearers to stay in the one Church beside its bad members, apart from them in heart and joined in body, while still correcting those in their charge."
+  not_for:
+    - "a claim that bishops disagreeing with bishops appears in this passage"
+    - "a claim that the threshing-floor image just before it is part of the quoted words"
+    - "a claim that it permits hearers to ignore wrongdoing"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

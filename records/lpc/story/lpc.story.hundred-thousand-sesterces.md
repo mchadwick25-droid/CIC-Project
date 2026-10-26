@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F5-P
+use_note:
+  means: "Cyprian told eight Numidian bishops that Christ is to be seen in captive believers, and sent one hundred thousand sesterces gathered from his church's clergy and people."
+  not_for:
+    - "a claim about what the sum was worth in modern money"
+    - "a claim that the ransom worked"
+    - "a claim about what share of anything the sum represented"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

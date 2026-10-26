@@ -7,6 +7,13 @@ status: draft
 register: emic
 canon_cells:
 - F2-T
+use_note:
+  means: "Augustine admitted that Genesis reports three days before the sun and that what light made them lies beyond human senses, while holding that by Scripture's reckoning under 6,000 years had passed."
+  not_for:
+    - "a claim that Augustine explained how those first days worked"
+    - "a claim that the histories he rejected as mendacious are described in their own words here"
+  years: {from: 413, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

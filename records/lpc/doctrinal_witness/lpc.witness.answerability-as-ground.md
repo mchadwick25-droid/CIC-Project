@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F3-I
+use_note:
+  means: "In the world's own reading, a bishop's answerability for a particular people is the one root from which the road back, the weight of the font and disagreement without separation all grow."
+  not_for:
+    - "a claim that any source states this unity of the concerns in these terms, since it is this build's own synthesis"
+    - "a claim that answerability settles every hard case, such as the font answered twice in opposite ways"
+    - "a claim that the two bishops answered the font question alike"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority

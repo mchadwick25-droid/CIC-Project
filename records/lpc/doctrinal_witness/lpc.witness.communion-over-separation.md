@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F3-T
+use_note:
+  means: "Cyprian's council of 256 kept colleagues in communion despite disagreement, and Augustine later argued its ruling wrong without putting Cyprian outside, after early separations had shown what a break costs."
+  not_for:
+    - "a claim that the church never broke communion"
+    - "a claim that a source states the link between those early separations and the rule, which is a synthesis"
+    - "a claim that Cyprian and Augustine reached the same ruling"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct
