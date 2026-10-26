@@ -17,7 +17,7 @@ relations:
 - type: associated-with
   target: lpc.term.the-lapsed
 use_note:
-  means: "A libellus was a paper saying you had sacrificed, though some bought one, and Cyprian called them lapsed."
+  means: "A libellus said you had made the pagan offering; some bought one without making it, and Cyprian still held them fallen."
   not_for:
     - "a claim that it was a modern identity document or licence"
     - "a claim that the Latin word appears in the English volume, which renders it certificates"

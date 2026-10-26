@@ -8,7 +8,7 @@ register: emic
 canon_cells:
 - F1-E
 use_note:
-  means: "The record dates the 411 conference but has not read its transcript, so it cannot say how other bishops argued."
+  means: "We know when the 411 meeting took place, but its record has not been properly read, so we cannot say how the other bishops argued."
   not_for:
     - "a claim that the transcript shows how widely conciliar theory spread"
     - "a claim about what was argued bishop by bishop"

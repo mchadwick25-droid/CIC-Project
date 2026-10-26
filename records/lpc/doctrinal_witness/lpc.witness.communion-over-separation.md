@@ -8,7 +8,7 @@ register: emic
 canon_cells:
 - F3-T
 use_note:
-  means: "In 256 Cyprian said none would be cast out for differing, and Augustine later opposed his ruling but kept him in."
+  means: "In 256 Cyprian's council said it would cast out no one for a different view, and Augustine called it wrong but never cast Cyprian out."
   not_for:
     - "a claim that the church never broke communion"
     - "a claim that any source states a link between the early separations and the rule, since that link is our own reading"

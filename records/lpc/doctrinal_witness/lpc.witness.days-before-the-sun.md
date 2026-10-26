@@ -8,7 +8,7 @@ register: emic
 canon_cells:
 - F2-T
 use_note:
-  means: "Augustine said Genesis has three days before the sun, and held that under 6,000 years had passed."
+  means: "Augustine said the days before the sun are past our senses, and that by Scripture's count less than 6,000 years had passed."
   not_for:
     - "a claim that Augustine explained how those first days worked"
     - "a claim that the histories he rejected as mendacious are described in their own words here"

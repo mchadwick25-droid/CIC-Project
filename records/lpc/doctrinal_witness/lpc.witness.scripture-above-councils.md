@@ -8,7 +8,7 @@ register: emic
 canon_cells:
 - F2-T
 use_note:
-  means: "Cyprian said custom without truth is old error, and Augustine put Scripture first."
+  means: "Cyprian said a custom with no truth is just old error, and Augustine put Scripture above all bishops and their meetings."
   not_for:
     - "a claim that Scripture was the church's only authority"
     - "a claim that bishops and councils had no binding authority"

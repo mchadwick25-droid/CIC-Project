@@ -83,7 +83,7 @@ QUOTES = {
      "a claim that 'redeemed' carries only its church sense here",
      "a claim that the ransom succeeded"], C),
 "lpc.quote.clamour-and-tears": (
-    "Possidius says a Hippo crowd grabbed Augustine and begged the bishop to ordain him as he wept.",
+    "Possidius says a crowd at Hippo seized Augustine and loudly told their bishop to make him a priest, while he wept.",
     ["a claim that it was an orderly election",
      "a claim that it describes Augustine's later consecration as bishop",
      "a claim that Possidius, Augustine's friend, writes as an uninvolved witness"], D391),
@@ -93,7 +93,7 @@ QUOTES = {
      "a claim that the Donatist's quoted words are Augustine's own position",
      "a claim that the sermons show a formal ordination or a dispute between bishops"], A),
 "lpc.quote.earlier-councils-corrected-by-later": (
-    "Augustine says a council can be corrected by a wider one, and Scripture stands above all.",
+    "Augustine says a later, wider council can correct an earlier one, and Scripture stands above them all.",
     ["a claim naming which later council corrected which earlier one",
      "a claim that 'Catholic' here means a modern denomination",
      "a claim that this theory of council authority organized much of the world"], A),
@@ -175,7 +175,7 @@ QUOTES = {
      "a claim that bishops disagreeing with bishops appears here",
      "a claim that the passage stands without John 10:14, which the next sentence quotes"], A),
 "lpc.quote.pardon-through-a-wicked-clergyman": (
-    "Augustine says a bad cleric can still give forgiveness, if he is Catholic and the person means it.",
+    "Augustine says one who comes to the Church in good faith is forgiven in the Spirit, even through a bad priest.",
     ["a claim that 'Catholic' means Roman Catholic",
      "a claim that the passage names the Donatists",
      "a claim about how a clergyman was ordained or removed",
@@ -226,7 +226,7 @@ QUOTES = {
      "a claim about what the bishop decided for Numeria and Candida",
      "a claim that 'confession' means a private act before a priest"], C),
 "lpc.quote.the-creed-first-then-the-prayer": (
-    "Augustine tells candidates for baptism that they learned the Creed first, to know what to believe, and then the Lord's Prayer.",
+    "Augustine tells those to be baptized they got the Creed first, to know what to believe, then the Lord's Prayer, to know whom to ask.",
     ["a claim that the sermon is about the Creed rather than the Lord's Prayer",
      "a claim that it describes a formal ceremony of handing over the Creed",
      "a claim that the passage names Paul, whose words the first sentence quotes"], A),
@@ -283,7 +283,7 @@ QUOTES = {
      "a claim that it replies to the Pelagians",
      "a claim that the opening question was an objection raised by a hearer"], A),
 "lpc.quote.ye-belong-to-my-care": (
-    "Augustine tells his hearers they are in his care, and that he has spoken and wept before God.",
+    "Augustine says his hearers are in his care so he can give account for them, and that he wept when not heard.",
     ["a claim about the date, place or occasion of the sermon",
      "a claim that the closing prayer is Scripture",
      "a claim that the sentence before it, calling the hearers a Catholic people not divided from unity, is part of the quoted words"], B395),
@@ -296,7 +296,7 @@ WITNESSES = {
      "a claim that it gives a full account of marriage, courtship or the wedding",
      "a claim that the quoted line about water and fire is Cyprian's own composition and not Scripture"], C),
 "lpc.witness.answerability-as-ground": (
-    "In our view, a bishop's duty to answer for his people is the root of the road back, the font and peaceful disagreement.",
+    "In our view, a bishop's duty to answer for his people is the root of the road back, the font, and disagreement without a break.",
     ["a claim that any source states this link, since it is our own reading",
      "a claim that answerability settles every hard case, such as the font answered twice in opposite ways",
      "a claim that the two bishops answered the font question alike"], W),
@@ -315,13 +315,13 @@ WITNESSES = {
      "a claim about whether Christians hid in catacombs",
      "a claim about what an outsider found strangest about them"], C),
 "lpc.witness.communion-over-separation": (
-    "In 256 Cyprian said none would be cast out for differing, and Augustine later opposed his ruling but kept him in.",
+    "In 256 Cyprian's council said it would cast out no one for a different view, and Augustine called it wrong but never cast Cyprian out.",
     ["a claim that the church never broke communion",
      "a claim that any source states a link between the early separations and the rule, since that link is our own reading",
      "a claim that Cyprian and Augustine reached the same ruling",
      "a claim that Carthage and Rome stayed in communion through the 256 dispute"], W),
 "lpc.witness.confessor-claim-vs-regulated-peace": (
-    "Confessors claimed they could ask peace for the lapsed, and the church's rules answered, but never joined the two.",
+    "Confessors said they could ask peace for the lapsed, the church's rules answered them, and the two never became one rule.",
     ["a claim that the confessors' claim was a pretense or counted for nothing",
      "a claim that the church found a single rule saying which governs when the two conflict",
      "a claim that the confessors' own voice survives beyond a general letter to Cyprian"], C),
@@ -331,7 +331,7 @@ WITNESSES = {
      "a claim that Augustine thought friendship with kings always safe",
      "a claim that Constantine's success proved a Christian's standing before God"], (400, 426)),
 "lpc.witness.days-before-the-sun": (
-    "Augustine said Genesis has three days before the sun, and held that under 6,000 years had passed.",
+    "Augustine said the days before the sun are past our senses, and that by Scripture's count less than 6,000 years had passed.",
     ["a claim that Augustine explained how those first days worked",
      "a claim that the histories he rejected as mendacious are described in their own words here",
      "a claim about Augustine's place in modern debates over the age of the earth or evolution",
@@ -356,12 +356,12 @@ WITNESSES = {
      "a claim that God forgives one who refuses from the heart to forgive someone who asks",
      "a claim that the two passages come from one work"], A),
 "lpc.witness.scripture-above-councils": (
-    "Cyprian said custom without truth is old error, and Augustine put Scripture first.",
+    "Cyprian said a custom with no truth is just old error, and Augustine put Scripture above all bishops and their meetings.",
     ["a claim that Scripture was the church's only authority",
      "a claim that bishops and councils had no binding authority",
      "a claim that the two bishops argued the same dispute"], W),
 "lpc.witness.the-only-son-and-the-trinity": (
-    "Augustine held that Jesus is God's only Son, and Arians disputed it.",
+    "Augustine held Jesus to be God's only Son within one God in three, and an Arian bishop at Hippo fought that belief.",
     ["a claim that this doctrine is what sets this tradition apart",
      "a claim that the doctrine went unchallenged",
      "a claim about how the conference with Maximinus ended"], A),
@@ -371,7 +371,7 @@ WITNESSES = {
      "a claim that our sources keep a developed telling of his life as its own story",
      "a claim that the pattern is only mystical"], A),
 "lpc.witness.tradition-tested-by-apostolic-warrant": (
-    "Cyprian would not call a custom apostolic unless it was written, but Augustine would if the Church kept it.",
+    "Cyprian would call a rite the apostles' own only if it was written; Augustine would too if the whole Church kept it in all lands.",
     ["a claim that the two bishops agreed on one test",
      "a claim that the tradition settled which test is truer",
      "a claim that the two bishops argued the same dispute",
@@ -422,7 +422,7 @@ TERMS = {
      "a claim that Cyprian taught it as an organizing concern",
      "a claim that it settles the Catholic and Protestant disagreements over grace"], A),
 "lpc.term.heresy": (
-    "The word raises whether baptism outside the church counts: Cyprian's council said no, and Augustine later said yes.",
+    "The word asks if baptism outside the church counts: Cyprian's council said no, and Augustine said it was truly given but did no good there.",
     ["a claim that it names a settled malicious deviation from an agreed orthodoxy",
      "a claim that De Unitate bears on Cyprian's argument against Stephen",
      "a claim that the question was closed and not argued by both sides"], W),
@@ -432,7 +432,7 @@ TERMS = {
      "a claim that the two acts weighed the same",
      "a claim that the grading rests on an editor's endnote"], C),
 "lpc.term.libelli": (
-    "A libellus was a paper saying you had sacrificed, though some bought one, and Cyprian called them lapsed.",
+    "A libellus said you had made the pagan offering; some bought one without making it, and Cyprian still held them fallen.",
     ["a claim that it was a modern identity document or licence",
      "a claim that the Latin word appears in the English volume, which renders it certificates",
      "a claim that Latin libellus names only this paper"], C),
@@ -525,7 +525,7 @@ STORIES = {
 
 LIMITS = {
 "lpc.limit.411-gesta-unread": (
-    "The record dates the 411 conference but has not read its transcript, so it cannot say how other bishops argued.",
+    "We know when the 411 meeting took place, but its record has not been properly read, so we cannot say how the other bishops argued.",
     ["a claim that the transcript shows how widely conciliar theory spread",
      "a claim about what was argued bishop by bishop",
      "a claim that the acts have been read in full"], D411),
@@ -538,7 +538,7 @@ LIMITS = {
     ["a claim that anyone among them knew someone who saw Jesus",
      "a claim that the argument rests on a chain of living memory"], W),
 "lpc.limit.ordinary-interior-life": (
-    "The record tells what bishops did, but seldom what plain folk felt, apart from Augustine's tears.",
+    "We show what bishops ruled but almost never what plain people felt, save the tears Augustine shed at his baptism, told long after.",
     ["a claim that Augustine's account of his baptism shows ordinary believers' experience",
      "a claim that an ordinary believer's own account survives",
      "a claim about what believers felt at the font or in the congregation"], W),
@@ -563,7 +563,7 @@ LIMITS = {
      "a claim that fills the silence from a neighbouring communion's sources",
      "a claim that no Catholic African writing survives from these years, since Optatus wrote against the Donatists c. 366 to 384"], (258, 391)),
 "lpc.limit.womens-own-voice": (
-    "Women like Numeria and Candida come to us in men's words, and no woman's own writing survives.",
+    "Women like Numeria and Candida come to us in men's words, and no writing by a woman of our own survives.",
     ["a claim that a woman's own writing survives",
      "a claim that a woman's spoken words set down by a man are her own writing"], W),
 }
@@ -581,7 +581,7 @@ CONTESTED = {
      "a claim that the question is settled in either direction",
      "a claim that the strengthened hand of the executioner is a fact"], D258),
 "lpc.contested.de-unitate-recensions": (
-    "Whether chapters 4 and 5 of De Unitate were added later or are Cyprian's own second draft stays open.",
+    "One form of two chapters of De Unitate may be a later hand's insertion or Cyprian's own rewrite, and that stays open.",
     ["a claim that the interpolation thesis is settled",
      "a claim that Cyprian wrote both recensions",
      "a claim that anything we say about the church rests on either recension's wording"], (251, 256)),
@@ -594,7 +594,7 @@ CONTESTED = {
 
 GRAVITIES = {
 "lpc.gravity.collegial-communion-preserved": (
-    "Bishops here argued hard but kept communion, from Cyprian on to Augustine.",
+    "Bishops here argued hard but worked to keep communion, not break it, from Cyprian to Augustine.",
     ["a claim that any source states this pattern across both phases, since it is our own reading",
      "a claim that bishops never broke communion"], W),
 "lpc.gravity.conciliar-authority-theory": (

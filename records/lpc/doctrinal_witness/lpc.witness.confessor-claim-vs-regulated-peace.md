@@ -8,7 +8,7 @@ register: emic
 canon_cells:
 - F6-I
 use_note:
-  means: "Confessors claimed they could ask peace for the lapsed, and the church's rules answered, but never joined the two."
+  means: "Confessors said they could ask peace for the lapsed, the church's rules answered them, and the two never became one rule."
   not_for:
     - "a claim that the confessors' claim was a pretense or counted for nothing"
     - "a claim that the church found a single rule saying which governs when the two conflict"

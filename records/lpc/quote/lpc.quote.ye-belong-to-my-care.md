@@ -8,7 +8,7 @@ register: emic
 canon_cells:
 - F3-I
 use_note:
-  means: "Augustine tells his hearers they are in his care, and that he has spoken and wept before God."
+  means: "Augustine says his hearers are in his care so he can give account for them, and that he wept when not heard."
   not_for:
     - "a claim about the date, place or occasion of the sermon"
     - "a claim that the closing prayer is Scripture"

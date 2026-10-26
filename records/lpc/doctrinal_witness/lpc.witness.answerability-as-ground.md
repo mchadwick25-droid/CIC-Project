@@ -8,7 +8,7 @@ register: emic
 canon_cells:
 - F3-I
 use_note:
-  means: "In our view, a bishop's duty to answer for his people is the root of the road back, the font and peaceful disagreement."
+  means: "In our view, a bishop's duty to answer for his people is the root of the road back, the font, and disagreement without a break."
   not_for:
     - "a claim that any source states this link, since it is our own reading"
     - "a claim that answerability settles every hard case, such as the font answered twice in opposite ways"

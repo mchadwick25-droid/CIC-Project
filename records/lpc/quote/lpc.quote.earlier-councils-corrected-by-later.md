@@ -8,7 +8,7 @@ register: emic
 canon_cells:
 - F1-I
 use_note:
-  means: "Augustine says a council can be corrected by a wider one, and Scripture stands above all."
+  means: "Augustine says a later, wider council can correct an earlier one, and Scripture stands above them all."
   not_for:
     - "a claim naming which later council corrected which earlier one"
     - "a claim that 'Catholic' here means a modern denomination"

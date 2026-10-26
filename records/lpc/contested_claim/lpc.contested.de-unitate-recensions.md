@@ -8,7 +8,7 @@ register: etic
 canon_cells:
 - F2-E
 use_note:
-  means: "Whether chapters 4 and 5 of De Unitate were added later or are Cyprian's own second draft stays open."
+  means: "One form of two chapters of De Unitate may be a later hand's insertion or Cyprian's own rewrite, and that stays open."
   not_for:
     - "a claim that the interpolation thesis is settled"
     - "a claim that Cyprian wrote both recensions"

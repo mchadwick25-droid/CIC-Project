@@ -8,7 +8,7 @@ register: emic
 canon_cells:
 - F6-I
 use_note:
-  means: "Augustine says a bad cleric can still give forgiveness, if he is Catholic and the person means it."
+  means: "Augustine says one who comes to the Church in good faith is forgiven in the Spirit, even through a bad priest."
   not_for:
     - "a claim that 'Catholic' means Roman Catholic"
     - "a claim that the passage names the Donatists"

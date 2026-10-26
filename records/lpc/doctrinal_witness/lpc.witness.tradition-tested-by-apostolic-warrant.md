@@ -8,7 +8,7 @@ register: emic
 canon_cells:
 - F4-E
 use_note:
-  means: "Cyprian would not call a custom apostolic unless it was written, but Augustine would if the Church kept it."
+  means: "Cyprian would call a rite the apostles' own only if it was written; Augustine would too if the whole Church kept it in all lands."
   not_for:
     - "a claim that the two bishops agreed on one test"
     - "a claim that the tradition settled which test is truer"

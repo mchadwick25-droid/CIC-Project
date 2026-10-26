@@ -8,7 +8,7 @@ register: emic
 canon_cells:
 - F3-I
 use_note:
-  means: "Possidius says a Hippo crowd grabbed Augustine and begged the bishop to ordain him as he wept."
+  means: "Possidius says a crowd at Hippo seized Augustine and loudly told their bishop to make him a priest, while he wept."
   not_for:
     - "a claim that it was an orderly election"
     - "a claim that it describes Augustine's later consecration as bishop"

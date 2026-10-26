@@ -8,7 +8,7 @@ register: etic
 canon_cells:
 - F3-T
 use_note:
-  means: "Bishops here argued hard but kept communion, from Cyprian on to Augustine."
+  means: "Bishops here argued hard but worked to keep communion, not break it, from Cyprian to Augustine."
   not_for:
     - "a claim that any source states this pattern across both phases, since it is our own reading"
     - "a claim that bishops never broke communion"

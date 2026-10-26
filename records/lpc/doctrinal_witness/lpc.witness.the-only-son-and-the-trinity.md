@@ -8,7 +8,7 @@ register: emic
 canon_cells:
 - C-T
 use_note:
-  means: "Augustine held that Jesus is God's only Son, and Arians disputed it."
+  means: "Augustine held Jesus to be God's only Son within one God in three, and an Arian bishop at Hippo fought that belief."
   not_for:
     - "a claim that this doctrine is what sets this tradition apart"
     - "a claim that the doctrine went unchallenged"

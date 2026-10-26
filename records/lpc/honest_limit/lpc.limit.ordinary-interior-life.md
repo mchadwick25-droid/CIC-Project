@@ -8,7 +8,7 @@ register: emic
 canon_cells:
 - F5-I
 use_note:
-  means: "The record tells what bishops did, but seldom what plain folk felt, apart from Augustine's tears."
+  means: "We show what bishops ruled but almost never what plain people felt, save the tears Augustine shed at his baptism, told long after."
   not_for:
     - "a claim that Augustine's account of his baptism shows ordinary believers' experience"
     - "a claim that an ordinary believer's own account survives"
