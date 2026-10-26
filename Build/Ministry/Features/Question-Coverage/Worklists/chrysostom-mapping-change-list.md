@@ -1,3 +1,13 @@
+# REVISED 2026-10-26 (supersedes the decision below)
+
+After the Opus review Mark re-decided: **`imperial-juridical-christianity` as `tradition` for the Constantinople-preached series only.** The Antioch-preached series stay with the Antiochene world. **No `context` rows for Jerome's, Gallic or Cappadocian worlds.** A passage index can still reach all of Chrysostom for pastors without making him any world's "we".
+
+Which series count as Constantinople is not settled in this folder. The reviewer named Acts, Hebrews, Colossians and the Thessalonian letters; the place of preaching of several series (Romans, Ephesians, the Pastorals, Philemon) is debated by scholars. The Library thread should establish the place for each of the 16 series from the vendored edition's own introductions (npnf111 to 114) and record the evidence and any doubt in the row note before adding `imperial-juridical-christianity`. Where the place is uncertain, leave the row as it is. Apply with the merge (`python cic/engine/corpus_map.py`), not by editing the generated buckets.
+
+The sections below are the superseded first proposal; use them only for the list of rows.
+
+---
+
 # Change list: map Chrysostom's homilies (npnf110 to 114) to built worlds
 
 Prepared 2026-10-26 by the question-design thread. **Not applied.** Nothing in `cic/corpus-map/` was edited from this thread. Decision by Mark, 2026-10-26: `imperial-juridical-christianity` (ijc) as `tradition`; `hieronymian-ascetic-literary` (hal), `gallic-monastic-ascetic-christianity` (gallic) and `cappadocian-nicene-pastoral-monastic-tradition` (cappadocian) as `context`; no download.
