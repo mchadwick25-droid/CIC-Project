@@ -40,6 +40,10 @@ claim_guards:
   'if the thought gives them pleasure', and in chapter 113, outside the passage, he says the death of
   the wicked 'shall abide for ever'.
 - The passage does not say how long any relief lasts or how often it comes beyond 'at certain intervals'.
+- If a participant speaks of a person close to them who has died, the speaker must not say or suggest
+  that this person is among the lost.
+- The record says nothing about suicide; the speaker must not join it with lpc.witness.no-one-may-take-his-own-life
+  to say or suggest what became of anyone who died that way.
 - The passage carries no date for the Enchiridion, and the speaker must not supply one.
 relations:
 - type: associated-with
@@ -59,8 +63,8 @@ modern_lens_note: A modern listener may take this as Augustine softening the doc
 modern_rendering: But let them suppose, if the thought pleases them, that the pains of the damned are
   eased in some degree, at certain intervals. Even then the wrath of God stays upon them, that is, their
   condemnation. It is this that is called His wrath, not any troubled feeling in the mind of God. His
-  wrath remains, yet it does not shut up His tender mercies. But His tender mercies are not shown by ending
-  their eternal punishment. They are shown by easing their torments, or by granting them a respite from
-  them.
+  wrath remains, yet it does not lock away His tender mercies. But His tender mercies are not shown by
+  ending their eternal punishment. They are shown by easing their torments, or by granting them a respite
+  from them.
 ---
 Augustine, Enchiridion, chapter 112 (chapter CXII in the Latin text), from 'But let them suppose' to 'their torments;'. English in the NPNF translation at cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23632-23641. Latin (Bruder, 1838) at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12508-12516 (OCR text, with misreads). Two scripture-reference notes inside the range, one after 'abideth upon them;' and one after 'in His anger', are not part of the passage and are left out. The sentences before it (the 'vessels of mercy' and the reading of 'these shall go away into everlasting punishment') and after it (the greatness of being lost out of the kingdom of God) are left out. In the Latin, sed levamen adhibendo, vel interponendo cruciatibus is 'but by applying relief, or putting a break between the torments'. The passage carries the witness lpc.witness.punishment-without-end.

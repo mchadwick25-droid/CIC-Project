@@ -24,7 +24,7 @@ confidence:
 sources:
 - source_id: lpc.source.cyprian-epistles
   locus: Epistle LVIII, to Fidus, section 2 (Epistle LXIV in the Oxford numbering; Hartel 64); English
-    at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35883-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt,
+    at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt,
     lines 11715-11722
   license: public-domain
 retrieval:
@@ -64,4 +64,4 @@ modern_rendering: 'As for the case of infants: you say they should not be baptiz
   No one agreed with the course you thought should be taken. Instead, we all judge that the mercy and
   grace of God must not be refused to any human being who is born.'
 ---
-Cyprian and his colleagues in council, Epistle LVIII to Fidus (ANF numbering; Epistle LXIV in the Oxford edition and in Hartel), section 2. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35883-35898. Latin (Hartel, CSEL 3) at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722 (the Latin section 2 ends at line 11730). A scripture-reference note inside the range and a page-break tag inside the word 'within' are not part of the passage. The words 'we all thought', 'we all rather judge' are the council's, since section 1 begins 'Cyprian, and others his colleagues who were present in council, in number sixty-six, to Fidus their brother'. Section 2 continues after the passage with 'For as the Lord says in His Gospel' and is left out. In the Latin, nulli hominum nato misericordiam Dei et gratiam denegandam is 'that God's mercy and grace are not to be denied to any person born'. The passage carries the witness lpc.witness.infants-and-the-sin-of-another.
+Cyprian and his colleagues in council, Epistle LVIII to Fidus (ANF numbering; Epistle LXIV in the Oxford edition and in Hartel), section 2. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898. Latin (Hartel, CSEL 3) at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722 (the Latin section 2 ends at line 11730). A scripture-reference note inside the range and a page-break tag inside the word 'within' are not part of the passage. The words 'we all thought', 'we all rather judge' are the council's, since section 1 begins 'Cyprian, and others his colleagues who were present in council, in number sixty-six, to Fidus their brother'. Section 2 continues after the passage with 'For as the Lord says in His Gospel' and is left out. In the Latin, nulli hominum nato misericordiam Dei et gratiam denegandam is 'that God's mercy and grace are not to be denied to any person born'. The passage carries the witness lpc.witness.infants-and-the-sin-of-another.

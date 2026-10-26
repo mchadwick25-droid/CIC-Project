@@ -243,17 +243,21 @@ Mount is vendored, and its three records say so. Each carries one
 inverse edge. Their canon cells are assigned by s2y and their use notes by
 s2u.
 
-DISCLOSURE QUOTES. Fourteen further `quote` records give what the bishops held on
-hell, judgment, the dead, infants and suicide, the hard parts included. Eight
+DISCLOSURE QUOTES. Seventeen further `quote` records give what the bishops held on
+hell, judgment, the dead, infants, outsiders and suicide, the hard parts included. Eight
 are from Augustine's Enchiridion (chapters 69, 70, 93, 110 in two parts, 111
-and 112 in two parts), one is from the Confessions (Monica's request), three
+and 112 in two parts), one is from Augustine's On the Merits and Forgiveness of
+Sins (unbaptized infants), one is from the Confessions (Monica's request), three
 are from Cyprian's letters (two to Fidus on infants, one to Jubaianus on
-heretics) and two are from City of God I.17 (the forgiveness of the virgins and
-the death of Judas). Each `text` is the NPNF or ANF English word for word. A
-scripture reference note is left out and not marked. An editor's bracketed
-note inside a passage is left out and marked with `...`, and the body says so.
-Each `modern_rendering` is the Opus rendering as written. Each `sources[].locus` gives the work and section, the English file
-lines and the Latin file lines. Each carries one `associated-with` edge to the
+heretics), two are from Cyprian's To Demetrianus (the fire that has no end, and
+the time for repentance) and two are from City of God I.17 (the forgiveness of
+the virgins and the death of Judas). Each `text` is the NPNF or ANF English word
+for word. A scripture reference note is left out and not marked. An editor's
+bracketed note inside a passage is likewise left out and not marked, and the body
+says so. Each `modern_rendering` is the Opus rendering as written, except the
+three newest records, which carry the placeholder RENDERING-PENDING until Opus
+writes them. Each `sources[].locus` gives the work and section, the English file
+lines and the Latin file lines. Each carries an `associated-with` edge to the
 `doctrinal_witness` record it bears, and that witness file declares the inverse
 edge. The two City of God quotes carry a guard that sends any participant who
 shows personal risk to the Facilitator and not to the Representative. Their
@@ -273,7 +277,7 @@ RELATIONS -- CLOSED-GRAPH DISCIPLINE. Every `relations[]` entry this script
 writes points at another record this same script creates (story<->story,
 story<->figure, story<->quote, figure<->figure, figure<->quote), except the
 eighteen sermon quotes, whose gravity edges are reciprocated by s25, and the
-fourteen disclosure quotes, whose witness edges are reciprocated in the
+seventeen disclosure quotes, whose witness edges are reciprocated in the
 witness files. The
 graph is built and reciprocated by one master pair-list (RELATION_PAIRS
 below), so every edge is declared on both ends by construction. Term
@@ -493,9 +497,13 @@ RELATION_PAIRS: list[tuple[str, str]] = [
     ("lpc.quote.thank-offerings-for-the-very-good", "lpc.witness.remembered-at-the-altar"),
     ("lpc.quote.remember-me-at-the-lords-altar", "lpc.witness.remembered-at-the-altar"),
     ("lpc.quote.the-mildest-punishment-of-all", "lpc.witness.infants-and-the-sin-of-another"),
+    ("lpc.quote.the-mildest-condemnation-of-all", "lpc.witness.infants-and-the-sin-of-another"),
     ("lpc.quote.not-to-be-refused-to-any-one-born-of-man", "lpc.witness.infants-and-the-sin-of-another"),
     ("lpc.quote.not-his-own-sins-but-the-sins-of-another", "lpc.witness.infants-and-the-sin-of-another"),
     ("lpc.quote.no-salvation-out-of-the-church", "lpc.witness.no-salvation-outside-the-church"),
+    ("lpc.quote.an-ever-burning-gehenna", "lpc.witness.no-salvation-outside-the-church"),
+    ("lpc.quote.an-ever-burning-gehenna", "lpc.witness.punishment-without-end"),
+    ("lpc.quote.no-repentance-is-too-late", "lpc.witness.no-salvation-outside-the-church"),
     ("lpc.quote.who-that-has-any-human-feeling-would-refuse-to-forgive-them", "lpc.witness.no-one-may-take-his-own-life"),
     ("lpc.quote.no-place-for-a-healing-penitence", "lpc.witness.no-one-may-take-his-own-life"),
 ]
@@ -3355,14 +3363,16 @@ def build_commentary_quotes() -> None:
 
 
 # ===========================================================================
-# DISCLOSURE QUOTES (14) -- what the bishops held on hell, judgment, the dead, infants and
+# DISCLOSURE QUOTES (17) -- what the bishops held on hell, judgment, the dead, infants and
 # suicide, the hard parts included, one per passage.
 # ===========================================================================
 
 NPNF102 = "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml"
 NPNF103 = "cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml"
+NPNF105 = "cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
 ENCH_LAT = "cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt"
 COG_LAT = "cic/texts/augustine_civitate-dei-1-13-lat_hoffmann-csel40-1.txt"
+DEMETR_LAT = "cic/texts/cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt"
 
 
 def build_disclosure_quotes() -> None:
@@ -3382,7 +3392,7 @@ def build_disclosure_quotes() -> None:
         "verbatim",
         "A modern listener may expect a vague warning. Augustine sets out two kingdoms after the "
         "final judgment. In the second, the bad 'drag a miserable existence in eternal death' and "
-        "cannot die, so that the life of one kingdom and the death of the other 'shall both be "
+        "cannot die. So the life of one kingdom and the death of the other 'shall both be "
         "without end'. He also says there are 'degrees of misery', some 'more endurably miserable "
         "than another'.",
         "After the resurrection, when the final judgment of all has been completed, there will be two kingdoms. Each will have its own clear boundaries. One is Christ’s, the other the devil’s. One is made up of the good, the other of the bad. Both are made up of angels and human beings. The first will have no will to sin, and the second no power to sin. Neither will have any power to choose death. The first will live truly and happily in eternal life. The second will drag out a wretched existence in eternal death, without the power of dying. For both the life and the death will be without end. Among the first there will be degrees of happiness, one happier than another. Among the second there will be degrees of misery, one more bearable than another.",
@@ -3403,6 +3413,11 @@ def build_disclosure_quotes() -> None:
          "death 'shall both be without end'.",
          "The passage does not describe the torments or say where they are; the speaker must not "
          "supply a description as if quoted.",
+         "If a participant speaks of a person close to them who has died, the speaker must not say "
+         "or suggest that this person is among the lost.",
+         "The record says nothing about suicide; the speaker must not join it with "
+         "lpc.witness.no-one-may-take-his-own-life to say or suggest what became of anyone who died "
+         "that way.",
          "The passage carries no date for the Enchiridion, and the speaker must not supply one."],
         "Augustine, Enchiridion, chapter 111 (chapter CXI in the Latin text). English in the NPNF "
         f"translation at {NPNF103}, lines 23591-23604. Latin (Bruder, 1838) at {ENCH_LAT}, lines "
@@ -3426,14 +3441,14 @@ def build_disclosure_quotes() -> None:
         "'indeed very many', in his own time did not believe the punishment of the lost would be "
         "eternal. He says they did not set themselves against Scripture. They 'soften down "
         "everything that seems hard'. He calls this 'in vain'.",
-        "So it is in vain that some, indeed very many, lament the eternal punishment and the endless, unbroken torments of the lost. They say they do not believe it will be so. They do not openly set themselves against Holy Scripture. But, prompted by their own feelings, they soften everything that seems hard. They give a milder sense to sayings they think were meant more to frighten than to be taken as literally true.",
+        "So it is in vain that some, indeed very many, lament the eternal punishment and the endless, unbroken torments of the lost. They say they do not believe it will be so. They do not set themselves directly against Holy Scripture. But, prompted by their own feelings, they soften everything that seems hard. They give a milder sense to sayings they think were meant more to frighten than to be taken as literally true.",
         conf("A", "verified-direct", "load-bearing", "Documented",
              "The text field is the NPNF English as printed. Its 'make moan over' renders the Latin "
              "miserantur, which means pity or feel compassion for. The people he answers feel pity for "
              "the lost, and he says that pity is 'in vain'."),
         [{"source_id": "lpc.source.augustine-the-enchiridion",
           "locus": "Enchiridion, chapter 112 (chapter CXII in the Latin), opening sentence; English at "
-                   f"{NPNF103}, lines 23613-23620; Latin at {ENCH_LAT}, lines 12480-12496",
+                   f"{NPNF103}, lines 23613-23620; Latin at {ENCH_LAT}, lines 12480-12497",
           "license": "public-domain"}],
         1,
         ["participant asks whether anyone among us doubted that the punishment of the lost would last "
@@ -3446,10 +3461,15 @@ def build_disclosure_quotes() -> None:
          "'in vain'.",
          "The passage does not say what reasons Augustine answers with; they come after it in chapter "
          "112, and the speaker must not supply them as if quoted here.",
+         "If a participant speaks of a person close to them who has died, the speaker must not say "
+         "or suggest that this person is among the lost.",
+         "The record says nothing about suicide; the speaker must not join it with "
+         "lpc.witness.no-one-may-take-his-own-life to say or suggest what became of anyone who died "
+         "that way.",
          "The passage carries no date for the Enchiridion, and the speaker must not supply one."],
         "Augustine, Enchiridion, chapter 112 (chapter CXII in the Latin text), the first sentence. "
         f"English in the NPNF translation at {NPNF103}, lines 23613-23620. Latin (Bruder, 1838) at "
-        f"{ENCH_LAT}, lines 12480-12496 (OCR text, with misreads; a page break and footnotes at lines "
+        f"{ENCH_LAT}, lines 12480-12497 (OCR text, with misreads; a page break and footnotes at lines "
         "12482-12490 sit inside the range and are not part of the passage). In the Latin, Frustra "
         "itaque nonnulli, immo quam plurimi is 'in vain, then, some, indeed very many', and humano "
         "miserantur adfectu is 'they pity from human feeling'. The rest of chapter 112 is left out. "
@@ -3472,7 +3492,7 @@ def build_disclosure_quotes() -> None:
         "times. He says God's wrath still stays on them. God's mercy is shown 'not in putting an end "
         "to their eternal punishment, but in mitigating, or in granting them a respite from, their "
         "torments'.",
-        "But let them suppose, if the thought pleases them, that the pains of the damned are eased in some degree, at certain intervals. Even then the wrath of God stays upon them, that is, their condemnation. It is this that is called His wrath, not any troubled feeling in the mind of God. His wrath remains, yet it does not shut up His tender mercies. But His tender mercies are not shown by ending their eternal punishment. They are shown by easing their torments, or by granting them a respite from them.",
+        "But let them suppose, if the thought pleases them, that the pains of the damned are eased in some degree, at certain intervals. Even then the wrath of God stays upon them, that is, their condemnation. It is this that is called His wrath, not any troubled feeling in the mind of God. His wrath remains, yet it does not lock away His tender mercies. But His tender mercies are not shown by ending their eternal punishment. They are shown by easing their torments, or by granting them a respite from them.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.augustine-the-enchiridion",
           "locus": "Enchiridion, chapter 112 (chapter CXII in the Latin), the sentences on mitigation; English "
@@ -3489,6 +3509,11 @@ def build_disclosure_quotes() -> None:
          "he says the death of the wicked 'shall abide for ever'.",
          "The passage does not say how long any relief lasts or how often it comes beyond 'at certain "
          "intervals'.",
+         "If a participant speaks of a person close to them who has died, the speaker must not say "
+         "or suggest that this person is among the lost.",
+         "The record says nothing about suicide; the speaker must not join it with "
+         "lpc.witness.no-one-may-take-his-own-life to say or suggest what became of anyone who died "
+         "that way.",
          "The passage carries no date for the Enchiridion, and the speaker must not supply one."],
         "Augustine, Enchiridion, chapter 112 (chapter CXII in the Latin text), from 'But let them "
         f"suppose' to 'their torments;'. English in the NPNF translation at {NPNF103}, lines "
@@ -3517,7 +3542,7 @@ def build_disclosure_quotes() -> None:
         "Augustine does not teach that here. He says whether some believers pass through such a fire "
         "'may be inquired into, and either ascertained or left doubtful'. He adds that it cannot "
         "help those who 'shall not inherit the kingdom of God' unless they repent and are forgiven.",
-        "And it is not impossible that something of the same kind may happen even after this life. Whether some believers will pass through a kind of purging fire may be asked. It may be found out, or it may stay hidden. Such believers would be set free from it sooner or later. The more they loved the goods that perish, the more slowly they would be freed. But this cannot be the case for any of those of whom it is said that they “shall not inherit the kingdom of God.” The one exception is if, after fitting repentance, their sins are forgiven them.",
+        "And it is not impossible that something of the same kind may happen even after this life. Whether some believers will pass through a kind of purging fire may be asked. It may be found out, or it may stay unknown. Some would be freed from it more quickly, some more slowly. The more they loved the goods that perish, the more slowly they would be freed. But this cannot be the case for any of those of whom it is said that they “shall not inherit the kingdom of God.” The one exception is if, after fitting repentance, their sins are forgiven them.",
         conf("A", "verified-direct", "load-bearing", "Documented",
              "The text field is the NPNF English as printed. Its 'left doubtful' renders the Latin "
              "latere, which means to lie hidden, so the sense is that the matter may be found out or may "
@@ -3563,7 +3588,7 @@ def build_disclosure_quotes() -> None:
         "life 'must be changed for the better'. Almsgiving serves 'to propitiate God for past sins, "
         "not to purchase impunity' for sins to come. God may still blot out sins already committed "
         "'if we do not neglect to make proper satisfaction'.",
-        "We must take care, though. No one should suppose that gross sins may be committed every day and atoned for every day by almsgiving. These are sins such as those committed by people who will not inherit the kingdom of God. The life must be changed for the better. Almsgiving must be used to seek God’s mercy for past sins. It must not be used to buy freedom from punishment for committing such sins in the future. For He has given no one leave to sin. Yet in His mercy He may blot out sins already committed, if we do not neglect to make proper amends.",
+        "We must take care, though. No one should suppose that grave sins may be committed every day and atoned for every day by almsgiving. These are sins such as those committed by people who will not inherit the kingdom of God. The life must be changed for the better. Almsgiving must be used to seek God’s mercy for past sins. It must not be used to buy freedom from punishment for committing such sins in the future. For He has given no one leave to sin. Yet in His mercy He may blot out sins already committed, if we do not neglect to make proper amends.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.augustine-the-enchiridion",
           "locus": "Enchiridion, chapter 70 (chapter LXX in the Latin), the whole chapter; English at "
@@ -3618,7 +3643,8 @@ def build_disclosure_quotes() -> None:
         ["participant asks what happens to babies who died unbaptized",
          "participant asks how Augustine judged those who die with only original sin",
          "participant asks whether punishment in the next world was the same for everyone"],
-        [],
+        ["participant asks specifically about babies who died unbaptized -- "
+         "lpc.quote.the-mildest-condemnation-of-all gives that"],
         ["The passage does not name infants or mention baptism; the speaker must not say it does. "
          "Chapter 43 of the same book says infants 'die only to original sin' in baptism, and uses "
          "the same words, 'the sin which they brought with them'.",
@@ -3640,6 +3666,50 @@ def build_disclosure_quotes() -> None:
     )
 
     emit_quote(
+        "the-mildest-condemnation-of-all",
+        "It may therefore be correctly affirmed, that such infants as quit the body without being "
+        "baptized will be involved in the mildest condemnation of all. That person, therefore, "
+        "greatly deceives both himself and others, who teaches that they will not be involved in "
+        "condemnation;",
+        "lpc.figure.augustine",
+        "verbatim",
+        "A modern listener may expect Augustine to be silent or gentle about babies who die "
+        "unbaptized. He is neither. He says 'such infants as quit the body without being baptized "
+        "will be involved in the mildest condemnation of all'. He says whoever teaches that they "
+        "will not be condemned 'greatly deceives both himself and others'.",
+        "So it may rightly be said that infants who leave the body unbaptized will share the mildest condemnation of all. And so a person who teaches that they will not be condemned greatly deceives both himself and others.",
+        conf("A", "verified-direct", "load-bearing", "Documented",
+             "The text field is the NPNF English as printed. A page-break tag inside 'such infants' is "
+             "stripped. The NPNF chapter title, 'Unbaptized Infants Damned, But Most Lightly', and "
+             "its endnote are the editor's and are not part of the passage."),
+        [{"source_id": "lpc.source.augustine-anti-pelagian-corpus",
+          "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older "
+                   f"numbering); English at {NPNF105}, line 2558",
+          "license": "public-domain"}],
+        1,
+        ["participant asks what happened to babies who died unbaptized"],
+        [],
+        ["The NPNF chapter title, 'Unbaptized Infants Damned, But Most Lightly', is the editor's, "
+         "not Augustine's; the speaker must not quote it as his.",
+         "The passage does not say what the condemnation is or where; it does not use the word "
+         "limbo, and the speaker must not supply either.",
+         "The speaker must not soften 'condemnation'; the mildest condemnation is still "
+         "condemnation.",
+         "The passage speaks of no one child; if a participant speaks of a child of their own or "
+         "close to them who died, the speaker must not apply the passage to that child."],
+        "Augustine, On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older "
+        f"numbering), the first two sentences of the chapter's text. English in the NPNF translation "
+        f"at {NPNF105}, line 2558. No Latin of this work is vendored (a filename search of "
+        "cic/texts/ found none). A page-break tag inside 'such infants' is stripped. The NPNF "
+        "chapter title, 'Unbaptized Infants Damned, But Most Lightly', and the editor's endnote "
+        "275, which cross-refers to Enchiridion 93 and Contra Julianum V.11, are the editor's and "
+        "are not part of the passage. The words after it, on the apostle's 'Judgment from one "
+        "offence to condemnation', are left out. The passage names the unbaptized infants that "
+        "Enchiridion 93 leaves unnamed, and is read with lpc.quote.the-mildest-punishment-of-all. "
+        "The passage carries the witness lpc.witness.infants-and-the-sin-of-another.",
+    )
+
+    emit_quote(
         "all-the-merit-or-demerit-is-acquired-in-this-life",
         "Nor can it be denied that the souls of the dead are benefited by the piety of their living "
         "friends, who offer the sacrifice of the Mediator, or give alms in the church on their "
@@ -3656,7 +3726,7 @@ def build_disclosure_quotes() -> None:
         "A modern listener may think prayers or gifts could still change a person's fate after "
         "death. Augustine says the living do help the dead, but only those who 'during their lives "
         "have earned such merit'. He says 'it is in this life that all the merit or demerit is "
-        "acquired', and that no one need hope to gain after death what he 'neglected to secure here'.",
+        "acquired'. No one need hope to gain after death what he 'neglected to secure here'.",
         "Nor can it be denied that the souls of the dead are helped by the devotion of their living friends. Those friends offer the sacrifice of the Mediator, or give alms in the church on their behalf. But these services help only those who earned, during their lives, the kind of merit that lets such services help them. For there is a way of life that is not so good that it needs no such help after death. Nor is it so bad that such help is of no use after death. There is also a kind of life so good that it does not need them. And there is one so bad that, when life is over, they give no help. So all merit or blame is gained in this life. It can either ease or worsen a person’s sufferings after this life. No one, then, should hope to gain after death the merit with God that he neglected to secure here.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.augustine-the-enchiridion",
@@ -3757,7 +3827,11 @@ def build_disclosure_quotes() -> None:
         "cic/texts/npnf101_augustine-confessions-letters.xml, lines 14192-14195. Latin (Knoell, CSEL "
         "33) at cic/texts/augustine_confessiones-lat_knoll-csel33.txt, lines 14839 and 14889-14890; "
         "the page's apparatus and a page break lie between those lines and are not part of the "
-        "passage. The words are Monica's as Augustine remembers and reports them. The sentences "
+        "passage. The words are Monica's as Augustine remembers and reports them. Monica's death "
+        "is dated 387 by the chronological table in the vendored NPNF volume "
+        "(cic/texts/npnf101_augustine-confessions-letters.xml, lines 3258-3260); Confessions "
+        "IX.xi.28 (line 14225) says she died in \"the fifty-sixth year of her age, and the "
+        "thirty-third of mine.\" The sentences "
         "before them in section 27, on her fever and on her words 'shall you bury your mother', are "
         "left out, as is the sentence after. In the Latin, ponite hoc corpus ubicumque is 'lay this "
         "body anywhere' and ut ad domini altare memineritis mei is 'that you remember me at the "
@@ -3782,7 +3856,7 @@ def build_disclosure_quotes() -> None:
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.cyprian-epistles",
           "locus": "Epistle LVIII, to Fidus, section 2 (Epistle LXIV in the Oxford numbering; Hartel 64); "
-                   f"English at {ANF05}, lines 35883-35898; Latin at {EPIST_LAT}, lines 11715-11722",
+                   f"English at {ANF05}, lines 35891-35898; Latin at {EPIST_LAT}, lines 11715-11722",
           "license": "public-domain"}],
         2,
         ["participant asks whether we baptized babies",
@@ -3799,7 +3873,7 @@ def build_disclosure_quotes() -> None:
          "not supply it."],
         "Cyprian and his colleagues in council, Epistle LVIII to Fidus (ANF numbering; Epistle LXIV "
         f"in the Oxford edition and in Hartel), section 2. English in the ANF translation at {ANF05}, "
-        f"lines 35883-35898. Latin (Hartel, CSEL 3) at {EPIST_LAT}, lines 11715-11722 (the Latin "
+        f"lines 35891-35898. Latin (Hartel, CSEL 3) at {EPIST_LAT}, lines 11715-11722 (the Latin "
         "section 2 ends at line 11730). A scripture-reference note inside the range and a page-break "
         "tag inside the word 'within' are not part of the passage. The words 'we all thought', 'we "
         "all rather judge' are the council's, since section 1 begins 'Cyprian, and others his "
@@ -3816,7 +3890,7 @@ def build_disclosure_quotes() -> None:
         "when they subsequently believed, remission of sins is granted—and nobody is hindered from "
         "baptism and from grace—how much rather ought we to shrink from hindering an infant, who, "
         "being lately born, has not sinned, except in that, being born after the flesh according to "
-        "Adam, ... he has contracted the contagion of the ancient death at its earliest birth, who "
+        "Adam, he has contracted the contagion of the ancient death at its earliest birth, who "
         "approaches the more easily on this very account to the reception of the forgiveness of "
         "sins—that to him are remitted, not his own sins, but the sins of another.",
         "lpc.figure.cyprian",
@@ -3828,8 +3902,8 @@ def build_disclosure_quotes() -> None:
         "Even the greatest sinners, who had sinned much against God, are granted forgiveness of sins when they later believe. No one is kept from baptism and grace. How much more, then, should we shrink from keeping back an infant! Being newly born, he has not sinned, except in one way. Born in the flesh as Adam’s child, he caught the infection of the ancient death at his very first birth. For this very reason he comes the more easily to receive the forgiveness of sins. What is forgiven him is not his own sins, but the sins of another.",
         conf("A", "verified-direct", "load-bearing", "Documented",
              "The text field is the ANF English as printed. An ANF editor's bracketed note, with verses "
-             "by George Canning, sits inside section 5 after 'according to Adam,'. It is not Cyprian's; "
-             "the '...' in the text marks where it was left out."),
+             "by George Canning, sits inside section 5 after 'according to Adam,'. It is not Cyprian's. "
+             "It is not part of the passage and is left out."),
         [{"source_id": "lpc.source.cyprian-epistles",
           "locus": "Epistle LVIII, to Fidus, section 5 (Epistle LXIV in the Oxford numbering; Hartel 64); "
                    f"English at {ANF05}, lines 35962-35981; Latin at {EPIST_LAT}, lines 11822-11850",
@@ -3852,7 +3926,7 @@ def build_disclosure_quotes() -> None:
         f"35962-35981. Latin (Hartel, CSEL 3) at {EPIST_LAT}, lines 11822-11828 and 11849-11850; the "
         "page's footnote apparatus and a page break at lines 11830-11848 lie between them and are "
         "not part of the passage. An ANF editor's bracketed note inside the sentence, with verses by "
-        "George Canning, is not Cyprian's. The '...' in the text marks where it was left out. A "
+        "George Canning, is not Cyprian's. It is not part of the passage and is left out. A "
         "scripture-reference note earlier in section 5 is outside the passage. In the Latin, "
         "contagium mortis antiquae prima natiuitate contraxit is 'he drew the contagion of the "
         "ancient death at his first birth' and non propria sed aliena peccata is 'not his own sins "
@@ -3869,7 +3943,7 @@ def build_disclosure_quotes() -> None:
         "crown of martyrdom contrary to the testimony of the apostle, who says that it will profit "
         "them nothing although they were burnt and slain. But if not even the baptism of a public "
         "confession and blood can profit a heretic to salvation, because there is no salvation out "
-        "of the Church, ... how much less shall it be of advantage to him, if in a hiding-place and "
+        "of the Church, how much less shall it be of advantage to him, if in a hiding-place and "
         "a cave of robbers, stained with the contagion of adulterous water, he has not only not put "
         "off his old sins, but rather heaped up still newer and greater ones!",
         "lpc.figure.cyprian",
@@ -3879,14 +3953,14 @@ def build_disclosure_quotes() -> None:
         "in a heretic's own blood does not benefit him, 'because there is no salvation out of the "
         "Church'. He then says a heretic baptized 'in a hiding-place and a cave of robbers' is "
         "'stained with the contagion of adulterous water'.",
-        "Can the power of baptism be greater or worth more than confession and suffering? That is when someone confesses Christ before others and is baptized in his own blood. Yet even this baptism does not help a heretic, though he confessed Christ and was put to death outside the Church. That holds unless the defenders and advocates of heretics declare that heretics killed in a false confession of Christ are martyrs. They would be giving them the glory and crown of martyrdom against the word of the apostle. He says it will profit them nothing, even if they were burned and killed. Not even the baptism of public confession and blood can help a heretic to salvation, because there is no salvation outside the Church. How much less will it help him in a hiding-place and a den of robbers, stained with the infection of adulterous water! There he has not only failed to put off his old sins. He has piled up still newer and greater ones.",
+        "Can the power of baptism be greater or worth more than confession and suffering? That is when someone confesses Christ before others and is baptized in his own blood. Yet even this baptism does not help a heretic, though he confessed Christ and was put to death outside the Church. Only the defenders and advocates of heretics say otherwise. They declare that heretics killed in a false confession of Christ are martyrs. They give them the glory and crown of martyrdom against the word of the apostle. He says it will profit them nothing, even if they were burned and killed. Not even the baptism of public confession and blood can help a heretic to salvation, because there is no salvation outside the Church. How much less will it help him in a hiding-place and a den of robbers, stained with the infection of adulterous water! There he has not only failed to put off his old sins. He has piled up still newer and greater ones.",
         conf("A", "verified-direct", "load-bearing", "Documented",
              "The text field is the ANF English as printed. An ANF editor's bracketed note follows 'out "
              "of the Church,' and says the maxim 'has been terribly misunderstood and cruelly abused'. It "
-             "is not Cyprian's; the '...' in the text marks where it was left out."),
+             "is not Cyprian's. It is not part of the passage and is left out."),
         [{"source_id": "lpc.source.cyprian-epistles",
           "locus": "Epistle LXXII, to Jubaianus, section 21 (Epistle LXXIII in the Oxford numbering; Hartel "
-                   f"73); English at {ANF05}, lines 38899-38919; Latin at {EPIST_LAT}, lines 15200-15230",
+                   f"73); English at {ANF05}, lines 38899-38919; Latin at {EPIST_LAT}, lines 15200-15231",
           "license": "public-domain"}],
         1,
         ["participant asks whether we believed there was salvation outside the Church",
@@ -3904,13 +3978,116 @@ def build_disclosure_quotes() -> None:
         "Cyprian, Epistle LXXII to Jubaianus (ANF numbering; Epistle LXXIII in the Oxford edition "
         "and in Hartel), section 21, from 'Can the power of baptism be greater' to 'newer and "
         f"greater ones!'. English in the ANF translation at {ANF05}, lines 38899-38919. Latin "
-        f"(Hartel, CSEL 3) at {EPIST_LAT}, lines 15200-15230 (OCR text; the first lines are misread, "
+        f"(Hartel, CSEL 3) at {EPIST_LAT}, lines 15200-15231 (OCR text; the first lines are misread, "
         "and footnote apparatus at lines 15208-15222 and a page break at line 15224 sit inside the "
         "range and are not part of the passage). Two notes sit inside the passage. The "
         "scripture-reference note after 'burnt and slain.' is left out. The ANF editor's bracketed "
-        "note after 'out of the Church,' is not Cyprian's. The '...' in the text marks where it was "
+        "note after 'out of the Church,' is not Cyprian's. It is not part of the passage and is "
         "left out. In the Latin, quia salus extra ecclesiam non est is 'because there is no "
         "salvation outside the Church'. The passage carries the witness "
+        "lpc.witness.no-salvation-outside-the-church.",
+    )
+
+    emit_quote(
+        "an-ever-burning-gehenna",
+        "What will then be the glory of faith? what the punishment of faithlessness? When the day of "
+        "judgment shall come, what joy of believers, what sorrow of unbelievers; that they should "
+        "have been unwilling to believe here, and now that they should be unable to return that they "
+        "might believe! An ever-burning Gehenna will burn up the condemned, and a punishment "
+        "devouring with living flames; nor will there be any source whence at any time they may have "
+        "either respite or end to their torments.",
+        "lpc.figure.cyprian",
+        "verbatim",
+        "A modern listener may expect Cyprian to speak only of heretics and schismatics. Here he "
+        "writes to Demetrianus, a pagan who blamed and persecuted Christians. He says an "
+        "'ever-burning Gehenna will burn up the condemned'. He says there will be no 'respite or end "
+        "to their torments'.",
+        "What then will be the glory of faith? What will be the punishment of unbelief? When the day of judgment comes, what joy for believers, what sorrow for unbelievers! They were unwilling to believe here, and now they cannot return to believe. An ever-burning Gehenna will burn up the condemned, a punishment that devours with living flames. There will be no source from which they may ever have either respite or end to their torments.",
+        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        [{"source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+          "locus": "To Demetrianus (An Address to Demetrianus, ANF Treatise V), section 24; English at "
+                   f"{ANF05}, lines 46246-46253; Latin at {DEMETR_LAT}, lines 914-919",
+          "license": "public-domain"}],
+        1,
+        ["participant asks whether we believed outsiders were going to hell",
+         "participant asks what Cyprian taught would happen to those who would not believe"],
+        [],
+        ["The addressee is a pagan who persecuted Christians, and the passage speaks of those who "
+         "heard and would not believe; it does not speak of people who never heard of Christ, and "
+         "the speaker must not say it does.",
+         "The sentences after the passage, on bodies kept 'in infinite tortures' and the persecutor "
+         "seen 'for ever', are left out, and the speaker must not supply them as if quoted.",
+         "The passage names no person as lost, and the speaker must not name any person or group as "
+         "lost.",
+         "If a participant speaks of a person close to them who has died, the speaker must not say "
+         "or suggest that this person is among the lost.",
+         "The record says nothing about suicide; the speaker must not join it with "
+         "lpc.witness.no-one-may-take-his-own-life to say or suggest what became of anyone who died "
+         "that way.",
+         "The passage carries no date for the treatise, and the speaker must not supply one."],
+        "Cyprian, To Demetrianus (An Address to Demetrianus, ANF Treatise V), section 24, from 'What "
+        "will then be the glory of faith?' to 'end to their torments.'. English in the ANF "
+        f"translation at {ANF05}, lines 46246-46253. Latin (Hartel, CSEL 3) at {DEMETR_LAT}, lines "
+        "914-919. The section number '24.' at the start of the English is not part of the passage. "
+        "Section 23 before it, in which Christ 'will call down on them that believe not, eternal "
+        "punishments in the fires of Gehenna', and the sentences after it, on souls and bodies and "
+        "the persecutor seen for ever, are left out. In the Latin, cremabit addictos ardens semper "
+        "gehenna is 'an ever-burning Gehenna will burn up the condemned' and nec erit unde habere "
+        "tormenta uel requiem possint aliquando uel finem is 'nor will there be any source whence "
+        "they may at any time have respite or end to their torments'. The passage is read with "
+        "lpc.quote.no-repentance-is-too-late, which speaks of the time still left. The passage "
+        "carries the witnesses lpc.witness.no-salvation-outside-the-church and "
+        "lpc.witness.punishment-without-end.",
+    )
+
+    emit_quote(
+        "no-repentance-is-too-late",
+        "When you have once departed thither, there is no longer any place for repentance, and no "
+        "possibility of making satisfaction. Here life is either lost or saved; here eternal safety "
+        "is provided for by the worship of God and the fruits of faith. Nor let any one be "
+        "restrained either by his sins or by his years from coming to obtain salvation. To him who "
+        "still remains in this world no repentance is too late.",
+        "lpc.figure.cyprian",
+        "verbatim",
+        "A modern listener may hear only the threat in Cyprian's words to Demetrianus. Here he turns "
+        "to an offer. After death, he says, 'there is no longer any place for repentance'. But 'To "
+        "him who still remains in this world no repentance is too late'.",
+        "When you have once gone there, there is no longer any place for repentance, and no way of making amends. Here life is either lost or saved. Here eternal safety is secured by the worship of God and the fruits of faith. Let no one be held back, either by his sins or by his years, from coming to obtain salvation. To anyone who still remains in this world, no repentance is too late.",
+        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        [{"source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+          "locus": "To Demetrianus (An Address to Demetrianus, ANF Treatise V), section 25, from 'When "
+                   f"you have once departed thither'; English at {ANF05}, lines 46296-46303; Latin at "
+                   f"{DEMETR_LAT}, lines 1001-1006",
+          "license": "public-domain"}],
+        2,
+        ["participant asks whether we believed outsiders were going to hell",
+         "participant asks whether it was ever too late to repent"],
+        ["participant asks what Cyprian said awaits those who would not believe -- "
+         "lpc.quote.an-ever-burning-gehenna gives that"],
+        ["The addressee is a pagan who persecuted Christians, and the passage speaks to a man still "
+         "living who may yet turn; it does not speak of people who never heard of Christ, and the "
+         "speaker must not say it does.",
+         "The speaker must not give 'no longer any place for repentance' without 'no repentance is "
+         "too late'; the warning and the offer stand together.",
+         "The passage names no person as lost or saved, and the speaker must not name any person or "
+         "group as either.",
+         "If a participant speaks of a person close to them who has died, the speaker must not say "
+         "or suggest that this person is among the lost.",
+         "The record says nothing about suicide; the speaker must not join it with "
+         "lpc.witness.no-one-may-take-his-own-life to say or suggest what became of anyone who died "
+         "that way.",
+         "The passage carries no date for the treatise, and the speaker must not supply one."],
+        "Cyprian, To Demetrianus (An Address to Demetrianus, ANF Treatise V), section 25, from "
+        "'When you have once departed thither' to 'no repentance is too late.'. English in the ANF "
+        f"translation at {ANF05}, lines 46296-46303 (the range ends on the line that holds "
+        f"'is too late.'). Latin (Hartel, CSEL 3) at {DEMETR_LAT}, lines 1001-1006 (a page break at "
+        "line 997 lies before the range). The sentences before it, with Cyprian's pointing the "
+        "persecutor to 'the ways of salvation', and the sentences after it, on seeking God's mercy "
+        "even at the end of life, are left out. In the Latin, quando istinc recessum fuerit, nullus "
+        "iam paenitentiae locus est is 'when one has departed from here, there is no longer any "
+        "place for repentance' and in isto adhuc mundo manenti paenitentia nulla sera est is 'for "
+        "one still remaining in this world no repentance is too late'. The passage is read with "
+        "lpc.quote.an-ever-burning-gehenna. The passage carries the witness "
         "lpc.witness.no-salvation-outside-the-church.",
     )
 
@@ -3930,7 +4107,7 @@ def build_disclosure_quotes() -> None:
         "gives both in one passage. First he asks who 'that has any human feeling would refuse to "
         "forgive' virgins who killed themselves 'to avoid such disgrace'. Then he says that 'he who "
         "kills himself is a homicide'.",
-        "So even if some of these virgins killed themselves to escape such disgrace, who with any human feeling would refuse to forgive them? Others would not end their lives, so as not to seem to escape another’s crime by a sin of their own. Whoever charges them with great wickedness for this is himself not free of the fault of folly. It is not lawful to take the law into our own hands and kill even a guilty person, whose death no public sentence has ordered. If so, then surely whoever kills himself is a killer. He is the guiltier of his own death, the more innocent he was of the offence for which he condemned himself to die.",
+        "So even if some of these virgins killed themselves to escape such disgrace, who with any human feeling would refuse to forgive them? Others would not end their lives, so as not to seem to escape another’s crime by a sin of their own. Whoever charges them with great wickedness for this is himself not free of the fault of folly. It is not lawful to take the law into our own hands and kill even a guilty person, whose death no public sentence has ordered. If so, then surely whoever kills himself commits homicide. He is the guiltier of his own death, the more innocent he was of the offence for which he condemned himself to die.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.augustine-city-of-god",
           "locus": "City of God, Book I, chapter 17, from the opening to the end of the second sentence of the "
@@ -3944,6 +4121,8 @@ def build_disclosure_quotes() -> None:
         ["If a participant's words show any personal risk or distress, this record is not used; the "
          "turn goes to the Facilitator, and the Representative is not called. The Representative must "
          "not answer such a participant from this record.",
+         "If a participant says that someone close to them died by suicide, this record is not used; "
+         "the turn goes to the Facilitator, and the Representative is not called.",
          "The passage does not say what became of any person who died by suicide, and the speaker "
          "must not make any claim about the eternal fate of any such person.",
          "The passage does not say anything about burial or funeral practice, and the speaker must "
@@ -3960,8 +4139,8 @@ def build_disclosure_quotes() -> None:
         "the first three sentences of chapter 17. The words after it, on Judas, are at "
         "lpc.quote.no-place-for-a-healing-penitence and are meant to be read with it. 'These "
         "virgins' and 'such disgrace' look back to chapter 16, outside the passage, on the violation "
-        "of virgins in captivity. In the Latin, quis humanus adfectus eis nolit ignoscere is 'what "
-        "human feeling would be unwilling to forgive them' and profecto etiam qui se ipsum occidit "
+        "of virgins in captivity. In the Latin, quis humanus adfectus eis nolit ignosci is 'what "
+        "human feeling would be unwilling that they be forgiven' and profecto etiam qui se ipsum occidit "
         "homicida est is 'surely he who kills himself is also a homicide'. This record is retrieved "
         "only for historical or teaching questions about what Augustine taught. The passage carries "
         "the witness lpc.witness.no-one-may-take-his-own-life.",
@@ -3979,7 +4158,7 @@ def build_disclosure_quotes() -> None:
         "aggravated than expiated the guilt' of his betrayal. By 'despairing of God's mercy', Judas "
         "'left to himself no place for a healing penitence'. Augustine says this of Judas, not of "
         "everyone who takes his own life.",
-        "Do we rightly curse the deed of Judas? Does truth itself declare that by hanging himself he added to the guilt of that most wicked betrayal, rather than atoning for it? For in a sorrow that brought death he despaired of God’s mercy. So he left himself no room for a repentance that heals.",
+        "Do we rightly abhor the deed of Judas? Does truth itself declare that by hanging himself he added to the guilt of that most wicked betrayal, rather than atoning for it? For in a sorrow that brought death he despaired of God’s mercy. So he left himself no room for a repentance that heals.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.augustine-city-of-god",
           "locus": f"City of God, Book I, chapter 17, the sentence on Judas; English at {NPNF102}, lines "
@@ -3992,6 +4171,8 @@ def build_disclosure_quotes() -> None:
         ["If a participant's words show any personal risk or distress, this record is not used; the "
          "turn goes to the Facilitator, and the Representative is not called. The Representative must "
          "not answer such a participant from this record.",
+         "If a participant says that someone close to them died by suicide, this record is not used; "
+         "the turn goes to the Facilitator, and the Representative is not called.",
          "The passage does not say what became of Judas after death, and the speaker must not make "
          "any claim about the eternal fate of any person who died by suicide.",
          "The speaker must not say Augustine called every person who took his own life a Judas or "
@@ -5283,7 +5464,7 @@ def main() -> None:
         f"expected one story record per Story-Chunk (7), wrote {len(story_files)}"
     )
     assert len(figure_files) == 7, f"expected 7 figure records, wrote {len(figure_files)}"
-    assert len(quote_files) == 81, f"expected 81 quote records (bounded set, see docstring), " \
+    assert len(quote_files) == 84, f"expected 84 quote records (bounded set, see docstring), " \
         f"wrote {len(quote_files)}"
 
     # Reciprocity self-check: every RELATION_PAIRS id must be a record this

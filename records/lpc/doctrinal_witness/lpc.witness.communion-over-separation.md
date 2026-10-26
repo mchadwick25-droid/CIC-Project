@@ -67,8 +67,6 @@ retrieval:
 relations:
 - type: associated-with
   target: lpc.gravity.collegial-communion-preserved
-- type: associated-with
-  target: lpc.witness.no-salvation-outside-the-church
 positions:
 - We can argue that a colleague's ruling was wrong, at length, and still keep him at our table. One of
   us said so when he opened the council that would settle the hardest question in the room. No bishop,

@@ -38,7 +38,7 @@ sources:
 - source_id: lpc.source.augustine-the-enchiridion
   locus: Enchiridion, chapter 113, the death of the wicked "shall abide for ever" -- verified directly
     against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23660-23668;
-    Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12534-12540
+    Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12534-12541
   license: public-domain
 retrieval:
   tier: 1
@@ -54,6 +54,8 @@ relations:
   target: lpc.quote.very-many-make-moan-over-the-eternal-punishment
 - type: associated-with
   target: lpc.quote.a-respite-from-their-torments
+- type: associated-with
+  target: lpc.quote.an-ever-burning-gehenna
 - type: associated-with
   target: lpc.witness.judged-on-the-life-lived-here
 - type: associated-with
@@ -76,6 +78,10 @@ claim_guards:
   lost.
 - The record does not say the punishment ends or fades; the speaker must not soften it, and must not sharpen
   it with torments the passages do not describe.
+- If a participant speaks of a person close to them who has died, the speaker must not say or suggest
+  that this person is among the lost.
+- The record says nothing about suicide; the speaker must not join it with lpc.witness.no-one-may-take-his-own-life
+  to say or suggest what became of anyone who died that way.
 text: Augustine taught that the punishment of the lost has no end. After the final judgment, he wrote,
   there are two kingdoms. The life of one and the death of the other "shall both be without end." The
   lost suffer in degrees, "one being more endurably miserable than another." Many around him found this

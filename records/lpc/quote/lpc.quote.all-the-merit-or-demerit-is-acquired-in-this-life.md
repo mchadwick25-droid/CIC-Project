@@ -57,8 +57,8 @@ speaker_or_author: lpc.figure.augustine
 license: verbatim
 modern_lens_note: A modern listener may think prayers or gifts could still change a person's fate after
   death. Augustine says the living do help the dead, but only those who 'during their lives have earned
-  such merit'. He says 'it is in this life that all the merit or demerit is acquired', and that no one
-  need hope to gain after death what he 'neglected to secure here'.
+  such merit'. He says 'it is in this life that all the merit or demerit is acquired'. No one need hope
+  to gain after death what he 'neglected to secure here'.
 modern_rendering: Nor can it be denied that the souls of the dead are helped by the devotion of their
   living friends. Those friends offer the sacrifice of the Mediator, or give alms in the church on their
   behalf. But these services help only those who earned, during their lives, the kind of merit that lets

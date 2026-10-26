@@ -22,8 +22,8 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: The text field is the ANF English as printed. An ANF editor's bracketed note, with
-    verses by George Canning, sits inside section 5 after 'according to Adam,'. It is not Cyprian's; the
-    '...' in the text marks where it was left out.
+    verses by George Canning, sits inside section 5 after 'according to Adam,'. It is not Cyprian's. It
+    is not part of the passage and is left out.
 sources:
 - source_id: lpc.source.cyprian-epistles
   locus: Epistle LVIII, to Fidus, section 5 (Epistle LXIV in the Oxford numbering; Hartel 64); English
@@ -52,7 +52,7 @@ relations:
 text: But again, if even to the greatest sinners, and to those who had sinned much against God, when they
   subsequently believed, remission of sins is granted—and nobody is hindered from baptism and from grace—how
   much rather ought we to shrink from hindering an infant, who, being lately born, has not sinned, except
-  in that, being born after the flesh according to Adam, ... he has contracted the contagion of the ancient
+  in that, being born after the flesh according to Adam, he has contracted the contagion of the ancient
   death at its earliest birth, who approaches the more easily on this very account to the reception of
   the forgiveness of sins—that to him are remitted, not his own sins, but the sins of another.
 speaker_or_author: lpc.figure.cyprian
@@ -68,4 +68,4 @@ modern_rendering: Even the greatest sinners, who had sinned much against God, ar
   For this very reason he comes the more easily to receive the forgiveness of sins. What is forgiven him
   is not his own sins, but the sins of another.
 ---
-Cyprian and his colleagues in council, Epistle LVIII to Fidus (ANF numbering; Epistle LXIV in the Oxford edition and in Hartel), section 5, from 'But again, if even to the greatest sinners' to the end of the sentence. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981. Latin (Hartel, CSEL 3) at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11828 and 11849-11850; the page's footnote apparatus and a page break at lines 11830-11848 lie between them and are not part of the passage. An ANF editor's bracketed note inside the sentence, with verses by George Canning, is not Cyprian's. The '...' in the text marks where it was left out. A scripture-reference note earlier in section 5 is outside the passage. In the Latin, contagium mortis antiquae prima natiuitate contraxit is 'he drew the contagion of the ancient death at his first birth' and non propria sed aliena peccata is 'not his own sins but another's'. The passage carries the witness lpc.witness.infants-and-the-sin-of-another.
+Cyprian and his colleagues in council, Epistle LVIII to Fidus (ANF numbering; Epistle LXIV in the Oxford edition and in Hartel), section 5, from 'But again, if even to the greatest sinners' to the end of the sentence. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981. Latin (Hartel, CSEL 3) at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11828 and 11849-11850; the page's footnote apparatus and a page break at lines 11830-11848 lie between them and are not part of the passage. An ANF editor's bracketed note inside the sentence, with verses by George Canning, is not Cyprian's. It is not part of the passage and is left out. A scripture-reference note earlier in section 5 is outside the passage. In the Latin, contagium mortis antiquae prima natiuitate contraxit is 'he drew the contagion of the ancient death at his first birth' and non propria sed aliena peccata is 'not his own sins but another's'. The passage carries the witness lpc.witness.infants-and-the-sin-of-another.

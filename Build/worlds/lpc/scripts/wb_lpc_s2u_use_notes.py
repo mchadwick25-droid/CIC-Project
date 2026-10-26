@@ -59,6 +59,11 @@ QUOTES = {
     ["a claim that gifts can save someone who lived badly",
      "a claim that the passage describes purgatory",
      "a claim that the passage says how the dead are helped"], A),
+"lpc.quote.an-ever-burning-gehenna": (
+    "Cyprian told a pagan who persecuted us that the condemned face a fire with no respite and no end.",
+    ["a claim that the passage speaks of people who never heard of Christ",
+     "a claim that the passage names any person as lost",
+     "a claim that the sentences after it, on bodies kept in infinite tortures, are part of it"], C),
 "lpc.quote.ancient-venom-against-my-episcopate": (
     "Cyprian calls his rivals' anger old venom aimed at his office, which he ties to the people's voice and God's judgment.",
     ["a claim that the quarrel was only personal or only rhetorical exaggeration",
@@ -234,6 +239,11 @@ QUOTES = {
     ["a claim about the eternal fate of Judas or of any person who died by suicide",
      "a claim that every person who kills himself gives up on God's mercy",
      "a claim that the passage is advice to a person now in distress"], A),
+"lpc.quote.no-repentance-is-too-late": (
+    "Cyprian told a pagan who persecuted us that there is no repentance after death, but none is too late for the living.",
+    ["a claim that the passage speaks of people who never heard of Christ",
+     "a claim that the passage names any person as lost or saved",
+     "a claim that the warning stands without the offer"], C),
 "lpc.quote.no-salvation-out-of-the-church": (
     "Cyprian says even a heretic's baptism in his own blood does not benefit him, since there is no salvation out of the Church.",
     ["a claim that the passage speaks of people who never heard of Christ",
@@ -353,6 +363,11 @@ QUOTES = {
     ["a claim that Augustine named any person or group as lost",
      "a claim that the passage describes the torments or where they are",
      "a claim that the punishment ends or fades"], A),
+"lpc.quote.the-mildest-condemnation-of-all": (
+    "Augustine said babies who die before baptism are condemned, but least of all, and that to deny it is to deceive.",
+    ["a claim that the passage says what the condemnation is or where it is",
+     "a claim that the passage uses the word limbo",
+     "a claim about what became of any one child"], A),
 "lpc.quote.the-mildest-punishment-of-all": (
     "Augustine says the mildest punishment of all falls on those with no sin of their own added to original sin.",
     ["a claim that the chapter names infants or mentions baptism",
@@ -515,7 +530,7 @@ WITNESSES = {
     ["a claim that God removed Paul's thorn",
      "a claim that Augustine promised any wish would be answered"], A),
 "lpc.witness.infants-and-the-sin-of-another": (
-    "We baptized babies at once, and Augustine taught that those with just Adam's sin get the mildest punishment.",
+    "We did not make babies wait to be baptized; Augustine said those who die without it get the mildest of all punishments.",
     ["a claim that Cyprian's letter uses the words original sin or guilt",
      "a claim that Augustine's chapter on punishment names infants or baptism",
      "a claim about what either bishop said of one child who died unbaptized"], W),
@@ -535,7 +550,7 @@ WITNESSES = {
      "a claim about burial or funeral practice",
      "a claim that the passage is advice to a person now in distress"], A),
 "lpc.witness.no-salvation-outside-the-church": (
-    "Cyprian wrote that there is no salvation out of the Church, and that a heretic's baptism in his own blood does not benefit him.",
+    "Cyprian said none are saved outside the Church; he warned those who would not believe of endless fire, but urged them to turn in time.",
     ["a claim that Cyprian wrote about people who never heard of Christ",
      "a claim that Augustine held the same view, since these passages do not say so",
      "a claim that the editor's note calling the maxim misunderstood is Cyprian's"], C),

@@ -515,14 +515,15 @@ force: lpc.force.donatist-schism (the rival communion itself -- dominant
   its own legitimacy; the concrete referent behind the term above)
 NOT claimed: no lpc record touches divorce or remarriage.
 
-DISCLOSURE QUOTES. The fourteen quote records from wb_lpc_s24.py's
+DISCLOSURE QUOTES. The seventeen quote records from wb_lpc_s24.py's
 build_disclosure_quotes() carry cells in the "quote" list below, and the six
 `doctrinal_witness` records they bear carry their own cells in their files.
 F4-T takes the final-judgment, after-death and infant-baptism material (the end
 of things and baptizing babies), F6-T takes hell and salvation outside the
 Church, F1-T takes original sin, and F5-I takes Monica's request as she lay
-dying. The two City of God I.17 quotes take F6-E, the cell that asks whether
-seeking martyrdom is a death wish, because no cell asks about suicide itself.
+dying. The two City of God I.17 quotes and their witness take F6-T, with the
+other hard teachings; F6-E's martyrdom material must not stand beside a question
+about suicide.
 
 ===========================================================================
 WHAT THIS SCRIPT DOES
@@ -752,11 +753,14 @@ ASSIGN: dict[str, list[tuple[str, list[str]]]] = {
         ("lpc.quote.thank-offerings-for-the-very-good", ["F4-T"]),
         ("lpc.quote.remember-me-at-the-lords-altar", ["F5-I"]),
         ("lpc.quote.the-mildest-punishment-of-all", ["F1-T"]),
+        ("lpc.quote.the-mildest-condemnation-of-all", ["F1-T", "F4-T"]),
         ("lpc.quote.not-to-be-refused-to-any-one-born-of-man", ["F4-T"]),
         ("lpc.quote.not-his-own-sins-but-the-sins-of-another", ["F1-T", "F4-T"]),
         ("lpc.quote.no-salvation-out-of-the-church", ["F6-T"]),
-        ("lpc.quote.who-that-has-any-human-feeling-would-refuse-to-forgive-them", ["F6-E"]),
-        ("lpc.quote.no-place-for-a-healing-penitence", ["F6-E"]),
+        ("lpc.quote.an-ever-burning-gehenna", ["F6-T"]),
+        ("lpc.quote.no-repentance-is-too-late", ["F6-T"]),
+        ("lpc.quote.who-that-has-any-human-feeling-would-refuse-to-forgive-them", ["F6-T"]),
+        ("lpc.quote.no-place-for-a-healing-penitence", ["F6-T"]),
     ],
     "contested_claim": [
         ("lpc.contested.compel-coercion-development", ["F3-P"]),  # retagged in rework, was F6-P

@@ -6,7 +6,7 @@ schema_version: 2
 status: draft
 register: emic
 canon_cells:
-- F6-E
+- F6-T
 use_note:
   means: "Augustine says Judas gave up on God's mercy and so left no place for a healing penitence."
   not_for:
@@ -37,6 +37,8 @@ claim_guards:
 - If a participant's words show any personal risk or distress, this record is not used; the turn goes
   to the Facilitator, and the Representative is not called. The Representative must not answer such a
   participant from this record.
+- If a participant says that someone close to them died by suicide, this record is not used; the turn
+  goes to the Facilitator, and the Representative is not called.
 - The passage does not say what became of Judas after death, and the speaker must not make any claim about
   the eternal fate of any person who died by suicide.
 - The speaker must not say Augustine called every person who took his own life a Judas or said that all
@@ -56,7 +58,7 @@ license: verbatim
 modern_lens_note: Augustine uses Judas as his example. He says that by hanging himself Judas 'rather aggravated
   than expiated the guilt' of his betrayal. By 'despairing of God's mercy', Judas 'left to himself no
   place for a healing penitence'. Augustine says this of Judas, not of everyone who takes his own life.
-modern_rendering: Do we rightly curse the deed of Judas? Does truth itself declare that by hanging himself
+modern_rendering: Do we rightly abhor the deed of Judas? Does truth itself declare that by hanging himself
   he added to the guilt of that most wicked betrayal, rather than atoning for it? For in a sorrow that
   brought death he despaired of God’s mercy. So he left himself no room for a repentance that heals.
 ---

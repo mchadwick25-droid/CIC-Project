@@ -22,12 +22,12 @@ confidence:
   formation_confidence: Documented
   divergence_note: The text field is the ANF English as printed. An ANF editor's bracketed note follows
     'out of the Church,' and says the maxim 'has been terribly misunderstood and cruelly abused'. It is
-    not Cyprian's; the '...' in the text marks where it was left out.
+    not Cyprian's. It is not part of the passage and is left out.
 sources:
 - source_id: lpc.source.cyprian-epistles
   locus: Epistle LXXII, to Jubaianus, section 21 (Epistle LXXIII in the Oxford numbering; Hartel 73);
     English at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 38899-38919; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt,
-    lines 15200-15230
+    lines 15200-15231
   license: public-domain
 retrieval:
   tier: 1
@@ -54,7 +54,7 @@ text: Can the power of baptism be greater or of more avail than confession, than
   assign to them the glory and the crown of martyrdom contrary to the testimony of the apostle, who says
   that it will profit them nothing although they were burnt and slain. But if not even the baptism of
   a public confession and blood can profit a heretic to salvation, because there is no salvation out of
-  the Church, ... how much less shall it be of advantage to him, if in a hiding-place and a cave of robbers,
+  the Church, how much less shall it be of advantage to him, if in a hiding-place and a cave of robbers,
   stained with the contagion of adulterous water, he has not only not put off his old sins, but rather
   heaped up still newer and greater ones!
 speaker_or_author: lpc.figure.cyprian
@@ -65,13 +65,13 @@ modern_lens_note: A modern listener may expect a gentle line about outsiders. Cy
   baptized 'in a hiding-place and a cave of robbers' is 'stained with the contagion of adulterous water'.
 modern_rendering: Can the power of baptism be greater or worth more than confession and suffering? That
   is when someone confesses Christ before others and is baptized in his own blood. Yet even this baptism
-  does not help a heretic, though he confessed Christ and was put to death outside the Church. That holds
-  unless the defenders and advocates of heretics declare that heretics killed in a false confession of
-  Christ are martyrs. They would be giving them the glory and crown of martyrdom against the word of the
-  apostle. He says it will profit them nothing, even if they were burned and killed. Not even the baptism
-  of public confession and blood can help a heretic to salvation, because there is no salvation outside
-  the Church. How much less will it help him in a hiding-place and a den of robbers, stained with the
-  infection of adulterous water! There he has not only failed to put off his old sins. He has piled up
-  still newer and greater ones.
+  does not help a heretic, though he confessed Christ and was put to death outside the Church. Only the
+  defenders and advocates of heretics say otherwise. They declare that heretics killed in a false confession
+  of Christ are martyrs. They give them the glory and crown of martyrdom against the word of the apostle.
+  He says it will profit them nothing, even if they were burned and killed. Not even the baptism of public
+  confession and blood can help a heretic to salvation, because there is no salvation outside the Church.
+  How much less will it help him in a hiding-place and a den of robbers, stained with the infection of
+  adulterous water! There he has not only failed to put off his old sins. He has piled up still newer
+  and greater ones.
 ---
-Cyprian, Epistle LXXII to Jubaianus (ANF numbering; Epistle LXXIII in the Oxford edition and in Hartel), section 21, from 'Can the power of baptism be greater' to 'newer and greater ones!'. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 38899-38919. Latin (Hartel, CSEL 3) at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 15200-15230 (OCR text; the first lines are misread, and footnote apparatus at lines 15208-15222 and a page break at line 15224 sit inside the range and are not part of the passage). Two notes sit inside the passage. The scripture-reference note after 'burnt and slain.' is left out. The ANF editor's bracketed note after 'out of the Church,' is not Cyprian's. The '...' in the text marks where it was left out. In the Latin, quia salus extra ecclesiam non est is 'because there is no salvation outside the Church'. The passage carries the witness lpc.witness.no-salvation-outside-the-church.
+Cyprian, Epistle LXXII to Jubaianus (ANF numbering; Epistle LXXIII in the Oxford edition and in Hartel), section 21, from 'Can the power of baptism be greater' to 'newer and greater ones!'. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 38899-38919. Latin (Hartel, CSEL 3) at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 15200-15231 (OCR text; the first lines are misread, and footnote apparatus at lines 15208-15222 and a page break at line 15224 sit inside the range and are not part of the passage). Two notes sit inside the passage. The scripture-reference note after 'burnt and slain.' is left out. The ANF editor's bracketed note after 'out of the Church,' is not Cyprian's. It is not part of the passage and is left out. In the Latin, quia salus extra ecclesiam non est is 'because there is no salvation outside the Church'. The passage carries the witness lpc.witness.no-salvation-outside-the-church.

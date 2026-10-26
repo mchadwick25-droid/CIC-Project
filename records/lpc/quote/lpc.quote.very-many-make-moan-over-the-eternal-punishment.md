@@ -27,7 +27,7 @@ sources:
 - source_id: lpc.source.augustine-the-enchiridion
   locus: Enchiridion, chapter 112 (chapter CXII in the Latin), opening sentence; English at cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml,
     lines 23613-23620; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt,
-    lines 12480-12496
+    lines 12480-12497
   license: public-domain
 retrieval:
   tier: 1
@@ -40,6 +40,10 @@ claim_guards:
 - The speaker must not say Augustine allowed the doubters to be right; he calls their pity 'in vain'.
 - The passage does not say what reasons Augustine answers with; they come after it in chapter 112, and
   the speaker must not supply them as if quoted here.
+- If a participant speaks of a person close to them who has died, the speaker must not say or suggest
+  that this person is among the lost.
+- The record says nothing about suicide; the speaker must not join it with lpc.witness.no-one-may-take-his-own-life
+  to say or suggest what became of anyone who died that way.
 - The passage carries no date for the Enchiridion, and the speaker must not supply one.
 relations:
 - type: associated-with
@@ -56,9 +60,9 @@ modern_lens_note: A modern listener may think doubt about hell is a modern thing
   says they did not set themselves against Scripture. They 'soften down everything that seems hard'. He
   calls this 'in vain'.
 modern_rendering: So it is in vain that some, indeed very many, lament the eternal punishment and the
-  endless, unbroken torments of the lost. They say they do not believe it will be so. They do not openly
-  set themselves against Holy Scripture. But, prompted by their own feelings, they soften everything that
-  seems hard. They give a milder sense to sayings they think were meant more to frighten than to be taken
-  as literally true.
+  endless, unbroken torments of the lost. They say they do not believe it will be so. They do not set
+  themselves directly against Holy Scripture. But, prompted by their own feelings, they soften everything
+  that seems hard. They give a milder sense to sayings they think were meant more to frighten than to
+  be taken as literally true.
 ---
-Augustine, Enchiridion, chapter 112 (chapter CXII in the Latin text), the first sentence. English in the NPNF translation at cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23613-23620. Latin (Bruder, 1838) at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12480-12496 (OCR text, with misreads; a page break and footnotes at lines 12482-12490 sit inside the range and are not part of the passage). In the Latin, Frustra itaque nonnulli, immo quam plurimi is 'in vain, then, some, indeed very many', and humano miserantur adfectu is 'they pity from human feeling'. The rest of chapter 112 is left out. The passage carries the witness lpc.witness.punishment-without-end.
+Augustine, Enchiridion, chapter 112 (chapter CXII in the Latin text), the first sentence. English in the NPNF translation at cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 23613-23620. Latin (Bruder, 1838) at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 12480-12497 (OCR text, with misreads; a page break and footnotes at lines 12482-12490 sit inside the range and are not part of the passage). In the Latin, Frustra itaque nonnulli, immo quam plurimi is 'in vain, then, some, indeed very many', and humano miserantur adfectu is 'they pity from human feeling'. The rest of chapter 112 is left out. The passage carries the witness lpc.witness.punishment-without-end.

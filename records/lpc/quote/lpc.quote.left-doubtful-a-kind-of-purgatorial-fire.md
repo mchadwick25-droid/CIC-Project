@@ -59,7 +59,7 @@ modern_lens_note: A modern listener may take 'purgatorial fire' for the later Ch
   not inherit the kingdom of God' unless they repent and are forgiven.
 modern_rendering: And it is not impossible that something of the same kind may happen even after this
   life. Whether some believers will pass through a kind of purging fire may be asked. It may be found
-  out, or it may stay hidden. Such believers would be set free from it sooner or later. The more they
+  out, or it may stay unknown. Some would be freed from it more quickly, some more slowly. The more they
   loved the goods that perish, the more slowly they would be freed. But this cannot be the case for any
   of those of whom it is said that they “shall not inherit the kingdom of God.” The one exception is if,
   after fitting repentance, their sins are forgiven them.

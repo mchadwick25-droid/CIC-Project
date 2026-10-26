@@ -42,6 +42,10 @@ claim_guards:
   both be without end'.
 - The passage does not describe the torments or say where they are; the speaker must not supply a description
   as if quoted.
+- If a participant speaks of a person close to them who has died, the speaker must not say or suggest
+  that this person is among the lost.
+- The record says nothing about suicide; the speaker must not join it with lpc.witness.no-one-may-take-his-own-life
+  to say or suggest what became of anyone who died that way.
 - The passage carries no date for the Enchiridion, and the speaker must not supply one.
 relations:
 - type: associated-with
@@ -58,8 +62,8 @@ speaker_or_author: lpc.figure.augustine
 license: verbatim
 modern_lens_note: A modern listener may expect a vague warning. Augustine sets out two kingdoms after
   the final judgment. In the second, the bad 'drag a miserable existence in eternal death' and cannot
-  die, so that the life of one kingdom and the death of the other 'shall both be without end'. He also
-  says there are 'degrees of misery', some 'more endurably miserable than another'.
+  die. So the life of one kingdom and the death of the other 'shall both be without end'. He also says
+  there are 'degrees of misery', some 'more endurably miserable than another'.
 modern_rendering: After the resurrection, when the final judgment of all has been completed, there will
   be two kingdoms. Each will have its own clear boundaries. One is Christ’s, the other the devil’s. One
   is made up of the good, the other of the bad. Both are made up of angels and human beings. The first

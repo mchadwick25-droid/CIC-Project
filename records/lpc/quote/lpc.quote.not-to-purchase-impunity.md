@@ -59,7 +59,7 @@ modern_lens_note: A modern listener may hear almsgiving as a payment that buys o
   the life 'must be changed for the better'. Almsgiving serves 'to propitiate God for past sins, not to
   purchase impunity' for sins to come. God may still blot out sins already committed 'if we do not neglect
   to make proper satisfaction'.
-modern_rendering: We must take care, though. No one should suppose that gross sins may be committed every
+modern_rendering: We must take care, though. No one should suppose that grave sins may be committed every
   day and atoned for every day by almsgiving. These are sins such as those committed by people who will
   not inherit the kingdom of God. The life must be changed for the better. Almsgiving must be used to
   seek God’s mercy for past sins. It must not be used to buy freedom from punishment for committing such

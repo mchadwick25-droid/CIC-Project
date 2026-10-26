@@ -33,7 +33,9 @@ retrieval:
   - participant asks what happens to babies who died unbaptized
   - participant asks how Augustine judged those who die with only original sin
   - participant asks whether punishment in the next world was the same for everyone
-  prefer_instead: []
+  prefer_instead:
+  - participant asks specifically about babies who died unbaptized -- lpc.quote.the-mildest-condemnation-of-all
+    gives that
 claim_guards:
 - The passage does not name infants or mention baptism; the speaker must not say it does. Chapter 43 of
   the same book says infants 'die only to original sin' in baptism, and uses the same words, 'the sin
