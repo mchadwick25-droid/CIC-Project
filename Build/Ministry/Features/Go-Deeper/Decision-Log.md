@@ -1230,3 +1230,14 @@ Checked: all 349 app tests and `tsc` pass, three new panel tests cover the panel
 - The guesses an address can be given in a day are the ceiling times the tries, 30 times 5, which is 150 in 100,000,000: under 2 in a million, from about 5 in 100,000 before. A test pins the product, so changing either number is deliberate.
 - Deleting an account now also removes the per-network counters that carry its address hash.
 - Not changed: lockout is still possible by a determined sender with three networks who sends 30 codes to one inbox every day. Already-signed-in sessions (14 days idle) and Google or Apple sign-in are not affected.
+
+## 2026-10-25 — Tester codes: no daily limit, and the dashboard keeps a new code on screen (ruled by Mark, coupons build thread)
+
+101. Mark asked why tester codes are limited to two a day and ruled: "delete the limit, if i am the only one generating i don't need a limit, i might hand out 20 in a day if i sign a partnership for checking worlds." The `tester.max_per_day` setting and the meter's daily code count are removed, so any number can be made. The size of a tester code (20,000 tokens) and its days (up to 90) stay limited in the operations file, and the admin pack mint keeps its token limits. This changes the stated default of 2 a day set on 2026-10-15; Mark had not ruled on that number.
+
+102. The dashboard no longer hides a new code when the tab or app goes to the background. Mark: "don't hide it, this isn't that secure, i should be able to easily generate, copy and send." The code stays on the page until it is reloaded or "Hide codes" is pressed. The server still keeps only the hash and cannot show the code again. This applies to pack codes and tester codes alike. Reason for the change: the old hiding lost an unseen code on 2026-10-25, which then had to be cancelled.
+
+103. Mark asked that a code can be used by several people, then ruled: no cap on the number of people. The tokens are the only limit, and the code is one shared pool ("we dont need tokens per person, one number can be open multiple times"; on the choice of a cap on distinct browsers or none, "a"). Nothing is built for this part. A code held in an account is tied to the account and works from any browser or address, as attached codes already do.
+
+104. The dashboard keeps each code made in a list, "Codes I've made", until Mark deletes it. Mark: "a if no account, if its to an account it is tied to an account". The list is kept in the browser on that device only; the server keeps a hash and cannot show a code again. Each entry has Copy, Copy link, Delete (takes it off the list only) and Cancel code (voids it at the server). This replaces ruling 102's single box that stayed until reload.
+
