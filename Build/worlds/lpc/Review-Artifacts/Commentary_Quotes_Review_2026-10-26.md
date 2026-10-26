@@ -133,3 +133,41 @@ The three present-harm guards (A1, A7, A8) are worded correctly. They hand prese
 ## Verdict
 
 **Revise.** 4 P1 (A4-1, A5-1, C-1, P-1) and 16 P2. Every finding has an exact replacement. None needs new source work. After the fixes, a targeted recheck of the changed fields is enough.
+
+## Round 2 recheck
+
+- Scope: a targeted recheck of commit `8ae46353` against the round-1 findings, diffed against `900435e2`. Reviewer: Opus 5.5 (`claude-opus-5-5`). No model call was run, and no file other than this one was modified.
+- Gates: `python -m engine.m10.cli records lpc` **PASS**. `python -m engine.m10.cli regate lpc` **PASS**, both against the default base and with `--base 900435e2`. The only notes are base failures in other records that this batch did not change.
+- Script and record agree: every changed field in the 13 records is present in `wb_lpc_s24.py`, `wb_lpc_s2u_use_notes.py` or `wb_lpc_s2y_canon_cells.py`. The other-cheek edge is in `wb_lpc_s24.py` RELATION_PAIRS and in the `wb_lpc_s25.py` G4 list (preaching-and-catechesis). It is gone from the penitential-discipline list, and the two gravity records mirror the scripts.
+- Changed `means` (`engine.m1.gates.grade_text`): P-2 is 20 words, FK 9.32, FRE 63.9. O-2 is 22 words, FK 6.94, FRE 84.5. FK 6.94 is below the grade-8 floor, which is reported and not failed. T-1 is 22 words, FK 8.54, FRE 73.0. All pass.
+
+### Findings
+
+- **A1-1**: resolved, with a departure. The split ("...is to be forgiven. That holds if we want our Father to forgive the sins we commit against Him.") keeps the Father as the one who forgives and gives sentences of 14 and 15 words. The departure is sound.
+- **A1-2**: resolved. Both guards and the lens sentence are as proposed.
+- **A4-1**: resolved, with a departure. The divergence note and lens note are as proposed. The body now says the meaning of *agere poenitentiam* is contested, that the passage does not settle it, and that 'repenting' must not be read as ruling out the Church's penance. The `formation_confidence: Documented` field rates the attestation of the passage, not the meaning of the phrase, so leaving it unchanged is correct. No `contested_claim` record exists for the phrase, and none is needed for this batch. The departure is sound.
+- **A5-1**: resolved. The guard and the `not_for` are as proposed.
+- **A5-2**: resolved. The cell is F2-I in both the script and the record.
+- **L-1**: resolved. The cell is F2-I.
+- **L-2**: resolved. The `not_for` was added.
+- **L-3**: resolved. The `retrieve_when` is as proposed.
+- **L-4**: resolved. The build-note sentence was deleted.
+- **C-1**: resolved. The edge was moved to `lpc.gravity.preaching-and-catechesis` in the quote, both scripts and both gravity records. The body's last sentence is as proposed.
+- **C-2**: resolved. The guard and the `not_for` are as proposed.
+- **C-3**: resolved. The divergence note addition is as proposed.
+- **P-1**: resolved. The guard and `not_for` 3 are as proposed.
+- **P-2**: resolved.
+- **F-1**: resolved. The lens sentence and the body clause are as proposed.
+- **O-1**: resolved in both the locus and the body.
+- **O-2**: resolved.
+- **W-1**: resolved.
+- **U-1**: resolved. The cell is F5-T and the body sentence is as proposed.
+- **T-1**: resolved. The guard, the lens sentence and the `means` are as proposed.
+
+### New findings
+
+None. The changed fields add no claim beyond the passages and their stated context, and none of them is wrong.
+
+### Verdict
+
+**Approved to proceed.** All 4 P1 and 16 P2 findings are resolved. The two departures (A1-1, A4-1) are sound.
