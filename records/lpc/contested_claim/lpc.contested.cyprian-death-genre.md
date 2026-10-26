@@ -14,7 +14,7 @@ use_note:
     - "a claim that the question is settled in either direction"
     - "a claim that the strengthened hand of the executioner is a fact"
   years: {from: 258, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

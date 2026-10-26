@@ -641,7 +641,7 @@ def note_block(means: str, not_for: list[str], years: tuple[int, int]) -> list[s
     lines = ["use_note:", f"  means: {json.dumps(means, ensure_ascii=False)}", "  not_for:"]
     lines.extend(f"    - {json.dumps(line, ensure_ascii=False)}" for line in not_for)
     lines.append(f"  years: {{from: {years[0]}, to: {years[1]}}}")
-    lines.append("  status: provisional")
+    lines.append("  status: reviewed")
     return lines
 
 

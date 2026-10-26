@@ -15,7 +15,7 @@ use_note:
     - "a claim that the two bishops argued the same dispute"
     - "a claim that Cyprian's test covered every custom, since he aimed it at the tradition Stephen claimed"
   years: {from: 246, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

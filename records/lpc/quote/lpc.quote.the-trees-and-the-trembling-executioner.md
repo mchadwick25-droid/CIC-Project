@@ -14,7 +14,7 @@ use_note:
     - "a claim that merges Pontius's account of the blindfold with the Acta's"
     - "a claim that these details are independently attested, since the Acta tells none of them"
   years: {from: 258, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

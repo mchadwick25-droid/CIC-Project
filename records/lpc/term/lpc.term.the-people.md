@@ -25,7 +25,7 @@ use_note:
     - "a claim that the people held a formal ballot"
     - "a claim that the people always prevailed"
   years: {from: 246, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

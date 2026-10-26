@@ -14,7 +14,7 @@ use_note:
     - "a claim that a woman's own writing survives"
     - "a claim that a woman's spoken words set down by a man are her own writing"
   years: {from: 246, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-direct

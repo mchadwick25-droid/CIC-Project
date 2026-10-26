@@ -15,7 +15,7 @@ use_note:
     - "a claim that 'burned, preserved' is a cold word game rather than a naming of a martyr's completion"
     - "a claim that the Latin certainly says 'unconquered' rather than 'unwillingly'"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

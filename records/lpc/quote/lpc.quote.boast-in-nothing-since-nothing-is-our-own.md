@@ -14,7 +14,7 @@ use_note:
     - "a claim that it replies to Pelagius, whose controversy came long after Cyprian"
     - "a claim that Cyprian taught the full doctrine of grace that Augustine later argued"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

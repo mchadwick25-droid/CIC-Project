@@ -30,7 +30,7 @@ use_note:
     - "a claim that a Donatist answer to it survives"
     - "a claim that an editor's verdict on Augustine's reading of the parable is part of the teaching"
   years: {from: 391, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

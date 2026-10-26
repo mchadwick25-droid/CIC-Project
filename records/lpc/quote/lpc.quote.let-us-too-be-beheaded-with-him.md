@@ -14,7 +14,7 @@ use_note:
     - "a claim that anyone besides Cyprian was executed"
     - "a claim that the cry was a riot"
   years: {from: 258, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

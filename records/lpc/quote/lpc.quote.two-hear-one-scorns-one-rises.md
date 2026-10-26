@@ -14,7 +14,7 @@ use_note:
     - "a claim that it explains why one hearer rises and the other scorns, such as a doctrine of election"
     - "a claim that 'rises' means the resurrection"
   years: {from: 391, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

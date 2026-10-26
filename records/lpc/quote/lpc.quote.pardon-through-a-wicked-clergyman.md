@@ -15,7 +15,7 @@ use_note:
     - "a claim about how a clergyman was ordained or removed"
     - "a claim that it can be told without the argument on the sin against the Holy Spirit"
   years: {from: 391, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

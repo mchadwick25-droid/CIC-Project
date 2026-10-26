@@ -15,7 +15,7 @@ use_note:
     - "a claim that the process was private confession"
     - "a claim that Augustine's church had no penitential discipline"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority

@@ -14,7 +14,7 @@ use_note:
     - "a claim that the volume of text shows breadth"
     - "a claim that Pelagius's own view is known"
   years: {from: 391, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

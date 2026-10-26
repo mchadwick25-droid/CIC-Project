@@ -14,7 +14,7 @@ use_note:
     - "a claim that Augustine thought friendship with kings always safe"
     - "a claim that Constantine's success proved a Christian's standing before God"
   years: {from: 400, to: 426}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-direct

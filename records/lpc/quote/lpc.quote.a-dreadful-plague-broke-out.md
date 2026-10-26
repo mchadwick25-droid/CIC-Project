@@ -14,7 +14,7 @@ use_note:
     - "a claim that Pontius is an outside witness, since he wrote in praise of his bishop"
     - "a claim that 'their own friends' means companions rather than the household and kin the Latin names"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

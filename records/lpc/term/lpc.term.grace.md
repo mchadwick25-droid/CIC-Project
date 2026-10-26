@@ -28,7 +28,7 @@ use_note:
     - "a claim that Cyprian taught it as an organizing concern"
     - "a claim that it settles the Catholic and Protestant disagreements over grace"
   years: {from: 391, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

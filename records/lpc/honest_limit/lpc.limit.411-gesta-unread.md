@@ -14,7 +14,7 @@ use_note:
     - "a claim about what was argued bishop by bishop"
     - "a claim that the acts have been read in full"
   years: {from: 411, to: 411}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-direct

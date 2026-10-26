@@ -14,7 +14,7 @@ use_note:
     - "a claim that an ordinary believer's own account survives"
     - "a claim about what believers felt at the font or in the congregation"
   years: {from: 246, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-direct

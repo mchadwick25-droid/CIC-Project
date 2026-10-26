@@ -14,7 +14,7 @@ use_note:
     - "a claim about whether Christians hid in catacombs"
     - "a claim about what an outsider found strangest about them"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

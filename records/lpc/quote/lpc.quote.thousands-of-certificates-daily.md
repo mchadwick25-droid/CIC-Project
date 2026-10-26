@@ -14,7 +14,7 @@ use_note:
     - "a claim that the 'wicked certificates' and the confessors' certificates are one document"
     - "a claim that Cyprian said such letters should not exist"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

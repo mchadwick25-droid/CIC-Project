@@ -14,7 +14,7 @@ use_note:
     - "a claim that the opening is only a formal greeting"
     - "a claim about what the passage says Cyprian then sent"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

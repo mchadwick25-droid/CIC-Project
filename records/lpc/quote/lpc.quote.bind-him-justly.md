@@ -14,7 +14,7 @@ use_note:
     - "a claim that the passage stands without the Matthew 18 steps Augustine quotes just before it"
     - "a claim that 'publican' means a keeper of a pub"
   years: {from: 391, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

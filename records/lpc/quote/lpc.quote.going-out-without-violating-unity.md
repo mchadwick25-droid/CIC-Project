@@ -14,7 +14,7 @@ use_note:
     - "a claim that it names the Donatists or can be told without its Isaiah context"
     - "a claim that bishops disagreeing with bishops appears here"
   years: {from: 391, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

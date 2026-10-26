@@ -14,7 +14,7 @@ use_note:
     - "a claim that Pontius judges Cyprian as an outside witness"
     - "a claim that any second witness confirms that Cyprian was a neophyte"
   years: {from: 248, to: 249}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

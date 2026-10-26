@@ -21,7 +21,7 @@ use_note:
     - "a claim that both phases share one word for it, when it is a pattern named from different figures and words"
     - "a claim that Augustine's episcopate came by the people's choice alone"
   years: {from: 246, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

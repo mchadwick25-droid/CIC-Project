@@ -13,7 +13,7 @@ use_note:
     - "a claim that any source states this pattern across both phases, since it is our own reading"
     - "a claim that bishops never broke communion"
   years: {from: 246, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority

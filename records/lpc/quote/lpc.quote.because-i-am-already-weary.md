@@ -14,7 +14,7 @@ use_note:
     - "a claim about what became of Lucian or his companions after the letter"
     - "a claim that the letter is Cyprian's own"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

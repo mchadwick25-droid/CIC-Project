@@ -14,7 +14,7 @@ use_note:
     - "a claim that answerability settles every hard case, such as the font answered twice in opposite ways"
     - "a claim that the two bishops answered the font question alike"
   years: {from: 246, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority

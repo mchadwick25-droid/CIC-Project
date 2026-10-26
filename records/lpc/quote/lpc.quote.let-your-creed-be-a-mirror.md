@@ -14,7 +14,7 @@ use_note:
     - "a claim about the words of the Creed or how often it is said"
     - "a claim that 'mind' and 'soul' are the same word in the Latin and the English"
   years: {from: 391, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

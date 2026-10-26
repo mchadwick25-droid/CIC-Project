@@ -25,7 +25,7 @@ use_note:
     - "a claim that it restates Cyprian's formula"
     - "a claim that the question reached ordinary formation in either phase"
   years: {from: 391, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

@@ -15,7 +15,7 @@ use_note:
     - "a claim that fills the silence from a neighbouring communion's sources"
     - "a claim that no Catholic African writing survives from these years, since Optatus wrote against the Donatists c. 366 to 384"
   years: {from: 258, to: 391}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-direct

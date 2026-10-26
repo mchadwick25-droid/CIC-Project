@@ -14,7 +14,7 @@ use_note:
     - "a claim that 'redeemed' carries only its church sense here"
     - "a claim that the ransom succeeded"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

@@ -14,7 +14,7 @@ use_note:
     - "a claim that she had physically died"
     - "a claim that the letter is Cyprian's, or that the sister's own account survives"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

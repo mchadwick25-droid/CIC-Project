@@ -14,7 +14,7 @@ use_note:
     - "a claim that Cyprian wrote both recensions"
     - "a claim that anything we say about the church rests on either recension's wording"
   years: {from: 251, to: 256}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

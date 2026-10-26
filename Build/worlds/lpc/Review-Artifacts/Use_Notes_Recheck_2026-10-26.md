@@ -86,3 +86,43 @@ Every new finding comes from one thing: cutting to 25 words removed a qualifier 
 **Revise.** R2-01 to R2-04 are P1 and must be fixed. The P2s are small wording changes and should go in the same edit. The notes stay `provisional`.
 
 This is the second review file on these notes. Under the review cap (CLAUDE.md, "Scaling the build"), a third round is the last before escalation. That round should be a narrow check of these 18 rows, the four P1s first, and nothing else.
+
+---
+
+## Round 3: a narrow recheck, 2026-10-26
+
+- **Scope:** `git diff HEAD~1` at `ccc9bc1e`. That is 18 `means` lines in the stage and the 19 records they write. No not_for line or `years` changed.
+- **Checks:**
+  - Each new line was read against its round-2 row and its record.
+  - `use-note-present` and `use-note-shape` pass.
+  - Re-applying the stage changes 0 of 117 files.
+  - `grade_text` finds 0 failures, and the longest `means` is 25 words.
+
+| ID | Sev | Status | Check |
+|---|---|---|---|
+| R2-01 | P1 | Fixed | "God's only Son within one God in three ... an Arian bishop at Hippo fought that belief". The contested object is now the Trinitarian confession, which matches the record. |
+| R2-02 | P1 | Fixed | "One form of two chapters ... a later hand's insertion or Cyprian's own rewrite". This names the real question. Dropping the label "Primacy Text" loses no scope. |
+| R2-03 | P1 | Fixed | "worked to keep communion, not break it". This is the record's own scope. |
+| R2-04 | P1 | Fixed | "one who comes to the Church in good faith is forgiven in the Spirit, even through a bad priest". The agency is back in the Spirit and the Church. "Catholic" can go, because the record's `divergence_note` reads it as a concession, not a condition. "Priest" is narrower than *clericus*; see the note below the table. |
+| R2-05 | P2 | Fixed | "got" stands for *accepistis*, and "to know whom to ask" is restored. |
+| R2-06 | P2 | Fixed | "the whole Church kept it in all lands" keeps universality. |
+| R2-07 | P2 | Fixed | "past our senses" and "by Scripture's count" are restored. |
+| R2-08 | P2 | Fixed | "truly given but did no good there". |
+| R2-09 | P2 | Fixed | "a woman of our own". |
+| R2-10 | P2 | Fixed | The account and "when not heard" are restored. |
+| R2-11 | P2 | Fixed | "some bought one without making it". |
+| R2-12 | P2 | Fixed | The sentence is grammatical, and "never became one rule" matches the record. |
+| R2-13 | P2 | Fixed | "loudly told their bishop to make him a priest". This is right for Augustine's ordination as a presbyter in 391. |
+| R2-14 | P2 | Fixed | "above all bishops and their meetings" and "above them all" (the councils) now name what Scripture stands above. |
+| R2-15 | P2 | Fixed | "almost never" is back, as are "at his baptism" and "told long after". |
+| R2-16 | P2 | Fixed | "has not been properly read" carries the sense of "validly". |
+| R2-17 | P2 | Fixed | "disagreement without a break". |
+| R2-18 | P2 | Fixed | "Cyprian's council said it would cast out no one ... never cast Cyprian out". The ruling is the council's, and the claim is scoped to what was said and done. |
+
+**New issues:** none at P1 or P2.
+
+One cosmetic note, not counted. In R2-04, "priest" is narrower than the record's "cleric". It does not change the meaning, and the reviser may keep it.
+
+### Verdict, round 3
+
+**Approved to proceed.** Every round-1 and round-2 finding is closed, except UN-22, which is the project lead's engine decision (OG-80). The notes may now be switched from `provisional` to `reviewed`.

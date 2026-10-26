@@ -14,7 +14,7 @@ use_note:
     - "a claim that the Donatist's quoted words are Augustine's own position"
     - "a claim that the sermons show a formal ordination or a dispute between bishops"
   years: {from: 391, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

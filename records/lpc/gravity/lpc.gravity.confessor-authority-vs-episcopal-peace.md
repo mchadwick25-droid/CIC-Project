@@ -14,7 +14,7 @@ use_note:
     - "a claim that evidence beyond Cyprian's letters supports it"
     - "a claim that the confessors were either usurpers or heroes"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority

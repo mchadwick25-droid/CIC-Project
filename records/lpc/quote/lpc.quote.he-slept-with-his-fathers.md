@@ -14,7 +14,7 @@ use_note:
     - "a claim that the Scripture phrases are Augustine's own words"
     - "a claim that any witness other than Possidius describes the sickroom"
   years: {from: 430, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

@@ -14,7 +14,7 @@ use_note:
     - "a claim that it replies to the Pelagians"
     - "a claim that it sets out a whole doctrine of grace"
   years: {from: 391, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

@@ -14,7 +14,7 @@ use_note:
     - "a claim that it describes an ordination rite"
     - "a claim that 'dispensers' means machines or pharmacists"
   years: {from: 395, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

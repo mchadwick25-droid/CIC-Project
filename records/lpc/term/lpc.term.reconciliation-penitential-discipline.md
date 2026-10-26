@@ -37,7 +37,7 @@ use_note:
     - "a claim that it was complete once both parties felt differently"
     - "a claim that the reconciled believer's own account survives"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

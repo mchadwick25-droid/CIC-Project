@@ -14,7 +14,7 @@ use_note:
     - "a claim that our sources keep a developed telling of his life as its own story"
     - "a claim that the pattern is only mystical"
   years: {from: 391, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

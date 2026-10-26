@@ -14,7 +14,7 @@ use_note:
     - "a claim that any witness besides Pontius confirms that Cyprian was a neophyte"
     - "a claim that Pontius, writing in praise, is a neutral witness"
   years: {from: 248, to: 251}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

@@ -14,7 +14,7 @@ use_note:
     - "a claim that it describes formal public penance or excommunication"
     - "a claim that the Latin asks for forgetting the fault"
   years: {from: 391, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

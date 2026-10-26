@@ -14,7 +14,7 @@ use_note:
     - "a claim that the closing prayer is Scripture"
     - "a claim that the sentence before it, calling the hearers a Catholic people not divided from unity, is part of the quoted words"
   years: {from: 395, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

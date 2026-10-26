@@ -15,7 +15,7 @@ use_note:
     - "a claim that any witness besides Possidius describes the sickroom"
     - "a claim about what leaving Hippo was like"
   years: {from: 430, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

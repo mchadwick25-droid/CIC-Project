@@ -14,7 +14,7 @@ use_note:
     - "a claim about what the bishop decided for Numeria and Candida"
     - "a claim that 'confession' means a private act before a priest"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

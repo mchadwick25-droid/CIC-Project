@@ -14,7 +14,7 @@ use_note:
     - "a claim that God forgives one who refuses from the heart to forgive someone who asks"
     - "a claim that the two passages come from one work"
   years: {from: 391, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

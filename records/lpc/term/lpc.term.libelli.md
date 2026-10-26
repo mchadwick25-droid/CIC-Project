@@ -23,7 +23,7 @@ use_note:
     - "a claim that the Latin word appears in the English volume, which renders it certificates"
     - "a claim that Latin libellus names only this paper"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

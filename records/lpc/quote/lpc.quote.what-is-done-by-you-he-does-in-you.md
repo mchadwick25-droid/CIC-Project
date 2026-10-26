@@ -14,7 +14,7 @@ use_note:
     - "a claim that it replies to the Pelagians"
     - "a claim that the opening question was an objection raised by a hearer"
   years: {from: 391, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

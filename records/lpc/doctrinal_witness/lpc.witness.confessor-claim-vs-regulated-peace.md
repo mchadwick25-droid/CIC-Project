@@ -14,7 +14,7 @@ use_note:
     - "a claim that the church found a single rule saying which governs when the two conflict"
     - "a claim that the confessors' own voice survives beyond a general letter to Cyprian"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

@@ -14,7 +14,7 @@ use_note:
     - "a claim that the doctrine went unchallenged"
     - "a claim about how the conference with Maximinus ended"
   years: {from: 391, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

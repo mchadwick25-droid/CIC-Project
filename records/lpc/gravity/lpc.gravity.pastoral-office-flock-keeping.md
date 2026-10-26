@@ -12,7 +12,7 @@ use_note:
   not_for:
     - "a claim that the bishop was a regional administrator"
   years: {from: 246, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority

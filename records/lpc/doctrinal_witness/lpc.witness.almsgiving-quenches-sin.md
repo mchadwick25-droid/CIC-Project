@@ -14,7 +14,7 @@ use_note:
     - "a claim that it gives a full account of marriage, courtship or the wedding"
     - "a claim that the quoted line about water and fire is Cyprian's own composition and not Scripture"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

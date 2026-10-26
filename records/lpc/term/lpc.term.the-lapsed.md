@@ -33,7 +33,7 @@ use_note:
     - "a claim that a lapsed believer's own account survives"
     - "a claim that their standing was a private matter with no public consequence"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-direct

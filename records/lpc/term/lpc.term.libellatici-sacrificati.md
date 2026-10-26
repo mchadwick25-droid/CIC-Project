@@ -21,7 +21,7 @@ use_note:
     - "a claim that the two acts weighed the same"
     - "a claim that the grading rests on an editor's endnote"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

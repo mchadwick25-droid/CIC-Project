@@ -14,7 +14,7 @@ use_note:
     - "a claim that the two theories reconcile into one"
     - "a claim that the question reached ordinary believers"
   years: {from: 246, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

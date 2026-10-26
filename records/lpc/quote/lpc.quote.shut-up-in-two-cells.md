@@ -14,7 +14,7 @@ use_note:
     - "a claim that the Latin of the first sentence is clear"
     - "a claim that the letter is Cyprian's"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

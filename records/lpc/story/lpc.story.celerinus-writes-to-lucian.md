@@ -15,7 +15,7 @@ use_note:
     - "a claim that Lucian's grant stood without his condition that each case be set before the bishop"
     - "a claim that the confessors were either usurpers or heroes"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

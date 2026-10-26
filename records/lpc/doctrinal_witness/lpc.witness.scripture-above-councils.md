@@ -14,7 +14,7 @@ use_note:
     - "a claim that bishops and councils had no binding authority"
     - "a claim that the two bishops argued the same dispute"
   years: {from: 246, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

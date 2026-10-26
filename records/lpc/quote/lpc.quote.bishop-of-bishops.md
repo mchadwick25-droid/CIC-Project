@@ -15,7 +15,7 @@ use_note:
     - "a claim that Cyprian's words name Stephen as their target"
     - "a claim that ordinary believers or most clergy were formed by this question"
   years: {from: 256, to: 256}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

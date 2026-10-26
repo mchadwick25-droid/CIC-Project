@@ -15,7 +15,7 @@ use_note:
     - "a claim that a contemporaneous statement of the earlier view survives"
     - "a claim that this position is or is not the ancestor of later inquisitorial practice"
   years: {from: 391, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority

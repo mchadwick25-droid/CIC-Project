@@ -14,7 +14,7 @@ use_note:
     - "a claim that any source outside Pontius describes the relief"
     - "a claim that Tobias is anyone other than Tobit of the Book of Tobit"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

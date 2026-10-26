@@ -14,7 +14,7 @@ use_note:
     - "a claim that a lapsed believer judged the terms of return just"
     - "a claim that a first-person text from a lapsed believer survives"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-direct

@@ -2033,3 +2033,18 @@ Logged 2026-10-26.
   - six search records, including the saturation sweep record.
   `records lpc --freeze` no longer reports a missing search record.
 - **Owner.** The `lpc` build thread; UN-22 is the project lead's.
+
+### OG-81. Use notes approved to proceed; commentary batch next; topics carried (2026-10-26).
+
+Logged 2026-10-26.
+
+- **Use notes.** Three review files (`Use_Notes_Review_2026-10-26.md`, and `Use_Notes_Recheck_2026-10-26.md` with rounds 2 and 3) end in Approved to proceed. All 117 notes are marked `reviewed`. Every `means` is one sentence of at most 25 words, at FK 10 or below and FRE 60 or above. UN-22 stays with the project lead (OG-80).
+- **Commentary batch.** By the project lead's ruling (`lpc_Decision_Log.md`, 2026-10-26), one batch of commentary passages goes in before packaging. The sources are the *Expositions on the Psalms*, the *Tractates on John*, the *Ten Homilies on 1 John* and *The Sermon on the Mount*. Each record names its Bible passage, so a verse question can reach it.
+- **Carried: topics with no record.** No `lpc` record covers hell, judgment, the dead, infants or suicide, though vendored passages exist:
+  - *Enchiridion* 69–70, 83 and 110;
+  - *City of God* I.17;
+  - Cyprian to Fidus on infants;
+  - Monica's request at her death.
+  Suicide is safety-adjacent and is governed by the Facilitator, not the voice.
+- **Carried: a passage index.** A per-world index from Bible passage to record is a fleet engine feature, not this world's. It is raised for its own work item.
+- **Owner.** The `lpc` build thread.

@@ -14,7 +14,7 @@ use_note:
     - "a claim that merges the two accounts or settles which is right"
     - "a claim that the Acta is a court transcript"
   years: {from: 258, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

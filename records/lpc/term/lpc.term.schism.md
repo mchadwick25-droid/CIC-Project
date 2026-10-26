@@ -27,7 +27,7 @@ use_note:
     - "a claim that the line between heresy and schism was as stable as later usage implies"
     - "a claim that this entry characterizes Donatism"
   years: {from: 246, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

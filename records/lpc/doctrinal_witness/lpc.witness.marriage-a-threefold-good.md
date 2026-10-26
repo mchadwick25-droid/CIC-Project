@@ -14,7 +14,7 @@ use_note:
     - "a claim that separation ended the marriage bond"
     - "a claim that the translator's preface is Augustine's own words"
   years: {from: 391, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

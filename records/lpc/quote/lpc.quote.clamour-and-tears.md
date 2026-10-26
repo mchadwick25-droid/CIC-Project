@@ -14,7 +14,7 @@ use_note:
     - "a claim that it describes Augustine's later consecration as bishop"
     - "a claim that Possidius, Augustine's friend, writes as an uninvolved witness"
   years: {from: 391, to: 391}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

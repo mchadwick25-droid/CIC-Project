@@ -14,7 +14,7 @@ use_note:
     - "a claim that it describes how readmission of the lapsed worked"
     - "a claim that the lapsed give their own account of their fall"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

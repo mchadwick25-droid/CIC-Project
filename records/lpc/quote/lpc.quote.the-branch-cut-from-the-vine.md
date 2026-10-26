@@ -14,7 +14,7 @@ use_note:
     - "a claim that Augustine used the word valid"
     - "a claim that the sermon shows a formal ordination or a dispute between bishops"
   years: {from: 391, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

@@ -14,7 +14,7 @@ use_note:
     - "a claim that delay always ended as his did"
     - "a claim that the prayer was made at the moment he was persuaded"
   years: {from: 397, to: 401}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

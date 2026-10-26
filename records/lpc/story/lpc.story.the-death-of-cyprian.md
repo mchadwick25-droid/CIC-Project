@@ -15,7 +15,7 @@ use_note:
     - "a claim that the Acta is a court transcript"
     - "a claim that any spectator's own account survives"
   years: {from: 258, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-direct

@@ -14,7 +14,7 @@ use_note:
     - "a claim that the letter was proved a forgery"
     - "a claim that 'clerical' means office work"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

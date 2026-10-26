@@ -13,7 +13,7 @@ use_note:
     - "a claim that God removed Paul's thorn"
     - "a claim that Augustine promised any wish would be answered"
   years: {from: 391, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

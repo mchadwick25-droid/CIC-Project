@@ -14,7 +14,7 @@ use_note:
     - "a claim that it describes a formal ceremony of handing over the Creed"
     - "a claim that the passage names Paul, whose words the first sentence quotes"
   years: {from: 391, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

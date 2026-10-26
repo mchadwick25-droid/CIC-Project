@@ -13,7 +13,7 @@ use_note:
     - "a claim about how many kept watch"
     - "a claim that Cyprian spent the night in a prison cell"
   years: {from: 258, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

@@ -13,7 +13,7 @@ use_note:
     - "a claim that anyone among them knew someone who saw Jesus"
     - "a claim that the argument rests on a chain of living memory"
   years: {from: 246, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-direct

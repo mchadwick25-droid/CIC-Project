@@ -14,7 +14,7 @@ use_note:
     - "a claim that the ransom freed anyone"
     - "a claim about what share of the church's wealth the sum was"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

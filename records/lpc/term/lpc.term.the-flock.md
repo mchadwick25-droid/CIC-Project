@@ -41,7 +41,7 @@ use_note:
     - "a claim that Augustine used the image as often as Cyprian"
     - "a claim that the bishop is a remote regional administrator"
   years: {from: 246, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

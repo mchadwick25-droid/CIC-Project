@@ -25,7 +25,7 @@ use_note:
     - "a claim that it was an organizing force of its own"
     - "a claim that how often the word occurs measures its weight"
   years: {from: 246, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

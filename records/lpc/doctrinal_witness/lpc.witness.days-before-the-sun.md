@@ -15,7 +15,7 @@ use_note:
     - "a claim about Augustine's place in modern debates over the age of the earth or evolution"
     - "a claim that Augustine held the first days were ordinary days"
   years: {from: 413, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

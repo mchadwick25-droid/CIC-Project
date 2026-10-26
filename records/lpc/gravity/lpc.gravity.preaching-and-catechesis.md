@@ -13,7 +13,7 @@ use_note:
     - "a claim that preaching and catechesis organize the world by themselves"
     - "a claim that other concerns lean on it as they lean on the office, penance and communion"
   years: {from: 246, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

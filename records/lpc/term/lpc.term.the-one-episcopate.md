@@ -31,7 +31,7 @@ use_note:
     - "a claim that De Unitate carries Cyprian's argument against Stephen"
     - "a claim that either recension of De Unitate chapters 4 and 5 grounds the term"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

@@ -14,7 +14,7 @@ use_note:
     - "a claim that later Reformation-era and modern uses of the controversy continue terms Augustine set correctly"
     - "a claim that Pelagius's own words survive among our sources"
   years: {from: 391, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

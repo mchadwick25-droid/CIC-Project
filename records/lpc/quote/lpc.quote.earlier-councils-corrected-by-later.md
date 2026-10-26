@@ -14,7 +14,7 @@ use_note:
     - "a claim that 'Catholic' here means a modern denomination"
     - "a claim that this theory of council authority organized much of the world"
   years: {from: 391, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

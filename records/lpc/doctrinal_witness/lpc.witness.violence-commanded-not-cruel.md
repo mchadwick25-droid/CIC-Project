@@ -14,7 +14,7 @@ use_note:
     - "a claim that the answer lacked moral seriousness"
     - "a claim that a command carried out is the same act as the same deed chosen on one's own account"
   years: {from: 391, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

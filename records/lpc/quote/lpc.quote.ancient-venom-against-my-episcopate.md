@@ -14,7 +14,7 @@ use_note:
     - "a claim that the rivals' own account of the dispute is heard here"
     - "a claim that the election was a modern vote with a ballot and a count"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

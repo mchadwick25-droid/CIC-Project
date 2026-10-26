@@ -13,7 +13,7 @@ use_note:
     - "a claim that rural congregations lived as the cities did"
     - "a claim about Punic or Berber Christian practice"
   years: {from: 246, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-direct

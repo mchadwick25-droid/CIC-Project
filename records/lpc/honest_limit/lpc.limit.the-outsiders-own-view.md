@@ -14,7 +14,7 @@ use_note:
     - "a claim that an outsider's own words survive"
     - "a claim that Augustine asked whether Constantine corrupted the church in those words"
   years: {from: 246, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-direct

@@ -32,7 +32,7 @@ use_note:
     - "a claim that De Unitate bears on Cyprian's argument against Stephen"
     - "a claim that the question was closed and not argued by both sides"
   years: {from: 246, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

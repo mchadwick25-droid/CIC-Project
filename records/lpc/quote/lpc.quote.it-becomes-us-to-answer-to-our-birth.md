@@ -15,7 +15,7 @@ use_note:
     - "a claim that 'aliens' means beings from elsewhere or that 'degenerate' means depraved"
     - "a claim that the critical Latin text names strangers, which only older editions print"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

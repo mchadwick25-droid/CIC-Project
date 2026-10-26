@@ -2663,3 +2663,9 @@ Doc_10 round 1 (`Doc_10_Review_Round1.md`, F6) found that Phase Three's no-prope
 ### 2026-10-25 — The pointer to `rzg` is given by Datus in his own voice (project lead's ruling)
 
 D3 sets a pointer to the `rzg` world for Reformation questions but does not say who gives it, and Doc_10 had assigned it to the Facilitator. Alternatives shown: (1) Datus, in his own voice; (2) the Facilitator; (3) Datus declines with no pointer. Chosen: 1 (project lead, 2026-10-25). The Facilitator's interventions stay reserved for safety and process.
+
+---
+
+### 2026-10-26 — One commentary-by-passage batch before packaging (project lead's ruling)
+
+The question-coverage design thread reported that Augustine's commentaries are vendored and mapped to `lpc` but cited by no record: the *Expositions on the Psalms*, the *Tractates on John*, the *Ten Homilies on 1 John*, and *The Sermon on the Mount*. A verse question reaches a commentary only if a record names the passage. Alternatives shown: (1) one batch of about 12 to 15 commentary passages now, chosen for the verses people most ask about and for this world's gravities, each naming its passage; the per-world passage index becomes its own fleet work item; (2) the same, plus records on hell, judgment, the dead, infants and suicide; (3) package first, commentaries after launch. Chosen: 1 (project lead, 2026-10-26). The method is the sermon batches': word-for-word checks, Opus renderings, Opus review.

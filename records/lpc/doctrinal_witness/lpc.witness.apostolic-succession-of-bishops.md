@@ -13,7 +13,7 @@ use_note:
     - "a claim that Cyprian drew up a name list of his own"
     - "a claim that either bishop's account is all a modern listener means by apostolic succession"
   years: {from: 246, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

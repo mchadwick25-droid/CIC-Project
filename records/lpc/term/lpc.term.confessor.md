@@ -25,7 +25,7 @@ use_note:
     - "a claim that the word carries this sense in Augustine's phase"
     - "a claim that confessors speak for themselves beyond a few letters"
   years: {from: 246, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

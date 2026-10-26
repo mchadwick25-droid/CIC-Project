@@ -14,7 +14,7 @@ use_note:
     - "a claim that Pontius and the Acta are independent witnesses to the wording of the sentence"
     - "a claim about the details of the dream Pontius mentions earlier"
   years: {from: 258, to: 258}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

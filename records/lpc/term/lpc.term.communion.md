@@ -42,7 +42,7 @@ use_note:
     - "a claim that it names only a rite or a general warmth of fellowship"
     - "a claim that either bishop used this word for the pattern across both phases, since that pattern is our own reading"
   years: {from: 246, to: 430}
-  status: provisional
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct
