@@ -60,8 +60,8 @@ modern_lens_note: A modern listener may hear only the threat in Cyprian's words 
   turns to an offer. After death, he says, 'there is no longer any place for repentance'. But 'To him
   who still remains in this world no repentance is too late'.
 modern_rendering: When you have once gone there, there is no longer any place for repentance, and no way
-  of making amends. Here life is either lost or saved. Here eternal safety is secured by the worship of
-  God and the fruits of faith. Let no one be held back, either by his sins or by his years, from coming
+  of making amends. Here life is either lost or saved. Here eternal safety is provided for by the worship
+  of God and the fruits of faith. Let no one be held back, either by his sins or by his years, from coming
   to obtain salvation. To anyone who still remains in this world, no repentance is too late.
 ---
 Cyprian, To Demetrianus (An Address to Demetrianus, ANF Treatise V), section 25, from 'When you have once departed thither' to 'no repentance is too late.'. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 46296-46303 (the range ends on the line that holds 'is too late.'). Latin (Hartel, CSEL 3) at cic/texts/cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt, lines 1001-1006 (a page break at line 997 lies before the range). The sentences before it, with Cyprian's pointing the persecutor to 'the ways of salvation', and the sentences after it, on seeking God's mercy even at the end of life, are left out. In the Latin, quando istinc recessum fuerit, nullus iam paenitentiae locus est is 'when one has departed from here, there is no longer any place for repentance' and in isto adhuc mundo manenti paenitentia nulla sera est is 'for one still remaining in this world no repentance is too late'. The passage is read with lpc.quote.an-ever-burning-gehenna. The passage carries the witness lpc.witness.no-salvation-outside-the-church.

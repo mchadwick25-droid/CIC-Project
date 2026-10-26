@@ -97,3 +97,47 @@ The quotes are verbatim. The compassion and the teaching are kept together by gu
 ## Verdict
 
 **Revise.** The batch is careful and faithful in what it quotes, and nothing in it is invented. Two hard teachings are under-disclosed against vendored texts that state them directly: Augustine on unbaptized infants, and Cyprian on unbelievers. The suicide records need a safer cell and a bereavement guard before they can be retrieved.
+
+## Round 2 recheck
+
+- Reviewer: Opus 5.5 (`claude-opus-5-5`), targeted recheck of `git diff c9294d28 e80bb271` (records/lpc, the lpc scripts, the one engine test) against the round-1 findings. No model calls. No file modified but this one.
+- Gates: `records lpc` PASS; `regate lpc` PASS (344 fields, 50 new or edited, no regression); `claims lpc` PASS (103 derived, 103 registered).
+- New quotes, verbatim by two methods. Method A (Python, notes and tags stripped, whitespace folded): all three `text` fields lie in their stated ranges, each occurs once in its file, and dropping the first or last line of each range breaks the match, so every range is tight. Method B (`sed`/`tr`/`perl`, `grep -cF`): each full text counts 1. The I.21 page-break tag is the only thing stripped. No Latin of *De peccatorum meritis* is vendored (filename search), as the record says.
+- Latin claims, To Demetrianus (Hartel): §24 runs 914-919, *cremabit addictos ardens semper gehenna* and *nec erit unde habere tormenta uel requiem possint aliquando uel finem* hold; §25 runs 1001-1006, *quando istinc recessum fuerit, nullus iam paenitentiae locus est* and *in isto adhuc mundo manenti paenitentia nulla sera est* hold; the page break at 997 is before the range.
+- Readability: every changed `means`, `modern_rendering`, witness `text`/`positions`/`tensions` grades FK ≤ 10 and FRE ≥ 60 under `engine.m1.gates.grade_text`; each `means` is ≤ 25 words. The new I.21 `modern_lens_note` grades FRE 56.0, but `modern_lens_note` is not a graded field and is stripped at compile (`engine/m2/builders.py`), so it is not participant-facing.
+- Edges: all new edges are reciprocal (I.21 ↔ infants witness; both To Demetrianus quotes ↔ outside-the-Church witness; Gehenna ↔ punishment witness). Cells match s2y. The generator script carries every quote-side fix.
+
+Findings:
+
+- D1-1: resolved ("directly").
+- D1-2: resolved (12534-12541).
+- D1-3: resolved ("lock away").
+- D1-4: resolved (split; both sentences ≤ 25 words).
+- D1-5: resolved; grief guard on the witness and its three quotes.
+- D2-1: resolved as proposed.
+- D2-2: resolved ("grave").
+- D2-3: resolved.
+- D3-1: resolved in locus and body.
+- D3-2: resolved in the witness body and the Monica quote body.
+- D4-1: resolved. New quote verbatim, guards (a)-(d) present, cells F1-T/F4-T, `prefer_instead` added to the Ench. 93 quote, witness tensions/text/divergence note/guard 2/source updated. Opus rendering keeps every clause and adds nothing; "share" for "be involved in" is sound. Reviser's `means` passes and is faithful.
+- D4-2: resolved as proposed.
+- D4-3: resolved as proposed.
+- D5-1: resolved in all three places.
+- D5-2: resolved; texts now match the note-stripped source; "It is not Cyprian's." kept before the proposed sentence is sound.
+- D5-3: resolved in all three places.
+- D5-4: resolved as proposed.
+- D5-5: resolved. Both quotes verbatim and tight, guards as proposed, witness tensions/text/means/guard 1/sources/edges as proposed; optional edge applied and reciprocal. The added grief and no-joining guards on both quotes are sound: they now share F6-T with the suicide records. Gehenna rendering keeps every clause; see R2-1 for the §25 rendering.
+- D6-1: resolved (*ignosci*).
+- D6-2: resolved (2650-2659).
+- D6-3: resolved in the records: witness and both quotes on F6-T, s2y comment rewritten, no-joining guard on the punishment witness and its three quotes. Not yet done: the open-gap entry for a fleet canon question on suicide (R2-2).
+- D6-4: resolved; guard second on all three, `do_not_retrieve_when` set, sentence in the markdown body, which is where "witness body" pointed.
+- D6-5: resolved in positions, text and body.
+- D6-6: resolved ("commits homicide").
+- D6-7: resolved ("abhor").
+
+New findings:
+
+- **R2-1 (P2, `lpc.quote.no-repentance-is-too-late`, `modern_rendering`, in s24).** "Secured" reads in modern English as "guaranteed", which strengthens *prouidetur* / "is provided for" in a salvation passage. Replace `Here eternal safety is secured by the worship of God and the fruits of faith.` with `Here eternal safety is provided for by the worship of God and the fruits of faith.`
+- **R2-2 (P2, `Build/worlds/lpc/Open_Gaps_Tracking.md`, new entry).** D6-3 asked that the fleet canon question on suicide be registered as an open gap; no entry exists. Append: `Suicide has no canon cell of its own. The City of God I.17 records and their witness sit on F6-T by the round-1 review ruling (Full_Disclosure_Records_Review, 2026-10-26). A fleet canon question on suicide is a cross-world decision for the project lead. Owner: the project lead.`
+
+Verdict: **Approved to proceed.** All 4 P1 and 21 P2 are resolved; the two new P2s are mechanical and are applied as written, with no further review round.

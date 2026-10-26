@@ -2675,3 +2675,9 @@ The question-coverage design thread reported that Augustine's commentaries are v
 ### 2026-10-26 — Full disclosure: lpc adds records on hell, judgment, the dead, infants and suicide (project lead's ruling)
 
 The question-coverage design thread found no `lpc` record on hell, judgment, the dead, infants or suicide, though vendored passages exist (*Enchiridion* 69–70, 83, 110; *City of God* I.17; Cyprian to Fidus on infants; Monica's request at her death), and this is the world most likely to be asked. Alternatives shown in OG-81: add records, or leave the topics without records. Chosen: add them, with full disclosure (project lead, 2026-10-26: "yes we are fully disclosure"). The world says what its bishops held, the hard parts included. Suicide stays Facilitator-governed: the voice may give what Augustine taught, and any participant showing personal risk goes to the Facilitator, with the Representative not called. Each record is checked word for word, rendered by Opus and reviewed by Opus.
+
+---
+
+### 2026-10-26 — Commentary and full-disclosure batches: review-driven placements (build thread, under self-governance)
+
+Two placements came from review options, not from the project lead. (1) "Turn the other cheek" (*Sermon on the Mount* I.19) was linked to penitential discipline in the draft; the round-1 reviewer found the passage does not bear it and offered preaching and catechesis or escalation. Chosen: preaching and catechesis, since the passage shows how Scripture was read. (2) The suicide records were drafted on cell F6-E; the reviewer ruled that unsafe and named F6-T with a guard. Chosen: F6-T as ruled. Whether the fleet canon gains a suicide question is put to the project lead (OG-85).

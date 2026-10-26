@@ -2069,3 +2069,24 @@ Logged 2026-10-26.
 - **Ruling.** The project lead chose option 1: new and edited `use_note.means` lines are graded, and existing failures across the fleet are registered as one ACCEPTED_OPEN waiver. Recorded in the System Hub Decision Log, 2026-10-26.
 - **Not built yet.** The engine change and the waiver are a fleet work item. `lpc`'s notes already pass, so `lpc` needs no waiver line.
 - **Owner.** Whichever thread takes the engine work item; the `lpc` build thread carries the record.
+
+### OG-84. Commentary-by-passage batch done; Sermon on the Mount Latin not vendored (2026-10-26).
+
+Logged 2026-10-26.
+
+- **Done.** Fifteen quote records from the *Expositions on the Psalms* (4), the *Tractates on John* (6), the *Homilies on 1 John* (2) and *The Sermon on the Mount* (3). Each names its Bible passage in `retrieve_when`. Emitted from `wb_lpc_s24.py`, with edges in s25, cells in s2y and use notes in s2u.
+- **Review.** `Commentary_Quotes_Review_2026-10-26.md`: round 1 Revise (4 P1, 16 P2), round 2 Approved to proceed.
+- **Carried: no Latin of *De sermone Domini in monte* is vendored.** The three Matthew records say so and cite the English only. Routed to the source-research thread as a want.
+- **Carried: *agere poenitentiam* in the Psalm 51 record.** Whether it means repenting or undergoing the Church's penance is contested. The record says so and does not settle it.
+- **Owner.** The `lpc` build thread; the Latin want is the source-research thread's.
+
+### OG-85. Full-disclosure records done; a fleet canon question on suicide raised (2026-10-26).
+
+Logged 2026-10-26.
+
+- **Done (OG-82).** Six `doctrinal_witness` records and 17 quote records on hell, judgment, the dead, infants, those outside the Church, and suicide. Sources: *Enchiridion* 69, 70, 93 and 110–113; *On the Merits and Forgiveness of Sins* I.21; *Confessions* IX.11; Cyprian Ep. LVIII to Fidus, Ep. LXXII to Jubaianus, *To Demetrianus* 24–25 and *On the Unity of the Church* 6; *City of God* I.17. Each record says what the bishops held, the hard parts included.
+- **Review.** `Full_Disclosure_Records_Review_2026-10-26.md`: round 1 Revise (4 P1, 21 P2), round 2 Approved to proceed, with two P2s applied as written.
+- **Safety.** The suicide witness and the two *City of God* quotes carry a guard: if a participant's words show personal risk or distress, or a participant has lost someone to suicide, the record is not used, the turn goes to the Facilitator, and the Representative is not called. The infant and hell records carry guards for bereaved participants.
+- **Cell placement.** No canon question asks about suicide. The draft put the suicide records on F6-E, whose pool holds the martyrdom material. The reviewer ruled that unsafe, since an ask about suicide would be grounded beside death presented as glory. The records sit on F6-T, with a guard against joining suicide to the question of hell.
+- **For the project lead (cross-world).** Whether the fleet canon should gain its own question on suicide, so that such records have a proper home in every world. This is a portfolio decision and is not taken here.
+- **Owner.** The `lpc` build thread; the canon question is the project lead's.

@@ -4052,7 +4052,7 @@ def build_disclosure_quotes() -> None:
         "A modern listener may hear only the threat in Cyprian's words to Demetrianus. Here he turns "
         "to an offer. After death, he says, 'there is no longer any place for repentance'. But 'To "
         "him who still remains in this world no repentance is too late'.",
-        "When you have once gone there, there is no longer any place for repentance, and no way of making amends. Here life is either lost or saved. Here eternal safety is secured by the worship of God and the fruits of faith. Let no one be held back, either by his sins or by his years, from coming to obtain salvation. To anyone who still remains in this world, no repentance is too late.",
+        "When you have once gone there, there is no longer any place for repentance, and no way of making amends. Here life is either lost or saved. Here eternal safety is provided for by the worship of God and the fruits of faith. Let no one be held back, either by his sins or by his years, from coming to obtain salvation. To anyone who still remains in this world, no repentance is too late.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.cyprian-minor-pastoral-treatises",
           "locus": "To Demetrianus (An Address to Demetrianus, ANF Treatise V), section 25, from 'When "
