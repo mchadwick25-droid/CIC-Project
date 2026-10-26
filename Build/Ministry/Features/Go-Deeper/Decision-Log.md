@@ -1241,3 +1241,9 @@ Checked: all 349 app tests and `tsc` pass, three new panel tests cover the panel
 
 104. The dashboard keeps each code made in a list, "Codes I've made", until Mark deletes it. Mark: "a if no account, if its to an account it is tied to an account". The list is kept in the browser on that device only; the server keeps a hash and cannot show a code again. Each entry has Copy, Copy link, Delete (takes it off the list only) and Cancel code (voids it at the server). This replaces ruling 102's single box that stayed until reload.
 
+
+## 2026-10-26 — The landing page slide-out is turned on (Mark, small projects thread)
+
+105. The app build with the panel-only view and the gift section reached production on 2026-10-26 (`live` at `29052b8`, `/health` reports it). Mark checked a new conversation and the panel on the live app: no 404, and the gift section showed. `GoDeeperConfig.drawer` is now `true` in `cic-website/assets/go-deeper-config.js`, so the landing page's top-row "Get more conversations" button shows and slides the panel out. This is the follow-up ruling 98 named. Render's auto-deploy was off after the manual rollback of 2026-10-25, which is why the earlier `live` merges did not deploy; Mark deployed `29052b8` by hand. The cause of the 404 on the 1131 build is still not found and is not part of this ruling.
+
+106. Mark saw the slide-out on the live app and said: "this is what i want the more conversations link on the landing page to go to also, this is great". The free line's "Get more conversations" link (ruling 92) now opens the same slide-out instead of leaving the page. With scripts off, or with the drawer switch off, it still goes to `go-deeper.html`. No new words.

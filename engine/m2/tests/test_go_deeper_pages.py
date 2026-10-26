@@ -405,12 +405,20 @@ def test_the_slide_out_hears_only_the_app_frame_at_the_app_origin():
     assert 'postMessage({ type: "cic:panel-open" }, appOrigin)' in js
 
 
-def test_the_landing_page_drawer_ships_off_until_the_app_that_draws_it_is_live():
+def test_the_landing_page_drawer_is_on_and_its_script_obeys_the_switch():
     config = (SITE / "assets" / "go-deeper-config.js").read_text()
-    assert re.search(r"\bdrawer:\s*false\b", config)
+    assert re.search(r"\bdrawer:\s*true\b", config)
     assert "cfg.drawer" in (SITE / "assets" / "more-conversations.js").read_text()
 
 
 def test_the_app_panel_offers_the_same_two_gift_links_as_the_support_page():
     ts = (REPO / "cic-poc" / "frontend" / "src" / "lib" / "giftLinks.ts").read_text()
     assert re.findall(r"'(https://(?:donate|buy)\.stripe\.com/[^']+)'", ts) == SUPPORT_LINKS
+
+
+def test_the_free_line_link_opens_the_slide_out_and_still_goes_to_the_page_without_scripts():
+    html = (SITE / "index.html").read_text()
+    link = re.search(r'<a[^>]*data-more-open[^>]*>Get more conversations</a>', html)
+    assert link and 'href="go-deeper.html"' in link.group(0)
+    js = (SITE / "assets" / "more-conversations.js").read_text()
+    assert "[data-more-open]" in js and "ev.preventDefault(); open();" in js
