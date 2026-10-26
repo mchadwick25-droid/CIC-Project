@@ -40,7 +40,7 @@ R = a record speaks to it; R* = partial or guard only; O = governed by instructi
 
 73 of 96 cells are rendered outright, the best-covered cluster so far. The thinness sits in Zurich and Geneva across the row, the named-figures column, and S7, which no record anywhere answers.
 
-**Canon F2-E.** Four canon questions exist (`engine/canon/records/canon_question/_fleet.canon.f2-e-01..04.md`). Demonstrations exist in four worlds: `rzg.demo.consensus-contest` (f2-e-01, canon_cells empty), `don.demo.mostly-legend` (f2-e-02), `gallic.demo.record-thinnest` and `witt.demo.record-thinnest` (f2-e-03). None anywhere for f2-e-04. Nine worlds carry the cell on a witness or limit instead (ids in the JSON); desert and hal have it only on contested claims, quotes and terms.
+**Canon F2-E.** Four canon questions exist (`the four F2-E canon_question records in engine/canon/records/canon_question/`). Demonstrations exist in four worlds: `rzg.demo.consensus-contest` (f2-e-01, canon_cells empty), `don.demo.mostly-legend` (f2-e-02), `gallic.demo.record-thinnest` and `witt.demo.record-thinnest` (f2-e-03). None anywhere for f2-e-04. Nine worlds carry the cell on a witness or limit instead (ids in the JSON); desert and hal have it only on contested claims, quotes and terms.
 
 ### World by world
 
