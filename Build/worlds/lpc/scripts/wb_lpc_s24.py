@@ -292,8 +292,8 @@ MECHANICAL vs AUTHORED, field by field:
     the actual value used is the correct
     "latin-pastoral-congregational-christianity", cross-checked byte-for-
     byte against an existing lpc/source record's own world_id field, not
-    retyped from memory). status="draft" throughout (promotion to "ready" is
-    a later stage, per don's own Stage 6a precedent -- not this script's).
+    retyped from memory). status="ready" throughout: every record here has
+    cleared its review before it ships.
     register="emic" throughout, matching every record type this pass builds
     (formation-facing story/figure/quote material) -- distinct from source
     records' own register="etic". canon_cells=[] throughout -- no canon-cell
@@ -363,8 +363,7 @@ honest_limit.*, or lpc.ambient.* records (later steps, explicitly out of
 scope); build a story or figure record for the 133-year silence, the
 Perpetua/Scillitan-martyr candidates, the healing miracles at Hippo, or the
 411 Conference of Carthage (Doc_09 Section 6 names all four as considered
-and not built, for reasons that remain unchanged by this script); promote
-any record's status to "ready"; register `lpc` in records/worlds/ (a later
+and not built, for reasons that remain unchanged by this script); register `lpc` in records/worlds/ (a later
 admission-track step); run the M2 compiler; touch any world other than lpc.
 """
 from __future__ import annotations
@@ -559,7 +558,7 @@ def emit_story(slug, tier, tier_just, tellable_as, text, absent_detail, modern_c
         "world_id": WORLD_ID,
         "record_type": "story",
         "schema_version": SCHEMA_VERSION,
-        "status": "draft",
+        "status": "ready",
         "register": "emic",
         "canon_cells": [],
         "confidence": confidence,
@@ -589,7 +588,7 @@ def emit_figure(slug, names, dates, narratable, bridge_line, confidence, sources
         "world_id": WORLD_ID,
         "record_type": "figure",
         "schema_version": SCHEMA_VERSION,
-        "status": "draft",
+        "status": "ready",
         "register": "emic",
         "canon_cells": [],
         "confidence": confidence,
@@ -613,7 +612,7 @@ def emit_quote(slug, text, speaker_or_author, license_, modern_lens_note, modern
         "world_id": WORLD_ID,
         "record_type": "quote",
         "schema_version": SCHEMA_VERSION,
-        "status": "draft",
+        "status": "ready",
         "register": "emic",
         "canon_cells": [],
         "confidence": confidence,

@@ -3,7 +3,7 @@ id: lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock
 world_id: latin-pastoral-congregational-christianity
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I

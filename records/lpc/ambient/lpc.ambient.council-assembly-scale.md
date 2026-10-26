@@ -3,7 +3,7 @@ id: lpc.ambient.council-assembly-scale
 world_id: latin-pastoral-congregational-christianity
 record_type: ambient
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

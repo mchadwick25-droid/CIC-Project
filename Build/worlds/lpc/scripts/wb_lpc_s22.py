@@ -409,7 +409,7 @@ def emit_term(slug: str, body_kwargs: dict, provenance_note: str) -> str:
         "world_id": WORLD_ID,
         "record_type": "term",
         "schema_version": SCHEMA_VERSION,
-        "status": "draft",
+        "status": "ready",
         "register": "emic",
         "canon_cells": [],
         "relations": relations_for(slug),

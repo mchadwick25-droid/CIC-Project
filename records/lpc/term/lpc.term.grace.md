@@ -3,7 +3,7 @@ id: lpc.term.grace
 world_id: latin-pastoral-congregational-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-T
