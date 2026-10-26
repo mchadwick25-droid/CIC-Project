@@ -11,7 +11,6 @@ assignments:
     locus: "div1 3 — the full series of ninety homilies (div2 3.4-3.89), assigned as one work"
     atlas_ids:
       - antiochene-exegetical-christianity-chrysostom-ce
-      - imperial-juridical-christianity
     role: tradition
     confidence: assigned
     note: >
@@ -19,18 +18,3 @@ assignments:
       exegesis in the corpus (~466k words). Per brief 6.5 the exegesis is
       Chrysostom's work and in scope; the biblical text he expounds is not
       itself being assigned.
-
-  - row_id: npnf110_chrysostom-homilies-matthew--homilies-on-the-gospel-of-st-matthew--context
-    work: "Homilies on the Gospel of St. Matthew"
-    author: chrysostom
-    locus: "div1 3 — the full series of ninety homilies (div2 3.4-3.89), assigned as one work"
-    atlas_ids:
-      - hieronymian-ascetic-literary
-      - gallic-monastic-ascetic-christianity
-      - cappadocian-nicene-pastoral-monastic-tradition
-    role: context
-    confidence: assigned
-    note: >
-      Same work, read from a neighbouring community. Chrysostom preached in the same
-      decades as these worlds and is a fellow preacher on the same verses, not an outside
-      critic or an opponent.
