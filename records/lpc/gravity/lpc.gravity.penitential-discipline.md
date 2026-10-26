@@ -71,6 +71,16 @@ relations:
   target: lpc.quote.reprove-and-forgive-the-surgeons-knife
 - type: associated-with
   target: lpc.quote.peter-the-sick-man-and-the-physician
+- type: associated-with
+  target: lpc.quote.david-himself-hath-been-sent-to-thee
+- type: associated-with
+  target: lpc.quote.the-wretched-woman-and-mercy
+- type: associated-with
+  target: lpc.quote.love-and-do-what-thou-wilt
+- type: associated-with
+  target: lpc.quote.all-sins-against-us-are-to-be-forgiven
+- type: associated-with
+  target: lpc.quote.judge-not-nor-despair-of-a-return
 name: 'Penitential Discipline: the Reintegration of the Failed'
 description: >-
   How the church took back its failed members sat near the center of this world's life.

@@ -61,6 +61,10 @@ relations:
   target: lpc.quote.going-out-without-violating-unity
 - type: associated-with
   target: lpc.quote.bishop-of-bishops
+- type: associated-with
+  target: lpc.quote.they-first-dwelt-together-in-unity
+- type: associated-with
+  target: lpc.quote.they-went-out-from-us-but-were-not-of-us
 name: Collegial Communion Preserved Despite Disagreement
 description: 'Few things mattered more to this world than staying in communion despite real disagreement.
   Bishops here disagree, sometimes sharply. But they work to keep communion rather than break it and build

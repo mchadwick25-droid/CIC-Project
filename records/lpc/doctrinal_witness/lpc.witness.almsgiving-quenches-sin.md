@@ -45,6 +45,8 @@ relations:
   target: lpc.story.hundred-thousand-sesterces
 - type: associated-with
   target: lpc.witness.marriage-a-threefold-good
+- type: associated-with
+  target: lpc.witness.judged-on-the-life-lived-here
 positions:
 - Some among us were rich. Cyprian wrote a whole treatise on almsgiving, and much of it is about how they
   should use what they had. He even spoke straight to one kind of member, "a wealthy and rich matron in

@@ -6943,3 +6943,22 @@ The spoken-field fidelity reviews found 46 P1s and 81 P2s in `records/lpc/` part
 ## 2026-10-24 - Cap ruling: lpc CO-LPC-3, a third recheck of one line and ten leftovers
 
 `CO-LPC-3_Spoken_Corrections_Recheck_Round2.md` found all six prior P1s fixed and one new P1: `lpc_World_Capsule_Core.md` line 19 says rebaptism "tested it, and it held", though Firmilian's letter in this world's corpus reports Stephen of Rome denying the African envoys peace and communion. It also found 10 P2s, some of them leftovers of corrected claims. Alternatives put to the project lead: (1) apply the reviewer's one-line fix and all ten P2s, then one small Opus 5.5 recheck of only those lines; (2) the P1 only, with the P2s logged; (3) apply with no recheck. The project lead ruled option 1 (2026-10-24). The file this ruling covers, in `Build/worlds/lpc/Review-Artifacts/`, is `CO-LPC-3_Spoken_Corrections_Recheck_Round3.md`. A finding it calls substantial goes to the project lead.
+
+## 2026-10-26 - `use_note.means` is held to the readability bar: new and edited notes graded, existing failures waived (project lead's ruling)
+
+**Question** (raised by the `lpc` use-notes review, `Build/worlds/lpc/Review-Artifacts/Use_Notes_Review_2026-10-26.md`, finding UN-22). `use_note.means` heads each evidence block the voice reads, and it is a registered spoken field ("evidence-head", `engine/m1/spoken_fields.py`). But it sits only in `SHARED_SPOKEN_FIELDS`, which the readability gate does not read, so no world's notes are graded. Most existing notes fail the bar: `don` fails 97 of 98 and `rzg` 55 of 56. `lpc`'s 117 notes pass.
+
+**Alternatives shown:**
+1. Grade new and edited notes now, with no regressions, as regate already does for other spoken fields. Register the existing failures as one ACCEPTED_OPEN waiver naming this finding. Each world fixes its notes when it is next worked.
+2. Grade every note fleet-wide now.
+3. Leave the field ungraded.
+4. Report only.
+
+**Ruling.** Mark, 2026-10-26: option 1.
+
+**Why.** Option 1 holds the bar for all new work without turning other threads' CI red, and without a fleet rewrite in a week when usage is a hard limit. The existing defect is tracked as CLAUDE.md requires, not left to drift.
+
+**To build (engine work item, not yet done).**
+- Add `use_note.means` to the fields the readability gate and regate grade, on the no-regression basis.
+- Register the existing failures as one ACCEPTED_OPEN waiver that cites this entry.
+- Remove waiver lines as each world's notes are fixed.
