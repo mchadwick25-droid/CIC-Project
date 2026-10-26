@@ -2061,3 +2061,11 @@ Logged 2026-10-26.
   4. report only.
   His choice is pending.
 - **Owner.** The `lpc` build thread; OG-80 is the project lead's.
+
+### OG-83. OG-80 decided: option 1 (2026-10-26).
+
+Logged 2026-10-26.
+
+- **Ruling.** The project lead chose option 1: new and edited `use_note.means` lines are graded, and existing failures across the fleet are registered as one ACCEPTED_OPEN waiver. Recorded in the System Hub Decision Log, 2026-10-26.
+- **Not built yet.** The engine change and the waiver are a fleet work item. `lpc`'s notes already pass, so `lpc` needs no waiver line.
+- **Owner.** Whichever thread takes the engine work item; the `lpc` build thread carries the record.
