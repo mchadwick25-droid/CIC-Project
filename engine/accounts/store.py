@@ -46,7 +46,8 @@ CREATE TABLE IF NOT EXISTS linked_sign_ins (
 CREATE TABLE IF NOT EXISTS erased_sessions (
   session_hash TEXT PRIMARY KEY,
   qc_tokens    TEXT NOT NULL,
-  expires_on   TEXT NOT NULL
+  expires_on   TEXT NOT NULL,
+  published    INTEGER NOT NULL DEFAULT 0
 ) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS shelf (
   session_id TEXT PRIMARY KEY,
@@ -99,7 +100,8 @@ CREATE TABLE IF NOT EXISTS challenges (
   mac          TEXT NOT NULL,
   expires_at   INTEGER NOT NULL,
   tries        INTEGER NOT NULL DEFAULT 0,
-  bound        TEXT
+  bound        TEXT,
+  made_seq     INTEGER NOT NULL DEFAULT 0
 ) WITHOUT ROWID;
 CREATE INDEX IF NOT EXISTS challenges_by_address ON challenges (address_hash, kind);
 CREATE INDEX IF NOT EXISTS challenges_by_account ON challenges (account_id);
@@ -191,11 +193,14 @@ class AccountStore:
         self._lock = threading.RLock()
         self._d = _open(durable_path, DURABLE_DDL)
         _allow_accounts_without_address(self._d)
-        if not any(r[1] == "published" for r in self._d.execute("PRAGMA table_info(deletion_ledger)")):
-            self._d.execute("ALTER TABLE deletion_ledger ADD COLUMN published INTEGER NOT NULL DEFAULT 0")
+        for table in ("deletion_ledger", "erased_sessions"):
+            if not any(r[1] == "published" for r in self._d.execute(f"PRAGMA table_info({table})")):
+                self._d.execute(f"ALTER TABLE {table} ADD COLUMN published INTEGER NOT NULL DEFAULT 0")
         self._e = _open(ephemeral_path, EPHEMERAL_DDL)
         if not any(r[1] == "bound" for r in self._e.execute("PRAGMA table_info(challenges)")):
             self._e.execute("ALTER TABLE challenges ADD COLUMN bound TEXT")
+        if not any(r[1] == "made_seq" for r in self._e.execute("PRAGMA table_info(challenges)")):
+            self._e.execute("ALTER TABLE challenges ADD COLUMN made_seq INTEGER NOT NULL DEFAULT 0")
 
     def close(self) -> None:
         with self._lock:
@@ -739,7 +744,39 @@ class AccountStore:
         with self._lock:
             row = self._d.execute("SELECT qc_tokens FROM erased_sessions WHERE session_hash = ?", (session_hash,)).fetchone()
             merged = ",".join(dict.fromkeys(t for t in [*(row[0].split(",") if row else []), *qc_tokens.split(",")] if t))
-            self._d.execute("INSERT OR REPLACE INTO erased_sessions VALUES (?, ?, ?)", (session_hash, merged, expires_on))
+            self._d.execute(
+                "INSERT OR REPLACE INTO erased_sessions (session_hash, qc_tokens, expires_on, published) VALUES (?, ?, ?, 0)",
+                (session_hash, merged, expires_on),
+            )
+
+    def unpublished_erasures(self) -> list[tuple[str, str, str]]:
+        """(session hash, review tokens, expiry day) of each erasure not yet written to the outside copy."""
+        with self._lock:
+            return [tuple(r) for r in self._d.execute(
+                "SELECT session_hash, qc_tokens, expires_on FROM erased_sessions WHERE published = 0")]
+
+    def mark_erasure_published(self, session_hash: str, qc_tokens: str) -> None:
+        """Marks the entry as written, unless it gained review tokens since it was read."""
+        with self._lock:
+            self._d.execute("UPDATE erased_sessions SET published = 1 WHERE session_hash = ? AND qc_tokens = ?",
+                            (session_hash, qc_tokens))
+
+    def add_erased_entries(self, entries: list[tuple[str, str, str]]) -> int:
+        """Entries read back from the outside copy, joined to what the file holds. An erasure the file
+        already holds keeps every review token from both. Returns how many sessions were new."""
+        added = 0
+        with self._lock:
+            for session_hash, qc_tokens, expires_on in entries:
+                row = self._d.execute("SELECT qc_tokens FROM erased_sessions WHERE session_hash = ?", (session_hash,)).fetchone()
+                if row is None:
+                    self._d.execute("INSERT INTO erased_sessions (session_hash, qc_tokens, expires_on, published) VALUES (?, ?, ?, 1)",
+                                    (session_hash, qc_tokens, expires_on))
+                    added += 1
+                    continue
+                merged = ",".join(dict.fromkeys(t for t in [*row[0].split(","), *qc_tokens.split(",")] if t))
+                if merged != row[0]:
+                    self._d.execute("UPDATE erased_sessions SET qc_tokens = ? WHERE session_hash = ?", (merged, session_hash))
+        return added
 
     def erased_rows(self) -> dict[str, str]:
         with self._lock:
@@ -747,16 +784,20 @@ class AccountStore:
 
     # challenges ---------------------------------------------------------------
 
-    def put_challenge(self, challenge: Challenge, *, replace_same_address: bool = False) -> None:
-        """Stores a challenge. For a sign-in the earlier ones for the same address are
-        dropped, so only the newest code is live."""
+    def put_challenge(self, challenge: Challenge, *, keep_live: int | None = None) -> None:
+        """Stores a challenge. For a sign-in only the newest keep_live codes for the same address
+        stay live, counting this one: the oldest are dropped, so a stranger's start cannot cancel
+        the code an owner is waiting for until it has been followed by keep_live others."""
         with self._lock:
-            if replace_same_address:
-                self._e.execute(
-                    "DELETE FROM challenges WHERE address_hash = ? AND kind = ?", (challenge.address_hash, challenge.kind)
-                )
+            if keep_live is not None:
+                ids = [r[0] for r in self._e.execute(
+                    "SELECT challenge_id FROM challenges WHERE address_hash = ? AND kind = ? ORDER BY made_seq, challenge_id",
+                    (challenge.address_hash, challenge.kind),
+                )]
+                for stale in ids[: max(0, len(ids) - (keep_live - 1))]:
+                    self._e.execute("DELETE FROM challenges WHERE challenge_id = ?", (stale,))
             self._e.execute(
-                "INSERT INTO challenges VALUES (?, ?, ?, ?, ?, ?, 0, ?)",
+                "INSERT INTO challenges VALUES (?, ?, ?, ?, ?, ?, 0, ?, (SELECT COALESCE(MAX(made_seq), 0) + 1 FROM challenges))",
                 (challenge.challenge_id, challenge.kind, challenge.address_hash, challenge.account_id,
                  challenge.mac, challenge.expires_at, challenge.bound),
             )
@@ -805,7 +846,7 @@ class AccountStore:
         """Removes the challenges and counters that carry an address hash."""
         with self._lock:
             self._e.execute("DELETE FROM challenges WHERE address_hash = ?", (address_hash,))
-            self._e.execute("DELETE FROM counters WHERE key LIKE ?", ("%|" + address_hash,))
+            self._e.execute("DELETE FROM counters WHERE key LIKE ? OR key LIKE ?", ("%|" + address_hash, "%|" + address_hash + "|%"))
 
     # sessions --------------------------------------------------------------
 
