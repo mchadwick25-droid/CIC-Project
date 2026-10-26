@@ -8,11 +8,11 @@ register: emic
 canon_cells:
 - F6-I
 use_note:
-  means: "Augustine says Peter may baptize, and Paul, and Judas, but it is Christ who baptizes, since the power is his alone."
+  means: "Augustine says Peter may baptize, and Paul, and Judas, but it is Christ who baptizes, and the holiness is his."
   not_for:
     - "a claim that the passage says Judas baptized anyone"
     - "a claim that it names the Donatists or rules on any rite"
-    - "a claim that it says the minister's character does not matter at all"
+    - "a claim that the minister's own sin is of no account to him, which the passage does not discuss"
   years: {from: 391, to: 430}
   status: reviewed
 confidence:
@@ -43,8 +43,9 @@ claim_guards:
   it would still be Christ who baptizes.
 - It does not name the Donatists or any dispute, and the word 'valid' does not appear; the passage rests
   on John 1:33 and the dove.
-- It does not say the minister's character is of no account; later in the same tractate, in section 15,
-  Augustine says holy things can harm a person who receives them badly.
+- It speaks only of whose baptism it is; it does not say the minister's own sin is of no account to the
+  minister. Section 15, outside it, says baptism held apart from the Church's unity harms the one who
+  receives it; that is about the recipient, not the minister, and must not be cited for the minister.
 relations:
 - type: associated-with
   target: lpc.gravity.sacramental-ordination-validity

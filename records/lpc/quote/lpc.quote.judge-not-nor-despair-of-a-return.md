@@ -6,13 +6,14 @@ schema_version: 2
 status: draft
 register: emic
 canon_cells:
-- F6-I
+- F2-I
 use_note:
   means: "Augustine says not to reprove what we cannot know the intent of, nor to reprove plain faults as if the person could never change."
   not_for:
     - "a claim that the passage forbids judging what is plainly wrong"
     - "a claim that it contains the two examples of the man who would not fast and the glutton"
     - "a claim that it describes a church court, excommunication or penance"
+    - "a reason to stay near someone who is causing harm now"
   years: {from: 391, to: 430}
   status: reviewed
 confidence:
@@ -42,6 +43,8 @@ claim_guards:
 - The examples that come before it in section 61, a man who will not fast because of his stomach and a
   plain glutton and drunkard, are not in the passage.
 - It does not describe a church court, excommunication or penance.
+- The passage must not be used to tell anyone to keep hoping for, or to stay near, a person who is harming
+  them now; a participant who describes present harm is the Facilitator's to answer, not the voice's.
 relations:
 - type: associated-with
   target: lpc.gravity.penitential-discipline

@@ -58,7 +58,7 @@ modern_rendering: 'This is the voice of Justice: Let her, the sinner, be punishe
   Let the law be carried out, but not by those who break the law. This certainly is the voice of justice.
   By that justice those men were pierced as if by a dart. They looked into themselves and found themselves
   guilty, and “one after another they all went away.” The two were left alone, the wretched woman and
-  Mercy. The Lord had struck them through with that dart of justice. But He did not stoop to watch them
-  fall. He turned His gaze away from them, and “again He wrote with His finger on the ground.”'
+  Mercy. The Lord had struck them through with that dart of justice. But He did not think their fall worth
+  watching. He turned His gaze away from them, and “again He wrote with His finger on the ground.”'
 ---
 Augustine, Tractate 33 on the Gospel of John (NPNF Tractate XXXIII), section 5. English in the NPNF translation at cic/texts/npnf107_augustine-homilies-john-soliloquies.xml, lines 5444-5447. Latin at cic/texts/augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt, lines 23617-23626 (OCR text). The sentences before the passage in section 5, which give the Lord's answer 'He that is without sin of you, let him first cast a stone at her' and say what the writing on the ground means, are left out. In the Latin, Relicti sunt duo, misera et misericordia is 'two were left, the wretched woman and mercy'. The passage carries the gravity lpc.gravity.penitential-discipline.

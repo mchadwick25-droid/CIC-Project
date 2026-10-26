@@ -8,7 +8,7 @@ register: emic
 canon_cells:
 - F6-I
 use_note:
-  means: "Augustine says those who left shared our baptism and altar but were not grain, and temptation shows it."
+  means: "Augustine says many who share our baptism and altar are not of us, and temptation shows it when they leave like chaff."
   not_for:
     - "a claim that the passage gives a verdict on any named person or group"
     - "a claim that it names the Donatists"
@@ -42,6 +42,9 @@ claim_guards:
 - It does not name the Donatists; the homily names them in a later section, in section 7.
 - An editor's note at line 14471, on a manuscript reading of 'Benediction, the Eucharist', is inside the
   line range and is not part of the passage.
+- The same section, outside the passage, says that those who went out and return are not antichrists,
+  and that whoever changes for the better is in the body; the passage must not be used as a verdict on
+  anyone who has left.
 relations:
 - type: associated-with
   target: lpc.gravity.collegial-communion-preserved
@@ -54,9 +57,8 @@ text: '“They went out from us; but,” be not sad, “they were not of us.” 
 speaker_or_author: lpc.figure.augustine
 license: verbatim
 modern_lens_note: A modern listener may hear 'they were not of us' as a harsh verdict on people who left.
-  Augustine offers it as comfort to those who grieve. He says people who leave were never fully 'of us',
-  though they shared the same baptism and the same altar, and that temptation shows it, as a wind shows
-  who was not grain.
+  Augustine offers it as comfort to those who grieve. He says that many who are not 'of us' share the
+  same baptism and the same altar, and that temptation shows it, as a wind shows what was not grain.
 modern_rendering: '“They went out from us; but,” do not be sad, “they were not of us.” How do you prove
   this? If they had been of us, they would surely have stayed with us. From this you can see that many
   who are not of us receive the sacraments with us. They receive baptism with us. They receive with us

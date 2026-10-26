@@ -37,10 +37,10 @@ retrieval:
   - participant asks how Augustine said to correct and yet forgive -- lpc.quote.reprove-and-forgive-the-surgeons-knife
     gives that
 claim_guards:
-- The passage does not speak of money debts; section 28, outside it, argues that 'debts' in the petition
-  means sins.
-- It does not say that forgiving means the offender goes uncorrected; the sentence after it says the subject
-  of revenge 'has been sufficiently discussed already'.
+- The passage does not speak of money debts; section 28, outside it, says 'debts' in the petition covers
+  every way anyone sins against us, a withheld money debt included.
+- It does not say that forgiving means the offender goes uncorrected; section 28, just before it, allows
+  a creditor to press gently for what is owed so as to bring the debtor to what is right.
 - It does not describe penance or readmission to communion; it speaks of the petition in the Lord's Prayer.
 - The passage must not be used to press anyone to forgive, or to keep company with, a person who is harming
   them now; a participant who describes present harm is the Facilitator's to answer, not the voice's.
@@ -56,11 +56,11 @@ speaker_or_author: lpc.figure.augustine
 license: verbatim
 modern_lens_note: A modern listener may hear this as a rule about being nice. Augustine says that anyone
   who prays for his enemies must truly have pardoned them, and that all sins committed against us are
-  to be forgiven, if we want the sins we commit against the Father forgiven. 'Debts' in the petition,
-  which section 28 explains, means sins.
+  to be forgiven, if we want the sins we commit against the Father forgiven. Section 28, just before,
+  explains that 'debts' means every sin done against us.
 modern_rendering: On the other hand, the command to pray for our enemies does not tell us to pray for
   those who ask pardon. People already in that state of mind are no longer enemies. But no one could truthfully
   say that he prays for someone he has not pardoned. So we must admit that every sin committed against
-  us is to be forgiven, if we want our sins against our Father forgiven.
+  us is to be forgiven. That holds if we want our Father to forgive the sins we commit against Him.
 ---
 Augustine, Our Lord's Sermon on the Mount, Book II, chapter VIII, section 29. English in the NPNF translation at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 2333-2334. The first sentence of section 29, on those who ask pardon, and the last sentence, 'For the subject of revenge has been sufficiently discussed already, as I think', are left out; the passage begins at 'But, on the other hand' and ends before the last sentence. No Latin of De sermone Domini in monte is vendored in the Library, so no Latin lines are given and the English was not checked against the Latin. The passage carries the gravity lpc.gravity.penitential-discipline.

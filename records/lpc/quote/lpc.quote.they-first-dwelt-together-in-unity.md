@@ -6,7 +6,7 @@ schema_version: 2
 status: draft
 register: emic
 canon_cells:
-- F3-T
+- F5-T
 use_note:
   means: "Augustine says the first believers lived this verse first, with one heart toward God, yet they did not hear it alone."
   not_for:
@@ -66,4 +66,4 @@ modern_rendering: All came from there, and they were the first to live together 
   to hear, See how good and how pleasant it is for brothers to live together. They were the first to hear
   it, but they did not hear it alone.
 ---
-Augustine, Exposition on Psalm 133 (Psalm 132 in the Vulgate and in PL 37), section 2. English in the NPNF translation at cic/texts/npnf108_augustine-exposition-psalms.xml, lines 26754-26763. Latin at cic/texts/augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt, lines 123237-123247 (OCR text). Three Bible cross-references (Acts iv. 34, 35; Acts ii. 45; Acts iv. 32) sit inside the line range, at lines 26756, 26759 and 26762, and are not part of the passage. The sentences before the passage in section 2, from the verse as a trumpet through the Jewish origin of the Apostles and of the five hundred and the hundred and twenty, are left out. In the Latin, anima una et cor unum in Deum is 'one soul and one heart toward God', which the NPNF renders 'one mind and one heart God-wards'. The passage carries the gravity lpc.gravity.collegial-communion-preserved in its congregational form, not in the form of communion between bishops.
+Augustine, Exposition on Psalm 133 (Psalm 132 in the Vulgate and in PL 37), section 2. English in the NPNF translation at cic/texts/npnf108_augustine-exposition-psalms.xml, lines 26754-26763. Latin at cic/texts/augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt, lines 123237-123247 (OCR text). Three Bible cross-references (Acts iv. 34, 35; Acts ii. 45; Acts iv. 32) sit inside the line range, at lines 26756, 26759 and 26762, and are not part of the passage. The sentences before the passage in section 2, from the verse as a trumpet through the Jewish origin of the Apostles and of the five hundred and the hundred and twenty, are left out. In the Latin, anima una et cor unum in Deum is 'one soul and one heart toward God', which the NPNF renders 'one mind and one heart God-wards'. The passage is tied to the gravity lpc.gravity.collegial-communion-preserved only loosely: it speaks of the unity of the first believers, not of bishops keeping communion through disagreement.

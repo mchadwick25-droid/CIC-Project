@@ -8,7 +8,7 @@ register: emic
 canon_cells:
 - C-I
 use_note:
-  means: "Augustine says the old man nailed to the Cross is the one who cries out, not knowing why God has left him."
+  means: "Augustine says the old self nailed to the Cross is the one who cries out, not knowing why God has left him."
   not_for:
     - "a claim that the passage says Christ himself sinned or was forsaken by God"
     - "a claim that it gives the whole of Augustine's reading of Psalm 22, since section 1 is not in it"
@@ -26,9 +26,10 @@ confidence:
     note in the PL 36 text, at line 1156, gives the Hebrew reading.'
 sources:
 - source_id: lpc.source.augustine-expositions-on-the-psalms
-  locus: Exposition on Psalm 22 (NPNF Psalm XXII; Psalm 21 in the Vulgate and in PL 36), section 2 (section
-    3 in the PL text); English at cic/texts/npnf108_augustine-exposition-psalms.xml, lines 3289-3295;
-    Latin at cic/texts/augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt, lines 12992-13000
+  locus: Exposition on Psalm 22 (NPNF Psalm XXII; Psalm 21 in the Vulgate and in PL 36), section 2 (also
+    section 2 in PL 36, where the OCR misprints it as 3); English at cic/texts/npnf108_augustine-exposition-psalms.xml,
+    lines 3289-3295; Latin at cic/texts/augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt, lines
+    12992-13000
   license: public-domain
 retrieval:
   tier: 2
@@ -65,4 +66,4 @@ modern_rendering: '“O God, my God, look on me. Why have You forsaken me, far f
   Cross that speaks. It does not even know why God has forsaken it. Or it may be read this way: the words
   of my sins are far from my salvation.'
 ---
-Augustine, Exposition on Psalm 22 (Psalm 21 in the Vulgate and in PL 36), section 2 in the NPNF numbering (section 3 in the PL text). English in the NPNF translation at cic/texts/npnf108_augustine-exposition-psalms.xml, lines 3289-3295. Latin at cic/texts/augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt, lines 12992-13000 (OCR text). A footnote at line 3291 and a Bible cross-reference at line 3294 sit inside the line range and are not part of the passage. Section 1 (lines 3278-3284), where Augustine says the Lord Jesus Christ speaks in the person of the Crucified, is left out, as is everything after the passage in section 2. In the Latin, verba delictorum meorum is 'the words of my sins' and Vetus enim homo confixus cruci loquitur is 'for the old man nailed to the Cross speaks'.
+Augustine, Exposition on Psalm 22 (Psalm 21 in the Vulgate and in PL 36), section 2 in the NPNF numbering (also section 2 in PL 36, where the OCR misprints it as 3). English in the NPNF translation at cic/texts/npnf108_augustine-exposition-psalms.xml, lines 3289-3295. Latin at cic/texts/augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt, lines 12992-13000 (OCR text). A footnote at line 3291 and a Bible cross-reference at line 3294 sit inside the line range and are not part of the passage. Section 1 (lines 3278-3284), where Augustine says the Lord Jesus Christ speaks in the person of the Crucified, is left out, as is everything after the passage in section 2. In the Latin, verba delictorum meorum is 'the words of my sins' and Vetus enim homo confixus cruci loquitur is 'for the old man nailed to the Cross speaks'.

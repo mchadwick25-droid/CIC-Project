@@ -20,9 +20,10 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: The text field is the NPNF English as printed. Its 'exercise penitence' renders the
-    Latin agere poenitentiam, 'to act in repentance'; an editor's bracketed note at line 9116, outside
-    the text field, says the earlier translation 'do penance' misled and was corrected.
+  divergence_note: The text field is the NPNF English as printed. Its 'exercise penitence' renders agere
+    poenitentiam, which in Augustine can mean to repent or to undergo the Church's penance; the passage
+    does not say which. An editor's bracketed note at line 9116, outside the text field, calls the earlier
+    'do penance' 'feeble'; that is the editor's judgment, not the author's.
 sources:
 - source_id: lpc.source.augustine-expositions-on-the-psalms
   locus: Exposition on Psalm 51 (NPNF Psalm LI; Psalm 50 in the Vulgate and in PL 36), section 5; English
@@ -57,11 +58,12 @@ speaker_or_author: lpc.figure.augustine
 license: verbatim
 modern_lens_note: 'A modern listener may expect a sermon that scolds the sinner. Augustine sends the sinner
   who fears to repent to David as a companion: hear him groan, weep and rejoice, and do the same with
-  him. ''Penitence'' is the Latin poenitentia, the turning back of a sinner to God.'
+  him. ''Penitence'' renders the Latin poenitentia, repentance; the passage does not say whether the Church''s
+  formal penance is meant.'
 modern_rendering: 'Whoever you are who have sinned: you hold back from repenting of your sin, because
   you despair of your salvation. Hear David groaning. Nathan the prophet has not been sent to you. David
   himself has been sent to you. Hear him crying out, and cry out with him. Hear him groaning, and groan
   with him. Hear him weeping, and add your tears to his. Hear him set right, and rejoice with him. If
   sin could not be kept out of you, do not let hope of pardon be kept out.'
 ---
-Augustine, Exposition on Psalm 51 (Psalm 50 in the Vulgate and in PL 36), section 5 in the NPNF numbering. English in the NPNF translation at cic/texts/npnf108_augustine-exposition-psalms.xml, lines 9114-9117. Latin at cic/texts/augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt, lines 43058-43065 (OCR text). An editor's bracketed note at line 9116 sits inside the line range and is not part of the passage. The sentences before it in section 5, on those who have not yet fallen and on sin with despair being 'certain death', and the next sentences, on Nathan the prophet and the king's humility, are left out. In the Latin, Quisquis peccasti is 'whoever thou art that hast sinned' and intercludi is 'to be shut out'.
+Augustine, Exposition on Psalm 51 (Psalm 50 in the Vulgate and in PL 36), section 5 in the NPNF numbering. English in the NPNF translation at cic/texts/npnf108_augustine-exposition-psalms.xml, lines 9114-9117. Latin at cic/texts/augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt, lines 43058-43065 (OCR text). An editor's bracketed note at line 9116 sits inside the line range and is not part of the passage. The sentences before it in section 5, on those who have not yet fallen and on sin with despair being 'certain death', and the next sentences, on Nathan the prophet and the king's humility, are left out. In the Latin, Quisquis peccasti is 'whoever thou art that hast sinned' and intercludi is 'to be shut out'. The meaning of agere poenitentiam, whether to repent or to undergo the Church's penance, is contested: the passage does not settle it, and the rendering's 'repenting' must not be read as ruling out the Church's penance.

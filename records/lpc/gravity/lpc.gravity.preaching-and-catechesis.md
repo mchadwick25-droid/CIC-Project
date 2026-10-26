@@ -64,6 +64,8 @@ relations:
   target: lpc.quote.the-sermon-and-the-readings-are-daily-bread
 - type: associated-with
   target: lpc.quote.dash-the-little-ones-against-the-rock
+- type: associated-with
+  target: lpc.quote.many-have-learned-to-offer-the-other-cheek
 name: Preaching and Catechesis as the Primary Mode of Formation
 description: >-
   This concern is real too, though its reach is narrower than the others'. It is the means by which

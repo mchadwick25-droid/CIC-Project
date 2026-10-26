@@ -56,7 +56,7 @@ speaker_or_author: lpc.figure.augustine
 license: verbatim
 modern_lens_note: 'A modern listener may hear ''hireling'' as only a paid worker. Augustine says the hireling
   is the one who seeks his own, and shows him in a leader who sees a believer fall into sin and says nothing,
-  to keep his friends. Standing at his post in body is not enough: fear is ''the flight of the mind''.'
+  to keep his friends. Saying ''I am here'' is not enough: fear is ''the flight of the mind''.'
 modern_rendering: 'As things are now, the one who seeks his own, not the things of Jesus Christ, keeps
   quiet and gives no rebuke. He does not want to lose what he is after, the benefits of human friendship.
   He does not want to bring on himself the troubles of human enmity. See, the wolf has caught a sheep
@@ -65,4 +65,4 @@ modern_rendering: 'As things are now, the one who seeks his own, not the things 
   have not fled. You have fled, because you have kept silent. You have kept silent, because you were afraid.
   The flight of the mind is fear.'
 ---
-Augustine, Tractate 46 on the Gospel of John (NPNF Tractate XLVI), section 8. English in the NPNF translation at cic/texts/npnf107_augustine-homilies-john-soliloquies.xml, lines 7236-7237. Latin at cic/texts/augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt, lines 29570-29578 (OCR text). The first sentences of section 8, which say the hireling does not venture to rebuke an offender and fears that an excommunicated man will turn enemy, are left out; so are the sentences after 'The flight of the mind is fear' on Paul's spirit being present in his letters. In the Latin, Fuga animi, timor est is 'the flight of the mind is fear', and tacet, non corripit is 'he is silent and does not rebuke'. The passage carries the gravity lpc.gravity.pastoral-office-flock-keeping.
+Augustine, Tractate 46 on the Gospel of John (NPNF Tractate XLVI), section 8. English in the NPNF translation at cic/texts/npnf107_augustine-homilies-john-soliloquies.xml, lines 7236-7237. Latin at cic/texts/augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt, lines 29570-29578 (OCR text). The first sentences of section 8, which say the hireling does not venture to rebuke an offender and fears that an excommunicated man will turn enemy, are left out; so are the sentences after 'The flight of the mind is fear', which contrast standing in body with fleeing in spirit and quote Colossians 2:5. In the Latin, Fuga animi, timor est is 'the flight of the mind is fear', and tacet, non corripit is 'he is silent and does not rebuke'. The passage carries the gravity lpc.gravity.pastoral-office-flock-keeping.

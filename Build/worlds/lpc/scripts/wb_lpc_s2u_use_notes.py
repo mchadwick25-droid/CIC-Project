@@ -169,7 +169,8 @@ QUOTES = {
     ["a claim that the passage forbids judging what is plainly wrong",
      "a claim that it contains the two examples of the man who would not fast and the "
      "glutton",
-     "a claim that it describes a church court, excommunication or penance"], A),
+     "a claim that it describes a church court, excommunication or penance",
+     "a reason to stay near someone who is causing harm now"], A),
 "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock": (
     "Augustine says feeding the Lord's flock is the duty of love, and warns against "
     "feeding it as one's own for glory, power or gain.",
@@ -198,11 +199,12 @@ QUOTES = {
     ["a claim that any act done with a feeling of love is right, since the passage says "
      "the root of love brings forth only good",
      "a claim that it describes church discipline or excommunication",
-     "a claim that it sets out the whole of Augustine's homily on 1 John 4"], A),
+     "a claim that it sets out the whole of Augustine's homily on 1 John 4",
+     "a warrant for striking a child or anyone today"], A),
 "lpc.quote.many-have-learned-to-offer-the-other-cheek": (
     "Augustine says many offer the other cheek yet do not love the one who strikes, and "
     "the Lord, struck, answered instead.",
-    ["a claim that the passage forbids self-defence, a lawsuit or correction",
+    ["a ruling on self-defence or lawsuits, which the passage does not take up",
      "a claim that it says the Lord answered in anger",
      "a claim that it was checked against the Latin, which is not vendored"], A),
 "lpc.quote.no-one-has-the-love-of-god-from-himself": (
@@ -233,11 +235,10 @@ QUOTES = {
      "a claim about how a clergyman was ordained or removed",
      "a claim that it can be told without the argument on the sin against the Holy Spirit"], A),
 "lpc.quote.peter-may-baptize-but-this-is-he-that-baptizeth": (
-    "Augustine says Peter may baptize, and Paul, and Judas, but it is Christ who baptizes, "
-    "since the power is his alone.",
+    "Augustine says Peter may baptize, and Paul, and Judas, but it is Christ who baptizes, and the holiness is his.",
     ["a claim that the passage says Judas baptized anyone",
      "a claim that it names the Donatists or rules on any rite",
-     "a claim that it says the minister's character does not matter at all"], A),
+     "a claim that the minister's own sin is of no account to him, which the passage does not discuss"], A),
 "lpc.quote.peter-the-sick-man-and-the-physician": (
     "Augustine calls Peter the sick man and the Lord the physician, and says three confessions of love answer three denials.",
     ["a claim that Peter is restored to feed the flock in this passage",
@@ -296,8 +297,7 @@ QUOTES = {
      "mention",
      "a claim that it names a bishop, a place or a date"], A),
 "lpc.quote.the-old-man-nailed-to-the-cross-speaks": (
-    "Augustine says the old man nailed to the Cross is the one who cries out, not knowing "
-    "why God has left him.",
+    "Augustine says the old self nailed to the Cross is the one who cries out, not knowing why God has left him.",
     ["a claim that the passage says Christ himself sinned or was forsaken by God",
      "a claim that it gives the whole of Augustine's reading of Psalm 22, since section 1 "
      "is not in it",
@@ -352,8 +352,7 @@ QUOTES = {
      "a claim that it describes monks, which the sentences before it do",
      "a claim that the passage itself names the people the first believers came from"], A),
 "lpc.quote.they-went-out-from-us-but-were-not-of-us": (
-    "Augustine says those who left shared our baptism and altar but were not grain, and "
-    "temptation shows it.",
+    "Augustine says many who share our baptism and altar are not of us, and temptation shows it when they leave like chaff.",
     ["a claim that the passage gives a verdict on any named person or group",
      "a claim that it names the Donatists",
      "a claim that it says when the final sorting comes, which the next sentence does"], A),

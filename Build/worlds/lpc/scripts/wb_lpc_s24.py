@@ -428,7 +428,7 @@ RELATION_PAIRS: list[tuple[str, str]] = [
     ("lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock", "lpc.gravity.pastoral-office-flock-keeping"),
     ("lpc.quote.love-and-do-what-thou-wilt", "lpc.gravity.penitential-discipline"),
     ("lpc.quote.they-went-out-from-us-but-were-not-of-us", "lpc.gravity.collegial-communion-preserved"),
-    ("lpc.quote.many-have-learned-to-offer-the-other-cheek", "lpc.gravity.penitential-discipline"),
+    ("lpc.quote.many-have-learned-to-offer-the-other-cheek", "lpc.gravity.preaching-and-catechesis"),
     ("lpc.quote.all-sins-against-us-are-to-be-forgiven", "lpc.gravity.penitential-discipline"),
     ("lpc.quote.judge-not-nor-despair-of-a-return", "lpc.gravity.penitential-discipline"),
     ("lpc.story.election-of-cyprian", "lpc.quote.chosen-while-still-a-neophyte"),
@@ -2562,7 +2562,7 @@ def build_commentary_quotes() -> None:
              "text, at line 1156, gives the Hebrew reading."),
         [{"source_id": "lpc.source.augustine-expositions-on-the-psalms",
           "locus": "Exposition on Psalm 22 (NPNF Psalm XXII; Psalm 21 in the Vulgate and "
-                    "in PL 36), section 2 (section 3 in the PL text); English at "
+                    "in PL 36), section 2 (also section 2 in PL 36, where the OCR misprints it as 3); English at "
                     "cic/texts/npnf108_augustine-exposition-psalms.xml, lines 3289-3295; "
                     "Latin at "
                     "cic/texts/augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt, "
@@ -2581,7 +2581,7 @@ def build_commentary_quotes() -> None:
          "The passage does not date or place the exposition; the bracketed editor's note "
          "at line 3275, drawn from a different exposition, is outside it."],
         "Augustine, Exposition on Psalm 22 (Psalm 21 in the Vulgate and in PL 36), section "
-        "2 in the NPNF numbering (section 3 in the PL text). English in the NPNF "
+        "2 in the NPNF numbering (also section 2 in PL 36, where the OCR misprints it as 3). English in the NPNF "
         "translation at cic/texts/npnf108_augustine-exposition-psalms.xml, lines "
         "3289-3295. Latin at "
         "cic/texts/augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt, lines "
@@ -2606,14 +2606,10 @@ def build_commentary_quotes() -> None:
         "verbatim",
         "A modern listener may expect a sermon that scolds the sinner. Augustine sends the "
         "sinner who fears to repent to David as a companion: hear him groan, weep and "
-        "rejoice, and do the same with him. 'Penitence' is the Latin poenitentia, the "
-        "turning back of a sinner to God.",
+        "rejoice, and do the same with him. 'Penitence' renders the Latin poenitentia, repentance; the passage does not say whether the Church's formal penance is meant.",
         "Whoever you are who have sinned: you hold back from repenting of your sin, because you despair of your salvation. Hear David groaning. Nathan the prophet has not been sent to you. David himself has been sent to you. Hear him crying out, and cry out with him. Hear him groaning, and groan with him. Hear him weeping, and add your tears to his. Hear him set right, and rejoice with him. If sin could not be kept out of you, do not let hope of pardon be kept out.",
         conf("A", "verified-direct", "load-bearing", "Documented",
-             "The text field is the NPNF English as printed. Its 'exercise penitence' "
-             "renders the Latin agere poenitentiam, 'to act in repentance'; an editor's "
-             "bracketed note at line 9116, outside the text field, says the earlier "
-             "translation 'do penance' misled and was corrected."),
+             "The text field is the NPNF English as printed. Its 'exercise penitence' renders agere poenitentiam, which in Augustine can mean to repent or to undergo the Church's penance; the passage does not say which. An editor's bracketed note at line 9116, outside the text field, calls the earlier 'do penance' 'feeble'; that is the editor's judgment, not the author's."),
         [{"source_id": "lpc.source.augustine-expositions-on-the-psalms",
           "locus": "Exposition on Psalm 51 (NPNF Psalm LI; Psalm 50 in the Vulgate and in "
                     "PL 36), section 5; English at "
@@ -2644,7 +2640,7 @@ def build_commentary_quotes() -> None:
         "on those who have not yet fallen and on sin with despair being 'certain death', "
         "and the next sentences, on Nathan the prophet and the king's humility, are left "
         "out. In the Latin, Quisquis peccasti is 'whoever thou art that hast sinned' and "
-        "intercludi is 'to be shut out'.",
+        "intercludi is 'to be shut out'. The meaning of agere poenitentiam, whether to repent or to undergo the Church's penance, is contested: the passage does not settle it, and the rendering's 'repenting' must not be read as ruling out the Church's penance.",
     )
 
     emit_quote(
@@ -2754,9 +2750,7 @@ def build_commentary_quotes() -> None:
         "the verse as a trumpet through the Jewish origin of the Apostles and of the five "
         "hundred and the hundred and twenty, are left out. In the Latin, anima una et cor "
         "unum in Deum is 'one soul and one heart toward God', which the NPNF renders 'one "
-        "mind and one heart God-wards'. The passage carries the gravity "
-        "lpc.gravity.collegial-communion-preserved in its congregational form, not in the "
-        "form of communion between bishops.",
+        "mind and one heart God-wards'. The passage is tied to the gravity lpc.gravity.collegial-communion-preserved only loosely: it speaks of the unity of the first believers, not of bishops keeping communion through disagreement.",
     )
 
     emit_quote(
@@ -2798,9 +2792,7 @@ def build_commentary_quotes() -> None:
          "anyone, only that if he did, it would still be Christ who baptizes.",
          "It does not name the Donatists or any dispute, and the word 'valid' does not "
          "appear; the passage rests on John 1:33 and the dove.",
-         "It does not say the minister's character is of no account; later in the same "
-         "tractate, in section 15, Augustine says holy things can harm a person who "
-         "receives them badly."],
+         "It speaks only of whose baptism it is; it does not say the minister's own sin is of no account to the minister. Section 15, outside it, says baptism held apart from the Church's unity harms the one who receives it; that is about the recipient, not the minister, and must not be cited for the minister."],
         "Augustine, Tractate 6 on the Gospel of John (NPNF Tractate VI), section 7. "
         "English in the NPNF translation at "
         "cic/texts/npnf107_augustine-homilies-john-soliloquies.xml, lines 1420-1421. Latin "
@@ -2929,7 +2921,7 @@ def build_commentary_quotes() -> None:
         "voice of justice sent the accusers back to look at themselves, and when they had "
         "all gone out, only two were left: the wretched woman and Mercy. 'Mercy' is the "
         "Latin misericordia, and the Lord stays with her.",
-        "This is the voice of Justice: Let her, the sinner, be punished, but not by sinners. Let the law be carried out, but not by those who break the law. This certainly is the voice of justice. By that justice those men were pierced as if by a dart. They looked into themselves and found themselves guilty, and “one after another they all went away.” The two were left alone, the wretched woman and Mercy. The Lord had struck them through with that dart of justice. But He did not stoop to watch them fall. He turned His gaze away from them, and “again He wrote with His finger on the ground.”",
+        "This is the voice of Justice: Let her, the sinner, be punished, but not by sinners. Let the law be carried out, but not by those who break the law. This certainly is the voice of justice. By that justice those men were pierced as if by a dart. They looked into themselves and found themselves guilty, and “one after another they all went away.” The two were left alone, the wretched woman and Mercy. The Lord had struck them through with that dart of justice. But He did not think their fall worth watching. He turned His gaze away from them, and “again He wrote with His finger on the ground.”",
         conf("A", "verified-direct", "load-bearing", "Documented",
              "The text field is the NPNF English as printed. The capital 'M' in 'Mercy' is "
              "the translator's; the Latin misericordia is the plain word for mercy. 'Dart' "
@@ -2979,8 +2971,7 @@ def build_commentary_quotes() -> None:
         "verbatim",
         "A modern listener may hear 'hireling' as only a paid worker. Augustine says the "
         "hireling is the one who seeks his own, and shows him in a leader who sees a "
-        "believer fall into sin and says nothing, to keep his friends. Standing at his "
-        "post in body is not enough: fear is 'the flight of the mind'.",
+        "believer fall into sin and says nothing, to keep his friends. Saying 'I am here' is not enough: fear is 'the flight of the mind'.",
         "As things are now, the one who seeks his own, not the things of Jesus Christ, keeps quiet and gives no rebuke. He does not want to lose what he is after, the benefits of human friendship. He does not want to bring on himself the troubles of human enmity. See, the wolf has caught a sheep by the throat: the devil has lured a believer into adultery. You hold your peace. You give no reproof. O hireling, you have seen the wolf coming, and you have fled! Perhaps he answers, Look, I am here; I have not fled. You have fled, because you have kept silent. You have kept silent, because you were afraid. The flight of the mind is fear.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
@@ -3010,8 +3001,7 @@ def build_commentary_quotes() -> None:
         "cic/texts/augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt, "
         "lines 29570-29578 (OCR text). The first sentences of section 8, which say the "
         "hireling does not venture to rebuke an offender and fears that an excommunicated "
-        "man will turn enemy, are left out; so are the sentences after 'The flight of the "
-        "mind is fear' on Paul's spirit being present in his letters. In the Latin, Fuga "
+        "man will turn enemy, are left out; so are the sentences after 'The flight of the mind is fear', which contrast standing in body with fleeing in spirit and quote Colossians 2:5. In the Latin, Fuga "
         "animi, timor est is 'the flight of the mind is fear', and tacet, non corripit is "
         "'he is silent and does not rebuke'. The passage carries the gravity "
         "lpc.gravity.pastoral-office-flock-keeping.",
@@ -3101,7 +3091,7 @@ def build_commentary_quotes() -> None:
                     "lines 50812-50829",
           "license": "public-domain"}],
         1,
-        ["participant asks about 1 John 4, 'Love, and do what thou wilt'",
+        ["participant asks about Augustine's 'Love, and do what thou wilt', from his homily on 1 John 4",
          "participant asks what Augustine meant by 'love, and do what you want'",
          "participant asks how Augustine said a harsh act could come from love"],
         ["participant asks how Augustine said to correct and yet forgive -- "
@@ -3121,8 +3111,7 @@ def build_commentary_quotes() -> None:
         "lines 50812-50829 (OCR text). The passage is the second half of section 8. The "
         "two sentences before it, which say that where deeds differ we find a man made "
         "fierce by love and winningly gentle by wrong, are left out, and so is everything "
-        "after 'what is good'. The passage runs longer than most so that the short precept "
-        "keeps the father and the boy-stealer and the sentences on the root of love. In "
+        "after 'what is good'. In "
         "the Latin the precept reads Dilige, et quod vis fac, and radix sit intus "
         "dilectionis, non potest de ista radice nisi bonum existere is 'let the root of "
         "love be within; from that root nothing can spring but good'. The passage carries "
@@ -3143,9 +3132,7 @@ def build_commentary_quotes() -> None:
         "lpc.figure.augustine",
         "verbatim",
         "A modern listener may hear 'they were not of us' as a harsh verdict on people who "
-        "left. Augustine offers it as comfort to those who grieve. He says people who "
-        "leave were never fully 'of us', though they shared the same baptism and the same "
-        "altar, and that temptation shows it, as a wind shows who was not grain.",
+        "left. Augustine offers it as comfort to those who grieve. He says that many who are not 'of us' share the same baptism and the same altar, and that temptation shows it, as a wind shows what was not grain.",
         "“They went out from us; but,” do not be sad, “they were not of us.” How do you prove this? If they had been of us, they would surely have stayed with us. From this you can see that many who are not of us receive the sacraments with us. They receive baptism with us. They receive with us what the faithful know they receive: the blessing, the Eucharist, and whatever there is in the holy sacraments. They receive the communion of the very altar with us, and they are not of us. Temptation proves that they are not of us. When temptation comes, they fly off as if blown by a wind, because they were not grain.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
@@ -3167,7 +3154,8 @@ def build_commentary_quotes() -> None:
          "It does not name the Donatists; the homily names them in a later section, in "
          "section 7.",
          "An editor's note at line 14471, on a manuscript reading of 'Benediction, the "
-         "Eucharist', is inside the line range and is not part of the passage."],
+         "Eucharist', is inside the line range and is not part of the passage.",
+         "The same section, outside the passage, says that those who went out and return are not antichrists, and that whoever changes for the better is in the body; the passage must not be used as a verdict on anyone who has left."],
         "Augustine, Homily 3 on the First Epistle of John (NPNF Homily III), section 5. "
         "English in the NPNF translation at "
         "cic/texts/npnf107_augustine-homilies-john-soliloquies.xml, lines 14469-14472. "
@@ -3203,8 +3191,7 @@ def build_commentary_quotes() -> None:
         "For many have learned how to offer the other cheek, but do not know how to love the one who strikes them. But in truth the Lord Himself was surely the first to keep the commands He taught. Yet He did not offer the other cheek to the high priest’s servant who struck Him there. Far from it, He said, “If I have spoken evil, bear witness of the evil; but if well, why do you strike me?” Yet He was not, for that reason, unready in heart for the salvation of all. He was ready not only to be struck on the other cheek, but even to have His whole body crucified.",
         conf("A", "verified-direct", "load-bearing", "Documented",
              "The text field is the NPNF English as printed. No Latin of De sermone Domini "
-             "in monte is vendored in the Library, so the English was not checked against "
-             "the Latin."),
+             "in monte is vendored in the Library, so the English was not checked against the Latin. NPNF's 'hear witness' is a misprint for 'bear witness', which the rendering uses; the note at line 1668 gives Augustine's Latin reading, Exprobra de malo, 'charge me with the evil'."),
         [{"source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
           "locus": "Our Lord's Sermon on the Mount, Book I, chapter XIX, section 58; "
                     "English at "
@@ -3216,9 +3203,7 @@ def build_commentary_quotes() -> None:
          "participant asks whether a Christian had to accept every blow without answering",
          "participant asks how Augustine said Jesus himself acted when he was struck"],
         [],
-        ["The passage does not say that a Christian may not defend himself, go to court or "
-         "correct an offender; later sections, outside the passage, say correction out of "
-         "love is not forbidden.",
+        ["The passage does not take up self-defence or lawsuits and must not be given as Augustine's ruling on them; later sections, outside it, say correction out of love is not forbidden.",
          "It does not say the Lord answered in anger; it says he was ready in heart for "
          "more.",
          "It does not take up lawsuits, the coat or the mile; those come in the next "
@@ -3233,8 +3218,7 @@ def build_commentary_quotes() -> None:
         "earlier part of section 58, on what the right cheek means and on Paul as a Roman "
         "citizen, is left out. No Latin of De sermone Domini in monte is vendored in the "
         "Library, so no Latin lines are given and the English was not checked against the "
-        "Latin. The passage carries the gravity lpc.gravity.penitential-discipline in its "
-        "form of love for the one who does harm.",
+        "Latin. The passage carries the gravity lpc.gravity.preaching-and-catechesis through its teaching on the Lord's precept.",
     )
 
     emit_quote(
@@ -3251,9 +3235,8 @@ def build_commentary_quotes() -> None:
         "A modern listener may hear this as a rule about being nice. Augustine says that "
         "anyone who prays for his enemies must truly have pardoned them, and that all sins "
         "committed against us are to be forgiven, if we want the sins we commit against "
-        "the Father forgiven. 'Debts' in the petition, which section 28 explains, means "
-        "sins.",
-        "On the other hand, the command to pray for our enemies does not tell us to pray for those who ask pardon. People already in that state of mind are no longer enemies. But no one could truthfully say that he prays for someone he has not pardoned. So we must admit that every sin committed against us is to be forgiven, if we want our sins against our Father forgiven.",
+        "the Father forgiven. Section 28, just before, explains that 'debts' means every sin done against us.",
+        "On the other hand, the command to pray for our enemies does not tell us to pray for those who ask pardon. People already in that state of mind are no longer enemies. But no one could truthfully say that he prays for someone he has not pardoned. So we must admit that every sin committed against us is to be forgiven. That holds if we want our Father to forgive the sins we commit against Him.",
         conf("A", "verified-direct", "load-bearing", "Documented",
              "The text field is the NPNF English as printed. No Latin of De sermone Domini "
              "in monte is vendored in the Library, so the English was not checked against "
@@ -3272,10 +3255,8 @@ def build_commentary_quotes() -> None:
          "participant asks whether praying for an enemy meant truly forgiving him"],
         ["participant asks how Augustine said to correct and yet forgive -- "
          "lpc.quote.reprove-and-forgive-the-surgeons-knife gives that"],
-        ["The passage does not speak of money debts; section 28, outside it, argues that "
-         "'debts' in the petition means sins.",
-         "It does not say that forgiving means the offender goes uncorrected; the sentence "
-         "after it says the subject of revenge 'has been sufficiently discussed already'.",
+        ["The passage does not speak of money debts; section 28, outside it, says 'debts' in the petition covers every way anyone sins against us, a withheld money debt included.",
+         "It does not say that forgiving means the offender goes uncorrected; section 28, just before it, allows a creditor to press gently for what is owed so as to bring the debtor to what is right.",
          "It does not describe penance or readmission to communion; it speaks of the "
          "petition in the Lord's Prayer.",
          "The passage must not be used to press anyone to forgive, or to keep company with, a person who is harming them now; a participant who describes present harm is the Facilitator's to answer, not the voice's."],
@@ -3325,7 +3306,8 @@ def build_commentary_quotes() -> None:
          "outside it, say manifest sins may be judged.",
          "The examples that come before it in section 61, a man who will not fast because "
          "of his stomach and a plain glutton and drunkard, are not in the passage.",
-         "It does not describe a church court, excommunication or penance."],
+         "It does not describe a church court, excommunication or penance.",
+         "The passage must not be used to tell anyone to keep hoping for, or to stay near, a person who is harming them now; a participant who describes present harm is the Facilitator's to answer, not the voice's."],
         "Augustine, Our Lord's Sermon on the Mount, Book II, chapter XVIII, section 61. "
         "English in the NPNF translation at "
         "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines "

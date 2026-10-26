@@ -331,7 +331,6 @@ OTHER_TYPE_EDGES_LAST: dict[str, list[tuple[str, str]]] = {
         ("associated-with", "lpc.quote.david-himself-hath-been-sent-to-thee"),
         ("associated-with", "lpc.quote.the-wretched-woman-and-mercy"),
         ("associated-with", "lpc.quote.love-and-do-what-thou-wilt"),
-        ("associated-with", "lpc.quote.many-have-learned-to-offer-the-other-cheek"),
         ("associated-with", "lpc.quote.all-sins-against-us-are-to-be-forgiven"),
         ("associated-with", "lpc.quote.judge-not-nor-despair-of-a-return"),
     ],
@@ -348,6 +347,7 @@ OTHER_TYPE_EDGES_LAST: dict[str, list[tuple[str, str]]] = {
         ("associated-with", "lpc.quote.let-your-creed-be-a-mirror"),
         ("associated-with", "lpc.quote.the-sermon-and-the-readings-are-daily-bread"),
         ("associated-with", "lpc.quote.dash-the-little-ones-against-the-rock"),
+        ("associated-with", "lpc.quote.many-have-learned-to-offer-the-other-cheek"),
     ],
     G6: [
         ("associated-with", "lpc.witness.baptism-traced-to-the-apostles"),

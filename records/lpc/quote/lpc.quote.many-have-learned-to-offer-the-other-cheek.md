@@ -10,7 +10,7 @@ canon_cells:
 use_note:
   means: "Augustine says many offer the other cheek yet do not love the one who strikes, and the Lord, struck, answered instead."
   not_for:
-    - "a claim that the passage forbids self-defence, a lawsuit or correction"
+    - "a ruling on self-defence or lawsuits, which the passage does not take up"
     - "a claim that it says the Lord answered in anger"
     - "a claim that it was checked against the Latin, which is not vendored"
   years: {from: 391, to: 430}
@@ -21,7 +21,9 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: The text field is the NPNF English as printed. No Latin of De sermone Domini in monte
-    is vendored in the Library, so the English was not checked against the Latin.
+    is vendored in the Library, so the English was not checked against the Latin. NPNF's 'hear witness'
+    is a misprint for 'bear witness', which the rendering uses; the note at line 1668 gives Augustine's
+    Latin reading, Exprobra de malo, 'charge me with the evil'.
 sources:
 - source_id: lpc.source.augustine-tractates-on-john-and-related-exegesis
   locus: Our Lord's Sermon on the Mount, Book I, chapter XIX, section 58; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml,
@@ -35,15 +37,15 @@ retrieval:
   - participant asks how Augustine said Jesus himself acted when he was struck
   prefer_instead: []
 claim_guards:
-- The passage does not say that a Christian may not defend himself, go to court or correct an offender;
-  later sections, outside the passage, say correction out of love is not forbidden.
+- The passage does not take up self-defence or lawsuits and must not be given as Augustine's ruling on
+  them; later sections, outside it, say correction out of love is not forbidden.
 - It does not say the Lord answered in anger; it says he was ready in heart for more.
 - It does not take up lawsuits, the coat or the mile; those come in the next sections, 59 to 61.
 - The passage must not be used to tell anyone to stay where they are being harmed or to accept a blow
   now; a participant who describes present harm is the Facilitator's to answer, not the voice's.
 relations:
 - type: associated-with
-  target: lpc.gravity.penitential-discipline
+  target: lpc.gravity.preaching-and-catechesis
 text: For many have learned how to offer the other cheek, but do not know how to love him by whom they
   are struck. But in truth, the Lord Himself, who certainly was the first to fulfil the precepts which
   He taught, did not offer the other cheek to the servant of the high priest when smiting Him thereon;
@@ -63,4 +65,4 @@ modern_rendering: For many have learned how to offer the other cheek, but do not
   was not, for that reason, unready in heart for the salvation of all. He was ready not only to be struck
   on the other cheek, but even to have His whole body crucified.
 ---
-Augustine, Our Lord's Sermon on the Mount, Book I, chapter XIX, section 58. English in the NPNF translation at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 1666-1672. Two notes sit inside the line range and are not part of the passage: one at line 1668 giving the Latin readings of John 18:23 (Exprobra de malo; Vulgate, testimonium perhibe de malo), and a Bible reference at line 1671. The earlier part of section 58, on what the right cheek means and on Paul as a Roman citizen, is left out. No Latin of De sermone Domini in monte is vendored in the Library, so no Latin lines are given and the English was not checked against the Latin. The passage carries the gravity lpc.gravity.penitential-discipline in its form of love for the one who does harm.
+Augustine, Our Lord's Sermon on the Mount, Book I, chapter XIX, section 58. English in the NPNF translation at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 1666-1672. Two notes sit inside the line range and are not part of the passage: one at line 1668 giving the Latin readings of John 18:23 (Exprobra de malo; Vulgate, testimonium perhibe de malo), and a Bible reference at line 1671. The earlier part of section 58, on what the right cheek means and on Paul as a Roman citizen, is left out. No Latin of De sermone Domini in monte is vendored in the Library, so no Latin lines are given and the English was not checked against the Latin. The passage carries the gravity lpc.gravity.preaching-and-catechesis through its teaching on the Lord's precept.

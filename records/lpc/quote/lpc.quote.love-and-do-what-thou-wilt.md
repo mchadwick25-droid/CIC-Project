@@ -6,13 +6,14 @@ schema_version: 2
 status: draft
 register: emic
 canon_cells:
-- F1-I
+- F2-I
 use_note:
   means: "Augustine says the root decides the deed: a father beats a boy from love, a boy-stealer caresses him, so let love be the root."
   not_for:
     - "a claim that any act done with a feeling of love is right, since the passage says the root of love brings forth only good"
     - "a claim that it describes church discipline or excommunication"
     - "a claim that it sets out the whole of Augustine's homily on 1 John 4"
+    - "a warrant for striking a child or anyone today"
   years: {from: 391, to: 430}
   status: reviewed
 confidence:
@@ -32,7 +33,7 @@ sources:
 retrieval:
   tier: 1
   retrieve_when:
-  - participant asks about 1 John 4, 'Love, and do what thou wilt'
+  - participant asks about Augustine's 'Love, and do what thou wilt', from his homily on 1 John 4
   - participant asks what Augustine meant by 'love, and do what you want'
   - participant asks how Augustine said a harsh act could come from love
   prefer_instead:
@@ -77,4 +78,4 @@ modern_rendering: 'A father beats a boy, and a slave-dealer caresses him. Name t
   from love. If you spare, spare from love. Let the root of love be within you. From this root nothing
   can grow but what is good.'
 ---
-Augustine, Homily 7 on the First Epistle of John (NPNF Homily VII), section 8. English in the NPNF translation at cic/texts/npnf107_augustine-homilies-john-soliloquies.xml, lines 15529-15531. Latin at cic/texts/augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt, lines 50812-50829 (OCR text). The passage is the second half of section 8. The two sentences before it, which say that where deeds differ we find a man made fierce by love and winningly gentle by wrong, are left out, and so is everything after 'what is good'. The passage runs longer than most so that the short precept keeps the father and the boy-stealer and the sentences on the root of love. In the Latin the precept reads Dilige, et quod vis fac, and radix sit intus dilectionis, non potest de ista radice nisi bonum existere is 'let the root of love be within; from that root nothing can spring but good'. The passage carries the gravity lpc.gravity.penitential-discipline in its form of correction from love.
+Augustine, Homily 7 on the First Epistle of John (NPNF Homily VII), section 8. English in the NPNF translation at cic/texts/npnf107_augustine-homilies-john-soliloquies.xml, lines 15529-15531. Latin at cic/texts/augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt, lines 50812-50829 (OCR text). The passage is the second half of section 8. The two sentences before it, which say that where deeds differ we find a man made fierce by love and winningly gentle by wrong, are left out, and so is everything after 'what is good'. In the Latin the precept reads Dilige, et quod vis fac, and radix sit intus dilectionis, non potest de ista radice nisi bonum existere is 'let the root of love be within; from that root nothing can spring but good'. The passage carries the gravity lpc.gravity.penitential-discipline in its form of correction from love.
