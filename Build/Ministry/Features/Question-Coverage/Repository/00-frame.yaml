@@ -1,4 +1,4 @@
-# Question Repository v0.1 — frame. Draft in scratchpad; not a repo file.
+# Question Repository frame. Source of the repository pages; render.py builds the page.
 # Twelve visitor kinds (accepted by Mark 2026-10-25 as the working frame), seventeen clusters, four flags.
 # C17 split out of C16, C11 and the probe set on Mark's instruction 2026-10-25: questions whose point is to make the voice
 # step out of character, overstate, or invent are system challenges, not content. Moved items keep their birth id and carry moved_from.

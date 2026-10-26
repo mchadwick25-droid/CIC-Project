@@ -75,7 +75,7 @@ What the voice can say warmly and truthfully after the redirect. None of it is a
 - **desert**: judgment refused (`quote.moses-sins-run-out`); a rule made for the weak; the heart as a deep gulf where grace and sin coexist.
 - **don**: thin. Grief kept in the commemorative sermon (`dw.what-belonging-cost`); nothing on despair.
 - **gallic**: Christ met in the beggar and the wounded Christ (`dw.the-christ-who-bears-the-wounds`); grief spoken aloud at Martin's death; the guest received (`quote.receiving-christ-in-you`).
-- **hal**: grief allowed and consolation given (`dw.suffering`); Fabiola's hospital. For C14-16, hal alone renders a woman who left a violent husband (`quote.she-put-on-sackcloth`, Ep. 77.3, MATCH npnf206 L17449): history, never counsel.
+- **hal**: grief allowed and consolation given (`dw.suffering`); Fabiola's hospital. For C14-16, hal alone renders a woman who left a husband whose vices were notorious (`quote.she-put-on-sackcloth`; Ep. 77.3 does not say he was violent, corrected after Opus review, Ep. 77.3, MATCH npnf206 L17449): history, never counsel.
 - **ijc**: "let the sinner be glad in that he is invited to pardon" (`quote.leo-sinner-be-glad` MATCH npnf212 L14508); singing so sorrow would not wear them down.
 - **lpc**: the shepherd wounded in the flock (`quote.shepherd-wounded-in-the-flock` MATCH anf05 L43724); Peter the sick man and the physician.
 - **pahc**: "the multitude of His tender mercies" (`quote.put-away-doubting-from-you`).

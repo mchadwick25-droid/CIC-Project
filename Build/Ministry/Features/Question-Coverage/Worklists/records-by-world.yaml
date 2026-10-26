@@ -3604,7 +3604,7 @@ records:
     cells:
       - "C3/S3"
     record_type: "quote"
-    source_text: "Jerome, Apology against Rufinus II: 'that the devil, will be saved; a thing which no man even though he had taken leave of his senses ... could say'"
+    source_text: "WITHDRAWN after Opus review: npnf203 53776 is Origen's letter, which Jerome quotes; do not build a hal quote on it. Original: Apology against Rufinus II, 'that the devil, will be saved ...'"
     file: "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
     line: 53776
     reason: "C3 must add."
@@ -4104,7 +4104,7 @@ records:
     cells:
       - "C14/S8"
     record_type: "use_note / not_for check"
-    source_text: "hal.quote.she-put-on-sackcloth (Ep. 77.3, Fabiola left a violent husband)"
+    source_text: "hal.quote.she-put-on-sackcloth (Ep. 77.3, Fabiola left an incontinent husband; the letter does not say violent)"
     file: "cic/texts/npnf206_jerome-principal-works.xml"
     line: 17449
     reason: "C14: for C14-16 'it must be used only as warmth after the Facilitator redirect, never as advice'; 'history, never counsel'. Confirm the record's guard says so."

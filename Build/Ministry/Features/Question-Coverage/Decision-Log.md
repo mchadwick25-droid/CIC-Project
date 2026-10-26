@@ -38,6 +38,9 @@ Decision: imperial-juridical-christianity as tradition; hieronymian-ascetic-lite
 ## 2026-10-26 — Saved; Library thread launched
 Mark: save it and launch a new library thread to support this work. Saved to this folder on branch `claude/question-coverage-2026-10-26`. Library thread launched with `Library-Thread-Launch-Prompt.md`.
 
+## 2026-10-26 — Opus review of the work; corrections
+Mark asked for an Opus review of the work and the recommendations (`Review/opus-work-review.md`). Result: 38 claims checked, 26 held, 7 in part, 5 failed; 6 of 6 quotes matched. Corrections applied in place and marked "corrected after Opus review": the hal Origen-versus-Jerome row (withdrawn), Fabiola's husband (not "violent"), the privacy cookie item (withdrawn), and "contradicted" limits narrowed. Two of my own earlier actions were wrong and are reversed: (1) the Library launch prompt added a Doc_02 per-sub-question duty while saying the remit was unchanged, which is a method change, so it is struck and the Library thread was told; (2) the Chrysostom mapping is held for re-decision, because most of those homilies were preached at Antioch before Constantinople and `context` means the outside view. Held for Mark: the 69 Facilitator-adjacent rows (Facilitator Governance V3.6), the "loaded" sizing (re-run with role, window and author filters), the acquisition re-scoring.
+
 ## Findings passed to other threads (information, not instructions)
 - Latin pastoral thread: Augustine's commentaries are vendored and mapped to it; its 330 records are all draft with no use notes; nothing on hell, the dead, infants or suicide. Sent 2026-10-26.
 - System and pilot-feedback thread: asked to route the Chrysostom mapping to the corpus-map owner. Sent 2026-10-26.

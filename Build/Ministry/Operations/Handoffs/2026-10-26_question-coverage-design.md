@@ -38,7 +38,7 @@ From session: https://claude.ai/code/session_01Sb4EENRKNZtmouh2wJod6B · World o
 - Whether to open a pull request for the branch `claude/question-coverage-2026-10-26` so the folder reaches `main`.
 - Whether the question-coverage pass joins the build cycle, and how — by change order if so.
 - The five honest limits that vendored text contradicts, and the three Jewish-visitor records with unguarded edges — fixes belong to the owning world threads; the list is in `Coverage-Maps/00-summary-all.md`.
-- The eight "what are you" questions that fall through to the Representative, and the privacy page that overstates deletion — product and Facilitator-governance decision (`Coverage-Maps/C16-coverage.md`, Part B).
+- The eight "what are you" questions that fall through to the Representative, and the privacy page, which omits that scores and flags are kept without text — product and Facilitator-governance decision (`Coverage-Maps/C16-coverage.md`, Part B).
 
 ## 5. Next step
 
