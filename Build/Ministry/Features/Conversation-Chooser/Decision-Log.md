@@ -648,3 +648,15 @@ The merged hand (commit bca8e31b9) left the hidden cards transformed far to the 
 **Mark's words.** "use the site text for Wittenberg".
 
 **What changed.** Only `Card-Words/Approved-Card-Words.yaml`, which now reads "This Christian tradition's chief tool was the household catechism", as the site and the recorded clip do. The earlier wording, "This world's chief tool", is dropped. No site, audio or census file changes. Compared by text after collapsing spacing: the two summaries differed in that one phrase and nothing else.
+
+## 2026-10-26 — The card-back audio starts when the card flips (Mark, small projects thread)
+
+**Mark's words.** "lets fix the on flip and leave the narration voice for now, we may make some edits to the text, so lets finalize that before changing the voice." Confirmed to this thread directly by Mark when asked, because the change replaces the 2026-10-20 line "audio plays only when pressed" for the card backs.
+
+**What was found.** The clip started only when the person pressed Listen on the back. The page's player already pauses any other audio when one starts, and the card's own code already pauses the clip when the card turns back.
+
+**What changed.** `chooser.js`: after the tap or key press that turns a card (the one place a card is turned on), the clip on that card's back is started (`startNarration`). If the browser refuses, the Listen button stays as it was. Nothing plays on page load (`preload` stays `none`). Turning the card back, or moving to another card, pauses it. The Listen player stays on the back with Pause, Resume, the rail and the speeds. No audio file, word, voice or setting changed, and nothing was generated or paid for.
+
+**Checked.** In headless Chromium at desktop size and at phone size with touch: nothing plays on load; one tap on the chosen card turns it and starts the clip; Pause and Resume work; turning back stops it; no page errors. A static test holds the single start point, no `autoplay`, and the swallowed refusal. **Not tested:** iOS Safari or any real phone, and screen readers (the clip speaks over a screen reader when a card turns).
+
+**Left open.** The audio is redone after Mark's text edits to the card backs; until then the clips match the text as of 2026-10-24.

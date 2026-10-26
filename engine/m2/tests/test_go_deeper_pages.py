@@ -422,3 +422,12 @@ def test_the_free_line_link_opens_the_slide_out_and_still_goes_to_the_page_witho
     assert link and 'href="go-deeper.html"' in link.group(0)
     js = (SITE / "assets" / "more-conversations.js").read_text()
     assert "[data-more-open]" in js and "ev.preventDefault(); open();" in js
+
+
+def test_a_card_back_clip_starts_only_from_the_tap_that_turns_the_card():
+    js = (SITE / "assets" / "chooser.js").read_text()
+    assert "turn(card, true);\n      startNarration(card);" in js
+    assert js.count("startNarration(") == 2  # the definition and the one call
+    assert "autoplay" not in js.lower()
+    # the refusal is swallowed so the Listen button stays as it was
+    assert re.search(r"go\.catch\(function \(\) \{\}\)", js)
