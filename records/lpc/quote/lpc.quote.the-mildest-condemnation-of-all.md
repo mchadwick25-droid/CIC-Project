@@ -54,8 +54,8 @@ modern_lens_note: A modern listener may expect Augustine to be silent or gentle 
   He is neither. He says 'such infants as quit the body without being baptized will be involved in the
   mildest condemnation of all'. He says whoever teaches that they will not be condemned 'greatly deceives
   both himself and others'.
-modern_rendering: So it may rightly be said that infants who leave the body without being baptized will
-  be under the mildest condemnation of all. So a person who teaches that they will not be under condemnation
-  greatly deceives both himself and others.
+modern_rendering: So it may rightly be said that infants who leave the body unbaptized will share the
+  mildest condemnation of all. And so a person who teaches that they will not be condemned greatly deceives
+  both himself and others.
 ---
 Augustine, On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), the first two sentences of the chapter's text. English in the NPNF translation at cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558. No Latin of this work is vendored (a filename search of cic/texts/ found none). A page-break tag inside 'such infants' is stripped. The NPNF chapter title, 'Unbaptized Infants Damned, But Most Lightly', and the editor's endnote 275, which cross-refers to Enchiridion 93 and Contra Julianum V.11, are the editor's and are not part of the passage. The words after it, on the apostle's 'Judgment from one offence to condemnation', are left out. The passage names the unbaptized infants that Enchiridion 93 leaves unnamed, and is read with lpc.quote.the-mildest-punishment-of-all. The passage carries the witness lpc.witness.infants-and-the-sin-of-another.
