@@ -8,6 +8,14 @@ register: emic
 canon_cells:
 - F4-I
 - F6-I
+use_note:
+  means: "Celerinus asked Lucian in jail to give peace to three fallen women, and Lucian said yes if the bishop heard each case."
+  not_for:
+    - "a claim that gives words to Celerinus's sister, Numeria or Candida, none of whom speaks in our sources"
+    - "a claim that Lucian's grant stood without his condition that each case be set before the bishop"
+    - "a claim that the confessors were either usurpers or heroes"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

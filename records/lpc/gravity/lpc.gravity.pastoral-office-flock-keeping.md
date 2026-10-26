@@ -7,6 +7,12 @@ status: draft
 register: etic
 canon_cells:
 - F3-I
+use_note:
+  means: "A bishop is personally answerable for a bounded flock, and much else they held flows from that office."
+  not_for:
+    - "a claim that the bishop was a regional administrator"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority

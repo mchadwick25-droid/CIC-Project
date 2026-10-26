@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - C-I
+use_note:
+  means: "Augustine taught that Christ's death, burial, rising and ascent were the pattern for the believer's life."
+  not_for:
+    - "a claim that this exhausts who Jesus was to them or what he taught"
+    - "a claim that our sources keep a developed telling of his life as its own story"
+    - "a claim that the pattern is only mystical"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

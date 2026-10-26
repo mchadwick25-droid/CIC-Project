@@ -24,6 +24,14 @@ relations:
   target: lpc.term.suffrage
 - type: associated-with
   target: lpc.term.the-flock
+use_note:
+  means: "Cyprian taught that the episcopate is one office, and each bishop holds his part for the whole."
+  not_for:
+    - "a claim that it is a ranked hierarchy or a federation of independent officers"
+    - "a claim that De Unitate carries Cyprian's argument against Stephen"
+    - "a claim that either recension of De Unitate chapters 4 and 5 grounds the term"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

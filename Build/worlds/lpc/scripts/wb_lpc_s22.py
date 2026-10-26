@@ -2073,9 +2073,9 @@ def build_tier2_terms() -> list[str]:
                 "theirs to Cyprian (Epistle XVI), which says 'we have granted peace' to all whose "
                 "conduct has been satisfactory 'in your estimation'; the rest is "
                 "Cyprian quoting, paraphrasing, and objecting to them (Author-Gravity-Risk: Yes). "
-                "An editorial endnote words one sentence as 'thousands of certificates were given, "
-                "against the Gospel law'. Cyprian's own text reads 'were daily given, contrary to "
-                "the law of the Gospel', and this record uses his.",
+                "'Thousands' is Cyprian's own word: Hartel's Latin of Epistle XX.2 reads 'libellorum "
+                "milia', and the translation reads 'thousands of certificates were daily given, "
+                "contrary to the law of the Gospel'. This record uses his wording.",
             ),
             sources=[
                 src(1, "Cyprian's own crisis correspondence, Epistle X -- 'designate by name in "

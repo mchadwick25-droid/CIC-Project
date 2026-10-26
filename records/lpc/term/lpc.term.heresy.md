@@ -25,6 +25,14 @@ relations:
   target: lpc.term.schism
 - type: associated-with
   target: lpc.term.the-one-episcopate
+use_note:
+  means: "The word asks if baptism outside the church counts: Cyprian's council said no, and Augustine said it was truly given but did no good there."
+  not_for:
+    - "a claim that it names a settled malicious deviation from an agreed orthodoxy"
+    - "a claim that De Unitate bears on Cyprian's argument against Stephen"
+    - "a claim that the question was closed and not argued by both sides"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

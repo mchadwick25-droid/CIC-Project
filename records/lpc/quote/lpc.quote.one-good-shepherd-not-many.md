@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F3-T
+use_note:
+  means: "Augustine calls Peter, Paul, the bishops and Cyprian good shepherds, yet says the Lord named one Shepherd."
+  not_for:
+    - "a claim that Augustine and Cyprian agreed or differed on rebaptism"
+    - "a claim that bishops disagreeing with bishops appears here"
+    - "a claim that the passage stands without John 10:14, which the next sentence quotes"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F3-E
+use_note:
+  means: "Augustine called Constantine no foe of the Christian name, and said his power did not come from the old gods."
+  not_for:
+    - "a claim that Augustine was a neutral witness, since Petilian's side had asked Constantine to judge and he ruled against them"
+    - "a claim that Augustine thought friendship with kings always safe"
+    - "a claim that Constantine's success proved a Christian's standing before God"
+  years: {from: 400, to: 426}
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-direct

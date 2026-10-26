@@ -19,6 +19,14 @@ relations:
   target: lpc.term.preaching
 - type: associated-with
   target: lpc.term.the-flock
+use_note:
+  means: "Catechesis was the teaching of the creed before baptism, and Augustine wrote a guide to it."
+  not_for:
+    - "a claim that it was a children's catechism of memorized questions and answers"
+    - "a claim that it was an organizing force of its own and not the medium formation was taught through"
+    - "a claim that the creed was taught after the water"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

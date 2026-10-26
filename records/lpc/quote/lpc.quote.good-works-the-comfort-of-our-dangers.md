@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F3-I
+use_note:
+  means: "Augustine tells his hearers that their good lives comfort him in the dangers of his office."
+  not_for:
+    - "a claim about what the dangers of the office were"
+    - "a claim that the earlier sentences on standing in the Apostles' place are part of the quoted words"
+    - "a claim that 'good conversation' means pleasant talk"
+  years: {from: 395, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

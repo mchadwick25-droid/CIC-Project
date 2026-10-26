@@ -7,6 +7,15 @@ status: draft
 register: etic
 canon_cells:
 - F3-P
+use_note:
+  means: "Whether Augustine truly changed his mind on force stays open, since we know his earlier view only from his own account."
+  not_for:
+    - "a claim that the change of mind is settled as either genuine or a later construction"
+    - "a claim that Cyprian's corpus has anything corresponding to it"
+    - "a claim that a contemporaneous statement of the earlier view survives"
+    - "a claim that this position is or is not the ancestor of later inquisitorial practice"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority

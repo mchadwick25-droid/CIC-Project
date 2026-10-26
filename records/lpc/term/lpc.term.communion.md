@@ -36,6 +36,13 @@ relations:
   target: lpc.term.the-one-episcopate
 - type: associated-with
   target: lpc.term.the-people
+use_note:
+  means: "For Cyprian, communion was a real standing that could be lost, given back, and kept through sharp disagreement."
+  not_for:
+    - "a claim that it names only a rite or a general warmth of fellowship"
+    - "a claim that either bishop used this word for the pattern across both phases, since that pattern is our own reading"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

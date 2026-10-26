@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F3-I
+use_note:
+  means: "Augustine says his hearers are in his care so he can give account for them, and that he wept when not heard."
+  not_for:
+    - "a claim about the date, place or occasion of the sermon"
+    - "a claim that the closing prayer is Scripture"
+    - "a claim that the sentence before it, calling the hearers a Catholic people not divided from unity, is part of the quoted words"
+  years: {from: 395, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

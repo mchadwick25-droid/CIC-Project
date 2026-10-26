@@ -14,6 +14,14 @@ relations:
   target: lpc.term.the-one-episcopate
 - type: associated-with
   target: lpc.term.the-people
+use_note:
+  means: "Suffrage names the voice of the people that, with God's judgment, put a man into office, even against his wishes."
+  not_for:
+    - "a claim that it was a vote with a ballot and a fixed procedure"
+    - "a claim that both phases share one word for it, when it is a pattern named from different figures and words"
+    - "a claim that Augustine's episcopate came by the people's choice alone"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

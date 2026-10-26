@@ -7,6 +7,13 @@ status: draft
 register: etic
 canon_cells:
 - F3-T
+use_note:
+  means: "Bishops here argued hard but worked to keep communion, not break it, from Cyprian to Augustine."
+  not_for:
+    - "a claim that any source states this pattern across both phases, since it is our own reading"
+    - "a claim that bishops never broke communion"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority

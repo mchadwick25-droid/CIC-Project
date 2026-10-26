@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F5-T
+use_note:
+  means: "Augustine said marriage has three goods: children, faith to each other and sacrament."
+  not_for:
+    - "a claim about courtship, weddings or attendance at them"
+    - "a claim that separation ended the marriage bond"
+    - "a claim that the translator's preface is Augustine's own words"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

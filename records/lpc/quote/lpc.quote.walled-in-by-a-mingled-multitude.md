@@ -7,6 +7,13 @@ status: draft
 register: emic
 canon_cells:
 - F6-E
+use_note:
+  means: "Pontius says Cyprian went out from the officer's house walled in on all sides by a mingled multitude."
+  not_for:
+    - "a claim about the size of the crowd"
+    - "a claim that everyone in the crowd was a Christian"
+  years: {from: 258, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F5-P
+use_note:
+  means: "Cyprian says Christ is to be seen in captive believers, so ransoming them redeems the one who redeemed us."
+  not_for:
+    - "a claim that the words in inner quotation marks are Cyprian's own"
+    - "a claim that 'redeemed' carries only its church sense here"
+    - "a claim that the ransom succeeded"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

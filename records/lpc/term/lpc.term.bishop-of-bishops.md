@@ -20,6 +20,14 @@ relations:
   target: lpc.term.the-one-episcopate
 - type: associated-with
   target: lpc.witness.scripture-above-councils
+use_note:
+  means: "The term names the rule, stated at the council of 256, that no bishop stands over another and each answers to Christ."
+  not_for:
+    - "a claim that it is an early anti-papal manifesto or a modern separation of powers"
+    - "a claim that Cyprian's words name Stephen as their target"
+    - "a claim that ordinary believers or most clergy were formed by this question"
+  years: {from: 256, to: 256}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

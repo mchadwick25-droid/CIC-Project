@@ -7,6 +7,13 @@ status: draft
 register: emic
 canon_cells:
 - F6-E
+use_note:
+  means: "Pontius says Cyprian spent his last night in an officer's house while the whole people kept watch outside."
+  not_for:
+    - "a claim about how many kept watch"
+    - "a claim that Cyprian spent the night in a prison cell"
+  years: {from: 258, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct
