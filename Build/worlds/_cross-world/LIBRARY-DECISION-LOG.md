@@ -904,7 +904,7 @@ Donatistam, from the same source file, are NOT part of this authorization
 
 **Ruling.** Mark, 2026-10-26: "Build the passage index now."
 
-**What exists.** `cic/engine/passage_index.py` builds `cic/texts/PASSAGES.sqlite` (derived, gitignored, about two seconds) from the ThML volumes, and `tests_passage_index.py` checks it; the test is a step in the Library validators job. Query: `python cic/engine/passage_index.py "Romans 5:12"`.
+**What exists.** `cic/engine/passage_index.py` builds a local passage index (derived, gitignored, about two seconds) from the ThML volumes, and `tests_passage_index.py` checks it; the test is a step in the Library validators job. Query: `python cic/engine/passage_index.py "Romans 5:12"`.
 
 **A normaliser was not needed.** CCEL already writes a standard `osisRef` on 99.6% of the 87,090 references, so the index reads that and counts what it cannot read (178 references skipped, reported at build). Vulgate psalm numbering is not mapped: CCEL's own numbering stands.
 
