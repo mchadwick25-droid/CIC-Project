@@ -64,7 +64,8 @@ def test_approving_keeps_the_hash_the_amount_and_the_day_and_nothing_else(wired,
     assert row[1] == wired.keys.address_hash(ADDR) and row[2] == 3000
     store.close()
     assert ADDR.encode() not in (tmp_path / "d.db").read_bytes()
-    assert b"ada" not in (tmp_path / "d.db").read_bytes()
+    data = (tmp_path / "d.db").read_bytes()
+    assert b"ada@" not in data and b"example.org" not in data  # the coupon id is random hex, so a bare "ada" can occur by chance
 
 
 def test_the_reply_is_the_same_whether_or_not_the_address_has_an_account(wired, mailer):
@@ -140,7 +141,7 @@ def test_the_pending_list_shows_ids_amounts_and_days_and_no_address(wired):
     approve(wired)
     (row,) = wired.coupon_pending()
     assert set(row) == {"coupon_id", "tokens", "day_made"}
-    assert ADDR not in str(row) and "ada" not in str(row) and "k1:" not in str(row)
+    assert ADDR not in str(row) and "ada@" not in str(row) and "example.org" not in str(row) and "k1:" not in str(row)
 
 
 def test_a_coupon_nobody_claims_lapses_after_the_set_days_and_not_before(wired, clock):
