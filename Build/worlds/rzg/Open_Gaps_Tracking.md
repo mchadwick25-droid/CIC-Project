@@ -376,3 +376,10 @@ Status: CLOSED for the three documents and the Marburg cross-reference; OPEN for
 78. **Independent recheck of the live-reply claim check fixes, 2026-10-24.** Independent recheck, round 1 (the round 1 recheck report in https://github.com/mchadwick25-droid/CIC-Project/pull/1099): every fix in this world for the "Live-reply claim check findings re-confirmed" entry (2026-10-23) is confirmed against the vendored sources. One non-blocking change was applied: `rzg.source.second-helvetic-confession` now says its English is Schaff's condensed translation.
 
    Status: CLOSED for the live-reply claim check findings. The empty-sources item stays OPEN.
+
+79. **Source records out of step with the Library, 2026-10-26.** Library thread, 2026-10-26, from the question-coverage survey (`Build/Ministry/Features/Question-Coverage/`). The Library thread does not edit world records; this entry hands the fix to this world's thread.
+
+   - `rzg.source.genevan-psalter` is marked unvendored while `cic/texts/marot-beze_pseaumes-mis-en-rime-francoise-fra_1562.txt` is vendored and mapped.
+   - `rzg.source.ecclesiastical-ordinances-1541` is correctly unvendored for the 1541 text. The file `cic/texts/calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735.txt` is the 1576 General Council revision (its own header says it is not the 1541/1561 text verbatim). The world holds the 1576 revision and has no source record for it. A record for the revision would let a reply say which text it rests on.
+
+   Status: OPEN, for this world's thread.

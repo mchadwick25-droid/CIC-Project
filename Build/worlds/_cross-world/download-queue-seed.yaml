@@ -803,7 +803,8 @@ queue:
     url: "https://archive.org/details/pilgrimageofethe00mccliala"
     rights_basis: pd-us-by-date
     verified_by: "direct WebFetch against the archive.org details page, September 2026 - page states NOT_IN_COPYRIGHT; corroborated by a separate archive.org item, a 2018 LibriVox recording of the same 1919 McClure/Feltoe translation, independently carrying a Public Domain Mark 1.0 license"
-    status: not-yet-downloaded
+    status: superseded
+    hold_note: "Already held: this edition is vendored as egeria_pilgrimage-of-etheria_mcclure-feltoe1919.txt, by another row of this queue. Kept for the record, not for download."
 
   - title: "De Fide et Operibus, CSEL 41 work II (Latin, TEI/EpiDoc encoding by the Open Greek and Latin project)"
     author: "Augustine of Hippo"
@@ -1174,7 +1175,8 @@ queue:
     url: "https://archive.org/details/victorisepiscop01victgoog"
     rights_basis: "pd-us-by-date"
     verified_by: "archive.org /metadata and the OCR title page read directly: 'VOL. VII', Vienna, Geroldi, MDCCCLXXXI (1881), 208 images, Google scan, possible-copyright-status NOT_IN_COPYRIGHT, September 2026"
-    status: not-yet-downloaded
+    status: superseded
+    hold_note: "Already held: this edition is vendored as victor-of-vita_historia-persecutionis-africanae-provinciae-lat_petschenig1881.txt, by another row of this queue. Kept for the record, not for download."
     hold_note: "Held, not vendored. Low priority, outside the window: the history concerns the persecution under the Vandal kings Geiseric and Hunneric (the edition's preface cites the work as 'Victoris Vitensis historia persecutionis Africanae prouinciae sub Geiserico et Hunirico regibus Wandalorum'), after c. 430."
 
   - title: "Corpus Inscriptionum Latinarum, Vol. VIII pars posterior: Inscriptiones Africae Latinae, Inscriptiones Mauretaniarum (the scan opens at Pars quinta, Mauretania Sitifensis)"
@@ -2091,7 +2093,8 @@ queue:
     url: "https://archive.org/details/bub_gb_zjg6xiP83WQC"
     rights_basis: pd-us-by-date
     verified_by: "lpc library sweep 2 (source-research half), September 2026; first 30 KB of the OCR read: 'Patrologia Latina Tomus XXXV. Opera omnia. Tomus tertius. Pars altera'; catalogue date 1861"
-    status: not-yet-downloaded
+    status: superseded
+    hold_note: "Already held: this edition is vendored as augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt, by another row of this queue. Kept for the record, not for download."
 
   - title: "Conciliengeschichte, Bd. 1 and 2 (2nd ed.)"
     author: "Karl Josef von Hefele"
@@ -4839,7 +4842,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: 'library/source-research thread, October 2026: advancedsearch result (NOT_IN_COPYRIGHT, 1890);
       metadata and OCR not yet read'
-    status: not-yet-downloaded
+    status: superseded
+    hold_note: "Already held: this edition is vendored as somerset-parishes_churchwardens-accounts-1349-1560-enm_hobhouse1890.txt, by another row of this queue. Kept for the record, not for download."
 
   - title: 'Synodicon in Gallia Reformata: the Acts, Decisions, Decrees and Canons of the National Councils
       of the Reformed Churches in France (2 vols in one scan)'
@@ -5795,7 +5799,8 @@ queue:
     url: https://archive.org/details/reliquiaebaxteri00baxt
     rights_basis: pd-us-by-date
     verified_by: 'VI.8 one-world agent, October 2026: NOT_IN_COPYRIGHT on the item; OCR sampled'
-    status: not-yet-downloaded
+    status: superseded
+    hold_note: "Already held: this edition is vendored as baxter_reliquiae-baxterianae_sylvester1696.txt, by another row of this queue. Kept for the record, not for download."
   - title: The Practice of Pietie, 14th edition
     author: Lewis Bayly
     translator: ''
@@ -6616,7 +6621,8 @@ queue:
     url: "https://archive.org/details/sozomeniecclesia02sozo"
     rights_basis: pd-us-by-date
     verified_by: "Shared-Events source-research thread, October 2026: archive.org metadata read (Oxford 1860, v.2, djvu 2.7 MB); not opened"
-    status: not-yet-downloaded
+    status: superseded
+    hold_note: "Already held: this edition is vendored as sozomen_historia-ecclesiastica-tomus2-libri-5-9-grc-lat_hussey1860.txt, by another row of this queue. Kept for the record, not for download."
 
   - title: "Epiphanii episcopi Constantiae Opera (Dindorf), Panarion volumes"
     author: "Epiphanius of Salamis"
@@ -7532,7 +7538,8 @@ queue:
     url: "https://archive.org/details/patrologiaorien00unkngoog"
     rights_basis: pd-us-by-date
     verified_by: "Shared-Events Era 2 worker C: archive.org metadata (1908, NOT_IN_COPYRIGHT) read and djvu.txt downloaded and grepped (Histoire nestorienne heading, Marouta, Dadiso in the introduction), October 2026; not vendored"
-    status: not-yet-downloaded
+    status: superseded
+    hold_note: "Already held: this edition is vendored as barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt, by another row of this queue. Kept for the record, not for download."
 
   - title: "Patrologia orientalis, tomus 7 (Chronicle of Seert, second part, fasc. 1, 484 onward)"
     author: "Anonymous (Chronicle of Seert)"
@@ -7771,7 +7778,8 @@ queue:
     url: "https://archive.org/details/epistulaeimperat02gnth"
     rights_basis: pd-us-by-date
     verified_by: "Shared-Events source-research thread, Era 2 worker A: item metadata read (1895, Vindobonae, F. Tempsky, volume 2), October 2026; the item has no rights tag"
-    status: not-yet-downloaded
+    status: superseded
+    hold_note: "Already held: this edition is vendored as collectio-avellana_epistulae-imperatorum-pontificum-v2-lat_guenther1898.txt, by another row of this queue. Kept for the record, not for download."
 
   - title: "Canones apostolorum et conciliorum veterum selecti (Bibliotheca ecclesiastica), 2 volumes in 1"
     author: "Councils (Nicaea to the sixth century), including Arles 314 and Sardica"
@@ -8549,7 +8557,8 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: direct fetch of the metadata (London, Rivingtons, 1868; possible-copyright-status NOT_IN_COPYRIGHT);
       OCR not sampled, October 2026
-    status: not-yet-downloaded
+    status: superseded
+    hold_note: "Already held: this edition is vendored as williams-george_orthodox-church-of-the-east-in-the-eighteenth-century_1868.txt, by another row of this queue. Kept for the record, not for download."
   - title: Libri symbolici Ecclesiae Orientalis
     author: Ernst Julius Kimmel (ed.)
     translator: (Greek and Latin)
@@ -9242,7 +9251,8 @@ queue:
     url: https://archive.org/details/travelsmacarius02pauluoft
     rights_basis: pd-us-by-date (host NOT_IN_COPYRIGHT)
     verified_by: 'Era VII VI.23 world agent, October 2026: archive.org metadata fetched only'
-    status: not-yet-downloaded
+    status: superseded
+    hold_note: "Already held: this edition is vendored as paul-of-aleppo_travels-of-macarius-v2_belfour1836.txt, by another row of this queue. Kept for the record, not for download."
   - title: Perepiska kniazia A. M. Kurbskogo s tsarem Ioannom Groznym
     author: Andrei Kurbsky; Ivan IV
     translator: none (Russian)
@@ -19882,7 +19892,8 @@ queue:
     rights_basis: pd-us-by-date (1782 edition, Welter reprint)
     verified_by: 'Library thread (Era VI pass), October 2026: item metadata read; 3.6 MB file fetched and
       searched for Ad nostrum.'
-    status: not-yet-downloaded
+    status: superseded
+    hold_note: "Already held: this edition is vendored as mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903.txt, by another row of this queue. Kept for the record, not for download."
     hold_note: 'Not vendored: it prints Antoninus of Florence''s summary of the eight errors of the Beguines
       and Beghards, not the decree. The decree is in the Clementines (Friedberg, Corpus iuris canonici II),
       which is not on the host.'
@@ -21721,7 +21732,8 @@ queue:
     verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item file
       list read; the 1893 volumes A and B fetched (3.0 MB and 4.2 MB) and sampled; Greek mixed with Cyrillic
       letter confusions throughout.'
-    status: not-yet-downloaded
+    status: superseded
+    hold_note: "Already held: this edition is vendored as philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt, by another row of this queue. Kept for the record, not for download."
     hold_note: The primary tracts are already vendored in PG 147 and PG 150; the anthology is a 1782 compilation
       outside the window, and the OCR mixes scripts. Volume A alone is also item Philokalia1893GreekAthens
       (Public Domain Mark, 3.1 MB).
@@ -21735,7 +21747,8 @@ queue:
     rights_basis: pd-us-by-date; host date 1782, volume 25, no rights field
     verified_by: 'library/source-research thread (Era VI session, greek batch), October 2026: item metadata
       read; djvu fetched (3.6 MB) and the Palamas and Barlaam lines read.'
-    status: not-yet-downloaded
+    status: superseded
+    hold_note: "Already held: this edition is vendored as mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903.txt, by another row of this queue. Kept for the record, not for download."
     hold_note: Only passing notes on the hesychast controversy; the synods themselves are in tomus 26, which
       is vendored.
   - title: Acta et diplomata graeca medii aevi, volume 1 (photomechanical reprint scan)
@@ -22282,7 +22295,8 @@ queue:
     url: https://archive.org/details/bullariumfranciscanum_v
     rights_basis: Public Domain Mark 1.0 on the host; the title-page year was not read
     verified_by: archive.org item metadata read, text file fetched and sampled at opening, October 2026
-    status: not-yet-downloaded
+    status: superseded
+    hold_note: "Already held: this edition is vendored as bullarium-franciscanum_v5-lat_eubel1898.txt, by another row of this queue. Kept for the record, not for download."
     hold_note: 'not vendored: 3.9 MB with only about 36 mentions of Bosnia; the host date (1798) cannot
       be right for Eubel''s volume and the title-page year was not read.'
   - title: L'extrême Orient au moyen-âge (Hayton's French text with other travellers)
@@ -22395,7 +22409,8 @@ queue:
     url: https://archive.org/details/collection-d-historiens-armeniens-1886-2-717
     rights_basis: pd-us-by-date; no rights field
     verified_by: archive.org item metadata read; text file not fetched, October 2026
-    status: not-yet-downloaded
+    status: superseded
+    hold_note: "Already held: this edition is vendored as zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt, by another row of this queue. Kept for the record, not for download."
     hold_note: 'not vendored: duplicate: the same volume is on the shelf as zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt.'
   - title: Histoire de l'île de Chypre sous le règne des princes de la maison de Lusignan
     author: Louis de Mas Latrie
@@ -22467,3 +22482,120 @@ queue:
     verified_by: archive.org item metadata read; text file not fetched, October 2026
     status: not-yet-downloaded
     hold_note: 'not vendored: a modern reprint with no rights statement.'
+
+  - title: "Origenis opera omnia, tomus 6: in Epistolam ad Romanos Commentariorum, books I-V (Rufinus's Latin)"
+    author: "Origen (Rufinus, translator)"
+    translator: "Rufinus of Aquileia; ed. De la Rue and Lommatzsch"
+    year: "1836"
+    world: alexandria-catechetical
+    why: "First item on the question-coverage acquisition list: the Library held only Rufinus's preface and peroration (npnf203)."
+    url: "https://archive.org/details/origenous-ta-heuriskomena-panta-t.-6-1836"
+    rights_basis: "pd-us-by-date"
+    verified_by: "Library thread, 2026-10-26: archive.org /metadata read (Public Domain Mark 1.0 licenseurl, 1836 Berlin imprint); title page and three passages of the OCR read."
+    status: downloaded
+    vendored_as: "origen_commentarii-in-epistolam-ad-romanos-libri-1-5-lat_lommatzsch1836.txt"
+    vendored_note: "vendored; Rufinus's Latin with Lommatzsch's notes; readable OCR with occasional misreadings"
+
+  - title: "Origenis opera omnia, tomus 7: in Epistolam ad Romanos Commentariorum, books VI-X (Rufinus's Latin)"
+    author: "Origen (Rufinus, translator)"
+    translator: "Rufinus of Aquileia; ed. De la Rue and Lommatzsch"
+    year: "1837"
+    world: alexandria-catechetical
+    why: "First item on the question-coverage acquisition list: the Library held only Rufinus's preface and peroration (npnf203)."
+    url: "https://archive.org/details/origenous-ta-heuriskomena-panta-t.-7-1837"
+    rights_basis: "pd-us-by-date"
+    verified_by: "Library thread, 2026-10-26: archive.org /metadata read (Public Domain Mark 1.0 licenseurl, 1837 Berlin imprint); title page and three passages of the OCR read."
+    status: downloaded
+    vendored_as: "origen_commentarii-in-epistolam-ad-romanos-libri-6-10-lat_lommatzsch1837.txt"
+    vendored_note: "vendored; Rufinus's Latin with Lommatzsch's notes; readable OCR with occasional misreadings"
+
+  - title: The Latin Works of Huldreich Zwingli, Vol. II (Original Sin; Account of the Faith; Reply to Eck; Letter to the Princes; Sermon on the Providence of God; A Short and Clear Exposition of the Christian Faith)
+    author: Huldreich (Ulrich) Zwingli (translated for the late Samuel Macauley Jackson
+    translator: ""
+    year: "1922"
+    world: the-reformed-cities-zurich-and-geneva
+    why: Fills the one missing volume of the Jackson, Hinke and Heller English edition of Zwingli's Latin works; the question-coverage worklist (rzg).
+    url: "https://archive.org/details/latinworkscorres02zwin"
+    rights_basis: "pd-us-by-date"
+    verified_by: "Library thread, 2026-10-26: archive.org /metadata read; title page and sample passages of the OCR read."
+    status: downloaded
+    vendored_as: "zwingli_latin-works-correspondence-vol2_hinke1922.txt"
+    vendored_note: "vendored; see the file's own intake header for the OCR caveats"
+
+  - title: The Didascalia Apostolorum in English, translated from the Syriac (Horae Semiticae No. I)
+    author: Anonymous (a Syrian church order, third century per the worklist)
+    translator: ""
+    year: "1903"
+    world: alexandria-catechetical; pahc; syr
+    why: 'Top of the question-coverage acquisition list: the bishop as judge of the community, deacons, deaconesses, widows, penance and readmission, the fast before Pascha.'
+    url: "https://archive.org/details/didascaliaaposto0000unse_g7f1"
+    rights_basis: "pd-us-by-date"
+    verified_by: "Library thread, 2026-10-26: archive.org /metadata read; title page and sample passages of the OCR read."
+    status: downloaded
+    vendored_as: "didascalia-apostolorum_didascalia-apostolorum-in-english_gibson1903.txt"
+    vendored_note: "vendored; see the file's own intake header for the OCR caveats"
+
+  - title: 'Patrologia Syriaca, Pars prima (ab initiis usque ad annum 350), Tomus primus: Aphraatis Sapientis Persae Demonstrationes I-XXII, Syriac text with Latin translation and prefaces'
+    author: Aphrahat the Persian Sage
+    translator: ""
+    year: "1894"
+    world: syr
+    why: Aphrahat's Demonstrations III, IV, XI-XX are not in any vendored English; question-coverage worklist (syr C7, C10, C11).
+    url: "https://archive.org/details/patrologiasyria01grafgoog"
+    rights_basis: "pd-us-by-date"
+    verified_by: "Library thread, 2026-10-26: archive.org /metadata read; title page and sample passages of the OCR read."
+    status: downloaded
+    vendored_as: "aphrahat_demonstrationes-1-22-syr-lat_parisot1894.txt"
+    vendored_note: "vendored; see the file's own intake header for the OCR caveats"
+
+  - title: 'Origenis Opera Omnia, Tomus 2: in Evangelium Joannis Commentariorum, Pars II (Commentary on John, Greek)'
+    author: Origen
+    translator: ""
+    year: "1832"
+    world: alexandria-catechetical
+    why: 'Origen''s Commentary on John in Greek: the English in the corpus (anf09) holds only some books. Worklist row 4.'
+    url: "https://archive.org/details/origenous-ta-heuriskomena-panta-t.-2-1832"
+    rights_basis: "pd-us-by-date"
+    verified_by: "Library thread, 2026-10-26: archive.org /metadata read; title page and sample passages of the OCR read."
+    status: downloaded
+    vendored_as: "origen_commentarii-in-evangelium-joannis-tomus2-grc_lommatzsch1832.txt"
+    vendored_note: "vendored; see the file's own intake header for the OCR caveats"
+
+  - title: 'Origenis Opera Omnia, Tomus 3: in Evangelium Matthaei commentariorum (Commentary on Matthew, Greek books)'
+    author: Origen
+    translator: ""
+    year: "1834"
+    world: alexandria-catechetical
+    why: 'Origen''s Commentary on Matthew in Greek: the English in the corpus (anf09) holds only some books. Worklist row 4.'
+    url: "https://archive.org/details/origenous-ta-heuriskomena-panta-t.-3-1834"
+    rights_basis: "pd-us-by-date"
+    verified_by: "Library thread, 2026-10-26: archive.org /metadata read; title page and sample passages of the OCR read."
+    status: downloaded
+    vendored_as: "origen_commentarii-in-evangelium-matthaei-tomus3-grc-lat_lommatzsch1834.txt"
+    vendored_note: "vendored; see the file's own intake header for the OCR caveats"
+
+  - title: 'Origenis Opera Omnia, Tomus 4: in Evangelium Matthaei commentariorum (Commentary on Matthew, continued)'
+    author: Origen
+    translator: ""
+    year: "1834"
+    world: alexandria-catechetical
+    why: Origen's Commentary on Matthew continued, including the Latin series for the passages where the Greek is lost. Worklist row 4.
+    url: "https://archive.org/details/origenous-ta-heuriskomena-panta-t.-4-1834"
+    rights_basis: "pd-us-by-date"
+    verified_by: "Library thread, 2026-10-26: archive.org /metadata read; title page and sample passages of the OCR read."
+    status: downloaded
+    vendored_as: "origen_commentarii-in-evangelium-matthaei-tomus4-grc-lat_lommatzsch1834.txt"
+    vendored_note: "vendored; see the file's own intake header for the OCR caveats"
+
+  - title: 'Origenis Opera Omnia, Tomus 5: in Evangelium Matthaei commentariorum, Pars III, Homiliae in Evangelium Lucae et Fragmenta'
+    author: Origen
+    translator: ""
+    year: "1835"
+    world: alexandria-catechetical
+    why: Origen's Latin series on Matthew and his Homilies on Luke (the file's own notes name Jerome as their translator). Worklist row 4.
+    url: "https://archive.org/details/origenous-ta-heuriskomena-panta-t.-5-1835"
+    rights_basis: "pd-us-by-date"
+    verified_by: "Library thread, 2026-10-26: archive.org /metadata read; title page and sample passages of the OCR read."
+    status: downloaded
+    vendored_as: "origen_commentarii-in-evangelium-matthaei-tomus5-lat_lommatzsch1835.txt"
+    vendored_note: "vendored; see the file's own intake header for the OCR caveats"

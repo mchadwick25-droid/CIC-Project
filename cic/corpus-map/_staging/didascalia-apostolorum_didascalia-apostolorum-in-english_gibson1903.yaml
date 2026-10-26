@@ -1,0 +1,26 @@
+source_file: didascalia-apostolorum_didascalia-apostolorum-in-english_gibson1903.txt
+
+authors_ruled:
+  didascalia-apostolorum:
+    kind: pseudonymous
+    evidence: >
+      The title page names only the translator, Margaret Dunlop Gibson, and no
+      author. The text presents itself as the teaching of the apostles: the
+      section on the Apostles' teaching has them speaking in turn ("Andrew said,
+      My son, flee from all evil, and from all that resembles it", file line
+      about 2217). The slug names the work, as `addai` does for the Doctrine
+      of Addai.
+
+assignments:
+- row_id: didascalia-apostolorum_didascalia-apostolorum-in-english_gibson1903--the-didascalia-apostolorum-in-english-gibson-1903
+  work: The Didascalia Apostolorum in English (Gibson 1903)
+  author: didascalia-apostolorum
+  locus: whole work, chapters I onward as listed in the file's own table of chapters (about line 382)
+  atlas_ids:
+  - antiochene-church-third-century
+  role: tradition
+  confidence: provisional
+  note: 'A church order in English from the Syriac. Place and date are not argued in this row: the Syrian,
+    third-century provenance comes from the worklist and needs a ruling before any world treats it as
+    its own voice. Provisional for that reason. A Syrian church order of the third century; this is the
+    nearest unbuilt census entry. The worlds that need it (alx, pahc, syr) are held for a ruling.'

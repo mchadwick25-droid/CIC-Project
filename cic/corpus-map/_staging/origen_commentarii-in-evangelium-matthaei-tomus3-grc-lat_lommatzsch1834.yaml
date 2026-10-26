@@ -1,0 +1,19 @@
+source_file: origen_commentarii-in-evangelium-matthaei-tomus3-grc-lat_lommatzsch1834.txt
+
+assignments:
+- row_id: origen_commentarii-in-evangelium-matthaei-tomus3-grc-lat_lommatzsch1834--commentary-on-the-gospel-of-matthew-greek-part-i
+  work: Commentary on the Gospel of Matthew (Greek), part I
+  author: origen
+  locus: the Greek commentary after the volume's front matter; running heads read 'IN EVANGELIUM MATTH.
+    Tomus X' onward
+  atlas_ids:
+  - alexandria-catechetical
+  role: tradition
+  confidence: assigned
+  note: ORIGINAL-LANGUAGE WITNESS (Greek and Latin, Lommatzsch's Maurist text), the only rights-clean
+    text of these commentaries; the English translations are in copyright. Where the Greek is lost the
+    Latin is a translation of unknown hand or, for the Luke homilies, Jerome's, per the file's own notes.
+    Any record citing it must say which, and render the English itself, labelled as a rendering. Origen's
+    own work, tradition for the world whose catechetical school he led; the same assignment as the Philocalia
+    and De Oratione. The design thread also proposed desert, cappadocian and hal as context; those placements
+    are held for Mark.

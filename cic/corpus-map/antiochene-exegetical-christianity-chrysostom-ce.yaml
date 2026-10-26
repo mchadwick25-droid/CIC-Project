@@ -156,6 +156,13 @@ works:
   locus: div1 4, div2 4.4 — the full Colossians series, assigned as one work
   role: tradition
   confidence: assigned
+  note: 'Preached at Constantinople, so tradition for the world of Rome, Milan and Constantinople
+    as well as for the Antiochene world that holds the preacher. Evidence in the vendored
+    edition (npnf113): the Oxford Preface to the volume''s second part says it "consists entirely
+    of Homilies delivered at Constantinople" and cites the close of Hom. iii on Colossians
+    as showing his responsibility as presiding in the Church.
+
+    '
   source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
 - row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-ephesians
   work: Homilies on Ephesians
@@ -177,6 +184,13 @@ works:
   locus: div1 4, div2 4.5 — the full 1 Thessalonians series, assigned as one work
   role: tradition
   confidence: assigned
+  note: 'Preached at Constantinople, so tradition for the world of Rome, Milan and Constantinople
+    as well as for the Antiochene world that holds the preacher. Evidence in the vendored
+    edition (npnf113): the Oxford Preface to the volume''s second part says it "consists entirely
+    of Homilies delivered at Constantinople" and cites Hom. viii on 1 Thessalonians as showing
+    his responsibility as presiding in the Church.
+
+    '
   source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
 - row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-first-timothy
   work: Homilies on First Timothy
@@ -198,6 +212,13 @@ works:
   locus: div1 4, div2 4.3 — the full Philippians series, assigned as one work
   role: tradition
   confidence: assigned
+  note: 'Preached at Constantinople, so tradition for the world of Rome, Milan and Constantinople
+    as well as for the Antiochene world that holds the preacher. Evidence in the vendored
+    edition (npnf113): the Oxford Preface to the volume''s second part says it "consists entirely
+    of Homilies delivered at Constantinople" and cites the end of Hom. ix on Philippians as
+    showing his responsibility as presiding in the Church.
+
+    '
   source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
 - row_id: npnf112_chrysostom-homilies-corinthians--homilies-on-second-corinthians
   work: Homilies on Second Corinthians
@@ -212,6 +233,13 @@ works:
   locus: div1 4, div2 4.6 — the full 2 Thessalonians series, assigned as one work
   role: tradition
   confidence: assigned
+  note: 'Preached at Constantinople, so tradition for the world of Rome, Milan and Constantinople
+    as well as for the Antiochene world that holds the preacher. Evidence in the vendored
+    edition (npnf113): the Oxford Preface to the volume''s second part says it "consists entirely
+    of Homilies delivered at Constantinople" and cites Hom. iv on 2 Thessalonians as showing
+    his responsibility as presiding in the Church.
+
+    '
   source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
 - row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-second-timothy
   work: Homilies on Second Timothy
@@ -234,6 +262,14 @@ works:
     homilies, assigned as one work
   role: tradition
   confidence: assigned
+  note: 'Preached at Constantinople, so tradition for the world of Rome, Milan and Constantinople
+    as well as for the Antiochene world that holds the preacher. Evidence in the vendored
+    edition (npnf111): the series heading says "These Sermons were preached at Constantinople,
+    in the second or third year of St. Chrysostom''s archiepiscopate", and the Oxford Preface
+    to Part II says the course began "in the Easter weeks of the third year of his residence
+    at Constantinople as Archbishop" (a.d. 400).
+
+    '
   source_file: npnf111_chrysostom-homilies-acts-romans.xml
 - row_id: npnf114_chrysostom-homilies-john-hebrews--homilies-on-the-epistle-to-the-hebrews
   work: Homilies on the Epistle to the Hebrews

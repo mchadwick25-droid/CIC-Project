@@ -558,6 +558,21 @@ works:
 
     '
   source_file: zwingli_latin-works-correspondence-vol1_jackson1912.txt
+- row_id: zwingli_latin-works-correspondence-vol2_hinke1922--the-latin-works-of-huldreich-zwingli-vol-ii-account-of-the-faith-provi
+  work: The Latin Works of Huldreich Zwingli, Vol. II (Account of the Faith; Providence; Exposition
+    of the Christian Faith)
+  author: zwingli
+  locus: 'whole volume: Declaration on Original Sin from the opening of the text; Account
+    of the Faith (p. 33); Sermon on the Providence of God (p. 128); A Short and Clear Exposition
+    of the Christian Faith (p. 235, about line 11674); Additional Notes at about line 14378'
+  role: tradition
+  confidence: assigned
+  note: Zwingli in his own voice, in a public-domain English translation of his Latin. Volume
+    2 is the volume the question-coverage survey found missing. It carries the Exposition's
+    company of heaven (Hercules, Socrates and the Catos, per the worklist) and the Providence
+    sermon. Rendered from the English; check the wording against the vendored file. Zwingli's
+    own works, in the Hinke and Jackson English; the same assignment as volume 3.
+  source_file: zwingli_latin-works-correspondence-vol2_hinke1922.txt
 - row_id: zwingli_latin-works-correspondence-vol3_heller1929--the-latin-works-of-huldreich-zwingli-vol-iii-de-vera-et
   work: The Latin Works of Huldreich Zwingli, Vol. III ("De Vera et Falsa Religione" / Of
     True and False Religion, and the Antibolon)
