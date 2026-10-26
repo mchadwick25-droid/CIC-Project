@@ -41,6 +41,14 @@ Usage:
   python cic/engine/passage_index.py "Romans 5:12"
   python cic/engine/passage_index.py "Rom 5:12-21" --treats-only
   python cic/engine/passage_index.py "Matt 5" --limit 10
+  python cic/engine/passage_index.py --readings "Acts 2:14a, 22-32; Ps 16; 1 Pet 1:3-9; John 20:19-31"
+
+READINGS. A pastor pastes the readings they are preaching on, from whatever
+lectionary their church uses, and the index answers for each. No lectionary
+table is stored: the Revised Common Lectionary's table of citations is
+copyrighted (Consultation on Common Texts), and its owners require
+written permission for use outside congregations, non-profit groups and
+member denominations. The readings are the pastor's own input.
 """
 from __future__ import annotations
 
@@ -284,6 +292,80 @@ def _extract(path: Path, lineno: int, kind: str, width: int = 280) -> str:
     return text[:width] + ("..." if len(text) > width else "")
 
 
+def _verse_tokens(rest: str, book_label: str):
+    """'2:14a, 22-32' -> [(start, end), ...]; a chapter with no verse is the whole chapter."""
+    spans, ch = [], None
+    for tok in [x for x in re.split(r"\s*,\s*", rest.strip()) if x]:
+        tok = re.sub(r"(?<=\d)[a-z]\b", "", tok)
+        m = re.match(r"^(?:(\d+)\s*:\s*)?(\d+)(?:\s*-\s*(?:(\d+)\s*:\s*)?(\d+))?$", tok)
+        if not m:
+            raise ValueError(f"cannot read {tok!r} in {book_label} {rest!r}")
+        c1, v1, c2, v2 = m.groups()
+        if c1 is not None:
+            ch = int(c1)
+            start = ch * _CH + int(v1)
+            end = start if v2 is None else (int(c2) if c2 else ch) * _CH + int(v2)
+        elif ch is None:  # a bare number first: a whole chapter, or chapters 'a-b'
+            start = int(v1) * _CH
+            end = (int(v2) if v2 else int(v1)) * _CH + _LAST_VERSE
+            spans.append((start, end))
+            continue
+        else:  # a verse or verse range in the chapter already open
+            start = ch * _CH + int(v1)
+            end = start if v2 is None else (int(c2) if c2 else ch) * _CH + int(v2)
+        if end < start:
+            raise ValueError(f"range runs backwards: {tok!r} in {book_label}")
+        spans.append((start, end))
+    return spans
+
+
+def parse_readings(text: str):
+    """A pastor's list of readings -> [{label, book, spans}], one per reading.
+
+    Readings are separated by ';', newlines or ' or '. A part with no book
+    name ('3:1-7' after 'Gen 2:15-17') continues the book before it. Verse
+    letters (14a) are dropped, since the index works in whole verses. Raises
+    ValueError naming what it could not read; nothing is guessed.
+    """
+    parts = [p.strip() for p in re.split(r"[;\n]|\s+or\s+", text.replace("\u2013", "-").replace("\u2014", "-")) if p.strip()]
+    out, last_book = [], None
+    for part in parts:
+        m = re.match(r"^((?:[1-3]\s*)?[A-Za-z][A-Za-z.]*(?:\s+[A-Za-z][A-Za-z.]*)*)\s*(\d.*)$", part)
+        if m:
+            name = re.sub(r"[ .]", "", m.group(1)).lower()
+            book = _ALIAS.get(name)
+            if book is None:
+                raise ValueError(f"unknown book {m.group(1).strip()!r} in {part!r}")
+            rest = m.group(2)
+        elif re.match(r"^\d", part) and last_book:
+            book, rest = last_book, part
+        else:
+            raise ValueError(f"cannot read a reading from {part!r}")
+        last_book = book
+        out.append({"label": part, "book": book, "spans": _verse_tokens(rest, book)})
+    if not out:
+        raise ValueError("no readings found")
+    return out
+
+
+def search_spans(book: str, spans, db_path: Path = DB_PATH, treats_only: bool = False, limit: int = 20):
+    """Hits for any of several spans of one book, each hit once, treats first."""
+    con = sqlite3.connect(db_path)
+    seen, rows = set(), []
+    for start, end in spans:
+        sql = ("SELECT kind, tag_type, file, line, section_title, section_id, work_title, lang FROM hits "
+               "WHERE book=? AND start<=? AND end>=?")
+        if treats_only:
+            sql += " AND kind='treats'"
+        for r in con.execute(sql, [book, end, start]):
+            if (r[0], r[2], r[3]) not in seen:
+                seen.add((r[0], r[2], r[3]))
+                rows.append(r)
+    con.close()
+    rows.sort(key=lambda r: (r[0] != "treats", r[2], r[3]))
+    return rows[:limit], len(rows)
+
+
 def search(query: str, db_path: Path = DB_PATH, treats_only: bool = False, limit: int = 20):
     book, start, end = parse_query(query)
     con = sqlite3.connect(db_path)
@@ -332,32 +414,7 @@ def nearest_treats(book: str, start: int, end: int, db_path: Path = DB_PATH, lim
     return rows[:limit]
 
 
-def main(argv=None) -> int:
-    ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
-    ap.add_argument("query", nargs="?", help="a passage, e.g. 'Romans 5:12' or 'Matt 5-7'")
-    ap.add_argument("--build", action="store_true", help="(re)build cic/texts/PASSAGES.sqlite")
-    ap.add_argument("--treats-only", action="store_true")
-    ap.add_argument("--limit", type=int, default=20)
-    ap.add_argument("--db", type=Path, default=DB_PATH)
-    a = ap.parse_args(argv)
-    if a.build:
-        t = build(a.db)
-        print(f"{t['files']} file(s): {t['treats']} treats, {t['cites']} cites; "
-              f"{t['unreadable_refs']} reference(s) skipped as unreadable -> {a.db.name}")
-        return 0
-    if not a.query:
-        ap.print_usage()
-        return 2
-    if not a.db.exists():
-        print("no index yet; run with --build first", file=sys.stderr)
-        return 2
-    try:
-        rows, total = search(a.query, a.db, a.treats_only, a.limit)
-    except ValueError as e:
-        print(e, file=sys.stderr)
-        return 2
-    windows, maps = _atlas_windows(), _file_mappings()
-    print(f"{total} hit(s) for {a.query!r}; showing {len(rows)}. TREATS = a section tagged to the passage; CITES = a mention.\n")
+def _print_rows(rows, windows, maps):
     for kind, ty, f, line, title, sid, work, lang in rows:
         label = "TREATS" if kind == "treats" else "cites "
         english = "English" if lang == "eng" else f"{lang} only (no English in this file)"
@@ -367,6 +424,61 @@ def main(argv=None) -> int:
         if tr:
             print(f"        volume mapped to: {tr}")
         print(f"        extract: {_extract(TEXTS_DIR / f, line, kind)}\n")
+
+
+def _run_readings(text, a):
+    try:
+        readings = parse_readings(text)
+    except ValueError as e:
+        print(e, file=sys.stderr)
+        return 2
+    windows, maps = _atlas_windows(), _file_mappings()
+    for r in readings:
+        rows, total = search_spans(r["book"], r["spans"], a.db, a.treats_only, a.limit)
+        n_treats = sum(1 for x in rows if x[0] == "treats")
+        print(f"=== {r['label']}  ({total} hit(s); showing {len(rows)}, {n_treats} of them TREATS)\n")
+        _print_rows(rows, windows, maps)
+        if not n_treats:
+            near = nearest_treats(r["book"], min(s for s, _ in r["spans"]), max(e for _, e in r["spans"]), db_path=a.db)
+            if near:
+                print("NEAREST TAGGED (same chapter, other verses; a homily may range beyond its lemma):")
+                for f, line, title, s, e in near:
+                    print(f"        {f}:{line}  {title}")
+                print()
+    return 0
+
+
+def main(argv=None) -> int:
+    ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
+    ap.add_argument("query", nargs="?", help="a passage, e.g. 'Romans 5:12' or 'Matt 5-7'")
+    ap.add_argument("--build", action="store_true", help="(re)build cic/texts/PASSAGES.sqlite")
+    ap.add_argument("--readings", help="a list of readings, e.g. 'Acts 2:14a, 22-32; Ps 16; 1 Pet 1:3-9; John 20:19-31'")
+    ap.add_argument("--treats-only", action="store_true")
+    ap.add_argument("--limit", type=int, default=20)
+    ap.add_argument("--db", type=Path, default=DB_PATH)
+    a = ap.parse_args(argv)
+    if a.build:
+        t = build(a.db)
+        print(f"{t['files']} file(s): {t['treats']} treats, {t['cites']} cites; "
+              f"{t['unreadable_refs']} reference(s) skipped as unreadable -> {a.db.name}")
+        return 0
+    if not a.query and not a.readings:
+        ap.print_usage()
+        return 2
+    if not a.db.exists():
+        print("no index yet; run with --build first", file=sys.stderr)
+        return 2
+    if a.readings:
+        a.limit = min(a.limit, 5) if a.limit == 20 else a.limit
+        return _run_readings(a.readings, a)
+    try:
+        rows, total = search(a.query, a.db, a.treats_only, a.limit)
+    except ValueError as e:
+        print(e, file=sys.stderr)
+        return 2
+    windows, maps = _atlas_windows(), _file_mappings()
+    print(f"{total} hit(s) for {a.query!r}; showing {len(rows)}. TREATS = a section tagged to the passage; CITES = a mention.\n")
+    _print_rows(rows, windows, maps)
     if not any(r[0] == "treats" for r in rows):
         near = nearest_treats(*parse_query(a.query), db_path=a.db)
         if near:
