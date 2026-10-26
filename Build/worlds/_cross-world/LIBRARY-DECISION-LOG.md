@@ -918,3 +918,15 @@ Donatistam, from the same source file, are NOT part of this authorization
 These show the TREATS list is a floor, not the full set. Volumes mapped to a world are shown at volume level, so a volume that holds several works carries all their mappings; the work title is printed beside it.
 
 **Checks.** The test builds the index from the real corpus and, for 20 passages, confirms that every one of up to 60 hits per passage points to a file line whose own tag covers the queried verses. All pass. Plain-text files (1,466) are not indexed here; option B would add a hand-curated passage list for them.
+
+## 2026-10-26 — Lectionary route for the passage index: pastor's readings in, no table stored
+
+**Request and ruling.** Mark, 2026-10-26: "Add the lectionary route to the index." Asked how, with the Revised Common Lectionary's rights in view, he chose: public-domain lectionaries from the vendored books, and the RCL by the pastor's own input.
+
+**Rights finding.** The RCL table of citations is © 1992 Consultation on Common Texts. Its published permissions policy (commontexts.org/rcl/permissions, read 2026-10-26) lets congregations and similar non-profit, non-commercial groups reproduce it for their own worship and education, and lets current CCT member denominations and their publishers use it in for-sale materials. Any other organisation, in print or on the web, must get written permission from the CCT's copyright administrator, Augsburg Fortress. The Library is not in those groups, so the table is not stored and no permission has been requested; sending a request is Mark's call.
+
+**Built.** `python cic/engine/passage_index.py --readings "Acts 2:14a, 22-32; Ps 16; 1 Pet 1:3-9; John 20:19-31"` answers for each reading the pastor types or pastes, from any lectionary. Readings split on `;`, newlines or "or"; verse letters are dropped; a part with no book name continues the previous book ("Gen 2:15-17; 3:1-7"); anything unreadable raises an error and is never guessed. Each reading returns its own hits, treats first, with the same extracts and the same guards. Tests cover the parser and the one-hit-once merge across several verse spans.
+
+**Not built: day tables from the vendored historic books.** The 1706 Book of Common Prayer and the 1843 Roman Missal are vendored, but their Epistle and Gospel lists cannot be read out by script from the OCR. A trial parse of the Prayer Book found 15 citations of roughly 100, attached several to the wrong day, and read verse numbers as letters ("r.", "t.", "i" for 1). The book also gives only each reading's opening verse, not its end. A table made this way would look authoritative and be wrong in places. It needs either a hand-verified transcription from the page images or a clean public-domain edition. Neither is started.
+
+**Psalm numbering, checked once.** The Psalm hit tested (Augustine on Psalm 16) is tagged in English numbering, with the Latin number given in the edition's own note, so a Psalm 16 query reaches it. Other volumes were not checked one by one.

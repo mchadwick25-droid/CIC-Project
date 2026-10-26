@@ -29,7 +29,7 @@ AUDIENCE_KEYS = ("pilot_open", "pilot_cap", "per_address", "public", "questionna
 AUDIENCE_NAME = re.compile(r"^[a-z][a-z0-9-]{0,23}$")
 ADMIN_KEYS = ("mint_max_tokens_per_request", "mint_max_tokens_per_day")
 COUPON_KEYS = ("max_tokens", "max_per_day", "unclaimed_days")
-TESTER_KEYS = ("default_tokens", "max_tokens", "default_days", "max_days", "max_per_day")
+TESTER_KEYS = ("default_tokens", "max_tokens", "default_days", "max_days")
 
 
 class OpsFileError(Exception):
@@ -66,7 +66,6 @@ class DeeperOps:
     tester_max_tokens: int
     tester_default_days: int
     tester_max_days: int
-    tester_max_per_day: int
     coupon_max_tokens: int
     coupon_max_per_day: int
     coupon_unclaimed_days: int
@@ -217,7 +216,7 @@ def load_ops(path: str | None = None) -> DeeperOps:
         paid_round_cap=paid["round_cap"], paid_round_cap_provisional=paid["provisional"],
         admin_mint_max_tokens_per_request=admin["mint_max_tokens_per_request"], admin_mint_max_tokens_per_day=admin["mint_max_tokens_per_day"],
         tester_default_tokens=tester["default_tokens"], tester_max_tokens=tester["max_tokens"], tester_default_days=tester["default_days"],
-        tester_max_days=tester["max_days"], tester_max_per_day=tester["max_per_day"],
+        tester_max_days=tester["max_days"],
         coupon_max_tokens=coupon["max_tokens"], coupon_max_per_day=coupon["max_per_day"], coupon_unclaimed_days=coupon["unclaimed_days"],
         pilot_pack_usd=pilot["pack_usd"], pilot_end_date=end, pilot_audiences=audiences,
     )

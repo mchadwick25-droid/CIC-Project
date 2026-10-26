@@ -119,6 +119,7 @@ python cic/engine/works_registry.py --check     # validate WORKS.yaml — unique
 python cic/engine/author_ids.py --check         # validate AUTHOR-IDS.yaml — well-formed Wikidata/VIAF ids
 python cic/engine/passage_index.py --build      # (re)build the local passage index - which ThML volumes treat or cite a Bible passage
 python cic/engine/passage_index.py "Romans 5:12" # who treats or cites it, with verbatim extracts
+python cic/engine/passage_index.py --readings "Acts 2:14a, 22-32; Ps 16"  # the same, for a pastor's list of readings
 python cic/engine/corpus_index.py --build       # (re)build cic/texts/INDEX.sqlite — NOT committed, see .gitignore
 python cic/engine/corpus_index.py "QUERY" [--entry ID] [--limit N]   # full-text search, ranked, with canonical addresses
 python cic/engine/corpus_coverage.py            # cic-website/data/corpus-coverage.json — Atlas-facing vendored-coverage feed

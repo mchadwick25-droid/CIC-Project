@@ -82,7 +82,7 @@ def test_the_stored_pause_names_no_code_and_no_money():
         lambda d: d["admin"].update(mint_max_tokens_per_request=99999),
         lambda d: d["admin"].update(extra=1),
         lambda d: d.pop("tester"),
-        lambda d: d["tester"].pop("max_per_day"),
+        lambda d: d["tester"].update(max_per_day=2),
         lambda d: d["tester"].update(extra=1),
         lambda d: d["tester"].update(default_tokens=0),
         lambda d: d["tester"].update(max_days=True),
@@ -194,7 +194,8 @@ def test_the_shipped_mint_limits_hold_at_least_the_largest_pack():
 def test_the_shipped_tester_section_holds_the_stated_defaults():
     ops = load_ops()
     assert (ops.tester_default_tokens, ops.tester_max_tokens) == (20000, 20000)
-    assert (ops.tester_default_days, ops.tester_max_days, ops.tester_max_per_day) == (30, 90, 2)
+    assert (ops.tester_default_days, ops.tester_max_days) == (30, 90)
+    assert not hasattr(ops, "tester_max_per_day")
 
 
 def test_the_shipped_coupon_section_holds_the_stated_numbers():

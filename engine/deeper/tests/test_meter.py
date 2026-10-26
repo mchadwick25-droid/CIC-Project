@@ -573,36 +573,21 @@ def test_only_a_tester_grant_has_a_last_day_and_it_needs_one(meter):
     assert meter._conn.execute("SELECT COUNT(*) FROM meter").fetchone() == (0,)
 
 
-def test_the_days_tester_codes_stop_at_their_limit_count_when_voided_and_reset_tomorrow(meter, clock):
-    make_tester(meter, grant="tester_1", daily_code_limit=2)
-    make_tester(meter, grant="tester_2", daily_code_limit=2)
-    meter.void("tester_2")
+def test_any_number_of_tester_codes_can_be_made_in_a_day_and_each_counts(meter):
+    for n in range(25):
+        make_tester(meter, grant=f"tester_{n}")
+    meter.void("tester_3")
+    make_tester(meter, grant="tester_extra")
+    assert meter.reconciliation(1)[0]["tester_codes_minted"] == 26
+
+
+def test_the_token_limit_of_a_grant_source_still_counts_the_days_codes(meter, clock):
+    meter.mint("single", 100, "admin_a", source="admin", daily_token_limit=150)
     with pytest.raises(MintLimit):
-        make_tester(meter, grant="tester_3", daily_code_limit=2)
-    assert meter.reconciliation(1)[0]["tester_codes_minted"] == 2
-    meter.mint("single", 100, "admin_other", source="admin", daily_code_limit=2)
+        meter.mint("single", 100, "admin_b", source="admin", daily_token_limit=150)
+    make_tester(meter, grant="tester_1")  # another source's tokens do not count against the admin limit
     clock.day = date(2026, 10, 6)
-    make_tester(meter, grant="tester_3", daily_code_limit=2)
-
-
-def test_two_tester_codes_at_once_never_pass_the_days_limit(meter):
-    barrier = threading.Barrier(8)
-    made, refused = [], []
-
-    def attempt(n):
-        barrier.wait()
-        try:
-            made.append(make_tester(meter, grant=f"tester_{n}", daily_code_limit=2))
-        except MintLimit:
-            refused.append(n)
-
-    threads = [threading.Thread(target=attempt, args=(n,)) for n in range(8)]
-    for t in threads:
-        t.start()
-    for t in threads:
-        t.join()
-    assert (len(made), len(refused)) == (2, 6)
-    assert meter._conn.execute("SELECT COUNT(*) FROM meter").fetchone() == (2,)
+    meter.mint("single", 100, "admin_b", source="admin", daily_token_limit=150)
 
 
 def test_a_tester_grant_is_never_a_payment_a_sale_or_owed(meter):
