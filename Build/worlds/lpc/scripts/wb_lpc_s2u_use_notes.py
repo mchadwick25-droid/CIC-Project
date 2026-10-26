@@ -41,6 +41,12 @@ QUOTES = {
     ["a claim that 'discipline' in the sentence means punishment rather than restored order",
      "a claim that Pontius and the Acta are independent witnesses to the wording of the sentence",
      "a claim about the details of the dream Pontius mentions earlier"], D258),
+"lpc.quote.all-sins-against-us-are-to-be-forgiven": (
+    "Augustine says you cannot truly pray for an enemy you have not pardoned, so we must "
+    "forgive all sins done to us.",
+    ["a claim that the passage speaks of money debts",
+     "a claim that it says an offender goes uncorrected",
+     "a claim that it describes penance or readmission to communion"], A),
 "lpc.quote.ancient-venom-against-my-episcopate": (
     "Cyprian calls his rivals' anger old venom aimed at his office, which he ties to the people's voice and God's judgment.",
     ["a claim that the quarrel was only personal or only rhetorical exaggeration",
@@ -56,6 +62,12 @@ QUOTES = {
     ["a claim about the roles of Saturus, Bassianus or the others he greets",
      "a claim about what became of Lucian or his companions after the letter",
      "a claim that the letter is Cyprian's own"], C),
+"lpc.quote.believe-and-thou-hast-eaten-already": (
+    "Augustine says the Lord's food that lasts is faith in the one God sent, so to believe "
+    "is to have eaten already.",
+    ["a claim that the passage speaks of the Eucharist or of eating the flesh",
+     "a claim that it says works are unnecessary",
+     "a claim that it contains the sentences on glorying in the Lord, which come after it"], A),
 "lpc.quote.bind-him-justly": (
     "Augustine says to bind a wrongdoing brother only justly, and to count him loosed once he is corrected.",
     ["a claim that it describes formal public penance, excommunication or a bishop readmitting a penitent",
@@ -92,6 +104,19 @@ QUOTES = {
     ["a claim that the 'I' is Augustine baptizing or being baptized",
      "a claim that the Donatist's quoted words are Augustine's own position",
      "a claim that the sermons show a formal ordination or a dispute between bishops"], A),
+"lpc.quote.dash-the-little-ones-against-the-rock": (
+    "Augustine says the little ones of Babylon are bad desires at their birth, and we must "
+    "dash them on the Rock, who is Christ.",
+    ["a claim that Augustine says the verse has no literal sense",
+     "a claim that it tells what the Psalm meant to its first writer",
+     "a claim that a desire dies once it is dashed against the Rock"], A),
+"lpc.quote.david-himself-hath-been-sent-to-thee": (
+    "Augustine tells the sinner who fears to repent to hear David groan and weep, and to "
+    "repent with him.",
+    ["a claim that the passage describes a penitential rite or a bishop restoring a "
+     "penitent",
+     "a claim that it names the lapsed or any occasion for the exposition",
+     "a claim that it tells the story of David and Nathan"], A),
 "lpc.quote.earlier-councils-corrected-by-later": (
     "Augustine says a later, wider council can correct an earlier one, and Scripture stands above them all.",
     ["a claim naming which later council corrected which earlier one",
@@ -138,6 +163,20 @@ QUOTES = {
      "a claim that the persecutors themselves were helped",
      "a claim that 'aliens' means beings from elsewhere or that 'degenerate' means depraved",
      "a claim that the critical Latin text names strangers, which only older editions print"], C),
+"lpc.quote.judge-not-nor-despair-of-a-return": (
+    "Augustine says not to reprove what we cannot know the intent of, nor to reprove plain "
+    "faults as if the person could never change.",
+    ["a claim that the passage forbids judging what is plainly wrong",
+     "a claim that it contains the two examples of the man who would not fast and the "
+     "glutton",
+     "a claim that it describes a church court, excommunication or penance"], A),
+"lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock": (
+    "Augustine says feeding the Lord's flock is the duty of love, and warns against "
+    "feeding it as one's own for glory, power or gain.",
+    ["a claim that the passage gives Peter authority over the other apostles or the whole "
+     "Church",
+     "a claim that it names bishops, priests or any rank",
+     "a claim that it quotes the words 'Feed my sheep', which come just after it"], A),
 "lpc.quote.let-us-too-be-beheaded-with-him": (
     "The Acta records the brethren crying that they too should be beheaded with Cyprian, and a large crowd then followed him.",
     ["a claim that Pontius records this cry",
@@ -153,6 +192,19 @@ QUOTES = {
     ["a claim that it is only flattery of an attentive crowd",
      "a claim about when or where the sermon was preached",
      "a claim about why or how often the congregation attended"], A),
+"lpc.quote.love-and-do-what-thou-wilt": (
+    "Augustine says the root decides the deed: a father beats a boy from love, a "
+    "boy-stealer caresses him, so let love be the root.",
+    ["a claim that any act done with a feeling of love is right, since the passage says "
+     "the root of love brings forth only good",
+     "a claim that it describes church discipline or excommunication",
+     "a claim that it sets out the whole of Augustine's homily on 1 John 4"], A),
+"lpc.quote.many-have-learned-to-offer-the-other-cheek": (
+    "Augustine says many offer the other cheek yet do not love the one who strikes, and "
+    "the Lord, struck, answered instead.",
+    ["a claim that the passage forbids self-defence, a lawsuit or correction",
+     "a claim that it says the Lord answered in anger",
+     "a claim that it was checked against the Latin, which is not vendored"], A),
 "lpc.quote.no-one-has-the-love-of-god-from-himself": (
     "Augustine reads Paul to say God's love is poured into the heart by the Holy Spirit, so no one has it from himself.",
     ["a claim that the passage names Paul or the Pelagians",
@@ -180,6 +232,12 @@ QUOTES = {
      "a claim that the passage names the Donatists",
      "a claim about how a clergyman was ordained or removed",
      "a claim that it can be told without the argument on the sin against the Holy Spirit"], A),
+"lpc.quote.peter-may-baptize-but-this-is-he-that-baptizeth": (
+    "Augustine says Peter may baptize, and Paul, and Judas, but it is Christ who baptizes, "
+    "since the power is his alone.",
+    ["a claim that the passage says Judas baptized anyone",
+     "a claim that it names the Donatists or rules on any rite",
+     "a claim that it says the minister's character does not matter at all"], A),
 "lpc.quote.peter-the-sick-man-and-the-physician": (
     "Augustine calls Peter the sick man and the Lord the physician, and says three confessions of love answer three denials.",
     ["a claim that Peter is restored to feed the flock in this passage",
@@ -230,6 +288,20 @@ QUOTES = {
     ["a claim that the sermon is about the Creed rather than the Lord's Prayer",
      "a claim that it describes a formal ceremony of handing over the Creed",
      "a claim that the passage names Paul, whose words the first sentence quotes"], A),
+"lpc.quote.the-flight-of-the-mind-is-fear": (
+    "Augustine says the hireling is one who keeps quiet about a believer's sin for fear of "
+    "losing friends, and so flees in spirit.",
+    ["a claim that every paid or office-holding person is a hireling",
+     "a claim that the passage orders excommunication, which the sentences before it "
+     "mention",
+     "a claim that it names a bishop, a place or a date"], A),
+"lpc.quote.the-old-man-nailed-to-the-cross-speaks": (
+    "Augustine says the old man nailed to the Cross is the one who cries out, not knowing "
+    "why God has left him.",
+    ["a claim that the passage says Christ himself sinned or was forsaken by God",
+     "a claim that it gives the whole of Augustine's reading of Psalm 22, since section 1 "
+     "is not in it",
+     "a claim that the passage dates the exposition or says where it was given"], A),
 "lpc.quote.the-paper-itself": (
     "Cyprian checks a letter from the Roman clergy by its hand, its content and its paper, then sends it back.",
     ["a claim about what had been changed in the letter or by whom",
@@ -259,6 +331,32 @@ QUOTES = {
     ["a claim about what the young women were guarded from",
      "a claim that the Acta is a court transcript",
      "a claim that Pontius gives this detail"], D258),
+"lpc.quote.the-word-is-added-to-the-element": (
+    "Augustine says water is plain water until the word joins it, and then it is a "
+    "sacrament, a kind of visible word.",
+    ["a claim that the passage gives the words to be said in baptism",
+     "a claim that it says the word works by being spoken, when the same section says it "
+     "works by being believed",
+     "a claim that it defines every sacrament"], A),
+"lpc.quote.the-wretched-woman-and-mercy": (
+    "Augustine says that when the accusers had gone, only two were left: the wretched "
+    "woman, and Mercy.",
+    ["a claim that the passage says the woman was forgiven or restored",
+     "a claim that it describes a church rite for adultery or penance",
+     "a claim that it contains 'Neither do I condemn thee', which comes in the next "
+     "section"], A),
+"lpc.quote.they-first-dwelt-together-in-unity": (
+    "Augustine says the first believers lived this verse first, with one heart toward God, "
+    "yet they did not hear it alone.",
+    ["a claim that the passage speaks of bishops or of communion between churches",
+     "a claim that it describes monks, which the sentences before it do",
+     "a claim that the passage itself names the people the first believers came from"], A),
+"lpc.quote.they-went-out-from-us-but-were-not-of-us": (
+    "Augustine says those who left shared our baptism and altar but were not grain, and "
+    "temptation shows it.",
+    ["a claim that the passage gives a verdict on any named person or group",
+     "a claim that it names the Donatists",
+     "a claim that it says when the final sorting comes, which the next sentence does"], A),
 "lpc.quote.thirteen-letters-sent-to-rome": (
     "Cyprian tells Rome that thirteen letters from hiding show how he guided and rebuked.",
     ["a claim about which thirteen letters they were",

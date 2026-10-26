@@ -51,6 +51,10 @@ relations:
   target: lpc.quote.no-one-has-the-love-of-god-from-himself
 - type: associated-with
   target: lpc.quote.boast-in-nothing-since-nothing-is-our-own
+- type: associated-with
+  target: lpc.quote.the-old-man-nailed-to-the-cross-speaks
+- type: associated-with
+  target: lpc.quote.believe-and-thou-hast-eaten-already
 name: Grace and Human Incapacity
 description: >-
   This concern is real, but it does not run nearly as wide as the others. It organizes a large and

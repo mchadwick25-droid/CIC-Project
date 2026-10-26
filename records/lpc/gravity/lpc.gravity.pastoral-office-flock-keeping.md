@@ -64,6 +64,10 @@ relations:
   target: lpc.quote.stewards-and-future-bishops
 - type: associated-with
   target: lpc.quote.good-works-the-comfort-of-our-dangers
+- type: associated-with
+  target: lpc.quote.the-flight-of-the-mind-is-fear
+- type: associated-with
+  target: lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock
 name: Pastoral Office as Territorial Flock-Keeping
 description: >-
   This is the concern everything else in this world turns on. A bishop is personally answerable for a

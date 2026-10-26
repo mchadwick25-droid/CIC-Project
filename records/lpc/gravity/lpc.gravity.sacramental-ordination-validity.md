@@ -57,6 +57,10 @@ relations:
   target: lpc.quote.pardon-through-a-wicked-clergyman
 - type: associated-with
   target: lpc.quote.consider-who-was-there
+- type: associated-with
+  target: lpc.quote.peter-may-baptize-but-this-is-he-that-baptizeth
+- type: associated-with
+  target: lpc.quote.the-word-is-added-to-the-element
 name: Sacramental and Ordination Validity Across the Boundary of the Church
 description: >-
   Few questions mattered more to this world than this one. Is a baptism or an ordination given
