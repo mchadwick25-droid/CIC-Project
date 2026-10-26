@@ -1,0 +1,223 @@
+decision: Mark 2026-10-26
+changes:
+- file: npnf110_chrysostom-homilies-matthew.yaml
+  row_id: npnf110_chrysostom-homilies-matthew--homilies-on-the-gospel-of-st-matthew
+  work: Homilies on the Gospel of St. Matthew
+  locus: div1 3 — the full series of ninety homilies (div2 3.4-3.89), assigned as one work
+  edit_add_tradition: imperial-juridical-christianity
+  new_row:
+    row_id: npnf110_chrysostom-homilies-matthew--homilies-on-the-gospel-of-st-matthew--context
+    atlas_ids:
+    - hieronymian-ascetic-literary
+    - gallic-monastic-ascetic-christianity
+    - cappadocian-nicene-pastoral-monastic-tradition
+    role: context
+    confidence: assigned
+- file: npnf111_chrysostom-homilies-acts-romans.yaml
+  row_id: npnf111_chrysostom-homilies-acts-romans--homilies-on-the-acts-of-the-apostles
+  work: Homilies on the Acts of the Apostles
+  locus: div1 6 — 'A Commentary on the Acts of the Apostles', the full series of fifty-five homilies, assigned as one work
+  edit_add_tradition: imperial-juridical-christianity
+  new_row:
+    row_id: npnf111_chrysostom-homilies-acts-romans--homilies-on-the-acts-of-the-apostles--context
+    atlas_ids:
+    - hieronymian-ascetic-literary
+    - gallic-monastic-ascetic-christianity
+    - cappadocian-nicene-pastoral-monastic-tradition
+    role: context
+    confidence: assigned
+- file: npnf111_chrysostom-homilies-acts-romans.yaml
+  row_id: npnf111_chrysostom-homilies-acts-romans--homilies-on-the-epistle-to-the-romans
+  work: Homilies on the Epistle to the Romans
+  locus: div1 7 — the full Romans series, assigned as one work
+  edit_add_tradition: imperial-juridical-christianity
+  new_row:
+    row_id: npnf111_chrysostom-homilies-acts-romans--homilies-on-the-epistle-to-the-romans--context
+    atlas_ids:
+    - hieronymian-ascetic-literary
+    - gallic-monastic-ascetic-christianity
+    - cappadocian-nicene-pastoral-monastic-tradition
+    role: context
+    confidence: assigned
+- file: npnf112_chrysostom-homilies-corinthians.yaml
+  row_id: npnf112_chrysostom-homilies-corinthians--homilies-on-first-corinthians
+  work: Homilies on First Corinthians
+  locus: div1 4 — the full 1 Corinthians series, assigned as one work
+  edit_add_tradition: imperial-juridical-christianity
+  new_row:
+    row_id: npnf112_chrysostom-homilies-corinthians--homilies-on-first-corinthians--context
+    atlas_ids:
+    - hieronymian-ascetic-literary
+    - gallic-monastic-ascetic-christianity
+    - cappadocian-nicene-pastoral-monastic-tradition
+    role: context
+    confidence: assigned
+- file: npnf112_chrysostom-homilies-corinthians.yaml
+  row_id: npnf112_chrysostom-homilies-corinthians--homilies-on-second-corinthians
+  work: Homilies on Second Corinthians
+  locus: div1 5 — the full 2 Corinthians series, assigned as one work
+  edit_add_tradition: imperial-juridical-christianity
+  new_row:
+    row_id: npnf112_chrysostom-homilies-corinthians--homilies-on-second-corinthians--context
+    atlas_ids:
+    - hieronymian-ascetic-literary
+    - gallic-monastic-ascetic-christianity
+    - cappadocian-nicene-pastoral-monastic-tradition
+    role: context
+    confidence: assigned
+- file: npnf113_chrysostom-homilies-galatians-philemon.yaml
+  row_id: npnf113_chrysostom-homilies-galatians-philemon--commentary-on-galatians
+  work: Commentary on Galatians
+  locus: div1 3, div2 3.3 — Commentary on Galatians (continuous commentary, not a homily series)
+  edit_add_tradition: imperial-juridical-christianity
+  new_row:
+    row_id: npnf113_chrysostom-homilies-galatians-philemon--commentary-on-galatians--context
+    atlas_ids:
+    - hieronymian-ascetic-literary
+    - gallic-monastic-ascetic-christianity
+    - cappadocian-nicene-pastoral-monastic-tradition
+    role: context
+    confidence: assigned
+- file: npnf113_chrysostom-homilies-galatians-philemon.yaml
+  row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-ephesians
+  work: Homilies on Ephesians
+  locus: div1 3, div2 3.4 — the full Ephesians series, assigned as one work
+  edit_add_tradition: imperial-juridical-christianity
+  new_row:
+    row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-ephesians--context
+    atlas_ids:
+    - hieronymian-ascetic-literary
+    - gallic-monastic-ascetic-christianity
+    - cappadocian-nicene-pastoral-monastic-tradition
+    role: context
+    confidence: assigned
+- file: npnf113_chrysostom-homilies-galatians-philemon.yaml
+  row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-philippians
+  work: Homilies on Philippians
+  locus: div1 4, div2 4.3 — the full Philippians series, assigned as one work
+  edit_add_tradition: imperial-juridical-christianity
+  new_row:
+    row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-philippians--context
+    atlas_ids:
+    - hieronymian-ascetic-literary
+    - gallic-monastic-ascetic-christianity
+    - cappadocian-nicene-pastoral-monastic-tradition
+    role: context
+    confidence: assigned
+- file: npnf113_chrysostom-homilies-galatians-philemon.yaml
+  row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-colossians
+  work: Homilies on Colossians
+  locus: div1 4, div2 4.4 — the full Colossians series, assigned as one work
+  edit_add_tradition: imperial-juridical-christianity
+  new_row:
+    row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-colossians--context
+    atlas_ids:
+    - hieronymian-ascetic-literary
+    - gallic-monastic-ascetic-christianity
+    - cappadocian-nicene-pastoral-monastic-tradition
+    role: context
+    confidence: assigned
+- file: npnf113_chrysostom-homilies-galatians-philemon.yaml
+  row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-first-thessalonians
+  work: Homilies on First Thessalonians
+  locus: div1 4, div2 4.5 — the full 1 Thessalonians series, assigned as one work
+  edit_add_tradition: imperial-juridical-christianity
+  new_row:
+    row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-first-thessalonians--context
+    atlas_ids:
+    - hieronymian-ascetic-literary
+    - gallic-monastic-ascetic-christianity
+    - cappadocian-nicene-pastoral-monastic-tradition
+    role: context
+    confidence: assigned
+- file: npnf113_chrysostom-homilies-galatians-philemon.yaml
+  row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-second-thessalonians
+  work: Homilies on Second Thessalonians
+  locus: div1 4, div2 4.6 — the full 2 Thessalonians series, assigned as one work
+  edit_add_tradition: imperial-juridical-christianity
+  new_row:
+    row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-second-thessalonians--context
+    atlas_ids:
+    - hieronymian-ascetic-literary
+    - gallic-monastic-ascetic-christianity
+    - cappadocian-nicene-pastoral-monastic-tradition
+    role: context
+    confidence: assigned
+- file: npnf113_chrysostom-homilies-galatians-philemon.yaml
+  row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-first-timothy
+  work: Homilies on First Timothy
+  locus: div1 5, div2 5.3 — the full 1 Timothy series, assigned as one work
+  edit_add_tradition: imperial-juridical-christianity
+  new_row:
+    row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-first-timothy--context
+    atlas_ids:
+    - hieronymian-ascetic-literary
+    - gallic-monastic-ascetic-christianity
+    - cappadocian-nicene-pastoral-monastic-tradition
+    role: context
+    confidence: assigned
+- file: npnf113_chrysostom-homilies-galatians-philemon.yaml
+  row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-second-timothy
+  work: Homilies on Second Timothy
+  locus: div1 5, div2 5.4 — the full 2 Timothy series, assigned as one work
+  edit_add_tradition: imperial-juridical-christianity
+  new_row:
+    row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-second-timothy--context
+    atlas_ids:
+    - hieronymian-ascetic-literary
+    - gallic-monastic-ascetic-christianity
+    - cappadocian-nicene-pastoral-monastic-tradition
+    role: context
+    confidence: assigned
+- file: npnf113_chrysostom-homilies-galatians-philemon.yaml
+  row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-titus
+  work: Homilies on Titus
+  locus: div1 5, div2 5.5 — the full Titus series, assigned as one work
+  edit_add_tradition: imperial-juridical-christianity
+  new_row:
+    row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-titus--context
+    atlas_ids:
+    - hieronymian-ascetic-literary
+    - gallic-monastic-ascetic-christianity
+    - cappadocian-nicene-pastoral-monastic-tradition
+    role: context
+    confidence: assigned
+- file: npnf113_chrysostom-homilies-galatians-philemon.yaml
+  row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-philemon
+  work: Homilies on Philemon
+  locus: div1 5, div2 5.6 — the full Philemon series, assigned as one work
+  edit_add_tradition: imperial-juridical-christianity
+  new_row:
+    row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-philemon--context
+    atlas_ids:
+    - hieronymian-ascetic-literary
+    - gallic-monastic-ascetic-christianity
+    - cappadocian-nicene-pastoral-monastic-tradition
+    role: context
+    confidence: assigned
+- file: npnf114_chrysostom-homilies-john-hebrews.yaml
+  row_id: npnf114_chrysostom-homilies-john-hebrews--homilies-on-the-gospel-of-st-john
+  work: Homilies on the Gospel of St. John
+  locus: div1 4 — the full John series (eighty-eight homilies), assigned as one work
+  edit_add_tradition: imperial-juridical-christianity
+  new_row:
+    row_id: npnf114_chrysostom-homilies-john-hebrews--homilies-on-the-gospel-of-st-john--context
+    atlas_ids:
+    - hieronymian-ascetic-literary
+    - gallic-monastic-ascetic-christianity
+    - cappadocian-nicene-pastoral-monastic-tradition
+    role: context
+    confidence: assigned
+- file: npnf114_chrysostom-homilies-john-hebrews.yaml
+  row_id: npnf114_chrysostom-homilies-john-hebrews--homilies-on-the-epistle-to-the-hebrews
+  work: Homilies on the Epistle to the Hebrews
+  locus: div1 5 — the full Hebrews series, assigned as one work
+  edit_add_tradition: imperial-juridical-christianity
+  new_row:
+    row_id: npnf114_chrysostom-homilies-john-hebrews--homilies-on-the-epistle-to-the-hebrews--context
+    atlas_ids:
+    - hieronymian-ascetic-literary
+    - gallic-monastic-ascetic-christianity
+    - cappadocian-nicene-pastoral-monastic-tradition
+    role: context
+    confidence: assigned

@@ -1,0 +1,9253 @@
+# Commentary worklist, Eras 7 to 10 (1517 to present). Read-only research, 2026-10-26.
+# Hosts and editions are from the author's knowledge; the sandbox blocks text hosts, so nothing was fetched.
+# conf: repo = checked in the repo; repo+knowledge = vendoring checked, edition facts from memory; knowledge = from memory; unverified = partial memory.
+# priority = number of (world x sub-question) cells unlocked. Method in meta.method and in the .md file.
+meta:
+  scope: Scripture commentaries, postils, sermon series on a biblical book, annotations and catenae, Eras 7 to 10
+  date: '2026-10-26'
+  rights_rule: 'Project 95-year rule: published 1930 or earlier is public domain in the US as of 2026. Later works are listed only if openly licensed; otherwise the row says rights block use.'
+  method:
+  - 'Worlds scored: witt, rzg (records exist), hus, jes, meth, obel (world files exist, records empty).'
+  - 'Sub-questions: the 109 sub-questions of clusters C1 to C14 in 07-subquestions.yaml. C15 to C17 are excluded.'
+  - 'Open cell: for witt, a sub-question the coverage maps rate L, I, N or ''-'' (24 cells, including Trinity and Spirit as Mark flagged). For rzg the same test gives 62 cells. For hus, jes, meth and obel
+    every one of the 109 cells counts as open, because no record exists.'
+  - A work serves a sub-question when the biblical books or doctrine it covers carry a direct answer, for example Romans for C4.S1 to S5, Genesis for C5.S4, Job and Psalms for C14. Each work's list was
+    set by hand from the books it covers; it is written in the yaml as macros and as an expanded list.
+  - A work serves a world when the author belongs to that world's tradition and window, or is the opponent voice the world's records cite (Calvin for meth, Rheims for jes). Judgement call; the yaml lists
+    the worlds.
+  - Priority = sum over served worlds of (work's sub-questions that are open cells in that world). Ties break on native voice (the world's own author), then witt+rzg cells, then count of later Atlas worlds.
+  - Because four worlds have no records, a whole-Bible set scores about 76 for each unbuilt world it serves. The 'built cells' figure (witt plus rzg) is shown separately; use it to rank gap-filling for
+    the two worlds that already have records.
+  - 'Later worlds: the number of other Era 7 to 10 Atlas entries in the traditions listed for the work (groups defined in the yaml). It is a tie-break only and was not used in the priority.'
+  worlds_scored:
+  - witt
+  - rzg
+  - hus
+  - jes
+  - meth
+  - obel
+  open_cells:
+    witt:
+    - C1.S6
+    - C2.S3
+    - C2.S4
+    - C4.S6
+    - C4.S8
+    - C5.S7
+    - C5.S8
+    - C7.S6
+    - C8.S2
+    - C8.S3
+    - C8.S6
+    - C8.S8
+    - C10.S3
+    - C10.S5
+    - C10.S6
+    - C13.S2
+    - C13.S4
+    - C13.S7
+    rzg:
+    - C1.S2
+    - C1.S4
+    - C1.S6
+    - C1.S7
+    - C2.S1
+    - C2.S2
+    - C2.S3
+    - C2.S4
+    - C2.S5
+    - C3.S2
+    - C3.S3
+    - C3.S4
+    - C3.S5
+    - C3.S6
+    - C3.S7
+    - C3.S8
+    - C4.S1
+    - C4.S5
+    - C4.S6
+    - C4.S7
+    - C4.S8
+    - C5.S4
+    - C5.S5
+    - C5.S8
+    - C6.S6
+    - C7.S3
+    - C7.S6
+    - C8.S3
+    - C8.S6
+    - C8.S8
+    - C9.S3
+    - C9.S4
+    - C10.S2
+    - C10.S3
+    - C10.S4
+    - C10.S5
+    - C10.S6
+    - C11.S1
+    - C11.S2
+    - C11.S3
+    - C11.S4
+    - C11.S8
+    - C12.S4
+    - C12.S5
+    - C12.S7
+    - C13.S1
+    - C13.S2
+    - C13.S3
+    - C13.S4
+    - C13.S5
+    - C13.S6
+    - C13.S7
+    - C14.S1
+    - C14.S3
+  unbuilt_worlds_open_cells: all 109 sub-questions of C1 to C14
+  later_world_groups:
+    LUTH:
+    - confessional-lutheran-revival-emigrations
+    - german-pietism-spener-francke-halle
+    - laestadianism-and-the-nordic-revivals
+    - scandinavian-reformation-kingdoms
+    - the-confessing-church
+    - the-haugean-awakening
+    - the-moravian-church-at-herrnhut
+    - the-reveil-and-inner-mission-awakening
+    REF:
+    - church-of-the-desert-huguenots
+    - dutch-further-reformation-and-refuge-culture
+    - dutch-neo-calvinism-secession-churches
+    - english-old-dissent
+    - new-calvinism-young-restless-reformed
+    - nineteenth-century-baptists
+    - puritanism
+    - the-baptists
+    - the-english-reformation-and-elizabethan-settleme
+    - the-evangelical-awakening-in-new-england
+    - the-huguenots
+    - the-remonstrants-and-dort
+    - the-scottish-reformation-and-kirk
+    - the-waldensian-reformed-union
+    - the-welsh-revival-tradition
+    REF2:
+    - dutch-further-reformation-and-refuge-culture
+    - english-old-dissent
+    - puritanism
+    - the-remonstrants-and-dort
+    ANG:
+    - english-old-dissent
+    - puritanism
+    - restoration-georgian-church-of-england
+    - the-english-reformation-and-elizabethan-settleme
+    - the-oxford-movement-and-anglo-catholic-revival
+    - victorian-church-of-england
+    METHG:
+    - azusa-street-and-early-pentecostalism
+    - nineteenth-century-methodism
+    - the-black-church-in-america
+    - the-evangelical-awakening-in-new-england
+    - the-holiness-movement
+    - the-salvation-army
+    - the-second-great-awakening-and-camp-meeting-worl
+    - the-sunday-school-and-bible-institute-movement
+    - the-welsh-revival-tradition
+    CATH:
+    - carmelite-reform-and-spanish-mystics
+    - catholic-church-ancien-regime
+    - catholic-church-long-nineteenth-century
+    - china-mission-born-christianity
+    - church-of-utrecht
+    - colonial-latin-american-devotional-catholicism
+    - kirishitan-japan
+    - korean-catholic-origins
+    - new-spain-and-andes-mission-born-christianity
+    - nineteenth-century-latin-american-catholicism
+    - old-catholic-churches-union-of-utrecht
+    - philippine-catholicism
+    - port-royal-jansenism
+    - recusant-english-catholicism
+    - the-catholic-church-pius-x-to-the-council
+    - the-post-vatican-ii-parish-world
+    - the-tridentine-church
+    - the-union-of-brest-and-ruthenian-greek-catholic-
+    - tridentine-parish-renewal-borromean-milan
+    JESM:
+    - china-mission-born-christianity
+    - colonial-latin-american-devotional-catholicism
+    - kirishitan-japan
+    - kongo-christianity-afonso-to-1650
+    - new-spain-and-andes-mission-born-christianity
+    - philippine-catholicism
+    - st-thomas-christians-under-portuguese-pressure-d
+    ORTH:
+    - alaskan-mission-herman-veniaminov
+    - american-orthodoxy-autocephaly-and-the-convert-wave
+    - emigre-orthodoxy-and-the-paris-school
+    - orthodoxy-after-1821-balkan-autocephalies
+    - orthodoxy-under-the-ottomans-1650-1821
+    - orthodoxy-under-the-ottomans-parish-millet-and-n
+    - russian-church-nikon-to-holy-synod
+    - russian-church-stoglav-to-nikon
+    - russian-church-synodal-century
+    - russian-evangelicals-stundists
+    - the-hesychast-revival-paisius-and-the-philokalia
+    - the-kollyvades-and-greek-renewal
+    - the-kyiv-mohyla-orthodox-revival
+    - the-optina-elders-and-russian-ascetic-renewal
+    - the-russian-new-martyrs-and-the-catacomb-church
+    ANAB:
+    - anti-trinitarian-currents-servetus-polish-brethr
+    - family-of-love-and-spiritualists-franck-niclaes
+    - radical-pietism-and-the-brethren-dunkers-ephrata
+    - schwenckfelders
+    - the-anabaptist-movements
+    - the-baptists
+    ENLIGHT:
+    - american-unitarianism-universalism-consolidations
+    - deconstruction-and-ex-vangelical-communities
+    - early-american-unitarians-universalists
+    - fundamentalism-1910-1970s
+    - progressive-christianity-a-broad-label-not-one-m
+    - the-mainline-century-liberal-and-neo-orthodox
+    - the-stone-campbell-restoration-movement
+    PENT:
+    - african-diaspora-and-reverse-mission-churches-in
+    - african-initiated-churches-harrist-aladura-zioni
+    - azusa-street-and-early-pentecostalism
+    - charismatic-renewal-and-the-jesus-movement
+    - global-south-pentecostal-christianity
+    - oneness-pentecostalism
+    - the-1904-07-revival-family-wales-mukti-india-pyo
+    BLACK:
+    - african-initiated-churches-harrist-aladura-zioni
+    - haitian-church-rupture-to-concordat
+    - the-black-church-in-america
+    - the-black-church-in-the-twentieth-century
+    GLOBAL:
+    - east-african-christianity-uganda-martyrs
+    - indonesian-christianity
+    - indonesian-christianity-the-independent-century
+    - japanese-christianity-hidden-emergence-meiji
+    - lausanne-era-global-evangelicalism
+    - malagasy-christianity
+    - modern-ethiopian-and-eritrean-christianity
+    - northeast-india-and-mar-thoma-twentieth-century
+    - northeast-india-revivals-and-the-mar-thoma-refor
+    - the-chinese-church-indigenous-and-suffering
+    - the-east-african-revival-balokole
+    - the-missionary-movement-s-native-churches-seramp
+    EVANG19:
+    - dispensational-prophecy-culture
+    - fundamentalism-1910-1970s
+    - lausanne-era-global-evangelicalism
+    - nineteenth-century-baptists
+    - plymouth-brethren-and-dispensational-formation
+    - the-holiness-movement
+    - the-stone-campbell-restoration-movement
+    - the-student-volunteer-movement-and-edinburgh-191
+    - the-sunday-school-and-bible-institute-movement
+    - victorian-church-of-england
+    BRETH:
+    - dispensational-prophecy-culture
+    - fundamentalism-1910-1970s
+    - plymouth-brethren-and-dispensational-formation
+    CZECH:
+    - czech-churches-last-century
+    - the-moravian-church-at-herrnhut
+  macro_definitions:
+    GAL:
+    - C4.S1
+    - C2.S4
+    - C11.S1
+    - C6.S3
+    - C7.S1
+    - C5.S2
+    ROM:
+    - C4.S1
+    - C4.S2
+    - C4.S3
+    - C4.S4
+    - C4.S5
+    - C2.S4
+    - C9.S3
+    - C11.S1
+    - C11.S5
+    - C5.S2
+    - C3.S3
+    DOCTRINE_GRACE:
+    - C4.S1
+    - C4.S2
+    - C4.S3
+    - C4.S4
+    - C4.S5
+    GOSP:
+    - C1.S1
+    - C1.S2
+    - C1.S3
+    - C1.S4
+    - C1.S6
+    - C1.S7
+    - C1.S8
+    - C3.S1
+    - C3.S2
+    - C3.S4
+    - C3.S7
+    - C4.S8
+    - C6.S2
+    - C7.S1
+    - C7.S2
+    - C7.S3
+    - C7.S6
+    - C10.S1
+    - C10.S2
+    - C10.S4
+    - C13.S1
+    - C13.S2
+    - C13.S3
+    - C13.S4
+    - C14.S1
+    - C14.S2
+    - C14.S4
+    - C8.S4
+    - C9.S4
+    - C11.S1
+    - C11.S5
+    - C3.S8
+    - C5.S2
+    - C4.S1
+    - C4.S5
+    - C8.S2
+    - C8.S7
+    GOSP_LIGHT:
+    - C1.S1
+    - C1.S3
+    - C1.S4
+    - C14.S1
+    - C7.S3
+    ACTS:
+    - C2.S4
+    - C10.S3
+    - C6.S1
+    - C6.S3
+    - C7.S1
+    - C9.S1
+    GENEPI:
+    - C4.S1
+    - C10.S4
+    - C7.S7
+    - C3.S5
+    - C14.S1
+    - C13.S4
+    - C4.S4
+    PAST:
+    - C6.S1
+    - C6.S6
+    - C8.S2
+    - C10.S1
+    - C10.S4
+    - C6.S8
+    SOM:
+    - C10.S1
+    - C7.S3
+    - C9.S4
+    - C8.S4
+    - C14.S8
+    - C4.S1
+    GEN:
+    - C5.S4
+    - C5.S2
+    - C5.S3
+    - C2.S7
+    - C4.S2
+    - C7.S1
+    - C7.S6
+    - C8.S2
+    - C8.S3
+    - C8.S4
+    PENT_LIGHT:
+    - C10.S5
+    - C7.S6
+    - C5.S7
+    PENT:
+    - C5.S7
+    - C10.S5
+    - C10.S2
+    - C7.S6
+    - C2.S8
+    - C13.S6
+    - C8.S4
+    - C9.S5
+    - C10.S4
+    - C5.S2
+    PSALMS:
+    - C14.S1
+    - C14.S2
+    - C14.S3
+    - C14.S4
+    - C14.S8
+    - C5.S7
+    - C7.S3
+    - C7.S4
+    - C3.S5
+    - C3.S1
+    - C2.S2
+    - C2.S6
+    - C1.S3
+    - C1.S4
+    - C10.S5
+    - C5.S2
+    - C14.S5
+    PSALMS_LIGHT:
+    - C14.S2
+    - C14.S3
+    - C7.S3
+    COL:
+    - C1.S2
+    - C8.S2
+    - C13.S1
+    CREED:
+    - C1.S2
+    - C2.S3
+    - C2.S4
+    - C2.S5
+    - C3.S5
+    - C3.S6
+    - C1.S4
+    - C1.S3
+    - C3.S1
+    JOHN:
+    - C1.S2
+    - C1.S4
+    - C2.S3
+    - C2.S4
+    - C2.S5
+    - C4.S5
+    - C4.S3
+    - C7.S2
+    - C6.S2
+    - C11.S5
+    JOB:
+    - C14.S1
+    - C14.S2
+    - C14.S3
+    - C14.S4
+    - C2.S7
+    - C13.S1
+    - C2.S2
+    - C3.S6
+    JOB_LIGHT:
+    - C14.S1
+    - C14.S3
+    ISA:
+    - C1.S3
+    - C1.S4
+    - C5.S2
+    - C3.S8
+    - C10.S4
+    - C2.S2
+    ISA_LIGHT:
+    - C14.S2
+    - C1.S3
+    DANREV:
+    - C5.S5
+    - C3.S8
+    - C3.S1
+    - C3.S2
+    - C13.S1
+    - C9.S6
+    - C3.S6
+    HEB:
+    - C1.S2
+    - C1.S3
+    - C4.S4
+    - C4.S8
+    - C7.S2
+    - C5.S2
+    COR1:
+    - C7.S2
+    - C2.S4
+    - C3.S6
+    - C3.S5
+    - C6.S8
+    - C8.S2
+    - C8.S4
+    - C8.S5
+    - C11.S2
+    - C14.S5
+    - C1.S4
+    COR1_LOVE:
+    - C14.S5
+    - C10.S4
+    EPH:
+    - C8.S2
+    - C8.S3
+    - C8.S7
+    - C13.S1
+    - C4.S3
+    - C2.S4
+    - C4.S1
+    PHIL_COL:
+    - C1.S2
+    - C14.S8
+    - C13.S1
+    - C8.S2
+    PAUL_HIST:
+    - C6.S3
+    - C11.S1
+    - C6.S1
+    MATT:
+    - C1.S1
+    - C1.S3
+    - C1.S4
+    - C3.S1
+    - C3.S2
+    - C3.S4
+    - C4.S8
+    - C6.S2
+    - C7.S1
+    - C7.S3
+    - C10.S1
+    - C10.S2
+    - C10.S4
+    - C13.S1
+    - C13.S2
+    - C8.S4
+    - C9.S4
+    - C11.S1
+    - C3.S8
+    DECALOGUE:
+    - C7.S4
+    - C2.S8
+    - C7.S6
+    - C10.S2
+    - C8.S4
+    - C9.S4
+    SACRAMENTS:
+    - C7.S1
+    - C7.S2
+    - C7.S5
+    - C4.S5
+    - C6.S2
+    SONG:
+    - C8.S4
+    - C8.S5
+    DOUBT:
+    - C14.S4
+    - C14.S8
+    - C14.S2
+    PNEUMA_TRIN:
+    - C2.S3
+    - C2.S4
+    - C2.S5
+    CRIT_APOL:
+    - C5.S3
+    - C1.S5
+    - C13.S3
+    - C2.S1
+    C1_EXIST:
+    - C1.S5
+    C1_HUMAN:
+    - C1.S6
+    CRIT:
+    - C5.S1
+    - C5.S2
+    - C5.S3
+    - C5.S4
+    - C1.S5
+    - C1.S7
+    C_MISSION:
+    - C11.S6
+    - C11.S5
+    - C11.S3
+    C_FREEWILL:
+    - C4.S3
+    C_TRINITY_CRIT:
+    - C2.S3
+    - C2.S5
+    - C1.S2
+    C_ORTH_TRADITION:
+    - C6.S4
+    - C6.S3
+    - C7.S4
+    BLACK_SERMON:
+    - C8.S3
+    - C9.S6
+    - C14.S1
+    C_SLAVE_BIBLE:
+    - C8.S3
+    - C5.S1
+    - C5.S3
+    C_TONGUES:
+    - C2.S4
+    - C2.S6
+    GLOBAL_NONE: []
+    DAN_NONE: []
+    GEN_NONE: []
+    WHOLE_LIGHT:
+    - C5.S2
+    - C4.S1
+    - C1.S1
+    - C14.S1
+    HERM:
+    - C5.S1
+    - C5.S2
+    - C5.S3
+    - C5.S6
+    - C5.S8
+    CANON:
+    - C5.S1
+    - C5.S6
+    WHOLE:
+    - C1.S1
+    - C1.S2
+    - C1.S3
+    - C1.S4
+    - C1.S6
+    - C1.S7
+    - C1.S8
+    - C10.S1
+    - C10.S2
+    - C10.S3
+    - C10.S4
+    - C10.S5
+    - C11.S1
+    - C11.S2
+    - C11.S5
+    - C13.S1
+    - C13.S2
+    - C13.S3
+    - C13.S4
+    - C13.S6
+    - C14.S1
+    - C14.S2
+    - C14.S3
+    - C14.S4
+    - C14.S5
+    - C14.S8
+    - C2.S2
+    - C2.S3
+    - C2.S4
+    - C2.S5
+    - C2.S6
+    - C2.S7
+    - C2.S8
+    - C3.S1
+    - C3.S2
+    - C3.S3
+    - C3.S4
+    - C3.S5
+    - C3.S6
+    - C3.S7
+    - C3.S8
+    - C4.S1
+    - C4.S2
+    - C4.S3
+    - C4.S4
+    - C4.S5
+    - C4.S8
+    - C5.S1
+    - C5.S2
+    - C5.S3
+    - C5.S4
+    - C5.S5
+    - C5.S6
+    - C5.S7
+    - C5.S8
+    - C6.S1
+    - C6.S2
+    - C6.S3
+    - C6.S6
+    - C6.S8
+    - C7.S1
+    - C7.S2
+    - C7.S3
+    - C7.S4
+    - C7.S6
+    - C7.S7
+    - C8.S2
+    - C8.S3
+    - C8.S4
+    - C8.S5
+    - C8.S7
+    - C9.S1
+    - C9.S3
+    - C9.S4
+    - C9.S5
+    - C9.S6
+  not_verified:
+  - Every host named in the table is from memory. The sandbox blocks the text hosts and nothing was fetched. Item ids were not checked, except those already in download-queue-seed.yaml.
+  - 'Rows marked conf: unverified (r11, r25, r52, r58, r68, r70, r73, r82, r85, r86, r87, r88, r109, r113, r119, r120, r121, r123, r125, r127, r128, r130, r131) rest on partial memory. Check titles, dates
+    and rights before tasking any download.'
+  - CCEL holdings claimed (Calvin, Henry, Clarke, Keil and Delitzsch, Jamieson-Fausset-Brown, Barnes, Spurgeon's Treasury, Ryle, Wesley's Notes) are from memory and are the most confident of the host claims.
+  - Whether Avvakum's volume (Materialy vol 5) holds his full Book of Interpretations was not checked; the file header says only 'his commentaries'.
+  - Which volumes of Mossman's a Lapide and Davie's Maldonado exist in English was not verified.
+  - The witt and rzg open-cell sets come from the C1 to C16 coverage maps. Mark flagged witt's Trinity and Spirit as missing although the map rates them R*; the score counts them as open.
+  - Cells are counted for sub-questions C1 to C14 only. C15 to C17 (modern questions, source questions, facilitator ground) are not answered by a commentary.
+rows:
+- id: r29
+  work: Paraphrases upon the New Testament (Latin 1517-24; English 1548-49 'Paraphrase of Erasmus upon the Newe Testamente')
+  author: Desiderius Erasmus
+  era: '7'
+  ed: 'English: Nicholas Udall ed., Whitchurch, London 1548-49, set in every English church by royal order (PD). Latin: Opera Omnia, Leclerc, Leiden 1703-06, vol 7 (PD). Collected Works of Erasmus (Toronto):
+    in copyright.'
+  host: EEBO, archive.org (unverified item ids); e-rara for Latin
+  lic: '16th and 18th century printings: public domain. CWE Toronto: rights block.'
+  use: Every Gospel, Acts and the Epistles in plain paraphrase. English churches placed it beside the Bible.
+  cav: Erasmus Annotations on the New Testament (1516) are also PD in Latin. The hus window ends 1517; only the 1516 annotations fall inside it.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S4
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S6
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  cells_by_world:
+    witt: 9
+    rzg: 28
+    hus: 53
+    jes: 53
+  priority: 143
+  built_world_cells: 37
+  later_worlds_count: 25
+  native_voice_for: []
+  rank: 1
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - witt
+  - rzg
+  - hus
+  - jes
+  subquestion_macros:
+  - GOSP
+  - ACTS
+  - ROM
+  - GENEPI
+  - HERM
+  later_groups:
+  - ANG
+  - CATH
+- id: r12
+  work: Commentaries on the New Testament (Gospel harmony, John, Acts, Romans, 1-2 Corinthians, Galatians to Philemon, Hebrews, James to Jude)
+  author: John Calvin
+  era: '7'
+  ed: 'Calvin Translation Society, Edinburgh 1843-55 (22 vols in all). Translators include William Pringle, John Owen, Henry Beveridge, Thomas Myers, James Anderson, Charles Bingham. Latin: Calvini Opera,
+    Corpus Reformatorum vols 29 to 87, Baum, Cunitz, Reuss 1863-1900.'
+  host: CCEL hosts the Calvin Translation Society set (confident); archive.org (Latin, French)
+  lic: Public domain (1840s-50s translation; 19th century Latin and French)
+  use: Romans, John, Harmony of the Gospels, Hebrews, 1 Corinthians. The standard Reformed expository pulpit set. No Calvin commentary on Revelation, 2 or 3 John exists.
+  cav: meth is included because Wesley and Whitefield argued about Calvin on election. Only the rzg cells are inside Calvin's own window.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  - C14.S5
+  cells_by_world:
+    rzg: 33
+    meth: 58
+  priority: 91
+  built_world_cells: 33
+  later_worlds_count: 15
+  native_voice_for:
+  - rzg
+  rank: 2
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - rzg
+  - meth
+  subquestion_macros:
+  - GOSP
+  - JOHN
+  - ACTS
+  - ROM
+  - COR1
+  - GAL
+  - EPH
+  - PAST
+  - HEB
+  - GENEPI
+  later_groups:
+  - REF
+- id: r62
+  work: Haydock's Catholic Family Bible and Commentary (1811-14); Challoner's Douay-Rheims revision with notes (1749-52)
+  author: George Leo Haydock; Richard Challoner
+  era: '8'
+  ed: 'Haydock: Manchester 1811-14, later Dublin and New York editions (PD). Challoner: London 1749-52 (PD).'
+  host: archive.org (unverified); Douay-Rheims Bible Online may carry Challoner notes (unverified)
+  lic: Public domain
+  use: Whole Bible with Catholic notes drawing on the Fathers, a Lapide, Calmet and Bellarmine.
+  cav: Challoner's Garden of the Soul and Memoirs are vendored, not his notes. Haydock post-dates jes; it is the English summary of Jesuit exegesis.
+  conf: repo+knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S5
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world:
+    jes: 77
+  priority: 77
+  built_world_cells: 0
+  later_worlds_count: 25
+  native_voice_for: []
+  rank: 3
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - jes
+  subquestion_macros:
+  - WHOLE
+  - HERM
+  - SACRAMENTS
+  later_groups:
+  - CATH
+  - ANG
+- id: r69
+  work: Rheims New Testament (1582) with annotations; Douay Old Testament (1609-10) with notes
+  author: Gregory Martin, William Allen, Richard Bristow, Thomas Worthington
+  era: '7'
+  ed: Rheims 1582 (Princeton scan thenewtestamento00rhei and Boston Public Library scan, per download-queue-seed.yaml). Douay OT 1609-10.
+  host: archive.org (queued items)
+  lic: Public domain by date
+  use: 'The Catholic answer to Geneva notes: annotations on Matthew 16, John 6, Romans, 1 Corinthians.'
+  cav: Queued, not vendored (recusant-english-catholicism rows).
+  conf: repo
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S5
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world:
+    jes: 77
+  priority: 77
+  built_world_cells: 0
+  later_worlds_count: 25
+  native_voice_for: []
+  rank: 4
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - jes
+  subquestion_macros:
+  - WHOLE
+  - HERM
+  - SACRAMENTS
+  later_groups:
+  - CATH
+  - ANG
+- id: r63
+  work: Commentaria in Scripturam Sacram (1614-45)
+  author: Cornelius a Lapide, S.J.
+  era: '7'
+  ed: 'Latin: Vives ed., Paris 1866-74, 10 vols and later (PD). English: Thomas W. Mossman, ''The Great Commentary of Cornelius a Lapide'', London 1876-1908, 8 vols covering the Gospels and some epistles
+    (unverified scope). The Loreto revision (2008 on) is in copyright.'
+  host: archive.org (unverified)
+  lic: 'Latin and Mossman: public domain. Loreto: rights block.'
+  use: 'The largest Catholic commentary: all the Fathers on every verse. Ideal for pastors.'
+  cav: Mossman covers only part of the Bible. Latin for the rest.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world:
+    jes: 76
+  priority: 76
+  built_world_cells: 0
+  later_worlds_count: 19
+  native_voice_for:
+  - jes
+  rank: 5
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - jes
+  subquestion_macros:
+  - WHOLE
+  - GOSP
+  - ROM
+  - HERM
+  later_groups:
+  - CATH
+- id: r45
+  work: Explanatory Notes upon the New Testament (1755) and upon the Old Testament (1765)
+  author: John Wesley
+  era: '8'
+  ed: 1754-55 NT; 1765 OT, 3 vols. Wesley took the NT notes from Bengel's Gnomon and the OT from Poole.
+  host: CCEL (confident); Wesley Center Online, wesley.nnu.edu (confident the Notes are there)
+  lic: Public domain. Check any modern 'edited' version on the host.
+  use: Verse notes on the whole Bible. Romans 5 to 8, Hebrews 6 and 10 (falling from grace), Sermon on the Mount, 1 John (perfect love).
+  cav: Highest value for meth. Wesley's own standard of doctrine, together with the first 44 sermons.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world:
+    meth: 76
+  priority: 76
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for:
+  - meth
+  rank: 6
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - meth
+  subquestion_macros:
+  - WHOLE
+  - ROM
+  - GAL
+  - HEB
+  - SOM
+  - JOHN
+  later_groups:
+  - METHG
+  - ANG
+- id: r47
+  work: Short Hymns on Select Passages of the Holy Scriptures (1762, 2 vols)
+  author: Charles Wesley
+  era: '8'
+  ed: Bristol, E. Farley, 1762. About 2,000 short verse comments, passage by passage through the Bible.
+  host: archive.org (unverified item ids); Wesley Center Online (unverified)
+  lic: Public domain
+  use: A verse-by-verse poetic commentary on the whole Bible. Ready for a hymn or prayer after a passage.
+  cav: Charles Wesley's hymns (1780) and Journal are vendored. This is a different book and was not found in the Library.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world:
+    meth: 76
+  priority: 76
+  built_world_cells: 0
+  later_worlds_count: 9
+  native_voice_for:
+  - meth
+  rank: 7
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - meth
+  subquestion_macros:
+  - WHOLE
+  - HERM
+  later_groups:
+  - METHG
+- id: r54
+  work: Commentary on the Holy Bible (Coke, 1801-03); Benson's Commentary (1811-18); Commentary on the Bible (Clarke, 1810-26)
+  author: Thomas Coke; Joseph Benson; Adam Clarke
+  era: '8'
+  ed: 'Clarke: 8 vols. Benson: 5 vols. PD.'
+  host: CCEL (Clarke, confident); StudyLight (Benson, unverified); Wesley Center (Clarke, unverified)
+  lic: Public domain
+  use: Methodist verse commentary after Wesley. Clarke is strong on Hebrew and manners and customs.
+  cav: Clarke starts in 1810, so he sits at the end of meth's 1815 window.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world:
+    meth: 76
+  priority: 76
+  built_world_cells: 0
+  later_worlds_count: 9
+  native_voice_for:
+  - meth
+  rank: 8
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - meth
+  subquestion_macros:
+  - WHOLE
+  - HERM
+  later_groups:
+  - METHG
+- id: r49
+  work: Exposition of the Old and New Testaments (Complete Commentary, 1706-21)
+  author: Matthew Henry (completed by 13 ministers)
+  era: '8'
+  ed: 6 vols, London 1706-21
+  host: CCEL (confident); Blue Letter Bible and Bible Study Tools (unverified)
+  lic: Public domain
+  use: 'The most-used pastor commentary in English: Psalms, Gospels, Romans, Hebrews. Matthew Henry wrote Genesis to Acts; the Epistles and Revelation were finished by others.'
+  cav: Philip Henry's diaries (vendored) are his father's. Matthew Henry's own commentary is not vendored.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world:
+    meth: 76
+  priority: 76
+  built_world_cells: 0
+  later_worlds_count: 25
+  native_voice_for: []
+  rank: 9
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - meth
+  subquestion_macros:
+  - WHOLE
+  - HERM
+  later_groups:
+  - REF
+  - METHG
+  - ANG
+- id: r42
+  work: Synopsis Criticorum (1669-76); Annotations upon the Holy Bible (Poole, 1683-85)
+  author: Matthew Poole
+  era: '8'
+  ed: 'Synopsis: London 1669-76 (PD). English Annotations: completed by others after Poole''s death in 1679, 1683-85 (PD).'
+  host: archive.org; Bible Hub and StudyLight (English Annotations, unverified)
+  lic: Public domain
+  use: Whole Bible. Wesley built his Old Testament Notes largely from Poole.
+  cav: Link to Wesley's OT notes is well known but cite carefully.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world:
+    meth: 76
+  priority: 76
+  built_world_cells: 0
+  later_worlds_count: 18
+  native_voice_for: []
+  rank: 10
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - meth
+  subquestion_macros:
+  - WHOLE
+  - HERM
+  later_groups:
+  - ANG
+  - REF
+- id: r51
+  work: Exposition of the Old and New Testaments (1746-63, 9 vols)
+  author: John Gill
+  era: '8'
+  ed: London 1746-48 (NT), 1748-63 (OT). PD.
+  host: Bible Study Tools, StudyLight (unverified), archive.org (unverified)
+  lic: Public domain
+  use: Whole Bible; rabbinic background; strict Calvinist Baptist reading of Romans 9.
+  cav: Useful as the opposing voice to Wesley.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world:
+    meth: 76
+  priority: 76
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for: []
+  rank: 11
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - meth
+  subquestion_macros:
+  - WHOLE
+  - HERM
+  later_groups:
+  - REF2
+  - REF
+- id: r52
+  work: The Holy Bible with Explanatory Notes (1788-92)
+  author: Thomas Scott
+  era: '8'
+  ed: 4 vols folio, London. American editions 1830s (PD).
+  host: archive.org (unverified)
+  lic: Public domain
+  use: Whole Bible, evangelical Anglican.
+  cav: Details unverified.
+  conf: unverified
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world:
+    meth: 76
+  priority: 76
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for: []
+  rank: 12
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - meth
+  subquestion_macros:
+  - WHOLE
+  later_groups:
+  - ANG
+  - METHG
+- id: r113
+  work: Commentary on the Holy Bible (Whedon, 1860-80, 14 vols); Notes on the Whole Bible (Methodist)
+  author: Daniel Whedon
+  era: '9'
+  ed: New York, Methodist Book Concern
+  host: Bible Hub and StudyLight (unverified)
+  lic: Public domain
+  use: Methodist verse commentary for the 19th-century church.
+  cav: Era 9. Outside meth's window; serves Nineteenth-Century Methodism and Holiness worlds.
+  conf: unverified
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world:
+    meth: 76
+  priority: 76
+  built_world_cells: 0
+  later_worlds_count: 9
+  native_voice_for: []
+  rank: 13
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - meth
+  subquestion_macros:
+  - WHOLE
+  later_groups:
+  - METHG
+- id: r130
+  work: Commentaria in omnes epistolas Pauli (1529); Commentary on the Gospels and Acts (1530s); Commentary on the Psalms (1530); Pentateuch and historical books
+  author: Cardinal Thomas de Vio, Cajetan, O.P.
+  era: '7'
+  ed: 'Latin: Opera omnia quotquot in sacrae Scripturae expositionem, Lyon 1639, 5 vols (PD, title wording unverified).'
+  host: Google Books, archive.org (unverified)
+  lic: Public domain
+  use: Romans and the Gospels read by the man who examined Luther at Augsburg in 1518. A Catholic exegete who departed from the Vulgate for the Hebrew and Greek.
+  cav: Latin only. Cajetan's cautious readings on Genesis and Revelation were attacked by Paris theologians (unverified detail).
+  conf: unverified
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S4
+  - C2.S6
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C5.S7
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S3
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world:
+    witt: 9
+    jes: 52
+  priority: 61
+  built_world_cells: 9
+  later_worlds_count: 19
+  native_voice_for: []
+  rank: 14
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - witt
+  - jes
+  subquestion_macros:
+  - ROM
+  - GOSP
+  - PSALMS
+  - DOCTRINE_GRACE
+  later_groups:
+  - CATH
+- id: r48
+  work: Gnomon of the New Testament (1742)
+  author: Johann Albrecht Bengel
+  era: '8'
+  ed: 'English: Andrew R. Fausset, Edinburgh 1857-58, 5 vols (vol 1 vendored); also Lewis and Vincent, Philadelphia 1860-62 (unverified).'
+  host: archive.org (vol 1 item gnomonofthenewte01benguoft); vols 2 to 5 on archive.org and StudyLight (unverified)
+  lic: Public domain
+  use: Short sharp verse notes on the whole New Testament; Revelation timetable.
+  cav: Only one volume in five is on the shelf. Vol 2 onward is the priority acquisition.
+  conf: repo+knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C5.S5
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  cells_by_world:
+    meth: 55
+  priority: 55
+  built_world_cells: 0
+  later_worlds_count: 17
+  native_voice_for:
+  - meth
+  rank: 15
+  vendored: partial
+  vendored_note: 'Vol 1 (Matthew to Mark) vendored, mapped to german-pietism and meth. Vols 2 to 5 (Luke through Revelation) not vendored. Also vendored: Erklaerte Offenbarung 1740 and the English Introduction
+    to the Apocalypse 1757. No record cites any of them.'
+  worlds:
+  - meth
+  subquestion_macros:
+  - GOSP
+  - JOHN
+  - ACTS
+  - ROM
+  - GAL
+  - EPH
+  - HEB
+  - GENEPI
+  - DANREV
+  later_groups:
+  - LUTH
+  - METHG
+- id: r50
+  work: The Family Expositor (1739-56, 6 vols)
+  author: Philip Doddridge
+  era: '8'
+  ed: Paraphrase and notes on the Gospels, Acts and Epistles. Later edition 1810 (PD).
+  host: archive.org (unverified)
+  lic: Public domain
+  use: Harmony of the Gospels and the Epistles in family-reading form.
+  cav: Rise and Progress of Religion in the Soul is vendored but is not commentary.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S4
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  cells_by_world:
+    meth: 49
+  priority: 49
+  built_world_cells: 0
+  later_worlds_count: 8
+  native_voice_for: []
+  rank: 16
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - meth
+  subquestion_macros:
+  - GOSP
+  - ACTS
+  - ROM
+  - GENEPI
+  later_groups:
+  - REF2
+  - ANG
+- id: r65
+  work: Commentarii in Evangelicam Historiam et in Acta Apostolorum (16 vols, 1597-1602); Epistles commentary
+  author: Alfonso Salmeron, S.J.
+  era: '7'
+  ed: 'Latin: Cologne 1612-15 (queued, archive.org bub_gb_h3W7gRextFsC and others, pd-us-by-date per the queue).'
+  host: archive.org (queued in download-queue-seed.yaml; item ids listed there)
+  lic: Public domain by date
+  use: Gospels and Acts in sermon form. Salmeron's letters (vendored) show he was an original Jesuit.
+  cav: Already queued and WANTS-listed (jes row 63). Which volume is which has not been checked.
+  conf: repo
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S4
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  cells_by_world:
+    jes: 47
+  priority: 47
+  built_world_cells: 0
+  later_worlds_count: 19
+  native_voice_for:
+  - jes
+  rank: 17
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - jes
+  subquestion_macros:
+  - GOSP
+  - ACTS
+  - ROM
+  later_groups:
+  - CATH
+- id: r58
+  work: Postilla (Evangelien- und Epistelpostille, 1616?); Geistliches Lieder; True Christianity (vendored)
+  author: Johann Arndt
+  era: '8'
+  ed: 'True Christianity vendored. Postilla: German 17th century, title and date unverified.'
+  host: unverified
+  lic: Public domain by date (unverified host)
+  use: Gospel and Epistle sermons for the church year.
+  cav: Unverified.
+  conf: unverified
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C3.S1
+  - C3.S2
+  - C3.S4
+  - C3.S5
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  cells_by_world:
+    witt: 6
+    meth: 40
+  priority: 46
+  built_world_cells: 6
+  later_worlds_count: 8
+  native_voice_for: []
+  rank: 18
+  vendored: partial
+  vendored_note: True Christianity (Boehm and Schaeffer 1868) is vendored. No postil is.
+  worlds:
+  - witt
+  - meth
+  subquestion_macros:
+  - GOSP
+  - GENEPI
+  later_groups:
+  - LUTH
+- id: r21
+  work: Geneva Bible (1560, revised 1599) with marginal notes
+  author: 'Geneva exiles: Whittingham, Gilby, Sampson, with Beza''s and Calvin''s influence'
+  era: '7'
+  ed: 1560 and 1599 printings. Modern facsimile (Tolle Lege 2006) carries in-copyright introductions.
+  host: archive.org facsimile scans; Bible Hub and StudyLight carry the notes as 'Geneva Study Bible' (unverified); CrossWire SWORD module (unverified)
+  lic: 'The 1560/1599 text and notes: public domain. Modern facsimile apparatus: rights block.'
+  use: Whole Bible. Every chapter has short notes. Revelation, Romans 9, and Exodus 1 (midwives) are well known.
+  cav: The notes are short. Their strength is breadth, not depth.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world:
+    rzg: 40
+  priority: 40
+  built_world_cells: 40
+  later_worlds_count: 18
+  native_voice_for:
+  - rzg
+  rank: 19
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - rzg
+  subquestion_macros:
+  - WHOLE
+  - HERM
+  later_groups:
+  - REF
+  - ANG
+- id: r25
+  work: Pious and Learned Annotations upon the Holy Bible (English 1648)
+  author: Giovanni Diodati
+  era: '7'
+  ed: Italian Bible with notes, Geneva 1607; English third edition 1651 (PD).
+  host: archive.org (unverified)
+  lic: Public domain
+  use: Whole Bible, in Geneva after Beza.
+  cav: Printing details unverified.
+  conf: unverified
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world:
+    rzg: 40
+  priority: 40
+  built_world_cells: 40
+  later_worlds_count: 15
+  native_voice_for:
+  - rzg
+  rank: 20
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - rzg
+  subquestion_macros:
+  - WHOLE
+  - HERM
+  later_groups:
+  - REF
+- id: r82
+  work: Teaching Gospel (Uchitel'noe Evangelie, 1619); Pearl of Great Price (1646)
+  author: Kyrill Tranquillion-Stavrovetsky
+  era: '7'
+  ed: 'Church Slavonic and Ruthenian, Pochaiv and Vilnius printings. Edition and rights: unverified.'
+  host: unverified
+  lic: Public domain by date (unverified host)
+  use: Homilies on the Sunday Gospels in the Ruthenian Orthodox tradition.
+  cav: Details not confident.
+  conf: unverified
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C3.S1
+  - C3.S2
+  - C3.S4
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C6.S2
+  - C6.S3
+  - C6.S4
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  cells_by_world:
+    obel: 40
+  priority: 40
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for:
+  - obel
+  rank: 21
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - obel
+  subquestion_macros:
+  - GOSP
+  - C_ORTH_TRADITION
+  later_groups:
+  - ORTH
+- id: r27
+  work: The Dutch Annotations upon the Whole Bible (Statenvertaling notes, English 1657, Theodore Haak)
+  author: Dort translators (Bogerman, Baudartius, Walaeus, Hommius and others)
+  era: '7'
+  ed: English 1657; Internet Archive item 'dutch-annotations' (13.4 MB djvu scan)
+  host: archive.org item dutch-annotations, Public Domain Mark 1.0 (repo-verified in file header)
+  lic: Public Domain Mark 1.0 on the host
+  use: Whole Bible with Reformed notes, including Dort-era readings of Romans 9.
+  cav: Dutch Reformed, so outside rzg's two cities. Big value for the Dutch and Dort worlds.
+  conf: repo
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world:
+    rzg: 40
+  priority: 40
+  built_world_cells: 40
+  later_worlds_count: 15
+  native_voice_for: []
+  rank: 22
+  vendored: partial
+  vendored_note: Only the front matter is vendored (haak_dutch-annotations-narrative-and-front-matter_1657.txt). The 13.4 MB body is not.
+  worlds:
+  - rzg
+  subquestion_macros:
+  - WHOLE
+  - HERM
+  later_groups:
+  - REF
+  - REF2
+- id: r70
+  work: Tianzhu jiangsheng chuxiang jingjie (Life of Christ with commentary on pictures, 1637); Tianzhu shiyi (Ricci, 1603)
+  author: Giulio Aleni, S.J.; Matteo Ricci, S.J.
+  era: '7'
+  ed: 'Chinese Ming printings; Nadal''s plates adapted. Editions: unverified.'
+  host: unverified
+  lic: Public domain by date (unverified host)
+  use: Gospel narrative for a Chinese reader.
+  cav: Unverified. Trigault's De christiana expeditione is vendored.
+  conf: unverified
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C3.S1
+  - C3.S2
+  - C3.S4
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S4
+  - C11.S1
+  - C11.S3
+  - C11.S5
+  - C11.S6
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  cells_by_world:
+    jes: 39
+  priority: 39
+  built_world_cells: 0
+  later_worlds_count: 21
+  native_voice_for: []
+  rank: 23
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - jes
+  subquestion_macros:
+  - GOSP
+  - C_MISSION
+  later_groups:
+  - CATH
+  - JESM
+- id: r64
+  work: Commentarii in quattuor Evangelistas (1596-97)
+  author: Juan de Maldonado, S.J.
+  era: '7'
+  ed: 'Latin: Raich ed., Mainz 1874 (PD). English: George J. Davie, Matthew 1 to 14, London 1888, 2 vols (PD, unverified).'
+  host: archive.org (unverified)
+  lic: Public domain
+  use: Gospels, verse by verse, with Protestant arguments answered.
+  cav: Davie covers Matthew 1 to 14 only (unverified).
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C3.S1
+  - C3.S2
+  - C3.S4
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  - C14.S8
+  cells_by_world:
+    jes: 38
+  priority: 38
+  built_world_cells: 0
+  later_worlds_count: 19
+  native_voice_for:
+  - jes
+  rank: 24
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - jes
+  subquestion_macros:
+  - GOSP
+  - SOM
+  later_groups:
+  - CATH
+- id: r66
+  work: Adnotationes et Meditationes in Evangelia (1595); Evangelicae Historiae Imagines (1593)
+  author: Jeronimo Nadal, S.J.
+  era: '7'
+  ed: Latin 1595 vendored (nadal_adnotationes-et-meditationes-in-evangelia-lat_1595.txt)
+  host: vendored
+  lic: Public domain
+  use: Gospel for the Sundays with annotation and meditation, the Jesuit prayer method.
+  cav: Latin only. Already on the shelf.
+  conf: repo
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C3.S1
+  - C3.S2
+  - C3.S4
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S5
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  cells_by_world:
+    jes: 38
+  priority: 38
+  built_world_cells: 0
+  later_worlds_count: 19
+  native_voice_for:
+  - jes
+  rank: 25
+  vendored: 'yes'
+  vendored_note: Vendored and mapped to the-society-of-jesus. Not cited by any record. The Imagines (engraved Gospel plates) are not vendored; Aleni used them in China.
+  worlds:
+  - jes
+  subquestion_macros:
+  - GOSP
+  - SACRAMENTS
+  later_groups:
+  - CATH
+- id: r26
+  work: A Commentary on Galatians (1604 English), Exposition of the Creed (in Golden Chaine, 1590s), Sermon on the Mount (1608)
+  author: William Perkins
+  era: '7'
+  ed: 'Works, 3 vols 1608-31 (PD). Golden Chaine and Exposition of the Symbole vendored (perkins_golden-chaine-and-treatises_legat1600.txt). Sheppard ed. Galatians 1989: in copyright.'
+  host: Golden Chaine vendored; Works on EEBO-TCP and archive.org (unverified)
+  lic: Public domain originals
+  use: Galatians, Matthew 5 to 7, the Creed.
+  cav: Perkins is English Reformed, outside rzg's cities; he shaped Puritan and later Arminian debate.
+  conf: repo+knowledge
+  subquestions:
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C3.S1
+  - C3.S5
+  - C3.S6
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C5.S2
+  - C6.S3
+  - C7.S1
+  - C7.S3
+  - C8.S4
+  - C9.S4
+  - C10.S1
+  - C11.S1
+  - C14.S8
+  cells_by_world:
+    rzg: 12
+    meth: 23
+  priority: 35
+  built_world_cells: 12
+  later_worlds_count: 18
+  native_voice_for: []
+  rank: 26
+  vendored: partial
+  vendored_note: Golden Chaine with the Exposition of the Creed is vendored and mapped to puritanism and english reformation. No record cites it.
+  worlds:
+  - rzg
+  - meth
+  subquestion_macros:
+  - GAL
+  - SOM
+  - CREED
+  - DOCTRINE_GRACE
+  later_groups:
+  - REF
+  - ANG
+- id: r68
+  work: Commentarii in Genesim, Exodum, Danielem, Epistolam ad Romanos; Scholia (Mariana)
+  author: Benito Pereira; Francisco de Toledo; Francisco Ribera; Luis de Alcazar; Juan de Mariana (all S.J.)
+  era: '7'
+  ed: Latin 1580s to 1619 (PD, unverified editions)
+  host: archive.org, Bavarian State Library (unverified)
+  lic: Public domain
+  use: Ribera's futurist Revelation reading and Alcazar's preterist reading shaped the whole Catholic end-times debate.
+  cav: Exact titles unverified.
+  conf: unverified
+  subquestions:
+  - C1.S2
+  - C1.S4
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S7
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S6
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S6
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C9.S3
+  - C9.S6
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  cells_by_world:
+    jes: 32
+  priority: 32
+  built_world_cells: 0
+  later_worlds_count: 19
+  native_voice_for:
+  - jes
+  rank: 27
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - jes
+  subquestion_macros:
+  - GEN
+  - ROM
+  - DANREV
+  - JOHN
+  later_groups:
+  - CATH
+- id: r131
+  work: Commentarii in Epistolas Pauli (1512); Quincuplex Psalterium (1509)
+  author: Jacques Lefevre d'Etaples
+  era: '7'
+  ed: 'Latin, Paris 1512 (PD). English: none known.'
+  host: Gallica, e-rara (unverified)
+  lic: Public domain
+  use: Pauline commentary that spoke of justification by grace five years before the Theses.
+  cav: Latin only. Fits hus's closing years and witt's start.
+  conf: unverified
+  subquestions:
+  - C1.S3
+  - C1.S4
+  - C2.S2
+  - C2.S4
+  - C2.S6
+  - C3.S1
+  - C3.S3
+  - C3.S5
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C5.S2
+  - C5.S7
+  - C6.S3
+  - C7.S1
+  - C7.S3
+  - C7.S4
+  - C9.S3
+  - C10.S5
+  - C11.S1
+  - C11.S5
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world:
+    hus: 29
+    witt: 3
+  priority: 32
+  built_world_cells: 3
+  later_worlds_count: 34
+  native_voice_for: []
+  rank: 28
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - hus
+  - witt
+  subquestion_macros:
+  - ROM
+  - GAL
+  - PSALMS
+  - DOCTRINE_GRACE
+  later_groups:
+  - REF
+  - CATH
+- id: r77
+  work: Commentaries on the Psalms, Genesis and other books (Knigi tolkovanii); epistles and Book of Discourses
+  author: Archpriest Avvakum
+  era: '8'
+  ed: Subbotin, Materialy dlia istorii raskola vol 5, Moscow 1879 (vendored, Russian)
+  host: vendored
+  lic: Public domain
+  use: His readings of Psalms and Genesis in prison, in his own voice.
+  cav: Check the scope of 'commentaries' in the volume before quoting. Not cited by any record.
+  conf: repo
+  subquestions:
+  - C1.S3
+  - C1.S4
+  - C2.S2
+  - C2.S6
+  - C2.S7
+  - C3.S1
+  - C3.S5
+  - C4.S2
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S3
+  - C6.S4
+  - C7.S1
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C10.S5
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world:
+    obel: 31
+  priority: 31
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for:
+  - obel
+  rank: 29
+  vendored: 'yes'
+  vendored_note: avvakum_sochineniia-materialy-v5-rus_subbotin1879.txt; its header says it holds his dogmatic letters and his commentaries. Whether the Book of Interpretations is complete in this volume
+    has not been checked.
+  worlds:
+  - obel
+  subquestion_macros:
+  - PSALMS
+  - GEN
+  - HERM
+  - C_ORTH_TRADITION
+  later_groups:
+  - ORTH
+- id: r24
+  work: Commentaries on Isaiah, Romans, Hosea (Oecolampadius); Enarrationes in Evangelia, Romans, Psalms, Ephesians (Bucer)
+  author: Johannes Oecolampadius; Martin Bucer; Wolfgang Capito
+  era: '7'
+  ed: 'Latin 1520s to 1550s (PD). English: Backus ed. Bucer on the Gospels, Brill (in copyright).'
+  host: e-rara, Bavarian State Library (unverified)
+  lic: 'Latin public domain. English: rights block.'
+  use: Eucharist at John 6; Romans.
+  cav: Strasbourg and Basel, not Zurich or Geneva. Use as cross-city voices.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S4
+  - C2.S6
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C5.S7
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S5
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S3
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world:
+    rzg: 29
+  priority: 29
+  built_world_cells: 29
+  later_worlds_count: 15
+  native_voice_for:
+  - rzg
+  rank: 30
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - rzg
+  subquestion_macros:
+  - ROM
+  - GOSP
+  - PSALMS
+  - SACRAMENTS
+  later_groups:
+  - REF
+- id: r19
+  work: Annotationes in Novum Testamentum (1556, 1565, 1582, 1589, 1598); Tomson's English Geneva New Testament (1576) carrying Beza's notes
+  author: Theodore Beza
+  era: '7'
+  ed: 'Latin Annotationes maiores 1594. English: Laurence Tomson, 1576 on (PD).'
+  host: e-rara.ch, archive.org, EEBO (unverified item ids)
+  lic: Public domain
+  use: Verse by verse at Romans 8 to 11 (election), Ephesians 1, Hebrews. The line from Calvin to the Puritans.
+  cav: Beza's exegesis is the main source of strict predestinarian reading. Mark contested where used.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S4
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  cells_by_world:
+    rzg: 28
+  priority: 28
+  built_world_cells: 28
+  later_worlds_count: 18
+  native_voice_for:
+  - rzg
+  rank: 31
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - rzg
+  subquestion_macros:
+  - ROM
+  - GOSP
+  - EPH
+  - GAL
+  - HEB
+  - GENEPI
+  - ACTS
+  later_groups:
+  - REF
+  - ANG
+- id: r18
+  work: Commentaries on the Epistles (1537 on), Gospels (Matthew 1542, Luke, John, Mark), Daniel, Isaiah, Jeremiah; A Hundred Sermons upon the Apocalypse (1557)
+  author: Heinrich Bullinger
+  era: '7'
+  ed: 'Latin (Zurich). Apocalypse sermons English: John Daus, 1561 (PD). Other English: unverified.'
+  host: e-rara.ch and Bavarian State Library (Latin); EEBO (Apocalypse); unverified item ids
+  lic: Public domain
+  use: Revelation (a Reformed amillennial reading), Hebrews, the Epistles.
+  cav: Latin heavy. Apocalypse sermons are the one easy English win.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S4
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C5.S5
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S3
+  - C9.S4
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  cells_by_world:
+    rzg: 28
+  priority: 28
+  built_world_cells: 28
+  later_worlds_count: 15
+  native_voice_for:
+  - rzg
+  rank: 32
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - rzg
+  subquestion_macros:
+  - GOSP
+  - GENEPI
+  - HEB
+  - DANREV
+  - ROM
+  later_groups:
+  - REF
+- id: r30
+  work: Tyndale's prologues to the New Testament books and the Pentateuch; Prologue upon Romans
+  author: William Tyndale
+  era: '7'
+  ed: Parker Society Doctrinal Treatises, Walter ed. 1848, vendored
+  host: vendored
+  lic: Public domain
+  use: The Romans prologue is a close rendering of Luther's preface. Pentateuch prologues for law and gospel.
+  cav: Already on the shelf. Cheap to use.
+  conf: repo
+  subquestions:
+  - C2.S4
+  - C2.S7
+  - C3.S3
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S6
+  - C5.S8
+  - C7.S1
+  - C7.S6
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C9.S3
+  - C11.S1
+  - C11.S5
+  cells_by_world:
+    meth: 22
+    witt: 5
+  priority: 27
+  built_world_cells: 5
+  later_worlds_count: 18
+  native_voice_for: []
+  rank: 33
+  vendored: 'yes'
+  vendored_note: tyndale_doctrinal-treatises_walter1848.txt holds the Pathway into the Scripture, the Prologue upon Romans (about line 32320), the Prologue upon Matthew, and prologues to Genesis through
+    Deuteronomy and Jonah. Mapped to english-reformation. No record cites it.
+  worlds:
+  - meth
+  - witt
+  subquestion_macros:
+  - ROM
+  - GEN
+  - HERM
+  - CANON
+  later_groups:
+  - ANG
+  - REF
+- id: r91
+  work: Paraphrase and Notes on the Epistles of St Paul (1705-07); The Reasonableness of Christianity (1695)
+  author: John Locke
+  era: '8'
+  ed: Works, 1823 and earlier (PD)
+  host: archive.org, Online Library of Liberty (unverified)
+  lic: Public domain
+  use: A rationalist paraphrase of Paul, a point of contrast for Wesley.
+  cav: Unverified how much of the Paraphrase is online.
+  conf: knowledge
+  subquestions:
+  - C1.S4
+  - C1.S5
+  - C2.S1
+  - C2.S4
+  - C3.S3
+  - C3.S5
+  - C3.S6
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C5.S2
+  - C5.S3
+  - C6.S3
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C8.S2
+  - C8.S4
+  - C8.S5
+  - C9.S3
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S3
+  - C14.S5
+  cells_by_world:
+    meth: 27
+  priority: 27
+  built_world_cells: 0
+  later_worlds_count: 13
+  native_voice_for: []
+  rank: 34
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - meth
+  subquestion_macros:
+  - ROM
+  - GAL
+  - COR1
+  - CRIT_APOL
+  later_groups:
+  - ENLIGHT
+  - ANG
+- id: r67
+  work: Explanatio in Psalmos (1611); Controversiae (1586-93); Catechism (Dottrina Cristiana breve)
+  author: Robert Bellarmine, S.J.
+  era: '7'
+  ed: 'Latin Opera Omnia, Vives 1870s (PD). English Psalm commentary: unverified. Notes of the Church and spiritual works are vendored.'
+  host: archive.org (unverified)
+  lic: Public domain
+  use: Psalms, and the answer to Protestants on justification and the Church.
+  cav: English for the Psalms is unverified.
+  conf: repo+knowledge
+  subquestions:
+  - C1.S3
+  - C1.S4
+  - C2.S2
+  - C2.S6
+  - C3.S1
+  - C3.S5
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C5.S2
+  - C5.S7
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S5
+  - C10.S5
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world:
+    jes: 26
+  priority: 26
+  built_world_cells: 0
+  later_worlds_count: 19
+  native_voice_for:
+  - jes
+  rank: 35
+  vendored: partial
+  vendored_note: Spiritual works and Notes of the Church are vendored. No Scripture commentary is.
+  worlds:
+  - jes
+  subquestion_macros:
+  - PSALMS
+  - DOCTRINE_GRACE
+  - SACRAMENTS
+  later_groups:
+  - CATH
+- id: r06
+  work: Luther's German New Testament (September Testament, 1522) with prefaces and marginal glosses; German Bible 1534
+  author: Martin Luther
+  era: '7'
+  ed: 'Facsimiles of 1522 and 1534 originals. English of the prefaces: Philadelphia Edition vol 6 (1932, not public domain until 2028 on the project rule). Tyndale''s Prologue upon Romans (a close rendering
+    of Luther''s preface) is already vendored.'
+  host: Bavarian State Library digital copies and archive.org (unverified); Wikimedia Commons has scans (unverified)
+  lic: '1522 and 1534 originals: public domain. Philadelphia vol 6 English: not yet public domain.'
+  use: The Preface to Romans (the text read aloud at Aldersgate, 1738), Hebrews, James and Revelation prefaces, and the glosses on hard verses.
+  cav: Already named in witt.source.luther-das-newe-testament-deutzsch as NOT VENDORED. The Aldersgate link is meth's doorway scene.
+  conf: repo+knowledge
+  subquestions:
+  - C2.S4
+  - C3.S3
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S6
+  - C5.S8
+  - C6.S3
+  - C7.S1
+  - C9.S3
+  - C11.S1
+  - C11.S5
+  cells_by_world:
+    witt: 2
+    meth: 17
+  priority: 19
+  built_world_cells: 2
+  later_worlds_count: 23
+  native_voice_for:
+  - witt
+  rank: 36
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - witt
+  - meth
+  subquestion_macros:
+  - ROM
+  - GAL
+  - HERM
+  - CANON
+  later_groups:
+  - LUTH
+  - REF
+- id: r46
+  work: 'Sermons on Several Occasions: the remaining 28 of the 44 Standard Sermons, including the 13 discourses on the Sermon on the Mount'
+  author: John Wesley
+  era: '8'
+  ed: 'Project Gutenberg 32-volume Works of Wesley (vol 1 vendored as eBook #59743). Jackson ed. 1872 also available.'
+  host: Project Gutenberg, CCEL, Wesley Center Online
+  lic: Public domain
+  use: Matthew 5 to 7 (13 sermons), Romans 8 (witness of the Spirit), Ephesians 2:8 (Salvation by Faith), 1 John.
+  cav: Already a recorded gap (meth Source_Acquisition_Manifest G2). A sermon series on a biblical passage.
+  conf: repo+knowledge
+  subquestions:
+  - C2.S4
+  - C3.S3
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C5.S2
+  - C6.S3
+  - C7.S1
+  - C7.S3
+  - C8.S4
+  - C9.S3
+  - C9.S4
+  - C10.S1
+  - C11.S1
+  - C11.S5
+  - C14.S8
+  cells_by_world:
+    meth: 18
+  priority: 18
+  built_world_cells: 0
+  later_worlds_count: 9
+  native_voice_for:
+  - meth
+  rank: 37
+  vendored: partial
+  vendored_note: Vol 1 (Sermons I, II, IV to XVI) is vendored. Vols 2 onward queued as gap G2 in meth/Source_Acquisition_Manifest.md and not vendored.
+  worlds:
+  - meth
+  subquestion_macros:
+  - SOM
+  - DOCTRINE_GRACE
+  - ROM
+  - GAL
+  later_groups:
+  - METHG
+- id: r55
+  work: Selected Sermons (vendored); History of the Work of Redemption (30 sermons, 1739); Charity and Its Fruits (on 1 Corinthians 13); Notes on Scripture; Notes on the Apocalypse
+  author: Jonathan Edwards
+  era: '8'
+  ed: Hickman ed. 1834 (PD); Dwight ed. 1829-30 (vol 1 vendored). The Yale Works of Jonathan Edwards (Yale 1957 on) is in copyright, though Yale posts texts online for reading.
+  host: CCEL (unverified); archive.org (Hickman, unverified); Yale Edwards Online is free to read but is not an open licence
+  lic: 'Hickman and Dwight: public domain. Yale: rights block redistribution.'
+  use: A sermon series on redemption history; 1 Corinthians 13 (love); Revelation.
+  cav: Evangelical Awakening in New England is a separate world. For meth he is a contemporary and correspondent of Whitefield.
+  conf: repo+knowledge
+  subquestions:
+  - C3.S1
+  - C3.S2
+  - C3.S6
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C5.S5
+  - C7.S3
+  - C9.S6
+  - C10.S4
+  - C13.S1
+  - C14.S2
+  - C14.S3
+  - C14.S5
+  cells_by_world:
+    meth: 17
+  priority: 17
+  built_world_cells: 0
+  later_worlds_count: 22
+  native_voice_for: []
+  rank: 38
+  vendored: partial
+  vendored_note: Selected Sermons (Gardiner 1904) and Dwight vol 1 are vendored. No commentary or sermon-series work is.
+  worlds:
+  - meth
+  subquestion_macros:
+  - DANREV
+  - DOCTRINE_GRACE
+  - COR1_LOVE
+  - PSALMS_LIGHT
+  later_groups:
+  - REF
+  - METHG
+- id: r22
+  work: Common Places (1583, English by Anthony Marten); Commentary on Romans (Latin 1558, English 1568 by H.B., unverified); Commentaries on Judges, Samuel, Kings, Genesis, Lamentations, 1 Corinthians
+  author: Peter Martyr Vermigli
+  era: '7'
+  ed: Latin (Basel and Zurich 1550s-1560s). English 16th century printings. The Peter Martyr Library (Truman State) is in copyright.
+  host: EEBO-TCP, archive.org, e-rara (unverified)
+  lic: 'Public domain originals. Truman State translations: rights block.'
+  use: Romans 9, Eucharist, predestination, ministry. Judges and Kings for kingship and war.
+  cav: Fills rzg gaps on purgatory (the Common Places has a place on it) and justification.
+  conf: knowledge
+  subquestions:
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S7
+  - C3.S1
+  - C3.S3
+  - C3.S5
+  - C3.S6
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S5
+  - C7.S6
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C9.S3
+  - C10.S5
+  - C11.S1
+  - C11.S5
+  cells_by_world:
+    rzg: 16
+  priority: 16
+  built_world_cells: 16
+  later_worlds_count: 18
+  native_voice_for:
+  - rzg
+  rank: 39
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - rzg
+  subquestion_macros:
+  - ROM
+  - DOCTRINE_GRACE
+  - SACRAMENTS
+  - CREED
+  - GEN
+  - PENT_LIGHT
+  later_groups:
+  - REF
+  - ANG
+- id: r17
+  work: 'The Decades (Sermonum Decades quinque, 1549-52): fifty sermons on doctrine, text by text'
+  author: Heinrich Bullinger
+  era: '7'
+  ed: 'English: Parker Society, Thomas Harding ed., 4 vols, Cambridge 1849-52 (PD). Latin 1552.'
+  host: archive.org (confident Parker Society volumes exist there); CCEL (unverified)
+  lic: Public domain
+  use: Preaching on the Creed, Ten Commandments, sacraments and Christian life. England made it required clergy reading in 1586 (unverified date).
+  cav: Fills rzg gaps on justification, the Trinity and the Spirit in Bullinger's own voice, in the city after Zwingli.
+  conf: knowledge
+  subquestions:
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S8
+  - C3.S1
+  - C3.S3
+  - C3.S5
+  - C3.S6
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C5.S2
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S4
+  - C7.S5
+  - C7.S6
+  - C8.S4
+  - C9.S3
+  - C9.S4
+  - C10.S2
+  - C11.S1
+  - C11.S5
+  cells_by_world:
+    rzg: 15
+  priority: 15
+  built_world_cells: 15
+  later_worlds_count: 18
+  native_voice_for:
+  - rzg
+  rank: 40
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - rzg
+  subquestion_macros:
+  - DOCTRINE_GRACE
+  - CREED
+  - DECALOGUE
+  - SACRAMENTS
+  - ROM
+  later_groups:
+  - REF
+  - ANG
+- id: r15
+  work: Sermons on Job, Deuteronomy, Galatians, Ephesians, 1-2 Timothy and Titus, Isaiah 53, 1-2 Samuel, Acts, Genesis
+  author: John Calvin
+  era: '7'
+  ed: English by Arthur Golding (Job 1574, Deuteronomy 1583, Galatians, others) and 'L.T.' (Ephesians 1577, Timothy and Titus 1579), unverified attributions. French and Latin originals in Calvini Opera
+    and Supplementa Calviniana (the Supplementa critical edition is in copyright).
+  host: archive.org and EEBO (unverified item ids); EEBO-TCP transcriptions are CC0 where they exist (unverified for these titles)
+  lic: '16th century English and the Opera Omnia text: public domain. Modern critical editions and Banner of Truth reprints: edition rights block copying.'
+  use: Job (suffering), Galatians, Ephesians, Timothy and Titus, Isaiah 53. Calvin preaching, as against Calvin writing.
+  cav: Pastors will meet Calvin's voice here, not his commentary voice. Golding's English is dense.
+  conf: knowledge
+  subquestions:
+  - C1.S3
+  - C1.S4
+  - C2.S2
+  - C2.S4
+  - C2.S7
+  - C3.S6
+  - C3.S8
+  - C4.S1
+  - C4.S3
+  - C5.S2
+  - C5.S7
+  - C6.S1
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S6
+  - C8.S2
+  - C8.S3
+  - C8.S7
+  - C10.S1
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C13.S1
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  cells_by_world:
+    rzg: 15
+  priority: 15
+  built_world_cells: 15
+  later_worlds_count: 15
+  native_voice_for:
+  - rzg
+  rank: 41
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - rzg
+  subquestion_macros:
+  - JOB
+  - GAL
+  - EPH
+  - PAST
+  - ISA
+  - PENT_LIGHT
+  later_groups:
+  - REF
+- id: r16
+  work: 'Zwingli''s exegetical writings: Annotations on Genesis and Exodus, Commentary on Isaiah (with Leo Jud), Exposition of the Articles, Commentary on True and False Religion'
+  author: Huldrych Zwingli
+  era: '7'
+  ed: 'Opera completa, Schuler and Schulthess, Zurich 1828-42 (PD). Corpus Reformatorum vols 88 onward. English: Jackson and Heller Latin Works, vols 1 (1912, vendored) and 3 (1929, vendored); Selected
+    Works (Jackson 1901, vendored).'
+  host: archive.org and e-rara.ch (unverified item ids)
+  lic: Public domain
+  use: Matthew (the 1519 series he began), Isaiah, the Lord's Supper texts, baptism.
+  cav: Zwingli's 1519 continuous sermons on Matthew do not survive as a text. Do not claim a Matthew commentary.
+  conf: repo+knowledge
+  subquestions:
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S7
+  - C3.S1
+  - C3.S5
+  - C3.S6
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C7.S1
+  - C7.S6
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C10.S4
+  cells_by_world:
+    rzg: 15
+  priority: 15
+  built_world_cells: 15
+  later_worlds_count: 15
+  native_voice_for:
+  - rzg
+  rank: 42
+  vendored: partial
+  vendored_note: Commentary on True and False Religion is vendored (vol 3) and cited by rzg. Annotations on Genesis, Exodus and Isaiah and Latin Works vol 2 are not vendored (contents of vol 2 unverified).
+  worlds:
+  - rzg
+  subquestion_macros:
+  - GEN
+  - ISA
+  - DOCTRINE_GRACE
+  - CREED
+  later_groups:
+  - REF
+- id: r01
+  work: Lectures on Galatians (1531, printed 1535) and Lectures on Romans (1515-16)
+  author: Martin Luther
+  era: '7'
+  ed: Latin 1535 (Galatians); Ficker ed. of the Romans lectures, Leipzig 1908 (Latin, PD); Galatians English 1575 anon., revised Erasmus Middleton 1810 (PD). Modern English (Watson 1953, Preus 1972, Luther's
+    Works American Edition) is in copyright.
+  host: archive.org (Latin, German, old English; unverified which scans); CCEL has an older English Galatians (unverified which edition); Weimar Ausgabe vols 40 and 56 on archive.org (unverified)
+  lic: 'Latin and the 1575/1810 English: public domain. Modern English translations: in copyright, rights block use.'
+  use: Galatians 2 to 5 (justification, law and gospel, freedom, the Spirit). Romans 1 to 8. Best for preaching grace without works.
+  cav: Do not copy the modern English volumes. Use Latin or the 1810 English only.
+  conf: knowledge
+  subquestions:
+  - C2.S4
+  - C3.S3
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C5.S2
+  - C6.S3
+  - C7.S1
+  - C9.S3
+  - C11.S1
+  - C11.S5
+  cells_by_world:
+    witt: 1
+    meth: 13
+  priority: 14
+  built_world_cells: 1
+  later_worlds_count: 8
+  native_voice_for:
+  - witt
+  rank: 43
+  vendored: partial
+  vendored_note: Not vendored as a commentary. Luther's works v1 to v3 (Jacobs, Philadelphia Edition) hold treatises, not these lectures. Wesley's Journal v2 (vendored) records Wesley reading Luther on
+    Galatians in June 1741.
+  worlds:
+  - witt
+  - meth
+  subquestion_macros:
+  - GAL
+  - ROM
+  - DOCTRINE_GRACE
+  later_groups:
+  - LUTH
+- id: r13
+  work: Commentaries on the Psalms, Isaiah, Jeremiah and Lamentations, Ezekiel (to ch. 20), Daniel, the twelve Minor Prophets
+  author: John Calvin
+  era: '7'
+  ed: 'Calvin Translation Society 1843-55: Psalms (Anderson, 5 vols), Isaiah (Pringle, 4 vols), Jeremiah (Owen, 5 vols), Ezekiel (Myers, 2 vols), Daniel (Myers, 2 vols), Minor Prophets (Owen, 5 vols)'
+  host: CCEL (confident)
+  lic: Public domain
+  use: Psalms (all cells for lament, trust, imprecation), Isaiah 53, Daniel, Hosea, Jonah.
+  cav: Ezekiel after chapter 20 was never completed by Calvin.
+  conf: knowledge
+  subquestions:
+  - C1.S3
+  - C1.S4
+  - C2.S2
+  - C2.S6
+  - C3.S1
+  - C3.S2
+  - C3.S5
+  - C3.S6
+  - C3.S8
+  - C5.S2
+  - C5.S5
+  - C5.S7
+  - C7.S3
+  - C7.S4
+  - C9.S6
+  - C10.S4
+  - C10.S5
+  - C13.S1
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world:
+    rzg: 13
+  priority: 13
+  built_world_cells: 13
+  later_worlds_count: 15
+  native_voice_for:
+  - rzg
+  rank: 44
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - rzg
+  subquestion_macros:
+  - PSALMS
+  - ISA
+  - DANREV
+  - JOB_LIGHT
+  later_groups:
+  - REF
+- id: r23
+  work: Common Places (English 1563, John Man); Commentaries on the Psalms (1550), Genesis, Isaiah, Matthew, John, Romans, 1-2 Corinthians
+  author: Wolfgang Musculus
+  era: '7'
+  ed: Latin, Basel 1550s. English Common Places 1563 (PD).
+  host: e-rara, archive.org (unverified)
+  lic: Public domain
+  use: Psalms and Romans. A moderate Reformed voice.
+  cav: Latin heavy.
+  conf: knowledge
+  subquestions:
+  - C1.S3
+  - C1.S4
+  - C2.S2
+  - C2.S4
+  - C2.S6
+  - C3.S1
+  - C3.S3
+  - C3.S5
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C5.S2
+  - C5.S7
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S5
+  - C9.S3
+  - C10.S5
+  - C11.S1
+  - C11.S5
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world:
+    rzg: 13
+  priority: 13
+  built_world_cells: 13
+  later_worlds_count: 15
+  native_voice_for:
+  - rzg
+  rank: 45
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - rzg
+  subquestion_macros:
+  - PSALMS
+  - ROM
+  - DOCTRINE_GRACE
+  - SACRAMENTS
+  later_groups:
+  - REF
+- id: r53
+  work: Checks to Antinomianism (1771-75); Works
+  author: John Fletcher of Madeley
+  era: '8'
+  ed: Works, 4 vols, London 1877 (PD)
+  host: archive.org (unverified)
+  lic: Public domain
+  use: Romans and James on faith and works.
+  cav: Not a commentary; a controversy built on exposition.
+  conf: knowledge
+  subquestions:
+  - C2.S4
+  - C3.S3
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C5.S2
+  - C6.S3
+  - C7.S1
+  - C9.S3
+  - C11.S1
+  - C11.S5
+  cells_by_world:
+    meth: 13
+  priority: 13
+  built_world_cells: 0
+  later_worlds_count: 9
+  native_voice_for:
+  - meth
+  rank: 46
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - meth
+  subquestion_macros:
+  - DOCTRINE_GRACE
+  - ROM
+  - GAL
+  later_groups:
+  - METHG
+- id: r32
+  work: 'Two Books of Homilies (1547, 1563): homilies on Scripture reading, salvation, faith, good works, fasting, Rogation'
+  author: Church of England (Cranmer, Becon, Jewel, Bonner and others)
+  era: '7'
+  ed: Griffiths ed. 1859, vendored
+  host: vendored
+  lic: Public domain
+  use: The Homilies on Salvation, Faith and Good Works are the texts Wesley cited as Anglican doctrine of justification.
+  cav: Wesley named the Homilies in his own defence. Cross-check against Wesley's text.
+  conf: repo+knowledge
+  subquestions:
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C5.S1
+  - C5.S6
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S5
+  cells_by_world:
+    meth: 11
+  priority: 11
+  built_world_cells: 0
+  later_worlds_count: 18
+  native_voice_for: []
+  rank: 47
+  vendored: 'yes'
+  vendored_note: church-of-england_two-books-of-homilies_griffiths1859.txt, mapped to english-reformation and puritanism. No record cites it.
+  worlds:
+  - meth
+  subquestion_macros:
+  - DOCTRINE_GRACE
+  - CANON
+  - SACRAMENTS
+  later_groups:
+  - ANG
+  - REF
+- id: r56
+  work: Sermons (the 1771 Works, vols 4 to 6) and Sermons on Various Subjects
+  author: George Whitefield
+  era: '8'
+  ed: Vol 6 (Sermons) vendored; vols 1 (Letters) vendored; vols 2, 3, 4, 5 not.
+  host: archive.org (unverified)
+  lic: Public domain
+  use: 'Open-air sermons on single verses: new birth (John 3), Romans 3, Acts 2.'
+  cav: meth registry row 13 keeps Whitefield 'Pending'.
+  conf: repo
+  subquestions:
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C7.S3
+  - C8.S4
+  - C9.S4
+  - C10.S1
+  - C14.S8
+  cells_by_world:
+    meth: 10
+  priority: 10
+  built_world_cells: 0
+  later_worlds_count: 22
+  native_voice_for:
+  - meth
+  rank: 48
+  vendored: partial
+  vendored_note: whitefield_works-v6-sermons_1771.txt and v1 letters vendored. No record cites them.
+  worlds:
+  - meth
+  subquestion_macros:
+  - SOM
+  - DOCTRINE_GRACE
+  later_groups:
+  - REF
+  - METHG
+- id: r08
+  work: Commentaries on John, Luke, Acts, Job, Amos, Ecclesiastes and Epistles; Opera (8 vols)
+  author: Johannes Brenz
+  era: '7'
+  ed: 'Latin Opera, Tuebingen 1576-90 (PD). Exact list of commentaries: unverified.'
+  host: Bavarian State Library and archive.org (unverified)
+  lic: Public domain
+  use: John, Luke, Acts and Job. Lutheran Gospel preaching from the south-German wing.
+  cav: Latin only. No known PD English.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S7
+  - C3.S1
+  - C3.S2
+  - C3.S4
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S3
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S1
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  cells_by_world:
+    witt: 9
+  priority: 9
+  built_world_cells: 9
+  later_worlds_count: 8
+  native_voice_for:
+  - witt
+  rank: 49
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - witt
+  subquestion_macros:
+  - JOHN
+  - GOSP
+  - JOB
+  - ACTS
+  later_groups:
+  - LUTH
+- id: r02
+  work: Church Postil and House Postils (sermons on the Sunday Gospels and Epistles)
+  author: Martin Luther
+  era: '7'
+  ed: 'English: John Nicholas Lenker and others, ''Sermons of Martin Luther'', 8 vols, Minneapolis 1905-09 (PD). German: Kirchenpostille 1522, Hauspostille 1544 (PD). The 1996 House Postils (Baker, Klug)
+    is in copyright.'
+  host: archive.org (Lenker, unverified item ids); Lutheran Library republishes some (unverified)
+  lic: 'Lenker 1905-09 and the German: public domain. Baker 1996: rights block.'
+  use: 'The whole church year: Advent and Christmas Gospels, Lent, Easter, Pentecost, and the Epistle readings. A pastor can preach straight from it.'
+  cav: Lenker's translation is free but old English. Check wording against the German before any quote.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S4
+  - C3.S1
+  - C3.S2
+  - C3.S4
+  - C3.S5
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S1
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  - C14.S8
+  cells_by_world:
+    witt: 8
+  priority: 8
+  built_world_cells: 8
+  later_worlds_count: 8
+  native_voice_for:
+  - witt
+  rank: 50
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - witt
+  subquestion_macros:
+  - GOSP
+  - ACTS
+  - GENEPI
+  - PAST
+  - SOM
+  later_groups:
+  - LUTH
+- id: r10
+  work: Loci Theologici (1591), Harmonia Evangelica (with Leyser and Gerhard, 1593-1626), Examen Concilii Tridentini (1565-73)
+  author: Martin Chemnitz
+  era: '7'
+  ed: 'Latin (PD). English: Preus 1989 Loci and Kramer 1971-86 Examen (in copyright).'
+  host: Bavarian State Library and archive.org (unverified)
+  lic: 'Latin: public domain. English: rights block.'
+  use: The Gospel harmony gives the life of Christ in order. The Loci give doctrine by topic.
+  cav: Chemnitz's own work falls partly after witt's 1580 window. Examen is a Trent reply, not a commentary.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C3.S1
+  - C3.S2
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  cells_by_world:
+    witt: 8
+  priority: 8
+  built_world_cells: 8
+  later_worlds_count: 8
+  native_voice_for:
+  - witt
+  rank: 51
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - witt
+  subquestion_macros:
+  - GOSP
+  - DOCTRINE_GRACE
+  - CREED
+  later_groups:
+  - LUTH
+- id: r78
+  work: Pomorskie otvety (1723); Sochineniia of Deacon Fyodor; Khristianoopasnyi shchit very
+  author: Andrei Denisov; Deacon Fyodor Ivanov; Avraamii
+  era: '8'
+  ed: All three vendored (Russian)
+  host: vendored
+  lic: Public domain
+  use: Old Believer proof-text exegesis for the sign of the cross, the name of Jesus, the Creed.
+  cav: Not Bible commentary in the strict sense. Fyodor wrote on the Creed and the Apocalypse (unverified).
+  conf: repo+knowledge
+  subquestions:
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S6
+  - C5.S8
+  - C6.S3
+  - C6.S4
+  - C7.S4
+  cells_by_world:
+    obel: 8
+  priority: 8
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for:
+  - obel
+  rank: 52
+  vendored: 'yes'
+  vendored_note: Pomorskie otvety is a series of scriptural answers; Materialy vol 6 (Fedor) and vol 7 (Avraamii) are vendored. Not cited by any record.
+  worlds:
+  - obel
+  subquestion_macros:
+  - HERM
+  - CANON
+  - C_ORTH_TRADITION
+  later_groups:
+  - ORTH
+- id: r79
+  work: Works (Tvoreniia), including sermons on Gospel and Epistle texts; Rozysk
+  author: St Dimitrii of Rostov
+  era: '8'
+  ed: Sytin ed. 1889 (Russian) vendored
+  host: vendored
+  lic: Public domain
+  use: Orthodox sermons; his Rozysk argued against the Old Believers.
+  cav: Serves obel as the opponent voice.
+  conf: repo
+  subquestions:
+  - C1.S1
+  - C1.S3
+  - C1.S4
+  - C6.S3
+  - C6.S4
+  - C7.S3
+  - C7.S4
+  - C14.S1
+  cells_by_world:
+    obel: 8
+  priority: 8
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for:
+  - obel
+  rank: 53
+  vendored: 'yes'
+  vendored_note: dimitrii-rostovskii_tvoreniia-rus_sytin1889.txt, mapped to russian-church-nikon-to-holy-synod and kyiv-mohyla. No record cites it.
+  worlds:
+  - obel
+  subquestion_macros:
+  - GOSP_LIGHT
+  - C_ORTH_TRADITION
+  later_groups:
+  - ORTH
+- id: r80
+  work: Slova i rechi (Sermons and speeches, 1760 ed.)
+  author: Feofan Prokopovich
+  era: '8'
+  ed: Kadetskii korpus 1760 (Russian) vendored
+  host: vendored
+  lic: Public domain
+  use: State church sermons.
+  cav: Not Bible commentary.
+  conf: repo
+  subquestions:
+  - C1.S1
+  - C1.S3
+  - C1.S4
+  - C6.S3
+  - C6.S4
+  - C7.S3
+  - C7.S4
+  - C14.S1
+  cells_by_world:
+    obel: 8
+  priority: 8
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for:
+  - obel
+  rank: 54
+  vendored: 'yes'
+  vendored_note: Vendored, mapped to russian-church-nikon-to-holy-synod. Not cited by any record.
+  worlds:
+  - obel
+  subquestion_macros:
+  - C_ORTH_TRADITION
+  - GOSP_LIGHT
+  later_groups:
+  - ORTH
+- id: r14
+  work: Commentary on Genesis, Harmony of the Last Four Books of Moses, Commentary on Joshua
+  author: John Calvin
+  era: '7'
+  ed: 'Genesis: King 1847, 2 vols, vendored. Harmony of the Law (Exodus to Deuteronomy): Bingham, 4 vols 1852-55 (CTS). Joshua: Beveridge 1854 (CTS).'
+  host: CCEL (confident for the set); Genesis vendored here
+  lic: Public domain
+  use: Genesis 1 to 3, 12 to 22, Exodus 20 (Ten Commandments), Deuteronomy. Usury at Exodus 22:25 and Deuteronomy 23:19 is in the Harmony.
+  cav: Genesis is on the shelf but unused. The Harmony closes rzg's usury gap (C10.S5).
+  conf: repo+knowledge
+  subquestions:
+  - C2.S7
+  - C2.S8
+  - C4.S2
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C7.S1
+  - C7.S6
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C9.S5
+  - C10.S2
+  - C10.S4
+  - C10.S5
+  - C13.S6
+  cells_by_world:
+    rzg: 7
+  priority: 7
+  built_world_cells: 7
+  later_worlds_count: 15
+  native_voice_for:
+  - rzg
+  rank: 55
+  vendored: partial
+  vendored_note: Genesis vols 1 and 2 vendored (calvin_commentaries-genesis-vol1_king1847.txt, vol2). Mapped to rzg corpus-map. No record cites it. The Pentateuch harmony and Joshua are not vendored.
+  worlds:
+  - rzg
+  subquestion_macros:
+  - GEN
+  - PENT
+  - DAN_NONE
+  later_groups:
+  - REF
+- id: r83
+  work: Commentaries on Biblical texts; translation of the Psalter; Works (Sochineniia, 3 parts)
+  author: Maxim the Greek
+  era: '7'
+  ed: Kazan 1860 ch 2 (Church Slavonic) and Troitse-Sergieva Lavra 1910 ch 1 (Russian) vendored. Parts 2 and 3 (1910-11) queued.
+  host: vendored; parts 2 and 3 queued
+  lic: Public domain
+  use: The 16th-century Greek scholar's correction of Russian books, whose reading of the psalter anticipated the Nikon dispute.
+  cav: Era 7 so mostly before obel's 1666 window.
+  conf: repo+knowledge
+  subquestions:
+  - C6.S3
+  - C6.S4
+  - C7.S3
+  - C7.S4
+  - C14.S2
+  - C14.S3
+  cells_by_world:
+    obel: 6
+  priority: 6
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for:
+  - obel
+  rank: 56
+  vendored: partial
+  vendored_note: Two parts are vendored; whether they include exegesis has not been checked. Parts 2 and 3 are queued in download-queue-seed.yaml.
+  worlds:
+  - obel
+  subquestion_macros:
+  - PSALMS_LIGHT
+  - C_ORTH_TRADITION
+  later_groups:
+  - ORTH
+- id: r20
+  work: Job Expounded (1589, English by Arthur Golding); Ecclesiastes (1588); Sermons upon the Song of Songs (English 1587, translator unverified); Sermons on the Passion
+  author: Theodore Beza
+  era: '7'
+  ed: 'Job: Legatt 1589, vendored (beza_job-expounded_legatt1589.txt). Others: English 16th century printings, unverified.'
+  host: Job vendored; others via EEBO or archive.org (unverified)
+  lic: Public domain
+  use: Job (suffering), Song of Songs (marriage), Ecclesiastes (vanity).
+  cav: Job is already vendored. Quote work would unlock rzg suffering cells (C14.S1).
+  conf: repo+knowledge
+  subquestions:
+  - C2.S2
+  - C2.S7
+  - C3.S6
+  - C8.S4
+  - C8.S5
+  - C13.S1
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  cells_by_world:
+    rzg: 5
+  priority: 5
+  built_world_cells: 5
+  later_worlds_count: 15
+  native_voice_for:
+  - rzg
+  rank: 57
+  vendored: partial
+  vendored_note: Job vendored; rzg.source.beza-job-expounded cites it as a source record. No quote record yet. Ecclesiastes, Song of Songs and Passion sermons not vendored.
+  worlds:
+  - rzg
+  subquestion_macros:
+  - JOB
+  - GEN_NONE
+  - SONG
+  later_groups:
+  - REF
+  - REF2
+- id: r03
+  work: Lectures on Genesis (Enarrationes in Genesin, 1535-45)
+  author: Martin Luther
+  era: '7'
+  ed: 'Latin Opera Latina, Erlangen 1829 onward; German Auslegung (Walch ed. 1740s, St Louis Walch 1880s). English in Luther''s Works vols 1 to 8 (Concordia 1958 on): in copyright.'
+  host: archive.org (Latin and German; unverified item ids)
+  lic: 'Latin and German: public domain. English: in copyright, rights block use.'
+  use: Genesis 1 to 3, 12 to 22 (Abraham and faith), 37 to 50 (Joseph). Creation, the Fall, marriage, and faith under trial.
+  cav: A pastor wanting English must buy the American Edition. The free text is Latin or German only.
+  conf: knowledge
+  subquestions:
+  - C2.S7
+  - C4.S2
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S7
+  - C7.S1
+  - C7.S6
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C10.S5
+  cells_by_world:
+    witt: 5
+  priority: 5
+  built_world_cells: 5
+  later_worlds_count: 8
+  native_voice_for:
+  - witt
+  rank: 58
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - witt
+  subquestion_macros:
+  - GEN
+  - PENT_LIGHT
+  later_groups:
+  - LUTH
+- id: r57
+  work: Christus Sacrae Scripturae Nucleus (1732 English); Guide to the Reading and Study of the Holy Scriptures (1693, English 1813)
+  author: August Hermann Francke
+  era: '8'
+  ed: 'Christ the Sum of Scripture vendored (1732). Guide: English 1813 (PD, unverified publisher).'
+  host: Christ the Sum vendored; Guide on archive.org (unverified)
+  lic: Public domain
+  use: How to read the Bible devotionally, which fed Moravian and Methodist practice.
+  cav: Pietist source for Wesley's habit of Bible reading.
+  conf: repo+knowledge
+  subquestions:
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S6
+  - C5.S8
+  cells_by_world:
+    meth: 5
+  priority: 5
+  built_world_cells: 0
+  later_worlds_count: 8
+  native_voice_for: []
+  rank: 59
+  vendored: partial
+  vendored_note: Christ the Sum and Substance of Scripture is vendored and mapped to german-pietism. Not cited by any record.
+  worlds:
+  - meth
+  subquestion_macros:
+  - HERM
+  - CANON
+  later_groups:
+  - LUTH
+- id: r76
+  work: Biblia Sacra with Pagnini's translation and Servetus's notes (Lyon 1542); Christianismi Restitutio (1553)
+  author: Michael Servetus
+  era: '7'
+  ed: Restitutio (Murr ed. 1790) and De Trinitatis erroribus (1531) vendored.
+  host: vendored; Pagnini Bible unverified
+  lic: Public domain
+  use: Isaiah 7, John 1, Psalm 2 as read against the Trinity.
+  cav: rzg lacks any Servetus record; vendored Calvin Opera vol 8 holds the trial.
+  conf: repo+knowledge
+  subquestions:
+  - C1.S2
+  - C2.S3
+  - C2.S5
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S6
+  - C5.S8
+  cells_by_world:
+    rzg: 4
+  priority: 4
+  built_world_cells: 4
+  later_worlds_count: 6
+  native_voice_for: []
+  rank: 60
+  vendored: partial
+  vendored_note: The two main treatises are vendored. The Pagnini Bible with Servetus's scholia is not.
+  worlds:
+  - rzg
+  subquestion_macros:
+  - C_TRINITY_CRIT
+  - HERM
+  later_groups:
+  - ANAB
+- id: r93
+  work: Credibility of the Gospel History (1727-57); Analogy of Religion (Butler 1736); Evidences of Christianity (Paley 1794); Trial of the Witnesses (Sherlock 1729)
+  author: Nathaniel Lardner; Joseph Butler; William Paley; Thomas Sherlock
+  era: '8'
+  ed: PD printings
+  host: archive.org, Gutenberg (Butler and Paley, unverified)
+  lic: Public domain
+  use: 'Answers to the deists: Did Jesus exist, was the resurrection true.'
+  cav: Apologetics, not commentary. Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S5
+  - C2.S1
+  - C5.S3
+  - C13.S3
+  cells_by_world:
+    meth: 4
+  priority: 4
+  built_world_cells: 0
+  later_worlds_count: 13
+  native_voice_for: []
+  rank: 61
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - meth
+  subquestion_macros:
+  - CRIT_APOL
+  - C1_EXIST
+  later_groups:
+  - ENLIGHT
+  - ANG
+- id: r07
+  work: Loci Communes (1521, 1543, 1555) and Commentaries on Romans (1532, 1540), Colossians (1527), John (1523), Proverbs, Daniel
+  author: Philip Melanchthon
+  era: '7'
+  ed: 'Latin: Corpus Reformatorum vols 1 to 28, Bretschneider and Bindseil, Halle 1834-60 (PD). English: Hill 1944 (Loci, rights unverified), Kramer 1992 Romans (in copyright), Manschreck 1965 (in copyright).'
+  host: archive.org and Google Books for CR (unverified)
+  lic: 'Latin: public domain. Modern English: rights block.'
+  use: Romans, Colossians, John. The Loci fill the Trinity, Spirit, sin, grace gaps for witt.
+  cav: witt already has the Apology and Augsburg Confession. The Loci and Romans commentary would close the Trinity and Spirit gaps.
+  conf: knowledge
+  subquestions:
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C3.S1
+  - C3.S3
+  - C3.S5
+  - C3.S6
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C5.S2
+  - C8.S2
+  - C9.S3
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  cells_by_world:
+    witt: 3
+  priority: 3
+  built_world_cells: 3
+  later_worlds_count: 23
+  native_voice_for:
+  - witt
+  rank: 62
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - witt
+  subquestion_macros:
+  - ROM
+  - DOCTRINE_GRACE
+  - COL
+  - CREED
+  later_groups:
+  - LUTH
+  - REF
+- id: r09
+  work: Commentary on the Psalms (1524) and Pauline epistles notes
+  author: Johannes Bugenhagen
+  era: '7'
+  ed: 'Latin 1524 onward (PD). Scope of editions: unverified.'
+  host: Bavarian State Library (unverified)
+  lic: Public domain
+  use: Psalms and Paul.
+  cav: Low priority beside Luther and Melanchthon.
+  conf: knowledge
+  subquestions:
+  - C1.S3
+  - C1.S4
+  - C2.S2
+  - C2.S4
+  - C2.S6
+  - C3.S1
+  - C3.S3
+  - C3.S5
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C5.S2
+  - C5.S7
+  - C7.S3
+  - C7.S4
+  - C9.S3
+  - C10.S5
+  - C11.S1
+  - C11.S5
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world:
+    witt: 3
+  priority: 3
+  built_world_cells: 3
+  later_worlds_count: 8
+  native_voice_for:
+  - witt
+  rank: 63
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - witt
+  subquestion_macros:
+  - PSALMS
+  - ROM
+  later_groups:
+  - LUTH
+- id: r81
+  work: Duhovnoe Sokrovishche (Spiritual Treasure); Nastavleniia
+  author: St Tikhon of Zadonsk
+  era: '8'
+  ed: Instructions for monastics (Kiev 1854) vendored. Works, 5 vols, Moscow 1889 (unverified).
+  host: vendored for Nastavleniia
+  lic: Public domain
+  use: Orthodox pastoral and devotional reading drawing on the Gospels.
+  cav: Not a commentary.
+  conf: repo+knowledge
+  subquestions:
+  - C6.S3
+  - C6.S4
+  - C7.S4
+  cells_by_world:
+    obel: 3
+  priority: 3
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for:
+  - obel
+  rank: 64
+  vendored: partial
+  vendored_note: Nastavleniia vendored; the larger works not.
+  worlds:
+  - obel
+  subquestion_macros:
+  - C_ORTH_TRADITION
+  later_groups:
+  - ORTH
+- id: r04
+  work: Psalm lectures and commentaries (Dictata 1513-15, Operationes in Psalmos 1519-21, Psalms 51, 90, 110, Psalms of Degrees)
+  author: Martin Luther
+  era: '7'
+  ed: 'Latin Weimar Ausgabe vols 3, 4, 5; German Walch. Some single psalms in older English (translator and year unverified). Luther''s Works vols 10 to 14 and 35: in copyright.'
+  host: archive.org (unverified)
+  lic: 'Latin and German: public domain. Modern English: rights block.'
+  use: Psalm 51 (repentance), 90 (death and time), 110 (Christ's priesthood), 130, 23. Lament, trust, and grief.
+  cav: Check which single psalms exist in PD English before promising any.
+  conf: knowledge
+  subquestions:
+  - C1.S3
+  - C1.S4
+  - C2.S2
+  - C2.S6
+  - C3.S1
+  - C3.S5
+  - C5.S2
+  - C5.S7
+  - C7.S3
+  - C7.S4
+  - C10.S5
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world:
+    witt: 2
+  priority: 2
+  built_world_cells: 2
+  later_worlds_count: 8
+  native_voice_for:
+  - witt
+  rank: 65
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - witt
+  subquestion_macros:
+  - PSALMS
+  later_groups:
+  - LUTH
+- id: r05
+  work: Commentary on the Sermon on the Mount (Auslegung von Matthaeus 5 to 7, 1530-32) and on the Magnificat (1521)
+  author: Martin Luther
+  era: '7'
+  ed: 'Sermon on the Mount: English by Charles A. Hay, Philadelphia 1892 (PD). Magnificat is vendored in the Jacobs Philadelphia Edition vol 3 (luther_works-v3).'
+  host: archive.org (Hay, unverified item id)
+  lic: Public domain
+  use: 'Matthew 5 to 7: beatitudes, anger, oaths, enemies, prayer, anxiety, money. Luke 1 for Mary.'
+  cav: Hay's English is 1892 and loose. Verify against the German.
+  conf: repo+knowledge
+  subquestions:
+  - C1.S1
+  - C1.S3
+  - C1.S4
+  - C3.S1
+  - C3.S2
+  - C3.S4
+  - C3.S8
+  - C4.S1
+  - C4.S8
+  - C6.S2
+  - C7.S1
+  - C7.S3
+  - C8.S4
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S4
+  - C11.S1
+  - C13.S1
+  - C13.S2
+  - C14.S8
+  cells_by_world:
+    witt: 2
+  priority: 2
+  built_world_cells: 2
+  later_worlds_count: 8
+  native_voice_for:
+  - witt
+  rank: 66
+  vendored: partial
+  vendored_note: Magnificat (Luke 1:46-55) is vendored and already used by witt (witt.source.luther-magnificat-translated-and-explained, witt.story.composing-the-magnificat). Sermon on the Mount is not
+    vendored.
+  worlds:
+  - witt
+  subquestion_macros:
+  - SOM
+  - MATT
+  later_groups:
+  - LUTH
+- id: r11
+  work: Summaria uber die ganze Bibel (1541-45) and Predigten
+  author: Veit Dietrich
+  era: '7'
+  ed: German 16th century printings. Edition details unverified.
+  host: unverified
+  lic: Public domain by date (unverified host)
+  use: Short chapter summaries of the whole Bible for household reading, in Luther's circle.
+  cav: Details not confident. Check before tasking.
+  conf: unverified
+  subquestions:
+  - C1.S1
+  - C4.S1
+  - C5.S2
+  - C14.S1
+  cells_by_world:
+    witt: 0
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 8
+  native_voice_for:
+  - witt
+  rank: 67
+  vendored: 'no'
+  vendored_note: null
+  worlds:
+  - witt
+  subquestion_macros:
+  - WHOLE_LIGHT
+  later_groups:
+  - LUTH
+- id: r95
+  work: Notes, Explanatory and Practical, on the Gospels, Acts, Romans, 1-2 Corinthians, Galatians to Philemon, Hebrews, James to Jude, Revelation, Job, Psalms, Isaiah, Daniel, Minor Prophets (1832-51)
+  author: Albert Barnes
+  era: '9'
+  ed: Barnes' Notes, American editions 1832-53 (PD)
+  host: CCEL (confident); Bible Study Tools (unverified)
+  lic: Public domain
+  use: A plain-language set for lay and pastor use across the Bible.
+  cav: Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 29
+  native_voice_for: []
+  rank: 68
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - WHOLE
+  - HERM
+  later_groups:
+  - EVANG19
+  - REF
+  - METHG
+- id: r123
+  work: unfoldingWord Translation Notes, Translation Questions and Open Bible Stories; Tyndale Open Study Notes; Berean Standard Bible and footnotes; World English Bible
+  author: unfoldingWord; Tyndale House; Berean Bible; eBible.org
+  era: '10'
+  ed: Current digital releases
+  host: git.door43.org (unfoldingWord), bible.org (Tyndale Open Study Notes, unverified), berean.bible, ebible.org
+  lic: 'unfoldingWord notes: CC BY-SA 4.0 (confident). Tyndale Open Study Notes: CC BY-SA 4.0 (unverified). Berean Standard Bible: placed in the public domain 2023 (confident). WEB: public domain (confident;
+    already vendored as webbe).'
+  use: The one set of modern, whole-Bible study notes the project may legally reuse. Written for translators and now used in hundreds of languages.
+  cav: 'CC BY-SA means the Library must share derived notes under the same licence. Check that is acceptable before use. NET Bible notes are free to read but not open: rights block.'
+  conf: unverified
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 28
+  native_voice_for: []
+  rank: 69
+  vendored: partial
+  vendored_note: Only the World English Bible (British edition) is vendored. The others are not.
+  worlds: []
+  subquestion_macros:
+  - WHOLE
+  - HERM
+  later_groups:
+  - GLOBAL
+  - EVANG19
+  - PENT
+- id: r90
+  work: Histoire critique du Vieux Testament (1678)
+  author: Richard Simon
+  era: '8'
+  ed: French 1678; English 1682 (PD)
+  host: Gallica, archive.org (unverified)
+  lic: Public domain
+  use: A Catholic priest's critical reading, condemned by Bossuet.
+  cav: Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S5
+  - C1.S7
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 26
+  native_voice_for: []
+  rank: 70
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - CRIT
+  later_groups:
+  - CATH
+  - ENLIGHT
+- id: r101
+  work: Biblical Commentary on the Old Testament (25 vols, 1857-78)
+  author: C. F. Keil and Franz Delitzsch
+  era: '9'
+  ed: T. and T. Clark, Edinburgh, Foreign Biblical Library
+  host: CCEL (confident)
+  lic: Public domain
+  use: Every OT book. Delitzsch on Psalms, Isaiah and Job.
+  cav: Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S3
+  - C1.S4
+  - C2.S2
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S5
+  - C3.S6
+  - C3.S8
+  - C4.S2
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S7
+  - C7.S1
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C9.S5
+  - C9.S6
+  - C10.S2
+  - C10.S4
+  - C10.S5
+  - C13.S1
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 24
+  native_voice_for: []
+  rank: 71
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - GEN
+  - PENT
+  - PSALMS
+  - ISA
+  - JOB
+  - DANREV
+  later_groups:
+  - REF
+  - EVANG19
+- id: r102
+  work: Critical and Exegetical Handbook to the New Testament (1829-59, English 1873-85); Olshausen's Commentary; Godet on Luke, John, Romans; Tholuck on Romans
+  author: H. A. W. Meyer; Hermann Olshausen; Frederic Godet; August Tholuck
+  era: '9'
+  ed: T. and T. Clark (PD)
+  host: Bible Hub and StudyLight (Meyer, unverified); archive.org
+  lic: Public domain
+  use: The German scholarly set in English.
+  cav: Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S6
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 24
+  native_voice_for: []
+  rank: 72
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - GOSP
+  - JOHN
+  - ROM
+  - ACTS
+  - HERM
+  later_groups:
+  - REF
+  - EVANG19
+- id: r103
+  work: Theologisch-homiletisches Bibelwerk (Lange's Commentary, English ed. Philip Schaff, 1864-80s)
+  author: J. P. Lange (ed.); Philip Schaff (English ed.)
+  era: '9'
+  ed: 25 vols, New York
+  host: archive.org; StudyLight (unverified)
+  lic: Public domain
+  use: Exposition plus homiletical hints for each section, built for preachers.
+  cav: Schaff's Creeds of Christendom is vendored; the Lange set is not.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 24
+  native_voice_for: []
+  rank: 73
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - WHOLE
+  - HERM
+  later_groups:
+  - REF
+  - EVANG19
+- id: r105
+  work: The Treasury of David (7 vols, 1869-85); Commenting and Commentaries (1876); The Gospel of the Kingdom (Matthew, 1893); Metropolitan Tabernacle Pulpit (63 vols of sermons)
+  author: Charles Haddon Spurgeon
+  era: '9'
+  ed: Marshall, Morgan and Scott; Passmore and Alabaster
+  host: CCEL (Treasury, confident); spurgeongems.org (sermons, unverified); Spurgeon Archive
+  lic: Public domain (Spurgeon d. 1892; works before 1931)
+  use: 'Psalms, with quotations from every earlier commentator: the largest PD Psalter commentary. Sermons on single verses.'
+  cav: Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S3
+  - C1.S4
+  - C2.S2
+  - C2.S6
+  - C3.S1
+  - C3.S5
+  - C5.S2
+  - C5.S7
+  - C7.S3
+  - C7.S4
+  - C10.S5
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 24
+  native_voice_for: []
+  rank: 74
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - PSALMS
+  - DOUBT
+  - GOSP_LIGHT
+  later_groups:
+  - REF
+  - EVANG19
+- id: r108
+  work: Commentaries on Romans (1835), 1-2 Corinthians, Ephesians (1856)
+  author: Charles Hodge
+  era: '9'
+  ed: Princeton
+  host: archive.org; CCEL carries Hodge's Systematic Theology (confident) but not these (unverified)
+  lic: Public domain
+  use: Romans and Corinthians for Reformed preachers.
+  cav: Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S4
+  - C2.S4
+  - C3.S3
+  - C3.S5
+  - C3.S6
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C5.S2
+  - C6.S8
+  - C7.S2
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S3
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C14.S5
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 24
+  native_voice_for: []
+  rank: 75
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - ROM
+  - COR1
+  - EPH
+  later_groups:
+  - REF
+  - EVANG19
+- id: r118
+  work: Christology of the Old Testament (1829-35); Commentary on the Psalms
+  author: E. W. Hengstenberg
+  era: '9'
+  ed: English by Meyer 1854-58 and Fairbairn (PD)
+  host: archive.org (unverified)
+  lic: Public domain
+  use: Conservative German defence of messianic prophecy.
+  cav: Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S3
+  - C1.S4
+  - C2.S2
+  - C2.S6
+  - C3.S1
+  - C3.S5
+  - C3.S8
+  - C5.S2
+  - C5.S7
+  - C7.S3
+  - C7.S4
+  - C10.S4
+  - C10.S5
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 24
+  native_voice_for: []
+  rank: 76
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - PSALMS
+  - ISA
+  later_groups:
+  - REF
+  - EVANG19
+- id: r96
+  work: Commentary Critical and Experimental on the Old and New Testaments (1871)
+  author: Robert Jamieson, A. R. Fausset, David Brown
+  era: '9'
+  ed: Glasgow 1871, 6 vols (PD)
+  host: CCEL (confident); Blue Letter Bible (unverified)
+  lic: Public domain
+  use: The standard one-set pastor commentary of the Victorian era.
+  cav: Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 24
+  native_voice_for: []
+  rank: 77
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - WHOLE
+  - HERM
+  later_groups:
+  - EVANG19
+  - REF
+- id: r127
+  work: Etudes bibliques commentaries on Mark (1911), Luke (1921), Matthew (1923), John (1925), Romans (1915), Galatians (1918)
+  author: Marie-Joseph Lagrange, O.P.
+  era: '10'
+  ed: French originals, Gabalda, Paris
+  host: Gallica and archive.org (unverified)
+  lic: 'French originals: public domain by date in the US (published before 1931). Lagrange died 1938 so French law protects until 2008 (expired). English translations: rights block.'
+  use: The founding Catholic historical-critical commentaries.
+  cav: French only for free use.
+  conf: unverified
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S4
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C6.S2
+  - C6.S3
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S3
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 19
+  native_voice_for: []
+  rank: 78
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - GOSP
+  - ROM
+  - GAL
+  later_groups:
+  - CATH
+- id: r128
+  work: Cursus Scripturae Sacrae (Cornely, Knabenbauer, Hummelauer); La Sainte Bible commentee (Fillion)
+  author: Rudolf Cornely; Joseph Knabenbauer; L. C. Fillion
+  era: '9'
+  ed: Latin and French, Paris 1886-1930
+  host: archive.org (unverified)
+  lic: Public domain (pre-1931)
+  use: The Catholic standard commentary set on the eve of Pius X.
+  cav: Latin heavy.
+  conf: unverified
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 19
+  native_voice_for: []
+  rank: 79
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - WHOLE
+  - HERM
+  later_groups:
+  - CATH
+- id: r60
+  work: Quesnel's Reflexions morales sur le Nouveau Testament (1692-1699); Bible de Port-Royal (Sacy, 1672-96); Calmet's Commentaire litteral (1707-16)
+  author: Pasquier Quesnel; Louis-Isaac Le Maistre de Sacy; Augustin Calmet
+  era: '8'
+  ed: 'French originals (PD). English: Quesnel''s Moral Reflections 1719 (PD, unverified publisher).'
+  host: Gallica, archive.org (unverified)
+  lic: Public domain
+  use: Quesnel was condemned in Unigenitus 1713; the commentary was a Jansenist pastor's tool.
+  cav: Outside the six worlds. Serves Port-Royal, Utrecht and Ancien Regime worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C3.S1
+  - C3.S2
+  - C3.S4
+  - C3.S5
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S6
+  - C5.S8
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 19
+  native_voice_for: []
+  rank: 80
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - GOSP
+  - GENEPI
+  - HERM
+  later_groups:
+  - CATH
+- id: r61
+  work: Explication de l'Apocalypse (1689); Meditations sur l'Evangile (1695); Elevations sur les mysteres
+  author: Jacques-Benigne Bossuet
+  era: '8'
+  ed: Oeuvres completes, Lachat ed., Paris 1862-66 (PD)
+  host: Gallica, archive.org (unverified)
+  lic: Public domain
+  use: Revelation read as the Church against Rome's enemies; Gospel meditations.
+  cav: Bossuet's quietism writings are vendored; this commentary is not.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S3
+  - C1.S4
+  - C3.S1
+  - C3.S2
+  - C3.S6
+  - C3.S8
+  - C5.S5
+  - C7.S3
+  - C9.S6
+  - C13.S1
+  - C14.S1
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 19
+  native_voice_for: []
+  rank: 81
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - DANREV
+  - GOSP_LIGHT
+  later_groups:
+  - CATH
+- id: r37
+  work: Exposition of the Epistle to the Hebrews (7 vols, 1668-84); Exposition of Psalm 130; Pneumatologia (on the Holy Spirit); Of Communion with God (Trinity)
+  author: John Owen
+  era: '7'
+  ed: Works, Goold ed., 24 vols, Edinburgh 1850-55 (PD)
+  host: CCEL (unverified for Hebrews), Monergism, archive.org (unverified)
+  lic: 'Public domain text. Banner of Truth reprint typesetting: rights block.'
+  use: Hebrews (the biggest PD commentary on it), Psalm 130, the Holy Spirit and the Trinity.
+  cav: Owen's window (1650s-80s) is outside the six worlds but inside Puritan and Old Dissent.
+  conf: knowledge
+  subquestions:
+  - C1.S2
+  - C1.S3
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C4.S4
+  - C4.S8
+  - C5.S2
+  - C7.S2
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 18
+  native_voice_for: []
+  rank: 82
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - HEB
+  - PNEUMA_TRIN
+  later_groups:
+  - REF
+  - ANG
+- id: r38
+  work: Complete Works vol 1 (Bruised Reed on Isaiah 42:3; Soul's Conflict; Christ is Best; Church's Visitation)
+  author: Richard Sibbes
+  era: '7'
+  ed: Grosart ed., Nichol's Series, Edinburgh 1862-64, 7 vols. Vol 1 vendored.
+  host: vendored (vol 1); vols 2 to 7 on archive.org (unverified)
+  lic: Public domain
+  use: 'Bruised Reed: gentle pastoral care for a weak conscience, from Isaiah 42:3.'
+  cav: Puritan, outside the six worlds. A good Facilitator-facing pastoral voice.
+  conf: repo
+  subquestions:
+  - C1.S3
+  - C7.S3
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 18
+  native_voice_for: []
+  rank: 83
+  vendored: partial
+  vendored_note: Vol 1 vendored (sibbes_complete-works-v1_grosart1862.txt). Vols 2 to 7 not. No record cites it.
+  worlds: []
+  subquestion_macros:
+  - PSALMS_LIGHT
+  - DOUBT
+  - ISA_LIGHT
+  later_groups:
+  - REF
+  - ANG
+- id: r41
+  work: Commentary on the Old and New Testaments (1647-56); Commentaries on Psalms, Matthew, Hebrews (Dickson, 1653-55); Annotations on the Pentateuch and Psalms (Ainsworth, 1612-23)
+  author: John Trapp; David Dickson; Henry Ainsworth
+  era: '7'
+  ed: 'Trapp: Hurst ed. 1865-68 (PD). Dickson and Ainsworth: 17th century printings (PD).'
+  host: StudyLight (Trapp, unverified), archive.org (unverified)
+  lic: Public domain
+  use: 'Trapp: pithy verse notes for pulpit quotation. Ainsworth: the Psalter of the Mayflower pilgrims.'
+  cav: Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 18
+  native_voice_for: []
+  rank: 84
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - WHOLE
+  - PSALMS
+  later_groups:
+  - REF
+  - ANG
+- id: r100
+  work: Commentary for English Readers (Ellicott, 1878-84); Cambridge Bible for Schools and Colleges (1877-1912); Cambridge Greek Testament (1881-1912)
+  author: C. J. Ellicott (ed.); J. J. S. Perowne (ed.)
+  era: '9'
+  ed: Multi-volume series, Cassell and Cambridge University Press (PD)
+  host: Bible Hub and StudyLight (Cambridge Bible, unverified); archive.org
+  lic: Public domain
+  use: A short readable verse commentary for every book.
+  cav: Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for: []
+  rank: 85
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - WHOLE
+  - HERM
+  later_groups:
+  - ANG
+  - EVANG19
+- id: r104
+  work: The Pulpit Commentary (1880-1919, 49 vols); The Expositor's Bible (1887-96, 49 vols); Speaker's Commentary (1871-81)
+  author: H. D. M. Spence and J. S. Exell (eds.); W. Robertson Nicoll (ed.); F. C. Cook (ed.)
+  era: '9'
+  ed: Funk and Wagnalls; Hodder and Stoughton; Murray
+  host: StudyLight and Bible Hub (unverified); archive.org
+  lic: Public domain
+  use: Sermon outlines and homilies for each section of every book. Strong for pastors.
+  cav: Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for: []
+  rank: 86
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - WHOLE
+  - HERM
+  later_groups:
+  - EVANG19
+  - ANG
+- id: r106
+  work: Expository Thoughts on the Gospels (1856-73, 7 vols)
+  author: J. C. Ryle
+  era: '9'
+  ed: London, various publishers
+  host: CCEL (confident)
+  lic: Public domain
+  use: Gospel by section, in plain English for the pew.
+  cav: Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C3.S1
+  - C3.S2
+  - C3.S4
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S3
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for: []
+  rank: 87
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - GOSP
+  - JOHN
+  later_groups:
+  - ANG
+  - EVANG19
+- id: r107
+  work: 'Horae Homileticae (21 vols, 1832-33): sermon outlines on every book'
+  author: Charles Simeon
+  era: '9'
+  ed: London, 1832-33
+  host: StudyLight, Bible Hub (unverified); archive.org
+  lic: Public domain
+  use: A preacher's skeleton for every text in the Bible.
+  cav: Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for: []
+  rank: 88
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - WHOLE
+  - PAST
+  later_groups:
+  - ANG
+  - EVANG19
+- id: r110
+  work: Notes on the Parables (1841) and Miracles (1846); Studies in the Gospels; Epistles to the Seven Churches
+  author: Richard Chenevix Trench
+  era: '9'
+  ed: London
+  host: CCEL (confident for Parables); Gutenberg (unverified)
+  lic: Public domain
+  use: Parables and miracles, a classic pulpit aid.
+  cav: Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C3.S1
+  - C3.S2
+  - C3.S4
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C5.S5
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S4
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for: []
+  rank: 89
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - GOSP
+  - DANREV
+  later_groups:
+  - ANG
+  - EVANG19
+- id: r28
+  work: Annotations upon all the Books of the Old and New Testament (Assembly's Annotations, 1645, 1651, 1657)
+  author: Westminster Assembly divines (compiled by Gataker, Gouge, Featley, Reading and others, unverified)
+  era: '7'
+  ed: 1645, enlarged 1651 and 1657 (PD)
+  host: archive.org and EEBO (unverified)
+  lic: Public domain
+  use: Whole Bible, the Puritan study notes of the Westminster era.
+  cav: No world among the six covers Westminster. Serves later Puritan and Scottish worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for: []
+  rank: 90
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - WHOLE
+  - HERM
+  later_groups:
+  - REF
+  - REF2
+- id: r39
+  work: Exposition of Ephesians 1 to 2; Child of Light; Works
+  author: Thomas Goodwin
+  era: '7'
+  ed: Works, Nichol's Series, Edinburgh 1861-66, 12 vols (PD)
+  host: archive.org (unverified)
+  lic: Public domain
+  use: 'Ephesians 1: election, adoption, the Spirit as seal.'
+  cav: Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C2.S4
+  - C4.S1
+  - C4.S3
+  - C8.S2
+  - C8.S3
+  - C8.S7
+  - C13.S1
+  - C14.S2
+  - C14.S4
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for: []
+  rank: 91
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - EPH
+  - DOUBT
+  later_groups:
+  - REF
+- id: r40
+  work: Exposition of the Book of Job (12 vols, 1643-66)
+  author: Joseph Caryl
+  era: '7'
+  ed: Original London printings; modern reprints. Original PD.
+  host: archive.org (unverified)
+  lic: Public domain originals
+  use: The largest commentary on Job ever. Good for suffering sermons.
+  cav: Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C2.S2
+  - C2.S7
+  - C3.S6
+  - C13.S1
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for: []
+  rank: 92
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - JOB
+  later_groups:
+  - REF
+- id: r84
+  work: Tolkovanie (commentary) on Romans, Galatians, Ephesians, Philippians, Colossians, Thessalonians, Timothy, Titus, Philemon, Hebrews; Psalm 118; Thoughts for Every Day
+  author: St Theophan the Recluse (Feofan Govorov)
+  era: '9'
+  ed: 'Russian, Moscow 1866-93. English: St Herman and other presses, 20th century (in copyright).'
+  host: Russian Orthodox sites such as azbyka.ru (unverified)
+  lic: 'Russian original: public domain (author d. 1894, unverified for later editorial apparatus). English: rights block.'
+  use: Epistles, ascetic reading for Orthodox pastors.
+  cav: Russian only without the in-copyright English.
+  conf: knowledge
+  subquestions:
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C2.S2
+  - C2.S4
+  - C2.S6
+  - C3.S1
+  - C3.S3
+  - C3.S5
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C5.S7
+  - C6.S1
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C8.S2
+  - C8.S3
+  - C8.S7
+  - C9.S3
+  - C10.S1
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for: []
+  rank: 93
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - ROM
+  - GAL
+  - EPH
+  - PAST
+  - HEB
+  - PSALMS
+  - DOUBT
+  later_groups:
+  - ORTH
+- id: r85
+  work: Zapiski na knigu Bytiya (Notes on Genesis, 1816); Zapiski na knigu Ishod; Sermons and Speeches; Longer Catechism (1839)
+  author: Metropolitan Philaret of Moscow (Drozdov)
+  era: '9'
+  ed: 'Russian originals (PD). English: Blackmore, Doctrine of the Russian Church 1845 (the catechism, queued); Sermons 1873 (unverified).'
+  host: unverified; the 1845 catechism is queued in download-queue-seed.yaml (Russian Church, synodal century)
+  lic: Public domain
+  use: Genesis, the Creed, the Lord's Prayer. His sermons were a model of pulpit address.
+  cav: Details of Russian editions unverified.
+  conf: unverified
+  subquestions:
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S7
+  - C3.S1
+  - C3.S5
+  - C3.S6
+  - C4.S2
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C7.S1
+  - C7.S6
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for: []
+  rank: 94
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - GEN
+  - CREED
+  later_groups:
+  - ORTH
+- id: r86
+  work: Tolkovaya Bibliya (Explanatory Bible), 11 vols, 1904-13
+  author: A. P. Lopukhin and Russian Orthodox academy professors
+  era: '9'
+  ed: St Petersburg 1904-13
+  host: azbyka.ru and others (unverified)
+  lic: Likely public domain; some contributors lived past 1955 so Russian rights unverified
+  use: A whole-Bible Orthodox commentary in modern Russian, widely used by pastors.
+  cav: Unverified rights. Russian only.
+  conf: unverified
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for: []
+  rank: 95
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - WHOLE
+  - HERM
+  later_groups:
+  - ORTH
+- id: r87
+  work: Hermeneia on the 14 Epistles of Paul (Constantinople 1819); Hermeneia on the Catholic Epistles; Exomologetarion
+  author: St Nikodemos the Hagiorite
+  era: '8'
+  ed: Greek (unverified editions). Pedalion and Synaxaristes vols 1 and 2 are vendored (Greek).
+  host: vendored for other works; commentaries unverified
+  lic: Public domain by date (Greek originals, unverified)
+  use: The Pauline epistles for Greek Orthodox preaching.
+  cav: The Hermeneia attribution and date are not confident.
+  conf: unverified
+  subquestions:
+  - C1.S2
+  - C1.S3
+  - C2.S4
+  - C3.S3
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C6.S1
+  - C6.S6
+  - C6.S8
+  - C7.S2
+  - C8.S2
+  - C8.S3
+  - C8.S7
+  - C9.S3
+  - C10.S1
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for: []
+  rank: 96
+  vendored: partial
+  vendored_note: Pedalion and the Synaxaristes are vendored; the Pauline commentary is not.
+  worlds: []
+  subquestion_macros:
+  - ROM
+  - EPH
+  - PAST
+  - HEB
+  later_groups:
+  - ORTH
+- id: r88
+  work: Tolkovoe Evangelie (Explanatory Gospel, 1871 on); Tolkovanie na Psaltir
+  author: Bishop Mikhail (Luzin), Innocent of Kherson, Bishop Theophan
+  era: '9'
+  ed: Russian originals (unverified)
+  host: unverified
+  lic: Public domain by date (unverified)
+  use: Gospel and Psalter commentary.
+  cav: Unverified.
+  conf: unverified
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S6
+  - C3.S1
+  - C3.S2
+  - C3.S4
+  - C3.S5
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C5.S7
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for: []
+  rank: 97
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - GOSP
+  - PSALMS
+  later_groups:
+  - ORTH
+- id: r97
+  work: The Greek Testament (1849-61, 4 vols)
+  author: Henry Alford
+  era: '9'
+  ed: Cambridge/London 1849-61 (PD)
+  host: archive.org; Bible Hub (unverified)
+  lic: Public domain
+  use: Greek-based exposition of the whole NT.
+  cav: Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S4
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S6
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for: []
+  rank: 98
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - GOSP
+  - ACTS
+  - ROM
+  - HERM
+  later_groups:
+  - ANG
+  - EVANG19
+- id: r98
+  work: Commentaries on Galatians (1865), Philippians (1868), Colossians and Philemon (1875); Notes on the Epistles of St Paul (1895)
+  author: J. B. Lightfoot
+  era: '9'
+  ed: Macmillan editions (PD)
+  host: archive.org (unverified); CCEL (unverified)
+  lic: Public domain
+  use: The classic Greek-text commentaries on Galatians, Philippians and Colossians.
+  cav: Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S2
+  - C2.S4
+  - C4.S1
+  - C4.S3
+  - C5.S2
+  - C6.S1
+  - C6.S3
+  - C7.S1
+  - C8.S2
+  - C8.S3
+  - C8.S7
+  - C11.S1
+  - C13.S1
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for: []
+  rank: 99
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - GAL
+  - EPH
+  - PHIL_COL
+  - PAUL_HIST
+  later_groups:
+  - ANG
+  - EVANG19
+- id: r99
+  work: Commentaries on John (1881), the Epistles of John (1883), Hebrews (1889), Ephesians (1906); Westcott and Hort, New Testament in the Original Greek (1881)
+  author: B. F. Westcott; F. J. A. Hort
+  era: '9'
+  ed: Macmillan editions (PD). Hort's First Peter 1898 and Romans and Ephesians 1895.
+  host: archive.org; Wikisource carries the Westcott-Hort Greek text (unverified)
+  lic: Public domain
+  use: John and Hebrews for scholarly preachers.
+  cav: Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S6
+  - C5.S8
+  - C6.S2
+  - C7.S2
+  - C11.S5
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 15
+  native_voice_for: []
+  rank: 100
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - JOHN
+  - HEB
+  - HERM
+  later_groups:
+  - ANG
+  - EVANG19
+- id: r124
+  work: International Critical Commentary (volumes to 1930); Expositor's Greek Testament (1897-1910); Westminster Commentaries (from 1904); Moffatt and Swete commentaries
+  author: Driver, Plummer, Sanday and Headlam, Burton, Charles, Swete, Nicoll (ed.), and others
+  era: '10'
+  ed: T. and T. Clark; Hodder; Methuen. Only volumes published 1930 or earlier.
+  host: archive.org (unverified item ids)
+  lic: 'Volumes published 1930 or earlier: public domain in the US. Later volumes: rights block.'
+  use: The best scholarly commentaries up to 1930, Romans, Luke, Mark, Galatians, Revelation.
+  cav: Rights hold only to the 1930 line. Check each volume's date and renewal.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 13
+  native_voice_for: []
+  rank: 101
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - WHOLE
+  - HERM
+  later_groups:
+  - ENLIGHT
+  - ANG
+- id: r92
+  work: Observations upon the Prophecies of Daniel and the Apocalypse of St John (1733)
+  author: Isaac Newton
+  era: '8'
+  ed: 1733 (PD). The Newton Project transcription is openly accessible (licence unverified).
+  host: Newton Project (unverified licence), archive.org
+  lic: Public domain
+  use: Daniel and Revelation timetables.
+  cav: Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C3.S1
+  - C3.S2
+  - C3.S6
+  - C3.S8
+  - C5.S5
+  - C9.S6
+  - C13.S1
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 13
+  native_voice_for: []
+  rank: 102
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - DANREV
+  later_groups:
+  - ENLIGHT
+  - ANG
+- id: r122
+  work: Africa Bible Commentary (2006) and the Asia, South Asia and Latin American commentary series
+  author: Tokunboh Adeyemo (ed.) and others
+  era: '10'
+  ed: WordAlive and Zondervan 2006
+  host: Commercial
+  lic: In copyright. Not openly licensed to the author's knowledge. Rights block use.
+  use: Whole Bible, written by African scholars. The best-known African commentary.
+  cav: RIGHTS BLOCK. Do not copy. If Mark wants it, the route is a permission request to the publisher.
+  conf: knowledge
+  subquestions: []
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 12
+  native_voice_for: []
+  rank: 103
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - GLOBAL_NONE
+  later_groups:
+  - GLOBAL
+- id: r111
+  work: Life and Times of Jesus the Messiah (1883)
+  author: Alfred Edersheim
+  era: '9'
+  ed: London, 1883
+  host: CCEL; Gutenberg (confident)
+  lic: Public domain
+  use: The Jewish world of the Gospels, a pastor's background book.
+  cav: Outside the six worlds. Not verse by verse.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C3.S1
+  - C3.S2
+  - C3.S4
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 10
+  native_voice_for: []
+  rank: 104
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - GOSP
+  - C1_HUMAN
+  later_groups:
+  - EVANG19
+- id: r112
+  work: Expositions of Holy Scripture (17 vols, 1904-10)
+  author: Alexander Maclaren
+  era: '9'
+  ed: London 1904-10
+  host: StudyLight, Bible Hub (unverified)
+  lic: Public domain (Maclaren d. 1910)
+  use: A famous Victorian expository preacher on all books.
+  cav: Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 10
+  native_voice_for: []
+  rank: 105
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - WHOLE
+  - GOSP_LIGHT
+  later_groups:
+  - EVANG19
+- id: r125
+  work: A. T. Robertson, Word Pictures in the New Testament (6 vols, 1930-33)
+  author: A. T. Robertson
+  era: '10'
+  ed: Broadman
+  host: Bible Hub and many other sites (all six vols)
+  lic: Only the volumes published in 1930 are public domain in the US now; vols published 1931 to 1933 enter on 1 January 2027 to 2029. Renewal status unverified.
+  use: Greek-word notes on every NT verse, for preachers.
+  cav: RIGHTS BLOCK for later volumes. Many sites host all six as 'public domain' without checking.
+  conf: unverified
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S4
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S6
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 10
+  native_voice_for: []
+  rank: 106
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - GOSP
+  - ACTS
+  - ROM
+  - HERM
+  later_groups:
+  - EVANG19
+- id: r74
+  work: Commentaries on Matthew and 1 John; Explication of John 1; Lectiones Sacrae in the Opera omnia
+  author: Faustus Socinus
+  era: '7'
+  ed: Bibliotheca Fratrum Polonorum, Irenopoli 1656. The exegetical volume is vendored; the Crell, Slichting, Wolzogen commentaries are in the other Bibliotheca volumes.
+  host: vendored (Socinus); Crell, Slichting, Wolzogen volumes on archive.org (unverified)
+  lic: Public Domain Mark 1.0 on the host (per vendored header)
+  use: Matthew 5 to 7 and 1 John, plus John 1 read against Trinity.
+  cav: Latin, long-s OCR. Check page image before quotes.
+  conf: repo
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C3.S1
+  - C3.S2
+  - C3.S4
+  - C3.S8
+  - C4.S3
+  - C4.S5
+  - C4.S8
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C8.S4
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 10
+  native_voice_for: []
+  rank: 107
+  vendored: partial
+  vendored_note: socinus_opera-omnia-exegetica-lat_1656.txt includes commentaries on Matthew and 1 John, mapped to anti-trinitarian currents. No record cites it. Crell on Romans and Galatians, Slichting
+    on the Gospels, Wolzogen on Matthew and John are in the other Bibliotheca volumes, not vendored.
+  worlds: []
+  subquestion_macros:
+  - JOHN
+  - MATT
+  - C_TRINITY_CRIT
+  later_groups:
+  - ANAB
+  - REF2
+- id: r116
+  work: Scofield Reference Bible (1909; revised 1917); Arno Gaebelein, Annotated Bible (9 vols, 1913-22)
+  author: C. I. Scofield; A. C. Gaebelein
+  era: '10'
+  ed: Oxford (1909, 1917). The 1967 New Scofield is in copyright.
+  host: archive.org; Bible Hub carries 'Scofield Reference Notes' (unverified)
+  lic: '1909 and 1917: public domain in the US. 1967 New Scofield: rights block.'
+  use: Dispensational Bible notes.
+  cav: Use only the 1909 or 1917 edition.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C3.S1
+  - C3.S2
+  - C3.S6
+  - C3.S8
+  - C4.S1
+  - C5.S2
+  - C5.S5
+  - C9.S6
+  - C13.S1
+  - C14.S1
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 9
+  native_voice_for: []
+  rank: 108
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - DANREV
+  - WHOLE_LIGHT
+  later_groups:
+  - BRETH
+  - ENLIGHT
+- id: r129
+  work: Biblj Ceska, first Kralice edition (6 vols, 1579-93) with the Unity's marginal notes
+  author: Unity of the Brethren (Jan Blahoslav and the Kralice translators)
+  era: '7'
+  ed: Czech, Kralice and Eibenschitz 1579-93. The vendored copy is a 1887 BFBS reprint of the 1613 text with cross-references only (repo-verified header).
+  host: archive.org or Czech national digital library (unverified)
+  lic: Public domain
+  use: The Brethren's Bible with their own notes, in Czech.
+  cav: Outside the six worlds. hus ends 1517; this serves the Czech churches' last century.
+  conf: repo+knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S2
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  - C2.S7
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S3
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  - C6.S1
+  - C6.S2
+  - C6.S3
+  - C6.S6
+  - C6.S8
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S4
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C8.S5
+  - C8.S7
+  - C9.S1
+  - C9.S3
+  - C9.S4
+  - C9.S5
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S3
+  - C10.S4
+  - C10.S5
+  - C11.S1
+  - C11.S2
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C13.S6
+  - C14.S1
+  - C14.S2
+  - C14.S3
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 9
+  native_voice_for: []
+  rank: 109
+  vendored: partial
+  vendored_note: kralice-bible_biblj-svata-kralicka-ces_bfbs1887.txt is the 1613 text, not the 1579-93 edition, and carries cross-references, not commentary.
+  worlds: []
+  subquestion_macros:
+  - WHOLE
+  - HERM
+  later_groups:
+  - CZECH
+  - LUTH
+- id: r59
+  work: Pia Desideria (1675) and Gospel sermons (Evangelische Lebenspflichten); Passion sermons
+  author: Philipp Jakob Spener
+  era: '8'
+  ed: Pia Desideria (Koehler 1841 and Zunner 1706) and Geistliches Priesterthum vendored
+  host: vendored
+  lic: Public domain
+  use: Proposals for Bible circles (Pia Desideria) and pastoral renewal.
+  cav: Outside the six worlds.
+  conf: repo
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C3.S1
+  - C3.S2
+  - C3.S4
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S6
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 8
+  native_voice_for: []
+  rank: 110
+  vendored: partial
+  vendored_note: Pia Desideria and Geistliches Priesterthum are vendored. His Gospel sermon cycles are not.
+  worlds: []
+  subquestion_macros:
+  - GOSP
+  - CANON
+  later_groups:
+  - LUTH
+- id: r117
+  work: Life of Jesus Critically Examined (1835-36); Vie de Jesus (1863); Prolegomena to the History of Israel (1878); Pentateuch Critically Examined (Colenso, 1862-79); Essays and Reviews (1860)
+  author: D. F. Strauss; Ernest Renan; Julius Wellhausen; J. W. Colenso
+  era: '9'
+  ed: 'Strauss: George Eliot trans. 1846 (PD). Renan: Wilbour 1864 (PD). Wellhausen: Black and Menzies 1885 (PD).'
+  host: Gutenberg (Renan, unverified), archive.org
+  lic: Public domain
+  use: 'What congregations met in the 19th century: Did Jesus exist, was the Pentateuch Moses''.'
+  cav: Critics, not commentary.
+  conf: knowledge
+  subquestions:
+  - C1.S5
+  - C1.S6
+  - C1.S7
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 7
+  native_voice_for: []
+  rank: 111
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - CRIT
+  - C1_EXIST
+  - C1_HUMAN
+  later_groups:
+  - ENLIGHT
+- id: r121
+  work: The Apostolic Faith (Azusa Street newspaper, 1906-08); A Voice Crying in the Wilderness (Parham, 1902); How Pentecost Came to Los Angeles (Bartleman, 1925)
+  author: William Seymour and others; Charles Parham; Frank Bartleman
+  era: '10'
+  ed: 1902 to 1925, PD by date
+  host: Flower Pentecostal Heritage Center (ag.org, unverified); archive.org
+  lic: Public domain by date (pre-1931)
+  use: Acts 2 and 1 Corinthians 12 to 14 as read at Azusa, in the movement's own voice.
+  cav: 'Not commentary. Rights hold only to 1930. Later Pentecostal commentaries (Spirit-Filled Life Bible etc.) are in copyright: rights block.'
+  conf: unverified
+  subquestions:
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C2.S6
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 7
+  native_voice_for: []
+  rank: 112
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - PNEUMA_TRIN
+  - C_TONGUES
+  later_groups:
+  - PENT
+- id: r126
+  work: Der Roemerbrief (1919, second edition 1922)
+  author: Karl Barth
+  era: '10'
+  ed: 'German originals. English by Hoskyns 1933: in copyright.'
+  host: Not known to be online
+  lic: 'German 1919/1922: public domain in the US by date only (Barth d. 1968; protected in the EU to 2038). English: rights block.'
+  use: The commentary that turned Protestant theology; Romans read as God's judgment on religion.
+  cav: RIGHTS BLOCK outside the US. Use US-date only with Mark's agreement.
+  conf: knowledge
+  subquestions:
+  - C2.S4
+  - C3.S3
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C5.S2
+  - C9.S3
+  - C11.S1
+  - C11.S5
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 7
+  native_voice_for: []
+  rank: 113
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - ROM
+  later_groups:
+  - ENLIGHT
+- id: r89
+  work: Tractatus Theologico-Politicus (1670), chapters on Scripture and miracles
+  author: Baruch Spinoza
+  era: '8'
+  ed: 'English: R. H. M. Elwes, Bohn 1883 (PD). Latin 1670 (PD).'
+  host: Gutenberg (Elwes, unverified), archive.org
+  lic: Public domain
+  use: 'The first historical-critical reading of the Bible: authorship of the Pentateuch, miracles.'
+  cav: Critic, not commentary. Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S5
+  - C1.S7
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S6
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 7
+  native_voice_for: []
+  rank: 114
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - CRIT
+  - CANON
+  later_groups:
+  - ENLIGHT
+- id: r94
+  work: Six Discourses on the Miracles (Woolston 1727-29); Christianity as Old as the Creation (Tindal 1730); Age of Reason (Paine 1794); La Bible enfin expliquee (Voltaire 1776); Reimarus Fragments (Lessing
+    1774-78)
+  author: Thomas Woolston; Matthew Tindal; Thomas Paine; Voltaire; H. S. Reimarus
+  era: '8'
+  ed: 'PD printings. English Reimarus (Talbert 1970): in copyright; German 1774-78 (PD).'
+  host: Gutenberg (Paine, unverified), archive.org
+  lic: Public domain originals
+  use: 'What pastors'' hearers read: the objections in their period form.'
+  cav: Critics, not commentary. Voltaire's Bible commentary is a satire.
+  conf: knowledge
+  subquestions:
+  - C1.S5
+  - C1.S7
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 7
+  native_voice_for: []
+  rank: 115
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - CRIT
+  - C1_EXIST
+  later_groups:
+  - ENLIGHT
+- id: r109
+  work: Expository Lectures on the Epistles to the Corinthians (1859); Sermons (five series)
+  author: F. W. Robertson of Brighton
+  era: '9'
+  ed: PD printings
+  host: archive.org; Gutenberg (unverified)
+  lic: Public domain
+  use: Sermons that wrestle with doubt and faith.
+  cav: Outside the six worlds.
+  conf: unverified
+  subquestions:
+  - C1.S4
+  - C2.S4
+  - C3.S5
+  - C3.S6
+  - C6.S8
+  - C7.S2
+  - C8.S2
+  - C8.S4
+  - C8.S5
+  - C11.S2
+  - C14.S2
+  - C14.S4
+  - C14.S5
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 6
+  native_voice_for: []
+  rank: 116
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - COR1
+  - DOUBT
+  later_groups:
+  - ANG
+- id: r114
+  work: The Minor Prophets with a Commentary (1860-77); Daniel the Prophet (1864); Devotional Commentary on the Gospel Narrative (Isaac Williams, 1842-67); The Holy Bible with Notes (Christopher Wordsworth,
+    1856-70); Parochial and Plain Sermons (Newman, 1834-43)
+  author: E. B. Pusey; Isaac Williams; Christopher Wordsworth; John Henry Newman
+  era: '9'
+  ed: Oxford and London (PD). Newman Reader texts are hosted by the National Institute for Newman Studies (licence unverified).
+  host: archive.org; newmanreader.org (unverified)
+  lic: Public domain originals
+  use: 'Oxford Movement Scripture reading: patristic, sacramental, typological.'
+  cav: Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C3.S1
+  - C3.S2
+  - C3.S4
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C5.S5
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S4
+  - C9.S6
+  - C10.S1
+  - C10.S2
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 6
+  native_voice_for: []
+  rank: 117
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - WHOLE_LIGHT
+  - GOSP
+  - DANREV
+  later_groups:
+  - ANG
+- id: r31
+  work: Sermons (Plough, Lord's Prayer, Seven sermons on the Lord's Prayer, Card sermons)
+  author: Hugh Latimer
+  era: '7'
+  ed: Corrie ed., Parker Society 1844, vendored
+  host: vendored
+  lic: Public domain
+  use: Sermons on the Lord's Prayer and Luke.
+  cav: No world among the six covers England before 1738.
+  conf: repo
+  subquestions:
+  - C1.S1
+  - C1.S3
+  - C1.S4
+  - C4.S1
+  - C6.S1
+  - C6.S6
+  - C6.S8
+  - C7.S3
+  - C8.S2
+  - C8.S4
+  - C9.S4
+  - C10.S1
+  - C10.S4
+  - C14.S1
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 6
+  native_voice_for: []
+  rank: 118
+  vendored: 'yes'
+  vendored_note: latimer_sermons_corrie1844.txt, mapped to english-reformation. No record cites it.
+  worlds: []
+  subquestion_macros:
+  - SOM
+  - PAST
+  - GOSP_LIGHT
+  later_groups:
+  - ANG
+- id: r33
+  work: 'Works: Learned Discourse of Justification, sermons on Habakkuk 1:4, Jude, Pride'
+  author: Richard Hooker
+  era: '7'
+  ed: Keble ed. 1836 (3 vols), Church and Paget 1888 (PD). Laws Books 1 to 5 vendored (Keble 1850).
+  host: archive.org (unverified)
+  lic: Public domain
+  use: Justification and certainty of faith.
+  cav: Outside the six worlds.
+  conf: repo+knowledge
+  subquestions:
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S4
+  - C4.S5
+  - C5.S1
+  - C5.S6
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 6
+  native_voice_for: []
+  rank: 119
+  vendored: partial
+  vendored_note: Laws Books 1 to 5 are vendored; the sermons and Discourse of Justification are not. Hooker Works vol II is queued in download-queue-seed.yaml.
+  worlds: []
+  subquestion_macros:
+  - DOCTRINE_GRACE
+  - CANON
+  later_groups:
+  - ANG
+- id: r34
+  work: XCVI Sermons (Nativity, Lent, Passion, Easter, Pentecost, Gunpowder Plot sermons)
+  author: Lancelot Andrewes
+  era: '7'
+  ed: Library of Anglo-Catholic Theology, Oxford 1841-43, 5 vols (PD)
+  host: archive.org (unverified); Gutenberg carries other Andrewes works (unverified for sermons)
+  lic: Public domain
+  use: Christmas and Easter sermons, preached on one verse each.
+  cav: Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S3
+  - C1.S4
+  - C4.S5
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S5
+  - C14.S1
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 6
+  native_voice_for: []
+  rank: 120
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - GOSP_LIGHT
+  - SACRAMENTS
+  later_groups:
+  - ANG
+- id: r36
+  work: Paraphrase and Annotations upon the New Testament (1653); Exposition of the Creed (Pearson, 1659); Commentary on the NT from the Talmud and Hebraica (Lightfoot)
+  author: Henry Hammond; John Pearson; John Lightfoot
+  era: '7'
+  ed: 'Hammond: Oxford 1845, Library of Anglo-Catholic Theology (PD). Pearson: Chevallier ed. 1849 (PD). Lightfoot: Gandell ed., Oxford 1859, 4 vols (PD).'
+  host: archive.org (unverified)
+  lic: Public domain
+  use: Pearson on the Creed is the classic Anglican exposition. Lightfoot gives Jewish background to the Gospels.
+  cav: Outside the six worlds.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C2.S3
+  - C2.S4
+  - C2.S5
+  - C3.S1
+  - C3.S2
+  - C3.S4
+  - C3.S5
+  - C3.S6
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S5
+  - C4.S8
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S6
+  - C5.S8
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 6
+  native_voice_for: []
+  rank: 121
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - GOSP
+  - CREED
+  - HERM
+  later_groups:
+  - ANG
+- id: r71
+  work: Exposition of Psalm 25; Meditation on Psalm 25; Christian Baptism; works exegetical in the Complete Works
+  author: Menno Simons
+  era: '7'
+  ed: Funk ed., Complete Works, 1871 (vendored)
+  host: vendored
+  lic: Public domain
+  use: Pastoral treatises on repentance, baptism and new birth.
+  cav: Outside the six worlds.
+  conf: repo
+  subquestions:
+  - C4.S1
+  - C4.S5
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S5
+  - C8.S4
+  - C9.S4
+  - C10.S1
+  - C14.S2
+  - C14.S3
+  - C14.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 6
+  native_voice_for: []
+  rank: 122
+  vendored: 'yes'
+  vendored_note: menno-simons_complete-works_funk1871.txt, mapped to the-anabaptist-movements. No record cites it.
+  worlds: []
+  subquestion_macros:
+  - PSALMS_LIGHT
+  - SACRAMENTS
+  - SOM
+  later_groups:
+  - ANAB
+- id: r72
+  work: Writings (Gesprech, Von der Freywilligkeit, Form des Nachtmals) and exegetical pamphlets
+  author: Balthasar Hubmaier
+  era: '7'
+  ed: Three 1526-27 German tracts vendored (hubmaier_gesprech..., hubmaier_freiwilligkeit..., hubmaier_form-des-nachtmals..., hubmaier_grund-und-ursach...). Microfilm vols 1 and 3 queued.
+  host: vendored; microfilm queued
+  lic: Public domain
+  use: Baptism and free will, argued from texts.
+  cav: Not a commentary.
+  conf: repo
+  subquestions:
+  - C4.S3
+  - C4.S5
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S5
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 6
+  native_voice_for: []
+  rank: 123
+  vendored: partial
+  vendored_note: Four tracts vendored. These are doctrine on Scripture, not commentaries.
+  worlds: []
+  subquestion_macros:
+  - SACRAMENTS
+  - C_FREEWILL
+  later_groups:
+  - ANAB
+- id: r73
+  work: Testamentserleuterung (c. 1544); Verantwortung; Vermahnung
+  author: Pilgram Marpeck
+  era: '7'
+  ed: 'German: Loserth ed., Vienna 1929 (PD in US by date, Loserth d. 1936; unverified for other jurisdictions). English: Klassen and Klaassen, Herald Press 1978 (in copyright).'
+  host: unverified
+  lic: 'German 1929: public domain by date in the US; English 1978: rights block'
+  use: How the Old and New Testaments relate. Baptism.
+  cav: Unverified details.
+  conf: unverified
+  subquestions:
+  - C2.S8
+  - C4.S5
+  - C5.S2
+  - C5.S7
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S5
+  - C7.S6
+  - C8.S4
+  - C9.S5
+  - C10.S2
+  - C10.S4
+  - C10.S5
+  - C13.S6
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 6
+  native_voice_for: []
+  rank: 124
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - PENT
+  - SACRAMENTS
+  later_groups:
+  - ANAB
+- id: r75
+  work: Auslegung des Ersten Capitels des Propheten Zacharia (1547); Paradoxa (annotation of 280 Scripture contradictions, 1534)
+  author: Kaspar Schwenckfeld; Sebastian Franck
+  era: '7'
+  ed: Both vendored (schwenckfeld_auslegung-ersten-capitels-zacharias-deu_1547.txt, franck_paradoxa-deu_rab1559.txt)
+  host: vendored
+  lic: Public domain
+  use: Zechariah 1 read spiritually; Franck on how to read Scripture's contradictions.
+  cav: Outside the six worlds.
+  conf: repo
+  subquestions:
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S6
+  - C5.S8
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 6
+  native_voice_for: []
+  rank: 125
+  vendored: 'yes'
+  vendored_note: Vendored and mapped to schwenckfelders and family-of-love worlds. Not cited by any record.
+  worlds: []
+  subquestion_macros:
+  - HERM
+  - CANON
+  later_groups:
+  - ANAB
+- id: r119
+  work: 'Sermons: The Greatness of Christ (1882), Africa and America (1891); Stray Thoughts and Meditations (Grimke, 1914); Recollections of Seventy Years (Payne, 1888)'
+  author: Alexander Crummell; Francis J. Grimke; Daniel Payne
+  era: '9'
+  ed: PD printings. Exact titles and dates unverified.
+  host: archive.org, Documenting the American South (docsouth.unc.edu, unverified)
+  lic: Public domain
+  use: Black pastors preaching on single verses; no verse-by-verse Black commentary before 1906 is known to the author.
+  cav: Unverified list. Genre is sermon, not commentary.
+  conf: unverified
+  subquestions:
+  - C8.S3
+  - C9.S6
+  - C14.S1
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 4
+  native_voice_for: []
+  rank: 126
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - BLACK_SERMON
+  later_groups:
+  - BLACK
+- id: r120
+  work: Parts of the Holy Bible, selected for the use of the Negro Slaves (1807, 'Slave Bible')
+  author: Society for the Conversion of Negro Slaves (London)
+  era: '8'
+  ed: '1807'
+  host: Museum of the Bible (unverified); archive.org
+  lic: Public domain
+  use: 'A censored Bible: what the compilers left out. Useful as an anti-commentary.'
+  cav: Not a commentary.
+  conf: unverified
+  subquestions:
+  - C5.S1
+  - C5.S3
+  - C8.S3
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 4
+  native_voice_for: []
+  rank: 127
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - C_SLAVE_BIBLE
+  later_groups:
+  - BLACK
+- id: r35
+  work: Annotations (Annotationes in Novum Testamentum 1641-50, in vetus 1644); On the Truth of the Christian Religion
+  author: Hugo Grotius
+  era: '7'
+  ed: 'Latin Opera Omnia Theologica (London 1679); Annotations on NT (Paris 1641-50). English Truth of the Christian Religion: Clarke 1743 (PD). Vendored Defence of the Catholic Faith concerning Satisfaction
+    is not a commentary.'
+  host: archive.org, e-rara (unverified)
+  lic: Public domain
+  use: Early critical-historical notes on every NT book.
+  cav: Remonstrant. Serves the Dort world, not the six.
+  conf: knowledge
+  subquestions:
+  - C1.S5
+  - C2.S1
+  - C5.S1
+  - C5.S2
+  - C5.S3
+  - C5.S6
+  - C5.S8
+  - C13.S3
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 4
+  native_voice_for: []
+  rank: 128
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - HERM
+  - CRIT_APOL
+  later_groups:
+  - REF2
+- id: r43
+  work: Paraphrase on the New Testament (1685); Poetical Fragments
+  author: Richard Baxter
+  era: '8'
+  ed: 1685 printing (PD)
+  host: archive.org, EEBO (unverified)
+  lic: Public domain
+  use: Plain NT paraphrase.
+  cav: Baxter's Reliquiae and Autobiography are vendored but are not commentary.
+  conf: knowledge
+  subquestions:
+  - C1.S1
+  - C1.S2
+  - C1.S3
+  - C1.S4
+  - C1.S6
+  - C1.S7
+  - C1.S8
+  - C3.S1
+  - C3.S2
+  - C3.S4
+  - C3.S5
+  - C3.S7
+  - C3.S8
+  - C4.S1
+  - C4.S4
+  - C4.S5
+  - C4.S8
+  - C5.S2
+  - C6.S2
+  - C7.S1
+  - C7.S2
+  - C7.S3
+  - C7.S6
+  - C7.S7
+  - C8.S2
+  - C8.S4
+  - C8.S7
+  - C9.S4
+  - C10.S1
+  - C10.S2
+  - C10.S4
+  - C11.S1
+  - C11.S5
+  - C13.S1
+  - C13.S2
+  - C13.S3
+  - C13.S4
+  - C14.S1
+  - C14.S2
+  - C14.S4
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 4
+  native_voice_for: []
+  rank: 129
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - GOSP
+  - GENEPI
+  later_groups:
+  - REF2
+- id: r44
+  work: Exposition on the First Ten Chapters of Genesis (1691); Solomon's Temple Spiritualized; The Holy City (Revelation 21)
+  author: John Bunyan
+  era: '8'
+  ed: Works, Offor ed., 3 vols, 1853 (PD). Grace Abounding and Pilgrim's Progress vendored (Brown 1907).
+  host: archive.org (unverified)
+  lic: Public domain
+  use: Genesis 1 to 10; Revelation 21.
+  cav: Bunyan Works not vendored. Hosted copies unverified.
+  conf: repo+knowledge
+  subquestions:
+  - C2.S7
+  - C3.S1
+  - C3.S2
+  - C3.S6
+  - C3.S8
+  - C4.S2
+  - C5.S2
+  - C5.S3
+  - C5.S4
+  - C5.S5
+  - C7.S1
+  - C7.S6
+  - C8.S2
+  - C8.S3
+  - C8.S4
+  - C9.S6
+  - C13.S1
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 4
+  native_voice_for: []
+  rank: 130
+  vendored: partial
+  vendored_note: Bunyan's autobiographical works are vendored; the expository writings are not.
+  worlds: []
+  subquestion_macros:
+  - GEN
+  - DANREV
+  later_groups:
+  - REF2
+- id: r115
+  work: Synopsis of the Books of the Bible (5 vols, 1857-62); Collected Writings; Notes on the Pentateuch (C. H. Mackintosh); Numerical Bible (F. W. Grant, 1890-1902); Exposition of Revelation (William
+    Kelly)
+  author: J. N. Darby; C. H. Mackintosh; F. W. Grant; William Kelly
+  era: '9'
+  ed: Brethren and Bible Truth Publishers editions (PD for the originals)
+  host: stempublishing.com (unverified); archive.org
+  lic: Public domain originals
+  use: Dispensational Bible reading.
+  cav: Outside the six worlds. Serves Plymouth Brethren and dispensational worlds.
+  conf: knowledge
+  subquestions:
+  - C2.S8
+  - C3.S1
+  - C3.S2
+  - C3.S6
+  - C3.S8
+  - C5.S2
+  - C5.S5
+  - C5.S7
+  - C7.S6
+  - C8.S4
+  - C9.S5
+  - C9.S6
+  - C10.S2
+  - C10.S4
+  - C10.S5
+  - C13.S1
+  - C13.S6
+  cells_by_world: {}
+  priority: 0
+  built_world_cells: 0
+  later_worlds_count: 3
+  native_voice_for: []
+  rank: 131
+  vendored: 'no'
+  vendored_note: null
+  worlds: []
+  subquestion_macros:
+  - DANREV
+  - PENT
+  later_groups:
+  - BRETH
+vendored_inventory:
+- author: John Calvin
+  work: Commentaries on Genesis, vols 1 and 2 (King 1847)
+  language: English
+  books: Genesis, complete
+  worlds_mapped: the-reformed-cities-zurich-and-geneva
+  cited_by_record: no. Mapped to rzg, cited by no record.
+- author: Theodore Beza
+  work: Job Expounded (1589)
+  language: English
+  books: Job
+  worlds_mapped: rzg, puritanism
+  cited_by_record: source record only (rzg.source.beza-job-expounded). No quote record.
+- author: Huldrych Zwingli
+  work: Latin Works vol 3 (Heller 1929), holding the Commentary on True and False Religion
+  language: English from Latin
+  books: Systematic commentary on religion, with the Zephaniah 3:1-7 exposition
+  worlds_mapped: rzg
+  cited_by_record: yes. rzg.source.zwingli-latin-works-vol3 and rzg.term.providence.
+- author: Huldrych Zwingli
+  work: Latin Works vol 1 (Jackson 1912); Selected Works (Jackson 1901)
+  language: English
+  books: Early Latin works and Selected Works; exegetical content not checked
+  worlds_mapped: rzg, the-anabaptist-movements
+  cited_by_record: yes. Two rzg records cite Selected Works; one source record cites vol 1.
+- author: Martin Luther
+  work: Works vols 1, 2, 3 (Jacobs, Philadelphia Edition)
+  language: English
+  books: Treatises and the Magnificat (Luke 1:46-55) in vol 3
+  worlds_mapped: lutheran-wittenberg-and-its-congregations
+  cited_by_record: yes. 14, 13 and 16 witt files cite vols 1, 2, 3. Magnificat feeds witt.story.composing-the-magnificat.
+- author: William Tyndale
+  work: 'Doctrinal Treatises (Walter 1848): prologues to Romans, Matthew, Genesis to Deuteronomy, Jonah'
+  language: English
+  books: Romans, Matthew, Pentateuch, Jonah prologues
+  worlds_mapped: the-english-reformation-and-elizabethan-settleme
+  cited_by_record: 'no'
+- author: Church of England
+  work: Two Books of Homilies (Griffiths 1859)
+  language: English
+  books: Homilies on Scripture reading, salvation, faith, good works, fasting
+  worlds_mapped: english reformation, puritanism
+  cited_by_record: 'no'
+- author: Hugh Latimer
+  work: Sermons (Corrie 1844)
+  language: English
+  books: Sermons including the Lord's Prayer series
+  worlds_mapped: english reformation
+  cited_by_record: 'no'
+- author: William Perkins
+  work: Golden Chaine with the Exposition of the Symbole (Legat 1600)
+  language: English
+  books: The Creed
+  worlds_mapped: puritanism, english reformation
+  cited_by_record: 'no'
+- author: Richard Sibbes
+  work: Complete Works vol 1 (Grosart 1862)
+  language: English
+  books: Bruised Reed (Isaiah 42:3) and other text-based treatises
+  worlds_mapped: puritanism
+  cited_by_record: 'no'
+- author: Theodore Haak (ed.)
+  work: Dutch Annotations upon the whole Bible (1657), FRONT MATTER ONLY
+  language: English
+  books: 'Not the Bible notes: title page, ordinance, Haak''s preface'
+  worlds_mapped: dutch-further-reformation, puritanism, remonstrants
+  cited_by_record: 'no'
+- author: Johann Albrecht Bengel
+  work: Gnomon of the New Testament vol I (Fausset 1857)
+  language: English
+  books: Matthew and Mark
+  worlds_mapped: german-pietism, the-methodist-revival
+  cited_by_record: 'no'
+- author: Johann Albrecht Bengel
+  work: Erklaerte Offenbarung Johannis (1740)
+  language: German
+  books: Revelation
+  worlds_mapped: german-pietism
+  cited_by_record: 'no'
+- author: Johann Albrecht Bengel
+  work: Introduction to the Exposition of the Apocalypse (1757)
+  language: English
+  books: Revelation
+  worlds_mapped: german-pietism
+  cited_by_record: 'no'
+- author: A. H. Francke
+  work: Christ the Sum and Substance of Scripture (1732)
+  language: English
+  books: Christ-centred reading of the whole Bible
+  worlds_mapped: german-pietism
+  cited_by_record: 'no'
+- author: John Wesley
+  work: Sermons on Several Occasions vol I (1771)
+  language: English
+  books: Standard Sermons I, II, IV to XVI
+  worlds_mapped: the-methodist-revival
+  cited_by_record: no (meth has no records)
+- author: George Whitefield
+  work: Works vol 6 Sermons (1771); vol 1 Letters
+  language: English
+  books: Sermons on single texts
+  worlds_mapped: meth, evangelical awakening
+  cited_by_record: 'no'
+- author: Jonathan Edwards
+  work: Selected Sermons (Gardiner 1904); Works vol 1 (Dwight 1830)
+  language: English
+  books: Sermons; memoir and diary
+  worlds_mapped: evangelical awakening
+  cited_by_record: 'no'
+- author: Jeronimo Nadal
+  work: Adnotationes et Meditationes in Evangelia (1595)
+  language: Latin
+  books: The Sunday and feast Gospels
+  worlds_mapped: the-society-of-jesus
+  cited_by_record: no (jes has no records)
+- author: Faustus Socinus
+  work: Opera omnia, exegetical volume (1656)
+  language: Latin
+  books: Commentaries on Matthew and 1 John; De Auctoritate Sacrae Scripturae
+  worlds_mapped: anti-trinitarian currents
+  cited_by_record: 'no'
+- author: Menno Simons
+  work: Complete Works (Funk 1871)
+  language: English
+  books: Treatises, with an exposition of a psalm (unverified which)
+  worlds_mapped: the-anabaptist-movements
+  cited_by_record: 'no'
+- author: Caspar Schwenckfeld
+  work: Auslegung des ersten Capitels Zacharia (1547)
+  language: German
+  books: Zechariah 1
+  worlds_mapped: schwenckfelders
+  cited_by_record: 'no'
+- author: Sebastian Franck
+  work: Paradoxa (Rab 1559)
+  language: German
+  books: About 280 Scripture contradictions explained
+  worlds_mapped: family-of-love
+  cited_by_record: 'no'
+- author: William Ames
+  work: Marrow of Sacred Divinity (1639)
+  language: English
+  books: Doctrine drawn from Scripture and its interpreters
+  worlds_mapped: dutch further reformation, puritanism
+  cited_by_record: 'no'
+- author: Westminster Assembly
+  work: Confession, Catechisms, with the Scripture proofs at large (Nelson 1877)
+  language: English
+  books: Scripture proof texts for each answer
+  worlds_mapped: puritanism, scottish reformation
+  cited_by_record: 'no'
+- author: Dimitrii of Rostov
+  work: Tvoreniia (Sytin 1889)
+  language: Russian
+  books: Sermons and homilies
+  worlds_mapped: russian-church-nikon-to-holy-synod, kyiv-mohyla
+  cited_by_record: 'no'
+- author: Feofan Prokopovich
+  work: Slova i rechi (1760)
+  language: Russian
+  books: Sermons and speeches
+  worlds_mapped: russian-church-nikon-to-holy-synod
+  cited_by_record: 'no'
+- author: Tikhon of Zadonsk
+  work: Nastavleniia dlia monashestvuiushchikh (1854)
+  language: Russian
+  books: Instructions with scriptural basis
+  worlds_mapped: russian church, old believers, optina
+  cited_by_record: 'no'
+- author: Avvakum
+  work: Sochineniia, Materialy dlia istorii raskola vol 5 (Subbotin 1879)
+  language: Russian
+  books: Letters, petitions and his commentaries (scope not checked)
+  worlds_mapped: the-old-believers
+  cited_by_record: no (obel has no records)
+- author: Andrei Denisov; Deacon Fyodor; Avraamii
+  work: Pomorskie otvety (1911 ed.); Materialy vols 6 and 7
+  language: Russian
+  books: Scriptural answers to the Orthodox; the Creed; the Apocalypse (unverified)
+  worlds_mapped: the-old-believers
+  cited_by_record: 'no'
+- author: Jan Hus (Era 6, for the hus world)
+  work: 'Sebrane spisy ceske vols 1-3 (Erben 1865-68): Czech Postilla in vol 2'
+  language: Czech
+  books: Sermons on the Sunday Gospels and Epistles (the Postilla)
+  worlds_mapped: hus
+  cited_by_record: no (hus has no records)
+- author: Unity of the Brethren
+  work: Biblj svata (1887 printing of the 1613 text)
+  language: Czech
+  books: Whole Bible, cross-references only, no notes
+  worlds_mapped: czech-churches-last-century
+  cited_by_record: 'no'
+- author: A. G. Spangenberg
+  work: Exposition of Christian Doctrine (1784)
+  language: English
+  books: Doctrine by topic with texts
+  worlds_mapped: the-moravian-church-at-herrnhut
+  cited_by_record: 'no'
+- author: N. L. von Zinzendorf
+  work: Seven Sermons on the Godhead of the Lamb (1742)
+  language: English
+  books: Sermon series on Christ's divinity
+  worlds_mapped: the-moravian-church-at-herrnhut
+  cited_by_record: 'no'
+- author: Peter Canisius
+  work: Summe of Christian Doctrine (1622; Latin 1565, 1573)
+  language: English, Latin
+  books: Catechism with article-by-article comment on the Creed
+  worlds_mapped: the-society-of-jesus
+  cited_by_record: 'no'
+- author: World English Bible; Nestle 1904 Greek NT; Wycliffite, Kralice, Gothic Bibles
+  work: Bible texts
+  language: various
+  books: 'Text only, no notes: not commentary'
+  worlds_mapped: various
+  cited_by_record: n/a
+vendored_unused_note: 'Of the vendored commentary and sermon-series works above, only five are cited by any record: Zwingli Latin Works vol 3 and Selected Works (rzg), Luther Works vols 1 to 3 (witt), and
+  Beza''s Job as a source record (rzg). The rest are cited by no record. Four of the six scored worlds (hus, jes, meth, obel) have no records at all, so everything mapped to them is unused by construction.'
+queued_not_vendored:
+- work: Salmeron, Commentarii in Evangelicam Historiam et in Acta Apostolorum (Cologne 1612-15)
+  world: jes
+  recorded_in: download-queue-seed.yaml; WANTS-REGISTER.md; jes Source_Registry row 63 ('Nothing yet')
+  note: archive.org bub_gb_h3W7gRextFsC and other volumes; pd-us-by-date; which volume is which not checked
+- work: Rheims New Testament 1582 with annotations; Douai Old Testament 1609-10
+  world: recusant-english-catholicism (serves jes)
+  recorded_in: download-queue-seed.yaml
+  note: archive.org scans thenewtestamento00rhei (Princeton) and a Boston Public Library scan; 2.9 to 3.2 MB each; the queue says to take the BPL scan for the annotations
+- work: Wesley, Sermons on Several Occasions vols II onward (28 more Standard Sermons, including the 13 on the Sermon on the Mount)
+  world: meth
+  recorded_in: meth/Source_Acquisition_Manifest.md gap G2; meth Source_Registry row 10
+  note: Project Gutenberg 32-volume Works; public domain
+- work: Luther, Das Newe Testament Deutzsch (1522) and German Bible (1534), with prefaces and glosses
+  world: witt
+  recorded_in: 'witt.source.luther-das-newe-testament-deutzsch, kind: unvendored'
+  note: Rights status 'as characterized in the Source Registry, not independently re-verified'. The originals are public domain by date
+- work: Maxim the Greek, Sochineniia parts 2 and 3 (1910-11)
+  world: russian-church-stoglav-to-nikon (serves obel)
+  recorded_in: download-queue-seed.yaml
+  note: Russian; public domain by date
+- work: The Olivetan Bible (French 1535, with Olivetan's prefaces)
+  world: the-waldensian-reformed-union
+  recorded_in: download-queue-seed.yaml
+  note: Not a verse commentary; carries prefaces
+- work: Hus, Postilla (Vilimek 1901) in a modern-orthography edition
+  world: hus
+  recorded_in: download-queue-seed.yaml
+  note: Erben's Czech Postilla is already vendored; low priority
+- work: Hubmaier, Writings, microfilm vols 1 and 3
+  world: the-anabaptist-movements
+  recorded_in: download-queue-seed.yaml
+  note: Exegetical pamphlets, not commentary
+- work: Dutch Annotations, the 13.4 MB body of the 1657 English text
+  world: dutch-further-reformation-and-refuge-culture (serves rzg only by analogy)
+  recorded_in: vendored as front matter only; archive.org item dutch-annotations
+  note: Public Domain Mark 1.0 on the host
+- work: Beza, works generally; the Genevan Psalter (complete 1562)
+  world: rzg
+  recorded_in: 'rzg.source.beza-works; rzg.source.genevan-psalter, kind: unvendored'
+  note: Beza's Job is vendored; the rest is not
+- work: Palladius, Brevis expositio catechismi pro parochis Norvegianis (1552); Philaret, Doctrine of the Russian Church (1845)
+  world: scandinavian reformation; russian church synodal century
+  recorded_in: download-queue-seed.yaml
+  note: Catechism expositions, not Bible commentary
+rights_blocks:
+- 'Luther''s Works, American Edition (Concordia and Fortress, 55 vols): in copyright. Use Latin and German originals, Lenker''s Postils (1905-09) and Hay''s Sermon on the Mount (1892) instead.'
+- 'Watson (1953) on Galatians, Preus (1972) on Romans, Kramer (1992) on Melanchthon''s Romans, Preus (1989) Chemnitz Loci, Kramer (1971-86) Examen: in copyright.'
+- 'Collected Works of Erasmus (Toronto), the Peter Martyr Library (Truman State), Backus''s Bucer (Brill), Eerdmans and Banner of Truth reprint typesetting: edition rights block copying even where the text
+  is old.'
+- 'Tolle Lege 2006 Geneva Bible facsimile apparatus; Supplementa Calviniana critical editions; Klassen and Klaassen Marpeck (1978): in copyright.'
+- 'Yale Works of Jonathan Edwards: free to read online, but not an open licence; no redistribution.'
+- Mossman's a Lapide is public domain; the Loreto revision (2008 on) is in copyright.
+- 'Theophan the Recluse and Philaret in English (St Herman and other 20th-century presses): in copyright. Russian originals are public domain by date.'
+- 'Africa Bible Commentary (2006) and the Asia, South Asia and Latin American commentary series: in copyright, not openly licensed. Do not copy. Permission request to the publisher is the only route.'
+- 'NET Bible notes, Faithlife Study Bible notes, Spirit-Filled Life Bible, ESV Study Bible: free to read or sold, not open. Rights block.'
+- 'A. T. Robertson, Word Pictures: only 1930 volumes are public domain now; later volumes enter in 2027 to 2029. Many sites ignore this.'
+- 'International Critical Commentary and other series: only volumes published 1930 or earlier. Later volumes are in copyright.'
+- 'New Scofield (1967) and later Scofield editions: in copyright. Use 1909 and 1917 only.'
+- 'Barth''s Romans in Hoskyns''s English (1933): in copyright. German 1919 and 1922 are public domain in the US by date only; Barth died 1968, so the EU protects them to 2038.'
+- 'Lagrange''s English translations: in copyright. French originals before 1931 are public domain in the US and in France (Lagrange d. 1938).'
+- 'Era 10 commentary of any depth after 1930 (Barth''s Dogmatics, Bonhoeffer, Lenski, Hendriksen, Bruce, the NICNT and Anchor Bible sets, Black church, Pentecostal and global-south commentaries published
+  after 1930): in copyright. Only openly licensed material is listed: unfoldingWord notes (CC BY-SA 4.0, confident), Tyndale Open Study Notes (CC BY-SA 4.0, unverified), Berean Standard Bible (public domain
+  since 2023), World English Bible (public domain).'
+- 'Hill''s 1944 Loci Communes translation: rights status unverified. Do not use until checked.'

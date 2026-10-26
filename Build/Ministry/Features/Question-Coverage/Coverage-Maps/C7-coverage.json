@@ -1,0 +1,4974 @@
+{
+ "generated": "2026-10-26",
+ "method": {
+  "tool": "scratchpad/tools/coverage_search.py, --whole-words --regex, nine term sets (search/C7/terms.txt; outputs S1-baptism ... S8-saints-rites .json, all present and non-empty)",
+  "numbering": "The saved runs used the earlier agent's own split (S1 baptism, S2 meal, S3 prayer, S4 gathering + S4b music/images/posture, S5 confession, S6 fasting, S7 calendar, S8 saints/rites). This report uses the fixed ids of repo/07-subquestions.yaml: C7.S1 baptism, S2 meal, S3 prayer, S4 worship, S5 confession and fasting, S6 calendar, S7 Mary/saints/anointing/weddings/funerals/unbaptised visitor, S8 apostolic origin. Earlier S5+S6 map to S5; earlier S7 maps to S6 and S8; earlier S8 maps to S7; the unbaptised visitor (C7-27) moved from S1 to S7.",
+  "record_check": "independent read of front matter in records/<code>/ (recgrep.json, survey and topic scripts in search/C7/work/), then reading the key records in full; hits were judged on content, not counts",
+  "source_hits": "each source_hits entry was found by regex in a file mapped to the world in cic/corpus-map/ and read in context; where the passage is an editor's note or a later redaction the note says so",
+  "verification": "verify.py: quote text normalised and searched in the vendored file named by the source record; 90 quote records checked earlier (verify-all.json), 4 MISMATCH read by hand and found to be editorial artefacts (listed as MATCH (editorial artefact))",
+  "depth": "full / partial / thin = how much of the sub-question the voice could answer from the world's own records today (a judgement from reading the records, not a count); LOADED cells are thin by definition",
+  "layers": "RENDERED = a record speaks to the sub-question (star = true when only an honest_limit or guard answers; partial answers stay plain R and the note says what is missing); LOADED = vendored and mapped, read in context, no record; IDENTIFIED = registered, unvendored; OTHER = public-domain source outside the repo, named from working knowledge, not fetched; NOTHING.",
+  "lpc": "All 330 lpc records are status: draft; counted as RENDERED with that caveat. lpc has no card.",
+  "not_read": "canon/sealed_probes/ was not read; no model calls; no network."
+ },
+ "sub_questions": [
+  {
+   "id": "S1",
+   "full_id": "C7.S1",
+   "label": "Becoming one of them; baptism: infants, dunking or pouring",
+   "canonical": "C7-01",
+   "question_ids": [
+    "C7-01",
+    "C7-06",
+    "C7-15"
+   ],
+   "questions": {
+    "C7-01": "How did a person actually become one of you? Walk me through it.",
+    "C7-06": "Did you baptise babies, or only adults who chose it for themselves?",
+    "C7-15": "Did you baptise by dunking or by pouring?"
+   }
+  },
+  {
+   "id": "S2",
+   "full_id": "C7.S2",
+   "label": "The meal: what happened, how often, real presence or symbol, who was refused",
+   "canonical": "C7-03",
+   "question_ids": [
+    "C7-03",
+    "C7-07",
+    "C7-09",
+    "C7-17",
+    "C7-23",
+    "C7-28"
+   ],
+   "questions": {
+    "C7-03": "What happened at the meal you shared?",
+    "C7-07": "What was the bread and cup to you — is that what we call transubstantiation?",
+    "C7-09": "Was there anyone you wouldn't share it with?",
+    "C7-17": "How often did you take communion? Every week? Every day?",
+    "C7-23": "Did you believe the bread really became Christ's body, or was it a symbol?",
+    "C7-28": "Was anyone ever refused communion? For what?"
+   }
+  },
+  {
+   "id": "S3",
+   "full_id": "C7.S3",
+   "label": "Prayer: why and how, set or free, teach me, prayer in anxiety",
+   "canonical": "C7-02",
+   "question_ids": [
+    "C7-02",
+    "C7-18",
+    "C7-24",
+    "R-32",
+    "R-34"
+   ],
+   "questions": {
+    "C7-02": "Why and how did you pray?",
+    "C7-18": "Did you use set prayers, or just speak from the heart?",
+    "C7-24": "Teach me to pray the way you prayed.",
+    "R-32": "'Do not be anxious about anything', Philippians 4:6. How did your people pray when they were anxious?",
+    "R-34": "I'm anxious most of the time. Did prayer help your people with worry?"
+   }
+  },
+  {
+   "id": "S4",
+   "full_id": "C7.S4",
+   "label": "Worship in the room: singing and instruments, buildings, images, posture, preaching",
+   "canonical": "C7-08",
+   "question_ids": [
+    "C7-08",
+    "C7-11",
+    "C7-14",
+    "C7-19",
+    "C7-20",
+    "C7-25",
+    "C7-26"
+   ],
+   "questions": {
+    "C7-08": "What actually happened when you gathered?",
+    "C7-11": "What did your singing sound like? Did you have instruments?",
+    "C7-14": "Did you have icons, statues, crosses in your meeting places? Did you kneel, or stand?",
+    "C7-19": "How long was a service? Who preached, and for how long?",
+    "C7-20": "did you have church buildings",
+    "C7-25": "Did you make the sign of the cross?",
+    "C7-26": "What did your church smell like, sound like, look like inside?"
+   }
+  },
+  {
+   "id": "S5",
+   "full_id": "C7.S5",
+   "label": "Confession and penance; fasting",
+   "canonical": "C7-10",
+   "question_ids": [
+    "C7-04",
+    "C7-10"
+   ],
+   "questions": {
+    "C7-04": "How did your people fast, and what was it for?",
+    "C7-10": "Did you confess your sins to a priest, or to each other, or only to God?"
+   }
+  },
+  {
+   "id": "S6",
+   "full_id": "C7.S6",
+   "label": "The calendar: Sunday or Sabbath, Easter, Christmas, Lent",
+   "canonical": "C7-12",
+   "question_ids": [
+    "C7-12",
+    "C7-13"
+   ],
+   "questions": {
+    "C7-12": "Did you worship on Sunday or the Sabbath?",
+    "C7-13": "Did you keep Christmas and Easter? Lent?"
+   }
+  },
+  {
+   "id": "S7",
+   "full_id": "C7.S7",
+   "label": "Mary and the saints in prayer; anointing the sick; weddings and funerals; the unbaptised visitor",
+   "canonical": "C7-16",
+   "question_ids": [
+    "C7-16",
+    "C7-21",
+    "C7-22",
+    "C7-27"
+   ],
+   "questions": {
+    "C7-16": "Did you pray to Mary or the saints?",
+    "C7-21": "Did you anoint the sick with oil? Did you believe it healed?",
+    "C7-22": "How did you do a wedding? A funeral?",
+    "C7-27": "Could a visitor who wasn't baptised stay for the whole service?"
+   }
+  },
+  {
+   "id": "S8",
+   "full_id": "C7.S8",
+   "label": "Did the practices go back to the apostles",
+   "canonical": "C7-05",
+   "question_ids": [
+    "C7-05"
+   ],
+   "questions": {
+    "C7-05": "How do you know your practices went back to the apostles and weren't later inventions?"
+   }
+  }
+ ],
+ "demonstrations_by_canon_cell": {
+  "alx": {
+   "F4-I": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F4-T": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F1-T": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F3-I": {
+    "count": 0,
+    "demonstrations": []
+   }
+  },
+  "cappadocian": {
+   "F4-I": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F4-T": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F1-T": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F3-I": {
+    "count": 0,
+    "demonstrations": []
+   }
+  },
+  "desert": {
+   "F4-I": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F4-T": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F1-T": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F3-I": {
+    "count": 0,
+    "demonstrations": []
+   }
+  },
+  "don": {
+   "F4-I": {
+    "count": 1,
+    "demonstrations": [
+     {
+      "id": "don.demo.baptism-threshold",
+      "canon_question_id": "f4-i-01"
+     }
+    ]
+   },
+   "F4-T": {
+    "count": 1,
+    "demonstrations": [
+     {
+      "id": "don.demo.born-again",
+      "canon_question_id": "f4-t-01"
+     }
+    ]
+   },
+   "F1-T": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F3-I": {
+    "count": 0,
+    "demonstrations": []
+   }
+  },
+  "gallic": {
+   "F4-I": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F4-T": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F1-T": {
+    "count": 1,
+    "demonstrations": [
+     {
+      "id": "gallic.demo.faith-alone",
+      "canon_question_id": "f1-t-03"
+     }
+    ]
+   },
+   "F3-I": {
+    "count": 1,
+    "demonstrations": [
+     {
+      "id": "gallic.demo.who-chose-bishops",
+      "canon_question_id": "f3-i-05"
+     }
+    ]
+   }
+  },
+  "hal": {
+   "F4-I": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F4-T": {
+    "count": 1,
+    "demonstrations": [
+     {
+      "id": "hal.demo.born-again",
+      "canon_question_id": "f4-t-01"
+     }
+    ]
+   },
+   "F1-T": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F3-I": {
+    "count": 0,
+    "demonstrations": []
+   }
+  },
+  "ijc": {
+   "F4-I": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F4-T": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F1-T": {
+    "count": 1,
+    "demonstrations": [
+     {
+      "id": "ijc.demo.bread-and-cup",
+      "canon_question_id": "f1-t-02"
+     }
+    ]
+   },
+   "F3-I": {
+    "count": 0,
+    "demonstrations": []
+   }
+  },
+  "lpc": {
+   "F4-I": {
+    "count": 1,
+    "demonstrations": [
+     {
+      "id": "lpc.demo.road-back-examined",
+      "canon_question_id": "f4-i-05"
+     }
+    ]
+   },
+   "F4-T": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F1-T": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F3-I": {
+    "count": 0,
+    "demonstrations": []
+   }
+  },
+  "pahc": {
+   "F4-I": {
+    "count": 1,
+    "demonstrations": [
+     {
+      "id": "pahc.demo.becoming-one-of-us",
+      "canon_question_id": "f4-i-01"
+     }
+    ]
+   },
+   "F4-T": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F1-T": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F3-I": {
+    "count": 0,
+    "demonstrations": []
+   }
+  },
+  "rzg": {
+   "F4-I": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F4-T": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F1-T": {
+    "count": 1,
+    "demonstrations": [
+     {
+      "id": "rzg.demo.predestination-and-dread",
+      "canon_question_id": "f1-t-03"
+     }
+    ]
+   },
+   "F3-I": {
+    "count": 0,
+    "demonstrations": []
+   }
+  },
+  "syr": {
+   "F4-I": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F4-T": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F1-T": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F3-I": {
+    "count": 1,
+    "demonstrations": [
+     {
+      "id": "syr.demo.authority",
+      "canon_question_id": "f3-i-01"
+     }
+    ]
+   }
+  },
+  "witt": {
+   "F4-I": {
+    "count": 1,
+    "demonstrations": [
+     {
+      "id": "witt.demo.the-way-in",
+      "canon_question_id": "f4-i-01"
+     }
+    ]
+   },
+   "F4-T": {
+    "count": 0,
+    "demonstrations": []
+   },
+   "F1-T": {
+    "count": 2,
+    "demonstrations": [
+     {
+      "id": "witt.demo.bread-and-cup",
+      "canon_question_id": "f1-t-02"
+     },
+     {
+      "id": "witt.demo.faith-alone",
+      "canon_question_id": "f1-t-03"
+     }
+    ]
+   },
+   "F3-I": {
+    "count": 1,
+    "demonstrations": [
+     {
+      "id": "witt.demo.who-held-authority",
+      "canon_question_id": "f3-i-01"
+     }
+    ]
+   }
+  }
+ },
+ "records_tagged_with_canon_cell": {
+  "alx": {
+   "F4-I": 24,
+   "F4-T": 8,
+   "F1-T": 8,
+   "F3-I": 19
+  },
+  "cappadocian": {
+   "F4-I": 2,
+   "F4-T": 2,
+   "F1-T": 1,
+   "F3-I": 2
+  },
+  "desert": {
+   "F4-I": 26,
+   "F4-T": 4,
+   "F1-T": 6,
+   "F3-I": 29
+  },
+  "don": {
+   "F4-I": 7,
+   "F4-T": 2,
+   "F1-T": 1,
+   "F3-I": 10
+  },
+  "gallic": {
+   "F4-I": 14,
+   "F4-T": 2,
+   "F1-T": 12,
+   "F3-I": 2
+  },
+  "hal": {
+   "F4-I": 8,
+   "F4-T": 2,
+   "F1-T": 2,
+   "F3-I": 8
+  },
+  "ijc": {
+   "F4-I": 5,
+   "F4-T": 3,
+   "F1-T": 4,
+   "F3-I": 21
+  },
+  "lpc": {
+   "F4-I": 15,
+   "F4-T": 1,
+   "F1-T": 7,
+   "F3-I": 14
+  },
+  "pahc": {
+   "F4-I": 13,
+   "F4-T": 2,
+   "F1-T": 2,
+   "F3-I": 22
+  },
+  "rzg": {
+   "F4-I": 7,
+   "F4-T": 2,
+   "F1-T": 15,
+   "F3-I": 9
+  },
+  "syr": {
+   "F4-I": 7,
+   "F4-T": 3,
+   "F1-T": 2,
+   "F3-I": 20
+  },
+  "witt": {
+   "F4-I": 9,
+   "F4-T": 3,
+   "F1-T": 2,
+   "F3-I": 12
+  }
+ },
+ "card_tags_c7": {
+  "pahc": [
+   {
+    "tag": "Baptism",
+    "strength": "strong",
+    "record": "pahc.term.baptisma"
+   },
+   {
+    "tag": "Communion",
+    "strength": "strong",
+    "record": "pahc.gravity.liturgical-practice"
+   },
+   {
+    "tag": "Prayer",
+    "strength": "some",
+    "record": "pahc.witness.prayer-and-struggle"
+   }
+  ],
+  "alx": [
+   {
+    "tag": "Baptism",
+    "strength": "some",
+    "record": "alx.term.baptism"
+   },
+   {
+    "tag": "Communion",
+    "strength": "some",
+    "record": "alx.term.eucharistia"
+   },
+   {
+    "tag": "Prayer",
+    "strength": "some",
+    "record": "alx.term.prayer"
+   },
+   {
+    "tag": "Fasting and self-denial",
+    "strength": "some",
+    "record": "alx.term.fasting"
+   }
+  ],
+  "syr": [
+   {
+    "tag": "Hymns and music",
+    "strength": "strong",
+    "record": "syr.term.madrasha"
+   }
+  ],
+  "desert": [
+   {
+    "tag": "Fasting and self-denial",
+    "strength": "some",
+    "record": "desert.core.desert"
+   }
+  ],
+  "don": [
+   {
+    "tag": "Baptism",
+    "strength": "strong",
+    "record": "don.gravity.rebaptism-boundary"
+   },
+   {
+    "tag": "Saints and holy places",
+    "strength": "strong",
+    "record": "don.gravity.martyr-cult-identity"
+   },
+   {
+    "tag": "Feast days and remembering the dead",
+    "strength": "strong",
+    "record": "don.term.anniversaria-commemoratio"
+   }
+  ],
+  "cappadocian": [
+   {
+    "tag": "Baptism",
+    "strength": "strong",
+    "record": "cappadocian.dw.baptism-and-new-birth"
+   },
+   {
+    "tag": "Hymns and music",
+    "strength": "strong",
+    "record": "cappadocian.dw.psalms-teach-the-singer"
+   },
+   {
+    "tag": "Saints and holy places",
+    "strength": "strong",
+    "record": "cappadocian.gravity.martyrs-land"
+   },
+   {
+    "tag": "Fasting and self-denial",
+    "strength": "some",
+    "record": "cappadocian.dw.becoming-one-of-us"
+   },
+   {
+    "tag": "Feast days and remembering the dead",
+    "strength": "some",
+    "record": "cappadocian.gravity.martyrs-land"
+   }
+  ],
+  "ijc": [
+   {
+    "tag": "Baptism",
+    "strength": "some",
+    "record": "ijc.dw.baptism-threshold"
+   },
+   {
+    "tag": "Communion",
+    "strength": "some",
+    "record": "ijc.dw.bread-made-body"
+   },
+   {
+    "tag": "Hymns and music",
+    "strength": "some",
+    "record": "ijc.quote.augustine-vigil-hymns"
+   }
+  ],
+  "hal": [
+   {
+    "tag": "Saints and holy places",
+    "strength": "some",
+    "record": "hal.dw.record"
+   }
+  ],
+  "gallic": [
+   {
+    "tag": "Prayer",
+    "strength": "some",
+    "record": "gallic.term.unceasing-prayer"
+   },
+   {
+    "tag": "Saints and holy places",
+    "strength": "some",
+    "record": "gallic.quote.martin-and-the-unattested-tomb"
+   },
+   {
+    "tag": "Fasting and self-denial",
+    "strength": "strong",
+    "record": "gallic.term.purity-of-heart"
+   }
+  ],
+  "witt": [
+   {
+    "tag": "Baptism",
+    "strength": "strong",
+    "record": "witt.term.baptism"
+   },
+   {
+    "tag": "Communion",
+    "strength": "strong",
+    "record": "witt.term.sacrament-of-the-altar"
+   },
+   {
+    "tag": "Prayer",
+    "strength": "strong",
+    "record": "witt.term.prayer"
+   },
+   {
+    "tag": "Hymns and music",
+    "strength": "strong",
+    "record": "witt.term.hymn"
+   },
+   {
+    "tag": "Saints and holy places",
+    "strength": "some",
+    "record": "witt.term.saints"
+   },
+   {
+    "tag": "Fasting and self-denial",
+    "strength": "some",
+    "record": "witt.term.fasting"
+   }
+  ],
+  "rzg": [
+   {
+    "tag": "Baptism",
+    "strength": "some",
+    "record": "rzg.witness.why-the-children-too"
+   },
+   {
+    "tag": "Communion",
+    "strength": "strong",
+    "record": "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+   },
+   {
+    "tag": "Saints and holy places",
+    "strength": "some",
+    "record": "rzg.limit.hagiography-refused"
+   }
+  ]
+ },
+ "flags": {
+  "hymns_and_music": "Card tag on cappadocian, ijc, syr, witt. The only question behind it is C7-11 (PREDICTED, no canon cell, no demonstration). Records exist on all four worlds; no record answers instruments (witt term.hymn mentions old tunes, rzg's organ silence is Inferential-Thin).",
+  "feast_days": "Card tag 'Feast days and remembering the dead' on cappadocian ('some', traced to gravity.martyrs-land) and don ('strong', traced to term.anniversaria-commemoratio, whose not_for refuses calling it a fixed calendar). The questions behind it are C7-13 and C7-12 (PREDICTED). No Christmas, Easter or Lent record exists in any of the twelve except Syriac's Nativity hymn (date barred) and Leo's Christmas sermon (undated).",
+  "icons": "No card tag for icons or images exists in the shared list of 35. The question is C7-14 (PREDICTED). Records: witt term.images; rzg witness.what-a-stranger-would-notice (inferred absence); desert and alx nothing. No world renders an icon practice.",
+  "confession": "No card tag for confession; 'Sin and forgiveness' is the nearest of the 35. The question is C7-10 (PREDICTED); the adjacent canon question is f4-i-05 (the road back), which has a demonstration only for lpc. Rendered: gallic (disclosure of thoughts, penance), syr (medicine of penitence), witt (private confession kept), lpc (the lapsed, draft)."
+ },
+ "verification_all": {
+  "alx.quote.timothy-ordinary-questions": {
+   "record": "alx.quote.timothy-ordinary-questions",
+   "result": "MATCH (spacing-only)",
+   "file": "npnf214_seven-ecumenical-councils.xml",
+   "lines": [
+    44111,
+    44145,
+    44156
+   ],
+   "detail": null
+  },
+  "alx.quote.clement-new-song": {
+   "record": "alx.quote.clement-new-song",
+   "result": "MATCH",
+   "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "lines": [
+    15213
+   ],
+   "detail": null
+  },
+  "alx.quote.ecclesiastical-and-apostolical-tradition": {
+   "record": "alx.quote.ecclesiastical-and-apostolical-tradition",
+   "result": "MATCH",
+   "file": "anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+   "lines": [
+    22432
+   ],
+   "detail": null
+  },
+  "cappadocian.quote.basil-against-delaying-baptism": {
+   "record": "cappadocian.quote.basil-against-delaying-baptism",
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    7018
+   ],
+   "detail": null
+  },
+  "cappadocian.quote.baptize-believe-glorify-in-sequence": {
+   "record": "cappadocian.quote.baptize-believe-glorify-in-sequence",
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    14168
+   ],
+   "detail": null
+  },
+  "cappadocian.quote.basil-on-antiphonal-psalmody": {
+   "record": "cappadocian.quote.basil-on-antiphonal-psalmody",
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    37288
+   ],
+   "detail": null
+  },
+  "cappadocian.quote.basil-on-work-and-prayer": {
+   "record": "cappadocian.quote.basil-on-work-and-prayer",
+   "result": "MATCH (editorial artefact)",
+   "file": "basil_ascetic-works-longer-shorter-rules_clarke1925.txt",
+   "lines": [
+    17072,
+    17092
+   ],
+   "detail": "wording identical; the scan inserts footnote glyphs and a column letter (a superscript mark after \"everything\", a stray \"E\" in \"with E the tongue\") that the record omits"
+  },
+  "cappadocian.quote.we-look-to-the-east": {
+   "record": "cappadocian.quote.we-look-to-the-east",
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    14068
+   ],
+   "detail": null
+  },
+  "cappadocian.quote.basil-canon-to-amphilochius": {
+   "record": "cappadocian.quote.basil-canon-to-amphilochius",
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    36336
+   ],
+   "detail": null
+  },
+  "cappadocian.quote.basil-canon-on-digamy": {
+   "record": "cappadocian.quote.basil-canon-on-digamy",
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    35030
+   ],
+   "detail": null
+  },
+  "cappadocian.quote.basil-on-eustathius-rupture": {
+   "record": "cappadocian.quote.basil-on-eustathius-rupture",
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    39744
+   ],
+   "detail": null
+  },
+  "cappadocian.quote.what-is-the-written-source": {
+   "record": "cappadocian.quote.what-is-the-written-source",
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    14128
+   ],
+   "detail": null
+  },
+  "desert.quote.pachomius-angel-tablet": {
+   "record": "desert.quote.pachomius-angel-tablet",
+   "result": "MATCH (editorial artefact)",
+   "file": "palladius_lausiac-history_clarke1918.txt",
+   "lines": [
+    401
+   ],
+   "detail": "wording identical; a page marker \"|113\" falls inside the quoted passage"
+  },
+  "desert.quote.never-held-communion-with-the-schismatics": {
+   "record": "desert.quote.never-held-communion-with-the-schismatics",
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    32908
+   ],
+   "detail": null
+  },
+  "desert.quote.twelve-psalms-by-an-angel": {
+   "record": "desert.quote.twelve-psalms-by-an-angel",
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    17184
+   ],
+   "detail": null
+  },
+  "desert.quote.so-perfectly-silent": {
+   "record": "desert.quote.so-perfectly-silent",
+   "result": "MATCH (spacing-only)",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    17397
+   ],
+   "detail": null
+  },
+  "desert.quote.ladder-from-compunction": {
+   "record": "desert.quote.ladder-from-compunction",
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    20064,
+    20066
+   ],
+   "detail": null
+  },
+  "desert.quote.never-kneel-saturday-to-sunday": {
+   "record": "desert.quote.never-kneel-saturday-to-sunday",
+   "result": "MATCH (spacing-only)",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    17735
+   ],
+   "detail": null
+  },
+  "desert.quote.ethiopic-rule-eat-and-drink": {
+   "record": "desert.quote.ethiopic-rule-eat-and-drink",
+   "result": "MATCH",
+   "file": "pachomius_rules-ethiopic_schodde1885.txt",
+   "lines": [
+    174
+   ],
+   "detail": null
+  },
+  "desert.quote.monks-like-hyenas": {
+   "record": "desert.quote.monks-like-hyenas",
+   "result": "MATCH (editorial artefact)",
+   "file": "pachomius_rules-ethiopic_schodde1885.txt",
+   "lines": [
+    224,
+    226,
+    228
+   ],
+   "detail": "wording identical; the passage runs across a page break marked \"[p. 687]\""
+  },
+  "desert.quote.origen-on-the-sinning-brother": {
+   "record": "desert.quote.origen-on-the-sinning-brother",
+   "result": "MATCH",
+   "file": "anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+   "lines": [
+    36234
+   ],
+   "detail": null
+  },
+  "don.quote.deo-laudes": {
+   "record": "don.quote.deo-laudes",
+   "result": "MATCH",
+   "file": "cil8-supplementum-numidiae_cagnat-schmidt1894.txt",
+   "lines": [
+    44
+   ],
+   "detail": null
+  },
+  "gallic.quote.martin-raises-the-catechumen": {
+   "record": "gallic.quote.martin-raises-the-catechumen",
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    977
+   ],
+   "detail": null
+  },
+  "gallic.quote.the-catechumens-testimony": {
+   "record": "gallic.quote.the-catechumens-testimony",
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    1007,
+    1023
+   ],
+   "detail": null
+  },
+  "gallic.quote.gallus-on-the-forced-communion-and-the-angel": {
+   "record": "gallic.quote.gallus-on-the-forced-communion-and-the-angel",
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    5145,
+    5184
+   ],
+   "detail": null
+  },
+  "gallic.quote.the-fathers-and-the-angels-twelve": {
+   "record": "gallic.quote.the-fathers-and-the-angels-twelve",
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    17141,
+    17171,
+    17173,
+    17182,
+    17184,
+    17191,
+    17193,
+    17197,
+    17199,
+    17225,
+    1674,
+    17231
+   ],
+   "detail": null
+  },
+  "gallic.quote.the-psalm-that-answered-defensor": {
+   "record": "gallic.quote.the-psalm-that-answered-defensor",
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    1088
+   ],
+   "detail": null
+  },
+  "gallic.quote.martin-funeral-triumph-contrast": {
+   "record": "gallic.quote.martin-funeral-triumph-contrast",
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    2506
+   ],
+   "detail": null
+  },
+  "gallic.quote.paphnutius-asks-for-a-plan-of-repentance": {
+   "record": "gallic.quote.paphnutius-asks-for-a-plan-of-repentance",
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    43040
+   ],
+   "detail": null
+  },
+  "gallic.quote.receiving-christ-in-you": {
+   "record": "gallic.quote.receiving-christ-in-you",
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    21017
+   ],
+   "detail": null
+  },
+  "gallic.quote.martin-funeral-procession-ranks": {
+   "record": "gallic.quote.martin-funeral-procession-ranks",
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    2495
+   ],
+   "detail": null
+  },
+  "gallic.quote.martin-funeral-crowd-and-monks": {
+   "record": "gallic.quote.martin-funeral-crowd-and-monks",
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    2487
+   ],
+   "detail": null
+  },
+  "gallic.quote.pope-stephen-no-innovation": {
+   "record": "gallic.quote.pope-stephen-no-innovation",
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    12527
+   ],
+   "detail": null
+  },
+  "gallic.quote.cassian-adapts-egypt-to-gaul": {
+   "record": "gallic.quote.cassian-adapts-egypt-to-gaul",
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    16515
+   ],
+   "detail": null
+  },
+  "gallic.quote.customs-delivered-to-us-by-the-fathers": {
+   "record": "gallic.quote.customs-delivered-to-us-by-the-fathers",
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    16444
+   ],
+   "detail": null
+  },
+  "hal.quote.paula-hebrew-psalms": {
+   "record": "hal.quote.paula-hebrew-psalms",
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    22019
+   ],
+   "detail": null
+  },
+  "hal.quote.buried-beneath-the-church": {
+   "record": "hal.quote.buried-beneath-the-church",
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    22130
+   ],
+   "detail": null
+  },
+  "hal.quote.she-put-on-sackcloth": {
+   "record": "hal.quote.she-put-on-sackcloth",
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    17449,
+    17453
+   ],
+   "detail": null
+  },
+  "hal.quote.detestable-monks": {
+   "record": "hal.quote.detestable-monks",
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    8111
+   ],
+   "detail": null
+  },
+  "ijc.quote.he-deferred-it-in-the-hope": {
+   "record": "ijc.quote.he-deferred-it-in-the-hope",
+   "result": "MATCH",
+   "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": [
+    67751
+   ],
+   "detail": null
+  },
+  "ijc.quote.ambrose-blessing-changes-nature": {
+   "record": "ijc.quote.ambrose-blessing-changes-nature",
+   "result": "MATCH",
+   "file": "npnf210_ambrose-select-works-letters.xml",
+   "lines": [
+    33203,
+    33263
+   ],
+   "detail": null
+  },
+  "ijc.quote.ambrose-dare-not-offer": {
+   "record": "ijc.quote.ambrose-dare-not-offer",
+   "result": "MATCH",
+   "file": "npnf210_ambrose-select-works-letters.xml",
+   "lines": [
+    44181
+   ],
+   "detail": null
+  },
+  "ijc.quote.augustine-vigil-hymns": {
+   "record": "ijc.quote.augustine-vigil-hymns",
+   "result": "MATCH",
+   "file": "npnf101_augustine-confessions-letters.xml",
+   "lines": [
+    13765,
+    13770
+   ],
+   "detail": null
+  },
+  "ijc.quote.hymns-and-psalms-should-be-sung": {
+   "record": "ijc.quote.hymns-and-psalms-should-be-sung",
+   "result": "MATCH",
+   "file": "npnf101_augustine-confessions-letters.xml",
+   "lines": [
+    13767
+   ],
+   "detail": null
+  },
+  "ijc.quote.sin-is-not-done-away-but-by-tears": {
+   "record": "ijc.quote.sin-is-not-done-away-but-by-tears",
+   "result": "MATCH",
+   "file": "npnf210_ambrose-select-works-letters.xml",
+   "lines": [
+    44159
+   ],
+   "detail": null
+  },
+  "ijc.quote.leo-sinner-be-glad": {
+   "record": "ijc.quote.leo-sinner-be-glad",
+   "result": "MATCH",
+   "file": "npnf212_leo-great-gregory-great.xml",
+   "lines": [
+    14508
+   ],
+   "detail": null
+  },
+  "ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood": {
+   "record": "ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood",
+   "result": "MATCH",
+   "file": "npnf210_ambrose-select-works-letters.xml",
+   "lines": [
+    45073
+   ],
+   "detail": null
+  },
+  "ijc.quote.let-the-ancient-customs-prevail": {
+   "record": "ijc.quote.let-the-ancient-customs-prevail",
+   "result": "MATCH",
+   "file": "npnf214_seven-ecumenical-councils.xml",
+   "lines": [
+    3405
+   ],
+   "detail": null
+  },
+  "ijc.quote.julius-custom": {
+   "record": "ijc.quote.julius-custom",
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    23549
+   ],
+   "detail": null
+  },
+  "lpc.quote.ye-belong-to-my-care": {
+   "record": "lpc.quote.ye-belong-to-my-care",
+   "result": "MATCH",
+   "file": "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+   "lines": [
+    20796
+   ],
+   "detail": null
+  },
+  "lpc.quote.the-creed-first-then-the-prayer": {
+   "record": "lpc.quote.the-creed-first-then-the-prayer",
+   "result": "MATCH",
+   "file": "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+   "lines": [
+    10642
+   ],
+   "detail": null
+  },
+  "lpc.quote.longing-expectation-is-a-prayer-for-me": {
+   "record": "lpc.quote.longing-expectation-is-a-prayer-for-me",
+   "result": "MATCH",
+   "file": "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+   "lines": [
+    9398
+   ],
+   "detail": null
+  },
+  "lpc.quote.the-sermon-and-the-readings-are-daily-bread": {
+   "record": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "result": "MATCH",
+   "file": "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+   "lines": [
+    10894
+   ],
+   "detail": null
+  },
+  "lpc.quote.bind-him-justly": {
+   "record": "lpc.quote.bind-him-justly",
+   "result": "MATCH",
+   "file": "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+   "lines": [
+    14225
+   ],
+   "detail": null
+  },
+  "lpc.quote.peter-the-sick-man-and-the-physician": {
+   "record": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "result": "MATCH",
+   "file": "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+   "lines": [
+    20614
+   ],
+   "detail": null
+  },
+  "pahc.quote.in-living-water": {
+   "record": "pahc.quote.in-living-water",
+   "result": "MATCH (section-number-dropped)",
+   "file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+   "lines": [
+    12914
+   ],
+   "detail": null
+  },
+  "pahc.quote.first-concerning-the-cup": {
+   "record": "pahc.quote.first-concerning-the-cup",
+   "result": "MATCH (section-number-dropped)",
+   "file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+   "lines": [
+    12960
+   ],
+   "detail": null
+  },
+  "pahc.quote.the-memoirs-of-the-apostles-are-read": {
+   "record": "pahc.quote.the-memoirs-of-the-apostles-are-read",
+   "result": "MATCH",
+   "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": [
+    16502
+   ],
+   "detail": null
+  },
+  "pahc.quote.polycrates-to-victor": {
+   "record": "pahc.quote.polycrates-to-victor",
+   "result": "MATCH",
+   "file": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+   "lines": [
+    72578,
+    72614
+   ],
+   "detail": null
+  },
+  "pahc.quote.ignatius-marriage-bishop": {
+   "record": "pahc.quote.ignatius-marriage-bishop",
+   "result": "MATCH",
+   "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": [
+    8734
+   ],
+   "detail": null
+  },
+  "pahc.quote.ignatius-truly-born": {
+   "record": "pahc.quote.ignatius-truly-born",
+   "result": "MATCH",
+   "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": [
+    6612
+   ],
+   "detail": null
+  },
+  "pahc.quote.first-clement-apostolic-chain": {
+   "record": "pahc.quote.first-clement-apostolic-chain",
+   "result": "MATCH",
+   "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": [
+    1845,
+    1856
+   ],
+   "detail": null
+  },
+  "rzg.quote.mass-not-a-sacrifice": {
+   "record": "rzg.quote.mass-not-a-sacrifice",
+   "result": "MATCH (hyphen-joined)",
+   "file": "zwingli_selected-works_jackson1901.txt",
+   "lines": [
+    4565
+   ],
+   "detail": null
+  },
+  "syr.quote.warned-before-baptism": {
+   "record": "syr.quote.warned-before-baptism",
+   "result": "MATCH (editorial artefact)",
+   "file": "aphrahat_demonstrations-2-7_hallock1932.txt",
+   "lines": [
+    47
+   ],
+   "detail": "wording identical; Hallock's footnote marker \"~1~\" stands inside the sentence"
+  },
+  "syr.quote.aphrahat-medicine-penitence": {
+   "record": "syr.quote.aphrahat-medicine-penitence",
+   "result": "MATCH",
+   "file": "aphrahat_demonstrations-2-7_hallock1932.txt",
+   "lines": [
+    29
+   ],
+   "detail": null
+  },
+  "syr.quote.sozomen-melodies": {
+   "record": "syr.quote.sozomen-melodies",
+   "result": "MATCH",
+   "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": [
+    32088
+   ],
+   "detail": null
+  },
+  "syr.quote.the-temple-of-the-church-of-the-christians": {
+   "record": "syr.quote.the-temple-of-the-church-of-the-christians",
+   "result": "MATCH",
+   "file": "chronicle-of-edessa_cowper.txt",
+   "lines": [
+    53
+   ],
+   "detail": null
+  },
+  "syr.quote.nativity-this-is-the-day": {
+   "record": "syr.quote.nativity-this-is-the-day",
+   "result": "MATCH",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    17530
+   ],
+   "detail": null
+  },
+  "syr.quote.the-wedding-feast-continues-for-but-seven-days": {
+   "record": "syr.quote.the-wedding-feast-continues-for-but-seven-days",
+   "result": "MATCH",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    25940
+   ],
+   "detail": null
+  },
+  "syr.quote.dem6-visit-the-sick": {
+   "record": "syr.quote.dem6-visit-the-sick",
+   "result": "MATCH",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    25658
+   ],
+   "detail": null
+  },
+  "witt.quote.article-ix-of-baptism": {
+   "record": "witt.quote.article-ix-of-baptism",
+   "result": "MATCH",
+   "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+   "lines": [
+    309
+   ],
+   "detail": null
+  },
+  "witt.quote.congregation-of-saints": {
+   "record": "witt.quote.congregation-of-saints",
+   "result": "MATCH",
+   "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+   "lines": [
+    277
+   ],
+   "detail": null
+  }
+ },
+ "worlds": {
+  "alx": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.term.baptism",
+     "alx.term.katechesis",
+     "alx.term.photismos",
+     "alx.dw.original-sin"
+    ],
+    "confidence": [
+     "Widely Accepted",
+     "Widely Accepted",
+     "Widely Accepted",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+      "line": 10972,
+      "snippet": "infants and catechumens were baptized, to provide against their"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "work": "Origen, Commentary on Romans V.9 and Homilies on Leviticus VIII and on Luke XIV: infants baptised by the apostles' tradition",
+      "edition": "Rufinus's Latin, Patrologia Graeca 14 and 12-13 (Migne 1862); English renderings (Scheck, FOTC 103, 2001) are in copyright",
+      "where": "archive.org (Migne)",
+      "licence": "Latin public domain; English not"
+     }
+    ],
+    "note": "Can say: baptism was a real crossing in the body, called illumination, after long staged teaching. Cannot say: infants or adults, dunking or pouring, who could stay. dw.original-sin only guards: infant baptism was 'received as custom', with no defined theology. The one vendored infants line is Valesius's editorial note on the pre-Decian assemblies (anf06), not a source. Timothy's catechumen-at-the-oblation question is a 380s canon.",
+    "verified": [],
+    "star": false,
+    "depth": "partial"
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.term.eucharistia",
+     "alx.quote.timothy-ordinary-questions",
+     "alx.term.agape"
+    ],
+    "confidence": [
+     "Widely Accepted",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+      "line": 44113,
+      "snippet": "catechumen, being present at the oblation, does eat of it through"
+     },
+     {
+      "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+      "line": 9724,
+      "snippet": "holy table or to touch the body and blood of the Lord. Certainly"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "work": "Sarapion of Thmuis, Euchologion (Egypt, c. 350): prayers for baptism, the bread and cup, the oil of the sick, burial",
+      "edition": "J. Wordsworth, Bishop Sarapion's Prayer-Book (SPCK, London 1899)",
+      "where": "archive.org",
+      "licence": "public domain (US)"
+     }
+    ],
+    "note": "term.eucharistia says what the meal was (thanksgiving of bread and cup, open to members) and forbids both 'transubstantiation' and 'mere symbol' as answers, so C7-07/C7-23 get a refusal, not a position. Timothy (380s) and Dionysius's canon (who may not approach the holy table) touch 'who was refused'. How often: nothing in the records.",
+    "verified": [
+     {
+      "record": "alx.quote.timothy-ordinary-questions",
+      "result": "MATCH (spacing-only)",
+      "file": "npnf214_seven-ecumenical-councils.xml",
+      "lines": [
+       44111,
+       44145,
+       44156
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.term.prayer"
+    ],
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/origen_de-oratione-grc_koetschau1899.txt",
+      "line": 87,
+      "snippet": "...\", XXII \"Πάτερ ἡμῶν ὁ ἐν τοῖς οὐρανοῖς\", XXV"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "One definition: converse with God, spoken or silent. Nothing on set prayers against free prayer, the Lord's Prayer, teaching someone to pray, or prayer in worry (R-32, R-34). Origen's De Oratione (Greek, mapped; chapter XXII on 'Our Father') is the world's own treatise on prayer and is unrendered; Clement Strom. VII is vendored (anf02).",
+    "verified": [],
+    "star": false,
+    "depth": "thin"
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.limit.material-remains",
+     "alx.quote.clement-new-song",
+     "alx.term.ekklesia"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "line": 22267,
+      "snippet": "and the flute to the superstitious who are engrossed in idolatry. For,"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Guard only. limit.material-remains answers 'church buildings' honestly (no rooms described, city rebuilt); term.ekklesia says the word meant the assembly, not a building; quote.clement-new-song's not_for stops it being read as a hymn. Singing, instruments, images, posture, preaching: no record. Clement Paed. II.4 banishes the flute from banquets (a banquet, not worship); Origen De Oratione (Greek) treats posture.",
+    "verified": [
+     {
+      "record": "alx.quote.clement-new-song",
+      "result": "MATCH",
+      "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": [
+       15213
+      ],
+      "detail": null
+     }
+    ],
+    "star": true,
+    "depth": "thin"
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.term.lapsi",
+     "alx.term.fasting",
+     "alx.quote.timothy-ordinary-questions"
+    ],
+    "confidence": [
+     "Widely Accepted",
+     "Widely Accepted",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+      "line": 9522,
+      "snippet": "ante-paschal fast ought to be terminated—whether on the evening"
+     },
+     {
+      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+      "line": 43113,
+      "snippet": "When the Paschal fast is to be broken depends on the"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Fasting is answered (training the soul's wanting; the Paschal fast as preparation) and the road back for the lapsed in outline (reconciled with discipline, at cost). Confession to a priest, to each other or to God alone, and the 'second repentance': no record. The Paschal-fast hit at anf06:9522 is the editor's gloss on a canon of Dionysius, not Dionysius's own words.",
+    "verified": [
+     {
+      "record": "alx.quote.timothy-ordinary-questions",
+      "result": "MATCH (spacing-only)",
+      "file": "npnf214_seven-ecumenical-councils.xml",
+      "lines": [
+       44111,
+       44145,
+       44156
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+      "line": 14652,
+      "snippet": "The Paschal Canon of Anatolius of Alexandria, and Fragments of the Books on Arithmetic"
+     },
+     {
+      "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+      "line": 9522,
+      "snippet": "ante-paschal fast ought to be terminated—whether on the evening"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record on Sunday or Sabbath, Easter, Christmas or Lent. Tangent only: term.fasting and Timothy Q8 and Q10 on the Paschal fast. The library holds the Paschal Canon of Anatolius of Alexandria (anf06), Dionysius's canon on the end of the Easter fast, and the Athanasian festal letters (npnf204); none is quoted.",
+    "verified": [],
+    "star": false,
+    "depth": "thin"
+   },
+   "S7": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+      "line": 20549,
+      "snippet": "Especially remember our all-holy, pure, and blessed Lady, Mary the Virgin Mother of God. the apostle and evangelist, who has shown us the way of salvation."
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "work": "Sarapion of Thmuis, Euchologion (Egypt, c. 350): prayers for baptism, the bread and cup, the oil of the sick, burial",
+      "edition": "J. Wordsworth, Bishop Sarapion's Prayer-Book (SPCK, London 1899)",
+      "where": "archive.org",
+      "licence": "public domain (US)"
+     }
+    ],
+    "note": "No record on Mary and the saints in prayer, anointing the sick, weddings or funerals. Tangents: quote.timothy-ordinary-questions Q11 (a priest must not perform an incestuous marriage), limit.marriage, story.potamiaena (the church remembered her). The hit is the Liturgy of Mark's intercession for 'the Virgin Mother of God' (anf07, a later redaction of the Alexandrian rite). Sarapion's prayer-book (Thmuis, c. 350: oil of the sick, burial) is the right Egyptian witness and is not vendored.",
+    "verified": [],
+    "star": false,
+    "depth": "thin"
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.dw.apostolic",
+     "alx.quote.ecclesiastical-and-apostolical-tradition",
+     "alx.term.kanon-pisteos"
+    ],
+    "confidence": [
+     "Widely Accepted",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+      "line": 22435,
+      "snippet": "the Church, transmitted in orderly succession from the apostles, and"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Answered, with the right caution: baptism, the bread and cup, and the rule of faith were received as the apostles' deposit, vouched for by the church's memory; the record admits a gap between the apostles and its first witnesses and forbids reading Origen's succession sentence as proof for each rite.",
+    "verified": [
+     {
+      "record": "alx.quote.ecclesiastical-and-apostolical-tradition",
+      "result": "MATCH",
+      "file": "anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+      "lines": [
+       22432
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "full"
+   }
+  },
+  "cappadocian": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.dw.baptism-and-new-birth",
+     "cappadocian.dw.becoming-one-of-us",
+     "cappadocian.term.baptisma-photisma",
+     "cappadocian.quote.basil-against-delaying-baptism",
+     "cappadocian.quote.baptize-believe-glorify-in-sequence"
+    ],
+    "confidence": [
+     "Widely Accepted",
+     "Widely Accepted",
+     "Widely Accepted",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+      "line": 11213,
+      "snippet": "Spirit. In three immersions, Trine"
+     },
+     {
+      "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+      "line": 38494,
+      "snippet": "be neither glorified nor punished by the righteous Judge, as unsealed"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "The fullest S1 in the twelve. Triple immersion into the Name, the formula as charter, delay of baptism and Basil's sermon against it, and an honest limit on infants (adult baptism best attested; how common infant baptism was cannot be told). Gregory Nazianzen's Oration 40 (npnf207) on delay, and on infants dying unsealed 'neither glorified nor punished', is vendored and unrendered. Dunk or pour is covered only as 'three plunges'.",
+    "verified": [
+     {
+      "record": "cappadocian.quote.basil-against-delaying-baptism",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       7018
+      ],
+      "detail": null
+     },
+     {
+      "record": "cappadocian.quote.baptize-believe-glorify-in-sequence",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       14168
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "full"
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.dw.not-later-formulas",
+     "cappadocian.dw.power-and-its-discipline",
+     "cappadocian.dw.becoming-one-of-us"
+    ],
+    "confidence": [
+     "Widely Accepted",
+     "Widely Accepted",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+      "line": 29930,
+      "snippet": "to communicate every day, and to partake of the holy body and blood of"
+     },
+     {
+      "file": "cic/texts/liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt",
+      "line": 7381,
+      "snippet": "vice from Thy holy Apostles, so accept these Gifts"
+     }
+    ],
+    "identified": [
+     "cappadocian.source.liturgy-of-st-basil (registered as unvendored; the Neale volume is mapped, so the registration is stale)"
+    ],
+    "other": [],
+    "note": "Partial and mostly negative: dw.not-later-formulas says the bread and cup were 'a mystery', not transubstantiation (tagged F1-T); dw.becoming-one-of-us says outright that the record does not supply the shape of the shared meal; dw.power-and-its-discipline gives exclusion and the path back. The library answers 'how often' and 'who was refused' better than any record: Basil, Letter 93 (npnf208:29923) says he communicates four times a week and daily if he could, and the Liturgy of Basil is mapped.",
+    "verified": [],
+    "star": false,
+    "depth": "partial"
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.quote.basil-on-antiphonal-psalmody",
+     "cappadocian.quote.basil-on-work-and-prayer",
+     "cappadocian.dw.ordinary-day",
+     "cappadocian.story.brotherhood-day",
+     "cappadocian.dw.stillness-and-the-summons"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Widely Accepted",
+     "Inferential-Thin",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/basil_ascetic-works-longer-shorter-rules_clarke1925.txt",
+      "line": 17078,
+      "snippet": "thing.” ® But for prayer and psalmody, as for many other things, »"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Good: fixed-hour psalms so devotion does not wait on mood, prayer carried into work, night vigil in two choirs. Set against free prayer is not asked in the records and the Lord's Prayer is not mentioned. Anxious prayer: dw.stillness-and-the-summons says outright that the record has no method for quieting a busy mind. quote.basil-on-work-and-prayer is MATCH-with-artefact: the scan inserts footnote glyphs and a page letter.",
+    "verified": [
+     {
+      "record": "cappadocian.quote.basil-on-antiphonal-psalmody",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       37288
+      ],
+      "detail": null
+     },
+     {
+      "record": "cappadocian.quote.basil-on-work-and-prayer",
+      "result": "MATCH (editorial artefact)",
+      "file": "basil_ascetic-works-longer-shorter-rules_clarke1925.txt",
+      "lines": [
+       17072,
+       17092
+      ],
+      "detail": "wording identical; the scan inserts footnote glyphs and a column letter (a superscript mark after \"everything\", a stray \"E\" in \"with E the tongue\") that the record omits"
+     }
+    ],
+    "star": false,
+    "depth": "full"
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.quote.basil-on-antiphonal-psalmody",
+     "cappadocian.term.psalmodia",
+     "cappadocian.dw.psalms-teach-the-singer",
+     "cappadocian.quote.we-look-to-the-east",
+     "cappadocian.story.panegyris-shrine",
+     "cappadocian.story.doxology-stand"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted",
+     "Widely Accepted",
+     "Documented",
+     "Inferential-Thin",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+      "line": 13940,
+      "snippet": "sign with the sign of the cross those who have trusted in the name of"
+     },
+     {
+      "file": "cic/texts/gregory-nyssa_life-of-macrina_clarke1916.txt",
+      "line": 320,
+      "snippet": "But while we were thus employed and the virgins' voices singing psalms mingled with the lamentations were filling the place, somehow the news had quickly spread throughou"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Strong on singing, standing and facing east, the martyr's-feast gathering and the doxology argument. Weaker on the room itself (dw.a-stranger-weather says only: no catacombs) and silent on images, icons and instruments. The Macrina funeral (line 320) has the virgins singing psalms. The panegyris reconstruction is Inferential-Thin and its homilies are unacquired.",
+    "verified": [
+     {
+      "record": "cappadocian.quote.basil-on-antiphonal-psalmody",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       37288
+      ],
+      "detail": null
+     },
+     {
+      "record": "cappadocian.quote.we-look-to-the-east",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       14068
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.quote.basil-canon-to-amphilochius",
+     "cappadocian.quote.basil-canon-on-digamy",
+     "cappadocian.dw.power-and-its-discipline",
+     "cappadocian.term.askesis",
+     "cappadocian.quote.basil-on-eustathius-rupture"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Widely Accepted",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [
+     "cappadocian.source.amphilochius-of-iconium-own-works"
+    ],
+    "other": [],
+    "note": "Graded penance by the offence, set terms, readmission (Basil's canons to Amphilochius); fasting as askesis aimed at love, with radical fasters on the Lord's day corrected. Confession to a priest or to God alone is not addressed; the record is canon law, so it shows what was written, not what was done (the quote's own not_for says so).",
+    "verified": [
+     {
+      "record": "cappadocian.quote.basil-canon-to-amphilochius",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       36336
+      ],
+      "detail": null
+     },
+     {
+      "record": "cappadocian.quote.basil-canon-on-digamy",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       35030
+      ],
+      "detail": null
+     },
+     {
+      "record": "cappadocian.quote.basil-on-eustathius-rupture",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       39744
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "full"
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.story.valens-caesarea",
+     "cappadocian.term.anastasis",
+     "cappadocian.quote.we-look-to-the-east",
+     "cappadocian.term.panegyris"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+      "line": 36268,
+      "snippet": "On the Theophany, or Birthday of"
+     },
+     {
+      "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+      "line": 29930,
+      "snippet": "to communicate every day, and to partake of the holy body and blood of"
+     }
+    ],
+    "identified": [
+     "cappadocian.source.basil-martyr-homilies-forty-gordius-julitta-mamas"
+    ],
+    "other": [],
+    "note": "Partial: standing to pray on the first day of the week, the Epiphany liturgy Valens attended, martyrs' feasts called birthdays. No Easter, Christmas or Lent record. The library holds Nazianzen's Oration 38 'On the Theophany, or Birthday of Christ' and the Holy Lights (npnf207), and Basil's Letter 93 naming Sunday, Wednesday, Friday and Sabbath as communion days.",
+    "verified": [
+     {
+      "record": "cappadocian.quote.we-look-to-the-east",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       14068
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.term.martys-martyrion",
+     "cappadocian.story.panegyris-shrine",
+     "cappadocian.story.forty-sebaste",
+     "cappadocian.story.macrina-deathbed",
+     "cappadocian.story.basil-death-funeral"
+    ],
+    "confidence": [
+     "Widely Accepted",
+     "Inferential-Thin",
+     "Widely Accepted",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+      "line": 29930,
+      "snippet": "to communicate every day, and to partake of the holy body and blood of"
+     }
+    ],
+    "identified": [
+     "cappadocian.source.gregory-nyssa-forty-martyrs-theodore-recruit-homilies"
+    ],
+    "other": [],
+    "note": "Martyr shrines and feasts, the funerals of Macrina and Basil, and a not_for that bars calling martyr honour worship. Prayer to Mary and the saints, anointing the sick and wedding rites: no record. Basil, Letter 93, communicates 'if there is a commemoration of any Saint (martyr)'. Gregory of Nyssa's martyr homilies are registered but unacquired.",
+    "verified": [],
+    "star": false,
+    "depth": "partial"
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.dw.customs-from-the-apostles",
+     "cappadocian.quote.what-is-the-written-source",
+     "cappadocian.quote.we-look-to-the-east",
+     "cappadocian.term.paradosis",
+     "cappadocian.dw.unwritten-carries-too"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Documented",
+     "Widely Accepted",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+      "line": 14129,
+      "snippet": "recount the unwritten mysteries of the Church. Of the rest I say"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "The best S8 in the fleet: unwritten customs (facing east, standing, triple immersion, the words over water and bread) held apostolic, with 'no signed receipt', and Basil's own dare to show written warrant for the baptismal creed.",
+    "verified": [
+     {
+      "record": "cappadocian.quote.what-is-the-written-source",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       14128
+      ],
+      "detail": null
+     },
+     {
+      "record": "cappadocian.quote.we-look-to-the-east",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       14068
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "full"
+   }
+  },
+  "desert": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.dw.born-again",
+     "desert.limit.original-sin-eucharist-faith",
+     "desert.quote.pachomius-angel-tablet"
+    ],
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
+      "line": 325,
+      "snippet": "And he said, that from the day he was baptized he never spat on the ground,141 it being then sixty years from his baptism. [29] As to his bodily form, he was rather short"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Entry is the discipline itself; 'born again' appears once (Philoromus, Contested). limit.original-sin-eucharist-faith is tagged to the baby-baptism question and honestly says nothing speaks to it. The Pachomian tablet gives a three-year probation before the sanctuary. No account of the rite, its mode or infants.",
+    "verified": [
+     {
+      "record": "desert.quote.pachomius-angel-tablet",
+      "result": "MATCH (editorial artefact)",
+      "file": "palladius_lausiac-history_clarke1918.txt",
+      "lines": [
+       401
+      ],
+      "detail": "wording identical; a page marker \"|113\" falls inside the quoted passage"
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.limit.original-sin-eucharist-faith",
+     "desert.quote.never-held-communion-with-the-schismatics",
+     "desert.quote.pachomius-angel-tablet",
+     "desert.term.synaxis"
+    ],
+    "confidence": [
+     "Documented",
+     "Contested",
+     "Widely Accepted",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
+      "line": 285,
+      "snippet": "th her husband thanking the Lord. And he advised her thus: \"Never give up the church, never stay away from the Communion. For these things happened to you because you did"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Guard plus fragments: the limit refuses any eucharistic theology; Antony would not commune with the Melitians (who was refused); the Pachomian tablet has the brothers go to Communion on Saturday and Sunday; the synaxis includes a shared meal. Basil's Letter 93 (npnf208, vendored, not mapped here) says solitaries in the desert take communion at home; that is the missing 'how often'.",
+    "verified": [
+     {
+      "record": "desert.quote.never-held-communion-with-the-schismatics",
+      "result": "MATCH",
+      "file": "npnf204_athanasius-select-works-letters.xml",
+      "lines": [
+       32908
+      ],
+      "detail": null
+     },
+     {
+      "record": "desert.quote.pachomius-angel-tablet",
+      "result": "MATCH (editorial artefact)",
+      "file": "palladius_lausiac-history_clarke1918.txt",
+      "lines": [
+       401
+      ],
+      "detail": "wording identical; a page marker \"|113\" falls inside the quoted passage"
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.quote.twelve-psalms-by-an-angel",
+     "desert.quote.so-perfectly-silent",
+     "desert.story.kellia-day",
+     "desert.term.synaxis",
+     "desert.quote.ladder-from-compunction"
+    ],
+    "confidence": [
+     "Contested",
+     "Inferential-Thin",
+     "Inferential-Thin",
+     "Widely Accepted",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Strong on the shape: twelve psalms at the office, silent hearing while one chants, prayer from compunction, psalms recited through the day. Two Cassian passages carry the weight and Cassian's generalisation to all Egypt is flagged in the not_fors. No record on set against free prayer in so many words, nor on anxious prayer.",
+    "verified": [
+     {
+      "record": "desert.quote.twelve-psalms-by-an-angel",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       17184
+      ],
+      "detail": null
+     },
+     {
+      "record": "desert.quote.so-perfectly-silent",
+      "result": "MATCH (spacing-only)",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       17397
+      ],
+      "detail": null
+     },
+     {
+      "record": "desert.quote.ladder-from-compunction",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       20064,
+       20066
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "full"
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.quote.so-perfectly-silent",
+     "desert.quote.twelve-psalms-by-an-angel",
+     "desert.quote.never-kneel-saturday-to-sunday",
+     "desert.term.synaxis",
+     "desert.story.kellia-day"
+    ],
+    "confidence": [
+     "Inferential-Thin",
+     "Contested",
+     "Contested",
+     "Widely Accepted",
+     "Inferential-Thin"
+    ],
+    "source_hits": [],
+    "identified": [
+     "desert.source.kellia-excavations"
+    ],
+    "other": [],
+    "note": "The best room-level picture among the monastic worlds: silence, one chanter, no kneeling from Saturday evening to Sunday evening or Easter to Pentecost. Buildings: the Kellia excavation (registered, unvendored) is the missing evidence. Instruments, images, preaching: nothing.",
+    "verified": [
+     {
+      "record": "desert.quote.so-perfectly-silent",
+      "result": "MATCH (spacing-only)",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       17397
+      ],
+      "detail": null
+     },
+     {
+      "record": "desert.quote.twelve-psalms-by-an-angel",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       17184
+      ],
+      "detail": null
+     },
+     {
+      "record": "desert.quote.never-kneel-saturday-to-sunday",
+      "result": "MATCH (spacing-only)",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       17735
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "full"
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.quote.ethiopic-rule-eat-and-drink",
+     "desert.quote.pachomius-angel-tablet",
+     "desert.quote.monks-like-hyenas",
+     "desert.quote.origen-on-the-sinning-brother",
+     "desert.quote.ladder-from-compunction"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted",
+     "Documented",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 18790,
+      "snippet": "proof that a thought is from the devil if we are ashamed to disclose it"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Fasting by strength, not rule ('prevent no man from fasting or eating'); the Pachomian lapse and penance scale; compunction. The card tag 'Fasting and self-denial' is traced only to desert.core.desert, not to a record. Confession of thoughts to an elder (Cassian Conf. 2) is vendored and unrendered here (gallic renders it). Two of these quotes are MATCH-with-artefact (page marker, scan glyph).",
+    "verified": [
+     {
+      "record": "desert.quote.ethiopic-rule-eat-and-drink",
+      "result": "MATCH",
+      "file": "pachomius_rules-ethiopic_schodde1885.txt",
+      "lines": [
+       174
+      ],
+      "detail": null
+     },
+     {
+      "record": "desert.quote.pachomius-angel-tablet",
+      "result": "MATCH (editorial artefact)",
+      "file": "palladius_lausiac-history_clarke1918.txt",
+      "lines": [
+       401
+      ],
+      "detail": "wording identical; a page marker \"|113\" falls inside the quoted passage"
+     },
+     {
+      "record": "desert.quote.monks-like-hyenas",
+      "result": "MATCH (editorial artefact)",
+      "file": "pachomius_rules-ethiopic_schodde1885.txt",
+      "lines": [
+       224,
+       226,
+       228
+      ],
+      "detail": "wording identical; the passage runs across a page break marked \"[p. 687]\""
+     },
+     {
+      "record": "desert.quote.origen-on-the-sinning-brother",
+      "result": "MATCH",
+      "file": "anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+      "lines": [
+       36234
+      ],
+      "detail": null
+     },
+     {
+      "record": "desert.quote.ladder-from-compunction",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       20064,
+       20066
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.quote.never-kneel-saturday-to-sunday",
+     "desert.term.synaxis",
+     "desert.story.sarapion-anthropomorphite"
+    ],
+    "confidence": [
+     "Contested",
+     "Widely Accepted",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/egeria_pilgrimage-of-etheria_mcclure-feltoe1919.txt",
+      "line": 593,
+      "snippet": "descended on the eastern side to the place of the"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Partial: the Saturday-to-Sunday gathering and the no-kneel, no-fast rule from Easter to Pentecost (Cassian), and Theophilus's Easter letter of 399. No Christmas, no Lent record. Egeria (mapped) describes Easter and Epiphany at Jerusalem, not the desert.",
+    "verified": [
+     {
+      "record": "desert.quote.never-kneel-saturday-to-sunday",
+      "result": "MATCH (spacing-only)",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       17735
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.story.antony-secret-burial"
+    ],
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 1772,
+      "snippet": "were buried beside those of Paula and Eustochium, near the grotto of"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Funeral only: Antony's order to bury him secretly and refuse the custom of keeping a holy man's body in the house. Nothing on prayer to saints, anointing the sick or weddings. Jerome's Life of Paul (npnf206, mapped) has the burial of Paul by lions, a legend.",
+    "verified": [],
+    "star": false,
+    "depth": "thin"
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.dw.apostolic"
+    ],
+    "confidence": [
+     "Contested"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "A clean refusal: no claim of an unbroken line to the apostles; the way of life was an intensification of an older village hermit practice. Contested confidence (single witness, Athanasius).",
+    "verified": [],
+    "star": false,
+    "depth": "full"
+   }
+  },
+  "don": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "don.dw.becoming-one-of-us",
+     "don.dw.walking-to-one-font",
+     "don.dw.washed-for-the-first-time",
+     "don.term.rebaptism",
+     "don.contested.rebaptism-boundary"
+    ],
+    "confidence": [
+     "Widely Accepted",
+     "Widely Accepted",
+     "Widely Accepted",
+     "Documented",
+     "Contested"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The world's centre. Rebaptism as 'a first baptism': a public, bodily, dated crossing; imperial edicts named it; some entry may have been forced. Infants: 'we cannot say whether infants were baptized'. Unbaptised young catechumens were present in congregations (answers C7-27 in part). Two demonstrations, f4-i-01 and f4-t-01. Dunk or pour: no.",
+    "verified": [],
+    "star": false,
+    "depth": "full"
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "don.limit.questions-we-never-argued",
+     "don.contested.ministerial-purity",
+     "don.term.anniversaria-commemoratio",
+     "don.witness.boundary-is-doctrine"
+    ],
+    "confidence": [
+     "Widely Accepted",
+     "Contested",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/monumenta-vetera-donatistarum-303-340_migne-pl8.txt",
+      "line": 1781,
+      "snippet": "Non potui, ait, quoniam sine dominico non possumus."
+     }
+    ],
+    "identified": [
+     "don.source.acta-saturnini-abitinian-martyrs (registered as unvendored; the Latin text is vendored in monumenta-vetera-donatistarum-303-340)"
+    ],
+    "other": [
+     {
+      "work": "Passio Donati and the Abitinian martyr acts in English (Donatist Martyr Stories)",
+      "edition": "M. Tilley, Donatist Martyr Stories (Liverpool UP, 1996)",
+      "where": "bookshop only",
+      "licence": "in copyright; the Latin is vendored (monumenta-vetera-donatistarum, PL 8)"
+     }
+    ],
+    "note": "Honest refusal on the bread (limit.questions-we-never-argued, tagged F1-T) and strong on the refusal side: communion and the rite were fenced by the giver's purity (ministerial-purity). Frequency: nothing in records, but the Latin Acta of Saturninus (PL 8, vendored and mapped) has 'we cannot live without the dominicum' at 1781 and 2974. don.source.acta-saturnini-abitinian-martyrs is registered as unvendored; the Latin is in the file.",
+    "verified": [],
+    "star": false,
+    "depth": "partial"
+   },
+   "S3": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "line": 44626,
+      "snippet": "On the Lord’s Prayer."
+     },
+     {
+      "file": "cic/texts/monumenta-vetera-donatistarum-303-340_migne-pl8.txt",
+      "line": 1621,
+      "snippet": "Nam et in collecta fui , et dominicum cum fratribus"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record on how they prayed. limit.no-ordinary-day-survives (no meal, field, workshop or bed survives) is the nearest guard. The Donatists claimed Cyprian's African tradition (dw.older-than-the-schism); Cyprian's On the Lord's Prayer sits in the mapped anf05 volume. The Acta of Saturninus has a martyr say she 'was in the assembly and celebrated the dominicum with the brothers'.",
+    "verified": [],
+    "star": false,
+    "depth": "thin"
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "don.quote.deo-laudes",
+     "don.limit.the-room-we-cannot-show-you",
+     "don.story.passio-donati-sermon",
+     "don.term.anniversaria-commemoratio",
+     "don.dw.how-we-read-and-heard"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted",
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
+      "line": 17126,
+      "snippet": "ictines restored the reading translated above (\"Quam multis…Deo laudes armatorum vestrorum\"), Deo laudes being the cry of the Circumcelliones. Cp. Aug. in Ps. cxxxii. 6: "
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "What survives: the acclamation Deo laudes cut on four stones, the yearly reading of a martyr's death at the grave, scriptures as heavy objects handed over to magistrates. Buildings: honest limit (no excavation report). Singing: the one 'worship sound' is read through an enemy; the editor of Augustine's anti-Donatist volume calls Deo laudes the Circumcellions' cry (npnf104:17126, citing Augustine on Psalm 132). Images, posture, preaching length: nothing.",
+    "verified": [
+     {
+      "record": "don.quote.deo-laudes",
+      "result": "MATCH",
+      "file": "cil8-supplementum-numidiae_cagnat-schmidt1894.txt",
+      "lines": [
+       44
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "don.contested.rigor-against-reception",
+     "don.story.bagai-reconciliation",
+     "don.term.confessor",
+     "don.dw.what-we-argued-among-ourselves",
+     "don.story.lucilla-affair"
+    ],
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Widely Accepted",
+     "Widely Accepted",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Return after wrongdoing is the world's own argument: the Cirta council that left a charge 'reserved to the Lord'; Bagai receiving Maximianist clergy back with nothing repeated; a dissenter cut off. Nothing on private confession or fasting.",
+    "verified": [],
+    "star": false,
+    "depth": "partial"
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "records": [
+     "don.term.anniversaria-commemoratio",
+     "don.story.passio-donati-sermon",
+     "don.limit.no-ordinary-day-survives"
+    ],
+    "confidence": [
+     "Documented",
+     "Contested",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/monumenta-vetera-donatistarum-303-340_migne-pl8.txt",
+      "line": 1781,
+      "snippet": "Non potui, ait, quoniam sine dominico non possumus."
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "The one calendar fact is the yearly martyr anniversary at the grave (Passio Donati read on 12 March); the term's not_for refuses to call it a saint's feast in a fixed calendar and notes Monceaux thinks it a novelty at the earliest text. Sunday is implied by 'sine dominico'. Easter, Christmas, Lent: nothing. Card tag 'Feast days and remembering the dead' rests on this term.",
+    "verified": [],
+    "star": false,
+    "depth": "partial"
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "don.term.anniversaria-commemoratio",
+     "don.term.martyr-martyrdom",
+     "don.story.macrobius-letter"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [
+     "don.source.duval-loca-sanctorum-africae"
+    ],
+    "other": [],
+    "note": "The martyrs are honoured at their graves: this is a gathering, not prayer to a saint, and the records do not say which. Mary, anointing, weddings, funerals: nothing. The unvendored Duval, Loca sanctorum Africae (the martyr cult in Africa) is registered.",
+    "verified": [],
+    "star": false,
+    "depth": "thin"
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "don.dw.older-than-the-schism"
+    ],
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "A precise answer: no claim of an apostolic chain; the claim was African tradition from Cyprian's council of eighty-seven bishops, so the innovation was the other side's.",
+    "verified": [],
+    "star": false,
+    "depth": "full"
+   }
+  },
+  "gallic": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.term.catechumen",
+     "gallic.quote.martin-raises-the-catechumen",
+     "gallic.quote.the-catechumens-testimony",
+     "gallic.story.raising-of-the-catechumen"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted",
+     "Contested",
+     "Contested"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 24682,
+      "snippet": "giving out the dismissal of the catechumens.”"
+     },
+     {
+      "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt",
+      "line": 3985,
+      "snippet": "CONTRA ÜBIECTIOXKM l'ELAdll, QUA DICIT PARUULOS BAPTISMO"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "work": "Caesarius of Arles, Sermons (early 6th c.): baptism, communion, Lent, feast days in Gaul",
+      "edition": "Sources Chrétiennes (Delage) in copyright; Latin CCSL 103-104 (Morin 1953) in copyright; older Latin in PL 39",
+      "where": "archive.org (PL 39)",
+      "licence": "Latin of PL public domain; modern editions not"
+     }
+    ],
+    "note": "Catechumen state is rendered well: Martin stayed one for years, a raised catechumen was baptised at once, and term.catechumen's not_for forbids reading the wait as a brief step before infant baptism. The dismissal of the catechumens from the assembly is attested in Cassian's Egyptian story (npnf211:24682; the editor's footnote cites Augustine, Sermon 49: after the sermon the catechumens are sent out), the nearest vendored answer to 'could an unbaptised visitor stay'. Infants and mode: no record; Faustus of Riez answers Pelagius on infants (Latin, mapped).",
+    "verified": [
+     {
+      "record": "gallic.quote.martin-raises-the-catechumen",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       977
+      ],
+      "detail": null
+     },
+     {
+      "record": "gallic.quote.the-catechumens-testimony",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       1007,
+       1023
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.term.communion",
+     "gallic.quote.gallus-on-the-forced-communion-and-the-angel",
+     "gallic.story.trier-and-the-ithacian-communion"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 5146,
+      "snippet": "those bishops with whom Martin would not hold communion went in terror"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Communion as the sharpest sanction: Martin refused it to bishops who urged the sword, took it once under pressure and paid in lost power. The term's not_for says 'documented Gallic eucharistic frequency' rests only on an editor's footnote. No record on the bread's meaning or real presence.",
+    "verified": [
+     {
+      "record": "gallic.quote.gallus-on-the-forced-communion-and-the-angel",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       5145,
+       5184
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.term.unceasing-prayer",
+     "gallic.quote.the-fathers-and-the-angels-twelve",
+     "gallic.story.the-angel-and-the-twelve-psalms",
+     "gallic.term.compunction"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted",
+     "Widely Accepted",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 17258,
+      "snippet": "do not hurry at once to kneel down, as some of us do in this country,"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Strong: twelve psalms at fixed hours received from Egypt, the aim of prayer that never stops, and Cassian's detail that the Egyptians do not drop to their knees the moment a psalm ends. Not_for: at Tours only the aim is attested, not fixed hours. Anxious prayer: no record.",
+    "verified": [
+     {
+      "record": "gallic.quote.the-fathers-and-the-angels-twelve",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       17141,
+       17171,
+       17173,
+       17182,
+       17184,
+       17191,
+       17193,
+       17197,
+       17199,
+       17225,
+       1674,
+       17231
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "full"
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.story.the-angel-and-the-twelve-psalms",
+     "gallic.term.sign-of-the-cross",
+     "gallic.quote.the-psalm-that-answered-defensor",
+     "gallic.quote.martin-funeral-triumph-contrast",
+     "gallic.term.church-or-circus"
+    ],
+    "confidence": [
+     "Widely Accepted",
+     "Documented",
+     "Widely Accepted",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 17234,
+      "snippet": "and Sunday they read them both from the New Testament; viz., one from"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Psalm-singing, the sign of the cross as a weapon, a chance psalm answering a bishop, and Salvian's charge that the church emptied for the circus (term.church-or-circus is draft). Buildings, instruments, images, preaching length: no record.",
+    "verified": [
+     {
+      "record": "gallic.quote.the-psalm-that-answered-defensor",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       1088
+      ],
+      "detail": null
+     },
+     {
+      "record": "gallic.quote.martin-funeral-triumph-contrast",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       2506
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.term.penance-satisfaction",
+     "gallic.term.sackcloth-and-ashes",
+     "gallic.term.disclosure-of-thoughts",
+     "gallic.quote.paphnutius-asks-for-a-plan-of-repentance",
+     "gallic.story.the-three-lentil-beans",
+     "gallic.quote.receiving-christ-in-you"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Documented",
+     "Widely Accepted",
+     "Widely Accepted",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The best confession coverage among the monastic worlds: public penance without a priest, the disclosure of thoughts to an elder, and a fast broken for a guest as 'receiving Christ'. Both terms' not_for say this is Egyptian practice in Cassian, not shown for any Gallic house, and not sacramental confession with absolution.",
+    "verified": [
+     {
+      "record": "gallic.quote.paphnutius-asks-for-a-plan-of-repentance",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       43040
+      ],
+      "detail": null
+     },
+     {
+      "record": "gallic.quote.receiving-christ-in-you",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       21017
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "full"
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.term.church-or-circus",
+     "gallic.quote.receiving-christ-in-you"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 5037,
+      "snippet": "to eat fish at the time of Easter, he enquired a little before the hour"
+     },
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 17240,
+      "snippet": "Scriptures, from Easter to Whitsuntide. Totis"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Thin. A feast-day emptying of the church (draft term) and a fast that is a 'free-will offering'. The library has a Sulpitius monastery story in which fish is expected at Easter (npnf211:5037), and Cassian's note that reading and recollection of Scripture fill the days from Easter to Whitsuntide (npnf211:17240). No record on Sunday or Sabbath, Christmas or Lent.",
+    "verified": [
+     {
+      "record": "gallic.quote.receiving-christ-in-you",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       21017
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "thin"
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.quote.martin-funeral-procession-ranks",
+     "gallic.quote.martin-funeral-crowd-and-monks",
+     "gallic.quote.martin-funeral-triumph-contrast",
+     "gallic.story.death-of-martin-at-condate",
+     "gallic.term.blessing",
+     "gallic.term.theotocos"
+    ],
+    "confidence": [
+     "Widely Accepted",
+     "Widely Accepted",
+     "Documented",
+     "Widely Accepted",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/hilary-arles_sermo-de-vita-sancti-honorati_migne-pl50.txt",
+      "line": 1408,
+      "snippet": "Honorati morbus. obitus, sepultura. — Sancti in coelo"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Funerals are rendered closely (Martin's burial procession, the monks, the argument over his body). Blessed oil heals as a power (term.blessing). Mary appears only as Vincent's proof of 'one Person' against Nestorius, and the not_for says so; no prayer to Mary or the saints, no wedding rite.",
+    "verified": [
+     {
+      "record": "gallic.quote.martin-funeral-procession-ranks",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       2495
+      ],
+      "detail": null
+     },
+     {
+      "record": "gallic.quote.martin-funeral-crowd-and-monks",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       2487
+      ],
+      "detail": null
+     },
+     {
+      "record": "gallic.quote.martin-funeral-triumph-contrast",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       2506
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.term.apostolic-authority",
+     "gallic.term.tradition",
+     "gallic.term.novelty-antiquity",
+     "gallic.quote.pope-stephen-no-innovation",
+     "gallic.quote.cassian-adapts-egypt-to-gaul",
+     "gallic.quote.customs-delivered-to-us-by-the-fathers"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Documented",
+     "Widely Accepted",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Vincent's rule (what is held everywhere, always, by all) and Cassian's openly adapted Egyptian customs: the world answers C7-05 by its own test, with 'no steady tradition' admitted where it applies.",
+    "verified": [
+     {
+      "record": "gallic.quote.pope-stephen-no-innovation",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       12527
+      ],
+      "detail": null
+     },
+     {
+      "record": "gallic.quote.cassian-adapts-egypt-to-gaul",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       16515
+      ],
+      "detail": null
+     },
+     {
+      "record": "gallic.quote.customs-delivered-to-us-by-the-fathers",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       16444
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "full"
+   }
+  },
+  "hal": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.dw.practices",
+     "hal.dw.apostolic",
+     "hal.dw.sin-grace"
+    ],
+    "confidence": [
+     "Widely Accepted",
+     "Widely Accepted",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 31929,
+      "snippet": "immersion, that is, thrice dipping the head while standing in the"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Born again at the font, everyone needs the washing, baptism and the eucharist 'from the whole church'. No record on infants against adults or the mode. The hit is Schaff's note that triple immersion was the all-but-universal rule (editor, on Jerome's Dialogue against the Luciferians).",
+    "verified": [],
+    "star": false,
+    "depth": "partial"
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [
+     "hal.dw.apostolic"
+    ],
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 16963,
+      "snippet": "6. You ask me whether you ought to fast on the Sabbath i.e. on"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record on the meal. dw.apostolic only lists the eucharist among practices 'from the whole church'. Jerome's Letter 71 to Lucinius, section 6, answers 'whether to receive the eucharist daily according to the custom of Rome and Spain' (npnf206:16963-16967; the note adds daily communion at Constantinople, Africa and Spain, and daily except Saturday at Rome).",
+    "verified": [],
+    "star": false,
+    "depth": "thin"
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.dw.inner-life",
+     "hal.story.day-at-monastery",
+     "hal.quote.paula-hebrew-psalms"
+    ],
+    "confidence": [
+     "Widely Accepted",
+     "Inferential-Thin",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 6670,
+      "snippet": "the ninth hour they meet together to sing psalms and read the"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Psalter at set hours, fixed prayer and work as the answer to a restless mind, prayer through unanswered grief; the story's own not_for refuses any timetable. No set-against-free question is answered. The hit is Jerome's account of Egyptian monks meeting at the ninth hour for psalms and reading (Letter 22).",
+    "verified": [
+     {
+      "record": "hal.quote.paula-hebrew-psalms",
+      "result": "MATCH",
+      "file": "npnf206_jerome-principal-works.xml",
+      "lines": [
+       22019
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.quote.buried-beneath-the-church",
+     "hal.quote.paula-hebrew-psalms",
+     "hal.limit.f5-material-remains"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Psalms chanted for a week in Greek, Latin and Syriac, and burial beneath the church by the Nativity cave. The limit says no building or object has been traced. Images, instruments, preaching: nothing.",
+    "verified": [
+     {
+      "record": "hal.quote.buried-beneath-the-church",
+      "result": "MATCH",
+      "file": "npnf206_jerome-principal-works.xml",
+      "lines": [
+       22130
+      ],
+      "detail": null
+     },
+     {
+      "record": "hal.quote.paula-hebrew-psalms",
+      "result": "MATCH",
+      "file": "npnf206_jerome-principal-works.xml",
+      "lines": [
+       22019
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.quote.she-put-on-sackcloth",
+     "hal.story.rome-crisis",
+     "hal.quote.detestable-monks",
+     "hal.dw.marriage-ending"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Fabiola's public penance in sackcloth before the people, with restoration; Blaesilla's fatal fasting and the backlash; Jerome's attack on show-fasters. Private confession is not addressed.",
+    "verified": [
+     {
+      "record": "hal.quote.she-put-on-sackcloth",
+      "result": "MATCH",
+      "file": "npnf206_jerome-principal-works.xml",
+      "lines": [
+       17449,
+       17453
+      ],
+      "detail": null
+     },
+     {
+      "record": "hal.quote.detestable-monks",
+      "result": "MATCH",
+      "file": "npnf206_jerome-principal-works.xml",
+      "lines": [
+       8111
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 16963,
+      "snippet": "6. You ask me whether you ought to fast on the Sabbath i.e. on"
+     },
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 1059,
+      "snippet": "middle of Lent (36), fell into a fever of which he nearly died. To this"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record on Sunday or Sabbath, Easter, Christmas or Lent. Letter 71 to Lucinius asks about the Sabbath fast and daily communion; Jerome's dream of judgment fell in mid-Lent (the Ciceronian dream story gives the dream but not the season).",
+    "verified": [],
+    "star": false,
+    "depth": "thin"
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.quote.buried-beneath-the-church",
+     "hal.story.paula-epitaph",
+     "hal.term.epitaphium",
+     "hal.story.marcella-death"
+    ],
+    "confidence": [
+     "Documented",
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 22279,
+      "snippet": " the Creator, who is blessed for ever. Rom. i. 25. Still we honour the relics of the martyrs,"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Funerals are covered (Paula's week of psalms). Invocation of the saints and relics: Jerome's Against Vigilantius (npnf206, mapped) says 'we honour the relics of the martyrs that we may adore Him whose martyrs they are'. The card tag 'Saints and holy places' traces only to hal.dw.record; no record renders this passage.",
+    "verified": [
+     {
+      "record": "hal.quote.buried-beneath-the-church",
+      "result": "MATCH",
+      "file": "npnf206_jerome-principal-works.xml",
+      "lines": [
+       22130
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.dw.apostolic"
+    ],
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Answers by distinction: baptism, the eucharist and scripture came from the whole church; the ascetic life was new within living memory, defended from the patterns of scripture and not claimed as apostolic.",
+    "verified": [],
+    "star": false,
+    "depth": "full"
+   }
+  },
+  "ijc": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.dw.baptism-threshold",
+     "ijc.quote.he-deferred-it-in-the-hope",
+     "ijc.dw.original-sin-transmitted",
+     "ijc.story.bees-of-milan"
+    ],
+    "confidence": [
+     "Documented",
+     "Contested",
+     "Documented",
+     "Inferential-Thin"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Baptism as the decisive, deferred threshold (Constantine on his deathbed, with Eusebius as the only source for why). Infants and mode: dw.original-sin-transmitted is tagged to the baby-baptism question yet is about Leo's premise of inherited sin, not infant baptism, so retrieval would pull the wrong text. 'Born again' and conversion experience are bounded by not_for.",
+    "verified": [
+     {
+      "record": "ijc.quote.he-deferred-it-in-the-hope",
+      "result": "MATCH",
+      "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": [
+       67751
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.dw.bread-made-body",
+     "ijc.quote.ambrose-blessing-changes-nature",
+     "ijc.quote.ambrose-dare-not-offer",
+     "ijc.term.communio",
+     "ijc.story.emperor-penance"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Documented",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The fullest bread-and-cup coverage outside Wittenberg: consecration changes the nature of the elements (Ambrose), taught to the newly baptised, not called transubstantiation. Refusal is also there: Ambrose barring Theodosius from the altar after Thessalonica. One F1-T demonstration (bread-and-cup). Frequency of communion: nothing.",
+    "verified": [
+     {
+      "record": "ijc.quote.ambrose-blessing-changes-nature",
+      "result": "MATCH",
+      "file": "npnf210_ambrose-select-works-letters.xml",
+      "lines": [
+       33203,
+       33263
+      ],
+      "detail": null
+     },
+     {
+      "record": "ijc.quote.ambrose-dare-not-offer",
+      "result": "MATCH",
+      "file": "npnf210_ambrose-select-works-letters.xml",
+      "lines": [
+       44181
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "full"
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.limit.inner-life",
+     "ijc.quote.augustine-vigil-hymns",
+     "ijc.quote.hymns-and-psalms-should-be-sung"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+      "line": 13731,
+      "snippet": "salvation of the human race. How greatly did I weep in Thy hymns"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Guard plus public worship: the limit says no one recorded how they prayed alone, and offers hymns and psalms sung together under siege. Set or free prayer, the Lord's Prayer, prayer in anxiety: no record.",
+    "verified": [
+     {
+      "record": "ijc.quote.augustine-vigil-hymns",
+      "result": "MATCH",
+      "file": "npnf101_augustine-confessions-letters.xml",
+      "lines": [
+       13765,
+       13770
+      ],
+      "detail": null
+     },
+     {
+      "record": "ijc.quote.hymns-and-psalms-should-be-sung",
+      "result": "MATCH",
+      "file": "npnf101_augustine-confessions-letters.xml",
+      "lines": [
+       13767
+      ],
+      "detail": null
+     }
+    ],
+    "star": true,
+    "depth": "thin"
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.story.vigil-in-basilica",
+     "ijc.quote.hymns-and-psalms-should-be-sung",
+     "ijc.quote.augustine-vigil-hymns",
+     "ijc.term.basilica",
+     "ijc.dw.ancient-custom"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Documented",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Strong and honest: Milan's hymn-singing dated to the 386 siege (a custom admitted to be new), the basilica as the contested room. Instruments, images, kneeling, the sign of the cross, sermon length: no record. 'Hymns and music' is on the card, traced only 'some' to ijc.quote.augustine-vigil-hymns.",
+    "verified": [
+     {
+      "record": "ijc.quote.hymns-and-psalms-should-be-sung",
+      "result": "MATCH",
+      "file": "npnf101_augustine-confessions-letters.xml",
+      "lines": [
+       13767
+      ],
+      "detail": null
+     },
+     {
+      "record": "ijc.quote.augustine-vigil-hymns",
+      "result": "MATCH",
+      "file": "npnf101_augustine-confessions-letters.xml",
+      "lines": [
+       13765,
+       13770
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "full"
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.story.emperor-penance",
+     "ijc.quote.sin-is-not-done-away-but-by-tears",
+     "ijc.quote.ambrose-dare-not-offer",
+     "ijc.dw.baptism-threshold"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Public penance of an emperor and Ambrose's 'sin is not done away but by tears and penitence'. Private confession to a priest and fasting: no record.",
+    "verified": [
+     {
+      "record": "ijc.quote.sin-is-not-done-away-but-by-tears",
+      "result": "MATCH",
+      "file": "npnf210_ambrose-select-works-letters.xml",
+      "lines": [
+       44159
+      ],
+      "detail": null
+     },
+     {
+      "record": "ijc.quote.ambrose-dare-not-offer",
+      "result": "MATCH",
+      "file": "npnf210_ambrose-select-works-letters.xml",
+      "lines": [
+       44181
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.quote.leo-sinner-be-glad",
+     "ijc.story.vigil-in-basilica"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+      "line": 714,
+      "snippet": "the right day for the observance of Easter."
+     },
+     {
+      "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+      "line": 3377,
+      "snippet": "Nativity and Sunday disapproved of."
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Christmas appears only as the setting of Leo's sermon (undated within 440-461), and Milan's siege fell at Easter. Ambrose's letters (npnf210:714) argue over the right day of Easter, and Leo's index lists 'Nativity and Sunday disapproved of'. No Sunday-or-Sabbath, Lent record.",
+    "verified": [
+     {
+      "record": "ijc.quote.leo-sinner-be-glad",
+      "result": "MATCH",
+      "file": "npnf212_leo-great-gregory-great.xml",
+      "lines": [
+       14508
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "thin"
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood",
+     "ijc.limit.marriage-money",
+     "ijc.term.martyrium",
+     "ijc.story.bees-of-milan"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Widely Accepted",
+     "Inferential-Thin"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+      "line": 651,
+      "snippet": "Satyrus, brother of St. Ambrose. The two treatises on his death"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Marriage ranked below virginity and the honest limit on weddings and money; martyr shrines (term.martyrium); Ambrose's two treatises on the death of his brother Satyrus are in the mapped Ambrose volume and unrendered. Mary, anointing: nothing.",
+    "verified": [
+     {
+      "record": "ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood",
+      "result": "MATCH",
+      "file": "npnf210_ambrose-select-works-letters.xml",
+      "lines": [
+       45073
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.dw.ancient-custom",
+     "ijc.quote.let-the-ancient-customs-prevail",
+     "ijc.quote.julius-custom"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "'Ancient custom' as the world's currency, with the record admitting where a custom was born within living memory. Strong and candid.",
+    "verified": [
+     {
+      "record": "ijc.quote.let-the-ancient-customs-prevail",
+      "result": "MATCH",
+      "file": "npnf214_seven-ecumenical-councils.xml",
+      "lines": [
+       3405
+      ],
+      "detail": null
+     },
+     {
+      "record": "ijc.quote.julius-custom",
+      "result": "MATCH",
+      "file": "npnf204_athanasius-select-works-letters.xml",
+      "lines": [
+       23549
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "full"
+   }
+  },
+  "lpc": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "lpc.witness.baptism-traced-to-the-apostles",
+     "lpc.term.catechesis",
+     "lpc.term.heresy",
+     "lpc.limit.apostolic-origin-undefended"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "line": 35860,
+      "snippet": "Those Who Thought that an Infant Must Not Be Baptized Before the Eighth"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Infant baptism and the refusal to rebaptise are traced to the apostles by Augustine; catechesis comes before the water (Cyprian, Augustine). The Cyprian letter to Fidus on infants and the eighth day is vendored and unrendered. Mode: nothing. All lpc records are draft.",
+    "verified": [],
+    "star": false,
+    "depth": "full"
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "lpc.witness.communion-over-separation",
+     "lpc.term.communion",
+     "lpc.quote.ye-belong-to-my-care"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+      "line": 30000,
+      "snippet": "Christian. For he that dares not take it every day, and he who"
+     },
+     {
+      "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
+      "line": 2790,
+      "snippet": "And what else do they say who call the sacrament of the Lord’s Supper life, than that which is written: “I am the living bread which came down from heaven;”"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Communion as a standing within the one body (lose it, be given it back), but nothing on the bread and cup itself, how often, or presence. Augustine's Letter 54 to Januarius (npnf101:30000) says some receive every day and some on set days, and Augustine on the Supper is vendored; none is rendered.",
+    "verified": [
+     {
+      "record": "lpc.quote.ye-belong-to-my-care",
+      "result": "MATCH",
+      "file": "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+      "lines": [
+       20796
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "thin"
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "lpc.quote.the-creed-first-then-the-prayer",
+     "lpc.quote.longing-expectation-is-a-prayer-for-me",
+     "lpc.witness.heard-for-salvation-not-for-wish",
+     "lpc.story.the-psalms-on-the-wall"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+      "line": 44898,
+      "snippet": "To Proba, Anicia Faltonia Proba, the widow of Sextus"
+     },
+     {
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "line": 44626,
+      "snippet": "On the Lord’s Prayer."
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Good: the Creed before the Lord's Prayer, unanswered prayer (Paul's thorn: heard for salvation, not for wish), Augustine dying with the penitential psalms on the wall. Cyprian's treatise and Augustine's Letter 130 to Proba on how to pray are in the mapped volumes and unrendered.",
+    "verified": [
+     {
+      "record": "lpc.quote.the-creed-first-then-the-prayer",
+      "result": "MATCH",
+      "file": "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+      "lines": [
+       10642
+      ],
+      "detail": null
+     },
+     {
+      "record": "lpc.quote.longing-expectation-is-a-prayer-for-me",
+      "result": "MATCH",
+      "file": "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+      "lines": [
+       9398
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "full"
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+     "lpc.term.preaching",
+     "lpc.limit.ordinary-interior-life"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+      "line": 13731,
+      "snippet": "salvation of the human race. How greatly did I weep in Thy hymns"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Preaching is rendered (readings and sermon as daily bread; the same voice working on you). The one first-person worship line is Augustine weeping in the hymns at his baptism. Buildings, instruments, images, posture: no record.",
+    "verified": [
+     {
+      "record": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+      "result": "MATCH",
+      "file": "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+      "lines": [
+       10894
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "lpc.quote.bind-him-justly",
+     "lpc.quote.peter-the-sick-man-and-the-physician",
+     "lpc.term.reconciliation-penitential-discipline",
+     "lpc.term.certificates-letters-of-peace",
+     "lpc.story.celerinus-writes-to-lucian",
+     "lpc.demo.road-back-examined"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Documented",
+     "Documented",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+      "line": 26462,
+      "snippet": "Casulanus, Most Beloved and Longed For, Augustin Sends Greeting in"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "The road back for the lapsed is the world's best-covered topic, with one F4-I demonstration (road-back-examined). Confession to a priest or God alone, and fasting: no record. Augustine's Letter 36 (to Casulanus, on fasting on the Sabbath) is vendored and unrendered.",
+    "verified": [
+     {
+      "record": "lpc.quote.bind-him-justly",
+      "result": "MATCH",
+      "file": "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+      "lines": [
+       14225
+      ],
+      "detail": null
+     },
+     {
+      "record": "lpc.quote.peter-the-sick-man-and-the-physician",
+      "result": "MATCH",
+      "file": "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+      "lines": [
+       20614
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "full"
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+      "line": 29897,
+      "snippet": "e.g. the annual commemoration, by special solemnities, of the"
+     },
+     {
+      "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+      "line": 26462,
+      "snippet": "Casulanus, Most Beloved and Longed For, Augustin Sends Greeting in"
+     },
+     {
+      "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
+      "line": 8889,
+      "snippet": "lean. A few do this always; and at certain seasons or days, as in Lent, almost all, more or less, according to the choice or ability of individuals. You, on the other han"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record on Sunday or Sabbath, Easter, Christmas or Lent. Augustine's Letter 54 (npnf101:29897) names the yearly solemnities of the Lord's passion, resurrection, ascension and the descent of the Spirit as customs held from the apostles or plenary councils; Letter 36 to Casulanus (the Sabbath fast) is vendored; Augustine in the anti-Manichaean volume notes that 'at certain seasons, as in Lent, almost all' abstain from meat (npnf104:8889). The world has no card yet, so no card tag claims this.",
+    "verified": [],
+    "star": false,
+    "depth": "thin"
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "lpc.story.the-death-of-cyprian",
+     "lpc.witness.marriage-a-threefold-good",
+     "lpc.witness.the-pattern-we-are-modelled-on"
+    ],
+    "confidence": [
+     "Widely Accepted",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+      "line": 14194,
+      "snippet": "ask, that you will remember me at the Lord’s altar, wherever you"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Marriage as a threefold good and Cyprian's death are rendered. Monica asking to be remembered at the Lord's altar (Confessions IX), prayers for the dead and the cult of the martyrs are vendored and unrendered. Anointing the sick, Mary: nothing.",
+    "verified": [],
+    "star": false,
+    "depth": "partial"
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "lpc.witness.baptism-traced-to-the-apostles",
+     "lpc.witness.tradition-tested-by-apostolic-warrant",
+     "lpc.limit.apostolic-origin-undefended",
+     "lpc.witness.apostolic-succession-of-bishops"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+      "line": 29897,
+      "snippet": "e.g. the annual commemoration, by special solemnities, of the"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "The strongest honest accounting in the twelve: two practices (not rebaptising, infant baptism) traced to the apostles by Augustine's presumed-custom test, the bishop's office by the list of Roman bishops, and the rest declared undefended.",
+    "verified": [],
+    "star": false,
+    "depth": "full"
+   }
+  },
+  "pahc": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.quote.in-living-water",
+     "pahc.term.baptisma",
+     "pahc.story.two-ways-catechumen",
+     "pahc.demo.becoming-one-of-us"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted",
+     "Inferential-Thin",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+      "line": 12914,
+      "snippet": " -->Elucidation I -->.] Having first said all these things, baptize into the name of the Father, and of the Son, and of the Holy Spirit,"
+     },
+     {
+      "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+      "line": 12970,
+      "snippet": "t let no one eat or drink of your Thanksgiving (Eucharist), but they who have been baptized into the name of the Lord; for concerning this also the Lord hath said, Give n"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "work": "Apostolic Tradition attributed to Hippolytus (Rome, early 3rd c.): order of baptism, bread and cup, hours of prayer, fasting",
+      "edition": "B.S. Easton (Cambridge 1934) and G. Dix (SPCK 1937) from the reconstructed Latin/Greek witnesses",
+      "where": "archive.org / HathiTrust",
+      "licence": "rights of the modern English translations unclear; the ancient witnesses are public domain"
+     },
+     {
+      "work": "Tertullian, De baptismo and De corona (mode of baptism, infants deferred, the sign of the cross, kneeling, Sunday and Easter-to-Pentecost)",
+      "edition": "ANF vol. 3 (Roberts-Donaldson, 1885)",
+      "where": "already vendored as anf03 but mapped only to pahc",
+      "licence": "public domain"
+     }
+    ],
+    "note": "Strong on the entry path: the Two Ways taught first, baptism in running water, fallbacks down to pouring three times on the head (Didache 7), fast before. One F4-I demonstration (becoming-one-of-us). The Didache's rule that only the baptised may eat the thanksgiving (anf07:12970) is the vendored answer to the unbaptised visitor and is not rendered as such. Infants: nothing.",
+    "verified": [
+     {
+      "record": "pahc.quote.in-living-water",
+      "result": "MATCH (section-number-dropped)",
+      "file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+      "lines": [
+       12914
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "full"
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.quote.first-concerning-the-cup",
+     "pahc.term.eucharistia",
+     "pahc.story.didache-eucharist",
+     "pahc.story.one-eucharist-under-bishop",
+     "pahc.term.agape-label"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Inferential-Thin",
+     "Inferential-Thin",
+     "Contested"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "line": 7498,
+      "snippet": "Eucharist. For there is one flesh of our Lord Jesus Christ, and one cup"
+     },
+     {
+      "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+      "line": 12970,
+      "snippet": "t let no one eat or drink of your Thanksgiving (Eucharist), but they who have been baptized into the name of the Lord; for concerning this also the Lord hath said, Give n"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Thanksgiving over the cup then the bread, no supper story; Ignatius's one eucharist under the bishop; the agape label contested. The cup quote's not_for refuses any presence or transubstantiation reading. Ignatius and Justin both call the bread 'the flesh of our Saviour' (anf01:8224) and no record renders it. Who was refused: the baptised-only rule. Frequency: Justin's Sunday, Didache 14.",
+    "verified": [
+     {
+      "record": "pahc.quote.first-concerning-the-cup",
+      "result": "MATCH (section-number-dropped)",
+      "file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+      "lines": [
+       12960
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "full"
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.witness.prayer-and-struggle",
+     "pahc.story.didache-eucharist",
+     "pahc.story.justin-sunday-gathering"
+    ],
+    "confidence": [
+     "Documented",
+     "Inferential-Thin",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+      "line": 12939,
+      "snippet": " for some time retained a place in Christian literature. 2. Neither pray as the hypocrites; but as the Lord commanded in His Gospel,"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "A slow answer is not a refusal (Hermas); common prayer standing after the sermon (Justin); the thanksgiving prayers. Didache 8 gives the Lord's Prayer as the set form, said three times a day, and no record renders it. Free against set prayer is not asked in the record. Anxious prayer: prayer-and-struggle (tagged 'some').",
+    "verified": [],
+    "star": false,
+    "depth": "partial"
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.story.justin-sunday-gathering",
+     "pahc.quote.the-memoirs-of-the-apostles-are-read",
+     "pahc.witness.reading-scripture",
+     "pahc.witness.outsider-view",
+     "pahc.limit.material-remains",
+     "pahc.story.pliny-interrogation"
+    ],
+    "confidence": [
+     "Widely Accepted",
+     "Documented",
+     "Documented",
+     "Documented",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "line": 16502,
+      "snippet": "Jesus Christ, and through the Holy Ghost. And on the day called Sunday, τῇ τοῦ ῾Ηλίου λεγομένη ἡμέρᾳ."
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "A directly attested order of service (reading, sermon, all rise and pray, thanksgiving, collection) and a straight limit on rooms (no building or burial tied to the world survives; the catacombs and house churches belong to later worlds). Singing is only Pliny's hymn to Christ as to a god. Instruments, images, sermon length, smell and look: nothing.",
+    "verified": [
+     {
+      "record": "pahc.quote.the-memoirs-of-the-apostles-are-read",
+      "result": "MATCH",
+      "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": [
+       16502
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "full"
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.witness.prayer-and-struggle",
+     "pahc.story.two-ways-catechumen",
+     "pahc.term.baptisma",
+     "pahc.story.hermas-visions"
+    ],
+    "confidence": [
+     "Documented",
+     "Inferential-Thin",
+     "Widely Accepted",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+      "line": 12937,
+      "snippet": "hey fast on the second and fifth day of the week; but do ye fast on the fourth day and the Preparation (Friday)."
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Confession in the assembly before the offering (one community, per the Didache), the fast before baptism, repentance in Hermas. Didache 8's Wednesday and Friday fast (anf07:12937) is vendored and not rendered. A priest, each other or God alone is not asked in the records.",
+    "verified": [],
+    "star": false,
+    "depth": "partial"
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.quote.the-memoirs-of-the-apostles-are-read",
+     "pahc.quote.polycrates-to-victor",
+     "pahc.story.justin-sunday-gathering"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "line": 5969,
+      "snippet": "“according to.” of the Lord’s Day, on which"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Sunday is attested (Justin; Ignatius's Lord's Day) and Easter is argued out as the 14th-day dispute (Polycrates to Victor). Christmas and Lent: nothing, which is accurate for the window. Polycrates is filed under F3-I, so a calendar question may not retrieve it.",
+    "verified": [
+     {
+      "record": "pahc.quote.the-memoirs-of-the-apostles-are-read",
+      "result": "MATCH",
+      "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": [
+       16502
+      ],
+      "detail": null
+     },
+     {
+      "record": "pahc.quote.polycrates-to-victor",
+      "result": "MATCH",
+      "file": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+      "lines": [
+       72578,
+       72614
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.quote.ignatius-marriage-bishop",
+     "pahc.witness.marriage-and-wealth",
+     "pahc.story.martyrdom-of-polycarp",
+     "pahc.quote.ignatius-truly-born"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Contested",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "line": 4226,
+      "snippet": "“the birth-day.” of his martyrdom, both in memory"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Marriage with the bishop's approval (Ignatius) and the martyr's remains kept and the 'birthday' of his martyrdom kept yearly (Polycarp). Mary appears only as 'truly born of Mary'. Prayer to saints, anointing the sick, funerals: nothing.",
+    "verified": [
+     {
+      "record": "pahc.quote.ignatius-marriage-bishop",
+      "result": "MATCH",
+      "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": [
+       8734
+      ],
+      "detail": null
+     },
+     {
+      "record": "pahc.quote.ignatius-truly-born",
+      "result": "MATCH",
+      "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": [
+       6612
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.witness.apostolic-practice",
+     "pahc.witness.scripture-and-testimony",
+     "pahc.witness.scholarly-standing",
+     "pahc.quote.first-clement-apostolic-chain"
+    ],
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The claim is made openly (1 Clement's chain; the Didache's title) and the record says plainly that the claim is not the proof, and that dating of both texts is disputed.",
+    "verified": [
+     {
+      "record": "pahc.quote.first-clement-apostolic-chain",
+      "result": "MATCH",
+      "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": [
+       1845,
+       1856
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "full"
+   }
+  },
+  "rzg": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "rzg.witness.why-the-children-too",
+     "rzg.contested.anabaptist-schism-legitimacy"
+    ],
+    "confidence": [
+     "Documented",
+     "Contested"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt",
+      "line": 1268,
+      "snippet": "Chap. XX. Of Holy Baptism. — Baptism is instituted by Christ"
+     },
+     {
+      "file": "cic/texts/kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt",
+      "line": 10228,
+      "snippet": "ORDER OF BAPTISM."
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Infants, and against a real challenge from inside the founding circle (Grebel and Manz). The Second Helvetic Confession ch. XX is vendored. Mode (pour, sprinkle, immerse) and the unbaptised visitor: nothing. Card tag 'Baptism' traces 'some' to this witness; no F4-I or F4-T demonstration exists for this world.",
+    "verified": [],
+    "star": false,
+    "depth": "partial"
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "rzg.witness.one-supper-two-poles",
+     "rzg.quote.mass-not-a-sacrifice",
+     "rzg.term.the-lords-supper-spiritual-presence",
+     "rzg.term.mutual-consent",
+     "rzg.term.excommunication"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Documented",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt",
+      "line": 9419,
+      "snippet": "THE LORD'S SUPPER."
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Strongest on symbol against presence: remembrance (Zwingli 1523) and the 1549 sign-and-reality formula, no sacrifice, no confinement to the bread. Refusal: excommunication is shut out of the sacraments. The rzg F1-T demonstration is the predestination one (f1-t-03), not bread and cup. How often (Zurich against Geneva) is not in the records; the mapped Book of Common Order and Calvin's Institutes IV.17-18 carry it.",
+    "verified": [
+     {
+      "record": "rzg.quote.mass-not-a-sacrifice",
+      "result": "MATCH (hyphen-joined)",
+      "file": "zwingli_selected-works_jackson1901.txt",
+      "lines": [
+       4565
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "full"
+   },
+   "S3": {
+    "layer": "LOADED",
+    "records": [
+     "rzg.witness.a-quieted-mind"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/calvin_institutes-christian-religion-vol2_beveridge1845.txt",
+      "line": 20494,
+      "snippet": "OF PRAYER A PERPETUAL EXERCISE OF FAITH. THE"
+     },
+     {
+      "file": "cic/texts/calvin_geneva-catechism_waterman1815.txt",
+      "line": 2732,
+      "snippet": "III. OF PRAYER."
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "work": "Calvin, Form of Prayers and Manner of Ministering the Sacraments (Geneva 1542): the Sunday order, baptism, the Supper, set prayers, the Psalms sung",
+      "edition": "Tracts and Treatises vol. 2, tr. H. Beveridge (Calvin Translation Society, Edinburgh 1849)",
+      "where": "archive.org",
+      "licence": "public domain"
+     }
+    ],
+    "note": "No record on prayer. Tangent: rzg.witness.a-quieted-mind (a mind that will not settle is turned to Christ, not inward), with a not_for that forbids a claim about unanswered prayer. Calvin's Institutes III.20 is vendored (vol. 2) with the Geneva Catechism; Calvin's Form of Prayers (1542) is not.",
+    "verified": [],
+    "star": false,
+    "depth": "thin"
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "rzg.witness.what-a-stranger-would-notice",
+     "rzg.limit.material-culture-and-worship-space",
+     "rzg.witness.triple-refusal"
+    ],
+    "confidence": [
+     "Inferential-Thin",
+     "Inferential-Thin",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/marot-beze_pseaumes-mis-en-rime-francoise-fra_1562.txt",
+      "line": 3,
+      "snippet": "Title: Les Pseaumes mis en rime francoise, par Clement Marot, & Theodore de"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "A reasoned negative picture (no image to bow to, a table for an altar, the Zurich organ silent) that the limit marks Inferential-Thin: no source describes the space. The sung psalm (Marot and Beza's Genevan Psalter) is mapped and not rendered; the card carries no 'Hymns and music' tag for rzg.",
+    "verified": [],
+    "star": false,
+    "depth": "partial"
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "rzg.term.excommunication",
+     "rzg.term.consistory",
+     "rzg.limit.consistory-case-narrative"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/calvin_institutes-christian-religion-vol3_beveridge1845.txt",
+      "line": 11063,
+      "snippet": "sations. To what pxu-poses applied. Of Fasting."
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "The Consistory's discipline and its harshest tool; no case narrative survives (the limit says so). Private confession to a minister and fasting are not covered; Calvin's Institutes IV.12 (discipline and fasting) is vendored.",
+    "verified": [],
+    "star": false,
+    "depth": "partial"
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [
+     "rzg.limit.ordinary-daily-practice"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt",
+      "line": 1418,
+      "snippet": "Chap. XXIV. Of Feasts, Fasts, and the Choice of Meats. — The"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record on Sunday, Easter, Christmas or Lent. Tangent: limit.ordinary-daily-practice says no account of an ordinary Sunday survives. The Second Helvetic Confession, chapter XXIV 'Of Feasts, Fasts, and the Choice of Meats' (schaff_second, line 1418; the Lord's Day line follows at 1419), is mapped and answers directly.",
+    "verified": [],
+    "star": false,
+    "depth": "thin"
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "rzg.limit.hagiography-refused",
+     "rzg.limit.no-teaching-on-wealth-or-marriage"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/zwingli_selected-works_jackson1901.txt",
+      "line": 2477,
+      "snippet": "to and the intercession of the saints and the mother of God. For"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Guard only. Saints: the record holds no saint's life or martyr's cult because the cities refused the reverence it exists to produce. Weddings and funerals: the limit says no teaching on marriage was recorded. Calvin's Institutes (extreme unction, vol. 3:21591) and Zwingli's Sixty-Seven Articles (the intercession of the saints) are vendored and unrendered.",
+    "verified": [],
+    "star": true,
+    "depth": "thin"
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "rzg.witness.one-conviction-two-enactments",
+     "rzg.term.sola-scriptura"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Answered by the world's own test, not by descent: Scripture alone may bind a church; what it does not warrant, no one may require of us. A claim of apostolic origin for a practice is not made or denied.",
+    "verified": [],
+    "star": false,
+    "depth": "partial"
+   }
+  },
+  "syr": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.dw.born-again-endtimes",
+     "syr.quote.warned-before-baptism",
+     "syr.dw.remains",
+     "syr.limit.ritual-sequence"
+    ],
+    "confidence": [
+     "Widely Accepted",
+     "Documented",
+     "Widely Accepted",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/aphrahat_demonstrations-2-7_hallock1932.txt",
+      "line": 47,
+      "snippet": " the Church, to warn all (who are in) the covenant of God~1~before baptism, and to those who choose for themselves virginity and holiness, young men and virgins and those"
+     },
+     {
+      "file": "cic/texts/addai_doctrine-of-addai.txt",
+      "line": 47,
+      "snippet": "20 divinity, because that we were thus commanded by Him, to baptize and absolve those who believe in the name of the Father and the Son and the Holy Spirit. Also the Prop"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "work": "Didascalia Apostolorum (north Syria, 3rd c.): penance and readmission, the fast before Pascha, who is refused the offering, how the bishop sits in the assembly",
+      "edition": "M.D. Gibson, The Didascalia Apostolorum in English (Horae Semiticae 2, London 1903)",
+      "where": "archive.org",
+      "licence": "public domain"
+     }
+    ],
+    "note": "Baptism as womb, shining garments and sealing, sung in church; the covenant vow taken before the water (Aphrahat, Dem. VII.20); and a securely dated baptistery at Nisibis. The limit says no order of service survives, so the rite's sequence cannot be walked through. Infants, dunk or pour: nothing. syr.quote.warned-before-baptism is MATCH-with-artefact (a footnote marker '~1~' in Hallock's text).",
+    "verified": [
+     {
+      "record": "syr.quote.warned-before-baptism",
+      "result": "MATCH (editorial artefact)",
+      "file": "aphrahat_demonstrations-2-7_hallock1932.txt",
+      "lines": [
+       47
+      ],
+      "detail": "wording identical; Hallock's footnote marker \"~1~\" stands inside the sentence"
+     }
+    ],
+    "star": false,
+    "depth": "full"
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [
+     "syr.limit.ritual-sequence"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/aphrahat_demonstrations-2-7_hallock1932.txt",
+      "line": 48,
+      "snippet": " and they love the Lord, and they lick His wounds when they receive His Body, and they set Him before their eyes, and they lick Him with their tongues as a dog licks his "
+     },
+     {
+      "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+      "line": 20962,
+      "snippet": "The Liturgy of the Blessed Apostles."
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "work": "Didascalia Apostolorum (north Syria, 3rd c.): penance and readmission, the fast before Pascha, who is refused the offering, how the bishop sits in the assembly",
+      "edition": "M.D. Gibson, The Didascalia Apostolorum in English (Horae Semiticae 2, London 1903)",
+      "where": "archive.org",
+      "licence": "public domain"
+     }
+    ],
+    "note": "No record renders the meal. syr.term.raza-shrara (symbol bound to its truth) is not about the bread, and syr.limit.ritual-sequence says no service order survives. Aphrahat, Dem. VII.21: those in the struggle 'lick His wounds when they receive His Body'. The Liturgy of Addai and Mari is mapped (its date is uncertain). Frequency and who was refused: nothing.",
+    "verified": [],
+    "star": false,
+    "depth": "thin"
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.dw.penitence-prayer",
+     "syr.dw.doubt",
+     "syr.quote.aphrahat-medicine-penitence"
+    ],
+    "confidence": [
+     "Widely Accepted",
+     "Widely Accepted",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [
+     {
+      "work": "Aphrahat, Demonstrations III (On Fasting) and IV (On Prayer), Syriac with Latin",
+      "edition": "J. Parisot, Patrologia Syriaca I.1 (Paris 1894); English only in Lehto (Gorgias 2010, in copyright)",
+      "where": "archive.org",
+      "licence": "Syriac and Latin public domain; English not"
+     }
+    ],
+    "note": "Prayer into silence and unanswered prayer under persecution, met with endurance not explanation; penitence as medicine. A set against free prayer answer and the Lord's Prayer are absent; Aphrahat's Demonstration IV (On Prayer) is not vendored.",
+    "verified": [
+     {
+      "record": "syr.quote.aphrahat-medicine-penitence",
+      "result": "MATCH",
+      "file": "aphrahat_demonstrations-2-7_hallock1932.txt",
+      "lines": [
+       29
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.story.choirs-tradition",
+     "syr.term.madrasha",
+     "syr.quote.sozomen-melodies",
+     "syr.dw.remains",
+     "syr.story.qyama-morning",
+     "syr.limit.ritual-sequence",
+     "syr.quote.the-temple-of-the-church-of-the-christians"
+    ],
+    "confidence": [
+     "Contested",
+     "Widely Accepted",
+     "Documented",
+     "Widely Accepted",
+     "Inferential-Thin",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/chronicle-of-edessa_cowper.txt",
+      "line": 53,
+      "snippet": "on the south and on the north of it. And they destroyed the temple of the church of the Christians. And there were killed by that occurrence more than two thousand men, u"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "The richest singing coverage of the twelve (teaching hymns, women's choirs as later tradition, Sozomen on the tunes), a dated baptistery and the flood that destroyed the Edessa church in 201. Instruments, images, posture, preaching: nothing.",
+    "verified": [
+     {
+      "record": "syr.quote.sozomen-melodies",
+      "result": "MATCH",
+      "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "lines": [
+       32088
+      ],
+      "detail": null
+     },
+     {
+      "record": "syr.quote.the-temple-of-the-church-of-the-christians",
+      "result": "MATCH",
+      "file": "chronicle-of-edessa_cowper.txt",
+      "lines": [
+       53
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "full"
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.dw.penitence-prayer",
+     "syr.quote.aphrahat-medicine-penitence",
+     "syr.dw.failures",
+     "syr.story.qyama-morning"
+    ],
+    "confidence": [
+     "Widely Accepted",
+     "Documented",
+     "Widely Accepted",
+     "Inferential-Thin"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [
+     {
+      "work": "Aphrahat, Demonstrations III (On Fasting) and IV (On Prayer), Syriac with Latin",
+      "edition": "J. Parisot, Patrologia Syriaca I.1 (Paris 1894); English only in Lehto (Gorgias 2010, in copyright)",
+      "where": "archive.org",
+      "licence": "Syriac and Latin public domain; English not"
+     }
+    ],
+    "note": "Confession as showing the wound to a physician bound to mercy and silence, and the healed returning to the struggle. The not_for says it was not a fixed sacramental rite. Fasting appears in the covenant day (story.qyama-morning) and Dem. III is not vendored; the card has no fasting tag for this world.",
+    "verified": [
+     {
+      "record": "syr.quote.aphrahat-medicine-penitence",
+      "result": "MATCH",
+      "file": "aphrahat_demonstrations-2-7_hallock1932.txt",
+      "lines": [
+       29
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "full"
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.quote.nativity-this-is-the-day",
+     "syr.dw.apostolic",
+     "syr.story.qyama-morning"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted",
+     "Inferential-Thin"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "line": 10475,
+      "snippet": "Hymns For the Epiphany which follow them, have been translated"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Ephrem's Nativity hymn (retrieve_when asks how the feasts were kept), but its not_for refuses it as evidence of the date or calendar. dw.apostolic records first-day assembly and fasting as older than the proof. Epiphany hymns are in the Ephrem section of npnf213, with the authorship caution in dw.born-again-endtimes. Easter, Lent, Sabbath: nothing.",
+    "verified": [
+     {
+      "record": "syr.quote.nativity-this-is-the-day",
+      "result": "MATCH",
+      "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "lines": [
+       17530
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.limit.marriage",
+     "syr.quote.the-wedding-feast-continues-for-but-seven-days",
+     "syr.term.mar",
+     "syr.quote.dem6-visit-the-sick",
+     "syr.story.ephrem-roll-and-vine"
+    ],
+    "confidence": [
+     "Widely Accepted",
+     "Documented",
+     "Widely Accepted",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "line": 11644,
+      "snippet": "cast into Gehenna of fire!"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Weddings: an honest limit (celibate voices; no in-window Christian wedding described) plus a seven-day wedding-feast quote used as an image. Saints: only the title Mar. Funerals: Ephrem's Testament orders a plain burial and curses a shroud (npnf213:11644) and no record renders it. Anointing the sick, Mary: nothing.",
+    "verified": [
+     {
+      "record": "syr.quote.the-wedding-feast-continues-for-but-seven-days",
+      "result": "MATCH",
+      "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "lines": [
+       25940
+      ],
+      "detail": null
+     },
+     {
+      "record": "syr.quote.dem6-visit-the-sick",
+      "result": "MATCH",
+      "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "lines": [
+       25658
+      ],
+      "detail": null
+     }
+    ],
+    "star": true,
+    "depth": "thin"
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.dw.apostolic",
+     "syr.story.abgar-addai-legend",
+     "syr.dw.corpus-and-its-edges"
+    ],
+    "confidence": [
+     "Widely Accepted",
+     "Contested",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Answered by the Addai legend, openly labelled a late cherished story, with practice attested from where the record opens and no documented line to the apostles.",
+    "verified": [],
+    "star": false,
+    "depth": "full"
+   }
+  },
+  "witt": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.dw.a-death-begun-that-a-child-receives",
+     "witt.quote.article-ix-of-baptism",
+     "witt.term.baptism",
+     "witt.dw.born-in-sin-fed-at-the-table",
+     "witt.demo.the-way-in"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Documented",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt",
+      "line": 1405,
+      "snippet": "IX. OF BAPTISM."
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "work": "Luther, Order of Baptism (Taufbüchlein, 1523, revised 1526) and German Mass (1526)",
+      "edition": "D. Martin Luthers Werke (Weimar edition) vol. 12 and 19, German",
+      "where": "archive.org",
+      "licence": "German public domain; the English in Luther's Works 53 (Fortress, 1965) is in copyright"
+     }
+    ],
+    "note": "Complete on infants (baptised, and the Anabaptists named and refused), new birth at the font and daily, baptism as a death begun. One F4-I demonstration (the-way-in) and the F4-T tag. Mode and the unbaptised visitor: nothing; the Taufbüchlein is German and unvendored.",
+    "verified": [
+     {
+      "record": "witt.quote.article-ix-of-baptism",
+      "result": "MATCH",
+      "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+      "lines": [
+       309
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "full"
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.term.sacrament-of-the-altar",
+     "witt.term.both-kinds",
+     "witt.term.the-mass",
+     "witt.term.transubstantiation",
+     "witt.dw.born-in-sin-fed-at-the-table",
+     "witt.term.the-ban",
+     "witt.demo.bread-and-cup"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Documented",
+     "Documented",
+     "Documented",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [
+     "witt.source.roman-confutation-of-the-augsburg-confession"
+    ],
+    "other": [],
+    "note": "The fullest meal coverage: real presence 'in and under', both kinds for all, the mass kept but changed, transubstantiation refused as a 'monstrous word', the ban as exclusion from the table. Two F1-T demonstrations (bread-and-cup, faith-alone). How often: not stated. The Roman Confutation (registered, unvendored) is the other side.",
+    "verified": [],
+    "star": false,
+    "depth": "full"
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.term.prayer",
+     "witt.term.daily",
+     "witt.story.household-catechism-lesson-typical-practice",
+     "witt.story.household-and-kate-on-prayer"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Inferential-Thin",
+     "Contested"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/luther_small-catechism_smith1994.txt",
+      "line": 548,
+      "snippet": "Then, kneeling or standing, say the creed and pray the Lord's Prayer."
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Prayer commanded, with the Lord's Prayer as its set form, morning, table and night; the cold prayer at Luther's table. The set-or-free question is answered by term.prayer's not_for (not spontaneous, private, optional). The household record is the prescription only; limit.record-thinnest says no visitation report shows it was kept.",
+    "verified": [],
+    "star": false,
+    "depth": "full"
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.story.first-german-mass-sung",
+     "witt.term.hymn",
+     "witt.story.speratus-hymn-under-the-window",
+     "witt.term.images",
+     "witt.term.congregation"
+    ],
+    "confidence": [
+     "Widely Accepted",
+     "Documented",
+     "Inferential-Thin",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/luther_hymns_bacon-allen.txt",
+      "line": 900,
+      "snippet": "music, poesy and all kind of stringed instruments) but also"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "work": "Luther, Order of Baptism (Taufbüchlein, 1523, revised 1526) and German Mass (1526)",
+      "edition": "D. Martin Luthers Werke (Weimar edition) vol. 12 and 19, German",
+      "where": "archive.org",
+      "licence": "German public domain; the English in Luther's Works 53 (Fortress, 1965) is in copyright"
+     }
+    ],
+    "note": "Hymns in German for the unlearned, the first German Mass (Walter's memory, three removes), images neither commanded nor forbidden, a congregation that is not a building. Order of service: none is vendored (the story says so), though the Ordinatio of 1537 and the Swedish masses are mapped. Preaching length, smell and look: nothing.",
+    "verified": [],
+    "star": false,
+    "depth": "partial"
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.term.confession-and-absolution",
+     "witt.term.repentance",
+     "witt.term.the-keys",
+     "witt.term.fasting"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Private confession kept as a treasure and never forced; repentance as a whole life; fasting a free discipline with food-laws refused. Complete for S5.",
+    "verified": [],
+    "star": false,
+    "depth": "full"
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [
+     "witt.term.fasting"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/luther_large-catechism_bente-dau1921.txt",
+      "line": 869,
+      "snippet": "The Third Commandment."
+     },
+     {
+      "file": "cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt",
+      "line": 7081,
+      "snippet": "heaven, when they sang on Christmas night: \"_Gloria in excel sis"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record on Sunday or Sabbath, Easter, Christmas or Lent. Tangent: term.fasting, story.prayer-for-rain-1532. The Large Catechism on the Third Commandment (holy day, 'Feiertag') is mapped, and the Luther volumes carry Christmas hymn and sermon material.",
+    "verified": [],
+    "star": false,
+    "depth": "thin"
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.term.saints",
+     "witt.quote.congregation-of-saints",
+     "witt.term.marriage",
+     "witt.term.death",
+     "witt.story.composing-the-magnificat"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Documented",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt",
+      "line": 10116,
+      "snippet": "To the rite of anointing the sick our theologians have made two"
+     },
+     {
+      "file": "cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt",
+      "line": 7377,
+      "snippet": "require the invocation of saints. Nor on any topic do they speak"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Saints remembered and imitated, never prayed to; marriage the noblest estate; the dead buried 'with comfort, not despair'; the Magnificat. Anointing the sick: Luther's Babylonian Captivity discusses it (npnf-style volume 2, line 10116) and no record renders it. Funeral rite order: none.",
+    "verified": [
+     {
+      "record": "witt.quote.congregation-of-saints",
+      "result": "MATCH",
+      "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+      "lines": [
+       277
+      ],
+      "detail": null
+     }
+    ],
+    "star": false,
+    "depth": "partial"
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.dw.nothing-against-scripture-or-the-church-catholic",
+     "witt.term.doctrines-of-men",
+     "witt.term.scripture-against-tradition"
+    ],
+    "confidence": [
+     "Documented",
+     "Documented",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Answered as agreement with Scripture and the ancient church, not as unbroken ordination; argued in detail only for married clergy.",
+    "verified": [],
+    "star": false,
+    "depth": "full"
+   }
+  }
+ }
+}

@@ -17,6 +17,7 @@ exactly what has and hasn't crossed that line.
 | [Source-Library](Source-Library/README.md) | Design approved to proceed 2026-10-14; every citation links to the passage in our own Library. Build starts after the pilot launches, desert first |
 | [Shared-Events](Shared-Events/README.md) | Exploring and sourcing, 2026-10-17: councils, gatherings and confessions told on the Atlas outside any one tradition; 77 candidates agreed, sources being found first |
 | [Conversation-Chooser](Conversation-Chooser/README.md) | Design converged 2026-10-19: a hand of five cards dealt from a deck replaces the chair strips and the table launch; build plan written, nothing built |
+| [Question-Coverage](Question-Coverage/README.md) | Design and research, 2026-10-25: visitor-side question repository, coverage maps across the twelve built worlds, acquisition and record worklists. Proposals only; no build, record or method change |
 
 Not here: Communication/Branding, Marketplace, Organization, Funding, and
 Scholarly-Review stay as their own top-level Ministry domains — they're not scattered

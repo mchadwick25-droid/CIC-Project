@@ -1,0 +1,1341 @@
+generated: '2026-10-26'
+method: read-only; no model calls; no downloads
+scoring: priority = count of world x sub-question cells that are gaps in the finished maps (C3, C4, C5, C8 coverage.md) among the ten Era 1 and 2 worlds that have records (pahc, alx, syr, lpc, don, ijc,
+  desert, cappadocian, gallic, hal), for the sub-questions the work treats. A gap is loaded-only, nothing, guard/limit-only (C3, C5, C8) or thin (C4). P = world voices the author (tradition or antecedent);
+  C = context only. Priority is the sum, an upper bound, not a promise. Worlds without records (aec and the rest) are named but not scored.
+candidates:
+- id: origen-romans
+  work: Commentary on Romans (Rufinus's Latin, 10 books for the lost 15; Greek fragments)
+  author: Origen
+  era: 1 (c. 244-246, Caesarea; dating unverified)
+  lang: 'Latin (Rufinus, c. 406-410), plus Greek catena and papyrus fragments. PG 14 cols 833-1292 (Migne 1862). Critical Latin: Hammond Bammel, Vetus Latina Aus der Geschichte der lateinischen Bibel 16,
+    33, 34 (Herder 1990-98). English: Scheck, FOTC 103-104 (CUA 2001-02). Greek fragments: Ramsbotham, JTS 13-14 (1912-13)'
+  hosted: PG 14 scans exist on archive.org and Google Books (identifier unverified); Ramsbotham in JTS (host unverified)
+  licence: 'PG 14 Latin: public domain by date (1862). Ramsbotham 1912-13: public domain in the US by date (host terms unverified). Hammond Bammel and Scheck: in copyright, cannot be vendored'
+  vendored: partial (only Rufinus preface and peroration, npnf203 lines 58844 and 58892)
+  P:
+  - alx
+  C:
+  - cappadocian
+  - hal
+  - desert
+  subs:
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S5
+  - C4.S6
+  - C3.S3
+  - C3.S7
+  - C5.S8
+  - C8.S2
+  - C8.S6
+  unbuilt: aquileian-christianity (Rufinus), palestinian-church-pre-constantinian (Caesarea), pelagianism (reads Romans against it)
+  caveat: 'Rufinus translated and abridged; Jerome accused him of altering Origen (the quarrel is vendored in npnf203: Rufinus''s own preface, peroration and Apology, Jerome''s Apology Against Rufinus).
+    Rufinus says in the peroration that he cut and smoothed. So the Latin is evidence for Origen as Rufinus gave him, not Origen verbatim. Greek fragments (Cramer catena, Tura papyrus) are the only check,
+    and are short. Romans 5.9 (infants) and 8.19-23, 9.10-21 are the passages that matter most. The English by Scheck is in copyright: render from the Latin, tag every quote as Rufinus''s text, hold the
+    claims at Widely Accepted or lower, and record the accusation as a contested_claim.'
+  cells:
+  - alx:C4.S1:P
+  - alx:C4.S6:P
+  - alx:C3.S7:P
+  - alx:C5.S8:P
+  - alx:C8.S6:P
+  - cappadocian:C4.S3:C
+  - cappadocian:C4.S6:C
+  - cappadocian:C3.S3:C
+  - cappadocian:C3.S7:C
+  - cappadocian:C5.S8:C
+  - cappadocian:C8.S6:C
+  - hal:C4.S3:C
+  - hal:C4.S6:C
+  - hal:C5.S8:C
+  - hal:C8.S6:C
+  - desert:C3.S3:C
+  - desert:C5.S8:C
+  - desert:C8.S6:C
+  n_primary: 5
+  n_context: 13
+  priority: 18
+- id: ambrosiaster
+  work: Commentary on thirteen Pauline letters, plus Quaestiones
+  author: Ambrosiaster (Pseudo-Ambrose)
+  era: 2 (Rome, c. 366-384)
+  lang: 'Latin. PL 17 (Migne 1845); CSEL 81.1-3, Vogels (1966-69). English: Bray, Ancient Christian Texts (IVP 2009, Gal-Phlm), de Bruyn (SBL 2017, Romans)'
+  hosted: 'PL 17 scans: unverified'
+  licence: 'PL 17: public domain by date. CSEL 81 and the English: in copyright'
+  vendored: 'no'
+  P:
+  - ijc
+  C:
+  - hal
+  - lpc
+  subs:
+  - C4.S2
+  - C4.S3
+  - C4.S6
+  - C8.S2
+  - C8.S3
+  - C8.S6
+  - C5.S8
+  - C3.S5
+  unbuilt: ambrosian-milan-standalone (not the same author, but Milan reader), pelagianism
+  caveat: Author unknown; the name is a 16th-century label, and Augustine read him as "Hilary". Romans 5.12 "in quo omnes peccaverunt" is the source of the Latin original-sin reading, so this is the commentary
+    that sets up Augustine against Pelagius. Use PL 17 text and say so plainly.
+  cells:
+  - ijc:C4.S3:P
+  - ijc:C4.S6:P
+  - ijc:C8.S3:P
+  - ijc:C8.S6:P
+  - ijc:C5.S8:P
+  - ijc:C3.S5:P
+  - hal:C4.S3:C
+  - hal:C4.S6:C
+  - hal:C8.S3:C
+  - hal:C8.S6:C
+  - hal:C5.S8:C
+  - hal:C3.S5:C
+  - lpc:C4.S6:C
+  - lpc:C8.S2:C
+  - lpc:C8.S3:C
+  - lpc:C8.S6:C
+  - lpc:C5.S8:C
+  - lpc:C3.S5:C
+  n_primary: 6
+  n_context: 12
+  priority: 18
+- id: origen-gen-ex-lev
+  work: Homilies on Genesis, Exodus, Leviticus (Rufinus)
+  author: Origen
+  era: 1 (c. 238-250)
+  lang: 'Latin (Rufinus). GCS 29 = Origenes Werke VI, ed. Baehrens (Leipzig 1920). English: Heine FOTC 71 (1982), Barkley FOTC 83 (1990)'
+  hosted: archive.org likely, as for the sibling GCS 30 already vendored (identifier unverified)
+  licence: 'Latin 1920: public domain in the US by date. English: in copyright'
+  vendored: no (sibling volume GCS 30, Numbers/Joshua/Judges, is vendored)
+  P:
+  - alx
+  C:
+  - cappadocian
+  - hal
+  - desert
+  subs:
+  - C5.S4
+  - C5.S7
+  - C5.S8
+  - C3.S5
+  - C3.S7
+  unbuilt: aquileian-christianity, palestinian-church-pre-constantinian
+  caveat: Rufinus again, with freer translation than usual in Genesis and Exodus (he says so in his prefaces). Leviticus 8.3 is the infant baptism passage (alx C3.S7, C4.S2). Same GCS series as the vendored
+    Numbers file, so same intake route and header pattern.
+  cells:
+  - alx:C5.S7:P
+  - alx:C5.S8:P
+  - alx:C3.S5:P
+  - alx:C3.S7:P
+  - cappadocian:C5.S4:C
+  - cappadocian:C5.S7:C
+  - cappadocian:C5.S8:C
+  - cappadocian:C3.S5:C
+  - cappadocian:C3.S7:C
+  - hal:C5.S4:C
+  - hal:C5.S7:C
+  - hal:C5.S8:C
+  - hal:C3.S5:C
+  - desert:C5.S4:C
+  - desert:C5.S7:C
+  - desert:C5.S8:C
+  - desert:C3.S5:C
+  n_primary: 4
+  n_context: 13
+  priority: 17
+- id: origen-john-matthew-rest
+  work: Commentary on Matthew, remaining books (Greek 15-17; Latin series on Matt 22-27) and on John, remaining books
+  author: Origen
+  era: 1 (c. 245-250s)
+  lang: 'Greek and Latin. PG 13 (Migne 1862) carries Matthew in Greek and Latin and John fragments; critical: Klostermann GCS 38, 40 (1933-35) and Preuschen GCS 10 (1903, John). English for the books not
+    in ANF 9: none known in the public domain'
+  hosted: 'PG 13 and GCS 10 scans: unverified'
+  licence: 'PG 13 and Preuschen 1903: public domain by date. Klostermann 1933-35: unverified, likely in copyright'
+  vendored: partial (English Matthew I, II, X-XIV and John I, II, IV, V, VI, X in anf09)
+  P:
+  - alx
+  - desert
+  C:
+  - cappadocian
+  - hal
+  subs:
+  - C3.S2
+  - C3.S4
+  - C4.S7
+  - C8.S4
+  - C5.S8
+  unbuilt: palestinian-church-pre-constantinian
+  caveat: 'Matt 19 (divorce, eunuchs), Matt 24-25 (judgment, eternal fire) fall in the books not in English. The Latin series is a later translation of unknown date and hand. The three-round rule applies:
+    this is a second Origen purchase of the same kind as Romans, lower priority.'
+  cells:
+  - alx:C3.S2:P
+  - alx:C3.S4:P
+  - alx:C4.S7:P
+  - alx:C8.S4:P
+  - alx:C5.S8:P
+  - desert:C3.S2:P
+  - desert:C3.S4:P
+  - desert:C4.S7:P
+  - desert:C5.S8:P
+  - cappadocian:C3.S2:C
+  - cappadocian:C3.S4:C
+  - cappadocian:C4.S7:C
+  - cappadocian:C5.S8:C
+  - hal:C3.S2:C
+  - hal:C3.S4:C
+  - hal:C4.S7:C
+  - hal:C5.S8:C
+  n_primary: 9
+  n_context: 8
+  priority: 17
+- id: origen-1cor-eph
+  work: Fragments of the commentaries on 1 Corinthians and Ephesians (Greek catena)
+  author: Origen
+  era: '1'
+  lang: 'Greek fragments. Jenkins, JTS 9-10 (1908-09, 1 Cor); Gregg, JTS 3 (1902, Eph). English: Heine, OECS (Eph and 1 Cor, 2002/2009; unverified)'
+  hosted: JTS scans (host unverified); also in Cramer, Catenae vol. 5-6 (unverified)
+  licence: public domain in the US by date; host terms unverified
+  vendored: 'no'
+  P:
+  - alx
+  C:
+  - cappadocian
+  - hal
+  - desert
+  subs:
+  - C8.S3
+  - C8.S4
+  - C3.S5
+  - C3.S6
+  - C4.S4
+  - C5.S8
+  unbuilt: anatolian-church-third-century
+  caveat: Greek only; the 1 Corinthians fragments (7, 11, 14) carry the women, marriage and slavery questions in an Alexandrian voice. Catena fragments are excerpts chosen by a later compiler.
+  cells:
+  - alx:C8.S3:P
+  - alx:C8.S4:P
+  - alx:C3.S5:P
+  - alx:C5.S8:P
+  - cappadocian:C3.S5:C
+  - cappadocian:C4.S4:C
+  - cappadocian:C5.S8:C
+  - hal:C8.S3:C
+  - hal:C3.S5:C
+  - hal:C3.S6:C
+  - hal:C5.S8:C
+  - desert:C8.S3:C
+  - desert:C3.S5:C
+  - desert:C4.S4:C
+  - desert:C5.S8:C
+  n_primary: 4
+  n_context: 11
+  priority: 15
+- id: origen-luke-psalms
+  work: Homilies on Luke (Jerome) and on Psalms 36-38 (Rufinus)
+  author: Origen
+  era: '1'
+  lang: 'Latin. PG 13 (Luke) and PG 12 (Psalms), Migne 1862. English: Lienhard FOTC 94 (Luke, 1996); English for the Psalm homilies: unverified'
+  hosted: unverified
+  licence: 'PG: public domain by date. English: in copyright'
+  vendored: 'no'
+  P:
+  - alx
+  C:
+  - cappadocian
+  - hal
+  - desert
+  subs:
+  - C3.S2
+  - C3.S5
+  - C3.S7
+  - C5.S8
+  unbuilt: palestinian-church-pre-constantinian
+  caveat: Luke hom. 14 on infant baptism and the Psalm 37 homily on the fire of purification are the two reasons to want it (C3.S7, C3.S5). Latin only; Jerome admits to freedom in rendering.
+  cells:
+  - alx:C3.S2:P
+  - alx:C3.S5:P
+  - alx:C3.S7:P
+  - alx:C5.S8:P
+  - cappadocian:C3.S2:C
+  - cappadocian:C3.S5:C
+  - cappadocian:C3.S7:C
+  - cappadocian:C5.S8:C
+  - hal:C3.S2:C
+  - hal:C3.S5:C
+  - hal:C5.S8:C
+  - desert:C3.S2:C
+  - desert:C3.S5:C
+  - desert:C5.S8:C
+  n_primary: 4
+  n_context: 10
+  priority: 14
+- id: pelagius-pauline
+  work: Expositions of thirteen Pauline letters (Romans first)
+  author: Pelagius
+  era: 2 (c. 405-410, Rome)
+  lang: 'Latin. Souter, Pelagius Expositions of Thirteen Epistles of St Paul, Texts and Studies 9 (CUP 1922 intro, 1926 text, 1931 Pseudo-Jerome); PL 30 (Pseudo-Jerome form). English: de Bruyn (OUP 1993)'
+  hosted: archive.org named in the earlier acquire list; identifier unverified
+  licence: 'Souter vols 1-2: public domain in the US by date; vol. 3 (1931): unverified. PL 30: public domain. de Bruyn: in copyright'
+  vendored: no (Letter to Demetrias only, Latin, mapped to unbuilt pelagianism)
+  P: []
+  C:
+  - lpc
+  - hal
+  - gallic
+  subs:
+  - C4.S1
+  - C4.S2
+  - C4.S3
+  - C4.S6
+  - C8.S2
+  - C8.S6
+  - C5.S8
+  unbuilt: pelagianism (his own world, on record)
+  caveat: Pelagius is the opponent in all three built worlds; no tradition world to voice him except the unbuilt pelagianism. Text survives mainly in an interpolated form (the Pseudo-Jerome), and Souter
+    reconstructs. The earlier acquire list has this at priority 3.
+  cells:
+  - lpc:C4.S6:C
+  - lpc:C8.S2:C
+  - lpc:C8.S6:C
+  - lpc:C5.S8:C
+  - hal:C4.S3:C
+  - hal:C4.S6:C
+  - hal:C8.S6:C
+  - hal:C5.S8:C
+  - gallic:C4.S2:C
+  - gallic:C4.S6:C
+  - gallic:C8.S2:C
+  - gallic:C8.S6:C
+  - gallic:C5.S8:C
+  n_primary: 0
+  n_context: 13
+  priority: 13
+- id: ambrose-exeg
+  work: Hexameron, De Paradiso, Expositio in Lucam, Expositio Psalmi CXVIII
+  author: Ambrose
+  era: 2 (Milan, c. 386-397)
+  lang: 'Latin. CSEL 32.1 and 32.4, Schenkl (1897, 1902); CSEL 62, Petschenig (1913); PL 14-15. English: Savage FOTC 42 (1961), Tomkinson (Luke 1998)'
+  hosted: unverified
+  licence: 'CSEL pre-1930 editions and PL: public domain in the US by date. English: in copyright'
+  vendored: no (npnf210 holds his doctrinal, ethical and pastoral works and letters, not his exegesis)
+  P:
+  - ijc
+  C:
+  - lpc
+  subs:
+  - C5.S4
+  - C5.S8
+  - C3.S5
+  - C3.S6
+  - C4.S7
+  - C4.S8
+  unbuilt: ambrosian-milan-standalone (his own world, on record)
+  caveat: Augustine heard these in Milan, so they matter to lpc as formation. The Hexameron leans heavily on Basil.
+  cells:
+  - ijc:C5.S4:P
+  - ijc:C5.S8:P
+  - ijc:C3.S5:P
+  - ijc:C3.S6:P
+  - ijc:C4.S7:P
+  - lpc:C5.S8:C
+  - lpc:C3.S5:C
+  - lpc:C3.S6:C
+  - lpc:C4.S8:C
+  n_primary: 5
+  n_context: 4
+  priority: 9
+- id: athanasius-psalms
+  work: Letter to Marcellinus on the Interpretation of the Psalms; Expositions on the Psalms
+  author: Athanasius
+  era: 2 (c. 335-373)
+  lang: 'Greek. PG 27 cols 11-46 and 55ff (Migne 1857); PG 25-26 are already vendored, PG 27 is not. English: Gregg, CWS (1980), copyright'
+  hosted: unverified
+  licence: 'PG 27: public domain by date; English in copyright'
+  vendored: 'no'
+  P:
+  - alx
+  C:
+  - cappadocian
+  - desert
+  subs:
+  - C5.S6
+  - C5.S7
+  - C5.S8
+  unbuilt: ''
+  caveat: 'Short and high-yield: the Alexandrian rule for reading and praying the Psalms. The Expositions are in part by catena compilers.'
+  cells:
+  - alx:C5.S6:P
+  - alx:C5.S7:P
+  - alx:C5.S8:P
+  - cappadocian:C5.S7:C
+  - cappadocian:C5.S8:C
+  - desert:C5.S6:C
+  - desert:C5.S7:C
+  - desert:C5.S8:C
+  n_primary: 3
+  n_context: 5
+  priority: 8
+- id: jerome-nt
+  work: Commentaries on Matthew, Galatians, Ephesians, Titus, Philemon
+  author: Jerome
+  era: 2 (386-398, Bethlehem)
+  lang: 'Latin. PL 26 (Migne 1845); CCSL 77, 77A (1969-88). English: Scheck FOTC 117 (Matthew 2008), Cain FC 121 (Galatians 2010), Heine OECS (Ephesians 2002)'
+  hosted: 'PL 26 scans: unverified'
+  licence: 'PL 26: public domain by date. CCSL and English: in copyright'
+  vendored: no (only his prefaces, npnf206 Prefaces section; the Jerome commentaries are NOT in npnf206)
+  P:
+  - hal
+  C: []
+  subs:
+  - C5.S8
+  - C4.S3
+  - C4.S7
+  - C4.S8
+  - C3.S2
+  - C3.S4
+  - C3.S5
+  - C8.S3
+  unbuilt: palestinian-ascetic-monasticism-early
+  caveat: The Library holds Jerome the letter-writer and polemicist, not Jerome the exegete, in the world named for him. Ephesians leans on Origen, which is exactly what Rufinus attacked; the earlier acquire
+    list (hal C3.S3, C3.S7) asks for Ephesians and Jonah. Jerome also borrows, so flag where he names Origen.
+  cells:
+  - hal:C5.S8:P
+  - hal:C4.S3:P
+  - hal:C4.S7:P
+  - hal:C4.S8:P
+  - hal:C3.S2:P
+  - hal:C3.S4:P
+  - hal:C3.S5:P
+  - hal:C8.S3:P
+  n_primary: 8
+  n_context: 0
+  priority: 8
+- id: origen-song-prophets
+  work: Song of Songs (commentary and homilies), homilies on Isaiah, Jeremiah, Ezekiel, 1 Samuel; Greek Jeremiah homilies
+  author: Origen
+  era: 1 (c. 240s-250s)
+  lang: 'Latin (Rufinus for the Song commentary, Jerome for the Song homilies and the prophets): GCS 33 = Origenes Werke VIII, ed. Baehrens (Leipzig 1925), contents unverified. Greek Jeremiah homilies:
+    Klostermann GCS 6 (1901). English: Lawson ACW 26 (1957), Smith FOTC 97 (1998)'
+  hosted: archive.org (GCS 6 named in the earlier acquire list; GCS 33 unverified)
+  licence: 'GCS 6 (1901): public domain. GCS 33 (1925): public domain in the US by date. English: in copyright'
+  vendored: partial (Jerome preface to the Song homilies in npnf206; Philocalia excerpts)
+  P:
+  - alx
+  C:
+  - cappadocian
+  - hal
+  subs:
+  - C5.S8
+  - C3.S6
+  - C3.S3
+  - C3.S2
+  unbuilt: anatolian-church-third-century, palestinian-church-pre-constantinian
+  caveat: Jerome and Rufinus both translated; Jerome prefaced the Song homilies as an act of homage, and later turned on Origen. Jeremiah 18-20 is the corrective-punishment text already named in the earlier
+    acquire list (alx C3.S3).
+  cells:
+  - alx:C5.S8:P
+  - alx:C3.S2:P
+  - cappadocian:C5.S8:C
+  - cappadocian:C3.S3:C
+  - cappadocian:C3.S2:C
+  - hal:C5.S8:C
+  - hal:C3.S6:C
+  - hal:C3.S2:C
+  n_primary: 2
+  n_context: 6
+  priority: 8
+- id: basil-psalms
+  work: Homilies on the Psalms; Commentary on Isaiah (authenticity disputed)
+  author: Basil of Caesarea
+  era: 2 (c. 360s-378)
+  lang: 'Greek. PG 29-30 (Migne 1857). English: Way FOTC 46 (1963), copyright'
+  hosted: unverified
+  licence: 'PG: public domain by date. No public-domain English known'
+  vendored: no (Hexaemeron is vendored, npnf208)
+  P:
+  - cappadocian
+  C:
+  - desert
+  subs:
+  - C5.S7
+  - C5.S8
+  - C4.S7
+  - C3.S1
+  unbuilt: ''
+  caveat: Includes the usury and rich-fool material the earlier registry asks for (Basil moral/famine homilies). The Isaiah commentary may not be Basil.
+  cells:
+  - cappadocian:C5.S7:P
+  - cappadocian:C5.S8:P
+  - cappadocian:C4.S7:P
+  - cappadocian:C3.S1:P
+  - desert:C5.S7:C
+  - desert:C5.S8:C
+  - desert:C4.S7:C
+  n_primary: 4
+  n_context: 3
+  priority: 7
+- id: eusebius-de
+  work: Demonstratio Evangelica and Commentary on the Psalms and Isaiah
+  author: Eusebius of Caesarea
+  era: 1-2 (c. 312-330)
+  lang: Greek. Heikel GCS 23 (1913); Ferrar, The Proof of the Gospel, 2 vols (SPCK 1920). Psalms PG 23-24; Isaiah, Ziegler GCS (1975), copyright
+  hosted: unverified
+  licence: 'Heikel 1913 and Ferrar 1920: public domain in the US by date. Ziegler 1975: in copyright'
+  vendored: no (History, Life of Constantine and Oration are vendored)
+  P:
+  - ijc
+  C:
+  - alx
+  - pahc
+  subs:
+  - C5.S5
+  - C3.S8
+  - C5.S8
+  unbuilt: palestinian-church-pre-constantinian
+  caveat: Proof texts for Christ from the Old Testament, not a verse-by-verse commentary. Lower priority.
+  cells:
+  - ijc:C5.S5:P
+  - ijc:C3.S8:P
+  - ijc:C5.S8:P
+  - alx:C5.S8:C
+  - pahc:C5.S5:C
+  - pahc:C3.S8:C
+  - pahc:C5.S8:C
+  n_primary: 3
+  n_context: 4
+  priority: 7
+- id: tyconius-apoc
+  work: Commentary on Revelation (reconstruction)
+  author: Tyconius
+  era: 2 (c. 380)
+  lang: 'Latin. Lost as a book; reconstructed from Primasius (PL 68, vendored), Beatus, the Turin fragments. Critical: Gryson CCSL 107A (2011); Lo Bue (CUP 1963), copyright. English: Gumerlock FOTC 134
+    (2017), copyright'
+  hosted: 'Beatus: Sanders (Rome 1930) host unverified'
+  licence: 'Primasius (PL 68): public domain. Gryson, Lo Bue, Gumerlock: in copyright'
+  vendored: partial (Liber Regularum, Burkitt 1894, Latin; Primasius in the PL 68 volume, Era 3)
+  P:
+  - don
+  C:
+  - lpc
+  subs:
+  - C5.S5
+  - C3.S2
+  - C3.S3
+  - C3.S8
+  unbuilt: ''
+  caveat: The earlier acquire list asks for Tyconius's Rules in English; the Latin Rules are already vendored (drift in that list). There is no PD edition of the Commentary itself. Primasius (551-552) is
+    outside the window but preserves much of it.
+  cells:
+  - don:C5.S5:P
+  - don:C3.S2:P
+  - don:C3.S3:P
+  - lpc:C5.S5:C
+  - lpc:C3.S2:C
+  - lpc:C3.S3:C
+  - lpc:C3.S8:C
+  n_primary: 3
+  n_context: 4
+  priority: 7
+- id: jerome-ot
+  work: Commentaries on Isaiah, Jeremiah, Ezekiel, Daniel, the Minor Prophets, Ecclesiastes, Hebrew Questions on Genesis; Tractatus on the Psalms (74) and Homilies on Mark
+  author: Jerome
+  era: 2 (c. 386-420)
+  lang: 'Latin. PL 23-25 (Migne 1845-46); Psalms and Mark homilies: Morin, Anecdota Maredsolana III.1-3 (1895-1903), CCSL 72, 78. English: Ewald FOTC 48, 57 (Psalms, 1964-66), Hegedus (Jonah, 1991)'
+  hosted: unverified
+  licence: 'PL and Morin: public domain by date. CCSL and English: in copyright'
+  vendored: 'no'
+  P:
+  - hal
+  C: []
+  subs:
+  - C5.S4
+  - C5.S5
+  - C5.S7
+  - C5.S8
+  - C3.S2
+  - C3.S4
+  unbuilt: palestinian-ascetic-monasticism-early
+  caveat: Obadiah and Isaiah 66 are where Jerome comes closest to a conditionalist-sounding line; read with care. Large. Tractatus on the Psalms is the "running homily series" that answers the cursing psalms.
+  cells:
+  - hal:C5.S4:P
+  - hal:C5.S5:P
+  - hal:C5.S7:P
+  - hal:C5.S8:P
+  - hal:C3.S2:P
+  - hal:C3.S4:P
+  n_primary: 6
+  n_context: 0
+  priority: 6
+- id: hilary-psalms-matthew
+  work: Tractatus super Psalmos (the rest) and Commentary on Matthew
+  author: Hilary of Poitiers
+  era: 2 (c. 350-367)
+  lang: 'Latin. CSEL 22, Zingerle (Vienna 1891); PL 9 (Migne 1844). English: Schaefer FC 125 (Matthew, 2008), copyright'
+  hosted: unverified
+  licence: 'CSEL 22 and PL 9: public domain by date; English in copyright'
+  vendored: partial (English homilies on Psalms 1, 53, 130 in npnf209, mapped to gallic-nicene-episcopate only)
+  P:
+  - gallic
+  C: []
+  subs:
+  - C5.S2
+  - C5.S7
+  - C5.S8
+  - C3.S2
+  - C4.S8
+  unbuilt: gallic-nicene-episcopate
+  caveat: 'Hilary is Martin of Tours''s teacher, so he is the nearest exegete to the Gallic monastic world. Cheap first step: map the vendored npnf209 Psalm homilies to gallic.'
+  cells:
+  - gallic:C5.S2:P
+  - gallic:C5.S7:P
+  - gallic:C5.S8:P
+  - gallic:C3.S2:P
+  - gallic:C4.S8:P
+  n_primary: 5
+  n_context: 0
+  priority: 5
+- id: theodore-mopsuestia
+  work: Commentaries on the Minor Prophets, John (Syriac), Pauline letters (Latin); Catechetical Homilies
+  author: Theodore of Mopsuestia
+  era: 2 (c. 392-428)
+  lang: 'Greek, Latin and Syriac. Pauline letters: Swete, 2 vols (Cambridge 1880, 1882). Minor Prophets: PG 66. John: Vosté, CSCO 115-116 (1940), copyright. Homilies: Mingana, Woodbrooke Studies 5-6 (1932-33).
+    English: Hill, FC 108, 112 (Minor Prophets, 2004-06), Conti (John, 2010), copyright'
+  hosted: Swete named in the earlier acquire list (archive.org); others unverified
+  licence: 'Swete and PG 66: public domain by date. Mingana 1932-33: unverified in the US. Vosté and the English: in copyright'
+  vendored: partial (Kihn 1880 German study with Theodore material and Junilius Latin text; mapped only for Junilius)
+  P:
+  - syr
+  C: []
+  subs:
+  - C5.S7
+  - C5.S8
+  - C4.S3
+  - C4.S4
+  - C3.S2
+  unbuilt: antiochene-exegetical-christianity-chrysostom-ce, persian-church-of-the-east-early
+  caveat: Condemned in 553. Syriac tradition still calls him "the Interpreter", so he is the school of Nisibis's authority. Most of his work survives only in translation or fragments.
+  cells:
+  - syr:C5.S7:P
+  - syr:C5.S8:P
+  - syr:C4.S3:P
+  - syr:C4.S4:P
+  - syr:C3.S2:P
+  n_primary: 5
+  n_context: 0
+  priority: 5
+- id: theodoret-comm
+  work: Commentaries on the Psalms, Isaiah, Jeremiah, Ezekiel, Daniel, Paul; Questions on the Octateuch
+  author: Theodoret of Cyrrhus
+  era: 2 (c. 423-460)
+  lang: 'Greek. PG 80-82 (Migne 1859-64). English: Hill FC 101-102 (Psalms 2000-01), Hill (Paul 2001), copyright'
+  hosted: unverified
+  licence: 'PG: public domain by date; English in copyright'
+  vendored: no (History, Dialogues, Letters in npnf203)
+  P: []
+  C:
+  - ijc
+  subs:
+  - C5.S7
+  - C5.S8
+  - C4.S3
+  - C3.S5
+  - C8.S3
+  unbuilt: antiochene-exegetical-christianity-chrysostom-ce
+  caveat: Greek only. Theodoret is a Chalcedon figure; as context for ijc, not its voice.
+  cells:
+  - ijc:C5.S7:C
+  - ijc:C5.S8:C
+  - ijc:C4.S3:C
+  - ijc:C3.S5:C
+  - ijc:C8.S3:C
+  n_primary: 0
+  n_context: 5
+  priority: 5
+- id: augustine-genesis
+  work: De Genesi ad litteram, De Genesi contra Manichaeos, Quaestiones in Heptateuchum
+  author: Augustine
+  era: 2 (c. 388-415)
+  lang: 'Latin. CSEL 28, Zycha (1894); PL 34. English: Taylor ACW 41-42 (1982), Teske FOTC 84 (1991), copyright'
+  hosted: unverified
+  licence: 'CSEL 28 and PL 34: public domain by date; English in copyright'
+  vendored: no (Expositions on the Psalms, Tractates on John, Sermon on the Mount, Harmony, and the PL 35 Romans and Galatians expositions ARE vendored)
+  P:
+  - lpc
+  C: []
+  subs:
+  - C5.S3
+  - C3.S5
+  - C3.S6
+  - C8.S2
+  unbuilt: ''
+  caveat: lpc already has Genesis (C5.S4 rendered), so this deepens rather than opens. Taylor is the standard English.
+  cells:
+  - lpc:C5.S3:P
+  - lpc:C3.S5:P
+  - lpc:C3.S6:P
+  - lpc:C8.S2:P
+  n_primary: 4
+  n_context: 0
+  priority: 4
+- id: chrysostom-gen-ps
+  work: Homilies on Genesis; Expositions on the Psalms
+  author: John Chrysostom
+  era: 2 (Antioch, c. 386-397)
+  lang: 'Greek. PG 53-54 (Genesis), PG 55 (Psalms), Migne 1862. English: Hill FOTC 74, 82, 87 (Genesis 1986-92), Hill (Psalms 1998), copyright'
+  hosted: unverified
+  licence: 'PG: public domain by date; English in copyright'
+  vendored: no (his homilies on Matthew, John, Acts and the Pauline letters ARE vendored)
+  P:
+  - ijc
+  C: []
+  subs:
+  - C5.S4
+  - C5.S7
+  - C5.S8
+  - C3.S5
+  - C8.S2
+  unbuilt: antiochene-exegetical-christianity-chrysostom-ce (the world these belong to)
+  caveat: Greek only for the Library. The Genesis series is the best Antiochene counter to allegory, and a natural pair for Origen.
+  cells:
+  - ijc:C5.S4:P
+  - ijc:C5.S7:P
+  - ijc:C5.S8:P
+  - ijc:C3.S5:P
+  n_primary: 4
+  n_context: 0
+  priority: 4
+- id: ephrem-commentaries
+  work: Commentary on the Diatessaron; Commentary on Genesis and Exodus
+  author: Ephrem the Syrian
+  era: 2 (c. 363-373)
+  lang: 'Syriac, Armenian, Latin. Diatessaron: Moesinger, Latin from the Armenian (Venice 1876); Harris, English fragments (1895); Leloir CSCO 137, 145, SC 121 (1953-66), copyright. Genesis and Exodus:
+    Tonneau CSCO 152-153 (1955), copyright; Assemani Opera (Rome 1737-43) contents unverified. English: McCarthy (1993), McVey FC 91 (1994), copyright'
+  hosted: unverified
+  licence: 'Moesinger 1876, Harris 1895 and Assemani: public domain by date. Leloir, Tonneau and English: in copyright'
+  vendored: no (hymns, Nisibene and Nativity selections, and the Prose Refutations are vendored)
+  P:
+  - syr
+  C: []
+  subs:
+  - C5.S7
+  - C5.S8
+  - C3.S2
+  - C4.S3
+  unbuilt: ''
+  caveat: 'The Armenian Diatessaron commentary is a translation of a translation. McCarthy is already named in the syr Doc_02 (earlier acquire list #27) and is in copyright.'
+  cells:
+  - syr:C5.S7:P
+  - syr:C5.S8:P
+  - syr:C3.S2:P
+  - syr:C4.S3:P
+  n_primary: 4
+  n_context: 0
+  priority: 4
+- id: nyssa-homilies
+  work: Homilies on the Song of Songs, Ecclesiastes, the Beatitudes, the Lord's Prayer; Life of Moses; On "then the Son also himself shall be subject"; Apologia on the Hexaemeron
+  author: Gregory of Nyssa
+  era: 2 (c. 380-395)
+  lang: 'Greek. PG 44 (Migne 1863); critical: Gregorii Nysseni Opera VI, Langerbeck (1960), copyright. English: Graef ACW 18 (1954), Hall (1993), Norris (2012), all in copyright'
+  hosted: 'PG 44 scans: unverified'
+  licence: 'PG 44: public domain by date. No public-domain English located'
+  vendored: 'no (already registered, unvendored: cappadocian.source.gregory-nyssa-song-of-songs-ecclesiastes-beatitudes-homilies)'
+  P:
+  - cappadocian
+  C: []
+  subs:
+  - C5.S8
+  - C3.S1
+  - C3.S3
+  - C4.S7
+  unbuilt: ''
+  caveat: The anti-slavery story already rendered in cappadocian rests on the Ecclesiastes homily 4, which is unvendored, so those cells are rendered but unverifiable. Greek only unless Mark approves a
+    translation route.
+  cells:
+  - cappadocian:C5.S8:P
+  - cappadocian:C3.S1:P
+  - cappadocian:C3.S3:P
+  - cappadocian:C4.S7:P
+  n_primary: 4
+  n_context: 0
+  priority: 4
+- id: aphrahat-rest
+  work: Demonstrations (the ones not in the NPNF selection)
+  author: Aphrahat
+  era: 2 (337-345)
+  lang: 'Syriac with Latin: Parisot, Patrologia Syriaca I.1, I.2 (1894, 1907). English: Gwynn NPNF 2/13 (selection, vendored), Lehto (2010), copyright'
+  hosted: unverified
+  licence: 'Parisot: public domain by date; Lehto in copyright'
+  vendored: partial (selection in npnf213 and Hallock, Dem. 2 and 7)
+  P:
+  - syr
+  C: []
+  subs:
+  - C5.S7
+  - C3.S2
+  - C4.S4
+  unbuilt: persian-church-of-the-east-early
+  caveat: Argumentative homilies built on scripture, not a commentary. Low priority; the Latin side of Parisot has no English counterpart in the public domain.
+  cells:
+  - syr:C5.S7:P
+  - syr:C3.S2:P
+  - syr:C4.S4:P
+  n_primary: 3
+  n_context: 0
+  priority: 3
+- id: cyril-alex-nt
+  work: Commentaries on John and Luke; on the Twelve Prophets
+  author: Cyril of Alexandria
+  era: 2 (c. 412-444)
+  lang: 'Greek, Syriac. John: Pusey, 3 vols (Oxford 1872). Twelve Prophets: Pusey, 2 vols (Oxford 1868). English: Pusey and Randell, Library of the Fathers (Oxford 1874, 1885, John); Payne Smith, Luke from
+    Syriac (Oxford 1859)'
+  hosted: unverified; Aubert 1638 Opera is already in the download queue
+  licence: public domain by date (all pre-1930)
+  vendored: no (Five Tomes against Nestorius and three epistles are vendored)
+  P:
+  - ijc
+  C: []
+  subs:
+  - C5.S8
+  - C3.S5
+  - C3.S6
+  - C4.S8
+  unbuilt: cyrilline-miaphysite-egyptian-tradition (deferred by Step 0), aec
+  caveat: Public-domain English exists, which almost none of the others have. The built world it serves is ijc only; its real home is a world not yet built.
+  cells:
+  - ijc:C5.S8:P
+  - ijc:C3.S5:P
+  - ijc:C3.S6:P
+  n_primary: 3
+  n_context: 0
+  priority: 3
+- id: hippolytus-daniel
+  work: Commentary on Daniel and on the Song of Songs (full Greek and Old Slavonic)
+  author: Hippolytus
+  era: 1 (c. 204)
+  lang: 'Greek, Old Slavonic. Bonwetsch, GCS 1 (1897) = Hippolytus Werke I.1, Daniel and Song. English fragments are vendored in ANF 5; full-text English: Schmidt (2010), copyright'
+  hosted: unverified
+  licence: 'GCS 1 (1897): public domain'
+  vendored: partial (exegetical fragments on Daniel, Song, Genesis, Psalms in anf05, mapped to roman-church-third-century only)
+  P: []
+  C:
+  - pahc
+  subs:
+  - C3.S8
+  - C5.S5
+  unbuilt: roman-church-third-century, montanism-the-new-prophecy
+  caveat: Written about 204, after the pahc window (70-200). Score counts pahc only as context. Value is for the unbuilt Roman world.
+  cells:
+  - pahc:C3.S8:C
+  - pahc:C5.S5:C
+  n_primary: 0
+  n_context: 2
+  priority: 2
+- id: marius-victorinus
+  work: Commentaries on Galatians, Ephesians, Philippians
+  author: Marius Victorinus
+  era: 2 (Rome, c. 360)
+  lang: 'Latin. PL 8 (Migne 1844; the Library holds part of PL 8, the Donatist monuments, not these pages); CSEL 83.2, Locher (1972), copyright. English: Cooper (Galatians 2005), copyright'
+  hosted: unverified
+  licence: 'PL 8: public domain by date; CSEL 83 and the English: in copyright'
+  vendored: 'no'
+  P: []
+  C:
+  - ijc
+  subs:
+  - C4.S3
+  - C8.S3
+  unbuilt: ambrosian-milan-standalone
+  caveat: Earliest Latin Pauline commentator; the Ephesians on predestination is the useful part. Check whether the PL 8 file already holds these pages before downloading.
+  cells:
+  - ijc:C4.S3:C
+  - ijc:C8.S3:C
+  n_primary: 0
+  n_context: 2
+  priority: 2
+- id: cramer-catenae
+  work: Catenae Graecorum patrum in Novum Testamentum (8 vols)
+  author: compiled by Cramer from Origen, Chrysostom, Didymus, Cyril, Theodoret and others
+  era: compilation later; sources 1-2
+  lang: Greek. Cramer (Oxford 1838-44)
+  hosted: unverified
+  licence: public domain by date
+  vendored: 'no'
+  P: []
+  C: []
+  subs: []
+  unbuilt: ''
+  caveat: 'Enabler, not a stand-alone gain: the main Greek check on Rufinus''s Origen on Romans and the carrier of the Origen fragments on 1 Corinthians and Ephesians. Counted as 0 here to avoid double-counting
+    rows above.'
+  cells: []
+  n_primary: 0
+  n_context: 0
+  priority: 0
+already_vendored:
+- author: Origen
+  work: Commentary on John (Books I, II, IV, V extract, VI, X)
+  lang: English (Menzies, ANF 9)
+  files: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
+  covers: John 1-?; six books of 32
+  worlds: alx (tradition)
+  cites: 3 alx records (with Matthew)
+  note: Books III, VII-IX and 11-32 are not in this edition; Greek not vendored
+- author: Origen
+  work: Commentary on Matthew (Books I, II, X-XIV)
+  lang: English (Menzies, ANF 9)
+  files: anf09 (same file)
+  covers: Matt 1-2 intro, 13:36 to about 18:6
+  worlds: alx (tradition), desert (antecedent)
+  cites: 5 records (alx 3, desert 2)
+  note: The Matt 16:28 (Luke 9:27) pilot gap sits here
+- author: Origen
+  work: Philocalia (excerpts from his exegesis and homilies; a catena of Origen)
+  lang: English (Lewis 1911)
+  files: origen_philocalia_lewis1911.txt
+  covers: selected passages across the Bible
+  worlds: alx, cappadocian (tradition); desert, hal, anatolian (context)
+  cites: 6 records
+  note: Only English route to Origen on Song of Songs fragments in the Library
+- author: Origen (Rufinus)
+  work: Homilies on Numbers, Joshua, Judges
+  lang: Latin (Baehrens, GCS 30, 1921)
+  files: rufinus-aquileia_origenes-werke-bd7-homilien-numeri_baehrens1921.txt
+  covers: Numbers, Joshua, Judges
+  worlds: alx (tradition), aquileian (tradition)
+  cites: 0 records
+  note: Latin only; no record uses it
+- author: Origen
+  work: On Prayer (De oratione), includes Lord's Prayer exposition
+  lang: Greek (Koetschau, GCS 3, 1899)
+  files: origen_de-oratione-grc_koetschau1899.txt
+  covers: Lord's Prayer (Matt 6)
+  worlds: alx (tradition)
+  cites: 0 records
+  note: Greek only
+- author: Rufinus
+  work: Preface and Peroration to Origen on Romans, plus prefaces to other Origen translations
+  lang: English (NPNF 2/3)
+  files: npnf203_theodoret-jerome-gennadius-rufinus.xml
+  covers: frame only, no commentary text
+  worlds: alx (context)
+  cites: Rufinus cited by 24 records across 7 worlds (not all about Origen)
+  note: This is the Rufinus caveat itself
+- author: Jerome
+  work: Prefaces to his commentaries and to Origen homilies (NOT the commentaries)
+  lang: English (NPNF 2/6)
+  files: npnf206_jerome-principal-works.xml
+  covers: prefaces only
+  worlds: hal (tradition)
+  cites: 5 hal records
+  note: The Jerome commentaries themselves are not in the Library
+- author: Hippolytus
+  work: Exegetical fragments (Genesis, Psalms 23 and 24, Psalm 110, Proverbs, Song of Songs, Daniel, Song of the Three Children)
+  lang: English (ANF 5)
+  files: anf05_hippolytus-cyprian-caius-novatian.xml
+  covers: fragments only
+  worlds: roman-church-third-century (tradition), unbuilt
+  cites: 0 records
+  note: No built world carries it
+- author: Victorinus of Pettau
+  work: Commentary on the Apocalypse (Jerome's recension)
+  lang: English (ANF 7)
+  files: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+  covers: Revelation 1-22 (selected chapters)
+  worlds: hal, danubian-latin (tradition)
+  cites: 1 hal record
+  note: Jerome removed the millenarian ending
+- author: Gregory Thaumaturgus
+  work: Metaphrase of Ecclesiastes
+  lang: English (ANF 6)
+  files: anf06_...xml
+  covers: Ecclesiastes 1-12
+  worlds: anatolian-church-third-century (tradition), unbuilt
+  cites: 0 records
+  note: ''
+- author: Clement of Alexandria
+  work: Fragments of the Hypotyposes (Latin Adumbrations on 1 Peter, Jude, 1 and 2 John)
+  lang: English (ANF 2)
+  files: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
+  covers: 1 Peter, Jude, 1-2 John
+  worlds: no mapping row found for these fragments (only Tatian fragments from this volume)
+  cites: not counted
+  note: Mapped rows found only for other Clement works; check mapping
+- author: Dionysius of Alexandria; Pamphilus
+  work: Exegetical fragments; Exposition of chapters of Acts
+  lang: English (ANF 6)
+  files: anf06 (same file)
+  covers: fragments
+  worlds: alx
+  cites: not counted
+  note: ''
+- author: Tyconius
+  work: Book of Rules (Liber Regularum), a handbook for reading scripture
+  lang: Latin (Burkitt 1894)
+  files: tyconius_liber-regularum_burkitt1894.txt
+  covers: seven rules of interpretation
+  worlds: don (tradition)
+  cites: 20 don records
+  note: Well used. Rule VII on the devil's body is the only Donatist voice on C3.S3
+- author: Augustine
+  work: Expositions on the Psalms (Enarrationes), complete 1-150
+  lang: English (NPNF 8) and Latin (PL 36-37)
+  files: npnf108_augustine-exposition-psalms.xml; augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt
+  covers: Psalms 1-150
+  worlds: lpc (tradition)
+  cites: 2 lpc records
+  note: The Psalm 137 treatment is quoted nowhere
+- author: Augustine
+  work: Tractates on John (124) and Ten Homilies on 1 John
+  lang: English (NPNF 7), Latin (PL 35, Garnier 1902) and German
+  files: npnf107...; augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt; augustine_erorterungen-zum-johannis-evangelium-teil2-deu_hayd-bkv1878.txt
+  covers: John 1-21; 1 John 1-5
+  worlds: lpc (tradition)
+  cites: 3 lpc records
+  note: Same PL 35 file also holds the Latin Expositions of Romans (inchoata) and Galatians and the Questions on Matthew and on the Gospels. The queue row for PL 35 is stale
+- author: Augustine
+  work: Sermon on the Mount; Harmony of the Gospels; Sermons on Selected Lessons of the NT
+  lang: English (NPNF 6)
+  files: npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml
+  covers: Matt 5-7; the four gospels; ~80 sermons
+  worlds: lpc (tradition)
+  cites: 21 lpc records
+  note: Best-used commentary in the Library
+- author: Augustine
+  work: Sermons 1-396 and the Morin, Guelferbytanus, Caillau finds
+  lang: Latin (PL 38, 39 etc.)
+  files: augustine_sermones-*.txt (7 files)
+  covers: running sermons on scripture
+  worlds: lpc (tradition)
+  cites: various
+  note: Latin only except the NPNF selection
+- author: John Chrysostom
+  work: Homilies on Matthew (90), John (88), Acts (55), Romans (32), 1 Cor (44), 2 Cor (30), Galatians (commentary), Ephesians, Philippians, Colossians, 1-2 Thessalonians, 1-2 Timothy, Titus, Philemon,
+    Hebrews (34)
+  lang: English (NPNF 1/9-14)
+  files: npnf110, npnf111, npnf112, npnf113, npnf114, npnf109
+  covers: the whole New Testament except the other gospels and Revelation
+  worlds: antiochene-exegetical-christianity-chrysostom-ce (tradition, unbuilt, no records); ijc only for Romans Homily 23
+  cites: 2 records (ijc, Romans 23); npnf110, 112, 113, 114 cited by none
+  note: 'Biggest unused commentary asset: the full verse-by-verse set sits behind a world with no records. Needs corpus-map rows for built worlds, not a download'
+- author: Basil
+  work: Hexaemeron (nine homilies)
+  lang: English (NPNF 2/8)
+  files: npnf208_basil-letters-select-works.xml
+  covers: Genesis 1
+  worlds: cappadocian (tradition), syr (context)
+  cites: 7 records (cappadocian 5, syr 2)
+  note: ''
+- author: Gregory of Nyssa
+  work: On the Making of Man (supplement to the Hexaemeron)
+  lang: English (NPNF 2/5)
+  files: npnf205_gregory-nyssa-dogmatic-treatises.txt
+  covers: Genesis 1-3
+  worlds: cappadocian (tradition)
+  cites: 3 records
+  note: Nyssa's own Hexaemeron, Song and Ecclesiastes homilies are not in this volume
+- author: Hilary of Poitiers
+  work: Homilies on Psalms 1, 53 (54), 130 (131)
+  lang: English (NPNF 2/9)
+  files: npnf209_hilary-poitiers-john-damascus.xml
+  covers: three psalms
+  worlds: gallic-nicene-episcopate (unbuilt only)
+  cites: 0 records
+  note: Not mapped to the built gallic world
+- author: Cyril of Jerusalem
+  work: Catechetical Lectures (an exposition of the creed by scripture)
+  lang: English (NPNF 2/7)
+  files: npnf207_cyril-jerusalem-gregory-nazianzen.xml
+  covers: creed articles, baptism, eucharist
+  worlds: cappadocian (mapped; Cyril is not Cappadocian)
+  cites: 9 cappadocian records
+  note: Catechesis, not verse-by-verse
+- author: Apollinaris of Laodicea
+  work: Fragments incl. exegetical (Psalms, gospels)
+  lang: Greek (Lietzmann 1904)
+  files: apollinaris-laodicea_fragmente-...lietzmann1904.txt
+  covers: fragments
+  worlds: apollinarian (unbuilt), cappadocian (context)
+  cites: 0 records
+  note: ''
+- author: Kihn (study); Junilius
+  work: Theodore of Mopsuestia and Junilius as exegetes, with Junilius Instituta (Era 3)
+  lang: German with Latin
+  files: kihn_theodor-von-mopsuestia-junilius-africanus-instituta-lat-deu_1880.txt
+  covers: study and introduction to scripture
+  worlds: latin-africa-under-byzantium (Junilius only)
+  cites: 0 records
+  note: Theodore material not mapped to syr or aec
+- author: Zeno of Verona
+  work: Tractatus (short sermons, many on Genesis and Exodus figures)
+  lang: Latin (PL 11)
+  files: pl11-zeno-optatus-collatio-carthaginiensis_migne.txt
+  covers: sermons
+  worlds: mapped only for the Collatio part (don, lpc, context)
+  cites: 0 records
+  note: Zeno part of the file has no corpus-map row found
+- author: Wulfila circle
+  work: Skeireins (Gothic commentary on John, date uncertain, c. 5th-6th c.)
+  lang: Gothic with German (Bernhardt 1884)
+  files: wulfila_gothic-bible-skeireins-calendar-got-deu_bernhardt1884.txt
+  covers: fragments of John 3-8
+  worlds: gothic-and-vandal-homoian-christianity (tradition, unbuilt)
+  cites: 0 records
+  note: Probably outside the window
+- author: Cyprian
+  work: Testimonia (a scripture catena in three books)
+  lang: Latin (Hartel) and English (ANF 5)
+  files: cyprian_testimoniorum-libri-tres-adversus-judaeos-lat_hartel1868-csel3-tei.txt; anf05
+  covers: proof texts by topic
+  worlds: don and others
+  cites: not counted
+  note: Catena-type
+- author: Aphrahat / Ephrem
+  work: Demonstrations (selection) and hymns; Prose Refutations
+  lang: English
+  files: npnf213; aphrahat_demonstrations-2-7_hallock1932.txt; ephraim_prose-refutations_mitchell1912-1921.txt
+  covers: selections
+  worlds: syr (tradition)
+  cites: 'syr: 69 Aphrahat-file mentions, 12 npnf213'
+  note: Not commentaries; Ephrem's commentaries are not vendored
+vendored_unused_potential:
+- work: Chrysostom, Homilies on Matthew, John, Acts, Romans, 1-2 Cor, Gal-Phlm, Hebrews (npnf109-114)
+  action: map (non-exclusive) to ijc as tradition and to hal, gallic, cappadocian as context; no download
+  P:
+  - ijc
+  C:
+  - hal
+  - gallic
+  - cappadocian
+  - lpc
+  subs:
+  - C5.S8
+  - C4.S1
+  - C4.S3
+  - C4.S6
+  - C8.S2
+  - C8.S3
+  - C8.S6
+  - C3.S5
+  - C3.S6
+  - C5.S7
+  cites: 0 records outside ijc Romans 23
+  cells:
+  - ijc:C5.S8:P
+  - ijc:C4.S3:P
+  - ijc:C4.S6:P
+  - ijc:C8.S3:P
+  - ijc:C8.S6:P
+  - ijc:C3.S5:P
+  - ijc:C3.S6:P
+  - ijc:C5.S7:P
+  - hal:C5.S8:C
+  - hal:C4.S3:C
+  - hal:C4.S6:C
+  - hal:C8.S3:C
+  - hal:C8.S6:C
+  - hal:C3.S5:C
+  - hal:C3.S6:C
+  - hal:C5.S7:C
+  - gallic:C5.S8:C
+  - gallic:C4.S6:C
+  - gallic:C8.S2:C
+  - gallic:C8.S6:C
+  - gallic:C5.S7:C
+  - cappadocian:C5.S8:C
+  - cappadocian:C4.S3:C
+  - cappadocian:C4.S6:C
+  - cappadocian:C8.S6:C
+  - cappadocian:C3.S5:C
+  - cappadocian:C5.S7:C
+  - lpc:C5.S8:C
+  - lpc:C4.S6:C
+  - lpc:C8.S2:C
+  - lpc:C8.S3:C
+  - lpc:C8.S6:C
+  - lpc:C3.S5:C
+  - lpc:C3.S6:C
+  priority: 34
+- work: Hilary, Homilies on Psalms 1, 53, 130 (npnf209)
+  action: map to gallic (tradition)
+  P:
+  - gallic
+  C: []
+  subs:
+  - C5.S7
+  - C5.S2
+  - C3.S2
+  cites: '0'
+  cells:
+  - gallic:C5.S7:P
+  - gallic:C5.S2:P
+  - gallic:C3.S2:P
+  priority: 3
+- work: Origen, Homilies on Numbers/Joshua/Judges (Latin, GCS 30) and De oratione (Greek)
+  action: already mapped to alx; build records. Latin and Greek need a reading route
+  P:
+  - alx
+  C: []
+  subs:
+  - C5.S7
+  - C5.S8
+  - C8.S5
+  cites: '0'
+  cells:
+  - alx:C5.S7:P
+  - alx:C5.S8:P
+  priority: 2
+- work: Augustine, Latin Expositions of Romans (inchoata) and Galatians, Questions on Matthew (PL 35, Garnier)
+  action: check mapping to lpc; build records (Latin only)
+  P:
+  - lpc
+  C: []
+  subs:
+  - C4.S4
+  - C4.S8
+  - C5.S8
+  cites: '0'
+  cells:
+  - lpc:C4.S4:P
+  - lpc:C4.S8:P
+  - lpc:C5.S8:P
+  priority: 3
+- work: Hippolytus exegetical fragments (anf05)
+  action: map to pahc as context only if Mark widens the window; otherwise wait for roman-church-third-century
+  P: []
+  C:
+  - pahc
+  subs:
+  - C3.S8
+  - C5.S5
+  cites: '0'
+  cells:
+  - pahc:C3.S8:C
+  - pahc:C5.S5:C
+  priority: 2
+- work: Victorinus on the Apocalypse (anf07)
+  action: map to don, lpc, ijc as context
+  P:
+  - hal
+  C:
+  - don
+  - lpc
+  - ijc
+  - cappadocian
+  subs:
+  - C5.S5
+  - C3.S8
+  cites: 1 (hal)
+  cells:
+  - hal:C5.S5:P
+  - don:C5.S5:C
+  - lpc:C5.S5:C
+  - lpc:C3.S8:C
+  - ijc:C5.S5:C
+  - ijc:C3.S8:C
+  - cappadocian:C5.S5:C
+  - cappadocian:C3.S8:C
+  priority: 8
+- work: Origen Commentary on John/Matthew (anf09) beyond alx and desert
+  action: map to hal and cappadocian as context
+  P:
+  - alx
+  - desert
+  C:
+  - hal
+  - cappadocian
+  subs:
+  - C5.S8
+  - C3.S2
+  - C3.S4
+  cites: '5'
+  cells:
+  - alx:C5.S8:P
+  - alx:C3.S2:P
+  - alx:C3.S4:P
+  - desert:C5.S8:P
+  - desert:C3.S2:P
+  - desert:C3.S4:P
+  - hal:C5.S8:C
+  - hal:C3.S2:C
+  - hal:C3.S4:C
+  - cappadocian:C5.S8:C
+  - cappadocian:C3.S2:C
+  - cappadocian:C3.S4:C
+  priority: 12
+- work: Basil Hexaemeron and Nyssa Making of Man (npnf208, 205)
+  action: already cited by cappadocian; extend to hal, ijc, gallic as context for C5.S4
+  P:
+  - cappadocian
+  C:
+  - hal
+  - ijc
+  - gallic
+  - desert
+  subs:
+  - C5.S4
+  cites: '10'
+  cells:
+  - cappadocian:C5.S4:P
+  - hal:C5.S4:C
+  - ijc:C5.S4:C
+  - gallic:C5.S4:C
+  - desert:C5.S4:C
+  priority: 5
+- work: Clement Adumbrations (anf02) and Cyprian Testimonia
+  action: check mapping
+  P:
+  - alx
+  C: []
+  subs:
+  - C5.S8
+  cites: n/a
+  cells:
+  - alx:C5.S8:P
+  priority: 1
+queue_commentary_not_vendored:
+- work: Commentary on Romans (Pelagius)
+  source: 'earlier acquire worklist #4; gallic/hal/lpc C4.S1'
+  status: named, no source record, not in download-queue-seed.yaml
+- work: Commentary on Jonah 3:6-9 and on Ephesians (Jerome)
+  source: 'earlier acquire worklist #11; hal C3.S3, C3.S7'
+  status: named, not queued
+- work: Homilies on Leviticus 8.3 and Commentary on Romans 5.9 (Origen)
+  source: 'earlier acquire worklist #13; alx C3.S7, C4.S2'
+  status: named, not queued
+- work: Homilies on Jeremiah XVIII-XX (Origen)
+  source: 'earlier acquire worklist #45; alx C3.S3'
+  status: named, not queued; Greek GCS 6 1901
+- work: Catechetical Homilies; Pauline commentary fragments (Theodore of Mopsuestia)
+  source: 'earlier acquire worklist #25; aec C3.S3'
+  status: named, not queued
+- work: Commentary on the Diatessaron (Ephrem, McCarthy trans.)
+  source: 'earlier acquire worklist #27; named in syr Doc_02'
+  status: named, no source record; English in copyright
+- work: Homilies on the Song of Songs, Ecclesiastes, the Beatitudes, the Lord's Prayer (Gregory of Nyssa)
+  source: cappadocian.source.gregory-nyssa-song-of-songs-ecclesiastes-beatitudes-homilies; WANTS-REGISTER (value 3)
+  status: 'kind: unvendored; "confirmed absent from npnf205"'
+- work: Moral and famine homilies (Basil) incl. usury; martyr homilies on the Forty, Gordius, Julitta, Mamas
+  source: cappadocian.source.basil-moral-famine-homilies, basil-martyr-homilies...
+  status: 'kind: unvendored; homilies but not scripture commentary'
+- work: Homilies on the Forty Martyrs and Theodore the Recruit (Gregory of Nyssa)
+  source: cappadocian.source.gregory-nyssa-forty-martyrs-theodore-recruit-homilies
+  status: 'kind: unvendored; panegyric homilies, not commentary'
+- work: De consensu evangelistarum (Augustine, CSEL 43, Latin)
+  source: download-queue-seed.yaml (lpc), status not-yet-downloaded
+  status: queued; English Harmony of the Gospels already vendored (npnf106)
+- work: 'Migne PL 35: Tractatus in Johannem and others (Augustine)'
+  source: download-queue-seed.yaml (lpc), status not-yet-downloaded
+  status: 'STALE: PL 35 is already vendored as augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt (header content note). Mark the row downloaded or superseded'
+- work: 'Opera in VI tomos (Cyril of Alexandria, Aubert 1638: carries his Pentateuch, Isaiah, Minor Prophets, John and Luke commentaries)'
+  source: download-queue-seed.yaml (cyrilline, shared event ephesus-431)
+  status: queued for the council; the commentary content is incidental to why it was queued
+- work: Pusey edition of Cyril (De recta fide etc.)
+  source: download-queue-seed.yaml
+  status: queued; dogmatic, not commentary
+- work: Commentarii in evangelicam historiam (Salmeron, 1612-15)
+  source: download-queue-seed.yaml (jes)
+  status: outside Eras 1-2
