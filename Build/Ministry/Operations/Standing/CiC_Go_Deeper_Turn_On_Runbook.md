@@ -21,7 +21,7 @@ Three places, one kind of control each. **Stripe** holds money: the pack links, 
 
 The mint page makes codes with no payment. The codes show once on the page; copy them before leaving it. If a response is lost, cancel the mint id it showed in the dashboard's cancel box (it takes a mint id or a payment id) and make them again.
 
-A tester code is one code for a professor or deep tester, made under "Make codes (no payment)". It holds up to 20,000 tokens (the default) and works for the days you choose (30 by default, up to 90), to the end of its last day, UTC. After that it acts as a spent code: the person sees the usual spent line and nothing is spent. Two can be made a day; a cancelled one still counts. The code shows once with its last day and mint id; cancel it with that mint id in the same box. The limits are in the operations file's `tester` section.
+A tester code is one code for a professor or deep tester, made under "Make codes (no payment)". It holds up to 20,000 tokens (the default) and works for the days you choose (30 by default, up to 90), to the end of its last day, UTC. After that it acts as a spent code: the person sees the usual spent line and nothing is spent. There is no daily limit. The server shows the code only once, with its last day and mint id; the dashboard keeps it in a "Codes I've made" list in that browser until you delete it, with Copy, Copy link, Delete and Cancel code on each entry. Delete only takes it off the list; Cancel code, or the mint id in the cancel box, stops it working. The size and days are limited in the operations file's `tester` section.
 
 ## Offers and goodwill
 

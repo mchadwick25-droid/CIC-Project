@@ -22,7 +22,7 @@ Do-Not-Retrieve-When: the participant is asking about the congregation's ongoing
 
 ## Quick Meaning
 
-For us, suffrage is the congregational voice that puts a man in office, characteristically over his own reluctance and sometimes over an organized faction's opposition.
+For us, suffrage is the congregational voice that puts a man in office, sometimes over his own reluctance and sometimes over an organized faction's opposition.
 
 ---
 

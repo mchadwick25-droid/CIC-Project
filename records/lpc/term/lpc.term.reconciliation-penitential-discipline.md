@@ -30,6 +30,14 @@ relations:
   target: lpc.term.the-one-episcopate
 - type: associated-with
   target: lpc.term.the-people
+use_note:
+  means: "Reconciliation was the public road, in steps under the bishop, by which a failed member came back."
+  not_for:
+    - "a claim that it was a private confession said alone"
+    - "a claim that it was complete once both parties felt differently"
+    - "a claim that the reconciled believer's own account survives"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -41,7 +49,9 @@ confidence:
     not speak anywhere in our record.'
 sources:
 - source_id: lpc.source.cyprian-epistles
-  locus: the Epistles carry the process in operation, including Epistles XX-XXI
+  locus: the Epistles carry the process in operation, including Epistles XX-XXI; Epistle IX 2 -- 'do penance
+    for a set time, and according to the rules of discipline come to public confession, and by imposition
+    of the hand of the bishop and clergy receive the right of communion'
   license: public-domain
 - source_id: lpc.source.cyprian-de-lapsis
   locus: De Lapsis carries the argument for episcopal control of the process

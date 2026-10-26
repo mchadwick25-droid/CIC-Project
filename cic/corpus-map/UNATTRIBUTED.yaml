@@ -1252,6 +1252,16 @@ authors:
 
       '
     from_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+  didascalia-apostolorum:
+    kind: pseudonymous
+    evidence: 'The title page names only the translator, Margaret Dunlop Gibson, and no author.
+      The text presents itself as the teaching of the apostles: the section on the Apostles''
+      teaching has them speaking in turn ("Andrew said, My son, flee from all evil, and from
+      all that resembles it", file line about 2217). The slug names the work, as `addai` does
+      for the Doctrine of Addai.
+
+      '
+    from_file: didascalia-apostolorum_didascalia-apostolorum-in-english_gibson1903.txt
   dionysius-exiguus:
     kind: metadata-omission
     evidence: 'PL 67 opens with Dionysius Exiguus; the host record names only Migne.

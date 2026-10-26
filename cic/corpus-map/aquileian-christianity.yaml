@@ -23,6 +23,32 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
+- row_id: origen_commentarii-in-epistolam-ad-romanos-libri-1-5-lat_lommatzsch1836--commentary-on-romans-books-i-v-transmission
+  work: Commentary on the Epistle to the Romans, Books I to V (Rufinus's Latin)
+  author: origen
+  locus: prefaces from about line 170; Book I running heads from about line 1040, Book V from
+    about line 20960; Lommatzsch's notes on readings close the volume
+  role: transmission
+  confidence: assigned
+  note: 'Custody, not voice: Rufinus of Aquileia''s translation is why this commentary survives
+    in full, and the Greek original is largely lost. The voice is Origen''s, assigned to alexandria-catechetical
+    above.
+
+    '
+  source_file: origen_commentarii-in-epistolam-ad-romanos-libri-1-5-lat_lommatzsch1836.txt
+- row_id: origen_commentarii-in-epistolam-ad-romanos-libri-6-10-lat_lommatzsch1837--commentary-on-romans-books-vi-x-transmission
+  work: Commentary on the Epistle to the Romans, Books VI to X (Rufinus's Latin)
+  author: origen
+  locus: Book VI running heads from about line 671, Book X from about line 24620; the INDEX
+    begins at about line 30318
+  role: transmission
+  confidence: assigned
+  note: 'Custody, not voice: Rufinus of Aquileia''s translation is why this commentary survives
+    in full, and the Greek original is largely lost. The voice is Origen''s, assigned to alexandria-catechetical
+    above.
+
+    '
+  source_file: origen_commentarii-in-epistolam-ad-romanos-libri-6-10-lat_lommatzsch1837.txt
 - row_id: rufinus-aquileia_origenes-werke-bd7-homilien-numeri_baehrens1921--homilies-on-numbers
   work: Homilies on Numbers
   author: origen

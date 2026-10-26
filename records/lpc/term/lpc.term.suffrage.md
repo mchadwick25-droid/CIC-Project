@@ -14,6 +14,14 @@ relations:
   target: lpc.term.the-one-episcopate
 - type: associated-with
   target: lpc.term.the-people
+use_note:
+  means: "Suffrage names the voice of the people that, with God's judgment, put a man into office, even against his wishes."
+  not_for:
+    - "a claim that it was a vote with a ballot and a fixed procedure"
+    - "a claim that both phases share one word for it, when it is a pattern named from different figures and words"
+    - "a claim that Augustine's episcopate came by the people's choice alone"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -47,8 +55,8 @@ retrieval:
   prefer_instead:
   - the participant is asking about the congregation's ongoing authority generally rather than the specific
     act of calling someone to office -- ask about the people instead
-plain_meaning: Cyprian's own word for what put him in office was suffrage. A rival group opposed him,
-  but the people chose him anyway.
+plain_meaning: 'Cyprian named two things that put him in office: our suffrage, and God''s judgment. A
+  rival group opposed him, but the people chose him anyway.'
 world_word: suffrage
 distortion_risk: high
 false_friend:
@@ -71,7 +79,7 @@ senses:
     a ballot, and a procedure. We mean neither. A corporate acclamation that carries real constitutive
     force, in a community where the man acclaimed is expected to resist and where an organized faction
     can oppose without stopping it.
-quick_meaning: For us, suffrage is the voice of the people that puts a man into office. It often goes
-  against his own wishes.
+quick_meaning: For us, suffrage is the voice of the people that puts a man into office. It can go against
+  his own wishes.
 ---
 Derived from Doc_03 and Doc_06 §2 and Lexicon-Chunks/lpclex011_suffrage.md.

@@ -22,6 +22,15 @@ relations:
   target: lpc.term.schism
 - type: associated-with
   target: lpc.term.the-flock
+use_note:
+  means: "The phrase names Augustine's late claim that a Christian ruler may use force to bring a separated group back."
+  not_for:
+    - "a claim that it is the church's settled endorsement of religious persecution throughout"
+    - "a claim that Augustine always held it, since his earlier opinion against coercion reaches us only through his own later account"
+    - "a claim that a Donatist answer to it survives"
+    - "a claim that an editor's verdict on Augustine's reading of the parable is part of the teaching"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -55,8 +64,8 @@ retrieval:
   prefer_instead:
   - the participant is asking about penitential discipline applied to members inside the community rather
     than compulsion against a separated party -- ask about reconciliation instead
-plain_meaning: For us, this is a late argument, and it goes against an earlier view of our own. A Christian
-  ruler may rightly use force to bring a separated group back into the one communion.
+plain_meaning: This is a late argument of Augustine's, against his own earlier view. He argued that a
+  Christian ruler may use force to bring a separated group back into the one communion.
 world_word: compel them to come in
 distortion_risk: high
 false_friend:
@@ -90,7 +99,7 @@ senses:
     throughout. We mean a late, argued position, reached against the author's own earlier opinion, defended
     in the idiom of correction and recovery rather than punishment -- in a world where the same author's
     predecessor a century earlier had no access to state power at all and never sought it.
-quick_meaning: For us, this is a late argument. A Christian ruler may use force to bring a separated group
-  back into the one communion.
+quick_meaning: For us, this is Augustine's late argument. He argued that a Christian ruler may use force
+  to bring a separated group back into the one communion.
 ---
 Derived from Doc_06 §2.3 and Lexicon-Chunks/lpclex016_compel-them-to-come-in.md.

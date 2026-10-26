@@ -22,6 +22,10 @@ sources:
 - source_id: lpc.source.cyprian-de-lapsis
   locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
   license: public-domain
+- source_id: lpc.source.tertullian-de-pudicitia
+  locus: On Modesty (De Pudicitia) XXII, adulterers and fornicators who seek peace from imprisoned martyrs;
+    cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 9554-9566
+  license: public-domain
 relations:
 - type: associated-with
   target: lpc.gravity.pastoral-office-flock-keeping
@@ -35,6 +39,8 @@ relations:
   target: lpc.force.confessors-claim-to-grant-peace
 - type: associated-with
   target: lpc.force.valerianic-persecution
+- type: associated-with
+  target: lpc.quote.shepherd-wounded-in-the-flock
 name: The Decian Persecution and the *libelli* System (250)
 kind: initiating
 description: >-
@@ -48,8 +54,7 @@ description: >-
 
   It was felt less as an attack from outside than as a table emptied one certificate at a time. The
   demand reached each person alone. It sorted the congregation into those who had stood and those
-  who had not. Both groups still belonged, still in the room. In Cyprian's words, "[I]t is the
-  shepherd that is chiefly wounded in the wound of his flock."
+  who had not. Both groups still belonged, still in the room. Cyprian wrote that when the flock is wounded, it is the shepherd who is wounded most.
 
 
   This force made common the group that the whole penitential system exists to deal with. In one

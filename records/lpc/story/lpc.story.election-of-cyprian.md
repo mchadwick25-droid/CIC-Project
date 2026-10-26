@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F3-I
+use_note:
+  means: "Pontius says God's judgment and the people's favour made Cyprian bishop, and he later called it suffrage."
+  not_for:
+    - "a claim that it was a vote with a candidacy and a count"
+    - "a claim that any witness besides Pontius confirms that Cyprian was a neophyte"
+    - "a claim that Pontius, writing in praise, is a neutral witness"
+  years: {from: 248, to: 251}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -41,6 +49,8 @@ relations:
   target: lpc.figure.pontius
 - type: associated-with
   target: lpc.quote.ancient-venom-against-my-episcopate
+- type: associated-with
+  target: lpc.quote.chosen-while-still-a-neophyte
 narrative_tier: 1
 narrative_tier_justification: 'Documented. Tier 1 (Doc_09 SS3), and the tier is assigned to this story
   rather than to its source. Pontius is an eyewitness with an identifiable social location -- our own
@@ -55,15 +65,14 @@ narrative_tier_justification: 'Documented. Tier 1 (Doc_09 SS3), and the tier is 
 tellable_as: How we came to treat a recent convert's own election, over his reluctance, as God's own judgment
   made visible
 text: 'Our own deacon Pontius, writing after his bishop had been executed, passed over most of what he
-  could have said about Cyprian''s early years and settled on one fact as enough. "For the proof of his
-  good works I think that this one thing is enough," he wrote: "that by the judgment of God and the favour
-  of the people, he was chosen to the office of the priesthood and the degree of the episcopate while
-  still a neophyte, and, as it was considered, a novice."
+  could have said about Cyprian''s early years and settled on one fact as enough. That one fact, he wrote,
+  was proof enough of his good works: by God''s judgment and the people''s favour, he was chosen bishop
+  while still a neophyte, and, as people thought, a novice.
 
 
-  A neophyte. Newly baptised. Pontius did not soften this -- he pressed it, noting that Cyprian was "still
-  in the early days of his faith, and in the untaught season of his spiritual life." What we saw in him
-  was not training. It was something we thought we could already see.
+  A neophyte. Newly baptised. Pontius did not soften this -- he pressed it, noting that Cyprian was still
+  in the first days of his faith, untaught as yet in the life of the spirit. What we saw in him was not
+  training. It was something we thought we could already see.
 
 
   Two things are claimed at once in that sentence, and for Pontius they are not in tension: the judgment

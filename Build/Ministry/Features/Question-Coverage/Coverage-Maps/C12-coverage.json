@@ -1,0 +1,2740 @@
+{
+ "generated": "2026-10-25",
+ "method": {
+  "tool": "scratchpad/tools/coverage_search.py (--regex --whole-words), seven term sets in search/C12/terms.txt (S1-day to S7-happy); S8 has no term file and was judged from records and Doc_05; record check by recgrep.py -> recgrep.json; hand reads of front matter",
+  "record_check": "independent front-matter grep (recgrep.py) plus reading each cited record with show2.py",
+  "verification": "verify.py (copied from search/C3): quote text normalised and searched in the vendored file named by the source record; five misses were read by hand and are editorial artifacts (marginal letters, footnote marks, an italic tag), not wording changes",
+  "layers": "RENDERED = a record speaks to the sub-question (R* = partial or guard only); LOADED = vendored and mapped, read in context, no record; IDENTIFIED = registered unvendored source (kind: unvendored); OTHER = outside the repo; NOTHING = none found. The tool scans whole mapped files, so loci were chosen by hand."
+ },
+ "sub_questions": [
+  {
+   "id": "S1",
+   "label": "An ordinary day; food and drink; fun, dancing, baths and games; rest",
+   "question_ids": [
+    "C12-01",
+    "C12-02",
+    "C12-08",
+    "C12-11",
+    "C12-15",
+    "C12-18"
+   ]
+  },
+  {
+   "id": "S2",
+   "label": "Houses, clothes, language at home and in prayer",
+   "question_ids": [
+    "C12-12",
+    "C12-13",
+    "C12-19"
+   ]
+  },
+  {
+   "id": "S3",
+   "label": "Work, school, community size, travel, letters, telling time",
+   "question_ids": [
+    "C12-14",
+    "C12-17",
+    "C12-20",
+    "C12-22",
+    "C12-23",
+    "C12-24"
+   ]
+  },
+  {
+   "id": "S4",
+   "label": "Sickness, plague, lifespan, child death",
+   "question_ids": [
+    "C12-03",
+    "C12-10",
+    "C12-16"
+   ]
+  },
+  {
+   "id": "S5",
+   "label": "Burial, grief, mourning customs",
+   "question_ids": [
+    "C12-09",
+    "C12-21"
+   ]
+  },
+  {
+   "id": "S6",
+   "label": "What belonging cost; distance from loved ones",
+   "question_ids": [
+    "C12-06",
+    "C12-07"
+   ]
+  },
+  {
+   "id": "S7",
+   "label": "'Were you happy'; 'what's the point of life'",
+   "question_ids": [
+    "C12-25",
+    "R-03"
+   ]
+  },
+  {
+   "id": "S8",
+   "label": "What archaeology would find; how historians know",
+   "question_ids": [
+    "C12-04",
+    "C12-05"
+   ]
+  }
+ ],
+ "verification_all": {
+  "alx.quote.couches-and-trenchers-and-bowls": {
+   "result": "MATCH",
+   "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "lines": [
+    22127
+   ]
+  },
+  "alx.quote.dionysius-plague": {
+   "result": "MATCH",
+   "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": [
+    41084
+   ]
+  },
+  "alx.quote.no-festal-letter-was-written": {
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    64366
+   ]
+  },
+  "alx.quote.timothy-ordinary-questions": {
+   "result": "MATCH (spacing-only)",
+   "file": "npnf214_seven-ecumenical-councils.xml",
+   "lines": [
+    44111,
+    44145,
+    44156
+   ]
+  },
+  "cappadocian.quote.basil-on-work-and-prayer": {
+   "result": "MATCH (marginal letter and footnote mark removed)",
+   "file": "basil_ascetic-works-longer-shorter-rules_clarke1925.txt",
+   "lines": [
+    17072
+   ]
+  },
+  "desert.quote.antony-on-living-near-kin": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    47573
+   ]
+  },
+  "desert.quote.ethiopic-rule-eat-and-drink": {
+   "result": "MATCH",
+   "file": "pachomius_rules-ethiopic_schodde1885.txt",
+   "lines": [
+    174
+   ]
+  },
+  "desert.quote.melania-to-the-governor": {
+   "result": "MATCH",
+   "file": "palladius_paradise-v1-syriac_budge1907.txt",
+   "lines": [
+    1151
+   ]
+  },
+  "desert.quote.no-one-seize-the-hand": {
+   "result": "MATCH",
+   "file": "pachomius_rules-ethiopic_schodde1885.txt",
+   "lines": [
+    200
+   ]
+  },
+  "desert.quote.piamon-judge-of-the-earth": {
+   "result": "MATCH",
+   "file": "palladius_paradise-v1-syriac_budge1907.txt",
+   "lines": [
+    1125
+   ]
+  },
+  "desert.quote.talida-key-never-taken": {
+   "result": "MATCH",
+   "file": "palladius_paradise-v1-syriac_budge1907.txt",
+   "lines": [
+    1129
+   ]
+  },
+  "desert.quote.taor-not-compelled-to-market": {
+   "result": "MATCH",
+   "file": "palladius_paradise-v1-syriac_budge1907.txt",
+   "lines": [
+    1133
+   ]
+  },
+  "desert.quote.the-kingdom-is-apatheia": {
+   "result": "MATCH",
+   "file": "evagrius_praktikos_dysinger.txt",
+   "lines": [
+    174,
+    177
+   ]
+  },
+  "desert.quote.three-hundred-acres-to-the-villagers": {
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    31246
+   ]
+  },
+  "desert.quote.womens-house-across-the-river": {
+   "result": "MATCH",
+   "file": "pachomius_rules-ethiopic_schodde1885.txt",
+   "lines": [
+    206
+   ]
+  },
+  "gallic.quote.cassian-clothes-kept-until-excellence-of-progress": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    18678
+   ]
+  },
+  "gallic.quote.egyptian-sackcloth-utterly-disapproved": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    16651
+   ]
+  },
+  "gallic.quote.martin-funeral-crowd-and-monks": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    2487
+   ]
+  },
+  "gallic.quote.martin-funeral-procession-ranks": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    2495
+   ]
+  },
+  "gallic.quote.martin-funeral-triumph-contrast": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    2506
+   ]
+  },
+  "gallic.quote.martin-raises-the-catechumen": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    977
+   ]
+  },
+  "gallic.quote.martin-refuses-the-donative": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    827
+   ]
+  },
+  "gallic.quote.martin-sackcloth-and-ashes-reply": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    2464
+   ]
+  },
+  "gallic.quote.salvian-on-the-demand-for-circuses": {
+   "result": "MATCH (OCR footnote marks removed)",
+   "file": "salvian_on-the-government-of-god_sanford1930.txt",
+   "lines": [
+    8264
+   ]
+  },
+  "gallic.quote.salvian-on-the-unburied-dead": {
+   "result": "MATCH (OCR footnote marks removed)",
+   "file": "salvian_on-the-government-of-god_sanford1930.txt",
+   "lines": [
+    8241
+   ]
+  },
+  "gallic.quote.weekly-service-and-sacred-vessels": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    19172,
+    19195
+   ]
+  },
+  "hal.quote.boxwood-letters": {
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    20402
+   ]
+  },
+  "hal.quote.buried-beneath-the-church": {
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    22130
+   ]
+  },
+  "hal.quote.fabiola-hospital": {
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    17541
+   ]
+  },
+  "hal.quote.paula-hebrew-psalms": {
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    22019
+   ]
+  },
+  "hal.quote.portus-strangers": {
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    17716
+   ]
+  },
+  "hal.quote.she-put-on-sackcloth": {
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    17449,
+    17453
+   ]
+  },
+  "ijc.quote.happy-christian-emperors": {
+   "result": "MATCH",
+   "file": "npnf102_augustine-city-of-god-christian-doctrine.xml",
+   "lines": [
+    11060
+   ]
+  },
+  "ijc.quote.hymns-and-psalms-should-be-sung": {
+   "result": "MATCH",
+   "file": "npnf101_augustine-confessions-letters.xml",
+   "lines": [
+    13767
+   ]
+  },
+  "ijc.quote.jerome-damasus-verses": {
+   "result": "MATCH (spacing-only)",
+   "file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": [
+    41382
+   ]
+  },
+  "pahc.quote.lucian-orphans-and-widows": {
+   "result": "MATCH",
+   "file": "lucian_works-vol4-peregrine_fowler1905.txt",
+   "lines": [
+    1049
+   ]
+  },
+  "rzg.quote.zwinglis-last-words": {
+   "result": "MATCH",
+   "file": "zwingli_latin-works-correspondence-vol1_jackson1912.txt",
+   "lines": [
+    1592
+   ]
+  },
+  "syr.quote.blc-one-name": {
+   "result": "MATCH",
+   "file": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+   "lines": [
+    68966
+   ]
+  },
+  "syr.quote.dem6-visit-the-sick": {
+   "result": "MATCH",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    25658
+   ]
+  },
+  "syr.quote.ephrem-keeper-of-strangers": {
+   "result": "MATCH",
+   "file": "palladius_paradise-v1-syriac_budge1907.txt",
+   "lines": [
+    1293
+   ]
+  },
+  "syr.quote.nativity-this-is-the-day": {
+   "result": "MATCH",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    17530
+   ]
+  },
+  "syr.quote.nisibene-death-trembled": {
+   "result": "MATCH",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    15642
+   ]
+  },
+  "syr.quote.palladius-hospitaller": {
+   "result": "MATCH",
+   "file": "palladius_lausiac-history_clarke1918.txt",
+   "lines": [
+    471
+   ]
+  },
+  "syr.quote.sozomen-melodies": {
+   "result": "MATCH",
+   "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": [
+    32088
+   ]
+  },
+  "syr.quote.the-scribes-and-the-prefects-over-the-archives": {
+   "result": "MATCH",
+   "file": "chronicle-of-edessa_cowper.txt",
+   "lines": [
+    59
+   ]
+  },
+  "syr.quote.the-temple-of-the-church-of-the-christians": {
+   "result": "MATCH",
+   "file": "chronicle-of-edessa_cowper.txt",
+   "lines": [
+    53
+   ]
+  },
+  "witt.quote.the-poor-man-who-comes-to-you": {
+   "result": "MATCH",
+   "file": "luther_large-catechism_bente-dau1921.txt",
+   "lines": [
+    1946
+   ]
+  }
+ },
+ "worlds": {
+  "alx": {
+   "ambient": 0,
+   "f5_demos": [
+    "alx.demo.women-own-words (F5-I-03)"
+   ],
+   "doc05": "Doc_05 sec 6.2-6.3 holds the places (household, market, harbour), the day/week/year rhythm and the Anno Martyrum reckoning from Diocletian; it names the Coptic-speaking non-literate majority as a named absence. None of the rhythm or calendar became a record.",
+   "cells": {
+    "S1": {
+     "layer": "R*",
+     "records": [
+      "alx.quote.timothy-ordinary-questions",
+      "alx.quote.couches-and-trenchers-and-bowls",
+      "alx.term.fasting"
+     ],
+     "confidence": [
+      "Documented",
+      "Widely Accepted"
+     ],
+     "source_hits": [
+      {
+       "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+       "line": 21673,
+       "snippet": "Paedagogus II ch.2 On Drinking; ch.5 On Laughter (L22382); baths L25254"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "Who may eat and who fasts, and the rich table. No record on a normal day, drink, laughter or baths; Clement is vendored on all of them.",
+     "verified": [
+      {
+       "record": "alx.quote.timothy-ordinary-questions",
+       "result": "MATCH (spacing-only)",
+       "file": "npnf214_seven-ecumenical-councils.xml",
+       "lines": [
+        44111,
+        44145,
+        44156
+       ]
+      },
+      {
+       "record": "alx.quote.couches-and-trenchers-and-bowls",
+       "result": "MATCH",
+       "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+       "lines": [
+        22127
+       ]
+      }
+     ]
+    },
+    "S2": {
+     "layer": "R*",
+     "records": [
+      "alx.quote.couches-and-trenchers-and-bowls",
+      "alx.term.oikos",
+      "alx.contested.ecology-wide-primacy"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [
+      {
+       "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+       "line": 23729,
+       "snippet": "Paedagogus II ch.11 On Clothes"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "Costly furniture (not_for: ordinary homes) and the household as formation site. Clothes unrecorded though vendored. Coptic-speaking majority is named only as a contested absence.",
+     "verified": [
+      {
+       "record": "alx.quote.couches-and-trenchers-and-bowls",
+       "result": "MATCH",
+       "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+       "lines": [
+        22127
+       ]
+      }
+     ]
+    },
+    "S3": {
+     "layer": "R*",
+     "records": [
+      "alx.quote.no-festal-letter-was-written",
+      "alx.contested.didaskaleion-institution",
+      "alx.dw.councils"
+     ],
+     "confidence": [
+      "Documented",
+      "Contested"
+     ],
+     "source_hits": [
+      {
+       "file": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+       "line": 14759,
+       "snippet": "Paschal Canon of Anatolius (telling time)"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "School and the festal letters are covered. Work, travel, size: nothing. Anatolius is mapped and unquoted.",
+     "verified": [
+      {
+       "record": "alx.quote.no-festal-letter-was-written",
+       "result": "MATCH",
+       "file": "npnf204_athanasius-select-works-letters.xml",
+       "lines": [
+        64366
+       ]
+      }
+     ]
+    },
+    "S4": {
+     "layer": "R",
+     "records": [
+      "alx.quote.dionysius-plague",
+      "alx.story.plague-nursing"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Plague of 260: the church nursed the sick. Lifespan and child death absent.",
+     "verified": [
+      {
+       "record": "alx.quote.dionysius-plague",
+       "result": "MATCH",
+       "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+       "lines": [
+        41084
+       ]
+      }
+     ]
+    },
+    "S5": {
+     "layer": "R*",
+     "records": [
+      "alx.story.plague-nursing",
+      "alx.quote.dionysius-plague"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Only the plague dead. No ordinary burial, grief or mourning record.",
+     "verified": [
+      {
+       "record": "alx.quote.dionysius-plague",
+       "result": "MATCH",
+       "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+       "lines": [
+        41084
+       ]
+      }
+     ]
+    },
+    "S6": {
+     "layer": "R",
+     "records": [
+      "alx.story.leonides-martyrdom",
+      "alx.story.potamiaena"
+     ],
+     "confidence": [
+      "Widely Accepted",
+      "Dominant Modern Reconstruction"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Origen at sixteen, his mother hiding his clothes so he cannot follow his father to death. Cost of belonging is well grounded; distance not.",
+     "verified": []
+    },
+    "S7": {
+     "layer": "R*",
+     "records": [
+      "alx.term.psyche",
+      "alx.term.logikos"
+     ],
+     "confidence": [
+      "Widely Accepted",
+      "Contested"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "\"Made for God\" is the only purpose-of-life ground. Nothing on being happy.",
+     "verified": []
+    },
+    "S8": {
+     "layer": "R",
+     "records": [
+      "alx.limit.material-remains",
+      "alx.quote.couches-and-trenchers-and-bowls"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Honest limit: the city was rebuilt, the shore is under the sea, writings describe souls not rooms.",
+     "verified": []
+    }
+   }
+  },
+  "cappadocian": {
+   "ambient": 0,
+   "f5_demos": [],
+   "doc05": "Doc_05 sec 1-2 and 5 hold the high cold plateau, smallholders one harvest from hunger, a slave-exporting region, indigenous speech beside church Greek, charms \"two villages over\", adults delaying baptism, the lamp at evening prayer. Records carry the famine and the delayed baptism; indigenous speech, winter, charms and the slave trade never became records.",
+   "cells": {
+    "S1": {
+     "layer": "R",
+     "records": [
+      "cappadocian.dw.ordinary-day",
+      "cappadocian.story.brotherhood-day",
+      "cappadocian.quote.basil-on-work-and-prayer"
+     ],
+     "confidence": [
+      "Widely Accepted",
+      "Inferential-Thin",
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "A reconstructed brotherhood day, labelled as reconstruction. Food, play and baths not covered.",
+     "verified": [
+      {
+       "record": "cappadocian.quote.basil-on-work-and-prayer",
+       "result": "MATCH (marginal letter and footnote mark removed)",
+       "file": "basil_ascetic-works-longer-shorter-rules_clarke1925.txt",
+       "lines": [
+        17072
+       ]
+      }
+     ]
+    },
+    "S2": {
+     "layer": "L",
+     "records": [],
+     "confidence": [],
+     "source_hits": [
+      {
+       "file": "basil_ascetic-works-longer-shorter-rules_clarke1925.txt",
+       "line": 3172,
+       "snippet": "Rules on garments and trades (L3088-3172)"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "No record on houses, dress or speech. Doc_05 has the language point; Basil's Rules on dress are mapped and unrecorded.",
+     "verified": []
+    },
+    "S3": {
+     "layer": "R",
+     "records": [
+      "cappadocian.quote.basil-on-work-and-prayer",
+      "cappadocian.story.athens-friendship",
+      "cappadocian.story.julian-schools",
+      "cappadocian.dw.cost-and-the-letters-that-held-us"
+     ],
+     "confidence": [
+      "Documented",
+      "Widely Accepted"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Work and prayer, school, letters. Community size and travel absent.",
+     "verified": [
+      {
+       "record": "cappadocian.quote.basil-on-work-and-prayer",
+       "result": "MATCH (marginal letter and footnote mark removed)",
+       "file": "basil_ascetic-works-longer-shorter-rules_clarke1925.txt",
+       "lines": [
+        17072
+       ]
+      }
+     ]
+    },
+    "S4": {
+     "layer": "R",
+     "records": [
+      "cappadocian.story.poorhouse-famine-month",
+      "cappadocian.term.basileias",
+      "cappadocian.story.famine-open-barns",
+      "cappadocian.story.naucratius-wilderness"
+     ],
+     "confidence": [
+      "Inferential-Thin",
+      "Widely Accepted"
+     ],
+     "source_hits": [
+      {
+       "file": "npnf205_gregory-nyssa-dogmatic-treatises.txt",
+       "line": 443,
+       "snippet": "On Infants' Early Deaths (child death, unrecorded)"
+      }
+     ],
+     "identified": [
+      "cappadocian.source.caesareas-poorhouse-hospital-complex"
+     ],
+     "other": [],
+     "note": "Famine and the poorhouse are well covered; the poorhouse story is Inferential-Thin by its own tag. Child death is vendored, unrecorded.",
+     "verified": []
+    },
+    "S5": {
+     "layer": "R",
+     "records": [
+      "cappadocian.term.penthos-paraklesis",
+      "cappadocian.story.macrina-deathbed",
+      "cappadocian.story.basil-death-funeral"
+     ],
+     "confidence": [
+      "Documented",
+      "Widely Accepted"
+     ],
+     "source_hits": [],
+     "identified": [
+      "cappadocian.source.gregory-nazianzus-will-manumission"
+     ],
+     "other": [],
+     "note": "Strongest grief ground in the fleet: tears allowed, hope argued.",
+     "verified": []
+    },
+    "S6": {
+     "layer": "R",
+     "records": [
+      "cappadocian.dw.cost-and-the-letters-that-held-us",
+      "cappadocian.dw.macrina-and-its-cost",
+      "cappadocian.story.sasima-wound"
+     ],
+     "confidence": [
+      "Widely Accepted"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Wounded friendship and a mother's grief; letters as bond.",
+     "verified": []
+    },
+    "S7": {
+     "layer": "R*",
+     "records": [
+      "cappadocian.story.panegyris-shrine",
+      "cappadocian.term.epektasis"
+     ],
+     "confidence": [
+      "Inferential-Thin",
+      "Widely Accepted"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Festal joy is Inferential-Thin; the endless reaching toward God is the nearest to a purpose.",
+     "verified": []
+    },
+    "S8": {
+     "layer": "R",
+     "records": [
+      "cappadocian.limit.no-stones-to-show",
+      "cappadocian.dw.where-record-thinnest"
+     ],
+     "confidence": [
+      "Widely Accepted",
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [
+      "cappadocian.source.caesareas-poorhouse-hospital-complex",
+      "cappadocian.source.annisa-estate-shrine"
+     ],
+     "other": [],
+     "note": "Neither shrine nor poorhouse has been found; the record rests on one family and one circle.",
+     "verified": []
+    }
+   }
+  },
+  "desert": {
+   "ambient": 0,
+   "f5_demos": [],
+   "doc05": "Doc_05 sec 4-5 hold the Nitria-Kellia day's journey (about 19 km), the weekly synaxis with shared meal (strand C) and the Psalter recited during labour. Kellia's day is a story; the 19 km journey and the synaxis meal are not records.",
+   "cells": {
+    "S1": {
+     "layer": "R",
+     "records": [
+      "desert.story.kellia-day",
+      "desert.term.kellion",
+      "desert.quote.ethiopic-rule-eat-and-drink",
+      "desert.gravity.manual-labor"
+     ],
+     "confidence": [
+      "Inferential-Thin",
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Day is Inferential-Thin by its own tag; the eating rule is verified.",
+     "verified": [
+      {
+       "record": "desert.quote.ethiopic-rule-eat-and-drink",
+       "result": "MATCH",
+       "file": "pachomius_rules-ethiopic_schodde1885.txt",
+       "lines": [
+        174
+       ]
+      }
+     ]
+    },
+    "S2": {
+     "layer": "R*",
+     "records": [
+      "desert.quote.taor-not-compelled-to-market",
+      "desert.quote.melania-to-the-governor",
+      "desert.term.kellion",
+      "desert.quote.no-one-seize-the-hand"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Clothes and the cell are covered; houses beyond the cell and the Coptic/Greek language question are not.",
+     "verified": [
+      {
+       "record": "desert.quote.taor-not-compelled-to-market",
+       "result": "MATCH",
+       "file": "palladius_paradise-v1-syriac_budge1907.txt",
+       "lines": [
+        1133
+       ]
+      },
+      {
+       "record": "desert.quote.melania-to-the-governor",
+       "result": "MATCH",
+       "file": "palladius_paradise-v1-syriac_budge1907.txt",
+       "lines": [
+        1151
+       ]
+      }
+     ]
+    },
+    "S3": {
+     "layer": "R",
+     "records": [
+      "desert.gravity.manual-labor",
+      "desert.gravity.economic-embeddedness",
+      "desert.contested.antony-literacy",
+      "desert.quote.piamon-judge-of-the-earth"
+     ],
+     "confidence": [
+      "Documented",
+      "Contested"
+     ],
+     "source_hits": [
+      {
+       "file": "bell_jews-christians-egypt-meletian-papyri_1924.txt",
+       "line": 5,
+       "snippet": "Meletian papyri (letters, trade)"
+      }
+     ],
+     "identified": [
+      "desert.source.nepheros-archive"
+     ],
+     "other": [],
+     "note": "Work, trade with villages, literacy dispute. Community size and telling time absent (Evagrius L218 reads the sun to 3 o'clock).",
+     "verified": [
+      {
+       "record": "desert.quote.piamon-judge-of-the-earth",
+       "result": "MATCH",
+       "file": "palladius_paradise-v1-syriac_budge1907.txt",
+       "lines": [
+        1125
+       ]
+      }
+     ]
+    },
+    "S4": {
+     "layer": "L",
+     "records": [],
+     "confidence": [],
+     "source_hits": [
+      {
+       "file": "pachomius_rules-ethiopic_schodde1885.txt",
+       "line": 194,
+       "snippet": "the prior serves the sick brother; wine only for the sick"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "No record on sickness. Pachomian Rules and the Lausiac History are mapped.",
+     "verified": []
+    },
+    "S5": {
+     "layer": "R*",
+     "records": [
+      "desert.story.antony-secret-burial",
+      "desert.quote.womens-house-across-the-river"
+     ],
+     "confidence": [
+      "Widely Accepted",
+      "Documented"
+     ],
+     "source_hits": [
+      {
+       "file": "pachomius_rules-ethiopic_schodde1885.txt",
+       "line": 184,
+       "snippet": "bury her in their burial-place"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "Founder's grave only; ordinary burial and mourning are in the Rules, unrecorded.",
+     "verified": [
+      {
+       "record": "desert.quote.womens-house-across-the-river",
+       "result": "MATCH",
+       "file": "pachomius_rules-ethiopic_schodde1885.txt",
+       "lines": [
+        206
+       ]
+      }
+     ]
+    },
+    "S6": {
+     "layer": "R",
+     "records": [
+      "desert.term.xeniteia",
+      "desert.quote.antony-on-living-near-kin",
+      "desert.quote.three-hundred-acres-to-the-villagers",
+      "desert.quote.melania-to-the-governor"
+     ],
+     "confidence": [
+      "Widely Accepted",
+      "Documented",
+      "Contested"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Chosen exile and what Antony gave up.",
+     "verified": [
+      {
+       "record": "desert.quote.antony-on-living-near-kin",
+       "result": "MATCH",
+       "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+       "lines": [
+        47573
+       ]
+      },
+      {
+       "record": "desert.quote.three-hundred-acres-to-the-villagers",
+       "result": "MATCH",
+       "file": "npnf204_athanasius-select-works-letters.xml",
+       "lines": [
+        31246
+       ]
+      }
+     ]
+    },
+    "S7": {
+     "layer": "R",
+     "records": [
+      "desert.quote.the-kingdom-is-apatheia",
+      "desert.quote.talida-key-never-taken"
+     ],
+     "confidence": [
+      "Contested",
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Evagrius answers \"the point of it all\"; Palladius calls Talida's house \"a life of happiness\". Contested tag on the first.",
+     "verified": [
+      {
+       "record": "desert.quote.the-kingdom-is-apatheia",
+       "result": "MATCH",
+       "file": "evagrius_praktikos_dysinger.txt",
+       "lines": [
+        174,
+        177
+       ]
+      },
+      {
+       "record": "desert.quote.talida-key-never-taken",
+       "result": "MATCH",
+       "file": "palladius_paradise-v1-syriac_budge1907.txt",
+       "lines": [
+        1129
+       ]
+      }
+     ]
+    },
+    "S8": {
+     "layer": "R*",
+     "records": [
+      "desert.term.kellion",
+      "desert.story.kellia-day"
+     ],
+     "confidence": [
+      "Documented",
+      "Inferential-Thin"
+     ],
+     "source_hits": [],
+     "identified": [
+      "desert.source.kellia-excavations",
+      "desert.source.nepheros-archive"
+     ],
+     "other": [
+      "Kellia excavation reports (EK series; consult-only)"
+     ],
+     "note": "No honest_limit. The 1,500-structure Kellia dig is registered but unvendored, so the voice cannot say what it found.",
+     "verified": []
+    }
+   }
+  },
+  "don": {
+   "ambient": 3,
+   "f5_demos": [],
+   "doc05": "Doc_05 names ordinary believers' lives as a source-mediation absence and gives no daily-life detail beyond the 279-bishop roll and the rural Numidian bulk. Nothing unrecorded to extract.",
+   "cells": {
+    "S1": {
+     "layer": "R*",
+     "records": [
+      "don.limit.no-ordinary-day-survives",
+      "don.term.anniversaria-commemoratio"
+     ],
+     "confidence": [
+      "Widely Accepted",
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Honest limit: no morning, meal or field is written down. Yearly graveside gathering is the one practice.",
+     "verified": []
+    },
+    "S2": {
+     "layer": "L",
+     "records": [],
+     "confidence": [],
+     "source_hits": [
+      {
+       "file": "npnf104_augustine-anti-manichaean-anti-donatist.xml",
+       "line": 10597,
+       "snippet": "at Fussala \"the Punic was the common language\""
+      },
+      {
+       "file": "npnf101_augustine-confessions-letters.xml",
+       "line": 23515,
+       "snippet": "Punic language and names"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "Nothing on houses or dress. Language is vendored from Catholic hands.",
+     "verified": []
+    },
+    "S3": {
+     "layer": "R",
+     "records": [
+      "don.ambient.bagai-gathering-scale",
+      "don.dw.two-churches-in-one-town",
+      "don.story.conference-of-carthage-411"
+     ],
+     "confidence": [
+      "Documented",
+      "Widely Accepted"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Size is answered in bishops (310 at Bagai, 279 at 411), not people. Ambient record has empty retrieve_when.",
+     "verified": []
+    },
+    "S4": {
+     "layer": "R*",
+     "records": [
+      "don.limit.no-ordinary-day-survives"
+     ],
+     "confidence": [
+      "Widely Accepted"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Guard only: no bed of the dying is described.",
+     "verified": []
+    },
+    "S5": {
+     "layer": "R*",
+     "records": [
+      "don.term.anniversaria-commemoratio",
+      "don.story.passio-marculi"
+     ],
+     "confidence": [
+      "Documented",
+      "Contested"
+     ],
+     "source_hits": [
+      {
+       "file": "cil8-supplementum-numidiae_cagnat-schmidt1894.txt",
+       "line": 420,
+       "snippet": "epitaphs with VIXIT ANN (age at death) and MEMORIA SANCTORUM L739"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "Martyr graves only. Numidian epitaphs with ages at death are vendored and unrecorded.",
+     "verified": []
+    },
+    "S6": {
+     "layer": "R",
+     "records": [
+      "don.dw.what-belonging-cost",
+      "don.figure.isaac-and-maximianus",
+      "don.story.lucilla-consecration-dispute"
+     ],
+     "confidence": [
+      "Widely Accepted"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Costs are state-recorded (confiscation, exile, fines), not family-recorded; not_for bars household splits.",
+     "verified": []
+    },
+    "S7": {
+     "layer": "-",
+     "records": [],
+     "confidence": [],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Nothing found in records or the mapped texts.",
+     "verified": []
+    },
+    "S8": {
+     "layer": "R",
+     "records": [
+      "don.limit.the-room-we-cannot-show-you",
+      "don.ambient.deo-laudes-as-object"
+     ],
+     "confidence": [
+      "Widely Accepted",
+      "Documented"
+     ],
+     "source_hits": [
+      {
+       "file": "cil8-supplementum-numidiae_cagnat-schmidt1894.txt",
+       "line": 739,
+       "snippet": "MEMORIA SANCTORVM inscription"
+      }
+     ],
+     "identified": [
+      "don.source.numidian-basilica-archaeology"
+     ],
+     "other": [],
+     "note": "No dig named anywhere; four Deo laudes stones are the only objects.",
+     "verified": []
+    }
+   }
+  },
+  "gallic": {
+   "ambient": 0,
+   "f5_demos": [
+    "gallic.demo.women-own-words (F5-I-03)"
+   ],
+   "doc05": "Doc_05 sec 1.2 (dress, food, sleep, cell, labour, climate, sexuality) is the richest daily-life text in the fleet: camel-hair at Marmoutier, winter hoods, five fast days a week, no sleep after the night office, caves and one wooden cell, copying as the only craft. Only lentils, weekly service and clothes became records. It also logs three excised body/sexuality texts in the English Cassian.",
+   "cells": {
+    "S1": {
+     "layer": "R",
+     "records": [
+      "gallic.story.the-three-lentil-beans",
+      "gallic.quote.weekly-service-and-sacred-vessels",
+      "gallic.quote.salvian-on-the-demand-for-circuses"
+     ],
+     "confidence": [
+      "Widely Accepted"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Strict house, shared duties, circus as ruin's cure. Meals, sleep and fasts from Doc_05 are not records.",
+     "verified": [
+      {
+       "record": "gallic.quote.weekly-service-and-sacred-vessels",
+       "result": "MATCH",
+       "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+       "lines": [
+        19172,
+        19195
+       ]
+      },
+      {
+       "record": "gallic.quote.salvian-on-the-demand-for-circuses",
+       "result": "MATCH (OCR footnote marks removed)",
+       "file": "salvian_on-the-government-of-god_sanford1930.txt",
+       "lines": [
+        8264
+       ]
+      }
+     ]
+    },
+    "S2": {
+     "layer": "R",
+     "records": [
+      "gallic.quote.cassian-clothes-kept-until-excellence-of-progress",
+      "gallic.quote.egyptian-sackcloth-utterly-disapproved",
+      "gallic.term.cell"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Dress and the cell. Cassian describes Egypt, not Gaul (not_for).",
+     "verified": [
+      {
+       "record": "gallic.quote.cassian-clothes-kept-until-excellence-of-progress",
+       "result": "MATCH",
+       "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+       "lines": [
+        18678
+       ]
+      },
+      {
+       "record": "gallic.quote.egyptian-sackcloth-utterly-disapproved",
+       "result": "MATCH",
+       "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+       "lines": [
+        16651
+       ]
+      }
+     ]
+    },
+    "S3": {
+     "layer": "R",
+     "records": [
+      "gallic.quote.martin-funeral-crowd-and-monks",
+      "gallic.quote.weekly-service-and-sacred-vessels",
+      "gallic.quote.martin-refuses-the-donative"
+     ],
+     "confidence": [
+      "Widely Accepted"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "About two thousand monks at Martin's funeral; work by turns. Letters and travel not covered.",
+     "verified": [
+      {
+       "record": "gallic.quote.martin-funeral-crowd-and-monks",
+       "result": "MATCH",
+       "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+       "lines": [
+        2487
+       ]
+      }
+     ]
+    },
+    "S4": {
+     "layer": "R*",
+     "records": [
+      "gallic.story.death-of-martin-at-condate",
+      "gallic.quote.martin-raises-the-catechumen",
+      "gallic.term.accidie"
+     ],
+     "confidence": [
+      "Widely Accepted"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Fever at deaths only. Sulpicius L4932 \"plague\" is hail, not disease.",
+     "verified": []
+    },
+    "S5": {
+     "layer": "R",
+     "records": [
+      "gallic.quote.martin-funeral-triumph-contrast",
+      "gallic.quote.martin-funeral-procession-ranks",
+      "gallic.quote.salvian-on-the-unburied-dead",
+      "gallic.quote.martin-sackcloth-and-ashes-reply"
+     ],
+     "confidence": [
+      "Widely Accepted",
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Martin's funeral and Salvian's unburied dead of Trier.",
+     "verified": [
+      {
+       "record": "gallic.quote.martin-funeral-triumph-contrast",
+       "result": "MATCH",
+       "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+       "lines": [
+        2506
+       ]
+      },
+      {
+       "record": "gallic.quote.martin-funeral-procession-ranks",
+       "result": "MATCH",
+       "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+       "lines": [
+        2495
+       ]
+      },
+      {
+       "record": "gallic.quote.salvian-on-the-unburied-dead",
+       "result": "MATCH (OCR footnote marks removed)",
+       "file": "salvian_on-the-government-of-god_sanford1930.txt",
+       "lines": [
+        8241
+       ]
+      },
+      {
+       "record": "gallic.quote.martin-sackcloth-and-ashes-reply",
+       "result": "MATCH",
+       "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+       "lines": [
+        2464
+       ]
+      }
+     ]
+    },
+    "S6": {
+     "layer": "R",
+     "records": [
+      "gallic.story.discharge-before-caesar",
+      "gallic.quote.martin-refuses-the-donative",
+      "gallic.term.renunciation"
+     ],
+     "confidence": [
+      "Widely Accepted"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Leaving the army; renunciation. Distance not covered.",
+     "verified": [
+      {
+       "record": "gallic.quote.martin-refuses-the-donative",
+       "result": "MATCH",
+       "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+       "lines": [
+        827
+       ]
+      }
+     ]
+    },
+    "S7": {
+     "layer": "R",
+     "records": [
+      "gallic.term.goal-and-end",
+      "gallic.quote.martin-funeral-triumph-contrast"
+     ],
+     "confidence": [
+      "Documented",
+      "Widely Accepted"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Cassian's goal (purity of heart) and end (the kingdom) answer \"the point\" directly.",
+     "verified": []
+    },
+    "S8": {
+     "layer": "R",
+     "records": [
+      "gallic.limit.only-on-paper"
+     ],
+     "confidence": [
+      "Widely Accepted"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Honest limit for caves, cell and island.",
+     "verified": []
+    }
+   }
+  },
+  "hal": {
+   "ambient": 0,
+   "f5_demos": [
+    "hal.demo.women-own-words (F5-I-03)"
+   ],
+   "doc05": "Doc_05 sec 1-2 hold plain dress, fasting, the labour of hand and mind, hostels, and a community held by letters carried across a sea. It is thin on material life; the rest is already in quotes.",
+   "cells": {
+    "S1": {
+     "layer": "R",
+     "records": [
+      "hal.story.day-at-monastery",
+      "hal.quote.she-put-on-sackcloth",
+      "hal.term.nosocomium"
+     ],
+     "confidence": [
+      "Inferential-Thin",
+      "Documented"
+     ],
+     "source_hits": [
+      {
+       "file": "npnf206_jerome-principal-works.xml",
+       "line": 5652,
+       "snippet": "Letter 22: avoid wine as poison"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "A putting-together of scattered notices, tagged Inferential-Thin.",
+     "verified": [
+      {
+       "record": "hal.quote.she-put-on-sackcloth",
+       "result": "MATCH",
+       "file": "npnf206_jerome-principal-works.xml",
+       "lines": [
+        17449,
+        17453
+       ]
+      }
+     ]
+    },
+    "S2": {
+     "layer": "R",
+     "records": [
+      "hal.quote.buried-beneath-the-church",
+      "hal.quote.she-put-on-sackcloth",
+      "hal.quote.paula-hebrew-psalms"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Psalms in Greek, Latin and Syriac; sackcloth. Houses not covered.",
+     "verified": [
+      {
+       "record": "hal.quote.buried-beneath-the-church",
+       "result": "MATCH",
+       "file": "npnf206_jerome-principal-works.xml",
+       "lines": [
+        22130
+       ]
+      },
+      {
+       "record": "hal.quote.paula-hebrew-psalms",
+       "result": "MATCH",
+       "file": "npnf206_jerome-principal-works.xml",
+       "lines": [
+        22019
+       ]
+      }
+     ]
+    },
+    "S3": {
+     "layer": "R",
+     "records": [
+      "hal.quote.boxwood-letters",
+      "hal.term.grammaticus",
+      "hal.term.epistula",
+      "hal.quote.portus-strangers",
+      "hal.story.journey-to-bethlehem"
+     ],
+     "confidence": [
+      "Documented",
+      "Widely Accepted"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Children's letters (advice, not practice), school, correspondence, travel.",
+     "verified": [
+      {
+       "record": "hal.quote.boxwood-letters",
+       "result": "MATCH",
+       "file": "npnf206_jerome-principal-works.xml",
+       "lines": [
+        20402
+       ]
+      },
+      {
+       "record": "hal.quote.portus-strangers",
+       "result": "MATCH",
+       "file": "npnf206_jerome-principal-works.xml",
+       "lines": [
+        17716
+       ]
+      }
+     ]
+    },
+    "S4": {
+     "layer": "R",
+     "records": [
+      "hal.quote.fabiola-hospital",
+      "hal.term.nosocomium",
+      "hal.term.xenodochium"
+     ],
+     "confidence": [
+      "Documented",
+      "Widely Accepted"
+     ],
+     "source_hits": [
+      {
+       "file": "npnf206_jerome-principal-works.xml",
+       "line": 7763,
+       "snippet": "Letter 39, on the death of Blesilla"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "Hospital and hostel; priority claim is Jerome's alone.",
+     "verified": [
+      {
+       "record": "hal.quote.fabiola-hospital",
+       "result": "MATCH",
+       "file": "npnf206_jerome-principal-works.xml",
+       "lines": [
+        17541
+       ]
+      }
+     ]
+    },
+    "S5": {
+     "layer": "R",
+     "records": [
+      "hal.story.paula-epitaph",
+      "hal.story.marcella-death",
+      "hal.quote.buried-beneath-the-church",
+      "hal.term.epitaphium"
+     ],
+     "confidence": [
+      "Contested",
+      "Widely Accepted",
+      "Documented"
+     ],
+     "source_hits": [
+      {
+       "file": "npnf206_jerome-principal-works.xml",
+       "line": 7763,
+       "snippet": "Letter 39 (Blesilla); Letter 60 to Heliodorus on the death of Nepotian, intro L1290"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "Three days of psalms before burial under the church; Paula's epitaph is Contested.",
+     "verified": [
+      {
+       "record": "hal.quote.buried-beneath-the-church",
+       "result": "MATCH",
+       "file": "npnf206_jerome-principal-works.xml",
+       "lines": [
+        22130
+       ]
+      }
+     ]
+    },
+    "S6": {
+     "layer": "R",
+     "records": [
+      "hal.contested.paula-renunciation-totality",
+      "hal.story.journey-to-bethlehem",
+      "hal.term.renuntiatio"
+     ],
+     "confidence": [
+      "Contested",
+      "Widely Accepted"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Paula leaves her children on the shore; letters hold the distance.",
+     "verified": []
+    },
+    "S7": {
+     "layer": "-",
+     "records": [],
+     "confidence": [],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Nothing found; Jerome's letters were not read for joy.",
+     "verified": []
+    },
+    "S8": {
+     "layer": "R",
+     "records": [
+      "hal.limit.f5-material-remains",
+      "hal.quote.buried-beneath-the-church"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "\"What is known of our daily life comes from letters, not from the ground.\"",
+     "verified": [
+      {
+       "record": "hal.quote.buried-beneath-the-church",
+       "result": "MATCH",
+       "file": "npnf206_jerome-principal-works.xml",
+       "lines": [
+        22130
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "ijc": {
+   "ambient": 0,
+   "f5_demos": [
+    "ijc.demo.ordinary-day (F5-I-01)"
+   ],
+   "doc05": "Doc_05 sec 1 is \"honestly thin\" on purpose: the record comes from courts and bishops. Nothing unrecorded to extract.",
+   "cells": {
+    "S1": {
+     "layer": "R*",
+     "records": [
+      "ijc.limit.f5-ordinary-day",
+      "ijc.demo.ordinary-day",
+      "ijc.quote.hymns-and-psalms-should-be-sung"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [
+      {
+       "file": "npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml",
+       "line": 849,
+       "snippet": "Chrysostom on the theatre"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "Honest limit plus a worked demo. Hymn-singing at the Milan siege is the only scene.",
+     "verified": [
+      {
+       "record": "ijc.quote.hymns-and-psalms-should-be-sung",
+       "result": "MATCH",
+       "file": "npnf101_augustine-confessions-letters.xml",
+       "lines": [
+        13767
+       ]
+      },
+      {
+       "record": "ijc.quote.augustine-vigil-hymns",
+       "result": "MATCH",
+       "file": "npnf101_augustine-confessions-letters.xml",
+       "lines": [
+        13765,
+        13770
+       ]
+      }
+     ]
+    },
+    "S2": {
+     "layer": "L",
+     "records": [],
+     "confidence": [],
+     "source_hits": [
+      {
+       "file": "ammianus-marcellinus_roman-history_yonge1862.txt",
+       "line": 1402,
+       "snippet": "games in theatre and circus; Roman luxury"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "Limit refuses food, work, households. Ammianus and Chrysostom are outsider and preacher views.",
+     "verified": []
+    },
+    "S3": {
+     "layer": "L",
+     "records": [],
+     "confidence": [],
+     "source_hits": [
+      {
+       "file": "codex-theodosianus_latinlibrary.txt",
+       "line": 2725,
+       "snippet": "CTh 8.5, public post and carriage duties"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "No record on work, school, size, travel. Codex Theodosianus and Chrysostom are mapped.",
+     "verified": []
+    },
+    "S4": {
+     "layer": "R*",
+     "records": [
+      "ijc.limit.f5-ordinary-day"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Guard only: the sick and dying of ordinary believers are \"not held\".",
+     "verified": []
+    },
+    "S5": {
+     "layer": "R*",
+     "records": [
+      "ijc.limit.f5-ordinary-day",
+      "ijc.term.martyrium",
+      "ijc.quote.jerome-damasus-verses"
+     ],
+     "confidence": [
+      "Documented",
+      "Widely Accepted"
+     ],
+     "source_hits": [
+      {
+       "file": "codex-theodosianus_latinlibrary.txt",
+       "line": 3332,
+       "snippet": "CTh 9.17 De sepulchri violati"
+      },
+      {
+       "file": "npnf210_ambrose-select-works-letters.xml",
+       "line": 651,
+       "snippet": "Ambrose on the death of his brother Satyrus"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "Martyr shrines only. Ambrose's grief for Satyrus is vendored and unrecorded.",
+     "verified": []
+    },
+    "S6": {
+     "layer": "R",
+     "records": [
+      "ijc.story.vigil-in-basilica",
+      "ijc.story.emperor-penance"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Costly standoff at Milan.",
+     "verified": []
+    },
+    "S7": {
+     "layer": "R*",
+     "records": [
+      "ijc.quote.happy-christian-emperors"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Augustine's \"happy emperors\" is about rulers; not_for bars \"cheerful\".",
+     "verified": []
+    },
+    "S8": {
+     "layer": "R*",
+     "records": [
+      "ijc.term.basilica",
+      "ijc.term.martyrium"
+     ],
+     "confidence": [
+      "Documented",
+      "Widely Accepted"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Two terms tagged F5-E; no honest_limit.",
+     "verified": []
+    }
+   }
+  },
+  "lpc": {
+   "ambient": 3,
+   "f5_demos": [],
+   "doc05": "Doc_05 sec 6.9 names the urban Carthage-Hippo bias and the Punic/Berber substrate as an open question; sec 1 notes the Carthage plague and the shows drawing people from Augustine's sermon. Plague is a force record; the shows and the Punic point are not.",
+   "cells": {
+    "S1": {
+     "layer": "R*",
+     "records": [
+      "lpc.limit.ordinary-interior-life"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [
+      {
+       "file": "cyprian_de-disciplina-et-habitu-virginum-lat_hartel1868-csel3-tei.txt",
+       "line": 741,
+       "snippet": "mixed baths (promiscuas balneas) and convivia, Latin"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "Guard only; all 330 lpc records are draft. Cyprian's De habitu is mapped and unquoted.",
+     "verified": []
+    },
+    "S2": {
+     "layer": "R*",
+     "records": [
+      "lpc.limit.rural-punic-berber-life"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [
+      {
+       "file": "audollent_carthage-romaine-fra_1901.txt",
+       "line": 654,
+       "snippet": "Carthage excavations: basilica, cemeteries"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "Honest limit on Punic-speaking rural life.",
+     "verified": []
+    },
+    "S3": {
+     "layer": "R",
+     "records": [
+      "lpc.ambient.council-assembly-scale",
+      "lpc.ambient.two-cities-scale",
+      "lpc.ambient.church-administrative-objects",
+      "lpc.story.hundred-thousand-sesterces"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "87 bishops with most of the people; two cities; key, ring and yearly audit. Ambient, tier 3, empty retrieve_when, status draft.",
+     "verified": []
+    },
+    "S4": {
+     "layer": "R",
+     "records": [
+      "lpc.force.plague-of-cyprian",
+      "lpc.story.the-plague-and-the-enemies",
+      "lpc.story.the-psalms-on-the-wall"
+     ],
+     "confidence": [
+      "Documented",
+      "Widely Accepted"
+     ],
+     "source_hits": [
+      {
+       "file": "perpetua-scillitan-martyrs-lat-grc_robinson1891.txt",
+       "line": 2763,
+       "snippet": "sollicitudine infantis: Perpetua's nursing infant (Latin)"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "Pontius on the plague; Augustine's last illness.",
+     "verified": []
+    },
+    "S5": {
+     "layer": "R*",
+     "records": [
+      "lpc.story.the-death-of-cyprian",
+      "lpc.story.the-psalms-on-the-wall"
+     ],
+     "confidence": [
+      "Widely Accepted",
+      "Documented"
+     ],
+     "source_hits": [
+      {
+       "file": "npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml",
+       "line": 43495,
+       "snippet": "On Care to Be Had for the Dead"
+      },
+      {
+       "file": "npnf101_augustine-confessions-letters.xml",
+       "line": 13842,
+       "snippet": "Monica dies at Ostia"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "Two death narratives. Augustine's treatise on burial and Monica's death are vendored and unrecorded.",
+     "verified": []
+    },
+    "S6": {
+     "layer": "R",
+     "records": [
+      "lpc.story.hundred-thousand-sesterces",
+      "lpc.story.celerinus-writes-to-lucian",
+      "lpc.story.numidicus"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Ransom for captives; a confessor's family grief.",
+     "verified": []
+    },
+    "S7": {
+     "layer": "R",
+     "records": [
+      "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "\"Thou hast formed us for Thyself.\" Draft.",
+     "verified": []
+    },
+    "S8": {
+     "layer": "R*",
+     "records": [
+      "lpc.limit.rural-punic-berber-life",
+      "lpc.ambient.two-cities-scale"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [
+      {
+       "file": "audollent_carthage-romaine-fra_1901.txt",
+       "line": 654,
+       "snippet": "Delattre excavations (French)"
+      },
+      {
+       "file": "mesnage_afrique-chretienne-eveches-ruines-fra_19",
+       "line": 1,
+       "snippet": "ruined bishoprics"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "Archaeology is vendored in French and not used.",
+     "verified": []
+    }
+   }
+  },
+  "pahc": {
+   "ambient": 0,
+   "f5_demos": [
+    "pahc.demo.honest-limit-material-remains (F5-E-01)"
+   ],
+   "doc05": "Doc_05 sec 1.1 holds the weekly eucharist rhythm and weighing itinerant teachers; no material detail. Nothing unrecorded to extract.",
+   "cells": {
+    "S1": {
+     "layer": "R",
+     "records": [
+      "pahc.story.justin-sunday-gathering",
+      "pahc.story.day-under-bishop-and-presbyters",
+      "pahc.limit.ordinary-majority"
+     ],
+     "confidence": [
+      "Widely Accepted",
+      "Inferential-Thin",
+      "Documented"
+     ],
+     "source_hits": [
+      {
+       "file": "anf03_tertullian.xml",
+       "line": 4148,
+       "snippet": "Apology: no frankincense bought, but used in burying Christians"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "Sunday gathering is well grounded; the \"day\" is Inferential-Thin.",
+     "verified": []
+    },
+    "S2": {
+     "layer": "L",
+     "records": [],
+     "confidence": [],
+     "source_hits": [
+      {
+       "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+       "line": 2735,
+       "snippet": "Diognetus: they dwell in their own countries; \"common table, but not a common bed\""
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "Records name the house-churches only to say none survives. Diognetus is the best daily-life passage.",
+     "verified": []
+    },
+    "S3": {
+     "layer": "R",
+     "records": [
+      "pahc.story.polycarp-forwards-letters",
+      "pahc.story.ignatius-guarded-journey",
+      "pahc.limit.ordinary-majority",
+      "pahc.gravity.translocal-network"
+     ],
+     "confidence": [
+      "Documented",
+      "Widely Accepted"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Letters, guarded journey, most could not read.",
+     "verified": []
+    },
+    "S4": {
+     "layer": "R*",
+     "records": [
+      "pahc.quote.lucian-orphans-and-widows",
+      "pahc.story.mutual-aid-prisoner"
+     ],
+     "confidence": [
+      "Documented",
+      "Inferential-Thin"
+     ],
+     "source_hits": [
+      {
+       "file": "aristides_apology-syriac-grc-eng_harris-robinson1893.txt",
+       "line": 1180,
+       "snippet": "fasting two or three days to feed the needy"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "Care for prisoners, widows, orphans; sickness itself not covered.",
+     "verified": [
+      {
+       "record": "pahc.quote.lucian-orphans-and-widows",
+       "result": "MATCH",
+       "file": "lucian_works-vol4-peregrine_fowler1905.txt",
+       "lines": [
+        1049
+       ]
+      }
+     ]
+    },
+    "S5": {
+     "layer": "R*",
+     "records": [
+      "pahc.limit.material-remains",
+      "pahc.story.mutual-aid-prisoner"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [
+      {
+       "file": "aristides_apology-syriac-grc-eng_harris-robinson1893.txt",
+       "line": 2853,
+       "snippet": "a dead poor man is buried \"according to his ability\""
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "Limit says no burial or inscription survives. Aristides on burial is unrecorded.",
+     "verified": []
+    },
+    "S6": {
+     "layer": "R",
+     "records": [
+      "pahc.gravity.translocal-network",
+      "pahc.story.polycarp-forwards-letters",
+      "pahc.story.ignatius-guarded-journey"
+     ],
+     "confidence": [
+      "Documented",
+      "Widely Accepted"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Letters and visitors across distance.",
+     "verified": []
+    },
+    "S7": {
+     "layer": "-",
+     "records": [],
+     "confidence": [],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Nothing found.",
+     "verified": []
+    },
+    "S8": {
+     "layer": "R",
+     "records": [
+      "pahc.limit.material-remains",
+      "pahc.demo.honest-limit-material-remains"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Names catacombs and house-churches as not this world's evidence.",
+     "verified": []
+    }
+   }
+  },
+  "rzg": {
+   "ambient": 3,
+   "f5_demos": [],
+   "doc05": "Doc_05 holds worship spaces and civic-political life only; ordinary homes are not treated. Nothing unrecorded to extract.",
+   "cells": {
+    "S1": {
+     "layer": "R*",
+     "records": [
+      "rzg.limit.ordinary-daily-practice"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [
+      {
+       "file": "zwingli_selected-works_jackson1901.txt",
+       "line": 127,
+       "snippet": "sermon upon fasting"
+      },
+      {
+       "file": "calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735.txt",
+       "line": 915,
+       "snippet": "ordinances, French"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "Honest limit only.",
+     "verified": []
+    },
+    "S2": {
+     "layer": "R*",
+     "records": [
+      "rzg.limit.material-culture-and-worship-space",
+      "rzg.ambient.emptied-worship-space"
+     ],
+     "confidence": [
+      "Inferential-Thin"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Worship space only; the ambient record is Inferential-Thin (C-grade, not rechecked).",
+     "verified": []
+    },
+    "S3": {
+     "layer": "R",
+     "records": [
+      "rzg.ambient.disputation-crowd-scale",
+      "rzg.ambient.consensus-single-page",
+      "rzg.story.calvins-journey-to-zurich"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Six hundred in the Town Hall; Calvin's journey. Ambient, empty retrieve_when.",
+     "verified": []
+    },
+    "S4": {
+     "layer": "L",
+     "records": [],
+     "confidence": [],
+     "source_hits": [
+      {
+       "file": "calvin_letters-vol1_bonnet1858.txt",
+       "line": 217,
+       "snippet": "plague at Geneva"
+      },
+      {
+       "file": "zurich-council_actensammlung-zuercher-reformation-deu_egli1879.txt",
+       "line": 1385,
+       "snippet": "Pest in Zurich"
+      },
+      {
+       "file": "calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735.txt",
+       "line": 915,
+       "snippet": "visitation of the sick"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "No record. Letters, council acts and the Ordonnances are mapped.",
+     "verified": []
+    },
+    "S5": {
+     "layer": "L",
+     "records": [],
+     "confidence": [],
+     "source_hits": [
+      {
+       "file": "kirk-of-scotland_book-of-common-order-and-westminster-direct",
+       "line": 232,
+       "snippet": "burial and visitation, Scottish and later"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "Zwingli's death records are about a martyr's end, not mourning.",
+     "verified": []
+    },
+    "S6": {
+     "layer": "R",
+     "records": [
+      "rzg.figure.farel",
+      "rzg.quote.zwinglis-last-words",
+      "rzg.story.myconius-account-of-zwinglis-death",
+      "rzg.force.wars-of-kappel-zwinglis-death"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Zwingli's death in war is the cost; ordinary families absent.",
+     "verified": [
+      {
+       "record": "rzg.quote.zwinglis-last-words",
+       "result": "MATCH",
+       "file": "zwingli_latin-works-correspondence-vol1_jackson1912.txt",
+       "lines": [
+        1592
+       ]
+      }
+     ]
+    },
+    "S7": {
+     "layer": "L",
+     "records": [],
+     "confidence": [],
+     "source_hits": [
+      {
+       "file": "calvin_geneva-catechism_waterman1815.txt",
+       "line": 229,
+       "snippet": "Q1 \"What is the chief end of human life\""
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "No record. The Geneva Catechism opens on exactly this question.",
+     "verified": []
+    },
+    "S8": {
+     "layer": "R",
+     "records": [
+      "rzg.limit.material-culture-and-worship-space",
+      "rzg.ambient.consensus-single-page"
+     ],
+     "confidence": [
+      "Inferential-Thin",
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Limit plus a document-as-object.",
+     "verified": []
+    }
+   }
+  },
+  "syr": {
+   "ambient": 0,
+   "f5_demos": [],
+   "doc05": "Doc_05 sec 1.1 holds bar/bat qyama living unmarried among kin, keeping fast and watch. The Qyama morning story covers it. Little else.",
+   "cells": {
+    "S1": {
+     "layer": "R",
+     "records": [
+      "syr.story.qyama-morning",
+      "syr.quote.sozomen-melodies",
+      "syr.quote.nativity-this-is-the-day"
+     ],
+     "confidence": [
+      "Inferential-Thin",
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "A pieced-together morning, tagged Inferential-Thin.",
+     "verified": [
+      {
+       "record": "syr.quote.sozomen-melodies",
+       "result": "MATCH",
+       "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+       "lines": [
+        32088
+       ]
+      }
+     ]
+    },
+    "S2": {
+     "layer": "L",
+     "records": [],
+     "confidence": [],
+     "source_hits": [
+      {
+       "file": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+       "line": 67888,
+       "snippet": "Bardaisan, Book of the Laws of Divers Countries (customs of Edessa and others)"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "No record on houses, dress or speech. Bardaisan is mapped.",
+     "verified": []
+    },
+    "S3": {
+     "layer": "R",
+     "records": [
+      "syr.quote.the-scribes-and-the-prefects-over-the-archives",
+      "syr.story.edessa-flood-201",
+      "syr.quote.the-temple-of-the-church-of-the-christians"
+     ],
+     "confidence": [
+      "Documented",
+      "Widely Accepted"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Archives, dating by the Greek era, two thousand dead in the flood.",
+     "verified": [
+      {
+       "record": "syr.quote.the-scribes-and-the-prefects-over-the-archives",
+       "result": "MATCH",
+       "file": "chronicle-of-edessa_cowper.txt",
+       "lines": [
+        59
+       ]
+      },
+      {
+       "record": "syr.quote.the-temple-of-the-church-of-the-christians",
+       "result": "MATCH",
+       "file": "chronicle-of-edessa_cowper.txt",
+       "lines": [
+        53
+       ]
+      }
+     ]
+    },
+    "S4": {
+     "layer": "R",
+     "records": [
+      "syr.quote.dem6-visit-the-sick",
+      "syr.quote.palladius-hospitaller",
+      "syr.quote.ephrem-keeper-of-strangers",
+      "syr.story.ephrem-famine-death",
+      "syr.dw.physician"
+     ],
+     "confidence": [
+      "Documented",
+      "Widely Accepted"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Strongest S4 in the fleet. Dem. 6 is exhortation, not report (not_for).",
+     "verified": [
+      {
+       "record": "syr.quote.dem6-visit-the-sick",
+       "result": "MATCH",
+       "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+       "lines": [
+        25658
+       ]
+      },
+      {
+       "record": "syr.quote.palladius-hospitaller",
+       "result": "MATCH",
+       "file": "palladius_lausiac-history_clarke1918.txt",
+       "lines": [
+        471
+       ]
+      },
+      {
+       "record": "syr.quote.ephrem-keeper-of-strangers",
+       "result": "MATCH",
+       "file": "palladius_paradise-v1-syriac_budge1907.txt",
+       "lines": [
+        1293
+       ]
+      }
+     ]
+    },
+    "S5": {
+     "layer": "R*",
+     "records": [
+      "syr.story.ephrem-famine-death",
+      "syr.quote.nisibene-death-trembled",
+      "syr.dw.death-judgment"
+     ],
+     "confidence": [
+      "Widely Accepted",
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Death in hymn and the famine dead. No mourning customs.",
+     "verified": []
+    },
+    "S6": {
+     "layer": "R",
+     "records": [
+      "syr.dw.cost-distance",
+      "syr.quote.blc-one-name"
+     ],
+     "confidence": [
+      "Widely Accepted"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Persian-side cost: suspect, taxed, hunted.",
+     "verified": []
+    },
+    "S7": {
+     "layer": "R*",
+     "records": [
+      "syr.quote.nativity-this-is-the-day"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Feast joy in a hymn; no purpose-of-life ground.",
+     "verified": [
+      {
+       "record": "syr.quote.nativity-this-is-the-day",
+       "result": "MATCH",
+       "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+       "lines": [
+        17530
+       ]
+      }
+     ]
+    },
+    "S8": {
+     "layer": "R",
+     "records": [
+      "syr.dw.remains",
+      "syr.quote.the-temple-of-the-church-of-the-christians",
+      "syr.quote.the-scribes-and-the-prefects-over-the-archives"
+     ],
+     "confidence": [
+      "Widely Accepted",
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [
+      "syr.source.kayaalp-nisibis-cathedral"
+     ],
+     "other": [],
+     "note": "Only world to state a real find (the Nisibis baptistery) and to explain how a record survived.",
+     "verified": []
+    }
+   }
+  },
+  "witt": {
+   "ambient": 0,
+   "f5_demos": [
+    "witt.demo.women-own-words (F5-I-03)"
+   ],
+   "doc05": "Doc_05 sec 1.2 (rising, work, table, bed, food, sex, sickness, death) is the second-richest daily-life text: morning and evening blessings (SC 543-607), meat and fast-day liberty, the calamity list with pestilence and cattle-plague (LC 3507), the churchyard as \"resting place\" (Hy 957-1019). Records carry the household, daily rhythm, fasting and death; the blessings and calamity list are not records.",
+   "cells": {
+    "S1": {
+     "layer": "R",
+     "records": [
+      "witt.term.daily",
+      "witt.term.household",
+      "witt.term.fasting",
+      "witt.story.household-catechism-lesson-typical-practice"
+     ],
+     "confidence": [
+      "Documented",
+      "Inferential-Thin"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Prescription, not report: no household diary survives.",
+     "verified": []
+    },
+    "S2": {
+     "layer": "R*",
+     "records": [
+      "witt.term.household",
+      "witt.term.hymn",
+      "witt.term.images"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "House as school; German hymns. Dress and houses absent.",
+     "verified": []
+    },
+    "S3": {
+     "layer": "R*",
+     "records": [
+      "witt.term.calling",
+      "witt.quote.the-poor-man-who-comes-to-you",
+      "witt.story.prayer-for-rain-1532"
+     ],
+     "confidence": [
+      "Documented",
+      "Widely Accepted"
+     ],
+     "source_hits": [
+      {
+       "file": "luther_large-catechism_bente-dau1921.txt",
+       "line": 242,
+       "snippet": "father examines children and servants weekly"
+      }
+     ],
+     "identified": [
+      "witt.source.saxon-visitation-protocols"
+     ],
+     "other": [],
+     "note": "Calling and wages. School and size not covered; visitation protocols unvendored.",
+     "verified": [
+      {
+       "record": "witt.quote.the-poor-man-who-comes-to-you",
+       "result": "MATCH",
+       "file": "luther_large-catechism_bente-dau1921.txt",
+       "lines": [
+        1946
+       ]
+      }
+     ]
+    },
+    "S4": {
+     "layer": "R*",
+     "records": [
+      "witt.term.fasting",
+      "witt.term.death"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [
+      {
+       "file": "luther_large-catechism_bente-dau1921.txt",
+       "line": 3507,
+       "snippet": "fourth petition: pestilence, cattle-plague, famine"
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "The sick may eat meat; the 1527 plague tract is not vendored.",
+     "verified": []
+    },
+    "S5": {
+     "layer": "R",
+     "records": [
+      "witt.term.death",
+      "witt.term.hymn",
+      "witt.term.purgatory"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [
+      {
+       "file": "luther_hymns_bacon-allen.txt",
+       "line": 960,
+       "snippet": "\"deep, sound, sweet sleep, the coffin ... the bosom of our Lord Christ\""
+      }
+     ],
+     "identified": [],
+     "other": [],
+     "note": "Burial as sleep, hymns at the grave, no purgatory.",
+     "verified": []
+    },
+    "S6": {
+     "layer": "R*",
+     "records": [
+      "witt.story.brussels-martyrs",
+      "witt.term.patience"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Martyrs' cost is covered; family and friends are not.",
+     "verified": []
+    },
+    "S7": {
+     "layer": "R*",
+     "records": [
+      "witt.term.assurance",
+      "witt.term.calling"
+     ],
+     "confidence": [
+      "Documented"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "Assurance and calling; no purpose-of-life or happiness ground.",
+     "verified": []
+    },
+    "S8": {
+     "layer": "R",
+     "records": [
+      "witt.dw.the-household-we-can-describe",
+      "witt.limit.record-thinnest"
+     ],
+     "confidence": [
+      "Inferential-Thin",
+      "Contested"
+     ],
+     "source_hits": [],
+     "identified": [],
+     "other": [],
+     "note": "\"None of our texts describes a building, a site, or an object recovered from the ground.\"",
+     "verified": []
+    }
+   }
+  }
+ },
+ "cross_world": {
+  "ambient_records": {
+   "don": 3,
+   "lpc": 3,
+   "rzg": 3,
+   "fix (fixture)": 1,
+   "other_nine_worlds": 0
+  },
+  "ambient_note": "All nine are scale or object facts (council size, crowd size, inscriptions, a silent organ); none is a daily-life record. All have canon_cells [], retrieval.tier 3, retrieve_when [], formation_claim_barred true. engine/m1/gates.py line 1547 and System Hub Decision Log line 6044 park ambient records untouched, and engine/m4/evidence.py gives tier 3 zero priority.",
+  "f5_demonstrations": {
+   "total": 6,
+   "by_world": {
+    "alx": 1,
+    "cappadocian": 0,
+    "desert": 0,
+    "don": 0,
+    "gallic": 1,
+    "hal": 1,
+    "ijc": 1,
+    "lpc": 0,
+    "pahc": 1,
+    "rzg": 0,
+    "syr": 0,
+    "witt": 1
+   },
+   "canon_questions": 13,
+   "questions_with_a_demo": [
+    "f5-i-01 (ijc)",
+    "f5-i-03 (alx, gallic, hal, witt)",
+    "f5-e-01 (pahc)"
+   ],
+   "questions_without": [
+    "f5-i-02",
+    "f5-i-04",
+    "f5-i-05",
+    "f5-i-06",
+    "f5-i-07",
+    "f5-e-02",
+    "f5-p-01",
+    "f5-p-02",
+    "f5-t-01",
+    "f5-t-02"
+   ]
+  },
+  "layer_counts": {
+   "R*": 33,
+   "R": 50,
+   "L": 10,
+   "-": 3
+  }
+ },
+ "other_sources": [
+  "Egyptian papyri for daily life (Oxyrhynchus, Karanis, Tebtunis; Bagnall) - alx, desert",
+  "Kellia and Nitria excavation reports (EK series; Kasser, Rassart-Debergh) - desert",
+  "Delattre and Gsell on Carthaginian cemeteries and epitaphs (vendored in French; English reports not) - lpc, don",
+  "Luther, Whether one may flee from a deadly plague (1527; Works vol. 43) - witt",
+  "Sehling, Die evangelischen Kirchenordnungen, and the Saxon visitation protocols - witt",
+  "Calvin, Ecclesiastical Ordinances 1541 (English, Calvin: Theological Treatises) - rzg",
+  "Brock and Harvey, Holy Women of the Syrian Orient; Segal, Edessa - syr",
+  "Gregory of Nazianzus, Orations 7, 8 (funeral orations) and his will, in English - cappadocian"
+ ],
+ "not_checked": [
+  "canon/sealed_probes/ was not read",
+  "S8 had no tool run: judged from records, Doc_05 and source registry",
+  "Non-English vendored texts counted not read",
+  "Draft status of lpc records and compiled package not checked"
+ ]
+}

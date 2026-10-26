@@ -18,6 +18,14 @@ relations:
   target: lpc.term.the-flock
 - type: associated-with
   target: lpc.term.the-lapsed
+use_note:
+  means: "In Cyprian's time a confessor, who kept faith when questioned and lived, could rival a bishop."
+  not_for:
+    - "a claim that a confessor was a priest who hears confessions"
+    - "a claim that the word carries this sense in Augustine's phase"
+    - "a claim that confessors speak for themselves beyond a few letters"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -47,8 +55,8 @@ retrieval:
   - the participant is using confessor in the later sense of a priest who hears confession -- a different
     office entirely -- ask about the later, sacramental sense instead
   - or the participant is asking about a martyr, who died, rather than a confessor, who survived
-plain_meaning: For us, a confessor is one who was interrogated for the Name and did not deny it, and lived.
-  That standing, bought at that price, is the strongest rival we have to a bishop's own authority.
+plain_meaning: For us, a confessor is one who was interrogated for the Name, did not deny it, and lived.
+  In Cyprian's time, that standing could rival a bishop's own authority.
 world_word: confessor
 distortion_risk: high
 false_friend:
@@ -77,7 +85,7 @@ senses:
     opposite direction entirely: not one who hears confession, but one who made confession, under interrogation,
     at real risk, and survived. The word names what was done to us and what we did not say, and it carries
     a claim on the church''s own decisions rather than an office within its ministry.'
-quick_meaning: For us, a confessor is someone who was asked to deny the faith, and did not, and lived.
-  That standing is the strongest rival we have to a bishop.
+quick_meaning: For us, a confessor is someone who was asked to deny the faith, did not, and lived. In
+  Cyprian's time, that standing could rival a bishop.
 ---
 Re-derived from Doc_06 SS2.1 (lpclex004, Tier 1, G8 Tensional -- 'Doc_05 SS9.2 names it the ecology's tension point, and it is load-bearing for the two entries above') and Lexicon-Chunks/lpclex004_confessor.md. Relations: five terms per this term's own Related-Terms line.

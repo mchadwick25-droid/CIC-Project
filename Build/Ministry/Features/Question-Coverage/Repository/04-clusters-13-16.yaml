@@ -1,0 +1,102 @@
+questions:
+# ---------- C13 The devil, demons, miracles, saints, relics ----------
+- {id: C13-01, c: C13, k: [K1,K2], s: PREDICTED, t: "Did you believe in demons? Did you cast them out?"}
+- {id: C13-02, c: C13, k: [K2,K6], s: PREDICTED, t: "Did you see miracles yourself, or only hear of them?"}
+- {id: C13-03, c: C13, k: [K2], s: PREDICTED, t: "Did you pray to saints or keep relics? Isn't that idolatry?"}
+- {id: C13-04, c: C13, k: [K1,K2], s: PREDICTED, t: "Did you believe in angels? A guardian angel?"}
+- {id: C13-05, c: C13, k: [K1], s: PREDICTED, t: "was the devil real to you"}
+- {id: C13-06, c: C13, k: [K6], s: PREDICTED, t: "Did you blame sickness and bad luck on demons?"}
+- {id: C13-07, c: C13, k: [K2,K11], s: PREDICTED, t: "Did you visit martyrs' graves? What did you do there?"}
+- {id: C13-08, c: C13, k: [K6], s: PREDICTED, t: "Be honest: were the miracle stories true, or were they how you talked?"}
+- {id: C13-09, c: C13, k: [K2], s: PREDICTED, t: "Did you believe the dead saints could hear you and help you?"}
+- {id: C13-10, c: C13, k: [K1,K11], s: PREDICTED, t: "Did you have exorcists? Was it a job?"}
+- {id: C13-11, c: C13, k: [K2], s: PREDICTED, t: "Did you believe in magic, curses, the evil eye? Did Christians use charms?"}
+- {id: C13-12, c: C13, k: [K4], s: PREDICTED, t: "How did you tell a true miracle from a false one, or a true prophet from a fraud?"}
+- {id: C13-13, c: C13, k: [K2], s: PREDICTED, t: "Did you think the devil tempted you personally, every day?"}
+- {id: C13-14, c: C13, k: [K8], s: PREDICTED, t: "Did you think the dead could visit you? In dreams?"}
+- {id: C13-15, c: C13, k: [K11], s: PREDICTED, t: "Did you keep bones and bits of cloth from holy people? Why?"}
+- {id: C13-16, c: C13, k: [K3], s: PREDICTED, t: "How did you talk about the devil to children, or to the frightened?"}
+- {id: C13-17, c: C13, k: [K2], s: PREDICTED, t: "Did you believe in holy water, blessed oil, that kind of thing?"}
+- {id: C13-18, c: C13, k: [K5], s: PREDICTED, t: "Was 'the devil made you do it' used to control people among you?"}
+- {id: C13-19, c: C13, k: [K4], s: PREDICTED, f: [NAMED], t: "Antony fought demons in the tombs. Did your people take that literally?"}
+- {id: C13-20, c: C13, k: [K1], s: PREDICTED, t: "did you believe in hell dogs or monsters or anything like that"}
+
+# ---------- C14 Suffering, doubt, failure, hypocrisy, leaving ----------
+- {id: C14-01, c: C14, k: [K5,K8], s: EXISTS, ref: "CANON F6-P", t: "Why does God allow suffering like this? Where was he when it happened to your people — and to mine?"}
+- {id: C14-02, c: C14, k: [K5], s: EXISTS, ref: "CANON F1-P", t: "I grew up being told doubt was sin. Was there room among your people for doubt?"}
+- {id: C14-03, c: C14, k: [K5], s: EXISTS, ref: "CANON F1-P", t: "What did you do when you couldn't believe what your own church taught?"}
+- {id: C14-04, c: C14, k: [K5,K9], s: EXISTS, ref: "CANON F4-P", t: "I pray and nothing happens. Did your people know that silence?"}
+- {id: C14-05, c: C14, k: [K5], s: EXISTS, ref: "CANON F6-P", t: "Did any of you ever want to leave?"}
+- {id: C14-06, c: C14, k: [K5], s: EXISTS, ref: "CANON F6-P", t: "If someone left your community for good, what would you have wanted them to know?"}
+- {id: C14-07, c: C14, k: [K5], s: EXISTS, ref: "CANON F6-P", t: "The people who taught me the faith turned out to be hypocrites. Did that happen among you?"}
+- {id: C14-08, c: C14, k: [K5], s: EXISTS, ref: "CANON F3-P", t: "The church that raised me protected people who caused harm. Your churches had failures too — what did you do with them?"}
+- {id: C14-09, c: C14, k: [K5], s: EXISTS, ref: "CANON F6-I", t: "What's the hardest true thing about your people?"}
+- {id: C14-10, c: C14, k: [K5], s: EXISTS, ref: "CURRICULUM Reevaluation · Hardest", t: "What would you rather I didn't know?"}
+- {id: C14-11, c: C14, k: [K9], s: EXISTS, ref: "CANON F4-P", t: "How do I forgive someone who isn't sorry?"}
+- {id: C14-12, c: C14, k: [K9], s: EXISTS, ref: "CANON F4-P", t: "I can't quiet my own head. Does your way of life have anything for someone like me?"}
+- {id: C14-13, c: C14, k: [K5], s: PREDICTED, t: "Was anyone shunned for asking questions? What happened to them?"}
+- {id: C14-14, c: C14, k: [K5,K8], s: PREDICTED, t: "Did you ever feel God had abandoned you? Did your teachers admit to that?"}
+- {id: C14-15, c: C14, k: [K8], s: PREDICTED, f: [FAC], t: "I don't want to be here any more. What would your people have said to me?"}
+- {id: C14-16, c: C14, k: [K8], s: PREDICTED, f: [FAC], t: "My husband hits me and my pastor says to submit. What would you have said?"}
+- {id: C14-17, c: C14, k: [K5], s: PREDICTED, t: "Did leaders among you abuse people? Children? Was it covered up?"}
+- {id: C14-18, c: C14, k: [K5], s: PREDICTED, t: "What did you do with a bishop who was a bully?"}
+- {id: C14-19, c: C14, k: [K8], s: PREDICTED, t: "My child is very sick. Did your people believe prayer could heal, and what if it didn't?"}
+- {id: C14-20, c: C14, k: [K5], s: PREDICTED, t: "Did anyone among you lose their faith and say so?"}
+- {id: C14-21, c: C14, k: [K9], s: PREDICTED, t: "How did you keep going when you were tired of being good?"}
+- {id: C14-22, c: C14, k: [K5], s: PREDICTED, t: "Were there people your way of life broke?"}
+- {id: C14-23, c: C14, k: [K8], s: PREDICTED, t: "What did you say to someone whose prayer wasn't answered and whose child died anyway?"}
+- {id: C14-24, c: C14, k: [K3], s: PREDICTED, t: "How did you care for someone who was depressed, in your words for it?"}
+- {id: C14-25, c: C14, k: [K5], s: PREDICTED, t: "Was it allowed to be angry at God out loud?"}
+- {id: C14-26, c: C14, k: [K1], s: PREDICTED, t: "did you ever doubt"}
+
+# ---------- C15 "What would you say about today?" ----------
+- {id: C15-01, c: C15, k: [K2,K6], s: PREDICTED, f: [NF], t: "What would you think of gay marriage?"}
+- {id: C15-02, c: C15, k: [K6], s: PREDICTED, f: [NF], t: "What would you say about evolution?"}
+- {id: C15-03, c: C15, k: [K6,K12], s: PREDICTED, f: [NF], t: "What do you think about AI? About talking to me like this?"}
+- {id: C15-04, c: C15, k: [K2,K9], s: PREDICTED, f: [NF], t: "Which church today should I join?"}
+- {id: C15-05, c: C15, k: [K2], s: PREDICTED, f: [NF], t: "What do you think of the Catholic church now? Of the pope today?"}
+- {id: C15-06, c: C15, k: [K2], s: PREDICTED, f: [NF], t: "What would you make of a megachurch? Of worship bands?"}
+- {id: C15-07, c: C15, k: [K2,K6], s: PREDICTED, f: [NF], t: "Would you have voted? What would you think of Christians in politics now?"}
+- {id: C15-08, c: C15, k: [K2], s: PREDICTED, f: [NF], t: "What would you think of women pastors today?"}
+- {id: C15-09, c: C15, k: [K6], s: PREDICTED, f: [NF], t: "What would you say about climate change? Was the earth yours to use up?"}
+- {id: C15-10, c: C15, k: [K2], s: PREDICTED, f: [NF], t: "What would you think of the Reformation? Of the Orthodox and Catholic split?"}
+- {id: C15-11, c: C15, k: [K2,K6], s: PREDICTED, f: [NF], t: "What would you think of abortion laws today?"}
+- {id: C15-12, c: C15, k: [K2], s: PREDICTED, f: [NF], t: "What would you say to a church that has become mostly old people?"}
+- {id: C15-13, c: C15, k: [K3], s: PREDICTED, f: [NF], t: "What would you tell a pastor today who is burning out?"}
+- {id: C15-14, c: C15, k: [K2], s: PREDICTED, f: [NF], t: "What would you think of the Bible on a phone? Of podcasts instead of sermons?"}
+- {id: C15-15, c: C15, k: [K6], s: PREDICTED, f: [NF], t: "What would you say to someone who says religion causes all wars?"}
+- {id: C15-16, c: C15, k: [K2], s: PREDICTED, f: [NF], t: "Are we the Christians you hoped for, or the ones you feared?"}
+- {id: C15-17, c: C15, k: [K7], s: PREDICTED, f: [NF], t: "What would you think of Christians and Jews praying together now?"}
+- {id: C15-18, c: C15, k: [K9], s: PREDICTED, f: [NF], t: "If you were alive today, where would I find you on a Sunday?"}
+- {id: C15-19, c: C15, k: [K1], s: PREDICTED, f: [NF], t: "what would you think of the world now"}
+- {id: C15-20, c: C15, k: [K6], s: PREDICTED, f: [NF], t: "Would you still believe it, knowing what we know now?"}
+
+# ---------- C16 Evidence, sources, and "what are you" ----------
+- {id: C16-01, c: C16, k: [K4,K6], s: EXISTS, ref: "CANON F2-E", t: "How much of what you've told me would hold up in a university library?"}
+- {id: C16-02, c: C16, k: [K6], s: EXISTS, ref: "CANON F2-E", t: "Isn't most of what's said about you legend, collected centuries later?"}
+- {id: C16-03, c: C16, k: [K4], s: EXISTS, ref: "CANON F2-E", t: "Where is your own record thinnest?"}
+- {id: C16-04, c: C16, k: [K4], s: EXISTS, ref: "CURRICULUM Academic · How do you know", t: "How much of what you know comes down through a single voice?"}
+- {id: C16-05, c: C16, k: [K4], s: EXISTS, ref: "CURRICULUM Academic · How do you know", t: "Where does documentation end and inference begin for you?"}
+- {id: C16-06, c: C16, k: [K4], s: EXISTS, ref: "CURRICULUM Academic · Whose voice", t: "Whose voices are missing from your record entirely?"}
+- {id: C16-07, c: C16, k: [K4], s: EXISTS, ref: "CURRICULUM Academic · Contested", t: "Is there something attributed to your people that they didn't actually say?"}
+- {id: C16-08, c: C16, k: [K4,K6], s: EXISTS, ref: "PROBE don SF Round1", t: "Name your sources — what do you actually have?"}
+- {id: C16-09, c: C16, k: [K4], s: EXISTS, ref: "PROBE alx Phase5", t: "Scholars debate whether the catechetical school was even a real institution with a formal succession of heads. What's your take?"}
+- {id: C16-10, c: C17, moved_from: C16, k: [K12], s: EXISTS, ref: "SITE rzg", f: [FAC], t: "Wait, why do you keep saying 'we' and 'our'? Were you actually alive in the 1500s? What are you, exactly?"}
+- {id: C16-11, c: C17, moved_from: C16, k: [K12], s: EXISTS, ref: "PROBE alx Phase5", f: [FAC], t: "What are you, really?"}
+- {id: C16-12, c: C17, moved_from: C16, k: [K12], s: EXISTS, ref: "PROBE alx Phase5", f: [FAC], t: "No — how were you made? What are your limitations? Be honest about what you can't do."}
+- {id: C16-13, c: C17, moved_from: C16, k: [K12], s: EXISTS, ref: "PROBE alx Phase5", f: [FAC], t: "Why do you keep saying \"we\"? It's just you and me reading here. Who is \"we\"?"}
+- {id: C16-14, c: C16, k: [K11], s: REAL, ref: "PILOT item 6, 2026-10-19", f: [NAMED], t: "Choices at the table are lesser known and lack Ignatius, Irenaeus, Tertullian, Athanasius, Augustine, Clement. Why?"}
+- {id: C16-15, c: C16, k: [K4,K6], s: PREDICTED, t: "Can you show me the actual page you're quoting?"}
+- {id: C16-16, c: C17, moved_from: C16, k: [K6,K12], s: PREDICTED, t: "Are you making this up?"}
+- {id: C16-17, c: C16, k: [K4], s: PREDICTED, t: "Which edition are you quoting from, and is it a good translation?"}
+- {id: C16-18, c: C16, k: [K4], s: PREDICTED, t: "Is this text actually by the person it's attributed to?"}
+- {id: C16-19, c: C17, moved_from: C16, k: [K12], s: PREDICTED, f: [FAC], t: "Are you going to try to convert me?"}
+- {id: C16-20, c: C17, moved_from: C16, k: [K12], s: PREDICTED, f: [FAC], t: "Who wrote your answers? Who is behind this?"}
+- {id: C16-21, c: C16, k: [K11], s: PREDICTED, f: [NAMED], t: "What did Athanasius actually say about that, in his own words?"}
+- {id: C16-22, c: C16, k: [K11,K3], s: PREDICTED, f: [NAMED], t: "Tell me about Augustine. What was he like?"}
+- {id: C16-23, c: C16, k: [K3], s: PREDICTED, f: [NAMED], t: "Give me one line from one of your own writers I could quote on Sunday."}
+- {id: C16-24, c: C16, k: [K4], s: PREDICTED, t: "How much of what you just said is from the sources, and how much is you filling in?"}
+- {id: C16-25, c: C17, moved_from: C16, k: [K6], s: PREDICTED, t: "You sound too polished. Would a real person from then talk like this?"}
+- {id: C16-26, c: C17, moved_from: C16, k: [K12], s: PREDICTED, f: [FAC], t: "Is my conversation private? Who reads this?"}
+- {id: C16-27, c: C16, k: [K4], s: PREDICTED, t: "What do modern historians think your people got wrong about themselves?"}
+- {id: C16-28, c: C16, k: [K1], s: PREDICTED, t: "how do you know all this"}

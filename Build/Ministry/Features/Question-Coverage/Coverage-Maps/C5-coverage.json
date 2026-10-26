@@ -1,0 +1,4422 @@
+{
+ "generated": "2026-10-26",
+ "method": {
+  "tool": "scratchpad/tools/coverage_search.py, --regex --whole-words, eight term sets (search/C5/terms.txt); run files S1-canon ... S8-violence in search/C5. Their names are offset from the fixed ids: S7-ot-jesus-jews feeds C5.S2 (C5-25, C5-29), S8-violence feeds C5.S7, and C5.S8 (one passage at a time) has no tool run; it uses passages.json (citation counts for 21 passages) plus the hand checks listed under passages.",
+  "record_check": "independent front-matter grep of records/*/*/*.md (recgrep.py, recgrep2.py) and a read of every record cited",
+  "verification": "verify.py: quote text normalised and searched in the vendored file named by the source record; variants reported (exact / hyphen-joined / section-number-dropped / spacing-only)",
+  "layers": "RENDERED = a record speaks to the sub-question (R* = honest_limit or guard only, or answers only part of it); LOADED = a vendored file mapped to the world holds a passage read in context; IDENTIFIED = a registered but unvendored source; OTHER = outside the repo; NOTHING = none found. The tool scans whole mapped files, so a LOADED hit can belong to another author in a shared volume (noted per cell). lpc records are all status draft and none is in a compiled package."
+ },
+ "sub_questions": [
+  {
+   "id": "S1",
+   "full_id": "C5.S1",
+   "label": "Which books, the apocrypha, who decided, the Bible as only authority",
+   "canonical": "C5-02",
+   "question_ids": [
+    "C5-02",
+    "C5-04",
+    "C5-07",
+    "C5-16",
+    "C5-27",
+    "C5-30"
+   ],
+   "wordings": {
+    "C5-02": null,
+    "C5-04": null,
+    "C5-07": null,
+    "C5-16": null,
+    "C5-27": null,
+    "C5-30": null
+   }
+  },
+  {
+   "id": "S2",
+   "full_id": "C5.S2",
+   "label": "How they read: literal, more than one meaning, the Old Testament as about Jesus, what a modern reader misses",
+   "canonical": "C5-01",
+   "question_ids": [
+    "C5-01",
+    "C5-05",
+    "C5-11",
+    "C5-12",
+    "C5-25",
+    "C5-26",
+    "C5-28",
+    "C5-29"
+   ],
+   "wordings": {
+    "C5-01": null,
+    "C5-05": null,
+    "C5-11": null,
+    "C5-12": null,
+    "C5-25": null,
+    "C5-26": null,
+    "C5-28": null,
+    "C5-29": null
+   }
+  },
+  {
+   "id": "S3",
+   "full_id": "C5.S3",
+   "label": "Reliability, errors, authorship, 'science disproves it'",
+   "canonical": "R-27",
+   "question_ids": [
+    "C5-13",
+    "C5-17",
+    "C5-24",
+    "R-27",
+    "R-28"
+   ],
+   "wordings": {
+    "C5-13": null,
+    "C5-17": null,
+    "C5-24": null,
+    "R-27": null,
+    "R-28": null
+   }
+  },
+  {
+   "id": "S4",
+   "full_id": "C5.S4",
+   "label": "Genesis and creation, the six days",
+   "canonical": "C5-08",
+   "question_ids": [
+    "C5-08",
+    "C5-20"
+   ],
+   "wordings": {
+    "C5-08": null,
+    "C5-20": null
+   }
+  },
+  {
+   "id": "S5",
+   "full_id": "C5.S5",
+   "label": "Revelation and the end",
+   "canonical": "C5-14",
+   "question_ids": [
+    "C5-14"
+   ],
+   "wordings": {
+    "C5-14": null
+   }
+  },
+  {
+   "id": "S6",
+   "full_id": "C5.S6",
+   "label": "Who could read or own a Bible; language; translation",
+   "canonical": "C5-15",
+   "question_ids": [
+    "C5-03",
+    "C5-15"
+   ],
+   "wordings": {
+    "C5-03": null,
+    "C5-15": null
+   }
+  },
+  {
+   "id": "S7",
+   "full_id": "C5.S7",
+   "label": "The violence in the texts; the cursing psalms",
+   "canonical": "C5-06",
+   "question_ids": [
+    "C5-06",
+    "C5-21"
+   ],
+   "wordings": {
+    "C5-06": null,
+    "C5-21": null
+   }
+  },
+  {
+   "id": "S8",
+   "full_id": "C5.S8",
+   "label": "One passage at a time (VERSE)",
+   "canonical": "C5-10",
+   "question_ids": [
+    "C5-09",
+    "C5-10",
+    "C5-18",
+    "C5-19",
+    "C5-22",
+    "C5-23",
+    "R-33"
+   ],
+   "wordings": {
+    "C5-09": null,
+    "C5-10": null,
+    "C5-18": null,
+    "C5-19": null,
+    "C5-22": null,
+    "C5-23": null,
+    "R-33": null
+   }
+  }
+ ],
+ "verification_all": {
+  "alx.quote.appointed-by-the-fathers-to-be-read": {
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    68817
+   ],
+   "detail": null
+  },
+  "alx.quote.athanasius-fountains": {
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    68808
+   ],
+   "detail": null
+  },
+  "alx.quote.dionysius-too-high-for-me-to-grasp": {
+   "result": "MATCH (section-number-dropped)",
+   "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": [
+    41418
+   ],
+   "detail": null
+  },
+  "alx.quote.dionysius-nepos": {
+   "result": "MATCH",
+   "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": [
+    41312
+   ],
+   "detail": null
+  },
+  "alx.quote.origen-scripture-senses": {
+   "result": "MATCH",
+   "file": "origen_philocalia_lewis1911.txt",
+   "lines": [
+    76
+   ],
+   "detail": null
+  },
+  "alx.quote.origen-gospel-firstfruits": {
+   "result": "MATCH",
+   "file": "anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+   "lines": [
+    20575
+   ],
+   "detail": null
+  },
+  "alx.quote.no-sun-no-moon-no-sky": {
+   "result": "MATCH",
+   "file": "anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+   "lines": [
+    33725
+   ],
+   "detail": null
+  },
+  "alx.quote.ecclesiastical-and-apostolical-tradition": {
+   "result": "MATCH",
+   "file": "anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+   "lines": [
+    22432
+   ],
+   "detail": null
+  },
+  "cappadocian.quote.what-is-the-written-source": {
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    14128
+   ],
+   "detail": null
+  },
+  "cappadocian.quote.reading-scripture-hexaemeron": {
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    21217
+   ],
+   "detail": null
+  },
+  "cappadocian.quote.basil-on-antiphonal-psalmody": {
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    37288
+   ],
+   "detail": null
+  },
+  "desert.quote.whence-canst-thou-prove-to-us": {
+   "result": "MATCH",
+   "file": "anan-isho_paradise-v2-sayings_budge1907.txt",
+   "lines": [
+    2750
+   ],
+   "detail": null
+  },
+  "desert.quote.twelve-psalms-by-an-angel": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    17184
+   ],
+   "detail": null
+  },
+  "gallic.quote.the-psalm-that-answered-defensor": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    1088
+   ],
+   "detail": null
+  },
+  "gallic.quote.martin-antichrist-already-born": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    4603
+   ],
+   "detail": null
+  },
+  "gallic.quote.martin-antichrist-already-at-hand": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    1784
+   ],
+   "detail": null
+  },
+  "hal.quote.helmeted-preface": {
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    46908
+   ],
+   "detail": null
+  },
+  "hal.quote.no-one-preferred-to-the-seventy": {
+   "result": "MATCH",
+   "file": "npnf102_augustine-city-of-god-christian-doctrine.xml",
+   "lines": [
+    36730
+   ],
+   "detail": null
+  },
+  "hal.quote.partially-acquired-hebrew": {
+   "result": "MATCH (spacing-only)",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    22016
+   ],
+   "detail": null
+  },
+  "hal.quote.paula-hebrew-psalms": {
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    22019
+   ],
+   "detail": null
+  },
+  "ijc.quote.the-rudiments-of-the-creed": {
+   "result": "MATCH",
+   "file": "npnf212_leo-great-gregory-great.xml",
+   "lines": [
+    5140
+   ],
+   "detail": null
+  },
+  "ijc.quote.hymns-and-psalms-should-be-sung": {
+   "result": "MATCH",
+   "file": "npnf101_augustine-confessions-letters.xml",
+   "lines": [
+    13767
+   ],
+   "detail": null
+  },
+  "pahc.quote.appointed-to-be-read": {
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    68817
+   ],
+   "detail": null
+  },
+  "pahc.quote.the-memoirs-of-the-apostles-are-read": {
+   "result": "MATCH",
+   "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": [
+    16502
+   ],
+   "detail": null
+  },
+  "pahc.quote.moses-is-more-ancient": {
+   "result": "MATCH",
+   "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": [
+    15608
+   ],
+   "detail": null
+  },
+  "rzg.quote.taught-better-from-scripture": {
+   "result": "MATCH",
+   "file": "zwingli_selected-works_jackson1901.txt",
+   "lines": [
+    4487,
+    4490
+   ],
+   "detail": null
+  },
+  "syr.quote.on-a-certain-day-a-pearl": {
+   "result": "MATCH",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    21794
+   ],
+   "detail": null
+  },
+  "witt.quote.christs-return-to-judgment": {
+   "result": "MATCH",
+   "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+   "lines": [
+    435
+   ],
+   "detail": null
+  },
+  "witt.quote.nothing-that-varies": {
+   "result": "MATCH",
+   "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+   "lines": [
+    1543
+   ],
+   "detail": null
+  },
+  "lpc.quote.the-sermon-and-the-readings-are-daily-bread": {
+   "result": "MATCH",
+   "file": "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+   "lines": [
+    10894
+   ],
+   "detail": null
+  },
+  "syr.quote.death-knew-his-kingdom-was-to-be-made-void": {
+   "result": "MATCH (spacing-only)",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    28079
+   ],
+   "detail": null
+  },
+  "desert.quote.three-renunciations-solomon": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    28479
+   ],
+   "detail": null
+  },
+  "desert.quote.origen-to-gregory-handmaidens": {
+   "result": "MATCH",
+   "file": "origen_philocalia_lewis1911.txt",
+   "lines": [
+    149
+   ],
+   "detail": null
+  },
+  "syr.quote.aphrahat-anti-jewish-frame": {
+   "result": "MATCH",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    27100
+   ],
+   "detail": null
+  },
+  "syr.quote.nativity-this-is-the-day": {
+   "result": "MATCH",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    17530
+   ],
+   "detail": null
+  },
+  "pahc.quote.polycrates-to-victor": {
+   "result": "MATCH",
+   "file": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+   "lines": [
+    72578,
+    72614
+   ],
+   "detail": null
+  }
+ },
+ "worlds": {
+  "alx": {
+   "S1": {
+    "layer": "R",
+    "records": [
+     "alx.quote.appointed-by-the-fathers-to-be-read",
+     "alx.quote.athanasius-fountains",
+     "alx.quote.ecclesiastical-and-apostolical-tradition",
+     "alx.term.kanon-pisteos"
+    ],
+    "record_status": {
+     "alx.quote.appointed-by-the-fathers-to-be-read": "ready",
+     "alx.quote.athanasius-fountains": "ready",
+     "alx.quote.ecclesiastical-and-apostolical-tradition": "ready",
+     "alx.term.kanon-pisteos": "ready"
+    },
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "line": 68817,
+      "snippet": "books not in the Canon but appointed by the Fathers to be read by those who newly join us"
+     },
+     {
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "line": 17817,
+      "snippet": "HE III.25 The Divine Scriptures that are accepted and those that are not"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Answers which books and who decided, through Athanasius 367 (three tiers; Wisdom, Sirach, Judith, Tobit, Esther, Didache, Shepherd read to newcomers); not_for holds it to a bishop in 367, not Clement or Origen. Only-authority: the rule-of-faith quote says no. Unrecorded: Eusebius HE III.25 accepted/disputed/spurious list and Serapion on the Gospel of Peter (HE VI.12), the vendored answer to the suppressed-gospels question.",
+    "verified": [
+     {
+      "record": "alx.quote.appointed-by-the-fathers-to-be-read",
+      "result": "MATCH",
+      "file": "npnf204_athanasius-select-works-letters.xml",
+      "lines": [
+       68817
+      ]
+     },
+     {
+      "record": "alx.quote.athanasius-fountains",
+      "result": "MATCH",
+      "file": "npnf204_athanasius-select-works-letters.xml",
+      "lines": [
+       68808
+      ]
+     },
+     {
+      "record": "alx.quote.ecclesiastical-and-apostolical-tradition",
+      "result": "MATCH",
+      "file": "anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+      "lines": [
+       22432
+      ]
+     }
+    ]
+   },
+   "S2": {
+    "layer": "R",
+    "records": [
+     "alx.quote.origen-scripture-senses",
+     "alx.term.allegoria",
+     "alx.term.christological-reading",
+     "alx.term.scripture-as-address",
+     "alx.contested.allegory-from-within",
+     "alx.gravity.scripture-formative"
+    ],
+    "record_status": {
+     "alx.quote.origen-scripture-senses": "ready",
+     "alx.term.allegoria": "ready",
+     "alx.term.christological-reading": "ready",
+     "alx.term.scripture-as-address": "ready",
+     "alx.contested.allegory-from-within": "ready",
+     "alx.gravity.scripture-formative": "ready"
+    },
+    "confidence": [
+     "Documented",
+     "Widely Accepted",
+     "Contested"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/origen_philocalia_lewis1911.txt",
+      "line": 76,
+      "snippet": "As man consists of body, soul, and spirit, so too does Scripture"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Best-covered cell in the cluster: senses of Scripture, reading toward Christ, the Nepos dispute showing allegory was contested at home. Thin: the bored or confused reader (scripture-as-address is nearest), the Hebrew Scriptures as Jews read them (C5-29), a favourite story.",
+    "verified": [
+     {
+      "record": "alx.quote.origen-scripture-senses",
+      "result": "MATCH",
+      "file": "origen_philocalia_lewis1911.txt",
+      "lines": [
+       76
+      ]
+     }
+    ]
+   },
+   "S3": {
+    "layer": "R",
+    "records": [
+     "alx.quote.dionysius-too-high-for-me-to-grasp",
+     "alx.dw.record",
+     "alx.dw.doubt",
+     "alx.quote.no-sun-no-moon-no-sky"
+    ],
+    "record_status": {
+     "alx.quote.dionysius-too-high-for-me-to-grasp": "ready",
+     "alx.dw.record": "ready",
+     "alx.dw.doubt": "ready",
+     "alx.quote.no-sun-no-moon-no-sky": "ready"
+    },
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "line": 41418,
+      "snippet": "Dionysius on the Apocalypse: too high for me to grasp, yet not rejected"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Source-criticism practised in the world itself: Dionysius argues the Apocalypse is not by the apostle on style, still will not reject it. Not covered: inerrancy as a word, errors in the Septuagint (Origen Hexapla is vendored, npnf203 line 50409).",
+    "verified": [
+     {
+      "record": "alx.quote.dionysius-too-high-for-me-to-grasp",
+      "result": "MATCH (section-number-dropped)",
+      "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": [
+       41418
+      ]
+     },
+     {
+      "record": "alx.quote.no-sun-no-moon-no-sky",
+      "result": "MATCH",
+      "file": "anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+      "lines": [
+       33725
+      ]
+     }
+    ]
+   },
+   "S4": {
+    "layer": "R",
+    "records": [
+     "alx.quote.no-sun-no-moon-no-sky",
+     "alx.term.allegoria"
+    ],
+    "record_status": {
+     "alx.quote.no-sun-no-moon-no-sky": "ready",
+     "alx.term.allegoria": "ready"
+    },
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+      "line": 33725,
+      "snippet": "De Principiis IV.1.16: who supposes three days without sun, moon and stars?"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Origen reasons from the text, not from science; not_for blocks \"Genesis is false\" and any generalising to every Alexandrian. Quote verified at anf04 line 33725.",
+    "verified": [
+     {
+      "record": "alx.quote.no-sun-no-moon-no-sky",
+      "result": "MATCH",
+      "file": "anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+      "lines": [
+       33725
+      ]
+     }
+    ]
+   },
+   "S5": {
+    "layer": "R",
+    "records": [
+     "alx.quote.dionysius-nepos",
+     "alx.quote.dionysius-too-high-for-me-to-grasp",
+     "alx.story.arsinoite-conference",
+     "alx.dw.record"
+    ],
+    "record_status": {
+     "alx.quote.dionysius-nepos": "ready",
+     "alx.quote.dionysius-too-high-for-me-to-grasp": "ready",
+     "alx.story.arsinoite-conference": "ready",
+     "alx.dw.record": "ready"
+    },
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "line": 41358,
+      "snippet": "three successive days at Arsinoe"
+     },
+     {
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "line": 16731,
+      "snippet": "The Apostle John and the Apocalypse"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Revelation as a book is covered through Dionysius: Nepos read the thousand years plainly, Dionysius answered in three days, and he doubts apostolic authorship. No rapture record (see C3 S8).",
+    "verified": [
+     {
+      "record": "alx.quote.dionysius-nepos",
+      "result": "MATCH",
+      "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": [
+       41312
+      ]
+     },
+     {
+      "record": "alx.quote.dionysius-too-high-for-me-to-grasp",
+      "result": "MATCH (section-number-dropped)",
+      "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": [
+       41418
+      ]
+     }
+    ]
+   },
+   "S6": {
+    "layer": "R*",
+    "records": [
+     "alx.force.septuagint-inheritance",
+     "alx.quote.appointed-by-the-fathers-to-be-read"
+    ],
+    "record_status": {
+     "alx.force.septuagint-inheritance": "ready",
+     "alx.quote.appointed-by-the-fathers-to-be-read": "ready"
+    },
+    "confidence": [
+     "Widely Accepted",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "line": 68817,
+      "snippet": "books read to newcomers"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Scripture was \"given, in the tongue the city spoke\"; books were read to newcomers. Nothing on owning a copy, cost, or the unlettered majority (gravity.scripture-formative is scoped to the literate).",
+    "verified": [
+     {
+      "record": "alx.quote.appointed-by-the-fathers-to-be-read",
+      "result": "MATCH",
+      "file": "npnf204_athanasius-select-works-letters.xml",
+      "lines": [
+       68817
+      ]
+     }
+    ]
+   },
+   "S7": {
+    "layer": "L",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+      "line": 33527,
+      "snippet": "De Principiis IV.1: literal readings of unworthy stories; the senses of Scripture"
+     },
+     {
+      "file": "cic/texts/origen_philocalia_lewis1911.txt",
+      "line": 446,
+      "snippet": "Pharaoh hardened, quoted from Comm. on Song of Songs II"
+     }
+    ],
+    "identified": [],
+    "other": [
+     "Origen, Homilies on Joshua (Rufinus Latin; GCS 30, Baehrens 1921)"
+    ],
+    "note": "No record. Origen's way of handling troubling texts is vendored in De Principiis IV and the Philocalia; a contested_claim or quote would be the build.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "R*",
+    "records": [
+     "alx.term.word-of-god",
+     "alx.quote.origen-gospel-firstfruits",
+     "alx.quote.no-sun-no-moon-no-sky"
+    ],
+    "record_status": {
+     "alx.term.word-of-god": "ready",
+     "alx.quote.origen-gospel-firstfruits": "ready",
+     "alx.quote.no-sun-no-moon-no-sky": "ready"
+    },
+    "confidence": [
+     "Widely Accepted",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+      "line": 21212,
+      "snippet": "Origen Comm. John I ch. XXII, \"In the beginning was the Word\""
+     },
+     {
+      "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+      "line": 34066,
+      "snippet": "Origen Comm. Matt. XII.31, \"some standing here\" (Luke 9:27 parallel)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Two of eleven named passages have a record (John 1:1, Genesis 1). Origen on Matt 16:28 and Luke 15 (Tertullian On Modesty is nearby, not Alexandrian) are unrecorded.",
+    "verified": [
+     {
+      "record": "alx.quote.origen-gospel-firstfruits",
+      "result": "MATCH",
+      "file": "anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+      "lines": [
+       20575
+      ]
+     },
+     {
+      "record": "alx.quote.no-sun-no-moon-no-sky",
+      "result": "MATCH",
+      "file": "anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+      "lines": [
+       33725
+      ]
+     }
+    ]
+   }
+  },
+  "cappadocian": {
+   "S1": {
+    "layer": "R*",
+    "records": [
+     "cappadocian.dw.unwritten-carries-too",
+     "cappadocian.quote.what-is-the-written-source",
+     "cappadocian.term.paradosis",
+     "cappadocian.dw.reading-scripture"
+    ],
+    "record_status": {
+     "cappadocian.dw.unwritten-carries-too": "ready",
+     "cappadocian.quote.what-is-the-written-source": "ready",
+     "cappadocian.term.paradosis": "ready",
+     "cappadocian.dw.reading-scripture": "ready"
+    },
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+      "line": 14128,
+      "snippet": "what is the written source? (On the Holy Spirit 27.67)"
+     },
+     {
+      "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+      "line": 8395,
+      "snippet": "Cyril of Jerusalem Cat. IV canon list: shared volume, not a Cappadocian voice"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Only-authority answered (no: unwritten customs carry the faith). The canon list is an explicit tension in the witness: the record cannot say whether lists matched. Nazianzen's canon poem is in the PG37 Greek edition; not located.",
+    "verified": [
+     {
+      "record": "cappadocian.quote.what-is-the-written-source",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       14128
+      ]
+     }
+    ]
+   },
+   "S2": {
+    "layer": "R",
+    "records": [
+     "cappadocian.dw.reading-scripture",
+     "cappadocian.quote.reading-scripture-hexaemeron",
+     "cappadocian.dw.psalms-teach-the-singer",
+     "cappadocian.term.psalmodia",
+     "cappadocian.quote.basil-on-antiphonal-psalmody"
+    ],
+    "record_status": {
+     "cappadocian.dw.reading-scripture": "ready",
+     "cappadocian.quote.reading-scripture-hexaemeron": "ready",
+     "cappadocian.dw.psalms-teach-the-singer": "ready",
+     "cappadocian.term.psalmodia": "ready",
+     "cappadocian.quote.basil-on-antiphonal-psalmody": "ready"
+    },
+    "confidence": [
+     "Widely Accepted",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+      "line": 21217,
+      "snippet": "Hexaemeron VIII: if we simply read the words we find only a few short syllables"
+     }
+    ],
+    "identified": [
+     "cappadocian.source.gregory-nyssa-song-of-songs-ecclesiastes-beatitudes-homilies (registered, unvendored)"
+    ],
+    "other": [],
+    "note": "Psalms sung as the believer's education; Genesis read closely for what it teaches, not allegorised. Not covered: OT as about Christ, a favourite story.",
+    "verified": [
+     {
+      "record": "cappadocian.quote.reading-scripture-hexaemeron",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       21217
+      ]
+     },
+     {
+      "record": "cappadocian.quote.basil-on-antiphonal-psalmody",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       37288
+      ]
+     }
+    ]
+   },
+   "S3": {
+    "layer": "-",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Nothing speaks to reliability for this world. Origen's Philocalia and Eunomius's Apology are mapped but not Cappadocian voices on it.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "R*",
+    "records": [
+     "cappadocian.quote.reading-scripture-hexaemeron"
+    ],
+    "record_status": {
+     "cappadocian.quote.reading-scripture-hexaemeron": "ready"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+      "line": 15203,
+      "snippet": "Hexaemeron Homily I, \"In the Beginning God made the Heaven and the Earth\""
+     },
+     {
+      "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+      "line": 33984,
+      "snippet": "Gregory of Nyssa, On the Making of Man"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "The quote is Homily VIII on close reading; it does not touch the six days or the age of the world. Basil's nine homilies and Nyssa's Making of Man (both registered, vendored) are otherwise unquoted.",
+    "verified": [
+     {
+      "record": "cappadocian.quote.reading-scripture-hexaemeron",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       21217
+      ]
+     }
+    ]
+   },
+   "S5": {
+    "layer": "L",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+      "line": 1208,
+      "snippet": "Antichrist hits are Cyril of Jerusalem in the shared volume"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record. Open_Gaps_Tracking.md line 667 (cited via C3) logs the F4-T end-times variant as unanswered. Likely an honest_limit.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "R",
+    "records": [
+     "cappadocian.dw.reading-scripture",
+     "cappadocian.term.psalmodia",
+     "cappadocian.dw.how-it-reached-us",
+     "cappadocian.limit.whose-voice-we-lack"
+    ],
+    "record_status": {
+     "cappadocian.dw.reading-scripture": "ready",
+     "cappadocian.term.psalmodia": "ready",
+     "cappadocian.dw.how-it-reached-us": "ready",
+     "cappadocian.limit.whose-voice-we-lack": "ready"
+    },
+    "confidence": [
+     "Widely Accepted",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Most could not read; scripture reached them sung and repeated. Language and translation: no record.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "R*",
+    "records": [
+     "cappadocian.dw.psalms-teach-the-singer",
+     "cappadocian.quote.basil-on-antiphonal-psalmody"
+    ],
+    "record_status": {
+     "cappadocian.dw.psalms-teach-the-singer": "ready",
+     "cappadocian.quote.basil-on-antiphonal-psalmody": "ready"
+    },
+    "confidence": [
+     "Widely Accepted",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Both retrieve on the violence question and both say the record has no answer.",
+    "verified": [
+     {
+      "record": "cappadocian.quote.basil-on-antiphonal-psalmody",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       37288
+      ]
+     }
+    ]
+   },
+   "S8": {
+    "layer": "R*",
+    "records": [
+     "cappadocian.quote.reading-scripture-hexaemeron"
+    ],
+    "record_status": {
+     "cappadocian.quote.reading-scripture-hexaemeron": "ready"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+      "line": 9894,
+      "snippet": "Nyssa quotes John 1:1 in argument (no verse-by-verse treatment)"
+     },
+     {
+      "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+      "line": 15203,
+      "snippet": "Basil Hexaemeron I (Genesis 1)"
+     }
+    ],
+    "identified": [
+     "Nyssa homilies on Song of Songs and Beatitudes (registered, unvendored)"
+    ],
+    "other": [],
+    "note": "Only Genesis 1 has a record, via Hexaemeron VIII. See passages.",
+    "verified": [
+     {
+      "record": "cappadocian.quote.reading-scripture-hexaemeron",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       21217
+      ]
+     }
+    ]
+   }
+  },
+  "desert": {
+   "S1": {
+    "layer": "R",
+    "records": [
+     "desert.dw.writings",
+     "desert.quote.whence-canst-thou-prove-to-us",
+     "desert.limit.f2-scripture-detail",
+     "desert.force.scriptural-address"
+    ],
+    "record_status": {
+     "desert.dw.writings": "ready",
+     "desert.quote.whence-canst-thou-prove-to-us": "ready",
+     "desert.limit.f2-scripture-detail": "ready",
+     "desert.force.scriptural-address": "ready"
+    },
+    "confidence": [
+     "Widely Accepted",
+     "Documented",
+     "Contested"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt",
+      "line": 2750,
+      "snippet": "saying 610: proving a claim \"from the words of our Lord in the Gospel\""
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "\"The same Scriptures the wider church had\"; Antony converted by hearing Matt 19:21. Only-authority: the limit says it cannot be claimed. No canon list.",
+    "verified": [
+     {
+      "record": "desert.quote.whence-canst-thou-prove-to-us",
+      "result": "MATCH",
+      "file": "anan-isho_paradise-v2-sayings_budge1907.txt",
+      "lines": [
+       2750
+      ]
+     }
+    ]
+   },
+   "S2": {
+    "layer": "R",
+    "records": [
+     "desert.gravity.scriptural-engagement",
+     "desert.force.scriptural-address",
+     "desert.dw.writings",
+     "desert.demo.honest-limit-scripture-difficulty"
+    ],
+    "record_status": {
+     "desert.gravity.scriptural-engagement": "ready",
+     "desert.force.scriptural-address": "ready",
+     "desert.dw.writings": "ready",
+     "desert.demo.honest-limit-scripture-difficulty": "ready"
+    },
+    "confidence": [
+     "Widely Accepted",
+     "Contested",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Read a verse at a time as counsel for one struggle; weakest-flagged gravity in the world. Bored/confused demo answers with a stated gap.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "R*",
+    "records": [
+     "desert.limit.f2-scripture-detail",
+     "desert.contested.antony-literacy"
+    ],
+    "record_status": {
+     "desert.limit.f2-scripture-detail": "ready",
+     "desert.contested.antony-literacy": "ready"
+    },
+    "confidence": [
+     "Documented",
+     "Contested"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Guard only: nothing on authority, errors or Genesis. Antony's literacy is contested (Vita 1, 72-73 against Rubenson's reading of the Letters).",
+    "verified": []
+   },
+   "S4": {
+    "layer": "R*",
+    "records": [
+     "desert.limit.f2-scripture-detail",
+     "desert.story.sarapion-anthropomorphite"
+    ],
+    "record_status": {
+     "desert.limit.f2-scripture-detail": "ready",
+     "desert.story.sarapion-anthropomorphite": "ready"
+    },
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 35878,
+      "snippet": "Cassian Conference X: Sarapion and the literal \"image of God\""
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "The limit says no source records a desert voice on Genesis as such. Cassian Conf. X, which the world's own Sarapion story uses, is a recorded dispute over reading \"image of God\" literally; the limit's wording may be too broad.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "R*",
+    "records": [
+     "desert.dw.judgment-and-resurrection"
+    ],
+    "record_status": {
+     "desert.dw.judgment-and-resurrection": "ready"
+    },
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Honest limit inside the witness: no developed system for how the world ends (see C3 S8).",
+    "verified": []
+   },
+   "S6": {
+    "layer": "R*",
+    "records": [
+     "desert.contested.antony-literacy",
+     "desert.dw.writings"
+    ],
+    "record_status": {
+     "desert.contested.antony-literacy": "ready",
+     "desert.dw.writings": "ready"
+    },
+    "confidence": [
+     "Contested",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "line": 31296,
+      "snippet": "Vita Antonii 3: memory served him instead of books"
+     },
+     {
+      "file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
+      "line": 251,
+      "snippet": "Lausiac History: Ammonius learned the Scriptures by heart"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Antony as an unlettered hearer; no ordinary monk's account. The Pachomian Rule's letters requirement was not checked.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "R*",
+    "records": [
+     "desert.limit.f2-scripture-detail",
+     "desert.demo.honest-limit-scripture-difficulty"
+    ],
+    "record_status": {
+     "desert.limit.f2-scripture-detail": "ready",
+     "desert.demo.honest-limit-scripture-difficulty": "ready"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Names violence and difficulty and says nothing survives.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "L",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 5607,
+      "snippet": "Jerome Ep. 22.6: \"dasheth thy little ones\" read as crushing evil thoughts"
+     },
+     {
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "line": 32179,
+      "snippet": "Life of Antony: \"Lord, have we not done many mighty works?\" (Matt 7:22)"
+     },
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 39637,
+      "snippet": "Cassian Conf. XV on gifts without love (Matt 7:22-23)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record on any named passage. Jerome and Cassian sit in volumes shared with other worlds.",
+    "verified": []
+   }
+  },
+  "don": {
+   "S1": {
+    "layer": "R",
+    "records": [
+     "don.dw.the-books-they-came-for",
+     "don.dw.how-we-read-and-heard",
+     "don.dw.scripture-and-the-african-fathers"
+    ],
+    "record_status": {
+     "don.dw.the-books-they-came-for": "ready",
+     "don.dw.how-we-read-and-heard": "ready",
+     "don.dw.scripture-and-the-african-fathers": "ready"
+    },
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/tyconius_liber-regularum_burkitt1894.txt",
+      "line": 247,
+      "snippet": "Tyconius, Book of Rules, Rule 1 (the world's one interpreter), vendored"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Scripture as books a magistrate could demand; \"we cannot give you a list of the books\"; not the only authority (Cyprian's council weighed as much). Honest limits inside the witnesses.",
+    "verified": []
+   },
+   "S2": {
+    "layer": "R",
+    "records": [
+     "don.dw.how-we-read-and-heard",
+     "don.dw.the-test-we-took-from-the-text"
+    ],
+    "record_status": {
+     "don.dw.how-we-read-and-heard": "ready",
+     "don.dw.the-test-we-took-from-the-text": "ready"
+    },
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/tyconius_liber-regularum_burkitt1894.txt",
+      "line": 247,
+      "snippet": "seven Rules of Tyconius"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Read combatively, for a visible mark of the true church. The witness says Tyconius's Rules \"have not been read closely\"; they are vendored.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "R*",
+    "records": [
+     "don.dw.scripture-and-the-african-fathers"
+    ],
+    "record_status": {
+     "don.dw.scripture-and-the-african-fathers": "ready"
+    },
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "No statement of ours about the authority or reliability of scripture survives.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "R*",
+    "records": [
+     "don.dw.scripture-and-the-african-fathers"
+    ],
+    "record_status": {
+     "don.dw.scripture-and-the-african-fathers": "ready"
+    },
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Explicit: nothing survives on Genesis.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "R*",
+    "records": [
+     "don.dw.washed-for-the-first-time"
+    ],
+    "record_status": {
+     "don.dw.washed-for-the-first-time": "ready"
+    },
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+      "line": 40242,
+      "snippet": "Augustine CoG XX.7, two resurrections and the thousand years (opponent, Tyconian reading)"
+     },
+     {
+      "file": "cic/texts/tyconius_liber-regularum_burkitt1894.txt",
+      "line": 390,
+      "snippet": "Tyconius mentions the Apocalypse in his Rules"
+     }
+    ],
+    "identified": [],
+    "other": [
+     "Tyconius, Commentary on Revelation (lost; Beatus recension; CCSL 107A, Gryson)"
+    ],
+    "note": "\"The end of the world we cannot speak to at all.\"",
+    "verified": []
+   },
+   "S6": {
+    "layer": "R",
+    "records": [
+     "don.dw.how-we-read-and-heard",
+     "don.dw.the-books-they-came-for"
+    ],
+    "record_status": {
+     "don.dw.how-we-read-and-heard": "ready",
+     "don.dw.the-books-they-came-for": "ready"
+    },
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [
+     "don.source.tilley-bible-in-christian-north-africa (unvendored)"
+    ],
+    "other": [],
+    "note": "Heard aloud at a graveside on a fixed anniversary; codices as objects. Language: Latin, no record on translation.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "R*",
+    "records": [
+     "don.dw.the-test-we-took-from-the-text"
+    ],
+    "record_status": {
+     "don.dw.the-test-we-took-from-the-text": "ready"
+    },
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Nothing survives on the violence in scripture. (don.limit.bagai-violence-no-account is about Circumcellion violence, a different question.)",
+    "verified": []
+   },
+   "S8": {
+    "layer": "L",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "line": 42621,
+      "snippet": "Cyprian, Unity of the Church: \"I never knew you\" (Matt 7:23)"
+     },
+     {
+      "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
+      "line": 12071,
+      "snippet": "Augustine On Baptism IV: Matt 7:22 turned against the Donatists"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record on a named passage. Cyprian is the world's own bishop.",
+    "verified": []
+   }
+  },
+  "gallic": {
+   "S1": {
+    "layer": "R*",
+    "records": [
+     "gallic.term.tradition",
+     "gallic.term.the-rule"
+    ],
+    "record_status": {
+     "gallic.term.tradition": "ready",
+     "gallic.term.the-rule": "ready"
+    },
+    "confidence": [
+     "Documented",
+     "Contested"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Vincent's two tests, Scripture then the Catholic tradition; not a statement that Scripture is the only authority and no canon list.",
+    "verified": []
+   },
+   "S2": {
+    "layer": "L",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 38874,
+      "snippet": "Cassian Conf. XIV ch. VIII, spiritual knowledge; anagogical and tropological senses at 38888-38905"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record on how they read. Psalm records (random psalm as sign, the angel and the twelve psalms) are about use, not method.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "-",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Nothing Gallic found.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "L",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 6931,
+      "snippet": "Sulpitius Severus, Sacred History I: Genesis retold from the beginning of the world"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "A Gallic author's own retelling is vendored and unrecorded.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "R",
+    "records": [
+     "gallic.term.antichrist",
+     "gallic.quote.martin-antichrist-already-born",
+     "gallic.quote.martin-antichrist-already-at-hand",
+     "gallic.gravity.judgment-imminent-present"
+    ],
+    "record_status": {
+     "gallic.term.antichrist": "ready",
+     "gallic.quote.martin-antichrist-already-born": "ready",
+     "gallic.quote.martin-antichrist-already-at-hand": "ready",
+     "gallic.gravity.judgment-imminent-present": "ready"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Strongest end-times cell in the fleet; both quotes verified.",
+    "verified": [
+     {
+      "record": "gallic.quote.martin-antichrist-already-born",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       4603
+      ]
+     },
+     {
+      "record": "gallic.quote.martin-antichrist-already-at-hand",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       1784
+      ]
+     }
+    ]
+   },
+   "S6": {
+    "layer": "L",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 1088,
+      "snippet": "Vita Martini IX: the reader who failed to appear"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Incidental only.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "-",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Nothing Gallic found.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "L",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 39637,
+      "snippet": "Cassian Conf. XV (Matt 7:22)"
+     },
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 35154,
+      "snippet": "Cassian Conf. IX.17 (Phil 4:6)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record on any named passage.",
+    "verified": []
+   }
+  },
+  "hal": {
+   "S1": {
+    "layer": "R",
+    "records": [
+     "hal.quote.helmeted-preface",
+     "hal.term.hebraica-veritas",
+     "hal.quote.no-one-preferred-to-the-seventy",
+     "hal.dw.record"
+    ],
+    "record_status": {
+     "hal.quote.helmeted-preface": "ready",
+     "hal.term.hebraica-veritas": "ready",
+     "hal.quote.no-one-preferred-to-the-seventy": "ready",
+     "hal.dw.record": "ready"
+    },
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 46908,
+      "snippet": "Helmeted Preface: what is not in our list is among the Apocrypha"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Hebrew canon and the Apocrypha, in Jerome's own words; not_for blocks claiming the church accepted it.",
+    "verified": [
+     {
+      "record": "hal.quote.helmeted-preface",
+      "result": "MATCH",
+      "file": "npnf206_jerome-principal-works.xml",
+      "lines": [
+       46908
+      ]
+     },
+     {
+      "record": "hal.quote.no-one-preferred-to-the-seventy",
+      "result": "MATCH",
+      "file": "npnf102_augustine-city-of-god-christian-doctrine.xml",
+      "lines": [
+       36730
+      ]
+     }
+    ]
+   },
+   "S2": {
+    "layer": "R",
+    "records": [
+     "hal.term.hebraica-veritas",
+     "hal.term.exegesis-as-practiced-authority",
+     "hal.story.translating-a-book",
+     "hal.quote.paula-hebrew-psalms"
+    ],
+    "record_status": {
+     "hal.term.hebraica-veritas": "ready",
+     "hal.term.exegesis-as-practiced-authority": "ready",
+     "hal.story.translating-a-book": "ready",
+     "hal.quote.paula-hebrew-psalms": "ready"
+    },
+    "confidence": [
+     "Widely Accepted",
+     "Contested",
+     "Inferential-Thin",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "How they read is mostly how they translated; literal vs allegorical method is not recorded though Jerome's exegetical letters are vendored.",
+    "verified": [
+     {
+      "record": "hal.quote.paula-hebrew-psalms",
+      "result": "MATCH",
+      "file": "npnf206_jerome-principal-works.xml",
+      "lines": [
+       22019
+      ]
+     }
+    ]
+   },
+   "S3": {
+    "layer": "R",
+    "records": [
+     "hal.dw.record",
+     "hal.quote.partially-acquired-hebrew",
+     "hal.contested.hebrew-fluency",
+     "hal.term.vulgata"
+    ],
+    "record_status": {
+     "hal.dw.record": "ready",
+     "hal.quote.partially-acquired-hebrew": "ready",
+     "hal.contested.hebrew-fluency": "ready",
+     "hal.term.vulgata": "ready"
+    },
+    "confidence": [
+     "Widely Accepted",
+     "Documented",
+     "Contested"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+      "line": 36730,
+      "snippet": "Augustine CoG XVIII.43 on the Septuagint"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "\"Total trust in scripture and total awareness of transmission's frailty.\"",
+    "verified": [
+     {
+      "record": "hal.quote.partially-acquired-hebrew",
+      "result": "MATCH (spacing-only)",
+      "file": "npnf206_jerome-principal-works.xml",
+      "lines": [
+       22016
+      ]
+     }
+    ]
+   },
+   "S4": {
+    "layer": "L",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 46745,
+      "snippet": "Jerome, Preface to Genesis (translation only)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record. Shared Augustine (CoG XI, Conf. XI-XIII) is mapped.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "R*",
+    "records": [
+     "hal.dw.practices",
+     "hal.source.victorinus-apocalypse-jerome-recension"
+    ],
+    "record_status": {
+     "hal.dw.practices": "ready",
+     "hal.source.victorinus-apocalypse-jerome-recension": "ready"
+    },
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+      "line": 11547,
+      "snippet": "Victorinus, Commentary on the Apocalypse, in Jerome's recension"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No rapture; Rome's fall read through prophets (C3). The vendored Victorinus is a source record, not a witness.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "R",
+    "records": [
+     "hal.story.translating-a-book",
+     "hal.quote.no-one-preferred-to-the-seventy",
+     "hal.term.scriptorium",
+     "hal.quote.paula-hebrew-psalms",
+     "hal.term.vulgata"
+    ],
+    "record_status": {
+     "hal.story.translating-a-book": "ready",
+     "hal.quote.no-one-preferred-to-the-seventy": "ready",
+     "hal.term.scriptorium": "ready",
+     "hal.quote.paula-hebrew-psalms": "ready",
+     "hal.term.vulgata": "ready"
+    },
+    "confidence": [
+     "Inferential-Thin",
+     "Documented",
+     "Dominant Modern Reconstruction"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Best translation cell in the fleet.",
+    "verified": [
+     {
+      "record": "hal.quote.no-one-preferred-to-the-seventy",
+      "result": "MATCH",
+      "file": "npnf102_augustine-city-of-god-christian-doctrine.xml",
+      "lines": [
+       36730
+      ]
+     },
+     {
+      "record": "hal.quote.paula-hebrew-psalms",
+      "result": "MATCH",
+      "file": "npnf206_jerome-principal-works.xml",
+      "lines": [
+       22019
+      ]
+     }
+    ]
+   },
+   "S7": {
+    "layer": "L",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 5607,
+      "snippet": "Ep. 22.6: Ps 137 \"dasheth thy little ones\" as nipping evil thoughts in the bud"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "L",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 5607,
+      "snippet": "Ps 137 in Ep. 22.6"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record on a named passage.",
+    "verified": []
+   }
+  },
+  "ijc": {
+   "S1": {
+    "layer": "R*",
+    "records": [
+     "ijc.quote.the-rudiments-of-the-creed",
+     "ijc.dw.how-we-read"
+    ],
+    "record_status": {
+     "ijc.quote.the-rudiments-of-the-creed": "ready",
+     "ijc.dw.how-we-read": "ready"
+    },
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+      "line": 5140,
+      "snippet": "Leo, Tome: learning about the pages of the Testaments without the rudiments of the Creed"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Scripture and creed not ranked; the witness says fixing the canon was not this world's documented business.",
+    "verified": [
+     {
+      "record": "ijc.quote.the-rudiments-of-the-creed",
+      "result": "MATCH",
+      "file": "npnf212_leo-great-gregory-great.xml",
+      "lines": [
+       5140
+      ]
+     }
+    ]
+   },
+   "S2": {
+    "layer": "R",
+    "records": [
+     "ijc.dw.how-we-read",
+     "ijc.limit.reading-alone",
+     "ijc.demo.reading-confusion",
+     "ijc.quote.hymns-and-psalms-should-be-sung"
+    ],
+    "record_status": {
+     "ijc.dw.how-we-read": "ready",
+     "ijc.limit.reading-alone": "ready",
+     "ijc.demo.reading-confusion": "ready",
+     "ijc.quote.hymns-and-psalms-should-be-sung": "ready"
+    },
+    "confidence": [
+     "Widely Accepted",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Read juridically, for warrant, office and boundary; devotional reading thinly recorded.",
+    "verified": [
+     {
+      "record": "ijc.quote.hymns-and-psalms-should-be-sung",
+      "result": "MATCH",
+      "file": "npnf101_augustine-confessions-letters.xml",
+      "lines": [
+       13767
+      ]
+     }
+    ]
+   },
+   "S3": {
+    "layer": "L",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+      "line": 36730,
+      "snippet": "Augustine CoG XVIII.43 (shared)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "L",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [
+     "Ambrose, Hexameron (Savage, FOTC 42)"
+    ],
+    "note": "No record; Ambrose's Hexameron is not in npnf210.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "L",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+      "line": 40242,
+      "snippet": "Augustine CoG XX.7 (shared)"
+     },
+     {
+      "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+      "line": 11547,
+      "snippet": "Victorinus (shared)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record (C3 S8).",
+    "verified": []
+   },
+   "S6": {
+    "layer": "R*",
+    "records": [
+     "ijc.limit.reading-alone",
+     "ijc.dw.how-we-read"
+    ],
+    "record_status": {
+     "ijc.limit.reading-alone": "ready",
+     "ijc.dw.how-we-read": "ready"
+    },
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [
+     "ijc.source.auxentius-letter-ulfila (unvendored; Gothic Bible)"
+    ],
+    "other": [
+     "Ulfila Gothic Bible (Streitberg 1908)"
+    ],
+    "note": "No ordinary believer's account; creed and psalm-singing are the recorded channels.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "L",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+      "line": 36195,
+      "snippet": "Ambrose, Concerning Repentance II.11: Ps 137 cited"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "L",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+      "line": 17880,
+      "snippet": "Leo Sermon 51 on the Transfiguration quotes Matt 16:28"
+     },
+     {
+      "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+      "line": 35106,
+      "snippet": "Ambrose, Concerning Repentance II.3, the Prodigal Son"
+     },
+     {
+      "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+      "line": 37062,
+      "snippet": "Ambrose on the Song of Songs"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record on any named passage.",
+    "verified": []
+   }
+  },
+  "lpc": {
+   "S1": {
+    "layer": "R*",
+    "records": [
+     "lpc.witness.scripture-above-councils"
+    ],
+    "record_status": {
+     "lpc.witness.scripture-above-councils": "draft"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
+      "line": 11301,
+      "snippet": "Augustine On Baptism II.3.4: the canon confined within its limits"
+     }
+    ],
+    "identified": [],
+    "other": [
+     "Vetus Latina (Beuron)"
+    ],
+    "note": "Draft. Only-authority answered (no, not only). No canon list or Apocrypha record.",
+    "verified": []
+   },
+   "S2": {
+    "layer": "R",
+    "records": [
+     "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+     "lpc.witness.violence-commanded-not-cruel",
+     "lpc.witness.heard-for-salvation-not-for-wish"
+    ],
+    "record_status": {
+     "lpc.quote.the-sermon-and-the-readings-are-daily-bread": "draft",
+     "lpc.witness.violence-commanded-not-cruel": "draft",
+     "lpc.witness.heard-for-salvation-not-for-wish": "draft"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+      "line": 10894,
+      "snippet": "Sermon 7: the daily lessons are daily bread"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Draft. How Augustine preached; no record on his senses of Scripture (Augustine's Latin sermons and Enarrationes are vendored).",
+    "verified": [
+     {
+      "record": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+      "result": "MATCH",
+      "file": "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+      "lines": [
+       10894
+      ]
+     }
+    ]
+   },
+   "S3": {
+    "layer": "R*",
+    "records": [
+     "lpc.witness.days-before-the-sun"
+    ],
+    "record_status": {
+     "lpc.witness.days-before-the-sun": "draft"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+      "line": 20392,
+      "snippet": "CoG XI.7: first three days before the sun"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Draft. Names a difficulty honestly; not a reliability answer.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "R",
+    "records": [
+     "lpc.witness.days-before-the-sun"
+    ],
+    "record_status": {
+     "lpc.witness.days-before-the-sun": "draft"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+      "line": 20392,
+      "snippet": "CoG XI.7"
+     },
+     {
+      "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+      "line": 16834,
+      "snippet": "Confessions XI-XIII on Genesis 1"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Draft. Only world besides alx and pahc with a substantive Genesis-1 record; Augustine's \"not 6000 years\" is in it.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "L",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+      "line": 40242,
+      "snippet": "CoG XX.7-9, Revelation 20 and the thousand years"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record (C3 S8).",
+    "verified": []
+   },
+   "S6": {
+    "layer": "R*",
+    "records": [
+     "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+     "lpc.story.the-psalms-on-the-wall"
+    ],
+    "record_status": {
+     "lpc.quote.the-sermon-and-the-readings-are-daily-bread": "draft",
+     "lpc.story.the-psalms-on-the-wall": "draft"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Draft. Readings and hymns heard daily; nothing on copies, language or the Old Latin.",
+    "verified": [
+     {
+      "record": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+      "result": "MATCH",
+      "file": "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+      "lines": [
+       10894
+      ]
+     }
+    ]
+   },
+   "S7": {
+    "layer": "R",
+    "records": [
+     "lpc.witness.violence-commanded-not-cruel"
+    ],
+    "record_status": {
+     "lpc.witness.violence-commanded-not-cruel": "draft"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
+      "line": 8100,
+      "snippet": "Reply to Faustus XXII.71-79"
+     },
+     {
+      "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+      "line": 5895,
+      "snippet": "Confessions III.7.12, \"much disturbed\""
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Draft. The one substantive violence answer in the fleet; two orders (inner disposition, earthly kingdoms as picture).",
+    "verified": []
+   },
+   "S8": {
+    "layer": "R*",
+    "records": [
+     "lpc.witness.days-before-the-sun",
+     "lpc.witness.violence-commanded-not-cruel"
+    ],
+    "record_status": {
+     "lpc.witness.days-before-the-sun": "draft",
+     "lpc.witness.violence-commanded-not-cruel": "draft"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf107_augustine-homilies-john-soliloquies.xml",
+      "line": 498,
+      "snippet": "Tractate I on John 1:1-5"
+     },
+     {
+      "file": "cic/texts/npnf108_augustine-exposition-psalms.xml",
+      "line": 27073,
+      "snippet": "Exposition of Psalm 137"
+     },
+     {
+      "file": "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+      "line": 729,
+      "snippet": "Sermon on the Mount, Book I"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Draft. Richest vendored verse-by-verse set in the fleet (scripCom-tagged), mostly without records.",
+    "verified": []
+   }
+  },
+  "pahc": {
+   "S1": {
+    "layer": "R",
+    "records": [
+     "pahc.force.selective-canonization",
+     "pahc.quote.appointed-to-be-read",
+     "pahc.witness.scripture-and-testimony",
+     "pahc.source.second-century-apocrypha"
+    ],
+    "record_status": {
+     "pahc.force.selective-canonization": "ready",
+     "pahc.quote.appointed-to-be-read": "ready",
+     "pahc.witness.scripture-and-testimony": "ready",
+     "pahc.source.second-century-apocrypha": "ready"
+    },
+    "confidence": [
+     "Documented",
+     "Contested"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "line": 68817,
+      "snippet": "Athanasius 367"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No closed Bible; Hermas and the Didache as the moving edge; scripture read beside apostolic testimony.",
+    "verified": [
+     {
+      "record": "pahc.quote.appointed-to-be-read",
+      "result": "MATCH",
+      "file": "npnf204_athanasius-select-works-letters.xml",
+      "lines": [
+       68817
+      ]
+     }
+    ]
+   },
+   "S2": {
+    "layer": "R",
+    "records": [
+     "pahc.witness.reading-scripture",
+     "pahc.quote.the-memoirs-of-the-apostles-are-read",
+     "pahc.quote.moses-is-more-ancient"
+    ],
+    "record_status": {
+     "pahc.witness.reading-scripture": "ready",
+     "pahc.quote.the-memoirs-of-the-apostles-are-read": "ready",
+     "pahc.quote.moses-is-more-ancient": "ready"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "line": 16502,
+      "snippet": "Justin, First Apology 67"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Read aloud, then explained; prophets read toward Christ.",
+    "verified": [
+     {
+      "record": "pahc.quote.the-memoirs-of-the-apostles-are-read",
+      "result": "MATCH",
+      "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": [
+       16502
+      ]
+     },
+     {
+      "record": "pahc.quote.moses-is-more-ancient",
+      "result": "MATCH",
+      "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": [
+       15608
+      ]
+     }
+    ]
+   },
+   "S3": {
+    "layer": "R*",
+    "records": [
+     "pahc.witness.scripture-and-testimony",
+     "pahc.witness.scholarly-standing"
+    ],
+    "record_status": {
+     "pahc.witness.scripture-and-testimony": "ready",
+     "pahc.witness.scholarly-standing": "ready"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Says the question assumes a closed Bible that did not yet exist.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "R",
+    "records": [
+     "pahc.witness.scripture-and-testimony",
+     "pahc.quote.moses-is-more-ancient"
+    ],
+    "record_status": {
+     "pahc.witness.scripture-and-testimony": "ready",
+     "pahc.quote.moses-is-more-ancient": "ready"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "line": 8735,
+      "snippet": "Theophilus, To Autolycus II.10, creation through the Word (shared)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Not a science question; Moses older than Plato.",
+    "verified": [
+     {
+      "record": "pahc.quote.moses-is-more-ancient",
+      "result": "MATCH",
+      "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": [
+       15608
+      ]
+     }
+    ]
+   },
+   "S5": {
+    "layer": "R*",
+    "records": [
+     "pahc.quote.polycrates-to-victor",
+     "pahc.story.quintus-recantation"
+    ],
+    "record_status": {
+     "pahc.quote.polycrates-to-victor": "ready",
+     "pahc.story.quintus-recantation": "ready"
+    },
+    "confidence": [
+     "Documented",
+     "Contested"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Thin render (C3 S8): Didache 16, Justin Dial. 80 and Papias are the obvious builds.",
+    "verified": [
+     {
+      "record": "pahc.quote.polycrates-to-victor",
+      "result": "MATCH",
+      "file": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+      "lines": [
+       72578,
+       72614
+      ]
+     }
+    ]
+   },
+   "S6": {
+    "layer": "R",
+    "records": [
+     "pahc.witness.reading-scripture",
+     "pahc.quote.the-memoirs-of-the-apostles-are-read",
+     "pahc.limit.ordinary-majority"
+    ],
+    "record_status": {
+     "pahc.witness.reading-scripture": "ready",
+     "pahc.quote.the-memoirs-of-the-apostles-are-read": "ready",
+     "pahc.limit.ordinary-majority": "ready"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The gathering was the access.",
+    "verified": [
+     {
+      "record": "pahc.quote.the-memoirs-of-the-apostles-are-read",
+      "result": "MATCH",
+      "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": [
+       16502
+      ]
+     }
+    ]
+   },
+   "S7": {
+    "layer": "R*",
+    "records": [
+     "pahc.witness.hard-texts"
+    ],
+    "record_status": {
+     "pahc.witness.hard-texts": "ready"
+    },
+    "confidence": [
+     "Inferential-Thin"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Inferential-Thin; only Marcion's opponents record the question.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "R*",
+    "records": [
+     "pahc.quote.moses-is-more-ancient",
+     "pahc.witness.scripture-and-testimony"
+    ],
+    "record_status": {
+     "pahc.quote.moses-is-more-ancient": "ready",
+     "pahc.witness.scripture-and-testimony": "ready"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "line": 40845,
+      "snippet": "Irenaeus AH III.11, John's prologue"
+     },
+     {
+      "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+      "line": 17831,
+      "snippet": "2 Clement 4, \"not everyone who says Lord, Lord\""
+     },
+     {
+      "file": "cic/texts/anf03_tertullian.xml",
+      "line": 30694,
+      "snippet": "Tertullian, Against Marcion IV, the Sermon on the Mount"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Genesis 1 only.",
+    "verified": [
+     {
+      "record": "pahc.quote.moses-is-more-ancient",
+      "result": "MATCH",
+      "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": [
+       15608
+      ]
+     }
+    ]
+   }
+  },
+  "rzg": {
+   "S1": {
+    "layer": "R*",
+    "records": [
+     "rzg.term.sola-scriptura",
+     "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+     "rzg.quote.taught-better-from-scripture"
+    ],
+    "record_status": {
+     "rzg.term.sola-scriptura": "ready",
+     "rzg.gravity.scripture-sole-authority-disputation-catechesis": "ready",
+     "rzg.quote.taught-better-from-scripture": "ready"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/zwingli_selected-works_jackson1901.txt",
+      "line": 4487,
+      "snippet": "Sixty-Seven Articles, preface: \"taught better, but only from said Scriptures\""
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Only-authority fully answered. No canon list or Apocrypha record (Institutes I.8 vol1 line 1337 editor note is the vendored hook).",
+    "verified": [
+     {
+      "record": "rzg.quote.taught-better-from-scripture",
+      "result": "MATCH",
+      "file": "zwingli_selected-works_jackson1901.txt",
+      "lines": [
+       4487,
+       4490
+      ]
+     }
+    ]
+   },
+   "S2": {
+    "layer": "R*",
+    "records": [
+     "rzg.term.sola-scriptura",
+     "rzg.gravity.scripture-sole-authority-disputation-catechesis",
+     "rzg.limit.what-scripture-asked-of-a-modern-reader"
+    ],
+    "record_status": {
+     "rzg.term.sola-scriptura": "ready",
+     "rzg.gravity.scripture-sole-authority-disputation-catechesis": "ready",
+     "rzg.limit.what-scripture-asked-of-a-modern-reader": "ready"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Method (accommodation, literal over allegory) is vendored in Calvin and unrecorded.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "R*",
+    "records": [
+     "rzg.limit.what-scripture-asked-of-a-modern-reader",
+     "rzg.quote.taught-better-from-scripture"
+    ],
+    "record_status": {
+     "rzg.limit.what-scripture-asked-of-a-modern-reader": "ready",
+     "rzg.quote.taught-better-from-scripture": "ready"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Guard only.",
+    "verified": [
+     {
+      "record": "rzg.quote.taught-better-from-scripture",
+      "result": "MATCH",
+      "file": "zwingli_selected-works_jackson1901.txt",
+      "lines": [
+       4487,
+       4490
+      ]
+     }
+    ]
+   },
+   "S4": {
+    "layer": "L",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/calvin_commentaries-genesis-vol1_king1847.txt",
+      "line": 3162,
+      "snippet": "Calvin on Genesis ch. I"
+     },
+     {
+      "file": "cic/texts/calvin_commentaries-genesis-vol1_king1847.txt",
+      "line": 4104,
+      "snippet": "\"the waters here meant are such as the rude and unlearned may perceive\""
+     },
+     {
+      "file": "cic/texts/calvin_commentaries-genesis-vol1_king1847.txt",
+      "line": 4428,
+      "snippet": "Moses wrote in a popular style"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record. Calvin's Genesis commentary is the clearest vendored six-days answer outside Augustine, Basil and Origen.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "L",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "No record (C3 S8; Institutes III.25).",
+    "verified": []
+   },
+   "S6": {
+    "layer": "R*",
+    "records": [
+     "rzg.story.first-zurich-disputation",
+     "rzg.term.catechism"
+    ],
+    "record_status": {
+     "rzg.story.first-zurich-disputation": "ready",
+     "rzg.term.catechism": "ready"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/quick_synodicon-in-gallia-reformata_1692.txt",
+      "line": 54850,
+      "snippet": "Geneva ordered to suffer no new French Bible translations"
+     }
+    ],
+    "identified": [
+     "rzg.source.genevan-psalter (record says unvendored; marot-beze_pseaumes-mis-en-rime-fr.txt is mapped)"
+    ],
+    "other": [
+     "Olivetan Bible 1535"
+    ],
+    "note": "Vernacular disputation and catechism; nothing on translations.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "R*",
+    "records": [
+     "rzg.limit.what-scripture-asked-of-a-modern-reader"
+    ],
+    "record_status": {
+     "rzg.limit.what-scripture-asked-of-a-modern-reader": "ready"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/zwingli_selected-works_jackson1901.txt",
+      "line": 7856,
+      "snippet": "Zwingli: \"Resist not evil\" does not bind the magistrate"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Explicit gap on violence in scripture.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "L",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/calvin_commentaries-genesis-vol1_king1847.txt",
+      "line": 3162,
+      "snippet": "Genesis 1"
+     },
+     {
+      "file": "cic/texts/calvin_letters-vol1_bonnet1858.txt",
+      "line": 18297,
+      "snippet": "Castellio's doubts on the Song of Solomon"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record on any named passage.",
+    "verified": []
+   }
+  },
+  "syr": {
+   "S1": {
+    "layer": "R*",
+    "records": [
+     "syr.dw.reading",
+     "syr.dw.gospel-harmony",
+     "syr.gravity.diatessaron-normative",
+     "syr.contested.rabbula-peshitta",
+     "syr.contested.diatessaron-name"
+    ],
+    "record_status": {
+     "syr.dw.reading": "ready",
+     "syr.dw.gospel-harmony": "ready",
+     "syr.gravity.diatessaron-normative": "ready",
+     "syr.contested.rabbula-peshitta": "ready",
+     "syr.contested.diatessaron-name": "ready"
+    },
+    "confidence": [
+     "Widely Accepted",
+     "Documented",
+     "Contested"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Which Gospel text (Diatessaron, then the separated Gospels) rather than which books; authority supreme in practice, never apart from the church.",
+    "verified": []
+   },
+   "S2": {
+    "layer": "R",
+    "records": [
+     "syr.dw.reading",
+     "syr.gravity.raza-shrara-method",
+     "syr.term.raza-shrara",
+     "syr.quote.on-a-certain-day-a-pearl",
+     "syr.quote.nativity-this-is-the-day",
+     "syr.quote.aphrahat-anti-jewish-frame"
+    ],
+    "record_status": {
+     "syr.dw.reading": "ready",
+     "syr.gravity.raza-shrara-method": "ready",
+     "syr.term.raza-shrara": "ready",
+     "syr.quote.on-a-certain-day-a-pearl": "ready",
+     "syr.quote.nativity-this-is-the-day": "ready",
+     "syr.quote.aphrahat-anti-jewish-frame": "ready"
+    },
+    "confidence": [
+     "Widely Accepted",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "line": 21794,
+      "snippet": "Ephrem, Pearl I"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Typology (raza and shrara); OT read as promise and as polemic against Jews.",
+    "verified": [
+     {
+      "record": "syr.quote.on-a-certain-day-a-pearl",
+      "result": "MATCH",
+      "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "lines": [
+       21794
+      ]
+     },
+     {
+      "record": "syr.quote.nativity-this-is-the-day",
+      "result": "MATCH",
+      "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "lines": [
+       17530
+      ]
+     },
+     {
+      "record": "syr.quote.aphrahat-anti-jewish-frame",
+      "result": "MATCH",
+      "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "lines": [
+       27100
+      ]
+     }
+    ]
+   },
+   "S3": {
+    "layer": "R*",
+    "records": [
+     "syr.dw.reading",
+     "syr.contested.diatessaron-name"
+    ],
+    "record_status": {
+     "syr.dw.reading": "ready",
+     "syr.contested.diatessaron-name": "ready"
+    },
+    "confidence": [
+     "Widely Accepted",
+     "Contested"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "\"Only authority\" and \"science\" are later frames; answers from beside them.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "R",
+    "records": [
+     "syr.dw.reading",
+     "syr.dw.god",
+     "syr.quote.on-a-certain-day-a-pearl"
+    ],
+    "record_status": {
+     "syr.dw.reading": "ready",
+     "syr.dw.god": "ready",
+     "syr.quote.on-a-certain-day-a-pearl": "ready"
+    },
+    "confidence": [
+     "Widely Accepted",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt",
+      "line": 887,
+      "snippet": "Ephrem Prose Refutations, editor's summary: the Mosaic account of the Creation is the true one"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Eden read toward the cross; creation from nothing against Bardaisan.",
+    "verified": [
+     {
+      "record": "syr.quote.on-a-certain-day-a-pearl",
+      "result": "MATCH",
+      "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "lines": [
+       21794
+      ]
+     }
+    ]
+   },
+   "S5": {
+    "layer": "R",
+    "records": [
+     "syr.dw.born-again-endtimes",
+     "syr.quote.death-knew-his-kingdom-was-to-be-made-void"
+    ],
+    "record_status": {
+     "syr.dw.born-again-endtimes": "ready",
+     "syr.quote.death-knew-his-kingdom-was-to-be-made-void": "ready"
+    },
+    "confidence": [
+     "Widely Accepted",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Aphrahat XXII; no rapture.",
+    "verified": [
+     {
+      "record": "syr.quote.death-knew-his-kingdom-was-to-be-made-void",
+      "result": "MATCH (spacing-only)",
+      "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "lines": [
+       28079
+      ]
+     }
+    ]
+   },
+   "S6": {
+    "layer": "R",
+    "records": [
+     "syr.dw.gospel-harmony",
+     "syr.gravity.diatessaron-normative",
+     "syr.contested.rabbula-peshitta",
+     "syr.contested.diatessaron-name",
+     "syr.term.ewangeliyon-da-mhallete"
+    ],
+    "record_status": {
+     "syr.dw.gospel-harmony": "ready",
+     "syr.gravity.diatessaron-normative": "ready",
+     "syr.contested.rabbula-peshitta": "ready",
+     "syr.contested.diatessaron-name": "ready",
+     "syr.term.ewangeliyon-da-mhallete": "ready"
+    },
+    "confidence": [
+     "Widely Accepted",
+     "Documented",
+     "Contested"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [
+     "Peshitta (Syriac)"
+    ],
+    "note": "Strongest translation-and-access story after hal.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "L",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt",
+      "line": 1854,
+      "snippet": "Ephrem on why the former laws changed but not the creatures (against Marcion)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "R*",
+    "records": [
+     "syr.dw.reading",
+     "syr.quote.on-a-certain-day-a-pearl"
+    ],
+    "record_status": {
+     "syr.dw.reading": "ready",
+     "syr.quote.on-a-certain-day-a-pearl": "ready"
+    },
+    "confidence": [
+     "Widely Accepted",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+      "line": 2195,
+      "snippet": "Diatessaron opens with John 1:1-5"
+     },
+     {
+      "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+      "line": 15203,
+      "snippet": "Basil Hexaemeron (registered source)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Genesis read as type; no passage record.",
+    "verified": [
+     {
+      "record": "syr.quote.on-a-certain-day-a-pearl",
+      "result": "MATCH",
+      "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "lines": [
+       21794
+      ]
+     }
+    ]
+   }
+  },
+  "witt": {
+   "S1": {
+    "layer": "R*",
+    "records": [
+     "witt.dw.scripture-judges-every-other-voice",
+     "witt.demo.scripture-alone",
+     "witt.term.scripture-against-tradition",
+     "witt.quote.nothing-that-varies",
+     "witt.gravity.the-word"
+    ],
+    "record_status": {
+     "witt.dw.scripture-judges-every-other-voice": "ready",
+     "witt.demo.scripture-alone": "ready",
+     "witt.term.scripture-against-tradition": "ready",
+     "witt.quote.nothing-that-varies": "ready",
+     "witt.gravity.the-word": "ready"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [
+     "witt.source.luther-das-newe-testament-deutzsch (unvendored; the prefaces on James, Jude, Revelation)"
+    ],
+    "other": [
+     "Luther, prefaces to the New Testament 1522/1546 (Works, Philadelphia vol. 6)"
+    ],
+    "note": "Only-authority fully answered in two voices. Canon and Apocrypha: no record.",
+    "verified": [
+     {
+      "record": "witt.quote.nothing-that-varies",
+      "result": "MATCH",
+      "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+      "lines": [
+       1543
+      ]
+     }
+    ]
+   },
+   "S2": {
+    "layer": "R",
+    "records": [
+     "witt.term.letter-and-spirit",
+     "witt.term.the-word",
+     "witt.gravity.hearers-and-repeaters-of-words"
+    ],
+    "record_status": {
+     "witt.term.letter-and-spirit": "ready",
+     "witt.term.the-word": "ready",
+     "witt.gravity.hearers-and-repeaters-of-words": "ready"
+    },
+    "confidence": [
+     "Documented",
+     "Contested"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The plain sense is the spiritual sense.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "R*",
+    "records": [
+     "witt.dw.scripture-judges-every-other-voice"
+    ],
+    "record_status": {
+     "witt.dw.scripture-judges-every-other-voice": "ready"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Genesis-as-science named as a complete gap.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "R*",
+    "records": [
+     "witt.dw.scripture-judges-every-other-voice"
+    ],
+    "record_status": {
+     "witt.dw.scripture-judges-every-other-voice": "ready"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [
+     "Luther, Lectures on Genesis (WA 42-44)"
+    ],
+    "note": "Honest gap; Luther's Genesis lectures are not vendored.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "R",
+    "records": [
+     "witt.quote.christs-return-to-judgment",
+     "witt.term.pope-and-antichrist",
+     "witt.gravity.embattled-christendom",
+     "witt.dw.a-death-begun-that-a-child-receives"
+    ],
+    "record_status": {
+     "witt.quote.christs-return-to-judgment": "ready",
+     "witt.term.pope-and-antichrist": "ready",
+     "witt.gravity.embattled-christendom": "ready",
+     "witt.dw.a-death-begun-that-a-child-receives": "ready"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [
+     "witt.source.luther-das-newe-testament-deutzsch (Revelation preface)"
+    ],
+    "other": [],
+    "note": "Strong (C3 S8); Luther on the book itself is unvendored.",
+    "verified": [
+     {
+      "record": "witt.quote.christs-return-to-judgment",
+      "result": "MATCH",
+      "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+      "lines": [
+       435
+      ]
+     }
+    ]
+   },
+   "S6": {
+    "layer": "R*",
+    "records": [
+     "witt.gravity.german-for-the-people"
+    ],
+    "record_status": {
+     "witt.gravity.german-for-the-people": "ready"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/luther_works-v3-selected_various1930.txt",
+      "line": 11737,
+      "snippet": "editor: Duke George's order against the sale of Luther's New Testament"
+     },
+     {
+      "file": "cic/texts/luther_table-talk_bell1886.txt",
+      "line": 103,
+      "snippet": "Luther completed his translation of the Bible"
+     }
+    ],
+    "identified": [
+     "witt.source.luther-das-newe-testament-deutzsch"
+    ],
+    "other": [],
+    "note": "Hymns and Latin-German liturgy; the German Bible itself is IDENTIFIED only.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "L",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/luther_works-v3-selected_various1930.txt",
+      "line": 12060,
+      "snippet": "Luther, Temporal Authority, Matt 5:39"
+     },
+     {
+      "file": "cic/texts/arndt_true-christianity_boehm-schaeffer1868.txt",
+      "line": 4091,
+      "snippet": "Arndt on the Old Testament and vengeance"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "L",
+    "records": [],
+    "record_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/luther_works-v3-selected_various1930.txt",
+      "line": 12060,
+      "snippet": "Matt 5:38-41 in Temporal Authority"
+     },
+     {
+      "file": "cic/texts/arndt_true-christianity_boehm-schaeffer1868.txt",
+      "line": 11483,
+      "snippet": "Arndt: Lost Sheep and Prodigal Son as consolation"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record on any named passage. Luther's Genesis, Psalms and Sermon on the Mount commentaries are not vendored.",
+    "verified": []
+   }
+  }
+ },
+ "passages": {
+  "Luke 9:27": {
+   "label": "some standing here will not taste death",
+   "question_ids": [
+    "C5-09"
+   ],
+   "note": "No record in any world (the 2026-10-19 pilot found no voice with an answer). Augustine and Leo read it as the Transfiguration; Origen lists several readings. Chrysostom Hom. LIV (npnf110:32651) exists but only the Antiochene world maps it.",
+   "worlds": {
+    "alx": {
+     "treats": [
+      {
+       "work": "Origen, Commentary on Matthew XII.31-35 (Matt 16:28)",
+       "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+       "line": 34066
+      }
+     ],
+     "cited_only": []
+    },
+    "cappadocian": {
+     "treats": [],
+     "cited_only": []
+    },
+    "desert": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Origen (Alexandrian) in a shared volume, mapped but not a desert voice",
+       "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+       "line": 34066
+      }
+     ]
+    },
+    "don": {
+     "treats": [],
+     "cited_only": []
+    },
+    "gallic": {
+     "treats": [],
+     "cited_only": []
+    },
+    "hal": {
+     "treats": [],
+     "cited_only": []
+    },
+    "ijc": {
+     "treats": [
+      {
+       "work": "Leo, Sermon 51 on the Transfiguration",
+       "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+       "line": 17800
+      }
+     ],
+     "cited_only": []
+    },
+    "lpc": {
+     "treats": [
+      {
+       "work": "Augustine, Harmony of the Gospels II.56 (Transfiguration)",
+       "file": "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+       "line": 6460
+      },
+      {
+       "work": "Augustine, Sermon on Matt 17:1 (NPNF Sermon 28)",
+       "file": "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+       "line": 13729
+      }
+     ],
+     "cited_only": []
+    },
+    "pahc": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Origen (Alexandrian) in a shared volume",
+       "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+       "line": 34066
+      }
+     ]
+    },
+    "rzg": {
+     "treats": [],
+     "cited_only": []
+    },
+    "syr": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Origen (Alexandrian) in a shared volume",
+       "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+       "line": 34066
+      }
+     ]
+    },
+    "witt": {
+     "treats": [],
+     "cited_only": []
+    }
+   }
+  },
+  "John 1:1-14": {
+   "label": "In the beginning was the Word",
+   "question_ids": [
+    "C5-10"
+   ],
+   "note": "Only alx has records on this passage (term.word-of-god, origen-gospel-firstfruits). lpc has the most complete verse-by-verse treatment, scripCom-tagged.",
+   "worlds": {
+    "alx": {
+     "treats": [
+      {
+       "work": "Origen, Commentary on John I ch. XXII",
+       "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+       "line": 21212
+      },
+      {
+       "work": "Origen, Commentary on John II ch. I-XIII",
+       "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+       "line": 22440
+      }
+     ],
+     "cited_only": []
+    },
+    "cappadocian": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Nyssa, Against Eunomius quotes John 1:1",
+       "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+       "line": 9894
+      }
+     ]
+    },
+    "desert": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Origen (Alexandrian) in a shared volume",
+       "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+       "line": 21212
+      }
+     ]
+    },
+    "don": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Augustine, Confessions VII.9 (opponent)",
+       "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+       "line": 10780
+      }
+     ]
+    },
+    "gallic": {
+     "treats": [],
+     "cited_only": []
+    },
+    "hal": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Augustine, Confessions VII.9",
+       "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+       "line": 10780
+      }
+     ]
+    },
+    "ijc": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Augustine, Confessions VII.9",
+       "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+       "line": 10780
+      }
+     ]
+    },
+    "lpc": {
+     "treats": [
+      {
+       "work": "Augustine, Tractates on John 1.1-5",
+       "file": "cic/texts/npnf107_augustine-homilies-john-soliloquies.xml",
+       "line": 498
+      },
+      {
+       "work": "Augustine, Tractates on John 1.6-14",
+       "file": "cic/texts/npnf107_augustine-homilies-john-soliloquies.xml",
+       "line": 673
+      },
+      {
+       "work": "Augustine, sermons on John 1:1",
+       "file": "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+       "line": 18221
+      }
+     ],
+     "cited_only": []
+    },
+    "pahc": {
+     "treats": [
+      {
+       "work": "Irenaeus, Against Heresies III.11 (John's prologue)",
+       "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+       "line": 40845
+      }
+     ],
+     "cited_only": [
+      {
+       "work": "Tatian, Diatessaron section I",
+       "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+       "line": 2195
+      }
+     ]
+    },
+    "rzg": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Calvin on Gen 1:3 invokes John 1:3",
+       "file": "cic/texts/calvin_commentaries-genesis-vol1_king1847.txt",
+       "line": 3794
+      }
+     ]
+    },
+    "syr": {
+     "treats": [
+      {
+       "work": "Tatian, Diatessaron section I: the harmony opens with John 1:1-5 (text, not commentary)",
+       "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+       "line": 2195
+      }
+     ],
+     "cited_only": []
+    },
+    "witt": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Arndt, True Christianity cites John 1:14",
+       "file": "cic/texts/arndt_true-christianity_boehm-schaeffer1868.txt",
+       "line": 837
+      }
+     ]
+    }
+   }
+  },
+  "Matt 7:21-23": {
+   "label": "Lord, Lord / I never knew you",
+   "question_ids": [
+    "C5-18"
+   ],
+   "note": "No record in any world. Don's best material is Cyprian, who is their authority.",
+   "worlds": {
+    "alx": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Clement, Stromata VII.12",
+       "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+       "line": 51887
+      }
+     ]
+    },
+    "cappadocian": {
+     "treats": [
+      {
+       "work": "Basil, Longer/Shorter Rules (Matt 7:23)",
+       "file": "cic/texts/basil_ascetic-works-longer-shorter-rules_clarke1925.txt",
+       "line": 28802
+      }
+     ],
+     "cited_only": []
+    },
+    "desert": {
+     "treats": [
+      {
+       "work": "Athanasius, Life of Antony (miracles without love)",
+       "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+       "line": 32179
+      },
+      {
+       "work": "Cassian, Conference XV",
+       "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+       "line": 39605
+      }
+     ],
+     "cited_only": []
+    },
+    "don": {
+     "treats": [
+      {
+       "work": "Cyprian, Unity of the Church (the world's own bishop)",
+       "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+       "line": 42621
+      }
+     ],
+     "cited_only": [
+      {
+       "work": "Augustine, On Baptism IV-V (reply)",
+       "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
+       "line": 12071
+      }
+     ]
+    },
+    "gallic": {
+     "treats": [
+      {
+       "work": "Cassian, Conference XV",
+       "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+       "line": 39605
+      }
+     ],
+     "cited_only": []
+    },
+    "hal": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Cassian, Conference XV (shared volume)",
+       "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+       "line": 39605
+      }
+     ]
+    },
+    "ijc": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Ambrose, On the Duties of the Clergy I",
+       "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+       "line": 3834
+      }
+     ]
+    },
+    "lpc": {
+     "treats": [
+      {
+       "work": "Augustine, Sermon on the Mount II.25",
+       "file": "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+       "line": 3117
+      },
+      {
+       "work": "Augustine, Exposition of Psalm 1",
+       "file": "cic/texts/npnf108_augustine-exposition-psalms.xml",
+       "line": 595
+      }
+     ],
+     "cited_only": []
+    },
+    "pahc": {
+     "treats": [
+      {
+       "work": "2 Clement 4 (an early homily)",
+       "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+       "line": 17831
+      },
+      {
+       "work": "Justin, First Apology XVI",
+       "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+       "line": 14516
+      }
+     ],
+     "cited_only": []
+    },
+    "rzg": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Zwingli on miracles",
+       "file": "cic/texts/zwingli_selected-works_jackson1901.txt",
+       "line": 3479
+      }
+     ]
+    },
+    "syr": {
+     "treats": [],
+     "cited_only": []
+    },
+    "witt": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Arndt, True Christianity",
+       "file": "cic/texts/arndt_true-christianity_boehm-schaeffer1868.txt",
+       "line": 1579
+      }
+     ]
+    }
+   }
+  },
+  "Matt 5-7": {
+   "label": "Sermon on the Mount, turn the other cheek",
+   "question_ids": [
+    "C5-19"
+   ],
+   "note": "Only lpc has a full commentary. Others treat Matt 5:39 inside another argument. Chrysostom Hom. on Matthew is Antiochene-only. Nyssa on the Beatitudes is registered, unvendored.",
+   "worlds": {
+    "alx": {
+     "treats": [],
+     "cited_only": []
+    },
+    "cappadocian": {
+     "treats": [
+      {
+       "work": "Cyprian, On the Lord's Prayer (Matt 6; shared volume)",
+       "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+       "line": 44621
+      }
+     ],
+     "cited_only": [
+      {
+       "work": "Basil, Rules cite Matt 5:39",
+       "file": "cic/texts/basil_ascetic-works-longer-shorter-rules_clarke1925.txt",
+       "line": 26616
+      }
+     ]
+    },
+    "desert": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Sayings: \"turn the other cheek\"",
+       "file": "cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt",
+       "line": 468
+      }
+     ]
+    },
+    "don": {
+     "treats": [
+      {
+       "work": "Cyprian, On the Lord's Prayer (Matt 6)",
+       "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+       "line": 44621
+      }
+     ],
+     "cited_only": [
+      {
+       "work": "Augustine on \"resist not evil\" and coercion",
+       "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
+       "line": 6801
+      }
+     ]
+    },
+    "gallic": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Salvian",
+       "file": "cic/texts/salvian_on-the-government-of-god_sanford1930.txt",
+       "line": 3985
+      }
+     ]
+    },
+    "hal": {
+     "treats": [],
+     "cited_only": []
+    },
+    "ijc": {
+     "treats": [],
+     "cited_only": []
+    },
+    "lpc": {
+     "treats": [
+      {
+       "work": "Augustine, Our Lord's Sermon on the Mount, Book I",
+       "file": "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+       "line": 729
+      },
+      {
+       "work": "Augustine, Sermon on the Mount, Book II",
+       "file": "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+       "line": 1967
+      }
+     ],
+     "cited_only": []
+    },
+    "pahc": {
+     "treats": [
+      {
+       "work": "Tertullian, Against Marcion IV (Sermon on the Mount)",
+       "file": "cic/texts/anf03_tertullian.xml",
+       "line": 30694
+      },
+      {
+       "work": "Justin, First Apology XV-XVI",
+       "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+       "line": 14516
+      }
+     ],
+     "cited_only": []
+    },
+    "rzg": {
+     "treats": [
+      {
+       "work": "Zwingli, Divine and Human Righteousness (Matt 5:39 and the magistrate)",
+       "file": "cic/texts/zwingli_selected-works_jackson1901.txt",
+       "line": 7856
+      }
+     ],
+     "cited_only": []
+    },
+    "syr": {
+     "treats": [
+      {
+       "work": "Diatessaron text of the Sermon (harmony, not commentary)",
+       "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+       "line": 3481
+      }
+     ],
+     "cited_only": []
+    },
+    "witt": {
+     "treats": [
+      {
+       "work": "Luther, Temporal Authority (Matt 5:38-41)",
+       "file": "cic/texts/luther_works-v3-selected_various1930.txt",
+       "line": 12060
+      }
+     ],
+     "cited_only": [
+      {
+       "work": "Luther, Eight Wittenberg Sermons",
+       "file": "cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt",
+       "line": 8543
+      }
+     ]
+    }
+   }
+  },
+  "Gen 1": {
+   "label": "Genesis 1, the six days",
+   "question_ids": [
+    "C5-20"
+   ],
+   "note": "Records exist for alx, cappadocian (partial), lpc, pahc, syr; witt says it has no answer. Calvin's accommodation passages are at cg1 lines 4104 and 4428.",
+   "worlds": {
+    "alx": {
+     "treats": [
+      {
+       "work": "Origen, De Principiis IV.1.16 (days before the sun)",
+       "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+       "line": 33527
+      },
+      {
+       "work": "Origen, Philocalia I",
+       "file": "cic/texts/origen_philocalia_lewis1911.txt",
+       "line": 77
+      }
+     ],
+     "cited_only": []
+    },
+    "cappadocian": {
+     "treats": [
+      {
+       "work": "Basil, Hexaemeron Homilies I-IX",
+       "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+       "line": 15203
+      },
+      {
+       "work": "Nyssa, On the Making of Man",
+       "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+       "line": 33984
+      }
+     ],
+     "cited_only": []
+    },
+    "desert": {
+     "treats": [
+      {
+       "work": "Cassian, Conference X (Gen 1:26 literal image)",
+       "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+       "line": 35878
+      }
+     ],
+     "cited_only": []
+    },
+    "don": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Augustine CoG XI (opponent)",
+       "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+       "line": 20373
+      }
+     ]
+    },
+    "gallic": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Sulpitius, Sacred History I (retelling)",
+       "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+       "line": 6931
+      }
+     ]
+    },
+    "hal": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Augustine CoG XI",
+       "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+       "line": 20373
+      }
+     ]
+    },
+    "ijc": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Augustine CoG XI",
+       "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+       "line": 20373
+      }
+     ]
+    },
+    "lpc": {
+     "treats": [
+      {
+       "work": "Augustine, City of God XI.6-9",
+       "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+       "line": 20373
+      },
+      {
+       "work": "Augustine, Confessions XI-XIII",
+       "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+       "line": 16834
+      }
+     ],
+     "cited_only": []
+    },
+    "pahc": {
+     "treats": [
+      {
+       "work": "Theophilus, To Autolycus II.10-13",
+       "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+       "line": 8692
+      }
+     ],
+     "cited_only": []
+    },
+    "rzg": {
+     "treats": [
+      {
+       "work": "Calvin, Commentary on Genesis ch. I",
+       "file": "cic/texts/calvin_commentaries-genesis-vol1_king1847.txt",
+       "line": 3162
+      }
+     ],
+     "cited_only": []
+    },
+    "syr": {
+     "treats": [
+      {
+       "work": "Basil, Hexaemeron (shared; registered syr source)",
+       "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+       "line": 15203
+      },
+      {
+       "work": "Ephrem, Prose Refutations (editor's summary: Mosaic account true)",
+       "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt",
+       "line": 887
+      }
+     ],
+     "cited_only": []
+    },
+    "witt": {
+     "treats": [],
+     "cited_only": []
+    }
+   }
+  },
+  "Ps 137": {
+   "label": "Psalm 137 (LXX 136), dashing babies",
+   "question_ids": [
+    "C5-21"
+   ],
+   "note": "No record. Where the verse appears it is read as allegory (Babylon as confusion, the little ones as sins).",
+   "worlds": {
+    "alx": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Origen, Comm. John VI.28",
+       "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+       "line": 26741
+      }
+     ]
+    },
+    "cappadocian": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Nyssa",
+       "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+       "line": 45936
+      }
+     ]
+    },
+    "desert": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Jerome, Ep. 22.6 (shared volume)",
+       "file": "cic/texts/npnf206_jerome-principal-works.xml",
+       "line": 5607
+      },
+      {
+       "work": "Macarius, Homilies (waters of Babylon)",
+       "file": "cic/texts/macarius_fifty-spiritual-homilies_mason1921.txt",
+       "line": 7242
+      }
+     ]
+    },
+    "don": {
+     "treats": [],
+     "cited_only": []
+    },
+    "gallic": {
+     "treats": [],
+     "cited_only": []
+    },
+    "hal": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Jerome, Ep. 22.6: \"dasheth thy little ones\" as crushing evil thoughts",
+       "file": "cic/texts/npnf206_jerome-principal-works.xml",
+       "line": 5607
+      }
+     ]
+    },
+    "ijc": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Ambrose, Concerning Repentance II.11",
+       "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+       "line": 36195
+      }
+     ]
+    },
+    "lpc": {
+     "treats": [
+      {
+       "work": "Augustine, Exposition of Psalm 137 (Latin numbering CXXXVI)",
+       "file": "cic/texts/npnf108_augustine-exposition-psalms.xml",
+       "line": 27073
+      }
+     ],
+     "cited_only": []
+    },
+    "pahc": {
+     "treats": [],
+     "cited_only": []
+    },
+    "rzg": {
+     "treats": [],
+     "cited_only": []
+    },
+    "syr": {
+     "treats": [],
+     "cited_only": []
+    },
+    "witt": {
+     "treats": [],
+     "cited_only": []
+    }
+   }
+  },
+  "Song of Songs": {
+   "label": "Song of Songs",
+   "question_ids": [
+    "C5-22"
+   ],
+   "note": "Origen's own commentary and homilies are not vendored. Nyssa's Song homilies are registered, unvendored. No record in any world.",
+   "worlds": {
+    "alx": {
+     "treats": [
+      {
+       "work": "Origen, fragments of the Song commentary in the Philocalia VII",
+       "file": "cic/texts/origen_philocalia_lewis1911.txt",
+       "line": 126
+      },
+      {
+       "work": "Origen, Philocalia XXVII quoting Comm. Song II",
+       "file": "cic/texts/origen_philocalia_lewis1911.txt",
+       "line": 446
+      }
+     ],
+     "cited_only": []
+    },
+    "cappadocian": {
+     "treats": [
+      {
+       "work": "Hippolytus, On the Song of Songs (fragments; shared volume)",
+       "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+       "line": 18309
+      }
+     ],
+     "cited_only": []
+    },
+    "desert": {
+     "treats": [
+      {
+       "work": "same Jerome preface (shared volume)",
+       "file": "cic/texts/npnf206_jerome-principal-works.xml",
+       "line": 46337
+      }
+     ],
+     "cited_only": []
+    },
+    "don": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Hippolytus fragments (shared)",
+       "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+       "line": 18309
+      }
+     ]
+    },
+    "gallic": {
+     "treats": [],
+     "cited_only": []
+    },
+    "hal": {
+     "treats": [
+      {
+       "work": "Jerome, Preface to Origen's two Homilies on the Song (Origen's text not vendored)",
+       "file": "cic/texts/npnf206_jerome-principal-works.xml",
+       "line": 46337
+      }
+     ],
+     "cited_only": []
+    },
+    "ijc": {
+     "treats": [
+      {
+       "work": "Ambrose on the Song of Songs (virginity)",
+       "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+       "line": 37062
+      }
+     ],
+     "cited_only": []
+    },
+    "lpc": {
+     "treats": [
+      {
+       "work": "Augustine, City of God XVII.20",
+       "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+       "line": 29636
+      },
+      {
+       "work": "Hippolytus fragments (shared)",
+       "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+       "line": 18309
+      }
+     ],
+     "cited_only": []
+    },
+    "pahc": {
+     "treats": [],
+     "cited_only": []
+    },
+    "rzg": {
+     "treats": [
+      {
+       "work": "Calvin letters: Castellio doubts the Song's authority",
+       "file": "cic/texts/calvin_letters-vol1_bonnet1858.txt",
+       "line": 18297
+      }
+     ],
+     "cited_only": []
+    },
+    "syr": {
+     "treats": [],
+     "cited_only": []
+    },
+    "witt": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Luther, Freedom of a Christian (the bride)",
+       "file": "cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt",
+       "line": 11961
+      }
+     ]
+    }
+   }
+  },
+  "Luke 15": {
+   "label": "the prodigal son",
+   "question_ids": [
+    "C5-23"
+   ],
+   "note": "No record. Augustine's Latin sermon corpus is vendored but not indexed to Luke 15.",
+   "worlds": {
+    "alx": {
+     "treats": [
+      {
+       "work": "Tertullian, On Modesty VIII-IX (shared volume)",
+       "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+       "line": 7827
+      }
+     ],
+     "cited_only": []
+    },
+    "cappadocian": {
+     "treats": [],
+     "cited_only": []
+    },
+    "desert": {
+     "treats": [
+      {
+       "work": "Tertullian, On Modesty VIII-IX (shared volume)",
+       "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+       "line": 7827
+      }
+     ],
+     "cited_only": []
+    },
+    "don": {
+     "treats": [],
+     "cited_only": []
+    },
+    "gallic": {
+     "treats": [],
+     "cited_only": []
+    },
+    "hal": {
+     "treats": [
+      {
+       "work": "Tertullian, On Modesty VIII-IX (shared volume)",
+       "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+       "line": 7827
+      }
+     ],
+     "cited_only": []
+    },
+    "ijc": {
+     "treats": [
+      {
+       "work": "Ambrose, Concerning Repentance II.3 (the Prodigal Son)",
+       "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+       "line": 35106
+      },
+      {
+       "work": "Chrysostom, Exhortation to Theodore I",
+       "file": "cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml",
+       "line": 7320
+      }
+     ],
+     "cited_only": []
+    },
+    "lpc": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Augustine, Exposition of Psalm 96 uses the parable",
+       "file": "cic/texts/npnf108_augustine-exposition-psalms.xml",
+       "line": 20592
+      }
+     ]
+    },
+    "pahc": {
+     "treats": [
+      {
+       "work": "Chrysostom, Exhortation to Theodore I (shared volume)",
+       "file": "cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml",
+       "line": 7320
+      }
+     ],
+     "cited_only": []
+    },
+    "rzg": {
+     "treats": [],
+     "cited_only": []
+    },
+    "syr": {
+     "treats": [],
+     "cited_only": []
+    },
+    "witt": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Arndt, True Christianity: Lost Sheep and Prodigal Son as consolation",
+       "file": "cic/texts/arndt_true-christianity_boehm-schaeffer1868.txt",
+       "line": 11483
+      }
+     ]
+    }
+   }
+  },
+  "Isa 41:10": {
+   "label": "fear not, I am with you",
+   "question_ids": [],
+   "note": "No homily or commentary treats it in any world. The one citation is Arndt (devotional, c. 1610).",
+   "worlds": {
+    "alx": {
+     "treats": [],
+     "cited_only": []
+    },
+    "cappadocian": {
+     "treats": [],
+     "cited_only": []
+    },
+    "desert": {
+     "treats": [],
+     "cited_only": []
+    },
+    "don": {
+     "treats": [],
+     "cited_only": []
+    },
+    "gallic": {
+     "treats": [],
+     "cited_only": []
+    },
+    "hal": {
+     "treats": [],
+     "cited_only": []
+    },
+    "ijc": {
+     "treats": [],
+     "cited_only": []
+    },
+    "lpc": {
+     "treats": [],
+     "cited_only": []
+    },
+    "pahc": {
+     "treats": [],
+     "cited_only": []
+    },
+    "rzg": {
+     "treats": [],
+     "cited_only": []
+    },
+    "syr": {
+     "treats": [],
+     "cited_only": []
+    },
+    "witt": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Arndt, True Christianity",
+       "file": "cic/texts/arndt_true-christianity_boehm-schaeffer1868.txt",
+       "line": 16999
+      }
+     ]
+    }
+   }
+  },
+  "Phil 4:6": {
+   "label": "do not be anxious",
+   "question_ids": [],
+   "note": "Cited only. Chrysostom's Homilies on Philippians are vendored (npnf113) but mapped to the Antiochene world alone.",
+   "worlds": {
+    "alx": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Athanasius, Festal Letter for 331",
+       "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+       "line": 65334
+      }
+     ]
+    },
+    "cappadocian": {
+     "treats": [],
+     "cited_only": []
+    },
+    "desert": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Cassian, Conference IX.17 (shared)",
+       "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+       "line": 35154
+      }
+     ]
+    },
+    "don": {
+     "treats": [],
+     "cited_only": []
+    },
+    "gallic": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Cassian, Conference IX.17 (four kinds of prayer)",
+       "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+       "line": 35154
+      }
+     ]
+    },
+    "hal": {
+     "treats": [],
+     "cited_only": []
+    },
+    "ijc": {
+     "treats": [],
+     "cited_only": []
+    },
+    "lpc": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Augustine, Exposition of Psalm 47",
+       "file": "cic/texts/npnf108_augustine-exposition-psalms.xml",
+       "line": 7911
+      },
+      {
+       "work": "Augustine, Letter 122",
+       "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+       "line": 44122
+      }
+     ]
+    },
+    "pahc": {
+     "treats": [],
+     "cited_only": []
+    },
+    "rzg": {
+     "treats": [],
+     "cited_only": []
+    },
+    "syr": {
+     "treats": [],
+     "cited_only": []
+    },
+    "witt": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Arndt, True Christianity",
+       "file": "cic/texts/arndt_true-christianity_boehm-schaeffer1868.txt",
+       "line": 16012
+      }
+     ]
+    }
+   }
+  },
+  "Jer 29:11": {
+   "label": "plans to prosper you",
+   "question_ids": [
+    "R-33"
+   ],
+   "note": "No homily or commentary treats it in any world. No world in the registry has it as a promise to them.",
+   "worlds": {
+    "alx": {
+     "treats": [],
+     "cited_only": []
+    },
+    "cappadocian": {
+     "treats": [],
+     "cited_only": []
+    },
+    "desert": {
+     "treats": [],
+     "cited_only": []
+    },
+    "don": {
+     "treats": [],
+     "cited_only": []
+    },
+    "gallic": {
+     "treats": [],
+     "cited_only": []
+    },
+    "hal": {
+     "treats": [],
+     "cited_only": []
+    },
+    "ijc": {
+     "treats": [],
+     "cited_only": []
+    },
+    "lpc": {
+     "treats": [],
+     "cited_only": []
+    },
+    "pahc": {
+     "treats": [],
+     "cited_only": []
+    },
+    "rzg": {
+     "treats": [],
+     "cited_only": []
+    },
+    "syr": {
+     "treats": [],
+     "cited_only": []
+    },
+    "witt": {
+     "treats": [],
+     "cited_only": [
+      {
+       "work": "Arndt, True Christianity",
+       "file": "cic/texts/arndt_true-christianity_boehm-schaeffer1868.txt",
+       "line": 7021
+      }
+     ]
+    }
+   }
+  }
+ },
+ "passage_index_feasibility": {
+  "mapped_files_12_worlds": 313,
+  "thml_xml_files": 32,
+  "thml_files_with_scripRef_tags": 32,
+  "scripRef_tags_in_those": 76551,
+  "thml_files_with_scripCom_commentary_tags": 9,
+  "scripCom_files": [
+   "npnf106 (Augustine Sermon on the Mount, Harmony, sermons: 99 sections, lpc)",
+   "npnf107 (Tractates on John and 1 John: 135, lpc)",
+   "npnf108 (Expositions of the Psalms: 143, lpc)",
+   "npnf111 (Chrysostom, Acts and Romans: 87, ijc)",
+   "anf07 (Apocalypse commentary of Victorinus: 102)",
+   "anf02 (fragments on 1 Peter: 56)",
+   "anf09 (2 whole-work tags)",
+   "npnf101 (1: Genesis 1)",
+   "npnf109 (1)"
+  ],
+  "plain_text_files": 281,
+  "by_language_in_filename": {
+   "lat": 77,
+   "eng/other": 147,
+   "grc": 39,
+   "fra": 29,
+   "deu": 21
+  },
+  "library_wide": "1,495 files; 38 ThML xml; 13 carry scripCom; Chrysostom on Matthew, John, 1 Corinthians, Galatians-Philemon (npnf110, 112, 113, 114) are scripCom-tagged but mapped to the Antiochene world only",
+  "structure_md": "cic/texts/STRUCTURE.md (15,274 lines) lists every volume's div tree with word counts, e.g. \"Matthew XVI. 28.\" for Chrysostom Homily LIV",
+  "reference_forms_seen": [
+   "osisRef/parsed attributes in ThML (Bible:Matt.16.28)",
+   "Roman numerals in editor notes (S. Matt. vii. 22)",
+   "Arabic chapter:verse (Arndt \"Matt. 7:23\", Luther Works \"Matt. 5:39\")",
+   "comma form in Latin editions (\"Matth. 7, 22\")",
+   "Beveridge \"Matth. v. 39\"",
+   "Vulgate/LXX psalm numbering (Aug. Exp. Ps 137 is Lat. CXXXVI)"
+  ],
+  "verdict": "Feasible in two tiers; not feasible as one automatic index."
+ }
+}

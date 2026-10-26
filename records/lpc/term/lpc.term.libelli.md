@@ -16,6 +16,14 @@ relations:
   target: lpc.term.reconciliation-penitential-discipline
 - type: associated-with
   target: lpc.term.the-lapsed
+use_note:
+  means: "A libellus said you had made the pagan offering; some bought one without making it, and Cyprian still held them fallen."
+  not_for:
+    - "a claim that it was a modern identity document or licence"
+    - "a claim that the Latin word appears in the English volume, which renders it certificates"
+    - "a claim that Latin libellus names only this paper"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -50,19 +58,19 @@ retrieval:
     directions -- this is the one the empire issued, which made a person lapsed'
   - the confessors' own letter of peace, which asks the church to take a person back, is a separate term
     (certificates) and a participant asking simply what a certificate was should be pointed to both
-plain_meaning: Rome did not ask anyone to renounce Christ in writing. It asked for a sacrifice, then wrote
-  down that one had been made. Some people paid money for that paper instead of sacrificing at all.
+plain_meaning: 'Rome ordered a sacrifice. Some people paid for a paper saying they had made it, without
+  sacrificing at all. Cyprian called that paper a denial: their hands were clean, but their conscience
+  was not.'
 world_word: libelli
 distortion_risk: low
 false_friend:
 - a formal identity document or licence, in the modern administrative sense
 senses:
-  informational: 'The empire did not ask anyone to renounce Christ in writing. It asked for a sacrifice,
-    and then wrote down that one had been made. A demand satisfied with money rather than incense produced
-    a class of people who had not, in their own minds, worshipped anything, and who nonetheless held a
-    document saying they had. This is the administrative fact underneath the lapsed, and therefore underneath
-    our whole penitential discipline and the confessor-authority tension: the crisis was documentary rather
-    than merely moral.'
+  informational: 'The empire asked for a sacrifice, and then wrote down that one had been made. A demand
+    satisfied with money rather than incense produced a class of people who had not, in their own minds,
+    worshipped anything, and who nonetheless held a document saying they had. This is the administrative
+    fact underneath the lapsed, and therefore underneath our whole penitential discipline and the confessor-authority
+    tension: the crisis was documentary rather than merely moral.'
   evidential: Our own bishop Cyprian names this paper. In De Lapsis he speaks of those who have defiled
     their conscience with certificates, and in his letter to Antonianus he writes of those who receive
     certificates and sets them beside those who sacrificed. The English calls it a certificate. The Latin
@@ -70,7 +78,7 @@ senses:
   translational: A modern listener may picture a formal identity document or licence. We mean a compliance
     record produced by an empire-wide administrative demand, whose existence is exactly what made failure
     documentary and public rather than private.
-quick_meaning: The libelli were papers given to people who obeyed the order to sacrifice. This paper is
-  what made a person one of the lapsed.
+quick_meaning: The libelli were papers saying a person had sacrificed. Some people bought one and never
+  sacrificed. Holding that paper made a person one of the lapsed.
 ---
 Derived from Doc_06 §2.3 and Lexicon-Chunks/lpclex017_libelli.md.

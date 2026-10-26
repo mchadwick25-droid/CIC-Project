@@ -20,6 +20,14 @@ relations:
   target: lpc.term.the-flock
 - type: associated-with
   target: lpc.term.the-one-episcopate
+use_note:
+  means: "Schism is the tear that comes when arguing stops and a separate altar, bishop and people stand in the same town."
+  not_for:
+    - "a claim that it was an ordinary feature of a plural religious landscape"
+    - "a claim that the line between heresy and schism was as stable as later usage implies"
+    - "a claim that this entry characterizes Donatism"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority
@@ -36,7 +44,8 @@ confidence:
     of the category to rivals was accurate.
 sources:
 - source_id: lpc.source.cyprian-de-unitate
-  locus: De Unitate, the general treatise on schism and the one episcopate
+  locus: De Unitate, the general treatise on schism and the one episcopate; De Unitate 17 -- one 'who
+    separates himself from the company of His clergy and people... dares to set up another altar'
   license: public-domain
 - source_id: lpc.source.augustine-on-baptism-against-the-donatists
   locus: On Baptism, Against the Donatists, the cross-phase grounding
@@ -71,7 +80,7 @@ senses:
     feature of a plural religious landscape. We mean a tearing of a single body, with real consequences
     for standing, sacraments, and ordinary life in a town where both parties are present -- not one option
     among many, but the outcome we organize ourselves to avoid.
-quick_meaning: For us, schism means a real split inside the one body of bishops, over belief or over practice.
-  It is a tear, not a mere argument.
+quick_meaning: 'For us, schism means a split in the one church: someone leaves its clergy and people and
+  sets up another altar. It is a tear, not a mere argument.'
 ---
 Derived from Doc_06 §2 and §3 and Lexicon-Chunks/lpclex015_schism.md.

@@ -1,0 +1,3862 @@
+{
+ "generated": "2026-10-26",
+ "method": {
+  "tool": "scratchpad/tools/coverage_search.py --whole-words --regex, eight term sets (search/C6/terms.txt); S1-S3 re-run in the foreground because the first background runs were empty",
+  "record_check": "independent front-matter grep (recgrep.py -> recgrep.json); records read via show-*.txt dumps and showc.py",
+  "verification": "verify.py: quote text normalised and searched in the vendored file named by the source record; three records checked by hand (see verified[].detail)",
+  "layers": "RENDERED = a record speaks to the sub-question (R* = partial, or an honest_limit/guard only); LOADED = a vendored file mapped to the world holds a passage read in context; IDENTIFIED = registered, unvendored source record; OTHER = outside the repo; NOTHING. Drafts are marked; lpc is entirely draft with no package."
+ },
+ "sub_questions": [
+  {
+   "id": "C6.S1",
+   "label": "Who led, how chosen, what the titles meant, bishops or not, could a congregation remove one",
+   "question_ids": [
+    "C6-01",
+    "C6-02",
+    "C6-06",
+    "C6-08",
+    "C6-15",
+    "C6-20",
+    "C6-21",
+    "C6-23"
+   ]
+  },
+  {
+   "id": "C6.S2",
+   "label": "The pope and Rome; Peter and 'on this rock'",
+   "question_ids": [
+    "C6-09",
+    "C6-10",
+    "C6-25"
+   ]
+  },
+  {
+   "id": "C6.S3",
+   "label": "Councils and creeds; who decided disputes; did ordinary believers have a say",
+   "question_ids": [
+    "C6-03",
+    "C6-18",
+    "C6-19",
+    "C6-26"
+   ]
+  },
+  {
+   "id": "C6.S4",
+   "label": "Tradition and scripture; apostolic succession; the only true church; is there a church today that is yours",
+   "question_ids": [
+    "C6-04",
+    "C6-05",
+    "C6-13",
+    "C6-14",
+    "C6-24"
+   ]
+  },
+  {
+   "id": "C6.S5",
+   "label": "Heresy: who decided, what happened to heretics",
+   "question_ids": [
+    "C6-12"
+   ]
+  },
+  {
+   "id": "C6.S6",
+   "label": "Married clergy; deacons and deaconesses",
+   "question_ids": [
+    "C6-11",
+    "C6-22"
+   ]
+  },
+  {
+   "id": "C6.S7",
+   "label": "The emperor's say in belief",
+   "question_ids": [
+    "C6-17"
+   ]
+  },
+  {
+   "id": "C6.S8",
+   "label": "Leaders who failed, got rich, or abused; distrust of leaders; lonely leaders and divided congregations",
+   "question_ids": [
+    "C6-07",
+    "C6-16",
+    "R-16",
+    "R-17",
+    "R-39",
+    "R-40"
+   ]
+  }
+ ],
+ "canon_demonstrations": {
+  "F3-I": {
+   "questions": 5,
+   "worlds_with_demo": 3,
+   "demos_total": 3,
+   "per_world": {
+    "alx": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "gravity": 3,
+      "story": 5,
+      "contested_claim": 1,
+      "quote": 1,
+      "term": 5,
+      "force": 4
+     }
+    },
+    "cappadocian": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "doctrinal_witness": 1,
+      "quote": 1
+     }
+    },
+    "desert": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "gravity": 3,
+      "figure": 1,
+      "story": 3,
+      "quote": 15,
+      "term": 3,
+      "force": 4
+     }
+    },
+    "don": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "gravity": 1,
+      "doctrinal_witness": 2,
+      "story": 1,
+      "quote": 1,
+      "term": 5
+     }
+    },
+    "gallic": {
+     "count": 1,
+     "demos": [
+      "gallic.demo.who-chose-bishops"
+     ],
+     "tagged_records": {
+      "demonstration": 1,
+      "term": 2
+     }
+    },
+    "hal": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "gravity": 2,
+      "story": 1,
+      "quote": 1,
+      "term": 3,
+      "force": 1
+     }
+    },
+    "ijc": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "gravity": 2,
+      "story": 4,
+      "contested_claim": 1,
+      "quote": 9,
+      "term": 4,
+      "force": 1
+     }
+    },
+    "lpc": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "gravity": 1,
+      "doctrinal_witness": 1,
+      "story": 1,
+      "quote": 5,
+      "term": 3,
+      "force": 3
+     }
+    },
+    "pahc": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "gravity": 3,
+      "story": 2,
+      "contested_claim": 1,
+      "quote": 6,
+      "term": 7,
+      "force": 3
+     }
+    },
+    "rzg": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "gravity": 2,
+      "figure": 1,
+      "doctrinal_witness": 1,
+      "story": 1,
+      "term": 3,
+      "force": 1
+     }
+    },
+    "syr": {
+     "count": 1,
+     "demos": [
+      "syr.demo.authority"
+     ],
+     "tagged_records": {
+      "gravity": 3,
+      "doctrinal_witness": 1,
+      "story": 4,
+      "contested_claim": 2,
+      "demonstration": 1,
+      "quote": 2,
+      "term": 3,
+      "force": 5
+     }
+    },
+    "witt": {
+     "count": 1,
+     "demos": [
+      "witt.demo.who-held-authority"
+     ],
+     "tagged_records": {
+      "demonstration": 1,
+      "term": 12
+     }
+    }
+   }
+  },
+  "F1-E": {
+   "questions": 2,
+   "worlds_with_demo": 0,
+   "demos_total": 0,
+   "per_world": {
+    "alx": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "gravity": 1,
+      "doctrinal_witness": 1,
+      "story": 1,
+      "quote": 1,
+      "term": 1,
+      "force": 1
+     }
+    },
+    "cappadocian": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "doctrinal_witness": 1,
+      "quote": 1
+     }
+    },
+    "desert": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "doctrinal_witness": 1,
+      "quote": 1
+     }
+    },
+    "don": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "doctrinal_witness": 2,
+      "story": 1,
+      "term": 2
+     }
+    },
+    "gallic": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "term": 2
+     }
+    },
+    "hal": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "doctrinal_witness": 1,
+      "contested_claim": 1,
+      "quote": 1
+     }
+    },
+    "ijc": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "gravity": 1,
+      "story": 1,
+      "contested_claim": 1,
+      "quote": 2,
+      "term": 2,
+      "force": 1
+     }
+    },
+    "lpc": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "honest_limit": 1
+     }
+    },
+    "pahc": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "quote": 1,
+      "term": 1
+     }
+    },
+    "rzg": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "honest_limit": 1
+     }
+    },
+    "syr": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "doctrinal_witness": 1,
+      "quote": 1
+     }
+    },
+    "witt": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "doctrinal_witness": 1
+     }
+    }
+   }
+  },
+  "F3-T": {
+   "questions": 2,
+   "worlds_with_demo": 0,
+   "demos_total": 0,
+   "per_world": {
+    "alx": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "doctrinal_witness": 1,
+      "quote": 1,
+      "term": 4
+     }
+    },
+    "cappadocian": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "doctrinal_witness": 1,
+      "quote": 1
+     }
+    },
+    "desert": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "quote": 1,
+      "force": 1
+     }
+    },
+    "don": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "doctrinal_witness": 2,
+      "story": 1,
+      "term": 6
+     }
+    },
+    "gallic": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "term": 3
+     }
+    },
+    "hal": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "doctrinal_witness": 1,
+      "quote": 1
+     }
+    },
+    "ijc": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "contested_claim": 1,
+      "quote": 1,
+      "term": 1,
+      "force": 1
+     }
+    },
+    "lpc": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "gravity": 1,
+      "doctrinal_witness": 1,
+      "quote": 3,
+      "term": 1
+     }
+    },
+    "pahc": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "gravity": 1,
+      "story": 1,
+      "contested_claim": 1,
+      "quote": 2,
+      "term": 1,
+      "force": 2
+     }
+    },
+    "rzg": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "doctrinal_witness": 1
+     }
+    },
+    "syr": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "gravity": 1,
+      "doctrinal_witness": 1,
+      "quote": 1,
+      "force": 1
+     }
+    },
+    "witt": {
+     "count": 0,
+     "demos": [],
+     "tagged_records": {
+      "doctrinal_witness": 1,
+      "quote": 1
+     }
+    }
+   }
+  }
+ },
+ "verification_all": {
+  "alx.quote.the-grades-here-in-the-church": {
+   "result": "MATCH",
+   "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "lines": [
+    47889
+   ]
+  },
+  "alx.quote.demetrius-accused-him-bitterly": {
+   "result": "MATCH (section-number-dropped)",
+   "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": [
+    33217
+   ]
+  },
+  "alx.quote.dionysius-nepos": {
+   "result": "MATCH",
+   "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": [
+    41312
+   ]
+  },
+  "alx.quote.ecclesiastical-and-apostolical-tradition": {
+   "result": "MATCH",
+   "file": "anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+   "lines": [
+    22432
+   ]
+  },
+  "alx.quote.no-festal-letter-was-written": {
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    64366
+   ]
+  },
+  "cappadocian.quote.basil-to-the-chorepiscopi": {
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    27548
+   ]
+  },
+  "cappadocian.quote.basil-on-the-doxology-challenge": {
+   "result": "MATCH (spacing-only)",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    8793
+   ]
+  },
+  "cappadocian.quote.we-look-to-the-east": {
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    14068
+   ]
+  },
+  "cappadocian.quote.what-is-the-written-source": {
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    14128
+   ]
+  },
+  "desert.quote.never-held-communion-with-the-schismatics": {
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    32908
+   ]
+  },
+  "desert.quote.antony-nicene-formula": {
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    32931
+   ]
+  },
+  "desert.quote.monks-like-hyenas": {
+   "result": "MATCH (page-break marker)",
+   "file": "pachomius_rules-ethiopic_schodde1885.txt",
+   "lines": [
+    224,
+    228
+   ]
+  },
+  "don.quote.donatus-quid-est-imperatori": {
+   "result": "PARTIAL",
+   "file": "optatus_against-the-donatists.txt",
+   "lines": [
+    1904
+   ]
+  },
+  "gallic.quote.pope-stephen-no-innovation": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    12527
+   ]
+  },
+  "gallic.quote.council-over-rashness-and-ignorance": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    12218
+   ]
+  },
+  "gallic.quote.believed-everywhere-always-by-all": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    12185
+   ]
+  },
+  "gallic.quote.secular-ruler-judge-in-ecclesiastical-cause": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    11655
+   ]
+  },
+  "gallic.quote.sulpitius-on-the-secular-judge-in-an-ecclesiastical-cause": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    11655
+   ]
+  },
+  "gallic.quote.devil-incites-desire-for-holy-office": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    26944
+   ]
+  },
+  "gallic.quote.nobles-forced-down-afterwards-made-bishops": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    1153
+   ]
+  },
+  "gallic.quote.aloof-from-assemblies-of-bishops": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    5217
+   ]
+  },
+  "gallic.quote.no-others-than-bishops": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    1938
+   ]
+  },
+  "gallic.quote.martin-if-christ-bore-with-judas": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    5330
+   ]
+  },
+  "gallic.quote.private-fancy-be-he-a-bishop": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    14271
+   ]
+  },
+  "gallic.quote.vincent-celestines-letter-and-its-reading": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    14615
+   ]
+  },
+  "gallic.quote.ruricius-and-the-vote-for-tours": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    1059
+   ]
+  },
+  "gallic.quote.archebius-carried-off-to-panephysis": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    36807
+   ]
+  },
+  "hal.quote.rufinus-writes-because-rome-is-where-the-news-is": {
+   "result": "MATCH",
+   "file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": [
+    45939
+   ]
+  },
+  "hal.quote.those-of-my-own-order": {
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    6367
+   ]
+  },
+  "hal.quote.a-man-truly-catholic": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    2859
+   ]
+  },
+  "hal.quote.rome-resounded": {
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    8636
+   ]
+  },
+  "ijc.quote.peter-has-spoken": {
+   "result": "MATCH",
+   "file": "npnf214_seven-ecumenical-councils.xml",
+   "lines": [
+    19996
+   ]
+  },
+  "ijc.quote.julius-custom": {
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    23549
+   ]
+  },
+  "ijc.quote.socrates-damasus-election": {
+   "result": "MATCH",
+   "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": [
+    14203
+   ]
+  },
+  "ijc.quote.ambrose-emperor-in-church": {
+   "result": "MATCH",
+   "file": "npnf210_ambrose-select-works-letters.xml",
+   "lines": [
+    42660
+   ]
+  },
+  "ijc.quote.constantine-bishop-outside": {
+   "result": "MATCH",
+   "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": [
+    66732
+   ]
+  },
+  "ijc.quote.sozomen-thessalonica-law": {
+   "result": "MATCH",
+   "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": [
+    40613
+   ]
+  },
+  "ijc.quote.compelled-to-come-in": {
+   "result": "MATCH",
+   "file": "npnf104_augustine-anti-manichaean-anti-donatist.xml",
+   "lines": [
+    19616,
+    19624
+   ]
+  },
+  "ijc.quote.canon28-equal-privileges": {
+   "result": "MATCH",
+   "file": "npnf214_seven-ecumenical-councils.xml",
+   "lines": [
+    22223,
+    22228
+   ]
+  },
+  "ijc.quote.leo-things-secular": {
+   "result": "MATCH",
+   "file": "npnf212_leo-great-gregory-great.xml",
+   "lines": [
+    9079
+   ]
+  },
+  "ijc.quote.no-power-but-of-god": {
+   "result": "MATCH",
+   "file": "npnf111_chrysostom-homilies-acts-romans.xml",
+   "lines": [
+    53973
+   ]
+  },
+  "ijc.quote.secular-ruler-ecclesiastical-cause": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    11652
+   ]
+  },
+  "lpc.quote.clamour-and-tears": {
+   "result": "MATCH (hyphen-joined)",
+   "file": "possidius_vita-augustini_weiskotten1919.txt",
+   "lines": [
+    1808,
+    1813
+   ]
+  },
+  "lpc.quote.bishop-of-bishops": {
+   "result": "MATCH",
+   "file": "anf05_hippolytus-cyprian-caius-novatian.xml",
+   "lines": [
+    56871
+   ]
+  },
+  "lpc.quote.ancient-venom-against-my-episcopate": {
+   "result": "MATCH",
+   "file": "anf05_hippolytus-cyprian-caius-novatian.xml",
+   "lines": [
+    32371
+   ]
+  },
+  "lpc.quote.ye-belong-to-my-care": {
+   "result": "MATCH",
+   "file": "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+   "lines": [
+    20796
+   ]
+  },
+  "lpc.quote.shepherd-wounded-in-the-flock": {
+   "result": "MATCH",
+   "file": "anf05_hippolytus-cyprian-caius-novatian.xml",
+   "lines": [
+    43724
+   ]
+  },
+  "lpc.quote.pardon-through-a-wicked-clergyman": {
+   "result": "MATCH",
+   "file": "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+   "lines": [
+    13008
+   ]
+  },
+  "lpc.quote.one-good-shepherd-not-many": {
+   "result": "MATCH",
+   "file": "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+   "lines": [
+    20848
+   ]
+  },
+  "pahc.quote.first-clement-apostolic-chain": {
+   "result": "MATCH",
+   "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": [
+    1845,
+    1856
+   ]
+  },
+  "pahc.quote.they-appointed-the-first-fruits": {
+   "result": "MATCH",
+   "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": [
+    1856
+   ]
+  },
+  "pahc.quote.not-every-one-that-speaketh-in-the-spirit": {
+   "result": "MATCH (section-number-dropped)",
+   "file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+   "lines": [
+    13026
+   ]
+  },
+  "pahc.quote.two-female-slaves-who-were-called-deaconesses": {
+   "result": "MATCH (italic-tag boundary)",
+   "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": [
+    19503
+   ]
+  },
+  "pahc.quote.asia-rejected-new-prophecy": {
+   "result": "MATCH",
+   "file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+   "lines": [
+    11308
+   ]
+  },
+  "pahc.quote.polycrates-to-victor": {
+   "result": "MATCH",
+   "file": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+   "lines": [
+    72578,
+    72614
+   ]
+  },
+  "rzg.quote.seniors-selected-from-the-people": {
+   "result": "MATCH",
+   "file": "calvin_institutes-christian-religion-vol3_beveridge1845.txt",
+   "lines": [
+    2830
+   ]
+  },
+  "syr.quote.permitted-to-erect-churches": {
+   "result": "MATCH",
+   "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": [
+    19172
+   ]
+  },
+  "syr.quote.symeon-and-usthazanes": {
+   "result": "MATCH (spacing-only)",
+   "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": [
+    28873
+   ]
+  },
+  "witt.quote.congregation-of-saints": {
+   "result": "MATCH",
+   "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+   "lines": [
+    277
+   ]
+  },
+  "witt.quote.nothing-that-varies": {
+   "result": "MATCH",
+   "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+   "lines": [
+    1543
+   ]
+  },
+  "cappadocian.quote.basil-canon-on-digamy": {
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    35030
+   ]
+  },
+  "gallic.quote.gallus-on-the-forced-communion-and-the-angel": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    5145,
+    5184
+   ]
+  },
+  "ijc.quote.chalcedon-definition": {
+   "result": "MATCH",
+   "file": "npnf214_seven-ecumenical-councils.xml",
+   "lines": [
+    20287
+   ]
+  },
+  "ijc.quote.nicene-creed": {
+   "result": "MATCH",
+   "file": "npnf214_seven-ecumenical-councils.xml",
+   "lines": [
+    2408,
+    2412,
+    2413
+   ]
+  },
+  "lpc.quote.the-branch-cut-from-the-vine": {
+   "result": "MATCH",
+   "file": "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+   "lines": [
+    12936
+   ]
+  },
+  "syr.quote.blc-one-name": {
+   "result": "MATCH",
+   "file": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+   "lines": [
+    68966
+   ]
+  },
+  "witt.quote.article-ix-of-baptism": {
+   "result": "MATCH",
+   "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+   "lines": [
+    309
+   ]
+  },
+  "witt.quote.second-article-of-the-creed": {
+   "result": "MATCH",
+   "file": "luther_small-catechism_smith1994.txt",
+   "lines": [
+    189
+   ]
+  }
+ },
+ "worlds": {
+  "alx": {
+   "S1": {
+    "layer": "RENDERED (partial or guard only)",
+    "records": [
+     "alx.term.episkopos",
+     "alx.quote.the-grades-here-in-the-church",
+     "alx.story.origen-demetrius",
+     "alx.quote.demetrius-accused-him-bitterly"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "line": 4429,
+      "snippet": "Athanasius was elected bishop by general consent ... the actual election appears to have rested with the bishops of Egypt and Libya (Robertson's introduction)"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "id": "OTH-Hippolytus-AT",
+      "work": "Hippolytus (attrib.), Apostolic Tradition (Rome, c. 215): the bishop 'chosen by all the people'; ordination of presbyters and deacons; the deaconess not ordained",
+      "edition": "B. S. Easton, The Apostolic Tradition of Hippolytus (Cambridge 1934); Dix 1937 is in copyright",
+      "where": "archive.org",
+      "licence": "rights to be confirmed (1934 US renewal not checked)",
+      "subs": [
+       "S1",
+       "S6"
+      ]
+     }
+    ],
+    "note": "Titles and the bishop's role are covered (episkopos; Clement's three ranks) and one bishop-against-teacher break is told twice. Nothing says how a bishop was chosen or whether a congregation could remove one. Jerome Ep. 146 (presbyters named their bishop at Alexandria down to Heraclas) is vendored under hal's map, not alx's.",
+    "verified": [
+     {
+      "record": "alx.quote.the-grades-here-in-the-church",
+      "result": "MATCH",
+      "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": [
+       47889
+      ],
+      "detail": null
+     },
+     {
+      "record": "alx.quote.demetrius-accused-him-bitterly",
+      "result": "MATCH (section-number-dropped)",
+      "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": [
+       33217
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "non_ready_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "line": 3775,
+      "snippet": "Dionysius of Rome pressing the test on his namesake of Alexandria, who did not decline it (Robertson)"
+     },
+     {
+      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+      "line": 9324,
+      "snippet": "Julius I's letter that the Alexandrian matter should first have been referred to Rome (Socrates II.8, editor)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No alx record names Rome, pope or Peter. The vendored hits are about Rome and Alexandria in the 250s and the 340s and are read in context.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.dw.councils",
+     "alx.term.kanon-pisteos",
+     "alx.term.homoousios",
+     "alx.story.arsinoite-conference",
+     "alx.quote.dionysius-nepos"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Strongest council answer in the cluster for a pre-Nicene world: teachers, then bishop, then council; denies the council voted. Ordinary believers appear only as village presbyters and teachers at Arsinoe. The creed question gets the rule of faith (not a written creed); the Nicene creed is a source record with no quote.",
+    "verified": [
+     {
+      "record": "alx.quote.dionysius-nepos",
+      "result": "MATCH",
+      "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": [
+       41312
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.quote.ecclesiastical-and-apostolical-tradition",
+     "alx.term.kanon-pisteos",
+     "alx.force.apostolic-tradition",
+     "alx.dw.one-church",
+     "alx.quote.the-grades-here-in-the-church"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Tradition, rule of faith, 'catholic' as wholeness and the honest stop on any church today are all rendered. Apostolic succession of bishops is not claimed by any record; Origen's 'orderly succession' is of teaching.",
+    "verified": [
+     {
+      "record": "alx.quote.ecclesiastical-and-apostolical-tradition",
+      "result": "MATCH",
+      "file": "anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+      "lines": [
+       22432
+      ],
+      "detail": null
+     },
+     {
+      "record": "alx.quote.the-grades-here-in-the-church",
+      "result": "MATCH",
+      "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": [
+       47889
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.dw.one-church",
+     "alx.dw.church-failure",
+     "alx.dw.councils",
+     "alx.term.homoousios"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Boundaries with Gnostic and Arian rivals are said to be real and enforced, and the world owns the force used after Nicaea. No quote shows a heretic being dealt with.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "RENDERED (partial or guard only)",
+    "records": [
+     "alx.quote.the-grades-here-in-the-church"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "line": 3763,
+      "snippet": "Paphnutius at Nicaea against imposing celibacy on the clergy (Socrates I.11)"
+     },
+     {
+      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+      "line": 2321,
+      "snippet": "Nicene canon on deaconesses (heading), with editor's note"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Deacons appear only as a heavenly rank in Clement. Nothing on what they did, on deaconesses or on married clergy.",
+    "verified": [
+     {
+      "record": "alx.quote.the-grades-here-in-the-church",
+      "result": "MATCH",
+      "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": [
+       47889
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.dw.empire",
+     "alx.quote.no-festal-letter-was-written",
+     "alx.dw.councils"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Both sides of the Constantinian change, with Athanasius's exiles as proof and a verified line from the Festal Index. Does not say whether the emperor dictated belief at Nicaea.",
+    "verified": [
+     {
+      "record": "alx.quote.no-festal-letter-was-written",
+      "result": "MATCH",
+      "file": "npnf204_athanasius-select-works-letters.xml",
+      "lines": [
+       64366
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.dw.church-failure",
+     "alx.quote.demetrius-accused-him-bitterly",
+     "alx.story.origen-demetrius",
+     "alx.quote.dionysius-nepos",
+     "alx.story.arsinoite-conference"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The record leaves the bishop-against-teacher wound visible and has a divided-villages story (Arsinoe) for R-40. Nothing on a lonely leader or on abuse.",
+    "verified": [
+     {
+      "record": "alx.quote.demetrius-accused-him-bitterly",
+      "result": "MATCH (section-number-dropped)",
+      "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": [
+       33217
+      ],
+      "detail": null
+     },
+     {
+      "record": "alx.quote.dionysius-nepos",
+      "result": "MATCH",
+      "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": [
+       41312
+      ],
+      "detail": null
+     }
+    ]
+   }
+  },
+  "cappadocian": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.dw.authority-and-spread",
+     "cappadocian.quote.basil-to-the-chorepiscopi",
+     "cappadocian.term.chorepiskopos",
+     "cappadocian.story.nyssa-exile",
+     "cappadocian.story.sasima-wound",
+     "cappadocian.term.philotimia"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [
+     "cappadocian.source.amphilochius-of-iconium-own-works"
+    ],
+    "other": [],
+    "note": "Sees, village bishops, simony letter, synod deposition: 'not one clean process' is said outright. No record has a congregation removing a bishop; synods and emperors do it.",
+    "verified": [
+     {
+      "record": "cappadocian.quote.basil-to-the-chorepiscopi",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       27548
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "non_ready_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+      "line": 8159,
+      "snippet": "Basil appealed to Damasus 'not as vassal to liege lord' (editor's note on Basil's appeals to Rome)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record names Rome. Basil's letters to Damasus and to the Western bishops are vendored and unrendered.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.dw.confession-not-a-vote",
+     "cappadocian.term.symbolon",
+     "cappadocian.story.doxology-stand",
+     "cappadocian.contested.homoian-nicene-reversal",
+     "cappadocian.term.homoousios"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The creed as written-down worship, not a vote; the Homoian reversal shows that emperors and synods decided too. Ordinary believers: only through the font and the doxology.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.dw.unwritten-carries-too",
+     "cappadocian.term.paradosis",
+     "cappadocian.dw.customs-from-the-apostles",
+     "cappadocian.dw.catholic-and-its-rivals",
+     "cappadocian.quote.we-look-to-the-east",
+     "cappadocian.quote.what-is-the-written-source",
+     "cappadocian.quote.basil-on-the-doxology-challenge"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The best tradition-beside-scripture answer in the fleet, with the honest 'no signed receipt back to the apostles'. Apostolic succession of bishops is not rendered.",
+    "verified": [
+     {
+      "record": "cappadocian.quote.we-look-to-the-east",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       14068
+      ],
+      "detail": null
+     },
+     {
+      "record": "cappadocian.quote.what-is-the-written-source",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       14128
+      ],
+      "detail": null
+     },
+     {
+      "record": "cappadocian.quote.basil-on-the-doxology-challenge",
+      "result": "MATCH (spacing-only)",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       8793
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.dw.catholic-and-its-rivals",
+     "cappadocian.dw.power-and-its-discipline",
+     "cappadocian.contested.homoian-nicene-reversal",
+     "cappadocian.contested.agennetos-transmission"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Rivals are named, and state power used on other Christians after 381 is admitted. Source gap in the world's own record is stated.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "RENDERED (partial or guard only)",
+    "records": [
+     "cappadocian.term.kanon-kanonikai",
+     "cappadocian.quote.basil-canon-on-digamy"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/gregory-nyssa_life-of-macrina_clarke1916.txt",
+      "line": 278,
+      "snippet": "Lampadia, 'leader of the band of sisters, a deaconess in rank'"
+     },
+     {
+      "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+      "line": 30301,
+      "snippet": "editor on Count Terentius (Basil Letter 99): 'his three daughters were deaconesses' (some MSS of Letter 105)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Only the enrolled order of virgins and widows is rendered; deaconesses and clergy marriage are not. Lampadia in the Life of Macrina is the clearest unrendered deaconess in the fleet's own text.",
+    "verified": [
+     {
+      "record": "cappadocian.quote.basil-canon-on-digamy",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       35030
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.dw.power-and-its-discipline",
+     "cappadocian.story.valens-caesarea",
+     "cappadocian.contested.homoian-nicene-reversal",
+     "cappadocian.dw.catholic-and-its-rivals"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [
+     "cappadocian.source.imperial-communion-law-of-381",
+     "cappadocian.source.julians-measures-against-caesarea"
+    ],
+    "other": [],
+    "note": "Strong: a creed backed by the court for most of a lifetime, then the other side's emperor. The 381 law itself is named, not vendored.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.story.sasima-wound",
+     "cappadocian.term.philotimia",
+     "cappadocian.gravity.hesychia-summons",
+     "cappadocian.story.nyssa-exile",
+     "cappadocian.story.gregory-constantinople",
+     "cappadocian.dw.power-and-its-discipline",
+     "cappadocian.quote.basil-to-the-chorepiscopi"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Ambition named as a clerical disease, simony disciplined, the friend posted to a backwater, the man who resigned. Best fleet answer for R-39 (a lonely leader). No abuse record; the cover-up question is answered as thin.",
+    "verified": [
+     {
+      "record": "cappadocian.quote.basil-to-the-chorepiscopi",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       27548
+      ],
+      "detail": null
+     }
+    ]
+   }
+  },
+  "desert": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.gravity.elder-authority",
+     "desert.gravity.authority-tension",
+     "desert.term.geron-abba-amma",
+     "desert.dw.never-settled"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [
+     "desert.source.rousseau-pachomius",
+     "desert.source.veilleux-koinonia"
+    ],
+    "other": [],
+    "note": "A non-episcopal answer: earned elder authority against the Pachomian rule and office, never settled. Bishops are not described; the Rule's offices rest on unvendored scholarship.",
+    "verified": []
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "non_ready_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "line": 4784,
+      "snippet": "Mareotic report sent to Julius of Rome, who handed it to Athanasius in 339 (Robertson)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Nothing desert-specific. Athanasius's dealings with Rome are vendored through his volume only.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.dw.councils",
+     "desert.quote.antony-nicene-formula"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Monks sat in no council; Antony was summoned by bishops to preach against Arians. Contested because it rests on Athanasius.",
+    "verified": [
+     {
+      "record": "desert.quote.antony-nicene-formula",
+      "result": "MATCH",
+      "file": "npnf204_athanasius-select-works-letters.xml",
+      "lines": [
+       32931
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S4": {
+    "layer": "RENDERED (partial or guard only)",
+    "records": [
+     "desert.dw.only-true-religion",
+     "desert.dw.councils",
+     "desert.contested.alexandria-continuity"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "One record says the faith was held as the one true religion, but against pagans, not other churches. Nothing on tradition, succession, or a church today (the continuity record is about Alexandria).",
+    "verified": []
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.dw.melitian-power",
+     "desert.quote.never-held-communion-with-the-schismatics",
+     "desert.dw.councils"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Refusal of communion with Melitians and Manichaeans, shown as silence more than persecution, with the claim flagged Contested.",
+    "verified": [
+     {
+      "record": "desert.quote.never-held-communion-with-the-schismatics",
+      "result": "MATCH",
+      "file": "npnf204_athanasius-select-works-letters.xml",
+      "lines": [
+       32908
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "non_ready_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "line": 3763,
+      "snippet": "Paphnutius, bishop in the Thebaid, raised in a monastery, argues at Nicaea against forcing clerical celibacy"
+     },
+     {
+      "file": "cic/texts/egeria_pilgrimage-of-etheria_mcclure-feltoe1919.txt",
+      "line": 1011,
+      "snippet": "the deaconess Marthana, head of a women's monastery near Seleucia"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record. Desert records mention a deacon only in passing.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "LOADED",
+    "records": [],
+    "non_ready_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "line": 30775,
+      "snippet": "editor lists Constantine's letter to Antony (Vita 81) among the points to weigh"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Only passing mentions of emperors (a letter from Antony to the emperors in dw.judgment-and-resurrection). Constantine's letter to Antony is in the Vita and unrendered.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.quote.monks-like-hyenas",
+     "desert.story.moses-leaking-jug",
+     "desert.limit.communal-wrong-unrepaired"
+    ],
+    "non_ready_status": {
+     "desert.limit.communal-wrong-unrepaired": "draft"
+    },
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Monks who keep the name and not the life, and an honest limit that no account shows the community making a wrong right. The limit record is draft.",
+    "verified": [
+     {
+      "record": "desert.quote.monks-like-hyenas",
+      "result": "MATCH (page-break marker)",
+      "file": "pachomius_rules-ethiopic_schodde1885.txt",
+      "lines": [
+       224,
+       228
+      ],
+      "detail": "words run across a printed page break '[p. 687]'; no wording change"
+     }
+    ]
+   }
+  },
+  "don": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "don.dw.two-churches-in-one-town",
+     "don.term.episcopus",
+     "don.term.primas",
+     "don.term.concilium"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [
+     "don.source.tilley-donatist-martyr-stories",
+     "don.source.maier-le-dossier-du-donatisme"
+    ],
+    "other": [],
+    "note": "Made by people and bishops together, with the 279-against-286 roll call and Cirta's shouting crowd; no surviving rule for choosing. Complete answer through the opponents' records.",
+    "verified": []
+   },
+   "S2": {
+    "layer": "RENDERED (partial or guard only)",
+    "records": [
+     "don.term.primas",
+     "don.dw.the-word-catholic-and-no-door-today",
+     "don.force.cyprianic-rigorist-inheritance"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/optatus_against-the-donatists.txt",
+      "line": 145,
+      "snippet": "Optatus: heretics hold neither the Keys 'which Peter alone received' nor the Ring"
+     },
+     {
+      "file": "cic/texts/optatus_against-the-donatists.txt",
+      "line": 153,
+      "snippet": "Caecilian never left 'the Chair of Peter, or the Chair of Cyprian'; Majorinus did"
+     }
+    ],
+    "identified": [
+     "don.source.edwards-optatus-against-the-donatists-tth27"
+    ],
+    "other": [],
+    "note": "The record answers only by guard: the primate was not a pope. Optatus's use of Peter's chair against the Donatists is vendored and unrendered.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "don.dw.who-decides-a-disputed-case",
+     "don.term.concilium",
+     "don.witness.refusal-and-recourse",
+     "don.story.conference-of-carthage-411"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Councils governed with force; the 411 conference is the world's council memory. No Donatist acta survive on their own terms, and the record says so.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "don.dw.the-word-catholic-and-no-door-today",
+     "don.dw.older-than-the-schism",
+     "don.dw.scripture-and-the-african-fathers",
+     "don.term.catholicus"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Both churches claimed 'catholic'; no traceable church today. The pedigree is Cyprian's council, not the apostles, and says so.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "don.dw.what-we-did-with-the-power-we-had",
+     "don.term.schisma",
+     "don.story.bagai-reconciliation",
+     "don.dw.the-word-catholic-and-no-door-today"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The world was both the punished and the punisher (Maximianists); fully owned. Circumcellion violence is draft contested_claim.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "non_ready_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/hefele_history-of-the-councils-v1-to-nicaea_clark1872.txt",
+      "line": 27335,
+      "snippet": "Nicaea canon on deaconesses: 'they must be classed merely among the laity'"
+     },
+     {
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "line": 16700,
+      "snippet": "editor: 'the Council of Nice refused to prohibit the married clergy to live in that holy estate'"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Deacons and an archdeacon figure in stories (Caecilian, Maximian) but nothing answers the question.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "don.dw.the-emperor-and-the-church",
+     "don.witness.refusal-and-recourse",
+     "don.quote.donatus-quid-est-imperatori",
+     "don.term.refusal-of-imperial-legitimacy"
+    ],
+    "non_ready_status": {
+     "don.quote.donatus-quid-est-imperatori": "draft"
+    },
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Fullest principled-refusal answer, with the three recourses owned. The founding quote is draft and only half verified.",
+    "verified": [
+     {
+      "record": "don.quote.donatus-quid-est-imperatori",
+      "result": "PARTIAL",
+      "file": "optatus_against-the-donatists.txt",
+      "lines": [
+       1904
+      ],
+      "detail": "English gloss matches Vassall-Phillips line 1904; the Latin phrase is found only in Ziwsa's word index (line 23706), not located in the OCR of Book III; record is status draft"
+     }
+    ]
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "don.dw.what-we-did-with-the-power-we-had",
+     "don.dw.hypocrites-and-those-who-left",
+     "don.story.gesta-apud-zenophilum",
+     "don.dw.silver-and-the-goods-of-the-poor"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The 320 inquiry, where bishops hushed a true charge, is the fleet's nearest ancient parallel to a cover-up, and the records mark it 'not a modern parallel'.",
+    "verified": []
+   }
+  },
+  "gallic": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.demo.who-chose-bishops",
+     "gallic.story.election-at-tours",
+     "gallic.contested.election-as-capture",
+     "gallic.quote.ruricius-and-the-vote-for-tours",
+     "gallic.quote.nobles-forced-down-afterwards-made-bishops",
+     "gallic.term.monk-bishop",
+     "gallic.quote.devil-incites-desire-for-holy-office",
+     "gallic.quote.archebius-carried-off-to-panephysis"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "One of three worlds with a demonstration on F3-I-05, and the fullest on how a bishop was made against his will; the capture claim is held Contested.",
+    "verified": [
+     {
+      "record": "gallic.quote.ruricius-and-the-vote-for-tours",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       1059
+      ],
+      "detail": null
+     },
+     {
+      "record": "gallic.quote.nobles-forced-down-afterwards-made-bishops",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       1153
+      ],
+      "detail": null
+     },
+     {
+      "record": "gallic.quote.devil-incites-desire-for-holy-office",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       26944
+      ],
+      "detail": null
+     },
+     {
+      "record": "gallic.quote.archebius-carried-off-to-panephysis",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       36807
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.term.apostolic-see-pope",
+     "gallic.quote.pope-stephen-no-innovation",
+     "gallic.quote.vincent-celestines-letter-and-its-reading",
+     "gallic.force.africa-and-rome-pressure"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "'Pope' as a title of honour, the Apostolic See as Rome and not a supremacy. 'On this rock' is not rendered.",
+    "verified": [
+     {
+      "record": "gallic.quote.pope-stephen-no-innovation",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       12527
+      ],
+      "detail": null
+     },
+     {
+      "record": "gallic.quote.vincent-celestines-letter-and-its-reading",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       14615
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.term.council-synod",
+     "gallic.quote.council-over-rashness-and-ignorance",
+     "gallic.quote.aloof-from-assemblies-of-bishops",
+     "gallic.gravity.authority-ambivalence"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Two houses, two answers: Vincent trusts ancient councils, Martin never entered a synod again. Laity: nothing.",
+    "verified": [
+     {
+      "record": "gallic.quote.council-over-rashness-and-ignorance",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       12218
+      ],
+      "detail": null
+     },
+     {
+      "record": "gallic.quote.aloof-from-assemblies-of-bishops",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       5217
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.term.tradition",
+     "gallic.quote.believed-everywhere-always-by-all",
+     "gallic.term.the-deposit",
+     "gallic.term.catholic",
+     "gallic.quote.private-fancy-be-he-a-bishop"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Vincent's test is the best statement of tradition in the fleet. Apostolic succession is explicitly not claimed (not_for in apostolic-authority).",
+    "verified": [
+     {
+      "record": "gallic.quote.believed-everywhere-always-by-all",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       12185
+      ],
+      "detail": null
+     },
+     {
+      "record": "gallic.quote.private-fancy-be-he-a-bishop",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       14271
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.term.heretic-heresy",
+     "gallic.quote.secular-ruler-judge-in-ecclesiastical-cause",
+     "gallic.term.catholic"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Heretics cast out by bishops and never put to the sword; Martin against the Priscillian trial.",
+    "verified": [
+     {
+      "record": "gallic.quote.secular-ruler-judge-in-ecclesiastical-cause",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       11655
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "non_ready_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 880,
+      "snippet": "Hilary 'having instituted him in the office of the diaconate' (Martin, Life 5)"
+     },
+     {
+      "file": "cic/texts/hefele_history-of-the-councils-v3-431-451_clark1883.txt",
+      "line": 8855,
+      "snippet": "Synod of Orange 441, canon 26: 'Deaconesses shall no longer be ordained' (vendored under ijc's map, not gallic's)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Records mention only Cassian's warning against wanting the diaconate. Nothing on married clergy or deaconesses.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.quote.secular-ruler-judge-in-ecclesiastical-cause",
+     "gallic.quote.sulpitius-on-the-secular-judge-in-an-ecclesiastical-cause",
+     "gallic.quote.gallus-on-the-forced-communion-and-the-angel",
+     "gallic.term.council-synod"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Martin against a state trial of heretics, and the coerced communion he regretted.",
+    "verified": [
+     {
+      "record": "gallic.quote.secular-ruler-judge-in-ecclesiastical-cause",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       11655
+      ],
+      "detail": null
+     },
+     {
+      "record": "gallic.quote.sulpitius-on-the-secular-judge-in-an-ecclesiastical-cause",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       11655
+      ],
+      "detail": null
+     },
+     {
+      "record": "gallic.quote.gallus-on-the-forced-communion-and-the-angel",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       5145,
+       5184
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.story.brictio-in-the-courtyard",
+     "gallic.quote.martin-if-christ-bore-with-judas",
+     "gallic.quote.no-others-than-bishops",
+     "gallic.quote.archebius-carried-off-to-panephysis",
+     "gallic.quote.devil-incites-desire-for-holy-office"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [
+     "gallic.source.leyser-authority-and-asceticism",
+     "gallic.source.mathisen-ecclesiastical-factionalism"
+    ],
+    "other": [],
+    "note": "A leader who would not remove an accused presbyter, a bishop's lament on his election, hostile bishops. The Brictio charges are never judged.",
+    "verified": [
+     {
+      "record": "gallic.quote.martin-if-christ-bore-with-judas",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       5330
+      ],
+      "detail": null
+     },
+     {
+      "record": "gallic.quote.no-others-than-bishops",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       1938
+      ],
+      "detail": null
+     },
+     {
+      "record": "gallic.quote.archebius-carried-off-to-panephysis",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       36807
+      ],
+      "detail": null
+     },
+     {
+      "record": "gallic.quote.devil-incites-desire-for-holy-office",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       26944
+      ],
+      "detail": null
+     }
+    ]
+   }
+  },
+  "hal": {
+   "S1": {
+    "layer": "RENDERED (partial or guard only)",
+    "records": [
+     "hal.term.patrocinium",
+     "hal.term.exegesis-as-practiced-authority",
+     "hal.quote.rome-resounded"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 29179,
+      "snippet": "Jerome, Ep. 146: at Alexandria 'the presbyters always named as bishop one of their own number', as an army elects a general"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Authority here is patronage and learning (the second Contested), not office. Jerome's own view of how bishops arose is vendored and unrendered.",
+    "verified": [
+     {
+      "record": "hal.quote.rome-resounded",
+      "result": "MATCH",
+      "file": "npnf206_jerome-principal-works.xml",
+      "lines": [
+       8636
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S2": {
+    "layer": "RENDERED (partial or guard only)",
+    "records": [
+     "hal.dw.authority",
+     "hal.quote.rufinus-writes-because-rome-is-where-the-news-is",
+     "hal.story.rufinus-rupture",
+     "hal.force.jerome-arrival"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 5050,
+      "snippet": "Jerome to Damasus: 'I communicate with none but your blessedness, that is with the chair of Peter'"
+     },
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 5216,
+      "snippet": "'He who clings to the chair of Peter is accepted by me'"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Rome is the place where news and judgments arrive; the record's guard says Rome had not the later authority. Jerome's own 'chair of Peter' letters are unquoted.",
+    "verified": [
+     {
+      "record": "hal.quote.rufinus-writes-because-rome-is-where-the-news-is",
+      "result": "MATCH",
+      "file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+      "lines": [
+       45939
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.dw.authority",
+     "hal.quote.rufinus-writes-because-rome-is-where-the-news-is",
+     "hal.contested.origenist-substance"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "No single court; Nicaea received as settled faith. The world says it cannot speak for the council room.",
+    "verified": [
+     {
+      "record": "hal.quote.rufinus-writes-because-rome-is-where-the-news-is",
+      "result": "MATCH",
+      "file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+      "lines": [
+       45939
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.dw.apostolic",
+     "hal.dw.one-church",
+     "hal.quote.a-man-truly-catholic"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "'Catholic' as wholeness; practices claimed apostolic with the admission that monastic life is new.",
+    "verified": [
+     {
+      "record": "hal.quote.a-man-truly-catholic",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       2859
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.story.rufinus-rupture",
+     "hal.contested.origenist-substance",
+     "hal.quote.a-man-truly-catholic",
+     "hal.term.pelagianism",
+     "hal.dw.church-failure"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The world's own heresy fight was Origenism; the record shows accusation reaching Rome rather than a verdict.",
+    "verified": [
+     {
+      "record": "hal.quote.a-man-truly-catholic",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       2859
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [
+     "hal.quote.those-of-my-own-order"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 4884,
+      "snippet": "Jerome to a would-be bishop: such a one must be 'the husband of one wife, vigilant, sober' (1 Tim 3)"
+     },
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 15939,
+      "snippet": "'permits none to be ordained priest save the husband of one wife'"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Jerome mocks clergy who seek ordination to see women (verified quote), but no record answers married clergy or deacons.",
+    "verified": [
+     {
+      "record": "hal.quote.those-of-my-own-order",
+      "result": "MATCH",
+      "file": "npnf206_jerome-principal-works.xml",
+      "lines": [
+       6367
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S7": {
+    "layer": "RENDERED (partial or guard only)",
+    "records": [
+     "hal.dw.empire"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Answers the empire's embrace corrupting the church, not who decided belief. Nothing on an emperor's say.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.dw.church-failure",
+     "hal.quote.those-of-my-own-order",
+     "hal.story.rome-crisis"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Clergy corruption seen from inside; the record refuses a parallel to modern abuse cases.",
+    "verified": [
+     {
+      "record": "hal.quote.those-of-my-own-order",
+      "result": "MATCH",
+      "file": "npnf206_jerome-principal-works.xml",
+      "lines": [
+       6367
+      ],
+      "detail": null
+     }
+    ]
+   }
+  },
+  "ijc": {
+   "S1": {
+    "layer": "RENDERED (partial or guard only)",
+    "records": [
+     "ijc.quote.socrates-damasus-election",
+     "ijc.contested.bishop-of-those-outside",
+     "ijc.term.imperator-intra-ecclesiam"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+      "line": 954,
+      "snippet": "Milan 374: a child cried 'Ambrose Bishop'; the catechumen was elected by acclamation (editor)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "A contested election that turned violent, and the emperor's place. No term for bishop, presbyter or deacon, and nothing on removal.",
+    "verified": [
+     {
+      "record": "ijc.quote.socrates-damasus-election",
+      "result": "MATCH",
+      "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "lines": [
+       14203
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.term.primatus",
+     "ijc.contested.primacy-reception",
+     "ijc.story.letter-that-outranked-a-council",
+     "ijc.quote.julius-custom",
+     "ijc.quote.peter-has-spoken",
+     "ijc.gravity.primacy-claiming",
+     "ijc.quote.canon28-equal-privileges",
+     "ijc.quote.leo-things-secular"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The fleet's one full answer: Rome's claim in Julius, Damasus and Leo, received and contested. 'On this rock' sits in the term and the Leo sources.",
+    "verified": [
+     {
+      "record": "ijc.quote.julius-custom",
+      "result": "MATCH",
+      "file": "npnf204_athanasius-select-works-letters.xml",
+      "lines": [
+       23549
+      ],
+      "detail": null
+     },
+     {
+      "record": "ijc.quote.peter-has-spoken",
+      "result": "MATCH",
+      "file": "npnf214_seven-ecumenical-councils.xml",
+      "lines": [
+       19996
+      ],
+      "detail": null
+     },
+     {
+      "record": "ijc.quote.canon28-equal-privileges",
+      "result": "MATCH",
+      "file": "npnf214_seven-ecumenical-councils.xml",
+      "lines": [
+       22223,
+       22228
+      ],
+      "detail": null
+     },
+     {
+      "record": "ijc.quote.leo-things-secular",
+      "result": "MATCH",
+      "file": "npnf212_leo-great-gregory-great.xml",
+      "lines": [
+       9079
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.term.concilium",
+     "ijc.story.tome-that-would-not-bend",
+     "ijc.quote.peter-has-spoken",
+     "ijc.quote.nicene-creed",
+     "ijc.quote.chalcedon-definition",
+     "ijc.force.chalcedon-failed-consensus"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Councils, creeds and a room that shouted. Ordinary believers only through the room-for-hesitation witness, which shows bishops.",
+    "verified": [
+     {
+      "record": "ijc.quote.peter-has-spoken",
+      "result": "MATCH",
+      "file": "npnf214_seven-ecumenical-councils.xml",
+      "lines": [
+       19996
+      ],
+      "detail": null
+     },
+     {
+      "record": "ijc.quote.nicene-creed",
+      "result": "MATCH",
+      "file": "npnf214_seven-ecumenical-councils.xml",
+      "lines": [
+       2408,
+       2412,
+       2413
+      ],
+      "detail": null
+     },
+     {
+      "record": "ijc.quote.chalcedon-definition",
+      "result": "MATCH",
+      "file": "npnf214_seven-ecumenical-councils.xml",
+      "lines": [
+       20287
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.dw.ancient-custom",
+     "ijc.dw.received-not-seen",
+     "ijc.dw.how-we-read",
+     "ijc.term.primatus"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Tradition and received faith, and Peter's seat as the succession claim. No record on 'a church today'.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.term.haeresis",
+     "ijc.quote.sozomen-thessalonica-law",
+     "ijc.quote.compelled-to-come-in",
+     "ijc.gravity.orthodoxy-enforcement"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Heresy as law; Augustine's 'compel them' with his own admission he once opposed it.",
+    "verified": [
+     {
+      "record": "ijc.quote.sozomen-thessalonica-law",
+      "result": "MATCH",
+      "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "lines": [
+       40613
+      ],
+      "detail": null
+     },
+     {
+      "record": "ijc.quote.compelled-to-come-in",
+      "result": "MATCH",
+      "file": "npnf104_augustine-anti-manichaean-anti-donatist.xml",
+      "lines": [
+       19616,
+       19624
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "non_ready_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf111_chrysostom-homilies-acts-romans.xml",
+      "line": 57566,
+      "snippet": "Chrysostom on Phebe 'a deaconess'"
+     },
+     {
+      "file": "cic/texts/hefele_history-of-the-councils-v3-431-451_clark1883.txt",
+      "line": 8855,
+      "snippet": "Synod of Orange 441, canon 26: deaconesses no longer ordained"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Only ijc.dw.marriage-ranked and a virginity quote touch celibacy; neither is about clergy.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.term.imperator-intra-ecclesiam",
+     "ijc.quote.ambrose-emperor-in-church",
+     "ijc.quote.constantine-bishop-outside",
+     "ijc.contested.bishop-of-those-outside",
+     "ijc.gravity.orthodoxy-enforcement",
+     "ijc.quote.no-power-but-of-god",
+     "ijc.quote.secular-ruler-ecclesiastical-cause"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The fleet's best: an emperor inside the church, not above it; Constantine's 'bishop of those outside' held Contested.",
+    "verified": [
+     {
+      "record": "ijc.quote.ambrose-emperor-in-church",
+      "result": "MATCH",
+      "file": "npnf210_ambrose-select-works-letters.xml",
+      "lines": [
+       42660
+      ],
+      "detail": null
+     },
+     {
+      "record": "ijc.quote.constantine-bishop-outside",
+      "result": "MATCH",
+      "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": [
+       66732
+      ],
+      "detail": null
+     },
+     {
+      "record": "ijc.quote.no-power-but-of-god",
+      "result": "MATCH",
+      "file": "npnf111_chrysostom-homilies-acts-romans.xml",
+      "lines": [
+       53973
+      ],
+      "detail": null
+     },
+     {
+      "record": "ijc.quote.secular-ruler-ecclesiastical-cause",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       11652
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.demo.hypocrisy",
+     "ijc.quote.socrates-damasus-election",
+     "ijc.contested.office-holder-scope"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Hypocrisy demonstration and the Damasus riots. No lonely-leader material.",
+    "verified": [
+     {
+      "record": "ijc.quote.socrates-damasus-election",
+      "result": "MATCH",
+      "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "lines": [
+       14203
+      ],
+      "detail": null
+     }
+    ]
+   }
+  },
+  "lpc": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "lpc.story.election-of-cyprian",
+     "lpc.term.suffrage",
+     "lpc.quote.clamour-and-tears",
+     "lpc.term.the-people",
+     "lpc.quote.ancient-venom-against-my-episcopate",
+     "lpc.quote.ye-belong-to-my-care"
+    ],
+    "non_ready_status": {
+     "lpc.story.election-of-cyprian": "draft",
+     "lpc.term.suffrage": "draft",
+     "lpc.quote.clamour-and-tears": "draft",
+     "lpc.term.the-people": "draft",
+     "lpc.quote.ancient-venom-against-my-episcopate": "draft",
+     "lpc.quote.ye-belong-to-my-care": "draft"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Election by the people's cry (Cyprian, Augustine). Drafts only. All lpc records are status draft and lpc has no compiled package yet.",
+    "verified": [
+     {
+      "record": "lpc.quote.clamour-and-tears",
+      "result": "MATCH (hyphen-joined)",
+      "file": "possidius_vita-augustini_weiskotten1919.txt",
+      "lines": [
+       1808,
+       1813
+      ],
+      "detail": null
+     },
+     {
+      "record": "lpc.quote.ancient-venom-against-my-episcopate",
+      "result": "MATCH",
+      "file": "anf05_hippolytus-cyprian-caius-novatian.xml",
+      "lines": [
+       32371
+      ],
+      "detail": null
+     },
+     {
+      "record": "lpc.quote.ye-belong-to-my-care",
+      "result": "MATCH",
+      "file": "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+      "lines": [
+       20796
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S2": {
+    "layer": "RENDERED (partial or guard only)",
+    "records": [
+     "lpc.quote.bishop-of-bishops",
+     "lpc.term.bishop-of-bishops",
+     "lpc.term.the-one-episcopate"
+    ],
+    "non_ready_status": {
+     "lpc.quote.bishop-of-bishops": "draft",
+     "lpc.term.bishop-of-bishops": "draft",
+     "lpc.term.the-one-episcopate": "draft"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Cyprian's refusal of a 'bishop of bishops' and the two texts of On Unity. Rome as such is not addressed. All lpc records are status draft and lpc has no compiled package yet.",
+    "verified": [
+     {
+      "record": "lpc.quote.bishop-of-bishops",
+      "result": "MATCH",
+      "file": "anf05_hippolytus-cyprian-caius-novatian.xml",
+      "lines": [
+       56871
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "lpc.term.plenary-council",
+     "lpc.witness.scripture-above-councils",
+     "lpc.gravity.conciliar-authority-theory"
+    ],
+    "non_ready_status": {
+     "lpc.term.plenary-council": "draft",
+     "lpc.witness.scripture-above-councils": "draft",
+     "lpc.gravity.conciliar-authority-theory": "draft"
+    },
+    "confidence": [
+     "Documented",
+     "Inferential-Thin"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Councils can be corrected by later councils (Augustine on Cyprian). All lpc records are status draft and lpc has no compiled package yet.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "lpc.witness.apostolic-succession-of-bishops",
+     "lpc.witness.tradition-tested-by-apostolic-warrant",
+     "lpc.limit.apostolic-origin-undefended",
+     "lpc.quote.one-good-shepherd-not-many",
+     "lpc.witness.communion-over-separation"
+    ],
+    "non_ready_status": {
+     "lpc.witness.apostolic-succession-of-bishops": "draft",
+     "lpc.witness.tradition-tested-by-apostolic-warrant": "draft",
+     "lpc.limit.apostolic-origin-undefended": "draft",
+     "lpc.quote.one-good-shepherd-not-many": "draft",
+     "lpc.witness.communion-over-separation": "draft"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The only world with an explicit succession witness, and a limit that the apostolic origin of the office is undefended. All lpc records are status draft and lpc has no compiled package yet.",
+    "verified": [
+     {
+      "record": "lpc.quote.one-good-shepherd-not-many",
+      "result": "MATCH",
+      "file": "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+      "lines": [
+       20848
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "lpc.term.heresy",
+     "lpc.term.schism",
+     "lpc.term.compel-them-to-come-in",
+     "lpc.demo.compel-three-phase",
+     "lpc.quote.the-branch-cut-from-the-vine"
+    ],
+    "non_ready_status": {
+     "lpc.term.heresy": "draft",
+     "lpc.term.schism": "draft",
+     "lpc.term.compel-them-to-come-in": "draft",
+     "lpc.demo.compel-three-phase": "draft",
+     "lpc.quote.the-branch-cut-from-the-vine": "draft"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Heresy against schism, baptism outside the church, and compulsion in three phases. All lpc records are status draft and lpc has no compiled package yet.",
+    "verified": [
+     {
+      "record": "lpc.quote.the-branch-cut-from-the-vine",
+      "result": "MATCH",
+      "file": "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+      "lines": [
+       12936
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "non_ready_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "line": 16700,
+      "snippet": "Council of Nice and the married clergy (editor), in the Cyprian-Hippolytus volume"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Deacons appear in stories (Pontius) but no record answers. All lpc records are status draft and lpc has no compiled package yet.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "lpc.witness.constantine-did-not-corrupt",
+     "lpc.witness.blamed-for-the-worlds-troubles",
+     "lpc.limit.the-outsiders-own-view",
+     "lpc.term.compel-them-to-come-in"
+    ],
+    "non_ready_status": {
+     "lpc.witness.constantine-did-not-corrupt": "draft",
+     "lpc.witness.blamed-for-the-worlds-troubles": "draft",
+     "lpc.limit.the-outsiders-own-view": "draft",
+     "lpc.term.compel-them-to-come-in": "draft"
+    },
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Augustine's world faces Constantine and the compel laws. All lpc records are status draft and lpc has no compiled package yet.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "lpc.quote.pardon-through-a-wicked-clergyman",
+     "lpc.quote.shepherd-wounded-in-the-flock",
+     "lpc.quote.ancient-venom-against-my-episcopate",
+     "lpc.story.the-plague-and-the-enemies"
+    ],
+    "non_ready_status": {
+     "lpc.quote.pardon-through-a-wicked-clergyman": "draft",
+     "lpc.quote.shepherd-wounded-in-the-flock": "draft",
+     "lpc.quote.ancient-venom-against-my-episcopate": "draft",
+     "lpc.story.the-plague-and-the-enemies": "draft"
+    },
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "A wicked minister does not spoil the gift; Cyprian's wounded shepherd. All lpc records are status draft and lpc has no compiled package yet.",
+    "verified": [
+     {
+      "record": "lpc.quote.pardon-through-a-wicked-clergyman",
+      "result": "MATCH",
+      "file": "npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml",
+      "lines": [
+       13008
+      ],
+      "detail": null
+     },
+     {
+      "record": "lpc.quote.shepherd-wounded-in-the-flock",
+      "result": "MATCH",
+      "file": "anf05_hippolytus-cyprian-caius-novatian.xml",
+      "lines": [
+       43724
+      ],
+      "detail": null
+     },
+     {
+      "record": "lpc.quote.ancient-venom-against-my-episcopate",
+      "result": "MATCH",
+      "file": "anf05_hippolytus-cyprian-caius-novatian.xml",
+      "lines": [
+       32371
+      ],
+      "detail": null
+     }
+    ]
+   }
+  },
+  "pahc": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.term.episkopos",
+     "pahc.term.presbyteros",
+     "pahc.term.presbyterion",
+     "pahc.term.diakonos",
+     "pahc.quote.first-clement-apostolic-chain",
+     "pahc.quote.they-appointed-the-first-fruits",
+     "pahc.contested.rome-monepiscopacy-dating",
+     "pahc.witness.what-we-never-settled"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [
+     {
+      "id": "OTH-Didascalia",
+      "work": "Didascalia Apostolorum (Syria, 3rd c.): bishop as judge of the community, presbyters, deacons, deaconesses, widows, penance and exclusion",
+      "edition": "M. D. Gibson, The Didascalia Apostolorum in English (London 1903); R. H. Connolly (Oxford 1929) is the better text",
+      "where": "archive.org",
+      "licence": "Gibson 1903 public domain; Connolly 1929 US public domain, other territories unchecked",
+      "subs": [
+       "S1",
+       "S5",
+       "S6"
+      ]
+     }
+    ],
+    "note": "The best titles answer in the fleet, and the honest 'bishops or not' (Contested): Rome a plural college, Ignatius's monarchical bishop elsewhere.",
+    "verified": [
+     {
+      "record": "pahc.quote.first-clement-apostolic-chain",
+      "result": "MATCH",
+      "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": [
+       1845,
+       1856
+      ],
+      "detail": null
+     },
+     {
+      "record": "pahc.quote.they-appointed-the-first-fruits",
+      "result": "MATCH",
+      "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": [
+       1856
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.quote.polycrates-to-victor",
+     "pahc.contested.rome-monepiscopacy-dating",
+     "pahc.story.first-clement-corinthian-dispute"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Rome as one church among many that writes letters; Polycrates will not be frightened. Filed F3-I, so retrieval on 'pope' is not guaranteed. 'On this rock' not rendered.",
+    "verified": [
+     {
+      "record": "pahc.quote.polycrates-to-victor",
+      "result": "MATCH",
+      "file": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+      "lines": [
+       72578,
+       72614
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S3": {
+    "layer": "RENDERED (partial or guard only)",
+    "records": [
+     "pahc.witness.god-and-argument",
+     "pahc.quote.not-every-one-that-speaketh-in-the-spirit",
+     "pahc.term.prophetes"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "This world argued over leadership, not over Nicaea. The question 'a creed everyone had to say' has no record.",
+    "verified": [
+     {
+      "record": "pahc.quote.not-every-one-that-speaketh-in-the-spirit",
+      "result": "MATCH (section-number-dropped)",
+      "file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+      "lines": [
+       13026
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.witness.apostolic-practice",
+     "pahc.witness.how-we-know",
+     "pahc.quote.first-clement-apostolic-chain",
+     "pahc.contested.rivals-undefeated",
+     "pahc.term.ekklesia"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Apostolic claim made and not proved; rivals live in the same years. Succession lists are not rendered (Irenaeus III.3 is vendored in anf01).",
+    "verified": [
+     {
+      "record": "pahc.quote.first-clement-apostolic-chain",
+      "result": "MATCH",
+      "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": [
+       1845,
+       1856
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.quote.asia-rejected-new-prophecy",
+     "pahc.contested.rivals-undefeated",
+     "pahc.witness.our-own-failures"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Asia's meetings expelled the New Prophecy; the source is a hostile anonymous writer.",
+    "verified": [
+     {
+      "record": "pahc.quote.asia-rejected-new-prophecy",
+      "result": "MATCH",
+      "file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+      "lines": [
+       11308
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S6": {
+    "layer": "RENDERED (partial or guard only)",
+    "records": [
+     "pahc.term.diakonos",
+     "pahc.term.ministrae",
+     "pahc.quote.two-female-slaves-who-were-called-deaconesses",
+     "pahc.contested.two-strand-packaging"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented",
+     "Inferential-Thin",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Deacons and Pliny's two enslaved 'ministrae' are rendered, with the warning that the title is Pliny's. Married clergy: nothing.",
+    "verified": [
+     {
+      "record": "pahc.quote.two-female-slaves-who-were-called-deaconesses",
+      "result": "MATCH (italic-tag boundary)",
+      "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": [
+       19503
+      ],
+      "detail": "'(<i>ministrae</i>)' tag splits the word; text otherwise identical"
+     }
+    ]
+   },
+   "S7": {
+    "layer": "RENDERED (partial or guard only)",
+    "records": [
+     "pahc.witness.outsider-view"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Guard only: Constantine falls outside the window, and Pliny is a governor, not an emperor deciding belief.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.witness.our-own-failures",
+     "pahc.story.first-clement-corinthian-dispute"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Corinth removed its elders and Rome wrote to rebuke it, in Rome's voice only.",
+    "verified": []
+   }
+  },
+  "rzg": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "rzg.term.antistes",
+     "rzg.term.elder",
+     "rzg.term.consistory",
+     "rzg.gravity.council-led-authority-vs-consistorial-independence",
+     "rzg.quote.seniors-selected-from-the-people",
+     "rzg.witness.what-we-have-not-agreed"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/calvin_institutes-christian-religion-vol3_beveridge1845.txt",
+      "line": 2457,
+      "snippet": "Institutes IV.3: 'The election of Pastors does not belong to one individual' (section heading)"
+     }
+    ],
+    "identified": [
+     "rzg.source.ecclesiastical-ordinances-1541",
+     "rzg.source.geneva-consistory-registers"
+    ],
+    "other": [],
+    "note": "Final authority over discipline never agreed (Zurich council, Geneva consistory). The 1576 council revision of the Ordinances is vendored (French) and unread; the 1541 text is only named.",
+    "verified": [
+     {
+      "record": "rzg.quote.seniors-selected-from-the-people",
+      "result": "MATCH",
+      "file": "calvin_institutes-christian-religion-vol3_beveridge1845.txt",
+      "lines": [
+       2830
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S2": {
+    "layer": "RENDERED (partial or guard only)",
+    "records": [
+     "rzg.term.sola-scriptura",
+     "rzg.term.disputation"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/calvin_institutes-christian-religion-vol3_beveridge1845.txt",
+      "line": 4943,
+      "snippet": "Institutes IV.6: the papacy's only New Testament ground is 'Thou art Peter, and upon this rock'"
+     },
+     {
+      "file": "cic/texts/zwingli_latin-works-correspondence-vol3_heller1929.txt",
+      "line": 8190,
+      "snippet": "Zwingli on Matt. 16:18-19"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "The pope appears only as the foil that Scripture alone replaces. No record answers 'did you have a pope' or the rock text, though Calvin IV.6-7 and Zwingli on Matt. 16 are vendored.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "rzg.term.disputation",
+     "rzg.story.first-zurich-disputation",
+     "rzg.term.sola-scriptura",
+     "rzg.term.confession-of-faith",
+     "rzg.limit.marburg-bolsec-perrinist-narrative"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "A city council, not a bishop or council, decided doctrine after a public debate; the honest limit on Marburg.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "RENDERED (partial or guard only)",
+    "records": [
+     "rzg.term.sola-scriptura",
+     "rzg.witness.triple-refusal",
+     "rzg.witness.a-narrow-true-church",
+     "rzg.witness.what-we-have-of-christ"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Scripture over tradition is clear. Apostolic succession and 'a church today that is yours' are not answered; the narrow-true-church record is a guard on damnation.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "rzg.witness.defending-the-anabaptist-suppression",
+     "rzg.witness.triple-refusal",
+     "rzg.term.excommunication",
+     "rzg.contested.anabaptist-schism-legitimacy"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Civil force on Anabaptists is owned and defended. Servetus is not in any record, though Calvin's defence and Beza are vendored.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [
+     "rzg.limit.no-teaching-on-wealth-or-marriage"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/calvin_institutes-christian-religion-vol3_beveridge1845.txt",
+      "line": 12065,
+      "snippet": "Institutes: 'that a bishop be the husband of one wife; but what could be...'"
+     },
+     {
+      "file": "cic/texts/zwingli_selected-works_jackson1901.txt",
+      "line": 968,
+      "snippet": "Zwingli's petition: if the bishop allowed priests to marry, the government would protect 'the married priests'"
+     }
+    ],
+    "identified": [
+     "rzg.source.ecclesiastical-ordinances-1541"
+    ],
+    "other": [],
+    "note": "The limit record is about marriage in general and is the only guard. Deacons as Calvin's fourth office are in the Institutes IV.3 and the Ordinances; clergy marriage is in Zwingli. Nothing rendered.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "rzg.witness.defending-the-anabaptist-suppression",
+     "rzg.gravity.council-led-authority-vs-consistorial-independence",
+     "rzg.term.antistes",
+     "rzg.story.first-zurich-disputation"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The council governed church and city as one in Zurich; Geneva's consistory won independence only by 1555.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "RENDERED (partial or guard only)",
+    "records": [
+     "rzg.limit.consistory-case-narrative",
+     "rzg.limit.marburg-bolsec-perrinist-narrative",
+     "rzg.witness.what-we-have-not-agreed"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [
+     "rzg.source.geneva-consistory-registers"
+    ],
+    "other": [],
+    "note": "Honest limits only: no hearing, no Bolsec or Perrin narrative. Nothing on a leader who failed or did harm.",
+    "verified": []
+   }
+  },
+  "syr": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.demo.authority",
+     "syr.dw.authority-lived",
+     "syr.term.catholicos",
+     "syr.contested.papa-primacy",
+     "syr.contested.aphrahat-episcopacy",
+     "syr.term.qyama"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/addai_doctrine-of-addai.txt",
+      "line": 89,
+      "snippet": "Palut went to Antioch and received 'the hand of the priesthood from Serapion', who had it from Zephyrinus of Rome, from 'Simon Cephas'"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "id": "OTH-Didascalia",
+      "work": "Didascalia Apostolorum (Syria, 3rd c.): bishop as judge of the community, presbyters, deacons, deaconesses, widows, penance and exclusion",
+      "edition": "M. D. Gibson, The Didascalia Apostolorum in English (London 1903); R. H. Connolly (Oxford 1929) is the better text",
+      "where": "archive.org",
+      "licence": "Gibson 1903 public domain; Connolly 1929 US public domain, other territories unchecked",
+      "subs": [
+       "S1",
+       "S5",
+       "S6"
+      ]
+     }
+    ],
+    "note": "Bishops, the covenant and trusted teachers ran in parallel and were never ranked. The Doctrine of Addai's ordination chain through Antioch and Rome is vendored and unrendered.",
+    "verified": []
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "non_ready_status": {},
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/addai_doctrine-of-addai.txt",
+      "line": 89,
+      "snippet": "ordination chain Cephas, Rome, Antioch, Palut in the Doctrine of Addai"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record names the bishop of Rome or Peter. syr.contested.papa-primacy is about a Persian bishop and is a different Papa.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.dw.decides",
+     "syr.story.jacob-nicaea",
+     "syr.force.synod-410",
+     "syr.quote.permitted-to-erect-churches",
+     "syr.contested.bardaisan-nicene-floor"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/maruta-of-maipherqat_de-sancta-nicaena-synodo-syrische-texte-deu_braun1898.txt",
+      "line": 1086,
+      "snippet": "contents list: the Nicene-Constantinopolitan creed with its exposition in Marutha's Syriac texts (German), with Braun's account of the 410 synod"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Unsettled among bishops, synods and teachers until a king-protected synod at the end. The creed question has no record; the Syriac creed text is vendored.",
+    "verified": [
+     {
+      "record": "syr.quote.permitted-to-erect-churches",
+      "result": "MATCH",
+      "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "lines": [
+       19172
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.dw.one-church",
+     "syr.story.abgar-addai-legend",
+     "syr.quote.blc-one-name"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Apostolic origin as legend, rivals on the same streets, and the honest stop on a church today.",
+    "verified": [
+     {
+      "record": "syr.quote.blc-one-name",
+      "result": "MATCH",
+      "file": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+      "lines": [
+       68966
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.dw.one-church",
+     "syr.dw.failures",
+     "syr.dw.unsettled",
+     "syr.contested.bardaisan-nicene-floor"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Refutation and refused communion, not suppression; the world names its own polemic as a failure.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "RENDERED (partial or guard only)",
+    "records": [
+     "syr.term.qyama",
+     "syr.term.ihidaya",
+     "syr.story.basil-legend",
+     "syr.quote.symeon-and-usthazanes"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [
+     {
+      "id": "OTH-Didascalia",
+      "work": "Didascalia Apostolorum (Syria, 3rd c.): bishop as judge of the community, presbyters, deacons, deaconesses, widows, penance and exclusion",
+      "edition": "M. D. Gibson, The Didascalia Apostolorum in English (London 1903); R. H. Connolly (Oxford 1929) is the better text",
+      "where": "archive.org",
+      "licence": "Gibson 1903 public domain; Connolly 1929 US public domain, other territories unchecked",
+      "subs": [
+       "S1",
+       "S5",
+       "S6"
+      ]
+     }
+    ],
+    "note": "The covenant is a celibate order serving the congregation; Ephrem's diaconate is attested. Nothing on married clergy, and Syria's best deaconess text (the Didascalia) is outside the repo.",
+    "verified": [
+     {
+      "record": "syr.quote.symeon-and-usthazanes",
+      "result": "MATCH (spacing-only)",
+      "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "lines": [
+       28873
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.dw.outsiders-empire",
+     "syr.quote.permitted-to-erect-churches",
+     "syr.quote.symeon-and-usthazanes"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "A Persian king who let churches be built and a Roman emperor whose faith made Persian Christians suspect.",
+    "verified": [
+     {
+      "record": "syr.quote.permitted-to-erect-churches",
+      "result": "MATCH",
+      "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "lines": [
+       19172
+      ],
+      "detail": null
+     },
+     {
+      "record": "syr.quote.symeon-and-usthazanes",
+      "result": "MATCH (spacing-only)",
+      "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "lines": [
+       28873
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S8": {
+    "layer": "RENDERED (partial or guard only)",
+    "records": [
+     "syr.dw.failures",
+     "syr.dw.unsettled",
+     "syr.contested.papa-primacy"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Bishops quarrelling over precedence is the whole answer.",
+    "verified": []
+   }
+  },
+  "witt": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.demo.who-held-authority",
+     "witt.term.office",
+     "witt.term.calling",
+     "witt.term.pastor",
+     "witt.term.we-are-all-priests",
+     "witt.term.spiritual-and-temporal-estate"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Office is a task, not a rank; a deposed pastor is a peasant. Strongest demonstrated answer.",
+    "verified": []
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.term.pope-and-antichrist",
+     "witt.term.the-keys",
+     "witt.force.papal-force-ongoing",
+     "witt.term.doctrines-of-men"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt",
+      "line": 17482,
+      "snippet": "Treatise on the Power and Primacy of the Pope (Smalcald 1537): 'The Roman pontiff claims ... by divine right he is above all bishops'"
+     },
+     {
+      "file": "cic/texts/melanchthon_augsburg-confession_anon-pg275.txt",
+      "line": 1271,
+      "snippet": "Augsburg Confession XXVIII, Of Ecclesiastical Power"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Two voices for one adversary (Antichrist in preaching, the Church of Rome in the confession) and the keys as the community's. No quote on Matt. 16; the Treatise is vendored and unquoted.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.dw.a-confession-answered-not-a-vote",
+     "witt.quote.second-article-of-the-creed",
+     "witt.story.diet-of-augsburg-1530",
+     "witt.dw.scripture-judges-every-other-voice"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "A signed confession answered by a written reply, no vote. Scripture judges councils.",
+    "verified": [
+     {
+      "record": "witt.quote.second-article-of-the-creed",
+      "result": "MATCH",
+      "file": "luther_small-catechism_smith1994.txt",
+      "lines": [
+       189
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.quote.congregation-of-saints",
+     "witt.quote.nothing-that-varies",
+     "witt.dw.nothing-against-scripture-or-the-church-catholic",
+     "witt.dw.one-holy-church-forever",
+     "witt.dw.scripture-judges-every-other-voice",
+     "witt.demo.scripture-alone"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Only the two quotes on authority; 'no unbroken ordination' is stated as a guard.",
+    "verified": [
+     {
+      "record": "witt.quote.congregation-of-saints",
+      "result": "MATCH",
+      "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+      "lines": [
+       277
+      ],
+      "detail": null
+     },
+     {
+      "record": "witt.quote.nothing-that-varies",
+      "result": "MATCH",
+      "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+      "lines": [
+       1543
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.term.sects-and-new-spirits",
+     "witt.term.the-ban",
+     "witt.quote.article-ix-of-baptism",
+     "witt.dw.one-holy-church-forever"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The ban is exclusion from fellowship, without force; Anabaptists are named and condemned.",
+    "verified": [
+     {
+      "record": "witt.quote.article-ix-of-baptism",
+      "result": "MATCH",
+      "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+      "lines": [
+       309
+      ],
+      "detail": null
+     }
+    ]
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.term.pastor",
+     "witt.term.marriage",
+     "witt.dw.nothing-against-scripture-or-the-church-catholic"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/melanchthon_augsburg-confession_anon-pg275.txt",
+      "line": 707,
+      "snippet": "Augsburg Confession XXIII, Of the Marriage of Priests"
+     },
+     {
+      "file": "cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt",
+      "line": 7906,
+      "snippet": "Apology Art. XXIII, Of the Marriage of Priests"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Married pastors are explained and argued. No quote record for either article, and nothing on deacons.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.term.the-two-governments",
+     "witt.term.the-sword",
+     "witt.gravity.two-governments",
+     "witt.story.diet-of-augsburg-1530",
+     "witt.contested.two-governments-historical-scope"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Two governments: the prince's sword is God's but does not rule belief; an elector and princes signed.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.dw.cold-and-careless-among-us"
+    ],
+    "non_ready_status": {},
+    "confidence": [
+     "Contested"
+    ],
+    "source_hits": [],
+    "identified": [
+     "witt.source.saxon-visitation-protocols"
+    ],
+    "other": [],
+    "note": "The founder's complaint that pastors were negligent, held Contested as testimony. The visitation protocols (what pastors were actually like) are named and not vendored.",
+    "verified": []
+   }
+  }
+ }
+}

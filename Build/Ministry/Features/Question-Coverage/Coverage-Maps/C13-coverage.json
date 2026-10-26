@@ -1,0 +1,1329 @@
+{
+ "generated": "2026-10-26",
+ "method": {
+  "tool": "coverage_search.py --whole-words --regex, seven term sets (terms.txt), S1-S7 .json re-run this pass (earlier .json were missing)",
+  "record_check": "recgrep.py over records front matter (recgrep.json), then each hit read for relevance; many hits were false (enemy, possessed, tombs, wonder, dream of the living)",
+  "verification": "verify.py, 25 quote records cited as RENDERED",
+  "layers": "as C3"
+ },
+ "sub_questions": [
+  {
+   "id": "C13.S1",
+   "label": "The devil: real, personal temptation, used to control, hell monsters",
+   "question_ids": [
+    "C13-05",
+    "C13-13",
+    "C13-16",
+    "C13-18",
+    "C13-20"
+   ]
+  },
+  {
+   "id": "C13.S2",
+   "label": "Demons, sickness, exorcists, Antony in the tombs",
+   "question_ids": [
+    "C13-01",
+    "C13-06",
+    "C13-10",
+    "C13-19"
+   ]
+  },
+  {
+   "id": "C13.S3",
+   "label": "Miracles seen or heard; true from false; fairy tales",
+   "question_ids": [
+    "C13-02",
+    "C13-08",
+    "C13-12",
+    "R-29"
+   ]
+  },
+  {
+   "id": "C13.S4",
+   "label": "Angels and guardian angels",
+   "question_ids": [
+    "C13-04"
+   ]
+  },
+  {
+   "id": "C13.S5",
+   "label": "Saints, martyrs graves, relics, intercession, holy water, idolatry charge",
+   "question_ids": [
+    "C13-03",
+    "C13-07",
+    "C13-09",
+    "C13-15",
+    "C13-17"
+   ]
+  },
+  {
+   "id": "C13.S6",
+   "label": "Magic, amulets, curses, the evil eye",
+   "question_ids": [
+    "C13-11"
+   ]
+  },
+  {
+   "id": "C13.S7",
+   "label": "The dead in dreams; felt presence",
+   "question_ids": [
+    "C13-14",
+    "R-21"
+   ]
+  }
+ ],
+ "matrix": {
+  "alx": {
+   "S1": "L",
+   "S2": "L",
+   "S3": "L",
+   "S4": "L",
+   "S5": "L",
+   "S6": "L",
+   "S7": "-"
+  },
+  "cappadocian": {
+   "S1": "R*",
+   "S2": "L",
+   "S3": "R*",
+   "S4": "L",
+   "S5": "R",
+   "S6": "L",
+   "S7": "L"
+  },
+  "desert": {
+   "S1": "R",
+   "S2": "R",
+   "S3": "R",
+   "S4": "R*",
+   "S5": "R*",
+   "S6": "L",
+   "S7": "L"
+  },
+  "don": {
+   "S1": "L",
+   "S2": "L",
+   "S3": "R*",
+   "S4": "L",
+   "S5": "R*",
+   "S6": "L",
+   "S7": "L"
+  },
+  "gallic": {
+   "S1": "R",
+   "S2": "R",
+   "S3": "R",
+   "S4": "R",
+   "S5": "R*",
+   "S6": "R*",
+   "S7": "R*"
+  },
+  "hal": {
+   "S1": "R*",
+   "S2": "L",
+   "S3": "R*",
+   "S4": "L",
+   "S5": "L",
+   "S6": "L",
+   "S7": "L"
+  },
+  "ijc": {
+   "S1": "L",
+   "S2": "L",
+   "S3": "R*",
+   "S4": "L",
+   "S5": "R*",
+   "S6": "L",
+   "S7": "L"
+  },
+  "lpc": {
+   "S1": "L",
+   "S2": "L",
+   "S3": "L",
+   "S4": "L",
+   "S5": "L",
+   "S6": "L",
+   "S7": "L"
+  },
+  "pahc": {
+   "S1": "L",
+   "S2": "L",
+   "S3": "R",
+   "S4": "L",
+   "S5": "R*",
+   "S6": "R*",
+   "S7": "L"
+  },
+  "rzg": {
+   "S1": "L",
+   "S2": "L",
+   "S3": "L",
+   "S4": "L",
+   "S5": "L",
+   "S6": "L",
+   "S7": "-"
+  },
+  "syr": {
+   "S1": "L",
+   "S2": "R*",
+   "S3": "R",
+   "S4": "R*",
+   "S5": "L",
+   "S6": "R*",
+   "S7": "L"
+  },
+  "witt": {
+   "S1": "R",
+   "S2": "L",
+   "S3": "R*",
+   "S4": "L",
+   "S5": "R",
+   "S6": "R*",
+   "S7": "L"
+  }
+ },
+ "worlds": {
+  "alx": {
+   "S1": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf204 Vita Antonii 31455, 31499-31503; anf04 Origen"
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf204 33129-33134 (Antony: magic weak, demons powerless); palladius_lausiac-history 271"
+   },
+   "S3": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf204 33068-33320 (Antony healed by the name); anf04 Origen against Celsus"
+   },
+   "S4": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "anf02 Hermas Mandate 6 (two angels) 2196-2231; anf04 Origen De Principiis"
+   },
+   "S5": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf201 Eusebius HE (martyrs, Polycarp)"
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf204 18796 (magic arts), 33129"
+   },
+   "S7": {
+    "layer": "NOTHING",
+    "records": [],
+    "loaded_evidence": "nothing traced"
+   }
+  },
+  "cappadocian": {
+   "S1": {
+    "layer": "RENDERED (partial or guard)",
+    "records": [
+     "cappadocian.term.phthonos"
+    ],
+    "loaded_evidence": "npnf207 Nazianzen; npnf205 Nyssa"
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf207 1654-2054 (exorcised oil, exorcism in baptism)"
+   },
+   "S3": {
+    "layer": "RENDERED (partial or guard)",
+    "records": [
+     "cappadocian.story.thaumaturgus-legend",
+     "cappadocian.term.martys-martyrion"
+    ],
+    "loaded_evidence": null
+   },
+   "S4": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "none traced"
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.term.martys-martyrion",
+     "cappadocian.story.forty-sebaste",
+     "cappadocian.story.panegyris-shrine",
+     "cappadocian.limit.no-stones-to-show"
+    ],
+    "loaded_evidence": null
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf214 12513-12514 (Laodicea 36: clergy not magicians, no amulets)"
+   },
+   "S7": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "gregory-nyssa_life-of-macrina 186 (dream/vision before Macrina death); npnf205 On the Soul"
+   }
+  },
+  "desert": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.story.antony-tomb-combat",
+     "desert.quote.the-noonday-demon",
+     "desert.term.logismoi",
+     "desert.term.antirrhesis"
+    ],
+    "loaded_evidence": null
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.story.antony-tomb-combat",
+     "desert.quote.antony-not-worsted",
+     "desert.quote.the-coming-of-christ-made-thee-weak"
+    ],
+    "loaded_evidence": null
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.quote.he-healed-by-the-name",
+     "desert.quote.the-deeds-of-christ-prove-him",
+     "desert.quote.christ-worketh-them-not-we"
+    ],
+    "loaded_evidence": null
+   },
+   "S4": {
+    "layer": "RENDERED (partial or guard)",
+    "records": [
+     "desert.story.angel-hands-the-tablet",
+     "desert.story.pachomius-founding",
+     "desert.quote.rule-for-the-weak",
+     "desert.quote.pachomian-rule-opening-superscription"
+    ],
+    "loaded_evidence": null
+   },
+   "S5": {
+    "layer": "RENDERED (partial or guard)",
+    "records": [
+     "desert.story.antony-secret-burial"
+    ],
+    "loaded_evidence": null
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf204 33129-33161 (Antony: Egyptian charms and magicians weak); anan-isho_paradise-v2 line 82"
+   },
+   "S7": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "palladius_lausiac-history; npnf206 Jerome Ep. 108 20791"
+   }
+  },
+  "don": {
+   "S1": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf104 Augustine anti-Manichaean/Donatist; optatus"
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf102 City of God"
+   },
+   "S3": {
+    "layer": "RENDERED (partial or guard)",
+    "records": [
+     "don.contested.church-of-martyrs"
+    ],
+    "loaded_evidence": null
+   },
+   "S4": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf102 City of God X.12 18583 (miracles by holy angels)"
+   },
+   "S5": {
+    "layer": "RENDERED (partial or guard)",
+    "records": [
+     "don.story.macrobius-letter",
+     "don.story.macrobius-letter-isaac-maximianus",
+     "don.term.martyr-martyrdom"
+    ],
+    "loaded_evidence": null
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf102 DDC amulets 50804-50962"
+   },
+   "S7": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf101 Confessions (Monica); npnf103 On Care for the Dead 44050 not mapped"
+   }
+  },
+  "gallic": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.term.the-devil-demons",
+     "gallic.quote.martin-rebukes-the-devil-and-dies",
+     "gallic.story.death-of-martin-at-condate",
+     "gallic.demo.quiet-the-mind"
+    ],
+    "loaded_evidence": null
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.term.possessed-exorcism",
+     "gallic.quote.martin-exorcism-without-touch-or-reproach",
+     "gallic.quote.humility-mistress-of-virtues-not-exorcism",
+     "gallic.quote.brictio-called-by-demons-on-the-rock",
+     "gallic.quote.paphnutius-the-thief-possessed-and-healed",
+     "gallic.story.brictio-in-the-courtyard",
+     "gallic.story.paphnutius-and-the-hidden-book",
+     "gallic.contested.egypt-two-measures"
+    ],
+    "loaded_evidence": null
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.story.raising-of-the-catechumen",
+     "gallic.quote.martin-raises-the-catechumen",
+     "gallic.quote.martin-power-present-catechumen-raising",
+     "gallic.quote.cassian-refuses-to-weave-a-tale-of-miracles",
+     "gallic.quote.gennadius-martin-famous-for-signs"
+    ],
+    "loaded_evidence": null
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.term.angels",
+     "gallic.story.the-angel-and-the-twelve-psalms",
+     "gallic.quote.the-fathers-and-the-angels-twelve",
+     "gallic.quote.gallus-on-the-forced-communion-and-the-angel"
+    ],
+    "loaded_evidence": null
+   },
+   "S5": {
+    "layer": "RENDERED (partial or guard)",
+    "records": [
+     "gallic.quote.martin-and-the-unattested-tomb"
+    ],
+    "loaded_evidence": null
+   },
+   "S6": {
+    "layer": "RENDERED (partial or guard)",
+    "records": [
+     "gallic.term.sign-of-the-cross",
+     "gallic.quote.martin-and-the-unattested-tomb"
+    ],
+    "loaded_evidence": null
+   },
+   "S7": {
+    "layer": "RENDERED (partial or guard)",
+    "records": [
+     "gallic.term.angels",
+     "gallic.limit.no-one-who-saw-him"
+    ],
+    "loaded_evidence": null
+   }
+  },
+  "hal": {
+   "S1": {
+    "layer": "RENDERED (partial or guard)",
+    "records": [
+     "hal.dw.hell",
+     "hal.demo.hell"
+    ],
+    "loaded_evidence": null
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf206 Jerome 7845, 30685 (possessed with devils); npnf211 Sulpitius"
+   },
+   "S3": {
+    "layer": "RENDERED (partial or guard)",
+    "records": [
+     "hal.story.desert-romances"
+    ],
+    "loaded_evidence": null
+   },
+   "S4": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "anf04, npnf206"
+   },
+   "S5": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf206 Ep. 108 20791, Ep. 109 to Riparius 22242 (Vigilantius controversy); npnf101 Conf. IX 13779"
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "anf07 Lactantius 2091; npnf206 Life of Paulus 2681"
+   },
+   "S7": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf101 Confessions; npnf206"
+   }
+  },
+  "ijc": {
+   "S1": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf204 Vita Antonii; npnf211"
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf211; anf07"
+   },
+   "S3": {
+    "layer": "RENDERED (partial or guard)",
+    "records": [
+     "ijc.quote.vc-conquer-by-this",
+     "ijc.story.dream-before-battle"
+    ],
+    "loaded_evidence": null
+   },
+   "S4": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf210 Ambrose (angels in letters, unchecked)"
+   },
+   "S5": {
+    "layer": "RENDERED (partial or guard)",
+    "records": [
+     "ijc.term.martyrium",
+     "ijc.limit.earlier-windows"
+    ],
+    "loaded_evidence": null
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "anf07 Lactantius; ammianus; npnf214 12513"
+   },
+   "S7": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf210 Ambrose De excessu Satyri 1334; npnf101 Conf. IX"
+   }
+  },
+  "lpc": {
+   "S1": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf102 City of God; anf05 Cyprian"
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "anf05; npnf102"
+   },
+   "S3": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf102 City of God XXII.8 45632-45679 (Innocentius cured; miracles in Christ's name); retractationes 4782"
+   },
+   "S4": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf102 18583"
+   },
+   "S5": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf101 Conf. IX 13779; npnf106 20796 (draft quote ye-belong-to-my-care)"
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf102 DDC 50804; npnf107 Tractates on John 1649, 1701 (amulets, incantations with Christ's name); npnf214 12513"
+   },
+   "S7": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf103 On Care for the Dead 44050 (the dead in dreams); npnf101 Monica; anf03 Perpetua unmapped"
+   }
+  },
+  "pahc": {
+   "S1": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "anf08 Clementina; anf03 Tertullian Apology 3140-3153"
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "anf01 16966-18967 (Christians exorcising in Jesus' name); anf03 3140"
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.quote.not-every-one-that-speaketh-in-the-spirit",
+     "pahc.term.prophetes"
+    ],
+    "loaded_evidence": null
+   },
+   "S4": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "anf02 Hermas Mandate 6, 2196-2231"
+   },
+   "S5": {
+    "layer": "RENDERED (partial or guard)",
+    "records": [
+     "pahc.story.martyrdom-of-polycarp"
+    ],
+    "loaded_evidence": null
+   },
+   "S6": {
+    "layer": "RENDERED (partial or guard)",
+    "records": [
+     "pahc.story.two-ways-catechumen"
+    ],
+    "loaded_evidence": null
+   },
+   "S7": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "anf03 Perpetua and Dinocrates 59700-59740"
+   }
+  },
+  "rzg": {
+   "S1": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "calvin_institutes vol1 12881-12932 (ch. XIV, devil and angels)"
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "calvin_institutes vol1"
+   },
+   "S3": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "calvin_institutes vol1 prefatory address"
+   },
+   "S4": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "calvin_institutes vol1 12924-12932 (angels ministering spirits, guardians of the elect)"
+   },
+   "S5": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "calvin_institutes vol3 23294 (ch. XX); zwingli latin works vol3 TOC 326, 354 (Invocation of Saints; Intercession of Saints)"
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "calvin_institutes vol1; quick synodicon"
+   },
+   "S7": {
+    "layer": "NOTHING",
+    "records": [],
+    "loaded_evidence": "dream hits only"
+   }
+  },
+  "syr": {
+   "S1": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "anf08, npnf213 Nisibene hymns (Satan quote is on Christ's descent)"
+   },
+   "S2": {
+    "layer": "RENDERED (partial or guard)",
+    "records": [
+     "syr.dw.unsettled",
+     "syr.demo.unsettled"
+    ],
+    "loaded_evidence": null
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.quote.theodoret-gnats",
+     "syr.story.jacob-deliverance",
+     "syr.story.abgar-addai-legend"
+    ],
+    "loaded_evidence": null
+   },
+   "S4": {
+    "layer": "RENDERED (partial or guard)",
+    "records": [
+     "syr.story.ephrem-roll-and-vine"
+    ],
+    "loaded_evidence": null
+   },
+   "S5": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "egeria_pilgrimage-of-etheria (152 hits; Edessa, shrine of Thomas); npnf203 Theodoret 11656"
+   },
+   "S6": {
+    "layer": "RENDERED (partial or guard)",
+    "records": [
+     "syr.contested.bardaisan-nicene-floor"
+    ],
+    "loaded_evidence": null
+   },
+   "S7": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "npnf213; anan-isho"
+   }
+  },
+  "witt": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.term.the-devil",
+     "witt.term.temptation",
+     "witt.quote.second-article-of-the-creed",
+     "witt.dw.cold-and-careless-among-us",
+     "witt.story.worms-1521"
+    ],
+    "loaded_evidence": null
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "luther_works-v2 344; luther_large-catechism 130; luther_table-talk_bell1886 1568, 2249 (a selection)"
+   },
+   "S3": {
+    "layer": "RENDERED (partial or guard)",
+    "records": [
+     "witt.story.prayer-for-rain-1532"
+    ],
+    "loaded_evidence": null
+   },
+   "S4": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "book-of-concord 2838; luther_works-v2 12"
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.term.saints",
+     "witt.term.images"
+    ],
+    "loaded_evidence": null
+   },
+   "S6": {
+    "layer": "RENDERED (partial or guard)",
+    "records": [
+     "witt.term.the-devil",
+     "witt.demo.the-way-in",
+     "witt.term.daily"
+    ],
+    "loaded_evidence": null
+   },
+   "S7": {
+    "layer": "LOADED",
+    "records": [],
+    "loaded_evidence": "book-of-concord Apology 142 (prayer for the dead only)"
+   }
+  }
+ },
+ "story_records_on_topic": {
+  "alx": {
+   "on_topic": 0,
+   "all_stories": 9
+  },
+  "cappadocian": {
+   "on_topic": 3,
+   "all_stories": 19
+  },
+  "desert": {
+   "on_topic": 4,
+   "all_stories": 12
+  },
+  "don": {
+   "on_topic": 2,
+   "all_stories": 12
+  },
+  "gallic": {
+   "on_topic": 8,
+   "all_stories": 15
+  },
+  "hal": {
+   "on_topic": 1,
+   "all_stories": 12
+  },
+  "ijc": {
+   "on_topic": 3,
+   "all_stories": 11
+  },
+  "lpc": {
+   "on_topic": 0,
+   "all_stories": 7
+  },
+  "pahc": {
+   "on_topic": 2,
+   "all_stories": 15
+  },
+  "rzg": {
+   "on_topic": 0,
+   "all_stories": 3
+  },
+  "syr": {
+   "on_topic": 3,
+   "all_stories": 10
+  },
+  "witt": {
+   "on_topic": 4,
+   "all_stories": 12
+  }
+ },
+ "verification": {
+  "desert.quote.antony-not-worsted": {
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    31499,
+    31503
+   ]
+  },
+  "desert.quote.the-noonday-demon": {
+   "result": "MATCH",
+   "file": "evagrius_praktikos_dysinger.txt",
+   "lines": [
+    216
+   ]
+  },
+  "desert.quote.he-healed-by-the-name": {
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    33320
+   ]
+  },
+  "desert.quote.the-deeds-of-christ-prove-him": {
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    33068,
+    33074
+   ]
+  },
+  "desert.quote.christ-worketh-them-not-we": {
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    33169
+   ]
+  },
+  "desert.quote.the-coming-of-christ-made-thee-weak": {
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    32256
+   ]
+  },
+  "desert.quote.rule-for-the-weak": {
+   "result": "MATCH",
+   "file": "pachomius_rules-ethiopic_schodde1885.txt",
+   "lines": [
+    176
+   ]
+  },
+  "desert.quote.pachomian-rule-opening-superscription": {
+   "result": "MATCH",
+   "file": "pachomius_rules-ethiopic_schodde1885.txt",
+   "lines": [
+    52
+   ]
+  },
+  "gallic.quote.martin-exorcism-without-touch-or-reproach": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    4899
+   ]
+  },
+  "gallic.quote.cassian-refuses-to-weave-a-tale-of-miracles": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    16502
+   ]
+  },
+  "gallic.quote.humility-mistress-of-virtues-not-exorcism": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    39884
+   ]
+  },
+  "gallic.quote.martin-and-the-unattested-tomb": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    1176
+   ]
+  },
+  "gallic.quote.martin-power-present-catechumen-raising": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    995
+   ]
+  },
+  "gallic.quote.martin-raises-the-catechumen": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    977
+   ]
+  },
+  "gallic.quote.martin-rebukes-the-devil-and-dies": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    2474
+   ]
+  },
+  "gallic.quote.brictio-called-by-demons-on-the-rock": {
+   "result": "MATCH (spacing-only)",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    5289
+   ]
+  },
+  "gallic.quote.paphnutius-the-thief-possessed-and-healed": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    43058
+   ]
+  },
+  "gallic.quote.gallus-on-the-forced-communion-and-the-angel": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    5145,
+    5184
+   ]
+  },
+  "gallic.quote.the-fathers-and-the-angels-twelve": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    17141,
+    17171,
+    17173,
+    17182,
+    17184,
+    17191,
+    17193,
+    17197,
+    17199,
+    17225,
+    1674,
+    17231
+   ]
+  },
+  "gallic.quote.gennadius-martin-famous-for-signs": {
+   "result": "MATCH",
+   "file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": [
+    42545
+   ]
+  },
+  "pahc.quote.not-every-one-that-speaketh-in-the-spirit": {
+   "result": "MATCH (section-number-dropped)",
+   "file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+   "lines": [
+    13026
+   ]
+  },
+  "pahc.quote.melito-no-phantom": {
+   "result": "MATCH",
+   "file": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+   "lines": [
+    71180
+   ]
+  },
+  "syr.quote.theodoret-gnats": {
+   "result": "MATCH",
+   "file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": [
+    11174
+   ]
+  },
+  "witt.quote.second-article-of-the-creed": {
+   "result": "MATCH",
+   "file": "luther_small-catechism_smith1994.txt",
+   "lines": [
+    189
+   ]
+  },
+  "witt.quote.christs-return-to-judgment": {
+   "result": "MATCH",
+   "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+   "lines": [
+    435
+   ]
+  },
+  "hal.quote.eyes-of-faith": {
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    21139
+   ]
+  }
+ },
+ "verification_notes": "All 25 MATCH. Two with editorial artefacts: brictio-called-by-demons (spacing only); pahc not-every-one (section number dropped). gallic.the-fathers-and-the-angels-twelve reports a stray line 1674 beside lines 17141-17231 (a fragment match; not a wording change).",
+ "identified": {
+  "cappadocian": [
+   "Basil martyr homilies (Forty, Gordius, Julitta, Mamas)",
+   "Nyssa In XL Martyres I-II and Theodore the Recruit",
+   "Nyssa Life of Gregory Thaumaturgus",
+   "Annisa estate shrine (Vita Macrinae)"
+  ],
+  "desert": [
+   "Historia Monachorum in Aegypto",
+   "Antony Letters",
+   "Brakke, Demons and the Making of the Monk"
+  ],
+  "don": [
+   "Acts of the Abitinian Martyrs",
+   "Tilley, Donatist Martyr Stories",
+   "Duval, Loca sanctorum Africae"
+  ],
+  "syr": [
+   "Brock, The Luminous Eye",
+   "Ephrem memory dossier (Jacob of Serug)"
+  ],
+  "witt": [
+   "Saxon visitation protocols",
+   "Heiko Oberman, Luther: Man between God and the Devil"
+  ]
+ },
+ "other": {
+  "alx": [
+   {
+    "sub": "S2",
+    "work": "Origen, Homilies on Luke (incl. Hom. 35 on the angel and the demon that attend each soul) and Homilies on Numbers (demons, magic)",
+    "edition": "Latin (Jerome's and Rufinus's versions), GCS Origenes Werke 9 (Rauer 1930) and 7 (Baehrens 1921); Hom. in Numeros Latin is already vendored (rufinus-aquileia_origenes-werke-bd7), Luke is not; no public-domain English",
+    "where": "archive.org (GCS)",
+    "licence": "public domain (Latin/Greek); Lienhard FOTC 94 (1996) English in copyright"
+   },
+   {
+    "sub": "S4",
+    "work": "Clement of Alexandria, Excerpta ex Theodoto and Eclogae propheticae (angels assigned to persons and nations)",
+    "edition": "Greek, GCS Clemens 3 (Stählin 1909); English of the Excerpta in R.P. Casey, Studies and Documents 1 (1934)",
+    "where": "archive.org",
+    "licence": "public domain (Greek); Casey 1934 PD-US"
+   }
+  ],
+  "cappadocian": [
+   {
+    "sub": "S5",
+    "work": "Basil, Homilies on the Forty Martyrs (Hom. 19), on Gordius, Julitta and Mamas; Gregory of Nyssa, In XL Martyres I-II and On Theodore the Recruit (the shrine, the relics touched 'as if still alive', the painted passion on the walls)",
+    "edition": "Greek, PG 31 (Basil) and PG 46 (Nyssa), Migne 1857-1863; no public-domain English; Leemans et al., 'Let Us Die That We May Live' (Routledge 2003) in copyright",
+    "where": "archive.org / documentacatholicaomnia",
+    "licence": "public domain (Greek)"
+   },
+   {
+    "sub": "S6",
+    "work": "Gregory of Nazianzus, Oration 24 on Cyprian (the magician's love-spell against Justina, the demon defeated, the relics' power) and Oration 8 on Gorgonia (her healing at the altar with the reserved elements)",
+    "edition": "Greek with Latin, PG 35 (Migne 1857); Or. 8 and 24 are not among the NPNF 2/7 selection vendored; English Vinson, FOTC 107 (2003) in copyright",
+    "where": "archive.org (PG 35)",
+    "licence": "public domain (Greek/Latin)"
+   },
+   {
+    "sub": "S4",
+    "work": "Basil, Against Eunomius III.1 (the angel set over each believer) and Homily on Psalm 33 (the guardian angel who departs at sin)",
+    "edition": "Greek, PG 29; the Letters' editor cites both (npnf208 line 5369, 7862) but the works are not vendored in English; English DelCogliano and Radde-Gallwitz FOTC 122 (2011) in copyright",
+    "where": "archive.org (PG 29)",
+    "licence": "public domain (Greek)"
+   }
+  ],
+  "desert": [
+   {
+    "sub": "S2",
+    "work": "Apophthegmata Patrum, alphabetical collection (Macarius the Great and the skull; Moses and the demons; Theodore of Pherme on the demons; Syncletica) and the Latin Verba Seniorum",
+    "edition": "Greek PG 65 (Cotelier via Migne 1864); Latin PL 73 (Rosweyde via Migne 1849); the Syriac systematic form is already vendored in Budge's Paradise vol. 2 (1907); Ward (1975) English in copyright",
+    "where": "archive.org",
+    "licence": "public domain (Greek/Latin)"
+   },
+   {
+    "sub": "S2",
+    "work": "Historia Monachorum in Aegypto (Rufinus's Latin; the Greek), the travellers' report of exorcisms, visions and wonders at Nitria and the Thebaid",
+    "edition": "Latin PL 21 (Migne 1849); Greek Preuschen, Palladius und Rufinus (Giessen 1897); registered as desert.source.historia-monachorum, kind unvendored, and on WANTS-REGISTER; Russell 1980 English in copyright",
+    "where": "archive.org",
+    "licence": "public domain (Latin/Greek)"
+   },
+   {
+    "sub": "S3",
+    "work": "Evagrius Ponticus, Antirrhetikos (the handbook of scripture answers to each demon) and On Thoughts (Peri logismon)",
+    "edition": "Syriac Frankenberg, Euagrius Ponticus (Berlin 1912) with Greek retroversion; On Thoughts Greek PG 79 and 40 under Nilus; Brakke (2009) and Sinkewicz (2003) English in copyright; desert.term.antirrhesis already says 'no vendored text exists'",
+    "where": "archive.org (Frankenberg 1912)",
+    "licence": "public domain (Syriac/Greek)"
+   }
+  ],
+  "don": [
+   {
+    "sub": "S5",
+    "work": "Augustine, Letter 29 to Alypius (the laetitia, drinking and feasting at the martyrs' tombs at Hippo, 395) and Letter 22 to Aurelius (the same abuse in Africa generally), the practice the Donatists shared",
+    "edition": "English in NPNF 1st ser. vol. 1 (Cunningham 1886), vendored in npnf101 and mapped to don; LOADED, listed so the thread sees it is the same volume",
+    "where": "cic/texts/npnf101_augustine-confessions-letters.xml",
+    "licence": "public domain"
+   },
+   {
+    "sub": "S5",
+    "work": "Donatist martyr acts in English: Passio Marculi, Passio Maximiani et Isaac, Sermo de passione Donati, Acta Saturnini (the Abitinian martyrs: 'we cannot be without the Lord's supper'; the cult at the graves)",
+    "edition": "Latin PL 8 (Migne 1844), already vendored for Marculus and Isaac-Maximian; Acta Saturnini registered as don.source.acta-saturnini-abitinian-martyrs, kind unvendored (Latin in PL 8 and Dolbeau's edition); Tilley, TTH 24 (1996) English in copyright",
+    "where": "archive.org (PL 8)",
+    "licence": "public domain (Latin)"
+   },
+   {
+    "sub": "S6",
+    "work": "Theodosian Code IX.16 (the laws against magic, divination and haruspicy) and XVI.5 (burial of heretics) in English",
+    "edition": "Clyde Pharr, The Theodosian Code (Princeton 1952), in copyright; Latin Mommsen-Meyer (Berlin 1905) is vendored (theodosianus-16_mommsen-meyer1905.txt, codex-theodosianus_latinlibrary.txt) and Boyd 1905 on the ecclesiastical edicts is vendored and mapped",
+    "where": "cic/texts (Latin); archive.org (Mommsen)",
+    "licence": "public domain (Latin); Pharr in copyright"
+   }
+  ],
+  "gallic": [
+   {
+    "sub": "S3",
+    "work": "Sulpitius Severus, Dialogues I (Postumianus on Egypt: the wonders he saw, the hermit and the she-wolf, the lion, the demoniac healed by a monk's letter)",
+    "edition": "Roberts, NPNF 2nd ser. vol. 11 (1894), vendored in npnf211 and mapped to gallic; the world's record set draws on Dialogues II-III (gallic.source.sulpitius-dialogues-ii-iii) and Dialogue I is cited by no record; LOADED, listed so the thread sees the licence gap",
+    "where": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+    "licence": "public domain"
+   },
+   {
+    "sub": "S5",
+    "work": "Paulinus of Nola, Natalicia (Carmina 12-29, the yearly poems for St Felix's feast: the shrine, the crowds, the cures, the relic of the cross) and Letter 31 to Severus (sending a relic of the cross for Sulpitius's basilica at Primuliacum) and Letter 32 (the inscriptions and Martin's portrait painted beside Paulinus's)",
+    "edition": "Latin CSEL 29-30 (Hartel 1894); English Walsh, ACW 35-36 and 40 (1966-1975) in copyright",
+    "where": "archive.org (CSEL 29-30)",
+    "licence": "public domain (Latin)"
+   },
+   {
+    "sub": "S5",
+    "work": "Victricius of Rouen, De laude sanctorum (396): the theology of relics as the whole saint present in every fragment, written for Gaul in the window",
+    "edition": "Latin PL 20 (Migne 1845), critical ed. Mulders-Demeulenaere CCSL 64 (1985); English Clark, JECS 7 (1999) in copyright",
+    "where": "archive.org (PL 20)",
+    "licence": "public domain (Latin)"
+   },
+   {
+    "sub": "S2",
+    "work": "Cassian, Conference VII (Serenus on the demons: whether they can enter the soul, possession and bodily sickness) and VIII (On Principalities: the two angels, how demons fell) in a modern-rights-free form",
+    "edition": "Already vendored in English, npnf211 lines 32132 and 33442 (Gibson 1894) and mapped; cited by no gallic record (the records cite Conf. I, II, XIII-XV, XVIII); LOADED, listed for the thread",
+    "where": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+    "licence": "public domain"
+   }
+  ],
+  "hal": [
+   {
+    "sub": "S5",
+    "work": "Jerome, Against Vigilantius (406) and Letter 109 to Riparius (relics, vigils at martyrs' tombs, 'ashmongers and idolaters')",
+    "edition": "Fremantle, NPNF 2nd ser. vol. 6 (1893), vendored in npnf206 (Against Vigilantius from line 22255 region; Letter 109 at 22262) and mapped to hal; cited by no hal record; LOADED, listed for completeness",
+    "where": "cic/texts/npnf206_jerome-principal-works.xml",
+    "licence": "public domain"
+   },
+   {
+    "sub": "S6",
+    "work": "Jerome, Life of Hilarion (the charioteer Italicus and the magician's spells; the possessed camel; demons at Gaza) and Life of Paul the Hermit",
+    "edition": "Fremantle, NPNF 2/6 (1893), vendored in npnf206 lines 29725 and 30080 on; hal.story.desert-romances names both works but quotes neither; LOADED",
+    "where": "cic/texts/npnf206_jerome-principal-works.xml",
+    "licence": "public domain"
+   },
+   {
+    "sub": "S2",
+    "work": "Jerome, Letter 108 (Epitaph of Paula) 13: demons screaming before the tombs of the saints at Samaria; Letter 107 to Laeta on a child's upbringing",
+    "edition": "Fremantle, NPNF 2/6, vendored (npnf206 line 21340); hal.story.journey-to-bethlehem and hal.term.peregrinatio use Ep. 108 secs. 6-14 but not the demons at the tombs; LOADED",
+    "where": "cic/texts/npnf206_jerome-principal-works.xml",
+    "licence": "public domain"
+   }
+  ],
+  "ijc": [
+   {
+    "sub": "S5",
+    "work": "Ambrose, De obitu Theodosii 40-48 (Helena and the finding of the True Cross, the nails in the bridle and the diadem) and Paulinus, Vita Ambrosii 14, 29, 32 (Gervasius and Protasius; Nazarius and Celsus; the exorcisms at Milan)",
+    "edition": "De obitu Theodosii: Latin CSEL 73 (Faller 1955) in copyright, PL 16 (Migne 1845) public domain; Mannix (CUA 1925) English PD-US; Vita Ambrosii is vendored (paulinus-milan_vita-ambrosii_kaniecka1928.txt) but mapped only via ijc.source.paulinus-vita-ambrosii",
+    "where": "archive.org (PL 16; Mannix 1925)",
+    "licence": "public domain (Latin); Mannix 1925 PD-US"
+   },
+   {
+    "sub": "S6",
+    "work": "Theodosian Code IX.16.1-12 (Constantine to Honorius on haruspices, magicians, astrologers) and Ammianus Marcellinus XXIX.1-2 (the magic trials at Antioch under Valens)",
+    "edition": "Latin Mommsen-Meyer 1905 (vendored as codex-theodosianus_latinlibrary.txt / theodosianus-16 for book 16 only); Ammianus English Yonge, Bohn (London 1862)",
+    "where": "archive.org",
+    "licence": "public domain"
+   }
+  ],
+  "lpc": [
+   {
+    "sub": "S7",
+    "work": "Augustine, On Care to Be Had for the Dead (De cura pro mortuis gerenda, 421-422): whether the dead know of or appear to the living, the monk John appearing in a dream, burial near the martyrs",
+    "edition": "Browne, NPNF 1st ser. vol. 3 (1887), vendored npnf103 line 43492 and mapped to lpc; cited only by the consult-only lpc.source.rebillard-care-of-the-dead-in-late-antiquity; LOADED, listed so the thread sees it",
+    "where": "cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml",
+    "licence": "public domain"
+   },
+   {
+    "sub": "S5",
+    "work": "Augustine, Letters 22 and 29 (the laetitia at the martyrs' tombs) and Possidius, Life of Augustine 29 (the exorcism and the healing at Hippo)",
+    "edition": "NPNF 1/1 vendored npnf101 and mapped; Weiskotten 1919 vendored possidius_vita-augustini_weiskotten1919.txt line 591 and mapped; LOADED",
+    "where": "cic/texts",
+    "licence": "public domain"
+   }
+  ],
+  "pahc": [
+   {
+    "sub": "S2",
+    "work": "Justin, 2 Apology 6 and Dialogue 30, 76, 85 (Christians exorcising demons in the name of Jesus crucified under Pontius Pilate); Irenaeus, Against Heresies II.32.4 (gifts of healing and exorcism still exercised)",
+    "edition": "ANF 1 (1885), vendored anf01 lines 16966, 18967, 21879, 22371 and mapped to pahc; no pahc record mentions exorcism; LOADED",
+    "where": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+    "licence": "public domain"
+   },
+   {
+    "sub": "S5",
+    "work": "Acts of Paul and Thecla, Acts of Peter and Acts of John (the wonders the second-century house churches told); the Protevangelium of James",
+    "edition": "ANF 8 (1886), vendored anf08 and mapped; M.R. James, The Apocryphal New Testament (Oxford 1924) PD-US for the fuller texts",
+    "where": "cic/texts; archive.org",
+    "licence": "public domain"
+   }
+  ],
+  "rzg": [
+   {
+    "sub": "S5",
+    "work": "Calvin, Treatise on Relics (Traité des reliques, 1543): the inventory of bogus relics, 'enough wood of the cross to load a ship'",
+    "edition": "English, Calvin's Tracts vol. 1, trans. Henry Beveridge (Calvin Translation Society, Edinburgh 1844), pp. 287-341; French, Opera 6",
+    "where": "archive.org / CCEL",
+    "licence": "public domain"
+   },
+   {
+    "sub": "S5",
+    "work": "Zwingli, A Short Christian Instruction (1523), the section on images and the saints; Zwingli, Answer to Valentin Compar (1525) on images; Bullinger, Decades IV-V on angels, devils, saints and images",
+    "edition": "Zwingli: Latin Works vol. 2 (Hinke 1922) not vendored (vols. 1 and 3 are); Bullinger, The Decades, Parker Society 4 vols. (Harding 1849-1852)",
+    "where": "archive.org",
+    "licence": "public domain in the US (Hinke 1922); Parker Society public domain"
+   },
+   {
+    "sub": "S6",
+    "work": "Geneva Consistory registers (1542-1544) and the Genevan ordinances on sorcery and the plague-spreaders (engraisseurs) of 1545; Zurich's Reformation mandates on soothsaying",
+    "edition": "Registres du Consistoire de Genève au temps de Calvin, vol. 1 (Droz 1996) and the English (Eerdmans 2000) in copyright; the 1545 plague-spreader material in Opera 21 (Annales) public domain; Egli, Actensammlung zur Geschichte der Zürcher Reformation (1879) public domain",
+    "where": "archive.org (Egli 1879; Opera 21)",
+    "licence": "public domain (Egli 1879, Opera 21); Droz/Eerdmans in copyright"
+   }
+  ],
+  "syr": [
+   {
+    "sub": "S1",
+    "work": "Ephrem, Carmina Nisibena 35-42 (the Satan-and-Death dialogues) and 52-68 in full, beyond Gwynn's NPNF selection; Ephrem, Hymns against Heresies (demons, astrology, Bardaisan's planets)",
+    "edition": "Bickell, S. Ephraemi Syri Carmina Nisibena (Leipzig 1866), Syriac with Latin; Beck, CSCO 169-170 (1957) and 218-219 (1961) in copyright; Gwynn's English of 35-42 is vendored (npnf213 line 15633) and mapped",
+    "where": "archive.org (Bickell)",
+    "licence": "public domain (Bickell)"
+   },
+   {
+    "sub": "S2",
+    "work": "Acts of Thomas (demons cast out, the dragon, the dead raised) and the Persian martyr acts in English",
+    "edition": "Acts of Thomas: Wright, Apocryphal Acts of the Apostles (London 1871) English from the Syriac; ANF 8's Greek-based version is vendored (anf08) and mapped to syr; Persian acts are vendored only in German (Braun 1915, Hoffmann 1880)",
+    "where": "archive.org (Wright 1871)",
+    "licence": "public domain"
+   }
+  ],
+  "witt": [
+   {
+    "sub": "S2",
+    "work": "Luther, Table Talk, the chapters 'Of the Devil and His Works' (the devil causes sickness, drowning, storms; changelings; witches; spirits in houses) in Hazlitt's fuller edition",
+    "edition": "The Table Talk of Martin Luther, trans. William Hazlitt (Bohn, London 1857; from Aurifaber) - the vendored luther_table-talk_bell1886.txt (Bell's 1646 selection, 43 'devil' hits) does not carry these chapters; German WA Tischreden 1-6 (1912-1921)",
+    "where": "archive.org",
+    "licence": "public domain"
+   },
+   {
+    "sub": "S6",
+    "work": "Luther, Treatise on Good Works (1520), second commandment: sorcery, conjuring, swearing by the devil; Luther, Sermon on the Ten Commandments (1518, Decem praecepta) on witchcraft and amulets",
+    "edition": "Treatise on Good Works is vendored in English (luther_works-v1-selected_jacobs-spaeth1915.txt lines 7820-7892) and mapped: LOADED. Decem praecepta: Latin WA 1:394-521 (1883), no public-domain English",
+    "where": "cic/texts; archive.org (WA 1)",
+    "licence": "public domain"
+   }
+  ]
+ },
+ "other_corrections": {
+  "note": "earlier other.json listed these as outside the repo; they are vendored",
+  "items": [
+   {
+    "world": "ijc",
+    "sub": "S5",
+    "work": "Ambrose, Letter 22 to Marcellina (the finding of Gervasius and Protasius, 386: the blind m"
+   },
+   {
+    "world": "lpc",
+    "sub": "S3",
+    "work": "Augustine, City of God XXII.8 (the miracles at Hippo and Uzalis, the relics of Stephen, th"
+   },
+   {
+    "world": "lpc",
+    "sub": "S6",
+    "work": "Augustine, Tractates on John 7.6-7 and 7.12 (amulets, incantations with Christ's name mixe"
+   },
+   {
+    "world": "pahc",
+    "sub": "S4",
+    "work": "Hermas, Mandate 6.2 (the two angels with every person, of righteousness and of iniquity) a"
+   },
+   {
+    "world": "pahc",
+    "sub": "S6",
+    "work": "Ignatius, Ephesians 19 (at the star, 'all magic was dissolved'); Didache 2-3 and 5 (do not"
+   },
+   {
+    "world": "rzg",
+    "sub": "S3",
+    "work": "Calvin, Institutes, Prefatory Address to Francis I, 'they demand miracles of us', and I.14"
+   },
+   {
+    "world": "syr",
+    "sub": "S5",
+    "work": "Egeria, Itinerarium 19 (Edessa, the shrine of Thomas, the letter of Abgar read at the gate"
+   },
+   {
+    "world": "witt",
+    "sub": "S5",
+    "work": "Apology of the Augsburg Confession XXI (Of the Invocation of Saints: 'the saints pray for "
+   },
+   {
+    "world": "gallic",
+    "sub": "S2",
+    "work": "Cassian Conferences VII-VIII (Serenus on demons, On Principalities) are vendored at npnf211 32132 and 33442; no record cites them"
+   },
+   {
+    "world": "witt",
+    "sub": "S2",
+    "work": "Table Talk is vendored but only as a selection (43 devil lines); the full Of the Devil chapters stay OTHER"
+   }
+  ]
+ },
+ "findings": [
+  "S7 has no record in any world: no record speaks to the dead in dreams or a felt presence; the dreams on record are the living ones (Ciceronian dream, Constantine, Maximianus).",
+  "Rendering is concentrated: gallic holds 8 of 30 on-topic stories and nearly all quotes; lpc, rzg and alx have none, and cappadocian has nothing on S1-S4; Cassian Conf. VII and VIII are vendored and cited by no record.",
+  "Overreach risks: desert.story.antony-tomb-combat absent_detail calls the beast-demons a chosen register, not a literal claim; gallic.term.the-devil-demons says real and visible. cappadocian.term.martys-martyrion not_for says this world denied worship of martyrs, with the homilies unacquired."
+ ],
+ "not_checked": [
+  "canon/sealed_probes/ not read.",
+  "Seven record-less worlds (aec hus jes meth obel rcg wsyr) not graded; see S*.json.",
+  "Hit-file lists are from the search tool, so LOADED cells name anchors I read, not every mapped file; non-English files counted, not read.",
+  "Readability not graded.",
+  "Story counts are by my reading of each hit, not an exhaustive read of all 137 story records."
+ ]
+}

@@ -7,6 +7,15 @@ status: draft
 register: emic
 canon_cells:
 - F1-I
+use_note:
+  means: "At the council of 256, Cyprian says no bishop makes himself a bishop of bishops, and each has his own right of judgment."
+  not_for:
+    - "a claim that it is an early anti-papal manifesto"
+    - "a claim that it states a modern principle of separated powers among equal branches"
+    - "a claim that Cyprian's words name Stephen as their target"
+    - "a claim that ordinary believers or most clergy were formed by this question"
+  years: {from: 256, to: 256}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -36,6 +45,10 @@ claim_guards: []
 relations:
 - type: associated-with
   target: lpc.figure.cyprian
+- type: associated-with
+  target: lpc.gravity.collegial-communion-preserved
+- type: associated-with
+  target: lpc.gravity.conciliar-authority-theory
 text: For neither does any of us set himself up as a bishop of bishops, nor by tyrannical terror does
   any compel his colleague to the necessity of obedience; since every bishop, according to the allowance
   of his liberty and power, has his own proper right of judgment, and can no more be judged by another

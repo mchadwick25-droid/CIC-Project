@@ -7,6 +7,15 @@ status: draft
 register: etic
 canon_cells:
 - F4-I
+use_note:
+  means: "Taking back the failed, not shutting them out, was central in Cyprian's time, and this concern is classified in his phase only."
+  not_for:
+    - "a claim that it spans both phases under this name"
+    - "a claim that the rival routes of Novatianist rigor or Felicissimus laxity were the church's own"
+    - "a claim that the process was private confession"
+    - "a claim that Augustine's church had no penitential discipline"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority
@@ -56,6 +65,12 @@ relations:
   target: lpc.force.recurring-contest-failed-member
 - type: associated-with
   target: lpc.force.confessors-claim-to-grant-peace
+- type: associated-with
+  target: lpc.quote.bind-him-justly
+- type: associated-with
+  target: lpc.quote.reprove-and-forgive-the-surgeons-knife
+- type: associated-with
+  target: lpc.quote.peter-the-sick-man-and-the-physician
 name: 'Penitential Discipline: the Reintegration of the Failed'
 description: >-
   How the church took back its failed members sat near the center of this world's life.

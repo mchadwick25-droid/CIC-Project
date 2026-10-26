@@ -1,0 +1,3221 @@
+{
+ "generated": "2026-10-25",
+ "method": {
+  "tool": "scratchpad/tools/coverage_search.py, --regex --whole-words, nine term sets (search/C3/terms.txt); first run (bad-run1/) was discarded because its alternation groups were split on commas",
+  "record_check": "independent front-matter grep of records/*/*/*.md with the same regexes (recgrep.py -> recgrep.json)",
+  "verification": "verify.py: quote text normalised and searched in the vendored file named by the source record; variants reported (exact / hyphen-joined / section-number-dropped / spacing-only)",
+  "layers": "RENDERED = a record speaks to the sub-question; LOADED = a vendored file mapped to the world holds a passage read in context; IDENTIFIED = a registered but unvendored source; OTHER = outside the repo; NOTHING. The tool scans whole mapped files, so a LOADED hit can belong to another author in a shared volume (noted per cell)."
+ },
+ "sub_questions": [
+  {
+   "id": "S1",
+   "label": "Was hell and a last judgment real to you? How did you picture it, preach it, and use it?",
+   "question_ids": [
+    "C3-05",
+    "C3-21",
+    "C3-25",
+    "C3-29",
+    "C3-30",
+    "R-09"
+   ]
+  },
+  {
+   "id": "S2",
+   "label": "Was hell forever, or did it end?",
+   "question_ids": [
+    "C3-02",
+    "C3-03",
+    "C3-06",
+    "C3-17"
+   ]
+  },
+  {
+   "id": "S3",
+   "label": "Did everyone get restored in the end, even the devil (apokatastasis; Origen, Nyssa)?",
+   "question_ids": [
+    "C3-07",
+    "C3-22",
+    "C3-23"
+   ]
+  },
+  {
+   "id": "S4",
+   "label": "Were the wicked destroyed rather than tormented (annihilation, conditional immortality)?",
+   "question_ids": [
+    "C3-08"
+   ]
+  },
+  {
+   "id": "S5",
+   "label": "What happens right after death: a waiting place, Sheol/Hades, purgatory, prayer and offerings for the dead; ghosts; reincarnation",
+   "question_ids": [
+    "C3-04",
+    "C3-09",
+    "C3-10",
+    "C3-11",
+    "C3-24",
+    "C3-27",
+    "R-22"
+   ]
+  },
+  {
+   "id": "S6",
+   "label": "What is heaven like; resurrection of the body; seeing loved ones again; can baptism's gift be lost?",
+   "question_ids": [
+    "C3-12",
+    "C3-19",
+    "C3-28"
+   ]
+  },
+  {
+   "id": "S7",
+   "label": "Who is lost: outsiders, Jews and pagans, a loved one who did not believe, unbaptised infants, suicide",
+   "question_ids": [
+    "C3-01",
+    "C3-13",
+    "C3-14",
+    "C3-15",
+    "C3-16",
+    "C3-26",
+    "R-20"
+   ]
+  },
+  {
+   "id": "S8",
+   "label": "The end of the world: rapture, Antichrist, millennium, 'is the end coming in your lifetime?'",
+   "question_ids": [
+    "C3-18",
+    "C3-20"
+   ]
+  }
+ ],
+ "verification_all": {
+  "alx.quote.origen-punishment-heals": {
+   "result": "MATCH",
+   "file": "origen_philocalia_lewis1911.txt",
+   "lines": [
+    436
+   ],
+   "detail": null
+  },
+  "alx.quote.athanasius-death-trampled-down": {
+   "result": "MATCH (section-number-dropped)",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    17442
+   ],
+   "detail": null
+  },
+  "alx.quote.no-sun-no-moon-no-sky": {
+   "result": "MATCH",
+   "file": "anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+   "lines": [
+    33725
+   ],
+   "detail": null
+  },
+  "alx.quote.clement-schoolmaster": {
+   "result": "MATCH",
+   "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "lines": [
+    27890
+   ],
+   "detail": null
+  },
+  "cappadocian.quote.we-look-to-the-east": {
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    14068
+   ],
+   "detail": null
+  },
+  "desert.quote.antony-dying-daily": {
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    31709,
+    31713,
+    31719
+   ],
+   "detail": null
+  },
+  "desert.quote.the-kingdom-is-apatheia": {
+   "result": "MATCH",
+   "file": "evagrius_praktikos_dysinger.txt",
+   "lines": [
+    174,
+    177
+   ],
+   "detail": null
+  },
+  "gallic.quote.vincent-awful-expectation-of-judgment": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    12086
+   ],
+   "detail": null
+  },
+  "gallic.quote.salvian-ever-present-judgment-gallic-provinces": {
+   "result": "MATCH (hyphen-joined)",
+   "file": "salvian_on-the-government-of-god_sanford1930.txt",
+   "lines": [
+    9144
+   ],
+   "detail": null
+  },
+  "gallic.quote.salvian-present-judgment-clearly-shown": {
+   "result": "MATCH",
+   "file": "salvian_on-the-government-of-god_sanford1930.txt",
+   "lines": [
+    9009
+   ],
+   "detail": null
+  },
+  "gallic.quote.martin-antichrist-already-at-hand": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    1784
+   ],
+   "detail": null
+  },
+  "gallic.quote.martin-antichrist-already-born": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    4603
+   ],
+   "detail": null
+  },
+  "gallic.quote.martin-rebukes-the-devil-and-dies": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    2474
+   ],
+   "detail": null
+  },
+  "hal.quote.a-follower-of-cicero-and-not-of-christ": {
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    6479
+   ],
+   "detail": null
+  },
+  "pahc.quote.two-ways-one-of-life-and-one-of-death": {
+   "result": "MATCH (section-number-dropped)",
+   "file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+   "lines": [
+    12700
+   ],
+   "detail": null
+  },
+  "pahc.quote.polycrates-to-victor": {
+   "result": "MATCH",
+   "file": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+   "lines": [
+    72578,
+    72614
+   ],
+   "detail": null
+  },
+  "pahc.quote.justin-reasonable-livers": {
+   "result": "MATCH",
+   "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": [
+    15684
+   ],
+   "detail": null
+  },
+  "syr.quote.nisibene-death-trembled": {
+   "result": "MATCH",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    15642
+   ],
+   "detail": null
+  },
+  "syr.quote.ephrem-resurrection-pledge": {
+   "result": "MATCH",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    22311
+   ],
+   "detail": null
+  },
+  "syr.quote.death-knew-his-kingdom-was-to-be-made-void": {
+   "result": "MATCH (spacing-only)",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    28079
+   ],
+   "detail": null
+  },
+  "syr.quote.aphrahat-anti-jewish-frame": {
+   "result": "MATCH",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    27100
+   ],
+   "detail": null
+  },
+  "witt.quote.christs-return-to-judgment": {
+   "result": "MATCH",
+   "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+   "lines": [
+    435
+   ],
+   "detail": null
+  },
+  "witt.quote.second-article-of-the-creed": {
+   "result": "MATCH",
+   "file": "luther_small-catechism_smith1994.txt",
+   "lines": [
+    189
+   ],
+   "detail": null
+  },
+  "witt.quote.article-ii-of-original-sin": {
+   "result": "MATCH",
+   "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+   "lines": [
+    194
+   ],
+   "detail": null
+  },
+  "ijc.quote.nicene-creed": {
+   "result": "MATCH",
+   "file": "npnf214_seven-ecumenical-councils.xml",
+   "lines": [
+    2408,
+    2412,
+    2413
+   ],
+   "detail": null
+  }
+ },
+ "worlds": {
+  "alx": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.quote.origen-punishment-heals",
+     "alx.demo.going-to-hell",
+     "alx.term.apokatastasis"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/origen_philocalia_lewis1911.txt",
+      "line": 436,
+      "snippet": "every threat and pain and punishment ... never inflicted to injure the sufferers, but always to do them good"
+     },
+     {
+      "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+      "line": 4985,
+      "snippet": "He denounces even eternal punishment (De Principiis II.10, Crombie)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "The voice can quote Origen on punishment as a physician's fire and the demo says 'Judgment was real'. But no quote record states that judgment or hell is real in Origen's or Clement's own words; the only quote is about punishment's purpose. Thin on how hell was pictured or preached.",
+    "verified": [
+     {
+      "record": "alx.quote.origen-punishment-heals",
+      "result": "MATCH",
+      "file": "origen_philocalia_lewis1911.txt",
+      "lines": [
+       436
+      ]
+     }
+    ]
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.quote.origen-punishment-heals",
+     "alx.term.apokatastasis"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+      "line": 24311,
+      "snippet": "removed from their primal state of blessedness (De Principiis, on the end)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Partial. The quote's retrieve_when covers 'everlasting punishment' but its text does not say whether punishment ends; the term says the question was open. The voice would answer 'forever or ends' by deferring, which is honest for Origen but leaves Clement, Athanasius and Dionysius unspoken. De Principiis II.10-11 and III.6 are vendored (anf04) and unquoted.",
+    "verified": [
+     {
+      "record": "alx.quote.origen-punishment-heals",
+      "result": "MATCH",
+      "file": "origen_philocalia_lewis1911.txt",
+      "lines": [
+       436
+      ]
+     }
+    ]
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.term.apokatastasis",
+     "alx.contested.origen-positions",
+     "alx.demo.going-to-hell"
+    ],
+    "confidence": [
+     "Contested",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Strongest cell in the fleet: term, contested_claim (with the Rufinus/Jerome filter) and a worked demo. not_for forbids citing the 553 condemnation. C3-22 ('was he condemned for it?') can only be answered 'not in our horizon'.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+      "line": 10922,
+      "snippet": "annihilation 7 hits, blotted out 5 (Arnobius; Methodius On the Resurrection)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record. The vendored hits are Arnobius (Africa) and Methodius, not Alexandrians; Clement and Origen hold the soul immortal. The true record is an honest_limit: no Alexandrian teacher taught that the lost are destroyed.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+      "line": 4525,
+      "snippet": "Hades 71 hits (Origen on Matthew/John)"
+     },
+     {
+      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "line": 19398,
+      "snippet": "Clement, Stromateis VI: the one universal salvation; Christ preached in Hades"
+     },
+     {
+      "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+      "line": 10782,
+      "snippet": "even in Hades the admonition has... (De Principiis II.11 paradise as a school for souls)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record on the soul between death and resurrection, on prayer for the dead, or on Hades. Origen's 'school of souls' (De Princ. II.11.6) and Clement's descent-preaching (Strom. VI.6) are vendored. Reincarnation: alx.contested.origen-positions holds pre-existence of souls (RENDERED), and Contra Celsum rejects transmigration (anf04, 'metempsychosis' 3 hits) - LOADED.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.term.anastasis",
+     "alx.quote.athanasius-death-trampled-down",
+     "alx.quote.no-sun-no-moon-no-sky"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Resurrection of the body as transformation, not reanimation, is held in a term and a verified Athanasius quote. Seeing loved ones again: nothing in records or found in the texts for this world.",
+    "verified": [
+     {
+      "record": "alx.quote.athanasius-death-trampled-down",
+      "result": "MATCH (section-number-dropped)",
+      "file": "npnf204_athanasius-select-works-letters.xml",
+      "lines": [
+       17442
+      ]
+     },
+     {
+      "record": "alx.quote.no-sun-no-moon-no-sky",
+      "result": "MATCH",
+      "file": "anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+      "lines": [
+       33725
+      ]
+     }
+    ]
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.demo.going-to-hell",
+     "alx.quote.clement-schoolmaster",
+     "alx.term.apokatastasis"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Outsiders: answered (Clement's schoolmaster; 'whether you stand within his mercy is not ours to rule'). Unbaptised infants and suicide: NOTHING in records and nothing found vendored for this world (Origen's infant-baptism homilies are Latin, unvendored). C3-13/C3-15 would be met by the generic 'not ours to rule' line, which is honest but thin.",
+    "verified": [
+     {
+      "record": "alx.quote.clement-schoolmaster",
+      "result": "MATCH",
+      "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": [
+       27890
+      ]
+     }
+    ]
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.story.arsinoite-conference",
+     "alx.demo.couldnt-believe",
+     "alx.contested.allegory-from-within"
+    ],
+    "confidence": [
+     "Contested",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Millennium: Nepos and Dionysius's three-day conference. Rapture: no record says the word; the voice would have to reason from the story.",
+    "verified": []
+   }
+  },
+  "cappadocian": {
+   "S1": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+      "line": 38478,
+      "snippet": "Gregory Nazianzen, Oration 40.23: punishment, less punishment, neither glorified nor punished"
+     },
+     {
+      "file": "cic/texts/basil_ascetic-works-longer-shorter-rules_clarke1925.txt",
+      "line": 7722,
+      "snippet": "to eternal punishment, where their worm dieth not and the fire (Basil, Rules)"
+     },
+     {
+      "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+      "line": 4653,
+      "snippet": "damnation (Basil, Letters)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record speaks of hell or judgment at all (only anastasis and Paradise). Open_Gaps_Tracking.md line 667 already records that the witnesses do not answer 'hell for outsiders'. Basil's Rules (Clarke 1925) turn out to be vendored and mapped, so this is LOADED, not OTHER.",
+    "verified": []
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+      "line": 1521,
+      "snippet": "akoimetos, aionios ... (editor on Nyssa's use of 'eternal')"
+     },
+     {
+      "file": "cic/texts/basil_ascetic-works-longer-shorter-rules_clarke1925.txt",
+      "line": 11714,
+      "snippet": "when we shall rise again, some to eternal punishment, others ... (Basil)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "The world argued with itself: Basil's Shorter Rule 267 holds punishment eternal; Nyssa's Catechetical Oration 26 and On the Soul and Resurrection hold that purgation ends. Neither is in a record. This needs a contested_claim, not a single quote.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+      "line": 44415,
+      "snippet": "a restoration of those who are now lying in Sin to their primal state, a harmony of thanksgiving will arise from all creation (Cat. Or. 26)"
+     },
+     {
+      "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+      "line": 1495,
+      "snippet": "The apokatastasis ton panton has been thought ... (editor's prolegomena)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Confirmed in context (lines 44408-44422). Open_Gaps_Tracking.md item 3 (line 787) logs the wrong probe answer ('never made the claim plain'). C3-23 is a named-figure question this world is the natural home for, and today it cannot answer it.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+      "line": 1030,
+      "snippet": "his eschatology is not to be burnt up and annihilated: only soul and ... (editor)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Weak. Nyssa teaches the annihilation of evil, not of persons; nothing in the world's own words answers C3-08. An honest_limit is the true record.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "LOADED",
+    "records": [
+     "cappadocian.story.macrina-deathbed"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+      "line": 39606,
+      "snippet": "while evil is being consumed in the purgatorial fire, the soul that is welded to this evil must inevitably be in the fire too (On the Soul and Resurrection)"
+     },
+     {
+      "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+      "line": 2866,
+      "snippet": "propitiating our merciful God for them (Cyril of Jerusalem, Cat. 23.9-10 - same volume, not a Cappadocian)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "The story names the deathbed dialogue but says nothing of what it teaches about the soul after death. The purgation passage is vendored and unquoted. Caution: the npnf207 prayers-for-the-dead hit is Cyril of Jerusalem, who shares the volume; the tool scans whole files. Ghosts/reincarnation: Nyssa rejects pre-existence (npnf205 line 1575 region) - LOADED.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.term.anastasis",
+     "cappadocian.story.macrina-deathbed",
+     "cappadocian.quote.we-look-to-the-east"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Bodily resurrection and Paradise as 'our own old country' (Basil, De Spiritu Sancto 27, verified). Reunion with the dead: Nazianzen's Oration 7 on Caesarius is vendored (npnf207) and unquoted.",
+    "verified": [
+     {
+      "record": "cappadocian.quote.we-look-to-the-east",
+      "result": "MATCH",
+      "file": "npnf208_basil-letters-select-works.xml",
+      "lines": [
+       14068
+      ]
+     }
+    ]
+   },
+   "S7": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+      "line": 38494,
+      "snippet": "be neither glorified nor punished by the righteous Judge, as unsealed and yet not wicked (Or. 40.23, on infants who die unbaptised)"
+     },
+     {
+      "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+      "line": 32849,
+      "snippet": "On Infants' Early Deaths"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "The fleet's best material on C3-15/C3-16 (the dead baby) is here, confirmed in context, and no record carries it. Outsiders' fate: no record (OG line 667). Suicide: nothing found.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+      "line": 1208,
+      "snippet": "Antichrist will come at the time when ... (Cyril, Cat. 15 - not a Cappadocian)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Open_Gaps line 667 says the F4-T end-times variant is unanswered. Cappadocian material proper is thin; the strong Antichrist hits are Cyril of Jerusalem in the shared volume. Likely an honest_limit.",
+    "verified": []
+   }
+  },
+  "desert": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.dw.judgment-and-resurrection",
+     "desert.limit.outsiders-condemned",
+     "desert.quote.antony-dying-daily"
+    ],
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/macarius_fifty-spiritual-homilies_mason1921.txt",
+      "line": 678,
+      "snippet": "hell 24, day of judgment 9 (Pseudo-Macarius, mapped)"
+     },
+     {
+      "file": "cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt",
+      "line": 1144,
+      "snippet": "If humility descendeth to Sheol it is exalted unto the heavens"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Judgment certain, no system; 'hell' absent from the Vita. The Sayings (Budge vol. 2) are vendored and mapped but the limit record checked only the Vita.",
+    "verified": [
+     {
+      "record": "desert.quote.antony-dying-daily",
+      "result": "MATCH",
+      "file": "npnf204_athanasius-select-works-letters.xml",
+      "lines": [
+       31709,
+       31713,
+       31719
+      ]
+     }
+    ]
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "line": 18851,
+      "snippet": "for them that have done evil everlasting fire and outer darkness"
+     },
+     {
+      "file": "cic/texts/macarius_fifty-spiritual-homilies_mason1921.txt",
+      "line": 2861,
+      "snippet": "eternal fire 3"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record. The npnf204 hit needs its work identified before use (the file holds Athanasius's whole corpus).",
+    "verified": []
+   },
+   "S3": {
+    "layer": "NOTHING",
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [
+     {
+      "sub": "S3",
+      "work": "Evagrius Ponticus, Letter to Melania and Kephalaia Gnostika (the desert's own apokatastasis strand)",
+      "edition": "Syriac, W. Frankenberg, Euagrius Ponticus (Berlin 1912); English translations (Parmentier 1985, Casiday 2006, Ramelli 2015) are in copyright",
+      "where": "archive.org (Frankenberg 1912)",
+      "licence": "public domain (Syriac/Greek retroversion); English not PD"
+     }
+    ],
+    "note": "Nothing in records or in the desert's own vendored voice. The desert's Origenist strand (Evagrius) is only reachable in Syriac/Greek (OTHER). An honest_limit is the right record.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "NOTHING",
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Nothing found.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt",
+      "line": 436,
+      "snippet": "Macarius and the heathen priest (Sayings 186)"
+     },
+     {
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "line": 0,
+      "snippet": "Vita Antonii 65-66: Antony's vision of souls ascending past the accuser - section cited, line not pulled in this pass"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "sub": "S1",
+      "work": "Apophthegmata Patrum, Latin systematic collection (Verba Seniorum of Pelagius and John), incl. Macarius and the skull of the pagan priest",
+      "edition": "PL 73 (Migne 1849) Latin; the Syriac form is already vendored in Budge's Paradise vol. 2 (1907), anan-isho_paradise-v2-sayings_budge1907.txt line 436 holds the skull-adjacent Macarius story; Helen Waddell's 1936 English is in copyright",
+      "where": "archive.org (PL 73)",
+      "licence": "public domain (Latin)"
+     },
+     {
+      "sub": "S5",
+      "work": "Historia Monachorum in Aegypto (Rufinus's Latin)",
+      "edition": "PL 21 (Migne); registered as desert.source.historia-monachorum, kind unvendored",
+      "where": "archive.org",
+      "licence": "public domain (Latin); Russell 1980 English in copyright"
+     }
+    ],
+    "note": "No record on what happens right after death. The Vita's vision of souls rising (65-66) and the Sayings on Sheol are vendored. The famous Macarius-and-the-skull saying (pagan priests in hell, 'a little relief when you pray for us') was not found in Budge vol. 2 by the terms used; check before relying on it.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.dw.judgment-and-resurrection",
+     "desert.quote.the-kingdom-is-apatheia"
+    ],
+    "confidence": [
+     "Contested",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Body back 'whole and undecaying' (Antony's deathbed, via Athanasius). Reunion: nothing.",
+    "verified": [
+     {
+      "record": "desert.quote.the-kingdom-is-apatheia",
+      "result": "MATCH",
+      "file": "evagrius_praktikos_dysinger.txt",
+      "lines": [
+       174,
+       177
+      ]
+     }
+    ]
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.limit.outsiders-condemned",
+     "desert.dw.only-true-religion"
+    ],
+    "confidence": [
+     "Contested",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The model honest absence for outsiders. Infants and suicide: nothing in records; npnf204 line 37049 ('to kill themselves') needs its work identified.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.dw.judgment-and-resurrection"
+    ],
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "'We did not leave behind a developed system for how the world ends' - an honest limit already inside the witness.",
+    "verified": []
+   }
+  },
+  "don": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "don.dw.the-line-we-actually-drew"
+    ],
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/optatus_against-the-donatists.txt",
+      "line": 149,
+      "snippet": "schismatics ... reserved, marked out ... (Optatus, the Catholic side)"
+     },
+     {
+      "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
+      "line": 16857,
+      "snippet": "the martyrs that they should obtain a heavenly reward, not the Circumcelliones"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "sub": "S6",
+      "work": "Donatist martyr acts (Passio Marculi; Passio Maximiani et Isaac; Sermo de passione Donati) - the crown-of-martyrdom eschatology in the movement's own voice",
+      "edition": "Latin, PL 8 (Migne); English in Tilley, TTH 24 (1996), registered as don.source.tilley-donatist-martyr-stories, kind unvendored",
+      "where": "archive.org (PL 8)",
+      "licence": "public domain (Latin); Tilley in copyright"
+     }
+    ],
+    "note": "The witness refuses to turn sacramental nullity into damnation - good discipline. Everything vendored on Donatist hell-talk is the other side quoting them (Optatus, Augustine). The movement's own voice on judgment is in the martyr acts, registered but unvendored (don.source.tilley-donatist-martyr-stories).",
+    "verified": []
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/optatus_against-the-donatists.txt",
+      "line": 7189,
+      "snippet": "give themselves over to perish in everlasting death"
+     }
+    ],
+    "identified": [
+     "don.source.tilley-donatist-martyr-stories",
+     "don.source.maier-le-dossier-du-donatisme"
+    ],
+    "other": [],
+    "note": "Adversarial sources only. Honest limit likely.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "NOTHING",
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [
+     {
+      "sub": "S8",
+      "work": "Tyconius, Liber Regularum (the Donatist Book of Rules; Rule VII on the devil and his body)",
+      "edition": "F.C. Burkitt, Texts and Studies III.1 (Cambridge 1894), Latin",
+      "where": "archive.org",
+      "licence": "public domain (Latin); Babcock 1989 English in copyright"
+     }
+    ],
+    "note": "Nothing. Tyconius (OTHER, Latin) is the nearest Donatist theology.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "NOTHING",
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Nothing found.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "NOTHING",
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [
+     "don.source.duval-loca-sanctorum-africae"
+    ],
+    "other": [],
+    "note": "Nothing on the soul after death or prayer for the dead in the Donatists' own words; the martyr-cult archaeology (Duval) is modern and unvendored.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
+      "line": 16857,
+      "snippet": "heavenly reward ... martyrs (Augustine on Donatist martyr claims)"
+     }
+    ],
+    "identified": [
+     "don.source.tilley-donatist-martyr-stories"
+    ],
+    "other": [
+     {
+      "sub": "S6",
+      "work": "Donatist martyr acts (Passio Marculi; Passio Maximiani et Isaac; Sermo de passione Donati) - the crown-of-martyrdom eschatology in the movement's own voice",
+      "edition": "Latin, PL 8 (Migne); English in Tilley, TTH 24 (1996), registered as don.source.tilley-donatist-martyr-stories, kind unvendored",
+      "where": "archive.org (PL 8)",
+      "licence": "public domain (Latin); Tilley in copyright"
+     }
+    ],
+    "note": "The crown of martyrdom is the Donatist afterlife picture; it reaches the library only through Augustine. Records that matched ('reunite', 'face to face') are false positives.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "don.dw.the-line-we-actually-drew",
+     "don.dw.washed-for-the-first-time"
+    ],
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
+      "line": 16889,
+      "snippet": "when they throw themselves over precipices (Augustine on Circumcellion self-killing)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Outsiders: 'we will not say'. Infants: 'we cannot tell' plus the dying catechumen boy. Suicide (R-20) is a live hazard: Augustine's charge of Circumcellion self-precipitation is vendored and no record frames it; a contested_claim is needed before the voice meets it.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "don.dw.washed-for-the-first-time"
+    ],
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [
+     {
+      "sub": "S8",
+      "work": "Tyconius, Liber Regularum (the Donatist Book of Rules; Rule VII on the devil and his body)",
+      "edition": "F.C. Burkitt, Texts and Studies III.1 (Cambridge 1894), Latin",
+      "where": "archive.org",
+      "licence": "public domain (Latin); Babcock 1989 English in copyright"
+     }
+    ],
+    "note": "'The end of the world we cannot speak to at all' - honest limit inside a witness. Tyconius's Rules (OTHER) would complicate that.",
+    "verified": []
+   }
+  },
+  "gallic": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.gravity.judgment-imminent-present",
+     "gallic.term.fear-hope-love",
+     "gallic.term.lukewarmness",
+     "gallic.quote.vincent-awful-expectation-of-judgment",
+     "gallic.quote.salvian-present-judgment-clearly-shown",
+     "gallic.quote.salvian-ever-present-judgment-gallic-provinces",
+     "gallic.demo.want-to-leave"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 35548,
+      "snippet": "yet still proceed from the fear of hell and the recollection of that terrible judgment (Cassian)"
+     },
+     {
+      "file": "cic/texts/salvian_on-the-government-of-god_sanford1930.txt",
+      "line": 2677,
+      "snippet": "in time to come Gehenna will be in flames for the punishment of the wicked"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Three verified quotes on judgment, but 'hell' itself sits only in the gravity and two terms; Cassian's 'fear of hell' (Conf. XI.6) and Salvian's Gehenna are vendored and unquoted. The prior map's complaint stands for hell, not for judgment.",
+    "verified": [
+     {
+      "record": "gallic.quote.vincent-awful-expectation-of-judgment",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       12086
+      ]
+     },
+     {
+      "record": "gallic.quote.salvian-present-judgment-clearly-shown",
+      "result": "MATCH",
+      "file": "salvian_on-the-government-of-god_sanford1930.txt",
+      "lines": [
+       9009
+      ]
+     },
+     {
+      "record": "gallic.quote.salvian-ever-present-judgment-gallic-provinces",
+      "result": "MATCH (hyphen-joined)",
+      "file": "salvian_on-the-government-of-god_sanford1930.txt",
+      "lines": [
+       9144
+      ]
+     }
+    ]
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 6018,
+      "snippet": "those will be doomed to eternal fire, who ... (Sulpitius)"
+     },
+     {
+      "file": "cic/texts/salvian_on-the-government-of-god_sanford1930.txt",
+      "line": 4223,
+      "snippet": "escape the torture of eternal fire"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record states duration.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "NOTHING",
+    "records": [
+     "gallic.term.predestination"
+    ],
+    "confidence": [
+     "Contested"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "No restoration teaching. Risk: term.predestination ('God wills all to be saved; to think otherwise is blasphemy', Conf. XIII.7) could be misread as universalism; its not_for does not guard against that reading.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "NOTHING",
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Nothing found.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.quote.martin-rebukes-the-devil-and-dies",
+     "gallic.story.death-of-martin-at-condate",
+     "gallic.term.angels"
+    ],
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 1014,
+      "snippet": "when he left the body, he was brought before the tribunal of the Judge, and being assigned to gloomy regions and vulgar crowds (Vita Martini 7, the catechumen Martin raised)"
+     },
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 5547,
+      "snippet": "after we have been purged from the stains of sin (Sulpitius, Ep. II; the 'fire of purgatory' words are the editor Clericus's note, not the text)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Abraham's bosom at Martin's death is verified. The Vita Martini 7 story - a dead catechumen judged, assigned to the gloomy regions, sent back - is the sharpest vendored answer to 'what happens the moment you die' and is in no record. Correction to the prior map: line 5547 is Sulpitius, not Cassian, and 'purgatory' there is a footnote.",
+    "verified": [
+     {
+      "record": "gallic.quote.martin-rebukes-the-devil-and-dies",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       2474
+      ]
+     }
+    ]
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.term.goal-and-end",
+     "gallic.term.purity-of-heart",
+     "gallic.term.fear-hope-love"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Kingdom of heaven as the monk's end. Resurrection of the body and reunion: nothing in records.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.term.predestination"
+    ],
+    "confidence": [
+     "Contested"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
+      "line": 890,
+      "snippet": "unbaptized infants 21 hits (Augustine, mapped as context)"
+     }
+    ],
+    "identified": [
+     "gallic.source.prosper-contra-collatorem",
+     "gallic.source.prosper-pro-augustino-responsiones"
+    ],
+    "other": [
+     {
+      "sub": "S7",
+      "work": "Prosper of Aquitaine, De vocatione omnium gentium (On the Call of All Nations), incl. the fate of infants who die",
+      "edition": "Latin, PL 51 (Migne); English De Letter, ACW 14 (1952) in copyright",
+      "where": "archive.org (PL 51)",
+      "licence": "public domain (Latin)"
+     }
+    ],
+    "note": "Outsiders: only the Conf. XIII 'God wills all to be saved' line. Infants: the vendored material is Augustine's (context, not this world's); Prosper is registered unvendored and De vocatione omnium gentium is OTHER. Suicide: nothing.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.term.antichrist",
+     "gallic.quote.martin-antichrist-already-born",
+     "gallic.quote.martin-antichrist-already-at-hand",
+     "gallic.gravity.judgment-imminent-present"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Strongest end-times cell in the fleet; both quotes verified.",
+    "verified": [
+     {
+      "record": "gallic.quote.martin-antichrist-already-born",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       4603
+      ]
+     },
+     {
+      "record": "gallic.quote.martin-antichrist-already-at-hand",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       1784
+      ]
+     }
+    ]
+   }
+  },
+  "hal": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.dw.hell",
+     "hal.demo.hell",
+     "hal.quote.a-follower-of-cicero-and-not-of-christ"
+    ],
+    "confidence": [
+     "Contested",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 7903,
+      "snippet": "mourn for the dead, but only for him whom Gehenna receives, whom Tartarus devours, and for whose punishment the eternal fire burns (Letter 39)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Good witness; the only verified quote is the Ciceronian dream (judgment seat). Letter 39's Gehenna line is vendored and unquoted.",
+    "verified": [
+     {
+      "record": "hal.quote.a-follower-of-cicero-and-not-of-christ",
+      "result": "MATCH",
+      "file": "npnf206_jerome-principal-works.xml",
+      "lines": [
+       6479
+      ]
+     }
+    ]
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 7903,
+      "snippet": "for whose punishment the eternal fire burns"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "The witness affirms 'real punishment' but no record states duration in Jerome's words.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.dw.hell",
+     "hal.contested.origenist-substance"
+    ],
+    "confidence": [
+     "Contested",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+      "line": 53776,
+      "snippet": "that the devil, will be saved; a thing which no man even though he had taken leave of his senses ... could say (Apology against Rufinus II)"
+     },
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 40528,
+      "snippet": "(iii.) that the devil may be saved (Letter 124 to Avitus, list of Origen's errors)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Renunciation is rendered; the Apology passages the prior map asked for are confirmed vendored at these lines and still unquoted.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "NOTHING",
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Nothing found.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 7903,
+      "snippet": "Letter 39 to Paula on Blesilla"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record on the interim state or prayer for the dead. Letters 39, 60, 75, 108 and Against Vigilantius (the dead hear prayers at the martyrs' tombs) are all in npnf206.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.term.origenism",
+     "hal.contested.origenist-substance",
+     "hal.story.marcella-death"
+    ],
+    "confidence": [
+     "Contested",
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Partial: the resurrection body appears only as the thing disputed. Paradise/many mansions (npnf206, 82 and 8 hits) unquoted; reunion in Letter 75 unquoted.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.dw.hell",
+     "hal.demo.hell"
+    ],
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 5792,
+      "snippet": "unbaptized infants (editor, on the Pelagian dispute)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Outsiders: 'no census of the lost'. Infants: Against the Pelagians III is vendored, unread for this. Suicide: nothing (Jerome's Jonah commentary is Latin only).",
+    "verified": []
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.dw.practices"
+    ],
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "No rapture; Rome's fall read through the prophets.",
+    "verified": []
+   }
+  },
+  "ijc": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.quote.nicene-creed"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+      "line": 13585,
+      "snippet": "Who then would not tremble at this doom of eternal torment? (Leo, Sermon IX)"
+     },
+     {
+      "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+      "line": 28467,
+      "snippet": "Depart from Me, ye cursed, into eternal fire (Gregory, Pastoral Rule III - outside window)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Only the creed's 'judge both the quick and the dead'. Leo's sermons carry the judgment preaching and are unquoted. Pastoral Rule is Gregory the Great - same file, wrong world.",
+    "verified": [
+     {
+      "record": "ijc.quote.nicene-creed",
+      "result": "MATCH",
+      "file": "npnf214_seven-ecumenical-councils.xml",
+      "lines": [
+       2408,
+       2412,
+       2413
+      ]
+     }
+    ]
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+      "line": 13586,
+      "snippet": "Who would not dread evils which are never to be ended? But since this severity is only denounced in order that we may seek for mercy"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Leo states endless punishment and immediately turns it to mercy - a usable, pastoral quote.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "NOTHING",
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Nothing in this world's own voice.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "NOTHING",
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Nothing found.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+      "line": 819,
+      "snippet": "Ambrose (De excessu fratris: prayer for the dead brother; paradise 21 hits)"
+     },
+     {
+      "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml",
+      "line": 22730,
+      "snippet": "When He descended to Hades"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "sub": "S5",
+      "work": "Ambrose, De bono mortis (On the Good of Death) and De excessu fratris Satyri (the soul after death; prayer for the dead brother)",
+      "edition": "Latin, PL 14 (Migne); De excessu is in NPNF 2nd ser. vol. 10 (de Romestin 1896); De bono mortis English (McHugh, FOTC 65, 1972) in copyright",
+      "where": "archive.org / CCEL",
+      "licence": "public domain (Latin; NPNF English)"
+     }
+    ],
+    "note": "No record.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+      "line": 819,
+      "snippet": "rise again 26 hits (Ambrose, On the Belief in the Resurrection)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record beyond the creed.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.story.altar-of-victory"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/hefele_history-of-the-councils-v2-326-429_oxenham1876.txt",
+      "line": 24695,
+      "snippet": "unbaptized children ... die unbaptized (Carthage 418 canons)"
+     }
+    ],
+    "identified": [
+     "cappadocian.source.pharr-theodosian-code-translation"
+    ],
+    "other": [
+     {
+      "sub": "S7",
+      "work": "Codex Theodosianus XVI.5 and IX.17 (laws on heretics' burial and tombs - the state's own map of who may be buried where)",
+      "edition": "Latin, Mommsen-Meyer (Berlin 1905); English Pharr (Princeton 1952) registered as cappadocian.source.pharr-theodosian-code-translation, unvendored",
+      "where": "archive.org (Mommsen)",
+      "licence": "public domain (Latin); Pharr in copyright"
+     }
+    ],
+    "note": "Outsiders appear as a toleration question (Symmachus), not a fate question. Infants: conciliar canons in Hefele; Leo's Letter 167 (npnf212) unread. Suicide: nothing.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml",
+      "line": 30,
+      "snippet": "antichrist 30 (Hilary)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record.",
+    "verified": []
+   }
+  },
+  "lpc": {
+   "S1": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "line": 35191,
+      "snippet": "without considering the eternal punishments of Gehenna, they endeavour to imitate the coming of Antichrist (Cyprian, Ep. 54)"
+     },
+     {
+      "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+      "line": 43953,
+      "snippet": "City of God XXI"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "330 records and not one on hell, judgment or the dead (direct grep of records/lpc: zero). The richest vendored material in the fleet (Cyprian, City of God XXI, the sermons) is unrendered. The world is still building; this belongs to its thread.",
+    "verified": []
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+      "line": 43953,
+      "snippet": "City of God XXI.17-27: eternity of punishment defended"
+     },
+     {
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "line": 16775,
+      "snippet": "a Gehenna as well as a Sheol (Cyprian, Ad Demetrianum, editor)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "",
+    "verified": []
+   },
+   "S3": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+      "line": 43953,
+      "snippet": "amicable controversy with those tender-hearted Christians who decline to believe that any ... shall suffer eternally ... Origen was even more indulgent (CoG XXI.17)"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "sub": "S3",
+      "work": "Augustine, De octo Dulcitii quaestionibus q.1 (the 'merciful ones' who deny eternal punishment)",
+      "edition": "Latin, PL 40 (Migne); English Deferrari, FOTC 16 (1952) in copyright",
+      "where": "archive.org",
+      "licence": "public domain (Latin)"
+     }
+    ],
+    "note": "Augustine's misericordes are the natural ground for C3-07 and C3-17 ('did anyone among you say so?') - confirmed in context, unrendered.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
+      "line": 1127,
+      "snippet": "second death 7"
+     },
+     {
+      "file": "cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml",
+      "line": 2316,
+      "snippet": "second death 2 (Enchiridion)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Augustine argues the 'second death' is not annihilation (CoG XIII.2, XXI.3). Unrendered.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml",
+      "line": 22300,
+      "snippet": "whether some believers shall pass through a kind of purgatorial fire (Enchiridion 69)"
+     },
+     {
+      "file": "cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml",
+      "line": 23576,
+      "snippet": "thank-offerings for the very good, propitiatory offerings for the not very bad (Enchiridion 110)"
+     },
+     {
+      "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+      "line": 14194,
+      "snippet": "remember me at the Lord's altar, wherever you be (Monica, Confessions IX)"
+     },
+     {
+      "file": "cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml",
+      "line": 43492,
+      "snippet": "On Care to Be Had for the Dead"
+     },
+     {
+      "file": "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt",
+      "line": 0,
+      "snippet": "Sermons 172-173 (Latin; line not pulled)"
+     }
+    ],
+    "identified": [
+     "lpc.source.rebillard-care-of-the-dead-in-late-antiquity"
+    ],
+    "other": [
+     {
+      "sub": "S5",
+      "work": "Possidius, Life of Augustine ch. 31 (Augustine's own death with the penitential psalms)",
+      "edition": "Herbert T. Weiskotten (Princeton 1919), Latin and English",
+      "where": "archive.org",
+      "licence": "public domain"
+     },
+     {
+      "sub": "S5",
+      "work": "Augustine, Sermons 172-173 (on the dead; what the sacrifice does for them)",
+      "edition": "Latin already vendored (augustine_sermones-1-340-lat_migne-pl38.txt); English Hill, WSA III/5 (1992) in copyright",
+      "where": "cic/texts",
+      "licence": "public domain (Latin)"
+     }
+    ],
+    "note": "The fullest vendored answer in the fleet to purgatory and prayer for the dead, all confirmed in context, none rendered.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [
+     "lpc.force.plague-of-cyprian"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "line": 47279,
+      "snippet": "There a great number of our dear ones is awaiting us, and a dense crowd of parents, brothers, children, is longing for us (Cyprian, De mortalitate 26)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "The force record names De Mortalitate but says nothing of its afterlife content. The reunion passage (C3-12) is confirmed in context and unrendered.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "LOADED",
+    "records": [
+     "lpc.limit.the-outsiders-own-view",
+     "lpc.force.donatist-schism"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "line": 35892,
+      "snippet": "infants ... ought not to be baptized within the second or third day (Cyprian to Fidus, Ep. 58)"
+     },
+     {
+      "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
+      "line": 2558,
+      "snippet": "such infants as quit the body without being baptized (De peccatorum meritis I)"
+     },
+     {
+      "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+      "line": 2426,
+      "snippet": "Of Suicide Committed Through Fear of Punishment or Dishonor (CoG I.17)"
+     },
+     {
+      "file": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt",
+      "line": 6061,
+      "snippet": "extra ecclesiam (Cyprian, Latin, 28 hits)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Infants, suicide and 'no salvation outside the church' are all vendored and confirmed; the existing records touch outsiders only as coercion. C3-15, C3-16 and R-20 are the most pastorally loaded questions in the cluster, and this is the world most likely to be asked them.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+      "line": 46,
+      "snippet": "thousand years 61 (CoG XX)"
+     },
+     {
+      "file": "cic/texts/npnf108_augustine-exposition-psalms.xml",
+      "line": 1191,
+      "snippet": "seven thousand years"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record.",
+    "verified": []
+   }
+  },
+  "pahc": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.quote.two-ways-one-of-life-and-one-of-death"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "line": 2998,
+      "snippet": "condemned to the eternal fire (Justin)"
+     },
+     {
+      "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+      "line": 12618,
+      "snippet": "I will show unto thee the lake of fire (Apocalypse of Peter, Akhmim fragment)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Partial: the Didache's 'way of death' is verified but its not_for forbids using it as an afterlife threat. 2 Clement 17, Ignatius Eph. 16, Mart. Pol. 11 and the Apocalypse of Peter are vendored and unquoted. The prior map did not check this world.",
+    "verified": [
+     {
+      "record": "pahc.quote.two-ways-one-of-life-and-one-of-death",
+      "result": "MATCH (section-number-dropped)",
+      "file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+      "lines": [
+       12700
+      ]
+     }
+    ]
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "line": 24766,
+      "snippet": "shall be consumed by the worm and unquenchable fire, remaining immortal (Justin, Dial. 130)"
+     },
+     {
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "line": 1201,
+      "snippet": "eternal fire 22, eternal punishment 7"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "NOTHING",
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [
+     {
+      "sub": "S3",
+      "work": "Sibylline Oracles II.330-338 (the righteous may beg God to rescue the damned from the fire - the earliest Christian universalist note)",
+      "edition": "Milton S. Terry, The Sibylline Oracles translated from the Greek into English blank verse (New York 1899)",
+      "where": "archive.org / sacred-texts",
+      "licence": "public domain"
+     }
+    ],
+    "note": "Nothing in this world's own voice; the Sibylline note is OTHER.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "line": 17704,
+      "snippet": "Chapter V. The soul is not in its own nature immortal (Justin, Dial. 5)"
+     },
+     {
+      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "line": 0,
+      "snippet": "Tatian, Oration 13: the soul not immortal in itself (section cited)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "The fleet's only real conditional-immortality material (Justin Dial. 5; Tatian 13; Irenaeus AH II.34) is here, confirmed, and unrendered. C3-08 has an honest, surprising answer in this world.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "line": 4660,
+      "snippet": "those also who fell asleep received the seal of the Son of God ... The seal, then, is the water (Hermas, Sim. 9.16)"
+     },
+     {
+      "file": "cic/texts/anf03_tertullian.xml",
+      "line": 4900,
+      "snippet": "The Inferi, or Hades ... offerings for the dead (Tertullian, De anima / De corona)"
+     },
+     {
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "line": 662,
+      "snippet": "Hades 18, refrigerium 1, bosom of Abraham 1"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Hermas's apostles baptising the dead, Justin's waiting souls (Dial. 5, 80) and Tertullian's Hades are all vendored; no record. Reincarnation: Justin Dial. 4 rejects transmigration (anf01, 6 hits).",
+    "verified": []
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.quote.polycrates-to-victor",
+     "pahc.term.baptisma"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf03_tertullian.xml",
+      "line": 1245,
+      "snippet": "resurrection of the flesh 52 (De resurrectione carnis)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "'Great luminaries ... shall rise again' is verified, though filed under F3-I (Easter dispute), so retrieval on an afterlife question is not guaranteed.",
+    "verified": [
+     {
+      "record": "pahc.quote.polycrates-to-victor",
+      "result": "MATCH",
+      "file": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+      "lines": [
+       72578,
+       72614
+      ]
+     }
+    ]
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.witness.outside-our-community",
+     "pahc.quote.justin-reasonable-livers",
+     "pahc.story.quintus-recantation"
+    ],
+    "confidence": [
+     "Contested",
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Outsiders: Justin's reasonable livers held against the Two Ways - honest tension. Infants: nothing (Tertullian De baptismo 18 'delay for little ones' is vendored). Suicide: the Quintus story is about seeking martyrdom, not suicide; nothing direct.",
+    "verified": [
+     {
+      "record": "pahc.quote.justin-reasonable-livers",
+      "result": "MATCH",
+      "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": [
+       15684
+      ]
+     }
+    ]
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.quote.polycrates-to-victor"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "line": 1288,
+      "snippet": "second coming 13, antichrist 47, last times 29 (Irenaeus V; Justin Dial. 80-81)"
+     },
+     {
+      "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+      "line": 1802,
+      "snippet": "thousand years 42; Didache 16"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Thin render; the Didache 16, Papias and Justin Dial. 80 millennium material is the obvious build.",
+    "verified": [
+     {
+      "record": "pahc.quote.polycrates-to-victor",
+      "result": "MATCH",
+      "file": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+      "lines": [
+       72578,
+       72614
+      ]
+     }
+    ]
+   }
+  },
+  "rzg": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "rzg.witness.a-narrow-true-church"
+    ],
+    "confidence": [
+     "Contested"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/calvin_geneva-catechism_waterman1815.txt",
+      "line": 900,
+      "snippet": "pains of hell on the Cross (Geneva Catechism on 'descended into hell')"
+     },
+     {
+      "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt",
+      "line": 13919,
+      "snippet": "doomed to eternal punishment, that fire is prepared for them"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Guard only: the witness's not_for forbids any claim on whether outsiders were damned. Nothing in records says what Zurich or Geneva taught about hell. The prior map's 'term predestination' for this world was not found among the records.",
+    "verified": []
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/calvin_institutes-christian-religion-vol2_beveridge1845.txt",
+      "line": 3044,
+      "snippet": "of hell and the horrors of eternal death (Institutes)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/calvin_institutes-christian-religion-vol2_beveridge1845.txt",
+      "line": 26480,
+      "snippet": "our desire ought to be that all may be saved (Institutes, on prayer)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Weak and easily misread; no record.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/calvin_commentaries-genesis-vol2_king1847.txt",
+      "line": 2972,
+      "snippet": "have no existence if their souls are annihilated"
+     },
+     {
+      "file": "cic/texts/calvin_institutes-christian-religion-vol3_beveridge1845.txt",
+      "line": 18173,
+      "snippet": "not that these are annihilated"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "sub": "S5",
+      "work": "Calvin, Psychopannychia (against soul-sleep; what the soul does between death and resurrection)",
+      "edition": "Calvin's Tracts, vol. 3, trans. Henry Beveridge (Calvin Translation Society, Edinburgh 1851)",
+      "where": "archive.org / CCEL",
+      "licence": "public domain"
+     },
+     {
+      "sub": "S5",
+      "work": "Second Helvetic Confession (Bullinger, 1566) ch. 26: burial, purgatory rejected, apparitions of the dead explained as deceits",
+      "edition": "Philip Schaff, Creeds of Christendom vol. 3 (New York 1877)",
+      "where": "archive.org / CCEL",
+      "licence": "public domain"
+     }
+    ],
+    "note": "Weak; Psychopannychia (OTHER) is the direct text.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/calvin_institutes-christian-religion-vol2_beveridge1845.txt",
+      "line": 11000,
+      "snippet": "INDULGENCES AND PURGATORY (Institutes III.5; prayer for the dead 2, oblation for the dead 2)"
+     },
+     {
+      "file": "cic/texts/zwingli_latin-works-correspondence-vol3_heller1929.txt",
+      "line": 332,
+      "snippet": "Purgatory (Commentary on True and False Religion; 40 hits)"
+     },
+     {
+      "file": "cic/texts/zwingli_selected-works_jackson1901.txt",
+      "line": 2530,
+      "snippet": "that purgatory, too, did not exist, but were man's invention"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "sub": "S5",
+      "work": "Calvin, Psychopannychia (against soul-sleep; what the soul does between death and resurrection)",
+      "edition": "Calvin's Tracts, vol. 3, trans. Henry Beveridge (Calvin Translation Society, Edinburgh 1851)",
+      "where": "archive.org / CCEL",
+      "licence": "public domain"
+     },
+     {
+      "sub": "S5",
+      "work": "Second Helvetic Confession (Bullinger, 1566) ch. 26: burial, purgatory rejected, apparitions of the dead explained as deceits",
+      "edition": "Philip Schaff, Creeds of Christendom vol. 3 (New York 1877)",
+      "where": "archive.org / CCEL",
+      "licence": "public domain"
+     }
+    ],
+    "note": "Purgatory rejected is fully vendored in both cities' own words; nothing rendered. Ghosts: Bullinger's Second Helvetic 26 (OTHER).",
+    "verified": []
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt",
+      "line": 6284,
+      "snippet": "resurrection of the body"
+     },
+     {
+      "file": "cic/texts/zwingli_latin-works-correspondence-vol3_heller1929.txt",
+      "line": 1292,
+      "snippet": "spiritual body 4"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "sub": "S7",
+      "work": "Zwingli, Fidei expositio / A Short and Clear Exposition of the Christian Faith (1531), the 'company of heaven' incl. Hercules, Socrates and the pious of every age; and Fidei ratio (1530)",
+      "edition": "The Latin Works of Huldreich Zwingli, vol. 2, ed. W.J. Hinke (Philadelphia 1922), pp. 235-293 and 33-61",
+      "where": "archive.org",
+      "licence": "public domain in the US (1922); vols. 1 and 3 are vendored, vol. 2 is not"
+     }
+    ],
+    "note": "No record. Zwingli's heaven peopled with Hercules and Socrates (Exposition of the Faith) is in the unvendored vol. 2.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "LOADED",
+    "records": [
+     "rzg.witness.a-narrow-true-church"
+    ],
+    "confidence": [
+     "Contested"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/calvin_institutes-christian-religion-vol3_beveridge1845.txt",
+      "line": 15757,
+      "snippet": "Error of those who adjudge all who die unbaptized to eternal destruction (Institutes IV.16, heading)"
+     },
+     {
+      "file": "cic/texts/zwingli_latin-works-correspondence-vol3_heller1929.txt",
+      "line": 1523,
+      "snippet": "nor the unbaptized infants are under condemnation (editor Heller's summary of Zwingli on baptism - not Zwingli's words)"
+     }
+    ],
+    "identified": [
+     "rzg.source.geneva-consistory-registers"
+    ],
+    "other": [
+     {
+      "sub": "S7",
+      "work": "Zwingli, Fidei expositio / A Short and Clear Exposition of the Christian Faith (1531), the 'company of heaven' incl. Hercules, Socrates and the pious of every age; and Fidei ratio (1530)",
+      "edition": "The Latin Works of Huldreich Zwingli, vol. 2, ed. W.J. Hinke (Philadelphia 1922), pp. 235-293 and 33-61",
+      "where": "archive.org",
+      "licence": "public domain in the US (1922); vols. 1 and 3 are vendored, vol. 2 is not"
+     }
+    ],
+    "note": "Infants: Calvin's own heading is the answer to C3-15/16 and is unrendered; the Zwingli hit is the editor's paraphrase. Suicide: the Consistory registers (unvendored) are where Geneva's practice would show.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/calvin_institutes-christian-religion-vol3_beveridge1845.txt",
+      "line": 1765,
+      "snippet": "against the will of Antichrist himself (Institutes IV.7, the papacy)"
+     },
+     {
+      "file": "cic/texts/calvin_institutes-christian-religion-vol2_beveridge1845.txt",
+      "line": 2000,
+      "snippet": "thousand years 6 (III.25.5 against the chiliasts)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record.",
+    "verified": []
+   }
+  },
+  "syr": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.quote.nisibene-death-trembled",
+     "syr.dw.death-judgment"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "line": 11642,
+      "snippet": "may he go forth into outer darkness! ... may he be cast into Gehenna of fire! (Ephrem's Testament, cursing a rich burial)"
+     },
+     {
+      "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "line": 4042,
+      "snippet": "day of judgment (Ephrem, Nisibene hymns)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Judgment real and just, with the emic hedge 'we drew far less of the modern map of who exactly burns'. The Testament's Gehenna lines (confirmed in context) are a curse in a will, not doctrine; they would change the tone, not the teaching, and need a quote record with a careful not_for.",
+    "verified": [
+     {
+      "record": "syr.quote.nisibene-death-trembled",
+      "result": "MATCH",
+      "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "lines": [
+       15642
+      ]
+     }
+    ]
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [
+     "syr.dw.death-judgment"
+    ],
+    "confidence": [
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "line": 11644,
+      "snippet": "Gehenna of fire"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "sub": "S6",
+      "work": "Ephrem, Hymns on Paradise (the geography of Paradise and the fate of the departed)",
+      "edition": "Latin: T.J. Lamy, Sancti Ephraem Syri Hymni et Sermones, 4 vols (Mechelen 1882-1902); English Brock (SVS 1990) in copyright",
+      "where": "archive.org (Lamy)",
+      "licence": "public domain (Lamy Latin/Syriac)"
+     },
+     {
+      "sub": "S2",
+      "work": "Ephrem, Carmina Nisibena (full cycle, incl. the Death-and-Satan hymns beyond Gwynn's NPNF selection)",
+      "edition": "G. Bickell, S. Ephraemi Syri Carmina Nisibena (Leipzig 1866), Syriac with Latin",
+      "where": "archive.org",
+      "licence": "public domain"
+     }
+    ],
+    "note": "The witness declines the map; nothing states duration. Ephrem's Hymns on Paradise (OTHER) carry the Syriac picture.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "NOTHING",
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Nothing in Ephrem or Aphrahat as vendored. Honest limit is the true record.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "NOTHING",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+      "line": 1876,
+      "snippet": "soul is mortal 2 (work in the shared anf08 file not identified)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Aphrahat's soul-sleep is not annihilation. Nothing usable.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.quote.ephrem-resurrection-pledge",
+     "syr.dw.death-judgment",
+     "syr.dw.jesus"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "line": 26376,
+      "snippet": "Demonstration VIII. Of the Resurrection of the Dead (Aphrahat: the sleep of the soul until the resurrection)"
+     },
+     {
+      "file": "cic/texts/harris_odes-and-psalms-of-solomon_harris1911.txt",
+      "line": 714,
+      "snippet": "descent into Hades (Odes of Solomon; Ode 42)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Sheol 'receives the departed without distinction' is verified. Aphrahat's distinctive soul-sleep (Dem. VIII) is vendored and unrendered; prayer and offerings for the dead (Ephrem's Testament asks for commemoration) not read for this.",
+    "verified": [
+     {
+      "record": "syr.quote.ephrem-resurrection-pledge",
+      "result": "MATCH",
+      "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "lines": [
+       22311
+      ]
+     }
+    ]
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.quote.ephrem-resurrection-pledge",
+     "syr.dw.born-again-endtimes",
+     "syr.quote.death-knew-his-kingdom-was-to-be-made-void"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [
+     {
+      "sub": "S6",
+      "work": "Ephrem, Hymns on Paradise (the geography of Paradise and the fate of the departed)",
+      "edition": "Latin: T.J. Lamy, Sancti Ephraem Syri Hymni et Sermones, 4 vols (Mechelen 1882-1902); English Brock (SVS 1990) in copyright",
+      "where": "archive.org (Lamy)",
+      "licence": "public domain (Lamy Latin/Syriac)"
+     }
+    ],
+    "note": "'The dead rise the way seed rises'; the Kingdom admits the invited. Reunion: Hymns on Paradise (OTHER).",
+    "verified": [
+     {
+      "record": "syr.quote.ephrem-resurrection-pledge",
+      "result": "MATCH",
+      "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "lines": [
+       22311
+      ]
+     },
+     {
+      "record": "syr.quote.death-knew-his-kingdom-was-to-be-made-void",
+      "result": "MATCH (spacing-only)",
+      "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "lines": [
+       28079
+      ]
+     }
+    ]
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.dw.death-judgment",
+     "syr.quote.aphrahat-anti-jewish-frame",
+     "syr.term.anti-jewish-polemic"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Outsiders: 'the fate of each outsider is not mapped'. C3-26 ('all Jews damned?') lands on the anti-Jewish polemic records, which hold the polemic without a damnation verdict - check their not_for before relying on that. Infants and suicide: nothing.",
+    "verified": [
+     {
+      "record": "syr.quote.aphrahat-anti-jewish-frame",
+      "result": "MATCH",
+      "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "lines": [
+       27100
+      ]
+     }
+    ]
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.dw.born-again-endtimes",
+     "syr.quote.death-knew-his-kingdom-was-to-be-made-void"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Strong: Aphrahat Dem. XXII, no rapture.",
+    "verified": [
+     {
+      "record": "syr.quote.death-knew-his-kingdom-was-to-be-made-void",
+      "result": "MATCH (spacing-only)",
+      "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "lines": [
+       28079
+      ]
+     }
+    ]
+   }
+  },
+  "witt": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.quote.christs-return-to-judgment",
+     "witt.dw.a-narrow-word-plainly-spoken",
+     "witt.quote.second-article-of-the-creed",
+     "witt.story.prayer-for-rain-1532",
+     "witt.gravity.terrified-and-comforted-conscience"
+    ],
+    "confidence": [
+     "Documented",
+     "Widely Accepted"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Fullest in the fleet; AC XVII and the Small Catechism verified.",
+    "verified": [
+     {
+      "record": "witt.quote.christs-return-to-judgment",
+      "result": "MATCH",
+      "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+      "lines": [
+       435
+      ]
+     },
+     {
+      "record": "witt.quote.second-article-of-the-creed",
+      "result": "MATCH",
+      "file": "luther_small-catechism_smith1994.txt",
+      "lines": [
+       189
+      ]
+     }
+    ]
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.quote.christs-return-to-judgment",
+     "witt.dw.a-narrow-word-plainly-spoken",
+     "witt.quote.article-ii-of-original-sin"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "'Tormented without end' verified against melanchthon_augsburg-confession_anon-pg275.txt line 435.",
+    "verified": [
+     {
+      "record": "witt.quote.christs-return-to-judgment",
+      "result": "MATCH",
+      "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+      "lines": [
+       435
+      ]
+     },
+     {
+      "record": "witt.quote.article-ii-of-original-sin",
+      "result": "MATCH",
+      "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+      "lines": [
+       194
+      ]
+     }
+    ]
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.quote.christs-return-to-judgment",
+     "witt.dw.a-narrow-word-plainly-spoken"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Rendered as a rejection: the Anabaptists 'who think that there will be an end to the punishments' are condemned.",
+    "verified": [
+     {
+      "record": "witt.quote.christs-return-to-judgment",
+      "result": "MATCH",
+      "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+      "lines": [
+       435
+      ]
+     }
+    ]
+   },
+   "S4": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.quote.christs-return-to-judgment"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt",
+      "line": 3362,
+      "snippet": "soul dies with the body (Luther, Defense of the Articles, 1521, on Lateran V's decree)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Partial: the clause rejects an end to punishment, not annihilation by name. Luther's 1521 remark on the soul's immortality decree is vendored.",
+    "verified": [
+     {
+      "record": "witt.quote.christs-return-to-judgment",
+      "result": "MATCH",
+      "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+      "lines": [
+       435
+      ]
+     }
+    ]
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.term.purgatory",
+     "witt.term.death",
+     "witt.term.indulgence",
+     "witt.story.letter-to-albrecht-and-theses-circulation"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt",
+      "line": 9481,
+      "snippet": "the ancients speak of prayer for the dead, which we do not prohibit (Apology XXIV)"
+     },
+     {
+      "file": "cic/texts/luther_works-v3-selected_various1930.txt",
+      "line": 1998,
+      "snippet": "That this great fear can well be a purgatory, I have held as an opinion (Luther, 1521)"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "sub": "S5",
+      "work": "Luther, Ein Sermon von der Bereitung zum Sterben (A Sermon on Preparing to Die, 1519)",
+      "edition": "Works of Martin Luther, Holman ed., vol. 1 (Philadelphia 1915), pp. 99-116 - check whether the vendored luther_works-v1-selected_jacobs-spaeth1915.txt carries it (its contents line 6314 names 'Of Preparation for Death')",
+      "where": "archive.org; possibly cic/texts",
+      "licence": "public domain"
+     }
+    ],
+    "note": "Purgatory's arc is rendered. The Apology's 'we do not prohibit' prayer for the dead is the nuance C3-10 needs and is unquoted; the 1519 Sermon on Preparing to Die is not in the vendored Holman vol. 1 (OTHER).",
+    "verified": []
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.term.death",
+     "witt.quote.christs-return-to-judgment",
+     "witt.term.comfort"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt",
+      "line": 132,
+      "snippet": "spiritual body 8"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Death as 'deep, sweet sleep'; burial with comforting songs. Reunion: nothing explicit.",
+    "verified": [
+     {
+      "record": "witt.quote.christs-return-to-judgment",
+      "result": "MATCH",
+      "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+      "lines": [
+       435
+      ]
+     }
+    ]
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.dw.a-narrow-word-plainly-spoken",
+     "witt.quote.article-ii-of-original-sin",
+     "witt.dw.a-death-begun-that-a-child-receives"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/luther_table-talk_bell1886.txt",
+      "line": 0,
+      "snippet": "Luther on suicides 'overcome by the devil' - Table Talk, vendored; not located by line in this pass"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "sub": "S7",
+      "work": "Luther, Letter to Hans von Rechenberg (1522) on whether God can save a person who dies without faith",
+      "edition": "Luther's Correspondence and Other Contemporary Letters, vol. 2, trans. Preserved Smith and C.M. Jacobs (Philadelphia 1918), no. 540",
+      "where": "archive.org",
+      "licence": "public domain in the US (1918)"
+     },
+     {
+      "sub": "S7",
+      "work": "Luther with Bugenhagen, Ein Trost den Weibern, welchen es ungerade gegangen ist mit Kindergebären (Comfort for Women Who Have Had a Miscarriage, 1542) - unbaptised infants commended to God's mercy",
+      "edition": "WA 53:205-208 (Weimar 1920), German; English LW 43 (1968) in copyright",
+      "where": "archive.org (Weimarer Ausgabe)",
+      "licence": "public domain (German); LW in copyright"
+     }
+    ],
+    "note": "Outsiders: 'a judgment and no list'. Infants: the confession's words ('eternal death upon those not born again through Baptism') are rendered without Luther's pastoral softening (the 1542 miscarriage consolation, OTHER). Suicide (R-20): Table Talk is vendored and unread for this.",
+    "verified": [
+     {
+      "record": "witt.quote.article-ii-of-original-sin",
+      "result": "MATCH",
+      "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+      "lines": [
+       194
+      ]
+     }
+    ]
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.quote.christs-return-to-judgment",
+     "witt.dw.a-death-begun-that-a-child-receives",
+     "witt.term.pope-and-antichrist",
+     "witt.gravity.embattled-christendom"
+    ],
+    "confidence": [
+     "Documented"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Strong.",
+    "verified": [
+     {
+      "record": "witt.quote.christs-return-to-judgment",
+      "result": "MATCH",
+      "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+      "lines": [
+       435
+      ]
+     }
+    ]
+   }
+  },
+  "aec": {
+   "S1": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf110_chrysostom-homilies-matthew.xml",
+      "line": 1582,
+      "snippet": "threatened even hell, not in order to cast us therein (Chrysostom)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No records yet (candidate). Chrysostom is the fleet's richest hell-preacher: 165 'hell' hits in one volume.",
+    "verified": []
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf110_chrysostom-homilies-matthew.xml",
+      "line": 759,
+      "snippet": "opinions respecting the final restoration of mankind, which were almost equivalent to a denial of eternal punishment, were reproduced mainly by Theodore (editor on Diodore)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "",
+    "verified": []
+   },
+   "S3": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf110_chrysostom-homilies-matthew.xml",
+      "line": 759,
+      "snippet": "Diodore and Theodore's restorationism (editor)"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "sub": "S3",
+      "work": "Theodore of Mopsuestia, Catechetical Homilies and the Pauline commentary fragments (the Antiochene restorationist strand)",
+      "edition": "A. Mingana, Woodbrooke Studies 5-6 (Cambridge 1932-1933), Syriac with English; Latin fragments H.B. Swete (Cambridge 1880-1882)",
+      "where": "archive.org",
+      "licence": "Swete public domain; Mingana 1932-33 rights unclear in the US"
+     }
+    ],
+    "note": "Theodore's own text is OTHER.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf112_chrysostom-homilies-corinthians.xml",
+      "line": 25432,
+      "snippet": "when we too offer for the departed, some consolation arises to them (Hom. 1 Cor. 41)"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "sub": "S5",
+      "work": "Chrysostom, Homilies on 1 Corinthians 41.8 and on Philippians 3.4 (offerings and alms for the dead 'not in vain')",
+      "edition": "NPNF 1st ser. vols 12 and 13 - already vendored (npnf112 line 25428 and following)",
+      "where": "cic/texts",
+      "licence": "public domain"
+     }
+    ],
+    "note": "Confirmed in context.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf113_chrysostom-homilies-galatians-philemon.xml",
+      "line": 6886,
+      "snippet": "caught up in the clouds 4; parousia 2 (Hom. 1 Thess.)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "",
+    "verified": []
+   }
+  },
+  "hus": {
+   "S5": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/hus_de-ecclesia-the-church_schaff1915.txt",
+      "line": 3036,
+      "snippet": "The church dormient is the number of the predestinate suffering in purgatory"
+     },
+     {
+      "file": "cic/texts/hofler_geschichtschreiber-husitischen-bewegung-v2-lat_1865.txt",
+      "line": 13534,
+      "snippet": "non esse purgatorium (Taborite denial, Latin)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Hus kept purgatory; the Taborites denied it - a contested_claim inside the world, both vendored.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+      "line": 2345,
+      "snippet": "antichrist 121 (mapped; Anabaptist, not Hussite)"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "sub": "S8",
+      "work": "Taborite chiliast articles of 1420 and the Prague masters' replies, in Lawrence of Brezova, Historia Hussitica",
+      "edition": "Fontes Rerum Bohemicarum V, ed. J. Goll (Prague 1893), Latin and Czech",
+      "where": "archive.org / Czech digital library",
+      "licence": "public domain; Kaminsky's 1967 English in copyright"
+     }
+    ],
+    "note": "Taborite chiliasm is in Hofler's Latin; FRB V is OTHER.",
+    "verified": []
+   }
+  },
+  "jes": {
+   "S1": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/ignatius-loyola_spiritual-exercises_mullan1914.txt",
+      "line": 451,
+      "snippet": "Meditation on Hell"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "",
+    "verified": []
+   },
+   "S5": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/boero_life-of-peter-faber_coleridge1873.txt",
+      "line": 2345,
+      "snippet": "to the dead who are in purgatory, pardon and relief"
+     },
+     {
+      "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+      "line": 0,
+      "snippet": "Session 25 decree on purgatory (line not pulled)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "",
+    "verified": []
+   },
+   "S7": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/francis-xavier_life-and-letters-v2_coleridge1872.txt",
+      "line": 18876,
+      "snippet": "those who had not worshipped God as we preached were doomed to suffer everlasting punishment in hell ... neglected the salvation of all their ancestors (Xavier, Cochin 1552)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "C3-13 ('my dad died without believing') has its sharpest historical echo here, confirmed in context.",
+    "verified": []
+   }
+  },
+  "meth": {
+   "S1": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/wesley-j_sermons-v1_1771.txt",
+      "line": 270,
+      "snippet": "The Great Assize"
+     },
+     {
+      "file": "cic/texts/wesley-c_hymns-methodists_1780.txt",
+      "line": 2709,
+      "snippet": "3. Describing Death. / 4. Describing Judgment (1780 Collection sections)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Wesley's 1771 Sermons vol. 1 is vendored and mapped; 'Of Hell' (1782) is not in it (OTHER).",
+    "verified": []
+   },
+   "S3": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/asbury_journal-v2_1821.txt",
+      "line": 4587,
+      "snippet": "Antinomianism, Universalism, and Deism"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "",
+    "verified": []
+   },
+   "S4": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/wesley-j_sermons-v1_1771.txt",
+      "line": 1382,
+      "snippet": "everlasting destruction"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "",
+    "verified": []
+   },
+   "S5": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/methodist-conference_minutes-v1-1744-1798_1862.txt",
+      "line": 6707,
+      "snippet": "till we have been a sufficient time in purgatory (Minutes, quoted and rejected)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "",
+    "verified": []
+   }
+  },
+  "obel": {
+   "S1": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt",
+      "line": 0,
+      "snippet": "hell 8, antichrist 9 (lines not pulled)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "",
+    "verified": []
+   },
+   "S5": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/nikon_replies-against-streshnev-and-ligarides_palmer1871.txt",
+      "line": 21161,
+      "snippet": "to make commemorations of the dead"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "sub": "S8",
+      "work": "Pomorskie otvety (The Pomorian Answers, 1723): Antichrist already reigning; prayers for the dead; the sign of the cross",
+      "edition": "Russian, Moscow 1911 (Preobrazhenskoe reprint)",
+      "where": "archive.org / Russian State Library digital",
+      "licence": "public domain (Russian); Crummey 1970 English in copyright"
+     }
+    ],
+    "note": "",
+    "verified": []
+   },
+   "S8": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/nikon_replies-against-streshnev-and-ligarides_palmer1871.txt",
+      "line": 254,
+      "snippet": "AGAINST BABYLON AND ANTICHRIST"
+     },
+     {
+      "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+      "line": 327,
+      "snippet": "Tsardom and Antichrist (secondary)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "",
+    "verified": []
+   }
+  },
+  "rcg": {
+   "S1": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/gregory-great_moralia-in-job-books-i-x_bliss1844.txt",
+      "line": 2364,
+      "snippet": "the rich man in hell is well described as ... (Moralia; hell 64)"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "sub": "S1",
+      "work": "Gregory the Great, Homilies on the Gospels (Hom. 12 on the five foolish virgins; Hom. 40 on Dives and Lazarus)",
+      "edition": "Latin, PL 76 (Migne); English Hurst, CS 123 (1990) in copyright",
+      "where": "archive.org",
+      "licence": "public domain (Latin)"
+     }
+    ],
+    "note": "No records (building).",
+    "verified": []
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/gregory-great_moralia-in-job-books-xxiii-xxix_bliss1847.txt",
+      "line": 2195,
+      "snippet": "eternal punishments are avoided"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "",
+    "verified": []
+   },
+   "S5": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+      "line": 590,
+      "snippet": "XXXIX. Whether there be any fire of Purgatory after death (TOC)"
+     },
+     {
+      "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+      "line": 11361,
+      "snippet": "whether we ought to believe that after death there is any fire of Purgatory"
+     },
+     {
+      "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+      "line": 651,
+      "snippet": "Monk called Justus (TOC; the thirty masses, IV.55)"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "sub": "S5",
+      "work": "Gregory the Great, Dialogues IV.39-41 (the fire of purgatory) and IV.55-57 (Justus and the thirty masses; offerings for the dead)",
+      "edition": "E.G. Gardner (London 1911), reprinting P.W.'s 1608 English - already vendored and mapped to rcg (gregory-great_dialogues_gardner1911.txt, TOC lines 590 and 651, body from line 11361)",
+      "where": "cic/texts",
+      "licence": "public domain"
+     }
+    ],
+    "note": "The world most people would ask about purgatory; Dialogues IV is vendored, mapped, and unrendered.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+      "line": 36320,
+      "snippet": "infants, who had consequently died unbaptized (Gregory, Register)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "",
+    "verified": []
+   },
+   "S8": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/gregory-great_moralia-in-job-books-xxx-xxxv_bliss1850.txt",
+      "line": 249,
+      "snippet": "persecutions of Antichrist against the Saints (antichrist 58)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Gregory's 'the end is near' letters are in npnf212.",
+    "verified": []
+   }
+  },
+  "wsyr": {
+   "S1": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/philoxenus-of-mabbug_discourses_budge1894.txt",
+      "line": 16982,
+      "snippet": "the Gehenna which is threatened for those who work wickedness, and of the report of the outer darkness, and of the rumour of the fire which is not quenched"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No records (candidate). Confirmed in context.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+      "line": 1421,
+      "snippet": "Hades 113 (shared file; Acts of Thomas 51-59 tour of hell, if mapped rows include it)"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "sub": "S5",
+      "work": "Severus of Antioch, Hymns (James of Edessa's recension), incl. the hymns 'on the departed'",
+      "edition": "E.W. Brooks, Patrologia Orientalis 6.1 and 7.5 (Paris 1909-1911), Syriac with English",
+      "where": "archive.org",
+      "licence": "public domain in the US"
+     }
+    ],
+    "note": "Severus's hymns on the departed are OTHER.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "OTHER",
+    "records": [],
+    "confidence": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [
+     {
+      "sub": "S6",
+      "work": "Jacob of Serugh, memre on the resurrection and on the departed",
+      "edition": "Syriac, P. Bedjan, Homiliae selectae Mar-Jacobi Sarugensis, 5 vols (Paris 1905-1910); English Hansbury (Gorgias 2008) in copyright",
+      "where": "archive.org (Bedjan)",
+      "licence": "public domain (Syriac)"
+     }
+    ],
+    "note": "Jacob of Serugh (Syriac, Bedjan) is the natural source.",
+    "verified": []
+   }
+  }
+ }
+}

@@ -705,6 +705,99 @@ works:
 
     '
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
+- row_id: origen_commentarii-in-epistolam-ad-romanos-libri-1-5-lat_lommatzsch1836--commentary-on-romans-books-i-v
+  work: Commentary on the Epistle to the Romans, Books I to V (Rufinus's Latin)
+  author: origen
+  locus: prefaces from about line 170; Book I running heads from about line 1040, Book V from
+    about line 20960; Lommatzsch's notes on readings close the volume
+  role: tradition
+  confidence: assigned
+  note: 'ORIGINAL-LANGUAGE WITNESS (Latin, with Lommatzsch''s Latin notes), the only rights-clean
+    text of this work; the English translations are in copyright. The Latin is Rufinus''s
+    translation, which his own preface (npnf203) says abridged a Greek commentary of fifteen
+    volumes into ten books, so it is Origen as Rufinus gave him, not Origen verbatim. Any
+    record that cites it must say so and must render the English itself, labelled as a rendering.
+    Origen''s own work, so tradition for the world whose catechetical school he led.
+
+    '
+  source_file: origen_commentarii-in-epistolam-ad-romanos-libri-1-5-lat_lommatzsch1836.txt
+- row_id: origen_commentarii-in-epistolam-ad-romanos-libri-6-10-lat_lommatzsch1837--commentary-on-romans-books-vi-x
+  work: Commentary on the Epistle to the Romans, Books VI to X (Rufinus's Latin)
+  author: origen
+  locus: Book VI running heads from about line 671, Book X from about line 24620; the INDEX
+    begins at about line 30318
+  role: tradition
+  confidence: assigned
+  note: 'ORIGINAL-LANGUAGE WITNESS (Latin, with Lommatzsch''s Latin notes), the only rights-clean
+    text of this work; the English translations are in copyright. The Latin is Rufinus''s
+    translation, which his own preface (npnf203) says abridged a Greek commentary of fifteen
+    volumes into ten books, so it is Origen as Rufinus gave him, not Origen verbatim. Any
+    record that cites it must say so and must render the English itself, labelled as a rendering.
+    Origen''s own work, so tradition for the world whose catechetical school he led.
+
+    '
+  source_file: origen_commentarii-in-epistolam-ad-romanos-libri-6-10-lat_lommatzsch1837.txt
+- row_id: origen_commentarii-in-evangelium-joannis-tomus2-grc_lommatzsch1832--commentary-on-the-gospel-of-john-greek-part-ii
+  work: Commentary on the Gospel of John (Greek), part II
+  author: origen
+  locus: the Greek commentary after the volume's front matter; running heads read 'IN EVANGELIUM
+    JOANNIS Tomus XII' onward; INDEX at about line 31377
+  role: tradition
+  confidence: assigned
+  note: ORIGINAL-LANGUAGE WITNESS (Greek and Latin, Lommatzsch's Maurist text), the only rights-clean
+    text of these commentaries; the English translations are in copyright. Where the Greek
+    is lost the Latin is a translation of unknown hand or, for the Luke homilies, Jerome's,
+    per the file's own notes. Any record citing it must say which, and render the English
+    itself, labelled as a rendering. Origen's own work, tradition for the world whose catechetical
+    school he led; the same assignment as the Philocalia and De Oratione. The design thread
+    also proposed desert, cappadocian and hal as context; those placements are held for Mark.
+  source_file: origen_commentarii-in-evangelium-joannis-tomus2-grc_lommatzsch1832.txt
+- row_id: origen_commentarii-in-evangelium-matthaei-tomus4-grc-lat_lommatzsch1834--commentary-on-the-gospel-of-matthew-greek-and-latin-part-ii
+  work: Commentary on the Gospel of Matthew (Greek and Latin), part II
+  author: origen
+  locus: the commentary continued; running heads read 'IN EVANGELIUM MATTH. Tomus XVI' and
+    'XVII'; the Latin series (running head 'COMMENTARIORUM SERIES') from about line 10288
+  role: tradition
+  confidence: assigned
+  note: ORIGINAL-LANGUAGE WITNESS (Greek and Latin, Lommatzsch's Maurist text), the only rights-clean
+    text of these commentaries; the English translations are in copyright. Where the Greek
+    is lost the Latin is a translation of unknown hand or, for the Luke homilies, Jerome's,
+    per the file's own notes. Any record citing it must say which, and render the English
+    itself, labelled as a rendering. Origen's own work, tradition for the world whose catechetical
+    school he led; the same assignment as the Philocalia and De Oratione. The design thread
+    also proposed desert, cappadocian and hal as context; those placements are held for Mark.
+  source_file: origen_commentarii-in-evangelium-matthaei-tomus4-grc-lat_lommatzsch1834.txt
+- row_id: origen_commentarii-in-evangelium-matthaei-tomus3-grc-lat_lommatzsch1834--commentary-on-the-gospel-of-matthew-greek-part-i
+  work: Commentary on the Gospel of Matthew (Greek), part I
+  author: origen
+  locus: the Greek commentary after the volume's front matter; running heads read 'IN EVANGELIUM
+    MATTH. Tomus X' onward
+  role: tradition
+  confidence: assigned
+  note: ORIGINAL-LANGUAGE WITNESS (Greek and Latin, Lommatzsch's Maurist text), the only rights-clean
+    text of these commentaries; the English translations are in copyright. Where the Greek
+    is lost the Latin is a translation of unknown hand or, for the Luke homilies, Jerome's,
+    per the file's own notes. Any record citing it must say which, and render the English
+    itself, labelled as a rendering. Origen's own work, tradition for the world whose catechetical
+    school he led; the same assignment as the Philocalia and De Oratione. The design thread
+    also proposed desert, cappadocian and hal as context; those placements are held for Mark.
+  source_file: origen_commentarii-in-evangelium-matthaei-tomus3-grc-lat_lommatzsch1834.txt
+- row_id: origen_commentarii-in-evangelium-matthaei-tomus5-lat_lommatzsch1835--commentary-on-the-gospel-of-matthew-part-iii-with-the-homilies-on-luke
+  work: Commentary on the Gospel of Matthew, part III, with the Homilies on Luke and Fragments
+  author: origen
+  locus: the Latin series on Matthew (running head 'COMMENTARIORUM SERIES' from about line
+    1251), the Homilies on Luke (HOMILIA I at about line 6080), the Fragments (from about
+    line 14916); INDEX from about line 19077
+  role: tradition
+  confidence: assigned
+  note: ORIGINAL-LANGUAGE WITNESS (Greek and Latin, Lommatzsch's Maurist text), the only rights-clean
+    text of these commentaries; the English translations are in copyright. Where the Greek
+    is lost the Latin is a translation of unknown hand or, for the Luke homilies, Jerome's,
+    per the file's own notes. Any record citing it must say which, and render the English
+    itself, labelled as a rendering. Origen's own work, tradition for the world whose catechetical
+    school he led; the same assignment as the Philocalia and De Oratione. The design thread
+    also proposed desert, cappadocian and hal as context; those placements are held for Mark.
+  source_file: origen_commentarii-in-evangelium-matthaei-tomus5-lat_lommatzsch1835.txt
 - row_id: origen_de-oratione-grc_koetschau1899--de-oratione-on-prayer
   work: De Oratione (Περὶ εὐχῆς, On Prayer)
   author: origen

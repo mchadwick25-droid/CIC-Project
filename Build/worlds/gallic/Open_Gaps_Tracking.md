@@ -1193,3 +1193,11 @@ Status: FIXED 2026-10-23/24, awaiting an independent recheck by a separate Opus 
 Independent recheck, round 1 (the round 1 recheck report in https://github.com/mchadwick25-droid/CIC-Project/pull/1099): every fix in this world for the "Live-reply claim check findings re-confirmed" entry (2026-10-23) is confirmed against the vendored sources.
 
 Status: CLOSED for the live-reply claim check findings.
+
+### OG-48. Source record marked unvendored for a work the Library holds, 2026-10-26.
+
+Library thread, 2026-10-26, from the question-coverage survey (`Build/Ministry/Features/Question-Coverage/`). The Library thread does not edit world records; this entry hands the fix to this world's thread.
+
+`gallic.source.cassian-de-incarnatione` is marked `kind: unvendored` and carries a WANTS-REGISTER row. Cassian, *On the Incarnation of the Lord, Against Nestorius* is vendored in `cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml` (heading at line 48467, checked). The fix is to set the record's kind and file to the vendored edition. The WANTS-REGISTER row then drops out when `gen_wants_register.py` is next run.
+
+Status: OPEN, for this world's thread.

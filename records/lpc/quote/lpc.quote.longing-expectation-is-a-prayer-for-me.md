@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F4-I
+use_note:
+  means: "Augustine tells the people who came to hear him that their longing expectation is itself a prayer for him."
+  not_for:
+    - "a claim that it is only flattery of an attentive crowd"
+    - "a claim about when or where the sermon was preached"
+    - "a claim about why or how often the congregation attended"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

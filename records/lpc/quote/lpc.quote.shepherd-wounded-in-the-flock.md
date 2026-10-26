@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F4-I
+use_note:
+  means: "Cyprian tells his grieving people that the shepherd is most wounded in the wound of his flock, and weeps with them."
+  not_for:
+    - "a claim that it is only pastoral sentiment and not a claim about the office"
+    - "a claim that it describes how readmission of the lapsed worked"
+    - "a claim that the lapsed give their own account of their fall"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -32,6 +40,8 @@ claim_guards: []
 relations:
 - type: associated-with
   target: lpc.figure.cyprian
+- type: associated-with
+  target: lpc.force.decian-persecution-libelli-system
 text: I grieve, brethren, I grieve with you; nor does my own integrity and my personal soundness beguile
   me to the soothing of my griefs, since it is the shepherd that is chiefly wounded in the wound of his
   flock. I join my breast with each one, and I share in the grievous burden of sorrow and mourning. I

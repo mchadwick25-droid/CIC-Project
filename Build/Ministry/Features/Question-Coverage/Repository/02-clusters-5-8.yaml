@@ -1,0 +1,122 @@
+questions:
+# ---------- C5 The Bible ----------
+- {id: C5-01, c: C5, k: [K2,K3], s: EXISTS, ref: "CANON F2-I", t: "How did you read your scriptures? What did you look for in them?"}
+- {id: C5-02, c: C5, k: [K2,K4], s: EXISTS, ref: "CANON F2-I", t: "Which writings did your people treat as scripture — was your Bible the same as ours?"}
+- {id: C5-03, c: C5, k: [K1,K3], s: EXISTS, ref: "CANON F2-I", t: "How did someone who couldn't read receive the scriptures?"}
+- {id: C5-04, c: C5, k: [K6], s: EXISTS, ref: "CANON F2-E", t: "What about the gospels that didn't make it in — were they suppressed?"}
+- {id: C5-05, c: C5, k: [K5,K9], s: EXISTS, ref: "CANON F2-P", t: "When I read the Bible I mostly come away confused or bored. What am I missing?"}
+- {id: C5-06, c: C5, k: [K5,K7], s: EXISTS, ref: "CANON F2-P", t: "The violence in some of these texts frightens me. Did it trouble your people?"}
+- {id: C5-07, c: C5, k: [K2], s: EXISTS, ref: "CANON F2-T", t: "Did you believe the Bible was the only authority?"}
+- {id: C5-08, c: C5, k: [K2,K6], s: EXISTS, ref: "CANON F2-T", t: "Did you read Genesis the way modern people argue about it — as science?"}
+- {id: C5-09, c: C5, k: [K10], s: REAL, ref: "PILOT item 8, 2026-10-19", f: [VERSE], t: "Asked about Luke 9:27 ('some standing here will not taste death'). None of the three voices had an answer."}
+- {id: C5-10, c: C5, k: [K9,K10], s: EXISTS, ref: "PROBE alx Phase5", f: [VERSE], t: "Can we actually read something together? The start of John — 'In the beginning was the Word.'"}
+- {id: C5-11, c: C5, k: [K3], s: EXISTS, ref: "CURRICULUM Pastor · Texts", t: "What's in your writings that people misread?"}
+- {id: C5-12, c: C5, k: [K2,K6], s: PREDICTED, t: "Did you take the Bible literally?"}
+- {id: C5-13, c: C5, k: [K2], s: PREDICTED, t: "Did you believe the Bible had no errors?"}
+- {id: C5-14, c: C5, k: [K2,K11], s: PREDICTED, t: "What did you make of Revelation? Did you think the end was near?"}
+- {id: C5-15, c: C5, k: [K1,K11], s: PREDICTED, t: "Could ordinary people own a Bible, or read one? What language was it in?"}
+- {id: C5-16, c: C5, k: [K2], s: PREDICTED, t: "Did you have the Apocrypha? Maccabees, Tobit, Wisdom?"}
+- {id: C5-17, c: C5, k: [K4], s: PREDICTED, t: "Which translation did you use, and did you know it had mistakes?"}
+- {id: C5-18, c: C5, k: [K10], s: PREDICTED, f: [VERSE], t: "What did your people do with 'I never knew you' in Matthew 7?"}
+- {id: C5-19, c: C5, k: [K10], s: PREDICTED, f: [VERSE], t: "How did you read the Sermon on the Mount? Literally, turn the other cheek?"}
+- {id: C5-20, c: C5, k: [K10], s: PREDICTED, f: [VERSE], t: "What did you make of Genesis 1, the six days?"}
+- {id: C5-21, c: C5, k: [K10], s: PREDICTED, f: [VERSE], t: "Psalm 137, dashing babies against rocks. Did you sing that?"}
+- {id: C5-22, c: C5, k: [K10], s: PREDICTED, f: [VERSE], t: "The Song of Songs: did you read it as about God, or about lovers?"}
+- {id: C5-23, c: C5, k: [K10,K3], s: PREDICTED, f: [VERSE], t: "How did you preach the parable of the prodigal son?"}
+- {id: C5-24, c: C5, k: [K2,K6], s: PREDICTED, t: "Did you believe Moses wrote the first five books? That Paul wrote all his letters?"}
+- {id: C5-25, c: C5, k: [K3], s: PREDICTED, t: "Did you read the Old Testament as being about Jesus? How?"}
+- {id: C5-26, c: C5, k: [K2], s: PREDICTED, t: "Did you think a verse could mean more than one thing?"}
+- {id: C5-27, c: C5, k: [K6], s: PREDICTED, t: "Who decided what went in the Bible, and when? Wasn't it a vote?"}
+- {id: C5-28, c: C5, k: [K1], s: PREDICTED, t: "what was your favourite bible story"}
+- {id: C5-29, c: C5, k: [K7], s: PREDICTED, t: "Did you read the Hebrew scriptures the way Jews read them, or against them?"}
+- {id: C5-30, c: C5, k: [K4], s: PREDICTED, t: "Were there books your people fought about, in or out?"}
+
+# ---------- C6 Authority ----------
+- {id: C6-01, c: C6, k: [K2,K3], s: EXISTS, ref: "CANON F3-I", t: "Who held authority among you, and how did anyone come to have it?"}
+- {id: C6-02, c: C6, k: [K2,K3], s: EXISTS, ref: "CANON F3-I", t: "Who chose your leaders — were bishops appointed, elected, or something else?"}
+- {id: C6-03, c: C6, k: [K4], s: EXISTS, ref: "CANON F1-E", t: "When belief was disputed, who had the right to decide — and how do we know how that worked?"}
+- {id: C6-04, c: C6, k: [K2], s: EXISTS, ref: "CANON F3-T", t: "Was your church \"Catholic\"? Is there a church today I could visit that's yours?"}
+- {id: C6-05, c: C6, k: [K2,K3], s: EXISTS, ref: "CANON F3-T", t: "Did you have denominations — how did you handle other communities who called on Christ differently?"}
+- {id: C6-06, c: C6, k: [K3], s: EXISTS, ref: "CURRICULUM Pastor · Who led", t: "What did you call your leaders, and what did those words actually mean?"}
+- {id: C6-07, c: C6, k: [K3], s: EXISTS, ref: "CURRICULUM Pastor · Who led", t: "What happened when a leader failed, or was removed wrongly?"}
+- {id: C6-08, c: C6, k: [K2], s: EXISTS, ref: "STARTER pahc", t: "I've heard some early churches had bishops and some didn't. Which kind were you?"}
+- {id: C6-09, c: C6, k: [K2,K11], s: PREDICTED, t: "Did you have a pope? What did Rome mean to you?"}
+- {id: C6-10, c: C6, k: [K2], s: PREDICTED, t: "Did the bishop of Rome have the final say for you, or was he one bishop among many?"}
+- {id: C6-11, c: C6, k: [K2], s: PREDICTED, t: "Could a priest be married? Were your leaders married?"}
+- {id: C6-12, c: C6, k: [K2,K6], s: PREDICTED, t: "Who decided what was heresy, and what happened to the heretics?"}
+- {id: C6-13, c: C6, k: [K2], s: PREDICTED, t: "Did you believe in apostolic succession, the laying on of hands back to the apostles?"}
+- {id: C6-14, c: C6, k: [K2,K3], s: PREDICTED, t: "Was tradition as important as the Bible to you? What did 'tradition' even mean?"}
+- {id: C6-15, c: C6, k: [K3], s: PREDICTED, t: "Could a congregation fire its bishop?"}
+- {id: C6-16, c: C6, k: [K6], s: PREDICTED, t: "Wasn't the church just a power structure like any other? Who got rich off it?"}
+- {id: C6-17, c: C6, k: [K2], s: PREDICTED, t: "Did the emperor tell the church what to believe?"}
+- {id: C6-18, c: C6, k: [K2], s: PREDICTED, t: "Did you accept the Council of Nicaea? Chalcedon?"}
+- {id: C6-19, c: C6, k: [K4], s: PREDICTED, t: "Did ordinary believers have any say, or was it all bishops?"}
+- {id: C6-20, c: C6, k: [K3], s: PREDICTED, t: "What made someone a good bishop or elder, in your eyes?"}
+- {id: C6-21, c: C6, k: [K1], s: PREDICTED, t: "who was your leader"}
+- {id: C6-22, c: C6, k: [K2], s: PREDICTED, t: "Did you have deacons? Deaconesses? What did they do?"}
+- {id: C6-23, c: C6, k: [K2,K5], s: PREDICTED, t: "Did people obey the bishop out of respect, or fear?"}
+- {id: C6-24, c: C6, k: [K2], s: PREDICTED, t: "Did you think your church was the only true one?"}
+- {id: C6-25, c: C6, k: [K10], s: PREDICTED, f: [VERSE], t: "'On this rock I will build my church': did you take that as being about Peter and Rome?"}
+- {id: C6-26, c: C6, k: [K4], s: PREDICTED, t: "Was there a creed everyone had to say? Who wrote it?"}
+
+# ---------- C7 Baptism, communion, prayer, worship, confession ----------
+- {id: C7-01, c: C7, k: [K1,K2], s: EXISTS, ref: "CANON F4-I", t: "How did a person actually become one of you? Walk me through it."}
+- {id: C7-02, c: C7, k: [K1,K9], s: EXISTS, ref: "CANON F4-I", t: "Why and how did you pray?"}
+- {id: C7-03, c: C7, k: [K1,K2], s: EXISTS, ref: "CANON F4-I", t: "What happened at the meal you shared?"}
+- {id: C7-04, c: C7, k: [K2,K3], s: EXISTS, ref: "CANON F4-I", t: "How did your people fast, and what was it for?"}
+- {id: C7-05, c: C7, k: [K2,K6], s: EXISTS, ref: "CANON F4-E", t: "How do you know your practices went back to the apostles and weren't later inventions?"}
+- {id: C7-06, c: C7, k: [K2], s: EXISTS, ref: "CANON F4-T", t: "Did you baptise babies, or only adults who chose it for themselves?"}
+- {id: C7-07, c: C7, k: [K2], s: EXISTS, ref: "CANON F1-T", t: "What was the bread and cup to you — is that what we call transubstantiation?"}
+- {id: C7-08, c: C7, k: [K1,K11], s: EXISTS, ref: "CANON F3-I", t: "What actually happened when you gathered?"}
+- {id: C7-09, c: C7, k: [K2], s: EXISTS, ref: "CURRICULUM Regular · Table", t: "Was there anyone you wouldn't share it with?"}
+- {id: C7-10, c: C7, k: [K2], s: PREDICTED, t: "Did you confess your sins to a priest, or to each other, or only to God?"}
+- {id: C7-11, c: C7, k: [K1,K11], s: PREDICTED, t: "What did your singing sound like? Did you have instruments?"}
+- {id: C7-12, c: C7, k: [K2], s: PREDICTED, t: "Did you worship on Sunday or the Sabbath?"}
+- {id: C7-13, c: C7, k: [K2,K11], s: PREDICTED, t: "Did you keep Christmas and Easter? Lent?"}
+- {id: C7-14, c: C7, k: [K2], s: PREDICTED, t: "Did you have icons, statues, crosses in your meeting places? Did you kneel, or stand?"}
+- {id: C7-15, c: C7, k: [K2], s: PREDICTED, t: "Did you baptise by dunking or by pouring?"}
+- {id: C7-16, c: C7, k: [K2], s: PREDICTED, t: "Did you pray to Mary or the saints?"}
+- {id: C7-17, c: C7, k: [K2], s: PREDICTED, t: "How often did you take communion? Every week? Every day?"}
+- {id: C7-18, c: C7, k: [K2], s: PREDICTED, t: "Did you use set prayers, or just speak from the heart?"}
+- {id: C7-19, c: C7, k: [K3], s: PREDICTED, t: "How long was a service? Who preached, and for how long?"}
+- {id: C7-20, c: C7, k: [K1], s: PREDICTED, t: "did you have church buildings"}
+- {id: C7-21, c: C7, k: [K2], s: PREDICTED, t: "Did you anoint the sick with oil? Did you believe it healed?"}
+- {id: C7-22, c: C7, k: [K2,K3], s: PREDICTED, t: "How did you do a wedding? A funeral?"}
+- {id: C7-23, c: C7, k: [K2], s: PREDICTED, t: "Did you believe the bread really became Christ's body, or was it a symbol?"}
+- {id: C7-24, c: C7, k: [K9], s: PREDICTED, t: "Teach me to pray the way you prayed."}
+- {id: C7-25, c: C7, k: [K2], s: PREDICTED, t: "Did you make the sign of the cross?"}
+- {id: C7-26, c: C7, k: [K11], s: PREDICTED, t: "What did your church smell like, sound like, look like inside?"}
+- {id: C7-27, c: C7, k: [K2,K7], s: PREDICTED, t: "Could a visitor who wasn't baptised stay for the whole service?"}
+- {id: C7-28, c: C7, k: [K5], s: PREDICTED, t: "Was anyone ever refused communion? For what?"}
+
+# ---------- C8 Women, children, the enslaved, marriage, sex ----------
+- {id: C8-01, c: C8, k: [K1,K4,K5], s: EXISTS, ref: "CANON F5-I", t: "What was life like for the women among you — in their own words, where your record has them?"}
+- {id: C8-02, c: C8, k: [K1], s: EXISTS, ref: "CANON F5-I", t: "What about children — how were they raised, taught, treated?"}
+- {id: C8-03, c: C8, k: [K4,K5,K7], s: EXISTS, ref: "CANON F5-I", t: "What was it to be enslaved in your community?"}
+- {id: C8-04, c: C8, k: [K2], s: EXISTS, ref: "CANON F5-T", t: "What did marriage mean to your people — did you have weddings?"}
+- {id: C8-05, c: C8, k: [K5], s: EXISTS, ref: "CANON F6-P", t: "You've told me what women's days were like — but could a woman carry real authority among you, and what did it cost her?"}
+- {id: C8-06, c: C8, k: [K2,K5], s: EXISTS, ref: "CANON F6-T", t: "What did your people hold about a marriage ending — could someone divorced belong, or marry again?"}
+- {id: C8-07, c: C8, k: [K5], s: EXISTS, ref: "CANON F6-E", t: "The clearest outside account of your worship came from torturing two enslaved women. Doesn't that taint everything?"}
+- {id: C8-08, c: C8, k: [K2,K5], s: PREDICTED, t: "Could women preach or lead among you?"}
+- {id: C8-09, c: C8, k: [K5,K7], s: PREDICTED, t: "Did you own slaves? Did you ever free them? Did you think it was wrong?"}
+- {id: C8-10, c: C8, k: [K2,K6], s: PREDICTED, t: "What did you think about sex before marriage?"}
+- {id: C8-11, c: C8, k: [K2,K6], s: PREDICTED, f: [NF], t: "What did you think about gay people?"}
+- {id: C8-12, c: C8, k: [K2,K5], s: PREDICTED, t: "Did you think sex was bad even in marriage?"}
+- {id: C8-13, c: C8, k: [K2,K6], s: PREDICTED, t: "What about abortion, or leaving unwanted babies to die?"}
+- {id: C8-14, c: C8, k: [K2], s: PREDICTED, t: "Was it better to stay a virgin than to marry, in your eyes?"}
+- {id: C8-15, c: C8, k: [K2], s: PREDICTED, t: "Could a widow remarry?"}
+- {id: C8-16, c: C8, k: [K5], s: PREDICTED, t: "Did women have any say over their own lives? Could a girl refuse a marriage?"}
+- {id: C8-17, c: C8, k: [K1,K11], s: PREDICTED, t: "How old were people when they married?"}
+- {id: C8-18, c: C8, k: [K2,K6], s: PREDICTED, t: "Did you allow contraception? Did you even have it?"}
+- {id: C8-19, c: C8, k: [K4], s: PREDICTED, t: "Were there women among you who wrote anything that survives?"}
+- {id: C8-20, c: C8, k: [K5], s: PREDICTED, t: "Was a man allowed to beat his wife? Did the church say anything?"}
+- {id: C8-21, c: C8, k: [K2], s: PREDICTED, t: "Could a woman be a deacon? A priest?"}
+- {id: C8-22, c: C8, k: [K3], s: PREDICTED, t: "How did you teach children the faith? At what age?"}
+- {id: C8-23, c: C8, k: [K1], s: PREDICTED, t: "were there nuns"}
+- {id: C8-24, c: C8, k: [K5,K6], s: PREDICTED, t: "Did a slave and a free man really sit at the same table? Or is that just the slogan?"}
+- {id: C8-25, c: C8, k: [K2], s: PREDICTED, t: "Could a Christian marry a pagan or a Jew?"}
+- {id: C8-26, c: C8, k: [K7], s: PREDICTED, t: "Did you think women were lesser than men? Say it plainly."}
+- {id: C8-27, c: C8, k: [K10], s: PREDICTED, f: [VERSE], t: "'Wives, submit': how did your people hear that?"}
+- {id: C8-28, c: C8, k: [K10], s: PREDICTED, f: [VERSE], t: "'Slaves, obey your masters': did anyone among you push back on Paul there?"}
+- {id: C8-29, c: C8, k: [K4], s: PREDICTED, t: "Did you practise castration or extreme asceticism? Was Origen really castrated?"}
+- {id: C8-30, c: C8, k: [K2], s: PREDICTED, t: "Was adultery forgivable? Was it forgivable for a woman?"}
