@@ -1,0 +1,20 @@
+source_file: origen_commentarii-in-evangelium-matthaei-tomus5-lat_lommatzsch1835.txt
+
+assignments:
+- row_id: origen_commentarii-in-evangelium-matthaei-tomus5-lat_lommatzsch1835--commentary-on-the-gospel-of-matthew-part-iii-with-the-homilies-on-luke
+  work: Commentary on the Gospel of Matthew, part III, with the Homilies on Luke and Fragments
+  author: origen
+  locus: the Latin series on Matthew (running head 'COMMENTARIORUM SERIES' from about line 1251), the
+    Homilies on Luke (HOMILIA I at about line 6080), the Fragments (from about line 14916); INDEX from
+    about line 19077
+  atlas_ids:
+  - alexandria-catechetical
+  role: tradition
+  confidence: assigned
+  note: ORIGINAL-LANGUAGE WITNESS (Greek and Latin, Lommatzsch's Maurist text), the only rights-clean
+    text of these commentaries; the English translations are in copyright. Where the Greek is lost the
+    Latin is a translation of unknown hand or, for the Luke homilies, Jerome's, per the file's own notes.
+    Any record citing it must say which, and render the English itself, labelled as a rendering. Origen's
+    own work, tradition for the world whose catechetical school he led; the same assignment as the Philocalia
+    and De Oratione. The design thread also proposed desert, cappadocian and hal as context; those placements
+    are held for Mark.

@@ -22508,3 +22508,94 @@ queue:
     status: downloaded
     vendored_as: "origen_commentarii-in-epistolam-ad-romanos-libri-6-10-lat_lommatzsch1837.txt"
     vendored_note: "vendored; Rufinus's Latin with Lommatzsch's notes; readable OCR with occasional misreadings"
+
+  - title: The Latin Works of Huldreich Zwingli, Vol. II (Original Sin; Account of the Faith; Reply to Eck; Letter to the Princes; Sermon on the Providence of God; A Short and Clear Exposition of the Christian Faith)
+    author: Huldreich (Ulrich) Zwingli (translated for the late Samuel Macauley Jackson
+    translator: ""
+    year: "1922"
+    world: the-reformed-cities-zurich-and-geneva
+    why: Fills the one missing volume of the Jackson, Hinke and Heller English edition of Zwingli's Latin works; the question-coverage worklist (rzg).
+    url: "https://archive.org/details/latinworkscorres02zwin"
+    rights_basis: "pd-us-by-date"
+    verified_by: "Library thread, 2026-10-26: archive.org /metadata read; title page and sample passages of the OCR read."
+    status: downloaded
+    vendored_as: "zwingli_latin-works-correspondence-vol2_hinke1922.txt"
+    vendored_note: "vendored; see the file's own intake header for the OCR caveats"
+
+  - title: The Didascalia Apostolorum in English, translated from the Syriac (Horae Semiticae No. I)
+    author: Anonymous (a Syrian church order, third century per the worklist)
+    translator: ""
+    year: "1903"
+    world: alexandria-catechetical; pahc; syr
+    why: 'Top of the question-coverage acquisition list: the bishop as judge of the community, deacons, deaconesses, widows, penance and readmission, the fast before Pascha.'
+    url: "https://archive.org/details/didascaliaaposto0000unse_g7f1"
+    rights_basis: "pd-us-by-date"
+    verified_by: "Library thread, 2026-10-26: archive.org /metadata read; title page and sample passages of the OCR read."
+    status: downloaded
+    vendored_as: "didascalia-apostolorum_didascalia-apostolorum-in-english_gibson1903.txt"
+    vendored_note: "vendored; see the file's own intake header for the OCR caveats"
+
+  - title: 'Patrologia Syriaca, Pars prima (ab initiis usque ad annum 350), Tomus primus: Aphraatis Sapientis Persae Demonstrationes I-XXII, Syriac text with Latin translation and prefaces'
+    author: Aphrahat the Persian Sage
+    translator: ""
+    year: "1894"
+    world: syr
+    why: Aphrahat's Demonstrations III, IV, XI-XX are not in any vendored English; question-coverage worklist (syr C7, C10, C11).
+    url: "https://archive.org/details/patrologiasyria01grafgoog"
+    rights_basis: "pd-us-by-date"
+    verified_by: "Library thread, 2026-10-26: archive.org /metadata read; title page and sample passages of the OCR read."
+    status: downloaded
+    vendored_as: "aphrahat_demonstrationes-1-22-syr-lat_parisot1894.txt"
+    vendored_note: "vendored; see the file's own intake header for the OCR caveats"
+
+  - title: 'Origenis Opera Omnia, Tomus 2: in Evangelium Joannis Commentariorum, Pars II (Commentary on John, Greek)'
+    author: Origen
+    translator: ""
+    year: "1832"
+    world: alexandria-catechetical
+    why: 'Origen''s Commentary on John in Greek: the English in the corpus (anf09) holds only some books. Worklist row 4.'
+    url: "https://archive.org/details/origenous-ta-heuriskomena-panta-t.-2-1832"
+    rights_basis: "pd-us-by-date"
+    verified_by: "Library thread, 2026-10-26: archive.org /metadata read; title page and sample passages of the OCR read."
+    status: downloaded
+    vendored_as: "origen_commentarii-in-evangelium-joannis-tomus2-grc_lommatzsch1832.txt"
+    vendored_note: "vendored; see the file's own intake header for the OCR caveats"
+
+  - title: 'Origenis Opera Omnia, Tomus 3: in Evangelium Matthaei commentariorum (Commentary on Matthew, Greek books)'
+    author: Origen
+    translator: ""
+    year: "1834"
+    world: alexandria-catechetical
+    why: 'Origen''s Commentary on Matthew in Greek: the English in the corpus (anf09) holds only some books. Worklist row 4.'
+    url: "https://archive.org/details/origenous-ta-heuriskomena-panta-t.-3-1834"
+    rights_basis: "pd-us-by-date"
+    verified_by: "Library thread, 2026-10-26: archive.org /metadata read; title page and sample passages of the OCR read."
+    status: downloaded
+    vendored_as: "origen_commentarii-in-evangelium-matthaei-tomus3-grc-lat_lommatzsch1834.txt"
+    vendored_note: "vendored; see the file's own intake header for the OCR caveats"
+
+  - title: 'Origenis Opera Omnia, Tomus 4: in Evangelium Matthaei commentariorum (Commentary on Matthew, continued)'
+    author: Origen
+    translator: ""
+    year: "1834"
+    world: alexandria-catechetical
+    why: Origen's Commentary on Matthew continued, including the Latin series for the passages where the Greek is lost. Worklist row 4.
+    url: "https://archive.org/details/origenous-ta-heuriskomena-panta-t.-4-1834"
+    rights_basis: "pd-us-by-date"
+    verified_by: "Library thread, 2026-10-26: archive.org /metadata read; title page and sample passages of the OCR read."
+    status: downloaded
+    vendored_as: "origen_commentarii-in-evangelium-matthaei-tomus4-grc-lat_lommatzsch1834.txt"
+    vendored_note: "vendored; see the file's own intake header for the OCR caveats"
+
+  - title: 'Origenis Opera Omnia, Tomus 5: in Evangelium Matthaei commentariorum, Pars III, Homiliae in Evangelium Lucae et Fragmenta'
+    author: Origen
+    translator: ""
+    year: "1835"
+    world: alexandria-catechetical
+    why: Origen's Latin series on Matthew and his Homilies on Luke (the file's own notes name Jerome as their translator). Worklist row 4.
+    url: "https://archive.org/details/origenous-ta-heuriskomena-panta-t.-5-1835"
+    rights_basis: "pd-us-by-date"
+    verified_by: "Library thread, 2026-10-26: archive.org /metadata read; title page and sample passages of the OCR read."
+    status: downloaded
+    vendored_as: "origen_commentarii-in-evangelium-matthaei-tomus5-lat_lommatzsch1835.txt"
+    vendored_note: "vendored; see the file's own intake header for the OCR caveats"

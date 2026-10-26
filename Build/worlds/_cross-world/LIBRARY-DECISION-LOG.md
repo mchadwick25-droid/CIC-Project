@@ -841,3 +841,19 @@ Donatistam, from the same source file, are NOT part of this authorization
 **What the text is.** Rufinus's Latin, not verbatim Origen. His preface in npnf203 says the Greek commentary ran to fifteen volumes and that he was asked to abbreviate it; the Latin has ten books. Jerome accused him of altering Origen (that quarrel is in npnf203). Any record that quotes it has to say so and render the English itself, labelled as a rendering. The English translations (Scheck, Bammel) are in copyright and are not vendored.
 
 **Map placement.** `alexandria-catechetical` as `tradition` (Origen's own work), `aquileian-christianity` as `transmission` (Rufinus's custody), following the precedent of the Baehrens Homilies on Numbers. The design thread also proposed `cappadocian`, `hal` and `desert` as `context`. Those are cross-world placements and are held for Mark.
+
+## 2026-10-26 — Targeted acquisition batch from the question-coverage worklist (Mark chose "targeted five")
+
+**Approved.** Mark, 2026-10-26: Didascalia Apostolorum, Zwingli's Latin Works vol. 2, Aphrahat's Demonstrations, and Origen's commentaries on Matthew and John from the Lommatzsch set. Each item had its host metadata and rights read, and its text read at several points, before it was vendored.
+
+**Vendored (7 files).**
+- `didascalia-apostolorum_didascalia-apostolorum-in-english_gibson1903.txt`: Gibson's English from the Syriac (Horae Semiticae No. I; the worklist said No. 2). Rights by date, 1903. The better text (Connolly 1929) is not cleared and not vendored.
+- `zwingli_latin-works-correspondence-vol2_hinke1922.txt`: Hinke 1922, the missing middle volume (Account of the Faith, Providence sermon, the Exposition with its company of heaven). Runs of spaces collapsed, as in volume 3.
+- `aphrahat_demonstrationes-1-22-syr-lat_parisot1894.txt`: Patrologia Syriaca I.1, Demonstrations I to XXII, with Parisot's Latin. The Syriac pages OCR as noise; only the Latin is usable, so it is a rendering by Parisot. Demonstration XXIII (tomus II) was not fetched.
+- Origen, Lommatzsch tomus 2 (Commentary on John, Greek), tomus 3 and 4 (Commentary on Matthew, Greek and Latin series) and tomus 5 (Matthew Latin series, Homilies on Luke, Fragments). Public Domain Mark 1.0 on each item.
+
+**Not vendored, and why.** Lommatzsch tomus 1 (the first part of the Commentary on John): the host OCR is unusable noise. A Google scan of the same 1831 edition (`origenisoperaom00lommgoog`) has readable Latin but its Greek is mangled into ASCII, so it is no help for the Greek. A clean scan has to be found before John's first books are available.
+
+**Map placement.** Zwingli vol. 2 follows volume 3 (`the-reformed-cities-zurich-and-geneva`, tradition). Aphrahat follows the Hallock file (`syriac-edessa-nisibis` and `persian-church-of-the-east-early`, tradition). Origen is `alexandria-catechetical` tradition, as for the Philocalia. The Didascalia is staged `provisional` under the unbuilt `antiochene-church-third-century`, with an `authors_ruled` entry (pseudonymous: it speaks in the apostles' voices) because it has no author; its Syrian, third-century provenance comes from the worklist, not the file. Placements in the built worlds (alx, pahc and syr for the Didascalia; desert, cappadocian and hal for Origen on Matthew and John) are cross-world and are held for Mark.
+
+**Held for Mark.** The wider Lommatzsch set (25 volumes, one public-domain host) was offered and not chosen.
