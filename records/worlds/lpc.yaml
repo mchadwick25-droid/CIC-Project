@@ -7,3 +7,6 @@ state: building
 census_id: "latin-pastoral-congregational-christianity"
 safety_adjacent: true
 living_tradition_flag: true
+package:
+  manifest_hash: "sha256:d614a1ee8d0b12fad56ca7dd7d6d11a83eeb28b7a9f71eeec4e43af648d2f9e6"
+  location: "packages/lpc/2026-10-26T18-33-28Z"
