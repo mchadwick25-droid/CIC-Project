@@ -111,3 +111,6 @@ questions:
 - {id: C4-24, c: C4, k: [K6], s: PREDICTED, t: "Isn't 'saved by grace' just a way of saying nothing you do matters?"}
 - {id: C4-25, c: C4, k: [K2], s: PREDICTED, t: "Was there a sin that could not be forgiven, in your teaching?"}
 - {id: C4-26, c: C4, k: [K3], s: PREDICTED, t: "What did you tell someone who kept falling into the same sin?"}
+- {id: C3-31, c: C3, k: [K1,K9], s: REAL, ref: "admin dashboard, last 7 days to 2026-10-26, 2026-10-20 01:14 UTC, pahc", t: "If you died today would you go to heaven?"}
+- {id: C4-27, c: C4, k: [K1,K9], s: REAL, ref: "admin dashboard, last 7 days to 2026-10-26, 2026-10-20 01:20 UTC, alx", t: "How might I be saved"}
+- {id: C4-28, c: C4, k: [K1,K9], s: REAL, ref: "admin dashboard, last 7 days to 2026-10-26, 2026-10-20 01:18 UTC, syr", t: "How does one inherit eternal life?"}

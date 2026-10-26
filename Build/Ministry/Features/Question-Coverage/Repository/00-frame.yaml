@@ -38,6 +38,7 @@ flags:
   NF:    "Never faced: a modern question the world had no occasion to meet. Needs an honest_limit plus the nearest thing the world did say."
   VERSE: "Asks about one named passage. Needs a Library index of which vendored homilies and commentaries treat which passages."
   NAMED: "Asks for a named person's own words. Needs figure and quote records attributed to that person."
+  NI:    "No invention: asks for the Representative's own personal history or beginnings. The answer comes from the world's sources, a community 'we', or an honest limit, never an invented life."
 sources:
   EXISTS:    "Already in the repo: CANON (cell), CURRICULUM, STARTER (world), SITE (world), PROBE (path)."
   PREDICTED: "Not in the repo; written here in visitor wording."
