@@ -813,3 +813,13 @@ back-fill one.
 **Scope.** Psalmus contra Partem Donati and Contra (Adversus) Fulgentium
 Donatistam, from the same source file, are NOT part of this authorization
 (not named in the dossier's own §2 reasoning) and stay donatism-only.
+
+## 2026-10-26 — Chrysostom's verse-by-verse homilies mapped to four built worlds
+
+**Ruling.** Mark, 2026-10-26, on the question-coverage design thread's proposal: map Chrysostom's verse-by-verse homilies (npnf110 to npnf114, 17 works: Matthew, Acts, Romans, 1 and 2 Corinthians, Galatians, Ephesians, Philippians, Colossians, 1 and 2 Thessalonians, 1 and 2 Timothy, Titus, Philemon, John, Hebrews) to `imperial-juridical-christianity` as `tradition`, and to `hieronymian-ascetic-literary`, `gallic-monastic-ascetic-christianity` and `cappadocian-nicene-pastoral-monastic-tradition` as `context`. No download; the files were already vendored.
+
+**Open point, settled with Mark the same day.** `context` is defined as the view from outside, and Chrysostom is a neighbouring fellow preacher for the three context worlds, not an outsider or an opponent. The corpus-map already uses `context` for neighbours (a neighbouring Phrygian see, a neighbouring communion), each with a row `note`. Mark chose `context` with a note over a fifth role, so the four roles and the README are unchanged. Each of the 17 new context rows says in its note that the work is read from a neighbouring community by a fellow preacher on the same verses.
+
+**What changed.** 17 `_staging` rows gained `imperial-juridical-christianity`; 17 new `--context` rows carry the three context ids. The full merge (`corpus_map_merge.py`) regenerated the four affected buckets and validated: 3,783 assignments became 3,851 (17 tradition, 51 context). Romans Homily XXIII's existing ijc row in `fleet-sweep-additions-npnf111.yaml` raised no duplicate flag.
+
+**Not decided here.** Whether other Chrysostom works (npnf109, the Greek PG volumes) belong to these worlds; npnf109 was left out because it is not verse-by-verse commentary.

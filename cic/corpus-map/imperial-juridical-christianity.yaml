@@ -242,6 +242,112 @@ works:
 
     '
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
+- row_id: npnf113_chrysostom-homilies-galatians-philemon--commentary-on-galatians
+  work: Commentary on Galatians
+  author: chrysostom
+  locus: div1 3, div2 3.3 — Commentary on Galatians (continuous commentary, not a homily series)
+  role: tradition
+  confidence: assigned
+  source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
+- row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-colossians
+  work: Homilies on Colossians
+  author: chrysostom
+  locus: div1 4, div2 4.4 — the full Colossians series, assigned as one work
+  role: tradition
+  confidence: assigned
+  source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
+- row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-ephesians
+  work: Homilies on Ephesians
+  author: chrysostom
+  locus: div1 3, div2 3.4 — the full Ephesians series, assigned as one work
+  role: tradition
+  confidence: assigned
+  source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
+- row_id: npnf112_chrysostom-homilies-corinthians--homilies-on-first-corinthians
+  work: Homilies on First Corinthians
+  author: chrysostom
+  locus: div1 4 — the full 1 Corinthians series, assigned as one work
+  role: tradition
+  confidence: assigned
+  source_file: npnf112_chrysostom-homilies-corinthians.xml
+- row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-first-thessalonians
+  work: Homilies on First Thessalonians
+  author: chrysostom
+  locus: div1 4, div2 4.5 — the full 1 Thessalonians series, assigned as one work
+  role: tradition
+  confidence: assigned
+  source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
+- row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-first-timothy
+  work: Homilies on First Timothy
+  author: chrysostom
+  locus: div1 5, div2 5.3 — the full 1 Timothy series, assigned as one work
+  role: tradition
+  confidence: assigned
+  source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
+- row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-philemon
+  work: Homilies on Philemon
+  author: chrysostom
+  locus: div1 5, div2 5.6 — the full Philemon series, assigned as one work
+  role: tradition
+  confidence: assigned
+  source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
+- row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-philippians
+  work: Homilies on Philippians
+  author: chrysostom
+  locus: div1 4, div2 4.3 — the full Philippians series, assigned as one work
+  role: tradition
+  confidence: assigned
+  source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
+- row_id: npnf112_chrysostom-homilies-corinthians--homilies-on-second-corinthians
+  work: Homilies on Second Corinthians
+  author: chrysostom
+  locus: div1 5 — the full 2 Corinthians series, assigned as one work
+  role: tradition
+  confidence: assigned
+  source_file: npnf112_chrysostom-homilies-corinthians.xml
+- row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-second-thessalonians
+  work: Homilies on Second Thessalonians
+  author: chrysostom
+  locus: div1 4, div2 4.6 — the full 2 Thessalonians series, assigned as one work
+  role: tradition
+  confidence: assigned
+  source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
+- row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-second-timothy
+  work: Homilies on Second Timothy
+  author: chrysostom
+  locus: div1 5, div2 5.4 — the full 2 Timothy series, assigned as one work
+  role: tradition
+  confidence: assigned
+  source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
+- row_id: npnf113_chrysostom-homilies-galatians-philemon--homilies-on-titus
+  work: Homilies on Titus
+  author: chrysostom
+  locus: div1 5, div2 5.5 — the full Titus series, assigned as one work
+  role: tradition
+  confidence: assigned
+  source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
+- row_id: npnf111_chrysostom-homilies-acts-romans--homilies-on-the-acts-of-the-apostles
+  work: Homilies on the Acts of the Apostles
+  author: chrysostom
+  locus: div1 6 — 'A Commentary on the Acts of the Apostles', the full series of fifty-five
+    homilies, assigned as one work
+  role: tradition
+  confidence: assigned
+  source_file: npnf111_chrysostom-homilies-acts-romans.xml
+- row_id: npnf114_chrysostom-homilies-john-hebrews--homilies-on-the-epistle-to-the-hebrews
+  work: Homilies on the Epistle to the Hebrews
+  author: chrysostom
+  locus: div1 5 — the full Hebrews series, assigned as one work
+  role: tradition
+  confidence: assigned
+  source_file: npnf114_chrysostom-homilies-john-hebrews.xml
+- row_id: npnf111_chrysostom-homilies-acts-romans--homilies-on-the-epistle-to-the-romans
+  work: Homilies on the Epistle to the Romans
+  author: chrysostom
+  locus: div1 7 — the full Romans series, assigned as one work
+  role: tradition
+  confidence: assigned
+  source_file: npnf111_chrysostom-homilies-acts-romans.xml
 - row_id: fleet-sweep-additions-npnf111--homilies-on-the-epistle-to-the-romans-homily-xxiii-on-romans
   work: Homilies on the Epistle to the Romans, Homily XXIII (on Romans 13:1)
   author: chrysostom
@@ -265,6 +371,25 @@ works:
 
     '
   source_file: npnf111_chrysostom-homilies-acts-romans.xml
+- row_id: npnf114_chrysostom-homilies-john-hebrews--homilies-on-the-gospel-of-st-john
+  work: Homilies on the Gospel of St. John
+  author: chrysostom
+  locus: div1 4 — the full John series (eighty-eight homilies), assigned as one work
+  role: tradition
+  confidence: assigned
+  source_file: npnf114_chrysostom-homilies-john-hebrews.xml
+- row_id: npnf110_chrysostom-homilies-matthew--homilies-on-the-gospel-of-st-matthew
+  work: Homilies on the Gospel of St. Matthew
+  author: chrysostom
+  locus: div1 3 — the full series of ninety homilies (div2 3.4-3.89), assigned as one work
+  role: tradition
+  confidence: assigned
+  note: 'The complete Matthew series, the largest single monument of Antiochene exegesis in
+    the corpus (~466k words). Per brief 6.5 the exegesis is Chrysostom''s work and in scope;
+    the biblical text he expounds is not itself being assigned.
+
+    '
+  source_file: npnf110_chrysostom-homilies-matthew.xml
 - row_id: john-chrysostom_opera-pg52-epistulae-grc-lat_migne1862--letters-from-exile-and-homilies-of-399-404-greek-pg-52-2
   work: Letters from exile (to Innocent of Rome, to Olympias, from Cucusus) and homilies of
     399-404, Greek, PG 52
