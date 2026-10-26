@@ -2016,3 +2016,20 @@ Logged 2026-10-25.
 - **Carried: the acclamation force rewrite.** It goes to its own pull request under the Decision 8B scope ruling (2026-09-25). The review notes on it apply there: keep "roughly", say "under compulsion and constraint", and keep the link to "against my episcopate".
 - **Carried: caution 12 suggests wording for the Facilitator's crisis redirect.** Code builds those turns from templates, so it cannot become a freely generated redirect. Noted for whoever owns the safety protocol.
 - **Owner.** The `lpc` build thread.
+
+### OG-80. Use notes and B-1 coverage; one engine question for the project lead (2026-10-26).
+
+Logged 2026-10-26.
+
+- **Use notes.** All 117 voiced records carry a `use_note`, held in the final pipeline stage `wb_lpc_s2u_use_notes.py`.
+  - The round-1 review (`Use_Notes_Review_2026-10-26.md`) returned Revise: 6 P1s and 17 P2s. The quote notes are strong.
+  - The P1s come from compression in witnesses, gravities and limits, where a scoping word fell out. The term record for certificates also wrongly called "thousands" an editor's word; Hartel reads *libellorum milia*.
+  - Most `means` sentences ran long. A revision is under way, with each note marked `provisional` until the recheck clears.
+- **For the project lead (UN-22).** `use_note.means` reaches the voice as the head line of an evidence block, but the readability gate never grades it. It sits only in `SHARED_SPOKEN_FIELDS` in `engine/m1/spoken_fields.py`, which leaves that undecided. The `don` and `rzg` notes fail the reading bar almost throughout (97 of 98, 55 of 56). Whether the gate should grade this field is a fleet engine decision. `lpc` writes its notes to the bar either way.
+- **B-1a/B-1b.** `lpc_B1a_B1b_Coverage_Check.md`:
+  - recall 10/10;
+  - two vendored but unrowed English Hefele volumes;
+  - three PRESS namings (Decret; Frend's *Martyrdom and Persecution*; Eusebius *Church History* VI.43 and VII.2–9), routed to the pre-freeze re-sweep and the next Doc_02 revision;
+  - six search records, including the saturation sweep record.
+  `records lpc --freeze` no longer reports a missing search record.
+- **Owner.** The `lpc` build thread; UN-22 is the project lead's.
