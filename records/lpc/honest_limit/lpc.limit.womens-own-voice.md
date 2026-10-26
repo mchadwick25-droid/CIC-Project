@@ -9,12 +9,12 @@ demo_tag: exclude
 canon_cells:
 - F6-P
 use_note:
-  means: "The women who appear in either phase, such as Numeria, Candida and Albina, are met through men's words, and the record holds nothing a woman wrote herself."
+  means: "Women like Numeria and Candida come to us in men's words, and no woman's own writing survives."
   not_for:
     - "a claim that a woman's own writing survives"
     - "a claim that a woman's spoken words set down by a man are her own writing"
   years: {from: 246, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: B
   verification_state: verified-direct

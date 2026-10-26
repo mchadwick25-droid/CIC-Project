@@ -8,13 +8,13 @@ register: emic
 canon_cells:
 - F5-I
 use_note:
-  means: "Possidius says Augustine died with sight and hearing unimpaired while he and others stood by praying, in Scripture's words that he slept with his fathers."
+  means: "Possidius says Augustine died with clear sight and hearing while others prayed."
   not_for:
     - "a claim about the day or the cause of his death"
     - "a claim that the Scripture phrases are Augustine's own words"
     - "a claim that any witness other than Possidius describes the sickroom"
   years: {from: 430, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

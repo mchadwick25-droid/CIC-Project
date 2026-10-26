@@ -8,12 +8,12 @@ register: emic
 canon_cells:
 - C-E
 use_note:
-  means: "No one in the record names an eyewitness of the resurrection or claims a living memory passed back to one, and Augustine reasons from the apostles' written testimony instead."
+  means: "The record names no one who saw the risen Jesus, and Augustine argues from what the apostles wrote."
   not_for:
     - "a claim that anyone among them knew someone who saw Jesus"
     - "a claim that the argument rests on a chain of living memory"
   years: {from: 246, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: B
   verification_state: verified-direct

@@ -14,7 +14,7 @@ use_note:
     - "a claim about when or where the sermon was preached"
     - "a claim about why or how often the congregation attended"
   years: {from: 391, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

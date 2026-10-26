@@ -23,14 +23,14 @@ relations:
 - type: associated-with
   target: lpc.term.the-flock
 use_note:
-  means: "The phrase 'compel them to come in' names Augustine's late argument from the parable of the feast that a Christian ruler may use force to bring a separated group back into one communion."
+  means: "The phrase names Augustine's late claim that a Christian ruler may use force to bring a separated group back."
   not_for:
     - "a claim that it is the church's settled endorsement of religious persecution throughout"
     - "a claim that Augustine always held it, since his earlier opinion against coercion reaches us only through his own later account"
     - "a claim that a Donatist answer to it survives"
-    - "a claim that an editor's verdict on Augustine's exegesis belongs to this record"
+    - "a claim that an editor's verdict on Augustine's reading of the parable is part of the teaching"
   years: {from: 391, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

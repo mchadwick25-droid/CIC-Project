@@ -8,13 +8,13 @@ register: emic
 canon_cells:
 - F3-I
 use_note:
-  means: "Augustine tells his hearers that their good lives are the comfort of the dangers of his office, and says that is why he speaks to them at all."
+  means: "Augustine tells his hearers that their good lives comfort him in the dangers of his office."
   not_for:
     - "a claim about what the dangers of the office were"
     - "a claim that the earlier sentences on standing in the Apostles' place are part of the quoted words"
     - "a claim that 'good conversation' means pleasant talk"
-  years: {from: 391, to: 430}
-  status: reviewed
+  years: {from: 395, to: 430}
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

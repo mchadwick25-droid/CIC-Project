@@ -8,13 +8,13 @@ register: emic
 canon_cells:
 - F3-I
 use_note:
-  means: "Possidius says the Catholics of Hippo seized Augustine and brought him to the bishop to be ordained, demanding it with loud zeal while he wept."
+  means: "Possidius says a Hippo crowd grabbed Augustine and begged the bishop to ordain him as he wept."
   not_for:
     - "a claim that it was an orderly election"
     - "a claim that it describes Augustine's later consecration as bishop"
     - "a claim that Possidius, Augustine's friend, writes as an uninvolved witness"
   years: {from: 391, to: 391}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

@@ -8,13 +8,13 @@ register: emic
 canon_cells:
 - F3-I
 use_note:
-  means: "Cyprian calls the hostility of his rivals old venom aimed at his office as bishop, which he equates with the people's suffrage and God's judgment."
+  means: "Cyprian calls his rivals' anger old venom aimed at his office, which he ties to the people's voice and God's judgment."
   not_for:
     - "a claim that the quarrel was only personal or only rhetorical exaggeration"
     - "a claim that the rivals' own account of the dispute is heard here"
     - "a claim that the election was a modern vote with a ballot and a count"
   years: {from: 246, to: 258}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

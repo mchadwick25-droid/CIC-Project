@@ -21,13 +21,13 @@ relations:
 - type: associated-with
   target: lpc.term.the-one-episcopate
 use_note:
-  means: "Schism is the tear that comes when arguing stops and a separate altar, bishop and people appear in the same town."
+  means: "Schism is the tear that comes when arguing stops and a separate altar, bishop and people stand in the same town."
   not_for:
     - "a claim that it was an ordinary feature of a plural religious landscape"
     - "a claim that the line between heresy and schism was as stable as later usage implies"
     - "a claim that this entry characterizes Donatism"
   years: {from: 246, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

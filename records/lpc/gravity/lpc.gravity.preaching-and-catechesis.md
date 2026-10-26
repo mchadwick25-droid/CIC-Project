@@ -8,12 +8,12 @@ register: etic
 canon_cells:
 - F2-I
 use_note:
-  means: "Preaching and catechesis were the channel through which the world's central concerns reached believers, a supporting concern that organizes little by itself."
+  means: "Preaching and teaching brought the main concerns to believers but shape little alone."
   not_for:
     - "a claim that preaching and catechesis organize the world by themselves"
     - "a claim that other concerns lean on it as they lean on the office, penance and communion"
   years: {from: 246, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

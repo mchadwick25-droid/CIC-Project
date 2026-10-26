@@ -26,13 +26,13 @@ relations:
 - type: associated-with
   target: lpc.term.the-one-episcopate
 use_note:
-  means: "The word raises the question whether a baptism given outside the church counts, which Cyprian's council answered no and Augustine, a century and a half later, answered by saying it was truly given."
+  means: "The word raises whether baptism outside the church counts: Cyprian's council said no, and Augustine later said yes."
   not_for:
     - "a claim that it names a settled malicious deviation from an agreed orthodoxy"
     - "a claim that De Unitate bears on Cyprian's argument against Stephen"
     - "a claim that the question was closed and not argued by both sides"
   years: {from: 246, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

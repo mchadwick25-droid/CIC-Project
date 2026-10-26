@@ -8,13 +8,13 @@ register: emic
 canon_cells:
 - C-P
 use_note:
-  means: "As a young man Augustine prayed for chastity but not yet, and he later wrote that being persuaded of the truth did not by itself set him free."
+  means: "In the Confessions Augustine recalls praying for chastity, but not yet, and says being convinced did not set him free."
   not_for:
     - "a claim that everyone among them struggled in the same way"
     - "a claim that delay always ended as his did"
     - "a claim that the prayer was made at the moment he was persuaded"
-  years: {from: 391, to: 430}
-  status: reviewed
+  years: {from: 397, to: 401}
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

@@ -8,13 +8,14 @@ register: emic
 canon_cells:
 - F4-E
 use_note:
-  means: "Cyprian refused any practice not found in the Gospel or the apostles' letters, while Augustine counted a custom kept everywhere as apostolic even without apostolic writing."
+  means: "Cyprian would not call a custom apostolic unless it was written, but Augustine would if the Church kept it."
   not_for:
     - "a claim that the two bishops agreed on one test"
-    - "a claim that this world settled which test is truer"
+    - "a claim that the tradition settled which test is truer"
     - "a claim that the two bishops argued the same dispute"
+    - "a claim that Cyprian's test covered every custom, since he aimed it at the tradition Stephen claimed"
   years: {from: 246, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

@@ -9,13 +9,13 @@ canon_cells:
 - F5-I
 - F1-P
 use_note:
-  means: "Possidius tells how Augustine, who taught that even good Christians must repent before death, had penitential psalms copied and wept over them in his last illness during the Vandal siege."
+  means: "Possidius says Augustine had psalms of penance copied and wept over them in his last illness."
   not_for:
     - "a claim that the death was serene"
     - "a claim that any witness besides Possidius describes the sickroom"
     - "a claim about what leaving Hippo was like"
   years: {from: 430, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

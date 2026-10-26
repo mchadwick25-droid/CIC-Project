@@ -8,13 +8,13 @@ register: emic
 canon_cells:
 - F6-E
 use_note:
-  means: "Pontius sets Cyprian's execution among thickly planted trees, with supporters climbing the branches as Zacchaeus did, and says the executioner's trembling hand was strengthened from above."
+  means: "Pontius sets Cyprian's death among thick trees, and says the hand that struck him was steadied from above."
   not_for:
     - "a claim that the strengthening of the hand is a fact and not Pontius's telling"
     - "a claim that merges Pontius's account of the blindfold with the Acta's"
     - "a claim that these details are independently attested, since the Acta tells none of them"
   years: {from: 258, to: 258}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

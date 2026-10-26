@@ -13,7 +13,7 @@ use_note:
     - "a claim about the size of the crowd"
     - "a claim that everyone in the crowd was a Christian"
   years: {from: 258, to: 258}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

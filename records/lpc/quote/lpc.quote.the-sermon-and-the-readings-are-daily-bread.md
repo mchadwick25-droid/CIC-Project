@@ -8,13 +8,13 @@ register: emic
 canon_cells:
 - F2-I
 use_note:
-  means: "Augustine names his own preaching, the readings in church and the hymns as daily bread, needed while the people are far from home."
+  means: "Augustine calls his own preaching, the readings in church and the hymns daily bread, needed while the people are far from home."
   not_for:
     - "a claim that the Eucharist was not daily bread"
     - "a claim about how often hymns were sung"
     - "a claim that 'pilgrimage' means a trip to a shrine"
   years: {from: 391, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

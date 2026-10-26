@@ -8,12 +8,11 @@ register: etic
 canon_cells:
 - F3-I
 use_note:
-  means: "A bishop is personally answerable for a bounded flock, and much else in this world flows from that office."
+  means: "A bishop is personally answerable for a bounded flock, and much else they held flows from that office."
   not_for:
     - "a claim that the bishop was a regional administrator"
-    - "a claim that Possidius's Vita counts as evidence in the cross-check"
   years: {from: 246, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority

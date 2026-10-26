@@ -19,13 +19,13 @@ relations:
 - type: associated-with
   target: lpc.term.the-flock
 use_note:
-  means: "The people names the congregation when it acts, consenting, demanding and electing, unlike the flock, which is the congregation being cared for."
+  means: "The people names the congregation when it acts, as the flock names it when it is being cared for."
   not_for:
-    - "a claim that the Latin plebs is settled as the world's word for it"
+    - "a claim that the Latin word plebs is a settled name for it"
     - "a claim that the people held a formal ballot"
     - "a claim that the people always prevailed"
   years: {from: 246, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

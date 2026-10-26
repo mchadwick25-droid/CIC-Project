@@ -8,13 +8,13 @@ register: emic
 canon_cells:
 - F6-I
 use_note:
-  means: "Confessors who had suffered claimed standing to ask peace for the lapsed, and the regulated process of examination before the congregation had to answer that claim, with the two never joined in one settled rule."
+  means: "Confessors claimed they could ask peace for the lapsed, and the church's rules answered, but never joined the two."
   not_for:
     - "a claim that the confessors' claim was a pretense or counted for nothing"
     - "a claim that the church found a single rule saying which governs when the two conflict"
     - "a claim that the confessors' own voice survives beyond a general letter to Cyprian"
   years: {from: 246, to: 258}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

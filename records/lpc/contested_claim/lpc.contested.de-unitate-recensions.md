@@ -8,13 +8,13 @@ register: etic
 canon_cells:
 - F2-E
 use_note:
-  means: "Whether the 'Primacy Text' of De Unitate chapters 4 and 5 is a later interpolation or Cyprian's own second recension stays unsettled, though the treatise's subject, schism and the one episcopate around 251, is not."
+  means: "Whether chapters 4 and 5 of De Unitate were added later or are Cyprian's own second draft stays open."
   not_for:
     - "a claim that the interpolation thesis is settled"
     - "a claim that Cyprian wrote both recensions"
-    - "a claim that any reasoning in this world rests on either recension's wording"
-  years: {from: 251, to: 251}
-  status: reviewed
+    - "a claim that anything we say about the church rests on either recension's wording"
+  years: {from: 251, to: 256}
+  status: provisional
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

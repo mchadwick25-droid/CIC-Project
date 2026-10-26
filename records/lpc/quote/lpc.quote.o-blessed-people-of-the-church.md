@@ -8,13 +8,13 @@ register: emic
 canon_cells:
 - F6-E
 use_note:
-  means: "Pontius calls the people of Carthage blessed for suffering with their bishop in sight, feeling and words, and says their eager wish to die counted as a letter sent to God."
+  means: "Pontius calls the people of Carthage blessed for suffering with their bishop, and says their wish to die counted as a letter to God."
   not_for:
     - "a claim that anyone besides Cyprian died that day"
     - "a claim that 'the priest' means a parish priest rather than the bishop"
     - "a claim that the whole congregation suffered martyrdom"
   years: {from: 258, to: 258}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

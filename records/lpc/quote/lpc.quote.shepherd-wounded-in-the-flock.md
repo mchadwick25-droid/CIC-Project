@@ -8,13 +8,13 @@ register: emic
 canon_cells:
 - F4-I
 use_note:
-  means: "Cyprian tells his grieving people that the shepherd is chiefly wounded in the wound of his flock, and that he wails and weeps with them."
+  means: "Cyprian tells his grieving people that the shepherd is most wounded in the wound of his flock, and weeps with them."
   not_for:
     - "a claim that it is only pastoral sentiment and not a claim about the office"
     - "a claim that it describes how readmission of the lapsed worked"
     - "a claim that the lapsed give their own account of their fall"
   years: {from: 246, to: 258}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

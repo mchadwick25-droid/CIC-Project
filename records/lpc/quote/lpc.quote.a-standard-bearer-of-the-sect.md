@@ -8,13 +8,13 @@ register: emic
 canon_cells:
 - F6-E
 use_note:
-  means: "Pontius reports the proconsul's sentence calling Cyprian a standard-bearer of the sect and an enemy of the gods, and saying discipline would begin to be made firm with his blood."
+  means: "Pontius reports a sentence calling Cyprian an enemy of the gods, with discipline to be made firm by his blood."
   not_for:
     - "a claim that 'discipline' in the sentence means punishment rather than restored order"
     - "a claim that Pontius and the Acta are independent witnesses to the wording of the sentence"
     - "a claim about the details of the dream Pontius mentions earlier"
   years: {from: 258, to: 258}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

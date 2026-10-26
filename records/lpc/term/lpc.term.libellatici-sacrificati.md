@@ -15,13 +15,13 @@ relations:
 - type: associated-with
   target: lpc.term.the-lapsed
 use_note:
-  means: "Cyprian divided the lapsed into those who bought a certificate and those who sacrificed, and treated both as fallen but not alike."
+  means: "Cyprian split the lapsed into those who bought a paper and those who sacrificed, both fallen but not alike."
   not_for:
     - "a claim that it was a formal canonical taxonomy applied uniformly"
     - "a claim that the two acts weighed the same"
     - "a claim that the grading rests on an editor's endnote"
   years: {from: 246, to: 258}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

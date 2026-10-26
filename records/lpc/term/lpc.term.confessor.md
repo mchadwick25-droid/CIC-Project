@@ -19,13 +19,13 @@ relations:
 - type: associated-with
   target: lpc.term.the-lapsed
 use_note:
-  means: "A confessor was one who was questioned for the Name, did not deny it, and lived, and in Cyprian's time that standing could rival a bishop's authority."
+  means: "In Cyprian's time a confessor, who kept faith when questioned and lived, could rival a bishop."
   not_for:
     - "a claim that a confessor was a priest who hears confessions"
     - "a claim that the word carries this sense in Augustine's phase"
     - "a claim that confessors speak for themselves beyond a few letters"
   years: {from: 246, to: 258}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

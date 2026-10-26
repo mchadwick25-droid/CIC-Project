@@ -35,13 +35,13 @@ relations:
 - type: associated-with
   target: lpc.term.the-people
 use_note:
-  means: "The flock is the particular people one bishop is given in one place, for whom he answers and who can hold him to it."
+  means: "The flock is the particular people given to one bishop in one place, for whom he answers and who can hold him to it."
   not_for:
     - "a claim that it is a sentimental name for churchgoers or the church in general"
     - "a claim that Augustine used the image as often as Cyprian"
     - "a claim that the bishop is a remote regional administrator"
   years: {from: 246, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

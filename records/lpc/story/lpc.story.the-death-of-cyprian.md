@@ -8,14 +8,14 @@ register: emic
 canon_cells:
 - F6-E
 use_note:
-  means: "Pontius's Life and the Acta both tell Cyprian's death on 14 September 258 and agree on its core, but differ on who tied the cloths over his eyes."
+  means: "Cyprian died on 14 September 258, and Pontius and the Acta agree on the core but differ on who tied the cloths."
   not_for:
     - "a claim that the executioner's hand was strengthened from above, which is only how Pontius tells it"
     - "a claim that the two texts agree on who tied the cloths"
     - "a claim that the Acta is a court transcript"
     - "a claim that any spectator's own account survives"
   years: {from: 258, to: 258}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: B
   verification_state: verified-direct

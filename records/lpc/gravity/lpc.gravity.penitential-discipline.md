@@ -8,13 +8,14 @@ register: etic
 canon_cells:
 - F4-I
 use_note:
-  means: "Taking back the failed instead of shutting them out sat near the center of the world's life, and this concern is documented in Cyprian's phase alone."
+  means: "Taking back the failed, not shutting them out, was central in Cyprian's time, and this concern is classified in his phase only."
   not_for:
     - "a claim that it spans both phases under this name"
     - "a claim that the rival routes of Novatianist rigor or Felicissimus laxity were the church's own"
     - "a claim that the process was private confession"
+    - "a claim that Augustine's church had no penitential discipline"
   years: {from: 246, to: 258}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority

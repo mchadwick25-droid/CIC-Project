@@ -8,13 +8,13 @@ register: emic
 canon_cells:
 - F1-T
 use_note:
-  means: "A heading in Cyprian's handbook of proof texts says we must boast in nothing since nothing is our own, with John and First Corinthians set below it."
+  means: "A heading in Cyprian's handbook of proof texts says we must boast in nothing, since nothing is our own."
   not_for:
     - "a claim that the words in inner quotation marks are Cyprian's own"
     - "a claim that it replies to Pelagius, whose controversy came long after Cyprian"
     - "a claim that Cyprian taught the full doctrine of grace that Augustine later argued"
   years: {from: 246, to: 258}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

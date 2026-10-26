@@ -8,13 +8,13 @@ register: emic
 canon_cells:
 - F1-T
 use_note:
-  means: "Augustine explains the petition 'Thy will be done in heaven and in earth' by saying that what is done by you, God himself does in you."
+  means: "Augustine explains the petition 'Thy will be done in heaven and in earth' by saying that what is done by you, God does in you."
   not_for:
     - "a claim that it teaches compulsion, when read without its lead-in on God's will done in everyone"
     - "a claim that it replies to the Pelagians"
     - "a claim that the opening question was an objection raised by a hearer"
   years: {from: 391, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

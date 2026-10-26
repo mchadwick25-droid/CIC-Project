@@ -8,13 +8,13 @@ register: emic
 canon_cells:
 - F2-I
 use_note:
-  means: "Augustine tells candidates for baptism to treat the Creed as a mirror, checking whether they believe all they declare, and as their daily wealth and clothing of the mind."
+  means: "Augustine tells candidates for baptism to treat the Creed as a mirror and as the daily wealth and clothing of the mind."
   not_for:
     - "a claim that the sermon is about the Creed itself rather than the Lord's Prayer"
     - "a claim about the words of the Creed or how often it is said"
     - "a claim that 'mind' and 'soul' are the same word in the Latin and the English"
   years: {from: 391, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

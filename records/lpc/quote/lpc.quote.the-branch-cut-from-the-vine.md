@@ -8,13 +8,13 @@ register: emic
 canon_cells:
 - F6-I
 use_note:
-  means: "Augustine says a branch cut from the vine keeps its visible form but not the life of the root, so the bodily sacraments outside the Church's unity have form without that life."
+  means: "Augustine says a branch cut from the vine keeps its form but not the root's life, as the sacraments do outside the Church's unity."
   not_for:
     - "a claim that the rite outside is void, since the washing is not repeated for those baptized among schismatics"
     - "a claim that Augustine used the word valid"
     - "a claim that the sermon shows a formal ordination or a dispute between bishops"
   years: {from: 391, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

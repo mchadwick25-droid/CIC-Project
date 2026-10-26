@@ -31,13 +31,13 @@ relations:
 - type: associated-with
   target: lpc.term.the-people
 use_note:
-  means: "Reconciliation was a public road, walked in stages and held by the bishop, by which a failed member returned to the community."
+  means: "Reconciliation was the public road, in steps under the bishop, by which a failed member came back."
   not_for:
     - "a claim that it was a private confession said alone"
     - "a claim that it was complete once both parties felt differently"
     - "a claim that the reconciled believer's own account survives"
   years: {from: 246, to: 258}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

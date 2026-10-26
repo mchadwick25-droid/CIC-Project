@@ -8,13 +8,13 @@ register: etic
 canon_cells:
 - F1-I
 use_note:
-  means: "Two competing theories of council authority are attested, Cyprian's egalitarian one and Augustine's appeal to plenary councils, but how far they organized the world is thinly evidenced."
+  means: "Cyprian and Augustine each had a theory of council power, but little shows it shaped much."
   not_for:
     - "a claim that conciliar authority was a major organizing concern"
     - "a claim that the two theories reconcile into one"
     - "a claim that the question reached ordinary believers"
   years: {from: 246, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

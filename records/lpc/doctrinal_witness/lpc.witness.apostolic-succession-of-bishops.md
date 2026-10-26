@@ -8,12 +8,12 @@ register: emic
 canon_cells:
 - F4-E
 use_note:
-  means: "Augustine traced the bishops' office to the apostles by naming the line of Roman bishops from Peter, while Cyprian stated the principle and the practice but gave no list."
+  means: "Augustine named Rome's bishops from Peter to show the line from the apostles, but Cyprian gave no list."
   not_for:
     - "a claim that Cyprian drew up a name list of his own"
     - "a claim that either bishop's account is all a modern listener means by apostolic succession"
   years: {from: 246, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

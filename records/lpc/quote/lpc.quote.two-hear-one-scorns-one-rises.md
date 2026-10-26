@@ -8,13 +8,13 @@ register: emic
 canon_cells:
 - F1-T
 use_note:
-  means: "Augustine marvels that when Christ crucified is preached two hear, one scorns and one rises, and the one who rises is not to claim it as his own."
+  means: "Augustine marvels that when Christ crucified is preached, two hear, one scorns and one rises, and the one who rises must not claim credit."
   not_for:
     - "a claim that it replies to the Pelagians"
     - "a claim that it explains why one hearer rises and the other scorns, such as a doctrine of election"
     - "a claim that 'rises' means the resurrection"
   years: {from: 391, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

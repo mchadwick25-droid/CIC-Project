@@ -8,13 +8,13 @@ register: emic
 canon_cells:
 - F6-I
 use_note:
-  means: "Lucian ends his letter from prison by greeting friends by name and excusing the names he left out because he is already weary."
+  means: "Lucian ends his prison letter by greeting friends by name and excusing those he left out because he is weary."
   not_for:
     - "a claim about the roles of Saturus, Bassianus or the others he greets"
     - "a claim about what became of Lucian or his companions after the letter"
     - "a claim that the letter is Cyprian's own"
   years: {from: 246, to: 258}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

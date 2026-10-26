@@ -23,25 +23,26 @@ relations:
 - type: associated-with
   target: lpc.quote.such-a-one-with-his-friends
 use_note:
-  means: "A certificate was a confessor's letter for a lapsed person, asking for or granting peace, which Cyprian wanted to name the person and come from someone who knew him."
+  means: "A certificate was a confessor's letter of peace for the lapsed, and Cyprian wanted a name on it."
   not_for:
     - "a claim that it is the same paper as the Decian sacrifice certificate"
     - "a claim that Cyprian opposed such letters outright"
     - "a claim that the confessors' side is heard beyond one general letter"
-    - "a claim that thousands were given, a wording that comes from an editor and not from Cyprian"
+    - "a claim that 'thousands' is a count rather than Cyprian's word in a dispute"
   years: {from: 246, to: 258}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct
   evidentiary_weight: corroborating
   formation_confidence: Documented
   divergence_note: 'The regulating voice is Cyprian''s throughout, as with every entry in this cluster;
-    the confessors'' own certificates survive only in one general letter of theirs to Cyprian (Epistle
-    XVI), which says ''we have granted peace'' to all whose conduct has been satisfactory ''in your estimation'';
-    the rest is Cyprian quoting, paraphrasing, and objecting to them (Author-Gravity-Risk: Yes). An editorial
-    endnote words one sentence as ''thousands of certificates were given, against the Gospel law''. Cyprian''s
-    own text reads ''were daily given, contrary to the law of the Gospel'', and this record uses his.'
+    the confessors'' own certificates survive only in one general letter of theirs to Cyprian (Epistle XVI),
+    which says ''we have granted peace'' to all whose conduct has been satisfactory ''in your estimation'';
+    the rest is Cyprian quoting, paraphrasing, and objecting to them (Author-Gravity-Risk: Yes). ''Thousands''
+    is Cyprian''s own word: Hartel''s Latin of Epistle XX.2 reads ''libellorum milia'', and the translation
+    reads ''thousands of certificates were daily given, contrary to the law of the Gospel''. This record
+    uses his wording.'
 sources:
 - source_id: lpc.source.cyprian-epistles
   locus: 'Cyprian''s own crisis correspondence, Epistle X -- ''designate by name in the certificate those

@@ -21,14 +21,14 @@ relations:
 - type: associated-with
   target: lpc.term.the-lapsed
 use_note:
-  means: "Grace is the insistence that no effort of ours is enough on its own, and that any good a person does was given first."
+  means: "In Augustine's teaching, grace means that no effort of ours is enough alone, and any good we do was given to us first."
   not_for:
     - "a claim that it means general benevolence or grace under pressure"
     - "a claim that Pelagius himself held the position Augustine reports"
     - "a claim that Cyprian taught it as an organizing concern"
     - "a claim that it settles the Catholic and Protestant disagreements over grace"
   years: {from: 391, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

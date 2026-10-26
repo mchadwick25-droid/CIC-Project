@@ -8,13 +8,13 @@ register: emic
 canon_cells:
 - F5-I
 use_note:
-  means: "Possidius says Augustine, who taught that even good Christians must repent before death, had penitential psalms copied and read them weeping in his last illness."
+  means: "Possidius says Augustine had psalms of penance copied and wept over them as he lay dying."
   not_for:
     - "a claim about which psalms they were"
     - "a claim that the deathbed was calm"
     - "a claim that a second witness confirms the sickroom"
   years: {from: 430, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

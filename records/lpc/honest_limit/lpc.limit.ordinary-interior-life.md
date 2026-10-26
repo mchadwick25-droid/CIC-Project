@@ -8,13 +8,13 @@ register: emic
 canon_cells:
 - F5-I
 use_note:
-  means: "The record gives what bishops decided about believers but almost never what an ordinary believer felt, apart from Augustine's weeping at his own baptism, written years afterward."
+  means: "The record tells what bishops did, but seldom what plain folk felt, apart from Augustine's tears."
   not_for:
     - "a claim that Augustine's account of his baptism shows ordinary believers' experience"
     - "a claim that an ordinary believer's own account survives"
     - "a claim about what believers felt at the font or in the congregation"
   years: {from: 246, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: B
   verification_state: verified-direct

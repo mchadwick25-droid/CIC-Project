@@ -8,13 +8,13 @@ register: emic
 canon_cells:
 - F2-I
 use_note:
-  means: "Augustine tells candidates for baptism that they received the Creed first, to know what to believe, and the Lord's Prayer after it, to know whom to call on."
+  means: "Augustine tells candidates for baptism that they learned the Creed first, to know what to believe, and then the Lord's Prayer."
   not_for:
     - "a claim that the sermon is about the Creed rather than the Lord's Prayer"
     - "a claim that it describes a formal ceremony of handing over the Creed"
     - "a claim that the passage names Paul, whose words the first sentence quotes"
   years: {from: 391, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

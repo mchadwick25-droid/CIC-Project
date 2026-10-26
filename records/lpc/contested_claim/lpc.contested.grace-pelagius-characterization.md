@@ -8,13 +8,13 @@ register: etic
 canon_cells:
 - F2-E
 use_note:
-  means: "Whether Augustine's anti-Pelagian works describe Pelagius's own position fairly stays open, since what this record has to go on is Augustine's report of that position."
+  means: "Whether Augustine was fair to Pelagius stays open, since we have only his side."
   not_for:
     - "a claim that Augustine's report is the position Pelagius held"
     - "a claim that later Reformation-era and modern uses of the controversy continue terms Augustine set correctly"
-    - "a claim that Pelagius's own words survive in this record"
+    - "a claim that Pelagius's own words survive among our sources"
   years: {from: 391, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

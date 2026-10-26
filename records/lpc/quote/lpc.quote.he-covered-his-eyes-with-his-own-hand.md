@@ -8,13 +8,13 @@ register: emic
 canon_cells:
 - F6-E
 use_note:
-  means: "The Acta says Cyprian covered his eyes with his own hand, and that two clergy both named Julianus tied the cloths for him."
+  means: "The Acta says Cyprian covered his own eyes, and two clergy both named Julianus tied the cloths for him."
   not_for:
     - "a claim that Pontius and the Acta agree on who tied the cloths"
     - "a claim that merges the two accounts or settles which is right"
     - "a claim that the Acta is a court transcript"
   years: {from: 258, to: 258}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

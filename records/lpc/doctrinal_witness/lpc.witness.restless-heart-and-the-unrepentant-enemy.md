@@ -8,13 +8,13 @@ register: emic
 canon_cells:
 - F4-P
 use_note:
-  means: "Augustine said the heart is restless because it was made for God, and elsewhere ranked loving an unrepentant enemy as the highest standard, with forgiving one who asks as an ordinary standard."
+  means: "Augustine said the heart is restless for God, and ranked love for an enemy who will not repent highest."
   not_for:
     - "a claim that he thought everyone reaches the highest standard in full"
     - "a claim that God forgives one who refuses from the heart to forgive someone who asks"
     - "a claim that the two passages come from one work"
   years: {from: 391, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

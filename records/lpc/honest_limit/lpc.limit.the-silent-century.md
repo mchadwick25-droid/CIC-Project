@@ -8,13 +8,14 @@ register: emic
 canon_cells:
 - F2-E
 use_note:
-  means: "Between Cyprian's death in 258 and Augustine's ordination in 391 the world's own pastoral voice is absent, so far as this build has weighed it, with nine tractatus in Morin's 1917 edition still unassessed."
+  means: "From 258 to 391 our own ordinary pastoral voice falls silent, as far as we have weighed it."
   not_for:
     - "a claim that nothing happened in those years"
-    - "a claim that the silence is settled, since the Morin tractatus are not yet assessed"
-    - "a claim that fills the silence from the Donatist world's sources"
+    - "a claim that the silence is settled, since a handful of old sermons have not been weighed yet"
+    - "a claim that fills the silence from a neighbouring communion's sources"
+    - "a claim that no Catholic African writing survives from these years, since Optatus wrote against the Donatists c. 366 to 384"
   years: {from: 258, to: 391}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: B
   verification_state: verified-direct

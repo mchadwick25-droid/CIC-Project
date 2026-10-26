@@ -19,13 +19,13 @@ relations:
 - type: associated-with
   target: lpc.witness.scripture-above-councils
 use_note:
-  means: "The term names Augustine's rule that narrower councils yield to wider ones while even the widest can later be corrected when experience reveals what was hidden."
+  means: "Augustine held that small councils yield to wider ones, and the widest can still be corrected."
   not_for:
     - "a claim that it is a plain claim of central institutional authority"
     - "a claim that it restates Cyprian's formula"
     - "a claim that the question reached ordinary formation in either phase"
   years: {from: 391, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

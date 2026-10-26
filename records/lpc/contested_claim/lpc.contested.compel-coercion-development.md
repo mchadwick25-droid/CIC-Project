@@ -8,14 +8,14 @@ register: etic
 canon_cells:
 - F3-P
 use_note:
-  means: "Whether Augustine's three-phase path on coercion was a real change of mind or a later self-presentation stays open, since his earlier opinion reaches us only through his own retrospective account."
+  means: "Whether Augustine truly changed his mind on force stays open, since we know his earlier view only from his own account."
   not_for:
-    - "a claim that the change of mind is established as genuine"
-    - "a claim that it is shown to be a later construction"
+    - "a claim that the change of mind is settled as either genuine or a later construction"
     - "a claim that Cyprian's corpus has anything corresponding to it"
     - "a claim that a contemporaneous statement of the earlier view survives"
+    - "a claim that this position is or is not the ancestor of later inquisitorial practice"
   years: {from: 391, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority

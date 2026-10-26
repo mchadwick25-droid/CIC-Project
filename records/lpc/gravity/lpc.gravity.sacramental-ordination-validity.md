@@ -8,13 +8,13 @@ register: etic
 canon_cells:
 - F6-I
 use_note:
-  means: "Cyprian and Augustine answered in opposite ways whether a baptism or ordination given outside the church is valid, and both argued it at length more than a century apart."
+  means: "The two bishops split on whether a baptism or ordination outside the church is real."
   not_for:
     - "a claim that the two answered alike"
     - "a claim that the disagreement broke communion"
-    - "a claim that the question is thin the way conciliar authority is"
+    - "a claim that the question is thinly evidenced"
   years: {from: 246, to: 430}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority

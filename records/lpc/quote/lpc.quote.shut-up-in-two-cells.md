@@ -8,13 +8,13 @@ register: emic
 canon_cells:
 - F3-I
 use_note:
-  means: "Lucian writes from prison that by the emperor's command the confessors were ordered to die of hunger and thirst, shut up in two cells."
+  means: "Lucian writes from prison that, by the emperor's command, the confessors were shut in two cells to die of hunger and thirst."
   not_for:
     - "a claim about what 'the brightness' is, such as a vision or a death"
     - "a claim that the Latin of the first sentence is clear"
     - "a claim that the letter is Cyprian's"
   years: {from: 246, to: 258}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct

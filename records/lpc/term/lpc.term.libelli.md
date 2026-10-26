@@ -17,13 +17,13 @@ relations:
 - type: associated-with
   target: lpc.term.the-lapsed
 use_note:
-  means: "A libellus was a paper saying a person had sacrificed, which some bought without sacrificing, and Cyprian counted its holders among the lapsed."
+  means: "A libellus was a paper saying you had sacrificed, though some bought one, and Cyprian called them lapsed."
   not_for:
     - "a claim that it was a modern identity document or licence"
     - "a claim that the Latin word appears in the English volume, which renders it certificates"
     - "a claim that Latin libellus names only this paper"
   years: {from: 246, to: 258}
-  status: reviewed
+  status: provisional
 confidence:
   citation_specificity: A
   verification_state: verified-direct
