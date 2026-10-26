@@ -7,3 +7,6 @@ Append-only. A merged entry's number never changes.
 3. 2026-10-24, landing page drawer: the drawer does not trap keyboard focus; Tab can reach the page behind it. Escape closes it and focus returns to the button.
 4. 2026-10-24, landing page drawer: the frame was tried only on localhost (site on one port, app on another). Try it on the live site and app domains after promotion.
 5. 2026-10-24, landing page drawer: `GoDeeperConfig.drawer` in `cic-website/assets/go-deeper-config.js` ships `false`. After the promotion that puts the panel-only app on `live`, set it to `true` in a small pull request, then check the drawer on the live domains (item 4).
+6. 2026-10-26, landing page drawer: `GoDeeperConfig.drawer` is now `true` (resolves item 5). Item 4, trying the drawer on the live domains, is done by the pull request that turned it on.
+7. 2026-10-26, Render: auto-deploy for cic-engine was left off by the manual rollback. Turning it back on is Mark's call in the dashboard (Settings, Deploy).
+8. 2026-10-26, the 404 that followed promotion 1131 (the accounts fixes, the LPC records and the ledger work, with this thread's panel) has no known cause. The pieces other than this thread's are still to be promoted one at a time.

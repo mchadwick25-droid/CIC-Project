@@ -405,9 +405,9 @@ def test_the_slide_out_hears_only_the_app_frame_at_the_app_origin():
     assert 'postMessage({ type: "cic:panel-open" }, appOrigin)' in js
 
 
-def test_the_landing_page_drawer_ships_off_until_the_app_that_draws_it_is_live():
+def test_the_landing_page_drawer_is_on_and_its_script_obeys_the_switch():
     config = (SITE / "assets" / "go-deeper-config.js").read_text()
-    assert re.search(r"\bdrawer:\s*false\b", config)
+    assert re.search(r"\bdrawer:\s*true\b", config)
     assert "cfg.drawer" in (SITE / "assets" / "more-conversations.js").read_text()
 
 
