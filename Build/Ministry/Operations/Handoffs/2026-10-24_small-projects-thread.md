@@ -18,6 +18,8 @@ From session: https://claude.ai/code/session_01LXQVhoN4b7gUG2KwMhR8CK · World o
 - The accounts fixes (PRs 1124, 1130), the LPC records (PRs 1128, 1136) and later `main` work are not on `live`. Promotion 1131 carried them with this thread's panel, and new conversations showed a 404 on that build; it was rolled back (PR 1137). The cause is not found.
 - Render's auto-deploy for cic-engine is off, left off by the manual rollback.
 
+- Card-back audio on flip: draft PR https://github.com/mchadwick25-droid/CIC-Project/pull/1150 starts the clip from the tap that turns the card (Mark confirmed it directly). No audio, word or voice changed, nothing generated. The clips match the card text as of 2026-10-24; they are redone after Mark's text edits, with a new named run, cap and sample approved by ear (Conversation-Chooser Later_List items 5 and 6; iOS Safari and screen readers untested).
+
 ## 2b. Seen on Mark's live screenshot, 2026-10-26 (not looked at, not fixed)
 
 - The top-bar "Get more conversations" button in the conversation shows a tight yellow box with the text touching its edges. It may be the keyboard focus outline.
