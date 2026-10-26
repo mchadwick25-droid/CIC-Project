@@ -860,7 +860,7 @@ Donatistam, from the same source file, are NOT part of this authorization
 
 ## 2026-10-26 — Passage access: design direction chosen (script the tagged volumes first)
 
-**Ruling.** Mark, 2026-10-26, from four options (A script the tagged volumes; B script plus a curated passage list; C whole-corpus pattern index; D defer): option A. Build a per-passage index by script from the XML volumes that carry scripture references, and keep it as a rebuildable derived file outside the live and canonical trees, like `cic/texts/INDEX.sqlite`. The plain-text files are not indexed in this step; B can follow if Mark names a passage list.
+**Ruling.** Mark, 2026-10-26, from four options (A script the tagged volumes; B script plus a curated passage list; C whole-corpus pattern index; D defer): option A. Build a per-passage index by script from the XML volumes that carry scripture references, and keep it as a rebuildable derived file outside the live and canonical trees, like the corpus search index, which is built on demand and not committed. The plain-text files are not indexed in this step; B can follow if Mark names a passage list.
 
 **Measured at decision time (this repo, 2026-10-26).** 38 XML volumes carrying 87,090 `scripRef` tags with a `passage` attribute and 1,025 `scripCom` tags (a homily tagged to the passage it treats). The `passage` values are not uniform ('Acts I. 1, 2', 'John xiv. 12', 'Matt. 24.14'), so a reference normaliser comes first (roman numerals, dots and commas, abbreviations, Vulgate psalm numbering). Romans 5:10-19 is cited in four volumes, and Chrysostom's Romans homilies (npnf111) alone account for 13 of those hits. The 1,466 plain-text files carry no tags, and counts cannot tell citing from treating.
 
