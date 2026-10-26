@@ -867,3 +867,21 @@ Donatistam, from the same source file, are NOT part of this authorization
 **Rule the index must keep.** A tagged homily is `treats`; any other reference is `cites`; the two are never merged, because a citation is not evidence that a work treats a passage.
 
 **Not started.** Mark chose a direction; he has not said to build it. Steps when he does: (1) the normaliser, with tests; (2) the index builder; (3) 20 passages checked by hand against the volumes. This is code under `cic/engine/`, so it falls in the same discipline as the rest of the engine.
+
+## 2026-10-26 — Passage access: additions so the index serves pastors (proposed, for Mark to confirm)
+
+**Request.** Mark, 2026-10-26, after choosing option A above: "add anything that will make it useful for pastors". Read as an addition to the passage index. These are proposals to the chosen design, not yet confirmed one by one.
+
+**Proposed additions.** A pastor preparing a sermon asks "who has preached or commented on this text, and can I read it?", so the index should answer in that shape:
+1. **Reach by lectionary reading as well as by verse.** A pastor starts from the Sunday's readings, not a chapter and verse. Needs the Revised Common Lectionary table (three-year cycle) and its licence checked before use; if it cannot be vendored, accept a plain passage list the pastor types in.
+2. **Whole pericopes, not single verses.** A search for Romans 5:12 also returns treatments of Romans 5:12-21, since homilies cover ranges. The normaliser must store ranges and match overlaps.
+3. **Treats before cites, always labelled.** Same rule as the design: a tagged homily is "treats", a mention is "cites".
+4. **Readable now.** Mark each hit with the language of the vendored file and whether an English reading exists. A Latin-only commentary is no use to most pastors; say so up front.
+5. **Who, when, which tradition.** Show author, century and the community each work belongs to, so a pastor can see the range of the church's reading and not only one voice.
+6. **Exact locus and a short extract with its citation line.** File, line and the heading of the homily, so the pastor can open it and check it. Extracts are copied verbatim from the file, never paraphrased.
+7. **Where voices differ.** For a passage where the sources disagree (Romans 5:12 on inherited guilt is the standing example), list the readings side by side, tagged with the project's confidence vocabulary and never settled by the index.
+8. **Pastoral care texts as a second entry route.** Many pastors come with a situation (grief, a divided congregation, a repentant sinner) rather than a verse. The worlds' question clusters already map situations to sources; the index can link them. This is the largest addition and stays out of the first build.
+
+**Held back deliberately.** The index will not summarise, rank "best" commentaries, or write sermon material; it points to sources, as the project's fidelity rule requires. Nothing here is built.
+
+**Status.** Items 2 to 7 fit the first build at small cost. Item 1 needs a licence check. Item 8 needs Mark's say-so.
