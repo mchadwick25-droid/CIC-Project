@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F2-T
+use_note:
+  means: "Cyprian said a custom with no truth is just old error, and Augustine put Scripture above all bishops and their meetings."
+  not_for:
+    - "a claim that Scripture was the church's only authority"
+    - "a claim that bishops and councils had no binding authority"
+    - "a claim that the two bishops argued the same dispute"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

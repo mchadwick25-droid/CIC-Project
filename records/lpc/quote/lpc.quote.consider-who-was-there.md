@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F6-I
+use_note:
+  means: "Augustine has a man tell a Donatist that the One he believed in was there, and is everywhere."
+  not_for:
+    - "a claim that the 'I' is Augustine baptizing or being baptized"
+    - "a claim that the Donatist's quoted words are Augustine's own position"
+    - "a claim that the sermons show a formal ordination or a dispute between bishops"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

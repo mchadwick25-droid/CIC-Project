@@ -7,6 +7,14 @@ status: draft
 register: etic
 canon_cells:
 - F1-I
+use_note:
+  means: "Cyprian and Augustine each had a theory of council power, but little shows it shaped much."
+  not_for:
+    - "a claim that conciliar authority was a major organizing concern"
+    - "a claim that the two theories reconcile into one"
+    - "a claim that the question reached ordinary believers"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

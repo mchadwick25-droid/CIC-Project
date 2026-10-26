@@ -14,6 +14,14 @@ relations:
   target: lpc.term.reconciliation-penitential-discipline
 - type: associated-with
   target: lpc.term.the-lapsed
+use_note:
+  means: "Cyprian split the lapsed into those who bought a paper and those who sacrificed, both fallen but not alike."
+  not_for:
+    - "a claim that it was a formal canonical taxonomy applied uniformly"
+    - "a claim that the two acts weighed the same"
+    - "a claim that the grading rests on an editor's endnote"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

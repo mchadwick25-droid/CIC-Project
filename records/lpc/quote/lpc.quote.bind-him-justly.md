@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F4-I
+use_note:
+  means: "Augustine says to bind a wrongdoing brother only justly, and to count him loosed once he is corrected."
+  not_for:
+    - "a claim that it describes formal public penance, excommunication or a bishop readmitting a penitent"
+    - "a claim that the passage stands without the Matthew 18 steps Augustine quotes just before it"
+    - "a claim that 'publican' means a keeper of a pub"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

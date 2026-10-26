@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F4-I
+use_note:
+  means: "Augustine says to correct with words, or blows if need be, yet forgive in the heart, as a surgeon cuts from kindness."
+  not_for:
+    - "a claim that the blows are a church penalty, when they belong to an illustration about unruly boys"
+    - "a claim that it describes formal public penance or excommunication"
+    - "a claim that the Latin asks for forgetting the fault"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

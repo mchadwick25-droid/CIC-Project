@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F5-P
+use_note:
+  means: "Cyprian says his church sent 100,000 sesterces to buy back captive believers."
+  not_for:
+    - "a claim about what the sum was worth in modern money"
+    - "a claim that the ransom freed anyone"
+    - "a claim about what share of the church's wealth the sum was"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

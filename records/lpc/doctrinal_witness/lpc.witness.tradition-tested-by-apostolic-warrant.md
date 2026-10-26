@@ -7,6 +7,15 @@ status: draft
 register: emic
 canon_cells:
 - F4-E
+use_note:
+  means: "Cyprian would call a rite the apostles' own only if it was written; Augustine would too if the whole Church kept it in all lands."
+  not_for:
+    - "a claim that the two bishops agreed on one test"
+    - "a claim that the tradition settled which test is truer"
+    - "a claim that the two bishops argued the same dispute"
+    - "a claim that Cyprian's test covered every custom, since he aimed it at the tradition Stephen claimed"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

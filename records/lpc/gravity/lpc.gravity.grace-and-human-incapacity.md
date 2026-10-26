@@ -7,6 +7,14 @@ status: draft
 register: etic
 canon_cells:
 - F1-T
+use_note:
+  means: "Grace and human weakness weigh heavily in Augustine's phase, but rest on one voice."
+  not_for:
+    - "a claim that it spans both phases"
+    - "a claim that the volume of text shows breadth"
+    - "a claim that Pelagius's own view is known"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

@@ -1,0 +1,1642 @@
+{
+ "cluster": "C4",
+ "title": "Salvation, grace, works, and 'am I saved'",
+ "generated": "2026-10-25",
+ "method": "coverage_search.py --regex --whole-words per sub-question (JSON runs S1-S8 in this folder); record front matter read by hand (fm-*.txt); 30 quote records re-verified against cic/texts (verify-fast-out.txt). Layers: RENDERED (a record in records/<code>/ answers; -quote/-witness/-limit says which kind), LOADED (vendored text mapped to the world via cic/corpus-map, no record), IDENTIFIED (named in the world's source registry or the cross-world queues, not vendored), OTHER (public-domain or open source outside the repo), NONE (nothing, honest_limit needed). 'confidence' is the mapper's confidence in the layer call, not formation_confidence.",
+ "layer_legend": {
+  "RENDERED-quote": "verbatim quote record(s) answer it",
+  "RENDERED-witness": "doctrinal_witness/term/gravity/story/demonstration answers it",
+  "RENDERED-limit": "an honest_limit already says the world cannot answer it",
+  "LOADED": "answer sits in vendored text mapped to the world",
+  "LOADED-thin": "only glancing vendored material",
+  "LOADED-context": "vendored but an outsider's voice",
+  "LOADED-hostile": "vendored only in opponents' texts",
+  "NONE": "nothing; honest_limit to build"
+ },
+ "sub_questions": [
+  {
+   "id": "S1",
+   "title": "Faith and works, grace, and 'what must I do to be saved'",
+   "questions": [
+    "C4-01",
+    "C4-11",
+    "C4-13",
+    "C4-14",
+    "C4-16",
+    "C4-20",
+    "C4-23",
+    "C4-24"
+   ],
+   "run": "S1-faith-works.json",
+   "note": "'Faith alone, not works' is a 16th-century framing; every pre-Reformation world answers beside it, not inside it."
+  },
+  {
+   "id": "S2",
+   "title": "Original sin, inherited guilt, and infants",
+   "questions": [
+    "C4-02"
+   ],
+   "run": "S2-original-sin.json",
+   "note": "Adjacent to C3-15/C3-16 (babies who die)."
+  },
+  {
+   "id": "S3",
+   "title": "Free will, predestination, election, Romans 9",
+   "questions": [
+    "C4-03",
+    "C4-09",
+    "C4-10",
+    "C4-17",
+    "C4-21"
+   ],
+   "run": "S3-freewill-predest.json"
+  },
+  {
+   "id": "S4",
+   "title": "Assurance, losing salvation, falling away and coming back",
+   "questions": [
+    "C4-07",
+    "C4-15",
+    "C4-19"
+   ],
+   "run": "S4-assurance.json",
+   "note": "'Assurance' as a felt certainty is a Reformation question; the patristic worlds answer with the lapsed and perseverance."
+  },
+  {
+   "id": "S5",
+   "title": "Baptism as the new birth, is it needed, and the once-only repentance",
+   "questions": [
+    "C4-04",
+    "C4-05",
+    "C4-06",
+    "C4-12",
+    "C4-26"
+   ],
+   "run": "S5-baptism-repentance.json",
+   "note": "In every pre-Reformation world 'born again' names baptism; the canon cell F4-T is answered here."
+  },
+  {
+   "id": "S6",
+   "title": "Those who never heard, and 'good without God'",
+   "questions": [
+    "C4-08",
+    "C4-22",
+    "R-05"
+   ],
+   "run": "S6-never-heard.json"
+  },
+  {
+   "id": "S7",
+   "title": "Indulgences, almsgiving, paying for sin",
+   "questions": [
+    "C4-18"
+   ],
+   "run": "S7-indulgences.json",
+   "note": "Indulgences exist only in witt and rzg; the patristic question is redemptive almsgiving."
+  },
+  {
+   "id": "S8",
+   "title": "The sin that cannot be forgiven",
+   "questions": [
+    "C4-25"
+   ],
+   "run": "S8-unforgivable.json"
+  }
+ ],
+ "worlds": {
+  "alx": {
+   "S1": {
+    "layer": "LOADED",
+    "records": [
+     "alx.term.pistis (adjacent: faith as the soul's first turn)",
+     "alx.term.homoiosis",
+     "alx.dw.original-sin (healing frame)"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml L56126 Clement, Who is the Rich Man that Shall be Saved? (the literal 'what must I do to be saved')",
+     "anf02 Stromateis II (faith; 'by faith' 47 hits)",
+     "anf04 Origen De Principiis III"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "No record on faith-versus-works. Needs an honest_limit that the framing is later, plus a quote record from Quis Dives."
+   },
+   "S2": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "alx.dw.original-sin [Widely Accepted]",
+     "alx.term.fall-descent [Contested]"
+    ],
+    "confidence": "medium-high",
+    "source_hits": [
+     "anf04 De Principiis (concupiscence 40, infants 20)"
+    ],
+    "identified": [],
+    "other": [
+     "Origen, Homilies on Leviticus 8.3 and Commentary on Romans 5.9 (infant baptism 'for the remission of sins'): Latin PG 12/14 (Migne, PD, archive.org); English Barkley FOTC 83 (1990) and Scheck FOTC 103-104 (2001-02) are in copyright"
+    ],
+    "verified": [],
+    "note": "Voice can say: real inherited wound and death, no guilt at birth; infant baptism received as custom, not theorised. Infants who die: nothing in records."
+   },
+   "S3": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "alx.term.autexousia [Widely Accepted]"
+    ],
+    "confidence": "medium-high",
+    "source_hits": [
+     "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml L27830 De Principiis III.1 On the Freedom of the Will; L28834 the potter and the clay (Rom 9)",
+     "cic/texts/origen_philocalia_lewis1911.txt L36 ch. XXI Free Will (and XXIII on fate and foreknowledge)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Romans 9 (C4-21) is answered at length in De Principiis III.1 and is vendored; no quote record yet. Predestination as a terror (C4-10) was not this world's question."
+   },
+   "S4": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "alx.term.lapsi",
+     "alx.dw.church-failure (restoration prevailed, even at the deathbed)",
+     "alx.story.john-young-robber (John rides out to restore the robber)"
+    ],
+    "confidence": "medium",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "'Assurance' needs an honest_limit; falling and coming back is well covered."
+   },
+   "S5": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "alx.term.baptism",
+     "alx.term.photismos",
+     "alx.term.lapsi",
+     "alx.dw.church-failure"
+    ],
+    "confidence": "medium-high",
+    "source_hits": [
+     "anf02 Quis Dives 39-42 (one repentance after baptism; the robber restored)",
+     "anf06 Dionysius on the lapsed (32 hits)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "No quote record on the once-only repentance; Quis Dives 39-40 would supply it."
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [
+     "alx.quote.clement-new-song (adjacent: proclamation, not the fate of the unevangelised)"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml L46951 Stromateis I.5 philosophy given to the Greeks as a covenant; Stromateis VI.6 the gospel preached in Hades to righteous Gentiles"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Alexandria has the most distinctive patristic answer to C4-08/C4-22 and none of it is rendered."
+   },
+   "S7": {
+    "layer": "LOADED-thin",
+    "records": [],
+    "confidence": "low",
+    "source_hits": [
+     "anf02 Quis Dives (almsgiving as the rich man's remedy)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Indulgences: honest_limit (anachronism)."
+   },
+   "S8": {
+    "layer": "LOADED-thin",
+    "records": [],
+    "confidence": "low",
+    "source_hits": [
+     "anf04 De Principiis I.3.7 (blasphemy against the Spirit)",
+     "cic/texts/athanasius_opera-omnia-pg26-grc-lat_migne1857.txt (Letters to Serapion IV.8-23 on the blasphemy, Greek/Latin only)"
+    ],
+    "identified": [],
+    "other": [
+     "Athanasius, Letters to Serapion: English Shapland (Epworth 1951) in copyright; no PD English"
+    ],
+    "verified": [],
+    "note": ""
+   }
+  },
+  "cappadocian": {
+   "S1": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "cappadocian.dw.not-later-formulas [Widely Accepted] (faith alone was not a category; salvation is theosis)",
+     "cappadocian.term.theosis",
+     "cappadocian.quote.gregory-nyssa-on-becoming-god"
+    ],
+    "confidence": "medium-high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Honest reframing already built."
+   },
+   "S2": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "cappadocian.dw.not-later-formulas (inherited guilt not a category)",
+     "cappadocian.dw.baptism-and-new-birth (infant practice cannot be settled)"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml L38494 Gregory Nazianzen Oration 40.23: infants dying unbaptised 'neither glorified nor punished'",
+     "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt L32849 Gregory of Nyssa, On Infants' Early Deaths (whole treatise)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "The two best patristic texts on babies who die (C3-15/16) are vendored and unrendered."
+   },
+   "S3": {
+    "layer": "LOADED",
+    "records": [
+     "cappadocian.dw.authority-and-spread (noise hit)"
+    ],
+    "confidence": "low-medium",
+    "source_hits": [
+     "cic/texts/origen_philocalia_lewis1911.txt (Basil and Gregory's own anthology: XXI Free Will, XXIII fate/foreknowledge)",
+     "npnf207 Gregory Nazianzen (free will 12)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "No record. The Philocalia is this circle's own compilation on free will; a term record would be cheap and sound."
+   },
+   "S4": {
+    "layer": "LOADED",
+    "records": [
+     "cappadocian.force.policy-oscillation (noise)"
+    ],
+    "confidence": "low",
+    "source_hits": [
+     "npnf208 Basil canonical letters (apostates and penance)",
+     "npnf214 canons"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Needs honest_limit on 'assurance'; canons answer falling and returning."
+   },
+   "S5": {
+    "layer": "RENDERED-quote",
+    "records": [
+     "cappadocian.quote.basil-against-delaying-baptism [Documented]",
+     "cappadocian.quote.basil-canon-to-amphilochius",
+     "cappadocian.quote.basil-canon-on-digamy",
+     "cappadocian.dw.baptism-and-new-birth",
+     "cappadocian.dw.becoming-one-of-us (graded penance, real path back)"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [
+     "cappadocian.quote.basil-against-delaying-baptism MATCH cic/texts/npnf208_basil-letters-select-works.xml L7018",
+     "cappadocian.quote.basil-canon-to-amphilochius MATCH npnf208 L36336"
+    ],
+    "note": "Delay of baptism until death (C4-12) is this world's own recorded pastoral fight."
+   },
+   "S6": {
+    "layer": "LOADED-thin",
+    "records": [],
+    "confidence": "low",
+    "source_hits": [
+     "npnf207 Oration 40 (baptism of the unevangelised not treated)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Honest_limit."
+   },
+   "S7": {
+    "layer": "RENDERED-witness-thin",
+    "records": [
+     "cappadocian.term.philoptochia",
+     "cappadocian.term.philanthropia"
+    ],
+    "confidence": "low-medium",
+    "source_hits": [
+     "npnf208 Basil homilies on wealth"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Almsgiving as love of the poor, not as payment; indulgences honest_limit."
+   },
+   "S8": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": "medium",
+    "source_hits": [
+     "cic/texts/npnf208_basil-letters-select-works.xml L12180 Basil, On the Holy Spirit (Matt 12:31 cited)",
+     "cic/texts/basil_ascetic-works-longer-shorter-rules_clarke1925.txt L3990 'no distinction between ordinary serious sins and those for which there is no forgiveness... Despair can never be justified'"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Basil's rule that no sin is beyond forgiveness is the pastoral answer; unrendered."
+   }
+  },
+  "desert": {
+   "S1": {
+    "layer": "RENDERED-quote",
+    "records": [
+     "desert.dw.grace-and-effort [Contested]",
+     "desert.quote.grace-and-free-will-in-harmony",
+     "desert.quote.the-main-share-is-not-our-works",
+     "desert.quote.he-puts-into-us-the-beginnings",
+     "desert.limit.original-sin-eucharist-faith (faith-alone framing not theirs)"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [
+     "desert.quote.grace-and-free-will-in-harmony MATCH cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml L38028",
+     "desert.quote.the-main-share-is-not-our-works MATCH npnf211 L38592",
+     "desert.quote.he-puts-into-us-the-beginnings MATCH npnf211 L38582"
+    ],
+    "note": "All Contested: Cassian's Latin written in Gaul. The records say so."
+   },
+   "S2": {
+    "layer": "RENDERED-limit",
+    "records": [
+     "desert.limit.original-sin-eucharist-faith [Documented]"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Honest absence already built."
+   },
+   "S3": {
+    "layer": "RENDERED-quote",
+    "records": [
+     "desert.quote.grace-and-free-will-in-harmony",
+     "desert.quote.he-puts-into-us-the-beginnings",
+     "desert.dw.grace-and-effort"
+    ],
+    "confidence": "medium-high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Predestination as such: not the desert's question; Conf. XIII.7 (God wills all saved) sits in gallic, not desert."
+   },
+   "S4": {
+    "layer": "RENDERED-witness-thin",
+    "records": [
+     "desert.quote.sin-and-grace-in-one-soul (dying with sin and grace both in the soul)",
+     "desert.dw.the-heart-and-the-spirit"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "cic/texts/macarius_fifty-spiritual-homilies_mason1921.txt ('assurance' 16, 'perseverance' 10)",
+     "npnf211 Conference XX (Pinufius, On the End of Penitence) L43946"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [
+     "desert.quote.sin-and-grace-in-one-soul MATCH macarius L7716-7722",
+     "desert.quote.in-real-experience-and-feeling MATCH macarius L2336-2341"
+    ],
+    "note": "The Macarian 'felt assurance' current (Messalian-flagged) is the nearest thing to C4-19 anywhere in the patristic worlds."
+   },
+   "S5": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "desert.dw.born-again [Contested] (Philoromus 'initiated and born again')"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "npnf211 L43946 Conference XX On the End of Penitence and the Marks of Satisfaction"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Conference XX answers C4-26 (the same sin again) and is unrendered."
+   },
+   "S6": {
+    "layer": "RENDERED-limit",
+    "records": [
+     "desert.limit.outsiders-condemned [Documented]",
+     "desert.dw.only-true-religion [Contested]"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": ""
+   },
+   "S7": {
+    "layer": "LOADED-thin",
+    "records": [],
+    "confidence": "low",
+    "source_hits": [
+     "cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt (alms 20)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Honest_limit on indulgences."
+   },
+   "S8": {
+    "layer": "LOADED-thin",
+    "records": [
+     "desert.quote.the-eight-generic-thoughts (adjacent)"
+    ],
+    "confidence": "low",
+    "source_hits": [
+     "npnf211 Conference V (deadly sins) L30626"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": ""
+   }
+  },
+  "don": {
+   "S1": {
+    "layer": "RENDERED-limit",
+    "records": [
+     "don.limit.questions-we-never-argued [Widely Accepted]"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "'We wrote none on faith set against works.' Already built."
+   },
+   "S2": {
+    "layer": "RENDERED-limit",
+    "records": [
+     "don.limit.questions-we-never-argued",
+     "don.dw.washed-for-the-first-time (infants: cannot say; the dying catechumen)"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": ""
+   },
+   "S3": {
+    "layer": "NONE",
+    "records": [],
+    "confidence": "high",
+    "source_hits": [
+     "npnf104 and npnf102 Augustine (hostile, not this voice)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Needs an honest_limit; the limit record names three questions never argued and could name this fourth."
+   },
+   "S4": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "don.force.cyprianic-rigorist-inheritance",
+     "don.term.purity-ministerial",
+     "don.gravity.purity-rigor-vs-institutional-reception"
+    ],
+    "confidence": "medium",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "The traditor question is the whole schism; 'can a fallen Christian be restored' is answered by the Maximianist reception."
+   },
+   "S5": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "don.dw.washed-for-the-first-time",
+     "don.demo.born-again (F4-T)",
+     "don.term.rebaptism",
+     "don.dw.becoming-one-of-us"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": ""
+   },
+   "S6": {
+    "layer": "NONE",
+    "records": [],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "honest_limit."
+   },
+   "S7": {
+    "layer": "NONE",
+    "records": [],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "honest_limit (Lucilla's money is the only money story)."
+   },
+   "S8": {
+    "layer": "LOADED-hostile",
+    "records": [],
+    "confidence": "low",
+    "source_hits": [
+     "cic/texts/optatus_against-the-donatists.txt L3589 Optatus: rebaptising the baptised is 'to sin against the Holy Ghost'",
+     "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml L17094 Augustine answering Petilian on Matt 12:31"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Only the opponents use the phrase, and they use it against the Donatist rite."
+   }
+  },
+  "gallic": {
+   "S1": {
+    "layer": "RENDERED-quote",
+    "records": [
+     "gallic.demo.faith-alone (F1-T)",
+     "gallic.term.grace [Contested]",
+     "gallic.term.free-will",
+     "gallic.term.merit",
+     "gallic.term.co-operation",
+     "gallic.gravity.grace-and-effort",
+     "gallic.quote.perfection-not-gained-without-grace",
+     "gallic.quote.not-i-but-the-grace-of-god-with-me",
+     "gallic.quote.institutes-closing-sentence-on-grace",
+     "gallic.quote.chaeremon-grace-requires-our-effort",
+     "gallic.quote.germanus-and-chaeremon-on-the-husbandman",
+     "gallic.quote.profane-notion-attribute-everything-to-free-will",
+     "gallic.contested.beginning-of-good-will",
+     "gallic.contested.massilian-label"
+    ],
+    "confidence": "high",
+    "source_hits": [
+     "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt (Latin only; CSEL 21)",
+     "cic/texts/salvian_on-the-government-of-god_sanford1930.txt L331 'the necessity of faith and good works'"
+    ],
+    "identified": [
+     "gallic.source.prosper-contra-collatorem (unvendored)",
+     "gallic.source.prosper-pro-augustino-responsiones",
+     "gallic.source.prosper-carmen-de-ingratis",
+     "gallic.source.augustine-letters-221-226-absence (Prosper and Hilary to Augustine, omitted by NPNF)",
+     "gallic.source.noris-historia-pelagiana (WANTS-REGISTER row)"
+    ],
+    "other": [
+     "Prosper, Contra Collatorem: Latin PL 51 (Migne 1861, PD, archive.org); English de Letter ACW 32 (1963) in copyright",
+     "Augustine Epp. 225-226 (Prosper, Hilary): Latin CSEL 57 (Goldbacher 1911, PD); English FOTC 32 (1956) in copyright",
+     "Faustus, De gratia: no English translation in the public domain"
+    ],
+    "verified": [
+     "gallic.quote.perfection-not-gained-without-grace MATCH npnf211 L25167",
+     "gallic.quote.not-i-but-the-grace-of-god-with-me MATCH npnf211 L25039-25041 (whole-string miss was a line-wrap)",
+     "gallic.quote.institutes-closing-sentence-on-grace MATCH npnf211 L25855",
+     "gallic.quote.chaeremon-grace-requires-our-effort MATCH npnf211 L38200",
+     "gallic.quote.germanus-and-chaeremon-on-the-husbandman MATCH npnf211 L37518-37581",
+     "gallic.quote.profane-notion-attribute-everything-to-free-will MATCH npnf211 L38459",
+     "gallic.quote.chaeremon-three-stages-of-grace MATCH npnf211 L38602 (15/15 clauses; whole-string miss caused by an inline <note>)",
+     "gallic.quote.gennadius-grace-invites-precedes-and-helps MATCH npnf203 L43697-43699 (a <pb> tag splits 'pre|cedes')"
+    ],
+    "note": "The richest C4 world. Both one-sided readings refused in the records themselves."
+   },
+   "S2": {
+    "layer": "LOADED-context",
+    "records": [
+     "gallic.term.catechumen",
+     "gallic.story.raising-of-the-catechumen"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "cic/texts/npnf105_augustine-anti-pelagian-writings.xml (infants 567, original sin 323: Augustine's side, mapped as context)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "The brethren never argued infants or inherited guilt; an honest_limit is the right build, pointing to Augustine as the outside voice the record carries."
+   },
+   "S3": {
+    "layer": "RENDERED-quote",
+    "records": [
+     "gallic.term.predestination [Contested] ('an outsider's word')",
+     "gallic.term.beginning-of-a-good-will",
+     "gallic.term.perseverance",
+     "gallic.quote.grievous-blasphemy-not-all-men-to-be-saved",
+     "gallic.quote.chaeremon-three-stages-of-grace",
+     "gallic.quote.augustine-in-darkness-on-predestination",
+     "gallic.quote.gennadius-grace-invites-precedes-and-helps",
+     "gallic.quote.massilians-clung-to-their-views"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [
+     "Council of Orange (529), the canons that closed the argument after this window: English in Hefele, History of the Councils vol. 4 (T&T Clark 1895, PD, archive.org); for Facilitator context only, it is outside the world"
+    ],
+    "verified": [
+     "gallic.quote.grievous-blasphemy-not-all-men-to-be-saved MATCH npnf211 L37756",
+     "gallic.quote.without-grievous-blasphemy-all-men-to-be-saved MATCH npnf211 L37756 (duplicate of the previous record, same sentence)",
+     "gallic.quote.augustine-in-darkness-on-predestination MATCH npnf105 L20836"
+    ],
+    "note": "C4-17 (Augustine vs Pelagius) is answered in the world's own terms; C4-10's dread was never theirs."
+   },
+   "S4": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "gallic.term.perseverance ('a gift that can still be lost by giving up')",
+     "gallic.term.lukewarmness",
+     "gallic.demo.want-to-leave"
+    ],
+    "confidence": "medium-high",
+    "source_hits": [
+     "npnf105 On the Gift of Perseverance (the other side)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Eternal security explicitly in not_for; good."
+   },
+   "S5": {
+    "layer": "RENDERED-quote",
+    "records": [
+     "gallic.term.penance-satisfaction",
+     "gallic.quote.paphnutius-asks-for-a-plan-of-repentance",
+     "gallic.story.the-three-lentil-beans",
+     "gallic.term.catechumen",
+     "gallic.quote.martin-raises-the-catechumen"
+    ],
+    "confidence": "high",
+    "source_hits": [
+     "npnf211 L43946 Conference XX On the End of Penitence"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [
+     "gallic.quote.paphnutius-asks-for-a-plan-of-repentance MATCH npnf211 L43043 (12/12 clauses)"
+    ],
+    "note": "C4-26 (same sin again): Conference XX unrendered."
+   },
+   "S6": {
+    "layer": "LOADED-thin",
+    "records": [
+     "gallic.term.beginning-of-a-good-will (adjacent)"
+    ],
+    "confidence": "low",
+    "source_hits": [
+     "npnf211 'natural law' 4, 'law written in their hearts' 1 (Conf. VIII and XIII)",
+     "salvian L9705"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "honest_limit."
+   },
+   "S7": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "gallic.term.penance-satisfaction ('satisfaction as a scholastic category' in not_for)",
+     "gallic.story.the-three-lentil-beans"
+    ],
+    "confidence": "medium",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Indulgences: honest_limit."
+   },
+   "S8": {
+    "layer": "LOADED-thin",
+    "records": [
+     "gallic.term.eight-principal-faults (adjacent)"
+    ],
+    "confidence": "low",
+    "source_hits": [
+     "npnf211 L30626 Conference V deadly sins"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": ""
+   }
+  },
+  "hal": {
+   "S1": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "hal.dw.sin-grace [Documented] ('grace and works held together')"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "cic/texts/npnf206_jerome-principal-works.xml L42432 Dialogue against the Pelagians I-III; L27640 Letter 133 to Ctesiphon"
+    ],
+    "identified": [],
+    "other": [
+     "Pelagius, Letter to Demetrias: Latin vendored as cic/texts/pelagius_epistula-ad-demetriadem-lat_migne.txt but mapped only to the unbuilt 'pelagianism' world; English Rees, Pelagius: Life and Letters (Boydell 1991) in copyright",
+     "Pelagius, Commentary on Romans: Latin Souter, Texts and Studies IX (Cambridge 1922-31, PD in the US by date, archive.org); English de Bruyn (OUP 1993) in copyright"
+    ],
+    "verified": [],
+    "note": "No quote record from Against the Pelagians, which is vendored in full."
+   },
+   "S2": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "hal.dw.sin-grace (baptism washes inherited sin; children brought toward it)",
+     "hal.quote.let-her-be-brought-up-in-a-monastery (Ep. 107, adjacent)"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "npnf206 (original sin 5, infant 37)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Inherited guilt 'still being worked out' is stated as unfinished: honest."
+   },
+   "S3": {
+    "layer": "RENDERED-witness-thin",
+    "records": [
+     "hal.term.pelagianism (the 416 attack)"
+    ],
+    "confidence": "low-medium",
+    "source_hits": [
+     "npnf206 Against the Pelagians ('free will' 50, 'free choice' 16)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Predestination: not Jerome's argument; honest_limit."
+   },
+   "S4": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "hal.dw.believe (Jerome's relapse into Cicero; Fabiola restored)",
+     "hal.demo.born-again (relapse pressed)"
+    ],
+    "confidence": "medium-high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Falling and returning covered; assurance as certainty: honest_limit."
+   },
+   "S5": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "hal.dw.practices ('people rise from the font born again')",
+     "hal.demo.born-again (F4-T)",
+     "hal.quote.she-put-on-sackcloth (Fabiola's public penance, Ep. 77)"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "C4-06 (one chance): Fabiola's public penance after remarriage is the lived answer."
+   },
+   "S6": {
+    "layer": "LOADED-thin",
+    "records": [],
+    "confidence": "low",
+    "source_hits": [
+     "npnf206 ('before Christ' 4)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "honest_limit."
+   },
+   "S7": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": "low-medium",
+    "source_hits": [
+     "npnf206 (alms 33; Ep. 108, 77 on Fabiola's hospital)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Giving total, not tithed (hal.dw.practices); indulgences honest_limit."
+   },
+   "S8": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": "medium",
+    "source_hits": [
+     "cic/texts/npnf206_jerome-principal-works.xml L8389 Letter 42 to Marcella: what 'the sin against the Holy Ghost' is, against Novatian"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "A whole vendored letter answers C4-25 and nothing is rendered."
+   }
+  },
+  "ijc": {
+   "S1": {
+    "layer": "RENDERED-limit",
+    "records": [
+     "ijc.limit.later-questions [Documented]"
+    ],
+    "confidence": "high",
+    "source_hits": [
+     "npnf210 Ambrose ('justification' editorial L834)",
+     "cic/texts/npnf111_chrysostom-homilies-acts-romans.xml (justified 80; mapped as context, Antioch not this voice)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Already an honest refusal of the framing."
+   },
+   "S2": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "ijc.dw.original-sin-transmitted [Documented] (Leo, Ep. 59.4)",
+     "ijc.dw.baptism-threshold"
+    ],
+    "confidence": "medium-high",
+    "source_hits": [
+     "npnf214 Carthage 418 canons on infants (L4531 area)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "The one world whose vocabulary is 'transmission of original sin'; infants not treated."
+   },
+   "S3": {
+    "layer": "NONE",
+    "records": [],
+    "confidence": "high",
+    "source_hits": [
+     "npnf102, npnf104, npnf212 (election = episcopal elections)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "SOURCE_ONLY in the run and all hits are about electing bishops. Needs honest_limit."
+   },
+   "S4": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": "medium",
+    "source_hits": [
+     "cic/texts/npnf214_seven-ecumenical-councils.xml Nicaea canons 11-14 (the lapsed, penance, viaticum for the dying)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "The conciliar discipline of the lapsed is this world's own genre and is unrendered."
+   },
+   "S5": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "ijc.dw.baptism-threshold (Constantine's deathbed baptism)",
+     "ijc.story.emperor-penance",
+     "ijc.quote.the-rudiments-of-the-creed"
+    ],
+    "confidence": "medium-high",
+    "source_hits": [
+     "cic/texts/npnf210_ambrose-select-works-letters.xml L33355 Ambrose, Two Books Concerning Repentance (against the Novatians: there is repentance after baptism)",
+     "npnf214 Nicaea canon 13 (viaticum)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "C4-06 is answered head-on by Ambrose's De paenitentia, vendored, unrendered."
+   },
+   "S6": {
+    "layer": "NONE",
+    "records": [
+     "ijc.dw.room-for-hesitation (noise)"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "honest_limit."
+   },
+   "S7": {
+    "layer": "RENDERED-witness-thin",
+    "records": [
+     "ijc.dw.collections-discipline (Leo: giving as duty)"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "cic/texts/npnf212_leo-great-gregory-great.xml L13503 Leo, Sermons on the Collections; L967 editor on fasting and almsgiving"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Indulgences honest_limit."
+   },
+   "S8": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": "medium",
+    "source_hits": [
+     "cic/texts/npnf210_ambrose-select-works-letters.xml L10428 Ambrose, On the Holy Spirit (the sin against the Spirit never forgiven); L34155 Concerning Repentance II.10 on 'sin unto death'"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": ""
+   }
+  },
+  "lpc": {
+   "S1": {
+    "layer": "RENDERED-quote",
+    "records": [
+     "lpc.term.grace [Documented]",
+     "lpc.gravity.grace-and-human-incapacity",
+     "lpc.quote.no-one-has-the-love-of-god-from-himself",
+     "lpc.quote.what-is-done-by-you-he-does-in-you",
+     "lpc.quote.good-works-the-comfort-of-our-dangers",
+     "lpc.contested.grace-pelagius-characterization"
+    ],
+    "confidence": "high",
+    "source_hits": [
+     "cic/texts/augustine_de-fide-et-operibus-lat_zycha1900-csel41-tei.txt (On Faith and Works: James 2 'faith without works' head-on, Latin only)",
+     "npnf105 (merits 305, justified 188)"
+    ],
+    "identified": [
+     "DOWNLOAD-QUEUE: Augustine Opera t. VI Migne (De fide et operibus, Enchiridion) held",
+     "DOWNLOAD-QUEUE L51: CSEL 42 anti-Pelagian Latin, held"
+    ],
+    "other": [
+     "Augustine, De fide et operibus in English: Lombardo ACW 48 (1988) in copyright; no PD English"
+    ],
+    "verified": [
+     "lpc.quote.no-one-has-the-love-of-god-from-himself MATCH cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml L19486",
+     "lpc.quote.what-is-done-by-you-he-does-in-you MATCH npnf106 L10700",
+     "lpc.quote.good-works-the-comfort-of-our-dangers MATCH npnf106 L16873"
+    ],
+    "note": "C4-20 (James) has a dedicated Augustine treatise vendored in Latin only."
+   },
+   "S2": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "lpc.witness.baptism-traced-to-the-apostles (infant baptism 'handed down from the apostles')",
+     "lpc.gravity.grace-and-human-incapacity"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "npnf105 On the Merits and Forgiveness of Sins and on Infant Baptism (L541)",
+     "npnf101 Confessions I (infant sin)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "No record states inherited guilt itself in Augustine's words; the fullest text in the whole Library is vendored here."
+   },
+   "S3": {
+    "layer": "RENDERED-quote",
+    "records": [
+     "lpc.quote.two-hear-one-scorns-one-rises ('No man cometh unto Me, except it were given')",
+     "lpc.term.grace (retrieve_when: free will, predestination)"
+    ],
+    "confidence": "medium-high",
+    "source_hits": [
+     "npnf105 On Grace and Free Will; On the Predestination of the Saints (L644-662)",
+     "npnf107 Tractates on John (predestinated 22)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [
+     "lpc.quote.two-hear-one-scorns-one-rises MATCH npnf106 L19899"
+    ],
+    "note": "Romans 9 and C4-10's dread: Augustine's own late answers are vendored; one sermon quote rendered."
+   },
+   "S4": {
+    "layer": "LOADED",
+    "records": [
+     "lpc.term.the-lapsed (retrieve_when: apostasy, backsliding)"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "cic/texts/npnf105_augustine-anti-pelagian-writings.xml L20590 On Rebuke and Grace ch. 40: 'No One is Certain and Secure of His Own Predestination and Salvation'"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "The sharpest patristic answer to C4-19 (no, you cannot know) is vendored and unrendered."
+   },
+   "S5": {
+    "layer": "RENDERED-quote",
+    "records": [
+     "lpc.gravity.penitential-discipline",
+     "lpc.term.reconciliation-penitential-discipline",
+     "lpc.demo.road-back-examined",
+     "lpc.quote.peter-the-sick-man-and-the-physician",
+     "lpc.quote.bind-him-justly",
+     "lpc.quote.reprove-and-forgive-the-surgeons-knife",
+     "lpc.limit.the-lapsed-own-account"
+    ],
+    "confidence": "high",
+    "source_hits": [
+     "anf05 Cyprian De lapsis; Epistles"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [
+     "lpc.quote.peter-the-sick-man-and-the-physician MATCH npnf106 L20614",
+     "lpc.quote.bind-him-justly MATCH npnf106 L14225",
+     "lpc.quote.reprove-and-forgive-the-surgeons-knife MATCH npnf106 L14444"
+    ],
+    "note": "C4-05/06 (used up their chance): the lapsed crisis is the fullest answer in the fleet."
+   },
+   "S6": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": "medium",
+    "source_hits": [
+     "cic/texts/npnf101_augustine-confessions-letters.xml L40634-41708 Letter 102 to Deogratias, question 2: why Christ came so late and what of those before him (L41687)",
+     "npnf102 City of God XVIII.47 (the righteous outside Israel)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Unrendered."
+   },
+   "S7": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "lpc.witness.almsgiving-quenches-sin [Documented] (Cyprian, On Works and Alms)"
+    ],
+    "confidence": "high",
+    "source_hits": [
+     "cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml Enchiridion 69-70 (alms do not buy licence to sin)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Indulgences themselves: honest_limit; redemptive almsgiving is rendered."
+   },
+   "S8": {
+    "layer": "RENDERED-quote-misindexed",
+    "records": [
+     "lpc.quote.pardon-through-a-wicked-clergyman (Sermon 71 on Matt 12:32, indexed only for the wicked-minister question)"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml L12412 Sermon on Matt 12:32 (whole sermon)",
+     "cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml L22747 Enchiridion 83: despising God's mercy is the sin against the Holy Ghost"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [
+     "lpc.quote.pardon-through-a-wicked-clergyman MATCH npnf106 L13008-13009"
+    ],
+    "note": "Add a retrieve_when for the unforgivable-sin question, or a second quote from the same sermon."
+   }
+  },
+  "pahc": {
+   "S1": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": "medium",
+    "source_hits": [
+     "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml 1 Clement 32-34 (justified by faith, yet zealous for good works)",
+     "anf02 Hermas Mandates",
+     "anf07 Didache 1-6 (the Two Ways)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "No record. 1 Clement 32-33 is the earliest text that holds both halves in one breath; cheap to render."
+   },
+   "S2": {
+    "layer": "NONE",
+    "records": [
+     "pahc.term.baptisma (adjacent)"
+    ],
+    "confidence": "high",
+    "source_hits": [
+     "anf03 Tertullian On Baptism 18 (delay for children) is in the mapped volume but outside the window's own voice"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Silence is the finding: honest_limit."
+   },
+   "S3": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": "medium",
+    "source_hits": [
+     "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml L17001 Justin, 1 Apology 43 (free will against fate); Dialogue 141 (L25255)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Unrendered; a quote record would carry C4-09."
+   },
+   "S4": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "pahc.witness.doubt-and-asking (Hermas, Mandate 9)",
+     "pahc.story.hermas-visions"
+    ],
+    "confidence": "medium",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Assurance as certainty: honest_limit."
+   },
+   "S5": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "pahc.story.hermas-visions [Widely Accepted] ('one more chance to repent after baptism')",
+     "pahc.term.baptisma",
+     "pahc.quote.in-living-water"
+    ],
+    "confidence": "medium-high",
+    "source_hits": [
+     "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml L1933 Hermas Mandate 4.3 'there is but one repentance to the servants of God'",
+     "cic/texts/anf03_tertullian.xml L55926 Tertullian, On Repentance 7-9 (the one second repentance)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "The STARTER question (C4-06) is this world's own; the Hermas sentence is vendored and not yet a quote record."
+   },
+   "S6": {
+    "layer": "RENDERED-quote",
+    "records": [
+     "pahc.quote.justin-reasonable-livers",
+     "pahc.quote.those-who-lived-reasonably-are-christians (duplicate of the previous)",
+     "pahc.witness.outside-our-community [Contested] (Justin vs the Two Ways)"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [
+     "pahc.quote.justin-reasonable-livers MATCH cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml L15686 (4/4 clauses; an inline <note> broke the whole-string match)"
+    ],
+    "note": "Two quote records carry the same sentence."
+   },
+   "S7": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": "medium",
+    "source_hits": [
+     "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml L2938 Hermas Similitude 2 (elm and vine)",
+     "anf07 2 Clement 16.4 (almsgiving lightens sin)",
+     "anf07 Didache 4.6 (ransom for your sins)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Indulgences honest_limit; redemptive almsgiving unrendered."
+   },
+   "S8": {
+    "layer": "RENDERED-witness-thin",
+    "records": [
+     "pahc.witness.doubt-and-asking (doubt not unforgivable)"
+    ],
+    "confidence": "low-medium",
+    "source_hits": [
+     "anf03 Tertullian On Modesty is in anf04 (not mapped to pahc); Latin De pudicitia in tertullian_quae-supersunt-t2"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": ""
+   }
+  },
+  "rzg": {
+   "S1": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": "high",
+    "source_hits": [
+     "cic/texts/calvin_institutes-christian-religion-vol2_beveridge1845.txt L13893 Institutes III.11 Of Justification by Faith (justification 168 hits)",
+     "cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt Second Helvetic XV-XVI; Heidelberg 60-64",
+     "cic/texts/calvin_geneva-catechism_waterman1815.txt"
+    ],
+    "identified": [
+     "Bullinger, Decades (unvendored; not in registry)"
+    ],
+    "other": [
+     "Bullinger, The Decades, Parker Society, 4 vols (1849-52), PD, archive.org: Decade I sermons 4-6 (faith, justification, good works)"
+    ],
+    "verified": [],
+    "note": "BIGGEST HOLE: the Reformed world has no record on justification by faith at all, with Institutes III.11 vendored."
+   },
+   "S2": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "rzg.witness.why-the-children-too (infant baptism against the Anabaptists)",
+     "rzg.contested.anabaptist-schism-legitimacy"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt II.1 original sin",
+     "cic/texts/calvin_institutes-christian-religion-vol3_beveridge1845.txt L15665 IV.16 Paedobaptism"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Inherited guilt itself (C4-02) has no record; the infant-baptism half does."
+   },
+   "S3": {
+    "layer": "RENDERED-quote",
+    "records": [
+     "rzg.gravity.sovereignty-of-god-predestination-election",
+     "rzg.term.predestination-election",
+     "rzg.term.providence",
+     "rzg.quote.christ-the-mirror-of-election",
+     "rzg.demo.predestination-and-dread (SITE question C4-03)",
+     "rzg.force.bolsec-controversy"
+    ],
+    "confidence": "high",
+    "source_hits": [
+     "calvin vol2 L24247 III.21-24",
+     "cic/texts/calvin_opera-omnia-vol8-lat-fra_baum-cunitz1870.txt L170 De aeterna Dei praedestinatione (1552) and the Congregation sur l'election eternelle (1551), Latin/French",
+     "calvin_letters-vol2 (Bolsec)"
+    ],
+    "identified": [
+     "rzg.source.beza-works (Tabula praedestinationis) unvendored"
+    ],
+    "other": [
+     "Calvin, Concerning the Eternal Predestination of God (1552): English Henry Cole, Calvin's Calvinism (1856), PD, archive.org",
+     "Zwingli, Sermon on the Providence of God (1530) and Exposition of the Faith (1531): English in Latin Works of Huldreich Zwingli vol. 2 (Jackson/Hinke 1922), PD, archive.org; vol. 2 is not vendored"
+    ],
+    "verified": [
+     "rzg.quote.christ-the-mirror-of-election MATCH cic/texts/schaff_second-helvetic-confession-heidelberg-catechism_1919.txt L667, L684"
+    ],
+    "note": "Romans 9: Zwingli's 1527 'On Election' section works through Romans 8-9 (zwingli_selected-works)."
+   },
+   "S4": {
+    "layer": "RENDERED-limit",
+    "records": [
+     "rzg.limit.doubt-and-assurance [Documented] (doctrine of comfort given, feeling not)",
+     "rzg.witness.a-quieted-mind"
+    ],
+    "confidence": "high",
+    "source_hits": [
+     "calvin vol2 L4385 III.2 Of Faith (certainty); III.24 perseverance"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "C4-07/C4-19 answered as doctrine, with an honest limit on experience."
+   },
+   "S5": {
+    "layer": "LOADED",
+    "records": [
+     "rzg.limit.consistory-case-narrative (readmission to repentance)",
+     "rzg.term.excommunication"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "calvin vol2 L4069 III.3-4 repentance and 'Popish repentance'; vol3 IV.15-16 baptism"
+    ],
+    "identified": [
+     "rzg.source.geneva-consistory-registers (unvendored, copyrighted edition)"
+    ],
+    "other": [],
+    "verified": [],
+    "note": "'Born again' (F4-T) has no rzg record: the one Reformation world where regeneration is a distinct doctrine."
+   },
+   "S6": {
+    "layer": "LOADED-thin",
+    "records": [],
+    "confidence": "low",
+    "source_hits": [
+     "cic/texts/zwingli_selected-works_jackson1901.txt L1033 ('before Christ even')"
+    ],
+    "identified": [],
+    "other": [
+     "Zwingli, Exposition of the Faith (1531), the list of saved pagans (Hercules, Socrates, the Catos): English Latin Works vol. 2 (1922), PD, archive.org"
+    ],
+    "verified": [],
+    "note": "Zwingli's famous answer to C4-22 is not vendored."
+   },
+   "S7": {
+    "layer": "LOADED",
+    "records": [
+     "rzg.quote.mass-not-a-sacrifice",
+     "rzg.witness.triple-refusal (adjacent)"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "calvin vol2 L11000 III.5 Indulgences and Purgatory",
+     "cic/texts/zwingli_latin-works-correspondence-vol3_heller1929.txt L332 Purgatory (p. 283), L328 Merit (p. 271)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": ""
+   },
+   "S8": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": "medium",
+    "source_hits": [
+     "cic/texts/zwingli_latin-works-correspondence-vol3_heller1929.txt L7958 'The Sin Against the Holy Ghost' (Commentary on True and False Religion, section 11)",
+     "calvin vol2 L7014 III.3.22"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": ""
+   }
+  },
+  "syr": {
+   "S1": {
+    "layer": "RENDERED-quote",
+    "records": [
+     "syr.quote.aphrahat-stone-foundation [Documented]",
+     "syr.dw.adam-grace ('faith is the foundation, the works are the house')"
+    ],
+    "confidence": "high",
+    "source_hits": [
+     "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml L24584 Aphrahat Demonstration I Of Faith (whole)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [
+     "syr.quote.aphrahat-stone-foundation MATCH npnf213 L24606-24608"
+    ],
+    "note": "Not_for already bars 'faith alone suffices'."
+   },
+   "S2": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "syr.dw.adam-grace (death rules from Adam; wound, not guilt)"
+    ],
+    "confidence": "medium-high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Infants: nothing; honest_limit."
+   },
+   "S3": {
+    "layer": "LOADED",
+    "records": [
+     "syr.quote.the-blasphemy-of-madmen (from Ephrem's Freewill argument, but about method)"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt L232-295 Ephrem, First Discourse to Hypatius, the Freewill argument against Bardaisan and Mani"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Ephrem's defence of free will against fate is vendored and unrendered; predestination as election: not this world's question."
+   },
+   "S4": {
+    "layer": "LOADED-thin",
+    "records": [],
+    "confidence": "low",
+    "source_hits": [
+     "npnf213 Aphrahat Dem. VII (the fallen fighter returns)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Covered in substance by S5 records; assurance honest_limit."
+   },
+   "S5": {
+    "layer": "RENDERED-quote",
+    "records": [
+     "syr.quote.warned-before-baptism",
+     "syr.dw.penitence-prayer (Dem. VII: penitence as medicine)",
+     "syr.dw.physician",
+     "syr.dw.born-again-endtimes (F4-T)"
+    ],
+    "confidence": "high",
+    "source_hits": [
+     "cic/texts/aphrahat_demonstrations-2-7_hallock1932.txt Demonstration VII On Penitents, whole"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [
+     "syr.quote.warned-before-baptism MATCH aphrahat_demonstrations-2-7_hallock1932.txt L47 (13/14 clauses; the file carries a '~1~' footnote marker inside the sentence)"
+    ],
+    "note": "C4-26 (same sin again) is Dem. VII's own subject."
+   },
+   "S6": {
+    "layer": "NONE",
+    "records": [],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "honest_limit."
+   },
+   "S7": {
+    "layer": "RENDERED-witness-thin",
+    "records": [
+     "syr.dw.adam-grace (almsgiving among the house's stones)"
+    ],
+    "confidence": "low",
+    "source_hits": [
+     "npnf213 (alms 11)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Indulgences honest_limit."
+   },
+   "S8": {
+    "layer": "LOADED-thin",
+    "records": [],
+    "confidence": "low",
+    "source_hits": [
+     "anf09 Diatessaron (Matt 12:31 text only)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "honest_limit."
+   }
+  },
+  "witt": {
+   "S1": {
+    "layer": "RENDERED-quote",
+    "records": [
+     "witt.demo.faith-alone (F1-T)",
+     "witt.gravity.justified-by-faith-alone",
+     "witt.term.justification",
+     "witt.term.faith",
+     "witt.term.good-works",
+     "witt.term.merit",
+     "witt.term.grace",
+     "witt.contested.justification-accounted-and-made",
+     "witt.dw.born-in-sin-fed-at-the-table"
+    ],
+    "confidence": "high",
+    "source_hits": [
+     "melanchthon_apology (by faith 222)",
+     "book-of-concord L1395 AC IV"
+    ],
+    "identified": [],
+    "other": [
+     "Melanchthon, Loci communes 1521: Latin (Kolde ed. 1900, PD, archive.org); English Pauck LCC 19 (1969) in copyright"
+    ],
+    "verified": [],
+    "note": "C4-20 (James): Luther's preface to James is not in the library; the Apology IV's handling of James 2 is vendored."
+   },
+   "S2": {
+    "layer": "RENDERED-quote",
+    "records": [
+     "witt.quote.article-ii-of-original-sin [Documented]",
+     "witt.term.sin",
+     "witt.dw.born-in-sin-fed-at-the-table",
+     "witt.dw.a-death-begun-that-a-child-receives"
+    ],
+    "confidence": "high",
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [
+     "witt.quote.article-ii-of-original-sin MATCH cic/texts/melanchthon_augsburg-confession_anon-pg275.txt L194"
+    ],
+    "note": ""
+   },
+   "S3": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "witt.term.free-will (AC XVIII; Bondage of the Will)"
+    ],
+    "confidence": "medium",
+    "source_hits": [
+     "cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt L25390/L27478 Formula of Concord XI, Of God's Eternal Predestination and Election",
+     "cic/texts/luther_bondage-of-the-will_cole1823.txt (potter 14, foreknows 11; OCR-degraded)"
+    ],
+    "identified": [
+     "witt.source.erasmus-de-libero-arbitrio-diatribe (unvendored; WANTS-REGISTER)",
+     "witt.source.book-of-concord listed unvendored although Jacobs 1911 is vendored and mapped"
+    ],
+    "other": [
+     "Erasmus, De libero arbitrio: Latin 1524 PD; English Rupp/Watson LCC 17 (1969) in copyright"
+    ],
+    "verified": [],
+    "note": "witt.term.free-will says the library carries no developed predestination doctrine; Formula of Concord XI is vendored and mapped. Fix the record or the map."
+   },
+   "S4": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "witt.term.assurance ('I cannot doubt I have a gracious God')",
+     "witt.gravity.terrified-and-comforted-conscience",
+     "witt.force.laitys-need-for-assurance"
+    ],
+    "confidence": "high",
+    "source_hits": [
+     "cic/texts/melanchthon_augsburg-confession_anon-pg275.txt L355 AC XII condemns 'the Anabaptists, who deny that those once justified can lose the Holy Ghost'"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "C4-07 (can you lose it): the confession says yes, in a sentence not yet rendered."
+   },
+   "S5": {
+    "layer": "RENDERED-quote",
+    "records": [
+     "witt.quote.article-ix-of-baptism ('necessary to salvation')",
+     "witt.dw.a-death-begun-that-a-child-receives (F4-T)",
+     "witt.term.repentance",
+     "witt.term.confession-and-absolution",
+     "witt.term.contrition"
+    ],
+    "confidence": "high",
+    "source_hits": [
+     "cic/texts/melanchthon_augsburg-confession_anon-pg275.txt L339-355 AC XII: remission 'whenever they are converted'; 'The Novatians also are condemned, who would not absolve such as had fallen after Baptism'"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [
+     "witt.quote.article-ix-of-baptism MATCH melanchthon_augsburg-confession_anon-pg275.txt L309"
+    ],
+    "note": "C4-06 (one chance) is answered verbatim by AC XII; add the quote."
+   },
+   "S6": {
+    "layer": "LOADED-thin",
+    "records": [],
+    "confidence": "low",
+    "source_hits": [
+     "melanchthon_apology L592 (natural law)",
+     "luther_bondage L1063 (Plato, Socrates)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "honest_limit."
+   },
+   "S7": {
+    "layer": "RENDERED-witness",
+    "records": [
+     "witt.term.indulgence",
+     "witt.term.purgatory",
+     "witt.term.satisfaction",
+     "witt.term.merit",
+     "witt.story.letter-to-albrecht-and-theses-circulation"
+    ],
+    "confidence": "high",
+    "source_hits": [
+     "luther_works-v1 (indulgences 91)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "The one world where C4-18 is its own founding question."
+   },
+   "S8": {
+    "layer": "LOADED",
+    "records": [],
+    "confidence": "low-medium",
+    "source_hits": [
+     "cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt L618 editor on mortal and venial sin",
+     "luther_large-catechism L1014",
+     "melanchthon_apology (mortal sin 14)"
+    ],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "honest_limit on the Matt 12 question itself; mortal/venial is rendered nowhere."
+   }
+  }
+ },
+ "findings": [
+  "Canon cell F1-T is not in fact forced per world in records/: only gallic, ijc and witt carry an F1-T demonstration (ijc's is bread-and-cup), and only don and hal carry F4-T. Eight of twelve worlds have no demonstration for either cell; the faith-alone question is answered by an honest_limit in don, ijc and desert, by witnesses in cappadocian, syr and hal, and by nothing in alx, pahc and rzg.",
+  "rzg has no record on justification by faith, the Reformed world's own centre, while Institutes III.11, the Second Helvetic XV-XVI and Heidelberg 60-64 are vendored; it also has no 'born again' record though regeneration is a distinct Reformed doctrine. Its predestination/assurance cluster, by contrast, is the best-built in the fleet (gravity, term, quote, demo, honest_limit).",
+  "Five vendored texts answer C4 questions head-on and are unrendered: Gregory Nazianzen Or. 40.23 and Gregory of Nyssa On Infants' Early Deaths (babies who die, cappadocian); Ambrose Concerning Repentance against the Novatians (ijc, C4-06); Augustine On Rebuke and Grace 40 'No one is certain of his own salvation' (lpc, C4-19); Augsburg Confession XII (witt, C4-06/07); Jerome Letter 42 to Marcella on the sin against the Holy Ghost (hal, C4-25).",
+  "Duplicates: pahc.quote.justin-reasonable-livers and pahc.quote.those-who-lived-reasonably-are-christians carry the same Justin sentence; gallic.quote.grievous-blasphemy-not-all-men-to-be-saved and gallic.quote.without-grievous-blasphemy-all-men-to-be-saved carry the same Conf. XIII.7 sentence.",
+  "Record/map drift: witt.term.free-will says the library does not carry a developed predestination doctrine, but Formula of Concord XI (Jacobs 1911) is vendored and mapped to witt; witt.source.book-of-concord is registered kind: unvendored. rzg.source.ecclesiastical-ordinances-1541 is registered unvendored while calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735.txt is mapped (a 1735 printing; check it is the 1541 text).",
+  "pelagius_epistula-ad-demetriadem-lat_migne.txt is vendored but mapped only to the unbuilt 'pelagianism' world; hal, lpc and gallic construct the controversy entirely from the opponents' side (lpc.contested.grace-pelagius-characterization names this).",
+  "lpc.quote.pardon-through-a-wicked-clergyman is Augustine's sermon on the unforgivable sin (Sermon 71) but is indexed only for the wicked-minister question; the C4-25 answer is already verified and rendered, just unreachable by retrieve_when.",
+  "Verification: 30 quote records checked against their vendored files; 30 MATCH at clause level. Four whole-string misses were caused by inline <note> or <pb> markup or a '~1~' footnote marker inside the vendored sentence, not by wording differences."
+ ],
+ "not_checked": [
+  "canon/sealed_probes/ (never read, per instruction).",
+  "Body text of records (only front matter was searched by the tool and read by hand).",
+  "Latin, Greek, French and German vendored files were counted by the tool but not read; LOADED claims about them rest on headings and known contents (Faustus De gratia, Augustine De fide et operibus, Calvin CO 8, Athanasius PG 26).",
+  "Zwingli Latin Works vol. 2 content (Providence; Exposition of the Faith) is asserted from the published tables of contents, not from a file.",
+  "Bullinger Decades: the exact sermon on predestination was not located; Decade I.4-6 on faith/justification is secure.",
+  "Whether the 1735 Ordonnances printing mapped to rzg is the 1541 text.",
+  "The fixture world 'fix' was excluded; worlds without records (aec, hus, jes, meth, obel, rcg, wsyr) were not mapped."
+ ]
+}

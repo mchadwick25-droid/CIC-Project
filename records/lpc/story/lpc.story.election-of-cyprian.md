@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F3-I
+use_note:
+  means: "Pontius says God's judgment and the people's favour made Cyprian bishop, and he later called it suffrage."
+  not_for:
+    - "a claim that it was a vote with a candidacy and a count"
+    - "a claim that any witness besides Pontius confirms that Cyprian was a neophyte"
+    - "a claim that Pontius, writing in praise, is a neutral witness"
+  years: {from: 248, to: 251}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

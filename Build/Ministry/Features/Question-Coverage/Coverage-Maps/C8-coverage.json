@@ -1,0 +1,1572 @@
+{
+ "generated": "2026-10-26",
+ "method": {
+  "tool": "scratchpad/tools/coverage_search.py --whole-words --regex, eight term sets (search/C8/S1..S8-*.json, terms in terms.txt)",
+  "record_check": "search/C8/recgrep.py: independent front-matter grep of records/*/*/*.md",
+  "verification": "search/C8/verify.py plus a manual re-check of four records for editorial artifacts",
+  "layers": "RENDERED (R*, honest_limit or guard only) / LOADED / IDENTIFIED / OTHER / NOTHING; N used in tables for NOTHING"
+ },
+ "sub_questions": [
+  {
+   "id": "C8.S1",
+   "label": "Women's lives in their own words; any writing by women; nuns",
+   "question_ids": [
+    "C8-01",
+    "C8-19",
+    "C8-23"
+   ]
+  },
+  {
+   "id": "C8.S2",
+   "label": "Women leading, preaching, deacons, priests; 'wives, submit'; were women lesser",
+   "question_ids": [
+    "C8-05",
+    "C8-08",
+    "C8-21",
+    "C8-26",
+    "C8-27"
+   ]
+  },
+  {
+   "id": "C8.S3",
+   "label": "The enslaved: owned, freed, thought wrong, 'slaves obey', one table, the tortured witnesses",
+   "question_ids": [
+    "C8-03",
+    "C8-07",
+    "C8-09",
+    "C8-24",
+    "C8-28"
+   ]
+  },
+  {
+   "id": "C8.S4",
+   "label": "Marriage: age, consent, mixed marriage, widows remarrying, divorce, adultery",
+   "question_ids": [
+    "C8-04",
+    "C8-06",
+    "C8-15",
+    "C8-16",
+    "C8-17",
+    "C8-25",
+    "C8-30"
+   ]
+  },
+  {
+   "id": "C8.S5",
+   "label": "Sex in marriage, virginity ranked above marriage, contraception, abortion and exposure, extreme asceticism",
+   "question_ids": [
+    "C8-10",
+    "C8-12",
+    "C8-13",
+    "C8-14",
+    "C8-18",
+    "C8-29"
+   ]
+  },
+  {
+   "id": "C8.S6",
+   "label": "Gay people and same-sex relations (never faced as asked)",
+   "question_ids": [
+    "C8-11",
+    "R-06"
+   ]
+  },
+  {
+   "id": "C8.S7",
+   "label": "Children: raised, taught, treated",
+   "question_ids": [
+    "C8-02",
+    "C8-22"
+   ]
+  },
+  {
+   "id": "C8.S8",
+   "label": "A wife beaten and the church's word (Facilitator ground)",
+   "question_ids": [
+    "C8-20"
+   ]
+  }
+ ],
+ "canon_demonstrations": {
+  "counts_by_world": {
+   "alx": {
+    "F5-I": 1,
+    "F5-T": 0,
+    "F6-P": 2,
+    "F6-T": 2,
+    "F6-E": 0
+   },
+   "cappadocian": {
+    "F5-I": 0,
+    "F5-T": 0,
+    "F6-P": 3,
+    "F6-T": 0,
+    "F6-E": 0
+   },
+   "desert": {
+    "F5-I": 0,
+    "F5-T": 0,
+    "F6-P": 3,
+    "F6-T": 1,
+    "F6-E": 0
+   },
+   "don": {
+    "F5-I": 0,
+    "F5-T": 0,
+    "F6-P": 3,
+    "F6-T": 0,
+    "F6-E": 1
+   },
+   "gallic": {
+    "F5-I": 1,
+    "F5-T": 0,
+    "F6-P": 2,
+    "F6-T": 0,
+    "F6-E": 0
+   },
+   "hal": {
+    "F5-I": 1,
+    "F5-T": 0,
+    "F6-P": 3,
+    "F6-T": 2,
+    "F6-E": 0
+   },
+   "ijc": {
+    "F5-I": 1,
+    "F5-T": 0,
+    "F6-P": 3,
+    "F6-T": 0,
+    "F6-E": 0
+   },
+   "lpc": {
+    "F5-I": 0,
+    "F5-T": 0,
+    "F6-P": 0,
+    "F6-T": 0,
+    "F6-E": 0
+   },
+   "pahc": {
+    "F5-I": 0,
+    "F5-T": 0,
+    "F6-P": 3,
+    "F6-T": 1,
+    "F6-E": 0
+   },
+   "rzg": {
+    "F5-I": 0,
+    "F5-T": 0,
+    "F6-P": 0,
+    "F6-T": 0,
+    "F6-E": 0
+   },
+   "syr": {
+    "F5-I": 0,
+    "F5-T": 0,
+    "F6-P": 3,
+    "F6-T": 1,
+    "F6-E": 0
+   },
+   "witt": {
+    "F5-I": 1,
+    "F5-T": 0,
+    "F6-P": 1,
+    "F6-T": 0,
+    "F6-E": 1
+   }
+  },
+  "totals": {
+   "F5-I": 5,
+   "F5-T": 0,
+   "F6-P": 26,
+   "F6-T": 7,
+   "F6-E": 2
+  },
+  "detail": {
+   "F5-I": "f5-i-03 women in their own words: alx, gallic, hal, witt; f5-i-01 ordinary day: ijc. No demo for f5-i-04 children or f5-i-05 the enslaved in any world.",
+   "F5-T": "none: f5-t-01 (what marriage meant) has no demonstration in any world.",
+   "F6-P": "f6-p-06 women's authority: alx, cappadocian, desert, don, hal, ijc, pahc, syr (8); missing gallic, lpc, rzg, witt. Also f6-p-01 someone-like-me x10, f6-p-02 x5, f6-p-03 x1 (gallic), f6-p-05 x2 (don, ijc).",
+   "F6-T": "f6-t-03 divorce: alx, desert, hal, pahc, syr (5); missing cappadocian, don, gallic, ijc, lpc, rzg, witt. f6-t-01 hell: alx, hal.",
+   "F6-E": "f6-e-01 (clearest outside account; the question for the two enslaved women, C8-07): no demonstration anywhere. f6-e-02 martyr wish: don, witt. The Pliny question is answered only by records: pahc (quote, story, term, limit) and the guards hal.limit.martyrdom, ijc.limit.earlier-windows."
+  }
+ },
+ "verification_all": [
+  {
+   "record": "alx.quote.timothy-ordinary-questions",
+   "result": "MATCH (spacing-only variant; npnf214 L44111-44156)",
+   "file": "npnf214_seven-ecumenical-councils.xml",
+   "lines": [
+    44111,
+    44145,
+    44156
+   ]
+  },
+  {
+   "record": "cappadocian.quote.macrina-the-elder-taught-me",
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    37060
+   ]
+  },
+  {
+   "record": "cappadocian.quote.macrina-refuses-remarriage",
+   "result": "MATCH after dropping Migne column marker [964D] and page marker |25",
+   "file": "gregory-nyssa_life-of-macrina-introduction-only_clarke1916.txt",
+   "lines": null
+  },
+  {
+   "record": "cappadocian.quote.basil-canon-on-digamy",
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    35030
+   ]
+  },
+  {
+   "record": "cappadocian.quote.basil-canon-to-amphilochius",
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    36336
+   ]
+  },
+  {
+   "record": "cappadocian.quote.basil-against-delaying-baptism",
+   "result": "MATCH",
+   "file": "npnf208_basil-letters-select-works.xml",
+   "lines": [
+    7018
+   ]
+  },
+  {
+   "record": "desert.quote.sarah-man-among-you",
+   "result": "MATCH",
+   "file": "anan-isho_paradise-v2-sayings_budge1907.txt",
+   "lines": [
+    2438
+   ]
+  },
+  {
+   "record": "desert.quote.womens-house-across-the-river",
+   "result": "MATCH",
+   "file": "pachomius_rules-ethiopic_schodde1885.txt",
+   "lines": [
+    206
+   ]
+  },
+  {
+   "record": "desert.quote.talida-key-never-taken",
+   "result": "MATCH",
+   "file": "palladius_paradise-v1-syriac_budge1907.txt",
+   "lines": [
+    1129
+   ]
+  },
+  {
+   "record": "desert.quote.good-good-i-dont-mind",
+   "result": "MATCH after dropping footnote numbers 163, 164 and page marker |97",
+   "file": "palladius_lausiac-history_clarke1918.txt",
+   "lines": null
+  },
+  {
+   "record": "gallic.quote.brictio-horses-and-slaves",
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    5299
+   ]
+  },
+  {
+   "record": "hal.quote.she-put-on-sackcloth",
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    17449,
+    17453
+   ]
+  },
+  {
+   "record": "hal.quote.i-gather-the-rose-from-the-thorns",
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    6021
+   ]
+  },
+  {
+   "record": "hal.quote.let-her-be-brought-up-in-a-monastery",
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    20730
+   ]
+  },
+  {
+   "record": "hal.quote.boxwood-letters",
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    20402
+   ]
+  },
+  {
+   "record": "hal.quote.paula-hebrew-psalms",
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    22019
+   ]
+  },
+  {
+   "record": "hal.quote.recourse-to-marcella",
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    26177
+   ]
+  },
+  {
+   "record": "hal.quote.ever-let-the-bridegroom-sport-with-you",
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    6222
+   ]
+  },
+  {
+   "record": "hal.quote.detestable-monks",
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    8111
+   ]
+  },
+  {
+   "record": "ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood",
+   "result": "MATCH",
+   "file": "npnf210_ambrose-select-works-letters.xml",
+   "lines": [
+    45073
+   ]
+  },
+  {
+   "record": "pahc.quote.two-female-slaves-who-were-called-deaconesses",
+   "result": "MATCH (inside an editor's note, L19502-19504; \"(ministræ)\" ligature)",
+   "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": null
+  },
+  {
+   "record": "pahc.quote.ignatius-marriage-bishop",
+   "result": "MATCH",
+   "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": [
+    8734
+   ]
+  },
+  {
+   "record": "pahc.quote.lucian-orphans-and-widows",
+   "result": "MATCH",
+   "file": "lucian_works-vol4-peregrine_fowler1905.txt",
+   "lines": [
+    1049
+   ]
+  },
+  {
+   "record": "syr.quote.the-wedding-feast-continues-for-but-seven-days",
+   "result": "MATCH",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    25940
+   ]
+  },
+  {
+   "record": "syr.quote.warned-before-baptism",
+   "result": "MATCH after dropping footnote marker ~1~",
+   "file": "aphrahat_demonstrations-2-7_hallock1932.txt",
+   "lines": null
+  },
+  {
+   "record": "witt.quote.article-ix-of-baptism",
+   "result": "MATCH",
+   "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+   "lines": [
+    309
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "rank": 1,
+   "title": "The library holds what the records say they cannot give",
+   "detail": "Vendored and unrecorded: Clement Strom. IV.8 and II.23 in English (anf02 L38538, L38643, L34787) against alx.limit.marriage and the silence on women; Basil's canons on abortion, same-sex acts, a hatchet raised at a wife and marriage without a master's consent (npnf208 L34979, L35084, L35123, L36510); Nazianzen Or. 37 (npnf207 L35864); Life of Macrina L120, L138, L158; Calvin Inst. and Second Helvetic ch. XXIX against rzg.limit.no-teaching-on-wealth-or-marriage; Thecla and CTh 3.7, 4.7, 5.10 in worlds that render none of it."
+  },
+  {
+   "rank": 2,
+   "title": "Two records contradict a vendored text or rest on a missing one",
+   "detail": "syr.limit.marriage and syr.demo.marriage-ending say no text speaks to Christian marriage or its ending, but the Book of the Laws of Countries (anf08 L68966-68985, mapped to syr) states what Edessa Christians do about an unchaste wife or sister. cappadocian.story.slave-market-sermon rests on Nyssa's Ecclesiastes homily, which is unvendored; the line is a paraphrase. hal.dw.marriage-ending is gentler than Jerome's own answer in Ep. 55 (npnf206 L12992-13029)."
+  },
+  {
+   "rank": 3,
+   "title": "Demos are thin exactly where the questions are hardest",
+   "detail": "F5-T has no demo anywhere; F6-E-01 (the tortured enslaved women) has none; F6-T-03 divorce has five of twelve worlds; no demo for children (F5-I-04) or the enslaved (F5-I-05). S6 has no record in any world; S3 is carried by records in three worlds (cappadocian, gallic, pahc), by guards in four, and by no record in five."
+  },
+  {
+   "rank": 4,
+   "title": "Perpetua and Egeria are the library's women's own words and both sit outside every record",
+   "detail": "anf03 L59560 (Perpetua \"described by her own hand\"; also Felicitas, an enslaved woman) is mapped to lpc and deliberately excluded as pre-246. Egeria (L3339-3403 Edessa, L3790 Marthana) is mapped to desert and syr, which say no woman's line survives."
+  }
+ ],
+ "worlds": {
+  "alx": {
+   "S1": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "alx.demo.women-own-words",
+     "alx.limit.f5-women-own-words",
+     "alx.story.potamiaena"
+    ],
+    "loaded": [
+     "anf02 (Clement) L38538 Strom. IV.8 \"Women as Well as Men, Slaves as Well as Freemen, Candidates for the Martyr's Crown\"; L38643 \"Women are therefore to philosophize equally with men, though the males are preferable at everything...\""
+    ],
+    "note": "Honest absence plus Potamiaena. Clement on women is vendored in English and unrecorded."
+   },
+   "S2": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "alx.demo.woman-authority",
+     "alx.story.potamiaena"
+    ],
+    "loaded": [
+     "anf02 L38643 Clement, women philosophize equally, males \"preferable\"; npnf214 L5303 Nicaea can. 19 (deaconesses of the Paulianists are laity); anf07 Apostolic Constitutions (deaconess/widow rules, not read)"
+    ],
+    "note": "Demo says no woman in office and does not invent one. Nothing on \"wives, submit\" or deaconesses."
+   },
+   "S3": {
+    "layer": "R*",
+    "confidence": "m",
+    "records": [
+     "alx.term.oikos"
+    ],
+    "loaded": [
+     "anf02 L38538 Strom. IV.8 slaves as martyr candidates; anf05 Hippolytus Ref. IX (Callistus, a slave of Carpophorus; not read here); anf07 Apostolic Constitutions"
+    ],
+    "note": "Only a guard in the oikos term (not_for: narrating enslaved persons). No honest_limit like hal/syr have. quote.clement-possessions hits \"slave\" only as a metaphor."
+   },
+   "S4": {
+    "layer": "R*",
+    "confidence": "h",
+    "records": [
+     "alx.limit.marriage",
+     "alx.demo.marriage-ending",
+     "alx.quote.timothy-ordinary-questions"
+    ],
+    "loaded": [
+     "anf02 L34787 Strom. II.23 \"On Marriage\" (English); L1881 Hermas Mand. IV \"On Putting One's Wife Away for Adultery\"; anf04 L4416, L4707 Tertullian To His Wife (mixed marriage)"
+    ],
+    "note": "Limit is true (Strom. III is in Latin at L35140) but Strom. II.23 and Hermas Mand. IV are in English and unused."
+   },
+   "S5": {
+    "layer": "R",
+    "confidence": "m",
+    "records": [
+     "alx.story.origen-daring-deed",
+     "alx.limit.marriage"
+    ],
+    "loaded": [
+     "anf02 L13350 Athenagoras Plea 35 (women who use drugs to bring on abortion \"commit murder\"); Paed. II.10 chastity (not read)"
+    ],
+    "note": "Castration (C8-29) rendered, Contested. Sex in marriage, abortion, exposure not rendered."
+   },
+   "S6": {
+    "layer": "L",
+    "confidence": "h",
+    "records": [],
+    "loaded": [
+     "anf02 L24945-24986 Paed. III.3 (practices \"contrary to nature\"; \"Men play the part of women, and women that of men\"); L25559-25570 Paed. III.8 (Sodomites \"burning with insane love for boys\", Sodom burned as instruction)"
+    ],
+    "note": "No record speaks. alx.quote.clement-instructor (\"unnatural passions of the soul\", Paed. I.2) is about disordered appetites; its not_for keeps it off this question."
+   },
+   "S7": {
+    "layer": "R",
+    "confidence": "m",
+    "records": [
+     "alx.quote.timothy-ordinary-questions",
+     "alx.quote.clement-schoolmaster",
+     "alx.gravity.divine-pedagogy",
+     "alx.story.leonides-martyrdom"
+    ],
+    "loaded": [
+     "anf02 L18898 Paed. I.4"
+    ],
+    "note": "Teaching and the boy of seven are rendered; discipline, exposure, daily rearing of children are not."
+   },
+   "S8": {
+    "layer": "N",
+    "confidence": "l",
+    "records": [],
+    "loaded": [],
+    "note": "Only generic \"love your wives\" lines found."
+   }
+  },
+  "cappadocian": {
+   "S1": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "cappadocian.dw.macrina-and-its-cost",
+     "cappadocian.story.macrina-deathbed",
+     "cappadocian.story.macrina-refusal",
+     "cappadocian.quote.macrina-the-elder-taught-me",
+     "cappadocian.limit.whose-voice-we-lack",
+     "cappadocian.term.adelphotes"
+    ],
+    "loaded": [
+     "gregory-nyssa_life-of-macrina_clarke1916 L120 (girl raised on Wisdom and the Psalter, not poetry); L138 and L158 (mother and Macrina treat slave girls as sisters, same food and bed, \"without any regard to differences of rank\")",
+     "npnf207 L22353-22361 Gorgonia and Nonna (editor's note)"
+    ],
+    "note": "Strongest women record set after hal. No woman wrote a line (limit). Life of Macrina L120-L158 unused."
+   },
+   "S2": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "cappadocian.demo.woman-authority",
+     "cappadocian.dw.macrina-and-its-cost",
+     "cappadocian.term.kanon-kanonikai"
+    ],
+    "loaded": [
+     "npnf207 L35864-35870 Nazianzen Or. 37: \"They who made the Law were men, and therefore their legislation is hard on women\"; npnf214 L5303 Nicaea can. 19"
+    ],
+    "note": "Authority ran through household, never a see (record). Nazianzen's protest is vendored and unrecorded."
+   },
+   "S3": {
+    "layer": "R",
+    "confidence": "m",
+    "records": [
+     "cappadocian.story.slave-market-sermon",
+     "cappadocian.term.eikon",
+     "cappadocian.demo.hardest-true-thing",
+     "cappadocian.contested.eustathian-radicals",
+     "cappadocian.gravity.renunciation-order"
+    ],
+    "loaded": [
+     "npnf214 L8641 Gangra can. 3 (anathema on teaching a slave to despise his master and run away); codex-theodosianus_latinlibrary L1182 CTh 4.7.1 (Constantine: freedom given \"in ecclesiae gremio\"); L1496 CTh 5.10.1 (a bought foundling may be kept in servitude); npnf208 L36497, L36579 Basil can. (slave girl forced by her master \"free from blame\")"
+    ],
+    "note": "The one anti-slavery record rests on an unvendored text (Nyssa, Hom. Eccl. 4; source kind unvendored; the famous line is a paraphrase). Gangra and CTh 4.7 are vendored and unused."
+   },
+   "S4": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "cappadocian.dw.marriage-ending",
+     "cappadocian.quote.basil-canon-on-digamy",
+     "cappadocian.quote.macrina-refuses-remarriage",
+     "cappadocian.story.macrina-refusal"
+    ],
+    "loaded": [
+     "npnf208 L35199-35226 Basil can. 9 (wife who leaves is an adulteress; the abandoned husband is pardonable); L36492-36514 can. 39-42 (marriage without the consent of parents or master is fornication); npnf207 L35864 Nazianzen on the double standard"
+    ],
+    "note": "Best-covered divorce answer outside hal, but no F6-T demo exists for it."
+   },
+   "S5": {
+    "layer": "R",
+    "confidence": "m",
+    "records": [
+     "cappadocian.quote.basil-canon-to-amphilochius",
+     "cappadocian.quote.basil-canon-on-digamy",
+     "cappadocian.term.askesis"
+    ],
+    "loaded": [
+     "npnf208 L34979 Basil Ep. 188 can. 2 (the woman who destroys her unborn child); L35167 (drugs to cause abortion)",
+     "npnf205 L399 Nyssa On Virginity (listed)"
+    ],
+    "note": "Fornication and digamy penance rendered; abortion canon, virginity, asceticism of women not."
+   },
+   "S6": {
+    "layer": "L",
+    "confidence": "h",
+    "records": [],
+    "loaded": [
+     "npnf208 L35084 Basil Ep. 188 can. 7: \"Abusers of themselves with mankind, and with beasts, as also murderers, wizards, adulterers, and idolaters, are deserving of the same punishment.\""
+    ],
+    "note": "No record speaks."
+   },
+   "S7": {
+    "layer": "R",
+    "confidence": "m",
+    "records": [
+     "cappadocian.quote.macrina-the-elder-taught-me",
+     "cappadocian.quote.basil-against-delaying-baptism",
+     "cappadocian.dw.baptism-and-new-birth",
+     "cappadocian.gravity.paideia-converted"
+    ],
+    "loaded": [
+     "Life of Macrina L120 (her mother's curriculum); basil_ascetic (Longer Rules) L2268, L4680 children brought by parents into the brotherhoods",
+     "npnf205 Nyssa On Infants' Early Deaths (listed in C3)"
+    ],
+    "note": "Baptism and teaching rendered; child oblation and a child's rearing in the Annisa household not."
+   },
+   "S8": {
+    "layer": "L",
+    "confidence": "m",
+    "records": [],
+    "loaded": [
+     "npnf208 L35118-35123 Basil Ep. 188 can. 8: \"The man who in a rage has taken up a hatchet against his own wife is a murderer\" (intent decides)"
+    ],
+    "note": "Facilitator ground. Nothing recorded."
+   }
+  },
+  "desert": {
+   "S1": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "desert.quote.sarah-man-among-you",
+     "desert.quote.womens-house-across-the-river",
+     "desert.quote.talida-key-never-taken",
+     "desert.story.sarah-answer"
+    ],
+    "loaded": [
+     "egeria_pilgrimage-of-etheria L3790 Marthana \"ruling over the cells of apotactitae and virgins\"; palladius_lausiac L409 women's monastery of 400"
+    ],
+    "note": "Amma Sarah is the fleet's one saying in a woman's own name; no limit states what the Sayings lack."
+   },
+   "S2": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "desert.demo.identity-collision-womens-authority",
+     "desert.gravity.elder-authority",
+     "desert.quote.talida-key-never-taken"
+    ],
+    "loaded": [],
+    "note": ""
+   },
+   "S3": {
+    "layer": "L",
+    "confidence": "m",
+    "records": [],
+    "loaded": [
+     "palladius_paradise-v1-syriac_budge1907 L617 Antony \"an owner of slaves\"; L835 Potamiaena the handmaiden; palladius_lausiac Melania the Younger chapter (L581, not read for manumission)"
+    ],
+    "note": "No record."
+   },
+   "S4": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "desert.dw.marriage-ending",
+     "desert.quote.good-good-i-dont-mind",
+     "desert.demo.identity-collision-divorce"
+    ],
+    "loaded": [
+     "anf04 L4416, L4707 Tertullian To His Wife"
+    ],
+    "note": "Paul and the unfaithful wife; a betrayal, not a divorce rule (record says so)."
+   },
+   "S5": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "desert.term.apotage",
+     "desert.quote.eight-principal-faults",
+     "desert.quote.the-eight-generic-thoughts",
+     "desert.story.virgin-who-hid-athanasius"
+    ],
+    "loaded": [],
+    "note": ""
+   },
+   "S6": {
+    "layer": "L",
+    "confidence": "l",
+    "records": [],
+    "loaded": [
+     "npnf206 Jerome, \"Sodom\" 28 hits (context not read); npnf211 L46821 Cassian-volume quotation of 1 Cor 6 (defilers of themselves with mankind)"
+    ],
+    "note": "No Apophthegmata text found. No record."
+   },
+   "S7": {
+    "layer": "L",
+    "confidence": "l",
+    "records": [],
+    "loaded": [
+     "pachomius_rules-ethiopic_schodde L206 (the women's house); children in the koinonia not located"
+    ],
+    "note": "Hits are noise (\"school\", \"infant\")."
+   },
+   "S8": {
+    "layer": "L",
+    "confidence": "l",
+    "records": [],
+    "loaded": [
+     "npnf206 Jerome Ep. 77 (Fabiola)"
+    ],
+    "note": ""
+   }
+  },
+  "don": {
+   "S1": {
+    "layer": "R*",
+    "confidence": "h",
+    "records": [
+     "don.limit.womens-own-voice"
+    ],
+    "loaded": [],
+    "note": "Lucilla and an unnamed woman through men's pens. Record is status draft."
+   },
+   "S2": {
+    "layer": "R",
+    "confidence": "m",
+    "records": [
+     "don.demo.woman-authority"
+    ],
+    "loaded": [
+     "codex-canonum-ecclesiae-africanae (not read)"
+    ],
+    "note": ""
+   },
+   "S3": {
+    "layer": "L",
+    "confidence": "h",
+    "records": [
+     "don.limit.no-ordinary-day-survives"
+    ],
+    "loaded": [
+     "npnf104 L19482 Augustine Ep. 185: Donatist protection made \"what master... not compelled to live in dread of his own servant\"; \"all documents compromising the worst of slaves were destroyed, that they might depart in freedom\"; CTh 4.7.1 L1182"
+    ],
+    "note": "Hostile, one-sided; no record. Tilley (Donatist martyr acts) unvendored."
+   },
+   "S4": {
+    "layer": "R*",
+    "confidence": "m",
+    "records": [
+     "don.dw.the-line-we-actually-drew",
+     "don.dw.silver-and-the-goods-of-the-poor"
+    ],
+    "loaded": [
+     "npnf103 Augustine Good of Marriage (L32357, shared)"
+    ],
+    "note": "Guards only: not_for says no claim on Donatist divorce or weddings."
+   },
+   "S5": {
+    "layer": "L",
+    "confidence": "l",
+    "records": [
+     "don.limit.no-ordinary-day-survives"
+    ],
+    "loaded": [
+     "anf05 Cyprian On the Dress of Virgins (L42960, shared)"
+    ],
+    "note": "No Donatist-specific text found."
+   },
+   "S6": {
+    "layer": "L",
+    "confidence": "l",
+    "records": [],
+    "loaded": [
+     "augustini_scripta-contra-donatistas L6826 quotes 1 Cor 6:9-10 (\"neque molles neque masculorum concubitores\") in a list"
+    ],
+    "note": "No record."
+   },
+   "S7": {
+    "layer": "R*",
+    "confidence": "m",
+    "records": [
+     "don.dw.washed-for-the-first-time"
+    ],
+    "loaded": [],
+    "note": "\"We cannot say whether infants were baptized among us.\""
+   },
+   "S8": {
+    "layer": "L",
+    "confidence": "l",
+    "records": [],
+    "loaded": [
+     "npnf101 L13981-13983 Monica (shared)"
+    ],
+    "note": ""
+   }
+  },
+  "gallic": {
+   "S1": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "gallic.demo.women-own-words",
+     "gallic.term.virgin-virginity"
+    ],
+    "loaded": [],
+    "note": "Houses of women at Tours and Marseilles; \"Not one word of theirs was kept\"."
+   },
+   "S2": {
+    "layer": "L",
+    "confidence": "m",
+    "records": [],
+    "loaded": [
+     "npnf211 L4187 the queen \"hung upon the lips of Martin\" (Sulpitius, Dial.)"
+    ],
+    "note": "No record. F6-P-06 demo absent."
+   },
+   "S3": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "gallic.quote.brictio-horses-and-slaves",
+     "gallic.story.brictio-in-the-courtyard"
+    ],
+    "loaded": [
+     "salvian L4048-4052 slaves and masters; L4930 concubines (not read in full)"
+    ],
+    "note": "Brictio \"purchasing slaves... boys... girls of a comely appearance\" (verified)."
+   },
+   "S4": {
+    "layer": "R",
+    "confidence": "l",
+    "records": [
+     "gallic.demo.women-own-words",
+     "gallic.term.virgin-virginity"
+    ],
+    "loaded": [
+     "salvian Gov. of God (marriage, not read)"
+    ],
+    "note": "Martin's meadow: \"marriage may be excused\". Thin."
+   },
+   "S5": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "gallic.term.virgin-virginity",
+     "gallic.term.purity-of-heart",
+     "gallic.term.mortification",
+     "gallic.quote.germanus-troubled-after-the-nights-teaching"
+    ],
+    "loaded": [
+     "npnf211 L15205 Cassian Conf. XXII (nocturnal illusions, listed)"
+    ],
+    "note": ""
+   },
+   "S6": {
+    "layer": "L",
+    "confidence": "m",
+    "records": [],
+    "loaded": [
+     "salvian L9528 (Africa: quotes Rom 1:26-27 \"men with men working that which is unseemly\")"
+    ],
+    "note": "No record."
+   },
+   "S7": {
+    "layer": "L",
+    "confidence": "l",
+    "records": [],
+    "loaded": [
+     "npnf211 Vita Martini (child episodes, not read)"
+    ],
+    "note": ""
+   },
+   "S8": {
+    "layer": "N",
+    "confidence": "l",
+    "records": [],
+    "loaded": [],
+    "note": ""
+   }
+  },
+  "hal": {
+   "S1": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "hal.demo.women-own-words",
+     "hal.limit.f5-women-own-words",
+     "hal.quote.paula-hebrew-psalms",
+     "hal.quote.recourse-to-marcella",
+     "hal.term.vidua",
+     "hal.term.virginitas"
+    ],
+    "loaded": [],
+    "note": "Fullest set. Nothing the four women wrote survives."
+   },
+   "S2": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "hal.demo.woman-authority",
+     "hal.quote.recourse-to-marcella",
+     "hal.story.marcella-standing",
+     "hal.contested.marcella-agency"
+    ],
+    "loaded": [
+     "npnf206 L26177 (Marcella) is already quoted"
+    ],
+    "note": "Marcella; no office. Contested by the record itself."
+   },
+   "S3": {
+    "layer": "R*",
+    "confidence": "h",
+    "records": [
+     "hal.limit.f5-enslaved"
+    ],
+    "loaded": [
+     "npnf206 L20671 Ep. 107 \"weddings of your slaves\"; L20400, L20608 maids of Paula kept apart"
+    ],
+    "note": "Maids appear in Jerome's letters to Laeta; none speaks."
+   },
+   "S4": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "hal.dw.marriage-ending",
+     "hal.demo.marriage-ending",
+     "hal.quote.she-put-on-sackcloth",
+     "hal.quote.i-gather-the-rose-from-the-thorns"
+    ],
+    "loaded": [
+     "npnf206 L12992-13029 Ep. 55: the question put to Jerome about a wife who left a husband \"adulterer and sodomite\" and remarried; his answer, \"he is still her husband\"; L17414-17421 Ep. 77.3 same law for men and women"
+    ],
+    "note": "Best divorce answer in the fleet. The Ep. 55 answer is stricter than the Fabiola story and unrecorded."
+   },
+   "S5": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "hal.term.virginitas",
+     "hal.quote.ever-let-the-bridegroom-sport-with-you",
+     "hal.quote.i-gather-the-rose-from-the-thorns",
+     "hal.story.desert-romances"
+    ],
+    "loaded": [
+     "npnf206 L5787 Ep. 22: consecrated women who \"take potions, that they may insure barrenness, and thus murder human beings almost before their conception\""
+    ],
+    "note": "Contraception and abortion line in Ep. 22 unrecorded."
+   },
+   "S6": {
+    "layer": "L",
+    "confidence": "h",
+    "records": [],
+    "loaded": [
+     "npnf206 L12996, L13024 Ep. 55 \"adulterer or a sodomite... yet he is still her husband\""
+    ],
+    "note": "No record. The Fabiola records do not mention this wording."
+   },
+   "S7": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "hal.quote.let-her-be-brought-up-in-a-monastery",
+     "hal.quote.boxwood-letters",
+     "hal.term.grammaticus"
+    ],
+    "loaded": [],
+    "note": "Laeta letter: prescription, not practice (not_for says so)."
+   },
+   "S8": {
+    "layer": "R*",
+    "confidence": "l",
+    "records": [
+     "hal.dw.marriage-ending",
+     "hal.quote.she-put-on-sackcloth"
+    ],
+    "loaded": [
+     "npnf206 L17414-17423 Ep. 77.3; npnf101 L13983 Monica"
+    ],
+    "note": "Fabiola left a husband whose vices \"the whole neighbourhood resounded\" with; no violence named."
+   }
+  },
+  "ijc": {
+   "S1": {
+    "layer": "R*",
+    "confidence": "m",
+    "records": [
+     "ijc.dw.women-authority-cost",
+     "ijc.story.vigil-in-basilica"
+    ],
+    "loaded": [
+     "npnf210 L1300 Ambrose On Virgins to Marcellina"
+    ],
+    "note": "Record states that all of Justina's story comes \"through men's accounts\"."
+   },
+   "S2": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "ijc.demo.woman-authority",
+     "ijc.dw.women-authority-cost"
+    ],
+    "loaded": [
+     "npnf202 L43212-43214 Sozomen: Nectarius ordained a widow deaconess; npnf214 L5303 Nicaea can. 19"
+    ],
+    "note": "Justina only (power, not office). Deaconesses unrecorded."
+   },
+   "S3": {
+    "layer": "R*",
+    "confidence": "m",
+    "records": [
+     "ijc.limit.earlier-windows"
+    ],
+    "loaded": [
+     "codex-theodosianus_latinlibrary L1182 CTh 4.7.1; CTh 9.12 De emendatione servorum (L3327); L1496 CTh 5.10.1; npnf210 L7010 Ambrose"
+    ],
+    "note": "Limit covers tortured testimony only. Church-side manumission law is vendored and unused."
+   },
+   "S4": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "ijc.dw.marriage-ranked",
+     "ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood",
+     "ijc.limit.marriage-money"
+    ],
+    "loaded": [
+     "codex-theodosianus_latinlibrary L942 CTh 3.7.2 (no Jew to take a Christian woman, nor a Christian a Jewess; \"adulterii vicem\"); L940 CTh 3.7.1 interpretatio (young widows remarry by their fathers' choice)"
+    ],
+    "note": "Mixed marriage (C8-25) and consent (C8-16) are in the Code and unrecorded."
+   },
+   "S5": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "ijc.dw.marriage-ranked",
+     "ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood"
+    ],
+    "loaded": [],
+    "note": ""
+   },
+   "S6": {
+    "layer": "L",
+    "confidence": "m",
+    "records": [],
+    "loaded": [
+     "npnf111 Chrysostom, Homilies on Romans (52 hits incl. \"contrary to nature\" 13; Rom 1; context not read); npnf210 Ambrose (12 \"contrary to nature\")"
+    ],
+    "note": "No record."
+   },
+   "S7": {
+    "layer": "L",
+    "confidence": "l",
+    "records": [],
+    "loaded": [
+     "codex L1496 CTh 5.10.1; npnf101 Confessions I"
+    ],
+    "note": ""
+   },
+   "S8": {
+    "layer": "L",
+    "confidence": "l",
+    "records": [],
+    "loaded": [
+     "npnf101 L13983 Monica"
+    ],
+    "note": ""
+   }
+  },
+  "lpc": {
+   "S1": {
+    "layer": "R*",
+    "confidence": "h",
+    "records": [
+     "lpc.limit.womens-own-voice"
+    ],
+    "loaded": [
+     "npnf101 L54738 Augustine Ep. 211 to the nuns of Hippo; anf03 L59560 / perpetua-scillitan-martyrs: Perpetua \"described by her own hand\" (before the world's 246 start; deliberately excluded by lpc.core)"
+    ],
+    "note": "Limit is draft. The only woman's own prison account in the library is out of window by choice."
+   },
+   "S2": {
+    "layer": "L",
+    "confidence": "m",
+    "records": [
+     "lpc.limit.womens-own-voice"
+    ],
+    "loaded": [
+     "npnf101 L13983 Monica; Ep. 211"
+    ],
+    "note": ""
+   },
+   "S3": {
+    "layer": "L",
+    "confidence": "m",
+    "records": [],
+    "loaded": [
+     "npnf102 L38914 City of God XIX.15: \"the condition of slavery is the result of sin\"; codex CTh 4.7.1, 9.12"
+    ],
+    "note": "330 records, none on this."
+   },
+   "S4": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "lpc.witness.marriage-a-threefold-good"
+    ],
+    "loaded": [
+     "codex L942 CTh 3.7.2"
+    ],
+    "note": "Draft. Augustine's three goods; remarriage while the spouse lives is adultery."
+   },
+   "S5": {
+    "layer": "R",
+    "confidence": "m",
+    "records": [
+     "lpc.witness.marriage-a-threefold-good",
+     "lpc.witness.grant-me-chastity-but-not-yet"
+    ],
+    "loaded": [
+     "anf05 L42960 Cyprian On the Dress of Virgins; L36191-36204 Ep. 62 virgins found in one bed with men; npnf103 L629-634 Good of Marriage, Holy Virginity"
+    ],
+    "note": "Draft records."
+   },
+   "S6": {
+    "layer": "L",
+    "confidence": "h",
+    "records": [],
+    "loaded": [
+     "npnf101 L6021-6023 Confessions III.8: offences \"contrary to nature are everywhere and at all times to be held in detestation and punished; such were those of the Sodomites\"; anf05 L3442 Cyprian Ep. 1 \"unnatural lust\""
+    ],
+    "note": "No record. Hexter source record (De Sodoma, Latin poem) is a source only."
+   },
+   "S7": {
+    "layer": "R",
+    "confidence": "m",
+    "records": [
+     "lpc.witness.baptism-traced-to-the-apostles",
+     "lpc.term.catechesis"
+    ],
+    "loaded": [
+     "anf05 L35860-35947 Cyprian to Fidus on baptising infants before the eighth day"
+    ],
+    "note": "Draft. Infant baptism rendered; rearing not."
+   },
+   "S8": {
+    "layer": "L",
+    "confidence": "h",
+    "records": [],
+    "loaded": [
+     "npnf101 L13981-13983 Monica: wives \"carried the marks of blows on their dishonoured faces\"; she blamed \"their tongues\""
+    ],
+    "note": "Facilitator ground; nothing recorded."
+   }
+  },
+  "pahc": {
+   "S1": {
+    "layer": "R*",
+    "confidence": "h",
+    "records": [
+     "pahc.limit.womens-own-words",
+     "pahc.term.ministrae",
+     "pahc.quote.two-female-slaves-who-were-called-deaconesses"
+    ],
+    "loaded": [
+     "anf08 L47938, L48096 Acts of Paul and Thecla (mapped to pahc)"
+    ],
+    "note": "Limit is draft."
+   },
+   "S2": {
+    "layer": "R",
+    "confidence": "m",
+    "records": [
+     "pahc.demo.identity-collision-womens-authority",
+     "pahc.term.ministrae",
+     "pahc.term.diakonos"
+    ],
+    "loaded": [
+     "anf08 L48094-48096 Paul to Thecla: \"Go, and teach the word of God\"; L36237 (editor: heretical opinion \"that women may teach\")"
+    ],
+    "note": "Demo names Grapte only (Contested). Thecla is mapped to pahc and unused."
+   },
+   "S3": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "pahc.limit.enslaved-voices",
+     "pahc.quote.two-female-slaves-who-were-called-deaconesses",
+     "pahc.story.pliny-interrogation",
+     "pahc.story.hermas-visions"
+    ],
+    "loaded": [
+     "anf01 L8691, L9057 \"Despise not slaves, either male or female\"; anf02 L649 Hermas sold to Rhoda"
+    ],
+    "note": "The only world that renders the tortured women (F6-E-01) with the source; no F6-E-01 demo."
+   },
+   "S4": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "pahc.witness.marriage-and-wealth",
+     "pahc.quote.ignatius-marriage-bishop",
+     "pahc.demo.identity-collision-divorce"
+    ],
+    "loaded": [
+     "anf02 L1881 Hermas Mand. IV"
+    ],
+    "note": "Divorce demo is Contested and rests on Hermas."
+   },
+   "S5": {
+    "layer": "R",
+    "confidence": "l",
+    "records": [
+     "pahc.story.two-ways-catechumen",
+     "pahc.witness.marriage-and-wealth"
+    ],
+    "loaded": [
+     "anf02 L13350 Athenagoras Plea 35 abortion = murder; anf01 L14973-14986 Justin 1 Apol. 27 (exposed children brought up to prostitution); L15045 Apol. 29 (petition to a surgeon to make a eunuch)"
+    ],
+    "note": "Two Ways list carries \"murder a child by abortion\" (Inferential-Thin). Justin and Athenagoras unrecorded."
+   },
+   "S6": {
+    "layer": "L",
+    "confidence": "m",
+    "records": [],
+    "loaded": [
+     "anf01 L12629-12638 Barnabas 10 (the hare: \"Thou shall not be a corrupter of boys\"); L14986 Justin 1 Apol. 27; anf07 L12755 Didache 2.2 note (\"corrupt boys\"); record pahc.story.two-ways-catechumen lists \"pederasty\" in the Didache list only"
+    ],
+    "note": "Incidental mention in one story; no treatment."
+   },
+   "S7": {
+    "layer": "L",
+    "confidence": "m",
+    "records": [],
+    "loaded": [
+     "anf07 Didache 4.9 (not read); anf01 L14973 Justin 1 Apol. 27 exposure; pahc.quote.lucian-orphans-and-widows (R, but about care of orphans)"
+    ],
+    "note": ""
+   },
+   "S8": {
+    "layer": "N",
+    "confidence": "l",
+    "records": [],
+    "loaded": [],
+    "note": ""
+   }
+  },
+  "rzg": {
+   "S1": {
+    "layer": "R*",
+    "confidence": "h",
+    "records": [
+     "rzg.limit.dentiere-and-womens-voice"
+    ],
+    "loaded": [],
+    "note": "Dentiere identified (unvendored, rzg.source.dentiere-works)."
+   },
+   "S2": {
+    "layer": "R*",
+    "confidence": "h",
+    "records": [
+     "rzg.limit.dentiere-and-womens-voice"
+    ],
+    "loaded": [
+     "calvin_institutes vol3 L2708 (Junia; women baptizing, not read in context)"
+    ],
+    "note": "The limit is worded on the C8-05 question."
+   },
+   "S3": {
+    "layer": "L",
+    "confidence": "l",
+    "records": [],
+    "loaded": [
+     "calvin_institutes vol1 L1618 area (slaves 8 hits, context not read)"
+    ],
+    "note": "Genesis hits are Hagar and Joseph."
+   },
+   "S4": {
+    "layer": "R*",
+    "confidence": "h",
+    "records": [
+     "rzg.limit.no-teaching-on-wealth-or-marriage"
+    ],
+    "loaded": [
+     "calvin_institutes vol3 L11100-12162 (celibacy, Paphnutius), L23265 (marriage causes); schaff_second-helvetic L1525 ch. XXIX \"Of Celibacy, Marriage, and Economy\""
+    ],
+    "note": "Limit says the teaching cannot be given; the library holds it."
+   },
+   "S5": {
+    "layer": "R*",
+    "confidence": "h",
+    "records": [
+     "rzg.limit.no-teaching-on-wealth-or-marriage"
+    ],
+    "loaded": [
+     "calvin_institutes vol1 L25853-25958 (conjugal relation as remedy against lust; \"modesty in conjugal intercourse\")"
+    ],
+    "note": ""
+   },
+   "S6": {
+    "layer": "L",
+    "confidence": "l",
+    "records": [],
+    "loaded": [
+     "calvin_commentaries-genesis-vol1 (Sodom 89 hits; Gen 19 context not read)"
+    ],
+    "note": "No record."
+   },
+   "S7": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "rzg.witness.why-the-children-too"
+    ],
+    "loaded": [
+     "calvin_geneva-catechism_waterman1815; calvin-geneva-council_ordonnances (Fr., not read)"
+    ],
+    "note": "Infant baptism rendered; catechising children not."
+   },
+   "S8": {
+    "layer": "N",
+    "confidence": "l",
+    "records": [],
+    "loaded": [],
+    "note": ""
+   }
+  },
+  "syr": {
+   "S1": {
+    "layer": "R*",
+    "confidence": "h",
+    "records": [
+     "syr.limit.f5-women-own-words",
+     "syr.term.qyama",
+     "syr.contested.qyama-structure"
+    ],
+    "loaded": [
+     "egeria L3339-3403 an Edessa visit by a woman, in her own words; npnf213 L25944 Aphrahat Dem. VI.7 virgins \"betrothed to Christ\""
+    ],
+    "note": "Limit says no woman's line survives; Egeria is not Syriac but she is a woman writing of Edessa, mapped to syr."
+   },
+   "S2": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "syr.demo.woman-authority",
+     "syr.term.qyama"
+    ],
+    "loaded": [
+     "egeria L3790 Marthana"
+    ],
+    "note": ""
+   },
+   "S3": {
+    "layer": "R*",
+    "confidence": "h",
+    "records": [
+     "syr.limit.f5-enslaved"
+    ],
+    "loaded": [],
+    "note": ""
+   },
+   "S4": {
+    "layer": "R*",
+    "confidence": "h",
+    "records": [
+     "syr.limit.marriage",
+     "syr.demo.marriage-ending",
+     "syr.quote.the-wedding-feast-continues-for-but-seven-days",
+     "syr.quote.warned-before-baptism"
+    ],
+    "loaded": [
+     "anf08 L68966-68985 Book of the Laws of Countries: Christians \"in Edessa\" do not kill wives or sisters for impurity \"but they withdraw from them\"; Gaul \"do not take males for wives\"; Parthia \"two wives\"; npnf213 L25834-25951 Dem. VI.4-7"
+    ],
+    "note": "Limit and demo say no text answers divorce; the Book of Laws has one Christian line on adultery and withdrawal."
+   },
+   "S5": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "syr.term.qyama",
+     "syr.quote.the-wedding-feast-continues-for-but-seven-days",
+     "syr.gravity.covenant-life"
+    ],
+    "loaded": [
+     "npnf213 L25834-25846 Dem. VI.4: unmarried men and women under vow dwelling together: \"it would be better... to take (to wife) a woman openly\""
+    ],
+    "note": "Cohabiting celibates (Dem. VI.4-7) unrecorded."
+   },
+   "S6": {
+    "layer": "L",
+    "confidence": "m",
+    "records": [],
+    "loaded": [
+     "anf08 L68980 Book of the Laws of Countries: \"The brethren who are in Gaul do not take males for wives\"; npnf213 Sodom 37 hits (judgment imagery, not read)"
+    ],
+    "note": "No record."
+   },
+   "S7": {
+    "layer": "L",
+    "confidence": "l",
+    "records": [],
+    "loaded": [],
+    "note": ""
+   },
+   "S8": {
+    "layer": "L",
+    "confidence": "l",
+    "records": [],
+    "loaded": [
+     "anf08 L68980 Edessa line (impurity, withdrawal); not about beating"
+    ],
+    "note": ""
+   }
+  },
+  "witt": {
+   "S1": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "witt.demo.women-own-words",
+     "witt.story.household-and-kate-on-prayer",
+     "witt.figure.katharina-von-bora"
+    ],
+    "loaded": [
+     "luther_table-talk L3014 \"with Kate my wife\""
+    ],
+    "note": "One sentence. Argula von Grumbach is registered, in copyright, unvendored."
+   },
+   "S2": {
+    "layer": "L",
+    "confidence": "m",
+    "records": [],
+    "loaded": [
+     "luther_works-v1 L11754: \"all Christians are priests; the men, priests, the women, priestesses... masters or servants, mistresses or maids\""
+    ],
+    "note": "No record on women's teaching or office."
+   },
+   "S3": {
+    "layer": "L",
+    "confidence": "m",
+    "records": [
+     "witt.term.household"
+    ],
+    "loaded": [
+     "luther_small-catechism L649 Table of duties for servants; luther_large-catechism L284, L1292 domestics; luther_works-v1 L11754"
+    ],
+    "note": "term.household speaks of servants, not the enslaved."
+   },
+   "S4": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "witt.term.marriage",
+     "witt.dw.the-poor-man-at-the-door",
+     "witt.gravity.vows-chastity-and-marriage"
+    ],
+    "loaded": [
+     "melanchthon_apology L7906-8205 Art. XXIII"
+    ],
+    "note": "Divorce declined by the record; no wedding source."
+   },
+   "S5": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "witt.term.chastity",
+     "witt.term.vows",
+     "witt.gravity.vows-chastity-and-marriage"
+    ],
+    "loaded": [],
+    "note": ""
+   },
+   "S6": {
+    "layer": "N",
+    "confidence": "l",
+    "records": [],
+    "loaded": [],
+    "note": "Sodom appears only as a rhetorical image for Rome (luther_works-v2 L2795)."
+   },
+   "S7": {
+    "layer": "R",
+    "confidence": "h",
+    "records": [
+     "witt.gravity.household-catechism",
+     "witt.term.household",
+     "witt.story.household-catechism-lesson-typical-practice",
+     "witt.quote.article-ix-of-baptism",
+     "witt.dw.a-death-begun-that-a-child-receives"
+    ],
+    "loaded": [
+     "luther_large-catechism L242 (weekly examination of children and servants); L855-860 \"rods and blows\" against training by kindness; luther_works-v2 L4643 girls' school"
+    ],
+    "note": "Prescription, not practice (story is Inferential-Thin)."
+   },
+   "S8": {
+    "layer": "N",
+    "confidence": "l",
+    "records": [],
+    "loaded": [],
+    "note": ""
+   }
+  }
+ },
+ "other_sources": [
+  {
+   "source": "Didascalia Apostolorum (Syriac, third century): deaconesses, widows, separation",
+   "worlds": [
+    "syr",
+    "alx",
+    "pahc"
+   ],
+   "edition": "Gibson, Horae Semiticae (1903), PD; Connolly 1929 in copyright",
+   "status": "not fetched; working knowledge"
+  },
+  {
+   "source": "Gregory of Nyssa, Homily 4 on Ecclesiastes (slave-market)",
+   "worlds": [
+    "cappadocian"
+   ],
+   "edition": "Greek PG 44 PD; Hall 1993 translation in copyright",
+   "status": "registered unvendored (cappadocian.source.gregory-nyssa-song-of-songs-ecclesiastes-beatitudes-homilies)"
+  },
+  {
+   "source": "Marie Dentiere, Epistre tres utile (1539) and 1561 preface",
+   "worlds": [
+    "rzg"
+   ],
+   "edition": "French, PD; modern translations in copyright",
+   "status": "registered unvendored (rzg.source.dentiere-works)"
+  },
+  {
+   "source": "Argula von Grumbach, letters (1523)",
+   "worlds": [
+    "witt"
+   ],
+   "edition": "German, PD (WA); Matheson translation in copyright",
+   "status": "registered unvendored (witt.source.argula-womans-voice-in-the-reformation)"
+  },
+  {
+   "source": "Luther, Estate of Marriage (1522) and Katharina Zell, writings",
+   "worlds": [
+    "witt"
+   ],
+   "edition": "German PD; English LW 45 and McKee 1999 in copyright",
+   "status": "not fetched; working knowledge"
+  },
+  {
+   "source": "Rabbula, Rules for the covenanters (Syriac)",
+   "worlds": [
+    "syr"
+   ],
+   "edition": "Overbeck 1865, PD",
+   "status": "not fetched; working knowledge"
+  },
+  {
+   "source": "Chrysostom, Homily 20 on Ephesians (wives and slaves)",
+   "worlds": [
+    "ijc",
+    "hal"
+   ],
+   "edition": "npnf113 is vendored and mapped only to the Antiochene-Chrysostom bucket, none of the twelve worlds",
+   "status": "vendored; unmapped to these worlds"
+  }
+ ],
+ "not_checked": [
+  "Record bodies below the front matter were read only for the cited records; the grep covers front matter fields only.",
+  "Vendored hits are tool counts plus the contexts quoted; hits marked \"not read\" or \"context not read\" are unconfirmed leads, not claims.",
+  "Many S5 and S7 tool hits are noise (\"school\", \"infant\", \"lust\"); only passages whose context was read are cited.",
+  "Latin, Greek, French, German and Dutch vendored files were counted, not read (Augustine Latin, Calvin Opera, Ordonnances, Synodicon).",
+  "canon/sealed_probes/ was not read. No model call, no network. lpc and some pahc and don records are status draft; which are in the compiled package was not checked.",
+  "Rights for the Other list rest on edition dates, not page checks."
+ ],
+ "handling": {
+  "C8.S6": "Sources and silences only; no modern judgment written.",
+  "C8.S8": "Facilitator ground; only what a voice could say truthfully after the redirect."
+ }
+}

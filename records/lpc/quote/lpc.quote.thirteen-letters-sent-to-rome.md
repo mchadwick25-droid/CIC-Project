@@ -7,6 +7,13 @@ status: draft
 register: emic
 canon_cells:
 - F2-E
+use_note:
+  means: "Cyprian tells Rome that thirteen letters from hiding show how he guided and rebuked."
+  not_for:
+    - "a claim about which thirteen letters they were"
+    - "a claim that they were a published book of letters"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

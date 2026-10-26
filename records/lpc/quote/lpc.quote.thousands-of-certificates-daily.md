@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F6-I
+use_note:
+  means: "Cyprian says thousands of letters of peace were given each day with no test, against the Gospel."
+  not_for:
+    - "a claim that 'thousands' is a count"
+    - "a claim that the 'wicked certificates' and the confessors' certificates are one document"
+    - "a claim that Cyprian said such letters should not exist"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F3-P
+use_note:
+  means: "The lapsed left nothing in their own words, so every account of them is a bishop's, written to decide what should be done."
+  not_for:
+    - "a claim about why a particular person gave way"
+    - "a claim that a lapsed believer judged the terms of return just"
+    - "a claim that a first-person text from a lapsed believer survives"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-direct

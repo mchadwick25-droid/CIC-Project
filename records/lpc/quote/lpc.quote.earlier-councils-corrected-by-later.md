@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F1-I
+use_note:
+  means: "Augustine says a later, wider council can correct an earlier one, and Scripture stands above them all."
+  not_for:
+    - "a claim naming which later council corrected which earlier one"
+    - "a claim that 'Catholic' here means a modern denomination"
+    - "a claim that this theory of council authority organized much of the world"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

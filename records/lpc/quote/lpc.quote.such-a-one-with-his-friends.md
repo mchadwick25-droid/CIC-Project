@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F6-I
+use_note:
+  means: "Cyprian objects to a certificate naming one person and his friends, a vague request no martyr meant."
+  not_for:
+    - "a claim that gives a real person's name for 'such a one'"
+    - "a claim about the full wording of a certificate"
+    - "a claim that 'friends' means companions rather than household and kin"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

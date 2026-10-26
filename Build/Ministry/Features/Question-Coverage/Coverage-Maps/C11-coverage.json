@@ -1,0 +1,2866 @@
+{
+ "generated": "2026-10-26",
+ "method": {
+  "tool": "coverage_search.py (--regex --whole-words, eight term sets in search/C11/terms.txt) was launched for all eight sub-questions (run.sh); under host load from parallel cluster runs it had not returned JSON by the time this map was assembled, so the LOADED layer rests on (a) an independent front-matter grep of every record with the same regexes (recgrep.py -> recgrep.json) and (b) targeted in-context greps of the files mapped to each world in cic/corpus-map (tgrep.py), with file and line for every cited hit. If the tool JSONs land later they sit beside this file under search/C11/S*-*.json and should be read as a check, not a replacement.",
+  "record_check": "recgrep.py over records/*/*/*.md front matter (quote text/modern_rendering/retrieve_when; witness/term/gravity/force/story/demo fields; honest_limit/contested_claim/absence-source fields)",
+  "verification": "verify.py: 25 quote records cited as RENDERED were re-searched verbatim in the vendored file named by their source record (normalised; variants exact / hyphen-joined / section-number-dropped / spacing-only)",
+  "layers": "RENDERED = a record speaks to the sub-question (partial = a record answers only part of it or only as a guard); LOADED = a vendored file mapped to the world holds a passage read in context; IDENTIFIED = registered, unvendored; OTHER = outside the repo; NOTHING. Shared NPNF/ANF volumes yield other authors' hits (noted per cell).",
+  "tool_runs": "coverage_search.py --regex --whole-words --max-source-hits 8, eight term sets (search/C11/S1-jews.json ... S8-rivals.json, re-run 2026-10-26; all exit 0). Used as a cross-check: for every world and old term set the tool's record class was compared with this map; no rendered record was found that the map lacked. Cells where the tool shows a QUOTE or WITNESS class but the map says LOADED or NOTHING are single-word false hits (reasonably, one way, outside the church, Saracens, Socrates the historian), read and discarded. Sub-question ids follow repo/07-subquestions.yaml; the eight term sets are grouped differently (S2 Jewish practice, S3 pagans, S4 philosophy, S5 Muslims, S6 saved-outside, S7 convert, S8 rivals) and were remapped to the fixed ids."
+ },
+ "windows": {
+  "alx": [
+   150,
+   400
+  ],
+  "cappadocian": [
+   325,
+   394
+  ],
+  "desert": [
+   320,
+   430
+  ],
+  "don": [
+   311,
+   439
+  ],
+  "gallic": [
+   360,
+   450
+  ],
+  "hal": [
+   382,
+   420
+  ],
+  "ijc": [
+   312,
+   451
+  ],
+  "lpc": [
+   246,
+   430
+  ],
+  "pahc": [
+   70,
+   200
+  ],
+  "rzg": [
+   1519,
+   1650
+  ],
+  "syr": [
+   200,
+   410
+  ],
+  "witt": [
+   1517,
+   1580
+  ],
+  "note": "Only rzg and witt are after 632; for the other ten, S5 'Muslims' is an honest_limit, and no world holds one."
+ },
+ "sub_questions": [
+  {
+   "id": "C11.S1",
+   "label": "Jews: what was said about them, blame for the crucifixion, harm done, Jewish practices kept, Jewish Christians, 'to my face'",
+   "q": [
+    "C11-05",
+    "C11-06",
+    "C11-11",
+    "C11-12",
+    "C11-16"
+   ],
+   "canonical": "C11-05"
+  },
+  {
+   "id": "C11.S2",
+   "label": "Pagans and their gods; eating and festivals with them; getting along with Rome",
+   "q": [
+    "C11-08",
+    "C11-14",
+    "C11-20"
+   ],
+   "canonical": "C11-08"
+  },
+  {
+   "id": "C11.S3",
+   "label": "Greek philosophy taken or refused; pagan authors quoted",
+   "q": [
+    "C11-13",
+    "C11-21"
+   ],
+   "canonical": "C11-13"
+  },
+  {
+   "id": "C11.S4",
+   "label": "Muslims (worlds after 632 only)",
+   "q": [
+    "C11-07",
+    "C11-17"
+   ],
+   "canonical": "C11-07"
+  },
+  {
+   "id": "C11.S5",
+   "label": "Can a good pagan or person of another religion be saved; one way; does God accept all worship",
+   "q": [
+    "C11-01",
+    "C11-09",
+    "C11-23",
+    "R-26"
+   ],
+   "canonical": "C11-01"
+  },
+  {
+   "id": "C11.S6",
+   "label": "Would you have converted me, and is trying wrong",
+   "q": [
+    "C11-10",
+    "R-38"
+   ],
+   "canonical": "C11-10"
+  },
+  {
+   "id": "C11.S7",
+   "label": "Rivals: gnostics, Manichees, Marcion",
+   "q": [
+    "C11-19"
+   ],
+   "canonical": "C11-19"
+  },
+  {
+   "id": "C11.S8",
+   "label": "Respect for other religions; faiths far away (India); atheists; the spiritual-but-not-religious; adding rabbis and Josephus; what an outsider found strangest",
+   "q": [
+    "C11-02",
+    "C11-03",
+    "C11-15",
+    "C11-18",
+    "C11-22",
+    "R-37"
+   ],
+   "canonical": "C11-15"
+  }
+ ],
+ "canon_cells": {
+  "F6-T": {
+   "demos": {
+    "alx": "alx.demo.going-to-hell (f6-t-01)",
+    "hal": "hal.demo.hell (f6-t-01)",
+    "syr": "syr.demo.marriage-ending (f6-t-03)",
+    "desert": "desert.demo.identity-collision-divorce (f6-t-03)",
+    "pahc": "pahc.demo.identity-collision-divorce (f6-t-03)",
+    "alx (2)": "alx.demo.marriage-ending (f6-t-03)",
+    "hal (2)": "hal.demo.marriage-ending (f6-t-03)"
+   },
+   "non_demo_records": [
+    "alx.contested.origen-positions",
+    "desert.dw.only-true-religion",
+    "desert.limit.outsiders-condemned",
+    "desert.dw.marriage-ending",
+    "ijc.story.altar-of-victory",
+    "syr.term.anti-jewish-polemic",
+    "syr.quote.aphrahat-anti-jewish-frame",
+    "syr.dw.death-judgment",
+    "alx.quote.clement-schoolmaster",
+    "pahc.witness.outside-our-community",
+    "pahc.quote.justin-reasonable-livers",
+    "rzg.witness.a-narrow-true-church",
+    "witt.dw.a-narrow-word-plainly-spoken",
+    "don.dw.the-line-we-actually-drew",
+    "hal.dw.hell"
+   ],
+   "note": "No world has a demonstration for f6-t-02 ('too narrow - one way out of all the world's ways', = C11-01). Two worlds (alx, hal) demonstrate f6-t-01; five demonstrate the divorce variant f6-t-03. cappadocian, don, gallic, ijc, lpc, rzg, witt have no F6-T demonstration of any kind.",
+   "counts": {
+    "demonstrations": 7,
+    "f6_t_01": 2,
+    "f6_t_02": 0,
+    "f6_t_03": 5,
+    "worlds_with_a_demo": [
+     "alx (2)",
+     "hal (2)",
+     "desert",
+     "pahc",
+     "syr"
+    ],
+    "worlds_without": [
+     "cappadocian",
+     "don",
+     "gallic",
+     "ijc",
+     "lpc",
+     "rzg",
+     "witt"
+    ],
+    "recounted": "2026-10-26 from records/*/demonstration front matter (canon_cells, canon_question_id)"
+   }
+  },
+  "F3-P": {
+   "demos": {
+    "don": "don.demo.power-against-dissenters (f3-p-02)",
+    "gallic": "gallic.demo.power-against-dissent (f3-p-02)",
+    "lpc": "lpc.demo.compel-three-phase (f3-p-02)"
+   },
+   "non_demo_records": [
+    "desert.dw.melitian-power",
+    "gallic.term.communion",
+    "gallic.term.heretic-heresy",
+    "ijc.gravity.orthodoxy-enforcement",
+    "ijc.term.haeresis",
+    "pahc.story.first-clement-corinthian-dispute",
+    "ijc.story.callinicum-synagogue",
+    "ijc.quote.compelled-to-come-in",
+    "ijc.quote.sozomen-thessalonica-law",
+    "syr.dw.failures",
+    "rzg.witness.defending-the-anabaptist-suppression",
+    "rzg.contested.anabaptist-schism-legitimacy",
+    "lpc.term.compel-them-to-come-in"
+   ],
+   "note": "No world has a demonstration for f3-p-03 ('what happened to the temples and the old gods once you had the power'); the answering records are gallic.term.heathen-rustics / force.unconverted-countryside and ijc.story.altar-of-victory, neither tagged F3-P-03. f3-p-01 (failing to hold your own accountable) has none, as the summary already noted.",
+   "counts": {
+    "demonstrations": 3,
+    "f3_p_02": 3,
+    "f3_p_01": 0,
+    "f3_p_03": 0,
+    "worlds_with_a_demo": [
+     "don",
+     "gallic",
+     "lpc (draft)"
+    ],
+    "recounted": "2026-10-26"
+   }
+  },
+  "F3-E-03": {
+   "demos": {},
+   "non_demo_records": [
+    "pahc.witness.outsider-view",
+    "cappadocian.quote.julian-galilaeans",
+    "gallic.dw.laughed-at-and-reported",
+    "desert.dw.strangest",
+    "witt.limit.no-outsider-witness",
+    "lpc.limit.the-outsiders-own-view",
+    "ijc.story.altar-of-victory"
+   ],
+   "note": "C11-03 is tagged F3-E; no demonstration anywhere is tagged f3-e-03, though seven worlds hold an answering record."
+  }
+ },
+ "verification_all": {
+  "alx.quote.clement-rash-martyrdom": {
+   "result": "MATCH",
+   "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "lines": [
+    37819
+   ],
+   "detail": null
+  },
+  "alx.quote.clement-schoolmaster": {
+   "result": "MATCH",
+   "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "lines": [
+    27890
+   ],
+   "detail": null
+  },
+  "cappadocian.quote.julian-galilaeans": {
+   "result": "MATCH",
+   "file": "julian_letters-1-73_wright1923.txt",
+   "lines": [
+    556
+   ],
+   "detail": null
+  },
+  "desert.quote.origen-to-gregory-handmaidens": {
+   "result": "MATCH",
+   "file": "origen_philocalia_lewis1911.txt",
+   "lines": [
+    149
+   ],
+   "detail": null
+  },
+  "gallic.quote.benjamin-relied-on-his-own-judgment": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    28106
+   ],
+   "detail": null
+  },
+  "hal.quote.dream-follower-of-cicero": {
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    6483
+   ],
+   "detail": null
+  },
+  "hal.quote.no-one-preferred-to-the-seventy": {
+   "result": "MATCH",
+   "file": "npnf102_augustine-city-of-god-christian-doctrine.xml",
+   "lines": [
+    36730
+   ],
+   "detail": null
+  },
+  "hal.quote.oea-tumult": {
+   "result": "MATCH",
+   "file": "npnf101_augustine-confessions-letters.xml",
+   "lines": [
+    32546
+   ],
+   "detail": null
+  },
+  "hal.quote.partially-acquired-hebrew": {
+   "result": "MATCH (spacing-only)",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    22016
+   ],
+   "detail": null
+  },
+  "hal.quote.paula-hebrew-psalms": {
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    22019
+   ],
+   "detail": null
+  },
+  "ijc.quote.compelled-to-come-in": {
+   "result": "MATCH",
+   "file": "npnf104_augustine-anti-manichaean-anti-donatist.xml",
+   "lines": [
+    19616,
+    19624
+   ],
+   "detail": null
+  },
+  "ijc.quote.constantine-bishop-outside": {
+   "result": "MATCH",
+   "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": [
+    66732
+   ],
+   "detail": null
+  },
+  "ijc.quote.leo-sinner-be-glad": {
+   "result": "MATCH",
+   "file": "npnf212_leo-great-gregory-great.xml",
+   "lines": [
+    14508
+   ],
+   "detail": null
+  },
+  "ijc.quote.sozomen-thessalonica-law": {
+   "result": "MATCH",
+   "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": [
+    40613
+   ],
+   "detail": null
+  },
+  "pahc.quote.asia-rejected-new-prophecy": {
+   "result": "MATCH",
+   "file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+   "lines": [
+    11308
+   ],
+   "detail": null
+  },
+  "pahc.quote.justin-flame-kindled": {
+   "result": "MATCH",
+   "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": [
+    17851
+   ],
+   "detail": null
+  },
+  "pahc.quote.justin-reasonable-livers": {
+   "result": "MATCH",
+   "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": [
+    15684
+   ],
+   "detail": null
+  },
+  "pahc.quote.lucian-all-brothers": {
+   "result": "MATCH",
+   "file": "lucian_works-vol4-peregrine_fowler1905.txt",
+   "lines": [
+    1049
+   ],
+   "detail": null
+  },
+  "pahc.quote.moses-is-more-ancient": {
+   "result": "MATCH",
+   "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": [
+    15608
+   ],
+   "detail": null
+  },
+  "pahc.quote.polycrates-to-victor": {
+   "result": "MATCH",
+   "file": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+   "lines": [
+    72578,
+    72614
+   ],
+   "detail": null
+  },
+  "pahc.quote.those-who-lived-reasonably-are-christians": {
+   "result": "MATCH",
+   "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": [
+    15686
+   ],
+   "detail": null
+  },
+  "syr.quote.a-man-called-wise-amongst-the-jews": {
+   "result": "MATCH (spacing-only)",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    27421
+   ],
+   "detail": null
+  },
+  "syr.quote.aphrahat-anti-jewish-frame": {
+   "result": "MATCH",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    27100
+   ],
+   "detail": null
+  },
+  "syr.quote.aphrahat-sure-thing": {
+   "result": "MATCH",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    27115
+   ],
+   "detail": null
+  },
+  "syr.quote.as-a-stonecutter-i-have-brought-stones": {
+   "result": "MATCH",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    27084
+   ],
+   "detail": null
+  },
+  "syr.quote.symeon-and-usthazanes": {
+   "result": "MATCH (spacing-only)",
+   "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": [
+    28873
+   ],
+   "detail": null
+  },
+  "syr.quote.tatian-barbaric-writings": {
+   "result": "MATCH",
+   "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "lines": [
+    6970
+   ],
+   "detail": null
+  },
+  "syr.quote.tatian-born-assyrian": {
+   "result": "MATCH",
+   "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "lines": [
+    7457
+   ],
+   "detail": null
+  },
+  "witt.quote.article-ix-of-baptism": {
+   "result": "MATCH",
+   "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+   "lines": [
+    309
+   ],
+   "detail": null
+  },
+  "witt.quote.christs-return-to-judgment": {
+   "result": "MATCH",
+   "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+   "lines": [
+    435
+   ],
+   "detail": null
+  }
+ },
+ "identified": {
+  "witt": [
+   "witt.source.luther-that-jesus-christ-was-born (1523; unvendored; WANTS-REGISTER rank 0)",
+   "witt.source.luther-von-den-juden-und-ihren-l (1543; unvendored; WANTS-REGISTER rank 0)",
+   "witt.source.wikipedia-on-the-jews-and-their-lies, witt.source.thomas-luthers-jews-a-journey-into-anti (Kaufmann 2017), witt.source.johannes-reception-of-luthers-writings (Wallmann 1987) - the secondary chain the contested_claim rests on, all unvendored"
+  ],
+  "syr": [
+   "syr.source.koltun-fromm-dialogue (Koltun-Fromm 2011/2010; WANTS-REGISTER rank 3) - the only route to the content of Demonstrations XI-XIX",
+   "syr.source.drijvers-bardaisan, syr.source.possekel-bardaisan (S8, secondary)"
+  ],
+  "cappadocian": [
+   "cappadocian.source.julians-general-hellenic-reclamation-project, cappadocian.source.julians-measures-against-caesarea, cappadocian.source.libanius-paideia-witness, cappadocian.source.elm-virgins-of-god-sons-of-hellenism (S3/S4 context, unvendored)"
+  ],
+  "desert": [
+   "desert.source.nepheros-archive (Melitian rival, S8)"
+  ],
+  "rzg": [
+   "Zwingli, Latin Works vol. 2 (Hinke 1922): registered as unvendored by the C3 pass; not found in download-queue-seed.yaml by the terms used"
+  ],
+  "fleet": [
+   "Build/worlds/aec/Open_Gaps_Tracking.md item 6 (2026-10-02): the Adversus Judaeos acquisition-and-disclosure obligation, which names how a Representative handles its world's own anti-Jewish polemic as 'a live governance/methodology question... a candidate for that category's own escalation'. aec is outside this map's twelve, but the obligation is the only fleet-level statement of the rule the Syriac and Wittenberg records already follow."
+  ]
+ },
+ "other": {
+  "_note": "OTHER layer: public-domain sources outside the repo, from working knowledge of the editions; none was fetched. Editions and hosts to be confirmed by the Library thread before any row is added to download-queue-seed.yaml.",
+  "syr": [
+   {
+    "sub": "S1/S2",
+    "work": "Aphrahat, Demonstrations XI-XIX (against circumcision, Passover, Sabbath, foods; on the peoples)",
+    "edition": "Syriac with Latin translation: J. Parisot, Patrologia Syriaca I (1894) and II (1907), Paris: Firmin-Didot",
+    "where": "archive.org (Patrologia Syriaca)",
+    "licence": "public domain (Syriac and Latin); the English of Neusner, Aphrahat and Judaism (Brill 1971) is in copyright"
+   }
+  ],
+  "alx": [
+   {
+    "sub": "S1",
+    "work": "Origen, Commentary on Matthew (Comm. ser.) and Homilies on Jeremiah on the Jews",
+    "edition": "GCS 38/40 (Klostermann 1933/1935), Greek/Latin",
+    "where": "archive.org",
+    "licence": "public domain in the US for the 1933 volume only if not renewed; verify"
+   },
+   {
+    "sub": "S3",
+    "work": "Athanasius, Contra Gentes (gods as demons; idols)",
+    "edition": "already vendored in npnf204 (Robertson 1892); no new acquisition needed",
+    "where": "cic/texts",
+    "licence": "public domain"
+   }
+  ],
+  "witt": [
+   {
+    "sub": "S1",
+    "work": "Luther, Dass Jesus Christus ein geborner Jude sei (1523) and Von den Juden und ihren Luegen (1543)",
+    "edition": "Weimarer Ausgabe 11 (1900) and 53 (1920), German",
+    "where": "archive.org (WA)",
+    "licence": "public domain (German); the English of LW 45 (1962) and LW 47 (1971) is in copyright"
+   },
+   {
+    "sub": "S5",
+    "work": "Luther, Vom Kriege wider die Tuerken (1529); Verlegung des Alcoran (1542); preface to Bibliander's Qur'an (1543)",
+    "edition": "WA 30/2 (1909) and 53 (1920); Holman Works of Martin Luther vol. 5 (1931) has 'On War Against the Turk' in English",
+    "where": "archive.org",
+    "licence": "WA public domain; Holman vol. 5 (1931) PD-US only if its copyright was not renewed - check"
+   }
+  ],
+  "rzg": [
+   {
+    "sub": "S6",
+    "work": "Zwingli, Christianae fidei expositio (1531), with the roll of pagan saints (Hercules, Theseus, Socrates, Cato)",
+    "edition": "Latin Works of Huldreich Zwingli vol. 2, ed. W. J. Hinke (Philadelphia 1922)",
+    "where": "archive.org",
+    "licence": "public domain (US, 1922)"
+   },
+   {
+    "sub": "S1",
+    "work": "Calvin, Ad quaestiones et obiecta Iudaei cuiusdam responsio",
+    "edition": "Calvini Opera 9 (Baum, Cunitz, Reuss 1870), Latin",
+    "where": "archive.org (CO 9)",
+    "licence": "public domain (Latin); no PD English"
+   }
+  ],
+  "lpc": [
+   {
+    "sub": "S1",
+    "work": "Augustine, Tractatus adversus Iudaeos",
+    "edition": "PL 42 (Migne 1865), Latin",
+    "where": "archive.org / documentacatholicaomnia",
+    "licence": "public domain (Latin); FOTC 27 (1955) in copyright"
+   },
+   {
+    "sub": "S1/S7",
+    "work": "Severus of Minorca, Epistula de conversione Iudaeorum (418): a forced conversion in this world's Latin West",
+    "edition": "PL 20 / PL 41 (Migne), Latin",
+    "where": "archive.org",
+    "licence": "public domain (Latin); Bradbury 1996 in copyright"
+   }
+  ],
+  "ijc": [
+   {
+    "sub": "S1/S3",
+    "work": "Codex Theodosianus 16.8 (Jews) and 16.10 (pagans) in English",
+    "edition": "C. Pharr, The Theodosian Code (Princeton 1952)",
+    "where": "-",
+    "licence": "in copyright; the Latin (Mommsen-Meyer 1905) is vendored and mapped"
+   },
+   {
+    "sub": "S3",
+    "work": "Julian, Against the Galilaeans",
+    "edition": "Wright, Loeb Julian vol. 3 (1923) - the vendored julian_letters file cites it in footnotes but does not contain it",
+    "where": "archive.org",
+    "licence": "public domain (US, 1923)"
+   }
+  ],
+  "cappadocian": [
+   {
+    "sub": "S1",
+    "work": "Gregory of Nyssa, Testimonia adversus Iudaeos (attribution disputed)",
+    "edition": "PG 46 (Migne 1863), Greek",
+    "where": "archive.org",
+    "licence": "public domain (Greek); no PD English"
+   }
+  ],
+  "pahc": [
+   {
+    "sub": "S1",
+    "work": "Epistle of Barnabas 9-16 (circumcision, Sabbath, temple) - already vendored in anf01; no acquisition needed",
+    "edition": "ANF 1",
+    "where": "cic/texts",
+    "licence": "public domain"
+   }
+  ],
+  "gallic": [
+   {
+    "sub": "S1",
+    "work": "Severus of Minorca (above) sits on this world's southern edge too (418); the Gallic voices themselves say almost nothing of Jews",
+    "edition": "as under lpc",
+    "where": "-",
+    "licence": "-"
+   }
+  ]
+ },
+ "worlds": {
+  "alx": {
+   "S1": {
+    "layer": "RENDERED*",
+    "records": [
+     "alx.term.christological-reading",
+     "alx.force.septuagint-inheritance",
+     "alx.force.philonic-inheritance"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+      "line": 38425,
+      "snippet": "'the Jew of Celsus' (Contra Celsum I-II, Celsus's Jewish interlocutor answered)"
+     },
+     {
+      "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+      "line": 62905,
+      "snippet": "Contra Celsum: the Jews' loss of land and home laid 'upon their crimes, and especially upon their guilt in the treatment of Jesus'"
+     },
+     {
+      "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+      "line": 32864,
+      "snippet": "Contra Celsum II.1: the Ebionites, 'who derive the appellation of poor'"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "[Jews] No anti-Jewish polemic record exists in alx (the brief assumed one). The three records speak only of the Jewish inheritance (LXX, Philo) and of how Christian reading differs from Jewish reading. Origen's own blame-language (Contra Celsum, line 62905) is vendored and unrendered, so a Jewish visitor would meet a warmer voice than Origen's texts support. Needs a quote or contested_claim on Origen's blame-language, guarded like the Syriac records. [Jewish practices / Jewish Christians] No record. Origen on the Ebionites (two kinds, CC V.61 also) is vendored.",
+    "verified": []
+   },
+   "S2": {
+    "layer": "RENDERED*",
+    "records": [
+     "alx.story.plague-nursing",
+     "alx.dw.resurrection",
+     "alx.force.neoplatonic-challenge"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+      "line": 44230,
+      "snippet": "Contra Celsum: 'all the gods of the heathen are greedy demons'"
+     },
+     {
+      "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+      "line": 61105,
+      "snippet": "Contra Celsum VIII: the 'so-called public festivals'"
+     },
+     {
+      "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+      "line": 61209,
+      "snippet": "Contra Celsum VIII: why 'it is injurious to use things offered to idols'"
+     },
+     {
+      "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+      "line": 17014,
+      "snippet": "Minucius Felix, Octavius (pagan-Christian dialogue; same volume)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Records hold the pagan critic (Celsus) and the plague contrast (whose not_for forbids sharpening it). Nothing rendered on gods-as-demons, idol-meat, festivals, mixed marriage or the temples; the Serapeum's destruction (391, inside the window) appears in no record and no grep hit. Contra Celsum VII-VIII answers C11-08 and C11-14 directly and is unrendered.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.quote.clement-schoolmaster",
+     "alx.dw.god",
+     "alx.story.gregory-formation",
+     "alx.term.logos",
+     "alx.force.platonic-environment",
+     "alx.demo.going-to-hell"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "line": 29325,
+      "snippet": "Stromateis I.17: 'There is then in philosophy, though stolen as the fire by Prometheus...'"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Strongest philosophy cell in the fleet; the verified Clement quote is used by the F6-T demo. Atheists (C11-22): nothing in records.",
+    "verified": [
+     {
+      "record": "alx.quote.clement-schoolmaster",
+      "result": "MATCH",
+      "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": [
+       27890
+      ]
+     }
+    ]
+   },
+   "S4": {
+    "layer": "OUT-OF-WINDOW",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Window 150-400 ends before 632; Muslims are out of window, not a gap. No honest_limit says so in the voice. Only non-Muslim traces: Muslims are outside the window (150-400); the Arab-conquest force is a terminus only, and no honest_limit says so in the voice. India: Clement's 'Gymnosophists of the Indians' (verified) answers C11-1"
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.quote.clement-schoolmaster",
+     "alx.demo.going-to-hell",
+     "alx.contested.origen-positions"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The schoolmaster quote retrieves on 'whether people outside the church had anything true'; the F6-T demo (f6-t-01) says 'we were not handed a settled map of your fate'. No demonstration anywhere in the fleet for f6-t-02 ('too narrow').",
+    "verified": [
+     {
+      "record": "alx.quote.clement-schoolmaster",
+      "result": "MATCH",
+      "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": [
+       27890
+      ]
+     }
+    ]
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.dw.councils",
+     "alx.dw.empire",
+     "alx.term.katechesis",
+     "alx.term.photismos",
+     "alx.demo.someone-like-me"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "'How' is the staged catechumenate; 'is it wrong' is held as a named tension ('persuasion vs enforcement: both are in the record, and the world never resolved which was its true face'). Lactantius V.19 ('religion cannot be imposed by force', anf07 line 5140) is mapped to this world and unrendered.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "alx.force.gnostic-challenge",
+     "alx.term.gnosis",
+     "alx.dw.one-church",
+     "alx.story.potamiaena"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Valentinian and Basilidean schools named; dw.one-church lists the anf02 lines where Clement answers them by name.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "RENDERED*",
+    "records": [
+     "alx.quote.clement-schoolmaster",
+     "alx.quote.clement-rash-martyrdom",
+     "alx.demo.someone-like-me"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Respect: Clement's philosophy-as-schoolmaster (verified). India (C11-18): Clement's Gymnosophists of the Indians (verified quote); Strom. I.15 on Brahmans and Buddha is vendored (anf02). Nothing on atheists (C11-22) or an outsider's view (C11-03).",
+    "verified": [
+     {
+      "record": "alx.quote.clement-schoolmaster",
+      "result": "MATCH",
+      "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": [
+       27890
+      ]
+     },
+     {
+      "record": "alx.quote.clement-rash-martyrdom",
+      "result": "MATCH",
+      "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": [
+       37819
+      ]
+     }
+    ]
+   }
+  },
+  "cappadocian": {
+   "S1": {
+    "layer": "RENDERED*",
+    "records": [
+     "cappadocian.story.basil-death-funeral"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+      "line": 3906,
+      "snippet": "'purifying himself after the manner of the Jews' (79 'Jews' lines in Nyssa's treatises, not read through)"
+     },
+     {
+      "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+      "line": 0,
+      "snippet": "Nazianzen's orations: 'Jews' lines not traced in this pass"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "[Jews] The only record is the encomiast's claim that Jews and pagans mourned Basil, properly guarded ('the encomiast's claim'). Nothing on what the three said about Jews. A Jewish visitor would get a flattering anecdote and silence. [Jewish practices / Jewish Christians] Nothing found in records or by the terms used.",
+    "verified": []
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.story.julian-schools",
+     "cappadocian.quote.julian-galilaeans",
+     "cappadocian.story.thaumaturgus-legend",
+     "cappadocian.dw.power-and-its-discipline",
+     "cappadocian.force.policy-oscillation"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/gregory-nazianzen_first-invective-against-julian_king1888.txt",
+      "line": 23,
+      "snippet": "Nazianzen's First Invective: Julian 'debarred us from the use of words as though we were stealing other people's goods'"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "F3-E answered in a pagan emperor's own verified words (f3-e-03/04 ground, no demo tagged). The temples question has only the Thaumaturgus legend's 'seventeen pagans' arithmetic (Contested). Eating, festivals, mixed marriage: nothing.",
+    "verified": [
+     {
+      "record": "cappadocian.quote.julian-galilaeans",
+      "result": "MATCH",
+      "file": "julian_letters-1-73_wright1923.txt",
+      "lines": [
+       556
+      ]
+     }
+    ]
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.term.paideia-philosophia",
+     "cappadocian.gravity.paideia-converted",
+     "cappadocian.gravity.athens-fishermen",
+     "cappadocian.term.ousia-hypostasis"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/basil_address-to-young-men_padelford1902.txt",
+      "line": 16,
+      "snippet": "Address to Young Men on the Right Use of Greek Literature (whole work vendored and mapped)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Bee-and-flowers rendered; ousia-hypostasis carries the 'isn't this just Greek philosophy?' false friend. Basil's Address is vendored but no quote record carries a sentence of it.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "OUT-OF-WINDOW",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Window 325-394 ends before 632; Muslims are out of window, not a gap. No honest_limit says so in the voice. "
+   },
+   "S5": {
+    "layer": "NOTHING",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "No record on a good pagan's fate or on 'too narrow' (the 'too narrow' hit in quote.gregory-nyssa-on-becoming-god is about the incarnation). Open_Gaps_Tracking.md line 667 already logs that the witnesses do not answer 'hell for outsiders'.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "RENDERED*",
+    "records": [
+     "cappadocian.dw.want-to-believe",
+     "cappadocian.demo.someone-like-me",
+     "cappadocian.story.thaumaturgus-legend",
+     "cappadocian.dw.authority-and-spread"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "'Room for someone who could not simply decide to believe' is rendered (R-37 ground). How the region was converted is told as legend. Nothing on whether persuasion or force was right.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "cappadocian.dw.catholic-and-its-rivals",
+     "cappadocian.force.eunomian-movement",
+     "cappadocian.contested.agennetos-transmission"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Homoian, Eunomian, Pneumatomachian rivals named and guarded ('the rivals' own self-description survives mostly through their opponents').",
+    "verified": []
+   },
+   "S8": {
+    "layer": "RENDERED*",
+    "records": [
+     "cappadocian.quote.julian-galilaeans",
+     "cappadocian.demo.someone-like-me",
+     "cappadocian.dw.want-to-believe"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "C11-03 answered in a pagan emperor's own verified words; R-37 'room for someone who could not simply decide to believe' rendered. Nothing on respect, India or atheists.",
+    "verified": [
+     {
+      "record": "cappadocian.quote.julian-galilaeans",
+      "result": "MATCH",
+      "file": "julian_letters-1-73_wright1923.txt",
+      "lines": [
+       556
+      ]
+     }
+    ]
+   }
+  },
+  "desert": {
+   "S1": {
+    "layer": "NOTHING",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
+      "line": 249,
+      "snippet": "'Let the Jews observe this law' (a bishop on a mutilated candidate) - incidental"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "[Jews] Nothing. desert.source.bell-jews-christians-egypt is a Melitian papyrus edition whose title is misleading here. [Jewish practices / Jewish Christians]",
+    "verified": []
+   },
+   "S2": {
+    "layer": "RENDERED*",
+    "records": [
+     "desert.dw.only-true-religion",
+     "desert.dw.god",
+     "desert.dw.jesus"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt",
+      "line": 436,
+      "snippet": "Macarius and the heathen priest who beat the disciple and was won by a greeting"
+     },
+     {
+      "file": "cic/texts/macarius_fifty-spiritual-homilies_mason1921.txt",
+      "line": 513,
+      "snippet": "the same saying in Mason's introduction"
+     },
+     {
+      "file": "cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt",
+      "line": 532,
+      "snippet": "'a certain priest of idols... left everything, and he went and became a monk'"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Pagans appear only as the philosophers Antony answered. The heathen-priest saying (found this pass; the skull saying C3 looked for is a different one) is the desert's own answer to 'how did you treat a pagan' and is unrendered.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.quote.origen-to-gregory-handmaidens",
+     "desert.contested.antony-literacy",
+     "desert.demo.center-jesus-as-god"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "line": 32985,
+      "snippet": "Vita Antonii 72: 'philosophers once came, thinking they could try their skill on Antony'"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "The verified quote's not_for says it is not a desert monk's view and comes from the century before; the real ground is Vita 72-80 (loaded) and the literacy contest.",
+    "verified": [
+     {
+      "record": "desert.quote.origen-to-gregory-handmaidens",
+      "result": "MATCH",
+      "file": "origen_philocalia_lewis1911.txt",
+      "lines": [
+       149
+      ]
+     }
+    ]
+   },
+   "S4": {
+    "layer": "OUT-OF-WINDOW",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Window 320-430 ends before 632; Muslims are out of window, not a gap. No honest_limit says so in the voice. Only non-Muslim traces: Window 320-430. story.antony-withdrawal's 'Saracens' are desert nomads, not Muslims; no honest_limit."
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.dw.only-true-religion",
+     "desert.limit.outsiders-condemned"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The fleet's model honest limit: 'ours was the one true way... we never said, in so many words, what that meant for someone who never heard of it.'",
+    "verified": []
+   },
+   "S6": {
+    "layer": "RENDERED*",
+    "records": [
+     "desert.dw.someone-like-me",
+     "desert.demo.identity-collision-someone-like-me"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Room for a shameful past, yes (Moses the robber). Converting outsiders: only the loaded heathen-priest sayings.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "desert.dw.melitian-power",
+     "desert.force.melitian-rivalry",
+     "desert.force.origenist-controversy"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
+      "line": 189,
+      "snippet": "Lausiac prologue on 'the Manichaeans and the rest of the band of soi-disant philosophers'"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "The Melitian rival is named, refused, and guarded against being called persecuted.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "RENDERED*",
+    "records": [
+     "desert.dw.strangest",
+     "desert.dw.someone-like-me",
+     "desert.demo.identity-collision-someone-like-me"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "C11-03: the giving-away, 'strangest of all'. R-37 via the room-for-a-shameful-past line. Nothing on respect, India, atheists.",
+    "verified": []
+   }
+  },
+  "don": {
+   "S1": {
+    "layer": "LOADED",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/optatus_against-the-donatists.txt",
+      "line": 97,
+      "snippet": "Optatus I: 'Circumcision availed for the salvation of the people of the Jews' - the other side's voice"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "[Jews] Nothing of the Donatists' own on Jews; only Optatus. [Jewish practices / Jewish Christians]",
+    "verified": []
+   },
+   "S2": {
+    "layer": "RENDERED*",
+    "records": [
+     "don.term.persecutio",
+     "don.term.martyr-martyrdom",
+     "don.story.gesta-apud-zenophilum"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/optatus_against-the-donatists.txt",
+      "line": 179,
+      "snippet": "a bishop 'had offered incense to idols' (traditor charges)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Pagans enter only as the persecutors the Donatists did NOT die under ('our best-known dead were not killed by pagans'), and as the 'gentiles' before whom bishops must not be shamed in court. Augustine's charge that Circumcellions attacked pagan festivals was not found by the terms used.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "RENDERED*",
+    "records": [
+     "don.limit.theology-beyond-tyconius"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "An honest limit: no doctrinal-philosophical record beyond Tyconius.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "OUT-OF-WINDOW",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Window 311-439 ends before 632; Muslims are out of window, not a gap. No honest_limit says so in the voice. "
+   },
+   "S5": {
+    "layer": "RENDERED*",
+    "records": [
+     "don.dw.the-line-we-actually-drew"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "A guard that answers by refusing: 'whether Christianity is one way among many was not where our energy went, and we would only be guessing'. not_for forbids a view.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "RENDERED*",
+    "records": [
+     "don.demo.someone-like-me",
+     "don.contested.rebaptism-boundary",
+     "don.force.macarian-repression",
+     "don.demo.power-against-dissenters"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "'Converts' here are Catholics rebaptised. For R-38 the Donatists are the compelled party; the records hold that side well (F3-P demo on Tyconius is about dissent within).",
+    "verified": []
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "don.dw.two-churches-in-one-town",
+     "don.demo.power-against-dissenters",
+     "don.story.tyconius-condemnation"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The rival is the church across the street; 95 records match.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "RENDERED*",
+    "records": [
+     "don.demo.someone-like-me"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "R-37 only; no C11-03 record found for don. The Donatist 'outsider' was the Catholic across the street.",
+    "verified": []
+   }
+  },
+  "gallic": {
+   "S1": {
+    "layer": "LOADED",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/salvian_on-the-government-of-god_sanford1930.txt",
+      "line": 4556,
+      "snippet": "Salvian IV: 'Once the Jews bore both these titles' (Israel's titles passed to Christians)"
+     },
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 8174,
+      "snippet": "Sulpitius, Sacred History II: 'Then the Jews, being compelled...'"
+     },
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 2005,
+      "snippet": "Sulpitius: 'the words of the Jews of old, who reviled the Lord'"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "[Jews] No record. The Sacred History's long account of the Jews is vendored and unread in context. [Jewish practices / Jewish Christians]",
+    "verified": []
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.term.heathen-rustics",
+     "gallic.force.unconverted-countryside",
+     "gallic.term.the-devil-demons",
+     "gallic.term.renunciation",
+     "gallic.term.church-or-circus",
+     "gallic.dw.laughed-at-and-reported"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 1242,
+      "snippet": "Vita Martini XIII: the sacred pine"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "The fleet's fullest S3: temples burned and churches built on them (F3-P-03), the devil appearing as Jupiter and Mercury (gods as demons), the baptismal renunciation of 'pomps and spectacles', church-or-circus, and an F3-E witness. heathen-rustics' not_for forbids judging the temple-burning as intolerance - a guard the F3-P-03 question will test.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "RENDERED*",
+    "records": [
+     "gallic.quote.benjamin-relied-on-his-own-judgment",
+     "gallic.term.heathen-rustics"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 37640,
+      "snippet": "Conference XIII.5: 'Socrates, the most famous of them' - philosophers' chastity denied"
+     },
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 37633,
+      "snippet": "'we certainly must not think that the philosophers attained such chastity'"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Only 'the vain philosophy of this world' is quoted. Cassian's set-piece on the philosophers (Conf. XIII.4-5) is loaded and unrendered.",
+    "verified": [
+     {
+      "record": "gallic.quote.benjamin-relied-on-his-own-judgment",
+      "result": "MATCH",
+      "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": [
+       28106
+      ]
+     }
+    ]
+   },
+   "S4": {
+    "layer": "OUT-OF-WINDOW",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Window 360-450 ends before 632; Muslims are out of window, not a gap. No honest_limit says so in the voice. "
+   },
+   "S5": {
+    "layer": "LOADED",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 37640,
+      "snippet": "Conf. XIII.5: pagan virtue is not true virtue"
+     },
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 37760,
+      "snippet": "Conf. XIII.7: 'Those then who perish, perish against His will' (cited by gallic.dw.the-christ-who-bears-the-wounds)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record on a good pagan's fate. C3 already flagged that gallic.term.predestination ('God wills all to be saved') can be misread as universalism and lacks a guard.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.term.conversion",
+     "gallic.term.heathen-rustics",
+     "gallic.term.catechumen",
+     "gallic.term.heretic-heresy",
+     "gallic.demo.someone-like-me"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "'How': a hand laid on a whole heathen crowd, made catechumens. R-38: heretic-heresy holds 'cast out by bishops - but not killed' and Trier's 'foul and unheard-of indignity', with a not_for against reading Martin's defence as toleration.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "gallic.term.heretic-heresy",
+     "gallic.term.pelagians-as-foil",
+     "gallic.story.trier-and-the-ithacian-communion",
+     "gallic.term.massilians"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Priscillianists, Pelagians, Arians all named.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "RENDERED*",
+    "records": [
+     "gallic.dw.laughed-at-and-reported",
+     "gallic.demo.someone-like-me"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "C11-03 answered (laughed at and reported); R-37 demo. Nothing on respect, India, atheists.",
+    "verified": []
+   }
+  },
+  "hal": {
+   "S1": {
+    "layer": "RENDERED*",
+    "records": [
+     "hal.gravity.hebraica-veritas",
+     "hal.story.oea-gourd",
+     "hal.quote.oea-tumult",
+     "hal.quote.no-one-preferred-to-the-seventy",
+     "hal.contested.hebrew-fluency"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 7426,
+      "snippet": "Jerome: 'to see if from hatred to Christ the synagogue has changed' the Hebrew"
+     },
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 19021,
+      "snippet": "Ep. 84: 'having had a Jew as a teacher?'"
+     },
+     {
+      "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+      "line": 33605,
+      "snippet": "Jerome to Augustine (Aug. Ep. 75 = Jer. Ep. 112): the Nazarenes, 'neither Jews nor Christians'"
+     },
+     {
+      "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+      "line": 33605,
+      "snippet": "Jerome on the Nazarenes/Minaeans who 'believe in Christ' yet keep the law"
+     },
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 45240,
+      "snippet": "Against the Pelagians III: the Gospel 'used by the Nazarenes to this day'"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "[Jews] Records show the scholarly debt to Jewish teachers and the Oea episode (verified); none shows Jerome's contempt, which is loaded. Open_Gaps hal line 501 logs a probe that reversed the Oea episode's Jewish testimony - an accuracy hazard on exactly this question. [Jewish practices / Jewish Christians] The fleet's best named witness to Jewish Christians is loaded here and unrendered.",
+    "verified": [
+     {
+      "record": "hal.quote.oea-tumult",
+      "result": "MATCH",
+      "file": "npnf101_augustine-confessions-letters.xml",
+      "lines": [
+       32546
+      ]
+     },
+     {
+      "record": "hal.quote.no-one-preferred-to-the-seventy",
+      "result": "MATCH",
+      "file": "npnf102_augustine-city-of-god-christian-doctrine.xml",
+      "lines": [
+       36730
+      ]
+     }
+    ]
+   },
+   "S2": {
+    "layer": "RENDERED*",
+    "records": [
+     "hal.force.pagan-backlash"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Only the senatorial backlash against renunciation. Nothing on gods, festivals, temples.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.quote.dream-follower-of-cicero",
+     "hal.story.ciceronian-dream",
+     "hal.term.grammaticus",
+     "hal.dw.believe"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "line": 15514,
+      "snippet": "Ep. 70 to Magnus: 'if you love a captive woman, that is, worldly wisdom'"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "The dream is verified and well guarded ('not a claim that this world forbade pagan learning outright'); Ep. 70's defence of quoting pagan authors (C11-21 exactly) is loaded and unrendered.",
+    "verified": [
+     {
+      "record": "hal.quote.dream-follower-of-cicero",
+      "result": "MATCH",
+      "file": "npnf206_jerome-principal-works.xml",
+      "lines": [
+       6483
+      ]
+     }
+    ]
+   },
+   "S4": {
+    "layer": "OUT-OF-WINDOW",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Window 382-420 ends before 632; Muslims are out of window, not a gap. No honest_limit says so in the voice. "
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.dw.hell",
+     "hal.demo.hell"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "'One way, held without apology; no census of the lost' - the f6-t-01 demo.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "RENDERED*",
+    "records": [
+     "hal.demo.someone-like-me",
+     "hal.term.xenodochium"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "A hospice open to any traveller; nothing on converting anyone or on whether to try.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "hal.term.origenism",
+     "hal.term.pelagianism",
+     "hal.dw.one-church",
+     "hal.story.rufinus-rupture"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "",
+    "verified": []
+   },
+   "S8": {
+    "layer": "RENDERED*",
+    "records": [
+     "hal.demo.someone-like-me",
+     "hal.term.xenodochium"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "R-37 and the open hospice. Nothing on respect, India or atheists; no C11-03 record.",
+    "verified": []
+   }
+  },
+  "ijc": {
+   "S1": {
+    "layer": "RENDERED*",
+    "records": [
+     "ijc.story.callinicum-synagogue",
+     "ijc.limit.earlier-windows",
+     "ijc.demo.hypocrisy",
+     "ijc.gravity.episcopal-independence"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "line": 19390,
+      "snippet": "Socrates VII.13: 'the Jewish inhabitants were driven out of Alexandria by Cyril the bishop'"
+     },
+     {
+      "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+      "line": 1463,
+      "snippet": "Ambrose Ep. 40-41 to Theodosius on the synagogue"
+     },
+     {
+      "file": "cic/texts/boyd_ecclesiastical-edicts-theodosian-code_1905.txt",
+      "line": 6642,
+      "snippet": "Boyd on the Code's laws about Jews (Latin text in theodosianus-16)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "[Jews] Harm done is rendered and owned: 'the Jewish community has no voice in the record'; the limit record points the visitor to it. Blame for the crucifixion: nothing. Cyril's expulsion of Alexandria's Jews (415) is loaded and unrendered. Open_Gaps ijc line 153 records a safety-adjacent check on this record. [Jewish practices / Jewish Christians]",
+    "verified": []
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.story.altar-of-victory",
+     "ijc.story.callinicum-synagogue"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "line": 67167,
+      "snippet": "Vita Constantini: 'demolished the lofty temples'"
+     },
+     {
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+      "line": 11670,
+      "snippet": "Theodoret V.22: a church built 'on the site of the Serapeum'"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "altar-of-victory retrieves on 'what was done with the pagan temples' (F3-P-03) and 'religious tolerance and its limits', and lets Symmachus speak. No demo tagged f3-p-03 in any world.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "LOADED",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/julian_letters-1-73_wright1923.txt",
+      "line": 556,
+      "snippet": "Julian's rescript on Christian teachers (also mapped here)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "No record on philosophy as such.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "OUT-OF-WINDOW",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Window 312-451 ends before 632; Muslims are out of window, not a gap. No honest_limit says so in the voice. "
+   },
+   "S5": {
+    "layer": "RENDERED*",
+    "records": [
+     "ijc.quote.constantine-bishop-outside",
+     "ijc.term.haeresis",
+     "ijc.quote.leo-sinner-be-glad"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "'Outside the Church' is institutional here, not soteriological; Leo's 'let the gentile take courage' is the closest warm line.",
+    "verified": [
+     {
+      "record": "ijc.quote.constantine-bishop-outside",
+      "result": "MATCH",
+      "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": [
+       66732
+      ]
+     },
+     {
+      "record": "ijc.quote.leo-sinner-be-glad",
+      "result": "MATCH",
+      "file": "npnf212_leo-great-gregory-great.xml",
+      "lines": [
+       14508
+      ]
+     }
+    ]
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.quote.compelled-to-come-in",
+     "ijc.quote.sozomen-thessalonica-law",
+     "ijc.story.vision-and-alliance",
+     "ijc.demo.someone-like-me"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "R-38 is answered from the compeller's side in Augustine's own words, with his earlier opposition kept.",
+    "verified": [
+     {
+      "record": "ijc.quote.compelled-to-come-in",
+      "result": "MATCH",
+      "file": "npnf104_augustine-anti-manichaean-anti-donatist.xml",
+      "lines": [
+       19616,
+       19624
+      ]
+     },
+     {
+      "record": "ijc.quote.sozomen-thessalonica-law",
+      "result": "MATCH",
+      "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "lines": [
+       40613
+      ]
+     }
+    ]
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "ijc.term.haeresis",
+     "ijc.quote.sozomen-thessalonica-law",
+     "ijc.demo.argued-about"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+      "line": 3394,
+      "snippet": "Leo on the Manichaeans"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "",
+    "verified": [
+     {
+      "record": "ijc.quote.sozomen-thessalonica-law",
+      "result": "MATCH",
+      "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "lines": [
+       40613
+      ]
+     }
+    ]
+   },
+   "S8": {
+    "layer": "RENDERED*",
+    "records": [
+     "ijc.story.altar-of-victory",
+     "ijc.quote.leo-sinner-be-glad",
+     "ijc.demo.someone-like-me"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Altar of Victory lets Symmachus speak; Leo's 'let the gentile take courage'. C11-03 answered through the Altar story (no demo tagged f3-e-03).",
+    "verified": [
+     {
+      "record": "ijc.quote.leo-sinner-be-glad",
+      "result": "MATCH",
+      "file": "npnf212_leo-great-gregory-great.xml",
+      "lines": [
+       14508
+      ]
+     }
+    ]
+   }
+  },
+  "lpc": {
+   "S1": {
+    "layer": "LOADED",
+    "records": [
+     "lpc.source.cyprian-minor-pastoral-treatises"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "line": 50424,
+      "snippet": "Cyprian, Three Books of Testimonies Against the Jews (Ad Quirinum)"
+     },
+     {
+      "file": "cic/texts/npnf107_augustine-homilies-john-soliloquies.xml",
+      "line": 2304,
+      "snippet": "Tractates on John: 'the Jews crucified that very flesh'"
+     },
+     {
+      "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+      "line": 39376,
+      "snippet": "City of God XVIII.46: the Jews as the people to whom God 'bears this testimony'"
+     },
+     {
+      "file": "cic/texts/npnf108_augustine-exposition-psalms.xml",
+      "line": 11098,
+      "snippet": "On Psalm 59: 'Slay them not, lest sometime they forget Thy law'"
+     },
+     {
+      "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+      "line": 34684,
+      "snippet": "Augustine Ep. 82 to Jerome: may Jewish converts keep the law?"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "[Jews] 330 draft records and none on Jews; Ad Quirinum is a title in a source record. Augustine's 'witness people' doctrine - the most consequential Latin teaching on the Jews - is loaded in three places. Belongs to the LPC thread. [Jewish practices / Jewish Christians] No record.",
+    "verified": []
+   },
+   "S2": {
+    "layer": "RENDERED*",
+    "records": [
+     "lpc.story.the-death-of-cyprian",
+     "lpc.limit.the-outsiders-own-view"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "line": 45609,
+      "snippet": "Cyprian, To Demetrianus"
+     },
+     {
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "line": 46328,
+      "snippet": "Cyprian, On the Vanity of Idols"
+     },
+     {
+      "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+      "line": 16279,
+      "snippet": "City of God: 'all the gods of the nations are demons'"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "The outsider's-view limit already names Demetrianus's charge. Gods-as-demons, festivals and idol-food are loaded (Cyprian and City of God) and unrendered.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "LOADED",
+    "records": [
+     "lpc.force.congregational-acclamation-overriding-preference"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+      "line": 0,
+      "snippet": "City of God VIII on the Platonists (section cited, line not pulled)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Cyprian 'a trained rhetorician' is the only rendered trace.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "OUT-OF-WINDOW",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Window 246-430 ends before 632; Muslims are out of window, not a gap. No honest_limit says so in the voice. "
+   },
+   "S5": {
+    "layer": "LOADED",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+      "line": 0,
+      "snippet": "Ep. 102 to Deogratias (why Christ came so late; those before him) - section cited"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Every 'outside the church' record is about sacramental validity, not anyone's salvation.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "records": [
+     "lpc.term.compel-them-to-come-in",
+     "lpc.demo.compel-three-phase",
+     "lpc.contested.compel-coercion-development",
+     "lpc.gravity.preaching-and-catechesis"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/augustine_de-catechizandis-rudibus-lat-eng_christopher1926.txt",
+      "line": 256,
+      "snippet": "De catechizandis rudibus, English, on instructing the pagan inquirer"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "R-38 ground is the best in the fleet: three phases, with the historiographical doubt held as Contested. 'How' is loaded in De catechizandis rudibus.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "lpc.force.manichaeism-and-pelagian-anthropology",
+     "lpc.witness.violence-commanded-not-cruel",
+     "lpc.term.heresy",
+     "lpc.term.schism"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "",
+    "verified": []
+   },
+   "S8": {
+    "layer": "RENDERED*",
+    "records": [
+     "lpc.limit.the-outsiders-own-view"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "C11-03 honestly limited (Demetrianus's charge named). Draft records only.",
+    "verified": []
+   }
+  },
+  "pahc": {
+   "S1": {
+    "layer": "RENDERED*",
+    "records": [
+     "pahc.witness.hard-texts",
+     "pahc.quote.polycrates-to-victor"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "line": 17294,
+      "snippet": "Dialogue with Trypho (whole work; 124 'Trypho' lines; Greek also vendored)"
+     },
+     {
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "line": 2563,
+      "snippet": "Diognetus: 'nor hold to the superstition of the Jews'"
+     },
+     {
+      "file": "cic/texts/aristides_apology-syriac-grc-eng_harris-robinson1893.txt",
+      "line": 1056,
+      "snippet": "Aristides, whose editor notes 'the friendly tone in which the Jews are spoken of'"
+     },
+     {
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "line": 6038,
+      "snippet": "Ignatius, Magnesians 10: 'to profess Christ Jesus, and to Judaize'"
+     },
+     {
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "line": 17973,
+      "snippet": "Dialogue 47: believers who 'observe the law' - Trypho's charge and Justin's two kinds"
+     },
+     {
+      "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+      "line": 12935,
+      "snippet": "Didache 8: 'let not your fasts be with the hypocrites'"
+     },
+     {
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "line": 18367,
+      "snippet": "Dialogue 16-19: 'we too would observe the fleshly circumcision'"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "[Jews] The one surviving second-century dialogue with a Jew is vendored twice and has no record; only Marcion's rejection of the Jewish God is rendered, through opponents. Barnabas (supersessionist) is in the same volume. [Jewish practices / Jewish Christians] The Quartodeciman Passover is verified but filed F3-I (retrieval on this question not guaranteed). Dialogue 47 - the one patristic text that says Jewish Christians keeping the law 'will be saved' - is loaded and unrendered.",
+    "verified": [
+     {
+      "record": "pahc.quote.polycrates-to-victor",
+      "result": "MATCH",
+      "file": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+      "lines": [
+       72578,
+       72614
+      ]
+     }
+    ]
+   },
+   "S2": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.witness.outsider-view",
+     "pahc.quote.lucian-all-brothers",
+     "pahc.witness.outside-our-community"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "line": 14142,
+      "snippet": "1 Apology 6: 'we confess that we are atheists, so far as gods of this sort are concerned'"
+     },
+     {
+      "file": "cic/texts/anf03_tertullian.xml",
+      "line": 4962,
+      "snippet": "Tertullian, On Idolatry (feasts, trades, weddings with pagans; c. 200, mapped)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "F3-E answered (f3-e-03 ground in Pliny and Lucian, no demo tagged). Eating and weddings with pagans: Tertullian's De idololatria is mapped and unrendered.",
+    "verified": [
+     {
+      "record": "pahc.quote.lucian-all-brothers",
+      "result": "MATCH",
+      "file": "lucian_works-vol4-peregrine_fowler1905.txt",
+      "lines": [
+       1049
+      ]
+     }
+    ]
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.quote.justin-reasonable-livers",
+     "pahc.quote.moses-is-more-ancient",
+     "pahc.quote.justin-flame-kindled",
+     "pahc.witness.scripture-and-testimony"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The only world where 'atheists' (C11-22) is rendered: Justin's reasonable livers 'have been thought atheists'.",
+    "verified": [
+     {
+      "record": "pahc.quote.justin-reasonable-livers",
+      "result": "MATCH",
+      "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": [
+       15684
+      ]
+     },
+     {
+      "record": "pahc.quote.moses-is-more-ancient",
+      "result": "MATCH",
+      "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": [
+       15608
+      ]
+     },
+     {
+      "record": "pahc.quote.justin-flame-kindled",
+      "result": "MATCH",
+      "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": [
+       17851
+      ]
+     }
+    ]
+   },
+   "S4": {
+    "layer": "OUT-OF-WINDOW",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Window 70-200 ends before 632; Muslims are out of window, not a gap. No honest_limit says so in the voice. "
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.witness.outside-our-community",
+     "pahc.quote.justin-reasonable-livers",
+     "pahc.quote.those-who-lived-reasonably-are-christians",
+     "pahc.term.two-ways"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "The fleet's best S6: both answers held unreconciled, with a not_for against the pluralist reading. Duplicate quote records noted in the summary.",
+    "verified": [
+     {
+      "record": "pahc.quote.justin-reasonable-livers",
+      "result": "MATCH",
+      "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": [
+       15684
+      ]
+     },
+     {
+      "record": "pahc.quote.those-who-lived-reasonably-are-christians",
+      "result": "MATCH",
+      "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": [
+       15686
+      ]
+     }
+    ]
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.quote.lucian-all-brothers",
+     "pahc.story.two-ways-catechumen",
+     "pahc.demo.identity-collision-someone-like-me"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf03_tertullian.xml",
+      "line": 8688,
+      "snippet": "Ad Scapulam 2: 'it is no part of religion to compel religion - to which free-will and not force should lead us'"
+     },
+     {
+      "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+      "line": 5140,
+      "snippet": "Lactantius V.19: 'religion cannot be imposed by force; the matter must be carried on by words rather than by blows'"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "R-38's two classic texts are both mapped to this world (Tertullian c. 212, Lactantius c. 310, both outside the window) and unrendered.",
+    "verified": [
+     {
+      "record": "pahc.quote.lucian-all-brothers",
+      "result": "MATCH",
+      "file": "lucian_works-vol4-peregrine_fowler1905.txt",
+      "lines": [
+       1049
+      ]
+     }
+    ]
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.contested.rivals-undefeated",
+     "pahc.force.contemporary-rival-movements",
+     "pahc.gravity.boundary-drawing",
+     "pahc.quote.asia-rejected-new-prophecy"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Rivals held as live, undefeated neighbours, through hostile witnesses only.",
+    "verified": [
+     {
+      "record": "pahc.quote.asia-rejected-new-prophecy",
+      "result": "MATCH",
+      "file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+      "lines": [
+       11308
+      ]
+     }
+    ]
+   },
+   "S8": {
+    "layer": "RENDERED",
+    "records": [
+     "pahc.witness.outsider-view",
+     "pahc.quote.justin-reasonable-livers",
+     "pahc.quote.lucian-all-brothers",
+     "pahc.demo.identity-collision-someone-like-me"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Fullest: outsider view, atheism charge (Justin, verified), Lucian's 'all brothers' (verified), R-37 demo. Nothing on India.",
+    "verified": [
+     {
+      "record": "pahc.quote.justin-reasonable-livers",
+      "result": "MATCH",
+      "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+      "lines": [
+       15684
+      ]
+     },
+     {
+      "record": "pahc.quote.lucian-all-brothers",
+      "result": "MATCH",
+      "file": "lucian_works-vol4-peregrine_fowler1905.txt",
+      "lines": [
+       1049
+      ]
+     }
+    ]
+   }
+  },
+  "rzg": {
+   "S1": {
+    "layer": "LOADED",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/calvin_commentaries-genesis-vol1_king1847.txt",
+      "line": 22925,
+      "snippet": "'I omit the Jews, whose blindness is...'"
+     },
+     {
+      "file": "cic/texts/zwingli_latin-works-correspondence-vol3_heller1929.txt",
+      "line": 11996,
+      "snippet": "True and False Religion: 'more shameless in our lives than even the Turks and Jews'"
+     },
+     {
+      "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt",
+      "line": 21707,
+      "snippet": "Institutes: 'a stubborn and rebellious generation' (117 'Jews' lines, mostly exegetical)"
+     },
+     {
+      "file": "cic/texts/zwingli_selected-works_jackson1901.txt",
+      "line": 625,
+      "snippet": "Of Choice and Liberty of Foods: 'how trifling will the fasts of the Jews become'"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "[Jews] No record. [Jewish practices / Jewish Christians]",
+    "verified": []
+   },
+   "S2": {
+    "layer": "LOADED",
+    "records": [
+     "rzg.witness.a-narrow-true-church"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/zwingli_selected-works_jackson1901.txt",
+      "line": 2601,
+      "snippet": "'as also a heathen called...' (Zwingli citing a pagan author)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "'Pagans' for this world are Rome's 'idolatry' (rendered in the narrow-true-church witness) and the ancients. No honest_limit says there were no pagans to meet.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "LOADED",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt",
+      "line": 7091,
+      "snippet": "Institutes I.5 on the philosophers"
+     },
+     {
+      "file": "cic/texts/zwingli_latin-works-correspondence-vol3_heller1929.txt",
+      "line": 633,
+      "snippet": "'Plato, Seneca, and Cicero - whom he concedes to have uttered...'"
+     },
+     {
+      "file": "cic/texts/calvin_institutes-christian-religion-vol2_beveridge1845.txt",
+      "line": 27242,
+      "snippet": "Institutes III: Camillus and pagan virtue (cf. II.3.4)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Zurich and Geneva were humanist cities and hold no record on philosophy or pagan authors.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "LOADED",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/calvin_institutes-christian-religion-vol2_beveridge1845.txt",
+      "line": 16161,
+      "snippet": "Institutes III.20: 'they know no more of praying aright than do the Turks or any other heathen'"
+     },
+     {
+      "file": "cic/texts/calvin_institutes-christian-religion-vol3_beveridge1845.txt",
+      "line": 42867,
+      "snippet": "index: 'Mahometans, while they denounce idolatry, substitute an idol in the place of God, i. 403' (= II.6.4; the page itself not located by OCR)"
+     },
+     {
+      "file": "cic/texts/zwingli_latin-works-correspondence-vol3_heller1929.txt",
+      "line": 15530,
+      "snippet": "'you persecute it more cruelly than any Turks'"
+     },
+     {
+      "file": "cic/texts/calvin_letters-vol1_bonnet1858.txt",
+      "line": 4999,
+      "snippet": "'the Turk will not remain quiet' (26 lines of political news)"
+     },
+     {
+      "file": "cic/texts/lucaris_lettres-anecdotes-fra_amsterdam1718.txt",
+      "line": 1853,
+      "snippet": "Lucaris letters (Constantinople patriarch): 'the Alcoran gives liberty of conscience to the Infidels' (French; mapped to rzg, unrendered)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "One of only two worlds inside Islam's era; no record. Loaded: Institutes III.20 ('Turks or any other heathen'), Zwingli on 'Turks', Calvin letters (26 lines on the Turk), Lucaris letters (Ottoman Constantinople, 'Alcoran'), Quick's Synodicon. C11-07/17 would get silence; the nearest rendered thing is witt-style prayer language, which rzg lacks.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "RENDERED*",
+    "records": [
+     "rzg.witness.a-narrow-true-church"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt",
+      "line": 0,
+      "snippet": "Institutes II.2.15-16 (gifts of the Spirit in pagan writers) - section cited"
+     }
+    ],
+    "identified": [
+     {
+      "source": "Zwingli, Exposition of the Faith (1531) - Socrates, Hercules, Cato among the saved; Latin Works vol. 2 (Hinke 1922) is the one Zwingli volume not vendored",
+      "where": "registered by C3 as unvendored; not in download-queue-seed by the terms used"
+     }
+    ],
+    "other": [],
+    "note": "The F6-T record is Contested and a guard: not_for 'a claim about whether those outside this church were damned'. The famous Zwinglian answer to C11-09 is unvendored.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "RENDERED*",
+    "records": [
+     "rzg.witness.defending-the-anabaptist-suppression",
+     "rzg.witness.triple-refusal",
+     "rzg.force.counter-reformation-sustained-pressure"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/rilliet_calvin-and-servetus_tweedie1846.txt",
+      "line": 1,
+      "snippet": "Rilliet, Calvin and Servetus (vendored)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "R-38 from the compeller's side only; nothing on converting a Jew, Turk or pagan.",
+    "verified": []
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "rzg.witness.defending-the-anabaptist-suppression",
+     "rzg.contested.anabaptist-schism-legitimacy",
+     "rzg.witness.a-narrow-true-church"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "",
+    "verified": []
+   },
+   "S8": {
+    "layer": "LOADED",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/zwingli_latin-works-correspondence-vol3_heller1929.txt",
+      "line": 633,
+      "snippet": "'Plato, Seneca, and Cicero - whom he concedes to have uttered...'"
+     }
+    ],
+    "identified": [],
+    "other": [
+     {
+      "source": "Zwingli, Exposition of the Faith (Latin Works vol. 2, Hinke 1922), Socrates and Hercules among the saved",
+      "where": "unvendored"
+     }
+    ],
+    "note": "No record, no demo.someone-like-me. Loaded: Institutes II.2.15-16 (gifts of the Spirit in pagan writers), Zwingli on 'Plato, Seneca, and Cicero' (Latin Works vol. 3 line 633).",
+    "verified": []
+   }
+  },
+  "syr": {
+   "S1": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.term.anti-jewish-polemic",
+     "syr.quote.aphrahat-anti-jewish-frame",
+     "syr.quote.a-man-called-wise-amongst-the-jews",
+     "syr.dw.unsettled",
+     "syr.dw.failures",
+     "syr.demo.someone-like-me"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/addai_doctrine-of-addai.txt",
+      "line": 29,
+      "snippet": "Doctrine of Addai: Abgar wishes 'to go and destroy' 'those Jews who crucified Him'"
+     },
+     {
+      "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "line": 20337,
+      "snippet": "Ephrem, Nisibene Hymns: 'the peoples He separates from the People'"
+     }
+    ],
+    "identified": [
+     {
+      "source": "Aphrahat, Demonstrations XI-XIX (circumcision, Passover, Sabbath, foods, the peoples) - not vendored in English; NPNF 13 holds only I, V, VI, VIII, X, XVII, XXI, XXII and Hallock 1932 only II and VII",
+      "where": "syr.source.aphrahat-select-demonstrations names the selection; the term's not_for already says the four-Demonstration scope is 'scholarship's reading', i.e. Koltun-Fromm (registered unvendored, WANTS-REGISTER rank 3)"
+     }
+    ],
+    "other": [],
+    "note": "[Jews] The best-guarded S1 in the fleet: every record carries 'no verdict on Jewish people or practice today', 'no invented Jewish reply', 'no invented in-world dissent'. Blame for the crucifixion is loaded in the Addai legend (told as legend) and unrendered. Caution: npnf213 lines 1028-1055 on Jews and synagogues are Gregory the Great, who shares the volume. [Jewish practices / Jewish Christians] The term names the topics argued (circumcision, Sabbath, dietary law, Passover dating) but the texts that argue them are not in the Library in English.",
+    "verified": [
+     {
+      "record": "syr.quote.aphrahat-anti-jewish-frame",
+      "result": "MATCH",
+      "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "lines": [
+       27100
+      ]
+     },
+     {
+      "record": "syr.quote.a-man-called-wise-amongst-the-jews",
+      "result": "MATCH (spacing-only)",
+      "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "lines": [
+       27421
+      ]
+     }
+    ]
+   },
+   "S2": {
+    "layer": "RENDERED*",
+    "records": [
+     "syr.force.frontier-plural-milieu",
+     "syr.story.edessa-flood-201"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+      "line": 60923,
+      "snippet": "Acts of Sharbil: the pagan high priest of Edessa converted and martyred"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "A plural milieu is named; nothing on gods, festivals or temples. Sharbil's conversion is loaded and unrendered.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.quote.tatian-born-assyrian",
+     "syr.quote.tatian-barbaric-writings",
+     "syr.force.raza-inheritance"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "'The barbarian philosophy' is the Syriac answer, verified; both quotes carry not_fors about Tatian's distance from Edessa and the window.",
+    "verified": [
+     {
+      "record": "syr.quote.tatian-born-assyrian",
+      "result": "MATCH",
+      "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": [
+       7457
+      ]
+     },
+     {
+      "record": "syr.quote.tatian-barbaric-writings",
+      "result": "MATCH",
+      "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "lines": [
+       6970
+      ]
+     }
+    ]
+   },
+   "S4": {
+    "layer": "OUT-OF-WINDOW",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "verified": [],
+    "note": "Window 200-410 ends before 632; Muslims are out of window, not a gap. No honest_limit says so in the voice. Only non-Muslim traces: The other religion this world actually met is Zoroastrian Persia (the Magi), rendered and verified. Muslims: out of window (200-410); term.madrasha's false friend ('madrasa') is the only guard. India "
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.dw.death-judgment"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "'The one way was understood as planted everywhere, for everyone'; 'confidence in the Judge, not in a roster'. Emic, guarded against a verdict on the asker.",
+    "verified": []
+   },
+   "S6": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.dw.one-church",
+     "syr.quote.as-a-stonecutter-i-have-brought-stones",
+     "syr.story.abgar-addai-legend",
+     "syr.demo.someone-like-me"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "'Not with councils or force, in these years, but by keeping the line clear' answers R-38 emically; 'brethren who are apt for persuasion' is verified ground.",
+    "verified": [
+     {
+      "record": "syr.quote.as-a-stonecutter-i-have-brought-stones",
+      "result": "MATCH",
+      "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+      "lines": [
+       27084
+      ]
+     }
+    ]
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "syr.gravity.heresiological-self-definition",
+     "syr.force.rival-movements",
+     "syr.contested.bardaisan-nicene-floor",
+     "syr.dw.god"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt",
+      "line": 22,
+      "snippet": "Prose Refutations of Mani, Marcion, and Bardaisan (vendored)"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Marcion, Bardaisan, Mani named; the flattening is confessed as Ephrem's own construction.",
+    "verified": []
+   },
+   "S8": {
+    "layer": "RENDERED*",
+    "records": [
+     "syr.demo.someone-like-me",
+     "syr.force.frontier-plural-milieu"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+      "line": 7420,
+      "snippet": "Bardaisan, Book of the Laws of Countries: the Brahmans and Indians"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "R-37 and a plural frontier milieu. India (C11-18): Bardaisan's Book of the Laws of Countries on the Brahmans is loaded (anf08 line 7420) and unrendered. Nothing on atheists.",
+    "verified": []
+   }
+  },
+  "witt": {
+   "S1": {
+    "layer": "RENDERED*",
+    "records": [
+     "witt.dw.what-we-have-never-settled",
+     "witt.contested.1543-treatise-later-effect",
+     "witt.term.the-turk",
+     "witt.force.the-turk"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/luther_table-talk_bell1886.txt",
+      "line": 1040,
+      "snippet": "Table Talk: 'That the Jews have better Teachers and Writers of the Holy Scriptures' (Contested as verbatim per the world's own discipline)"
+     },
+     {
+      "file": "cic/texts/luther_works-v3-selected_various1930.txt",
+      "line": 2657,
+      "snippet": "'unbelievers, heathen and Jews'"
+     },
+     {
+      "file": "cic/texts/luther_large-catechism_bente-dau1921.txt",
+      "line": 2960,
+      "snippet": "LC: 'heathen, Turks, Jews, or false Christians and hypocrites'"
+     }
+    ],
+    "identified": [
+     {
+      "source": "Luther, That Jesus Christ Was Born a Jew (1523)",
+      "where": "witt.source.luther-that-jesus-christ-was-born, kind unvendored; WANTS-REGISTER rank 0"
+     },
+     {
+      "source": "Luther, Von den Juden und ihren Luegen (1543)",
+      "where": "witt.source.luther-von-den-juden-und-ihren-l, kind unvendored; reaches the library only through Wikipedia (witt.source.wikipedia-on-the-jews-and-their-lies) and Kaufmann/Wallmann, all unvendored"
+     }
+    ],
+    "other": [
+     {
+      "source": "Luther, Against the Sabbatarians (1538), WA 50 (1914), German; no PD English",
+      "where": "not registered anywhere in the repo"
+     }
+    ],
+    "note": "[Jews] Honest by design: the 1543 treatise is 'disclosed at existence only', and the not_for forbids narrating its content. The guard holds. But because 1523 and 1543 are both unvendored, the voice cannot tell the arc from friendly to murderous in Luther's words, and the loaded Table Talk softening could be pulled unbalanced. [Jewish practices / Jewish Christians] Nothing.",
+    "verified": []
+   },
+   "S2": {
+    "layer": "RENDERED*",
+    "records": [
+     "witt.term.to-have-a-god-is-to-trust",
+     "witt.term.saints"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "'Idol' is redefined as whatever the heart trusts; no pagans to meet in Saxony and no honest_limit saying so.",
+    "verified": []
+   },
+   "S3": {
+    "layer": "RENDERED*",
+    "records": [
+     "witt.term.free-will",
+     "witt.term.martyr",
+     "witt.force.reformed-rival-by-absence"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt",
+      "line": 639,
+      "snippet": "Apology: preachers who 'explained the ethics of Aristotle' in place of a sermon"
+     },
+     {
+      "file": "cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt",
+      "line": 2347,
+      "snippet": "Apology: 'philosophers, Mahometans' who teach righteousness by reason"
+     }
+    ],
+    "identified": [],
+    "other": [],
+    "note": "Erasmus is rendered; the Apology's quarrel with Aristotle in the pulpit is loaded and unrendered.",
+    "verified": []
+   },
+   "S4": {
+    "layer": "RENDERED*",
+    "records": [
+     "witt.term.the-turk",
+     "witt.force.the-turk",
+     "witt.gravity.embattled-christendom",
+     "witt.story.diet-of-augsburg-1530"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt",
+      "line": 1640,
+      "snippet": "AC I: 'they condemn... Eunomians, Mohammedans, and all such'"
+     },
+     {
+      "file": "cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt",
+      "line": 11288,
+      "snippet": "Apology: 'just as the kingdom of Mahomet has services'"
+     },
+     {
+      "file": "cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt",
+      "line": 4557,
+      "snippet": "To the Christian Nobility (1520): the Turks 'have neither spiritual nor temporal law, but only their Koran', and 'no better temporal rule anywhere'"
+     },
+     {
+      "file": "cic/texts/gerlach_tage-buch-deu_1674.txt",
+      "line": 690,
+      "snippet": "Gerlach's Tage-Buch of the imperial embassy to the Ottoman Porte: Alcoran, wine forbidden by Mahomet (237 hits; eyewitness, German, mapped to witt, unrendered)"
+     }
+    ],
+    "identified": [
+     {
+      "source": "Luther, On War against the Turk (1529) and the 1543 preface to Bibliander's Qur'an",
+      "where": "not registered in the repo"
+     }
+    ],
+    "other": [],
+    "note": "Only rendered Muslim material in the fleet: term.the-turk and force.the-turk (an outside enemy prayed against; 'we give no other account of him'). C11-17 'what did they write' gets the prayer and nothing else. Loaded and unrendered: Gerlach's embassy diary (eyewitness Istanbul, 237 hits), Luther works v1-v3 on the Turks, the Book of Concord's AC I 'Mohammedans', Apology's 'Mahometans'. Luther's 1520 praise of Turkish rule is loaded per the earlier pass.",
+    "verified": []
+   },
+   "S5": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.dw.a-narrow-word-plainly-spoken",
+     "witt.quote.christs-return-to-judgment"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "Doctrine, not census; 'one way, not several among many'.",
+    "verified": [
+     {
+      "record": "witt.quote.christs-return-to-judgment",
+      "result": "MATCH",
+      "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+      "lines": [
+       435
+      ]
+     }
+    ]
+   },
+   "S6": {
+    "layer": "RENDERED*",
+    "records": [
+     "witt.demo.someone-like-me",
+     "witt.gravity.must-and-free"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "'We did not drive anyone toward it by force' is the R-38 line; nothing on converting Jews or Turks, whose texts are unvendored (above).",
+    "verified": []
+   },
+   "S7": {
+    "layer": "RENDERED",
+    "records": [
+     "witt.term.sects-and-new-spirits",
+     "witt.force.internal-radical-force",
+     "witt.quote.article-ix-of-baptism",
+     "witt.force.reformed-rival-by-absence"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "",
+    "verified": [
+     {
+      "record": "witt.quote.article-ix-of-baptism",
+      "result": "MATCH",
+      "file": "melanchthon_augsburg-confession_anon-pg275.txt",
+      "lines": [
+       309
+      ]
+     }
+    ]
+   },
+   "S8": {
+    "layer": "RENDERED*",
+    "records": [
+     "witt.limit.no-outsider-witness",
+     "witt.demo.someone-like-me",
+     "witt.term.to-have-a-god-is-to-trust"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "other": [],
+    "note": "C11-03 honestly limited; R-37 demo. 'Idol' redefined as what the heart trusts, which is the nearest thing to a view of other religions. Nothing on India.",
+    "verified": []
+   }
+  }
+ },
+ "verification_summary": {
+  "quotes_checked": 30,
+  "exact_match": 27,
+  "spacing_only_match": 3,
+  "not_matched": 0
+ },
+ "jewish_visitor": {
+  "_scope": "C11.S1 'I'm Jewish, what would you have said to my face' (C11-16, with C11-05, 06, 11, 12). Records only; no Representative answer is written. 'Guard' = the record's use_note.not_for. Hostile vendored text = Jew-hostile passages in files mapped to the world (cic/corpus-map), cited by file and line; shared volumes can carry another author's words.",
+  "_premise_correction": "alx has no anti-Jewish polemic record. Every alx record that names Jews or Hebrews is listed below (6 files: clement-schoolmaster, christological-reading, septuagint-inheritance, philonic-inheritance, allegoria, christ). Only syr holds a polemic record (syr.term.anti-jewish-polemic and two Aphrahat quotes).",
+  "worlds": {
+   "alx": {
+    "records": [
+     "alx.quote.clement-schoolmaster (Documented, F6-T)",
+     "alx.term.christological-reading (Widely Accepted)",
+     "alx.force.septuagint-inheritance",
+     "alx.force.philonic-inheritance"
+    ],
+    "guard_holds": "Partly. Nothing hostile is rendered. But no not_for names the supersession reading, and the schoolmaster quote retrieves on 'whether people outside the church had anything true', so a Jewish visitor can reach it.",
+    "wrong_if_bare": "Schoolmaster quote: 'as the law [was] to the Hebrews' tells the visitor the Law was a custodian that has done its work, in the voice's own mouth, with no marker that this is Clement's view and the view of one side. Christological-reading: 'what makes Christian interpretation different from Jewish interpretation' invites 'Jews read the same text without Christ'.",
+    "hostile_vendored": [
+     "anf04 Origen, Against Celsus, line 62905: the loss of land and home is laid on the Jews' crimes 'and especially upon their guilt in the treatment of Jesus'",
+     "npnf204 Athanasius, line 36486: 'the malice of the Jews who slew the Lord'",
+     "npnf201 Eusebius (799 Jew-term lines) and anf07 (47 hostile-word lines): not read through"
+    ],
+    "absent": "Blame for the crucifixion, harm done, Jewish Christians (Origen on Ebionites, anf04 line 32864, is loaded only)."
+   },
+   "cappadocian": {
+    "records": [
+     "cappadocian.story.basil-death-funeral (Widely Accepted)"
+    ],
+    "guard_holds": "Yes. not_for: 'the cross-religious mourning as independently confirmed, when it is the encomiast's claim'.",
+    "wrong_if_bare": "Without the guard: Jews grieving Basil would read as proof of good relations. With it the visitor still gets a flattering anecdote and no account of what the three said about Jews.",
+    "hostile_vendored": [
+     "npnf205 Nyssa, line 3906 ('after the manner of the Jews'; 79 Jew lines not read)",
+     "npnf207 Nazianzen/Cyril of Jerusalem, 185 hits, not traced to author"
+    ],
+    "absent": "Everything else."
+   },
+   "desert": {
+    "records": [],
+    "guard_holds": "Not applicable: no record. desert.source.bell-jews-christians-egypt is a Melitian papyri edition (Jews in the title only).",
+    "wrong_if_bare": "Nothing to quote bare; the risk is the voice improvising.",
+    "hostile_vendored": [
+     "No mapped work addresses Jews; the Jew hits come from shared volumes (anf04, npnf204, npnf206)."
+    ],
+    "absent": "Everything."
+   },
+   "don": {
+    "records": [],
+    "guard_holds": "Not applicable: no record.",
+    "wrong_if_bare": "Nothing to quote bare.",
+    "hostile_vendored": [
+     "npnf104 Augustine (412 Jew-term hits): line 5203 'the sevenfold penalty under which the Jews lie for the crucifixion of Christ'; line 5641 the Jews' preservation likened to Cain's mark. This is the Catholic side, not Donatist speech."
+    ],
+    "absent": "Everything."
+   },
+   "gallic": {
+    "records": [],
+    "guard_holds": "Not applicable: no record.",
+    "wrong_if_bare": "Nothing to quote bare.",
+    "hostile_vendored": [
+     "npnf211 (Sulpicius, Cassian; first hostile line 50138 'the unbelief of the Jews rejected'); salvian (12 Jew lines): not read in context"
+    ],
+    "absent": "Everything."
+   },
+   "hal": {
+    "records": [
+     "hal.quote.oea-tumult (Documented)",
+     "hal.story.oea-gourd (Documented)",
+     "hal.quote.no-one-preferred-to-the-seventy (Documented)",
+     "hal.gravity.hebraica-veritas / hal.term.hebraica-veritas",
+     "hal.contested.hebrew-fluency",
+     "hal.quote.partially-acquired-hebrew",
+     "hal.quote.paula-hebrew-psalms"
+    ],
+    "guard_holds": "No on the Oea story; yes on the quote. oea-tumult's not_for says it is not a neutral report. oea-gourd's text says the Jewish residents sided with the old version 'whether from ignorance or spite'; Augustine does write that (Ep. 71.5, npnf101 line 32546), but the story's not_for has no line against repeating it. The seventy-quote has no not_for on the Jews' own claim.",
+    "wrong_if_bare": "oea-gourd: the voice states, as the story's own words, that Jews acted from ignorance or spite, which is Augustine's guess about them. no-one-preferred: 'the Jews admit' Jerome's work is faithful, reported by Augustine, can sound like a Jewish endorsement.",
+    "hostile_vendored": [
+     "npnf206 Jerome, line 8405 ('the Jews who blasphemed Christ'), line 32621 ('the Jews mocked God crucified'); Jerome's own contempt is not rendered",
+     "npnf102 City of God XVIII.43"
+    ],
+    "absent": "The debt to named Jewish teachers is carried (the fluency contest); contempt, blame, harm are not."
+   },
+   "ijc": {
+    "records": [
+     "ijc.story.callinicum-synagogue (Documented, F6-P/F3-P)",
+     "ijc.limit.earlier-windows",
+     "ijc.demo.hypocrisy (F6-P-05)",
+     "ijc.gravity.episcopal-independence",
+     "ijc.quote.leo-sinner-be-glad"
+    ],
+    "guard_holds": "Yes on the story ('no voice' for the Jewish community; Ambrose not principled; not corroborated). Open_Gaps ijc line 153 logs a safety-adjacent check. One blur: earlier-windows says 'our own bishop kept unpunished', while the story says the Callinicum bishop urged the burning and Ambrose of Milan shielded it. Leo's 'gentile' (guarded as non-Jew) is addressed to non-Jews and offers a Jewish visitor nothing.",
+    "wrong_if_bare": "story: the visitor hears the harm owned, but the Jewish side only as a burned building. earlier-windows: the wrong bishop could be named.",
+    "hostile_vendored": [
+     "npnf210 Ambrose, Ep. 40, line 43280: 'a synagogue, a home of unbelief, a house of impiety, a receptacle of folly' (unrendered; the story gives only Ambrose's outcome)",
+     "npnf202 Socrates, line 19386: breach between Christians and Jews at Alexandria (415), unrendered",
+     "npnf111 Chrysostom, Acts/Romans homilies (1019 Jew-term lines, 19 hostile-word lines)",
+     "npnf104 Augustine"
+    ],
+    "absent": "Blame for the crucifixion; Jewish practice; Jewish Christians."
+   },
+   "lpc": {
+    "records": [],
+    "guard_holds": "Not applicable: no record (330 draft records; lpc.source.cyprian-minor-pastoral-treatises only names Ad Quirinum).",
+    "wrong_if_bare": "Nothing to quote bare.",
+    "hostile_vendored": [
+     "anf05 Cyprian, Testimonies Against the Jews (Ad Quirinum), line 50424, mapped as a work",
+     "npnf107 Augustine, Tractates on John, line 2304 ('the Jews crucified that very flesh')",
+     "npnf108 Augustine, Psalm 59, line 11098 ('Slay them not, lest they forget Thy law': the witness-people doctrine)",
+     "npnf102 City of God XVIII.46"
+    ],
+    "absent": "Everything, though this is the world with the most hostile and the most consequential text."
+   },
+   "pahc": {
+    "records": [
+     "pahc.witness.hard-texts (Inferential-Thin)",
+     "pahc.quote.polycrates-to-victor (Documented, F3-I)"
+    ],
+    "guard_holds": "Yes for hard-texts (Marcion via opponents; not a claim about the voices' feelings). polycrates retrieves on Easter-dating and Rome-versus-Asia questions, not on Jewish ones; its not_for says nothing on Jewish practice.",
+    "wrong_if_bare": "hard-texts used as 'what they thought of Jews' answers a question about Marcion. polycrates, asked 'did you keep Passover?', gives Asia's exact-day tradition with no note that the day is the Jewish Passover date.",
+    "hostile_vendored": [
+     "anf01 Barnabas (mapped as a work)",
+     "anf01 Justin, Dialogue with Trypho (mapped, Greek too; line 17294; the only second-century dialogue with a Jew)",
+     "anf01 Ignatius, Magnesians 10, line 6038 ('to Judaize')",
+     "anf03 Tertullian, An Answer to the Jews, line 12501 (file-level)"
+    ],
+    "absent": "Dialogue 47 (Jewish Christians who keep the Law 'will be saved') is loaded and unrendered."
+   },
+   "rzg": {
+    "records": [],
+    "guard_holds": "Not applicable: no record.",
+    "wrong_if_bare": "Nothing to quote bare.",
+    "hostile_vendored": [
+     "Calvin, Genesis, vol. 1, line 22925: 'I omit the Jews, whose blindness is well known'",
+     "Zwingli, Latin Works vol. 3, line 11996: 'more shameless in our lives than even the Turks and Jews'",
+     "Institutes (117 Jew lines, mostly exegetical)"
+    ],
+    "absent": "Everything."
+   },
+   "syr": {
+    "records": [
+     "syr.term.anti-jewish-polemic (Documented, F2-I/F6-T)",
+     "syr.quote.aphrahat-anti-jewish-frame (Dem. XVII.1, F6-T)",
+     "syr.quote.a-man-called-wise-amongst-the-jews (Dem. XXI.1-2)",
+     "syr.dw.unsettled",
+     "syr.dw.failures",
+     "syr.demo.someone-like-me (F6-P)",
+     "syr.quote.aphrahat-sure-thing (Dem. XVII.2) and syr.dw.was-jesus-god / syr.dw.jesus",
+     "syr.force.frontier-plural-milieu",
+     "syr.story.abgar-addai-legend"
+    ],
+    "guard_holds": "Yes, on every polemic record: no verdict on Jewish people or practice today, no invented Jewish reply, no invented Christian dissent, no claim that Jewish neighbours said what Aphrahat alleges. Gaps: frontier-plural-milieu ('a large Jewish community') and abgar-addai-legend (Tobia the Jew) have no Jewish-visitor guard but say nothing hostile.",
+    "wrong_if_bare": "Dem. XVII.1 alone: 'Jews who blaspheme the people gathered from among the Gentiles' sounds like a fact about what Jews did. Dem. XXI: an unnamed Jewish sage taunts the Christians and is called a blasphemer; the visitor hears the taunt only as Aphrahat retold it. sure-thing alone strips Jesus-is-God from its polemic frame.",
+    "hostile_vendored": [
+     "npnf213 Aphrahat Dem. XVII and XXI (these are the records' sources); Demonstrations XI-XIX are not vendored in English",
+     "addai_doctrine-of-addai line 29: Abgar wishes 'to go and destroy' 'those Jews who crucified Him' (told as legend, unrendered)",
+     "npnf202 Sozomen II.9, line 28900: 'the Magi, with the co-operation of the Jews, quickly destroyed the houses of prayer' (the Symeon quote stops before it)",
+     "npnf213 Ephrem, Nisibene Hymns, line 20337"
+    ],
+    "absent": "Blame for the crucifixion (Addai legend only); Jewish practice texts."
+   },
+   "witt": {
+    "records": [
+     "witt.dw.what-we-have-never-settled (Contested)",
+     "witt.contested.1543-treatise-later-effect (Contested)",
+     "witt.term.the-turk (world_word)",
+     "witt.force.the-turk",
+     "witt.quote.christs-return-to-judgment (AC XVII, Documented, F6-T)",
+     "witt.core.witt (thinness note)"
+    ],
+    "guard_holds": "Yes on the 1543 treatise: disclosed at existence only, and not_for forbids narrating its content; the voice may not answer its later effect either way. Weak spot: the term.the-turk world_word says the Turk is 'named with pope and Jews as outside Christianity, one of the devil's instruments', and its not_for guards only the modern-political reading of 'the Turk'. AC XVII's 'certain Jewish opinions' is guarded as not naming who is ungodly.",
+    "wrong_if_bare": "what-we-have-never-settled: the visitor hears that a treatise against the Jews exists and nothing else; the 1523 'born a Jew' text, which would show the arc, is unvendored. the-turk bare: Jews filed under the devil's instruments.",
+    "hostile_vendored": [
+     "luther_large-catechism line 2960: 'heathen, Turks, Jews, or false Christians and hypocrites'",
+     "luther_works-v3 line 2657",
+     "luther_table-talk line 1040 (Contested as verbatim)",
+     "Von den Juden (1543) and Dass Jesus Christus ein geborner Jude sei (1523): identified, unvendored"
+    ],
+    "absent": "Blame, harm done in the founder's own words; Jewish practice (Luther against the Sabbatarians is not registered)."
+   }
+  }
+ },
+ "findings": [
+  "No vendored text in the Library is a Jewish voice: no Josephus, no rabbinic text, no Philo in cic/texts. Every Jewish voice a world can reach is a Christian's report of one (Aphrahat's sage, Augustine's Oea Jews). C11-02 (adding rabbis, Josephus) is a Library gap, not a records gap.",
+  "The Jewish visitor reaches records in only alx, cappadocian, hal, ijc, pahc, syr, witt. Syr's are the best guarded in the fleet. Three unguarded edges: hal.story.oea-gourd ('ignorance or spite'), alx.quote.clement-schoolmaster (supersession), witt.term.the-turk world_word (Jews as the devil's instruments). Five worlds have nothing (desert, don, gallic, lpc, rzg) while lpc and rzg map hostile text.",
+  "Muslims: only witt (a prayer against the Turk) and rzg (nothing) are in window; both map firsthand Ottoman material (Gerlach, Lucaris) that no record uses. Ten worlds are out of window and none says so.",
+  "Canon cells: no demonstration for f6-t-02 ('too narrow', C11-01) in any world, and none for f3-p-03 (temples and the old gods). Cappadocian has nothing on whether a good pagan is saved (C11-09) although its Open_Gaps already logs it."
+ ],
+ "not_checked": [
+  "canon/sealed_probes/ was not read. Nothing was fetched; OTHER-layer rows are working knowledge.",
+  "Whole-file hits in shared NPNF/ANF volumes may belong to other authors; hostile-text lists are not read through.",
+  "Readability of spoken fields was not graded. lpc records are drafts; their presence in the compiled package was not checked.",
+  "The Jew-hostile text lists use top-8-per-world tool output plus targeted greps, not an exhaustive scan of every mapped file."
+ ]
+}

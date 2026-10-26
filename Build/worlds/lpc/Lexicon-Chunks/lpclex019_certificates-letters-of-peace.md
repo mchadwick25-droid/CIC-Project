@@ -60,7 +60,7 @@ Cyprian's own crisis correspondence, Registry row 1 (Confidence A), where the wh
 
 **Attestation, stated at the two figures it actually has.** *"Certificate"* and *"certificates"* occur **42 times within the `div1` titled *Cyprian***, of which **4 sit inside `<note>` elements — the 19th-century editorial apparatus — leaving 38 in Cyprian's own text.** The rule, so it can be re-run: case-insensitive `certificates?`, scoped to that `div1` rather than the whole bound volume, which also carries Hippolytus; note spans marked *before* tags are stripped, since stripping first makes the editorial matter indistinguishable from the text. **38 is the figure that attests the term; 42 is the figure a naive sweep returns**, and the gap between them is this corpus's standing hazard.
 
-In Cyprian's own sentence (Epistle XIV) the text reads *"were **daily** given, **contrary to the law of the Gospel**"*. The wording *"thousands of certificates were given, against the Gospel law"* is the editorial endnote's, and this entry does not use it.
+In Cyprian's own sentence (Epistle XIV) the text reads *"thousands of certificates were **daily** given, **contrary to the law of the Gospel**"* (`anf05` line 30204; Hartel's Latin *libellorum milia*). The wording *"thousands of certificates were given, against the Gospel law"* is the editorial endnote's, and this entry does not use it.
 
 The Latin word behind "certificate" in these letters is *libellus*, the same word as for the Decian sacrifice-certificate (`lpclex017`). Latin *libellus* in Cyprian also names the martyrs' petitions (Hartel letter 15 §4; letter 27 §1). The two entries keep the English word apart. The Latin does not make that split.
 

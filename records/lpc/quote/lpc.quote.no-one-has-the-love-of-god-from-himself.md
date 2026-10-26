@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F1-T
+use_note:
+  means: "Augustine reads Paul to say God's love is poured into the heart by the Holy Spirit, so no one has it from himself."
+  not_for:
+    - "a claim that the passage names Paul or the Pelagians"
+    - "a claim that it replies to the Pelagians"
+    - "a claim that it sets out a whole doctrine of grace"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

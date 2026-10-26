@@ -7,6 +7,15 @@ status: draft
 register: emic
 canon_cells:
 - F6-E
+use_note:
+  means: "Cyprian says Numidicus, left for dead, stayed behind against his will and joins the presbyters."
+  not_for:
+    - "a claim about where his daughter searched or found him"
+    - "a claim that gives the wife's or the daughter's name or words"
+    - "a claim that 'burned, preserved' is a cold word game rather than a naming of a martyr's completion"
+    - "a claim that the Latin certainly says 'unconquered' rather than 'unwillingly'"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

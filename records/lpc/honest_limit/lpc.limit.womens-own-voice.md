@@ -8,6 +8,13 @@ register: emic
 demo_tag: exclude
 canon_cells:
 - F6-P
+use_note:
+  means: "Women like Numeria and Candida come to us in men's words, and no writing by a woman of our own survives."
+  not_for:
+    - "a claim that a woman's own writing survives"
+    - "a claim that a woman's spoken words set down by a man are her own writing"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-direct

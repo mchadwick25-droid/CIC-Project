@@ -7,6 +7,14 @@ status: draft
 register: etic
 canon_cells:
 - F6-I
+use_note:
+  means: "The two bishops split on whether a baptism or ordination outside the church is real."
+  not_for:
+    - "a claim that the two answered alike"
+    - "a claim that the disagreement broke communion"
+    - "a claim that the question is thinly evidenced"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority

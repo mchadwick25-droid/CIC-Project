@@ -1,0 +1,1325 @@
+{
+ "generated": "2026-10-26",
+ "method": {
+  "tool": "scratchpad/tools/coverage_search.py, --regex --whole-words, seven term sets (search/C10/terms.txt)",
+  "rerun": "S1 to S5 had no JSON (empty or missing in the earlier pass); re-run on 26 Oct 2026, each exit 0, stderr empty. S6 and S7 were kept.",
+  "record_check": "recgrep.py (earlier) and tight.py (this pass: narrower regexes, front matter only)",
+  "verification": "verify.py (earlier agent and this pass) plus hand checks of every MISMATCH against the vendored line",
+  "layers": "RENDERED (R*: honest_limit or guard only), LOADED, IDENTIFIED (kept in each cell's identified list, not a table code), OTHER, NOTHING"
+ },
+ "sub_questions": [
+  {
+   "id": "C10.S1",
+   "label": "Was wealth a sin; the rich young man; the camel; prosperity teaching",
+   "canonical": "C10-01",
+   "ids": [
+    "C10-01",
+    "C10-07",
+    "C10-10",
+    "C10-18",
+    "C10-19"
+   ]
+  },
+  {
+   "id": "C10.S2",
+   "label": "Giving: tithe, alms, almsgiving and forgiveness",
+   "canonical": "C10-02",
+   "ids": [
+    "C10-02",
+    "C10-16"
+   ]
+  },
+  {
+   "id": "C10.S3",
+   "label": "Sharing in common as in Acts",
+   "canonical": "C10-12",
+   "ids": [
+    "C10-12"
+   ]
+  },
+  {
+   "id": "C10.S4",
+   "label": "Care for the poor, widows, orphans, the sick, non-Christians",
+   "canonical": "C10-06",
+   "ids": [
+    "C10-06",
+    "C10-15",
+    "C10-22"
+   ]
+  },
+  {
+   "id": "C10.S5",
+   "label": "Usury and lending",
+   "canonical": "C10-08",
+   "ids": [
+    "C10-08"
+   ]
+  },
+  {
+   "id": "C10.S6",
+   "label": "Who paid for churches and bishops; accounts, corruption, taking from the poor, paying to belong",
+   "canonical": "C10-09",
+   "ids": [
+    "C10-09",
+    "C10-14",
+    "C10-17",
+    "C10-20",
+    "C10-21"
+   ]
+  },
+  {
+   "id": "C10.S7",
+   "label": "Work and class: jobs a Christian could not do, who the members were, who paid for the way of life",
+   "canonical": "C10-03",
+   "ids": [
+    "C10-03",
+    "C10-04",
+    "C10-05",
+    "C10-11",
+    "C10-13"
+   ]
+  }
+ ],
+ "canon_demonstrations": {
+  "F5-T (money and poverty; canon f5-t-02)": {
+   "alx": 0,
+   "cappadocian": 0,
+   "desert": 0,
+   "don": 0,
+   "gallic": 0,
+   "hal": 0,
+   "ijc": 0,
+   "lpc": 0,
+   "pahc": 0,
+   "rzg": 0,
+   "syr": 0,
+   "witt": 0
+  },
+  "F4-T (tithe; canon f4-t-02)": {
+   "alx": 0,
+   "cappadocian": 0,
+   "desert": 0,
+   "don": 0,
+   "gallic": 0,
+   "hal": 0,
+   "ijc": 0,
+   "lpc": 0,
+   "pahc": 0,
+   "rzg": 0,
+   "syr": 0,
+   "witt": 0
+  },
+  "F5-I (work; canon f5-i-07)": {
+   "alx": 0,
+   "cappadocian": 0,
+   "desert": 0,
+   "don": 0,
+   "gallic": 0,
+   "hal": 0,
+   "ijc": 0,
+   "lpc": 0,
+   "pahc": 0,
+   "rzg": 0,
+   "syr": 0,
+   "witt": 0
+  },
+  "_other_demos_in_these_cells": {
+   "F4-T": {
+    "don": "born-again (f4-t-01)",
+    "hal": "born-again (f4-t-01)"
+   },
+   "F5-I": {
+    "alx": "women-own-words (f5-i-03)",
+    "gallic": "women-own-words (f5-i-03)",
+    "hal": "women-own-words (f5-i-03)",
+    "ijc": "ordinary-day (f5-i-01)",
+    "witt": "women-own-words (f5-i-03)"
+   }
+  },
+  "_note": "Counted from records/*/demonstration front matter (canon_cells, canon_question_id); the cell-tag counts on other record types are in cell_tags."
+ },
+ "worlds": {
+  "alx": {
+   "S1": {
+    "layer": "R",
+    "records": [
+     "alx.quote.clement-possessions",
+     "alx.quote.couches-and-trenchers-and-bowls"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Clement, Quis dives 16 (tagged F5-T, F4-T): possessions as gifts, master not slave; not_for forbids \"must give everything away\". Verified. The camel/rich-young-man text itself is the same treatise, unquoted."
+   },
+   "S2": {
+    "layer": "R*",
+    "records": [
+     "alx.quote.clement-possessions"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Only a guard: not_for bars a fixed tithe. No record on alms and forgiveness; anf02 33748 (Clement: law forbids a brother usury, \"open hands\") and 15 alms hits are unread for this."
+   },
+   "S3": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+      "snippet": "held in common x2, distribution was made"
+     }
+    ],
+    "identified": [],
+    "note": "No record. Clementine Homilies and Eusebius carry Acts 4 language (anf08, npnf201 held in common x2); not read in context for Alexandria."
+   },
+   "S4": {
+    "layer": "R",
+    "records": [
+     "alx.story.plague-nursing",
+     "alx.quote.dionysius-plague"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "The sick, nursed through the plague of c.260 (Eusebius VII.22, verified). Widows, orphans and non-Christians are not covered; not_for bars reading it as a charity programme."
+   },
+   "S5": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+      "line": 33748,
+      "snippet": "the law prohibits a brother from taking usury"
+     },
+     {
+      "file": "npnf214_seven-ecumenical-councils.xml",
+      "line": 5000,
+      "snippet": "Nicaea canon 17"
+     }
+    ],
+    "identified": [],
+    "note": "No record. Clement, Strom. (anf02 33748) and Nicaea canon 17 (npnf214 5000) hold the usury rule; Apocalypse of Peter (anf09 10863) puts usurers in hell."
+   },
+   "S6": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+      "line": 32818
+     }
+    ],
+    "identified": [],
+    "note": "No record on money. Eusebius VI.3: Origen took four oboli a day from the buyer of his manuscripts (npnf201 32818)."
+   },
+   "S7": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "note": "Record gap: alx.term.oikos and quote.timothy-ordinary-questions (F5-I) do not reach work or class. Origen selling manuscripts (npnf201 32818) is the only trade evidence found."
+   }
+  },
+  "cappadocian": {
+   "S1": {
+    "layer": "R",
+    "records": [
+     "cappadocian.dw.wealth-answerable-to-the-poor",
+     "cappadocian.story.famine-open-barns",
+     "cappadocian.term.pleonexia",
+     "cappadocian.gravity.ascetic-reordering"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+      "line": 6272
+     },
+     {
+      "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+      "line": 5069
+     }
+    ],
+    "identified": [
+     "cappadocian.source.basil-moral-famine-homilies",
+     "cappadocian.source.gregory-nazianzus-oration-14-love-of-poor",
+     "cappadocian.source.gregory-nyssa-de-pauperibus-amandis"
+    ],
+    "note": "Strongest world; witness tagged F5-T. No quote record: the records call the homilies \"unverified\", but npnf208 5069-5284, 6236-6290 and 6926 carry English extracts (Hom. on Ps. 14, Hom. VI on Luke 12, Hom. VIII), including \"Do not wait for a famine before thou openest thy barns\" (6272)."
+   },
+   "S2": {
+    "layer": "R",
+    "records": [
+     "cappadocian.term.philoptochia",
+     "cappadocian.term.philanthropia"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Almsgiving as love of the poor, doctrine inside it. No tithe or almsgiving-and-forgiveness record."
+   },
+   "S3": {
+    "layer": "R",
+    "records": [
+     "cappadocian.quote.basil-on-common-life",
+     "cappadocian.term.koinonia",
+     "cappadocian.dw.ordinary-day"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Basil, Longer Rules VII, verified (OCR footnote mark and \"Tor\" only). Brotherhood goods in common; not Acts at large."
+   },
+   "S4": {
+    "layer": "R",
+    "records": [
+     "cappadocian.term.basileias",
+     "cappadocian.term.philoptochia",
+     "cappadocian.story.poorhouse-famine-month",
+     "cappadocian.limit.no-stones-to-show"
+    ],
+    "source_hits": [],
+    "identified": [
+     "cappadocian.source.caesareas-poorhouse-hospital-complex"
+    ],
+    "note": "Poorhouse, leper-house, famine relief; the complex is text-attested only, and the records say so."
+   },
+   "S5": {
+    "layer": "R",
+    "records": [
+     "cappadocian.term.pleonexia",
+     "cappadocian.dw.wealth-answerable-to-the-poor"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+      "line": 5126
+     }
+    ],
+    "identified": [],
+    "note": "Usury preached against in famine. Same gap as S1: the words are in npnf208 5069-5284 (Hom. on Ps. 14: \"the borrower bends to necessity and is beaten\"), Nicaea c.17 (npnf214 5000) and Clarke 5904, but no quote record."
+   },
+   "S6": {
+    "layer": "R",
+    "records": [
+     "cappadocian.gravity.bishop-patron",
+     "cappadocian.term.oikonomos"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Bishop as public patron, church property held in trust, governors negotiated for the complex. Account-keeping and corruption not covered."
+   },
+   "S7": {
+    "layer": "R",
+    "records": [
+     "cappadocian.quote.basil-on-work-and-prayer",
+     "cappadocian.dw.ordinary-day",
+     "cappadocian.gravity.athens-fishermen",
+     "cappadocian.story.slave-market-sermon"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Work and prayer (Longer Rules XXXVII, verified, OCR glyphs only); learned instrument against \"fishermen\"; Nyssa on slavery. Lay trades and class of members not covered."
+   }
+  },
+  "desert": {
+   "S1": {
+    "layer": "R",
+    "records": [
+     "desert.story.antony-call",
+     "desert.term.apotage",
+     "desert.quote.three-hundred-acres-to-the-villagers",
+     "desert.quote.melania-to-the-governor",
+     "desert.quote.ladder-from-compunction"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Rich-young-man call is the founding story; four quotes verified. Three-hundred-acres is tagged Contested (alternate reading made it a tax transaction)."
+   },
+   "S2": {
+    "layer": "R*",
+    "records": [
+     "desert.limit.tithe"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 44596
+     },
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 44675
+     }
+    ],
+    "identified": [],
+    "note": "F4-T limit says no source names a tithe, \"checked\" in the Vita and Palladius only. Cassian, Conference XXI (npnf211 44550-44680, mapped to desert) discusses tithes and first-fruits and how renouncers go beyond them. The limit is wider than its check."
+   },
+   "S3": {
+    "layer": "R",
+    "records": [
+     "desert.gravity.koinonia",
+     "desert.term.koinonia",
+     "desert.quote.three-kinds-of-monks"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Pachomian koinonia, scoped to the federation; not Acts 2 or the solitary strand. Quote verified."
+   },
+   "S4": {
+    "layer": "R*",
+    "records": [
+     "desert.story.antony-call",
+     "desert.quote.melania-to-the-governor"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Giving to the poor only as the monk's own renunciation. No record on widows, orphans, sick or outsiders; the Sayings are not mined."
+   },
+   "S5": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "note": "No record. Little in Cassian (npnf211, 4 lines) and nothing from the Sayings or Palladius."
+   },
+   "S6": {
+    "layer": "R*",
+    "records": [
+     "desert.gravity.economic-embeddedness"
+    ],
+    "source_hits": [],
+    "identified": [
+     "desert.source.nepheros-archive"
+    ],
+    "note": "Contested gravity (tagged F5-T, F5-I): settlements traded and took alms; Kellia and the Nepheros dossier. Not the question of who paid for bishops."
+   },
+   "S7": {
+    "layer": "R",
+    "records": [
+     "desert.gravity.manual-labor",
+     "desert.term.cheironaxia",
+     "desert.quote.equal-measure-of-strength"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Best-covered cell in the fleet for work (tagged F5-T and F5-I). Unrendered: Palladius ch. XXXII at Panopolis (clarke1918 line 405): 15 tailors, 7 smiths, 4 carpenters, 15 fullers, and the tablet list of trades."
+   }
+  },
+  "don": {
+   "S1": {
+    "layer": "R*",
+    "records": [
+     "don.dw.silver-and-the-goods-of-the-poor"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "F5-T witness names one rich member (Lucilla, 400 pieces, Gesta apud Zenophilum 320); not_for bars any claim on Donatist teaching on wealth."
+   },
+   "S2": {
+    "layer": "R*",
+    "records": [
+     "don.dw.washed-for-the-first-time"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "F4-T witness retrieves on tithing, then not_for bars any claim about it. A guard, not an answer."
+   },
+   "S3": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "note": "No record. Only hostile or Catholic voices (Augustine, npnf104 4620)."
+   },
+   "S4": {
+    "layer": "R*",
+    "records": [
+     "don.story.gesta-apud-zenophilum",
+     "don.dw.silver-and-the-goods-of-the-poor"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Only \"goods of the poor\" as a charge of theft; no record of Donatist relief."
+   },
+   "S5": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/optatus_against-the-donatists.txt",
+      "line": 2002
+     }
+    ],
+    "identified": [],
+    "note": "No record. Optatus III.4 (optatus_against-the-donatists.txt 2002): Axido and Fasir's men made \"acknowledgments of indebtedness\" worthless. Hostile, and the Circumcellion records do not use it."
+   },
+   "S6": {
+    "layer": "R",
+    "records": [
+     "don.dw.silver-and-the-goods-of-the-poor",
+     "don.story.gesta-apud-zenophilum",
+     "don.dw.what-we-did-with-the-power-we-had"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "The 320 inquiry into church silver is the most documentary money story in the fleet (Documented)."
+   },
+   "S7": {
+    "layer": "R*",
+    "records": [
+     "don.limit.no-ordinary-day-survives",
+     "don.gravity.circumcellion-agonistici"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Honest limit on work and daily life; Circumcellion class is Dominant Modern Reconstruction, Numidia only."
+   }
+  },
+  "gallic": {
+   "S1": {
+    "layer": "R",
+    "records": [
+     "gallic.term.renunciation",
+     "gallic.quote.salvian-rich-murdering-the-poor",
+     "gallic.quote.the-cloak-divided-and-the-vision-of-christ",
+     "gallic.quote.salvian-on-treves-ruined-elite"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Cassian's renunciation and Salvian's \"rich murdering the poor\"; verified (Salvian 5063-5066 after a false mismatch from line breaks)."
+   },
+   "S2": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 44596
+     }
+    ],
+    "identified": [],
+    "note": "No record. Cassian, Conference XXI (npnf211 44596-44680) on tithes and first-fruits; Augustine anti-Pelagian alms (npnf105)."
+   },
+   "S3": {
+    "layer": "R",
+    "records": [
+     "gallic.term.monastery-coenobium",
+     "gallic.quote.three-lentils-and-the-lords-things",
+     "gallic.story.the-three-lentil-beans"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Cenobitic goods \"consecrated to the Lord\"; Cassian's East, not a Gallic house."
+   },
+   "S4": {
+    "layer": "R",
+    "records": [
+     "gallic.quote.the-cloak-divided-and-the-vision-of-christ",
+     "gallic.dw.christ-in-the-beggar-and-the-guest",
+     "gallic.quote.receiving-christ-in-you"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Beggar at Amiens and the guest as Christ; verified. Cloak scene tagged Contested."
+   },
+   "S5": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "line": 39556
+     }
+    ],
+    "identified": [],
+    "note": "No record. Cassian (npnf211 7716, 39549-39556) repeats the usury ban; Cyprian, De lapsis on bishops \"multiplying usuries\" (anf05 43784)."
+   },
+   "S6": {
+    "layer": "R*",
+    "records": [
+     "gallic.force.barbarian-fiscal-ruin"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Tax and Salvian's curials, not church funding. Nothing on who paid for bishops."
+   },
+   "S7": {
+    "layer": "R",
+    "records": [
+     "gallic.quote.martin-refuses-the-donative",
+     "gallic.story.discharge-before-caesar",
+     "gallic.force.army-and-rank-before",
+     "gallic.quote.the-soldier-who-served-his-servant"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "The one clear \"job a Christian left\": Martin's discharge. Verified. Craft and farm work are not covered."
+   }
+  },
+  "hal": {
+   "S1": {
+    "layer": "R",
+    "records": [
+     "hal.term.renuntiatio",
+     "hal.term.matrona",
+     "hal.contested.paula-renunciation-totality",
+     "hal.quote.house-destroyed"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Paula's divestment is a contested_claim (totality unchecked); the aristocratic base is plain. Jerome's camel and Mammon passages (npnf206, 20 and 16 hits) are unquoted."
+   },
+   "S2": {
+    "layer": "R",
+    "records": [
+     "hal.dw.practices"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "\"We did not tithe\": giving was directional and total. Absence stated inside a witness, not a limit record. Jerome says he \"lives on the tithe\" (npnf206 11331)."
+   },
+   "S3": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "note": "No record. Jerome and Cassian on Acts 4 (npnf206 22 hits, npnf211)."
+   },
+   "S4": {
+    "layer": "R",
+    "records": [
+     "hal.quote.fabiola-hospital",
+     "hal.quote.portus-strangers",
+     "hal.term.nosocomium",
+     "hal.term.xenodochium",
+     "hal.term.vidua"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Fabiola's hospital and the Portus hostel; both quotes verified; the \"first hospital\" claim is flagged uncorroborated."
+   },
+   "S5": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "note": "No record. Jerome on the talents \"with usury\" (npnf206 4902, 39602) and Letter on clergy (npnf203 13588)."
+   },
+   "S6": {
+    "layer": "R",
+    "records": [
+     "hal.term.patrocinium",
+     "hal.gravity.patronage-authority",
+     "hal.term.xenodochium"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Patronage stood where office stands elsewhere; not_for bars presenting Jerome's account as independently confirmed."
+   },
+   "S7": {
+    "layer": "R*",
+    "records": [
+     "hal.term.matrona",
+     "hal.dw.empire",
+     "hal.term.vidua"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Who the members were: senatorial women and a scholar. The \"educated rich\" charge (C10-05) is answered by implication; no record on ordinary members or trades."
+   }
+  },
+  "ijc": {
+   "S1": {
+    "layer": "R*",
+    "records": [
+     "ijc.limit.marriage-money",
+     "ijc.quote.ammianus-roman-luxury"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "F5-T limit: money seen \"from above\". Ammianus on Roman bishops' luxury is an outsider (verified; OCR repairs only)."
+   },
+   "S2": {
+    "layer": "R",
+    "records": [
+     "ijc.dw.collections-discipline"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Leo's collections, proportional, no fixed tenth (Documented, tagged F4-T)."
+   },
+   "S3": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "note": "No record. Chrysostom, Hom. Acts (npnf111 5850, 65 Ananias hits)."
+   },
+   "S4": {
+    "layer": "R",
+    "records": [
+     "ijc.dw.collections-discipline"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Collections for ransom, strangers, the poor. No hospital or widow record; Ambrose on ransoming captives (npnf210) unquoted."
+   },
+   "S5": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+      "line": 1549
+     }
+    ],
+    "identified": [],
+    "note": "No record. Leo, Letter 4 c.4: usury forbidden to clergy and laity (npnf212 1549); Nicaea c.17."
+   },
+   "S6": {
+    "layer": "R",
+    "records": [
+     "ijc.story.emperor-builds-another-basilica",
+     "ijc.limit.marriage-money"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Emperor-built basilicas and imperial wealth flowing into the church; Theodosian Code XVI is vendored."
+   },
+   "S7": {
+    "layer": "R*",
+    "records": [
+     "ijc.limit.f5-ordinary-day",
+     "ijc.limit.marriage-money"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Honest limits only; courts and bishops noticed ordinary people only in crowds."
+   }
+  },
+  "lpc": {
+   "S1": {
+    "layer": "R",
+    "records": [
+     "lpc.witness.almsgiving-quenches-sin"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "F5-T witness (status draft): \"Some among us were rich\", Cyprian to a rich matron. Draft; compiled-package state unchecked."
+   },
+   "S2": {
+    "layer": "R",
+    "records": [
+     "lpc.witness.almsgiving-quenches-sin",
+     "lpc.story.hundred-thousand-sesterces"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Cyprian, On Works and Alms: almsgiving as the remedy for post-baptismal sin. Draft. Tithe: Augustine Sermon on the Mount (npnf106 17294) unquoted."
+   },
+   "S3": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "note": "No record. Augustine (npnf103 42112; npnf104 4620; npnf106 13584) on Acts 4; Cyprian, Unity ch. 25."
+   },
+   "S4": {
+    "layer": "R",
+    "records": [
+     "lpc.story.hundred-thousand-sesterces",
+     "lpc.story.the-plague-and-the-enemies"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Ransom of captives and plague; both draft."
+   },
+   "S5": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "line": 43784
+     },
+     {
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "line": 52955
+     }
+    ],
+    "identified": [],
+    "note": "No record. Cyprian, De lapsis: bishops \"multiplied usuries\" (anf05 43784); Testimonia III.48 \"we must not take usury\" (52955); Augustine on Ps. 37 and sermons."
+   },
+   "S6": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "note": "No record. Cyprian on monthly division and stipends (anf05 31392, 32283); Benson 19625 on the sportula."
+   },
+   "S7": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "note": "No record. Augustine, City of God on actors and trades (npnf102, 35 lines); Benson on gladiators."
+   }
+  },
+  "pahc": {
+   "S1": {
+    "layer": "R",
+    "records": [
+     "pahc.witness.marriage-and-wealth"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "F5-T witness: Hermas, Sim. 2, elm and vine, rich and poor needed; not_for: teaching, not practice."
+   },
+   "S2": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+      "line": 3512
+     }
+    ],
+    "identified": [],
+    "note": "No record. Polycarp 10 \"alms delivers from death\" (anf01 3512); Didache 4, 13 in anf07; Two Ways story only mentions alms instruction."
+   },
+   "S3": {
+    "layer": "R",
+    "records": [
+     "pahc.quote.lucian-all-brothers",
+     "pahc.story.two-ways-catechumen"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Lucian: all brothers, property held in common (verified); hostile outsider. Didache 4.8 \"share all\" in the story, Inferential-Thin."
+   },
+   "S4": {
+    "layer": "R",
+    "records": [
+     "pahc.quote.lucian-orphans-and-widows",
+     "pahc.story.mutual-aid-prisoner",
+     "pahc.term.diakonos",
+     "pahc.story.justin-sunday-gathering"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Widows, orphans, prisoners, collection at Justin's Sunday gathering; Lucian verified."
+   },
+   "S5": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "note": "No record. Tertullian, Against Marcion IV.17 on loans and usury (anf03 31326); Hermas and Clement (anf02 20980)."
+   },
+   "S6": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "note": "No record on who paid. Didache on supporting prophets is in anf07; the prisoner story has leaders bribing jailers."
+   },
+   "S7": {
+    "layer": "R*",
+    "records": [
+     "pahc.limit.enslaved-voices",
+     "pahc.limit.ordinary-majority"
+    ],
+    "source_hits": [
+     {
+      "file": "cic/texts/anf03_tertullian.xml",
+      "line": 5484
+     },
+     {
+      "file": "cic/texts/anf03_tertullian.xml",
+      "line": 6145
+     }
+    ],
+    "identified": [],
+    "note": "Limits only. Tertullian, De idololatria (anf03 4968-6200: artificers, schoolmasters at 5484, military service at 6145) is vendored and mapped here, and unrendered."
+   }
+  },
+  "rzg": {
+   "S1": {
+    "layer": "R*",
+    "records": [
+     "rzg.limit.no-teaching-on-wealth-or-marriage"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "F5-T limit says no record addresses wealth teaching \"as such\". True of records; the library holds Calvin, Institutes (vol. 2 12530) and Zwingli on the rich (vol. 3 14689)."
+   },
+   "S2": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "note": "No record; rzg.witness.why-the-children-too says tithing is not claimed. Zwingli on tithes (vol. 1 5372, 7911; vol. 3 12173; editor or Zwingli not traced); Calvin, Institutes (vol. 3 12547)."
+   },
+   "S3": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/zwingli_selected-works_jackson1901.txt",
+      "line": 5519
+     }
+    ],
+    "identified": [],
+    "note": "No record. Zwingli, Selected Works 5519, 6368, 6847: Anabaptists \"hold all things in common\"; his answer."
+   },
+   "S4": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/calvin_institutes-christian-religion-vol3_beveridge1845.txt",
+      "line": 2436
+     }
+    ],
+    "identified": [
+     "rzg.source.ecclesiastical-ordinances-1541"
+    ],
+    "note": "No record. Calvin, Institutes (vol. 3 2436, deacons and care of the poor); Quick, Synodicon (Reformed France). The 1541 Ordinances are registered, unvendored."
+   },
+   "S5": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "note": "No record. Zwingli, Latin Works vol. 3 (5478, 5487, 7334: \"putteth not out his money to usury\"); Quick 15235 \"All Usury\"."
+   },
+   "S6": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [],
+    "identified": [
+     "rzg.source.ecclesiastical-ordinances-1541"
+    ],
+    "note": "No record. Quick, Synodicon (stipends, common stock); ministers' pay in the 1541 Ordinances (unvendored)."
+   },
+   "S7": {
+    "layer": "R*",
+    "records": [
+     "rzg.limit.ordinary-daily-practice",
+     "rzg.limit.no-teaching-on-wealth-or-marriage"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Limits only."
+   }
+  },
+  "syr": {
+   "S1": {
+    "layer": "R",
+    "records": [
+     "syr.story.ephrem-famine-death"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Ephrem rebukes the rich of Edessa in the famine (Widely Accepted; not eyewitness)."
+   },
+   "S2": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "note": "No record. Aphrahat, Dem. VII (hallock 44): \"alms are given to the poor, and the rich have no need\"; Apostolic Constitutions tithes (anf07, 8 hits). Alms hits in npnf213 are Gregory the Great."
+   },
+   "S3": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "note": "No record. Qyama records mention communal life only; no Acts text read."
+   },
+   "S4": {
+    "layer": "R",
+    "records": [
+     "syr.story.ephrem-famine-death",
+     "syr.quote.ephrem-keeper-of-strangers",
+     "syr.quote.palladius-hospitaller",
+     "syr.quote.dem6-visit-the-sick"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Famine relief and the hospitaller; Aphrahat Dem. VI \"visit our Lord in the persons of the sick\". Three quotes verified."
+   },
+   "S5": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [],
+    "identified": [],
+    "note": "No record. Ephrem, Nisibene (npnf213 17672, usurers watching by night) is the only Syriac hit; the Basil and Nicaea hits are other worlds' texts."
+   },
+   "S6": {
+    "layer": "R",
+    "records": [
+     "syr.story.ephrem-famine-death"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "The rich \"trusted no one to handle the giving honestly\"; Ephrem appoints himself hospitaller. The only accounts-and-trust story in the fleet."
+   },
+   "S7": {
+    "layer": "R*",
+    "records": [
+     "syr.limit.f5-enslaved"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Limit on enslaved members only. Nothing on trades or class."
+   }
+  },
+  "witt": {
+   "S1": {
+    "layer": "R*",
+    "records": [
+     "witt.dw.the-poor-man-at-the-door",
+     "witt.quote.the-poor-man-who-comes-to-you",
+     "witt.term.to-have-a-god-is-to-trust"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "F5-T witness and quote (Large Catechism, 7th commandment; verified); not_for: no claim that wealth is condemned or anyone named rich."
+   },
+   "S2": {
+    "layer": "R*",
+    "records": [
+     "witt.dw.a-death-begun-that-a-child-receives",
+     "witt.term.good-works"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "F4-T witness retrieves on tithing, then not_for says records do not show it. Good works include alms."
+   },
+   "S3": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt",
+      "line": 7025
+     }
+    ],
+    "identified": [],
+    "note": "No record. Apology of the Augsburg Confession (melanchthon 7025): monks called \"community of property\" evangelical; Luther vol. 2 on the sacrament."
+   },
+   "S4": {
+    "layer": "R",
+    "records": [
+     "witt.dw.the-poor-man-at-the-door",
+     "witt.quote.the-poor-man-who-comes-to-you"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Do not turn the poor man away (verified). No record on the common chest or relief organisation."
+   },
+   "S5": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [
+     {
+      "file": "cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt",
+      "line": 6560
+     }
+    ],
+    "identified": [],
+    "note": "No record. Luther vol. 1 6560 (usurious sale of rents) and a \"Of Usury\" contents line (6314); Table Talk 2948. \"Trade and Usury\" is not vendored."
+   },
+   "S6": {
+    "layer": "L",
+    "records": [],
+    "source_hits": [],
+    "identified": [
+     "witt.source.saxon-visitation-protocols"
+    ],
+    "note": "No record. Luther v1 14853, 14963 on tithes and annates; Saxon visitation protocols registered, unvendored."
+   },
+   "S7": {
+    "layer": "R",
+    "records": [
+     "witt.term.calling",
+     "witt.term.office"
+    ],
+    "source_hits": [],
+    "identified": [],
+    "note": "Calling and office: \"every trade has its own office\"; F5-I-tagged. Doctrine of station, not a record of what members did."
+   }
+  }
+ },
+ "verification_all": {
+  "alx.quote.clement-possessions": {
+   "result": "MATCH",
+   "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "lines": [
+    56548
+   ]
+  },
+  "alx.quote.couches-and-trenchers-and-bowls": {
+   "result": "MATCH",
+   "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "lines": [
+    22127
+   ]
+  },
+  "alx.quote.dionysius-plague": {
+   "result": "MATCH",
+   "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": [
+    41084
+   ]
+  },
+  "cappadocian.quote.basil-on-common-life": {
+   "result": "MATCH (OCR: footnote mark, \"Tor\" for \"For\")",
+   "file": "basil_ascetic-works-longer-shorter-rules_clarke1925.txt",
+   "lines": [
+    13190
+   ]
+  },
+  "cappadocian.quote.basil-on-work-and-prayer": {
+   "result": "MATCH (OCR glyph noise: stray \"E\" and \"a\" in the scan)",
+   "file": "basil_ascetic-works-longer-shorter-rules_clarke1925.txt",
+   "lines": [
+    17078
+   ]
+  },
+  "desert.quote.equal-measure-of-strength": {
+   "result": "MATCH",
+   "file": "palladius_paradise-v1-syriac_budge1907.txt",
+   "lines": [
+    1119
+   ]
+  },
+  "desert.quote.ladder-from-compunction": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    20064,
+    20066
+   ]
+  },
+  "desert.quote.melania-to-the-governor": {
+   "result": "MATCH",
+   "file": "palladius_paradise-v1-syriac_budge1907.txt",
+   "lines": [
+    1151
+   ]
+  },
+  "desert.quote.three-hundred-acres-to-the-villagers": {
+   "result": "MATCH",
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "lines": [
+    31246
+   ]
+  },
+  "desert.quote.three-kinds-of-monks": {
+   "result": "MATCH (spacing-only)",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    42461
+   ]
+  },
+  "gallic.quote.martin-refuses-the-donative": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    827
+   ]
+  },
+  "gallic.quote.receiving-christ-in-you": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    21017
+   ]
+  },
+  "gallic.quote.salvian-on-treves-ruined-elite": {
+   "result": "MATCH (letters-only)",
+   "file": "salvian_on-the-government-of-god_sanford1930.txt",
+   "lines": [
+    8093,
+    8126
+   ]
+  },
+  "gallic.quote.salvian-rich-murdering-the-poor": {
+   "result": "MATCH (line-break artefact only)",
+   "file": "salvian_on-the-government-of-god_sanford1930.txt",
+   "lines": [
+    5063
+   ]
+  },
+  "gallic.quote.the-cloak-divided-and-the-vision-of-christ": {
+   "result": "MATCH (spacing-only)",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    766
+   ]
+  },
+  "gallic.quote.the-soldier-who-served-his-servant": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    728
+   ]
+  },
+  "gallic.quote.three-lentils-and-the-lords-things": {
+   "result": "MATCH",
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "lines": [
+    19227
+   ]
+  },
+  "hal.quote.fabiola-hospital": {
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    17541
+   ]
+  },
+  "hal.quote.house-destroyed": {
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    28596
+   ]
+  },
+  "hal.quote.portus-strangers": {
+   "result": "MATCH",
+   "file": "npnf206_jerome-principal-works.xml",
+   "lines": [
+    17716
+   ]
+  },
+  "ijc.quote.ammianus-roman-luxury": {
+   "result": "MATCH (OCR repairs: \"1\" for \"I\", \"vastuess\", \"east\", \"mirfded\", section numbers)",
+   "file": "ammianus-marcellinus_roman-history_yonge1862.txt",
+   "lines": [
+    23191
+   ]
+  },
+  "pahc.quote.lucian-all-brothers": {
+   "result": "MATCH",
+   "file": "lucian_works-vol4-peregrine_fowler1905.txt",
+   "lines": [
+    1049
+   ]
+  },
+  "pahc.quote.lucian-orphans-and-widows": {
+   "result": "MATCH",
+   "file": "lucian_works-vol4-peregrine_fowler1905.txt",
+   "lines": [
+    1049
+   ]
+  },
+  "syr.quote.dem6-visit-the-sick": {
+   "result": "MATCH",
+   "file": "npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": [
+    25658
+   ]
+  },
+  "syr.quote.ephrem-keeper-of-strangers": {
+   "result": "MATCH",
+   "file": "palladius_paradise-v1-syriac_budge1907.txt",
+   "lines": [
+    1293
+   ]
+  },
+  "syr.quote.palladius-hospitaller": {
+   "result": "MATCH",
+   "file": "palladius_lausiac-history_clarke1918.txt",
+   "lines": [
+    471
+   ]
+  },
+  "witt.quote.the-poor-man-who-comes-to-you": {
+   "result": "MATCH",
+   "file": "luther_large-catechism_bente-dau1921.txt",
+   "lines": [
+    1946
+   ]
+  }
+ },
+ "other": {
+  "cappadocian": [
+   {
+    "sub": "S1,S4",
+    "work": "Gregory of Nyssa, De pauperibus amandis I-II (On the Love of the Poor)",
+    "edition": "Greek, PG 46:453-489 (Migne); English is Holman (OUP 2001), in copyright",
+    "licence": "Greek public domain; English not"
+   },
+   {
+    "sub": "S1,S4",
+    "work": "Gregory of Nazianzus, Oration 14 On the Love of the Poor",
+    "edition": "Greek, PG 35:857-909; English Vinson, FOTC 107 (2003), in copyright",
+    "licence": "Greek public domain; English not"
+   },
+   {
+    "sub": "S1,S5",
+    "work": "Basil, Homily on Ps. 14 (against usurers) and Homily on Luke 12:18 (I will pull down my barns)",
+    "edition": "Greek, PG 29:263-280 and PG 31:261-277; the PD English is only the Jackson extracts already in npnf208",
+    "licence": "Greek public domain"
+   }
+  ],
+  "gallic": [
+   {
+    "sub": "S1,S6",
+    "work": "Salvian, Ad ecclesiam (Four Books to the Church, against avarice)",
+    "edition": "Latin, CSEL 8, ed. Pauly (Vienna 1883); Walsh, FOTC 3 (1947) in copyright",
+    "licence": "Latin public domain"
+   }
+  ],
+  "syr": [
+   {
+    "sub": "S4,S2",
+    "work": "Aphrahat, Demonstration XX (On Helping the Poor) and XIV (to the leaders)",
+    "edition": "Syriac with Latin, Parisot, Patrologia Syriaca I.1-2 (1894, 1907); English Lehto (2010) in copyright; only Dem. 1-10 are vendored",
+    "licence": "Syriac and Latin public domain"
+   }
+  ],
+  "rzg": [
+   {
+    "sub": "S4,S6",
+    "work": "Zurich poor-relief mandates and Zwingli, Von goettlicher und menschlicher Gerechtigkeit (1523, tithes)",
+    "edition": "German, Corpus Reformatorum, Zwingli Werke vol. 2 (Leipzig 1908); Egli, Actensammlung (Zurich 1879)",
+    "licence": "public domain; English in Bromiley, LCC 24 (1953), in copyright"
+   },
+   {
+    "sub": "S4,S6",
+    "work": "Calvin, Ordonnances ecclesiastiques (1541)",
+    "edition": "Opera Calvini vol. 10/1 (Brunswick 1871), French; registered in rzg.source.ecclesiastical-ordinances-1541",
+    "licence": "public domain; Reid translation (1954) in copyright"
+   }
+  ],
+  "witt": [
+   {
+    "sub": "S5,S6",
+    "work": "Luther, Long Sermon on Usury (1520) and Trade and Usury (1524); Ordinance of a Common Chest (1523)",
+    "edition": "WA 6:33-60, 15:293-322, 12:11-30 (Weimar, German); English in Works of Martin Luther, Holman vol. 4 (Philadelphia 1931)",
+    "licence": "German public domain; the 1931 English enters the US public domain only on 1 Jan 2027"
+   }
+  ],
+  "alx": [
+   {
+    "sub": "S7",
+    "work": "Apostolic Tradition 16 (trades barred to catechumens), Egyptian and Latin witnesses",
+    "edition": "Easton, The Apostolic Tradition of Hippolytus (Cambridge 1934); renewal and UK status unchecked",
+    "licence": "rights unclear"
+   }
+  ],
+  "ijc": [
+   {
+    "sub": "S1,S4",
+    "work": "Ambrose, De Nabuthae (wealth and the poor)",
+    "edition": "Latin, PL 14:731-756, CSEL 32.2 (Schenkl 1897); English FOTC (1972) in copyright",
+    "licence": "Latin public domain"
+   }
+  ]
+ },
+ "findings": [
+  "Cappadocian: records say the Basil homilies are unverified, but npnf208 5069-5284, 6236-6290, 6926 hold English extracts; no quote record exists for S1, S4 or S5.",
+  "Desert limit.tithe (Documented) was checked against the Vita and Palladius only; Cassian Conference XXI (npnf211 44550-44680), mapped to desert, discusses tithes.",
+  "No world has a demonstration for money (F5-T), tithe (F4-T) or work (F5-I); usury has records in one world of twelve."
+ ]
+}

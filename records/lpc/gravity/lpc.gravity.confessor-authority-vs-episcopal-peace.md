@@ -7,6 +7,14 @@ status: draft
 register: etic
 canon_cells:
 - F6-I
+use_note:
+  means: "Confessors claimed a loose power to give peace to the lapsed, against the bishop's own penance, and neither won."
+  not_for:
+    - "a claim that the tension was resolved"
+    - "a claim that evidence beyond Cyprian's letters supports it"
+    - "a claim that the confessors were either usurpers or heroes"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority

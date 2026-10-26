@@ -7,6 +7,13 @@ status: draft
 register: emic
 canon_cells:
 - C-E
+use_note:
+  means: "The record names no one who saw the risen Jesus, and Augustine argues from what the apostles wrote."
+  not_for:
+    - "a claim that anyone among them knew someone who saw Jesus"
+    - "a claim that the argument rests on a chain of living memory"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: B
   verification_state: verified-direct

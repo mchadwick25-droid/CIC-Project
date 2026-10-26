@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - F2-I
+use_note:
+  means: "Augustine tells those to be baptized they got the Creed first, to know what to believe, then the Lord's Prayer, to know whom to ask."
+  not_for:
+    - "a claim that the sermon is about the Creed rather than the Lord's Prayer"
+    - "a claim that it describes a formal ceremony of handing over the Creed"
+    - "a claim that the passage names Paul, whose words the first sentence quotes"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

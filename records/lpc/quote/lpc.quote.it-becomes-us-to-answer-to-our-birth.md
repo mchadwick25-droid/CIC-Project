@@ -7,6 +7,15 @@ status: draft
 register: emic
 canon_cells:
 - F5-I
+use_note:
+  means: "In Pontius's report of Cyprian's plague sermon, God shows kindness even to strangers, so his children must not fall short."
+  not_for:
+    - "a claim that these are words of a sermon Cyprian wrote down"
+    - "a claim that the persecutors themselves were helped"
+    - "a claim that 'aliens' means beings from elsewhere or that 'degenerate' means depraved"
+    - "a claim that the critical Latin text names strangers, which only older editions print"
+  years: {from: 246, to: 258}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

@@ -22,6 +22,15 @@ relations:
   target: lpc.term.schism
 - type: associated-with
   target: lpc.term.the-flock
+use_note:
+  means: "The phrase names Augustine's late claim that a Christian ruler may use force to bring a separated group back."
+  not_for:
+    - "a claim that it is the church's settled endorsement of religious persecution throughout"
+    - "a claim that Augustine always held it, since his earlier opinion against coercion reaches us only through his own later account"
+    - "a claim that a Donatist answer to it survives"
+    - "a claim that an editor's verdict on Augustine's reading of the parable is part of the teaching"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

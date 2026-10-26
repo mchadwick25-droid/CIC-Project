@@ -7,6 +7,14 @@ status: draft
 register: emic
 canon_cells:
 - C-T
+use_note:
+  means: "Augustine held Jesus to be God's only Son within one God in three, and an Arian bishop at Hippo fought that belief."
+  not_for:
+    - "a claim that this doctrine is what sets this tradition apart"
+    - "a claim that the doctrine went unchallenged"
+    - "a claim about how the conference with Maximinus ended"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

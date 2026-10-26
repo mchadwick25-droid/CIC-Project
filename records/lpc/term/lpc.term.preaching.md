@@ -18,6 +18,14 @@ relations:
   target: lpc.term.the-flock
 - type: associated-with
   target: lpc.term.the-people
+use_note:
+  means: "Preaching was the regular talk to the whole church, and the main way its teaching reached plain believers."
+  not_for:
+    - "a claim that it was a stern monologue or a polished performance among several parts of a service"
+    - "a claim that it was an organizing force of its own"
+    - "a claim that how often the word occurs measures its weight"
+  years: {from: 246, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct

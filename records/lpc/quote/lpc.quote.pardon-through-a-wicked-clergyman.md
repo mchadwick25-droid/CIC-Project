@@ -7,6 +7,15 @@ status: draft
 register: emic
 canon_cells:
 - F6-I
+use_note:
+  means: "Augustine says one who comes to the Church in good faith is forgiven in the Spirit, even through a bad priest."
+  not_for:
+    - "a claim that 'Catholic' means Roman Catholic"
+    - "a claim that the passage names the Donatists"
+    - "a claim about how a clergyman was ordained or removed"
+    - "a claim that it can be told without the argument on the sin against the Holy Spirit"
+  years: {from: 391, to: 430}
+  status: reviewed
 confidence:
   citation_specificity: A
   verification_state: verified-direct
