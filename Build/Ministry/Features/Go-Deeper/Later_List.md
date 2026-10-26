@@ -10,3 +10,5 @@ Append-only. A merged entry's number never changes.
 6. 2026-10-26, landing page drawer: `GoDeeperConfig.drawer` is now `true` (resolves item 5). Item 4, trying the drawer on the live domains, is done by the pull request that turned it on.
 7. 2026-10-26, Render: auto-deploy for cic-engine was left off by the manual rollback. Turning it back on is Mark's call in the dashboard (Settings, Deploy).
 8. 2026-10-26, the 404 that followed promotion 1131 (the accounts fixes, the LPC records and the ledger work, with this thread's panel) has no known cause. The pieces other than this thread's are still to be promoted one at a time.
+9. 2026-10-26, from Mark's live screenshot: the conversation's top-bar "Get more conversations" button shows a tight yellow box with the text touching its edges (possibly the focus outline); the panel's text runs close to its right edge; the message box shows a scrollbar with almost no text. None looked at yet.
+10. 2026-10-26, the panel's "Get more conversations" link opens a popup of `go-deeper.html`, which reads "Codes are not on sale yet" while buying is suspended (ruling 80). Whether the link should show, or go elsewhere, is Mark's call.

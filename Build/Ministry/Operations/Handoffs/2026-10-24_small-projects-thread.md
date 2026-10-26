@@ -1,34 +1,46 @@
-# Handoff — small projects thread — 2026-10-24
+# Handoff — small projects thread — 2026-10-26
 
-From session: https://claude.ai/code/session_01LXQVhoN4b7gUG2KwMhR8CK · World or workstream: Go Deeper page, landing page, conversation chooser · Branch / PR: https://github.com/mchadwick25-droid/CIC-Project/pull/1120 (merged), https://github.com/mchadwick25-droid/CIC-Project/pull/1122 (merged), card voice on claude/card-back-narration
+From session: https://claude.ai/code/session_01LXQVhoN4b7gUG2KwMhR8CK · World or workstream: Go Deeper page, landing page, conversation chooser · Branch / PR: see the table
 
 ## 1. Done, and how it was checked
 
 | What was done | How it was checked |
 |---|---|
-| Gift links ("Keep the door open for others") on `go-deeper.html`, Option A words approved by Mark; ruling 91 | `test_go_deeper_pages.py` passes; page rendered and compared with its neighbours; PR 1120 CI green, merged |
-| "Get more conversations" link on the landing page's free line; ruling 92 | Same test file passes (37); PR 1122 CI green, merged |
-| Voice on the card backs: tool, 11 clips, player on the back face, freshness test, log entries | Printed paid settings match the manifest; each hash matches its summary; clips 31 to 48 seconds; 39 page and audio tests pass; headless render shows the player on a turned card and a click on it does not turn the card back |
+| Gift links "Keep the door open for others" on `go-deeper.html`, with the Faithways fine print (rulings 91, 94). PRs 1120, 1126 | Page tests pass; CI green; merged |
+| "Get more conversations" on the landing page (ruling 92, now superseded by 106). PR 1122 | Merged |
+| Voice on the card backs: tool, 11 clips, player, freshness test. PRs 1123, 1125 (Wittenberg text) | Paid settings printed and matched the manifest; each hash matches its summary; sample and 10 clips approved by name with caps (430 and 5,000 characters) |
+| The app's panel carries the gift section; the app draws its panel alone at `#get-more` (rulings 98 and 99; the ruling 97 in the log is the accounts thread's). PR 1129, promoted by PR 1142 | 350 app tests, `tsc`, `vite build`; Mark checked a new conversation and the panel on the live app after deploying `29052b8` by hand |
+| The landing page's top-row "Get more conversations" button and the free-line link open the app's panel in a slide-out over the cards (rulings 105, 106). PR 1146 | Headless browser against the live domains: opens, closes from inside, reopens, no errors; Mark confirmed it works like the conversation page |
 
 ## 2. Not done
 
-- Per-world voices for the card backs (Later_List.md, Conversation-Chooser, item 1).
-- The sentence in "Already have a code?" is not a link into the room; Mark said the landing link is enough.
+- Keyboard focus is not trapped inside the slide-out (Go-Deeper Later_List item 3).
+- The accounts fixes (PRs 1124, 1130), the LPC records (PRs 1128, 1136) and later `main` work are not on `live`. Promotion 1131 carried them with this thread's panel, and new conversations showed a 404 on that build; it was rolled back (PR 1137). The cause is not found.
+- Render's auto-deploy for cic-engine is off, left off by the manual rollback.
+
+- Card-back audio on flip: draft PR https://github.com/mchadwick25-droid/CIC-Project/pull/1150 starts the clip from the tap that turns the card (Mark confirmed it directly). No audio, word or voice changed, nothing generated. The clips match the card text as of 2026-10-24; they are redone after Mark's text edits, with a new named run, cap and sample approved by ear (Conversation-Chooser Later_List items 5 and 6; iOS Safari and screen readers untested).
+
+## 2b. Seen on Mark's live screenshot, 2026-10-26 (not looked at, not fixed)
+
+- The top-bar "Get more conversations" button in the conversation shows a tight yellow box with the text touching its edges. It may be the keyboard focus outline.
+- The panel's text runs close to the right edge.
+- The message box shows a scrollbar with almost no text in it.
+- The panel's "Get more conversations" link opens a popup of `go-deeper.html` (`getCodeUrl()` in `cic-poc/frontend/src/lib/deeper.ts`). While buying is suspended (ruling 80) that page reads "Codes are not on sale yet".
 
 ## 3. Re-check before you trust it
 
-- Wittenberg's back summary differs between the site census (531 characters) and `Approved-Card-Words.yaml` (517); the audio reads the census.
-- The Go Deeper page still reads "Codes are not on sale yet", which a visitor now reaches from the landing page.
-- Playback was not heard in a real browser by this thread; only the markup and the click behaviour were checked.
+- The 404 on the 1131 build: the Render log line for it would name the path. Not read by this thread.
+- The slide-out was tried on a computer in a headless browser only, not on a phone, with accounts on, or with a screen reader.
+- Wittenberg's back summary now reads the site text in `Approved-Card-Words.yaml` (Conversation-Chooser Later_List item 4).
 
 ## 4. Waiting on Mark
 
-- Which Wittenberg text is approved.
-- Whether the gift fine print should carry the Faithways Studio line.
+- Turn Render's auto-deploy back on (Settings, Deploy), or keep deploying `live` by hand.
+- Per-world voices for the card backs (Conversation-Chooser Later_List item 1).
 
 ## 5. Next step
 
-Open the card-back narration pull request, then merge when its CI is green.
+Promote what is left on `main` to `live` in small pieces, accounts and LPC one at a time, each confirmed by its own thread first. After each deploy start a new conversation from a card and open the panel.
 
 ## 6. Spend
 
