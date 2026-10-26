@@ -2042,3 +2042,14 @@ Status: FIXED 2026-10-23/24, awaiting an independent recheck by a separate Opus 
 Independent recheck, round 1 (the round 1 recheck report in https://github.com/mchadwick25-droid/CIC-Project/pull/1099): every fix in this world for the "Live-reply claim check findings re-confirmed" entry (2026-10-23) is confirmed against the vendored sources.
 
 Status: CLOSED for the live-reply claim check findings.
+
+### OG-48. Source records marked unvendored where the Latin is held, 2026-10-26.
+
+Library thread, 2026-10-26, from the question-coverage survey (`Build/Ministry/Features/Question-Coverage/`). The Library thread does not edit world records; this entry hands the fix to this world's thread.
+
+- `don.source.acta-saturnini-abitinian-martyrs` is marked `kind: unvendored`. The Latin Acta of Saturninus is vendored in `cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt` (lines 1781 and 2974). Only the English (Tilley 1996, in copyright) is blocked.
+- `don.source.tilley-donatist-martyr-stories` has the same Latin side vendored (the Passio Marculi and others, about line 666). The English is blocked.
+
+Both records should say the Latin is held and the English is not. No download is possible for the English.
+
+Status: OPEN, for this world's thread.
