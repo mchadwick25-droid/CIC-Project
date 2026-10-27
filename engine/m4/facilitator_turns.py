@@ -120,10 +120,10 @@ CHECK_IN_LOSS = FacilitatorTurn(
 CHECK_IN_COERCION = FacilitatorTurn(
     kind="safety",
     text=(
-        "Before we go on: what you're describing sounds like someone using faith to control you. You don't owe "
+        "Before we go on: what you're describing sounds like someone trying to control you. You don't owe "
         "anyone obedience without question, and you can talk to someone outside it: a person you trust, a support "
         "line, or emergency services if you're in danger. If you'd still like to ask how this tradition thought "
-        "about its leaders, you can."
+        "about authority, you can."
     ),
 )
 
@@ -187,7 +187,8 @@ def check_in_turn(check_in_reason: str = "general") -> dict:
     for AMBIGUOUS_LOW_CONFIDENCE, so the two modules agree by construction
     rather than by comment."""
     turn = _CHECK_INS.get(check_in_reason, CHECK_IN)
-    return {"kind": turn.kind, "text": turn.text, "resources_appended": False}
+    reason = check_in_reason if check_in_reason in _CHECK_INS else "general"
+    return {"kind": turn.kind, "text": turn.text, "resources_appended": False, "check_in_reason": reason}
 
 
 def dependency_check_turn(representative_name: str) -> dict:

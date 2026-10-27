@@ -130,3 +130,31 @@ def test_should_not_page_on_isolated_or_alternating_degraded_turns():
     assert should_page_operator([True]) is False
     assert should_page_operator([True, False]) is False
     assert should_page_operator([True, True, False]) is False
+
+
+def _loss(signal="AMBIGUOUS_LOW_CONFIDENCE"):
+    value = dict(SAFETY_AMBIGUOUS.value, signal=signal, check_in_reason="loss_to_suicide")
+    return CallOutcome(status="ok", value=value)
+
+
+def test_reader_failure_still_routes_a_personal_check_in_and_carries_the_reason():
+    from engine.m4.facilitator_turns import check_in_turn
+    from engine.m5.routing import check_in_reason_for
+
+    outcome = _loss()
+    result = resolve_gate(safety_outcome=outcome, reader_outcome=CallOutcome(status="timeout"), pressed={}, anachronistic_term_ids=set(), message="msg")
+    assert result.routing.action == "check_in_turn"
+    assert check_in_turn(check_in_reason_for(outcome.value))["check_in_reason"] == "loss_to_suicide"
+
+
+def test_reader_failure_with_a_personal_reason_on_a_non_ambiguous_signal_still_checks_in():
+    result = resolve_gate(safety_outcome=_loss("NO_SIGNAL"), reader_outcome=CallOutcome(status="timeout"), pressed={}, anachronistic_term_ids=set(), message="msg")
+    assert result.routing.action == "check_in_turn"
+
+
+def test_reader_failure_after_the_check_in_was_shown_falls_to_pass_through():
+    result = resolve_gate(
+        safety_outcome=_loss(), reader_outcome=CallOutcome(status="timeout"), pressed={}, anachronistic_term_ids=set(),
+        message="msg", check_ins_shown=frozenset({"loss_to_suicide"}),
+    )
+    assert result.routing.action == "voice_pass_through"

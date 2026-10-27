@@ -120,6 +120,7 @@ def run_gate(
     anachronistic_term_ids: set,
     track_b_accumulator: dict | None = None,
     world_key: str | None = None,
+    check_ins_shown: frozenset[str] | set[str] = frozenset(),
 ) -> GateRun:
     """The gate half of run_turn, verbatim - see run_turn's docstring for
     the semantics of each input. world_key tags the two gate calls' usage
@@ -159,7 +160,7 @@ def run_gate(
 
     gate_result = resolve_gate(
         safety_outcome=safety_outcome, reader_outcome=reader_outcome, pressed=pressed,
-        anachronistic_term_ids=anachronistic_term_ids, message=participant_message,
+        anachronistic_term_ids=anachronistic_term_ids, message=participant_message, check_ins_shown=check_ins_shown,
     )
     gate = _gate_decision_payload(
         safety_outcome=safety_outcome, reader_outcome=reader_outcome, gate_result=gate_result
@@ -1141,6 +1142,7 @@ def run_turn(
     anachronistic_term_ids: set,
     track_b_accumulator: dict | None = None,
     track_a_last: dict | None = None,
+    check_ins_shown: frozenset[str] | set[str] = frozenset(),
     already_told_ids: set[str] | None = None,
     already_bridged_figure_ids: set[str] | None = None,
     already_bridged_gloss_ids: set[str] | None = None,
@@ -1189,6 +1191,9 @@ def run_turn(
     grammar, same caller-supplied/optional contract, same consequence of
     omitting it.
 
+    check_ins_shown is SessionState.safety.check_ins_shown: the personal
+    check-in reasons already shown, each shown once per conversation.
+
     track_a_last mirrors track_b_accumulator's own shape - the caller's
     SessionState.safety.track_a_last (None until Track A has fired once
     this session, per engine.m4.projection). Read only to decide which of
@@ -1224,6 +1229,7 @@ def run_turn(
         anachronistic_term_ids=anachronistic_term_ids,
         track_b_accumulator=track_b_accumulator,
         world_key=world.world_key,
+        check_ins_shown=check_ins_shown,
     )
     usage_records = list(gate_run.usage_records)
     safety_outcome = gate_run.safety_outcome

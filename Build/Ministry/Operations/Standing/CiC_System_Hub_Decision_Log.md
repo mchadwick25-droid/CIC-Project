@@ -6988,3 +6988,11 @@ Each text offers help with no condition attached and leaves the way open to the 
 - The engine change and its tests, in its own pull request.
 - A capped live re-test of the four safety probes in `lpc`.
 - An update of `CiC_L3D_Facilitator_Governance_V3.6` (Word file) to name the two new check-in cases. That document change is the project lead's.
+
+**Round-1 review rulings (Mark, 2026-10-27).** The Opus review (`Build/Ministry/Operations/Audits/Facilitator_Check_In_Routing_Review_2026-10-27.md`) raised two points, and option A was chosen for both.
+- **A repeat ask.** The check-in for a given reason is shown once per conversation. After it, the same reason goes on to the Representative, who answers from the records as written. Words showing the participant's own risk still go to the crisis turn every time, as Track A does.
+- **One coercion text.** It covers faith and non-faith coercion alike.
+
+The approved texts:
+- **Loss to suicide:** "I'm so sorry for your loss. Before we go on, I want to say plainly: if this loss is weighing on you now, you don't have to carry it alone. A person you trust, a grief or crisis line, or emergency services where you are can help. When you're ready, you can still ask what this tradition believed, and it will answer from what its own people wrote. Or we can stop here."
+- **Coercion by a person:** "Before we go on: what you're describing sounds like someone trying to control you. You don't owe anyone obedience without question, and you can talk to someone outside it: a person you trust, a support line, or emergency services if you're in danger. If you'd still like to ask how this tradition thought about authority, you can."

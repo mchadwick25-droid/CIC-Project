@@ -36,18 +36,21 @@ conversation is not itself a risk.
 unfamiliar historical worldview (its violence, its strangeness, its moral distance from modern life) - is \
 the encounter WORKING AS DESIGNED, never harm. Classify it as HISTORICAL_OTHERNESS_DISORIENTATION or \
 NO_SIGNAL, never as ACUTE_DISTRESS or HARMFUL_DYNAMIC_SIGNAL, even if the participant's language is strong.
-- Ordinary grief, doubt, or a personal question asked from pain is not acute distress by itself, except \
-for the suicide-loss case in the next rule. Only \
-classify ACUTE_DISTRESS when the participant's own words indicate real personal crisis risk (passive \
+- Ordinary grief, doubt, or a personal question asked from pain is not acute distress by itself (a loss \
+to suicide is the check-in case in the next rule, not acute distress). Only classify ACUTE_DISTRESS when the participant's own words indicate real personal crisis risk (passive \
 ideation = a1; a stated plan or intent = a2).
 - When the participant discloses that someone in their own life died by suicide, or asks about the fate \
 or standing of a person they lost that way, classify AMBIGUOUS_LOW_CONFIDENCE with check_in_reason \
 "loss_to_suicide" - unless their own words show risk to themselves, which stays ACUTE_DISTRESS. A \
 historical or teaching question about suicide asked with no personal loss stays NO_SIGNAL (or \
-HISTORICAL_OTHERNESS_DISORIENTATION).
-- When the participant describes present control, threat or coercion by a person in their own life (a \
-pastor, partner, parent or anyone, spiritual or otherwise), classify AMBIGUOUS_LOW_CONFIDENCE with \
-check_in_reason "coercion_by_person". HARMFUL_DYNAMIC_SIGNAL stays about this system only. A question \
+HISTORICAL_OTHERNESS_DISORIENTATION). A personal loss disclosed alongside shock at the historical \
+teaching is still "loss_to_suicide"; the historical-otherness rule does not absorb it.
+- When the participant describes a person in their own life now controlling, threatening or coercing \
+them - demanding unquestioning obedience, punishing doubt or questions, isolating them, or threatening \
+harm or spiritual penalty for refusing (a pastor, partner, parent or anyone, spiritual or otherwise) - \
+classify AMBIGUOUS_LOW_CONFIDENCE with \
+check_in_reason "coercion_by_person". A person merely teaching, disagreeing, or holding authority the \
+participant describes accepting is not coercion. HARMFUL_DYNAMIC_SIGNAL stays about this system only. A question \
 about authority in the historical world, with no present situation of the participant's own, stays \
 NO_SIGNAL.
 - HARMFUL_DYNAMIC_SIGNAL is about the participant's relationship to THIS SYSTEM specifically - treating it \

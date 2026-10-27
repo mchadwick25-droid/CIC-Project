@@ -108,3 +108,5 @@ def test_check_in_turn_selects_text_by_reason():
         turn = facilitator_turns.check_in_turn(reason)
         assert turn["kind"] == "safety"
         assert turn["resources_appended"] is False
+        assert turn["check_in_reason"] == reason
+    assert facilitator_turns.check_in_turn("not_applicable")["check_in_reason"] == "general"
