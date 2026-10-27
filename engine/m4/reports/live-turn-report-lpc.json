@@ -7,13 +7,13 @@
   "package": "packages/lpc/2026-10-26T18-33-28Z",
   "live_test": {
     "name": "lpc full validation, 27 October",
-    "cap_usd": 0.2,
+    "cap_usd": 0.3,
     "route": "Bedrock, regional inference profile, us-east-1",
     "model_ids": [
       "us.anthropic.claude-haiku-4-5-20251001-v1:0",
       "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
     ],
-    "priced_total_usd": 0.120293
+    "priced_total_usd": 0.027763
   },
   "usage": [
     {
@@ -22,7 +22,7 @@
       "provider": "bedrock",
       "world_key": "lpc",
       "live_test": "lpc full validation, 27 October",
-      "input_tokens": 1795,
+      "input_tokens": 1789,
       "output_tokens": 112,
       "cache_creation_input_tokens": 0,
       "cache_read_input_tokens": 0
@@ -33,8 +33,8 @@
       "provider": "bedrock",
       "world_key": "lpc",
       "live_test": "lpc full validation, 27 October",
-      "input_tokens": 2090,
-      "output_tokens": 179,
+      "input_tokens": 2084,
+      "output_tokens": 169,
       "cache_creation_input_tokens": 0,
       "cache_read_input_tokens": 0
     },
@@ -44,16 +44,16 @@
       "provider": "bedrock",
       "world_key": "lpc",
       "live_test": "lpc full validation, 27 October",
-      "input_tokens": 3220,
-      "output_tokens": 421,
-      "cache_creation_input_tokens": 23478,
-      "cache_read_input_tokens": 0
+      "input_tokens": 2441,
+      "output_tokens": 373,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 23478
     }
   ],
   "results": [
     {
       "id": "message-1",
-      "message": "How do we know this is what your community actually believed?",
+      "message": "How was a bishop chosen?",
       "prior_turns_replayed": 0,
       "result": {
         "routing_action": "voice_with_directive",
@@ -61,87 +61,18 @@
         "facilitator_events": [],
         "voice_event": {
           "speaker": "lpc",
-          "text": "We know from what they wrote to each other and ruled together, in plain words, at the time. Cyprian wrote against a Roman official who blamed us for plague and war. That official's own words do not survive, but the charge is reported in the reply Cyprian actually wrote. More than that, we have the decisions our bishops made about real people brought in front of them. Celerinus wrote to Lucian, another confessor, asking peace for three women who had given way, one of them his own sister. Lucian wrote back from the cell where the emperor's order had left him to die of hunger and thirst. That letter is not a creed recited together. It is a real decision about real people, made by a man facing death. Cyprian wrote ordering those certificates to name the people whose repentance was nearly complete. The whole congregation watched someone walk the road back, in stages, openly. What we cannot give you is the voice of the people it happened to. Every account of the lapsed is a bishop's account, written to decide what should be done.",
+          "text": "The people chose him, loudly and together, and more than once against his own wish. Cyprian was a trained speaker who turned to the faith in middle life. Two or three years later, Carthage acclaimed him bishop over the recorded opposition of five presbyters. He later wrote that certain presbyters kept an old venom against his office, a venom he said was against his people's choice and God's judgment. A deacon who knew him told it the same way: God judged and the people chose, and he was made bishop while still new to the faith. The pattern returned in our later years. In 391 Augustine was seized at Hippo and made a presbyter against his wishes. Years later, when Valerius told the bishops, clergy, and people present what he meant to do, they called for it loudly. Augustine refused to be made bishop while his own bishop lived, then gave way, compelled and constrained.",
           "citations": [
             {
-              "sentence": "We know from what they wrote to each other and ruled together, in plain words, at the time.",
+              "sentence": "The people chose him, loudly and together, and more than once against his own wish.",
               "record_ids": [
-                "lpc.witness.blamed-for-the-worlds-troubles"
+                "lpc.gravity.pastoral-office-flock-keeping"
               ],
               "sources": [
                 {
-                  "record_id": "lpc.witness.blamed-for-the-worlds-troubles",
-                  "record_type": "doctrinal_witness",
-                  "label": "One charge our neighbours made comes down to us, because Cyprian wrote a whole reply to it",
-                  "sources": [
-                    {
-                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
-                      "author": "Cyprian of Carthage",
-                      "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
-                      "locus": "An Address to Demetrianus, the editorial Argument and SSSS1-3, answering the charge that Christians caused the world's wars, plague, and famine by refusing to worship the gods -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 45605-45660; and SSSS12-13, Demetrianus judging and torturing Christians, the ground for calling him an official in Cyprian's own text (the office \"Proconsul of Africa\" is the editor's Argument, not Cyprian's) -- verified directly against the same file, lines 45938-45992",
-                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
-                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "Cyprian wrote against a Roman official who blamed us for plague and war.",
-              "record_ids": [
-                "lpc.witness.blamed-for-the-worlds-troubles"
-              ],
-              "sources": [
-                {
-                  "record_id": "lpc.witness.blamed-for-the-worlds-troubles",
-                  "record_type": "doctrinal_witness",
-                  "label": "One charge our neighbours made comes down to us, because Cyprian wrote a whole reply to it",
-                  "sources": [
-                    {
-                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
-                      "author": "Cyprian of Carthage",
-                      "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
-                      "locus": "An Address to Demetrianus, the editorial Argument and SSSS1-3, answering the charge that Christians caused the world's wars, plague, and famine by refusing to worship the gods -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 45605-45660; and SSSS12-13, Demetrianus judging and torturing Christians, the ground for calling him an official in Cyprian's own text (the office \"Proconsul of Africa\" is the editor's Argument, not Cyprian's) -- verified directly against the same file, lines 45938-45992",
-                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
-                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "That official's own words do not survive, but the charge is reported in the reply Cyprian actually wrote.",
-              "record_ids": [
-                "lpc.witness.blamed-for-the-worlds-troubles"
-              ],
-              "sources": [
-                {
-                  "record_id": "lpc.witness.blamed-for-the-worlds-troubles",
-                  "record_type": "doctrinal_witness",
-                  "label": "One charge our neighbours made comes down to us, because Cyprian wrote a whole reply to it",
-                  "sources": [
-                    {
-                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
-                      "author": "Cyprian of Carthage",
-                      "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
-                      "locus": "An Address to Demetrianus, the editorial Argument and SSSS1-3, answering the charge that Christians caused the world's wars, plague, and famine by refusing to worship the gods -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 45605-45660; and SSSS12-13, Demetrianus judging and torturing Christians, the ground for calling him an official in Cyprian's own text (the office \"Proconsul of Africa\" is the editor's Argument, not Cyprian's) -- verified directly against the same file, lines 45938-45992",
-                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
-                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "More than that, we have the decisions our bishops made about real people brought in front of them.",
-              "record_ids": [
-                "lpc.gravity.penitential-discipline"
-              ],
-              "sources": [
-                {
-                  "record_id": "lpc.gravity.penitential-discipline",
+                  "record_id": "lpc.gravity.pastoral-office-flock-keeping",
                   "record_type": "gravity",
-                  "label": "Penitential Discipline: the Reintegration of the Failed",
+                  "label": "Pastoral Office as Territorial Flock-Keeping",
                   "sources": [
                     {
                       "source_id": "lpc.source.cyprian-epistles",
@@ -152,11 +83,11 @@
                       "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
                     },
                     {
-                      "source_id": "lpc.source.cyprian-de-lapsis",
-                      "author": "Cyprian of Carthage",
-                      "work": "On the Lapsed (De Lapsis)",
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "author": "Cyprian of Carthage and the African episcopate in council",
+                      "work": "The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256; the vendored edition's own heading dates it a.d. 258)",
                       "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
-                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
                       "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
                     },
                     {
@@ -172,209 +103,210 @@
               ]
             },
             {
-              "sentence": "Celerinus wrote to Lucian, another confessor, asking peace for three women who had given way, one of them his own sister.",
+              "sentence": "Cyprian was a trained speaker who turned to the faith in middle life.",
               "record_ids": [
-                "lpc.story.celerinus-writes-to-lucian"
+                "lpc.story.election-of-cyprian"
               ],
               "sources": [
                 {
-                  "record_id": "lpc.story.celerinus-writes-to-lucian",
+                  "record_id": "lpc.story.election-of-cyprian",
                   "record_type": "story",
-                  "label": "How one confessor asked another, not a bishop, to grant peace to women who had fallen",
+                  "label": "How we came to treat a recent convert's own election, over his reluctance, as God's own judgment made visible",
                   "sources": [
                     {
-                      "source_id": "lpc.source.cyprian-epistles",
-                      "author": "Cyprian of Carthage",
-                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
-                      "locus": "Ep. XX (Celerinus to Lucian) and Ep. XXI (Lucian's reply); cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30528-30720",
-                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
-                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "Lucian wrote back from the cell where the emperor's order had left him to die of hunger and thirst.",
-              "record_ids": [
-                "lpc.story.celerinus-writes-to-lucian"
-              ],
-              "sources": [
-                {
-                  "record_id": "lpc.story.celerinus-writes-to-lucian",
-                  "record_type": "story",
-                  "label": "How one confessor asked another, not a bishop, to grant peace to women who had fallen",
-                  "sources": [
-                    {
-                      "source_id": "lpc.source.cyprian-epistles",
-                      "author": "Cyprian of Carthage",
-                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
-                      "locus": "Ep. XX (Celerinus to Lucian) and Ep. XXI (Lucian's reply); cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30528-30720",
-                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
-                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "It is a real decision about real people, made by a man facing death.",
-              "record_ids": [
-                "lpc.story.celerinus-writes-to-lucian"
-              ],
-              "sources": [
-                {
-                  "record_id": "lpc.story.celerinus-writes-to-lucian",
-                  "record_type": "story",
-                  "label": "How one confessor asked another, not a bishop, to grant peace to women who had fallen",
-                  "sources": [
-                    {
-                      "source_id": "lpc.source.cyprian-epistles",
-                      "author": "Cyprian of Carthage",
-                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
-                      "locus": "Ep. XX (Celerinus to Lucian) and Ep. XXI (Lucian's reply); cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30528-30720",
-                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
-                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "Cyprian wrote ordering those certificates to name the people whose repentance was nearly complete.",
-              "record_ids": [
-                "lpc.term.reconciliation-penitential-discipline"
-              ],
-              "sources": [
-                {
-                  "record_id": "lpc.term.reconciliation-penitential-discipline",
-                  "record_type": "term",
-                  "label": "reconciliation",
-                  "sources": [
-                    {
-                      "source_id": "lpc.source.cyprian-epistles",
-                      "author": "Cyprian of Carthage",
-                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
-                      "locus": "the Epistles carry the process in operation, including Epistles XX-XXI; Epistle IX 2 -- 'do penance for a set time, and according to the rules of discipline come to public confession, and by imposition of the hand of the bishop and clergy receive the right of communion'",
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "author": "Pontius the Deacon",
+                      "work": "The Life and Passion of Cyprian, Bishop and Martyr",
+                      "locus": "SS5; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 27820",
                       "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
                       "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
                     },
                     {
-                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "source_id": "lpc.source.cyprian-epistles",
                       "author": "Cyprian of Carthage",
-                      "work": "On the Lapsed (De Lapsis)",
-                      "locus": "De Lapsis carries the argument for episcopal control of the process",
-                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "Ep. LXVII, on the election of Sabinus, corroborating the acclamation pattern independently of Pontius's own narrative",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "He later wrote that certain presbyters kept an old venom against his office, a venom he said was against his people's choice and God's judgment.",
+              "record_ids": [
+                "lpc.story.election-of-cyprian"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.story.election-of-cyprian",
+                  "record_type": "story",
+                  "label": "How we came to treat a recent convert's own election, over his reluctance, as God's own judgment made visible",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "author": "Pontius the Deacon",
+                      "work": "The Life and Passion of Cyprian, Bishop and Martyr",
+                      "locus": "SS5; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 27820",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "Ep. LXVII, on the election of Sabinus, corroborating the acclamation pattern independently of Pontius's own narrative",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "A deacon who knew him told it the same way: God judged and the people chose, and he was made bishop while still new to the faith.",
+              "record_ids": [
+                "lpc.story.election-of-cyprian"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.story.election-of-cyprian",
+                  "record_type": "story",
+                  "label": "How we came to treat a recent convert's own election, over his reluctance, as God's own judgment made visible",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "author": "Pontius the Deacon",
+                      "work": "The Life and Passion of Cyprian, Bishop and Martyr",
+                      "locus": "SS5; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 27820",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "Ep. LXVII, on the election of Sabinus, corroborating the acclamation pattern independently of Pontius's own narrative",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "In 391 Augustine was seized at Hippo and made a presbyter against his wishes.",
+              "record_ids": [
+                "lpc.force.congregational-acclamation-overriding-preference"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.force.congregational-acclamation-overriding-preference",
+                  "record_type": "force",
+                  "label": "Congregational Acclamation Overriding a Reluctant Convert's Preference",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
                       "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
                     },
                     {
                       "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
                       "author": "Pontius the Deacon",
                       "work": "The Life and Passion of Cyprian, Bishop and Martyr",
-                      "locus": "Pontius reports Cyprian's own conduct of the office more broadly",
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
                       "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
                       "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                      "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                      "locus": "Vita Augustini ch. VIII, \"under compulsion and constraint he yielded and accepted the ordination\" -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 2142-2143 (the phrase is hyphenated across a line wrap in the source file -- \"under com-\" then \"pulsion and constraint\")",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
                     }
                   ]
                 }
               ]
             },
             {
-              "sentence": "The whole congregation watched someone walk the road back, in stages, openly.",
+              "sentence": "Years later, when Valerius told the bishops, clergy, and people present what he meant to do, they called for it loudly.",
               "record_ids": [
-                "lpc.term.reconciliation-penitential-discipline"
+                "lpc.force.congregational-acclamation-overriding-preference"
               ],
               "sources": [
                 {
-                  "record_id": "lpc.term.reconciliation-penitential-discipline",
-                  "record_type": "term",
-                  "label": "reconciliation",
+                  "record_id": "lpc.force.congregational-acclamation-overriding-preference",
+                  "record_type": "force",
+                  "label": "Congregational Acclamation Overriding a Reluctant Convert's Preference",
                   "sources": [
                     {
                       "source_id": "lpc.source.cyprian-epistles",
                       "author": "Cyprian of Carthage",
                       "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
-                      "locus": "the Epistles carry the process in operation, including Epistles XX-XXI; Epistle IX 2 -- 'do penance for a set time, and according to the rules of discipline come to public confession, and by imposition of the hand of the bishop and clergy receive the right of communion'",
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
                       "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
-                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
-                    },
-                    {
-                      "source_id": "lpc.source.cyprian-de-lapsis",
-                      "author": "Cyprian of Carthage",
-                      "work": "On the Lapsed (De Lapsis)",
-                      "locus": "De Lapsis carries the argument for episcopal control of the process",
-                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
                       "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
                     },
                     {
                       "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
                       "author": "Pontius the Deacon",
                       "work": "The Life and Passion of Cyprian, Bishop and Martyr",
-                      "locus": "Pontius reports Cyprian's own conduct of the office more broadly",
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
                       "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
                       "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                      "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                      "locus": "Vita Augustini ch. VIII, \"under compulsion and constraint he yielded and accepted the ordination\" -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 2142-2143 (the phrase is hyphenated across a line wrap in the source file -- \"under com-\" then \"pulsion and constraint\")",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
                     }
                   ]
                 }
               ]
             },
             {
-              "sentence": "What we cannot give you is the voice of the people it happened to.",
+              "sentence": "Augustine refused to be made bishop while his own bishop lived, then gave way, compelled and constrained.",
               "record_ids": [
-                "lpc.term.the-lapsed"
+                "lpc.force.congregational-acclamation-overriding-preference"
               ],
               "sources": [
                 {
-                  "record_id": "lpc.term.the-lapsed",
-                  "record_type": "term",
-                  "label": "the lapsed",
+                  "record_id": "lpc.force.congregational-acclamation-overriding-preference",
+                  "record_type": "force",
+                  "label": "Congregational Acclamation Overriding a Reluctant Convert's Preference",
                   "sources": [
-                    {
-                      "source_id": "lpc.source.cyprian-de-lapsis",
-                      "author": "Cyprian of Carthage",
-                      "work": "On the Lapsed (De Lapsis)",
-                      "locus": "De Lapsis, the founding document of the controversy, directly quoted throughout",
-                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
-                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
-                    },
                     {
                       "source_id": "lpc.source.cyprian-epistles",
                       "author": "Cyprian of Carthage",
                       "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
-                      "locus": "the Epistles' own lapsed-crisis correspondence, including Epistles XX-XXI, two lay confessors' own first-person voices",
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
                       "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
-                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "Every account of the lapsed is a bishop's account, written to decide what should be done.",
-              "record_ids": [
-                "lpc.term.the-lapsed"
-              ],
-              "sources": [
-                {
-                  "record_id": "lpc.term.the-lapsed",
-                  "record_type": "term",
-                  "label": "the lapsed",
-                  "sources": [
-                    {
-                      "source_id": "lpc.source.cyprian-de-lapsis",
-                      "author": "Cyprian of Carthage",
-                      "work": "On the Lapsed (De Lapsis)",
-                      "locus": "De Lapsis, the founding document of the controversy, directly quoted throughout",
-                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
                       "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
                     },
                     {
-                      "source_id": "lpc.source.cyprian-epistles",
-                      "author": "Cyprian of Carthage",
-                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
-                      "locus": "the Epistles' own lapsed-crisis correspondence, including Epistles XX-XXI, two lay confessors' own first-person voices",
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "author": "Pontius the Deacon",
+                      "work": "The Life and Passion of Cyprian, Bishop and Martyr",
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
                       "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
                       "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                      "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                      "locus": "Vita Augustini ch. VIII, \"under compulsion and constraint he yielded and accepted the ordination\" -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 2142-2143 (the phrase is hyphenated across a line wrap in the source file -- \"under com-\" then \"pulsion and constraint\")",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
                     }
                   ]
                 }
@@ -383,31 +315,9 @@
           ],
           "glosses": [
             {
-              "id": "lpc.term.confessor",
-              "matched_name": "confessor",
-              "text_start": 405,
-              "plain_meaning": "For us, a confessor is one who was interrogated for the Name, did not deny it, and lived. In Cyprian's time, that standing could rival a bishop's own authority.",
-              "quick_meaning": "For us, a confessor is someone who was asked to deny the faith, did not, and lived. In Cyprian's time, that standing could rival a bishop.",
-              "translational_sense": "A modern listener will almost certainly hear 'confessor' as a priest who hears confessions -- the later, Western, sacramental sense -- or a vague honorific for a saintly figure. We mean the opposite direction entirely: not one who hears confession, but one who made confession, under interrogation, at real risk, and survived. The word names what was done to us and what we did not say, and it carries a claim on the church's own decisions rather than an office within its ministry.",
-              "false_friend": [
-                "a priest whose office is to hear other people's confessions, the later, Western, sacramental sense of the word",
-                "a vague honorific for any saintly figure, with no specific claim on church authority attached"
-              ],
-              "sourced_by": [
-                {
-                  "source_id": "lpc.source.cyprian-epistles",
-                  "author": "Cyprian of Carthage",
-                  "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
-                  "locus": "Ep. XX (Celerinus to Lucian) and Ep. XXI (Lucian's reply); cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30528-30720",
-                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
-                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
-                }
-              ]
-            },
-            {
               "id": "lpc.term.the-people",
-              "matched_name": "the people",
-              "text_start": 756,
+              "matched_name": "The people",
+              "text_start": 0,
               "plain_meaning": "We are not a silent audience. We put men into office, and we say so out loud. We can stand in front of a bishop's own seat and refuse to go home.",
               "quick_meaning": "For us, 'the people' names the congregation when it acts. They consent, they demand, and they elect -- unlike the flock, which is the congregation being cared for.",
               "translational_sense": "A modern listener may hear either a passive congregation or a modern democratic electorate with formal voting rights. Neither is right. A corporate body whose consent and demand genuinely constitute a call to office, and which can be exerted disruptively, but which holds no procedural mechanism and can still be refused.",
@@ -420,53 +330,23 @@
                   "source_id": "lpc.source.cyprian-epistles",
                   "author": "Cyprian of Carthage",
                   "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
-                  "locus": "the Epistles carry the process in operation, including Epistles XX-XXI; Epistle IX 2 -- 'do penance for a set time, and according to the rules of discipline come to public confession, and by imposition of the hand of the bishop and clergy receive the right of communion'",
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
                   "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
                   "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
                 },
                 {
-                  "source_id": "lpc.source.cyprian-de-lapsis",
-                  "author": "Cyprian of Carthage",
-                  "work": "On the Lapsed (De Lapsis)",
-                  "locus": "De Lapsis carries the argument for episcopal control of the process",
-                  "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                  "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                  "author": "Cyprian of Carthage and the African episcopate in council",
+                  "work": "The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256; the vendored edition's own heading dates it a.d. 258)",
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
                   "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
                 },
                 {
                   "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
                   "author": "Pontius the Deacon",
                   "work": "The Life and Passion of Cyprian, Bishop and Martyr",
-                  "locus": "Pontius reports Cyprian's own conduct of the office more broadly",
-                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
-                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
-                }
-              ]
-            },
-            {
-              "id": "lpc.term.the-lapsed",
-              "matched_name": "the lapsed",
-              "text_start": 967,
-              "plain_meaning": "The lapsed are our own people who complied with the order to sacrifice during the persecution -- some by sacrificing, some only by paying for a certificate that said they had. They are not strangers and not enemies. They sat where we sit, and now they are asking to come back.",
-              "quick_meaning": "For us, the lapsed are our own people. Under threat, they gave in to the order to sacrifice, and now they want to come back.",
-              "translational_sense": "A modern listener often hears a category of lapsed or lapsed-Catholic believers -- people who drifted away, stopped attending, lost interest. Gentle, gradual, private. We mean something else entirely: a documented act under state compulsion, on a specific occasion, with a certificate as evidence, carrying a public consequence for standing in the community. The lapsed did not drift off. They stayed, and asked to be readmitted, and we had to decide in public what to do with them.",
-              "false_friend": [
-                "a gentle, gradual falling-away from faith, comparable to a modern believer who drifts from church over years",
-                "a private matter of personal conviction, with no public consequence for standing in the community"
-              ],
-              "sourced_by": [
-                {
-                  "source_id": "lpc.source.cyprian-de-lapsis",
-                  "author": "Cyprian of Carthage",
-                  "work": "On the Lapsed (De Lapsis)",
-                  "locus": "De Lapsis, the founding document of the controversy, directly quoted throughout",
-                  "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
-                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
-                },
-                {
-                  "source_id": "lpc.source.cyprian-epistles",
-                  "author": "Cyprian of Carthage",
-                  "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
-                  "locus": "the Epistles' own lapsed-crisis correspondence, including Epistles XX-XXI, two lay confessors' own first-person voices",
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
                   "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
                   "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
                 }
@@ -477,7 +357,7 @@
             {
               "id": "lpc.figure.cyprian",
               "matched_name": "Cyprian",
-              "text_start": 92,
+              "text_start": 84,
               "names": [
                 {
                   "name": "Cyprian, our bishop at Carthage",
@@ -494,103 +374,90 @@
               },
               "sourced_by": [
                 {
-                  "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
-                  "author": "Cyprian of Carthage",
-                  "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
-                  "locus": "An Address to Demetrianus, the editorial Argument and SSSS1-3, answering the charge that Christians caused the world's wars, plague, and famine by refusing to worship the gods -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 45605-45660; and SSSS12-13, Demetrianus judging and torturing Christians, the ground for calling him an official in Cyprian's own text (the office \"Proconsul of Africa\" is the editor's Argument, not Cyprian's) -- verified directly against the same file, lines 45938-45992",
-                  "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                  "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                  "author": "Pontius the Deacon",
+                  "work": "The Life and Passion of Cyprian, Bishop and Martyr",
+                  "locus": "SS5; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 27820",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
                   "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
-                }
-              ]
-            },
-            {
-              "id": "lpc.figure.celerinus",
-              "matched_name": "Celerinus",
-              "text_start": 370,
-              "names": [
-                {
-                  "name": "Celerinus, a confessor among us",
-                  "tag": "in-world"
                 },
-                {
-                  "name": "Celerinus of Carthage (fl. mid-3rd century)",
-                  "tag": "scholarly"
-                }
-              ],
-              "bridge_line": "A confessor who wrote to another confessor in prison. He wept for his sister, who had sacrificed, and asked him to help restore her.",
-              "dates": {
-                "display": "a confessor -- imprisoned under persecution and did not deny Christ; wrote to Lucian, a fellow confessor in prison, asking that his own sister and two other women be received back to communion (Ep. XX; lpc.story.celerinus-writes-to-lucian)"
-              },
-              "sourced_by": [
                 {
                   "source_id": "lpc.source.cyprian-epistles",
                   "author": "Cyprian of Carthage",
                   "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
-                  "locus": "Ep. XX (Celerinus to Lucian) and Ep. XXI (Lucian's reply); cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30528-30720",
+                  "locus": "Ep. LXVII, on the election of Sabinus, corroborating the acclamation pattern independently of Pontius's own narrative",
                   "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
                   "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
                 }
               ]
             },
             {
-              "id": "lpc.figure.lucian",
-              "matched_name": "Lucian",
-              "text_start": 389,
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 582,
               "names": [
                 {
-                  "name": "Lucian, a confessor among us",
+                  "name": "Augustine, our bishop at Hippo",
                   "tag": "in-world"
                 },
                 {
-                  "name": "Lucian of Carthage (fl. mid-3rd century)",
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
                   "tag": "scholarly"
                 }
               ],
-              "bridge_line": "A confessor who answered from a prison cell. He and others there had been ordered to die of hunger and thirst. He sent peace to Numeria and Candida, two women he knew well, once each case was set before the bishop.",
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
               "dates": {
-                "display": "a confessor imprisoned under persecution, condemned to die by hunger and thirst, who replied to Celerinus from prison, granting peace to Numeria and Candida once their case was set before the bishop (Ep. XXI; lpc.story.celerinus-writes-to-lucian)"
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV, independently re-located this session; Doc_01 SS2); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII; Doc_01 SS2); died 430, during the Vandal siege of Hippo (lpc.story.the-psalms-on-the-wall)"
               },
               "sourced_by": [
                 {
                   "source_id": "lpc.source.cyprian-epistles",
                   "author": "Cyprian of Carthage",
                   "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
-                  "locus": "Ep. XX (Celerinus to Lucian) and Ep. XXI (Lucian's reply); cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30528-30720",
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
                   "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
                   "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                },
+                {
+                  "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                  "author": "Pontius the Deacon",
+                  "work": "The Life and Passion of Cyprian, Bishop and Martyr",
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                },
+                {
+                  "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                  "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                  "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                  "locus": "Vita Augustini ch. VIII, \"under compulsion and constraint he yielded and accepted the ordination\" -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 2142-2143 (the phrase is hyphenated across a line wrap in the source file -- \"under com-\" then \"pulsion and constraint\")",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
                 }
               ]
             }
           ],
           "quote_offers": [],
-          "kind": "did_it_happen",
+          "kind": "how",
           "offered_ids": {
             "doctrinal_witness": [
-              "lpc.witness.blamed-for-the-worlds-troubles"
+              "lpc.witness.answerability-as-ground"
             ],
             "term": [
-              "lpc.term.reconciliation-penitential-discipline",
-              "lpc.term.the-lapsed",
-              "lpc.term.catechesis"
+              "lpc.term.the-people",
+              "lpc.term.the-flock"
             ],
             "story": [
-              "lpc.story.celerinus-writes-to-lucian",
-              "lpc.story.numidicus"
+              "lpc.story.election-of-cyprian"
             ],
             "quote": [
-              "lpc.quote.the-case-set-before-the-bishop",
-              "lpc.quote.peter-the-sick-man-and-the-physician",
-              "lpc.quote.the-creed-first-then-the-prayer",
-              "lpc.quote.earlier-councils-corrected-by-later"
+              "lpc.quote.clamour-and-tears"
             ],
             "gravity": [
-              "lpc.gravity.penitential-discipline"
-            ],
-            "honest_limit": [
-              "lpc.limit.no-chain-of-witnesses"
+              "lpc.gravity.pastoral-office-flock-keeping"
             ],
             "force": [
-              "lpc.force.corpus-outliving-the-world"
+              "lpc.force.congregational-acclamation-overriding-preference"
             ]
           },
           "attempts_meta": {
@@ -616,140 +483,110 @@
           "grounding": {
             "sentences": [
               {
-                "sentence": "We know from what they wrote to each other and ruled together, in plain words, at the time.",
+                "sentence": "The people chose him, loudly and together, and more than once against his own wish.",
                 "tags": [
-                  "lpc.witness.blamed-for-the-worlds-troubles"
+                  "lpc.gravity.pastoral-office-flock-keeping"
                 ],
                 "verdict": "ok",
                 "why": "tagged claim, shares ground with its own records",
-                "draft": "We know from what they wrote to each other and ruled together, in plain words, at the time [[lpc.witness.blamed-for-the-worlds-troubles]]."
+                "draft": "The people chose him, loudly and together, and more than once against his own wish [[lpc.gravity.pastoral-office-flock-keeping]]."
               },
               {
-                "sentence": "Cyprian wrote against a Roman official who blamed us for plague and war.",
+                "sentence": "Cyprian was a trained speaker who turned to the faith in middle life.",
                 "tags": [
-                  "lpc.witness.blamed-for-the-worlds-troubles"
-                ],
-                "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0,
-                "draft": "Cyprian wrote against a Roman official who blamed us for plague and war [[lpc.witness.blamed-for-the-worlds-troubles]]."
-              },
-              {
-                "sentence": "That official's own words do not survive, but the charge is reported in the reply Cyprian actually wrote.",
-                "tags": [
-                  "lpc.witness.blamed-for-the-worlds-troubles"
-                ],
-                "verdict": "ok",
-                "why": "grounded 89% in own tagged records",
-                "ratio": 0.89,
-                "draft": "That official's own words do not survive, but the charge is reported in the reply Cyprian actually wrote [[lpc.witness.blamed-for-the-worlds-troubles]]."
-              },
-              {
-                "sentence": "More than that, we have the decisions our bishops made about real people brought in front of them.",
-                "tags": [
-                  "lpc.gravity.penitential-discipline"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records",
-                "draft": "More than that, we have the decisions our bishops made about real people brought in front of them [[lpc.gravity.penitential-discipline]]."
-              },
-              {
-                "sentence": "Celerinus wrote to Lucian, another confessor, asking peace for three women who had given way, one of them his own sister.",
-                "tags": [
-                  "lpc.story.celerinus-writes-to-lucian"
-                ],
-                "verdict": "ok",
-                "why": "grounded 92% in own tagged records",
-                "ratio": 0.92,
-                "draft": "Celerinus wrote to Lucian, another confessor, asking peace for three women who had given way, one of them his own sister [[lpc.story.celerinus-writes-to-lucian]]."
-              },
-              {
-                "sentence": "Lucian wrote back from the cell where the emperor's order had left him to die of hunger and thirst.",
-                "tags": [
-                  "lpc.story.celerinus-writes-to-lucian"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records",
-                "draft": "Lucian wrote back from the cell where the emperor's order had left him to die of hunger and thirst [[lpc.story.celerinus-writes-to-lucian]]."
-              },
-              {
-                "sentence": "That letter is not a creed recited together.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing",
-                "draft": "That letter is not a creed recited together."
-              },
-              {
-                "sentence": "It is a real decision about real people, made by a man facing death.",
-                "tags": [
-                  "lpc.story.celerinus-writes-to-lucian"
+                  "lpc.story.election-of-cyprian"
                 ],
                 "verdict": "ok",
                 "why": "tagged claim, shares ground with its own records",
                 "narrates_story": true,
-                "draft": "It is a real decision about real people, made by a man facing death [[lpc.story.celerinus-writes-to-lucian]]."
+                "draft": "Cyprian was a trained speaker who turned to the faith in middle life [[lpc.story.election-of-cyprian]]."
               },
               {
-                "sentence": "Cyprian wrote ordering those certificates to name the people whose repentance was nearly complete.",
+                "sentence": "Two or three years later, Carthage acclaimed him bishop over the recorded opposition of five presbyters.",
                 "tags": [
-                  "lpc.term.reconciliation-penitential-discipline"
+                  "lpc.story.election-of-cyprian"
+                ],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['carthage'], number) only 36% grounded in its own tags",
+                "ratio": 0.36,
+                "draft": "Two or three years later, Carthage acclaimed him bishop over the recorded opposition of five presbyters [[lpc.story.election-of-cyprian]]."
+              },
+              {
+                "sentence": "He later wrote that certain presbyters kept an old venom against his office, a venom he said was against his people's choice and God's judgment.",
+                "tags": [
+                  "lpc.story.election-of-cyprian"
                 ],
                 "verdict": "ok",
                 "why": "tagged claim, shares ground with its own records",
-                "draft": "Cyprian wrote ordering those certificates to name the people whose repentance was nearly complete [[lpc.term.reconciliation-penitential-discipline]]."
+                "draft": "He later wrote that certain presbyters kept an old venom against his office, a venom he said was against his people's choice and God's judgment [[lpc.story.election-of-cyprian]]."
               },
               {
-                "sentence": "The whole congregation watched someone walk the road back, in stages, openly.",
+                "sentence": "A deacon who knew him told it the same way: God judged and the people chose, and he was made bishop while still new to the faith.",
                 "tags": [
-                  "lpc.term.reconciliation-penitential-discipline"
+                  "lpc.story.election-of-cyprian"
                 ],
                 "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records",
-                "draft": "The whole congregation watched someone walk the road back, in stages, openly [[lpc.term.reconciliation-penitential-discipline]]."
+                "why": "grounded 64% in own tagged records",
+                "ratio": 0.64,
+                "draft": "A deacon who knew him told it the same way: God judged and the people chose, and he was made bishop while still new to the faith [[lpc.story.election-of-cyprian]]."
               },
               {
-                "sentence": "What we cannot give you is the voice of the people it happened to.",
-                "tags": [
-                  "lpc.term.the-lapsed"
-                ],
+                "sentence": "The pattern returned in our later years.",
+                "tags": [],
                 "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records",
-                "draft": "What we cannot give you is the voice of the people it happened to [[lpc.term.the-lapsed]]."
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The pattern returned in our later years."
               },
               {
-                "sentence": "Every account of the lapsed is a bishop's account, written to decide what should be done.",
+                "sentence": "In 391 Augustine was seized at Hippo and made a presbyter against his wishes.",
                 "tags": [
-                  "lpc.term.the-lapsed"
+                  "lpc.force.congregational-acclamation-overriding-preference"
                 ],
                 "verdict": "ok",
-                "why": "grounded 43% in own tagged records",
-                "ratio": 0.43,
-                "draft": "Every account of the lapsed is a bishop's account, written to decide what should be done [[lpc.term.the-lapsed]]."
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "In 391 Augustine was seized at Hippo and made a presbyter against his wishes [[lpc.force.congregational-acclamation-overriding-preference]]."
+              },
+              {
+                "sentence": "Years later, when Valerius told the bishops, clergy, and people present what he meant to do, they called for it loudly.",
+                "tags": [
+                  "lpc.force.congregational-acclamation-overriding-preference"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "Years later, when Valerius told the bishops, clergy, and people present what he meant to do, they called for it loudly [[lpc.force.congregational-acclamation-overriding-preference]]."
+              },
+              {
+                "sentence": "Augustine refused to be made bishop while his own bishop lived, then gave way, compelled and constrained.",
+                "tags": [
+                  "lpc.force.congregational-acclamation-overriding-preference"
+                ],
+                "verdict": "ok",
+                "why": "grounded 90% in own tagged records",
+                "ratio": 0.9,
+                "draft": "Augustine refused to be made bishop while his own bishop lived, then gave way, compelled and constrained [[lpc.force.congregational-acclamation-overriding-preference]]."
               }
             ],
             "substantive_survives": true,
             "truncated": false,
             "paragraph_coverage": [
               {
-                "sentence_count": 12,
+                "sentence_count": 9,
                 "cited_record_ids": [
-                  "lpc.gravity.penitential-discipline",
-                  "lpc.story.celerinus-writes-to-lucian",
-                  "lpc.term.reconciliation-penitential-discipline",
-                  "lpc.term.the-lapsed",
-                  "lpc.witness.blamed-for-the-worlds-troubles"
+                  "lpc.force.congregational-acclamation-overriding-preference",
+                  "lpc.gravity.pastoral-office-flock-keeping",
+                  "lpc.story.election-of-cyprian"
                 ],
                 "wholly_uncited": false,
                 "inherited_from_preceding": false,
                 "inherited_verdicts": {
-                  "6": {
-                    "sentence": "That letter is not a creed recited together.",
+                  "5": {
+                    "sentence": "The pattern returned in our later years.",
                     "tags": [
-                      "lpc.gravity.penitential-discipline",
-                      "lpc.story.celerinus-writes-to-lucian",
-                      "lpc.term.reconciliation-penitential-discipline",
-                      "lpc.term.the-lapsed",
-                      "lpc.witness.blamed-for-the-worlds-troubles"
+                      "lpc.force.congregational-acclamation-overriding-preference",
+                      "lpc.gravity.pastoral-office-flock-keeping",
+                      "lpc.story.election-of-cyprian"
                     ],
                     "verdict": "ok",
                     "why": "tagged claim, shares ground with its own records"
@@ -761,9 +598,9 @@
               "placed": [],
               "removed": [
                 {
-                  "sentence": "He said:",
-                  "why": "lead-in to a placed quote does not name its speaker",
-                  "draft": "He said: [[quote:lpc.quote.the-case-set-before-the-bishop]]"
+                  "sentence": "Possidius says a crowd at Hippo seized Augustine and loudly told their bishop to make him a priest, while he wept",
+                  "why": "placed quote does not match its record",
+                  "draft": "Possidius says a crowd at Hippo seized Augustine and loudly told their bishop to make him a priest, while he wept [[quote:lpc.quote.clamour-and-tears]]"
                 }
               ]
             }
@@ -774,65 +611,68 @@
               {
                 "index": 0,
                 "text_start": 0,
-                "text_end": 91
+                "text_end": 83
               },
               {
                 "index": 1,
-                "text_start": 92,
-                "text_end": 164
+                "text_start": 84,
+                "text_end": 153
               },
               {
                 "index": 2,
-                "text_start": 165,
-                "text_end": 270
+                "text_start": 154,
+                "text_end": 258
               },
               {
                 "index": 3,
-                "text_start": 271,
-                "text_end": 369
+                "text_start": 259,
+                "text_end": 403
               },
               {
                 "index": 4,
-                "text_start": 370,
-                "text_end": 491
+                "text_start": 404,
+                "text_end": 533
               },
               {
                 "index": 5,
-                "text_start": 492,
-                "text_end": 591
+                "text_start": 534,
+                "text_end": 574
               },
               {
                 "index": 6,
-                "text_start": 592,
-                "text_end": 636
+                "text_start": 575,
+                "text_end": 652
               },
               {
                 "index": 7,
-                "text_start": 637,
-                "text_end": 705
+                "text_start": 653,
+                "text_end": 772
               },
               {
                 "index": 8,
-                "text_start": 706,
-                "text_end": 804
-              },
-              {
-                "index": 9,
-                "text_start": 805,
-                "text_end": 882
-              },
-              {
-                "index": 10,
-                "text_start": 883,
-                "text_end": 949
-              },
-              {
-                "index": 11,
-                "text_start": 950,
-                "text_end": 1039
+                "text_start": 773,
+                "text_end": 878
               }
             ],
             "elements": [
+              {
+                "record_id": "lpc.term.the-people",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "In the vendored English edition of Cyprian the Latin plebs occurs exactly three times, all inside the 19th-century American editor's own introductory and elucidatory prose, none inside Cyprian's own letters. Cyprian's Latin does use it: Hartel's letters carry plebs in running text, 89 whole-word occurrences with notes excluded, and letter 43 is headed CYPRIANVS PLEBI VNIVERSAE S. 'The people' is the English volume's own recurring rendering for the congregation as an acting body. It is a working handle, and whether plebs becomes the world word is not settled.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 0,
+                "char_start": 0,
+                "char_end": 10,
+                "surface": "The people"
+              },
               {
                 "record_id": "lpc.figure.cyprian",
                 "record_type": "figure",
@@ -852,61 +692,7 @@
                 "surface": "Cyprian"
               },
               {
-                "record_id": "lpc.figure.celerinus",
-                "record_type": "figure",
-                "world_key": "lpc",
-                "confidence": {
-                  "citation_specificity": "A",
-                  "divergence_note": null,
-                  "evidentiary_weight": "load-bearing",
-                  "formation_confidence": "Documented",
-                  "verification_state": "verified-direct"
-                },
-                "repeat": false,
-                "kind": "figure",
-                "sentence_index": 4,
-                "char_start": 0,
-                "char_end": 9,
-                "surface": "Celerinus"
-              },
-              {
-                "record_id": "lpc.figure.lucian",
-                "record_type": "figure",
-                "world_key": "lpc",
-                "confidence": {
-                  "citation_specificity": "A",
-                  "divergence_note": null,
-                  "evidentiary_weight": "load-bearing",
-                  "formation_confidence": "Documented",
-                  "verification_state": "verified-direct"
-                },
-                "repeat": false,
-                "kind": "figure",
-                "sentence_index": 4,
-                "char_start": 19,
-                "char_end": 25,
-                "surface": "Lucian"
-              },
-              {
-                "record_id": "lpc.term.confessor",
-                "record_type": "term",
-                "world_key": "lpc",
-                "confidence": {
-                  "citation_specificity": "A",
-                  "divergence_note": "The evidence base for this term is essentially one Registry row (the Epistles) read through one lexicon entry, disclosed at generation rather than discovered afterwards (Author-Gravity-Risk: Yes). A phase bound was established by a check, not assumed: a sweep of all eight vendored Augustine volumes returns twenty occurrences of the stem against roughly 150 in Cyprian's one volume, and none carries this sense -- this term belongs to Cyprian's phase and does not cross into Augustine's.",
-                  "evidentiary_weight": "load-bearing",
-                  "formation_confidence": "Documented",
-                  "verification_state": "verified-direct"
-                },
-                "repeat": false,
-                "kind": "term",
-                "sentence_index": 4,
-                "char_start": 35,
-                "char_end": 44,
-                "surface": "confessor"
-              },
-              {
-                "record_id": "lpc.story.celerinus-writes-to-lucian",
+                "record_id": "lpc.story.election-of-cyprian",
                 "record_type": "story",
                 "world_key": "lpc",
                 "confidence": {
@@ -918,13 +704,13 @@
                 },
                 "repeat": false,
                 "kind": "story",
-                "sentence_index": 5,
+                "sentence_index": 1,
                 "char_start": 0,
-                "char_end": 99,
-                "surface": "Lucian wrote back from the cell where the emperor's order had left him to die of hunger and thirst."
+                "char_end": 69,
+                "surface": "Cyprian was a trained speaker who turned to the faith in middle life."
               },
               {
-                "record_id": "lpc.story.celerinus-writes-to-lucian",
+                "record_id": "lpc.story.election-of-cyprian",
                 "record_type": "story",
                 "world_key": "lpc",
                 "confidence": {
@@ -936,63 +722,14 @@
                 },
                 "repeat": true,
                 "kind": "story",
-                "sentence_index": 7,
+                "sentence_index": 4,
                 "char_start": 0,
-                "char_end": 68,
-                "surface": "It is a real decision about real people, made by a man facing death."
+                "char_end": 129,
+                "surface": "A deacon who knew him told it the same way: God judged and the people chose, and he was made bishop while still new to the faith."
               },
               {
-                "record_id": "lpc.term.the-people",
-                "record_type": "term",
-                "world_key": "lpc",
-                "confidence": {
-                  "citation_specificity": "A",
-                  "divergence_note": "In the vendored English edition of Cyprian the Latin plebs occurs exactly three times, all inside the 19th-century American editor's own introductory and elucidatory prose, none inside Cyprian's own letters. Cyprian's Latin does use it: Hartel's letters carry plebs in running text, 89 whole-word occurrences with notes excluded, and letter 43 is headed CYPRIANVS PLEBI VNIVERSAE S. 'The people' is the English volume's own recurring rendering for the congregation as an acting body. It is a working handle, and whether plebs becomes the world word is not settled.",
-                  "evidentiary_weight": "corroborating",
-                  "formation_confidence": "Documented",
-                  "verification_state": "verified-direct"
-                },
-                "repeat": false,
-                "kind": "term",
-                "sentence_index": 8,
-                "char_start": 50,
-                "char_end": 60,
-                "surface": "the people"
-              },
-              {
-                "record_id": "lpc.term.the-lapsed",
-                "record_type": "term",
-                "world_key": "lpc",
-                "confidence": {
-                  "citation_specificity": "B",
-                  "divergence_note": "The regulating, disciplining voice throughout this crisis is Cyprian's own, as presiding bishop and as the party whose middle position ultimately prevailed. No lapsed believer's own account of undergoing the process survives anywhere in this corpus (Author-Gravity-Risk: Yes). The split between those who sacrificed and those who only bought the certificate is Cyprian's own (lpc.term.libellatici-sacrificati). This entry's account also rests on De Lapsis's refusal to let either group's failure be final.",
-                  "evidentiary_weight": "load-bearing",
-                  "formation_confidence": "Documented",
-                  "verification_state": "verified-direct"
-                },
-                "repeat": false,
-                "kind": "term",
-                "sentence_index": 11,
-                "char_start": 17,
-                "char_end": 27,
-                "surface": "the lapsed"
-              }
-            ],
-            "references": [
-              {
-                "record_id": "lpc.witness.blamed-for-the-worlds-troubles",
-                "record_type": "doctrinal_witness",
-                "label": "One charge our neighbours made comes down to us, because Cyprian wrote a whole reply to it",
-                "sources": [
-                  {
-                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
-                    "author": "Cyprian of Carthage",
-                    "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
-                    "locus": "An Address to Demetrianus, the editorial Argument and SSSS1-3, answering the charge that Christians caused the world's wars, plague, and famine by refusing to worship the gods -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 45605-45660; and SSSS12-13, Demetrianus judging and torturing Christians, the ground for calling him an official in Cyprian's own text (the office \"Proconsul of Africa\" is the editor's Argument, not Cyprian's) -- verified directly against the same file, lines 45938-45992",
-                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
-                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
-                  }
-                ],
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
                 "world_key": "lpc",
                 "confidence": {
                   "citation_specificity": "A",
@@ -1000,12 +737,20 @@
                   "evidentiary_weight": "load-bearing",
                   "formation_confidence": "Documented",
                   "verification_state": "verified-direct"
-                }
-              },
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 6,
+                "char_start": 7,
+                "char_end": 16,
+                "surface": "Augustine"
+              }
+            ],
+            "references": [
               {
-                "record_id": "lpc.gravity.penitential-discipline",
+                "record_id": "lpc.gravity.pastoral-office-flock-keeping",
                 "record_type": "gravity",
-                "label": "Penitential Discipline: the Reintegration of the Failed",
+                "label": "Pastoral Office as Territorial Flock-Keeping",
                 "sources": [
                   {
                     "source_id": "lpc.source.cyprian-epistles",
@@ -1016,11 +761,11 @@
                     "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
                   },
                   {
-                    "source_id": "lpc.source.cyprian-de-lapsis",
-                    "author": "Cyprian of Carthage",
-                    "work": "On the Lapsed (De Lapsis)",
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "author": "Cyprian of Carthage and the African episcopate in council",
+                    "work": "The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256; the vendored edition's own heading dates it a.d. 258)",
                     "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
-                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
                     "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
                   },
                   {
@@ -1035,22 +780,30 @@
                 "world_key": "lpc",
                 "confidence": {
                   "citation_specificity": "A",
-                  "divergence_note": "Doc_04 §3 Candidate 2: no divergence for the Cyprian-phase gravity. Evidence reaches Documented for Cyprian's own conduct and correspondence; of the loci relied on, the De Lapsis locus (Registry row 2) sits at Confidence B, the Epistles and Pontius loci (rows 1, 7) at A. The Persistence test, tested rather than assumed per Doc_01 §8 item 7, finds the lean toward an Augustine-phase continuation does NOT survive under this gravity's own name -- what survives is a family resemblance toward Candidates 6 and 7, its own distinct finding named at Doc_04 §3 and §5, not a confidence divergence but a scope finding carried here for completeness.",
+                  "divergence_note": "Doc_04 §3 Candidate 1: no divergence. Evidence reaches Documented -- both bishops' own accounts of holding and exercising this office are directly quoted and independently re-verified. Possidius's Vita (Registry row 192) is not part of this Cross-Check and is not counted toward it.",
                   "evidentiary_weight": "load-bearing",
                   "formation_confidence": "Documented",
                   "verification_state": "verified-via-authority"
                 }
               },
               {
-                "record_id": "lpc.story.celerinus-writes-to-lucian",
+                "record_id": "lpc.story.election-of-cyprian",
                 "record_type": "story",
-                "label": "How one confessor asked another, not a bishop, to grant peace to women who had fallen",
+                "label": "How we came to treat a recent convert's own election, over his reluctance, as God's own judgment made visible",
                 "sources": [
+                  {
+                    "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                    "author": "Pontius the Deacon",
+                    "work": "The Life and Passion of Cyprian, Bishop and Martyr",
+                    "locus": "SS5; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 27820",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
                   {
                     "source_id": "lpc.source.cyprian-epistles",
                     "author": "Cyprian of Carthage",
                     "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
-                    "locus": "Ep. XX (Celerinus to Lucian) and Ep. XXI (Lucian's reply); cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30528-30720",
+                    "locus": "Ep. LXVII, on the election of Sabinus, corroborating the acclamation pattern independently of Pontius's own narrative",
                     "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
                     "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
                   }
@@ -1065,104 +818,50 @@
                 }
               },
               {
-                "record_id": "lpc.term.reconciliation-penitential-discipline",
-                "record_type": "term",
-                "label": "reconciliation",
+                "record_id": "lpc.force.congregational-acclamation-overriding-preference",
+                "record_type": "force",
+                "label": "Congregational Acclamation Overriding a Reluctant Convert's Preference",
                 "sources": [
                   {
                     "source_id": "lpc.source.cyprian-epistles",
                     "author": "Cyprian of Carthage",
                     "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
-                    "locus": "the Epistles carry the process in operation, including Epistles XX-XXI; Epistle IX 2 -- 'do penance for a set time, and according to the rules of discipline come to public confession, and by imposition of the hand of the bishop and clergy receive the right of communion'",
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
                     "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
-                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
-                  },
-                  {
-                    "source_id": "lpc.source.cyprian-de-lapsis",
-                    "author": "Cyprian of Carthage",
-                    "work": "On the Lapsed (De Lapsis)",
-                    "locus": "De Lapsis carries the argument for episcopal control of the process",
-                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
                     "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
                   },
                   {
                     "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
                     "author": "Pontius the Deacon",
                     "work": "The Life and Passion of Cyprian, Bishop and Martyr",
-                    "locus": "Pontius reports Cyprian's own conduct of the office more broadly",
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
                     "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
                     "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                    "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                    "locus": "Vita Augustini ch. VIII, \"under compulsion and constraint he yielded and accepted the ordination\" -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 2142-2143 (the phrase is hyphenated across a line wrap in the source file -- \"under com-\" then \"pulsion and constraint\")",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
                   }
                 ],
                 "world_key": "lpc",
                 "confidence": {
                   "citation_specificity": "A",
-                  "divergence_note": "Epistles XX-XXI are our own rare exception to the episcopal-voice monopoly -- two lay confessors, neither yet ordained, writing to each other in the first person (Author-Gravity-Risk: Yes). Even there the transaction itself is clerical and confessor-side; the reconciled believer does not speak anywhere in our record.",
+                  "divergence_note": "Doc_08 §3 Force 1B-2: Documented -- Epistle XXXIX (Registry row 1); Pontius (row 7, Confidence A); Possidius's Vita chs. IV and VIII (row 192); Doc_01 §2. The pattern is attested through different figures and different words at the same office in both phases, a caution carried directly in this force's own Layer 3 rather than smoothed into one uniform recurring term.",
                   "evidentiary_weight": "load-bearing",
                   "formation_confidence": "Documented",
-                  "verification_state": "verified-direct"
-                }
-              },
-              {
-                "record_id": "lpc.term.the-lapsed",
-                "record_type": "term",
-                "label": "the lapsed",
-                "sources": [
-                  {
-                    "source_id": "lpc.source.cyprian-de-lapsis",
-                    "author": "Cyprian of Carthage",
-                    "work": "On the Lapsed (De Lapsis)",
-                    "locus": "De Lapsis, the founding document of the controversy, directly quoted throughout",
-                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
-                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
-                  },
-                  {
-                    "source_id": "lpc.source.cyprian-epistles",
-                    "author": "Cyprian of Carthage",
-                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
-                    "locus": "the Epistles' own lapsed-crisis correspondence, including Epistles XX-XXI, two lay confessors' own first-person voices",
-                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
-                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
-                  }
-                ],
-                "world_key": "lpc",
-                "confidence": {
-                  "citation_specificity": "B",
-                  "divergence_note": "The regulating, disciplining voice throughout this crisis is Cyprian's own, as presiding bishop and as the party whose middle position ultimately prevailed. No lapsed believer's own account of undergoing the process survives anywhere in this corpus (Author-Gravity-Risk: Yes). The split between those who sacrificed and those who only bought the certificate is Cyprian's own (lpc.term.libellatici-sacrificati). This entry's account also rests on De Lapsis's refusal to let either group's failure be final.",
-                  "evidentiary_weight": "load-bearing",
-                  "formation_confidence": "Documented",
-                  "verification_state": "verified-direct"
+                  "verification_state": "verified-via-authority"
                 }
               }
             ],
             "end_references": [
               {
-                "record_id": "lpc.witness.blamed-for-the-worlds-troubles",
-                "record_type": "doctrinal_witness",
-                "label": "One charge our neighbours made comes down to us, because Cyprian wrote a whole reply to it",
-                "sources": [
-                  {
-                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
-                    "author": "Cyprian of Carthage",
-                    "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
-                    "locus": "An Address to Demetrianus, the editorial Argument and SSSS1-3, answering the charge that Christians caused the world's wars, plague, and famine by refusing to worship the gods -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 45605-45660; and SSSS12-13, Demetrianus judging and torturing Christians, the ground for calling him an official in Cyprian's own text (the office \"Proconsul of Africa\" is the editor's Argument, not Cyprian's) -- verified directly against the same file, lines 45938-45992",
-                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
-                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
-                  }
-                ],
-                "world_key": "lpc",
-                "confidence": {
-                  "citation_specificity": "A",
-                  "divergence_note": null,
-                  "evidentiary_weight": "load-bearing",
-                  "formation_confidence": "Documented",
-                  "verification_state": "verified-direct"
-                }
-              },
-              {
-                "record_id": "lpc.gravity.penitential-discipline",
+                "record_id": "lpc.gravity.pastoral-office-flock-keeping",
                 "record_type": "gravity",
-                "label": "Penitential Discipline: the Reintegration of the Failed",
+                "label": "Pastoral Office as Territorial Flock-Keeping",
                 "sources": [
                   {
                     "source_id": "lpc.source.cyprian-epistles",
@@ -1173,11 +872,11 @@
                     "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
                   },
                   {
-                    "source_id": "lpc.source.cyprian-de-lapsis",
-                    "author": "Cyprian of Carthage",
-                    "work": "On the Lapsed (De Lapsis)",
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "author": "Cyprian of Carthage and the African episcopate in council",
+                    "work": "The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256; the vendored edition's own heading dates it a.d. 258)",
                     "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
-                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
                     "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
                   },
                   {
@@ -1192,55 +891,57 @@
                 "world_key": "lpc",
                 "confidence": {
                   "citation_specificity": "A",
-                  "divergence_note": "Doc_04 §3 Candidate 2: no divergence for the Cyprian-phase gravity. Evidence reaches Documented for Cyprian's own conduct and correspondence; of the loci relied on, the De Lapsis locus (Registry row 2) sits at Confidence B, the Epistles and Pontius loci (rows 1, 7) at A. The Persistence test, tested rather than assumed per Doc_01 §8 item 7, finds the lean toward an Augustine-phase continuation does NOT survive under this gravity's own name -- what survives is a family resemblance toward Candidates 6 and 7, its own distinct finding named at Doc_04 §3 and §5, not a confidence divergence but a scope finding carried here for completeness.",
+                  "divergence_note": "Doc_04 §3 Candidate 1: no divergence. Evidence reaches Documented -- both bishops' own accounts of holding and exercising this office are directly quoted and independently re-verified. Possidius's Vita (Registry row 192) is not part of this Cross-Check and is not counted toward it.",
                   "evidentiary_weight": "load-bearing",
                   "formation_confidence": "Documented",
                   "verification_state": "verified-via-authority"
                 }
               },
               {
-                "record_id": "lpc.term.reconciliation-penitential-discipline",
-                "record_type": "term",
-                "label": "reconciliation",
+                "record_id": "lpc.force.congregational-acclamation-overriding-preference",
+                "record_type": "force",
+                "label": "Congregational Acclamation Overriding a Reluctant Convert's Preference",
                 "sources": [
                   {
                     "source_id": "lpc.source.cyprian-epistles",
                     "author": "Cyprian of Carthage",
                     "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
-                    "locus": "the Epistles carry the process in operation, including Epistles XX-XXI; Epistle IX 2 -- 'do penance for a set time, and according to the rules of discipline come to public confession, and by imposition of the hand of the bishop and clergy receive the right of communion'",
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
                     "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
-                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
-                  },
-                  {
-                    "source_id": "lpc.source.cyprian-de-lapsis",
-                    "author": "Cyprian of Carthage",
-                    "work": "On the Lapsed (De Lapsis)",
-                    "locus": "De Lapsis carries the argument for episcopal control of the process",
-                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
                     "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
                   },
                   {
                     "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
                     "author": "Pontius the Deacon",
                     "work": "The Life and Passion of Cyprian, Bishop and Martyr",
-                    "locus": "Pontius reports Cyprian's own conduct of the office more broadly",
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
                     "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
                     "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                    "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                    "locus": "Vita Augustini ch. VIII, \"under compulsion and constraint he yielded and accepted the ordination\" -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 2142-2143 (the phrase is hyphenated across a line wrap in the source file -- \"under com-\" then \"pulsion and constraint\")",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
                   }
                 ],
                 "world_key": "lpc",
                 "confidence": {
                   "citation_specificity": "A",
-                  "divergence_note": "Epistles XX-XXI are our own rare exception to the episcopal-voice monopoly -- two lay confessors, neither yet ordained, writing to each other in the first person (Author-Gravity-Risk: Yes). Even there the transaction itself is clerical and confessor-side; the reconciled believer does not speak anywhere in our record.",
+                  "divergence_note": "Doc_08 §3 Force 1B-2: Documented -- Epistle XXXIX (Registry row 1); Pontius (row 7, Confidence A); Possidius's Vita chs. IV and VIII (row 192); Doc_01 §2. The pattern is attested through different figures and different words at the same office in both phases, a caution carried directly in this force's own Layer 3 rather than smoothed into one uniform recurring term.",
                   "evidentiary_weight": "load-bearing",
                   "formation_confidence": "Documented",
-                  "verification_state": "verified-direct"
+                  "verification_state": "verified-via-authority"
                 }
               }
             ],
             "unverified_claims": {
-              "count": 0,
-              "sentence_indexes": []
+              "count": 1,
+              "sentence_indexes": [
+                2
+              ]
             }
           },
           "degraded_by_net": false,
@@ -1253,9 +954,9 @@
             "placed": [],
             "removed": [
               {
-                "sentence": "He said:",
-                "why": "lead-in to a placed quote does not name its speaker",
-                "draft": "He said: [[quote:lpc.quote.the-case-set-before-the-bishop]]"
+                "sentence": "Possidius says a crowd at Hippo seized Augustine and loudly told their bishop to make him a priest, while he wept",
+                "why": "placed quote does not match its record",
+                "draft": "Possidius says a crowd at Hippo seized Augustine and loudly told their bishop to make him a priest, while he wept [[quote:lpc.quote.clamour-and-tears]]"
               }
             ]
           },

@@ -1,0 +1,652 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:d614a1ee8d0b12fad56ca7dd7d6d11a83eeb28b7a9f71eeec4e43af648d2f9e6",
+  "package": "packages/lpc/2026-10-26T18-33-28Z",
+  "live_test": {
+    "name": "lpc full validation, 27 October",
+    "cap_usd": 0.2,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.020608
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 1792,
+      "output_tokens": 112,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 2087,
+      "output_tokens": 176,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 704,
+      "output_tokens": 284,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 23478
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "Why do you keep saying \"we\"?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "Because we are not one person speaking. We are a people speaking of ourselves. That is who we are -- the ones who stood together, who walked the road together, who came back together when we fell. When Rome ordered the sacrifice, some among us paid for the paper and never stood at the altar at all. Cyprian still named them fallen, because holding that paper was a denial. Their hands were clean, but their conscience was not. What made them fallen was not what one pair of hands did alone. It was what the whole body bore together. Augustine taught the same bond in different words. What you do, God does in you. That is not one man's private standing before God. It is the shape of a life held inside something larger than itself. We say we because that is what we are -- a flock held together under one shepherd, not a collection of separate souls who happen to stand in the same room.",
+          "citations": [
+            {
+              "sentence": "Because we are not one person speaking.",
+              "record_ids": [
+                "lpc.term.libelli"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.libelli",
+                  "record_type": "term",
+                  "label": "libelli",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "author": "Cyprian of Carthage",
+                      "work": "On the Lapsed (De Lapsis)",
+                      "locus": "De Lapsis 27 -- 'libellis tamen conscientiam miscuerunt' (defiled their conscience with certificates); De Lapsis 28 -- 'nullo sacrificii aut libelli facinore constricti' (bound by no crime of sacrifice or of certificate)",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "Epistle LI (to Antonianus) 13 and 14 -- those who receive certificates are not to be put on a par with those who have sacrificed; the plea of one who obtained a certificate and paid a price for it",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "When Rome ordered the sacrifice, some among us paid for the paper and never stood at the altar at all.",
+              "record_ids": [
+                "lpc.term.libelli"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.libelli",
+                  "record_type": "term",
+                  "label": "libelli",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "author": "Cyprian of Carthage",
+                      "work": "On the Lapsed (De Lapsis)",
+                      "locus": "De Lapsis 27 -- 'libellis tamen conscientiam miscuerunt' (defiled their conscience with certificates); De Lapsis 28 -- 'nullo sacrificii aut libelli facinore constricti' (bound by no crime of sacrifice or of certificate)",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "Epistle LI (to Antonianus) 13 and 14 -- those who receive certificates are not to be put on a par with those who have sacrificed; the plea of one who obtained a certificate and paid a price for it",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Their hands were clean, but their conscience was not.",
+              "record_ids": [
+                "lpc.term.libelli"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.libelli",
+                  "record_type": "term",
+                  "label": "libelli",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "author": "Cyprian of Carthage",
+                      "work": "On the Lapsed (De Lapsis)",
+                      "locus": "De Lapsis 27 -- 'libellis tamen conscientiam miscuerunt' (defiled their conscience with certificates); De Lapsis 28 -- 'nullo sacrificii aut libelli facinore constricti' (bound by no crime of sacrifice or of certificate)",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "Epistle LI (to Antonianus) 13 and 14 -- those who receive certificates are not to be put on a par with those who have sacrificed; the plea of one who obtained a certificate and paid a price for it",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [
+            {
+              "id": "lpc.figure.cyprian",
+              "matched_name": "Cyprian",
+              "text_start": 300,
+              "names": [
+                {
+                  "name": "Cyprian, our bishop at Carthage",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague he taught us to love even our enemies. He was put to death under Valerian.",
+              "dates": {
+                "display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised (Doc_01 SS2; lpc.story.election-of-cyprian); banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258 (lpc.story.the-death-of-cyprian)"
+              },
+              "sourced_by": []
+            },
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 534,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV, independently re-located this session; Doc_01 SS2); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII; Doc_01 SS2); died 430, during the Vandal siege of Hippo (lpc.story.the-psalms-on-the-wall)"
+              },
+              "sourced_by": []
+            }
+          ],
+          "quote_offers": [],
+          "kind": "why",
+          "offered_ids": {
+            "quote": [
+              "lpc.quote.let-us-too-be-beheaded-with-him",
+              "lpc.quote.what-is-done-by-you-he-does-in-you"
+            ],
+            "term": [
+              "lpc.term.libelli"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "Because we are not one person speaking.",
+                "tags": [
+                  "lpc.term.libelli"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Because we are not one person speaking [[lpc.term.libelli]]."
+              },
+              {
+                "sentence": "We are a people speaking of ourselves.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We are a people speaking of ourselves."
+              },
+              {
+                "sentence": "That is who we are -- the ones who stood together, who walked the road together, who came back together when we fell.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "That is who we are -- the ones who stood together, who walked the road together, who came back together when we fell."
+              },
+              {
+                "sentence": "When Rome ordered the sacrifice, some among us paid for the paper and never stood at the altar at all.",
+                "tags": [
+                  "lpc.term.libelli"
+                ],
+                "verdict": "ok",
+                "why": "grounded 75% in own tagged records",
+                "ratio": 0.75,
+                "draft": "When Rome ordered the sacrifice, some among us paid for the paper and never stood at the altar at all [[lpc.term.libelli]]."
+              },
+              {
+                "sentence": "Cyprian still named them fallen, because holding that paper was a denial.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Cyprian still named them fallen, because holding that paper was a denial."
+              },
+              {
+                "sentence": "Their hands were clean, but their conscience was not.",
+                "tags": [
+                  "lpc.term.libelli"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Their hands were clean, but their conscience was not [[lpc.term.libelli]]."
+              },
+              {
+                "sentence": "What made them fallen was not what one pair of hands did alone.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "What made them fallen was not what one pair of hands did alone."
+              },
+              {
+                "sentence": "It was what the whole body bore together.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "It was what the whole body bore together."
+              },
+              {
+                "sentence": "Augustine taught the same bond in different words.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Augustine taught the same bond in different words."
+              },
+              {
+                "sentence": "What you do, God does in you.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "What you do, God does in you."
+              },
+              {
+                "sentence": "That is not one man's private standing before God.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "That is not one man's private standing before God."
+              },
+              {
+                "sentence": "It is the shape of a life held inside something larger than itself.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "It is the shape of a life held inside something larger than itself."
+              },
+              {
+                "sentence": "We say we because that is what we are -- a flock held together under one shepherd, not a collection of separate souls who happen to stand in the same room.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We say we because that is what we are -- a flock held together under one shepherd, not a collection of separate souls who happen to stand in the same room."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 13,
+                "cited_record_ids": [
+                  "lpc.term.libelli"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "1": {
+                    "sentence": "We are a people speaking of ourselves.",
+                    "tags": [
+                      "lpc.term.libelli"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "2": {
+                    "sentence": "That is who we are -- the ones who stood together, who walked the road together, who came back together when we fell.",
+                    "tags": [
+                      "lpc.term.libelli"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "4": {
+                    "sentence": "Cyprian still named them fallen, because holding that paper was a denial.",
+                    "tags": [
+                      "lpc.term.libelli"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "6": {
+                    "sentence": "What made them fallen was not what one pair of hands did alone.",
+                    "tags": [
+                      "lpc.term.libelli"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "7": {
+                    "sentence": "It was what the whole body bore together.",
+                    "tags": [
+                      "lpc.term.libelli"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "8": {
+                    "sentence": "Augustine taught the same bond in different words.",
+                    "tags": [
+                      "lpc.term.libelli"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "9": {
+                    "sentence": "What you do, God does in you.",
+                    "tags": [
+                      "lpc.term.libelli"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "10": {
+                    "sentence": "That is not one man's private standing before God.",
+                    "tags": [
+                      "lpc.term.libelli"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "11": {
+                    "sentence": "It is the shape of a life held inside something larger than itself.",
+                    "tags": [
+                      "lpc.term.libelli"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "12": {
+                    "sentence": "We say we because that is what we are -- a flock held together under one shepherd, not a collection of separate souls who happen to stand in the same room.",
+                    "tags": [
+                      "lpc.term.libelli"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [],
+              "removed": [
+                {
+                  "sentence": "The brethren cried out:",
+                  "why": "lead-in to a placed quote does not name its speaker",
+                  "draft": "The brethren cried out: [[quote:lpc.quote.let-us-too-be-beheaded-with-him]]"
+                },
+                {
+                  "sentence": "He wrote:",
+                  "why": "lead-in to a placed quote does not name its speaker",
+                  "draft": "He wrote: [[quote:lpc.quote.what-is-done-by-you-he-does-in-you]]"
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 39
+              },
+              {
+                "index": 1,
+                "text_start": 40,
+                "text_end": 78
+              },
+              {
+                "index": 2,
+                "text_start": 79,
+                "text_end": 196
+              },
+              {
+                "index": 3,
+                "text_start": 197,
+                "text_end": 299
+              },
+              {
+                "index": 4,
+                "text_start": 300,
+                "text_end": 373
+              },
+              {
+                "index": 5,
+                "text_start": 374,
+                "text_end": 427
+              },
+              {
+                "index": 6,
+                "text_start": 428,
+                "text_end": 491
+              },
+              {
+                "index": 7,
+                "text_start": 492,
+                "text_end": 533
+              },
+              {
+                "index": 8,
+                "text_start": 534,
+                "text_end": 584
+              },
+              {
+                "index": 9,
+                "text_start": 585,
+                "text_end": 614
+              },
+              {
+                "index": 10,
+                "text_start": 615,
+                "text_end": 665
+              },
+              {
+                "index": 11,
+                "text_start": 666,
+                "text_end": 733
+              },
+              {
+                "index": 12,
+                "text_start": 734,
+                "text_end": 889
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.cyprian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 4,
+                "char_start": 0,
+                "char_end": 7,
+                "surface": "Cyprian"
+              },
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 8,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.term.libelli",
+                "record_type": "term",
+                "label": "libelli",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "author": "Cyprian of Carthage",
+                    "work": "On the Lapsed (De Lapsis)",
+                    "locus": "De Lapsis 27 -- 'libellis tamen conscientiam miscuerunt' (defiled their conscience with certificates); De Lapsis 28 -- 'nullo sacrificii aut libelli facinore constricti' (bound by no crime of sacrifice or of certificate)",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "author": "Cyprian of Carthage",
+                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                    "locus": "Epistle LI (to Antonianus) 13 and 14 -- those who receive certificates are not to be put on a par with those who have sacrificed; the plea of one who obtained a certificate and paid a price for it",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Cyprian uses the word himself, in De Lapsis and in his letter to Antonianus. The English translation renders libelli as certificates, so the Latin headword is absent from the vendored English volume apart from one occurrence in the Introductory Notice to the anonymous treatise against Novatian. The Latin witnesses carry it. Latin libellus in Cyprian also names the martyrs' petitions, so the split between this term and lpc.term.certificates-letters-of-peace separates the English word and is not a distinction the Latin makes.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.term.libelli",
+                "record_type": "term",
+                "label": "libelli",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "author": "Cyprian of Carthage",
+                    "work": "On the Lapsed (De Lapsis)",
+                    "locus": "De Lapsis 27 -- 'libellis tamen conscientiam miscuerunt' (defiled their conscience with certificates); De Lapsis 28 -- 'nullo sacrificii aut libelli facinore constricti' (bound by no crime of sacrifice or of certificate)",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "author": "Cyprian of Carthage",
+                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                    "locus": "Epistle LI (to Antonianus) 13 and 14 -- those who receive certificates are not to be put on a par with those who have sacrificed; the plea of one who obtained a certificate and paid a price for it",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Cyprian uses the word himself, in De Lapsis and in his letter to Antonianus. The English translation renders libelli as certificates, so the Latin headword is absent from the vendored English volume apart from one occurrence in the Introductory Notice to the anonymous treatise against Novatian. The Latin witnesses carry it. Latin libellus in Cyprian also names the martyrs' petitions, so the split between this term and lpc.term.certificates-letters-of-peace separates the English word and is not a distinction the Latin makes.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 0,
+              "sentence_indexes": []
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [],
+            "removed": [
+              {
+                "sentence": "The brethren cried out:",
+                "why": "lead-in to a placed quote does not name its speaker",
+                "draft": "The brethren cried out: [[quote:lpc.quote.let-us-too-be-beheaded-with-him]]"
+              },
+              {
+                "sentence": "He wrote:",
+                "why": "lead-in to a placed quote does not name its speaker",
+                "draft": "He wrote: [[quote:lpc.quote.what-is-done-by-you-he-does-in-you]]"
+              }
+            ]
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}
