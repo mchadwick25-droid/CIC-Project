@@ -42,9 +42,11 @@ A public benefit corporation registered in Colorado. That is a for-profit corpor
 - Each letter describes the organization as a Colorado public benefit corporation and says plainly that we do not assume we fall within a free allowance.
 - This is the project's reading, not legal advice. Counsel should confirm how the status is described before any letter goes out.
 
-Still open and Mark's to supply: the organization's exact registered name, whether the tools will be free to the public, and whether any part is charged for. Each letter asks about these.
+Facts Mark has given (2026-10-27): the registered name is Faithways Studio, Inc.; the Library and passage tools are free to the public, with no fee for access to the citations. Not yet checked against the Colorado registration: the exact registered spelling. A paid tier later would need a new request or a fresh permission check.
 
 ## Log
 
 - 2026-10-27: opened. Item 1 drafted, items 2 to 4 listed.
+- 2026-10-27: Mark gave the name (Faithways Studio, Inc.) and said the tools are free to the public. Item 1's draft now carries both. Contact details and the signer remain bracketed.
+- 2026-10-27: Hallock renewal check (the Stanford database) is with Mark or a helper: search Hallock, Aphraates and the Journal of the Society of Oriental Research for renewals in 1960 and 1961; the result goes into the Hallock file header. See the rights audit of the same date.
 - 2026-10-27: Mark gave the legal status (Colorado public benefit corporation). Item 1's draft updated to say so; the CCEL item and the status section above rewritten. No letter sent. Rights findings for the RCL are in `Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md` (entry of 2026-10-26, "Lectionary route").
