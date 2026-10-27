@@ -2814,3 +2814,16 @@ Follows the entry "Read-only check of Luther, Philadelphia Edition vols. IV and 
 - **Not done:** quote records for the three 1525 works and the Formula Missae and German Mass; an honest_limit record for 1543; a check of what the unvendored secondary works let the witness say of 1543; Opus review of the new wording. Open for Mark: whether the witness answers a visitor who asks if the writings were wrong.
 
 Status: OPEN.
+
+## OG-87. Six quote records from the 1525 writings, provisional, 2026-10-27.
+
+Follows the entry "Change order: the witness wording for the 1525 writings and the 1543 treatise in `witt.core`" (2026-10-27). Authored by Opus (modern renderings per CLAUDE.md), all from `cic/texts/luther_works-v4-selected_various1931.txt` (Jacobs and Steinhaeuser, 1931 English, not Luther's German).
+
+- **Records:** `witt.quote.the-sword-is-at-your-throats`, `you-too-must-have-a-care`, `your-own-judges` (Admonition to Peace); `as-when-one-must-kill-a-mad-dog`, `the-time-of-the-sword` (Against the Robbing and Murdering Hordes); `neither-court-nor-mercy` (Open Letter). Chosen so the witness can report his rebuke of the princes, his rebuke of the peasants, the harshest lines unsoftened, and his defence of the tract.
+- **Verified verbatim twice:** by the author, and again here by an exact-string comparison of each record's text against the vendored file (all six found, line-end hyphens joined only).
+- **Status:** `use_note.status` is provisional. The author wrote them, so they are not marked reviewed until an independent recheck. `relations` empty (the reciprocity gate would need edits to other records). Canon cells F3-I on all; F6-I also on the two Hordes records and the Open Letter.
+- **Contested:** whether Luther read his own tract fairly in the Open Letter is marked Contested; the word "surrender" never appears in the Hordes tract (lines 11802 to 12266).
+- **Passages left out for OCR errors:** the "no one to thank but you princes and lords" line (stray "j", line 10398); "Stab, smite, slay, whoever can" ("1^" for "!", line 12230); the Open Letter repeat of "hew, stab, slay... as though among mad dogs" (lines 12991 to 12997, garbled text before it). Worth a check against the page image.
+- **Records now contradicting the quotes (not edited, same list as OG-86):** `witt.source.luther-admonition-to-peace` (body says "never quoted as if in hand"), `witt.force.popular-insurrectionary-force`, `witt.term.insurrection`, `witt.dw.what-we-have-never-settled`, `witt.gravity.two-governments`, `witt.force.absent-inputs-1525-and-1555`.
+
+Status: OPEN.
