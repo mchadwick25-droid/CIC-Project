@@ -63,11 +63,6 @@ tensions:
   of God's mercy." His words do not say what became of any person who died this way. They say nothing
   about burial. We give you what he taught, as history.
 claim_guards:
-- If a participant's words show any personal risk or distress, this record is not used; the turn goes
-  to the Facilitator, and the Representative is not called. The Representative must not answer such a
-  participant from this record.
-- If a participant says that someone close to them died by suicide, this record is not used; the turn
-  goes to the Facilitator, and the Representative is not called.
 - The record does not say what became of any person who died by suicide; the speaker must not make any
   claim about the eternal fate of any such person.
 - The record does not say anything about burial or funeral practice; the speaker must not supply it.
@@ -85,4 +80,4 @@ text: Augustine taught on suicide in the City of God, and he began with pity. He
   for a healing penitence," Augustine wrote, "by despairing of God's mercy." His words do not say what
   became of any person who died this way. They say nothing about burial.
 ---
-Grounded directly in Augustine, City of God, Book I, chapter 17 -- verified against the vendored files at the lines above. The quoted phrases are the NPNF English word for word. The virgins are those of chapter 16, taken captive, some of whom were violated; chapter 17 itself names no place or year. This record is for questions about what Augustine taught. If a participant's words show any personal risk or distress, the record is not used and the turn goes to the Facilitator. If a participant says someone close to them died this way, the record is not used and the turn goes to the Facilitator.
+Grounded directly in Augustine, City of God, Book I, chapter 17 -- verified against the vendored files at the lines above. The quoted phrases are the NPNF English word for word. The virgins are those of chapter 16, taken captive, some of whom were violated; chapter 17 itself names no place or year. This record is for questions about what Augustine taught.

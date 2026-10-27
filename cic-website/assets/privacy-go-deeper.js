@@ -18,7 +18,7 @@
   // The account parts of the page, shown only when accounts are on. Independent of Go Deeper.
   var ACCOUNT_PARTS = [
     "accounts-optional", "accounts-holds", "accounts-signin", "accounts-back", "accounts-delete",
-    "accounts-review", "accounts-services",
+    "accounts-review", "accounts-services", "accounts-retention",
   ];
 
   function applyAccounts(doc, config) {

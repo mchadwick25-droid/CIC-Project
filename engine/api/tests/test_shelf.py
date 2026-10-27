@@ -181,6 +181,7 @@ def test_deleting_one_conversation_removes_it_from_every_store_and_the_shelf(htt
     assert qc.store.max_round(qc.token_for_code(code_of(auth))) >= 1
     other_id, other_auth = open_session(http)
     say(http, other_id, other_auth, "keep this one")
+    stepped_up(http, accounts)
     assert post(http, "shelf/delete", session_id=session_id).status_code == 200
     deleted_everywhere(session_id, store, usage_store, feedback, qc, tmp_path, code_of(auth))
     assert qc.store.max_round(qc.token_for_code(code_of(other_auth))) >= 1
@@ -189,10 +190,21 @@ def test_deleting_one_conversation_removes_it_from_every_store_and_the_shelf(htt
     assert post(http, "shelf/delete", session_id=session_id).status_code == 400
 
 
+def test_deleting_a_conversation_needs_a_fresh_step_up_and_a_session_alone_is_refused(http, accounts, mailer, store):
+    sign_in(http, mailer)
+    session_id, auth = open_session(http)
+    say(http, session_id, auth, "hello")
+    refused = post(http, "shelf/delete", session_id=session_id)
+    assert refused.status_code == 400 and refused.json()["detail"] == "Please confirm it is you first." and store.read_events(session_id)
+    assert [c["session_id"] for c in http.get("/api/accounts/shelf").json()["conversations"]] == [session_id]
+    assert post(http, "shelf/reopen", session_id=session_id).status_code == 200
+
+
 def test_nobody_can_delete_a_conversation_from_another_shelf(http, accounts, mailer, store):
     sign_in(http, mailer)
     session_id, auth = open_session(http)
     other = new_account_client(http, mailer, "bob@example.org")
+    stepped_up(other, accounts)
     assert post(other, "shelf/delete", session_id=session_id).status_code == 400
     assert store.read_events(session_id)
 
@@ -381,6 +393,7 @@ def test_an_erased_conversation_that_comes_back_from_a_backup_is_erased_again(ht
     session_id, auth = open_session(http)
     say(http, session_id, auth, "a question that will be deleted")
     snapshot(store.db_path, tmp_path / "events-backup.db")
+    stepped_up(http, accounts)
     assert post(http, "shelf/delete", session_id=session_id).status_code == 200
     snapshot(tmp_path / "events-backup.db", store.db_path)  # a restore
     assert store.read_events(session_id)
@@ -393,6 +406,7 @@ def test_a_turn_that_was_in_flight_when_the_conversation_was_deleted_is_cleared_
     sign_in(http, mailer)
     session_id, auth = open_session(http)
     say(http, session_id, auth, "hello")
+    stepped_up(http, accounts)
     post(http, "shelf/delete", session_id=session_id)
     store.append(session_id=session_id, event_uuid="late-event", event_type="participant_message", payload={"text": "late"})
     assert store.read_events(session_id)
@@ -403,6 +417,7 @@ def test_a_turn_that_was_in_flight_when_the_conversation_was_deleted_is_cleared_
 def test_the_erasure_ledger_holds_a_keyed_hash_and_expires(http, accounts, mailer, tmp_path, clock=None):
     sign_in(http, mailer)
     session_id, auth = open_session(http)
+    stepped_up(http, accounts)
     post(http, "shelf/delete", session_id=session_id)
     rows = accounts.service.store.erased_rows()
     assert len(rows) == 1 and session_id not in next(iter(rows))
@@ -482,6 +497,7 @@ def test_a_second_pass_keeps_the_review_tokens_so_a_later_restore_is_still_clear
     token = qc.token_for_code(code_of(auth))
     snapshot(store.db_path, tmp_path / "ev.bak")
     snapshot(qc.store.db_path, tmp_path / "qc.bak")
+    stepped_up(http, accounts)
     post(http, "shelf/delete", session_id=session_id)
     for _ in range(2):  # restored twice, as a backup restored then restored again
         snapshot(tmp_path / "ev.bak", store.db_path)

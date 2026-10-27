@@ -179,3 +179,12 @@ def test_bound_network_of_counts_an_ipv6_home_as_one_and_leaves_the_rest_alone()
     assert bound_network_of("2001:db8:1:100::1") != bound_network_of("2001:db8:1:2::1")
     assert bound_network_of("::ffff:203.0.113.9") == "203.0.113.9"
     assert bound_network_of("203.0.113.9") == "203.0.113.9" and bound_network_of("unknown") == "unknown"
+
+
+def test_sign_in_network_of_counts_a_whole_ipv6_48_as_one_and_leaves_the_rest_alone():
+    from engine.api.ratelimit import sign_in_network_of
+
+    assert sign_in_network_of("2001:db8:1:2::1") == sign_in_network_of("2001:db8:1:ff::9") == "2001:db8:1::/48"
+    assert sign_in_network_of("2001:db8:2:2::1") != sign_in_network_of("2001:db8:1:2::1")
+    assert sign_in_network_of("::ffff:1.2.3.4") == "1.2.3.4"
+    assert sign_in_network_of("203.0.113.9") == "203.0.113.9" and sign_in_network_of("unknown") == "unknown"

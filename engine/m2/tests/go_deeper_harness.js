@@ -172,7 +172,7 @@ const scenarios = {
   },
   privacyAccounts: () => {
     const PG = require("../../../cic-website/assets/privacy-go-deeper.js");
-    const ids = ["accounts-optional", "accounts-holds", "accounts-signin", "accounts-back", "accounts-delete", "accounts-review", "accounts-services"];
+    const ids = ["accounts-optional", "accounts-holds", "accounts-signin", "accounts-back", "accounts-delete", "accounts-review", "accounts-services", "accounts-retention"];
     const page = () => {
       const els = Object.fromEntries(ids.map((id) => [id, { hidden: true }]));
       return { els, getElementById: (id) => els[id] || null };

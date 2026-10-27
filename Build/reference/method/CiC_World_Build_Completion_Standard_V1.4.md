@@ -125,6 +125,13 @@ names, each named verbatim in the paragraph, not compiled). A world without the
 paragraph fails `deployed`, and its freeze declaration states this criterion as
 not met.
 
+The Question Coverage report is saved for the world, with every finding
+dispositioned in its `Open_Gaps_Tracking.md`: closed by a grounded record,
+closed by an `honest_limit` record, or accepted with its reason. An
+undispositioned finding blocks the freeze. The report has no pass mark of its
+own. This binds every world that has not started Phase B when the change
+order named in Section 12 of the Build Process took effect.
+
 ## C. Representative-freeze: after world-freeze
 
 RCF Part Eight has eight probe categories in V3.2, plus the parroting and

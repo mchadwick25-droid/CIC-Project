@@ -11,6 +11,7 @@ from typing import Annotated, Any, Callable, Literal
 from fastapi import FastAPI, Header, HTTPException, Request, Response
 from pydantic import BaseModel, Discriminator, Field, Tag
 
+from engine.api.admin_guard import guard_admin_change
 from engine.feedback.store import OUTCOMES, FeedbackStore
 
 MAX_FLAG_LINE = 600
@@ -214,6 +215,7 @@ def install(
     def close_feedback(item_id: str, req: CloseRequest, request: Request, authorization: str | None = Header(default=None)):
         store = _enabled()
         authenticate_admin(request, authorization)
+        guard_admin_change(request, authorization)
         if req.outcome not in OUTCOMES:
             raise HTTPException(status_code=400, detail=f"outcome must be one of {', '.join(OUTCOMES)}")
         if not store.close(item_id, req.outcome, _blank_to_none(req.note)):

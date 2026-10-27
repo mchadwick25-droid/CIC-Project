@@ -79,7 +79,7 @@ def test_closing_keeps_the_account_and_signs_it_out_for_ninety_days(svc, mailer,
 
 def test_a_session_that_somehow_survives_a_closing_is_refused(svc, mailer, clock, store):
     session, cookie = stepped_up_session(svc, mailer, clock)
-    assert store.close_account(session.account_id, svc.today().isoformat(), "2099-01-01")
+    assert store.close_account(session.account_id, svc.today().isoformat(), (svc.today() + timedelta(days=500)).isoformat())
     assert svc.session(cookie) is None
 
 
@@ -103,7 +103,80 @@ def test_a_closed_address_cannot_open_a_second_account(svc, mailer, clock, store
 def test_a_wrong_code_learns_nothing_about_a_closed_account(svc, mailer, clock):
     _close(svc, mailer, clock)
     challenge, _ = start_sign_in(svc, mailer)
-    assert svc.finish_sign_in(challenge, ADDR, "00000000", NET, True, True).status == "wrong"
+    closed = svc.finish_sign_in(challenge, ADDR, "00000000", NET, True, True)
+    other, _ = start_sign_in(svc, mailer, "nobody@example.org", "198.51.100.7")
+    stranger = svc.finish_sign_in(other, "nobody@example.org", "00000000", "198.51.100.7", True, True)
+    assert (closed.status, closed.data, closed.cookie) == (stranger.status, stranger.data, stranger.cookie) == ("wrong", {}, None)
+
+
+def test_on_the_last_day_a_person_can_still_re_open_and_the_day_after_cannot(svc, mailer, clock, store):
+    account_id, _, closed = _close(svc, mailer, clock)
+    clock.advance(90 * DAY)
+    _, challenge, code = _sign_in_to_closed(svc, mailer)
+    assert svc.finish_sign_in(challenge, ADDR, code, NET, True, True).status == "ok"
+    svc.close_account(svc.session(sign_in(svc, mailer, ADDR, "198.51.100.8")) and stepped_up_session(svc, mailer, clock, ADDR, "198.51.100.8")[0])
+    clock.advance(91 * DAY)
+    result, _, _ = _sign_in_to_closed(svc, mailer)
+    assert result.status == "wrong" and result.cookie is None
+    assert svc.erase_closed() == 1 and store.account(account_id) is None
+
+
+def test_an_erasure_that_meets_a_re_opened_account_leaves_it_whole(svc, mailer, clock, store, contacts):
+    account_id, _, _ = _close(svc, mailer, clock)
+    clock.advance(40 * DAY)
+    _, challenge, code = _sign_in_to_closed(svc, mailer)
+    assert svc.finish_sign_in(challenge, ADDR, code, NET, True, True).status == "ok"
+    clock.advance(60 * DAY)
+    assert svc.purge_account(account_id, closed_due=True).status == "wrong"
+    assert store.account(account_id) is not None and contacts.get(account_id) == ADDR
+
+
+def test_a_mark_written_while_the_account_is_re_opened_is_taken_back_out(marked, mailer, clock, store, outside):
+    session, _ = stepped_up_session(marked, mailer, clock)
+    marked.close_account(session)
+    outside.marks.clear()
+    store._d.execute("UPDATE closures SET published = 0")
+    real = outside.publish
+
+    def reopened_during_the_write(hash_, erase_on):
+        real(hash_, erase_on)
+        store.reopen_account(session.account_id, marked.today().isoformat())
+        return True
+
+    marked.closure_publisher = reopened_during_the_write
+    marked.publish_closures()
+    assert outside.marks == {} and store.closure(session.account_id) is None
+    assert marked.sync_closures() == 0
+
+
+def test_a_person_who_signs_in_during_the_two_year_sweep_is_not_closed(svc, mailer, clock, store, monkeypatch):
+    sign_in(svc, mailer)
+    account_id = store.account_ids()[0]
+    clock.advance(365 * 2 * DAY + 20 * DAY)
+    listed = svc.stale_account_ids()
+    assert listed == [account_id]
+    monkeypatch.setattr(svc, "stale_account_ids", lambda: listed)
+    sign_in(svc, mailer, ADDR, "198.51.100.9")  # signs in after the list was made
+    assert svc.close_stale_accounts() == 0 and store.closure(account_id) is None
+
+
+def test_deleting_ends_a_recovery_that_is_waiting(svc, mailer, clock, store, contacts):
+    from engine.accounts.tests.test_recovery import NEW, _owner_with_code, _prove
+
+    session, cookie, code = _owner_with_code(svc, mailer, clock)
+    assert _prove(svc, mailer, code, NEW).status == "ok"
+    assert store.pending_of(session.account_id, include_unnotified=True) is not None
+    stepped = svc.session(cookie)
+    svc.store.step_up_session(stepped.token_hash, svc.now() + 600)
+    assert svc.close_account(svc.session(cookie)).status == "ok"
+    assert store.pending_of(session.account_id, include_unnotified=True) is None
+
+
+def test_a_second_delete_at_once_answers_ok_with_the_same_last_day(svc, mailer, clock):
+    session, _ = stepped_up_session(svc, mailer, clock)
+    first = svc.close_account(session)
+    second = svc.close_account(session)
+    assert first.status == second.status == "ok" and first.data == second.data
 
 
 def test_re_opening_keeps_everything_the_account_held(svc, mailer, clock, store):
@@ -124,6 +197,8 @@ def test_the_account_is_erased_on_its_day_and_not_before(svc, mailer, clock, sto
     account_id, _, _ = _close(svc, mailer, clock)
     clock.advance(89 * DAY)
     assert svc.erase_closed() == 0 and store.account(account_id) is not None
+    clock.advance(DAY)
+    assert svc.erase_closed() == 0, "the last day still belongs to the person"
     clock.advance(DAY)
     assert svc.erase_closed() == 1
     assert store.account(account_id) is None and store.closure(account_id) is None
@@ -181,7 +256,7 @@ def test_a_stale_account_that_signs_in_during_its_ninety_days_stays(svc, mailer,
 def test_a_closed_account_is_not_closed_again_with_a_new_day(svc, mailer, clock, store):
     account_id, _, first = _close(svc, mailer, clock)
     clock.advance(10 * DAY)
-    assert store.close_account(account_id, svc.today().isoformat(), "2099-01-01") is False
+    assert store.close_account(account_id, svc.today().isoformat(), (svc.today() + timedelta(days=500)).isoformat()) is False
     assert store.closure(account_id)[1] == first.data["erase_on"]
 
 

@@ -26,6 +26,16 @@ works:
     first decades, the dynasty at its martial height; the monastic movement is the background,
     not the subject.
   source_file: amda-syon_guerres-amda-syon-journal-asiatique-8e-serie-t14-fra-gez_perruchon1889.txt
+- row_id: ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928--synaxarium-v2-v4--voice
+  work: 'The Ethiopian Synaxarium, vols. II-IV: notices of the Aksumite saints and of King
+    Kaleb (20 Genbot)'
+  author: ethiopian-synaxarium
+  locus: whole file; Kaleb around raw line 30395
+  role: tradition
+  confidence: provisional
+  note: The Ethiopian church's calendar of saints, a late medieval work. Placed beside the
+    other volumes of the Synaxarium held here.
+  source_file: ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt
 - row_id: ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928--ethiopic-synaxarium-maskaram-tekemt-khedar-english
   work: The Ethiopic Synaxarium, volume I (Maskaram, Tekemt, Khedar), English translation
     by Budge
@@ -66,6 +76,15 @@ works:
     not read through. Ready to quote once verified against the scan. Hagiography, so a later
     community's memory.
   source_file: gadla-maba-seyon_lives-of-maba-seyon-and-gabra-krestos_budge1898.txt
+- row_id: gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904--acta-yared-pantalewon--voice
+  work: Acta Yared et Pantalewon (the Ge'ez Lives of Yared and of Pantalewon, in Latin)
+  author: gadla-pantalewon-yared
+  locus: whole text; Pantalewon from around raw line 1778
+  role: tradition
+  confidence: provisional
+  note: Medieval Ge'ez Lives of Yared and Pantalewon. Placed on the medieval window; the date
+    of the Lives is not checked.
+  source_file: gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904.txt
 - row_id: gadla-takla-haymanot_life-and-miracles-of-takla-haymanot_budge1906--life-and-miracles-of-takla-haymanot-dabra-libanos-version-et
   work: Life and Miracles of Takla Haymanot (Dabra Libanos version), Ethiopic texts with English
     translation
@@ -123,6 +142,15 @@ works:
     and say the movement divided into two bodies, the larger at Debra Libanos. Sabbath forms
     occur 23 times. After the window. The Eustathius at line 10021 is the bishop of Antioch.
   source_file: mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt
+- row_id: synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907--synaxaire-ethiopien-sane--voice
+  work: Le Synaxaire ethiopien, I (month of Sane), with French
+  author: synaxaire-ethiopien
+  locus: Guidi's fascicle (PO 1.5)
+  role: tradition
+  confidence: provisional
+  note: The Ethiopian church's calendar of saints, a late medieval work. Placed beside the
+    other volumes of the Synaxarium held here.
+  source_file: synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt
 - row_id: taamra-maryam_miracles-of-the-blessed-virgin-mary-life-of-hanna_budge1900--miracles-of-the-virgin-mary-life-of-hanna-prayers-of-aheta-m
   work: Miracles of the Virgin Mary, Life of Hanna, Prayers of 'Aheta Mika'el (Ethiopic texts
     with English translations)

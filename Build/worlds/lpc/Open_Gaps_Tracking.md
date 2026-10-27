@@ -2112,3 +2112,50 @@ Logged 2026-10-27.
 - **Ruling (project lead, 2026-10-27).** The records stay as they are: the world witnesses its sources and is not softened. The fix belongs in routing.
 - **Held.** lpc stays `building` and unlisted until the routing is in place and a safety re-test passes.
 - **Owner.** The project lead, for the fleet classifier decision; the `lpc` build thread, for the other P1s and the re-test.
+
+### OG-88. Safety routing out of the world; Datus's findings fixed; what is still open (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Ruling (project lead, 2026-10-27).** A Representative never handles safety or crisis. That is the Facilitator's role, under its own tested system. The Facilitator's safety re-test is not this thread's.
+- **Done.**
+  - The safety-routing guards are removed from lpc's records, and the historical guards stay.
+  - Cyprian's provision for penitents in peril of death is added (F10).
+  - World_core caution 13 is widened, and cautions 14 to 17 are added (F6, F7, F9, F11, F12, F13).
+  - An audience guard is added on the Psalm 137 quote (F8).
+  - The generators now emit world_core as `ready`.
+  - Review: `Review-Artifacts/Datus_Findings_Fix_Review_2026-10-27.md`.
+- **Open, not this thread's.**
+  - F4 and F5: the engine's sentence-removal step cut a compassion sentence and a hard teaching, and shipped what was left without re-reading it. This is a fleet engine fault for the project lead.
+  - F1 to F3: Facilitator routing and its re-test.
+- **Open, for the project lead.**
+  - Whether the Permanent Prompt file should be brought in line with cautions 13 to 17. It is an approved construction document, so any change is a change order.
+  - Two wording points on the Facilitator check-in texts: "this tradition" at a multi-tradition table, and one sentence of 29 words.
+- **Held.** lpc stays `building`.
+- **Owner.** The `lpc` build thread for world items; the project lead for the rest.
+
+### OG-89. Canon change merged; lpc rebuilt and re-pinned (2026-10-27).
+
+Logged 2026-10-27.
+
+- **What changed.** The canon-questions change (PR #1175) merged to `main` after this branch's last push. `main` was merged into this branch; the only conflict was the `lpc` pin.
+- **Package.** `python -m engine.m2.cli build lpc` wrote the lpc package 2026-10-27T04-46-29Z (written by the parallel session that merged main first; my own rebuild, 04-39-49Z, was dropped); `determinism-check lpc` passes. `records/worlds/lpc.yaml` is pinned to it. `lpc` stays `building`.
+- **Gates.** `records`, `regate`, `claims` and `handoff` for lpc pass.
+- **Owner.** The `lpc` build thread.
+
+### OG-90. F4/F5: post-draft sentence removal damages answers; sent to an engine thread (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Fault.** In the 27 October live run, the engine's post-draft sentence removal cut a compassion sentence and the infant teaching, then shipped the remainder unread. Evidence: `Review-Artifacts/Live_Validation_Review_2026-10-27.md` (F4, F5) and the reports in `engine/m4/reports/lpc-validation-2026-10-27/`.
+- **Ruling.** Project lead, 2026-10-27: it goes to an engine thread (see the Decision Log). It is a fleet fault; the `lpc` records are not changed for it.
+- **Engine thread to decide.** Whether a removal that changes meaning should block the shipped answer, and whether a changed answer is re-read before it ships.
+- **Owner.** An engine thread. `lpc` stays `building`.
+
+### OG-91. Governance V3.6 does not yet name the two check-in cases (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Gap.** `CiC_L3D_Facilitator_Governance_V3.6` does not describe the loss-to-suicide and coercion-by-person check-ins that the engine now runs (PR #1174).
+- **Status.** Draft wording was shown to the project lead as an Artifact on 2026-10-27. The project lead decides whether and where it enters V3.6; the file is not edited by this thread.
+- **Owner.** The project lead.

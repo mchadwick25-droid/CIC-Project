@@ -133,8 +133,8 @@ def new_world_waiver_problem(waiver: Waiver) -> str | None:
 # being fixed right now gets a dated waiver, not a free pass by omission.
 # Waived here on that basis, each owned by its own world's build thread.
 ACCEPTED_OPEN: dict[str, Waiver] = {
-    "m9:shelf-row/alx": Waiver(count=25, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
-    "m9:shelf-row/desert": Waiver(count=18, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
+    "m9:shelf-row/alx": Waiver(count=26, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
+    "m9:shelf-row/desert": Waiver(count=19, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:emic-vendored-only/desert": Waiver(count=20, deadline="2026-12-14", owner="desert's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed"),
     "m9:source-kind/gallic": Waiver(count=2, deadline="2026-12-14", owner="the two gallic.*-absence records - kind: absence + real absence_probes still need an editorial pass (increment 7's own remaining item); gallic's build thread"),
     "m9:shelf-row/don": Waiver(count=60, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
@@ -209,7 +209,6 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:use-note-present/gallic": Waiver(count=7, deadline="2027-03-15", owner="slice 6 use-note gate: each voiced citable record carries a use note (means, not_for, years), drafted and Opus-reviewed against the vendored source; gallic's own build thread"),
     "m1:use-note-present/hal": Waiver(count=1, deadline="2027-03-15", owner="slice 6 use-note gate: each voiced citable record carries a use note (means, not_for, years), drafted and Opus-reviewed against the vendored source; hal's own build thread"),
     "m1:use-note-present/ijc": Waiver(count=1, deadline="2027-03-15", owner="slice 6 use-note gate: each voiced citable record carries a use note (means, not_for, years), drafted and Opus-reviewed against the vendored source; ijc's own build thread"),
-    "m1:use-note-present/pahc": Waiver(count=1, deadline="2027-03-15", owner="slice 6 use-note gate: each voiced citable record carries a use note (means, not_for, years), drafted and Opus-reviewed against the vendored source; pahc's own build thread"),
     "m1:use-note-present/witt": Waiver(count=1, deadline="2027-03-15", owner="slice 6 use-note gate: each voiced citable record carries a use note (means, not_for, years), drafted and Opus-reviewed against the vendored source; witt's own build thread"),
     # source-citation: each source record's participant-facing citation line,
     # added world by world with that world's record wording pass.

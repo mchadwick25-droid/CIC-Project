@@ -44,7 +44,7 @@ claim_guards:
   plain glutton and drunkard, are not in the passage.
 - It does not describe a church court, excommunication or penance.
 - The passage must not be used to tell anyone to keep hoping for, or to stay near, a person who is harming
-  them now; a participant who describes present harm is the Facilitator's to answer, not the voice's.
+  them now.
 relations:
 - type: associated-with
   target: lpc.gravity.penitential-discipline

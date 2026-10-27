@@ -6996,3 +6996,57 @@ Each text offers help with no condition attached and leaves the way open to the 
 The approved texts:
 - **Loss to suicide:** "I'm so sorry for your loss. Before we go on, I want to say plainly: if this loss is weighing on you now, you don't have to carry it alone. A person you trust, a grief or crisis line, or emergency services where you are can help. When you're ready, you can still ask what this tradition believed, and it will answer from what its own people wrote. Or we can stop here."
 - **Coercion by a person:** "Before we go on: what you're describing sounds like someone trying to control you. You don't owe anyone obedience without question, and you can talk to someone outside it: a person you trust, a support line, or emergency services if you're in danger. If you'd still like to ask how this tradition thought about authority, you can."
+
+## 2026-10-27 - Governance V3.6 names the two new check-in cases (project lead's ruling)
+
+**Question.** Should `CiC_L3D_Facilitator_Governance_V3.6` name the loss-to-suicide and coercion-by-a-person check-ins ruled earlier the same day (entry "Facilitator routing")?
+
+**Alternatives shown.** Add both cases now; add after the capped lpc retest; do not add.
+
+**Ruling.** Mark, 2026-10-27: add both cases now, with the wording shown to him as an Artifact and approved as drafted.
+
+**Done.** Section 12 of the Word file gains three paragraphs after "Harmful dynamic": "Loss to suicide", "Coercion by a person", and "How these two work" (fixed texts added by the system, each shown once per conversation for a given reason, a repeat ask goes on to the Representative, words showing the participant's own risk go to the acute distress response every time). No existing paragraph was changed. The two approved texts stay in the engine and in the entry above; the document does not repeat them.
+
+## 2026-10-27 - The Library's Era VI and Era VIII recommendations are a candidate queue, not a build order (project lead's ruling)
+
+**Question.** The Era VI pass (PR 1072) and the Era VIII pass (PR 1085) each recommend, per world, build / atlas only / part of another world / open question. What status do those recommendations carry?
+
+**Alternatives shown.** Hold them as a candidate queue and order later; rule on them era by era now; leave them as dossier advice.
+
+**Ruling.** Mark, 2026-10-27: a candidate queue, ordered later.
+
+**Meaning.**
+- The recommendation in each world's dossier (`Build/worlds/_cross-world/dossiers/`, section 6) stands as the Library's advice. No world is started, coded or ranked by this entry.
+- The first worlds to build are ranked by Mark after `lpc` closes, one world at a time, and only when the weekly allowance covers it (CLAUDE.md, "Scaling the build").
+- Still open and not touched here: the `needs-ruling` placements listed in `Build/worlds/_cross-world/NEEDS-RULING.md`; the rights calls named in PR 1072; the Kongo, Melkite and Utrecht build-or-atlas choices; the remap of the eleven rows that cite the old VI.13 id; and the Era VII Anabaptist and Tridentine gaps.
+
+## 2026-10-27 - Change order: Question Coverage joins the world build as a report-only step, B-7c (project lead's ruling)
+
+**Question.** Whether and how the Question Coverage pass joins the build cycle (it was open in the feature's Decision-Log).
+
+**Alternatives shown.** Do not add it; run it per world on request; add it as a standing step.
+
+**Ruling.** Mark, 2026-10-27: a standing step by change order, for new worlds only. Then, on where and how strong: a new step B-7c after B-7b, report-only. The alternatives were folding it into B-7b as a gate (no agreed pass mark exists to enforce) and a freeze requirement alone.
+
+**Change order.** `Build/Ministry/Operations/Audits/2026-10-27_question-coverage-step_ChangeOrder.md`, approved as drafted. It edits the Build Process V2.0 (step table and Section 12) and the Completion Standard V1.4 (Section B). The build-cycle skill needs no change.
+
+**Not done.** No pass mark was set and no engine command was built. If Mark later wants coverage enforced as a gate, that is a separate ruling that needs a threshold first.
+
+## 2026-10-27 - Gifted tokens go live with accounts; legal question 14 does not gate them (project lead's ruling)
+
+**Question.** Whether the open legal question 14 (whether an in-service credit falls under Regulation E 1005.20 or California Civil Code 1749.5, and whether the "promotional" label is enough for coupons; `Build/Ministry/Features/Go-Deeper/Decision-Log.md`, question 14) must be answered before gifted tokens go live in the pilot.
+
+**Alternatives shown.** Wait for the answer; go live for known testers only; go live fully.
+
+**Ruling.** Mark, 2026-10-27: go fully live, with no condition. He added that the project has no gift cards, only tokens bought into an account and tokens gifted into an account, and that it does not need promotional coupons. Visitors already see "gift"; the admin dashboard's visible words now say "gift" as well (routes, field names and code names are unchanged).
+
+**Left open.** Question 14 stays with the professional. This ruling attaches no condition to token sales either. If the answer later bears on purchased tokens, it comes back to Mark then.
+
+## 2026-10-27 - Cap ruling: question-coverage honest limits (don, alx, pahc assurance)
+
+Three honest-limit records written from the first week of real visitor questions went through three review rounds (`opus-honest-limits-review.md`, `opus-honest-limits-recheck.md`, `opus-honest-limits-final-read.md` in `Build/Ministry/Features/Question-Coverage/Review/`). The third round found two blocking safety findings: the don limit named a method and set the traitor beside a suicide question, and the pahc assurance limit read as a verdict on a bereaved visitor's belief. The project lead ruled: apply the third reader's corrections and order one more read by a different reader. That read is `opus-honest-limits-read-4.md`. It is the only review this ruling covers.
+
+## 2026-10-27 - Cap ruling (second): question-coverage honest limits, fourth read
+
+The fourth read (`opus-honest-limits-read-4.md`) found three more blocking defects, all on surfaces the earlier statement-only reads had not checked: the visitor's citation card (the Optatus locus named a method; the Justin card read as a ruling on a bereaved visitor's belief) and a `not_for` line that handed the voice "Judas" in a turn about a suicide. The project lead ruled: apply every fix, and order a fifth read by a fresh reader of the whole shipped surface (the spoken text, the use-note lines sent to the voice, and the citation cards as the engine filters them), with the don contested claim added to the same read. That read is `opus-honest-limits-read-5.md`. It is the only review this ruling covers.
+

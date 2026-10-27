@@ -2687,3 +2687,33 @@ Two placements came from review options, not from the project lead. (1) "Turn th
 ### 2026-10-27 — The suicide records stay as written; the safety fix goes to routing (project lead's ruling)
 
 The live test found a bereaved participant answered by Datus with Augustine's teaching (OG-87). Alternatives shown: (1) silence the three suicide records until the Facilitator handles bereavement; (2) keep them voiced and change how Datus opens the subject; (3) remove them. The project lead rejected deleting or softening: "we are a witness of the sources". Ruling: the records stay as written, and the fix goes where the failure is, in the Facilitator's routing. lpc stays `building`, reachable by no participant, until that routing exists and a safety re-test passes. The classifier change is a fleet decision, put to the project lead separately.
+
+---
+
+### 2026-10-27 — F4/F5 (post-draft sentence removal) goes to an engine thread (project lead's ruling)
+
+The live review found that the engine's post-draft sentence removal cut a compassion sentence and the infant teaching from Datus's answers, then shipped the rest unread. This is a fleet engine fault, not an `lpc` record fault. Alternatives shown: (1) an engine thread; (2) back to the project lead with fix options first; (3) hold until the safety re-test. Chosen: 1 (project lead, 2026-10-27).
+
+---
+
+### 2026-10-27 — The Permanent Prompt is not aligned with cautions 13–17 yet (project lead's ruling)
+
+World_core cautions 13–17 are untested live. Alternatives shown: (1) not yet: test them live first, then change-order the Permanent Prompt only if they hold; (2) align now by change order; (3) never, keeping them world-level. Chosen: 1 (project lead, 2026-10-27). The question returns after a live test of the cautions, which needs his named test and cap.
+
+---
+
+### 2026-10-27 — Facilitator check-in wording fixed (project lead's ruling)
+
+Review of the loss and coercion check-ins found "this tradition" wrong at tables, where several traditions sit, and one 29-word sentence. Alternatives shown: (1) fix both; (2) fix the long sentence only; (3) leave as approved. Chosen: 1 (project lead, 2026-10-27). In `engine/m4/facilitator_turns.py` the loss check-in now says "ask your question, and the answer will come from what the sources wrote"; the coercion check-in is split in two sentences and says "ask about authority". Routing logic is unchanged.
+
+---
+
+### 2026-10-27 — Governance document: draft the text, the project lead applies it (project lead's ruling)
+
+`CiC_L3D_Facilitator_Governance_V3.6` should name the two new check-in cases. Alternatives shown: (1) the build thread drafts the text and the project lead decides how it enters V3.6; (2) the build thread edits the Word file by change order; (3) leave it to a Facilitator thread. Chosen: 1 (project lead, 2026-10-27). The draft is shown as an Artifact for review and is not written into the repo.
+
+---
+
+### 2026-10-27 — No live rerun of the validation probes yet (project lead's ruling)
+
+Alternatives shown: (1) not now, waiting for the engine thread's fix to F4/F5 so the rerun tests the voice and not the damaging step; (2) rerun the Datus-fix probes only; (3) rerun the full validation. Chosen: 1 (project lead, 2026-10-27). No spend. The rerun returns after the F4/F5 fix, with a named test and cap.

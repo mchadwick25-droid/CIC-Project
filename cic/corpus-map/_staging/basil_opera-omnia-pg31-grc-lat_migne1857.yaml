@@ -1,0 +1,14 @@
+source_file: basil_opera-omnia-pg31-grc-lat_migne1857.txt
+
+assignments:
+  - row_id: basil_opera-omnia-pg31-grc-lat_migne1857--moral-famine-and-martyr-homilies-pg-31-greek
+    work: "Basil, Opera omnia, PG 31, Greek: homily in time of famine and drought, on Luke 12:18, to the rich, on Julitta, on Mamas"
+    author: basil
+    locus: "famine and drought homily at file line 22450; on Luke 12:18 at 19009; to the rich at 20355; Julitta at 17124; Mamas at 44695"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: provisional
+    note: >
+      Primary original-language voice of Basil of Caesarea: the moral and famine homilies and the homilies on the martyrs Julitta and Mamas.
+      Greek original; second witness for quotation until checked against the page image: Greek legible, Latin column garbled.

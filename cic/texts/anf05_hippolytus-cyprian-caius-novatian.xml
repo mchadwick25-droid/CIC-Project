@@ -5,51 +5,51 @@
 <?xml-stylesheet type="text/xsl"
     href="http://www.ccel.org/ss/thml.html.xsl" ?>
 -->
-<!-- Copyright Christian Classics Ethereal Library -->
+<!-- CCEL-authored header block removed; text, notes and scripture tags unchanged -->
 <ThML>
 <ThML.head>
 
-<generalInfo>
-  <description>Originally printed in 1885, the ten-volume 
-set, <i>Ante-Nicene Fathers</i>, brings together the work of 
-early Christian thinkers. In particular, it brings 
-together the writings of the early Church fathers prior to the fourth 
-century Nicene Creed. These volumes are noteworthy for their inclusion 
-of entire texts, and not simply fragments or excerpts from these great 
-writings. The translations are fairly literal, providing both readers 
-and scholars with a good approximation of the originals. This volume 
-contains works by third century thinkers St. Hippolytus, St. Cyprian, 
-Caius, and Novatian. These writings were heavily influential on the 
-early Church, and for good reason, as they are inspirational and 
-encouraging. These volumes also come with many useful notes, providing 
-the reader with new levels of understanding. Overall, <i>Ante-Nicene 
-Fathers</i>, or any part of it, is a welcome addition to one's reading 
-list. 
-<br /><br />Tim Perrine<br />CCEL Staff Writer </description>
-  <pubHistory />
-  <comments />
-</generalInfo>
 
-<printSourceInfo>
-  <published />
-</printSourceInfo>
 
-<electronicEdInfo>
-  <publisherID>ccel</publisherID>
-  <authorID>schaff</authorID>
-  <bookID>anf05</bookID>
-  <workID>anf05</workID>
-  <versionID>anf05</versionID>
-  <bkgID>schaff-anf05</bkgID>
-  <version>1.0</version>
-  <editorialComments />
-  <revisionHistory />
-  <status />
 
-  <DC>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <DC.Title>ANF05. Fathers of the Third Century: Hippolytus,
     Cyprian, Caius, Novatian, Appendix</DC.Title>
-    <DC.Title sub="short">Fathers of the Third Century Hippolytus</DC.Title>
+
     <DC.Creator scheme="short-form" sub="Editor">Philip Schaff</DC.Creator>
     <DC.Creator scheme="file-as" sub="Editor">Schaff, Philip (1819-1893)</DC.Creator>
     <DC.Creator scheme="ccel" sub="Editor">schaff</DC.Creator>
@@ -58,337 +58,337 @@ list.
     <DC.Creator scheme="ccel" sub="Author of Part">caius</DC.Creator>
     <DC.Creator scheme="ccel" sub="Author of Part">novatian</DC.Creator>
 
-    <DC.Publisher>Grand Rapids, MI: Christian Classics Ethereal Library</DC.Publisher>
-    <DC.Relation scheme="containedIn" sub="5">/ccel/schaff/anf-series</DC.Relation>
-    <DC.Subject scheme="LCCN">BR65</DC.Subject>
-    <DC.Subject scheme="lcsh1">Christianity</DC.Subject>
-    <DC.Subject scheme="lcsh2">Early Christian Literature. Fathers of the Church, etc.</DC.Subject>
-    <DC.Subject scheme="ccel">All; Early Church; Proofed</DC.Subject>
-    <DC.Contributor sub="Digitizer" />
-    <DC.Date sub="Created">2004-07-04</DC.Date>
-    <DC.Type>Text.Monograph</DC.Type>
-    <DC.Format scheme="IMT">text/html</DC.Format>
-    <DC.Identifier scheme="URL">/ccel/schaff/anf05.html</DC.Identifier>
-    <DC.Identifier scheme="ISBN" />
-    <DC.Source />
-    <DC.Source scheme="URL" />
-    <DC.Language scheme="ISO639-3">eng</DC.Language>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <DC.Rights>Public Domain</DC.Rights>
-  </DC>
-
-</electronicEdInfo>
 
 
 
 
 
-<style type="text/css">
-p.c69	{ text-indent:1.5in }
-p.c68	{ text-indent:1.0in }
-p.c67	{ text-indent:.5in }
-p.c65	{ text-indent:.2in }
-p.c63	{ margin-top:2pt; margin-bottom:2pt; text-indent:.25in }
-p.c62	{ margin-top:9pt; margin-bottom:2pt; text-align:center }
-p.c61	{ margin-top:12pt; margin-bottom:9pt; text-align:center }
-p.c60	{ margin-top:6pt; margin-bottom:6pt; text-indent:.25in }
-p.c58	{ margin-top:6pt; text-indent:.25in }
-p.c57	{ text-indent:.25in }
-p.c56	{ margin-top:.25in; text-align:center }
-p.c55	{ margin-top:24pt; text-align:center }
-p.c53	{ margin-bottom:6pt; text-indent:.25in }
-p.c52	{ margin-top:9pt; margin-right:.25in; margin-left:.25in; text-align:center }
-p.c51	{ margin-top:9pt }
-p.c50	{ margin-top:12pt; margin-left:.25in; text-align:center; text-indent:-.25in }
-p.c48	{ margin-top:9pt; margin-left:.25in; text-align:center; text-indent:-.25in }
-p.c47	{ margin-top:9pt; text-align:center; text-indent:.25in }
-p.c46	{ margin-top:12pt; text-align:center }
-p.c43	{ margin-top:9pt; text-align:center }
-p.c42	{ margin-top:9pt; text-indent:.25in }
-p.c41	{ margin-top:6pt; margin-left:99pt; text-indent:-.25in }
-p.c40	{ margin-top:9pt; text-indent:22.5pt }
-p.c39	{ margin-top:6pt; margin-left:.5in; text-indent:-.25in }
-p.c38	{ margin-top:.25in; margin-bottom:9pt; margin-left:.25in; text-indent:-.25in }
-p.c37	{ margin-top:6pt; margin-bottom:6pt; margin-left:.5in; text-indent:-.25in }
-p.c36	{ margin-top:6pt; margin-bottom:6pt; margin-left:.45in; text-indent:-.25in }
-p.c34	{ margin-top:6pt }
-p.c33	{ margin-top:6pt; margin-left:1.75in; text-indent:-.25in }
-p.c32	{ margin-left:.25in }
-p.c31	{ margin-left:.5in; text-indent:-.25in }
-p.c30	{ margin-bottom:6pt; margin-left:.5in; text-indent:-.25in }
-p.c29	{ margin-top:6pt; margin-left:.45in; text-indent:-.25in }
-p.c28	{ margin-bottom:6pt; margin-left:.25in }
-p.c27	{ margin-top:6pt; margin-left:.2in }
-p.c26	{ margin-top:9pt; margin-left:.25in; text-indent:-.25in }
-p.c25	{ margin-top:9pt; margin-bottom:9pt; text-align:center }
-p.c24	{ margin-bottom:9pt; text-align:center }
-p.c23	{ margin-top:102pt; text-align:center }
-span.c22	{ font-size:x-large; text-transform:uppercase }
-p.c20	{ text-indent:.25in }
-p.c19	{ margin-top:9pt; text-indent:.25in }
-p.c18	{ margin-top:.5in; margin-bottom:9pt; text-align:center }
-span.c17	{ font-size:x-large }
-p.c16	{ text-indent:229.5pt }
-span.c15	{ font-size:xx-small }
-p.c14	{ margin-top:.5in; text-align:center }
-p.c12	{ margin-bottom:.25in; text-align:center }
-p.c11	{ font-style:italic; margin-bottom:.25in; text-align:center }
-p.c10	{ margin-top:.25in; margin-bottom:.25in; text-align:center }
-p.c9	{ margin-top:102pt; margin-bottom:.5in; text-align:center }
-p.c7	{ font-style:italic; text-align:center }
-span.c6	{ font-size:large }
-p.c5	{ margin-bottom:12pt; text-align:center }
-p.c4	{ margin-top:30pt; text-align:center }
-span.c3	{ font-size:xx-large }
-p.c2	{ text-align:center }
-span.c1	{ font-size:medium }
-</style>
 
-<style type="text/xcss">
-<selector class="c69" element="p">
-  <property name="text-indent" value="1.5in" />
-</selector>
-<selector class="c68" element="p">
-  <property name="text-indent" value="1.0in" />
-</selector>
-<selector class="c67" element="p">
-  <property name="text-indent" value=".5in" />
-</selector>
-<selector class="c65" element="p">
-  <property name="text-indent" value=".2in" />
-</selector>
-<selector class="c63" element="p">
-  <property name="margin-top" value="2pt" />
-  <property name="margin-bottom" value="2pt" />
-  <property name="text-indent" value=".25in" />
-</selector>
-<selector class="c62" element="p">
-  <property name="margin-top" value="9pt" />
-  <property name="margin-bottom" value="2pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector class="c61" element="p">
-  <property name="margin-top" value="12pt" />
-  <property name="margin-bottom" value="9pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector class="c60" element="p">
-  <property name="margin-top" value="6pt" />
-  <property name="margin-bottom" value="6pt" />
-  <property name="text-indent" value=".25in" />
-</selector>
-<selector class="c58" element="p">
-  <property name="margin-top" value="6pt" />
-  <property name="text-indent" value=".25in" />
-</selector>
-<selector class="c57" element="p">
-  <property name="text-indent" value=".25in" />
-</selector>
-<selector class="c56" element="p">
-  <property name="margin-top" value=".25in" />
-  <property name="text-align" value="center" />
-</selector>
-<selector class="c55" element="p">
-  <property name="margin-top" value="24pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector class="c53" element="p">
-  <property name="margin-bottom" value="6pt" />
-  <property name="text-indent" value=".25in" />
-</selector>
-<selector class="c52" element="p">
-  <property name="margin-top" value="9pt" />
-  <property name="margin-right" value=".25in" />
-  <property name="margin-left" value=".25in" />
-  <property name="text-align" value="center" />
-</selector>
-<selector class="c51" element="p">
-  <property name="margin-top" value="9pt" />
-</selector>
-<selector class="c50" element="p">
-  <property name="margin-top" value="12pt" />
-  <property name="margin-left" value=".25in" />
-  <property name="text-align" value="center" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector class="c48" element="p">
-  <property name="margin-top" value="9pt" />
-  <property name="margin-left" value=".25in" />
-  <property name="text-align" value="center" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector class="c47" element="p">
-  <property name="margin-top" value="9pt" />
-  <property name="text-align" value="center" />
-  <property name="text-indent" value=".25in" />
-</selector>
-<selector class="c46" element="p">
-  <property name="margin-top" value="12pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector class="c43" element="p">
-  <property name="margin-top" value="9pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector class="c42" element="p">
-  <property name="margin-top" value="9pt" />
-  <property name="text-indent" value=".25in" />
-</selector>
-<selector class="c41" element="p">
-  <property name="margin-top" value="6pt" />
-  <property name="margin-left" value="99pt" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector class="c40" element="p">
-  <property name="margin-top" value="9pt" />
-  <property name="text-indent" value="22.5pt" />
-</selector>
-<selector class="c39" element="p">
-  <property name="margin-top" value="6pt" />
-  <property name="margin-left" value=".5in" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector class="c38" element="p">
-  <property name="margin-top" value=".25in" />
-  <property name="margin-bottom" value="9pt" />
-  <property name="margin-left" value=".25in" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector class="c37" element="p">
-  <property name="margin-top" value="6pt" />
-  <property name="margin-bottom" value="6pt" />
-  <property name="margin-left" value=".5in" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector class="c36" element="p">
-  <property name="margin-top" value="6pt" />
-  <property name="margin-bottom" value="6pt" />
-  <property name="margin-left" value=".45in" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector class="c34" element="p">
-  <property name="margin-top" value="6pt" />
-</selector>
-<selector class="c33" element="p">
-  <property name="margin-top" value="6pt" />
-  <property name="margin-left" value="1.75in" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector class="c32" element="p">
-  <property name="margin-left" value=".25in" />
-</selector>
-<selector class="c31" element="p">
-  <property name="margin-left" value=".5in" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector class="c30" element="p">
-  <property name="margin-bottom" value="6pt" />
-  <property name="margin-left" value=".5in" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector class="c29" element="p">
-  <property name="margin-top" value="6pt" />
-  <property name="margin-left" value=".45in" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector class="c28" element="p">
-  <property name="margin-bottom" value="6pt" />
-  <property name="margin-left" value=".25in" />
-</selector>
-<selector class="c27" element="p">
-  <property name="margin-top" value="6pt" />
-  <property name="margin-left" value=".2in" />
-</selector>
-<selector class="c26" element="p">
-  <property name="margin-top" value="9pt" />
-  <property name="margin-left" value=".25in" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector class="c25" element="p">
-  <property name="margin-top" value="9pt" />
-  <property name="margin-bottom" value="9pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector class="c24" element="p">
-  <property name="margin-bottom" value="9pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector class="c23" element="p">
-  <property name="margin-top" value="102pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector class="c22" element="span">
-  <property name="font-size" value="x-large" />
-  <property name="text-transform" value="uppercase" />
-</selector>
-<selector class="c20" element="p">
-  <property name="text-indent" value=".25in" />
-</selector>
-<selector class="c19" element="p">
-  <property name="margin-top" value="9pt" />
-  <property name="text-indent" value=".25in" />
-</selector>
-<selector class="c18" element="p">
-  <property name="margin-top" value=".5in" />
-  <property name="margin-bottom" value="9pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector class="c17" element="span">
-  <property name="font-size" value="x-large" />
-</selector>
-<selector class="c16" element="p">
-  <property name="text-indent" value="229.5pt" />
-</selector>
-<selector class="c15" element="span">
-  <property name="font-size" value="xx-small" />
-</selector>
-<selector class="c14" element="p">
-  <property name="margin-top" value=".5in" />
-  <property name="text-align" value="center" />
-</selector>
-<selector class="c12" element="p">
-  <property name="margin-bottom" value=".25in" />
-  <property name="text-align" value="center" />
-</selector>
-<selector class="c11" element="p">
-  <property name="font-style" value="italic" />
-  <property name="margin-bottom" value=".25in" />
-  <property name="text-align" value="center" />
-</selector>
-<selector class="c10" element="p">
-  <property name="margin-top" value=".25in" />
-  <property name="margin-bottom" value=".25in" />
-  <property name="text-align" value="center" />
-</selector>
-<selector class="c9" element="p">
-  <property name="margin-top" value="102pt" />
-  <property name="margin-bottom" value=".5in" />
-  <property name="text-align" value="center" />
-</selector>
-<selector class="c7" element="p">
-  <property name="font-style" value="italic" />
-  <property name="text-align" value="center" />
-</selector>
-<selector class="c6" element="span">
-  <property name="font-size" value="large" />
-</selector>
-<selector class="c5" element="p">
-  <property name="margin-bottom" value="12pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector class="c4" element="p">
-  <property name="margin-top" value="30pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector class="c3" element="span">
-  <property name="font-size" value="xx-large" />
-</selector>
-<selector class="c2" element="p">
-  <property name="text-align" value="center" />
-</selector>
-<selector class="c1" element="span">
-  <property name="font-size" value="medium" />
-</selector>
-</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </ThML.head>

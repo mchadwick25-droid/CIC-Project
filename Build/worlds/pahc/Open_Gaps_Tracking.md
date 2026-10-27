@@ -872,3 +872,15 @@ Fixed, in `transmission-network`, `authority-consolidation`, `roman-mediterranea
 `alexandria-emergence` needed no change.
 
 Status: CLOSED for the nine force records.
+
+### OG-42. Honest limits on 'faith alone' and on assurance and the dead; guard on the 367 quote, 2026-10-27.
+
+Question-coverage design thread. Real visitors asked 'If you died today would you go to heaven?' and 'Do you take communion?' (pahc, 2026-10-20). New `pahc.limit.faith-alone-later-frame` (F1-T) and `pahc.limit.assurance-and-the-dead` (F6-T). `pahc.quote.appointed-to-be-read` gains a `use_note`; its `years` is 70 to 200 because the gate rejects a `years.to` past the window end, so the 367 date is in `means` and `not_for`. The dangling sentence naming `pahc.contested.table-diversity` is removed from `pahc.term.eucharistia`, because no verifiable text supports that record. Still open: the `modern_lens_note` on the 367 quote says about eighteen centuries (see OG-27); the body-and-blood quotes (Ignatius, Smyrnaeans 7; Justin, 1 Apology 66) are unrendered; Justin Dialogue 5 and Hermas Sim. 9.16 were not read.
+
+Status: OPEN for an independent recheck and the unrendered quotes.
+
+### OG-43. Third review applied to the assurance-and-the-dead limit, 2026-10-27.
+
+Justin's Dialogue 80 is removed from the spoken statement (it read as a verdict on a bereaved visitor's belief) and stays in `not_for` and the divergence note. Clement's 'by God's grace' is restored. A stray line break inside the spoken text is fixed. Awaiting a fourth read.
+
+Status: OPEN for the fourth read.

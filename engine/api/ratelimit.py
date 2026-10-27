@@ -50,20 +50,20 @@ from fastapi.responses import JSONResponse
 
 # window, max requests. Create: 6/min covers a household retrying; no
 # real participant creates sessions faster. Converse: 40/min per IP is
-# ~4x the fastest real table pace. Admin: 10/min per IP - generous for
+# ~4x the fastest real table pace. Admin: 30/min per IP - generous for
 # the one legitimate operator polling pilot-summary, hostile to guessing
 # a token by brute force (a real token is a long random string; even an
 # attacker with no rate limit at all would need an astronomical number
 # of attempts, but zero throttle meant zero cost to trying anyway).
 CREATE_LIMIT = (60.0, 6)
 CONVERSE_LIMIT = (60.0, 40)
-ADMIN_LIMIT = (60.0, 10)
+ADMIN_LIMIT = (60.0, 30)
 # /api/admin/login specifically (engine.api.admin_auth): the dashboard's
 # password login is short (12-20 chars, engine.api.admin_auth.
 # PASSWORD_MIN_LENGTH/MAX_LENGTH) precisely because THIS limit, not the
 # password's own entropy, is what makes guessing it impractical - 5
 # attempts per 15 minutes per IP is a real website's ordinary login
-# lockout, not ADMIN_LIMIT's looser 10/min (sized for an operator polling
+# lockout, not ADMIN_LIMIT's looser 30/min (sized for an operator polling
 # an API with a long random token, a different threat model).
 ADMIN_LOGIN_LIMIT = (900.0, 5)
 # Go Deeper's claim and balance routes get a bucket of their own, apart from
@@ -133,7 +133,23 @@ def network_of(address: str) -> str:
     return address
 
 
+SIGN_IN_IPV6_PREFIX = 48
 BOUND_IPV6_PREFIX = 56
+
+
+def sign_in_network_of(address: str) -> str:
+    """The key sign-in send budgets count a network under: an IPv6 address becomes its /48, so one
+    cheap block of /64s counts as one network when someone tries to use up another person's budget;
+    an IPv4-mapped one becomes its IPv4 address; an IPv4 address, or anything that does not parse, is unchanged."""
+    try:
+        ip = ipaddress.ip_address(address)
+    except ValueError:
+        return address
+    if isinstance(ip, ipaddress.IPv6Address):
+        if ip.ipv4_mapped is not None:
+            return str(ip.ipv4_mapped)
+        return str(ipaddress.ip_network(f"{ip}/{SIGN_IN_IPV6_PREFIX}", strict=False))
+    return address
 
 
 def bound_network_of(address: str) -> str:

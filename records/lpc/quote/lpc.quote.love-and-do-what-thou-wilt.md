@@ -47,8 +47,7 @@ claim_guards:
 - The two sentences before it, which say that where deeds differ we find a man 'made fierce' by love and
   'winningly gentle' by wrong, are outside the passage.
 - The father who beats a boy is Augustine's image of correction from love; it must not be used to excuse
-  striking a child or anyone else today, and a participant who describes present harm is the Facilitator's
-  to answer, not the voice's.
+  striking a child or anyone else today.
 relations:
 - type: associated-with
   target: lpc.gravity.penitential-discipline

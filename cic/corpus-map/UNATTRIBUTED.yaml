@@ -902,20 +902,6 @@ authors:
 
       '
     from_file: bellarmine_notes-of-the-church_1688.txt
-  church_brodribb:
-    kind: metadata-omission
-    evidence: 'The file is plain text and its transcription names no translator - it opens
-      "The Annals by Tacitus / Book 15 / 44" and goes straight into the chapter. The attribution
-      to Alfred John Church and William Jackson Brodribb (1876) is made at vendoring on internal
-      evidence: the renderings "a most mischievous superstition", "hatred against mankind",
-      "Christus, from whom the name had its origin" and the opening "Such indeed were the
-      precautions of human wisdom" are that translation''s distinctive wording, and it is
-      the standard public-domain English of the chapter and the candidate named in pahc.source.tacitus-annals
-      since the prior build. The slug is used ONLY to hold that translator attribution; it
-      is never used for Tacitus'' own text.
-
-      '
-    from_file: tacitus_annals-15-44_church-brodribb1876.txt
   cil8-numidia:
     kind: anonymous
     evidence: 'A collective epigraphic corpus (inscriptions from many hands across centuries),
