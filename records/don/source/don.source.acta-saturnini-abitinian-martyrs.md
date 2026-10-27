@@ -24,7 +24,8 @@ edition: The Latin text is held in cic/texts/monumenta-vetera-donatistarum-303-3
   et actus martyrum Saturnini presbyteri, Felicis, Dativi, Ampelii" (about line 1259). No English translation
   is held, and no manuscript basis is identified in Source_Registry.md or Source_Acquisition_Manifest.md.
 citation: Anonymous, Acts of the Abitinian Martyrs (Acta Saturnini)
-kind: unvendored
+kind: vendored
+shelf_row: monumenta-vetera-donatistarum-303-340_migne-pl8--monumenta-vetera-ad-donatistarum-historiam-pertinentia-303
 rights_status: "public-domain; vendored (Latin, Migne 1844; the file's provenance header records Public Domain and an archive.org Public Domain Mark). No English translation is held"
 attribution_status: anonymous, and the transmission history itself is genuinely contested in the scholarship
   -- whether the surviving text is a Donatist or a Catholic transmission is not settled. Step0_Movement_Scope_Confirmation.md
