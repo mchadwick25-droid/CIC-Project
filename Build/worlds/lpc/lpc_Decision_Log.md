@@ -2699,3 +2699,9 @@ The live review found that the engine's post-draft sentence removal cut a compas
 ### 2026-10-27 — The Permanent Prompt is not aligned with cautions 13–17 yet (project lead's ruling)
 
 World_core cautions 13–17 are untested live. Alternatives shown: (1) not yet: test them live first, then change-order the Permanent Prompt only if they hold; (2) align now by change order; (3) never, keeping them world-level. Chosen: 1 (project lead, 2026-10-27). The question returns after a live test of the cautions, which needs his named test and cap.
+
+---
+
+### 2026-10-27 — Facilitator check-in wording fixed (project lead's ruling)
+
+Review of the loss and coercion check-ins found "this tradition" wrong at tables, where several traditions sit, and one 29-word sentence. Alternatives shown: (1) fix both; (2) fix the long sentence only; (3) leave as approved. Chosen: 1 (project lead, 2026-10-27). In `engine/m4/facilitator_turns.py` the loss check-in now says "ask your question, and the answer will come from what the sources wrote"; the coercion check-in is split in two sentences and says "ask about authority". Routing logic is unchanged.

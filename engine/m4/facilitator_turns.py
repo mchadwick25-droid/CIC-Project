@@ -112,8 +112,8 @@ CHECK_IN_LOSS = FacilitatorTurn(
     text=(
         "I'm so sorry for your loss. Before we go on, I want to say plainly: if this loss is weighing on you now, "
         "you don't have to carry it alone. A person you trust, a grief or crisis line, or emergency services where "
-        "you are can help. When you're ready, you can still ask what this tradition believed, and it will answer "
-        "from what its own people wrote. Or we can stop here."
+        "you are can help. When you're ready, you can still ask your question, and the answer will come "
+        "from what the sources wrote. Or we can stop here."
     ),
 )
 
@@ -121,9 +121,8 @@ CHECK_IN_COERCION = FacilitatorTurn(
     kind="safety",
     text=(
         "Before we go on: what you're describing sounds like someone trying to control you. You don't owe "
-        "anyone obedience without question, and you can talk to someone outside it: a person you trust, a support "
-        "line, or emergency services if you're in danger. If you'd still like to ask how this tradition thought "
-        "about authority, you can."
+        "anyone obedience without question. You can talk to someone outside it: a person you trust, a support "
+        "line, or emergency services if you're in danger. If you'd still like to ask about authority, you can."
     ),
 )
 
