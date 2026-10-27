@@ -3,7 +3,7 @@
   "title": "Church in Conversation — World Atlas Census",
   "version": "V0.20+era10-frozen",
   "source": "Build/Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
-  "totalEntries": 298,
+  "totalEntries": 299,
   "liveCount": 11,
   "statusCounts": {
    "Built & Live": 11,
@@ -14,7 +14,7 @@
    "Contested - Evidentiary": 6,
    "Deferred by Step 0": 4,
    "Floor Question (register)": 28,
-   "Pre-Survey Candidate": 217,
+   "Pre-Survey Candidate": 218,
    "Label - Assessed Per Body (A3)": 2,
    "Outside Article 4 Scope": 1
   },
@@ -7984,6 +7984,45 @@
      ]
     }
    ]
+  },
+  {
+   "id": "church-of-the-east-under-the-abbasids",
+   "atlasId": "III.25",
+   "era": 4,
+   "name": "The Church of the East under the Abbasids",
+   "shortName": "Abbasid East Syriac",
+   "informalName": "The Abbasid-Era Church of the East",
+   "dates": "c. 845-1220",
+   "start": 845,
+   "end": 1220,
+   "region": "Mesopotamia",
+   "regions": [
+    "Greater Asia",
+    "Middle East"
+   ],
+   "lane": "1 Syriac East & Asia",
+   "laneLabel": "Syriac East & Asia",
+   "laneOrder": 1,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Added for the Library, not yet researched",
+   "statusDescription": "Not yet researched or tiered; added so that works in the Library have a place on the Atlas.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Thin so far: one work is vendored - the Chronicle of Seert, an anonymous Arabic compilation whose date scholars place between the 9th and 11th centuries.",
+   "floorNote": "",
+   "relationsSummary": "",
+   "why": "The Church of the East from the end of the Silk Road entry in 845 to the start of the Mongol entry in 1220.",
+   "entry": null,
+   "longDescription": "",
+   "teaser": "Mesopotamia, c. 845 to 1220.",
+   "voices": [],
+   "legacy": "",
+   "experienceToday": [],
+   "documentedStories": []
   },
   {
    "id": "melkite-arabic-christianity",
