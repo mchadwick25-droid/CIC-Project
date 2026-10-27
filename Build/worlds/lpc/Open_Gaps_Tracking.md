@@ -2292,3 +2292,5 @@ Logged 2026-10-27.
 - **Left.** Deep Interview turn 7 ("What if someone was dying before their penance was finished?") still reaches F5-I through a canon match on "dying" and "someone", and `lpc.limit.ordinary-interior-life` rides with it. That limit is assigned to F5-I only; whether it belongs on other cells is a record-scope question for the `lpc` build thread, not a scoring fault.
 - **Not proved.** Whether the live replies now read right; that needs the capped live retest the project lead names.
 - **Owner.** The `lpc` build thread for the limit's scope; the project lead for the retest.
+
+- **Update to OG-97, 2026-10-27.** Cleared: all 420 source findings (`kind` and `citation` on 210 records). Waived with the project lead's command as approval, deadline 2026-12-14: `retrieval-negatives-structured` 47, `readability` 13, `horizon` 2, `cells-required` 2, `voice-perspective` 2, `reciprocity` 1; and `shelf-row` 64 (deadline 2027-03-15, the corpus-map CM-1 gap every world carries). State is `built`. The waivers are the remaining work; deleting each waiver is what fixed means.
