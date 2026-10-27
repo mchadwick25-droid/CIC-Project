@@ -1,6 +1,6 @@
 # Handoff — lpc build, Phases L2 and L3 — 2026-10-26
 
-From session: https://claude.ai/code/session_01PdSKYEGnPNVAntVFg5ZReR · World or workstream: `lpc` (Latin Pastoral-Congregational Christianity, c. 246–430) · Branch / PR: `claude/lpc-use-notes-2026-10-25`, https://github.com/mchadwick25-droid/CIC-Project/pull/1145
+From session: https://claude.ai/code/session_01PdSKYEGnPNVAntVFg5ZReR · World or workstream: `lpc` (Latin Pastoral-Congregational Christianity, c. 246–430) · Branch / PR: work continues on `claude/lpc-next-session-2026-10-26` (pushed, no PR yet); the last PR, https://github.com/mchadwick25-droid/CIC-Project/pull/1145, is merged
 
 Stopped at Mark's word (relayed 2026-10-26): usage is now a hard constraint. No batch was left half done.
 
@@ -21,7 +21,8 @@ Stopped at Mark's word (relayed 2026-10-26): usage is now a hard constraint. No 
 
 ## 2. Not done
 
-- **PR #1145 merge.** CI was running at stop. Merge when green.
+- **Full-disclosure records** (Mark's ruling, `lpc_Decision_Log.md`, 2026-10-26; OG-82): records on hell, judgment, the dead, infants and suicide. Sources include *Enchiridion* 69–70, 83 and 110, *City of God* I.17, Cyprian to Fidus on infants, and Monica's request. Suicide stays Facilitator-governed. Not started.
+- **`use_note.means` readability (OG-83).** Mark chose option 1: grade new and edited notes, and waive the existing failures as one ACCEPTED_OPEN entry. The ruling is in the System Hub Decision Log, 2026-10-26. The engine change is not built yet; it is a fleet item. lpc's notes already pass.
 - **Commentary-by-passage batch** (Mark's ruling, `lpc_Decision_Log.md`, 2026-10-26). About 12 to 15 passages from the *Expositions on the Psalms*, the *Tractates on John*, the *Ten Homilies on 1 John* and *The Sermon on the Mount*. Each record names its Bible passage in `retrieve_when`. Not started.
 - **OG-73 items.**
   - Story `telling` fields for the seven stories.
@@ -46,14 +47,12 @@ Stopped at Mark's word (relayed 2026-10-26): usage is now a hard constraint. No 
 
 ## 4. Waiting on Mark
 
-- **UN-22 (OG-80).** `use_note.means` reaches the voice but is not readability-graded. The don and rzg notes fail the bar almost throughout. This is a fleet engine decision.
 - **Validation.** The live-test name and metered cap, once the package is pinned.
-- **Topics with no record** (OG-81): hell, judgment, the dead, infants, suicide. Suicide is Facilitator-governed. Whether lpc adds records for these is open.
 - **A passage index** (OG-81). It is a fleet engine work item, not lpc's.
 
 ## 5. Next step
 
-Merge https://github.com/mchadwick25-droid/CIC-Project/pull/1145 when CI is green. Then, in a fresh session, start the commentary-by-passage batch on a new branch off `main`, using the sermon-batch method in `wb_lpc_s24.py`, `s25.py`, `s2y` and `s2u`.
+In a fresh session, check out `claude/lpc-next-session-2026-10-26` and start the commentary-by-passage batch. Use the sermon-batch method in `wb_lpc_s24.py`, `s25.py`, `s2y` and `s2u`; each new quote also needs a use note in s2u. Then do the full-disclosure records on the same branch, and open one PR for both.
 
 ## 6. Spend
 

@@ -3,7 +3,7 @@ id: lpc.demo.who-is-jesus-to-us
 world_id: latin-pastoral-congregational-christianity
 record_type: demonstration
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-P

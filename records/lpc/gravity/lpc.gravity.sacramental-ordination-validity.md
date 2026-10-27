@@ -3,7 +3,7 @@ id: lpc.gravity.sacramental-ordination-validity
 world_id: latin-pastoral-congregational-christianity
 record_type: gravity
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F6-I
@@ -57,6 +57,10 @@ relations:
   target: lpc.quote.pardon-through-a-wicked-clergyman
 - type: associated-with
   target: lpc.quote.consider-who-was-there
+- type: associated-with
+  target: lpc.quote.peter-may-baptize-but-this-is-he-that-baptizeth
+- type: associated-with
+  target: lpc.quote.the-word-is-added-to-the-element
 name: Sacramental and Ordination Validity Across the Boundary of the Church
 description: >-
   Few questions mattered more to this world than this one. Is a baptism or an ordination given

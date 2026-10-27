@@ -1,0 +1,562 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:d614a1ee8d0b12fad56ca7dd7d6d11a83eeb28b7a9f71eeec4e43af648d2f9e6",
+  "package": "packages/lpc/2026-10-26T18-33-28Z",
+  "live_test": {
+    "name": "lpc full validation, 27 October",
+    "cap_usd": 0.3,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.028241
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 1798,
+      "output_tokens": 112,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 2093,
+      "output_tokens": 182,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 3143,
+      "output_tokens": 256,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 23478
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "What did Augustine mean by \"love, and do what you will\"?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "A father may beat his son out of love; a boy-stealer may caress a boy to lure him. The father wounds in order to heal. The boy-stealer caresses in order to ruin. The outward acts run opposite to what we expect. The caress looks gentle, and the beating harsh. But the love in the father makes his beating a different deed from what the boy-stealer's caressing is. That is what Augustine meant. The root is love, and once love is the root, the deed is judged by that root. These are his own words, from a sermon he preached on the First Epistle of John. He was not licensing any deed a person might want, only because they call it love. He was teaching that love is the ground on which every other rule stands, not a word used to dismiss the rest.",
+          "citations": [
+            {
+              "sentence": "These are his own words, from a sermon he preached on the First Epistle of John.",
+              "record_ids": [
+                "lpc.term.preaching"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.preaching",
+                  "record_type": "term",
+                  "label": "preaching",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                      "author": "Augustine of Hippo",
+                      "work": "Sermons on Selected Lessons of the New Testament (~97 sermons, ~308,000 words). Completeness qualifier: this is the vendored 19th-century NPNF sermon body, not the full modern corpus -- the 1990 Dolbeau/Mainz find added 26 further sermons (published 1996; row 50), not represented here",
+                      "locus": "the Sermons, roughly 97 sermons, about 308,000 words; Sermon I.1 -- 'I am not speaking to hearts that are deaf, and to minds that will disdain the word, but this your longing expectation is a prayer for me'",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. VI, vendored as cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
+                      "author": "Augustine of Hippo",
+                      "work": "Tractates on the Gospel of John (124 tractates, ~412,000 words), Ten Homilies on the First Epistle of John, Our Lord's Sermon on the Mount, The Harmony of the Gospels",
+                      "locus": "the Tractates on John, exegetical preaching",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vols. VI and VII, vendored as cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml and cic/texts/npnf107_augustine-homilies-john-soliloquies.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "author": "Cyprian of Carthage",
+                      "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
+                      "locus": "Cyprian's own pastoral treatises, several originally preached or read to the Carthaginian church",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 376,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV, independently re-located this session; Doc_01 SS2); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII; Doc_01 SS2); died 430, during the Vandal siege of Hippo (lpc.story.the-psalms-on-the-wall)"
+              },
+              "sourced_by": []
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_means",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+              "lpc.witness.the-pattern-we-are-modelled-on"
+            ],
+            "term": [
+              "lpc.term.preaching"
+            ],
+            "story": [
+              "lpc.story.numidicus"
+            ],
+            "quote": [
+              "lpc.quote.love-and-do-what-thou-wilt",
+              "lpc.quote.dash-the-little-ones-against-the-rock",
+              "lpc.quote.the-wretched-woman-and-mercy",
+              "lpc.quote.the-old-man-nailed-to-the-cross-speaks"
+            ],
+            "gravity": [
+              "lpc.gravity.preaching-and-catechesis",
+              "lpc.gravity.grace-and-human-incapacity"
+            ],
+            "contested_claim": [
+              "lpc.contested.grace-pelagius-characterization"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "A father may beat his son out of love; a boy-stealer may caress a boy to lure him.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "A father may beat his son out of love; a boy-stealer may caress a boy to lure him."
+              },
+              {
+                "sentence": "The father wounds in order to heal.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The father wounds in order to heal."
+              },
+              {
+                "sentence": "The boy-stealer caresses in order to ruin.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The boy-stealer caresses in order to ruin."
+              },
+              {
+                "sentence": "The outward acts run opposite to what we expect.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The outward acts run opposite to what we expect."
+              },
+              {
+                "sentence": "The caress looks gentle, and the beating harsh.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The caress looks gentle, and the beating harsh."
+              },
+              {
+                "sentence": "But the love in the father makes his beating a different deed from what the boy-stealer's caressing is.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "But the love in the father makes his beating a different deed from what the boy-stealer's caressing is."
+              },
+              {
+                "sentence": "That is what Augustine meant.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['augustine']) with no citation tag",
+                "draft": "That is what Augustine meant."
+              },
+              {
+                "sentence": "The root is love, and once love is the root, the deed is judged by that root.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The root is love, and once love is the root, the deed is judged by that root."
+              },
+              {
+                "sentence": "These are his own words, from a sermon he preached on the First Epistle of John.",
+                "tags": [
+                  "lpc.term.preaching"
+                ],
+                "verdict": "ok",
+                "why": "grounded 67% in own tagged records",
+                "ratio": 0.67,
+                "draft": "These are his own words, from a sermon he preached on the First Epistle of John [[lpc.term.preaching]]."
+              },
+              {
+                "sentence": "He was not licensing any deed a person might want, only because they call it love.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "He was not licensing any deed a person might want, only because they call it love."
+              },
+              {
+                "sentence": "He was teaching that love is the ground on which every other rule stands, not a word used to dismiss the rest.",
+                "tags": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "verdict": "withhold",
+                "why": "tagged claim sharing no content word with its own tagged records",
+                "draft": "He was teaching that love is the ground on which every other rule stands, not a word used to dismiss the rest [[lpc.witness.the-pattern-we-are-modelled-on]]."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 11,
+                "cited_record_ids": [
+                  "lpc.term.preaching",
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "A father may beat his son out of love; a boy-stealer may caress a boy to lure him.",
+                    "tags": [
+                      "lpc.term.preaching",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "1": {
+                    "sentence": "The father wounds in order to heal.",
+                    "tags": [
+                      "lpc.term.preaching",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "2": {
+                    "sentence": "The boy-stealer caresses in order to ruin.",
+                    "tags": [
+                      "lpc.term.preaching",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "3": {
+                    "sentence": "The outward acts run opposite to what we expect.",
+                    "tags": [
+                      "lpc.term.preaching",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "4": {
+                    "sentence": "The caress looks gentle, and the beating harsh.",
+                    "tags": [
+                      "lpc.term.preaching",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "5": {
+                    "sentence": "But the love in the father makes his beating a different deed from what the boy-stealer's caressing is.",
+                    "tags": [
+                      "lpc.term.preaching",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "6": {
+                    "sentence": "That is what Augustine meant.",
+                    "tags": [
+                      "lpc.term.preaching",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 100% in own tagged records",
+                    "ratio": 1.0
+                  },
+                  "7": {
+                    "sentence": "The root is love, and once love is the root, the deed is judged by that root.",
+                    "tags": [
+                      "lpc.term.preaching",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "9": {
+                    "sentence": "He was not licensing any deed a person might want, only because they call it love.",
+                    "tags": [
+                      "lpc.term.preaching",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [],
+              "removed": [
+                {
+                  "sentence": "For us, those words mean this: the root decides what a deed is, not only what the deed looks like.",
+                  "why": "tagged to a quote record that has not been placed",
+                  "draft": "For us, those words mean this: the root decides what a deed is, not only what the deed looks like [[lpc.quote.love-and-do-what-thou-wilt]]."
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 82
+              },
+              {
+                "index": 1,
+                "text_start": 83,
+                "text_end": 118
+              },
+              {
+                "index": 2,
+                "text_start": 119,
+                "text_end": 161
+              },
+              {
+                "index": 3,
+                "text_start": 162,
+                "text_end": 210
+              },
+              {
+                "index": 4,
+                "text_start": 211,
+                "text_end": 258
+              },
+              {
+                "index": 5,
+                "text_start": 259,
+                "text_end": 362
+              },
+              {
+                "index": 6,
+                "text_start": 363,
+                "text_end": 392
+              },
+              {
+                "index": 7,
+                "text_start": 393,
+                "text_end": 470
+              },
+              {
+                "index": 8,
+                "text_start": 471,
+                "text_end": 551
+              },
+              {
+                "index": 9,
+                "text_start": 552,
+                "text_end": 634
+              },
+              {
+                "index": 10,
+                "text_start": 635,
+                "text_end": 745
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 6,
+                "char_start": 13,
+                "char_end": 22,
+                "surface": "Augustine"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.term.preaching",
+                "record_type": "term",
+                "label": "preaching",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                    "author": "Augustine of Hippo",
+                    "work": "Sermons on Selected Lessons of the New Testament (~97 sermons, ~308,000 words). Completeness qualifier: this is the vendored 19th-century NPNF sermon body, not the full modern corpus -- the 1990 Dolbeau/Mainz find added 26 further sermons (published 1996; row 50), not represented here",
+                    "locus": "the Sermons, roughly 97 sermons, about 308,000 words; Sermon I.1 -- 'I am not speaking to hearts that are deaf, and to minds that will disdain the word, but this your longing expectation is a prayer for me'",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. VI, vendored as cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
+                    "author": "Augustine of Hippo",
+                    "work": "Tractates on the Gospel of John (124 tractates, ~412,000 words), Ten Homilies on the First Epistle of John, Our Lord's Sermon on the Mount, The Harmony of the Gospels",
+                    "locus": "the Tractates on John, exegetical preaching",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vols. VI and VII, vendored as cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml and cic/texts/npnf107_augustine-homilies-john-soliloquies.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "author": "Cyprian of Carthage",
+                    "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
+                    "locus": "Cyprian's own pastoral treatises, several originally preached or read to the Carthaginian church",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Down-tiered from Doc_03's own Tier 1 proposal, which rested on raw frequency (119 occurrences of 'preach' within the Sermons alone). Doc_05 SS5.2's own ecological finding is that this gravity functions as the medium the other gravities are taught and enforced through, not as an independently organizing force -- raw frequency measured the volume of the channel, not the weight of what it carries.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.term.preaching",
+                "record_type": "term",
+                "label": "preaching",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                    "author": "Augustine of Hippo",
+                    "work": "Sermons on Selected Lessons of the New Testament (~97 sermons, ~308,000 words). Completeness qualifier: this is the vendored 19th-century NPNF sermon body, not the full modern corpus -- the 1990 Dolbeau/Mainz find added 26 further sermons (published 1996; row 50), not represented here",
+                    "locus": "the Sermons, roughly 97 sermons, about 308,000 words; Sermon I.1 -- 'I am not speaking to hearts that are deaf, and to minds that will disdain the word, but this your longing expectation is a prayer for me'",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. VI, vendored as cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
+                    "author": "Augustine of Hippo",
+                    "work": "Tractates on the Gospel of John (124 tractates, ~412,000 words), Ten Homilies on the First Epistle of John, Our Lord's Sermon on the Mount, The Harmony of the Gospels",
+                    "locus": "the Tractates on John, exegetical preaching",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vols. VI and VII, vendored as cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml and cic/texts/npnf107_augustine-homilies-john-soliloquies.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "author": "Cyprian of Carthage",
+                    "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
+                    "locus": "Cyprian's own pastoral treatises, several originally preached or read to the Carthaginian church",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Down-tiered from Doc_03's own Tier 1 proposal, which rested on raw frequency (119 occurrences of 'preach' within the Sermons alone). Doc_05 SS5.2's own ecological finding is that this gravity functions as the medium the other gravities are taught and enforced through, not as an independently organizing force -- raw frequency measured the volume of the channel, not the weight of what it carries.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 2,
+              "sentence_indexes": [
+                6,
+                10
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [],
+            "removed": [
+              {
+                "sentence": "For us, those words mean this: the root decides what a deed is, not only what the deed looks like.",
+                "why": "tagged to a quote record that has not been placed",
+                "draft": "For us, those words mean this: the root decides what a deed is, not only what the deed looks like [[lpc.quote.love-and-do-what-thou-wilt]]."
+              }
+            ]
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

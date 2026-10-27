@@ -3,7 +3,7 @@ id: lpc.figure.augustine
 world_id: latin-pastoral-congregational-christianity
 record_type: figure
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-T

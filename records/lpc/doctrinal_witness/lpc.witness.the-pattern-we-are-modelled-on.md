@@ -3,7 +3,7 @@ id: lpc.witness.the-pattern-we-are-modelled-on
 world_id: latin-pastoral-congregational-christianity
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-I

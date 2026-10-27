@@ -1,0 +1,690 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:d614a1ee8d0b12fad56ca7dd7d6d11a83eeb28b7a9f71eeec4e43af648d2f9e6",
+  "package": "packages/lpc/2026-10-26T18-33-28Z",
+  "live_test": {
+    "name": "lpc full validation, 27 October",
+    "cap_usd": 0.3,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.027706
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 1802,
+      "output_tokens": 112,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 2097,
+      "output_tokens": 184,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 3225,
+      "output_tokens": 206,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 23478
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "What did Augustine say about Psalm 137, dashing the little ones against the rock?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "Augustine says the little ones of Babylon are bad desires at their birth, and we must dash them on the Rock, who is Christ: “How shall they repay her? As she has treated us. Let her little ones be choked in their turn. Yes, let her little ones in their turn be dashed, and die. What are the little ones of Babylon? Evil desires at their birth. For some people have to fight with old, deep-rooted cravings. When a craving is born, evil habit has not yet given it strength against you. While it is little, do not let it gain the strength of evil habit. While it is little, dash it. But you fear that, though dashed, it may not die. “Dash it against the Rock; and that Rock is Christ.””\n\nHe was teaching those being formed for baptism. He did not soften what the psalm said, and he did not leave it as a command to literal violence. He named Babylon as the confusion of this world, where bad desires are born in us. The little ones are those desires while they are still small, before they grow strong enough to master you. The Rock is Christ. To dash them against him is to bring those desires, while they are still weak, to the one who can kill them. That is what the psalm is telling you to do.",
+          "citations": [
+            {
+              "sentence": "Augustine says the little ones of Babylon are bad desires at their birth, and we must dash them on the Rock, who is Christ: “How shall they repay her? As she has treated us. Let her little ones be choked in their turn. Yes, let her little ones in their turn be dashed, and die. What are the little ones of Babylon? Evil desires at their birth. For some people have to fight with old, deep-rooted cravings. When a craving is born, evil habit has not yet given it strength against you. While it is little, do not let it gain the strength of evil habit. While it is little, dash it. But you fear that, though dashed, it may not die. “Dash it against the Rock; and that Rock is Christ.””",
+              "record_ids": [
+                "lpc.quote.dash-the-little-ones-against-the-rock"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.dash-the-little-ones-against-the-rock",
+                  "record_type": "quote",
+                  "label": "Expositions on the Book of Psalms, Exposition on Psalm 137 — Augustine, our bishop at Hippo",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-expositions-on-the-psalms",
+                      "author": "Augustine of Hippo",
+                      "work": "Expositions on the Book of Psalms (Enarrationes in Psalmos) (~695,000 words)",
+                      "locus": "Exposition on Psalm 137 (NPNF Psalm CXXXVII; Psalm 136 in the Vulgate and in PL 37), section 12 (section 21 in the PL text); English at cic/texts/npnf108_augustine-exposition-psalms.xml, lines 27121-27122; Latin at cic/texts/augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt, lines 126347-126369",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. VIII, vendored as cic/texts/npnf108_augustine-exposition-psalms.xml; the Latin original (Migne's 1861 printing of the Maurist text) is separately vendored as row 201"
+                    }
+                  ],
+                  "spoken_rendering": "How shall they repay her? As she has treated us. Let her little ones be choked in their turn. Yes, let her little ones in their turn be dashed, and die. What are the little ones of Babylon? Evil desires at their birth. For some people have to fight with old, deep-rooted cravings. When a craving is born, evil habit has not yet given it strength against you. While it is little, do not let it gain the strength of evil habit. While it is little, dash it. But you fear that, though dashed, it may not die. “Dash it against the Rock; and that Rock is Christ.”",
+                  "speaker": "Augustine, our bishop at Hippo"
+                }
+              ]
+            },
+            {
+              "sentence": "He was teaching those being formed for baptism.",
+              "record_ids": [
+                "lpc.term.catechesis"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.catechesis",
+                  "record_type": "term",
+                  "label": "catechesis",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                      "author": "Augustine of Hippo",
+                      "work": "On the Catechising of the Uninstructed",
+                      "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                      "author": "Augustine of Hippo",
+                      "work": "A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, Concerning Faith of Things Not Seen",
+                      "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "author": "Augustine of Hippo",
+                      "work": "Confessions",
+                      "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "author": "Cyprian of Carthage",
+                      "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
+                      "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "author": "Augustine of Hippo",
+                      "work": "The Enchiridion (On Faith, Hope, and Love)",
+                      "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml; the Latin original (Bruder's 1838 Maurist-text edition) is separately vendored as row 200"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "That is what the psalm is telling you to do.",
+              "record_ids": [
+                "lpc.witness.the-pattern-we-are-modelled-on"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                  "record_type": "doctrinal_witness",
+                  "label": "His death and rising are not facts we simply affirm and set aside",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "author": "Augustine of Hippo",
+                      "work": "The Enchiridion (On Faith, Hope, and Love)",
+                      "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml; the Latin original (Bruder's 1838 Maurist-text edition) is separately vendored as row 200"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 0,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV, independently re-located this session; Doc_01 SS2); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII; Doc_01 SS2); died 430, during the Vandal siege of Hippo (lpc.story.the-psalms-on-the-wall)"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-expositions-on-the-psalms",
+                  "author": "Augustine of Hippo",
+                  "work": "Expositions on the Book of Psalms (Enarrationes in Psalmos) (~695,000 words)",
+                  "locus": "Exposition on Psalm 137 (NPNF Psalm CXXXVII; Psalm 136 in the Vulgate and in PL 37), section 12 (section 21 in the PL text); English at cic/texts/npnf108_augustine-exposition-psalms.xml, lines 27121-27122; Latin at cic/texts/augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt, lines 126347-126369",
+                  "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                  "edition": "Nicene and Post-Nicene Fathers, Series I, vol. VIII, vendored as cic/texts/npnf108_augustine-exposition-psalms.xml; the Latin original (Migne's 1861 printing of the Maurist text) is separately vendored as row 201"
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_did",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.punishment-without-end",
+              "lpc.witness.the-pattern-we-are-modelled-on"
+            ],
+            "term": [
+              "lpc.term.preaching",
+              "lpc.term.catechesis"
+            ],
+            "story": [
+              "lpc.story.numidicus",
+              "lpc.story.the-psalms-on-the-wall",
+              "lpc.story.the-death-of-cyprian"
+            ],
+            "quote": [
+              "lpc.quote.dash-the-little-ones-against-the-rock",
+              "lpc.quote.the-creed-first-then-the-prayer",
+              "lpc.quote.the-old-man-nailed-to-the-cross-speaks",
+              "lpc.quote.the-wretched-woman-and-mercy"
+            ],
+            "force": [
+              "lpc.force.inherited-latin-theological-vocabulary",
+              "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+            ],
+            "contested_claim": [
+              "lpc.contested.grace-pelagius-characterization"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "Augustine says the little ones of Babylon are bad desires at their birth, and we must dash them on the Rock, who is Christ: “How shall they repay her? As she has treated us. Let her little ones be choked in their turn. Yes, let her little ones in their turn be dashed, and die. What are the little ones of Babylon? Evil desires at their birth. For some people have to fight with old, deep-rooted cravings. When a craving is born, evil habit has not yet given it strength against you. While it is little, do not let it gain the strength of evil habit. While it is little, dash it. But you fear that, though dashed, it may not die. “Dash it against the Rock; and that Rock is Christ.””",
+                "tags": [
+                  "lpc.quote.dash-the-little-ones-against-the-rock"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.dash-the-little-ones-against-the-rock",
+                "draft": "Augustine says the little ones of Babylon are bad desires at their birth, and we must dash them on the Rock, who is Christ [[quote:lpc.quote.dash-the-little-ones-against-the-rock]]"
+              },
+              {
+                "sentence": "He was teaching those being formed for baptism.",
+                "tags": [
+                  "lpc.term.catechesis"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "He was teaching those being formed for baptism [[lpc.term.catechesis]]."
+              },
+              {
+                "sentence": "He did not soften what the psalm said, and he did not leave it as a command to literal violence.",
+                "tags": [
+                  "lpc.term.preaching"
+                ],
+                "verdict": "withhold",
+                "why": "tagged claim sharing no content word with its own tagged records",
+                "draft": "He did not soften what the psalm said, and he did not leave it as a command to literal violence [[lpc.term.preaching]]."
+              },
+              {
+                "sentence": "He named Babylon as the confusion of this world, where bad desires are born in us.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['babylon']) with no citation tag",
+                "draft": "He named Babylon as the confusion of this world, where bad desires are born in us."
+              },
+              {
+                "sentence": "The little ones are those desires while they are still small, before they grow strong enough to master you.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The little ones are those desires while they are still small, before they grow strong enough to master you."
+              },
+              {
+                "sentence": "The Rock is Christ.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['rock']) with no citation tag",
+                "draft": "The Rock is Christ."
+              },
+              {
+                "sentence": "To dash them against him is to bring those desires, while they are still weak, to the one who can kill them.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "To dash them against him is to bring those desires, while they are still weak, to the one who can kill them."
+              },
+              {
+                "sentence": "That is what the psalm is telling you to do.",
+                "tags": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "That is what the psalm is telling you to do [[lpc.witness.the-pattern-we-are-modelled-on]]."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 1,
+                "cited_record_ids": [
+                  "lpc.quote.dash-the-little-ones-against-the-rock"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              },
+              {
+                "sentence_count": 7,
+                "cited_record_ids": [
+                  "lpc.term.catechesis",
+                  "lpc.term.preaching",
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "2": {
+                    "sentence": "He named Babylon as the confusion of this world, where bad desires are born in us.",
+                    "tags": [
+                      "lpc.term.catechesis",
+                      "lpc.term.preaching",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "withhold",
+                    "why": "specific claim (proper-noun:['babylon']) only 14% grounded in its own tags",
+                    "ratio": 0.14
+                  },
+                  "3": {
+                    "sentence": "The little ones are those desires while they are still small, before they grow strong enough to master you.",
+                    "tags": [
+                      "lpc.term.catechesis",
+                      "lpc.term.preaching",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "4": {
+                    "sentence": "The Rock is Christ.",
+                    "tags": [
+                      "lpc.term.catechesis",
+                      "lpc.term.preaching",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "withhold",
+                    "why": "specific claim (proper-noun:['rock']) only 0% grounded in its own tags",
+                    "ratio": 0.0
+                  },
+                  "5": {
+                    "sentence": "To dash them against him is to bring those desires, while they are still weak, to the one who can kill them.",
+                    "tags": [
+                      "lpc.term.catechesis",
+                      "lpc.term.preaching",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.dash-the-little-ones-against-the-rock"
+              ],
+              "removed": []
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 683
+              },
+              {
+                "index": 1,
+                "text_start": 685,
+                "text_end": 732
+              },
+              {
+                "index": 2,
+                "text_start": 733,
+                "text_end": 829
+              },
+              {
+                "index": 3,
+                "text_start": 830,
+                "text_end": 912
+              },
+              {
+                "index": 4,
+                "text_start": 913,
+                "text_end": 1020
+              },
+              {
+                "index": 5,
+                "text_start": 1021,
+                "text_end": 1040
+              },
+              {
+                "index": 6,
+                "text_start": 1041,
+                "text_end": 1149
+              },
+              {
+                "index": 7,
+                "text_start": 1150,
+                "text_end": 1194
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 0,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.quote.dash-the-little-ones-against-the-rock",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the NPNF English as printed. Augustine comments on the Latin Psalter, where Psalm 136 ends 'Blessed is he who shall hold and dash thy little ones against the rock'. 'Choked' renders offocentur, 'be smothered', and 'dashed' renders elidantur, 'be struck down'. The closing words echo 1 Corinthians 10:4, which the Latin cites.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 0,
+                "char_start": 124,
+                "char_end": 683,
+                "surface": "“How shall they repay her? As she has treated us. Let her little ones be choked in their turn. Yes, let her little ones in their turn be dashed, and die. What are the little ones of Babylon? Evil desires at their birth. For some people have to fight with old, deep-rooted cravings. When a craving is born, evil habit has not yet given it strength against you. While it is little, do not let it gain the strength of evil habit. While it is little, dash it. But you fear that, though dashed, it may not die. “Dash it against the Rock; and that Rock is Christ.””"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.quote.dash-the-little-ones-against-the-rock",
+                "record_type": "quote",
+                "label": "Expositions on the Book of Psalms, Exposition on Psalm 137 — Augustine, our bishop at Hippo",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-expositions-on-the-psalms",
+                    "author": "Augustine of Hippo",
+                    "work": "Expositions on the Book of Psalms (Enarrationes in Psalmos) (~695,000 words)",
+                    "locus": "Exposition on Psalm 137 (NPNF Psalm CXXXVII; Psalm 136 in the Vulgate and in PL 37), section 12 (section 21 in the PL text); English at cic/texts/npnf108_augustine-exposition-psalms.xml, lines 27121-27122; Latin at cic/texts/augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt, lines 126347-126369",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. VIII, vendored as cic/texts/npnf108_augustine-exposition-psalms.xml; the Latin original (Migne's 1861 printing of the Maurist text) is separately vendored as row 201"
+                  }
+                ],
+                "spoken_rendering": "How shall they repay her? As she has treated us. Let her little ones be choked in their turn. Yes, let her little ones in their turn be dashed, and die. What are the little ones of Babylon? Evil desires at their birth. For some people have to fight with old, deep-rooted cravings. When a craving is born, evil habit has not yet given it strength against you. While it is little, do not let it gain the strength of evil habit. While it is little, dash it. But you fear that, though dashed, it may not die. “Dash it against the Rock; and that Rock is Christ.”",
+                "speaker": "Augustine, our bishop at Hippo",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the NPNF English as printed. Augustine comments on the Latin Psalter, where Psalm 136 ends 'Blessed is he who shall hold and dash thy little ones against the rock'. 'Choked' renders offocentur, 'be smothered', and 'dashed' renders elidantur, 'be struck down'. The closing words echo 1 Corinthians 10:4, which the Latin cites.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.term.catechesis",
+                "record_type": "term",
+                "label": "catechesis",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                    "author": "Augustine of Hippo",
+                    "work": "On the Catechising of the Uninstructed",
+                    "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                    "author": "Augustine of Hippo",
+                    "work": "A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, Concerning Faith of Things Not Seen",
+                    "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "author": "Augustine of Hippo",
+                    "work": "Confessions",
+                    "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "author": "Cyprian of Carthage",
+                    "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
+                    "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "author": "Augustine of Hippo",
+                    "work": "The Enchiridion (On Faith, Hope, and Love)",
+                    "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml; the Latin original (Bruder's 1838 Maurist-text edition) is separately vendored as row 200"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Attested through dedicated treatises rather than raw recurrence of a headword -- a different, but not weaker, kind of ground: a manual written to instruct instructors is stronger evidence of a practice's own centrality than word-frequency alone would be. Down-tiered from Doc_03's own Tier 1 proposal alongside preaching, on the same Doc_05 SS5.2 medium-not-force finding.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                "record_type": "doctrinal_witness",
+                "label": "His death and rising are not facts we simply affirm and set aside",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "author": "Augustine of Hippo",
+                    "work": "The Enchiridion (On Faith, Hope, and Love)",
+                    "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml; the Latin original (Bruder's 1838 Maurist-text edition) is separately vendored as row 200"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.term.catechesis",
+                "record_type": "term",
+                "label": "catechesis",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-on-the-catechising-of-the-uninstructed",
+                    "author": "Augustine of Hippo",
+                    "work": "On the Catechising of the Uninstructed",
+                    "locus": "On the Catechising of the Uninstructed, a manual for the practice itself, not merely an instance of it",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-creedal-catechetical-works",
+                    "author": "Augustine of Hippo",
+                    "work": "A Treatise on Faith and the Creed, On the Creed: A Sermon to Catechumens, Concerning Faith of Things Not Seen",
+                    "locus": "the creedal works, teaching catechumens the baptismal creed directly",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "author": "Augustine of Hippo",
+                    "work": "Confessions",
+                    "locus": "the Confessions, narrating a catechumenate and baptism from the inside",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "author": "Cyprian of Carthage",
+                    "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
+                    "locus": "On the Lord's Prayer, catechetical exposition of the church's own set prayer",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "author": "Augustine of Hippo",
+                    "work": "The Enchiridion (On Faith, Hope, and Love)",
+                    "locus": "Chapter 52, baptism reaching \"not adults only, but infants as well\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml; the Latin original (Bruder's 1838 Maurist-text edition) is separately vendored as row 200"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Attested through dedicated treatises rather than raw recurrence of a headword -- a different, but not weaker, kind of ground: a manual written to instruct instructors is stronger evidence of a practice's own centrality than word-frequency alone would be. Down-tiered from Doc_03's own Tier 1 proposal alongside preaching, on the same Doc_05 SS5.2 medium-not-force finding.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                "record_type": "doctrinal_witness",
+                "label": "His death and rising are not facts we simply affirm and set aside",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "author": "Augustine of Hippo",
+                    "work": "The Enchiridion (On Faith, Hope, and Love)",
+                    "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml; the Latin original (Bruder's 1838 Maurist-text edition) is separately vendored as row 200"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 3,
+              "sentence_indexes": [
+                2,
+                3,
+                5
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.dash-the-little-ones-against-the-rock"
+            ],
+            "removed": []
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

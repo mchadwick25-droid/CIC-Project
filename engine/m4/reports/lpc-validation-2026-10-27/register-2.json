@@ -1,0 +1,1206 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:d614a1ee8d0b12fad56ca7dd7d6d11a83eeb28b7a9f71eeec4e43af648d2f9e6",
+  "package": "packages/lpc/2026-10-26T18-33-28Z",
+  "live_test": {
+    "name": "lpc full validation, 27 October",
+    "cap_usd": 0.3,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.02973
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 1794,
+      "output_tokens": 112,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 2089,
+      "output_tokens": 236,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 2947,
+      "output_tokens": 368,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 23478
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "What happened to people who gave in during the persecution?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "They were not cast out, and the road back was real. Some sacrificed at the altar; others paid for a certificate saying they had. Both fell, and both were ours. They sat where we sit, and now they wanted to come home. Cyprian told us that when the flock is wounded, the shepherd carries that wound himself. The demand had reached each person alone, and it sorted us into those who stood and those who did not. Both groups still belonged.\n\nWhat happened to them in practice depended on what they did next. One man, Numidicus, had watched his own wife burn for the faith and was dragged to the fire himself. His daughter searched for his body and found him still alive. Cyprian brought him into the presbyters of Carthage. That is a confessor who stood. For those who gave way, there was a road, and it was walked in the open, under the bishop's own hand. It was not granted on request, and it was not settled in private. The same people who watched the failure received the person back.",
+          "citations": [
+            {
+              "sentence": "They were not cast out, and the road back was real.",
+              "record_ids": [
+                "lpc.term.the-lapsed",
+                "lpc.force.decian-persecution-libelli-system"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.the-lapsed",
+                  "record_type": "term",
+                  "label": "the lapsed",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "author": "Cyprian of Carthage",
+                      "work": "On the Lapsed (De Lapsis)",
+                      "locus": "De Lapsis, the founding document of the controversy, directly quoted throughout",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "the Epistles' own lapsed-crisis correspondence, including Epistles XX-XXI, two lay confessors' own first-person voices",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    }
+                  ]
+                },
+                {
+                  "record_id": "lpc.force.decian-persecution-libelli-system",
+                  "record_type": "force",
+                  "label": "The Decian Persecution and the *libelli* System (250)",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "author": "Cyprian of Carthage",
+                      "work": "On the Lapsed (De Lapsis)",
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.tertullian-de-pudicitia",
+                      "author": "Tertullian",
+                      "work": "On Modesty (De Pudicitia), chapter XXII, Of Martyrs, and Their Intercession on Behalf of Scandalous Offenders",
+                      "locus": "On Modesty (De Pudicitia) XXII, adulterers and fornicators who seek peace from imprisoned martyrs; cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 9554-9566",
+                      "rights_status": "public-domain; vendored in cic/texts/, and chapter XXII, the one passage this world cites, was directly read in the vendored translation. Registry row 29 is Excluded and licenses nothing from Tertullian.",
+                      "edition": "Ante-Nicene Fathers vol. IV, translated by the Rev. S. Thelwall, vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml; On Modesty runs from line 7125 and chapter XXII is lines 9550-9659"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Some sacrificed at the altar; others paid for a certificate saying they had.",
+              "record_ids": [
+                "lpc.term.the-lapsed"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.the-lapsed",
+                  "record_type": "term",
+                  "label": "the lapsed",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "author": "Cyprian of Carthage",
+                      "work": "On the Lapsed (De Lapsis)",
+                      "locus": "De Lapsis, the founding document of the controversy, directly quoted throughout",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "the Epistles' own lapsed-crisis correspondence, including Epistles XX-XXI, two lay confessors' own first-person voices",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Both fell, and both were ours.",
+              "record_ids": [
+                "lpc.term.the-lapsed"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.the-lapsed",
+                  "record_type": "term",
+                  "label": "the lapsed",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "author": "Cyprian of Carthage",
+                      "work": "On the Lapsed (De Lapsis)",
+                      "locus": "De Lapsis, the founding document of the controversy, directly quoted throughout",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "the Epistles' own lapsed-crisis correspondence, including Epistles XX-XXI, two lay confessors' own first-person voices",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "They sat where we sit, and now they wanted to come home.",
+              "record_ids": [
+                "lpc.term.the-lapsed"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.the-lapsed",
+                  "record_type": "term",
+                  "label": "the lapsed",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "author": "Cyprian of Carthage",
+                      "work": "On the Lapsed (De Lapsis)",
+                      "locus": "De Lapsis, the founding document of the controversy, directly quoted throughout",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "the Epistles' own lapsed-crisis correspondence, including Epistles XX-XXI, two lay confessors' own first-person voices",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Cyprian told us that when the flock is wounded, the shepherd carries that wound himself.",
+              "record_ids": [
+                "lpc.force.decian-persecution-libelli-system"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.force.decian-persecution-libelli-system",
+                  "record_type": "force",
+                  "label": "The Decian Persecution and the *libelli* System (250)",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "author": "Cyprian of Carthage",
+                      "work": "On the Lapsed (De Lapsis)",
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.tertullian-de-pudicitia",
+                      "author": "Tertullian",
+                      "work": "On Modesty (De Pudicitia), chapter XXII, Of Martyrs, and Their Intercession on Behalf of Scandalous Offenders",
+                      "locus": "On Modesty (De Pudicitia) XXII, adulterers and fornicators who seek peace from imprisoned martyrs; cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 9554-9566",
+                      "rights_status": "public-domain; vendored in cic/texts/, and chapter XXII, the one passage this world cites, was directly read in the vendored translation. Registry row 29 is Excluded and licenses nothing from Tertullian.",
+                      "edition": "Ante-Nicene Fathers vol. IV, translated by the Rev. S. Thelwall, vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml; On Modesty runs from line 7125 and chapter XXII is lines 9550-9659"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The demand had reached each person alone, and it sorted us into those who stood and those who did not.",
+              "record_ids": [
+                "lpc.force.decian-persecution-libelli-system"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.force.decian-persecution-libelli-system",
+                  "record_type": "force",
+                  "label": "The Decian Persecution and the *libelli* System (250)",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "author": "Cyprian of Carthage",
+                      "work": "On the Lapsed (De Lapsis)",
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.tertullian-de-pudicitia",
+                      "author": "Tertullian",
+                      "work": "On Modesty (De Pudicitia), chapter XXII, Of Martyrs, and Their Intercession on Behalf of Scandalous Offenders",
+                      "locus": "On Modesty (De Pudicitia) XXII, adulterers and fornicators who seek peace from imprisoned martyrs; cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 9554-9566",
+                      "rights_status": "public-domain; vendored in cic/texts/, and chapter XXII, the one passage this world cites, was directly read in the vendored translation. Registry row 29 is Excluded and licenses nothing from Tertullian.",
+                      "edition": "Ante-Nicene Fathers vol. IV, translated by the Rev. S. Thelwall, vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml; On Modesty runs from line 7125 and chapter XXII is lines 9550-9659"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Both groups still belonged.",
+              "record_ids": [
+                "lpc.force.decian-persecution-libelli-system"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.force.decian-persecution-libelli-system",
+                  "record_type": "force",
+                  "label": "The Decian Persecution and the *libelli* System (250)",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "author": "Cyprian of Carthage",
+                      "work": "On the Lapsed (De Lapsis)",
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.tertullian-de-pudicitia",
+                      "author": "Tertullian",
+                      "work": "On Modesty (De Pudicitia), chapter XXII, Of Martyrs, and Their Intercession on Behalf of Scandalous Offenders",
+                      "locus": "On Modesty (De Pudicitia) XXII, adulterers and fornicators who seek peace from imprisoned martyrs; cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 9554-9566",
+                      "rights_status": "public-domain; vendored in cic/texts/, and chapter XXII, the one passage this world cites, was directly read in the vendored translation. Registry row 29 is Excluded and licenses nothing from Tertullian.",
+                      "edition": "Ante-Nicene Fathers vol. IV, translated by the Rev. S. Thelwall, vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml; On Modesty runs from line 7125 and chapter XXII is lines 9550-9659"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "One man, Numidicus, had watched his own wife burn for the faith and was dragged to the fire himself.",
+              "record_ids": [
+                "lpc.story.numidicus"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.story.numidicus",
+                  "record_type": "story",
+                  "label": "How our bishop added to our presbyters a confessor who had not wanted to survive",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "Ep. XXXIV; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 32095-32115",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "His daughter searched for his body and found him still alive.",
+              "record_ids": [
+                "lpc.story.numidicus"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.story.numidicus",
+                  "record_type": "story",
+                  "label": "How our bishop added to our presbyters a confessor who had not wanted to survive",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "Ep. XXXIV; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 32095-32115",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Cyprian brought him into the presbyters of Carthage.",
+              "record_ids": [
+                "lpc.story.numidicus"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.story.numidicus",
+                  "record_type": "story",
+                  "label": "How our bishop added to our presbyters a confessor who had not wanted to survive",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "Ep. XXXIV; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 32095-32115",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.certificates-letters-of-peace",
+              "matched_name": "certificate",
+              "text_start": 100,
+              "plain_meaning": "A certificate is a letter from a confessor, given to a lapsed person. It asks for peace, or says peace is granted. Cyprian wanted each one to name the person. Some named one person and then let in his own people too, without naming them.",
+              "quick_meaning": "For us, a certificate is a confessor's letter for a lapsed person. It asks for peace, or grants it. Who decides is what we argued over.",
+              "translational_sense": "A modern listener who has just heard about the sacrifice-certificate will assume this is the same document, or a version of it, and will tend to hear 'letter of peace' as a devotional gesture. We mean the opposite document, travelling the opposite way: the sacrifice-certificate proves compliance with the empire and made a person lapsed; this certificate asks peace for that person, or says it is granted. It is administratively real -- issued in thousands, argued over by name, and regulated in writing.",
+              "false_friend": [
+                "the same document as the Decian sacrifice-certificate, rather than the opposite one -- a request to be readmitted, not a record of prior compliance",
+                "a devotional or ceremonial gesture rather than an administratively real, regulated instrument issued in the thousands"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-de-lapsis",
+                  "author": "Cyprian of Carthage",
+                  "work": "On the Lapsed (De Lapsis)",
+                  "locus": "De Lapsis, the founding document of the controversy, directly quoted throughout",
+                  "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                },
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "author": "Cyprian of Carthage",
+                  "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                  "locus": "the Epistles' own lapsed-crisis correspondence, including Epistles XX-XXI, two lay confessors' own first-person voices",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                }
+              ]
+            },
+            {
+              "id": "lpc.term.the-flock",
+              "matched_name": "the flock",
+              "text_start": 243,
+              "plain_meaning": "A bishop, for us, is not an officer of some wider institution, dropped into a posting. He is given a people. He preaches to them and baptizes them, and when they fail it is not a problem he manages but a wound he carries. The charge runs both ways: he answers for his flock, and his flock can stand in front of his seat and refuse to leave until he hears them.",
+              "quick_meaning": "For us, the flock is not the church in general. It is the particular people one bishop is given, in one place. He answers for them, and they can hold him to it.",
+              "translational_sense": "A modern listener often hears 'flock' as soft and a little patronizing -- pious language for churchgoers, gentle on the pastor's side, passive on theirs, and 'bishop' as a regional administrator several removes from ordinary life. We do not mean either. The flock is a charge that can be lost, and its failure is reckoned to the one who holds it. Our people are not passive: they elect, they demand, and they can force a bishop's hand. And the bishop is not remote -- he is the man who preached to you himself and knows which of you did not come.",
+              "false_friend": [
+                "a soft, sentimental way of describing churchgoers, with a passive congregation and a gently benevolent pastor",
+                "a bishop understood as a remote regional administrator rather than the man who preaches to these people himself and knows who did not come"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "author": "Cyprian of Carthage",
+                  "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                },
+                {
+                  "source_id": "lpc.source.cyprian-de-lapsis",
+                  "author": "Cyprian of Carthage",
+                  "work": "On the Lapsed (De Lapsis)",
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                },
+                {
+                  "source_id": "lpc.source.tertullian-de-pudicitia",
+                  "author": "Tertullian",
+                  "work": "On Modesty (De Pudicitia), chapter XXII, Of Martyrs, and Their Intercession on Behalf of Scandalous Offenders",
+                  "locus": "On Modesty (De Pudicitia) XXII, adulterers and fornicators who seek peace from imprisoned martyrs; cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 9554-9566",
+                  "rights_status": "public-domain; vendored in cic/texts/, and chapter XXII, the one passage this world cites, was directly read in the vendored translation. Registry row 29 is Excluded and licenses nothing from Tertullian.",
+                  "edition": "Ante-Nicene Fathers vol. IV, translated by the Rev. S. Thelwall, vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml; On Modesty runs from line 7125 and chapter XXII is lines 9550-9659"
+                }
+              ]
+            },
+            {
+              "id": "lpc.term.confessor",
+              "matched_name": "confessor",
+              "text_start": 730,
+              "plain_meaning": "For us, a confessor is one who was interrogated for the Name, did not deny it, and lived. In Cyprian's time, that standing could rival a bishop's own authority.",
+              "quick_meaning": "For us, a confessor is someone who was asked to deny the faith, did not, and lived. In Cyprian's time, that standing could rival a bishop.",
+              "translational_sense": "A modern listener will almost certainly hear 'confessor' as a priest who hears confessions -- the later, Western, sacramental sense -- or a vague honorific for a saintly figure. We mean the opposite direction entirely: not one who hears confession, but one who made confession, under interrogation, at real risk, and survived. The word names what was done to us and what we did not say, and it carries a claim on the church's own decisions rather than an office within its ministry.",
+              "false_friend": [
+                "a priest whose office is to hear other people's confessions, the later, Western, sacramental sense of the word",
+                "a vague honorific for any saintly figure, with no specific claim on church authority attached"
+              ],
+              "sourced_by": []
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.cyprian",
+              "matched_name": "Cyprian",
+              "text_start": 217,
+              "names": [
+                {
+                  "name": "Cyprian, our bishop at Carthage",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague he taught us to love even our enemies. He was put to death under Valerian.",
+              "dates": {
+                "display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised (Doc_01 SS2; lpc.story.election-of-cyprian); banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258 (lpc.story.the-death-of-cyprian)"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "author": "Cyprian of Carthage",
+                  "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                },
+                {
+                  "source_id": "lpc.source.cyprian-de-lapsis",
+                  "author": "Cyprian of Carthage",
+                  "work": "On the Lapsed (De Lapsis)",
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                },
+                {
+                  "source_id": "lpc.source.tertullian-de-pudicitia",
+                  "author": "Tertullian",
+                  "work": "On Modesty (De Pudicitia), chapter XXII, Of Martyrs, and Their Intercession on Behalf of Scandalous Offenders",
+                  "locus": "On Modesty (De Pudicitia) XXII, adulterers and fornicators who seek peace from imprisoned martyrs; cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 9554-9566",
+                  "rights_status": "public-domain; vendored in cic/texts/, and chapter XXII, the one passage this world cites, was directly read in the vendored translation. Registry row 29 is Excluded and licenses nothing from Tertullian.",
+                  "edition": "Ante-Nicene Fathers vol. IV, translated by the Rev. S. Thelwall, vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml; On Modesty runs from line 7125 and chapter XXII is lines 9550-9659"
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.numidicus",
+              "matched_name": "Numidicus",
+              "text_start": 513,
+              "names": [
+                {
+                  "name": "Numidicus, our presbyter",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Numidicus of Carthage (fl. mid-3rd century)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "a man who watched his own wife die with those he had exhorted to martyrdom, was himself left for dead, and did not want to have survived",
+              "dates": {
+                "display": "exhorted a group of Christians to martyrdom under persecution, among them his own wife, who died with them; himself left half-consumed by fire and overwhelmed with stones, found half dead by his own daughter and revived; added by Cyprian afterward to the presbyters of Carthage, though he had not wanted to survive (Cyprian, Ep. XXXIV; lpc.story.numidicus)"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "author": "Cyprian of Carthage",
+                  "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                  "locus": "Ep. XXXIV; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 32095-32115",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_happened",
+          "offered_ids": {
+            "honest_limit": [
+              "lpc.limit.no-chain-of-witnesses"
+            ],
+            "doctrinal_witness": [
+              "lpc.witness.no-salvation-outside-the-church",
+              "lpc.witness.the-pattern-we-are-modelled-on"
+            ],
+            "term": [
+              "lpc.term.the-lapsed"
+            ],
+            "story": [
+              "lpc.story.numidicus",
+              "lpc.story.the-death-of-cyprian",
+              "lpc.story.the-psalms-on-the-wall"
+            ],
+            "quote": [
+              "lpc.quote.chosen-while-still-a-neophyte",
+              "lpc.quote.the-paper-itself",
+              "lpc.quote.the-wretched-woman-and-mercy",
+              "lpc.quote.the-old-man-nailed-to-the-cross-speaks"
+            ],
+            "force": [
+              "lpc.force.decian-persecution-libelli-system"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "They were not cast out, and the road back was real.",
+                "tags": [
+                  "lpc.term.the-lapsed",
+                  "lpc.force.decian-persecution-libelli-system"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "They were not cast out, and the road back was real [[lpc.term.the-lapsed]] [[lpc.force.decian-persecution-libelli-system]]."
+              },
+              {
+                "sentence": "Some sacrificed at the altar; others paid for a certificate saying they had.",
+                "tags": [
+                  "lpc.term.the-lapsed"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Some sacrificed at the altar; others paid for a certificate saying they had [[lpc.term.the-lapsed]]."
+              },
+              {
+                "sentence": "Both fell, and both were ours.",
+                "tags": [
+                  "lpc.term.the-lapsed"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Both fell, and both were ours [[lpc.term.the-lapsed]]."
+              },
+              {
+                "sentence": "They sat where we sit, and now they wanted to come home.",
+                "tags": [
+                  "lpc.term.the-lapsed"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "They sat where we sit, and now they wanted to come home [[lpc.term.the-lapsed]]."
+              },
+              {
+                "sentence": "Cyprian told us that when the flock is wounded, the shepherd carries that wound himself.",
+                "tags": [
+                  "lpc.force.decian-persecution-libelli-system"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Cyprian told us that when the flock is wounded, the shepherd carries that wound himself [[lpc.force.decian-persecution-libelli-system]]."
+              },
+              {
+                "sentence": "The demand had reached each person alone, and it sorted us into those who stood and those who did not.",
+                "tags": [
+                  "lpc.force.decian-persecution-libelli-system"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "The demand had reached each person alone, and it sorted us into those who stood and those who did not [[lpc.force.decian-persecution-libelli-system]]."
+              },
+              {
+                "sentence": "Both groups still belonged.",
+                "tags": [
+                  "lpc.force.decian-persecution-libelli-system"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Both groups still belonged [[lpc.force.decian-persecution-libelli-system]]."
+              },
+              {
+                "sentence": "What happened to them in practice depended on what they did next.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "What happened to them in practice depended on what they did next."
+              },
+              {
+                "sentence": "One man, Numidicus, had watched his own wife burn for the faith and was dragged to the fire himself.",
+                "tags": [
+                  "lpc.story.numidicus"
+                ],
+                "verdict": "ok",
+                "why": "grounded 78% in own tagged records",
+                "ratio": 0.78,
+                "narrates_story": true,
+                "draft": "One man, Numidicus, had watched his own wife burn for the faith and was dragged to the fire himself [[lpc.story.numidicus]]."
+              },
+              {
+                "sentence": "His daughter searched for his body and found him still alive.",
+                "tags": [
+                  "lpc.story.numidicus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "narrates_story": true,
+                "draft": "His daughter searched for his body and found him still alive [[lpc.story.numidicus]]."
+              },
+              {
+                "sentence": "Cyprian brought him into the presbyters of Carthage.",
+                "tags": [
+                  "lpc.story.numidicus"
+                ],
+                "verdict": "ok",
+                "why": "grounded 75% in own tagged records",
+                "ratio": 0.75,
+                "narrates_story": true,
+                "draft": "Cyprian brought him into the presbyters of Carthage [[lpc.story.numidicus]]."
+              },
+              {
+                "sentence": "That is a confessor who stood.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (figure-name:['confessor']) with no citation tag",
+                "draft": "That is a confessor who stood."
+              },
+              {
+                "sentence": "For those who gave way, there was a road, and it was walked in the open, under the bishop's own hand.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (figure-name:[\"bishop's\"]) with no citation tag",
+                "draft": "For those who gave way, there was a road, and it was walked in the open, under the bishop's own hand."
+              },
+              {
+                "sentence": "It was not granted on request, and it was not settled in private.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "It was not granted on request, and it was not settled in private."
+              },
+              {
+                "sentence": "The same people who watched the failure received the person back.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The same people who watched the failure received the person back."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 7,
+                "cited_record_ids": [
+                  "lpc.force.decian-persecution-libelli-system",
+                  "lpc.term.the-lapsed"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              },
+              {
+                "sentence_count": 8,
+                "cited_record_ids": [
+                  "lpc.story.numidicus"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "What happened to them in practice depended on what they did next.",
+                    "tags": [
+                      "lpc.story.numidicus"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records",
+                    "narrates_story": true
+                  },
+                  "4": {
+                    "sentence": "That is a confessor who stood.",
+                    "tags": [
+                      "lpc.story.numidicus"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 50% in own tagged records",
+                    "ratio": 0.5,
+                    "narrates_story": true
+                  },
+                  "5": {
+                    "sentence": "For those who gave way, there was a road, and it was walked in the open, under the bishop's own hand.",
+                    "tags": [
+                      "lpc.story.numidicus"
+                    ],
+                    "verdict": "withhold",
+                    "why": "specific claim (figure-name:[\"bishop's\"]) only 14% grounded in its own tags",
+                    "ratio": 0.14
+                  },
+                  "6": {
+                    "sentence": "It was not granted on request, and it was not settled in private.",
+                    "tags": [
+                      "lpc.story.numidicus"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "7": {
+                    "sentence": "The same people who watched the failure received the person back.",
+                    "tags": [
+                      "lpc.story.numidicus"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records",
+                    "narrates_story": true
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [],
+              "removed": []
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 51
+              },
+              {
+                "index": 1,
+                "text_start": 52,
+                "text_end": 128
+              },
+              {
+                "index": 2,
+                "text_start": 129,
+                "text_end": 159
+              },
+              {
+                "index": 3,
+                "text_start": 160,
+                "text_end": 216
+              },
+              {
+                "index": 4,
+                "text_start": 217,
+                "text_end": 305
+              },
+              {
+                "index": 5,
+                "text_start": 306,
+                "text_end": 408
+              },
+              {
+                "index": 6,
+                "text_start": 409,
+                "text_end": 436
+              },
+              {
+                "index": 7,
+                "text_start": 438,
+                "text_end": 503
+              },
+              {
+                "index": 8,
+                "text_start": 504,
+                "text_end": 604
+              },
+              {
+                "index": 9,
+                "text_start": 605,
+                "text_end": 666
+              },
+              {
+                "index": 10,
+                "text_start": 667,
+                "text_end": 719
+              },
+              {
+                "index": 11,
+                "text_start": 720,
+                "text_end": 750
+              },
+              {
+                "index": 12,
+                "text_start": 751,
+                "text_end": 852
+              },
+              {
+                "index": 13,
+                "text_start": 853,
+                "text_end": 918
+              },
+              {
+                "index": 14,
+                "text_start": 919,
+                "text_end": 984
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.term.certificates-letters-of-peace",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The regulating voice is Cyprian's throughout, as with every entry in this cluster; the confessors' own certificates survive only in one general letter of theirs to Cyprian (Epistle XVI), which says 'we have granted peace' to all whose conduct has been satisfactory 'in your estimation'; the rest is Cyprian quoting, paraphrasing, and objecting to them (Author-Gravity-Risk: Yes). 'Thousands' is Cyprian's own word: Hartel's Latin of Epistle XX.2 reads 'libellorum milia', and the translation reads 'thousands of certificates were daily given, contrary to the law of the Gospel'. This record uses his wording.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 1,
+                "char_start": 48,
+                "char_end": 59,
+                "surface": "certificate"
+              },
+              {
+                "record_id": "lpc.figure.cyprian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 4,
+                "char_start": 0,
+                "char_end": 7,
+                "surface": "Cyprian"
+              },
+              {
+                "record_id": "lpc.term.the-flock",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The dense verbal evidence for this term is Cyprian's own; Augustine's use of the same image is real but far less frequent. Our claim that this is a cross-phase pattern rests on both bishops' own conduct of the office, not on matching word-counts in each phase (Author-Gravity-Risk: Yes, Lexicon_Deployment_Index.md SS6).",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 4,
+                "char_start": 26,
+                "char_end": 35,
+                "surface": "the flock"
+              },
+              {
+                "record_id": "lpc.figure.numidicus",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 8,
+                "char_start": 9,
+                "char_end": 18,
+                "surface": "Numidicus"
+              },
+              {
+                "record_id": "lpc.story.numidicus",
+                "record_type": "story",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "story",
+                "sentence_index": 10,
+                "char_start": 0,
+                "char_end": 52,
+                "surface": "Cyprian brought him into the presbyters of Carthage."
+              },
+              {
+                "record_id": "lpc.term.confessor",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The evidence base for this term is essentially one Registry row (the Epistles) read through one lexicon entry, disclosed at generation rather than discovered afterwards (Author-Gravity-Risk: Yes). A phase bound was established by a check, not assumed: a sweep of all eight vendored Augustine volumes returns twenty occurrences of the stem against roughly 150 in Cyprian's one volume, and none carries this sense -- this term belongs to Cyprian's phase and does not cross into Augustine's.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 11,
+                "char_start": 10,
+                "char_end": 19,
+                "surface": "confessor"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.term.the-lapsed",
+                "record_type": "term",
+                "label": "the lapsed",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "author": "Cyprian of Carthage",
+                    "work": "On the Lapsed (De Lapsis)",
+                    "locus": "De Lapsis, the founding document of the controversy, directly quoted throughout",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "author": "Cyprian of Carthage",
+                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                    "locus": "the Epistles' own lapsed-crisis correspondence, including Epistles XX-XXI, two lay confessors' own first-person voices",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "The regulating, disciplining voice throughout this crisis is Cyprian's own, as presiding bishop and as the party whose middle position ultimately prevailed. No lapsed believer's own account of undergoing the process survives anywhere in this corpus (Author-Gravity-Risk: Yes). The split between those who sacrificed and those who only bought the certificate is Cyprian's own (lpc.term.libellatici-sacrificati). This entry's account also rests on De Lapsis's refusal to let either group's failure be final.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.force.decian-persecution-libelli-system",
+                "record_type": "force",
+                "label": "The Decian Persecution and the *libelli* System (250)",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "author": "Cyprian of Carthage",
+                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "author": "Cyprian of Carthage",
+                    "work": "On the Lapsed (De Lapsis)",
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.tertullian-de-pudicitia",
+                    "author": "Tertullian",
+                    "work": "On Modesty (De Pudicitia), chapter XXII, Of Martyrs, and Their Intercession on Behalf of Scandalous Offenders",
+                    "locus": "On Modesty (De Pudicitia) XXII, adulterers and fornicators who seek peace from imprisoned martyrs; cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 9554-9566",
+                    "rights_status": "public-domain; vendored in cic/texts/, and chapter XXII, the one passage this world cites, was directly read in the vendored translation. Registry row 29 is Excluded and licenses nothing from Tertullian.",
+                    "edition": "Ante-Nicene Fathers vol. IV, translated by the Rev. S. Thelwall, vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml; On Modesty runs from line 7125 and chapter XXII is lines 9550-9659"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Doc_08 §3 Force 1A-1: Documented, attested across Doc_01's own founding-boundary reasoning and Doc_02 §1, corroborated by the crisis correspondence (Registry row 1, Confidence A) and De Lapsis (row 2, Confidence B); no divergence flagged for this force's own bare occurrence.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.story.numidicus",
+                "record_type": "story",
+                "label": "How our bishop added to our presbyters a confessor who had not wanted to survive",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "author": "Cyprian of Carthage",
+                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                    "locus": "Ep. XXXIV; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 32095-32115",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.term.the-lapsed",
+                "record_type": "term",
+                "label": "the lapsed",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "author": "Cyprian of Carthage",
+                    "work": "On the Lapsed (De Lapsis)",
+                    "locus": "De Lapsis, the founding document of the controversy, directly quoted throughout",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "author": "Cyprian of Carthage",
+                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                    "locus": "the Epistles' own lapsed-crisis correspondence, including Epistles XX-XXI, two lay confessors' own first-person voices",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "The regulating, disciplining voice throughout this crisis is Cyprian's own, as presiding bishop and as the party whose middle position ultimately prevailed. No lapsed believer's own account of undergoing the process survives anywhere in this corpus (Author-Gravity-Risk: Yes). The split between those who sacrificed and those who only bought the certificate is Cyprian's own (lpc.term.libellatici-sacrificati). This entry's account also rests on De Lapsis's refusal to let either group's failure be final.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.force.decian-persecution-libelli-system",
+                "record_type": "force",
+                "label": "The Decian Persecution and the *libelli* System (250)",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "author": "Cyprian of Carthage",
+                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "author": "Cyprian of Carthage",
+                    "work": "On the Lapsed (De Lapsis)",
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.tertullian-de-pudicitia",
+                    "author": "Tertullian",
+                    "work": "On Modesty (De Pudicitia), chapter XXII, Of Martyrs, and Their Intercession on Behalf of Scandalous Offenders",
+                    "locus": "On Modesty (De Pudicitia) XXII, adulterers and fornicators who seek peace from imprisoned martyrs; cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 9554-9566",
+                    "rights_status": "public-domain; vendored in cic/texts/, and chapter XXII, the one passage this world cites, was directly read in the vendored translation. Registry row 29 is Excluded and licenses nothing from Tertullian.",
+                    "edition": "Ante-Nicene Fathers vol. IV, translated by the Rev. S. Thelwall, vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml; On Modesty runs from line 7125 and chapter XXII is lines 9550-9659"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Doc_08 §3 Force 1A-1: Documented, attested across Doc_01's own founding-boundary reasoning and Doc_02 §1, corroborated by the crisis correspondence (Registry row 1, Confidence A) and De Lapsis (row 2, Confidence B); no divergence flagged for this force's own bare occurrence.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 2,
+              "sentence_indexes": [
+                11,
+                12
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [],
+            "removed": []
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

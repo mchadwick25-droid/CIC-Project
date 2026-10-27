@@ -10,6 +10,7 @@ import pytest
 from engine.api import wiring
 from engine.api.tests.conftest import FakeBedrockClient, reader_response, safety_response
 from engine.m2.compiler import compile_and_hash
+from engine.m1.registry import is_built
 from engine.m4 import facilitator_turns
 
 
@@ -546,7 +547,7 @@ def test_list_worlds_excludes_the_fixture_and_carries_the_doorway_fields(world_l
     worlds = wiring.list_worlds(world_loader=world_loader, registry=registry)
 
     assert "fix" not in {w["world_key"] for w in worlds}
-    assert {w["world_key"] for w in worlds} == {k for k, v in registry.items() if v.get("kind") == "formation" and v.get("package")}
+    assert {w["world_key"] for w in worlds} == {k for k, v in registry.items() if v.get("kind") == "formation" and v.get("package") and is_built(v)}
 
     pahc = next(w for w in worlds if w["world_key"] == "pahc")
     assert pahc["display_name"] == "Post-Apostolic Household-Church Christianity"
@@ -662,3 +663,12 @@ def test_a_message_nothing_could_read_is_never_handed_to_a_voice_on_a_later_roun
     assert [e["text"] for e in memory if e["speaker"] == "participant"] == ["what is prayer?", "and fasting?"]
     history, pending = table_history_for("desert", memory, {"participant": "You", "alx": "Alx"})
     assert "UNREAD" not in " ".join(m["content"] for m in history) + " ".join(pending)
+
+
+def test_a_world_still_building_is_neither_listed_nor_seated_with_enforcement_off(store, world_loader, registry):
+    # A package pinned for a world's own live tests does not make it built.
+    building = {**registry, "pahc": {**registry["pahc"], "state": "building"}}
+    worlds = wiring.list_worlds(world_loader=world_loader, registry=building, require_admitted=False)
+    assert "pahc" not in {w["world_key"] for w in worlds}
+    with pytest.raises(wiring.WorldNotAdmitted):
+        wiring.create_session(store=store, world_loader=world_loader, registry=building, world_key="pahc", require_admitted=False)

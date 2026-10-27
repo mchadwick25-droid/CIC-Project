@@ -24,6 +24,8 @@ D411 = (411, 411)
 D430 = (430, 430)
 B395 = (395, 430)
 E251 = (248, 251)
+D387 = (387, 387)
+P387 = (387, 430)
 
 QUOTES = {
 "lpc.quote.a-dreadful-plague-broke-out": (
@@ -36,11 +38,32 @@ QUOTES = {
     ["a claim about what the sum was worth in modern money",
      "a claim that the ransom freed anyone",
      "a claim about what share of the church's wealth the sum was"], C),
+"lpc.quote.a-respite-from-their-torments": (
+    "Augustine lets doubters suppose some relief for the damned, but says God's mercy does not end their punishment.",
+    ["a claim that Augustine taught the punishment ends",
+     "a claim that Augustine taught the relief as settled",
+     "a claim that the passage says how long any relief lasts"], A),
 "lpc.quote.a-standard-bearer-of-the-sect": (
     "Pontius reports a sentence calling Cyprian an enemy of the gods, with discipline to be made firm by his blood.",
     ["a claim that 'discipline' in the sentence means punishment rather than restored order",
      "a claim that Pontius and the Acta are independent witnesses to the wording of the sentence",
      "a claim about the details of the dream Pontius mentions earlier"], D258),
+"lpc.quote.all-sins-against-us-are-to-be-forgiven": (
+    "Augustine says you cannot truly pray for an enemy you have not pardoned, so we must "
+    "forgive all sins done to us.",
+    ["a claim that the passage speaks of money debts",
+     "a claim that it says an offender goes uncorrected",
+     "a claim that it describes penance or readmission to communion"], A),
+"lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life": (
+    "Augustine says the living can help the dead only if they earned it, since all merit is gained in this life.",
+    ["a claim that gifts can save someone who lived badly",
+     "a claim that the passage describes purgatory",
+     "a claim that the passage says how the dead are helped"], A),
+"lpc.quote.an-ever-burning-gehenna": (
+    "Cyprian told a pagan who persecuted us that the condemned face a fire with no respite and no end.",
+    ["a claim that the passage speaks of people who never heard of Christ",
+     "a claim that the passage names any person as lost",
+     "a claim that the sentences after it, on bodies kept in infinite tortures, are part of it"], C),
 "lpc.quote.ancient-venom-against-my-episcopate": (
     "Cyprian calls his rivals' anger old venom aimed at his office, which he ties to the people's voice and God's judgment.",
     ["a claim that the quarrel was only personal or only rhetorical exaggeration",
@@ -56,6 +79,12 @@ QUOTES = {
     ["a claim about the roles of Saturus, Bassianus or the others he greets",
      "a claim about what became of Lucian or his companions after the letter",
      "a claim that the letter is Cyprian's own"], C),
+"lpc.quote.believe-and-thou-hast-eaten-already": (
+    "Augustine says the Lord's food that lasts is faith in the one God sent, so to believe "
+    "is to have eaten already.",
+    ["a claim that the passage speaks of the Eucharist or of eating the flesh",
+     "a claim that it says works are unnecessary",
+     "a claim that it contains the sentences on glorying in the Lord, which come after it"], A),
 "lpc.quote.bind-him-justly": (
     "Augustine says to bind a wrongdoing brother only justly, and to count him loosed once he is corrected.",
     ["a claim that it describes formal public penance, excommunication or a bishop readmitting a penitent",
@@ -92,6 +121,19 @@ QUOTES = {
     ["a claim that the 'I' is Augustine baptizing or being baptized",
      "a claim that the Donatist's quoted words are Augustine's own position",
      "a claim that the sermons show a formal ordination or a dispute between bishops"], A),
+"lpc.quote.dash-the-little-ones-against-the-rock": (
+    "Augustine says the little ones of Babylon are bad desires at their birth, and we must "
+    "dash them on the Rock, who is Christ.",
+    ["a claim that Augustine says the verse has no literal sense",
+     "a claim that it tells what the Psalm meant to its first writer",
+     "a claim that a desire dies once it is dashed against the Rock"], A),
+"lpc.quote.david-himself-hath-been-sent-to-thee": (
+    "Augustine tells the sinner who fears to repent to hear David groan and weep, and to "
+    "repent with him.",
+    ["a claim that the passage describes a penitential rite or a bishop restoring a "
+     "penitent",
+     "a claim that it names the lapsed or any occasion for the exposition",
+     "a claim that it tells the story of David and Nathan"], A),
 "lpc.quote.earlier-councils-corrected-by-later": (
     "Augustine says a later, wider council can correct an earlier one, and Scripture stands above them all.",
     ["a claim naming which later council corrected which earlier one",
@@ -138,6 +180,26 @@ QUOTES = {
      "a claim that the persecutors themselves were helped",
      "a claim that 'aliens' means beings from elsewhere or that 'degenerate' means depraved",
      "a claim that the critical Latin text names strangers, which only older editions print"], C),
+"lpc.quote.judge-not-nor-despair-of-a-return": (
+    "Augustine says not to reprove what we cannot know the intent of, nor to reprove plain "
+    "faults as if the person could never change.",
+    ["a claim that the passage forbids judging what is plainly wrong",
+     "a claim that it contains the two examples of the man who would not fast and the "
+     "glutton",
+     "a claim that it describes a church court, excommunication or penance",
+     "a reason to stay near someone who is causing harm now"], A),
+"lpc.quote.left-doubtful-a-kind-of-purgatorial-fire": (
+    "Augustine says whether some believers pass through a fire after death may be found out or left doubtful.",
+    ["a claim that Augustine taught purgatory as settled doctrine",
+     "a claim that the passage says what the fire is or how long it lasts",
+     "a claim that the fire helps grave sinners who do not repent"], A),
+"lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock": (
+    "Augustine says feeding the Lord's flock is the duty of love, and warns against "
+    "feeding it as one's own for glory, power or gain.",
+    ["a claim that the passage gives Peter authority over the other apostles or the whole "
+     "Church",
+     "a claim that it names bishops, priests or any rank",
+     "a claim that it quotes the words 'Feed my sheep', which come just after it"], A),
 "lpc.quote.let-us-too-be-beheaded-with-him": (
     "The Acta records the brethren crying that they too should be beheaded with Cyprian, and a large crowd then followed him.",
     ["a claim that Pontius records this cry",
@@ -153,11 +215,55 @@ QUOTES = {
     ["a claim that it is only flattery of an attentive crowd",
      "a claim about when or where the sermon was preached",
      "a claim about why or how often the congregation attended"], A),
+"lpc.quote.love-and-do-what-thou-wilt": (
+    "Augustine says the root decides the deed: a father beats a boy from love, a "
+    "boy-stealer caresses him, so let love be the root.",
+    ["a claim that any act done with a feeling of love is right, since the passage says "
+     "the root of love brings forth only good",
+     "a claim that it describes church discipline or excommunication",
+     "a claim that it sets out the whole of Augustine's homily on 1 John 4",
+     "a warrant for striking a child or anyone today"], A),
+"lpc.quote.many-have-learned-to-offer-the-other-cheek": (
+    "Augustine says many offer the other cheek yet do not love the one who strikes, and "
+    "the Lord, struck, answered instead.",
+    ["a ruling on self-defence or lawsuits, which the passage does not take up",
+     "a claim that it says the Lord answered in anger",
+     "a claim that it was checked against the Latin, which is not vendored"], A),
 "lpc.quote.no-one-has-the-love-of-god-from-himself": (
     "Augustine reads Paul to say God's love is poured into the heart by the Holy Spirit, so no one has it from himself.",
     ["a claim that the passage names Paul or the Pelagians",
      "a claim that it replies to the Pelagians",
      "a claim that it sets out a whole doctrine of grace"], A),
+"lpc.quote.no-place-for-a-healing-penitence": (
+    "Augustine says Judas gave up on God's mercy and so left no place for a healing penitence.",
+    ["a claim about the eternal fate of Judas or of any person who died by suicide",
+     "a claim that every person who kills himself gives up on God's mercy",
+     "a claim that the passage is advice to a person now in distress"], A),
+"lpc.quote.no-repentance-is-too-late": (
+    "Cyprian told a pagan who persecuted us that there is no repentance after death, but none is too late for the living.",
+    ["a claim that the passage speaks of people who never heard of Christ",
+     "a claim that the passage names any person as lost or saved",
+     "a claim that the warning stands without the offer"], C),
+"lpc.quote.no-salvation-out-of-the-church": (
+    "Cyprian says even a heretic's baptism in his own blood does not benefit him, since there is no salvation out of the Church.",
+    ["a claim that the passage speaks of people who never heard of Christ",
+     "a claim about what Augustine held on this question",
+     "a claim that the editor's note calling the maxim misunderstood is Cyprian's"], C),
+"lpc.quote.not-his-own-sins-but-the-sins-of-another": (
+    "Cyprian's council says a newborn has no sins of his own, just the old death's contagion, so another's sins are forgiven.",
+    ["a claim that the passage uses the words original sin or guilt",
+     "a claim about what happens to an infant who dies unbaptized",
+     "a claim that the verses of George Canning in the editor's note are Cyprian's"], C),
+"lpc.quote.not-to-be-refused-to-any-one-born-of-man": (
+    "Cyprian's council says grace is not to be refused to any one born of man, so a newborn need not wait for baptism.",
+    ["a claim that the passage gives the reason for baptizing infants",
+     "a claim that the passage gives a date or place for the council",
+     "a claim that the passage says what happens to an unbaptized infant"], C),
+"lpc.quote.not-to-purchase-impunity": (
+    "Augustine says alms must atone for past sins, not buy impunity for future ones, and the life must change.",
+    ["a claim that Augustine thought almsgiving counts for nothing",
+     "a claim that the passage sets a price or an amount for any sin",
+     "a claim that the passage is Cyprian's teaching on almsgiving"], A),
 "lpc.quote.numidicus-remained-unwillingly": (
     "Cyprian says Numidicus, left for dead, stayed behind against his will and joins the presbyters.",
     ["a claim about where his daughter searched or found him",
@@ -180,11 +286,21 @@ QUOTES = {
      "a claim that the passage names the Donatists",
      "a claim about how a clergyman was ordained or removed",
      "a claim that it can be told without the argument on the sin against the Holy Spirit"], A),
+"lpc.quote.peter-may-baptize-but-this-is-he-that-baptizeth": (
+    "Augustine says Peter may baptize, and Paul, and Judas, but it is Christ who baptizes, and the holiness is his.",
+    ["a claim that the passage says Judas baptized anyone",
+     "a claim that it names the Donatists or rules on any rite",
+     "a claim that the minister's own sin is of no account to him, which the passage does not discuss"], A),
 "lpc.quote.peter-the-sick-man-and-the-physician": (
     "Augustine calls Peter the sick man and the Lord the physician, and says three confessions of love answer three denials.",
     ["a claim that Peter is restored to feed the flock in this passage",
      "a claim that it describes a penitential rite or a bishop restoring a penitent",
      "a claim that 'invalid' means a lasting disability"], A),
+"lpc.quote.remember-me-at-the-lords-altar": (
+    "Augustine says Monica asked to be kept in mind at the Lord's altar and did not mind where her body lay.",
+    ["a claim about where Monica was buried",
+     "a claim that these are her exact words",
+     "a claim about what was said or done at the altar"], D387),
 "lpc.quote.reprove-and-forgive-the-surgeons-knife": (
     "Augustine says to correct with words, or blows if need be, yet forgive in the heart, as a surgeon cuts from kindness.",
     ["a claim that the blows are a church penalty, when they belong to an illustration about unruly boys",
@@ -210,6 +326,11 @@ QUOTES = {
     ["a claim that gives a real person's name for 'such a one'",
      "a claim about the full wording of a certificate",
      "a claim that 'friends' means companions rather than household and kin"], C),
+"lpc.quote.thank-offerings-for-the-very-good": (
+    "Augustine says gifts for the baptized dead give thanks for the very good, plead for the not very bad, and console the living.",
+    ["a claim that the offerings help the very bad",
+     "a claim that the passage says anything about the unbaptized dead",
+     "a claim that the passage describes the service or its date"], A),
 "lpc.quote.thanks-be-to-god": (
     "The Acta gives Cyprian's whole answer to his death sentence as Deo gratias, thanks be to God.",
     ["a claim that Pontius records this answer",
@@ -230,6 +351,34 @@ QUOTES = {
     ["a claim that the sermon is about the Creed rather than the Lord's Prayer",
      "a claim that it describes a formal ceremony of handing over the Creed",
      "a claim that the passage names Paul, whose words the first sentence quotes"], A),
+"lpc.quote.the-flight-of-the-mind-is-fear": (
+    "Augustine says the hireling is one who keeps quiet about a believer's sin for fear of "
+    "losing friends, and so flees in spirit.",
+    ["a claim that every paid or office-holding person is a hireling",
+     "a claim that the passage orders excommunication, which the sentences before it "
+     "mention",
+     "a claim that it names a bishop, a place or a date"], A),
+"lpc.quote.the-life-and-the-death-shall-both-be-without-end": (
+    "Augustine says after the final judgment the good and the bad each have a kingdom, and the bad suffer in degrees without end.",
+    ["a claim that Augustine named any person or group as lost",
+     "a claim that the passage describes the torments or where they are",
+     "a claim that the punishment ends or fades"], A),
+"lpc.quote.the-mildest-condemnation-of-all": (
+    "Augustine said babies who die before baptism are condemned, but least of all, and that to deny it is to deceive.",
+    ["a claim that the passage says what the condemnation is or where it is",
+     "a claim that the passage uses the word limbo",
+     "a claim about what became of any one child"], A),
+"lpc.quote.the-mildest-punishment-of-all": (
+    "Augustine says the mildest punishment of all falls on those with no sin of their own added to original sin.",
+    ["a claim that the chapter names infants or mentions baptism",
+     "a claim that the chapter says what the punishment is or where it is",
+     "a claim that the mildest punishment is not punishment"], A),
+"lpc.quote.the-old-man-nailed-to-the-cross-speaks": (
+    "Augustine says the old self nailed to the Cross is the one who cries out, not knowing why God has left him.",
+    ["a claim that the passage says Christ himself sinned or was forsaken by God",
+     "a claim that it gives the whole of Augustine's reading of Psalm 22, since section 1 "
+     "is not in it",
+     "a claim that the passage dates the exposition or says where it was given"], A),
 "lpc.quote.the-paper-itself": (
     "Cyprian checks a letter from the Roman clergy by its hand, its content and its paper, then sends it back.",
     ["a claim about what had been changed in the letter or by whom",
@@ -259,6 +408,31 @@ QUOTES = {
     ["a claim about what the young women were guarded from",
      "a claim that the Acta is a court transcript",
      "a claim that Pontius gives this detail"], D258),
+"lpc.quote.the-word-is-added-to-the-element": (
+    "Augustine says water is plain water until the word joins it, and then it is a "
+    "sacrament, a kind of visible word.",
+    ["a claim that the passage gives the words to be said in baptism",
+     "a claim that it says the word works by being spoken, when the same section says it "
+     "works by being believed",
+     "a claim that it defines every sacrament"], A),
+"lpc.quote.the-wretched-woman-and-mercy": (
+    "Augustine says that when the accusers had gone, only two were left: the wretched "
+    "woman, and Mercy.",
+    ["a claim that the passage says the woman was forgiven or restored",
+     "a claim that it describes a church rite for adultery or penance",
+     "a claim that it contains 'Neither do I condemn thee', which comes in the next "
+     "section"], A),
+"lpc.quote.they-first-dwelt-together-in-unity": (
+    "Augustine says the first believers lived this verse first, with one heart toward God, "
+    "yet they did not hear it alone.",
+    ["a claim that the passage speaks of bishops or of communion between churches",
+     "a claim that it describes monks, which the sentences before it do",
+     "a claim that the passage itself names the people the first believers came from"], A),
+"lpc.quote.they-went-out-from-us-but-were-not-of-us": (
+    "Augustine says many who share our baptism and altar are not of us, and temptation shows it when they leave like chaff.",
+    ["a claim that the passage gives a verdict on any named person or group",
+     "a claim that it names the Donatists",
+     "a claim that it says when the final sorting comes, which the next sentence does"], A),
 "lpc.quote.thirteen-letters-sent-to-rome": (
     "Cyprian tells Rome that thirteen letters from hiding show how he guided and rebuked.",
     ["a claim about which thirteen letters they were",
@@ -273,6 +447,11 @@ QUOTES = {
     ["a claim that it replies to the Pelagians",
      "a claim that it explains why one hearer rises and the other scorns, such as a doctrine of election",
      "a claim that 'rises' means the resurrection"], A),
+"lpc.quote.very-many-make-moan-over-the-eternal-punishment": (
+    "Augustine says many pitied the lost and would not believe in eternal punishment, and he calls that vain.",
+    ["a claim that Augustine thought the doubters were right",
+     "a claim about how many held the doubt or where",
+     "a claim that the passage gives his reasons, which come after it"], A),
 "lpc.quote.walled-in-by-a-mingled-multitude": (
     "Pontius says Cyprian went out from the officer's house walled in on all sides by a mingled multitude.",
     ["a claim about the size of the crowd",
@@ -282,6 +461,11 @@ QUOTES = {
     ["a claim that it teaches compulsion, when read without its lead-in on God's will done in everyone",
      "a claim that it replies to the Pelagians",
      "a claim that the opening question was an objection raised by a hearer"], A),
+"lpc.quote.who-that-has-any-human-feeling-would-refuse-to-forgive-them": (
+    "Augustine asked who would not forgive virgins who took their own lives, yet said that it is homicide.",
+    ["a claim about the eternal fate of any person who died by suicide",
+     "a claim about burial or funeral practice",
+     "a claim that the passage is advice to a person now in distress"], A),
 "lpc.quote.ye-belong-to-my-care": (
     "Augustine says his hearers are in his care so he can give account for them, and that he wept when not heard.",
     ["a claim about the date, place or occasion of the sermon",
@@ -345,11 +529,41 @@ WITNESSES = {
     "From Paul's thorn Augustine taught that the saints are always heard for their salvation, even when not heard as they wished.",
     ["a claim that God removed Paul's thorn",
      "a claim that Augustine promised any wish would be answered"], A),
+"lpc.witness.infants-and-the-sin-of-another": (
+    "We did not make babies wait to be baptized; Augustine said those who die without it get the mildest of all punishments.",
+    ["a claim that Cyprian's letter uses the words original sin or guilt",
+     "a claim that Augustine's chapter on punishment names infants or baptism",
+     "a claim about what either bishop said of one child who died unbaptized"], W),
+"lpc.witness.judged-on-the-life-lived-here": (
+    "Augustine taught that we are judged on this life, left a fire after death open, and said alms cannot buy a pass for sin.",
+    ["a claim that Augustine taught purgatory as settled doctrine",
+     "a claim that he thought almsgiving counts for nothing",
+     "a claim that the chapters say what the fire is, how long it lasts or who passes through it"], A),
 "lpc.witness.marriage-a-threefold-good": (
     "Augustine said marriage has three goods: children, faith to each other and sacrament.",
     ["a claim about courtship, weddings or attendance at them",
      "a claim that separation ended the marriage bond",
      "a claim that the translator's preface is Augustine's own words"], A),
+"lpc.witness.no-one-may-take-his-own-life": (
+    "Augustine said to kill yourself is homicide, but first asked who would not forgive virgins who did.",
+    ["a claim about the eternal fate of any person who died by suicide",
+     "a claim about burial or funeral practice",
+     "a claim that the passage is advice to a person now in distress"], A),
+"lpc.witness.no-salvation-outside-the-church": (
+    "Cyprian said none are saved outside the Church; he warned those who would not believe of endless fire, but urged them to turn in time.",
+    ["a claim that Cyprian wrote about people who never heard of Christ",
+     "a claim that Augustine held the same view, since these passages do not say so",
+     "a claim that the editor's note calling the maxim misunderstood is Cyprian's"], C),
+"lpc.witness.punishment-without-end": (
+    "Augustine taught that the lost suffer without end, some less than others, and he answered those who doubted it.",
+    ["a claim that Augustine named any person or group as lost",
+     "a claim that he taught the punishment ends, since he allowed only a supposed respite or lighter pains",
+     "a claim that the chapters describe the torments or say where they happen"], A),
+"lpc.witness.remembered-at-the-altar": (
+    "Augustine said gifts at the altar help the baptized dead who earned it, and Monica asked to be kept in mind there.",
+    ["a claim that the offerings helped every dead person",
+     "a claim that the chapter says anything about the unbaptized dead",
+     "a claim about where Monica was buried or the form of the service she asked for"], P387),
 "lpc.witness.restless-heart-and-the-unrepentant-enemy": (
     "Augustine said the heart is restless for God, and ranked love for an enemy who will not repent highest.",
     ["a claim that he thought everyone reaches the highest standard in full",
