@@ -4,7 +4,7 @@ assignments:
   - row_id: basil_opera-omnia-pg29-grc-lat_migne1857--hexaemeron-psalm-homilies-against-eunomius-pg-29-greek
     work: "Basil, Opera omnia, PG 29, Greek: Hexaemeron, Psalm homilies (Psalm 14 against usury), Against Eunomius I-III"
     author: basil
-    locus: "Hexaemeron from file line 59639; Psalm homilies from 75601, Psalm 14 at 78686; Against Eunomius from 98130"
+    locus: "Hexaemeron from OCR line 59639; Psalm homilies from 75601, Psalm 14 at 78686; Against Eunomius from 98130; line numbers are OCR lines, add 12 for this file's own"
     atlas_ids:
       - cappadocian-nicene-pastoral-monastic-tradition
     role: tradition
