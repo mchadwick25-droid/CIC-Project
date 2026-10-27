@@ -87,3 +87,7 @@ The fifth reader (`Review/opus-honest-limits-read-5.md`) rebuilt the shipped sur
 - Passage index design for commentaries.
 - Real visitor questions: first week entered 2026-10-26; the recurring-questions rollup and later weeks still to come.
 - Per-world gaps from `Worklists/records-by-world.*` go to each world's `Open_Gaps_Tracking.md` through that world's thread.
+
+## 2026-10-27, Wittenberg witness wording for 1525 and 1543
+
+Mark ruled: the Representative is a witness, and the world is transparent and honest. It reports; it need not own what it reports. For 1543, where the treatise is not held, the witness says what the record holds and that the treatise is not held (the recommended option). He approved the old and new wording drafted for `witt.core`. Applied as change order OG-86 in `Build/worlds/witt/Open_Gaps_Tracking.md`. Open: whether the witness answers a visitor who asks if the writings were wrong; Opus review not yet run.

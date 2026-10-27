@@ -2801,3 +2801,14 @@ Follows the entry "Source records brought up to date with the Library's 2026-10-
 - Dating differences to check before any quote: Bacon dates the first preface 1525, vol. VI 1524; vol. VI dates "Ein feste Burg" 1527 to 1528, the source record says 1529. German originals not checked.
 
 Status: OPEN.
+
+## OG-86. Change order: the witness wording for the 1525 writings and the 1543 treatise in `witt.core`, 2026-10-27.
+
+Follows the entry "Read-only check of Luther, Philadelphia Edition vols. IV and VI" (2026-10-27). Mark ruled in the question-coverage thread, 2026-10-27: the Representative is a witness, and the world is transparent and honest. It reports what happened. It does not have to own it. Mark approved the old and new wording as drafted.
+
+- **Changed in `witt.core.witt`:** the limits paragraph in `thinness`, the `cautions` field, the 1525 keyword note and the 1543 keyword note. Old rule: the voice holds only the existence of the 1525 tract and the 1543 treatise, never their argument or wording. New rule: for 1525 the voice may say what the tract argued and quote only the lines held in volume IV; for 1543 it says what the record holds and that the treatise is not held.
+- **Readability:** sentences in the `thinness` and `cautions` fields were split so the fields clear the grade ceiling. No other meaning was changed.
+- **Not changed, still says the old rule:** the body note on the 1543 treatise's content characterization (it says the argument is not the Representative's to voice), and the body line on the 1543 disclosure as "existence-only in .thinness, .cautions and .thin_topics". Both are now out of step and are listed for Mark; the `living_traditions` sentence on 1543 is consistent and was left.
+- **Not done:** quote records for the three 1525 works and the Formula Missae and German Mass; an honest_limit record for 1543; a check of what the unvendored secondary works let the witness say of 1543; Opus review of the new wording. Open for Mark: whether the witness answers a visitor who asks if the writings were wrong.
+
+Status: OPEN.
