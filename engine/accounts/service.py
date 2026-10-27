@@ -1010,7 +1010,18 @@ class AccountsService:
             "sign_in_methods": self._methods(account),
             "has_recovery_code": self.store.has_recovery_key(account.account_id),
             "recovery_pending": self._recovery_banner(account.account_id),
+            "address": self._own_address(account.account_id),
         }
+
+    def _own_address(self, account_id: str) -> str | None:
+        """The address on file, for its own owner's screen only. None for an account that signs in
+        by Google or Apple alone, or when the stored address cannot be opened."""
+        if self.contacts is None:
+            return None
+        try:
+            return self.contacts.get(account_id)
+        except Exception:  # noqa: BLE001 - a screen line never fails the page
+            return None
 
     def export(self, session: Session) -> Result:
         """What the account holds today. It grows as the shelf and the token history are
