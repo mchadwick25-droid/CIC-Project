@@ -727,7 +727,7 @@ TYPE_PROPERTIES: dict[str, dict] = {
     "canon_question": {
         "cell": {"type": "string"},
         "text": {"type": "string"},
-        "source": {"type": "array", "items": {"enum": ["corpus", "ext", "new"]}},
+        "source": {"type": "array", "items": {"enum": ["corpus", "ext", "new", "measured"]}},
         "canon_status": {"enum": ["seed", "vetted", "retired"]},
         "phrasing_rules_checked": {"type": "boolean"},
         "tags": {"type": "array", "items": {"type": "string"}},
