@@ -78,6 +78,11 @@ export const accountsCopy = {
   codeTokens: (n: number) => `${n.toLocaleString('en-US')} tokens on your codes.`,
   freeFirst: 'Free tokens are used first.',
   getMore: 'Get more conversations',
+  savedCodeOffer: (n: number) =>
+    `You have ${n.toLocaleString('en-US')} tokens on a code saved in this browser. Add them to your account so they come with you on any device? Once added, the code belongs to this account only.`,
+  savedCodeAdd: 'Add them to my account',
+  savedCodeKeep: 'Keep them in this browser',
+  savedCodeKept: 'They stay in this browser. You can add them any time from your account.',
   addCodeLink: 'Add a code to my account',
   addCodeLabel: 'Your code',
   addCode: 'Add this code',
