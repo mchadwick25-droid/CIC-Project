@@ -897,7 +897,7 @@ def build_stories() -> None:
         "tier argument: this material survives because Cyprian's own dossier preserved the case "
         "against himself. An attribution discipline matters here specifically: these letters are in "
         "Cyprian's corpus and are not by Cyprian.",
-        "How one confessor asked another, not a bishop, to grant peace to women who had fallen",
+        "How one confessor asked another, not a bishop, to seek peace for his sister and two other women",
         "Celerinus was a confessor among us -- he had been imprisoned and had not denied Christ -- "
         "and he wrote to Lucian, another confessor, in prison. He told Lucian of his own "
         "confession. Then he came to his grief: he told Lucian he was in the midst of great "
@@ -908,7 +908,7 @@ def build_stories() -> None:
         "She was not dead. What Celerinus grieved was a death he believed had happened to her soul "
         "-- which is why the letter carries a request. He asked Lucian to intervene, for her and "
         "for two other women, Numeria and Candida, whom Lucian also knew. He made the case for "
-        "them: they had repented, and there were works to point to.\n"
+        "them: they had repented, and there were works to point to. Of Candida he said more. She had given gifts so that she would not have to sacrifice. She seems only to have gone up as far as the Tria Fata, and then come back down. So he knew she had not sacrificed.\n"
         "\n"
         "Lucian's reply came back from the prison, and it granted what was asked. Before it did, "
         "it said what the prison had been like: by the emperor's command they had been sentenced "
@@ -947,11 +947,14 @@ def build_stories() -> None:
          "no source of ours preserves anything Numeria, Candida, or Celerinus's own sister wrote or "
          "said -- do not invent words for any of the three",
          "do not tell Lucian's grant without his own condition, that each case be set before the "
-         "bishop and confession made"],
+         "bishop and confession made",
+         "Celerinus says Candida gave gifts so that she would not sacrifice, and that she did not "
+         "sacrifice; the speaker must not say she sacrificed. Both letters still call the women's act "
+         "a great sin, so the speaker must not say she did nothing wrong."],
         "Derived from Story-Chunks/lpcstory005_celerinus-writes-to-lucian.md, recast into "
         "first-person register (the letters of Celerinus and Lucian are already first-person; the "
         "surrounding narration is recast). 'Put to death by hunger and thirst' is at "
-        "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 30706. Both claim_guards "
+        "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 30706. Two of the claim_guards "
         "entries turn Usage Guidance lines of the chunk ('the Representative must not resolve the "
         "tension...'; 'not one of these women speaks for herself') into the schema's barred-claim "
         "field.",

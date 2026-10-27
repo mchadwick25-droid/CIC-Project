@@ -25,7 +25,7 @@ From session: https://claude.ai/code/session_01JMNsSBvi7aVuNvY1ftggwy · World o
 
 - **Cautions 13 to 17 are untested live.** Their effect on Datus's voice is unproven.
 - **A parallel session pushed to this branch** while this one worked (a re-pin and a path-baseline change). If another appears, merge it, do not overwrite.
-- **Manifest incident.** My merge of a parallel session's re-pin left git conflict markers in `packages/lpc/2026-10-27T04-46-29Z/manifest.json`. PR #1177 merged with that file, so `engine.m2.cli restore` failed on `main` with a JSON decode error. [PR #1182](https://github.com/mchadwick25-droid/CIC-Project/pull/1182) restored the clean file (its hash matches the pin in `records/worlds/lpc.yaml`). After any merge that touches `packages/`, check that every changed manifest parses before pushing. I did not see #1182's engine suite finish.
+- **Manifest incident.** My merge of a parallel session's re-pin left git conflict markers in the manifest of the lpc package 2026-10-27T04-46-29Z. PR #1177 merged with that file, so `engine.m2.cli restore` failed on `main` with a JSON decode error. [PR #1182](https://github.com/mchadwick25-droid/CIC-Project/pull/1182) restored the clean file (its hash matches the pin in `records/worlds/lpc.yaml`). After any merge that touches `packages/`, check that every changed manifest parses before pushing. I did not see #1182's engine suite finish.
 - **`safety-1.json` in the 27 October reports is not evidence.** It copies the previous probe's report.
 
 ## 4. Waiting on Mark

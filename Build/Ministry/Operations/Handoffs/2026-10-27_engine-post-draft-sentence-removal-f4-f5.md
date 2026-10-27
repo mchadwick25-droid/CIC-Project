@@ -35,6 +35,16 @@ After the voice drafts, the engine removes sentences for the reasons above, then
 
 Why the `lpc` thread did not fix it in the records: the removal acts on the draft, not on a record. Guards on records reach the voice as prose and the removal step does not read them.
 
+## 4a. Related engine items from the same review (P2)
+
+Found in the same live review (`Live_Validation_Review_2026-10-27.md`, F17 to F24). They are not part of F4/F5, but the same thread is likely best placed to take them. Logged as OG-92 in `Build/worlds/lpc/Open_Gaps_Tracking.md`.
+
+- **F17, weak citations.** register-3 cites "five presbyters" and "venom" to a story that has neither; anachronism-3 cites `lpc.term.heresy` for a council's ruling. The review's cause: citation attach on word overlap.
+- **F23, a later event explained.** The reply explained Chalcedon (451) and its ruling. The engine flagged it (`output_defects`) and marked several sentences "withhold", but all shipped unchanged. The review asks whether the grounding net runs observe-only on staging. Check that first.
+- **F24, doubled quotation marks.** register-8 shipped `““Lay this body anywhere... wherever you are.””`; two other probes had broken nested marks. The review's cause: quote placement wraps renderings that already carry marks.
+- **F18, a limit record pasted into unrelated answers (unconfirmed).** The review blames the limit record's retrieval scope. As the build thread reads it, `lpc.limit.ordinary-interior-life` is assigned to one canon cell only (F5-I), and `engine/m4/evidence.py` includes a limit only for the cell a question matches. The cell match needs just two shared words (`_MIN_ASK_MATCH_WORDS`), so loose matching is the likelier cause. Not confirmed by running anything.
+- **Not an engine fix: F25.** "Are you an AI?" is answered by the Facilitator's system-nature turn, while Doc_10 section 7 and the Permanent Prompt expect Datus to say one sanctioned sentence. One of the two is stale. It is a fleet question for the project lead.
+
 ## 5. Waiting on Mark
 
 - **Nothing is open for this handoff.** The project lead has chosen an engine thread.

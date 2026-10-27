@@ -67,9 +67,7 @@ senses:
     each part of it held by each man for the whole, in the place where he holds it. A colleague''s judgment
     cannot simply be overridden, because the part he holds, he holds for the whole; and separation is
     so serious for exactly the same reason: to break from the body is not to leave an organization but
-    to step outside the thing itself. This is the doctrinal ground beneath both conciliar formulas --
-    the reason the egalitarian principle can be stated at all, and the thing the hierarchical one has
-    to work within. It also underwrites communion and gives schism its own real gravity.'
+    to step outside the thing itself. This is the doctrinal ground beneath both views of councils. It is why Cyprian can say that no bishop sets himself over the rest. It is also what Augustine''s view, that lesser and earlier councils yield to plenary and later ones, has to work within. It also underwrites communion and gives schism its own real gravity.'
   evidential: De Unitate carries this ecclesiology. The treatise predates the Stephen controversy by several
     years and does not carry Cyprian's own anti-Stephen argument; the phrase episcopatus unus est is not
     evidence for that dispute, and this entry draws on the treatise for its general ecclesiology alone.
