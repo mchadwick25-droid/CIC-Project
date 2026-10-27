@@ -40,11 +40,10 @@ works:
     passage at about 90997
   role: context
   confidence: provisional
-  note: 'A first-century Jewish writer''s account of Jesus and of the death of James of Jerusalem,
-    in Whiston''s English. A Jewish voice from outside the church, context not tradition voice.
-    Whiston''s own notes and three dissertations are bound in, and some of the Testimonium
-    wording is Whiston''s reading; check against a critical edition before quoting. Other
-    placements (post-apostolic-house-church, messianic-judaism) are held for Mark.
+  note: 'Outside witness, not the church''s own voice: a first-century Jewish civil historian,
+    in Whiston''s English. Context only, never tradition. The Testimonium Flavianum (Antiquities
+    XVIII) is a contested passage; the text is as Whiston prints it. Whiston''s notes and
+    three dissertations are bound in.
 
     '
   source_file: josephus_works-antiquities-wars-life_whiston1859.txt

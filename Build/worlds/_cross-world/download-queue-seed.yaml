@@ -22678,3 +22678,55 @@ queue:
     verified_by: "Library thread acquisition batch 1, 27 October 2026: metadata read (no licence URL; 1859 printing), djvu.txt fetched, byte count 4,695,378 equal to listed size, OCR read at four points, Testimonium at raw line 81395, James passage at 90997"
     status: downloaded
     vendored_as: "josephus_works-antiquities-wars-life_whiston1859.txt"
+
+  - title: "The Works of Philo Judaeus (Yonge), volume 1"
+    author: "Philo of Alexandria"
+    translator: "Charles Duke Yonge"
+    year: 1854
+    world: "alexandria-catechetical"
+    why: >
+      Jewish outside-witness evidence ruled in by Mark 2026-10-27; the Library held no Jewish voice. Context role, never tradition.
+    url: "https://archive.org/details/worksphilojudaeu01philuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Library thread acquisition batch 1, 27 October 2026: metadata read (NOT_IN_COPYRIGHT), djvu.txt fetched, byte count 1,525,818 equal to listed size, OCR read at three points"
+    status: downloaded
+    vendored_as: "philo_works-v1_yonge1854.txt"
+
+  - title: "The Works of Philo Judaeus (Yonge), volume 2"
+    author: "Philo of Alexandria"
+    translator: "Charles Duke Yonge"
+    year: 1854
+    world: "alexandria-catechetical"
+    why: >
+      Jewish outside-witness evidence ruled in by Mark 2026-10-27; the Library held no Jewish voice. Context role, never tradition.
+    url: "https://archive.org/details/worksphilojudaeu02philuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Library thread acquisition batch 1, 27 October 2026: metadata read (NOT_IN_COPYRIGHT), djvu.txt fetched, byte count 1,501,538 equal to listed size, OCR read at three points"
+    status: downloaded
+    vendored_as: "philo_works-v2_yonge1854.txt"
+
+  - title: "The Works of Philo Judaeus (Yonge), volume 3"
+    author: "Philo of Alexandria"
+    translator: "Charles Duke Yonge"
+    year: 1854
+    world: "alexandria-catechetical"
+    why: >
+      Jewish outside-witness evidence ruled in by Mark 2026-10-27; the Library held no Jewish voice. Context role, never tradition.
+    url: "https://archive.org/details/worksphilojudaeu03philuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Library thread acquisition batch 1, 27 October 2026: metadata read (NOT_IN_COPYRIGHT), djvu.txt fetched, byte count 1,552,724 equal to listed size, OCR read at three points"
+    status: downloaded
+    vendored_as: "philo_works-v3_yonge1854.txt"
+
+  - title: "The Works of Philo Judaeus (Yonge), volume 4"
+    author: "Philo of Alexandria"
+    translator: "Charles Duke Yonge"
+    year: 1854
+    world: "alexandria-catechetical"
+    why: >
+      Jewish outside-witness evidence ruled in by Mark 2026-10-27; the Library held no Jewish voice. Context role, never tradition.
+    url: "https://archive.org/details/worksphilojudaeu04philuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "Library thread acquisition batch 1, 27 October 2026: metadata read (NOT_IN_COPYRIGHT), djvu.txt fetched, byte count 1,389,497 equal to listed size, OCR read at three points"
+    status: downloaded
+    vendored_as: "philo_works-v4_yonge1854.txt"

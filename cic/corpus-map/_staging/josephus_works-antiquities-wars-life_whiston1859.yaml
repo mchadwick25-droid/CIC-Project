@@ -6,9 +6,13 @@ assignments:
     author: josephus
     locus: "Antiquities XVIII, Testimonium at about file line 81395; Antiquities XX, the James passage at about 90997"
     atlas_ids:
+      - alexandria-catechetical
+      - post-apostolic-house-church
+      - syriac-edessa-nisibis
+      - antiochene-church-third-century
       - palestinian-church-pre-constantinian
     role: context
     confidence: provisional
     note: >
-      A first-century Jewish writer's account of Jesus and of the death of James of Jerusalem, in Whiston's English. A Jewish voice from outside the church, context not tradition voice. Whiston's own notes and three dissertations are bound in, and some of the Testimonium wording is Whiston's reading; check against a critical edition before quoting.
-      Other placements (post-apostolic-house-church, messianic-judaism) are held for Mark.
+      Outside witness, not the church's own voice: a first-century Jewish civil historian, in Whiston's English. Context only, never tradition.
+      The Testimonium Flavianum (Antiquities XVIII) is a contested passage; the text is as Whiston prints it. Whiston's notes and three dissertations are bound in.
