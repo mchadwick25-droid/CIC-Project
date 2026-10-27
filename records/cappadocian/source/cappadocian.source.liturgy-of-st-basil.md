@@ -16,10 +16,19 @@ sources: []
 relations: []
 author: Attributed to Basil of Caesarea (split attribution; see attribution_status)
 work: The 'Liturgy of St Basil' (transmitted anaphora)
-edition: No vendored or independently locatable edition this session
+edition: >-
+  Held in English.
+  cic/texts/liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s.txt carries
+  the Liturgy of St Basil (file lines 7358 to 7820) in the translation of Neale and Littledale.
+  The Byzantine text is a later redaction and the attribution to Basil is traditional, not
+  documented; Neale's introduction and notes are nineteenth-century commentary, not the liturgy's
+  own voice.
 citation: The Liturgy of St Basil (transmitted anaphora), attributed to Basil of Caesarea
-kind: unvendored
-rights_status: "not applicable - no single specific text has been identified for this row; it names a person, general pattern, or unlocated corpus rather than a held text"
+kind: vendored
+shelf_row: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-s-basil-byzantine-form
+rights_status: >-
+  public-domain by date (host tag NOT_IN_COPYRIGHT); vendored in the shared library.
+  The attribution to Basil is split: see attribution_status.
 attribution_status: contested (a Basilian core, argued substantially from the Egyptian recension E-BAS,
   is Dominant Modern Reconstruction; the transmitted Byzantine text's exact wording as Basil's own is
   Contested -- this record deliberately does not resolve the split further)

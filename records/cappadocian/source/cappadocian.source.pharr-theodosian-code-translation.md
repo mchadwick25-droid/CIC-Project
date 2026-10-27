@@ -29,3 +29,5 @@ external_ids:
   cappadocian_source_registry_row: 80
 ---
 Would ground rows 73 and 79 directly if acquired (row 80). A specific named translator, title, and year -- the same relationship row 24 (DelCogliano & Radde-Gallwitz) bears to Against Eunomius.
+
+The Latin text of the Codex Theodosianus is held in the Library (cic/texts/codex-theodosianus_latinlibrary.txt); Pharr's English is in copyright and stays unvendored.

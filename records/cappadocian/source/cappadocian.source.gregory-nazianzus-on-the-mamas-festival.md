@@ -16,13 +16,24 @@ sources: []
 relations: []
 author: Gregory of Nazianzus
 work: Gregory of Nazianzus on the Mamas festival
-edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 7 (Cyril of Jerusalem, Gregory Nazianzen), ed.
-  Schaff (the vendored file npnf207_cyril-jerusalem-gregory-nazianzen.xml covers the Orations and a selection
-  of the letters, including a Basil-correspondence division and a miscellaneous-letters division). A direct
-  text search of that file finds no occurrence of 'Mamas', so this work is not within the vendored edition.
+edition: >-
+  Held in Greek, not in English.
+  cic/texts/gregory-nazianzen_orationes-27-45-pg36-grc-lat_migne1858.txt names the martyr Mamas in
+  Oration 44 (file line 51134).
+  cic/texts/gregory-nazianzen_epistulae-carmina-pg37-grc-lat_migne1857.txt names a different
+  Mamas, a reader (29255). Basil's own homily on Mamas is in
+  cic/texts/basil_opera-omnia-pg31-grc-lat_migne1857.txt (44695). Migne's Latin column is garbled
+  into Greek-looking glyphs, so the Greek is the only legible witness. It is a second witness:
+  nothing in it is quotable until the passage is checked against the page image. Not within the
+  vendored Nicene and Post-Nicene Fathers, 2nd series, vol. 7, ed. Schaff
+  (cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml): a direct text search finds no
+  occurrence of 'Mamas'. The record names no specific work, so none is chosen here.
 citation: Gregory of Nazianzus, on the Mamas festival
-kind: unvendored
-rights_status: "not independently verified; not yet acquired as an open text - named for completeness (every source a claim rests on gets a row, acquired or not)"
+kind: vendored
+shelf_row: gregory-nazianzen_orationes-27-45-pg36-grc-lat_migne1858--orations-27-45-pg-36-greek
+rights_status: >-
+  public-domain by date (Migne, 1858); vendored in the shared library, in Greek with
+  a garbled Latin column; the Greek is held, no English text of this work is.
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 115; a specific named source (author, translator,
   edition, or witness) that this session did not independently check against primary content -- either
