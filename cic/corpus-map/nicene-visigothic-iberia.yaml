@@ -4,8 +4,7 @@
 atlas_id: nicene-visigothic-iberia
 works:
 - row_id: paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863--merida-fathers-braulio
-  work: Paulus Emeritanus, Vitas Patrum Emeretensium; Sisebut; Braulio of Saragossa, Letters
-    and Life of Aemilian (Latin)
+  work: Sisebut; Braulio of Saragossa, Letters and Life of Aemilian (Latin)
   author: braulio-saragossa
   locus: Sisebut at raw line ~729; Braulio ~51492
   role: tradition
@@ -119,10 +118,9 @@ works:
     '
   source_file: gregory-tours_history-of-the-franks-v2_dalton1927.txt
 - row_id: ildefonsus-julian-toledo-pl96-lat_migne1862--ildefonsus-julian
-  work: Ildefonsus of Toledo (De virginitate Mariae, De viris illustribus) and Julian of Toledo
-    (Prognosticon, Historia Wambae), Latin
+  work: Ildefonsus of Toledo (De virginitate Mariae, De viris illustribus), Latin
   author: ildefonsus-toledo
-  locus: Ildefonsus at raw line ~844; Julian ~36807
+  locus: raw line ~844
   role: tradition
   confidence: provisional
   note: 'Mostly after the 560-711 window''s middle; provisional on dating.
@@ -188,6 +186,16 @@ works:
 
     '
   source_file: chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt
+- row_id: ildefonsus-julian-toledo-pl96-lat_migne1862--julian-toledo
+  work: Julian of Toledo (Prognosticon, Historia Wambae), Latin
+  author: julian-toledo
+  locus: raw line ~36807
+  role: tradition
+  confidence: provisional
+  note: 'Mostly after the 560-711 window''s middle; provisional on dating.
+
+    '
+  source_file: ildefonsus-julian-toledo-pl96-lat_migne1862.txt
 - row_id: john-biclaro-leander-pl72-lat_migne1878--leander-regula-homilia
   work: Leander of Seville, Regula (De institutione virginum) and Homilia in laudem Ecclesiae,
     Latin
@@ -221,6 +229,16 @@ works:
 
     '
   source_file: ferotin_liber-mozarabicus-sacramentorum-lat-fra_1912.txt
+- row_id: paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863--paulus-merida-fathers
+  work: Paulus Emeritanus, Vitas Patrum Emeretensium (Latin)
+  author: paulus-emeritanus
+  locus: raw line ~698
+  role: tradition
+  confidence: assigned
+  note: 'Saints'' lives from Merida; Latin only.
+
+    '
+  source_file: paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt
 - row_id: bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839--spanish-councils
   work: The Spanish councils outside Toledo (Braga I-III, Seville I-II, Saragossa, Lerida,
     Valencia, Huesca, Barcelona, Merida, Tarragona)

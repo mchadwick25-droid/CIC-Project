@@ -37,17 +37,6 @@ works:
 
     '
   source_file: cavazzi_istorica-descrizione-tre-regni-congo-matamba-angola-ita_alamandini1687.txt
-- row_id: lopes_report-of-the-kingdom-of-congo_hutchinson1881--a-report-of-the-kingdom-of-congo-1591-english-of-1881-2
-  work: A Report of the Kingdom of Congo (1591), English of 1881
-  author: lopes
-  locus: Books one and two
-  role: context
-  confidence: provisional
-  note: 'Inside the earlier world''s window and place; an outside description of the Kongo
-    church of the 1580s. Placed on window and place, not on a reading for that entry.
-
-    '
-  source_file: lopes_report-of-the-kingdom-of-congo_hutchinson1881.txt
 - row_id: paiva-manso_historia-do-congo-documentos-por_1877--historia-do-congo-documentos-the-whole-corpo-diplomatico
   work: 'Historia do Congo (Documentos): the whole corpo diplomatico of the Kongo mission,
     1492 to the eighteenth century'
@@ -64,3 +53,14 @@ works:
 
     '
   source_file: paiva-manso_historia-do-congo-documentos-por_1877.txt
+- row_id: lopes_report-of-the-kingdom-of-congo_hutchinson1881--a-report-of-the-kingdom-of-congo-1591-english-of-1881-2
+  work: A Report of the Kingdom of Congo (1591), English of 1881
+  author: pigafetta
+  locus: Books one and two
+  role: context
+  confidence: provisional
+  note: 'Inside the earlier world''s window and place; an outside description of the Kongo
+    church of the 1580s. Placed on window and place, not on a reading for that entry.
+
+    '
+  source_file: lopes_report-of-the-kingdom-of-congo_hutchinson1881.txt

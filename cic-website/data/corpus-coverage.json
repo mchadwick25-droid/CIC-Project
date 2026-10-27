@@ -329,6 +329,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Josephus, Works (Whiston), including Antiquities XVIII (the Testimonium) and XX (James, the brother of Jesus called Christ)",
+          "author": "josephus",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "josephus_works-antiquities-wars-life_whiston1859.txt",
+          "rights": "Public Domain (pd-us-by-date: an 1859 printing of a translation first made by Whiston in the eighteenth century)"
+        },
+        {
           "work": "The Passion of St. Symphorosa and Her Seven Sons",
           "author": "juliusafricanus",
           "role": "tradition",
@@ -559,6 +567,38 @@
           "confidence": "assigned",
           "source_file": "anf01_apostolic-fathers-justin-irenaeus.xml",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Philo of Alexandria, Works (Yonge), volume 1",
+          "author": "philo",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "philo_works-v1_yonge1854.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century English printing); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Philo of Alexandria, Works (Yonge), volume 2",
+          "author": "philo",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "philo_works-v2_yonge1854.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century English printing); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Philo of Alexandria, Works (Yonge), volume 3",
+          "author": "philo",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "philo_works-v3_yonge1854.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century English printing); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Philo of Alexandria, Works (Yonge), volume 4",
+          "author": "philo",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "philo_works-v4_yonge1854.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century English printing); the archive.org record is tagged NOT_IN_COPYRIGHT"
         },
         {
           "work": "Epistle to the Philippians (Polycarp)",
@@ -2641,6 +2681,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Josephus, Works (Whiston), including Antiquities XVIII (the Testimonium) and XX (James, the brother of Jesus called Christ)",
+          "author": "josephus",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "josephus_works-antiquities-wars-life_whiston1859.txt",
+          "rights": "Public Domain (pd-us-by-date: an 1859 printing of a translation first made by Whiston in the eighteenth century)"
+        },
+        {
           "work": "A Letter to Origen from Africanus About the History of Susanna",
           "author": "juliusafricanus",
           "role": "tradition",
@@ -2686,6 +2734,54 @@
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Commentary on the Epistle to the Romans, Books I to V (Rufinus's Latin)",
+          "author": "origen",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "origen_commentarii-in-epistolam-ad-romanos-libri-1-5-lat_lommatzsch1836.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Commentary on the Epistle to the Romans, Books VI to X (Rufinus's Latin)",
+          "author": "origen",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "origen_commentarii-in-epistolam-ad-romanos-libri-6-10-lat_lommatzsch1837.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Commentary on the Gospel of John (Greek), part II",
+          "author": "origen",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "origen_commentarii-in-evangelium-joannis-tomus2-grc_lommatzsch1832.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Commentary on the Gospel of Matthew (Greek and Latin), part II",
+          "author": "origen",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "origen_commentarii-in-evangelium-matthaei-tomus4-grc-lat_lommatzsch1834.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Commentary on the Gospel of Matthew (Greek), part I",
+          "author": "origen",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "origen_commentarii-in-evangelium-matthaei-tomus3-grc-lat_lommatzsch1834.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Commentary on the Gospel of Matthew, part III, with the Homilies on Luke and Fragments",
+          "author": "origen",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "origen_commentarii-in-evangelium-matthaei-tomus5-lat_lommatzsch1835.txt",
           "rights": "Public Domain"
         },
         {
@@ -2815,6 +2911,38 @@
           "confidence": "provisional",
           "source_file": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Philo of Alexandria, Works (Yonge), volume 1",
+          "author": "philo",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "philo_works-v1_yonge1854.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century English printing); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Philo of Alexandria, Works (Yonge), volume 2",
+          "author": "philo",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "philo_works-v2_yonge1854.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century English printing); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Philo of Alexandria, Works (Yonge), volume 3",
+          "author": "philo",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "philo_works-v3_yonge1854.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century English printing); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Philo of Alexandria, Works (Yonge), volume 4",
+          "author": "philo",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "philo_works-v4_yonge1854.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century English printing); the archive.org record is tagged NOT_IN_COPYRIGHT"
         },
         {
           "work": "Fragments of Pierus of Alexandria",
@@ -2948,6 +3076,14 @@
           "role": "transmission",
           "confidence": "assigned",
           "source_file": "anan-isho_paradise-v2-sayings_budge1907.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Aphrahat, Demonstrations I-XXII (Syriac with Parisot's Latin)",
+          "author": "aphrahat",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "aphrahat_demonstrationes-1-22-syr-lat_parisot1894.txt",
           "rights": "Public Domain"
         },
         {
@@ -3151,6 +3287,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Josephus, Works (Whiston), including Antiquities XVIII (the Testimonium) and XX (James, the brother of Jesus called Christ)",
+          "author": "josephus",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "josephus_works-antiquities-wars-life_whiston1859.txt",
+          "rights": "Public Domain (pd-us-by-date: an 1859 printing of a translation first made by Whiston in the eighteenth century)"
+        },
+        {
           "work": "The Liturgy of the Blessed Apostles (Adaeus and Maris)",
           "author": "liturgy-of-addai-and-mari",
           "role": "tradition",
@@ -3205,6 +3349,38 @@
           "confidence": "assigned",
           "source_file": "palladius_paradise-v1-syriac_budge1907.txt",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Philo of Alexandria, Works (Yonge), volume 1",
+          "author": "philo",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "philo_works-v1_yonge1854.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century English printing); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Philo of Alexandria, Works (Yonge), volume 2",
+          "author": "philo",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "philo_works-v2_yonge1854.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century English printing); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Philo of Alexandria, Works (Yonge), volume 3",
+          "author": "philo",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "philo_works-v3_yonge1854.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century English printing); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Philo of Alexandria, Works (Yonge), volume 4",
+          "author": "philo",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "philo_works-v4_yonge1854.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century English printing); the archive.org record is tagged NOT_IN_COPYRIGHT"
         },
         {
           "work": "The Clementine Homilies",
@@ -5850,6 +6026,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "The Didascalia Apostolorum in English (Gibson 1903)",
+          "author": "didascalia-apostolorum",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "didascalia-apostolorum_didascalia-apostolorum-in-english_gibson1903.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "The Church History of Eusebius (Historia Ecclesiastica)",
           "author": "eusebius",
           "role": "context",
@@ -5874,6 +6058,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Josephus, Works (Whiston), including Antiquities XVIII (the Testimonium) and XX (James, the brother of Jesus called Christ)",
+          "author": "josephus",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "josephus_works-antiquities-wars-life_whiston1859.txt",
+          "rights": "Public Domain (pd-us-by-date: an 1859 printing of a translation first made by Whiston in the eighteenth century)"
+        },
+        {
           "work": "Liturgy of S. Clement",
           "author": "liturgy-of-st-clement",
           "role": "context",
@@ -5888,6 +6080,38 @@
           "confidence": "assigned",
           "source_file": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Philo of Alexandria, Works (Yonge), volume 1",
+          "author": "philo",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "philo_works-v1_yonge1854.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century English printing); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Philo of Alexandria, Works (Yonge), volume 2",
+          "author": "philo",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "philo_works-v2_yonge1854.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century English printing); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Philo of Alexandria, Works (Yonge), volume 3",
+          "author": "philo",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "philo_works-v3_yonge1854.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century English printing); the archive.org record is tagged NOT_IN_COPYRIGHT"
+        },
+        {
+          "work": "Philo of Alexandria, Works (Yonge), volume 4",
+          "author": "philo",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "philo_works-v4_yonge1854.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century English printing); the archive.org record is tagged NOT_IN_COPYRIGHT"
         }
       ]
     },
@@ -5910,6 +6134,14 @@
           "confidence": "assigned",
           "source_file": "npnf201_eusebius-church-history-life-of-constantine.xml",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Josephus, Works (Whiston), including Antiquities XVIII (the Testimonium) and XX (James, the brother of Jesus called Christ)",
+          "author": "josephus",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "josephus_works-antiquities-wars-life_whiston1859.txt",
+          "rights": "Public Domain (pd-us-by-date: an 1859 printing of a translation first made by Whiston in the eighteenth century)"
         },
         {
           "work": "The Epistle to Aristides",
@@ -6796,6 +7028,14 @@
       "status": "Built & Live",
       "works": [
         {
+          "work": "Amphilochius of Iconium, orations, homilies and Synodical Letter, PG 39, Greek",
+          "author": "amphilochius",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "amphilochius-iconium_opera-pg39-grc-lat_migne1858.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century Migne printing); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
+        },
+        {
           "work": "From the Iambics of Amphilochius to Seleucus, on the canon of Scripture",
           "author": "amphilochius",
           "role": "tradition",
@@ -6818,6 +7058,22 @@
           "confidence": "assigned",
           "source_file": "basil_address-to-young-men_padelford1902.txt",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Basil, Opera omnia, PG 29, Greek: Hexaemeron, Psalm homilies (Psalm 14 against usury), Against Eunomius I-III",
+          "author": "basil",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "basil_opera-omnia-pg29-grc-lat_migne1857.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century Migne printing); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
+        },
+        {
+          "work": "Basil, Opera omnia, PG 31, Greek: homily in time of famine and drought, on Luke 12:18, to the rich, on Julitta, on Mamas",
+          "author": "basil",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "basil_opera-omnia-pg31-grc-lat_migne1857.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century Migne printing); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
         },
         {
           "work": "De Spiritu Sancto (On the Holy Spirit)",
@@ -6908,6 +7164,14 @@
           "rights": "CC BY-SA 4.0 (Creative Commons Attribution-ShareAlike 4.0 International) -- NOT public domain as a digital edition; the printed edition it transcribes (printed 1871) is public domain by date. Attribution and share-alike travel with any quotation: the file's own licence element reads \"Available under a Creative Commons Attribution-ShareAlike 4.0 International License\" (https://creativecommons.org/licenses/by-sa/4.0/); publisher and authority University of Leipzig (2014), Gregory Crane principal, Jouve credited with 'OCR-ed, corrected and encoded the text', funder European Social Fund Saxony."
         },
         {
+          "work": "Epiphanius, Panarion, PG 42, Greek: Against the Pneumatomachi, Against Aerius",
+          "author": "epiphanius",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "epiphanius_panarion-haer-65-80-pg42-grc-lat_migne1863.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century Migne printing); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
+        },
+        {
           "work": "The Ethiopic Synaxarium, volume II (Takhshash, Ter, Yakatit), English translation by Budge",
           "author": "ethiopian-synaxarium",
           "role": "context",
@@ -6932,6 +7196,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Gregory of Nazianzus, Orations, PG 35, Greek (including Oration 14, On the Love of the Poor)",
+          "author": "gregory-nazianzen",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "gregory-nazianzen_orationes-pg35-grc-lat_migne1857.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century Migne printing); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
+        },
+        {
           "work": "Letters and Poems (Epistulae; Carmina), PG 37, Greek",
           "author": "gregory-nazianzen",
           "role": "tradition",
@@ -6954,6 +7226,14 @@
           "confidence": "assigned",
           "source_file": "gregory-nazianzen_second-invective-against-julian_king1888.txt",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Gregory of Nyssa, PG 46, Greek: Theodore, the Forty Martyrs, Life of Gregory Thaumaturgus, Against Those Who Lend at Interest, on the love of the poor",
+          "author": "gregory-nyssa",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863.txt",
+          "rights": "Public Domain (pd-us-by-date: a mid-nineteenth-century Migne printing); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
         },
         {
           "work": "The Life of St. Macrina (Vita Macrinae) - complete, introduction and narrative",
@@ -7351,6 +7631,46 @@
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Homilies on Colossians",
+          "author": "chrysostom",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "npnf113_chrysostom-homilies-galatians-philemon.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Homilies on First Thessalonians",
+          "author": "chrysostom",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "npnf113_chrysostom-homilies-galatians-philemon.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Homilies on Philippians",
+          "author": "chrysostom",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "npnf113_chrysostom-homilies-galatians-philemon.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Homilies on Second Thessalonians",
+          "author": "chrysostom",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "npnf113_chrysostom-homilies-galatians-philemon.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Homilies on the Acts of the Apostles",
+          "author": "chrysostom",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "npnf111_chrysostom-homilies-acts-romans.xml",
           "rights": "Public Domain"
         },
         {
@@ -8247,6 +8567,14 @@
           "confidence": "provisional",
           "source_file": "amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt",
           "rights": "Public Domain (pd-us-by-date: published 1896-1897); the item record carries no rights field"
+        },
+        {
+          "work": "Aphrahat, Demonstrations I-XXII (Syriac with Parisot's Latin)",
+          "author": "aphrahat",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "aphrahat_demonstrationes-1-22-syr-lat_parisot1894.txt",
+          "rights": "Public Domain"
         },
         {
           "work": "Demonstration II: On Love",
@@ -9292,6 +9620,22 @@
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "npnf206_jerome-principal-works.xml",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Commentary on the Epistle to the Romans, Books I to V (Rufinus's Latin)",
+          "author": "origen",
+          "role": "transmission",
+          "confidence": "assigned",
+          "source_file": "origen_commentarii-in-epistolam-ad-romanos-libri-1-5-lat_lommatzsch1836.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Commentary on the Epistle to the Romans, Books VI to X (Rufinus's Latin)",
+          "author": "origen",
+          "role": "transmission",
+          "confidence": "assigned",
+          "source_file": "origen_commentarii-in-epistolam-ad-romanos-libri-6-10-lat_lommatzsch1837.txt",
           "rights": "Public Domain"
         },
         {
@@ -11523,7 +11867,7 @@
           "rights": "Public Domain"
         },
         {
-          "work": "Fredegar, Chronicle, and the Liber historiae Francorum, Latin",
+          "work": "Fredegar, Chronicle, Latin",
           "author": "fredegar",
           "role": "tradition",
           "confidence": "provisional",
@@ -11608,6 +11952,14 @@
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "jonas-bobbio_life-of-st-columban_munro1895.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Liber historiae Francorum, Latin",
+          "author": "liber-historiae-francorum",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt",
           "rights": "Public Domain"
         },
         {
@@ -12359,6 +12711,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Dionysius Exiguus, translations from the Greek, canon collections and paschal writings, Latin",
+          "author": "dionysius-exiguus",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "The Ecclesiastical History of Evagrius (431-594), Greek text with scholia (Bidez and Parmentier, 1898)",
           "author": "evagrius-scholasticus",
           "role": "tradition",
@@ -12785,7 +13145,7 @@
       "status": "Pre-Survey Candidate",
       "works": [
         {
-          "work": "Paulus Emeritanus, Vitas Patrum Emeretensium; Sisebut; Braulio of Saragossa, Letters and Life of Aemilian (Latin)",
+          "work": "Sisebut; Braulio of Saragossa, Letters and Life of Aemilian (Latin)",
           "author": "braulio-saragossa",
           "role": "tradition",
           "confidence": "assigned",
@@ -12865,7 +13225,7 @@
           "rights": "Public Domain"
         },
         {
-          "work": "Ildefonsus of Toledo (De virginitate Mariae, De viris illustribus) and Julian of Toledo (Prognosticon, Historia Wambae), Latin",
+          "work": "Ildefonsus of Toledo (De virginitate Mariae, De viris illustribus), Latin",
           "author": "ildefonsus-toledo",
           "role": "tradition",
           "confidence": "provisional",
@@ -12913,6 +13273,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Julian of Toledo (Prognosticon, Historia Wambae), Latin",
+          "author": "julian-toledo",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "ildefonsus-julian-toledo-pl96-lat_migne1862.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "Leander of Seville, Regula (De institutione virginum) and Homilia in laudem Ecclesiae, Latin",
           "author": "leander-seville",
           "role": "tradition",
@@ -12934,6 +13302,14 @@
           "role": "tradition",
           "confidence": "provisional",
           "source_file": "ferotin_liber-mozarabicus-sacramentorum-lat-fra_1912.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Paulus Emeritanus, Vitas Patrum Emeretensium (Latin)",
+          "author": "paulus-emeritanus",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt",
           "rights": "Public Domain"
         },
         {
@@ -18577,6 +18953,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "The Latin Works of Huldreich Zwingli, Vol. II (Account of the Faith; Providence; Exposition of the Christian Faith)",
+          "author": "zwingli",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "zwingli_latin-works-correspondence-vol2_hinke1922.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "The Latin Works of Huldreich Zwingli, Vol. III (\"De Vera et Falsa Religione\" / Of True and False Religion, and the Antibolon)",
           "author": "zwingli",
           "role": "tradition",
@@ -22072,20 +22456,20 @@
           "rights": "Public Domain (published 1687, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
         },
         {
-          "work": "A Report of the Kingdom of Congo (1591), English of 1881",
-          "author": "lopes",
-          "role": "context",
-          "confidence": "provisional",
-          "source_file": "lopes_report-of-the-kingdom-of-congo_hutchinson1881.txt",
-          "rights": "Public Domain (published 1881, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
-        },
-        {
           "work": "Historia do Congo (Documentos): the whole corpo diplomatico of the Kongo mission, 1492 to the eighteenth century",
           "author": "paiva-manso",
           "role": "context",
           "confidence": "assigned",
           "source_file": "paiva-manso_historia-do-congo-documentos-por_1877.txt",
           "rights": "Public Domain (published 1877, more than 95 years ago; archive.org possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "A Report of the Kingdom of Congo (1591), English of 1881",
+          "author": "pigafetta",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "lopes_report-of-the-kingdom-of-congo_hutchinson1881.txt",
+          "rights": "Public Domain (published 1881, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
         }
       ]
     },
@@ -28074,14 +28458,6 @@
           "rights": "Public Domain (published 1671, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'http://creativecommons.org/publicdomain/mark/1.0/')"
         },
         {
-          "work": "A Report of the Kingdom of Congo (1591), English of 1881",
-          "author": "lopes",
-          "role": "antecedent",
-          "confidence": "provisional",
-          "source_file": "lopes_report-of-the-kingdom-of-congo_hutchinson1881.txt",
-          "rights": "Public Domain (published 1881, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
-        },
-        {
           "work": "A Voyage to Congo and several other countries chiefly in Southern Africk, by Merolla (English of 1704, in Pinkerton XVI)",
           "author": "merolla",
           "role": "context",
@@ -28096,6 +28472,14 @@
           "confidence": "assigned",
           "source_file": "merolla_breve-e-succinta-relatione-viaggio-congo-ita_piccardo1692.txt",
           "rights": "Public Domain (published 1692, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)"
+        },
+        {
+          "work": "A Report of the Kingdom of Congo (1591), English of 1881",
+          "author": "pigafetta",
+          "role": "antecedent",
+          "confidence": "provisional",
+          "source_file": "lopes_report-of-the-kingdom-of-congo_hutchinson1881.txt",
+          "rights": "Public Domain (published 1881, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
         },
         {
           "work": "History of Loango, Kakongo, and other Kingdoms in Africa, by Proyart (English, in Pinkerton XVI)",
@@ -29052,7 +29436,7 @@
           "rights": "Public Domain (pre-1930 publication); the item page carries possible-copyright-status NOT_IN_COPYRIGHT"
         },
         {
-          "work": "Anastasios Gordios, Demetrios Prokopiou, Alexandros Tyrnavites and the catalogues of unpublished letters (Greek)",
+          "work": "Anastasios Gordios, Alexandros Tyrnavites and the catalogues of unpublished letters (Greek)",
           "author": "gordios",
           "role": "tradition",
           "confidence": "provisional",
@@ -29186,6 +29570,14 @@
           "confidence": "assigned",
           "source_file": "paul-of-aleppo_travels-of-macarius-v2_belfour1836.txt",
           "rights": "Public Domain (published 1836, more than 95 years ago; public domain by date under the project's rolling rule; the item's own rights statement reads 'NOT_IN_COPYRIGHT')"
+        },
+        {
+          "work": "Demetrios Prokopiou (Greek)",
+          "author": "prokopiou",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "sathas_mesaionike-bibliotheke-v3-grc_1872.txt",
+          "rights": "Public Domain (printed 1872)"
         },
         {
           "work": "The Present State of the Greek and Armenian Churches, Anno Christi 1678",

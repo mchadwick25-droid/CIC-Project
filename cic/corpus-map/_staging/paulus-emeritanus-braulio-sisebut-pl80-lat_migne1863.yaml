@@ -16,7 +16,7 @@ authors_ruled:
 
 assignments:
   - row_id: paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863--merida-fathers-braulio
-    work: "Paulus Emeritanus, Vitas Patrum Emeretensium; Sisebut; Braulio of Saragossa, Letters and Life of Aemilian (Latin)"
+    work: "Sisebut; Braulio of Saragossa, Letters and Life of Aemilian (Latin)"
     author: braulio-saragossa
     locus: "Sisebut at raw line ~729; Braulio ~51492"
     atlas_ids:
@@ -25,3 +25,14 @@ assignments:
     confidence: assigned
     note: >
       Saints' lives and letters from Merida and Saragossa; Latin only.
+
+  - row_id: paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863--paulus-merida-fathers
+    work: "Paulus Emeritanus, Vitas Patrum Emeretensium (Latin)"
+    author: paulus-emeritanus
+    locus: "raw line ~698"
+    atlas_ids:
+      - nicene-visigothic-iberia
+    role: tradition
+    confidence: assigned
+    note: >
+      Saints' lives from Merida; Latin only.
