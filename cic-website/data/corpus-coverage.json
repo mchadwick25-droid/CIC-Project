@@ -8,8 +8,8 @@
   "scope": "vendored coverage only - see this script's own docstring for why the acquirable/purchasable/no-edition-exists breakdown is not included here",
   "counts": {
     "total_entries": 296,
-    "entries_with_coverage": 186,
-    "entries_zero_coverage": 110
+    "entries_with_coverage": 187,
+    "entries_zero_coverage": 109
   },
   "entries": {
     "post-apostolic-house-church": {
@@ -6290,6 +6290,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Festal Letter XXXIX (367) - the canon list and the books appointed to be read",
+          "author": "athanasius",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "npnf204_athanasius-select-works-letters.xml",
+          "rights": "Public Domain"
+        },
+        {
           "work": "Personal Letters of Athanasius",
           "author": "athanasius",
           "role": "tradition",
@@ -6439,6 +6447,14 @@
           "role": "context",
           "confidence": "assigned",
           "source_file": "origen_philocalia_lewis1911.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Rules of Pachomius in their Ethiopic (Ge'ez) version",
+          "author": "pachomius",
+          "role": "tradition",
+          "confidence": "needs-ruling",
+          "source_file": "pachomius_rules-ethiopic_schodde1885.txt",
           "rights": "Public Domain"
         },
         {
@@ -12199,7 +12215,7 @@
           "rights": "Public Domain"
         },
         {
-          "work": "Kebra Nagast (the Glory of Kings), with the chapters on King Kaleb",
+          "work": "Kebra Nagast (The Glory of Kings), English translation",
           "author": "kebra-nagast",
           "role": "transmission",
           "confidence": "assigned",
@@ -13459,6 +13475,14 @@
           "confidence": "provisional",
           "source_file": "synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
           "rights": "Public Domain (pd-us-by-date: published 1902); the item record carries no rights field"
+        },
+        {
+          "work": "Thomas of Marga, The Book of Governors (Historia Monastica), English",
+          "author": "thomas-of-marga",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "thomas-of-marga_book-of-governors-v2-english_budge1893.txt",
+          "rights": "Public Domain"
         }
       ]
     },
@@ -13858,7 +13882,16 @@
     "georgian-revival-tao-klarjeti": {
       "name": "Georgian Revival — Tao-Klarjeti and Athos",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "The Life of St Nino (Georgian), with the Armenian Version of Djouansher",
+          "author": "georgian-life-of-nino",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "studia-biblica-et-ecclesiastica-v5-life-of-st-nino_wardrop1903.txt",
+          "rights": "Public Domain"
+        }
+      ]
     },
     "post-aksumite-ethiopian-christianity": {
       "name": "Post-Aksumite Ethiopian Christianity",
@@ -14459,6 +14492,30 @@
           "role": "context",
           "confidence": "assigned",
           "source_file": "abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Le Synaxaire arabe jacobite, V (months Baounah to Mesore), ed. and tr. R. Basset (bound in this PO volume): the Coptic church's calendar notices of Dioscorus, Timothy, Theodosius, Benjamin and the murder of Proterius",
+          "author": "john-ephesus",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "john-ephesus_lives-eastern-saints-po17_brooks1923.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Le Synaxaire arabe jacobite, I (months of Tout and Babeh), with French",
+          "author": "synaxaire-arabe-jacobite",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Le Synaxaire arabe jacobite, III (months of Toubeh and Amchir), with French",
+          "author": "synaxaire-arabe-jacobite",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt",
           "rights": "Public Domain"
         }
       ]
@@ -15901,6 +15958,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "The Ethiopian Synaxarium, vols. II-IV: notices of the Aksumite saints and of King Kaleb (20 Genbot)",
+          "author": "ethiopian-synaxarium",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "The Ethiopic Synaxarium, volume I (Maskaram, Tekemt, Khedar), English translation by Budge",
           "author": "ethiopian-synaxarium",
           "role": "tradition",
@@ -15922,6 +15987,14 @@
           "role": "tradition",
           "confidence": "provisional",
           "source_file": "gadla-maba-seyon_lives-of-maba-seyon-and-gabra-krestos_budge1898.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Acta Yared et Pantalewon (the Ge'ez Lives of Yared and of Pantalewon, in Latin)",
+          "author": "gadla-pantalewon-yared",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904.txt",
           "rights": "Public Domain"
         },
         {
@@ -15963,6 +16036,14 @@
           "confidence": "provisional",
           "source_file": "mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt",
           "rights": "Public Domain (published 1908, more than 95 years ago; the host marks the item NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "Le Synaxaire ethiopien, I (month of Sane), with French",
+          "author": "synaxaire-ethiopien",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt",
+          "rights": "Public Domain"
         },
         {
           "work": "Miracles of the Virgin Mary, Life of Hanna, Prayers of 'Aheta Mika'el (Ethiopic texts with English translations)",
@@ -17926,6 +18007,14 @@
           "role": "context",
           "confidence": "assigned",
           "source_file": "hetum_history-of-the-tartars-flower-of-histories-of-the-east_bedrosian2004.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Le Synaxaire arménien de Ter Israel (Basset), the notice of St Shushanik, daughter of Vardan, martyred by her husband Vazgen governor of Georgia (bound in this PO volume)",
+          "author": "john-ephesus",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "john-ephesus_lives-eastern-saints-po18_brooks1924.txt",
           "rights": "Public Domain"
         },
         {
@@ -20813,7 +20902,7 @@
           "rights": "Public Domain (published 1599; public domain by date under the project's 95-year rule)"
         },
         {
-          "work": "Pauls Complaint against his Naturall Corruption (1621 English translation)",
+          "work": "Pauls Complaint against his Naturall Corruption (two sermons on Romans 7:24, 1621 English translation)",
           "author": "teellinck",
           "role": "transmission",
           "confidence": "provisional",
@@ -24758,6 +24847,14 @@
           "confidence": "provisional",
           "source_file": "reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886.txt",
           "rights": "Public Domain (published 1886; the host also carries a Public Domain Mark 1.0)"
+        },
+        {
+          "work": "Roman Martyrology, 24 October (Aretas and the martyrs of Nagran) and 27 October (King Elesbaan of Ethiopia)",
+          "author": "roman-breviary",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "roman-breviary_bute1908.txt",
+          "rights": "Public Domain"
         },
         {
           "work": "The Roman Breviary (reformed by order of the Council of Trent; published by Pius V; revised by Clement VIII, Urban VIII, and Leo XIII)",
