@@ -2092,3 +2092,9 @@ Status: OPEN for the independent recheck.
 The independent Opus review of `don.limit.fate-of-those-who-end-their-own-lives` found that the earlier absence claim ("no Donatist text we have speaks to it") was too wide. Augustine's Contra Gaudentium (c. 420) is vendored in `cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt` (work begins line 73262). It quotes the letters of Gaudentius, Donatist bishop of Thamugadi, who threatened to burn himself in his church (I.1, lines 73276-73278); Augustine answers the appeal to Razias at I.31.36 (line 75702). The record is narrowed: the statement now says some writings were not read, and `why_sources_cannot_answer` names the work. Still open: read Contra Gaudentium on chosen death under coercion and decide whether it changes the record. Gaudentius's own words are not to be voiced in a record that can fire on a suicide question. The earlier Decision-Log finding that Petilian II.17 is the only Donatist-voiced line near the subject is withdrawn.
 
 Status: OPEN.
+
+### OG-53. Third review applied to the fate-of-those-who-end-their-own-lives limit, 2026-10-27.
+
+The spoken statement no longer quotes Petilian's line about Judas (it named a method and set a traitor beside a suicide question); it keeps the martyrs-quarrel framing and cites Optatus III.4. The account of the Monumenta file now says it holds the Passio Marculi and the Passio of Isaac and Maximian, Donatist martyr texts that place their martyrs in heaven, and that the Passio Marculi has Marculus thrown from the cliff by his executioner. Petilian's locus is Answer to Petilian II.8.17. Awaiting a fourth read (Mark's cap ruling) before `use_note.status` can move to reviewed; Contra Gaudentium is still unread (see OG-52).
+
+Status: OPEN for the fourth read.

@@ -14,27 +14,23 @@ confidence:
   formation_confidence: Documented
   divergence_note: null
 sources:
-- source_id: don.source.augustine-answer-to-petilian
-  locus: 'Answer to Petilian, Book II, chapter 17, Petilian''s own words, ''The traitor perished by the rope
-    -- he left the rope for others like himself'' (source text: colon after rope) -- verified directly against
-    cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, line 15887 (Judas ''went and hanged himself'',
-    line 15884)'
+- source_id: don.source.optatus-against-the-donatists
+  locus: 'Against the Donatists, Book III, chapter 4: the charge that some of the Donatists ''cast themselves down headlong from the summits of lofty mountains'' to win a martyr''s name -- verified directly against cic/texts/optatus_against-the-donatists.txt, line 2014; the charge of an opponent, not a Donatist teaching'
   license: public-domain
 relations: []
 statement: >
   What do we teach about a person who ends their own life? I cannot give you an answer of ours. In
-  the words of ours that I know, there is no teaching on it. The nearest line is Petilian's. He says
-  that the traitor Judas perished by the rope. That is a charge made in a quarrel about traitors. It
-  is not a teaching about the dead. Our enemies charged some of us with seeking death to be counted as martyrs. That was a quarrel over who may be called a martyr. No verdict on any person's death is mine to give. No condition
-  on one is mine to set.
+  the words of ours that I know, there is no teaching on it. Our enemies charged some of us with
+  seeking death to be counted as martyrs. That was a quarrel over who may be called a martyr. It was
+  not a teaching about the dead. No verdict on any person's death is mine to give. No condition on
+  one is mine to set.
 why_sources_cannot_answer: 'What survives of us is hostile-mediated. Our own voice is mostly preserved
   inside the books written to refute us. I read the Monumenta Vetera Donatistarum in cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt
-  for any Donatist text on this question and found none. Its only passages near the subject are an editor''s
-  note on Marculus and a quotation of Augustine, both written from outside. I also read the passages
+  for any Donatist text on this question and found none. It holds Donatist martyr texts, the Passio Marculi and the Passio of Isaac and Maximian, which place their martyrs in heaven; the Passio Marculi says he was thrown from the cliff by his executioner, so it answers the charge of self-destruction and does not teach on it. Its other passages near the subject, an editor''s note and a quotation of Augustine, are written from outside. I also read the passages
   of Optatus (Against the Donatists III.4, cic/texts/optatus_against-the-donatists.txt, line 2014) and
   of Augustine (Answer to Petilian, cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, and
   Letter 185) that make the charge of self-destruction. They concern who may be called a martyr. They
-  are the charges of opponents. They record no Donatist teaching on the fate of the dead. Petilian II.17 is the nearest Donatist-voiced line found in what was read, and it speaks of a traitor. Not read for this record: Augustine''s Contra Gaudentium (c. 420; Petschenig file cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt, work begins line 73262), which quotes the letters of Gaudentius, Donatist bishop of Thamugadi, written when he threatened to burn himself in his church with followers rather than submit (I.1, lines 73276-73278); Augustine answers the appeal to Razias at I.31.36 (line 75702). Those letters are Donatist-voiced and concern chosen death under coercion, a martyr question; whether they say anything on the fate of the dead is unchecked. Also not read: the Monumenta 303-340 file. I did not search every volume of the corpus.'
+  are the charges of opponents. They record no Donatist teaching on the fate of the dead. Petilian (quoted in Answer to Petilian II.8.17, npnf104 line 15887) is the nearest Donatist-voiced line found in what was read; it speaks of a traitor, and it is not used in the spoken text. Not read for this record: Augustine''s Contra Gaudentium (c. 420; Petschenig file cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt, work begins line 73262), which quotes the letters of Gaudentius, Donatist bishop of Thamugadi, written when he threatened to burn himself in his church with followers rather than submit (I.1, lines 73276-73278); Augustine answers the appeal to Razias at I.31.36 (line 75702). Those letters are Donatist-voiced and concern chosen death under coercion, a martyr question; whether they say anything on the fate of the dead is unchecked. Also not read: the Monumenta 303-340 file. I did not search every volume of the corpus.'
 nearest_material:
 - don.contested.augustine-precipice-charge
 - don.dw.not-a-death-wish

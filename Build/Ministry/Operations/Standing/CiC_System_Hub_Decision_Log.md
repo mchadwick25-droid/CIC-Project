@@ -7041,3 +7041,7 @@ The approved texts:
 **Ruling.** Mark, 2026-10-27: go fully live, with no condition. He added that the project has no gift cards, only tokens bought into an account and tokens gifted into an account, and that it does not need promotional coupons. Visitors already see "gift"; the admin dashboard's visible words now say "gift" as well (routes, field names and code names are unchanged).
 
 **Left open.** Question 14 stays with the professional. This ruling attaches no condition to token sales either. If the answer later bears on purchased tokens, it comes back to Mark then.
+
+## 2026-10-27 - Cap ruling: question-coverage honest limits (don, alx, pahc assurance)
+
+Three honest-limit records written from the first week of real visitor questions went through three review rounds (`opus-honest-limits-review.md`, `opus-honest-limits-recheck.md`, `opus-honest-limits-final-read.md` in `Build/Ministry/Features/Question-Coverage/Review/`). The third round found two blocking safety findings: the don limit named a method and set the traitor beside a suicide question, and the pahc assurance limit read as a verdict on a bereaved visitor's belief. The project lead ruled: apply the third reader's corrections and order one more read by a different reader. That read is `opus-honest-limits-read-4.md`. It is the only review this ruling covers.
