@@ -2065,3 +2065,18 @@ Question-coverage design thread, 2026-10-27 (`Build/Ministry/Features/Question-C
 - The matching worklist row is Facilitator-adjacent and stays held (Decision-Log, 2026-10-26, R1).
 
 Status: OPEN, for this world's thread.
+
+### OG-50. Record written for Augustine's precipice charge; honest limit still open, 2026-10-27.
+
+Follows "Augustine's precipice charge against Donatist martyrs has no framing record" (2026-10-27). Mark ordered an Opus review of the first draft (`Build/Ministry/Features/Question-Coverage/Review/opus-don-guard-review.md`); the record below is that draft rewritten with its corrections.
+
+- New `don.contested.augustine-precipice-charge` (contested_claim, F6-E, status ready, `use_note.status: provisional`). It carries the charge from Optatus III.4, Answer to Petilian II.46, 110, 114, 160, 193, 195, 197, 204 and Letter 185, the doubt Augustine himself admits (II.46), and the Passio Marculi's telling of the death as an execution. `claim` states only the historical proposition; Augustine's Judas and devil verdict is in `held_against`, framed as polemic.
+- `don.dw.not-a-death-wish` and `don.contested.circumcellion-character` gain `not_for` lines on the eternal fate of a person who died by suicide and on the unproven suicide charge.
+- Opus verdict on the waiver: no bump to the status-ready count, and not `voice: analytic`. The record is ready with `use_note.status` provisional. Moving it to reviewed needs an independent recheck of the corrected text.
+- `records don` and `regate don` pass; the package is rebuilt and repinned.
+
+Still open:
+- An honest limit for the question a bereaved or at-risk visitor asks ("is suicide damnable"), which this record rightly never fires on. It must say this world's sources hold no Donatist teaching on the fate of a person who dies by suicide; that the one Donatist-voiced line near it (Petilian, II.17, the traitor who hung himself) is a polemic, not a teaching; that the opponents' charges concern martyr claims, not anyone today; give no verdict on anyone's death; and carry no Facilitator or crisis wording. The Opus review suggests F6-T, following the lpc precedent. Distress stays with the Facilitator (Governance V3.6 section 12).
+- The worklist row for this item stays Facilitator-adjacent and held until Mark releases it.
+
+Status: OPEN, for this world's thread.
