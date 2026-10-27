@@ -14,6 +14,27 @@ from .anachronism import mentions_term
 
 ACUTE_SIGNALS = {"ACUTE_DISTRESS", "HARMFUL_DYNAMIC_SIGNAL"}
 PRESSABLE_CLASSES = {"later_age", "other_tradition"}
+PERSONAL_CHECK_IN_REASONS = frozenset({"loss_to_suicide", "coercion_by_person"})
+
+
+def check_in_reason_for(safety: dict | None) -> str:
+    """The reason a check-in turn should carry: one of the two personal
+    reasons whenever the classifier names it, otherwise "general"."""
+    if not safety:
+        return "general"
+    reason = safety.get("check_in_reason")
+    return reason if reason in PERSONAL_CHECK_IN_REASONS else "general"
+
+
+def check_in_due(safety: dict | None, check_ins_shown: frozenset[str] | set[str]) -> bool:
+    """Whether this classification routes to a check-in. A personal reason's
+    check-in is shown once per conversation; "general" is shown every time."""
+    if not safety:
+        return False
+    reason = check_in_reason_for(safety)
+    if safety.get("signal") != "AMBIGUOUS_LOW_CONFIDENCE" and reason == "general":
+        return False
+    return reason == "general" or reason not in check_ins_shown
 
 # The kinds of question the reader names; "other" is any question none of
 # the rest fits, and a bare follow-up that asks nothing new.
@@ -126,19 +147,22 @@ def directive_without_terms(reader: dict, display_terms: list[str]) -> Directive
 
 
 def route(
-    *, safety: dict | None, reader: dict | None, pressed: dict[str, bool], anachronistic_term_ids: set[str], message: str
+    *, safety: dict | None, reader: dict | None, pressed: dict[str, bool], anachronistic_term_ids: set[str], message: str,
+    check_ins_shown: frozenset[str] | set[str] = frozenset(),
 ) -> RoutingDecision:
     """safety=None means the safety call is unavailable this turn (failed/
     timed out) - callers get here via failure.py's fail-open path, never by
     skipping the safety call on purpose.
 
     reader=None means the reader call failed/timed out but safety alone was
-    decisive (ACUTE_DISTRESS, HARMFUL_DYNAMIC_SIGNAL, or AMBIGUOUS_LOW_CONFIDENCE
-    - failure.py's _SAFETY_DECISIVE_SIGNALS). Safe only because those three
-    branches below return before this function ever dereferences `reader`;
-    every other branch requires a real reader dict and failure.py never calls
-    route() with reader=None unless one of those three signals is already
-    confirmed present.
+    decisive (ACUTE_DISTRESS, HARMFUL_DYNAMIC_SIGNAL, or a check-in that is due
+    - failure.py's resolve_gate). Safe only because those branches below
+    return before this function ever dereferences `reader`; every other
+    branch requires a real reader dict and failure.py never calls route()
+    with reader=None unless one of those is already confirmed present.
+
+    check_ins_shown is the set of personal check-in reasons already shown
+    this conversation; a reason in it routes onward as an ordinary turn.
 
     message is the participant's own text this turn - required, not
     defaulted, so a caller that hasn't been updated fails loudly (a
@@ -158,16 +182,9 @@ def route(
             reason = f"{reason} (risk_subject={risk_subject})"
         return RoutingDecision(action="safety_turn", reason=reason)
 
-    if safety is not None and safety["signal"] == "AMBIGUOUS_LOW_CONFIDENCE":
-        # Live safety-script batch 2 (scenario s9) surfaced this
-        # gap: an adversarial hypothetical-framed disclosure was correctly
-        # classified AMBIGUOUS_LOW_CONFIDENCE, then fell through to ordinary
-        # (non-safety) routing since AMBIGUOUS wasn't in ACUTE_SIGNALS. The
-        # fix: give it its own softer route - a check-in turn, short of
-        # the full safety turn - ranked above system_nature/bridge/etic so a
-        # possible disclosure still gets a safety-aware response even when
-        # the reader also reads the message as e.g. a system-nature question.
-        return RoutingDecision(action="check_in_turn", reason="safety signal AMBIGUOUS_LOW_CONFIDENCE")
+    if check_in_due(safety, check_ins_shown):
+        # A possible disclosure gets a check-in, ranked above system_nature, bridge and etic, so it is never treated as an ordinary question.
+        return RoutingDecision(action="check_in_turn", reason=f"safety signal {safety['signal']}")
 
     if reader["out_of_scope"]["class"] == "system_nature":
         if _plausible_system_nature(message):
