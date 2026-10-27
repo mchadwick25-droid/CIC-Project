@@ -2080,3 +2080,9 @@ Still open:
 - The worklist row for this item stays Facilitator-adjacent and held until Mark releases it.
 
 Status: OPEN, for this world's thread.
+
+### OG-51. Honest limit written for the fate of those who end their own lives, 2026-10-27.
+
+Closes the open item in OG-50. New `don.limit.fate-of-those-who-end-their-own-lives` (honest_limit, F6-T, ready, `use_note.status` provisional): the texts held here carry no Donatist teaching on the fate of a person who dies by suicide; the nearest Donatist-voiced line (Petilian, quoted in Answer to Petilian II.17, npnf104 line 15887) is a taunt about a traitor, not a teaching; the opponents' charges concern who may be called a martyr; no verdict on any person's death. It carries no Facilitator or crisis wording. Searched: the Monumenta Vetera Donatistarum file by Latin and English terms and Optatus III.4; not every volume. Still open: an independent recheck of this record and of `don.contested.augustine-precipice-charge` before either moves to reviewed.
+
+Status: OPEN for the independent recheck.
