@@ -42,3 +42,13 @@ assignments:
       Shushanik. Transmission (a medieval Armenian calendar preserving the 5th-century
       martyr's memory); the author slug is the file's, not the work's, which this note
       records plainly. Era III Library pass, October 2026.
+
+  - row_id: john-ephesus_lives-eastern-saints-po18_brooks1924--armenian-synaxarion-shushanik--voice
+    work: Le Synaxaire arménien de Ter Israel (Basset), the notice of St Shushanik, daughter of Vardan, martyred by her husband Vazgen governor of Georgia (bound in this PO volume)
+    author: john-ephesus
+    locus: the Synaxaire arménien section (raw file lines ~5964-5966 for Shushanik)
+    atlas_ids:
+    - armenian-cilicia-after-the-kingdom
+    role: tradition
+    confidence: provisional
+    note: The medieval Armenian Synaxarion of Ter Israel. The vendored edition does not date the compilation, so this placement rests on the standard dating from outside the file and stays provisional until checked against a dated source.

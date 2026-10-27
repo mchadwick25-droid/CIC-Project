@@ -1604,3 +1604,17 @@ Gap 4 of the same audit. The five scripts that call ElevenLabs (`Build/tools/gen
 Found while gating the narration scripts. `.github/workflows/ci.yml` runs neither `Build/tools/*.test.mjs` nor `Build/tools/tests/test_generate_door_narration.py`, so the ElevenLabs gate above, like the scripts' other tests, is checked only when someone runs it. On `main`, `DoorEntries` fails twice with `KeyError: 'role_label'` at `Build/tools/generate_door_narration.py:62`: a Representative entry no longer carries that field. The gate's own tests do not depend on it.
 - What a fix would involve: a CI job for the Build/tools tests, and `door_entries` reading the field where the Representative records now keep it.
 - Status: OPEN.
+
+## 2026-10-27 - Closed: `cic/engine/tests_corpus_map.py` passes and its CI step blocks
+
+The entry dated 2026-09-29 is closed. The five checks it named, and one more that failed on `main` since then, were repaired as data changes to the corpus map and its tests:
+- The author index reads `DC.Creator` from the CCEL volumes, so those lines were restored after the header cleaning.
+- The tests skip the hand-authored `fixture-synthetic` bucket (`fixture: true`).
+- Seven author rulings that no assignment used were given their own rows, a relabel or a removal.
+- Fifteen transmitted works had their voice placed on the Atlas.
+- Nine transmitted works whose voice belongs to a window no Atlas entry covers are listed in `ACCEPTED_ORPHANS` in `tests_corpus_map.py`, each with its reason; the test fails if a listed work stops being an orphan or an unlisted one appears.
+
+The CI step no longer has `continue-on-error`.
+- Open: the nine listed works need Atlas entries for late-medieval Ireland, Wales after 768, the later East Syriac and Georgian periods, and the Armenian and Coptic liturgical manuscripts. Adding entries is a change order for the project lead.
+- Status: CLOSED for the test; the Atlas entries are OPEN.
+

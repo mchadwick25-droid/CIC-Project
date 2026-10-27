@@ -20,3 +20,13 @@ assignments:
     note: >
       Late medieval memory of the Aksumite church, in English; transmission, retrospection
       flags required.
+
+  - row_id: ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928--synaxarium-v2-v4--voice
+    work: 'The Ethiopian Synaxarium, vols. II-IV: notices of the Aksumite saints and of King Kaleb (20 Genbot)'
+    author: ethiopian-synaxarium
+    locus: whole file; Kaleb around raw line 30395
+    atlas_ids:
+    - the-ethiopian-monastic-flowering
+    role: tradition
+    confidence: provisional
+    note: The Ethiopian church's calendar of saints, a late medieval work. Placed beside the other volumes of the Synaxarium held here.

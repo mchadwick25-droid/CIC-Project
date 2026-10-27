@@ -20,3 +20,13 @@ assignments:
     note: >
       The Georgian conversion narrative in 9th-10th-century redactions: transmission,
       retrospective, confidence tags required.
+
+  - row_id: studia-biblica-et-ecclesiastica-v5-life-of-st-nino_wardrop1903--life-of-nino--voice
+    work: The Life of St Nino (Georgian), with the Armenian Version of Djouansher
+    author: georgian-life-of-nino
+    locus: from raw line ~166; the Djouansher version from ~3620
+    atlas_ids:
+    - georgian-revival-tao-klarjeti
+    role: tradition
+    confidence: provisional
+    note: The Georgian conversion narrative in its 9th- and 10th-century redactions. Placed on that window.

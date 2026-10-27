@@ -11,3 +11,13 @@ assignments:
     confidence: assigned
     note: >
       Medieval Coptic calendar memory of the 5th-7th-century church.
+
+  - row_id: synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915--synaxaire-arabe-toubeh-amchir--voice
+    work: Le Synaxaire arabe jacobite, III (months of Toubeh and Amchir), with French
+    author: synaxaire-arabe-jacobite
+    locus: Basset's fascicle (PO 11.5)
+    atlas_ids:
+    - coptic-christianity-fatimid-to-mamluk
+    role: tradition
+    confidence: provisional
+    note: The Coptic-Arabic Synaxarion, a 13th-century compilation, in a French translation. Placed on its date.
