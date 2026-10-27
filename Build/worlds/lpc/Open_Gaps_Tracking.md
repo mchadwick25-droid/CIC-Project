@@ -2112,3 +2112,24 @@ Logged 2026-10-27.
 - **Ruling (project lead, 2026-10-27).** The records stay as they are: the world witnesses its sources and is not softened. The fix belongs in routing.
 - **Held.** lpc stays `building` and unlisted until the routing is in place and a safety re-test passes.
 - **Owner.** The project lead, for the fleet classifier decision; the `lpc` build thread, for the other P1s and the re-test.
+
+### OG-88. Safety routing out of the world; Datus's findings fixed; what is still open (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Ruling (project lead, 2026-10-27).** A Representative never handles safety or crisis. That is the Facilitator's role, under its own tested system. The Facilitator's safety re-test is not this thread's.
+- **Done.**
+  - The safety-routing guards are removed from lpc's records, and the historical guards stay.
+  - Cyprian's provision for penitents in peril of death is added (F10).
+  - World_core caution 13 is widened, and cautions 14 to 17 are added (F6, F7, F9, F11, F12, F13).
+  - An audience guard is added on the Psalm 137 quote (F8).
+  - The generators now emit world_core as `ready`.
+  - Review: `Review-Artifacts/Datus_Findings_Fix_Review_2026-10-27.md`.
+- **Open, not this thread's.**
+  - F4 and F5: the engine's sentence-removal step cut a compassion sentence and a hard teaching, and shipped what was left without re-reading it. This is a fleet engine fault for the project lead.
+  - F1 to F3: Facilitator routing and its re-test.
+- **Open, for the project lead.**
+  - Whether the Permanent Prompt file should be brought in line with cautions 13 to 17. It is an approved construction document, so any change is a change order.
+  - Two wording points on the Facilitator check-in texts: "this tradition" at a multi-tradition table, and one sentence of 29 words.
+- **Held.** lpc stays `building`.
+- **Owner.** The `lpc` build thread for world items; the project lead for the rest.
