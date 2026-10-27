@@ -457,3 +457,8 @@ Four Opus review threads reported on 2026-10-23 (main e64646393, live 469d072c):
 - Mark's choice (2026-10-26): option 1, grade the field. Mark answered "1" to a two-option question; the other option was a waiver.
 - Not done here: no engine change, and the `don` and `rzg` notes (97 of 98 and 55 of 56 fail the bar) are not redone. A gate change is a fleet engine and governance change, so it goes to a build thread with an independent review (CLAUDE.md 4.4). Sizing the `don` and `rzg` rework is open.
 - Timing (Mark, 2026-10-26): hold until after the Friday reset, or until Mark says "go ahead". It is an unfinished task, not dropped. Open work when released: brief a build thread for the gate change, size the `don` and `rzg` note rework, and get an independent review of the gate change.
+
+## Saved-conversation sentence for the privacy page — 2026-10-27
+- Mark approved the accounts thread's draft as written (2026-10-27): "A conversation you save to your account is kept until you delete it, or until your account has sat unused for two years." Reason: the privacy page says a conversation is deleted after 90 days (`cic-website/privacy.html` line 145 on main, checked), which is wrong for a saved conversation.
+- Passed to the accounts build thread, which adds it hidden with the other account parts and logs the ruling. Not yet built or confirmed by that thread.
+- Still open for accounts: SES production access (region and domain), Render settings, question 63 (imminent risk), and the coupons sentence for the privacy page.
