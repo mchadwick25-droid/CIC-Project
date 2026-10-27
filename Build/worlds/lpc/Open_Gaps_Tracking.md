@@ -2142,3 +2142,12 @@ Logged 2026-10-27.
 - **Package.** `python -m engine.m2.cli build lpc` wrote the lpc package 2026-10-27T04-46-29Z (written by the parallel session that merged main first; my own rebuild, 04-39-49Z, was dropped); `determinism-check lpc` passes. `records/worlds/lpc.yaml` is pinned to it. `lpc` stays `building`.
 - **Gates.** `records`, `regate`, `claims` and `handoff` for lpc pass.
 - **Owner.** The `lpc` build thread.
+
+### OG-90. F4/F5: post-draft sentence removal damages answers; sent to an engine thread (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Fault.** In the 27 October live run, the engine's post-draft sentence removal cut a compassion sentence and the infant teaching, then shipped the remainder unread. Evidence: `Review-Artifacts/Live_Validation_Review_2026-10-27.md` (F4, F5) and the reports in `engine/m4/reports/lpc-validation-2026-10-27/`.
+- **Ruling.** Project lead, 2026-10-27: it goes to an engine thread (see the Decision Log). It is a fleet fault; the `lpc` records are not changed for it.
+- **Engine thread to decide.** Whether a removal that changes meaning should block the shipped answer, and whether a changed answer is re-read before it ships.
+- **Owner.** An engine thread. `lpc` stays `building`.

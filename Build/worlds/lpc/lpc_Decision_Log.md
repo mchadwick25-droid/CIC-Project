@@ -2687,3 +2687,9 @@ Two placements came from review options, not from the project lead. (1) "Turn th
 ### 2026-10-27 — The suicide records stay as written; the safety fix goes to routing (project lead's ruling)
 
 The live test found a bereaved participant answered by Datus with Augustine's teaching (OG-87). Alternatives shown: (1) silence the three suicide records until the Facilitator handles bereavement; (2) keep them voiced and change how Datus opens the subject; (3) remove them. The project lead rejected deleting or softening: "we are a witness of the sources". Ruling: the records stay as written, and the fix goes where the failure is, in the Facilitator's routing. lpc stays `building`, reachable by no participant, until that routing exists and a safety re-test passes. The classifier change is a fleet decision, put to the project lead separately.
+
+---
+
+### 2026-10-27 — F4/F5 (post-draft sentence removal) goes to an engine thread (project lead's ruling)
+
+The live review found that the engine's post-draft sentence removal cut a compassion sentence and the infant teaching from Datus's answers, then shipped the rest unread. This is a fleet engine fault, not an `lpc` record fault. Alternatives shown: (1) an engine thread; (2) back to the project lead with fix options first; (3) hold until the safety re-test. Chosen: 1 (project lead, 2026-10-27).
