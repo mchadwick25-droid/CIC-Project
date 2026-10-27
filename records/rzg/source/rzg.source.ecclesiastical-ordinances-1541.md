@@ -16,8 +16,8 @@ sources: []
 relations: []
 author: Geneva city council and John Calvin (jointly promulgated)
 work: John Calvin's 'Ecclesiastical Ordinances' of 1541
-edition: No verified public-domain English edition located this pass - NOT YET ACQUIRED
-rights_status: "Native to this world's own boundary but not yet acquired - a real, disclosed acquisition gap, not a rights refusal. Nothing is vendored or quoted from this row; every field below states what is currently known about the work itself, not its content"
+edition: 'The 1541 text (revised 1561) is not held, and no verified public-domain English edition has been located. Held instead, as a different text: the 1576 General Council revision in French, Geneva: Freres de Tournes, 1735 reprint, held as the Library file calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735.txt (see rzg.source.ordonnances-ecclesiastiques-1576)'
+rights_status: "The 1541 text itself is public domain by date but is not held. A 1977 modern translation of Calvin's Ordinances exists in the Library of Christian Classics (in-copyright); it is not vendored and no record rests on it. The 1576 revision is vendored; its rights are stated on its own record"
 attribution_status: jointly promulgated by Geneva's city council and Calvin; the underlying 1541/1561
   ordinances themselves are Native to this world, but no specific edition is currently held.
 discovery_channel: Source_Registry.md row 14, added 2026-09-15; Schaff's History of the Christian Church

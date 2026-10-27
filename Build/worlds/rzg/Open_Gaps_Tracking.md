@@ -383,3 +383,22 @@ Status: CLOSED for the three documents and the Marburg cross-reference; OPEN for
    - `rzg.source.ecclesiastical-ordinances-1541` is correctly unvendored for the 1541 text. The file `cic/texts/calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735.txt` is the 1576 General Council revision (its own header says it is not the 1541/1561 text verbatim). The world holds the 1576 revision and has no source record for it. A record for the revision would let a reply say which text it rests on.
 
    Status: OPEN, for this world's thread.
+
+80. **Catch-up to the Library's 2026-10-27 wants sort, 2026-10-27.** Follows the entry "Source records out of step with the Library, 2026-10-26". Source records only; no quotation was added or changed, and no metered model call was made. Package rebuilt and repinned; records, regate, deployed, staleness and M9 checks clean.
+
+   Updated:
+   - `rzg.source.genevan-psalter`: now `kind: vendored`, names `marot-beze_pseaumes-mis-en-rime-francoise-fra_1562.txt`, public domain by date. Its confidence fields are unchanged because no record cites the file yet.
+   - `rzg.source.ordonnances-ecclesiastiques-1576`: new record for the vendored 1576 General Council revision (1735 Tournes reprint, French). This closes the second bullet of the 2026-10-26 entry.
+   - `rzg.source.ecclesiastical-ordinances-1541`: states that the 1541/1561 text is not held and names the 1576 file as a different text. It notes that a 1977 translation exists but is in-copyright and not vendored.
+   - `rzg.source.beza-works`: names the held Beza texts (the Psalter, Job Expounded, Histoire ecclesiastique tomes 1 to 3). The Histoire's attribution to Beza is the editors'. Letters and the Tabula praedestinationis are not held.
+   - `rzg.source.geneva-consistory-registers`: in-copyright (Eerdmans, 2000, Volume 1), purchasable, not vendorable.
+   - `rzg.source.dentiere-works`: no edition held; the Library text index has no match for Dentiere or the Epistre tres utile.
+   - `rzg.core.the-reformed-cities-zurich-and-geneva`: the caution sentence no longer says all five are unacquired.
+
+   Still open:
+   - Request for the Library thread: check whether public-domain editions exist for Beza's letters and Tabula praedestinationis, Dentiere's 1539 Epistre tres utile and 1561 preface, and the 1541/1561 Ordinances text. This pass searched the vendored Library only.
+   - The Consistory registers stay a purchase-only gap; the absent consistory case narrative (Doc_09 SS7 item 4) stays.
+   - The Histoire ecclesiastique and Psalter files are second witnesses (OCR noise); nothing is quotable until checked against a page image.
+   - No record cites any of the newly held files yet; using them is future build work.
+
+   Status: CLOSED for the 2026-10-26 entry. OPEN for the items above.
