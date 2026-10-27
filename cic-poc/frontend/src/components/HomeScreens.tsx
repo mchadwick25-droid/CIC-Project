@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import {
-  closeHome, deleteAccount, exportData, finishAddressChange, makeRecoveryCode, providerLink, providerUnlink, startAddressChange, useAccount,
+  deleteAccount, exportData, finishAddressChange, makeRecoveryCode, providerLink, providerUnlink, startAddressChange, useAccount,
   type Provider,
 } from '../lib/accounts';
 import { accountsCopy as copy } from '../lib/accountsCopy';
@@ -178,13 +178,15 @@ export function DeleteScreen({ onBack }: { onBack: () => void }) {
       <h2>{copy.deleteHome}</h2>
       <p>{copy.deleteIntro}</p>
       {!confirmed && <Gate guard={guard} onCancel={onBack} onDone={() => setConfirmed(true)} intro={copy.confirmIntro} />}
+      <h3>{copy.deleteWhenHeading}</h3>
+      <p>{copy.deleteWhen}</p>
       <h3>{copy.deleteGoesHeading}</h3>
       <p>{copy.deleteGoes}</p>
       <h3>{copy.deleteStaysHeading}</h3>
       <p>{copy.deleteStays}</p>
       {confirmed && (
         <div className="account__actions">
-          <button type="button" disabled={guard.busy} onClick={() => void guard.run(async () => { await deleteAccount(); closeHome(); })}>{copy.deleteYes}</button>
+          <button type="button" disabled={guard.busy} onClick={() => void guard.run(async () => { await deleteAccount(); })}>{copy.deleteYes}</button>
           <button type="button" onClick={onBack}>{copy.deleteNo}</button>
         </div>
       )}

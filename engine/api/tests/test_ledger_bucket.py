@@ -8,7 +8,7 @@ import pytest
 
 from engine.accounts.service import AccountsService, ledger_hash
 from engine.accounts.store import AccountStore
-from engine.accounts.tests.conftest import ADDRESS_KEY, SESSION_KEY, Clock, FakeMailer, stepped_up_session
+from engine.accounts.tests.conftest import ADDRESS_KEY, SESSION_KEY, Clock, FakeMailer, delete_now, stepped_up_session
 from engine.accounts.keys import KeyRing
 from engine.api import db_backup, ledger_bucket
 from engine.api.backup_seal import BackupSealer
@@ -64,12 +64,15 @@ def make_service(tmp_path, name="a", clock=None, publish=True):
         ledger_publisher=ledger_bucket.publish if publish else None, ledger_source=ledger_bucket.entries if publish else None,
         erasure_publisher=(lambda h, t, e: ledger_bucket.publish_erasure(SEALER, h, t, e)) if publish else None,
         erasure_source=(lambda: ledger_bucket.erasures(SEALER)) if publish else None,
+        closure_publisher=ledger_bucket.publish_closure if publish else None,
+        closure_remover=ledger_bucket.remove_closure if publish else None,
+        closure_source=ledger_bucket.closures if publish else None,
     )
     return svc, store
 
 
-def entry_names(bucket):
-    return [k.rsplit("/", 1)[1] for k in bucket.objects]
+def entry_names(bucket, kind="ledger"):
+    return [k.rsplit("/", 1)[1] for k in bucket.objects if f"/{kind}/" in k]
 
 
 def test_a_deletion_is_written_outside_the_disk_as_a_hash_and_a_day_only(tmp_path, bucket):
@@ -77,7 +80,7 @@ def test_a_deletion_is_written_outside_the_disk_as_a_hash_and_a_day_only(tmp_pat
     svc, store = make_service(tmp_path, clock=clock)
     session, cookie = stepped_up_session(svc, svc.mailer, clock)
     account_id = svc.session(cookie).account_id
-    assert svc.delete_account(svc.session(cookie)).status == "ok"
+    assert delete_now(svc, clock, svc.session(cookie)).status == "ok"
     expires = (svc.today() + timedelta(days=16)).isoformat()
     assert entry_names(bucket) == [f"{expires}_{ledger_hash(account_id)}"]
     assert all(body == b"" for body in bucket.objects.values())
@@ -90,7 +93,7 @@ def test_a_bucket_that_is_down_does_not_fail_the_deletion_and_the_entry_is_sent_
     svc, store = make_service(tmp_path, clock=clock)
     session, cookie = stepped_up_session(svc, svc.mailer, clock)
     bucket.refuse = True
-    assert svc.delete_account(svc.session(cookie)).status == "ok"
+    assert delete_now(svc, clock, svc.session(cookie)).status == "ok"
     assert len(store.unpublished_ledger()) == 1 and bucket.objects == {}
     assert "someone@example.org" not in caplog.text
     bucket.refuse = False
@@ -104,7 +107,7 @@ def test_with_no_bucket_the_entry_waits_and_nothing_fails(tmp_path, monkeypatch)
     clock = Clock(time.time())
     svc, store = make_service(tmp_path, clock=clock)
     session, cookie = stepped_up_session(svc, svc.mailer, clock)
-    assert svc.delete_account(svc.session(cookie)).status == "ok"
+    assert delete_now(svc, clock, svc.session(cookie)).status == "ok"
     assert len(store.unpublished_ledger()) == 1
     store.close()
 
@@ -116,7 +119,7 @@ def test_a_file_restored_from_before_a_deletion_loses_that_account_again(tmp_pat
     account = store.account(svc.session(cookie).account_id)
     backup = tmp_path / "backup.db"
     db_backup.backup_one(tmp_path / "a-d.db", backup)  # last night's backup, taken before the deletion
-    svc.delete_account(svc.session(cookie))
+    delete_now(svc, clock, svc.session(cookie))
     store.close()
 
     db_backup.restore_one(backup, tmp_path / "a-d.db")  # the disk is lost; last night's file is put back
@@ -133,7 +136,7 @@ def test_a_restore_with_the_bucket_unreachable_still_applies_the_files_own_ledge
     svc, store = make_service(tmp_path, clock=clock)
     session, cookie = stepped_up_session(svc, svc.mailer, clock)
     account = store.account(svc.session(cookie).account_id)
-    svc.delete_account(svc.session(cookie))
+    delete_now(svc, clock, svc.session(cookie))
     store.create_account(account)  # a restore that kept the ledger
     bucket.get_paginator = lambda name: (_ for _ in ()).throw(RuntimeError("down"))
     assert svc.sync_ledger() == 1

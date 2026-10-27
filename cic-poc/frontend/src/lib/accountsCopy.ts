@@ -122,15 +122,26 @@ export const accountsCopy = {
   unlinkMethod: (name: string) => `Remove ${name}`,
   methodDone: 'Done.',
 
-  // Delete my home
-  deleteIntro: 'This cannot be undone. First, a fresh code, so no one else can do this from your screen.',
-  deleteGoesHeading: 'What goes',
+  // Delete my account
+  deleteIntro: 'First, a fresh code, so no one else can do this from your screen.',
+  deleteWhenHeading: 'What happens now',
+  deleteWhen: 'Your account is deleted today. You have 90 days to re-open it. To re-open it, sign in the way you always do.',
+  deleteGoesHeading: 'After 90 days, what goes',
   deleteGoes:
     'Every saved conversation and its words, and the scrubbed review copy of them. Your tokens, free, gift and purchased, with no refund except in a case we agree to. The encrypted copy of your email address and the scrambled key made from it. The link between your account and your codes.',
   deleteStaysHeading: 'What stays, for a while',
   deleteStays:
     "Stripe keeps its own record of any payment. The token system keeps each code's row and its payment reference, with no name. Backups drop deleted data within 14 days. The privacy page lists everything that stays.",
-  deleteYes: 'Delete everything',
+  deleteYes: 'Delete my account',
+  deletedHeading: 'Your account is deleted',
+  deletedDone: 'You have 90 days to re-open it. After that, everything is erased for good.',
+  deletedLastDay: (day: string) => `The last day is ${day}.`,
+
+  // Signing in to a deleted account
+  closedHeading: 'This account was deleted',
+  closedText: (day: string) => `You have until ${day} to re-open it. After that, everything is erased for good.`,
+  reopenYes: 'Re-open my account',
+  reopenNo: 'Leave it deleted',
   deleteNo: 'Keep my account',
 
   // Signed out home

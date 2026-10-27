@@ -133,9 +133,10 @@
     <h2>Download or delete</h2>
     <p>In your account you can download your data, delete one conversation, or delete your whole account. Downloading your data and deleting your account each ask for a fresh code first, so no one else can do it from your screen.</p>
     <p>The download gives you the facts we hold about your account. Your saved conversations are not in it yet.</p>
-    <p>Deleting your account removes every saved conversation and its words. It also removes the review copy of them. Your email address goes too, both the encrypted copy and the scrambled one. So does the link between your account and your codes.</p>
-    <p>Some things stay for a while. Stripe keeps its own record of any payment. The token system keeps each code's row and its payment reference, with no name. Our email provider and our host may keep short records that a message was sent or a page was fetched. A scrambled mark of your account's random ID stays for 16 days, so a restored backup cannot bring the account back. Backups drop deleted data within 14 days. Backups of account files are encrypted before they leave our server.</p>
-    <p>If you do not use your account for two years, we delete it, with everything saved in it.</p>
+    <p>When you delete your account, it is closed the same day, and you are signed out. You have 90 days to re-open it by signing in. Until then we keep everything in it. After 90 days we erase it for good.</p>
+    <p>Erasing removes every saved conversation and its words. It also removes the review copy of them. Your email address goes too, both the encrypted copy and the scrambled one. So does the link between your account and your codes.</p>
+    <p>Some things stay for a while. Stripe keeps its own record of any payment. The token system keeps each code's row and its payment reference, with no name. Our email provider and our host may keep short records that a message was sent or a page was fetched. While your account waits to be erased, our backup storage holds a scrambled mark of its random ID and its last day. That way a restored backup cannot re-open it. Once it is erased, a scrambled mark of its random ID stays for 16 days. That way a restored backup cannot bring it back. Backups drop deleted data within 14 days. Backups of account files are encrypted before they leave our server.</p>
+    <p>If you do not use your account for two years, we close it the same way. You have 90 days to re-open it. After that we delete it, with everything saved in it.</p>
     <p>If someone gives us an email address, we can check whether it has an account. We can do that only with that address.</p>
   </section>
 
@@ -152,7 +153,7 @@
     <h2>Kept apart and scrubbed</h2>
     <p>To improve the conversations, we keep a separate copy of questions and replies. We remove names, email addresses, phone numbers and web addresses from it. It is kept apart from your conversation. We delete it after 90 days.</p>
     <p>The scrubbing does not catch everything. A place, a job or a story about yourself may stay in the copy.</p>
-    <p id="accounts-review" hidden>If you delete your account, we delete the review copy of your saved conversations too.</p>
+    <p id="accounts-review" hidden>When we erase your account, we delete the review copy of your saved conversations too.</p>
   </section>
 
   <section class="page-section" id="who-reads-it">

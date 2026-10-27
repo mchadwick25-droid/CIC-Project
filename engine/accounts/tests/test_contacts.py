@@ -1,5 +1,5 @@
 from engine.accounts.contacts import ContactStore
-from engine.accounts.tests.conftest import FakeCipher, sign_in, stepped_up_session
+from engine.accounts.tests.conftest import FakeCipher, delete_now, sign_in, stepped_up_session
 
 ADDR = "ada@example.org"
 NEW = "ada.new@example.org"
@@ -34,7 +34,7 @@ def test_an_address_change_must_finish_with_the_address_the_code_went_to(svc, ma
 def test_deleting_an_account_deletes_its_contact(svc, mailer, clock, contacts):
     session, cookie = stepped_up_session(svc, mailer, clock)
     contacts.put_pending(session.account_id, NEW)
-    assert svc.delete_account(session).status == "ok"
+    assert delete_now(svc, clock, session).status == "ok"
     assert contacts.get(session.account_id) is None
     assert contacts.take_pending(session.account_id) is None
     rows = contacts._c.execute("SELECT (SELECT COUNT(*) FROM contacts), (SELECT COUNT(*) FROM pending_contacts)").fetchone()
@@ -44,7 +44,7 @@ def test_deleting_an_account_deletes_its_contact(svc, mailer, clock, contacts):
 def test_a_restored_backup_does_not_bring_a_deleted_contact_back(svc, mailer, clock, contacts, store):
     session, cookie = stepped_up_session(svc, mailer, clock)
     snapshot = store._d.execute("SELECT * FROM accounts").fetchall()
-    svc.delete_account(session)
+    delete_now(svc, clock, session)
     store._d.executemany("INSERT INTO accounts VALUES (?, ?, ?, ?, ?, ?)", snapshot)  # a restore
     contacts.put(session.account_id, ADDR)
     assert svc.reapply_ledger() == 1

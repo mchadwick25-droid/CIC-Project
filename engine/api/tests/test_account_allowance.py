@@ -300,7 +300,7 @@ def test_a_signed_in_person_with_nothing_left_gets_the_pause_and_the_safety_chec
     assert reply.json()["routing_action"] == "session_cap_turn" and len(client.voice_requests) == before
 
 
-def test_deleting_the_account_removes_its_code_links_and_leaves_the_code_in_the_meter(setup, runtime, accounts, mailer):
+def test_erasing_a_deleted_account_removes_its_code_links_and_leaves_the_code_in_the_meter(setup, runtime, accounts, mailer):
     http, client = setup
     sign_in(http, mailer)
     code = code_with(runtime, 100)
@@ -308,6 +308,9 @@ def test_deleting_the_account_removes_its_code_links_and_leaves_the_code_in_the_
     session = accounts.service.session(http.cookies.get(accounts.cookie_name))
     accounts.service.store.step_up_session(session.token_hash, accounts.service.now() + 600)
     assert http.post("/api/accounts/delete", json={}, headers=H).status_code == 200
+    assert accounts.service.store._d.execute("SELECT COUNT(*) FROM account_codes").fetchone()[0] == 1, "kept while it can be re-opened"
+    accounts.service._clock.advance(91 * 86400)
+    assert accounts.service.erase_closed() == 1
     assert accounts.service.store._d.execute("SELECT COUNT(*) FROM account_codes").fetchone()[0] == 0
     assert runtime.meter.status(code).remaining == 100
 
