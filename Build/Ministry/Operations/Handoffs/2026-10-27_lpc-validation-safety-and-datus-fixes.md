@@ -10,7 +10,7 @@ From session: https://claude.ai/code/session_01GLotrvxvHBTEd81NaezC2i · World o
 | Live test "lpc full validation, 27 October" ($2.21 of the $6 cap) | Reports in `engine/m4/reports/lpc-validation-2026-10-27/` and `engine/m3/reports/live-admission-report-lpc-2026-10-27.json`; Opus review `Review-Artifacts/Live_Validation_Review_2026-10-27.md` (Revise; OG-87) |
 | Only built worlds are listed or seated, with or without admission enforcement | PR #1168 merged; engine/api 1054 passed |
 | Facilitator check-in for loss to suicide and for coercion by a person, approved by the project lead | PR #1174 merged; Opus review and round-2 recheck (Approved to proceed); 2500 engine tests passed |
-| Safety-routing guards removed from lpc records; Datus's findings F6 to F13 fixed in the records and world_core | `Review-Artifacts/Datus_Findings_Fix_Review_2026-10-27.md`; gates pass; package re-pinned to `packages/lpc/2026-10-27T04-23-48Z` |
+| Safety-routing guards removed from lpc records; Datus's findings F6 to F13 fixed in the records and world_core | `Review-Artifacts/Datus_Findings_Fix_Review_2026-10-27.md`; gates pass; package re-pinned to `packages/lpc/2026-10-27T04-46-29Z` |
 
 ## 2. Not done
 
