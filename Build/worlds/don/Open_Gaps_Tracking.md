@@ -2053,3 +2053,15 @@ Library thread, 2026-10-26, from the question-coverage survey (`Build/Ministry/F
 Both records should say the Latin is held and the English is not. No download is possible for the English.
 
 Status: OPEN, for this world's thread.
+
+### OG-49. Augustine's Circumcellion suicide charge has no framing record, 2026-10-27.
+
+Question-coverage design thread, 2026-10-27 (`Build/Ministry/Features/Question-Coverage/`; hand-off `Build/Ministry/Operations/Handoffs/2026-10-26_question-coverage-safety-guards.md`, section 1). The design thread does not edit world records; this entry hands the decision to this world's thread.
+
+- `cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml` lines 16888 to 16890 (reply to Petilian, para. 114) says some "throw themselves over precipices", calls such people "the friends of the devil", and says both kinds "learned to kill themselves from the same master".
+- No don record carries or frames this. The nearest records cover martyr-seeking and the contested portrait only, and none names suicide or voluntary death: `don.dw.not-a-death-wish`, `don.contested.circumcellion-character` (draft), `don.contested.circumcellion-agonistici`, `don.gravity.circumcellion-agonistici`, `don.demo.death-wish`. `don.figure.marculus` is adjacent.
+- A visitor bereaved by suicide, or at risk, asking whether suicide is damnable (C3 S7) could reach the neighbouring records with nothing held.
+- Decision for this thread: a contested claim or honest limit on voluntary death. It must keep the charge from being heard as a verdict on anyone who died by suicide, say it is a hostile opponent's polemic about a contested group, and leave any redirect to the Facilitator (Governance V3.6). Also whether `don.contested.circumcellion-character` leaves draft first.
+- The matching worklist row is Facilitator-adjacent and stays held (Decision-Log, 2026-10-26, R1).
+
+Status: OPEN, for this world's thread.

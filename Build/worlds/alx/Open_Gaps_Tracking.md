@@ -808,3 +808,12 @@ Done: `alx.source.athanasius-de-incarnatione` now carries that reasoning and cav
 Left open: if the Library acquires a modern study that argues the later date, it should be written as a source record. The dating can then be given as disputed in both records.
 
 Status: CLOSED for the records. OPEN only as a source want.
+
+### OG-37. `alx.quote.clement-schoolmaster` can be heard as the law replaced, 2026-10-27.
+
+Question-coverage design thread, 2026-10-27 (hand-off `Build/Ministry/Operations/Handoffs/2026-10-26_question-coverage-safety-guards.md`, section 3). The design thread does not edit world records; this entry hands the decision to this world's thread.
+
+- `alx.quote.clement-schoolmaster` (ready, Stromateis I.5): philosophy was a schoolmaster for the Greeks, "as the law was for the Hebrews". A Jewish visitor can hear that the law has done its work and been replaced. Its `not_for` does not name that reading, and its `retrieve_when` ("whether people outside the church had anything true") is broader than the quote's use.
+- Decision for this thread: the guard must say the quote is Clement's account of preparation, not a statement that Judaism is finished, and not a claim about Jews today; whether `retrieve_when` narrows; whether `alx.term.christological-reading` needs the same check.
+
+Status: OPEN, for this world's thread.

@@ -2746,3 +2746,13 @@ Library thread, 2026-10-26, from the question-coverage survey (`Build/Ministry/F
 - The survey cited `witt.source.melanchthon-instructions-for-the-visitors`, and no file of that name exists under `records/witt/source/`. Confirm the id, or create the source record when the text is acquired.
 
 Status: OPEN, for this world's thread.
+
+## OG-82. `witt.term.the-turk` can be heard as calling Jews and Muslims the devil's instruments, 2026-10-27.
+
+Question-coverage design thread, 2026-10-27 (hand-off `Build/Ministry/Operations/Handoffs/2026-10-26_question-coverage-safety-guards.md`, section 2). The design thread does not edit world records; this entry hands the decision to this world's thread.
+
+- `witt.term.the-turk` (ready) line 52: "named with pope and Jews as outside Christianity, one of the devil's instruments". Its `not_for` guards the modern political reading, not the hearing of Jews or Muslims as the devil's instruments.
+- It is the only rendered Muslim material in the fleet, so a Muslim visitor gets only this. It calls itself a thin entry and says its quotations were not re-opened against the vendored files.
+- Decision for this thread: what the guard must achieve; whether to re-verify the quotes first; how the world answers a Muslim visitor honestly from its sources.
+
+Status: OPEN, for this world's thread.
