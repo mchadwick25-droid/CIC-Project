@@ -17,12 +17,21 @@ relations: []
 author: Gregory of Nyssa
 work: Gregory of Nyssa, In XL Martyres II (Emmelia's role in acquiring and enshrining the Forty Martyrs'
   relics at the Annisa estate shrine)
-edition: Confirmed absent from the vendored npnf205 -- independently confirmed by a direct text search
-  of the vendored file npnf205_gregory-nyssa-dogmatic-treatises.txt (the only occurrence of 'Forty Martyrs' is in the editor's prolegomena,
-  'in honour of the Forty Christian Martyrs', not in a homily; no occurrence of 'XL Martyres')
+edition: >-
+  Held in Greek, not in English. cic/texts/gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863.txt
+  carries the Forty Martyrs II (file line 56689). Migne's Latin column is garbled into
+  Greek-looking glyphs, so the Greek is the only legible witness. It is a second witness: nothing
+  in it is quotable until the passage is checked against the page image. The claim about Emmelia's
+  role has not been checked against that passage. Not in the vendored npnf205: a direct text
+  search of cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt finds 'Forty Martyrs' only in
+  the editor's prolegomena, 'in honour of the Forty Christian Martyrs', not in a homily, and no
+  occurrence of 'XL Martyres'.
 citation: Gregory of Nyssa, In XL Martyres II
-kind: unvendored
-rights_status: "not independently verified; not yet acquired as an open text - named for completeness (every source a claim rests on gets a row, acquired or not)"
+kind: vendored
+shelf_row: gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863--sermons-martyrs-thaumaturgus-usurers-pg-46-greek
+rights_status: >-
+  public-domain by date (Migne, 1863); vendored in the shared library, in Greek with
+  a garbled Latin column.
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 82; a specific named source (author, translator,
   edition, or witness) that this session did not independently check against primary content -- either

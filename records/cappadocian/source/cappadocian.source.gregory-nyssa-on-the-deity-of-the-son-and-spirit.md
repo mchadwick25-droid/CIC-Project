@@ -17,12 +17,18 @@ relations: []
 author: Gregory of Nyssa
 work: Gregory of Nyssa, On the Deity of the Son and the Holy Spirit
 edition: >-
-  Not in the Library. The Library's copy of Nicene and Post-Nicene Fathers,
-  2nd series, vol. 5 (npnf205) does not contain this sermon. An acquisition
-  gap.
+  Held in Greek, not in English. cic/texts/gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863.txt
+  carries the sermon on the deity of the Son and the Spirit (file line 40891, headed as Περὶ
+  θεότητος Υἱοῦ καὶ Πνεύματος). Migne's Latin column is garbled into Greek-looking glyphs, so the
+  Greek is the only legible witness. It is a second witness: nothing in it is quotable until the
+  passage is checked against the page image. Not in the Library's copy of Nicene and Post-Nicene
+  Fathers, 2nd series, vol. 5 (npnf205).
 citation: Gregory of Nyssa, On the Deity of the Son and the Holy Spirit
-kind: unvendored
-rights_status: "not independently verified; not yet acquired as an open text"
+kind: vendored
+shelf_row: gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863--sermons-martyrs-thaumaturgus-usurers-pg-46-greek
+rights_status: >-
+  public-domain by date (Migne, 1863); vendored in the shared library, in Greek with
+  a garbled Latin column.
 attribution_status: attributed
 discovery_channel: >-
   builder-prior-knowledge; Source Registry row 43. The sermon has not been

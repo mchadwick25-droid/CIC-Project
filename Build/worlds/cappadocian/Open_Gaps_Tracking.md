@@ -984,3 +984,32 @@ Library thread, 2026-10-26, from the question-coverage survey (`Build/Ministry/F
 - `cappadocian.source.pharr-theodosian-code-translation`: Pharr's English is in copyright and stays unvendored. The Latin Codex Theodosianus is vendored (`cic/texts/codex-theodosianus_latinlibrary.txt`). The record should say the Latin is held.
 
 Status: OPEN, for this world's thread.
+
+### OG-58. Source records caught up with the Library's 2026-10-27 batch, 2026-10-27.
+
+Follows the Wants-sort handoff (`Build/Ministry/Operations/Handoffs/2026-10-27_wants-sort-handoff.md`, 18 unclassified Cappadocian rows) and the Library decision log entry "Acquisition batch 1" (2026-10-27). Each file was opened and each heading located by line before its record was changed. No quotation was added or changed. No metered model call was made.
+
+Updated (12 source records). Each edition field now names the vendored file and carries a `shelf_row`; the rights field says public domain by date.
+- Held in Greek with Migne's garbled Latin column, as a second witness only (Migne PG, 1857 to 1863): `basil-moral-famine-homilies` (PG 31, with the Psalm 14 usury homily in PG 29), `gregory-nyssa-forty-martyrs-theodore-recruit-homilies`, `gregory-nyssa-in-xl-martyres-ii`, `gregory-nyssa-life-of-gregory-thaumaturgus` and `gregory-nyssa-on-the-deity-of-the-son-and-spirit` (all PG 46), `gregory-nazianzus-oration-14-love-of-poor` (PG 35), `gregory-nazianzus-de-vita-sua` and `gregory-nazianzus-will-manumission` (PG 37) and `amphilochius-of-iconium-own-works` (PG 39).
+- Held in English: `liturgy-of-st-basil` (Neale and Littledale, the Basil rite). This closes OG-57's first item.
+- Nothing to acquire: `martyrium-shrine-panegyris-pattern` (a regional pattern, not a text).
+- Corrected, not resolved: `gregory-nazianzus-on-the-mamas-festival`. The edition field named npnf207, which has no occurrence of "Mamas"; it now says so and names where Mamas appears in the Greek (PG 36 at line 51134, in Oration 44; Basil's own Mamas homily in PG 31). The record names no work, so none was chosen. `gregory-nazianzus-de-vita-sua` carried the same mismatch and is fixed. Both citing records already say the passages are unchecked OCR.
+- `gregory-nazianzus-oration-14-love-of-poor` had its divergence note and body updated, because both said the oration was not held.
+- OG-57's second item: `pharr-theodosian-code-translation` still lists Pharr's English as in copyright and unvendored; its body now says the Latin Codex Theodosianus is held. The edition field was left alone on purpose, because naming a `cic/texts/` file there would hide the purchasable want from the register. OG-57 is CLOSED.
+
+Stays open (6 rows):
+- `epiphanius-on-eustathius-pneumatomachians` and `nicaea-325-subscription-lists`: the files are held (Epiphanius's Panarion in Greek, PG 42, Against the Pneumatomachi at line 35672 and Against Aerius at 38000; the Nicene subscription lists in Latin only, Gelzer, Hilgenfeld and Cuntz, 1898), but both sit on this world's shelf as `context` rows. Three emic records cite them: `cappadocian.figure.eustathius`, `cappadocian.force.imperial-church-arrival` and `cappadocian.term.homoousios`. Marking the source records `vendored` would turn those citations into three new `voicing-pair` findings, which a waiver may not absorb. Each citation needs re-grounding in a tradition source or removal, a content change for a later pass, so both records are unchanged.
+- `gregory-nyssa-song-of-songs-ecclesiastes-beatitudes-homilies` and `gregory-nyssa-ad-graecos`: not in the vendored PG 46 or npnf205. No other vendored file holds them. Which Migne volume carries them, and whether a public-domain English edition exists, is for the Library thread to verify.
+- `basil-small-asketikon`: Rufinus's Latin and the Syriac are not vendored (the only Rufinus file held is the Origen homilies on Numbers).
+- `eunomius-confession-of-383`: the vendored First Apology file (Whiston, Pearse) ends with a "Eunomian Confession of Faith appended to the manuscripts of the Apology" as chapter XXVIII. Nothing in the file says it is the 383 confession, so the row was not resolved. Needs a scholarly check.
+
+Quotation candidates held only as unchecked Greek (modern renderings are authored by Opus; each passage must first be checked against the page image):
+- Nyssa, Theodore (PG 46 line 54131), Forty Martyrs I (55014) and II (56689), the Life of Gregory Thaumaturgus (65203), On the Deity of the Son and the Spirit (40891), and, not cited by any record yet, Against Those Who Lend at Interest (32111) and On the Love of the Poor (33703, 35001).
+- Basil, PG 31: Julitta (17124), Luke 12:18 (19009), to the rich (20355), famine and drought (22450), the Forty Martyrs (38427), Mamas (44695), and the Psalm 14 usury homily (PG 29, 78686). These would replace the Prolegomena extracts as the checkable source for the famine and wealth claims (see OG-56).
+- Nazianzus, Oration 14 (PG 35, 63160), the will (PG 37, 30842), and De vita sua (PG 37, heading not yet located by line).
+
+Also open: `cappadocian_Source_Registry.md` rows 16, 32, 36, 37, 43, 51, 53, 61, 65, 77, 82 and 115 still describe these works as unlocated or not vendored. The registry is a construction document, so correcting it is a revision that goes through review.
+
+Package rebuilt and re-pinned to `packages/cappadocian/2026-10-27T21-40-06Z`. The M9 `emic-vendored-only/cappadocian` waiver was tightened from 73 to 43, because 30 findings cleared once their sources were marked held; no waiver was raised. Checks run: `records`, `regate`, determinism, the staleness check and the M9 check.
+
+Status: OPEN for the four rows, the quotation candidates and the registry rows. CLOSED for the 12 updated source records and OG-57.
