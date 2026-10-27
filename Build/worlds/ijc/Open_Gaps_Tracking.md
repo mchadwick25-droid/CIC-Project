@@ -419,3 +419,7 @@ Status: OPEN for the project lead to schedule.
 45. **Independent recheck round 2 passed, 2026-10-24.** Follows the "Independent recheck of the live-reply claim check fixes" entry (2026-10-24). The separate Opus recheck thread confirmed B7 against https://github.com/mchadwick25-droid/CIC-Project/pull/1102 (`Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Independent-Recheck_Round1.md` and `Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Independent-Recheck_Round2.md`, merged in https://github.com/mchadwick25-droid/CIC-Project/pull/1099). No round 3 is needed.
 
    Status: CLOSED for the live-reply claim check findings.
+
+46. **`ijc.dw.how-we-read` quotes Matthew 16:18 in wording the vendored sources do not hold, 2026-10-27.** Found by the witness-quotation gate (`python -m engine.m1.witness_quotations`; see OG-101 in `Build/worlds/lpc/Open_Gaps_Tracking.md`). The record's `text` has "You are Peter, and on this rock I will build my church". The gate searched the files the record's sources cite (the Leo sermons and Hilary's De Synodis) and found no match. The record is at `verified-direct`. Not edited by the thread that found it. The world's owner decides whether to cite the Scripture edition it came from, reword, or drop the marks.
+
+   Status: OPEN.

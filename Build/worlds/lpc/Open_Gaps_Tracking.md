@@ -2172,3 +2172,114 @@ Logged 2026-10-27.
 - **Open, this thread.** Three "this build" phrases remain in world_core (the synthetic-judgment note near the top, a thin_topics line "this build has not answered", and a thin_topics note "independently verified in this build"). They were outside the review's list. Check whether the voice reads those fields.
 - **Open, not this thread.** F17, F23, F24 and F18 (engine; add to the engine thread's brief), F25 (fleet question: Doc_10 section 7 and the Permanent Prompt against the Facilitator's system-nature turn).
 - **Owner.** The `lpc` build thread; the project lead for the Living Tradition paragraph and F25.
+
+### OG-93. Public face built: registry card, portrait, living_traditions, traditions page, story tellings (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Done.** `records/worlds/lpc.yaml` carries the card fields (doorway, `card_name` "The Ordinary Church", `app`, thinness statement, `story_placement: false`, `card` with 15 topics and one alias). Datus's portrait is served from `cic-website/assets/portraits/` and as a 344 by 192 thumbnail in the site and the app. The accent colour is `#85914E` (reasoning in `World-Accent-Colours.md`). `world_core.living_traditions` is authored through s21. The traditions page is built from the Wittenberg page's chrome, with the article generated. The seven stories carry a `telling`.
+- **Review.** `Review-Artifacts/Public_Face_Review_2026-10-27.md` (round 1: Revise, 3 P1 and 9 P2, all applied) and `Review-Artifacts/Story_Tellings_And_Public_Face_Review_2026-10-27.md` (tellings round 1 Revise, one P1 and two P2, applied; round 2 Approved to proceed; public face round 2 Approved to proceed).
+- **Not written, needs the project lead.** Hidden `card.keywords`: he approves each one by one (Conversation-Chooser Decision Log, 2026-10-20). The sitemap entry for the traditions page: left out until lpc is `built`, because the page offers Talk and Table for a world nobody can seat yet.
+- **Portrait.** The project lead said on 2026-10-27 that he is unsure of the picture: it looks a lot like the others, though it reflects this world. The approved image (2026-09-15) is in place unchanged; whether to keep it is his call.
+- **Generator.** The tellings and `living_traditions` are in the records. `living_traditions` is also in s21. The tellings are hand-added, as in other worlds, and no s24 re-run would carry them.
+- **Owner.** The `lpc` build thread; the project lead for keywords, sitemap and the portrait.
+
+### OG-94. Record-side defects found while authoring the tellings and the card (2026-10-27).
+
+Logged 2026-10-27. None blocks a telling; all are in records that are `ready`.
+
+- **Plague story `text`.** It says God's kindness reached "strangers as well as His own". That rests on the older printed editions only; Hartel's text has "not only to His own". "Bodies left where they fell" also goes a little past Pontius. The telling avoids both.
+- **Election story.** Ep. XXXIX is used but is not in `sources`. The `absent_detail` line "Pontius says so himself" needs a Pontius §1 locus, and the `text` says Pontius passed over most of Cyprian's early years, which §2 to §4 contradict. `tellable_as` fails reading ease (FRE 58.4).
+- **Celerinus story.** "Had been imprisoned" is documented in Ep. XXXIII, not cited. One `claim_guards` entry here and one on the Cyprian death story fail the retrieval-negatives-structured gate.
+- **Numidicus story.** No note of the *inuictus* variant, though the key clause depends on it (the quote record carries it).
+- **Psalms story.** `text` names only the Vandals; Possidius names Vandals and Alans with some Goths.
+- **World front, `skim.tile` and orientation story 12.** "Always inside a bond it would not break" is wrong for grace: African councils condemned what the Pelagians taught (`lpc.gravity.collegial-communion-preserved`). The card's doorway line was reworded; the approved surface record is unchanged.
+- **Owner.** The `lpc` build thread, in a later batch under review.
+
+### OG-95. F4/F5 status check (2026-10-27).
+
+Logged 2026-10-27. As of `origin/main` 072f21bb, and again at c425f0af, no fix for the post-draft sentence removal is merged and no pull request for it is open; only the engine thread's brief (#1186) exists. It is a go-live blocker. This thread does not fix it. The evidence reruns wait on it (Decision Log, 2026-10-27).
+
+- **Addendum to OG-92, 2026-10-27.** `world_core.living_traditions` is now filled, with the adopted statement as a boundary text (no heir, speaks only to 430, judges no later dispute), on the build session's instruction to make the `deployed lpc` gate pass. The `horizon` paragraph "This tradition is still living ..." is unchanged, so the voice reads the statement twice. The project lead's ruling is needed on both: keep, move or remove the `horizon` paragraph.
+
+### OG-96. lpc moved to `built`; findings that moving it exposed (2026-10-27).
+
+Logged 2026-10-27.
+
+- **State.** The project lead moved lpc from `building` to `built` on 2026-10-27 (Decision Log). `admitted` waits for admission to pass on the new pin; the reruns wait for the F4/F5 fix (OG-95).
+- **Fixed, lpc's own.** Once lpc was `built`, `cross_world` read seven participant-facing figure `dates.display` fields that carried record ids and build notes (`ui-field-leak`). They are reworded in s24 and the seven figure records; facts unchanged, with "as his deacon Pontius tells it" added to the Cyprian line to match the single-witness claim already registered.
+- **Registered, fleet-level.** lpc is the only world with `safety_adjacent`, so the other eleven worlds now show `registry-key-set` findings. They are `ACCEPTED_OPEN` in `engine/m1/cross_world.py`, owned by the project lead, who sets the field. Removing the entries is what fixed means.
+- **Registry line.** `Source_Registry.md` gained an "Out of scope" line for the Gregory of Nyssa Greek volume (PG 46) that the Library thread vendored, so `handoff lpc` step 2 passes.
+- **Owner.** The `lpc` build thread; the project lead for `safety_adjacent` across the fleet.
+
+### OG-97. The library-access gate blocks lpc at `built` (2026-10-27).
+
+Logged 2026-10-27. `python -m engine.m9.cli check` found, once lpc was `built`:
+
+| Check | Findings | What it is |
+|---|---|---|
+| `m9:source-citation` and `m9:source-kind` | 210 each | The 210 `lpc.source.*` records have no `citation` and no `kind` (vendored, unvendored or absence) |
+| `m1:retrieval-negatives-structured` | 47 | Retired `do_not_retrieve_when` fields, and `claim_guards` lines with no barred-claim marker |
+| `m1:readability` | 13 | Over the ceiling, for example the claim sentence in `lpc.contested.compel-coercion-development` (FK 36.6) |
+| `m1:horizon` | 2 | `grace-pelagius-characterization.claim` names the protest at Speyer (1529); `transmission-institutionally-dominant-side.description` names the 19th century |
+| `m1:cells-required` | 2 | Two forces have no `canon_cells` |
+| `m1:voice-perspective` | 2 | Two witnesses say "this world" from outside |
+| `m1:reciprocity` | 1 | `no-salvation-outside-the-church` and `communion-over-separation` link one way only |
+
+- **Why it only appeared now.** The gate runs on `built`, `admitted` and `open`. lpc was `building`, so none of this was checked.
+- **What was done.** lpc was returned to `building` (Decision Log, change order). The registry card, tellings, figure fixes and the new pin stay.
+- **What moving to `built` also needs.** The `safety_adjacent` key now differs across the fleet, so eleven `registry-key-set` findings need waivers or values; the outside-help observation test and the R41 probe set need lpc added. All three were prepared in this session and removed again; the diff is in the pull request history.
+- **Owner.** The `lpc` build thread for the fixes. Waivers for a non-grandfathered world are the project lead's to approve.
+
+### OG-98. F4/F5 and F24: engine change on branch `engine-post-draft-removal-f4-f5` (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Done.** The answer record now reaches the participant word for word; a removed cited sentence takes the sentences that lean on it; a reply that lost 40 percent or more of its cited sentences is replaced by the answer record; a rendering wrapped in quotation marks, or carrying a quotation, is set with correct marks. Design and numbers: `lpc_Decision_Log.md`, entry "F4/F5: the engine's design for sentences removed after drafting". Offline only; no model call.
+- **Proved offline.** The damaged fallback (six of twelve sentences, compassion question dropped) and the doubled marks on `lpc.quote.remember-me-at-the-lords-altar` were reproduced before the change and are held by `engine/m4/tests/test_post_draft_removal.py`.
+- **Not proved.** Whether the full live replies for safety-3, safety-4, register-5 and register-6 now read right. That needs a capped live retest the project lead names.
+- **Owner.** The project lead, for the live retest.
+
+### OG-99. Cell matching can leave out the record that names the question (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Fault.** `engine/m4/evidence.py` `match_asks_to_cells` chooses two cells before any record is scored, and a cell found through a record's `retrieve_when` words takes a slot only after the canon-vocabulary cells. For "What did Augustine teach about suicide in the City of God?" the cells chosen were C-I and F5-I (0.484 each, on "augustine", "god", "city", "teach"); F6-T, whose witness `lpc.witness.no-one-may-take-his-own-life` lists this question word for word in `retrieve_when`, was third at 0.337. The witness and its paired quote were never offered; the voice cited the witness from its system prompt and typed the quotations. Reproduced offline.
+- **Same cause in F18.** `lpc.limit.ordinary-interior-life` belongs to F5-I only. "My brother took his own life last year..." reached F5-I on "church", "last" and "life"; "What if someone was dying before their penance was finished?" reached F5-I on "dying" and "someone" (0.429) while F4-I, found through hints on four shared words (1.0), came second. Reproduced offline.
+- **How common.** In the 38 lpc single-turn drafts, 15 cite a record the evidence did not offer; in 4 of the 11 with a cited removal, the removal was on such a record.
+- **Decision for the engine owner.** Retrieval has its own measured instruments (leave-one-out over the canon questions, the sixty-question benchmark); a change must be held to them. This thread did not change retrieval.
+- **Owner.** A retrieval thread.
+
+### OG-100. F4/F5 and F17, F23 items the engine change does not close (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Register-4 ("These are his own words").** No quote was removed in this reply. The voice paraphrased the quote and labelled it Augustine's words. The net has no rule for the sentence, and a rule must not fire when a quote was placed just before it. Needs a false-positive measurement first.
+- **Register-5 (hard teaching lost to the cap).** `MAX_PLACED_QUOTES_PER_REPLY` is one, and the slot goes to the first marker. The voice's soft quote took it and the "mildest condemnation" was refused. Which quote deserves the slot is a ruling for the project lead.
+- **F17 (weak citations).** A tagged sentence with no name or number passes on one shared content word; one with a name or number passes on the grounding floor. Both are calibrated trade-offs (`engine/m4/grounding_net.py` `_claim_verdict`). Verifying a citation needs a model check (`citation_attach`), which cannot be proved offline.
+- **F23 (a later event explained).** `engine/m4/output_check.py` reports and never edits, by Program-Spec M4; no "withhold" reason other than the quotation reasons removes text. Whether a horizon finding should block or redraft is the project lead's.
+- **Leaning is by opener, so a real sentence can be cut.** "But the bishops gathered.", "This was hard." and "Those were days." count as leaning (a test holds it): a sentence that opens with a back-pointing word, cites nothing and names no one is cut when it follows a removed cited sentence, even when it does not point back.
+- **Streaming.** A hollowed reply can replace a reply whose first sentences have streamed. The client replaces the streamed partial with the finished reply (`cic-poc/frontend/src/lib/streamedReply.ts`), so the change is visible only as a swap at the end of the turn.
+- **Owner.** The project lead, for the cap, F23 and the streaming exception.
+
+### OG-101. The answer record skips the net's claim checks (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Gap.** `grounding_net._placed_answer_verdict` returns ok before `_claim_verdict` runs, so a placed answer record is not checked for thin topics or unknown records, and the quotations inside a doctrinal witness's text are not checked against a quote record or the vendored source. "Every quote verified verbatim" now rests on the review of those records for the replies the answer record replaces. Found in the Opus review of PR #1217 (finding 6).
+- **Not changed.** The behavior stays as it is until the project lead rules.
+- **Owner.** The project lead.
+
+### OG-102. A replaced reply can follow streamed sentences (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Gap.** The stream's promise that no streamed sentence is taken back is broken when `settle_reply` replaces a reply after its first sentences streamed. The client swaps the partial for the finished reply. Whether the stream should hold sentences until a reply can no longer be replaced (at the cost of streaming) is open. Review finding 7.
+- **Owner.** The project lead.
+
+### OG-103. Admission never sees a replaced reply (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Gap.** `engine/m3/generation.py` calls `apply_net` but not `settle_reply`, so the M3 live path grades the reply as `apply_net` leaves it, never the answer record that production would show in its place. Review finding 8.
+- **Owner.** An engine thread.

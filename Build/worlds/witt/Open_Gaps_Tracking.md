@@ -2766,3 +2766,44 @@ Follows the entry "`witt.term.the-turk` can be heard as calling Jews and Muslims
 - Still open: the body sentence that quotations were not re-opened (remove after an independent re-confirmation); whether Augsburg Article I, the Apology (6727) and Table Talk 3100 become sources; whether `distortion_risk` rises to high; `witt.gravity.embattled-christendom`; and the Large Catechism line that those outside "abide in eternal wrath and damnation", a governance question.
 
 Status: OPEN.
+
+## OG-84. Source records brought up to date with the Library's 2026-10-27 Luther vendoring and wants sort, 2026-10-27.
+
+Follows `Build/Ministry/Operations/Handoffs/2026-10-27_wants-sort-handoff.md` (30 Wittenberg rows) and the Library decision-log entry "Luther, Philadelphia Edition volumes IV and VI vendored on non-renewal" (2026-10-27). No quotation was added or changed.
+
+**Now vendored.** `witt.source.luther-admonition-to-peace` (Admonition to Peace, Against the Robbing and Murdering Hordes, the Open Letter) cites `cic/texts/luther_works-v4-selected_various1931.txt`. `witt.source.luther-formula-missae` (Formula Missae and the German Mass) cites `cic/texts/luther_works-v6-selected_various1932.txt`. Both became `kind: vendored` with a `shelf_row`, and their rights wording follows the file headers. `witt.source.philadelphia-edition-vols-iv` now says vols. IV and VI are vendored and vol. V is held back (renewed, R238530; clears 1 January 2027).
+
+**Ruled by the record's own wording.** Eleven modern books and two journal articles are "in-copyright". The Saxon visitation protocols are untranslated. Five web or project pages (Wikipedia, Britannica, GAMEO, the census file, the Wittenberg museums) have nothing to acquire. Kessler, Karsthans and the Deuttung (Papal Ass and Monk Calf) reach the build only inside vendored texts; for the Deuttung that is only Cole's advertisement, not the pamphlet.
+
+**Still open (six rows, left unclassified because the record does not say what the source needs).**
+- `witt.source.luther-de-votis-monasticis`: vol. III's note sends the reader to vol. IV, but vendored vol. IV does not list the treatise in its Contents. It is still not held.
+- `witt.source.philadelphia-edition-vols-iv`: its body says vol. IV carries R61 (De votis monasticis). The vendored volume does not. The body needs correcting; a time-gated want (vol. V) stays until the Library thread vendors it after 1 January 2027.
+- `witt.source.luther-that-jesus-christ-was-born`: not in any vendored file; the record names LW 45 with no publisher or year.
+- `witt.source.luther-das-newe-testament-deutzsch`: the record says only "NOT VENDORED"; it does not say whether a public-domain German text was sought.
+- `witt.source.cambridge-history-of-christianity`: the record gives no year or publisher.
+- `witt.source.alejandro-andreas-bodenstein-von-karlstadt-1486-1541`: an online PDF essay whose rights are not stated.
+
+**Quote records wanted from the new files (authored by Opus, per CLAUDE.md).** The Admonition to Peace and the Open Letter on the Hard Book for the Peasants' War; Formula Missae and the German Mass for the worship order Walter describes; the Christian schools letter and the common chest preface for the household and school register. Not started.
+
+**Also open.** `Build/worlds/witt/witt_Source_Registry.md` rows 48, 59, 61 and 62 and Doc_02 still describe these texts as not held; they are canonical build documents and were not edited here. Package `packages/witt/2026-10-27T21-08-58Z` is the current pin (the pin first named here, 19-23-58Z, was replaced by the OG-85 repin).
+
+Status: OPEN.
+
+## OG-85. Read-only check of Luther, Philadelphia Edition vols. IV and VI against the records that cite Luther, 2026-10-27.
+
+Follows the entry "Source records brought up to date with the Library's 2026-10-27 Luther vendoring and wants sort" (2026-10-27). Mark chose to leave existing records alone and list the new quote records (question-coverage thread, 2026-10-27). Nothing was re-pointed.
+
+- No quote record cites vol. IV or vol. VI. The cited Luther files are the Large Catechism (Bente and Dau), the Small Catechism (Smith), Jacobs and Spaeth vols. 1 to 3, Bacon and Allen's hymns, Table Talk (Bell) and the Bondage of the Will (Cole). The Large and Small Catechism, Table Talk and the Treatise on Good Works are not in vols. IV or VI.
+- Only the four hymn-book prefaces in vol. VI (13417 to 13875) duplicate a work already cited, in Bacon and Allen (lines 909 to 1252). Four of eight wordings compared differ in sense, not only in style: "hath again risen" is absent in vol. VI; "popish horrors" has no counterpart; "charnel-house" against "flaying-ground"; "tares sown among the wheat" against "mice dirt mixed with the pepper". The two editions are not interchangeable, so a quote stays checked against the file it cites.
+- Adding vol. VI as a second source on `witt.term.hymn`, `witt.term.death`, `witt.term.purgatory`, `witt.term.images` or `witt.term.gospel` is possible, with its own locus and verbatim check. Not done.
+- Quote records wanted (authored by Opus, per CLAUDE.md): the Admonition to Peace (v4 9566), Robbing and Murdering Hordes (11802), Open Letter on the Hard Book (12267), Formula Missae (v6 2788), German Mass (7704), the Christian schools letter (v4 4734), the Common Chest preface (about 4268). Not started. They wait on Mark's ruling on `witt.core`, which says the wording of the 1525 tract is never voiced; that wording is now held in vol. IV.
+- Unmapped in the corpus map for vol. VI: Marriage Booklet, Ordination, Litanies, Hymn Book Prefaces, Hymns annotated, Collects, and the Bible prefaces including Romans (21396). The v6 Short Method locus is open-ended; the v4 Friar Henry and Admonition loci end short of the headings.
+- Dating differences to check before any quote: Bacon dates the first preface 1525, vol. VI 1524; vol. VI dates "Ein feste Burg" 1527 to 1528, the source record says 1529. German originals not checked.
+
+Status: OPEN.
+
+## OG-85. `witt.dw.how-the-promise-reached-us` quotes a Luther line that does not match the vendored text, 2026-10-27.
+
+Found by the witness-quotation gate (`python -m engine.m1.witness_quotations`; see OG-101 in `Build/worlds/lpc/Open_Gaps_Tracking.md`). The record's `text` has "I did nothing; the Word did it all". The files the record's sources cite do not hold those words in that form. The record is at `verified-direct`. Not edited by the thread that found it. The world's owner checks the line against the vendored Luther text, then fixes the quotation or cites its edition.
+
+Status: OPEN.

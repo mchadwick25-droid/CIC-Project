@@ -2723,3 +2723,61 @@ Alternatives shown: (1) not now, waiting for the engine thread's fix to F4/F5 so
 ### 2026-10-27 — P2 findings F14 to F26: records now, voice items after the rerun (project lead's ruling)
 
 The P2 findings of the live review were sorted into record fixes (F14, F22), voice findings (F15, F16, F19, F20, F21, F26), engine faults (F17, F23, F24, with F18 unconfirmed) and a fleet question (F25). Alternatives shown for the voice findings: (1) fix the records now and add no cautions until a live rerun shows what cautions 13 to 17 did; (2) add world_core cautions now; (3) put them to the project lead as a Permanent Prompt change order. Chosen: 1 (project lead, 2026-10-27).
+
+---
+
+### 2026-10-27 — `living_traditions` authored as a boundary text; the `horizon` paragraph left for the project lead (build thread, under the session brief)
+
+The `deployed lpc` gate failed because the registry flags a living tradition and world_core had no `living_traditions` text. The session brief asked for it, grounded in Doc_01's confirmed finding. Alternatives shown in review: (1) a boundary statement only (no named heir, speaks to 430, judges no later dispute, leaves the four divergences to the Facilitator); (2) the divergences voiced too; (3) none. Chosen: 1, since the 2026-09-16 ruling says the distinction is Facilitator-carried and Datus holds none of it. Not ruled: the older paragraph in `horizon` (OG-92 and its addendum).
+
+---
+
+### 2026-10-27 — Evidence reruns still wait for the F4/F5 fix (project lead's ruling, second session)
+
+Asked again, with the new pin 2026-10-27T18-49-35Z ready. Alternatives shown: (1) wait for the engine thread's F4/F5 fix, no spend; (2) admission only, about $0.70, under a named test and cap; (3) admission and full validation together, about $2.20. Chosen: 1 (project lead, 2026-10-27). No metered spend this session. Admission and validation evidence for the new pin stays open; the pin changed (OG-93), so the earlier runs do not count for it.
+
+---
+
+### 2026-10-27 — lpc moves to `built` (project lead's ruling, second session)
+
+Alternatives shown: (1) stay `building`; (2) move to `built`, which lists lpc on staging. Chosen: 2, with the project lead's statement that the Facilitator's routing has passed (project lead, 2026-10-27). `admitted` waits for admission to pass on the new pin; the reruns wait for the F4/F5 fix (entry above).
+
+---
+
+### 2026-10-27 — Change order: lpc back to `building`; the fleet library-access gate blocks `built` (build thread, awaiting the project lead)
+
+The project lead's ruling above moved lpc to `built`. CI's M9 confinement check (`engine.m9.cli check`) then failed: from `built` on, lpc must pass every library-access check, and a world outside the grandfathered set can be waived only with the project lead's approval. It reported eight categories of undocumented drift for lpc (OG-97). The state was returned to `building` in the same pull request so the rest of the work can merge; nothing else the ruling touched was changed. Alternatives put to the project lead: (1) stay `building` and clear the gate in a later session; (2) approve waivers by name so lpc can be `built` now; (3) leave the pull request red. The answer is recorded below when given.
+
+Answer (project lead, 2026-10-27): alternative 1. lpc stays `building`; the next session clears the library-access gate in a content batch (OG-97), then moves lpc to `built` with no waivers.
+
+### 2026-10-27 — F4/F5: the engine's design for sentences removed after drafting (engine thread's choice, under the project lead's ruling)
+
+The project lead sent F4/F5 to an engine thread to choose and record its own design (ruling above). The mechanism was reproduced offline from the saved traces and from the repository's 108 recorded drafts (eleven worlds, 13 and 14 October) and the 38 lpc single-turn drafts; no model call was made.
+
+What the offline work showed:
+
+- The handoff's reading was right in part. The net removes sentences one at a time and nothing re-reads what is left. But the answer-record fallback was itself damaged by the same step: `settle_reply` sent the record's text back through the net, which removed every sentence that carries the record's own quotation marks as "quotation typed by the voice". For `lpc.witness.no-one-may-take-his-own-life` it shipped six of its twelve sentences and dropped the compassion question.
+- Safety-4's draft was not built on offered evidence. The evidence block for "What did Augustine teach about suicide in the City of God?" never offered the suicide witness or its paired quote. Cell matching chose C-I and F5-I on the common words "augustine", "god", "city" and "teach" (both 0.484); F6-T, where the witness lives and whose `retrieve_when` is this very question, came third at 0.337, and only two cells go on to record selection. The voice had the witness's full text in its system prompt, cited it from there, and typed its quotations, which the net then removed.
+- Register-4 is not a removal. No quote was removed; the voice paraphrased the quote and then wrote "These are his own words". The net has no rule for that sentence.
+- Register-5's hard teaching was lost to the one-quote cap: the voice's first marker took the slot and its second, the "mildest condemnation", was refused.
+
+Alternatives weighed against the recorded drafts: (1) stop the reply at the first removal of a cited sentence: cut about 12 percent of shipped sentences in 30 of 108 turns and turned full replies into one-sentence stubs; rejected. (2) Fall back to the answer record on any removal: would replace the voice in about 47 percent of turns; rejected. (3) Send the draft back to be redrafted: needs a model call on each affected turn, the effect cannot be proved offline, and the sentence stream is switched off on any turn that may be regenerated; not chosen, and left for a capped live test if the project lead wants it. (4) Chosen: three narrow parts, each provable offline.
+
+Chosen:
+
+1. The answer record is placed by code, word for word (`apply_net(answer_record=...)`, `grounding_net._placed_answer_verdict`), like a placed story. Its own quotation marks are untouched.
+2. A removed sentence that cites a record, or a quote or story marker that failed, takes with it the run of sentences just after it, in its paragraph, that lean on it: one that opens by pointing back ("That", "These", "Neither", "But", "So", "Second" and the like), cites no record, names no one and does not open a relative clause (`grounding_net.leans_on_previous`, applied in `apply_net`, `place_quotes` and `place_stories`). A sentence that cites a record of its own is never cut for leaning. Review round 1 removed the two-word fragment test ("God provides." is a name and a verb, not a fragment) and "Then" from the openers (it is narrative order). Across the 108 recorded drafts the first version cut 5 sentences in 5 turns, all of which leaned on a removed sentence.
+3. A reply that lost 40 percent or more of the sentences its draft rested on records for (cited sentences, failed quote and story markers, and sentences cut for leaning on one) is replaced by the answer record (`HOLLOWED_SHARE`, `settle_reply`). It needs at least 3 such sentences and at least 2 removed (`HOLLOWED_MIN_CITED`, `HOLLOWED_MIN_REMOVED`). The minimums are the smallest that exclude a single removal, which is the ordinary case and which a two-sentence reply would otherwise turn into 50 percent; no recorded draft falls below them, so they are a judgment and not a fitted number. The answer record for a hollowed reply is a witness the evidence offered that turn: the offered one the draft cited most, else the lead offered witness; with none offered the reply stands. (An emptied or ungrounded reply may still fall back to a witness the draft cited, as before.) Counted from the saved traces of the 38 lpc drafts (the raw drafts were not saved), it would fire on safety-4, register-6 and Deep Interview turn 9, all three damaged; across the 108 recorded drafts it fires once (witt Q1, already an answer-record fallback). With no answer record to show, the reply stands. The threshold comes from these four cases and is a judgment; it is a constant in `engine/m4/turn.py`.
+
+Change order: the sentence stream's rule that no streamed sentence is ever taken back now has one exception. A hollowed reply is replaced after its first sentences may have streamed; the client already replaces the streamed partial with the finished reply when the turn ends. The tests that held "a sentence beside a removed one stays as written" now hold the narrower rule.
+
+Not fixed by this change, and why: the retrieval defect above (it needs the cell-matching instruments and its own thread); register-5's cap resolved by arrival order (a rhythm ruling); register-4's unplaced "his own words" (a new net rule needs a false-positive measurement); F17 (the tag-overlap floor is a calibrated trade-off); F23 (the output check reports and never edits by Program-Spec M4). F24 is fixed in the engine: a rendering wrapped in quotation marks is set with each mark once, and a quotation inside a rendering takes single marks; no record changes.
+
+A capped live retest of safety-3, safety-4, register-5 and register-6 is the project lead's to name.
+
+---
+
+### 2026-10-27 — The answer record's quotations get an offline build-time check (project lead's ruling)
+
+Review of PR 1217 found that a placed answer record skips the net's claim checks, and that the quotations inside a doctrinal witness's text are not checked against a quote record or the vendored source at run time. Alternatives put to the project lead: change the run-time path so the answer record is checked; add an offline check at build time; leave it to record review. Chosen: the offline build-time check (project lead, 2026-10-27). The run-time behavior of the answer-record path does not change. The gate is `engine/m1/witness_quotations.py`: it reuses `quote_verbatim.verify_quote_text` on every quotation of three words or more in a `verified-direct` doctrinal witness's `text`, against the files its sources cite, with no model call. It found 3 failing records today and 2 more below `verified-direct`, in `don`, `ijc` and `witt`; each is an entry in that world's `Open_Gaps_Tracking.md`, and no record was edited. They stand in `engine/m1/witness_quotation_findings.txt`, which the test in `engine/m1/tests/test_witness_quotations.py` holds the corpus to. The gate is not yet in `gates.GATES`: registering it changes `validation/gates-report.json` in every package and fails three worlds' builds until the records are fixed.
+

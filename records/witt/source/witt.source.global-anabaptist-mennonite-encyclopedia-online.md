@@ -20,7 +20,7 @@ edition: (GAMEO), "Karlstadt, Andreas Rudolff-Bodenstein von (1486–1541)" — 
   tradition's own reference work
 citation: Global Anabaptist Mennonite Encyclopedia Online (GAMEO), "Karlstadt, Andreas Rudolff-Bodenstein von (1486–1541)"
 kind: unvendored
-rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
+rights_status: "Online tertiary reference page: no text exists to hold rights over, so nothing to acquire. Rights status as characterized in the Source Registry; not independently re-verified."
 attribution_status: anonymous-or-institutional (no individual author named in the Source Registry row)
 discovery_channel: WebSearch (summaries only; page blocked); Source Registry row 90; 2026-09-15 (Revision
   1)

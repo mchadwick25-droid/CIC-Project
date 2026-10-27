@@ -19,7 +19,7 @@ work: 'Successes and Failures in the German Reformation: The Report from Strasbo
 edition: Archiv für Reformationsgeschichte 73 (1982), pp. 153–175 — from prior knowledge
 citation: 'James M. Kittelson, Successes and Failures in the German Reformation: The Report from Strasbourg, Archiv für Reformationsgeschichte 73 (1982), pp. 153–175'
 kind: unvendored
-rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
+rights_status: "In-copyright journal article (Archiv für Reformationsgeschichte 73, 1982): purchasable through the journal, but its text cannot be redistributed. Rights status as characterized in the Source Registry; not independently re-verified."
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 72; 2026-09-15
 external_ids:

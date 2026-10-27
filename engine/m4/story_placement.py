@@ -131,6 +131,7 @@ def place_stories(tagged_text: str, *, repository_records: dict[str, dict], cont
         return {"text": tagged_text or "", "placed": [], "placed_sentences": {}, "placed_drafts": {}, "removed": []}
 
     for paragraph in (p for p in _PARAGRAPH_BREAK.split(tagged_text or "") if p.strip()):
+        report.orphaned = False
         kept: list[str] = []
         sentences = quote_aware_sentences(paragraph)
         position = 0
@@ -139,8 +140,10 @@ def place_stories(tagged_text: str, *, repository_records: dict[str, dict], cont
             position += 1
             marker = STORY_MARKER.search(sentence)
             if not marker:
-                kept.append(sentence)
+                if not report.drops_leaning(sentence, frozenset(placed)):
+                    kept.append(sentence)
                 continue
+            report.orphaned = False
             sealed = frozenset(placed)
             lead = sentence[: marker.start()].strip()
             drafted = sentence[: marker.end()].strip()
@@ -177,7 +180,7 @@ def place_stories(tagged_text: str, *, repository_records: dict[str, dict], cont
         if kept:
             paragraphs_out.append(kept)
 
-    paragraphs_out = _without_paraphrase(paragraphs_out, unplaced - set(placed), report)
+    paragraphs_out = _without_paraphrase(paragraphs_out, unplaced - set(placed), report, frozenset(placed))
     return {
         "text": "\n\n".join(" ".join(p) for p in paragraphs_out if p),
         "placed": placed,
@@ -270,18 +273,21 @@ def _intro_holds(lead: str, record: dict, vocabulary: frozenset[str]) -> bool:
     return bool(counted) or bool(_COMMUNITY.search(text))
 
 
-def _without_paraphrase(paragraphs: list[list[str]], stories: set[str], report: _Report) -> list[list[str]]:
+def _without_paraphrase(
+    paragraphs: list[list[str]], stories: set[str], report: _Report, sealed: frozenset[str],
+) -> list[list[str]]:
     """The paragraphs without the voice's own sentences tagged to a story in
     `stories`: offered for placement and not placed in this reply."""
     if not stories:
         return paragraphs
     out = []
     for paragraph in paragraphs:
+        report.orphaned = False
         kept = []
         for sentence in paragraph:
             if stories & set(_TAG.findall(sentence)):
                 report.drop(sentence, REASON_STORY_PARAPHRASE)
-            else:
+            elif not report.drops_leaning(sentence, sealed):
                 kept.append(sentence)
         if kept:
             out.append(kept)

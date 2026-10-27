@@ -19,7 +19,7 @@ work: 'Luther: Man between God and the Devil'
 edition: (1989; German 1982)
 citation: 'Heiko A. Oberman, Luther: Man between God and the Devil (1989; German 1982)'
 kind: unvendored
-rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
+rights_status: "In-copyright modern publication (1989): purchasable, but its text cannot be redistributed. Rights status as characterized in the Source Registry; not independently re-verified."
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 82; 2026-09-15
 external_ids:

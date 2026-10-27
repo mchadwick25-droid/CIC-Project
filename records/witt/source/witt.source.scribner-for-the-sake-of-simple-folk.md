@@ -19,7 +19,7 @@ work: 'For the Sake of Simple Folk: Popular Propaganda for the German Reformatio
 edition: (Cambridge, 1981; Clarendon pbk.)
 citation: 'R. W. Scribner, For the Sake of Simple Folk: Popular Propaganda for the German Reformation (Cambridge, 1981; Clarendon pbk.)'
 kind: unvendored
-rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
+rights_status: "In-copyright modern publication (Cambridge, 1981): purchasable, but its text cannot be redistributed. Rights status as characterized in the Source Registry; not independently re-verified."
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 71; WebSearch; 2026-09-15
 external_ids:

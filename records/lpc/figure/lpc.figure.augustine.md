@@ -25,10 +25,9 @@ names:
   tag: scholarly
 dates:
   display: converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against
-    his own wishes in 391, weeping through it (Possidius, Vita IV, independently re-located this session;
-    Doc_01 SS2); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia,
-    in 395/396, again amid popular acclamation (Possidius, Vita VIII; Doc_01 SS2); died 430, during the
-    Vandal siege of Hippo (lpc.story.the-psalms-on-the-wall)
+    his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated
+    bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius,
+    Vita VIII); died 430, during the Vandal siege of Hippo
 narratable: true
 bridge_line: Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he
   wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping

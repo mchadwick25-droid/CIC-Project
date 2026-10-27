@@ -19,7 +19,7 @@ work: Martin Luther
 edition: '3 vols., trans. James L. Schaaf (Minneapolis: Fortress, 1985, 1990, 1993)'
 citation: 'Martin Brecht, Martin Luther, 3 vols., trans. James L. Schaaf (Minneapolis: Fortress, 1985, 1990, 1993)'
 kind: unvendored
-rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
+rights_status: "In-copyright modern publication (Fortress, 1985, 1990, 1993): purchasable, but its text cannot be redistributed. Rights status as characterized in the Source Registry; not independently re-verified."
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 74; WebSearch; 2026-09-15
 external_ids:
