@@ -218,6 +218,7 @@ function init(mount, census) {
     front.addEventListener("click", function () {
       if (!listMode() && !card.classList.contains("active")) { setActive(handIds.indexOf(w.id), true); return; }
       turn(card, true);
+      startNarration(card);
     });
     card.addEventListener("keydown", function (ev) {
       if (ev.key === "Escape" && card.classList.contains("turned")) { turn(card, false); ev.stopPropagation(); }
@@ -231,6 +232,15 @@ function init(mount, census) {
       if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); turn(card, false); }
     });
     return card;
+  }
+
+  // Called only from the tap or key press that turns a card, so the browser
+  // counts it as the person's own start. A refusal leaves the Listen button as it was.
+  function startNarration(card) {
+    var player = card.querySelector(".face.back audio");
+    if (!player) return;
+    var go = player.play();
+    if (go && go.catch) go.catch(function () {});
   }
 
   function turn(card, on, quiet) {
