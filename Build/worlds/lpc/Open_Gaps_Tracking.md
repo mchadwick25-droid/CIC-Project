@@ -2230,3 +2230,33 @@ Logged 2026-10-27. `python -m engine.m9.cli check` found, once lpc was `built`:
 - **What was done.** lpc was returned to `building` (Decision Log, change order). The registry card, tellings, figure fixes and the new pin stay.
 - **What moving to `built` also needs.** The `safety_adjacent` key now differs across the fleet, so eleven `registry-key-set` findings need waivers or values; the outside-help observation test and the R41 probe set need lpc added. All three were prepared in this session and removed again; the diff is in the pull request history.
 - **Owner.** The `lpc` build thread for the fixes. Waivers for a non-grandfathered world are the project lead's to approve.
+
+### OG-98. F4/F5 and F24: engine change on branch `engine-post-draft-removal-f4-f5` (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Done.** The answer record now reaches the participant word for word; a removed cited sentence takes the sentences that lean on it; a reply that lost 40 percent or more of its cited sentences is replaced by the answer record; a rendering wrapped in quotation marks, or carrying a quotation, is set with correct marks. Design and numbers: `lpc_Decision_Log.md`, entry "F4/F5: the engine's design for sentences removed after drafting". Offline only; no model call.
+- **Proved offline.** The damaged fallback (six of twelve sentences, compassion question dropped) and the doubled marks on `lpc.quote.remember-me-at-the-lords-altar` were reproduced before the change and are held by `engine/m4/tests/test_post_draft_removal.py`.
+- **Not proved.** Whether the full live replies for safety-3, safety-4, register-5 and register-6 now read right. That needs a capped live retest the project lead names.
+- **Owner.** The project lead, for the live retest.
+
+### OG-99. Cell matching can leave out the record that names the question (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Fault.** `engine/m4/evidence.py` `match_asks_to_cells` chooses two cells before any record is scored, and a cell found through a record's `retrieve_when` words takes a slot only after the canon-vocabulary cells. For "What did Augustine teach about suicide in the City of God?" the cells chosen were C-I and F5-I (0.484 each, on "augustine", "god", "city", "teach"); F6-T, whose witness `lpc.witness.no-one-may-take-his-own-life` lists this question word for word in `retrieve_when`, was third at 0.337. The witness and its paired quote were never offered; the voice cited the witness from its system prompt and typed the quotations. Reproduced offline.
+- **Same cause in F18.** `lpc.limit.ordinary-interior-life` belongs to F5-I only. "My brother took his own life last year..." reached F5-I on "church", "last" and "life"; "What if someone was dying before their penance was finished?" reached F5-I on "dying" and "someone" (0.429) while F4-I, found through hints on four shared words (1.0), came second. Reproduced offline.
+- **How common.** In the 38 lpc single-turn drafts, 15 cite a record the evidence did not offer; in 4 of the 11 with a cited removal, the removal was on such a record.
+- **Decision for the engine owner.** Retrieval has its own measured instruments (leave-one-out over the canon questions, the sixty-question benchmark); a change must be held to them. This thread did not change retrieval.
+- **Owner.** A retrieval thread.
+
+### OG-100. F4/F5 and F17, F23 items the engine change does not close (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Register-4 ("These are his own words").** No quote was removed in this reply. The voice paraphrased the quote and labelled it Augustine's words. The net has no rule for the sentence, and a rule must not fire when a quote was placed just before it. Needs a false-positive measurement first.
+- **Register-5 (hard teaching lost to the cap).** `MAX_PLACED_QUOTES_PER_REPLY` is one, and the slot goes to the first marker. The voice's soft quote took it and the "mildest condemnation" was refused. Which quote deserves the slot is a ruling for the project lead.
+- **F17 (weak citations).** A tagged sentence with no name or number passes on one shared content word; one with a name or number passes on the grounding floor. Both are calibrated trade-offs (`engine/m4/grounding_net.py` `_claim_verdict`). Verifying a citation needs a model check (`citation_attach`), which cannot be proved offline.
+- **F23 (a later event explained).** `engine/m4/output_check.py` reports and never edits, by Program-Spec M4; no "withhold" reason other than the quotation reasons removes text. Whether a horizon finding should block or redraft is the project lead's.
+- **Streaming.** A hollowed reply can replace a reply whose first sentences have streamed. The client replaces the streamed partial with the finished reply (`cic-poc/frontend/src/lib/streamedReply.ts`), so the change is visible only as a swap at the end of the turn.
+- **Owner.** The project lead, for the cap, F23 and the streaming exception.
