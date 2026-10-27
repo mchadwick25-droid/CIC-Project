@@ -20,6 +20,7 @@ work: '''La double édition du De unitate de S. Cyprien,'' Revue d''Histoire Ecc
   5-24'
 edition: RHE, 1933 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring
   candidate
+citation: 'D. van den Eynde, ''La double édition du De unitate de S. Cyprien,'' Revue d''Histoire Ecclésiastique 29 (1933): 5-24'
 kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note

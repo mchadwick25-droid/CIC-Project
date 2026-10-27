@@ -23,6 +23,7 @@ work: 'The Letters of St. Cyprian of Carthage, Ancient Christian Writers 43, 44,
   Press, 1984-1989)'
 edition: Newman Press, 1984-1989 -- consultation-only, never vendored (Source_Acquisition_Manifest.md
   SS3)
+citation: 'Cyprian of Carthage, The Letters of St. Cyprian of Carthage, trans. G. W. Clarke, Ancient Christian Writers 43, 44, 46, 47 (New York: Newman Press, 1984-1989)'
 kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note

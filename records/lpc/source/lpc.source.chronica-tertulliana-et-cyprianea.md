@@ -22,6 +22,7 @@ work: '''Chronica Tertullianea et Cyprianea'' (an annually recurring bibliograph
   to cover all Latin Christian literature to the death of Cyprian)'
 edition: Revue des Études Augustiniennes et Patristiques, ongoing -- in copyright, never vendored (Source_Acquisition_Manifest.md
   SS3); not a vendoring candidate
+citation: 'F. Chapot, S. Deléani, F. Dolbeau, J.-C. Fredouille, M.-Y. Perrin and P. Petitmengin, ''Chronica Tertullianea et Cyprianea,'' an annual bibliographic survey in Revue des Études Augustiniennes et Patristiques'
 kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note

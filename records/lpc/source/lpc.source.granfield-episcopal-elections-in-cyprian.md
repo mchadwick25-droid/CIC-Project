@@ -19,6 +19,7 @@ work: '''Episcopal Elections in Cyprian: Clerical and Lay Participation,'' Theol
   41-52'
 edition: Theological Studies, 1976 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3);
   not a vendoring candidate
+citation: 'Patrick Granfield, ''Episcopal Elections in Cyprian: Clerical and Lay Participation,'' Theological Studies 37.1 (1976): 41-52'
 kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note

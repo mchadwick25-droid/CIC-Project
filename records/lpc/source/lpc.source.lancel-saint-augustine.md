@@ -19,6 +19,7 @@ author: Serge Lancel
 work: 'Saint Augustine, trans. Antonia Nevill (London: SCM Press, 2002; French original Saint Augustin,
   Paris: Librairie Arthème Fayard, 1999)'
 edition: SCM Press, 2002 -- consultation-only, never vendored (Source_Acquisition_Manifest.md SS3)
+citation: 'Serge Lancel, Saint Augustine, trans. Antonia Nevill (London: SCM Press, 2002; French original Saint Augustin, Paris: Librairie Arthème Fayard, 1999)'
 kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only. This row sits above Source_Acquisition_Manifest.md
   §SS3's own stated Confidence-C-or-below membership rule (it is Confidence B, not C-or-below), so that

@@ -19,6 +19,7 @@ work: 'Enarrationes in Psalmos, CCSL 38-40 (Turnhout: Brepols, 1956)'
 edition: Brepols, 1956 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring
   candidate. A Latin original is separately vendored, but from a different, pre-critical edition (Migne's
   1861 printing, row 201, not this one).
+citation: 'Augustine of Hippo, Enarrationes in Psalmos, CCSL 38-40, eds. E. Dekkers and J. Fraipont (Turnhout: Brepols, 1956)'
 kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note

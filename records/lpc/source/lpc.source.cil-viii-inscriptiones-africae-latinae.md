@@ -22,6 +22,7 @@ work: 'Corpus Inscriptionum Latinarum, vol. VIII, Inscriptiones Africae Latinae 
   with supplements)'
 edition: the Numidia supplement is vendored in the shared corpus as cic/texts/cil8-supplementum-numidiae_cagnat-schmidt1894.txt,
   and directly usable by this document
+citation: 'Rene Cagnat, Johannes Schmidt and successive editors, Corpus Inscriptionum Latinarum, vol. VIII, Inscriptiones Africae Latinae (Berlin: Reimer, 1881-, with supplements)'
 kind: vendored
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s

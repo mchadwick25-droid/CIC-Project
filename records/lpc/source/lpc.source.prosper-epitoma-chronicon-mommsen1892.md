@@ -25,6 +25,7 @@ author: Prosper of Aquitaine (author); Theodor Mommsen (editor)
 work: Epitoma Chronicon, with its African continuations
 edition: 'Chronica Minora Saec. IV-VII, Vol. I (Monumenta Germaniae Historica, Auctorum Antiquissimorum
   Tomus IX) (Berolini: Weidmann, 1892); vendored as cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt'
+citation: 'Prosper of Aquitaine, Epitoma Chronicon, with its African continuations, ed. Theodor Mommsen, in Chronica Minora Saec. IV-VII, vol. I, Monumenta Germaniae Historica, Auctorum Antiquissimorum IX (Berolini: Weidmann, 1892)'
 kind: vendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify

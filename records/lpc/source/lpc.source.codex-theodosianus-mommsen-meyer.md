@@ -27,6 +27,7 @@ work: 'Codex Theodosianus, ed. Th. Mommsen and P. M. Meyer, Theodosiani libri XV
   Sirmondianis (Berlin: Weidmann, 1905), full text (all 16 books)'
 edition: Vendored, held in the shared corpus as cic/texts/theodosianus-16_mommsen-meyer1905.txt, the same
   identifier the sibling Donatism build vendored
+citation: 'Codex Theodosianus, ed. Theodor Mommsen and Paul M. Meyer, Theodosiani libri XVI cum Constitutionibus Sirmondianis (Berlin: Weidmann, 1905)'
 kind: vendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify

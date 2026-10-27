@@ -22,6 +22,7 @@ work: On Modesty (De Pudicitia), chapter XXII, Of Martyrs, and Their Intercessio
   Offenders
 edition: Ante-Nicene Fathers vol. IV, translated by the Rev. S. Thelwall, vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml;
   On Modesty runs from line 7125 and chapter XXII is lines 9550-9659
+citation: 'Tertullian, On Modesty (De Pudicitia), chapter XXII, trans. S. Thelwall, Ante-Nicene Fathers, vol. IV'
 kind: vendored
 rights_status: public-domain; vendored in cic/texts/, and chapter XXII, the one passage this world cites, was directly read in the vendored translation. Registry row 29 is Excluded and licenses nothing from Tertullian.
 attribution_status: attributed

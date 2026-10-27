@@ -21,6 +21,7 @@ relations: []
 author: Optatus of Milevis
 work: Against the Donatists (Books I-VII)
 edition: vendored as cic/texts/optatus_against-the-donatists.txt
+citation: 'Optatus of Milevis, Against the Donatists, Books I-VII'
 kind: vendored
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s

@@ -25,6 +25,7 @@ work: Numidian/Proconsular-Africa basilica archaeology at Carthage and Hippo Reg
   category)
 edition: No edition. No specific site report, excavation record, or publication is named anywhere in Source_Registry.md
   or Source_Acquisition_Manifest.md for this row's own category itself.
+citation: 'The archaeology of the Numidian and Proconsular African basilicas, especially at Carthage and Hippo Regius (a field of study, not a single publication)'
 kind: unvendored
 rights_status: No rights position is stated, because no edition, publication, author, or excavation report
   is named for this row anywhere in Source_Registry.md or Source_Acquisition_Manifest.md -- a recognized

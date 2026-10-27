@@ -19,6 +19,7 @@ work: '''Πρῶτος τῶν τότε Κυπριανός. Cipriano di Cartagin
   245-265'
 edition: Vetera Christianorum, 2006 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3);
   not a vendoring candidate
+citation: 'Maria Veronese, ''Πρῶτος τῶν τότε Κυπριανός. Cipriano di Cartagine in Oriente,'' Vetera Christianorum 43 (2006): 245-265'
 kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note

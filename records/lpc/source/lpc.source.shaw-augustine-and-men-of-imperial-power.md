@@ -19,6 +19,7 @@ author: Brent D. Shaw
 work: '''Augustine and Men of Imperial Power,'' Journal of Late Antiquity 8.1 (Spring 2015): 32-61'
 edition: Journal of Late Antiquity, 2015 -- in copyright, never vendored (Source_Acquisition_Manifest.md
   SS3); not a vendoring candidate
+citation: 'Brent D. Shaw, ''Augustine and Men of Imperial Power,'' Journal of Late Antiquity 8.1 (Spring 2015): 32-61'
 kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note

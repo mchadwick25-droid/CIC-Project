@@ -20,6 +20,7 @@ author: Hans (Freiherr) von Soden
 work: 'Die cyprianische Briefsammlung: Geschichte ihrer Entstehung und Überlieferung, Texte und Untersuchungen,
   Neue Folge, 10. Band, Heft 3'
 edition: 'Leipzig: J. C. Hinrichs, 1904; vendored as cic/texts/vonsoden_cyprianische-briefsammlung-deu_1904.txt'
+citation: 'Hans von Soden, Die cyprianische Briefsammlung: Geschichte ihrer Entstehung und Überlieferung, Texte und Untersuchungen, Neue Folge, 10. Band, Heft 3 (Leipzig: J. C. Hinrichs, 1904)'
 kind: vendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify

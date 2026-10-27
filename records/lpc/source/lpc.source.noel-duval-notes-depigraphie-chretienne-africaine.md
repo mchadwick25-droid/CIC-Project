@@ -21,6 +21,7 @@ work: '''Notes d''épigraphie chrétienne africaine,'' Karthago: Revue d''arché
   Klincksieck, 1958)'
 edition: Klincksieck, 1958 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a
   vendoring candidate
+citation: 'Noël Duval, ''Notes d''épigraphie chrétienne africaine,'' Karthago: Revue d''archéologie africaine VII (Paris: Klincksieck, 1958)'
 kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note

@@ -23,6 +23,7 @@ author: Hans von Soden
 work: Die Prosopographie des afrikanischen Episkopats zur Zeit Cyprians, Quellen und Forschungen aus italienischen
   Archiven und Bibliotheken 12, pp. 247-270
 edition: Rome, 1909; vendored (sliced to this article's own page range) as cic/texts/vonsoden_prosopographie-afrikanischer-episkopat-deu_1909.txt
+citation: 'Hans von Soden, Die Prosopographie des afrikanischen Episkopats zur Zeit Cyprians, Quellen und Forschungen aus italienischen Archiven und Bibliotheken 12 (Rome, 1909), pp. 247-270'
 kind: vendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify

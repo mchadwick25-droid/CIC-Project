@@ -21,6 +21,7 @@ relations: []
 author: Pius Knöll (editor); Augustine of Hippo (author)
 work: Sancti Aureli Augustini Retractationum Libri Duo, CSEL 36 (Sect. I Pars 2)
 edition: 'Vindobonae: F. Tempsky; Lipsiae: G. Freytag, 1902; vendored as cic/texts/augustine_retractationes-lat_knoll-csel36.txt'
+citation: 'Augustine of Hippo, Retractationum Libri Duo, ed. Pius Knöll, CSEL 36 (Vindobonae: F. Tempsky; Lipsiae: G. Freytag, 1902)'
 kind: vendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify

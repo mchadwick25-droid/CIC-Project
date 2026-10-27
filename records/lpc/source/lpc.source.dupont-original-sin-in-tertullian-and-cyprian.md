@@ -19,6 +19,7 @@ work: '''Original Sin in Tertullian and Cyprian: Conceptual Presence and Pre-Aug
   des Études Augustiniennes et Patristiques 63.1 (2017): 1-29'
 edition: REAP, 2017 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring
   candidate
+citation: 'Anthony Dupont, ''Original Sin in Tertullian and Cyprian: Conceptual Presence and Pre-Augustinian Content?'' Revue des Études Augustiniennes et Patristiques 63.1 (2017): 1-29'
 kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note

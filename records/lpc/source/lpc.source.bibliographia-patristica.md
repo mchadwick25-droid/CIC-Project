@@ -19,6 +19,7 @@ author: Successive editors (De Gruyter)
 work: 'Bibliographia Patristica: Internationale Patristische Bibliographie (Berlin: De Gruyter, 1956-1997)'
 edition: De Gruyter, 1956-1997 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not
   a vendoring candidate
+citation: 'Successive editors (De Gruyter), Bibliographia Patristica: Internationale Patristische Bibliographie (Berlin: De Gruyter, 1956-1997)'
 kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note

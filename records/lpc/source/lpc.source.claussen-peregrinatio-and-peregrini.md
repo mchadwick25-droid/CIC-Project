@@ -18,6 +18,7 @@ author: M. A. Claussen
 work: '''Peregrinatio and Peregrini in Augustine''s City of God,'' Traditio 46 (1991): 33-75'
 edition: Traditio, 1991 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring
   candidate
+citation: 'M. A. Claussen, ''Peregrinatio and Peregrini in Augustine''s City of God,'' Traditio 46 (1991): 33-75'
 kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note

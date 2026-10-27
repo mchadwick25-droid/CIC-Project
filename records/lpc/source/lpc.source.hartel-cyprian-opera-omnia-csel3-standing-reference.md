@@ -25,6 +25,7 @@ edition: NOT the base text of the vendored ANF05 translation (ANF05's own introd
   base is Migne's text, not Hartel's); superseded as the current critical edition by CCSL 3 (row 58).
   Pars I-II are vendored as row 191. Pars III is vendored as row 194. This row is the standing reference
   to the edition as a whole; rows 191 and 194 carry the vendored files.
+citation: 'Cyprian of Carthage, S. Thasci Caecili Cypriani opera omnia, ed. Wilhelm von Hartel, CSEL 3.1-3.3 (Vienna: C. Geroldi filius, 1868-1871)'
 kind: unvendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify

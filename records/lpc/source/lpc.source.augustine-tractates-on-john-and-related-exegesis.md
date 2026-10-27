@@ -19,6 +19,7 @@ work: Tractates on the Gospel of John (124 tractates, ~412,000 words), Ten Homil
   of John, Our Lord's Sermon on the Mount, The Harmony of the Gospels
 edition: Nicene and Post-Nicene Fathers, Series I, vols. VI and VII, vendored as cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml
   and cic/texts/npnf107_augustine-homilies-john-soliloquies.xml
+citation: 'Augustine of Hippo, Tractates on the Gospel of John, Ten Homilies on the First Epistle of John, Sermon on the Mount and Harmony of the Gospels, Nicene and Post-Nicene Fathers, Series I, vols. VI and VII'
 kind: vendored
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s

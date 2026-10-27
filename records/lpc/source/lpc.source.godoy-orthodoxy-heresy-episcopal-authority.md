@@ -20,6 +20,7 @@ work: '''Orthodoxy, Heresy and Episcopal Authority in the Third-Century Church: 
   Patristics Conference, Birmingham, 2016) (Leuven: Peeters)'
 edition: Peeters -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring
   candidate
+citation: 'Victor A. Godoy, ''Orthodoxy, Heresy and Episcopal Authority in the Third-Century Church: The Debates between Cyprian of Carthage, the Laxist and the Rigorist Clergy,'' Studia Patristica C (Papers of the Sixth British Patristics Conference, Birmingham, 2016) (Leuven: Peeters)'
 kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note

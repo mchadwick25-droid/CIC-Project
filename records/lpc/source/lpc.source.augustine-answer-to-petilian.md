@@ -25,6 +25,7 @@ relations: []
 author: Augustine of Hippo
 work: Answer to the Letters of Petilian, the Donatist (3 books)
 edition: Nicene and Post-Nicene Fathers, Series I, vol. IV, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml
+citation: 'Augustine of Hippo, Answer to the Letters of Petilian, the Donatist, Nicene and Post-Nicene Fathers, Series I, vol. IV'
 kind: vendored
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned). Book II SS51 and SSSS202-205 directly re-collated against source; the rest

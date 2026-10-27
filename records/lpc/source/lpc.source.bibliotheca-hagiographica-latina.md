@@ -22,6 +22,7 @@ work: 'Bibliotheca Hagiographica Latina antiquae et mediae aetatis (Brussels: So
 edition: Société des Bollandistes, 1898-1986 -- never vendored (Source_Acquisition_Manifest.md SS3); mixed
   rights, disclosed rather than treated as one item -- the base volumes and the 1911 Supplementum are
   public domain, the 1986 Novum Supplementum is in copyright
+citation: 'Socii Bollandiani (eds.), Bibliotheca Hagiographica Latina antiquae et mediae aetatis (Brussels: Société des Bollandistes, 1898-1901; Supplementum, 1911; Novum Supplementum, 1986)'
 kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note

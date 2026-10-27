@@ -19,6 +19,7 @@ work: 'Encyclopedia of the Early Church, trans. Adrian Walford, 2 vols. (Cambrid
   1992)'
 edition: James Clarke & Co., 1992 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3);
   not a vendoring candidate
+citation: 'Angelo Di Berardino (ed.), Encyclopedia of the Early Church, trans. Adrian Walford, 2 vols. (Cambridge: James Clarke & Co., 1992)'
 kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note

@@ -36,6 +36,7 @@ edition: 'Lancel''s own Cerf critical edition is in copyright, consultation-only
   and the corpus map assigns it to this world too (cic/corpus-map/latin-pastoral-congregational-christianity.yaml,
   role: context, confidence: provisional). A second Latin printing is in
   cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901.txt.'
+citation: 'Serge Lancel (ed. and trans.), Actes de la Conférence de Carthage en 411, Sources Chrétiennes 194, 195, 224 and 373 (Paris: Cerf, 1972-1991)'
 kind: vendored
 rights_status: in-copyright for Lancel's Sources Chrétiennes edition, which is never vendored and is
   consultation-only. The Gesta text itself is public domain by date in the Migne PL 11 printing and the

@@ -19,6 +19,7 @@ work: 'The Prosopography of the Later Roman Empire, Vol. I: A.D. 260-395 (Cambri
   Press, 1971)'
 edition: Cambridge University Press, 1971 -- in copyright, never vendored (Source_Acquisition_Manifest.md
   SS3); not a vendoring candidate
+citation: 'A. H. M. Jones, J. R. Martindale, and J. Morris, The Prosopography of the Later Roman Empire, Vol. I: A.D. 260-395 (Cambridge: Cambridge University Press, 1971)'
 kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note

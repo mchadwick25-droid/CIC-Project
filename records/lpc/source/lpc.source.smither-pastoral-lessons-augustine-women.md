@@ -20,6 +20,7 @@ work: '''Pastoral lessons from Augustine''s theological correspondence with wome
   / Theological Studies 72.4 (2016)'
 edition: HTS Teologiese Studies, 2016 -- in copyright, never vendored (Source_Acquisition_Manifest.md
   SS3); not a vendoring candidate
+citation: 'Edward L. Smither, ''Pastoral lessons from Augustine''s theological correspondence with women,'' HTS Teologiese Studies / Theological Studies 72.4 (2016)'
 kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note
