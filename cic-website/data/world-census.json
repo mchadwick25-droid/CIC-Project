@@ -3,7 +3,7 @@
   "title": "Church in Conversation — World Atlas Census",
   "version": "V0.20+era10-frozen",
   "source": "Build/Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
-  "totalEntries": 299,
+  "totalEntries": 300,
   "liveCount": 11,
   "statusCounts": {
    "Built & Live": 11,
@@ -14,7 +14,7 @@
    "Contested - Evidentiary": 6,
    "Deferred by Step 0": 4,
    "Floor Question (register)": 28,
-   "Pre-Survey Candidate": 218,
+   "Pre-Survey Candidate": 219,
    "Label - Assessed Per Body (A3)": 2,
    "Outside Article 4 Scope": 1
   },
@@ -6007,6 +6007,44 @@
      ]
     }
    ]
+  },
+  {
+   "id": "armenian-christianity-before-the-bagratids",
+   "atlasId": "II.19",
+   "era": 3,
+   "name": "Armenian Christianity before the Bagratids",
+   "shortName": "Pre-Bagratid Armenia",
+   "informalName": "The Armenian Church before the Bagratids",
+   "dates": "c. 554-884",
+   "start": 554,
+   "end": 884,
+   "region": "Armenia",
+   "regions": [
+    "Caucasus"
+   ],
+   "lane": "2 Caucasus",
+   "laneLabel": "Caucasus",
+   "laneOrder": 2,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Added for the Library, not yet researched",
+   "statusDescription": "Not yet researched or tiered; added so that works in the Library have a place on the Atlas.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Thin so far: one work is vendored - Conybeare's Rituale Armenorum with the Old Armenian Lectionary, in manuscripts of the 9th to the 14th century.",
+   "floorNote": "",
+   "relationsSummary": "",
+   "why": "Armenia from the end of the After Avarayr entry in 554 to the start of the Bagratid entry in 884.",
+   "entry": null,
+   "longDescription": "",
+   "teaser": "Armenia, c. 554 to 884.",
+   "voices": [],
+   "legacy": "",
+   "experienceToday": [],
+   "documentedStories": []
   },
   {
    "id": "chalcedonian-monasticism-judean-desert-and-gaza",
