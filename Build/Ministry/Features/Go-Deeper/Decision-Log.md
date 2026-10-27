@@ -1247,3 +1247,10 @@ Checked: all 349 app tests and `tsc` pass, three new panel tests cover the panel
 105. The app build with the panel-only view and the gift section reached production on 2026-10-26 (`live` at `29052b8`, `/health` reports it). Mark checked a new conversation and the panel on the live app: no 404, and the gift section showed. `GoDeeperConfig.drawer` is now `true` in `cic-website/assets/go-deeper-config.js`, so the landing page's top-row "Get more conversations" button shows and slides the panel out. This is the follow-up ruling 98 named. Render's auto-deploy was off after the manual rollback of 2026-10-25, which is why the earlier `live` merges did not deploy; Mark deployed `29052b8` by hand. The cause of the 404 on the 1131 build is still not found and is not part of this ruling.
 
 106. Mark saw the slide-out on the live app and said: "this is what i want the more conversations link on the landing page to go to also, this is great". The free line's "Get more conversations" link (ruling 92) now opens the same slide-out instead of leaving the page. With scripts off, or with the drawer switch off, it still goes to `go-deeper.html`. No new words.
+
+
+## 2026-10-27 — Deleting an account: 90 days to re-open it (Mark, accounts build thread)
+
+107. Every participant-facing "home" for an account is now "account". Mark: "all cases of 'home' should be account when referring to their account." The button reads "Delete my account" (Mark: "Delete my account"), and the keep button reads "Keep my account".
+
+108. After "Delete my account" the account is not erased at once. Mark: "lets give them 90 days to re-open"; on keeping everything during those days, "a". The screen after the button says: "you have 90 days to re-open it" (Mark). The sentence around it is drafted on that line and goes to Mark before it ships. After day 90 everything is erased for good. This changes the delete-now behaviour of ruling 24. The build (a "closed on" date, a sign-in screen to re-open, a daily job that erases after day 90, a backup marker so a restore does not re-open a closed account, new app and privacy words) is in progress and ships hidden behind the accounts switch.

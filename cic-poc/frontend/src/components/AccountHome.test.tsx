@@ -112,6 +112,51 @@ describe('the invitation in the panel', () => {
     expect(start.headers['x-cic-accounts']).toBe('1');
   });
 
+  it('offers to re-open a deleted account and sends the same code again with the answer', async () => {
+    let signedInNow = false;
+    const calls = serve({
+      ...signedOut(),
+      '/me': () => (signedInNow ? { body: { signed_in: true, recovery_pending: null, sign_in_methods: ['address'], has_recovery_code: false, refill_day: 14 } } : { body: { signed_in: false } }),
+      '/sign-in/start': { body: { status: 'sent', message: 'm', challenge: 'c1' } },
+      '/sign-in/finish': (body) => (body?.reopen === true ? ((signedInNow = true), { body: { status: 'ok', new_account: false } }) : { body: { status: 'account_closed', erase_on: '2027-01-25', message: 'm' } }),
+      '/balance': { body: BALANCE },
+      '/shelf': { body: { conversations: [] } },
+    });
+    const { GoDeeperPanel, accounts, copy } = await load();
+    render(<GoDeeperPanel />);
+    await act(async () => accounts.refresh());
+    fireEvent.click(screen.getByRole('button', { name: 'Get more conversations' }));
+    fireEvent.click(within(screen.getByRole('complementary')).getByRole('button', { name: copy.signInOrUp }));
+    fireEvent.change(screen.getByLabelText(copy.addressLabel), { target: { value: 'a@b.org' } });
+    fireEvent.click(screen.getByRole('button', { name: copy.sendCode }));
+    fireEvent.change(await screen.findByLabelText(copy.codeLabel), { target: { value: '12345678' } });
+    fireEvent.click(within(screen.getByRole('complementary')).getByRole('button', { name: copy.codeSignIn }));
+    expect(await screen.findByText(copy.closedText('January 25, 2027'))).toBeInTheDocument();
+    fireEvent.click(screen.getByRole('button', { name: copy.reopenYes }));
+    await waitFor(() => expect(calls.filter((c) => c.path === '/sign-in/finish').pop()!.body).toMatchObject({ code: '12345678', reopen: true }));
+    await waitFor(() => expect(signedInNow).toBe(true));
+    await waitFor(() => expect(calls.filter((c) => c.path === '/me').length).toBeGreaterThan(1));
+  });
+
+  it('lets a person leave a deleted account deleted', async () => {
+    serve({
+      ...signedOut(),
+      '/sign-in/start': { body: { status: 'sent', message: 'm', challenge: 'c1' } },
+      '/sign-in/finish': { body: { status: 'account_closed', erase_on: '2027-01-25', message: 'm' } },
+    });
+    const { GoDeeperPanel, accounts, copy } = await load();
+    render(<GoDeeperPanel />);
+    await act(async () => accounts.refresh());
+    fireEvent.click(screen.getByRole('button', { name: 'Get more conversations' }));
+    fireEvent.click(within(screen.getByRole('complementary')).getByRole('button', { name: copy.signInOrUp }));
+    fireEvent.change(screen.getByLabelText(copy.addressLabel), { target: { value: 'a@b.org' } });
+    fireEvent.click(screen.getByRole('button', { name: copy.sendCode }));
+    fireEvent.change(await screen.findByLabelText(copy.codeLabel), { target: { value: '12345678' } });
+    fireEvent.click(within(screen.getByRole('complementary')).getByRole('button', { name: copy.codeSignIn }));
+    fireEvent.click(await screen.findByRole('button', { name: copy.reopenNo }));
+    expect(await screen.findByLabelText(copy.addressLabel)).toBeInTheDocument();
+  });
+
   it('shows a signed-in person the way to their home instead', async () => {
     serve(signedIn(['address']));
     const { GoDeeperPanel, accounts, copy } = await load();
@@ -284,14 +329,20 @@ describe('settings', () => {
   });
 
   it('shows what goes and what stays, then deletes only after a confirmation and a second press', async () => {
-    const { calls, copy } = await open(signedIn(['address']), { ...step, '/delete': { body: { status: 'ok' } } });
+    const { calls, copy } = await open(signedIn(['address']), { ...step, '/delete': { body: { status: 'ok', erase_on: '2027-01-25' } } });
     fireEvent.click(home().getByRole('button', { name: copy.deleteHome }));
+    expect(home().getByText(copy.deleteWhen)).toBeInTheDocument();
     expect(home().getByText(copy.deleteGoes)).toBeInTheDocument();
     expect(home().getByText(copy.deleteStays)).toBeInTheDocument();
     expect(home().queryByRole('button', { name: copy.deleteYes })).not.toBeInTheDocument();
     await confirmByEmail(copy);
     fireEvent.click(await home().findByRole('button', { name: copy.deleteYes }));
     await waitFor(() => expect(calls.some((c) => c.path === '/delete')).toBe(true));
+    expect(await home().findByRole('heading', { name: copy.deletedHeading })).toBeInTheDocument();
+    expect(home().getByText(copy.deletedDone)).toBeInTheDocument();
+    expect(home().getByText(copy.deletedLastDay('January 25, 2027'))).toBeInTheDocument();
+    expect(home().queryByRole('button', { name: copy.signInOrUp })).not.toBeInTheDocument();
+    fireEvent.click(home().getByRole('button', { name: copy.backToSite }));
     await waitFor(() => expect(screen.queryByRole('main')).not.toBeInTheDocument());
   });
 

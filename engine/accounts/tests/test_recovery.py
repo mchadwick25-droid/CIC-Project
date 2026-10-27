@@ -1,7 +1,7 @@
 import logging
 from datetime import timedelta
 
-from engine.accounts.tests.conftest import provider_sign_in, provider_token, sign_in, stepped_up_session
+from engine.accounts.tests.conftest import delete_now, provider_sign_in, provider_token, sign_in, stepped_up_session
 
 ADDR = "ada@example.org"
 NEW = "ada.new@example.org"
@@ -188,7 +188,7 @@ def test_deleting_an_account_removes_its_recovery_rows(svc, mailer, clock, store
     _prove(svc, mailer, code)
     stepped = svc.session(cookie)
     svc.store.step_up_session(stepped.token_hash, svc.now() + 600)
-    assert svc.delete_account(svc.session(cookie)).status == "ok"
+    assert delete_now(svc, clock, svc.session(cookie)).status == "ok"
     assert store._d.execute("SELECT (SELECT COUNT(*) FROM recovery_keys), (SELECT COUNT(*) FROM pending_recoveries)").fetchone() == (0, 0)
     assert contacts.get(session.account_id) is None and contacts.take_pending(session.account_id) is None
 
