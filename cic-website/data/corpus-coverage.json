@@ -12711,6 +12711,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Dionysius Exiguus, translations from the Greek, canon collections and paschal writings, Latin",
+          "author": "dionysius-exiguus",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "The Ecclesiastical History of Evagrius (431-594), Greek text with scholia (Bidez and Parmentier, 1898)",
           "author": "evagrius-scholasticus",
           "role": "tradition",
