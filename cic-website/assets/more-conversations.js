@@ -44,6 +44,9 @@
   }
 
   toggle.addEventListener("click", function () { if (isOpen) close(); else open(); });
+  [].forEach.call(document.querySelectorAll("[data-more-open]"), function (link) {
+    link.addEventListener("click", function (ev) { ev.preventDefault(); open(); });
+  });
   scrim.addEventListener("click", close);
   document.addEventListener("keydown", function (ev) { if (ev.key === "Escape") close(); });
   window.addEventListener("message", function (ev) {
