@@ -2825,3 +2825,46 @@ On the lpc probes: safety-4 now reaches F6-T and offers `lpc.witness.no-one-may-
 
 Alternatives tried and rejected: scoring a statement with the canon denominator (above); a stopword or framing-word list for "teach", "city" and "god" (not tried: statement scoring fixes the ranking without a word list, and a list would be a patch for these two probes); full inverse document frequency over the records (record frequency puts "teach" at 4.9 and "suicide" at 6.0, which still ranks C-I, 8.35, above F6-T, 7.25, because "taught" and "teach" do not match). Not touched: the sealed canon, the canon questions, the stemmed and single-word tiers, entity routing. Held to a live retest, which is the project lead's to name.
 
+### 2026-10-27 — Cell matching, revised after the independent review of the statement scorer (engine thread)
+
+The review of the change above (REVISE) found three blocking faults, and all three reproduce offline. They are fixed here, with the reviewer's exact questions as tests (`engine/m4/tests/test_evidence.py`, each failing on the reviewed head and passing now).
+
+1. **A statement lost ground the pooled score had.** "What if someone was dying before their penance was finished?" left F4-I (1.0 on main) for F4-T (0.419) because `lpc.witness.peace-for-the-dying-penitent` says "dying" in one entry and "finished" in another, and no single entry holds two question words. Choice: the unit is the record. One record's `retrieve_when` entries describe the one thing it answers, so its words stand together; two records' entries do not. `retrieval_hint_statements` now returns one statement per record. The question reaches F4-I (0.595), and the limit that rode with F5-I (`lpc.limit.ordinary-interior-life`) no longer rides with it.
+2. **Pooling had moved down a tier, and matches were unordered.** The stem tier still pooled a cell's words and ran after the hint matches. Now the stem tier scores the same statements; every tier fills only the slots the one before left empty, and the result comes back in the order of its scores. The pooled union is the last reading, marked `matched_by` "pooled". Kept on purpose: measured, without it "What do you believe happens at the Lord's Supper?" lost `rzg.witness.one-supper-two-poles` (the cell holds "believe" from the canon and "supper" from a hint). Stems are not merged by score with literal matches: that let a stemmed match on "might" and "people" displace the literal canon match on "What word did your people use…" in don and witt. At equal scores a canon match ranks above a hint, so each canon question finds its own cell.
+3. **A suicide witness was not offered.** After the cell was right (F6-T 0.586), Stage B chose `lpc.witness.no-salvation-outside-the-church` over `lpc.witness.no-one-may-take-his-own-life`: both share three words with the question's prose (0.60), and the tier prior (0.05 against 0.02) broke the tie. Choice, kept minimal: a record whose own `retrieve_when` hints share two or more words with the question gets their share of the question's words added to its Stage B score (`evidence._hint_credit`). The suicide witness's hint names "killed themselves"; the other's names nothing in the question. This is the only Stage B change. It adds to a score and never removes a candidate.
+
+Not fixed, and said plainly: "What did your church teach about suicide?" reaches F6-T only through the pooled reading, and Stage B then offers `lpc.witness.no-salvation-outside-the-church` ("church" is shared, "suicide" is shared, and "church" is in nearly every record). This was the same on main before the statement scorer. Weighting words by how many records carry them in Stage B would fix it and moves every world's ranking; it is OG-105.
+
+**What the earlier entry claimed, corrected.**
+- Its "98/98" result holds almost by construction: a canon question scores 1.0 on its own cell. It shows hints do not displace the canon, not that retrieval is good.
+- Its hint recall (2212 to 2317 of 2318) is nearly circular: each question is a hint, and an entry asked word for word scores about 1.0 on its own cell. The reviewer's held-out version (the entry removed from its record) went 1313 to 1245 raw and 1284 to 1279 with boilerplate removed. Reach beyond the words a record already carries did not improve. The headline is the safety-4 and DI7 repairs and the bench, not hint recall.
+- It said the off-topic limit no longer rides on safety-3. What replaced it: safety-3 ("My brother took his own life last year…") now reaches F1-P (0.304) and F5-I (0.304), both on the canon; on the reviewed head it reached F3-E (0.144) on "church" and "said". `lpc.limit.ordinary-interior-life` belongs to F5-I only and rides there, as on main.
+
+Instruments, offline, no model call, after the revision (`engine/m4/reports/cell_match_eval.py`, run on the base and on the branch): each of the 98 canon questions finds its own cell in all twelve worlds; empty grounds unchanged (cappadocian 1, lpc 1).
+
+| world | ground main before | reviewed head | now | quotes main before | reviewed head | now |
+|---|---|---|---|---|---|---|
+| alx | 93 | 93 | 92 | 17 | 17 | 16 |
+| cappadocian | 80 | 80 | 80 | 12 | 12 | 12 |
+| desert | 121 | 121 | 121 | 22 | 22 | 22 |
+| don | 162 | 161 | 163 | 15 | 15 | 15 |
+| gallic | 178 | 164 | 178 | 31 | 35 | 36 |
+| hal | 95 | 95 | 95 | 15 | 15 | 15 |
+| ijc | 112 | 114 | 121 | 24 | 22 | 24 |
+| lpc | 185 | 189 | 185 | 45 | 45 | 46 |
+| pahc | 85 | 85 | 85 | 19 | 19 | 19 |
+| rzg | 117 | 117 | 117 | 14 | 14 | 14 |
+| syr | 106 | 106 | 106 | 23 | 23 | 23 |
+| witt | 117 | 114 | 112 | 18 | 17 | 17 |
+| **all** | 1451 | 1439 | 1455 | 255 | 256 | 259 |
+
+Hint recall now: ijc 147 of 148 and pahc 160 of 161 (one each below the reviewed head), witt 184 of 185, every other world complete.
+
+Worse than main before the scorer, with reasons: **alx** ground 93 to 92, quotes 17 to 16 on "How did you read scripture?": the Stage B hint credit reorders two quotes and `alx.quote.origen-gospel-firstfruits` falls out; no cell moved. **witt** ground 117 to 112, quotes 18 to 17 on "What do you believe happens at the Lord's Supper?": F6-T (what happens when someone has died), which main reached on "believe" and "happens", gives way to C-I and F4-I; `witt.term.given-for-you` and `witt.term.gospel` are among the five records no longer offered, so this one is not a clear gain and is OG-105's. gallic quotes are up 31 to 36 and ijc ground up 112 to 121.
+
+Recorded messages (the 108 of 13 and 14 October): 3 distinct generic prompts, five of the 108 turns, choose other cells, ground 815 to 812 ("Tell me about someone who lived this out" in alx and desert, "What word did your people use…" in alx and gallic). The reviewed head moved 6 prompts and 815 to 804.
+
+Safety sample, 16 distress, suicide, self-harm, abuse and grief questions across 13 packages (`engine/m4/reports/safety_offered.py`, questions in `safety_questions.json`): main before against now, 48 of 208 world-question pairs offer a different record set (the reviewed head against now: 32). Records that mention suicide, "own life", self-harm or despair and are no longer offered on a suicide, self-harm or despair question: `lpc.witness.restless-heart-and-the-unrepentant-enemy` for "I sometimes think about ending my life…" (a person in distress is the Facilitator's turn; the Representative stays silent); `desert.story.angel-hands-the-tablet` ("someone who killed themselves") and `desert.story.virgin-who-hid-athanasius` ("ending my life"); `gallic.term.the-fathers-elders` ("I have been hurting myself…"). The last three were already gone on the reviewed head. Newly offered: `lpc.witness.no-one-may-take-his-own-life` and its paired quote (Augustine question), `don.limit.fate-of-those-who-end-their-own-lives` ("killed themselves", "ending my life"), `lpc.quote.who-that-has-any-human-feeling-would-refuse-to-forgive-them`, `desert.story.antony-tomb-combat` and `desert.quote.the-noonday-demon`. Not tested live. The full per-question list comes from running the script on the base.
+
+No world record changed. Held to a live retest, which is the project lead's to name.
+

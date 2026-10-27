@@ -2292,3 +2292,13 @@ Logged 2026-10-27.
 - **Left.** Deep Interview turn 7 ("What if someone was dying before their penance was finished?") still reaches F5-I through a canon match on "dying" and "someone", and `lpc.limit.ordinary-interior-life` rides with it. That limit is assigned to F5-I only; whether it belongs on other cells is a record-scope question for the `lpc` build thread, not a scoring fault.
 - **Not proved.** Whether the live replies now read right; that needs the capped live retest the project lead names.
 - **Owner.** The `lpc` build thread for the limit's scope; the project lead for the retest.
+
+### OG-105. Stage B weights every shared word alike (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Gap.** `evidence.select_cell_candidates` ranks a cell's records by the overlap of prose words, so a word carried by nearly every record ("church") counts as much as one carried by few ("suicide"). "What did your church teach about suicide?" reaches F6-T (through the pooled reading only) and offers `lpc.witness.no-salvation-outside-the-church`, not `lpc.witness.no-one-may-take-his-own-life`. Same on main before the statement scorer. The hint credit added in the retrieval revision fixes the questions whose hints name two question words, not this one.
+- **Also open.** witt "What do you believe happens at the Lord's Supper?" offers 5 fewer records than on main before the statement scorer (`witt.term.given-for-you` among them); alx "How did you read scripture?" drops one quote.
+- **Not changed.** Weighting Stage B words by how many records carry them would change every world's ranking and needs the same all-world before and after run as Stage A.
+- **Owner.** An engine thread.
+

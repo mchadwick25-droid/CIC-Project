@@ -1292,11 +1292,13 @@ def test_a_cell_does_not_match_on_words_collected_from_different_hint_statements
 
 
 def test_a_short_hint_inside_a_long_question_does_not_outscore_the_statement_that_names_it():
+    canon = {**STATEMENT_CANON, "canon.Y-1": {"id": "canon.Y-1", "record_type": "canon_question", "cell": "Y-1", "text": "Harbour."}}
     records = {
-        "x": _hinted("x", "X-1", "ambrose usury psalms sermon letters"),
+        "x": _hinted("x", "X-1", "ambrose usury psalms letters sermon"),
         "y": _hinted("y", "Y-1", "ambrose usury"),
     }
-    assert _cells("ambrose usury psalms bishop", records) == ["X-1"]
+    matches = match_asks_to_cells(message="ambrose usury psalms bishop synod", asks=None, canon_questions=canon, repository_records=records, top_n=2)
+    assert [m["cell"] for m in matches] == ["X-1", "Y-1"]
 
 
 def test_a_hint_statement_that_names_the_question_outscores_a_weak_canon_match():
@@ -1331,3 +1333,62 @@ def test_the_lpc_suicide_question_reaches_the_cell_whose_witness_names_it():
     matches = match_asks_to_cells(message=query, asks=None, canon_questions=canon, repository_records=records)
     assert matches[0]["cell"] == "F6-T"
     assert "F5-I" not in {m["cell"] for m in matches}
+
+
+# ---- Stage A and B on the lpc questions an independent review replayed -------
+
+def _lpc():
+    from engine.m1 import loader
+
+    fleet = loader.load_fleet_records()
+    canon = {rid: r for rid, r in fleet.items() if r.get("record_type") == "canon_question"}
+    return loader.load_world_records("lpc"), canon
+
+
+def _lpc_cells(query):
+    records, canon = _lpc()
+    return match_asks_to_cells(message=query, asks=None, canon_questions=canon, repository_records=records)
+
+
+def test_a_dying_penitent_question_reaches_the_cell_whose_record_names_it():
+    # The words stand in one record's two hints ("who could hear a dying
+    # penitent's confession", "...before the road back was finished") and
+    # in no single entry.
+    matches = _lpc_cells("What if someone was dying before their penance was finished?")
+    assert matches[0]["cell"] == "F4-I"
+
+
+def test_cells_come_back_in_the_order_of_their_scores():
+    for query in (
+        'My brother took his own life last year. What would your church have said about him?',
+        "What did your church teach about suicide?",
+        "What did your people say about someone who killed themselves?",
+    ):
+        scores = [m["score"] for m in _lpc_cells(query) if m.get("matched_by") not in ("pooled", "pooled-stem")]
+        assert scores == sorted(scores, reverse=True), query
+
+
+def test_a_bereaved_question_does_not_reach_a_cell_through_two_common_words():
+    cells = {m["cell"] for m in _lpc_cells('My brother took his own life last year. What would your church have said about him?')}
+    assert "F3-E" not in cells
+
+
+def test_a_church_teaching_question_on_suicide_still_reaches_the_cell_that_holds_it():
+    assert "F6-T" in {m["cell"] for m in _lpc_cells("What did your church teach about suicide?")}
+
+
+def test_the_suicide_witness_is_the_first_witness_offered_for_who_killed_themselves():
+    records, _ = _lpc()
+    coverage_entry = {"doctrinal_witness": [
+        rid for rid, r in records.items()
+        if r.get("record_type") == "doctrinal_witness" and "F6-T" in (r.get("canon_cells") or [])
+    ]}
+    for query in (
+        "What did your people say about someone who killed themselves?",
+        "What did Augustine teach about suicide in the City of God?",
+    ):
+        offered = select_cell_candidates(
+            cell="F6-T", coverage_entry=coverage_entry, repository_records=records, message=query, asks=None,
+        )
+        witnesses = [c["id"] for c in offered if c["record_type"] == "doctrinal_witness"]
+        assert witnesses[0] == "lpc.witness.no-one-may-take-his-own-life", query

@@ -89,19 +89,22 @@ def retrieval_hint_keywords(records: dict[str, dict]) -> dict[str, set[str]]:
 
 
 def retrieval_hint_statements(records: dict[str, dict]) -> dict[str, list[set[str]]]:
-    """Per-cell list of retrieval statements from one world's records: each
-    `retrieval.retrieve_when` entry of a record, as its own content-word
-    set, credited to every cell in that record's `canon_cells`.
-    retrieval_hint_keywords merges them into one set per cell, so a cell
-    collects words from entries that never stand together in any one
-    statement; this keeps each entry apart, so a question can be scored
-    against what one entry says."""
+    """Per-cell list of retrieval statements from one world's records: all
+    of one record's `retrieval.retrieve_when` entries as a single content-word
+    set, credited to every cell in that record's `canon_cells`. A record's
+    own entries describe the one thing it answers, so words spread over them
+    belong together; two different records' entries do not, and
+    retrieval_hint_keywords merges those into one set per cell. This keeps
+    each record apart, so a question can be scored against what one record
+    says."""
     statements: dict[str, list[set[str]]] = {}
     for record in records.values():
         hints = (record.get("retrieval") or {}).get("retrieve_when") or []
-        words = [content_words(hint) for hint in hints]
+        words = set().union(*(content_words(hint) for hint in hints)) if hints else set()
+        if not words:
+            continue
         for cell in record.get("canon_cells") or []:
-            statements.setdefault(cell, []).extend(w for w in words if w)
+            statements.setdefault(cell, []).append(words)
     return statements
 
 

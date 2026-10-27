@@ -38,7 +38,7 @@ gravity/contested_claim anti-conflation case the design cares most about
 """
 import re
 
-from engine.m1.canon import entity_cells, cell_keywords, retrieval_hint_keywords, retrieval_hint_statements
+from engine.m1.canon import entity_cells, cell_keywords, retrieval_hint_statements
 from engine.prose import FALLBACK_EXCLUDED_KEYS as _FALLBACK_EXCLUDED_KEYS
 from engine.prose import all_text, content_words, overlap_coefficient, retrieval_words
 from engine.m4.citation_cards import _quote_speaker_label
@@ -489,6 +489,13 @@ def _word_weights(query_words: set[str], cell_count: dict[str, int]) -> dict[str
     return weights
 
 
+def _by_score(match: dict) -> tuple:
+    """Best first. At equal scores a cell the canon questions matched ranks
+    above one only a record's hint did: the fleet's own questions are the
+    surer evidence, and a canon question must always find its own cell."""
+    return (-match["score"], bool(match.get("from_retrieval_hint")), match["cell"])
+
+
 def match_asks_to_cells(
     *, message: str, asks: list[dict] | None, canon_questions: dict[str, dict], repository_records: dict[str, dict] | None = None, top_n: int = 2
 ) -> list[dict]:
@@ -513,32 +520,34 @@ def match_asks_to_cells(
     None keeps the fleet-only behaviour, which is what a caller with no
     world in hand (the compile-time cache, the fleet's own tests) wants.
 
-    A hint is scored as the statement it is. Each `retrieve_when` entry of
-    a record stands apart (engine.m1.canon.retrieval_hint_statements), and
-    a cell scores as well as the best one statement does, not as the union
-    of every entry its records carry. Pooling the entries into one
-    vocabulary let a cell collect shared words from entries that never
-    stand together: for "What did Augustine teach about suicide in the City
-    of God?", C-I and F5-I each gathered 1.88 of weight from "augustine",
-    "god", "teach" and "city" spread over different entries, and F6-T,
-    whose one entry reads "what Augustine taught about suicide", took 1.31
-    and came third. A statement is scored against the query's weight, not
-    against its own length: the overlap coefficient would give a two-word
-    entry inside a long question a perfect score. The canon questions keep
-    the overlap coefficient.
+    A hint is scored as the statement it is. A record's `retrieve_when`
+    entries stand together as one statement
+    (engine.m1.canon.retrieval_hint_statements), and a cell scores as well
+    as the best one statement does, not as the union of every record it
+    carries. Pooling the records into one vocabulary let a cell collect
+    shared words from records that never stand together: for "What did
+    Augustine teach about suicide in the City of God?", C-I and F5-I each
+    gathered 1.88 of weight from "augustine", "god", "teach" and "city"
+    spread over different records, and F6-T, whose one record reads "what
+    Augustine taught about suicide", took 1.31 and came third. A statement is
+    scored against the query's weight, not against its own length: the
+    overlap coefficient would give a two-word entry inside a long question a
+    perfect score. The canon questions keep the overlap coefficient.
 
-    The canon ranking and the hint statements compete on score, and a
-    cell keeps its better one. When a hint pooled with the canon words it
-    could outscore a cell the canon matched honestly, so hints were kept to
-    the slots the canon left empty. With each statement scored alone, the
-    98 canon questions asked with each world's hints still find their own
-    cell in every world."""
+    Every statement is read literally first and stemmed into the slots that
+    leaves empty, so a stemmed match never displaces a literal one, and the
+    matches come back in the order of their scores. The pooled union of a cell's words is the last resort, only into slots the
+    statements left empty, and is marked `matched_by` "pooled": it can find
+    a cell whose words come from several records, and it cannot outrank a
+    statement. At equal scores a canon match ranks above a hint, so each
+    canon question finds its own cell with any world's hints.
+    """
     query_words = _query_words(message, asks)
     if not query_words:
         return []
 
     def _rank(
-        cell_words: dict[str, set[str]], *, allow_single: bool = False,
+        query: set[str], cell_words: dict[str, set[str]], *, allow_single: bool = False,
         statements: dict[str, list[tuple[set[str], bool]]] | None = None,
     ) -> list[dict]:
         """Cells scored against the query, best first. `cell_words` fixes how
@@ -547,19 +556,19 @@ def match_asks_to_cells(
         the cell scoring as its best one. A vocabulary scores against the
         smaller of its own weight and the query's; with against_the_query,
         against the query's alone."""
-        single_ok = allow_single and len(query_words) < _SHORT_QUERY_WORDS
-        cell_count = {w: sum(1 for ws in cell_words.values() if w in ws) for w in query_words}
+        single_ok = allow_single and len(query) < _SHORT_QUERY_WORDS
+        cell_count = {w: sum(1 for ws in cell_words.values() if w in ws) for w in query}
         discriminating = (
-            {w for w in query_words if 0 < cell_count[w] <= _SHORT_QUERY_MAX_CELLS}
+            {w for w in query if 0 < cell_count[w] <= _SHORT_QUERY_MAX_CELLS}
             if single_ok else set()
         )
-        weight = _word_weights(query_words, cell_count)
-        query_mass = sum(weight[w] for w in query_words)
+        weight = _word_weights(query, cell_count)
+        query_mass = sum(weight[w] for w in query)
         scored = []
         for cell, words in cell_words.items():
             best = None
             for vocabulary, against_the_query in [(words, False)] if statements is None else statements.get(cell, []):
-                shared = query_words & vocabulary
+                shared = query & vocabulary
                 if len(shared) < _MIN_ASK_MATCH_WORDS and not (single_ok and shared and shared <= discriminating):
                     continue
                 shared_mass = sum(weight[w] for w in shared)
@@ -567,17 +576,20 @@ def match_asks_to_cells(
                 denom = query_mass if against_the_query else min(query_mass, mass)
                 score = shared_mass / denom if denom else 0.0
                 if best is None or score > best["score"]:
-                    best = {"cell": cell, "score": round(score, 3), "shared_words": sorted(shared)}
+                    best = {
+                        "cell": cell, "score": round(score, 3), "shared_words": sorted(shared),
+                        **({"from_retrieval_hint": True} if against_the_query else {}),
+                    }
             if best is not None:
                 scored.append(best)
-        scored.sort(key=lambda e: (-e["score"], e["cell"]))
+        scored.sort(key=lambda e: _by_score(e))
         return scored
 
-    def _fill(matches, vocab, *, allow_single=False, **mark):
+    def _fill(matches, query, vocab, *, allow_single=False, statements=None, **mark):
         """Append cells this vocabulary finds, never displacing what is
         already matched - the same discipline the later tiers follow."""
         already = {m["cell"] for m in matches}
-        for match in _rank(vocab, allow_single=allow_single):
+        for match in _rank(query, vocab, allow_single=allow_single, statements=statements):
             if len(matches) >= top_n:
                 break
             if match["cell"] not in already:
@@ -585,44 +597,45 @@ def match_asks_to_cells(
         return matches
 
     canon_words = cell_keywords(canon_questions)
-    matches = _rank(canon_words)
 
     # Hints widen cells the fleet already defines; they never invent a
     # cell, so a stale canon_cells value on a record can't create one. A
-    # cell is scored on each hint statement apart (see above) and on its
-    # canon words, and keeps its best.
-    hinted = {
-        cell: canon_words.get(cell, set()) | words
-        for cell, words in retrieval_hint_keywords(repository_records or {}).items()
+    # cell is scored on its canon words and on each record's hints apart
+    # (see above), and keeps its best.
+    hint_statements = {
+        cell: statements
+        for cell, statements in retrieval_hint_statements(repository_records or {}).items()
         if cell in canon_words
     }
-    if hinted:
-        statements = {
-            cell: [(canon_words.get(cell, set()), False), *((entry, True) for entry in entries)]
-            for cell, entries in retrieval_hint_statements(repository_records or {}).items() if cell in hinted
-        }
-        pool = {m["cell"]: m for m in matches}
-        for match in _rank(hinted, statements=statements):
-            if match["cell"] not in pool or match["score"] > pool[match["cell"]]["score"]:
-                pool[match["cell"]] = {**match, "from_retrieval_hint": True}
-        matches = sorted(pool.values(), key=lambda e: (-e["score"], e["cell"]))
+    full = {cell: canon_words[cell].union(*hint_statements.get(cell, [])) for cell in canon_words}
+    scored_on = {
+        cell: [(canon_words[cell], False), *((statement, True) for statement in hint_statements.get(cell, []))]
+        for cell in canon_words
+    }
+    stem_query = _stems(query_words)
+    stemmed = {cell: _stems(words) for cell, words in full.items()}
+    stemmed_on = {
+        cell: [({_stem(w) for w in vocabulary}, against) for vocabulary, against in vocabularies]
+        for cell, vocabularies in scored_on.items()
+    }
+    # Each later reading runs only into the slots the earlier ones left
+    # empty, so none displaces an earlier one, and what they found comes
+    # back in the order of its scores. The pooled union of a cell's words is
+    # weaker evidence than one statement holding them (it finds a cell whose
+    # words come from several records, as "believe" from the canon and
+    # "supper" from a hint), so it comes after the statements and is marked
+    # `matched_by` "pooled". The stemmed reading is the only way "persecuted"
+    # reaches "persecution".
+    matches = _rank(query_words, full, statements=scored_on)[:top_n]
+    if len(matches) < top_n:
+        matches = _fill(matches, query_words, full, matched_by="pooled")
+    if len(matches) < top_n:
+        matches = _fill(matches, stem_query, stemmed, statements=stemmed_on, matched_by="stem")
+    if len(matches) < top_n:
+        matches = _fill(matches, stem_query, stemmed, matched_by="pooled-stem")
+    matches.sort(key=_by_score)
     if len(matches) >= top_n:
         return _add_entity_cell(matches[:top_n], query_words, repository_records, canon_words)
-
-    # Everything above compares words literally. This tier runs only when
-    # that left slots unfilled, so an honest literal match is never
-    # displaced by a stemmed one.
-    #
-    # A single-distinctive-word tier was built here and measured out. On
-    # leave-one-question-out over the canon it picked the right cell 24% of
-    # the time against the literal matcher's own 31% - it made questions
-    # reach ground, usually the wrong ground, so it is not here.
-    full = {cell: canon_words.get(cell, set()) | hinted.get(cell, set()) for cell in canon_words}
-    stemmed = {cell: _stems(words) for cell, words in full.items()}
-    stem_query = _stems(query_words)
-    saved_query, query_words = query_words, stem_query
-    matches = _fill(matches, stemmed, matched_by="stem")
-    query_words = saved_query
 
     # LAST, and only into slots nothing else filled. Ordering is the whole
     # safety of this tier: run earlier, a 0.5 single-word canon match takes
@@ -633,12 +646,12 @@ def match_asks_to_cells(
     # unchanged and only turns reaching nothing can move - the same
     # discipline the retrieval-hint tier above follows.
     if len(matches) < top_n:
-        matches = _fill(matches, canon_words, allow_single=True, matched_by="single-word")
+        matches = _fill(matches, query_words, canon_words, allow_single=True, matched_by="single-word")
     # A one-word query gets the hinted vocabulary too - see the note above
     # on why the framing-verb risk cannot arise when the word is the whole
     # question. Still last, still filling only what nothing else filled.
-    if len(matches) < top_n and len(query_words) == 1 and hinted:
-        matches = _fill(matches, hinted, allow_single=True, matched_by="single-word-hint")
+    if len(matches) < top_n and len(query_words) == 1 and hint_statements:
+        matches = _fill(matches, query_words, {c: full[c] for c in hint_statements}, allow_single=True, matched_by="single-word-hint")
 
     # The question word, for a short question that reached nothing. "Who is
     # Jesus?" has one content word, `jesus`, in five cells: too common to
@@ -658,7 +671,7 @@ def match_asks_to_cells(
         asked = _question_words(message, asks) - query_words
         if asked:
             own, query_words = query_words, query_words | asked
-            ranked = _rank(_canon_question_words(canon_questions, canon_words))
+            ranked = _rank(query_words, _canon_question_words(canon_questions, canon_words))
             query_words = own
             for match in ranked:
                 cell = match["cell"].split("|", 1)[0]
@@ -788,6 +801,19 @@ def _diverse_take(
     return take
 
 
+def _hint_credit(query_words: set[str], record: dict) -> float:
+    """What a record's own `retrieve_when` says about this question, as a
+    share of the question's words: zero unless the hints, taken together as
+    the one record's statement, share at least _MIN_ASK_MATCH_WORDS words
+    with it. A record that names a question in its hints outranks one that
+    only shares words with its prose, as Stage A already ranks a cell, so a
+    tie on the prose overlap no longer goes to the record with the higher
+    tier prior."""
+    hints = (record.get("retrieval") or {}).get("retrieve_when") or []
+    shared = query_words & set().union(*(content_words(h) for h in hints)) if hints else set()
+    return len(shared) / len(query_words) if len(shared) >= _MIN_ASK_MATCH_WORDS else 0.0
+
+
 # Stage B2 (Build-Plan.md Stage 4c, part 2). Stage B's own candidate pool
 # is deliberately the matched cell's own compiled/coverage.json entry, per
 # the module docstring's named simplification - and most of the time that
@@ -827,7 +853,7 @@ def _retrieval_fill_scores(*, record_type: str, query_words: set[str], repositor
         shared = query_words & words
         if not shared:
             continue
-        base = len(shared) / min(len(query_words), len(words))
+        base = len(shared) / min(len(query_words), len(words)) + _hint_credit(query_words, record)
         if _prefer_instead_demotes(query_words, record):
             base *= _PREFER_INSTEAD_DEMOTION_FACTOR
         scored.append((rid, base + _tier_prior(record)))
@@ -910,7 +936,7 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
                 record = repository_records.get(rid)
                 if record is None:
                     continue
-                base = overlap_coefficient(query_words, record)
+                base = overlap_coefficient(query_words, record) + _hint_credit(query_words, record)
                 if _prefer_instead_demotes(query_words, record):
                     base *= _PREFER_INSTEAD_DEMOTION_FACTOR
                 scored.append((rid, base + _tier_prior(record)))
