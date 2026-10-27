@@ -2159,3 +2159,16 @@ Logged 2026-10-27.
 - **Gap.** `CiC_L3D_Facilitator_Governance_V3.6` does not describe the loss-to-suicide and coercion-by-person check-ins that the engine now runs (PR #1174).
 - **Status.** Draft wording was shown to the project lead as an Artifact on 2026-10-27. The project lead decides whether and where it enters V3.6; the file is not edited by this thread.
 - **Owner.** The project lead.
+
+### OG-92. Live review P2 findings F14 to F26: sorted; F14 and F22 fixed in the records (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Sorted.** Record fixes F14 and F22 (this thread); voice findings F15, F16, F19, F20, F21, F26; engine faults F17, F23, F24, with F18 unconfirmed; fleet question F25. Ruling (project lead, 2026-10-27): fix the records now, and add no new cautions until a live rerun shows what cautions 13 to 17 did (Decision Log).
+- **F14 fixed where the voice reads.** The voice never reads a story's `text` (`engine/m4/evidence.py`), so the fix is in the Celerinus story's `means`, `tellable_as` and a new `claim_guards` entry, and in the `means` of `lpc.quote.the-case-set-before-the-bishop`. Candida's caveat is also in the story `text`.
+- **F22 fixed.** "Egalitarian" and "hierarchical" and several "this build" phrases are reworded in world_core, the conciliar gravity and the one-episcopate term. The gravity's `name` changed to "What Councils Can Decide: Cyprian and Augustine" (the id is unchanged). The construction documents (Doc_04, Doc_05, Doc_08, the World Profile) still cite the old title; they are not edited.
+- **Review.** `Review-Artifacts/P2_Record_Fixes_Review_2026-10-27.md`: round 1 Revise (4 P1, 3 P2); round 2 Revise (one P1 item, the Candida guard); round 3 below.
+- **Open, for the project lead.** The "This tradition is still living ..." paragraph in world_core `horizon` makes a post-430 claim ("most historic Christian churches") beside caution 16. The reviewer proposed removing it and deciding whether the confirmed Living Tradition Status (Doc_01 SS1) moves into `world_core.living_traditions`. That is a methodology decision; the paragraph was left unchanged.
+- **Open, this thread.** Three "this build" phrases remain in world_core (the synthetic-judgment note near the top, a thin_topics line "this build has not answered", and a thin_topics note "independently verified in this build"). They were outside the review's list. Check whether the voice reads those fields.
+- **Open, not this thread.** F17, F23, F24 and F18 (engine; add to the engine thread's brief), F25 (fleet question: Doc_10 section 7 and the Permanent Prompt against the Facilitator's system-nature turn).
+- **Owner.** The `lpc` build thread; the project lead for the Living Tradition paragraph and F25.

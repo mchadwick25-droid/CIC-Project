@@ -8,7 +8,7 @@ register: emic
 canon_cells:
 - F4-I
 use_note:
-  means: "Lucian grants peace to fallen women in the martyrs' name, if each case goes to the bishop and the sin is confessed openly."
+  means: "Lucian grants peace to Numeria and Candida in the martyrs' name, if each case goes to the bishop and the sin is confessed openly."
   not_for:
     - "a claim that the grant stands without its condition that each case go before the bishop"
     - "a claim about what the bishop decided for Numeria and Candida"
