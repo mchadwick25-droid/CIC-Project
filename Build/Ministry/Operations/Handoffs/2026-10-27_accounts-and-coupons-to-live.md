@@ -95,3 +95,4 @@ Sonnet for building, Opus for reviews (as the rules say). No metered model call,
 - Mark ruled on the dashboard 429: admin limit 30 a minute (ruling 110). Changed in `engine/api/ratelimit.py`.
 - Mark ruled on security finding 4: guard the coupon admin POSTs (ruling 111; `engine/api/coupon_routes.py` and the dashboard page). Open: the same hole exists on the dashboard's other change buttons (pause, void, mint, unmatched-dismiss, feedback-close); ask Mark.
 - Security finding 3 (IPv6 /64 send budget) still to put to Mark.
+- Mark ruled on security finding 3: sign-in send budgets use IPv6 /48 (ruling 112; `sign_in_network_of` in `engine/api/ratelimit.py`). All six security findings are now resolved or ruled.

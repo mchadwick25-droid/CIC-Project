@@ -1262,3 +1262,5 @@ Checked: all 349 app tests and `tsc` pass, three new panel tests cover the panel
 110. The general admin request limit is 30 a minute per address, up from 10 (Mark, after the dashboard gave him a 429 on button presses). The login limit (5 per 15 minutes) is unchanged. The admin token is still 32 characters or more, so guessing it at 30 a minute is not practical.
 
 111. The coupon approve and cancel buttons on the dashboard accept a change made with the dashboard cookie only from our own page (the same custom header and origin check as the accounts routes). A caller with the admin Bearer token needs neither. Mark chose this fix for security finding 4 over requiring the token for every change or leaving it. The dashboard's other change buttons (pause, void, mint, dismiss) do not have the check yet; that is open for Mark.
+
+112. Sign-in send budgets count an IPv6 address by its /48, not its /64 (Mark, security finding 3). One cheap block of /64s now counts as one network. This corrects ruling 100's "three networks": with IPv4 or separate /48 blocks the cost to a determined sender is still about three networks; the cheap IPv6 route is closed.

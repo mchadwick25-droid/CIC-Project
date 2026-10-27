@@ -133,7 +133,23 @@ def network_of(address: str) -> str:
     return address
 
 
+SIGN_IN_IPV6_PREFIX = 48
 BOUND_IPV6_PREFIX = 56
+
+
+def sign_in_network_of(address: str) -> str:
+    """The key sign-in send budgets count a network under: an IPv6 address becomes its /48, so one
+    cheap block of /64s counts as one network when someone tries to use up another person's budget;
+    an IPv4-mapped one becomes its IPv4 address; an IPv4 address, or anything that does not parse, is unchanged."""
+    try:
+        ip = ipaddress.ip_address(address)
+    except ValueError:
+        return address
+    if isinstance(ip, ipaddress.IPv6Address):
+        if ip.ipv4_mapped is not None:
+            return str(ip.ipv4_mapped)
+        return str(ipaddress.ip_network(f"{ip}/{SIGN_IN_IPV6_PREFIX}", strict=False))
+    return address
 
 
 def bound_network_of(address: str) -> str:
