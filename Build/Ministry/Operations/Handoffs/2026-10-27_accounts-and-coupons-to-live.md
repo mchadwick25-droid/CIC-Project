@@ -65,6 +65,18 @@ Not tested live (the sandbox has no SES, Render or AWS):
 
 `main` is far ahead of `live` (159 commits, 334 files at the time), mostly other threads' work, so promotion carries more than accounts and coupons. Mark decides.
 
+## Security review of the accounts system (Opus, read-only, 2026-10-27)
+
+Finding 1 (a closed account re-opened on its last day and then erased anyway; a waiting recovery surviving a delete; the two-year close not re-checking use) is fixed in pull request 1176. The rest is open:
+
+2. **Needs Mark's decision.** Export needs a fresh step-up, but `/shelf/reopen` (returns each saved conversation's code, which opens the full transcript) and `/shelf/delete` (erases a conversation everywhere) need only a session (`engine/api/accounts_routes.py`, about lines 600 to 645). Anyone holding the cookie on a shared device can read or erase every saved conversation; sessions slide for 14 days idle, up to 60. Suggested fix: require step-up for shelf delete at least, and decide whether opening needs it. This is a methodology call, so put it to Mark with options.
+3. Low: the per-address send budget across networks (9 per 15 minutes, 30 a day) counts IPv6 at /64, so one cheap IPv6 /56 can lock an address out of code sign-in for a day (ruling 100 recorded it as costing "three networks"). Fix: count the cross-network budget per /48 or per /24, or tell Mark the real cost.
+4. Low: the coupon admin POSTs (`engine/api/coupon_routes.py`, about lines 62 to 96) have no custom-header or Origin check; a page on another subdomain of the same registrable domain could approve or cancel coupons with the admin cookie. Fix: the same guard as the accounts routes, or require the Bearer token for changes.
+5. Low: a non-ASCII `session_code` on `/shelf/add` gives a 500 (`engine/m4/session_code.py` line 36 encodes as ASCII). Fix: reject non-ASCII in `codes_match` and `code_opens`.
+6. Low: `required_secrets.py` omits `CIC_ACCOUNTS_CONTACT_KEY` and `CIC_ACCOUNTS_SHELF_KEY`, which `build_runtime` requires. Start-up still refuses safely, but the all-at-once message and the render.yaml test miss them. Fix: add both.
+
+Checked and sound: cookie flags and rotation, step-up on the sensitive actions, code hashing and single use, enumeration replies and timing, CSRF and origin checks on the accounts routes, SQL, the SES recipient and template handling, AES-GCM sealing, per-account scoping of shelf, export and coupon routes, sealed backups, logs, and provider token checks.
+
 ## Dependencies
 
 - Coupons attach only at sign-in, so coupons cannot go live before accounts do. Go live together.
