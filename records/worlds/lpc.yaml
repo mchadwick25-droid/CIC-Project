@@ -9,5 +9,5 @@ census_id: "latin-pastoral-congregational-christianity"
 safety_adjacent: true
 living_tradition_flag: true
 package:
-  manifest_hash: "sha256:95f50eb689c9e816cf3ee75db4d754af1c10875d2b69b6a7a7c2c89adec8ce3c"
-  location: "packages/lpc/2026-10-27T04-12-06Z"
+  manifest_hash: "sha256:5d0d567415b2b6c23fb783a0813d4a6503d896839c4225478853c82e3568365b"
+  location: "packages/lpc/2026-10-27T04-23-48Z"
