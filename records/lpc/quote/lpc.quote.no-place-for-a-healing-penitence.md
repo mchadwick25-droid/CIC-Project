@@ -34,11 +34,6 @@ retrieval:
   - participant asks what Augustine said about the virgins, rather than about Judas -- lpc.quote.who-that-has-any-human-feeling-would-refuse-to-forgive-them
     gives that
 claim_guards:
-- If a participant's words show any personal risk or distress, this record is not used; the turn goes
-  to the Facilitator, and the Representative is not called. The Representative must not answer such a
-  participant from this record.
-- If a participant says that someone close to them died by suicide, this record is not used; the turn
-  goes to the Facilitator, and the Representative is not called.
 - The passage does not say what became of Judas after death, and the speaker must not make any claim about
   the eternal fate of any person who died by suicide.
 - The speaker must not say Augustine called every person who took his own life a Judas or said that all

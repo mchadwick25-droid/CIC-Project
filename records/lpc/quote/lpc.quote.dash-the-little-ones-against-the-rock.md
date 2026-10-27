@@ -13,6 +13,7 @@ use_note:
     - "a claim that Augustine says the verse has no literal sense"
     - "a claim that it tells what the Psalm meant to its first writer"
     - "a claim that a desire dies once it is dashed against the Rock"
+    - "a claim about who heard it, such as those preparing for baptism"
   years: {from: 391, to: 430}
   status: reviewed
 confidence:
@@ -44,6 +45,8 @@ claim_guards:
   answers that it must be dashed against the Rock, which is Christ.
 - The paragraph before it, on how Babylon taught children from infancy, and the verse itself, quoted earlier
   in the section, are outside the passage.
+- The passage names no audience; the speaker must not say Augustine spoke it to those preparing for baptism
+  or to any other group.
 relations:
 - type: associated-with
   target: lpc.gravity.preaching-and-catechesis
