@@ -113,18 +113,10 @@ homed = {x.get("work") for ws in buckets3.values() for x in ws
 # A work leaves this list when its voice is placed; the second check below
 # fails on any entry that is no longer an orphan.
 ACCEPTED_ORPHANS = {
-    "Annales Cambriae (to 954), Latin":
-        "No Atlas entry covers Wales between 768 and 1735.",
     "Chronique de Seert (Histoire nestorienne), II.2, with French":
         "No East Syriac entry fits the date of this compilation.",
     "Georgian chronicles, history to the 6th century including Vakhtang Gorgasali (French)":
         "No Georgian entry covers the period after c. 1000.",
-    "Historia Brittonum (attrib. Nennius), English":
-        "No Atlas entry covers Wales between 768 and 1735.",
-    "Lives of Irish saints from the Book of Lismore (Patrick, Colum Cille, Brigit, Senan, Findian, Brenainn, Mochua), Irish with English":
-        "No Atlas entry covers late-medieval Ireland.",
-    "Lives of the Cambro-British saints (David, Cadoc, Illtud and others), Latin and Welsh with English":
-        "No Atlas entry covers Wales between 768 and 1735.",
     "Rituale Armenorum and the Old Armenian Lectionary (Appendix II, English)":
         "The manuscripts are later than the window, and no Armenian entry fits their date.",
     "The other Sahidic texts of the volume (apocryphal discourses and legends)":

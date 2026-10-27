@@ -20,3 +20,13 @@ assignments:
     note: >
       A 9th-century Welsh compilation; late memory of the window, with the attribution to
       Nennius disputed.
+
+  - row_id: nennius_history-of-the-britons-giles--historia-brittonum--voice
+    work: Historia Brittonum (attrib. Nennius), English
+    author: nennius
+    locus: sections 1-76
+    atlas_ids:
+    - medieval-welsh-christianity
+    role: tradition
+    confidence: provisional
+    note: A 9th-century Welsh compilation; the attribution to Nennius is disputed. Placed on its date.

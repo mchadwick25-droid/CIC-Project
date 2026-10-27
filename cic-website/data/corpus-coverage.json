@@ -7,8 +7,8 @@
   ],
   "scope": "vendored coverage only - see this script's own docstring for why the acquirable/purchasable/no-edition-exists breakdown is not included here",
   "counts": {
-    "total_entries": 296,
-    "entries_with_coverage": 187,
+    "total_entries": 298,
+    "entries_with_coverage": 189,
     "entries_zero_coverage": 109
   },
   "entries": {
@@ -12162,6 +12162,20 @@
         }
       ]
     },
+    "medieval-irish-christianity": {
+      "name": "Medieval Irish Christianity",
+      "status": "Pre-Survey Candidate",
+      "works": [
+        {
+          "work": "Lives of Irish saints from the Book of Lismore (Patrick, Colum Cille, Brigit, Senan, Findian, Brenainn, Mochua), Irish with English",
+          "author": "lismore-lives",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt",
+          "rights": "Public Domain"
+        }
+      ]
+    },
     "aksumite-christianity": {
       "name": "Aksumite Christianity",
       "status": "Pre-Survey Candidate",
@@ -13460,6 +13474,36 @@
           "role": "tradition",
           "confidence": "provisional",
           "source_file": "samson-of-dol_life-of-st-samson_taylor1925.txt",
+          "rights": "Public Domain"
+        }
+      ]
+    },
+    "medieval-welsh-christianity": {
+      "name": "Medieval Welsh Christianity",
+      "status": "Pre-Survey Candidate",
+      "works": [
+        {
+          "work": "Annales Cambriae (to 954), Latin",
+          "author": "annales-cambriae",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Lives of the Cambro-British saints (David, Cadoc, Illtud and others), Latin and Welsh with English",
+          "author": "cambro-british-saints-lives",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Historia Brittonum (attrib. Nennius), English",
+          "author": "nennius",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "nennius_history-of-the-britons-giles.txt",
           "rights": "Public Domain"
         }
       ]
