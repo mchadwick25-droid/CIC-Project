@@ -2054,11 +2054,11 @@ Both records should say the Latin is held and the English is not. No download is
 
 Status: OPEN, for this world's thread.
 
-### OG-49. Augustine's Circumcellion suicide charge has no framing record, 2026-10-27.
+### OG-49. Augustine's precipice charge against Donatist martyrs has no framing record, 2026-10-27.
 
 Question-coverage design thread, 2026-10-27 (`Build/Ministry/Features/Question-Coverage/`; hand-off `Build/Ministry/Operations/Handoffs/2026-10-26_question-coverage-safety-guards.md`, section 1). The design thread does not edit world records; this entry hands the decision to this world's thread.
 
-- `cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml` lines 16888 to 16890 (reply to Petilian, para. 114) says some "throw themselves over precipices", calls such people "the friends of the devil", and says both kinds "learned to kill themselves from the same master".
+- `cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml` lines 16889 to 16891 (Answer to the Letters of Petilian, Book II, para. 114) asks Petilian in whose honour "those confessors of yours" die "when they throw themselves over precipices", and says such people are "the enemies of Christ, the friends of the devil" who "have learned to kill themselves from the same master". Para. 114 does not name the Circumcellions. Only para. 110 (line 16857) links the Circumcelliones to precipices. The earlier wording of this entry, which called it a Circumcellion text, overstated the source.
 - No don record carries or frames this. The nearest records cover martyr-seeking and the contested portrait only, and none names suicide or voluntary death: `don.dw.not-a-death-wish`, `don.contested.circumcellion-character` (draft), `don.contested.circumcellion-agonistici`, `don.gravity.circumcellion-agonistici`, `don.demo.death-wish`. `don.figure.marculus` is adjacent.
 - A visitor bereaved by suicide, or at risk, asking whether suicide is damnable (C3 S7) could reach the neighbouring records with nothing held.
 - Decision for this thread: a contested claim or honest limit on voluntary death. It must keep the charge from being heard as a verdict on anyone who died by suicide, say it is a hostile opponent's polemic about a contested group, and leave any redirect to the Facilitator (Governance V3.6). Also whether `don.contested.circumcellion-character` leaves draft first.
