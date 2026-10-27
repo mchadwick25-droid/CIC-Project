@@ -828,3 +828,9 @@ Follows the entry "`alx.quote.clement-schoolmaster` can be heard as the law repl
 - Narrowing the quote's `retrieve_when` removes its second line's route to F6-T; the cell stays in `canon_cells`.
 
 Status: CLOSED for the guards. OPEN for the two terms not opened.
+
+### OG-39. Honest limit on 'saved by faith alone' written, 2026-10-27.
+
+Question-coverage design thread. A real visitor asked 'How might I be saved' (alx, 2026-10-20). New `alx.limit.faith-alone-later-frame` (F1-T) and `alx.source.origen-comm-romans`. The limit says the phrase 'faith alone' is not how the argument was put in Alexandria (Clement, Stromateis I.9; Quis Dives 27 to 29; Origen on Romans III, in Rufinus's abridged Latin, where the thief on the cross is justified 'sola fide'), and that no text sets faith against works as a contest or speaks to felt assurance. Not searched: Origen books VI to X; the Greek.
+
+Status: OPEN for an independent recheck of the quotes.
