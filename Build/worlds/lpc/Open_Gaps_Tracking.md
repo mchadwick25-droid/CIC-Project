@@ -2096,7 +2096,7 @@ Logged 2026-10-26.
 Logged 2026-10-26.
 
 - **Ready.** At the project lead's word, all 188 voiced `lpc` records are marked `ready`. Each has cleared review. The generators now emit `ready`, so a re-run keeps it; the hand-maintained witness, limit and world_core records were marked directly. The 210 source records stay `draft` and do not ship.
-- **Package.** `python -m engine.m2.cli build lpc` wrote `the lpc package 2026-10-26T18-33-28Z` (manifest hash `sha256:d614a1ee…f9e6`). `determinism-check lpc` passes, with no differing paths.
+- **Package.** `python -m engine.m2.cli build lpc` wrote `packages/lpc/2026-10-26T18-33-28Z` (manifest hash `sha256:d614a1ee…f9e6`). `determinism-check lpc` passes, with no differing paths.
 - **Not pinned.** `package.location` in `records/worlds/lpc.yaml` is the project lead's to set. Validation follows the pin, and needs his named live test and cap (`safety_adjacent` is true, so validation is full).
 - **Owner.** The project lead for the pin and the live test; the `lpc` build thread for the rest.
 

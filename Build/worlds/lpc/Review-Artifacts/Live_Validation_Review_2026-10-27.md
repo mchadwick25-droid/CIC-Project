@@ -1,7 +1,7 @@
 # lpc live validation, 27 October (30 probes, Deep Interview, 28 admission probes): independent review
 
 - Branch: `claude/lpc-next-session-2026-10-26`, commits `ccae0bdd` ("all 30 probes and the Deep Interview ($1.54)") and `b4942073` ("28 of 28 sealed probes pass ($0.67; test total $2.21 of $6)").
-- Live test: "lpc full validation, 27 October", cap $6, $2.21 spent. Package `the lpc package 2026-10-26T18-33-28Z`; voice Sonnet 4.5, safety and reader calls Haiku 4.5, Bedrock us-east-1.
+- Live test: "lpc full validation, 27 October", cap $6, $2.21 spent. Package `packages/lpc/2026-10-26T18-33-28Z`; voice Sonnet 4.5, safety and reader calls Haiku 4.5, Bedrock us-east-1.
 - Scope: the 30 single-turn reports in `engine/m4/reports/lpc-validation-2026-10-27/`, the 10-turn `deep-interview.json`, and the 28 answers in `engine/m3/reports/live-admission-report-lpc-2026-10-27.json`, each judged against its cell's public canon question. `canon/sealed_probes/plaintext/` was not opened.
 - Standard: `lpc_Doc_10_Representative_Construction.md` Section 7, the Permanent Prompt, the records cited, world_core cautions, and the 2026-10-26 full-disclosure ruling ("Suicide stays Facilitator-governed").
 - Reviewer model: Opus 5.5 (`claude-opus-5-5`). Round 1.
