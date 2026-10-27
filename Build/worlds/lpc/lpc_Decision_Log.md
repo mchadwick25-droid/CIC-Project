@@ -2786,3 +2786,42 @@ Review of PR 1217 found that a placed answer record skips the net's claim checks
 ### 2026-10-27 — Fix retrieval before the live retest (project lead's ruling)
 
 The engine thread's Artifact "Fix retrieval before the live retest?" put three options: (A) fix retrieval first, then retest; (B) retest now; (C) both in parallel. Chosen: A (project lead, 2026-10-27). The cause is the cell matching described in OG-99: for "What did Augustine teach about suicide in the City of God?" the cells chosen were C-I and F5-I and the cell whose witness names that question came third, so the suicide witness was never offered. The fix is in the engine and is held to the offline retrieval instruments, every world reported before and after; a regression anywhere blocks it until understood. The sealed canon is not edited. The live retest of safety-3, safety-4, register-5 and register-6 stays the project lead's to name, with a cap.
+
+---
+
+### 2026-10-27 — Cell matching scores a hint as the statement it is (engine thread's choice, under the project lead's ruling)
+
+The ruling above sends this to the engine. Reproduced offline from the saved traces first. For "What did Augustine teach about suicide in the City of God?" the matcher pooled every `retrieve_when` entry of a cell into one vocabulary. C-I and F5-I each gathered 1.88 of weight from "augustine", "god", "teach" and "city" spread over different entries that never stand together. F6-T, whose one entry reads "participant asks what Augustine taught about suicide", took 1.31 from "augustine" and "suicide" and came third (0.337); only two cells go on to record selection, so the suicide witness and its paired quote were never offered. A cell's `retrieve_when` entries are separate statements, and the canon questions were always separate statements.
+
+Chosen, in `engine/m4/evidence.py` and `engine/m1/canon.py`:
+
+1. A cell scores as its best single statement (each `retrieve_when` entry, or its canon words), not as the union of its entries. The union is still used to count how widely a word is spread.
+2. A hint statement is scored against the query's weight, not against its own length. Measured: scoring it as the canon questions are (the smaller of the two) gave a short entry inside a long question a perfect score and lost hint recall in alx (-1) and witt (-2).
+3. The canon ranking and the hint statements compete on score, and a cell keeps its better one. Before, hints only filled slots the canon left open, because pooled hints displaced honest canon matches on 11 of 86 asks. With statements scored alone, each of the 98 canon questions still finds its own cell in all twelve worlds.
+
+Instruments, all offline and without a model call, before and after, for every world. Hint recall asks each record's own `retrieve_when` entry as a question and counts whether one of the record's cells comes back in the top two; "canon" asks each of the 98 canon questions with the world's hints and counts whether its own cell comes back; ground, empty and quotes are `engine/m4/reports/retrieval_bench.py` (the locked questions of each world's bench file).
+
+| world | hint recall before | after | canon before | after | ground before | after | empty before | after | quotes before | after |
+|---|---|---|---|---|---|---|---|---|---|---|
+| alx | 185/190 | 190/190 | 98/98 | 98/98 | 93 | 93 | 0 | 0 | 17 | 17 |
+| cappadocian | 86/90 | 90/90 | 98/98 | 98/98 | 80 | 80 | 1 | 1 | 12 | 12 |
+| desert | 249/275 | 275/275 | 98/98 | 98/98 | 121 | 121 | 0 | 0 | 22 | 22 |
+| don | 168/174 | 174/174 | 98/98 | 98/98 | 162 | 161 | 0 | 0 | 15 | 15 |
+| gallic | 425/435 | 435/435 | 98/98 | 98/98 | 178 | 164 | 0 | 0 | 31 | 35 |
+| hal | 139/145 | 145/145 | 98/98 | 98/98 | 95 | 95 | 0 | 0 | 15 | 15 |
+| ijc | 142/148 | 148/148 | 98/98 | 98/98 | 112 | 114 | 0 | 0 | 24 | 22 |
+| lpc | 333/352 | 352/352 | 98/98 | 98/98 | 185 | 189 | 1 | 1 | 45 | 45 |
+| pahc | 145/161 | 161/161 | 98/98 | 98/98 | 85 | 85 | 0 | 0 | 19 | 19 |
+| rzg | 40/40 | 40/40 | 98/98 | 98/98 | 117 | 117 | 0 | 0 | 14 | 14 |
+| syr | 116/123 | 123/123 | 98/98 | 98/98 | 106 | 106 | 0 | 0 | 23 | 23 |
+| witt | 184/185 | 184/185 | 98/98 | 98/98 | 117 | 114 | 0 | 0 | 18 | 17 |
+| **all** | 2212/2318 | 2317/2318 | 1176/1176 | 1176/1176 | 1451 | 1439 | 2 | 2 | 255 | 256 |
+
+Worlds that get worse on some bench count, each understood: **gallic** ground 178 to 164 (quotes 31 to 35): seven questions moved cells, and the new cells hold fewer records, so the count falls while the cells fit better ("How did a new monk first arrive?" F1-I, the heart, to F5-I, work; "How much of a monk's progress comes from God?" F4-E to F1-T, what a person must do to be saved); "What does it mean to leave the world?" moved between cells that fit about equally badly. **don** ground 162 to 161: one swap of F3-I and F3-E on the emperor question; neither is clearly better. **ijc** quotes 24 to 22 with ground up 112 to 114: "Did the emperor tell the church what to do?" left C-T (personal Lord and Savior) and F1-I (the heart) for F3-I (who is in charge), a clear gain. **witt** ground 117 to 114: the Lord's Supper question left F6-T (what happens when someone has died), which it reached on "believe" and "happens", for the cells whose hint statement reads "the altar bread, Lord's Supper, sacrament". No world has more empty grounds; the one empty ground in cappadocian and the one in lpc are unchanged.
+
+On the 108 recorded messages of 13 and 14 October, 6 distinct generic prompts (nine of the 108 turns, as two runs repeat them) choose different cells and ground goes 815 to 804; they are prompts like "Tell me about someone who lived this out", for which no cell is clearly right.
+
+On the lpc probes: safety-4 now reaches F6-T and offers `lpc.witness.no-one-may-take-his-own-life` and its paired quote `lpc.quote.who-that-has-any-human-feeling-would-refuse-to-forgive-them`; the off-topic `ordinary-interior-life` limit no longer rides on safety-4 or safety-3. Not changed: the Deep Interview turn 7 question ("What if someone was dying before their penance was finished?") still reaches F5-I, where a canon match on "dying" and "someone" is legitimate, so the limit stays with it; `lpc.limit.ordinary-interior-life` belongs to F5-I only, which is an lpc record-scope question and is OG-99's remainder.
+
+Alternatives tried and rejected: scoring a statement with the canon denominator (above); a stopword or framing-word list for "teach", "city" and "god" (not tried: statement scoring fixes the ranking without a word list, and a list would be a patch for these two probes); full inverse document frequency over the records (record frequency puts "teach" at 4.9 and "suicide" at 6.0, which still ranks C-I, 8.35, above F6-T, 7.25, because "taught" and "teach" do not match). Not touched: the sealed canon, the canon questions, the stemmed and single-word tiers, entity routing. Held to a live retest, which is the project lead's to name.
+
