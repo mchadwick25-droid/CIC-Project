@@ -6,8 +6,8 @@ works:
 - row_id: amphilochius-iconium_opera-pg39-grc-lat_migne1858--opera-pg-39-greek
   work: Amphilochius of Iconium, orations, homilies and Synodical Letter, PG 39, Greek
   author: amphilochius
-  locus: Amphilochius's section from file line 2242; Synodical Epistle at 6627; responses
-    and extracts at 6967
+  locus: Amphilochius's section from OCR line 2242; Synodical Epistle at 6627; responses and
+    extracts at 6967; line numbers are OCR lines, add 12 for this file's own
   role: tradition
   confidence: provisional
   note: 'Primary original-language voice of Amphilochius of Iconium, the Cappadocian circle''s
@@ -57,8 +57,8 @@ works:
   work: 'Basil, Opera omnia, PG 29, Greek: Hexaemeron, Psalm homilies (Psalm 14 against usury),
     Against Eunomius I-III'
   author: basil
-  locus: Hexaemeron from file line 59639; Psalm homilies from 75601, Psalm 14 at 78686; Against
-    Eunomius from 98130
+  locus: Hexaemeron from OCR line 59639; Psalm homilies from 75601, Psalm 14 at 78686; Against
+    Eunomius from 98130; line numbers are OCR lines, add 12 for this file's own
   role: tradition
   confidence: provisional
   note: 'Primary original-language voice of Basil of Caesarea: the homily on Psalm 14 (against
@@ -72,8 +72,9 @@ works:
   work: 'Basil, Opera omnia, PG 31, Greek: homily in time of famine and drought, on Luke 12:18,
     to the rich, on Julitta, on Mamas'
   author: basil
-  locus: famine and drought homily at file line 22450; on Luke 12:18 at 19009; to the rich
-    at 20355; Julitta at 17124; Mamas at 44695
+  locus: famine and drought homily at OCR line 22451; on Luke 12:18 at 19009; to the rich
+    at 20355; Julitta at 17124; Mamas at 44695; line numbers are OCR lines, add 12 for this
+    file's own
   role: tradition
   confidence: provisional
   note: 'Primary original-language voice of Basil of Caesarea: the moral and famine homilies
@@ -257,8 +258,9 @@ works:
 - row_id: epiphanius_panarion-haer-65-80-pg42-grc-lat_migne1863--panarion-pneumatomachi-aerius-pg-42-greek
   work: 'Epiphanius, Panarion, PG 42, Greek: Against the Pneumatomachi, Against Aerius'
   author: epiphanius
-  locus: Against the Pneumatomachi at file line 35672; Against Aerius at 38000; summary naming
-    Aerius and Eustathius at 25022-25025
+  locus: Against the Pneumatomachi at OCR line 35672; Against Aerius at 38000; summary naming
+    Aerius and Eustathius at 25022-25025; line numbers are OCR lines, add 12 for this file's
+    own
   role: context
   confidence: provisional
   note: 'A contemporary outside account of the Pneumatomachian party and of Aerius, the follower
@@ -311,8 +313,8 @@ works:
   work: Gregory of Nazianzus, Orations, PG 35, Greek (including Oration 14, On the Love of
     the Poor)
   author: gregory-nazianzen
-  locus: Oration 14 heading at file line 63160, opening words at 63197; Oration 25 heading
-    at 89798
+  locus: Oration 14 heading at OCR line 63160, opening words at 63197; Oration 25 heading
+    at 89798; line numbers are OCR lines, add 12 for this file's own
   role: tradition
   confidence: provisional
   note: 'Primary original-language voice of Gregory of Nazianzus: Oration 14, On the Love
@@ -367,9 +369,9 @@ works:
   work: 'Gregory of Nyssa, PG 46, Greek: Theodore, the Forty Martyrs, Life of Gregory Thaumaturgus,
     Against Those Who Lend at Interest, on the love of the poor'
   author: gregory-nyssa
-  locus: Against Those Who Lend at Interest at file line 32111; on the love of the poor at
+  locus: Against Those Who Lend at Interest at OCR line 32111; on the love of the poor at
     33703 and 35001; Theodore at 54131; Forty Martyrs at 55014 and 56689; Life of Gregory
-    Thaumaturgus at 65203
+    Thaumaturgus at 65203; line numbers are OCR lines, add 12 for this file's own
   role: tradition
   confidence: provisional
   note: 'Primary original-language voice of Gregory of Nyssa: the martyr homilies, the Life

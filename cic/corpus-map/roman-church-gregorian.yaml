@@ -121,6 +121,36 @@ works:
 
     '
   source_file: gregory-great_dialogues_gardner1911.txt
+- row_id: gregory-great_registrum-epistolarum-t2-pars1-libri-8-9-lat_ewald-hartmann1893--registrum-epistolarum-books-viii-ix-latin
+  work: Gregory I, Registrum epistolarum, Books VIII-IX, Latin (Ewald-Hartmann 1893)
+  author: gregory-great
+  locus: Books VIII-IX from OCR line 273; Book IX from about 2374; line numbers are OCR lines,
+    add 12 for this file's own
+  role: tradition
+  confidence: provisional
+  note: 'Primary original-language voice of Gregory the Great: his own official letters, Latin
+    original of the English Register selections already vendored. Second witness for quotation
+    until checked against the page image: readable Latin with systematic OCR noise, critical
+    apparatus interleaved.
+
+    '
+  source_file: gregory-great_registrum-epistolarum-t2-pars1-libri-8-9-lat_ewald-hartmann1893.txt
+- row_id: gregory-great_registrum-epistolarum-t2-pars2-libri-10-14-lat_ewald-hartmann1895--registrum-epistolarum-books-x-xiv-latin
+  work: Gregory I, Registrum epistolarum, Books X-XIV with appendices, Latin (Ewald-Hartmann
+    1895)
+  author: gregory-great
+  locus: Books X-XIV from OCR line 6103; Book XI from 7698; Book XIV from 18681; index of
+    persons and places from about 21545; line numbers are OCR lines, add 12 for this file's
+    own
+  role: tradition
+  confidence: provisional
+  note: 'Primary original-language voice of Gregory the Great: his own official letters, Latin
+    original of the English Register selections already vendored. Second witness for quotation
+    until checked against the page image: readable Latin with systematic OCR noise, critical
+    apparatus interleaved.
+
+    '
+  source_file: gregory-great_registrum-epistolarum-t2-pars2-libri-10-14-lat_ewald-hartmann1895.txt
 - row_id: liber-pontificalis_book-of-the-popes-v1_loomis1916--popes-hormisdas-to-pelagius-ii
   work: Liber Pontificalis, the lives from Hormisdas (514) to Pelagius II (590), English
   author: liber-pontificalis
