@@ -222,18 +222,28 @@ class Admission:
                 total += info.remaining
         return total
 
+    def _free_room(self) -> int:
+        """What the free window may still give this request: the account's window or the
+        visitor's, and no more than the network window has left."""
+        free = self._runtime.free
+        if self._account is not None:
+            return free.account_left(self._account.account_id, self._account.refill_day, self._network)
+        return free.left(self._visitor, self._network)
+
+    def _reserve_free(self, amount: int):
+        """Holds amount against the free window, or None when it does not fit."""
+        free = self._runtime.free
+        if self._account is not None:
+            return free.account_reserve(self._account.account_id, self._account.refill_day, amount, self._network)
+        return free.reserve(self._visitor, amount, self._network)
+
     def _decide(self, completed: int) -> TurnGrant:
         rates = self._runtime.token_rates
         cost = tokens.charge(rates, completed + 1, self._seats)
         free_rounds = self._free_cap
         free_open = completed < free_rounds
         if free_open:
-            if self._account is not None:
-                held = self._runtime.free.account_reserve(
-                    self._account.account_id, self._account.refill_day, cost, self._network
-                )
-            else:
-                held = self._runtime.free.reserve(self._visitor, cost, self._network)
+            held = self._reserve_free(cost)
             if held is not None:
                 self._free_reservation = held
                 return TurnGrant(cap=completed + 1)
@@ -246,18 +256,36 @@ class Admission:
             self._refusal = "paid_round_cap"
             return free_grant(refusal_cap, self._limit_text())
         if has_paid:
-            admission = self._reserve_paid(cost)
-            if admission.ok:
-                self._reservation = admission.reservation
-                return TurnGrant(cap=completed + 1)
-            self._note_key = _NOTE_FOR_REASON.get(admission.reason, "code_not_accepted")
-            self._refusal = self._note_key
-            return free_grant(refusal_cap, self._limit_text())
+            return self._decide_paid(cost, completed, refusal_cap)
         self._note_key = "no_code"
         if completed >= free_rounds:
             self._refusal = "free_rounds_done"
         else:
             self._refusal = "free_allowance_spent"
+        return free_grant(refusal_cap, self._limit_text())
+
+    def _decide_paid(self, cost: int, completed: int, refusal_cap: int) -> TurnGrant:
+        """Free tokens are spent before paid ones, in any round: whatever the free window can
+        give goes first, and the code carries only the rest. A turn the codes cannot carry gives
+        the free part back, so a refusal spends nothing."""
+        part = min(cost, max(0, self._free_room()))
+        held = self._reserve_free(part) if part > 0 else None
+        if held is not None:
+            self._free_reservation = held
+        else:
+            part = 0
+        rest = cost - part
+        if rest == 0:
+            return TurnGrant(cap=completed + 1)
+        admission = self._reserve_paid(rest)
+        if admission.ok:
+            self._reservation = admission.reservation
+            return TurnGrant(cap=completed + 1)
+        if self._free_reservation is not None:
+            self._runtime.free.settle(self._free_reservation, False)
+            self._free_reservation = None
+        self._note_key = _NOTE_FOR_REASON.get(admission.reason, "code_not_accepted")
+        self._refusal = self._note_key
         return free_grant(refusal_cap, self._limit_text())
 
     @property
