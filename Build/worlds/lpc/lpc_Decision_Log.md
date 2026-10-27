@@ -2726,6 +2726,30 @@ The P2 findings of the live review were sorted into record fixes (F14, F22), voi
 
 ---
 
+### 2026-10-27 — `living_traditions` authored as a boundary text; the `horizon` paragraph left for the project lead (build thread, under the session brief)
+
+The `deployed lpc` gate failed because the registry flags a living tradition and world_core had no `living_traditions` text. The session brief asked for it, grounded in Doc_01's confirmed finding. Alternatives shown in review: (1) a boundary statement only (no named heir, speaks to 430, judges no later dispute, leaves the four divergences to the Facilitator); (2) the divergences voiced too; (3) none. Chosen: 1, since the 2026-09-16 ruling says the distinction is Facilitator-carried and Datus holds none of it. Not ruled: the older paragraph in `horizon` (OG-92 and its addendum).
+
+---
+
+### 2026-10-27 — Evidence reruns still wait for the F4/F5 fix (project lead's ruling, second session)
+
+Asked again, with the new pin 2026-10-27T18-49-35Z ready. Alternatives shown: (1) wait for the engine thread's F4/F5 fix, no spend; (2) admission only, about $0.70, under a named test and cap; (3) admission and full validation together, about $2.20. Chosen: 1 (project lead, 2026-10-27). No metered spend this session. Admission and validation evidence for the new pin stays open; the pin changed (OG-93), so the earlier runs do not count for it.
+
+---
+
+### 2026-10-27 — lpc moves to `built` (project lead's ruling, second session)
+
+Alternatives shown: (1) stay `building`; (2) move to `built`, which lists lpc on staging. Chosen: 2, with the project lead's statement that the Facilitator's routing has passed (project lead, 2026-10-27). `admitted` waits for admission to pass on the new pin; the reruns wait for the F4/F5 fix (entry above).
+
+---
+
+### 2026-10-27 — Change order: lpc back to `building`; the fleet library-access gate blocks `built` (build thread, awaiting the project lead)
+
+The project lead's ruling above moved lpc to `built`. CI's M9 confinement check (`engine.m9.cli check`) then failed: from `built` on, lpc must pass every library-access check, and a world outside the grandfathered set can be waived only with the project lead's approval. It reported eight categories of undocumented drift for lpc (OG-97). The state was returned to `building` in the same pull request so the rest of the work can merge; nothing else the ruling touched was changed. Alternatives put to the project lead: (1) stay `building` and clear the gate in a later session; (2) approve waivers by name so lpc can be `built` now; (3) leave the pull request red. The answer is recorded below when given.
+
+Answer (project lead, 2026-10-27): alternative 1. lpc stays `building`; the next session clears the library-access gate in a content batch (OG-97), then moves lpc to `built` with no waivers.
+
 ### 2026-10-27 — F4/F5: the engine's design for sentences removed after drafting (engine thread's choice, under the project lead's ruling)
 
 The project lead sent F4/F5 to an engine thread to choose and record its own design (ruling above). The mechanism was reproduced offline from the saved traces and from the repository's 108 recorded drafts (eleven worlds, 13 and 14 October) and the 38 lpc single-turn drafts; no model call was made.

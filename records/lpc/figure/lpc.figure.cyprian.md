@@ -29,9 +29,9 @@ names:
 dates:
   display: a trained rhetorician who turned from a public career to Christian life, converted c. 246;
     ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation
-    of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised
-    (Doc_01 SS2; lpc.story.election-of-cyprian); banished to Curubis under the Valerianic persecution;
-    executed under the emperor Valerian in 258 (lpc.story.the-death-of-cyprian)
+    of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised,
+    as his deacon Pontius tells it; banished to Curubis under the Valerianic persecution; executed under
+    the emperor Valerian in 258
 narratable: true
 bridge_line: Our bishop, chosen while still new to the faith, over his own reluctance. During a plague
   he taught us to love even our enemies. He was put to death under Valerian.

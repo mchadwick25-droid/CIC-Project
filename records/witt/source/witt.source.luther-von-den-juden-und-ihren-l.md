@@ -22,7 +22,7 @@ edition: '(1543) — Luther''s Works vol. 47 (Fortress, 1971; trans. Martin H. B
   genuinely blocked (G1 Part B)'
 citation: Luther, Von den Juden und ihren Lügen / On the Jews and Their Lies (1543), Luther's Works vol. 47 (Fortress, 1971; trans. Martin H. Bertram, in vol. 47 ed. Franklin Sherman)
 kind: unvendored
-rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
+rights_status: "In-copyright modern publication (Luther's Works vol. 47, Fortress, 1971): purchasable, but its text cannot be redistributed. Rights status as characterized in the Source Registry; not independently re-verified."
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; content verified WebFetch (tertiary); Source Registry row
   49; 2026-09-15

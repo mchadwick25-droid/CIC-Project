@@ -2766,3 +2766,25 @@ Follows the entry "`witt.term.the-turk` can be heard as calling Jews and Muslims
 - Still open: the body sentence that quotations were not re-opened (remove after an independent re-confirmation); whether Augsburg Article I, the Apology (6727) and Table Talk 3100 become sources; whether `distortion_risk` rises to high; `witt.gravity.embattled-christendom`; and the Large Catechism line that those outside "abide in eternal wrath and damnation", a governance question.
 
 Status: OPEN.
+
+## OG-84. Source records brought up to date with the Library's 2026-10-27 Luther vendoring and wants sort, 2026-10-27.
+
+Follows `Build/Ministry/Operations/Handoffs/2026-10-27_wants-sort-handoff.md` (30 Wittenberg rows) and the Library decision-log entry "Luther, Philadelphia Edition volumes IV and VI vendored on non-renewal" (2026-10-27). No quotation was added or changed.
+
+**Now vendored.** `witt.source.luther-admonition-to-peace` (Admonition to Peace, Against the Robbing and Murdering Hordes, the Open Letter) cites `cic/texts/luther_works-v4-selected_various1931.txt`. `witt.source.luther-formula-missae` (Formula Missae and the German Mass) cites `cic/texts/luther_works-v6-selected_various1932.txt`. Both became `kind: vendored` with a `shelf_row`, and their rights wording follows the file headers. `witt.source.philadelphia-edition-vols-iv` now says vols. IV and VI are vendored and vol. V is held back (renewed, R238530; clears 1 January 2027).
+
+**Ruled by the record's own wording.** Eleven modern books and two journal articles are "in-copyright". The Saxon visitation protocols are untranslated. Five web or project pages (Wikipedia, Britannica, GAMEO, the census file, the Wittenberg museums) have nothing to acquire. Kessler, Karsthans and the Deuttung (Papal Ass and Monk Calf) reach the build only inside vendored texts; for the Deuttung that is only Cole's advertisement, not the pamphlet.
+
+**Still open (six rows, left unclassified because the record does not say what the source needs).**
+- `witt.source.luther-de-votis-monasticis`: vol. III's note sends the reader to vol. IV, but vendored vol. IV does not list the treatise in its Contents. It is still not held.
+- `witt.source.philadelphia-edition-vols-iv`: its body says vol. IV carries R61 (De votis monasticis). The vendored volume does not. The body needs correcting; a time-gated want (vol. V) stays until the Library thread vendors it after 1 January 2027.
+- `witt.source.luther-that-jesus-christ-was-born`: not in any vendored file; the record names LW 45 with no publisher or year.
+- `witt.source.luther-das-newe-testament-deutzsch`: the record says only "NOT VENDORED"; it does not say whether a public-domain German text was sought.
+- `witt.source.cambridge-history-of-christianity`: the record gives no year or publisher.
+- `witt.source.alejandro-andreas-bodenstein-von-karlstadt-1486-1541`: an online PDF essay whose rights are not stated.
+
+**Quote records wanted from the new files (authored by Opus, per CLAUDE.md).** The Admonition to Peace and the Open Letter on the Hard Book for the Peasants' War; Formula Missae and the German Mass for the worship order Walter describes; the Christian schools letter and the common chest preface for the household and school register. Not started.
+
+**Also open.** `Build/worlds/witt/witt_Source_Registry.md` rows 48, 59, 61 and 62 and Doc_02 still describe these texts as not held; they are canonical build documents and were not edited here. Package `packages/witt/2026-10-27T19-23-58Z` is the new pin.
+
+Status: OPEN.

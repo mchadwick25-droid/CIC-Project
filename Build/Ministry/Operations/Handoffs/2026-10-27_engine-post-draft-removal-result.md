@@ -18,10 +18,10 @@ Run locally before the push: m4, m5, m1 (300), canon (5) and api (1074) suites, 
 
 ## 2. What the handoffs got wrong, or only half right
 
-- **F4 did not start in the removal.** The evidence block for safety-4 never offered the suicide witness or its paired quote. Cell matching chose C-I and F5-I on common words (0.484 each); F6-T, whose witness lists this question word for word, was third at 0.337. The voice cited the witness from its system prompt and typed the quotations, and the net removed them. Reproduced offline. Registered as OG-94; not fixed here.
-- **F18 has the same cause.** `lpc.limit.ordinary-interior-life` is in F5-I only; the off-topic questions reached F5-I on common words. Reproduced for safety-3 and Deep Interview turn 7. OG-94.
-- **Register-4 is not a removal.** No quote was removed; the voice paraphrased it and wrote "These are his own words". OG-95.
-- **Register-5's hard teaching was lost to the one-quote cap**, not to a guard the net ignored. OG-95.
+- **F4 did not start in the removal.** The evidence block for safety-4 never offered the suicide witness or its paired quote. Cell matching chose C-I and F5-I on common words (0.484 each); F6-T, whose witness lists this question word for word, was third at 0.337. The voice cited the witness from its system prompt and typed the quotations, and the net removed them. Reproduced offline. Registered as OG-99; not fixed here.
+- **F18 has the same cause.** `lpc.limit.ordinary-interior-life` is in F5-I only; the off-topic questions reached F5-I on common words. Reproduced for safety-3 and Deep Interview turn 7. OG-99.
+- **Register-4 is not a removal.** No quote was removed; the voice paraphrased it and wrote "These are his own words". OG-100.
+- **Register-5's hard teaching was lost to the one-quote cap**, not to a guard the net ignored. OG-100.
 - **The review's root-cause line ("removes sentences without reading the guards") is only partly right.** Guards are prose and the net cannot read them. What the engine can read is how much of the cited material it removed (`HOLLOWED_SHARE`).
 
 ## 3. Not done, and why
@@ -29,7 +29,7 @@ Run locally before the push: m4, m5, m1 (300), canon (5) and api (1074) suites, 
 - **Safety-4's inversion is caught only through the hollowed-reply rule.** If the share had been under 40 percent, the remainder would have shipped. The threshold comes from four cases and is a judgment.
 - **Silent omission of a hard teaching is not closed.** A cut reply can still leave out a teaching without dangling. Closing that needs a reader of the remainder (a model call) or a redraft. Neither can be proved offline.
 - **A blanket cut was tried and measured out.** Cutting everything after a removed cited sentence turned full replies into one-sentence stubs (30 of 108 turns, about 12 percent of shipped sentences). Stopping at any removal would have hit 51 of 108 turns.
-- **F17, F23, register-4's label, register-5's cap, retrieval.** OG-94 and OG-95.
+- **F17, F23, register-4's label, register-5's cap, retrieval.** OG-99 and OG-100.
 - **Admission is not re-run.** The M3 live path calls the same `apply_net`; its grading of the reply a participant would read changes with this PR. Not run (model spend).
 
 ## 4. How often the fault can occur (offline)
@@ -45,12 +45,12 @@ Source: the 108 recorded drafts of 13 and 14 October (eleven worlds) and the 38 
 | Cut as leaning, by the new rule | n/a (no draft order saved) | 5 turns, 5 sentences |
 | Replaced as hollowed, by the new rule | 3 (damaged), counted from the traces | 1 |
 
-The removal step runs on every reply of every world. The damage it can do (a changed meaning, a dangling remainder) needs a cited sentence removed, so it is a fleet matter, and it is likeliest where the voice cites from its prompt and not from the evidence block (OG-94).
+The removal step runs on every reply of every world. The damage it can do (a changed meaning, a dangling remainder) needs a cited sentence removed, so it is a fleet matter, and it is likeliest where the voice cites from its prompt and not from the evidence block (OG-99).
 
 ## 5. Waiting on Mark
 
 - **Live retest.** Safety-3, safety-4, register-5, register-6 and the Deep Interview, as a named test with a cap. His to name. Until then the fix is proved offline only.
-- **One question to answer first:** should the retrieval defect (OG-94) be fixed before the retest? Recommendation: yes. It is the cause of safety-4's draft and of the off-topic limit; a retest before it measures the voice against evidence it was never given. Shown as an Artifact.
+- **One question to answer first:** should the retrieval defect (OG-99) be fixed before the retest? Recommendation: yes. It is the cause of safety-4's draft and of the off-topic limit; a retest before it measures the voice against evidence it was never given. Shown as an Artifact.
 - **Later, no hurry:** F23 (report or block), the one-quote cap order (register-5), F25.
 
 ## 6. Next step
