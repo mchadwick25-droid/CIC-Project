@@ -80,7 +80,7 @@ QUOTES = {
      "a claim about what became of Lucian or his companions after the letter",
      "a claim that the letter is Cyprian's own"], C),
 "lpc.quote.before-even-a-deacon": (
-    "Cyprian said a sick penitent with a martyr's letter could confess to a presbyter, or a deacon, and get peace.",
+    "Cyprian said a sick penitent with a martyr's letter could confess to a presbyter, or near death to a deacon, and have peace.",
     ["a claim that the rule covered every penitent",
      "a claim that a deacon gave the peace or absolved anyone",
      "a claim about how many used the rule or what became of any who died"], C),
@@ -566,7 +566,7 @@ WITNESSES = {
      "a claim that Augustine held the same view, since these passages do not say so",
      "a claim that the editor's note calling the maxim misunderstood is Cyprian's"], C),
 "lpc.witness.peace-for-the-dying-penitent": (
-    "Cyprian said sick penitents in danger could confess to a presbyter or deacon and get peace.",
+    "Cyprian let the sick with a martyr's letter confess to a presbyter or deacon, and a council ruled the sick should have peace.",
     ["a claim that a deacon gave the peace or absolved anyone",
      "a claim that the council is dated, placed or described beyond one clause",
      "a claim about how many used the rule or what became of any who died"], C),

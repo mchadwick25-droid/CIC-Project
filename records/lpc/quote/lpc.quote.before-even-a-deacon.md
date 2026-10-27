@@ -8,7 +8,7 @@ register: emic
 canon_cells:
 - F4-I
 use_note:
-  means: "Cyprian said a sick penitent with a martyr's letter could confess to a presbyter, or a deacon, and get peace."
+  means: "Cyprian said a sick penitent with a martyr's letter could confess to a presbyter, or near death to a deacon, and have peace."
   not_for:
     - "a claim that the rule covered every penitent"
     - "a claim that a deacon gave the peace or absolved anyone"
@@ -60,11 +60,11 @@ modern_lens_note: A modern listener may think a penitent who fell ill had to wai
   says those holding a martyr's certificate need not wait. They may confess 'before any presbyter who
   might be present', or, if none is found and death is near, 'before even a deacon'. Then they 'come to
   the Lord with the peace'.
-modern_rendering: I think our brothers should be dealt with in this way. Some have received letters of
-  peace from the martyrs, and may be helped by the martyrs' standing with God. If misfortune and the danger
-  of sickness seize them, they should not wait for me to be present. They should be able to confess their
-  sin before any presbyter who is there. If no presbyter can be found and death begins to draw near, they
-  may confess before even a deacon. Then hands are laid on them for repentance. In this way they may come
-  to the Lord with the peace the martyrs asked for them in their letters to us.
+modern_rendering: I think we must come to the help of our brothers in this way. Some have received letters
+  of peace from the martyrs, and may be helped by the martyrs' standing with God. If misfortune and the
+  danger of sickness seize them, they should not wait for me to be present. They should be able to confess
+  their sin before any presbyter who is there. If no presbyter can be found and death begins to draw near,
+  they may confess before even a deacon. Then hands are laid on them for repentance. In this way they
+  may come to the Lord with the peace the martyrs asked for them in their letters to us.
 ---
 Cyprian, Epistle XII in the ANF numbering (Epistle XVIII in the Oxford edition and in Hartel, CSEL 3), to his presbyters and deacons, section 1, from 'I think that our brethren must be dealt with' to 'to be granted to them.'. English in the ANF translation at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 30064-30073 (the range ends on the line that holds 'granted to them.'; the editor's note that follows it is left out). Latin (Hartel, CSEL 3) at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, line 2807, where the sentence opens at occurrendum puto fratribus nostris, and lines 2827-2834, where it ends; apparatus lines and a page break lie between them. In the Latin, apud presbyterum quemcumque praesentem is 'before any presbyter who is present' and apud diaconum quoque exomologesin facere delicti sui possint is 'they may make confession of their sin before a deacon too'. The passage is read with lpc.quote.penitents-in-peril-of-sickness-should-be-assisted. The passage carries the witness lpc.witness.peace-for-the-dying-penitent.

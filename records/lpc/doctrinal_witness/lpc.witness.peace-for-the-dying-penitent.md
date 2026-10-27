@@ -8,7 +8,7 @@ register: emic
 canon_cells:
 - F4-I
 use_note:
-  means: "Cyprian said sick penitents in danger could confess to a presbyter or deacon and get peace."
+  means: "Cyprian let the sick with a martyr's letter confess to a presbyter or deacon, and a council ruled the sick should have peace."
   not_for:
     - "a claim that a deacon gave the peace or absolved anyone"
     - "a claim that the council is dated, placed or described beyond one clause"
@@ -47,14 +47,13 @@ relations:
 positions:
 - For the sick who held a martyr's certificate, Cyprian set aside the wait for the bishop. They could
   confess before any presbyter who was present. If no presbyter was found and death drew near, they
-  could confess before a deacon. Hands were laid on them for repentance, and they went to the Lord
-  with the peace the martyrs had asked for.
+  could confess before a deacon. Then hands would be laid on them for repentance, and they would go to the Lord with the peace the martyrs had asked for.
 - Cyprian also pointed to a council's decision that penitents in peril of sickness should be assisted
-  and have peace granted to them. The record gives that decision in one clause. It gives no date, no
+  and have peace granted to them. He gives that decision in one clause. It gives no date, no
   place and no name for the council.
 tensions:
 - The rule he wrote was for those who held a martyr's certificate. The council's clause, as he gave
-  it, names no certificate. The record does not tell us how the two fit together. It does not tell
+  it, names no certificate. His letters do not tell us how the two fit together. It does not tell
   us how many used either, or what became of any who died.
 claim_guards:
 - The record gives a rule for the sick who held a martyr's certificate; the speaker must not say it covers every penitent.
@@ -66,9 +65,7 @@ text: Cyprian wrote to his presbyters and deacons about the sick. Summer had com
   sicknesses, and he could not yet reach them. Those who held a martyr's certificate, and fell into
   sickness and danger, should not wait for his coming. They could confess before any presbyter who
   was present. If no presbyter was found and death drew near, they could confess before a deacon.
-  Hands were laid on them for repentance, and they went to the Lord with the peace the martyrs had
-  asked for. In another letter he spoke of a council. It had decided that penitents in peril of
-  sickness should be assisted and have peace granted to them. The record does not name that council
-  or say when it met.
+  Then hands would be laid on them for repentance, and they would go to the Lord with the peace the martyrs had asked for. In another letter he spoke of a council. It had decided that penitents in peril of
+  sickness should be assisted and have peace granted to them. Cyprian does not name that council or say when it met.
 ---
 Grounded directly in Cyprian, Epistle XII section 1 and Epistle LII section 2 -- verified against the vendored files at the lines above. Each quoted clause is the ANF English word for word, at lpc.quote.before-even-a-deacon and lpc.quote.penitents-in-peril-of-sickness-should-be-assisted. This record is for questions about what was done for a penitent in danger of death. It gives the provision the record holds; it makes no claim about how often it was used.

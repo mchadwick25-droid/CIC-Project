@@ -4214,7 +4214,7 @@ def build_penitent_peril_quotes() -> None:
         "says those holding a martyr's certificate need not wait. They may confess 'before any "
         "presbyter who might be present', or, if none is found and death is near, 'before even a "
         "deacon'. Then they 'come to the Lord with the peace'.",
-        "I think our brothers should be dealt with in this way. Some have received letters of peace from the martyrs, and may be helped by the martyrs' standing with God. If misfortune and the danger of sickness seize them, they should not wait for me to be present. They should be able to confess their sin before any presbyter who is there. If no presbyter can be found and death begins to draw near, they may confess before even a deacon. Then hands are laid on them for repentance. In this way they may come to the Lord with the peace the martyrs asked for them in their letters to us.",
+        "I think we must come to the help of our brothers in this way. Some have received letters of peace from the martyrs, and may be helped by the martyrs' standing with God. If misfortune and the danger of sickness seize them, they should not wait for me to be present. They should be able to confess their sin before any presbyter who is there. If no presbyter can be found and death begins to draw near, they may confess before even a deacon. Then hands are laid on them for repentance. In this way they may come to the Lord with the peace the martyrs asked for them in their letters to us.",
         conf("A", "verified-direct", "load-bearing", "Documented", None),
         [{"source_id": "lpc.source.cyprian-epistles",
           "locus": "Epistle XII (Oxford numbering Ep. XVIII; Hartel Ep. 18), section 1, from 'I think "
