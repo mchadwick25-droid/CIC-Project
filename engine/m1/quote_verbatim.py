@@ -482,6 +482,7 @@ def _nearest_context(segment: str, source_full: str, window: int = 30) -> str:
 
 
 @lru_cache(maxsize=2)
+@lru_cache(maxsize=16)
 def _clean_source(source_raw: str, source_is_xml: bool) -> str:
     source_full = strip_xml_markup(source_raw) if source_is_xml else source_raw
     source_full = collapse_linewrap_hyphens(source_full)

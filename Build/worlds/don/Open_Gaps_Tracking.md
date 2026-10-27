@@ -2104,3 +2104,13 @@ Status: OPEN for the fourth read.
 Found by the fifth read and a repeatable scan (`Build/Ministry/Features/Question-Coverage/Tools/safe_surface_scan.py --prompt <compiled prompt>`). The compiled don prompt has 17 hits. Most are Marculus "thrown from a cliff" in the Passio story and the Marculus-centred records (an execution, historically central). One is in `don.dw.not-a-death-wish`: "country members are said to have sought death, provoked it, thrown themselves at it", the Circumcellion charge in the world's own voice. The text sits in context on every turn, so a suicide question meets it whatever retrieval returns. Decision for this world: whether `don.dw.not-a-death-wish` and the Marculus story need a read for suicide-question exposure, and whether any line should move behind retrieval. Not edited.
 
 Status: OPEN.
+
+### OG-55. `don.dw.two-churches-in-one-town` quotes a phrase no vendored source holds, 2026-10-27.
+
+Found by the witness-quotation gate (`python -m engine.m1.witness_quotations`; OG-101 in `Build/worlds/lpc/Open_Gaps_Tracking.md` for why it exists). The record's `text` has the quotation "Spread so far, so fast". It sits in a sentence that rejects the phrase ("is not what happened to us"), so it is a modern phrase named and refused, not words from a source. The gate cannot tell the two apart and lists it. The record is at `verified-direct`.
+
+Also listed by the sweep, but outside the gate because the records are at `verified-via-authority`: `don.dw.becoming-one-of-us` (Adeodatus's answer at Carthage, "through terror of me, all who were established in that place gave way") and `don.dw.the-creed-we-shared` ("My personal Lord and Savior", again a modern phrase named and refused).
+
+Not edited by the thread that found it. The world's owner decides whether to reword the phrase, drop the marks, or have the gate accept it with a reason.
+
+Status: OPEN.
