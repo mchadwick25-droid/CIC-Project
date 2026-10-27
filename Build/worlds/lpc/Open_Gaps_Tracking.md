@@ -2096,7 +2096,7 @@ Logged 2026-10-26.
 Logged 2026-10-26.
 
 - **Ready.** At the project lead's word, all 188 voiced `lpc` records are marked `ready`. Each has cleared review. The generators now emit `ready`, so a re-run keeps it; the hand-maintained witness, limit and world_core records were marked directly. The 210 source records stay `draft` and do not ship.
-- **Package.** `python -m engine.m2.cli build lpc` wrote `packages/lpc/2026-10-26T18-33-28Z` (manifest hash `sha256:d614a1ee…f9e6`). `determinism-check lpc` passes, with no differing paths.
+- **Package.** `python -m engine.m2.cli build lpc` wrote `the lpc package 2026-10-26T18-33-28Z` (manifest hash `sha256:d614a1ee…f9e6`). `determinism-check lpc` passes, with no differing paths.
 - **Not pinned.** `package.location` in `records/worlds/lpc.yaml` is the project lead's to set. Validation follows the pin, and needs his named live test and cap (`safety_adjacent` is true, so validation is full).
 - **Owner.** The project lead for the pin and the live test; the `lpc` build thread for the rest.
 
@@ -2133,3 +2133,12 @@ Logged 2026-10-27.
   - Two wording points on the Facilitator check-in texts: "this tradition" at a multi-tradition table, and one sentence of 29 words.
 - **Held.** lpc stays `building`.
 - **Owner.** The `lpc` build thread for world items; the project lead for the rest.
+
+### OG-89. Canon change merged; lpc rebuilt and re-pinned (2026-10-27).
+
+Logged 2026-10-27.
+
+- **What changed.** The canon-questions change (PR #1175) merged to `main` after this branch's last push. `main` was merged into this branch; the only conflict was the `lpc` pin.
+- **Package.** `python -m engine.m2.cli build lpc` wrote the lpc package 2026-10-27T04-39-49Z (manifest hash `sha256:b812a7d2…9b89`); `determinism-check lpc` passes. `records/worlds/lpc.yaml` is re-pinned to it. `lpc` stays `building`.
+- **Gates.** `records`, `regate`, `claims` and `handoff` for lpc pass.
+- **Owner.** The `lpc` build thread.
