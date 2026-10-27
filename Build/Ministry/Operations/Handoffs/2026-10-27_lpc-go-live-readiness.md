@@ -51,7 +51,7 @@ Gates run on the final head: `records`, `regate`, `claims`, `deployed` and `hand
 
 ## 5. Next step
 
-First clear the library-access gate findings (OG-97) in a content batch, one subagent at a time, Opus review, then move lpc to `built`. Then check whether the engine thread's fix to F4/F5 has merged. If it has, ask the project lead for a named live test and cap, then run admission and full validation together on the new pin, followed by an Opus review of the transcripts. If it has not, wait.
+First clear the library-access gate findings (OG-97) in a content batch, scoped to what the gate needs: the project lead's standard is academic approval balanced against cost, not perfection. Do the mechanical source-record fields on a cheaper model and put one Opus review on the records whose meaning changes; stop at the first round that clears, one subagent at a time, Opus review, then move lpc to `built`. Then check whether the engine thread's fix to F4/F5 has merged. If it has, ask the project lead for a named live test and cap, then run admission and full validation together on the new pin, followed by an Opus review of the transcripts. If it has not, wait.
 
 ## 6. Spend
 
