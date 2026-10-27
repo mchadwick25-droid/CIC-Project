@@ -1010,6 +1010,6 @@ Quotation candidates held only as unchecked Greek (modern renderings are authore
 
 Also open: `cappadocian_Source_Registry.md` rows 16, 32, 36, 37, 43, 51, 53, 61, 65, 77, 82 and 115 still describe these works as unlocated or not vendored. The registry is a construction document, so correcting it is a revision that goes through review.
 
-Package rebuilt and re-pinned to `packages/cappadocian/2026-10-27T21-15-11Z`. The M9 `emic-vendored-only/cappadocian` waiver was tightened from 73 to 43, because 30 findings cleared once their sources were marked held; no waiver was raised. Checks run: `records`, `regate`, determinism, the staleness check and the M9 check.
+Package rebuilt and re-pinned to `packages/cappadocian/2026-10-27T21-40-06Z`. The M9 `emic-vendored-only/cappadocian` waiver was tightened from 73 to 43, because 30 findings cleared once their sources were marked held; no waiver was raised. Checks run: `records`, `regate`, determinism, the staleness check and the M9 check.
 
 Status: OPEN for the four rows, the quotation candidates and the registry rows. CLOSED for the 12 updated source records and OG-57.
