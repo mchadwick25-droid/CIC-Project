@@ -47,12 +47,12 @@
 
     <DC.Title>NPNF2-04. Athanasius: Select Works and Letters</DC.Title>
 
-
-
-
-
-
-
+    <DC.Creator sub="Editor" scheme="short-form">Philip Schaff</DC.Creator>
+    <DC.Creator sub="Editor" scheme="file-as">Schaff, Philip (1819-1893)</DC.Creator>
+    <DC.Creator sub="Editor" scheme="ccel">schaff</DC.Creator>
+    <DC.Creator sub="Author" scheme="short-form">Athanasius</DC.Creator>
+<DC.Creator sub="Author" scheme="ccel">athanasius</DC.Creator>
+<DC.Creator sub="Author" scheme="file-as">Athanasius</DC.Creator>
 
 
 

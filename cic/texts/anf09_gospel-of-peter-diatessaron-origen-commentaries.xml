@@ -56,12 +56,12 @@
  Books 1–10, and Commentary on Matthew, Books 1, 2, and
  10–14.</DC.Title>
 
+    <DC.Creator scheme="short-form" sub="Editor">Philip Schaff</DC.Creator>
+    <DC.Creator scheme="file-as" sub="Editor">Schaff, Philip (1819-1893)</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Editor">schaff</DC.Creator>
 
-
-
-
-
-
+    <DC.Creator scheme="ccel" sub="Author">tatian</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Author">origen</DC.Creator>
 
 
 

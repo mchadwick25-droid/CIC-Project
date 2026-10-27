@@ -46,15 +46,15 @@
 
     <DC.Title>NPNF2-01. Eusebius Pamphilius: Church History, Life of Constantine, Oration in Praise of Constantine</DC.Title>
 
-
-
-
-
-
-
-
-
-
+    <DC.Creator sub="Editor">Philip Schaff</DC.Creator>
+    <DC.Creator sub="Editor" scheme="file-as">Schaff, Philip (1819-1893)</DC.Creator>
+    <DC.Creator sub="Editor" scheme="ccel">schaff</DC.Creator>
+    <DC.Creator sub="Author" scheme="short-form">Eusebius Pamphilius</DC.Creator>
+    <DC.Creator sub="Author" scheme="file-as">Eusebius Pamphilius</DC.Creator>
+    <DC.Creator sub="Author" scheme="ccel">eusebius</DC.Creator>
+    <DC.Creator sub="Translator">Arthur Cushman McGiffert</DC.Creator>
+    <DC.Creator sub="Translator" scheme="file-as">McGiffert, Rev. Arthur Cushman, Ph.D.</DC.Creator>
+    <DC.Creator sub="Translator" scheme="ccel">mcgiffert</DC.Creator>
 
 
 

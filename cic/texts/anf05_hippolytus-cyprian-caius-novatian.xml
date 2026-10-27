@@ -50,13 +50,13 @@
     <DC.Title>ANF05. Fathers of the Third Century: Hippolytus,
     Cyprian, Caius, Novatian, Appendix</DC.Title>
 
-
-
-
-
-
-
-
+    <DC.Creator scheme="short-form" sub="Editor">Philip Schaff</DC.Creator>
+    <DC.Creator scheme="file-as" sub="Editor">Schaff, Philip (1819-1893)</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Editor">schaff</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Author of Part">hippolytus</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Author of Part">cyprian</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Author of Part">caius</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Author of Part">novatian</DC.Creator>
 
 
 

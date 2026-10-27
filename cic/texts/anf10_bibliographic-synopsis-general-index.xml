@@ -52,8 +52,8 @@
 
 
     <DC.Title>ANF10. Bibliographic Synopsis; General Index</DC.Title>
-
-
+    <DC.Creator sub="Author" scheme="short-form">Philip Schaff</DC.Creator>
+    <DC.Creator sub="Author" scheme="file-as">Schaff, Philip</DC.Creator>
 
 
 

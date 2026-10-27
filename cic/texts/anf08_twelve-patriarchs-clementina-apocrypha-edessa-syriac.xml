@@ -49,12 +49,12 @@
 
     <DC.Title>ANF08. The Twelve Patriarchs, Excerpts and Epistles, The Clementia, Apocrypha, Decretals, Memoirs of Edessa and Syriac Documents, Remains of the First Age</DC.Title>
 
+    <DC.Creator scheme="short-form" sub="Editor">Philip Schaff</DC.Creator>
+    <DC.Creator scheme="file-as" sub="Editor">Schaff, Philip (1819-1893)</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Editor">schaff</DC.Creator>
 
-
-
-
-
-
+    <DC.Creator scheme="ccel" sub="Author">clement_rome</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Author">theodotus</DC.Creator>
 
 
 

@@ -54,14 +54,14 @@
 
     <DC.Title>ANF04. Fathers of the Third Century: Tertullian, Part Fourth; Minucius Felix; Commodian; Origen, Parts First and Second</DC.Title>
 
-
-
-
-
-
-
-
-
+    <DC.Creator scheme="short-form" sub="Editor">Philip Schaff</DC.Creator>
+    <DC.Creator scheme="file-as" sub="Editor">Schaff, Philip (1819-1893)</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Editor">schaff</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Editor">coxe</DC.Creator>
+<DC.Creator scheme="ccel" sub="Author of Section">tertullian</DC.Creator>
+<DC.Creator scheme="ccel" sub="Author of Section">felix</DC.Creator>
+<DC.Creator scheme="ccel" sub="Author of Section">commodian</DC.Creator>
+<DC.Creator scheme="ccel" sub="Author of Section">origen</DC.Creator>
 
 
 

@@ -46,13 +46,13 @@
 
     <DC.Title>NPNF2-03. Theodoret, Jerome, Gennadius, &amp; Rufinus: Historical Writings</DC.Title>
 
-
-
-
-
-
-
-
+    <DC.Creator sub="Editor" scheme="short-form">Philip Schaff</DC.Creator>
+    <DC.Creator sub="Editor" scheme="file-as">Schaff, Philip (1819-1893)</DC.Creator>
+    <DC.Creator sub="Editor" scheme="ccel">schaff</DC.Creator>
+    <DC.Creator sub="Author" scheme="ccel">theodoret</DC.Creator>
+    <DC.Creator sub="Author" scheme="ccel">jerome</DC.Creator>
+    <DC.Creator sub="Author" scheme="ccel">gennadius</DC.Creator>
+    <DC.Creator sub="Author" scheme="ccel">rufinus</DC.Creator>
 
 
 

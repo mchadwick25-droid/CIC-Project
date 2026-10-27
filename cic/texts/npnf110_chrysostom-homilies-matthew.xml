@@ -72,12 +72,12 @@
     <DC.Title>NPNF1-10. St. Chrysostom: Homilies on the Gospel of Saint Matthew</DC.Title>
 
 
-
-
-
-
-
-
+    <DC.Creator sub="Editor" scheme="short-form">Philip Schaff</DC.Creator>
+    <DC.Creator sub="Editor" scheme="file-as">Schaff, Philip (1819-1893)</DC.Creator>
+    <DC.Creator sub="Editor" scheme="ccel">schaff</DC.Creator>
+    <DC.Creator sub="Author" scheme="short-form">St. Chrysostom</DC.Creator>
+    <DC.Creator sub="Author" scheme="file-as">Chrysostom, Saint</DC.Creator>
+    <DC.Creator sub="Author" scheme="ccel">chrysostom</DC.Creator>
 
 
 

@@ -58,15 +58,15 @@
 
     <DC.Title>NPNF2-06. Jerome: The Principal Works of St. Jerome</DC.Title>
 
-
-
-
-
-
-
-
-
-
+    <DC.Creator sub="Editor">Philip Schaff</DC.Creator>
+    <DC.Creator sub="Editor" scheme="file-as">Schaff, Philip (1819-1893)</DC.Creator>
+    <DC.Creator sub="Editor" scheme="ccel">schaff</DC.Creator>
+    <DC.Creator sub="Author" scheme="short-form">St. Jerome</DC.Creator>
+    <DC.Creator sub="Author" scheme="file-as">Jerome, St.</DC.Creator>
+    <DC.Creator sub="Author" scheme="ccel">jerome</DC.Creator>
+    <DC.Creator sub="Translator">W. H. Freemantle, M.A.</DC.Creator>
+    <DC.Creator sub="Translator" scheme="file-as">Freemantle, M.A., The Hon. W.H.</DC.Creator>
+    <DC.Creator sub="Translator" scheme="ccel">freemantlewh</DC.Creator>
 
 
 
