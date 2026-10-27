@@ -4,7 +4,7 @@ assignments:
   - row_id: basil_opera-omnia-pg31-grc-lat_migne1857--moral-famine-and-martyr-homilies-pg-31-greek
     work: "Basil, Opera omnia, PG 31, Greek: homily in time of famine and drought, on Luke 12:18, to the rich, on Julitta, on Mamas"
     author: basil
-    locus: "famine and drought homily at file line 22450; on Luke 12:18 at 19009; to the rich at 20355; Julitta at 17124; Mamas at 44695"
+    locus: "famine and drought homily at OCR line 22451; on Luke 12:18 at 19009; to the rich at 20355; Julitta at 17124; Mamas at 44695; line numbers are OCR lines, add 12 for this file's own"
     atlas_ids:
       - cappadocian-nicene-pastoral-monastic-tradition
     role: tradition
