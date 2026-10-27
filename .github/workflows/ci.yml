@@ -644,7 +644,7 @@ jobs:
           python-version: "3.11"
           cache: pip
       - run: pip install pyyaml pytest
-      - run: python -m pytest Build/worlds/_cross-world/tests_gen_needs_ruling.py -q
+      - run: python -m pytest Build/worlds/_cross-world/tests_gen_needs_ruling.py Build/worlds/_cross-world/tests_gen_wants_register.py -q
 
   # tools/check_live_commentary.py's own test suite (tools/tests/
   # test_check_live_commentary.py: the 60+ hand-labelled sample, its
