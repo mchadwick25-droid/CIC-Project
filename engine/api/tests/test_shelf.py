@@ -198,6 +198,7 @@ def test_nobody_can_delete_a_conversation_from_another_shelf(http, accounts, mai
 
 
 def test_deleting_the_account_leaves_no_trace_of_its_conversations_in_any_file(http, accounts, mailer, store, usage_store, feedback, qc, tmp_path):
+    from engine.api.accounts_routes import erase_closed_accounts
     sign_in(http, mailer)
     ids, codes_ = [], []
     for text in ("first question", "second question"):
@@ -210,6 +211,10 @@ def test_deleting_the_account_leaves_no_trace_of_its_conversations_in_any_file(h
     assert all(qc.store.max_round(t) >= 1 for t in tokens)
     stepped_up(http, accounts)
     assert http.post("/api/accounts/delete", json={}, headers=H).status_code == 200
+    assert all(store.read_events(i) for i in ids), "everything is kept while the account can still be re-opened"
+    assert http.get("/api/accounts/me").json()["signed_in"] is False
+    accounts.service._clock.advance(91 * 86400)
+    assert erase_closed_accounts(accounts) == 1
     for session_id, code in zip(ids, codes_):
         deleted_everywhere(session_id, store, usage_store, feedback, qc, tmp_path, code)
     assert all(qc.store.max_round(t) == 0 for t in tokens)
@@ -221,6 +226,7 @@ def test_deleting_the_account_leaves_no_trace_of_its_conversations_in_any_file(h
 
 
 def test_an_account_whose_conversations_cannot_be_removed_is_kept_whole(http, accounts, mailer, store, monkeypatch):
+    from engine.api.accounts_routes import erase_closed_accounts
     sign_in(http, mailer)
     session_id, auth = open_session(http)
     stepped_up(http, accounts)
@@ -229,10 +235,12 @@ def test_an_account_whose_conversations_cannot_be_removed_is_kept_whole(http, ac
         raise RuntimeError("store unavailable")
 
     monkeypatch.setattr(shelf.ConversationEraser, "erase", broken)
-    assert http.post("/api/accounts/delete", json={}, headers=H).status_code == 500
+    assert http.post("/api/accounts/delete", json={}, headers=H).status_code == 200
+    accounts.service._clock.advance(91 * 86400)
+    assert erase_closed_accounts(accounts) == 0
     assert accounts.service.store._d.execute("SELECT COUNT(*) FROM accounts").fetchone()[0] == 1
+    assert accounts.service.closed_due_ids()
     assert store.read_events(session_id)
-    assert http.get("/api/accounts/me").json()["signed_in"] is True
 
 
 def test_the_ninety_day_clearing_leaves_a_shelved_conversation_and_removes_an_unshelved_one(http, accounts, mailer, store, tmp_path):
@@ -253,8 +261,8 @@ def test_the_retention_job_is_handed_the_shelf_as_its_exemption(http, accounts, 
     assert store.read_events(shelved)
 
 
-def test_an_account_unused_for_two_years_is_removed_with_its_shelf_and_a_used_one_stays(http, accounts, mailer, store, usage_store, feedback, qc, tmp_path):
-    from engine.api.accounts_routes import sweep_unused_accounts
+def test_an_account_unused_for_two_years_is_closed_then_removed_with_its_shelf_and_a_used_one_stays(http, accounts, mailer, store, usage_store, feedback, qc, tmp_path):
+    from engine.api.accounts_routes import erase_closed_accounts, sweep_unused_accounts
     clock = accounts.service._clock
     sign_in(http, mailer)
     idle_id, _ = open_session(http)
@@ -263,6 +271,11 @@ def test_an_account_unused_for_two_years_is_removed_with_its_shelf_and_a_used_on
     clock.advance(365 * 86400 * 2 + 20 * 86400)
     sign_in(active, mailer, "bob@example.org")  # bob is back
     assert sweep_unused_accounts(accounts) == 1
+    assert store.read_events(idle_id), "a closed account keeps its conversations until its day"
+    assert accounts.service.store._d.execute("SELECT COUNT(*) FROM accounts").fetchone()[0] == 2
+    clock.advance(91 * 86400)
+    sign_in(active, mailer, "bob@example.org")
+    assert erase_closed_accounts(accounts) == 1
     assert store.read_events(idle_id) == [] and store.read_events(active_id)
     assert accounts.service.store._d.execute("SELECT COUNT(*) FROM accounts").fetchone()[0] == 1
     assert accounts.service.store._d.execute("SELECT COUNT(*) FROM shelf WHERE session_id = ?", (idle_id,)).fetchone()[0] == 0
@@ -436,7 +449,8 @@ def test_a_code_sealed_under_an_older_shelf_key_is_sealed_again_when_it_is_reope
     store_a.close()
 
 
-def test_a_deletion_that_stops_part_way_leaves_the_account_and_a_retry_finishes_it(http, accounts, mailer, store, monkeypatch):
+def test_an_erasure_that_stops_part_way_leaves_the_account_and_a_retry_finishes_it(http, accounts, mailer, store, monkeypatch):
+    from engine.api.accounts_routes import erase_closed_accounts
     sign_in(http, mailer)
     first, _ = open_session(http)
     second, _ = open_session(http)
@@ -451,28 +465,13 @@ def test_a_deletion_that_stops_part_way_leaves_the_account_and_a_retry_finishes_
         return real(self, session_id, code)
 
     monkeypatch.setattr(shelf.ConversationEraser, "erase", flaky)
-    assert http.post("/api/accounts/delete", json={}, headers=H).status_code == 500
-    assert accounts.service.store._d.execute("SELECT COUNT(*) FROM accounts").fetchone()[0] == 1
     assert http.post("/api/accounts/delete", json={}, headers=H).status_code == 200
+    accounts.service._clock.advance(91 * 86400)
+    assert erase_closed_accounts(accounts) == 0
+    assert accounts.service.store._d.execute("SELECT COUNT(*) FROM accounts").fetchone()[0] == 1
+    assert erase_closed_accounts(accounts) == 1
     assert store.read_events(first) == [] and store.read_events(second) == []
     assert accounts.service.store._d.execute("SELECT COUNT(*) FROM accounts").fetchone()[0] == 0
-
-
-def test_the_sweep_leaves_an_account_that_signed_in_while_it_ran(http, accounts, mailer, store, monkeypatch):
-    from engine.api.accounts_routes import sweep_unused_accounts
-    sign_in(http, mailer)
-    open_session(http)
-    accounts.service._clock.advance(365 * 86400 * 2 + 20 * 86400)
-    real = accounts.service.stale_account_ids
-    seen = {"n": 0}
-
-    def once_then_none():
-        seen["n"] += 1
-        return real() if seen["n"] == 1 else []
-
-    monkeypatch.setattr(accounts.service, "stale_account_ids", once_then_none)
-    assert sweep_unused_accounts(accounts) == 0
-    assert accounts.service.store._d.execute("SELECT COUNT(*) FROM accounts").fetchone()[0] == 1
 
 
 def test_a_second_pass_keeps_the_review_tokens_so_a_later_restore_is_still_cleared(http, accounts, mailer, store, qc, tmp_path):
@@ -505,22 +504,16 @@ def test_an_account_file_that_cannot_be_opened_keeps_the_conversation_and_does_n
     assert shelf_exemption_from_file(str(tmp_path / "is-a-directory.db"))("any-session") is True
 
 
-def test_an_account_is_kept_if_a_conversation_is_shelved_while_it_is_being_cleared(http, accounts, mailer, store, monkeypatch):
+def test_a_deleted_account_s_cookie_opens_nothing_and_shelves_nothing(http, accounts, mailer, store):
     sign_in(http, mailer)
     first, _ = open_session(http)
     stepped_up(http, accounts)
-    real = shelf.ConversationEraser.erase
-
-    def shelve_one_more(self, session_id, code=None, known_tokens=()):
-        late = TestClient(http.app, base_url="https://testserver")
-        late.cookies.set(accounts.cookie_name, http.cookies.get(accounts.cookie_name))
-        for _ in range(3):
-            open_session(late)
-        return real(self, session_id, code, known_tokens)
-
-    monkeypatch.setattr(shelf.ConversationEraser, "erase", shelve_one_more)
-    assert http.post("/api/accounts/delete", json={}, headers=H).status_code == 500
-    assert accounts.service.store._d.execute("SELECT COUNT(*) FROM accounts").fetchone()[0] == 1
+    late = TestClient(http.app, base_url="https://testserver")
+    late.cookies.set(accounts.cookie_name, http.cookies.get(accounts.cookie_name))
+    assert http.post("/api/accounts/delete", json={}, headers=H).status_code == 200
+    assert late.get("/api/accounts/me").json()["signed_in"] is False
+    open_session(late)
+    assert accounts.service.shelf_ids(accounts.service.store.account_ids()[0]) == [first]
 
 
 def test_a_check_in_after_a_crisis_turn_does_not_replace_the_text_shown_first():

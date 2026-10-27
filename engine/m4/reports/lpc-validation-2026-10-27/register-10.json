@@ -1,0 +1,1213 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:d614a1ee8d0b12fad56ca7dd7d6d11a83eeb28b7a9f71eeec4e43af648d2f9e6",
+  "package": "packages/lpc/2026-10-26T18-33-28Z",
+  "live_test": {
+    "name": "lpc full validation, 27 October",
+    "cap_usd": 0.3,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.026459
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 1793,
+      "output_tokens": 112,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 2088,
+      "output_tokens": 175,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 2388,
+      "output_tokens": 302,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 23478
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "What was a sermon like at Hippo?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "A sermon at Hippo was the ordinary work of the man answerable for that flock. Augustine preached to the whole church, baptized or still learning, again and again, the same voice working on the same people. It was not a lecture and not a show. It was the man in charge of them, telling them to his face what he thought they needed. The people were not a silent audience. Possidius tells us that when Augustine came to Hippo as a presbyter, the congregation seized him and loudly told their own bishop to ordain him. Possidius wrote: “The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.”\n\nThat clamour was the same suffrage that put Cyprian into office, over his own reluctance, a century and a half earlier. The people could demand, and the bishop answered for what he gave them. When they failed it was not a problem he managed but a wound he carried, and when they would not hear him he wept.",
+          "citations": [
+            {
+              "sentence": "A sermon at Hippo was the ordinary work of the man answerable for that flock.",
+              "record_ids": [
+                "lpc.gravity.pastoral-office-flock-keeping"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.gravity.pastoral-office-flock-keeping",
+                  "record_type": "gravity",
+                  "label": "Pastoral Office as Territorial Flock-Keeping",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "author": "Cyprian of Carthage and the African episcopate in council",
+                      "work": "The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256; the vendored edition's own heading dates it a.d. 258)",
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "author": "Pontius the Deacon",
+                      "work": "The Life and Passion of Cyprian, Bishop and Martyr",
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine preached to the whole church, baptized or still learning, again and again, the same voice working on the same people.",
+              "record_ids": [
+                "lpc.term.the-flock"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.the-flock",
+                  "record_type": "term",
+                  "label": "the flock",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "author": "Cyprian of Carthage",
+                      "work": "On the Lapsed (De Lapsis)",
+                      "locus": "De Lapsis 4 -- 'it is the shepherd that is chiefly wounded in the wound of his flock'",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "Epistle LIV 14 -- a portion of the flock assigned to each pastor, who must give account of his doing to the Lord, and Epistle V, the relief provision for 'those who have stood with unshaken faith and have not forsaken Christ's flock'",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "author": "Cyprian of Carthage",
+                      "work": "On the Unity of the Church (De Unitate)",
+                      "locus": "De Unitate's own citation of John 10:16, 'one flock and one shepherd'",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "author": "Cyprian of Carthage",
+                      "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
+                      "locus": "further pastoral treatises carrying the same shepherd/flock/pastor image",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                      "author": "Augustine of Hippo",
+                      "work": "Sermons on Selected Lessons of the New Testament (~97 sermons, ~308,000 words). Completeness qualifier: this is the vendored 19th-century NPNF sermon body, not the full modern corpus -- the 1990 Dolbeau/Mainz find added 26 further sermons (published 1996; row 50), not represented here",
+                      "locus": "Sermon I's own cognate image of gathering 'into His fold'",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. VI, vendored as cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-general-correspondence",
+                      "author": "Augustine of Hippo",
+                      "work": "Letters -- the general correspondence (138 of the vendored volume's own 168 letters, ~258,018 words; the remaining 30 are the Jerome cluster (row 10), an 11-letter Donatist cluster, and a 2-letter Pelagian cluster, neither of the latter two covered by this row). Completeness qualifier: this is the vendored 19th-century NPNF selection, not the full modern corpus -- Divjak's 1975 find added 29 further letters (CSEL 88, 1981; row 49), not represented here",
+                      "locus": "Letter CXXVI -- 'the crowd having gathered in front of the steps, and persisting in the same determination with terrible and incessant clamour and shouting'",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Possidius wrote: “The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.”",
+              "record_ids": [
+                "lpc.quote.clamour-and-tears"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.clamour-and-tears",
+                  "record_type": "quote",
+                  "label": "Sancti Augustini Vita Scripta a Possidio Episcopo, Vita Augustini IV — Possidius, bishop of Calama",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                      "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                      "locus": "Vita Augustini IV; independently re-located and re-read this session at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 1817",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+                    }
+                  ],
+                  "spoken_rendering": "The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.",
+                  "speaker": "Possidius, bishop of Calama"
+                }
+              ]
+            },
+            {
+              "sentence": "That clamour was the same suffrage that put Cyprian into office, over his own reluctance, a century and a half earlier.",
+              "record_ids": [
+                "lpc.term.suffrage"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.suffrage",
+                  "record_type": "term",
+                  "label": "suffrage",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "Epistle XXXIX -- 'your suffrage and God's judgment,' against a rival faction's 'ancient venom'",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "author": "Pontius the Deacon",
+                      "work": "The Life and Passion of Cyprian, Bishop and Martyr",
+                      "locus": "Pontius's Life of Cyprian, a third, non-episcopal witness -- 'by the judgment of God and the favour of the people, he was chosen to the office of the priesthood and the degree of the episcopate while still a neophyte'",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-general-correspondence",
+                      "author": "Augustine of Hippo",
+                      "work": "Letters -- the general correspondence (138 of the vendored volume's own 168 letters, ~258,018 words; the remaining 30 are the Jerome cluster (row 10), an 11-letter Donatist cluster, and a 2-letter Pelagian cluster, neither of the latter two covered by this row). Completeness qualifier: this is the vendored 19th-century NPNF selection, not the full modern corpus -- Divjak's 1975 find added 29 further letters (CSEL 88, 1981; row 49), not represented here",
+                      "locus": "Letters XXXI and CCXIII carry Augustine's own accounts",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                      "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                      "locus": "Possidius's Vita, read in full; chapters IV and VIII carry Augustine's own two offices",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "When they failed it was not a problem he managed but a wound he carried, and when they would not hear him he wept.",
+              "record_ids": [
+                "lpc.term.the-flock"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.the-flock",
+                  "record_type": "term",
+                  "label": "the flock",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "author": "Cyprian of Carthage",
+                      "work": "On the Lapsed (De Lapsis)",
+                      "locus": "De Lapsis 4 -- 'it is the shepherd that is chiefly wounded in the wound of his flock'",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "Epistle LIV 14 -- a portion of the flock assigned to each pastor, who must give account of his doing to the Lord, and Epistle V, the relief provision for 'those who have stood with unshaken faith and have not forsaken Christ's flock'",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "author": "Cyprian of Carthage",
+                      "work": "On the Unity of the Church (De Unitate)",
+                      "locus": "De Unitate's own citation of John 10:16, 'one flock and one shepherd'",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "author": "Cyprian of Carthage",
+                      "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
+                      "locus": "further pastoral treatises carrying the same shepherd/flock/pastor image",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                      "author": "Augustine of Hippo",
+                      "work": "Sermons on Selected Lessons of the New Testament (~97 sermons, ~308,000 words). Completeness qualifier: this is the vendored 19th-century NPNF sermon body, not the full modern corpus -- the 1990 Dolbeau/Mainz find added 26 further sermons (published 1996; row 50), not represented here",
+                      "locus": "Sermon I's own cognate image of gathering 'into His fold'",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. VI, vendored as cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-general-correspondence",
+                      "author": "Augustine of Hippo",
+                      "work": "Letters -- the general correspondence (138 of the vendored volume's own 168 letters, ~258,018 words; the remaining 30 are the Jerome cluster (row 10), an 11-letter Donatist cluster, and a 2-letter Pelagian cluster, neither of the latter two covered by this row). Completeness qualifier: this is the vendored 19th-century NPNF selection, not the full modern corpus -- Divjak's 1975 find added 29 further letters (CSEL 88, 1981; row 49), not represented here",
+                      "locus": "Letter CXXVI -- 'the crowd having gathered in front of the steps, and persisting in the same determination with terrible and incessant clamour and shouting'",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.the-people",
+              "matched_name": "The people",
+              "text_start": 331,
+              "plain_meaning": "We are not a silent audience. We put men into office, and we say so out loud. We can stand in front of a bishop's own seat and refuse to go home.",
+              "quick_meaning": "For us, 'the people' names the congregation when it acts. They consent, they demand, and they elect -- unlike the flock, which is the congregation being cared for.",
+              "translational_sense": "A modern listener may hear either a passive congregation or a modern democratic electorate with formal voting rights. Neither is right. A corporate body whose consent and demand genuinely constitute a call to office, and which can be exerted disruptively, but which holds no procedural mechanism and can still be refused.",
+              "false_friend": [
+                "a passive congregation with no real leverage over its own clergy",
+                "a modern democratic electorate, with a formal ballot and a fixed voting procedure"
+              ],
+              "sourced_by": []
+            },
+            {
+              "id": "lpc.term.suffrage",
+              "matched_name": "suffrage",
+              "text_start": 1015,
+              "plain_meaning": "Cyprian named two things that put him in office: our suffrage, and God's judgment. A rival group opposed him, but the people chose him anyway.",
+              "quick_meaning": "For us, suffrage is the voice of the people that puts a man into office. It can go against his own wishes.",
+              "translational_sense": "A modern listener will hear 'suffrage' as the right to vote, and expect a franchise, a ballot, and a procedure. We mean neither. A corporate acclamation that carries real constitutive force, in a community where the man acclaimed is expected to resist and where an organized faction can oppose without stopping it.",
+              "false_friend": [
+                "the right to vote, with an expected franchise, a ballot, and a fixed procedure"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "author": "Cyprian of Carthage",
+                  "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                  "locus": "Epistle XXXIX -- 'your suffrage and God's judgment,' against a rival faction's 'ancient venom'",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                },
+                {
+                  "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                  "author": "Pontius the Deacon",
+                  "work": "The Life and Passion of Cyprian, Bishop and Martyr",
+                  "locus": "Pontius's Life of Cyprian, a third, non-episcopal witness -- 'by the judgment of God and the favour of the people, he was chosen to the office of the priesthood and the degree of the episcopate while still a neophyte'",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                },
+                {
+                  "source_id": "lpc.source.augustine-general-correspondence",
+                  "author": "Augustine of Hippo",
+                  "work": "Letters -- the general correspondence (138 of the vendored volume's own 168 letters, ~258,018 words; the remaining 30 are the Jerome cluster (row 10), an 11-letter Donatist cluster, and a 2-letter Pelagian cluster, neither of the latter two covered by this row). Completeness qualifier: this is the vendored 19th-century NPNF selection, not the full modern corpus -- Divjak's 1975 find added 29 further letters (CSEL 88, 1981; row 49), not represented here",
+                  "locus": "Letters XXXI and CCXIII carry Augustine's own accounts",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml"
+                },
+                {
+                  "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                  "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                  "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                  "locus": "Possidius's Vita, read in full; chapters IV and VIII carry Augustine's own two offices",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+                }
+              ]
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 78,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV, independently re-located this session; Doc_01 SS2); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII; Doc_01 SS2); died 430, during the Vandal siege of Hippo (lpc.story.the-psalms-on-the-wall)"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-de-lapsis",
+                  "author": "Cyprian of Carthage",
+                  "work": "On the Lapsed (De Lapsis)",
+                  "locus": "De Lapsis 4 -- 'it is the shepherd that is chiefly wounded in the wound of his flock'",
+                  "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                },
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "author": "Cyprian of Carthage",
+                  "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                  "locus": "Epistle LIV 14 -- a portion of the flock assigned to each pastor, who must give account of his doing to the Lord, and Epistle V, the relief provision for 'those who have stood with unshaken faith and have not forsaken Christ's flock'",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                },
+                {
+                  "source_id": "lpc.source.cyprian-de-unitate",
+                  "author": "Cyprian of Carthage",
+                  "work": "On the Unity of the Church (De Unitate)",
+                  "locus": "De Unitate's own citation of John 10:16, 'one flock and one shepherd'",
+                  "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                },
+                {
+                  "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                  "author": "Cyprian of Carthage",
+                  "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
+                  "locus": "further pastoral treatises carrying the same shepherd/flock/pastor image",
+                  "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                },
+                {
+                  "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                  "author": "Augustine of Hippo",
+                  "work": "Sermons on Selected Lessons of the New Testament (~97 sermons, ~308,000 words). Completeness qualifier: this is the vendored 19th-century NPNF sermon body, not the full modern corpus -- the 1990 Dolbeau/Mainz find added 26 further sermons (published 1996; row 50), not represented here",
+                  "locus": "Sermon I's own cognate image of gathering 'into His fold'",
+                  "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                  "edition": "Nicene and Post-Nicene Fathers, Series I, vol. VI, vendored as cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml"
+                },
+                {
+                  "source_id": "lpc.source.augustine-general-correspondence",
+                  "author": "Augustine of Hippo",
+                  "work": "Letters -- the general correspondence (138 of the vendored volume's own 168 letters, ~258,018 words; the remaining 30 are the Jerome cluster (row 10), an 11-letter Donatist cluster, and a 2-letter Pelagian cluster, neither of the latter two covered by this row). Completeness qualifier: this is the vendored 19th-century NPNF selection, not the full modern corpus -- Divjak's 1975 find added 29 further letters (CSEL 88, 1981; row 49), not represented here",
+                  "locus": "Letter CXXVI -- 'the crowd having gathered in front of the steps, and persisting in the same determination with terrible and incessant clamour and shouting'",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml"
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.possidius",
+              "matched_name": "Possidius",
+              "text_start": 370,
+              "names": [
+                {
+                  "name": "Possidius, bishop of Calama",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Possidius of Calama (d. after 437)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "the bishop of Calama who had been Augustine's friend for almost forty years, and who stood by him and prayed as he died",
+              "dates": {
+                "display": "Augustine's own friend for nearly forty years; bishop of Calama in his own right; physically present at Augustine's deathbed in 430, one of those Augustine 'asked of us who were present' (lpc.story.the-psalms-on-the-wall); wrote the Vita Augustini, the source for both lpc.story.the-psalms-on-the-wall and lpc.quote.clamour-and-tears"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                  "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                  "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                  "locus": "Vita Augustini IV; independently re-located and re-read this session at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 1817",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.cyprian",
+              "matched_name": "Cyprian",
+              "text_start": 1033,
+              "names": [
+                {
+                  "name": "Cyprian, our bishop at Carthage",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague he taught us to love even our enemies. He was put to death under Valerian.",
+              "dates": {
+                "display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised (Doc_01 SS2; lpc.story.election-of-cyprian); banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258 (lpc.story.the-death-of-cyprian)"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "author": "Cyprian of Carthage",
+                  "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                  "locus": "Epistle XXXIX -- 'your suffrage and God's judgment,' against a rival faction's 'ancient venom'",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                },
+                {
+                  "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                  "author": "Pontius the Deacon",
+                  "work": "The Life and Passion of Cyprian, Bishop and Martyr",
+                  "locus": "Pontius's Life of Cyprian, a third, non-episcopal witness -- 'by the judgment of God and the favour of the people, he was chosen to the office of the priesthood and the degree of the episcopate while still a neophyte'",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                },
+                {
+                  "source_id": "lpc.source.augustine-general-correspondence",
+                  "author": "Augustine of Hippo",
+                  "work": "Letters -- the general correspondence (138 of the vendored volume's own 168 letters, ~258,018 words; the remaining 30 are the Jerome cluster (row 10), an 11-letter Donatist cluster, and a 2-letter Pelagian cluster, neither of the latter two covered by this row). Completeness qualifier: this is the vendored 19th-century NPNF selection, not the full modern corpus -- Divjak's 1975 find added 29 further letters (CSEL 88, 1981; row 49), not represented here",
+                  "locus": "Letters XXXI and CCXIII carry Augustine's own accounts",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml"
+                },
+                {
+                  "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                  "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                  "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                  "locus": "Possidius's Vita, read in full; chapters IV and VIII carry Augustine's own two offices",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_is",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.answerability-as-ground"
+            ],
+            "term": [
+              "lpc.term.the-flock",
+              "lpc.term.suffrage"
+            ],
+            "story": [
+              "lpc.story.election-of-cyprian"
+            ],
+            "quote": [
+              "lpc.quote.clamour-and-tears",
+              "lpc.quote.ye-belong-to-my-care"
+            ],
+            "gravity": [
+              "lpc.gravity.pastoral-office-flock-keeping"
+            ],
+            "contested_claim": [
+              "lpc.contested.compel-coercion-development"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "A sermon at Hippo was the ordinary work of the man answerable for that flock.",
+                "tags": [
+                  "lpc.gravity.pastoral-office-flock-keeping"
+                ],
+                "verdict": "ok",
+                "why": "grounded 86% in own tagged records",
+                "ratio": 0.86,
+                "draft": "A sermon at Hippo was the ordinary work of the man answerable for that flock [[lpc.gravity.pastoral-office-flock-keeping]]."
+              },
+              {
+                "sentence": "Augustine preached to the whole church, baptized or still learning, again and again, the same voice working on the same people.",
+                "tags": [
+                  "lpc.term.the-flock"
+                ],
+                "verdict": "ok",
+                "why": "grounded 64% in own tagged records",
+                "ratio": 0.64,
+                "draft": "Augustine preached to the whole church, baptized or still learning, again and again, the same voice working on the same people [[lpc.term.the-flock]]."
+              },
+              {
+                "sentence": "It was not a lecture and not a show.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "It was not a lecture and not a show."
+              },
+              {
+                "sentence": "It was the man in charge of them, telling them to his face what he thought they needed.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "It was the man in charge of them, telling them to his face what he thought they needed."
+              },
+              {
+                "sentence": "The people were not a silent audience.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The people were not a silent audience."
+              },
+              {
+                "sentence": "Possidius tells us that when Augustine came to Hippo as a presbyter, the congregation seized him and loudly told their own bishop to ordain him.",
+                "tags": [
+                  "lpc.story.election-of-cyprian"
+                ],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['augustine', 'hippo']) only 17% grounded in its own tags",
+                "ratio": 0.17,
+                "draft": "Possidius tells us that when Augustine came to Hippo as a presbyter, the congregation seized him and loudly told their own bishop to ordain him [[lpc.story.election-of-cyprian]]."
+              },
+              {
+                "sentence": "Possidius wrote: “The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.”",
+                "tags": [
+                  "lpc.quote.clamour-and-tears"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.clamour-and-tears",
+                "draft": "Possidius wrote: [[quote:lpc.quote.clamour-and-tears]]"
+              },
+              {
+                "sentence": "That clamour was the same suffrage that put Cyprian into office, over his own reluctance, a century and a half earlier.",
+                "tags": [
+                  "lpc.term.suffrage"
+                ],
+                "verdict": "ok",
+                "why": "grounded 60% in own tagged records",
+                "ratio": 0.6,
+                "draft": "That clamour was the same suffrage that put Cyprian into office, over his own reluctance, a century and a half earlier [[lpc.term.suffrage]]."
+              },
+              {
+                "sentence": "The people could demand, and the bishop answered for what he gave them.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (figure-name:['bishop']) with no citation tag",
+                "draft": "The people could demand, and the bishop answered for what he gave them."
+              },
+              {
+                "sentence": "When they failed it was not a problem he managed but a wound he carried, and when they would not hear him he wept.",
+                "tags": [
+                  "lpc.term.the-flock"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "When they failed it was not a problem he managed but a wound he carried, and when they would not hear him he wept [[lpc.term.the-flock]]."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 7,
+                "cited_record_ids": [
+                  "lpc.gravity.pastoral-office-flock-keeping",
+                  "lpc.quote.clamour-and-tears",
+                  "lpc.story.election-of-cyprian",
+                  "lpc.term.the-flock"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "2": {
+                    "sentence": "It was not a lecture and not a show.",
+                    "tags": [
+                      "lpc.gravity.pastoral-office-flock-keeping",
+                      "lpc.quote.clamour-and-tears",
+                      "lpc.story.election-of-cyprian",
+                      "lpc.term.the-flock"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "3": {
+                    "sentence": "It was the man in charge of them, telling them to his face what he thought they needed.",
+                    "tags": [
+                      "lpc.gravity.pastoral-office-flock-keeping",
+                      "lpc.quote.clamour-and-tears",
+                      "lpc.story.election-of-cyprian",
+                      "lpc.term.the-flock"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "4": {
+                    "sentence": "The people were not a silent audience.",
+                    "tags": [
+                      "lpc.gravity.pastoral-office-flock-keeping",
+                      "lpc.quote.clamour-and-tears",
+                      "lpc.story.election-of-cyprian",
+                      "lpc.term.the-flock"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 3,
+                "cited_record_ids": [
+                  "lpc.term.suffrage",
+                  "lpc.term.the-flock"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "1": {
+                    "sentence": "The people could demand, and the bishop answered for what he gave them.",
+                    "tags": [
+                      "lpc.term.suffrage",
+                      "lpc.term.the-flock"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 60% in own tagged records",
+                    "ratio": 0.6
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.clamour-and-tears"
+              ],
+              "removed": [
+                {
+                  "sentence": "He said it plainly:",
+                  "why": "lead-in to a placed quote does not name its speaker",
+                  "draft": "He said it plainly: [[quote:lpc.quote.ye-belong-to-my-care]]"
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 77
+              },
+              {
+                "index": 1,
+                "text_start": 78,
+                "text_end": 205
+              },
+              {
+                "index": 2,
+                "text_start": 206,
+                "text_end": 242
+              },
+              {
+                "index": 3,
+                "text_start": 243,
+                "text_end": 330
+              },
+              {
+                "index": 4,
+                "text_start": 331,
+                "text_end": 369
+              },
+              {
+                "index": 5,
+                "text_start": 370,
+                "text_end": 514
+              },
+              {
+                "index": 6,
+                "text_start": 515,
+                "text_end": 987
+              },
+              {
+                "index": 7,
+                "text_start": 989,
+                "text_end": 1108
+              },
+              {
+                "index": 8,
+                "text_start": 1109,
+                "text_end": 1180
+              },
+              {
+                "index": 9,
+                "text_start": 1181,
+                "text_end": 1295
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 1,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.term.the-people",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "In the vendored English edition of Cyprian the Latin plebs occurs exactly three times, all inside the 19th-century American editor's own introductory and elucidatory prose, none inside Cyprian's own letters. Cyprian's Latin does use it: Hartel's letters carry plebs in running text, 89 whole-word occurrences with notes excluded, and letter 43 is headed CYPRIANVS PLEBI VNIVERSAE S. 'The people' is the English volume's own recurring rendering for the congregation as an acting body. It is a working handle, and whether plebs becomes the world word is not settled.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 4,
+                "char_start": 0,
+                "char_end": 10,
+                "surface": "The people"
+              },
+              {
+                "record_id": "lpc.figure.possidius",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 5,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Possidius"
+              },
+              {
+                "record_id": "lpc.quote.clamour-and-tears",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The vendored Weiskotten scan carries a single OCR artifact inside this quotation -- 'ancf' for 'and' -- reproduced here exactly as the scan gives it (matching this record's own text against the raw file precisely, per this step's own discipline), not silently corrected; modern_rendering gives the plain sense ('they demanded it...') rather than reproducing the artifact.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 6,
+                "char_start": 17,
+                "char_end": 472,
+                "surface": "“The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.”"
+              },
+              {
+                "record_id": "lpc.term.suffrage",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The pattern is attested through different figures and different words -- and at the same office (the episcopate) in both phases -- not one recurring term. Named as a pattern, not presented as a shared vocabulary item. The word hears as a modern franchise, which is a captured sense, so distortion risk is high.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 7,
+                "char_start": 26,
+                "char_end": 34,
+                "surface": "suffrage"
+              },
+              {
+                "record_id": "lpc.figure.cyprian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 7,
+                "char_start": 44,
+                "char_end": 51,
+                "surface": "Cyprian"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.gravity.pastoral-office-flock-keeping",
+                "record_type": "gravity",
+                "label": "Pastoral Office as Territorial Flock-Keeping",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "author": "Cyprian of Carthage",
+                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "author": "Cyprian of Carthage and the African episcopate in council",
+                    "work": "The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256; the vendored edition's own heading dates it a.d. 258)",
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                    "author": "Pontius the Deacon",
+                    "work": "The Life and Passion of Cyprian, Bishop and Martyr",
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Doc_04 §3 Candidate 1: no divergence. Evidence reaches Documented -- both bishops' own accounts of holding and exercising this office are directly quoted and independently re-verified. Possidius's Vita (Registry row 192) is not part of this Cross-Check and is not counted toward it.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.term.the-flock",
+                "record_type": "term",
+                "label": "the flock",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "author": "Cyprian of Carthage",
+                    "work": "On the Lapsed (De Lapsis)",
+                    "locus": "De Lapsis 4 -- 'it is the shepherd that is chiefly wounded in the wound of his flock'",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "author": "Cyprian of Carthage",
+                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                    "locus": "Epistle LIV 14 -- a portion of the flock assigned to each pastor, who must give account of his doing to the Lord, and Epistle V, the relief provision for 'those who have stood with unshaken faith and have not forsaken Christ's flock'",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "author": "Cyprian of Carthage",
+                    "work": "On the Unity of the Church (De Unitate)",
+                    "locus": "De Unitate's own citation of John 10:16, 'one flock and one shepherd'",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "author": "Cyprian of Carthage",
+                    "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
+                    "locus": "further pastoral treatises carrying the same shepherd/flock/pastor image",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                    "author": "Augustine of Hippo",
+                    "work": "Sermons on Selected Lessons of the New Testament (~97 sermons, ~308,000 words). Completeness qualifier: this is the vendored 19th-century NPNF sermon body, not the full modern corpus -- the 1990 Dolbeau/Mainz find added 26 further sermons (published 1996; row 50), not represented here",
+                    "locus": "Sermon I's own cognate image of gathering 'into His fold'",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. VI, vendored as cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-general-correspondence",
+                    "author": "Augustine of Hippo",
+                    "work": "Letters -- the general correspondence (138 of the vendored volume's own 168 letters, ~258,018 words; the remaining 30 are the Jerome cluster (row 10), an 11-letter Donatist cluster, and a 2-letter Pelagian cluster, neither of the latter two covered by this row). Completeness qualifier: this is the vendored 19th-century NPNF selection, not the full modern corpus -- Divjak's 1975 find added 29 further letters (CSEL 88, 1981; row 49), not represented here",
+                    "locus": "Letter CXXVI -- 'the crowd having gathered in front of the steps, and persisting in the same determination with terrible and incessant clamour and shouting'",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The dense verbal evidence for this term is Cyprian's own; Augustine's use of the same image is real but far less frequent. Our claim that this is a cross-phase pattern rests on both bishops' own conduct of the office, not on matching word-counts in each phase (Author-Gravity-Risk: Yes, Lexicon_Deployment_Index.md SS6).",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.quote.clamour-and-tears",
+                "record_type": "quote",
+                "label": "Sancti Augustini Vita Scripta a Possidio Episcopo, Vita Augustini IV — Possidius, bishop of Calama",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                    "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                    "locus": "Vita Augustini IV; independently re-located and re-read this session at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 1817",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+                  }
+                ],
+                "spoken_rendering": "The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.",
+                "speaker": "Possidius, bishop of Calama",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The vendored Weiskotten scan carries a single OCR artifact inside this quotation -- 'ancf' for 'and' -- reproduced here exactly as the scan gives it (matching this record's own text against the raw file precisely, per this step's own discipline), not silently corrected; modern_rendering gives the plain sense ('they demanded it...') rather than reproducing the artifact.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.term.suffrage",
+                "record_type": "term",
+                "label": "suffrage",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "author": "Cyprian of Carthage",
+                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                    "locus": "Epistle XXXIX -- 'your suffrage and God's judgment,' against a rival faction's 'ancient venom'",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                    "author": "Pontius the Deacon",
+                    "work": "The Life and Passion of Cyprian, Bishop and Martyr",
+                    "locus": "Pontius's Life of Cyprian, a third, non-episcopal witness -- 'by the judgment of God and the favour of the people, he was chosen to the office of the priesthood and the degree of the episcopate while still a neophyte'",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-general-correspondence",
+                    "author": "Augustine of Hippo",
+                    "work": "Letters -- the general correspondence (138 of the vendored volume's own 168 letters, ~258,018 words; the remaining 30 are the Jerome cluster (row 10), an 11-letter Donatist cluster, and a 2-letter Pelagian cluster, neither of the latter two covered by this row). Completeness qualifier: this is the vendored 19th-century NPNF selection, not the full modern corpus -- Divjak's 1975 find added 29 further letters (CSEL 88, 1981; row 49), not represented here",
+                    "locus": "Letters XXXI and CCXIII carry Augustine's own accounts",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                    "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                    "locus": "Possidius's Vita, read in full; chapters IV and VIII carry Augustine's own two offices",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The pattern is attested through different figures and different words -- and at the same office (the episcopate) in both phases -- not one recurring term. Named as a pattern, not presented as a shared vocabulary item. The word hears as a modern franchise, which is a captured sense, so distortion risk is high.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.gravity.pastoral-office-flock-keeping",
+                "record_type": "gravity",
+                "label": "Pastoral Office as Territorial Flock-Keeping",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "author": "Cyprian of Carthage",
+                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "author": "Cyprian of Carthage and the African episcopate in council",
+                    "work": "The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256; the vendored edition's own heading dates it a.d. 258)",
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                    "author": "Pontius the Deacon",
+                    "work": "The Life and Passion of Cyprian, Bishop and Martyr",
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Doc_04 §3 Candidate 1: no divergence. Evidence reaches Documented -- both bishops' own accounts of holding and exercising this office are directly quoted and independently re-verified. Possidius's Vita (Registry row 192) is not part of this Cross-Check and is not counted toward it.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.term.the-flock",
+                "record_type": "term",
+                "label": "the flock",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "author": "Cyprian of Carthage",
+                    "work": "On the Lapsed (De Lapsis)",
+                    "locus": "De Lapsis 4 -- 'it is the shepherd that is chiefly wounded in the wound of his flock'",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "author": "Cyprian of Carthage",
+                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                    "locus": "Epistle LIV 14 -- a portion of the flock assigned to each pastor, who must give account of his doing to the Lord, and Epistle V, the relief provision for 'those who have stood with unshaken faith and have not forsaken Christ's flock'",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "author": "Cyprian of Carthage",
+                    "work": "On the Unity of the Church (De Unitate)",
+                    "locus": "De Unitate's own citation of John 10:16, 'one flock and one shepherd'",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "author": "Cyprian of Carthage",
+                    "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
+                    "locus": "further pastoral treatises carrying the same shepherd/flock/pastor image",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                    "author": "Augustine of Hippo",
+                    "work": "Sermons on Selected Lessons of the New Testament (~97 sermons, ~308,000 words). Completeness qualifier: this is the vendored 19th-century NPNF sermon body, not the full modern corpus -- the 1990 Dolbeau/Mainz find added 26 further sermons (published 1996; row 50), not represented here",
+                    "locus": "Sermon I's own cognate image of gathering 'into His fold'",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. VI, vendored as cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-general-correspondence",
+                    "author": "Augustine of Hippo",
+                    "work": "Letters -- the general correspondence (138 of the vendored volume's own 168 letters, ~258,018 words; the remaining 30 are the Jerome cluster (row 10), an 11-letter Donatist cluster, and a 2-letter Pelagian cluster, neither of the latter two covered by this row). Completeness qualifier: this is the vendored 19th-century NPNF selection, not the full modern corpus -- Divjak's 1975 find added 29 further letters (CSEL 88, 1981; row 49), not represented here",
+                    "locus": "Letter CXXVI -- 'the crowd having gathered in front of the steps, and persisting in the same determination with terrible and incessant clamour and shouting'",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The dense verbal evidence for this term is Cyprian's own; Augustine's use of the same image is real but far less frequent. Our claim that this is a cross-phase pattern rests on both bishops' own conduct of the office, not on matching word-counts in each phase (Author-Gravity-Risk: Yes, Lexicon_Deployment_Index.md SS6).",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 2,
+              "sentence_indexes": [
+                5,
+                8
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.clamour-and-tears"
+            ],
+            "removed": [
+              {
+                "sentence": "He said it plainly:",
+                "why": "lead-in to a placed quote does not name its speaker",
+                "draft": "He said it plainly: [[quote:lpc.quote.ye-belong-to-my-care]]"
+              }
+            ]
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

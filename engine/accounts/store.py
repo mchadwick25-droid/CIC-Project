@@ -77,6 +77,12 @@ CREATE TABLE IF NOT EXISTS pending_recoveries (
   new_key_hash     TEXT NOT NULL,
   reserved_on      TEXT NOT NULL
 ) WITHOUT ROWID;
+CREATE TABLE IF NOT EXISTS closures (
+  account_id TEXT PRIMARY KEY,
+  closed_on  TEXT NOT NULL,
+  erase_on   TEXT NOT NULL,
+  published  INTEGER NOT NULL DEFAULT 0
+) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS deletion_ledger (
   ledger_hash TEXT PRIMARY KEY,
   expires_on  TEXT NOT NULL,
@@ -294,9 +300,11 @@ class AccountStore:
             return self._d.execute("SELECT 1 FROM shelf WHERE session_id = ?", (session_id,)).fetchone() is not None
 
     def stale_accounts(self, before_week: str) -> list[str]:
-        """Accounts last used in a week before the given one."""
+        """Open accounts last used in a week before the given one. A closed account is waiting for its own day."""
         with self._lock:
-            return [r[0] for r in self._d.execute("SELECT account_id FROM accounts WHERE week_last_used < ?", (before_week,))]
+            return [r[0] for r in self._d.execute(
+                "SELECT account_id FROM accounts WHERE week_last_used < ? "
+                "AND account_id NOT IN (SELECT account_id FROM closures)", (before_week,))]
 
     # codes held ---------------------------------------------------------------
 
@@ -695,6 +703,7 @@ class AccountStore:
                 self._d.execute("DELETE FROM pending_recoveries WHERE account_id = ?", (account_id,))
                 self._d.execute("DELETE FROM account_codes WHERE account_id = ?", (account_id,))
                 self._d.execute("DELETE FROM shelf WHERE account_id = ?", (account_id,))
+                self._d.execute("DELETE FROM closures WHERE account_id = ?", (account_id,))
                 if gone:
                     self._d.execute(
                         "INSERT OR IGNORE INTO deletion_ledger (ledger_hash, expires_on) VALUES (?, ?)",
@@ -705,6 +714,46 @@ class AccountStore:
                 self._d.execute("ROLLBACK")
                 raise
             return gone == 1
+
+    # closing and re-opening ---------------------------------------------------
+
+    def close_account(self, account_id: str, closed_on: str, erase_on: str, *, published: bool = False) -> bool:
+        """Marks a live account closed. False when there is no such account or it is already closed."""
+        with self._lock:
+            if self._d.execute("SELECT 1 FROM accounts WHERE account_id = ?", (account_id,)).fetchone() is None:
+                return False
+            return self._d.execute(
+                "INSERT OR IGNORE INTO closures (account_id, closed_on, erase_on, published) VALUES (?, ?, ?, ?)",
+                (account_id, closed_on, erase_on, 1 if published else 0),
+            ).rowcount == 1
+
+    def closure(self, account_id: str) -> tuple[str, str] | None:
+        """(closed on, erase on) for a closed account."""
+        with self._lock:
+            row = self._d.execute("SELECT closed_on, erase_on FROM closures WHERE account_id = ?", (account_id,)).fetchone()
+        return (row[0], row[1]) if row else None
+
+    def reopen_account(self, account_id: str) -> bool:
+        with self._lock:
+            return self._d.execute("DELETE FROM closures WHERE account_id = ?", (account_id,)).rowcount == 1
+
+    def closures_due(self, today: str) -> list[str]:
+        """Closed accounts whose last day has come."""
+        with self._lock:
+            return [r[0] for r in self._d.execute("SELECT account_id FROM closures WHERE erase_on <= ?", (today,))]
+
+    def unpublished_closures(self) -> list[tuple[str, str]]:
+        """(account id, erase day) of each closure not yet written to the outside copy."""
+        with self._lock:
+            return [(r[0], r[1]) for r in self._d.execute("SELECT account_id, erase_on FROM closures WHERE published = 0")]
+
+    def mark_closure_published(self, account_id: str) -> None:
+        with self._lock:
+            self._d.execute("UPDATE closures SET published = 1 WHERE account_id = ?", (account_id,))
+
+    def account_ids(self) -> list[str]:
+        with self._lock:
+            return [r[0] for r in self._d.execute("SELECT account_id FROM accounts")]
 
     def accounts_in_ledger(self, hash_of: Callable[[str], str]) -> list[str]:
         """Ids of live accounts whose ledger hash is on the ledger."""

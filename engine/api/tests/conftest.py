@@ -92,8 +92,8 @@ def reader_response(**overrides):
     return base
 
 
-def safety_response(signal="NO_SIGNAL", dynamic_tags=(), acute_level="none", risk_subject="not_applicable"):
-    return {"signal": signal, "acute_level": acute_level, "risk_subject": risk_subject,
+def safety_response(signal="NO_SIGNAL", dynamic_tags=(), acute_level="none", risk_subject="not_applicable", check_in_reason="not_applicable"):
+    return {"signal": signal, "acute_level": acute_level, "risk_subject": risk_subject, "check_in_reason": check_in_reason,
             "dynamic_tags": list(dynamic_tags), "confidence": "high"}
 
 

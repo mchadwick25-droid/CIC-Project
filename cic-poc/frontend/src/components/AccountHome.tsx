@@ -58,6 +58,12 @@ export function AccountHome() {
       </div>
       {account.status === 'in' ? (
         <Home headRef={headRef} />
+      ) : account.closedNotice !== null ? (
+        <div className="account-home__body">
+          <h1 ref={headRef} tabIndex={-1}>{copy.deletedHeading}</h1>
+          <p>{copy.deletedDone}</p>
+          {account.closedNotice !== '' && <p>{copy.deletedLastDay(dayOf(account.closedNotice))}</p>}
+        </div>
       ) : (
         <div className="account-home__body">
           <h1 ref={headRef} tabIndex={-1}>{copy.homeSignedOutHeading}</h1>

@@ -3,7 +3,7 @@ id: lpc.term.certificates-letters-of-peace
 world_id: latin-pastoral-congregational-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-I

@@ -26,7 +26,7 @@ class _FakeMessages:
     def create(self, *, model, max_tokens, tools, tool_choice, messages, system=None, timeout=None):
         name = tool_choice["name"]
         if name == "submit_safety_classification":
-            value = {"signal": "NO_SIGNAL", "acute_level": "none", "risk_subject": "not_applicable", "dynamic_tags": [], "confidence": "high"}
+            value = {"signal": "NO_SIGNAL", "acute_level": "none", "risk_subject": "not_applicable", "check_in_reason": "not_applicable", "dynamic_tags": [], "confidence": "high"}
         else:
             value = {"asks": [], "register": "informational", "clarity": "clear", "ambiguity_options": [], "out_of_scope": {"class": "none"}, "modern_terms": []}
         return SimpleNamespace(content=[_FakeToolUse(name, value)], usage=_FAKE_USAGE)

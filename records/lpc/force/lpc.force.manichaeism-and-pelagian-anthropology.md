@@ -3,7 +3,7 @@ id: lpc.force.manichaeism-and-pelagian-anthropology
 world_id: latin-pastoral-congregational-christianity
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F1-T

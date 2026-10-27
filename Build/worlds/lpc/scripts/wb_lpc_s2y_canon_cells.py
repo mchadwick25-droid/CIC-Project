@@ -515,6 +515,16 @@ force: lpc.force.donatist-schism (the rival communion itself -- dominant
   its own legitimacy; the concrete referent behind the term above)
 NOT claimed: no lpc record touches divorce or remarriage.
 
+DISCLOSURE QUOTES. The seventeen quote records from wb_lpc_s24.py's
+build_disclosure_quotes() carry cells in the "quote" list below, and the six
+`doctrinal_witness` records they bear carry their own cells in their files.
+F4-T takes the final-judgment, after-death and infant-baptism material (the end
+of things and baptizing babies), F6-T takes hell and salvation outside the
+Church, F1-T takes original sin, and F5-I takes Monica's request as she lay
+dying. The two City of God I.17 quotes and their witness take F6-T, with the
+other hard teachings; F6-E's martyrdom material must not stand beside a question
+about suicide.
+
 ===========================================================================
 WHAT THIS SCRIPT DOES
 ===========================================================================
@@ -690,6 +700,21 @@ ASSIGN: dict[str, list[tuple[str, list[str]]]] = {
         ("lpc.quote.two-hear-one-scorns-one-rises", ["F1-T"]),
         ("lpc.quote.what-is-done-by-you-he-does-in-you", ["F1-T"]),
         ("lpc.quote.no-one-has-the-love-of-god-from-himself", ["F1-T"]),
+        ("lpc.quote.the-old-man-nailed-to-the-cross-speaks", ["C-I"]),
+        ("lpc.quote.david-himself-hath-been-sent-to-thee", ["F2-P"]),
+        ("lpc.quote.dash-the-little-ones-against-the-rock", ["F2-I"]),
+        ("lpc.quote.they-first-dwelt-together-in-unity", ["F5-T"]),
+        ("lpc.quote.peter-may-baptize-but-this-is-he-that-baptizeth", ["F6-I"]),
+        ("lpc.quote.the-word-is-added-to-the-element", ["F4-I"]),
+        ("lpc.quote.believe-and-thou-hast-eaten-already", ["F1-I"]),
+        ("lpc.quote.the-wretched-woman-and-mercy", ["C-I"]),
+        ("lpc.quote.the-flight-of-the-mind-is-fear", ["F3-I"]),
+        ("lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock", ["F3-I"]),
+        ("lpc.quote.love-and-do-what-thou-wilt", ["F2-I"]),
+        ("lpc.quote.they-went-out-from-us-but-were-not-of-us", ["F6-I"]),
+        ("lpc.quote.many-have-learned-to-offer-the-other-cheek", ["F2-P"]),
+        ("lpc.quote.all-sins-against-us-are-to-be-forgiven", ["F2-I"]),
+        ("lpc.quote.judge-not-nor-despair-of-a-return", ["F2-I"]),
         ("lpc.quote.chosen-while-still-a-neophyte", ["F3-I"]),
         ("lpc.quote.a-dreadful-plague-broke-out", ["F5-I"]),
         ("lpc.quote.it-becomes-us-to-answer-to-our-birth", ["F5-I"]),
@@ -719,6 +744,23 @@ ASSIGN: dict[str, list[tuple[str, list[str]]]] = {
         ("lpc.quote.earlier-councils-corrected-by-later", ["F1-I"]),
         ("lpc.quote.boast-in-nothing-since-nothing-is-our-own", ["F1-T"]),
         ("lpc.quote.such-a-one-with-his-friends", ["F6-I"]),
+        ("lpc.quote.the-life-and-the-death-shall-both-be-without-end", ["F4-T", "F6-T"]),
+        ("lpc.quote.very-many-make-moan-over-the-eternal-punishment", ["F6-T"]),
+        ("lpc.quote.a-respite-from-their-torments", ["F6-T"]),
+        ("lpc.quote.left-doubtful-a-kind-of-purgatorial-fire", ["F4-T"]),
+        ("lpc.quote.not-to-purchase-impunity", ["F4-T"]),
+        ("lpc.quote.all-the-merit-or-demerit-is-acquired-in-this-life", ["F4-T"]),
+        ("lpc.quote.thank-offerings-for-the-very-good", ["F4-T"]),
+        ("lpc.quote.remember-me-at-the-lords-altar", ["F5-I"]),
+        ("lpc.quote.the-mildest-punishment-of-all", ["F1-T"]),
+        ("lpc.quote.the-mildest-condemnation-of-all", ["F1-T", "F4-T"]),
+        ("lpc.quote.not-to-be-refused-to-any-one-born-of-man", ["F4-T"]),
+        ("lpc.quote.not-his-own-sins-but-the-sins-of-another", ["F1-T", "F4-T"]),
+        ("lpc.quote.no-salvation-out-of-the-church", ["F6-T"]),
+        ("lpc.quote.an-ever-burning-gehenna", ["F6-T"]),
+        ("lpc.quote.no-repentance-is-too-late", ["F6-T"]),
+        ("lpc.quote.who-that-has-any-human-feeling-would-refuse-to-forgive-them", ["F6-T"]),
+        ("lpc.quote.no-place-for-a-healing-penitence", ["F6-T"]),
     ],
     "contested_claim": [
         ("lpc.contested.compel-coercion-development", ["F3-P"]),  # retagged in rework, was F6-P

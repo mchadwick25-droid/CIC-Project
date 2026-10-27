@@ -3,7 +3,7 @@ id: lpc.core.latin-pastoral-congregational-christianity
 world_id: latin-pastoral-congregational-christianity
 record_type: world_core
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

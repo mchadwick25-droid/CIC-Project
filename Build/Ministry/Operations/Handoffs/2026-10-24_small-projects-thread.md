@@ -16,7 +16,7 @@ From session: https://claude.ai/code/session_01LXQVhoN4b7gUG2KwMhR8CK · World o
 
 - Keyboard focus is not trapped inside the slide-out (Go-Deeper Later_List item 3).
 - The accounts fixes (PRs 1124, 1130), the LPC records (PRs 1128, 1136) and later `main` work are not on `live`. Promotion 1131 carried them with this thread's panel, and new conversations showed a 404 on that build; it was rolled back (PR 1137). The cause is not found.
-- Render's auto-deploy for cic-engine is off, left off by the manual rollback.
+- (Resolved 2026-10-27) Render's auto-deploy for cic-engine was left off by the manual rollback; Mark set it to "After CI checks pass".
 
 - Card-back audio on flip: draft PR https://github.com/mchadwick25-droid/CIC-Project/pull/1150 starts the clip from the tap that turns the card (Mark confirmed it directly). No audio, word or voice changed, nothing generated. The clips match the card text as of 2026-10-24; they are redone after Mark's text edits, with a new named run, cap and sample approved by ear (Conversation-Chooser Later_List items 5 and 6; iOS Safari and screen readers untested).
 
@@ -27,6 +27,10 @@ From session: https://claude.ai/code/session_01LXQVhoN4b7gUG2KwMhR8CK · World o
 - The message box shows a scrollbar with almost no text in it.
 - The panel's "Get more conversations" link opens a popup of `go-deeper.html` (`getCodeUrl()` in `cic-poc/frontend/src/lib/deeper.ts`). While buying is suspended (ruling 80) that page reads "Codes are not on sale yet".
 
+## 2c. The promotion after the 1131 rollback (2026-10-26), done
+
+`live` was rebuilt in pieces taken from `main`, each merged and deployed by Mark by hand and checked with a new conversation: piece 1 (docs, library, LPC records; PR 1155), 2a (accounts, ledger, backup, refill days, accounts off; PR 1156), 2c (tester codes without a daily limit, dashboard list; PR 1157), 2b (question text deleted at 90 days with the privacy page, and the site files; PR 1163). Render reports `053f20d`. The 404 on promotion 1131 was never explained; Mark said to let it go. `live` does not equal `main`: the LPC thread's newer work (PRs 1158 to 1161, one commit marked "held") stays on `main`. The first daily retention run after the 2b deploy clears question text older than 90 days. Render's auto-deploy for cic-engine is set to "After CI checks pass" (Mark, 2026-10-27), so a merge into `live` deploys by itself once CI passes on the push to `live`.
+
 ## 3. Re-check before you trust it
 
 - The 404 on the 1131 build: the Render log line for it would name the path. Not read by this thread.
@@ -35,12 +39,11 @@ From session: https://claude.ai/code/session_01LXQVhoN4b7gUG2KwMhR8CK · World o
 
 ## 4. Waiting on Mark
 
-- Turn Render's auto-deploy back on (Settings, Deploy), or keep deploying `live` by hand.
 - Per-world voices for the card backs (Conversation-Chooser Later_List item 1).
 
 ## 5. Next step
 
-Promote what is left on `main` to `live` in small pieces, accounts and LPC one at a time, each confirmed by its own thread first. After each deploy start a new conversation from a card and open the panel.
+Nothing open from this thread. If more of `main` is promoted later, build it as explicit pieces on `live` (a merge would not carry the reverted 1131 content), and wait for the LPC thread's word on its held work.
 
 ## 6. Spend
 

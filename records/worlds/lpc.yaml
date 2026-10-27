@@ -4,6 +4,10 @@ display_name: "Latin Pastoral-Congregational Christianity"
 time_window: {start: 246, end: 430}
 place: "Carthage and Hippo Regius"
 state: building
+representative: {name: Datus}
 census_id: "latin-pastoral-congregational-christianity"
 safety_adjacent: true
 living_tradition_flag: true
+package:
+  manifest_hash: "sha256:bbdc16c46c10595b3183b3d8ac1c8bdeb66584acf0772f4458d6e2d30f0a5f02"
+  location: "packages/lpc/2026-10-27T03-46-36Z"
