@@ -9,68 +9,68 @@
     href="http://www.ccel.org/ss/thml.html.xsl" ?>
 -->
     
-<!-- Copyright Christian Classics Ethereal Library -->
+<!-- CCEL-authored header block removed; text, notes and scripture tags unchanged -->
 <ThML>
 <ThML.head>
 
-<generalInfo>
-  <description>Originally printed in 1885, the ten-volume 
-set, <i>Ante-Nicene Fathers</i>, brings together the work of 
-early Christian thinkers. In particular, it brings 
-together the writings of the early Church fathers prior to the fourth 
-century Nicene Creed. These volumes are noteworthy for their inclusion 
-of entire texts, and not simply fragments or excerpts from these great 
-writings. The translations are fairly literal, providing both readers 
-and scholars with a good approximation of the originals. This volume is 
-the index. These writings were heavily influential on the early Church, 
-and for good reason, as they are inspirational and encouraging. These 
-volumes also come with many useful notes, providing the reader with new 
-levels of understanding. Overall, <i>Ante-Nicene Fathers</i>, or any 
-part of 
-it, is a welcome addition to one's reading list.<br /><br />Tim Perrine 
-<br />CCEL 
-Staff 
-Writer </description>
-  <pubHistory />
-  <comments />
-</generalInfo>
 
-<printSourceInfo>
-  <published />
-</printSourceInfo>
 
-<electronicEdInfo>
-  <publisherID>ccel</publisherID>
-  <authorID>schaff</authorID>
-  <bookID>anf10</bookID>
-  <workID>anf10</workID>
-  <bkgID>bibliographic_synopsis_general_index_(schaff)</bkgID>
-  <version>1.0</version>
-  <editorialComments />
-  <revisionHistory />
-  <status>Digital Facsimile edition</status>
 
-  <DC>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <DC.Title>ANF10. Bibliographic Synopsis; General Index</DC.Title>
-    <DC.Creator sub="Author" scheme="short-form">Philip Schaff</DC.Creator>
-    <DC.Creator sub="Author" scheme="file-as">Schaff, Philip</DC.Creator>
-     
-    <DC.Publisher>Grand Rapids, MI: Christian Classics Ethereal Library</DC.Publisher>
-    <DC.Subject scheme="LCCN" />
-    <DC.Subject scheme="ccel">All; Early Church; Images Only;</DC.Subject>
-    <DC.Contributor sub="Digitizer" />
-    <DC.Date sub="Created">2004-07-25</DC.Date>
-    <DC.Type>Text.Monograph</DC.Type>
-    <DC.Format scheme="IMT">text/html</DC.Format>
-    <DC.Identifier scheme="URL">/ccel/schaff/anf10.html</DC.Identifier>
-    <DC.Identifier scheme="ISBN" />
-    <DC.Source />
-    <DC.Source scheme="URL" />
-    <DC.Language scheme="ISO639-3">eng</DC.Language>
-    <DC.Rights>Public Domain</DC.Rights>
-  </DC>
 
-</electronicEdInfo>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <DC.Rights>Public Domain</DC.Rights>
+
+
+
 </ThML.head>
 
 <ThML.body>

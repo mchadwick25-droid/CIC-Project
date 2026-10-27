@@ -5,296 +5,296 @@
 <?xml-stylesheet type="text/xsl"
     href="http://www.ccel.org/ss/thml.html.xsl" ?>
 -->
-<!-- Copyright Christian Classics Ethereal Library -->
+<!-- CCEL-authored header block removed; text, notes and scripture tags unchanged -->
 <ThML>
 
 <ThML.head>
-  
-  <generalInfo>
-  <description>Originally printed in 1885, the ten-volume 
-set, <i>Ante-Nicene Fathers</i>, brings together the work of 
-early Christian thinkers. In particular, it brings 
-together the writings of the early Church fathers prior to the fourth 
-century Nicene Creed. These volumes are noteworthy for their inclusion 
-of entire texts, and not simply fragments or excerpts from these great 
-writings. The translations are fairly literal, providing both readers 
-and scholars with a good approximation of the originals. This volume has 
-Church fathers from both the third and fourth century. These writings 
-were heavily influential on the early Church, and for good reason, as 
-they are inspirational and encouraging. These volumes also come with 
-many useful notes, providing the reader with new levels of 
-understanding. Overall, <i>Ante-Nicene Fathers</i>, or any part of it, 
-is 
-a 
-welcome addition to one's reading list.<br /><br />Tim Perrine<br />CCEL 
-Staff 
-Writer 
-</description>
-  <pubHistory />
-  <comments />
-  </generalInfo>
-  
-  <printSourceInfo>
-  <published />
-  </printSourceInfo>
-  
-  <electronicEdInfo>
-  <publisherID>ccel</publisherID>
-  <authorID>schaff</authorID>
-  <bookID>anf07</bookID>
-  <workID>anf07</workID>
-  <versionID>anf07</versionID>
-  <bkgID>schaff-anf07</bkgID>
-  <version>3.0</version>
-  <editorialComments />
-  <revisionHistory />
-  <status>Carefully proofed except for extended Latin sections on pp. 189-190, 293-294 of the print edition.</status>
-  
-  <DC>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <DC.Title>ANF07. Fathers of the Third and Fourth Centuries: Lactantius, Venantius, Asterius, Victorinus, Dionysius, Apostolic Teaching and Constitutions, Homily, and Liturgies</DC.Title>
-  <DC.Title sub="short">ANF07. Fathers of the Third and Fourth Centuries.</DC.Title>
-    <DC.Creator scheme="short-form" sub="Editor">Philip Schaff</DC.Creator>
-    <DC.Creator scheme="file-as" sub="Editor">Schaff, Philip (1819-1893)</DC.Creator>
-    <DC.Creator scheme="ccel" sub="Editor">schaff</DC.Creator>
-    <DC.Creator scheme="ccel" sub="Author">lactantius</DC.Creator>
-    <DC.Creator scheme="ccel" sub="Author">venantius</DC.Creator>
-    <DC.Creator scheme="ccel" sub="Author">asterius</DC.Creator>
-    <DC.Creator scheme="ccel" sub="Author">victorinus</DC.Creator>
-    <DC.Creator scheme="ccel" sub="Author">dionysius_rome</DC.Creator>
 
-  <DC.Publisher>Grand Rapids,MI: Christian Classics Ethereal Library</DC.Publisher>
-  <DC.Subject scheme="LCCN">BR65</DC.Subject>
-  <DC.Subject scheme="lcsh1">Christianity</DC.Subject>
-    <DC.Subject scheme="lcsh2">Early Christian Literature. Fathers of the Church, etc.</DC.Subject>
-    <DC.Subject scheme="ccel">All;EarlyChurch; Symbols; Proofed</DC.Subject>
-  <DC.Contributor sub="Digitizer" />
-  <DC.Date sub="Created">2004-07-04</DC.Date>
-  <DC.Type>Text.Monograph</DC.Type>
-  <DC.Format scheme="IMT">text/html</DC.Format>
-  <DC.Identifier scheme="URL">/ccel/schaff/anf07.html</DC.Identifier>
-  <DC.Identifier scheme="ISBN" />
-  <DC.Source />
-  <DC.Source scheme="URL" />
-  <DC.Language scheme="ISO639-3">eng</DC.Language>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <DC.Rights>Public Domain</DC.Rights>
-  </DC>
-  </electronicEdInfo>
-  
-  
 
 
 
 
 
 
-<style type="text/css">
-h1	{ margin-bottom:12pt; text-align:center; font-size:x-large; text-transform:uppercase }
-h2	{ margin-bottom:12pt; text-align:center; font-size:x-large; text-transform:uppercase; margin-top:12pt; font-size:large }
-h3	{ margin-bottom:12pt; text-align:center; font-size:x-large; text-transform:uppercase; margin-top:12pt; font-size:large; font-size:medium }
-h4	{ margin-top:12pt; margin-bottom:3pt; text-align:center; text-transform:uppercase }
-h5	{ margin-top:12pt; margin-bottom:3pt; text-align:center; text-transform:uppercase; margin-top:6pt; margin-bottom:6pt }
-h6	{ margin-bottom:12pt; text-align:center; font-size:x-small; text-transform:uppercase }
-p.Heading7	{ margin-top:6pt; margin-bottom:6pt; text-align:center; font-style:italic }
-p.BodyText	{ line-height:14pt; text-indent:18pt }
-span.Heading7Char	{ font-style:italic }
-p.Header	{ margin-top:6pt; margin-bottom:6pt; text-align:center; font-size:x-small }
-p.Centered	{ text-align:center }
-p.Footnote	{ text-indent:18pt }
-p.BodyTextHanging	{ text-indent:-36pt; margin-left:36pt }
-p.c11	{ margin-bottom:36pt; text-indent:18pt; text-align:center; font-weight:bold }
-p.c10	{ text-indent:18pt; text-align:center; font-weight:bold }
-p.c9	{ margin-bottom:36pt; text-indent:18pt; text-align:center }
-p.c8	{ text-indent:18pt; text-align:center }
-p.c7	{ margin-bottom:18pt; text-indent:18pt; text-align:center; font-style:italic }
-p.c2	{ margin-bottom:18pt; text-indent:18pt; text-align:center }
-p.attribution	{ text-align:right }
-p.Continue	{ line-height:14pt; text-indent:18pt; text-indent:0pt }
-p.Skip	{ line-height:14pt; text-indent:18pt; margin-top:12pt }
-p.defaultcharacterstyle	{ text-indent:18pt }
-p.Blockquote	{ line-height:14pt; text-indent:18pt; margin-top:6pt; margin-bottom:6pt; line-height:12pt }
-p.BodyTextSmall	{ line-height:14pt; text-indent:18pt; line-height:13pt }
-p.subhead	{ margin-top:6pt; margin-bottom:6pt; text-align:center; font-style:italic }
-p.creed	{ line-height:14pt; text-indent:18pt; line-height:12pt; text-indent:-18pt; margin-left:36pt }
-p.Response	{ line-height:14pt; text-indent:18pt; margin-top:3pt; margin-bottom:3pt }
-span.sc	{ font-variant:small-caps }
-span.c6	{ font-size:medium }
-span.c4	{ font-size:x-small; font-variant:small-caps }
-span.c1	{ font-size:x-small }
-span.p	{ ::::: }
-span.Foreign	{ font-style:italic }
-</style>
 
-<style type="text/xcss">
-<selector element="h1">
-  <property name="margin-bottom" value="12pt" />
-  <property name="text-align" value="center" />
-  <property name="font-size" value="x-large" />
-  <property name="text-transform" value="uppercase" />
-</selector>
-<selector element="h2">
-  <property name="margin-bottom" value="12pt" />
-  <property name="text-align" value="center" />
-  <property name="font-size" value="x-large" />
-  <property name="text-transform" value="uppercase" />
-  <property name="margin-top" value="12pt" />
-  <property name="font-size" value="large" />
-</selector>
-<selector element="h3">
-  <property name="margin-bottom" value="12pt" />
-  <property name="text-align" value="center" />
-  <property name="font-size" value="x-large" />
-  <property name="text-transform" value="uppercase" />
-  <property name="margin-top" value="12pt" />
-  <property name="font-size" value="large" />
-  <property name="font-size" value="medium" />
-</selector>
-<selector element="h4">
-  <property name="margin-top" value="12pt" />
-  <property name="margin-bottom" value="3pt" />
-  <property name="text-align" value="center" />
-  <property name="text-transform" value="uppercase" />
-</selector>
-<selector element="h5">
-  <property name="margin-top" value="12pt" />
-  <property name="margin-bottom" value="3pt" />
-  <property name="text-align" value="center" />
-  <property name="text-transform" value="uppercase" />
-  <property name="margin-top" value="6pt" />
-  <property name="margin-bottom" value="6pt" />
-</selector>
-<selector element="h6">
-  <property name="margin-bottom" value="12pt" />
-  <property name="text-align" value="center" />
-  <property name="font-size" value="x-small" />
-  <property name="text-transform" value="uppercase" />
-</selector>
-<selector class="Heading7" element="p">
-  <property name="margin-top" value="6pt" />
-  <property name="margin-bottom" value="6pt" />
-  <property name="text-align" value="center" />
-  <property name="font-style" value="italic" />
-</selector>
-<selector class="BodyText" element="p">
-  <property name="line-height" value="14pt" />
-  <property name="text-indent" value="18pt" />
-</selector>
-<selector class="Heading7Char" element="span">
-  <property name="font-style" value="italic" />
-</selector>
-<selector class="Header" element="p">
-  <property name="margin-top" value="6pt" />
-  <property name="margin-bottom" value="6pt" />
-  <property name="text-align" value="center" />
-  <property name="font-size" value="x-small" />
-</selector>
-<selector class="Centered" element="p">
-  <property name="text-align" value="center" />
-</selector>
-<selector class="Footnote" element="p">
-  <property name="text-indent" value="18pt" />
-</selector>
-<selector class="BodyTextHanging" element="p">
-  <property name="text-indent" value="-36pt" />
-  <property name="margin-left" value="36pt" />
-</selector>
-<selector class="c11" element="p">
-  <property name="margin-bottom" value="36pt" />
-  <property name="text-indent" value="18pt" />
-  <property name="text-align" value="center" />
-  <property name="font-weight" value="bold" />
-</selector>
-<selector class="c10" element="p">
-  <property name="text-indent" value="18pt" />
-  <property name="text-align" value="center" />
-  <property name="font-weight" value="bold" />
-</selector>
-<selector class="c9" element="p">
-  <property name="margin-bottom" value="36pt" />
-  <property name="text-indent" value="18pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector class="c8" element="p">
-  <property name="text-indent" value="18pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector class="c7" element="p">
-  <property name="margin-bottom" value="18pt" />
-  <property name="text-indent" value="18pt" />
-  <property name="text-align" value="center" />
-  <property name="font-style" value="italic" />
-</selector>
-<selector class="c2" element="p">
-  <property name="margin-bottom" value="18pt" />
-  <property name="text-indent" value="18pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector class="attribution" element="p">
-  <property name="text-align" value="right" />
-</selector>
-<selector class="Continue" element="p">
-  <property name="line-height" value="14pt" />
-  <property name="text-indent" value="18pt" />
-  <property name="text-indent" value="0pt" />
-</selector>
-<selector class="Skip" element="p">
-  <property name="line-height" value="14pt" />
-  <property name="text-indent" value="18pt" />
-  <property name="margin-top" value="12pt" />
-</selector>
-<selector class="defaultcharacterstyle" element="p">
-  <property name="text-indent" value="18pt" />
-</selector>
-<selector class="Blockquote" element="p">
-  <property name="line-height" value="14pt" />
-  <property name="text-indent" value="18pt" />
-  <property name="margin-top" value="6pt" />
-  <property name="margin-bottom" value="6pt" />
-  <property name="line-height" value="12pt" />
-</selector>
-<selector class="BodyTextSmall" element="p">
-  <property name="line-height" value="14pt" />
-  <property name="text-indent" value="18pt" />
-  <property name="line-height" value="13pt" />
-</selector>
-<selector class="subhead" element="p">
-  <property name="margin-top" value="6pt" />
-  <property name="margin-bottom" value="6pt" />
-  <property name="text-align" value="center" />
-  <property name="font-style" value="italic" />
-</selector>
-<selector class="creed" element="p">
-  <property name="line-height" value="14pt" />
-  <property name="text-indent" value="18pt" />
-  <property name="line-height" value="12pt" />
-  <property name="text-indent" value="-18pt" />
-  <property name="margin-left" value="36pt" />
-</selector>
-<selector class="Response" element="p">
-  <property name="line-height" value="14pt" />
-  <property name="text-indent" value="18pt" />
-  <property name="margin-top" value="3pt" />
-  <property name="margin-bottom" value="3pt" />
-</selector>
-<selector class="sc" element="span">
-  <property name="font-variant" value="small-caps" />
-</selector>
-<selector class="c6" element="span">
-  <property name="font-size" value="medium" />
-</selector>
-<selector class="c4" element="span">
-  <property name="font-size" value="x-small" />
-  <property name="font-variant" value="small-caps" />
-</selector>
-<selector class="c1" element="span">
-  <property name="font-size" value="x-small" />
-</selector>
-<selector class="p" element="span">
-  <property name="" value="::::" />
-</selector>
-<selector class="Foreign" element="span">
-  <property name="font-style" value="italic" />
-</selector>
-</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </ThML.head>
