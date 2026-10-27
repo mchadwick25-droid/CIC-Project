@@ -626,6 +626,21 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- row_id: josephus_works-antiquities-wars-life_whiston1859--antiquities-testimonium-and-james-whiston
+  work: Josephus, Works (Whiston), including Antiquities XVIII (the Testimonium) and XX (James,
+    the brother of Jesus called Christ)
+  author: josephus
+  locus: Antiquities XVIII, Testimonium at about file line 81395; Antiquities XX, the James
+    passage at about 90997
+  role: context
+  confidence: provisional
+  note: 'Outside witness, not the church''s own voice: a first-century Jewish civil historian,
+    in Whiston''s English. Context only, never tradition. The Testimonium Flavianum (Antiquities
+    XVIII) is a contested passage; the text is as Whiston prints it. Whiston''s notes and
+    three dissertations are bound in.
+
+    '
+  source_file: josephus_works-antiquities-wars-life_whiston1859.txt
 - row_id: anf04_tertullian4-minucius-felix-commodian-origen1-2--a-letter-to-origen-from-africanus-about-the-history-of
   work: A Letter to Origen from Africanus About the History of Susanna
   author: juliusafricanus
@@ -1038,6 +1053,58 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
+- row_id: philo_works-v1_yonge1854--philo-works-volume-1-yonge
+  work: Philo of Alexandria, Works (Yonge), volume 1
+  author: philo
+  locus: On the Creation of the World (heading near file line 1108), the three books of the
+    Allegories of the Sacred Laws (from 3559, 4900, 6186), On Cain (9470), On the Giants (17333),
+    On Noah's planting (21001), On sobriety (25077)
+  role: context
+  confidence: provisional
+  note: 'Outside witness, not the church''s own voice: a first-century Jewish philosopher-exegete
+    of Alexandria, in Yonge''s English. Context only, never tradition. Clean English OCR.
+
+    '
+  source_file: philo_works-v1_yonge1854.txt
+- row_id: philo_works-v2_yonge1854--philo-works-volume-2-yonge
+  work: Philo of Alexandria, Works (Yonge), volume 2
+  author: philo
+  locus: including On the Migration of Abraham (file line 3223) and On Abraham (20324); the
+    other treatises of the volume were not itemised
+  role: context
+  confidence: provisional
+  note: 'Outside witness, not the church''s own voice: a first-century Jewish philosopher-exegete
+    of Alexandria, in Yonge''s English. Context only, never tradition. Clean English OCR.
+
+    '
+  source_file: philo_works-v2_yonge1854.txt
+- row_id: philo_works-v3_yonge1854--philo-works-volume-3-yonge
+  work: Philo of Alexandria, Works (Yonge), volume 3
+  author: philo
+  locus: On the Life of Moses (file line 1158), the Ten Commandments (7519), On Circumcision
+    (9391), On Monarchy (9501), the Special Laws and the festivals (13260 onward), On Justice
+    (19702), On Courage, Humanity and Repentance (20864), On Rewards and Punishments (23048),
+    On Curses (24436)
+  role: context
+  confidence: provisional
+  note: 'Outside witness, not the church''s own voice: a first-century Jewish philosopher-exegete
+    of Alexandria, in Yonge''s English. Context only, never tradition. Clean English OCR.
+
+    '
+  source_file: philo_works-v3_yonge1854.txt
+- row_id: philo_works-v4_yonge1854--philo-works-volume-4-yonge
+  work: Philo of Alexandria, Works (Yonge), volume 4
+  author: philo
+  locus: On a Contemplative Life (file line 809), On the Incorruptibility of the World (1764),
+    Against Flaccus (3759), the embassy to Gaius (5588), the fragments of the lost works (10988),
+    and the Questions and Solutions (14697 onward)
+  role: context
+  confidence: provisional
+  note: 'Outside witness, not the church''s own voice: a first-century Jewish philosopher-exegete
+    of Alexandria, in Yonge''s English. Context only, never tradition. Clean English OCR.
+
+    '
+  source_file: philo_works-v4_yonge1854.txt
 - row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-pierus-of-alexandria
   work: Fragments of Pierus of Alexandria
   author: pierus
