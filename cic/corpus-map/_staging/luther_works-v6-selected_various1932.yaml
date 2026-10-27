@@ -1,0 +1,90 @@
+source_file: luther_works-v6-selected_various1932.txt
+
+assignments:
+  - row_id: luther_works-v6-selected_various1932--ordering-of-divine-worship
+    work: "Concerning the Ordering of Divine Worship in the Congregation (1523)"
+    author: luther
+    locus: "lines ~2121-2785"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: provisional
+    note: >
+      Philadelphia Edition English (translator named in the file's Contents). Locus read from the OCR headings; the boundaries are not verified.
+
+  - row_id: luther_works-v6-selected_various1932--formula-missae
+    work: "Formula Missae et Communionis for the Church at Wittenberg (1523)"
+    author: luther
+    locus: "lines ~2788-5900"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: provisional
+    note: >
+      Philadelphia Edition English (translator named in the file's Contents). Locus read from the OCR headings; the boundaries are not verified.
+
+  - row_id: luther_works-v6-selected_various1932--canon-of-the-mass
+    work: "The Canon of the Mass, from Concerning the Abomination of the Low Mass (1525)"
+    author: luther
+    locus: "lines ~5901-7035"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: provisional
+    note: >
+      Philadelphia Edition English (translator named in the file's Contents). Locus read from the OCR headings; the boundaries are not verified.
+
+  - row_id: luther_works-v6-selected_various1932--preface-for-the-holy-communion
+    work: "A Preface Suggested for Use at the Holy Communion (1525)"
+    author: luther
+    locus: "lines ~7036-7220"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: provisional
+    note: >
+      Philadelphia Edition English (translator named in the file's Contents). Locus read from the OCR headings; the boundaries are not verified.
+
+  - row_id: luther_works-v6-selected_various1932--exhortation-to-the-christians-in-livonia
+    work: "Exhortation to the Christians in Livonia Concerning Public Worship and Unity (1525)"
+    author: luther
+    locus: "lines ~7222-7700"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: provisional
+    note: >
+      Philadelphia Edition English (translator named in the file's Contents). Locus read from the OCR headings; the boundaries are not verified.
+
+  - row_id: luther_works-v6-selected_various1932--german-mass
+    work: "The German Mass and Order of Service (1526)"
+    author: luther
+    locus: "lines ~7704-9650"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: provisional
+    note: >
+      Philadelphia Edition English (translator named in the file's Contents). Locus read from the OCR headings; the boundaries are not verified.
+
+  - row_id: luther_works-v6-selected_various1932--orders-of-baptism
+    work: "The Order of Baptism Translated into German (1523) and Newly Revised (1526)"
+    author: luther
+    locus: "lines ~9656-10600"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: provisional
+    note: >
+      Philadelphia Edition English (translator named in the file's Contents). Locus read from the OCR headings; the boundaries are not verified.
+
+  - row_id: luther_works-v6-selected_various1932--short-method-of-confessing
+    work: "A Short Method of Confessing to the Priest, for the Use of Simple Folk"
+    author: luther
+    locus: "from line ~10603"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: provisional
+    note: >
+      Philadelphia Edition English (translator named in the file's Contents). Locus read from the OCR headings; the boundaries are not verified.

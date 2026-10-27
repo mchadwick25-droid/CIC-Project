@@ -139,6 +139,17 @@ works:
 
     '
   source_file: luther_works-v1-selected_jacobs-spaeth1915.txt
+- row_id: luther_works-v6-selected_various1932--preface-for-the-holy-communion
+  work: A Preface Suggested for Use at the Holy Communion (1525)
+  author: luther
+  locus: lines ~7036-7220
+  role: tradition
+  confidence: provisional
+  note: 'Philadelphia Edition English (translator named in the file''s Contents). Locus read
+    from the OCR headings; the boundaries are not verified.
+
+    '
+  source_file: luther_works-v6-selected_various1932.txt
 - row_id: luther_works-v2-selected_jacobs-spaeth1916--a-prelude-on-the-babylonian-captivity-of-the-church-incl-the
   work: A Prelude on the Babylonian Captivity of the Church (incl. the sections on the sacraments
     of the Bread, Baptism, Penance, and Extreme Unction)
@@ -153,6 +164,28 @@ works:
 
     '
   source_file: luther_works-v2-selected_jacobs-spaeth1916.txt
+- row_id: luther_works-v4-selected_various1931--keeping-children-in-school
+  work: A Sermon on Keeping Children in School (1530)
+  author: luther
+  locus: lines ~6207-8525
+  role: tradition
+  confidence: provisional
+  note: 'Philadelphia Edition English (translator named in the file''s Contents). Locus read
+    from the OCR headings; the boundaries are not verified.
+
+    '
+  source_file: luther_works-v4-selected_various1931.txt
+- row_id: luther_works-v6-selected_various1932--short-method-of-confessing
+  work: A Short Method of Confessing to the Priest, for the Use of Simple Folk
+  author: luther
+  locus: from line ~10603
+  role: tradition
+  confidence: provisional
+  note: 'Philadelphia Edition English (translator named in the file''s Contents). Locus read
+    from the OCR headings; the boundaries are not verified.
+
+    '
+  source_file: luther_works-v6-selected_various1932.txt
 - row_id: luther_works-v2-selected_jacobs-spaeth1916--a-treatise-concerning-the-ban
   work: A Treatise Concerning the Ban
   author: luther
@@ -223,6 +256,28 @@ works:
 
     '
   source_file: luther_works-v1-selected_jacobs-spaeth1915.txt
+- row_id: luther_works-v4-selected_various1931--admonition-to-peace
+  work: 'Admonition to Peace: A Reply to the Twelve Articles of the Peasants in Swabia (1525)'
+  author: luther
+  locus: after the Burning of Friar Henry (~8527), before ~11802
+  role: tradition
+  confidence: provisional
+  note: 'Philadelphia Edition English (translator named in the file''s Contents). Locus read
+    from the OCR headings; the boundaries are not verified.
+
+    '
+  source_file: luther_works-v4-selected_various1931.txt
+- row_id: luther_works-v4-selected_various1931--against-the-robbing-and-murdering-hordes
+  work: Against the Robbing and Murdering Hordes of Peasants (1525)
+  author: luther
+  locus: lines ~11802-12265
+  role: tradition
+  confidence: provisional
+  note: 'Philadelphia Edition English (translator named in the file''s Contents). Locus read
+    from the OCR headings; the boundaries are not verified.
+
+    '
+  source_file: luther_works-v4-selected_various1931.txt
 - row_id: luther_works-v3-selected_various1930--an-argument-in-defense-of-all-the-articles-of-dr-martin
   work: An Argument in Defense of All the Articles of Dr. Martin Luther Wrongly Condemned
     in the Roman Bull
@@ -250,6 +305,39 @@ works:
 
     '
   source_file: luther_works-v3-selected_various1930.txt
+- row_id: luther_works-v4-selected_various1931--exhortation-to-the-clergy-at-augsburg
+  work: An Exhortation to the Clergy Assembled at the Diet at Augsburg (1530)
+  author: luther
+  locus: lines ~15631-18690
+  role: tradition
+  confidence: provisional
+  note: 'Philadelphia Edition English (translator named in the file''s Contents). Locus read
+    from the OCR headings; the boundaries are not verified.
+
+    '
+  source_file: luther_works-v4-selected_various1931.txt
+- row_id: luther_works-v4-selected_various1931--exposition-of-the-eighty-second-psalm
+  work: An Exposition of the Eighty-Second Psalm (1530)
+  author: luther
+  locus: lines ~13622-15630
+  role: tradition
+  confidence: provisional
+  note: 'Philadelphia Edition English (translator named in the file''s Contents). Locus read
+    from the OCR headings; the boundaries are not verified.
+
+    '
+  source_file: luther_works-v4-selected_various1931.txt
+- row_id: luther_works-v4-selected_various1931--open-letter-on-the-hard-book
+  work: An Open Letter Concerning the Hard Book Against the Peasants (1525)
+  author: luther
+  locus: lines ~12267-13620
+  role: tradition
+  confidence: provisional
+  note: 'Philadelphia Edition English (translator named in the file''s Contents). Locus read
+    from the OCR headings; the boundaries are not verified.
+
+    '
+  source_file: luther_works-v4-selected_various1931.txt
 - row_id: luther_works-v2-selected_jacobs-spaeth1916--an-open-letter-to-the-christian-nobility-of-the-german
   work: An Open Letter to the Christian Nobility of the German Nation, Concerning the Reform
     of the Christian Estate
@@ -263,6 +351,17 @@ works:
 
     '
   source_file: luther_works-v2-selected_jacobs-spaeth1916.txt
+- row_id: luther_works-v6-selected_various1932--ordering-of-divine-worship
+  work: Concerning the Ordering of Divine Worship in the Congregation (1523)
+  author: luther
+  locus: lines ~2121-2785
+  role: tradition
+  confidence: provisional
+  note: 'Philadelphia Edition English (translator named in the file''s Contents). Locus read
+    from the OCR headings; the boundaries are not verified.
+
+    '
+  source_file: luther_works-v6-selected_various1932.txt
 - row_id: luther_hymns_bacon-allen--dr-martin-luther-s-deutsche-geistliche-lieder-the-hymns-of
   work: Dr. Martin Luther's Deutsche Geistliche Lieder (The Hymns of Martin Luther)
   author: luther
@@ -280,6 +379,17 @@ works:
 
     '
   source_file: luther_hymns_bacon-allen.txt
+- row_id: luther_works-v6-selected_various1932--exhortation-to-the-christians-in-livonia
+  work: Exhortation to the Christians in Livonia Concerning Public Worship and Unity (1525)
+  author: luther
+  locus: lines ~7222-7700
+  role: tradition
+  confidence: provisional
+  note: 'Philadelphia Edition English (translator named in the file''s Contents). Locus read
+    from the OCR headings; the boundaries are not verified.
+
+    '
+  source_file: luther_works-v6-selected_various1932.txt
 - row_id: luther_first-principles-reformation_wace-buchheim1885--first-principles-of-the-reformation-the-ninety-five-theses
   work: 'First Principles of the Reformation: The Ninety-Five Theses, the Address to the Nobility
     of the German Nation, On Christian Liberty, and On the Babylonish Captivity of the Church'
@@ -303,6 +413,17 @@ works:
 
     '
   source_file: luther_first-principles-reformation_wace-buchheim1885.txt
+- row_id: luther_works-v6-selected_various1932--formula-missae
+  work: Formula Missae et Communionis for the Church at Wittenberg (1523)
+  author: luther
+  locus: lines ~2788-5900
+  role: tradition
+  confidence: provisional
+  note: 'Philadelphia Edition English (translator named in the file''s Contents). Locus read
+    from the OCR headings; the boundaries are not verified.
+
+    '
+  source_file: luther_works-v6-selected_various1932.txt
 - row_id: luther_bondage-of-the-will_cole1823--martin-luther-on-the-bondage-of-the-will
   work: Martin Luther on the Bondage of the Will
   author: luther
@@ -319,6 +440,28 @@ works:
 
     '
   source_file: luther_bondage-of-the-will_cole1823.txt
+- row_id: luther_works-v4-selected_various1931--on-trading-and-usury
+  work: On Trading and Usury (1524) and the Treatise on Usury (1519-20)
+  author: luther
+  locus: lines ~174-3600
+  role: tradition
+  confidence: provisional
+  note: 'Philadelphia Edition English (translator named in the file''s Contents). Locus read
+    from the OCR headings; the boundaries are not verified.
+
+    '
+  source_file: luther_works-v4-selected_various1931.txt
+- row_id: luther_works-v4-selected_various1931--preface-to-an-ordinance-of-a-common-chest
+  work: Preface to an Ordinance of a Common Chest (1523)
+  author: luther
+  locus: lines ~4268-4730
+  role: tradition
+  confidence: provisional
+  note: 'Philadelphia Edition English (translator named in the file''s Contents). Locus read
+    from the OCR headings; the boundaries are not verified.
+
+    '
+  source_file: luther_works-v4-selected_various1931.txt
 - row_id: luther_works-v3-selected_various1930--reply-to-the-answer-of-the-leipzig-goat-answer-to-the
   work: Reply to the Answer of the Leipzig Goat (Answer to the Superchristian, Superspiritual,
     and Superlearned Book of Goat Emser)
@@ -396,6 +539,28 @@ works:
 
     '
   source_file: luther_works-v2-selected_jacobs-spaeth1916.txt
+- row_id: luther_works-v4-selected_various1931--burning-of-friar-henry
+  work: The Burning of Friar Henry (1525)
+  author: luther
+  locus: lines ~8527-8700
+  role: tradition
+  confidence: provisional
+  note: 'Philadelphia Edition English (translator named in the file''s Contents). Locus read
+    from the OCR headings; the boundaries are not verified.
+
+    '
+  source_file: luther_works-v4-selected_various1931.txt
+- row_id: luther_works-v6-selected_various1932--canon-of-the-mass
+  work: The Canon of the Mass, from Concerning the Abomination of the Low Mass (1525)
+  author: luther
+  locus: lines ~5901-7035
+  role: tradition
+  confidence: provisional
+  note: 'Philadelphia Edition English (translator named in the file''s Contents). Locus read
+    from the OCR headings; the boundaries are not verified.
+
+    '
+  source_file: luther_works-v6-selected_various1932.txt
 - row_id: luther_works-v2-selected_jacobs-spaeth1916--the-eight-wittenberg-sermons
   work: The Eight Wittenberg Sermons
   author: luther
@@ -422,6 +587,17 @@ works:
 
     '
   source_file: luther_works-v1-selected_jacobs-spaeth1915.txt
+- row_id: luther_works-v6-selected_various1932--german-mass
+  work: The German Mass and Order of Service (1526)
+  author: luther
+  locus: lines ~7704-9650
+  role: tradition
+  confidence: provisional
+  note: 'Philadelphia Edition English (translator named in the file''s Contents). Locus read
+    from the OCR headings; the boundaries are not verified.
+
+    '
+  source_file: luther_works-v6-selected_various1932.txt
 - row_id: luther_large-catechism_bente-dau1921--the-large-catechism-of-martin-luther
   work: The Large Catechism of Martin Luther
   author: luther
@@ -470,6 +646,29 @@ works:
 
     '
   source_file: luther_works-v1-selected_jacobs-spaeth1915.txt
+- row_id: luther_works-v6-selected_various1932--orders-of-baptism
+  work: The Order of Baptism Translated into German (1523) and Newly Revised (1526)
+  author: luther
+  locus: lines ~9656-10600
+  role: tradition
+  confidence: provisional
+  note: 'Philadelphia Edition English (translator named in the file''s Contents). Locus read
+    from the OCR headings; the boundaries are not verified.
+
+    '
+  source_file: luther_works-v6-selected_various1932.txt
+- row_id: luther_works-v4-selected_various1931--right-and-power-of-a-christian-congregation
+  work: The Right and Power of a Christian Congregation to Judge All Teaching and to Call
+    and Dismiss Teachers (1523)
+  author: luther
+  locus: lines ~3603-4265
+  role: tradition
+  confidence: provisional
+  note: 'Philadelphia Edition English (translator named in the file''s Contents). Locus read
+    from the OCR headings; the boundaries are not verified.
+
+    '
+  source_file: luther_works-v4-selected_various1931.txt
 - row_id: luther_small-catechism_smith1994--the-small-catechism-of-martin-luther
   work: The Small Catechism of Martin Luther
   author: luther
@@ -484,6 +683,18 @@ works:
 
     '
   source_file: luther_small-catechism_smith1994.txt
+- row_id: luther_works-v4-selected_various1931--christian-schools
+  work: To the Councilmen of All Cities in Germany That They Establish and Maintain Christian
+    Schools (1524)
+  author: luther
+  locus: lines ~4734-6200
+  role: tradition
+  confidence: provisional
+  note: 'Philadelphia Edition English (translator named in the file''s Contents). Locus read
+    from the OCR headings; the boundaries are not verified.
+
+    '
+  source_file: luther_works-v4-selected_various1931.txt
 - row_id: luther_works-v3-selected_various1930--to-the-knights-of-the-teutonic-order
   work: To the Knights of the Teutonic Order
   author: luther

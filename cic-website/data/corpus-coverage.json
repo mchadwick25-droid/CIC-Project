@@ -18509,11 +18509,35 @@
           "rights": "Public Domain"
         },
         {
+          "work": "A Preface Suggested for Use at the Holy Communion (1525)",
+          "author": "luther",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "luther_works-v6-selected_various1932.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "A Prelude on the Babylonian Captivity of the Church (incl. the sections on the sacraments of the Bread, Baptism, Penance, and Extreme Unction)",
           "author": "luther",
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "luther_works-v2-selected_jacobs-spaeth1916.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "A Sermon on Keeping Children in School (1530)",
+          "author": "luther",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "luther_works-v4-selected_various1931.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "A Short Method of Confessing to the Priest, for the Use of Simple Folk",
+          "author": "luther",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "luther_works-v6-selected_various1932.txt",
           "rights": "Public Domain"
         },
         {
@@ -18565,6 +18589,22 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Admonition to Peace: A Reply to the Twelve Articles of the Peasants in Swabia (1525)",
+          "author": "luther",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "luther_works-v4-selected_various1931.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Against the Robbing and Murdering Hordes of Peasants (1525)",
+          "author": "luther",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "luther_works-v4-selected_various1931.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "An Argument in Defense of All the Articles of Dr. Martin Luther Wrongly Condemned in the Roman Bull",
           "author": "luther",
           "role": "tradition",
@@ -18581,11 +18621,43 @@
           "rights": "Public Domain (1930 publication, more than 95 years"
         },
         {
+          "work": "An Exhortation to the Clergy Assembled at the Diet at Augsburg (1530)",
+          "author": "luther",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "luther_works-v4-selected_various1931.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "An Exposition of the Eighty-Second Psalm (1530)",
+          "author": "luther",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "luther_works-v4-selected_various1931.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "An Open Letter Concerning the Hard Book Against the Peasants (1525)",
+          "author": "luther",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "luther_works-v4-selected_various1931.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "An Open Letter to the Christian Nobility of the German Nation, Concerning the Reform of the Christian Estate",
           "author": "luther",
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "luther_works-v2-selected_jacobs-spaeth1916.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Concerning the Ordering of Divine Worship in the Congregation (1523)",
+          "author": "luther",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "luther_works-v6-selected_various1932.txt",
           "rights": "Public Domain"
         },
         {
@@ -18597,11 +18669,27 @@
           "rights": "Public Domain (per Project Gutenberg's own hosting -"
         },
         {
+          "work": "Exhortation to the Christians in Livonia Concerning Public Worship and Unity (1525)",
+          "author": "luther",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "luther_works-v6-selected_various1932.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "First Principles of the Reformation: The Ninety-Five Theses, the Address to the Nobility of the German Nation, On Christian Liberty, and On the Babylonish Captivity of the Church",
           "author": "luther",
           "role": "tradition",
           "confidence": "provisional",
           "source_file": "luther_first-principles-reformation_wace-buchheim1885.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Formula Missae et Communionis for the Church at Wittenberg (1523)",
+          "author": "luther",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "luther_works-v6-selected_various1932.txt",
           "rights": "Public Domain"
         },
         {
@@ -18611,6 +18699,22 @@
           "confidence": "provisional",
           "source_file": "luther_bondage-of-the-will_cole1823.txt",
           "rights": "Public Domain (1823 publication, more than 95 years"
+        },
+        {
+          "work": "On Trading and Usury (1524) and the Treatise on Usury (1519-20)",
+          "author": "luther",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "luther_works-v4-selected_various1931.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "Preface to an Ordinance of a Common Chest (1523)",
+          "author": "luther",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "luther_works-v4-selected_various1931.txt",
+          "rights": "Public Domain"
         },
         {
           "work": "Reply to the Answer of the Leipzig Goat (Answer to the Superchristian, Superspiritual, and Superlearned Book of Goat Emser)",
@@ -18653,6 +18757,22 @@
           "rights": "Public Domain"
         },
         {
+          "work": "The Burning of Friar Henry (1525)",
+          "author": "luther",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "luther_works-v4-selected_various1931.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Canon of the Mass, from Concerning the Abomination of the Low Mass (1525)",
+          "author": "luther",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "luther_works-v6-selected_various1932.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "The Eight Wittenberg Sermons",
           "author": "luther",
           "role": "tradition",
@@ -18666,6 +18786,14 @@
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "luther_works-v1-selected_jacobs-spaeth1915.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The German Mass and Order of Service (1526)",
+          "author": "luther",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "luther_works-v6-selected_various1932.txt",
           "rights": "Public Domain"
         },
         {
@@ -18693,12 +18821,36 @@
           "rights": "Public Domain"
         },
         {
+          "work": "The Order of Baptism Translated into German (1523) and Newly Revised (1526)",
+          "author": "luther",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "luther_works-v6-selected_various1932.txt",
+          "rights": "Public Domain"
+        },
+        {
+          "work": "The Right and Power of a Christian Congregation to Judge All Teaching and to Call and Dismiss Teachers (1523)",
+          "author": "luther",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "luther_works-v4-selected_various1931.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "The Small Catechism of Martin Luther",
           "author": "luther",
           "role": "tradition",
           "confidence": "assigned",
           "source_file": "luther_small-catechism_smith1994.txt",
           "rights": "Public Domain (per Project Gutenberg's own hosting -"
+        },
+        {
+          "work": "To the Councilmen of All Cities in Germany That They Establish and Maintain Christian Schools (1524)",
+          "author": "luther",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "luther_works-v4-selected_various1931.txt",
+          "rights": "Public Domain"
         },
         {
           "work": "To the Knights of the Teutonic Order",
