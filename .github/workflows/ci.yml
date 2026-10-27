@@ -376,12 +376,7 @@ jobs:
       - run: python cic/engine/tests_corpus_index.py
       - run: python cic/engine/tests_corpus_structure.py
       - run: python cic/engine/tests_passage_index.py
-      # tests_corpus_map.py fails four checks on the current corpus map. The
-      # step is visible but does not block until the map is repaired; the
-      # entry dated 2026-09-29 in Build/Ministry/Operations/Standing/
-      # CiC_System_Health_Tracking.md owns the defect.
       - run: python cic/engine/tests_corpus_map.py
-        continue-on-error: true
 
   # Merged 2026-09-23 (see the top-of-file comment): eleven jobs that all
   # shared the identical `engine == 'true'` gate, folded into one

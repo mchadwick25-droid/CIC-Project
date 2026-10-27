@@ -198,6 +198,17 @@ def test_admin_cookie_also_opens_the_queue(http):
     assert resp.status_code == 200
 
 
+def test_closing_with_the_admin_cookie_must_come_from_our_own_page(http):
+    from engine.api import admin_auth
+    item = http.post("/api/feedback", json={"page": "p", "text": "t"}).json()["id"]
+    http.cookies.set(admin_auth.SESSION_COOKIE_NAME, admin_auth.issue_session_token("t" * 40))
+    path = f"/api/admin/feedback/{item}/close"
+    body = {"outcome": "no_action"}
+    assert http.post(path, json=body).status_code == 400
+    assert http.post(path, json=body, headers={"x-cic-accounts": "1", "Origin": "https://elsewhere.example"}).status_code == 403
+    assert http.post(path, json=body, headers={"x-cic-accounts": "1", "Origin": "http://testserver"}).status_code == 200
+
+
 def test_without_a_feedback_store_every_route_is_404(store, usage_store, world_loader, registry):
     http = _http(store, usage_store, world_loader, registry, None)
     sid, auth, turn = _conversation(http)

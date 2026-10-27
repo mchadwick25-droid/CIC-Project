@@ -645,6 +645,16 @@ works:
     the contents list and five-point sampling, without reading the 1564 section through. No
     public-domain English translation found.'
   source_file: reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886.txt
+- row_id: roman-breviary_bute1908--martyrology-oct-24-27-nagran-elesbaan--voice
+  work: Roman Martyrology, 24 October (Aretas and the martyrs of Nagran) and 27 October (King
+    Elesbaan of Ethiopia)
+  author: roman-breviary
+  locus: raw lines ~82260 and ~83705-83732
+  role: tradition
+  confidence: provisional
+  note: The Roman Martyrology notices for 24 and 27 October. Placed beside the Roman Breviary
+    from the same file.
+  source_file: roman-breviary_bute1908.txt
 - row_id: roman-breviary_bute1908--the-roman-breviary-reformed-by-order-of-the-council-of-trent
   work: The Roman Breviary (reformed by order of the Council of Trent; published by Pius V;
     revised by Clement VIII, Urban VIII, and Leo XIII)

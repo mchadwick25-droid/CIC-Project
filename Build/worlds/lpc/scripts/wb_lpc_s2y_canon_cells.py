@@ -761,6 +761,8 @@ ASSIGN: dict[str, list[tuple[str, list[str]]]] = {
         ("lpc.quote.no-repentance-is-too-late", ["F6-T"]),
         ("lpc.quote.who-that-has-any-human-feeling-would-refuse-to-forgive-them", ["F6-T"]),
         ("lpc.quote.no-place-for-a-healing-penitence", ["F6-T"]),
+        ("lpc.quote.before-even-a-deacon", ["F4-I"]),
+        ("lpc.quote.penitents-in-peril-of-sickness-should-be-assisted", ["F4-I"]),
     ],
     "contested_claim": [
         ("lpc.contested.compel-coercion-development", ["F3-P"]),  # retagged in rework, was F6-P

@@ -102,6 +102,18 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- row_id: facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865--dionysius-exiguus
+  work: Dionysius Exiguus, translations from the Greek, canon collections and paschal writings,
+    Latin
+  author: dionysius-exiguus
+  locus: from raw line ~317, before Facundus at ~41800
+  role: tradition
+  confidence: provisional
+  note: 'A Scythian monk working in Rome who carried Greek church texts into Latin; placed
+    on period and subject, not on a full reading. He wrote in Rome, not in the East.
+
+    '
+  source_file: facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt
 - row_id: evagrius-scholasticus_historia-ecclesiastica-grc_bidez-parmentier1898--evagrius-grc-justinianic
   work: The Ecclesiastical History of Evagrius (431-594), Greek text with scholia (Bidez and
     Parmentier, 1898)

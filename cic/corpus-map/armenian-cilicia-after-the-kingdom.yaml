@@ -70,6 +70,17 @@ works:
     Read the preface and sampled books. The rights rest on the translator''s own declaration;
     see the registry note.'
   source_file: hetum_history-of-the-tartars-flower-of-histories-of-the-east_bedrosian2004.txt
+- row_id: john-ephesus_lives-eastern-saints-po18_brooks1924--armenian-synaxarion-shushanik--voice
+  work: Le Synaxaire arménien de Ter Israel (Basset), the notice of St Shushanik, daughter
+    of Vardan, martyred by her husband Vazgen governor of Georgia (bound in this PO volume)
+  author: john-ephesus
+  locus: the Synaxaire arménien section (raw file lines ~5964-5966 for Shushanik)
+  role: tradition
+  confidence: provisional
+  note: The medieval Armenian Synaxarion of Ter Israel. The vendored edition does not date
+    the compilation, so this placement rests on the standard dating from outside the file
+    and stays provisional until checked against a dated source.
+  source_file: john-ephesus_lives-eastern-saints-po18_brooks1924.txt
 - row_id: langlois_documents-lusignans-petite-armenie-1342-1394-fra_langlois1859--documents-pour-servir-a-l-histoire-des-lusignans-de-la
   work: Documents pour servir à l'histoire des Lusignans de la Petite Arménie, 1342-1394 (Langlois
     1859)

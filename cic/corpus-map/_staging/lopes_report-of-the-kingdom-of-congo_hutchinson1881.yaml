@@ -10,7 +10,7 @@ authors_ruled:
 assignments:
 - row_id: lopes_report-of-the-kingdom-of-congo_hutchinson1881--a-report-of-the-kingdom-of-congo-1591-english-of-1881
   work: A Report of the Kingdom of Congo (1591), English of 1881
-  author: lopes
+  author: pigafetta
   locus: Books one and two; the chapters on the kings and the coming of Christianity
   atlas_ids:
   - the-antonian-movement-in-kongo
@@ -22,7 +22,7 @@ assignments:
     '
 - row_id: lopes_report-of-the-kingdom-of-congo_hutchinson1881--a-report-of-the-kingdom-of-congo-1591-english-of-1881-2
   work: A Report of the Kingdom of Congo (1591), English of 1881
-  author: lopes
+  author: pigafetta
   locus: Books one and two
   atlas_ids:
   - kongo-christianity-afonso-to-1650

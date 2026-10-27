@@ -15,7 +15,7 @@ assignments:
       voice; the OCR is noisier than the 1622 tract, so quote only after checking the page
       image.
   - row_id: teellinck_pauls-complaint-against-his-naturall-corruption_1621--pauls-complaint-against-his-naturall-corruption-2
-    work: "Pauls Complaint against his Naturall Corruption (1621 English translation)"
+    work: Pauls Complaint against his Naturall Corruption (two sermons on Romans 7:24, 1621 English translation)
     author: teellinck
     locus: "whole file"
     atlas_ids:

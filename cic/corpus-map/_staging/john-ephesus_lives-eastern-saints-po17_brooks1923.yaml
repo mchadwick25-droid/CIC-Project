@@ -41,6 +41,16 @@ assignments:
       Not John of Ephesus's work: PO 17 binds Basset's Coptic-Arabic Synaxarion (a 13th-century compilation, French translation) after the Lives. Transmission of the Egyptian
       church's memory of its 5th-7th-century patriarchs; the author slug is the file's,
       recorded plainly. Era III Library pass, October 2026.
+
+  - row_id: john-ephesus_lives-eastern-saints-po17_brooks1923--synaxaire-arabe-jacobite-v-basset--voice
+    work: 'Le Synaxaire arabe jacobite, V (months Baounah to Mesore), ed. and tr. R. Basset (bound in this PO volume): the Coptic church''s calendar notices of Dioscorus, Timothy, Theodosius, Benjamin and the murder of Proterius'
+    author: john-ephesus
+    locus: the Synaxaire arabe section (raw file lines ~49000-64550)
+    atlas_ids:
+    - coptic-christianity-fatimid-to-mamluk
+    role: tradition
+    confidence: provisional
+    note: The Coptic-Arabic Synaxarion, a 13th-century compilation, in a French translation. Placed on its date.
   - row_id: john-ephesus_lives-eastern-saints-po17_brooks1923--documents-relatifs-au-concile-de-florence-documents-vi-xxiv
     work: 'Documents relatifs au concile de Florence, Documents VI-XXIV: Oeuvres anticonciliaires de Marc
       d''Ephese (Greek texts edited and translated into French by Louis Petit)'

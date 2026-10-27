@@ -2080,3 +2080,27 @@ Still open:
 - The worklist row for this item stays Facilitator-adjacent and held until Mark releases it.
 
 Status: OPEN, for this world's thread.
+
+### OG-51. Honest limit written for the fate of those who end their own lives, 2026-10-27.
+
+Closes the open item in OG-50. New `don.limit.fate-of-those-who-end-their-own-lives` (honest_limit, F6-T, ready, `use_note.status` provisional): the texts held here carry no Donatist teaching on the fate of a person who dies by suicide; the nearest Donatist-voiced line (Petilian, quoted in Answer to Petilian II.17, npnf104 line 15887) is a taunt about a traitor, not a teaching; the opponents' charges concern who may be called a martyr; no verdict on any person's death. It carries no Facilitator or crisis wording. Searched: the Monumenta Vetera Donatistarum file by Latin and English terms and Optatus III.4; not every volume. Still open: an independent recheck of this record and of `don.contested.augustine-precipice-charge` before either moves to reviewed.
+
+Status: OPEN for the independent recheck.
+
+### OG-52. Contra Gaudentium not yet read for the suicide honest limit, 2026-10-27.
+
+The independent Opus review of `don.limit.fate-of-those-who-end-their-own-lives` found that the earlier absence claim ("no Donatist text we have speaks to it") was too wide. Augustine's Contra Gaudentium (c. 420) is vendored in `cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt` (work begins line 73262). It quotes the letters of Gaudentius, Donatist bishop of Thamugadi, who threatened to burn himself in his church (I.1, lines 73276-73278); Augustine answers the appeal to Razias at I.31.36 (line 75702). The record is narrowed: the statement now says some writings were not read, and `why_sources_cannot_answer` names the work. Still open: read Contra Gaudentium on chosen death under coercion and decide whether it changes the record. Gaudentius's own words are not to be voiced in a record that can fire on a suicide question. The earlier Decision-Log finding that Petilian II.17 is the only Donatist-voiced line near the subject is withdrawn.
+
+Status: OPEN.
+
+### OG-53. Third review applied to the fate-of-those-who-end-their-own-lives limit, 2026-10-27.
+
+The spoken statement no longer quotes Petilian's line about Judas (it named a method and set a traitor beside a suicide question); it keeps the martyrs-quarrel framing and cites Optatus III.4. The account of the Monumenta file now says it holds the Passio Marculi and the Passio of Isaac and Maximian, Donatist martyr texts that place their martyrs in heaven, and that the Passio Marculi has Marculus thrown from the cliff by his executioner. Petilian's locus is Answer to Petilian II.8.17. Awaiting a fourth read (Mark's cap ruling) before `use_note.status` can move to reviewed; Contra Gaudentium is still unread (see OG-52).
+
+Status: OPEN for the fourth read.
+
+### OG-54. The always-in-context don prompt carries method-of-death words on suicide questions, 2026-10-27.
+
+Found by the fifth read and a repeatable scan (`Build/Ministry/Features/Question-Coverage/Tools/safe_surface_scan.py --prompt <compiled prompt>`). The compiled don prompt has 17 hits. Most are Marculus "thrown from a cliff" in the Passio story and the Marculus-centred records (an execution, historically central). One is in `don.dw.not-a-death-wish`: "country members are said to have sought death, provoked it, thrown themselves at it", the Circumcellion charge in the world's own voice. The text sits in context on every turn, so a suicide question meets it whatever retrieval returns. Decision for this world: whether `don.dw.not-a-death-wish` and the Marculus story need a read for suicide-question exposure, and whether any line should move behind retrieval. Not edited.
+
+Status: OPEN.

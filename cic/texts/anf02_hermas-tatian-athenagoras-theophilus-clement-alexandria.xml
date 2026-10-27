@@ -5,52 +5,52 @@
 <?xml-stylesheet type="text/xsl"
     href="http://www.ccel.org/ss/thml.html.xsl" ?>
 -->
-<!-- Copyright Christian Classics Ethereal Library -->
+<!-- CCEL-authored header block removed; text, notes and scripture tags unchanged -->
 <ThML>
 <ThML.head>
 
-<generalInfo>
- <description>Originally printed in 1885, the ten-volume 
-set, <i>Ante-Nicene Fathers</i>, brings together the work of 
-early Christian thinkers. In particular, it brings 
-together the writings of the early Church fathers prior to the fourth 
-century Nicene Creed. These volumes are noteworthy for their inclusion 
-of entire texts, and not simply fragments or excerpts from these great 
-writings. The translations are fairly literal, providing both readers 
-and scholars with a good approximation of the originals. This particular 
-volume contains works by the pastor of Hermas, Tatian, St. Theophilus, 
-Athenagoras, and St. Clement of Alexandria. These writings were heavily 
-influential on the early Church, and for good reason, as they are 
-inspirational and encouraging. These volumes also come with many useful 
-notes, providing the reader with new levels of understanding. Overall, 
-<i>Ante-Nicene Fathers</i>, or any part of it, is a welcome addition to 
-one's 
-reading list.<br /><br />Tim Perrine<br />CCEL Staff Writer </description>
- <pubHistory />
- <comments />
-</generalInfo>
 
 
-<printSourceInfo>
- <published />
-</printSourceInfo>
 
-<electronicEdInfo>
- <publisherID>ccel</publisherID>
- <authorID>schaff</authorID>
- <bookID>anf02</bookID>
- <workID>anf02</workID>
- <versionID>anf02</versionID>
- <bkgID>schaff-anf02</bkgID>
- <version>1.0</version>
- <editorialComments />
- <revisionHistory />
- <status>Extended Latin sections (pp. 260-262, 381-402 of print edition) 
- have not been proofed. (Anyone want to provide a translation?)</status>
 
- <DC>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  <DC.Title>ANF02. Fathers of the Second Century: Hermas, Tatian, Athenagoras, Theophilus, and Clement of Alexandria (Entire)</DC.Title>
- <DC.Title sub="short">Fathers of the Second Century</DC.Title>
+
  <DC.Creator scheme="short-form" sub="Editor">Philip Schaff</DC.Creator>
  <DC.Creator scheme="file-as" sub="Editor">Schaff, Philip (1819-1893)</DC.Creator>
  <DC.Creator scheme="ccel" sub="Editor">schaff</DC.Creator>
@@ -58,102 +58,102 @@ reading list.<br /><br />Tim Perrine<br />CCEL Staff Writer </description>
    <DC.Creator scheme="ccel" sub="Author">theophilus</DC.Creator>
    <DC.Creator scheme="ccel" sub="Author">athenagoras</DC.Creator>
    <DC.Creator scheme="ccel" sub="Author">clement_alex</DC.Creator>
- 
-   <DC.Publisher>Grand Rapids, MI: Christian Classics Ethereal Library</DC.Publisher>
-   <DC.Relation scheme="containedIn" sub="2">/ccel/schaff/anf-series</DC.Relation>
- <DC.Subject scheme="LCCN">BR60.A62</DC.Subject>
- <DC.Subject scheme="lcsh1">Christianity</DC.Subject>
-    <DC.Subject scheme="lcsh2">Early Christian Literature. Fathers of the Church, etc.</DC.Subject>
-    <DC.Subject scheme="ccel">All; Early Church; Proofed</DC.Subject>
- <DC.Contributor sub="Digitizer" />
- <DC.Date sub="Created">2004-02-03</DC.Date>
- <DC.Type>Text.Monograph</DC.Type>
- <DC.Format scheme="IMT">text/html</DC.Format>
- <DC.Identifier scheme="URL">/ccel/schaff/anf02.html</DC.Identifier>
- <DC.Identifier scheme="ISBN" />
- <DC.Source />
- <DC.Source scheme="URL" />
- <DC.Language scheme="ISO639-3">eng</DC.Language>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  <DC.Rights>Public Domain</DC.Rights>
- </DC>
-
-</electronicEdInfo>
 
 
 
 
-<style type="text/css">
-h1	{ text-align:center; text-transform:uppercase }
-h2	{ text-align:center; text-transform:uppercase }
-h3	{ text-align:center; font-variant:small-caps }
-h4	{ text-align:center; text-transform:uppercase; margin-top:12pt }
-h5	{ text-align:center; text-transform:uppercase; margin-bottom:6pt }
-h6	{ font-style:italic; text-align:center; margin-bottom:6pt }
-.sub1	{ text-transform:uppercase; font-size:x-small; text-indent:0in; text-align:center; margin-top:9pt; margin-bottom:9pt }
-.headcap	{ text-transform:uppercase; font-size:medium; letter-spacing:1pt; margin-bottom:6pt; margin-top:6pt }
-.sc	{ font-variant:small-caps }
-.continue	{ text-indent:0in; margin-top:6pt }
-.skip	{ margin-top:6pt }
-.note	{ text-indent:0in }
-</style>
 
-<style type="text/xcss">
-<selector element="h1">
-  <property name="text-align" value="center" />
-  <property name="text-transform" value="uppercase" />
-</selector>
-<selector element="h2">
-  <property name="text-align" value="center" />
-  <property name="text-transform" value="uppercase" />
-</selector>
-<selector element="h3">
-  <property name="text-align" value="center" />
-  <property name="font-variant" value="small-caps" />
-</selector>
-<selector element="h4">
-  <property name="text-align" value="center" />
-  <property name="text-transform" value="uppercase" />
-  <property name="margin-top" value="12pt" />
-</selector>
-<selector element="h5">
-  <property name="text-align" value="center" />
-  <property name="text-transform" value="uppercase" />
-  <property name="margin-bottom" value="6pt" />
-</selector>
-<selector element="h6">
-  <property name="font-style" value="italic" />
-  <property name="text-align" value="center" />
-  <property name="margin-bottom" value="6pt" />
-</selector>
-<selector class="sub1">
-  <property name="text-transform" value="uppercase" />
-  <property name="font-size" value="x-small" />
-  <property name="text-indent" value="0in" />
-  <property name="text-align" value="center" />
-  <property name="margin-top" value="9pt" />
-  <property name="margin-bottom" value="9pt" />
-</selector>
-<selector class="headcap">
-  <property name="text-transform" value="uppercase" />
-  <property name="font-size" value="medium" />
-  <property name="letter-spacing" value="1pt" />
-  <property name="margin-bottom" value="6pt" />
-  <property name="margin-top" value="6pt" />
-</selector>
-<selector class="sc">
-  <property name="font-variant" value="small-caps" />
-</selector>
-<selector class="continue">
-  <property name="text-indent" value="0in" />
-  <property name="margin-top" value="6pt" />
-</selector>
-<selector class="skip">
-  <property name="margin-top" value="6pt" />
-</selector>
-<selector class="note">
-  <property name="text-indent" value="0in" />
-</selector>
-</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </ThML.head>

@@ -15,8 +15,9 @@ results = []
 results.append(check("the seeded map validates clean", corpus_map.validate() == []))
 
 ids = corpus_map.census_ids()
+_real = {a: d for a, d in corpus_map.load().items() if not d.get("fixture")}
 results.append(check("every map filename is a census movement id",
-                     all(a in ids for a in corpus_map.load())))
+                     all(a in ids for a in _real)))
 
 # Non-exclusivity is the load-bearing property: the same work in several Atlas
 # entries must NOT be a finding. An exclusive partition would strip desert of
@@ -43,7 +44,7 @@ results.append(check("staging loads with no findings", merge_findings == []))
 # hand-edited a generated file and the next merge would silently discard it.
 buckets, _ = corpus_map_merge.merge(write=False)
 results.append(check("every bucket on disk is reproducible from staging",
-                     set(corpus_map.load()) == set(buckets)))
+                     set(_real) == set(buckets)))
 
 # Non-exclusivity again, this time through the merge: every atlas_id a row
 # names must actually receive that row.
@@ -108,11 +109,39 @@ results.append(check("no work is both transmission and tradition in the same ent
 # `tradition`.
 homed = {x.get("work") for ws in buckets3.values() for x in ws
          if x.get("role") in ("tradition", "context")}
+# Transmitted works whose voice belongs to a window no Atlas entry covers yet.
+# A work leaves this list when its voice is placed; the second check below
+# fails on any entry that is no longer an orphan.
+ACCEPTED_ORPHANS = {
+    "Annales Cambriae (to 954), Latin":
+        "No Atlas entry covers Wales between 768 and 1735.",
+    "Chronique de Seert (Histoire nestorienne), II.2, with French":
+        "No East Syriac entry fits the date of this compilation.",
+    "Georgian chronicles, history to the 6th century including Vakhtang Gorgasali (French)":
+        "No Georgian entry covers the period after c. 1000.",
+    "Historia Brittonum (attrib. Nennius), English":
+        "No Atlas entry covers Wales between 768 and 1735.",
+    "Lives of Irish saints from the Book of Lismore (Patrick, Colum Cille, Brigit, Senan, Findian, Brenainn, Mochua), Irish with English":
+        "No Atlas entry covers late-medieval Ireland.",
+    "Lives of the Cambro-British saints (David, Cadoc, Illtud and others), Latin and Welsh with English":
+        "No Atlas entry covers Wales between 768 and 1735.",
+    "Rituale Armenorum and the Old Armenian Lectionary (Appendix II, English)":
+        "The manuscripts are later than the window, and no Armenian entry fits their date.",
+    "The other Sahidic texts of the volume (apocryphal discourses and legends)":
+        "Anonymous and undated; no entry fits.",
+    "The other Sahidic texts of the volume, including a Discourse attributed to Timothy of Alexandria":
+        "Anonymous and undated; no entry fits.",
+}
 orphan = sorted({w.get("work") for _, w in trans if w.get("work") not in homed})
-results.append(check("every transmitted work has its voice assigned somewhere else", not orphan))
-if orphan:
-    for o in orphan:
-        print(f"       orphan: {o}")
+unlisted = [o for o in orphan if o not in ACCEPTED_ORPHANS]
+results.append(check("every transmitted work has its voice assigned somewhere else, or is a listed exception",
+                     not unlisted))
+for o in unlisted:
+    print(f"       orphan: {o}")
+stale = sorted(w for w in ACCEPTED_ORPHANS if w not in orphan)
+results.append(check("every listed exception is still an orphan", not stale))
+for w in stale:
+    print(f"       no longer an orphan: {w}")
 
 
 # --- row_id (CM-1) ---

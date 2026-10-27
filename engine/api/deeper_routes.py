@@ -28,6 +28,7 @@ from fastapi import FastAPI, Header, HTTPException, Request, Response
 from pydantic import BaseModel, Field
 from starlette.concurrency import run_in_threadpool
 
+from engine.api.admin_guard import guard_admin_change
 from engine.api.deeper_ops import DeeperOps, load_ops
 from engine.deeper import codes
 from engine.deeper.claims import ClaimStore, valid_reference
@@ -541,6 +542,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
     @app.post("/api/admin/deeper/pause")
     def pause(req: PauseRequest, request: Request, authorization: str | None = Header(default=None)):
         authenticate_admin(request, authorization)
+        guard_admin_change(request, authorization)
         runtime.meter.pause(req.on)
         return {"paused": runtime.meter.is_paused()}
 
@@ -550,6 +552,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         back in this response only; the meter keeps their hashes and nothing
         else, so a lost response is voided by its mint id, never recovered."""
         authenticate_admin(request, authorization)
+        guard_admin_change(request, authorization)
         if runtime.ops is None:
             raise HTTPException(status_code=404)
         if req.mode not in MINT_MODES:
@@ -582,6 +585,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
         it carries: every message still has its safety check and the Facilitator
         first."""
         authenticate_admin(request, authorization)
+        guard_admin_change(request, authorization)
         ops = runtime.ops
         if ops is None:
             raise HTTPException(status_code=404)
@@ -644,6 +648,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
     @app.post("/api/admin/deeper/void")
     def void_payment(req: VoidRequest, request: Request, authorization: str | None = Header(default=None)):
         authenticate_admin(request, authorization)
+        guard_admin_change(request, authorization)
         if not runtime.meter.payment_minted(req.payment_id):
             raise HTTPException(status_code=404, detail="no codes were made for that payment; nothing was changed")
         return {"payment_id": req.payment_id, "voided": apply_refund(runtime, req.payment_id)}
@@ -651,6 +656,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
     @app.post("/api/admin/deeper/funds")
     def add_funds(req: FundsRequest, request: Request, authorization: str | None = Header(default=None)):
         authenticate_admin(request, authorization)
+        guard_admin_change(request, authorization)
         try:
             entry = runtime.meter.add_funds("adjustment", req.cents, note=req.note)
         except ValueError as exc:
@@ -660,6 +666,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
     @app.post("/api/admin/deeper/funds/{entry_id}/reverse")
     def reverse_funds(entry_id: str, request: Request, authorization: str | None = Header(default=None)):
         authenticate_admin(request, authorization)
+        guard_admin_change(request, authorization)
         if not runtime.meter.reverse_funds(entry_id):
             raise HTTPException(status_code=404, detail="no such entry, or already reversed")
         return {"reversed": entry_id}
@@ -687,6 +694,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, *, authenticate_admin: Callabl
     @app.post("/api/admin/deeper/unmatched/dismiss")
     def dismiss_unmatched(req: DismissUnmatchedRequest, request: Request, authorization: str | None = Header(default=None)):
         authenticate_admin(request, authorization)
+        guard_admin_change(request, authorization)
         if not runtime.meter.dismiss_unmatched(req.payment_id):
             raise HTTPException(status_code=404, detail="no such open payment")
         return {"dismissed": req.payment_id}

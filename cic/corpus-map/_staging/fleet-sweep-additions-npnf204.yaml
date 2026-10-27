@@ -22,3 +22,13 @@ assignments:
     not an expulsion, and a better account of how they thinned.
 
     '
+
+- row_id: fleet-sweep-additions-npnf204--festal-letter-xxxix-367-the-canon-list-and-the-books--voice
+  work: Festal Letter XXXIX (367) - the canon list and the books appointed to be read
+  author: athanasius
+  locus: Letter XXXIX at file line 68714; the canon list at section 5, the second class of books at section 7
+  atlas_ids:
+  - desert-monasticism
+  role: tradition
+  confidence: assigned
+  note: The letter that fixed the list of books read in the churches, 367. Placed on its date; the entry already holds Athanasius's Personal Letters.

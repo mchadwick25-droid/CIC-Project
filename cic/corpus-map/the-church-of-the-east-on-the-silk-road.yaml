@@ -15,3 +15,11 @@ works:
 
     '
   source_file: synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt
+- row_id: thomas-of-marga_book-of-governors-v2-english_budge1893--book-of-governors--voice
+  work: Thomas of Marga, The Book of Governors (Historia Monastica), English
+  author: thomas-of-marga
+  locus: Books I-VI; Book I pp. 17-116 on Abraham of Kashkar, Izla and Babai
+  role: tradition
+  confidence: provisional
+  note: A 9th-century monastic history of the Church of the East. Placed on its date.
+  source_file: thomas-of-marga_book-of-governors-v2-english_budge1893.txt

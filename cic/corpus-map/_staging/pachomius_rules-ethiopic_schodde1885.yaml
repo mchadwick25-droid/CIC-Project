@@ -115,3 +115,13 @@ assignments:
     Schodde's edition gives no date for the Ge'ez translation, so placing it in the
     Aksumite window would be an outside claim; needs-ruling (Contested or Inferential-Thin
     if used).
+
+- row_id: pachomius_rules-ethiopic_schodde1885--ethiopic-rules-aksumite-transmission--voice
+  work: The Rules of Pachomius in their Ethiopic (Ge'ez) version
+  author: pachomius
+  locus: whole file
+  atlas_ids:
+  - desert-monasticism
+  role: tradition
+  confidence: needs-ruling
+  note: The Rules in the Ge'ez version. Parts I to III from the same file are already placed here. Schodde's edition gives no date for the version, so the confidence stays needs-ruling.

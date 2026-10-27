@@ -18,6 +18,16 @@ works:
 
     '
   source_file: anan-isho_paradise-v2-sayings_budge1907.txt
+- row_id: fleet-sweep-additions-npnf204--festal-letter-xxxix-367-the-canon-list-and-the-books--voice
+  work: Festal Letter XXXIX (367) - the canon list and the books appointed to be read
+  author: athanasius
+  locus: Letter XXXIX at file line 68714; the canon list at section 5, the second class of
+    books at section 7
+  role: tradition
+  confidence: assigned
+  note: The letter that fixed the list of books read in the churches, 367. Placed on its date;
+    the entry already holds Athanasius's Personal Letters.
+  source_file: npnf204_athanasius-select-works-letters.xml
 - row_id: npnf204_athanasius--personal-letters-of-athanasius
   work: Personal Letters of Athanasius
   author: athanasius
@@ -333,6 +343,15 @@ works:
 
     '
   source_file: origen_philocalia_lewis1911.txt
+- row_id: pachomius_rules-ethiopic_schodde1885--ethiopic-rules-aksumite-transmission--voice
+  work: The Rules of Pachomius in their Ethiopic (Ge'ez) version
+  author: pachomius
+  locus: whole file
+  role: tradition
+  confidence: needs-ruling
+  note: The Rules in the Ge'ez version. Parts I to III from the same file are already placed
+    here. Schodde's edition gives no date for the version, so the confidence stays needs-ruling.
+  source_file: pachomius_rules-ethiopic_schodde1885.txt
 - row_id: pachomius_rules-ethiopic_schodde1885--the-rules-of-pachomius-part-i-the-angel-s-ordinance
   work: The Rules of Pachomius, Part I (the angel's ordinance)
   author: pachomius

@@ -32,6 +32,21 @@ works:
     it on the strength of correspondence with Origen, who himself moved to Caesarea around
     231.'
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
+- row_id: josephus_works-antiquities-wars-life_whiston1859--antiquities-testimonium-and-james-whiston
+  work: Josephus, Works (Whiston), including Antiquities XVIII (the Testimonium) and XX (James,
+    the brother of Jesus called Christ)
+  author: josephus
+  locus: Antiquities XVIII, Testimonium at about file line 81395; Antiquities XX, the James
+    passage at about 90997
+  role: context
+  confidence: provisional
+  note: 'Outside witness, not the church''s own voice: a first-century Jewish civil historian,
+    in Whiston''s English. Context only, never tradition. The Testimonium Flavianum (Antiquities
+    XVIII) is a contested passage; the text is as Whiston prints it. Whiston''s notes and
+    three dissertations are bound in.
+
+    '
+  source_file: josephus_works-antiquities-wars-life_whiston1859.txt
 - row_id: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-epistle-to-aristides
   work: The Epistle to Aristides
   author: juliusafricanus

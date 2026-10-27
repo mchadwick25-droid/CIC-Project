@@ -77,13 +77,13 @@ works:
     '
   source_file: faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt
 - row_id: fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888--fredegar-lhf
-  work: Fredegar, Chronicle, and the Liber historiae Francorum, Latin
+  work: Fredegar, Chronicle, Latin
   author: fredegar
-  locus: the chronicle sections; LHF from p. 215
+  locus: the chronicle sections
   role: tradition
   confidence: provisional
-  note: 'The 7th-8th-century Frankish chroniclers; provisional, since both are secular historians
-    more than church voices.
+  note: 'The 7th-century Frankish chronicler; provisional, since he is a secular historian
+    more than a church voice.
 
     '
   source_file: fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt
@@ -220,6 +220,17 @@ works:
 
     '
   source_file: jonas-bobbio_life-of-st-columban_munro1895.txt
+- row_id: fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888--liber-historiae-francorum
+  work: Liber historiae Francorum, Latin
+  author: liber-historiae-francorum
+  locus: from p. 215
+  role: tradition
+  confidence: provisional
+  note: 'The anonymous Frankish history of 727; provisional, since it is a secular history
+    more than a church voice.
+
+    '
+  source_file: fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt
 - row_id: chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894--marius-avenches
   work: Marius of Avenches, Chronicon (455-581)
   author: marius-avenches
