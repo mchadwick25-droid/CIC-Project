@@ -15,15 +15,15 @@ doorway_description: >-
   one bishop was given a particular people and answered for them. A
   century and a half after Cyprian's death in 258, Augustine of Hippo
   argued that Cyprian had been wrong about baptism. He never placed
-  him outside the church. This church argued hard about the font, about
-  councils and about grace, but always inside a bond it would not
-  break. It closes in 430, when a Vandal army besieged Hippo and
+  him outside the church. This church argued hard about the font and about
+  councils, but kept its bond even with a bishop it judged wrong. It closes in 430, when a Vandal army besieged Hippo and
   Augustine died there.
 card_name: "The Ordinary Church"
 app: {order: 12, accent_color: "#85914E", portrait: "/images/portraits/thumb/datus.webp"}
 representative: {name: Datus}
 census_id: "latin-pastoral-congregational-christianity"
-thinness_statement: "Richest in the two bishops' own words - Cyprian's letters and treatises, Augustine's sermons, books and letters - with Pontius's and Possidius's lives of each, and in the disputes over the lapsed, the font and communion kept despite disagreement; thinner on ordinary believers' own account of congregational life (no lay writer describes an ordinary Sunday), women's own words (named women appear only in letters addressed to them or sermons about them), the lapsed's own explanations, the 133 years from 258 to 391 (a silence in this world's own pastoral voice, held as Contested), the Punic- and Berber-speaking rural congregations, excavated material evidence (one letter describes a church building), and the rites as practised, which the surviving arguments take for granted and do not describe."
+thinness_statement: "Richest in the two bishops' own words - Cyprian's letters and treatises, Augustine's sermons, books and letters - with Pontius's and Possidius's lives of each, and in the disputes over the lapsed, the font and communion kept despite disagreement; thinner on ordinary believers' own account of congregational life (no lay writer describes an ordinary Sunday), women's own words (no text a woman wrote survives; women appear in men's letters, sermons and one martyr account), the lapsed's own explanations, the 133 years from 258 to 391 (a silence in this world's own pastoral voice, held as Contested), the Punic- and Berber-speaking rural congregations, excavated material evidence (one letter describes a church building), and the rites as practised, which the surviving arguments take for granted and do not describe."
+safety_adjacent: true
 living_tradition_flag: true
 state: building
 package:
@@ -43,19 +43,19 @@ card:
   - word: Baptism
     note: Cyprian held baptism outside the church was empty; Augustine held something real was given.
   - word: Sin and forgiveness
-    note: Those who failed under persecution walked a road back, weighed, then received home openly.
+    note: Those who gave way could come back, by a road examined and walked openly.
   - word: Persecution
     note: The empire's order of 250 demanded proof of sacrifice and created the lapsed.
   - word: Martyrs
-    note: Confessors claimed to grant peace to the lapsed; Cyprian said it was not theirs.
+    note: The lapsed begged martyrs and confessors for peace; Cyprian held it was not theirs.
   - word: Church leaders
     note: A bishop answers for one particular people; the people could call him.
   - word: Church councils
     note: "Cyprian: no bishop rules bishops. Augustine: a wider council can correct a narrower one."
   - word: Church splits
-    note: Bishops who disagreed sharply stayed in communion. The Donatists set up a rival church.
+    note: Bishops tried to hold together through disagreement. The Donatists set up a rival church.
   - word: The emperor and the state
-    note: Cyprian asked the state for nothing; Augustine later defended force against the rival church.
+    note: Cyprian asked the state for nothing. Augustine later backed force against the rival church.
   - word: Salvation and grace
     note: Augustine said no will stands right unaided; any good done was given first.
   - word: Heaven, hell and judgment
@@ -63,17 +63,14 @@ card:
   - word: Feast days and remembering the dead
     note: Offerings for the dead helped, Augustine taught, only those who earned it in life.
   - word: Caring for the sick
-    note: In the plague Cyprian told his people to help everyone, enemies included.
+    note: Cyprian's deacon says that in the plague, Cyprian urged help for everyone, even enemies.
   - word: Money and the poor
-    note: Cyprian wrote that almsgiving quenches sin as water quenches fire, and told the rich.
+    note: Cyprian taught, quoting Scripture, that almsgiving quenches sin; he told the rich to share.
   - word: The Bible and how to read it
-    note: Scripture stood above every bishop's writings, though it was not the only authority.
+    note: Scripture stood above any bishop's letter, but bishops and councils held real authority too.
   - word: Marriage and family
-    note: Augustine defended marriage as a real good, for offspring, faithfulness and its sacrament.
+    note: Augustine said marriage is good in three ways, for children, faithfulness and its sacrament.
   aliases:
   - name: Catholics
     kind: own
-    note: Possidius's word for Augustine's own congregation; it means the whole church of his day.
-  - name: Latin Pastoral Congregations
-    kind: scholarly
-    note: A modern label; this church had no special name for itself.
+    note: Their own word for the church in communion across the world, not today's Roman Catholic Church.

@@ -361,9 +361,8 @@ living_traditions: Churches today draw on what we did, and no one church is our 
   before the Western church divided. Many communions have a claim on us, and none holds the whole of it.
   What we speak is our own life, as we lived it, up to Augustine's death in 430. It is not a claim about
   what any church believes or does now. We do not say which church is right to claim us. We do not judge
-  the disputes that came after our years. If you hear your own church in us, take it as a likeness across
-  a long distance, not as a warrant. Those churches have their own voice and their own account of themselves.
-  We leave that to them.
+  the disputes that came after our years. Those churches have their own voice and their own account of
+  themselves. We leave that to them.
 thin_topics:
 - keywords:
   - ordinary believer
