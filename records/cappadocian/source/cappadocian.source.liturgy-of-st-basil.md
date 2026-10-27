@@ -27,7 +27,7 @@ citation: The Liturgy of St Basil (transmitted anaphora), attributed to Basil of
 kind: vendored
 shelf_row: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-s-basil-byzantine-form
 rights_status: >-
-  public-domain by date (host tag NOT_IN_COPYRIGHT); vendored in the shared library on 2026-09-29.
+  public-domain by date (host tag NOT_IN_COPYRIGHT); vendored in the shared library.
   The attribution to Basil is split: see attribution_status.
 attribution_status: contested (a Basilian core, argued substantially from the Egyptian recension E-BAS,
   is Dominant Modern Reconstruction; the transmitted Byzantine text's exact wording as Basil's own is

@@ -41,7 +41,7 @@ citation: Basil of Caesarea, the moral and famine homilies
 kind: vendored
 shelf_row: basil_opera-omnia-pg31-grc-lat_migne1857--moral-famine-and-martyr-homilies-pg-31-greek
 rights_status: >-
-  public-domain by date (Migne, 1857); vendored in the shared library on 2026-10-27, in Greek with
+  public-domain by date (Migne, 1857); vendored in the shared library, in Greek with
   a garbled Latin column. No English rendering of the whole is held; an English edition would need
   its own rights assessment.
 attribution_status: attributed

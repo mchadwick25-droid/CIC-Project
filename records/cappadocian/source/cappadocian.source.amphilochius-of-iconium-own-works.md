@@ -30,7 +30,7 @@ citation: Amphilochius of Iconium, his own works (canonical letters, etc.)
 kind: vendored
 shelf_row: amphilochius-iconium_opera-pg39-grc-lat_migne1858--opera-pg-39-greek
 rights_status: >-
-  public-domain by date (Migne, 1858); vendored in the shared library on 2026-10-27, in Greek with
+  public-domain by date (Migne, 1858); vendored in the shared library, in Greek with
   a garbled Latin column.
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 65; a specific named source (author, translator,

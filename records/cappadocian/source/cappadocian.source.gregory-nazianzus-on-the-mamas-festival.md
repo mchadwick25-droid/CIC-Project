@@ -32,7 +32,7 @@ citation: Gregory of Nazianzus, on the Mamas festival
 kind: vendored
 shelf_row: gregory-nazianzen_orationes-27-45-pg36-grc-lat_migne1858--orations-27-45-pg-36-greek
 rights_status: >-
-  public-domain by date (Migne, 1858); vendored in the shared library on 2026-10-27, in Greek with
+  public-domain by date (Migne, 1858); vendored in the shared library, in Greek with
   a garbled Latin column; the Greek is held, no English text of this work is.
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 115; a specific named source (author, translator,
