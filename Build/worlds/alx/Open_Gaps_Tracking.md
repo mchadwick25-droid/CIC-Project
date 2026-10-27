@@ -817,3 +817,14 @@ Question-coverage design thread, 2026-10-27 (hand-off `Build/Ministry/Operations
 - Decision for this thread: the guard must say the quote is Clement's account of preparation, not a statement that Judaism is finished, and not a claim about Jews today; whether `retrieve_when` narrows; whether `alx.term.christological-reading` needs the same check.
 
 Status: OPEN, for this world's thread.
+
+### OG-38. Guards added for the supersession reading, 2026-10-27.
+
+Follows the entry "`alx.quote.clement-schoolmaster` can be heard as the law replaced" (2026-10-27). Mark approved the drafts in the question-coverage review on 2026-10-27.
+
+- `alx.quote.clement-schoolmaster`: a fourth `not_for` line (preparation, not a claim that the law is finished or about Jews today), and `retrieve_when` narrowed to "whether Clement thought Greek philosophy held anything true".
+- `alx.term.christological-reading`: a fourth `not_for` line on Jewish readers, and `retrieve_when` changed from "Jewish interpretation" to "other ways of reading".
+- The Clement quote was re-checked verbatim against `anf02` lines 27890 to 27896. `alx.term.interpretation` and `alx.term.word-of-god` point to `christological-reading` and were not opened.
+- Narrowing the quote's `retrieve_when` removes its second line's route to F6-T; the cell stays in `canon_cells`.
+
+Status: CLOSED for the guards. OPEN for the two terms not opened.

@@ -55,6 +55,9 @@ Findings: Governance V3.6 section 12 already names "Are you an AI?", "Who made t
 - The 69 held Facilitator-adjacent rows release in two groups (R1): the 18 system and product rows after the shapes are built; the 51 pastoral rows only where the distress path is confirmed.
 Not done: no Facilitator wording written, no engine change, no change order filed. The new shapes and any new text come back to Mark by change order. The reader classes need a model call to retest, which needs a named, capped live test from Mark. Facts still to be supplied by Mark: whether the project team who review conversations may be named and what reviewers see; whether any person may be named; whether the Facilitator may name Anthropic's Claude and a model version; any funding or church affiliation; counsel's review of the privacy text; whether the privacy page should say scores and flags are kept without text.
 
+## 2026-10-27 — Safety guards: gaps logged, alx and witt guards applied, don held
+Gaps logged: don OG-49, witt OG-82, alx OG-37. Correction to the hand-off: the Augustine precipice text is lines 16889 to 16891 and speaks of Donatist "confessors", not the Circumcellions (only para. 110 links them to precipices). Mark approved the alx and witt guards: applied, with follow-up entries alx OG-38 and witt OG-83, and both worlds pass `records` and `regate`. The don guard (a new draft contested claim plus two `not_for` lines) is held for Mark's ruling D1: a voiced draft record fails the status-ready gate while don's waiver stays at 25.
+
 ## Findings passed to other threads (information, not instructions)
 - Latin pastoral thread: Augustine's commentaries are vendored and mapped to it; its 330 records are all draft with no use notes; nothing on hell, the dead, infants or suicide. Sent 2026-10-26.
 - System and pilot-feedback thread: asked to route the Chrysostom mapping to the corpus-map owner. Sent 2026-10-26.
