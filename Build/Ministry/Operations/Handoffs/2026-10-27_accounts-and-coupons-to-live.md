@@ -53,6 +53,18 @@ Checked against `main` at `46f81dbdf` plus pull request 1176 (below).
 9. Open check of Mark's in AWS: the default configuration set `my-first-configuration-set` in SES. Any event destinations or open/click tracking on it should be removed. Mark has not confirmed.
 10. Legal question 14 (whether "promotional" is enough for coupons) is open with the professional. Mark's call whether it blocks the pilot; it does not block the build.
 
+## From the coupons thread (its closing report, 2026-10-27)
+
+Its work is all merged (pull requests 1119, 1135, 1138; rulings 85 to 90 and 101 to 104). Where it attaches: `AccountsService._sign_in_as` (code) and `_sign_in_by_provider` (Google, Apple, via `ProviderVerifier.verified_address`; an Apple relay address never matches); redemption is `_redeem_coupons` and never fails a sign-in. `engine/api/coupon_routes.py` is mounted only when Deeper and accounts are both on and sets `service.coupon_code_hash`; without it coupons wait. The meter's id for an attached coupon is `coupon_` plus a keyed value of the pending id, so to cancel an attached coupon use the id in the dashboard grants list.
+
+Not tested live (the sandbox has no SES, Render or AWS):
+1. A real coupon end to end: approve to Mark's address, sign in by code, see the notice and the "Gift" line, tokens spent from the coupon, a second sign-in shows no notice.
+2. Google and Apple coupon match (needs the client ids).
+3. That `pending_coupons` is carried and restored by the sealed accounts backup.
+4. Dashboard admin requests are limited to 10 a minute per address and a page load uses most of that, which gave Mark a 429 ("The room is full") on button presses. Easing it is Mark's call, because the limit also slows admin-token guessing.
+
+`main` is far ahead of `live` (159 commits, 334 files at the time), mostly other threads' work, so promotion carries more than accounts and coupons. Mark decides.
+
 ## Dependencies
 
 - Coupons attach only at sign-in, so coupons cannot go live before accounts do. Go live together.
