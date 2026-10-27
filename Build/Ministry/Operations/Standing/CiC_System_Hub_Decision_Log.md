@@ -7019,3 +7019,15 @@ The approved texts:
 - The recommendation in each world's dossier (`Build/worlds/_cross-world/dossiers/`, section 6) stands as the Library's advice. No world is started, coded or ranked by this entry.
 - The first worlds to build are ranked by Mark after `lpc` closes, one world at a time, and only when the weekly allowance covers it (CLAUDE.md, "Scaling the build").
 - Still open and not touched here: the `needs-ruling` placements listed in `Build/worlds/_cross-world/NEEDS-RULING.md`; the rights calls named in PR 1072; the Kongo, Melkite and Utrecht build-or-atlas choices; the remap of the eleven rows that cite the old VI.13 id; and the Era VII Anabaptist and Tridentine gaps.
+
+## 2026-10-27 - Change order: Question Coverage joins the world build as a report-only step, B-7c (project lead's ruling)
+
+**Question.** Whether and how the Question Coverage pass joins the build cycle (it was open in the feature's Decision-Log).
+
+**Alternatives shown.** Do not add it; run it per world on request; add it as a standing step.
+
+**Ruling.** Mark, 2026-10-27: a standing step by change order, for new worlds only. Then, on where and how strong: a new step B-7c after B-7b, report-only. The alternatives were folding it into B-7b as a gate (no agreed pass mark exists to enforce) and a freeze requirement alone.
+
+**Change order.** `Build/Ministry/Operations/Audits/2026-10-27_question-coverage-step_ChangeOrder.md`, approved as drafted. It edits the Build Process V2.0 (step table and Section 12) and the Completion Standard V1.4 (Section B). The build-cycle skill needs no change.
+
+**Not done.** No pass mark was set and no engine command was built. If Mark later wants coverage enforced as a gate, that is a separate ruling that needs a threshold first.
