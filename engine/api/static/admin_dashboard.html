@@ -201,7 +201,7 @@
           <div class="caveat" id="t-deeper-tester-detail"></div>
         </div>
         <div class="tile">
-          <div class="label">Coupons attached today</div>
+          <div class="label">Gifts attached today</div>
           <div class="value" id="t-deeper-coupon">—</div>
           <div class="caveat" id="t-deeper-coupon-detail"></div>
         </div>
@@ -238,9 +238,9 @@
       </div>
       <div class="caveat" id="tester-limits"></div>
       <div id="coupon-wrap" class="hidden" style="margin-top: 8px;">
-        <label>Coupon: address <input id="coupon-address" type="text" autocomplete="off" spellcheck="false" style="width: 18em;" /></label>
+        <label>Gift: address <input id="coupon-address" type="text" autocomplete="off" spellcheck="false" style="width: 18em;" /></label>
         <label>tokens <input id="coupon-tokens" type="number" min="1" value="1100" style="width: 7em;" /></label>
-        <button id="coupon-submit" type="button">Approve a coupon</button>
+        <button id="coupon-submit" type="button">Approve a gift</button>
         <div class="caveat" id="coupon-limits"></div>
         <div class="caveat" id="coupon-list"></div>
       </div>
@@ -594,7 +594,7 @@
 
   async function closeFeedback(id, outcome, note) {
     const resp = await fetch("/api/admin/feedback/" + encodeURIComponent(id) + "/close", {
-      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" },
+      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json", "x-cic-accounts": "1" },
       body: JSON.stringify({ outcome, note: note || null }),
     });
     if (!resp.ok) throw new Error("close returned " + resp.status);
@@ -818,7 +818,7 @@
   async function dismissUnmatched(paymentId) {
     if (!window.confirm("Take " + paymentId + " off this list? Do this once the buyer has their code, the payment is refunded, or it was not a token purchase.")) return;
     const resp = await fetch("/api/admin/deeper/unmatched/dismiss", {
-      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" },
+      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json", "x-cic-accounts": "1" },
       body: JSON.stringify({ payment_id: paymentId }),
     });
     if (!resp.ok) { deeperNotice("Nothing was dismissed (" + resp.status + ").", true); return; }
@@ -889,7 +889,7 @@
   async function toggleDeeperPause() {
     if (!deeperStatus) return;
     const resp = await fetch("/api/admin/deeper/pause", {
-      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" },
+      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json", "x-cic-accounts": "1" },
       body: JSON.stringify({ on: !deeperStatus.paused }),
     });
     if (!resp.ok) { deeperNotice("Could not change the pause (" + resp.status + ").", true); return; }
@@ -926,7 +926,7 @@
   async function cancelSaved(entry) {
     if (!window.confirm("Cancel " + entry.mint_id + "? Its code will stop working for everyone. This cannot be undone.")) return;
     const resp = await fetch("/api/admin/deeper/void", {
-      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" },
+      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json", "x-cic-accounts": "1" },
       body: JSON.stringify({ payment_id: entry.mint_id }),
     });
     if (!resp.ok) { deeperNotice("Nothing was cancelled (" + resp.status + "). Wait a minute and try once more.", true); return; }
@@ -964,7 +964,7 @@
     if (!pack || !(count >= 1)) { deeperNotice("Pick a pack and a count of 1 or more.", true); return; }
     if (!window.confirm("Make " + count + " x $" + pack + " pack as " + (mode === "one_code" ? "one code" : count + " codes") + "? This is a grant with no payment.")) return;
     const resp = await fetch("/api/admin/deeper/mint", {
-      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" },
+      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json", "x-cic-accounts": "1" },
       body: JSON.stringify({ pack_usd: parseInt(pack, 10), count: count, mode: mode }),
     });
     if (!resp.ok) {
@@ -979,7 +979,7 @@
     await loadDeeper();
   }
   async function loadCoupons() {
-    // The route exists only when accounts are on as well; without it the coupon form stays hidden.
+    // The route exists only when accounts are on as well; without it the gift form stays hidden.
     const wrap = document.getElementById("coupon-wrap");
     try {
       const resp = await fetch("/api/admin/deeper/coupons", { credentials: "same-origin" });
@@ -990,11 +990,11 @@
       if (body.max_tokens) tokensBox.max = String(body.max_tokens);
       document.getElementById("coupon-limits").textContent =
         "A gift of tokens kept for whoever signs in with that address, with no deadline. Up to " + fmtNumber(body.max_tokens) + " tokens, " + body.per_day +
-        " a day. An unclaimed coupon is dropped after " + body.unclaimed_days + " days. It matches the address exactly as the person signs in with it (capitals do not matter; a +tag does). The address is never shown again; note the coupon id to cancel it while it waits.";
+        " a day. An unclaimed gift is dropped after " + body.unclaimed_days + " days. It matches the address exactly as the person signs in with it (capitals do not matter; a +tag does). The address is never shown again; note the gift id to cancel it while it waits.";
       document.getElementById("t-deeper-coupon-detail").textContent = fmtNumber(body.coupons.length) + " waiting to be claimed. Limit " + body.per_day + " a day.";
       const list = document.getElementById("coupon-list");
       list.innerHTML = "";
-      if (body.coupons.length === 0) { list.textContent = "No coupon is waiting."; return; }
+      if (body.coupons.length === 0) { list.textContent = "No gift is waiting."; return; }
       body.coupons.forEach((c) => {
         const row = el("div", {}, [
           el("span", { text: c.coupon_id + " · " + fmtNumber(c.tokens) + " tokens · approved " + c.day_made + " " }),
@@ -1022,21 +1022,21 @@
       let detail = "";
       try { detail = (await resp.json()).detail || ""; } catch (e) {}
       if (typeof detail !== "string") detail = "";
-      deeperNotice("No coupon was kept (" + resp.status + "). " + detail, true);
+      deeperNotice("No gift was kept (" + resp.status + "). " + detail, true);
       return;
     }
     const made = await resp.json();
-    deeperNotice("Kept. Coupon " + made.coupon_id + ", " + fmtNumber(made.tokens) + " tokens. It attaches at that person's next sign-in.", false);
+    deeperNotice("Kept. Gift " + made.coupon_id + ", " + fmtNumber(made.tokens) + " tokens. It attaches at that person's next sign-in.", false);
     await loadCoupons();
   }
   async function cancelCoupon(id) {
-    if (!window.confirm("Cancel coupon " + id + "? It will not attach.")) return;
+    if (!window.confirm("Cancel gift " + id + "? It will not attach.")) return;
     const resp = await fetch("/api/admin/deeper/coupon/cancel", {
       method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json", "x-cic-accounts": "1" },
       body: JSON.stringify({ coupon_id: id }),
     });
     if (!resp.ok) { deeperNotice("Nothing was cancelled (" + resp.status + "). It may already be attached; cancel an attached one with its codes.", true); return; }
-    deeperNotice("Coupon " + id + " cancelled.", false);
+    deeperNotice("Gift " + id + " cancelled.", false);
     await loadCoupons();
   }
   async function makeTesterCode() {
@@ -1045,7 +1045,7 @@
     if (!(tokens >= 1) || !(days >= 1)) { deeperNotice("Enter tokens and days of 1 or more.", true); return; }
     if (!window.confirm("Make one tester code of " + fmtNumber(tokens) + " tokens that works for " + days + " days? This is a grant with no payment.")) return;
     const resp = await fetch("/api/admin/deeper/tester", {
-      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" },
+      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json", "x-cic-accounts": "1" },
       body: JSON.stringify({ tokens: tokens, days: days }),
     });
     if (!resp.ok) {
@@ -1064,7 +1064,7 @@
     if (!id) { deeperNotice("Paste a mint id or payment id first.", true); return; }
     if (!window.confirm("Cancel every code made for " + id + "? This cannot be undone.")) return;
     const resp = await fetch("/api/admin/deeper/void", {
-      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" },
+      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json", "x-cic-accounts": "1" },
       body: JSON.stringify({ payment_id: id }),
     });
     if (!resp.ok) { deeperNotice("Nothing was cancelled (" + resp.status + "). Check the id.", true); return; }

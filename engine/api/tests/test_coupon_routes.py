@@ -204,3 +204,23 @@ def test_a_change_made_with_the_dashboard_cookie_must_come_from_our_own_page(htt
     cancel = {"coupon_id": made.json()["coupon_id"]}
     assert http.post("/api/admin/deeper/coupon/cancel", json=cancel).status_code == 400
     assert http.post("/api/admin/deeper/coupon/cancel", json=cancel, headers=ours).status_code == 200
+
+
+DASHBOARD_CHANGES = [
+    ("/api/admin/deeper/pause", {"on": True}),
+    ("/api/admin/deeper/mint", {"pack_usd": 5, "count": 1, "mode": "one_code"}),
+    ("/api/admin/deeper/tester", {}),
+    ("/api/admin/deeper/void", {"payment_id": "p1"}),
+    ("/api/admin/deeper/funds", {"cents": 100, "note": "correction"}),
+    ("/api/admin/deeper/funds/e1/reverse", None),
+    ("/api/admin/deeper/unmatched/dismiss", {"payment_id": "p1"}),
+]
+
+
+@pytest.mark.parametrize("path,body", DASHBOARD_CHANGES)
+def test_every_dashboard_change_made_with_the_cookie_must_come_from_our_own_page(http, path, body):
+    _dashboard_cookie(http)
+    assert http.post(path, json=body).status_code == 400
+    assert http.post(path, json=body, headers={"x-cic-accounts": "1", "Origin": "https://elsewhere.example"}).status_code == 403
+    guarded = http.post(path, json=body, headers={"x-cic-accounts": "1", "Origin": "https://testserver"})
+    assert guarded.status_code not in (400, 403)
