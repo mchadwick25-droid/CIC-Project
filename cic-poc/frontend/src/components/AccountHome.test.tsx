@@ -22,6 +22,7 @@ async function load(env: { accounts?: boolean; deeper?: boolean } = { accounts: 
 }
 
 const home = () => within(screen.getByRole('main'));
+const LAST_DAY = new Date(Date.UTC(2027, 0, 25)).toISOString().slice(0, 10);
 
 beforeEach(() => {
   localStorage.clear();
@@ -118,7 +119,7 @@ describe('the invitation in the panel', () => {
       ...signedOut(),
       '/me': () => (signedInNow ? { body: { signed_in: true, recovery_pending: null, sign_in_methods: ['address'], has_recovery_code: false, refill_day: 14 } } : { body: { signed_in: false } }),
       '/sign-in/start': { body: { status: 'sent', message: 'm', challenge: 'c1' } },
-      '/sign-in/finish': (body) => (body?.reopen === true ? ((signedInNow = true), { body: { status: 'ok', new_account: false } }) : { body: { status: 'account_closed', erase_on: '2027-01-25', message: 'm' } }),
+      '/sign-in/finish': (body) => (body?.reopen === true ? ((signedInNow = true), { body: { status: 'ok', new_account: false } }) : { body: { status: 'account_closed', erase_on: LAST_DAY, message: 'm' } }),
       '/balance': { body: BALANCE },
       '/shelf': { body: { conversations: [] } },
     });
@@ -142,7 +143,7 @@ describe('the invitation in the panel', () => {
     serve({
       ...signedOut(),
       '/sign-in/start': { body: { status: 'sent', message: 'm', challenge: 'c1' } },
-      '/sign-in/finish': { body: { status: 'account_closed', erase_on: '2027-01-25', message: 'm' } },
+      '/sign-in/finish': { body: { status: 'account_closed', erase_on: LAST_DAY, message: 'm' } },
     });
     const { GoDeeperPanel, accounts, copy } = await load();
     render(<GoDeeperPanel />);
@@ -329,7 +330,7 @@ describe('settings', () => {
   });
 
   it('shows what goes and what stays, then deletes only after a confirmation and a second press', async () => {
-    const { calls, copy } = await open(signedIn(['address']), { ...step, '/delete': { body: { status: 'ok', erase_on: '2027-01-25' } } });
+    const { calls, copy } = await open(signedIn(['address']), { ...step, '/delete': { body: { status: 'ok', erase_on: LAST_DAY } } });
     fireEvent.click(home().getByRole('button', { name: copy.deleteHome }));
     expect(home().getByText(copy.deleteWhen)).toBeInTheDocument();
     expect(home().getByText(copy.deleteGoes)).toBeInTheDocument();
@@ -533,6 +534,8 @@ describe('what the room says and shows', () => {
       ...signedIn(['address']),
       '/shelf': { body: { conversations: [{ session_id: 's2', mode: 'interview', worlds: ['Another voice'], world_keys: ['w2'], title: '', started: 'x', last_active: 'x', turns: 1, closed: true, holds_crisis_turn: false, saved: true }] } },
       '/shelf/delete': { body: { status: 'ok' } },
+      '/step-up/start': { body: { status: 'sent', challenge: 's1' } },
+      '/step-up/finish': { body: { status: 'ok' } },
     });
     const ctx = await load();
     render(<ctx.AccountHome />);
@@ -543,6 +546,11 @@ describe('what the room says and shows', () => {
     fireEvent.keyDown(window, { key: 'Escape' });
     expect(screen.getByRole('main')).toBeInTheDocument();
     fireEvent.click(home().getByRole('button', { name: ctx.copy.removeYes }));
+    expect(calls.some((c) => c.path === '/shelf/delete')).toBe(false);
+    fireEvent.change(await screen.findByLabelText(ctx.copy.addressLabel), { target: { value: 'me@b.org' } });
+    fireEvent.click(home().getByRole('button', { name: ctx.copy.sendCode }));
+    fireEvent.change(await screen.findByLabelText(ctx.copy.codeLabel), { target: { value: '111111' } });
+    fireEvent.click(home().getByRole('button', { name: ctx.copy.codeSignIn }));
     await waitFor(() => expect(calls.find((c) => c.path === '/shelf/delete')?.body).toEqual({ session_id: 's2' }));
   });
 

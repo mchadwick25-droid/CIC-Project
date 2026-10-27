@@ -692,11 +692,18 @@ class AccountStore:
                 (pattern, pattern, pattern, pattern),
             ).fetchone()[0]
 
-    def delete_account(self, account_id: str, ledger_hash: str, ledger_expires_on: str) -> bool:
-        """The account and one ledger entry, in one transaction."""
+    def delete_account(self, account_id: str, ledger_hash: str, ledger_expires_on: str, *, closed_due_before: str | None = None) -> bool:
+        """The account and one ledger entry, in one transaction. With `closed_due_before`, nothing is
+        deleted unless the account is closed and its last day is before that day, so a re-open that
+        won the race keeps the account."""
         with self._lock:
             self._d.execute("BEGIN IMMEDIATE")
             try:
+                if closed_due_before is not None and self._d.execute(
+                    "SELECT 1 FROM closures WHERE account_id = ? AND erase_on < ?", (account_id, closed_due_before)
+                ).fetchone() is None:
+                    self._d.execute("ROLLBACK")
+                    return False
                 gone = self._d.execute("DELETE FROM accounts WHERE account_id = ?", (account_id,)).rowcount
                 self._d.execute("DELETE FROM linked_sign_ins WHERE account_id = ?", (account_id,))
                 self._d.execute("DELETE FROM recovery_keys WHERE account_id = ?", (account_id,))
@@ -717,10 +724,14 @@ class AccountStore:
 
     # closing and re-opening ---------------------------------------------------
 
-    def close_account(self, account_id: str, closed_on: str, erase_on: str, *, published: bool = False) -> bool:
-        """Marks a live account closed. False when there is no such account or it is already closed."""
+    def close_account(self, account_id: str, closed_on: str, erase_on: str, *, published: bool = False,
+                      unused_before_week: str | None = None) -> bool:
+        """Marks a live account closed. False when there is no such account or it is already closed.
+        With `unused_before_week`, the account is closed only if it is still unused since that week,
+        decided in the same step as the write."""
         with self._lock:
-            if self._d.execute("SELECT 1 FROM accounts WHERE account_id = ?", (account_id,)).fetchone() is None:
+            row = self._d.execute("SELECT week_last_used FROM accounts WHERE account_id = ?", (account_id,)).fetchone()
+            if row is None or (unused_before_week is not None and not row[0] < unused_before_week):
                 return False
             return self._d.execute(
                 "INSERT OR IGNORE INTO closures (account_id, closed_on, erase_on, published) VALUES (?, ?, ?, ?)",
@@ -733,14 +744,20 @@ class AccountStore:
             row = self._d.execute("SELECT closed_on, erase_on FROM closures WHERE account_id = ?", (account_id,)).fetchone()
         return (row[0], row[1]) if row else None
 
-    def reopen_account(self, account_id: str) -> bool:
+    def reopen_account(self, account_id: str, today: str) -> bool:
+        """Opens a closed account again. False when it is not closed or its last day has passed; this
+        and the erasure test the same row, so exactly one of them wins."""
         with self._lock:
-            return self._d.execute("DELETE FROM closures WHERE account_id = ?", (account_id,)).rowcount == 1
+            return self._d.execute("DELETE FROM closures WHERE account_id = ? AND erase_on >= ?", (account_id, today)).rowcount == 1
 
     def closures_due(self, today: str) -> list[str]:
-        """Closed accounts whose last day has come."""
+        """Closed accounts whose last day has passed."""
         with self._lock:
-            return [r[0] for r in self._d.execute("SELECT account_id FROM closures WHERE erase_on <= ?", (today,))]
+            return [r[0] for r in self._d.execute("SELECT account_id FROM closures WHERE erase_on < ?", (today,))]
+
+    def closure_is_due(self, account_id: str, today: str) -> bool:
+        with self._lock:
+            return self._d.execute("SELECT 1 FROM closures WHERE account_id = ? AND erase_on < ?", (account_id, today)).fetchone() is not None
 
     def unpublished_closures(self) -> list[tuple[str, str]]:
         """(account id, erase day) of each closure not yet written to the outside copy."""

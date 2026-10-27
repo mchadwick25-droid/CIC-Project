@@ -276,7 +276,10 @@ ledger. At start-up and every hour the app reads these back and closes any accou
 name that the file shows open. Re-opening removes the object first, so a restore leaves a
 re-opened account open; if the bucket refuses, the account stays closed and the person asks
 for a new code. The object is pruned the day after its erase day, when the deletion ledger
-takes over. After a restore, check the log for "closed accounts found open again in a
+takes over. A backup made before a re-open brings the closure back with it: the bucket object
+is gone, but the restored file shows the account closed, so the account is erased on its last
+day unless the person signs in again and re-opens it. This is a documented choice, not a gap.
+After a restore, check the log for "closed accounts found open again in a
 restored file were closed".
 
 **Erased conversations do not come back either.** The record of an erased conversation (a

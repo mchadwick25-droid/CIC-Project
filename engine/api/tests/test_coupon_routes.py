@@ -178,3 +178,23 @@ def test_the_address_reaches_no_log_while_it_is_approved_and_used(http, mailer, 
     approve(http, "private.person@example.org")
     sign_in(http, mailer, "private.person@example.org")
     assert "private.person" not in caplog.text
+
+
+def _dashboard_cookie(http):
+    from engine.api import admin_auth
+
+    http.cookies.set(admin_auth.SESSION_COOKIE_NAME, admin_auth.issue_session_token(ADMIN))
+
+
+def test_a_change_made_with_the_dashboard_cookie_must_come_from_our_own_page(http, accounts, mailer):
+    _dashboard_cookie(http)
+    body = {"address": ADDR, "tokens": 5}
+    assert http.post("/api/admin/deeper/coupon", json=body).status_code == 400
+    assert http.post("/api/admin/deeper/coupon", json=body, headers={"x-cic-accounts": "1", "Origin": "https://elsewhere.example"}).status_code == 403
+    assert http.get("/api/admin/deeper/coupons").json()["coupons"] == []
+    ours = {"x-cic-accounts": "1", "Origin": "https://testserver"}
+    made = http.post("/api/admin/deeper/coupon", json=body, headers=ours)
+    assert made.status_code == 200
+    cancel = {"coupon_id": made.json()["coupon_id"]}
+    assert http.post("/api/admin/deeper/coupon/cancel", json=cancel).status_code == 400
+    assert http.post("/api/admin/deeper/coupon/cancel", json=cancel, headers=ours).status_code == 200

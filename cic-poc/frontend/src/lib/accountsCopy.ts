@@ -128,10 +128,10 @@ export const accountsCopy = {
   deleteWhen: 'Your account is deleted today. You have 90 days to re-open it. To re-open it, sign in the way you always do.',
   deleteGoesHeading: 'After 90 days, what goes',
   deleteGoes:
-    'Every saved conversation and its words, and the scrubbed review copy of them. Your tokens, free, gift and purchased, with no refund except in a case we agree to. The encrypted copy of your email address and the scrambled key made from it. The link between your account and your codes.',
+    'Every conversation you saved. The copy we keep to check quality. Your tokens, with no refund except in a case we agree to. Your email address. The link between your account and your codes.',
   deleteStaysHeading: 'What stays, for a while',
   deleteStays:
-    "Stripe keeps its own record of any payment. The token system keeps each code's row and its payment reference, with no name. Backups drop deleted data within 14 days. The privacy page lists everything that stays.",
+    "Stripe keeps its own record of any payment. The token system keeps each code with its payment reference, and no name. Backups drop deleted data within 14 days. The privacy page lists everything that stays.",
   deleteYes: 'Delete my account',
   deletedHeading: 'Your account is deleted',
   deletedDone: 'You have 90 days to re-open it. After that, everything is erased for good.',
@@ -139,7 +139,7 @@ export const accountsCopy = {
 
   // Signing in to a deleted account
   closedHeading: 'This account was deleted',
-  closedText: (day: string) => `You have until ${day} to re-open it. After that, everything is erased for good.`,
+  closedText: (day: string) => `You can re-open it until ${day}. After that, everything is erased for good.`,
   reopenYes: 'Re-open my account',
   reopenNo: 'Leave it deleted',
   deleteNo: 'Keep my account',
