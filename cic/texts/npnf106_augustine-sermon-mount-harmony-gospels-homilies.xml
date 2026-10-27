@@ -1,97 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE ThML PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<!-- Copyright Christian Classics Ethereal Library -->
+<!-- CCEL-authored header block removed; text, notes and scripture tags unchanged -->
 <ThML> 
   <ThML.head> 
 
-	 <generalInfo>
-		<description>With over twenty volumes, the <i>Nicene and 
-Post-Nicene Fathers</i> is a momentous achievement. Originally gathered 
-by 
-Philip Schaff, the <i>Nicene and Post-Nicene Fathers</i> is a collection 
-of 
-writings by classical and medieval Christian theologians. The purpose of 
-such a collection is to make their writings readily available. The 
-entire work is divided into two series. The first series focuses on two 
-classical Christian theologians--St. Augustine and St. John Chrysostom. 
-St. Augustine is one of the most influential and important Christian 
-thinkers of all time. In addition to reprinting his most popular two 
-works--<i>the Confessions</i> and the <i>City of God</i>--these volumes 
-also 
-contain 
-other noteworthy and important works of St. Augustine, such as <i>On the 
-Holy Trinity</i>, <i>Christian Doctrine</i>, and others. St. John 
-Chrysostom 
-was 
-an 
-eloquent speaker and well-loved Christian clergyman. St. John took a 
-more literal interpretation of Scripture, and much of his work focused 
-on practical aspects of Christianity, particularly what is now called 
-social justice. He advocated for the poor, and challenged abuses of 
-authority. This volume contains Augustine's exegesis of, and homilies 
-on, the Gospels. The <i>Nicene and Post-Nicene Fathers</i> is 
-comprehensive 
-in 
-scope, and provide keen translations of instructive and illuminating 
-texts from some of the greatest theologians of the Christian church. 
-These spiritually enlightening texts have aided Christians for over a 
-thousand years, and remain instructive and fruitful even 
-today!<br /><br />Tim 
-Perrine<br />CCEL Staff Writer </description>
-		<firstPublished />
-		<pubHistory />
-		<comments /> </generalInfo> 
 
-	 <printSourceInfo>
-		<published>New York: Christian Literature Publishing Co., 1886</published> 
-	 </printSourceInfo> 
 
-	 <electronicEdInfo>
-		<publisherID>ccel</publisherID>
-		<authorID>schaff</authorID>
-		<bookID>npnf106</bookID>
-		<workID>npnf106</workID>
-		<bkgID>st_augustine_sermon_on_the_mount_harmony_of_the_gospels_homilies_on_the_gospels_(schaff)</bkgID>
-		<version>3.0</version>
-		<series>ecf</series>
-		<editorialComments />
-		<revisionHistory />
-		<status>This text has been carefully proof-read and compared with the print edition. SLK checked Gk/Heb in footnotes (conforms to print version, even when this is in error).</status>
 
-		<DC>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		  <DC.Title>NPNF1-06. St. Augustine: Sermon on the 
 Mount; Harmony of the Gospels; Homilies on the Gospels</DC.Title>
-		  <DC.Title sub="short">NPNF (V1-06)</DC.Title>
-    <DC.Creator sub="Editor" scheme="short-form">Philip Schaff</DC.Creator>
-    <DC.Creator sub="Editor" scheme="file-as">Schaff, Philip (1819-1893)</DC.Creator>
-    <DC.Creator sub="Editor" scheme="ccel">schaff</DC.Creator>
-		  <DC.Creator sub="Author" scheme="ccel">augustine</DC.Creator>
-		  <DC.Creator sub="" scheme="ccel" />
-		  <DC.Creator sub="" scheme="file-as" />
-		  <DC.Creator sub="" scheme="short-form" />
-		  <DC.Creator sub="" scheme="ccel" />
-		  <DC.Creator sub="" scheme="file-as" />
-		  <DC.Creator sub="" scheme="short-form" />
-		  <DC.Publisher>Grand Rapids, MI: Christian Classics Ethereal Library</DC.Publisher>
-		  <DC.Subject scheme="ccel">All; Proofed; Early Church</DC.Subject>
-		  <DC.Subject scheme="LCCN">BR60</DC.Subject>
-		  <DC.Subject scheme="lcsh1">Christianity</DC.Subject>
-    <DC.Subject scheme="lcsh2">Early Christian Literature. Fathers of the Church, etc.</DC.Subject>
-    <DC.Contributor sub="Transcriber" />
-		  <DC.Contributor sub="Markup" />
-		  <DC.Contributor sub="Digitizer" />
-		  <DC.Date sub="Created">2000-07-22</DC.Date>
-		  <DC.Type>Text.Monograph</DC.Type>
-		  <DC.Format scheme="IMT">text/html</DC.Format>
-		  <DC.Identifier scheme="URL">/ccel/schaff/npnf106.html</DC.Identifier>
-		  <DC.Source sub="ElectronicEdition" />
-		  <DC.Source sub="ElectronicEdition" scheme="URL" />
-		  <DC.Source>Logos, Inc.</DC.Source>
-		  <DC.Language scheme="ISO639-3">eng</DC.Language>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		  <DC.Rights>Public Domain</DC.Rights>
-		</DC>
-	 </electronicEdInfo>
-	 
 
 
 
@@ -99,364 +96,367 @@ Mount; Harmony of the Gospels; Homilies on the Gospels</DC.Title>
 
 
 
-<style type="text/css">
-p.c72	{ margin-left:.25in; text-indent:-.25in }
-p.c69	{ margin-left:.45in; text-indent:-.25in }
-p.c67	{ font-style:italic; margin-bottom:6pt; text-align:center }
-p.c66	{ font-style:italic; margin-top:6pt; text-align:center }
-p.c65	{ font-style:italic; margin-left:.25in; margin-top:9pt; text-align:center; text-indent:-.25in }
-p.c64	{ margin-top:9pt; margin-left:.25in; text-align:center; text-indent:-.25in }
-p.c63	{ font-style:italic; margin-bottom:6pt; margin-top:6pt; text-align:center; text-indent:.25in }
-p.c62	{ margin-top:6pt }
-p.c61	{ margin-top:6pt; margin-left:31.5pt; text-indent:-.25in }
-p.c60	{ margin-bottom:6pt; margin-left:.5in; text-indent:-.25in }
-p.c59	{ margin-bottom:6pt; margin-left:58.5pt; text-indent:-.25in }
-p.c58	{ margin-top:9pt; margin-left:.25in; text-indent:-.25in }
-p.c57	{ text-indent:.25in }
-p.c56	{ margin-top:9pt; margin-left:.25in; text-indent:-.25in }
-p.c55	{ margin-top:9pt; margin-left:.25in; text-indent:-.25in }
-p.c53	{ margin-top:9pt; text-indent:.25in }
-span.c52	{ font-size:large; font-variant:small-caps }
-p.c51	{ margin-bottom:6pt; text-align:right }
-p.c50	{ margin-bottom:6pt; margin-left:45pt; text-indent:-.25in }
-p.c49	{ margin-left:45pt; text-indent:-.25in }
-p.c48	{ margin-bottom:6pt; margin-left:31.7pt; text-align:right; text-indent:-.25in }
-p.c47	{ margin-bottom:6pt; margin-left:.5in; text-align:right; text-indent:-.25in }
-p.c46	{ margin-left:.5in; text-indent:-.25in }
-p.c45	{ margin-left:31.5pt; text-indent:-.25in }
-p.c44	{ margin-right:.25in; margin-bottom:6pt; margin-left:.25in; text-align:right }
-p.c43	{ margin-right:.25in; margin-left:.25in; text-align:center }
-p.c42	{ margin-bottom:6pt; text-indent:.25in }
-p.c40	{ font-style:italic; margin-top:9pt; text-align:center }
-p.c39	{ margin-top:.25in; margin-bottom:9pt; margin-left:.25in; text-indent:-.25in }
-p.c38	{ font-style:italic; margin-left:.25in; margin-top:9pt; text-indent:-.25in }
-span.c37	{ font-size:x-large }
-p.c36	{ margin-top:.25in; text-align:center }
-p.c35	{ margin-top:24pt; text-align:center }
-p.c34	{ font-style:italic; margin-top:.5in; text-align:center }
-p.c33	{ margin-top:12pt; text-align:center }
-p.c32	{ margin-top:12pt; margin-bottom:12pt; text-align:center }
-span.c31	{ font-size:medium; text-transform:uppercase }
-p.c28	{ margin-top:9pt; margin-bottom:6pt; text-align:center; text-indent:.25in }
-p.c27	{ margin-top:9pt; text-align:center }
-p.c26	{ margin-bottom:9pt; text-align:center }
-span.c25	{ font-size:large; text-transform:uppercase }
-p.c24	{ margin-top:.5in; margin-bottom:9pt; text-align:center }
-p.c23	{ margin-top:6pt; text-align:right; text-indent:.25in }
-p.c22	{ text-indent:.25in }
-p.c21	{ margin-top:6pt; text-indent:.25in }
-p.c20	{ margin-top:12pt; margin-bottom:6pt; text-align:center }
-span.c19	{ font-size:x-large; text-transform:uppercase }
-p.c18	{ margin-top:.5in; text-align:center }
-p.c17	{ margin-top:3pt; margin-left:45pt; text-indent:-.25in }
-p.c16	{ margin-top:3pt; text-indent:-63pt }
-p.c15	{ margin-top:3pt; text-indent:-.25in }
-p.c14	{ margin-top:3pt; text-indent:-.25in }
-span.c13	{ font-variant:small-caps }
-p.c12	{ margin-top:12pt }
-p.c11	{ margin-bottom:6pt }
-span.c10	{ text-transform:uppercase }
-span.c9	{ font-size:medium; text-transform:uppercase }
-p.c8	{ margin-top:6pt; text-align:center }
-p.c7	{ margin-top:3pt; text-align:center }
-p.c6	{ margin-bottom:6pt; text-align:center }
-p.c5	{ margin-bottom:12pt; text-align:center }
-span.c4	{ font-size:large }
-span.c3	{ font-size:xx-large }
-span.c2	{ font-size:medium }
-p.c1	{ text-align:center }
-</style>
-
-<style type="text/xcss">
-<selector element="p" class="c72">
-  <property name="margin-left" value=".25in" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c69">
-  <property name="margin-left" value=".45in" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c67">
-  <property name="font-style" value="italic" />
-  <property name="margin-bottom" value="6pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector element="p" class="c66">
-  <property name="font-style" value="italic" />
-  <property name="margin-top" value="6pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector element="p" class="c65">
-  <property name="font-style" value="italic" />
-  <property name="margin-left" value=".25in" />
-  <property name="margin-top" value="9pt" />
-  <property name="text-align" value="center" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c64">
-  <property name="margin-top" value="9pt" />
-  <property name="margin-left" value=".25in" />
-  <property name="text-align" value="center" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c63">
-  <property name="font-style" value="italic" />
-  <property name="margin-bottom" value="6pt" />
-  <property name="margin-top" value="6pt" />
-  <property name="text-align" value="center" />
-  <property name="text-indent" value=".25in" />
-</selector>
-<selector element="p" class="c62">
-  <property name="margin-top" value="6pt" />
-</selector>
-<selector element="p" class="c61">
-  <property name="margin-top" value="6pt" />
-  <property name="margin-left" value="31.5pt" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c60">
-  <property name="margin-bottom" value="6pt" />
-  <property name="margin-left" value=".5in" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c59">
-  <property name="margin-bottom" value="6pt" />
-  <property name="margin-left" value="58.5pt" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c58">
-  <property name="margin-top" value="9pt" />
-  <property name="margin-left" value=".25in" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c57">
-  <property name="text-indent" value=".25in" />
-</selector>
-<selector element="p" class="c56">
-  <property name="margin-top" value="9pt" />
-  <property name="margin-left" value=".25in" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c55">
-  <property name="margin-top" value="9pt" />
-  <property name="margin-left" value=".25in" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c53">
-  <property name="margin-top" value="9pt" />
-  <property name="text-indent" value=".25in" />
-</selector>
-<selector element="span" class="c52">
-  <property name="font-size" value="large" />
-  <property name="font-variant" value="small-caps" />
-</selector>
-<selector element="p" class="c51">
-  <property name="margin-bottom" value="6pt" />
-  <property name="text-align" value="right" />
-</selector>
-<selector element="p" class="c50">
-  <property name="margin-bottom" value="6pt" />
-  <property name="margin-left" value="45pt" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c49">
-  <property name="margin-left" value="45pt" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c48">
-  <property name="margin-bottom" value="6pt" />
-  <property name="margin-left" value="31.7pt" />
-  <property name="text-align" value="right" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c47">
-  <property name="margin-bottom" value="6pt" />
-  <property name="margin-left" value=".5in" />
-  <property name="text-align" value="right" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c46">
-  <property name="margin-left" value=".5in" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c45">
-  <property name="margin-left" value="31.5pt" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c44">
-  <property name="margin-right" value=".25in" />
-  <property name="margin-bottom" value="6pt" />
-  <property name="margin-left" value=".25in" />
-  <property name="text-align" value="right" />
-</selector>
-<selector element="p" class="c43">
-  <property name="margin-right" value=".25in" />
-  <property name="margin-left" value=".25in" />
-  <property name="text-align" value="center" />
-</selector>
-<selector element="p" class="c42">
-  <property name="margin-bottom" value="6pt" />
-  <property name="text-indent" value=".25in" />
-</selector>
-<selector element="p" class="c40">
-  <property name="font-style" value="italic" />
-  <property name="margin-top" value="9pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector element="p" class="c39">
-  <property name="margin-top" value=".25in" />
-  <property name="margin-bottom" value="9pt" />
-  <property name="margin-left" value=".25in" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c38">
-  <property name="font-style" value="italic" />
-  <property name="margin-left" value=".25in" />
-  <property name="margin-top" value="9pt" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="span" class="c37">
-  <property name="font-size" value="x-large" />
-</selector>
-<selector element="p" class="c36">
-  <property name="margin-top" value=".25in" />
-  <property name="text-align" value="center" />
-</selector>
-<selector element="p" class="c35">
-  <property name="margin-top" value="24pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector element="p" class="c34">
-  <property name="font-style" value="italic" />
-  <property name="margin-top" value=".5in" />
-  <property name="text-align" value="center" />
-</selector>
-<selector element="p" class="c33">
-  <property name="margin-top" value="12pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector element="p" class="c32">
-  <property name="margin-top" value="12pt" />
-  <property name="margin-bottom" value="12pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector element="span" class="c31">
-  <property name="font-size" value="medium" />
-  <property name="text-transform" value="uppercase" />
-</selector>
-<selector element="p" class="c28">
-  <property name="margin-top" value="9pt" />
-  <property name="margin-bottom" value="6pt" />
-  <property name="text-align" value="center" />
-  <property name="text-indent" value=".25in" />
-</selector>
-<selector element="p" class="c27">
-  <property name="margin-top" value="9pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector element="p" class="c26">
-  <property name="margin-bottom" value="9pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector element="span" class="c25">
-  <property name="font-size" value="large" />
-  <property name="text-transform" value="uppercase" />
-</selector>
-<selector element="p" class="c24">
-  <property name="margin-top" value=".5in" />
-  <property name="margin-bottom" value="9pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector element="p" class="c23">
-  <property name="margin-top" value="6pt" />
-  <property name="text-align" value="right" />
-  <property name="text-indent" value=".25in" />
-</selector>
-<selector element="p" class="c22">
-  <property name="text-indent" value=".25in" />
-</selector>
-<selector element="p" class="c21">
-  <property name="margin-top" value="6pt" />
-  <property name="text-indent" value=".25in" />
-</selector>
-<selector element="p" class="c20">
-  <property name="margin-top" value="12pt" />
-  <property name="margin-bottom" value="6pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector element="span" class="c19">
-  <property name="font-size" value="x-large" />
-  <property name="text-transform" value="uppercase" />
-</selector>
-<selector element="p" class="c18">
-  <property name="margin-top" value=".5in" />
-  <property name="text-align" value="center" />
-</selector>
-<selector element="p" class="c17">
-  <property name="margin-top" value="3pt" />
-  <property name="margin-left" value="45pt" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c16">
-  <property name="margin-top" value="3pt" />
-  <property name="text-indent" value="-63pt" />
-</selector>
-<selector element="p" class="c15">
-  <property name="margin-top" value="3pt" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c14">
-  <property name="margin-top" value="3pt" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="span" class="c13">
-  <property name="font-variant" value="small-caps" />
-</selector>
-<selector element="p" class="c12">
-  <property name="margin-top" value="12pt" />
-</selector>
-<selector element="p" class="c11">
-  <property name="margin-bottom" value="6pt" />
-</selector>
-<selector element="span" class="c10">
-  <property name="text-transform" value="uppercase" />
-</selector>
-<selector element="span" class="c9">
-  <property name="font-size" value="medium" />
-  <property name="text-transform" value="uppercase" />
-</selector>
-<selector element="p" class="c8">
-  <property name="margin-top" value="6pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector element="p" class="c7">
-  <property name="margin-top" value="3pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector element="p" class="c6">
-  <property name="margin-bottom" value="6pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector element="p" class="c5">
-  <property name="margin-bottom" value="12pt" />
-  <property name="text-align" value="center" />
-</selector>
-<selector element="span" class="c4">
-  <property name="font-size" value="large" />
-</selector>
-<selector element="span" class="c3">
-  <property name="font-size" value="xx-large" />
-</selector>
-<selector element="span" class="c2">
-  <property name="font-size" value="medium" />
-</selector>
-<selector element="p" class="c1">
-  <property name="text-align" value="center" />
-</selector>
-</style>
 
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </ThML.head> 
   <ThML.body>
 

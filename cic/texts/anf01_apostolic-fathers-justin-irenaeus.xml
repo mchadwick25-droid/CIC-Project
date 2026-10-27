@@ -9,67 +9,63 @@
 -->
 <ThML>
 <ThML.head>
+<!-- CCEL-authored header block removed; text, notes and scripture tags unchanged -->
 
-<generalInfo>
-  <description>Originally printed in 1885, the ten-volume set, 
-<i>Ante-Nicene Fathers</i>, brings together the work of early Christian 
-thinkers. In particular, it brings together the writings of the early 
-Church fathers prior to the fourth century Nicene Creed. These volumes 
-are noteworthy for their inclusion of entire texts, and not simply 
-fragments or excerpts from these great writings. The translations are 
-fairly literal, providing both readers and scholars with a good 
-approximation of the originals. This particular volume contains works by 
-St. Clement, Mathetes, St. Polycarp, St. Ignatius, Barnabas, St. Papias, 
-St. Justin Martyr, and St. Irenaeus. These writings were heavily 
-influential on the early Church, and for good reason, as they are 
-inspirational and encouraging. These volumes also come with many useful 
-notes, providing the reader with new levels of understanding. Overall, 
-<i>Ante-Nicene Fathers</i>, or any part of it, is a welcome addition to 
-one's 
-reading list.<br /><br />Tim Perrine<br />CCEL Staff Writer</description>
-  <firstPublished>1886</firstPublished>
-  <pubHistory>
-    Text edited by Rev. Alexander Roberts and James Donaldson and first
-    published in Edinburgh, 1867. Additional introductionary material and
-    notes provided for the American edition by A. Cleveland Coxe 1886.
-  </pubHistory>
-  <comments>Hebrew and Greek were checked against page scans of the 1995 
-  Hendrickson reprint by SLK; errors in the hard copy have <b>not</b> been
-  corrected in this digitized text.</comments>
-</generalInfo>
 
-<electronicEdInfo>
-  <authorID>schaff</authorID>
-  <bookID>anf01</bookID>
-  <workID>anf01</workID>
-<versionID>anf01</versionID>
-<bkgID>apostolic-fathers-with-justin-martyr-and-irenaeus-(schaff)</bkgID>
 
-<DC>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <DC.Title>ANF01. The Apostolic Fathers with Justin Martyr and Irenaeus</DC.Title>
-<DC.Creator scheme="short-form" sub="Editor">Philip Schaff</DC.Creator>
-<DC.Creator scheme="file-as" sub="Editor">Schaff, Philip (1819-1893)</DC.Creator>
-<DC.Creator scheme="ccel" sub="Editor">schaff</DC.Creator>
-<DC.Creator scheme="ccel" sub="Author">irenaeus</DC.Creator>	
 
-<DC.Publisher>Grand Rapids, MI: Christian Classics Ethereal Library</DC.Publisher>
-<DC.Relation scheme="containedIn" sub="1">/ccel/schaff/anf-series</DC.Relation>
-<DC.Subject scheme="LCCN">BR60</DC.Subject>
-<DC.Subject scheme="lcsh1">Christianity</DC.Subject>
-<DC.Subject scheme="lcsh2">Early Christian Literature. Fathers of the Church, etc.</DC.Subject>
-<DC.Subject scheme="ccel">All; Early Church; Classic; Proofed;</DC.Subject>
-<DC.Contributor sub="Markup">Timothy Lanfear</DC.Contributor>
-<DC.Date sub="Created">2002-10</DC.Date>
-<DC.Type>Text.Monograph</DC.Type>
-<DC.Format scheme="IMT">text/xml</DC.Format>
-<DC.Identifier scheme="URL">/ccel/schaff/anf01.html</DC.Identifier>
-<DC.Source>Logos Research Systems, Inc.</DC.Source>
-<DC.Language scheme="ISO639-3">eng</DC.Language>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <DC.Rights>Public Domain</DC.Rights>
-</DC>
-
-<comments />
-</electronicEdInfo>
 
 
 
@@ -91,24 +87,28 @@ reading list.<br /><br />Tim Perrine<br />CCEL Staff Writer</description>
 
 
 
-<style type="text/css">
-Center	{ text-align:center }
-endnote	{ font-size:85% }
-.HR30	{ text-align:center; width:30% }
-</style>
 
-<style type="text/xcss">
-<selector element="Center">
-<property name="text-align" value="center" />
-</selector>
-<selector element="endnote">
-<property name="font-size" value="85%" />
-</selector>
-<selector class="HR30">
-<property name="text-align" value="center" />
-<property name="width" value="30%" />
-</selector>
-</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </ThML.head>
