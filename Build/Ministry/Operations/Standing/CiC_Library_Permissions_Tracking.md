@@ -11,7 +11,7 @@ Until a permission below is granted, the Library runs on public-domain texts and
 | # | Who to ask | What for | Status | Next step |
 |---|---|---|---|---|
 | 1 | Augsburg Fortress, Publishers (copyright administrator for the Consultation on Common Texts) | Written permission to store and display the Revised Common Lectionary table of citations in the passage index, so a pastor can pick a Sunday and see its passages | Draft written, not sent | Mark edits the [draft](https://claude.ai/artifact/XUBvFCpDYDtTAakf3QaPcK), fills the bracketed facts, and sends. Until then the index takes a pastor's own typed readings and stores no RCL data |
-| 2 | Christian Classics Ethereal Library (CCEL) | Confirm that our use is allowed: 36 CCEL ThML volumes are vendored, and the passage index reads CCEL's scripture tags | Not drafted | Draft after Mark settles the organization's legal status (see below) |
+| 2 | Christian Classics Ethereal Library (CCEL) | Confirm that our use is allowed: 36 CCEL ThML volumes are vendored, and the passage index reads CCEL's scripture tags | Not drafted | Ready to draft now that the legal status is known (see below) |
 | 3 | Documenta Catholica Omnia | Permission to vendor, if Mark wants it. Today the site is a pointer only | Not drafted | Mark decides whether it is worth asking |
 | 4 | Publishers of in-copyright translations the worklists rank highly | Permission, or a purchase route, for texts we can only reference | Not drafted | Mark picks which to pursue; see the list below |
 
@@ -21,7 +21,7 @@ Read on 2026-10-27 from CCEL's copyright page. Most editions "are based on books
 
 What this means for us, and why a request fits:
 - The vendored ThML files carry CCEL's editors' prefaces and introductions, which CCEL may hold copyright in, and CCEL's scripture markup, which the passage index reads.
-- A public conversation app that serves extracts is closer to "republish" than to personal use. Whether it is non-profit use depends on the organization's legal status, which is still open in the funding strategy.
+- A public conversation app that serves extracts is closer to "republish" than to personal use. The organization is a Colorado public benefit corporation, a for-profit corporate form, so CCEL's allowance for "personal, educational, or non-profit purposes" probably does not cover it, and the "commercial" route (contact CCEL) is the safer reading. Counsel should confirm.
 - The request should ask: whether serving extracts and index results to the public is covered; whether the markup may be used; whether the editors' introductions in each volume are excluded; and what attribution CCEL wants.
 - Proposed interim practice, not yet a ruling: quotes from CCEL volumes come from the public-domain text of the work, not from an editor's introduction, and each record cites the underlying work.
 
@@ -34,10 +34,17 @@ From the question-coverage acquisition worklists (publisher and year as the work
 - Pharr, The Theodosian Code (Princeton, 1952). The Latin is held.
 - Connolly, Didascalia Apostolorum (Oxford, 1929): rights not yet checked, so this one needs a copyright check before any request. Gibson 1903 is held.
 
-## Open question that blocks items 1 to 3
+## Organization status (Mark, 2026-10-27)
 
-The organization's legal status (nonprofit or not) decides which permissions policy applies to us and what the letters can truthfully say. It belongs to the funding strategy, which Mark has open.
+A public benefit corporation registered in Colorado. That is a for-profit corporate form with a stated public benefit purpose. The effect on these requests:
+- The RCL permissions policy gives its free allowances to congregations, similar non-profit, non-commercial groups, and CCT member denominations. A public benefit corporation is none of these, so the Augsburg Fortress request in item 1 is needed, not optional.
+- CCEL's non-profit allowance probably does not apply (item 2).
+- Each letter describes the organization as a Colorado public benefit corporation and says plainly that we do not assume we fall within a free allowance.
+- This is the project's reading, not legal advice. Counsel should confirm how the status is described before any letter goes out.
+
+Still open and Mark's to supply: the organization's exact registered name, whether the tools will be free to the public, and whether any part is charged for. Each letter asks about these.
 
 ## Log
 
-- 2026-10-27: opened. Item 1 drafted, items 2 to 4 listed. Rights findings for the RCL are in `Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md` (entry of 2026-10-26, "Lectionary route").
+- 2026-10-27: opened. Item 1 drafted, items 2 to 4 listed.
+- 2026-10-27: Mark gave the legal status (Colorado public benefit corporation). Item 1's draft updated to say so; the CCEL item and the status section above rewritten. No letter sent. Rights findings for the RCL are in `Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md` (entry of 2026-10-26, "Lectionary route").
