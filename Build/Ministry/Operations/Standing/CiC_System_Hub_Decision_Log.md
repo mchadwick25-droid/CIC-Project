@@ -7031,3 +7031,13 @@ The approved texts:
 **Change order.** `Build/Ministry/Operations/Audits/2026-10-27_question-coverage-step_ChangeOrder.md`, approved as drafted. It edits the Build Process V2.0 (step table and Section 12) and the Completion Standard V1.4 (Section B). The build-cycle skill needs no change.
 
 **Not done.** No pass mark was set and no engine command was built. If Mark later wants coverage enforced as a gate, that is a separate ruling that needs a threshold first.
+
+## 2026-10-27 - Gifted tokens go live with accounts; legal question 14 does not gate them (project lead's ruling)
+
+**Question.** Whether the open legal question 14 (whether an in-service credit falls under Regulation E 1005.20 or California Civil Code 1749.5, and whether the "promotional" label is enough for coupons; `Build/Ministry/Features/Go-Deeper/Decision-Log.md`, question 14) must be answered before gifted tokens go live in the pilot.
+
+**Alternatives shown.** Wait for the answer; go live for known testers only; go live fully.
+
+**Ruling.** Mark, 2026-10-27: go fully live, with no condition. He added that the project has no gift cards, only tokens bought into an account and tokens gifted into an account, and that it does not need promotional coupons. Visitors already see "gift"; the admin dashboard's visible words now say "gift" as well (routes, field names and code names are unchanged).
+
+**Left open.** Question 14 stays with the professional. This ruling attaches no condition to token sales either. If the answer later bears on purchased tokens, it comes back to Mark then.
