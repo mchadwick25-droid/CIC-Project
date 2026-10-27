@@ -1,0 +1,14 @@
+source_file: epiphanius_panarion-haer-65-80-pg42-grc-lat_migne1863.txt
+
+assignments:
+  - row_id: epiphanius_panarion-haer-65-80-pg42-grc-lat_migne1863--panarion-pneumatomachi-aerius-pg-42-greek
+    work: "Epiphanius, Panarion, PG 42, Greek: Against the Pneumatomachi, Against Aerius"
+    author: epiphanius
+    locus: "Against the Pneumatomachi at file line 35672; Against Aerius at 38000; summary naming Aerius and Eustathius at 25022-25025"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: context
+    confidence: provisional
+    note: >
+      A contemporary outside account of the Pneumatomachian party and of Aerius, the follower of Eustathius, written by a Nicene heresiologist. The view from outside the Cappadocian tradition, in the original Greek; context, not its voice.
+      Greek original; second witness for quotation until checked against the page image: Greek legible, Latin column garbled.

@@ -80,8 +80,7 @@ use_note:
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 4, Tier 1 -
 resolved from the borderline by G07's Primary classification; CT
 contest: Historical scope, the Bradshaw-vs-Ferguson representativeness
-question). The diversity content is held in
-pahc.contested.table-diversity at the contested-claims step. Citation
+question). Citation
 discipline: "one eucharist" belongs to Philadelphians 4, NOT Smyrnaeans
 8 (the prior build's corrected misattribution, kept correct here);
 Smyrnaeans 7's flesh-language and 8's bishop-validation are separate

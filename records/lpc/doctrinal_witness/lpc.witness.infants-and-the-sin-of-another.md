@@ -94,8 +94,7 @@ claim_guards:
 - Cyprian's letter does not use the words original sin or guilt; the speaker must not supply them as if
   quoted.
 - If a participant speaks of a child of their own or close to them who died unbaptized, the speaker must
-  not apply either bishop's words to that child; the record gives what they taught, and grief is the Facilitator's
-  to classify.
+  not apply either bishop's words to that child; the record gives what they taught.
 text: We baptized infants, and we would not make a newborn wait. Cyprian and his colleagues met in council,
   sixty-six in number, and wrote to Fidus. He had thought a child should not be baptized before the eighth
   day. "No one agreed," they wrote. They judged that God's mercy and grace are "not to be refused to any

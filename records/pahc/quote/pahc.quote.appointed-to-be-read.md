@@ -5,6 +5,7 @@ record_type: quote
 schema_version: 2
 status: ready
 register: etic
+voice: analytic
 canon_cells:
 - F3-I
 confidence:
@@ -55,13 +56,7 @@ relations:
 - type: associated-with
   target: pahc.term.two-ways
 ---
-Text is verified verbatim against the vendored file at line 68714.
-
-THIS QUOTE CORRECTED A CLAIM IN THIS WORLD. pahc.force.selective-
-canonization had said Hermas was "excluded by Athanasius". The letter
-does not exclude it. The force record's manifestation and description are
-amended, with the correction stated rather than quietly applied, and
-pahc.source.athanasius-festal-39 carries the reasoning.
+Text is verified verbatim against the vendored file at line 68817.
 
 The quoted sentence continues with a semicolon to its natural, complete close ("nor is there in
 any place a mention of apocryphal writings."); this does not change the canon-versus-read

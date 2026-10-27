@@ -1,0 +1,14 @@
+source_file: basil_opera-omnia-pg29-grc-lat_migne1857.txt
+
+assignments:
+  - row_id: basil_opera-omnia-pg29-grc-lat_migne1857--hexaemeron-psalm-homilies-against-eunomius-pg-29-greek
+    work: "Basil, Opera omnia, PG 29, Greek: Hexaemeron, Psalm homilies (Psalm 14 against usury), Against Eunomius I-III"
+    author: basil
+    locus: "Hexaemeron from file line 59639; Psalm homilies from 75601, Psalm 14 at 78686; Against Eunomius from 98130"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: provisional
+    note: >
+      Primary original-language voice of Basil of Caesarea: the homily on Psalm 14 (against lending at interest), the Hexaemeron and the books against Eunomius.
+      Greek original; second witness for quotation until checked against the page image: Greek legible, Latin column garbled.

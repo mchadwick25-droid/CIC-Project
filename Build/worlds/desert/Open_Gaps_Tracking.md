@@ -1010,3 +1010,15 @@ Status: OPEN for B1 until the round 2 recheck. CLOSED for the other claim check 
 Follows the "Independent recheck of the live-reply claim check fixes" entry (2026-10-24). The separate Opus recheck thread confirmed B1 against https://github.com/mchadwick25-droid/CIC-Project/pull/1102 (`Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Independent-Recheck_Round1.md` and `Build/Ministry/Operations/Audits/2026-10-24_live-reply-record-fixes_Independent-Recheck_Round2.md`, merged in https://github.com/mchadwick25-droid/CIC-Project/pull/1099). No round 3 is needed.
 
 Status: CLOSED for the live-reply claim check findings. The Life of Antony register item stays OPEN.
+
+### OG-41. Honest limit on origins written, 2026-10-27.
+
+Question-coverage design thread. A real visitor asked 'How did you start this tradition?' (desert, 2026-10-24). New `desert.limit.origins-no-single-founder` (F3-I) and `desert.source.jerome-life-of-paulus`: no single founder; Antony best remembered; Jerome says that is only partly true and names Paul of Thebes; Cassian Conference XVIII puts the shared life in Jerusalem and the anchorites with Paul and Antony; Pachomius for life in houses under a rule. Not searched: the Historia Monachorum.
+
+Status: OPEN for an independent recheck of the quotes.
+
+### OG-42. `desert.dw.apostolic` conflicts with Cassian Conference XVIII.5, 2026-10-27.
+
+Found by the Opus review of the origins limit (`Build/Ministry/Features/Question-Coverage/Review/opus-honest-limits-review.md`, finding F11). `desert.dw.apostolic` says "We did not claim an unbroken line back to the apostles for our way of life." Cassian, Conference XVIII.5 (npnf211 about line 42538), through Abbot Piamun, says the common life "continued unbroken for a very long period up to the time of Abbot Paul and Antony", and traces it to the believers at Jerusalem. The new `desert.limit.origins-no-single-founder` reports that passage and does not say the line is established. The existing witness was not edited. Decision for this world: narrow the witness so it speaks for what the Desert tradition itself claimed, and give Piamun's claim as one telling among those that disagree.
+
+Status: OPEN.
