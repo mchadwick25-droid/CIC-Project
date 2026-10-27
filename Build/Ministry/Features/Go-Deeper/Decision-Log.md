@@ -1258,3 +1258,5 @@ Checked: all 349 app tests and `tsc` pass, three new panel tests cover the panel
 ## 2026-10-27 — Deleting a saved conversation needs a fresh confirmation (Mark, combined accounts and coupons thread)
 
 109. From the security review of the accounts system: deleting a saved conversation needs the same fresh confirmation as export, so a sign-in cookie left on a shared device cannot erase the shelf. Opening a saved conversation stays on the session alone. Mark chose this over "both need it" and "neither". Built with the screen using the existing confirmation words.
+
+110. The general admin request limit is 30 a minute per address, up from 10 (Mark, after the dashboard gave him a 429 on button presses). The login limit (5 per 15 minutes) is unchanged. The admin token is still 32 characters or more, so guessing it at 30 a minute is not practical.
