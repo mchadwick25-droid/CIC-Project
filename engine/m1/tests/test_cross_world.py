@@ -301,19 +301,19 @@ def test_outside_help_guard_still_catches_a_real_match():
     assert all(f.message == "voice_craft.guard carries don-style distress-comparison language" for f in findings)
 
 
-def test_observe_outside_help_guard_on_the_real_fleet_finds_only_don():
+def test_observe_outside_help_guard_on_the_real_fleet_finds_only_don_and_lpc():
     """The corrected, real fleet state, after the false-positive
-    fix above: don is the only one of the 11 built worlds whose guard
-    actually carries this language - rzg's earlier "carries" finding was
-    the false positive test_outside_help_guard_does_not_false_positive_on_
-    felt_weight now pins. This is the real retrofit list for this guard:
+    fix above: don and lpc are the only two of the 12 built worlds whose
+    guard actually carries this language - rzg's earlier "carries" finding
+    was the false positive test_outside_help_guard_does_not_false_positive_
+    on_felt_weight now pins. This is the real retrofit list for this guard:
     every OTHER world here is a gap."""
     registry = cross_world.load_registry()
     worlds = cross_world.formation_world_keys(registry)
     records = {w: cross_world.load_world_records(w) for w in worlds}
     findings = cross_world.observe_outside_help_guard(records=records, worlds=worlds)
     carries = {f.scope for f in findings if "carries" in f.message}
-    assert carries == {"don"}
+    assert carries == {"don", "lpc"}
 
 
 def test_every_check_defined_in_the_module_is_wired_into_the_report():

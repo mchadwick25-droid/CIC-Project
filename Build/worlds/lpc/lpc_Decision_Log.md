@@ -2723,3 +2723,21 @@ Alternatives shown: (1) not now, waiting for the engine thread's fix to F4/F5 so
 ### 2026-10-27 — P2 findings F14 to F26: records now, voice items after the rerun (project lead's ruling)
 
 The P2 findings of the live review were sorted into record fixes (F14, F22), voice findings (F15, F16, F19, F20, F21, F26), engine faults (F17, F23, F24, with F18 unconfirmed) and a fleet question (F25). Alternatives shown for the voice findings: (1) fix the records now and add no cautions until a live rerun shows what cautions 13 to 17 did; (2) add world_core cautions now; (3) put them to the project lead as a Permanent Prompt change order. Chosen: 1 (project lead, 2026-10-27).
+
+---
+
+### 2026-10-27 — `living_traditions` authored as a boundary text; the `horizon` paragraph left for the project lead (build thread, under the session brief)
+
+The `deployed lpc` gate failed because the registry flags a living tradition and world_core had no `living_traditions` text. The session brief asked for it, grounded in Doc_01's confirmed finding. Alternatives shown in review: (1) a boundary statement only (no named heir, speaks to 430, judges no later dispute, leaves the four divergences to the Facilitator); (2) the divergences voiced too; (3) none. Chosen: 1, since the 2026-09-16 ruling says the distinction is Facilitator-carried and Datus holds none of it. Not ruled: the older paragraph in `horizon` (OG-92 and its addendum).
+
+---
+
+### 2026-10-27 — Evidence reruns still wait for the F4/F5 fix (project lead's ruling, second session)
+
+Asked again, with the new pin 2026-10-27T18-49-35Z ready. Alternatives shown: (1) wait for the engine thread's F4/F5 fix, no spend; (2) admission only, about $0.70, under a named test and cap; (3) admission and full validation together, about $2.20. Chosen: 1 (project lead, 2026-10-27). No metered spend this session. Admission and validation evidence for the new pin stays open; the pin changed (OG-93), so the earlier runs do not count for it.
+
+---
+
+### 2026-10-27 — lpc moves to `built` (project lead's ruling, second session)
+
+Alternatives shown: (1) stay `building`; (2) move to `built`, which lists lpc on staging. Chosen: 2, with the project lead's statement that the Facilitator's routing has passed (project lead, 2026-10-27). `admitted` waits for admission to pass on the new pin; the reruns wait for the F4/F5 fix (entry above).

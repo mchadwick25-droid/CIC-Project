@@ -67,3 +67,11 @@ Verified against this file's own two dark-mode thresholds: 5.49:1 vs the dark
 ground #17130F (clears >=5.3:1) and 5.18:1 vs --color-surface #1E1913 as dark text on top of it
 as a fill (clears >=5.0:1).
 **witt**: accent `#579C40`, portrait `/images/portraits/thumb/nikolaus.webp`.
+
+Hue grounded in the olive-green of Datus's portrait (the grey-green wool of the cloak over an olive tunic):
+H=70deg, S=30%, a muted moss, computed directly for the dark ground. Script-computed: L=43.6% is the
+first point clearing >=5.3:1 against the dark ground (5.42:1) and >=5.07:1 for --color-surface as dark
+text laid on top of it as a fill (5.12:1). Checked against every value above and the two reserved
+semantic tokens for hue distance: the nearest neighbor is desert at 22deg (a yellower, more saturated
+olive, 45% against 30%), then witt at 35deg. Reserved tokens are more than 100deg away.
+**lpc**: accent `#85914E`, portrait `/images/portraits/thumb/datus.webp`.

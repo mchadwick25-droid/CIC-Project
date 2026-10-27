@@ -79,6 +79,17 @@ ACCEPTED_OPEN: dict[str, str] = {
     # compiled and committed, but it has zero search_record records - the
     # Search feature's own migration has not reached rzg yet. Belongs to
     # rzg's own build thread.
+    "registry-key-set/alx": "lpc (built) is the first world to carry `safety_adjacent`, which only the project lead sets; this world has no value yet. Setting it across the fleet is a project-lead decision; belongs to the project lead",
+    "registry-key-set/cappadocian": "lpc (built) is the first world to carry `safety_adjacent`, which only the project lead sets; this world has no value yet. Setting it across the fleet is a project-lead decision; belongs to the project lead",
+    "registry-key-set/desert": "lpc (built) is the first world to carry `safety_adjacent`, which only the project lead sets; this world has no value yet. Setting it across the fleet is a project-lead decision; belongs to the project lead",
+    "registry-key-set/don": "lpc (built) is the first world to carry `safety_adjacent`, which only the project lead sets; this world has no value yet. Setting it across the fleet is a project-lead decision; belongs to the project lead",
+    "registry-key-set/gallic": "lpc (built) is the first world to carry `safety_adjacent`, which only the project lead sets; this world has no value yet. Setting it across the fleet is a project-lead decision; belongs to the project lead",
+    "registry-key-set/hal": "lpc (built) is the first world to carry `safety_adjacent`, which only the project lead sets; this world has no value yet. Setting it across the fleet is a project-lead decision; belongs to the project lead",
+    "registry-key-set/ijc": "lpc (built) is the first world to carry `safety_adjacent`, which only the project lead sets; this world has no value yet. Setting it across the fleet is a project-lead decision; belongs to the project lead",
+    "registry-key-set/pahc": "lpc (built) is the first world to carry `safety_adjacent`, which only the project lead sets; this world has no value yet. Setting it across the fleet is a project-lead decision; belongs to the project lead",
+    "registry-key-set/rzg": "lpc (built) is the first world to carry `safety_adjacent`, which only the project lead sets; this world has no value yet. Setting it across the fleet is a project-lead decision; belongs to the project lead",
+    "registry-key-set/syr": "lpc (built) is the first world to carry `safety_adjacent`, which only the project lead sets; this world has no value yet. Setting it across the fleet is a project-lead decision; belongs to the project lead",
+    "registry-key-set/witt": "lpc (built) is the first world to carry `safety_adjacent`, which only the project lead sets; this world has no value yet. Setting it across the fleet is a project-lead decision; belongs to the project lead",
     "required-record-type/rzg/search_record": "CI/tooling audit - rzg (admitted) carries zero search_record records; Search migration has not reached this world yet; belongs to a rzg build thread",
 }
 

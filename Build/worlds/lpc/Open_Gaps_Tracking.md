@@ -2172,3 +2172,42 @@ Logged 2026-10-27.
 - **Open, this thread.** Three "this build" phrases remain in world_core (the synthetic-judgment note near the top, a thin_topics line "this build has not answered", and a thin_topics note "independently verified in this build"). They were outside the review's list. Check whether the voice reads those fields.
 - **Open, not this thread.** F17, F23, F24 and F18 (engine; add to the engine thread's brief), F25 (fleet question: Doc_10 section 7 and the Permanent Prompt against the Facilitator's system-nature turn).
 - **Owner.** The `lpc` build thread; the project lead for the Living Tradition paragraph and F25.
+
+### OG-93. Public face built: registry card, portrait, living_traditions, traditions page, story tellings (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Done.** `records/worlds/lpc.yaml` carries the card fields (doorway, `card_name` "The Ordinary Church", `app`, thinness statement, `story_placement: false`, `card` with 15 topics and one alias). Datus's portrait is served from `cic-website/assets/portraits/` and as a 344 by 192 thumbnail in the site and the app. The accent colour is `#85914E` (reasoning in `World-Accent-Colours.md`). `world_core.living_traditions` is authored through s21. The traditions page is built from the Wittenberg page's chrome, with the article generated. The seven stories carry a `telling`.
+- **Review.** `Review-Artifacts/Public_Face_Review_2026-10-27.md` (round 1: Revise, 3 P1 and 9 P2, all applied) and `Review-Artifacts/Story_Tellings_And_Public_Face_Review_2026-10-27.md` (tellings round 1 Revise, one P1 and two P2, applied; round 2 Approved to proceed; public face round 2 Approved to proceed).
+- **Not written, needs the project lead.** Hidden `card.keywords`: he approves each one by one (Conversation-Chooser Decision Log, 2026-10-20). The sitemap entry for the traditions page: left out until lpc is `built`, because the page offers Talk and Table for a world nobody can seat yet.
+- **Portrait.** The project lead said on 2026-10-27 that he is unsure of the picture: it looks a lot like the others, though it reflects this world. The approved image (2026-09-15) is in place unchanged; whether to keep it is his call.
+- **Generator.** The tellings and `living_traditions` are in the records. `living_traditions` is also in s21. The tellings are hand-added, as in other worlds, and no s24 re-run would carry them.
+- **Owner.** The `lpc` build thread; the project lead for keywords, sitemap and the portrait.
+
+### OG-94. Record-side defects found while authoring the tellings and the card (2026-10-27).
+
+Logged 2026-10-27. None blocks a telling; all are in records that are `ready`.
+
+- **Plague story `text`.** It says God's kindness reached "strangers as well as His own". That rests on the older printed editions only; Hartel's text has "not only to His own". "Bodies left where they fell" also goes a little past Pontius. The telling avoids both.
+- **Election story.** Ep. XXXIX is used but is not in `sources`. The `absent_detail` line "Pontius says so himself" needs a Pontius §1 locus, and the `text` says Pontius passed over most of Cyprian's early years, which §2 to §4 contradict. `tellable_as` fails reading ease (FRE 58.4).
+- **Celerinus story.** "Had been imprisoned" is documented in Ep. XXXIII, not cited. One `claim_guards` entry here and one on the Cyprian death story fail the retrieval-negatives-structured gate.
+- **Numidicus story.** No note of the *inuictus* variant, though the key clause depends on it (the quote record carries it).
+- **Psalms story.** `text` names only the Vandals; Possidius names Vandals and Alans with some Goths.
+- **World front, `skim.tile` and orientation story 12.** "Always inside a bond it would not break" is wrong for grace: African councils condemned what the Pelagians taught (`lpc.gravity.collegial-communion-preserved`). The card's doorway line was reworded; the approved surface record is unchanged.
+- **Owner.** The `lpc` build thread, in a later batch under review.
+
+### OG-95. F4/F5 status check (2026-10-27).
+
+Logged 2026-10-27. As of `origin/main` 072f21bb, and again at c425f0af, no fix for the post-draft sentence removal is merged and no pull request for it is open; only the engine thread's brief (#1186) exists. It is a go-live blocker. This thread does not fix it. The evidence reruns wait on it (Decision Log, 2026-10-27).
+
+- **Addendum to OG-92, 2026-10-27.** `world_core.living_traditions` is now filled, with the adopted statement as a boundary text (no heir, speaks only to 430, judges no later dispute), on the build session's instruction to make the `deployed lpc` gate pass. The `horizon` paragraph "This tradition is still living ..." is unchanged, so the voice reads the statement twice. The project lead's ruling is needed on both: keep, move or remove the `horizon` paragraph.
+
+### OG-96. lpc moved to `built`; findings that moving it exposed (2026-10-27).
+
+Logged 2026-10-27.
+
+- **State.** The project lead moved lpc from `building` to `built` on 2026-10-27 (Decision Log). `admitted` waits for admission to pass on the new pin; the reruns wait for the F4/F5 fix (OG-95).
+- **Fixed, lpc's own.** Once lpc was `built`, `cross_world` read seven participant-facing figure `dates.display` fields that carried record ids and build notes (`ui-field-leak`). They are reworded in s24 and the seven figure records; facts unchanged, with "as his deacon Pontius tells it" added to the Cyprian line to match the single-witness claim already registered.
+- **Registered, fleet-level.** lpc is the only world with `safety_adjacent`, so the other eleven worlds now show `registry-key-set` findings. They are `ACCEPTED_OPEN` in `engine/m1/cross_world.py`, owned by the project lead, who sets the field. Removing the entries is what fixed means.
+- **Registry line.** `Source_Registry.md` gained an "Out of scope" line for the Gregory of Nyssa Greek volume (PG 46) that the Library thread vendored, so `handoff lpc` step 2 passes.
+- **Owner.** The `lpc` build thread; the project lead for `safety_adjacent` across the fleet.
