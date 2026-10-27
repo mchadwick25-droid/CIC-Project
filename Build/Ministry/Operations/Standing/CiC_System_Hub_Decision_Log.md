@@ -7045,3 +7045,8 @@ The approved texts:
 ## 2026-10-27 - Cap ruling: question-coverage honest limits (don, alx, pahc assurance)
 
 Three honest-limit records written from the first week of real visitor questions went through three review rounds (`opus-honest-limits-review.md`, `opus-honest-limits-recheck.md`, `opus-honest-limits-final-read.md` in `Build/Ministry/Features/Question-Coverage/Review/`). The third round found two blocking safety findings: the don limit named a method and set the traitor beside a suicide question, and the pahc assurance limit read as a verdict on a bereaved visitor's belief. The project lead ruled: apply the third reader's corrections and order one more read by a different reader. That read is `opus-honest-limits-read-4.md`. It is the only review this ruling covers.
+
+## 2026-10-27 - Cap ruling (second): question-coverage honest limits, fourth read
+
+The fourth read (`opus-honest-limits-read-4.md`) found three more blocking defects, all on surfaces the earlier statement-only reads had not checked: the visitor's citation card (the Optatus locus named a method; the Justin card read as a ruling on a bereaved visitor's belief) and a `not_for` line that handed the voice "Judas" in a turn about a suicide. The project lead ruled: apply every fix, and order a fifth read by a fresh reader of the whole shipped surface (the spoken text, the use-note lines sent to the voice, and the citation cards as the engine filters them), with the don contested claim added to the same read. That read is `opus-honest-limits-read-5.md`. It is the only review this ruling covers.
+
