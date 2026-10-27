@@ -1274,3 +1274,7 @@ Checked: all 349 app tests and `tsc` pass, three new panel tests cover the panel
 ## 2026-10-27 — Coupon limits (Mark, combined accounts and coupons thread)
 
 116. Coupon limits are 100,000 tokens per coupon and 300 coupons a day, up from 20,000 and 20. Mark: the limits should not stop him sending tokens to a class or a group, because he is the one sending them. The limits stay as a guard against a typing slip or a taken dashboard login. Set in `engine/deeper/ops/go-deeper.yaml`, section `coupon`. Replaces the stated defaults named in Coupons Later List item 2.
+
+## 2026-10-27 — The side panel shows the account's numbers when signed in (Mark, combined accounts and coupons thread)
+
+117. When someone is signed in, the "Get more conversations" side panel shows the account's own numbers: "N free tokens left." from the account's free allowance, and "N tokens left." from the codes and gifts the account holds (only when it holds one), the same wording as before. It no longer shows the browser's saved code or the free figure from the last reply, which could disagree with the ribbon and the account screen (Mark saw 20, 48 and 420 on one screen). Signed out, the panel is unchanged. Mark chose this (his "A") over one total in the panel and over leaving it.
