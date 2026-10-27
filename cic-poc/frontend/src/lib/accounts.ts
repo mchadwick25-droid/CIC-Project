@@ -54,6 +54,8 @@ export interface AccountState {
   recoveryPending: string | null;
   // How the person signs in now: 'address', 'google', 'apple'.
   methods: string[];
+  // The address on file, shown to its owner on the account screen; null for a Google or Apple only account.
+  address: string | null;
   hasRecoveryCode: boolean;
   // The providers this server has turned on, each with our app's public id there.
   providers: Record<string, string>;
@@ -73,7 +75,7 @@ export class AccountsError extends Error {
   }
 }
 
-let state: AccountState = { status: 'unknown', balance: null, shelf: null, signInOpen: false, homeOpen: false, refillDay: null, lastShelved: null, recoveryPending: null, methods: [], hasRecoveryCode: false, providers: {}, giftNotice: [], savedCodeOffer: false, closedNotice: null };
+let state: AccountState = { status: 'unknown', balance: null, shelf: null, signInOpen: false, homeOpen: false, refillDay: null, lastShelved: null, recoveryPending: null, methods: [], address: null, hasRecoveryCode: false, providers: {}, giftNotice: [], savedCodeOffer: false, closedNotice: null };
 const listeners = new Set<() => void>();
 
 function set(next: Partial<AccountState>) {
@@ -147,7 +149,7 @@ export async function refresh(): Promise<void> {
   try {
     const me = await call('/me');
     if (me.signed_in !== true) {
-      set({ status: 'out', balance: null, shelf: null, recoveryPending: null, methods: [], hasRecoveryCode: false, refillDay: null });
+      set({ status: 'out', balance: null, shelf: null, recoveryPending: null, methods: [], address: null, hasRecoveryCode: false, refillDay: null });
       return;
     }
     const pending = me.recovery_pending as { effective_on?: string } | null;
@@ -155,6 +157,7 @@ export async function refresh(): Promise<void> {
       status: 'in',
       recoveryPending: pending?.effective_on ?? null,
       methods: Array.isArray(me.sign_in_methods) ? me.sign_in_methods.filter((m): m is string => typeof m === 'string') : [],
+      address: typeof me.address === 'string' && me.address !== '' ? me.address : null,
       hasRecoveryCode: me.has_recovery_code === true,
       refillDay: typeof me.refill_day === 'number' ? me.refill_day : null,
     });
@@ -240,7 +243,7 @@ export async function signOut(): Promise<void> {
   try {
     await call('/sign-out', { method: 'POST' });
   } finally {
-    set({ status: 'out', balance: null, shelf: null, recoveryPending: null, methods: [], hasRecoveryCode: false, refillDay: null, homeOpen: false, lastShelved: null });
+    set({ status: 'out', balance: null, shelf: null, recoveryPending: null, methods: [], address: null, hasRecoveryCode: false, refillDay: null, homeOpen: false, lastShelved: null });
     leaveShelved = forgetShelvedConversation();
   }
   if (leaveShelved) window.location.reload();
@@ -349,7 +352,7 @@ export async function deleteAccount(): Promise<void> {
   const body = await call('/delete', { method: 'POST' });
   clearStored();
   forgetShelvedConversation();
-  set({ status: 'out', balance: null, shelf: null, recoveryPending: null, methods: [], hasRecoveryCode: false, refillDay: null, homeOpen: true, lastShelved: null, closedNotice: typeof body.erase_on === 'string' ? body.erase_on : '' });
+  set({ status: 'out', balance: null, shelf: null, recoveryPending: null, methods: [], address: null, hasRecoveryCode: false, refillDay: null, homeOpen: true, lastShelved: null, closedNotice: typeof body.erase_on === 'string' ? body.erase_on : '' });
 }
 
 /** Which providers the server has turned on. Our own server only; no provider script is touched. */
@@ -452,13 +455,13 @@ export async function signOutEverywhere(): Promise<void> {
   try {
     await call('/sign-out-everywhere', { method: 'POST' });
   } finally {
-    set({ status: 'out', balance: null, shelf: null, recoveryPending: null, methods: [], hasRecoveryCode: false, refillDay: null, homeOpen: false, lastShelved: null, giftNotice: [], savedCodeOffer: false });
+    set({ status: 'out', balance: null, shelf: null, recoveryPending: null, methods: [], address: null, hasRecoveryCode: false, refillDay: null, homeOpen: false, lastShelved: null, giftNotice: [], savedCodeOffer: false });
     if (forgetShelvedConversation()) window.location.reload();
   }
 }
 
 /** For tests: back to the first state. */
 export function resetAccountsForTest() {
-  state = { status: 'unknown', balance: null, shelf: null, signInOpen: false, homeOpen: false, refillDay: null, lastShelved: null, recoveryPending: null, methods: [], hasRecoveryCode: false, providers: {}, giftNotice: [], savedCodeOffer: false, closedNotice: null };
+  state = { status: 'unknown', balance: null, shelf: null, signInOpen: false, homeOpen: false, refillDay: null, lastShelved: null, recoveryPending: null, methods: [], address: null, hasRecoveryCode: false, providers: {}, giftNotice: [], savedCodeOffer: false, closedNotice: null };
   listeners.forEach((l) => l());
 }
