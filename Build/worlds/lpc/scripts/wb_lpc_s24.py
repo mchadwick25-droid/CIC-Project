@@ -953,7 +953,7 @@ def build_stories() -> None:
         "Derived from Story-Chunks/lpcstory005_celerinus-writes-to-lucian.md, recast into "
         "first-person register (the letters of Celerinus and Lucian are already first-person; the "
         "surrounding narration is recast). 'Put to death by hunger and thirst' is at "
-        "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 30706. Both claim_guards "
+        "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 30706. Two of the claim_guards "
         "entries turn Usage Guidance lines of the chunk ('the Representative must not resolve the "
         "tension...'; 'not one of these women speaks for herself') into the schema's barred-claim "
         "field.",
