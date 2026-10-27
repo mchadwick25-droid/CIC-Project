@@ -4,7 +4,7 @@ Independent second reader, run after the corrections to the findings in `opus-ho
 
 ## Recheck of the honest-limit corrections (F1 to F14), 2026-10-27
 
-I edited nothing, made no model calls and did not open canon/sealed_probes. I checked every cited quote and line number against cic/texts/ and confirmed them, apart from the small locus slips listed below. Every source_id and nearest_material id exists. All six statements pass `engine/m7/turn_readability.score_turn` with no failures. They score FK 3.3 to 6.6 and FRE 71 to 89, so all sit under the grade-8 floor that CLAUDE.md treats as a warning, not a failure.
+I edited nothing, made no model calls and did not open canon/sealed_probes. I checked every cited quote and line number against cic/texts/ and confirmed them, apart from the small locus slips listed below. Every source_id and nearest_material id exists. All six statements pass `engine/m7/turn_readability.py (the score_turn function)` with no failures. They score FK 3.3 to 6.6 and FRE 71 to 89, so all sit under the grade-8 floor that CLAUDE.md treats as a warning, not a failure.
 
 ### 1. Verdicts
 
@@ -117,6 +117,6 @@ Either version is acceptable.
 - Whether "sola fide" is Origen's own word or Rufinus's. The Greek is not vendored.
 - What Gaudentius's own letters say, and Augustine's Letter 185.
 - Ephrem's prose refutations and the Odes of Solomon, for syr. The Historia Monachorum, for desert.
-- The m1 and m9 gates, including the question-ending gate. I scored readability with score_turn only.
+- The m1 and m9 gates, including the question-ending gate. I scored readability with the score_turn function only.
 - Whether "believe in Him" in Trallians 9 means Christ or the Father. The statement reads it as Christ. The English is ambiguous, and I treated that reading as acceptable.
 - The contents of pahc.contested.ignatius-dating and first-clement-dating, beyond confirming that both records exist.
