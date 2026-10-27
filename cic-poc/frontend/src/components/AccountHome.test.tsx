@@ -517,6 +517,29 @@ describe('what the room says and shows', () => {
     expect(await screen.findByText('1,540 tokens left')).toBeInTheDocument();
   });
 
+  it('shows the panel the account\'s free tokens and tokens on codes, not the browser\'s own code or the last reply', async () => {
+    serve({ ...signedIn(['address']), '/balance': { body: { ...BALANCE, free_left: 20, code_tokens: 1030, codes_held: 1 } } });
+    const ctx = await load();
+    ctx.deeper.saveCode('ABCD2345EFGH6789JKLM');
+    render(<ctx.GoDeeperPanel />);
+    await act(async () => ctx.accounts.refresh());
+    fireEvent.click(await screen.findByRole('button', { name: 'Get more conversations' }));
+    const panel = within(screen.getByRole('complementary'));
+    expect(panel.getByText('20 free tokens left.')).toBeInTheDocument();
+    expect(panel.getByText('1,030 tokens left.')).toBeInTheDocument();
+  });
+
+  it('leaves out the tokens-on-codes line for an account that holds no code', async () => {
+    serve({ ...signedIn(['address']), '/balance': { body: { ...BALANCE, free_left: 20, code_tokens: 0, codes_held: 0 } } });
+    const ctx = await load();
+    render(<ctx.GoDeeperPanel />);
+    await act(async () => ctx.accounts.refresh());
+    fireEvent.click(await screen.findByRole('button', { name: 'Get more conversations' }));
+    const panel = within(screen.getByRole('complementary'));
+    expect(panel.getByText('20 free tokens left.')).toBeInTheDocument();
+    expect(panel.queryByText(/^[\d,]+ tokens left\.$/)).not.toBeInTheDocument();
+  });
+
   it('keeps the held-code line for someone holding a code, and the free-allowance pitch for everyone else', async () => {
     serve(signedOut());
     const ctx = await load();
