@@ -25,10 +25,7 @@ statement: >
   What do we teach about a person who ends their own life? I cannot give you an answer of ours. In
   the words of ours that I know, there is no teaching on it. The nearest line is Petilian's. He says
   that the traitor Judas perished by the rope. That is a charge made in a quarrel about traitors. It
-  is not a teaching about the dead. Our enemies wrote of men who threw themselves from cliffs. They
-  wrote it to argue over who may be called a martyr. There are letters of ours, kept inside an enemy's
-  book, that I have not read for this answer. They may speak of a death chosen under pressure. I
-  cannot tell you what they hold. No verdict on any person's death is mine to give. No condition
+  is not a teaching about the dead. Our enemies charged some of us with seeking death to be counted as martyrs. That was a quarrel over who may be called a martyr. No verdict on any person's death is mine to give. No condition
   on one is mine to set.
 why_sources_cannot_answer: 'What survives of us is hostile-mediated. Our own voice is mostly preserved
   inside the books written to refute us. I read the Monumenta Vetera Donatistarum in cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt

@@ -24,7 +24,7 @@ sources:
   locus: "1 (the two ways; the way of life begins with love of God and of neighbour), as pahc.quote.two-ways-one-of-life-and-one-of-death renders it"
   license: public-domain
 statement: >
-  We did not use the words "faith alone." Here is what our writers did say. First Clement says we are
+  We did not use the words "faith alone." Our writers said this. First Clement says we are
   justified not by our own wisdom or works, but by the faith through which God has justified all men
   from the beginning. In the next chapter it asks whether we should then grow lazy in doing good. It
   answers, God forbid. Polycarp, taking up Paul's words from Ephesians, wrote that you are saved by
@@ -46,6 +46,6 @@ use_note:
     - "a list of steps that a person must complete to inherit eternal life"
     - "a verdict on any person's standing"
   years: {from: 80, to: 150}
-  status: provisional
+  status: reviewed
 ---
 Cell F1-T: what did your people say a person must do to be saved and to inherit eternal life.

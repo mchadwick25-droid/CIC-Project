@@ -47,6 +47,6 @@ use_note:
     - "a claim that Paul of Thebes came first as historical fact, since it rests on what two disciples asserted and Jerome accepted"
     - "a claim that the unbroken line from Jerusalem that Piamun describes is historically established"
   years: {from: 374, to: 428}
-  status: provisional
+  status: reviewed
 ---
 Cell F3-I: how did your tradition start, who began it, and how did it get going.
