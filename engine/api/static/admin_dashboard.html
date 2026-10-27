@@ -1014,7 +1014,7 @@
     if (!address || !(tokens >= 1)) { deeperNotice("Enter an address and a number of tokens.", true); return; }
     if (!window.confirm("Give " + fmtNumber(tokens) + " tokens to whoever signs in with " + address + "? It has no deadline and cannot be re-sent.")) return;
     const resp = await fetch("/api/admin/deeper/coupon", {
-      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" },
+      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json", "x-cic-accounts": "1" },
       body: JSON.stringify({ address: address, tokens: tokens }),
     });
     box.value = "";
@@ -1032,7 +1032,7 @@
   async function cancelCoupon(id) {
     if (!window.confirm("Cancel coupon " + id + "? It will not attach.")) return;
     const resp = await fetch("/api/admin/deeper/coupon/cancel", {
-      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" },
+      method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json", "x-cic-accounts": "1" },
       body: JSON.stringify({ coupon_id: id }),
     });
     if (!resp.ok) { deeperNotice("Nothing was cancelled (" + resp.status + "). It may already be attached; cancel an attached one with its codes.", true); return; }

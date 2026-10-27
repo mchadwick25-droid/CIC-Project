@@ -93,3 +93,5 @@ Sonnet for building, Opus for reviews (as the rules say). No metered model call,
 - Open with Mark, one at a time: (a) security item 2, step-up for shelf delete and reopen; (b) items 3 and 4; (c) the 429 rate limit; (d) the words in Not done 4; (e) coupon limits (Not done 5); (f) the SES configuration set (Not done 9).
 - Mark ruled on security item 2: shelf delete needs a fresh step-up; open stays session only. Built on the same branch (service `shelf_delete_allowed`, route check, `RemoveShelvedScreen` reusing the export confirmation words; no new participant words). Tests: shelf 36 passed, frontend suite passed.
 - Mark ruled on the dashboard 429: admin limit 30 a minute (ruling 110). Changed in `engine/api/ratelimit.py`.
+- Mark ruled on security finding 4: guard the coupon admin POSTs (ruling 111; `engine/api/coupon_routes.py` and the dashboard page). Open: the same hole exists on the dashboard's other change buttons (pause, void, mint, unmatched-dismiss, feedback-close); ask Mark.
+- Security finding 3 (IPv6 /64 send budget) still to put to Mark.
