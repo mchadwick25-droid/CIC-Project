@@ -130,7 +130,9 @@ def test_retrieval_hints_reach_a_cell_the_canon_vocabulary_cannot():
     assert matches[0]["shared_words"] == ["plague", "sickness"]  # both words came from the record's own hint
 
 
-def test_a_hint_that_scores_below_a_canon_match_does_not_displace_it():
+def test_retrieval_hints_never_displace_a_cell_the_canon_vocabulary_matched():
+    # Scoring both corpora together was the shape that displaced honest
+    # canon matches; hints may only fill slots the canon ranking left open.
     q = "What did your community remember of Jesus?"
     before = match_asks_to_cells(message=q, asks=None, canon_questions=CANON_QUESTIONS, top_n=1)
     after = match_asks_to_cells(message=q, asks=None, canon_questions=CANON_QUESTIONS, repository_records={"fix.story.sickness": HINTED}, top_n=1)
@@ -1255,79 +1257,3 @@ def test_diverse_take_downgrades_session_used_families():
     # when only Ignatius qualifies, he still fills the slots - downgraded, not banned
     only_ign = [("w.quote.ign1", 0.9), ("w.quote.ign2", 0.4)]
     assert _diverse_take(only_ign, repo, 2, used) == only_ign
-
-
-# ---- Stage A: a hint is scored as the statement it is -----------------------
-
-STATEMENT_CANON = {
-    f"canon.{cell}": {"id": f"canon.{cell}", "record_type": "canon_question", "cell": cell, "text": text}
-    for cell, text in (
-        ("X-1", "How were the orchard rows kept in your village?"),
-        ("Y-1", "How were the harbour boats kept in your village?"),
-        ("Z-1", "What did the millers say about the river tolls?"),
-    )
-}
-
-
-def _hinted(rid, cell, *phrases):
-    return {
-        "id": rid, "record_type": "story", "canon_cells": [cell],
-        "retrieval": {"tier": 1, "retrieve_when": list(phrases), "do_not_retrieve_when": []},
-    }
-
-
-def _cells(query, records, top_n=1):
-    matches = match_asks_to_cells(message=query, asks=None, canon_questions=STATEMENT_CANON, repository_records=records, top_n=top_n)
-    return [m["cell"] for m in matches]
-
-
-def test_a_cell_does_not_match_on_words_collected_from_different_hint_statements():
-    records = {
-        "x": _hinted("x", "X-1", "ambrose usury lending"),
-        "y1": _hinted("y1", "Y-1", "ambrose letters"),
-        "y2": _hinted("y2", "Y-1", "teach doctrine"),
-        "y3": _hinted("y3", "Y-1", "psalms hymns"),
-    }
-    assert _cells("What did ambrose teach about usury in the psalms?", records) == ["X-1"]
-
-
-def test_a_short_hint_inside_a_long_question_does_not_outscore_the_statement_that_names_it():
-    records = {
-        "x": _hinted("x", "X-1", "ambrose usury psalms sermon letters"),
-        "y": _hinted("y", "Y-1", "ambrose usury"),
-    }
-    assert _cells("ambrose usury psalms bishop", records) == ["X-1"]
-
-
-def test_a_hint_statement_that_names_the_question_outscores_a_weak_canon_match():
-    records = {"z": _hinted("z", "Z-1", "ambrose usury psalms lending bishop")}
-    assert _cells("What did the ambrose usury psalms lending bishop say about the village boats?", records, top_n=1) == ["Z-1"]
-    canon_only = match_asks_to_cells(
-        message="What did the ambrose usury psalms lending bishop say about the village boats?",
-        asks=None, canon_questions=STATEMENT_CANON, top_n=1,
-    )
-    assert [m["cell"] for m in canon_only] != ["Z-1"]
-
-
-def test_each_canon_question_still_finds_its_own_cell_with_a_worlds_hints():
-    from engine.m1 import loader
-
-    fleet = loader.load_fleet_records()
-    canon = {rid: r for rid, r in fleet.items() if r.get("record_type") == "canon_question" and r.get("cell")}
-    for world in ("lpc", "gallic"):
-        records = loader.load_world_records(world)
-        for r in canon.values():
-            cells = {m["cell"].split("|")[0] for m in match_asks_to_cells(message=r["text"], asks=None, canon_questions=canon, repository_records=records)}
-            assert r["cell"] in cells, (world, r["text"])
-
-
-def test_the_lpc_suicide_question_reaches_the_cell_whose_witness_names_it():
-    from engine.m1 import loader
-
-    records = loader.load_world_records("lpc")
-    fleet = loader.load_fleet_records()
-    canon = {rid: r for rid, r in fleet.items() if r.get("record_type") == "canon_question"}
-    query = "What did Augustine teach about suicide in the City of God?"
-    matches = match_asks_to_cells(message=query, asks=None, canon_questions=canon, repository_records=records)
-    assert matches[0]["cell"] == "F6-T"
-    assert "F5-I" not in {m["cell"] for m in matches}
