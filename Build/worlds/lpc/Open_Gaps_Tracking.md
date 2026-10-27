@@ -2151,3 +2151,11 @@ Logged 2026-10-27.
 - **Ruling.** Project lead, 2026-10-27: it goes to an engine thread (see the Decision Log). It is a fleet fault; the `lpc` records are not changed for it.
 - **Engine thread to decide.** Whether a removal that changes meaning should block the shipped answer, and whether a changed answer is re-read before it ships.
 - **Owner.** An engine thread. `lpc` stays `building`.
+
+### OG-91. Governance V3.6 does not yet name the two check-in cases (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Gap.** `CiC_L3D_Facilitator_Governance_V3.6` does not describe the loss-to-suicide and coercion-by-person check-ins that the engine now runs (PR #1174).
+- **Status.** Draft wording was shown to the project lead as an Artifact on 2026-10-27. The project lead decides whether and where it enters V3.6; the file is not edited by this thread.
+- **Owner.** The project lead.

@@ -2705,3 +2705,9 @@ World_core cautions 13–17 are untested live. Alternatives shown: (1) not yet: 
 ### 2026-10-27 — Facilitator check-in wording fixed (project lead's ruling)
 
 Review of the loss and coercion check-ins found "this tradition" wrong at tables, where several traditions sit, and one 29-word sentence. Alternatives shown: (1) fix both; (2) fix the long sentence only; (3) leave as approved. Chosen: 1 (project lead, 2026-10-27). In `engine/m4/facilitator_turns.py` the loss check-in now says "ask your question, and the answer will come from what the sources wrote"; the coercion check-in is split in two sentences and says "ask about authority". Routing logic is unchanged.
+
+---
+
+### 2026-10-27 — Governance document: draft the text, the project lead applies it (project lead's ruling)
+
+`CiC_L3D_Facilitator_Governance_V3.6` should name the two new check-in cases. Alternatives shown: (1) the build thread drafts the text and the project lead decides how it enters V3.6; (2) the build thread edits the Word file by change order; (3) leave it to a Facilitator thread. Chosen: 1 (project lead, 2026-10-27). The draft is shown as an Artifact for review and is not written into the repo.
