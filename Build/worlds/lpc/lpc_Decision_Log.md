@@ -2774,3 +2774,10 @@ Change order: the sentence stream's rule that no streamed sentence is ever taken
 Not fixed by this change, and why: the retrieval defect above (it needs the cell-matching instruments and its own thread); register-5's cap resolved by arrival order (a rhythm ruling); register-4's unplaced "his own words" (a new net rule needs a false-positive measurement); F17 (the tag-overlap floor is a calibrated trade-off); F23 (the output check reports and never edits by Program-Spec M4). F24 is fixed in the engine: a rendering wrapped in quotation marks is set with each mark once, and a quotation inside a rendering takes single marks; no record changes.
 
 A capped live retest of safety-3, safety-4, register-5 and register-6 is the project lead's to name.
+
+---
+
+### 2026-10-27 — The answer record's quotations get an offline build-time check (project lead's ruling)
+
+Review of PR 1217 found that a placed answer record skips the net's claim checks, and that the quotations inside a doctrinal witness's text are not checked against a quote record or the vendored source at run time. Alternatives put to the project lead: change the run-time path so the answer record is checked; add an offline check at build time; leave it to record review. Chosen: the offline build-time check (project lead, 2026-10-27). The run-time behavior of the answer-record path does not change. The gate is `engine/m1/witness_quotations.py`: it reuses `quote_verbatim.verify_quote_text` on every quotation of three words or more in a `verified-direct` doctrinal witness's `text`, against the files its sources cite, with no model call. It found 3 failing records today and 2 more below `verified-direct`, in `don`, `ijc` and `witt`; each is an entry in that world's `Open_Gaps_Tracking.md`, and no record was edited. They stand in `engine/m1/witness_quotation_findings.txt`, which the test in `engine/m1/tests/test_witness_quotations.py` holds the corpus to. The gate is not yet in `gates.GATES`: registering it changes `validation/gates-report.json` in every package and fails three worlds' builds until the records are fixed.
+

@@ -679,10 +679,11 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
             return {"signed_in": True, "available": False}
 
     @app.get("/api/accounts/me")
-    async def me(request: Request):
+    async def me(request: Request, response: Response):
         session = await run_in_threadpool(service.session, request.cookies.get(runtime.cookie_name))
         if session is None:
             return {"signed_in": False}
+        response.headers["Cache-Control"] = "no-store"
         return await run_in_threadpool(service.me, session)
 
     @app.post("/api/accounts/sign-out")
