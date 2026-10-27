@@ -200,7 +200,7 @@ def test_the_shipped_tester_section_holds_the_stated_defaults():
 
 def test_the_shipped_coupon_section_holds_the_stated_numbers():
     ops = load_ops()
-    assert (ops.coupon_max_tokens, ops.coupon_max_per_day, ops.coupon_unclaimed_days) == (20000, 20, 90)
+    assert (ops.coupon_max_tokens, ops.coupon_max_per_day, ops.coupon_unclaimed_days) == (100000, 300, 90)
 
 
 @pytest.mark.parametrize("key", [None, "", "short"])
