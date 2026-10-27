@@ -7067,3 +7067,10 @@ The fourth read (`opus-honest-limits-read-4.md`) found three more blocking defec
 - Accounts: on, with the three switches set together (the server and app settings in Render, the website setting `accounts: true` in `cic-website/assets/go-deeper-config.js`).
 
 **CI change (project lead's ruling).** Change detection uses a sparse checkout and the M1 tests run on all cores. No check was removed. Measured: change detection 6 seconds instead of 1m20s; M1 1m13s instead of 2m49s.
+
+---
+
+### 2026-10-27 — Quotations in doctrinal answer records are checked offline at build time (project lead's ruling)
+
+Context: review of PR 1217. A placed answer record shows its quotations as written, and nothing checked them against the vendored sources. Alternatives: check at run time; check offline at build time; rely on record review. Chosen: offline build-time check (project lead, 2026-10-27); the run-time path is unchanged. Built as `engine/m1/witness_quotations.py` on the existing verbatim matcher, with its failures listed in `engine/m1/witness_quotation_findings.txt` and in the `Open_Gaps_Tracking.md` of `don`, `ijc` and `witt`. Registering it in `gates.GATES` is a separate step: it re-bakes every package's gates report and fails three worlds until their records are fixed. Detail: `Build/worlds/lpc/lpc_Decision_Log.md`.
+

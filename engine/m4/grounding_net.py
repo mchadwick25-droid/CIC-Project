@@ -881,24 +881,33 @@ def reports_speech(sentence: str) -> bool:
 # A sentence that opens with one of these points back at the sentence before
 # it: "That is the mildest punishment", "Neither bishop tells us", "But he
 # wrote that down". Alone, with that sentence gone, it says nothing, unless it
-# names someone itself ("This is the same Moses we remember").
+# names someone itself ("This is the same Moses we remember"), opens a
+# relative clause ("Those who repented"), or cites a record of its own.
 _LEANING_OPENERS = frozenset({
     "that", "this", "these", "those", "such", "neither", "both", "another",
-    "but", "and", "so", "yet", "then", "also", "still", "instead", "thus", "therefore", "hence", "nor", "or",
+    "but", "and", "so", "yet", "also", "still", "instead", "thus", "therefore", "hence", "nor", "or",
     "moreover", "furthermore", "however", "because", "second", "third", "fourth", "finally", "next",
 })
-_FRAGMENT_WORDS = 2
+
+
+def cites_record(text: str) -> bool:
+    """The text carries a record tag or a quote or story marker: the voice
+    meant it to rest on a record."""
+    return bool(_TAG.search(text) or QUOTE_MARKER.search(text) or STORY_MARKER.search(text))
 
 
 def leans_on_previous(sentence: str) -> bool:
     """A sentence that cannot stand once the sentence before it is gone: it
-    opens by pointing back at that sentence (_LEANING_OPENERS) and names no
-    one itself, or it is a fragment of no more than _FRAGMENT_WORDS words."""
-    words = _WORD.findall(_TAG.sub("", sentence))
-    if not words:
+    opens by pointing back at that sentence (_LEANING_OPENERS), cites no
+    record, names no one itself and does not open a relative clause."""
+    if cites_record(sentence):
         return False
-    names_someone = any(w[0].isupper() and w != "I" for w in words[1:])
-    return len(words) <= _FRAGMENT_WORDS or (words[0].lower() in _LEANING_OPENERS and not names_someone)
+    words = _WORD.findall(sentence)
+    if len(words) < 2 or words[0].lower() not in _LEANING_OPENERS:
+        return False
+    if words[0].lower() in {"those", "these"} and words[1].lower() == "who":
+        return False
+    return not any(w[0].isupper() and w != "I" for w in words[1:])
 
 
 def reads_as_lead(sentence: str) -> bool:

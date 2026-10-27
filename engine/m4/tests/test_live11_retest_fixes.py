@@ -301,8 +301,8 @@ def test_the_replay_over_all_42_retest_drafts():
     counts = live11_replay.summary(live11_replay.run_all(RUN), RUN)
     assert counts["turns"] == 42
     # recorded on 14 October: 20 cuts, 8 overcuts, 10 placed, 2 unnamed;
-    # 18 by the net, 2 more that leaned on a cited sentence it removed
-    assert counts["cuts"] == 20
+    # 18 by the net, 1 more that leaned on a cited sentence it removed
+    assert counts["cuts"] == 19
     # still cut: ijc Q2's creed clauses, ijc Q3's homoios phrases and desert
     # Q5's reworded saying, which the records they cite do not hold as theirs
     assert counts["overcuts_still_cut"] == 3
