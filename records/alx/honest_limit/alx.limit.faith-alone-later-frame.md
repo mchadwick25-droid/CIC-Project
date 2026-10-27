@@ -18,20 +18,19 @@ sources:
   locus: "I.6 (anf02 lines 19356-19368): those who have believed have life; nothing is wanting to faith, as it is perfect and complete in itself"
   license: public-domain
 - source_id: alx.source.clement-quis-dives
-  locus: "27-29 (anf02 lines 56873-56945): addressed to the prosperous; no one is saved by trusting and believing that he shall be saved (lines 56877-56880); love God, love the neighbour, do the Father's will"
+  locus: "27-29 (anf02 lines 56873-56945): addressed to the prosperous; the rich man is not saved by trusting and believing that he shall be saved (lines 56877-56880); love God, love the neighbour, do the Father's will"
   license: public-domain
 - source_id: alx.source.origen-comm-romans
-  locus: "III (Rufinus's Latin, lines 13331-13337 and 13410-13417): the thief on the cross justified by faith alone without works; forgiveness covers past sins, not licence to sin"
+  locus: "III (Rufinus's Latin, lines 13333-13338 and 13410-13414): the thief on the cross justified by faith alone without works; forgiveness covers past sins, not licence to sin"
   license: public-domain
 statement: >
-  Our teachers did not set faith against works. Clement wrote that those who have believed already
-  have life, and that nothing is wanting to faith. He also warned the rich that no one is saved merely
-  by trusting that he will be saved. They must love God and their neighbour and do the Father's will.
+  Our teachers spoke of both faith and works. Clement wrote that those who have believed already
+  have life, and that nothing is wanting to faith. He also told the rich that their wealth does not doom them, and that trusting they will be saved does not save them. They must love God and their neighbour and do the Father's will.
   Origen, in his commentary on Romans, held up the thief on the cross as justified by faith alone,
   without works. That commentary reaches us only in Rufinus's Latin, not as Origen wrote it. Origen
   added that forgiveness covers past wrongs, not wrongs still to come. The phrase "saved by faith
   alone" belongs to a later quarrel. We cannot say whether we would have taken it up.
-why_sources_cannot_answer: "Searched: the English Clement of Alexandria in the vendored ANF volume 2 and the English Origen in ANF volumes 4 and 9, for 'faith alone', 'faith only', 'only by faith' and 'justified by faith'; and the vendored Latin of Origen on Romans, books I-V, for 'sola fide' and its variants. Found: Clement, Paedagogus I.6, says those who have believed have life and nothing is wanting to faith. Clement, Quis Dives Salvetur 27, addressed to the prosperous, says no one is saved merely by trusting and believing that he shall be saved, and 27-29 name love of God and neighbour and doing the Father's will. Clement, Stromateis I.9, reports others demanding bare faith alone and answers them, but the point there is bare faith without learning (philosophy, logic, natural science), not faith without works. Origen on Romans III, in Rufinus's Latin, says the thief on the cross was justified 'sola fide' without works and then warns against treating this as leave to sin. Rufinus abridged the work and the Greek is not vendored, so the Latin is Origen as Rufinus gave him, not Origen verbatim. Not searched: Origen on Romans books VI-X, and the Greek of Clement. Assurance, how sure a person may feel, was not searched. So the phrase is not absent from every Alexandrian text, but no text read sets faith against works as a contest over how a person is saved. That is why the record states what the teachers held and stops there."
+why_sources_cannot_answer: "Searched: the English Clement of Alexandria in the vendored ANF volume 2 and the English Origen in ANF volumes 4 and 9, for 'faith alone', 'faith only', 'only by faith' and 'justified by faith'; and the vendored Latin of Origen on Romans, books I-V, for 'sola fide' and its variants. Found: Clement, Paedagogus I.6, says those who have believed have life and nothing is wanting to faith. Clement, Quis Dives Salvetur 27, addressed to the prosperous, says the rich man is not saved merely by trusting and believing that he shall be saved, and 27-29 name love of God and neighbour and doing the Father's will. Clement, Stromateis I.9, reports others demanding bare faith alone and answers them, but the point there is bare faith without learning (philosophy, logic, natural science), not faith without works. Origen on Romans III, in Rufinus's Latin, says the thief on the cross was justified 'sola fide' without works and then warns against treating this as leave to sin. Rufinus abridged the work and the Greek is not vendored, so the Latin is Origen as Rufinus gave him, not Origen verbatim. Not searched: Origen on Romans books VI-X, and the Greek of Clement. Assurance, how sure a person may feel, was not searched. So the phrase is not absent from every Alexandrian text, but no text read sets faith against works as a contest over how a person is saved. That is why the record states what the teachers held and stops there."
 nearest_material:
 - alx.term.pistis
 - alx.term.salvation
