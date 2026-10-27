@@ -12,8 +12,14 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: "Ignatius's letters carry a three-way scholarly split on date (see pahc.contested.ignatius-dating). Justin's Dialogue 80 reports a view he rejects; it is cited for what he rejects and for what he holds, not as the common view of this network."
+  divergence_note: "Ignatius's letters carry a three-way scholarly split on date (see pahc.contested.ignatius-dating). Justin's Dialogue 80 reports a view he rejects, held by some who deny the resurrection; it is cited for what he rejects and for what he holds, not as the common view of this network."
 sources:
+- source_id: pahc.source.first-clement
+  locus: "50 (anf01 lines 2124-2127): those made perfect in love through God's grace now possess a place among the godly and shall be made manifest at the revelation of the kingdom of Christ"
+  license: public-domain
+- source_id: pahc.source.polycarp-philippians
+  locus: "9 (anf01 lines 3489-3492): Ignatius, Paul and the other apostles are [now] in their due place in the presence of the Lord"
+  license: public-domain
 - source_id: pahc.source.ignatius-letters
   locus: "Trallians 9, shorter recension (anf01 lines 6618-6623): the Father will raise up us who believe in him; apart from Christ we have no true life"
   license: public-domain
@@ -21,17 +27,21 @@ sources:
   locus: "Polycrates of Ephesus to Victor (anf08 lines 72582-72585): the great luminaries of Asia have gone to their rest and will rise on the day of the Lord's coming"
   license: public-domain
 - source_id: pahc.source.justin-dialogue
-  locus: "80 (anf01 lines 22127-22131): some who are called Christians say there is no resurrection of the dead and that souls are taken to heaven when they die; Justin says do not imagine they are Christians"
+  locus: "80 (anf01 lines 22127-22131): some who are called Christians blaspheme the God of Abraham, say there is no resurrection of the dead and that their souls are taken to heaven when they die; Justin says do not imagine they are Christians"
   license: public-domain
 statement: >
-  If you ask whether a believer who died today would go to heaven, we cannot answer in those words.
-  Our writers speak of a rising of the dead. Ignatius wrote that the Father will raise up those who
-  believe in Christ, and that without Christ we have no true life. Polycrates wrote that the great
-  ones of Asia had gone to their rest and would rise on the day the Lord comes. Justin warned against
-  teachers who said the souls of the dead are taken to heaven and who denied the rising. We have no
-  full account of the time between death and that day. We have no word on how sure a believer may feel
-  of their own place. We will not name anyone's end for you.
-why_sources_cannot_answer: "Searched: every pahc record for 'heaven', 'eternal life', 'resurrection', 'afterlife' and 'rise again'; the vendored Ignatius, Polycrates and Justin passages above, read in the file. Found: the three statements above, and pahc.story.hermas-visions, whose own text carries no merit, penance-scale or afterlife geography. Not searched end to end: the Martyrdom of Polycarp, Barnabas, Irenaeus and the Shepherd of Hermas outside the visions. Vendored but not yet recorded: Justin, Dialogue 5, which argues the soul is not immortal in its own nature, and Hermas, Similitudes 9.16, which has the apostles preaching to the dead. Neither is used here because neither has been read for this record. So the record can say what these writers hoped for and what Justin rejected. It cannot say what any of them taught about the state of the dead before the rising, or about assurance for a living person."
+  You ask whether a believer who dies goes at once to heaven. Our writers did not put it in those
+  words, but they did speak of the dead. Clement of Rome wrote that those made perfect in love now
+  have a place among the godly. They will be shown when Christ's kingdom comes. Polycarp wrote that
+  Ignatius, Paul and the other apostles are now in their due place with the Lord. Our writers also
+  hope for a rising. Ignatius wrote that the Father will raise up those who believe in Christ.
+  Polycrates wrote that the great ones of Asia had gone to their rest and would rise when the Lord
+  comes. Justin met some who were called Christians. They denied the rising and spoke against the God
+  of Abraham, and they said souls are taken to heaven at death. He would not count them Christians.
+  His quarrel was over the rising. How the time between death and that day is spent, we cannot lay out.
+  How sure a living person may be of their own place, we have no teaching to give. We will not name
+  anyone's end for you.
+why_sources_cannot_answer: "Searched: every pahc record for 'heaven', 'eternal life', 'resurrection', 'afterlife' and 'rise again'; the vendored 1 Clement 50, Polycarp to the Philippians 9, Ignatius, Polycrates and Justin passages above, read in the file. Also found and read: 1 Clement 5 (anf01 lines 687 and 704), which says Peter departed to the place of glory due to him and Paul went into the holy place. Found: the statements above, and pahc.story.hermas-visions, whose own text carries no merit, penance-scale or afterlife geography. Justin's target in Dialogue 80 is some who are called Christians, who deny the resurrection and blaspheme the God of Abraham; the passage is cited for his charge and for what he holds, not as the common view of this network. Not searched end to end: the Martyrdom of Polycarp, Barnabas, Irenaeus and the Shepherd of Hermas outside the visions. Vendored but not yet recorded: Justin, Dialogue 5, which argues the soul is not immortal in its own nature, and Hermas, Similitudes 9.16, which has the apostles preaching to the dead. Neither is used here because neither has been read for this record. So the record can say what these writers hoped for and where they place the faithful dead and the martyrs. It cannot say what any of them taught about the state of the dead before the rising in full, or about assurance for a living person."
 nearest_material:
 - pahc.quote.ignatius-truly-born
 - pahc.quote.polycrates-to-victor
@@ -39,13 +49,13 @@ nearest_material:
 - pahc.quote.two-ways-one-of-life-and-one-of-death
 relations: []
 use_note:
-  means: "The record's writers hope for a rising of the dead on the Lord's day and give no full account of the time between death and then, nor any doctrine of assurance."
+  means: "The record's writers say that those made perfect in love, and the martyrs, now have their place with the Lord, and they hope for a rising on the Lord's day, with no full account of the time between."
   not_for:
-    - "a claim that believers were taught their souls go to heaven at the moment of death"
+    - "a claim that these writers set a present place with the Lord against the rising, or the rising against it"
     - "a claim that Justin's rejection of that view was the view of the whole network"
-    - "a claim about where any named person went after death"
+    - "a claim about where any person went after death, including anyone the visitor names"
     - "an afterlife threat drawn from the two ways"
-  years: {from: 107, to: 200}
+  years: {from: 80, to: 200}
   status: provisional
 ---
 Cell F6-T: what did your people believe happens when someone has died, and do the faithful go to heaven.

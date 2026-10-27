@@ -5,6 +5,7 @@ record_type: quote
 schema_version: 2
 status: ready
 register: etic
+voice: analytic
 canon_cells:
 - F3-I
 confidence:
@@ -54,23 +55,8 @@ relations:
   target: pahc.force.selective-canonization
 - type: associated-with
   target: pahc.term.two-ways
-use_note:
-  means: "Long after this world's time, Athanasius placed the Teaching of the Apostles and the Shepherd among books outside the Canon that were read to newcomers, which shows what became of two of this world's books."
-  not_for:
-    - "a claim that the list of 367 was this world's practice, since it comes 167 years after the window closes"
-    - "a claim about how this world's own churches ranked or read their books"
-    - "a claim that Athanasius condemned the Teaching of the Apostles or the Shepherd"
-    - "a claim that the Fathers' earlier appointing, which the letter mentions but does not date, fell inside 70 to 200"
-  years: {from: 70, to: 200}
-  status: provisional
 ---
-Text is verified verbatim against the vendored file at line 68714.
-
-THIS QUOTE CORRECTED A CLAIM IN THIS WORLD. pahc.force.selective-
-canonization had said Hermas was "excluded by Athanasius". The letter
-does not exclude it. The force record's manifestation and description are
-amended, with the correction stated rather than quietly applied, and
-pahc.source.athanasius-festal-39 carries the reasoning.
+Text is verified verbatim against the vendored file at line 68817.
 
 The quoted sentence continues with a semicolon to its natural, complete close ("nor is there in
 any place a mention of apocryphal writings."); this does not change the canon-versus-read

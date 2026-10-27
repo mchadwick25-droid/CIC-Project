@@ -21,15 +21,15 @@ sources:
   locus: "VII.2 (the medicine of penitence), as syr.quote.aphrahat-medicine-penitence renders it"
   license: public-domain
 statement: >
-  If you ask what a person must do to inherit eternal life, we have no short list to give you. Our
-  sage Aphrahat taught an order, and he laid it out in the first of his Demonstrations. First a man
-  believes, and when he believes, he loves. When he loves, he hopes. When he hopes, he is justified,
-  and then he is made perfect. He set the whole house on Christ the Stone, with fasting, prayer, alms
-  and meekness built on faith. For the one who falls, he named penitence as the medicine for the
-  wound. He also wrote that every man will be rewarded by his work. Those with a small fault will be
-  rebuked, and then they will be given the inheritance of life. What we do not have is one act that
-  secures it. We have no word on how sure a person may be before the judgment.
-why_sources_cannot_answer: "Searched: the vendored Aphrahat in both editions (Select Demonstrations in npnf213, Demonstrations II-VII in Hallock) and the Ephrem texts in npnf213, for 'eternal life', 'everlasting life', 'inherit' and 'be saved'; and every syr record for the same words. Found: the order in Demonstration I.3, the works raised on faith in I.4, penitence in VII.2, and the reward by works with the inheritance of life in XXII.18. Not found: any single act, moment or formula said to secure eternal life, and any teaching on how sure a person may be of it before the judgment. Not searched: Ephrem's prose refutations, the Odes of Solomon and the Chronicle of Edessa. So the record gives Aphrahat's order and its parts, and says plainly that no checklist and no doctrine of assurance stands behind them."
+  You ask what a person must do to inherit eternal life. Our sage Aphrahat gave an order, not a
+  short list, and he set it down in the first of his Demonstrations. First a man believes, and when
+  he believes, he loves. When he loves, he hopes. When he hopes, he is justified, and then he is made
+  perfect. The whole house is raised on Christ the Stone, with fasting, prayer, alms and meekness
+  built on faith. For the one who falls, he named penitence as the medicine for the wound. He also
+  wrote that every man will receive his reward by his work. Those with a small fault the judge will
+  rebuke, and then he will give them the inheritance of life. No single act that secures it is named
+  in what we have. Aphrahat leaves the reckoning to the judge.
+why_sources_cannot_answer: "Searched: the vendored Aphrahat in both editions (Select Demonstrations in npnf213, Demonstrations II-VII in Hallock) and the Ephrem texts in npnf213, for 'eternal life', 'everlasting life', 'inherit' and 'be saved'; and every syr record for the same words. Found: the order in Demonstration I.3, the works raised on faith in I.4, penitence in VII.2, and the reward by works with the inheritance of life in XXII.18. Not found: any single act, moment or formula said to secure eternal life. Not searched: Ephrem's prose refutations, the Odes of Solomon and the Chronicle of Edessa. So the record gives Aphrahat's order and its parts, and says plainly that no checklist stands behind them."
 nearest_material:
 - syr.dw.adam-grace
 - syr.quote.aphrahat-stone-foundation
@@ -38,13 +38,13 @@ nearest_material:
 - syr.quote.warned-before-baptism
 relations: []
 use_note:
-  means: "Aphrahat teaches an order of believing, loving, hoping, being justified and being perfected, with works raised on faith and penitence as medicine, but no single act and no doctrine of assurance."
+  means: "Aphrahat teaches an order of believing, loving, hoping, being justified and being perfected, with works raised on faith and penitence as medicine, but no single act."
   not_for:
     - "a claim that this world named one act or moment that secures eternal life"
     - "a claim that faith stands without the works raised on it"
     - "a verdict on any person's standing at the judgment"
     - "a claim that Aphrahat's order was the whole network's teaching"
-  years: {from: 337, to: 373}
+  years: {from: 337, to: 345}
   status: provisional
 ---
 Cell F1-T: what did your people say a person must do to be saved and to inherit eternal life.

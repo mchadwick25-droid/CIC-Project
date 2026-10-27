@@ -15,24 +15,23 @@ confidence:
   divergence_note: "That 'faith alone' became a named doctrine in later centuries is the standard scholarly account; this record does not argue it. It documents what the vendored texts of this world say and do not say. 1 Clement's date is contested (see pahc.contested.first-clement-dating) but falls inside this world's window on the ranges most scholars give (c. 96, or 80-140); only Herron's minority pre-70 date would fall before it."
 sources:
 - source_id: pahc.source.first-clement
-  locus: "32-33 (anf01 lines 1527-1546): justified not by our own works but by faith; the next chapter asks whether to grow slack in good works and answers 'God forbid'"
+  locus: "32-33 (anf01 lines 1527-1546): not justified by ourselves or our works, but by the faith through which God has justified all men from the beginning (line 1532); the next chapter asks whether to grow slack in good works and answers 'God forbid'"
   license: public-domain
 - source_id: pahc.source.polycarp-philippians
-  locus: "1 (anf01 lines 3256-3258): 'by grace ye are saved, not of works,' but by the will of God through Jesus Christ"
+  locus: "1 (anf01 lines 3256-3258): 'by grace ye are saved, not of works,' but by the will of God through Jesus Christ; the translator marks the words as Ephesians 2:8-9"
   license: public-domain
 - source_id: pahc.source.didache
   locus: "1 (the two ways; the way of life begins with love of God and of neighbour), as pahc.quote.two-ways-one-of-life-and-one-of-death renders it"
   license: public-domain
 statement: >
-  Were you taught that a person is saved by faith alone? We did not use those words, and the argument
-  that uses them came after us. First Clement says we are not justified by our own works but by the
-  faith through which God has justified people from the beginning. In the next chapter it asks whether
-  we should then grow lazy in doing good, and it answers, God forbid. Polycarp wrote that you are
-  saved by grace, not by works, but by the will of God through Jesus Christ. The Teaching of the
-  Twelve opens with two ways, one of life and one of death. The way of life begins with love of God
-  and of neighbour. We have no list of what a person must do to inherit eternal life. We have no word
-  on how sure anyone may feel.
-why_sources_cannot_answer: "Searched: the vendored ANF volumes 1, 7 and 8 (the Apostolic Fathers, Justin, Irenaeus, the Didache, the Remains of the Second and Third Centuries) for 'faith alone', 'faith only' and 'only by faith'. No hit in any of them. The hits in ANF volume 2 are Clement of Alexandria and others outside this world. Found instead: 1 Clement 32 and 33, and Polycarp to the Philippians 1, quoted above. Not searched: the vendored Irenaeus and Tertullian, which fall at or past the edge of this window. So the record states what these writers held and says plainly that the later framing, faith set against works as a contest and assurance as a felt certainty, is not in the texts. Nothing here says what these writers would have answered to it."
+  We did not use the words "faith alone." Here is what our writers did say. First Clement says we are
+  justified not by our own wisdom or works, but by the faith through which God has justified all men
+  from the beginning. In the next chapter it asks whether we should then grow lazy in doing good. It
+  answers, God forbid. Polycarp, taking up Paul's words from Ephesians, wrote that you are saved by
+  grace, not by works, but by the will of God through Jesus Christ. The Teaching of the Twelve gives
+  two ways, one of life and one of death. The way of life begins with love of God and of neighbour.
+  Our writers hold these side by side. The later argument that sets one against another came after us.
+why_sources_cannot_answer: "Searched: the vendored ANF volumes 1, 7 and 8 (the Apostolic Fathers, Justin, Irenaeus, the Didache, the Remains of the Second and Third Centuries) for 'faith alone', 'faith only' and 'only by faith'. No hit in any of them. The hits in ANF volume 2 are Clement of Alexandria and others outside this world. Found instead: 1 Clement 32 and 33, and Polycarp to the Philippians 1, quoted above. Not searched: Tertullian (ANF 3-4), which falls past the edge of this window; Irenaeus sits in ANF 1 and was covered by the phrase search. So the record states what these writers held and says plainly that the later framing, faith set against works as a contest, is not in the texts read. Nothing here says what these writers would have answered to it."
 nearest_material:
 - pahc.quote.two-ways-one-of-life-and-one-of-death
 - pahc.term.two-ways
@@ -40,7 +39,7 @@ nearest_material:
 - pahc.witness.coming-to-belief
 relations: []
 use_note:
-  means: "First Clement, Polycarp and the Didache speak of faith, grace, good works and love of God and neighbour, and none of them gives the later faith-alone argument or a doctrine of felt assurance."
+  means: "First Clement, Polycarp and the Didache speak of faith, grace, good works and love of God and neighbour, and none of them gives the later faith-alone argument."
   not_for:
     - "a claim that this world never spoke of justification by faith, since First Clement 32 does"
     - "a claim that these writers would accept or reject the later doctrine"
