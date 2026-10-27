@@ -2283,3 +2283,12 @@ Logged 2026-10-27.
 
 - **Gap.** `engine/m3/generation.py` calls `apply_net` but not `settle_reply`, so the M3 live path grades the reply as `apply_net` leaves it, never the answer record that production would show in its place. Review finding 8.
 - **Owner.** An engine thread.
+
+### OG-104. Cell matching now scores each hint as a statement; what is left of OG-99 (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Done.** OG-99's cause is fixed in `engine/m4/evidence.py` and `engine/m1/canon.py`: a cell scores as its best single `retrieve_when` statement, and hint statements compete with the canon ranking on score. The lpc safety-4 question reaches F6-T and offers the suicide witness and its paired quote; the off-topic limit no longer rides on safety-4 or safety-3. Method and the table for all twelve worlds: `lpc_Decision_Log.md`, entry "Cell matching scores a hint as the statement it is".
+- **Left.** Deep Interview turn 7 ("What if someone was dying before their penance was finished?") still reaches F5-I through a canon match on "dying" and "someone", and `lpc.limit.ordinary-interior-life` rides with it. That limit is assigned to F5-I only; whether it belongs on other cells is a record-scope question for the `lpc` build thread, not a scoring fault.
+- **Not proved.** Whether the live replies now read right; that needs the capped live retest the project lead names.
+- **Owner.** The `lpc` build thread for the limit's scope; the project lead for the retest.
