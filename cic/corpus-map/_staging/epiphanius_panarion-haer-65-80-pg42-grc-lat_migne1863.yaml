@@ -4,7 +4,7 @@ assignments:
   - row_id: epiphanius_panarion-haer-65-80-pg42-grc-lat_migne1863--panarion-pneumatomachi-aerius-pg-42-greek
     work: "Epiphanius, Panarion, PG 42, Greek: Against the Pneumatomachi, Against Aerius"
     author: epiphanius
-    locus: "Against the Pneumatomachi at file line 35672; Against Aerius at 38000; summary naming Aerius and Eustathius at 25022-25025"
+    locus: "Against the Pneumatomachi at OCR line 35672; Against Aerius at 38000; summary naming Aerius and Eustathius at 25022-25025; line numbers are OCR lines, add 12 for this file's own"
     atlas_ids:
       - cappadocian-nicene-pastoral-monastic-tradition
     role: context

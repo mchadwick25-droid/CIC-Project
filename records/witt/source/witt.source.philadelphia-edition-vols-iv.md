@@ -27,4 +27,4 @@ discovery_channel: G1 manifest; Source Registry row 62; 2026-09-15
 external_ids:
   witt_source_registry_row: 62
 ---
-Named absence; vol. IV carries R48 and R61. (Source Registry row 62; Confidence B.)
+Vols. IV and VI are vendored. Vol. IV carries R48 but not R61 (De votis monasticis). Vol. V is not held until 1 January 2027. (Source Registry row 62; Confidence B.)

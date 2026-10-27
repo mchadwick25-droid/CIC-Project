@@ -177,6 +177,24 @@ describe('My home', () => {
     ],
   };
 
+  it('shows the signed-in person the address on file, and no line for an account without one', async () => {
+    serve({ ...signedIn(['address'], {}, { address: 'ada@example.org' }) });
+    const first = await load();
+    render(<first.AccountHome />);
+    await act(async () => first.accounts.refresh());
+    act(() => first.accounts.openHome());
+    expect(await home().findByText('ada@example.org')).toBeInTheDocument();
+    expect(home().getByText(first.copy.signedInAs, { exact: false })).toHaveTextContent('Signed in as ada@example.org');
+    cleanup();
+    serve({ ...signedIn(['google'], { google: 'client-id' }) });
+    const second = await load();
+    render(<second.AccountHome />);
+    await act(async () => second.accounts.refresh());
+    act(() => second.accounts.openHome());
+    await home().findByRole('heading', { name: second.copy.homeHeading });
+    expect(home().queryByText(second.copy.signedInAs, { exact: false })).not.toBeInTheDocument();
+  });
+
   it('shows the count, the refill day and the saved conversations by voice and day only', async () => {
     serve({ ...signedIn(['address'], {}, { has_recovery_code: false }), '/shelf': { body: shelf } });
     const { AccountHome, accounts, copy } = await load();

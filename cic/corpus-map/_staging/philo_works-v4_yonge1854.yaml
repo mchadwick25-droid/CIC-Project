@@ -4,7 +4,7 @@ assignments:
   - row_id: philo_works-v4_yonge1854--philo-works-volume-4-yonge
     work: "Philo of Alexandria, Works (Yonge), volume 4"
     author: philo
-    locus: "On a Contemplative Life (file line 809), On the Incorruptibility of the World (1764), Against Flaccus (3759), the embassy to Gaius (5588), the fragments of the lost works (10988), and the Questions and Solutions (14697 onward)"
+    locus: "On a Contemplative Life (OCR line 809), On the Incorruptibility of the World (1764), Against Flaccus (3759), the embassy to Gaius (5588), the fragments of the lost works (10988), and the Questions and Solutions (14697 onward); line numbers are OCR lines, add 11 for this file's own"
     atlas_ids:
       - alexandria-catechetical
       - post-apostolic-house-church
