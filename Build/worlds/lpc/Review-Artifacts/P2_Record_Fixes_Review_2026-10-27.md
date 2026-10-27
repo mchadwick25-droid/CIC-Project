@@ -115,3 +115,18 @@ with
 ### Verdict
 
 **Revise (one item).** P1-2, P1-3, P1-4, P2-1 and P2-2 pass, and nothing else broke. P1-1 needs the one guard fix above, which corrects round 1's own over-strong wording. Round 3, if it is needed, checks only that line and its s24 mirror. After that, rebuild so the dated package stops carrying the old gravity name.
+
+## Round 3
+
+- Targeted recheck of the one round-2 fix only: the last `claim_guards` entry of `records/lpc/story/lpc.story.celerinus-writes-to-lucian.md` and its mirror in `Build/worlds/lpc/scripts/wb_lpc_s24.py`. Reviewer model: Opus 5.5 (`claude-opus-5-5`), lower effort. This is round 3 of 3.
+- No repo file was modified other than this one. No model call, engine build, branch switch, commit or push.
+
+### Check
+
+- **Wording: PASS.** The record entry and the s24 string (joined) are both, character for character, the round-2 text: "Celerinus says Candida gave gifts so that she would not sacrifice, and that she did not sacrifice; the speaker must not say she sacrificed. Both letters still call the women's act a great sin, so the speaker must not say she did nothing wrong."
+- **Fidelity: PASS.** Ep. XX §3 says Candida "gave gifts for herself that she might not sacrifice", went up only to the Tria Fata and came down, and "I know, therefore, that she has not sacrificed" (ANF 30622-30630). The same letter asks the martyrs to remit "such a great sin" to Numeria and Candida (ANF 30617-30618). Ep. XXI §1 speaks of "our sisters" and "so great a crime committed" (ANF 30693-30694). Both halves of the guard hold to the letters.
+- **Parse and compile: PASS.** The record's front matter loads with `yaml.safe_load`, and the last guard reads back as the text above. `wb_lpc_s24.py` compiles with `py_compile`.
+
+### Verdict
+
+**Approved to proceed.** The round-2 fix is in place, word for word, in the record and in s24. It is faithful to Ep. XX and XXI. As round 2 noted, the dated package still needs a rebuild before these fixes reach the voice.
