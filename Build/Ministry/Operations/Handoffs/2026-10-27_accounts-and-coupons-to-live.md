@@ -96,3 +96,4 @@ Sonnet for building, Opus for reviews (as the rules say). No metered model call,
 - Mark ruled on security finding 4: guard the coupon admin POSTs (ruling 111; `engine/api/coupon_routes.py` and the dashboard page). Open: the same hole exists on the dashboard's other change buttons (pause, void, mint, unmatched-dismiss, feedback-close); ask Mark.
 - Security finding 3 (IPv6 /64 send budget) still to put to Mark.
 - Mark ruled on security finding 3: sign-in send budgets use IPv6 /48 (ruling 112; `sign_in_network_of` in `engine/api/ratelimit.py`). All six security findings are now resolved or ruled.
+- Mark chose privacy retention draft B (ruling 113). Built locally in `cic-website/privacy.html`, `privacy-go-deeper.js` and the pages tests; committed, not pushed, so it does not cancel CI run 3652. It rides the next push (merge 1176 first, or a follow-up PR with the other words).

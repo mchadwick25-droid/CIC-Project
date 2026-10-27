@@ -340,7 +340,7 @@ def test_the_privacy_page_tells_what_a_purchase_keeps_and_how_long():
 
 
 ACCOUNT_PARTS = ["accounts-optional", "accounts-holds", "accounts-signin", "accounts-back", "accounts-delete",
-                 "accounts-review", "accounts-services"]
+                 "accounts-review", "accounts-services", "accounts-retention"]
 
 
 def test_the_privacy_page_shows_the_account_parts_only_when_accounts_are_on():
