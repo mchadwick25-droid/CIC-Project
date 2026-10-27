@@ -2,7 +2,7 @@ import re
 from datetime import timedelta
 
 from engine.accounts.service import ledger_hash
-from engine.accounts.tests.conftest import sign_in, stepped_up_session
+from engine.accounts.tests.conftest import delete_now, sign_in, stepped_up_session
 
 ADDR = "ada@example.org"
 NET = "203.0.113.5"
@@ -10,7 +10,7 @@ NET = "203.0.113.5"
 
 def test_deleting_an_account_removes_it_its_sessions_and_its_proofs(svc, mailer, clock, store):
     session, cookie = stepped_up_session(svc, mailer, clock)
-    assert svc.delete_account(svc.session(cookie)).status == "ok"
+    assert delete_now(svc, clock, svc.session(cookie)).status == "ok"
     assert svc.session(cookie) is None
     assert store._d.execute("SELECT COUNT(*) FROM accounts").fetchone()[0] == 0
     for table in ("sessions", "challenges"):
@@ -21,7 +21,7 @@ def test_the_ledger_holds_a_hash_of_the_random_id_never_the_address(svc, mailer,
     session, cookie = stepped_up_session(svc, mailer, clock)
     account_id = svc.session(cookie).account_id
     address_hash = svc.keys.address_hash(ADDR)
-    svc.delete_account(svc.session(cookie))
+    delete_now(svc, clock, svc.session(cookie))
     rows = store._d.execute("SELECT ledger_hash, expires_on FROM deletion_ledger").fetchall()
     assert rows == [(ledger_hash(account_id), (svc.today() + timedelta(days=16)).isoformat())]
     assert address_hash.split(":")[1] not in rows[0][0]
@@ -33,7 +33,7 @@ def test_the_ledger_holds_a_hash_of_the_random_id_never_the_address(svc, mailer,
 def test_a_restored_backup_does_not_bring_a_deleted_account_back(svc, mailer, clock, store):
     session, cookie = stepped_up_session(svc, mailer, clock)
     account = store.account(svc.session(cookie).account_id)
-    svc.delete_account(svc.session(cookie))
+    delete_now(svc, clock, svc.session(cookie))
     store.create_account(account)  # what a restore does
     assert store.account(account.account_id) is not None
     assert svc.reapply_ledger() == 1
@@ -77,7 +77,7 @@ def test_a_deleted_account_s_bytes_are_overwritten(svc, mailer, clock, store, tm
     account_id = svc.session(cookie).account_id
     address_hash = svc.keys.address_hash(ADDR)
     assert account_id.encode() in (tmp_path / "d.db").read_bytes()
-    svc.delete_account(svc.session(cookie))
+    delete_now(svc, clock, svc.session(cookie))
     data = (tmp_path / "d.db").read_bytes()
     assert account_id.encode() not in data and address_hash.encode() not in data
 
@@ -85,7 +85,7 @@ def test_a_deleted_account_s_bytes_are_overwritten(svc, mailer, clock, store, tm
 def test_deleting_an_account_forgets_its_address_hash_in_the_ephemeral_file(svc, mailer, clock, store, tmp_path):
     session, cookie = stepped_up_session(svc, mailer, clock)
     address_hash = svc.keys.address_hash(ADDR)
-    svc.delete_account(svc.session(cookie))
+    delete_now(svc, clock, svc.session(cookie))
     assert store._e.execute("SELECT COUNT(*) FROM counters WHERE key LIKE ?", ("%|" + address_hash,)).fetchone()[0] == 0
     assert store._e.execute("SELECT COUNT(*) FROM challenges WHERE address_hash = ?", (address_hash,)).fetchone()[0] == 0
     assert address_hash.encode() not in (tmp_path / "e.db").read_bytes()
@@ -96,7 +96,7 @@ def test_no_log_line_holds_an_address_or_a_code(svc, mailer, clock, caplog):
         session, cookie = stepped_up_session(svc, mailer, clock)
         started = svc.start_sign_in("nobody@example.org", NET)
         svc.finish_sign_in(started.challenge, "nobody@example.org", "000000", NET)
-        svc.delete_account(svc.session(cookie))
+        delete_now(svc, clock, svc.session(cookie))
     text = caplog.text
     assert not re.search(r"[\w.+-]+@[\w-]+\.[\w.]+", text)
     for _, code in mailer.sent:

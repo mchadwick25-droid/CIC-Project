@@ -4,9 +4,9 @@ From: question-coverage design thread (read-only on world records). To: the don,
 
 Quotes below were re-checked against the files on 2026-10-26.
 
-## 1. don: Augustine's charge that Circumcellions killed themselves
+## 1. don: Augustine's precipice charge against Donatist martyrs
 
-- **What the Library holds.** `cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml` lines 16888 to 16890 (reply to Petilian, para. 114) says some "throw themselves over precipices", calls them "enemies of Christ, the friends of the devil", and says they "learned to kill themselves from the same master".
+- **What the Library holds.** `cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml` lines 16889 to 16891 (reply to Petilian, Book II, para. 114) asks in whose honour "those confessors of yours" die "when they throw themselves over precipices", calls such people "enemies of Christ, the friends of the devil", and says they "learned to kill themselves from the same master". Para. 114 does not itself name the Circumcellions, but paras. 46, 110 and 204 do link them to precipices, and Optatus III.4 and Letter 185 make the same charge; the Passio Marculi tells a precipice death as an execution (Opus review, 2026-10-27). Scope the record to those the Donatists honoured as martyrs.
 - **What the world holds.** No don record carries or frames this. The nearest records cover martyr-seeking and the contested portrait only, and none names suicide or voluntary death: `don.dw.not-a-death-wish` (ready), `don.contested.circumcellion-character` (draft), `don.contested.circumcellion-agonistici` (ready), `don.gravity.circumcellion-agonistici` (ready), `don.demo.death-wish` (ready). `don.figure.marculus` is adjacent (a death at a cliff, thrown or jumped).
 - **Who it could reach.** A visitor bereaved by suicide, or at risk, asking whether suicide is damnable (C3 S7); a visitor asking about a death wish dressed as faith (C9).
 - **What the thread must decide.** Whether to add a contested claim or honest limit on voluntary death. Whatever is added must stop the charge being heard as a verdict on anyone who died by suicide, say plainly it is a hostile opponent's polemic about a contested group, and leave any redirect to a human to the Facilitator. Whether `don.contested.circumcellion-character` moves from draft first.

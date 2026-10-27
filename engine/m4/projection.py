@@ -8,6 +8,8 @@ brand-new Store instance pointed at the same backing file - the literal
 """
 from dataclasses import dataclass, field
 
+from engine.m5.routing import PERSONAL_CHECK_IN_REASONS
+
 from .store import Store, StoredEvent
 
 
@@ -21,6 +23,9 @@ class SafetyState:
     # "never silently zeroed" (spec SS8) true across a resume.
     track_a_last: dict | None = None
     track_b_accumulator: dict | None = None
+    # Personal check-in reasons already shown to the participant, read from
+    # the facilitator_turn events; each is shown once per conversation.
+    check_ins_shown: frozenset[str] = frozenset()
 
 
 @dataclass
@@ -117,6 +122,8 @@ def _fold(session_id: str, events: list[StoredEvent]) -> SessionState:
                 state.round_turns = 0
                 state.round_speakers = []
         elif event.event_type == "facilitator_turn":
+            if payload.get("check_in_reason") in PERSONAL_CHECK_IN_REASONS:
+                state.safety.check_ins_shown = state.safety.check_ins_shown | {payload["check_in_reason"]}
             state.transcript.append(
                 {
                     "speaker": "facilitator",

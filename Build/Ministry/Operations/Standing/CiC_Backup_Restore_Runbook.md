@@ -267,6 +267,18 @@ the entry waits in the file and the hourly job sends it. At start-up and every h
 app reads these entries back and removes any account they name. After a restore, check
 the log for "accounts named by the deletion ledger were found again and removed".
 
+**Closed accounts stay closed.** Deleting an account closes it for 90 days (Decision-Log
+ruling 108); the account row stays and a `closures` row holds the closing day and the day
+it will be erased. A backup made before the closing shows the account open, so each closing
+is also written to the bucket as an empty object under
+`db-backups/cic-engine/closed/<erase day>_<ledger hash>`, the same hash as the deletion
+ledger. At start-up and every hour the app reads these back and closes any account they
+name that the file shows open. Re-opening removes the object first, so a restore leaves a
+re-opened account open; if the bucket refuses, the account stays closed and the person asks
+for a new code. The object is pruned the day after its erase day, when the deletion ledger
+takes over. After a restore, check the log for "closed accounts found open again in a
+restored file were closed".
+
 **Erased conversations do not come back either.** The record of an erased conversation (a
 keyed hash of its id and the review tokens that find its review rows) also sits in the
 durable file, so a restore of the events file and the accounts file from before an

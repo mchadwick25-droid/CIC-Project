@@ -95,7 +95,7 @@ def test_sensitive_actions_need_a_fresh_step_up(svc, mailer, action):
     session = svc.session(sign_in(svc, mailer))
     result = {
         "export": lambda: svc.export(session),
-        "delete": lambda: svc.delete_account(session),
+        "delete": lambda: svc.close_account(session),
         "change": lambda: svc.change_address_start(session, "new@example.org", NET),
     }[action]()
     assert result.status == "step_up_needed"

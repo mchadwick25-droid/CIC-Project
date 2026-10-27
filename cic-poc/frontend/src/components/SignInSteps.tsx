@@ -6,7 +6,7 @@ import { messageOf } from './useGuard';
 import { ProviderButtons } from './ProviderButtons';
 import { RecoveryHelp } from './RecoveryHelp';
 
-type Step = 'address' | 'code' | 'age' | 'done' | 'recovery';
+type Step = 'address' | 'code' | 'age' | 'closed' | 'done' | 'recovery';
 
 /** An address, the emailed code, and for a new account the one click about age. Or Google or Apple. */
 export function SignInSteps({ onSignedIn }: { onSignedIn: () => void }) {
@@ -18,6 +18,7 @@ export function SignInSteps({ onSignedIn }: { onSignedIn: () => void }) {
   const [note, setNote] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [token, setToken] = useState<ProviderToken | null>(null);
+  const [eraseOn, setEraseOn] = useState('');
 
   const send = async (e?: React.FormEvent) => {
     e?.preventDefault();
@@ -36,9 +37,13 @@ export function SignInSteps({ onSignedIn }: { onSignedIn: () => void }) {
   };
 
   const settle = (result: SignInResult) => {
-    if (result.kind !== 'ask_age') setToken(null);
+    if (result.kind !== 'ask_age' && result.kind !== 'closed') setToken(null);
     if (result.kind === 'ok') onSignedIn();
     else if (result.kind === 'ask_age') setStep('age');
+    else if (result.kind === 'closed') {
+      setEraseOn(result.eraseOn);
+      setStep('closed');
+    }
     else if (result.kind === 'not_adult') {
       setNote(result.message);
       setStep('done');
@@ -48,11 +53,11 @@ export function SignInSteps({ onSignedIn }: { onSignedIn: () => void }) {
     }
   };
 
-  const verify = async (over18?: boolean) => {
+  const verify = async (over18?: boolean, reopen?: boolean) => {
     setBusy(true);
     setError(null);
     try {
-      settle(token ? await providerSignIn(token, over18) : await finishSignIn(challenge, address.trim(), code.trim(), over18));
+      settle(token ? await providerSignIn(token, over18, reopen) : await finishSignIn(challenge, address.trim(), code.trim(), over18, reopen));
     } catch (err) {
       if (token) setToken(null);
       setError(messageOf(err));
@@ -111,6 +116,16 @@ export function SignInSteps({ onSignedIn }: { onSignedIn: () => void }) {
             <button type="button" disabled={busy} onClick={() => void verify(false)}>{copy.ageNo}</button>
           </div>
           <p className="account__small">{copy.ageNote}</p>
+        </div>
+      )}
+      {step === 'closed' && (
+        <div role="group" aria-label={copy.closedHeading}>
+          <h3>{copy.closedHeading}</h3>
+          <p>{copy.closedText(dayOf(eraseOn))}</p>
+          <div className="account__actions">
+            <button type="button" disabled={busy} onClick={() => void verify(undefined, true)}>{copy.reopenYes}</button>
+            <button type="button" disabled={busy} onClick={() => { setToken(null); setError(null); setStep('address'); }}>{copy.reopenNo}</button>
+          </div>
         </div>
       )}
       {step === 'done' && note && <p role="status">{note}</p>}

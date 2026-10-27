@@ -4,7 +4,7 @@ from engine.accounts.keys import KeyRing, PreviousKey
 from engine.accounts.service import AccountsService
 from engine.accounts.store import Account, AccountStore
 from engine.accounts.tests.conftest import (
-    ADDRESS_KEY, SESSION_KEY, FakeVerifier, provider_sign_in, provider_token, sign_in,
+    ADDRESS_KEY, SESSION_KEY, FakeVerifier, delete_now, provider_sign_in, provider_token, sign_in,
 )
 from datetime import date
 
@@ -195,9 +195,9 @@ def test_unlinking_a_provider_clears_other_sessions_and_leaves_the_address(svc, 
     assert svc.provider_sign_in("google", token, nonce, NET).status == "needs_age_answer"
 
 
-def test_deleting_an_account_removes_its_provider_links(svc, store):
+def test_deleting_an_account_removes_its_provider_links(svc, store, clock):
     session, _ = _stepped_up_by_provider(svc)
-    assert svc.delete_account(session).status == "ok"
+    assert delete_now(svc, clock, session).status == "ok"
     assert _count(store, "accounts") == 0 and _count(store, "linked_sign_ins") == 0
     token, nonce = provider_token(svc, "g-ada")
     assert svc.provider_sign_in("google", token, nonce, NET).status == "needs_age_answer"
@@ -264,9 +264,9 @@ def test_two_unlinks_at_once_cannot_leave_a_provider_only_account_with_no_way_in
     assert len(store.links_of(session.account_id)) == 1
 
 
-def test_a_link_that_lands_after_the_account_is_deleted_leaves_nothing(svc, store):
+def test_a_link_that_lands_after_the_account_is_deleted_leaves_nothing(svc, store, clock):
     session, _ = _stepped_up_by_provider(svc)
-    svc.delete_account(session)
+    delete_now(svc, clock, session)
     assert store.add_link(session.account_id, "k1:orphan", "apple") is False
     assert _count(store, "linked_sign_ins") == 0
 
