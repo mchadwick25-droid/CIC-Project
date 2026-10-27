@@ -16,11 +16,14 @@ sources: []
 relations: []
 author: John Cassian
 work: The Seven Books on the Incarnation of the Lord, Against Nestorius
-edition: Corpus-map assigned; specific vendored file/edition not independently confirmed by this authoring
-  pass (see body note).
+edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 11 (Sulpitius Severus, Vincent of Lerins, John
+  Cassian), tr. Edgar C. S. Gibson, ed. Schaff and Wace, English; the work stands at the end of the Cassian
+  section, before the volume's indexes. Vendored as cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml.
+  The Latin critical text (Petschenig, CSEL 17, 1888, Contra Nestorium libri VII) is also vendored, Latin only,
+  in cic/texts/cassian_institutes-and-contra-nestorium_petschenig1888.txt
 citation: John Cassian, The Seven Books on the Incarnation of the Lord, Against Nestorius
-kind: unvendored
-rights_status: "public-domain; vendored, rights confirmed as part of this world's own corpus-map assignment"
+kind: vendored
+rights_status: "public-domain (Gibson translation, 1894; Petschenig edition, 1888); both files vendored in cic/texts/"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 12; a specific named source (author, translator,
   edition, or witness) whose full text this build session did not independently read -- either its own
@@ -29,4 +32,4 @@ discovery_channel: builder-prior-knowledge; Source Registry row 12; a specific n
 external_ids:
   gallic_source_registry_row: 12
 ---
-Author-tradition basis; the Leo/Celestine transmission context is independently confirmed by Gennadius's own text (row 30). Existence and corpus-map assignment confirmed via the G1 manifest; the text itself has not been read at any point in this build.
+Author-tradition basis; the Leo/Celestine transmission context is independently confirmed by Gennadius's own text (row 30). Existence and corpus-map assignment confirmed via the G1 manifest. Both vendored files hold the work: the English at the NPNF 11 section headed "The Seven Books of John Cassian on the Incarnation of the Lord, Against Nestorius", the Latin in the CSEL volume, whose title page and prolegomena name the Contra Nestorium libri VII (De incarnatione Domini). The text itself has not been read at any point in this build.
