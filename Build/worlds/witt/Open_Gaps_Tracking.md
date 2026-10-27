@@ -2788,3 +2788,16 @@ Follows `Build/Ministry/Operations/Handoffs/2026-10-27_wants-sort-handoff.md` (3
 **Also open.** `Build/worlds/witt/witt_Source_Registry.md` rows 48, 59, 61 and 62 and Doc_02 still describe these texts as not held; they are canonical build documents and were not edited here. Package `packages/witt/2026-10-27T19-23-58Z` is the new pin.
 
 Status: OPEN.
+
+## OG-85. Read-only check of Luther, Philadelphia Edition vols. IV and VI against the records that cite Luther, 2026-10-27.
+
+Follows the entry "Source records brought up to date with the Library's 2026-10-27 Luther vendoring and wants sort" (2026-10-27). Mark chose to leave existing records alone and list the new quote records (question-coverage thread, 2026-10-27). Nothing was re-pointed.
+
+- No quote record cites vol. IV or vol. VI. The cited Luther files are the Large Catechism (Bente and Dau), the Small Catechism (Smith), Jacobs and Spaeth vols. 1 to 3, Bacon and Allen's hymns, Table Talk (Bell) and the Bondage of the Will (Cole). The Large and Small Catechism, Table Talk and the Treatise on Good Works are not in vols. IV or VI.
+- Only the four hymn-book prefaces in vol. VI (13417 to 13875) duplicate a work already cited, in Bacon and Allen (lines 909 to 1252). Four of eight wordings compared differ in sense, not only in style: "hath again risen" is absent in vol. VI; "popish horrors" has no counterpart; "charnel-house" against "flaying-ground"; "tares sown among the wheat" against "mice dirt mixed with the pepper". The two editions are not interchangeable, so a quote stays checked against the file it cites.
+- Adding vol. VI as a second source on `witt.term.hymn`, `witt.term.death`, `witt.term.purgatory`, `witt.term.images` or `witt.term.gospel` is possible, with its own locus and verbatim check. Not done.
+- Quote records wanted (authored by Opus, per CLAUDE.md): the Admonition to Peace (v4 9566), Robbing and Murdering Hordes (11802), Open Letter on the Hard Book (12267), Formula Missae (v6 2788), German Mass (7704), the Christian schools letter (v4 4734), the Common Chest preface (about 4268). Not started. They wait on Mark's ruling on `witt.core`, which says the wording of the 1525 tract is never voiced; that wording is now held in vol. IV.
+- Unmapped in the corpus map for vol. VI: Marriage Booklet, Ordination, Litanies, Hymn Book Prefaces, Hymns annotated, Collects, and the Bible prefaces including Romans (21396). The v6 Short Method locus is open-ended; the v4 Friar Henry and Admonition loci end short of the headings.
+- Dating differences to check before any quote: Bacon dates the first preface 1525, vol. VI 1524; vol. VI dates "Ein feste Burg" 1527 to 1528, the source record says 1529. German originals not checked.
+
+Status: OPEN.
