@@ -740,7 +740,7 @@ def build_gravities() -> None:
     )
 
     emit_gravity(
-        G5, "Conciliar Authority Theory: Egalitarian vs. Hierarchical",
+        G5, "What Councils Can Decide: Cyprian and Augustine",
         "supporting",
         "This is one of this world's real concerns, though an unusual one to weigh. That two "
         "competing theories of conciliar authority existed, in each bishop's own words, is "
@@ -748,9 +748,8 @@ def build_gravities() -> None:
         "and the evidence for that is far thinner. We treat this as a secondary concern, "
         "disclosed as genuinely uncertain rather than settled.\n"
         "\n"
-        "The concern names two competing theories of conciliar authority. Cyprian held that each bishop "
-        "answers to God and none sets himself over the rest. In the preface to the Council of 256 he says no bishop sets himself up "
-        "as \"a bishop of bishops.\" Augustine held that a wider council can correct a narrower one. In On Baptism he appeals to "
+        "The concern names two competing theories of conciliar authority. Cyprian held that no bishop forces his colleagues to obey, and that only Christ judges a bishop. In the preface to the Council of 256 he says no bishop sets himself up "
+        "as \"a bishop of bishops.\" Augustine held that a council of one province must yield to a plenary council, and that a later plenary council can correct an earlier one. In On Baptism he appeals to "
         "the authority of plenary councils, and the word \"plenary\" occurs 31 times in that "
         "treatise.\n"
         "\n"
@@ -797,7 +796,7 @@ def build_gravities() -> None:
         [
             "Cyprian's formula, that no bishop sets himself over the rest, in the preface to the Council of 256: \"neither does any "
             "of us set himself up as a bishop of bishops\"",
-            "Augustine's formula, that a wider council can correct a narrower one, in On Baptism II.3, invoking \"the authority of "
+            "Augustine's formula, that lesser councils yield to plenary ones and later councils correct earlier ones, in On Baptism II.3, invoking \"the authority of "
             "plenary Councils\" (the word \"plenary\" occurs 31 times in the treatise)",
         ],
         conf("B", "verified-via-authority", "contested", "Inferential-Thin",

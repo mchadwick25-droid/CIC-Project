@@ -715,7 +715,7 @@ TERMS = {
 
 STORIES = {
 "lpc.story.celerinus-writes-to-lucian": (
-    "Celerinus asked Lucian in jail to seek peace for two women, Numeria and Candida, and Lucian gave it on condition that the bishop heard each case.",
+    "Celerinus asked Lucian to win peace for his sister, Numeria and Candida, and Lucian gave it if each case went to the bishop.",
     ["a claim that gives words to Celerinus's sister, Numeria or Candida, none of whom speaks in our sources",
      "a claim that Lucian's grant stood without his condition that each case be set before the bishop",
      "a claim that the confessors were either usurpers or heroes"], C),

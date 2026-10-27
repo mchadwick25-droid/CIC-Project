@@ -9,7 +9,7 @@ canon_cells:
 - F4-I
 - F6-I
 use_note:
-  means: "Celerinus asked Lucian in jail to seek peace for two women, Numeria and Candida, and Lucian gave it on condition that the bishop heard each case."
+  means: "Celerinus asked Lucian to win peace for his sister, Numeria and Candida, and Lucian gave it if each case went to the bishop."
   not_for:
     - "a claim that gives words to Celerinus's sister, Numeria or Candida, none of whom speaks in our sources"
     - "a claim that Lucian's grant stood without his condition that each case be set before the bishop"
@@ -46,6 +46,7 @@ claim_guards:
   not invent words for any of the three
 - do not tell Lucian's grant without his own condition, that each case be set before the bishop and confession
   made
+- "Celerinus says Candida did not sacrifice; the speaker must not call her fallen or say she sacrificed."
 relations:
 - type: associated-with
   target: lpc.figure.celerinus
@@ -66,7 +67,7 @@ narrative_tier_justification: 'Documented. Tier 1, Documented (Doc_09 SS3). Two 
   argument: this material survives because Cyprian''s own dossier preserved the case against himself.
   An attribution discipline matters here specifically: these letters are in Cyprian''s corpus and are
   not by Cyprian.'
-tellable_as: How one confessor asked another, not a bishop, to grant peace to two women whose case he pleaded
+tellable_as: How one confessor asked another, not a bishop, to seek peace for his sister and two other women
 text: 'Celerinus was a confessor among us -- he had been imprisoned and had not denied Christ -- and he
   wrote to Lucian, another confessor, in prison. He told Lucian of his own confession. Then he came to
   his grief: he told Lucian he was in the midst of great trouble. His sister had sacrificed. He asked
@@ -77,8 +78,7 @@ text: 'Celerinus was a confessor among us -- he had been imprisoned and had not 
   She was not dead. What Celerinus grieved was a death he believed had happened to her soul -- which is
   why the letter carries a request. He asked Lucian to intervene, for her and for two other women, Numeria
   and Candida, whom Lucian also knew. He made the case for them: they had repented, and there were works
-  to point to. Of Candida he said more: she had given gifts so as not to sacrifice, and she seems to have turned
-  back on the way to the sacrifice, so he was sure she had not sacrificed.
+  to point to. Of Candida he said more. She had given gifts so that she would not have to sacrifice. She seems only to have gone up as far as the Tria Fata, and then come back down. So he knew she had not sacrificed.
 
 
   Lucian''s reply came back from the prison, and it granted what was asked. Before it did, it said what
@@ -97,4 +97,4 @@ modern_contrast: A modern listener may expect a bishop's authority to be the onl
   and the other gives it in the martyrs' name. Yet his own reply says each case is to be set before the
   bishop. Cyprian's own dossier keeps both letters rather than hiding them.
 ---
-Derived from Story-Chunks/lpcstory005_celerinus-writes-to-lucian.md, recast into first-person register (the letters of Celerinus and Lucian are already first-person; the surrounding narration is recast). 'Put to death by hunger and thirst' is at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 30706. Both claim_guards entries turn Usage Guidance lines of the chunk ('the Representative must not resolve the tension...'; 'not one of these women speaks for herself') into the schema's barred-claim field.
+Derived from Story-Chunks/lpcstory005_celerinus-writes-to-lucian.md, recast into first-person register (the letters of Celerinus and Lucian are already first-person; the surrounding narration is recast). 'Put to death by hunger and thirst' is at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 30706. Two of the claim_guards entries turn Usage Guidance lines of the chunk ('the Representative must not resolve the tension...'; 'not one of these women speaks for herself') into the schema's barred-claim field.
