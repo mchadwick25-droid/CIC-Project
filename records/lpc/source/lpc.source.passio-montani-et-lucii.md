@@ -23,6 +23,7 @@ edition: 'Rudolf Knopf (ed.), Ausgewählte Märtyrerakten, 3rd revised edition b
   J. C. B. Mohr, 1929), no. 16, vendored as cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt
   (Registry row 269); Oscar von Gebhardt (ed.), Acta martyrum selecta (Berlin: Alexander Duncker, 1902),
   no. XIV, vendored as cic/texts/gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt (Registry row 270)'
+kind: vendored
 rights_status: public-domain by date (printed 1929 and 1902); vendored in cic/texts/, and chapter 8, the
   one passage this world draws on, was directly read in both files (Source_Registry.md rows 269 and 270).
 attribution_status: anonymous; chapter 1 (Knopf lines 5632-5639) is written in the first person plural

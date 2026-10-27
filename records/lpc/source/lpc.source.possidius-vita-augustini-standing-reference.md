@@ -19,6 +19,7 @@ relations: []
 author: Possidius, bishop of Calama
 work: Sancti Augustini Vita (Life of Augustine)
 edition: Vendored as row 192. This row is the standing reference; row 192 carries the vendored file, cic/texts/possidius_vita-augustini_weiskotten1919.txt
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
   check (Source_Acquisition_Manifest.md SS1).

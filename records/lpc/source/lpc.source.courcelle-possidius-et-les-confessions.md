@@ -20,6 +20,7 @@ work: '''Possidius et les "Confessions" de saint Augustin,'' Recherches de Scien
   428-442 (Mélanges Jules Lebreton II)'
 edition: Recherches de Science Religieuse, 1951 -- in copyright, never vendored (Source_Acquisition_Manifest.md
   SS3); not a vendoring candidate
+kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note
   says "in copyright" and "consultation-only" or "not a vendoring candidate" is in this category' -- spanning

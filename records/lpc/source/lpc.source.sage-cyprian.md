@@ -20,6 +20,7 @@ author: Michael M. Sage
 work: 'Cyprian, Patristic Monograph Series 1 (Cambridge, MA: The Philadelphia Patristic Foundation, 1975)'
 edition: The Philadelphia Patristic Foundation, 1975 -- consultation-only, never vendored (Source_Acquisition_Manifest.md
   SS3)
+kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note
   says "in copyright" and "consultation-only" or "not a vendoring candidate" is in this category' -- spanning

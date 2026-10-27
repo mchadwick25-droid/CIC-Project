@@ -21,6 +21,7 @@ work: 'The Care of the Dead in Late Antiquity, trans. Elizabeth Trapnell Rawling
   (Ithaca: Cornell University Press, 2009)'
 edition: Cornell University Press, 2009 -- consultation-only, never vendored (Source_Acquisition_Manifest.md
   SS3)
+kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note
   says "in copyright" and "consultation-only" or "not a vendoring candidate" is in this category' -- spanning

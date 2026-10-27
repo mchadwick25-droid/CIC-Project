@@ -19,6 +19,7 @@ author: Hans von Soden
 work: 'Die cyprianische Briefsammlung: Geschichte ihrer Entstehung und Überlieferung, Texte und Untersuchungen
   25.3 (Leipzig: J. C. Hinrichs, 1904)'
 edition: Vendored under row 210 as cic/texts/vonsoden_cyprianische-briefsammlung-deu_1904.txt
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
   check (Source_Acquisition_Manifest.md SS1).

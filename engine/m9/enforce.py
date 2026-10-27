@@ -133,6 +133,12 @@ def new_world_waiver_problem(waiver: Waiver) -> str | None:
 # being fixed right now gets a dated waiver, not a free pass by omission.
 # Waived here on that basis, each owned by its own world's build thread.
 ACCEPTED_OPEN: dict[str, Waiver] = {
+    "m1:reciprocity/lpc": Waiver(count=1, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
+    "m1:retrieval-negatives-structured/lpc": Waiver(count=47, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
+    "m1:readability/lpc": Waiver(count=13, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
+    "m1:horizon/lpc": Waiver(count=2, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
+    "m1:cells-required/lpc": Waiver(count=2, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
+    "m1:voice-perspective/lpc": Waiver(count=2, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
     "m9:shelf-row/alx": Waiver(count=26, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:shelf-row/desert": Waiver(count=19, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:emic-vendored-only/desert": Waiver(count=20, deadline="2026-12-14", owner="desert's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed"),

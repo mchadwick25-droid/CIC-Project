@@ -19,6 +19,7 @@ relations: []
 author: Michael A. Fahey
 work: 'Cyprian and the Bible: A Study in Third-Century Exegesis (Tübingen: J.C.B. Mohr, 1971)'
 edition: J.C.B. Mohr, 1971 -- consultation-only, never vendored (Source_Acquisition_Manifest.md SS3)
+kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note
   says "in copyright" and "consultation-only" or "not a vendoring candidate" is in this category' -- spanning

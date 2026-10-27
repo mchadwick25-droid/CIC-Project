@@ -20,6 +20,7 @@ work: 'Augustine: Confessions and Enchiridion, Library of Christian Classics 7 (
   Press, 1955)'
 edition: Westminster Press, 1955 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3);
   not a vendoring candidate
+kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note
   says "in copyright" and "consultation-only" or "not a vendoring candidate" is in this category' -- spanning

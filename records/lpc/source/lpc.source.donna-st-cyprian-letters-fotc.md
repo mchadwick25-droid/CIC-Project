@@ -20,6 +20,7 @@ work: 'St. Cyprian: Letters (1-81), The Fathers of the Church 51 (Washington: Ca
   Press, 1964)'
 edition: Catholic University of America Press, 1964 -- in copyright, never vendored (Source_Acquisition_Manifest.md
   SS3); not a vendoring candidate
+kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note
   says "in copyright" and "consultation-only" or "not a vendoring candidate" is in this category' -- spanning

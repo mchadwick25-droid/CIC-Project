@@ -23,6 +23,7 @@ work: 'Alternative critical editions of Pontius''s Vita Cypriani (row 7): A. Har
   Edizioni Paoline, 1955 -- see row 48)'
 edition: Harnack's own 1913 edition is vendored as row 205. This row is the standing reference for both
   named editions; Pellegrino's remains in copyright and unvendored.
+kind: unvendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
   check (Source_Acquisition_Manifest.md SS1).

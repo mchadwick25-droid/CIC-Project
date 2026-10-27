@@ -36,6 +36,7 @@ edition: 'Lancel''s own Cerf critical edition is in copyright, consultation-only
   and the corpus map assigns it to this world too (cic/corpus-map/latin-pastoral-congregational-christianity.yaml,
   role: context, confidence: provisional). A second Latin printing is in
   cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901.txt.'
+kind: vendored
 rights_status: in-copyright for Lancel's Sources Chrétiennes edition, which is never vendored and is
   consultation-only. The Gesta text itself is public domain by date in the Migne PL 11 printing and the
   Mansi tom. 4 printing named under edition, both vendored in cic/texts/. The content this row licenses

@@ -23,6 +23,7 @@ work: Acta Proconsularia Sancti Cypriani (the official trial record of Cyprian's
 edition: 'No independent edition or URL was ever located under this row''s own number. Vendored inside
   row 194: Hartel''s CSEL 3 Pars III includes the Acta Proconsularia immediately after the Vita (pp. CX-CXIV
   of the printed volume), as cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt'
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
   check (Source_Acquisition_Manifest.md SS1).

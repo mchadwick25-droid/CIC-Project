@@ -23,6 +23,7 @@ author: Unattributed transcribers, The Latin Library
 work: Codex Theodosianus (Imperatori Theodosiani Codex), full text (all 16 books), as transcribed at The
   Latin Library (thelatinlibrary.com/theodosius.html)
 edition: Vendored as cic/texts/codex-theodosianus_latinlibrary.txt
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
   check (Source_Acquisition_Manifest.md SS1).

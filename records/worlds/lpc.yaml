@@ -25,7 +25,7 @@ census_id: "latin-pastoral-congregational-christianity"
 thinness_statement: "Richest in the two bishops' own words - Cyprian's letters and treatises, Augustine's sermons, books and letters - with Pontius's and Possidius's lives of each, and in the disputes over the lapsed, the font and communion kept despite disagreement; thinner on ordinary believers' own account of congregational life (no lay writer describes an ordinary Sunday), women's own words (no text a woman wrote survives; women appear in men's letters, sermons and one martyr account), the lapsed's own explanations, the 133 years from 258 to 391 (a silence in this world's own pastoral voice, held as Contested), the Punic- and Berber-speaking rural congregations, excavated material evidence (one letter describes a church building), and the rites as practised, which the surviving arguments take for granted and do not describe."
 safety_adjacent: true
 living_tradition_flag: true
-state: building
+state: built
 package:
   manifest_hash: "sha256:d6637a8772009f83d7a7e40e8681d9b0b035cd65b3f5228fc17dac43f1b5882a"
   location: "packages/lpc/2026-10-27T20-01-56Z"

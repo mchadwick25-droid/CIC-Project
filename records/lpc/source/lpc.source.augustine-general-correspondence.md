@@ -27,6 +27,7 @@ work: 'Letters -- the general correspondence (138 of the vendored volume''s own 
   vendored 19th-century NPNF selection, not the full modern corpus -- Divjak''s 1975 find added 29 further
   letters (CSEL 88, 1981; row 49), not represented here'
 edition: Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
   check (Source_Acquisition_Manifest.md SS1).
