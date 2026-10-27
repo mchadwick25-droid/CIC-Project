@@ -467,11 +467,16 @@ def _remove_with_leaning(
 _SENTENCE_END = re.compile(r"^(?P<body>.*?)(?P<end>[.!?][\"'”’)]*)\s*$", re.DOTALL)
 
 
-def _answer_record_fallback(raw_text: str, offered_ids: dict[str, list[str]], repository_records: dict[str, dict]) -> str | None:
+def _answer_record_fallback(
+    raw_text: str, offered_ids: dict[str, list[str]], repository_records: dict[str, dict], *, offered_only: bool = False,
+) -> str | None:
     """The world's own answer record for the question: the doctrinal witness
     the draft tagged that the evidence block offered (the first, in the
     block's order), else the witness the draft tagged most often, else the
     turn's lead witness (the first one offered). None when there is none.
+    With `offered_only` the record is one the evidence block offered this
+    turn: the offered witness the draft tagged most often, else the lead
+    witness; None when none was offered.
 
     A tag no record has, whose slug is that of exactly one doctrinal witness
     of the same world ([[witt.term.truly-god-and-truly-man]] for
@@ -488,6 +493,12 @@ def _answer_record_fallback(raw_text: str, offered_ids: dict[str, list[str]], re
         return None
 
     drafted = [found for t in tagged if (found := witness(t))]
+    if offered_only:
+        offered_witnesses = list(dict.fromkeys(found for record_id in offered if (found := witness(record_id))))
+        cited = [found for found in drafted if found in offered_witnesses]
+        if cited:
+            return max(dict.fromkeys(cited), key=cited.count)
+        return offered_witnesses[0] if offered_witnesses else None
     for record_id in offered:
         if (found := witness(record_id)) and found in drafted:
             return found
@@ -557,7 +568,8 @@ def settle_reply(
     substantive_survives is false; the turn reports it as degraded_by_net),
     or when apply_net removed HOLLOWED_SHARE or more of the cited
     sentences the draft carried (_hollowed): what is left of a retelling
-    that lost that much can read as another thing altogether.
+    that lost that much can read as another thing altogether. A hollowed
+    reply is replaced only by a record the evidence offered this turn.
     Such a reply is replaced by the world's own answer record for the
     question, word for word (_answer_record_fallback), with no model call.
     With no answer record to show, the reply is withheld: nothing is shown,
@@ -574,7 +586,9 @@ def settle_reply(
     hollowed = bool(answer_text.strip()) and _hollowed(net_result)
     if not (emptied or ungrounded or hollowed):
         return settled
-    record_id = _answer_record_fallback(raw_text, offered_ids, repository_records)
+    record_id = _answer_record_fallback(
+        raw_text, offered_ids, repository_records, offered_only=not (emptied or ungrounded),
+    )
     if record_id is None:
         return {**settled, "text": "", "citations": []} if ungrounded else settled
     cut_from_draft = net_result["reply_shape"]["removed"]

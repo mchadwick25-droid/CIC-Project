@@ -2258,6 +2258,7 @@ Logged 2026-10-27.
 - **Register-5 (hard teaching lost to the cap).** `MAX_PLACED_QUOTES_PER_REPLY` is one, and the slot goes to the first marker. The voice's soft quote took it and the "mildest condemnation" was refused. Which quote deserves the slot is a ruling for the project lead.
 - **F17 (weak citations).** A tagged sentence with no name or number passes on one shared content word; one with a name or number passes on the grounding floor. Both are calibrated trade-offs (`engine/m4/grounding_net.py` `_claim_verdict`). Verifying a citation needs a model check (`citation_attach`), which cannot be proved offline.
 - **F23 (a later event explained).** `engine/m4/output_check.py` reports and never edits, by Program-Spec M4; no "withhold" reason other than the quotation reasons removes text. Whether a horizon finding should block or redraft is the project lead's.
+- **Leaning is by opener, so a real sentence can be cut.** "But the bishops gathered.", "This was hard." and "Those were days." count as leaning (a test holds it): a sentence that opens with a back-pointing word, cites nothing and names no one is cut when it follows a removed cited sentence, even when it does not point back.
 - **Streaming.** A hollowed reply can replace a reply whose first sentences have streamed. The client replaces the streamed partial with the finished reply (`cic-poc/frontend/src/lib/streamedReply.ts`), so the change is visible only as a swap at the end of the turn.
 - **Owner.** The project lead, for the cap, F23 and the streaming exception.
 

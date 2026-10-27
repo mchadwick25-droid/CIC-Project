@@ -283,6 +283,27 @@ def test_the_answer_record_is_the_offered_witness_the_draft_cited_not_the_one_on
     assert settled["answer_record_fallback"] == OTHER
 
 
+def test_a_hollowed_reply_is_replaced_by_the_offered_lead_witness_when_the_draft_cited_only_another():
+    typed = TYPED.replace(OTHER, WITNESS)
+    raw = f"{typed} {typed} Augustine began with pity [[{WITNESS}]]."
+    settled = _fallback(raw, offered={"doctrinal_witness": [OTHER]})
+    assert settled["answer_record_fallback"] == OTHER
+
+
+def test_a_hollowed_reply_with_no_witness_offered_this_turn_stands():
+    typed = TYPED.replace(OTHER, WITNESS)
+    raw = f"{typed} {typed} Augustine began with pity [[{WITNESS}]]."
+    settled = _fallback(raw, offered={})
+    assert settled["answer_record_fallback"] is None
+    assert settled["text"] == "Augustine began with pity."
+
+
+def test_an_emptied_reply_still_falls_back_to_the_record_the_draft_cited_when_none_was_offered():
+    typed = TYPED.replace(OTHER, WITNESS)
+    settled = _fallback(f"{typed} {typed}", offered={})
+    assert settled["answer_record_fallback"] == WITNESS
+
+
 def test_with_no_offered_witness_the_answer_record_is_the_one_the_draft_cited_most():
     typed = TYPED.replace(OTHER, WITNESS)
     raw = f"{typed} We kept the fast [[{OTHER}]]. We kept it long [[{OTHER}]]. We kept it still [[{OTHER}]]."
