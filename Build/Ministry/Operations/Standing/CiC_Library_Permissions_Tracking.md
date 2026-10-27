@@ -42,9 +42,11 @@ A public benefit corporation registered in Colorado. That is a for-profit corpor
 - Each letter describes the organization as a Colorado public benefit corporation and says plainly that we do not assume we fall within a free allowance.
 - This is the project's reading, not legal advice. Counsel should confirm how the status is described before any letter goes out.
 
-Still open and Mark's to supply: the organization's exact registered name, whether the tools will be free to the public, and whether any part is charged for. Each letter asks about these.
+Facts Mark has given (2026-10-27): the registered name is Faithways Studio, Inc. The Library and passage tools are free to the public. The conversation feature is free for conversations up to 550 tokens and charged for longer ones. The exact registered spelling is not yet checked against the Colorado registration. Because part of the product is charged, rights holders may treat it as commercial: the letters disclose the charge, and a rights holder may answer with questions or a fee. A change to what is charged needs a new request or a fresh permission check.
 
 ## Log
 
 - 2026-10-27: opened. Item 1 drafted, items 2 to 4 listed.
+- 2026-10-27: Mark gave the name (Faithways Studio, Inc.) and said the tools are free to the public except conversations over 550 tokens, which are charged. Item 1's draft carries both and asks Mark to confirm that the lectionary citations would appear only in the passage tool. Contact details and the signer remain bracketed.
+- 2026-10-27: Hallock renewal check (the Stanford database) is with Mark or a helper: search Hallock, Aphraates and the Journal of the Society of Oriental Research for renewals in 1960 and 1961; the result goes into the Hallock file header. See the rights audit of the same date.
 - 2026-10-27: Mark gave the legal status (Colorado public benefit corporation). Item 1's draft updated to say so; the CCEL item and the status section above rewritten. No letter sent. Rights findings for the RCL are in `Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md` (entry of 2026-10-26, "Lectionary route").

@@ -24,7 +24,7 @@ retrieval:
   tier: 1
   retrieve_when:
   - how Christians read the Old Testament, or why a passage not about Christ is read as being about him
-  - what makes Christian interpretation different from Jewish interpretation, or typology
+  - what makes Christian interpretation different from other ways of reading, or typology
   prefer_instead:
   - asking about the allegorical method as a technique (retrieve alx.term.allegoria)
   - asking about a specific passage rather than the interpretive orientation
@@ -50,6 +50,7 @@ use_note:
     - "describing it as reading a later meaning into a text where it is not present"
     - "claiming it erases the historical sense of the text"
     - "limiting it to passages that seem to be about Christ"
+    - "a claim that Jewish reading of the same Scriptures is wrong or finished, or a claim about Jewish readers today"
   years: {from: 180, to: 254}
   status: reviewed
 ---
