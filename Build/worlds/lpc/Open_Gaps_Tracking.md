@@ -2211,3 +2211,22 @@ Logged 2026-10-27.
 - **Registered, fleet-level.** lpc is the only world with `safety_adjacent`, so the other eleven worlds now show `registry-key-set` findings. They are `ACCEPTED_OPEN` in `engine/m1/cross_world.py`, owned by the project lead, who sets the field. Removing the entries is what fixed means.
 - **Registry line.** `Source_Registry.md` gained an "Out of scope" line for the Gregory of Nyssa Greek volume (PG 46) that the Library thread vendored, so `handoff lpc` step 2 passes.
 - **Owner.** The `lpc` build thread; the project lead for `safety_adjacent` across the fleet.
+
+### OG-97. The library-access gate blocks lpc at `built` (2026-10-27).
+
+Logged 2026-10-27. `python -m engine.m9.cli check` found, once lpc was `built`:
+
+| Check | Findings | What it is |
+|---|---|---|
+| `m9:source-citation` and `m9:source-kind` | 210 each | The 210 `lpc.source.*` records have no `citation` and no `kind` (vendored, unvendored or absence) |
+| `m1:retrieval-negatives-structured` | 47 | Retired `do_not_retrieve_when` fields, and `claim_guards` lines with no barred-claim marker |
+| `m1:readability` | 13 | Over the ceiling, for example the claim sentence in `lpc.contested.compel-coercion-development` (FK 36.6) |
+| `m1:horizon` | 2 | `grace-pelagius-characterization.claim` names the protest at Speyer (1529); `transmission-institutionally-dominant-side.description` names the 19th century |
+| `m1:cells-required` | 2 | Two forces have no `canon_cells` |
+| `m1:voice-perspective` | 2 | Two witnesses say "this world" from outside |
+| `m1:reciprocity` | 1 | `no-salvation-outside-the-church` and `communion-over-separation` link one way only |
+
+- **Why it only appeared now.** The gate runs on `built`, `admitted` and `open`. lpc was `building`, so none of this was checked.
+- **What was done.** lpc was returned to `building` (Decision Log, change order). The registry card, tellings, figure fixes and the new pin stay.
+- **What moving to `built` also needs.** The `safety_adjacent` key now differs across the fleet, so eleven `registry-key-set` findings need waivers or values; the outside-help observation test and the R41 probe set need lpc added. All three were prepared in this session and removed again; the diff is in the pull request history.
+- **Owner.** The `lpc` build thread for the fixes. Waivers for a non-grandfathered world are the project lead's to approve.
