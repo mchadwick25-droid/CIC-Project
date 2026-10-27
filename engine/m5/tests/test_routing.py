@@ -1,4 +1,4 @@
-from engine.m5.routing import directive_without_terms, route
+from engine.m5.routing import check_in_reason_for, directive_without_terms, route
 
 ANACHRONISTIC = {"_fleet.modern.rapture"}
 
@@ -16,8 +16,8 @@ def _reader(**overrides):
     return base
 
 
-def _safety(signal="NO_SIGNAL", risk_subject="not_applicable"):
-    return {"signal": signal, "acute_level": "none", "risk_subject": risk_subject, "dynamic_tags": [], "confidence": "high"}
+def _safety(signal="NO_SIGNAL", risk_subject="not_applicable", check_in_reason="not_applicable"):
+    return {"signal": signal, "acute_level": "none", "risk_subject": risk_subject, "check_in_reason": check_in_reason, "dynamic_tags": [], "confidence": "high"}
 
 
 def test_acute_distress_routes_to_safety_turn():
@@ -318,3 +318,65 @@ def test_a_single_bridged_ask_leaves_no_directive_at_all():
         _reader(asks=[{"order": 1, "text": "did you believe in the Trinity"}]),
         ["Trinity"],
     ) is None
+
+
+def test_check_in_reasons_keep_the_check_in_route():
+    for reason in ("loss_to_suicide", "coercion_by_person", "general"):
+        decision = route(safety=_safety("AMBIGUOUS_LOW_CONFIDENCE", check_in_reason=reason), reader=_reader(), pressed={}, anachronistic_term_ids=set(), message="msg")
+        assert decision.action == "check_in_turn"
+
+
+def test_check_in_reason_for_reads_a_personal_reason_whatever_the_signal():
+    for reason in ("loss_to_suicide", "coercion_by_person"):
+        for signal in ("AMBIGUOUS_LOW_CONFIDENCE", "NO_SIGNAL", "HISTORICAL_OTHERNESS_DISORIENTATION"):
+            assert check_in_reason_for(_safety(signal, check_in_reason=reason)) == reason
+    assert check_in_reason_for(_safety("AMBIGUOUS_LOW_CONFIDENCE", check_in_reason="general")) == "general"
+    assert check_in_reason_for(_safety("NO_SIGNAL", check_in_reason="general")) == "general"
+
+
+def test_a_personal_reason_with_a_non_ambiguous_signal_still_gets_the_check_in():
+    for signal in ("NO_SIGNAL", "HISTORICAL_OTHERNESS_DISORIENTATION"):
+        for reason in ("loss_to_suicide", "coercion_by_person"):
+            decision = route(safety=_safety(signal, check_in_reason=reason), reader=_reader(), pressed={}, anachronistic_term_ids=set(), message="msg")
+            assert decision.action == "check_in_turn"
+
+
+def test_a_personal_reason_already_shown_goes_on_as_an_ordinary_turn():
+    for reason in ("loss_to_suicide", "coercion_by_person"):
+        decision = route(
+            safety=_safety("AMBIGUOUS_LOW_CONFIDENCE", check_in_reason=reason), reader=_reader(), pressed={},
+            anachronistic_term_ids=set(), message="msg", check_ins_shown=frozenset({reason}),
+        )
+        assert decision.action == "voice_with_directive"
+
+
+def test_a_reason_not_yet_shown_and_the_general_reason_still_check_in():
+    shown = frozenset({"loss_to_suicide"})
+    for reason in ("coercion_by_person", "general"):
+        decision = route(safety=_safety("AMBIGUOUS_LOW_CONFIDENCE", check_in_reason=reason), reader=_reader(), pressed={}, anachronistic_term_ids=set(), message="msg", check_ins_shown=shown)
+        assert decision.action == "check_in_turn"
+    decision = route(safety=_safety("AMBIGUOUS_LOW_CONFIDENCE", check_in_reason="general"), reader=_reader(), pressed={}, anachronistic_term_ids=set(), message="msg", check_ins_shown=frozenset({"general", "loss_to_suicide", "coercion_by_person"}))
+    assert decision.action == "check_in_turn"
+
+
+def test_acute_distress_ignores_the_check_ins_already_shown():
+    decision = route(
+        safety=_safety("ACUTE_DISTRESS", risk_subject="self", check_in_reason="loss_to_suicide"), reader=_reader(), pressed={},
+        anachronistic_term_ids=set(), message="msg", check_ins_shown=frozenset({"loss_to_suicide"}),
+    )
+    assert decision.action == "safety_turn"
+
+
+def test_check_in_reason_for_defaults_to_general():
+    assert check_in_reason_for(None) == "general"
+    assert check_in_reason_for(_safety("AMBIGUOUS_LOW_CONFIDENCE", check_in_reason="not_applicable")) == "general"
+    assert check_in_reason_for(_safety("AMBIGUOUS_LOW_CONFIDENCE", check_in_reason="bogus")) == "general"
+    assert check_in_reason_for({"signal": "AMBIGUOUS_LOW_CONFIDENCE"}) == "general"
+
+
+def test_the_safety_schema_requires_the_check_in_reason():
+    from engine.m5 import live_calls
+
+    schema = live_calls._SAFETY_TOOL["input_schema"]
+    assert "check_in_reason" in schema["required"]
+    assert set(schema["properties"]["check_in_reason"]["enum"]) == {"loss_to_suicide", "coercion_by_person", "general", "not_applicable"}

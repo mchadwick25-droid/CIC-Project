@@ -80,7 +80,7 @@ def _reader(**overrides):
 
 
 def _safety(signal="NO_SIGNAL", **overrides):
-    base = {"signal": signal, "acute_level": "none", "risk_subject": "not_applicable", "dynamic_tags": [], "confidence": "high"}
+    base = {"signal": signal, "acute_level": "none", "risk_subject": "not_applicable", "check_in_reason": "not_applicable", "dynamic_tags": [], "confidence": "high"}
     base.update(overrides)
     return base
 
@@ -1678,3 +1678,14 @@ def test_a_gate_run_records_no_world_unless_it_is_given_one():
 
     assert [r.world_key for r in gate().usage_records] == [None, None]
     assert [r.world_key for r in gate(world_key="fix").usage_records] == ["fix", "fix"]
+
+
+def test_check_in_reasons_reach_the_participant_and_skip_the_voice():
+    for reason, text in (("loss_to_suicide", facilitator_turns.CHECK_IN_LOSS.text), ("coercion_by_person", facilitator_turns.CHECK_IN_COERCION.text)):
+        client = FakeBedrockClient(safety_response=_safety("AMBIGUOUS_LOW_CONFIDENCE", check_in_reason=reason), reader_response=_reader())
+        result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="msg", pressed={}, anachronistic_term_ids=set())
+        assert result.routing_action == "check_in_turn"
+        assert result.facilitator_events[0]["text"] == text
+        assert result.facilitator_events[0]["resources_appended"] is False
+        assert result.voice_event is None
+        assert "voice_call" not in {r.call_kind for r in result.usage_records}

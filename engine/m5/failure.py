@@ -8,17 +8,15 @@ model.
 """
 from dataclasses import dataclass
 
-from .routing import ACUTE_SIGNALS, RoutingDecision, route
+from .routing import ACUTE_SIGNALS, RoutingDecision, check_in_due, route
 
 FAILURE_STATUSES = {"timeout", "error", "parse_failure"}
 
-# route() never touches its `reader` argument until after the safety-signal
-# checks (routing.py lines ~72-92) - a call carrying one of these signals
-# resolves to safety_turn/check_in_turn without ever dereferencing reader.
-# So when the reader call fails but safety succeeded and returned one of
-# these, routing can and must proceed on safety alone - reader=None is safe
-# specifically because these signals never reach the reader-dependent branches.
-_SAFETY_DECISIVE_SIGNALS = ACUTE_SIGNALS | {"AMBIGUOUS_LOW_CONFIDENCE"}
+# route() never touches its `reader` argument until after the safety checks -
+# an acute or harmful-dynamic signal, or a check-in that is due, resolves to
+# safety_turn/check_in_turn without ever dereferencing reader. So when the
+# reader call fails but safety succeeded and one of those holds, routing can
+# and must proceed on safety alone.
 
 
 @dataclass(frozen=True)
@@ -53,6 +51,7 @@ def resolve_gate(
     pressed: dict[str, bool],
     anachronistic_term_ids: set[str],
     message: str,
+    check_ins_shown: frozenset[str] | set[str] = frozenset(),
 ) -> GateResult:
     # Safety fails or times out
     # -> the Facilitator's fixed line with the redirect, whatever the reader
@@ -67,13 +66,14 @@ def resolve_gate(
         # discarded because the reader failed on the same turn: safety_turn
         # and check_in_turn do not need a reader, so routing on safety alone
         # is safe for those signals.
-        if safety_outcome.value["signal"] in _SAFETY_DECISIVE_SIGNALS:
+        if safety_outcome.value["signal"] in ACUTE_SIGNALS or check_in_due(safety_outcome.value, check_ins_shown):
             routing = route(
                 safety=safety_outcome.value,
                 reader=None,
                 pressed=pressed,
                 anachronistic_term_ids=anachronistic_term_ids,
                 message=message,
+                check_ins_shown=check_ins_shown,
             )
             return GateResult(routing=routing, degraded=True)
         # Reader failed and safety found nothing -> pass-through: the voice
@@ -85,7 +85,7 @@ def resolve_gate(
 
     routing = route(
         safety=safety_outcome.value, reader=reader_outcome.value, pressed=pressed,
-        anachronistic_term_ids=anachronistic_term_ids, message=message,
+        anachronistic_term_ids=anachronistic_term_ids, message=message, check_ins_shown=check_ins_shown,
     )
     return GateResult(routing=routing, degraded=False)
 

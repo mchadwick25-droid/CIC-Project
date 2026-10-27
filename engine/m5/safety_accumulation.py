@@ -98,7 +98,10 @@ def track_b_state(previous: dict | None, safety: dict) -> dict | None:
     accumulator = dict(previous or {})
     for tag in dict.fromkeys(tags):
         accumulator[tag] = accumulator.get(tag, 0) + 1
-    return {"track": "B", "level": TRACK_B_LEVEL_UNEVALUATED, "accumulator": accumulator}
+    state = {"track": "B", "level": TRACK_B_LEVEL_UNEVALUATED, "accumulator": accumulator}
+    if safety.get("signal") == "AMBIGUOUS_LOW_CONFIDENCE":
+        state["check_in_reason"] = safety.get("check_in_reason")
+    return state
 
 
 def track_a_state(safety: dict) -> dict | None:

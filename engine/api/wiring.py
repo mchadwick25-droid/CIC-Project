@@ -139,6 +139,7 @@ def screen_refused_message(
         session_id=session_id, safety_client=safety_client, safety_model_id=safety_model_id,
         participant_message=text, pressed=state.pressed, anachronistic_term_ids=set(),
         track_b_accumulator=state.safety.track_b_accumulator, world_key=state.world_key,
+        check_ins_shown=state.safety.check_ins_shown,
     )
     for rec in gate_run.usage_records:
         usage_store.append(rec)
@@ -1109,6 +1110,7 @@ def handle_message(
             anachronistic_term_ids=term_ids,
             track_b_accumulator=state.safety.track_b_accumulator,
             track_a_last=state.safety.track_a_last,
+            check_ins_shown=state.safety.check_ins_shown,
             already_told_ids=already_told_ids,
             already_bridged_figure_ids=already_bridged_figure_ids,
             already_bridged_gloss_ids=already_bridged_gloss_ids,
