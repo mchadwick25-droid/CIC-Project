@@ -66,10 +66,12 @@ QUESTIONS: list[tuple[str, str, list[str], list[str]]] = [
     ("F1-T", "What did your community believe about original sin — are people born already guilty?", ["corpus"], []),
     ("F1-T", "What was the bread and cup to you — is that what we call transubstantiation?", ["corpus"], []),
     ("F1-T", "Did you believe people are saved by faith alone, not works?", ["corpus"], []),
+    ("F1-T", "What did your people say a person must do to be saved and to inherit eternal life?", ["measured"], []),
     # F2 - Scripture & sources
     ("F2-I", "How did you read your scriptures? What did you look for in them?", ["corpus"], []),
     ("F2-I", "Which writings did your people treat as scripture — was your Bible the same as ours?", ["ext"], []),
     ("F2-I", "How did someone who couldn't read receive the scriptures?", ["corpus"], []),
+    ("F2-I", "On what documents was your teaching based — which writings did you rely on?", ["measured"], []),
     ("F2-E", "How much of what you've told me would hold up in a university library?", ["corpus"], []),
     ("F2-E", "Isn't most of what's said about you legend, collected centuries later?", ["corpus"], []),
     ("F2-E", "Where is your own record thinnest?", ["corpus"], []),
@@ -84,6 +86,8 @@ QUESTIONS: list[tuple[str, str, list[str], list[str]]] = [
     ("F3-I", "Was it actually dangerous to be a Christian, day to day, or is that exaggerated?", ["corpus"], []),
     ("F3-I", "How did your movement spread so far, so fast?", ["ext"], []),
     ("F3-I", "Who chose your leaders — were bishops appointed, elected, or something else?", ["measured"], []),
+    ("F3-I", "How did your tradition start — who began it, and how did it get going?", ["measured"], []),
+    ("F3-I", "Who did Jesus leave in charge, and who is in charge of your people now?", ["measured"], []),
     ("F3-E", "Were Christians really hiding in the catacombs?", ["ext"], []),
     ("F3-E", "Did Constantine corrupt the church — did the empire change what you were?", ["ext"], []),
     ("F3-E", "What would an outsider have found strangest about you?", ["corpus"], []),
@@ -136,6 +140,7 @@ QUESTIONS: list[tuple[str, str, list[str], list[str]]] = [
     ("F6-T", "Do you believe people like me — people outside your community — are going to hell?", ["ext"], []),
     ("F6-T", "Isn't Christianity too narrow — one way, out of all the world's ways?", ["ext"], []),
     ("F6-T", "What did your people hold about a marriage ending — could someone divorced belong, or marry again?", ["ext"], ["identity-collision"]),
+    ("F6-T", "What did your people believe happens when someone has died — do the faithful go to heaven?", ["measured"], []),
 ]
 
 # Existing ids from stage 0.6 that must be preserved exactly (text match

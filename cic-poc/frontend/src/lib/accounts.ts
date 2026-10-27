@@ -59,6 +59,8 @@ export interface AccountState {
   providers: Record<string, string>;
   // The sizes of gift coupons that attached at the sign-in just made, until the person dismisses the notice.
   giftNotice: number[];
+  // The last day to re-open an account just deleted in this tab, until the person leaves that notice.
+  closedNotice: string | null;
 }
 
 export class AccountsError extends Error {
@@ -69,7 +71,7 @@ export class AccountsError extends Error {
   }
 }
 
-let state: AccountState = { status: 'unknown', balance: null, shelf: null, signInOpen: false, homeOpen: false, refillDay: null, lastShelved: null, recoveryPending: null, methods: [], hasRecoveryCode: false, providers: {}, giftNotice: [] };
+let state: AccountState = { status: 'unknown', balance: null, shelf: null, signInOpen: false, homeOpen: false, refillDay: null, lastShelved: null, recoveryPending: null, methods: [], hasRecoveryCode: false, providers: {}, giftNotice: [], closedNotice: null };
 const listeners = new Set<() => void>();
 
 function set(next: Partial<AccountState>) {
@@ -104,7 +106,7 @@ export function dismissGiftNotice() {
   set({ giftNotice: [] });
 }
 export function closeHome() {
-  set({ homeOpen: false });
+  set({ homeOpen: false, closedNotice: null });
 }
 
 async function call(path: string, init?: { method?: 'GET' | 'POST'; body?: unknown }): Promise<Record<string, unknown>> {
@@ -175,17 +177,22 @@ export type SignInResult =
   | { kind: 'ok'; newAccount: boolean; coupons: number[] }
   | { kind: 'ask_age'; message: string }
   | { kind: 'not_adult'; message: string }
-  | { kind: 'waiting'; message: string; effectiveOn: string };
+  | { kind: 'waiting'; message: string; effectiveOn: string }
+  | { kind: 'closed'; message: string; eraseOn: string };
 
 export async function startSignIn(address: string): Promise<string> {
   const body = await call('/sign-in/start', { method: 'POST', body: { address } });
   return String(body.challenge);
 }
 
-export async function finishSignIn(challenge: string, address: string, code: string, over18?: boolean): Promise<SignInResult> {
+export async function finishSignIn(challenge: string, address: string, code: string, over18?: boolean, reopen?: boolean): Promise<SignInResult> {
   const body = await call('/sign-in/finish', {
     method: 'POST',
-    body: over18 === undefined ? { challenge, address, code } : { challenge, address, code, over_18: over18 },
+    body: {
+      challenge, address, code,
+      ...(over18 === undefined ? {} : { over_18: over18 }),
+      ...(reopen === undefined ? {} : { reopen }),
+    },
   });
   return settleSignIn(body);
 }
@@ -200,6 +207,7 @@ async function settleSignIn(body: Record<string, unknown>): Promise<SignInResult
   }
   const message = typeof body.message === 'string' ? body.message : '';
   if (body.status === 'needs_age_answer') return { kind: 'ask_age', message };
+  if (body.status === 'account_closed') return { kind: 'closed', message, eraseOn: String(body.erase_on ?? '') };
   if (body.status === 'recovery_waiting') return { kind: 'waiting', message, effectiveOn: String(body.effective_on ?? '') };
   return { kind: 'not_adult', message };
 }
@@ -331,10 +339,10 @@ export async function exportData(): Promise<void> {
 }
 
 export async function deleteAccount(): Promise<void> {
-  await call('/delete', { method: 'POST' });
+  const body = await call('/delete', { method: 'POST' });
   clearStored();
   forgetShelvedConversation();
-  set({ status: 'out', balance: null, shelf: null, recoveryPending: null, methods: [], hasRecoveryCode: false, refillDay: null, homeOpen: false, lastShelved: null });
+  set({ status: 'out', balance: null, shelf: null, recoveryPending: null, methods: [], hasRecoveryCode: false, refillDay: null, homeOpen: true, lastShelved: null, closedNotice: typeof body.erase_on === 'string' ? body.erase_on : '' });
 }
 
 /** Which providers the server has turned on. Our own server only; no provider script is touched. */
@@ -371,10 +379,14 @@ export async function prepareProvider(provider: Provider): Promise<string> {
   return nonce;
 }
 
-export async function providerSignIn(token: ProviderToken, over18?: boolean): Promise<SignInResult> {
+export async function providerSignIn(token: ProviderToken, over18?: boolean, reopen?: boolean): Promise<SignInResult> {
   const body = await call('/provider/finish', {
     method: 'POST',
-    body: over18 === undefined ? token : { ...token, over_18: over18 },
+    body: {
+      ...token,
+      ...(over18 === undefined ? {} : { over_18: over18 }),
+      ...(reopen === undefined ? {} : { reopen }),
+    },
   });
   return settleSignIn(body);
 }
@@ -440,6 +452,6 @@ export async function signOutEverywhere(): Promise<void> {
 
 /** For tests: back to the first state. */
 export function resetAccountsForTest() {
-  state = { status: 'unknown', balance: null, shelf: null, signInOpen: false, homeOpen: false, refillDay: null, lastShelved: null, recoveryPending: null, methods: [], hasRecoveryCode: false, providers: {}, giftNotice: [] };
+  state = { status: 'unknown', balance: null, shelf: null, signInOpen: false, homeOpen: false, refillDay: null, lastShelved: null, recoveryPending: null, methods: [], hasRecoveryCode: false, providers: {}, giftNotice: [], closedNotice: null };
   listeners.forEach((l) => l());
 }

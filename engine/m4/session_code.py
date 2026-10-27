@@ -33,7 +33,8 @@ def generate_code() -> str:
 
 def hash_code(code: str) -> str:
     normalized = code.replace("-", "").upper()
-    return hashlib.sha256(normalized.encode("ascii")).hexdigest()
+    # "?" is outside the alphabet, so a non-ASCII entry hashes to a mismatch
+    return hashlib.sha256(normalized.encode("ascii", "replace")).hexdigest()
 
 
 def codes_match(candidate: str, code_hash: str) -> bool:

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import {
-  closeHome, deleteAccount, exportData, finishAddressChange, makeRecoveryCode, providerLink, providerUnlink, startAddressChange, useAccount,
+  deleteAccount, deleteShelved, exportData, finishAddressChange, makeRecoveryCode, providerLink, providerUnlink, startAddressChange, useAccount,
   type Provider,
 } from '../lib/accounts';
 import { accountsCopy as copy } from '../lib/accountsCopy';
@@ -170,6 +170,18 @@ export function ExportScreen({ onBack }: { onBack: () => void }) {
   );
 }
 
+/** Erasing a saved conversation cannot be undone, so it asks for the same fresh confirmation as export. */
+export function RemoveShelvedScreen({ sessionId, onBack }: { sessionId: string; onBack: () => void }) {
+  const guard = useGuard();
+  return (
+    <div className="account__section">
+      <h2>{copy.remove}</h2>
+      <Gate guard={guard} onCancel={onBack} onDone={() => void guard.run(() => deleteShelved(sessionId)).then((ok) => ok && onBack())} />
+      <Problem message={guard.error} />
+    </div>
+  );
+}
+
 export function DeleteScreen({ onBack }: { onBack: () => void }) {
   const guard = useGuard();
   const [confirmed, setConfirmed] = useState(false);
@@ -178,13 +190,15 @@ export function DeleteScreen({ onBack }: { onBack: () => void }) {
       <h2>{copy.deleteHome}</h2>
       <p>{copy.deleteIntro}</p>
       {!confirmed && <Gate guard={guard} onCancel={onBack} onDone={() => setConfirmed(true)} intro={copy.confirmIntro} />}
+      <h3>{copy.deleteWhenHeading}</h3>
+      <p>{copy.deleteWhen}</p>
       <h3>{copy.deleteGoesHeading}</h3>
       <p>{copy.deleteGoes}</p>
       <h3>{copy.deleteStaysHeading}</h3>
       <p>{copy.deleteStays}</p>
       {confirmed && (
         <div className="account__actions">
-          <button type="button" disabled={guard.busy} onClick={() => void guard.run(async () => { await deleteAccount(); closeHome(); })}>{copy.deleteYes}</button>
+          <button type="button" disabled={guard.busy} onClick={() => void guard.run(async () => { await deleteAccount(); })}>{copy.deleteYes}</button>
           <button type="button" onClick={onBack}>{copy.deleteNo}</button>
         </div>
       )}

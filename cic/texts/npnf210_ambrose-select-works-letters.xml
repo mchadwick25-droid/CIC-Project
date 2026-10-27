@@ -9,240 +9,240 @@
     href="http://www.ccel.org/ss/thml.html.xsl" ?>
 -->
     
-<!-- Copyright Christian Classics Ethereal Library -->
+<!-- CCEL-authored header block removed; text, notes and scripture tags unchanged -->
 <ThML>
 <ThML.head>
 
-<generalInfo>
-  <description>With over twenty volumes, the <i>Nicene and 
-Post-Nicene Fathers</i> is a momentous achievement. Originally gathered 
-by 
-Philip Schaff, the <i>Nicene and Post-Nicene Fathers</i> is a collection 
-of 
-writings by classical and medieval Christian theologians. The purpose of 
-such a collection is to make their writings readily available. The 
-entire work is divided into two series, each with fourteen volumes. The 
-second series focuses on a variety of important Church Fathers, ranging 
-from the fourth century to the eighth century. Several works of St. 
-Ambrose are collected in this volume. Along with St. Gregory the Great, 
-St. Jerome, and St. Augustine, St. Ambrose is considered one of the 
-original Doctors of the Church. He played an important role in the 
-conversion of St. Augustine. The <i>Nicene and Post-Nicene Fathers</i> 
-are 
-comprehensive in scope, and provide keen translations of instructive and 
-illuminating texts from some of the great theologians of the Christian 
-church. These spiritually enlightening texts have aided Christians for 
-over a thousand years, and remain instructive and fruitful even today!<br /><br />Tim Perrine<br />CCEL Staff Writer</description>
-  <pubHistory />
-  <comments />
-</generalInfo>
 
 
-<printSourceInfo>
-  <published />
-</printSourceInfo>
 
-<electronicEdInfo>
-  <publisherID>ccel</publisherID>
-  <authorID>schaff</authorID>
-  <bookID>npnf210</bookID>
-  <workID>npnf210</workID>
-  <bkgID>ambrose_selected_works_and_letters_(schaff)</bkgID>
-  <version>3.0</version>
-  <editorialComments />
-  <revisionHistory />
-  <status />
 
-  <DC>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <DC.Title>NPNF2-10. Ambrose: Selected Works and Letters</DC.Title>
     <DC.Creator sub="Editor" scheme="short-form">Philip Schaff</DC.Creator>
     <DC.Creator sub="Editor" scheme="file-as">Schaff, Philip (1819-1893)</DC.Creator>
     <DC.Creator sub="Editor" scheme="ccel">schaff</DC.Creator>
     <DC.Creator sub="Author" scheme="ccel">ambrose</DC.Creator>
- 
-    <DC.Publisher>Grand Rapids, MI: Christian Classics Ethereal Library</DC.Publisher>
-    <DC.Subject scheme="LCCN" />
-    <DC.Subject scheme="ccel">All; Early Church; Proofed</DC.Subject>
-    <DC.Contributor sub="Digitizer" />
-    <DC.Date sub="Created">2004-07-27</DC.Date>
-    <DC.Type>Text.Monograph</DC.Type>
-    <DC.Format scheme="IMT">text/html</DC.Format>
-    <DC.Identifier scheme="URL">/ccel/schaff/npnf210.html</DC.Identifier>
-    <DC.Identifier scheme="ISBN" />
-    <DC.Source />
-    <DC.Source scheme="URL" />
-    <DC.Language scheme="ISO639-3">eng</DC.Language>
+
+
+
+
+
+
+
+
+
+
+
+
+
     <DC.Rights>Public Domain</DC.Rights>
-  </DC>
-
-</electronicEdInfo>
 
 
 
 
 
-<style type="text/css">
-h1	{ text-align:center; text-transform:uppercase }
-h2	{ text-align:center; text-transform:uppercase }
-h3	{ text-align:center; text-transform:uppercase }
-h4	{ text-align:center; text-transform:uppercase }
-p.c42	{ margin-top:9pt }
-p.c41	{ margin-left:.25in; text-indent:-.25in }
-p.c40	{ margin-bottom:6pt }
-p.c39	{ margin-bottom:6pt; margin-left:.25in; text-indent:-.25in }
-p.c38	{ margin-left:.5in; text-indent:-.25in }
-p.c37	{ margin-left:.5in; text-align:center; text-indent:-.25in }
-p.c36	{ margin-left:.25in; text-align:center; text-indent:-.25in }
-p.c32	{ font-style:italic; margin-left:.25in; margin-top:9pt; text-indent:-.25in }
-p.c31	{ margin-top:9pt; margin-left:.25in; text-indent:-.25in }
-p.c28	{ margin-left:.45in }
-p.c27	{ margin-left:.45in; text-indent:-.2in }
-p.c26	{ margin-bottom:6pt; text-indent:.25in }
-p.c25	{ margin-top:12pt; margin-bottom:6pt; text-align:center; text-indent:0in }
-p.c23	{ text-indent:.25in }
-p.c22	{ margin-top:9pt; text-indent:.25in }
-p.c14	{ margin-top:6pt; text-align:center; text-indent:0in }
-span.c13	{ font-size:x-small; text-transform:uppercase }
-p.c11	{ margin-top:.25in; text-align:center; text-indent:0in }
-p.c10	{ margin-top:42pt; text-align:center; text-indent:0in }
-span.c9	{ font-size:large; text-transform:uppercase }
-p.c8	{ margin-bottom:6pt; text-align:center; text-indent:0in }
-p.c7	{ margin-bottom:12pt; text-align:center; text-indent:0in }
-p.c6	{ font-style:italic; text-align:center; text-indent:0in }
-span.c4	{ font-size:large }
-span.c3	{ font-size:xx-large }
-span.c1	{ font-size:medium }
-</style>
 
-<style type="text/xcss">
-<selector element="h1">
-  <property name="text-align" value="center" />
-  <property name="text-transform" value="uppercase" />
-</selector>
-<selector element="h2">
-  <property name="text-align" value="center" />
-  <property name="text-transform" value="uppercase" />
-</selector>
-<selector element="h3">
-  <property name="text-align" value="center" />
-  <property name="text-transform" value="uppercase" />
-</selector>
-<selector element="h4">
-  <property name="text-align" value="center" />
-  <property name="text-transform" value="uppercase" />
-</selector>
-<selector element="p" class="c42">
-  <property name="margin-top" value="9pt" />
-</selector>
-<selector element="p" class="c41">
-  <property name="margin-left" value=".25in" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c40">
-  <property name="margin-bottom" value="6pt" />
-</selector>
-<selector element="p" class="c39">
-  <property name="margin-bottom" value="6pt" />
-  <property name="margin-left" value=".25in" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c38">
-  <property name="margin-left" value=".5in" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c37">
-  <property name="margin-left" value=".5in" />
-  <property name="text-align" value="center" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c36">
-  <property name="margin-left" value=".25in" />
-  <property name="text-align" value="center" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c32">
-  <property name="font-style" value="italic" />
-  <property name="margin-left" value=".25in" />
-  <property name="margin-top" value="9pt" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c31">
-  <property name="margin-top" value="9pt" />
-  <property name="margin-left" value=".25in" />
-  <property name="text-indent" value="-.25in" />
-</selector>
-<selector element="p" class="c28">
-  <property name="margin-left" value=".45in" />
-</selector>
-<selector element="p" class="c27">
-  <property name="margin-left" value=".45in" />
-  <property name="text-indent" value="-.2in" />
-</selector>
-<selector element="p" class="c26">
-  <property name="margin-bottom" value="6pt" />
-  <property name="text-indent" value=".25in" />
-</selector>
-<selector element="p" class="c25">
-  <property name="margin-top" value="12pt" />
-  <property name="margin-bottom" value="6pt" />
-  <property name="text-align" value="center" />
-  <property name="text-indent" value="0in" />
-</selector>
-<selector element="p" class="c23">
-  <property name="text-indent" value=".25in" />
-</selector>
-<selector element="p" class="c22">
-  <property name="margin-top" value="9pt" />
-  <property name="text-indent" value=".25in" />
-</selector>
-<selector element="p" class="c14">
-  <property name="margin-top" value="6pt" />
-  <property name="text-align" value="center" />
-  <property name="text-indent" value="0in" />
-</selector>
-<selector element="span" class="c13">
-  <property name="font-size" value="x-small" />
-  <property name="text-transform" value="uppercase" />
-</selector>
-<selector element="p" class="c11">
-  <property name="margin-top" value=".25in" />
-  <property name="text-align" value="center" />
-  <property name="text-indent" value="0in" />
-</selector>
-<selector element="p" class="c10">
-  <property name="margin-top" value="42pt" />
-  <property name="text-align" value="center" />
-  <property name="text-indent" value="0in" />
-</selector>
-<selector element="span" class="c9">
-  <property name="font-size" value="large" />
-  <property name="text-transform" value="uppercase" />
-</selector>
-<selector element="p" class="c8">
-  <property name="margin-bottom" value="6pt" />
-  <property name="text-align" value="center" />
-  <property name="text-indent" value="0in" />
-</selector>
-<selector element="p" class="c7">
-  <property name="margin-bottom" value="12pt" />
-  <property name="text-align" value="center" />
-  <property name="text-indent" value="0in" />
-</selector>
-<selector element="p" class="c6">
-  <property name="font-style" value="italic" />
-  <property name="text-align" value="center" />
-  <property name="text-indent" value="0in" />
-</selector>
-<selector element="span" class="c4">
-  <property name="font-size" value="large" />
-</selector>
-<selector element="span" class="c3">
-  <property name="font-size" value="xx-large" />
-</selector>
-<selector element="span" class="c1">
-  <property name="font-size" value="medium" />
-</selector>
-</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </ThML.head>

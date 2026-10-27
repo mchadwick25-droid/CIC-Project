@@ -15,8 +15,9 @@ results = []
 results.append(check("the seeded map validates clean", corpus_map.validate() == []))
 
 ids = corpus_map.census_ids()
+_real = {a: d for a, d in corpus_map.load().items() if not d.get("fixture")}
 results.append(check("every map filename is a census movement id",
-                     all(a in ids for a in corpus_map.load())))
+                     all(a in ids for a in _real)))
 
 # Non-exclusivity is the load-bearing property: the same work in several Atlas
 # entries must NOT be a finding. An exclusive partition would strip desert of
@@ -43,7 +44,7 @@ results.append(check("staging loads with no findings", merge_findings == []))
 # hand-edited a generated file and the next merge would silently discard it.
 buckets, _ = corpus_map_merge.merge(write=False)
 results.append(check("every bucket on disk is reproducible from staging",
-                     set(corpus_map.load()) == set(buckets)))
+                     set(_real) == set(buckets)))
 
 # Non-exclusivity again, this time through the merge: every atlas_id a row
 # names must actually receive that row.

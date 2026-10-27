@@ -27,7 +27,7 @@ from dataclasses import dataclass
 from engine.m1.loader import load_fleet_records
 from engine.m4 import crisis_resources, facilitator_turns
 from engine.m4.turn import SAFETY_ROUTES, GateRun
-from engine.m5.routing import QUESTION_KINDS, Directive, directive_without_terms
+from engine.m5.routing import QUESTION_KINDS, Directive, check_in_reason_for, directive_without_terms
 
 
 @dataclass(frozen=True)
@@ -228,7 +228,7 @@ def open_table_round(
         )
 
     if action == "check_in_turn":
-        return RoundOpening(routing_action=action, **common, facilitator_events=[facilitator_turns.check_in_turn()], voices_speak=False)
+        return RoundOpening(routing_action=action, **common, facilitator_events=[facilitator_turns.check_in_turn(check_in_reason_for(safety_outcome.value))], voices_speak=False)
 
     if action == "safety_unread_turn":
         return RoundOpening(routing_action=action, **common, facilitator_events=[facilitator_turns.safety_unread_turn()], voices_speak=False)

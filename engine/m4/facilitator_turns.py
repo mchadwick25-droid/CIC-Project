@@ -5,7 +5,7 @@ Same discipline as engine.m4.crisis_resources, and for the same reason: the
 Facilitator speaks for the system, not for a world, so its words are not a
 model's to compose and not a world's to hold. A fixed table, never a prompt.
 
-SYSTEM_NATURE, CHECK_IN, DEPENDENCY_CHECK, and both _ETIC_TEXT entries are
+SYSTEM_NATURE, CHECK_IN, CHECK_IN_LOSS, CHECK_IN_COERCION, DEPENDENCY_CHECK, and both _ETIC_TEXT entries are
 this module's own approved participant-facing text for those routing
 outcomes, checked against `CiC_L3D_Facilitator_Governance_V3.6/V3.7` and
 `CiC-Program-Spec.md` SS71/76-77/210.
@@ -104,6 +104,30 @@ CHECK_IN = FacilitatorTurn(
     ),
 )
 
+# Check-ins for the two personal disclosures the safety call names with
+# check_in_reason. The support sentence is part of the text, so no track
+# opens and crisis_resources stays Track A's alone.
+CHECK_IN_LOSS = FacilitatorTurn(
+    kind="safety",
+    text=(
+        "I'm so sorry for your loss. Before we go on, I want to say plainly: if this loss is weighing on you now, "
+        "you don't have to carry it alone. A person you trust, a grief or crisis line, or emergency services where "
+        "you are can help. When you're ready, you can still ask your question, and the answer will come "
+        "from what the sources wrote. Or we can stop here."
+    ),
+)
+
+CHECK_IN_COERCION = FacilitatorTurn(
+    kind="safety",
+    text=(
+        "Before we go on: what you're describing sounds like someone trying to control you. You don't owe "
+        "anyone obedience without question. You can talk to someone outside it: a person you trust, a support "
+        "line, or emergency services if you're in danger. If you'd still like to ask about authority, you can."
+    ),
+)
+
+_CHECK_INS = {"general": CHECK_IN, "loss_to_suicide": CHECK_IN_LOSS, "coercion_by_person": CHECK_IN_COERCION}
+
 # Program-Spec SS8: Track B is "harmful-dynamic/dependency, accumulating
 # across the session" - a dependency dynamic, not a crisis, so no resources
 # (engine.m4.crisis_resources.resources_for_signal returns None for it by
@@ -156,12 +180,14 @@ def system_nature_turn() -> dict:
     return {"kind": SYSTEM_NATURE.kind, "text": SYSTEM_NATURE.text}
 
 
-def check_in_turn() -> dict:
+def check_in_turn(check_in_reason: str = "general") -> dict:
     """No resources, no track opened - Artifact-4 SS3 rule 2, and
     crisis_resources.resources_for_signal already refuses to hand any over
     for AMBIGUOUS_LOW_CONFIDENCE, so the two modules agree by construction
     rather than by comment."""
-    return {"kind": CHECK_IN.kind, "text": CHECK_IN.text, "resources_appended": False}
+    turn = _CHECK_INS.get(check_in_reason, CHECK_IN)
+    reason = check_in_reason if check_in_reason in _CHECK_INS else "general"
+    return {"kind": turn.kind, "text": turn.text, "resources_appended": False, "check_in_reason": reason}
 
 
 def dependency_check_turn(representative_name: str) -> dict:

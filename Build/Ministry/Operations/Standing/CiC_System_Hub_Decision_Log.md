@@ -6943,3 +6943,101 @@ The spoken-field fidelity reviews found 46 P1s and 81 P2s in `records/lpc/` part
 ## 2026-10-24 - Cap ruling: lpc CO-LPC-3, a third recheck of one line and ten leftovers
 
 `CO-LPC-3_Spoken_Corrections_Recheck_Round2.md` found all six prior P1s fixed and one new P1: `lpc_World_Capsule_Core.md` line 19 says rebaptism "tested it, and it held", though Firmilian's letter in this world's corpus reports Stephen of Rome denying the African envoys peace and communion. It also found 10 P2s, some of them leftovers of corrected claims. Alternatives put to the project lead: (1) apply the reviewer's one-line fix and all ten P2s, then one small Opus 5.5 recheck of only those lines; (2) the P1 only, with the P2s logged; (3) apply with no recheck. The project lead ruled option 1 (2026-10-24). The file this ruling covers, in `Build/worlds/lpc/Review-Artifacts/`, is `CO-LPC-3_Spoken_Corrections_Recheck_Round3.md`. A finding it calls substantial goes to the project lead.
+
+## 2026-10-26 - `use_note.means` is held to the readability bar: new and edited notes graded, existing failures waived (project lead's ruling)
+
+**Question** (raised by the `lpc` use-notes review, `Build/worlds/lpc/Review-Artifacts/Use_Notes_Review_2026-10-26.md`, finding UN-22). `use_note.means` heads each evidence block the voice reads, and it is a registered spoken field ("evidence-head", `engine/m1/spoken_fields.py`). But it sits only in `SHARED_SPOKEN_FIELDS`, which the readability gate does not read, so no world's notes are graded. Most existing notes fail the bar: `don` fails 97 of 98 and `rzg` 55 of 56. `lpc`'s 117 notes pass.
+
+**Alternatives shown:**
+1. Grade new and edited notes now, with no regressions, as regate already does for other spoken fields. Register the existing failures as one ACCEPTED_OPEN waiver naming this finding. Each world fixes its notes when it is next worked.
+2. Grade every note fleet-wide now.
+3. Leave the field ungraded.
+4. Report only.
+
+**Ruling.** Mark, 2026-10-26: option 1.
+
+**Why.** Option 1 holds the bar for all new work without turning other threads' CI red, and without a fleet rewrite in a week when usage is a hard limit. The existing defect is tracked as CLAUDE.md requires, not left to drift.
+
+**To build (engine work item, not yet done).**
+- Add `use_note.means` to the fields the readability gate and regate grade, on the no-regression basis.
+- Register the existing failures as one ACCEPTED_OPEN waiver that cites this entry.
+- Remove waiver lines as each world's notes are fixed.
+
+## 2026-10-27 - Facilitator routing: loss to suicide and coercion by a person go to a check-in, with their own texts (project lead's ruling)
+
+**Question** (raised by the `lpc` live test "lpc full validation, 27 October", `Build/worlds/lpc/Review-Artifacts/Live_Validation_Review_2026-10-27.md`, and confirmed by the `lpc` build thread at source). The safety call let two kinds of turn through to the Representative:
+- A participant said their brother had taken his own life and asked what the church would have said of him. The safety call read it as no signal, under the rule "Ordinary grief ... is not acute distress by itself" (`engine/m5/live_calls.py`). The voice then answered a grieving sibling with Augustine's teaching that one who kills himself is a homicide.
+- A participant described a pastor demanding unquestioning obedience. HARMFUL_DYNAMIC_SIGNAL covers only the participant's relationship to this system, so this also read as no signal.
+
+**Alternatives shown, for each case:**
+1. Route it to the existing check-in turn as AMBIGUOUS_LOW_CONFIDENCE, so the Representative is not called that turn.
+2. A new signal with its own route and template.
+3. For grief, treat it as acute distress; for coercion, leave it with the Representative.
+
+**Ruling.** Mark, 2026-10-27: option 1 for both cases.
+
+On reading it, the existing check-in text proved wrong for both cases. It asks whether the participant meant what they said, and it makes going on depend on their answer. Two further texts were therefore shown and approved (Mark, 2026-10-27):
+- one for a loss to suicide;
+- one for coercion by a person in the participant's life.
+
+Each text offers help with no condition attached and leaves the way open to the world's sources. The safety call gains a `check_in_reason` field that picks the text, in the same pattern as `risk_subject`.
+
+**Records unchanged.** The same day, the project lead ruled that a world's records are a witness of their sources and are not softened (`lpc_Decision_Log.md`, 2026-10-27). The fix sits in routing, not in the records.
+
+**To do.**
+- The engine change and its tests, in its own pull request.
+- A capped live re-test of the four safety probes in `lpc`.
+- An update of `CiC_L3D_Facilitator_Governance_V3.6` (Word file) to name the two new check-in cases. That document change is the project lead's.
+
+**Round-1 review rulings (Mark, 2026-10-27).** The Opus review (`Build/Ministry/Operations/Audits/Facilitator_Check_In_Routing_Review_2026-10-27.md`) raised two points, and option A was chosen for both.
+- **A repeat ask.** The check-in for a given reason is shown once per conversation. After it, the same reason goes on to the Representative, who answers from the records as written. Words showing the participant's own risk still go to the crisis turn every time, as Track A does.
+- **One coercion text.** It covers faith and non-faith coercion alike.
+
+The approved texts:
+- **Loss to suicide:** "I'm so sorry for your loss. Before we go on, I want to say plainly: if this loss is weighing on you now, you don't have to carry it alone. A person you trust, a grief or crisis line, or emergency services where you are can help. When you're ready, you can still ask what this tradition believed, and it will answer from what its own people wrote. Or we can stop here."
+- **Coercion by a person:** "Before we go on: what you're describing sounds like someone trying to control you. You don't owe anyone obedience without question, and you can talk to someone outside it: a person you trust, a support line, or emergency services if you're in danger. If you'd still like to ask how this tradition thought about authority, you can."
+
+## 2026-10-27 - Governance V3.6 names the two new check-in cases (project lead's ruling)
+
+**Question.** Should `CiC_L3D_Facilitator_Governance_V3.6` name the loss-to-suicide and coercion-by-a-person check-ins ruled earlier the same day (entry "Facilitator routing")?
+
+**Alternatives shown.** Add both cases now; add after the capped lpc retest; do not add.
+
+**Ruling.** Mark, 2026-10-27: add both cases now, with the wording shown to him as an Artifact and approved as drafted.
+
+**Done.** Section 12 of the Word file gains three paragraphs after "Harmful dynamic": "Loss to suicide", "Coercion by a person", and "How these two work" (fixed texts added by the system, each shown once per conversation for a given reason, a repeat ask goes on to the Representative, words showing the participant's own risk go to the acute distress response every time). No existing paragraph was changed. The two approved texts stay in the engine and in the entry above; the document does not repeat them.
+
+## 2026-10-27 - The Library's Era VI and Era VIII recommendations are a candidate queue, not a build order (project lead's ruling)
+
+**Question.** The Era VI pass (PR 1072) and the Era VIII pass (PR 1085) each recommend, per world, build / atlas only / part of another world / open question. What status do those recommendations carry?
+
+**Alternatives shown.** Hold them as a candidate queue and order later; rule on them era by era now; leave them as dossier advice.
+
+**Ruling.** Mark, 2026-10-27: a candidate queue, ordered later.
+
+**Meaning.**
+- The recommendation in each world's dossier (`Build/worlds/_cross-world/dossiers/`, section 6) stands as the Library's advice. No world is started, coded or ranked by this entry.
+- The first worlds to build are ranked by Mark after `lpc` closes, one world at a time, and only when the weekly allowance covers it (CLAUDE.md, "Scaling the build").
+- Still open and not touched here: the `needs-ruling` placements listed in `Build/worlds/_cross-world/NEEDS-RULING.md`; the rights calls named in PR 1072; the Kongo, Melkite and Utrecht build-or-atlas choices; the remap of the eleven rows that cite the old VI.13 id; and the Era VII Anabaptist and Tridentine gaps.
+
+## 2026-10-27 - Change order: Question Coverage joins the world build as a report-only step, B-7c (project lead's ruling)
+
+**Question.** Whether and how the Question Coverage pass joins the build cycle (it was open in the feature's Decision-Log).
+
+**Alternatives shown.** Do not add it; run it per world on request; add it as a standing step.
+
+**Ruling.** Mark, 2026-10-27: a standing step by change order, for new worlds only. Then, on where and how strong: a new step B-7c after B-7b, report-only. The alternatives were folding it into B-7b as a gate (no agreed pass mark exists to enforce) and a freeze requirement alone.
+
+**Change order.** `Build/Ministry/Operations/Audits/2026-10-27_question-coverage-step_ChangeOrder.md`, approved as drafted. It edits the Build Process V2.0 (step table and Section 12) and the Completion Standard V1.4 (Section B). The build-cycle skill needs no change.
+
+**Not done.** No pass mark was set and no engine command was built. If Mark later wants coverage enforced as a gate, that is a separate ruling that needs a threshold first.
+
+## 2026-10-27 - Gifted tokens go live with accounts; legal question 14 does not gate them (project lead's ruling)
+
+**Question.** Whether the open legal question 14 (whether an in-service credit falls under Regulation E 1005.20 or California Civil Code 1749.5, and whether the "promotional" label is enough for coupons; `Build/Ministry/Features/Go-Deeper/Decision-Log.md`, question 14) must be answered before gifted tokens go live in the pilot.
+
+**Alternatives shown.** Wait for the answer; go live for known testers only; go live fully.
+
+**Ruling.** Mark, 2026-10-27: go fully live, with no condition. He added that the project has no gift cards, only tokens bought into an account and tokens gifted into an account, and that it does not need promotional coupons. Visitors already see "gift"; the admin dashboard's visible words now say "gift" as well (routes, field names and code names are unchanged).
+
+**Left open.** Question 14 stays with the professional. This ruling attaches no condition to token sales either. If the answer later bears on purchased tokens, it comes back to Mark then.

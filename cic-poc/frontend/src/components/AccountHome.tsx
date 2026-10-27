@@ -3,16 +3,16 @@
  * out, the same page is the sign-in. Shown only when the app is built with accounts on.
  */
 import { useEffect, useRef, useState } from 'react';
-import { accountsEnabled, attachCode, closeHome, deleteShelved, loadShelf, openHome, openShelved, refresh, signOut, signOutEverywhere, cancelRecoverySignedIn, useAccount, readStoredConversation, type ShelfItem } from '../lib/accounts';
+import { accountsEnabled, attachCode, closeHome, loadShelf, openHome, openShelved, refresh, signOut, signOutEverywhere, cancelRecoverySignedIn, useAccount, readStoredConversation, type ShelfItem } from '../lib/accounts';
 import { normalizeCode } from '../lib/deeper';
 import { accountsCopy as copy } from '../lib/accountsCopy';
-import { AddressScreen, DeleteScreen, ExportScreen, MethodsScreen, RecoveryScreen } from './HomeScreens';
+import { AddressScreen, DeleteScreen, ExportScreen, MethodsScreen, RecoveryScreen, RemoveShelvedScreen } from './HomeScreens';
 import { SignInSteps } from './SignInSteps';
 import { dayOf } from './dayOf';
 import { useGuard } from './useGuard';
 import { getCodeUrl, openGetCode } from '../lib/deeper';
 
-type Screen = 'main' | 'recovery' | 'address' | 'methods' | 'export' | 'delete';
+type Screen = 'main' | 'recovery' | 'address' | 'methods' | 'export' | 'delete' | 'remove';
 
 function shortDay(iso: string | null): string {
   if (!iso) return '';
@@ -58,6 +58,12 @@ export function AccountHome() {
       </div>
       {account.status === 'in' ? (
         <Home headRef={headRef} />
+      ) : account.closedNotice !== null ? (
+        <div className="account-home__body">
+          <h1 ref={headRef} tabIndex={-1}>{copy.deletedHeading}</h1>
+          <p>{copy.deletedDone}</p>
+          {account.closedNotice !== '' && <p>{copy.deletedLastDay(dayOf(account.closedNotice))}</p>}
+        </div>
       ) : (
         <div className="account-home__body">
           <h1 ref={headRef} tabIndex={-1}>{copy.homeSignedOutHeading}</h1>
@@ -78,6 +84,7 @@ function Home({ headRef }: { headRef: React.RefObject<HTMLHeadingElement> }) {
   const [text, setText] = useState('');
   const [added, setAdded] = useState(false);
   const [sure, setSure] = useState<string | null>(null);
+  const [removing, setRemoving] = useState<string | null>(null);
   const { busy, error, setError, run } = useGuard();
   const back = () => setScreen('main');
 
@@ -89,6 +96,7 @@ function Home({ headRef }: { headRef: React.RefObject<HTMLHeadingElement> }) {
   if (screen === 'address') return <div className="account-home__body"><AddressScreen onBack={back} /></div>;
   if (screen === 'methods') return <div className="account-home__body"><MethodsScreen onBack={back} /></div>;
   if (screen === 'export') return <div className="account-home__body"><ExportScreen onBack={back} /></div>;
+  if (screen === 'remove' && removing) return <div className="account-home__body"><RemoveShelvedScreen sessionId={removing} onBack={back} /></div>;
   if (screen === 'delete') return <div className="account-home__body"><DeleteScreen onBack={back} /></div>;
 
   const balance = account.balance;
@@ -154,7 +162,7 @@ function Home({ headRef }: { headRef: React.RefObject<HTMLHeadingElement> }) {
                   {sure === item.session_id ? (
                     <div role="group" aria-label={copy.removeSure}>
                       <p>{copy.removeSure}</p>
-                      <button type="button" disabled={busy} onClick={() => { setSure(null); void run(() => deleteShelved(item.session_id)); }}>{copy.removeYes}</button>
+                      <button type="button" disabled={busy} onClick={() => { setSure(null); setRemoving(item.session_id); setScreen('remove'); }}>{copy.removeYes}</button>
                       <button type="button" onClick={() => setSure(null)}>{copy.removeNo}</button>
                     </div>
                   ) : (

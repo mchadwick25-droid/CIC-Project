@@ -7,7 +7,7 @@ representative: {name: Vera}
 state: built
 census_id: "fixture-synthetic"
 package:
-  manifest_hash: "sha256:e58eaadbc035d3421391b8c9331d2bfb65b757837e4908b5cf206fa16239bbf6"
-  location: "packages/fix/2026-10-20T13-25-37Z"
+  manifest_hash: "sha256:eb268b0c477f0f64aaaa9d429043463f306c84f538d1fde18b9920043925474f"
+  location: "packages/fix/2026-10-27T03-34-07Z"
 thinness_statement: "Synthetic by design: substantive on 5 of Canon v1's 28 cells, honest-limited on the rest, on purpose, to exercise both coverage-gate routes."
 living_tradition_flag: false

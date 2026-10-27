@@ -3,7 +3,7 @@ id: lpc.limit.rural-punic-berber-life
 world_id: latin-pastoral-congregational-christianity
 record_type: honest_limit
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-E

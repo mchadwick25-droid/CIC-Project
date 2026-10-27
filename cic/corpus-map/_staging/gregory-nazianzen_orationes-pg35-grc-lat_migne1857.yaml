@@ -1,0 +1,14 @@
+source_file: gregory-nazianzen_orationes-pg35-grc-lat_migne1857.txt
+
+assignments:
+  - row_id: gregory-nazianzen_orationes-pg35-grc-lat_migne1857--orations-pg-35-greek
+    work: "Gregory of Nazianzus, Orations, PG 35, Greek (including Oration 14, On the Love of the Poor)"
+    author: gregory-nazianzen
+    locus: "Oration 14 heading at file line 63160, opening words at 63197; Oration 25 heading at 89798"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: provisional
+    note: >
+      Primary original-language voice of Gregory of Nazianzus: Oration 14, On the Love of the Poor, and the other early Orations.
+      Greek original; second witness for quotation until checked against the page image: Greek legible, Latin column garbled.

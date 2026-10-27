@@ -353,7 +353,7 @@ class _ScriptedMessages:
 
 class _ScriptedClient:
     def __init__(self, signal: str, acute_level: str = "none", chunks: list[str] | None = None):
-        safety = {"signal": signal, "acute_level": acute_level, "risk_subject": "not_applicable", "dynamic_tags": [], "confidence": "high"}
+        safety = {"signal": signal, "acute_level": acute_level, "risk_subject": "not_applicable", "check_in_reason": "not_applicable", "dynamic_tags": [], "confidence": "high"}
         reader = {"asks": [{"order": 1, "text": "a question"}], "register": "informational", "clarity": "clear",
                   "ambiguity_options": [], "out_of_scope": {"class": "none"}, "modern_terms": []}
         self.messages = _ScriptedMessages(safety, reader, chunks if chunks is not None else ["We kept the meal together."])

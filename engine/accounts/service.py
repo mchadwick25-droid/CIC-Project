@@ -59,6 +59,7 @@ class Limits:
     session_absolute_seconds: int = 60 * 86400
     step_up_seconds: int = 600
     ledger_days: int = 16
+    reopen_days: int = 90
     # A start is counted per address and network first, so a stranger on one network cannot use up
     # the budget of an address's owner on another. The ceiling across networks bounds the mail to one
     # inbox and, with code_tries, the guesses an address can be given in a day.
@@ -133,7 +134,13 @@ class AccountsService:
         ledger_source: Callable[[], list[tuple[str, str]]] | None = None,
         erasure_publisher: Callable[[str, str, str], bool] | None = None,
         erasure_source: Callable[[], list[tuple[str, str, str]]] | None = None,
+        closure_publisher: Callable[[str, str], bool] | None = None,
+        closure_remover: Callable[[str, str], bool] | None = None,
+        closure_source: Callable[[], list[tuple[str, str]]] | None = None,
     ):
+        self.closure_publisher = closure_publisher
+        self.closure_remover = closure_remover
+        self.closure_source = closure_source
         self.erasure_publisher = erasure_publisher
         self.erasure_source = erasure_source
         self.store = store
@@ -285,7 +292,7 @@ class AccountsService:
         refused = self._admit("sign_in", network, address_hash=ahash)
         return refused or self._open_challenge("sign_in", ahash, None, norm)
 
-    def finish_sign_in(self, challenge, address, code, network: str, over_18=None) -> Result:
+    def finish_sign_in(self, challenge, address, code, network: str, over_18=None, reopen=None) -> Result:
         norm = normalise_address(address)
         if norm is None:
             return Result("wrong")
@@ -300,8 +307,17 @@ class AccountsService:
         candidates = self.keys.candidate_hashes(norm)
         account = self.store.account_by_hashes(candidates)
         if account is not None:
+            closure = self.store.closure(account.account_id)
+            if closure is not None and closure[1] < self.today().isoformat():
+                return Result("wrong")  # its last day has passed; the next erasure pass removes it
+            if closure is not None and reopen is not True:
+                # The code just proved this address, so naming the closure tells no stranger anything.
+                # The code stays unused so the same one can re-open the account.
+                return Result("account_closed", data={"erase_on": closure[1]})
             if not self._spend(checked):
                 return Result("wrong")
+            if closure is not None and not self._reopen(account.account_id, closure):
+                return Result("reopen_failed")
             self._keep_contact(account.account_id, norm)
             return self._sign_in_as(account, ahash, candidates=candidates)
         waiting = self.store.pending_for_address(candidates)
@@ -400,7 +416,7 @@ class AccountsService:
             return []
         return self.keys.candidate_hashes(norm) if norm is not None else []
 
-    def provider_sign_in(self, provider, id_token, nonce, network: str, over_18=None) -> Result:
+    def provider_sign_in(self, provider, id_token, nonce, network: str, over_18=None, reopen=None) -> Result:
         """Signs in by a provider's account id. A person the provider does not yet map to an
         account is asked the one-click age line first, as at a first typed-code sign-in. The
         provider's verified address is read only to find a waiting coupon; it never finds, opens
@@ -417,10 +433,17 @@ class AccountsService:
         found = self.store.account_by_subjects(candidates)
         if found is not None:
             account, stored, _ = found
+            closure = self.store.closure(account.account_id)
+            if closure is not None and closure[1] < self.today().isoformat():
+                return Result("wrong")
+            if closure is not None and reopen is not True:
+                return Result("account_closed", data={"erase_on": closure[1]})
             if not self.store.spend_nonce(nonce, expiry):
                 return Result("wrong")
             if stored != current:
                 self.store.rekey_link(stored, current)
+            if closure is not None and not self._reopen(account.account_id, closure):
+                return Result("reopen_failed")
             return self._sign_in_by_provider(account, addresses=self._provider_address(provider, id_token, nonce))
         if over_18 is None:
             return Result("needs_age_answer")
@@ -522,7 +545,7 @@ class AccountsService:
         if row.idle_expires_at <= now or row.abs_expires_at <= now:
             self.store.delete_session(token_hash)
             return None
-        if self.store.account(row.account_id) is None:
+        if self.store.account(row.account_id) is None or self.store.closure(row.account_id) is not None:
             self.store.delete_session(token_hash)
             return None
         self.store.slide_session(token_hash, min(now + self.limits.session_idle_seconds, row.abs_expires_at))
@@ -899,6 +922,10 @@ class AccountsService:
             self.store.shelf_reseal(account_id, session_id, self.shelf_cipher.encrypt(code, self._shelf_context(account_id, session_id)))
         return code
 
+    def shelf_delete_allowed(self, session: Session) -> Result:
+        """Erasing a saved conversation cannot be undone, so it needs a fresh step-up, as export does."""
+        return Result("ok") if session.stepped_up else Result("step_up_needed")
+
     def shelf_has(self, session: Session, session_id) -> bool:
         return isinstance(session_id, str) and self.store.shelf_sealed(session.account_id, session_id) is not None
 
@@ -999,16 +1026,120 @@ class AccountsService:
             "sign_in_methods": self._methods(account),
         })
 
-    def delete_account(self, session: Session, before=None) -> Result:
-        """Deletes the account. `before` is given the ids of the conversations on its shelf and
-        removes them from every store that holds them; it runs first, so a failure leaves the
-        account whole and the person can try again, and a crash part-way leaves only shelf links
-        to conversations already gone."""
+    def close_account(self, session: Session) -> Result:
+        """Deletes the account in the person's eyes: it is closed at once, signed out everywhere, and
+        erased for good on the last day of the re-open period. Until then everything it holds stays,
+        and the person can re-open it by signing in."""
         if not session.stepped_up:
             return Result("step_up_needed")
-        return self.purge_account(session.account_id, before)
+        existing = self.store.closure(session.account_id)
+        erase_on = existing[1] if existing is not None else self._close(session.account_id)
+        if erase_on is None:
+            return Result("wrong")
+        self._end_recovery(session.account_id)  # a waiting move of the address does not outlive the delete
+        self.store.delete_sessions_of(session.account_id)
+        self.store.delete_challenges_of(session.account_id)
+        self.publish_closures()
+        return Result("ok", data={"erase_on": erase_on})
 
-    def purge_account(self, account_id: str, before=None) -> Result:
+    def _close(self, account_id: str) -> str | None:
+        today = self.today()
+        erase_on = (today + timedelta(days=self.limits.reopen_days)).isoformat()
+        return erase_on if self.store.close_account(account_id, today.isoformat(), erase_on) else None
+
+    def _reopen(self, account_id: str, closure: tuple[str, str]) -> bool:
+        """Takes the outside mark away first, then opens the account. A refusal leaves it closed."""
+        if self.closure_remover is not None:
+            try:
+                self.closure_remover(ledger_hash(account_id), closure[1])
+            except Exception:  # noqa: BLE001 - the account stays closed; the person asks for a new code
+                logger.warning("a closure mark could not be removed outside the disk; the account stays closed")
+                return False
+        if not self.store.reopen_account(account_id, self.today().isoformat()):
+            return False
+        if self.closure_remover is not None:
+            try:  # a mark written while this ran would close the account again within the hour
+                self.closure_remover(ledger_hash(account_id), closure[1])
+            except Exception:  # noqa: BLE001 - the hourly read removes it
+                logger.warning("a closure mark could not be removed outside the disk")
+        return True
+
+    def close_stale_accounts(self) -> int:
+        """Closes each account unused for two years. Its owner has the same re-open period as one who
+        deleted it."""
+        closed = 0
+        cutoff = _week(self.today() - timedelta(days=365 * self.limits.stale_account_years))
+        for account_id in self.stale_account_ids():
+            today = self.today()
+            erase_on = (today + timedelta(days=self.limits.reopen_days)).isoformat()
+            # Decided in the same step as the write, so a person who signed in meanwhile stays open.
+            if self.store.close_account(account_id, today.isoformat(), erase_on, unused_before_week=cutoff):
+                closed += 1
+        self.publish_closures()
+        return closed
+
+    def closed_due_ids(self) -> list[str]:
+        """Closed accounts whose re-open period has ended."""
+        return self.store.closures_due(self.today().isoformat())
+
+    def erase_closed(self, before=None) -> int:
+        """Erases each closed account whose re-open period has ended; `before` clears its shelf as
+        for any erasure. An account whose conversations could not all be removed stays closed and
+        is tried again."""
+        erased = 0
+        for account_id in self.closed_due_ids():
+            if self.purge_account(account_id, before, closed_due=True).status == "ok":
+                erased += 1
+        return erased
+
+    def publish_closures(self) -> int:
+        """Writes each closure not yet copied outside the disk to the outside copy. A refusal leaves it
+        for the next try; nothing here fails a closure."""
+        if self.closure_publisher is None:
+            return 0
+        done = 0
+        for account_id, erase_on in self.store.unpublished_closures():
+            try:
+                if self.closure_publisher(ledger_hash(account_id), erase_on):
+                    if self.store.closure(account_id) is None:
+                        # Re-opened while the mark was being written: take it back out.
+                        if self.closure_remover is not None:
+                            self.closure_remover(ledger_hash(account_id), erase_on)
+                        continue
+                    self.store.mark_closure_published(account_id)
+                    done += 1
+            except Exception:  # noqa: BLE001 - the closure stands; the mark is tried again
+                logger.warning("a closure mark could not be written outside the disk")
+        return done
+
+    def sync_closures(self) -> int:
+        """Reads the outside marks into this file and closes any account they name that the file shows
+        open, so a restore never re-opens an account its owner deleted. Run at start-up and each hour."""
+        if self.closure_source is None:
+            return 0
+        try:
+            marks = dict(self.closure_source())
+        except Exception:  # noqa: BLE001 - the file's own closures still stand
+            logger.warning("the outside copy of the closure marks could not be read")
+            return 0
+        if not marks:
+            return 0
+        closed = 0
+        for account_id in self.store.account_ids():
+            erase_on = marks.get(ledger_hash(account_id))
+            if erase_on is None or self.store.closure(account_id) is not None:
+                continue
+            closed_on = (date.fromisoformat(erase_on) - timedelta(days=self.limits.reopen_days)).isoformat()
+            if self.store.close_account(account_id, closed_on, erase_on, published=True):
+                self.store.delete_sessions_of(account_id)
+                closed += 1
+        return closed
+
+    def purge_account(self, account_id: str, before=None, *, closed_due: bool = False) -> Result:
+        """Erases the account. With `closed_due`, only an account whose re-open period has ended is
+        erased, and one that was re-opened meanwhile is left whole."""
+        if closed_due and not self.store.closure_is_due(account_id, self.today().isoformat()):
+            return Result("wrong")
         if before is not None:
             done: set[str] = set()
             try:
@@ -1026,9 +1157,14 @@ class AccountsService:
                 return Result("delete_failed")
         expires = (self.today() + timedelta(days=self.limits.ledger_days)).isoformat()
         account = self.store.account(account_id)
+        deleted = self.store.delete_account(
+            account_id, ledger_hash(account_id), expires,
+            closed_due_before=self.today().isoformat() if closed_due else None,
+        )
+        if closed_due and not deleted:
+            return Result("wrong")
         if self.contacts is not None:
             self.contacts.forget(account_id)
-        self.store.delete_account(account_id, ledger_hash(account_id), expires)
         if account is not None and account.address_hash is not None:
             self.store.forget_address(account.address_hash)
         self.store.delete_sessions_of(account_id)

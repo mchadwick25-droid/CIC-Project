@@ -1247,3 +1247,30 @@ Checked: all 349 app tests and `tsc` pass, three new panel tests cover the panel
 105. The app build with the panel-only view and the gift section reached production on 2026-10-26 (`live` at `29052b8`, `/health` reports it). Mark checked a new conversation and the panel on the live app: no 404, and the gift section showed. `GoDeeperConfig.drawer` is now `true` in `cic-website/assets/go-deeper-config.js`, so the landing page's top-row "Get more conversations" button shows and slides the panel out. This is the follow-up ruling 98 named. Render's auto-deploy was off after the manual rollback of 2026-10-25, which is why the earlier `live` merges did not deploy; Mark deployed `29052b8` by hand. The cause of the 404 on the 1131 build is still not found and is not part of this ruling.
 
 106. Mark saw the slide-out on the live app and said: "this is what i want the more conversations link on the landing page to go to also, this is great". The free line's "Get more conversations" link (ruling 92) now opens the same slide-out instead of leaving the page. With scripts off, or with the drawer switch off, it still goes to `go-deeper.html`. No new words.
+
+
+## 2026-10-27 — Deleting an account: 90 days to re-open it (Mark, accounts build thread)
+
+107. Every participant-facing "home" for an account is now "account". Mark: "all cases of 'home' should be account when referring to their account." The button reads "Delete my account" (Mark: "Delete my account"), and the keep button reads "Keep my account".
+
+108. After "Delete my account" the account is not erased at once. Mark: "lets give them 90 days to re-open"; on keeping everything during those days, "a". The screen after the button says: "you have 90 days to re-open it" (Mark). The sentence around it is drafted on that line and goes to Mark before it ships. After day 90 everything is erased for good. This changes the delete-now behaviour of ruling 24. The build (a "closed on" date, a sign-in screen to re-open, a daily job that erases after day 90, a backup marker so a restore does not re-open a closed account, new app and privacy words) is in progress and ships hidden behind the accounts switch.
+
+## 2026-10-27 — Deleting a saved conversation needs a fresh confirmation (Mark, combined accounts and coupons thread)
+
+109. From the security review of the accounts system: deleting a saved conversation needs the same fresh confirmation as export, so a sign-in cookie left on a shared device cannot erase the shelf. Opening a saved conversation stays on the session alone. Mark chose this over "both need it" and "neither". Built with the screen using the existing confirmation words.
+
+110. The general admin request limit is 30 a minute per address, up from 10 (Mark, after the dashboard gave him a 429 on button presses). The login limit (5 per 15 minutes) is unchanged. The admin token is still 32 characters or more, so guessing it at 30 a minute is not practical.
+
+111. The coupon approve and cancel buttons on the dashboard accept a change made with the dashboard cookie only from our own page (the same custom header and origin check as the accounts routes). A caller with the admin Bearer token needs neither. Mark chose this fix for security finding 4 over requiring the token for every change or leaving it. The dashboard's other change buttons (pause, void, mint, dismiss) do not have the check yet; that is open for Mark.
+
+112. Sign-in send budgets count an IPv6 address by its /48, not its /64 (Mark, security finding 3). One cheap block of /64s now counts as one network. This corrects ruling 100's "three networks": with IPv4 or separate /48 blocks the cost to a determined sender is still about three networks; the cheap IPv6 route is closed.
+
+113. Privacy page, retention (Mark chose draft B). The line "We delete a conversation after 90 days" stays for everyone. When accounts are on, a paragraph under it adds: "If you save a conversation in your account, we keep it until you delete it or your account is erased." It is hidden with the other account parts until accounts are on. Mark chose B; to keep the page true while accounts are off, the exception is its own hidden paragraph after the unchanged first one, so the quality-copies sentence sits before it, not after.
+
+114. Privacy page, free tokens waiting for an address (Mark's own words, in "What an account holds"): "If we give free tokens to an account, we only keep a scrambled copy of the email for up to 90 days or the account holder accepts the gift, then the email is deleted." Mark asked for it simple because the page already explains the scrambled copy of an address. Checked against the code: claiming a coupon deletes the waiting row, and unclaimed rows are deleted after 90 days. This closes item 1 of the Coupons Later List.
+
+115. The delete-account screens (Mark chose the plainer wording for all three screens). Before deleting: what goes reads "Every conversation you saved. The copy we keep to check quality. Your tokens, with no refund except in a case we agree to. Your email address. The link between your account and your codes."; what stays reads "...The token system keeps each code with its payment reference, and no name..." After deleting: unchanged, "You have 90 days to re-open it. After that, everything is erased for good." Signing in to a deleted account: "You can re-open it until (date). After that, everything is erased for good." Words are in `cic-poc/frontend/src/lib/accountsCopy.ts`. Closes the screen-approval item in the handoff.
+
+## 2026-10-27 — Coupon limits (Mark, combined accounts and coupons thread)
+
+116. Coupon limits are 100,000 tokens per coupon and 300 coupons a day, up from 20,000 and 20. Mark: the limits should not stop him sending tokens to a class or a group, because he is the one sending them. The limits stay as a guard against a typing slip or a taken dashboard login. Set in `engine/deeper/ops/go-deeper.yaml`, section `coupon`. Replaces the stated defaults named in Coupons Later List item 2.

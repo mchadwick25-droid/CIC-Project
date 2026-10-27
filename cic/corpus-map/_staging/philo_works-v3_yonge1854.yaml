@@ -1,0 +1,17 @@
+source_file: philo_works-v3_yonge1854.txt
+
+assignments:
+  - row_id: philo_works-v3_yonge1854--philo-works-volume-3-yonge
+    work: "Philo of Alexandria, Works (Yonge), volume 3"
+    author: philo
+    locus: "On the Life of Moses (file line 1158), the Ten Commandments (7519), On Circumcision (9391), On Monarchy (9501), the Special Laws and the festivals (13260 onward), On Justice (19702), On Courage, Humanity and Repentance (20864), On Rewards and Punishments (23048), On Curses (24436)"
+    atlas_ids:
+      - alexandria-catechetical
+      - post-apostolic-house-church
+      - syriac-edessa-nisibis
+      - antiochene-church-third-century
+    role: context
+    confidence: provisional
+    note: >
+      Outside witness, not the church's own voice: a first-century Jewish philosopher-exegete of Alexandria, in Yonge's English. Context only, never tradition.
+      Clean English OCR.

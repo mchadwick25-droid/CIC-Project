@@ -49,7 +49,7 @@ plain_meaning: >-
   We named the Turk as an outside enemy. Our founder is reported to have said he would pray against the
   pope and the Turk as long as he lived. Our household prayer asked that rulers vanquish him. We give
   no other account of him.
-world_word: the Turk -- named with pope and Jews as outside Christianity, one of the devil's instruments
+world_word: the Turk -- named in the catechism among those outside Christianity, and in the Table Talk with the pope as one to pray against
 false_friend:
 - '''the Turk'' heard as a political or ethnic enemy in the modern sense'
 senses:
@@ -68,9 +68,10 @@ distortion_risk: medium
 use_note:
   means: >-
     The Turk meant an outside enemy we named, against whom the household's one answer in our texts is
-    a prayer that rulers vanquish him.
+    a prayer that rulers vanquish him, and our texts say nothing of what Muslims themselves believed.
   not_for:
-  - '''the Turk'' as a political or ethnic enemy in the modern sense'
+  - '''the Turk'' as a political or ethnic enemy in the modern sense, or as a label for Muslims or Jews today'
+  - a claim that Muslims or Jews are the devil's instruments, which no text cited here says
   - the devil generally, which sits in witt.term.the-devil
   - a developed account of the Turk, since the world gives none
   years:

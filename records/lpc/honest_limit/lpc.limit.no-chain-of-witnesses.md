@@ -3,7 +3,7 @@ id: lpc.limit.no-chain-of-witnesses
 world_id: latin-pastoral-congregational-christianity
 record_type: honest_limit
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-E

@@ -13,10 +13,12 @@ the account.
 import logging
 from typing import Callable
 
+
 from fastapi import FastAPI, Header, HTTPException, Request, Response
 from pydantic import BaseModel, Field
 
 from engine.accounts.service import AccountsService
+from engine.api.admin_guard import guard_admin_change
 from engine.api.deeper_routes import DeeperRuntime
 from engine.deeper import codes
 from engine.deeper.meter import AlreadyMinted, PaymentVoided
@@ -62,6 +64,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, service: AccountsService, *, a
     @app.post("/api/admin/deeper/coupon")
     def approve_coupon(req: CouponRequest, request: Request, response: Response, authorization: str | None = Header(default=None)):
         authenticate_admin(request, authorization)
+        guard_admin_change(request, authorization)
         ops = runtime.ops
         if ops is None:
             raise HTTPException(status_code=404)
@@ -91,6 +94,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, service: AccountsService, *, a
     @app.post("/api/admin/deeper/coupon/cancel")
     def cancel_coupon(req: CouponCancelRequest, request: Request, authorization: str | None = Header(default=None)):
         authenticate_admin(request, authorization)
+        guard_admin_change(request, authorization)
         if not service.coupon_cancel(req.coupon_id):
             raise HTTPException(status_code=404, detail="no waiting coupon has that id; one already attached is cancelled with its codes, by the id in the grants list")
         return {"coupon_id": req.coupon_id, "cancelled": True}

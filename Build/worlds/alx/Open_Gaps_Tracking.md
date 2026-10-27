@@ -808,3 +808,29 @@ Done: `alx.source.athanasius-de-incarnatione` now carries that reasoning and cav
 Left open: if the Library acquires a modern study that argues the later date, it should be written as a source record. The dating can then be given as disputed in both records.
 
 Status: CLOSED for the records. OPEN only as a source want.
+
+### OG-37. `alx.quote.clement-schoolmaster` can be heard as the law replaced, 2026-10-27.
+
+Question-coverage design thread, 2026-10-27 (hand-off `Build/Ministry/Operations/Handoffs/2026-10-26_question-coverage-safety-guards.md`, section 3). The design thread does not edit world records; this entry hands the decision to this world's thread.
+
+- `alx.quote.clement-schoolmaster` (ready, Stromateis I.5): philosophy was a schoolmaster for the Greeks, "as the law was for the Hebrews". A Jewish visitor can hear that the law has done its work and been replaced. Its `not_for` does not name that reading, and its `retrieve_when` ("whether people outside the church had anything true") is broader than the quote's use.
+- Decision for this thread: the guard must say the quote is Clement's account of preparation, not a statement that Judaism is finished, and not a claim about Jews today; whether `retrieve_when` narrows; whether `alx.term.christological-reading` needs the same check.
+
+Status: OPEN, for this world's thread.
+
+### OG-38. Guards added for the supersession reading, 2026-10-27.
+
+Follows the entry "`alx.quote.clement-schoolmaster` can be heard as the law replaced" (2026-10-27). Mark approved the drafts in the question-coverage review on 2026-10-27.
+
+- `alx.quote.clement-schoolmaster`: a fourth `not_for` line (preparation, not a claim that the law is finished or about Jews today), and `retrieve_when` narrowed to "whether Clement thought Greek philosophy held anything true".
+- `alx.term.christological-reading`: a fourth `not_for` line on Jewish readers, and `retrieve_when` changed from "Jewish interpretation" to "other ways of reading".
+- The Clement quote was re-checked verbatim against `anf02` lines 27890 to 27896. `alx.term.interpretation` and `alx.term.word-of-god` point to `christological-reading` and were not opened.
+- Narrowing the quote's `retrieve_when` removes its second line's route to F6-T; the cell stays in `canon_cells`.
+
+Status: CLOSED for the guards. OPEN for the two terms not opened.
+
+### OG-39. Honest limit on 'saved by faith alone' written, 2026-10-27.
+
+Question-coverage design thread. A real visitor asked 'How might I be saved' (alx, 2026-10-20). New `alx.limit.faith-alone-later-frame` (F1-T) and `alx.source.origen-comm-romans`. The limit says the phrase 'faith alone' is not how the argument was put in Alexandria (Clement, Stromateis I.9; Quis Dives 27 to 29; Origen on Romans III, in Rufinus's abridged Latin, where the thief on the cross is justified 'sola fide'), and that no text sets faith against works as a contest or speaks to felt assurance. Not searched: Origen books VI to X; the Greek.
+
+Status: OPEN for an independent recheck of the quotes.

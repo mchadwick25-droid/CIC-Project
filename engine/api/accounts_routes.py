@@ -35,7 +35,7 @@ from engine.api.account_admission import account_context, code_index, real_code_
 from engine.api import backup_seal, ledger_bucket, shelf, wiring
 from engine.api.contact_cipher import ContactCipher, ContactKeyError, parse_previous as parse_previous_contact
 from engine.api.provider_tokens import ProviderVerifier
-from engine.api.ratelimit import client_ip, network_of
+from engine.api.ratelimit import client_ip, sign_in_network_of
 
 logger = logging.getLogger("cic.accounts")
 
@@ -55,6 +55,8 @@ MESSAGES = {
     "wrong": "That code did not work. Check it, or ask for a new one.",
     "needs_age_answer": "Please tell us if you are 18 or over.",
     "not_adult": "Accounts are open to people who are 18 or over. The way in for younger people, with a parent or teacher, is not available yet.",
+    "account_closed": "This account was deleted. You have until {day} to re-open it.",
+    "reopen_failed": "We could not re-open it. Please ask for a new code and try again.",
     "recovery_waiting": "A recovery to this address is waiting until {day}. You can sign in here after that day.",
     "not_available": "That way of signing in is not available right now.",
     "codes_unavailable": "Codes cannot be added right now.",
@@ -141,9 +143,12 @@ def build_runtime(config: AccountsConfig, env: dict, mailer: Mailer | None = Non
                               contacts=contacts, shelf_cipher=shelf_cipher,
                               ledger_publisher=ledger_bucket.publish, ledger_source=ledger_bucket.entries,
                               erasure_publisher=lambda h, t, e: ledger_bucket.publish_erasure(sealer, h, t, e),
-                              erasure_source=lambda: ledger_bucket.erasures(sealer))
+                              erasure_source=lambda: ledger_bucket.erasures(sealer),
+                              closure_publisher=ledger_bucket.publish_closure, closure_remover=ledger_bucket.remove_closure,
+                              closure_source=ledger_bucket.closures)
     service.sync_erasures()
     service.sync_ledger()
+    service.sync_closures()
     return AccountsRuntime(service=service, backup_sealer=sealer)
 
 
@@ -188,19 +193,18 @@ def install_access_log_filter() -> None:
 
 
 def sweep_unused_accounts(runtime: AccountsRuntime) -> int:
-    """Removes each account unused for two years, with every conversation on its shelf. With no
-    way to erase a conversation, nothing is removed."""
+    """Closes each account unused for two years. It is erased, with every conversation on its shelf,
+    when its re-open period ends."""
+    return runtime.service.close_stale_accounts()
+
+
+def erase_closed_accounts(runtime: AccountsRuntime) -> int:
+    """Erases each closed account whose re-open period has ended, with every conversation on its
+    shelf. With no way to erase a conversation, nothing is removed."""
     erase_one = runtime.erase_conversation
     if erase_one is None:
         return 0
-    removed = 0
-    for account_id in runtime.service.stale_account_ids():
-        # Checked again just before, so a person who signed in while the sweep ran keeps everything.
-        if account_id not in runtime.service.stale_account_ids():
-            continue
-        if runtime.service.purge_account(account_id, lambda items: [erase_one(i, c) for i, c in items]).status == "ok":
-            removed += 1
-    return removed
+    return runtime.service.erase_closed(lambda items: [erase_one(i, c) for i, c in items])
 
 
 def reapply_erasures(runtime: AccountsRuntime) -> int:
@@ -269,13 +273,19 @@ def start_retention_thread(runtime: AccountsRuntime, *, every_seconds: int = 360
                     logger.info("accounts named by the deletion ledger were found again and removed")
                 runtime.service.publish_erasures()
                 runtime.service.sync_erasures()
+                runtime.service.publish_closures()
+                if runtime.service.sync_closures():
+                    logger.info("closed accounts found open again in a restored file were closed")
                 ledger_bucket.prune()
                 today = runtime.service.today()
                 if today != last_sweep:
                     last_sweep = today
-                    removed = sweep_unused_accounts(runtime)
+                    closed = sweep_unused_accounts(runtime)
+                    if closed:
+                        logger.info("accounts unused for two years closed: %d", closed)
+                    removed = erase_closed_accounts(runtime)
                     if removed:
-                        logger.info("accounts unused for two years removed: %d", removed)
+                        logger.info("closed accounts erased: %d", removed)
                 if reapply_erasures(runtime):
                     logger.info("erased conversations found again and erased")
                 if runtime.service.shelf_cipher is not None:
@@ -304,6 +314,7 @@ class SignInFinishBody(BaseModel):
     address: str = Field(max_length=300)
     code: str = Field(max_length=40)
     over_18: StrictBool | None = None
+    reopen: StrictBool | None = None
 
 
 class ProviderBody(BaseModel):
@@ -314,6 +325,7 @@ class ProviderBody(BaseModel):
 
 class ProviderFinishBody(ProviderBody):
     over_18: StrictBool | None = None
+    reopen: StrictBool | None = None
 
 
 class ProviderNameBody(BaseModel):
@@ -406,7 +418,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
                 raise HTTPException(status_code=403, detail="bad origin")
 
     def _network(request: Request) -> str:
-        return network_of(client_ip(request))
+        return sign_in_network_of(client_ip(request))
 
     async def _session(request: Request) -> Session:
         session = await run_in_threadpool(service.session, request.cookies.get(runtime.cookie_name))
@@ -439,6 +451,10 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         status = {"throttled": 429, "paused": 503, "send_failed": 503, "not_available": 404, "codes_unavailable": 404, "gone": 401, "delete_failed": 500, "shelf_taken": 400, "shelf_full": 400}.get(result.status, 400)
         raise HTTPException(status_code=status, detail=MESSAGES.get(result.status, "That did not work."))
 
+    def _closed_reply(result: Result) -> dict:
+        return {"status": "account_closed", "erase_on": result.data["erase_on"],
+                "message": MESSAGES["account_closed"].format(day=result.data["erase_on"])}
+
     @app.post("/api/accounts/sign-in/start")
     async def sign_in_start(body: AddressBody, request: Request):
         _guard(request)
@@ -453,7 +469,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
     async def sign_in_finish(body: SignInFinishBody, request: Request, response: Response):
         _guard(request)
         result = await run_in_threadpool(
-            service.finish_sign_in, body.challenge, body.address, body.code, _network(request), body.over_18
+            service.finish_sign_in, body.challenge, body.address, body.code, _network(request), body.over_18, body.reopen
         )
         if result.status == "ok":
             await run_in_threadpool(_seed_allowance, request, result)
@@ -461,6 +477,8 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
             return {"status": "ok", "new_account": result.new_account, "coupons": result.data.get("coupons", [])}
         if result.status in ("needs_age_answer", "not_adult"):
             return {"status": result.status, "message": MESSAGES[result.status]}
+        if result.status == "account_closed":
+            return _closed_reply(result)
         if result.status == "recovery_waiting":
             return {"status": result.status, "effective_on": result.data["effective_on"],
                     "message": MESSAGES["recovery_waiting"].format(day=result.data["effective_on"])}
@@ -483,7 +501,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
     async def provider_finish(body: ProviderFinishBody, request: Request, response: Response):
         _guard(request)
         result = await run_in_threadpool(
-            service.provider_sign_in, body.provider, body.id_token, body.nonce, _network(request), body.over_18
+            service.provider_sign_in, body.provider, body.id_token, body.nonce, _network(request), body.over_18, body.reopen
         )
         result = _provider_result(result)
         if result.status == "ok":
@@ -492,6 +510,8 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
             return {"status": "ok", "new_account": result.new_account, "coupons": result.data.get("coupons", [])}
         if result.status in ("needs_age_answer", "not_adult"):
             return {"status": result.status, "message": MESSAGES[result.status]}
+        if result.status == "account_closed":
+            return _closed_reply(result)
         await _refuse(result, delay=True)
 
     @app.post("/api/accounts/step-up/provider")
@@ -607,6 +627,9 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         """Deletes one conversation from the shelf and from every store that holds it."""
         _guard(request)
         session = await _session(request)
+        allowed = service.shelf_delete_allowed(session)
+        if allowed.status != "ok":
+            await _refuse(allowed, delay=False)
 
         def _delete():
             if not service.shelf_has(session, body.session_id):
@@ -792,8 +815,8 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
     @app.post("/api/accounts/delete")
     async def delete(request: Request, response: Response):
         _guard(request)
-        result = await run_in_threadpool(service.delete_account, await _session(request), _erase_all)
+        result = await run_in_threadpool(service.close_account, await _session(request))
         if result.status != "ok":
             await _refuse(result, delay=False)
         _clear_cookie(response)
-        return {"status": "ok"}
+        return {"status": "ok", "erase_on": result.data["erase_on"]}

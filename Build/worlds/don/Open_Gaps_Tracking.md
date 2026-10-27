@@ -2053,3 +2053,42 @@ Library thread, 2026-10-26, from the question-coverage survey (`Build/Ministry/F
 Both records should say the Latin is held and the English is not. No download is possible for the English.
 
 Status: OPEN, for this world's thread.
+
+### OG-49. Augustine's precipice charge against Donatist martyrs has no framing record, 2026-10-27.
+
+Question-coverage design thread, 2026-10-27 (`Build/Ministry/Features/Question-Coverage/`; hand-off `Build/Ministry/Operations/Handoffs/2026-10-26_question-coverage-safety-guards.md`, section 1). The design thread does not edit world records; this entry hands the decision to this world's thread.
+
+- `cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml` lines 16889 to 16891 (Answer to the Letters of Petilian, Book II, para. 114) asks Petilian in whose honour "those confessors of yours" die "when they throw themselves over precipices", and says such people are "the enemies of Christ, the friends of the devil" who "have learned to kill themselves from the same master". Para. 114 does not itself name the Circumcellions, but paras. 46 (lines 16209 to 16210), 110 (line 16857) and 204 (line 17715) do link them to precipices, para. 197 speaks of "so great a crop of similar suicides", and Optatus III.4 and Letter 185 make the same charge. The Passio Marculi tells a precipice death as an execution, and Petilian (para. 195) says Marculus "was thrown down a precipice". Two hostile writers agreeing is not independent confirmation. Opus review, 2026-10-27.
+- No don record carries or frames this. The nearest records cover martyr-seeking and the contested portrait only, and none names suicide or voluntary death: `don.dw.not-a-death-wish`, `don.contested.circumcellion-character` (draft), `don.contested.circumcellion-agonistici`, `don.gravity.circumcellion-agonistici`, `don.demo.death-wish`. `don.figure.marculus` is adjacent.
+- A visitor bereaved by suicide, or at risk, asking whether suicide is damnable (C3 S7) could reach the neighbouring records with nothing held.
+- Decision for this thread: a contested claim or honest limit on voluntary death. It must keep the charge from being heard as a verdict on anyone who died by suicide, say it is a hostile opponent's polemic about a contested group, and leave any redirect to the Facilitator (Governance V3.6). Also whether `don.contested.circumcellion-character` leaves draft first.
+- The matching worklist row is Facilitator-adjacent and stays held (Decision-Log, 2026-10-26, R1).
+
+Status: OPEN, for this world's thread.
+
+### OG-50. Record written for Augustine's precipice charge; honest limit still open, 2026-10-27.
+
+Follows "Augustine's precipice charge against Donatist martyrs has no framing record" (2026-10-27). Mark ordered an Opus review of the first draft (`Build/Ministry/Features/Question-Coverage/Review/opus-don-guard-review.md`); the record below is that draft rewritten with its corrections.
+
+- New `don.contested.augustine-precipice-charge` (contested_claim, F6-E, status ready, `use_note.status: provisional`). It carries the charge from Optatus III.4, Answer to Petilian II.46, 110, 114, 160, 193, 195, 197, 204 and Letter 185, the doubt Augustine himself admits (II.46), and the Passio Marculi's telling of the death as an execution. `claim` states only the historical proposition; Augustine's Judas and devil verdict is in `held_against`, framed as polemic.
+- `don.dw.not-a-death-wish` and `don.contested.circumcellion-character` gain `not_for` lines on the eternal fate of a person who died by suicide and on the unproven suicide charge.
+- Opus verdict on the waiver: no bump to the status-ready count, and not `voice: analytic`. The record is ready with `use_note.status` provisional. Moving it to reviewed needs an independent recheck of the corrected text.
+- `records don` and `regate don` pass; the package is rebuilt and repinned.
+
+Still open:
+- An honest limit for the question a bereaved or at-risk visitor asks ("is suicide damnable"), which this record rightly never fires on. It must say this world's sources hold no Donatist teaching on the fate of a person who dies by suicide; that the one Donatist-voiced line near it (Petilian, II.17, the traitor who hung himself) is a polemic, not a teaching; that the opponents' charges concern martyr claims, not anyone today; give no verdict on anyone's death; and carry no Facilitator or crisis wording. The Opus review suggests F6-T, following the lpc precedent. Distress stays with the Facilitator (Governance V3.6 section 12).
+- The worklist row for this item stays Facilitator-adjacent and held until Mark releases it.
+
+Status: OPEN, for this world's thread.
+
+### OG-51. Honest limit written for the fate of those who end their own lives, 2026-10-27.
+
+Closes the open item in OG-50. New `don.limit.fate-of-those-who-end-their-own-lives` (honest_limit, F6-T, ready, `use_note.status` provisional): the texts held here carry no Donatist teaching on the fate of a person who dies by suicide; the nearest Donatist-voiced line (Petilian, quoted in Answer to Petilian II.17, npnf104 line 15887) is a taunt about a traitor, not a teaching; the opponents' charges concern who may be called a martyr; no verdict on any person's death. It carries no Facilitator or crisis wording. Searched: the Monumenta Vetera Donatistarum file by Latin and English terms and Optatus III.4; not every volume. Still open: an independent recheck of this record and of `don.contested.augustine-precipice-charge` before either moves to reviewed.
+
+Status: OPEN for the independent recheck.
+
+### OG-52. Contra Gaudentium not yet read for the suicide honest limit, 2026-10-27.
+
+The independent Opus review of `don.limit.fate-of-those-who-end-their-own-lives` found that the earlier absence claim ("no Donatist text we have speaks to it") was too wide. Augustine's Contra Gaudentium (c. 420) is vendored in `cic/texts/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt` (work begins line 73262). It quotes the letters of Gaudentius, Donatist bishop of Thamugadi, who threatened to burn himself in his church (I.1, lines 73276-73278); Augustine answers the appeal to Razias at I.31.36 (line 75702). The record is narrowed: the statement now says some writings were not read, and `why_sources_cannot_answer` names the work. Still open: read Contra Gaudentium on chosen death under coercion and decide whether it changes the record. Gaudentius's own words are not to be voiced in a record that can fire on a suicide question. The earlier Decision-Log finding that Petilian II.17 is the only Donatist-voiced line near the subject is withdrawn.
+
+Status: OPEN.

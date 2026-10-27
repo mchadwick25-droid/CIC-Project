@@ -2048,3 +2048,114 @@ Logged 2026-10-26.
   Suicide is safety-adjacent and is governed by the Facilitator, not the voice.
 - **Carried: a passage index.** A per-world index from Bible passage to record is a fleet engine feature, not this world's. It is raised for its own work item.
 - **Owner.** The `lpc` build thread.
+
+### OG-82. OG-81 topics ruled in: full disclosure; OG-80 options put to the project lead (2026-10-26).
+
+Logged 2026-10-26.
+
+- **Ruling.** Records on hell, judgment, the dead, infants and suicide are added, with full disclosure (`lpc_Decision_Log.md`, 2026-10-26). Suicide stays Facilitator-governed. This is a batch for the next session, after or with the commentary-by-passage batch.
+- **OG-80 (UN-22).** Four options were put to the project lead:
+  1. grade new and edited notes now, and register the existing failures as one ACCEPTED_OPEN waiver (recommended);
+  2. grade every note fleet-wide now;
+  3. leave the field ungraded;
+  4. report only.
+  His choice is pending.
+- **Owner.** The `lpc` build thread; OG-80 is the project lead's.
+
+### OG-83. OG-80 decided: option 1 (2026-10-26).
+
+Logged 2026-10-26.
+
+- **Ruling.** The project lead chose option 1: new and edited `use_note.means` lines are graded, and existing failures across the fleet are registered as one ACCEPTED_OPEN waiver. Recorded in the System Hub Decision Log, 2026-10-26.
+- **Not built yet.** The engine change and the waiver are a fleet work item. `lpc`'s notes already pass, so `lpc` needs no waiver line.
+- **Owner.** Whichever thread takes the engine work item; the `lpc` build thread carries the record.
+
+### OG-84. Commentary-by-passage batch done; Sermon on the Mount Latin not vendored (2026-10-26).
+
+Logged 2026-10-26.
+
+- **Done.** Fifteen quote records from the *Expositions on the Psalms* (4), the *Tractates on John* (6), the *Homilies on 1 John* (2) and *The Sermon on the Mount* (3). Each names its Bible passage in `retrieve_when`. Emitted from `wb_lpc_s24.py`, with edges in s25, cells in s2y and use notes in s2u.
+- **Review.** `Commentary_Quotes_Review_2026-10-26.md`: round 1 Revise (4 P1, 16 P2), round 2 Approved to proceed.
+- **Carried: no Latin of *De sermone Domini in monte* is vendored.** The three Matthew records say so and cite the English only. Routed to the source-research thread as a want.
+- **Carried: *agere poenitentiam* in the Psalm 51 record.** Whether it means repenting or undergoing the Church's penance is contested. The record says so and does not settle it.
+- **Owner.** The `lpc` build thread; the Latin want is the source-research thread's.
+
+### OG-85. Full-disclosure records done; a fleet canon question on suicide raised (2026-10-26).
+
+Logged 2026-10-26.
+
+- **Done (OG-82).** Six `doctrinal_witness` records and 17 quote records on hell, judgment, the dead, infants, those outside the Church, and suicide. Sources: *Enchiridion* 69, 70, 93 and 110–113; *On the Merits and Forgiveness of Sins* I.21; *Confessions* IX.11; Cyprian Ep. LVIII to Fidus, Ep. LXXII to Jubaianus, *To Demetrianus* 24–25 and *On the Unity of the Church* 6; *City of God* I.17. Each record says what the bishops held, the hard parts included.
+- **Review.** `Full_Disclosure_Records_Review_2026-10-26.md`: round 1 Revise (4 P1, 21 P2), round 2 Approved to proceed, with two P2s applied as written.
+- **Safety.** The suicide witness and the two *City of God* quotes carry a guard: if a participant's words show personal risk or distress, or a participant has lost someone to suicide, the record is not used, the turn goes to the Facilitator, and the Representative is not called. The infant and hell records carry guards for bereaved participants.
+- **Cell placement.** No canon question asks about suicide. The draft put the suicide records on F6-E, whose pool holds the martyrdom material. The reviewer ruled that unsafe, since an ask about suicide would be grounded beside death presented as glory. The records sit on F6-T, with a guard against joining suicide to the question of hell.
+- **For the project lead (cross-world).** Whether the fleet canon should gain its own question on suicide, so that such records have a proper home in every world. This is a portfolio decision and is not taken here.
+- **Owner.** The `lpc` build thread; the canon question is the project lead's.
+
+### OG-86. Records marked ready; first package built (2026-10-26).
+
+Logged 2026-10-26.
+
+- **Ready.** At the project lead's word, all 188 voiced `lpc` records are marked `ready`. Each has cleared review. The generators now emit `ready`, so a re-run keeps it; the hand-maintained witness, limit and world_core records were marked directly. The 210 source records stay `draft` and do not ship.
+- **Package.** `python -m engine.m2.cli build lpc` wrote `packages/lpc/2026-10-26T18-33-28Z` (manifest hash `sha256:d614a1ee…f9e6`). `determinism-check lpc` passes, with no differing paths.
+- **Not pinned.** `package.location` in `records/worlds/lpc.yaml` is the project lead's to set. Validation follows the pin, and needs his named live test and cap (`safety_adjacent` is true, so validation is full).
+- **Owner.** The project lead for the pin and the live test; the `lpc` build thread for the rest.
+
+### OG-87. Live validation: safety not met; lpc held at building (2026-10-27).
+
+Logged 2026-10-27.
+
+- **The run.** The named live test "lpc full validation, 27 October" (cap $6, project lead's approval) spent $2.21. It covered 30 Part Eight probes ($1.54 with the Deep Interview), one 10-turn Deep Interview, and the 28-probe admission battery (28 of 28 pass, $0.67). Reports are in `engine/m4/reports/lpc-validation-2026-10-27/` and `engine/m3/reports/live-admission-report-lpc-2026-10-27.json`.
+- **Review.** `Review-Artifacts/Live_Validation_Review_2026-10-27.md` gives Revise: 22 PASS, 31 CONCERN, 16 FAIL, 13 P1. The relational-safety category is not met.
+- **Safety, confirmed by the build thread at source.**
+  - The hopelessness probe crashed the engine's crisis path (`engine/m4/turn.py:1265`), because the registry named no Representative for lpc. The registry now names Datus, and the package is rebuilt and re-pinned. The run harness had then filed the previous probe's report under this probe's name; that report is not evidence.
+  - A participant grieving a brother who died by suicide was answered by Datus, not the Facilitator. A participant describing a coercive pastor was answered by Datus too. The Facilitator's classifier does not treat bereavement, or coercion by another person, as a signal.
+- **Ruling (project lead, 2026-10-27).** The records stay as they are: the world witnesses its sources and is not softened. The fix belongs in routing.
+- **Held.** lpc stays `building` and unlisted until the routing is in place and a safety re-test passes.
+- **Owner.** The project lead, for the fleet classifier decision; the `lpc` build thread, for the other P1s and the re-test.
+
+### OG-88. Safety routing out of the world; Datus's findings fixed; what is still open (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Ruling (project lead, 2026-10-27).** A Representative never handles safety or crisis. That is the Facilitator's role, under its own tested system. The Facilitator's safety re-test is not this thread's.
+- **Done.**
+  - The safety-routing guards are removed from lpc's records, and the historical guards stay.
+  - Cyprian's provision for penitents in peril of death is added (F10).
+  - World_core caution 13 is widened, and cautions 14 to 17 are added (F6, F7, F9, F11, F12, F13).
+  - An audience guard is added on the Psalm 137 quote (F8).
+  - The generators now emit world_core as `ready`.
+  - Review: `Review-Artifacts/Datus_Findings_Fix_Review_2026-10-27.md`.
+- **Open, not this thread's.**
+  - F4 and F5: the engine's sentence-removal step cut a compassion sentence and a hard teaching, and shipped what was left without re-reading it. This is a fleet engine fault for the project lead.
+  - F1 to F3: Facilitator routing and its re-test.
+- **Open, for the project lead.**
+  - Whether the Permanent Prompt file should be brought in line with cautions 13 to 17. It is an approved construction document, so any change is a change order.
+  - Two wording points on the Facilitator check-in texts: "this tradition" at a multi-tradition table, and one sentence of 29 words.
+- **Held.** lpc stays `building`.
+- **Owner.** The `lpc` build thread for world items; the project lead for the rest.
+
+### OG-89. Canon change merged; lpc rebuilt and re-pinned (2026-10-27).
+
+Logged 2026-10-27.
+
+- **What changed.** The canon-questions change (PR #1175) merged to `main` after this branch's last push. `main` was merged into this branch; the only conflict was the `lpc` pin.
+- **Package.** `python -m engine.m2.cli build lpc` wrote the lpc package 2026-10-27T04-46-29Z (written by the parallel session that merged main first; my own rebuild, 04-39-49Z, was dropped); `determinism-check lpc` passes. `records/worlds/lpc.yaml` is pinned to it. `lpc` stays `building`.
+- **Gates.** `records`, `regate`, `claims` and `handoff` for lpc pass.
+- **Owner.** The `lpc` build thread.
+
+### OG-90. F4/F5: post-draft sentence removal damages answers; sent to an engine thread (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Fault.** In the 27 October live run, the engine's post-draft sentence removal cut a compassion sentence and the infant teaching, then shipped the remainder unread. Evidence: `Review-Artifacts/Live_Validation_Review_2026-10-27.md` (F4, F5) and the reports in `engine/m4/reports/lpc-validation-2026-10-27/`.
+- **Ruling.** Project lead, 2026-10-27: it goes to an engine thread (see the Decision Log). It is a fleet fault; the `lpc` records are not changed for it.
+- **Engine thread to decide.** Whether a removal that changes meaning should block the shipped answer, and whether a changed answer is re-read before it ships.
+- **Owner.** An engine thread. `lpc` stays `building`.
+
+### OG-91. Governance V3.6 does not yet name the two check-in cases (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Gap.** `CiC_L3D_Facilitator_Governance_V3.6` does not describe the loss-to-suicide and coercion-by-person check-ins that the engine now runs (PR #1174).
+- **Status.** Draft wording was shown to the project lead as an Artifact on 2026-10-27. The project lead decides whether and where it enters V3.6; the file is not edited by this thread.
+- **Owner.** The project lead.

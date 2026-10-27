@@ -3,7 +3,7 @@ id: lpc.story.numidicus
 world_id: latin-pastoral-congregational-christianity
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-P
@@ -34,8 +34,6 @@ retrieval:
   - participant raises the cost of faithfulness, or survivor's guilt
   - conversation reaches the pastoral office or ordination and validity
   prefer_instead:
-  - participant is in acute grief or trauma and the physical detail would land badly -- ask about the
-    psalms on the wall instead, which covers a gentler deathbed
   - participant is asking about the lapsed generally rather than about Numidicus specifically -- ask about
     Celerinus's letter to Lucian instead, which carries the lapsed question directly
 claim_guards: []
