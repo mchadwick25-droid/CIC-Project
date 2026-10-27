@@ -20,15 +20,15 @@ export const accountsCopy = {
     'Signing up allows you to keep your conversation and to purchase more conversations. The tokens are held by the account, not by a code in one browser. Codes stay for anyone without an account and for sponsors.',
   signInOrUp: 'Sign in or sign up',
   menuSignIn: 'Sign in to keep this conversation',
-  menuHome: 'My home',
-  savedToHome: 'Saved to your home. It stays until you delete it.',
+  menuHome: 'My account',
+  savedToHome: 'Saved to your account. It stays until you delete it.',
 
   // Sign-in steps
   addressIntro: 'One address, one code. No password.',
   addressLabel: 'Your email address',
   sendCode: 'Send me a code',
   sending: 'Sending',
-  keepsAddress: 'We keep no name. Your address is kept encrypted, only to send you sign-in codes and notices about your home and your purchases.',
+  keepsAddress: 'We keep no name. Your address is kept encrypted, only to send you sign-in codes and notices about your account and your purchases.',
   comesWithYou: 'This conversation comes with you.',
   codeHeading: 'Enter your code',
   codeSent: 'If that address can receive mail, a code is on its way. It works for ten minutes.',
@@ -37,12 +37,12 @@ export const accountsCopy = {
   checking: 'Checking',
   newCode: 'Send a new code',
   junkNote: 'Check the junk folder if nothing arrives. Five wrong tries and the code is spent.',
-  ageHeading: 'One click before your home opens',
+  ageHeading: 'One click before your account opens',
   ageQuestion: 'Accounts are for people who are 18 or over.',
   ageYes: 'I am 18 or over',
   ageNo: 'I am under 18',
   ageNote:
-    'Your home holds your conversations, your tokens and your free allowance. It holds no name. If you lose access to this email and to the recovery code offered later, the home cannot be recovered.',
+    'Your account holds your conversations, your tokens and your free allowance. It holds no name. If you lose access to this email and to the recovery code offered later, the account cannot be recovered.',
   recoveryWaiting: (day: string) => `A recovery of this account is waiting until ${day}. If this was not you, sign in with your email and cancel it.`,
 
   // Google and Apple, recovery
@@ -67,7 +67,7 @@ export const accountsCopy = {
   confirmWith: (name: string) => `Confirm with ${name}`,
 
   // Home
-  homeHeading: 'My home',
+  homeHeading: 'My account',
   homeNote: 'Only you see this page. It holds no name.',
   backToConversation: 'Back to the conversation',
   tokensLeft: (n: number) => `${n.toLocaleString('en-US')} tokens left`,
@@ -78,17 +78,17 @@ export const accountsCopy = {
   codeTokens: (n: number) => `${n.toLocaleString('en-US')} tokens on your codes.`,
   freeFirst: 'Free tokens are used first.',
   getMore: 'Get more conversations',
-  addCodeLink: 'Add a code to my home',
+  addCodeLink: 'Add a code to my account',
   addCodeLabel: 'Your code',
   addCode: 'Add this code',
-  codeAdded: 'The code is added to your home.',
+  codeAdded: 'The code is added to your account.',
   recoveryPrompt: 'Your first conversation is saved. Set up a way back in case you lose access to your email.',
   getRecoveryCode: 'Get my recovery code',
   conversationsHeading: 'Your conversations',
   conversationsEmpty: 'Nothing is saved yet. Conversations you start while signed in are saved here.',
   conversationsLoading: 'Loading your conversations',
   conversationsNote:
-    'The voice and the day, nothing from inside. Kept until you delete them, or until this home sits unused for two years. Each conversation has its own delete in the ⋯ menu.',
+    'The voice and the day, nothing from inside. Kept until you delete them, or until this account sits unused for two years. Each conversation has its own delete in the ⋯ menu.',
   opening: 'Opening',
   remove: 'Delete',
   removeSure: 'Delete this conversation for good?',
@@ -102,7 +102,7 @@ export const accountsCopy = {
   exportData: 'Download my data',
   signOut: 'Sign out',
   signOutEverywhere: 'Sign out everywhere',
-  deleteHome: 'Delete my home',
+  deleteHome: 'Delete my account',
 
   // Recovery code
   recoveryCodeHeading: 'A way back if you lose access to your email',
@@ -126,16 +126,16 @@ export const accountsCopy = {
   deleteIntro: 'This cannot be undone. First, a fresh code, so no one else can do this from your screen.',
   deleteGoesHeading: 'What goes',
   deleteGoes:
-    'Every saved conversation and its words, and the scrubbed review copy of them. Your tokens, free, gift and purchased, with no refund except in a case we agree to. The encrypted copy of your email address and the scrambled key made from it. The link between your home and your codes.',
+    'Every saved conversation and its words, and the scrubbed review copy of them. Your tokens, free, gift and purchased, with no refund except in a case we agree to. The encrypted copy of your email address and the scrambled key made from it. The link between your account and your codes.',
   deleteStaysHeading: 'What stays, for a while',
   deleteStays:
     "Stripe keeps its own record of any payment. The token system keeps each code's row and its payment reference, with no name. Backups drop deleted data within 14 days. The privacy page lists everything that stays.",
   deleteYes: 'Delete everything',
-  deleteNo: 'Keep my home',
+  deleteNo: 'Keep my account',
 
   // Signed out home
-  homeSignedOutHeading: 'Sign in to open your home',
-  newHere: 'New here? The same steps open a new home. You do not need one to have a conversation.',
+  homeSignedOutHeading: 'Sign in to open your account',
+  newHere: 'New here? The same steps open a new account. You do not need one to have a conversation.',
   startWithout: 'Start a conversation without signing in',
   backToSite: 'Back to the site',
 
