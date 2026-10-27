@@ -27,6 +27,10 @@ From session: https://claude.ai/code/session_01LXQVhoN4b7gUG2KwMhR8CK · World o
 - The message box shows a scrollbar with almost no text in it.
 - The panel's "Get more conversations" link opens a popup of `go-deeper.html` (`getCodeUrl()` in `cic-poc/frontend/src/lib/deeper.ts`). While buying is suspended (ruling 80) that page reads "Codes are not on sale yet".
 
+## 2c. The promotion after the 1131 rollback (2026-10-26), done
+
+`live` was rebuilt in pieces taken from `main`, each merged and deployed by Mark by hand and checked with a new conversation: piece 1 (docs, library, LPC records; PR 1155), 2a (accounts, ledger, backup, refill days, accounts off; PR 1156), 2c (tester codes without a daily limit, dashboard list; PR 1157), 2b (question text deleted at 90 days with the privacy page, and the site files; PR 1163). Render reports `053f20d`. The 404 on promotion 1131 was never explained; Mark said to let it go. `live` does not equal `main`: the LPC thread's newer work (PRs 1158 to 1161, one commit marked "held") stays on `main`. The first daily retention run after the 2b deploy clears question text older than 90 days. Render's auto-deploy is still off.
+
 ## 3. Re-check before you trust it
 
 - The 404 on the 1131 build: the Render log line for it would name the path. Not read by this thread.
@@ -40,7 +44,7 @@ From session: https://claude.ai/code/session_01LXQVhoN4b7gUG2KwMhR8CK · World o
 
 ## 5. Next step
 
-Promote what is left on `main` to `live` in small pieces, accounts and LPC one at a time, each confirmed by its own thread first. After each deploy start a new conversation from a card and open the panel.
+Nothing open from this thread. If more of `main` is promoted later, build it as explicit pieces on `live` (a merge would not carry the reverted 1131 content), and wait for the LPC thread's word on its held work.
 
 ## 6. Spend
 
