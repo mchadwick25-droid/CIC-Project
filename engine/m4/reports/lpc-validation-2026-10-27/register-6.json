@@ -1,0 +1,678 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:d614a1ee8d0b12fad56ca7dd7d6d11a83eeb28b7a9f71eeec4e43af648d2f9e6",
+  "package": "packages/lpc/2026-10-26T18-33-28Z",
+  "live_test": {
+    "name": "lpc full validation, 27 October",
+    "cap_usd": 0.3,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.030149
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 1794,
+      "output_tokens": 112,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 2089,
+      "output_tokens": 269,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 3199,
+      "output_tokens": 332,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 23478
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "Did your people believe outsiders were going to hell?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "Yes. Cyprian wrote that there is no salvation outside the Church. He said it about heretics -- people who confessed Christ but stood outside our one communion. He gave Noah's ark as the picture: if any escaped who were outside the ark, then any may escape who are outside the Church. He also wrote to Demetrianus, a pagan who blamed and persecuted us. He told him what awaits those who will not believe. He did not write of people who never heard of Christ, and we do not claim to know what he would have said of them.",
+          "citations": [
+            {
+              "sentence": "Cyprian wrote that there is no salvation outside the Church.",
+              "record_ids": [
+                "lpc.witness.no-salvation-outside-the-church"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.no-salvation-outside-the-church",
+                  "record_type": "doctrinal_witness",
+                  "label": "Cyprian wrote that there is no salvation outside the Church",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "Epistle LXXII to Jubaianus (Oxford and Hartel 73), section 21, \"there is no salvation out of the Church\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 38899-38919; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 15200-15231",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "author": "Cyprian of Carthage",
+                      "work": "On the Unity of the Church (De Unitate)",
+                      "locus": "On the Unity of the Church, section 6, \"He can no longer have God for his Father, who has not the Church for his mother\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 42317-42323; Latin at cic/texts/cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt, lines 361-366",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "author": "Cyprian of Carthage",
+                      "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
+                      "locus": "To Demetrianus, section 24, \"An ever-burning Gehenna will burn up the condemned\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 46246-46253; Latin at cic/texts/cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt, lines 914-919",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "author": "Cyprian of Carthage",
+                      "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
+                      "locus": "To Demetrianus, section 25, \"To him who still remains in this world no repentance is too late\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 46296-46303; Latin at cic/texts/cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt, lines 1001-1006",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "He gave Noah's ark as the picture: if any escaped who were outside the ark, then any may escape who are outside the Church.",
+              "record_ids": [
+                "lpc.witness.no-salvation-outside-the-church"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.no-salvation-outside-the-church",
+                  "record_type": "doctrinal_witness",
+                  "label": "Cyprian wrote that there is no salvation outside the Church",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "Epistle LXXII to Jubaianus (Oxford and Hartel 73), section 21, \"there is no salvation out of the Church\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 38899-38919; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 15200-15231",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "author": "Cyprian of Carthage",
+                      "work": "On the Unity of the Church (De Unitate)",
+                      "locus": "On the Unity of the Church, section 6, \"He can no longer have God for his Father, who has not the Church for his mother\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 42317-42323; Latin at cic/texts/cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt, lines 361-366",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "author": "Cyprian of Carthage",
+                      "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
+                      "locus": "To Demetrianus, section 24, \"An ever-burning Gehenna will burn up the condemned\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 46246-46253; Latin at cic/texts/cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt, lines 914-919",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "author": "Cyprian of Carthage",
+                      "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
+                      "locus": "To Demetrianus, section 25, \"To him who still remains in this world no repentance is too late\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 46296-46303; Latin at cic/texts/cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt, lines 1001-1006",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "He did not write of people who never heard of Christ, and we do not claim to know what he would have said of them.",
+              "record_ids": [
+                "lpc.witness.no-salvation-outside-the-church"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.no-salvation-outside-the-church",
+                  "record_type": "doctrinal_witness",
+                  "label": "Cyprian wrote that there is no salvation outside the Church",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "Epistle LXXII to Jubaianus (Oxford and Hartel 73), section 21, \"there is no salvation out of the Church\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 38899-38919; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 15200-15231",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "author": "Cyprian of Carthage",
+                      "work": "On the Unity of the Church (De Unitate)",
+                      "locus": "On the Unity of the Church, section 6, \"He can no longer have God for his Father, who has not the Church for his mother\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 42317-42323; Latin at cic/texts/cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt, lines 361-366",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "author": "Cyprian of Carthage",
+                      "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
+                      "locus": "To Demetrianus, section 24, \"An ever-burning Gehenna will burn up the condemned\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 46246-46253; Latin at cic/texts/cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt, lines 914-919",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                      "author": "Cyprian of Carthage",
+                      "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
+                      "locus": "To Demetrianus, section 25, \"To him who still remains in this world no repentance is too late\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 46296-46303; Latin at cic/texts/cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt, lines 1001-1006",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.communion",
+              "matched_name": "communion",
+              "text_start": 149,
+              "plain_meaning": "For us, communion is a formal standing within the one body. You can lose it, and be given it back. At the council of 256, Cyprian said no one would be put out of it for thinking differently.",
+              "quick_meaning": "For us, communion is a real standing inside the one body. You can lose it, and be given it back. Cyprian held that it should survive sharp disagreement.",
+              "translational_sense": "A modern listener is likely to hear either a specific liturgical rite -- going up to receive -- or a general warmth of fellowship, and the second makes disagreement look like a failure of communion. We mean a formal, structural status of standing within the body, with public consequences, that, on Cyprian's own principle, disagreement should not dissolve. Disagreement is expected among us; what would break communion is not arguing but separating.",
+              "false_friend": [
+                "a specific liturgical rite alone, going up to receive, with no broader sense of standing attached",
+                "a general warmth of fellowship and mutual good feeling, so that any real disagreement looks like a failure of it"
+              ],
+              "sourced_by": []
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.cyprian",
+              "matched_name": "Cyprian",
+              "text_start": 5,
+              "names": [
+                {
+                  "name": "Cyprian, our bishop at Carthage",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague he taught us to love even our enemies. He was put to death under Valerian.",
+              "dates": {
+                "display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised (Doc_01 SS2; lpc.story.election-of-cyprian); banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258 (lpc.story.the-death-of-cyprian)"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "author": "Cyprian of Carthage",
+                  "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                  "locus": "Epistle LXXII to Jubaianus (Oxford and Hartel 73), section 21, \"there is no salvation out of the Church\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 38899-38919; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 15200-15231",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                },
+                {
+                  "source_id": "lpc.source.cyprian-de-unitate",
+                  "author": "Cyprian of Carthage",
+                  "work": "On the Unity of the Church (De Unitate)",
+                  "locus": "On the Unity of the Church, section 6, \"He can no longer have God for his Father, who has not the Church for his mother\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 42317-42323; Latin at cic/texts/cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt, lines 361-366",
+                  "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                },
+                {
+                  "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                  "author": "Cyprian of Carthage",
+                  "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
+                  "locus": "To Demetrianus, section 24, \"An ever-burning Gehenna will burn up the condemned\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 46246-46253; Latin at cic/texts/cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt, lines 914-919",
+                  "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                },
+                {
+                  "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                  "author": "Cyprian of Carthage",
+                  "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
+                  "locus": "To Demetrianus, section 25, \"To him who still remains in this world no repentance is too late\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 46296-46303; Latin at cic/texts/cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt, lines 1001-1006",
+                  "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_did",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.no-salvation-outside-the-church",
+              "lpc.witness.the-pattern-we-are-modelled-on"
+            ],
+            "term": [
+              "lpc.term.schism",
+              "lpc.term.the-flock"
+            ],
+            "story": [
+              "lpc.story.election-of-cyprian",
+              "lpc.story.hundred-thousand-sesterces",
+              "lpc.story.the-death-of-cyprian"
+            ],
+            "quote": [
+              "lpc.quote.an-ever-burning-gehenna",
+              "lpc.quote.very-many-make-moan-over-the-eternal-punishment",
+              "lpc.quote.the-wretched-woman-and-mercy",
+              "lpc.quote.the-old-man-nailed-to-the-cross-speaks"
+            ],
+            "force": [
+              "lpc.force.donatist-schism",
+              "lpc.force.confessors-claim-to-grant-peace"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "Yes.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Yes."
+              },
+              {
+                "sentence": "Cyprian wrote that there is no salvation outside the Church.",
+                "tags": [
+                  "lpc.witness.no-salvation-outside-the-church"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Cyprian wrote that there is no salvation outside the Church [[lpc.witness.no-salvation-outside-the-church]]."
+              },
+              {
+                "sentence": "He said it about heretics -- people who confessed Christ but stood outside our one communion.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "He said it about heretics -- people who confessed Christ but stood outside our one communion."
+              },
+              {
+                "sentence": "He gave Noah's ark as the picture: if any escaped who were outside the ark, then any may escape who are outside the Church.",
+                "tags": [
+                  "lpc.witness.no-salvation-outside-the-church"
+                ],
+                "verdict": "ok",
+                "why": "grounded 78% in own tagged records",
+                "ratio": 0.78,
+                "draft": "He gave Noah's ark as the picture: if any escaped who were outside the ark, then any may escape who are outside the Church [[lpc.witness.no-salvation-outside-the-church]]."
+              },
+              {
+                "sentence": "He also wrote to Demetrianus, a pagan who blamed and persecuted us.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['demetrianus']) with no citation tag",
+                "draft": "He also wrote to Demetrianus, a pagan who blamed and persecuted us."
+              },
+              {
+                "sentence": "He told him what awaits those who will not believe.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "He told him what awaits those who will not believe."
+              },
+              {
+                "sentence": "He did not write of people who never heard of Christ, and we do not claim to know what he would have said of them.",
+                "tags": [
+                  "lpc.witness.no-salvation-outside-the-church"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "He did not write of people who never heard of Christ, and we do not claim to know what he would have said of them [[lpc.witness.no-salvation-outside-the-church]]."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 7,
+                "cited_record_ids": [
+                  "lpc.witness.no-salvation-outside-the-church"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "Yes.",
+                    "tags": [
+                      "lpc.witness.no-salvation-outside-the-church"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "2": {
+                    "sentence": "He said it about heretics -- people who confessed Christ but stood outside our one communion.",
+                    "tags": [
+                      "lpc.witness.no-salvation-outside-the-church"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "4": {
+                    "sentence": "He also wrote to Demetrianus, a pagan who blamed and persecuted us.",
+                    "tags": [
+                      "lpc.witness.no-salvation-outside-the-church"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 100% in own tagged records",
+                    "ratio": 1.0
+                  },
+                  "5": {
+                    "sentence": "He told him what awaits those who will not believe.",
+                    "tags": [
+                      "lpc.witness.no-salvation-outside-the-church"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [],
+              "removed": [
+                {
+                  "sentence": "On the day of judgment, he wrote:",
+                  "why": "lead-in to a placed quote does not name its speaker",
+                  "draft": "On the day of judgment, he wrote: [[quote:lpc.quote.an-ever-burning-gehenna]]"
+                },
+                {
+                  "sentence": "Even a heretic killed for confessing Christ is not helped, he wrote, for \"there is no salvation out of the Church\".",
+                  "why": "quotation typed by the voice",
+                  "draft": "Even a heretic killed for confessing Christ is not helped, he wrote, for \"there is no salvation out of the Church\" [[lpc.witness.no-salvation-outside-the-church]]."
+                },
+                {
+                  "sentence": "One who leaves the Church, he said, \"is a stranger; he is profane; he is an enemy\".",
+                  "why": "quotation typed by the voice",
+                  "draft": "One who leaves the Church, he said, \"is a stranger; he is profane; he is an enemy\" [[lpc.witness.no-salvation-outside-the-church]]."
+                },
+                {
+                  "sentence": "Yet he pressed the same man to turn while he lived: \"To him who still remains in this world, no repentance is too late\".",
+                  "why": "quotation typed by the voice",
+                  "draft": "Yet he pressed the same man to turn while he lived: \"To him who still remains in this world, no repentance is too late\" [[lpc.witness.no-salvation-outside-the-church]]."
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 4
+              },
+              {
+                "index": 1,
+                "text_start": 5,
+                "text_end": 65
+              },
+              {
+                "index": 2,
+                "text_start": 66,
+                "text_end": 159
+              },
+              {
+                "index": 3,
+                "text_start": 160,
+                "text_end": 283
+              },
+              {
+                "index": 4,
+                "text_start": 284,
+                "text_end": 351
+              },
+              {
+                "index": 5,
+                "text_start": 352,
+                "text_end": 403
+              },
+              {
+                "index": 6,
+                "text_start": 404,
+                "text_end": 518
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.cyprian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 1,
+                "char_start": 0,
+                "char_end": 7,
+                "surface": "Cyprian"
+              },
+              {
+                "record_id": "lpc.term.communion",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The chunk's own Key Sources section states this precisely rather than leaving it to inference: 'The underlying primary-source facts reach Documented. The synthesis -- that these constitute one named cross-phase gravity rather than two separate historical facts -- is this build's own reasoning, at Widely Accepted, and Doc_04 SS3 flags the divergence rather than upgrading it.' This term record IS that synthesis, so its own formation_confidence follows the synthesis's own rating, not the underlying quoted facts' rating. Doc_03 itself characterizes the pattern the same way: inferred from both bishops' conduct across more than one text, not a term either bishop names as such.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 2,
+                "char_start": 83,
+                "char_end": 92,
+                "surface": "communion"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.witness.no-salvation-outside-the-church",
+                "record_type": "doctrinal_witness",
+                "label": "Cyprian wrote that there is no salvation outside the Church",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "author": "Cyprian of Carthage",
+                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                    "locus": "Epistle LXXII to Jubaianus (Oxford and Hartel 73), section 21, \"there is no salvation out of the Church\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 38899-38919; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 15200-15231",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "author": "Cyprian of Carthage",
+                    "work": "On the Unity of the Church (De Unitate)",
+                    "locus": "On the Unity of the Church, section 6, \"He can no longer have God for his Father, who has not the Church for his mother\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 42317-42323; Latin at cic/texts/cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt, lines 361-366",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "author": "Cyprian of Carthage",
+                    "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
+                    "locus": "To Demetrianus, section 24, \"An ever-burning Gehenna will burn up the condemned\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 46246-46253; Latin at cic/texts/cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt, lines 914-919",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "author": "Cyprian of Carthage",
+                    "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
+                    "locus": "To Demetrianus, section 25, \"To him who still remains in this world no repentance is too late\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 46296-46303; Latin at cic/texts/cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt, lines 1001-1006",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.witness.no-salvation-outside-the-church",
+                "record_type": "doctrinal_witness",
+                "label": "Cyprian wrote that there is no salvation outside the Church",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "author": "Cyprian of Carthage",
+                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                    "locus": "Epistle LXXII to Jubaianus (Oxford and Hartel 73), section 21, \"there is no salvation out of the Church\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 38899-38919; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 15200-15231",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "author": "Cyprian of Carthage",
+                    "work": "On the Unity of the Church (De Unitate)",
+                    "locus": "On the Unity of the Church, section 6, \"He can no longer have God for his Father, who has not the Church for his mother\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 42317-42323; Latin at cic/texts/cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt, lines 361-366",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "author": "Cyprian of Carthage",
+                    "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
+                    "locus": "To Demetrianus, section 24, \"An ever-burning Gehenna will burn up the condemned\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 46246-46253; Latin at cic/texts/cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt, lines 914-919",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-minor-pastoral-treatises",
+                    "author": "Cyprian of Carthage",
+                    "work": "Minor treatises, grouped: An Address to Demetrianus, Exhortation to Martyrdom (Ad Fortunatum), On Jealousy and Envy, On Works and Alms, On the Advantage of Patience, On the Dress of Virgins, On the Lord's Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies Against the Jews (Ad Quirinum)",
+                    "locus": "To Demetrianus, section 25, \"To him who still remains in this world no repentance is too late\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 46296-46303; Latin at cic/texts/cyprian_ad-demetrianum-lat_hartel1868-csel3-tei.txt, lines 1001-1006",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 1,
+              "sentence_indexes": [
+                4
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [],
+            "removed": [
+              {
+                "sentence": "On the day of judgment, he wrote:",
+                "why": "lead-in to a placed quote does not name its speaker",
+                "draft": "On the day of judgment, he wrote: [[quote:lpc.quote.an-ever-burning-gehenna]]"
+              },
+              {
+                "sentence": "Even a heretic killed for confessing Christ is not helped, he wrote, for \"there is no salvation out of the Church\".",
+                "why": "quotation typed by the voice",
+                "draft": "Even a heretic killed for confessing Christ is not helped, he wrote, for \"there is no salvation out of the Church\" [[lpc.witness.no-salvation-outside-the-church]]."
+              },
+              {
+                "sentence": "One who leaves the Church, he said, \"is a stranger; he is profane; he is an enemy\".",
+                "why": "quotation typed by the voice",
+                "draft": "One who leaves the Church, he said, \"is a stranger; he is profane; he is an enemy\" [[lpc.witness.no-salvation-outside-the-church]]."
+              },
+              {
+                "sentence": "Yet he pressed the same man to turn while he lived: \"To him who still remains in this world, no repentance is too late\".",
+                "why": "quotation typed by the voice",
+                "draft": "Yet he pressed the same man to turn while he lived: \"To him who still remains in this world, no repentance is too late\" [[lpc.witness.no-salvation-outside-the-church]]."
+              }
+            ]
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

@@ -1,0 +1,1027 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:d614a1ee8d0b12fad56ca7dd7d6d11a83eeb28b7a9f71eeec4e43af648d2f9e6",
+  "package": "packages/lpc/2026-10-26T18-33-28Z",
+  "live_test": {
+    "name": "lpc full validation, 27 October",
+    "cap_usd": 0.3,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.040343
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 1804,
+      "output_tokens": 112,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 2099,
+      "output_tokens": 231,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 1009,
+      "output_tokens": 336,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 23478
+    },
+    {
+      "call_kind": "self_revision",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 1278,
+      "output_tokens": 338,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 23478
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "So you'd agree the Donatists were just schismatics who deserved what they got?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "other_tradition, first ask - in-world answer",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We do not call what was done to them deserved, and we do not stand outside them as a people. They were a separated communion in our own towns, with their own bishops and congregations. They claimed to be the only true church, and we claimed the same about ourselves. Augustine argued at length that their sacraments were real even while they stood outside. He reached for a branch to say it. A branch cut from the vine keeps its shape but loses its life. Augustine wrote: “The visible form of a branch can exist even when it is separated from the vine. But the unseen life of the root can only be had in the vine. So the bodily sacraments can give “the form of godliness.” Even those who are separated from the unity of Christ’s Body carry and celebrate them. But the unseen, spiritual power of godliness cannot be in them at all. In the same way, feeling does not stay with a person's limb when it is cut off from the body.”\n\nThat is what he held their baptism was: the true form, carried by people cut off from the one body it lives in. On the emperors' laws against them, Augustine moved across three stages, by his own later account. He first held that no one should be forced. Later he and his colleagues asked for a narrow measure that was not granted. Later still he defended a broader compulsion at length, when it was already in force. We hold both: his first view that no one should be forced, and his late defence of what was done. We do not resolve them into one answer that makes the tension disappear.",
+          "citations": [
+            {
+              "sentence": "We do not call what was done to them deserved, and we do not stand outside them as a people.",
+              "record_ids": [
+                "lpc.gravity.sacramental-ordination-validity"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.gravity.sacramental-ordination-validity",
+                  "record_type": "gravity",
+                  "label": "Sacramental and Ordination Validity Across the Boundary of the Church",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "author": "Cyprian of Carthage and the African episcopate in council",
+                      "work": "The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256; the vendored edition's own heading dates it a.d. 258)",
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "author": "Augustine of Hippo",
+                      "work": "On Baptism, Against the Donatists (7 books, c. 400)",
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. IV, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "They claimed to be the only true church, and we claimed the same about ourselves.",
+              "record_ids": [
+                "lpc.term.schism"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.schism",
+                  "record_type": "term",
+                  "label": "schism",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "author": "Cyprian of Carthage",
+                      "work": "On the Unity of the Church (De Unitate)",
+                      "locus": "De Unitate, the general treatise on schism and the one episcopate; De Unitate 17 -- one 'who separates himself from the company of His clergy and people... dares to set up another altar'",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "author": "Augustine of Hippo",
+                      "work": "On Baptism, Against the Donatists (7 books, c. 400)",
+                      "locus": "On Baptism, Against the Donatists, the cross-phase grounding",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. IV, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine argued at length that their sacraments were real even while they stood outside.",
+              "record_ids": [
+                "lpc.gravity.sacramental-ordination-validity"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.gravity.sacramental-ordination-validity",
+                  "record_type": "gravity",
+                  "label": "Sacramental and Ordination Validity Across the Boundary of the Church",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "author": "Cyprian of Carthage and the African episcopate in council",
+                      "work": "The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256; the vendored edition's own heading dates it a.d. 258)",
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "author": "Augustine of Hippo",
+                      "work": "On Baptism, Against the Donatists (7 books, c. 400)",
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. IV, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine wrote: “The visible form of a branch can exist even when it is separated from the vine. But the unseen life of the root can only be had in the vine. So the bodily sacraments can give “the form of godliness.” Even those who are separated from the unity of Christ’s Body carry and celebrate them. But the unseen, spiritual power of godliness cannot be in them at all. In the same way, feeling does not stay with a person's limb when it is cut off from the body.”",
+              "record_ids": [
+                "lpc.quote.the-branch-cut-from-the-vine"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.the-branch-cut-from-the-vine",
+                  "record_type": "quote",
+                  "label": "Sermons on Selected Lessons of the New Testament, Sermon 21 — Augustine, our bishop at Hippo",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                      "author": "Augustine of Hippo",
+                      "work": "Sermons on Selected Lessons of the New Testament (~97 sermons, ~308,000 words). Completeness qualifier: this is the vendored 19th-century NPNF sermon body, not the full modern corpus -- the 1990 Dolbeau/Mainz find added 26 further sermons (published 1996; row 50), not represented here",
+                      "locus": "Sermon 21 (NPNF numbering; Maurist 71), section 32; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 12936-12937; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 32254-32262",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. VI, vendored as cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml"
+                    }
+                  ],
+                  "spoken_rendering": "The visible form of a branch can exist even when it is separated from the vine. But the unseen life of the root can only be had in the vine. So the bodily sacraments can give “the form of godliness.” Even those who are separated from the unity of Christ’s Body carry and celebrate them. But the unseen, spiritual power of godliness cannot be in them at all. In the same way, feeling does not stay with a person's limb when it is cut off from the body.",
+                  "speaker": "Augustine, our bishop at Hippo"
+                }
+              ]
+            },
+            {
+              "sentence": "On the emperors' laws against them, Augustine moved across three stages, by his own later account.",
+              "record_ids": [
+                "lpc.contested.compel-coercion-development"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.contested.compel-coercion-development",
+                  "record_type": "contested_claim",
+                  "label": "Augustine's three-phase development on coercion -- an early opinion against any compulsion (Letter XCIII §17), a narrow and unsuccessful solicitation of legal protection (Letter 185 §§25-26, earlier in his own episcopate), and finally a sustained defence of compulsion already in force -- records a genuine change of mind, reached through pastoral experience of the Donatist schism, rather than a retrospective self-presentation constructed after the fact to make an already-settled practice look like the outcome of principled reconsideration.",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                      "author": "Augustine of Hippo",
+                      "work": "The Correction of the Donatists (Letter 185, c. 417), addressed to the tribune Boniface",
+                      "locus": "Letter 185, §§25-26, the imperial-coercion defence, directly quoted and re-verified",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. IV, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-letter-93-to-vincentius",
+                      "author": "Augustine of Hippo",
+                      "work": "Letter XCIII (to Vincentius, a.d. 408 on the NPNF heading)",
+                      "locus": "Letter XCIII, §17, the retrospective account of the earlier, contrary opinion, directly quoted and re-verified",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.shaw-sacred-violence",
+                      "author": "Brent D. Shaw",
+                      "work": "Sacred Violence: African Christians and Sectarian Hatred in the Age of Augustine (Cambridge: Cambridge University Press, 2011)",
+                      "locus": "the standard modern treatment of the Donatist/Circumcellion violence Augustine's own coercion argument responds to -- background context for the coercive-capacity axis, not itself evidence of this world's own internal life",
+                      "rights_status": "in-copyright; never vendored, consultation-only. This row sits above Source_Acquisition_Manifest.md §SS3's own stated Confidence-C-or-below membership rule (it is Confidence B, not C-or-below), so that rule is not cited for it -- the substantive classification (in-copyright, never vendored, consultation-only) rests on the Registry row's own Verification Note directly, not on SS3's categorical rule. Cited and consulted by this build, never quoted as licensed vendored material.",
+                      "edition": "Cambridge University Press, 2011 -- consultation-only, never vendored (Source_Acquisition_Manifest.md SS3)"
+                    },
+                    {
+                      "source_id": "lpc.source.humfress-orthodoxy-and-the-courts",
+                      "author": "Caroline Humfress",
+                      "work": "Orthodoxy and the Courts in Late Antiquity (Oxford: Oxford University Press, 2007)",
+                      "locus": "the standard modern legal-historical study of how late-antique ecclesiastical and civil courts actually interacted, licensed for the imperial-coercion material's own legal context",
+                      "rights_status": "in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note says \"in copyright\" and \"consultation-only\" or \"not a vendoring candidate\" is in this category' -- spanning primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build, never quoted as licensed vendored material.",
+                      "edition": "Oxford University Press, 2007 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring candidate"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Later still he defended a broader compulsion at length, when it was already in force.",
+              "record_ids": [
+                "lpc.contested.compel-coercion-development"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.contested.compel-coercion-development",
+                  "record_type": "contested_claim",
+                  "label": "Augustine's three-phase development on coercion -- an early opinion against any compulsion (Letter XCIII §17), a narrow and unsuccessful solicitation of legal protection (Letter 185 §§25-26, earlier in his own episcopate), and finally a sustained defence of compulsion already in force -- records a genuine change of mind, reached through pastoral experience of the Donatist schism, rather than a retrospective self-presentation constructed after the fact to make an already-settled practice look like the outcome of principled reconsideration.",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                      "author": "Augustine of Hippo",
+                      "work": "The Correction of the Donatists (Letter 185, c. 417), addressed to the tribune Boniface",
+                      "locus": "Letter 185, §§25-26, the imperial-coercion defence, directly quoted and re-verified",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. IV, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-letter-93-to-vincentius",
+                      "author": "Augustine of Hippo",
+                      "work": "Letter XCIII (to Vincentius, a.d. 408 on the NPNF heading)",
+                      "locus": "Letter XCIII, §17, the retrospective account of the earlier, contrary opinion, directly quoted and re-verified",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.shaw-sacred-violence",
+                      "author": "Brent D. Shaw",
+                      "work": "Sacred Violence: African Christians and Sectarian Hatred in the Age of Augustine (Cambridge: Cambridge University Press, 2011)",
+                      "locus": "the standard modern treatment of the Donatist/Circumcellion violence Augustine's own coercion argument responds to -- background context for the coercive-capacity axis, not itself evidence of this world's own internal life",
+                      "rights_status": "in-copyright; never vendored, consultation-only. This row sits above Source_Acquisition_Manifest.md §SS3's own stated Confidence-C-or-below membership rule (it is Confidence B, not C-or-below), so that rule is not cited for it -- the substantive classification (in-copyright, never vendored, consultation-only) rests on the Registry row's own Verification Note directly, not on SS3's categorical rule. Cited and consulted by this build, never quoted as licensed vendored material.",
+                      "edition": "Cambridge University Press, 2011 -- consultation-only, never vendored (Source_Acquisition_Manifest.md SS3)"
+                    },
+                    {
+                      "source_id": "lpc.source.humfress-orthodoxy-and-the-courts",
+                      "author": "Caroline Humfress",
+                      "work": "Orthodoxy and the Courts in Late Antiquity (Oxford: Oxford University Press, 2007)",
+                      "locus": "the standard modern legal-historical study of how late-antique ecclesiastical and civil courts actually interacted, licensed for the imperial-coercion material's own legal context",
+                      "rights_status": "in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note says \"in copyright\" and \"consultation-only\" or \"not a vendoring candidate\" is in this category' -- spanning primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build, never quoted as licensed vendored material.",
+                      "edition": "Oxford University Press, 2007 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring candidate"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.communion",
+              "matched_name": "communion",
+              "text_start": 115,
+              "plain_meaning": "For us, communion is a formal standing within the one body. You can lose it, and be given it back. At the council of 256, Cyprian said no one would be put out of it for thinking differently.",
+              "quick_meaning": "For us, communion is a real standing inside the one body. You can lose it, and be given it back. Cyprian held that it should survive sharp disagreement.",
+              "translational_sense": "A modern listener is likely to hear either a specific liturgical rite -- going up to receive -- or a general warmth of fellowship, and the second makes disagreement look like a failure of communion. We mean a formal, structural status of standing within the body, with public consequences, that, on Cyprian's own principle, disagreement should not dissolve. Disagreement is expected among us; what would break communion is not arguing but separating.",
+              "false_friend": [
+                "a specific liturgical rite alone, going up to receive, with no broader sense of standing attached",
+                "a general warmth of fellowship and mutual good feeling, so that any real disagreement looks like a failure of it"
+              ],
+              "sourced_by": []
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 267,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV, independently re-located this session; Doc_01 SS2); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII; Doc_01 SS2); died 430, during the Vandal siege of Hippo (lpc.story.the-psalms-on-the-wall)"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "author": "Cyprian of Carthage",
+                  "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                },
+                {
+                  "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                  "author": "Cyprian of Carthage and the African episcopate in council",
+                  "work": "The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256; the vendored edition's own heading dates it a.d. 258)",
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                },
+                {
+                  "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                  "author": "Augustine of Hippo",
+                  "work": "On Baptism, Against the Donatists (7 books, c. 400)",
+                  "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Nicene and Post-Nicene Fathers, Series I, vol. IV, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml"
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_did",
+          "offered_ids": {
+            "quote": [
+              "lpc.quote.he-covered-his-eyes-with-his-own-hand",
+              "lpc.quote.such-a-one-with-his-friends",
+              "lpc.quote.the-branch-cut-from-the-vine"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": true,
+              "changed": true,
+              "draft_length": 1371,
+              "revised_length": 1366,
+              "fallback_reason": null,
+              "latency_seconds": 4.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We do not call what was done to them deserved, and we do not stand outside them as a people.",
+                "tags": [
+                  "lpc.gravity.sacramental-ordination-validity"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "We do not call what was done to them deserved, and we do not stand outside them as a people [[lpc.gravity.sacramental-ordination-validity]]."
+              },
+              {
+                "sentence": "They were a separated communion in our own towns, with their own bishops and congregations.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "They were a separated communion in our own towns, with their own bishops and congregations."
+              },
+              {
+                "sentence": "They claimed to be the only true church, and we claimed the same about ourselves.",
+                "tags": [
+                  "lpc.term.schism"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "They claimed to be the only true church, and we claimed the same about ourselves [[lpc.term.schism]]."
+              },
+              {
+                "sentence": "Augustine argued at length that their sacraments were real even while they stood outside.",
+                "tags": [
+                  "lpc.gravity.sacramental-ordination-validity"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Augustine argued at length that their sacraments were real even while they stood outside [[lpc.gravity.sacramental-ordination-validity]]."
+              },
+              {
+                "sentence": "He reached for a branch to say it.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "He reached for a branch to say it."
+              },
+              {
+                "sentence": "A branch cut from the vine keeps its shape but loses its life.",
+                "tags": [
+                  "lpc.gravity.sacramental-ordination-validity"
+                ],
+                "verdict": "withhold",
+                "why": "tagged claim sharing no content word with its own tagged records",
+                "draft": "A branch cut from the vine keeps its shape but loses its life [[lpc.gravity.sacramental-ordination-validity]]."
+              },
+              {
+                "sentence": "Augustine wrote: “The visible form of a branch can exist even when it is separated from the vine. But the unseen life of the root can only be had in the vine. So the bodily sacraments can give “the form of godliness.” Even those who are separated from the unity of Christ’s Body carry and celebrate them. But the unseen, spiritual power of godliness cannot be in them at all. In the same way, feeling does not stay with a person's limb when it is cut off from the body.”",
+                "tags": [
+                  "lpc.quote.the-branch-cut-from-the-vine"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.the-branch-cut-from-the-vine",
+                "draft": "Augustine wrote: [[quote:lpc.quote.the-branch-cut-from-the-vine]]"
+              },
+              {
+                "sentence": "That is what he held their baptism was: the true form, carried by people cut off from the one body it lives in.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "That is what he held their baptism was: the true form, carried by people cut off from the one body it lives in."
+              },
+              {
+                "sentence": "On the emperors' laws against them, Augustine moved across three stages, by his own later account.",
+                "tags": [
+                  "lpc.contested.compel-coercion-development"
+                ],
+                "verdict": "ok",
+                "why": "grounded 50% in own tagged records",
+                "ratio": 0.5,
+                "draft": "On the emperors' laws against them, Augustine moved across three stages, by his own later account [[lpc.contested.compel-coercion-development]]."
+              },
+              {
+                "sentence": "He first held that no one should be forced.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "He first held that no one should be forced."
+              },
+              {
+                "sentence": "Later he and his colleagues asked for a narrow measure that was not granted.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Later he and his colleagues asked for a narrow measure that was not granted."
+              },
+              {
+                "sentence": "Later still he defended a broader compulsion at length, when it was already in force.",
+                "tags": [
+                  "lpc.contested.compel-coercion-development"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Later still he defended a broader compulsion at length, when it was already in force [[lpc.contested.compel-coercion-development]]."
+              },
+              {
+                "sentence": "We hold both: his first view that no one should be forced, and his late defence of what was done.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We hold both: his first view that no one should be forced, and his late defence of what was done."
+              },
+              {
+                "sentence": "We do not resolve them into one answer that makes the tension disappear.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We do not resolve them into one answer that makes the tension disappear."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 7,
+                "cited_record_ids": [
+                  "lpc.gravity.sacramental-ordination-validity",
+                  "lpc.quote.the-branch-cut-from-the-vine",
+                  "lpc.term.schism"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "1": {
+                    "sentence": "They were a separated communion in our own towns, with their own bishops and congregations.",
+                    "tags": [
+                      "lpc.gravity.sacramental-ordination-validity",
+                      "lpc.quote.the-branch-cut-from-the-vine",
+                      "lpc.term.schism"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "4": {
+                    "sentence": "He reached for a branch to say it.",
+                    "tags": [
+                      "lpc.gravity.sacramental-ordination-validity",
+                      "lpc.quote.the-branch-cut-from-the-vine",
+                      "lpc.term.schism"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 7,
+                "cited_record_ids": [
+                  "lpc.contested.compel-coercion-development"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "That is what he held their baptism was: the true form, carried by people cut off from the one body it lives in.",
+                    "tags": [
+                      "lpc.contested.compel-coercion-development"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "2": {
+                    "sentence": "He first held that no one should be forced.",
+                    "tags": [
+                      "lpc.contested.compel-coercion-development"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "3": {
+                    "sentence": "Later he and his colleagues asked for a narrow measure that was not granted.",
+                    "tags": [
+                      "lpc.contested.compel-coercion-development"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "5": {
+                    "sentence": "We hold both: his first view that no one should be forced, and his late defence of what was done.",
+                    "tags": [
+                      "lpc.contested.compel-coercion-development"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "6": {
+                    "sentence": "We do not resolve them into one answer that makes the tension disappear.",
+                    "tags": [
+                      "lpc.contested.compel-coercion-development"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.the-branch-cut-from-the-vine"
+              ],
+              "removed": []
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 92
+              },
+              {
+                "index": 1,
+                "text_start": 93,
+                "text_end": 184
+              },
+              {
+                "index": 2,
+                "text_start": 185,
+                "text_end": 266
+              },
+              {
+                "index": 3,
+                "text_start": 267,
+                "text_end": 356
+              },
+              {
+                "index": 4,
+                "text_start": 357,
+                "text_end": 391
+              },
+              {
+                "index": 5,
+                "text_start": 392,
+                "text_end": 454
+              },
+              {
+                "index": 6,
+                "text_start": 455,
+                "text_end": 925
+              },
+              {
+                "index": 7,
+                "text_start": 927,
+                "text_end": 1038
+              },
+              {
+                "index": 8,
+                "text_start": 1039,
+                "text_end": 1137
+              },
+              {
+                "index": 9,
+                "text_start": 1138,
+                "text_end": 1181
+              },
+              {
+                "index": 10,
+                "text_start": 1182,
+                "text_end": 1258
+              },
+              {
+                "index": 11,
+                "text_start": 1259,
+                "text_end": 1344
+              },
+              {
+                "index": 12,
+                "text_start": 1345,
+                "text_end": 1442
+              },
+              {
+                "index": 13,
+                "text_start": 1443,
+                "text_end": 1515
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.term.communion",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The chunk's own Key Sources section states this precisely rather than leaving it to inference: 'The underlying primary-source facts reach Documented. The synthesis -- that these constitute one named cross-phase gravity rather than two separate historical facts -- is this build's own reasoning, at Widely Accepted, and Doc_04 SS3 flags the divergence rather than upgrading it.' This term record IS that synthesis, so its own formation_confidence follows the synthesis's own rating, not the underlying quoted facts' rating. Doc_03 itself characterizes the pattern the same way: inferred from both bishops' conduct across more than one text, not a term either bishop names as such.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 1,
+                "char_start": 22,
+                "char_end": 31,
+                "surface": "communion"
+              },
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 3,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.quote.the-branch-cut-from-the-vine",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 6,
+                "char_start": 17,
+                "char_end": 470,
+                "surface": "“The visible form of a branch can exist even when it is separated from the vine. But the unseen life of the root can only be had in the vine. So the bodily sacraments can give “the form of godliness.” Even those who are separated from the unity of Christ’s Body carry and celebrate them. But the unseen, spiritual power of godliness cannot be in them at all. In the same way, feeling does not stay with a person's limb when it is cut off from the body.”"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.gravity.sacramental-ordination-validity",
+                "record_type": "gravity",
+                "label": "Sacramental and Ordination Validity Across the Boundary of the Church",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "author": "Cyprian of Carthage",
+                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "author": "Cyprian of Carthage and the African episcopate in council",
+                    "work": "The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256; the vendored edition's own heading dates it a.d. 258)",
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "author": "Augustine of Hippo",
+                    "work": "On Baptism, Against the Donatists (7 books, c. 400)",
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. IV, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Doc_04 §3 Candidate 6: no divergence. Both positions directly quoted and independently re-verified (On Baptism I.1.2; the 256 preface; Book III ch. 2 §2).",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.term.schism",
+                "record_type": "term",
+                "label": "schism",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "author": "Cyprian of Carthage",
+                    "work": "On the Unity of the Church (De Unitate)",
+                    "locus": "De Unitate, the general treatise on schism and the one episcopate; De Unitate 17 -- one 'who separates himself from the company of His clergy and people... dares to set up another altar'",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "author": "Augustine of Hippo",
+                    "work": "On Baptism, Against the Donatists (7 books, c. 400)",
+                    "locus": "On Baptism, Against the Donatists, the cross-phase grounding",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. IV, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "How this world characterizes its own opponents -- the Donatists specifically -- belongs to a later, separate step and this world's eventual Representative, not to this lexicon; this entry names the general concept only and does not characterize Donatism. This term also carries a live scholarly contest, of the type Application to this world, secondarily Historical scope. It runs over whether the heresy/schism distinction was as stable in this period as later usage implies, and how far the category describes a real ecclesial situation as against a polemical instrument used by the side that eventually prevailed. The North African case is the field's own central example. The entry does not present the distinction as a neutral technical taxonomy, and it does not settle whether the application of the category to rivals was accurate.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.quote.the-branch-cut-from-the-vine",
+                "record_type": "quote",
+                "label": "Sermons on Selected Lessons of the New Testament, Sermon 21 — Augustine, our bishop at Hippo",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                    "author": "Augustine of Hippo",
+                    "work": "Sermons on Selected Lessons of the New Testament (~97 sermons, ~308,000 words). Completeness qualifier: this is the vendored 19th-century NPNF sermon body, not the full modern corpus -- the 1990 Dolbeau/Mainz find added 26 further sermons (published 1996; row 50), not represented here",
+                    "locus": "Sermon 21 (NPNF numbering; Maurist 71), section 32; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 12936-12937; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 32254-32262",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. VI, vendored as cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml"
+                  }
+                ],
+                "spoken_rendering": "The visible form of a branch can exist even when it is separated from the vine. But the unseen life of the root can only be had in the vine. So the bodily sacraments can give “the form of godliness.” Even those who are separated from the unity of Christ’s Body carry and celebrate them. But the unseen, spiritual power of godliness cannot be in them at all. In the same way, feeling does not stay with a person's limb when it is cut off from the body.",
+                "speaker": "Augustine, our bishop at Hippo",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.contested.compel-coercion-development",
+                "record_type": "contested_claim",
+                "label": "Augustine's three-phase development on coercion -- an early opinion against any compulsion (Letter XCIII §17), a narrow and unsuccessful solicitation of legal protection (Letter 185 §§25-26, earlier in his own episcopate), and finally a sustained defence of compulsion already in force -- records a genuine change of mind, reached through pastoral experience of the Donatist schism, rather than a retrospective self-presentation constructed after the fact to make an already-settled practice look like the outcome of principled reconsideration.",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                    "author": "Augustine of Hippo",
+                    "work": "The Correction of the Donatists (Letter 185, c. 417), addressed to the tribune Boniface",
+                    "locus": "Letter 185, §§25-26, the imperial-coercion defence, directly quoted and re-verified",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. IV, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-letter-93-to-vincentius",
+                    "author": "Augustine of Hippo",
+                    "work": "Letter XCIII (to Vincentius, a.d. 408 on the NPNF heading)",
+                    "locus": "Letter XCIII, §17, the retrospective account of the earlier, contrary opinion, directly quoted and re-verified",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.shaw-sacred-violence",
+                    "author": "Brent D. Shaw",
+                    "work": "Sacred Violence: African Christians and Sectarian Hatred in the Age of Augustine (Cambridge: Cambridge University Press, 2011)",
+                    "locus": "the standard modern treatment of the Donatist/Circumcellion violence Augustine's own coercion argument responds to -- background context for the coercive-capacity axis, not itself evidence of this world's own internal life",
+                    "rights_status": "in-copyright; never vendored, consultation-only. This row sits above Source_Acquisition_Manifest.md §SS3's own stated Confidence-C-or-below membership rule (it is Confidence B, not C-or-below), so that rule is not cited for it -- the substantive classification (in-copyright, never vendored, consultation-only) rests on the Registry row's own Verification Note directly, not on SS3's categorical rule. Cited and consulted by this build, never quoted as licensed vendored material.",
+                    "edition": "Cambridge University Press, 2011 -- consultation-only, never vendored (Source_Acquisition_Manifest.md SS3)"
+                  },
+                  {
+                    "source_id": "lpc.source.humfress-orthodoxy-and-the-courts",
+                    "author": "Caroline Humfress",
+                    "work": "Orthodoxy and the Courts in Late Antiquity (Oxford: Oxford University Press, 2007)",
+                    "locus": "the standard modern legal-historical study of how late-antique ecclesiastical and civil courts actually interacted, licensed for the imperial-coercion material's own legal context",
+                    "rights_status": "in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note says \"in copyright\" and \"consultation-only\" or \"not a vendoring candidate\" is in this category' -- spanning primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build, never quoted as licensed vendored material.",
+                    "edition": "Oxford University Press, 2007 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring candidate"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "contested",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.gravity.sacramental-ordination-validity",
+                "record_type": "gravity",
+                "label": "Sacramental and Ordination Validity Across the Boundary of the Church",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "author": "Cyprian of Carthage",
+                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "author": "Cyprian of Carthage and the African episcopate in council",
+                    "work": "The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256; the vendored edition's own heading dates it a.d. 258)",
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "author": "Augustine of Hippo",
+                    "work": "On Baptism, Against the Donatists (7 books, c. 400)",
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. IV, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Doc_04 §3 Candidate 6: no divergence. Both positions directly quoted and independently re-verified (On Baptism I.1.2; the 256 preface; Book III ch. 2 §2).",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.term.schism",
+                "record_type": "term",
+                "label": "schism",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "author": "Cyprian of Carthage",
+                    "work": "On the Unity of the Church (De Unitate)",
+                    "locus": "De Unitate, the general treatise on schism and the one episcopate; De Unitate 17 -- one 'who separates himself from the company of His clergy and people... dares to set up another altar'",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "author": "Augustine of Hippo",
+                    "work": "On Baptism, Against the Donatists (7 books, c. 400)",
+                    "locus": "On Baptism, Against the Donatists, the cross-phase grounding",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. IV, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "How this world characterizes its own opponents -- the Donatists specifically -- belongs to a later, separate step and this world's eventual Representative, not to this lexicon; this entry names the general concept only and does not characterize Donatism. This term also carries a live scholarly contest, of the type Application to this world, secondarily Historical scope. It runs over whether the heresy/schism distinction was as stable in this period as later usage implies, and how far the category describes a real ecclesial situation as against a polemical instrument used by the side that eventually prevailed. The North African case is the field's own central example. The entry does not present the distinction as a neutral technical taxonomy, and it does not settle whether the application of the category to rivals was accurate.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.contested.compel-coercion-development",
+                "record_type": "contested_claim",
+                "label": "Augustine's three-phase development on coercion -- an early opinion against any compulsion (Letter XCIII §17), a narrow and unsuccessful solicitation of legal protection (Letter 185 §§25-26, earlier in his own episcopate), and finally a sustained defence of compulsion already in force -- records a genuine change of mind, reached through pastoral experience of the Donatist schism, rather than a retrospective self-presentation constructed after the fact to make an already-settled practice look like the outcome of principled reconsideration.",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                    "author": "Augustine of Hippo",
+                    "work": "The Correction of the Donatists (Letter 185, c. 417), addressed to the tribune Boniface",
+                    "locus": "Letter 185, §§25-26, the imperial-coercion defence, directly quoted and re-verified",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. IV, vendored as cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-letter-93-to-vincentius",
+                    "author": "Augustine of Hippo",
+                    "work": "Letter XCIII (to Vincentius, a.d. 408 on the NPNF heading)",
+                    "locus": "Letter XCIII, §17, the retrospective account of the earlier, contrary opinion, directly quoted and re-verified",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.shaw-sacred-violence",
+                    "author": "Brent D. Shaw",
+                    "work": "Sacred Violence: African Christians and Sectarian Hatred in the Age of Augustine (Cambridge: Cambridge University Press, 2011)",
+                    "locus": "the standard modern treatment of the Donatist/Circumcellion violence Augustine's own coercion argument responds to -- background context for the coercive-capacity axis, not itself evidence of this world's own internal life",
+                    "rights_status": "in-copyright; never vendored, consultation-only. This row sits above Source_Acquisition_Manifest.md §SS3's own stated Confidence-C-or-below membership rule (it is Confidence B, not C-or-below), so that rule is not cited for it -- the substantive classification (in-copyright, never vendored, consultation-only) rests on the Registry row's own Verification Note directly, not on SS3's categorical rule. Cited and consulted by this build, never quoted as licensed vendored material.",
+                    "edition": "Cambridge University Press, 2011 -- consultation-only, never vendored (Source_Acquisition_Manifest.md SS3)"
+                  },
+                  {
+                    "source_id": "lpc.source.humfress-orthodoxy-and-the-courts",
+                    "author": "Caroline Humfress",
+                    "work": "Orthodoxy and the Courts in Late Antiquity (Oxford: Oxford University Press, 2007)",
+                    "locus": "the standard modern legal-historical study of how late-antique ecclesiastical and civil courts actually interacted, licensed for the imperial-coercion material's own legal context",
+                    "rights_status": "in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note says \"in copyright\" and \"consultation-only\" or \"not a vendoring candidate\" is in this category' -- spanning primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build, never quoted as licensed vendored material.",
+                    "edition": "Oxford University Press, 2007 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring candidate"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "contested",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 1,
+              "sentence_indexes": [
+                5
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.the-branch-cut-from-the-vine"
+            ],
+            "removed": []
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

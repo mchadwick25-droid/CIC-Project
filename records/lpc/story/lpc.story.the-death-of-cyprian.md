@@ -3,7 +3,7 @@ id: lpc.story.the-death-of-cyprian
 world_id: latin-pastoral-congregational-christianity
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-E

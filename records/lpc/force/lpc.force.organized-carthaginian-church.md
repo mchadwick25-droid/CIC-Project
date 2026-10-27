@@ -3,7 +3,7 @@ id: lpc.force.organized-carthaginian-church
 world_id: latin-pastoral-congregational-christianity
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F3-I

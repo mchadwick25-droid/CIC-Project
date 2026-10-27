@@ -7,6 +7,7 @@ from fastapi.testclient import TestClient
 from engine.api.app import create_app
 from engine.api.tests.conftest import FakeBedrockClient, reader_response, safety_response
 from engine.api.wiring import history_from_transcript as _history_from
+from engine.m1.registry import is_built
 
 
 def _client(*, store, usage_store, world_loader, registry, voice_client=None, safety_client=None, default_world_key="fix", r27_enforce=False, **extra):
@@ -67,7 +68,7 @@ def test_list_worlds(store, usage_store, world_loader, registry):
     assert resp.status_code == 200
     worlds = resp.json()["worlds"]
     assert "fix" not in {w["world_key"] for w in worlds}
-    assert len(worlds) == sum(1 for v in registry.values() if v.get("kind") == "formation" and v.get("package"))
+    assert len(worlds) == sum(1 for v in registry.values() if v.get("kind") == "formation" and v.get("package") and is_built(v))
     pahc = next(w for w in worlds if w["world_key"] == "pahc")
     assert pahc["display_name"] == "Post-Apostolic Household-Church Christianity"
     assert pahc["horizon"]

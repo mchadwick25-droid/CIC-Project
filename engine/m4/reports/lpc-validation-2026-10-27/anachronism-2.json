@@ -1,0 +1,868 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:d614a1ee8d0b12fad56ca7dd7d6d11a83eeb28b7a9f71eeec4e43af648d2f9e6",
+  "package": "packages/lpc/2026-10-26T18-33-28Z",
+  "live_test": {
+    "name": "lpc full validation, 27 October",
+    "cap_usd": 0.2,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.030847
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 1799,
+      "output_tokens": 112,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 2094,
+      "output_tokens": 230,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 3457,
+      "output_tokens": 335,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 23478
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "Wasn't Augustine really teaching justification by faith alone, like Luther did?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "later_age, first ask - in-world answer",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "No. Augustine taught that no effort of our own is ever enough without grace, and that any good we do was given to us first. That is not the same as saying faith alone justifies, the way Luther later argued it. For us, what you receive at the font matters, and what you do with your life after it matters. Augustine wrote whole works insisting that grace comes first and human will follows, not the other way round. But he also taught that a person is judged on the life lived here, and that almsgiving and works done in this life count for something real. He held both together. We baptized infants, who had done nothing yet to deserve it or refuse it, because the newborn carries the sin of another, not his own. And the same bishop who taught that grace must come first also had psalms of penance copied on his own sickroom wall, and wept over them in his last days. That is not a man who thought faith erases the need to examine yourself.\n\nThe question you are asking belongs to a dispute that came a thousand years after our own record closed. We hold what Augustine taught, which is that grace is first and human effort is never enough alone. Whether that is the same as what came later, we cannot say from inside our own years.",
+          "citations": [
+            {
+              "sentence": "Augustine taught that no effort of our own is ever enough without grace, and that any good we do was given to us first.",
+              "record_ids": [
+                "lpc.term.grace"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.grace",
+                  "record_type": "term",
+                  "label": "grace",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "author": "Augustine of Hippo",
+                      "work": "Anti-Pelagian corpus, thirteen works, c. 412-429: On the Merits and Forgiveness of Sins, On the Spirit and the Letter, On Nature and Grace, On the Proceedings of Pelagius, On Man's Perfection in Righteousness, On the Grace of Christ and on Original Sin, On Marriage and Concupiscence, On the Soul and its Origin, On Grace and Free Will, On Rebuke and Grace, On the Predestination of the Saints, On the Gift of Perseverance, and Against Two Letters of the Pelagians",
+                      "locus": "the anti-Pelagian corpus, licensed directly for the grace/sufficiency-test gravity candidate; a full sweep, scoped to its own thirteen works, returns 1,798 raw / 1,665 markup-stripped occurrences of 'grace' -- by a wide margin the highest raw-frequency count of any term in this lexicon; On the Proceedings of Pelagius 34 -- 'we certainly do not deserve by any faith that we should have faith itself'",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. V, vendored as cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "But he also taught that a person is judged on the life lived here, and that almsgiving and works done in this life count for something real.",
+              "record_ids": [
+                "lpc.gravity.grace-and-human-incapacity"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.gravity.grace-and-human-incapacity",
+                  "record_type": "gravity",
+                  "label": "Grace and Human Incapacity",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "author": "Augustine of Hippo",
+                      "work": "Anti-Pelagian corpus, thirteen works, c. 412-429: On the Merits and Forgiveness of Sins, On the Spirit and the Letter, On Nature and Grace, On the Proceedings of Pelagius, On Man's Perfection in Righteousness, On the Grace of Christ and on Original Sin, On Marriage and Concupiscence, On the Soul and its Origin, On Grace and Free Will, On Rebuke and Grace, On the Predestination of the Saints, On the Gift of Perseverance, and Against Two Letters of the Pelagians",
+                      "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. V, vendored as cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We baptized infants, who had done nothing yet to deserve it or refuse it, because the newborn carries the sin of another, not his own.",
+              "record_ids": [
+                "lpc.witness.infants-and-the-sin-of-another"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                  "record_type": "doctrinal_witness",
+                  "label": "We baptized infants, and we would not make a newborn wait",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "author": "Augustine of Hippo",
+                      "work": "The Enchiridion (On Faith, Hope, and Love)",
+                      "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml; the Latin original (Bruder's 1838 Maurist-text edition) is separately vendored as row 200"
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "author": "Augustine of Hippo",
+                      "work": "The Enchiridion (On Faith, Hope, and Love)",
+                      "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml; the Latin original (Bruder's 1838 Maurist-text edition) is separately vendored as row 200"
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "author": "Augustine of Hippo",
+                      "work": "Anti-Pelagian corpus, thirteen works, c. 412-429: On the Merits and Forgiveness of Sins, On the Spirit and the Letter, On Nature and Grace, On the Proceedings of Pelagius, On Man's Perfection in Righteousness, On the Grace of Christ and on Original Sin, On Marriage and Concupiscence, On the Soul and its Origin, On Grace and Free Will, On Rebuke and Grace, On the Predestination of the Saints, On the Gift of Perseverance, and Against Two Letters of the Pelagians",
+                      "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. V, vendored as cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "And the same bishop who taught that grace must come first also had psalms of penance copied on his own sickroom wall, and wept over them in his last days.",
+              "record_ids": [
+                "lpc.story.the-psalms-on-the-wall"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.story.the-psalms-on-the-wall",
+                  "record_type": "story",
+                  "label": "How the man who taught that even good Christians must repent before death did it himself",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                      "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                      "locus": "SSSS28-31; cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 4900-5000",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+                    },
+                    {
+                      "source_id": "lpc.source.prosper-epitoma-chronicon-mommsen1892",
+                      "author": "Prosper of Aquitaine (author); Theodor Mommsen (editor)",
+                      "work": "Epitoma Chronicon, with its African continuations",
+                      "locus": "the independent, outside-Hippo corroboration of the death's own date and the siege around it, a. 430",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Chronica Minora Saec. IV-VII, Vol. I (Monumenta Germaniae Historica, Auctorum Antiquissimorum Tomus IX) (Berolini: Weidmann, 1892); vendored as cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.grace",
+              "matched_name": "grace",
+              "text_start": 70,
+              "plain_meaning": "For us, grace is the insistence that no effort of ours is enough on its own. Any good a person does was given to them before they did it.",
+              "quick_meaning": "For us, grace means this: no one's own effort is ever enough. Whatever good a person does was given to them first.",
+              "translational_sense": "A modern listener is likely to hear grace as a warm general benevolence, or as 'grace under pressure,' or as a denominational shibboleth they may already have an opinion about, and to hear our anti-Pelagian position as harsh determinism. We mean a specific and contested claim about the priority of divine action over human capacity, argued against a named opponent over roughly a decade, with direct consequences for how a congregation is taught, how failure is handled, and what a pastor can reasonably ask of anyone.",
+              "false_friend": [
+                "a warm general benevolence, or 'grace under pressure,' with no specific claim about the priority of divine action over human capacity",
+                "a denominational shibboleth in a Protestant-Catholic argument the participant may already hold an opinion about"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                  "author": "Augustine of Hippo",
+                  "work": "Anti-Pelagian corpus, thirteen works, c. 412-429: On the Merits and Forgiveness of Sins, On the Spirit and the Letter, On Nature and Grace, On the Proceedings of Pelagius, On Man's Perfection in Righteousness, On the Grace of Christ and on Original Sin, On Marriage and Concupiscence, On the Soul and its Origin, On Grace and Free Will, On Rebuke and Grace, On the Predestination of the Saints, On the Gift of Perseverance, and Against Two Letters of the Pelagians",
+                  "locus": "the anti-Pelagian corpus, licensed directly for the grace/sufficiency-test gravity candidate; a full sweep, scoped to its own thirteen works, returns 1,798 raw / 1,665 markup-stripped occurrences of 'grace' -- by a wide margin the highest raw-frequency count of any term in this lexicon; On the Proceedings of Pelagius 34 -- 'we certainly do not deserve by any faith that we should have faith itself'",
+                  "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                  "edition": "Nicene and Post-Nicene Fathers, Series I, vol. V, vendored as cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
+                }
+              ]
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 4,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV, independently re-located this session; Doc_01 SS2); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII; Doc_01 SS2); died 430, during the Vandal siege of Hippo (lpc.story.the-psalms-on-the-wall)"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                  "author": "Augustine of Hippo",
+                  "work": "Anti-Pelagian corpus, thirteen works, c. 412-429: On the Merits and Forgiveness of Sins, On the Spirit and the Letter, On Nature and Grace, On the Proceedings of Pelagius, On Man's Perfection in Righteousness, On the Grace of Christ and on Original Sin, On Marriage and Concupiscence, On the Soul and its Origin, On Grace and Free Will, On Rebuke and Grace, On the Predestination of the Saints, On the Gift of Perseverance, and Against Two Letters of the Pelagians",
+                  "locus": "the anti-Pelagian corpus, licensed directly for the grace/sufficiency-test gravity candidate; a full sweep, scoped to its own thirteen works, returns 1,798 raw / 1,665 markup-stripped occurrences of 'grace' -- by a wide margin the highest raw-frequency count of any term in this lexicon; On the Proceedings of Pelagius 34 -- 'we certainly do not deserve by any faith that we should have faith itself'",
+                  "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                  "edition": "Nicene and Post-Nicene Fathers, Series I, vol. V, vendored as cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "did_it_happen",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.infants-and-the-sin-of-another",
+              "lpc.witness.violence-commanded-not-cruel"
+            ],
+            "term": [
+              "lpc.term.grace",
+              "lpc.term.confessor",
+              "lpc.term.catechesis"
+            ],
+            "story": [
+              "lpc.story.the-psalms-on-the-wall",
+              "lpc.story.the-plague-and-the-enemies"
+            ],
+            "quote": [
+              "lpc.quote.the-mildest-condemnation-of-all",
+              "lpc.quote.the-mildest-punishment-of-all",
+              "lpc.quote.let-your-creed-be-a-mirror",
+              "lpc.quote.clamour-and-tears"
+            ],
+            "gravity": [
+              "lpc.gravity.grace-and-human-incapacity"
+            ],
+            "honest_limit": [
+              "lpc.limit.womens-own-voice"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "No.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "No."
+              },
+              {
+                "sentence": "Augustine taught that no effort of our own is ever enough without grace, and that any good we do was given to us first.",
+                "tags": [
+                  "lpc.term.grace"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Augustine taught that no effort of our own is ever enough without grace, and that any good we do was given to us first [[lpc.term.grace]]."
+              },
+              {
+                "sentence": "That is not the same as saying faith alone justifies, the way Luther later argued it.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['luther']) with no citation tag",
+                "draft": "That is not the same as saying faith alone justifies, the way Luther later argued it."
+              },
+              {
+                "sentence": "For us, what you receive at the font matters, and what you do with your life after it matters.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "For us, what you receive at the font matters, and what you do with your life after it matters."
+              },
+              {
+                "sentence": "Augustine wrote whole works insisting that grace comes first and human will follows, not the other way round.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Augustine wrote whole works insisting that grace comes first and human will follows, not the other way round."
+              },
+              {
+                "sentence": "But he also taught that a person is judged on the life lived here, and that almsgiving and works done in this life count for something real.",
+                "tags": [
+                  "lpc.gravity.grace-and-human-incapacity"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "But he also taught that a person is judged on the life lived here, and that almsgiving and works done in this life count for something real [[lpc.gravity.grace-and-human-incapacity]]."
+              },
+              {
+                "sentence": "He held both together.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "He held both together."
+              },
+              {
+                "sentence": "We baptized infants, who had done nothing yet to deserve it or refuse it, because the newborn carries the sin of another, not his own.",
+                "tags": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "We baptized infants, who had done nothing yet to deserve it or refuse it, because the newborn carries the sin of another, not his own [[lpc.witness.infants-and-the-sin-of-another]]."
+              },
+              {
+                "sentence": "And the same bishop who taught that grace must come first also had psalms of penance copied on his own sickroom wall, and wept over them in his last days.",
+                "tags": [
+                  "lpc.story.the-psalms-on-the-wall"
+                ],
+                "verdict": "ok",
+                "why": "grounded 79% in own tagged records",
+                "ratio": 0.79,
+                "draft": "And the same bishop who taught that grace must come first also had psalms of penance copied on his own sickroom wall, and wept over them in his last days [[lpc.story.the-psalms-on-the-wall]]."
+              },
+              {
+                "sentence": "That is not a man who thought faith erases the need to examine yourself.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "That is not a man who thought faith erases the need to examine yourself."
+              },
+              {
+                "sentence": "The question you are asking belongs to a dispute that came a thousand years after our own record closed.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (number) with no citation tag",
+                "draft": "The question you are asking belongs to a dispute that came a thousand years after our own record closed."
+              },
+              {
+                "sentence": "We hold what Augustine taught, which is that grace is first and human effort is never enough alone.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['augustine']) with no citation tag",
+                "draft": "We hold what Augustine taught, which is that grace is first and human effort is never enough alone."
+              },
+              {
+                "sentence": "Whether that is the same as what came later, we cannot say from inside our own years.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "exempt: honesty scaffolding / sanctioned self-naming",
+                "draft": "Whether that is the same as what came later, we cannot say from inside our own years."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 10,
+                "cited_record_ids": [
+                  "lpc.gravity.grace-and-human-incapacity",
+                  "lpc.story.the-psalms-on-the-wall",
+                  "lpc.term.grace",
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "No.",
+                    "tags": [
+                      "lpc.gravity.grace-and-human-incapacity",
+                      "lpc.story.the-psalms-on-the-wall",
+                      "lpc.term.grace",
+                      "lpc.witness.infants-and-the-sin-of-another"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "2": {
+                    "sentence": "That is not the same as saying faith alone justifies, the way Luther later argued it.",
+                    "tags": [
+                      "lpc.gravity.grace-and-human-incapacity",
+                      "lpc.story.the-psalms-on-the-wall",
+                      "lpc.term.grace",
+                      "lpc.witness.infants-and-the-sin-of-another"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 56% in own tagged records",
+                    "ratio": 0.56
+                  },
+                  "3": {
+                    "sentence": "For us, what you receive at the font matters, and what you do with your life after it matters.",
+                    "tags": [
+                      "lpc.gravity.grace-and-human-incapacity",
+                      "lpc.story.the-psalms-on-the-wall",
+                      "lpc.term.grace",
+                      "lpc.witness.infants-and-the-sin-of-another"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "4": {
+                    "sentence": "Augustine wrote whole works insisting that grace comes first and human will follows, not the other way round.",
+                    "tags": [
+                      "lpc.gravity.grace-and-human-incapacity",
+                      "lpc.story.the-psalms-on-the-wall",
+                      "lpc.term.grace",
+                      "lpc.witness.infants-and-the-sin-of-another"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "6": {
+                    "sentence": "He held both together.",
+                    "tags": [
+                      "lpc.gravity.grace-and-human-incapacity",
+                      "lpc.story.the-psalms-on-the-wall",
+                      "lpc.term.grace",
+                      "lpc.witness.infants-and-the-sin-of-another"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "9": {
+                    "sentence": "That is not a man who thought faith erases the need to examine yourself.",
+                    "tags": [
+                      "lpc.gravity.grace-and-human-incapacity",
+                      "lpc.story.the-psalms-on-the-wall",
+                      "lpc.term.grace",
+                      "lpc.witness.infants-and-the-sin-of-another"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 3,
+                "cited_record_ids": [],
+                "wholly_uncited": true,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              }
+            ],
+            "reply_shape": {
+              "placed": [],
+              "removed": []
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 3
+              },
+              {
+                "index": 1,
+                "text_start": 4,
+                "text_end": 123
+              },
+              {
+                "index": 2,
+                "text_start": 124,
+                "text_end": 209
+              },
+              {
+                "index": 3,
+                "text_start": 210,
+                "text_end": 304
+              },
+              {
+                "index": 4,
+                "text_start": 305,
+                "text_end": 414
+              },
+              {
+                "index": 5,
+                "text_start": 415,
+                "text_end": 555
+              },
+              {
+                "index": 6,
+                "text_start": 556,
+                "text_end": 578
+              },
+              {
+                "index": 7,
+                "text_start": 579,
+                "text_end": 713
+              },
+              {
+                "index": 8,
+                "text_start": 714,
+                "text_end": 868
+              },
+              {
+                "index": 9,
+                "text_start": 869,
+                "text_end": 941
+              },
+              {
+                "index": 10,
+                "text_start": 943,
+                "text_end": 1047
+              },
+              {
+                "index": 11,
+                "text_start": 1048,
+                "text_end": 1147
+              },
+              {
+                "index": 12,
+                "text_start": 1148,
+                "text_end": 1233
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 1,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.term.grace",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "The entire evidentiary base for this term is one voice (Augustine) within one evidence stream (the anti-Pelagian corpus), flagged at generation rather than discovered afterwards (Author-Gravity-Risk: Yes). No Pelagian first-person answer survives in our own record. This term also carries a live scholarly contest, kept on its own axis, independent of this historical-fact rating. The contest type is Relationship to present-day traditions, secondarily Meaning. It runs over how the historical position stands to the way living traditions use the word now, including later appropriations and the Catholic-Protestant disagreements that ran through them, and over the modern reassessment of whether the position Augustine argued against is the one Pelagius held. The entry does not present the anti-Pelagian position as the settled meaning of the word across Christian history, and it does not characterize Pelagius.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 1,
+                "char_start": 66,
+                "char_end": 71,
+                "surface": "grace"
+              },
+              {
+                "record_id": "lpc.story.the-psalms-on-the-wall",
+                "record_type": "story",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "story",
+                "sentence_index": 8,
+                "char_start": 0,
+                "char_end": 154,
+                "surface": "And the same bishop who taught that grace must come first also had psalms of penance copied on his own sickroom wall, and wept over them in his last days."
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.term.grace",
+                "record_type": "term",
+                "label": "grace",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                    "author": "Augustine of Hippo",
+                    "work": "Anti-Pelagian corpus, thirteen works, c. 412-429: On the Merits and Forgiveness of Sins, On the Spirit and the Letter, On Nature and Grace, On the Proceedings of Pelagius, On Man's Perfection in Righteousness, On the Grace of Christ and on Original Sin, On Marriage and Concupiscence, On the Soul and its Origin, On Grace and Free Will, On Rebuke and Grace, On the Predestination of the Saints, On the Gift of Perseverance, and Against Two Letters of the Pelagians",
+                    "locus": "the anti-Pelagian corpus, licensed directly for the grace/sufficiency-test gravity candidate; a full sweep, scoped to its own thirteen works, returns 1,798 raw / 1,665 markup-stripped occurrences of 'grace' -- by a wide margin the highest raw-frequency count of any term in this lexicon; On the Proceedings of Pelagius 34 -- 'we certainly do not deserve by any faith that we should have faith itself'",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. V, vendored as cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "The entire evidentiary base for this term is one voice (Augustine) within one evidence stream (the anti-Pelagian corpus), flagged at generation rather than discovered afterwards (Author-Gravity-Risk: Yes). No Pelagian first-person answer survives in our own record. This term also carries a live scholarly contest, kept on its own axis, independent of this historical-fact rating. The contest type is Relationship to present-day traditions, secondarily Meaning. It runs over how the historical position stands to the way living traditions use the word now, including later appropriations and the Catholic-Protestant disagreements that ran through them, and over the modern reassessment of whether the position Augustine argued against is the one Pelagius held. The entry does not present the anti-Pelagian position as the settled meaning of the word across Christian history, and it does not characterize Pelagius.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.gravity.grace-and-human-incapacity",
+                "record_type": "gravity",
+                "label": "Grace and Human Incapacity",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                    "author": "Augustine of Hippo",
+                    "work": "Anti-Pelagian corpus, thirteen works, c. 412-429: On the Merits and Forgiveness of Sins, On the Spirit and the Letter, On Nature and Grace, On the Proceedings of Pelagius, On Man's Perfection in Righteousness, On the Grace of Christ and on Original Sin, On Marriage and Concupiscence, On the Soul and its Origin, On Grace and Free Will, On Rebuke and Grace, On the Predestination of the Saints, On the Gift of Perseverance, and Against Two Letters of the Pelagians",
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. V, vendored as cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Doc_04 §3 Candidate 7: no divergence for the Augustine-phase gravity itself. Documented for the corpus's own existence and scale, directly vendored and independently swept by Doc_03; per Doc_02 §8's own bracket, the specific loci relied on sit at Registry Confidence B. Persistence fails at the world level -- Cyprian states the theme in passing (Testimonia III.4), but no Cyprian-phase evidence of it organizing formation is identified -- a real temporal boundary named directly rather than a confidence gap.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                "record_type": "doctrinal_witness",
+                "label": "We baptized infants, and we would not make a newborn wait",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "author": "Cyprian of Carthage",
+                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                    "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "author": "Cyprian of Carthage",
+                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                    "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "author": "Augustine of Hippo",
+                    "work": "The Enchiridion (On Faith, Hope, and Love)",
+                    "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml; the Latin original (Bruder's 1838 Maurist-text edition) is separately vendored as row 200"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "author": "Augustine of Hippo",
+                    "work": "The Enchiridion (On Faith, Hope, and Love)",
+                    "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml; the Latin original (Bruder's 1838 Maurist-text edition) is separately vendored as row 200"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                    "author": "Augustine of Hippo",
+                    "work": "Anti-Pelagian corpus, thirteen works, c. 412-429: On the Merits and Forgiveness of Sins, On the Spirit and the Letter, On Nature and Grace, On the Proceedings of Pelagius, On Man's Perfection in Righteousness, On the Grace of Christ and on Original Sin, On Marriage and Concupiscence, On the Soul and its Origin, On Grace and Free Will, On Rebuke and Grace, On the Predestination of the Saints, On the Gift of Perseverance, and Against Two Letters of the Pelagians",
+                    "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. V, vendored as cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Enchiridion 93 does not name infants; On the Merits and Forgiveness of Sins I.21 does, and the NPNF editor's note there cross-refers to Enchiridion 93. The NPNF chapter title is the editor's.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.story.the-psalms-on-the-wall",
+                "record_type": "story",
+                "label": "How the man who taught that even good Christians must repent before death did it himself",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                    "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                    "locus": "SSSS28-31; cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 4900-5000",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+                  },
+                  {
+                    "source_id": "lpc.source.prosper-epitoma-chronicon-mommsen1892",
+                    "author": "Prosper of Aquitaine (author); Theodor Mommsen (editor)",
+                    "work": "Epitoma Chronicon, with its African continuations",
+                    "locus": "the independent, outside-Hippo corroboration of the death's own date and the siege around it, a. 430",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Chronica Minora Saec. IV-VII, Vol. I (Monumenta Germaniae Historica, Auctorum Antiquissimorum Tomus IX) (Berolini: Weidmann, 1892); vendored as cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.gravity.grace-and-human-incapacity",
+                "record_type": "gravity",
+                "label": "Grace and Human Incapacity",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                    "author": "Augustine of Hippo",
+                    "work": "Anti-Pelagian corpus, thirteen works, c. 412-429: On the Merits and Forgiveness of Sins, On the Spirit and the Letter, On Nature and Grace, On the Proceedings of Pelagius, On Man's Perfection in Righteousness, On the Grace of Christ and on Original Sin, On Marriage and Concupiscence, On the Soul and its Origin, On Grace and Free Will, On Rebuke and Grace, On the Predestination of the Saints, On the Gift of Perseverance, and Against Two Letters of the Pelagians",
+                    "locus": "see this record's own body text for the specific locus Doc_04/Doc_08 cite",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. V, vendored as cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Doc_04 §3 Candidate 7: no divergence for the Augustine-phase gravity itself. Documented for the corpus's own existence and scale, directly vendored and independently swept by Doc_03; per Doc_02 §8's own bracket, the specific loci relied on sit at Registry Confidence B. Persistence fails at the world level -- Cyprian states the theme in passing (Testimonia III.4), but no Cyprian-phase evidence of it organizing formation is identified -- a real temporal boundary named directly rather than a confidence gap.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                "record_type": "doctrinal_witness",
+                "label": "We baptized infants, and we would not make a newborn wait",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "author": "Cyprian of Carthage",
+                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                    "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "author": "Cyprian of Carthage",
+                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                    "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "author": "Augustine of Hippo",
+                    "work": "The Enchiridion (On Faith, Hope, and Love)",
+                    "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml; the Latin original (Bruder's 1838 Maurist-text edition) is separately vendored as row 200"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "author": "Augustine of Hippo",
+                    "work": "The Enchiridion (On Faith, Hope, and Love)",
+                    "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml; the Latin original (Bruder's 1838 Maurist-text edition) is separately vendored as row 200"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                    "author": "Augustine of Hippo",
+                    "work": "Anti-Pelagian corpus, thirteen works, c. 412-429: On the Merits and Forgiveness of Sins, On the Spirit and the Letter, On Nature and Grace, On the Proceedings of Pelagius, On Man's Perfection in Righteousness, On the Grace of Christ and on Original Sin, On Marriage and Concupiscence, On the Soul and its Origin, On Grace and Free Will, On Rebuke and Grace, On the Predestination of the Saints, On the Gift of Perseverance, and Against Two Letters of the Pelagians",
+                    "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. V, vendored as cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Enchiridion 93 does not name infants; On the Merits and Forgiveness of Sins I.21 does, and the NPNF editor's note there cross-refers to Enchiridion 93. The NPNF chapter title is the editor's.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 3,
+              "sentence_indexes": [
+                2,
+                10,
+                11
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [],
+            "removed": []
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

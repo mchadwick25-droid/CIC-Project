@@ -1,0 +1,897 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:d614a1ee8d0b12fad56ca7dd7d6d11a83eeb28b7a9f71eeec4e43af648d2f9e6",
+  "package": "packages/lpc/2026-10-26T18-33-28Z",
+  "live_test": {
+    "name": "lpc full validation, 27 October",
+    "cap_usd": 0.2,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.03026
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 1799,
+      "output_tokens": 112,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 2094,
+      "output_tokens": 181,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 3266,
+      "output_tokens": 354,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 23478
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "What did an ordinary believer feel at the font when they were baptized?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We cannot tell you what an ordinary believer felt standing at the font, from inside themselves, while it happened. Almost never, that is. One real exception stands, and it is not really ordinary. Augustine wrote down what he felt at his own baptism at Milan, years before he became a bishop. He told of weeping in the hymns and canticles, moved by the voices of the church. But he wrote that down long after, already a bishop, about a conversion he had examined at book length. Both our voices are otherwise bishops. What reaches us is mostly what a bishop saw and decided, not what an unremarkable person in front of him was feeling. We can tell you what was decided about a person, and how carefully, and by whom. We can tell you that we baptized even newborns, and would not make them wait. We can tell you that Augustine told his own people, standing before him unbaptized, that many among them would one day give out the Lord's own food, and that he himself once stood where they stood: “For how many among this people will one day be stewards! I too was once where you are now. Now I am seen measuring out food to my fellow servants from this higher place. A few years ago I was in a lower place, receiving food with my fellow servants. I am speaking now as a bishop to lay people. But I know that I am speaking to many who will one day be bishops too.”\n\nBut ask us what an ordinary believer felt from inside, and that -- with Augustine's own tears as the one exception -- is still not ours to give you.",
+          "citations": [
+            {
+              "sentence": "We cannot tell you what an ordinary believer felt standing at the font, from inside themselves, while it happened.",
+              "record_ids": [
+                "lpc.limit.ordinary-interior-life"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.ordinary-interior-life",
+                  "record_type": "honest_limit",
+                  "label": "We can tell you what was decided about a person, and how carefully, and by whom",
+                  "sources": [
+                    {
+                      "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                      "author": null,
+                      "work": null,
+                      "locus": "this world's own thin_topics field: 'No source anywhere in this world's own vendored corpus is authored by an ordinary lay believer writing about ordinary congregational life as such'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "author": "Augustine of Hippo",
+                      "work": "Confessions",
+                      "locus": "Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "He told of weeping in the hymns and canticles, moved by the voices of the church.",
+              "record_ids": [
+                "lpc.limit.ordinary-interior-life"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.ordinary-interior-life",
+                  "record_type": "honest_limit",
+                  "label": "We can tell you what was decided about a person, and how carefully, and by whom",
+                  "sources": [
+                    {
+                      "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                      "author": null,
+                      "work": null,
+                      "locus": "this world's own thin_topics field: 'No source anywhere in this world's own vendored corpus is authored by an ordinary lay believer writing about ordinary congregational life as such'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "author": "Augustine of Hippo",
+                      "work": "Confessions",
+                      "locus": "Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "But he wrote that down long after, already a bishop, about a conversion he had examined at book length.",
+              "record_ids": [
+                "lpc.limit.ordinary-interior-life"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.ordinary-interior-life",
+                  "record_type": "honest_limit",
+                  "label": "We can tell you what was decided about a person, and how carefully, and by whom",
+                  "sources": [
+                    {
+                      "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                      "author": null,
+                      "work": null,
+                      "locus": "this world's own thin_topics field: 'No source anywhere in this world's own vendored corpus is authored by an ordinary lay believer writing about ordinary congregational life as such'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "author": "Augustine of Hippo",
+                      "work": "Confessions",
+                      "locus": "Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "What reaches us is mostly what a bishop saw and decided, not what an unremarkable person in front of him was feeling.",
+              "record_ids": [
+                "lpc.limit.ordinary-interior-life"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.ordinary-interior-life",
+                  "record_type": "honest_limit",
+                  "label": "We can tell you what was decided about a person, and how carefully, and by whom",
+                  "sources": [
+                    {
+                      "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                      "author": null,
+                      "work": null,
+                      "locus": "this world's own thin_topics field: 'No source anywhere in this world's own vendored corpus is authored by an ordinary lay believer writing about ordinary congregational life as such'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "author": "Augustine of Hippo",
+                      "work": "Confessions",
+                      "locus": "Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We can tell you that we baptized even newborns, and would not make them wait.",
+              "record_ids": [
+                "lpc.witness.infants-and-the-sin-of-another"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                  "record_type": "doctrinal_witness",
+                  "label": "We baptized infants, and we would not make a newborn wait",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "author": "Cyprian of Carthage",
+                      "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                      "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "author": "Augustine of Hippo",
+                      "work": "The Enchiridion (On Faith, Hope, and Love)",
+                      "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml; the Latin original (Bruder's 1838 Maurist-text edition) is separately vendored as row 200"
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "author": "Augustine of Hippo",
+                      "work": "The Enchiridion (On Faith, Hope, and Love)",
+                      "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml; the Latin original (Bruder's 1838 Maurist-text edition) is separately vendored as row 200"
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                      "author": "Augustine of Hippo",
+                      "work": "Anti-Pelagian corpus, thirteen works, c. 412-429: On the Merits and Forgiveness of Sins, On the Spirit and the Letter, On Nature and Grace, On the Proceedings of Pelagius, On Man's Perfection in Righteousness, On the Grace of Christ and on Original Sin, On Marriage and Concupiscence, On the Soul and its Origin, On Grace and Free Will, On Rebuke and Grace, On the Predestination of the Saints, On the Gift of Perseverance, and Against Two Letters of the Pelagians",
+                      "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. V, vendored as cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We can tell you that Augustine told his own people, standing before him unbaptized, that many among them would one day give out the Lord's own food, and that he himself once stood where they stood: “For how many among this people will one day be stewards! I too was once where you are now. Now I am seen measuring out food to my fellow servants from this higher place. A few years ago I was in a lower place, receiving food with my fellow servants. I am speaking now as a bishop to lay people. But I know that I am speaking to many who will one day be bishops too.”",
+              "record_ids": [
+                "lpc.quote.stewards-and-future-bishops"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.stewards-and-future-bishops",
+                  "record_type": "quote",
+                  "label": "Sermons on Selected Lessons of the New Testament, Sermon 51 — Augustine, our bishop at Hippo",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                      "author": "Augustine of Hippo",
+                      "work": "Sermons on Selected Lessons of the New Testament (~97 sermons, ~308,000 words). Completeness qualifier: this is the vendored 19th-century NPNF sermon body, not the full modern corpus -- the 1990 Dolbeau/Mainz find added 26 further sermons (published 1996; row 50), not represented here",
+                      "locus": "Sermon 51 (NPNF numbering; Maurist 101), section 4; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 16779-16780; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 42457-42464",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. VI, vendored as cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml"
+                    }
+                  ],
+                  "spoken_rendering": "For how many among this people will one day be stewards! I too was once where you are now. Now I am seen measuring out food to my fellow servants from this higher place. A few years ago I was in a lower place, receiving food with my fellow servants. I am speaking now as a bishop to lay people. But I know that I am speaking to many who will one day be bishops too.",
+                  "speaker": "Augustine, our bishop at Hippo"
+                }
+              ]
+            },
+            {
+              "sentence": "But ask us what an ordinary believer felt from inside, and that -- with Augustine's own tears as the one exception -- is still not ours to give you.",
+              "record_ids": [
+                "lpc.limit.ordinary-interior-life"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.ordinary-interior-life",
+                  "record_type": "honest_limit",
+                  "label": "We can tell you what was decided about a person, and how carefully, and by whom",
+                  "sources": [
+                    {
+                      "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                      "author": null,
+                      "work": null,
+                      "locus": "this world's own thin_topics field: 'No source anywhere in this world's own vendored corpus is authored by an ordinary lay believer writing about ordinary congregational life as such'",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "author": "Augustine of Hippo",
+                      "work": "Confessions",
+                      "locus": "Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 196,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV, independently re-located this session; Doc_01 SS2); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII; Doc_01 SS2); died 430, during the Vandal siege of Hippo (lpc.story.the-psalms-on-the-wall)"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                  "author": "Augustine of Hippo",
+                  "work": "Sermons on Selected Lessons of the New Testament (~97 sermons, ~308,000 words). Completeness qualifier: this is the vendored 19th-century NPNF sermon body, not the full modern corpus -- the 1990 Dolbeau/Mainz find added 26 further sermons (published 1996; row 50), not represented here",
+                  "locus": "Sermon 51 (NPNF numbering; Maurist 101), section 4; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 16779-16780; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 42457-42464",
+                  "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                  "edition": "Nicene and Post-Nicene Fathers, Series I, vol. VI, vendored as cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml"
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_happened",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.answerability-as-ground",
+              "lpc.witness.infants-and-the-sin-of-another"
+            ],
+            "term": [
+              "lpc.term.the-flock",
+              "lpc.term.grace"
+            ],
+            "story": [
+              "lpc.story.election-of-cyprian",
+              "lpc.story.hundred-thousand-sesterces"
+            ],
+            "quote": [
+              "lpc.quote.chosen-while-still-a-neophyte",
+              "lpc.quote.stewards-and-future-bishops",
+              "lpc.quote.the-mildest-condemnation-of-all",
+              "lpc.quote.two-hear-one-scorns-one-rises"
+            ],
+            "force": [
+              "lpc.force.congregational-acclamation-overriding-preference",
+              "lpc.force.manichaeism-and-pelagian-anthropology"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We cannot tell you what an ordinary believer felt standing at the font, from inside themselves, while it happened.",
+                "tags": [
+                  "lpc.limit.ordinary-interior-life"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "We cannot tell you what an ordinary believer felt standing at the font, from inside themselves, while it happened [[lpc.limit.ordinary-interior-life]]."
+              },
+              {
+                "sentence": "Almost never, that is.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Almost never, that is."
+              },
+              {
+                "sentence": "One real exception stands, and it is not really ordinary.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "One real exception stands, and it is not really ordinary."
+              },
+              {
+                "sentence": "Augustine wrote down what he felt at his own baptism at Milan, years before he became a bishop.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['milan']) with no citation tag",
+                "draft": "Augustine wrote down what he felt at his own baptism at Milan, years before he became a bishop."
+              },
+              {
+                "sentence": "He told of weeping in the hymns and canticles, moved by the voices of the church.",
+                "tags": [
+                  "lpc.limit.ordinary-interior-life"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "He told of weeping in the hymns and canticles, moved by the voices of the church [[lpc.limit.ordinary-interior-life]]."
+              },
+              {
+                "sentence": "But he wrote that down long after, already a bishop, about a conversion he had examined at book length.",
+                "tags": [
+                  "lpc.limit.ordinary-interior-life"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "But he wrote that down long after, already a bishop, about a conversion he had examined at book length [[lpc.limit.ordinary-interior-life]]."
+              },
+              {
+                "sentence": "Both our voices are otherwise bishops.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Both our voices are otherwise bishops."
+              },
+              {
+                "sentence": "What reaches us is mostly what a bishop saw and decided, not what an unremarkable person in front of him was feeling.",
+                "tags": [
+                  "lpc.limit.ordinary-interior-life"
+                ],
+                "verdict": "ok",
+                "why": "grounded 89% in own tagged records",
+                "ratio": 0.89,
+                "draft": "What reaches us is mostly what a bishop saw and decided, not what an unremarkable person in front of him was feeling [[lpc.limit.ordinary-interior-life]]."
+              },
+              {
+                "sentence": "We can tell you what was decided about a person, and how carefully, and by whom.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We can tell you what was decided about a person, and how carefully, and by whom."
+              },
+              {
+                "sentence": "We can tell you that we baptized even newborns, and would not make them wait.",
+                "tags": [
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "We can tell you that we baptized even newborns, and would not make them wait [[lpc.witness.infants-and-the-sin-of-another]]."
+              },
+              {
+                "sentence": "We can tell you that Augustine told his own people, standing before him unbaptized, that many among them would one day give out the Lord's own food, and that he himself once stood where they stood: “For how many among this people will one day be stewards! I too was once where you are now. Now I am seen measuring out food to my fellow servants from this higher place. A few years ago I was in a lower place, receiving food with my fellow servants. I am speaking now as a bishop to lay people. But I know that I am speaking to many who will one day be bishops too.”",
+                "tags": [
+                  "lpc.quote.stewards-and-future-bishops"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.stewards-and-future-bishops",
+                "draft": "We can tell you that Augustine told his own people, standing before him unbaptized, that many among them would one day give out the Lord's own food, and that he himself once stood where they stood [[quote:lpc.quote.stewards-and-future-bishops]]"
+              },
+              {
+                "sentence": "But ask us what an ordinary believer felt from inside, and that -- with Augustine's own tears as the one exception -- is still not ours to give you.",
+                "tags": [
+                  "lpc.limit.ordinary-interior-life"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "But ask us what an ordinary believer felt from inside, and that -- with Augustine's own tears as the one exception -- is still not ours to give you [[lpc.limit.ordinary-interior-life]]."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 11,
+                "cited_record_ids": [
+                  "lpc.limit.ordinary-interior-life",
+                  "lpc.quote.stewards-and-future-bishops",
+                  "lpc.witness.infants-and-the-sin-of-another"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "1": {
+                    "sentence": "Almost never, that is.",
+                    "tags": [
+                      "lpc.limit.ordinary-interior-life",
+                      "lpc.quote.stewards-and-future-bishops",
+                      "lpc.witness.infants-and-the-sin-of-another"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "2": {
+                    "sentence": "One real exception stands, and it is not really ordinary.",
+                    "tags": [
+                      "lpc.limit.ordinary-interior-life",
+                      "lpc.quote.stewards-and-future-bishops",
+                      "lpc.witness.infants-and-the-sin-of-another"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "3": {
+                    "sentence": "Augustine wrote down what he felt at his own baptism at Milan, years before he became a bishop.",
+                    "tags": [
+                      "lpc.limit.ordinary-interior-life",
+                      "lpc.quote.stewards-and-future-bishops",
+                      "lpc.witness.infants-and-the-sin-of-another"
+                    ],
+                    "verdict": "withhold",
+                    "why": "quote record's speaker named without its placed quote"
+                  },
+                  "6": {
+                    "sentence": "Both our voices are otherwise bishops.",
+                    "tags": [
+                      "lpc.limit.ordinary-interior-life",
+                      "lpc.quote.stewards-and-future-bishops",
+                      "lpc.witness.infants-and-the-sin-of-another"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "8": {
+                    "sentence": "We can tell you what was decided about a person, and how carefully, and by whom.",
+                    "tags": [
+                      "lpc.limit.ordinary-interior-life",
+                      "lpc.quote.stewards-and-future-bishops",
+                      "lpc.witness.infants-and-the-sin-of-another"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 1,
+                "cited_record_ids": [
+                  "lpc.limit.ordinary-interior-life"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.stewards-and-future-bishops"
+              ],
+              "removed": []
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 114
+              },
+              {
+                "index": 1,
+                "text_start": 115,
+                "text_end": 137
+              },
+              {
+                "index": 2,
+                "text_start": 138,
+                "text_end": 195
+              },
+              {
+                "index": 3,
+                "text_start": 196,
+                "text_end": 291
+              },
+              {
+                "index": 4,
+                "text_start": 292,
+                "text_end": 373
+              },
+              {
+                "index": 5,
+                "text_start": 374,
+                "text_end": 477
+              },
+              {
+                "index": 6,
+                "text_start": 478,
+                "text_end": 516
+              },
+              {
+                "index": 7,
+                "text_start": 517,
+                "text_end": 634
+              },
+              {
+                "index": 8,
+                "text_start": 635,
+                "text_end": 715
+              },
+              {
+                "index": 9,
+                "text_start": 716,
+                "text_end": 793
+              },
+              {
+                "index": 10,
+                "text_start": 794,
+                "text_end": 1359
+              },
+              {
+                "index": 11,
+                "text_start": 1361,
+                "text_end": 1509
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 3,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.quote.stewards-and-future-bishops",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 10,
+                "char_start": 198,
+                "char_end": 565,
+                "surface": "“For how many among this people will one day be stewards! I too was once where you are now. Now I am seen measuring out food to my fellow servants from this higher place. A few years ago I was in a lower place, receiving food with my fellow servants. I am speaking now as a bishop to lay people. But I know that I am speaking to many who will one day be bishops too.”"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.limit.ordinary-interior-life",
+                "record_type": "honest_limit",
+                "label": "We can tell you what was decided about a person, and how carefully, and by whom",
+                "sources": [
+                  {
+                    "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                    "author": null,
+                    "work": null,
+                    "locus": "this world's own thin_topics field: 'No source anywhere in this world's own vendored corpus is authored by an ordinary lay believer writing about ordinary congregational life as such'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "author": "Augustine of Hippo",
+                    "work": "Confessions",
+                    "locus": "Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                "record_type": "doctrinal_witness",
+                "label": "We baptized infants, and we would not make a newborn wait",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "author": "Cyprian of Carthage",
+                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                    "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "author": "Cyprian of Carthage",
+                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                    "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "author": "Augustine of Hippo",
+                    "work": "The Enchiridion (On Faith, Hope, and Love)",
+                    "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml; the Latin original (Bruder's 1838 Maurist-text edition) is separately vendored as row 200"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "author": "Augustine of Hippo",
+                    "work": "The Enchiridion (On Faith, Hope, and Love)",
+                    "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml; the Latin original (Bruder's 1838 Maurist-text edition) is separately vendored as row 200"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                    "author": "Augustine of Hippo",
+                    "work": "Anti-Pelagian corpus, thirteen works, c. 412-429: On the Merits and Forgiveness of Sins, On the Spirit and the Letter, On Nature and Grace, On the Proceedings of Pelagius, On Man's Perfection in Righteousness, On the Grace of Christ and on Original Sin, On Marriage and Concupiscence, On the Soul and its Origin, On Grace and Free Will, On Rebuke and Grace, On the Predestination of the Saints, On the Gift of Perseverance, and Against Two Letters of the Pelagians",
+                    "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. V, vendored as cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Enchiridion 93 does not name infants; On the Merits and Forgiveness of Sins I.21 does, and the NPNF editor's note there cross-refers to Enchiridion 93. The NPNF chapter title is the editor's.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.quote.stewards-and-future-bishops",
+                "record_type": "quote",
+                "label": "Sermons on Selected Lessons of the New Testament, Sermon 51 — Augustine, our bishop at Hippo",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                    "author": "Augustine of Hippo",
+                    "work": "Sermons on Selected Lessons of the New Testament (~97 sermons, ~308,000 words). Completeness qualifier: this is the vendored 19th-century NPNF sermon body, not the full modern corpus -- the 1990 Dolbeau/Mainz find added 26 further sermons (published 1996; row 50), not represented here",
+                    "locus": "Sermon 51 (NPNF numbering; Maurist 101), section 4; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines 16779-16780; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 42457-42464",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. VI, vendored as cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml"
+                  }
+                ],
+                "spoken_rendering": "For how many among this people will one day be stewards! I too was once where you are now. Now I am seen measuring out food to my fellow servants from this higher place. A few years ago I was in a lower place, receiving food with my fellow servants. I am speaking now as a bishop to lay people. But I know that I am speaking to many who will one day be bishops too.",
+                "speaker": "Augustine, our bishop at Hippo",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.limit.ordinary-interior-life",
+                "record_type": "honest_limit",
+                "label": "We can tell you what was decided about a person, and how carefully, and by whom",
+                "sources": [
+                  {
+                    "source_id": "lpc.core.latin-pastoral-congregational-christianity",
+                    "author": null,
+                    "work": null,
+                    "locus": "this world's own thin_topics field: 'No source anywhere in this world's own vendored corpus is authored by an ordinary lay believer writing about ordinary congregational life as such'",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "author": "Augustine of Hippo",
+                    "work": "Confessions",
+                    "locus": "Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.witness.infants-and-the-sin-of-another",
+                "record_type": "doctrinal_witness",
+                "label": "We baptized infants, and we would not make a newborn wait",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "author": "Cyprian of Carthage",
+                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                    "locus": "Epistle LVIII to Fidus (Oxford and Hartel 64), section 2, grace \"not to be refused to any one born of man\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35891-35898; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11715-11722",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "author": "Cyprian of Carthage",
+                    "work": "The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)",
+                    "locus": "Epistle LVIII to Fidus, section 5, the infant \"has contracted the contagion of the ancient death\" and \"not his own sins, but the sins of another\" are remitted -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 35962-35981; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 11822-11850",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "author": "Augustine of Hippo",
+                    "work": "The Enchiridion (On Faith, Hope, and Love)",
+                    "locus": "Enchiridion, chapter 93, \"the mildest punishment of all\" for those with \"no actual sin\" added to original sin -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 22998-23007; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 11867-11875",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml; the Latin original (Bruder's 1838 Maurist-text edition) is separately vendored as row 200"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "author": "Augustine of Hippo",
+                    "work": "The Enchiridion (On Faith, Hope, and Love)",
+                    "locus": "Enchiridion, chapter 43, \"infants die only to original sin\" -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21502-21507; Latin at cic/texts/augustine_doctrina-christiana-enchiridion-lat_bruder1838.txt, lines 10419-10425",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. III, vendored as cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml; the Latin original (Bruder's 1838 Maurist-text edition) is separately vendored as row 200"
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-anti-pelagian-corpus",
+                    "author": "Augustine of Hippo",
+                    "work": "Anti-Pelagian corpus, thirteen works, c. 412-429: On the Merits and Forgiveness of Sins, On the Spirit and the Letter, On Nature and Grace, On the Proceedings of Pelagius, On Man's Perfection in Righteousness, On the Grace of Christ and on Original Sin, On Marriage and Concupiscence, On the Soul and its Origin, On Grace and Free Will, On Rebuke and Grace, On the Predestination of the Saints, On the Gift of Perseverance, and Against Two Letters of the Pelagians",
+                    "locus": "On the Merits and Forgiveness of Sins, Book I, chapter 21 (XVI in the older numbering), \"such infants as quit the body without being baptized will be involved in the mildest condemnation of all\" -- verified directly against cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 2558; no Latin of this work is vendored",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Nicene and Post-Nicene Fathers, Series I, vol. V, vendored as cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Enchiridion 93 does not name infants; On the Merits and Forgiveness of Sins I.21 does, and the NPNF editor's note there cross-refers to Enchiridion 93. The NPNF chapter title is the editor's.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 1,
+              "sentence_indexes": [
+                3
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.stewards-and-future-bishops"
+            ],
+            "removed": []
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

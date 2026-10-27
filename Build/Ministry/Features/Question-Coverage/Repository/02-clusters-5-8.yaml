@@ -120,3 +120,9 @@ questions:
 - {id: C8-28, c: C8, k: [K10], s: PREDICTED, f: [VERSE], t: "'Slaves, obey your masters': did anyone among you push back on Paul there?"}
 - {id: C8-29, c: C8, k: [K4], s: PREDICTED, t: "Did you practise castration or extreme asceticism? Was Origen really castrated?"}
 - {id: C8-30, c: C8, k: [K2], s: PREDICTED, t: "Was adultery forgivable? Was it forgivable for a woman?"}
+- {id: C5-31, c: C5, k: [K1,K4], s: REAL, ref: "admin dashboard, last 7 days to 2026-10-26, 2026-10-26 04:07 UTC, alx, pahc, syr", t: "What was emphasis of teaching. On what documents was teaching based"}
+- {id: C6-27, c: C6, k: [K1], s: REAL, ref: "admin dashboard, last 7 days to 2026-10-26, 2026-10-20 01:21 UTC, alx", t: "Os there an earthy authority? Who did Jesus leave in charge. Who’s in charge now"}
+- {id: C6-28, c: C6, k: [K1], s: REAL, ref: "admin dashboard, last 7 days to 2026-10-26, 2026-10-20 01:19 UTC, syr", t: "Is there a church leader?"}
+- {id: C6-29, c: C6, k: [K1,K9], s: REAL, ref: "admin dashboard, last 7 days to 2026-10-26, 2026-10-20 01:13 UTC, pahc", f: [NI], t: "How did you come to believe in Jesus?"}
+- {id: C6-30, c: C6, k: [K1], s: REAL, ref: "admin dashboard, last 7 days to 2026-10-26, 2026-10-24 22:05 UTC, desert", f: [NI], t: "How did you start this tradition?"}
+- {id: C7-29, c: C7, k: [K1], s: REAL, ref: "admin dashboard, last 7 days to 2026-10-26, 2026-10-20 01:15 UTC, pahc", t: "Do you take communion? If so how so? Is it really his body and blood?"}
