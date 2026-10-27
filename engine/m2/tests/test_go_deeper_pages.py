@@ -353,11 +353,11 @@ def test_the_privacy_page_shows_the_account_parts_only_when_accounts_are_on():
     assert out["pageWithoutTheParts"] is False
 
 
-def test_the_privacy_page_ships_with_every_account_part_hidden_and_the_switch_off():
+def test_the_privacy_page_ships_with_every_account_part_hidden_in_the_markup_and_the_switch_on():
     html = (SITE / "privacy.html").read_text()
     for part in ACCOUNT_PARTS:
         assert re.search(rf'<(section|p)[^>]*id="{part}"[^>]*\bhidden\b', html), part
-    assert "accounts: false" in (SITE / "assets" / "go-deeper-config.js").read_text()
+    assert "accounts: true" in (SITE / "assets" / "go-deeper-config.js").read_text()
 
 
 def test_the_privacy_page_account_words_read_at_the_target_level_and_say_what_was_approved():

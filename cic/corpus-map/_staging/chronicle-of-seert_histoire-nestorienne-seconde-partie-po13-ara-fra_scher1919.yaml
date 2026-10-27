@@ -20,3 +20,13 @@ assignments:
     note: >
       The East Syrian church's own narrative memory of its catholicoi, schools and martyrs;
       late compilation, French only, provisional.
+
+  - row_id: chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919--chronicle-of-seert-ii2--voice
+    work: Chronique de Seert (Histoire nestorienne), II.2, with French
+    author: chronicle-of-seert-ii2
+    locus: from raw line ~25256; Ishoyahb of Arzun at ch. XLII
+    atlas_ids:
+    - church-of-the-east-under-the-abbasids
+    role: tradition
+    confidence: provisional
+    note: An anonymous Arabic compilation made after the patriarch Iso'barnun (died 828); scholars date it between the 9th and 11th centuries. Placed on that window.

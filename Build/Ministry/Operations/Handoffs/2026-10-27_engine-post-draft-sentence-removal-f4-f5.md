@@ -35,6 +35,10 @@ After the voice drafts, the engine removes sentences for the reasons above, then
 
 Why the `lpc` thread did not fix it in the records: the removal acts on the draft, not on a record. Guards on records reach the voice as prose and the removal step does not read them.
 
+## 4a. Related engine items from the same review (P2)
+
+F17, F18, F23 and F24, with F25 as a fleet question, are in their own handoff: `Build/Ministry/Operations/Handoffs/2026-10-27_engine-lpc-review-other-items.md`. F24 is the cheapest to reproduce.
+
 ## 5. Waiting on Mark
 
 - **Nothing is open for this handoff.** The project lead has chosen an engine thread.

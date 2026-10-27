@@ -20,3 +20,13 @@ assignments:
     note: >
       Middle Irish lives written centuries after the window; transmission with confidence
       tags.
+
+  - row_id: stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890--lismore-lives--voice
+    work: Lives of Irish saints from the Book of Lismore (Patrick, Colum Cille, Brigit, Senan, Findian, Brenainn, Mochua), Irish with English
+    author: lismore-lives
+    locus: the lives per the volume's contents list
+    atlas_ids:
+    - medieval-irish-christianity
+    role: tradition
+    confidence: provisional
+    note: Middle Irish lives of Irish saints, compiled long after the saints lived. Placed on the window of the compilation, not of the saints.
