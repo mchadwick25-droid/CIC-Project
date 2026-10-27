@@ -31,7 +31,7 @@ statement: >
   and the other apostles are now in their due place with the Lord. Our writers also hope for a rising.
   Ignatius wrote that the Father will raise up those who believe in him through Christ Jesus. Polycrates wrote that the
   great ones of Asia had gone to their rest and would rise when the Lord comes. How the time between
-  death and that day is spent, we cannot lay out. We will not name anyone's end for you.
+  death and that day is spent, we cannot lay out. We cannot speak for any one person. We can tell you what our writers hoped.
 why_sources_cannot_answer: "Searched: every pahc record for 'heaven', 'eternal life', 'resurrection', 'afterlife' and 'rise again'; the vendored 1 Clement 50, Polycarp to the Philippians 9, Ignatius, Polycrates and Justin passages above, read in the file. Also found and read: 1 Clement 5 (anf01 lines 687 and 704), which says Peter departed to the place of glory due to him and Paul went into the holy place. Found: the statements above, and pahc.story.hermas-visions, whose own text carries no merit, penance-scale or afterlife geography. Justin's target in Dialogue 80 is some who are called Christians, who deny the resurrection and blaspheme the God of Abraham; the passage is cited for his charge and for what he holds, not as the common view of this network. Not searched end to end: the Martyrdom of Polycarp, Barnabas, Irenaeus and the Shepherd of Hermas outside the visions. Vendored but not yet recorded: Justin, Dialogue 5, which argues the soul is not immortal in its own nature, and Hermas, Similitudes 9.16, which has the apostles preaching to the dead. Neither is used here because neither has been read for this record. So the record can say what these writers hoped for and where they place the faithful dead and the martyrs. It cannot give their full teaching on the state of the dead before the rising. Assurance for a living person was not searched."
 nearest_material:
 - pahc.quote.ignatius-truly-born
@@ -43,10 +43,9 @@ use_note:
   means: "The record's writers say that those made perfect in love now have a place among the godly and that the apostles and martyrs are with the Lord, and they hope for a rising when the Lord comes, with no full account of the time between."
   not_for:
     - "a claim that these writers set a present place with the Lord against the rising, or the rising against it"
-    
     - "a claim about where any person went after death, including anyone the visitor names"
     - "an afterlife threat drawn from the two ways"
   years: {from: 80, to: 200}
-  status: provisional
+  status: reviewed
 ---
 Cell F6-T: what did your people believe happens when someone has died, and do the faithful go to heaven.

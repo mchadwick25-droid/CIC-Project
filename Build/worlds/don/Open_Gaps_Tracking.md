@@ -2098,3 +2098,9 @@ Status: OPEN.
 The spoken statement no longer quotes Petilian's line about Judas (it named a method and set a traitor beside a suicide question); it keeps the martyrs-quarrel framing and cites Optatus III.4. The account of the Monumenta file now says it holds the Passio Marculi and the Passio of Isaac and Maximian, Donatist martyr texts that place their martyrs in heaven, and that the Passio Marculi has Marculus thrown from the cliff by his executioner. Petilian's locus is Answer to Petilian II.8.17. Awaiting a fourth read (Mark's cap ruling) before `use_note.status` can move to reviewed; Contra Gaudentium is still unread (see OG-52).
 
 Status: OPEN for the fourth read.
+
+### OG-54. The always-in-context don prompt carries method-of-death words on suicide questions, 2026-10-27.
+
+Found by the fifth read and a repeatable scan (`Build/Ministry/Features/Question-Coverage/Tools/safe_surface_scan.py --prompt <compiled prompt>`). The compiled don prompt has 17 hits. Most are Marculus "thrown from a cliff" in the Passio story and the Marculus-centred records (an execution, historically central). One is in `don.dw.not-a-death-wish`: "country members are said to have sought death, provoked it, thrown themselves at it", the Circumcellion charge in the world's own voice. The text sits in context on every turn, so a suicide question meets it whatever retrieval returns. Decision for this world: whether `don.dw.not-a-death-wish` and the Marculus story need a read for suicide-question exposure, and whether any line should move behind retrieval. Not edited.
+
+Status: OPEN.

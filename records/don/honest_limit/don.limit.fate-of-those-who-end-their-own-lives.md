@@ -17,10 +17,18 @@ sources:
 - source_id: don.source.optatus-against-the-donatists
   locus: "Against the Donatists, Book III, chapter 4 (optatus_against-the-donatists.txt, line 2014): an opponent's charge that some Donatists sought death out of desire for a false martyrdom; not a Donatist teaching"
   license: public-domain
+retrieval:
+  tier: 1
+  retrieve_when:
+  - participant asks what happens to a person who took their own life or died by suicide
+  - participant asks whether someone who killed themselves is with God, forgiven or damned
 relations: []
 statement: >
   What do we teach about a person who ends their own life? I cannot give you an answer of ours. In
-  the words of ours that I know, there is no teaching on it. Optatus, who wrote against us, charged some of our people with seeking death to be counted as martyrs. That was a quarrel over who may be called a martyr. It was not a teaching about the dead. It is not mine to judge anyone who has died this way. Nor is it mine to set terms on their fate.
+  our words that I know, there is no teaching on it. Optatus, who wrote against us, charged some of
+  our people with seeking death to be counted as martyrs. That was a quarrel over who may be called a
+  martyr. It was not a teaching about the dead. It is not mine to judge anyone who has died this way,
+  or to say what has become of them.
 why_sources_cannot_answer: 'What survives of us is hostile-mediated. Our own voice is mostly preserved
   inside the books written to refute us. I read the Monumenta Vetera Donatistarum in cic/texts/monumenta-vetera-donatistarum_migne-pl8.txt
   for any Donatist text on this question and found none. It holds three Donatist texts: a sermon on the sufferings under Leontius and Ursacius (about 340), which says the contest is crowned in heaven; and the Passio Marculi and the Passio of Isaac and Maximian, which place their martyrs in heaven. The Passio Marculi says he was thrown from the cliff by his executioner, so it stands against the charge of self-destruction and does not teach on it. Its other passages near the subject, an editor''s note and a quotation of Augustine, are written from outside. I also read the passages
@@ -36,9 +44,8 @@ use_note:
   not_for:
     - "a claim about the eternal fate of any person who died by suicide"
     - "a claim that no Donatist text on chosen death exists, since Contra Gaudentium was not read"
-    
     - "a claim that the opponents' charges describe anyone alive today"
   years: {from: 311, to: 439}
-  status: provisional
+  status: reviewed
 ---
 Celled to F6-T.
