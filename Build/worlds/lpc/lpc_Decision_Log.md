@@ -2741,3 +2741,11 @@ Asked again, with the new pin 2026-10-27T18-49-35Z ready. Alternatives shown: (1
 ### 2026-10-27 — lpc moves to `built` (project lead's ruling, second session)
 
 Alternatives shown: (1) stay `building`; (2) move to `built`, which lists lpc on staging. Chosen: 2, with the project lead's statement that the Facilitator's routing has passed (project lead, 2026-10-27). `admitted` waits for admission to pass on the new pin; the reruns wait for the F4/F5 fix (entry above).
+
+---
+
+### 2026-10-27 — Change order: lpc back to `building`; the fleet library-access gate blocks `built` (build thread, awaiting the project lead)
+
+The project lead's ruling above moved lpc to `built`. CI's M9 confinement check (`engine.m9.cli check`) then failed: from `built` on, lpc must pass every library-access check, and a world outside the grandfathered set can be waived only with the project lead's approval. It reported eight categories of undocumented drift for lpc (OG-97). The state was returned to `building` in the same pull request so the rest of the work can merge; nothing else the ruling touched was changed. Alternatives put to the project lead: (1) stay `building` and clear the gate in a later session; (2) approve waivers by name so lpc can be `built` now; (3) leave the pull request red. The answer is recorded below when given.
+
+Answer (project lead, 2026-10-27): alternative 1. lpc stays `building`; the next session clears the library-access gate in a content batch (OG-97), then moves lpc to `built` with no waivers.
