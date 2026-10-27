@@ -462,3 +462,8 @@ Four Opus review threads reported on 2026-10-23 (main e64646393, live 469d072c):
 - Mark approved the accounts thread's draft as written (2026-10-27): "A conversation you save to your account is kept until you delete it, or until your account has sat unused for two years." Reason: the privacy page says a conversation is deleted after 90 days (`cic-website/privacy.html` line 145 on main, checked), which is wrong for a saved conversation.
 - Passed to the accounts build thread, which adds it hidden with the other account parts and logs the ruling. Not yet built or confirmed by that thread.
 - Still open for accounts: SES production access (region and domain), Render settings, question 63 (imminent risk), and the coupons sentence for the privacy page.
+
+### Change order to the entry above — 2026-10-27
+- Mark withdrew the approved sentence: it was wrong. His rule, in his words: "we delete conversations not attached to an account 90 days. we also delete conversations 90 days after an account closes, as long as the account is open we keep the conversations attached to that account. we delete accounts not used after 2 years."
+- Passed to the accounts build thread with three jobs: check the build against the rule (not only the page), draft plain-language words for all four parts for Mark's approval before they go in, and log a new ruling naming this change order. Whether the build already deletes conversations 90 days after an account closes is unchecked.
+- Reason: the thread's draft said conversations on an account last until the owner deletes them or two years unused; it left out the 90 days after closing.
