@@ -85,3 +85,9 @@ Checked and sound: cookie flags and rotation, step-up on the sensitive actions, 
 ## Spend
 
 Sonnet for building, Opus for reviews (as the rules say). No metered model call, live test or paid run by this thread. One SES test email sent by Mark.
+
+## Running record — combined thread (2026-10-27)
+
+- Pull request 1176 marked ready (it was a draft). Security items 5 and 6 and the restore-runbook line (Not done 3) are on the same branch, commit `f60a143a`; 332 accounts, shelf, secrets and session-code tests pass locally; commentary check clean. Merge waits on CI.
+- The security review report arrived in this file (above); not re-run.
+- Open with Mark, one at a time: (a) security item 2, step-up for shelf delete and reopen; (b) items 3 and 4; (c) the 429 rate limit; (d) the words in Not done 4; (e) coupon limits (Not done 5); (f) the SES configuration set (Not done 9).
