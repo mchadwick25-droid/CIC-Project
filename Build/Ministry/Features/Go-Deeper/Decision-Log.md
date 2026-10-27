@@ -1254,3 +1254,7 @@ Checked: all 349 app tests and `tsc` pass, three new panel tests cover the panel
 107. Every participant-facing "home" for an account is now "account". Mark: "all cases of 'home' should be account when referring to their account." The button reads "Delete my account" (Mark: "Delete my account"), and the keep button reads "Keep my account".
 
 108. After "Delete my account" the account is not erased at once. Mark: "lets give them 90 days to re-open"; on keeping everything during those days, "a". The screen after the button says: "you have 90 days to re-open it" (Mark). The sentence around it is drafted on that line and goes to Mark before it ships. After day 90 everything is erased for good. This changes the delete-now behaviour of ruling 24. The build (a "closed on" date, a sign-in screen to re-open, a daily job that erases after day 90, a backup marker so a restore does not re-open a closed account, new app and privacy words) is in progress and ships hidden behind the accounts switch.
+
+## 2026-10-27 — Deleting a saved conversation needs a fresh confirmation (Mark, combined accounts and coupons thread)
+
+109. From the security review of the accounts system: deleting a saved conversation needs the same fresh confirmation as export, so a sign-in cookie left on a shared device cannot erase the shelf. Opening a saved conversation stays on the session alone. Mark chose this over "both need it" and "neither". Built with the screen using the existing confirmation words.
