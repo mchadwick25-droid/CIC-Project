@@ -77,3 +77,8 @@ def test_production_start_up_checks_before_anything_else(monkeypatch):
     monkeypatch.setattr(app_module.os, "environ", {"CIC_API_REGION": "us-east-1", "CIC_DEEPER_ENABLED": "1"})
     with pytest.raises(rs.MissingSecrets):
         app_module._build_real_app()
+
+
+def test_accounts_switch_names_the_contact_and_shelf_keys():
+    names = {p.name for p in rs.problems_in({"CIC_ACCOUNTS_ENABLED": "1"})}
+    assert {"CIC_ACCOUNTS_CONTACT_KEY", "CIC_ACCOUNTS_SHELF_KEY"} <= names

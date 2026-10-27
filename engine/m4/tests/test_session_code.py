@@ -29,3 +29,8 @@ def test_hash_is_case_and_dash_insensitive():
     digest = hash_code(code)
     scrambled = code.lower()
     assert codes_match(scrambled, digest)
+
+
+def test_non_ascii_entry_is_a_mismatch_not_an_error():
+    digest = hash_code(generate_code())
+    assert not codes_match("ÄÖÜ-é✓", digest)
