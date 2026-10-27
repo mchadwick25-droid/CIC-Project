@@ -16,6 +16,7 @@ from typing import Callable
 
 from engine.api.config import REPO_ROOT
 from engine.m1.loader import load_fleet_records
+from engine.m1.registry import is_built
 from engine.m2.loader_stub import PackageRefused
 from engine.m4 import events, facilitator_turns, session_code
 from engine.m4.entrance import open_session
@@ -73,9 +74,14 @@ ADMITTED_STATES = frozenset({"admitted", "open"})
 
 
 def _check_admission(registry: dict, world_key: str, *, require_admitted: bool) -> None:
+    entry = registry.get(world_key) or {}
+    if entry.get("kind") == "formation" and not is_built(entry):
+        # A formation world still being built is never seated, even with
+        # enforcement off: a package pinned for its own live tests does not
+        # make it built.
+        raise WorldNotAdmitted(world_key)
     if not require_admitted:
         return
-    entry = registry.get(world_key) or {}
     if entry.get("state") not in ADMITTED_STATES:
         raise WorldNotAdmitted(world_key)
 
@@ -301,8 +307,8 @@ def list_worlds(*, world_loader: LazyWorldLoader, registry: dict, require_admitt
     """
     worlds = []
     for world_key, entry in registry.items():
-        if entry.get("kind") != "formation" or not entry.get("package"):
-            continue  # a world still at the Library stage has no compiled frame to read
+        if entry.get("kind") != "formation" or not entry.get("package") or not is_built(entry):
+            continue  # a world still at the Library stage, or still being built, is not offered
         if require_admitted and entry.get("state") not in ADMITTED_STATES:
             # Under enforcement the doorway lists only worlds a participant
             # may actually enter - an unadmitted world simply is not
