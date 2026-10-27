@@ -115,7 +115,16 @@ def say(http, session_id, auth, text):
 
 def spend_free_allowance(runtime, visitor="ip:testclient"):
     """Draws the visitor's whole free window, so the next turn is carried by a code or refused."""
-    runtime.free.settle(runtime.free.reserve(visitor, runtime.free.remaining(visitor)), True)
+    left = runtime.free.remaining(visitor)
+    if left:
+        runtime.free.settle(runtime.free.reserve(visitor, left), True)
+
+
+def fresh_free_window(runtime, size=None, visitor="ip:testclient"):
+    """Gives the visitor a free window of the chosen size (a whole window by default) on top of what they
+    have already drawn, as a new window would."""
+    drawn = runtime.meter.free_window_spent(runtime.meter.free_key(visitor))
+    runtime.free = FreeAllowance(runtime.meter, drawn + (size or runtime.free.window_amount))
 
 
 def code_with(runtime, amount, kind="single"):
@@ -169,7 +178,7 @@ def test_the_voice_request_is_identical_off_free_and_paid_at_a_turn_past_the_fre
     requests["on_free"] = free.voice_requests[turns - 1]
     assert runtime.free.remaining("ip:testclient") == runtime.token_rates.free_window - solo_charge(runtime, 1, turns)
 
-    runtime.free = FreeAllowance(runtime.meter, runtime.token_rates.free_window)
+    fresh_free_window(runtime, solo_charge(runtime, 1))
     monkeypatch.setattr("engine.m4.turn.SESSION_TURN_CAP", 1)
     paid = RecordingClient()
     spare = 5
@@ -187,7 +196,7 @@ def test_the_voice_request_is_identical_off_free_and_paid_at_a_turn_past_the_fre
 
 # ---- a code buys what the free allowance refuses -----------------------------
 
-def test_a_code_pays_only_for_turns_past_the_free_cap_and_the_balance_is_reported(
+def test_a_code_pays_for_the_turns_after_the_free_window_is_spent_and_the_balance_is_reported(
     store, usage_store, world_loader, registry, runtime
 ):
     client = RecordingClient()
@@ -198,6 +207,7 @@ def test_a_code_pays_only_for_turns_past_the_free_cap_and_the_balance_is_reporte
     session_id, auth = open_session(http, **{"X-Cic-Code": code})
     free_turns = [say(http, session_id, auth, f"q{i}") for i in range(FREE_CAP)]
     assert [r.headers["x-cic-remaining"] for r in free_turns] == [str(total)] * FREE_CAP
+    spend_free_allowance(runtime)
     paid = [say(http, session_id, auth, f"p{i}") for i in range(3)]
     left = [total - solo_charge(runtime, rounds[0], n) for n in rounds]
     assert left[-1] == 0
@@ -207,6 +217,108 @@ def test_a_code_pays_only_for_turns_past_the_free_cap_and_the_balance_is_reporte
     assert out.json()["routing_action"] == "session_cap_turn"
     assert out.headers["x-cic-remaining"] == "0"
     assert len(client.voice_requests) == FREE_CAP + 3
+
+
+# ---- free tokens are spent before paid ones, in any round --------------------------
+
+def test_a_turn_the_free_window_only_partly_covers_draws_the_free_rest_first_and_the_code_pays_the_remainder(
+    store, usage_store, world_loader, registry, runtime
+):
+    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
+    cost = solo_charge(runtime, 1)
+    free_rest = cost // 2
+    assert 0 < free_rest < cost
+    fresh_free_window(runtime, free_rest)
+    balance = 10 * cost
+    code = code_with(runtime, balance)
+    session_id, auth = open_session(http, **{"X-Cic-Code": code})
+    reply = say(http, session_id, auth, "the split turn")
+    assert reply.json()["voice"] is not None
+    assert reply.headers["x-cic-free-left"] == "0" and runtime.free.remaining("ip:testclient") == 0
+    assert reply.headers["x-cic-remaining"] == str(balance - (cost - free_rest))
+    assert runtime.meter.status(code).remaining == balance - (cost - free_rest)
+    assert runtime.meter._reserved == {} and runtime.free._held == {}
+
+
+def test_the_next_turn_after_the_free_window_is_empty_is_paid_whole_by_the_code(
+    store, usage_store, world_loader, registry, runtime
+):
+    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
+    first = solo_charge(runtime, 1)
+    fresh_free_window(runtime, first // 2)
+    balance = 10 * first
+    code = code_with(runtime, balance)
+    session_id, auth = open_session(http, **{"X-Cic-Code": code})
+    say(http, session_id, auth, "the split turn")
+    before = runtime.meter.status(code).remaining
+    reply = say(http, session_id, auth, "the whole turn")
+    assert reply.json()["voice"] is not None
+    assert reply.headers["x-cic-free-left"] == "0"
+    assert reply.headers["x-cic-remaining"] == str(before - solo_charge(runtime, 2)) == str(runtime.meter.status(code).remaining)
+
+
+def test_a_round_past_the_free_rounds_draws_the_free_window_first_and_leaves_the_code_untouched_when_it_covers_the_turn(
+    store, usage_store, world_loader, registry, runtime
+):
+    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
+    balance = 1000
+    code = code_with(runtime, balance)
+    session_id, auth = open_session(http, **{"X-Cic-Code": code})
+    for i in range(FREE_CAP):
+        say(http, session_id, auth, f"q{i}")
+    cost = solo_charge(runtime, FREE_CAP + 1)
+    free_before = runtime.free.remaining("ip:testclient")
+    assert free_before >= cost
+    reply = say(http, session_id, auth, "past the free rounds")
+    assert reply.json()["voice"] is not None
+    assert reply.headers["x-cic-remaining"] == str(balance) and runtime.meter.status(code).remaining == balance
+    assert reply.headers["x-cic-free-left"] == str(free_before - cost)
+
+
+def test_a_code_that_cannot_carry_the_rest_of_a_split_turn_gives_the_free_part_back_and_the_turn_is_refused(
+    store, usage_store, world_loader, registry, runtime
+):
+    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
+    cost = solo_charge(runtime, FREE_CAP + 1)
+    free_rest = cost // 2
+    assert 0 < free_rest < cost
+    fresh_free_window(runtime, solo_charge(runtime, 1, FREE_CAP) + free_rest)
+    balance = cost - free_rest - 1
+    code = code_with(runtime, balance)
+    session_id, auth = open_session(http, **{"X-Cic-Code": code})
+    for i in range(FREE_CAP):
+        assert say(http, session_id, auth, f"q{i}").json()["voice"] is not None
+    free_before = runtime.free.remaining("ip:testclient")
+    assert free_before == free_rest
+    reply = say(http, session_id, auth, "the turn the code cannot finish")
+    assert reply.json()["routing_action"] == "session_cap_turn" and reply.json()["voice"] is None
+    assert reply.json()["limit_note"]["key"] == "too_few"
+    assert runtime.free.remaining("ip:testclient") == free_before
+    assert runtime.meter.status(code).remaining == balance
+    assert runtime.meter._reserved == {} and runtime.free._held == {}
+
+
+def test_a_person_with_no_code_is_still_refused_past_the_free_rounds_while_free_tokens_remain(
+    store, usage_store, world_loader, registry, runtime
+):
+    http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
+    session_id, auth = open_session(http)
+    for i in range(FREE_CAP):
+        say(http, session_id, auth, f"q{i}")
+    free_before = runtime.free.remaining("ip:testclient")
+    assert free_before >= solo_charge(runtime, FREE_CAP + 1)
+    reply = say(http, session_id, auth, "past the free rounds")
+    assert reply.json()["routing_action"] == "session_cap_turn" and reply.json()["voice"] is None
+    assert reply.json()["limit_note"]["key"] == "no_code"
+    assert runtime.free.remaining("ip:testclient") == free_before
+    from engine.api.deeper_admission import Admission
+
+    counted = _refusals(runtime).get("free_rounds_done", 0)
+    admission = Admission(runtime, None, free_cap=FREE_CAP, seats=1, visitor="someone-new")
+    admission.provider(FREE_CAP)
+    admission.finish(False)
+    assert _refusals(runtime).get("free_rounds_done") == counted + 1
+    assert runtime.free.remaining("someone-new") == runtime.free.window_amount
 
 
 def test_no_code_means_no_header_and_the_free_cap_holds(store, usage_store, world_loader, registry, runtime):
@@ -259,8 +371,11 @@ def test_a_paused_or_unknown_code_leaves_the_free_path_alone(store, usage_store,
     code = code_with(runtime, 5)
     runtime.meter.pause(True)
     for header in (code, codes.generate(), "garbage"):
+        fresh_free_window(runtime)
         session_id, auth = open_session(http, **{"X-Cic-Code": header})
-        replies = [say(http, session_id, auth, f"q{i}") for i in range(FREE_CAP + 1)]
+        replies = [say(http, session_id, auth, f"q{i}") for i in range(FREE_CAP)]
+        spend_free_allowance(runtime)
+        replies.append(say(http, session_id, auth, f"q{FREE_CAP}"))
         assert replies[0].json()["voice"] is not None
         assert replies[-1].json()["routing_action"] == "session_cap_turn"
     assert runtime.meter.status(code).remaining == 5
@@ -275,7 +390,9 @@ def test_an_admission_fault_leaves_the_free_grant(store, usage_store, world_load
         raise RuntimeError("meter unavailable")
 
     monkeypatch.setattr(runtime.meter, "reserve", broken)
-    replies = [say(http, session_id, auth, f"q{i}") for i in range(FREE_CAP + 1)]
+    replies = [say(http, session_id, auth, f"q{i}") for i in range(FREE_CAP)]
+    spend_free_allowance(runtime)
+    replies.append(say(http, session_id, auth, f"q{FREE_CAP}"))
     assert replies[0].json()["voice"] is not None
     assert replies[-1].json()["routing_action"] == "session_cap_turn"
 
@@ -330,11 +447,13 @@ def limit_setup(name, store, usage_store, world_loader, registry, runtime, clien
         runtime.meter.settle(runtime.meter.reserve(code).reservation, True)
         for i in range(FREE_CAP):
             assert say(http, session_id, auth, f"q{i}").status_code == 200
+        spend_free_allowance(runtime)
     elif name == "expired_tester":
         http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
         session_id, auth = open_session(http, **{"X-Cic-Code": expired_tester_code(runtime)})
         for i in range(FREE_CAP):
             assert say(http, session_id, auth, f"q{i}").status_code == 200
+        spend_free_allowance(runtime)
     elif name == "paused":
         http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
         code = code_with(runtime, 5)
@@ -342,17 +461,20 @@ def limit_setup(name, store, usage_store, world_loader, registry, runtime, clien
         runtime.meter.pause(True)
         for i in range(FREE_CAP):
             assert say(http, session_id, auth, f"q{i}").status_code == 200
+        spend_free_allowance(runtime)
     elif name == "wrong_code":
         http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
         session_id, auth = open_session(http, **{"X-Cic-Code": codes.generate()})
         for i in range(FREE_CAP):
             assert say(http, session_id, auth, f"q{i}").status_code == 200
+        spend_free_allowance(runtime)
     elif name == "module_error":
         http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
         session_id, auth = open_session(http, **{"X-Cic-Code": code_with(runtime, 5)})
         runtime.meter.reserve = lambda *a, **k: (_ for _ in ()).throw(RuntimeError("down"))
         for i in range(FREE_CAP):
             assert say(http, session_id, auth, f"q{i}").status_code == 200
+        spend_free_allowance(runtime)
     elif name == "free_allowance_spent":
         http = build(store, usage_store, world_loader, registry, client, deeper=runtime)
         runtime.free.settle(runtime.free.reserve("ip:testclient", runtime.token_rates.free_window), True)
@@ -440,6 +562,7 @@ def test_a_code_entered_after_the_pause_continues_the_same_conversation(store, u
     assert paused.json()["facilitator"]["kind"] == "limit"
     assert paused.json()["limit_note"] == {"key": "no_code", "text": runtime.ops.notes["no_code"]}
     assert http.get(f"/api/session/{session_id}/transcript", headers=auth).json()["closed"] is False
+    spend_free_allowance(runtime)
     total = 2 * solo_charge(runtime, FREE_CAP + 1)
     code = code_with(runtime, total)
     resumed = say(http, session_id, {**auth, "X-Cic-Code": code}, "now may I?")
@@ -458,16 +581,20 @@ def test_each_reason_a_code_cannot_carry_a_turn_gets_its_own_line_in_the_respons
     runtime.meter.settle(runtime.meter.reserve(group).reservation, True)
     cases = [("spent", spent), ("spent", expired_tester_code(runtime)), ("daily_ceiling", group), ("code_not_accepted", codes.generate())]
     for expected, code in cases:
+        fresh_free_window(runtime)
         session_id, auth = open_session(http)
         for i in range(FREE_CAP):
             say(http, session_id, auth, f"q{i}")
+        spend_free_allowance(runtime)
         reply = say(http, session_id, {**auth, "X-Cic-Code": code}, "more")
         assert reply.json()["limit_note"]["key"] == expected, expected
         assert reply.json()["limit_note"]["text"] == runtime.ops.notes[expected]
     live = code_with(runtime, 5)
+    fresh_free_window(runtime)
     session_id, auth = open_session(http)
     for i in range(FREE_CAP):
         say(http, session_id, auth, f"q{i}")
+    spend_free_allowance(runtime)
     runtime.meter.pause(True)
     reply = say(http, session_id, {**auth, "X-Cic-Code": live}, "more")
     assert reply.json()["limit_note"]["key"] == "paused"
@@ -484,6 +611,8 @@ def test_a_tester_code_carries_turns_through_its_last_day_and_after_it_is_refuse
     day[0] = date(2026, 10, 6)
     session_id, auth = open_session(http, **{"X-Cic-Code": code})
     for i in range(FREE_CAP + 1):
+        if i == FREE_CAP:
+            spend_free_allowance(runtime)
         assert say(http, session_id, auth, f"q{i}").json()["routing_action"] != "session_cap_turn"
     spent = runtime.meter.status(code).tokens_used
     assert spent == solo_charge(runtime, FREE_CAP + 1)
@@ -507,6 +636,8 @@ def test_the_stored_pause_is_the_same_words_for_a_free_sitting_and_a_paid_one_an
     code = code_with(runtime, solo_charge(runtime, FREE_CAP + 1))
     paid_id, paid_auth = open_session(http, **{"X-Cic-Code": code})
     for i in range(FREE_CAP + 1):
+        if i == FREE_CAP:
+            spend_free_allowance(runtime)
         say(http, paid_id, paid_auth, f"q{i}")
     runtime.meter.pause(False)
     out = say(http, paid_id, paid_auth, "more")
@@ -537,6 +668,7 @@ def test_a_table_the_code_cannot_cover_pauses_and_stays_open(store, usage_store,
     first = http.post(f"/api/session/{sid}/message", json={"text": "what is prayer?"}, headers=auth)
     while first.json()["round_open"]:
         first = http.post(f"/api/session/{sid}/continue", headers=auth)
+    spend_free_allowance(runtime)
     second = http.post(f"/api/session/{sid}/message", json={"text": "and fasting?"}, headers=auth)
     body = second.json()
     assert body["routing_action"] == "session_cap_turn" and body["session_closed"] is False
@@ -553,6 +685,7 @@ def test_the_response_says_when_a_code_is_low_and_only_then(store, usage_store, 
     session_id, auth = open_session(http, **{"X-Cic-Code": code})
     for i in range(FREE_CAP):
         say(http, session_id, auth, f"q{i}")
+    spend_free_allowance(runtime)
     first = say(http, session_id, auth, "one")
     second = say(http, session_id, auth, "two")
     assert "x-cic-low" not in first.headers
@@ -567,6 +700,7 @@ def test_the_stream_says_low_in_its_final_event(store, usage_store, world_loader
     session_id, auth = open_session(http, **{"X-Cic-Code": code})
     for i in range(FREE_CAP):
         say(http, session_id, auth, f"q{i}")
+    spend_free_allowance(runtime)
     reply = http.post(f"/api/session/{session_id}/message", json={"text": "more"}, headers={**auth, "Accept": "text/event-stream"})
     done = parse_sse(reply.text)[-1][1]
     assert done["low"] is True and done["remaining"] == runtime.ops.low_balance_at - solo_charge(runtime, FREE_CAP + 1)
@@ -637,6 +771,7 @@ def test_admission_is_decided_before_the_voice_and_never_during_it(store, usage_
     session_id, auth = open_session(http, **{"X-Cic-Code": code})
     for i in range(FREE_CAP):
         say(http, session_id, auth, f"q{i}")
+    spend_free_allowance(runtime)
     seen = {}
     original_stream = client.messages.stream
 
@@ -673,6 +808,7 @@ def test_the_stream_path_admits_settles_and_reports_the_balance(store, usage_sto
     session_id, auth = open_session(http, **{"X-Cic-Code": code})
     for i in range(FREE_CAP):
         say(http, session_id, auth, f"q{i}")
+    spend_free_allowance(runtime)
     reply = http.post(
         f"/api/session/{session_id}/message", json={"text": "streamed"}, headers={**auth, "Accept": "text/event-stream"}
     )
@@ -748,6 +884,7 @@ def test_a_table_round_past_the_free_rounds_costs_the_round_price_once(
     while first.json()["round_open"]:
         first = http.post(f"/api/session/{created['session_id']}/continue", headers=auth)
         assert first.status_code == 200
+    spend_free_allowance(runtime)
     second = http.post(f"/api/session/{created['session_id']}/message", json={"text": "and fasting?"}, headers=auth)
     assert second.status_code == 200
     assert second.headers["x-cic-remaining"] == str(total - round_price)
@@ -775,6 +912,7 @@ def test_a_table_draws_its_opening_and_first_round_then_its_second_by_seats(
     code = code_with(runtime, held)
     created = http.post("/api/session", json={"world_keys": keys}, headers={"X-Cic-Code": code}).json()
     auth = {"Authorization": f"Session {created['session_code']}", "X-Cic-Code": code}
+    spend_free_allowance(runtime)
     first = http.post(f"/api/session/{created['session_id']}/message", json={"text": "what is prayer?"}, headers=auth)
     assert first.status_code == 200 and first.headers["x-cic-remaining"] == str(held - opens)
     while first.json()["round_open"]:
@@ -795,6 +933,7 @@ def test_a_table_round_the_balance_cannot_cover_is_not_admitted(
     first = http.post(f"/api/session/{created['session_id']}/message", json={"text": "what is prayer?"}, headers=auth)
     while first.json()["round_open"]:
         first = http.post(f"/api/session/{created['session_id']}/continue", headers=auth)
+    spend_free_allowance(runtime)
     second = http.post(f"/api/session/{created['session_id']}/message", json={"text": "and fasting?"}, headers=auth)
     assert second.json()["routing_action"] == "session_cap_turn"
     assert runtime.meter.status(code).remaining == short
@@ -871,6 +1010,7 @@ def test_a_round_the_code_just_paid_to_zero_can_still_be_continued(
     code = code_with(runtime, table_charge(runtime, 1))
     created = http.post("/api/session", json={"world_keys": ["alx", "desert"]}, headers={"X-Cic-Code": code}).json()
     auth = {"Authorization": f"Session {created['session_code']}", "X-Cic-Code": code}
+    spend_free_allowance(runtime, visitor=http.cookies.get("cic_visitor").split(".")[0])
     opened = http.post(f"/api/session/{created['session_id']}/message", json={"text": "what is prayer?"}, headers=auth)
     assert opened.status_code == 200 and opened.headers["x-cic-remaining"] == "0"
     while opened.json()["round_open"]:
@@ -1015,10 +1155,13 @@ def test_a_code_carries_a_conversation_past_the_engines_free_cap_at_the_later_pr
     free_rounds = SHIPPED_SESSION_TURN_CAP
     spare = 7
     code = code_with(runtime, solo_charge(runtime, free_rounds + 1, free_rounds + 2) + spare)
-    _, _, replies = run_free_conversation(http, free_rounds + 2, **{"X-Cic-Code": code})
+    session_id, auth, replies = run_free_conversation(http, free_rounds, **{"X-Cic-Code": code})
+    assert runtime.meter.status(code).remaining == solo_charge(runtime, free_rounds + 1, free_rounds + 2) + spare
+    assert runtime.free.remaining("ip:testclient") == runtime.token_rates.free_window - solo_charge(runtime, 1, free_rounds)
+    spend_free_allowance(runtime)
+    replies += [say(http, session_id, auth, f"later {i}") for i in range(2)]
     assert all(r.json()["voice"] is not None for r in replies)
     assert runtime.meter.status(code).remaining == spare
-    assert runtime.free.remaining("ip:testclient") == runtime.token_rates.free_window - solo_charge(runtime, 1, free_rounds)
 
 
 def test_a_failed_voice_call_gives_the_free_tokens_back(store, usage_store, world_loader, registry, runtime, shipped_caps):
@@ -1104,6 +1247,7 @@ def test_a_turn_the_free_window_cannot_cover_counts_as_the_free_allowance_spent(
 
 
 def test_a_code_without_enough_tokens_counts_as_too_few_or_spent(runtime):
+    spend_free_allowance(runtime, "v")
     _turn(runtime, code=code_with(runtime, 5), completed=SHIPPED_SESSION_TURN_CAP)
     assert sum(_refusals(runtime).values()) == 1 and set(_refusals(runtime)) <= {"too_few", "spent"}
 
