@@ -19,7 +19,7 @@ work: 'Luther''s House of Learning: Indoctrination of the Young in the German Re
 edition: '(Baltimore: Johns Hopkins, 1978)'
 citation: 'Gerald Strauss, Luther''s House of Learning: Indoctrination of the Young in the German Reformation (Baltimore: Johns Hopkins, 1978)'
 kind: unvendored
-rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
+rights_status: "In-copyright modern publication (Johns Hopkins, 1978): purchasable, but its text cannot be redistributed. Rights status as characterized in the Source Registry; not independently re-verified."
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 70; WebSearch; 2026-09-15
 external_ids:

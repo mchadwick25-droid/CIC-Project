@@ -16,7 +16,7 @@ sources: []
 relations: []
 author: Luther
 work: De votis monasticis
-edition: / Treatise on Monastic Vows (1521) — Philadelphia Ed. vol. IV — NOT VENDORED; embedded within "luther_works-v3-selected_various1930.txt"
+edition: / Treatise on Monastic Vows (1521) — NOT VENDORED. Vol. III's note (embedded within "luther_works-v3-selected_various1930.txt") sends the reader to vol. IV, but vendored vol. IV (luther_works-v4-selected_various1931.txt) does not list it in its Contents
 citation: Luther, De votis monasticis / Treatise on Monastic Vows (1521), Philadelphia Ed. vol. IV
 kind: unvendored
 rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"

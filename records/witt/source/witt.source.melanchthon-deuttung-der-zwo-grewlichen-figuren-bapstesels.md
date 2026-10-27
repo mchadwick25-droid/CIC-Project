@@ -21,7 +21,7 @@ edition: '(1523; Wittenberg and reprints, e.g. Nuremberg: Stuchs), with Cranach-
   by Melancthon… the Whore of Babylon: that by Luther, of Monkery") — NOT VENDORED; embedded within "luther_bondage-of-the-will_cole1823.txt"'
 citation: 'Melanchthon & Luther, Deuttung der zwo grewlichen Figuren, Bapstesels zu Rom und Munchkalbs zu Freyberg in Meyssen funden (1523; Wittenberg and reprints, e.g. Nuremberg: Stuchs), with Cranach-workshop woodcuts of the Papal Ass (Melanchthon''s essay) and the Monk Calf (Luther''s)'
 kind: unvendored
-rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
+rights_status: "Only Cole's advertisement of the pamphlet is held, embedded within a vendored text (cic/texts/luther_bondage-of-the-will_cole1823.txt, line 16266 ff.); the 1523 pamphlet itself is not in the Library. Rights status as characterized in the Source Registry; not independently re-verified."
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 86; Cole file; WebSearch catalogue records
   (SLUB; DDB, Luthermuseen); 2026-09-15 (Revision 1)

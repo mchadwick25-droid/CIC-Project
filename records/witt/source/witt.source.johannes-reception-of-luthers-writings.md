@@ -19,7 +19,7 @@ work: The Reception of Luther's Writings on the Jews from the Reformation to the
 edition: Lutheran Quarterly n.s. 1, no. 1 (Spring 1987), pp. 72–97
 citation: Johannes Wallmann, The Reception of Luther's Writings on the Jews from the Reformation to the End of the 19th Century, Lutheran Quarterly n.s. 1, no. 1 (Spring 1987), pp. 72–97
 kind: unvendored
-rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
+rights_status: "In-copyright journal article (Lutheran Quarterly, 1987): purchasable through the journal, but its text cannot be redistributed. Rights status as characterized in the Source Registry; not independently re-verified."
 attribution_status: attributed
 discovery_channel: WebFetch of R83 bibliography; WebSearch; Source Registry row 92; 2026-09-15 (Revision
   1)
