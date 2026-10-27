@@ -419,12 +419,17 @@ def _remove_with_leaning(
 ) -> tuple[str, list[dict]]:
     """`tagged` without the sentences the net removes (`going`, among
     `entries`, the net's verdicts in sentence order) and, after each removed
-    sentence that cites a record, the run of sentences just after it that
-    lean on it (grounding_net.leans_on_previous), unless code placed them;
+    sentence that cites a record, the run of sentences just after it, in its
+    paragraph, that lean on it (grounding_net.leans_on_previous), unless code
+    placed them;
     with what was removed, each sentence with why, the leaning ones with
     grounding_net.REASON_FOLLOWS_REMOVAL. `aligned` is whether `entries`
     are `tagged`'s sentences one for one."""
-    parsed = [sent for paragraph in grounding_net.split_into_paragraphs(tagged) for sent in grounding_net.parse_tagged(paragraph)]
+    parsed, paragraph_of = [], []
+    for number, paragraph in enumerate(grounding_net.split_into_paragraphs(tagged)):
+        for sent in grounding_net.parse_tagged(paragraph):
+            parsed.append(sent)
+            paragraph_of.append(number)
     if aligned:
         removing = {i for i, entry in enumerate(entries) if any(entry is g for g in going)}
     else:
@@ -436,7 +441,8 @@ def _remove_with_leaning(
     for i in sorted(i for i in removing if parsed[i]["tags"]):
         j = i + 1
         while (
-            j < len(parsed) and j not in removing and not (aligned and grounding_net.placed_by_code(entries[j]))
+            j < len(parsed) and paragraph_of[j] == paragraph_of[i] and j not in removing
+            and not (aligned and grounding_net.placed_by_code(entries[j]))
             and grounding_net.placed_key(grounding_net.strip_tags(parsed[j]["raw"])) not in placed
             and grounding_net.leans_on_previous(parsed[j]["raw"])
         ):
@@ -462,9 +468,10 @@ _SENTENCE_END = re.compile(r"^(?P<body>.*?)(?P<end>[.!?][\"'”’)]*)\s*$", re.
 
 
 def _answer_record_fallback(raw_text: str, offered_ids: dict[str, list[str]], repository_records: dict[str, dict]) -> str | None:
-    """The world's own answer record for the question: the first doctrinal
-    witness the voice's draft tagged, else the turn's lead witness (the
-    first witness the evidence block offered). None when there is neither.
+    """The world's own answer record for the question: the doctrinal witness
+    the draft tagged that the evidence block offered (the first, in the
+    block's order), else the witness the draft tagged most often, else the
+    turn's lead witness (the first one offered). None when there is none.
 
     A tag no record has, whose slug is that of exactly one doctrinal witness
     of the same world ([[witt.term.truly-god-and-truly-man]] for
@@ -472,11 +479,21 @@ def _answer_record_fallback(raw_text: str, offered_ids: dict[str, list[str]], re
     chooses which of the world's own records is shown, word for word, and
     never makes the voice's sentence cite a record it did not name."""
     tagged = [t for sent in grounding_net.parse_tagged(raw_text) for t in sent["tags"]]
-    for record_id in [*tagged, *offered_ids.get("doctrinal_witness", [])]:
+    offered = offered_ids.get("doctrinal_witness", [])
+
+    def witness(record_id: str) -> str | None:
         record = repository_records.get(record_id) or _same_slug_witness(record_id, repository_records) or {}
         if record.get("record_type") == "doctrinal_witness" and (record.get("text") or "").strip():
             return record["id"]
-    return None
+        return None
+
+    drafted = [found for t in tagged if (found := witness(t))]
+    for record_id in offered:
+        if (found := witness(record_id)) and found in drafted:
+            return found
+    if drafted:
+        return max(dict.fromkeys(drafted), key=drafted.count)
+    return next((found for record_id in offered if (found := witness(record_id))), None)
 
 
 def _same_slug_witness(record_id: str, repository_records: dict[str, dict]) -> dict | None:
@@ -499,23 +516,32 @@ def _claims_ground(raw_text: str) -> bool:
     )
 
 
-# The share of the cited sentences a draft carried that apply_net may remove
-# before what is left is no longer the voice's answer.
+# The share of the sentences a draft rested on records for that apply_net may
+# remove before what is left is no longer the voice's answer, and the least
+# the draft must have carried, and lost, for the share to mean anything: a
+# single removal is the ordinary case and a reply of two cited sentences
+# loses half of itself to it.
 HOLLOWED_SHARE = 0.4
-_NOT_COUNTED_AS_LOSS = frozenset({REASON_STORY_RETOLD, grounding_net.REASON_FOLLOWS_REMOVAL})
+HOLLOWED_MIN_CITED = 3
+HOLLOWED_MIN_REMOVED = 2
 
 
 def _hollowed(net_result: dict) -> bool:
-    """apply_net removed HOLLOWED_SHARE or more of the cited sentences the
-    draft carried. A story told again is cut by design, and a sentence cut
-    only for leaning on a removed one is no claim of its own; neither
-    counts."""
+    """apply_net removed HOLLOWED_SHARE or more of the sentences the draft
+    rested on records for: those that cite a record or mark a quote or story
+    (a marker that failed counts), and those cut for leaning on one. A story
+    told again is cut by design and does not count. Needs at least
+    HOLLOWED_MIN_CITED such sentences and HOLLOWED_MIN_REMOVED removed."""
     removed = sum(
         1 for entry in net_result["reply_shape"]["removed"]
-        if entry["why"] not in _NOT_COUNTED_AS_LOSS and grounding_net._TAG.search(entry["draft"])
+        if entry["why"] != REASON_STORY_RETOLD
+        and (entry["why"] == grounding_net.REASON_FOLLOWS_REMOVAL or grounding_net.cites_record(entry["draft"]))
     )
     kept = sum(1 for entry in net_result["sentences"] if entry["tags"])
-    return bool(removed) and removed / (removed + kept) >= HOLLOWED_SHARE
+    return (
+        removed >= HOLLOWED_MIN_REMOVED and removed + kept >= HOLLOWED_MIN_CITED
+        and removed / (removed + kept) >= HOLLOWED_SHARE
+    )
 
 
 def settle_reply(

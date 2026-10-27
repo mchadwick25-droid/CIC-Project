@@ -77,17 +77,14 @@ def test_a_removed_sentence_that_cites_nothing_leaves_its_neighbours_alone():
     assert REASON_FOLLOWS_REMOVAL not in _whys(net_result)
 
 
-def test_a_fragment_after_a_removed_cited_sentence_goes():
-    raw = f"We kept the fast [[{OTHER}]]. {TYPED} Almost never. We kept it still [[{OTHER}]]."
-    text, _c, _n = _net(raw)
-    assert text == "We kept the fast. We kept it still."
-
-
-def test_leaning_is_an_opener_that_points_back_or_a_fragment_that_names_no_one():
+def test_leaning_is_an_opener_that_points_back_in_a_sentence_that_cites_and_names_no_one():
     assert leans_on_previous("That condition was his.")
-    assert leans_on_previous("Neither bishop tells us of any one child [[fix.witness.other]].")
+    assert leans_on_previous("Neither bishop tells us of any one child.")
     assert leans_on_previous("But he wrote that down.")
-    assert leans_on_previous("Almost never.")
+    assert not leans_on_previous("Neither bishop tells us of any one child [[fix.witness.other]].")
+    assert not leans_on_previous("Then the bishops gathered.")
+    assert not leans_on_previous("Those who repented were received.")
+    assert not leans_on_previous("God provides.")
     assert not leans_on_previous("He was received all the same.")
     assert not leans_on_previous("This is the same Moses we remember as a robber.")
     assert not leans_on_previous("")
@@ -205,3 +202,90 @@ def test_a_quotation_inside_a_rendering_takes_single_marks():
 ])
 def test_quotable_rendering(rendering, expected):
     assert quotable_rendering({"modern_rendering": rendering}) == expected
+
+
+# ---- review round 1: the rule must not delete what the net verified -------
+
+
+def test_a_sentence_with_its_own_citation_is_never_removed_for_leaning():
+    raw = f"We kept the fast [[{OTHER}]]. {TYPED} So we kept the fast on the fourth day [[{OTHER}]]."
+    text, _c, net_result = _net(raw)
+    assert text == "We kept the fast. So we kept the fast on the fourth day."
+    assert REASON_FOLLOWS_REMOVAL not in _whys(net_result)
+
+
+def test_a_cited_sentence_after_a_failed_quote_marker_stays():
+    context = PlacementContext(offered=frozenset({"fix.quote.wrapped"}), voiced=frozenset({"fix.quote.wrapped"}))
+    raw = (
+        f"We kept the fast [[{OTHER}]]. Augustine wrote of it [[{OTHER}]] [[quote:fix.quote.wrapped]]. "
+        f"So we kept it on the fourth day [[{OTHER}]]."
+    )
+    text, _c, _n = apply_net(raw, repository_records=RECORDS, thin_topics=None, placement=context)
+    assert text == "We kept the fast. So we kept it on the fourth day."
+
+
+@pytest.mark.parametrize("after", ["Then the bishops gathered.", "Those who repented were received.", "God provides."])
+def test_an_independent_sentence_after_a_removed_one_stays(after):
+    text, _c, _n = _net(f"We kept the fast [[{OTHER}]]. {TYPED} {after}")
+    assert text == f"We kept the fast. {after}"
+
+
+def test_the_leaning_run_stops_at_a_paragraph_break():
+    raw = f"We kept the fast [[{OTHER}]]. {TYPED}\n\nThat same year the fast moved."
+    text, _c, net_result = _net(raw)
+    assert text.endswith("That same year the fast moved.")
+    assert REASON_FOLLOWS_REMOVAL not in _whys(net_result)
+
+
+def test_the_leaning_run_stops_at_a_paragraph_break_after_a_placement_removal():
+    context = PlacementContext(offered=frozenset({"fix.quote.wrapped"}), voiced=frozenset({"fix.quote.wrapped"}))
+    raw = f"We kept the fast [[{OTHER}]]. Augustine wrote of it [[{OTHER}]] [[quote:fix.quote.wrapped]].\n\nThat same year the fast moved."
+    text, _c, _n = apply_net(raw, repository_records=RECORDS, thin_topics=None, placement=context)
+    assert text.endswith("That same year the fast moved.")
+
+
+def test_sentences_cut_for_leaning_count_toward_a_hollowed_reply():
+    leaning = [{"sentence": "x", "why": REASON_FOLLOWS_REMOVAL, "draft": "That x."}] * 4
+    typed = [{"sentence": "y", "why": "quotation typed by the voice", "draft": "y [[fix.witness.other]]"}]
+    net_result = {"reply_shape": {"removed": typed + leaning}, "sentences": [{"tags": ["fix.witness.other"]}] * 3}
+    assert _hollowed(net_result)
+
+
+def test_failed_quote_markers_count_as_cited_losses():
+    raw = f"We kept the fast [[{OTHER}]]. Augustine wrote [[quote:fix.missing]]. He wrote more [[quote:fix.missing2]]."
+    settled = _fallback(raw, offered={"doctrinal_witness": [OTHER]})
+    assert settled["answer_record_fallback"] == OTHER
+
+
+def test_a_sentence_after_a_failed_quote_marker_that_leans_on_it_goes():
+    text, _c, net_result = _net(f"We kept the fast [[{OTHER}]]. Augustine wrote [[quote:fix.missing]]. That is what he meant.")
+    assert text == "We kept the fast."
+    assert REASON_FOLLOWS_REMOVAL in _whys(net_result)
+
+
+def test_one_removal_in_a_short_reply_does_not_replace_it():
+    raw = f"We kept the fast [[{OTHER}]]. {TYPED}"
+    settled = _fallback(raw, offered={"doctrinal_witness": [OTHER]})
+    assert settled["answer_record_fallback"] is None
+    assert settled["text"] == "We kept the fast."
+
+
+def test_two_removals_among_three_cited_sentences_replace_the_reply():
+    raw = f"We kept the fast [[{OTHER}]]. {TYPED} {TYPED}"
+    settled = _fallback(raw, offered={"doctrinal_witness": [OTHER]})
+    assert settled["answer_record_fallback"] == OTHER
+
+
+def test_the_answer_record_is_the_offered_witness_the_draft_cited_not_the_one_on_a_removed_sentence():
+    typed = TYPED.replace(OTHER, WITNESS)
+    raw = f"{typed} {typed} We kept the fast [[{OTHER}]]."
+    settled = _fallback(raw, offered={"doctrinal_witness": [OTHER]})
+    assert settled["answer_record_fallback"] == OTHER
+
+
+def test_with_no_offered_witness_the_answer_record_is_the_one_the_draft_cited_most():
+    typed = TYPED.replace(OTHER, WITNESS)
+    raw = f"{typed} We kept the fast [[{OTHER}]]. We kept it long [[{OTHER}]]. We kept it still [[{OTHER}]]."
+    from engine.m4.turn import _answer_record_fallback
+    assert _answer_record_fallback(raw, {}, RECORDS) == OTHER
+    assert _answer_record_fallback(f"{typed} {typed} We kept the fast [[{OTHER}]].", {}, RECORDS) == WITNESS

@@ -2260,3 +2260,25 @@ Logged 2026-10-27.
 - **F23 (a later event explained).** `engine/m4/output_check.py` reports and never edits, by Program-Spec M4; no "withhold" reason other than the quotation reasons removes text. Whether a horizon finding should block or redraft is the project lead's.
 - **Streaming.** A hollowed reply can replace a reply whose first sentences have streamed. The client replaces the streamed partial with the finished reply (`cic-poc/frontend/src/lib/streamedReply.ts`), so the change is visible only as a swap at the end of the turn.
 - **Owner.** The project lead, for the cap, F23 and the streaming exception.
+
+### OG-101. The answer record skips the net's claim checks (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Gap.** `grounding_net._placed_answer_verdict` returns ok before `_claim_verdict` runs, so a placed answer record is not checked for thin topics or unknown records, and the quotations inside a doctrinal witness's text are not checked against a quote record or the vendored source. "Every quote verified verbatim" now rests on the review of those records for the replies the answer record replaces. Found in the Opus review of PR #1217 (finding 6).
+- **Not changed.** The behavior stays as it is until the project lead rules.
+- **Owner.** The project lead.
+
+### OG-102. A replaced reply can follow streamed sentences (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Gap.** The stream's promise that no streamed sentence is taken back is broken when `settle_reply` replaces a reply after its first sentences streamed. The client swaps the partial for the finished reply. Whether the stream should hold sentences until a reply can no longer be replaced (at the cost of streaming) is open. Review finding 7.
+- **Owner.** The project lead.
+
+### OG-103. Admission never sees a replaced reply (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Gap.** `engine/m3/generation.py` calls `apply_net` but not `settle_reply`, so the M3 live path grades the reply as `apply_net` leaves it, never the answer record that production would show in its place. Review finding 8.
+- **Owner.** An engine thread.
