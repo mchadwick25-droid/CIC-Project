@@ -52,28 +52,28 @@
     Thaumaturgus, Dionysius the Great, Julius Africanus, Anatolius,
     and Minor Writers, Methodius, Arnobius</DC.Title>
 
+    <DC.Creator scheme="short-form" sub="Editor">Philip Schaff</DC.Creator>
+    <DC.Creator scheme="file-as" sub="Editor">Schaff, Philip (1819-1893)</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Editor">schaff</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Author">gregory_thau</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Author">dionysius_gr</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Author">juliusafricanus</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Author">anatolius</DC.Creator>
 
+    <DC.Creator scheme="ccel" sub="Minor Writer">alexander_capp</DC.Creator>    
+    <DC.Creator scheme="ccel" sub="Minor Writer">theognostus</DC.Creator>    
+    <DC.Creator scheme="ccel" sub="Minor Writer">pierus</DC.Creator>    
+    <DC.Creator scheme="ccel" sub="Minor Writer">theonas</DC.Creator>    
+    <DC.Creator scheme="ccel" sub="Minor Writer">phileas</DC.Creator>    
+    <DC.Creator scheme="ccel" sub="Minor Writer">pamphilus</DC.Creator>    
+    <DC.Creator scheme="ccel" sub="Minor Writer">malchion</DC.Creator>    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <DC.Creator scheme="ccel" sub="Author">archelaus</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Author">alexander_lyc</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Author">peter_alexandria</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Author">alexander_alexandria</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Author">methodius</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Author">arnobius</DC.Creator>
 
 
 

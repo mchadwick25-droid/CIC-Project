@@ -51,15 +51,15 @@
 
 
     <DC.Title>ANF03. Latin Christianity: Its Founder, Tertullian</DC.Title>
-
-
-
-
-
-
-
-
-
+    <DC.Creator scheme="short-form" sub="Editor">Philip Schaff</DC.Creator>
+    <DC.Creator scheme="file-as" sub="Editor">Schaff, Philip (1819-1893)</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Editor">schaff</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Editor">menzies</DC.Creator>
+    <DC.Creator scheme="short-form" sub="Editor">Allan Menzies</DC.Creator>
+    <DC.Creator scheme="file-as" sub="Editor">Menzies, Allan (1845-1916)</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Author">tertullian</DC.Creator>
+    <DC.Creator scheme="short-form" sub="Author">Tertullian</DC.Creator>
+    <DC.Creator scheme="file-as" sub="Author">Tertullian (c. 160-c.  230)</DC.Creator>
 
 
 

@@ -57,15 +57,15 @@
 
     <DC.Title>NPNF2-02. Socrates and Sozomenus Ecclesiastical Histories</DC.Title>
 
-
-
-
-
-
-
-
-
-
+    <DC.Creator sub="Editor" scheme="short-form">Philip Schaff</DC.Creator>
+    <DC.Creator sub="Editor" scheme="file-as">Schaff, Philip (1819-1893)</DC.Creator>
+    <DC.Creator sub="Editor" scheme="ccel">schaff</DC.Creator>
+    <DC.Creator sub="Author" scheme="ccel">socrates</DC.Creator>
+    <DC.Creator sub="Author" scheme="short-form">Socrates Scholasticus</DC.Creator>
+    <DC.Creator sub="Author" scheme="file-as">Socrates Scholasticus</DC.Creator>
+    <DC.Creator sub="Author" scheme="ccel">sozomen</DC.Creator>
+    <DC.Creator sub="Author" scheme="file-as">Sozomen</DC.Creator>
+    <DC.Creator sub="Author" scheme="short-form">Sozomen</DC.Creator>
 
 
 

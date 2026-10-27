@@ -55,10 +55,10 @@
 
 
     <DC.Title>NPNF2-10. Ambrose: Selected Works and Letters</DC.Title>
-
-
-
-
+    <DC.Creator sub="Editor" scheme="short-form">Philip Schaff</DC.Creator>
+    <DC.Creator sub="Editor" scheme="file-as">Schaff, Philip (1819-1893)</DC.Creator>
+    <DC.Creator sub="Editor" scheme="ccel">schaff</DC.Creator>
+    <DC.Creator sub="Author" scheme="ccel">ambrose</DC.Creator>
 
 
 

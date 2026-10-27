@@ -53,14 +53,14 @@
 
   <DC.Title>ANF07. Fathers of the Third and Fourth Centuries: Lactantius, Venantius, Asterius, Victorinus, Dionysius, Apostolic Teaching and Constitutions, Homily, and Liturgies</DC.Title>
 
-
-
-
-
-
-
-
-
+    <DC.Creator scheme="short-form" sub="Editor">Philip Schaff</DC.Creator>
+    <DC.Creator scheme="file-as" sub="Editor">Schaff, Philip (1819-1893)</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Editor">schaff</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Author">lactantius</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Author">venantius</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Author">asterius</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Author">victorinus</DC.Creator>
+    <DC.Creator scheme="ccel" sub="Author">dionysius_rome</DC.Creator>
 
 
 

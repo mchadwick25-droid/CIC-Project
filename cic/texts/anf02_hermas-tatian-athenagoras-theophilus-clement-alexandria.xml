@@ -51,13 +51,13 @@
 
  <DC.Title>ANF02. Fathers of the Second Century: Hermas, Tatian, Athenagoras, Theophilus, and Clement of Alexandria (Entire)</DC.Title>
 
-
-
-
-
-
-
-
+ <DC.Creator scheme="short-form" sub="Editor">Philip Schaff</DC.Creator>
+ <DC.Creator scheme="file-as" sub="Editor">Schaff, Philip (1819-1893)</DC.Creator>
+ <DC.Creator scheme="ccel" sub="Editor">schaff</DC.Creator>
+   <DC.Creator scheme="ccel" sub="Author">tatian</DC.Creator>
+   <DC.Creator scheme="ccel" sub="Author">theophilus</DC.Creator>
+   <DC.Creator scheme="ccel" sub="Author">athenagoras</DC.Creator>
+   <DC.Creator scheme="ccel" sub="Author">clement_alex</DC.Creator>
 
 
 

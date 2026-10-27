@@ -46,11 +46,11 @@
 
 
     <DC.Title>NPNF2-08. Basil: Letters and Select Works</DC.Title>
-
-
-
-
-
+    <DC.Creator sub="Editor" scheme="short-form">Philip Schaff</DC.Creator>
+    <DC.Creator sub="Editor" scheme="file-as">Schaff, Philip (1819-1893)</DC.Creator>
+    <DC.Creator sub="Editor" scheme="ccel">schaff</DC.Creator>
+    <DC.Creator sub="Author" scheme="ccel">basil</DC.Creator>
+<DC.Creator sub="editor" scheme="ccel">wace</DC.Creator>
 
 
 

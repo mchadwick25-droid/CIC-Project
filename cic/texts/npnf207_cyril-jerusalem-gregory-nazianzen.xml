@@ -49,12 +49,12 @@
 
     <DC.Title>NPNF2-07. Cyril of Jerusalem, Gregory Nazianzen</DC.Title>
 
+    <DC.Creator sub="Editor" scheme="short-form">Philip Schaff</DC.Creator>
+    <DC.Creator sub="Editor" scheme="file-as">Schaff, Philip (1819-1893)</DC.Creator>
+    <DC.Creator sub="Editor" scheme="ccel">schaff</DC.Creator>
 
-
-
-
-
-
+    <DC.Creator sub="Author" scheme="ccel">cyril_jer</DC.Creator>
+    <DC.Creator sub="Author" scheme="ccel">gregory_naz</DC.Creator>
 
 
 
