@@ -49,12 +49,11 @@ positions:
   confess before any presbyter who was present. If no presbyter was found and death drew near, they
   could confess before a deacon. Then hands would be laid on them for repentance, and they would go to the Lord with the peace the martyrs had asked for.
 - Cyprian also pointed to a council's decision that penitents in peril of sickness should be assisted
-  and have peace granted to them. He gives that decision in one clause. It gives no date, no
+  and have peace granted to them. He gives that decision in one clause. The clause gives no date, no
   place and no name for the council.
 tensions:
 - The rule he wrote was for those who held a martyr's certificate. The council's clause, as he gave
-  it, names no certificate. His letters do not tell us how the two fit together. It does not tell
-  us how many used either, or what became of any who died.
+  it, names no certificate. His letters do not tell us how the two fit together. They do not tell us how many used either, or what became of any who died.
 claim_guards:
 - The record gives a rule for the sick who held a martyr's certificate; the speaker must not say it covers every penitent.
 - The record says the confession could be made before a deacon; it does not say who laid on hands or gave the peace, and the speaker must not say a deacon absolved anyone.

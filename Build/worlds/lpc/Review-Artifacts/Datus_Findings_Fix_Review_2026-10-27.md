@@ -53,3 +53,24 @@ The routing ruling removes the record guards that F1 showed the engine never enf
 ## Verdict
 
 **Revise.** The routing removal is clean and complete, every source guard survives, and both new quotes are verbatim, tight and correctly anchored in the Latin. Two P1s are in the new witness. Its `text` states as an event a provision the source gives only as a rule (P1-1), and its `means` widens the deacon provision to every sick penitent (P1-2). Both are one-line replacements. Apply them with P2-1 to P2-6, regenerate through s21, s24 and s2u, then re-run `records`, `regate` and `claims`. Round 2 should be a targeted recheck of these eight items only.
+
+## Round 2 recheck
+
+- Scope: targeted recheck of commit `4569c5bd` ("lpc: Datus findings fix, review round-1 changes") against its parent, `records/lpc` and `Build/worlds/lpc/scripts`, for the eight round-1 findings only. Reviewer model: Opus 5.5 (`claude-opus-5-5`). No model call was run; no file other than this one was modified.
+- Gates: `records lpc` PASS; `regate lpc` PASS (only base failures this change did not touch); `claims lpc` PASS, 107 derived, 107 registered, none unverified. The claims register re-keys the caution 16 row (`1d40d4e9` to `87b56c41`), which matches the new text.
+- **P1-1: resolved.** `text` and `positions[0]` both carry the proposed sentence word for word. `text` FK 6.1 / FRE 76.6; `positions[0]` 6.5/76.9; longest sentence 24 words.
+- **P1-2: resolved.** Proposed `means` is in the generator WITNESSES and the record. FK 9.8 / FRE 65.8, 23 words.
+- **P2-1: resolved.** Caution 13 matches the proposed text in `wb_lpc_s21.py` and world_core. FK 7.4 / FRE 69.0, longest sentence 22 words.
+- **P2-2: resolved.** Caution 15 closing sentence replaced as proposed (14 words). Item grades 5.0/86.4.
+- **P2-3: resolved.** `modern_rendering` opens "I think we must come to the help of our brothers in this way." in generator and record; the rest is unchanged. FK 5.8 / FRE 82.7, longest 22 words. The remaining "dealt with" hits are the verbatim ANF `text` and the locus, which are correct.
+- **P2-4: resolved.** Proposed `means` in generator QUOTES and the record. FK 9.8 / FRE 65.8, 23 words.
+- **P2-5: resolved as proposed, but the proposal left two dangling pronouns (new finding P2-7).** All three "The record ..." sentences are replaced word for word. `positions[1]` 6.7/71.2, `tensions` 5.3/78.7.
+- **P2-6: resolved.** Caution 16 matches the proposed text. FK 5.2 / FRE 80.8, longest 15 words.
+- **New P2-7 (witness `positions[1]` and `tensions`, record file `records/lpc/doctrinal_witness/lpc.witness.peace-for-the-dying-penitent.md`).** Round 1's own P2-5 wording changed the subject of the sentence before each "It", and the pronoun now has no right antecedent. In `positions[1]`, "He gives that decision in one clause. It gives no date, no place and no name for the council." reads "It" as the decision. In `tensions`, "His letters do not tell us how the two fit together. It does not tell us ..." has a singular pronoun for a plural subject. Replace `It gives no date, no` + `place and no name for the council.` with `The clause gives no date, no place and no name for the council.` (field 6.7/71.8). Replace `It does not tell` + `us how many used either, or what became of any who died.` with `They do not tell us how many used either, or what became of any who died.` (field 5.3/78.7). No other change.
+- Nothing else in the diff is new or wrong. Source guards, relations and the verbatim quote `text` fields are untouched.
+
+**Verdict: Revise.** Every round-1 finding is resolved with its proposed text, and every changed participant-facing field passes FK ≤ 10, FRE ≥ 60 and 25 words. The one remaining item, P2-7, is a two-sentence pronoun fix in the witness record file. A round-3 check need confirm only those two sentences and re-run `records`, `regate` and `claims`.
+
+## Round 3 (build thread, applying P2-7 as proposed)
+
+P2-7 applied word for word. In `positions[1]`: "The clause gives no date, no place and no name for the council." In `tensions`: "They do not tell us how many used either, or what became of any who died." Scores: `positions[1]` FK 6.7 / FRE 71.8; `tensions` FK 5.3 / FRE 78.7. `records`, `regate` and `claims lpc` all PASS. No P1 was open at round 2; round 2 found every round-1 finding resolved. Verdict: Approved to proceed.
