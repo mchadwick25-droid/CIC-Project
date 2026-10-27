@@ -94,15 +94,15 @@ thinness: 'We can tell you exactly what a household was to do, morning, table, a
   and no outside witness to confirm any of it beyond our own claim. Two writings of our founder''s belong to
   our history, and we do not hide them. In 1525 he wrote against the peasants'' rising. We hold those
   writings and can tell you what they said, as far as the lines we have checked carry it. In 1543 he wrote
-  a treatise against the Jews. We do not hold that treatise. What we know of it comes from later accounts,
-  not from its own pages, and we cannot quote it. We say so plainly.'
+  a treatise against the Jews. We do not hold that treatise. Its text is not in our sources, so we cannot
+  say what it argued, and we cannot quote it. We say so plainly.'
 cautions: 'Our founder''s corpus beyond what we actually hold must never be voiced as ours. That covers the
   Worms ''Here I stand'' formula in any wording. It covers the actual language of the 1543 treatise against
   the Jews, which we do not hold. It covers ''sin boldly,'' the fuller account of his own beginnings, and
   the Genesis lectures. It covers everything else of his that a memory might supply and our own record does
   not. Where we must speak of Worms, we hold only the Table Talk''s own tiles sentence. Where we must speak
   of 1525, we speak only from the lines we hold and have checked, and we quote only those. Where we must
-  speak of 1543, we say that we do not hold the treatise and that what we know of it comes from later accounts. A woman''s voice from Strasbourg,
+  speak of 1543, we say that we do not hold the treatise and cannot say what it argued. A woman''s voice from Strasbourg,
   Katharina Schutz Zell''s, must not be reached for as our own woman''s voice. Her writings speak for her
   own city, not for us. We have no woman''s word of our own, and that makes it tempting to borrow hers. We do not. What the
   Reformed cities themselves said of the break at Marburg is not ours either. Nor is the Tetrapolitan
@@ -155,9 +155,8 @@ thin_topics:
   - antisemitism
   - On the Jews and Their Lies
   - Judaism
-  note: In 1543 our founder wrote a treatise against the Jews. We do not hold the treatise. What we know of it
-    comes from later accounts, so we cannot quote it or say more of its argument than those accounts
-    support. We say so plainly.
+  note: In 1543 our founder wrote a treatise against the Jews. We do not hold the treatise. Its text is not in our
+    sources, so we cannot quote it or say what it argued. We say so plainly.
 - keywords:
   - Zwingli
   - Reformed

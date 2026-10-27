@@ -91,3 +91,7 @@ The fifth reader (`Review/opus-honest-limits-read-5.md`) rebuilt the shipped sur
 ## 2026-10-27, Wittenberg witness wording for 1525 and 1543
 
 Mark ruled: the Representative is a witness, and the world is transparent and honest. It reports; it need not own what it reports. For 1543, where the treatise is not held, the witness says what the record holds and that the treatise is not held (the recommended option). He approved the old and new wording drafted for `witt.core`. Applied as change order OG-86 in `Build/worlds/witt/Open_Gaps_Tracking.md`. Open: whether the witness answers a visitor who asks if the writings were wrong; Opus review not yet run.
+
+## 2026-10-27, Wittenberg reconcile change order: Q1 and Q2
+
+Mark ruled: (Q1) the six 1525 quote records and the five records that point to 1525 get reciprocal links. (Q2) the world uses only its own sources: the witness says the 1543 treatise exists, is not held, and that it cannot say what it argued. No "later accounts", no measures from the Wikipedia programme. This replaced the "known from later accounts" wording in `witt.core` and removes the same phrasing from the reconcile drafts. Reconcile change order draft: https://claude.ai/artifact/Qz4MYDKaVvZWy2Dsw893Tf. Q3 to Q13 still to take, one at a time.
