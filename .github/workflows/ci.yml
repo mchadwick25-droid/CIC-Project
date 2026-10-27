@@ -149,6 +149,8 @@ jobs:
       docker: ${{ steps.filter.outputs.docker }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github
       - uses: dorny/paths-filter@v3
         id: filter
         with:
@@ -441,7 +443,7 @@ jobs:
       # fixtures/seeded_defects.yaml, with an inertness check that a gate
       # which never fires anywhere is itself a reported failure. Hermetic
       # on purpose (no textstat/nltk network fetch - see engine/m1/fk.py).
-      - run: python -m pytest engine/m1/tests -q
+      - run: python -m pytest engine/m1/tests -q -n auto
 
       # Prose primitives (shared measurement). engine/prose.py sits under
       # five production modules - the cell keyword corpus, compile-time
