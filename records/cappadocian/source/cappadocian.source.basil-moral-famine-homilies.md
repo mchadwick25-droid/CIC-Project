@@ -24,16 +24,25 @@ relations: []
 author: Basil of Caesarea
 work: Basil, the moral/famine homilies (on famine and drought; the rich fool's barns; against usury, envy,
   anger, drunkenness; on the Forty Martyrs and local martyrs)
-edition: No open edition of the whole homilies acquired -- no open-license English translation of them is held
-  in this project's manifest (G1 manifest's own "Honest gaps" section, line 85). Long extracts from Homilies
-  VI and VII are quoted in English in the Prolegomena of the Nicene and Post-Nicene Fathers volume on Basil,
-  cited through cappadocian.source.basil-letters-general-corpus. Not to be
-  confused with the Hexaemeron homilies (a separate, correctly-vendored work) or On the Holy Spirit, both
-  genuinely present in npnf208.
+edition: >-
+  Held in Greek, not in English. cic/texts/basil_opera-omnia-pg31-grc-lat_migne1857.txt carries
+  the homilies on Julitta (file line 17124), on Luke 12:18 (19009), to the rich (20355), in time
+  of famine and drought (22450), against the angry (26328), on envy (27839), against drunkards
+  (33475), on the Forty Martyrs (38427) and on the martyr Mamas (44695).
+  cic/texts/basil_opera-omnia-pg29-grc-lat_migne1857.txt carries the Psalm 14 homily against
+  lending at interest (78686). Migne's Latin column is garbled into Greek-looking glyphs, so the
+  Greek is the only legible witness. It is a second witness: nothing in it is quotable until the
+  passage is checked against the page image. No English translation of the whole homilies is held.
+  Long English extracts from Homilies VI and VII are quoted in the Prolegomena of the Nicene and
+  Post-Nicene Fathers volume on Basil, cited through
+  cappadocian.source.basil-letters-general-corpus. Not to be confused with the Hexaemeron homilies
+  (a separate, correctly vendored work) or On the Holy Spirit, both present in npnf208.
 citation: Basil of Caesarea, the moral and famine homilies
-kind: unvendored
-rights_status: not applicable -- no whole text is vendored or acquired to hold rights over; an eventual acquisition
-  would need its own independent rights assessment.
+kind: vendored
+rights_status: >-
+  public-domain by date (Migne, 1857); vendored in the shared library on 2026-10-27, in Greek with
+  a garbled Latin column. No English rendering of the whole is held; an English edition would need
+  its own rights assessment.
 attribution_status: attributed
 discovery_channel: 'Direct inspection of npnf208''s own div1 structure (Title Page, Preface,
   Genealogical/Chronological Tables, Prolegomena, De Spiritu Sancto, the Hexaemeron, the Letters, Indexes)

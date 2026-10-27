@@ -16,11 +16,19 @@ sources: []
 relations: []
 author: Epiphanius of Salamis
 work: Epiphanius on Eustathius and the Pneumatomachians
-edition: Not independently located as a vendored text this session; a named author, no specific work title
-  given
+edition: >-
+  Held in Greek, not in English.
+  cic/texts/epiphanius_panarion-haer-65-80-pg42-grc-lat_migne1863.txt carries the Panarion from
+  Against Paul of Samosata to Against the Massalians, including Against the Semiarians (file line
+  30006), Against the Pneumatomachi (35672) and Against Aerius (38000), where Eustathius is named
+  at 38035. Migne's Latin column is garbled into Greek-looking glyphs, so the Greek is the only
+  legible witness. It is a second witness: nothing in it is quotable until the passage is checked
+  against the page image. The record gives no work title and no passage, so none is chosen here.
 citation: Epiphanius of Salamis, on Eustathius and the Pneumatomachians
-kind: unvendored
-rights_status: "not independently verified; not yet acquired as an open text - named for completeness (every source a claim rests on gets a row, acquired or not)"
+kind: vendored
+rights_status: >-
+  public-domain by date (Migne, 1863); vendored in the shared library on 2026-10-27, in Greek with
+  a garbled Latin column.
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 61; a specific named source (author, translator,
   edition, or witness) that this session did not independently check against primary content -- either

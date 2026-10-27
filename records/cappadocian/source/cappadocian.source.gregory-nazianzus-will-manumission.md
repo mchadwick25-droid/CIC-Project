@@ -18,11 +18,19 @@ sources: []
 relations: []
 author: Gregory of Nazianzus
 work: Gregory of Nazianzus' will (manumits slaves he owned)
-edition: Cited at work level per Doc_02 SS1.2/SS6.3; no specific vendored edition independently matched
-  this session
+edition: >-
+  Held in Greek, not in English.
+  cic/texts/gregory-nazianzen_epistulae-carmina-pg37-grc-lat_migne1857.txt carries a copy of the
+  will under the heading 'Ἴσον τῆς διαθήκης' (file line 30842), transcribed from the original
+  document in Gregory's own hand and signed by witnesses. Migne's Latin column is garbled into
+  Greek-looking glyphs, so the Greek is the only legible witness. It is a second witness: nothing
+  in it is quotable until the passage is checked against the page image. Whether it manumits
+  slaves has not been checked against that text. Cited at work level per Doc_02 SS1.2/SS6.3.
 citation: Gregory of Nazianzus, his will, which manumits slaves he owned
-kind: unvendored
-rights_status: "not independently verified; not yet acquired as an open text - named for completeness (every source a claim rests on gets a row, acquired or not)"
+kind: vendored
+rights_status: >-
+  public-domain by date (Migne, 1857); vendored in the shared library on 2026-10-27, in Greek with
+  a garbled Latin column.
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 37; a specific named source (author, translator,
   edition, or witness) that this session did not independently check against primary content -- either

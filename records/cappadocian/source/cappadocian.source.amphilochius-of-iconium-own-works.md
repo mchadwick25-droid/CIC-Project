@@ -16,14 +16,21 @@ sources: []
 relations: []
 author: Amphilochius of Iconium
 work: Amphilochius of Iconium's own works (canonical letters, etc.)
-edition: No open English edition of his works as a corpus has been located. One short extract of
-  his own argument -- the canon-list passage from the Iambics to Seleucus, about 90 rendered words in
-  the editor's prose epitome, not verse -- is vendored and is recorded
-  separately at cappadocian.source.amphilochius-iambics-to-seleucus; this row covers the rest, which
-  remains unlocated
+edition: >-
+  Held in Greek, not in English. cic/texts/amphilochius-iconium_opera-pg39-grc-lat_migne1858.txt
+  opens with Amphilochius's orations and homilies (file line 2242), the Synodical Epistle (6627),
+  the responses and extracts (6967) and the Mid-Pentecost homily (8671). Migne's Latin column is
+  garbled into Greek-looking glyphs, so the Greek is the only legible witness. It is a second
+  witness: nothing in it is quotable until the passage is checked against the page image. No open
+  English edition of his works as a corpus has been located. One short extract of his own argument
+  -- the canon-list passage from the Iambics to Seleucus, about 90 rendered words in the editor's
+  prose epitome, not verse -- is vendored and is recorded separately at
+  cappadocian.source.amphilochius-iambics-to-seleucus.
 citation: Amphilochius of Iconium, his own works (canonical letters, etc.)
-kind: unvendored
-rights_status: "not applicable - no single specific text has been identified for this row; it names a person, general pattern, or unlocated corpus rather than a held text"
+kind: vendored
+rights_status: >-
+  public-domain by date (Migne, 1858); vendored in the shared library on 2026-10-27, in Greek with
+  a garbled Latin column.
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 65; a specific named source (author, translator,
   edition, or witness) that this session did not independently check against primary content -- either
@@ -33,8 +40,8 @@ external_ids:
   cappadocian_source_registry_row: 65
 ---
 Records a real, named person and role (Nazianzen's cousin, addressee of On the Holy Spirit and the
-canonical letters, junior circle member) whose own works remain, as a corpus, without an accessible
-edition to verify against (row 65).
+canonical letters, junior circle member) whose own works are held, as a corpus, only as unchecked Greek OCR
+and have no open English edition (row 65).
 
 An extract of his own argument to Seleucus on the canon of Scripture --
 about 90 rendered words, in the NPNF editor's prose epitome rather than

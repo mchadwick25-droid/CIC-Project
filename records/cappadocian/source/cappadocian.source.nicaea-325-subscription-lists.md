@@ -16,11 +16,16 @@ sources: []
 relations: []
 author: The Council of Nicaea (325, collective conciliar record)
 work: Nicaea (325), subscription lists
-edition: No open edition of the subscription lists themselves located; attested via secondary literature
-  rather than an acquired primary edition
+edition: >-
+  Held in Latin only.
+  cic/texts/patrum-nicaenorum-nomina_subscription-lists-lat_gelzer-hilgenfeld-cuntz1898.txt is the
+  Teubner critical edition of the Nicene subscription lists (Gelzer, Hilgenfeld and Cuntz, 1898).
+  Only the Latin text is recovered in the OCR; the five non-Latin columns are not.
 citation: The Council of Nicaea (325), subscription lists
-kind: unvendored
-rights_status: "not independently verified; not yet acquired as an open text - named for completeness (every source a claim rests on gets a row, acquired or not)"
+kind: vendored
+rights_status: >-
+  public-domain by date (1898; the host tags it NOT_IN_COPYRIGHT); vendored in the shared library
+  on 2026-10-17.
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 77; a specific named source (author, translator,
   edition, or witness) that this session did not independently check against primary content -- either
