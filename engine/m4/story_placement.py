@@ -131,6 +131,7 @@ def place_stories(tagged_text: str, *, repository_records: dict[str, dict], cont
         return {"text": tagged_text or "", "placed": [], "placed_sentences": {}, "placed_drafts": {}, "removed": []}
 
     for paragraph in (p for p in _PARAGRAPH_BREAK.split(tagged_text or "") if p.strip()):
+        report.orphaned = False
         kept: list[str] = []
         sentences = quote_aware_sentences(paragraph)
         position = 0
@@ -280,8 +281,8 @@ def _without_paraphrase(
     if not stories:
         return paragraphs
     out = []
-    report.orphaned = False
     for paragraph in paragraphs:
+        report.orphaned = False
         kept = []
         for sentence in paragraph:
             if stories & set(_TAG.findall(sentence)):
