@@ -15,7 +15,7 @@ This file says what the next session does. `2026-10-27_lpc-next-session.md` is t
 | Seven story `telling` fields, Opus-authored | Opus review round 1 (one P1, two P2, applied) and round 2 Approved to proceed; claims gate pass after four single-witness claims were registered |
 | Seven figures' `dates.display` rewritten without record ids and build notes (the `ui-field-leak` finding that appeared once lpc was `built`) | `cross_world` 0 new defects; s24 run in a scratch worktree, only the `dates` blocks carried back |
 | lpc moved to `built` on the project lead's ruling, then returned to `building` the same day because the fleet library-access gate (`engine.m9.cli check`) failed on it (OG-97, Decision Log change order) | the gate's output reproduced locally; `engine.m9.cli check` re-run after the revert |
-| Rebuilt and re-pinned to `packages/lpc/2026-10-27T19-11-58Z` (hash `a2df2a13…`) | `determinism-check lpc` pass; see gate list below |
+| Rebuilt and re-pinned to `packages/lpc/2026-10-27T20-01-56Z` (hash `d6637a87…`; rebuilt after the return to `building`, because `validation/signoffs.json` follows the registry state) | `determinism-check lpc` pass; see gate list below |
 | One line added to `Source_Registry.md` for the Gregory of Nyssa Greek volume the Library thread vendored | `handoff lpc` step 2 finding cleared |
 
 Gates run on the final head: `records`, `regate`, `claims`, `deployed` and `handoff` for lpc; `tools/check_live_commentary.py --base origin/main --enforce`; `tools/check_paths.py --baseline tools/check_paths_baseline.txt`; `cic/engine/texts_registry.py --check-readme`; the m1, m2, m4, m10 and api suites after restoring every pinned package. Results are in the PR.
