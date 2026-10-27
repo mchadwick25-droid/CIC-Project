@@ -1201,3 +1201,16 @@ Library thread, 2026-10-26, from the question-coverage survey (`Build/Ministry/F
 `gallic.source.cassian-de-incarnatione` is marked `kind: unvendored` and carries a WANTS-REGISTER row. Cassian, *On the Incarnation of the Lord, Against Nestorius* is vendored in `cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml` (heading at line 48467, checked). The fix is to set the record's kind and file to the vendored edition. The WANTS-REGISTER row then drops out when `gen_wants_register.py` is next run.
 
 Status: OPEN, for this world's thread.
+
+### OG-49. Cassian, De incarnatione: source record resolved to the vendored editions, 2026-10-27.
+
+Follows the 2026-10-26 entry "Source record marked unvendored for a work the Library holds", and the wants-sort handoff of 2026-10-27 (the 1 gallic row it listed). Both vendored files were opened and the work located in each:
+
+- English: `cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml` (NPNF II.11, tr. Edgar C. S. Gibson) holds "The Seven Books of John Cassian on the Incarnation of the Lord, Against Nestorius" at its Cassian section, after the Conferences and before the Indexes (line 48459; the 2026-10-26 entry gave 48467).
+- Latin: `cic/texts/cassian_institutes-and-contra-nestorium_petschenig1888.txt` (CSEL 17, Petschenig, 1888) holds the Contra Nestorium libri VII. It is Latin only. The Library registry does not call it a translation, and no separate English edition other than the NPNF volume is vendored.
+
+Updated: `gallic.source.cassian-de-incarnatione` now has `kind: vendored`, an `edition` naming both files (the English one first), a `rights_status` limited to what the files support, and a body note. Package rebuilt and the pin in `records/worlds/gallic.yaml` moved to `packages/gallic/2026-10-27T21-09-24Z`. No quotation was added or changed. M9 waivers in `engine/m9/enforce.py` follow: `m9:emic-vendored-only/gallic` tightened from 10 to 8 (two emic records now resolve to a vendored source), and `m9:shelf-row/gallic` raised from 21 to 22 (the record is now `vendored` and, like the other 21, has no `shelf_row` until the corpus-map's CM-1 row ids exist; none was invented).
+
+Stays open: the text is still unread at any locus in this build, so `verification_state` stays `named-not-rechecked` and no record may quote it until a passage is read and verified. The records that say the books are unread (`gallic.dw.the-christ-who-bears-the-wounds`, `gallic.dw.one-person-two-substances`, `gallic.limit.no-one-who-saw-him`, `gallic.term.theotocos`, the quote note) stay true and are not edited here. The 137 findings of `integrity open items` are the same before and after this change.
+
+Status: CLOSED for OG-48 (the source record). OPEN: reading the work, which would let those records say more.
