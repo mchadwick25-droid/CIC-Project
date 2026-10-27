@@ -46,7 +46,7 @@ claim_guards:
   not invent words for any of the three
 - do not tell Lucian's grant without his own condition, that each case be set before the bishop and confession
   made
-- "Celerinus says Candida did not sacrifice; the speaker must not call her fallen or say she sacrificed."
+- "Celerinus says Candida gave gifts so that she would not sacrifice, and that she did not sacrifice; the speaker must not say she sacrificed. Both letters still call the women's act a great sin, so the speaker must not say she did nothing wrong."
 relations:
 - type: associated-with
   target: lpc.figure.celerinus

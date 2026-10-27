@@ -78,3 +78,40 @@ P1 means wrong, unsupported, misleading, softened or hardened, or a safety gap. 
 ## Verdict
 
 **Revise.** The F14 names and condition are right, the quote `means` is right, every edit is mirrored, the records parse, and `records` and `claims` pass. Four P1s remain. The story's voiced fields drop Celerinus's sister and still carry no guard on Candida (P1-1). The Cyprian and Augustine replacements cut half of each formula (P1-2). The voiced gravity `name` keeps "Egalitarian vs. Hierarchical" (P1-3). The new thinness sentence denies sources the world holds (P1-4). Apply P1-1 to P1-4 and P2-1 to P2-3 with the text above. Regenerate through s21, s22, s24, s25 and s2u, then re-run `records`, `regate` and `claims`. Round 2 should be a targeted recheck of these seven items only.
+
+## Round 2
+
+- Targeted recheck of the round-1 items only, against `git diff origin/main -- records/lpc Build/worlds/lpc/scripts` (commits b828d821a, 0c0e444ee). Reviewer model: Opus 5.5 (`claude-opus-5-5`), lower effort.
+- No repo file was modified other than this one. No model call, engine build, branch switch, commit or push.
+- P2-3 was held for the project lead as a methodology question and is not counted here.
+
+### Per item
+
+- **P1-1: PASS for `means` and `tellable_as`; CONCERN for the new guard.** `means` and `tellable_as` match the round-1 text in the record and in s2u / s24. The guard was applied exactly as round 1 wrote it, in the record and in s24. But its second half, "must not call her fallen", goes further than the letters. Ep. XX §3 asks that the martyrs remit *tale peccatum* ("such a great sin") to Numeria and Candida both (Hartel 3166-3167; ANF 30616-30618), and §2 speaks of "their sin" (ANF 30590). Ep. XXI §1 calls it "so great a crime committed" (ANF 30693-30694). Giving gifts so as not to sacrifice is still a fault in both letters. The guard as written could lead the voice to say Candida did nothing wrong, which neither letter says. The round-1 text was too strong; this is a correction of the reviewer's own wording, not of the build thread's application. Fix below.
+- **P1-2: PASS.** Caution 6, gravity `description`, gravity `manifestations[1]`, term `senses.informational` and the `thin_topics` note match the round-1 text, each with its generator mirror (s21, s25, s22, s21). `manifestations[0]` keeps "no bishop sets himself over the rest", which round 1 did not ask to change and which is faithful to the quoted words beside it.
+- **P1-3: PASS.** The record and s25 carry `What Councils Can Decide: Cyprian and Augustine`. The old name is gone from `records/`. It survives only in the dated build output `packages/lpc/2026-10-27T04-46-29Z/` (`compiled/prompt.txt`, `compiled/repository.json`, the copied gravity record), which is the earlier build and changes only on rebuild. The rebuild is still required before the fix reaches the voice. The construction documents' old title is accepted, to be logged.
+- **P1-4: PASS.** The `thinness` sentence matches round 1 in the record and s21. It is true: the region's site and inscription sources are named in the world's records (Laporte, Marec, Stevens et al., Ennabli, CIL VIII, L'Année épigraphique, Duval), each `named-not-rechecked`, and the basilica-archaeology row is `unverified`. None is recorded as read. So "exist, but none has yet been read" is accurate.
+- **P2-1: PASS.** Story `text` matches round 1 in the record and s24, and agrees with Ep. XX §3 (*pro se dona numerauit ne sacrificaret ... usque ad Tria fata et inde descendisse ... non sacrificasse ego scio*).
+- **P2-2: PASS.** The three `horizon` / `thinness` / caution 2 phrases match round 1 in the record and s21. No "this build" remains in those voiced sentences. Caution 2 keeps "are not yet assessed" for the Morin sermons; that is not build wording.
+
+### Nothing new broken
+
+- All five records' front matter parses (`yaml.safe_load`). The five generators compile.
+- `lpc.quote.the-case-set-before-the-bishop` agrees with the story. Its `means` names Numeria and Candida and keeps the condition and the confession; its `text` and `modern_rendering` are unchanged; the story `means` and the condition guard say the same.
+- The story `means` "Lucian gave it" holds: Ep. XXI §2 says the martyrs "have given peace to all", and the quote's "not only these" extends it beyond the two women.
+- The trailer note now says "Two of the claim_guards entries", which matches the four guards.
+- The new guard sits beside the "do not invent words" and "condition" guards with no conflict, apart from the point under P1-1.
+
+### Fix
+
+In `records/lpc/story/lpc.story.celerinus-writes-to-lucian.md` `claim_guards`, and its mirror in `Build/worlds/lpc/scripts/wb_lpc_s24.py`, replace
+
+`Celerinus says Candida did not sacrifice; the speaker must not call her fallen or say she sacrificed.`
+
+with
+
+`Celerinus says Candida gave gifts so that she would not sacrifice, and that she did not sacrifice; the speaker must not say she sacrificed. Both letters still call the women's act a great sin, so the speaker must not say she did nothing wrong.`
+
+### Verdict
+
+**Revise (one item).** P1-2, P1-3, P1-4, P2-1 and P2-2 pass, and nothing else broke. P1-1 needs the one guard fix above, which corrects round 1's own over-strong wording. Round 3, if it is needed, checks only that line and its s24 mirror. After that, rebuild so the dated package stops carrying the old gravity name.
