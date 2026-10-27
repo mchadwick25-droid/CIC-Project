@@ -321,6 +321,22 @@ def test_a_person_with_no_code_is_still_refused_past_the_free_rounds_while_free_
     assert runtime.free.remaining("someone-new") == runtime.free.window_amount
 
 
+def test_the_free_part_of_a_split_turn_is_given_back_at_the_decision_not_only_when_the_turn_ends(runtime):
+    from engine.api.deeper_admission import Admission
+
+    cost = solo_charge(runtime, FREE_CAP + 1)
+    half = cost // 2
+    runtime.free = FreeAllowance(runtime.meter, half)
+    code = code_with(runtime, 1)
+    admission = Admission(runtime, code, free_cap=FREE_CAP, seats=1, visitor="split-visitor")
+    grant = admission.provider(FREE_CAP)
+    assert grant.cap == FREE_CAP
+    assert runtime.free.remaining("split-visitor") == half
+    assert runtime.meter.status(code).remaining == 1
+    admission.finish(False)
+    assert runtime.free.remaining("split-visitor") == half
+
+
 def test_no_code_means_no_header_and_the_free_cap_holds(store, usage_store, world_loader, registry, runtime):
     http = build(store, usage_store, world_loader, registry, RecordingClient(), deeper=runtime)
     session_id, auth = open_session(http)
