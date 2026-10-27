@@ -110,3 +110,4 @@ Sonnet for building, Opus for reviews (as the rules say). No metered model call,
 
 - Mark chose 'use up free tokens, then paid, in any round' (ruling 118). Built in engine/api/deeper_admission.py with the seam tests updated and six new tests; the explicit refund of the free part is proved by a test that fails when the refund is removed. Awaiting independent Opus review before the pull request.
 - Opus review of the free-first change found a blocking bug (any code header took a person past the free rounds for free) and a weakened-tests problem; both fixed on claude/free-first-split-2026-10-27 with the guarding tests restored and five more added. A targeted recheck is the next step before the pull request.
+- Mark ruled on the code gate for the free-first change: a live code with any tokens left opens the rounds past the free ones, free pays first (part of ruling 118). The second Opus recheck found no blocking issue; its one new finding was this rule.
