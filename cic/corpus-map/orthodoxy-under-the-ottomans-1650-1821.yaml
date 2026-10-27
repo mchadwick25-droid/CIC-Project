@@ -116,16 +116,16 @@ works:
     is the host catalogue's attribution, not the title page's.
   source_file: georgirenes_present-state-samos-nicaria-patmos-athos_denton1678.txt
 - row_id: sathas_mesaionike-bibliotheke-v3-grc_1872--gordios-prokopiou-tyrnavites-and-letter-catalogues
-  work: Anastasios Gordios, Demetrios Prokopiou, Alexandros Tyrnavites and the catalogues
-    of unpublished letters (Greek)
+  work: Anastasios Gordios, Alexandros Tyrnavites and the catalogues of unpublished letters
+    (Greek)
   author: gordios
-  locus: Gordios from file line 22595; Prokopiou from 25243; Tyrnavites and the letter catalogues
-    between Prokopiou and the patriarchal documents at 27987
+  locus: Gordios from file line 22595; Tyrnavites and the letter catalogues between Prokopiou
+    and the patriarchal documents at 27987
   role: tradition
   confidence: provisional
-  note: 'Shorter pieces by Gordios and Prokopiou, and the editor''s catalogues of letters,
+  note: 'Shorter pieces by Gordios and Tyrnavites, and the editor''s catalogues of letters,
     from the same volume; placed on window only, not read. The row''s author slug names the
-    first of them; Prokopiou has his own authors_ruled entry for a later split.
+    first of them; Tyrnavites has no author ruling yet.
 
     '
   source_file: sathas_mesaionike-bibliotheke-v3-grc_1872.txt
@@ -313,6 +313,16 @@ works:
   confidence: assigned
   note: The Orthodox principalities under Ottoman suzerainty seen by a Syrian Orthodox churchman.
   source_file: paul-of-aleppo_travels-of-macarius-v2_belfour1836.txt
+- row_id: sathas_mesaionike-bibliotheke-v3-grc_1872--prokopiou
+  work: Demetrios Prokopiou (Greek)
+  author: prokopiou
+  locus: from file line 25243, under the running head 'DEMETRIOU PROKOPIOU'
+  role: tradition
+  confidence: provisional
+  note: 'A shorter piece from the same volume; placed on window only, not read.
+
+    '
+  source_file: sathas_mesaionike-bibliotheke-v3-grc_1872.txt
 - row_id: rycaut_present-state-greek-armenian-churches_1679--the-present-state-of-the-greek-and-armenian-churches-anno-2
   work: The Present State of the Greek and Armenian Churches, Anno Christi 1678
   author: rycaut

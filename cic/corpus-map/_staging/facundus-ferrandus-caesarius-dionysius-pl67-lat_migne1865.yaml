@@ -48,3 +48,16 @@ assignments:
     note: >
       The monastic rules of the bishop of Arles; the rule for the convent of his sister
       Caesaria is the oldest Western rule for women. Latin only.
+
+  - row_id: facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865--dionysius-exiguus
+    work: "Dionysius Exiguus, translations from the Greek, canon collections and paschal writings, Latin"
+    author: dionysius-exiguus
+    locus: "from raw line ~317, before Facundus at ~41800"
+    atlas_ids:
+      - byzantine-imperial-church-justinianic
+    role: tradition
+    confidence: provisional
+    note: >
+      A Scythian monk working in Rome who carried Greek church texts into Latin; placed on
+      period and subject, not on a full reading. He wrote in Rome, not in the East.
+

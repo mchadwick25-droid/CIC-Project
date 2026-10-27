@@ -63,17 +63,6 @@ works:
 
     '
   source_file: carli_viaggio-nel-regno-del-congo-ita_guattini1671.txt
-- row_id: lopes_report-of-the-kingdom-of-congo_hutchinson1881--a-report-of-the-kingdom-of-congo-1591-english-of-1881
-  work: A Report of the Kingdom of Congo (1591), English of 1881
-  author: lopes
-  locus: Books one and two; the chapters on the kings and the coming of Christianity
-  role: antecedent
-  confidence: provisional
-  note: 'The founding narrative of Kongo Christianity as told in the 1580s; placed on the
-    movement''s lineage, not on a reading that the movement drew on it. Translator''s wording.
-
-    '
-  source_file: lopes_report-of-the-kingdom-of-congo_hutchinson1881.txt
 - row_id: pinkerton_general-collection-voyages-and-travels-v16_1814--a-voyage-to-congo-and-several-other-countries-chiefly-in
   work: A Voyage to Congo and several other countries chiefly in Southern Africk, by Merolla
     (English of 1704, in Pinkerton XVI)
@@ -98,6 +87,17 @@ works:
 
     '
   source_file: merolla_breve-e-succinta-relatione-viaggio-congo-ita_piccardo1692.txt
+- row_id: lopes_report-of-the-kingdom-of-congo_hutchinson1881--a-report-of-the-kingdom-of-congo-1591-english-of-1881
+  work: A Report of the Kingdom of Congo (1591), English of 1881
+  author: pigafetta
+  locus: Books one and two; the chapters on the kings and the coming of Christianity
+  role: antecedent
+  confidence: provisional
+  note: 'The founding narrative of Kongo Christianity as told in the 1580s; placed on the
+    movement''s lineage, not on a reading that the movement drew on it. Translator''s wording.
+
+    '
+  source_file: lopes_report-of-the-kingdom-of-congo_hutchinson1881.txt
 - row_id: pinkerton_general-collection-voyages-and-travels-v16_1814--history-of-loango-kakongo-and-other-kingdoms-in-africa-by
   work: History of Loango, Kakongo, and other Kingdoms in Africa, by Proyart (English, in
     Pinkerton XVI)
