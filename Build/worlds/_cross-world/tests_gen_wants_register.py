@@ -56,6 +56,6 @@ def test_known_only_via_a_quoted_clause_is_resolved():
                 "not applicable - no single specific text has been identified for this row") == RESOLVED
 
 
-def test_not_yet_acquired_stays_unclassified():
+def test_an_unverified_named_source_stays_unclassified():
     assert kind("Confirmed absent from the vendored npnf205",
-                "not independently verified; not yet acquired as an open text") == "unclassified"
+                "not independently verified; named for completeness") == "unclassified"
