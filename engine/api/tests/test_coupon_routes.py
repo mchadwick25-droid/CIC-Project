@@ -113,11 +113,17 @@ def test_the_list_carries_the_limits_from_the_operations_file(http, runtime):
 
 
 @pytest.mark.parametrize("payload", [
-    {"address": "not-an-address", "tokens": 100}, {"address": ADDR, "tokens": 0}, {"address": ADDR, "tokens": 20001},
+    {"address": "not-an-address", "tokens": 100}, {"address": ADDR, "tokens": 0},
     {"address": ADDR, "tokens": "100"}, {"address": ADDR, "tokens": True}, {"address": ADDR},
 ])
 def test_a_bad_request_keeps_nothing(http, payload):
     assert http.post("/api/admin/deeper/coupon", json=payload, headers=AUTH).status_code == 422
+    assert http.get("/api/admin/deeper/coupons", headers=AUTH).json()["coupons"] == []
+
+
+def test_a_coupon_over_the_per_coupon_limit_keeps_nothing(http, runtime):
+    over = runtime.ops.coupon_max_tokens + 1
+    assert http.post("/api/admin/deeper/coupon", json={"address": ADDR, "tokens": over}, headers=AUTH).status_code == 422
     assert http.get("/api/admin/deeper/coupons", headers=AUTH).json()["coupons"] == []
 
 
