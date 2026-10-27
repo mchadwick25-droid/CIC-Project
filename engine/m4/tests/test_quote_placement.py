@@ -5,7 +5,7 @@ a whole voice turn with a fake client on the fixture world."""
 import pytest
 
 from engine.m4 import turn_prep
-from engine.m4.grounding_net import strip_markdown, strip_tags
+from engine.m4.grounding_net import quotable_rendering, strip_markdown, strip_tags
 from engine.m4.quote_placement import (
     REASON_ALREADY_VOICED,
     REASON_NOT_OFFERED,
@@ -496,7 +496,7 @@ def test_every_quote_record_in_the_fleet_places_word_for_word():
             text, _c, net_result = apply_net(
                 f"{speaker} wrote: [[quote:{record['id']}]]", repository_records=records, thin_topics=None, placement=context,
             )
-            rendering = " ".join(record["modern_rendering"].split())
+            rendering = " ".join(quotable_rendering(record).split())
             if net_result["reply_shape"]["placed"] != [record["id"]] or rendering not in " ".join(text.split()):
                 unplaced.add(record["id"])
     assert unplaced == set()

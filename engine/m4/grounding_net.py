@@ -694,6 +694,8 @@ REASON_SPEAKER_UNNAMED = "lead-in to a placed quote does not name its speaker"
 WHY_PLACED = "quote placed by code, verbatim to its record"
 REASON_STORY_MISMATCH = "placed story does not match its record"
 WHY_STORY_PLACED = "story placed by code, verbatim to its record"
+WHY_ANSWER_PLACED = "answer record placed by code, verbatim to its record"
+REASON_FOLLOWS_REMOVAL = "leans on a sentence that was removed"
 
 # A sentence withheld for one of these reasons carries a quote's words, or
 # words attributed to someone, that code did not place. It is dropped from
@@ -876,6 +878,38 @@ def reports_speech(sentence: str) -> bool:
     return False
 
 
+# A sentence that opens with one of these points back at the sentence before
+# it: "That is the mildest punishment", "Neither bishop tells us", "But he
+# wrote that down". Alone, with that sentence gone, it says nothing, unless it
+# names someone itself ("This is the same Moses we remember"), opens a
+# relative clause ("Those who repented"), or cites a record of its own.
+_LEANING_OPENERS = frozenset({
+    "that", "this", "these", "those", "such", "neither", "both", "another",
+    "but", "and", "so", "yet", "also", "still", "instead", "thus", "therefore", "hence", "nor", "or",
+    "moreover", "furthermore", "however", "because", "second", "third", "fourth", "finally", "next",
+})
+
+
+def cites_record(text: str) -> bool:
+    """The text carries a record tag or a quote or story marker: the voice
+    meant it to rest on a record."""
+    return bool(_TAG.search(text) or QUOTE_MARKER.search(text) or STORY_MARKER.search(text))
+
+
+def leans_on_previous(sentence: str) -> bool:
+    """A sentence that cannot stand once the sentence before it is gone: it
+    opens by pointing back at that sentence (_LEANING_OPENERS), cites no
+    record, names no one itself and does not open a relative clause."""
+    if cites_record(sentence):
+        return False
+    words = _WORD.findall(sentence)
+    if len(words) < 2 or words[0].lower() not in _LEANING_OPENERS:
+        return False
+    if words[0].lower() in {"those", "these"} and words[1].lower() == "who":
+        return False
+    return not any(w[0].isupper() and w != "I" for w in words[1:])
+
+
 def reads_as_lead(sentence: str) -> bool:
     """A sentence that reads as the introduction to words that follow: it
     ends in a colon, or a named person or source is the subject of a speech
@@ -939,6 +973,31 @@ def _outside_quotations(text: str, spans: list[tuple[int, int, str]]) -> str:
     return outside
 
 
+def quotable_rendering(record: dict) -> str:
+    """A quote record's `modern_rendering` as code sets it between quotation
+    marks. A rendering that is itself wrapped in one pair of quotation marks
+    (the opening mark's partner is the last character) is set without that
+    pair, so a placed quote carries each mark once. A quotation inside the
+    rendering takes single marks, so that it does not read as the end of the
+    quote."""
+    rendering = (record.get("modern_rendering") or "").strip()
+    if len(rendering) >= 2:
+        first, last = rendering[0], rendering[-1]
+        if first == "\u201c" and last == "\u201d":
+            depth = 0
+            wrapped = True
+            for position, char in enumerate(rendering):
+                depth += (char == "\u201c") - (char == "\u201d")
+                if depth == 0 and position < len(rendering) - 1:
+                    wrapped = False
+                    break
+            if wrapped:
+                rendering = rendering[1:-1].strip()
+        elif first == last == '"' and rendering.count('"') == 2:
+            rendering = rendering[1:-1].strip()
+    return rendering.replace("\u201c", "\u2018").replace("\u201d", "\u2019")
+
+
 def placed_key(text: str) -> str:
     """A placed sentence's text, or a rendering, with its whitespace
     collapsed: the sentence splitter rejoins a rendering's line breaks with
@@ -960,7 +1019,7 @@ def _placed_verdict(text: str, tags: list[str], records: dict[str, dict], index:
     speaker (the project lead's ruling of 14 October: code checks the name
     and adds no words)."""
     record = records.get(record_id) or {}
-    rendering = placed_key(record.get("modern_rendering") or "")
+    rendering = placed_key(quotable_rendering(record))
     spans = [span for span in _checked_pairs(text) if placed_key(span[2]) == rendering]
     why = None
     if not (rendering and record.get("record_type") == "quote" and record_id in tags and spans):
@@ -996,9 +1055,25 @@ def _placed_story_verdict(text: str, tags: list[str], records: dict[str, dict], 
     return {"sentence": text, "tags": tags, "verdict": "ok", "why": WHY_STORY_PLACED, "placed_story": record_id}
 
 
-def _placed(entry: dict) -> bool:
-    """The sentence is code's: a placed quote, or a sentence of a placed story."""
-    return bool(entry.get("placed_quote") or entry.get("placed_story"))
+def _placed_answer_verdict(text: str, tags: list[str], records: dict[str, dict], record_id: str) -> dict:
+    """A sentence of a doctrinal witness's own text that code placed as the
+    world's answer to the question: it stands in the record word for word,
+    tagged with that record. The record's own quotation marks are the
+    record's, not the voice's, so no quotation check applies."""
+    record = records.get(record_id) or {}
+    holds = (
+        record.get("record_type") == "doctrinal_witness" and record_id in tags and bool(text.strip())
+        and placed_key(text) in placed_key(record.get("text") or "")
+    )
+    if not holds:
+        return {"sentence": text, "tags": tags, "verdict": "withhold", "why": REASON_PLACED_MISMATCH}
+    return {"sentence": text, "tags": tags, "verdict": "ok", "why": WHY_ANSWER_PLACED, "placed_answer": record_id}
+
+
+def placed_by_code(entry: dict) -> bool:
+    """The sentence is code's: a placed quote, a sentence of a placed story,
+    or a sentence of the answer record placed in place of the voice's reply."""
+    return bool(entry.get("placed_quote") or entry.get("placed_story") or entry.get("placed_answer"))
 
 
 def placed_quote_refusal(composed: str, records: dict[str, dict], index: QuotationIndex, record_id: str) -> str | None:
@@ -1029,8 +1104,11 @@ def _quotation_verdict(
     or term (QuotationIndex.own_telling); and so is a sentence that gives a
     quote in other words (_unplaced_quote)."""
     if placed_id is not None:
-        if (records.get(placed_id) or {}).get("record_type") == "story":
+        record_type = (records.get(placed_id) or {}).get("record_type")
+        if record_type == "story":
             return _placed_story_verdict(text, tags, records, placed_id)
+        if record_type == "doctrinal_witness":
+            return _placed_answer_verdict(text, tags, records, placed_id)
         return _placed_verdict(text, tags, records, index, placed_id)
     checked = _checked_pairs(text)
     outside = _outside_quotations(text, checked)
@@ -1115,7 +1193,7 @@ def _apply_quotation_context(entries: list[dict], sizes: list[int]) -> None:
     starts = [sum(sizes[:p]) for p in range(len(sizes))]
 
     def withhold(i: int, why: str) -> None:
-        if not _placed(entries[i]):
+        if not placed_by_code(entries[i]):
             entries[i].update(verdict="withhold", why=why)
 
     for i, entry in enumerate(entries):
@@ -1138,13 +1216,13 @@ def _apply_quotation_context(entries: list[dict], sizes: list[int]) -> None:
         else:
             followers = range(0)
         if lead_only:
-            if followers and _placed(entries[followers[0]]):
+            if followers and placed_by_code(entries[followers[0]]):
                 continue
             withhold(i, REASON_ATTRIBUTION_LEAD)
         for k in followers:
             # the words end where a placed quote begins, or where the story
             # they were spoken in is narrated again (_narrates_story)
-            if _placed(entries[k]) or (not lead_only and entries[k].get("narrates_story")):
+            if placed_by_code(entries[k]) or (not lead_only and entries[k].get("narrates_story")):
                 break
             withhold(k, REASON_UNPLACED_WORDS)
 

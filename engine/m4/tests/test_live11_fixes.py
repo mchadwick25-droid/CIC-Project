@@ -206,8 +206,8 @@ FIX = {
 
 
 def _settle(raw, offered=None):
-    def net(text):
-        return apply_net(text, repository_records=FIX, thin_topics=None)
+    def net(text, **kwargs):
+        return apply_net(text, repository_records=FIX, thin_topics=None, **kwargs)
 
     text, _c, net_result = net(raw)
     return settle_reply(raw, text, net_result, offered or {}, FIX, net)
@@ -267,8 +267,9 @@ def test_the_replay_over_all_66_drafts():
     # lead-in names no speaker (9 lead-ins), and cuts desert Q4's direct
     # speech of the Antony formula as that quote's words (2 sentences that
     # had stood); hal Q4's lead-in, listed as an overcut, names Paula for
-    # Jerome's record and goes with its quote.
-    assert counts["cuts"] == 56
+    # Jerome's record and goes with its quote. 56 of the cuts are the net's;
+    # 1 more is a sentence that leaned on a cited sentence it removed.
+    assert counts["cuts"] == 57
     assert counts["overcuts_still_cut"] == 6
     assert counts["placed_quotes"] == 4 and counts["placed_without_speaker_named"] == 0
     assert counts["stray_punctuation_sentences"] == 1

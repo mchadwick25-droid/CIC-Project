@@ -948,7 +948,7 @@ These show the TREATS list is a floor, not the full set. Volumes mapped to a wor
 **Wants that needed no acquisition.**
 - Auxentius of Durostorum, Letter on Ulfila (3 records): already vendored as Kauffmann 1899. The register lists it because the records' edition field names no file. Re-pointing the records is the Ijc world's job.
 - Nicaea subscription lists (Gelzer-Hilgenfeld-Cuntz): already vendored; the second archive.org item (patrumnicaenoru01cuntgoog) is another scan of the same book.
-- Gregory of Nazianzus on the Mamas festival (2 records): the record names no specific work, so none was guessed. The vendored PG 36 mentions Mamas at file line 51134 (Oration 44) and PG 37 at 29255 (a different Mamas, a reader). Basil's own Mamas homily is now in PG 31 at 44695. Which work the record means is the Cappadocian world's call.
+- Gregory of Nazianzus on the Mamas festival (2 records): the record names no specific work, so none was guessed. The vendored PG 36 mentions Mamas at file line 51134 (Oration 44) and PG 37 at 29255 (a different Mamas, a reader). Basil's own Mamas homily is now in PG 31 (raw OCR line 44695). Which work the record means is the Cappadocian world's call.
 
 **Not vendored.** The Gregory the Great Register (Ewald-Hartmann, archive.org gregoriiipapaer00greggoog and gregoriiipapaer00churgoog) was host-checked but not taken: the OCR is readable Latin with systematic noise, and which books each scan holds is unconfirmed. PG 30 was not needed.
 
@@ -991,3 +991,13 @@ The census gains `armenian-christianity-before-the-bagratids` (II.19, c. 554-884
 **Volume V is not vendored.** Its renewal stands until 1 January 2027, when the 95-year rule clears it. Volume IV is also cleared by that rule from 1 January 2027; volume VI is not cleared by it until 1 January 2028.
 
 **Not staged.** The volume VI general introduction is P. Z. Strodach's, not Luther's voice, so it has no row. The Wittenberg world's records still carry their held-back rows and are not edited here.
+
+## 2026-10-27 — Gregory the Great Register, Books VIII-XIV (Ewald-Hartmann)
+
+**Ruling.** Mark, 2026-10-27, chose to vendor both archive.org scans after the coverage check.
+
+**Vendored.** Monumenta Germaniae Historica, Epistolae tomus II: part I (1893, Books VIII-IX, item gregoriiipapaer00churgoog) and part II (1895, Books X-XIV with appendices, item gregoriiipapaer00greggoog, bound with the title page, praefatio and indices of part III). Both are public domain by date and tagged NOT_IN_COPYRIGHT. Book XI carries the English-mission letters of 601.
+
+**Witness status.** Second witness: readable Latin with systematic OCR noise and the critical apparatus interleaved with the letters. Staged as role `tradition` in roman-church-gregorian, beside the English selections already vendored.
+
+**Not available.** Books I-VII (MGH Epistolae tomus I) are not on archive.org. dMGH (dmgh.de) lists them and is reachable from the sandbox, but it is a page-image viewer and no reuse statement or text download was found there, so nothing was taken. Writing to dmgh@mgh.de for reuse terms and a text export is Mark's call.

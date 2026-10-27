@@ -39,7 +39,7 @@ def test_every_quote_record_is_offered_with_a_speaker_name():
 @pytest.mark.parametrize("verb", ["wrote", "said", "put it this way", "answered"])
 def test_the_check_accepts_the_offered_name_in_the_markers_sentence(verb):
     for record, records, index, offered in _fleet_quotes():
-        composed = f"{offered} {verb}: “{record['modern_rendering']}” [[{record['id']}]]"
+        composed = f"{offered} {verb}: “{grounding_net.quotable_rendering(record)}” [[{record['id']}]]"
         assert grounding_net.placed_quote_refusal(composed, records, index, record["id"]) is None, (record["id"], offered)
 
 
