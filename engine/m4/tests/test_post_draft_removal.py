@@ -204,7 +204,7 @@ def test_quotable_rendering(rendering, expected):
     assert quotable_rendering({"modern_rendering": rendering}) == expected
 
 
-# ---- review round 1: the rule must not delete what the net verified -------
+# ---- the leaning rule leaves verified and independent sentences alone ----
 
 
 def test_a_sentence_with_its_own_citation_is_never_removed_for_leaning():
