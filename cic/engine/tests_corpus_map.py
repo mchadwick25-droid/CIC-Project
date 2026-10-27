@@ -113,8 +113,6 @@ homed = {x.get("work") for ws in buckets3.values() for x in ws
 # A work leaves this list when its voice is placed; the second check below
 # fails on any entry that is no longer an orphan.
 ACCEPTED_ORPHANS = {
-    "Chronique de Seert (Histoire nestorienne), II.2, with French":
-        "No East Syriac entry fits the date of this compilation.",
     "Rituale Armenorum and the Old Armenian Lectionary (Appendix II, English)":
         "The manuscripts are later than the window, and no Armenian entry fits their date.",
     "The other Sahidic texts of the volume (apocryphal discourses and legends)":

@@ -7,8 +7,8 @@
   ],
   "scope": "vendored coverage only - see this script's own docstring for why the acquirable/purchasable/no-edition-exists breakdown is not included here",
   "counts": {
-    "total_entries": 298,
-    "entries_with_coverage": 190,
+    "total_entries": 299,
+    "entries_with_coverage": 191,
     "entries_zero_coverage": 108
   },
   "entries": {
@@ -13526,6 +13526,20 @@
           "role": "tradition",
           "confidence": "provisional",
           "source_file": "thomas-of-marga_book-of-governors-v2-english_budge1893.txt",
+          "rights": "Public Domain"
+        }
+      ]
+    },
+    "church-of-the-east-under-the-abbasids": {
+      "name": "The Church of the East under the Abbasids",
+      "status": "Pre-Survey Candidate",
+      "works": [
+        {
+          "work": "Chronique de Seert (Histoire nestorienne), II.2, with French",
+          "author": "chronicle-of-seert-ii2",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt",
           "rights": "Public Domain"
         }
       ]

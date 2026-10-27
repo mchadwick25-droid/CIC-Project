@@ -1,7 +1,7 @@
 Title: Patrologia Orientalis, tomus XIII: Histoire nestorienne inedite (Chronique de Seert),
     seconde partie (II.2), with the volume's other fascicles
-Creator: The Chronicle of Seert (anonymous Arabic compilation, 11th c., from older East Syrian
-    sources) (ed. and tr. into French by Addai Scher; R. Graffin and F. Nau, series
+Creator: The Chronicle of Seert (anonymous Arabic compilation, dated by scholars between the 9th and
+    11th centuries, from older East Syrian sources) (ed. and tr. into French by Addai Scher; R. Graffin and F. Nau, series
     editors)
 Publisher: Paris, Firmin-Didot (Patrologia Orientalis XIII), 1919
 Rights: Public Domain

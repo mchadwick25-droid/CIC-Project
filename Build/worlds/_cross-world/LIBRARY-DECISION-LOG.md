@@ -969,3 +969,9 @@ The census (`cic-website/data/world-census.json`, version V0.20+era10-frozen) ga
 ## Georgian chronicles placed on the Georgian golden age (Mark, 2026-10-27)
 
 Brosset's French Georgian chronicles (Histoire de la Georgie, part 1) get a voice row, `tradition` and `provisional`, on `the-georgian-golden-age` (c. 1000-1245). The earlier finding that no Georgian entry covers the period after c. 1000 was wrong. The date of the chronicles' compilation is not checked, and the row's note says so. The work leaves the exception list in `tests_corpus_map.py`, which now holds four works.
+
+## Change order: an Atlas entry for the Church of the East under the Abbasids (Mark, 2026-10-27)
+
+The census gains `church-of-the-east-under-the-abbasids` (III.25, c. 845-1220), between the Silk Road entry (ends 845) and the Mongol entry (starts 1220), with the same "Added for the Library, not yet researched" status word and the same minimal fields as the Welsh and Irish entries. The census totals move to 299 entries and 218 Pre-Survey Candidates.
+
+**The date check that settled it.** The Chronicle of Seert's compilation date is not given in the vendored volumes. Scher's 1907 catalogue of the Mosul manuscripts (Cod. 113) calls the author unknown and later than the patriarch Iso'barnun (died 828), whom the text cites; F. Nau's Avertissement in PO 5 says the Chronicle seems to be a source for Bar Hebraeus. Outside the file, scholars date it between the 9th and 11th centuries, with 907-1020 and the tenth century proposed. Every one of those dates falls inside the new entry's window. The Chronique de Seert (PO 13, II.2) is placed there as `tradition`, `provisional`, and leaves the exception list in `tests_corpus_map.py`, which now holds three works. The PO 13 header's "11th c." is corrected to the disputed range.
