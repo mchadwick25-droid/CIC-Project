@@ -2201,3 +2201,13 @@ Logged 2026-10-27. None blocks a telling; all are in records that are `ready`.
 Logged 2026-10-27. As of `origin/main` 072f21bb, and again at c425f0af, no fix for the post-draft sentence removal is merged and no pull request for it is open; only the engine thread's brief (#1186) exists. It is a go-live blocker. This thread does not fix it. The evidence reruns wait on it (Decision Log, 2026-10-27).
 
 - **Addendum to OG-92, 2026-10-27.** `world_core.living_traditions` is now filled, with the adopted statement as a boundary text (no heir, speaks only to 430, judges no later dispute), on the build session's instruction to make the `deployed lpc` gate pass. The `horizon` paragraph "This tradition is still living ..." is unchanged, so the voice reads the statement twice. The project lead's ruling is needed on both: keep, move or remove the `horizon` paragraph.
+
+### OG-96. lpc moved to `built`; findings that moving it exposed (2026-10-27).
+
+Logged 2026-10-27.
+
+- **State.** The project lead moved lpc from `building` to `built` on 2026-10-27 (Decision Log). `admitted` waits for admission to pass on the new pin; the reruns wait for the F4/F5 fix (OG-95).
+- **Fixed, lpc's own.** Once lpc was `built`, `cross_world` read seven participant-facing figure `dates.display` fields that carried record ids and build notes (`ui-field-leak`). They are reworded in s24 and the seven figure records; facts unchanged, with "as his deacon Pontius tells it" added to the Cyprian line to match the single-witness claim already registered.
+- **Registered, fleet-level.** lpc is the only world with `safety_adjacent`, so the other eleven worlds now show `registry-key-set` findings. They are `ACCEPTED_OPEN` in `engine/m1/cross_world.py`, owned by the project lead, who sets the field. Removing the entries is what fixed means.
+- **Registry line.** `Source_Registry.md` gained an "Out of scope" line for the Gregory of Nyssa Greek volume (PG 46) that the Library thread vendored, so `handoff lpc` step 2 passes.
+- **Owner.** The `lpc` build thread; the project lead for `safety_adjacent` across the fleet.
