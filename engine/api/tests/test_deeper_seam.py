@@ -379,6 +379,15 @@ def test_a_live_code_past_the_free_rounds_is_carried_by_free_tokens_and_is_neith
     assert runtime.free.remaining("v-live") == runtime.free.window_amount - cost
 
 
+def test_a_live_code_with_a_few_tokens_left_opens_the_rounds_past_the_free_ones_and_free_pays_first(runtime):
+    nearly_empty = code_with(runtime, 3)
+    admitted, _ = _past_the_free_rounds(runtime, nearly_empty, "v-few")
+    assert admitted
+    assert runtime.meter.status(nearly_empty).remaining == 3
+    assert runtime.free.remaining("v-few") == runtime.free.window_amount - solo_charge(runtime, FREE_CAP + 6)
+    assert runtime.meter._reserved == {} and runtime.free._held == {}
+
+
 def test_a_fault_settling_the_free_part_still_settles_the_paid_part(runtime, monkeypatch):
     from engine.api.deeper_admission import Admission
 

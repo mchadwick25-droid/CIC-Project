@@ -268,8 +268,10 @@ class Admission:
     def _decide_paid(self, cost: int, completed: int, refusal_cap: int) -> TurnGrant:
         """Free tokens are spent before paid ones, in any round: whatever the free window can
         give goes first, and the code carries only the rest. A turn the codes cannot carry gives
-        the free part back, so a refusal spends nothing. Past the free rounds, a code that can
-        carry nothing is refused even when free tokens would cover the turn, as it always was."""
+        the free part back, so a refusal spends nothing. Past the free rounds a code must still be
+        live with something left, even when free tokens would cover the turn: a garbage, unknown,
+        paused, spent or void code is refused, and so is one held in full by another request or at
+        its daily ceiling. A live code with any tokens left opens those rounds, and free pays first."""
         part = self._hold_free_part(cost)
         rest = cost - part
         if rest > 0:
