@@ -2139,6 +2139,6 @@ Logged 2026-10-27.
 Logged 2026-10-27.
 
 - **What changed.** The canon-questions change (PR #1175) merged to `main` after this branch's last push. `main` was merged into this branch; the only conflict was the `lpc` pin.
-- **Package.** `python -m engine.m2.cli build lpc` wrote the lpc package 2026-10-27T04-39-49Z (manifest hash `sha256:b812a7d2…9b89`); `determinism-check lpc` passes. `records/worlds/lpc.yaml` is re-pinned to it. `lpc` stays `building`.
+- **Package.** `python -m engine.m2.cli build lpc` wrote the lpc package 2026-10-27T04-46-29Z (written by the parallel session that merged main first; my own rebuild, 04-39-49Z, was dropped); `determinism-check lpc` passes. `records/worlds/lpc.yaml` is pinned to it. `lpc` stays `building`.
 - **Gates.** `records`, `regate`, `claims` and `handoff` for lpc pass.
 - **Owner.** The `lpc` build thread.
