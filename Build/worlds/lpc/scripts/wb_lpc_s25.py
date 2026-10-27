@@ -748,9 +748,9 @@ def build_gravities() -> None:
         "and the evidence for that is far thinner. We treat this as a secondary concern, "
         "disclosed as genuinely uncertain rather than settled.\n"
         "\n"
-        "The concern names two competing theories of conciliar authority. Cyprian's is "
-        "egalitarian. In the preface to the Council of 256 he says no bishop sets himself up "
-        "as \"a bishop of bishops.\" Augustine's is hierarchical. In On Baptism he appeals to "
+        "The concern names two competing theories of conciliar authority. Cyprian held that each bishop "
+        "answers to God and none sets himself over the rest. In the preface to the Council of 256 he says no bishop sets himself up "
+        "as \"a bishop of bishops.\" Augustine held that a wider council can correct a narrower one. In On Baptism he appeals to "
         "the authority of plenary councils, and the word \"plenary\" occurs 31 times in that "
         "treatise.\n"
         "\n"
@@ -795,9 +795,9 @@ def build_gravities() -> None:
         "A concern this loosely connected to the pressures acting on the world leaves our own "
         "picture of that world incomplete here. That gap is carried, not resolved.",
         [
-            "Cyprian's egalitarian formula in the preface to the Council of 256: \"neither does any "
+            "Cyprian's formula, that no bishop sets himself over the rest, in the preface to the Council of 256: \"neither does any "
             "of us set himself up as a bishop of bishops\"",
-            "Augustine's hierarchical formula in On Baptism II.3, invoking \"the authority of "
+            "Augustine's formula, that a wider council can correct a narrower one, in On Baptism II.3, invoking \"the authority of "
             "plenary Councils\" (the word \"plenary\" occurs 31 times in the treatise)",
         ],
         conf("B", "verified-via-authority", "contested", "Inferential-Thin",

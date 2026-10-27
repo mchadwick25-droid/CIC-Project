@@ -113,8 +113,7 @@ horizon: 'The formation of ordinary Latin North African Christianity, c. 246-430
   This tradition is still living, but it has no single named heir. Its core is an ordinary bishop''s care
   of a local flock, in one place, through the sacraments and the gathered congregation. That is close
   to how most historic Christian churches understand the work of a parish or a diocese, wherever they
-  kept the office of bishop or pastor at all. It is ancestral to the Western church before that church
-  divided. It is not a claim that belongs to one see''s own line of succession.'
+  kept the office of bishop or pastor at all. It is not a claim that belongs to one see''s own line of succession.'
 formation_logic: 'What a person is actually formed into here is a member of a body that can hold them
   through their own failure.
 
@@ -219,7 +218,7 @@ thinness: 'This is not a hostile-source problem, the way it is for the neighbour
 
 
   Material evidence here is unexcavated, not empty. No site report, inscription catalogue, or excavation
-  record has been verified in this build for this world. It also has no distinctive inscription tied to
+  record appears in the sources for this world. It also has no distinctive inscription tied to
   its worship, of the kind the Donatist world can point to. But real material evidence does exist, carried
   in a text. A pastoral letter describes an apse, a raised seating area for clergy, steps, and a floor
   for the congregation. That evidence comes from a letter, not a trench.
@@ -290,9 +289,9 @@ cautions: '1) Resting on two bishops is a real limit, but it is not the Donatist
   in XVI.5.52, in gold by rank, belongs to the Donatist world, not this one.
 
 
-  6) What councils can decide is held open, not settled. Cyprian''s theory of authority among bishops
-  is equal and non-coercive. Augustine''s is hierarchical, and it holds that a council''s judgment can
-  be corrected. These are real, substantial differences, and they are not considered fully closed. The
+  6) What councils can decide is held open, not settled. Cyprian held that no bishop sets himself over
+  other bishops, and that each answers to God. Augustine held that a wider council can correct a narrower
+  one. These are real, substantial differences, and they are not considered fully closed. The
   finding that the two bishops form one strand also carries a stated caveat: it could be reopened on exactly
   this point.
 
@@ -430,8 +429,9 @@ thin_topics:
   - who could overrule a council
   - Cyprian versus Augustine on councils
   note: 'A real, substantial, and disclosed disagreement Doc_01 does not consider fully settled. Doc_04
-    classifies it Supporting by a decision made outside its six tests: Cyprian''s own egalitarian, non-coercive
-    theory against Augustine''s own hierarchical, correctable one.'
+    classifies it Supporting by a decision made outside its six tests: Cyprian''s own view, that no bishop sets himself
+    over other bishops and each answers to God, against Augustine''s own view, that a wider council can
+    correct a narrower one.'
 ---
 WORLD_ID: `latin-pastoral-congregational-christianity`. The slug matches cic/corpus-map/latin-pastoral-congregational-christianity.yaml's own `atlas_id`, which is the census movement id and the join key, so the record id prefix (`lpc`), the world_id, and the census join all read consistently. The world's registry entry is `records/worlds/lpc.yaml`.
 

@@ -4090,7 +4090,7 @@ HORIZON = (
     "bishop's care of a local flock, in one place, through the sacraments and the gathered "
     "congregation. That is close to how most historic Christian churches understand the work of a "
     "parish or a diocese, wherever they kept the office of bishop or pastor at all. It is "
-    "ancestral to the Western church before that church divided. It is not a claim that belongs to "
+    "not a claim that belongs to "
     "one see's own line of succession."
 )
 
@@ -4196,7 +4196,7 @@ THINNESS = (
     "itself as needing one.\n"
     "\n"
     "Material evidence here is unexcavated, not empty. No site report, inscription catalogue, or "
-    "excavation record has been verified in this build for this world. It also has no distinctive "
+    "excavation record appears in the sources for this world. It also has no distinctive "
     "inscription tied to its worship, of the kind the Donatist world can point to. But real "
     "material evidence does exist, carried in a text. A pastoral letter describes an apse, a "
     "raised seating area for clergy, steps, and a floor for the congregation. That evidence comes "
@@ -4268,9 +4268,9 @@ CAUTIONS = (
     "schedule of fines aimed at Donatists in XVI.5.52, in gold by rank, belongs to the Donatist "
     "world, not this one.\n"
     "\n"
-    "6) What councils can decide is held open, not settled. Cyprian's theory of authority among "
-    "bishops is equal and non-coercive. Augustine's is hierarchical, and it holds that a council's "
-    "judgment can be corrected. These are real, substantial differences, and they are not "
+    "6) What councils can decide is held open, not settled. Cyprian held that no bishop sets "
+    "himself over other bishops, and that each answers to God. Augustine held that a wider council "
+    "can correct a narrower one. These are real, substantial differences, and they are not "
     "considered fully closed. The finding that the two bishops form one strand also carries a "
     "stated caveat: it could be reopened on exactly this point.\n"
     "\n"
@@ -4394,8 +4394,9 @@ THIN_TOPICS = [
                      "Cyprian versus Augustine on councils"],
         "note": "A real, substantial, and disclosed disagreement Doc_01 does not consider fully "
                 "settled. Doc_04 classifies it Supporting by a decision made outside its six "
-                "tests: Cyprian's own egalitarian, non-coercive theory against Augustine's own "
-                "hierarchical, correctable one.",
+                "tests: Cyprian's own view, that no bishop sets himself over other bishops and each "
+                "answers to God, against Augustine's own view, that a wider council can correct a "
+                "narrower one.",
     },
 ]
 

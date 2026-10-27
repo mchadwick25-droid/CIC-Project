@@ -1697,8 +1697,9 @@ def build_tier2_terms() -> list[str]:
                     "because the part he holds, he holds for the whole; and separation is so "
                     "serious for exactly the same reason: to break from the body is not to leave "
                     "an organization but to step outside the thing itself. This is the doctrinal "
-                    "ground beneath both conciliar formulas -- the reason the egalitarian "
-                    "principle can be stated at all, and the thing the hierarchical one has to "
+                    "ground beneath both conciliar formulas -- the reason Cyprian's "
+                    "principle, that no bishop sets himself over the rest, can be stated at all, and the "
+                    "thing Augustine's, that a wider council can correct a narrower one, has to "
                     "work within. It also underwrites communion and gives schism its own real "
                     "gravity."
                 ),
