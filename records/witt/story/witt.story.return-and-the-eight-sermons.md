@@ -32,7 +32,8 @@ retrieval:
   prefer_instead:
   - extending Karlstadt's own portrait or trajectory beyond what this library's other sources state
   - a participant wants the Peasants' War (1525) - a different, later, and untellable episode from this
-    one
+    one; what Luther wrote then sits in the 1525 quote records, for example witt.quote.the-sword-is-at-your-throats
+    and witt.quote.as-when-one-must-kill-a-mad-dog
 relations:
 - type: associated-with
   target: witt.figure.luther
@@ -92,17 +93,9 @@ use_note:
   not_for:
     - "Karlstadt's own account or fuller trajectory, which the library holds only through an editor's characterization"
     - "the printed sermon text as complete, since it begins mid-address"
-    - "the Peasants' War of 1525, a later and different episode"
+    - "the Peasants' War of 1525, a later and different episode; Luther's 1525 writings sit in the 1525 quote records"
     - "the teaching on 'must' and 'free' in full, which sits in witt.term.must-and-free"
   years: {from: 1522, to: 1522}
   status: reviewed
 ---
-Converted at B-4 from Doc_09 witt-S05 (witt_Doc_09_Story_Inventory.md SS2). Quotations verified
-verbatim by this authoring pass directly against cic/texts/luther_works-v2-selected_jacobs-
-spaeth1916.txt, lines 14670-14690 (First Sermon). Source Registry R15 (Primary); R46 (Kessler,
-Secondary, as cited in the editor's own introduction).
-
-Register note: close-third-person throughout, quoted sermon material clearly attributed to Luther's own
-spoken voice within the narration.
-
-FEC / GRAVITY LINKAGE (closed at B-5): the connection this record's own Doc_09 entry named above is now a real relations[] entry in this file's frontmatter -- associated-with to G2 (The Word: Scripture's authority, and the agent that "must do it" [PRIMARY]), G3 (Promise and sign: the sacrament as God's promise joined to an element, received by faith [PRIMARY]), G7 (Estate, office, and calling: "we are all priests" [SUPPORTING]) -- with the reciprocal edge declared on each gravity record itself (witt.gravity.*), exactly as this note said it would when B-5 ran. No longer parked.
+Quotations are from cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt, lines 14670-14690 (First Sermon). Source Registry R15 (primary) and R46 (Kessler, secondary, as cited in the editor's introduction). Quoted sermon material is attributed to Luther's own spoken voice. Gravity links: associated-with G2 (the Word), G3 (promise and sign) and G7 (estate, office and calling).

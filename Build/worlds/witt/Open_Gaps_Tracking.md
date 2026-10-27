@@ -2827,3 +2827,18 @@ Follows the entry "Change order: the witness wording for the 1525 writings and t
 - **Records now contradicting the quotes (not edited, same list as OG-86):** `witt.source.luther-admonition-to-peace` (body says "never quoted as if in hand"), `witt.force.popular-insurrectionary-force`, `witt.term.insurrection`, `witt.dw.what-we-have-never-settled`, `witt.gravity.two-governments`, `witt.force.absent-inputs-1525-and-1555`.
 
 Status: OPEN.
+
+## OG-88. Change order applied: witness wording reconciled across the Wittenberg records, 2026-10-27.
+
+Follows the entries OG-86 and OG-87 and the rulings logged in `Build/Ministry/Features/Question-Coverage/Decision-Log.md` (2026-10-27, Q1 to Q13). Mark approved the old and new wording (reconcile change order, artifact `https://claude.ai/artifact/Qz4MYDKaVvZWy2Dsw893Tf`) and the application in stages with an independent Opus recheck of the six quotes first. The world uses only its own sources: for 1543 the witness says the treatise exists, its text is not held, and it cannot say what it argued.
+
+- **Records changed:** the six 1525 quote records (Opus recheck fixes to renderings, notes, loci and routing); `witt.core.witt` (already changed under OG-86); `witt.voice.craft`; `witt.term.insurrection`; `witt.dw.what-we-have-never-settled`; `witt.demo.record-thinnest` and `witt.demo.who-held-authority`; `witt.force.popular-insurrectionary-force`, `witt.force.absent-inputs-1525-and-1555` (id kept, name and description rewritten), `witt.force.the-turk` and `witt.force.transmission-at-the-windows-edge`; `witt.gravity.two-governments`; `witt.contested.1543-treatise-later-effect` and `witt.contested.two-governments-historical-scope`; the two story records (pointers to the 1525 quotes); `records/worlds/witt.yaml` (`thinness_statement`).
+- **Source record split:** `witt.source.luther-admonition-to-peace` now covers the Admonition only, with new records `witt.source.luther-against-the-robbing-and-murdering-hordes` and `witt.source.luther-open-letter-on-the-hard-book`, each citing the 1931 Philadelphia Edition vol. IV. The vendored title is used; the older title appears once as a variant.
+- **New record:** `witt.demo.what-he-wrote-in-1525`, a witness demonstration for the canon question F3-P-02, provisional.
+- **Build documents edited:** the Permanent Prompt, Doc_02, Doc_08, Doc_10, Phase 7 and the World Profile, as drafted. Doc_08 and Doc_10 and the Permanent Prompt change the standing rule on who carries 1525 and 1543 content (Mark's change order, this entry).
+- **Retired:** the generators `wb_witt_s21.py` and `wb_witt_s22_s23.py` moved to `Archive/Superseded-Engine-Code/` (note: `Build/Ministry/Operations/Audits/2026-10-27_witt-generators-retired.md`). Old merged entries and a review file that cite the old path stay as they were, and their citations are in the path-check baseline.
+- **Commentary:** build commentary was removed from the bodies of the live records edited here (Q9).
+- **Not edited, still describe the old boundary:** Phases 5 and 6 (scored on the old "existence only" boundary, CL-1 FAIL; superseded, and a live re-test is deferred until Mark names a test and a cap); Doc_04 section 6.3 (its Supporting call rests on "1525 and 1555 lie outside every vendored text", now stale for 1525; classification left alone by ruling); Source Registry rows 48, 49, 59, 61, 62 and 94; Doc_01, Doc_07 line 352, Doc_09, Phase 5 and Phase 6 passages and World Profile lines 117, 313 to 321, 715 and 795.
+- **Still open:** the six quote records and the new demonstration stay provisional until the final read; the Opus read of the changed voice-facing fields is Mark's call on allowance.
+
+Status: OPEN.

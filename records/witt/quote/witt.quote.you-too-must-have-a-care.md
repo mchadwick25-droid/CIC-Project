@@ -13,14 +13,14 @@ confidence:
   evidentiary_weight: corroborating
   formation_confidence: Documented
   divergence_note: >-
-    Documented as the opening of the Admonition to Peace's section addressed to the peasants (April 1525),
+    Documented as the opening of the Admonition to Peace's section addressed to the peasants (written April 1525, published early May),
     in the 1931 English of the Philadelphia Edition (C. M. Jacobs, from Clemen's text), not Luther's
     German. It records what Luther conceded and what he required, not how the peasants received it.
 sources:
 - source_id: witt.source.luther-admonition-to-peace
   locus: >-
-    An Admonition to Peace (1525), section 'To the Peasants', opening, Philadelphia Ed. vol. IV p. 224;
-    cic/texts/luther_works-v4-selected_various1931.txt lines 10671-10679
+    An Admonition to Peace (1525), section 'To the Peasants', opening, Philadelphia Ed. vol. IV p. 224
+    (cic/texts/luther_works-v4-selected_various1931.txt, lines 10671-10679)
   license: public-domain
 retrieval:
   tier: 2
@@ -50,14 +50,24 @@ modern_lens_note: >-
   overthrow their lords. It is not that. He grants that the lords deserve God's judgment; he does not
   grant that the peasants may carry it out. The word "Nevertheless" is the turn of the whole section: what
   follows it is a long rebuke of the peasants for taking up arms. The "dear friends" is the way he
-  addresses the peasants here, and he means it as an appeal, not as agreement.
+  addresses the peasants here, it is an appeal, not agreement.
 modern_rendering: >-
   So far, dear friends, you have heard me admit only one thing. Sad to say, it is all too true and certain.
   The princes and lords forbid the preaching of the Gospel. They oppress the people beyond bearing. They
-  are worthy, and have well deserved, that God put them down from their seats. They are men who have sinned
+  deserve, and have fully earned, that God should put them down from their seats. They are men who have sinned
   deeply against God and man. And they have no excuse. Even so, you too must take care. You must take up
   your cause with a good conscience and with justice.
-relations: []
+relations:
+- type: associated-with
+  target: witt.term.insurrection
+- type: associated-with
+  target: witt.force.popular-insurrectionary-force
+- type: associated-with
+  target: witt.force.absent-inputs-1525-and-1555
+- type: associated-with
+  target: witt.gravity.two-governments
+- type: associated-with
+  target: witt.dw.what-we-have-never-settled
 use_note:
   means: "Opening his words to the peasants in 1525, Luther grants that the princes oppress them and deserve God's judgment, and then warns the peasants that their own cause must be just."
   not_for:

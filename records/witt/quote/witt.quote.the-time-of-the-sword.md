@@ -19,10 +19,10 @@ confidence:
     The claim about the dead peasants' souls is the tract's own; this record states that it was written,
     not that it is true.
 sources:
-- source_id: witt.source.luther-admonition-to-peace
+- source_id: witt.source.luther-against-the-robbing-and-murdering-hordes
   locus: >-
     Against the Robbing and Murdering Hordes of Peasants (1525), the instruction to the rulers,
-    Philadelphia Ed. vol. IV p. 252; cic/texts/luther_works-v4-selected_various1931.txt lines 12155-12163
+    Philadelphia Ed. vol. IV p. 252 (cic/texts/luther_works-v4-selected_various1931.txt, lines 12155-12163)
   license: public-domain
 retrieval:
   tier: 2
@@ -51,17 +51,27 @@ modern_lens_note: >-
   A modern reader may hear "no place for patience or mercy" as a general rule for how rulers should treat
   their people. In the tract it is said of rulers facing peasants in arms; a page earlier Luther tells a
   Christian ruler first to pray and to offer the peasants terms, and only then to take up the sword. "Lay
-  about them" means to strike out on every side in a fight. The last sentence is meant literally: Luther
-  writes that a peasant killed in the revolt is damned.
+  about them" means to strike out on every side in a fight. The last sentence says plainly that any peasant
+  who is killed is lost in body and soul and belongs to the devil forever.
 modern_rendering: >-
   Here, then, there is no time for sleeping. There is no place for patience or mercy. It is the time of the
   sword, not the day of grace.
 
   So the rulers should go on without worry. With a good conscience they should strike out all around them,
   as long as their hearts still beat. It works in their favor that the peasants have a bad conscience and an
-  unjust cause. It works in their favor too that any peasant who is killed is lost in body and soul. He
-  belongs to the devil forever.
-relations: []
+  unjust cause. It works in their favor too that any peasant who is killed is lost in body and soul, and belongs to
+  the devil forever.
+relations:
+- type: associated-with
+  target: witt.term.insurrection
+- type: associated-with
+  target: witt.force.popular-insurrectionary-force
+- type: associated-with
+  target: witt.force.absent-inputs-1525-and-1555
+- type: associated-with
+  target: witt.gravity.two-governments
+- type: associated-with
+  target: witt.dw.what-we-have-never-settled
 use_note:
   means: "In the tract against the peasant hordes (1525) Luther tells the rulers it is the time of the sword, not of mercy, and that a peasant killed in the revolt is lost to the devil."
   not_for:

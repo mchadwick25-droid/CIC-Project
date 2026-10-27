@@ -16,13 +16,13 @@ confidence:
   divergence_note: >-
     Documented as what Against the Robbing and Murdering Hordes of Peasants (May 1525) says, in the 1931
     English of the Philadelphia Edition (C. M. Jacobs, from Clemen's text), not Luther's German. What
-    effect the tract had on the killing that followed is not in this passage and not in this record.
+    effect the tract had is not in this passage and not in this record.
 sources:
-- source_id: witt.source.luther-admonition-to-peace
+- source_id: witt.source.luther-against-the-robbing-and-murdering-hordes
   locus: >-
     Against the Robbing and Murdering Hordes of Peasants (1525), the second of its three charges
-    (rebellion), Philadelphia Ed. vol. IV p. 249; cic/texts/luther_works-v4-selected_various1931.txt
-    lines 11945-11963
+    (rebellion), Philadelphia Ed. vol. IV p. 249
+    (cic/texts/luther_works-v4-selected_various1931.txt, lines 11945-11963)
   license: public-domain
 retrieval:
   tier: 1
@@ -65,7 +65,7 @@ modern_lens_note: >-
   only word on the peasants. It is not: earlier the same spring, the Admonition to Peace had blamed the
   princes for the rising. Both are his. "Sedition" means stirring up revolt against the rulers.
 modern_rendering: >-
-  In the second place, they are starting a rebellion. They are robbing and plundering, by force,
+  In the second place, they are starting a rebellion. They are violently robbing and plundering
   monasteries and castles that are not theirs. By this they have deserved death in body and soul a second
   time, if only as highway robbers and murderers. Besides, take any man who can be proved to stir up revolt.
   He is outside the law of God and of the Empire. So the first person who can kill him does right and does
@@ -76,7 +76,17 @@ modern_rendering: >-
   everyone who can, strike, kill and stab, secretly or openly. Let him remember that nothing can be more
   poisonous, harmful or devilish than a rebel. It is just as when one must kill a mad dog. If you do not
   strike him, he will strike you, and a whole land with you.
-relations: []
+relations:
+- type: associated-with
+  target: witt.term.insurrection
+- type: associated-with
+  target: witt.force.popular-insurrectionary-force
+- type: associated-with
+  target: witt.force.absent-inputs-1525-and-1555
+- type: associated-with
+  target: witt.gravity.two-governments
+- type: associated-with
+  target: witt.dw.what-we-have-never-settled
 use_note:
   means: "In the tract against the peasant hordes (1525) Luther writes that a proven rebel is outlawed, that anyone who can should strike, kill and stab him, and that it is like killing a mad dog."
   not_for:

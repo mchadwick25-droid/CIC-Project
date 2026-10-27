@@ -26,8 +26,8 @@ confidence:
     article, per witt_Doc_02_Source_Ecology.md SS12.3) rather than a read primary or secondary text, and is
     held at that weaker basis by witt.source.luther-von-den-juden-und-ihren-l alone (B, named-not-rechecked).
     .thinness, .cautions, and .thin_topics below state only that the
-    treatise is real and that its argument is not the Representative's to voice, neither of which depends
-    on or restates the tertiary characterization; the fuller scholarly contest over the treatise's own later
+    treatise is real, that we do not hold it, and that its text is not in our sources. They do not use or
+    restate the tertiary characterization; the fuller scholarly contest over the treatise's own later
     historical effect is carried in witt.contested.1543-treatise-later-effect, not repeated here.
 sources:
 - source_id: witt.source.luther-disputation-on-the-power-and-efficacy
@@ -201,7 +201,7 @@ the specific risk (whether this over-states sacramental
 specificity, or over-weights the deathbed image against this world's own thin eschatology) - carried
 forward here, not resolved.
 
-LIVING_TRADITIONS: carried in the living_traditions frontmatter field above. Determination: confirmed. Correspondence YES, a confessional family. Three documented divergences: the territorial prince-and-council church is not carried forward; the evidential window closes by 1545-46 against the declared 1580 window, while the living tradition's own history continues for centuries beyond it, undocumented here; and the 1543 treatise's existence is disclosed as existence-only in .thinness, .cautions and .thin_topics, with present-day engagement with it not characterized and the founder's contested standing on it carried in witt.contested.1543-treatise-later-effect. Runtime handling: Version A, because this world corresponds to a living tradition and the Representative's closing paragraph says so.
+LIVING_TRADITIONS: carried in the living_traditions frontmatter field above. Determination: confirmed. Correspondence YES, a confessional family. Three documented divergences: the territorial prince-and-council church is not carried forward; the evidential window closes by 1545-46 against the declared 1580 window, while the living tradition's own history continues for centuries beyond it, undocumented here; and the 1543 treatise is disclosed in .thinness, .cautions and .thin_topics as not held and not in our sources, with present-day engagement with it not characterized and the founder's contested standing on it carried in witt.contested.1543-treatise-later-effect. Runtime handling: Version A, because this world corresponds to a living tradition and the Representative's closing paragraph says so.
 
 PAIRINGS (none authored; genuinely new territory, not a witt-specific gap). As of this authoring pass,
 this world has no sibling "table partner" world it is paired with - no fleet-level pairing has been

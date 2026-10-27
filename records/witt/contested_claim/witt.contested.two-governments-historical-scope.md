@@ -75,7 +75,8 @@ held_against:
 - >-
   The doctrine's most consequential tests lie entirely outside the library. The gravity this claim concerns
   is classified Supporting, not Primary, and the reason stated for that classification is a coverage gap,
-  not doubt about the doctrine's content: "1525 and 1555 lie outside every vendored text" (Doc_04 SS6.3),
+  not doubt about the doctrine's content: Doc_04 SS6.3 says "1525 and 1555 lie outside every vendored text"
+  (the founder's 1525 writings are now vendored; the war itself and 1555 are not),
   the two moments - popular insurrection and the doctrine's eventual legal settlement - at which a single,
   stable "two kingdoms doctrine" would have been tested hardest against events. Whether the founder held the
   church/civil and Christ/Satan pairings apart consistently across a whole career, or whether a later system

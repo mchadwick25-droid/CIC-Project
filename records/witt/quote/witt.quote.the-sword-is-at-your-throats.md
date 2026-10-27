@@ -13,14 +13,14 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
-    Documented as what the Admonition to Peace (April 1525) says to the princes, in the 1931 English of
+    Documented as what the Admonition to Peace (written April 1525, published early May) says to the princes, in the 1931 English of
     the Philadelphia Edition (C. M. Jacobs, from Clemen's text), not Luther's German. What the princes
     made of the warning, or whether any of them heard it, this passage does not say.
 sources:
 - source_id: witt.source.luther-admonition-to-peace
   locus: >-
-    An Admonition to Peace (1525), section 'To the Princes and Lords', Philadelphia Ed. vol. IV p. 221;
-    cic/texts/luther_works-v4-selected_various1931.txt lines 10419-10432
+    An Admonition to Peace (1525), section 'To the Princes and Lords', Philadelphia Ed. vol. IV p. 221
+    (cic/texts/luther_works-v4-selected_various1931.txt, lines 10419-10432)
   license: public-domain
 retrieval:
   tier: 2
@@ -66,14 +66,24 @@ modern_rendering: >-
   Well, then, you are the cause of this anger of God. So it will surely come upon you, if you do not change
   your ways in time. The signs in heaven and the wonders on earth are meant for you, dear lords. They
   promise nothing good for you, and nothing good will come to you.
-relations: []
+relations:
+- type: associated-with
+  target: witt.term.insurrection
+- type: associated-with
+  target: witt.force.popular-insurrectionary-force
+- type: associated-with
+  target: witt.force.absent-inputs-1525-and-1555
+- type: associated-with
+  target: witt.gravity.two-governments
+- type: associated-with
+  target: witt.dw.what-we-have-never-settled
 use_note:
-  means: "In the Admonition to Peace (1525) Luther tells the princes and lords that their own hardness has caused God's anger and the rising, and warns them to change before it falls on them."
+  means: "In the Admonition to Peace (1525) Luther tells the princes and lords that that they are the cause of God's anger, that their false security will break their necks, and that it will fall on them unless they change their ways in time."
   not_for:
     - "a claim that Luther supported the peasants' rising or called anyone to fight the princes"
     - "a paraphrase that goes beyond these lines, or this passage offered as the whole of Luther's view of 1525"
     - "a claim that these are Luther's own words in German; this is the 1931 English translation"
-    - "what Luther told the rulers to do once the peasants were in arms, which sits in witt.quote.as-when-one-must-kill-a-mad-dog"
+    - "what Luther told the rulers to do once the peasants were in arms, which sits in witt.quote.the-time-of-the-sword"
   years: {from: 1525, to: 1525}
   status: provisional
 ---

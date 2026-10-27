@@ -13,14 +13,15 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
-    Documented as what the Admonition to Peace (April 1525) says to the peasants, in the 1931 English of the
+    Documented as what the Admonition to Peace (written April 1525, published early May) says to the peasants, in the 1931 English of the
     Philadelphia Edition (C. M. Jacobs, from Clemen's text), not Luther's German. The argument rests on
-    the teaching of the two governments; this passage states it, it does not prove it.
+    Christian law and natural law, which the passage names but does not argue for here; the rule that no
+    one may be judge in his own cause is stated just before it (lines 10808-10810).
 sources:
 - source_id: witt.source.luther-admonition-to-peace
   locus: >-
     An Admonition to Peace (1525), section 'To the Peasants', the third point, Philadelphia Ed. vol. IV
-    p. 227; cic/texts/luther_works-v4-selected_various1931.txt lines 10814-10826
+    p. 227 (cic/texts/luther_works-v4-selected_various1931.txt, lines 10814-10826)
   license: public-domain
 retrieval:
   tier: 2
@@ -29,7 +30,7 @@ retrieval:
   - "participant asks whether Luther thought people may rise up against unjust rulers"
   - "participant asks why Luther opposed the Peasants' War if he agreed the lords were unjust"
   prefer_instead:
-  - "participant asks what Luther told the princes to do to the rebels -- that sits in witt.quote.as-when-one-must-kill-a-mad-dog"
+  - "participant asks what Luther told the princes to do to the rebels -- that sits in witt.quote.the-time-of-the-sword"
   - "participant asks about insurrection in 1521-22, before the Peasants' War -- that sits in witt.term.insurrection"
 text: >-
   Now you cannot deny that your rebellion proceeds in such a
@@ -60,10 +61,20 @@ modern_rendering: >-
   also goes against natural law and all fairness.
 
   You have against you the divine and Christian law of the Old and New Testaments, and the natural law too.
-  So if your undertaking is to succeed, you must bring a new and special command of God. It must be
+  So if your undertaking is to succeed, you must show a new and special command of God. It must be
   confirmed by signs and wonders, and it must tell you to do these things. Otherwise God will not allow His
   Word and order to be broken by your violence.
-relations: []
+relations:
+- type: associated-with
+  target: witt.term.insurrection
+- type: associated-with
+  target: witt.force.popular-insurrectionary-force
+- type: associated-with
+  target: witt.force.absent-inputs-1525-and-1555
+- type: associated-with
+  target: witt.gravity.two-governments
+- type: associated-with
+  target: witt.dw.what-we-have-never-settled
 use_note:
   means: "In the Admonition to Peace (1525) Luther tells the armed peasants that by rising they make themselves their own judges and avengers, against Christian and natural law alike."
   not_for:

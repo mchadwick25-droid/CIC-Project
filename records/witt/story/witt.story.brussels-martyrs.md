@@ -35,7 +35,8 @@ retrieval:
   - narrating the stake-side dialogue or the martyrs' reported last words as verified reportage rather
     than the ballad's own commemorative voice
   - a participant asks about the Peasants' War or any other 1525 event - no story in this inventory covers
-    1525
+    1525; what Luther wrote then sits in the 1525 quote records, for example witt.quote.the-sword-is-at-your-throats
+    and witt.quote.as-when-one-must-kill-a-mad-dog
 relations:
 - type: associated-with
   target: witt.figure.luther
@@ -102,20 +103,9 @@ use_note:
   not_for:
     - "the stake-side dialogue or last words as verified reportage rather than the ballad's commemorative voice"
     - "the two men as named Augustinians, which the ballad's own text never says"
-    - "the Peasants' War or any 1525 event, which no story covers"
+    - "the Peasants' War or any 1525 event, which no story covers; Luther's 1525 writings sit in the 1525 quote records"
     - "the sense of the word 'martyr' in this world, which sits in witt.term.martyr"
   years: {from: 1523, to: 1523}
   status: reviewed
 ---
-Converted at B-4 from Doc_09 witt-S04 (witt_Doc_09_Story_Inventory.md SS2), including that document's
-own sharper hagiographic-convention justification (supplied at Doc_09 Discipline 4, not present in
-Doc_02 §10's earlier split). Quotations verified verbatim by this authoring pass directly against
-cic/texts/luther_hymns_bacon-allen.txt, lines 1741-1805 (Hymn V, stanzas 1-6). Names corrected per the
-Registry's own technical correction: "two young monks, named John and
-Henry," not "Augustinian friars" - the vendored text's own wording.
-
-Register note: close-third-person throughout; reported ballad speech is always framed as "the ballad's
-own voice" or "the ballad's own telling," never narrated as independently verified reportage, per Doc_09
-witt-S04's usage guidance.
-
-FEC / GRAVITY LINKAGE (closed at B-5): the connection this record's own Doc_09 entry named above is now a real relations[] entry in this file's frontmatter -- associated-with to G1 (Justified by faith alone [PRIMARY]), G7 (Estate, office, and calling: "we are all priests" [SUPPORTING]) -- with the reciprocal edge declared on each gravity record itself (witt.gravity.*), exactly as this note said it would when B-5 ran. No longer parked.
+Quotations are from cic/texts/luther_hymns_bacon-allen.txt, lines 1741-1805 (Hymn V, stanzas 1-6). The two men are named John and Henry, not "Augustinian friars", following the vendored text. Reported ballad speech is framed as the ballad's own voice, never as independent reportage. Gravity links: associated-with G1 (justified by faith alone) and G7 (estate, office and calling).

@@ -16,14 +16,15 @@ confidence:
   divergence_note: >-
     Documented as what An Open Letter Concerning the Hard Book Against the Peasants (1525) says, in the
     1931 English of the Philadelphia Edition (C. M. Jacobs, from Clemen's text), not Luther's German.
-    Luther's account here of what his earlier tract taught is his own claim about it. The tract as this
+    The letter itself reports critics who read the tract as denying all mercy (lines 12745-12768,
+    12976-12985). Luther's account here of what his earlier tract taught is his own claim about it. The tract as this
     library holds it never uses the word "surrender"; whether his reading of it is fair is Contested, and
     this record does not settle it.
 sources:
-- source_id: witt.source.luther-admonition-to-peace
+- source_id: witt.source.luther-open-letter-on-the-hard-book
   locus: >-
-    An Open Letter Concerning the Hard Book Against the Peasants (1525), Philadelphia Ed. vol. IV p. 278;
-    cic/texts/luther_works-v4-selected_various1931.txt lines 13440-13462
+    An Open Letter Concerning the Hard Book Against the Peasants (1525), Philadelphia Ed. vol. IV p. 278
+    (cic/texts/luther_works-v4-selected_various1931.txt, lines 13440-13462)
   license: public-domain
 retrieval:
   tier: 1
@@ -33,7 +34,7 @@ retrieval:
   - "participant asks whether Luther regretted what he wrote in 1525, or defended it"
   - "participant asks whether Luther wanted mercy for peasants who surrendered or were captured"
   prefer_instead:
-  - "participant asks what the original 1525 tract itself said -- that sits in witt.quote.as-when-one-must-kill-a-mad-dog"
+  - "participant asks what the tract against the peasants itself said -- that sits in witt.quote.as-when-one-must-kill-a-mad-dog"
 text: >-
   For rebellion is a crime that
   deserves neither court nor mercy, whether it be among
@@ -66,8 +67,8 @@ modern_lens_note: >-
   A modern reader may expect this letter to be an apology. It is not. Luther keeps the hard line -- "we
   ought to slay the rebels without any mercy" -- and draws one limit: mercy for captives and those who
   surrender, and no praise for lords who rage. Whether the earlier tract really said that is his claim; the
-  tract itself asks a Christian ruler to offer terms before fighting, and asks mercy for people the peasants
-  forced to join them, but it does not speak of surrender. "Turks" in his list was the common word then
+  tract itself asks a Christian ruler to offer terms before fighting, and calls on the rulers to have mercy on people the
+  peasants forced to join them by rescuing them with the sword, but it does not speak of surrender. "Turks" in his list was the common word then
   for the Muslims of the Ottoman Empire. "Court" means a trial or hearing.
 modern_rendering: >-
   For rebellion is a crime that deserves neither a trial nor mercy. That is so whether it happens among
@@ -84,7 +85,17 @@ modern_rendering: >-
   any mercy. But I did not teach that no mercy should be shown to the captives and to those who have
   surrendered. They accuse me of saying that, but my book proves the opposite. Nor was it my intention to
   strengthen the raging tyrants, or to praise their raving.
-relations: []
+relations:
+- type: associated-with
+  target: witt.term.insurrection
+- type: associated-with
+  target: witt.force.popular-insurrectionary-force
+- type: associated-with
+  target: witt.force.absent-inputs-1525-and-1555
+- type: associated-with
+  target: witt.gravity.two-governments
+- type: associated-with
+  target: witt.dw.what-we-have-never-settled
 use_note:
   means: "In his Open Letter on the hard book (1525) Luther stands by his call to kill rebels without mercy, while saying he never denied mercy to captives and those who surrendered, nor meant to praise raging lords."
   not_for:

@@ -122,7 +122,7 @@ The latest package, packages/witt/2026-10-27T21-36-52Z/compiled/prompt.txt, alre
 - Build/worlds/witt/witt_Doc_02_Source_Ecology.md:269 and §12.3-12.4 (1525 tracts unvendored)
 - Build/worlds/witt/witt_Phase7_Encounter_Ecology_Mapping_DRAFT.md:58, 132
 - Build/worlds/witt/witt_World_Profile.md §8 (Honest Limits, domain 5; change order at 795)
-- Build/worlds/witt/scripts/wb_witt_s21.py:648, 685, 723, 732; Build/worlds/witt/scripts/wb_witt_s22_s23.py:2949. These are generator scripts. If they are re-run, they would restore the old wording.
+- Archive/Superseded-Engine-Code/Build/worlds/witt/scripts/wb_witt_s21.py:648, 685, 723, 732; Archive/Superseded-Engine-Code/Build/worlds/witt/scripts/wb_witt_s22_s23.py:2949. These are generator scripts. If they are re-run, they would restore the old wording.
 
 Review rounds and audit files (GoLive, Phase5, Phase7, WorldFront reviews, Doc10_Review_Round1, the Open_Gaps history, BUILD-LOG:26) are a lasting audit trail. Leave them as they are.
 

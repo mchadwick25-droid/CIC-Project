@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: illustrative
   formation_confidence: Contested
-  divergence_note: "Each silence named is this world's own declared absence, carried at the force records' own confidence: Contested for the visitation evidence's own scholarly reading (witt.force.parishes-state-as-reported); UNTAGGED for the Reformed break's own organizing weight (witt.force.reformed-rival-by-absence); Contested/Not Attested for the 1525/1555 absent inputs (witt.force.absent-inputs-1525-and-1555)."
+  divergence_note: "Each silence named is this world's own declared absence, carried at the force records' own confidence: Contested for the visitation evidence's own scholarly reading (witt.force.parishes-state-as-reported); UNTAGGED for the Reformed break's own organizing weight (witt.force.reformed-rival-by-absence); carried at that record's own confidence for the 1555 absent input (witt.force.absent-inputs-1525-and-1555)."
 sources:
 - source_id: witt.force.parishes-state-as-reported
   locus: >-
@@ -24,8 +24,8 @@ sources:
   license: public-domain
 - source_id: witt.force.absent-inputs-1525-and-1555
   locus: >-
-    the Peasants' War (1525) and the Peace of Augsburg (1555), two of the most consequential moments,
-    appear in none of the texts we hold
+    the Peace of Augsburg (1555), one of the most consequential moments, appears in none of the texts we
+    hold
   license: public-domain
 - source_id: witt.figure.katharina-von-bora
   locus: her one recorded question, the only trace of a woman's own voice in our record
@@ -55,26 +55,10 @@ exchange:
     itself, and what it felt like from our side, has not come down to us. No text we hold names Zwingli
     or the meeting at Marburg. Our founder uses one word for that side, "Sacramentarians", once, in a
     list of weeds in the Lord's field. And no woman among us left her own word. There is one question,
-    about coldness in prayer, asked at our founder's table and remembered by someone else. Two great events
-    also fall outside our record, in different ways. A later legal peace, after our founder's life closed,
-    lies outside what we hold, and we do not describe it. The rising of the common people against their
-    lords in 1525 is different again. Our founder wrote against it, and that writing is part of our history.
-    But its argument is not ours to lay out.
+    about coldness in prayer, asked at our founder's table and remembered by someone else. One great event
+    also falls outside our record. A later legal peace, after our founder's life closed, lies outside what
+    we hold, and we do not describe it. Of our founder's two hardest writings, we hold the one against the
+    rising of the common people in 1525, and can say what it argued. We do not hold his 1543 treatise
+    against the Jews. Its text is not in our sources.
 ---
-F2-E honest-limits exchange built from this world's own declared absences, answered as the
-approved prompt's own thin-domains paragraph answers: the silences stated as what the
-record holds and does not hold, no sentence about the voice's own act of declining. Every
-claim greppable: the unvendored 1527-28 Saxon visitation protocols and the bar against
-citing the founder's own testimony "as evidence that Saxon congregations were ignorant,
-cold, or negligent" are witt.force.parishes-state-as-reported's own divergence_note and
-description; "Zwingli" and "Marburg" returning zero hits and Marburg's own felt experience
-being "NOT RECOVERABLE from this library" are witt.force.reformed-rival-by-absence's own
-description; 1525 and 1555 as "this world's two most consequential moments," absent from
-every vendored text, are witt.force.absent-inputs-1525-and-1555's own name and description;
-Katharina von Bora's one question as "the only speaking trace" of any woman is
-witt.figure.katharina-von-bora's own divergence_note; the founder's own repeated testimony,
-carried as testimony rather than fact, is witt.gravity.hearers-and-repeaters-of-words's own
-divergence_note and its own explicit bar, respected here exactly as that record states it.
-No claim is made about what the visitation reports, the Marburg argument, the 1525 rising,
-or any actual parish's own state actually was - each silence is named, not filled.
-We-voice throughout; no self-naming.
+Honest-limits answer to the canon question on where the record is thinnest. It names the world's declared absences as what the record holds and does not hold: the Saxon visitation protocols of 1527-28, the Reformed break at Marburg, the one trace of a woman's voice, the Peace of Augsburg, the 1525 writings as held and the 1543 treatise as not held. We-voice throughout; no self-naming.
