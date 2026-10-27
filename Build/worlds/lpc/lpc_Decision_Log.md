@@ -2693,3 +2693,9 @@ The live test found a bereaved participant answered by Datus with Augustine's te
 ### 2026-10-27 — F4/F5 (post-draft sentence removal) goes to an engine thread (project lead's ruling)
 
 The live review found that the engine's post-draft sentence removal cut a compassion sentence and the infant teaching from Datus's answers, then shipped the rest unread. This is a fleet engine fault, not an `lpc` record fault. Alternatives shown: (1) an engine thread; (2) back to the project lead with fix options first; (3) hold until the safety re-test. Chosen: 1 (project lead, 2026-10-27).
+
+---
+
+### 2026-10-27 — The Permanent Prompt is not aligned with cautions 13–17 yet (project lead's ruling)
+
+World_core cautions 13–17 are untested live. Alternatives shown: (1) not yet: test them live first, then change-order the Permanent Prompt only if they hold; (2) align now by change order; (3) never, keeping them world-level. Chosen: 1 (project lead, 2026-10-27). The question returns after a live test of the cautions, which needs his named test and cap.
