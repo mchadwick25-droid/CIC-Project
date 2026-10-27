@@ -22,6 +22,7 @@ async function load(env: { accounts?: boolean; deeper?: boolean } = { accounts: 
 }
 
 const home = () => within(screen.getByRole('main'));
+const LAST_DAY = new Date(Date.UTC(2027, 0, 25)).toISOString().slice(0, 10);
 
 beforeEach(() => {
   localStorage.clear();
@@ -118,7 +119,7 @@ describe('the invitation in the panel', () => {
       ...signedOut(),
       '/me': () => (signedInNow ? { body: { signed_in: true, recovery_pending: null, sign_in_methods: ['address'], has_recovery_code: false, refill_day: 14 } } : { body: { signed_in: false } }),
       '/sign-in/start': { body: { status: 'sent', message: 'm', challenge: 'c1' } },
-      '/sign-in/finish': (body) => (body?.reopen === true ? ((signedInNow = true), { body: { status: 'ok', new_account: false } }) : { body: { status: 'account_closed', erase_on: '2027-01-25', message: 'm' } }),
+      '/sign-in/finish': (body) => (body?.reopen === true ? ((signedInNow = true), { body: { status: 'ok', new_account: false } }) : { body: { status: 'account_closed', erase_on: LAST_DAY, message: 'm' } }),
       '/balance': { body: BALANCE },
       '/shelf': { body: { conversations: [] } },
     });
@@ -142,7 +143,7 @@ describe('the invitation in the panel', () => {
     serve({
       ...signedOut(),
       '/sign-in/start': { body: { status: 'sent', message: 'm', challenge: 'c1' } },
-      '/sign-in/finish': { body: { status: 'account_closed', erase_on: '2027-01-25', message: 'm' } },
+      '/sign-in/finish': { body: { status: 'account_closed', erase_on: LAST_DAY, message: 'm' } },
     });
     const { GoDeeperPanel, accounts, copy } = await load();
     render(<GoDeeperPanel />);
@@ -329,7 +330,7 @@ describe('settings', () => {
   });
 
   it('shows what goes and what stays, then deletes only after a confirmation and a second press', async () => {
-    const { calls, copy } = await open(signedIn(['address']), { ...step, '/delete': { body: { status: 'ok', erase_on: '2027-01-25' } } });
+    const { calls, copy } = await open(signedIn(['address']), { ...step, '/delete': { body: { status: 'ok', erase_on: LAST_DAY } } });
     fireEvent.click(home().getByRole('button', { name: copy.deleteHome }));
     expect(home().getByText(copy.deleteWhen)).toBeInTheDocument();
     expect(home().getByText(copy.deleteGoes)).toBeInTheDocument();

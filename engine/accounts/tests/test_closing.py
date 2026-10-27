@@ -79,7 +79,7 @@ def test_closing_keeps_the_account_and_signs_it_out_for_ninety_days(svc, mailer,
 
 def test_a_session_that_somehow_survives_a_closing_is_refused(svc, mailer, clock, store):
     session, cookie = stepped_up_session(svc, mailer, clock)
-    assert store.close_account(session.account_id, svc.today().isoformat(), "2099-01-01")
+    assert store.close_account(session.account_id, svc.today().isoformat(), (svc.today() + timedelta(days=500)).isoformat())
     assert svc.session(cookie) is None
 
 
@@ -181,7 +181,7 @@ def test_a_stale_account_that_signs_in_during_its_ninety_days_stays(svc, mailer,
 def test_a_closed_account_is_not_closed_again_with_a_new_day(svc, mailer, clock, store):
     account_id, _, first = _close(svc, mailer, clock)
     clock.advance(10 * DAY)
-    assert store.close_account(account_id, svc.today().isoformat(), "2099-01-01") is False
+    assert store.close_account(account_id, svc.today().isoformat(), (svc.today() + timedelta(days=500)).isoformat()) is False
     assert store.closure(account_id)[1] == first.data["erase_on"]
 
 
