@@ -3,9 +3,10 @@
 The engine is handed a TurnGrant (a cap and the words for a pause) and never
 learns why. What a turn draws comes from the round it is and the seats at the
 table (engine.deeper.tokens). The free allowance, a window of tokens a visitor
-draws from over thirty days, together with the network it connects from, covers a conversation's first rounds;
-a valid code buys what it would refuse: a round past the free rounds, or any turn once the free
-allowance is spent. The Facilitator is outside all of it: every refusal here is a grant the engine answers with the Facilitator.
+draws from over thirty days, together with the network it connects from, covers a conversation's first rounds.
+A valid code carries the rest: a round past the free rounds, or whatever the free allowance cannot
+cover. Free is always drawn first, in any round, and only a person whose code can still carry a
+turn goes past the free rounds. The Facilitator is outside all of it: every refusal here is a grant the engine answers with the Facilitator.
 Admission reserves a turn's amount before the turn and settles it after it, so
 nothing is spent for a turn that was answered by the Facilitator alone, and
 nothing is left held when a turn fails.
@@ -267,26 +268,42 @@ class Admission:
     def _decide_paid(self, cost: int, completed: int, refusal_cap: int) -> TurnGrant:
         """Free tokens are spent before paid ones, in any round: whatever the free window can
         give goes first, and the code carries only the rest. A turn the codes cannot carry gives
-        the free part back, so a refusal spends nothing."""
-        part = min(cost, max(0, self._free_room()))
-        held = self._reserve_free(part) if part > 0 else None
-        if held is not None:
-            self._free_reservation = held
-        else:
-            part = 0
+        the free part back, so a refusal spends nothing. Past the free rounds, a code that can
+        carry nothing is refused even when free tokens would cover the turn, as it always was."""
+        part = self._hold_free_part(cost)
         rest = cost - part
-        if rest == 0:
+        if rest > 0:
+            admission = self._reserve_paid(rest)
+            if admission.ok:
+                self._reservation = admission.reservation
+                return TurnGrant(cap=completed + 1)
+        elif completed < self._free_cap:
             return TurnGrant(cap=completed + 1)
-        admission = self._reserve_paid(rest)
-        if admission.ok:
-            self._reservation = admission.reservation
-            return TurnGrant(cap=completed + 1)
+        else:
+            admission = self._reserve_paid(1)
+            if admission.ok:
+                self._runtime.meter.settle(admission.reservation, False)
+                return TurnGrant(cap=completed + 1)
         if self._free_reservation is not None:
             self._runtime.free.settle(self._free_reservation, False)
             self._free_reservation = None
         self._note_key = _NOTE_FOR_REASON.get(admission.reason, "code_not_accepted")
         self._refusal = self._note_key
         return free_grant(refusal_cap, self._limit_text())
+
+    def _hold_free_part(self, cost: int) -> int:
+        """Holds what the free window can give toward this turn, up to its cost, and returns it. If
+        another request takes some of the room between the read and the hold, the room is read
+        again, so the code is not charged for tokens free could still cover."""
+        for _ in range(3):
+            part = min(cost, max(0, self._free_room()))
+            if part == 0:
+                return 0
+            held = self._reserve_free(part)
+            if held is not None:
+                self._free_reservation = held
+                return part
+        return 0
 
     @property
     def low(self) -> bool:
@@ -309,12 +326,14 @@ class Admission:
         otherwise, and reports what the code has left."""
         meter = self._runtime.meter
         try:
-            if self._free_reservation is not None:
-                self._runtime.free.settle(self._free_reservation, voiced)
+            try:
+                if self._free_reservation is not None:
+                    self._runtime.free.settle(self._free_reservation, voiced)
+            finally:
                 self._free_reservation = None
-            if self._reservation is not None:
-                meter.settle(self._reservation, voiced)
-                self._reservation = None
+                if self._reservation is not None:
+                    reservation, self._reservation = self._reservation, None
+                    meter.settle(reservation, voiced)
             info = meter.status(self._code) if self._code else None
             self.remaining = info.remaining if info is not None and info.status != "void" else None
             if self._code is None and self._account is not None:
