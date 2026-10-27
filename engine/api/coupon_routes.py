@@ -13,10 +13,13 @@ the account.
 import logging
 from typing import Callable
 
+from urllib.parse import urlsplit
+
 from fastapi import FastAPI, Header, HTTPException, Request, Response
 from pydantic import BaseModel, Field
 
 from engine.accounts.service import AccountsService
+from engine.api.accounts_routes import CSRF_HEADER
 from engine.api.deeper_routes import DeeperRuntime
 from engine.deeper import codes
 from engine.deeper.meter import AlreadyMinted, PaymentVoided
@@ -54,6 +57,21 @@ def coupon_code_hash(runtime: DeeperRuntime) -> Callable[[list[str], int], str |
     return hash_for
 
 
+def _guard_change(request: Request, authorization: str | None) -> None:
+    """A change made with the dashboard cookie must come from our own page: the custom header cannot
+    be sent cross-site without a preflight, and the origin, when sent, must be ours. A Bearer caller
+    holds the token and needs neither."""
+    if authorization:
+        return
+    if request.headers.get(CSRF_HEADER) != "1":
+        raise HTTPException(status_code=400, detail="bad request")
+    origin = request.headers.get("origin")
+    if origin:
+        parts = urlsplit(origin)
+        if parts.scheme != request.url.scheme or parts.netloc != request.headers.get("host", ""):
+            raise HTTPException(status_code=403, detail="bad origin")
+
+
 def install(app: FastAPI, runtime: DeeperRuntime, service: AccountsService, *, authenticate_admin: Callable[[Request, str | None], None]) -> None:
     if runtime.ops is not None:
         service.coupon_unclaimed_days = runtime.ops.coupon_unclaimed_days
@@ -62,6 +80,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, service: AccountsService, *, a
     @app.post("/api/admin/deeper/coupon")
     def approve_coupon(req: CouponRequest, request: Request, response: Response, authorization: str | None = Header(default=None)):
         authenticate_admin(request, authorization)
+        _guard_change(request, authorization)
         ops = runtime.ops
         if ops is None:
             raise HTTPException(status_code=404)
@@ -91,6 +110,7 @@ def install(app: FastAPI, runtime: DeeperRuntime, service: AccountsService, *, a
     @app.post("/api/admin/deeper/coupon/cancel")
     def cancel_coupon(req: CouponCancelRequest, request: Request, authorization: str | None = Header(default=None)):
         authenticate_admin(request, authorization)
+        _guard_change(request, authorization)
         if not service.coupon_cancel(req.coupon_id):
             raise HTTPException(status_code=404, detail="no waiting coupon has that id; one already attached is cancelled with its codes, by the id in the grants list")
         return {"coupon_id": req.coupon_id, "cancelled": True}

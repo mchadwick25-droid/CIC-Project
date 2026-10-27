@@ -10,7 +10,7 @@ password - see engine.api.app's /api/admin/set-password and
 Why a password here can be short (12-20 chars) where CIC_API_ADMIN_TOKEN
 needed 32+ (engine.api.config.WeakAdminTokenError): that token is the
 ONLY control on its route, checked at engine.api.ratelimit.ADMIN_LIMIT's
-loose 10/min - fine for an operator polling an API, not remotely tight
+loose 30/min - fine for an operator polling an API, not remotely tight
 enough to make a short secret safe against a patient guesser. The login
 route this module backs gets its own much stricter limiter
 (engine.api.ratelimit.ADMIN_LOGIN_LIMIT, 5/15min) precisely so the

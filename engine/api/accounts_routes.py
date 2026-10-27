@@ -35,7 +35,7 @@ from engine.api.account_admission import account_context, code_index, real_code_
 from engine.api import backup_seal, ledger_bucket, shelf, wiring
 from engine.api.contact_cipher import ContactCipher, ContactKeyError, parse_previous as parse_previous_contact
 from engine.api.provider_tokens import ProviderVerifier
-from engine.api.ratelimit import client_ip, network_of
+from engine.api.ratelimit import client_ip, sign_in_network_of
 
 logger = logging.getLogger("cic.accounts")
 
@@ -418,7 +418,7 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
                 raise HTTPException(status_code=403, detail="bad origin")
 
     def _network(request: Request) -> str:
-        return network_of(client_ip(request))
+        return sign_in_network_of(client_ip(request))
 
     async def _session(request: Request) -> Session:
         session = await run_in_threadpool(service.session, request.cookies.get(runtime.cookie_name))
@@ -627,6 +627,9 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         """Deletes one conversation from the shelf and from every store that holds it."""
         _guard(request)
         session = await _session(request)
+        allowed = service.shelf_delete_allowed(session)
+        if allowed.status != "ok":
+            await _refuse(allowed, delay=False)
 
         def _delete():
             if not service.shelf_has(session, body.session_id):
