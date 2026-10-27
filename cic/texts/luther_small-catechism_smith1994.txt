@@ -26,6 +26,12 @@ Source Collection: Project Gutenberg eBook #1670
                   (Project Wittenberg), hosted by Project Gutenberg
                   under its own formal eBook framework - not pd-us-by-
                   date. See Rights note above.
+                  Strongest basis: the translator's release in the file
+                  itself, near the end of the text: "It has been
+                  placed in the public domain by him [the translator]. You may
+                  freely distribute, copy or print this text." The release is
+                  Robert E. Smith's, made for Project Wittenberg, and covers
+                  his 1994 translation as revised in 2002 and 2004.
      __________________________________________________________________
 
 Luther's Little Instruction Book:

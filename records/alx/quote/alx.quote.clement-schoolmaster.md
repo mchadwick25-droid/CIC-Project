@@ -22,7 +22,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks what they made of Greek philosophy and pagan learning"
-  - "participant asks whether people outside the church had anything true"
+  - "participant asks whether Clement thought Greek philosophy held anything true"
 relations:
 - type: illustrates
   target: alx.force.platonic-environment
@@ -53,6 +53,7 @@ use_note:
     - "a claim that Clement held philosophy sufficient for salvation apart from Christ"
     - "a claim that every Alexandrian Christian shared this view, when philosophy's standing was itself argued"
     - "'schoolmaster' as a teacher or headmaster, when paidagogos means a child's escort and custodian"
+    - "a claim that the law of the Hebrews is finished or replaced, or a claim about Jews today; Clement describes preparation"
   years: {from: 180, to: 215}
   status: reviewed
 ---

@@ -168,6 +168,34 @@ def test_delete_ends_the_account_and_the_cookie(http, mailer):
     assert http.get("/api/accounts/me").json() == {"signed_in": False}
 
 
+def test_delete_closes_the_account_for_ninety_days_and_a_sign_in_can_re_open_it(http, mailer, runtime):
+    sign_in(http, mailer)
+    step_up(http, mailer)
+    deleted = http.post("/api/accounts/delete", json={}, headers=H)
+    assert deleted.status_code == 200
+    erase_on = deleted.json()["erase_on"]
+    assert erase_on == (runtime.service.today() + __import__("datetime").timedelta(days=90)).isoformat()
+    started = http.post("/api/accounts/sign-in/start", json={"address": ADDR}, headers=H).json()
+    body = {"challenge": started["challenge"], "address": ADDR, "code": mailer.last_code(ADDR)}
+    closed = http.post("/api/accounts/sign-in/finish", json=body, headers=H)
+    assert closed.status_code == 200 and closed.json()["status"] == "account_closed"
+    assert closed.json()["erase_on"] == erase_on and erase_on in closed.json()["message"]
+    assert "set-cookie" not in closed.headers
+    assert http.get("/api/accounts/me").json() == {"signed_in": False}
+    opened = http.post("/api/accounts/sign-in/finish", json={**body, "reopen": True}, headers=H)
+    assert opened.status_code == 200 and opened.json()["status"] == "ok" and opened.json()["new_account"] is False
+    assert http.get("/api/accounts/me").json()["signed_in"] is True
+
+
+def test_reopen_must_be_a_true_boolean(http, mailer):
+    sign_in(http, mailer)
+    step_up(http, mailer)
+    http.post("/api/accounts/delete", json={}, headers=H)
+    started = http.post("/api/accounts/sign-in/start", json={"address": ADDR}, headers=H).json()
+    body = {"challenge": started["challenge"], "address": ADDR, "code": mailer.last_code(ADDR), "reopen": "yes"}
+    assert http.post("/api/accounts/sign-in/finish", json=body, headers=H).status_code == 422
+
+
 def test_limits_answer_429_and_a_paused_sign_in_503(http, mailer):
     statuses = [http.post("/api/accounts/sign-in/start", json={"address": ADDR}, headers=H).status_code for _ in range(4)]
     assert statuses == [200, 200, 200, 429]

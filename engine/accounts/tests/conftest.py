@@ -139,3 +139,11 @@ def provider_sign_in(svc, provider="google", subject="g-ada", network="203.0.113
 def provider_token(svc, subject, network="203.0.113.5"):
     nonce = svc.provider_start(network).challenge
     return f"{subject}|{nonce}", nonce
+
+
+def delete_now(svc, clock, session):
+    """Closes the signed-in account, lets the re-open period pass and erases it. Returns the close result."""
+    result = svc.close_account(session)
+    clock.advance((svc.limits.reopen_days + 1) * 86400)
+    svc.erase_closed()
+    return result

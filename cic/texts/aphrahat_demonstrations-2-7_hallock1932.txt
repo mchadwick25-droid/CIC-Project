@@ -15,6 +15,16 @@
                   NOT clear the "to ~1929" date rule the rest of this corpus
                   clears outright. This file rests on the declaration, not on
                   the date. See the texts_registry ENTRIES row.
+                  Second basis, searched 2026-10-27: the Catalog of Copyright
+                  Entries renewal volumes for 1960-1962 (Project Gutenberg
+                  ebooks 11821-11826) contain no entry for the Journal of
+                  the Society of Oriental Research, for Aphrahat or
+                  Aphraates, or for Frank H. Hallock. A work
+                  first published in 1932 and not renewed is public domain in
+                  the United States, so the work is probably public domain on
+                  that ground as well as on the declaration. The search was of
+                  a transcription; it is not yet confirmed in the Stanford
+                  Copyright Renewal Database.
    CCEL Subjects: Early Church; Syriac Christianity
 Source Collection: Roger Pearse, "morefathers" (tertullian.org/ccel.org)
      __________________________________________________________________

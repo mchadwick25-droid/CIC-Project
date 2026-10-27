@@ -8,8 +8,8 @@ from engine.m5.safety_accumulation import (
 )
 
 
-def _safety(signal, tags=(), acute_level="none", risk_subject="not_applicable", confidence="high"):
-    return {"signal": signal, "acute_level": acute_level, "risk_subject": risk_subject,
+def _safety(signal, tags=(), acute_level="none", risk_subject="not_applicable", confidence="high", check_in_reason="not_applicable"):
+    return {"signal": signal, "acute_level": acute_level, "risk_subject": risk_subject, "check_in_reason": check_in_reason,
             "dynamic_tags": list(tags), "confidence": confidence}
 
 
@@ -117,3 +117,9 @@ def test_the_previous_accumulator_is_not_mutated():
     previous = {"CONFIDANT_LANGUAGE": 1}
     track_b_state(previous, _safety("HARMFUL_DYNAMIC_SIGNAL", ["CONFIDANT_LANGUAGE"]))
     assert previous == {"CONFIDANT_LANGUAGE": 1}
+
+
+def test_an_ambiguous_track_b_record_carries_the_check_in_reason():
+    state = track_b_state(None, _safety("AMBIGUOUS_LOW_CONFIDENCE", check_in_reason="loss_to_suicide"))
+    assert state["check_in_reason"] == "loss_to_suicide"
+    assert "check_in_reason" not in track_b_state(None, _safety("HARMFUL_DYNAMIC_SIGNAL", tags=("CONFIDANT_LANGUAGE",)))
