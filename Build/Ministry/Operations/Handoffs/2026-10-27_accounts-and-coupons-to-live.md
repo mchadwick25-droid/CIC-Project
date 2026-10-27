@@ -97,3 +97,4 @@ Sonnet for building, Opus for reviews (as the rules say). No metered model call,
 - Security finding 3 (IPv6 /64 send budget) still to put to Mark.
 - Mark ruled on security finding 3: sign-in send budgets use IPv6 /48 (ruling 112; `sign_in_network_of` in `engine/api/ratelimit.py`). All six security findings are now resolved or ruled.
 - Mark chose privacy retention draft B (ruling 113). Built locally in `cic-website/privacy.html`, `privacy-go-deeper.js` and the pages tests; committed, not pushed, so it does not cancel CI run 3652. It rides the next push (merge 1176 first, or a follow-up PR with the other words).
+- Mark gave his own coupon privacy sentence (ruling 114), added to `cic-website/privacy.html` inside the hidden "What an account holds" section. Later_List item 1 is done.
