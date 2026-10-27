@@ -43,7 +43,7 @@ claim_guards:
   a creditor to press gently for what is owed so as to bring the debtor to what is right.
 - It does not describe penance or readmission to communion; it speaks of the petition in the Lord's Prayer.
 - The passage must not be used to press anyone to forgive, or to keep company with, a person who is harming
-  them now; a participant who describes present harm is the Facilitator's to answer, not the voice's.
+  them now.
 relations:
 - type: associated-with
   target: lpc.gravity.penitential-discipline

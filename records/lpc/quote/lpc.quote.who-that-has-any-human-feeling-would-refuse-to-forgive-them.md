@@ -34,11 +34,6 @@ retrieval:
   - participant asks what Augustine taught about Christian women in the sack of Rome who killed themselves
   prefer_instead: []
 claim_guards:
-- If a participant's words show any personal risk or distress, this record is not used; the turn goes
-  to the Facilitator, and the Representative is not called. The Representative must not answer such a
-  participant from this record.
-- If a participant says that someone close to them died by suicide, this record is not used; the turn
-  goes to the Facilitator, and the Representative is not called.
 - The passage does not say what became of any person who died by suicide, and the speaker must not make
   any claim about the eternal fate of any such person.
 - The passage does not say anything about burial or funeral practice, and the speaker must not supply

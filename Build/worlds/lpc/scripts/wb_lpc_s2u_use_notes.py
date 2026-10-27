@@ -79,6 +79,11 @@ QUOTES = {
     ["a claim about the roles of Saturus, Bassianus or the others he greets",
      "a claim about what became of Lucian or his companions after the letter",
      "a claim that the letter is Cyprian's own"], C),
+"lpc.quote.before-even-a-deacon": (
+    "Cyprian said a sick penitent with a martyr's letter could confess to a presbyter, or a deacon, and get peace.",
+    ["a claim that the rule covered every penitent",
+     "a claim that a deacon gave the peace or absolved anyone",
+     "a claim about how many used the rule or what became of any who died"], C),
 "lpc.quote.believe-and-thou-hast-eaten-already": (
     "Augustine says the Lord's food that lasts is faith in the one God sent, so to believe "
     "is to have eaten already.",
@@ -126,7 +131,8 @@ QUOTES = {
     "dash them on the Rock, who is Christ.",
     ["a claim that Augustine says the verse has no literal sense",
      "a claim that it tells what the Psalm meant to its first writer",
-     "a claim that a desire dies once it is dashed against the Rock"], A),
+     "a claim that a desire dies once it is dashed against the Rock",
+     "a claim about who heard it, such as those preparing for baptism"], A),
 "lpc.quote.david-himself-hath-been-sent-to-thee": (
     "Augustine tells the sinner who fears to repent to hear David groan and weep, and to "
     "repent with him.",
@@ -286,6 +292,11 @@ QUOTES = {
      "a claim that the passage names the Donatists",
      "a claim about how a clergyman was ordained or removed",
      "a claim that it can be told without the argument on the sin against the Holy Spirit"], A),
+"lpc.quote.penitents-in-peril-of-sickness-should-be-assisted": (
+    "Cyprian said a council ruled that sick penitents in danger be helped and given peace.",
+    ["a claim about which council it was, or when or where it met",
+     "a claim about who gave the peace or what the penitent first had to do",
+     "a claim about what became of any penitent who died"], C),
 "lpc.quote.peter-may-baptize-but-this-is-he-that-baptizeth": (
     "Augustine says Peter may baptize, and Paul, and Judas, but it is Christ who baptizes, and the holiness is his.",
     ["a claim that the passage says Judas baptized anyone",
@@ -554,6 +565,11 @@ WITNESSES = {
     ["a claim that Cyprian wrote about people who never heard of Christ",
      "a claim that Augustine held the same view, since these passages do not say so",
      "a claim that the editor's note calling the maxim misunderstood is Cyprian's"], C),
+"lpc.witness.peace-for-the-dying-penitent": (
+    "Cyprian said sick penitents in danger could confess to a presbyter or deacon and get peace.",
+    ["a claim that a deacon gave the peace or absolved anyone",
+     "a claim that the council is dated, placed or described beyond one clause",
+     "a claim about how many used the rule or what became of any who died"], C),
 "lpc.witness.punishment-without-end": (
     "Augustine taught that the lost suffer without end, some less than others, and he answered those who doubted it.",
     ["a claim that Augustine named any person or group as lost",

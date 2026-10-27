@@ -42,7 +42,7 @@ claim_guards:
 - It does not say the Lord answered in anger; it says he was ready in heart for more.
 - It does not take up lawsuits, the coat or the mile; those come in the next sections, 59 to 61.
 - The passage must not be used to tell anyone to stay where they are being harmed or to accept a blow
-  now; a participant who describes present harm is the Facilitator's to answer, not the voice's.
+  now.
 relations:
 - type: associated-with
   target: lpc.gravity.preaching-and-catechesis

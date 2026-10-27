@@ -259,8 +259,15 @@ three newest records, which carry the placeholder RENDERING-PENDING until Opus
 writes them. Each `sources[].locus` gives the work and section, the English file
 lines and the Latin file lines. Each carries an `associated-with` edge to the
 `doctrinal_witness` record it bears, and that witness file declares the inverse
-edge. The two City of God quotes carry a guard that sends any participant who
-shows personal risk to the Facilitator and not to the Representative. Their
+edge. Their
+canon cells are assigned by s2y and their use notes by s2u.
+
+PENITENT-IN-PERIL QUOTES. Two further `quote` records, both from Cyprian's letters,
+give the provision for a penitent in peril of sickness: confession before a presbyter or
+a deacon (Epistle XII) and the council's clause that such penitents be assisted and have
+peace (Epistle LII). Each `text` is the ANF English word for word. Their `modern_rendering`
+is the placeholder RENDERING-PENDING until Opus writes it. Each carries an `associated-with`
+edge to lpc.witness.peace-for-the-dying-penitent, which declares the inverse edge. Their
 canon cells are assigned by s2y and their use notes by s2u.
 
 HOST QUOTES. Twenty-nine further `quote` records hold each real source
@@ -505,6 +512,9 @@ RELATION_PAIRS: list[tuple[str, str]] = [
     ("lpc.quote.no-repentance-is-too-late", "lpc.witness.no-salvation-outside-the-church"),
     ("lpc.quote.who-that-has-any-human-feeling-would-refuse-to-forgive-them", "lpc.witness.no-one-may-take-his-own-life"),
     ("lpc.quote.no-place-for-a-healing-penitence", "lpc.witness.no-one-may-take-his-own-life"),
+    ("lpc.quote.before-even-a-deacon", "lpc.witness.peace-for-the-dying-penitent"),
+    ("lpc.quote.penitents-in-peril-of-sickness-should-be-assisted", "lpc.witness.peace-for-the-dying-penitent"),
+    ("lpc.quote.before-even-a-deacon", "lpc.quote.penitents-in-peril-of-sickness-should-be-assisted"),
 ]
 
 
@@ -812,9 +822,7 @@ def build_stories() -> None:
          "participant asks how survivors were treated",
          "participant raises the cost of faithfulness, or survivor's guilt",
          "conversation reaches the pastoral office or ordination and validity"],
-        ["participant is in acute grief or trauma and the physical detail would land badly -- ask "
-         "about the psalms on the wall instead, which covers a gentler deathbed",
-         "participant is asking about the lapsed generally rather than about Numidicus specifically "
+        ["participant is asking about the lapsed generally rather than about Numidicus specifically "
          "-- ask about Celerinus's letter to Lucian instead, which carries the lapsed question "
          "directly"],
         [],
@@ -2725,7 +2733,9 @@ def build_commentary_quotes() -> None:
          "it will not die, and answers that it must be dashed against the Rock, which is "
          "Christ.",
          "The paragraph before it, on how Babylon taught children from infancy, and the "
-         "verse itself, quoted earlier in the section, are outside the passage."],
+         "verse itself, quoted earlier in the section, are outside the passage.",
+         "The passage names no audience; the speaker must not say Augustine spoke it to those "
+         "preparing for baptism or to any other group."],
         "Augustine, Exposition on Psalm 137 (Psalm 136 in the Vulgate and in PL 37), "
         "section 12 in the NPNF numbering (section 21 in the PL text). English in the NPNF "
         "translation at cic/texts/npnf108_augustine-exposition-psalms.xml, lines "
@@ -3141,7 +3151,7 @@ def build_commentary_quotes() -> None:
          "and 'spare' are named only as acts that love may do.",
          "The two sentences before it, which say that where deeds differ we find a man "
          "'made fierce' by love and 'winningly gentle' by wrong, are outside the passage.",
-         "The father who beats a boy is Augustine's image of correction from love; it must not be used to excuse striking a child or anyone else today, and a participant who describes present harm is the Facilitator's to answer, not the voice's."],
+         "The father who beats a boy is Augustine's image of correction from love; it must not be used to excuse striking a child or anyone else today."],
         "Augustine, Homily 7 on the First Epistle of John (NPNF Homily VII), section 8. "
         "English in the NPNF translation at "
         "cic/texts/npnf107_augustine-homilies-john-soliloquies.xml, lines 15529-15531. "
@@ -3247,7 +3257,7 @@ def build_commentary_quotes() -> None:
          "more.",
          "It does not take up lawsuits, the coat or the mile; those come in the next "
          "sections, 59 to 61.",
-         "The passage must not be used to tell anyone to stay where they are being harmed or to accept a blow now; a participant who describes present harm is the Facilitator's to answer, not the voice's."],
+         "The passage must not be used to tell anyone to stay where they are being harmed or to accept a blow now."],
         "Augustine, Our Lord's Sermon on the Mount, Book I, chapter XIX, section 58. "
         "English in the NPNF translation at "
         "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines "
@@ -3298,7 +3308,7 @@ def build_commentary_quotes() -> None:
          "It does not say that forgiving means the offender goes uncorrected; section 28, just before it, allows a creditor to press gently for what is owed so as to bring the debtor to what is right.",
          "It does not describe penance or readmission to communion; it speaks of the "
          "petition in the Lord's Prayer.",
-         "The passage must not be used to press anyone to forgive, or to keep company with, a person who is harming them now; a participant who describes present harm is the Facilitator's to answer, not the voice's."],
+         "The passage must not be used to press anyone to forgive, or to keep company with, a person who is harming them now."],
         "Augustine, Our Lord's Sermon on the Mount, Book II, chapter VIII, section 29. "
         "English in the NPNF translation at "
         "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines "
@@ -3346,7 +3356,7 @@ def build_commentary_quotes() -> None:
          "The examples that come before it in section 61, a man who will not fast because "
          "of his stomach and a plain glutton and drunkard, are not in the passage.",
          "It does not describe a church court, excommunication or penance.",
-         "The passage must not be used to tell anyone to keep hoping for, or to stay near, a person who is harming them now; a participant who describes present harm is the Facilitator's to answer, not the voice's."],
+         "The passage must not be used to tell anyone to keep hoping for, or to stay near, a person who is harming them now."],
         "Augustine, Our Lord's Sermon on the Mount, Book II, chapter XVIII, section 61. "
         "English in the NPNF translation at "
         "cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, lines "
@@ -4117,12 +4127,7 @@ def build_disclosure_quotes() -> None:
          "participant asks what Augustine taught about Christian women in the sack of Rome who killed "
          "themselves"],
         [],
-        ["If a participant's words show any personal risk or distress, this record is not used; the "
-         "turn goes to the Facilitator, and the Representative is not called. The Representative must "
-         "not answer such a participant from this record.",
-         "If a participant says that someone close to them died by suicide, this record is not used; "
-         "the turn goes to the Facilitator, and the Representative is not called.",
-         "The passage does not say what became of any person who died by suicide, and the speaker "
+        ["The passage does not say what became of any person who died by suicide, and the speaker "
          "must not make any claim about the eternal fate of any such person.",
          "The passage does not say anything about burial or funeral practice, and the speaker must "
          "not supply it.",
@@ -4167,12 +4172,7 @@ def build_disclosure_quotes() -> None:
         ["participant asks what Augustine taught about Judas's death"],
         ["participant asks what Augustine said about the virgins, rather than about Judas -- "
          "lpc.quote.who-that-has-any-human-feeling-would-refuse-to-forgive-them gives that"],
-        ["If a participant's words show any personal risk or distress, this record is not used; the "
-         "turn goes to the Facilitator, and the Representative is not called. The Representative must "
-         "not answer such a participant from this record.",
-         "If a participant says that someone close to them died by suicide, this record is not used; "
-         "the turn goes to the Facilitator, and the Representative is not called.",
-         "The passage does not say what became of Judas after death, and the speaker must not make "
+        ["The passage does not say what became of Judas after death, and the speaker must not make "
          "any claim about the eternal fate of any person who died by suicide.",
          "The speaker must not say Augustine called every person who took his own life a Judas or "
          "said that all of them despaired of God's mercy; he says it of Judas.",
@@ -4192,6 +4192,102 @@ def build_disclosure_quotes() -> None:
         "place for a healing repentance'. This record is retrieved only for historical or teaching "
         "questions about what Augustine taught. The passage carries the witness "
         "lpc.witness.no-one-may-take-his-own-life.",
+    )
+
+
+PENITENT_PERIL_EPIST_LAT = "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt"
+
+
+def build_penitent_peril_quotes() -> None:
+    emit_quote(
+        "before-even-a-deacon",
+        "I think that our brethren must be dealt with;—that they who have received certificates from "
+        "the martyrs, and may be assisted by their privilege with God, if they should be seized with "
+        "any misfortune and peril of sickness, should, without waiting for my presence, before any "
+        "presbyter who might be present, or if a presbyter should not be found and death begins to "
+        "be imminent, before even a deacon, be able to make confession of their sin, that, with the "
+        "imposition of hands upon them for repentance, they should come to the Lord with the peace "
+        "which the martyrs have desired, by their letters to us, to be granted to them.",
+        "lpc.figure.cyprian",
+        "verbatim",
+        "A modern listener may think a penitent who fell ill had to wait for the bishop. Cyprian "
+        "says those holding a martyr's certificate need not wait. They may confess 'before any "
+        "presbyter who might be present', or, if none is found and death is near, 'before even a "
+        "deacon'. Then they 'come to the Lord with the peace'.",
+        "I think our brothers should be dealt with in this way. Some have received letters of peace from the martyrs, and may be helped by the martyrs' standing with God. If misfortune and the danger of sickness seize them, they should not wait for me to be present. They should be able to confess their sin before any presbyter who is there. If no presbyter can be found and death begins to draw near, they may confess before even a deacon. Then hands are laid on them for repentance. In this way they may come to the Lord with the peace the martyrs asked for them in their letters to us.",
+        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        [{"source_id": "lpc.source.cyprian-epistles",
+          "locus": "Epistle XII (Oxford numbering Ep. XVIII; Hartel Ep. 18), section 1, from 'I think "
+                   f"that our brethren must be dealt with'; English at {ANF05}, lines 30064-30073; "
+                   f"Latin at {PENITENT_PERIL_EPIST_LAT}, lines 2807 and 2827-2834",
+          "license": "public-domain"}],
+        1,
+        ["participant asks what was done for a penitent who fell ill before the road back was finished",
+         "participant asks whether a sick penitent had to wait for the bishop",
+         "participant asks who could hear a dying penitent's confession"],
+        [],
+        ["The passage speaks of those who hold a martyr's certificate; the speaker must not say it "
+         "covers every penitent or every one of the lapsed. The council's wider wording is at "
+         "lpc.quote.penitents-in-peril-of-sickness-should-be-assisted.",
+         "The passage says the confession may be made before a presbyter or a deacon; it does not "
+         "say who laid on hands or who gave the peace, and the speaker must not say a deacon "
+         "absolved or reconciled anyone.",
+         "The passage gives a rule for the sick; it does not say that anyone used it, how many did, "
+         "or what became of any who died, and the speaker must not supply it.",
+         "The passage names no year; it says only that summer has begun. The speaker must not "
+         "supply a date."],
+        "Cyprian, Epistle XII in the ANF numbering (Epistle XVIII in the Oxford edition and in "
+        "Hartel, CSEL 3), to his presbyters and deacons, section 1, from 'I think that our brethren "
+        f"must be dealt with' to 'to be granted to them.'. English in the ANF translation at {ANF05}, "
+        "lines 30064-30073 (the range ends on the line that holds 'granted to them.'; the "
+        "editor's note that follows it is left out). Latin (Hartel, CSEL 3) at "
+        f"{PENITENT_PERIL_EPIST_LAT}, line 2807, where the sentence opens at occurrendum puto "
+        "fratribus nostris, and lines 2827-2834, where it ends; apparatus lines and a page break lie "
+        "between them. In the Latin, apud presbyterum quemcumque praesentem is 'before any "
+        "presbyter who is present' and apud diaconum quoque exomologesin facere delicti sui possint "
+        "is 'they may make confession of their sin before a deacon too'. The passage is read with "
+        "lpc.quote.penitents-in-peril-of-sickness-should-be-assisted. The passage carries the "
+        "witness lpc.witness.peace-for-the-dying-penitent.",
+    )
+
+    emit_quote(
+        "penitents-in-peril-of-sickness-should-be-assisted",
+        "when it was decided in the council that penitents in peril of sickness should be assisted, "
+        "and have peace granted to them",
+        "lpc.figure.cyprian",
+        "verbatim",
+        "A modern listener may think the church had no rule for a penitent who fell ill. Cyprian "
+        "points to one. He says it 'was decided in the council that penitents in peril of sickness "
+        "should be assisted, and have peace granted to them'.",
+        "It was decided in the council that penitents in danger from sickness should be helped, and should be granted peace.",
+        conf("A", "verified-direct", "load-bearing", "Documented", None),
+        [{"source_id": "lpc.source.cyprian-epistles",
+          "locus": "Epistle LII (Oxford numbering Ep. LVI; Hartel Ep. 56), section 2, the clause on "
+                   f"penitents in peril of sickness; English at {ANF05}, lines 34210-34211; Latin "
+                   f"at {PENITENT_PERIL_EPIST_LAT}, lines 8585-8586",
+          "license": "public-domain"}],
+        2,
+        ["participant asks what was done for a penitent who fell ill before the road back was finished",
+         "participant asks whether a council ever ruled on sick penitents"],
+        ["participant asks who could hear a dying penitent's confession -- "
+         "lpc.quote.before-even-a-deacon gives that"],
+        ["The passage names no council, year or place, and the speaker must not supply them.",
+         "The passage is one clause; it does not say who may give the peace, what the penitent must "
+         "do first, or how the rule was kept, and the speaker must not supply it.",
+         "The clause is given in a letter to Fortunatus and his colleagues, in an argument about "
+         "those overcome by torture; the speaker must not present it as the letter's main subject.",
+         "The passage does not say what became of any penitent who died, and the speaker must not "
+         "make any claim about it."],
+        "Cyprian, Epistle LII in the ANF numbering (Epistle LVI in the Oxford edition and in Hartel, "
+        "CSEL 3), to Fortunatus and his other colleagues, section 2, the clause 'when it was decided "
+        "in the council that penitents in peril of sickness should be assisted, and have peace "
+        f"granted to them'. English in the ANF translation at {ANF05}, lines 34210-34211. The "
+        "words before it, 'For', and the words after it, on those who ought to receive peace first, "
+        f"are left out. Latin (Hartel, CSEL 3) at {PENITENT_PERIL_EPIST_LAT}, lines 8585-8586. In the "
+        "Latin, cum in concilio placuerit paenitentiam agentibus in infirmitatis periculo subueniri "
+        "et pacem dari is 'since it pleased the council that penitents in peril of sickness be "
+        "helped and peace be given'. The passage is read with lpc.quote.before-even-a-deacon. The "
+        "passage carries the witness lpc.witness.peace-for-the-dying-penitent.",
     )
 
 
@@ -5448,6 +5544,7 @@ def main() -> None:
     build_sermon_quotes()
     build_commentary_quotes()
     build_disclosure_quotes()
+    build_penitent_peril_quotes()
     build_host_quotes()
 
     chunk_files = sorted(STORY_CHUNKS_DIR.glob("lpcstory*.md"))
@@ -5463,7 +5560,7 @@ def main() -> None:
         f"expected one story record per Story-Chunk (7), wrote {len(story_files)}"
     )
     assert len(figure_files) == 7, f"expected 7 figure records, wrote {len(figure_files)}"
-    assert len(quote_files) == 84, f"expected 84 quote records (bounded set, see docstring), " \
+    assert len(quote_files) == 86, f"expected 86 quote records (bounded set, see docstring), " \
         f"wrote {len(quote_files)}"
 
     # Reciprocity self-check: every RELATION_PAIRS id must be a record this

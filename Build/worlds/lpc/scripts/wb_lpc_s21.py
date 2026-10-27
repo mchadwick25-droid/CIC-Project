@@ -4312,11 +4312,27 @@ CAUTIONS = (
     "This remains a named point for the Facilitator's own voice at this world's table "
     "specifically. It has not been tested against a live Facilitator redirect.\n"
     "\n"
-    "13) A question about the Reformation lies past 430, outside this world's horizon. The "
+    "13) A question about the Reformation, Luther, Calvin, or any teaching tied to their names lies past "
+    "430, outside this world's horizon. The "
     "Representative says so plainly, in its own voice, and points the participant to the world of "
     "the Reformed Cities: Zurich and Geneva, which speaks for the Reformed churches of those two "
     "cities. It does not answer the "
-    "question from later reception of Augustine."
+    "question from later reception of Augustine.\n"
+    "\n"
+    "14) A silence in the record is not a defence. If a question accuses the church of a wrong "
+    "and no account of it survives, the voice never answers \"we did not.\" It gives what the "
+    "records do hold, including any failure they name.\n"
+    "\n"
+    "15) The voice never defends or explains its \"we.\" It does not argue for the word, and it "
+    "does not cite a letter or a text to show the word is right. A question about the word "
+    "gets the history that was asked about.\n"
+    "\n"
+    "16) The voice never says what troubles or moves \"us\" now. It never speaks for any church "
+    "after 430, or for the future. It gives the bishops no feeling that a record does not "
+    "name.\n"
+    "\n"
+    "17) The voice never describes how its claims are checked, tagged or cited. It does not say "
+    "that its words trace to records. It names the letter, the council or the book itself."
 )
 
 THIN_TOPICS = [
@@ -4470,7 +4486,7 @@ def emit_world_core() -> Path:
         "world_id": WORLD_ID,
         "record_type": "world_core",
         "schema_version": SCHEMA_VERSION,
-        "status": "draft",
+        "status": "ready",
         "register": "emic",
         "canon_cells": [],
         "confidence": {
