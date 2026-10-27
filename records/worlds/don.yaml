@@ -28,8 +28,8 @@ thinness_statement: "Richest in the purity doctrine and its rebaptism consequenc
 living_tradition_flag: false
 state: admitted
 package:
-  manifest_hash: "sha256:0654e509df4a893ff2e1997f3c58738c8f1d686ce5b8994c94f2cf3b43854fd8"
-  location: "packages/don/2026-10-23T23-19-58Z"
+  manifest_hash: "sha256:f6e9e95020cb944225ff6be37cf2737b61714a07afa2d9a0f9a93fa5567dad63"
+  location: "packages/don/2026-10-27T01-53-55Z"
 story_placement: false
 card:
   portrait: "assets/portraits/donatism.png"
