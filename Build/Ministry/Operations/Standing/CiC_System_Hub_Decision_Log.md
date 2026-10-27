@@ -7050,3 +7050,20 @@ Three honest-limit records written from the first week of real visitor questions
 
 The fourth read (`opus-honest-limits-read-4.md`) found three more blocking defects, all on surfaces the earlier statement-only reads had not checked: the visitor's citation card (the Optatus locus named a method; the Justin card read as a ruling on a bereaved visitor's belief) and a `not_for` line that handed the voice "Judas" in a turn about a suicide. The project lead ruled: apply every fix, and order a fifth read by a fresh reader of the whole shipped surface (the spoken text, the use-note lines sent to the voice, and the citation cards as the engine filters them), with the don contested claim added to the same read. That read is `opus-honest-limits-read-5.md`. It is the only review this ruling covers.
 
+
+## 2026-10-27 - Promotion of main to live in three slices, and the accounts turn-on (project lead's rulings)
+
+**Question.** How `main` reaches `live`, given 232 changes had gathered there, and whether accounts go on.
+
+**Alternatives shown.** Explicit slices; everything at once; hold.
+
+**Ruling.** Mark, 2026-10-27: explicit slices, then accounts on.
+
+**What was done.**
+- `live` and `main` no longer share merge history, because earlier promotions copied files onto `live`. A slice is therefore one commit on top of `live` whose contents equal `main` at a chosen point. The three slices were merged in order (pull requests 1193, 1197 and 1200).
+- The first cut put the `lpc` world in the registry before the change that stops a world still being built from being listed or seated. A required test caught it, and slice 1 was cut again to include that change.
+- The 90-day clearing of question text was already on `live` (pull request 1163). The handoff that called it a pending decision was out of date.
+- The honest limits for don, alx and pahc went out in slice 3. They passed the repeatable safe-surface scan (0 hits) that Mark's third ruling on those records set in place of a sixth read.
+- Accounts: on, with the three switches set together (the server and app settings in Render, the website setting `accounts: true` in `cic-website/assets/go-deeper-config.js`).
+
+**CI change (project lead's ruling).** Change detection uses a sparse checkout and the M1 tests run on all cores. No check was removed. Measured: change detection 6 seconds instead of 1m20s; M1 1m13s instead of 2m49s.

@@ -353,7 +353,7 @@ QUOTES = {
      "a claim that Augustine used the word valid",
      "a claim that the sermon shows a formal ordination or a dispute between bishops"], A),
 "lpc.quote.the-case-set-before-the-bishop": (
-    "Lucian grants peace to fallen women in the martyrs' name, if each case goes to the bishop and the sin is confessed openly.",
+    "Lucian grants peace to Numeria and Candida in the martyrs' name, if each case goes to the bishop and the sin is confessed openly.",
     ["a claim that the grant stands without its condition that each case go before the bishop",
      "a claim about what the bishop decided for Numeria and Candida",
      "a claim that 'confession' means a private act before a priest"], C),
@@ -715,7 +715,7 @@ TERMS = {
 
 STORIES = {
 "lpc.story.celerinus-writes-to-lucian": (
-    "Celerinus asked Lucian in jail to give peace to three fallen women, and Lucian said yes if the bishop heard each case.",
+    "Celerinus asked Lucian to win peace for his sister, Numeria and Candida, and Lucian gave it if each case went to the bishop.",
     ["a claim that gives words to Celerinus's sister, Numeria or Candida, none of whom speaks in our sources",
      "a claim that Lucian's grant stood without his condition that each case be set before the bishop",
      "a claim that the confessors were either usurpers or heroes"], C),

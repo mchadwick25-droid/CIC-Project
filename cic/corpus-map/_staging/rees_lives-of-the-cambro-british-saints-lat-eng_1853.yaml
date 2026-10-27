@@ -18,3 +18,13 @@ assignments:
     confidence: provisional
     note: >
       Late medieval memory of 6th-century saints; transmission, confidence tags required.
+
+  - row_id: rees_lives-of-the-cambro-british-saints-lat-eng_1853--cambro-british-saints--voice
+    work: Lives of the Cambro-British saints (David, Cadoc, Illtud and others), Latin and Welsh with English
+    author: cambro-british-saints-lives
+    locus: the lives by saint
+    atlas_ids:
+    - medieval-welsh-christianity
+    role: tradition
+    confidence: provisional
+    note: Late medieval lives of 6th-century saints, in Latin and Welsh with English. Placed on the window of the manuscripts, not of the saints.

@@ -2717,3 +2717,9 @@ Review of the loss and coercion check-ins found "this tradition" wrong at tables
 ### 2026-10-27 — No live rerun of the validation probes yet (project lead's ruling)
 
 Alternatives shown: (1) not now, waiting for the engine thread's fix to F4/F5 so the rerun tests the voice and not the damaging step; (2) rerun the Datus-fix probes only; (3) rerun the full validation. Chosen: 1 (project lead, 2026-10-27). No spend. The rerun returns after the F4/F5 fix, with a named test and cap.
+
+---
+
+### 2026-10-27 — P2 findings F14 to F26: records now, voice items after the rerun (project lead's ruling)
+
+The P2 findings of the live review were sorted into record fixes (F14, F22), voice findings (F15, F16, F19, F20, F21, F26), engine faults (F17, F23, F24, with F18 unconfirmed) and a fleet question (F25). Alternatives shown for the voice findings: (1) fix the records now and add no cautions until a live rerun shows what cautions 13 to 17 did; (2) add world_core cautions now; (3) put them to the project lead as a Permanent Prompt change order. Chosen: 1 (project lead, 2026-10-27).

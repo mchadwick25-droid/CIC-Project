@@ -56,7 +56,7 @@ relations:
   target: lpc.quote.bishop-of-bishops
 - type: associated-with
   target: lpc.quote.earlier-councils-corrected-by-later
-name: 'Conciliar Authority Theory: Egalitarian vs. Hierarchical'
+name: 'What Councils Can Decide: Cyprian and Augustine'
 description: >-
   This is one of this world's real concerns, though an unusual one to weigh. That two competing theories
   of conciliar authority existed, in each bishop's own words, is solidly attested. Whether they organized
@@ -64,9 +64,8 @@ description: >-
   a secondary concern, disclosed as genuinely uncertain rather than settled.
 
 
-  The concern names two competing theories of conciliar authority. Cyprian's is egalitarian. In the
-  preface to the Council of 256 he says no bishop sets himself up as "a bishop of bishops." Augustine's
-  is hierarchical. In On Baptism he appeals to the authority of plenary councils, and the word
+  The concern names two competing theories of conciliar authority. Cyprian held that no bishop forces his colleagues to obey, and that only Christ judges a bishop. In the
+  preface to the Council of 256 he says no bishop sets himself up as "a bishop of bishops." Augustine held that a council of one province must yield to a plenary council, and that a later plenary council can correct an earlier one. In On Baptism he appeals to the authority of plenary councils, and the word
   "plenary" occurs 31 times in that treatise.
 
 
@@ -111,9 +110,9 @@ description: >-
   A concern this loosely connected to the pressures acting on the world leaves our own picture of that
   world incomplete here. That gap is carried, not resolved.
 manifestations:
-- 'Cyprian''s egalitarian formula in the preface to the Council of 256: "neither does any of us set himself
+- 'Cyprian''s formula, that no bishop sets himself over the rest, in the preface to the Council of 256: "neither does any of us set himself
   up as a bishop of bishops"'
-- Augustine's hierarchical formula in On Baptism II.3, invoking "the authority of plenary Councils" (the
+- Augustine's formula, that lesser councils yield to plenary ones and later councils correct earlier ones, in On Baptism II.3, invoking "the authority of plenary Councils" (the
   word "plenary" occurs 31 times in the treatise)
 classification: supporting
 ---

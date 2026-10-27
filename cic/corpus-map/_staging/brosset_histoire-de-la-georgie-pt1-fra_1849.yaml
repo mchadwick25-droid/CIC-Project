@@ -19,3 +19,13 @@ assignments:
     confidence: provisional
     note: >
       Medieval chronicle memory of the 5th-century king; retrospective, French only.
+
+  - row_id: brosset_histoire-de-la-georgie-pt1-fra_1849--georgian-chronicles-vakhtang--voice
+    work: Georgian chronicles, history to the 6th century including Vakhtang Gorgasali (French)
+    author: kartlis-tskhovreba
+    locus: the early reigns; Vakhtang indexed at 'Gourgaslan'
+    atlas_ids:
+    - the-georgian-golden-age
+    role: tradition
+    confidence: provisional
+    note: A medieval chronicle history of Georgia, in a French translation. Placed on the medieval window; the date of the compilation is not checked.
