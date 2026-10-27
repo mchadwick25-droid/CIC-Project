@@ -101,6 +101,7 @@ class _ReactiveFakeMessages:
                 "signal": signal,
                 "acute_level": "a1" if signal == "ACUTE_DISTRESS" else "none",
                 "risk_subject": "self" if signal == "ACUTE_DISTRESS" else "not_applicable",
+                "check_in_reason": "not_applicable",
                 "dynamic_tags": [],
                 "confidence": "high",
             }

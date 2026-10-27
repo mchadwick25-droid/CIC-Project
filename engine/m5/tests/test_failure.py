@@ -13,19 +13,19 @@ READER_OK = CallOutcome(
 )
 SAFETY_OK = CallOutcome(
     status="ok",
-    value={"signal": "NO_SIGNAL", "acute_level": "none", "risk_subject": "not_applicable", "dynamic_tags": [], "confidence": "high"},
+    value={"signal": "NO_SIGNAL", "acute_level": "none", "risk_subject": "not_applicable", "check_in_reason": "not_applicable", "dynamic_tags": [], "confidence": "high"},
 )
 SAFETY_ACUTE = CallOutcome(
     status="ok",
-    value={"signal": "ACUTE_DISTRESS", "acute_level": "a1", "risk_subject": "not_applicable", "dynamic_tags": [], "confidence": "high"},
+    value={"signal": "ACUTE_DISTRESS", "acute_level": "a1", "risk_subject": "not_applicable", "check_in_reason": "not_applicable", "dynamic_tags": [], "confidence": "high"},
 )
 SAFETY_HARMFUL = CallOutcome(
     status="ok",
-    value={"signal": "HARMFUL_DYNAMIC_SIGNAL", "acute_level": "none", "risk_subject": "not_applicable", "dynamic_tags": [], "confidence": "high"},
+    value={"signal": "HARMFUL_DYNAMIC_SIGNAL", "acute_level": "none", "risk_subject": "not_applicable", "check_in_reason": "not_applicable", "dynamic_tags": [], "confidence": "high"},
 )
 SAFETY_AMBIGUOUS = CallOutcome(
     status="ok",
-    value={"signal": "AMBIGUOUS_LOW_CONFIDENCE", "acute_level": "none", "risk_subject": "not_applicable", "dynamic_tags": [], "confidence": "low"},
+    value={"signal": "AMBIGUOUS_LOW_CONFIDENCE", "acute_level": "none", "risk_subject": "not_applicable", "check_in_reason": "not_applicable", "dynamic_tags": [], "confidence": "low"},
 )
 
 

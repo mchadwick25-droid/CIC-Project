@@ -1,4 +1,4 @@
-from engine.m5.routing import directive_without_terms, route
+from engine.m5.routing import check_in_reason_for, directive_without_terms, route
 
 ANACHRONISTIC = {"_fleet.modern.rapture"}
 
@@ -16,8 +16,8 @@ def _reader(**overrides):
     return base
 
 
-def _safety(signal="NO_SIGNAL", risk_subject="not_applicable"):
-    return {"signal": signal, "acute_level": "none", "risk_subject": risk_subject, "dynamic_tags": [], "confidence": "high"}
+def _safety(signal="NO_SIGNAL", risk_subject="not_applicable", check_in_reason="not_applicable"):
+    return {"signal": signal, "acute_level": "none", "risk_subject": risk_subject, "check_in_reason": check_in_reason, "dynamic_tags": [], "confidence": "high"}
 
 
 def test_acute_distress_routes_to_safety_turn():
@@ -318,3 +318,23 @@ def test_a_single_bridged_ask_leaves_no_directive_at_all():
         _reader(asks=[{"order": 1, "text": "did you believe in the Trinity"}]),
         ["Trinity"],
     ) is None
+
+
+def test_check_in_reasons_keep_the_check_in_route():
+    for reason in ("loss_to_suicide", "coercion_by_person", "general"):
+        decision = route(safety=_safety("AMBIGUOUS_LOW_CONFIDENCE", check_in_reason=reason), reader=_reader(), pressed={}, anachronistic_term_ids=set(), message="msg")
+        assert decision.action == "check_in_turn"
+
+
+def test_check_in_reason_for_reads_only_ambiguous_signals():
+    for reason in ("loss_to_suicide", "coercion_by_person", "general"):
+        assert check_in_reason_for(_safety("AMBIGUOUS_LOW_CONFIDENCE", check_in_reason=reason)) == reason
+    for signal in ("NO_SIGNAL", "HISTORICAL_OTHERNESS_DISORIENTATION", "ACUTE_DISTRESS", "HARMFUL_DYNAMIC_SIGNAL"):
+        assert check_in_reason_for(_safety(signal, check_in_reason="loss_to_suicide")) == "general"
+
+
+def test_check_in_reason_for_defaults_to_general():
+    assert check_in_reason_for(None) == "general"
+    assert check_in_reason_for(_safety("AMBIGUOUS_LOW_CONFIDENCE", check_in_reason="not_applicable")) == "general"
+    assert check_in_reason_for(_safety("AMBIGUOUS_LOW_CONFIDENCE", check_in_reason="bogus")) == "general"
+    assert check_in_reason_for({"signal": "AMBIGUOUS_LOW_CONFIDENCE"}) == "general"

@@ -96,3 +96,15 @@ def test_voice_rejected_turn_names_the_representative_and_carries_its_own_kind()
     assert "Vera" in event["text"]
     assert "Facilitator" in event["text"]
     assert "Table" not in event["text"]
+
+
+def test_check_in_turn_selects_text_by_reason():
+    assert facilitator_turns.check_in_turn()["text"] == facilitator_turns.CHECK_IN.text
+    assert facilitator_turns.check_in_turn("general")["text"] == facilitator_turns.CHECK_IN.text
+    assert facilitator_turns.check_in_turn("loss_to_suicide")["text"] == facilitator_turns.CHECK_IN_LOSS.text
+    assert facilitator_turns.check_in_turn("coercion_by_person")["text"] == facilitator_turns.CHECK_IN_COERCION.text
+    assert facilitator_turns.check_in_turn("not_applicable")["text"] == facilitator_turns.CHECK_IN.text
+    for reason in ("general", "loss_to_suicide", "coercion_by_person"):
+        turn = facilitator_turns.check_in_turn(reason)
+        assert turn["kind"] == "safety"
+        assert turn["resources_appended"] is False

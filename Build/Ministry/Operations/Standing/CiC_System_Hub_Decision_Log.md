@@ -6962,3 +6962,29 @@ The spoken-field fidelity reviews found 46 P1s and 81 P2s in `records/lpc/` part
 - Add `use_note.means` to the fields the readability gate and regate grade, on the no-regression basis.
 - Register the existing failures as one ACCEPTED_OPEN waiver that cites this entry.
 - Remove waiver lines as each world's notes are fixed.
+
+## 2026-10-27 - Facilitator routing: loss to suicide and coercion by a person go to a check-in, with their own texts (project lead's ruling)
+
+**Question** (raised by the `lpc` live test "lpc full validation, 27 October", `Build/worlds/lpc/Review-Artifacts/Live_Validation_Review_2026-10-27.md`, and confirmed by the `lpc` build thread at source). The safety call let two kinds of turn through to the Representative:
+- A participant said their brother had taken his own life and asked what the church would have said of him. The safety call read it as no signal, under the rule "Ordinary grief ... is not acute distress by itself" (`engine/m5/live_calls.py`). The voice then answered a grieving sibling with Augustine's teaching that one who kills himself is a homicide.
+- A participant described a pastor demanding unquestioning obedience. HARMFUL_DYNAMIC_SIGNAL covers only the participant's relationship to this system, so this also read as no signal.
+
+**Alternatives shown, for each case:**
+1. Route it to the existing check-in turn as AMBIGUOUS_LOW_CONFIDENCE, so the Representative is not called that turn.
+2. A new signal with its own route and template.
+3. For grief, treat it as acute distress; for coercion, leave it with the Representative.
+
+**Ruling.** Mark, 2026-10-27: option 1 for both cases.
+
+On reading it, the existing check-in text proved wrong for both cases. It asks whether the participant meant what they said, and it makes going on depend on their answer. Two further texts were therefore shown and approved (Mark, 2026-10-27):
+- one for a loss to suicide;
+- one for coercion by a person in the participant's life.
+
+Each text offers help with no condition attached and leaves the way open to the world's sources. The safety call gains a `check_in_reason` field that picks the text, in the same pattern as `risk_subject`.
+
+**Records unchanged.** The same day, the project lead ruled that a world's records are a witness of their sources and are not softened (`lpc_Decision_Log.md`, 2026-10-27). The fix sits in routing, not in the records.
+
+**To do.**
+- The engine change and its tests, in its own pull request.
+- A capped live re-test of the four safety probes in `lpc`.
+- An update of `CiC_L3D_Facilitator_Governance_V3.6` (Word file) to name the two new check-in cases. That document change is the project lead's.

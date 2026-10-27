@@ -14,6 +14,17 @@ from .anachronism import mentions_term
 
 ACUTE_SIGNALS = {"ACUTE_DISTRESS", "HARMFUL_DYNAMIC_SIGNAL"}
 PRESSABLE_CLASSES = {"later_age", "other_tradition"}
+CHECK_IN_REASONS = {"loss_to_suicide", "coercion_by_person", "general"}
+
+
+def check_in_reason_for(safety: dict | None) -> str:
+    """The reason a check-in turn should carry. Only an AMBIGUOUS_LOW_CONFIDENCE
+    classification has one; a missing safety dict, any other signal, or a
+    value outside the three reasons yields "general"."""
+    if not safety or safety.get("signal") != "AMBIGUOUS_LOW_CONFIDENCE":
+        return "general"
+    reason = safety.get("check_in_reason")
+    return reason if reason in CHECK_IN_REASONS else "general"
 
 # The kinds of question the reader names; "other" is any question none of
 # the rest fits, and a bare follow-up that asks nothing new.

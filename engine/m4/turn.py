@@ -73,7 +73,7 @@ from engine.m5 import live_calls
 from engine.m5.anachronism import terms_in_message
 from engine.m5.failure import CallOutcome, resolve_gate
 from engine.m5.safety_accumulation import safety_state_events
-from engine.m5.routing import Directive, directive_without_terms
+from engine.m5.routing import Directive, check_in_reason_for, directive_without_terms
 from engine.m8.usage import UsageRecord, record_usage
 
 
@@ -1114,7 +1114,7 @@ def safety_route_facilitator_events(gate_run, *, representative_name: str, track
     nothing could read is refused as before."""
     action = gate_run.gate_result.routing.action
     if action == "check_in_turn":
-        return [facilitator_turns.check_in_turn()]
+        return [facilitator_turns.check_in_turn(check_in_reason_for(gate_run.safety_outcome.value))]
     if action == "safety_unread_turn":
         return [facilitator_turns.safety_unread_turn()]
     safety = gate_run.safety_outcome.value

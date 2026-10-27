@@ -8,8 +8,8 @@ from engine.m5.safety_accumulation import (
 )
 
 
-def _safety(signal, tags=(), acute_level="none", risk_subject="not_applicable", confidence="high"):
-    return {"signal": signal, "acute_level": acute_level, "risk_subject": risk_subject,
+def _safety(signal, tags=(), acute_level="none", risk_subject="not_applicable", confidence="high", check_in_reason="not_applicable"):
+    return {"signal": signal, "acute_level": acute_level, "risk_subject": risk_subject, "check_in_reason": check_in_reason,
             "dynamic_tags": list(tags), "confidence": confidence}
 
 

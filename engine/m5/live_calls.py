@@ -36,9 +36,20 @@ conversation is not itself a risk.
 unfamiliar historical worldview (its violence, its strangeness, its moral distance from modern life) - is \
 the encounter WORKING AS DESIGNED, never harm. Classify it as HISTORICAL_OTHERNESS_DISORIENTATION or \
 NO_SIGNAL, never as ACUTE_DISTRESS or HARMFUL_DYNAMIC_SIGNAL, even if the participant's language is strong.
-- Ordinary grief, doubt, or a personal question asked from pain is not acute distress by itself. Only \
+- Ordinary grief, doubt, or a personal question asked from pain is not acute distress by itself, except \
+for the suicide-loss case in the next rule. Only \
 classify ACUTE_DISTRESS when the participant's own words indicate real personal crisis risk (passive \
 ideation = a1; a stated plan or intent = a2).
+- When the participant discloses that someone in their own life died by suicide, or asks about the fate \
+or standing of a person they lost that way, classify AMBIGUOUS_LOW_CONFIDENCE with check_in_reason \
+"loss_to_suicide" - unless their own words show risk to themselves, which stays ACUTE_DISTRESS. A \
+historical or teaching question about suicide asked with no personal loss stays NO_SIGNAL (or \
+HISTORICAL_OTHERNESS_DISORIENTATION).
+- When the participant describes present control, threat or coercion by a person in their own life (a \
+pastor, partner, parent or anyone, spiritual or otherwise), classify AMBIGUOUS_LOW_CONFIDENCE with \
+check_in_reason "coercion_by_person". HARMFUL_DYNAMIC_SIGNAL stays about this system only. A question \
+about authority in the historical world, with no present situation of the participant's own, stays \
+NO_SIGNAL.
 - HARMFUL_DYNAMIC_SIGNAL is about the participant's relationship to THIS SYSTEM specifically - treating it \
 as a confidant, expressing dependence on its affirmation, or a compulsion to keep returning to it - not \
 about the participant's feelings toward historical content.
@@ -64,7 +75,11 @@ it. A participant relaying someone else's crisis ("my brother has been talking a
 anymore") is not, by itself, evidence of the participant's OWN passive ideation - that is ACUTE_DISTRESS \
 with risk_subject=third_party, not risk_subject=self, even though it still deserves a safety-aware response. \
 risk_subject is only meaningful when signal is ACUTE_DISTRESS - it MUST be "not_applicable" for every other \
-signal, the same way acute_level MUST be "none" for every other signal."""
+signal, the same way acute_level MUST be "none" for every other signal.
+- check_in_reason records why an AMBIGUOUS_LOW_CONFIDENCE check-in is needed: "loss_to_suicide" or \
+"coercion_by_person" under the two rules above, and "general" for every other ambiguous case. It is only \
+meaningful when signal is AMBIGUOUS_LOW_CONFIDENCE - it MUST be "not_applicable" for every other signal, \
+the same way acute_level MUST be "none" for every other signal."""
 
 READER_SYSTEM_PROMPT = """You are the unified reader for an interview between a participant and an \
 early-Christian formation-world voice. Read the participant's latest message and extract structure from \
@@ -136,13 +151,14 @@ _SAFETY_TOOL = {
             },
             "acute_level": {"type": "string", "enum": ["none", "a1", "a2"]},
             "risk_subject": {"type": "string", "enum": ["self", "third_party", "not_applicable"]},
+            "check_in_reason": {"type": "string", "enum": ["loss_to_suicide", "coercion_by_person", "general", "not_applicable"]},
             "dynamic_tags": {
                 "type": "array",
                 "items": {"type": "string", "enum": ["CONFIDANT_LANGUAGE", "AFFIRMATION_DEPENDENCE", "RETURN_COMPULSION", "DISTRESS_ADJACENT"]},
             },
             "confidence": {"type": "string", "enum": ["high", "medium", "low"]},
         },
-        "required": ["signal", "acute_level", "risk_subject", "dynamic_tags", "confidence"],
+        "required": ["signal", "acute_level", "risk_subject", "check_in_reason", "dynamic_tags", "confidence"],
     },
 }
 
