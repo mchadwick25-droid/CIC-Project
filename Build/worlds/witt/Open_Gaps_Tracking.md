@@ -2801,3 +2801,9 @@ Follows the entry "Source records brought up to date with the Library's 2026-10-
 - Dating differences to check before any quote: Bacon dates the first preface 1525, vol. VI 1524; vol. VI dates "Ein feste Burg" 1527 to 1528, the source record says 1529. German originals not checked.
 
 Status: OPEN.
+
+## OG-85. `witt.dw.how-the-promise-reached-us` quotes a Luther line that does not match the vendored text, 2026-10-27.
+
+Found by the witness-quotation gate (`python -m engine.m1.witness_quotations`; see OG-101 in `Build/worlds/lpc/Open_Gaps_Tracking.md`). The record's `text` has "I did nothing; the Word did it all". The files the record's sources cite do not hold those words in that form. The record is at `verified-direct`. Not edited by the thread that found it. The world's owner checks the line against the vendored Luther text, then fixes the quotation or cites its edition.
+
+Status: OPEN.
