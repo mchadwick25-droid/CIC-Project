@@ -46,7 +46,7 @@ from engine.m1.registry import formation_world_keys  # noqa: E402
 # the source needs. Read off the records' own words, never inferred from the
 # work's title.
 _PD_AVAILABLE = re.compile(r"public.domain english exists|PD English requested|Budge", re.I)
-_CONSULT_ONLY = re.compile(r"consult(ation)?.only|copyrighted", re.I)
+_CONSULT_ONLY = re.compile(r"consult(ation)?.only|copyrighted|(?<!not )(?<!non-)\bin[- ]copyright\b", re.I)
 _NONE_POSSIBLE = re.compile(r"none possible|no english edition vendorable|not vendorable", re.I)
 # The claim is attested entirely inside another source this world already
 # vendored - the record names that source, not an edition of its own, so
@@ -65,15 +65,32 @@ _ATTESTED_VIA_VENDORED = re.compile(
 _NOT_A_HELD_TEXT = re.compile(
     r"not applicable in the ordinary sense|no text exists to hold rights over", re.I
 )
+# Same ruling in the other wording a record uses, honoured only when the
+# edition field does not itself talk about an edition: a row that says no
+# edition was located is a wanted text, not a non-text.
+_NO_TEXT_IDENTIFIED = re.compile(r"no single specific text has been identified", re.I)
+_MENTIONS_EDITION = re.compile(r"\bedition\b", re.I)
+# The edition field says the work is known only from a clause quoted inside a
+# vendored text.
+_QUOTED_CLAUSE_ONLY = re.compile(r"known only via a quoted clause inside an already-vendored text", re.I)
+# The rights field says the host text is vendored (or that this work reaches
+# the build only inside a vendored text), without citing a cic/texts/ path.
+_RIGHTS_SAYS_VENDORED = re.compile(
+    r"public-domain; vendored|embedded within a vendored text", re.I
+)
 
 
 def classify(record: dict) -> str:
     edition = str(record.get("edition") or "")
     rights = str(record.get("rights_status") or "")
     blob = " ".join((edition, rights, str(record.get("discovery_channel") or "")))
-    if "cic/texts/" in rights and _ATTESTED_VIA_VENDORED.search(edition):
+    if ("cic/texts/" in rights or _RIGHTS_SAYS_VENDORED.search(rights)) and _ATTESTED_VIA_VENDORED.search(edition):
         return "resolved (attested via a vendored source)"
-    if _NOT_A_HELD_TEXT.search(rights):
+    if _QUOTED_CLAUSE_ONLY.search(edition):
+        return "resolved (attested via a vendored source)"
+    if _NOT_A_HELD_TEXT.search(rights) or (
+        _NO_TEXT_IDENTIFIED.search(rights) and not _MENTIONS_EDITION.search(edition)
+    ):
         return "not a held text (nothing to acquire)"
     if _PD_AVAILABLE.search(blob):
         return "acquirable, public domain"
