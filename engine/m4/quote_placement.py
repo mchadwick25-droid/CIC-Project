@@ -7,7 +7,9 @@ voice's tagged text after the markdown scrub and before the grounding net,
 and returns tagged text the net checks:
 
 - a valid marker becomes the lead-in the voice wrote, then the record's
-  `modern_rendering` in curly quotation marks, then the record's ordinary
+  `modern_rendering` in curly quotation marks (a rendering already wrapped
+  in a pair of them is set without that pair, and a quotation inside one takes
+  single marks: grounding_net.quotable_rendering), then the record's ordinary
   citation tag, and the quote ends its paragraph. The lead-in's closing
   punctuation becomes a colon; a marker standing alone takes the sentence
   before it as its lead-in; words after the marker in its sentence are cut.
@@ -21,6 +23,10 @@ and returns tagged text the net checks:
   the one a reply may carry.
 - a story the conversation has already told keeps its first tagged
   sentence, as a reference back; later sentences tagged to it go.
+- a sentence the voice tagged to a record, removed for any reason, leaves
+  the sentences just after it leaning on nothing: each one that opens by
+  pointing back at it (grounding_net.leans_on_previous) goes too, as far as
+  the first that does not, with the reason REASON_FOLLOWS_REMOVAL.
 
 Every other quotation rule (a quotation the voice typed, words attributed
 without quotation marks, a sentence tagged to a quote record not yet placed,
@@ -35,9 +41,12 @@ from dataclasses import dataclass, field
 
 from engine.m4.grounding_net import (
     QUOTE_MARKER,
+    REASON_FOLLOWS_REMOVAL,
     QuotationIndex,
+    leans_on_previous,
     placed_key,
     placed_quote_refusal,
+    quotable_rendering,
     quoted_span_positions,
     reads_as_lead,
     strip_tags,
@@ -86,9 +95,23 @@ class _Report:
     placed_sentences: dict[str, str] = field(default_factory=dict)
     placed_drafts: dict[str, str] = field(default_factory=dict)
     removed: list[dict] = field(default_factory=list)
+    orphaned: bool = False
 
     def drop(self, sentence: str, why: str, *, draft: str | None = None) -> None:
         self.removed.append({"sentence": strip_tags(sentence).strip(), "why": why, "draft": (draft or sentence).strip()})
+        self.orphaned = self.orphaned or bool(_TAG.search(draft or sentence))
+
+    def drops_leaning(self, sentence: str, sealed: frozenset[str] = frozenset()) -> bool:
+        """Whether `sentence`, the next one in the reply, goes because it
+        leans on a cited sentence just removed. A sentence code placed, or
+        one tagged with a record in `sealed`, never does. Any other sentence
+        ends the run."""
+        placed = placed_key(strip_tags(sentence)) in self.placed_sentences or bool(sealed & set(_TAG.findall(sentence)))
+        if self.orphaned and not placed and leans_on_previous(sentence):
+            self.drop(sentence, REASON_FOLLOWS_REMOVAL)
+            return True
+        self.orphaned = False
+        return False
 
 
 def _lead_for_quote(lead: str) -> str:
@@ -138,7 +161,10 @@ def place_quotes(
             position += 1
 
             marker = QUOTE_MARKER.search(sentence)
+            if not marker and report.drops_leaning(sentence, sealed):
+                continue
             if marker:
+                report.orphaned = False
                 lead = sentence[: marker.start()].strip()
                 rest = sentence[marker.end():]
                 drafted = sentence[: marker.end()].strip()
@@ -148,7 +174,7 @@ def place_quotes(
                     if not lead:
                         lead = _take_lead_in(kept, paragraphs_out, sealed)
                         drafted = f"{lead} {drafted}".strip()
-                    rendering = record["modern_rendering"]
+                    rendering = quotable_rendering(record)
                     composed = f"{_lead_for_quote(lead)} “{rendering}” [[{record['id']}]]".strip()
                     if not _settable(composed, rendering):
                         reason, composed = REASON_NOT_SETTABLE, None

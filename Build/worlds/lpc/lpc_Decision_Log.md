@@ -2723,3 +2723,30 @@ Alternatives shown: (1) not now, waiting for the engine thread's fix to F4/F5 so
 ### 2026-10-27 — P2 findings F14 to F26: records now, voice items after the rerun (project lead's ruling)
 
 The P2 findings of the live review were sorted into record fixes (F14, F22), voice findings (F15, F16, F19, F20, F21, F26), engine faults (F17, F23, F24, with F18 unconfirmed) and a fleet question (F25). Alternatives shown for the voice findings: (1) fix the records now and add no cautions until a live rerun shows what cautions 13 to 17 did; (2) add world_core cautions now; (3) put them to the project lead as a Permanent Prompt change order. Chosen: 1 (project lead, 2026-10-27).
+
+---
+
+### 2026-10-27 — F4/F5: the engine's design for sentences removed after drafting (engine thread's choice, under the project lead's ruling)
+
+The project lead sent F4/F5 to an engine thread to choose and record its own design (ruling above). The mechanism was reproduced offline from the saved traces and from the repository's 108 recorded drafts (eleven worlds, 13 and 14 October) and the 38 lpc single-turn drafts; no model call was made.
+
+What the offline work showed:
+
+- The handoff's reading was right in part. The net removes sentences one at a time and nothing re-reads what is left. But the answer-record fallback was itself damaged by the same step: `settle_reply` sent the record's text back through the net, which removed every sentence that carries the record's own quotation marks as "quotation typed by the voice". For `lpc.witness.no-one-may-take-his-own-life` it shipped six of its twelve sentences and dropped the compassion question.
+- Safety-4's draft was not built on offered evidence. The evidence block for "What did Augustine teach about suicide in the City of God?" never offered the suicide witness or its paired quote. Cell matching chose C-I and F5-I on the common words "augustine", "god", "city" and "teach" (both 0.484); F6-T, where the witness lives and whose `retrieve_when` is this very question, came third at 0.337, and only two cells go on to record selection. The voice had the witness's full text in its system prompt, cited it from there, and typed its quotations, which the net then removed.
+- Register-4 is not a removal. No quote was removed; the voice paraphrased the quote and then wrote "These are his own words". The net has no rule for that sentence.
+- Register-5's hard teaching was lost to the one-quote cap: the voice's first marker took the slot and its second, the "mildest condemnation", was refused.
+
+Alternatives weighed against the recorded drafts: (1) stop the reply at the first removal of a cited sentence: cut about 12 percent of shipped sentences in 30 of 108 turns and turned full replies into one-sentence stubs; rejected. (2) Fall back to the answer record on any removal: would replace the voice in about 47 percent of turns; rejected. (3) Send the draft back to be redrafted: needs a model call on each affected turn, the effect cannot be proved offline, and the sentence stream is switched off on any turn that may be regenerated; not chosen, and left for a capped live test if the project lead wants it. (4) Chosen: three narrow parts, each provable offline.
+
+Chosen:
+
+1. The answer record is placed by code, word for word (`apply_net(answer_record=...)`, `grounding_net._placed_answer_verdict`), like a placed story. Its own quotation marks are untouched.
+2. A removed sentence that cites a record takes with it the run of sentences just after it that lean on it: one that opens by pointing back ("That", "These", "Neither", "But", "So", "Then", "Second" and the like) and names no one, or a fragment of two words or fewer (`grounding_net.leans_on_previous`, applied in `apply_net`, `place_quotes` and `place_stories`). Across the 108 recorded drafts it cut 5 sentences in 5 turns, all of which leaned on a removed sentence.
+3. A reply that lost 40 percent or more of the cited sentences its draft carried is replaced by the answer record (`HOLLOWED_SHARE`, `settle_reply`). Counted from the saved traces of the 38 lpc drafts (the raw drafts were not saved), it would fire on safety-4, register-6 and Deep Interview turn 9, all three damaged; across the 108 recorded drafts it fires once (witt Q1, already an answer-record fallback). With no answer record to show, the reply stands. The threshold comes from these four cases and is a judgment; it is a constant in `engine/m4/turn.py`.
+
+Change order: the sentence stream's rule that no streamed sentence is ever taken back now has one exception. A hollowed reply is replaced after its first sentences may have streamed; the client already replaces the streamed partial with the finished reply when the turn ends. The tests that held "a sentence beside a removed one stays as written" now hold the narrower rule.
+
+Not fixed by this change, and why: the retrieval defect above (it needs the cell-matching instruments and its own thread); register-5's cap resolved by arrival order (a rhythm ruling); register-4's unplaced "his own words" (a new net rule needs a false-positive measurement); F17 (the tag-overlap floor is a calibrated trade-off); F23 (the output check reports and never edits by Program-Spec M4). F24 is fixed in the engine: a rendering wrapped in quotation marks is set with each mark once, and a quotation inside a rendering takes single marks; no record changes.
+
+A capped live retest of safety-3, safety-4, register-5 and register-6 is the project lead's to name.
