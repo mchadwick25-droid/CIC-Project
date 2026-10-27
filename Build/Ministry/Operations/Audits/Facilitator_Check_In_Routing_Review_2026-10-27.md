@@ -152,3 +152,40 @@
 - **Mechanics:** the reason reaches the right text everywhere, fails safe to a check-in, never reaches the voice, and keeps crisis resources with Track A.
 - **What blocks:** P1-1 (the coercion text misnames coercion that has nothing to do with faith) and P1-2 (the loss text's promise is broken by a re-trigger loop). Both need the project lead's ruling, and fixes for both need independent re-confirmation.
 - **The P2s:** P2-1 to P2-4 are small prompt and routing corrections within the approved intent. They should land in the same pull request, before the capped live re-test.
+
+## Round 2 recheck
+
+- **Date:** 2026-10-27
+- **Reviewer:** independent Opus reviewer (Claude Opus 5.5), targeted recheck of commit 59b6a191 against the round-1 findings and the "Round-1 review rulings" entry in the System Hub Decision Log. No model calls made.
+- **Checks run:** read `git diff 5665a6fc 59b6a191 -- engine` in full; compared both personal check-in texts in `engine/m4/facilitator_turns.py` to the decision log by exact substring match (both match); ran `python3 -m pytest -q engine/m4 engine/m5 engine/api/tests/test_check_in_repeat.py` (**1077 passed**); ran `tools/check_live_commentary.py --surface engine` filtered to the changed files (0 hits).
+
+### Findings
+
+- **P1-1:** resolved as ruled. One coercion text, "someone trying to control you", exact approved wording (`facilitator_turns.py:120-128`); the prompt rule is unchanged in scope.
+- **P1-2:** resolved as ruled (option a). `check_ins_shown` is folded from the session's own `facilitator_turn` events (`projection.py:124-126`), passed on every interview and table path (`wiring.py:142,1113`; `table_wiring.py:1098,1208`; `turn.py` `run_gate`/`run_turn`), and read by `routing.check_in_due`. Interview and table second-turn tests pass.
+- **P2-1:** resolved as proposed (`live_calls.py:39-40`).
+- **P2-2:** resolved as proposed (`live_calls.py:46-47`).
+- **P2-3:** resolved as proposed (`live_calls.py:48-53`).
+- **P2-4:** resolved as proposed. `check_in_reason_for` reads a personal reason on any signal; `check_in_due` routes it to a check-in.
+- **P2-5:** left for the project lead.
+- **P2-6:** left for the project lead (the 29-word sentence is in the approved text as ruled).
+- **P2-7:** resolved. Both texts are recorded verbatim in the decision log and match the code exactly.
+- **P2-8:** resolved as proposed (`safety_accumulation.py:101-104`, with test).
+- **P2-9:** resolved. Table-path tests (`engine/api/tests/test_check_in_repeat.py`), reader-failure tests (`test_failure.py`), and a schema test (`test_routing.py`) added.
+- **P2-10:** out of scope for this change (live-battery grading); noted, not counted.
+- **P2-11:** resolved. The history comment is replaced with a one-line description of the branch (`routing.py:186`).
+
+### Safety invariants confirmed
+
+- **ACUTE_DISTRESS and HARMFUL_DYNAMIC_SIGNAL cannot be suppressed.** `route()` returns `safety_turn` for `ACUTE_SIGNALS` before `check_in_due` is reached; `resolve_gate` tests `ACUTE_SIGNALS` independently of `check_ins_shown` on the reader-failure path. `test_acute_distress_ignores_the_check_ins_already_shown` and the interview own-risk test cover it.
+- **The new non-ambiguous rule cannot downgrade a crisis turn.** It is evaluated only after the acute branch has returned, so an ACUTE turn carrying a personal reason still goes to `safety_turn` with resources.
+- **The general check-in is never suppressed.** `check_in_due` returns true for "general" whatever is in `check_ins_shown`, and only the two personal reasons are ever folded into it.
+- **After a shown check-in with a failed reader**, the turn falls to pass-through, which is the ruled behaviour (the same reason goes on to the Representative).
+
+### New findings
+
+None at P1 or P2.
+
+### Verdict
+
+**Approved to proceed.** P2-5 and P2-6 remain with the project lead; P2-10 remains for the capped live re-test.
