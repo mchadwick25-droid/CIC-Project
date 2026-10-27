@@ -9,7 +9,7 @@ canon_cells:
 - F4-I
 - F6-I
 use_note:
-  means: "Celerinus asked Lucian in jail to give peace to three fallen women, and Lucian said yes if the bishop heard each case."
+  means: "Celerinus asked Lucian in jail to seek peace for two women, Numeria and Candida, and Lucian gave it on condition that the bishop heard each case."
   not_for:
     - "a claim that gives words to Celerinus's sister, Numeria or Candida, none of whom speaks in our sources"
     - "a claim that Lucian's grant stood without his condition that each case be set before the bishop"
@@ -66,7 +66,7 @@ narrative_tier_justification: 'Documented. Tier 1, Documented (Doc_09 SS3). Two 
   argument: this material survives because Cyprian''s own dossier preserved the case against himself.
   An attribution discipline matters here specifically: these letters are in Cyprian''s corpus and are
   not by Cyprian.'
-tellable_as: How one confessor asked another, not a bishop, to grant peace to women who had fallen
+tellable_as: How one confessor asked another, not a bishop, to grant peace to two women whose case he pleaded
 text: 'Celerinus was a confessor among us -- he had been imprisoned and had not denied Christ -- and he
   wrote to Lucian, another confessor, in prison. He told Lucian of his own confession. Then he came to
   his grief: he told Lucian he was in the midst of great trouble. His sister had sacrificed. He asked
@@ -77,7 +77,8 @@ text: 'Celerinus was a confessor among us -- he had been imprisoned and had not 
   She was not dead. What Celerinus grieved was a death he believed had happened to her soul -- which is
   why the letter carries a request. He asked Lucian to intervene, for her and for two other women, Numeria
   and Candida, whom Lucian also knew. He made the case for them: they had repented, and there were works
-  to point to.
+  to point to. Of Candida he said more: she had given gifts so as not to sacrifice, and she seems to have turned
+  back on the way to the sacrifice, so he was sure she had not sacrificed.
 
 
   Lucian''s reply came back from the prison, and it granted what was asked. Before it did, it said what

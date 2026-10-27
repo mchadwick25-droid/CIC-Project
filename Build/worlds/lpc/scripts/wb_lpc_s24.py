@@ -897,7 +897,7 @@ def build_stories() -> None:
         "tier argument: this material survives because Cyprian's own dossier preserved the case "
         "against himself. An attribution discipline matters here specifically: these letters are in "
         "Cyprian's corpus and are not by Cyprian.",
-        "How one confessor asked another, not a bishop, to grant peace to women who had fallen",
+        "How one confessor asked another, not a bishop, to grant peace to two women whose case he pleaded",
         "Celerinus was a confessor among us -- he had been imprisoned and had not denied Christ -- "
         "and he wrote to Lucian, another confessor, in prison. He told Lucian of his own "
         "confession. Then he came to his grief: he told Lucian he was in the midst of great "
@@ -908,7 +908,9 @@ def build_stories() -> None:
         "She was not dead. What Celerinus grieved was a death he believed had happened to her soul "
         "-- which is why the letter carries a request. He asked Lucian to intervene, for her and "
         "for two other women, Numeria and Candida, whom Lucian also knew. He made the case for "
-        "them: they had repented, and there were works to point to.\n"
+        "them: they had repented, and there were works to point to. Of Candida he said more: "
+        "she had given gifts so as not to sacrifice, and she seems to have turned back on the way "
+        "to the sacrifice, so he was sure she had not sacrificed.\n"
         "\n"
         "Lucian's reply came back from the prison, and it granted what was asked. Before it did, "
         "it said what the prison had been like: by the emperor's command they had been sentenced "
