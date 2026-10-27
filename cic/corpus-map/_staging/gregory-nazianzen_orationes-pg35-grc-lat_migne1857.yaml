@@ -4,7 +4,7 @@ assignments:
   - row_id: gregory-nazianzen_orationes-pg35-grc-lat_migne1857--orations-pg-35-greek
     work: "Gregory of Nazianzus, Orations, PG 35, Greek (including Oration 14, On the Love of the Poor)"
     author: gregory-nazianzen
-    locus: "Oration 14 heading at file line 63160, opening words at 63197; Oration 25 heading at 89798"
+    locus: "Oration 14 heading at OCR line 63160, opening words at 63197; Oration 25 heading at 89798; line numbers are OCR lines, add 12 for this file's own"
     atlas_ids:
       - cappadocian-nicene-pastoral-monastic-tradition
     role: tradition

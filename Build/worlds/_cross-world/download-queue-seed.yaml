@@ -22623,7 +22623,7 @@ queue:
       Wants-sort class A. Homilies in time of famine and drought, on Luke 12:18, to the rich, on Julitta and on Mamas, in Greek. Second witness: Latin column garbled.
     url: "https://archive.org/details/patrologiae_cursus_completus_gr_vol_031"
     rights_basis: pd-us-by-date
-    verified_by: "Library thread acquisition batch 1, 27 October 2026: metadata read (Public Domain Mark), djvu.txt fetched, byte count 9,459,378 equal to listed size, headings read at raw lines 17124, 19009, 20355, 22450, 44695"
+    verified_by: "Library thread acquisition batch 1, 27 October 2026: metadata read (Public Domain Mark), djvu.txt fetched, byte count 9,459,378 equal to listed size, headings read at raw lines 17124, 19009, 20355, 22451, 44695"
     status: downloaded
     vendored_as: "basil_opera-omnia-pg31-grc-lat_migne1857.txt"
 
@@ -22757,3 +22757,29 @@ queue:
     vendored_as: "luther_works-v6-selected_various1932.txt"
     vendored_note: "vendored; the header states the rights basis and its limit"
 
+
+  - title: "Gregory I, Registrum epistolarum, Books VIII-IX, Latin (Ewald-Hartmann 1893)"
+    author: "Gregory the Great"
+    translator: "P. Ewald and L. M. Hartmann (eds.)"
+    year: 1893
+    world: "roman-church-gregorian"
+    why: >
+      Latin original of Gregory's Register; the Library held only English selections. Second witness: readable Latin with systematic OCR noise.
+    url: "https://archive.org/details/gregoriiipapaer00churgoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Library thread, 27 October 2026: metadata read (NOT_IN_COPYRIGHT), title page and indiction headings read, djvu.txt fetched, byte count 753,059 equal to listed size"
+    status: downloaded
+    vendored_as: "gregory-great_registrum-epistolarum-t2-pars1-libri-8-9-lat_ewald-hartmann1893.txt"
+
+  - title: "Gregory I, Registrum epistolarum, Books X-XIV with appendices, Latin (Ewald-Hartmann 1895)"
+    author: "Gregory the Great"
+    translator: "P. Ewald and L. M. Hartmann (eds.)"
+    year: 1895
+    world: "roman-church-gregorian"
+    why: >
+      Latin original of Gregory's Register; the Library held only English selections. Second witness: readable Latin with systematic OCR noise.
+    url: "https://archive.org/details/gregoriiipapaer00greggoog"
+    rights_basis: pd-us-by-date
+    verified_by: "Library thread, 27 October 2026: metadata read (NOT_IN_COPYRIGHT), title page and indiction headings read, djvu.txt fetched, byte count 2,275,915 equal to listed size"
+    status: downloaded
+    vendored_as: "gregory-great_registrum-epistolarum-t2-pars2-libri-10-14-lat_ewald-hartmann1895.txt"
