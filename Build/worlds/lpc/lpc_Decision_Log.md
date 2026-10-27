@@ -2681,3 +2681,9 @@ The question-coverage design thread found no `lpc` record on hell, judgment, the
 ### 2026-10-26 — Commentary and full-disclosure batches: review-driven placements (build thread, under self-governance)
 
 Two placements came from review options, not from the project lead. (1) "Turn the other cheek" (*Sermon on the Mount* I.19) was linked to penitential discipline in the draft; the round-1 reviewer found the passage does not bear it and offered preaching and catechesis or escalation. Chosen: preaching and catechesis, since the passage shows how Scripture was read. (2) The suicide records were drafted on cell F6-E; the reviewer ruled that unsafe and named F6-T with a guard. Chosen: F6-T as ruled. Whether the fleet canon gains a suicide question is put to the project lead (OG-85).
+
+---
+
+### 2026-10-27 — The suicide records stay as written; the safety fix goes to routing (project lead's ruling)
+
+The live test found a bereaved participant answered by Datus with Augustine's teaching (OG-87). Alternatives shown: (1) silence the three suicide records until the Facilitator handles bereavement; (2) keep them voiced and change how Datus opens the subject; (3) remove them. The project lead rejected deleting or softening: "we are a witness of the sources". Ruling: the records stay as written, and the fix goes where the failure is, in the Facilitator's routing. lpc stays `building`, reachable by no participant, until that routing exists and a safety re-test passes. The classifier change is a fleet decision, put to the project lead separately.

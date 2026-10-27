@@ -1,0 +1,743 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:d614a1ee8d0b12fad56ca7dd7d6d11a83eeb28b7a9f71eeec4e43af648d2f9e6",
+  "package": "packages/lpc/2026-10-26T18-33-28Z",
+  "live_test": {
+    "name": "lpc full validation, 27 October",
+    "cap_usd": 0.3,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.019017
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 1797,
+      "output_tokens": 112,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 2092,
+      "output_tokens": 183,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 422,
+      "output_tokens": 241,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 23478
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "Is the two-recension theory of De Unitate right?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "later_age, first ask - in-world answer",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We do not know. Chapters 4-5 of De Unitate survive in two versions. One, called the 'Primacy Text', reads more favourably toward Roman primacy. The other does not. Which one Cyprian wrote first, or whether he wrote both himself, is contested. The question has been argued at length, and we do not claim to settle it. What we can say plainly is this: nothing in our own account here rests on which version came first. Cyprian taught that the episcopate is one office, and each bishop holds his part for the whole. That teaching stands in either version. The sharpest dispute Cyprian argued was over the font, not over Peter's chair. His council of 256 ruled one way, and Rome ruled another. Our later bishop called that ruling wrong, but never put Cyprian outside our communion. Whether the Primacy Text came from Cyprian's own hand or from someone else's, that pattern holds.",
+          "citations": [
+            {
+              "sentence": "Which one Cyprian wrote first, or whether he wrote both himself, is contested.",
+              "record_ids": [
+                "lpc.contested.de-unitate-recensions"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.contested.de-unitate-recensions",
+                  "record_type": "contested_claim",
+                  "label": "De Unitate 4-5 survives in a single authorial text, and the version of chapters 4-5 commonly called the 'Primacy Text' -- reading more favourably toward Roman primacy than the alternative recension -- is a later interpolation into Cyprian's own original wording, not evidence of anything Cyprian himself wrote or revised.",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "author": "Cyprian of Carthage",
+                      "work": "On the Unity of the Church (De Unitate)",
+                      "locus": "the classic treatise on schism and the one episcopate; De Unitate 4-5, the disputed passage; De Unitate 5's episcopatus unus est, written c. 251, four to five years before the Stephen controversy",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.chapman-les-interpolations-dans-le-traite-de-unitate",
+                      "author": "John Chapman",
+                      "work": "'Les interpolations dans le traité de S. Cyprien sur l'Unité de l'Église,' Revue Bénédictine 19 (1902): 246-254, 357-373; 20 (1903): 26-51",
+                      "locus": "the foundational 1902-03 study first identifying and arguing the two-recension interpolation thesis",
+                      "rights_status": "in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note says \"in copyright\" and \"consultation-only\" or \"not a vendoring candidate\" is in this category' -- spanning primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build, never quoted as licensed vendored material.",
+                      "edition": "Revue Bénédictine, 1902-1903 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring candidate"
+                    },
+                    {
+                      "source_id": "lpc.source.van-den-eynde-double-edition-de-unitate",
+                      "author": "D. van den Eynde",
+                      "work": "'La double édition du De unitate de S. Cyprien,' Revue d'Histoire Ecclésiastique 29 (1933): 5-24",
+                      "locus": "'La double édition du De unitate de S. Cyprien' (1933), restating the textual problem three decades after Chapman",
+                      "rights_status": "in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note says \"in copyright\" and \"consultation-only\" or \"not a vendoring candidate\" is in this category' -- spanning primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build, never quoted as licensed vendored material.",
+                      "edition": "RHE, 1933 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring candidate"
+                    },
+                    {
+                      "source_id": "lpc.source.bevenot-de-lapsis-and-de-unitate-critical-edition",
+                      "author": "Maurice Bévenot (editor and translator); Cyprian of Carthage (author)",
+                      "work": "Cyprian: De Lapsis and De Ecclesiae Catholicae Unitate, Oxford Early Christian Texts (Oxford: Clarendon Press, 1971)",
+                      "locus": "the 1971 Oxford critical edition named by this world's own Registry as the instrument that would resolve which recension is prior -- not yet read by this build",
+                      "rights_status": "in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note says \"in copyright\" and \"consultation-only\" or \"not a vendoring candidate\" is in this category' -- spanning primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build, never quoted as licensed vendored material.",
+                      "edition": "Clarendon Press, 1971 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring candidate"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Cyprian taught that the episcopate is one office, and each bishop holds his part for the whole.",
+              "record_ids": [
+                "lpc.term.the-one-episcopate"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.the-one-episcopate",
+                  "record_type": "term",
+                  "label": "the one episcopate",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-unitate",
+                      "author": "Cyprian of Carthage",
+                      "work": "On the Unity of the Church (De Unitate)",
+                      "locus": "De Unitate 5, Cyprian's own ecclesiology of the single, undivided episcopate -- 'The episcopate is one, each part of which is held by each one for the whole'",
+                      "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.communion",
+              "matched_name": "communion",
+              "text_start": 767,
+              "plain_meaning": "For us, communion is a formal standing within the one body. You can lose it, and be given it back. At the council of 256, Cyprian said no one would be put out of it for thinking differently.",
+              "quick_meaning": "For us, communion is a real standing inside the one body. You can lose it, and be given it back. Cyprian held that it should survive sharp disagreement.",
+              "translational_sense": "A modern listener is likely to hear either a specific liturgical rite -- going up to receive -- or a general warmth of fellowship, and the second makes disagreement look like a failure of communion. We mean a formal, structural status of standing within the body, with public consequences, that, on Cyprian's own principle, disagreement should not dissolve. Disagreement is expected among us; what would break communion is not arguing but separating.",
+              "false_friend": [
+                "a specific liturgical rite alone, going up to receive, with no broader sense of standing attached",
+                "a general warmth of fellowship and mutual good feeling, so that any real disagreement looks like a failure of it"
+              ],
+              "sourced_by": []
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.cyprian",
+              "matched_name": "Cyprian",
+              "text_start": 174,
+              "names": [
+                {
+                  "name": "Cyprian, our bishop at Carthage",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague he taught us to love even our enemies. He was put to death under Valerian.",
+              "dates": {
+                "display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised (Doc_01 SS2; lpc.story.election-of-cyprian); banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258 (lpc.story.the-death-of-cyprian)"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-de-unitate",
+                  "author": "Cyprian of Carthage",
+                  "work": "On the Unity of the Church (De Unitate)",
+                  "locus": "the classic treatise on schism and the one episcopate; De Unitate 4-5, the disputed passage; De Unitate 5's episcopatus unus est, written c. 251, four to five years before the Stephen controversy",
+                  "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                },
+                {
+                  "source_id": "lpc.source.chapman-les-interpolations-dans-le-traite-de-unitate",
+                  "author": "John Chapman",
+                  "work": "'Les interpolations dans le traité de S. Cyprien sur l'Unité de l'Église,' Revue Bénédictine 19 (1902): 246-254, 357-373; 20 (1903): 26-51",
+                  "locus": "the foundational 1902-03 study first identifying and arguing the two-recension interpolation thesis",
+                  "rights_status": "in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note says \"in copyright\" and \"consultation-only\" or \"not a vendoring candidate\" is in this category' -- spanning primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build, never quoted as licensed vendored material.",
+                  "edition": "Revue Bénédictine, 1902-1903 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring candidate"
+                },
+                {
+                  "source_id": "lpc.source.van-den-eynde-double-edition-de-unitate",
+                  "author": "D. van den Eynde",
+                  "work": "'La double édition du De unitate de S. Cyprien,' Revue d'Histoire Ecclésiastique 29 (1933): 5-24",
+                  "locus": "'La double édition du De unitate de S. Cyprien' (1933), restating the textual problem three decades after Chapman",
+                  "rights_status": "in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note says \"in copyright\" and \"consultation-only\" or \"not a vendoring candidate\" is in this category' -- spanning primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build, never quoted as licensed vendored material.",
+                  "edition": "RHE, 1933 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring candidate"
+                },
+                {
+                  "source_id": "lpc.source.bevenot-de-lapsis-and-de-unitate-critical-edition",
+                  "author": "Maurice Bévenot (editor and translator); Cyprian of Carthage (author)",
+                  "work": "Cyprian: De Lapsis and De Ecclesiae Catholicae Unitate, Oxford Early Christian Texts (Oxford: Clarendon Press, 1971)",
+                  "locus": "the 1971 Oxford critical edition named by this world's own Registry as the instrument that would resolve which recension is prior -- not yet read by this build",
+                  "rights_status": "in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note says \"in copyright\" and \"consultation-only\" or \"not a vendoring candidate\" is in this category' -- spanning primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build, never quoted as licensed vendored material.",
+                  "edition": "Clarendon Press, 1971 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring candidate"
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "did_it_happen",
+          "offered_ids": {
+            "contested_claim": [
+              "lpc.contested.de-unitate-recensions"
+            ],
+            "term": [
+              "lpc.term.the-one-episcopate"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We do not know.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We do not know."
+              },
+              {
+                "sentence": "Chapters 4-5 of De Unitate survive in two versions.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['de', 'unitate'], number) with no citation tag",
+                "draft": "Chapters 4-5 of De Unitate survive in two versions."
+              },
+              {
+                "sentence": "One, called the 'Primacy Text', reads more favourably toward Roman primacy.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['roman', \"text'\"]) with no citation tag",
+                "draft": "One, called the 'Primacy Text', reads more favourably toward Roman primacy."
+              },
+              {
+                "sentence": "The other does not.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The other does not."
+              },
+              {
+                "sentence": "Which one Cyprian wrote first, or whether he wrote both himself, is contested.",
+                "tags": [
+                  "lpc.contested.de-unitate-recensions"
+                ],
+                "verdict": "ok",
+                "why": "grounded 75% in own tagged records",
+                "ratio": 0.75,
+                "draft": "Which one Cyprian wrote first, or whether he wrote both himself, is contested [[lpc.contested.de-unitate-recensions]]."
+              },
+              {
+                "sentence": "The question has been argued at length, and we do not claim to settle it.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The question has been argued at length, and we do not claim to settle it."
+              },
+              {
+                "sentence": "What we can say plainly is this: nothing in our own account here rests on which version came first.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "What we can say plainly is this: nothing in our own account here rests on which version came first."
+              },
+              {
+                "sentence": "Cyprian taught that the episcopate is one office, and each bishop holds his part for the whole.",
+                "tags": [
+                  "lpc.term.the-one-episcopate"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "Cyprian taught that the episcopate is one office, and each bishop holds his part for the whole [[lpc.term.the-one-episcopate]]."
+              },
+              {
+                "sentence": "That teaching stands in either version.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "That teaching stands in either version."
+              },
+              {
+                "sentence": "The sharpest dispute Cyprian argued was over the font, not over Peter's chair.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['cyprian', \"peter's\"]) with no citation tag",
+                "draft": "The sharpest dispute Cyprian argued was over the font, not over Peter's chair."
+              },
+              {
+                "sentence": "His council of 256 ruled one way, and Rome ruled another.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['rome'], number) with no citation tag",
+                "draft": "His council of 256 ruled one way, and Rome ruled another."
+              },
+              {
+                "sentence": "Our later bishop called that ruling wrong, but never put Cyprian outside our communion.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['cyprian']) with no citation tag",
+                "draft": "Our later bishop called that ruling wrong, but never put Cyprian outside our communion."
+              },
+              {
+                "sentence": "Whether the Primacy Text came from Cyprian's own hand or from someone else's, that pattern holds.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:[\"cyprian's\", 'primacy', 'text']) with no citation tag",
+                "draft": "Whether the Primacy Text came from Cyprian's own hand or from someone else's, that pattern holds."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 13,
+                "cited_record_ids": [
+                  "lpc.contested.de-unitate-recensions",
+                  "lpc.term.the-one-episcopate"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "We do not know.",
+                    "tags": [
+                      "lpc.contested.de-unitate-recensions",
+                      "lpc.term.the-one-episcopate"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "1": {
+                    "sentence": "Chapters 4-5 of De Unitate survive in two versions.",
+                    "tags": [
+                      "lpc.contested.de-unitate-recensions",
+                      "lpc.term.the-one-episcopate"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 60% in own tagged records",
+                    "ratio": 0.6
+                  },
+                  "2": {
+                    "sentence": "One, called the 'Primacy Text', reads more favourably toward Roman primacy.",
+                    "tags": [
+                      "lpc.contested.de-unitate-recensions",
+                      "lpc.term.the-one-episcopate"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 88% in own tagged records",
+                    "ratio": 0.88
+                  },
+                  "3": {
+                    "sentence": "The other does not.",
+                    "tags": [
+                      "lpc.contested.de-unitate-recensions",
+                      "lpc.term.the-one-episcopate"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "5": {
+                    "sentence": "The question has been argued at length, and we do not claim to settle it.",
+                    "tags": [
+                      "lpc.contested.de-unitate-recensions",
+                      "lpc.term.the-one-episcopate"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "6": {
+                    "sentence": "What we can say plainly is this: nothing in our own account here rests on which version came first.",
+                    "tags": [
+                      "lpc.contested.de-unitate-recensions",
+                      "lpc.term.the-one-episcopate"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "8": {
+                    "sentence": "That teaching stands in either version.",
+                    "tags": [
+                      "lpc.contested.de-unitate-recensions",
+                      "lpc.term.the-one-episcopate"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "9": {
+                    "sentence": "The sharpest dispute Cyprian argued was over the font, not over Peter's chair.",
+                    "tags": [
+                      "lpc.contested.de-unitate-recensions",
+                      "lpc.term.the-one-episcopate"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 43% in own tagged records",
+                    "ratio": 0.43
+                  },
+                  "10": {
+                    "sentence": "His council of 256 ruled one way, and Rome ruled another.",
+                    "tags": [
+                      "lpc.contested.de-unitate-recensions",
+                      "lpc.term.the-one-episcopate"
+                    ],
+                    "verdict": "withhold",
+                    "why": "specific claim (proper-noun:['rome'], number) only 20% grounded in its own tags",
+                    "ratio": 0.2
+                  },
+                  "11": {
+                    "sentence": "Our later bishop called that ruling wrong, but never put Cyprian outside our communion.",
+                    "tags": [
+                      "lpc.contested.de-unitate-recensions",
+                      "lpc.term.the-one-episcopate"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 60% in own tagged records",
+                    "ratio": 0.6
+                  },
+                  "12": {
+                    "sentence": "Whether the Primacy Text came from Cyprian's own hand or from someone else's, that pattern holds.",
+                    "tags": [
+                      "lpc.contested.de-unitate-recensions",
+                      "lpc.term.the-one-episcopate"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 40% in own tagged records",
+                    "ratio": 0.4
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [],
+              "removed": []
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 15
+              },
+              {
+                "index": 1,
+                "text_start": 16,
+                "text_end": 67
+              },
+              {
+                "index": 2,
+                "text_start": 68,
+                "text_end": 143
+              },
+              {
+                "index": 3,
+                "text_start": 144,
+                "text_end": 163
+              },
+              {
+                "index": 4,
+                "text_start": 164,
+                "text_end": 242
+              },
+              {
+                "index": 5,
+                "text_start": 243,
+                "text_end": 316
+              },
+              {
+                "index": 6,
+                "text_start": 317,
+                "text_end": 416
+              },
+              {
+                "index": 7,
+                "text_start": 417,
+                "text_end": 512
+              },
+              {
+                "index": 8,
+                "text_start": 513,
+                "text_end": 552
+              },
+              {
+                "index": 9,
+                "text_start": 553,
+                "text_end": 631
+              },
+              {
+                "index": 10,
+                "text_start": 632,
+                "text_end": 689
+              },
+              {
+                "index": 11,
+                "text_start": 690,
+                "text_end": 777
+              },
+              {
+                "index": 12,
+                "text_start": 778,
+                "text_end": 875
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.cyprian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 4,
+                "char_start": 10,
+                "char_end": 17,
+                "surface": "Cyprian"
+              },
+              {
+                "record_id": "lpc.term.communion",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The chunk's own Key Sources section states this precisely rather than leaving it to inference: 'The underlying primary-source facts reach Documented. The synthesis -- that these constitute one named cross-phase gravity rather than two separate historical facts -- is this build's own reasoning, at Widely Accepted, and Doc_04 SS3 flags the divergence rather than upgrading it.' This term record IS that synthesis, so its own formation_confidence follows the synthesis's own rating, not the underlying quoted facts' rating. Doc_03 itself characterizes the pattern the same way: inferred from both bishops' conduct across more than one text, not a term either bishop names as such.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 11,
+                "char_start": 77,
+                "char_end": 86,
+                "surface": "communion"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.contested.de-unitate-recensions",
+                "record_type": "contested_claim",
+                "label": "De Unitate 4-5 survives in a single authorial text, and the version of chapters 4-5 commonly called the 'Primacy Text' -- reading more favourably toward Roman primacy than the alternative recension -- is a later interpolation into Cyprian's own original wording, not evidence of anything Cyprian himself wrote or revised.",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "author": "Cyprian of Carthage",
+                    "work": "On the Unity of the Church (De Unitate)",
+                    "locus": "the classic treatise on schism and the one episcopate; De Unitate 4-5, the disputed passage; De Unitate 5's episcopatus unus est, written c. 251, four to five years before the Stephen controversy",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.chapman-les-interpolations-dans-le-traite-de-unitate",
+                    "author": "John Chapman",
+                    "work": "'Les interpolations dans le traité de S. Cyprien sur l'Unité de l'Église,' Revue Bénédictine 19 (1902): 246-254, 357-373; 20 (1903): 26-51",
+                    "locus": "the foundational 1902-03 study first identifying and arguing the two-recension interpolation thesis",
+                    "rights_status": "in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note says \"in copyright\" and \"consultation-only\" or \"not a vendoring candidate\" is in this category' -- spanning primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build, never quoted as licensed vendored material.",
+                    "edition": "Revue Bénédictine, 1902-1903 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring candidate"
+                  },
+                  {
+                    "source_id": "lpc.source.van-den-eynde-double-edition-de-unitate",
+                    "author": "D. van den Eynde",
+                    "work": "'La double édition du De unitate de S. Cyprien,' Revue d'Histoire Ecclésiastique 29 (1933): 5-24",
+                    "locus": "'La double édition du De unitate de S. Cyprien' (1933), restating the textual problem three decades after Chapman",
+                    "rights_status": "in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note says \"in copyright\" and \"consultation-only\" or \"not a vendoring candidate\" is in this category' -- spanning primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build, never quoted as licensed vendored material.",
+                    "edition": "RHE, 1933 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring candidate"
+                  },
+                  {
+                    "source_id": "lpc.source.bevenot-de-lapsis-and-de-unitate-critical-edition",
+                    "author": "Maurice Bévenot (editor and translator); Cyprian of Carthage (author)",
+                    "work": "Cyprian: De Lapsis and De Ecclesiae Catholicae Unitate, Oxford Early Christian Texts (Oxford: Clarendon Press, 1971)",
+                    "locus": "the 1971 Oxford critical edition named by this world's own Registry as the instrument that would resolve which recension is prior -- not yet read by this build",
+                    "rights_status": "in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note says \"in copyright\" and \"consultation-only\" or \"not a vendoring candidate\" is in this category' -- spanning primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build, never quoted as licensed vendored material.",
+                    "edition": "Clarendon Press, 1971 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring candidate"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "contested",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.term.the-one-episcopate",
+                "record_type": "term",
+                "label": "the one episcopate",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "author": "Cyprian of Carthage",
+                    "work": "On the Unity of the Church (De Unitate)",
+                    "locus": "De Unitate 5, Cyprian's own ecclesiology of the single, undivided episcopate -- 'The episcopate is one, each part of which is held by each one for the whole'",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "De Unitate predates the Stephen controversy by several years and does not carry Cyprian's own anti-Stephen argument; the phrase episcopatus unus est is not evidence for that dispute, and this entry uses the treatise for its general ecclesiology only, per Doc_03's own explicit instruction that the caution be carried forward. That row also carries an unresolved two-recension question for chapters 4-5, on which nothing in this entry depends.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.contested.de-unitate-recensions",
+                "record_type": "contested_claim",
+                "label": "De Unitate 4-5 survives in a single authorial text, and the version of chapters 4-5 commonly called the 'Primacy Text' -- reading more favourably toward Roman primacy than the alternative recension -- is a later interpolation into Cyprian's own original wording, not evidence of anything Cyprian himself wrote or revised.",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "author": "Cyprian of Carthage",
+                    "work": "On the Unity of the Church (De Unitate)",
+                    "locus": "the classic treatise on schism and the one episcopate; De Unitate 4-5, the disputed passage; De Unitate 5's episcopatus unus est, written c. 251, four to five years before the Stephen controversy",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.chapman-les-interpolations-dans-le-traite-de-unitate",
+                    "author": "John Chapman",
+                    "work": "'Les interpolations dans le traité de S. Cyprien sur l'Unité de l'Église,' Revue Bénédictine 19 (1902): 246-254, 357-373; 20 (1903): 26-51",
+                    "locus": "the foundational 1902-03 study first identifying and arguing the two-recension interpolation thesis",
+                    "rights_status": "in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note says \"in copyright\" and \"consultation-only\" or \"not a vendoring candidate\" is in this category' -- spanning primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build, never quoted as licensed vendored material.",
+                    "edition": "Revue Bénédictine, 1902-1903 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring candidate"
+                  },
+                  {
+                    "source_id": "lpc.source.van-den-eynde-double-edition-de-unitate",
+                    "author": "D. van den Eynde",
+                    "work": "'La double édition du De unitate de S. Cyprien,' Revue d'Histoire Ecclésiastique 29 (1933): 5-24",
+                    "locus": "'La double édition du De unitate de S. Cyprien' (1933), restating the textual problem three decades after Chapman",
+                    "rights_status": "in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note says \"in copyright\" and \"consultation-only\" or \"not a vendoring candidate\" is in this category' -- spanning primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build, never quoted as licensed vendored material.",
+                    "edition": "RHE, 1933 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring candidate"
+                  },
+                  {
+                    "source_id": "lpc.source.bevenot-de-lapsis-and-de-unitate-critical-edition",
+                    "author": "Maurice Bévenot (editor and translator); Cyprian of Carthage (author)",
+                    "work": "Cyprian: De Lapsis and De Ecclesiae Catholicae Unitate, Oxford Early Christian Texts (Oxford: Clarendon Press, 1971)",
+                    "locus": "the 1971 Oxford critical edition named by this world's own Registry as the instrument that would resolve which recension is prior -- not yet read by this build",
+                    "rights_status": "in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note says \"in copyright\" and \"consultation-only\" or \"not a vendoring candidate\" is in this category' -- spanning primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build, never quoted as licensed vendored material.",
+                    "edition": "Clarendon Press, 1971 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring candidate"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": null,
+                  "evidentiary_weight": "contested",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.term.the-one-episcopate",
+                "record_type": "term",
+                "label": "the one episcopate",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-unitate",
+                    "author": "Cyprian of Carthage",
+                    "work": "On the Unity of the Church (De Unitate)",
+                    "locus": "De Unitate 5, Cyprian's own ecclesiology of the single, undivided episcopate -- 'The episcopate is one, each part of which is held by each one for the whole'",
+                    "rights_status": "public-domain; vendored in cic/texts/ as part of the corpus map's own pre-existing inventory (role: tradition, confidence: assigned), carried into this world's construction without this row's own specific locus being independently re-collated.",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "De Unitate predates the Stephen controversy by several years and does not carry Cyprian's own anti-Stephen argument; the phrase episcopatus unus est is not evidence for that dispute, and this entry uses the treatise for its general ecclesiology only, per Doc_03's own explicit instruction that the caution be carried forward. That row also carries an unresolved two-recension question for chapters 4-5, on which nothing in this entry depends.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-via-authority"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 6,
+              "sentence_indexes": [
+                1,
+                2,
+                9,
+                10,
+                11,
+                12
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [],
+            "removed": []
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

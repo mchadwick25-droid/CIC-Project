@@ -1,0 +1,985 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:d614a1ee8d0b12fad56ca7dd7d6d11a83eeb28b7a9f71eeec4e43af648d2f9e6",
+  "package": "packages/lpc/2026-10-26T18-33-28Z",
+  "live_test": {
+    "name": "lpc full validation, 27 October",
+    "cap_usd": 0.2,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.030717
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 1797,
+      "output_tokens": 112,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 2092,
+      "output_tokens": 179,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc full validation, 27 October",
+      "input_tokens": 3714,
+      "output_tokens": 293,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 23478
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "What happened among you in the century between Cyprian and Augustine?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "From 258 to 391 our own ordinary pastoral voice falls silent, as far as we have weighed what survives. Cyprian died on 14 September 258. Augustine was seized at Hippo in 391 and made a priest against his own wishes. Possidius wrote: “The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.”\n\nThat silence of a hundred and thirty years is not an edge we stand at, the way our beginning and our close are edges. It sits inside our own life. It is not a period in which nothing happened. It is a silence in our own pastoral voice, the voice of a bishop caring for his own flock in one place. We do not explain why the silence exists, and we will not fill it from a neighbouring communion's own record, even where that record runs through exactly those years. A handful of old sermons may come from that stretch. We have not weighed them yet, so we neither lean on them nor rule them out.",
+          "citations": [
+            {
+              "sentence": "From 258 to 391 our own ordinary pastoral voice falls silent, as far as we have weighed what survives.",
+              "record_ids": [
+                "lpc.limit.the-silent-century"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.the-silent-century",
+                  "record_type": "honest_limit",
+                  "label": "Something like a hundred and thirty years sit between the death of the bishop who opens o…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "author": "Cyprian of Carthage and the African episcopate in council",
+                      "work": "The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256; the vendored edition's own heading dates it a.d. 258)",
+                      "locus": "256, the last dated act of this world's first phase",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                      "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                      "locus": "391, Augustine's own ordination, the first dated act of this world's second phase",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Cyprian died on 14 September 258.",
+              "record_ids": [
+                "lpc.story.the-death-of-cyprian"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.story.the-death-of-cyprian",
+                  "record_type": "story",
+                  "label": "How two early texts tell the death of our great bishop Cyprian, and where they differ",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "author": "Pontius the Deacon",
+                      "work": "The Life and Passion of Cyprian, Bishop and Martyr",
+                      "locus": "SSSS15-19; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 28161-28303; Latin in cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines 41243-41366",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.acta-proconsularia-sancti-cypriani",
+                      "author": "An unnamed imperial notary or court recorder",
+                      "work": "Acta Proconsularia Sancti Cypriani (the official trial record of Cyprian's own martyrdom, 258)",
+                      "locus": "Acta 2-6, an early compilation with an unnamed compiler, in one edition (Hartel) printed three times; cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt, lines 4877-4958, quoted here; the same text in the Hartel volume, lines 41509-41626, and in Gebhardt no. XI",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "No independent edition or URL was ever located under this row's own number. Vendored inside row 194: Hartel's CSEL 3 Pars III includes the Acta Proconsularia immediately after the Vita (pp. CX-CXIV of the printed volume), as cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Possidius wrote: “The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.”",
+              "record_ids": [
+                "lpc.quote.clamour-and-tears"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.clamour-and-tears",
+                  "record_type": "quote",
+                  "label": "Sancti Augustini Vita Scripta a Possidio Episcopo, Vita Augustini IV — Possidius, bishop of Calama",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                      "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                      "locus": "Vita Augustini IV; independently re-located and re-read this session at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 1817",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+                    }
+                  ],
+                  "spoken_rendering": "The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.",
+                  "speaker": "Possidius, bishop of Calama"
+                }
+              ]
+            },
+            {
+              "sentence": "It sits inside our own life.",
+              "record_ids": [
+                "lpc.limit.the-silent-century"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.the-silent-century",
+                  "record_type": "honest_limit",
+                  "label": "Something like a hundred and thirty years sit between the death of the bishop who opens o…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "author": "Cyprian of Carthage and the African episcopate in council",
+                      "work": "The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256; the vendored edition's own heading dates it a.d. 258)",
+                      "locus": "256, the last dated act of this world's first phase",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                      "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                      "locus": "391, Augustine's own ordination, the first dated act of this world's second phase",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "It is a silence in our own pastoral voice, the voice of a bishop caring for his own flock in one place.",
+              "record_ids": [
+                "lpc.limit.the-silent-century"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.the-silent-century",
+                  "record_type": "honest_limit",
+                  "label": "Something like a hundred and thirty years sit between the death of the bishop who opens o…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "author": "Cyprian of Carthage and the African episcopate in council",
+                      "work": "The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256; the vendored edition's own heading dates it a.d. 258)",
+                      "locus": "256, the last dated act of this world's first phase",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                      "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                      "locus": "391, Augustine's own ordination, the first dated act of this world's second phase",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We do not explain why the silence exists, and we will not fill it from a neighbouring communion's own record, even where that record runs through exactly those years.",
+              "record_ids": [
+                "lpc.limit.the-silent-century"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.the-silent-century",
+                  "record_type": "honest_limit",
+                  "label": "Something like a hundred and thirty years sit between the death of the bishop who opens o…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "author": "Cyprian of Carthage and the African episcopate in council",
+                      "work": "The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256; the vendored edition's own heading dates it a.d. 258)",
+                      "locus": "256, the last dated act of this world's first phase",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                      "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                      "locus": "391, Augustine's own ordination, the first dated act of this world's second phase",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We have not weighed them yet, so we neither lean on them nor rule them out.",
+              "record_ids": [
+                "lpc.limit.the-silent-century"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.limit.the-silent-century",
+                  "record_type": "honest_limit",
+                  "label": "Something like a hundred and thirty years sit between the death of the bishop who opens o…",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                      "author": "Cyprian of Carthage and the African episcopate in council",
+                      "work": "The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256; the vendored edition's own heading dates it a.d. 258)",
+                      "locus": "256, the last dated act of this world's first phase",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                      "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                      "locus": "391, Augustine's own ordination, the first dated act of this world's second phase",
+                      "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                      "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "lpc.term.the-people",
+              "matched_name": "the people",
+              "text_start": 355,
+              "plain_meaning": "We are not a silent audience. We put men into office, and we say so out loud. We can stand in front of a bishop's own seat and refuse to go home.",
+              "quick_meaning": "For us, 'the people' names the congregation when it acts. They consent, they demand, and they elect -- unlike the flock, which is the congregation being cared for.",
+              "translational_sense": "A modern listener may hear either a passive congregation or a modern democratic electorate with formal voting rights. Neither is right. A corporate body whose consent and demand genuinely constitute a call to office, and which can be exerted disruptively, but which holds no procedural mechanism and can still be refused.",
+              "false_friend": [
+                "a passive congregation with no real leverage over its own clergy",
+                "a modern democratic electorate, with a formal ballot and a fixed voting procedure"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                  "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                  "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                  "locus": "Vita Augustini IV; independently re-located and re-read this session at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 1817",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+                }
+              ]
+            },
+            {
+              "id": "lpc.term.communion",
+              "matched_name": "communion",
+              "text_start": 1073,
+              "plain_meaning": "For us, communion is a formal standing within the one body. You can lose it, and be given it back. At the council of 256, Cyprian said no one would be put out of it for thinking differently.",
+              "quick_meaning": "For us, communion is a real standing inside the one body. You can lose it, and be given it back. Cyprian held that it should survive sharp disagreement.",
+              "translational_sense": "A modern listener is likely to hear either a specific liturgical rite -- going up to receive -- or a general warmth of fellowship, and the second makes disagreement look like a failure of communion. We mean a formal, structural status of standing within the body, with public consequences, that, on Cyprian's own principle, disagreement should not dissolve. Disagreement is expected among us; what would break communion is not arguing but separating.",
+              "false_friend": [
+                "a specific liturgical rite alone, going up to receive, with no broader sense of standing attached",
+                "a general warmth of fellowship and mutual good feeling, so that any real disagreement looks like a failure of it"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                  "author": "Cyprian of Carthage and the African episcopate in council",
+                  "work": "The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256; the vendored edition's own heading dates it a.d. 258)",
+                  "locus": "256, the last dated act of this world's first phase",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                },
+                {
+                  "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                  "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                  "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                  "locus": "391, Augustine's own ordination, the first dated act of this world's second phase",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+                }
+              ]
+            }
+          ],
+          "figures_used": [
+            {
+              "id": "lpc.figure.cyprian",
+              "matched_name": "Cyprian",
+              "text_start": 103,
+              "names": [
+                {
+                  "name": "Cyprian, our bishop at Carthage",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague he taught us to love even our enemies. He was put to death under Valerian.",
+              "dates": {
+                "display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised (Doc_01 SS2; lpc.story.election-of-cyprian); banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258 (lpc.story.the-death-of-cyprian)"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                  "author": "Pontius the Deacon",
+                  "work": "The Life and Passion of Cyprian, Bishop and Martyr",
+                  "locus": "SSSS15-19; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 28161-28303; Latin in cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines 41243-41366",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                },
+                {
+                  "source_id": "lpc.source.acta-proconsularia-sancti-cypriani",
+                  "author": "An unnamed imperial notary or court recorder",
+                  "work": "Acta Proconsularia Sancti Cypriani (the official trial record of Cyprian's own martyrdom, 258)",
+                  "locus": "Acta 2-6, an early compilation with an unnamed compiler, in one edition (Hartel) printed three times; cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt, lines 4877-4958, quoted here; the same text in the Hartel volume, lines 41509-41626, and in Gebhardt no. XI",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "No independent edition or URL was ever located under this row's own number. Vendored inside row 194: Hartel's CSEL 3 Pars III includes the Acta Proconsularia immediately after the Vita (pp. CX-CXIV of the printed volume), as cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt"
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 137,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV, independently re-located this session; Doc_01 SS2); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII; Doc_01 SS2); died 430, during the Vandal siege of Hippo (lpc.story.the-psalms-on-the-wall)"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                  "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                  "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                  "locus": "Vita Augustini IV; independently re-located and re-read this session at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 1817",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.possidius",
+              "matched_name": "Possidius",
+              "text_start": 216,
+              "names": [
+                {
+                  "name": "Possidius, bishop of Calama",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Possidius of Calama (d. after 437)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "the bishop of Calama who had been Augustine's friend for almost forty years, and who stood by him and prayed as he died",
+              "dates": {
+                "display": "Augustine's own friend for nearly forty years; bishop of Calama in his own right; physically present at Augustine's deathbed in 430, one of those Augustine 'asked of us who were present' (lpc.story.the-psalms-on-the-wall); wrote the Vita Augustini, the source for both lpc.story.the-psalms-on-the-wall and lpc.quote.clamour-and-tears"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                  "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                  "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                  "locus": "Vita Augustini IV; independently re-located and re-read this session at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 1817",
+                  "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                  "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_happened",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.infants-and-the-sin-of-another",
+              "lpc.witness.answerability-as-ground"
+            ],
+            "term": [
+              "lpc.term.grace",
+              "lpc.term.the-flock"
+            ],
+            "story": [
+              "lpc.story.numidicus",
+              "lpc.story.the-psalms-on-the-wall",
+              "lpc.story.the-death-of-cyprian",
+              "lpc.story.election-of-cyprian"
+            ],
+            "quote": [
+              "lpc.quote.the-mildest-condemnation-of-all",
+              "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+              "lpc.quote.clamour-and-tears",
+              "lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock"
+            ],
+            "force": [
+              "lpc.force.manichaeism-and-pelagian-anthropology",
+              "lpc.force.congregational-acclamation-overriding-preference"
+            ],
+            "contested_claim": [
+              "lpc.contested.de-unitate-recensions"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "From 258 to 391 our own ordinary pastoral voice falls silent, as far as we have weighed what survives.",
+                "tags": [
+                  "lpc.limit.the-silent-century"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "From 258 to 391 our own ordinary pastoral voice falls silent, as far as we have weighed what survives [[lpc.limit.the-silent-century]]."
+              },
+              {
+                "sentence": "Cyprian died on 14 September 258.",
+                "tags": [
+                  "lpc.story.the-death-of-cyprian"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "narrates_story": true,
+                "draft": "Cyprian died on 14 September 258 [[lpc.story.the-death-of-cyprian]]."
+              },
+              {
+                "sentence": "Augustine was seized at Hippo in 391 and made a priest against his own wishes.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['hippo'], number) with no citation tag",
+                "draft": "Augustine was seized at Hippo in 391 and made a priest against his own wishes."
+              },
+              {
+                "sentence": "Possidius wrote: “The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.”",
+                "tags": [
+                  "lpc.quote.clamour-and-tears"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.clamour-and-tears",
+                "draft": "Possidius wrote: [[quote:lpc.quote.clamour-and-tears]]"
+              },
+              {
+                "sentence": "That silence of a hundred and thirty years is not an edge we stand at, the way our beginning and our close are edges.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (number) with no citation tag",
+                "draft": "That silence of a hundred and thirty years is not an edge we stand at, the way our beginning and our close are edges."
+              },
+              {
+                "sentence": "It sits inside our own life.",
+                "tags": [
+                  "lpc.limit.the-silent-century"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "It sits inside our own life [[lpc.limit.the-silent-century]]."
+              },
+              {
+                "sentence": "It is not a period in which nothing happened.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "It is not a period in which nothing happened."
+              },
+              {
+                "sentence": "It is a silence in our own pastoral voice, the voice of a bishop caring for his own flock in one place.",
+                "tags": [
+                  "lpc.limit.the-silent-century"
+                ],
+                "verdict": "ok",
+                "why": "grounded 71% in own tagged records",
+                "ratio": 0.71,
+                "draft": "It is a silence in our own pastoral voice, the voice of a bishop caring for his own flock in one place [[lpc.limit.the-silent-century]]."
+              },
+              {
+                "sentence": "We do not explain why the silence exists, and we will not fill it from a neighbouring communion's own record, even where that record runs through exactly those years.",
+                "tags": [
+                  "lpc.limit.the-silent-century"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "We do not explain why the silence exists, and we will not fill it from a neighbouring communion's own record, even where that record runs through exactly those years [[lpc.limit.the-silent-century]]."
+              },
+              {
+                "sentence": "A handful of old sermons may come from that stretch.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "A handful of old sermons may come from that stretch."
+              },
+              {
+                "sentence": "We have not weighed them yet, so we neither lean on them nor rule them out.",
+                "tags": [
+                  "lpc.limit.the-silent-century"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "We have not weighed them yet, so we neither lean on them nor rule them out [[lpc.limit.the-silent-century]]."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 4,
+                "cited_record_ids": [
+                  "lpc.limit.the-silent-century",
+                  "lpc.quote.clamour-and-tears",
+                  "lpc.story.the-death-of-cyprian"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "2": {
+                    "sentence": "Augustine was seized at Hippo in 391 and made a priest against his own wishes.",
+                    "tags": [
+                      "lpc.limit.the-silent-century",
+                      "lpc.quote.clamour-and-tears",
+                      "lpc.story.the-death-of-cyprian"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 50% in own tagged records",
+                    "ratio": 0.5
+                  }
+                }
+              },
+              {
+                "sentence_count": 7,
+                "cited_record_ids": [
+                  "lpc.limit.the-silent-century"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "That silence of a hundred and thirty years is not an edge we stand at, the way our beginning and our close are edges.",
+                    "tags": [
+                      "lpc.limit.the-silent-century"
+                    ],
+                    "verdict": "ok",
+                    "why": "grounded 80% in own tagged records",
+                    "ratio": 0.8
+                  },
+                  "2": {
+                    "sentence": "It is not a period in which nothing happened.",
+                    "tags": [
+                      "lpc.limit.the-silent-century"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "5": {
+                    "sentence": "A handful of old sermons may come from that stretch.",
+                    "tags": [
+                      "lpc.limit.the-silent-century"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.clamour-and-tears"
+              ],
+              "removed": []
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 102
+              },
+              {
+                "index": 1,
+                "text_start": 103,
+                "text_end": 136
+              },
+              {
+                "index": 2,
+                "text_start": 137,
+                "text_end": 215
+              },
+              {
+                "index": 3,
+                "text_start": 216,
+                "text_end": 688
+              },
+              {
+                "index": 4,
+                "text_start": 690,
+                "text_end": 807
+              },
+              {
+                "index": 5,
+                "text_start": 808,
+                "text_end": 836
+              },
+              {
+                "index": 6,
+                "text_start": 837,
+                "text_end": 882
+              },
+              {
+                "index": 7,
+                "text_start": 883,
+                "text_end": 986
+              },
+              {
+                "index": 8,
+                "text_start": 987,
+                "text_end": 1153
+              },
+              {
+                "index": 9,
+                "text_start": 1154,
+                "text_end": 1206
+              },
+              {
+                "index": 10,
+                "text_start": 1207,
+                "text_end": 1282
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.cyprian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 1,
+                "char_start": 0,
+                "char_end": 7,
+                "surface": "Cyprian"
+              },
+              {
+                "record_id": "lpc.story.the-death-of-cyprian",
+                "record_type": "story",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Widely Accepted rather than Documented, because the corroborating text is an early compilation whose compiler is unnamed, and vendored scholarship argues over how it relates to Pontius. The details only Pontius gives (the trees, the comparison to Zacchaeus, the trembling fingers, the hand strengthened from above) carry Contested confidence, and Inferential-Thin where hagiographic convention shapes them. The two texts differ on who tied the cloths over Cyprian's eyes. Which clause of CF V7.4's Tier 3 definition governs when they conflict is an open governance question (Doc_09 SS8 item 7), and this story does not rest on it.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "story",
+                "sentence_index": 1,
+                "char_start": 0,
+                "char_end": 33,
+                "surface": "Cyprian died on 14 September 258."
+              },
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 2,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.figure.possidius",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 3,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Possidius"
+              },
+              {
+                "record_id": "lpc.term.the-people",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "In the vendored English edition of Cyprian the Latin plebs occurs exactly three times, all inside the 19th-century American editor's own introductory and elucidatory prose, none inside Cyprian's own letters. Cyprian's Latin does use it: Hartel's letters carry plebs in running text, 89 whole-word occurrences with notes excluded, and letter 43 is headed CYPRIANVS PLEBI VNIVERSAE S. 'The people' is the English volume's own recurring rendering for the congregation as an acting body. It is a working handle, and whether plebs becomes the world word is not settled.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 3,
+                "char_start": 139,
+                "char_end": 149,
+                "surface": "the people"
+              },
+              {
+                "record_id": "lpc.quote.clamour-and-tears",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The vendored Weiskotten scan carries a single OCR artifact inside this quotation -- 'ancf' for 'and' -- reproduced here exactly as the scan gives it (matching this record's own text against the raw file precisely, per this step's own discipline), not silently corrected; modern_rendering gives the plain sense ('they demanded it...') rather than reproducing the artifact.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 3,
+                "char_start": 17,
+                "char_end": 472,
+                "surface": "“The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.”"
+              },
+              {
+                "record_id": "lpc.term.communion",
+                "record_type": "term",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The chunk's own Key Sources section states this precisely rather than leaving it to inference: 'The underlying primary-source facts reach Documented. The synthesis -- that these constitute one named cross-phase gravity rather than two separate historical facts -- is this build's own reasoning, at Widely Accepted, and Doc_04 SS3 flags the divergence rather than upgrading it.' This term record IS that synthesis, so its own formation_confidence follows the synthesis's own rating, not the underlying quoted facts' rating. Doc_03 itself characterizes the pattern the same way: inferred from both bishops' conduct across more than one text, not a term either bishop names as such.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "term",
+                "sentence_index": 8,
+                "char_start": 86,
+                "char_end": 95,
+                "surface": "communion"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.limit.the-silent-century",
+                "record_type": "honest_limit",
+                "label": "Something like a hundred and thirty years sit between the death of the bishop who opens o…",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "author": "Cyprian of Carthage and the African episcopate in council",
+                    "work": "The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256; the vendored edition's own heading dates it a.d. 258)",
+                    "locus": "256, the last dated act of this world's first phase",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                    "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                    "locus": "391, Augustine's own ordination, the first dated act of this world's second phase",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "The silence holds only for what this build has assessed. Nine tractatus in Morin 1917, one titled in a manuscript as a sermon of Optatus of Milevis, are not yet assessed (OG-54; Doc_01 SS5; Doc_08 Force 3B-2).",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.story.the-death-of-cyprian",
+                "record_type": "story",
+                "label": "How two early texts tell the death of our great bishop Cyprian, and where they differ",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                    "author": "Pontius the Deacon",
+                    "work": "The Life and Passion of Cyprian, Bishop and Martyr",
+                    "locus": "SSSS15-19; cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 28161-28303; Latin in cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines 41243-41366",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.acta-proconsularia-sancti-cypriani",
+                    "author": "An unnamed imperial notary or court recorder",
+                    "work": "Acta Proconsularia Sancti Cypriani (the official trial record of Cyprian's own martyrdom, 258)",
+                    "locus": "Acta 2-6, an early compilation with an unnamed compiler, in one edition (Hartel) printed three times; cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt, lines 4877-4958, quoted here; the same text in the Hartel volume, lines 41509-41626, and in Gebhardt no. XI",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "No independent edition or URL was ever located under this row's own number. Vendored inside row 194: Hartel's CSEL 3 Pars III includes the Acta Proconsularia immediately after the Vita (pp. CX-CXIV of the printed volume), as cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "Widely Accepted rather than Documented, because the corroborating text is an early compilation whose compiler is unnamed, and vendored scholarship argues over how it relates to Pontius. The details only Pontius gives (the trees, the comparison to Zacchaeus, the trembling fingers, the hand strengthened from above) carry Contested confidence, and Inferential-Thin where hagiographic convention shapes them. The two texts differ on who tied the cloths over Cyprian's eyes. Which clause of CF V7.4's Tier 3 definition governs when they conflict is an open governance question (Doc_09 SS8 item 7), and this story does not rest on it.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Widely Accepted",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.quote.clamour-and-tears",
+                "record_type": "quote",
+                "label": "Sancti Augustini Vita Scripta a Possidio Episcopo, Vita Augustini IV — Possidius, bishop of Calama",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                    "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                    "locus": "Vita Augustini IV; independently re-located and re-read this session at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 1817",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+                  }
+                ],
+                "spoken_rendering": "The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.",
+                "speaker": "Possidius, bishop of Calama",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The vendored Weiskotten scan carries a single OCR artifact inside this quotation -- 'ancf' for 'and' -- reproduced here exactly as the scan gives it (matching this record's own text against the raw file precisely, per this step's own discipline), not silently corrected; modern_rendering gives the plain sense ('they demanded it...') rather than reproducing the artifact.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.limit.the-silent-century",
+                "record_type": "honest_limit",
+                "label": "Something like a hundred and thirty years sit between the death of the bishop who opens o…",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-seventh-council-of-carthage",
+                    "author": "Cyprian of Carthage and the African episcopate in council",
+                    "work": "The Seventh Council of Carthage under Cyprian (on the baptism of heretics, 256; the vendored edition's own heading dates it a.d. 258)",
+                    "locus": "256, the last dated act of this world's first phase",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+                  },
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "author": "Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator)",
+                    "work": "Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)",
+                    "locus": "391, Augustine's own ordination, the first dated act of this world's second phase",
+                    "rights_status": "public-domain; vendored in cic/texts/, and the specific content this row licenses was directly read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify check (Source_Acquisition_Manifest.md SS1).",
+                    "edition": "Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919; vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "The silence holds only for what this build has assessed. Nine tractatus in Morin 1917, one titled in a manuscript as a sermon of Optatus of Milevis, are not yet assessed (OG-54; Doc_01 SS5; Doc_08 Force 3B-2).",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Contested",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 2,
+              "sentence_indexes": [
+                2,
+                4
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.clamour-and-tears"
+            ],
+            "removed": []
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}
