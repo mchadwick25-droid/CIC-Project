@@ -8,8 +8,8 @@
   "scope": "vendored coverage only - see this script's own docstring for why the acquirable/purchasable/no-edition-exists breakdown is not included here",
   "counts": {
     "total_entries": 298,
-    "entries_with_coverage": 189,
-    "entries_zero_coverage": 109
+    "entries_with_coverage": 190,
+    "entries_zero_coverage": 108
   },
   "entries": {
     "post-apostolic-house-church": {
@@ -14293,7 +14293,16 @@
     "the-georgian-golden-age": {
       "name": "The Georgian Golden Age",
       "status": "Pre-Survey Candidate",
-      "works": []
+      "works": [
+        {
+          "work": "Georgian chronicles, history to the 6th century including Vakhtang Gorgasali (French)",
+          "author": "kartlis-tskhovreba",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "brosset_histoire-de-la-georgie-pt1-fra_1849.txt",
+          "rights": "Public Domain"
+        }
+      ]
     },
     "serbian-and-bulgarian-medieval-monasticism": {
       "name": "Serbian & Bulgarian Medieval Monasticism",

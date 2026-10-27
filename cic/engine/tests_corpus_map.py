@@ -115,8 +115,6 @@ homed = {x.get("work") for ws in buckets3.values() for x in ws
 ACCEPTED_ORPHANS = {
     "Chronique de Seert (Histoire nestorienne), II.2, with French":
         "No East Syriac entry fits the date of this compilation.",
-    "Georgian chronicles, history to the 6th century including Vakhtang Gorgasali (French)":
-        "No Georgian entry covers the period after c. 1000.",
     "Rituale Armenorum and the Old Armenian Lectionary (Appendix II, English)":
         "The manuscripts are later than the window, and no Armenian entry fits their date.",
     "The other Sahidic texts of the volume (apocryphal discourses and legends)":

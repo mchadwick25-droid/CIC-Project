@@ -965,3 +965,7 @@ The census (`cic-website/data/world-census.json`, version V0.20+era10-frozen) ga
 **What the entries hold.** Name, dates, region, lane and a sourcing line that names the vendored works. No teaser, voices, legacy or relations: nothing about either period is asserted beyond where the neighbouring entries stop. The census totals move from 296 to 298 entries and from 215 to 217 Pre-Survey Candidates. `Build/Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx`, named as the census's source, is not changed.
 
 **Still open.** An East Syriac entry for c. 845-1220 (Chronique de Seert, once its compilation date is confirmed from the vendored introduction); the Rituale Armenorum against `armenian-cilicia`, once its manuscript dates are checked; the Georgian chronicles on `the-georgian-golden-age`, a placement Mark has not yet approved; the two Sahidic volumes, which stay on the exception list until dated.
+
+## Georgian chronicles placed on the Georgian golden age (Mark, 2026-10-27)
+
+Brosset's French Georgian chronicles (Histoire de la Georgie, part 1) get a voice row, `tradition` and `provisional`, on `the-georgian-golden-age` (c. 1000-1245). The earlier finding that no Georgian entry covers the period after c. 1000 was wrong. The date of the chronicles' compilation is not checked, and the row's note says so. The work leaves the exception list in `tests_corpus_map.py`, which now holds four works.
