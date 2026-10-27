@@ -19,7 +19,7 @@ work: Lutherstadt Wittenberg — Luther's house and Melanchthon's house
 edition: (Luther museums; UNESCO World Heritage), per the census experienceToday field
 citation: Lutherstadt Wittenberg — Luther's house and Melanchthon's house (Luther museums; UNESCO World Heritage)
 kind: unvendored
-rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
+rights_status: "Museums and a World Heritage site, cited for present-day visits: no text exists to hold rights over, so nothing to acquire. Rights status as characterized in the Source Registry; not independently re-verified."
 attribution_status: anonymous-or-institutional (no individual author named in the Source Registry row)
 discovery_channel: census; Source Registry row 84; 2026-09-15
 external_ids:

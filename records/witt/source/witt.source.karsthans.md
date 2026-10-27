@@ -20,7 +20,7 @@ edition: (anonymous popular dialogue, 1521; ed. Burckhardt in Clemen, Flugschrif
   in Lambert's introduction to R19; not independently vendored, embedded within "luther_works-v3-selected_various1930.txt"
 citation: Karsthans (anonymous popular dialogue, 1521; ed. Burckhardt in Clemen, Flugschriften, IV.1)
 kind: unvendored
-rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
+rights_status: "Reaches the build only embedded within a vendored text (cic/texts/luther_works-v3-selected_various1930.txt, Lambert's introduction, line 10555 ff.). Rights status as characterized in the Source Registry; not independently re-verified."
 attribution_status: anonymous-or-institutional (no individual author named in the Source Registry row)
 discovery_channel: builder-direct-read; Source Registry row 44; v3 file; 2026-09-15
 external_ids:

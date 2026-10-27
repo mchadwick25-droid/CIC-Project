@@ -19,7 +19,7 @@ work: 'The Reformation of Ritual: An Interpretation of Early Modern Germany'
 edition: '(London: Routledge, 1997)'
 citation: 'Susan C. Karant-Nunn, The Reformation of Ritual: An Interpretation of Early Modern Germany (London: Routledge, 1997)'
 kind: unvendored
-rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
+rights_status: "In-copyright modern publication (Routledge, 1997): purchasable, but its text cannot be redistributed. Rights status as characterized in the Source Registry; not independently re-verified."
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 73; WebSearch; 2026-09-15
 external_ids:

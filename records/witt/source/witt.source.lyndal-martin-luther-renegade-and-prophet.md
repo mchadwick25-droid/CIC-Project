@@ -19,7 +19,7 @@ work: 'Martin Luther: Renegade and Prophet'
 edition: (2016)
 citation: 'Lyndal Roper, Martin Luther: Renegade and Prophet (2016)'
 kind: unvendored
-rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
+rights_status: "In-copyright modern publication (2016): purchasable, but its text cannot be redistributed. Rights status as characterized in the Source Registry; not independently re-verified."
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 79; WebSearch; 2026-09-15
 external_ids:

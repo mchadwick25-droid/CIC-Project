@@ -19,7 +19,7 @@ work: 'Martin Luther: Visionary Reformer'
 edition: '(New Haven: Yale, 2015)'
 citation: 'Scott H. Hendrix, Martin Luther: Visionary Reformer (New Haven: Yale, 2015)'
 kind: unvendored
-rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
+rights_status: "In-copyright modern publication (Yale, 2015): purchasable, but its text cannot be redistributed. Rights status as characterized in the Source Registry; not independently re-verified."
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 78; WebSearch; 2026-09-15
 external_ids:

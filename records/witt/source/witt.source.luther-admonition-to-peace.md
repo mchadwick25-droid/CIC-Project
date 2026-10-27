@@ -18,11 +18,11 @@ author: Luther
 work: Admonition to Peace
 edition: '(April 1525); Against the Murderous, Thieving Hordes of Peasants (May 1525); An Open Letter
   on the Harsh Book Against the Peasants (1525) — Luther''s Works vol. 46 (Fortress, 1967, ed. Schultz);
-  PD lead: Philadelphia Ed. vol. IV (1931, trans. C. M. Jacobs), renewal check pending (G1 Part B) — NOT
-  VENDORED'
+  Philadelphia Ed. vol. IV (1931, trans. C. M. Jacobs), vendored as cic/texts/luther_works-v4-selected_various1931.txt'
 citation: Luther, Admonition to Peace (April 1525); Against the Murderous, Thieving Hordes of Peasants (May 1525); An Open Letter on the Harsh Book Against the Peasants (1525), Luther's Works vol. 46 (Fortress, 1967, ed. Schultz)
-kind: unvendored
-rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
+kind: vendored
+rights_status: "Vendored 2026-10-27. A 1931 US publication whose copyright was not renewed; the file header states the basis and its limit (two renewal-catalogue transcriptions checked, the Stanford database not used)."
+shelf_row: luther_works-v4-selected_various1931--admonition-to-peace
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; existence verified WebSearch; Source Registry row 48; WebFetch;
   2026-09-15
