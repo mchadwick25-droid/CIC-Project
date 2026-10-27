@@ -1,0 +1,14 @@
+source_file: josephus_works-antiquities-wars-life_whiston1859.txt
+
+assignments:
+  - row_id: josephus_works-antiquities-wars-life_whiston1859--antiquities-testimonium-and-james-whiston
+    work: "Josephus, Works (Whiston), including Antiquities XVIII (the Testimonium) and XX (James, the brother of Jesus called Christ)"
+    author: josephus
+    locus: "Antiquities XVIII, Testimonium at about file line 81395; Antiquities XX, the James passage at about 90997"
+    atlas_ids:
+      - palestinian-church-pre-constantinian
+    role: context
+    confidence: provisional
+    note: >
+      A first-century Jewish writer's account of Jesus and of the death of James of Jerusalem, in Whiston's English. A Jewish voice from outside the church, context not tradition voice. Whiston's own notes and three dissertations are bound in, and some of the Testimonium wording is Whiston's reading; check against a critical edition before quoting.
+      Other placements (post-apostolic-house-church, messianic-judaism) are held for Mark.

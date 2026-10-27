@@ -930,3 +930,26 @@ These show the TREATS list is a floor, not the full set. Volumes mapped to a wor
 **Not built: day tables from the vendored historic books.** The 1706 Book of Common Prayer and the 1843 Roman Missal are vendored, but their Epistle and Gospel lists cannot be read out by script from the OCR. A trial parse of the Prayer Book found 15 citations of roughly 100, attached several to the wrong day, and read verse numbers as letters ("r.", "t.", "i" for 1). The book also gives only each reading's opening verse, not its end. A table made this way would look authoritative and be wrong in places. It needs either a hand-verified transcription from the page images or a clean public-domain edition. Neither is started.
 
 **Psalm numbering, checked once.** The Psalm hit tested (Augustine on Psalm 16) is tagged in English numbering, with the Latin number given in the edition's own note, so a Psalm 16 query reaches it. Other volumes were not checked one by one.
+
+## 2026-10-27 — Acquisition batch 1: class A of the wants sort (six Patrologia Graeca volumes and Josephus)
+
+**Ruling.** Mark, 2026-10-27, chose "All 7 sources" from the verified short list; the wants sort that defined class A was approved the same day (115 unresolved wants in the generated register; class A is 31 sources carrying 43 of 92 record dependencies).
+
+**Vendored (all public domain by date, all from archive.org, byte counts equal to the host's listed sizes).**
+- Migne PG 29 and PG 31 (Basil, 1857): the Psalm 14 homily against lending at interest, and the homilies in time of famine and drought, on Luke 12:18, to the rich, on Julitta and on Mamas.
+- Migne PG 35 (Gregory of Nazianzus, 1857): Oration 14, On the Love of the Poor.
+- Migne PG 39 (1858): opens with Amphilochius of Iconium.
+- Migne PG 42 (Epiphanius, 1863): the Panarion from Against Paul of Samosata to Against the Massalians, including Against the Pneumatomachi and Against Aerius.
+- Migne PG 46 (Gregory of Nyssa, 1863): Theodore, the Forty Martyrs, the Life of Gregory Thaumaturgus, Against Those Who Lend at Interest.
+- Josephus, Whiston translation (Philadelphia, 1859): Antiquities XVIII (the Testimonium) and XX (James). The Library's first Jewish voice.
+
+**Witness status.** The six PG files are Greek-primary, second witness for quotation: the Greek reads at every passage sampled, with Google-OCR errors, and the Latin column is garbled into Greek-looking glyphs. Nothing is quotable until the passage is checked against the page image. The Josephus file is clean running English; the Testimonium is Whiston's reading of a disputed passage, so it is not Josephus's text without a critical-edition check.
+
+**Wants that needed no acquisition.**
+- Auxentius of Durostorum, Letter on Ulfila (3 records): already vendored as Kauffmann 1899. The register lists it because the records' edition field names no file. Re-pointing the records is the Ijc world's job.
+- Nicaea subscription lists (Gelzer-Hilgenfeld-Cuntz): already vendored; the second archive.org item (patrumnicaenoru01cuntgoog) is another scan of the same book.
+- Gregory of Nazianzus on the Mamas festival (2 records): the record names no specific work, so none was guessed. The vendored PG 36 mentions Mamas at file line 51134 (Oration 44) and PG 37 at 29255 (a different Mamas, a reader). Basil's own Mamas homily is now in PG 31 at 44695. Which work the record means is the Cappadocian world's call.
+
+**Not vendored.** The Gregory the Great Register (Ewald-Hartmann, archive.org gregoriiipapaer00greggoog and gregoriiipapaer00churgoog) was host-checked but not taken: the OCR is readable Latin with systematic noise, and which books each scan holds is unconfirmed. PG 30 was not needed.
+
+**Placements staged.** The five Cappadocian authors go to the Cappadocian tradition entry as tradition voice (Epiphanius as context); Josephus goes to the pre-Constantinian Palestinian church as context. Other placements are Mark's call: Basil's Against Eunomius and Nazianzus's Orations to the Eunomian entry; Josephus to the post-apostolic house church and to messianic Judaism.

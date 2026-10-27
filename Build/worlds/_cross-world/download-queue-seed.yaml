@@ -6793,8 +6793,9 @@ queue:
       Gregory were taken; expect the same Greek-legible, Latin-garbled OCR.
     url: "https://archive.org/details/patrologiae_cursus_completus_gr_vol_035"
     rights_basis: pd-us-by-date
-    verified_by: "Shared-Events Era 2 worker B, October 2026: archive.org search listing only (identifier, 1857, Greek); metadata and text not read"
-    status: not-yet-downloaded
+    verified_by: "Library thread acquisition batch 1, 27 October 2026: metadata read (Public Domain Mark), djvu.txt fetched, byte count 6,238,460 equal to listed size, Oration 14 heading read at raw line 63160, Oration 25 at 89798"
+    status: downloaded
+    vendored_as: "gregory-nazianzen_orationes-pg35-grc-lat_migne1857.txt"
 
   - title: "Epiphanius, Ancoratus und Panarion haer. 1-33 (GCS 25), vol. 1"
     author: "Epiphanius of Salamis"
@@ -22599,3 +22600,81 @@ queue:
     status: downloaded
     vendored_as: "origen_commentarii-in-evangelium-matthaei-tomus5-lat_lommatzsch1835.txt"
     vendored_note: "vendored; see the file's own intake header for the OCR caveats"
+
+  - title: "Patrologia Graeca 29: Basil of Caesarea I (Hexaemeron, Psalm homilies, Against Eunomius)"
+    author: "Basil of Caesarea"
+    translator: "J.-P. Migne (ed.); Greek with garbled Latin column"
+    year: 1857
+    world: "cappadocian-nicene-pastoral-monastic-tradition"
+    why: >
+      Wants-sort class A. Psalm 14 homily against lending at interest, Hexaemeron and Against Eunomius in Greek. Second witness: Latin column garbled.
+    url: "https://archive.org/details/patrologiae_cursus_completus_gr_vol_029"
+    rights_basis: pd-us-by-date
+    verified_by: "Library thread acquisition batch 1, 27 October 2026: metadata read (Public Domain Mark), djvu.txt fetched, byte count 8,499,613 equal to listed size, Psalm 14 heading read at raw line 78686"
+    status: downloaded
+    vendored_as: "basil_opera-omnia-pg29-grc-lat_migne1857.txt"
+
+  - title: "Patrologia Graeca 31: Basil of Caesarea III (moral and festal homilies)"
+    author: "Basil of Caesarea"
+    translator: "J.-P. Migne (ed.); Greek with garbled Latin column"
+    year: 1857
+    world: "cappadocian-nicene-pastoral-monastic-tradition"
+    why: >
+      Wants-sort class A. Homilies in time of famine and drought, on Luke 12:18, to the rich, on Julitta and on Mamas, in Greek. Second witness: Latin column garbled.
+    url: "https://archive.org/details/patrologiae_cursus_completus_gr_vol_031"
+    rights_basis: pd-us-by-date
+    verified_by: "Library thread acquisition batch 1, 27 October 2026: metadata read (Public Domain Mark), djvu.txt fetched, byte count 9,459,378 equal to listed size, headings read at raw lines 17124, 19009, 20355, 22450, 44695"
+    status: downloaded
+    vendored_as: "basil_opera-omnia-pg31-grc-lat_migne1857.txt"
+
+  - title: "Patrologia Graeca 39 (opens with Amphilochius of Iconium)"
+    author: "Amphilochius of Iconium"
+    translator: "J.-P. Migne (ed.); Greek with garbled Latin column"
+    year: 1858
+    world: "cappadocian-nicene-pastoral-monastic-tradition"
+    why: >
+      Wants-sort class A. Amphilochius's own orations, homilies and Synodical Letter in Greek. Second witness: Latin column garbled.
+    url: "https://archive.org/details/patrologiae_cursus_completus_gr_vol_039"
+    rights_basis: pd-us-by-date
+    verified_by: "Library thread acquisition batch 1, 27 October 2026: metadata read (Public Domain Mark), djvu.txt fetched, byte count 9,911,625 equal to listed size, Amphilochius heading read at raw line 2242"
+    status: downloaded
+    vendored_as: "amphilochius-iconium_opera-pg39-grc-lat_migne1858.txt"
+
+  - title: "Patrologia Graeca 42: Epiphanius III (Panarion, Against Paul of Samosata to Against the Massalians)"
+    author: "Epiphanius of Salamis"
+    translator: "J.-P. Migne (ed.); Greek with garbled Latin column"
+    year: 1863
+    world: "cappadocian-nicene-pastoral-monastic-tradition"
+    why: >
+      Wants-sort class A. Against the Pneumatomachi and Against Aerius in Greek. Second witness: Latin column garbled.
+    url: "https://archive.org/details/patrologiae_cursus_completus_gr_vol_042"
+    rights_basis: pd-us-by-date
+    verified_by: "Library thread acquisition batch 1, 27 October 2026: metadata read (Public Domain Mark), djvu.txt fetched, byte count 6,062,300 equal to listed size, headings read at raw lines 35672 and 38000"
+    status: downloaded
+    vendored_as: "epiphanius_panarion-haer-65-80-pg42-grc-lat_migne1863.txt"
+
+  - title: "Patrologia Graeca 46: Gregory of Nyssa III (martyr homilies, Life of Gregory Thaumaturgus, Against Those Who Lend at Interest)"
+    author: "Gregory of Nyssa"
+    translator: "J.-P. Migne (ed.); Greek with garbled Latin column"
+    year: 1863
+    world: "cappadocian-nicene-pastoral-monastic-tradition"
+    why: >
+      Wants-sort class A. Homilies on Theodore and the Forty Martyrs and the Life of Gregory Thaumaturgus in Greek. Second witness: Latin column garbled.
+    url: "https://archive.org/details/patrologiae_cursus_completus_gr_vol_046"
+    rights_basis: pd-us-by-date
+    verified_by: "Library thread acquisition batch 1, 27 October 2026: metadata read (Public Domain Mark), djvu.txt fetched, byte count 6,705,168 equal to listed size, headings read at raw lines 54131, 55014, 56689, 65203"
+    status: downloaded
+    vendored_as: "gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863.txt"
+
+  - title: "The Works of Flavius Josephus (Whiston), Antiquities, Jewish War, Life, with dissertations"
+    author: "Flavius Josephus"
+    translator: "William Whiston"
+    year: 1859
+    world: "palestinian-church-pre-constantinian"
+    why: >
+      Question-coverage survey found the Library holds no Jewish voice; this carries Antiquities XVIII (the Testimonium) and XX (James, the brother of Jesus called Christ). Not a register want: no record cites it.
+    url: "https://archive.org/details/worksofflaviusjo12jose"
+    rights_basis: pd-us-by-date
+    verified_by: "Library thread acquisition batch 1, 27 October 2026: metadata read (no licence URL; 1859 printing), djvu.txt fetched, byte count 4,695,378 equal to listed size, OCR read at four points, Testimonium at raw line 81395, James passage at 90997"
+    status: downloaded
+    vendored_as: "josephus_works-antiquities-wars-life_whiston1859.txt"
