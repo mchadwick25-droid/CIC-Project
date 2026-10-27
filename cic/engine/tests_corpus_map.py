@@ -113,8 +113,6 @@ homed = {x.get("work") for ws in buckets3.values() for x in ws
 # A work leaves this list when its voice is placed; the second check below
 # fails on any entry that is no longer an orphan.
 ACCEPTED_ORPHANS = {
-    "Rituale Armenorum and the Old Armenian Lectionary (Appendix II, English)":
-        "The manuscripts are later than the window, and no Armenian entry fits their date.",
     "The other Sahidic texts of the volume (apocryphal discourses and legends)":
         "Anonymous and undated; no entry fits.",
     "The other Sahidic texts of the volume, including a Discourse attributed to Timothy of Alexandria":

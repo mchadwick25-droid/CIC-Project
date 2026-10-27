@@ -7,8 +7,8 @@
   ],
   "scope": "vendored coverage only - see this script's own docstring for why the acquirable/purchasable/no-edition-exists breakdown is not included here",
   "counts": {
-    "total_entries": 299,
-    "entries_with_coverage": 191,
+    "total_entries": 300,
+    "entries_with_coverage": 192,
     "entries_zero_coverage": 108
   },
   "entries": {
@@ -11448,6 +11448,20 @@
           "role": "context",
           "confidence": "assigned",
           "source_file": "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+          "rights": "Public Domain"
+        }
+      ]
+    },
+    "armenian-christianity-before-the-bagratids": {
+      "name": "Armenian Christianity before the Bagratids",
+      "status": "Pre-Survey Candidate",
+      "works": [
+        {
+          "work": "Rituale Armenorum and the Old Armenian Lectionary (Appendix II, English)",
+          "author": "armenian-church-rituale",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "rituale-armenorum-lectionary_conybeare1905.txt",
           "rights": "Public Domain"
         }
       ]
