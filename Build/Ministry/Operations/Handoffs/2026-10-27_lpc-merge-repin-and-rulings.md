@@ -29,7 +29,7 @@ From session: https://claude.ai/code/session_01JMNsSBvi7aVuNvY1ftggwy · World o
 
 ## 4. Waiting on Mark
 
-- **A live rerun of the validation probes**, to test the Datus fixes and cautions 13 to 17: a named test and a cap.
+- **A live rerun of the validation probes.** Ruled not now: it waits for the engine thread's F4/F5 fix, then needs a named test and cap.
 - **Governance V3.6:** whether and where the two check-in cases enter the document (draft in the Artifact).
 - **F4/F5:** now with an engine thread; his answer on the fix options comes back through that thread.
 

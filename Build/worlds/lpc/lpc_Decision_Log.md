@@ -2711,3 +2711,9 @@ Review of the loss and coercion check-ins found "this tradition" wrong at tables
 ### 2026-10-27 — Governance document: draft the text, the project lead applies it (project lead's ruling)
 
 `CiC_L3D_Facilitator_Governance_V3.6` should name the two new check-in cases. Alternatives shown: (1) the build thread drafts the text and the project lead decides how it enters V3.6; (2) the build thread edits the Word file by change order; (3) leave it to a Facilitator thread. Chosen: 1 (project lead, 2026-10-27). The draft is shown as an Artifact for review and is not written into the repo.
+
+---
+
+### 2026-10-27 — No live rerun of the validation probes yet (project lead's ruling)
+
+Alternatives shown: (1) not now, waiting for the engine thread's fix to F4/F5 so the rerun tests the voice and not the damaging step; (2) rerun the Datus-fix probes only; (3) rerun the full validation. Chosen: 1 (project lead, 2026-10-27). No spend. The rerun returns after the F4/F5 fix, with a named test and cap.
