@@ -27,6 +27,7 @@ edition: >-
   Gregory's works exists (`iii.ii.ii-p7`), not the oration's own text (Source_Registry.md row 32).
 citation: Gregory of Nazianzus, Oration 14, On the Love of the Poor
 kind: vendored
+shelf_row: gregory-nazianzen_orationes-pg35-grc-lat_migne1857--orations-pg-35-greek
 rights_status: >-
   public-domain by date (Migne, 1857); vendored in the shared library on 2026-10-27, in Greek with
   a garbled Latin column.

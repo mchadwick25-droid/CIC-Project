@@ -25,6 +25,7 @@ edition: >-
   own voice.
 citation: The Liturgy of St Basil (transmitted anaphora), attributed to Basil of Caesarea
 kind: vendored
+shelf_row: liturgies-eastern_mark-james-clement-chrysostom-basil-malabar_neale-1870s--liturgy-of-s-basil-byzantine-form
 rights_status: >-
   public-domain by date (host tag NOT_IN_COPYRIGHT); vendored in the shared library on 2026-09-29.
   The attribution to Basil is split: see attribution_status.

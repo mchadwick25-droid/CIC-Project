@@ -19,16 +19,18 @@ relations: []
 author: Gregory of Nazianzus
 work: Gregory of Nazianzus, De vita sua and the autobiographical poems
 edition: >-
-  Not within the vendored npnf207 edition (Nicene and Post-Nicene Fathers, 2nd series, vol. 7, ed.
-  Schaff, cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml), which covers the Orations and
-  96 of the ~245 letters with actual body text (Source_Registry.md row 31) and has no Poem-type
-  div (row 36). In Greek, cic/texts/gregory-nazianzen_epistulae-carmina-pg37-grc-lat_migne1857.txt
-  carries Gregory's Letters and Poems, listed in the registry as including De vita sua. Migne's
-  Latin column is garbled into Greek-looking glyphs, so the Greek is the only legible witness. It
-  is a second witness: nothing in it is quotable until the passage is checked against the page
-  image.
+  Held in Greek, not in English.
+  cic/texts/gregory-nazianzen_epistulae-carmina-pg37-grc-lat_migne1857.txt carries Gregory's
+  Letters and Poems, listed in the registry as including De vita sua. Migne's Latin column is
+  garbled into Greek-looking glyphs, so the Greek is the only legible witness. It is a second
+  witness: nothing in it is quotable until the passage is checked against the page image. Not
+  within the vendored Nicene and Post-Nicene Fathers, 2nd series, vol. 7, ed. Schaff
+  (cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml), which covers the Orations and 96 of
+  the ~245 letters with actual body text (Source_Registry.md row 31) and has no Poem-type div (row
+  36).
 citation: Gregory of Nazianzus, De vita sua and the autobiographical poems
 kind: vendored
+shelf_row: gregory-nazianzen_epistulae-carmina-pg37-grc-lat_migne1857--letters-and-poems-pg-37-greek
 rights_status: >-
   public-domain by date (Migne, 1857); vendored in the shared library on 2026-10-27, in Greek with
   a garbled Latin column; the Greek is held, no English text of the poems is.

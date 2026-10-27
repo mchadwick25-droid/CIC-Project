@@ -17,19 +17,20 @@ relations: []
 author: Gregory of Nazianzus
 work: Gregory of Nazianzus on the Mamas festival
 edition: >-
-  Not within the vendored npnf207 edition (Nicene and Post-Nicene Fathers, 2nd series, vol. 7, ed.
-  Schaff, cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml): a direct text search finds no
-  occurrence of 'Mamas'. In Greek,
+  Held in Greek, not in English.
   cic/texts/gregory-nazianzen_orationes-27-45-pg36-grc-lat_migne1858.txt names the martyr Mamas in
   Oration 44 (file line 51134).
   cic/texts/gregory-nazianzen_epistulae-carmina-pg37-grc-lat_migne1857.txt names a different
   Mamas, a reader (29255). Basil's own homily on Mamas is in
   cic/texts/basil_opera-omnia-pg31-grc-lat_migne1857.txt (44695). Migne's Latin column is garbled
   into Greek-looking glyphs, so the Greek is the only legible witness. It is a second witness:
-  nothing in it is quotable until the passage is checked against the page image. The record names
-  no specific work, so none is chosen here.
+  nothing in it is quotable until the passage is checked against the page image. Not within the
+  vendored Nicene and Post-Nicene Fathers, 2nd series, vol. 7, ed. Schaff
+  (cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml): a direct text search finds no
+  occurrence of 'Mamas'. The record names no specific work, so none is chosen here.
 citation: Gregory of Nazianzus, on the Mamas festival
 kind: vendored
+shelf_row: gregory-nazianzen_orationes-27-45-pg36-grc-lat_migne1858--orations-27-45-pg-36-greek
 rights_status: >-
   public-domain by date (Migne, 1858); vendored in the shared library on 2026-10-27, in Greek with
   a garbled Latin column; the Greek is held, no English text of this work is.

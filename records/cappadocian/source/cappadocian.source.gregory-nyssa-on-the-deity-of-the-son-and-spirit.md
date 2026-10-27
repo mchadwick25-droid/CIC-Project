@@ -25,6 +25,7 @@ edition: >-
   Fathers, 2nd series, vol. 5 (npnf205).
 citation: Gregory of Nyssa, On the Deity of the Son and the Holy Spirit
 kind: vendored
+shelf_row: gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863--sermons-martyrs-thaumaturgus-usurers-pg-46-greek
 rights_status: >-
   public-domain by date (Migne, 1863); vendored in the shared library on 2026-10-27, in Greek with
   a garbled Latin column.

@@ -28,6 +28,7 @@ edition: >-
   slaves has not been checked against that text. Cited at work level per Doc_02 SS1.2/SS6.3.
 citation: Gregory of Nazianzus, his will, which manumits slaves he owned
 kind: vendored
+shelf_row: gregory-nazianzen_epistulae-carmina-pg37-grc-lat_migne1857--letters-and-poems-pg-37-greek
 rights_status: >-
   public-domain by date (Migne, 1857); vendored in the shared library on 2026-10-27, in Greek with
   a garbled Latin column.
