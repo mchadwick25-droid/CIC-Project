@@ -534,6 +534,8 @@ describe('what the room says and shows', () => {
       ...signedIn(['address']),
       '/shelf': { body: { conversations: [{ session_id: 's2', mode: 'interview', worlds: ['Another voice'], world_keys: ['w2'], title: '', started: 'x', last_active: 'x', turns: 1, closed: true, holds_crisis_turn: false, saved: true }] } },
       '/shelf/delete': { body: { status: 'ok' } },
+      '/step-up/start': { body: { status: 'sent', challenge: 's1' } },
+      '/step-up/finish': { body: { status: 'ok' } },
     });
     const ctx = await load();
     render(<ctx.AccountHome />);
@@ -544,6 +546,11 @@ describe('what the room says and shows', () => {
     fireEvent.keyDown(window, { key: 'Escape' });
     expect(screen.getByRole('main')).toBeInTheDocument();
     fireEvent.click(home().getByRole('button', { name: ctx.copy.removeYes }));
+    expect(calls.some((c) => c.path === '/shelf/delete')).toBe(false);
+    fireEvent.change(await screen.findByLabelText(ctx.copy.addressLabel), { target: { value: 'me@b.org' } });
+    fireEvent.click(home().getByRole('button', { name: ctx.copy.sendCode }));
+    fireEvent.change(await screen.findByLabelText(ctx.copy.codeLabel), { target: { value: '111111' } });
+    fireEvent.click(home().getByRole('button', { name: ctx.copy.codeSignIn }));
     await waitFor(() => expect(calls.find((c) => c.path === '/shelf/delete')?.body).toEqual({ session_id: 's2' }));
   });
 

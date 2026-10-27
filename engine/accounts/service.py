@@ -922,6 +922,10 @@ class AccountsService:
             self.store.shelf_reseal(account_id, session_id, self.shelf_cipher.encrypt(code, self._shelf_context(account_id, session_id)))
         return code
 
+    def shelf_delete_allowed(self, session: Session) -> Result:
+        """Erasing a saved conversation cannot be undone, so it needs a fresh step-up, as export does."""
+        return Result("ok") if session.stepped_up else Result("step_up_needed")
+
     def shelf_has(self, session: Session, session_id) -> bool:
         return isinstance(session_id, str) and self.store.shelf_sealed(session.account_id, session_id) is not None
 

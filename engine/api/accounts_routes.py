@@ -627,6 +627,9 @@ def install(app: FastAPI, runtime: AccountsRuntime) -> None:
         """Deletes one conversation from the shelf and from every store that holds it."""
         _guard(request)
         session = await _session(request)
+        allowed = service.shelf_delete_allowed(session)
+        if allowed.status != "ok":
+            await _refuse(allowed, delay=False)
 
         def _delete():
             if not service.shelf_has(session, body.session_id):

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import {
-  deleteAccount, exportData, finishAddressChange, makeRecoveryCode, providerLink, providerUnlink, startAddressChange, useAccount,
+  deleteAccount, deleteShelved, exportData, finishAddressChange, makeRecoveryCode, providerLink, providerUnlink, startAddressChange, useAccount,
   type Provider,
 } from '../lib/accounts';
 import { accountsCopy as copy } from '../lib/accountsCopy';
@@ -165,6 +165,18 @@ export function ExportScreen({ onBack }: { onBack: () => void }) {
       {!done && <Gate guard={guard} onCancel={onBack} onDone={() => void guard.run(exportData).then((ok) => ok && setDone(true))} />}
       {done && <p role="status">{copy.methodDone}</p>}
       {done && <button type="button" onClick={onBack}>{copy.gotIt}</button>}
+      <Problem message={guard.error} />
+    </div>
+  );
+}
+
+/** Erasing a saved conversation cannot be undone, so it asks for the same fresh confirmation as export. */
+export function RemoveShelvedScreen({ sessionId, onBack }: { sessionId: string; onBack: () => void }) {
+  const guard = useGuard();
+  return (
+    <div className="account__section">
+      <h2>{copy.remove}</h2>
+      <Gate guard={guard} onCancel={onBack} onDone={() => void guard.run(() => deleteShelved(sessionId)).then((ok) => ok && onBack())} />
       <Problem message={guard.error} />
     </div>
   );
