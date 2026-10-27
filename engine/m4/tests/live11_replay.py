@@ -184,9 +184,9 @@ def replay(turn: dict) -> dict:
     )
     thin = evidence.thin_topics_for(world_records)
 
-    def net(raw):
+    def net(raw, **kwargs):
         return apply_net(raw, repository_records=world_records, thin_topics=thin,
-                         quotable_texts=turn["asked"], placement=placement)
+                         quotable_texts=turn["asked"], placement=placement, **kwargs)
 
     draft = rebuild_draft(voice_event, CUT_PLACED_AFTER.get((turn.get("run", FIRST_RUN), turn["world"], turn["q"])))
     text, _citations, net_result = net(draft)
