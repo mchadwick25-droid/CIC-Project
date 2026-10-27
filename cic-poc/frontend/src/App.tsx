@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { GiftNotice } from './components/GiftNotice';
+import { SavedCodeOffer } from './components/SavedCodeOffer';
 import { AccountHome } from './components/AccountHome';
 import { useConversation } from './hooks/useConversation';
 import { useVisibleHeight } from './hooks/useVisibleHeight';
@@ -280,6 +281,7 @@ function App() {
     <div className="app-shell">
       <AccountHome />
       <GiftNotice />
+      <SavedCodeOffer />
       {screen === 'arriving' && (
         <p className="arriving-hold" role="status">
           <span className="visually-hidden">Opening the conversation</span>
