@@ -7074,3 +7074,8 @@ The fourth read (`opus-honest-limits-read-4.md`) found three more blocking defec
 
 Context: review of PR 1217. A placed answer record shows its quotations as written, and nothing checked them against the vendored sources. Alternatives: check at run time; check offline at build time; rely on record review. Chosen: offline build-time check (project lead, 2026-10-27); the run-time path is unchanged. Built as `engine/m1/witness_quotations.py` on the existing verbatim matcher, with its failures listed in `engine/m1/witness_quotation_findings.txt` and in the `Open_Gaps_Tracking.md` of `don`, `ijc` and `witt`. Registering it in `gates.GATES` is a separate step: it re-bakes every package's gates report and fails three worlds until their records are fixed. Detail: `Build/worlds/lpc/lpc_Decision_Log.md`.
 
+---
+
+### 2026-10-27 — Retrieval is fixed before the lpc live retest (project lead's ruling)
+
+Context: the lpc live validation's safety-4 draft was built on evidence that never offered the suicide witness; cell matching ranked two cells on common words above the cell that names the question (OG-99 in `Build/worlds/lpc/Open_Gaps_Tracking.md`). Alternatives: fix retrieval first; retest now; both in parallel. Chosen: fix retrieval first (project lead, 2026-10-27). Guardrails: offline instruments only, no model call; every world's retrieval metrics reported before and after; a regression anywhere blocks the change; the sealed canon and its questions are not edited. The live retest remains the project lead's to name, with a cap. Detail: `Build/worlds/lpc/lpc_Decision_Log.md`.

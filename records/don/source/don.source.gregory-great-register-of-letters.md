@@ -18,11 +18,12 @@ sources: []
 relations: []
 author: Gregory the Great
 work: Register of Letters (590s correspondence concerning the North African church)
-edition: the complete Ewald-Hartmann critical edition (Registrum Epistolarum, Berlin, 1891) remains unvendored;
-  a themed selection drawing directly from it is vendored at row 54's own file
+edition: the complete Ewald-Hartmann critical edition (Registrum Epistolarum, Berlin, 1891) remains unvendored
+  and has not been obtained; a themed selection drawing directly from it is vendored at row 54's own file
+  (gregory-great_epistolae-selectae_turchi1907.txt), and npnf212 and npnf213 hold English selections
 citation: Gregory the Great, Register of Letters
 kind: unvendored
-rights_status: "public-domain; vendored, each cited file's own provenance header directly checked and confirmed Public Domain, not assumed"
+rights_status: "public-domain; vendored for the selection (each cited file's own provenance header directly checked and confirmed Public Domain, not assumed). The complete 1891 edition is public domain by date and not yet obtained"
 attribution_status: attributed
 discovery_channel: Source Registry row 32; builder-prior-knowledge (carried from Doc_02 SS3/SS7 citation
   gap), 2026-09-01; direct text search / grep and read against row 54's own file, 2026-09-07
