@@ -55,7 +55,7 @@ relations:
 - type: associated-with
   target: pahc.term.two-ways
 use_note:
-  means: "In 367 Athanasius placed the Teaching of the Apostles and the Shepherd among books outside the Canon that were read to newcomers, which shows what became of two of this world's books."
+  means: "Long after this world's time, Athanasius placed the Teaching of the Apostles and the Shepherd among books outside the Canon that were read to newcomers, which shows what became of two of this world's books."
   not_for:
     - "a claim that the list of 367 was this world's practice, since it comes 167 years after the window closes"
     - "a claim about how this world's own churches ranked or read their books"
