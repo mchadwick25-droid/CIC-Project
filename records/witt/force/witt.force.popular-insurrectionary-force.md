@@ -59,8 +59,7 @@ description: 'Some of this force is documented. The first item is An Earnest Exh
   1931 English of the Philadelphia Edition. Six checked passages sit in their own quote records, and this
   record gives no wording beyond them. The war itself, its course and its timing, is known only from a source
   several steps removed, not from these texts. Blickle''s "revolution of the common man" is the leading
-  modern scholarly account, and the 1522 Exhortation "reads very differently against it than the 1525 tract
-  does."
+  modern scholarly account.
 
   Inside this world, 1522 is remembered as bloodshed the Word made unnecessary: "I could have brought great
   bloodshed upon Germany... I did nothing; I left it to the Word" (v2 14932-14935). The wrong had a real cause,

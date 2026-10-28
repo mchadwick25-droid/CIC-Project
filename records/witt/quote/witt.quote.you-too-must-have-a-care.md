@@ -13,7 +13,7 @@ confidence:
   evidentiary_weight: corroborating
   formation_confidence: Documented
   divergence_note: >-
-    Documented as the opening of the Admonition to Peace's section addressed to the peasants (written April 1525, published early May),
+    Documented as the opening of the Admonition to Peace's section addressed to the peasants (begun after mid-April 1525, published when the war was already under way),
     in the 1931 English of the Philadelphia Edition (C. M. Jacobs, from Clemen's text), not Luther's
     German. It records what Luther conceded and what he required, not how the peasants received it.
 sources:
@@ -42,7 +42,7 @@ text: >-
   that you take up your cause with a good conscience and with
   justice.
 speaker_or_author: >-
-  Luther, An Admonition to Peace (1525), the opening of the part addressed to the peasants -- in the 1931
+  Luther, An Admonition to Peace (1525), the opening of the part addressed to the peasants -- in a plain modern rendering of the 1931
   English translation by C. M. Jacobs, not Luther's own German
 license: verbatim
 modern_lens_note: >-
@@ -73,7 +73,7 @@ use_note:
   not_for:
     - "a claim that Luther told the peasants they might overthrow or punish their lords"
     - "a paraphrase that goes beyond these lines, or this passage offered as the whole of Luther's view of 1525"
-    - "a claim that these are Luther's own words in German; this is the 1931 English translation"
+    - "a claim that these are Luther's own German words -- they are a plain modern rendering of the 1931 English translation"
     - "the rebuke of the peasants itself, which sits in witt.quote.your-own-judges"
   years: {from: 1525, to: 1525}
   status: provisional

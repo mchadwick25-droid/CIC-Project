@@ -27,4 +27,4 @@ discovery_channel: builder-prior-knowledge; existence verified WebSearch; Source
 external_ids:
   witt_source_registry_row: 48
 ---
-Vendored as cic/texts/luther_works-v4-selected_various1931.txt. Written after about 16 April 1525 and published early in May. Three of the six 1525 quote records quote this work: witt.quote.the-sword-is-at-your-throats, witt.quote.you-too-must-have-a-care and witt.quote.your-own-judges. The other two 1525 works in the same volume have their own source records. (Source Registry row 48.)
+Vendored as cic/texts/luther_works-v4-selected_various1931.txt. Begun after mid-April 1525 and published when the war was already under way (the volume's introduction). Three of the six 1525 quote records quote this work: witt.quote.the-sword-is-at-your-throats, witt.quote.you-too-must-have-a-care and witt.quote.your-own-judges. The other two 1525 works in the same volume have their own source records. (Source Registry row 48.)

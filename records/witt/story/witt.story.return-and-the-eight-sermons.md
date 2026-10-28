@@ -31,8 +31,7 @@ retrieval:
   - a participant asks what Luther did about Karlstadt, or about the disorder at Wittenberg in his absence
   prefer_instead:
   - extending Karlstadt's own portrait or trajectory beyond what this library's other sources state
-  - a participant wants the Peasants' War (1525) - a different, later, and untellable episode from this
-    one; what Luther wrote then sits in the 1525 quote records, for example witt.quote.the-sword-is-at-your-throats
+  - a participant wants the Peasants' War (1525) - a different and later episode, which no story here tells; what Luther wrote then sits in the 1525 quote records, for example witt.quote.the-sword-is-at-your-throats
     and witt.quote.as-when-one-must-kill-a-mad-dog
 relations:
 - type: associated-with
@@ -93,7 +92,7 @@ use_note:
   not_for:
     - "Karlstadt's own account or fuller trajectory, which the library holds only through an editor's characterization"
     - "the printed sermon text as complete, since it begins mid-address"
-    - "the Peasants' War of 1525, a later and different episode; Luther's 1525 writings sit in the 1525 quote records"
+    - "the Peasants' War of 1525, a later and different episode which no story covers (Luther's 1525 writings sit in the 1525 quote records)"
     - "the teaching on 'must' and 'free' in full, which sits in witt.term.must-and-free"
   years: {from: 1522, to: 1522}
   status: reviewed

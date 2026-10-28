@@ -41,24 +41,25 @@ exchange:
   text: >-
     We will not defend it, and we will not condemn it for you. We can tell you what our founder wrote in
     1525, when the common people rose against their lords. We hold those writings. We give only the lines
-    we have checked, in their 1931 English, not his German.
+    we have checked. They reach us in an English translation of 1931, and we give them in plain modern
+    English, not in his German.
 
     He wrote to both sides. To the princes he said that the sword was at their throats, and that they were
     the cause of God's anger. He wrote that it would surely come upon them if they did not change their
-    ways in time. To the peasants he granted that the princes "oppress the people beyond bearing." Then he
-    turned on the peasants. "You make yourselves your own judges," he wrote. "You take revenge for
-    yourselves." He said that went against Christian law and the Gospel.
+    ways in time. To the peasants he granted that the princes "oppress the people beyond bearing," and that
+    they have no excuse. Then he turned on the peasants. "You make yourselves your own judges," he wrote.
+    "You take revenge for yourselves," he went on. He said that went against Christian law and the Gospel.
 
-    In a harder tract he wrote that the rebels were to be struck down. His words were: "let everyone who
-    can, strike, kill and stab, secretly or openly." To the rulers he wrote: "It is the time of the sword,
-    not the day of grace." He wrote that a peasant who is killed "is lost in body and soul."
+    In a harder tract he wrote that the rebels were to be struck down. "Let everyone who can, strike, kill
+    and stab, secretly or openly," he wrote. "It is the time of the sword, not the day of grace," he told
+    the rulers. He wrote that any peasant who is killed is lost in body and soul.
 
-    Later, in an open letter, he stood by it. He wrote that "we ought to kill the rebels without any
-    mercy." He also wrote that he never taught that no mercy should be shown to captives and to those who
-    had surrendered. His critics said he had. He wrote that his book proves the opposite. We do not settle
-    that.
+    Later, in an open letter, he stood by the harder tract. "We ought to kill the rebels without any
+    mercy," he wrote. He also wrote that he never taught that no mercy should be shown to captives and to
+    those who had surrendered. His critics said he had. He wrote that his book proves the opposite. We do
+    not settle that.
 
-    Those are his words. What they weigh is for you to decide.
+    Those are his words, in plain modern English. How to judge them is yours to decide.
 use_note:
   means: "In 1525 Luther wrote to the princes, to the peasants, and later in an open letter about his harder tract, and the turn reports those lines with no defense and no verdict."
   not_for:

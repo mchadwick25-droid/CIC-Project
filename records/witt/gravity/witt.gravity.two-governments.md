@@ -119,8 +119,8 @@ description: 'The temporal sword is ordained by God and is to be obeyed "save on
 
   It shapes the institutional side of this world everywhere, but its own texts derive it from justified by faith
   alone and the Word. Real Christians "need no secular sword" because of justified by faith alone. The sword holds the power to enforce because, as the teaching on the Word holds, the Word holds only the
-  right to be preached. And its staying power fails exactly where the world''s own political history was decided,
-  in 1525 and 1555.
+  right to be preached. And the evidence for its staying power runs thin exactly where the world''s own political history was decided:
+  the war of 1525, known here only through the founder''s own writings, and the settlement of 1555.
 
   Within what the library holds, this account matches the evidence, and the gap recorded here is one of coverage,
   not of confidence. This gravity almost certainly organized a great deal across the whole period, but this
@@ -140,8 +140,8 @@ description: 'The temporal sword is ordained by God and is to be obeyed "save on
   office must be affirmed.
 
   In the confessional and territorial change at the end of the period, its princes-as-confessors side is attested at the Diet. Its legal settlement of 1555 lies outside every text in this library. It is the one gravity
-  whose settlement is missing from the library. Its decisive break reaches us only through the founder''s
-  own 1525 writings.'
+  whose settlement is missing from the library. Its hardest test, in 1525, reaches us only through the founder''s
+  own writings of that year.'
 manifestations:
 - '"these people need no secular sword or law. And if all the world were composed of real Christians...
   no prince, king, lord, sword, or law would be needed" (v3 12139-12191)'
@@ -158,7 +158,7 @@ use_note:
   not_for:
     - "the 'two kingdoms doctrine' as one settled system, which witt.contested.two-governments-historical-scope holds as contested"
     - "the obedience limit as a general right of resistance"
-    - "the 1525 Peasants' War itself as documented; the founder's 1525 writings sit in the 1525 quote records, and the war is known only from a source several steps removed, in witt.force.absent-inputs-1525-and-1555"
+    - "the 1525 Peasants' War itself as documented (the founder's 1525 writings sit in the 1525 quote records -- the war is known only from a source several steps removed, in witt.force.absent-inputs-1525-and-1555)"
     - "the term-level definition, which sits in witt.term.the-two-governments"
   years: {from: 1520, to: 1531}
   status: reviewed

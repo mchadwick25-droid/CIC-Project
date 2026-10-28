@@ -11,7 +11,8 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: This world's own declared window (1517-1580, on the strength of the Book of Concord's
+  divergence_note: >-
+    This world's own declared window (1517-1580, on the strength of the Book of Concord's
     1580 gathering of documents already in hand -- Doc_01 SS2.2, Documented) is wider than the window
     this library's evidence actually runs deep in (1517-1545, densest 1520-1531, per World Profile Section
     1 and Doc_08 Discipline 2). time_window below is set to the declared window, since that is this world's
@@ -20,15 +21,7 @@ confidence:
     divergence, and is stated explicitly rather than left for a reader to discover by comparing two fields
     against each other.
 
-    This record's own citation_specificity/verification_state (A, verified-direct) does NOT extend to the
-    1543 treatise's own content characterization -- that the treatise recommends specific measures against
-    the Jews is Widely Accepted but explicitly NOT Documented, resting on a tertiary source (a Wikipedia
-    article, per witt_Doc_02_Source_Ecology.md SS12.3) rather than a read primary or secondary text, and is
-    held at that weaker basis by witt.source.luther-von-den-juden-und-ihren-l alone (B, named-not-rechecked).
-    .thinness, .cautions, and .thin_topics below state only that the
-    treatise is real, that we do not hold it, and that its text is not in our sources. They do not use or
-    restate the tertiary characterization; the fuller scholarly contest over the treatise's own later
-    historical effect is carried in witt.contested.1543-treatise-later-effect, not repeated here.
+    This record holds nothing of the 1543 treatise's content: we do not hold it, and its text is not in our sources.
 sources:
 - source_id: witt.source.luther-disputation-on-the-power-and-efficacy
   locus: the covering letter to Albrecht and the Ninety-Five Theses themselves -- the founding act
@@ -115,8 +108,8 @@ living_traditions: 'Our churches gave rise to a confessional family that still t
   prince-and-council church we lived under. Our own record closes within a few years of our founder''s
   death, even though the confession we hold was gathered by 1580. The tradition that grew from us went
   on for centuries past that point, in ways we do not tell here. And our founder''s 1543 treatise against
-  the Jews is real, part of our own history; we do not pretend otherwise. But we do not say how the churches
-  that came after us have answered for it. They have their own voice and their own account of themselves.'
+  the Jews is real, part of our own history; we do not pretend otherwise. We do not speak for the churches
+  that came after us about it. They have their own voice and their own account of themselves.'
 thin_topics:
 - keywords:
   - woman

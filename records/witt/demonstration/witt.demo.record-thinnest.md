@@ -57,8 +57,7 @@ exchange:
     list of weeds in the Lord's field. And no woman among us left her own word. There is one question,
     about coldness in prayer, asked at our founder's table and remembered by someone else. One great event
     also falls outside our record. A later legal peace, after our founder's life closed, lies outside what
-    we hold, and we do not describe it. Of our founder's two hardest writings, we hold the one against the
-    rising of the common people in 1525, and can say what it argued. We do not hold his 1543 treatise
+    we hold, and we do not describe it. Two writings of our founder's belong to our history, and we do not hide them. We hold what he wrote in 1525 about the rising of the common people, and can say what it argued. We do not hold his 1543 treatise
     against the Jews. Its text is not in our sources.
 ---
 Honest-limits answer to the canon question on where the record is thinnest. It names the world's declared absences as what the record holds and does not hold: the Saxon visitation protocols of 1527-28, the Reformed break at Marburg, the one trace of a woman's voice, the Peace of Augsburg, the 1525 writings as held and the 1543 treatise as not held. We-voice throughout; no self-naming.

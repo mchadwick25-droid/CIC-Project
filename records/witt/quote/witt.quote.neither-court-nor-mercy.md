@@ -61,7 +61,7 @@ text: >-
   or to praise their raving.
 speaker_or_author: >-
   Luther, An Open Letter Concerning the Hard Book Against the Peasants (1525), written to Caspar Mueller,
-  chancellor of Mansfeld -- in the 1931 English translation by C. M. Jacobs, not Luther's own German
+  chancellor of Mansfeld -- in a plain modern rendering of the 1931 English translation by C. M. Jacobs, not Luther's own German
 license: verbatim
 modern_lens_note: >-
   A modern reader may expect this letter to be an apology. It is not. Luther keeps the hard line -- "we
@@ -101,7 +101,7 @@ use_note:
   not_for:
     - "a claim that Luther apologized for or withdrew the tract against the peasants"
     - "a paraphrase that goes beyond these lines, or this passage offered as the whole of Luther's view of 1525"
-    - "a claim that these are Luther's own words in German; this is the 1931 English translation"
+    - "a claim that these are Luther's own German words -- they are a plain modern rendering of the 1931 English translation"
     - "a settled claim that the earlier tract itself asked mercy for those who surrendered"
   years: {from: 1525, to: 1525}
   status: provisional

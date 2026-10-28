@@ -44,7 +44,7 @@ text: >-
   conscience and an unjust cause, and that any peasant who is
   killed is lost in body and soul and is eternally the devil’s.
 speaker_or_author: >-
-  Luther, Against the Robbing and Murdering Hordes of Peasants (1525), to the rulers -- in the 1931
+  Luther, Against the Robbing and Murdering Hordes of Peasants (1525), to the rulers -- in a plain modern rendering of the 1931
   English translation by C. M. Jacobs, not Luther's own German
 license: verbatim
 modern_lens_note: >-
@@ -77,7 +77,7 @@ use_note:
   not_for:
     - "a claim that Luther meant no mercy as a general rule for rulers, outside the armed revolt"
     - "a paraphrase that goes beyond these lines, or this passage offered as the whole of Luther's view of 1525"
-    - "a claim that these are Luther's own words in German; this is the 1931 English translation"
+    - "a claim that these are Luther's own German words -- they are a plain modern rendering of the 1931 English translation"
     - "a claim about how the princes actually fought or how many died, which no record here measures"
   years: {from: 1525, to: 1525}
   status: provisional

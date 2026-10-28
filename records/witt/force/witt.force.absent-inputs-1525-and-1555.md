@@ -49,8 +49,7 @@ description: 'This record gives only the historical events. This library cannot 
   they shaped it, so neither is supplied.
 
   The first event is 1525: the Peasants'' War and the three writings of 1525. The war itself is known here
-  only at third hand, from a source several steps removed from the events. That source says one tract
-  appeared "as the princes'' armies were already winning." Scholars widely accept this timing. Blickle''s framing of the war is the dominant modern reconstruction. Even so, none of it is documented fact. The
+  only at third hand, from a source several steps removed from the events. Blickle''s framing of the war is the dominant modern reconstruction. Even so, none of it is documented fact. The
   writings themselves are held. Six checked passages sit in the 1525 quote records, and this record gives
   nothing beyond them.
 
@@ -70,8 +69,7 @@ description: 'This record gives only the historical events. This library cannot 
 
   Their formative effect is not supplied either, though we can say what the gap does to the reconstruction. This
   library cannot fully test whether the teaching on the two governments lasted over time. The founder''s 1525 writings
-  are held. The Representative reports what they argued as far as the checked lines carry it, and does not
-  retell the war.'
+  are held. What they argued is reported as far as the checked lines carry it; the war itself is not retold.'
 manifestations:
 - the 1525 war, known only from a source several steps removed; the founder's own 1525 writings are held and quoted in six quote records
 - '"a real marker of a different kind -- political-legal rather than doctrinal-confessional" (Doc_01 §2.2,
