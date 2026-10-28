@@ -1,0 +1,912 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:40bfaf337de153a46dd78d6abb7011074545c70db13a9f17b96b480e300b5d92",
+  "package": "packages/lpc/2026-10-28T03-27-41Z",
+  "live_test": {
+    "name": "lpc go-live 3",
+    "cap_usd": 4.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.122013
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 2257,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 2095,
+      "output_tokens": 182,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 3186,
+      "output_tokens": 299,
+      "cache_creation_input_tokens": 24251,
+      "cache_read_input_tokens": 0
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "What did your bishops decide at Chalcedon about Christ's two natures?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We were not at Chalcedon. That council met in 451, and our last bishop died in 430, while the Vandals stood outside his own city's walls. What happened after our years is not ours to tell.\n\nWhat we can give you is what we held while we lived. To us, Jesus is God's only Son within the one Trinity. His death and rising are not facts we simply affirm and set aside. His crucifixion, his burial, his rising on the third day, his going up to the Father — all were ordered so that our own life could be cut to their shape. We crucify our own flesh: that is his cross in us. We are buried with him in the water: that is his burial in us. We walk in a life made new: that is his rising in us. That is his dying and rising, worked out in an ordinary life.\n\nHow the churches after us worded what he was in himself, using the language Chalcedon chose, belongs to their own years, not to ours.",
+          "citations": [
+            {
+              "sentence": "That council met in 451, and our last bishop died in 430, while the Vandals stood outside his own city's walls.",
+              "record_ids": [
+                "lpc.core.latin-pastoral-congregational-christianity"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.core.latin-pastoral-congregational-christianity",
+                  "record_type": "world_core",
+                  "label": "lpc.core.latin-pastoral-congregational-christianity",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "82 letters, esp. Epistle XXXIX's own election language and Epistles XX-XXI",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                      "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "whole work -- Cyprian's own election and the Curubis exile",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                      "author": null,
+                      "work": null,
+                      "locus": "whole work, read in full -- Augustine's own formation-narrative counterpart to Pontius's Life",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-confessions",
+                      "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "whole work -- Augustine's own conversion narrative",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "I.1.2, II.3, III ch. 2 SS2, VI ch. 2",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                      "citation": "Augustine of Hippo, The Correction of the Donatists (Letter 185, c. 417), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "ch. 7 SSSS23-29 -- the imperial-coercion defence",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-letter-93-to-vincentius",
+                      "citation": "Augustine of Hippo, Letter 93, to Vincentius, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "SS17 -- Augustine's own account of his earlier opinion against coercion",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.code-of-canons-of-the-african-church-419",
+                      "citation": "The Code of Canons of the African Church (Council of Carthage, 419), Nicene and Post-Nicene Fathers, Series II, vol. XIV",
+                      "author": null,
+                      "work": null,
+                      "locus": "whole work -- the institutional skeleton of this world's own conciliar life",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "To us, Jesus is God's only Son within the one Trinity.",
+              "record_ids": [
+                "lpc.witness.the-only-son-and-the-trinity"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.the-only-son-and-the-trinity",
+                  "record_type": "doctrinal_witness",
+                  "label": "For us, Jesus being God and the Trinity belong to one confession",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 56, 'The Holy Spirit and the Church' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21850-21866",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 17, the conference at Hippo with Maximinus, 'a bishop of these Arians'; its records show 'what the Catholic Church maintains and teaches regarding the divine Trinity' -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 2942-2950",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                      "author": null,
+                      "work": null,
+                      "locus": "the 1919 editor's introduction (not Possidius's text): the siege of Hippo by the Vandals and \"the Arian Geiseric\" -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 468-477",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "His crucifixion, his burial, his rising on the third day, his going up to the Father — all were ordered so that our own life could be cut to their shape.",
+              "record_ids": [
+                "lpc.witness.the-pattern-we-are-modelled-on"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                  "record_type": "doctrinal_witness",
+                  "label": "His death and rising are not facts we simply affirm and set aside",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We walk in a life made new: that is his rising in us.",
+              "record_ids": [
+                "lpc.witness.the-pattern-we-are-modelled-on"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                  "record_type": "doctrinal_witness",
+                  "label": "His death and rising are not facts we simply affirm and set aside",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [],
+          "quote_offers": [],
+          "kind": "what_happened",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.apostolic-succession-of-bishops",
+              "lpc.witness.the-pattern-we-are-modelled-on"
+            ],
+            "term": [
+              "lpc.term.heresy"
+            ],
+            "story": [
+              "lpc.story.celerinus-writes-to-lucian",
+              "lpc.story.election-of-cyprian",
+              "lpc.story.hundred-thousand-sesterces",
+              "lpc.story.the-death-of-cyprian",
+              "lpc.story.numidicus"
+            ],
+            "quote": [
+              "lpc.quote.bishop-of-bishops",
+              "lpc.quote.earlier-councils-corrected-by-later",
+              "lpc.quote.he-covered-his-eyes-with-his-own-hand",
+              "lpc.quote.numidicus-remained-unwillingly",
+              "lpc.quote.the-wretched-woman-and-mercy",
+              "lpc.quote.the-old-man-nailed-to-the-cross-speaks"
+            ],
+            "force": [
+              "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We were not at Chalcedon.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['chalcedon']) with no citation tag",
+                "draft": "We were not at Chalcedon."
+              },
+              {
+                "sentence": "That council met in 451, and our last bishop died in 430, while the Vandals stood outside his own city's walls.",
+                "tags": [
+                  "lpc.core.latin-pastoral-congregational-christianity"
+                ],
+                "verdict": "ok",
+                "why": "grounded 55% in own tagged records",
+                "ratio": 0.55,
+                "draft": "That council met in 451, and our last bishop died in 430, while the Vandals stood outside his own city's walls [[lpc.core.latin-pastoral-congregational-christianity]]."
+              },
+              {
+                "sentence": "What happened after our years is not ours to tell.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "What happened after our years is not ours to tell."
+              },
+              {
+                "sentence": "What we can give you is what we held while we lived.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "What we can give you is what we held while we lived."
+              },
+              {
+                "sentence": "To us, Jesus is God's only Son within the one Trinity.",
+                "tags": [
+                  "lpc.witness.the-only-son-and-the-trinity"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "To us, Jesus is God's only Son within the one Trinity [[lpc.witness.the-only-son-and-the-trinity]]."
+              },
+              {
+                "sentence": "His death and rising are not facts we simply affirm and set aside.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "His death and rising are not facts we simply affirm and set aside."
+              },
+              {
+                "sentence": "His crucifixion, his burial, his rising on the third day, his going up to the Father — all were ordered so that our own life could be cut to their shape.",
+                "tags": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "His crucifixion, his burial, his rising on the third day, his going up to the Father — all were ordered so that our own life could be cut to their shape [[lpc.witness.the-pattern-we-are-modelled-on]]."
+              },
+              {
+                "sentence": "We crucify our own flesh: that is his cross in us.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We crucify our own flesh: that is his cross in us."
+              },
+              {
+                "sentence": "We are buried with him in the water: that is his burial in us.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We are buried with him in the water: that is his burial in us."
+              },
+              {
+                "sentence": "We walk in a life made new: that is his rising in us.",
+                "tags": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "We walk in a life made new: that is his rising in us [[lpc.witness.the-pattern-we-are-modelled-on]]."
+              },
+              {
+                "sentence": "That is his dying and rising, worked out in an ordinary life.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "That is his dying and rising, worked out in an ordinary life."
+              },
+              {
+                "sentence": "How the churches after us worded what he was in himself, using the language Chalcedon chose, belongs to their own years, not to ours.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['chalcedon']) with no citation tag",
+                "draft": "How the churches after us worded what he was in himself, using the language Chalcedon chose, belongs to their own years, not to ours."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 3,
+                "cited_record_ids": [
+                  "lpc.core.latin-pastoral-congregational-christianity"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "We were not at Chalcedon.",
+                    "tags": [
+                      "lpc.core.latin-pastoral-congregational-christianity"
+                    ],
+                    "verdict": "withhold",
+                    "why": "specific claim (proper-noun:['chalcedon']) only 0% grounded in its own tags",
+                    "ratio": 0.0
+                  },
+                  "2": {
+                    "sentence": "What happened after our years is not ours to tell.",
+                    "tags": [
+                      "lpc.core.latin-pastoral-congregational-christianity"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 8,
+                "cited_record_ids": [
+                  "lpc.witness.the-only-son-and-the-trinity",
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "What we can give you is what we held while we lived.",
+                    "tags": [
+                      "lpc.witness.the-only-son-and-the-trinity",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "2": {
+                    "sentence": "His death and rising are not facts we simply affirm and set aside.",
+                    "tags": [
+                      "lpc.witness.the-only-son-and-the-trinity",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "4": {
+                    "sentence": "We crucify our own flesh: that is his cross in us.",
+                    "tags": [
+                      "lpc.witness.the-only-son-and-the-trinity",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "5": {
+                    "sentence": "We are buried with him in the water: that is his burial in us.",
+                    "tags": [
+                      "lpc.witness.the-only-son-and-the-trinity",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "7": {
+                    "sentence": "That is his dying and rising, worked out in an ordinary life.",
+                    "tags": [
+                      "lpc.witness.the-only-son-and-the-trinity",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              },
+              {
+                "sentence_count": 1,
+                "cited_record_ids": [
+                  "lpc.witness.the-only-son-and-the-trinity",
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": true,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "How the churches after us worded what he was in himself, using the language Chalcedon chose, belongs to their own years, not to ours.",
+                    "tags": [
+                      "lpc.witness.the-only-son-and-the-trinity",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "withhold",
+                    "why": "specific claim (proper-noun:['chalcedon']) only 11% grounded in its own tags",
+                    "ratio": 0.11
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [],
+              "removed": []
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 25
+              },
+              {
+                "index": 1,
+                "text_start": 26,
+                "text_end": 137
+              },
+              {
+                "index": 2,
+                "text_start": 138,
+                "text_end": 188
+              },
+              {
+                "index": 3,
+                "text_start": 190,
+                "text_end": 242
+              },
+              {
+                "index": 4,
+                "text_start": 243,
+                "text_end": 297
+              },
+              {
+                "index": 5,
+                "text_start": 298,
+                "text_end": 364
+              },
+              {
+                "index": 6,
+                "text_start": 365,
+                "text_end": 518
+              },
+              {
+                "index": 7,
+                "text_start": 519,
+                "text_end": 569
+              },
+              {
+                "index": 8,
+                "text_start": 570,
+                "text_end": 632
+              },
+              {
+                "index": 9,
+                "text_start": 633,
+                "text_end": 686
+              },
+              {
+                "index": 10,
+                "text_start": 687,
+                "text_end": 748
+              },
+              {
+                "index": 11,
+                "text_start": 750,
+                "text_end": 883
+              }
+            ],
+            "elements": [],
+            "references": [
+              {
+                "record_id": "lpc.core.latin-pastoral-congregational-christianity",
+                "record_type": "world_core",
+                "label": "lpc.core.latin-pastoral-congregational-christianity",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "82 letters, esp. Epistle XXXIX's own election language and Epistles XX-XXI",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                    "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "whole work -- Cyprian's own election and the Curubis exile",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                    "author": null,
+                    "work": null,
+                    "locus": "whole work, read in full -- Augustine's own formation-narrative counterpart to Pontius's Life",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "whole work -- Augustine's own conversion narrative",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "I.1.2, II.3, III ch. 2 SS2, VI ch. 2",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                    "citation": "Augustine of Hippo, The Correction of the Donatists (Letter 185, c. 417), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "ch. 7 SSSS23-29 -- the imperial-coercion defence",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-letter-93-to-vincentius",
+                    "citation": "Augustine of Hippo, Letter 93, to Vincentius, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "SS17 -- Augustine's own account of his earlier opinion against coercion",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.code-of-canons-of-the-african-church-419",
+                    "citation": "The Code of Canons of the African Church (Council of Carthage, 419), Nicene and Post-Nicene Fathers, Series II, vol. XIV",
+                    "author": null,
+                    "work": null,
+                    "locus": "whole work -- the institutional skeleton of this world's own conciliar life",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "This record synthesises nine completed construction documents (Doc_01, Doc_02, Doc_07, and the Registry/Manifest pair they both rest on) rather than reading a text directly, so verification runs via those documents' own authority, not via a primary source reopened here. Doc_07 SS2I's own convergence finding -- that formation here runs through rite, penitential discipline, and communion preserved despite disagreement as one integrated mechanism rather than four separately-arrived-at concerns -- is this build's own synthetic judgment, stated as such at Doc_07 SS5, not a claim any single source states in those terms; external scholarly review should test whether it overstates the coherence of what was, on the ground, a more locally variable and contingent pastoral practice across two centuries and two cities. A further, disclosed uncertainty this record carries forward rather than resolves: Doc_01 SS8 item 10's own conciliar-authority axis (G5) is held open, not settled, and the strand-singular finding this record's own horizon states carries an explicit reopening caveat on exactly that axis.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Dominant Modern Reconstruction",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.witness.the-only-son-and-the-trinity",
+                "record_type": "doctrinal_witness",
+                "label": "For us, Jesus being God and the Trinity belong to one confession",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 56, 'The Holy Spirit and the Church' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21850-21866",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 17, the conference at Hippo with Maximinus, 'a bishop of these Arians'; its records show 'what the Catholic Church maintains and teaches regarding the divine Trinity' -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 2942-2950",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                    "author": null,
+                    "work": null,
+                    "locus": "the 1919 editor's introduction (not Possidius's text): the siege of Hippo by the Vandals and \"the Arian Geiseric\" -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 468-477",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                "record_type": "doctrinal_witness",
+                "label": "His death and rising are not facts we simply affirm and set aside",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.core.latin-pastoral-congregational-christianity",
+                "record_type": "world_core",
+                "label": "lpc.core.latin-pastoral-congregational-christianity",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "82 letters, esp. Epistle XXXIX's own election language and Epistles XX-XXI",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.pontius-life-and-passion-of-cyprian",
+                    "citation": "Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "whole work -- Cyprian's own election and the Curubis exile",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                    "author": null,
+                    "work": null,
+                    "locus": "whole work, read in full -- Augustine's own formation-narrative counterpart to Pontius's Life",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-confessions",
+                    "citation": "Augustine of Hippo, Confessions, Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "whole work -- Augustine's own conversion narrative",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "I.1.2, II.3, III ch. 2 SS2, VI ch. 2",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-correction-of-the-donatists",
+                    "citation": "Augustine of Hippo, The Correction of the Donatists (Letter 185, c. 417), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "ch. 7 SSSS23-29 -- the imperial-coercion defence",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-letter-93-to-vincentius",
+                    "citation": "Augustine of Hippo, Letter 93, to Vincentius, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "SS17 -- Augustine's own account of his earlier opinion against coercion",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.code-of-canons-of-the-african-church-419",
+                    "citation": "The Code of Canons of the African Church (Council of Carthage, 419), Nicene and Post-Nicene Fathers, Series II, vol. XIV",
+                    "author": null,
+                    "work": null,
+                    "locus": "whole work -- the institutional skeleton of this world's own conciliar life",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "B",
+                  "divergence_note": "This record synthesises nine completed construction documents (Doc_01, Doc_02, Doc_07, and the Registry/Manifest pair they both rest on) rather than reading a text directly, so verification runs via those documents' own authority, not via a primary source reopened here. Doc_07 SS2I's own convergence finding -- that formation here runs through rite, penitential discipline, and communion preserved despite disagreement as one integrated mechanism rather than four separately-arrived-at concerns -- is this build's own synthetic judgment, stated as such at Doc_07 SS5, not a claim any single source states in those terms; external scholarly review should test whether it overstates the coherence of what was, on the ground, a more locally variable and contingent pastoral practice across two centuries and two cities. A further, disclosed uncertainty this record carries forward rather than resolves: Doc_01 SS8 item 10's own conciliar-authority axis (G5) is held open, not settled, and the strand-singular finding this record's own horizon states carries an explicit reopening caveat on exactly that axis.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Dominant Modern Reconstruction",
+                  "verification_state": "verified-via-authority"
+                }
+              },
+              {
+                "record_id": "lpc.witness.the-only-son-and-the-trinity",
+                "record_type": "doctrinal_witness",
+                "label": "For us, Jesus being God and the Trinity belong to one confession",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 56, 'The Holy Spirit and the Church' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21850-21866",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 17, the conference at Hippo with Maximinus, 'a bishop of these Arians'; its records show 'what the Catholic Church maintains and teaches regarding the divine Trinity' -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 2942-2950",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                    "author": null,
+                    "work": null,
+                    "locus": "the 1919 editor's introduction (not Possidius's text): the siege of Hippo by the Vandals and \"the Arian Geiseric\" -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 468-477",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                "record_type": "doctrinal_witness",
+                "label": "His death and rising are not facts we simply affirm and set aside",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 2,
+              "sentence_indexes": [
+                0,
+                11
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [
+            {
+              "family": "horizon",
+              "finding": "names the year 451, after the window closes in 430",
+              "sentence": "That council met in 451, and our last bishop died in 430, while the Vandals stood outside his own city's walls."
+            }
+          ],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [],
+            "removed": []
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

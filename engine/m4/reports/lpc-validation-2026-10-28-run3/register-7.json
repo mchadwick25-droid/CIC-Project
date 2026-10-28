@@ -1,0 +1,552 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:40bfaf337de153a46dd78d6abb7011074545c70db13a9f17b96b480e300b5d92",
+  "package": "packages/lpc/2026-10-28T03-27-41Z",
+  "live_test": {
+    "name": "lpc go-live 3",
+    "cap_usd": 4.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.02833
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 2259,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 2097,
+      "output_tokens": 184,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 3146,
+      "output_tokens": 206,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24251
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "What did Augustine say about Psalm 137, dashing the little ones against the rock?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "Augustine says the little ones of Babylon are bad desires at their birth, and we must dash them on the Rock, who is Christ: “How shall they repay her? As she has treated us. Let her little ones be choked in their turn. Yes, let her little ones in their turn be dashed, and die. What are the little ones of Babylon? Evil desires at their birth. For some people have to fight with old, deep-rooted cravings. When a craving is born, evil habit has not yet given it strength against you. While it is little, do not let it gain the strength of evil habit. While it is little, dash it. But you fear that, though dashed, it may not die. ‘Dash it against the Rock; and that Rock is Christ.’”. He said this in a sermon on the psalm, and he meant it as teaching for us, not only for that one moment. Babylon, in his reading, is this world in its confusion. Its little ones are the lusts and bad desires just beginning in us. We are to catch them early, while they are still small, and destroy them by dashing them against Christ, the Rock. That is how we crucify our own flesh. The image is violent because the thing itself is hard. The work of killing a desire when it first stirs is real work, and it is ours to do.",
+          "citations": [
+            {
+              "sentence": "Augustine says the little ones of Babylon are bad desires at their birth, and we must dash them on the Rock, who is Christ: “How shall they repay her? As she has treated us. Let her little ones be choked in their turn. Yes, let her little ones in their turn be dashed, and die. What are the little ones of Babylon? Evil desires at their birth. For some people have to fight with old, deep-rooted cravings. When a craving is born, evil habit has not yet given it strength against you. While it is little, do not let it gain the strength of evil habit. While it is little, dash it. But you fear that, though dashed, it may not die. ‘Dash it against the Rock; and that Rock is Christ.’”",
+              "record_ids": [
+                "lpc.quote.dash-the-little-ones-against-the-rock"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.dash-the-little-ones-against-the-rock",
+                  "record_type": "quote",
+                  "label": "Expositions on the Book of Psalms, Exposition on Psalm 137 — Augustine, our bishop at Hippo",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-expositions-on-the-psalms",
+                      "citation": "Augustine of Hippo, Expositions on the Book of Psalms (Enarrationes in Psalmos), Nicene and Post-Nicene Fathers, Series I, vol. VIII",
+                      "author": null,
+                      "work": null,
+                      "locus": "Exposition on Psalm 137 (NPNF Psalm CXXXVII; Psalm 136 in the Vulgate and in PL 37), section 12 (section 21 in the PL text); English at cic/texts/npnf108_augustine-exposition-psalms.xml, lines 27121-27122; Latin at cic/texts/augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt, lines 126347-126369",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ],
+                  "spoken_rendering": "How shall they repay her? As she has treated us. Let her little ones be choked in their turn. Yes, let her little ones in their turn be dashed, and die. What are the little ones of Babylon? Evil desires at their birth. For some people have to fight with old, deep-rooted cravings. When a craving is born, evil habit has not yet given it strength against you. While it is little, do not let it gain the strength of evil habit. While it is little, dash it. But you fear that, though dashed, it may not die. “Dash it against the Rock; and that Rock is Christ.”",
+                  "speaker": "Augustine, our bishop at Hippo"
+                }
+              ]
+            },
+            {
+              "sentence": "That is how we crucify our own flesh.",
+              "record_ids": [
+                "lpc.witness.the-pattern-we-are-modelled-on"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                  "record_type": "doctrinal_witness",
+                  "label": "His death and rising are not facts we simply affirm and set aside",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 0,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-expositions-on-the-psalms",
+                  "citation": "Augustine of Hippo, Expositions on the Book of Psalms (Enarrationes in Psalmos), Nicene and Post-Nicene Fathers, Series I, vol. VIII",
+                  "author": null,
+                  "work": null,
+                  "locus": "Exposition on Psalm 137 (NPNF Psalm CXXXVII; Psalm 136 in the Vulgate and in PL 37), section 12 (section 21 in the PL text); English at cic/texts/npnf108_augustine-exposition-psalms.xml, lines 27121-27122; Latin at cic/texts/augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt, lines 126347-126369",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "what_did",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.punishment-without-end",
+              "lpc.witness.the-pattern-we-are-modelled-on"
+            ],
+            "term": [
+              "lpc.term.preaching",
+              "lpc.term.catechesis"
+            ],
+            "story": [
+              "lpc.story.election-of-cyprian",
+              "lpc.story.numidicus",
+              "lpc.story.the-psalms-on-the-wall"
+            ],
+            "quote": [
+              "lpc.quote.dash-the-little-ones-against-the-rock",
+              "lpc.quote.the-creed-first-then-the-prayer",
+              "lpc.quote.the-old-man-nailed-to-the-cross-speaks",
+              "lpc.quote.the-wretched-woman-and-mercy"
+            ],
+            "force": [
+              "lpc.force.inherited-latin-theological-vocabulary",
+              "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+            ],
+            "contested_claim": [
+              "lpc.contested.grace-pelagius-characterization"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "Augustine says the little ones of Babylon are bad desires at their birth, and we must dash them on the Rock, who is Christ: “How shall they repay her? As she has treated us. Let her little ones be choked in their turn. Yes, let her little ones in their turn be dashed, and die. What are the little ones of Babylon? Evil desires at their birth. For some people have to fight with old, deep-rooted cravings. When a craving is born, evil habit has not yet given it strength against you. While it is little, do not let it gain the strength of evil habit. While it is little, dash it. But you fear that, though dashed, it may not die. ‘Dash it against the Rock; and that Rock is Christ.’”",
+                "tags": [
+                  "lpc.quote.dash-the-little-ones-against-the-rock"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.dash-the-little-ones-against-the-rock",
+                "draft": "Augustine says the little ones of Babylon are bad desires at their birth, and we must dash them on the Rock, who is Christ [[quote:lpc.quote.dash-the-little-ones-against-the-rock]]"
+              },
+              {
+                "sentence": ".",
+                "tags": [
+                  "lpc.term.preaching"
+                ],
+                "verdict": "withhold",
+                "why": "tagged claim sharing no content word with its own tagged records",
+                "draft": "[[lpc.term.preaching]]."
+              },
+              {
+                "sentence": "He said this in a sermon on the psalm, and he meant it as teaching for us, not only for that one moment.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "He said this in a sermon on the psalm, and he meant it as teaching for us, not only for that one moment."
+              },
+              {
+                "sentence": "Babylon, in his reading, is this world in its confusion.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Babylon, in his reading, is this world in its confusion."
+              },
+              {
+                "sentence": "Its little ones are the lusts and bad desires just beginning in us.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Its little ones are the lusts and bad desires just beginning in us."
+              },
+              {
+                "sentence": "We are to catch them early, while they are still small, and destroy them by dashing them against Christ, the Rock.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['rock']) with no citation tag",
+                "draft": "We are to catch them early, while they are still small, and destroy them by dashing them against Christ, the Rock."
+              },
+              {
+                "sentence": "That is how we crucify our own flesh.",
+                "tags": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "That is how we crucify our own flesh [[lpc.witness.the-pattern-we-are-modelled-on]]."
+              },
+              {
+                "sentence": "The image is violent because the thing itself is hard.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The image is violent because the thing itself is hard."
+              },
+              {
+                "sentence": "The work of killing a desire when it first stirs is real work, and it is ours to do.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "The work of killing a desire when it first stirs is real work, and it is ours to do."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 1,
+                "cited_record_ids": [
+                  "lpc.quote.dash-the-little-ones-against-the-rock"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              },
+              {
+                "sentence_count": 8,
+                "cited_record_ids": [
+                  "lpc.term.preaching",
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "1": {
+                    "sentence": "He said this in a sermon on the psalm, and he meant it as teaching for us, not only for that one moment.",
+                    "tags": [
+                      "lpc.term.preaching",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "2": {
+                    "sentence": "Babylon, in his reading, is this world in its confusion.",
+                    "tags": [
+                      "lpc.term.preaching",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "3": {
+                    "sentence": "Its little ones are the lusts and bad desires just beginning in us.",
+                    "tags": [
+                      "lpc.term.preaching",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "4": {
+                    "sentence": "We are to catch them early, while they are still small, and destroy them by dashing them against Christ, the Rock.",
+                    "tags": [
+                      "lpc.term.preaching",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "withhold",
+                    "why": "specific claim (proper-noun:['rock']) only 0% grounded in its own tags",
+                    "ratio": 0.0
+                  },
+                  "6": {
+                    "sentence": "The image is violent because the thing itself is hard.",
+                    "tags": [
+                      "lpc.term.preaching",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "7": {
+                    "sentence": "The work of killing a desire when it first stirs is real work, and it is ours to do.",
+                    "tags": [
+                      "lpc.term.preaching",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.dash-the-little-ones-against-the-rock"
+              ],
+              "removed": []
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 683
+              },
+              {
+                "index": 1,
+                "text_start": 683,
+                "text_end": 684
+              },
+              {
+                "index": 2,
+                "text_start": 685,
+                "text_end": 789
+              },
+              {
+                "index": 3,
+                "text_start": 790,
+                "text_end": 846
+              },
+              {
+                "index": 4,
+                "text_start": 847,
+                "text_end": 914
+              },
+              {
+                "index": 5,
+                "text_start": 915,
+                "text_end": 1029
+              },
+              {
+                "index": 6,
+                "text_start": 1030,
+                "text_end": 1067
+              },
+              {
+                "index": 7,
+                "text_start": 1068,
+                "text_end": 1122
+              },
+              {
+                "index": 8,
+                "text_start": 1123,
+                "text_end": 1207
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 0,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.quote.dash-the-little-ones-against-the-rock",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the NPNF English as printed. Augustine comments on the Latin Psalter, where Psalm 136 ends 'Blessed is he who shall hold and dash thy little ones against the rock'. 'Choked' renders offocentur, 'be smothered', and 'dashed' renders elidantur, 'be struck down'. The closing words echo 1 Corinthians 10:4, which the Latin cites.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 0,
+                "char_start": 124,
+                "char_end": 683,
+                "surface": "“How shall they repay her? As she has treated us. Let her little ones be choked in their turn. Yes, let her little ones in their turn be dashed, and die. What are the little ones of Babylon? Evil desires at their birth. For some people have to fight with old, deep-rooted cravings. When a craving is born, evil habit has not yet given it strength against you. While it is little, do not let it gain the strength of evil habit. While it is little, dash it. But you fear that, though dashed, it may not die. ‘Dash it against the Rock; and that Rock is Christ.’”"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.quote.dash-the-little-ones-against-the-rock",
+                "record_type": "quote",
+                "label": "Expositions on the Book of Psalms, Exposition on Psalm 137 — Augustine, our bishop at Hippo",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-expositions-on-the-psalms",
+                    "citation": "Augustine of Hippo, Expositions on the Book of Psalms (Enarrationes in Psalmos), Nicene and Post-Nicene Fathers, Series I, vol. VIII",
+                    "author": null,
+                    "work": null,
+                    "locus": "Exposition on Psalm 137 (NPNF Psalm CXXXVII; Psalm 136 in the Vulgate and in PL 37), section 12 (section 21 in the PL text); English at cic/texts/npnf108_augustine-exposition-psalms.xml, lines 27121-27122; Latin at cic/texts/augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt, lines 126347-126369",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "spoken_rendering": "How shall they repay her? As she has treated us. Let her little ones be choked in their turn. Yes, let her little ones in their turn be dashed, and die. What are the little ones of Babylon? Evil desires at their birth. For some people have to fight with old, deep-rooted cravings. When a craving is born, evil habit has not yet given it strength against you. While it is little, do not let it gain the strength of evil habit. While it is little, dash it. But you fear that, though dashed, it may not die. “Dash it against the Rock; and that Rock is Christ.”",
+                "speaker": "Augustine, our bishop at Hippo",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the NPNF English as printed. Augustine comments on the Latin Psalter, where Psalm 136 ends 'Blessed is he who shall hold and dash thy little ones against the rock'. 'Choked' renders offocentur, 'be smothered', and 'dashed' renders elidantur, 'be struck down'. The closing words echo 1 Corinthians 10:4, which the Latin cites.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                "record_type": "doctrinal_witness",
+                "label": "His death and rising are not facts we simply affirm and set aside",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                "record_type": "doctrinal_witness",
+                "label": "His death and rising are not facts we simply affirm and set aside",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 2,
+              "sentence_indexes": [
+                1,
+                5
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.dash-the-little-ones-against-the-rock"
+            ],
+            "removed": []
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}
