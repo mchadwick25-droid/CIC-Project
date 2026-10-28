@@ -7196,3 +7196,13 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 **Setting rendering.** A setting with `to_whom` but no `said_by` now reads "To his congregation", and each field's closing full stop is dropped before joining, so no ".." appears. **Length limit.** Each setting field is limited to 160 characters by the quote schema (about 40 tokens a field; at most about 160 tokens for a setting with all four, a typical one about 30). No record uses a setting yet, so no record is affected.
 
 **Hint rule.** `non_question_reason` rejects a `retrieve_when` line that opens "the conversation" or "the representative" as describing the conversation, not only a line that names a record id. The rule as built includes that form, 13 of the 19 don hits are of it, and the don waiver count of 19 covers them. The rule is not narrowed, so no gate count changes.
+
+## 2026-10-28 - Cap 12 and its net cost rise approved for now (project lead, choice box)
+
+**Approval.** Mark, 2026-10-28, from a choice box, by name: "Ship cap 12 and approve the rise for now." Under his standing cost rule (cheaper, then same; a rise needs his approval with the evidence of improvement), the project lead approved the cap at 12 and the net rise against run 3 of about +3% on lpc (combined) and about +5% on standalone questions.
+
+**What the rise pays for.** The riders and the follow-up carry, which target the invented facts and misused quotes found in the run-3 audit.
+
+**Known cost to quality.** The cap drops a cited record in about 16% of recorded turns (18 of 111).
+
+**How it is checked.** The fleet graded run measures whether answers improved with the cap on. If they did not, the `CIC_OFFER_CAP` switch turns the cap off, or the cost is lowered another way. This is a "for now" approval, to be revisited from that run's results.
