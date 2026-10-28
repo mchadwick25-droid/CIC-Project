@@ -900,6 +900,8 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
         guards = list(record.get("claim_guards") or []) + list(note.get("not_for") or [])
         if guards:
             entry["claim_guards"] = guards
+        if record_type == "story" and (record.get("absent_detail") or "").strip():
+            entry["absent_detail"] = " ".join(record["absent_detail"].split())
         return entry
 
     def _entry_chars(entry: dict) -> int:
@@ -1327,6 +1329,8 @@ def _quote_line(candidate: dict, descriptors: list[str]) -> str:
         line += ", " + ", ".join(descriptors[1:])
     if candidate.get("gist"):
         line += f" | means: {candidate['gist']}"
+    if candidate.get("claim_guards"):
+        line += " | MUST NOT ASSERT: " + "; ".join(candidate["claim_guards"])
     return line
 
 
@@ -1415,6 +1419,8 @@ def render_evidence_block(evidence: dict) -> str:
             # works") - directly beside the one record it barred a claim
             # about, never a separate section a skim could miss.
             line += " | MUST NOT ASSERT: " + "; ".join(guards)
+        if candidate.get("absent_detail"):
+            line += " | NOT KNOWN: " + candidate["absent_detail"]
         lines.append(line)
     for topic in evidence["thin_ground"]:
         keywords = ", ".join(topic.get("keywords") or [])

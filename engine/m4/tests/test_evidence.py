@@ -526,6 +526,40 @@ def test_render_evidence_block_renders_claim_guards_as_a_rider_on_the_candidate_
     assert _GUARDED["claim_guards"][0] in lines[0]
 
 
+_UNKNOWN = {
+    "id": "fix.story.unknown", "record_type": "story", "canon_cells": ["Z9-Q"],
+    "tellable_as": "A soldier shared his cloak with a beggar at the gate.",
+    "absent_detail": "We do not know what\n  the beggar said.",
+}
+_UNKNOWN_COVERAGE_ENTRY = {**_GUARDED_COVERAGE_ENTRY, "stories": ["fix.story.unknown"]}
+
+
+def test_a_stories_absent_detail_rides_on_its_line_without_costing_a_candidate_its_place():
+    selected = select_cell_candidates(
+        cell="Z9-Q", coverage_entry=_UNKNOWN_COVERAGE_ENTRY, repository_records={_UNKNOWN["id"]: _UNKNOWN},
+        message="tell me about the soldier", asks=None,
+    )
+    entry = next(c for c in selected if c["id"] == "fix.story.unknown")
+    assert entry["absent_detail"] == "We do not know what the beggar said."
+    line = next(l for l in render_evidence_block({"candidates": [entry], "thin_ground": [], "figures_already_named": []}).splitlines() if "[[fix.story.unknown]]" in l)
+    assert line.endswith("| NOT KNOWN: We do not know what the beggar said.")
+    chosen = select_cell_candidates(
+        cell="Z9-Q", coverage_entry=_UNKNOWN_COVERAGE_ENTRY, repository_records={_UNKNOWN["id"]: _UNKNOWN},
+        message="tell me about the soldier", asks=None, budget_chars=len(_UNKNOWN["tellable_as"]) + 5,
+    )
+    assert any(c["id"] == "fix.story.unknown" for c in chosen)
+
+
+def test_a_quote_line_carries_its_not_for_as_a_rider_and_a_voiced_quote_does_not():
+    quote = {"id": "fix.quote.q", "record_type": "quote", "head": "Words.", "speaker": "Augustine", "gist": "Correct in love.",
+             "claim_guards": ["a claim that the blows are a church penalty"]}
+    block = render_evidence_block({"candidates": [quote], "thin_ground": [], "figures_already_named": []})
+    line = next(l for l in block.splitlines() if "[[quote:fix.quote.q]]" in l)
+    assert line.endswith("| means: Correct in love. | MUST NOT ASSERT: a claim that the blows are a church penalty")
+    voiced = render_evidence_block({"candidates": [{**quote, "already_told_this_session": True}], "thin_ground": [], "figures_already_named": []})
+    assert "MUST NOT ASSERT" not in voiced
+
+
 def test_render_evidence_block_has_no_guard_marker_for_a_candidate_without_one():
     evidence = {"candidates": [{"id": "fix.term.plain", "record_type": "term", "head": "An ordinary term."}], "thin_ground": [], "figures_already_named": []}
     block = render_evidence_block(evidence)

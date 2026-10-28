@@ -407,6 +407,21 @@ def _horizon_findings(text: str, window_end: int | None) -> list[dict]:
     return out
 
 
+REASON_HORIZON = "names something after the world's window closes that its own cited records do not"
+
+
+def ungrounded_horizon_mentions(sentence: str, window_end: int | None, grounds: list[str]) -> list[str]:
+    """Each mention in `sentence` of something after the window that none of
+    `grounds`, the texts of the records the sentence cites, names too: the
+    world's own record stating a later fact is its own view, a mention no
+    record holds came from outside it."""
+    if window_end is None:
+        return []
+    terms = dated_terms(load_fleet_records())
+    named = {m for text in grounds for m in post_window_mentions(text, window_end, terms)}
+    return [m for m in post_window_mentions(sentence, window_end, terms) if m not in named]
+
+
 def check_horizon(text: str, window_end: int | None) -> list[dict]:
     """The live backstop: the horizon family alone, on the finished text.
     The other families run after the conversation (engine.m7.offline_checks)."""

@@ -7114,3 +7114,14 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 
 **Done.** One revert pull request on `main` (not on live). The slice 5 promotion pull request (1233), which would have carried both rules to live, is closed unmerged by the coordinator and slice 5 is rebuilt from `main` after this merges. Detail: `lpc_Decision_Log.md`, same date.
 
+
+
+## 2026-10-28 - Engine items E2, E3, E5, E6 built upstream-first as general rules (project lead's scope; no model call added)
+
+**Question.** The run 3 review asked for a hold on uncited specific claims (E3), a quote-against-not_for check (E5), a horizon block (E2) and a gate fix (E6). Which form, given "build to produce good answers, not to fix them"?
+
+**Ruling.** Project lead's scope of 2026-10-28, with the coordinator's direction: no model call per turn, find why the first draft goes wrong and fix that first, never delete a world's view. Cause and fix: the draft was not shown a story's `absent_detail` or a quote's `not_for`, so both now ride on their evidence lines (`NOT KNOWN:`, `MUST NOT ASSERT:`); the hold-and-redraft and the offline not_for check are not built (reasons and measurements in `lpc_Decision_Log.md`, same date). E2 stays an offline check that removes a sentence naming something after the world's window unless a record it cites names it too. E6 reads `voice_event.speaker` as the world's key.
+
+**Measured.** Offered sets unchanged on 1,770 question-world pairs in 13 packages. Added input about 363 tokens per turn (about $0.0011 at $3 per million), lpc about 905. The horizon block changes 3 of 4,455 recorded shipped sentences, all lpc anachronism-1.
+
+**Open.** Live retest of lpc on the current pin: the project lead names the test and cap. Record-side fixes belong to the lpc world thread (`Open_Gaps_Tracking.md`, OG-107).
