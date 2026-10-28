@@ -30,8 +30,8 @@ census_id: "lutheran-wittenberg-and-its-congregations"
 thinness_statement: "Richest in the founder's own catechisms, treatises, and confessional documents and in the movement's own account of its founding decade (1517-1531); thinner on any household's or parish's own report of receiving that formation (the Saxon visitation records exist but are not in this library), women's own formation and voice (no text a woman wrote survives here), the felt experience of the 1529 Marburg break with the Reformed cities, the years after 1531 within the window's own declared close of 1580, and material culture and lived worship independent of the movement's own account of itself. Luther's 1525 writings on the peasants' rising are held here, and six checked passages from them are quoted. His 1543 treatise against the Jews is real and part of this tradition's own history, but it is not held here, and its text is not in this library."
 living_tradition_flag: true
 package:
-  manifest_hash: "sha256:5243b5eca14ba0aeb2d48815ab3f9061400c43505a9c6f4d0284df7c7640a6cb"
-  location: "packages/witt/2026-10-28T03-20-14Z"
+  manifest_hash: "sha256:c5fb5239e68a3d957c51faf0a057e23326c65ed8951ca02c8685fc81bb0fa25b"
+  location: "packages/witt/2026-10-28T03-38-49Z"
 story_placement: false
 card:
   portrait: "assets/portraits/nikolaus.jpg"
