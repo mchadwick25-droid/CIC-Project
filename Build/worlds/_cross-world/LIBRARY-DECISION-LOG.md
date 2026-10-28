@@ -1037,3 +1037,15 @@ The census gains `armenian-christianity-before-the-bagratids` (II.19, c. 554-884
 - Luther, That Jesus Christ Was Born a Jew (1523): the Weimar Ausgabe, vol. 11, would be the public-domain text (page numbers cited as 314-336, unconfirmed). No scan located. Folger and Emory hold digitized 1523 printings. The Morgenstern edition is in copyright.
 
 **Not examined this pass.** Beza's letters and the Tabula praedestinationis, Karlstadt (Zorzin's essay is a modern edition note), Luther's De votis monasticis and the 1522 New Testament, Epiphanius on Eustathius, Basil's Small Asketikon. The Cambridge History of Christianity is a modern reference work and stays consult-only. Gregory the Great's Register is recorded in the entry above.
+
+## 2026-10-28 — Last unclassified wants: second pass (Wittenberg, Reformed, Cappadocian)
+
+**Luther, De votis monasticis (1521).** The public-domain text is Weimar Ausgabe vol. 8 (about p. 573 ff.; the cited passage is at p. 606). The English is Luther's Works vol. 44 (Fortress, in copyright). The Library of Congress holds a digitized 1521 Lotter printing. The Bavarian State Library copy (VD16 L 5010) is offered for non-commercial use only, so nothing from it is taken. The Philadelphia Edition volume that carries the English could not be confirmed; vendored vol. IV does not list it.
+
+**Luther, the 1522 September Testament and the 1534 Bible.** The Deutsches Textarchiv full text of 1522 is CC BY-SA 3.0, a share-alike condition, so it is not vendored without a ruling. German Wikisource has an unfinished transcription of the same print. Emory and Halle hold scans. No text of the 1534 Bible was located.
+
+**Beza's letters.** The Correspondance de Theodore de Beze (Droz, 43 volumes, from 1960) is in print and in copyright. No public-domain edition of the letters or of the Tabula praedestinationis (1555) was located.
+
+**Basil, Small Asketikon in Rufinus's Latin.** The critical Latin text is Zelzer, CSEL 86 (1986), in copyright; Silvas (2013) is also in copyright. No public-domain Latin edition located.
+
+**Not searched.** Epiphanius on Eustathius, Karlstadt.
