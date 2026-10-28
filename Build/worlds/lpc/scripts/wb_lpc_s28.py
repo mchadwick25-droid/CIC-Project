@@ -837,9 +837,7 @@ def build_limit_silent_century() -> None:
             "weighed them yet, so we neither lean on them nor rule them out. This is not an edge "
             "of what we know, the way our own beginning and our own end are edges. It sits inside "
             "our own life. It is a silence in our own pastoral voice, not a period in which nothing "
-            "happened. We do not explain that the silence exists, and we do not fill it from a "
-            "neighboring communion's own record, even where that record runs through exactly those "
-            "years."
+            "happened. Of those years we have no pastoral voice of our own to give you."
         ),
         "why_sources_cannot_answer": (
             "This world's construction window runs from roughly 246 to 430. Its Native corpus, as "
