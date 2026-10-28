@@ -1,6 +1,6 @@
 {
   "cap_usd": 12.0,
-  "spent_usd": 5.646986,
+  "spent_usd": 6.155948,
   "worlds": {
     "lpc": {
       "attempts": 1,
@@ -82,15 +82,20 @@
     },
     "rzg": {
       "attempts": 2,
-      "status": "running",
+      "status": "done",
       "preflight_usd": 0.35611905,
       "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-rzg-attempt2.jsonl",
-      "probes_answered": 0,
-      "spent_usd_world": 0.0,
+      "probes_answered": 28,
+      "spent_usd_world": 0.508962,
       "retry_ok": true,
-      "note": "process stopped mid-world; ledger spend added"
+      "note": "process stopped mid-world; ledger spend added",
+      "pass_count": 28,
+      "battery_size": 28,
+      "overall_pass": true,
+      "aborted_reason": null,
+      "exit_code": 0
     }
   },
-  "current": "rzg",
-  "checkpoint_at": "2026-10-28T23:50:59Z"
+  "current": null,
+  "checkpoint_at": "2026-10-28T23:55:25Z"
 }
