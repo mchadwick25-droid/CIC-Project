@@ -93,10 +93,12 @@ def _transcript_resolves(cell: str, result_file: Path, root: Path) -> bool:
     return _transcript_file(cell, result_file, root) is not None
 
 
-def emitted_turns(path: Path) -> list[str]:
+def emitted_turns(path: Path, world_key: str | None = None) -> list[str]:
     """The Representative's emitted turns in a result or transcript file: the
     `Turn N response:` and `Representative:` entries of a markdown transcript,
-    or the `text` of every `speaker: representative` entry in a JSON one."""
+    or the `text` of every entry in a JSON one whose speaker is
+    `representative` or the world's key (the voice event's own speaker)."""
+    speakers = {"representative"} | ({world_key.lower()} if world_key else set())
     text = read_text(path)
     if path.suffix == ".json" or text.lstrip().startswith(("{", "[")):
         try:
@@ -107,7 +109,7 @@ def emitted_turns(path: Path) -> list[str]:
 
         def walk(node) -> None:
             if isinstance(node, dict):
-                if str(node.get("speaker", "")).lower() == "representative" and isinstance(node.get("text"), str):
+                if str(node.get("speaker", "")).lower() in speakers and isinstance(node.get("text"), str):
                     found.append(node["text"])
                 for value in node.values():
                     walk(value)
@@ -135,10 +137,10 @@ def emitted_turns(path: Path) -> list[str]:
     return [t for t in turns if t]
 
 
-def turn_readability_findings(path: Path, root: Path) -> tuple[list[Finding], str | None]:
+def turn_readability_findings(path: Path, root: Path, world_key: str | None = None) -> tuple[list[Finding], str | None]:
     """Findings for every emitted turn in the file over FK 10 or under FRE 60,
     and a note when some turns are too short to grade."""
-    turns = emitted_turns(path)
+    turns = emitted_turns(path, world_key)
     if not turns:
         return [], None
     report = report_turns(turns)
@@ -151,7 +153,7 @@ def turn_readability_findings(path: Path, root: Path) -> tuple[list[Finding], st
     return findings, note
 
 
-def check_results(files: list[Path], root: Path = REPO_ROOT) -> tuple[Report, list[dict]]:
+def check_results(files: list[Path], root: Path = REPO_ROOT, world_key: str | None = None) -> tuple[Report, list[dict]]:
     """Check the result tables in the given files; also return every row
     found, for the trigger detector."""
     report = Report("validation results")
@@ -204,7 +206,7 @@ def check_results(files: list[Path], root: Path = REPO_ROOT) -> tuple[Report, li
                     if passes and handler != "facilitator":
                         report.findings.append(Finding(where, "n:rs2-pass", f"{pid}: a redirect that is not the Facilitator's cannot be PASS; the Representative-voice redirect is ACCEPTABLE FALLBACK"))
     for turn_file in turn_files:
-        found, note = turn_readability_findings(turn_file, root)
+        found, note = turn_readability_findings(turn_file, root, world_key)
         report.findings.extend(found)
         if note:
             report.notes.append(note)
@@ -470,7 +472,7 @@ def run_validation(code: str, files: list[Path] | None = None, root: Path = REPO
         rows: list[dict] = []
         results = Report("validation results")
     else:
-        results, rows = check_results(files, root)
+        results, rows = check_results(files, root, code)
         report.findings.extend(check_coverage(rows))
         report.findings.extend(check_tested_pins(code, files, root))
     reasons, undetermined = detect_triggers(load_records(code, root), rows, registry_entry(code, root), code)
