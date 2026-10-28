@@ -166,3 +166,11 @@ def test_readability_floor_is_reported_but_never_blocks_or_needs_a_waiver(monkey
     assert enforce.hygiene_problems(by_world) == []
     observed = enforce.report_only(by_world)
     assert any("m1:readability-floor/don" in line for line in observed)
+
+
+def test_a_new_non_question_retrieve_when_line_is_unwaived_drift():
+    from engine.m9.enforce import hygiene_problems
+
+    by_world = {"don": {"m1:retrieve-when-question": ["don.quote.x: retrieve_when line 'conversation reaches x' describes the conversation"] * 20}}
+    problems = hygiene_problems(by_world, today="2026-10-28")
+    assert any(p.startswith("m1:retrieve-when-question/don: waiver says 19, this run found 20") for p in problems)

@@ -1556,3 +1556,42 @@ def test_a_guard_line_that_repeats_an_earlier_one_is_left_out_of_the_rider():
     block = render_evidence_block({"candidates": [{"id": "fix.story.g", "record_type": "story", "head": "Head.", "claim_guards": guards}], "thin_ground": [], "figures_already_named": []})
     line = next(l for l in block.splitlines() if "[[fix.story.g]]" in l)
     assert line.count("formal public penance") == 1 and "publican" in line
+
+
+_SETTING_QUOTE = {
+    "id": "fix.quote.set", "record_type": "quote", "modern_rendering": "Bind him justly.",
+    "use_note": {"means": "Bind a brother only justly."},
+    "setting": {"said_by": "Augustine", "to_whom": "his congregation", "occasion": "a sermon on Matthew 18", "answers": "how one believer corrects another"},
+}
+_NO_SETTING_QUOTE = {"id": "fix.quote.plain", "record_type": "quote", "modern_rendering": "Words.", "use_note": {"means": "Words."}}
+
+
+def test_a_quote_with_a_setting_shows_it_beside_its_gist_and_one_without_shows_nothing():
+    from engine.m4.evidence import _with_riders
+
+    shown = _with_riders({"id": "fix.quote.set", "record_type": "quote", "head": "Bind him justly.", "speaker": "Augustine", "gist": "Bind justly."}, {_SETTING_QUOTE["id"]: _SETTING_QUOTE})
+    line = next(l for l in _riders_in([shown]).splitlines() if "[[quote:fix.quote.set]]" in l)
+    assert line.endswith("| means: Bind justly. | setting: Augustine to his congregation, a sermon on Matthew 18. It answered: how one believer corrects another")
+    plain = _with_riders({"id": "fix.quote.plain", "record_type": "quote", "head": "Words.", "speaker": "x", "gist": "g"}, {_NO_SETTING_QUOTE["id"]: _NO_SETTING_QUOTE})
+    assert "setting" not in plain and "setting:" not in _riders_in([plain])
+
+
+def test_a_quote_that_enters_through_scope_completion_carries_its_setting(monkeypatch):
+    from engine.m4 import evidence as ev
+
+    records = {_RIDER_STORY["id"]: _RIDER_STORY, _SETTING_QUOTE["id"]: _SETTING_QUOTE}
+    monkeypatch.setattr(ev, "scope_completion", lambda ids, repo: ["fix.quote.set"])
+    found = ev.assemble_evidence(message="beggar", asks=None, canon_questions={}, coverage={}, repository_records=records)
+    [candidate] = [c for c in found["candidates"] if c["id"] == "fix.quote.set"]
+    assert candidate.get("scope_completion") and "setting: Augustine to his congregation" in _riders_in([candidate])
+
+
+def test_a_setting_costs_no_selection_budget_and_is_valid_in_the_quote_schema():
+    from engine.m1.schemas import build_schema
+    from jsonschema import Draft202012Validator
+
+    validator = Draft202012Validator(build_schema("quote"))
+    base = {"id": "fix.quote.set", "world_id": "w", "record_type": "quote"}
+    assert not [e for e in validator.iter_errors({**base, "setting": {"answers": "how one believer corrects another"}}) if "setting" in "/".join(map(str, e.path))]
+    assert [e for e in validator.iter_errors({**base, "setting": {"where": "Hippo"}}) if "setting" in "/".join(map(str, e.path))]
+    assert [e for e in validator.iter_errors({**base, "setting": {}}) if "setting" in "/".join(map(str, e.path))]
