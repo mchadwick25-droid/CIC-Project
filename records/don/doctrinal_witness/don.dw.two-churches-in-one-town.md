@@ -64,7 +64,7 @@ text: >-
   overridden.
 
 
-  "Spread so far, so fast" is not what happened to us. We did not travel
+  That we spread far and fast is not what happened to us. We did not travel
   out and win Africa. The split ran straight down through a church
   already there. In Numidia we were not the minority meeting quietly; we
   were simply the church of the village. Our own councils were large

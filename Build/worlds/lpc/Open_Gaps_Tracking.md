@@ -2307,3 +2307,13 @@ Logged 2026-10-28. The live test "lpc go-live" (cap $5, project lead's command) 
 - **Owner.** The `lpc` build thread for the record and caution fixes; the engine thread for the removal fallback and retrieval.
 
 - **Update to OG-98, 2026-10-28.** Cautions 13, 14 and 16 fixed at the source on the project lead's ruling (Decision Log, 2026-10-28): no pointer to other worlds, a positive rule for accusations, no unsupported outcomes. New pin `packages/lpc/2026-10-28T02-55-50Z`. The probe results table is for the previous pin, so `validation lpc` fails on the pin until a rerun; no rerun was made. Still open: the three retrieval-caused findings (self-reference-2, register-7, Deep Interview turn 8) and the engine items, owned by the engine thread (OG-99).
+
+### OG-105. The hint-word cell fires on ordinary words too; relevance is unmeasured (2026-10-28).
+
+Logged 2026-10-28.
+
+- **Gap.** `evidence._add_hint_word_cell` adds a cell for any word of five letters or more that is not a canon word and is named by the hints of one or two records. It fixes the Augustine question and also fires on words such as "lived", "mother" and "father". Nothing offered is removed (0 of 1590 question-world pairs lose a record), but the added records may not answer the question. Counts cannot say; reading live replies can.
+- **Supersedes.** The "Done" line of OG-104 (a cell scoring as its best hint statement) describes a change that was reverted on `main` on 2026-10-27; the rule above is what stands.
+- **Not changed.** The word-length and record-count limits are judgments, set so the Augustine and "killed themselves" questions are covered; they are in `evidence._HINT_WORD_MIN_LETTERS` and `_HINT_WORD_MAX_RECORDS`.
+- **Owner.** The project lead, for the live retest and its cap.
+

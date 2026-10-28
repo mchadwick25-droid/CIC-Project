@@ -48,7 +48,7 @@ description: 'The Diet of Augsburg was called "concerning measures against the T
   embattled Christendom. It also gave the teaching of the two governments the Diet''s own agenda. This entry is
   short because the force''s effect was genuinely small, not because the evidence is missing. That is the reverse
   of two other thin entries: the Reformed rival refused at Marburg, and the absent inputs of 1525 and 1555. Those
-  two are thin because the library lacks the evidence, not because the effect was small.'
+  two are thin because the library lacks the evidence of the events themselves, not because the effect was small.'
 manifestations:
 - the Diet summoned "concerning measures against the Turk, that most atrocious, hereditary, and ancient
   enemy of the Christian name and religion" (AC 49-51)

@@ -994,3 +994,6 @@ Build/worlds/lpc/Review-Artifacts/Sermon_Quotes_Batch2_Review_2026-10-24.md: pac
 Build/worlds/lpc/Review-Artifacts/Sermon_Quotes_Batch2_Recheck_2026-10-24.md: packages/lpc
 Build/worlds/lpc/Open_Gaps_Tracking.md: cic-website/traditions/latin-pastoral-congregational-christianity.html
 Build/Ministry/Operations/Handoffs/2026-10-26_lpc-build-phase-L2-L3.md: cic-website/traditions/latin-pastoral-congregational-christianity.html
+Build/worlds/witt/Open_Gaps_Tracking.md: Build/worlds/witt/scripts/wb_witt_s21.py
+Build/worlds/witt/witt_GoLive_Adversarial_Review_Round1.md: Build/worlds/witt/scripts/wb_witt_s21.py
+Build/worlds/witt/witt_World_Profile.md: Build/worlds/witt/scripts/wb_witt_s21.py
