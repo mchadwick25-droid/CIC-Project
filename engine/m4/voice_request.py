@@ -7,17 +7,18 @@ Cache layout, front to back:
                 every world, breakpoint 1
     system[1]   the world's compiled prompt, breakpoint 2
     system[2]   the turn directive, uncached, only when the turn has one
-    messages    the session history, oldest first, breakpoint 3 on its last block
+    messages    the session history, oldest first, uncached
     final user  the evidence block and the participant's message
 
 The directive changes every turn, so it carries no breakpoint and sits behind
 both cached blocks, where it cannot invalidate them. The system channel is the
 one measured to win over a competing pressure in the user turn. With
 CIC_DIRECTIVE_IN_USER_MESSAGE=1 the directive instead leads the final user
-message in a bracketed frame, for a staging comparison. History
-is append-only (engine.api.wiring.history_from_transcript and
-engine.api.table_wiring.table_history_for both emit fixed pairs), so each call
-reads the previous call's cached prefix and writes only the new pair.
+message in a bracketed frame, for a staging comparison.
+
+The history carries no breakpoint. It follows the directive, which changes
+every turn, so a cache mark on it would be written every turn and never read,
+at 1.25 times the plain input price.
 """
 from __future__ import annotations
 
@@ -43,18 +44,6 @@ def _final_user_content(message: str, turn_directive: str | None):
     return [{"type": "text", "text": framed}, {"type": "text", "text": message}]
 
 
-def _cached_history(history: list[dict]) -> list[dict]:
-    """The history with a cache breakpoint on its last block. Copies; the
-    caller's list and dicts are never mutated."""
-    if not history:
-        return []
-    *earlier, last = history
-    content = last["content"]
-    blocks = [{"type": "text", "text": content}] if isinstance(content, str) else [dict(b) for b in content]
-    blocks[-1] = {**blocks[-1], "cache_control": _EPHEMERAL}
-    return [*earlier, {**last, "content": blocks}]
-
-
 def build_voice_request(
     *, system_prompt: str, message: str, turn_directive: str | None = None, history: list[dict] | None = None,
 ) -> tuple[list[dict], list[dict]]:
@@ -65,5 +54,5 @@ def build_voice_request(
     if turn_directive and not in_user_message:
         system.append({"type": "text", "text": turn_directive})
     final_content = _final_user_content(message, turn_directive if in_user_message else None)
-    messages = [*_cached_history(history or []), {"role": "user", "content": final_content}]
+    messages = [*(history or []), {"role": "user", "content": final_content}]
     return system, messages
