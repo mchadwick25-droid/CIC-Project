@@ -133,6 +133,10 @@ def new_world_waiver_problem(waiver: Waiver) -> str | None:
 # being fixed right now gets a dated waiver, not a free pass by omission.
 # Waived here on that basis, each owned by its own world's build thread.
 ACCEPTED_OPEN: dict[str, Waiver] = {
+    "m1:retrieve-when-question/don": Waiver(count=19, deadline="2027-03-15", owner="retrieve-when question gate: each retrieve_when line is rewritten as the question a participant asks; don's own build thread"),
+    "m1:retrieve-when-question/gallic": Waiver(count=45, deadline="2027-03-15", owner="retrieve-when question gate: each retrieve_when line is rewritten as the question a participant asks; gallic's own build thread"),
+    "m1:retrieve-when-question/rzg": Waiver(count=3, deadline="2027-03-15", owner="retrieve-when question gate: each retrieve_when line is rewritten as the question a participant asks; rzg's own build thread"),
+    "m1:retrieve-when-question/lpc": Waiver(count=27, deadline="2027-03-15", owner="retrieve-when question gate: each retrieve_when line is rewritten as the question a participant asks; lpc world thread, project lead ruling 2026-10-28", approved_by=PROJECT_LEAD),
     "m1:reciprocity/lpc": Waiver(count=1, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
     "m1:retrieval-negatives-structured/lpc": Waiver(count=47, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
     "m1:readability/lpc": Waiver(count=13, deadline="2026-12-14", owner="lpc build thread, OG-97: record content the generator did not shape for this gate; cleared in a content batch", approved_by=PROJECT_LEAD),
@@ -247,6 +251,9 @@ def collect_findings(registry: dict | None = None) -> dict[str, dict[str, list[s
         # permanently excludes from the waiver mechanism: a sub-8 field is
         # reported, never failed, so it needs no waiver to stay green.
         merged["m1:readability-floor"] = gates.gate_readability_floor(records, fleet, registry)
+        # gate_retrieve_when_questions is not in GATES either (its docstring
+        # says why); its findings are waivable like any gate's.
+        merged["m1:retrieve-when-question"] = gates.gate_retrieve_when_questions(records, fleet, registry)
         shelf = loader.load_shelf(world_key=world_key, census_id=entry["census_id"], records=records)
         for name, findings in confinement_run_all(records, shelf).items():
             merged[f"m9:{name}"] = findings

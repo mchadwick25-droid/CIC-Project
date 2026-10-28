@@ -7125,3 +7125,11 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 **Measured.** Offered sets unchanged on 1,770 question-world pairs in 13 packages. Added input about 363 tokens per turn (about $0.0011 at $3 per million), lpc about 905. The horizon block changes 3 of 4,455 recorded shipped sentences, all lpc anachronism-1.
 
 **Open.** Live retest of lpc on the current pin: the project lead names the test and cap. Record-side fixes belong to the lpc world thread (`Open_Gaps_Tracking.md`, OG-107).
+
+## 2026-10-28 - A quote's setting is an optional field shown to the voice, and a retrieve_when line must be a question (project lead's ruling, choice box)
+
+**Question.** The lpc quote audit found that no quote record says who said it, to whom, on what occasion or what it answered, and that some `retrieve_when` lines name a record instead of a question. What is built?
+
+**Ruling.** Mark, 2026-10-28, from a choice box: add an optional `setting` field to quote records in every world, shown to the voice on the quote's evidence line, and a build gate that fails `retrieve_when` lines that are not questions. Not approved: a per-quote `lead_in` line, splitting the 10-quote cells, any "offer fewer" option.
+
+**Done.** `setting` is an optional object (`said_by`, `to_whom`, `occasion`, `answers`, at least one) in the quote schema. When present it is attached in `_with_riders`, so every selection path carries it, and shown after the gist; outside the selection budget; nothing is shown when it is absent. The gate, `gate_retrieve_when_questions`, flags a line that names a record id or opens with "conversation" or "Representative". It is not in `GATES`, because that list is baked into every package manifest and would stale every pinned package; `engine/m9/enforce.py` runs it under `m1:retrieve-when-question`. Today it finds 94 lines in 84 records (don 19, gallic 45, lpc 27, rzg 3; 31 of them on quotes), waived to 2027-03-15 with counts, each owned by its world's thread; the lpc waiver carries the project lead's approval. A new line anywhere fails the run. Writing settings and rewriting the lines belong to the world threads. Model calls added: none.
