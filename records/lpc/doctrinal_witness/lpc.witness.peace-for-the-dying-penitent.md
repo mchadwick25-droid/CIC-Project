@@ -44,6 +44,8 @@ relations:
   target: lpc.quote.before-even-a-deacon
 - type: associated-with
   target: lpc.quote.penitents-in-peril-of-sickness-should-be-assisted
+- type: associated-with
+  target: lpc.witness.the-dying-and-the-pastors-post
 positions:
 - For the sick who held a martyr's certificate, Cyprian set aside the wait for the bishop. They could
   confess before any presbyter who was present. If no presbyter was found and death drew near, they
