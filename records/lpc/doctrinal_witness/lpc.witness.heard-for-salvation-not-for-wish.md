@@ -30,7 +30,7 @@ retrieval:
   tier: 1
   retrieve_when:
   - participant asks what to do with prayer that goes unanswered
-  - conversation reaches F4-P and needs the real teaching that answers the unanswered-prayer sub-question
+  - participant asks why God does not give what the saints ask for in prayer
   do_not_retrieve_when: []
 relations:
 - type: associated-with

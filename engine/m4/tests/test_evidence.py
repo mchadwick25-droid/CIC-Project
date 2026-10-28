@@ -1478,3 +1478,306 @@ def test_riders_reach_a_quote_that_enters_through_scope_completion(monkeypatch):
     [candidate] = [c for c in found["candidates"] if c["id"] == "fix.quote.rider"]
     assert candidate.get("scope_completion")
     assert "MUST NOT ASSERT: a claim that sharing earns salvation" in _riders_in([candidate])
+
+
+# --- a message that points back, or re-reaches a told story, also gets the prior subject's cells ---
+
+_FAST = "How did your people fast and keep the holy days?"
+_FAST_STORY = {"id": "fix.story.fast", "record_type": "story", "canon_cells": ["F2-E"], "tellable_as": "How the fast was kept on the fourth day, told as the community kept it.", "absent_detail": "We do not know who kept the first fast.", "use_note": {"not_for": ["a claim that the fast was kept by all"]}}
+_CARRY_CANON = {**CANON_QUESTIONS, "fleet.canon.q4": {"id": "fleet.canon.q4", "record_type": "canon_question", "cell": "F2-E", "text": _FAST}}
+_CARRY_REPOSITORY = {**REPOSITORY, _FAST_STORY["id"]: _FAST_STORY}
+_CARRY_COVERAGE = {**COVERAGE, "F2-E": {**COVERAGE["F1-E"], "stories": ["fix.story.fast"]}}
+_FAST_HISTORY = [{"role": "user", "content": _FAST}, {"role": "assistant", "content": "We fasted on the fourth day."}]
+_JESUS = "What did your community actually have about Jesus - writings, memories, people?"
+
+
+def _carry(message, *, history=None, told=None):
+    return assemble_evidence(
+        message=message, asks=None, canon_questions=_CARRY_CANON, coverage=_CARRY_COVERAGE,
+        repository_records=_CARRY_REPOSITORY, history=history, already_told_ids=told,
+    )
+
+
+_STRONG = "Was that all they had of Jesus - writings, memories, people?"
+_WEAK = "Did they keep that memory of Jesus?"
+
+
+def test_a_back_reference_that_reached_a_told_story_adds_the_prior_subjects_cell_and_removes_nothing():
+    told = {"fix.story.first-meal"}
+    base = _carry(_STRONG, told=told)
+    out = _carry(_STRONG, history=_FAST_HISTORY, told=told)
+    assert "F2-E" not in [c["cell"] for c in base["cells"]]
+    assert out["cells"][-1]["cell"] == "F2-E" and out["cells"][-1]["from_prior_turn"]
+    assert {c["id"] for c in base["candidates"]} <= {c["id"] for c in out["candidates"]}
+    assert "fix.story.fast" in {c["id"] for c in out["candidates"]}
+
+
+def test_a_back_reference_with_a_weak_best_cell_adds_the_prior_subjects_cell():
+    out = _carry(_WEAK, history=_FAST_HISTORY)
+    assert out["cells"][-1]["cell"] == "F2-E" and out["cells"][-1]["from_prior_turn"]
+
+
+def test_a_back_reference_with_a_strong_best_cell_and_nothing_told_carries_nothing():
+    assert _carry(_STRONG) == _carry(_STRONG, history=_FAST_HISTORY)
+
+
+def test_a_told_story_without_a_back_reference_carries_nothing():
+    told = {"fix.story.first-meal"}
+    assert _carry(_JESUS, told=told) == _carry(_JESUS, history=_FAST_HISTORY, told=told)
+
+
+def test_a_carried_cell_contributes_its_lead_witness_and_one_untold_story_not_the_whole_cell():
+    from engine.m4.evidence import _carried_records
+
+    cands = [{"id": "a", "record_type": "term"}, {"id": "w", "record_type": "doctrinal_witness"},
+             {"id": "s1", "record_type": "story"}, {"id": "s2", "record_type": "story"}, {"id": "q", "record_type": "quote"}]
+    assert [c["id"] for c in _carried_records(cands, told_selected=False, already_told_ids=None)] == ["w"]
+    assert [c["id"] for c in _carried_records(cands, told_selected=True, already_told_ids={"s1"})] == ["w", "s2"]
+    assert [c["id"] for c in _carried_records([cands[0], cands[3]], told_selected=False, already_told_ids=None)] == ["a"]
+
+
+def test_a_first_turn_carries_nothing_even_with_a_back_reference_and_a_told_story():
+    out = _carry(_STRONG, history=[], told={"fix.story.first-meal"})
+    assert not any(c.get("from_prior_turn") for c in out["cells"])
+
+
+_FOLLOW_UP_FIRST = [{"role": "user", "content": "Why did that fast matter?"}, {"role": "assistant", "content": "It mattered."}]
+_NO_CELL = "What is the weather like today?"
+
+
+def test_when_no_earlier_message_stands_alone_the_conversations_first_message_is_the_subject():
+    out = _carry(_WEAK, history=_FOLLOW_UP_FIRST)
+    assert out["cells"][-1]["cell"] == "F2-E" and out["cells"][-1]["from_prior_turn"]
+    assert "from_prior_turn" not in _carry(_WEAK)["cells"][-1]
+
+
+def test_a_standalone_message_that_matched_no_cell_carries_nothing_even_when_an_older_message_had_one():
+    history = [
+        {"role": "user", "content": _FAST}, {"role": "assistant", "content": "We fasted."},
+        {"role": "user", "content": _NO_CELL}, {"role": "assistant", "content": "I cannot say."},
+    ]
+    assert _carry(_WEAK, history=history) == _carry(_WEAK)
+
+
+def test_a_carry_keeps_every_cell_the_message_matched_and_its_extra_cells_and_secondary_context():
+    canon = {**HINT_WORD_CANON, "canon.D-1": {"id": "canon.D-1", "record_type": "canon_question", "cell": "D-1", "text": "How were the dyers' vats kept?"}}
+    history = [{"role": "user", "content": "How were the dyers' vats kept?"}, {"role": "assistant", "content": "Clean."}]
+    kw = dict(message="Was that about the harbour boats and Nicaea?", asks=None, canon_questions=canon, coverage={},
+              repository_records=HINT_WORD_RECORDS, secondary_context="How were the orchard rows kept in your village?")
+    base = assemble_evidence(**kw)
+    out = assemble_evidence(**kw, history=history)
+    assert [c["cell"] for c in out["cells"]][:len(base["cells"])] == [c["cell"] for c in base["cells"]]
+    assert any(c.get("from_hint_word") for c in base["cells"]) and any(c.get("from_secondary_context") for c in base["cells"])
+    assert out["cells"][-1]["cell"] == "D-1" and out["cells"][-1]["from_prior_turn"]
+
+
+def test_a_carry_and_the_full_text_fallback_both_run_when_the_message_reaches_no_cell_of_its_own():
+    records = {**_CARRY_REPOSITORY, _RIDER_STORY["id"]: _RIDER_STORY}
+    out = assemble_evidence(
+        message="Was that the beggar?", asks=None, canon_questions=_CARRY_CANON, coverage=_CARRY_COVERAGE,
+        repository_records=records, history=_FOLLOW_UP_FIRST,
+    )
+    ids = {c["id"] for c in out["candidates"]}
+    assert "fix.story.rider" in ids and "fix.story.fast" in ids
+    assert any(c.get("fulltext_fallback") for c in out["candidates"])
+
+
+def test_a_carried_cells_lead_witness_carries_its_riders():
+    witness = {"id": "fix.witness.vigil", "record_type": "doctrinal_witness", "canon_cells": ["F3-E"], "text": "Lamps were lit before first light.",
+               "claim_guards": ["the speaker must not say who led the vigil"]}
+    canon = {**_CARRY_CANON, "fleet.canon.q5": {"id": "fleet.canon.q5", "record_type": "canon_question", "cell": "F3-E", "text": "How did your people keep the dawn vigil?"}}
+    coverage = {**_CARRY_COVERAGE, "F3-E": {**COVERAGE["F1-E"], "doctrinal_witness": ["fix.witness.vigil"]}}
+    history = [{"role": "user", "content": "How did your people keep the dawn vigil?"}, {"role": "assistant", "content": "With lamps."}]
+    out = assemble_evidence(message=_WEAK, asks=None, canon_questions=canon, coverage=coverage,
+                            repository_records={**_CARRY_REPOSITORY, "fix.witness.vigil": witness}, history=history)
+    [carried] = [c for c in out["candidates"] if c["id"] == "fix.witness.vigil"]
+    assert carried["cell"] == "F3-E"
+    assert "MUST NOT ASSERT: the speaker must not say who led the vigil" in _riders_in([carried])
+
+
+
+
+_DISTINCT_GUARD_RECORDS = (
+    ("syr", "syr.contested.aphrahat-episcopacy"),
+    ("syr", "syr.contested.jacob-death-year"),
+    ("rzg", "rzg.limit.doubt-and-assurance"),
+    ("rzg", "rzg.limit.no-teaching-on-wealth-or-marriage"),
+    ("syr", "syr.story.basil-legend"),
+    ("ijc", "ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood"),
+)
+
+
+def test_every_guard_line_of_a_record_reaches_its_rider_distinct_claims_included():
+    from engine.m1.loader import load_world_records
+
+    for world, rid in _DISTINCT_GUARD_RECORDS:
+        record = load_world_records(world)[rid]
+        guards = list(record.get("claim_guards") or []) + list((record.get("use_note") or {}).get("not_for") or [])
+        assert len(guards) >= 2, rid
+        candidate = {"id": rid, "record_type": record["record_type"], "head": "Head.", "claim_guards": guards}
+        line = next(l for l in render_evidence_block({"candidates": [candidate], "thin_ground": [], "figures_already_named": []}).splitlines() if rid in l)
+        assert all(g in line for g in guards), (rid, [g for g in guards if g not in line])
+
+
+def test_a_negation_pair_and_a_number_pair_both_survive_in_the_rider():
+    guards = ["a claim that he was certainly a bishop", "a claim that he was certainly not a bishop", "a claim that he died in 338", "a claim that he died in 350"]
+    block = render_evidence_block({"candidates": [{"id": "fix.story.g", "record_type": "story", "head": "Head.", "claim_guards": guards}], "thin_ground": [], "figures_already_named": []})
+    assert all(g in block for g in guards)
+
+
+
+_SETTING_QUOTE = {
+    "id": "fix.quote.set", "record_type": "quote", "modern_rendering": "Bind him justly.",
+    "use_note": {"means": "Bind a brother only justly."},
+    "setting": {"said_by": "Augustine", "to_whom": "his congregation", "occasion": "a sermon on Matthew 18", "answers": "how one believer corrects another"},
+}
+_NO_SETTING_QUOTE = {"id": "fix.quote.plain", "record_type": "quote", "modern_rendering": "Words.", "use_note": {"means": "Words."}}
+
+
+def test_a_quote_with_a_setting_shows_it_beside_its_gist_and_one_without_shows_nothing():
+    from engine.m4.evidence import _with_riders
+
+    shown = _with_riders({"id": "fix.quote.set", "record_type": "quote", "head": "Bind him justly.", "speaker": "Augustine", "gist": "Bind justly."}, {_SETTING_QUOTE["id"]: _SETTING_QUOTE})
+    line = next(l for l in _riders_in([shown]).splitlines() if "[[quote:fix.quote.set]]" in l)
+    assert line.endswith("| means: Bind justly. | setting: Augustine to his congregation, a sermon on Matthew 18. It answered: how one believer corrects another")
+    plain = _with_riders({"id": "fix.quote.plain", "record_type": "quote", "head": "Words.", "speaker": "x", "gist": "g"}, {_NO_SETTING_QUOTE["id"]: _NO_SETTING_QUOTE})
+    assert "setting" not in plain and "setting:" not in _riders_in([plain])
+
+
+def test_a_setting_renders_each_present_field_and_never_doubles_a_full_stop():
+    from engine.m4.evidence import _setting_text
+
+    assert _setting_text({"to_whom": "his congregation"}) == "To his congregation"
+    assert _setting_text({"to_whom": "his congregation", "occasion": "a sermon"}) == "To his congregation, a sermon"
+    assert _setting_text({"said_by": "Augustine", "occasion": "a sermon."}) == "Augustine, a sermon"
+    assert _setting_text({"said_by": "Augustine.", "answers": "how one believer corrects another."}) == "Augustine. It answered: how one believer corrects another"
+    assert _setting_text({"occasion": "a sermon.", "answers": "a question."}) == "a sermon. It answered: a question"
+    assert ".." not in _setting_text({"said_by": "A.", "to_whom": "B.", "occasion": "C.", "answers": "D."})
+
+
+def test_a_setting_field_longer_than_the_limit_fails_the_quote_schema():
+    from engine.m1.schemas import build_schema
+    from jsonschema import Draft202012Validator
+
+    validator = Draft202012Validator(build_schema("quote"))
+    base = {k: v for k, v in _SETTING_QUOTE.items() if k != "setting"}
+    ok = {**base, "setting": {"occasion": "x" * 160}}
+    long = {**base, "setting": {"occasion": "x" * 161}}
+    bad = lambda rec: [e for e in validator.iter_errors(rec) if "setting" in "/".join(map(str, e.path))]  # noqa: E731
+    assert not bad(ok) and bad(long)
+
+
+def test_a_quote_that_enters_through_scope_completion_carries_its_setting(monkeypatch):
+    from engine.m4 import evidence as ev
+
+    records = {_RIDER_STORY["id"]: _RIDER_STORY, _SETTING_QUOTE["id"]: _SETTING_QUOTE}
+    monkeypatch.setattr(ev, "scope_completion", lambda ids, repo: ["fix.quote.set"])
+    found = ev.assemble_evidence(message="beggar", asks=None, canon_questions={}, coverage={}, repository_records=records)
+    [candidate] = [c for c in found["candidates"] if c["id"] == "fix.quote.set"]
+    assert candidate.get("scope_completion") and "setting: Augustine to his congregation" in _riders_in([candidate])
+
+
+def test_a_setting_costs_no_selection_budget_and_is_valid_in_the_quote_schema():
+    from engine.m1.schemas import build_schema
+    from jsonschema import Draft202012Validator
+
+    validator = Draft202012Validator(build_schema("quote"))
+    base = {"id": "fix.quote.set", "world_id": "w", "record_type": "quote"}
+    assert not [e for e in validator.iter_errors({**base, "setting": {"answers": "how one believer corrects another"}}) if "setting" in "/".join(map(str, e.path))]
+    assert [e for e in validator.iter_errors({**base, "setting": {"where": "Hippo"}}) if "setting" in "/".join(map(str, e.path))]
+    assert [e for e in validator.iter_errors({**base, "setting": {}}) if "setting" in "/".join(map(str, e.path))]
+
+
+# --- the cap on offered records ---------------------------------------------------
+
+def _c(rid, rtype="term", score=0.5, cell="X-1", **extra):
+    return {"id": rid, "record_type": rtype, "score": score, "cell": cell, **extra}
+
+
+def test_the_cap_reads_its_switch_once_and_defaults_to_twelve():
+    from engine.m4.evidence import _offer_cap_from_env
+
+    assert _offer_cap_from_env({}) == 12
+    assert _offer_cap_from_env({"CIC_OFFER_CAP": "7"}) == 7
+    assert all(_offer_cap_from_env({"CIC_OFFER_CAP": v}) is None for v in ("0", "off", "OFF", "false", "no"))
+    assert _offer_cap_from_env({"CIC_OFFER_CAP": "garbage"}) == 12
+
+
+def test_the_cap_leaves_out_the_lowest_ranked_unprotected_records_and_keeps_order():
+    from engine.m4.evidence import _cap_offered
+
+    selected = [_c("top"), _c("a", score=0.9), _c("b", score=0.1), _c("c", score=0.5), _c("d", score=0.1), _c("e", score=0.7)]
+    kept, dropped = _cap_offered(selected, [{"cell": "X-1"}], 4)
+    assert [c["id"] for c in kept] == ["top", "a", "c", "e"]
+    assert dropped == ["b", "d"]
+    assert _cap_offered(selected, [{"cell": "X-1"}], None) == (selected, [])
+    assert _cap_offered(selected, [{"cell": "X-1"}], 6) == (selected, [])
+
+
+def test_the_cap_never_leaves_out_a_cells_first_record_extras_carried_quotes_limits_fallback_or_scope_records():
+    from engine.m4.evidence import _cap_offered
+
+    matches = [{"cell": "X-1"}, {"cell": "H-1", "from_hint_word": "w"}, {"cell": "E-1", "from_entity": "n"},
+               {"cell": "P-1", "from_prior_turn": True}, {"cell": "Y-1"}]
+    selected = [
+        _c("x-first", score=0.0), _c("x-low", score=0.0),
+        _c("hint", cell="H-1", score=0.0), _c("hint2", cell="H-1", score=0.0),
+        _c("ent", cell="E-1", score=0.0), _c("carried", cell="P-1", score=0.0),
+        _c("y-first", cell="Y-1", score=0.0), _c("y-low", cell="Y-1", score=0.0),
+        _c("quote", "quote", cell="Y-1", score=0.0), _c("limit", "honest_limit", score=None),
+        _c("fallback", cell=None, score=None, fulltext_fallback=True), _c("scope", cell=None, score=None, scope_completion=True),
+        _c("other", score=0.0),
+    ]
+    kept, dropped = _cap_offered(selected, matches, 3)
+    assert set(dropped) == {"x-low", "y-low", "other"}
+    assert {c["id"] for c in kept} == {"x-first", "hint", "hint2", "ent", "carried", "y-first", "quote", "limit", "fallback", "scope"}
+
+
+def test_the_cap_keeps_the_top_scored_record_of_each_cell_not_only_the_first_appended():
+    from engine.m4.evidence import _cap_offered
+
+    selected = [_c("first", score=0.1), _c("top", score=0.9), _c("q1", "quote", cell=None), _c("q2", "quote", cell=None), _c("low", score=0.0)]
+    kept, dropped = _cap_offered(selected, [{"cell": "X-1"}], 3)
+    assert dropped == ["low"]
+    assert [c["id"] for c in kept] == ["first", "top", "q1", "q2"]
+
+
+def test_a_thin_topic_line_is_not_lost_when_the_cap_leaves_out_the_record_that_triggered_it(monkeypatch):
+    import engine.m4.evidence as evidence
+
+    kw = dict(message="What did your community actually have about Jesus - writings, memories, people?", asks=None,
+              canon_questions=CANON_QUESTIONS, coverage=COVERAGE, repository_records=REPOSITORY)
+    monkeypatch.setattr(evidence, "OFFER_CAP", None)
+    uncapped = assemble_evidence(**kw)
+    monkeypatch.setattr(evidence, "OFFER_CAP", 4)
+    cut_id = assemble_evidence(**kw)["capped"][0]
+    head = next(c["head"] for c in uncapped["candidates"] if c["id"] == cut_id)
+    thin = [{"keywords": [head.lower()], "note": "nothing is recorded on this"}]
+    capped = assemble_evidence(**kw, thin_topics=thin)
+    assert cut_id in capped["capped"]
+    assert capped["thin_ground"] == thin
+
+
+def test_when_the_protected_records_alone_exceed_the_cap_they_are_all_offered():
+    from engine.m4.evidence import _cap_offered
+
+    selected = [_c(f"q{i}", "quote", cell=None) for i in range(12)] + [_c("low", score=0.0, cell=None)]
+    kept, dropped = _cap_offered(selected, [], 10)
+    assert dropped == ["low"] and len(kept) == 12
+
+
+def test_assemble_evidence_applies_the_cap_and_the_switch_off_reproduces_the_uncapped_offer(monkeypatch):
+    import engine.m4.evidence as evidence
+
+    kw = dict(message="What did your community actually have about Jesus - writings, memories, people?", asks=None,
+              canon_questions=CANON_QUESTIONS, coverage=COVERAGE, repository_records=REPOSITORY)
+    monkeypatch.setattr(evidence, "OFFER_CAP", None)
+    uncapped = assemble_evidence(**kw)
+    assert "capped" not in uncapped and len(uncapped["candidates"]) > 4
+    monkeypatch.setattr(evidence, "OFFER_CAP", 4)
+    capped = assemble_evidence(**kw)
+    assert len(capped["candidates"]) == 4 and capped["capped"]
+    assert [c["id"] for c in capped["candidates"]] == [c["id"] for c in uncapped["candidates"] if c["id"] not in capped["capped"]]
+    assert uncapped["candidates"][0]["id"] in {c["id"] for c in capped["candidates"]}
+    monkeypatch.setattr(evidence, "OFFER_CAP", 1000)
+    assert assemble_evidence(**kw) == uncapped

@@ -12,7 +12,7 @@ confidence:
   evidentiary_weight: corroborating
   formation_confidence: Contested
   divergence_note: Confidence B rather than A because De Unitate 5 does not carry Cyprian's own anti-Stephen
-    position -- the treatise predates the Stephen rebaptism controversy by several years (Doc_01 SS7);
+    position -- the treatise predates by several years the dispute with Stephen, in which Cyprian held baptism given outside the church void (Doc_01 SS7);
     a finding about what this row is NOT licensed for, not an independent locus check. De Unitate 4-5
     also survives in two recensions, one (the 'Primacy Text') reading more favourably to Roman primacy
     -- a transmission fact Doc_01 SS7 names and does not resolve; Registry row 51 (Bévenot's critical

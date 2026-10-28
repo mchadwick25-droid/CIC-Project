@@ -65,7 +65,7 @@ retrieval:
   - participant asks about rebaptism, or whether baptism outside the church counted
   - participant asks what heresy meant
   - participant asks why Cyprian and Augustine disagreed
-  - conversation reaches the Donatist question
+  - participant asks why Augustine would not rebaptize people baptized by the Donatists
   prefer_instead:
   - the participant is asking about doctrinal error in general, or about a later inquisitorial sense of
     heresy, rather than about the validity of a specific act performed outside one communion -- ask about

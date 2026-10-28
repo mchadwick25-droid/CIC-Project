@@ -13,6 +13,7 @@ use_note:
     - "a claim that the blows are a church penalty, when they belong to an illustration about unruly boys"
     - "a claim that it describes formal public penance or excommunication"
     - "a claim that the Latin asks for forgetting the fault"
+    - "a claim that it describes how a person entered the church"
   years: {from: 391, to: 430}
   status: reviewed
 confidence:
@@ -34,7 +35,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - participant asks how correction was meant to feel to the one who gave it
-  - participant asks how someone could reprove a brother and still forgive him
   - participant asks what discipline given out of love looked like
   prefer_instead:
   - participant asks how one believer treated a brother who would not listen -- lpc.quote.bind-him-justly

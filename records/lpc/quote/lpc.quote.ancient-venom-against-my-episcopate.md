@@ -30,8 +30,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - participant asks whether Cyprian's own election was ever accepted without dispute
-  - conversation reaches lpc.story.election-of-cyprian and needs Cyprian's own later word for the hostility
-    that persisted after it
+  - participant asks how Cyprian spoke of the rivals who kept opposing him after his election
   prefer_instead:
   - participant is asking about the Felicissimus schism's own doctrinal content (this quote names the
     persistence of the hostility toward Cyprian's own election specifically, not the schism's own later

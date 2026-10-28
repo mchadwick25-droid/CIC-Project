@@ -80,7 +80,7 @@ retrieval:
   - participant asks about pastoral authority, or about the relationship between a bishop and ordinary
     believers
   - participant uses shepherd or pastor language
-  - conversation reaches the question of who a bishop answers to
+  - participant asks whom a bishop had to answer to
   prefer_instead:
   - the participant is asking about episcopal jurisdiction between sees rather than about a bishop's charge
     over his own congregation -- ask about the one episcopate or bishop of bishops instead

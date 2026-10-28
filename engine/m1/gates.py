@@ -1605,6 +1605,19 @@ def gate_question_ending(records, fleet, registry) -> list[str]:
             for rid, label, sentence in bare_question_hits(records)]
 
 
+def gate_retrieve_when_questions(records, fleet, registry) -> list[str]:
+    """Every retrieve_when line is a question a participant asks, not a
+    record id or a description of the conversation (engine.m1.hint_questions).
+    NOT registered in GATES: validation/gates-report.json lists GATES and is
+    baked into every package manifest, so registering it would stale every
+    pinned package. engine/m9/enforce.py calls it directly, under its own
+    key, and its findings take waivers like any other."""
+    from .hint_questions import non_question_hits
+
+    return [f"{rid}: retrieve_when line {line!r} {reason}; write the question that should bring this record"
+            for rid, line, reason in non_question_hits(records)]
+
+
 GATES = {
     "schema-validation": gate_schema_validation,
     "referential": gate_referential,

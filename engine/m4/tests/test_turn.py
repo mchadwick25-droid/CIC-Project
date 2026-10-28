@@ -588,9 +588,7 @@ def test_session_memory_rides_in_messages_and_leaves_the_cached_prefix_alone():
     system, messages = client.messages.captured_stream_calls[0]
     assert [m["role"] for m in messages] == ["user", "assistant", "user"]
     assert messages[0]["content"] == "who is jesus"
-    assert messages[1]["content"] == [
-        {"type": "text", "text": "He was God's own Word, come to us in flesh.", "cache_control": {"type": "ephemeral"}}
-    ]
+    assert messages[1]["content"] == "He was God's own Word, come to us in flesh."
     assert "and what then" in _participant_text(messages[2]["content"])  # this turn's own message, evidence block and all
     assert [b["text"] for b in system[:2]] == [shape_text(), world.prompt_text]
     assert all(b["cache_control"] == {"type": "ephemeral"} for b in system[:2])

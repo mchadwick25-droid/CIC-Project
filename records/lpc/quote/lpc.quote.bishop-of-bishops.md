@@ -12,7 +12,7 @@ use_note:
   not_for:
     - "a claim that it is an early anti-papal manifesto"
     - "a claim that it states a modern principle of separated powers among equal branches"
-    - "a claim that Cyprian's words name Stephen as their target"
+    - "a claim that Cyprian's words name Stephen as their target, or answer an accusation that bishops shielded a bishop who did wrong"
     - "a claim that ordinary believers or most clergy were formed by this question"
   years: {from: 256, to: 256}
   status: reviewed
@@ -37,7 +37,7 @@ retrieval:
   - participant asks whether one bishop could overrule another
   - participant asks about church government, councils, or the origins of papal authority
   - participant asks how disputes between bishops were settled
-  - conversation reaches conciliar authority theory
+  - participant asks what Cyprian said at the start of the council of 256
   prefer_instead:
   - participant is asking about a bishop's own authority over his own congregation rather than about bishops'
     authority over each other -- ask about the flock instead

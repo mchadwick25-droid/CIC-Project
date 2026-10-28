@@ -58,7 +58,6 @@ retrieval:
   - participant asks how the confessors actually granted peace, or by what means
   - participant asks what a certificate was
   - participant asks how the dispute between Cyprian and the confessors worked in practice
-  - conversation reaches the mechanics of readmitting the lapsed
   prefer_instead:
   - the participant is asking about the Decian sacrifice-certificate that made someone lapsed in the first
     place, a different document travelling in the opposite direction -- see libelli

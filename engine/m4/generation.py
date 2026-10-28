@@ -68,7 +68,7 @@ def stream_voice_turn(
     The request is shaped by engine.m4.voice_request.build_voice_request: the
     engine's shape segment and then the world's compiled prompt are the cached
     system prefix, the per-turn directive follows them as an uncached system block, and the
-    session history carries the last cache breakpoint. A world's compiled prompt still has
+    session history follows uncached. A world's compiled prompt still has
     to clear Anthropic's cache-eligibility floor (~1024 tokens for
     Sonnet-class) to engage - a short prompt (like the fixture's) legitimately
     shows cache_engaged=False, which is a different fact from "caching is

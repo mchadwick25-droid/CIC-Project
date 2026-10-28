@@ -13,6 +13,7 @@ use_note:
     - "a claim that it was an orderly election"
     - "a claim that it describes Augustine's later consecration as bishop"
     - "a claim that Possidius, Augustine's friend, writes as an uninvolved witness"
+    - "a claim that it describes a sermon at Hippo or the years 258 to 391"
   years: {from: 391, to: 391}
   status: reviewed
 confidence:
@@ -33,10 +34,8 @@ retrieval:
   tier: 1
   retrieve_when:
   - participant asks how Augustine came to be ordained
-  - conversation reaches lpc.story.the-psalms-on-the-wall and needs the same congregation's own earlier
-    claim on him, at the office's own point of entry rather than its end
-  - participant asks whether the congregational-acclamation pattern lpc.story.election-of-cyprian shows
-    recurs at Hippo
+  - participant asks how a crowd at Hippo drew Augustine into the priesthood against his will
+  - participant asks whether a congregation at Hippo claimed a man for office the way Carthage claimed Cyprian
   prefer_instead:
   - participant wants Augustine's own later account of the same event in his own words -- this quote is
     Possidius's own narration; Augustine's own first-person account survives separately (Sermo CCCLV)

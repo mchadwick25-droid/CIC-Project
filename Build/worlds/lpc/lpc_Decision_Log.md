@@ -2917,3 +2917,29 @@ Cause found, then fix:
 Measured, no model call: offered sets unchanged on all five question sets (208 + 1,274 + 108 + 90 + 90 pairs, 13 packages; 0 changed, 0 records removed) after the `absent_detail` rider was kept out of the selection budget (counted in it, it removed 209 records on 182 canon pairs, so it was reverted before commit). Rider cost on the offered-sets questions: mean 363 input tokens per turn, about $0.0011 at $3 per million; lpc mean 905 tokens ($0.0027), largest 1,240 ($0.0037). On the 39 run 3 turns the lpc riders were about 315 tokens ($0.0009). Recorded answers, 4,455 shipped sentences in 13 worlds: the horizon block would remove 3 (lpc anachronism-1, runs 2, 3 and 4), none elsewhere; the syr sentence stays.
 
 Record-side items for this world's thread, not done here: `lpc.story.numidicus` not_for "a claim that Numidicus lapsed or was readmitted" and its `retrieve_when`; `lpc.contested.de-unitate-recensions` and `lpc.term.the-one-episcopate` wording of the Stephen dispute; `retrieve_when` of `lpc.quote.reprove-and-forgive-the-surgeons-knife` and the `bind-him-justly` placement. The live retest on the current pin needs a capped live test that the project lead names.
+
+### 2026-10-28 — Record-side fixes from the run 3 review (project lead's direction: build to produce good answers)
+
+Context: the run 3 review (`Review-Artifacts/Run3_Access_And_Craft_Review_2026-10-28.md`) named five record fixes that cost no model calls. Done at the source, no live run.
+
+Changed: `lpc.story.numidicus` gains the not_for "a claim that Numidicus lapsed or was readmitted" (E3). The de-unitate contested claim, the `cyprian-de-unitate` source record and `lpc.term.the-one-episcopate` now state Cyprian's side of the dispute with Stephen in place of "the Stephen rebaptism controversy" (E3). `lpc.quote.reprove-and-forgive-the-surgeons-knife` loses the `retrieve_when` line that overlapped `lpc.quote.bind-him-justly` (Q1). `lpc.limit.the-silent-century` has a `statement` the voice can say, with the "not yet weighed" hedge kept, and `wb_lpc_s28.py` matches it (R2).
+
+V4, decided: the records hold Augustine on the dying. Letter 228 to Honoratus (428 or 429) was checked against the vendored NPNF text, and the new witness record `lpc.witness.the-dying-and-the-pastors-post` gives only what the letter says: ministers must not leave behind the people who depend on them, and the dying are then baptized and reconciled. It sets no rule on the length of penance or on who gives the peace.
+
+Review: one Opus round, Revise (two P1: the silent-century statement dropped the hedge, and an edit to the s28 script duplicated blocks; four P2). All applied; every quotation in the new record matched the source word for word. New pin `packages/lpc/2026-10-28T15-03-21Z`. No model call; no spend.
+
+### 2026-10-28 — Retrieval hints rewritten as questions a participant asks (project-management thread's request for the retrieval-hint gate)
+
+Context: the gate in the engine thread's retrieval-hint change fails any `retrieve_when` line that names a record id or opens with "conversation" or "Representative". lpc had 27 such lines, and no waiver is to be given.
+
+Changed: all 27 lines now read as the question a participant asks for that record to be the answer, narrow enough not to match the neighbouring record. Three were dropped because another line of the same record already covers them (`the-psalms-on-the-wall`, `certificates-letters-of-peace`, `marriage-a-threefold-good`). Quote narrowing from the engine audit rode along: new not_for lines on `reprove-and-forgive-the-surgeons-knife`, `bind-him-justly`, `the-case-set-before-the-bishop`, `bishop-of-bishops`, `clamour-and-tears`, `let-us-too-be-beheaded-with-him` and `thousands-of-certificates-daily`; the original-sin hint on `not-his-own-sins-but-the-sins-of-another` narrowed to what the council told Fidus; an added hint on `the-mildest-condemnation-of-all`; the Creed-and-Lord's-Prayer quote reached by a question about what those preparing for baptism received.
+
+Review: one Opus round, Revise (two P1, nine P2, three P3). All applied, among them a hint on grace that promised Pelagius's own teaching, which no record holds, and a hint on the election of Cyprian that invited a link to bishops' standing. No model call; no spend. Pin `packages/lpc/2026-10-28T17-58-42Z`.
+
+Not done from the audit: the quotes' "setting" field (needs the engine thread's field on its own branch) and the quote placement checks for `the-case-set-before-the-bishop` (the ledger).
+
+### 2026-10-28 — Two quote not_for lists brought back under the schema limit (after the retrieval-hint merge)
+
+Context: the not_for lines added to `lpc.quote.bishop-of-bishops` and `lpc.quote.clamour-and-tears` in the retrieval-hint change took each list past the schema's length limit, and the fleet drift test (`m1:schema-validation/lpc`) failed on `main` after that merge. My own gate run was cut short and did not reach it.
+
+Changed: the two added lines of `clamour-and-tears` are one line; the added line of `bishop-of-bishops` joins the line about Stephen. No claim was dropped and no meaning changed. Pin `packages/lpc/2026-10-28T18-53-09Z`. No model call.

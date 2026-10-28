@@ -7126,6 +7126,22 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 
 **Open.** Live retest of lpc on the current pin: the project lead names the test and cap. Record-side fixes belong to the lpc world thread (`Open_Gaps_Tracking.md`, OG-107).
 
+## 2026-10-28 - A follow-up carries the last standalone subject's cells as extra slots (coordinator's approval of the engine thread's design)
+
+**Question.** Deep Interview turns 2 and 8 of the lpc run lost the thread: turn 2 asked for "a real case" and its own cell held only the story already told in turn 1; turn 8 said "it", but "Augustine", "later" and "same" scored above the follow-up threshold, so turn 7's dying-penitent cell was never consulted.
+
+**Ruling.** The project-management thread approved the design on 2026-10-28, with proof first: no model call, add-only on every offered-sets path, and a replay of the ten-turn interview.
+
+**Done.** `assemble_evidence` carries the last standalone message's cells (up to two, as a follow-up carries today) as extra slots, after the cells the message matched, only when history exists, the message holds a back-reference word, and either its own best cell is weak (shared-word mass under 3.5) or a story or quote its own cells selected was already told. From each carried cell it takes the lead witness and, when a story or quote was told, one untold story, not the whole cell. If no earlier message stands alone, the conversation's first message is the subject. Nothing already selected is removed or reordered, and the carried cells do not count as evidence for the full-text fallback. In the same change, the guard rider drops a line that repeats an earlier line (70% shared content words), which pays for part of the carry. Cost, measured against the run-3 baseline, and what the project-management thread decided to do about the budget are in the pull request and in the project-management log.
+
+## 2026-10-28 - A quote's setting is an optional field shown to the voice, and a retrieve_when line must be a question (project lead's ruling, choice box)
+
+**Question.** The lpc quote audit found that no quote record says who said it, to whom, on what occasion or what it answered, and that some `retrieve_when` lines name a record instead of a question. What is built?
+
+**Ruling.** Mark, 2026-10-28, from a choice box: add an optional `setting` field to quote records in every world, shown to the voice on the quote's evidence line, and a build gate that fails `retrieve_when` lines that are not questions. Not approved: a per-quote `lead_in` line, splitting the 10-quote cells, any "offer fewer" option.
+
+**Done.** `setting` is an optional object (`said_by`, `to_whom`, `occasion`, `answers`, at least one) in the quote schema. When present it is attached in `_with_riders`, so every selection path carries it, and shown after the gist; outside the selection budget; nothing is shown when it is absent. The gate, `gate_retrieve_when_questions`, flags a line that names a record id or opens with "conversation" or "Representative". It is not in `GATES`, because that list is baked into every package manifest and would stale every pinned package; `engine/m9/enforce.py` runs it under `m1:retrieve-when-question`. Today it finds 94 lines in 84 records (don 19, gallic 45, lpc 27, rzg 3; 31 of them on quotes). don, gallic and rzg are waived to 2027-03-15 with counts, each owned by its world's thread. lpc has no waiver: the lpc world thread rewrites its 27 lines and the gate reports lpc at 0 before this merges. A new line anywhere fails the run. Writing settings and rewriting the lines belong to the world threads. Model calls added: none.
+
 ## 2026-10-28 - Named, capped live test "fleet graded run 1" approved; the run waits for the engine upgrades (project lead's approval)
 
 **Question.** Run the sealed 28-probe battery through the live admission harness on every real world, and have Opus grade the saved answers, to see where each world's answers fail on current `main`?
@@ -7145,3 +7161,58 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 **Exception for the eleven other worlds.** Mark, by choice box, relayed by the project-management thread: the 13 October 2026 eleven-world test (alx, cappadocian, desert, don, gallic, hal, ijc, pahc, rzg, syr, witt; not lpc) is used as a side-by-side, for this purpose only, read qualitatively and labelled older, different format and a different engine. The data rule is otherwise: nothing dated before 2026-10-27. The 28-probe battery does not ask that test's 6 questions, so the side-by-side needs a replay of the same 6 questions per world (66 voice turns, about $1.80 voice-only or $2.40 with the safety and reader calls) through the live-turn harness. Plan within the $12 cap: admission on all 12 worlds first; the replay then runs in the same world order with whatever budget remains after admission and retries, under the same name, cap and printed settings, stopping before any call that could pass $12 in total. The report names exactly which worlds got the replay.
 
 **Open.** The run, its report files under `engine/m3/reports/`, and the fleet summary follow after "go".
+
+## 2026-10-28 - Offered records are capped at 10 per turn, behind a switch (project lead's ruling, choice box)
+
+**Question.** The voice is offered 9 to 17 records a turn and cites 1 to 6; the evidence block is the largest part of a turn's cost after the cached prefix. Cap it?
+
+**Ruling.** Mark, 2026-10-28, from a choice box: cap offered records at 10, behind a switch he can turn off, default on.
+
+**Done.** `assemble_evidence` leaves out the lowest-ranked records beyond 10 (the matcher's own score, lower first, later position first). Never left out: the first record of each matched cell, every record of an entity-matched, hint-word or carried cell, every quote, every honest limit, and every full-text-fallback or scope-completion record. If those alone exceed 10 they are all offered. The switch is the environment variable `CIC_OFFER_CAP`, read once when the engine starts: unset gives 10; `0`, `off`, `false` or `no` turns the cap off and restores today's offered sets exactly; a number sets another cap. Dropped ids are reported under `capped` on the evidence result. Measurements, including the cited records the cap cuts, are in the pull request.
+
+## 2026-10-28 - Standing cost rule for engine changes (project lead)
+
+**Ruling.** Mark, 2026-10-28: "I want it cheaper, then same, but if a significant improvement needs the extra I will approve it." A change to what a turn sends or spends must lower the cost per turn or leave it level. A net cost increase is allowed only when it buys a shown, significant improvement and Mark approves it by name.
+
+**Applied to the merged changes (cost against the run-3 audit evidence).**
+
+- #1251 (horizon `output_defect` blocks the sentence; `window_end` passed through): no prompt cost. Not a cost increase.
+- #1256 (riders: `NOT KNOWN:`, `MUST NOT ASSERT:`, quote `setting:`): a cost increase of about 640 tokens a turn on lpc. It rests on the run-3 quote-misuse audit: of the 19 placed quotes, 9 fit, 6 were clearly misused and 4 stretched, because the draft was never shown a story's `absent_detail` or a quote's `not_for`. Mark's words: the problem is the context, not the quotes.
+- #1258 (follow-up carry of the lead witness and one untold story): a cost increase of about 245 tokens on a follow-up turn. It rests on the run-3 interview, where follow-ups lost the thread because name and comparison words outscored the follow-up threshold.
+- #1259 (history cache mark dropped): a saving, about $0.0213 over a 10-turn session. The directive in the system block defeated the mark, so history was billed fresh every turn.
+
+**Open.** The guard-line trim was removed (it dropped distinct guards); that adds about 44 tokens a turn. The net-cost table is in the cap pull request.
+
+## 2026-10-28 - Change order: the offered-record cap is 12, not 10 (project lead)
+
+**Change order to the entry "Offered records are capped at 10 per turn, behind a switch".** Mark, 2026-10-28: "the cap is 12, but as cheap as possible to get good results." The default of `CIC_OFFER_CAP` is now 12; the switch and the protected set are unchanged, and the value lives in one place (`DEFAULT_OFFER_CAP`). Going lower than 12 is not shipped without Mark's word.
+
+**Evidence for a lower cap (offline, 111 recorded lpc turns from 27/28 Oct, 36 of them run 3).** No cap below about 25 keeps every record the voice cited. At 12, 28 cited records are dropped in 18 of the 111 turns (8 in 6 of the 36 run-3 turns); the protected set is never cut. The saving is about 416 tokens a turn at 12, 744 at 10 and 1,018 at 8. The numbers per cap are in the pull request.
+
+**Cost-free trims inside the cap.** None exists. Across run-3 single turns and the 98 canon questions there are no empty riders, no repeated line inside a record and no duplicate guards. Identical rider lines on a second record (about 9 to 10 tokens a turn) and `means` that restates the head (about 7 to 8) would remove record text, so they are not made.
+
+## 2026-10-28 - Review points on the setting rider and the hint rule (#1256, applied in the cap pull request)
+
+**Setting rendering.** A setting with `to_whom` but no `said_by` now reads "To his congregation", and each field's closing full stop is dropped before joining, so no ".." appears. **Length limit.** Each setting field is limited to 160 characters by the quote schema (about 40 tokens a field; at most about 160 tokens for a setting with all four, a typical one about 30). No record uses a setting yet, so no record is affected.
+
+**Hint rule.** `non_question_reason` rejects a `retrieve_when` line that opens "the conversation" or "the representative" as describing the conversation, not only a line that names a record id. The rule as built includes that form, 13 of the 19 don hits are of it, and the don waiver count of 19 covers them. The rule is not narrowed, so no gate count changes.
+
+## 2026-10-28 - Cap 12 and its net cost rise approved for now (project lead, choice box)
+
+**Approval.** Mark, 2026-10-28, from a choice box, by name: "Ship cap 12 and approve the rise for now." Under his standing cost rule (cheaper, then same; a rise needs his approval with the evidence of improvement), the project lead approved the cap at 12 and the net rise against run 3 of about +3% on lpc (combined) and about +5% on standalone questions.
+
+**What the rise pays for.** The riders and the follow-up carry, which target the invented facts and misused quotes found in the run-3 audit.
+
+**Known cost to quality.** The cap drops a cited record in about 16% of recorded turns (18 of 111).
+
+**How it is checked.** The fleet graded run measures whether answers improved with the cap on. If they did not, the `CIC_OFFER_CAP` switch turns the cap off, or the cost is lowered another way. This is a "for now" approval, to be revisited from that run's results.
+
+## 2026-10-28 - Cap follow-up: thin-topic lines survive the cap, the top-scored record of each cell is protected (Opus review of #1261)
+
+**Thin-topic lines.** `thin_topic_riders` ran on the capped list, so a "cannot claim" line vanished when the cap cut the record whose head triggered it. It now runs on the uncapped selection. Of the 370 pairs the cap touches at 12 (1,770 question-world pairs, 13 packages), 56 lost such a line before; none do now.
+
+**Top-scored record of each cell.** The cap protected the first record appended to a cell, which is not always the top-scored one. It now protects both. Before, 2 of the 370 capped pairs cut a cell's top-scored record; none do now. Cost: on the 111 recorded lpc turns, about 38 tokens a turn (378 saved against 416), and cited records cut at 12 go from 28 to 25 (run 3 alone, 8 to 7). Across all 1,770 pairs the saving per capped pair is 464 against 465 tokens.
+
+**Protected set above the cap.** On real data one pair has more protected records than the cap (an lpc question about a parent's violence): 14 protected of 19 selected, so 14 records are offered and nothing is cut beyond them. The rule is unchanged: if the protected records exceed the cap they are all offered.
+
+**Correction.** #1261 merged at head 051e672, before the setting-render fixes, the 160-character field limit, the hint-rule note and the cap-approval entry were pushed. They land in this follow-up pull request.
