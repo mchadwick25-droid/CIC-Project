@@ -27,3 +27,28 @@
   },
   "estimated_usd_preflight": 0.35611905
 }
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/user/CIC-Project/engine/m3/live_admission_run.py", line 573, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/home/user/CIC-Project/engine/m3/live_admission_run.py", line 535, in main
+    report = run(args.region, world_keys=world_keys, max_usd=args.max_usd, authorized_by=args.authorized_by,
+                 voice_model_pattern=args.voice_model, save_transcripts=args.save_transcripts,
+                 settings_only=args.settings_only, probe_limit=args.probe_limit,
+                 answers_path=Path(args.out + ".answers.jsonl") if args.save_transcripts else None,
+                 report_path=None if args.settings_only else out_path)
+  File "/home/user/CIC-Project/engine/m3/live_admission_run.py", line 453, in run
+    world_result = _run_world(world_key, registry=registry, loader=loader, voice_model_id=voice_model_id, region=region,
+                              canon_questions=canon_questions, save_transcripts=save_transcripts, probe_limit=probe_limit,
+                              answers_path=answers_path)
+  File "/home/user/CIC-Project/engine/m3/live_admission_run.py", line 332, in _run_world
+    battery = harness.run_battery(world_key, clean_records, answerer=answerer, limit=probe_limit)
+  File "/home/user/CIC-Project/engine/m3/harness.py", line 88, in run_battery
+    answer = answerer.answer(cell, probe["text"])
+  File "/home/user/CIC-Project/engine/m3/live_admission_run.py", line 251, in answer
+    result = self._inner.answer(cell, probe_text)
+  File "/home/user/CIC-Project/engine/m3/generation.py", line 197, in answer
+    raise RuntimeError(f"LiveModelAnswerer: voice generation call failed: {stream_outcome.status} {stream_outcome.value}")
+RuntimeError: LiveModelAnswerer: voice generation call failed: error {'error': 'Connection error.'}

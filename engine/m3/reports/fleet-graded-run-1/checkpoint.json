@@ -85,10 +85,12 @@
       "status": "running",
       "preflight_usd": 0.35611905,
       "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-rzg.jsonl",
-      "probes_answered": 1,
-      "spent_usd_world": 0.064974
+      "probes_answered": 8,
+      "spent_usd_world": 0.196282,
+      "retry_ok": true,
+      "note": "container restarted mid-world; one retry authorized"
     }
   },
   "current": "rzg",
-  "checkpoint_at": "2026-10-28T23:48:28Z"
+  "checkpoint_at": "2026-10-28T23:49:43Z"
 }
