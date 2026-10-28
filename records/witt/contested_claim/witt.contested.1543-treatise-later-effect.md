@@ -37,10 +37,10 @@ relations:
 - type: associated-with
   target: witt.force.absent-inputs-1525-and-1555
 claim: >-
-  The 1543 treatise Von den Juden und ihren Lügen represents genuine continuity with the founder's own
-  earlier antisemitic tendencies and was a real historical contributor to the development of modern German
-  antisemitism - not a marginal or forgotten text, but one whose influence reached forward into the
-  centuries that followed it.
+  The 1543 treatise On the Jews and Their Lies was a real historical contributor to modern German
+  antisemitism. It was not a marginal or forgotten text. Its influence reached forward into the centuries
+  that followed. This is a question about the treatise's later effect. We do not hold the treatise, and
+  the witness does not rule on it.
 held_against:
 - >-
   A named, specialist counter-reading holds the opposite historical-effect claim: Wallmann's 1987 study of
@@ -57,21 +57,17 @@ held_against:
   weighed their evidence and found them evenly matched.
 - >-
   The question this claim actually asks - what the treatise DID, historically, after 1543 - is a different
-  and harder question than what the treatise SAYS. This world's own records are firm on the second (the
-  treatise's own seven-point programme, tertiary-sourced but Widely Accepted as to content, disclosed at
-  witt.source.luther-von-den-juden-und-ihren-l and witt.force.absent-inputs-1525-and-1555) and silent on the
-  first. A downstream effect on later centuries is not established or refuted by anything this library holds
-  about the treatise's own 1543 content.
+  and harder question than what the treatise SAYS. This world does not hold the treatise's text, so it
+  cannot say what the treatise says, and it is silent on the first question too. A downstream effect on later
+  centuries is not established or refuted by anything this library holds.
 concedes: >-
   Not contested: that Luther wrote and published the treatise in 1543; that it is real, part of this
-  world's own history, and not smoothed over or denied; that it recommends a programme against the Jews
-  (Widely Accepted as to content, from tertiary sourcing, per Doc_02 SS12.3); and that serious scholarship
+  world's own history, and not smoothed over or denied; and that serious scholarship
   exists and disagrees about what happened to the text's influence after Luther's own lifetime. What is not
   settled from this library: whether the treatise's later historical effect was one of substantial
-  continuity into modern antisemitism, or one of long dormancy followed by later rediscovery - and, per
-  this world's own Standing determination (Doc_07 SS9/SS12 item 7, Doc_08 SS11 item 7), this is not a
-  question the Representative's own voice answers either way; the treatise's content and its downstream
-  effect alike are Facilitator-carried disclosure, never Representative-voiced argument. This record exists
-  so the contest is written down rather than left as a silence a Representative-voice answer could
+  continuity into modern antisemitism, or one of long dormancy followed by later rediscovery - and this is not a
+  question the witness answers either way. The witness says the treatise is not held and its text is not in
+  our sources. The contest over its later effect stays in this record, and the witness does not rule on it.
+  This record exists so the contest is written down rather than left as a silence a witness answer could
   otherwise fill by default.
 ---

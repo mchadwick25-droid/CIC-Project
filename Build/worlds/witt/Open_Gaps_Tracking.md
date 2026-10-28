@@ -2785,7 +2785,7 @@ Follows `Build/Ministry/Operations/Handoffs/2026-10-27_wants-sort-handoff.md` (3
 
 **Quote records wanted from the new files (authored by Opus, per CLAUDE.md).** The Admonition to Peace and the Open Letter on the Hard Book for the Peasants' War; Formula Missae and the German Mass for the worship order Walter describes; the Christian schools letter and the common chest preface for the household and school register. Not started.
 
-**Also open.** `Build/worlds/witt/witt_Source_Registry.md` rows 48, 59, 61 and 62 and Doc_02 still describe these texts as not held; they are canonical build documents and were not edited here. Package `packages/witt/2026-10-27T21-08-58Z` is the current pin (the pin first named here, 19-23-58Z, was replaced by the OG-85 repin).
+**Also open.** `Build/worlds/witt/witt_Source_Registry.md` rows 48, 59, 61 and 62 and Doc_02 still describe these texts as not held; they are canonical build documents and were not edited here. Package The package pin is the one named in `records/worlds/witt.yaml`; the pin first named here was replaced by later repins.
 
 Status: OPEN.
 
@@ -2801,6 +2801,47 @@ Follows the entry "Source records brought up to date with the Library's 2026-10-
 - Dating differences to check before any quote: Bacon dates the first preface 1525, vol. VI 1524; vol. VI dates "Ein feste Burg" 1527 to 1528, the source record says 1529. German originals not checked.
 
 Status: OPEN.
+
+## OG-86. Change order: the witness wording for the 1525 writings and the 1543 treatise in `witt.core`, 2026-10-27.
+
+Follows the entry "Read-only check of Luther, Philadelphia Edition vols. IV and VI" (2026-10-27). Mark ruled in the question-coverage thread, 2026-10-27: the Representative is a witness, and the world is transparent and honest. It reports what happened. It does not have to own it. Mark approved the old and new wording as drafted.
+
+- **Changed in `witt.core.witt`:** the limits paragraph in `thinness`, the `cautions` field, the 1525 keyword note and the 1543 keyword note. Old rule: the voice holds only the existence of the 1525 tract and the 1543 treatise, never their argument or wording. New rule: for 1525 the voice may say what the writings argued as far as the checked lines carry it, and quotes only checked lines; for 1543 it says the treatise is not held, its text is not in the sources, and it cannot say what it argued.
+- **Readability:** sentences in the `thinness` and `cautions` fields were split so the fields clear the grade ceiling. No other meaning was changed.
+- **Opus review (2026-10-27) corrected the first draft:** "quote it" removed as a promise (the engine searches compiled records only, and no quote record cites the 1525 works yet); 1543 first said what is known comes from later accounts; Mark then ruled the world uses only its own sources (2026-10-27), so the text now says only that the treatise is not held and cannot be quoted or characterized; "bear witness to", "the gap is ours" and "volume IV" removed; one connective restored. Review: `Build/Ministry/Features/Question-Coverage/Review/opus-witt-core-review.md`.
+- **Records still stating the old rule (listed by the review, not edited):** `witt.voice.craft`, `witt.dw.what-we-have-never-settled`, `witt.demo.record-thinnest`, `witt.demo.who-held-authority`, `witt.term.insurrection` (wrongly says the 1525 tract is not in the library), `witt.force.popular-insurrectionary-force`, `witt.force.absent-inputs-1525-and-1555`, `witt.gravity.two-governments`, `witt.contested.1543-treatise-later-effect`, the body of `witt.source.luther-admonition-to-peace`, and the Permanent Prompt, Doc_02, Doc_08, Doc_10, World Profile and generator scripts. Changing the Permanent Prompt, Doc_08 and Doc_10 changes who carries 1525 and 1543 content, so it needs its own change order from Mark. Until reconciled the compiled prompt carries both rules.
+- **Not changed, still says the old rule:** the body note on the 1543 treatise's content characterization (it says the argument is not the Representative's to voice), and the body line on the 1543 disclosure as "existence-only in .thinness, .cautions and .thin_topics". Both are now out of step and are listed for Mark; the `living_traditions` sentence on 1543 is consistent and was left.
+- **Not done:** quote records for the three 1525 works and the Formula Missae and German Mass; an honest_limit record for 1543; a check of what the unvendored secondary works let the witness say of 1543; Opus review of the new wording. Open for Mark: whether the witness answers a visitor who asks if the writings were wrong.
+
+Status: OPEN.
+
+## OG-87. Six quote records from the 1525 writings, provisional, 2026-10-27.
+
+Follows the entry "Change order: the witness wording for the 1525 writings and the 1543 treatise in `witt.core`" (2026-10-27). Authored by Opus (modern renderings per CLAUDE.md), all from `cic/texts/luther_works-v4-selected_various1931.txt` (Jacobs and Steinhaeuser, 1931 English, not Luther's German).
+
+- **Records:** `witt.quote.the-sword-is-at-your-throats`, `you-too-must-have-a-care`, `your-own-judges` (Admonition to Peace); `as-when-one-must-kill-a-mad-dog`, `the-time-of-the-sword` (Against the Robbing and Murdering Hordes); `neither-court-nor-mercy` (Open Letter). Chosen so the witness can report his rebuke of the princes, his rebuke of the peasants, the harshest lines unsoftened, and his defence of the tract.
+- **Verified verbatim twice:** by the author, and again here by an exact-string comparison of each record's text against the vendored file (all six found, line-end hyphens joined only).
+- **Status:** `use_note.status` is provisional. The author wrote them, so they are not marked reviewed until an independent recheck. `relations` empty (the reciprocity gate would need edits to other records). Canon cells F3-I on all; F6-I also on the two Hordes records and the Open Letter.
+- **Contested:** whether Luther read his own tract fairly in the Open Letter is marked Contested; the word "surrender" never appears in the Hordes tract (lines 11802 to 12266).
+- **Passages left out for OCR errors:** the "no one to thank but you princes and lords" line (stray "j", line 10398); "Stab, smite, slay, whoever can" ("1^" for "!", line 12230); the Open Letter repeat of "hew, stab, slay... as though among mad dogs" (lines 12991 to 12997, garbled text before it). Worth a check against the page image.
+- **Records now contradicting the quotes (not edited, same list as OG-86):** `witt.source.luther-admonition-to-peace` (body says "never quoted as if in hand"), `witt.force.popular-insurrectionary-force`, `witt.term.insurrection`, `witt.dw.what-we-have-never-settled`, `witt.gravity.two-governments`, `witt.force.absent-inputs-1525-and-1555`.
+
+Status: OPEN.
+
+## OG-88. Change order applied: witness wording reconciled across the Wittenberg records, 2026-10-27.
+
+Follows the entries OG-86 and OG-87 and the rulings logged in `Build/Ministry/Features/Question-Coverage/Decision-Log.md` (2026-10-27, Q1 to Q13). Mark approved the old and new wording (reconcile change order, artifact `https://claude.ai/artifact/Qz4MYDKaVvZWy2Dsw893Tf`) and the application in stages with an independent Opus recheck of the six quotes first. The world uses only its own sources: for 1543 the witness says the treatise exists, its text is not held, and it cannot say what it argued.
+
+- **Records changed:** the six 1525 quote records (Opus recheck fixes to renderings, notes, loci and routing); `witt.core.witt` (already changed under OG-86); `witt.voice.craft`; `witt.term.insurrection`; `witt.dw.what-we-have-never-settled`; `witt.demo.record-thinnest` and `witt.demo.who-held-authority`; `witt.force.popular-insurrectionary-force`, `witt.force.absent-inputs-1525-and-1555` (id kept, name and description rewritten), `witt.force.the-turk` and `witt.force.transmission-at-the-windows-edge`; `witt.gravity.two-governments`; `witt.contested.1543-treatise-later-effect` and `witt.contested.two-governments-historical-scope`; the two story records (pointers to the 1525 quotes); `records/worlds/witt.yaml` (`thinness_statement`).
+- **Source record split:** `witt.source.luther-admonition-to-peace` now covers the Admonition only, with new records `witt.source.luther-against-the-robbing-and-murdering-hordes` and `witt.source.luther-open-letter-on-the-hard-book`, each citing the 1931 Philadelphia Edition vol. IV. The vendored title is used; the older title appears once as a variant.
+- **New record:** `witt.demo.what-he-wrote-in-1525`, a witness demonstration for the canon question F3-P-02, provisional.
+- **Build documents held for their own pull request (Mark's ruling, 2026-10-27):** the Permanent Prompt, Doc_02, Doc_08, Doc_10, Phase 7 and the World Profile were edited as drafted, but the live-commentary check requires a pull request that edits a canonical file to strip the commentary already in it (Doc_02 about 78 hits, Doc_08 59, Doc_10 14, Phase 7 2). The edits are kept on branch `claude/witt-build-docs`. This pull request leaves those six files as they were. Doc_08, Doc_10 and the Permanent Prompt change the standing rule on who carries 1525 and 1543 content; until that pull request lands they still state the old rule, though the voice reads only the records.
+- **Retired:** the generators `wb_witt_s21.py` and `wb_witt_s22_s23.py` moved to `Archive/Superseded-Engine-Code/` (note: `Build/Ministry/Operations/Audits/2026-10-27_witt-generators-retired.md`). Old merged entries and a review file that cite the old path stay as they were, and their citations are in the path-check baseline.
+- **Commentary:** build commentary was removed from the bodies of the live records edited here (Q9).
+- **Not edited, still describe the old boundary:** Phases 5 and 6 (scored on the old "existence only" boundary, CL-1 FAIL; superseded, and a live re-test is deferred until Mark names a test and a cap); Doc_04 section 6.3 (its Supporting call rests on "1525 and 1555 lie outside every vendored text", now stale for 1525; classification left alone by ruling); Source Registry rows 48, 49, 59, 61, 62 and 94; Doc_01, Doc_07 line 352, Doc_09, Phase 5 and Phase 6 passages and World Profile lines 117, 313 to 321, 715 and 795.
+- **Embedded-quotation pin:** `engine/m1/tests/test_embedded_quotations.py` pins the witt record count at 48; it is now 49 because `witt.demo.what-he-wrote-in-1525` quotes three checked lines (modern renderings of the quote records) inside quotation marks, by design. The pin was raised to 49; the check stays report-only.
+- **Fleet quote-count pin:** `engine/m4/tests/test_quote_speaker_offered.py` pins the fleet quote-record count; it rose from 455 to 461 with the six 1525 quote records and was raised to 461. Every new quote is offered with a speaker name, which the same test checks.
+- **Still open:** the six quote records and the new demonstration stay provisional until the final read; the Opus read of the changed voice-facing fields is Mark's call on allowance.
 
 ## OG-85. `witt.dw.how-the-promise-reached-us` quotes a Luther line that does not match the vendored text, 2026-10-27.
 

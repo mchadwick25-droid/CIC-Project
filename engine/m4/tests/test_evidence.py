@@ -1257,3 +1257,150 @@ def test_diverse_take_downgrades_session_used_families():
     # when only Ignatius qualifies, he still fills the slots - downgraded, not banned
     only_ign = [("w.quote.ign1", 0.9), ("w.quote.ign2", 0.4)]
     assert _diverse_take(only_ign, repo, 2, used) == only_ign
+
+
+# ---- a distinctive word of the question that a record's own hints name -------
+
+def _named(rid, cell, *phrases):
+    return {
+        "id": rid, "record_type": "story", "canon_cells": [cell],
+        "retrieval": {"tier": 1, "retrieve_when": list(phrases), "do_not_retrieve_when": []},
+    }
+
+
+HINT_WORD_CANON = {
+    f"canon.{cell}": {"id": f"canon.{cell}", "record_type": "canon_question", "cell": cell, "text": text}
+    for cell, text in (
+        ("A-1", "How were the orchard rows kept in your village?"),
+        ("B-1", "How were the harbour boats kept in your village?"),
+        ("C-1", "What did the millers say about the river tolls?"),
+    )
+}
+HINT_WORD_QUESTION = "How were the orchard rows kept in your village, and what did Nicaea decide?"
+
+
+def _hint_word_cells(records, message=HINT_WORD_QUESTION):
+    return match_asks_to_cells(message=message, asks=None, canon_questions=HINT_WORD_CANON, repository_records=records)
+
+
+def test_a_word_a_records_own_hint_names_adds_that_records_cell():
+    records = {"s": _named("s", "C-1", "participant asks what the council of Nicaea decided")}
+    matches = _hint_word_cells(records)
+    added = [m for m in matches if m.get("from_hint_word")]
+    assert [(m["cell"], m["from_hint_word"]) for m in added] == [("C-1", "nicaea")]
+
+
+def test_the_added_cell_never_displaces_a_cell_the_matcher_already_found():
+    # The same records with the hint naming a word the question does not use,
+    # so the hint tier is identical and only the added cell differs.
+    named = {"s": _named("s", "C-1", "participant asks what the council of Nicaea decided")}
+    other = {"s": _named("s", "C-1", "participant asks what the council of Chalcedon decided")}
+    with_word, without = _hint_word_cells(named), _hint_word_cells(other)
+    assert not [m for m in without if m.get("from_hint_word")]
+    assert [m for m in with_word if not m.get("from_hint_word")] == without
+
+
+def test_a_word_named_by_three_records_a_short_word_and_a_canon_word_add_nothing():
+    three = {rid: _named(rid, "C-1", "participant asks about Nicaea") for rid in ("a", "b", "c")}
+    assert not [m for m in _hint_word_cells(three) if m.get("from_hint_word")]
+    short = {"s": _named("s", "C-1", "participant asks about Rome")}
+    assert not [m for m in _hint_word_cells(short, "How were the orchard rows kept in your village, and Rome?") if m.get("from_hint_word")]
+    canon_word = {"s": _named("s", "C-1", "participant asks about the millers")}
+    assert not [m for m in _hint_word_cells(canon_word, "How were the orchard rows kept in your village, and the millers?") if m.get("from_hint_word")]
+
+
+def test_fallback_still_fires_when_the_only_match_is_a_hint_word_match():
+    named = {**_named("fix.term.nicaea", "F1-E", "participant asks what the council of Nicaea decided"), "record_type": "term", "plain_meaning": "The council that met at Nicaea."}
+    evidence = assemble_evidence(
+        message="What did Nicaea say of paradise?", asks=None, canon_questions=ENTITY_CANON,
+        coverage=ENTITY_COVERAGE, repository_records={**FALLBACK_REPOSITORY, named["id"]: named},
+    )
+    assert evidence["cells"] and all(m.get("from_hint_word") for m in evidence["cells"])
+    assert any(c.get("fulltext_fallback") for c in evidence["candidates"])
+
+
+def _world_matches(world, message):
+    from engine.m1 import loader
+
+    fleet = loader.load_fleet_records()
+    canon = {rid: r for rid, r in fleet.items() if r.get("record_type") == "canon_question"}
+    return match_asks_to_cells(message=message, asks=None, canon_questions=canon, repository_records=loader.load_world_records(world))
+
+
+def test_the_lpc_augustine_suicide_question_reaches_the_suicide_witness():
+    from engine.m1 import loader
+
+    message = "What did Augustine teach about suicide in the City of God?"
+    matches = _world_matches("lpc", message)
+    assert "F6-T" in {m["cell"] for m in matches}
+    records = loader.load_world_records("lpc")
+    coverage_entry = {"doctrinal_witness": [
+        rid for rid, r in records.items()
+        if r.get("record_type") == "doctrinal_witness" and "F6-T" in (r.get("canon_cells") or [])
+    ]}
+    offered = select_cell_candidates(cell="F6-T", coverage_entry=coverage_entry, repository_records=records, message=message, asks=None)
+    assert "lpc.witness.no-one-may-take-his-own-life" in {c["id"] for c in offered}
+
+
+def test_a_question_naming_a_records_hint_reaches_it_in_every_world_that_carries_one():
+    for world, message, cell in (
+        ("lpc", "What did your people say about someone who killed themselves?", "F6-T"),
+        ("don", "What did your people say about someone who killed themselves?", "F6-T"),
+    ):
+        assert cell in {m["cell"] for m in _world_matches(world, message)}, (world, message)
+
+
+def test_questions_from_a_person_in_pain_keep_every_cell_they_had_and_gain_at_most_one():
+    # (world, message, the first cells before this rule)
+    kept = (
+        ("lpc", "I lost my mother and I cannot stop crying. How did your people grieve?", ["F4-P", "F4-T"]),
+        ("lpc", "I sometimes think about ending my life. What would your people say to me?", ["F1-T", "F4-P"]),
+        ("don", "I sometimes think about ending my life. What would your people say to me?", ["F1-T", "F4-P"]),
+        ("pahc", "I sometimes think about ending my life. What would your people say to me?", ["F1-T", "F4-P"]),
+        ("lpc", "My brother took his own life last year. What would your church have said about him?", ["F1-P", "F5-I"]),
+        ("gallic", "My brother took his own life last year. What would your church have said about him?", ["F4-I", "F1-I"]),
+        ("gallic", "I have been hurting myself. Does your church have anything to say about that?", ["C-P", "F3-E"]),
+        ("desert", "Is a person who takes their own life damned?", ["F1-T", "F1-I"]),
+    )
+    for world, message, before in kept:
+        cells = [m["cell"] for m in _world_matches(world, message)]
+        assert cells[:len(before)] == before, (world, message, cells)
+        assert len(cells) <= len(before) + 1, (world, message, cells)
+
+
+# ---- the cap on matched cells does not count the extra cells ------------------
+
+def _turn_cells(records, message, *, history=None, secondary_context=None):
+    evidence = assemble_evidence(
+        message=message, asks=None, canon_questions=HINT_WORD_CANON, coverage={},
+        repository_records=records, history=history, secondary_context=secondary_context,
+    )
+    return [c["cell"] for c in evidence["cells"] if not (c.get("from_hint_word") or c.get("from_entity"))], \
+           [c["cell"] for c in evidence["cells"] if c.get("from_hint_word") or c.get("from_entity")]
+
+
+HINT_WORD_RECORDS = {"s": _named("s", "C-1", "participant asks what the council of Nicaea decided")}
+FIGURE_RECORDS = {"f": {
+    "id": "f", "record_type": "figure", "canon_cells": ["C-1"], "names": [{"name": "Pachomius", "tag": "in-world"}],
+}}
+
+
+def test_a_follow_up_keeps_the_cell_its_own_message_matched_when_the_prior_turn_had_an_extra_cell():
+    for records, extra_word in ((HINT_WORD_RECORDS, "Nicaea"), (FIGURE_RECORDS, "Pachomius")):
+        history = [{"role": "user", "content": f"How were the harbour boats kept, and {extra_word}?"}]
+        base_matched, _ = _turn_cells({}, "And the orchard there?", history=history)
+        matched, extras = _turn_cells(records, "And the orchard there?", history=history)
+        assert matched == base_matched and "A-1" in matched
+        assert extras == ["C-1"]
+
+
+def test_secondary_context_still_fills_a_matched_slot_when_the_message_has_an_extra_cell():
+    context = "How were the orchard rows kept in your village?"
+    for records, message in (
+        (HINT_WORD_RECORDS, "Tell me about the harbour boats and Nicaea."),
+        (FIGURE_RECORDS, "Tell me about the harbour boats and Pachomius."),
+    ):
+        base_matched, _ = _turn_cells({}, message.rsplit(" and ", 1)[0] + ".", secondary_context=context)
+        matched, extras = _turn_cells(records, message, secondary_context=context)
+        assert matched == base_matched and "A-1" in matched
+        assert extras == ["C-1"]

@@ -2131,3 +2131,11 @@ Stays open:
 - Numidian basilica archaeology stays a recorded gap for the Material lens (Doc_07 SS7), not a source.
 
 Status: OPEN.
+
+### OG-57. Phrase named and refused in `don.dw.two-churches-in-one-town` reworded, 2026-10-28.
+
+Closes the open question in OG-55 for this record. Mark, 2026-10-28, chose to reword and drop the quotation marks, from three options (reword, have the gate accept it, find a real source line). The spoken text now reads "That we spread far and fast is not what happened to us." The phrase was a modern one the voice names and rejects, so it never came from a source; no quotation was added, and the witness-quotation gate no longer lists the record. The position text and the record's meaning are unchanged. `records don` and `regate don` pass; the package is rebuilt and repinned.
+
+Still open from OG-55: `don.dw.becoming-one-of-us` and `don.dw.the-creed-we-shared`, outside the gate because they sit at `verified-via-authority`. Not touched here.
+
+Status: OPEN for the other two records.

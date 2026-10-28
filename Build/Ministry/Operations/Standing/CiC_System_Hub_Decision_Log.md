@@ -7094,6 +7094,18 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 
 **Next.** A narrower design for the retrieval fault behind the lpc suicide probe, shown to Mark as options before any code, with a safety sample across every world as part of the measurement.
 
+## 2026-10-28 - A distinctive word of the question that a record's hints name adds that record's cell (project lead's ruling: option B, generalized: no list, no guard)
+
+**Question.** How does the engine make sure the lpc suicide witness reaches the voice for "What did Augustine teach about suicide in the City of God?", without re-scoring every world's matching again?
+
+**Alternatives shown.** (A) Reword one lpc record. (B) A short suicide word list adds one cell. (C) Any rare word adds one cell, no list. (D) Change nothing in matching.
+
+**Ruling.** Mark, 2026-10-27, option B as the approach: one extra cell, add-only, cell only. Then, in his own words in the engine thread: the Facilitator steps in if the visitor expresses harm to themselves or someone else; a hard truth shared about themselves gets compassion; the world's answer is never hidden; the engine does not distinguish suicide, hell or any "hard topic" from other topics; the only measure is that the answer is trustworthy in its context and a true witness to the world. So B is built generally: no topic list and no first-person guard. Both were in the first draft of B and are not built. Decision: the question's own distinctive word decides, not a list of topics.
+
+**What it does.** A word of the question that is at least five letters, is not one of the fleet's canon words, and is named in the `retrieve_when` hints of at most two records adds the cell of those records, once. The matched cells and the offered records are never removed or reordered. Detail and measurements: `lpc_Decision_Log.md`, same date.
+
+**Open.** The live retest that judges relevance on real replies is Mark's to name, with a cap.
+
 ## 2026-10-28 - The leaning-sentence and hollowed-reply rules are removed from the answering path (project lead's ruling)
 
 **Question.** Keep the two rules added in pull requests 1217 and 1219 around the net's removals: (b) cut sentences that lean on a removed one; (c) replace a reply that lost 40% or more of its cited sentences with the world's answer record?
