@@ -1,6 +1,6 @@
 {
   "cap_usd": 12.0,
-  "spent_usd": 0.866005,
+  "spent_usd": 1.981195,
   "worlds": {
     "lpc": {
       "attempts": 1,
@@ -17,13 +17,18 @@
     },
     "gallic": {
       "attempts": 1,
-      "status": "running",
+      "status": "done",
       "preflight_usd": 0.8064288,
       "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-gallic.jsonl",
-      "probes_answered": 26,
-      "spent_usd_world": 1.03977
+      "probes_answered": 28,
+      "spent_usd_world": 1.11519,
+      "pass_count": 28,
+      "battery_size": 28,
+      "overall_pass": true,
+      "aborted_reason": null,
+      "exit_code": 0
     }
   },
-  "current": "gallic",
-  "checkpoint_at": "2026-10-28T23:24:24Z"
+  "current": null,
+  "checkpoint_at": "2026-10-28T23:25:04Z"
 }
