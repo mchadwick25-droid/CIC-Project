@@ -2343,3 +2343,27 @@ Logged 2026-10-28.
 - **Still open, record side (this world's thread).** `lpc.story.numidicus` needs a not_for on lapsing and a narrower `retrieve_when` (register-2); `lpc.contested.de-unitate-recensions` and `lpc.term.the-one-episcopate` need Cyprian's side of the Stephen dispute stated (scholarly-2: the net saw no checkable claim, so the record is the only guard); `lpc.quote.reprove-and-forgive-the-surgeons-knife` needs a narrower `retrieve_when` (register-1), and `lpc.quote.bind-him-justly` placement (Deep Interview turn 3) the same.
 - **Still open, engine.** E1, cautions 14 and 15, repeated sentences and the paragraph measure are other threads'. The live retest of anachronism-1 on pin `2026-10-28T04-22-32Z` or later, and of the riders' effect on register-1, register-2, register-9 and scholarly-2, needs a capped live test the project lead names.
 - **Owner.** The lpc world thread for the records; the project lead for the live test.
+
+### OG-108. Record-side fixes from the run 3 review are done (2026-10-28).
+
+Logged 2026-10-28.
+
+- **Done.** Numidicus not_for, Cyprian's side of the dispute with Stephen, surgeon's-knife trigger, silent-century statement, and the Augustine-on-the-dying witness record (OG-98 items E3, Q1, R2, V4); see `lpc_Decision_Log.md`, 2026-10-28, "Record-side fixes from the run 3 review". Pin `packages/lpc/2026-10-28T15-03-21Z`.
+- **Still open.** Engine items E1 and the rest of the review's engine list; plain renderings in `lpc.witness.remembered-at-the-altar` (A2); the penance-duration answer (DI-6); `validation lpc` needs a live run on the current pin.
+- **Owner.** This thread for the records; the engine threads for the rest.
+
+### OG-109. lpc retrieval hints are questions; the setting field and the offered-sets check for one quote remain (2026-10-28).
+
+Logged 2026-10-28.
+
+- **Done.** All 27 `retrieve_when` lines the hint gate named are rewritten, with the quote narrowing from the engine audit; see `lpc_Decision_Log.md`, 2026-10-28, "Retrieval hints rewritten as questions". Pin `packages/lpc/2026-10-28T17-58-42Z`.
+- **Still open.** The quotes' `setting` field, once the engine thread's field is on `main`; the check of why `lpc.quote.the-case-set-before-the-bishop` was not offered for the confessors' grant question (offered_sets); the missing records A1 to A10 of the engine audit's worklist, unless the project lead rules otherwise.
+- **Owner.** This thread for the records; the engine thread for the field and the offered-sets check.
+
+### OG-110. A quote not_for list over the schema limit reached main (2026-10-28).
+
+Logged 2026-10-28.
+
+- **Done.** The two lists are back within the limit; see `lpc_Decision_Log.md`, 2026-10-28, "Two quote not_for lists brought back under the schema limit". Pin `packages/lpc/2026-10-28T18-53-09Z`.
+- **Lesson.** Run `engine.m9.enforce.hygiene_problems` after any not_for edit, before the push. The retrieval-hint merge went in while CI was still running.
+- **Owner.** This thread; closed on merge.

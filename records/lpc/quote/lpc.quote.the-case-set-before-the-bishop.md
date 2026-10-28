@@ -13,6 +13,7 @@ use_note:
     - "a claim that the grant stands without its condition that each case go before the bishop"
     - "a claim about what the bishop decided for Numeria and Candida"
     - "a claim that 'confession' means a private act before a priest"
+    - "a claim about how long reconciliation took or who set its length"
   years: {from: 246, to: 258}
   status: reviewed
 confidence:

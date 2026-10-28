@@ -45,8 +45,7 @@ retrieval:
   retrieve_when:
   - participant asks whether the office of bishop itself -- not just this or that practice -- was ever
     traced back to the apostles by name
-  - conversation reaches lpc.limit.apostolic-origin-undefended and needs the one place a traced lineage
-    genuinely exists
+  - participant asks where a line of bishops back to the apostles was actually written down
   - participant asks how a Catholic bishop would have answered a Donatist claim to an "episcopal succession"
     of their own
   prefer_instead:
