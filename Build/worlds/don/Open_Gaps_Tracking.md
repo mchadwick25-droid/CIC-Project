@@ -2104,3 +2104,30 @@ Status: OPEN for the fourth read.
 Found by the fifth read and a repeatable scan (`Build/Ministry/Features/Question-Coverage/Tools/safe_surface_scan.py --prompt <compiled prompt>`). The compiled don prompt has 17 hits. Most are Marculus "thrown from a cliff" in the Passio story and the Marculus-centred records (an execution, historically central). One is in `don.dw.not-a-death-wish`: "country members are said to have sought death, provoked it, thrown themselves at it", the Circumcellion charge in the world's own voice. The text sits in context on every turn, so a suicide question meets it whatever retrieval returns. Decision for this world: whether `don.dw.not-a-death-wish` and the Marculus story need a read for suicide-question exposure, and whether any line should move behind retrieval. Not edited.
 
 Status: OPEN.
+
+### OG-55. `don.dw.two-churches-in-one-town` quotes a phrase no vendored source holds, 2026-10-27.
+
+Found by the witness-quotation gate (`python -m engine.m1.witness_quotations`; OG-101 in `Build/worlds/lpc/Open_Gaps_Tracking.md` for why it exists). The record's `text` has the quotation "Spread so far, so fast". It sits in a sentence that rejects the phrase ("is not what happened to us"), so it is a modern phrase named and refused, not words from a source. The gate cannot tell the two apart and lists it. The record is at `verified-direct`.
+
+Also listed by the sweep, but outside the gate because the records are at `verified-via-authority`: `don.dw.becoming-one-of-us` (Adeodatus's answer at Carthage, "through terror of me, all who were established in that place gave way") and `don.dw.the-creed-we-shared` ("My personal Lord and Savior", again a modern phrase named and refused).
+
+Not edited by the thread that found it. The world's owner decides whether to reword the phrase, drop the marks, or have the gate accept it with a reason.
+
+### OG-56. Wants-sort catch-up: four source records brought up to date with the Library, 2026-10-27.
+
+Follows the wants-sort handoff (`Build/Ministry/Operations/Handoffs/2026-10-27_wants-sort-handoff.md`) and OG-48. Each row was checked against `cic/texts/`, `cic/texts/REGISTRY.yaml` and the vendored files themselves. No quotation was added or changed.
+
+Updated:
+- `don.source.acta-saturnini-abitinian-martyrs`: the Latin is held. It is in `cic/texts/monumenta-vetera-donatistarum-303-340_migne-pl8.txt` (Migne, PL 8, 1844, public domain), from the heading "Incipiunt confessiones et actus martyrum Saturnini presbyteri, Felicis, Dativi, Ampelii" at about line 1259, with Baluze's appendix and a second printing of the Acta after it. The file's own content note says Migne does not use the name "Abitinian martyrs". OG-48 cited lines 1781 and 2974 of `monumenta-vetera-donatistarum_migne-pl8.txt`; those lines are not the Acta, and that file holds no Saturninus text. This entry corrects the file and the lines. The record's edition and rights wording now say Latin held, no English held, and the record is `kind: vendored` with `shelf_row` set to the 303-340 row of the don corpus map. Its stale sentence that no edition is held is corrected. `verification_state` stays `named-not-rechecked`: the claims have not yet been read against the Migne text.
+- `don.source.numidian-basilica-archaeology`: the wording now says no text exists to hold rights over and there is nothing to acquire. The row names a field category, not a publication.
+- `don.source.lucilla-and-second-woman-maximianist`: the edition field now says both passages are attested within the two named vendored files, so nothing is to be acquired. The record stays `kind: unvendored`; see the first open item below.
+- `don.source.gregory-great-register-of-letters`: the edition field names the vendored selection (`gregory-great_epistolae-selectae_turchi1907.txt`) and the English selections in npnf212 and npnf213. The rights field says the selection is vendored and the complete 1891 Ewald-Hartmann edition is public domain by date and not yet obtained.
+
+Stays open:
+- Lucilla's record cannot move to `kind: vendored` yet. Its file resolves to the Optatus row of the don corpus map, which has role `context` (Optatus is an outside voice), and two emic records cite the source. Flipping the kind turned those two `emic-vendored-only` findings into two unwaived `m9:voicing-pair` findings. This world's thread owns the question: re-ground the two emic records in a Donatist-voiced source, or have the Lucilla evidence carried by an etic record. Until then the `m9:emic-vendored-only/don` waiver in `engine/m9/enforce.py` is 16, down from 20 (the Acta record's four citing records now resolve to a vendored `tradition` row and no longer fire).
+- The Gregory row still reads `unclassified` in `WANTS-REGISTER.md`. The generator has no pattern for a public-domain Latin edition that was never obtained, and the record's honest wording does not match its patterns. No generator change was made here; that file is shared across worlds.
+- No vendored English of the Acta Saturnini. Tilley (Liverpool, 1996) is in copyright and cannot be vendored. The Tilley half of OG-48 (`don.source.tilley-donatist-martyr-stories`) is not part of this pass and is untouched.
+- No search of the Library found a host for the complete Ewald-Hartmann Register. A request for it goes to the Library thread.
+- Numidian basilica archaeology stays a recorded gap for the Material lens (Doc_07 SS7), not a source.
+
+Status: OPEN.

@@ -4,7 +4,7 @@ assignments:
   - row_id: gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863--sermons-martyrs-thaumaturgus-usurers-pg-46-greek
     work: "Gregory of Nyssa, PG 46, Greek: Theodore, the Forty Martyrs, Life of Gregory Thaumaturgus, Against Those Who Lend at Interest, on the love of the poor"
     author: gregory-nyssa
-    locus: "Against Those Who Lend at Interest at file line 32111; on the love of the poor at 33703 and 35001; Theodore at 54131; Forty Martyrs at 55014 and 56689; Life of Gregory Thaumaturgus at 65203"
+    locus: "Against Those Who Lend at Interest at OCR line 32111; on the love of the poor at 33703 and 35001; Theodore at 54131; Forty Martyrs at 55014 and 56689; Life of Gregory Thaumaturgus at 65203; line numbers are OCR lines, add 12 for this file's own"
     atlas_ids:
       - cappadocian-nicene-pastoral-monastic-tradition
     role: tradition

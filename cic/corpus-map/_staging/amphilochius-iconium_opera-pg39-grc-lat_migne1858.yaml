@@ -4,7 +4,7 @@ assignments:
   - row_id: amphilochius-iconium_opera-pg39-grc-lat_migne1858--opera-pg-39-greek
     work: "Amphilochius of Iconium, orations, homilies and Synodical Letter, PG 39, Greek"
     author: amphilochius
-    locus: "Amphilochius's section from file line 2242; Synodical Epistle at 6627; responses and extracts at 6967"
+    locus: "Amphilochius's section from OCR line 2242; Synodical Epistle at 6627; responses and extracts at 6967; line numbers are OCR lines, add 12 for this file's own"
     atlas_ids:
       - cappadocian-nicene-pastoral-monastic-tradition
     role: tradition

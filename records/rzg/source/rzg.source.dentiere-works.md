@@ -18,11 +18,10 @@ relations: []
 author: Marie Dentiere
 work: the 1539 Epistre tres utile (published anonymously) and the 1561 signed preface to Calvin's sermon
   on women's apparel
-edition: No edition identified or searched this pass - NOT YET ACQUIRED
-rights_status: "Native to this world's own boundary but not yet acquired - a real, disclosed acquisition gap, not a rights refusal. Nothing is vendored or quoted from this row; every field below states what is currently known about the work itself, not its content"
+edition: 'No edition is held or named. The Library text index (python cic/engine/corpus_index.py, 2026-10-27) returns no match for Dentiere or the Epistre tres utile'
+rights_status: "Not held, so no rights finding is made. Whether a public-domain edition exists has not been checked; logged in Open_Gaps_Tracking.md as a request for the Library thread"
 attribution_status: the 1539 work was published anonymously; its attribution to Marie Dentiere rests on
-  later scholarly identification, not the work's own title page. No specific edition currently held or
-  actively searched.
+  later scholarly identification, not the work's own title page. No edition is currently held.
 discovery_channel: Source_Registry.md row 17, added 2026-09-15; named in the census's own `voices` field;
   a genuine Article 20 marginalized-voice case (Doc_02 SS6) - the absence itself, not a reconstruction
   from silence, is what this world's build currently records.

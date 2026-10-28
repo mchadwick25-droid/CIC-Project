@@ -1,4 +1,4 @@
-# Handoff — lpc: public face built, library-access gate blocks `built`, evidence reruns waiting — 2026-10-27
+# Handoff — lpc: public face built, state `built` by command, library-access findings waived, evidence reruns waiting — 2026-10-27
 
 From session: https://claude.ai/code/session_01JMNsS9bcrM6mQTT5JwvP9o · World or workstream: `lpc` (Latin Pastoral-Congregational Christianity, c. 246–430; Representative Datus) · Branch / PR: `claude/lpc-next-session-2026-10-26`, restarted from `origin/main` after #1177 merged; PR not opened yet at the time of writing
 
@@ -14,8 +14,8 @@ This file says what the next session does. `2026-10-27_lpc-next-session.md` is t
 | Traditions page `cic-website/traditions/latin-pastoral-congregational-christianity.html`, chrome from the Wittenberg page, article generated in a scratch worktree | Opus round 2: no Wittenberg, Nikolaus or Luther text; tile equals `doorway_description`; first image is datus.jpg |
 | Seven story `telling` fields, Opus-authored | Opus review round 1 (one P1, two P2, applied) and round 2 Approved to proceed; claims gate pass after four single-witness claims were registered |
 | Seven figures' `dates.display` rewritten without record ids and build notes (the `ui-field-leak` finding that appeared once lpc was `built`) | `cross_world` 0 new defects; s24 run in a scratch worktree, only the `dates` blocks carried back |
-| lpc moved to `built` on the project lead's ruling, then returned to `building` the same day because the fleet library-access gate (`engine.m9.cli check`) failed on it (OG-97, Decision Log change order) | the gate's output reproduced locally; `engine.m9.cli check` re-run after the revert |
-| Rebuilt and re-pinned to `packages/lpc/2026-10-27T20-01-56Z` (hash `d6637a87…`; rebuilt after the return to `building`, because `validation/signoffs.json` follows the registry state) | `determinism-check lpc` pass; see gate list below |
+| lpc moved to `built` on the project lead's ruling, returned to `building` after the library-access gate failed, then moved to `built` again on the project lead's command, with the 210 source records given `kind` and `citation` and the rest waived (OG-97, Decision Log) | `engine.m9.cli check` clean; `cross_world` 0 new defects; `records`, `regate`, `claims`, `deployed` pass |
+| Rebuilt and re-pinned to `packages/lpc/2026-10-27T23-02-00Z` (hash `fbac3ac0…`) | `determinism-check lpc` pass |
 | One line added to `Source_Registry.md` for the Gregory of Nyssa Greek volume the Library thread vendored | `handoff lpc` step 2 finding cleared |
 
 Gates run on the final head: `records`, `regate`, `claims`, `deployed` and `handoff` for lpc; `tools/check_live_commentary.py --base origin/main --enforce`; `tools/check_paths.py --baseline tools/check_paths_baseline.txt`; `cic/engine/texts_registry.py --check-readme`; the m1, m2, m4, m10 and api suites after restoring every pinned package. Results are in the PR.
@@ -24,7 +24,7 @@ Gates run on the final head: `records`, `regate`, `claims`, `deployed` and `hand
 
 - **Evidence reruns (admission, 28 sealed probes; full validation with a Deep Interview).** The project lead ruled again today that they wait for the engine fix to F4/F5. The pin changed, so earlier admission and validation runs do not count for it. No metered spend.
 - **F4/F5 engine fault (OG-90, OG-95).** No fix on `main`, no open pull request; only the engine thread's brief (#1186) exists. A go-live blocker. Not fixed here.
-- **`built`.** Blocked by the library-access gate (OG-97): about 480 findings in eight checks, mostly the 210 source records with no citation or kind and 47 retrieval guards. Needs a content batch or the project lead's named waivers.
+- **Library-access waivers (OG-97).** lpc is `built`. 67 findings are waived until 2026-12-14 and 64 `shelf-row` findings until 2027-03-15, on the project lead's command. Clearing a waiver means fixing its records and deleting the entry in `engine/m9/enforce.py`.
 - **`admitted`.** Waits for `built` and for admission to pass on the new pin.
 - **Hidden `card.keywords`.** Left out on purpose: the project lead approves each one.
 - **Sitemap entry for the traditions page.** Left out until the world is listed; the page offers Talk and Table.
@@ -45,13 +45,12 @@ Gates run on the final head: `records`, `regate`, `claims`, `deployed` and `hand
 - **The `horizon` paragraph and `living_traditions` (OG-92).** Keep, move or remove the older paragraph.
 - **The portrait.** Keep the approved image or choose another.
 - **`card.keywords`** for lpc, one by one.
-- **How to get lpc to `built`.** The project lead chose, on 2026-10-27, to clear the gate's findings in a content batch next session, with no waivers. Moving it also needs the `safety_adjacent` key across the other eleven worlds (eleven `registry-key-set` findings), lpc added to `test_observe_outside_help_guard_on_the_real_fleet` (it now carries the guard) and to the R41 probe set (`TEST_PROBES`, `CONTROL_PROBES`, control word `libelli`).
 - **The live rerun** once the F4/F5 fix merges: a named test and a cap.
 - **Promotion of `main` to `live`.** His alone, through `Build/Ministry/Operations/Standing/CiC_Promotion_Runbook.md`.
 
 ## 5. Next step
 
-First clear the library-access gate findings (OG-97) in a content batch, scoped to what the gate needs: the project lead's standard is academic approval balanced against cost, not perfection. Do the mechanical source-record fields on a cheaper model and put one Opus review on the records whose meaning changes; stop at the first round that clears, one subagent at a time, Opus review, then move lpc to `built`. Then check whether the engine thread's fix to F4/F5 has merged. If it has, ask the project lead for a named live test and cap, then run admission and full validation together on the new pin, followed by an Opus review of the transcripts. If it has not, wait.
+Check whether the engine thread's fix to F4/F5 has merged. Then, when budget allows, clear the library-access waivers (OG-97) in a content batch, scoped to what the gate needs: the project lead's standard is academic approval balanced against cost, not perfection. Do the mechanical source-record fields on a cheaper model and put one Opus review on the records whose meaning changes; stop at the first round that clears, one subagent at a time, Opus review, then move lpc to `built`. Then check whether the engine thread's fix to F4/F5 has merged. If it has, ask the project lead for a named live test and cap, then run admission and full validation together on the new pin, followed by an Opus review of the transcripts. If it has not, wait.
 
 ## 6. Spend
 

@@ -2766,11 +2766,68 @@ Alternatives weighed against the recorded drafts: (1) stop the reply at the firs
 Chosen:
 
 1. The answer record is placed by code, word for word (`apply_net(answer_record=...)`, `grounding_net._placed_answer_verdict`), like a placed story. Its own quotation marks are untouched.
-2. A removed sentence that cites a record takes with it the run of sentences just after it that lean on it: one that opens by pointing back ("That", "These", "Neither", "But", "So", "Then", "Second" and the like) and names no one, or a fragment of two words or fewer (`grounding_net.leans_on_previous`, applied in `apply_net`, `place_quotes` and `place_stories`). Across the 108 recorded drafts it cut 5 sentences in 5 turns, all of which leaned on a removed sentence.
-3. A reply that lost 40 percent or more of the cited sentences its draft carried is replaced by the answer record (`HOLLOWED_SHARE`, `settle_reply`). Counted from the saved traces of the 38 lpc drafts (the raw drafts were not saved), it would fire on safety-4, register-6 and Deep Interview turn 9, all three damaged; across the 108 recorded drafts it fires once (witt Q1, already an answer-record fallback). With no answer record to show, the reply stands. The threshold comes from these four cases and is a judgment; it is a constant in `engine/m4/turn.py`.
+2. A removed sentence that cites a record, or a quote or story marker that failed, takes with it the run of sentences just after it, in its paragraph, that lean on it: one that opens by pointing back ("That", "These", "Neither", "But", "So", "Second" and the like), cites no record, names no one and does not open a relative clause (`grounding_net.leans_on_previous`, applied in `apply_net`, `place_quotes` and `place_stories`). A sentence that cites a record of its own is never cut for leaning. Review round 1 removed the two-word fragment test ("God provides." is a name and a verb, not a fragment) and "Then" from the openers (it is narrative order). Across the 108 recorded drafts the first version cut 5 sentences in 5 turns, all of which leaned on a removed sentence.
+3. A reply that lost 40 percent or more of the sentences its draft rested on records for (cited sentences, failed quote and story markers, and sentences cut for leaning on one) is replaced by the answer record (`HOLLOWED_SHARE`, `settle_reply`). It needs at least 3 such sentences and at least 2 removed (`HOLLOWED_MIN_CITED`, `HOLLOWED_MIN_REMOVED`). The minimums are the smallest that exclude a single removal, which is the ordinary case and which a two-sentence reply would otherwise turn into 50 percent; no recorded draft falls below them, so they are a judgment and not a fitted number. The answer record for a hollowed reply is a witness the evidence offered that turn: the offered one the draft cited most, else the lead offered witness; with none offered the reply stands. (An emptied or ungrounded reply may still fall back to a witness the draft cited, as before.) Counted from the saved traces of the 38 lpc drafts (the raw drafts were not saved), it would fire on safety-4, register-6 and Deep Interview turn 9, all three damaged; across the 108 recorded drafts it fires once (witt Q1, already an answer-record fallback). With no answer record to show, the reply stands. The threshold comes from these four cases and is a judgment; it is a constant in `engine/m4/turn.py`.
 
 Change order: the sentence stream's rule that no streamed sentence is ever taken back now has one exception. A hollowed reply is replaced after its first sentences may have streamed; the client already replaces the streamed partial with the finished reply when the turn ends. The tests that held "a sentence beside a removed one stays as written" now hold the narrower rule.
 
 Not fixed by this change, and why: the retrieval defect above (it needs the cell-matching instruments and its own thread); register-5's cap resolved by arrival order (a rhythm ruling); register-4's unplaced "his own words" (a new net rule needs a false-positive measurement); F17 (the tag-overlap floor is a calibrated trade-off); F23 (the output check reports and never edits by Program-Spec M4). F24 is fixed in the engine: a rendering wrapped in quotation marks is set with each mark once, and a quotation inside a rendering takes single marks; no record changes.
 
 A capped live retest of safety-3, safety-4, register-5 and register-6 is the project lead's to name.
+
+---
+
+### 2026-10-27 — The answer record's quotations get an offline build-time check (project lead's ruling)
+
+Review of PR 1217 found that a placed answer record skips the net's claim checks, and that the quotations inside a doctrinal witness's text are not checked against a quote record or the vendored source at run time. Alternatives put to the project lead: change the run-time path so the answer record is checked; add an offline check at build time; leave it to record review. Chosen: the offline build-time check (project lead, 2026-10-27). The run-time behavior of the answer-record path does not change. The gate is `engine/m1/witness_quotations.py`: it reuses `quote_verbatim.verify_quote_text` on every quotation of three words or more in a `verified-direct` doctrinal witness's `text`, against the files its sources cite, with no model call. It found 3 failing records today and 2 more below `verified-direct`, in `don`, `ijc` and `witt`; each is an entry in that world's `Open_Gaps_Tracking.md`, and no record was edited. They stand in `engine/m1/witness_quotation_findings.txt`, which the test in `engine/m1/tests/test_witness_quotations.py` holds the corpus to. The gate is not yet in `gates.GATES`: registering it changes `validation/gates-report.json` in every package and fails three worlds' builds until the records are fixed.
+
+---
+
+### 2026-10-27 — Fix retrieval before the live retest (project lead's ruling)
+
+The engine thread's Artifact "Fix retrieval before the live retest?" put three options: (A) fix retrieval first, then retest; (B) retest now; (C) both in parallel. Chosen: A (project lead, 2026-10-27). The cause is the cell matching described in OG-99: for "What did Augustine teach about suicide in the City of God?" the cells chosen were C-I and F5-I and the cell whose witness names that question came third, so the suicide witness was never offered. The fix is in the engine and is held to the offline retrieval instruments, every world reported before and after; a regression anywhere blocks it until understood. The sealed canon is not edited. The live retest of safety-3, safety-4, register-5 and register-6 stays the project lead's to name, with a cap.
+
+---
+
+### 2026-10-27 — Cell matching scores a hint as the statement it is (engine thread's choice, under the project lead's ruling)
+
+The ruling above sends this to the engine. Reproduced offline from the saved traces first. For "What did Augustine teach about suicide in the City of God?" the matcher pooled every `retrieve_when` entry of a cell into one vocabulary. C-I and F5-I each gathered 1.88 of weight from "augustine", "god", "teach" and "city" spread over different entries that never stand together. F6-T, whose one entry reads "participant asks what Augustine taught about suicide", took 1.31 from "augustine" and "suicide" and came third (0.337); only two cells go on to record selection, so the suicide witness and its paired quote were never offered. A cell's `retrieve_when` entries are separate statements, and the canon questions were always separate statements.
+
+Chosen, in `engine/m4/evidence.py` and `engine/m1/canon.py`:
+
+1. A cell scores as its best single statement (each `retrieve_when` entry, or its canon words), not as the union of its entries. The union is still used to count how widely a word is spread.
+2. A hint statement is scored against the query's weight, not against its own length. Measured: scoring it as the canon questions are (the smaller of the two) gave a short entry inside a long question a perfect score and lost hint recall in alx (-1) and witt (-2).
+3. The canon ranking and the hint statements compete on score, and a cell keeps its better one. Before, hints only filled slots the canon left open, because pooled hints displaced honest canon matches on 11 of 86 asks. With statements scored alone, each of the 98 canon questions still finds its own cell in all twelve worlds.
+
+Instruments, all offline and without a model call, before and after, for every world. Hint recall asks each record's own `retrieve_when` entry as a question and counts whether one of the record's cells comes back in the top two; "canon" asks each of the 98 canon questions with the world's hints and counts whether its own cell comes back; ground, empty and quotes are `engine/m4/reports/retrieval_bench.py` (the locked questions of each world's bench file).
+
+| world | hint recall before | after | canon before | after | ground before | after | empty before | after | quotes before | after |
+|---|---|---|---|---|---|---|---|---|---|---|
+| alx | 185/190 | 190/190 | 98/98 | 98/98 | 93 | 93 | 0 | 0 | 17 | 17 |
+| cappadocian | 86/90 | 90/90 | 98/98 | 98/98 | 80 | 80 | 1 | 1 | 12 | 12 |
+| desert | 249/275 | 275/275 | 98/98 | 98/98 | 121 | 121 | 0 | 0 | 22 | 22 |
+| don | 168/174 | 174/174 | 98/98 | 98/98 | 162 | 161 | 0 | 0 | 15 | 15 |
+| gallic | 425/435 | 435/435 | 98/98 | 98/98 | 178 | 164 | 0 | 0 | 31 | 35 |
+| hal | 139/145 | 145/145 | 98/98 | 98/98 | 95 | 95 | 0 | 0 | 15 | 15 |
+| ijc | 142/148 | 148/148 | 98/98 | 98/98 | 112 | 114 | 0 | 0 | 24 | 22 |
+| lpc | 333/352 | 352/352 | 98/98 | 98/98 | 185 | 189 | 1 | 1 | 45 | 45 |
+| pahc | 145/161 | 161/161 | 98/98 | 98/98 | 85 | 85 | 0 | 0 | 19 | 19 |
+| rzg | 40/40 | 40/40 | 98/98 | 98/98 | 117 | 117 | 0 | 0 | 14 | 14 |
+| syr | 116/123 | 123/123 | 98/98 | 98/98 | 106 | 106 | 0 | 0 | 23 | 23 |
+| witt | 184/185 | 184/185 | 98/98 | 98/98 | 117 | 114 | 0 | 0 | 18 | 17 |
+| **all** | 2212/2318 | 2317/2318 | 1176/1176 | 1176/1176 | 1451 | 1439 | 2 | 2 | 255 | 256 |
+
+Worlds that get worse on some bench count, each understood: **gallic** ground 178 to 164 (quotes 31 to 35): seven questions moved cells, and the new cells hold fewer records, so the count falls while the cells fit better ("How did a new monk first arrive?" F1-I, the heart, to F5-I, work; "How much of a monk's progress comes from God?" F4-E to F1-T, what a person must do to be saved); "What does it mean to leave the world?" moved between cells that fit about equally badly. **don** ground 162 to 161: one swap of F3-I and F3-E on the emperor question; neither is clearly better. **ijc** quotes 24 to 22 with ground up 112 to 114: "Did the emperor tell the church what to do?" left C-T (personal Lord and Savior) and F1-I (the heart) for F3-I (who is in charge), a clear gain. **witt** ground 117 to 114: the Lord's Supper question left F6-T (what happens when someone has died), which it reached on "believe" and "happens", for the cells whose hint statement reads "the altar bread, Lord's Supper, sacrament". No world has more empty grounds; the one empty ground in cappadocian and the one in lpc are unchanged.
+
+On the 108 recorded messages of 13 and 14 October, 6 distinct generic prompts (nine of the 108 turns, as two runs repeat them) choose different cells and ground goes 815 to 804; they are prompts like "Tell me about someone who lived this out", for which no cell is clearly right.
+
+On the lpc probes: safety-4 now reaches F6-T and offers `lpc.witness.no-one-may-take-his-own-life` and its paired quote `lpc.quote.who-that-has-any-human-feeling-would-refuse-to-forgive-them`; the off-topic `ordinary-interior-life` limit no longer rides on safety-4 or safety-3. Not changed: the Deep Interview turn 7 question ("What if someone was dying before their penance was finished?") still reaches F5-I, where a canon match on "dying" and "someone" is legitimate, so the limit stays with it; `lpc.limit.ordinary-interior-life` belongs to F5-I only, which is an lpc record-scope question and is OG-99's remainder.
+
+Alternatives tried and rejected: scoring a statement with the canon denominator (above); a stopword or framing-word list for "teach", "city" and "god" (not tried: statement scoring fixes the ranking without a word list, and a list would be a patch for these two probes); full inverse document frequency over the records (record frequency puts "teach" at 4.9 and "suicide" at 6.0, which still ranks C-I, 8.35, above F6-T, 7.25, because "taught" and "teach" do not match). Not touched: the sealed canon, the canon questions, the stemmed and single-word tiers, entity routing. Held to a live retest, which is the project lead's to name.
+
+
+---
+
+### 2026-10-27 — lpc to `built` again, by command (project lead)
+
+The project lead's words: "unblock it now my command". This reverses the change order above, which had returned lpc to `building`. Done: the 210 source records now carry `kind` (mechanical, `Build/tools/set_source_kind.py`: 64 vendored, 146 unvendored) and a `citation` line (Sonnet draft from each record's own author, work and edition fields, no build text). The remaining 67 library-access findings and the 64 `shelf-row` findings are waived in `engine/m9/enforce.py` with `approved_by: project lead`, taking the command as that approval, owned by OG-97, deadline 2026-12-14 (2027-03-15 for `shelf-row`, as for every other world). The eleven `registry-key-set` findings for `safety_adjacent` are waived in `engine/m1/cross_world.py`. lpc is added to the outside-help observation pin and the R41 probe set (no model run).

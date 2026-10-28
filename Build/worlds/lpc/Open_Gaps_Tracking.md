@@ -2258,5 +2258,39 @@ Logged 2026-10-27.
 - **Register-5 (hard teaching lost to the cap).** `MAX_PLACED_QUOTES_PER_REPLY` is one, and the slot goes to the first marker. The voice's soft quote took it and the "mildest condemnation" was refused. Which quote deserves the slot is a ruling for the project lead.
 - **F17 (weak citations).** A tagged sentence with no name or number passes on one shared content word; one with a name or number passes on the grounding floor. Both are calibrated trade-offs (`engine/m4/grounding_net.py` `_claim_verdict`). Verifying a citation needs a model check (`citation_attach`), which cannot be proved offline.
 - **F23 (a later event explained).** `engine/m4/output_check.py` reports and never edits, by Program-Spec M4; no "withhold" reason other than the quotation reasons removes text. Whether a horizon finding should block or redraft is the project lead's.
+- **Leaning is by opener, so a real sentence can be cut.** "But the bishops gathered.", "This was hard." and "Those were days." count as leaning (a test holds it): a sentence that opens with a back-pointing word, cites nothing and names no one is cut when it follows a removed cited sentence, even when it does not point back.
 - **Streaming.** A hollowed reply can replace a reply whose first sentences have streamed. The client replaces the streamed partial with the finished reply (`cic-poc/frontend/src/lib/streamedReply.ts`), so the change is visible only as a swap at the end of the turn.
 - **Owner.** The project lead, for the cap, F23 and the streaming exception.
+
+### OG-101. The answer record skips the net's claim checks (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Gap.** `grounding_net._placed_answer_verdict` returns ok before `_claim_verdict` runs, so a placed answer record is not checked for thin topics or unknown records, and the quotations inside a doctrinal witness's text are not checked against a quote record or the vendored source. "Every quote verified verbatim" now rests on the review of those records for the replies the answer record replaces. Found in the Opus review of PR #1217 (finding 6).
+- **Not changed.** The behavior stays as it is until the project lead rules.
+- **Owner.** The project lead.
+
+### OG-102. A replaced reply can follow streamed sentences (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Gap.** The stream's promise that no streamed sentence is taken back is broken when `settle_reply` replaces a reply after its first sentences streamed. The client swaps the partial for the finished reply. Whether the stream should hold sentences until a reply can no longer be replaced (at the cost of streaming) is open. Review finding 7.
+- **Owner.** The project lead.
+
+### OG-103. Admission never sees a replaced reply (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Gap.** `engine/m3/generation.py` calls `apply_net` but not `settle_reply`, so the M3 live path grades the reply as `apply_net` leaves it, never the answer record that production would show in its place. Review finding 8.
+- **Owner.** An engine thread.
+
+### OG-104. Cell matching now scores each hint as a statement; what is left of OG-99 (2026-10-27).
+
+Logged 2026-10-27.
+
+- **Done.** OG-99's cause is fixed in `engine/m4/evidence.py` and `engine/m1/canon.py`: a cell scores as its best single `retrieve_when` statement, and hint statements compete with the canon ranking on score. The lpc safety-4 question reaches F6-T and offers the suicide witness and its paired quote; the off-topic limit no longer rides on safety-4 or safety-3. Method and the table for all twelve worlds: `lpc_Decision_Log.md`, entry "Cell matching scores a hint as the statement it is".
+- **Left.** Deep Interview turn 7 ("What if someone was dying before their penance was finished?") still reaches F5-I through a canon match on "dying" and "someone", and `lpc.limit.ordinary-interior-life` rides with it. That limit is assigned to F5-I only; whether it belongs on other cells is a record-scope question for the `lpc` build thread, not a scoring fault.
+- **Not proved.** Whether the live replies now read right; that needs the capped live retest the project lead names.
+- **Owner.** The `lpc` build thread for the limit's scope; the project lead for the retest.
+
+- **Update to OG-97, 2026-10-27.** Cleared: all 420 source findings (`kind` and `citation` on 210 records). Waived with the project lead's command as approval, deadline 2026-12-14: `retrieval-negatives-structured` 47, `readability` 13, `horizon` 2, `cells-required` 2, `voice-perspective` 2, `reciprocity` 1; and `shelf-row` 64 (deadline 2027-03-15, the corpus-map CM-1 gap every world carries). State is `built`. The waivers are the remaining work; deleting each waiver is what fixed means.

@@ -2841,4 +2841,8 @@ Follows the entries OG-86 and OG-87 and the rulings logged in `Build/Ministry/Fe
 - **Not edited, still describe the old boundary:** Phases 5 and 6 (scored on the old "existence only" boundary, CL-1 FAIL; superseded, and a live re-test is deferred until Mark names a test and a cap); Doc_04 section 6.3 (its Supporting call rests on "1525 and 1555 lie outside every vendored text", now stale for 1525; classification left alone by ruling); Source Registry rows 48, 49, 59, 61, 62 and 94; Doc_01, Doc_07 line 352, Doc_09, Phase 5 and Phase 6 passages and World Profile lines 117, 313 to 321, 715 and 795.
 - **Still open:** the six quote records and the new demonstration stay provisional until the final read; the Opus read of the changed voice-facing fields is Mark's call on allowance.
 
+## OG-85. `witt.dw.how-the-promise-reached-us` quotes a Luther line that does not match the vendored text, 2026-10-27.
+
+Found by the witness-quotation gate (`python -m engine.m1.witness_quotations`; see OG-101 in `Build/worlds/lpc/Open_Gaps_Tracking.md`). The record's `text` has "I did nothing; the Word did it all". The files the record's sources cite do not hold those words in that form. The record is at `verified-direct`. Not edited by the thread that found it. The world's owner checks the line against the vendored Luther text, then fixes the quotation or cites its edition.
+
 Status: OPEN.

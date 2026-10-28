@@ -21,7 +21,7 @@ edition: Attested collectively via the homilies naming festival crowds (rows 16,
   independent material-culture edition of its own
 citation: The martyrium and shrine panegyris pattern of rural Anatolia, as attested across several homilies
 kind: unvendored
-rights_status: "not applicable - no single specific text has been identified for this row; it names a person, general pattern, or unlocated corpus rather than a held text"
+rights_status: "not applicable in the ordinary sense -- a general regional pattern, not a text; no text exists to hold rights over. The homilies that attest it are recorded under their own source records."
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 84; a general regional/period pattern
   with no single named author or text of its own.

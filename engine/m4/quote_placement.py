@@ -43,6 +43,7 @@ from engine.m4.grounding_net import (
     QUOTE_MARKER,
     REASON_FOLLOWS_REMOVAL,
     QuotationIndex,
+    cites_record,
     leans_on_previous,
     placed_key,
     placed_quote_refusal,
@@ -99,7 +100,7 @@ class _Report:
 
     def drop(self, sentence: str, why: str, *, draft: str | None = None) -> None:
         self.removed.append({"sentence": strip_tags(sentence).strip(), "why": why, "draft": (draft or sentence).strip()})
-        self.orphaned = self.orphaned or bool(_TAG.search(draft or sentence))
+        self.orphaned = self.orphaned or cites_record(draft or sentence)
 
     def drops_leaning(self, sentence: str, sealed: frozenset[str] = frozenset()) -> bool:
         """Whether `sentence`, the next one in the reply, goes because it
@@ -153,6 +154,7 @@ def place_quotes(
     story_seen: set[str] = set()
 
     for paragraph in (p for p in _PARAGRAPH_BREAK.split(tagged_text or "") if p.strip()):
+        report.orphaned = False
         kept: list[str] = []
         sentences = quote_aware_sentences(paragraph)
         position = 0

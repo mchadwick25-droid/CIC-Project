@@ -1,0 +1,14 @@
+source_file: gregory-nyssa_opera-omnia-pg44-grc-lat_migne1858.txt
+
+assignments:
+  - row_id: gregory-nyssa_opera-omnia-pg44-grc-lat_migne1858--homilies-ecclesiastes-song-of-songs-life-of-moses-pg-44-greek
+    work: "Gregory of Nyssa, PG 44, Greek: homilies on Ecclesiastes and the Song of Songs, Life of Moses, Beatitudes, On Prayer"
+    author: gregory-nyssa
+    locus: "Ecclesiastes homilies from OCR line 46109; Song of Songs homilies from 56134; Life of Moses from 21251; Beatitudes from 89025; line numbers are OCR lines, add 12 for this file's own"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: provisional
+    note: >
+      Primary original-language voice of Gregory of Nyssa: the homilies on Ecclesiastes and on the Song of Songs, the Life of Moses, the Beatitudes and On Prayer.
+      Greek original; second witness for quotation until checked against the page image: Greek legible, Latin column garbled.

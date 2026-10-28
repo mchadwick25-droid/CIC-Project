@@ -19,6 +19,8 @@ work: 'Psalmus vox totius Christi: Studien zu Augustins "Enarrationes in Psalmos
   Herder, 1997)'
 edition: Herder, 1997 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3); not a vendoring
   candidate
+citation: 'Michael Fiedrowicz, Psalmus vox totius Christi: Studien zu Augustins "Enarrationes in Psalmos" (Freiburg/Basel/Vienna: Herder, 1997)'
+kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note
   says "in copyright" and "consultation-only" or "not a vendoring candidate" is in this category' -- spanning

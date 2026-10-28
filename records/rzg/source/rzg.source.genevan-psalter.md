@@ -16,15 +16,16 @@ sources: []
 relations: []
 author: Clement Marot and Theodore Beza (versification); various (tunes)
 work: The Genevan Psalter (complete 1562)
-edition: No edition searched or identified this pass - NOT YET ACQUIRED
-rights_status: "Native to this world's own boundary but not yet acquired - a real, disclosed acquisition gap, not a rights refusal. Nothing is vendored or quoted from this row; every field below states what is currently known about the work itself, not its content"
-attribution_status: versified by Marot and Beza; the underlying Psalter itself is Native to this world,
-  but no specific edition is currently held or searched.
+edition: 'Les Pseaumes mis en rime francoise (Geneva: Francois Perrin, pour Antoine Vincent, 1562), the complete Psalter in French verse with no English translation; vendored as cic/texts/marot-beze_pseaumes-mis-en-rime-francoise-fra_1562.txt'
+rights_status: "public-domain; 1562 imprint predates any copyright regime, and the Internet Archive host marks the scan (identifier BSG_8A817_2INV992RES_P1) 'Domaine public', as recorded in cic/texts/REGISTRY.yaml"
+attribution_status: versified by Marot and Beza; the underlying Psalter itself is Native to this world.
+  The vendored file is a scan whose OCR is uneven where musical notation sits beside the verse.
 discovery_channel: Source_Registry.md row 15, added 2026-09-15; not searched this pass beyond the general-knowledge
   citation already in the census's own `sources` field.
 external_ids:
   rzg_source_registry_row: 15
 citation: Clement Marot and Theodore Beza (versification), The Genevan Psalter (complete 1562)
-kind: unvendored
+kind: vendored
+shelf_row: marot-beze_pseaumes-mis-en-rime-francoise-fra_1562--les-pseaumes-mis-en-rime-francoise-the-genevan-psalter
 ---
-Practice-limb (congregational singing) claims (Doc_01 SS5), once acquired - not currently usable for any claim (Confidence E). Grounds the World Capsule Core's own Geneva-worship characterization ('the whole of your praise was set to meter and tune') at general-knowledge confidence only, disclosed rather than upgraded.
+Practice-limb (congregational singing) claims (Doc_01 SS5). The file is now held, but no record quotes or cites it yet, so the confidence fields above are unchanged and still describe the unacquired state. Grounds the World Capsule Core's own Geneva-worship characterization ('the whole of your praise was set to meter and tune') at general-knowledge confidence only, disclosed rather than upgraded.

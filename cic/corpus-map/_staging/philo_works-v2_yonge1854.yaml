@@ -4,7 +4,7 @@ assignments:
   - row_id: philo_works-v2_yonge1854--philo-works-volume-2-yonge
     work: "Philo of Alexandria, Works (Yonge), volume 2"
     author: philo
-    locus: "including On the Migration of Abraham (file line 3223) and On Abraham (20324); the other treatises of the volume were not itemised"
+    locus: "including On the Migration of Abraham (OCR line 3223) and On Abraham (20324); the other treatises of the volume were not itemised; line numbers are OCR lines, add 11 for this file's own"
     atlas_ids:
       - alexandria-catechetical
       - post-apostolic-house-church
