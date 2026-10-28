@@ -1087,6 +1087,68 @@ def inherited_cells(history, *, canon_questions, repository_records, top_n) -> l
     return []
 
 
+_CARRY_WEAK_MASS = 3.5
+
+
+def _best_cell_mass(message, asks, canon_questions, repository_records) -> float:
+    """The shared-word mass of the message's best cell, weighted as
+    _looks_like_follow_up weights it; 0.0 when no cell matches."""
+    words = _query_words(message, asks)
+    matches = match_asks_to_cells(
+        message=message, asks=asks, canon_questions=canon_questions, repository_records=repository_records, top_n=1,
+    )
+    if not matches:
+        return 0.0
+    cell_words = cell_keywords(canon_questions)
+    counts = {w: sum(1 for ws in cell_words.values() if w in ws) for w in words}
+    weights = _word_weights(words, counts)
+    return sum(weights.get(w, 1.0) for w in matches[0]["shared_words"])
+
+
+def _prior_turn_cells(
+    *, message, asks, history, selected, already_told_ids, cell_matches, canon_questions, repository_records,
+    top_n: int = 2,
+) -> tuple[list[dict], bool]:
+    """The cells of the last standalone message and whether a story or quote
+    the message's own cells selected was already told. The cells are carried
+    when the message holds a back-reference word and either its best cell is
+    weak or such a record was told; empty on a first turn or when they are
+    already among the cells. If no earlier message stood on its own, the
+    conversation's first one is the subject; a standalone message that matched
+    no cell carries nothing."""
+    if not history:
+        return [], False
+    told = set(already_told_ids or ())
+    told_selected = any(c["record_type"] in ("story", "quote") and c["id"] in told for c in selected)
+    if not (_BACK_REFERENCE & set(re.findall(r"[a-z']+", (message or "").lower()))):
+        return [], told_selected
+    if not told_selected and _best_cell_mass(message, asks, canon_questions, repository_records) >= _CARRY_WEAK_MASS:
+        return [], told_selected
+    standalone = next(
+        (e.get("content") or "" for e in reversed(history)
+         if e.get("role") == "user" and not _looks_like_follow_up(e.get("content") or "", None, canon_questions, repository_records)),
+        None,
+    )
+    subject = standalone if standalone is not None else next((e.get("content") or "" for e in history if e.get("role") == "user"), "")
+    carried = match_asks_to_cells(
+        message=subject, asks=None, canon_questions=canon_questions, repository_records=repository_records, top_n=top_n,
+    ) if subject else []
+    have = {m["cell"] for m in cell_matches}
+    return [{**m, "from_prior_turn": True} for m in carried if m["cell"] not in have][:top_n], told_selected
+
+
+def _carried_records(candidates: list[dict], *, told_selected: bool, already_told_ids) -> list[dict]:
+    """What a carried cell contributes: its lead witness (else its first
+    record), and, when the message reached a story or quote already told, the
+    first story of the cell not yet told."""
+    told = set(already_told_ids or ())
+    lead = next((c for c in candidates if c["record_type"] == "doctrinal_witness"), None) or (candidates[:1] or [None])[0]
+    picked = [lead] if lead else []
+    if told_selected:
+        picked += [c for c in candidates if c["record_type"] == "story" and c["id"] not in told and c not in picked][:1]
+    return picked
+
+
 def resolve_kind(
     reader_kind: str | None,
     *,
@@ -1225,6 +1287,28 @@ def assemble_evidence(
             seen_ids.add(candidate["id"])
             selected.append({**candidate, "cell": match["cell"]})
 
+    # A message that points back, and either matched weakly or reached a story
+    # or quote the conversation has already told, is also about the last
+    # standalone subject: that subject's cells ride as extra slots, after the
+    # cells above, so nothing already selected is displaced.
+    prior_cells, told_selected = _prior_turn_cells(
+        message=message, asks=asks, history=history, selected=selected, already_told_ids=already_told_ids,
+        cell_matches=cell_matches, canon_questions=canon_questions, repository_records=repository_records,
+    )
+    cell_matches = cell_matches + prior_cells
+    for prior in prior_cells:
+        for candidate in _carried_records(
+            select_cell_candidates(
+                cell=prior["cell"], coverage_entry=coverage.get(prior["cell"]) or {}, repository_records=repository_records,
+                message=message, asks=asks, already_told_ids=already_told_ids, kind=kind, rhythm=rhythm, words_asked=words_asked,
+            ),
+            told_selected=told_selected, already_told_ids=already_told_ids,
+        ):
+            if candidate["id"] in seen_ids:
+                continue
+            seen_ids.add(candidate["id"])
+            selected.append({**candidate, "cell": prior["cell"]})
+
     # Stage A2: only when Stage A found no cell on its own EVIDENCE - never
     # when a cell matched but session-exclusion is what emptied `selected`
     # (that is an intentional "already told this" outcome, not a retrieval
@@ -1246,7 +1330,7 @@ def assemble_evidence(
     # A cell added for a distinctive word of the question is as weak: it knows
     # one word names a record's hint, not that the cell answers the question,
     # and the fallback that carried an unmatched question must still run.
-    if not [m for m in cell_matches if not m.get("from_entity") and not m.get("from_hint_word") and m.get("matched_by") != "question-word"]:
+    if not [m for m in cell_matches if not m.get("from_entity") and not m.get("from_hint_word") and m.get("matched_by") != "question-word" and not m.get("from_prior_turn")]:
         for candidate in _fulltext_fallback_candidates(query_words=_query_words(message, asks), repository_records=repository_records):
             if candidate["id"] in seen_ids:
                 continue
@@ -1341,6 +1425,24 @@ def _with_quote_index(candidate: dict, repository_records: dict[str, dict]) -> d
     return {**candidate, "speaker": label, "gist": gist, "speaker_name": name}
 
 
+_NEAR_DUPLICATE = 0.7
+
+
+def _distinct_guards(guards: list[str]) -> list[str]:
+    """The guard lines with a near-duplicate of an earlier line left out: a
+    line whose content words are at least 70% shared with the shorter of the
+    two repeats what the earlier line already bars."""
+    kept: list[str] = []
+    kept_words: list[set[str]] = []
+    for guard in guards:
+        words = content_words(guard)
+        if words and any(other and len(words & other) / min(len(words), len(other)) >= _NEAR_DUPLICATE for other in kept_words):
+            continue
+        kept.append(guard)
+        kept_words.append(words)
+    return kept
+
+
 def _quote_line(candidate: dict, descriptors: list[str]) -> str:
     """A quote's line in the evidence block: id in the marker's own form,
     speaker and gist for one not yet voiced; for one already voiced, no
@@ -1361,7 +1463,7 @@ def _quote_line(candidate: dict, descriptors: list[str]) -> str:
     if candidate.get("setting"):
         line += f" | setting: {candidate['setting']}"
     if candidate.get("claim_guards"):
-        line += " | MUST NOT ASSERT: " + "; ".join(candidate["claim_guards"])
+        line += " | MUST NOT ASSERT: " + "; ".join(_distinct_guards(candidate["claim_guards"]))
     return line
 
 
@@ -1449,7 +1551,7 @@ def render_evidence_block(evidence: dict) -> str:
             # budget - upstream prevention, the mechanism that actually
             # works") - directly beside the one record it barred a claim
             # about, never a separate section a skim could miss.
-            line += " | MUST NOT ASSERT: " + "; ".join(guards)
+            line += " | MUST NOT ASSERT: " + "; ".join(_distinct_guards(guards))
         if candidate.get("absent_detail"):
             line += " | NOT KNOWN: " + candidate["absent_detail"]
         lines.append(line)

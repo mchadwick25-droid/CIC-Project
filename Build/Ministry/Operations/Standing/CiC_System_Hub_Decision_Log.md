@@ -7126,6 +7126,14 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 
 **Open.** Live retest of lpc on the current pin: the project lead names the test and cap. Record-side fixes belong to the lpc world thread (`Open_Gaps_Tracking.md`, OG-107).
 
+## 2026-10-28 - A follow-up carries the last standalone subject's cells as extra slots (coordinator's approval of the engine thread's design)
+
+**Question.** Deep Interview turns 2 and 8 of the lpc run lost the thread: turn 2 asked for "a real case" and its own cell held only the story already told in turn 1; turn 8 said "it", but "Augustine", "later" and "same" scored above the follow-up threshold, so turn 7's dying-penitent cell was never consulted.
+
+**Ruling.** The project-management thread approved the design on 2026-10-28, with proof first: no model call, add-only on every offered-sets path, and a replay of the ten-turn interview.
+
+**Done.** `assemble_evidence` carries the last standalone message's cells (up to two, as a follow-up carries today) as extra slots, after the cells the message matched, only when history exists, the message holds a back-reference word, and either its own best cell is weak (shared-word mass under 3.5) or a story or quote its own cells selected was already told. From each carried cell it takes the lead witness and, when a story or quote was told, one untold story, not the whole cell. If no earlier message stands alone, the conversation's first message is the subject. Nothing already selected is removed or reordered, and the carried cells do not count as evidence for the full-text fallback. In the same change, the guard rider drops a line that repeats an earlier line (70% shared content words), which pays for part of the carry. Cost, measured against the run-3 baseline, and what the project-management thread decided to do about the budget are in the pull request and in the project-management log.
+
 ## 2026-10-28 - A quote's setting is an optional field shown to the voice, and a retrieve_when line must be a question (project lead's ruling, choice box)
 
 **Question.** The lpc quote audit found that no quote record says who said it, to whom, on what occasion or what it answered, and that some `retrieve_when` lines name a record instead of a question. What is built?
