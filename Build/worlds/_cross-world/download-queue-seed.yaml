@@ -22809,3 +22809,16 @@ queue:
     verified_by: "Library thread acquisition batch 2, 27 October 2026: metadata read (Public Domain Mark), djvu.txt fetched, byte count 7,275,754 equal to listed size, headings read at raw lines 8021, 12152, 17255, 91807, 94017"
     status: downloaded
     vendored_as: "gregory-nyssa_opera-omnia-pg45-grc-lat_migne1858.txt"
+
+  - title: "Ioannis Calvini opera quae supersunt omnia, vol. X part 1 (Corpus Reformatorum 38): Ordonnances ecclesiastiques et autres; Consilia"
+    author: "John Calvin"
+    translator: "G. Baum, E. Cunitz and E. Reuss (eds.)"
+    year: 1871
+    world: "the-reformed-cities-zurich-and-geneva"
+    why: >
+      Calvin's own 1541 draft ordinances and the 1561 text; the vendored Ordonnances file is the 1576 revision.
+    url: "https://archive.org/details/ioannis-calvini-opera-quae-supersunt-omnia-vol.-x"
+    rights_basis: pd-us-by-date
+    verified_by: "Library thread, 27 October 2026: metadata read (no licence tag), title page read, djvu.txt fetched, byte count 1,965,086 equal to listed size, headings read at raw lines 1350 and 6747; opens with a Geneva cover sheet"
+    status: downloaded
+    vendored_as: "calvin_opera-omnia-vol10-pars-prior-fra-lat_baum-cunitz-reuss1871.txt"
