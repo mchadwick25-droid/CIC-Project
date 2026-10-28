@@ -1,6 +1,6 @@
 {
   "cap_usd": 12.0,
-  "spent_usd": 1.981195,
+  "spent_usd": 2.742782,
   "worlds": {
     "lpc": {
       "attempts": 1,
@@ -30,13 +30,18 @@
     },
     "desert": {
       "attempts": 1,
-      "status": "running",
+      "status": "done",
       "preflight_usd": 0.5162604000000001,
       "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-desert.jsonl",
-      "probes_answered": 1,
-      "spent_usd_world": 0.091824
+      "probes_answered": 28,
+      "spent_usd_world": 0.761587,
+      "pass_count": 28,
+      "battery_size": 28,
+      "overall_pass": true,
+      "aborted_reason": null,
+      "exit_code": 0
     }
   },
-  "current": "desert",
-  "checkpoint_at": "2026-10-28T23:25:46Z"
+  "current": null,
+  "checkpoint_at": "2026-10-28T23:31:06Z"
 }
