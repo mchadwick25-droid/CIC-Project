@@ -2899,3 +2899,13 @@ Changed: `engine/m4/turn.py` (`_remove_with_leaning`, `_hollowed`, `HOLLOWED_*`,
 
 No world record changed. No model call.
 
+
+### 2026-10-28 — Record-side fixes from the run 3 review (project lead's direction: build to produce good answers)
+
+Context: the run 3 review (`Review-Artifacts/Run3_Access_And_Craft_Review_2026-10-28.md`) named five record fixes that cost no model calls. Done at the source, no live run.
+
+Changed: `lpc.story.numidicus` gains the not_for "a claim that Numidicus lapsed or was readmitted" (E3). The de-unitate contested claim, the `cyprian-de-unitate` source record and `lpc.term.the-one-episcopate` now state Cyprian's side of the dispute with Stephen in place of "the Stephen rebaptism controversy" (E3). `lpc.quote.reprove-and-forgive-the-surgeons-knife` loses the `retrieve_when` line that overlapped `lpc.quote.bind-him-justly` (Q1). `lpc.limit.the-silent-century` has a `statement` the voice can say, with the "not yet weighed" hedge kept, and `wb_lpc_s28.py` matches it (R2).
+
+V4, decided: the records hold Augustine on the dying. Letter 228 to Honoratus (428 or 429) was checked against the vendored NPNF text, and the new witness record `lpc.witness.the-dying-and-the-pastors-post` gives only what the letter says: ministers must not leave behind the people who depend on them, and the dying are then baptized and reconciled. It sets no rule on the length of penance or on who gives the peace.
+
+Review: one Opus round, Revise (two P1: the silent-century statement dropped the hedge, and an edit to the s28 script duplicated blocks; four P2). All applied; every quotation in the new record matched the source word for word. New pin `packages/lpc/2026-10-28T15-03-21Z`. No model call; no spend.

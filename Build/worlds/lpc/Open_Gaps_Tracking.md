@@ -2332,3 +2332,11 @@ Logged 2026-10-28.
 - **Still open.** OG-101 (the answer record skips the net's claim checks), OG-103 (admission never calls `settle_reply`), and the rest of OG-100 (register-4, register-5, F17, F23).
 - **Owner.** An engine thread, for OG-101 and OG-103.
 
+
+### OG-107. Record-side fixes from the run 3 review are done (2026-10-28).
+
+Logged 2026-10-28.
+
+- **Done.** Numidicus not_for, Cyprian's side of the dispute with Stephen, surgeon's-knife trigger, silent-century statement, and the Augustine-on-the-dying witness record (OG-98 items E3, Q1, R2, V4); see `lpc_Decision_Log.md`, 2026-10-28, "Record-side fixes from the run 3 review". Pin `packages/lpc/2026-10-28T15-03-21Z`.
+- **Still open.** Engine items E1 and the rest of the review's engine list; plain renderings in `lpc.witness.remembered-at-the-altar` (A2); the penance-duration answer (DI-6); `validation lpc` needs a live run on the current pin.
+- **Owner.** This thread for the records; the engine threads for the rest.

@@ -55,8 +55,7 @@ held_against:
   itself close the question, per that source record''s own divergence_note, which states this directly
   rather than implying resolution from acquisition alone.'
 - Whichever recension is prior, the passage in question (De Unitate 5's episcopatus unus est) is not,
-  on this world's own Doc_01 finding, Cyprian's own answer to the later Stephen rebaptism controversy
-  at all -- it predates that controversy by four to five years -- so a reading that treats either recension
+  on this world's own Doc_01 finding, Cyprian's own answer at all to the later dispute with Stephen, in which he held baptism given outside the church void -- it predates that controversy by four to five years -- so a reading that treats either recension
   as evidence of Cyprian's own considered position on conciliar primacy specifically, rather than on schism
   and the one episcopate in general, risks importing a later dispute's own stakes into a passage written
   before that dispute existed.
