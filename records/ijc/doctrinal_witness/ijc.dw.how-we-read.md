@@ -35,8 +35,8 @@ retrieval:
 text: >-
   We read our scriptures the way we read everything else: as binding authority. Where other Christian
   eras read the Bible for private contemplation, we read it to settle questions of office, law, and
-  boundary. Rome read 'You are Peter, and on this rock I will build my church' as a standing grant of
-  office. It was more than a blessing. The century's deepest fight was over scriptural words. Was the
+  boundary. Rome read Christ's words to Peter, that he would build his church on that rock, as a standing
+  grant of office. It was more than a blessing. The century's deepest fight was over scriptural words. Was the
   Son 'like the Father,' language scripture could carry? Or was he 'of one being' with the Father, a
   phrase scripture nowhere uses? Which wording kept scripture's meaning better was the whole fight.
   Both sides argued it from the same texts, at councils, with office and exile riding on the outcome.

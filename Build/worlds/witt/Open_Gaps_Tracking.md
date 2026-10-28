@@ -2848,3 +2848,11 @@ Follows the entries OG-86 and OG-87 and the rulings logged in `Build/Ministry/Fe
 Found by the witness-quotation gate (`python -m engine.m1.witness_quotations`; see OG-101 in `Build/worlds/lpc/Open_Gaps_Tracking.md`). The record's `text` has "I did nothing; the Word did it all". The files the record's sources cite do not hold those words in that form. The record is at `verified-direct`. Not edited by the thread that found it. The world's owner checks the line against the vendored Luther text, then fixes the quotation or cites its edition.
 
 Status: OPEN.
+
+## OG-89. `witt.dw.how-the-promise-reached-us` quotation checked against the vendored text and its edition cited, 2026-10-28.
+
+Closes OG-85 (the second one, 2026-10-27, on this record). The sentence "I did nothing; the Word did it all" is in the vendored Luther selections, vol. 2, word for word: `cic/texts/luther_works-v2-selected_jacobs-spaeth1916.txt` line 14931, in the Eight Wittenberg Sermons. The record's `text` was already exact; its source list did not name that edition. The body's `Sources:` line now cites the file and line, so the witness-quotation gate finds it. No wording changed and no quotation was added.
+
+The gate is registered in `engine/m1/gates.py` as `witness-quotation-verbatim` and runs for every world. The known-findings file is empty. The package is rebuilt and repinned.
+
+Status: CLOSED.

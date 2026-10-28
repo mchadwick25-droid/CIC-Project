@@ -18,6 +18,7 @@ from .loader import home_for_record_type, voiced_records
 from .quote_verbatim import gate_quote_verbatim
 from .schemas import RELATION_INVERSE, build_schema
 from .spoken_fields import ATTRIBUTION_FIELDS, PERSPECTIVE_FIELDS, field_texts, fields_with_role, shared_fields_with_role
+from .witness_quotations import gate_witness_quotation_verbatim
 
 FK_CEILING = 10
 
@@ -1664,6 +1665,7 @@ GATES = {
     # quote_verbatim.py's own `_REQUIRED_VERIFICATION_STATE` - and every
     # record still at verified-direct already verifies).
     "quote-verbatim": gate_quote_verbatim,
+    "witness-quotation-verbatim": gate_witness_quotation_verbatim,
     # flag_cross_record_consistency and check_mode3_claim_fidelity are
     # NOT registered here, and are not deferred-pending-a-rebuild the way
     # quote-mark-fidelity was - each has its own, permanent reason to sit
