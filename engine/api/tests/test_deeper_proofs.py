@@ -20,6 +20,7 @@ from engine.api.tests.test_deeper_seam import (  # noqa: F401
     runtime,
     say,
     small_free_cap,
+    spend_free_allowance,
 )
 from engine.deeper import codes
 
@@ -135,6 +136,8 @@ def test_a_paid_sitting_leaves_no_trace_of_the_code_or_the_payment_in_the_conver
     runtime.claims.put(reference, [code])
     session_id, auth = open_session(http, **{"X-Cic-Code": code})
     for i in range(5):
+        if i == 2:
+            spend_free_allowance(runtime, http.cookies.get("cic_visitor").split(".")[0])
         assert say(http, session_id, auth, f"question {i}").status_code == 200
     assert runtime.meter.status(code).remaining == 30
 
@@ -193,6 +196,8 @@ def test_a_sitting_driven_to_its_last_exchange_stores_no_code_or_balance_wording
     code = code_with(runtime, solo_charge(runtime, 3, 4))
     paid_id, paid_auth = open_session(free, **{"X-Cic-Code": code})
     for i in range(FREE_CAP + 3):
+        if i == FREE_CAP:
+            spend_free_allowance(runtime, free.cookies.get("cic_visitor").split(".")[0])
         say(free, paid_id, paid_auth, f"question {i}")
     assert runtime.meter.status(code).remaining == 0
 

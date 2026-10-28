@@ -16,11 +16,19 @@ sources: []
 relations: []
 author: Gregory of Nyssa
 work: Gregory of Nyssa's homilies on the Forty Martyrs of Sebaste and on Theodore the Recruit
-edition: Confirmed absent from the vendored npnf205 per row 41's own note -- a named, currently unlocated
-  acquisition gap
+edition: >-
+  Held in Greek, not in English. cic/texts/gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863.txt
+  carries the homily on Theodore the great martyr (file line 54131), the Forty Martyrs I (55014)
+  and the Forty Martyrs II (56689). Migne's Latin column is garbled into Greek-looking glyphs, so
+  the Greek is the only legible witness. It is a second witness: nothing in it is quotable until
+  the passage is checked against the page image. Not in the vendored npnf205, which holds the
+  editor's prolegomena mention only.
 citation: Gregory of Nyssa, homilies on the Forty Martyrs of Sebaste and on Theodore the Recruit
-kind: unvendored
-rights_status: "not independently verified; not yet acquired as an open text - named for completeness (every source a claim rests on gets a row, acquired or not)"
+kind: vendored
+shelf_row: gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863--sermons-martyrs-thaumaturgus-usurers-pg-46-greek
+rights_status: >-
+  public-domain by date (Migne, 1863); vendored in the shared library, in Greek with
+  a garbled Latin column.
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 53; a specific named source (author, translator,
   edition, or witness) that this session did not independently check against primary content -- either

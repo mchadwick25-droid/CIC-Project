@@ -1143,13 +1143,7 @@ def build_figures() -> None:
         "cyprian",
         [{"name": "Cyprian, our bishop at Carthage", "tag": "in-world"},
          {"name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)", "tag": "scholarly"}],
-        {"display": "a trained rhetorician who turned from a public career to Christian life, "
-                    "converted c. 246; ordained and elected bishop of Carthage between roughly "
-                    "July 248 and April 249 by the acclamation of the Carthaginian people, over the "
-                    "recorded opposition of five presbyters, while still newly baptised (Doc_01 SS2; "
-                    "lpc.story.election-of-cyprian); banished to Curubis under the Valerianic "
-                    "persecution; executed under the emperor Valerian in 258 (lpc.story.the-death-"
-                    "of-cyprian)"},
+        {"display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised, as his deacon Pontius tells it; banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258"},
         True,
         "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague "
         "he taught us to love even our enemies. He was put to death under Valerian.",
@@ -1171,12 +1165,7 @@ def build_figures() -> None:
         "augustine",
         [{"name": "Augustine, our bishop at Hippo", "tag": "in-world"},
          {"name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430", "tag": "scholarly"}],
-        {"display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained "
-                    "presbyter against his own wishes in 391, weeping through it (Possidius, Vita "
-                    "IV, independently re-located this session; Doc_01 SS2); designated coadjutor "
-                    "and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, "
-                    "again amid popular acclamation (Possidius, Vita VIII; Doc_01 SS2); died 430, "
-                    "during the Vandal siege of Hippo (lpc.story.the-psalms-on-the-wall)"},
+        {"display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"},
         True,
         "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he "
         "wept. Later "
@@ -1198,10 +1187,7 @@ def build_figures() -> None:
         "pontius",
         [{"name": "Pontius, our bishop's own deacon", "tag": "in-world"},
          {"name": "Pontius the Deacon (fl. mid-3rd century)", "tag": "scholarly"}],
-        {"display": "Cyprian's own deacon, present with him at his banishment to Curubis (lpc."
-                    "source.pontius-life-and-passion-of-cyprian's own confidence note); wrote The "
-                    "Life and Passion of Cyprian after his bishop's execution in 258, the first "
-                    "Christian biography (Doc_09 SS2)"},
+        {"display": "Cyprian's own deacon, present with him at his banishment to Curubis; wrote The Life and Passion of Cyprian after his bishop's execution in 258, the first Christian biography"},
         True,
         "Our bishop's own deacon. He went with him into exile, and after the execution he wrote "
         "the account of his life and death.",
@@ -1227,11 +1213,7 @@ def build_figures() -> None:
         "possidius",
         [{"name": "Possidius, bishop of Calama", "tag": "in-world"},
          {"name": "Possidius of Calama (d. after 437)", "tag": "scholarly"}],
-        {"display": "Augustine's own friend for nearly forty years; bishop of Calama in his own "
-                    "right; physically present at Augustine's deathbed in 430, one of those "
-                    "Augustine 'asked of us who were present' (lpc.story.the-psalms-on-the-wall); "
-                    "wrote the Vita Augustini, the source for both lpc.story.the-psalms-on-the-wall "
-                    "and lpc.quote.clamour-and-tears"},
+        {"display": "Augustine's own friend for nearly forty years; bishop of Calama in his own right; physically present at Augustine's deathbed in 430, one of those Augustine 'asked of us who were present'; wrote the Vita Augustini, the source for the psalms on the wall and for the account of the people seizing Augustine at Hippo"},
         True,
         "the bishop of Calama who had been Augustine's friend for almost forty years, and who "
         "stood by him and prayed as he died",
@@ -1253,11 +1235,7 @@ def build_figures() -> None:
         "numidicus",
         [{"name": "Numidicus, our presbyter", "tag": "in-world"},
          {"name": "Numidicus of Carthage (fl. mid-3rd century)", "tag": "scholarly"}],
-        {"display": "exhorted a group of Christians to martyrdom under persecution, among them his "
-                    "own wife, who died with them; himself left half-consumed by fire and "
-                    "overwhelmed with stones, found half dead by his own daughter and revived; "
-                    "added by Cyprian afterward to the presbyters of Carthage, though he had not "
-                    "wanted to survive (Cyprian, Ep. XXXIV; lpc.story.numidicus)"},
+        {"display": "exhorted a group of Christians to martyrdom under persecution, among them his own wife, who died with them; himself left half-consumed by fire and overwhelmed with stones, found half dead by his own daughter and revived; added by Cyprian afterward to the presbyters of Carthage, though he had not wanted to survive (Cyprian, Ep. XXXIV)"},
         True,
         "a man who watched his own wife die with those he had exhorted to martyrdom, was himself "
         "left for dead, and did not want to have survived",
@@ -1276,10 +1254,7 @@ def build_figures() -> None:
         "celerinus",
         [{"name": "Celerinus, a confessor among us", "tag": "in-world"},
          {"name": "Celerinus of Carthage (fl. mid-3rd century)", "tag": "scholarly"}],
-        {"display": "a confessor -- imprisoned under persecution and did not deny Christ; wrote to "
-                    "Lucian, a fellow confessor in prison, asking that his own sister and two other "
-                    "women be received back to communion (Ep. XX; lpc.story.celerinus-writes-to-"
-                    "lucian)"},
+        {"display": "a confessor -- imprisoned under persecution and did not deny Christ; wrote to Lucian, a fellow confessor in prison, asking that his own sister and two other women be received back to communion (Ep. XX)"},
         True,
         "A confessor who wrote to another confessor in prison. He wept for his sister, who had "
         "sacrificed, and asked him to help restore her.",
@@ -1297,10 +1272,7 @@ def build_figures() -> None:
         "lucian",
         [{"name": "Lucian, a confessor among us", "tag": "in-world"},
          {"name": "Lucian of Carthage (fl. mid-3rd century)", "tag": "scholarly"}],
-        {"display": "a confessor imprisoned under persecution, condemned to die by hunger and "
-                    "thirst, who replied to Celerinus from prison, granting peace to Numeria and "
-                    "Candida once their case was set before the bishop (Ep. XXI; "
-                    "lpc.story.celerinus-writes-to-lucian)"},
+        {"display": "a confessor imprisoned under persecution, condemned to die by hunger and thirst, who replied to Celerinus from prison, granting peace to Numeria and Candida once their case was set before the bishop (Ep. XXI)"},
         True,
         "A confessor who answered from a prison cell. He and others there had been ordered to die "
         "of hunger and thirst. He sent peace to Numeria and Candida, two women he knew well, once "

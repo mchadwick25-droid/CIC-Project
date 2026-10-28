@@ -4,7 +4,7 @@ assignments:
   - row_id: philo_works-v3_yonge1854--philo-works-volume-3-yonge
     work: "Philo of Alexandria, Works (Yonge), volume 3"
     author: philo
-    locus: "On the Life of Moses (file line 1158), the Ten Commandments (7519), On Circumcision (9391), On Monarchy (9501), the Special Laws and the festivals (13260 onward), On Justice (19702), On Courage, Humanity and Repentance (20864), On Rewards and Punishments (23048), On Curses (24436)"
+    locus: "On the Life of Moses (OCR line 1158), the Ten Commandments (7519), On Circumcision (9391), On Monarchy (9501), the Special Laws and the festivals (13260 onward), On Justice (19702), On Courage, Humanity and Repentance (20864), On Rewards and Punishments (23048), On Curses (24436); line numbers are OCR lines, add 11 for this file's own"
     atlas_ids:
       - alexandria-catechetical
       - post-apostolic-house-church

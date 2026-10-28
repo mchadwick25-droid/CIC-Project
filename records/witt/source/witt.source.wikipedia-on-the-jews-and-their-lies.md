@@ -20,7 +20,7 @@ edition: and "Against the Murderous, Thieving Hordes of Peasants" — tertiary, 
   suggested for the content of two unvendored texts
 citation: Wikipedia, On the Jews and Their Lies and "Against the Murderous, Thieving Hordes of Peasants"
 kind: unvendored
-rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
+rights_status: "Online tertiary reference page: no text exists to hold rights over, so nothing to acquire. Rights status as characterized in the Source Registry; not independently re-verified."
 attribution_status: attributed
 discovery_channel: WebFetch; Source Registry row 83; 2026-09-15
 external_ids:

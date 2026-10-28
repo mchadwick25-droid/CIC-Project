@@ -31,7 +31,7 @@ sources:
   locus: "whether the Ninety-Five Theses were physically nailed to the door, our own most famous founding image -- 'an unread secondary source is understood to dispute a modern editor's own unsourced narrative claim'"
   license: public-domain
 - source_id: witt.core.witt
-  locus: "'.thinness': the 1525 rising and the 1543 treatise, real parts of our own history we state exist without narrating their own wording"
+  locus: "'.thinness': the 1525 writings we hold and the 1543 treatise we do not, real parts of our own history"
   license: public-domain
 retrieval:
   tier: 2
@@ -40,7 +40,7 @@ retrieval:
   - "participant asks what our people never settled"
   - "participant asks the hardest true thing about our people"
   prefer_instead:
-  - "participant wants our own felt account of the 1525 rising or the 1543 treatise -- our record states their existence only, never their own argument or their own wording, and this record does not extend past that limit"
+  - "participant wants what Luther wrote in 1525 -- those lines sit in the 1525 quote records, for example witt.quote.as-when-one-must-kill-a-mad-dog"
 text: >-
   More than one thing about our own community troubled us, and we will not pretend our own record settles
   them.
@@ -65,28 +65,40 @@ text: >-
   for a quiet correction.
 
   Two real parts of our own history are harder still. In 1525 our founder wrote against a rising of the
-  common people, and in 1543 he wrote a treatise against the Jews. We do not have either text to quote
-  from, and we do not pretend we do not know they exist. We say only what is documented, and we do not
-  soften either fact by silence.
+  common people. We hold those writings and can say what they argued, as far as the lines we have checked
+  carry it. In 1543 he wrote a treatise against the Jews. We do not hold that treatise. Its text is not in
+  our sources, so we cannot say what it argued. We do not soften either fact by silence.
 positions:
 - "whether the household catechism program was actually received by ordinary households, or only preached and printed while practice fell short, is genuinely unsettled in our own record -- our own founder's testimony is not the same thing as a village's own report of itself"
 - "our confession states two wordings for justification together, on purpose, without ranking them -- which one is fundamental is not something our own texts settle"
 - "even our founder's own most famous act -- nailing his theses to a church door -- is not attested in his own dated letter from those same days, which speaks only of a private, deferential request"
-- "two real and troubling parts of our own history -- writing against the 1525 rising, and the 1543 treatise against the Jews -- are named honestly as existing, without either text in hand to quote"
+- "two hard parts of our own history are named honestly. We hold the 1525 writing against the rising. We do not hold the 1543 treatise against the Jews"
 tensions:
 - "none of these four unsettled questions is something this record resolves -- naming them honestly is the whole of what this record does; a participant wanting a final answer to any one of them will not get one here"
-- "the 1525 and 1543 material is disclosed at existence only, per this world's own standing discipline; this record does not go further into either text's own argument or wording than our library allows"
-relations: []
+- "the 1525 writings are held and the 1543 treatise is not; this record says no more of either than witt.core.witt and the 1525 quote records carry"
+relations:
+- type: associated-with
+  target: witt.quote.the-sword-is-at-your-throats
+- type: associated-with
+  target: witt.quote.you-too-must-have-a-care
+- type: associated-with
+  target: witt.quote.your-own-judges
+- type: associated-with
+  target: witt.quote.as-when-one-must-kill-a-mad-dog
+- type: associated-with
+  target: witt.quote.the-time-of-the-sword
+- type: associated-with
+  target: witt.quote.neither-court-nor-mercy
 use_note:
-  means: "This witness holds that our records leave unsettled the catechism program's reception, justification's two wordings, the two-kingdoms scope, and the theses posting, and name 1525 and 1543 writings."
+  means: "This witness holds that our records leave unsettled the catechism program's reception, justification's two wordings, the two-kingdoms scope, and the theses posting, and names the 1525 writings we hold and the 1543 treatise we do not."
   not_for:
     - "any of the four contested questions as settled in either direction"
     - "a claim that the theses were or were not nailed to the door as fact"
-    - "a narration of the content or wording of the 1525 or 1543 writings"
+    - "a narration of the 1525 writings beyond what the six 1525 quote records carry, or of the 1543 treatise, which is not held"
     - "evidence that households did or did not keep the catechism program, which sits contested in witt.contested.household-catechism-reception"
   years: {from: 1517, to: 1543}
   status: reviewed
 ---
-Sources: witt.contested.household-catechism-reception, witt.contested.justification-accounted-and-made, witt.contested.two-governments-historical-scope, witt.contested.theses-door-posting, and witt.core.witt's thinness and cautions fields. Cited contested-claim and world-core records were not re-read for this record.
+Sources: witt.contested.household-catechism-reception, witt.contested.justification-accounted-and-made, witt.contested.two-governments-historical-scope, witt.contested.theses-door-posting, and witt.core.witt's thinness and cautions fields.
 
-The 1525 and 1543 writings are named at existence only. The record cannot say more of either text.
+The 1525 writings are named as held and the 1543 treatise as not held. The record says no more of either text.

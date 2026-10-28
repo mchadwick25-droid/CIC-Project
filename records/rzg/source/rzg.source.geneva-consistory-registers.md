@@ -18,8 +18,8 @@ relations: []
 author: Geneva Consistory (contemporary institutional record); this edition trans./ed. Kingdon, Lambert,
   and Watt, trans. M. Wallace McDonald
 work: Registers of the Consistory of Geneva in the Time of Calvin, Vol. 1
-edition: 'Grand Rapids: Eerdmans, 2000 - NOT YET ACQUIRED'
-rights_status: "Native to this world's own boundary but not yet acquired - a real, disclosed acquisition gap, not a rights refusal. Nothing is vendored or quoted from this row; every field below states what is currently known about the work itself, not its content"
+edition: 'Grand Rapids: Eerdmans, 2000, Volume 1 only. Not held and not vendored; purchasable'
+rights_status: "in-copyright; the 2000 Eerdmans translation and edition cannot be vendored. Purchasable. The underlying registers are Geneva's own sixteenth-century record, but no public-domain edition of them is held"
 attribution_status: the underlying registers are Geneva's own contemporary institutional record; this
   specific modern critical edition (Kingdon/Lambert/Watt/McDonald, 2000) is confirmed in-copyright and
   will not be vendored in this edition.

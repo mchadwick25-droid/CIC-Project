@@ -206,8 +206,8 @@ FIX = {
 
 
 def _settle(raw, offered=None):
-    def net(text):
-        return apply_net(text, repository_records=FIX, thin_topics=None)
+    def net(text, **kwargs):
+        return apply_net(text, repository_records=FIX, thin_topics=None, **kwargs)
 
     text, _c, net_result = net(raw)
     return settle_reply(raw, text, net_result, offered or {}, FIX, net)

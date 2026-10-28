@@ -315,6 +315,7 @@ def _draft_is_final_text(
 def apply_net(
     raw_text: str, *, repository_records: dict[str, dict], thin_topics: list[dict] | None,
     quotable_texts: list[str] | None = None, placement: PlacementContext | None = None,
+    answer_record: str | None = None,
 ) -> tuple[str, list[dict], dict]:
     """THE one owner of the voice text shape - everything a Representative
     says, in any mode AND in admission, is shaped by this function and only
@@ -342,20 +343,37 @@ def apply_net(
     quote marker included. Only ok-verdict sentences' tags become
     citations.
 
+    answer_record names a doctrinal witness whose text `raw_text` is, each
+    sentence tagged with it (_record_reply): its sentences are placed by
+    code, verbatim to the record, and neither placement nor the quotation
+    checks touch them.
+
     M3's LiveModelAnswerer calls this function too, so admission grades
     the text a participant would read."""
     placement = placement or PlacementContext()
-    stories = place_stories(grounding_net.strip_markdown(raw_text), repository_records=repository_records, context=placement)
-    shaped = place_quotes(
-        stories["text"], repository_records=repository_records, context=placement, sealed=frozenset(stories["placed"]),
-    )
-    shaped = {
-        **shaped,
-        "placed_sentences": {**stories["placed_sentences"], **shaped["placed_sentences"]},
-        "placed_drafts": {**stories["placed_drafts"], **shaped["placed_drafts"]},
-    }
+    if answer_record is not None:
+        shaped = {
+            "text": raw_text,
+            "placed_sentences": {
+                grounding_net.placed_key(sent["text"]): answer_record
+                for paragraph in grounding_net.split_into_paragraphs(raw_text) for sent in grounding_net.parse_tagged(paragraph)
+            },
+            "placed_drafts": {},
+            "removed": [],
+        }
+        removed: list[dict] = []
+    else:
+        stories = place_stories(grounding_net.strip_markdown(raw_text), repository_records=repository_records, context=placement)
+        shaped = place_quotes(
+            stories["text"], repository_records=repository_records, context=placement, sealed=frozenset(stories["placed"]),
+        )
+        shaped = {
+            **shaped,
+            "placed_sentences": {**stories["placed_sentences"], **shaped["placed_sentences"]},
+            "placed_drafts": {**stories["placed_drafts"], **shaped["placed_drafts"]},
+        }
+        removed = [*stories["removed"], *shaped["removed"]]
     tagged = shaped["text"]
-    removed = [*stories["removed"], *shaped["removed"]]
     while True:
         net_result = grounding_net.check_turn_with_paragraph_coverage(
             tagged, repository_records, thin_topics=thin_topics, quotable_texts=quotable_texts,
@@ -401,9 +419,10 @@ _SENTENCE_END = re.compile(r"^(?P<body>.*?)(?P<end>[.!?][\"'”’)]*)\s*$", re.
 
 
 def _answer_record_fallback(raw_text: str, offered_ids: dict[str, list[str]], repository_records: dict[str, dict]) -> str | None:
-    """The world's own answer record for the question: the first doctrinal
-    witness the voice's draft tagged, else the turn's lead witness (the
-    first witness the evidence block offered). None when there is neither.
+    """The world's own answer record for the question: the doctrinal witness
+    the draft tagged that the evidence block offered (the first, in the
+    block's order), else the witness the draft tagged most often, else the
+    turn's lead witness (the first one offered). None when there is none.
 
     A tag no record has, whose slug is that of exactly one doctrinal witness
     of the same world ([[witt.term.truly-god-and-truly-man]] for
@@ -411,11 +430,21 @@ def _answer_record_fallback(raw_text: str, offered_ids: dict[str, list[str]], re
     chooses which of the world's own records is shown, word for word, and
     never makes the voice's sentence cite a record it did not name."""
     tagged = [t for sent in grounding_net.parse_tagged(raw_text) for t in sent["tags"]]
-    for record_id in [*tagged, *offered_ids.get("doctrinal_witness", [])]:
+    offered = offered_ids.get("doctrinal_witness", [])
+
+    def witness(record_id: str) -> str | None:
         record = repository_records.get(record_id) or _same_slug_witness(record_id, repository_records) or {}
         if record.get("record_type") == "doctrinal_witness" and (record.get("text") or "").strip():
             return record["id"]
-    return None
+        return None
+
+    drafted = [found for t in tagged if (found := witness(t))]
+    for record_id in offered:
+        if (found := witness(record_id)) and found in drafted:
+            return found
+    if drafted:
+        return max(dict.fromkeys(drafted), key=drafted.count)
+    return next((found for record_id in offered if (found := witness(record_id))), None)
 
 
 def _same_slug_witness(record_id: str, repository_records: dict[str, dict]) -> dict | None:
@@ -468,7 +497,7 @@ def settle_reply(
         return {**settled, "text": "", "citations": []} if ungrounded else settled
     cut_from_draft = net_result["reply_shape"]["removed"]
     record_text = _record_reply(repository_records[record_id])
-    text, citations, record_net = net(record_text)
+    text, citations, record_net = net(record_text, answer_record=record_id)
     record_net["reply_shape"]["removed"] = cut_from_draft + record_net["reply_shape"]["removed"]
     return {"raw_text": record_text, "text": text, "citations": citations, "net_result": record_net,
             "answer_record_fallback": record_id}

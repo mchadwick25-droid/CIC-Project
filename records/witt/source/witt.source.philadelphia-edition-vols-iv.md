@@ -16,14 +16,15 @@ sources: []
 relations: []
 author: n/a -- no individual author named for this work in the Source Registry row
 work: Philadelphia Edition vols. IV
-edition: (1931), V (1931), VI (1932) — archive.org identifiers per G1 Part B — HELD BACK pending copyright-renewal
-  check
+edition: (1931), V (1931), VI (1932) — archive.org identifiers per G1 Part B. Vol. IV and vol. VI are vendored as luther_works-v4-selected_various1931.txt and luther_works-v6-selected_various1932.txt
+  (2026-10-27); vol. V is HELD BACK (renewed 1959, R238530; clears 1 January 2027). Vendored vol. IV carries
+  R48 but not R61 (De votis monasticis), which its Contents do not list
 citation: Philadelphia Edition vols. IV (1931), V (1931), VI (1932)
 kind: unvendored
-rights_status: "Rights status as characterized in the Source Registry; not independently re-verified"
+rights_status: "Vols. IV and VI: US publications of 1931 and 1932 whose copyrights were not renewed, per the Library file headers. Vol. V: copyright renewed (R238530); public domain from 1 January 2027."
 attribution_status: anonymous-or-institutional (no individual author named in the Source Registry row)
 discovery_channel: G1 manifest; Source Registry row 62; 2026-09-15
 external_ids:
   witt_source_registry_row: 62
 ---
-Named absence; vol. IV carries R48 and R61. (Source Registry row 62; Confidence B.)
+Vols. IV and VI are vendored. Vol. IV carries R48 but not R61 (De votis monasticis). Vol. V is not held until 1 January 2027. (Source Registry row 62; Confidence B.)

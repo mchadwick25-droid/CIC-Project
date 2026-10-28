@@ -25,6 +25,8 @@ author: Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and 
 work: Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)
 edition: 'Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919;
   vendored as cic/texts/possidius_vita-augustini_weiskotten1919.txt'
+citation: 'Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)'
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
   check (Source_Acquisition_Manifest.md SS1).

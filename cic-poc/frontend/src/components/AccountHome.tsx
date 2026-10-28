@@ -117,6 +117,7 @@ function Home({ headRef }: { headRef: React.RefObject<HTMLHeadingElement> }) {
     <div className="account-home__body">
       <h1 ref={headRef} tabIndex={-1}>{copy.homeHeading}</h1>
       <p className="account__small">{copy.homeNote}</p>
+      {account.address && <p className="account__small">{copy.signedInAs} <strong>{account.address}</strong></p>}
       {account.recoveryPending && (
         <div className="account__section" role="alert">
           <p>{copy.recoveryWaiting(dayOf(account.recoveryPending))}</p>

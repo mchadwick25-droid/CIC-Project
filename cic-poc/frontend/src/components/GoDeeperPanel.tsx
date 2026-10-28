@@ -176,13 +176,22 @@ export function GoDeeperPanel({ panelOnly = false }: { panelOnly?: boolean } = {
           ) : (
             <>
               <p>{held ? deeperCopy.introHeld : deeperCopy.intro}</p>
-              {held && remaining !== null && (
-                <p className="go-deeper__count">
-                  {deeperCopy.balance(remaining)}
-                  {low ? ` ${deeperCopy.low}` : ''}
-                </p>
+              {accountBalance ? (
+                <>
+                  <p className="go-deeper__count">{deeperCopy.freeLeft(accountBalance.free_left)}</p>
+                  {accountBalance.codes_held > 0 && <p className="go-deeper__count">{deeperCopy.balance(accountBalance.code_tokens)}</p>}
+                </>
+              ) : (
+                <>
+                  {held && remaining !== null && (
+                    <p className="go-deeper__count">
+                      {deeperCopy.balance(remaining)}
+                      {low ? ` ${deeperCopy.low}` : ''}
+                    </p>
+                  )}
+                  {freeLeft !== null && (!held || freeLeft > 0) && <p className="go-deeper__count">{deeperCopy.freeLeft(freeLeft)}</p>}
+                </>
               )}
-              {freeLeft !== null && (!held || freeLeft > 0) && <p className="go-deeper__count">{deeperCopy.freeLeft(freeLeft)}</p>}
               <div className="go-deeper__actions">
                 <button type="button" onClick={getMore}>
                   {deeperCopy.getMore}

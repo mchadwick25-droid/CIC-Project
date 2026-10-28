@@ -1,0 +1,1102 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:fbac3ac0e8ae140203096c43aa78b6b0b121439670ffd3bedaaf81715f5c8683",
+  "package": "packages/lpc/2026-10-27T23-02-00Z",
+  "live_test": {
+    "name": "lpc go-live",
+    "cap_usd": 5.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.035532
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 2258,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 2096,
+      "output_tokens": 183,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live",
+      "input_tokens": 4508,
+      "output_tokens": 372,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24178
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "Your bishops covered for each other when one of them did real harm. Defend that.",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We did not cover for a bishop who harmed someone. We kept the office itself from depending on the man who held it, so that what it gave did not vanish when he fell.\n\nAugustine put the question plainly to a Donatist, through another man's voice. Someone had said to him: the traitor bishop who gave me baptism has condemned me. Augustine answered: “But He who is everywhere was there. He who is everywhere was there, the One in whose name I believed. You come from who knows where. No, you do not even come; you want me to come to you. You stay put here and tell me, ‘You were not baptized properly, because I was not there.’ Look at who was there.”\n\nThe One who gave it was there, and is everywhere.\n\nThis is the same conviction that traced the bishops' office back to the apostles by name. Augustine counted the line from Peter down to the present bishop of Rome, one name after another. Cyprian stated the principle underneath it: from Peter onward, the ordering of bishops through the changes of times and successions carries the Church itself forward.\n\nWhat we refused to let a failed bishop's sin destroy was the validity of what he had given before he fell. We did not say his failure did not matter. We said it did not unmake the font or the ordination he had performed. Scripture itself stood above every bishop. A bishop's own letter could be corrected, and a council could be corrected by a later, greater one. But we would not let one man's failure destroy what belonged to the office he no longer deserved to hold.",
+          "citations": [
+            {
+              "sentence": "Augustine answered: “But He who is everywhere was there. He who is everywhere was there, the One in whose name I believed. You come from who knows where. No, you do not even come; you want me to come to you. You stay put here and tell me, ‘You were not baptized properly, because I was not there.’ Look at who was there.”",
+              "record_ids": [
+                "lpc.quote.consider-who-was-there"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.consider-who-was-there",
+                  "record_type": "quote",
+                  "label": "Sermons on Selected Lessons of the New Testament, Sermon 79 — Augustine, our bishop at Hippo",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                      "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                      "author": null,
+                      "work": null,
+                      "locus": "Sermon 79 (NPNF numbering; Maurist 129), section 7; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 19722; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 50696-50701",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ],
+                  "spoken_rendering": "But He who is everywhere was there. He who is everywhere was there, the One in whose name I believed. You come from who knows where. No, you do not even come; you want me to come to you. You stay put here and tell me, ‘You were not baptized properly, because I was not there.’ Look at who was there.",
+                  "speaker": "Augustine, our bishop at Hippo"
+                }
+              ]
+            },
+            {
+              "sentence": "The One who gave it was there, and is everywhere.",
+              "record_ids": [
+                "lpc.witness.apostolic-succession-of-bishops"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.apostolic-succession-of-bishops",
+                  "record_type": "doctrinal_witness",
+                  "label": "Our bishops' office was traced back to the apostles by name",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-donatist-correspondence",
+                      "citation": "Augustine of Hippo, Letters to and about the Donatists, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter LIII SS2, to Generosus, the bishops of Rome named in unbroken succession from Peter to Anastasius -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 29696-29712",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-answer-to-petilian",
+                      "citation": "Augustine of Hippo, Answer to the Letters of Petilian, the Donatist, Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book II SS51, the chairs of Peter and of James named and who sits in them \"to-day\" -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, line 16912",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle XXVI (Oxford ed. Ep. xxxiii) SS1, \"through the changes of times and successions, the ordering of bishops and the plan of the Church flow onwards\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 31259",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LXVII SS5, ordaining a bishop in the presence of the people, \"the practice delivered from divine tradition and apostolic observance\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 37558",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "This is the same conviction that traced the bishops' office back to the apostles by name.",
+              "record_ids": [
+                "lpc.witness.apostolic-succession-of-bishops"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.apostolic-succession-of-bishops",
+                  "record_type": "doctrinal_witness",
+                  "label": "Our bishops' office was traced back to the apostles by name",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-donatist-correspondence",
+                      "citation": "Augustine of Hippo, Letters to and about the Donatists, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter LIII SS2, to Generosus, the bishops of Rome named in unbroken succession from Peter to Anastasius -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 29696-29712",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-answer-to-petilian",
+                      "citation": "Augustine of Hippo, Answer to the Letters of Petilian, the Donatist, Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book II SS51, the chairs of Peter and of James named and who sits in them \"to-day\" -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, line 16912",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle XXVI (Oxford ed. Ep. xxxiii) SS1, \"through the changes of times and successions, the ordering of bishops and the plan of the Church flow onwards\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 31259",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LXVII SS5, ordaining a bishop in the presence of the people, \"the practice delivered from divine tradition and apostolic observance\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 37558",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine counted the line from Peter down to the present bishop of Rome, one name after another.",
+              "record_ids": [
+                "lpc.witness.apostolic-succession-of-bishops"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.apostolic-succession-of-bishops",
+                  "record_type": "doctrinal_witness",
+                  "label": "Our bishops' office was traced back to the apostles by name",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-donatist-correspondence",
+                      "citation": "Augustine of Hippo, Letters to and about the Donatists, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter LIII SS2, to Generosus, the bishops of Rome named in unbroken succession from Peter to Anastasius -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 29696-29712",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-answer-to-petilian",
+                      "citation": "Augustine of Hippo, Answer to the Letters of Petilian, the Donatist, Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book II SS51, the chairs of Peter and of James named and who sits in them \"to-day\" -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, line 16912",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle XXVI (Oxford ed. Ep. xxxiii) SS1, \"through the changes of times and successions, the ordering of bishops and the plan of the Church flow onwards\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 31259",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LXVII SS5, ordaining a bishop in the presence of the people, \"the practice delivered from divine tradition and apostolic observance\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 37558",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Cyprian stated the principle underneath it: from Peter onward, the ordering of bishops through the changes of times and successions carries the Church itself forward.",
+              "record_ids": [
+                "lpc.witness.apostolic-succession-of-bishops"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.apostolic-succession-of-bishops",
+                  "record_type": "doctrinal_witness",
+                  "label": "Our bishops' office was traced back to the apostles by name",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-donatist-correspondence",
+                      "citation": "Augustine of Hippo, Letters to and about the Donatists, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                      "author": null,
+                      "work": null,
+                      "locus": "Letter LIII SS2, to Generosus, the bishops of Rome named in unbroken succession from Peter to Anastasius -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 29696-29712",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.augustine-answer-to-petilian",
+                      "citation": "Augustine of Hippo, Answer to the Letters of Petilian, the Donatist, Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book II SS51, the chairs of Peter and of James named and who sits in them \"to-day\" -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, line 16912",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle XXVI (Oxford ed. Ep. xxxiii) SS1, \"through the changes of times and successions, the ordering of bishops and the plan of the Church flow onwards\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 31259",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LXVII SS5, ordaining a bishop in the presence of the people, \"the practice delivered from divine tradition and apostolic observance\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 37558",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Scripture itself stood above every bishop.",
+              "record_ids": [
+                "lpc.witness.scripture-above-councils"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.scripture-above-councils",
+                  "record_type": "doctrinal_witness",
+                  "label": "Scripture stood above our bishops' own writings, but it was not our only authority",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book II, Chapter 3, SS4, the canon of scripture ranked above every later letter of a bishop and every council -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 11301-11310",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle 73, SS9, \"custom without truth is the antiquity of error\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 39328",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "A bishop's own letter could be corrected, and a council could be corrected by a later, greater one.",
+              "record_ids": [
+                "lpc.witness.scripture-above-councils"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.scripture-above-councils",
+                  "record_type": "doctrinal_witness",
+                  "label": "Scripture stood above our bishops' own writings, but it was not our only authority",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                      "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                      "author": null,
+                      "work": null,
+                      "locus": "Book II, Chapter 3, SS4, the canon of scripture ranked above every later letter of a bishop and every council -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 11301-11310",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle 73, SS9, \"custom without truth is the antiquity of error\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 39328",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 166,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                  "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                  "author": null,
+                  "work": null,
+                  "locus": "Sermon 79 (NPNF numbering; Maurist 129), section 7; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 19722; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 50696-50701",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.cyprian",
+              "matched_name": "Cyprian",
+              "text_start": 889,
+              "names": [
+                {
+                  "name": "Cyprian, our bishop at Carthage",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague he taught us to love even our enemies. He was put to death under Valerian.",
+              "dates": {
+                "display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised, as his deacon Pontius tells it; banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.augustine-donatist-correspondence",
+                  "citation": "Augustine of Hippo, Letters to and about the Donatists, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                  "author": null,
+                  "work": null,
+                  "locus": "Letter LIII SS2, to Generosus, the bishops of Rome named in unbroken succession from Peter to Anastasius -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 29696-29712",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.augustine-answer-to-petilian",
+                  "citation": "Augustine of Hippo, Answer to the Letters of Petilian, the Donatist, Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                  "author": null,
+                  "work": null,
+                  "locus": "Book II SS51, the chairs of Peter and of James named and who sits in them \"to-day\" -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, line 16912",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Epistle XXVI (Oxford ed. Ep. xxxiii) SS1, \"through the changes of times and successions, the ordering of bishops and the plan of the Church flow onwards\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 31259",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Epistle LXVII SS5, ordaining a bishop in the presence of the people, \"the practice delivered from divine tradition and apostolic observance\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 37558",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "kind": "why",
+          "offered_ids": {
+            "honest_limit": [
+              "lpc.limit.the-lapsed-own-account"
+            ],
+            "doctrinal_witness": [
+              "lpc.witness.apostolic-succession-of-bishops",
+              "lpc.witness.scripture-above-councils",
+              "lpc.witness.confessor-claim-vs-regulated-peace"
+            ],
+            "term": [
+              "lpc.term.compel-them-to-come-in",
+              "lpc.term.confessor"
+            ],
+            "story": [
+              "lpc.story.election-of-cyprian",
+              "lpc.story.celerinus-writes-to-lucian"
+            ],
+            "quote": [
+              "lpc.quote.bishop-of-bishops",
+              "lpc.quote.he-covered-his-eyes-with-his-own-hand",
+              "lpc.quote.consider-who-was-there",
+              "lpc.quote.such-a-one-with-his-friends"
+            ],
+            "gravity": [
+              "lpc.gravity.collegial-communion-preserved",
+              "lpc.gravity.sacramental-ordination-validity"
+            ],
+            "force": [
+              "lpc.force.confessors-claim-to-grant-peace"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We did not cover for a bishop who harmed someone.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (figure-name:['bishop']) with no citation tag",
+                "draft": "We did not cover for a bishop who harmed someone."
+              },
+              {
+                "sentence": "We kept the office itself from depending on the man who held it, so that what it gave did not vanish when he fell.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We kept the office itself from depending on the man who held it, so that what it gave did not vanish when he fell."
+              },
+              {
+                "sentence": "Augustine put the question plainly to a Donatist, through another man's voice.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['donatist']) with no citation tag",
+                "draft": "Augustine put the question plainly to a Donatist, through another man's voice."
+              },
+              {
+                "sentence": "Someone had said to him: the traitor bishop who gave me baptism has condemned me.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (figure-name:['bishop']) with no citation tag",
+                "draft": "Someone had said to him: the traitor bishop who gave me baptism has condemned me."
+              },
+              {
+                "sentence": "Augustine answered: “But He who is everywhere was there. He who is everywhere was there, the One in whose name I believed. You come from who knows where. No, you do not even come; you want me to come to you. You stay put here and tell me, ‘You were not baptized properly, because I was not there.’ Look at who was there.”",
+                "tags": [
+                  "lpc.quote.consider-who-was-there"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.consider-who-was-there",
+                "draft": "Augustine answered: [[quote:lpc.quote.consider-who-was-there]]"
+              },
+              {
+                "sentence": "The One who gave it was there, and is everywhere.",
+                "tags": [
+                  "lpc.witness.apostolic-succession-of-bishops"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "The One who gave it was there, and is everywhere [[lpc.witness.apostolic-succession-of-bishops]]."
+              },
+              {
+                "sentence": "This is the same conviction that traced the bishops' office back to the apostles by name.",
+                "tags": [
+                  "lpc.witness.apostolic-succession-of-bishops"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "This is the same conviction that traced the bishops' office back to the apostles by name [[lpc.witness.apostolic-succession-of-bishops]]."
+              },
+              {
+                "sentence": "Augustine counted the line from Peter down to the present bishop of Rome, one name after another.",
+                "tags": [
+                  "lpc.witness.apostolic-succession-of-bishops"
+                ],
+                "verdict": "ok",
+                "why": "grounded 89% in own tagged records",
+                "ratio": 0.89,
+                "draft": "Augustine counted the line from Peter down to the present bishop of Rome, one name after another [[lpc.witness.apostolic-succession-of-bishops]]."
+              },
+              {
+                "sentence": "Cyprian stated the principle underneath it: from Peter onward, the ordering of bishops through the changes of times and successions carries the Church itself forward.",
+                "tags": [
+                  "lpc.witness.apostolic-succession-of-bishops"
+                ],
+                "verdict": "ok",
+                "why": "grounded 93% in own tagged records",
+                "ratio": 0.93,
+                "draft": "Cyprian stated the principle underneath it: from Peter onward, the ordering of bishops through the changes of times and successions carries the Church itself forward [[lpc.witness.apostolic-succession-of-bishops]]."
+              },
+              {
+                "sentence": "What we refused to let a failed bishop's sin destroy was the validity of what he had given before he fell.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (figure-name:[\"bishop's\"]) with no citation tag",
+                "draft": "What we refused to let a failed bishop's sin destroy was the validity of what he had given before he fell."
+              },
+              {
+                "sentence": "We did not say his failure did not matter.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We did not say his failure did not matter."
+              },
+              {
+                "sentence": "We said it did not unmake the font or the ordination he had performed.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We said it did not unmake the font or the ordination he had performed."
+              },
+              {
+                "sentence": "Scripture itself stood above every bishop.",
+                "tags": [
+                  "lpc.witness.scripture-above-councils"
+                ],
+                "verdict": "ok",
+                "why": "grounded 83% in own tagged records",
+                "ratio": 0.83,
+                "draft": "Scripture itself stood above every bishop [[lpc.witness.scripture-above-councils]]."
+              },
+              {
+                "sentence": "A bishop's own letter could be corrected, and a council could be corrected by a later, greater one.",
+                "tags": [
+                  "lpc.witness.scripture-above-councils"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "A bishop's own letter could be corrected, and a council could be corrected by a later, greater one [[lpc.witness.scripture-above-councils]]."
+              },
+              {
+                "sentence": "But we would not let one man's failure destroy what belonged to the office he no longer deserved to hold.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "But we would not let one man's failure destroy what belonged to the office he no longer deserved to hold."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 2,
+                "cited_record_ids": [],
+                "wholly_uncited": true,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              },
+              {
+                "sentence_count": 3,
+                "cited_record_ids": [
+                  "lpc.quote.consider-who-was-there"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "Augustine put the question plainly to a Donatist, through another man's voice.",
+                    "tags": [
+                      "lpc.quote.consider-who-was-there"
+                    ],
+                    "verdict": "withhold",
+                    "why": "quote record's speaker named without its placed quote"
+                  },
+                  "1": {
+                    "sentence": "Someone had said to him: the traitor bishop who gave me baptism has condemned me.",
+                    "tags": [
+                      "lpc.quote.consider-who-was-there"
+                    ],
+                    "verdict": "withhold",
+                    "why": "specific claim (figure-name:['bishop']) only 0% grounded in its own tags",
+                    "ratio": 0.0
+                  }
+                }
+              },
+              {
+                "sentence_count": 1,
+                "cited_record_ids": [
+                  "lpc.witness.apostolic-succession-of-bishops"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              },
+              {
+                "sentence_count": 3,
+                "cited_record_ids": [
+                  "lpc.witness.apostolic-succession-of-bishops"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              },
+              {
+                "sentence_count": 6,
+                "cited_record_ids": [
+                  "lpc.witness.scripture-above-councils"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "What we refused to let a failed bishop's sin destroy was the validity of what he had given before he fell.",
+                    "tags": [
+                      "lpc.witness.scripture-above-councils"
+                    ],
+                    "verdict": "withhold",
+                    "why": "specific claim (figure-name:[\"bishop's\"]) only 12% grounded in its own tags",
+                    "ratio": 0.12
+                  },
+                  "1": {
+                    "sentence": "We did not say his failure did not matter.",
+                    "tags": [
+                      "lpc.witness.scripture-above-councils"
+                    ],
+                    "verdict": "withhold",
+                    "why": "tagged claim sharing no content word with its own tagged records"
+                  },
+                  "2": {
+                    "sentence": "We said it did not unmake the font or the ordination he had performed.",
+                    "tags": [
+                      "lpc.witness.scripture-above-councils"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "5": {
+                    "sentence": "But we would not let one man's failure destroy what belonged to the office he no longer deserved to hold.",
+                    "tags": [
+                      "lpc.witness.scripture-above-councils"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.consider-who-was-there"
+              ],
+              "removed": []
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 49
+              },
+              {
+                "index": 1,
+                "text_start": 50,
+                "text_end": 164
+              },
+              {
+                "index": 2,
+                "text_start": 166,
+                "text_end": 244
+              },
+              {
+                "index": 3,
+                "text_start": 245,
+                "text_end": 326
+              },
+              {
+                "index": 4,
+                "text_start": 327,
+                "text_end": 648
+              },
+              {
+                "index": 5,
+                "text_start": 650,
+                "text_end": 699
+              },
+              {
+                "index": 6,
+                "text_start": 701,
+                "text_end": 790
+              },
+              {
+                "index": 7,
+                "text_start": 791,
+                "text_end": 888
+              },
+              {
+                "index": 8,
+                "text_start": 889,
+                "text_end": 1055
+              },
+              {
+                "index": 9,
+                "text_start": 1057,
+                "text_end": 1163
+              },
+              {
+                "index": 10,
+                "text_start": 1164,
+                "text_end": 1206
+              },
+              {
+                "index": 11,
+                "text_start": 1207,
+                "text_end": 1277
+              },
+              {
+                "index": 12,
+                "text_start": 1278,
+                "text_end": 1320
+              },
+              {
+                "index": 13,
+                "text_start": 1321,
+                "text_end": 1420
+              },
+              {
+                "index": 14,
+                "text_start": 1421,
+                "text_end": 1526
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 2,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              },
+              {
+                "record_id": "lpc.quote.consider-who-was-there",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 4,
+                "char_start": 20,
+                "char_end": 321,
+                "surface": "“But He who is everywhere was there. He who is everywhere was there, the One in whose name I believed. You come from who knows where. No, you do not even come; you want me to come to you. You stay put here and tell me, ‘You were not baptized properly, because I was not there.’ Look at who was there.”"
+              },
+              {
+                "record_id": "lpc.figure.cyprian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 8,
+                "char_start": 0,
+                "char_end": 7,
+                "surface": "Cyprian"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.quote.consider-who-was-there",
+                "record_type": "quote",
+                "label": "Sermons on Selected Lessons of the New Testament, Sermon 79 — Augustine, our bishop at Hippo",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-sermons-on-selected-lessons",
+                    "citation": "Augustine of Hippo, Sermons on Selected Lessons of the New Testament, Nicene and Post-Nicene Fathers, Series I, vol. VI",
+                    "author": null,
+                    "work": null,
+                    "locus": "Sermon 79 (NPNF numbering; Maurist 129), section 7; English at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 19722; Latin at cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt, lines 50696-50701",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "spoken_rendering": "But He who is everywhere was there. He who is everywhere was there, the One in whose name I believed. You come from who knows where. No, you do not even come; you want me to come to you. You stay put here and tell me, ‘You were not baptized properly, because I was not there.’ Look at who was there.",
+                "speaker": "Augustine, our bishop at Hippo",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.witness.apostolic-succession-of-bishops",
+                "record_type": "doctrinal_witness",
+                "label": "Our bishops' office was traced back to the apostles by name",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-donatist-correspondence",
+                    "citation": "Augustine of Hippo, Letters to and about the Donatists, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "Letter LIII SS2, to Generosus, the bishops of Rome named in unbroken succession from Peter to Anastasius -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 29696-29712",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-answer-to-petilian",
+                    "citation": "Augustine of Hippo, Answer to the Letters of Petilian, the Donatist, Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "Book II SS51, the chairs of Peter and of James named and who sits in them \"to-day\" -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, line 16912",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle XXVI (Oxford ed. Ep. xxxiii) SS1, \"through the changes of times and successions, the ordering of bishops and the plan of the Church flow onwards\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 31259",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LXVII SS5, ordaining a bishop in the presence of the people, \"the practice delivered from divine tradition and apostolic observance\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 37558",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.witness.scripture-above-councils",
+                "record_type": "doctrinal_witness",
+                "label": "Scripture stood above our bishops' own writings, but it was not our only authority",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "Book II, Chapter 3, SS4, the canon of scripture ranked above every later letter of a bishop and every council -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 11301-11310",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle 73, SS9, \"custom without truth is the antiquity of error\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 39328",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.witness.apostolic-succession-of-bishops",
+                "record_type": "doctrinal_witness",
+                "label": "Our bishops' office was traced back to the apostles by name",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-donatist-correspondence",
+                    "citation": "Augustine of Hippo, Letters to and about the Donatists, in Nicene and Post-Nicene Fathers, Series I, vol. I",
+                    "author": null,
+                    "work": null,
+                    "locus": "Letter LIII SS2, to Generosus, the bishops of Rome named in unbroken succession from Peter to Anastasius -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 29696-29712",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.augustine-answer-to-petilian",
+                    "citation": "Augustine of Hippo, Answer to the Letters of Petilian, the Donatist, Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "Book II SS51, the chairs of Peter and of James named and who sits in them \"to-day\" -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, line 16912",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle XXVI (Oxford ed. Ep. xxxiii) SS1, \"through the changes of times and successions, the ordering of bishops and the plan of the Church flow onwards\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 31259",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LXVII SS5, ordaining a bishop in the presence of the people, \"the practice delivered from divine tradition and apostolic observance\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 37558",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.witness.scripture-above-councils",
+                "record_type": "doctrinal_witness",
+                "label": "Scripture stood above our bishops' own writings, but it was not our only authority",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-on-baptism-against-the-donatists",
+                    "citation": "Augustine of Hippo, On Baptism, Against the Donatists (7 books, c. 400), Nicene and Post-Nicene Fathers, Series I, vol. IV",
+                    "author": null,
+                    "work": null,
+                    "locus": "Book II, Chapter 3, SS4, the canon of scripture ranked above every later letter of a bishop and every council -- verified directly against cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, lines 11301-11310",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle 73, SS9, \"custom without truth is the antiquity of error\" -- verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 39328",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 4,
+              "sentence_indexes": [
+                0,
+                2,
+                3,
+                9
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.consider-who-was-there"
+            ],
+            "removed": []
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

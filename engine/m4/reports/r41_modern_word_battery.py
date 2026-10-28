@@ -19,7 +19,7 @@ code changed - so routing falls through to the voice exactly as the R41
 build would make it. The safety and reader gate calls still run for
 real. The real (unpatched) registered set is recorded per probe.
 
-PROBES. 11 real worlds (not fix). Per world, two test probes carrying a
+PROBES. 12 real worlds (not fix). Per world, two test probes carrying a
 modern word, and one in-window control using a word from that world's
 own term records (world_word), which the voice should use plainly, not
 treat as the participant's foreign word. Each test word's only claim
@@ -39,8 +39,8 @@ flag it AND at least one quoted evidence span appears verbatim in the
 reply; a split vote, or a flag whose evidence is not verbatim, is
 reported as unsettled for a human read - never scored by the model.
 
-COST. 33 live voice turns (each = safety + reader + voice, Haiku/Sonnet
-priced as in engine.m8.live_cost_run) plus 66 grader calls. The run
+COST. 36 live voice turns (each = safety + reader + voice, Haiku/Sonnet
+priced as in engine.m8.live_cost_run) plus 72 grader calls. The run
 aborts before the next probe once the running total passes COST_CAP.
 
 Run: python3 -m engine.m4.reports.r41_modern_word_battery --region us-east-1
@@ -104,6 +104,7 @@ TEST_PROBES = {
     "don": ["papal infallibility", "sola scriptura"],
     "gallic": ["papal infallibility", "Protestant"],
     "hal": ["sola scriptura", "liberation theology"],
+    "lpc": ["papal infallibility", "sola scriptura"],
     "ijc": ["papal infallibility", "Protestant"],
     "pahc": ["Trinity", "sola scriptura"],
     "syr": ["Protestant", "liberation theology"],
@@ -121,6 +122,7 @@ CONTROL_PROBES = {
     "gallic": ("gallic.term.anchorite-hermit", "anchorite"),
     "hal": ("hal.term.hebraica-veritas", "Hebraica veritas"),
     "ijc": ("ijc.term.homoousios", "homoousios"),
+    "lpc": ("lpc.term.libelli", "libelli"),
     "pahc": ("pahc.term.episkopos", "episkopos"),
     "syr": ("syr.term.madrasha", "madrasha"),
     "rzg": ("rzg.term.consistory", "Consistory"),

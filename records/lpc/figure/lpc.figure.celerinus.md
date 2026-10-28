@@ -26,7 +26,7 @@ names:
 dates:
   display: a confessor -- imprisoned under persecution and did not deny Christ; wrote to Lucian, a fellow
     confessor in prison, asking that his own sister and two other women be received back to communion
-    (Ep. XX; lpc.story.celerinus-writes-to-lucian)
+    (Ep. XX)
 narratable: true
 bridge_line: A confessor who wrote to another confessor in prison. He wept for his sister, who had sacrificed,
   and asked him to help restore her.

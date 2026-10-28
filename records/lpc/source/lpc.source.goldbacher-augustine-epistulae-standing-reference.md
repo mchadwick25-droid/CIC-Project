@@ -24,6 +24,8 @@ work: 'S. Aureli Augustini Hipponiensis episcopi Epistulae, CSEL 34/1 (1895), 34
 edition: Pars I-IV are vendored (rows 193, 195, 196). Only Pars V (CSEL 58, praefatio and indices, no
   letter text of its own) is not held. This row is the standing reference for the full five-part edition;
   rows 193, 195, and 196 carry the vendored files.
+citation: 'Augustine of Hippo, Epistulae, ed. Alois Goldbacher, CSEL 34/1 (1895), 34/2 (1898), 44 (1904), 57 (1911), 58 (1923) (Vindobonae: F. Tempsky)'
+kind: unvendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
   check (Source_Acquisition_Manifest.md SS1).

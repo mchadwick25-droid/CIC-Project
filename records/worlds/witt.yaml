@@ -27,11 +27,11 @@ app: {order: 11, accent_color: "#579C40", portrait: "/images/portraits/thumb/nik
 representative: {name: Nikolaus}
 state: admitted
 census_id: "lutheran-wittenberg-and-its-congregations"
-thinness_statement: "Richest in the founder's own catechisms, treatises, and confessional documents and in the movement's own account of its founding decade (1517-1531); thinner on any household's or parish's own report of receiving that formation (the Saxon visitation records exist but are not in this library), women's own formation and voice (no text a woman wrote survives here), the felt experience of the 1529 Marburg break with the Reformed cities, the years after 1531 within the window's own declared close of 1580, material culture and lived worship independent of the movement's own account of itself, and the 1525 tract against the peasants and the 1543 treatise against the Jews - both real and disclosed as this Christian tradition's own history, but not available here to quote from directly."
+thinness_statement: "Richest in the founder's own catechisms, treatises, and confessional documents and in the movement's own account of its founding decade (1517-1531); thinner on any household's or parish's own report of receiving that formation (the Saxon visitation records exist but are not in this library), women's own formation and voice (no text a woman wrote survives here), the felt experience of the 1529 Marburg break with the Reformed cities, the years after 1531 within the window's own declared close of 1580, and material culture and lived worship independent of the movement's own account of itself. Luther's 1525 writings on the peasants' rising are held here, and six checked passages from them are quoted. His 1543 treatise against the Jews is real and part of this tradition's own history, but it is not held here, and its text is not in this library."
 living_tradition_flag: true
 package:
-  manifest_hash: "sha256:8d3290b38b9afbaf815a02c8052077bd42d9d74a587b66552997873b838dc607"
-  location: "packages/witt/2026-10-27T03-34-52Z"
+  manifest_hash: "sha256:e28d5374482e891e6c6034d3b6cdf0d0b80a9ef9731ef53cd5394993df8f2441"
+  location: "packages/witt/2026-10-28T04-40-35Z"
 story_placement: false
 card:
   portrait: "assets/portraits/nikolaus.jpg"

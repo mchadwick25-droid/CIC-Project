@@ -7,7 +7,9 @@ voice's tagged text after the markdown scrub and before the grounding net,
 and returns tagged text the net checks:
 
 - a valid marker becomes the lead-in the voice wrote, then the record's
-  `modern_rendering` in curly quotation marks, then the record's ordinary
+  `modern_rendering` in curly quotation marks (a rendering already wrapped
+  in a pair of them is set without that pair, and a quotation inside one takes
+  single marks: grounding_net.quotable_rendering), then the record's ordinary
   citation tag, and the quote ends its paragraph. The lead-in's closing
   punctuation becomes a colon; a marker standing alone takes the sentence
   before it as its lead-in; words after the marker in its sentence are cut.
@@ -38,6 +40,7 @@ from engine.m4.grounding_net import (
     QuotationIndex,
     placed_key,
     placed_quote_refusal,
+    quotable_rendering,
     quoted_span_positions,
     reads_as_lead,
     strip_tags,
@@ -148,7 +151,7 @@ def place_quotes(
                     if not lead:
                         lead = _take_lead_in(kept, paragraphs_out, sealed)
                         drafted = f"{lead} {drafted}".strip()
-                    rendering = record["modern_rendering"]
+                    rendering = quotable_rendering(record)
                     composed = f"{_lead_for_quote(lead)} “{rendering}” [[{record['id']}]]".strip()
                     if not _settable(composed, rendering):
                         reason, composed = REASON_NOT_SETTABLE, None

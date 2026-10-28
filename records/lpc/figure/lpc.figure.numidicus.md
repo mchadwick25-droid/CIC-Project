@@ -27,7 +27,7 @@ dates:
   display: exhorted a group of Christians to martyrdom under persecution, among them his own wife, who
     died with them; himself left half-consumed by fire and overwhelmed with stones, found half dead by
     his own daughter and revived; added by Cyprian afterward to the presbyters of Carthage, though he
-    had not wanted to survive (Cyprian, Ep. XXXIV; lpc.story.numidicus)
+    had not wanted to survive (Cyprian, Ep. XXXIV)
 narratable: true
 bridge_line: a man who watched his own wife die with those he had exhorted to martyrdom, was himself left
   for dead, and did not want to have survived

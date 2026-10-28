@@ -1,0 +1,698 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:40bfaf337de153a46dd78d6abb7011074545c70db13a9f17b96b480e300b5d92",
+  "package": "packages/lpc/2026-10-28T03-27-41Z",
+  "live_test": {
+    "name": "lpc go-live 3",
+    "cap_usd": 4.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.021822
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 2249,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 2087,
+      "output_tokens": 176,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live 3",
+      "input_tokens": 704,
+      "output_tokens": 304,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 24251
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "Why do you keep saying \"we\"?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "Because the life we speak of was lived as one body, under one shepherd, answerable for one another. When the imperial order came down, some bought the paper without making the sacrifice. Cyprian said their hands were clean but their conscience was not. That was not one person's private trouble. It was a wound in the body, and a bishop carried it as his own. When Cyprian himself was sentenced, the record tells what happened next. The Acta Proconsularia of Cyprian records: “After this sentence the crowd of the brothers kept saying, ‘Let us be beheaded with him too.’ Because of this an uproar rose among the brothers, and a large crowd followed him.”\n\nThey did not watch a stranger die for an idea. They saw their own shepherd taken, and they were his flock. We say we because that is what we were. Augustine told his own people the same thing in a different way, teaching them to pray. What you do, God does in you. That is not the voice of an isolated believer standing alone before God. It is a body that moves together, under one head. We say we because there was no other word for what held us.",
+          "citations": [
+            {
+              "sentence": "When the imperial order came down, some bought the paper without making the sacrifice.",
+              "record_ids": [
+                "lpc.term.libelli"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.libelli",
+                  "record_type": "term",
+                  "label": "libelli",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Lapsis 27 -- 'libellis tamen conscientiam miscuerunt' (defiled their conscience with certificates); De Lapsis 28 -- 'nullo sacrificii aut libelli facinore constricti' (bound by no crime of sacrifice or of certificate)",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LI (to Antonianus) 13 and 14 -- those who receive certificates are not to be put on a par with those who have sacrificed; the plea of one who obtained a certificate and paid a price for it",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Cyprian said their hands were clean but their conscience was not.",
+              "record_ids": [
+                "lpc.term.libelli"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.term.libelli",
+                  "record_type": "term",
+                  "label": "libelli",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.cyprian-de-lapsis",
+                      "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "De Lapsis 27 -- 'libellis tamen conscientiam miscuerunt' (defiled their conscience with certificates); De Lapsis 28 -- 'nullo sacrificii aut libelli facinore constricti' (bound by no crime of sacrifice or of certificate)",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.cyprian-epistles",
+                      "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                      "author": null,
+                      "work": null,
+                      "locus": "Epistle LI (to Antonianus) 13 and 14 -- those who receive certificates are not to be put on a par with those who have sacrificed; the plea of one who obtained a certificate and paid a price for it",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The Acta Proconsularia of Cyprian records: “After this sentence the crowd of the brothers kept saying, ‘Let us be beheaded with him too.’ Because of this an uproar rose among the brothers, and a large crowd followed him.”",
+              "record_ids": [
+                "lpc.quote.let-us-too-be-beheaded-with-him"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.quote.let-us-too-be-beheaded-with-him",
+                  "record_type": "quote",
+                  "label": "Acta Proconsularia Sancti Cypriani, Acta Proconsularia 5.1 — The Acta Proconsularia of Cyprian",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.acta-proconsularia-sancti-cypriani",
+                      "citation": "Acta Proconsularia Sancti Cypriani, the official record of the trial and martyrdom of Cyprian (258), in W. Hartel (ed.), Opera Spuria, Vita Pontii and Acta Proconsularia, CSEL 3 pt. 3 (Vienna, 1871)",
+                      "author": null,
+                      "work": null,
+                      "locus": "Acta Proconsularia 5.1; Latin at cic/texts/gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt, lines 6628-6631; the same text in cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt, lines 4913-4917, and cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines 41581-41583",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ],
+                  "spoken_rendering": "After this sentence the crowd of the brothers kept saying, “Let us be beheaded with him too.” Because of this an uproar rose among the brothers, and a large crowd followed him.",
+                  "speaker": "The Acta Proconsularia of Cyprian"
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [
+            {
+              "id": "lpc.figure.cyprian",
+              "matched_name": "Cyprian",
+              "text_start": 187,
+              "names": [
+                {
+                  "name": "Cyprian, our bishop at Carthage",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Thascius Caecilius Cyprianus, bishop of Carthage (248/249-258)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop, chosen while still new to the faith, over his own reluctance. During a plague he taught us to love even our enemies. He was put to death under Valerian.",
+              "dates": {
+                "display": "a trained rhetorician who turned from a public career to Christian life, converted c. 246; ordained and elected bishop of Carthage between roughly July 248 and April 249 by the acclamation of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised, as his deacon Pontius tells it; banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "lpc.source.cyprian-de-lapsis",
+                  "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "De Lapsis 27 -- 'libellis tamen conscientiam miscuerunt' (defiled their conscience with certificates); De Lapsis 28 -- 'nullo sacrificii aut libelli facinore constricti' (bound by no crime of sacrifice or of certificate)",
+                  "rights_status": null,
+                  "edition": null
+                },
+                {
+                  "source_id": "lpc.source.cyprian-epistles",
+                  "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                  "author": null,
+                  "work": null,
+                  "locus": "Epistle LI (to Antonianus) 13 and 14 -- those who receive certificates are not to be put on a par with those who have sacrificed; the plea of one who obtained a certificate and paid a price for it",
+                  "rights_status": null,
+                  "edition": null
+                }
+              ]
+            },
+            {
+              "id": "lpc.figure.augustine",
+              "matched_name": "Augustine",
+              "text_start": 803,
+              "names": [
+                {
+                  "name": "Augustine, our bishop at Hippo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Augustinius of Hippo Regius, presbyter 391, bishop 395/396-430",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Our bishop at Hippo. The people seized him and brought him to be made a presbyter while he wept. Later they pressed him into the bishop's office over his own refusal. He spent his last days weeping over psalms of penitence, while an army lay outside the walls.",
+              "dates": {
+                "display": "converted 386, baptised 387; seized by the congregation at Hippo and ordained presbyter against his own wishes in 391, weeping through it (Possidius, Vita IV); designated coadjutor and consecrated bishop of Hippo by Megalius, primate of Numidia, in 395/396, again amid popular acclamation (Possidius, Vita VIII); died 430, during the Vandal siege of Hippo"
+              },
+              "sourced_by": []
+            }
+          ],
+          "quote_offers": [],
+          "kind": "why",
+          "offered_ids": {
+            "quote": [
+              "lpc.quote.let-us-too-be-beheaded-with-him",
+              "lpc.quote.what-is-done-by-you-he-does-in-you"
+            ],
+            "term": [
+              "lpc.term.libelli"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "Because the life we speak of was lived as one body, under one shepherd, answerable for one another.",
+                "tags": [
+                  "lpc.term.libelli"
+                ],
+                "verdict": "withhold",
+                "why": "tagged claim sharing no content word with its own tagged records",
+                "draft": "Because the life we speak of was lived as one body, under one shepherd, answerable for one another [[lpc.term.libelli]]."
+              },
+              {
+                "sentence": "When the imperial order came down, some bought the paper without making the sacrifice.",
+                "tags": [
+                  "lpc.term.libelli"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "When the imperial order came down, some bought the paper without making the sacrifice [[lpc.term.libelli]]."
+              },
+              {
+                "sentence": "Cyprian said their hands were clean but their conscience was not.",
+                "tags": [
+                  "lpc.term.libelli"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "Cyprian said their hands were clean but their conscience was not [[lpc.term.libelli]]."
+              },
+              {
+                "sentence": "That was not one person's private trouble.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "That was not one person's private trouble."
+              },
+              {
+                "sentence": "It was a wound in the body, and a bishop carried it as his own.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (figure-name:['bishop']) with no citation tag",
+                "draft": "It was a wound in the body, and a bishop carried it as his own."
+              },
+              {
+                "sentence": "When Cyprian himself was sentenced, the record tells what happened next.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['cyprian']) with no citation tag",
+                "draft": "When Cyprian himself was sentenced, the record tells what happened next."
+              },
+              {
+                "sentence": "The Acta Proconsularia of Cyprian records: “After this sentence the crowd of the brothers kept saying, ‘Let us be beheaded with him too.’ Because of this an uproar rose among the brothers, and a large crowd followed him.”",
+                "tags": [
+                  "lpc.quote.let-us-too-be-beheaded-with-him"
+                ],
+                "verdict": "ok",
+                "why": "quote placed by code, verbatim to its record",
+                "placed_quote": "lpc.quote.let-us-too-be-beheaded-with-him",
+                "draft": "The Acta Proconsularia of Cyprian records: [[quote:lpc.quote.let-us-too-be-beheaded-with-him]]"
+              },
+              {
+                "sentence": "They did not watch a stranger die for an idea.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "They did not watch a stranger die for an idea."
+              },
+              {
+                "sentence": "They saw their own shepherd taken, and they were his flock.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "They saw their own shepherd taken, and they were his flock."
+              },
+              {
+                "sentence": "We say we because that is what we were.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We say we because that is what we were."
+              },
+              {
+                "sentence": "Augustine told his own people the same thing in a different way, teaching them to pray.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "Augustine told his own people the same thing in a different way, teaching them to pray."
+              },
+              {
+                "sentence": "What you do, God does in you.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "What you do, God does in you."
+              },
+              {
+                "sentence": "That is not the voice of an isolated believer standing alone before God.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "That is not the voice of an isolated believer standing alone before God."
+              },
+              {
+                "sentence": "It is a body that moves together, under one head.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "It is a body that moves together, under one head."
+              },
+              {
+                "sentence": "We say we because there was no other word for what held us.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We say we because there was no other word for what held us."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 7,
+                "cited_record_ids": [
+                  "lpc.quote.let-us-too-be-beheaded-with-him",
+                  "lpc.term.libelli"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "3": {
+                    "sentence": "That was not one person's private trouble.",
+                    "tags": [
+                      "lpc.quote.let-us-too-be-beheaded-with-him",
+                      "lpc.term.libelli"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "4": {
+                    "sentence": "It was a wound in the body, and a bishop carried it as his own.",
+                    "tags": [
+                      "lpc.quote.let-us-too-be-beheaded-with-him",
+                      "lpc.term.libelli"
+                    ],
+                    "verdict": "withhold",
+                    "why": "specific claim (figure-name:['bishop']) only 25% grounded in its own tags",
+                    "ratio": 0.25
+                  },
+                  "5": {
+                    "sentence": "When Cyprian himself was sentenced, the record tells what happened next.",
+                    "tags": [
+                      "lpc.quote.let-us-too-be-beheaded-with-him",
+                      "lpc.term.libelli"
+                    ],
+                    "verdict": "withhold",
+                    "why": "quote record's speaker named without its placed quote"
+                  }
+                }
+              },
+              {
+                "sentence_count": 8,
+                "cited_record_ids": [],
+                "wholly_uncited": true,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {}
+              }
+            ],
+            "reply_shape": {
+              "placed": [
+                "lpc.quote.let-us-too-be-beheaded-with-him"
+              ],
+              "removed": [
+                {
+                  "sentence": "Augustine, our bishop at Hippo, explains:",
+                  "why": "second placed quote in one reply",
+                  "draft": "Augustine, our bishop at Hippo, explains: [[quote:lpc.quote.what-is-done-by-you-he-does-in-you]]"
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 99
+              },
+              {
+                "index": 1,
+                "text_start": 100,
+                "text_end": 186
+              },
+              {
+                "index": 2,
+                "text_start": 187,
+                "text_end": 252
+              },
+              {
+                "index": 3,
+                "text_start": 253,
+                "text_end": 295
+              },
+              {
+                "index": 4,
+                "text_start": 296,
+                "text_end": 359
+              },
+              {
+                "index": 5,
+                "text_start": 360,
+                "text_end": 432
+              },
+              {
+                "index": 6,
+                "text_start": 433,
+                "text_end": 654
+              },
+              {
+                "index": 7,
+                "text_start": 656,
+                "text_end": 702
+              },
+              {
+                "index": 8,
+                "text_start": 703,
+                "text_end": 762
+              },
+              {
+                "index": 9,
+                "text_start": 763,
+                "text_end": 802
+              },
+              {
+                "index": 10,
+                "text_start": 803,
+                "text_end": 890
+              },
+              {
+                "index": 11,
+                "text_start": 891,
+                "text_end": 920
+              },
+              {
+                "index": 12,
+                "text_start": 921,
+                "text_end": 993
+              },
+              {
+                "index": 13,
+                "text_start": 994,
+                "text_end": 1043
+              },
+              {
+                "index": 14,
+                "text_start": 1044,
+                "text_end": 1103
+              }
+            ],
+            "elements": [
+              {
+                "record_id": "lpc.figure.cyprian",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 2,
+                "char_start": 0,
+                "char_end": 7,
+                "surface": "Cyprian"
+              },
+              {
+                "record_id": "lpc.quote.let-us-too-be-beheaded-with-him",
+                "record_type": "quote",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the Latin of Gebhardt's edition (1902), the vendored witness that reads cleanly here. modern_rendering is a translation of the Latin; the Acta has no English in this world's vendored texts.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "quote",
+                "sentence_index": 6,
+                "char_start": 43,
+                "char_end": 221,
+                "surface": "“After this sentence the crowd of the brothers kept saying, ‘Let us be beheaded with him too.’ Because of this an uproar rose among the brothers, and a large crowd followed him.”"
+              },
+              {
+                "record_id": "lpc.figure.augustine",
+                "record_type": "figure",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                },
+                "repeat": false,
+                "kind": "figure",
+                "sentence_index": 10,
+                "char_start": 0,
+                "char_end": 9,
+                "surface": "Augustine"
+              }
+            ],
+            "references": [
+              {
+                "record_id": "lpc.term.libelli",
+                "record_type": "term",
+                "label": "libelli",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Lapsis 27 -- 'libellis tamen conscientiam miscuerunt' (defiled their conscience with certificates); De Lapsis 28 -- 'nullo sacrificii aut libelli facinore constricti' (bound by no crime of sacrifice or of certificate)",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LI (to Antonianus) 13 and 14 -- those who receive certificates are not to be put on a par with those who have sacrificed; the plea of one who obtained a certificate and paid a price for it",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Cyprian uses the word himself, in De Lapsis and in his letter to Antonianus. The English translation renders libelli as certificates, so the Latin headword is absent from the vendored English volume apart from one occurrence in the Introductory Notice to the anonymous treatise against Novatian. The Latin witnesses carry it. Latin libellus in Cyprian also names the martyrs' petitions, so the split between this term and lpc.term.certificates-letters-of-peace separates the English word and is not a distinction the Latin makes.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.quote.let-us-too-be-beheaded-with-him",
+                "record_type": "quote",
+                "label": "Acta Proconsularia Sancti Cypriani, Acta Proconsularia 5.1 — The Acta Proconsularia of Cyprian",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.acta-proconsularia-sancti-cypriani",
+                    "citation": "Acta Proconsularia Sancti Cypriani, the official record of the trial and martyrdom of Cyprian (258), in W. Hartel (ed.), Opera Spuria, Vita Pontii and Acta Proconsularia, CSEL 3 pt. 3 (Vienna, 1871)",
+                    "author": null,
+                    "work": null,
+                    "locus": "Acta Proconsularia 5.1; Latin at cic/texts/gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt, lines 6628-6631; the same text in cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt, lines 4913-4917, and cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines 41581-41583",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "spoken_rendering": "After this sentence the crowd of the brothers kept saying, “Let us be beheaded with him too.” Because of this an uproar rose among the brothers, and a large crowd followed him.",
+                "speaker": "The Acta Proconsularia of Cyprian",
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "The text field is the Latin of Gebhardt's edition (1902), the vendored witness that reads cleanly here. modern_rendering is a translation of the Latin; the Acta has no English in this world's vendored texts.",
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.term.libelli",
+                "record_type": "term",
+                "label": "libelli",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.cyprian-de-lapsis",
+                    "citation": "Cyprian of Carthage, On the Lapsed (De Lapsis), Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "De Lapsis 27 -- 'libellis tamen conscientiam miscuerunt' (defiled their conscience with certificates); De Lapsis 28 -- 'nullo sacrificii aut libelli facinore constricti' (bound by no crime of sacrifice or of certificate)",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.cyprian-epistles",
+                    "citation": "Cyprian of Carthage, The Epistles, including letters to Cyprian from Rome, Cornelius, the confessors and Firmilian of Caesarea, Ante-Nicene Fathers, vol. V",
+                    "author": null,
+                    "work": null,
+                    "locus": "Epistle LI (to Antonianus) 13 and 14 -- those who receive certificates are not to be put on a par with those who have sacrificed; the plea of one who obtained a certificate and paid a price for it",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": "Cyprian uses the word himself, in De Lapsis and in his letter to Antonianus. The English translation renders libelli as certificates, so the Latin headword is absent from the vendored English volume apart from one occurrence in the Introductory Notice to the anonymous treatise against Novatian. The Latin witnesses carry it. Latin libellus in Cyprian also names the martyrs' petitions, so the split between this term and lpc.term.certificates-letters-of-peace separates the English word and is not a distinction the Latin makes.",
+                  "evidentiary_weight": "corroborating",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 3,
+              "sentence_indexes": [
+                0,
+                4,
+                5
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [
+              "lpc.quote.let-us-too-be-beheaded-with-him"
+            ],
+            "removed": [
+              {
+                "sentence": "Augustine, our bishop at Hippo, explains:",
+                "why": "second placed quote in one reply",
+                "draft": "Augustine, our bishop at Hippo, explains: [[quote:lpc.quote.what-is-done-by-you-he-does-in-you]]"
+              }
+            ]
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

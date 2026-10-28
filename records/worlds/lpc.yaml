@@ -3,11 +3,74 @@ world_id: latin-pastoral-congregational-christianity
 display_name: "Latin Pastoral-Congregational Christianity"
 time_window: {start: 246, end: 430}
 place: "Carthage and Hippo Regius"
-state: building
+doorway_place: "Carthage and Hippo Regius"
+doorway_description: >-
+  In 250, the first persecution enforced across the whole empire by
+  plan did not mainly demand that Christians give up their faith. It
+  demanded a recorded act of sacrifice, proved by a certificate. Many
+  gave way, and their bishop, Cyprian of Carthage, did not write them
+  off. He set a road back for them, examined and walked in the open.
+  This is the ordinary church of Latin-speaking Roman North Africa,
+  from about 246 to 430, in two cities, Carthage and Hippo. In each,
+  one bishop was given a particular people and answered for them. A
+  century and a half after Cyprian's death in 258, Augustine of Hippo
+  argued that Cyprian had been wrong about baptism. He never placed
+  him outside the church. This church argued hard about the font and about
+  councils, but kept its bond even with a bishop it judged wrong. It closes in 430, when a Vandal army besieged Hippo and
+  Augustine died there.
+card_name: "The Ordinary Church"
+app: {order: 12, accent_color: "#85914E", portrait: "/images/portraits/thumb/datus.webp"}
 representative: {name: Datus}
 census_id: "latin-pastoral-congregational-christianity"
+thinness_statement: "Richest in the two bishops' own words - Cyprian's letters and treatises, Augustine's sermons, books and letters - with Pontius's and Possidius's lives of each, and in the disputes over the lapsed, the font and communion kept despite disagreement; thinner on ordinary believers' own account of congregational life (no lay writer describes an ordinary Sunday), women's own words (no text a woman wrote survives; women appear in men's letters, sermons and one martyr account), the lapsed's own explanations, the 133 years from 258 to 391 (a silence in this world's own pastoral voice, held as Contested), the Punic- and Berber-speaking rural congregations, excavated material evidence (one letter describes a church building), and the rites as practised, which the surviving arguments take for granted and do not describe."
 safety_adjacent: true
 living_tradition_flag: true
+state: built
 package:
-  manifest_hash: "sha256:37ed887f35c20d83b09121f543655b601def1a7f1425e93a3beaefc5e356be8a"
-  location: "packages/lpc/2026-10-27T14-24-15Z"
+  manifest_hash: "sha256:0179cdc3c01eb249982f96127029337e9dd91e6e068b94b6d5862be0e1833360"
+  location: "packages/lpc/2026-10-28T05-07-47Z"
+story_placement: false
+card:
+  portrait: "assets/portraits/datus.jpg"
+  intro: Datus is a representative voice for the ordinary church of North Africa (c. 246–430 CE). Each church had one bishop, who answered for his own people.
+  shaped:
+  - Cyprian
+  - Augustine
+  - Possidius
+  summary: From about 246 to 430, this was the ordinary church of two cities in Roman North Africa, Carthage and Hippo. Each congregation had one bishop, given a particular people and answerable for them. In 250 a persecution made many give way. Their bishop, Cyprian of Carthage, did not write them off. He set a road back, examined and walked in the open. A century and a half later, Augustine of Hippo argued that Cyprian had been wrong about baptism, but never called him an outsider. Both bishops speak at length in their own words. Almost no one else does.
+  record_holds: Rich in Cyprian's and Augustine's own words. Thin on ordinary believers and the people who gave way.
+  topics:
+  - word: Baptism
+    note: Cyprian held baptism outside the church was empty; Augustine held something real was given.
+  - word: Sin and forgiveness
+    note: Those who gave way could come back, by a road examined and walked openly.
+  - word: Persecution
+    note: The empire's order of 250 demanded proof of sacrifice and created the lapsed.
+  - word: Martyrs
+    note: The lapsed begged martyrs and confessors for peace; Cyprian held it was not theirs.
+  - word: Church leaders
+    note: A bishop answers for one particular people; the people could call him.
+  - word: Church councils
+    note: "Cyprian: no bishop rules bishops. Augustine: a wider council can correct a narrower one."
+  - word: Church splits
+    note: Bishops tried to hold together through disagreement. The Donatists set up a rival church.
+  - word: The emperor and the state
+    note: Cyprian asked the state for nothing. Augustine later backed force against the rival church.
+  - word: Salvation and grace
+    note: Augustine said no will stands right unaided; any good done was given first.
+  - word: Heaven, hell and judgment
+    note: Augustine taught the punishment of the lost has no end, though many objected.
+  - word: Feast days and remembering the dead
+    note: Offerings for the dead helped, Augustine taught, only those who earned it in life.
+  - word: Caring for the sick
+    note: Cyprian's deacon says that in the plague, Cyprian urged help for everyone, even enemies.
+  - word: Money and the poor
+    note: Cyprian taught, quoting Scripture, that almsgiving quenches sin; he told the rich to share.
+  - word: The Bible and how to read it
+    note: Scripture stood above any bishop's letter, but bishops and councils held real authority too.
+  - word: Marriage and family
+    note: Augustine said marriage is good in three ways, for children, faithfulness and its sacrament.
+  aliases:
+  - name: Catholics
+    kind: own
+    note: Their word for the church in communion worldwide, not today's Roman Catholic Church.
