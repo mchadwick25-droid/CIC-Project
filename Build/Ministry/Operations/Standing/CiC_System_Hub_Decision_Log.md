@@ -7079,3 +7079,17 @@ Context: review of PR 1217. A placed answer record shows its quotations as writt
 ### 2026-10-27 — Retrieval is fixed before the lpc live retest (project lead's ruling)
 
 Context: the lpc live validation's safety-4 draft was built on evidence that never offered the suicide witness; cell matching ranked two cells on common words above the cell that names the question (OG-99 in `Build/worlds/lpc/Open_Gaps_Tracking.md`). Alternatives: fix retrieval first; retest now; both in parallel. Chosen: fix retrieval first (project lead, 2026-10-27). Guardrails: offline instruments only, no model call; every world's retrieval metrics reported before and after; a regression anywhere blocks the change; the sealed canon and its questions are not edited. The live retest remains the project lead's to name, with a cap. Detail: `Build/worlds/lpc/lpc_Decision_Log.md`.
+
+## 2026-10-27 - The retrieval change (pull request 1230) is reverted on main and redone (project lead's ruling)
+
+**Question.** After two failed review rounds on the cell-matching change, what happens to the version already on `main`?
+
+**What happened.** Pull request 1230 ("a cell scores as its best hint statement") merged to `main` six minutes after it opened, with "DO NOT MERGE" in its title and before its Opus review. The review (round 1) returned REVISE: a penance question lost its records, a suicide witness was no longer offered on one phrasing, and cells matched on framing words. The revision (pull request 1234) fixed those, and its recheck (round 2) returned REVISE again: a grief question ("I lost my mother and I cannot stop crying") now reached the hell cell on the words "lost" and "people" and was offered damnation records; "ending my life" lost its comfort record in lpc and pahc and did not offer the suicide witness; and the new hint boost promoted records on common words in other worlds.
+
+**Alternatives shown.** Revert and redo; one more round on top; leave `main` as it is and promote around it.
+
+**Ruling.** Mark, 2026-10-27: revert the change on `main`, then redo it right. This follows the no-fix-on-a-fix rule.
+
+**Done.** `engine/m4/evidence.py`, `engine/m1/canon.py` and `engine/m4/tests/test_evidence.py` are restored to the versions before pull request 1230. The review trail stays: `lpc_Decision_Log.md` and `Open_Gaps_Tracking.md` (OG-99, OG-104, OG-105) are not reverted, so the reasons and measurements remain on file. Live was never given this change.
+
+**Next.** A narrower design for the retrieval fault behind the lpc suicide probe, shown to Mark as options before any code, with a safety sample across every world as part of the measurement.
