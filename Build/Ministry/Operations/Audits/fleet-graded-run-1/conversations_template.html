@@ -1,0 +1,167 @@
+<title>Fleet graded run 1 conversations</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Karla:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: sticky progress strip, world chips, then one accordion of probes per world, answers set in a reading column. */
+:root {
+  --bg: #f6f5f2;
+  --surface: #ffffff;
+  --fg: #1d2127;
+  --muted: #5d6671;
+  --line: #d9dbd8;
+  --accent: #1f5f73;
+  --accent-soft: #dcebf0;
+  --pass: #2f6b3f;
+  --fail: #a3362b;
+  --warn: #8a6a12;
+  --quote: #f1e3b6;
+  --font-read: "Newsreader", Georgia, serif;
+  --font-ui: "Karla", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #14181c; --surface: #1c2227; --fg: #e6e8ea; --muted: #9aa3ad; --line: #2e363d;
+    --accent: #7cc0d6; --accent-soft: #1f3640; --pass: #7fc08f; --fail: #e58a7f; --warn: #d8b85a; --quote: #4a4122;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #14181c; --surface: #1c2227; --fg: #e6e8ea; --muted: #9aa3ad; --line: #2e363d;
+  --accent: #7cc0d6; --accent-soft: #1f3640; --pass: #7fc08f; --fail: #e58a7f; --warn: #d8b85a; --quote: #4a4122;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--fg); font-family: var(--font-ui); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 48px; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface); }
+.wrap { max-width: 980px; margin: 0 auto; }
+.strip { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--surface); border-bottom: 1px solid var(--line);
+  margin-inline: calc(-1 * max(16px, env(safe-area-inset-left, 0px))); padding: 10px max(16px, env(safe-area-inset-left, 0px)); }
+.strip-in { max-width: 980px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 6px 22px; align-items: baseline; }
+.strip h1 { font-size: 16px; margin: 0; font-weight: 700; }
+.stat { font-variant-numeric: tabular-nums; color: var(--muted); }
+.stat b { color: var(--fg); font-weight: 700; }
+.bar { flex: 1 1 100%; height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--accent); }
+.note { color: var(--muted); font-size: 13px; margin: 14px 0 6px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 18px; }
+.chip { font: inherit; font-weight: 600; border: 1px solid var(--line); background: var(--surface); color: var(--fg); padding: 5px 11px; border-radius: 6px; cursor: pointer; }
+.chip:hover { border-color: var(--accent); }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+.chip small { font-weight: 400; opacity: .85; margin-left: 5px; font-variant-numeric: tabular-nums; }
+.chip:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+h2 { font-size: 22px; margin: 6px 0 4px; }
+.sub { color: var(--muted); margin: 0 0 14px; font-variant-numeric: tabular-nums; }
+.review { border: 1px solid var(--line); background: var(--surface); border-radius: 8px; padding: 10px 14px; margin: 0 0 16px; }
+.review b { font-weight: 700; }
+details.p { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; margin: 0 0 8px; }
+details.p > summary { cursor: pointer; padding: 10px 14px; display: grid; grid-template-columns: auto 1fr auto; gap: 4px 12px; align-items: baseline; list-style: none; }
+details.p > summary::-webkit-details-marker { display: none; }
+.pid { font-family: var(--font-mono); font-size: 12px; color: var(--muted); }
+.q { font-weight: 600; min-width: 0; }
+.tag { font-size: 12px; font-weight: 700; padding: 1px 8px; border-radius: 10px; border: 1px solid currentColor; white-space: nowrap; }
+.tag.pass { color: var(--pass); } .tag.fail { color: var(--fail); } .tag.wait { color: var(--muted); } .tag.live { color: var(--accent); }
+.body { padding: 0 14px 14px; border-top: 1px solid var(--line); }
+.cols { display: grid; grid-template-columns: 1fr; gap: 14px; }
+.cols.two { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+.col { min-width: 0; }
+.col h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 14px 0 4px; }
+.ans { font-family: var(--font-read); font-size: 17.5px; line-height: 1.55; max-width: 66ch; }
+.ans p { margin: 0 0 .8em; }
+mark.q { background: var(--quote); color: inherit; padding: 0 2px; border-radius: 2px; }
+.cites { font-family: var(--font-mono); font-size: 12px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 12px; }
+.cites span { overflow-wrap: anywhere; }
+.checks { font-size: 13px; color: var(--muted); }
+.checks .bad { color: var(--fail); }
+.legend { font-size: 13px; color: var(--muted); }
+.empty { color: var(--muted); padding: 18px 0; }
+.sec { margin-top: 26px; border-top: 1px solid var(--line); padding-top: 4px; }
+@media (prefers-reduced-motion: no-preference) { .bar i { transition: width .4s; } }
+</style>
+<div class="strip"><div class="strip-in" id="strip"></div></div>
+<div class="wrap">
+  <p class="note" id="note"></p>
+  <div class="chips" id="chips" role="group" aria-label="World"></div>
+  <div id="world"></div>
+</div>
+<script>
+var D = __DATA__;
+function esc(s) { return String(s).replace(/[&<>]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]; }); }
+function prose(t) {
+  return esc(t).split(/\n{2,}/).map(function (p) {
+    return "<p>" + p.replace(/(“[^”]+”|"[^"]+")/g, '<mark class="q">$1</mark>').replace(/\n/g, "<br>") + "</p>";
+  }).join("");
+}
+function money(x) { return "$" + (x || 0).toFixed(2); }
+var cur = (location.hash || "").slice(1);
+var keys = D.worlds.map(function (w) { return w.key; });
+if (keys.indexOf(cur) < 0) cur = D.running || (D.worlds.filter(function (w) { return w.answered; })[0] || D.worlds[0]).key;
+function strip() {
+  var pct = Math.min(100, D.spent / D.cap * 100);
+  document.getElementById("strip").innerHTML =
+    "<h1>Fleet graded run 1</h1>" +
+    '<span class="stat">Worlds done <b>' + D.done + " of " + D.worlds.length + "</b></span>" +
+    '<span class="stat">Spent <b>' + money(D.spent) + "</b> of " + money(D.cap) + " cap</span>" +
+    '<span class="stat">Now <b>' + (D.running ? D.running : (D.done === D.worlds.length ? "finished" : "waiting")) + "</b></span>" +
+    '<div class="bar"><i style="width:' + pct.toFixed(1) + '%"></i></div>';
+  document.getElementById("note").textContent = D.extra_note ||
+    "Each world answered the same 28 sealed questions through the live voice, one call per question. Open a question to read the answer in full.";
+}
+function chips() {
+  document.getElementById("chips").innerHTML = D.worlds.map(function (w) {
+    var s = w.status === "done" ? w.passed + "/" + w.size : (w.status === "running" ? w.answered + "/" + w.size : w.status === "failed" ? "stopped" : "waiting");
+    return '<button class="chip" data-k="' + w.key + '" aria-pressed="' + (w.key === cur) + '">' + w.key + "<small>" + s + "</small></button>";
+  }).join("");
+}
+function checksHtml(p) {
+  if (!p.checks || !p.checks.length) return "";
+  return '<div class="checks">' + p.checks.map(function (c) {
+    return (c.ok ? "✓ " : '<span class="bad">✗ </span>') + esc(c.n) + (c.ok ? "" : ": " + esc(c.f.join("; ")));
+  }).join("<br>") + "</div>";
+}
+function probe(p) {
+  var tag = p.a === null ? '<span class="tag wait">waiting</span>' :
+    p.passed === true ? '<span class="tag pass">checks pass</span>' :
+    p.passed === false ? '<span class="tag fail">checks fail</span>' : '<span class="tag live">answered</span>';
+  var h = '<details class="p"><summary><span class="pid">' + (p.i + 1) + " · " + p.cell + '</span><span class="q">' + esc(p.q) + "</span>" + tag + "</summary>";
+  if (p.a === null) return h + '<div class="body"><p class="empty">Not asked yet.</p></div></details>';
+  h += '<div class="body"><div class="cols' + (p.prev ? " two" : "") + '"><div class="col"><h4>' + (p.prev ? "New answer" : "Answer") + '</h4><div class="ans">' + prose(p.a) + "</div>";
+  h += '<h4>Records cited</h4><div class="cites">' + (p.cites.length ? p.cites.map(function (c) { return "<span>" + esc(c) + "</span>"; }).join("") : "<span>none</span>") + "</div>";
+  if (p.entries && p.entries.length) {
+    h += '<h4>Sentence by sentence</h4><div class="checks">' + p.entries.map(function (e) { return esc(e.sentence) + '<br><span class="cites"><span>' + e.record_ids.map(esc).join(", ") + "</span></span>"; }).join("<br><br>") + "</div>";
+  }
+  h += "<h4>Checks and cost</h4>" + checksHtml(p) + '<div class="checks">' + (p.cost != null ? "Call cost " + "$" + p.cost.toFixed(4) : "") + " · " + esc(p.id) + "</div></div>";
+  if (p.prev) h += '<div class="col"><h4>Run 3, same question</h4><div class="ans">' + prose(p.prev.a) + '</div><h4>Records cited</h4><div class="cites">' + p.prev.cites.map(function (c) { return "<span>" + esc(c) + "</span>"; }).join("") + "</div></div>";
+  return h + "</div></div></details>";
+}
+function extra(w) {
+  if (!w.extra) return "";
+  return w.extra.map(function (s) {
+    return '<div class="sec"><h2>' + esc(s.title) + '</h2><p class="sub">' + esc(s.sub || "") + "</p>" +
+      s.items.map(function (it) {
+        return '<details class="p"><summary><span class="pid">' + esc(it.tag || "") + '</span><span class="q">' + esc(it.q) + '</span><span class="tag wait">' + esc(it.status || "") + "</span></summary>" +
+          '<div class="body"><div class="ans">' + prose(it.a || "") + "</div></div></details>";
+      }).join("") + "</div>";
+  }).join("");
+}
+function show() {
+  var w = D.worlds.filter(function (x) { return x.key === cur; })[0];
+  var h = "<h2>" + esc(w.key) + "</h2>";
+  var sub = w.status === "done" ? w.passed + " of " + w.size + " questions pass the automatic checks · " + money(w.spent) :
+    w.status === "running" ? "Running now: " + w.answered + " of " + w.size + " answered · " + money(w.spent) :
+    w.status === "failed" ? "Stopped after a failed call. " + w.answered + " answers kept · " + money(w.spent) : "Not started yet.";
+  h += '<p class="sub">' + sub + (w.attempts > 1 ? " · attempt " + w.attempts : "") + "</p>";
+  if (w.review) h += '<div class="review"><b>Opus review</b> · ' + esc(w.review.summary) + (w.review.file ? '<br><span class="cites"><span>' + esc(w.review.file) + "</span></span>" : "") + "</div>";
+  h += '<p class="legend"><mark class="q">Highlighted text</mark> is quoted from a source.</p>';
+  h += w.probes.map(probe).join("") + extra(w);
+  document.getElementById("world").innerHTML = h;
+}
+document.getElementById("chips").addEventListener("click", function (e) {
+  var b = e.target.closest("button[data-k]");
+  if (!b) return;
+  cur = b.dataset.k;
+  try { history.replaceState(null, "", "#" + cur); } catch (x) {}
+  chips(); show();
+});
+strip(); chips(); show();
+</script>
