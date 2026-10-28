@@ -40,8 +40,16 @@
       "overall_pass": true,
       "aborted_reason": null,
       "exit_code": 0
+    },
+    "ijc": {
+      "attempts": 1,
+      "status": "running",
+      "preflight_usd": 0.47076629999999997,
+      "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-ijc.jsonl",
+      "probes_answered": 1,
+      "spent_usd_world": 0.072713
     }
   },
-  "current": null,
-  "checkpoint_at": "2026-10-28T23:31:06Z"
+  "current": "ijc",
+  "checkpoint_at": "2026-10-28T23:31:26Z"
 }
