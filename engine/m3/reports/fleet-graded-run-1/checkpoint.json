@@ -1,6 +1,6 @@
 {
   "cap_usd": 12.0,
-  "spent_usd": 4.096833,
+  "spent_usd": 5.022384,
   "worlds": {
     "lpc": {
       "attempts": 1,
@@ -69,13 +69,18 @@
     },
     "witt": {
       "attempts": 1,
-      "status": "running",
+      "status": "done",
       "preflight_usd": 0.61130415,
       "ledger": "engine/m3/reports/fleet-graded-run-1/ledger-witt.jsonl",
-      "probes_answered": 10,
-      "spent_usd_world": 0.404955
+      "probes_answered": 28,
+      "spent_usd_world": 0.925551,
+      "pass_count": 28,
+      "battery_size": 28,
+      "overall_pass": true,
+      "aborted_reason": null,
+      "exit_code": 0
     }
   },
-  "current": "witt",
-  "checkpoint_at": "2026-10-28T23:44:37Z"
+  "current": null,
+  "checkpoint_at": "2026-10-28T23:48:07Z"
 }
