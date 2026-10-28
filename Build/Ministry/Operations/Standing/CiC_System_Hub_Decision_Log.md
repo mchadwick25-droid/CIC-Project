@@ -7190,3 +7190,29 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 **Evidence for a lower cap (offline, 111 recorded lpc turns from 27/28 Oct, 36 of them run 3).** No cap below about 25 keeps every record the voice cited. At 12, 28 cited records are dropped in 18 of the 111 turns (8 in 6 of the 36 run-3 turns); the protected set is never cut. The saving is about 416 tokens a turn at 12, 744 at 10 and 1,018 at 8. The numbers per cap are in the pull request.
 
 **Cost-free trims inside the cap.** None exists. Across run-3 single turns and the 98 canon questions there are no empty riders, no repeated line inside a record and no duplicate guards. Identical rider lines on a second record (about 9 to 10 tokens a turn) and `means` that restates the head (about 7 to 8) would remove record text, so they are not made.
+
+## 2026-10-28 - Review points on the setting rider and the hint rule (#1256, applied in the cap pull request)
+
+**Setting rendering.** A setting with `to_whom` but no `said_by` now reads "To his congregation", and each field's closing full stop is dropped before joining, so no ".." appears. **Length limit.** Each setting field is limited to 160 characters by the quote schema (about 40 tokens a field; at most about 160 tokens for a setting with all four, a typical one about 30). No record uses a setting yet, so no record is affected.
+
+**Hint rule.** `non_question_reason` rejects a `retrieve_when` line that opens "the conversation" or "the representative" as describing the conversation, not only a line that names a record id. The rule as built includes that form, 13 of the 19 don hits are of it, and the don waiver count of 19 covers them. The rule is not narrowed, so no gate count changes.
+
+## 2026-10-28 - Cap 12 and its net cost rise approved for now (project lead, choice box)
+
+**Approval.** Mark, 2026-10-28, from a choice box, by name: "Ship cap 12 and approve the rise for now." Under his standing cost rule (cheaper, then same; a rise needs his approval with the evidence of improvement), the project lead approved the cap at 12 and the net rise against run 3 of about +3% on lpc (combined) and about +5% on standalone questions.
+
+**What the rise pays for.** The riders and the follow-up carry, which target the invented facts and misused quotes found in the run-3 audit.
+
+**Known cost to quality.** The cap drops a cited record in about 16% of recorded turns (18 of 111).
+
+**How it is checked.** The fleet graded run measures whether answers improved with the cap on. If they did not, the `CIC_OFFER_CAP` switch turns the cap off, or the cost is lowered another way. This is a "for now" approval, to be revisited from that run's results.
+
+## 2026-10-28 - Cap follow-up: thin-topic lines survive the cap, the top-scored record of each cell is protected (Opus review of #1261)
+
+**Thin-topic lines.** `thin_topic_riders` ran on the capped list, so a "cannot claim" line vanished when the cap cut the record whose head triggered it. It now runs on the uncapped selection. Of the 370 pairs the cap touches at 12 (1,770 question-world pairs, 13 packages), 56 lost such a line before; none do now.
+
+**Top-scored record of each cell.** The cap protected the first record appended to a cell, which is not always the top-scored one. It now protects both. Before, 2 of the 370 capped pairs cut a cell's top-scored record; none do now. Cost: on the 111 recorded lpc turns, about 38 tokens a turn (378 saved against 416), and cited records cut at 12 go from 28 to 25 (run 3 alone, 8 to 7). Across all 1,770 pairs the saving per capped pair is 464 against 465 tokens.
+
+**Protected set above the cap.** On real data one pair has more protected records than the cap (an lpc question about a parent's violence): 14 protected of 19 selected, so 14 records are offered and nothing is cut beyond them. The rule is unchanged: if the protected records exceed the cap they are all offered.
+
+**Correction.** #1261 merged at head 051e672, before the setting-render fixes, the 160-character field limit, the hint-rule note and the cap-approval entry were pushed. They land in this follow-up pull request.

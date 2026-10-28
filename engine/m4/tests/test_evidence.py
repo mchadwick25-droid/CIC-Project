@@ -1644,6 +1644,29 @@ def test_a_quote_with_a_setting_shows_it_beside_its_gist_and_one_without_shows_n
     assert "setting" not in plain and "setting:" not in _riders_in([plain])
 
 
+def test_a_setting_renders_each_present_field_and_never_doubles_a_full_stop():
+    from engine.m4.evidence import _setting_text
+
+    assert _setting_text({"to_whom": "his congregation"}) == "To his congregation"
+    assert _setting_text({"to_whom": "his congregation", "occasion": "a sermon"}) == "To his congregation, a sermon"
+    assert _setting_text({"said_by": "Augustine", "occasion": "a sermon."}) == "Augustine, a sermon"
+    assert _setting_text({"said_by": "Augustine.", "answers": "how one believer corrects another."}) == "Augustine. It answered: how one believer corrects another"
+    assert _setting_text({"occasion": "a sermon.", "answers": "a question."}) == "a sermon. It answered: a question"
+    assert ".." not in _setting_text({"said_by": "A.", "to_whom": "B.", "occasion": "C.", "answers": "D."})
+
+
+def test_a_setting_field_longer_than_the_limit_fails_the_quote_schema():
+    from engine.m1.schemas import build_schema
+    from jsonschema import Draft202012Validator
+
+    validator = Draft202012Validator(build_schema("quote"))
+    base = {k: v for k, v in _SETTING_QUOTE.items() if k != "setting"}
+    ok = {**base, "setting": {"occasion": "x" * 160}}
+    long = {**base, "setting": {"occasion": "x" * 161}}
+    bad = lambda rec: [e for e in validator.iter_errors(rec) if "setting" in "/".join(map(str, e.path))]  # noqa: E731
+    assert not bad(ok) and bad(long)
+
+
 def test_a_quote_that_enters_through_scope_completion_carries_its_setting(monkeypatch):
     from engine.m4 import evidence as ev
 
@@ -1703,11 +1726,36 @@ def test_the_cap_never_leaves_out_a_cells_first_record_extras_carried_quotes_lim
         _c("y-first", cell="Y-1", score=0.0), _c("y-low", cell="Y-1", score=0.0),
         _c("quote", "quote", cell="Y-1", score=0.0), _c("limit", "honest_limit", score=None),
         _c("fallback", cell=None, score=None, fulltext_fallback=True), _c("scope", cell=None, score=None, scope_completion=True),
-        _c("other", score=0.4),
+        _c("other", score=0.0),
     ]
     kept, dropped = _cap_offered(selected, matches, 3)
     assert set(dropped) == {"x-low", "y-low", "other"}
     assert {c["id"] for c in kept} == {"x-first", "hint", "hint2", "ent", "carried", "y-first", "quote", "limit", "fallback", "scope"}
+
+
+def test_the_cap_keeps_the_top_scored_record_of_each_cell_not_only_the_first_appended():
+    from engine.m4.evidence import _cap_offered
+
+    selected = [_c("first", score=0.1), _c("top", score=0.9), _c("q1", "quote", cell=None), _c("q2", "quote", cell=None), _c("low", score=0.0)]
+    kept, dropped = _cap_offered(selected, [{"cell": "X-1"}], 3)
+    assert dropped == ["low"]
+    assert [c["id"] for c in kept] == ["first", "top", "q1", "q2"]
+
+
+def test_a_thin_topic_line_is_not_lost_when_the_cap_leaves_out_the_record_that_triggered_it(monkeypatch):
+    import engine.m4.evidence as evidence
+
+    kw = dict(message="What did your community actually have about Jesus - writings, memories, people?", asks=None,
+              canon_questions=CANON_QUESTIONS, coverage=COVERAGE, repository_records=REPOSITORY)
+    monkeypatch.setattr(evidence, "OFFER_CAP", None)
+    uncapped = assemble_evidence(**kw)
+    monkeypatch.setattr(evidence, "OFFER_CAP", 4)
+    cut_id = assemble_evidence(**kw)["capped"][0]
+    head = next(c["head"] for c in uncapped["candidates"] if c["id"] == cut_id)
+    thin = [{"keywords": [head.lower()], "note": "nothing is recorded on this"}]
+    capped = assemble_evidence(**kw, thin_topics=thin)
+    assert cut_id in capped["capped"]
+    assert capped["thin_ground"] == thin
 
 
 def test_when_the_protected_records_alone_exceed_the_cap_they_are_all_offered():

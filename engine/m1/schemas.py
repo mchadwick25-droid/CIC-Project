@@ -595,10 +595,10 @@ TYPE_PROPERTIES: dict[str, dict] = {
         "setting": {
             "type": "object",
             "properties": {
-                "said_by": {"type": "string"},
-                "to_whom": {"type": "string"},
-                "occasion": {"type": "string"},
-                "answers": {"type": "string"},
+                "said_by": {"type": "string", "maxLength": 160},
+                "to_whom": {"type": "string", "maxLength": 160},
+                "occasion": {"type": "string", "maxLength": 160},
+                "answers": {"type": "string", "maxLength": 160},
             },
             "minProperties": 1,
             "additionalProperties": False,

@@ -1199,30 +1199,43 @@ def _offer_cap_from_env(environ=None) -> int | None:
 OFFER_CAP = _offer_cap_from_env()
 
 
-def _cap_offered(selected: list[dict], cell_matches: list[dict], cap: int | None) -> tuple[list[dict], list[str]]:
-    """The offered records with the lowest-ranked ones beyond `cap` left out,
-    and the ids left out. Never left out: the first record of each cell, every
-    record of an entity-matched, hint-word or carried cell, every quote (the
-    placement may use any), every honest limit, and every full-text-fallback or
-    scope-completion record. Rank is the matcher's own score, lower first, a
-    later position going before an earlier one; if the protected records alone
-    exceed the cap they are all offered."""
-    if cap is None or len(selected) <= cap:
-        return selected, []
+def _protected_ids(selected: list[dict], cell_matches: list[dict]) -> set[str]:
+    """The records the cap never leaves out: the first record appended and the
+    top-scored record of each cell, every record of an entity-matched,
+    hint-word or carried cell, every quote (the placement may use any), every
+    honest limit, and every full-text-fallback or scope-completion record."""
     cells = {m["cell"]: m for m in cell_matches}
     protected: set[str] = set()
     cells_seen: set[str] = set()
+    top: dict[str, tuple[float, str]] = {}
     for c in selected:
         cell = c.get("cell")
         match = cells.get(cell) or {}
-        if cell is not None and cell not in cells_seen:
-            cells_seen.add(cell)
-            protected.add(c["id"])
+        if cell is not None:
+            if cell not in cells_seen:
+                cells_seen.add(cell)
+                protected.add(c["id"])
+            score = c["score"] if c.get("score") is not None else -1.0
+            if cell not in top or score > top[cell][0]:
+                top[cell] = (score, c["id"])
         if (
             c["record_type"] in ("quote", "honest_limit") or c.get("fulltext_fallback") or c.get("scope_completion")
             or match.get("from_entity") or match.get("from_hint_word") or match.get("from_prior_turn")
         ):
             protected.add(c["id"])
+    protected.update(rid for _, rid in top.values())
+    return protected
+
+
+def _cap_offered(selected: list[dict], cell_matches: list[dict], cap: int | None) -> tuple[list[dict], list[str]]:
+    """The offered records with the lowest-ranked ones beyond `cap` left out,
+    and the ids left out. Records `_protected_ids` names are never left out.
+    Rank is the matcher's own score, lower first, a later position going
+    before an earlier one; if the protected records alone exceed the cap they
+    are all offered."""
+    if cap is None or len(selected) <= cap:
+        return selected, []
+    protected = _protected_ids(selected, cell_matches)
     droppable = sorted(
         ((i, c) for i, c in enumerate(selected) if c["id"] not in protected),
         key=lambda t: (t[1]["score"] if t[1].get("score") is not None else -1.0, -t[0]),
@@ -1412,6 +1425,7 @@ def assemble_evidence(
             }
         )
 
+    uncapped = selected
     selected, capped = _cap_offered(selected, cell_matches, OFFER_CAP)
     selected = apply_session_exclusion(selected=selected, already_told_ids=already_told_ids)
     if rhythm is not None:
@@ -1419,7 +1433,7 @@ def assemble_evidence(
             {**c, "used_in_round": used} if (used := rhythm.used_round(c["id"])) else c
             for c in selected
         ]
-    thin_ground = thin_topic_riders(message=message, asks=asks, selected=selected, thin_topics=thin_topics)
+    thin_ground = thin_topic_riders(message=message, asks=asks, selected=uncapped, thin_topics=thin_topics)
     selected = [_with_riders(_with_quote_index(c, repository_records), repository_records) for c in selected]
 
     result = {
@@ -1455,11 +1469,14 @@ def _setting_text(setting: dict | None) -> str:
     occasion, and what it answered. Empty when the record has none."""
     if not isinstance(setting, dict):
         return ""
-    said = " ".join(str(setting.get("said_by") or "").split())
-    to = " ".join(str(setting.get("to_whom") or "").split())
-    occasion = " ".join(str(setting.get("occasion") or "").split())
-    answers = " ".join(str(setting.get("answers") or "").split())
-    who = " to ".join(part for part in (said, to) if part)
+    def clean(key: str) -> str:
+        return " ".join(str(setting.get(key) or "").split()).rstrip(".")
+
+    said, to, occasion, answers = clean("said_by"), clean("to_whom"), clean("occasion"), clean("answers")
+    if said and to:
+        who = f"{said} to {to}"
+    else:
+        who = said or (f"To {to}" if to else "")
     first = ", ".join(part for part in (who, occasion) if part)
     return ". ".join(part for part in (first, f"It answered: {answers}" if answers else "") if part)
 
